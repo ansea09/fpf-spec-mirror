@@ -1,6 +1,6 @@
 # First Principles Framework (FPF) — Core Conceptual Specification
 by Anatoly Levenchuk and assortment of LLMs.
-January 2026
+February 2026
 
 Pattern and headers templates are explained in pattern E.8.
 
@@ -39,7 +39,7 @@ Pattern and headers templates are explained in pattern E.8.
 | A.2 | **Role Taxonomy** | Stable | *Keywords:* role, assignment, holder, context, function vs identity, responsibility, U.RoleAssignment. *Queries:* "How to model responsibilities?", "What is the difference between what a thing *is* and what it *does*?" | **Builds on:** A.1, A.1.1. **Prerequisite for:** A.2.1-A.2.6, A.13, A.15. |
 | A.2.1 | **`U.RoleAssignment`: Contextual Role Assignment** | Stable | *Keywords:* Standard, holder, role, context, RoleEnactment, RCS/RSG. *Queries:* "How to formally assign a role in FPF?", "What is the Holder#Role:Context Standard?" | **Refines:** A.2. **Prerequisite for:** A.15. |
 | A.2.2 | **`U.Capability`: System Ability (dispositional property)** | Stable | *Keywords:* ability, skill, performance, action, work scope, measures. *Queries:* "How to separate ability from permission?", "What is a capability in FPF?" | **Builds on:** A.2. **Informs:** A.15, A.2.3. |
-| A.2.3 | **`U.ServiceClause`: The Service Promise Clause** | Stable | *Keywords:* service clause, promise content, accessSpec, acceptanceSpec, SLO, SLA, claim scope (G), Work evidence, provider/consumer roles, deprecated alias `U.Service`. *Queries:* "What is a service clause in FPF?", "Service clause vs Work vs MethodDescription", "How do access and acceptance differ?", "How is SLO/SLA adjudicated from Work evidence?" | **Builds on:** A.2.2. **Prerequisite for:** F.12. **Used by:** A.2.8, A.6.C, A.6.8. |
+| A.2.3 | **`U.PromiseContent`: Consumer‑facing Promise Clause** | Stable | *Keywords:* promise content, promise content, accessSpec, acceptanceSpec, SLO, SLA, claim scope (G), Work evidence, provider/consumer roles. *Queries:* "What is a promise content in FPF?", "Promise content vs Work vs MethodDescription", "How do access and acceptance differ?", "How is SLO/SLA adjudicated from Work evidence?" | **Builds on:** A.2.2. **Prerequisite for:** F.12. **Used by:** A.2.8, A.6.C, A.6.8. |
 | A.2.4 | **`U.EvidenceRole`: The Evidential Stance** | Stable | *Keywords:* evidence, claim, support, justification, episteme. *Queries:* "How does an episteme serve as evidence?", "Modeling evidence roles." | **Builds on:** A.2. **Informs:** A.10, B.3. |
 | A.2.5 | **`U.RoleStateGraph`: The Named State Space of a Role**| Stable | *Keywords:* state machine, RSG, role state, enactability, lifecycle. *Queries:* "How to model the state of a role?", "What is a Role State Graph?" | **Builds on:** A.2.1. **Prerequisite for:** A.15. |
 | A.2.6 | **Unified Scope Mechanism (USM): Context Slices & Scopes**| Stable | *Keywords:* scope, applicability, ClaimScope (G), WorkScope, set-valued. *Queries:* "How to define the scope of a claim or capability?", "What is G in F-G-R?" | **Builds on:** A.1.1. **Constrains:** A.2.2, A.2.3, B.3. |
@@ -58,7 +58,7 @@ Pattern and headers templates are explained in pattern E.8.
 | ***Cluster A.IV.A - Signature Stack & Boundary Discipline (A.6.*)*** | | | | |
 | A.6 | **Signature Stack & Boundary Discipline** | Stable | *Keywords:* boundary, signature stack, routing, laws, admissibility, deontics, evidence, claim register, MVPK, view/viewpoint, surface. *Queries:* "What is the Signature Stack in FPF?", "How do I route boundary statements (laws vs gates vs duties vs evidence)?", "How to avoid contract-soup drift in boundary descriptions?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Coordinates with:** A.6.5, A.6.6, A.6.7, E.19. |
 | A.6.B | **Boundary Norm Square (Laws / Admissibility / Deontics / Work-Effects)** | Stable | *Keywords:* boundary norm square, atomic claims, L/A/D/E routing, laws vs gates, commitments, evidence carriers, no upward dependencies, claim IDs, triangle decomposition. *Queries:* "What is the Boundary Norm Square in FPF?", "How to decompose a mixed sentence into gate/duty/evidence claims?", "Where do RFC keywords belong in FPF patterns?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Used by:** A.6 (cluster overview). |
-| A.6.C | **Contract Unpacking for Boundaries** | Stable | *Keywords:* contract bundle unpacking, SLA/guarantee routing, service clause (promise content) ≠ work, promise-act/utterance/commitment separation, Boundary Norm Square (L/A/D/E), MVPK faces “no new semantics”. *Queries:* "How to unpack contract language into service clause / utterance / commitment / work+evidence?", "How to prevent interface-as-agent / contract soup mistakes?", "How to stop MVPK faces becoming ‘second contracts’?", "When contract talk includes service-cluster tokens, what gets unpacked first?" | **Builds on:** A.6, A.6.B, A.6.8, A.7, A.2.3, A.2.8, A.2.9, E.10, E.17. **Coordinates with:** F.12, F.18.
+| A.6.C | **Contract Unpacking for Boundaries** | Stable | *Keywords:* contract bundle unpacking, SLA/guarantee routing, promise content (promise content) ≠ work, promise-act/utterance/commitment separation, Boundary Norm Square (L/A/D/E), MVPK faces “no new semantics”. *Queries:* "How to unpack contract language into promise content / utterance / commitment / work+evidence?", "How to prevent interface-as-agent / contract soup mistakes?", "How to stop MVPK faces becoming ‘second contracts’?", "When contract talk includes service-cluster tokens, what gets unpacked first?" | **Builds on:** A.6, A.6.B, A.6.8, A.7, A.2.3, A.2.8, A.2.9, E.10, E.17. **Coordinates with:** F.12, F.18.
 | A.6.0| **U.Signature — Universal, law‑governed declaration** | Stable | *Keywords:* signature, vocabulary, laws, applicability, bounded context. *Queries:* "What is the universal signature block?", "Where do laws vs. implementations live?" | **Placement:** Kernel; **Coordinates:** A.6.1. |
 | A.6.1 | **U.Mechanism - Law‑governed application to a SubjectKind over a BaseType** | Stable | Keywords: Mechanism, OperationAlgebra, LawSet, AdmissibilityConditions, Transport, Bridge‑only. Queries: "How to define a mechanism like USM/UNM?", "Where do operational guards live?", "How to handle cross‑context transport?" | **Builds on:** A.6.0, E.10.D1. **Instances:** USM (A.2.6), UNM (A.19). |
 | A.6.2 | **U.EffectFreeEpistemicMorphing — Effect-Free Morphisms of Epistemes** | Stable | *Keywords:* episteme, effect-free, morphism, functoriality, describedEntity, lenses, reproducibility. *Queries:* "How to transform descriptions/specs without mechanisms?", "What are conservative episteme-to-episteme transforms in FPF?", "How do Describe_ID / Specify_DS fit into a general morphism class?" | **Builds on:** A.1 (Holon), A.7 (Strict Distinction, Object≠Description≠Carrier), A.6.0 (U.Signature), A.6.5 (U.RelationSlotDiscipline), E.10.D2 (I/D/S discipline), C.2.1 (U.EpistemeSlotGraph). **Used by:** A.6.3 (U.EpistemicViewing), A.6.4 (U.EpistemicRetargeting), E.17.0 (U.MultiViewDescribing), E.17 (MVPK), E.18 (E.TGA StructuralReinterpretation), KD-CAL mapping rules. |
@@ -68,7 +68,7 @@ Pattern and headers templates are explained in pattern E.8.
 | A.6.5 | **U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)** | Stable | *Keywords:* slot, argument position, value, reference, signature, substitution, pass-by-value, pass-by-reference. *Queries:* “How do I declare positions and references in relations?”, “How do we stop mixing roles, values and ids in signatures?”, “How does SlotKind/ValueKind/RefKind interact with I/D/S and Epistemes?” | **Builds on:** A.6.0 (U.Signature), A.1 (Holon), A.7 (Strict Distinction), E.8 (pattern authoring discipline), E.10 (LEX-BUNDLE; Tech/Plain registers). **Used by:** C.2.1 (U.EpistemeSlotGraph), A.6.2–A.6.4 (episteme morphisms), B.5.* (RoleEnactment), C.3.* (Kinds & KindSignature), E.17.0 (U.MultiViewDescribing), discipline-packs for methods/services. |
 | A.6.6 | **U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)** | Stable | *Keywords:* base declaration, basedness, baseRelation, SWBD, witnesses, scope, Γ_time, anchoring, rebase, retime, rescope. *Queries:* "What is U.BaseDeclarationDiscipline?", "How to model base-dependence without anchoring?", "What is a ScopedWitnessedBaseDeclaration (SWBD)?" | **Builds on:** A.6.0, A.6.5, A.2.6, A.2.4, A.7, E.8, E.10. **Coordinates with:** A.10, A.14, C.2.1, A.6.3–A.6.4, C.3.3, E.18, F.9, F.15, F.18. **Used by:** base-relative admissibility/calibration/attribution patterns; anchor* rewrites into explicit `baseRelation(dependent, base)`. |
 | A.6.7 | **`MechSuiteDescription` — Description of a set of distinct mechanisms** | Stable | *Keywords:* mechanism suite, distinct mechanisms, suite obligations, contract pins, CN-Spec, CG-Spec, P2W, planned baseline, crossing visibility. *Queries:* "What is a MechSuiteDescription?", "How to describe a bundle of distinct mechanisms without using MechFamilyDescription?", "How do suite obligations differ from gate decisions?" | **Builds on:** E.8, A.6.1, A.6.5, E.10, E.19. **Coordinates with:** E.18, A.21. **Used by:** Part G universalization; CHR mechanism stacks. |
-| A.6.8 | **Service Polysemy Unpacking (RPR-SERV)** | Stable | *Keywords:* service polysemy, facet unpacking, serviceSituation QRR, service clause vs access point, provider principal, SLA/SLO, server/service provider rewrite. *Queries:* "How to unpack service talk in FPF?", "serviceSituation lens", "service clause vs service access point", "RPR-SERV rules". | **Builds on:** A.6.P, A.6.B, A.6.5, A.2.3, A.2.8, A.2.9, A.15, E.10, F.17, F.18. **Coordinates with:** A.6.C, A.7, F.8, E.15. |
+| A.6.8 | **Service Polysemy Unpacking (RPR-SERV)** | Stable | *Keywords:* service polysemy, facet unpacking, serviceSituation QRR, promise content vs access point, provider principal, SLA/SLO, server/service provider rewrite. *Queries:* "How to unpack service talk in FPF?", "serviceSituation lens", "promise content vs service access point", "RPR-SERV rules". | **Builds on:** A.6.P, A.6.B, A.6.5, A.2.3, A.2.8, A.2.9, A.15, E.10, F.17, F.18. **Coordinates with:** A.6.C, A.7, F.8, E.15. |
 | A.6.9 | **`U.CrossContextSamenessDisambiguation` — Repairing cross-context “same / equivalent / align” via explicit Bridges (RPR-XCTX)** | Stable | *Keywords:* cross-context sameness, bridge, alignment, mapping, direction, substitution licence, loss notes, CL, SenseCells, weakest-link. *Queries:* "How to disambiguate 'same' across contexts?", "How to avoid silent inversion in mappings?", "Naming-only vs substitution bridge". | **Builds on:** A.6.P, F.9, E.10.D1, A.7. **Coordinates with:** E.17, C.3.3, A.6.6, F.7/F.8. |
 | A.6.S | **U.SignatureEngineeringPair — Constructive signature engineering (ConstructorSignature + TargetSignature)** | Stable | *Keywords:* signature engineering, TargetSignature, ConstructorSignature, two-signature arrangement, EFEM, editioning, retargeting, slot/base change lexicon, MVPK views (no new semantics), claim register, no epistemic agency. *Queries:* "What is U.SignatureEngineeringPair in FPF?", "How do I model TargetSignature vs ConstructorSignature (and keep Work out of edits)?", "How do slot/base change verbs compose into a reproducible signature evolution workflow?" | **Builds on:** A.6.0, A.6.2, A.6.3, A.6.4, A.6.5, A.6.6, A.6.B, A.3, A.7, A.12, C.2.1, E.17, E.10. **Coordinates with:** E.18, E.19. |
 | A.6.H | **Wholeness Language Unpacking (RPR-WHOLE)** | Stable | *Keywords:* wholeness, integrity, part-of, boundary, environment, mereology, completeness, order/time, artefact–referent level, role–method–work. *Queries:* "How to unpack 'whole/part/integrity' in FPF?", "RPR-WHOLE trigger words", "ComponentOf vs ConstituentOf vs PortionOf vs MemberOf vs PhaseOf", "How to route order/time vs mereology?" | **Builds on:** A.6.P, A.6.5, A.7. **Coordinates with:** A.14, B.1.1, B.1.4, A.15. |
@@ -1674,7 +1674,7 @@ A `U.Work` record provides (or allows derivation of) the fields needed to satisf
 ##### A.2.1:4.9.3 - Evaluation & acceptance (link to services & deontics)
 
 * **Observation.** The Work produces `U.Observation`(s).
-* **Evaluation.** A `U.Evaluation` compares Observations with **AcceptanceClause**(s) referenced by a **Service** or a **RequirementRole**.
+* **Evaluation.** A `U.Evaluation` compares Observations with **AcceptanceClause**(s) referenced by a **promise content clause** (`U.PromiseContent`) or a **RequirementRole**.
 * **SoD hook.** If the step or evaluation demands independence (e.g., “not performed by its reviewer”), enforce via `⊥` between `PerformerRole` and `ReviewerRole` **in the same Context**.
 
 ##### A.2.1:4.9.4 - Planning & scheduling (design‑time “who will enact”)
@@ -2077,13 +2077,13 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 | **Ability** (can do within bounds)         | **Capability**          | Would you still say “can do” even if not currently assigned? If yes → Capability.           |
 | **Recipe** (how‑to)                        | **Method / MethodDescription** | Has inputs/outputs and steps but no date/time.                                               |
 | **Execution** (what happened)              | **Work**                | Has a start/end, consumed resources, left a log.                                             |
-| **External promise**                       | **Service**             | Framed as “we provide/guarantee to others.”                                                  |
+| **External promise**                       | **Promise content (service promise clause)** | Framed as “we provide/guarantee to others.”                                                  |
 | **Law/model of change**                    | **Dynamics**            | Describes state evolution, not an ability of one system.                                     |
 
 **Two useful corollaries**
 
 * A step in a Method may **require** a Role; **optionally** it may also stipulate a **capability threshold** (e.g., precision ≤ 0.2 mm). assignment and ability are checked separately.
-* A Service depends on **having** the needed capabilities **and** being **assigned** to deliver under the Service’s context.
+* A promise content clause depends on **having** the needed capabilities **and** being **assigned/committed** to deliver under the clause’s context (bind as `U.Commitment` when it is an obligation).
 
 
 ### A.2.2:6 - Archetypal grounding (parallel structural and organizational examples)
@@ -2114,14 +2114,14 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 * **WorkScope:** IFRS; ERP v12; 8 legal entities; staffing ≥ 6 FTE; cut‑off rules X.
 * **Measures:** close in ≤ 5 business days; adjustment error rate < 0.2 %.
 * **Context:** `OperatingModel_2025`.
-* **Distinction:** This is **ability**; the **Service** “Provide month‑end close” is the external promise derived from this ability once formally offered.
+* **Distinction:** This is **ability**; the **service promise clause** “Provide month‑end close” is the external promise derived from this ability once formally offered.
 
 
 ### A.2.2:7 - Bias‑Annotation (as in cluster‑E patterns)
 
 * **Lenses tested:** `Arch`, `Prag`, `Did`, `Epist`.
 * **Scope declaration:** Universal; holder constrained to `U.System`.
-* **Rationale:** Gives the kernel a clean, reusable **ability concept** so Role (assignment), Method (recipe), Work (execution), and Service (promise) do not collapse into each other. Keeps planning talk truthful and checkable without introducing governance machinery here. **`U.Capability`** is a **dispositional property of a `U.System`** that states its **ability to produce a class of outcomes** (i.e., execute a class of Work) **within a declared `U.WorkScope` (conditions/assumptions) and meeting stated `U.WorkMeasures`**.
+* **Rationale:** Gives the kernel a clean, reusable **ability concept** so Role (assignment), Method (recipe), Work (execution), and promise content (external promise clause) do not collapse into each other. Keeps planning talk truthful and checkable without introducing governance machinery here. **`U.Capability`** is a **dispositional property of a `U.System`** that states its **ability to produce a class of outcomes** (i.e., execute a class of Work) **within a declared `U.WorkScope` (conditions/assumptions) and meeting stated `U.WorkMeasures`**.
 
 ### A.2.2:8 - Conformance Checklist (normative)
 
@@ -2129,7 +2129,7 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 A capability **belongs to** a **`U.System`** (physical, cyber, socio‑technical, or organizational). Capabilities are **not** assigned to `U.Episteme`.
 
 **CC‑A2.2‑2 (Separation of concerns).**
-A capability is **not** a Role, **not** a Method/MethodDescription, **not** a Work, and **not** a Service. Models **SHALL NOT** use capability declarations to stand in for assignments, recipes, executions, or promises.
+A capability is **not** a Role, **not** a Method/MethodDescription, **not** a Work, and **not** a promise content clause (`U.PromiseContent`). Models **SHALL NOT** use capability declarations to stand in for assignments, recipes, executions, or promises.
 
 **CC‑A2.2‑3 (WorkScope required for operational use).**
 When a capability is used to qualify a step or to support planning, its statement **MUST** name a **WorkScope** (conditions/assumptions) and **WorkMeasures** (targets/ranges). **Guards that admit Work MUST test** that the **holder’s WorkScope covers the step’s JobSlice** (i.e., `WorkScope ⊇ JobSlice`) **and that WorkMeasures meet the step’s thresholds, with an explicit `Γ_time` window bound**. Without a WorkScope and measures, a capability is advisory and **SHALL NOT** be used for step admission or assurance claims.
@@ -2192,15 +2192,17 @@ Capabilities are **stable but not static**. Three simple practices keep reasonin
 * **Constructor vs. transformer.** The **ConstructorRole** builds the composite (Γ); the resulting **TransformerRole** may later act on products. Capability belongs to the holder relevant to the action (builder’s ability vs operator’s ability).
 
 
-### A.2.2:12 - Interaction with Service (external promise)
+### A.2.2:12 - Interaction with Service Promise Clauses (external promise content)
 
-A **Service** is an **external promise**. It relies on capability but is not identical to it.
+A **service promise clause** (a `U.PromiseContent`) is a consumer‑facing **external promise statement**. It relies on capability but is not identical to it.
 
-* **From capability to service.** You normally **derive** a Service by taking a capability and **fixing** the promise outward (e.g., “We guarantee close ≤ 5 days”).
-* **From service back to capability.** If the promise raises the bar (e.g., tighter SLA), the underlying capability must meet or exceed it under the service’s context.
-* **Staffing.** Delivering a Service still requires **Role assignments**; capability alone does not authorize action.
+> **Note.** The bare head noun *service* is polysemic; in normative prose it is treated as an **always‑unpack** token. Use A.6.8 (RPR‑SERV) to name the intended facet (promise clause vs endpoint vs work vs commitment).
 
-**Memory aid:** Capability = *can do*; Service = *promise to others that we will do*.
+* **From capability to service promise clause.** You normally **derive** a service promise clause by taking a capability and **fixing** the promise outward (e.g., “We guarantee close ≤ 5 days”).
+* **From service promise clause back to capability.** If the promise raises the bar (e.g., tighter SLA), the underlying capability must meet or exceed it under the promise clause’s context.
+* **Staffing.** Delivering on a service promise clause still requires **Role assignments**; capability alone does not authorize action.
+
+**Memory aid:** Capability = *can do*; service promise clause = *promise to others that we will do*.
 
 
 ### A.2.2:13 - Interaction with Dynamics (laws vs. abilities)
@@ -2218,7 +2220,7 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 * **Work‑as‑capability.** “We did it once, so we can.” → One Work log is not a stable ability; state envelope and measures if you want a capability claim.
 * **Context‑less claims.** “This tool can machine titanium.” → Say **where and under what bounds** (context + WorkScope + measures).
 * **Stuffing capabilities into BoM/PBS.** Structure lists **what it is**; capabilities belong to **what it can do** (the holder), not inside the parts list.
-* **Service‑as‑capability.** “We have the Month‑end Close capability (promise).” → Promise is **Service**; ability is internal, promise is external.
+* **Service‑as‑capability.** “We have the Month‑end Close capability (promise).” → Promise is a **service promise clause** (`U.PromiseContent`); ability is internal, promise is external.
 
 
 ### A.2.2:15 - Migration notes (quick wins for existing texts)
@@ -2245,7 +2247,7 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 Role; A.2.1 `U.RoleAssignment`.
 * **Coordinates with:** A.3 (Transformation & role masks); A.15 (Role–Method–Work Alignment).
 * **Constrains:** Step design: thresholds belong on steps; BoM/PBS must stay structural.
-* **Informs:** `U.ServiceClause` definitional pattern (external promises derive from capabilities); `U.Dynamics` definitional pattern (models used as evidence or predictors); Γ/aggregation (capability of composites is stated at the whole).
+* **Informs:** `U.PromiseContent` definitional pattern (external promises derive from capabilities); `U.Dynamics` definitional pattern (models used as evidence or predictors); Γ/aggregation (capability of composites is stated at the whole).
 * **Lexical guards:** E.10.x **L‑FUNC** (do not call capability “function”); E.10.y **L‑PROC** (do not call capability “process”).
 
 
@@ -2257,37 +2259,35 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 
 ### A.2.2:End
 
-## A.2.3 - `U.ServiceClause` (Service Clause)
+## A.2.3 - `U.PromiseContent` (Promise Content)
 
 ### A.2.3:1 - Context
 
 Across domains the word **service** is used for many different things: a server or **provider**, an **API**, a **procedure**, a **run**, a **department**, even a **product bundle**. Such polysemy is productive in everyday speech but toxic in a normative model.
 
-FPF therefore reserves **`U.ServiceClause`** for exactly one kernel meaning: **promise content** — a **service clause** (a consumer‑facing promise statement). Any other “service” sense MUST be modeled explicitly as `U.System`, `U.RoleAssignment`/principal, `U.MethodDescription`, or `U.Work` inside an appropriate `U.BoundedContext` and, in normative prose, MUST be written with an explicit **facet head phrase** per **A.6.8 (RPR‑SERV)**.
+FPF therefore reserves **`U.PromiseContent`** for exactly one kernel meaning: **promise content** — a **promise content** (a consumer‑facing promise statement). Any other “service” sense MUST be modeled explicitly as `U.System`, `U.RoleAssignment`/principal, `U.MethodDescription`, or `U.Work` inside an appropriate `U.BoundedContext` and, in normative prose, MUST be written with an explicit **facet head phrase** per **A.6.8 (RPR‑SERV)**.
 
-**Legacy alias (compatibility).** `U.Service` is a deprecated alias for `U.ServiceClause`. It MAY appear in pre‑refactor material, but conforming new normative text and machine‑checkable artefacts SHALL use `U.ServiceClause`.
+This keeps the kernel minimal while keeping the prose readable to non‑mathematicians: the canonical symbol is `U.PromiseContent`, and the head kind in normative text is always *promise content*.
 
-This keeps the kernel minimal while keeping the prose readable to non‑mathematicians: the canonical symbol is `U.ServiceClause` (legacy alias: `U.Service`), and the head kind in normative text is always *service clause*.
+**Modularity note.** A.2.3 defines only the promise‑content object (the **promise content**) and its direct links to roles, access specification, acceptance criteria, and work evidence. The multi‑facet “service situation” bundle that also names provider principals/systems/access points/commitments/acts is handled as a precision‑restoration lens in **A.6.8 (`serviceSituation(…)`)**. Contract‑talk unpacking (and routing of “contract / SLA / guarantee” language) is handled by **A.6.C**, which calls A.6.8 when service‑cluster tokens appear.
 
-**Modularity note.** A.2.3 defines only the promise‑content object (the **service clause**) and its direct links to roles, access specification, acceptance criteria, and work evidence. The multi‑facet “service situation” bundle that also names provider principals/systems/access points/commitments/acts is handled as a precision‑restoration lens in **A.6.8 (`serviceSituation(…)`)**. Contract‑talk unpacking (and routing of “contract / SLA / guarantee” language) is handled by **A.6.C**, which calls A.6.8 when service‑cluster tokens appear.
+In the Role–Method–Work alignment, the **promise content** must say something **external‑facing** and **consumer‑oriented**, yet remain separate from *how* the provider does it (Method/MethodDescription) and *what actually happened* (Work).
 
-In the Role–Method–Work alignment, the **service clause** must say something **external‑facing** and **consumer‑oriented**, yet remain separate from *how* the provider does it (Method/MethodDescription) and *what actually happened* (Work).
-
-> Intuition: a **service** is the promise you advertise and are judged by; **work** is what you do to keep that promise; **method/spec** is how you know what to do.
-> (Normative head-kind rewrite): a **service clause** is the promise clause you advertise and are judged by; **work** is what you do (and what can be evidenced) to satisfy that promise; **method/spec** is how you know what to do.
+> Intuition: the **consumer-facing promise clause** is what you advertise and are judged by (`U.PromiseContent`); **work** is what you do to keep that promise; **method/spec** is how you know what to do. (See A.6.8 for full “service” polysemy unpacking.)
+> (Normative head-kind rewrite): a **promise content** is the promise clause you advertise and are judged by; **work** is what you do (and what can be evidenced) to satisfy that promise; **method/spec** is how you know what to do.
 
 **Lexical note (L‑SERV / RPR‑SERV)**
 
-The surface forms *service/service‑level/service use/service access* (and the adjacent cluster *service provider*, *server*) are **ambiguous** across domains. In the kernel, **`U.ServiceClause`** (legacy alias: `U.Service`) is reserved for promise content only and is written in prose as a **service clause**.
+The surface forms *service/service‑level/service use/service access* (and the adjacent cluster *service provider*, *server*) are **ambiguous** across domains. In the kernel, **`U.PromiseContent`** is reserved for promise content only and is written in prose as a **promise content**.
 
-Normative prose therefore SHALL treat the bare head noun **service** as **always‑unpack** (PTG=Guarded): every head‑noun occurrence MUST be rewritten to a facet head phrase (service clause / service provider principal / service access point / service delivery system / …) or to the correct underlying FPF object (team, ticket, endpoint host, procedure, work item), per **A.6.8 (RPR‑SERV)**.
+Normative prose therefore SHALL treat the bare head noun **service** as **always‑unpack** (PTG=Guarded): every head‑noun occurrence MUST be rewritten to a facet head phrase (promise content / service provider principal / service access point / service delivery system / …) or to the correct underlying FPF object (team, ticket, endpoint host, procedure, work item), per **A.6.8 (RPR‑SERV)**.
 
 E.10’s lexical anchor **L‑SERV** SHOULD be implemented as “pointer + lint rule” to A.6.8: the short rule names the hazard, while A.6.8 provides the full rewrite recipe and the facet head phrase set.
 
 
 ### A.2.3:2 - Problem
 
-Without a first‑class `U.ServiceClause`, models drift into five recurring errors:
+Without a first‑class `U.PromiseContent`, models drift into five recurring errors:
 
 1. **Provider = Service.** Calling the **system** or **team** “the service” collapses structure with promise.
 2. **API = Service.** Treating an **interface/endpoint** as the service hides the consumer‑oriented promise (effect + acceptance).
@@ -2300,54 +2300,134 @@ Without a first‑class `U.ServiceClause`, models drift into five recurring erro
 
 | Force                                       | Tension                                                                                                       |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **External promise vs internal capability** | Service must be consumer‑facing, while capability is provider‑internal.                                       |
-| **Specification vs execution**              | Service is a **specifiable** obligation; value is **realised** only by runs of Work.                          |
+| **External promise vs internal capability** | Promise content must be consumer‑facing, while capability is provider‑internal.                               |
+| **Specification vs execution**              | Promise content is a **specifiable** clause; value is **realised** only by runs of Work.                     |
 | **Universality vs domain richness**         | One kernel meaning must cover IT, utilities, healthcare, public services—without absorbing domain taxonomies. |
 | **Measurability vs privacy**                | Consumers need SLO/SLA and outcomes; providers want implementation freedom (Method autonomy).                 |
 | **Stability vs evolution**                  | Services version and change without invalidating prior Work evidence.                                         |
 
 
-### A.2.3:4 - Solution — The unified concept `U.ServiceClause`
+### A.2.3:4 - Solution — The unified concept `U.PromiseContent`
 
 **Definition (normative).**
-Within a `U.BoundedContext`, a **`U.ServiceClause`** is an **externally oriented promise clause**: a context‑local statement of (i) a **promised external effect**, (ii) **eligibility + access** (how a consumer may request/use), and (iii) **acceptance criteria** (SLO/SLA‑like targets) by which fulfillment is judged.
+Within a `U.BoundedContext`, a **`U.PromiseContent`** is an **externally oriented promise clause**: a context‑local statement of (i) a **promised external effect**, (ii) **eligibility + access** (how a consumer may request/use), and (iii) **acceptance criteria** (SLO/SLA‑like targets) by which fulfillment is judged.
 
-`U.ServiceClause` is **promise content** (`U.Episteme`), not a deontic binding. One or more explicit **`U.Commitment`** objects (A.2.8) MAY reference a `U.ServiceClause` as payload to bind an accountable principal/role‑assignment; the clause itself does not “obligate” anyone until such a commitment is represented.
+`U.PromiseContent` is **promise content** (`U.Episteme`), not a deontic binding. One or more explicit **`U.Commitment`** objects (A.2.8) MAY reference a `U.PromiseContent` as payload to bind an accountable principal/role‑assignment; the clause itself does not “obligate” anyone until such a commitment is represented.
 
-In normative prose, the head phrase for `U.ServiceClause` is **service clause** (or **service promise clause**) per A.6.8; the bare noun *service* is not a valid shorthand for this kernel object.
+In normative prose, the head phrase for `U.PromiseContent` is **promise content** (or **service offering clause** / **service promise clause**) per A.6.8; the bare noun *service* is not a valid shorthand for this kernel object.
 
 * **Type:** `U.Episteme` (a promise clause on a carrier).
 * **Scope:** design‑time concept; judged at run‑time by evidence from `U.Work`.
 * **Time stance:** design-time concept; judged at run-time by evidence from `U.Work`.
 * **Orientation:** consumer‑facing (“what you can rely on”), as opposed to capability (“what we can do”).
-* **Prose head (normative):** *service clause* (Tech) / *service promise clause* (Plain). (Both twins retain an explicit **clause** head‑kind to avoid act/content ambiguity and to comply with A.6.8 headword governance.)
+* **Prose head (normative):** *promise content* (Tech) / *service offering clause* (Plain; *service promise clause* acceptable synonym). (Both twins retain an explicit **clause** head‑kind to avoid act/content ambiguity and to comply with A.6.8 headword governance.)
 
 #### A.2.3:4.1 - Core structure (minimal fields)
 
 ```
-U.ServiceClause {
+U.PromiseContent {
   context        : U.BoundedContext,   // where the promise is meaningful
   purpose        : Text/Episteme,      // the externally observable effect/value
   providerRole   : U.Role,             // role kind that may provide it (not a person/system)
   consumerRole?  : U.Role,             // optional role kind allowed to consume
   claimScope?    : U.ClaimScope,       // where the promise holds (G) — operating conditions/populations/locales
   accessSpec?    : U.MethodDescription,       // service access spec: request-facing interface/eligibility; not an access point system
-  acceptanceSpec : U.Episteme,         // targets: SLO/SLA, quality/throughput/latency/accuracy…
-  unitOfDelivery?: Episteme,           // how delivered units are counted/measured
+  acceptanceSpec : U.Episteme,         // targets: SLO / acceptance targets (quality/throughput/latency/accuracy…); evaluated over same evidence base as promisedOutcomeSpecRef (CC‑A2.3‑18)
+  promisedOutcomeSpecRef : OutcomeSpecRef, // promised outcome (work, result, or both) in disambiguated spec form
+  unitOfDelivery?: Episteme,           // how delivered units are counted/measured (unit + countingRule; see A.7:5.10)
   version?       : SemVer/Text,
   timespan?      : Interval
 }
 ```
 
+* `promisedOutcomeSpecRef` MUST point to a `U.OutcomeSpec` (A.7:5.10). It is the promise‑facing outcome template (work‑only / result‑only / composite), not a `U.Work` episode and not an extensional delivered object.
 * `providerRole` and `consumerRole` are **role kinds**; the actual performers are **RoleAssignments** at run‑time.
 * `acceptanceSpec` defines **what counts as fulfilled** (the test).
 * `accessSpec` is **how to ask** (eligibility, protocol, counter, desk, API).
-* **Internal delivery methods/runbooks are not part of the service clause.** Model them as `U.MethodDescription` and relate them to the clause via `serviceSituation(…)` (A.6.8) or explicit context relations; providers retain **Method autonomy**.
+* **Internal delivery methods/runbooks are not part of the promise content.** Model them as `U.MethodDescription` and relate them to the clause via `serviceSituation(…)` (A.6.8) or explicit context relations; providers retain **Method autonomy**.
 
-#### A.2.3:4.2 - What `U.ServiceClause` is **not**
+#### A.2.3:4.1.1 - Promised outcome spec (disambiguation: work vs post-work result)
+
+`promisedOutcomeSpecRef` points to an `U.OutcomeSpec` episteme that makes explicit **what exactly is promised** — in *kind/spec* form — without collapsing it into either:
+
+* the **promise content clause** itself (`U.PromiseContent`),
+* the **delivery work** that happens at run‑time (`U.Work`), or
+* the **resulting state/object** after the work.
+
+This is a controlled **semantic precision restoration** for the everyday metonymy “outcome/service outcome”, which different communities use to mean (i) the work performed, (ii) the achieved result, or (iii) both.
+
+**Terminology bridge (informative).**
+In loose contract talk people say **promiseOutcomeSpec** (the description of what will be delivered) and **promiseOutcome** (what was actually delivered). Those surface forms are metonymic: sometimes they mean “the work performed”, sometimes “the post‑work result”, and sometimes the pair.
+
+In FPF:
+
+* **promiseOutcomeSpec** → `U.OutcomeSpec` (A.7:5.10), referenced via `promisedOutcomeSpecRef`.
+* **promiseOutcome** → an **extensional delivered outcome instance**. It is not a single kernel object; it is the **run‑time reality** that satisfies the outcome spec, understood according to `U.OutcomeSpec.mode`:
+
+  * `WorkOnly` → the **set of delivery `U.Work` episode(s)** that satisfy `workSpec` (and, if present, the promised `methodConstraintRef`).
+  * `ResultOnly` → the **post‑work state of the described referent(s)** on the declared `statePlaneRef` that satisfies `resultSpec.postConditionRef` (regardless of how it was achieved).
+  * `Composite` → the pair: **(delivery Work episode(s), post‑work state)**.
+
+  FPF points to this extensional delivered outcome instance by citing: (i) the relevant `U.Work` occurrence(s) and (ii) their **Δ anchors** (affected referents + pre/post anchors) on the declared state‑plane (A.15.1:4.2 item 10). Evidence carriers/telemetry are **epistemic witnesses** used to justify those anchors and acceptance verdicts—they are not themselves the delivered outcome.
+
+If a Context needs an explicit handle for the delivered instance (e.g., for bundling, invoicing, or dispute cases), it MAY introduce a local kind such as `OutcomeInstance` with separate slots for: `{workRefs, affectedEntityRefs, postStateAnchors, evidenceRefs}`. Such a local reification MUST keep **(a) the extensional delivered instance**, **(b) the evidence about it**, and **(c) the outcome spec** (`U.OutcomeSpec`) distinct.
+
+A conforming `U.OutcomeSpec` uses the canonical shape from A.7:5.10.2:
+
+```
+U.OutcomeSpec ::= {
+  mode: WorkOnly | ResultOnly | Composite,
+
+  workSpec?: {
+    methodConstraintRef?: MethodDescriptionRef,   // optional: method is part of the promise (not “implementation detail”)
+    workPredicateRef: EpistemeRef                 // predicate on `U.Work` facts/evidence
+  },
+
+  resultSpec?: {
+    describedEntityRef?: EntityRef,               // what thing’s post‑state matters (may be kind‑labelled)
+    statePlaneRef?: StatePlaneRef,                // where the predicate lives (A.7:3 pins)
+    postConditionRef: EpistemeRef                 // predicate on post‑state (or evidence about it)
+  }
+}
+```
+
+* `workSpec` corresponds to the **work‑as‑promised** facet: it states the consumer‑facing *kind* of work (optionally constraining method) and the work predicate (e.g., duration, method ban, safety bound).
+* `resultSpec` corresponds to the **result‑as‑promised** facet: it states the post‑work entity/state kind and the postcondition predicate.
+* **Counting is not part of `U.OutcomeSpec`.** Counting lives on `U.PromiseContent.unitOfDelivery` as the `countingRule` mini‑schema (A.7:5.10.3). Outcome specs say *what* counts as delivery; unit‑of‑delivery specs say *how much* to count and how to avoid double counting.
+
+**Examples (informative):**
+
+* “Work 5 minutes” → `mode=WorkOnly`; `workPredicateRef` states duration ≥ 5 min; `methodConstraintRef` may be omitted.
+* “Dig a hole” → `mode=ResultOnly`; `postConditionRef` describes the hole’s target state; method choice remains provider‑autonomous.
+* “Hairstyle in ≤ 20 min, must be haircut+styling (not a wig)” → `mode=Composite`; `workSpec` expresses time + method constraint; `resultSpec` expresses the target hairstyle state.
+
+**Naming note (normative).**
+The head noun **outcome** is intentionally broad. Do **not** replace it with **result** when referring to the combined promise payload. If a passage means the **post‑work entity/state only**, say **result** and bind it to `resultSpec`. If it means the **work episode(s) promised**, say **work as promised** and bind it to `workSpec`.
+
+#### A.2.3:4.1.2 - Recommended `acceptanceSpec` mini‑schema *(informative, non‑kernel)*
+
+`acceptanceSpec : U.Episteme` is intentionally open‑ended in Core. However, to keep acceptance **computable** (and to avoid the legacy “pass verdict separate from delivery” mistake), Contexts are encouraged to express `acceptanceSpec` as a small bundle of references:
+
+```
+AcceptanceSpec (recommended) ::= {
+  targetOutcomeSpecRef?: OutcomeSpecRef,  // default: SC.promisedOutcomeSpecRef
+  criteriaRefs: [EpistemeRef],            // each criterion evaluates the *delivery evidence base* (U.Work facts + Δ anchors + admissible Observations)
+  verdictScale: Episteme/ScaleRef,        // pass/fail/graded; MUST state how “non‑delivery” is represented
+  Γ_timePolicyRef?: EpistemeRef           // how Γ_time is selected (per‑Work, per calendar window, per batch, per population, …)
+}
+```
+
+* **`targetOutcomeSpecRef`** makes explicit *which* promised outcome is being judged; if omitted, it is the containing promise content’s `promisedOutcomeSpecRef`.
+* **`criteriaRefs`** are the acceptance criteria (SLO targets, quality gates, compliance predicates, etc.). Each criterion is an evaluation over the **same evidence base** used to establish delivery of the targeted `U.OutcomeSpec`: `U.Work` facts/evidence plus the relevant **Δ anchors** (affected referents + pre/post anchors) on the declared state‑plane, and any admissible `U.Observation` witnesses.
+* **`verdictScale`** declares the decision scale (boolean, trichotomy, graded). It MUST define what happens when the outcome is **not delivered** (e.g., `fail`, `N/A`, `Inconclusive`, or a dedicated grade).
+* **`Γ_timePolicyRef`** keeps windowing explicit and non‑retroactive (F.10/F.12): it states whether judgement is per Work episode, per reporting window, per population, etc.
+
+This mini‑schema is a **recommendation only**: it is not a kernel object and may be flattened, encoded in a canonical SLO vocabulary, or carried in local contract artefacts. Its purpose is to keep acceptance **discussable, auditable, and bridge‑ready**.
+
+#### A.2.3:4.2 - What `U.PromiseContent` is **not**
 
 * **Not a provider:** use `System#ServiceProviderRole:Context` `U.RoleAssignment`.
-* **Not a deontic commitment:** that is `U.Commitment` (A.2.8) referencing the service clause as payload.
+* **Not a deontic commitment:** that is `U.Commitment` (A.2.8) referencing the promise content as payload.
 * **Not an access point:** addressable “services/servers/desks/endpoints” are `U.System` (see A.6.8: *service access point* / *service delivery system*).
 * **Not a method/recipe:** that is `U.Method/MethodDescription`.
 * **Not a run/incident/ticket:** that is `U.Work`.
@@ -2360,30 +2440,30 @@ U.ServiceClause {
 * **Design‑time:**
   The context **declares Claim scope (G)** for acceptance (operating conditions, populations, locales) per A.2.6.
   The context may assert: `bindsCapability(ServiceProviderRole, Capability)`.
-  Providers choose `Method/MethodDescription` to realise the promised effect described by the service clause.
+  Providers choose `Method/MethodDescription` to realise the promised effect described by the promise content.
 
 * **Run‑time:**
   A **consumer** performs `Work` (e.g., a request/visit) — `performedBy: ConsumerRoleAssigning`.
-  The **provider** performs `Work` to fulfil the service clause — `performedBy: ProviderRoleAssigning`.
-  Delivered `Work` instances are evaluated against `acceptanceSpec` and **counted** via `unitOfDelivery`.
-  SLA/SLO outcomes are therefore functions over **Work evidence**, not over the service clause object itself.
+  The **provider** performs `Work` to fulfil the promise content — `performedBy: ProviderRoleAssigning`.
+  Delivered `Work` instances are evaluated against `acceptanceSpec`, **linked** to `promisedOutcomeSpecRef`, and **counted** via `unitOfDelivery`.
+  SLA/SLO outcomes are therefore functions over **Work evidence**, not over the promise content object itself.
  
   (Terminology note: use `…RoleAssignment` consistently for the run‑time enactor relation; avoid the “RoleAssigning” variant unless it is a separately defined kind in the Context.)
 
-> **Memory hook:** *Service clause promises, Method describes, Work proves.*
+> **Memory hook:** *Promise content promises, Method describes, Work proves.*
 
 #### A.2.3:4.4 - Didactic card: The service delivery chain (clause → commitment → situation → work → acceptance)
 
 > **Didactic (non‑normative).** This is a one‑screen “map” that stitches the modular pieces together:
-> `U.ServiceClause` (A.2.3) → `U.Commitment` (A.2.8) → provider `U.RoleAssignment` (A.2.1) → *serviceSituation(...)* facet slots (A.6.8 lens) → `U.Work + carriers` (A.15) → acceptance verdict (A.2.3).
+> `U.PromiseContent` (A.2.3) → `U.Commitment` (A.2.8) → provider `U.RoleAssignment` (A.2.1) → *serviceSituation(...)* facet slots (A.6.8 lens) → `U.Work + carriers` (A.15) → acceptance verdict (A.2.3).
 >  
 > This is **not new ontology**. It is a reader‑safety diagram that prevents two common category errors:
-> (i) treating `U.ServiceClause` as something addressable (“the service you call”), and
+> (i) treating `U.PromiseContent` as something addressable (“the service you call”), and
 > (ii) treating `serviceSituation(...)` as semantics rather than a *binding lens* over already‑defined kinds.
 
 ```mermaid
 flowchart LR
-  SC["Service clause<br/>(U.ServiceClause · Episteme)"]
+  SC["Promise content<br/>(U.PromiseContent · Episteme)"]
   C["Commitment<br/>(U.Commitment · D)"]
   RA["Provider role assignment<br/>(U.RoleAssignment · accountable subject in Context/window)"]
 
@@ -2415,19 +2495,19 @@ flowchart LR
 ```
 
 **Reading guide (one breath).**
-* The **service clause** is *what is promised* (promise content).
+* The **promise content** is *what is promised* (promise content).
 * The **commitment** is *who is bound* (deontic accountability) and it **references** the clause.
 * The **provider role assignment** is the accountable subject *that can act* in a given Context/window.
 * `serviceSituation(...)` (A.6.8) is a **facet‑binding lens** that names the common “service talk” participants (access spec / access point / delivery system / delivery method) **without** collapsing them into the clause.
 * **Work + evidence** is what happened; the **acceptance verdict** is computed by applying the clause’s `acceptanceSpec` to work evidence (not by reading the clause, and not by “looking at the service” as a system).
 
 **Litmus rule (addressability).**
-If you can *call / connect to / visit / restart / scale* it, you are talking about a **service access point** (system facet), not the **service clause** (promise content).
+If you can *call / connect to / visit / restart / scale* it, you are talking about a **service access point** (system facet), not the **promise content** (promise content).
 
 
 ### A.2.3:5 - Archetypal grounding (engineer‑manager friendly)
 
-| Domain                    | **`U.ServiceClause` (promise)**                           | Provider & Consumer (as Roles)                                   | Access (how to ask)                  | Fulfilment (Work)                        | Typical acceptance targets                  |
+| Domain                    | **`U.PromiseContent` (promise)**                           | Provider & Consumer (as Roles)                                   | Access (how to ask)                  | Fulfilment (Work)                        | Typical acceptance targets                  |
 | ------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------ | ---------------------------------------- | ------------------------------------------- |
 | **Cloud/IT**              | “**Object Storage**: durable PUT/GET of blobs up to 5 TB” | `CloudTeam#ServiceProviderRole`, `BackupJob#ServiceConsumerRole` | `S3_API_Spec_vX` (`MethodDescription`)      | Each PUT/GET run; data durability checks | Availability ≥ 99.9%, durability 11×9       |
 | **Manufacturing Utility** | “**Compressed air** at 8 bar in Zone B”                   | `Maintenance#Provider`, `LineB#Consumer`                         | Manifold access rules (`AccessSpec`) | Compressor cycles & delivery logs        | Pressure window, purity class, flow ceiling |
@@ -2441,51 +2521,57 @@ If you can *call / connect to / visit / restart / scale* it, you are talking abo
 The popular service diagrams (provider ↔ access ↔ use ↔ capability/activity) map to FPF as follows:
 
 * **Agent (as Service Provider)** → `System#ServiceProviderRole:Context` (`U.RoleAssignment`).
-* **Service Agreement / SLA** → `U.ServiceClause.acceptanceSpec` (+ optional `WorkPlan` for windows).
+* **Service Level Objective (SLO)** / acceptance targets → `U.PromiseContent.acceptanceSpec` (+ optional `WorkPlan` for windows).
+* **Service Level Agreement (SLA)** (binding obligation) → `U.Commitment` referencing the relevant `U.PromiseContent` (and, where needed, its acceptance/evidence specs); use **A.6.C Contract Bundle** when packaging “the SLA” as an artefact set.
+* **SLA document / published terms** → `U.SpeechAct` (promise/offer act) + the clause carrier (`U.Episteme`), per A.2.9 + A.7.
 * **Operating conditions / “where the promise holds”** → `claimScope : U.ClaimScope (G)` (or embedded in `acceptanceSpec`) per A.2.6.
+* **Subject of service (“customer material”: asset/data/person/case whose state is changed)** → `promisedOutcomeSpecRef.resultSpec.describedEntityRef` (and the affected referents in delivery `U.Work.Δ`). “Ours vs theirs” (ownership/custody) is modeled as a **role/relationship inside the Context** (e.g., `OwnerRole:…`, `CustomerRole:…`, operated‑by/owned‑by), not as a Kernel‑global property.
+
 * **Service Presence / Access** → `accessSpec : MethodDescription` (interface/eligibility); actual endpoints are **systems** playing interface roles.
-* **Individual Service Use** → **consumer and provider `U.Work`** instances linked to the `U.ServiceClause` they fulfil.
+* **Individual Service Use** → **consumer and provider `U.Work`** instances linked to the `U.PromiseContent` they fulfil.
 * **Service‑Enabled Capability / Activity** → effects on the consumer side: either a **Capability** gained/used, or **Work** performed; do **not** reify as a new kernel type.
 
-(Where a domain needs richer structures—catalogs, exposure layers, charging, entitlement—model them **in the domain context** and relate them to `U.ServiceClause` via `U.RoleAssignment` and alignment bridges.)
+(Where a domain needs richer structures—catalogs, exposure layers, charging, entitlement—model them **in the domain context** and relate them to `U.PromiseContent` via `U.RoleAssignment` and alignment bridges.)
 
 ### A.2.3:7 - Conformance Checklist (normative)
 
 **CC‑A2.3‑0 (Prose head phrase).**
-In normative prose, an instance of `U.ServiceClause` (legacy alias: `U.Service`) SHALL be referred to as a **service clause** (or **service promise clause**) and SHALL NOT be referenced by the bare head noun *service*. Unqualified *service* usage (and the co‑moving cluster *service provider* / *server*) SHALL be unpacked per A.6.8 (RPR‑SERV).
+In normative prose, an instance of `U.PromiseContent` SHALL be referred to as a **promise content** (or **service offering clause** / **service promise clause**) and SHALL NOT be referenced by the bare head noun *service*. Unqualified *service* usage (and the co‑moving cluster *service provider* / *server*) SHALL be unpacked per A.6.8 (RPR‑SERV).
 
 **CC‑A2.3‑1 (Type).**
-`U.ServiceClause` **IS** an `U.Episteme` (a consumer‑facing **service clause** on a carrier). It is **not** a `U.System`, **not** a `U.Method/MethodDescription`, **not** a `U.Work`, and **not** a `U.WorkPlan`.
+`U.PromiseContent` **IS** an `U.Episteme` (a consumer‑facing **promise content** on a carrier). It is **not** a `U.System`, **not** a `U.Method/MethodDescription`, **not** a `U.Work`, and **not** a `U.WorkPlan`.
 
 **CC‑A2.3‑2 (Context).**
-Every **service clause** **MUST** be declared **inside** a `U.BoundedContext`. Names and meaning are **local**; cross‑context reuse requires a Bridge (`U.Alignment`).
+Every **promise content** **MUST** be declared **inside** a `U.BoundedContext`. Names and meaning are **local**; cross‑context reuse requires a Bridge (`U.Alignment`).
 
 **CC‑A2.3‑3 (Role kinds, not people/systems).**
 `providerRole` and (if used) `consumerRole` **MUST** be **role kinds** (see A.2). Actual performers at run‑time are `U.RoleAssignment`s.
 
 **CC-A2.3-4 (Acceptance).**
-`acceptanceSpec` **MUST** be present and **MUST** define how delivered `U.Work` is judged (pass/fail/graded) against declared targets (SLO/SLA-like), and **MUST** declare **Claim scope (G)** where relevant (operating conditions, populations, locales). Every verdict binds to an explicit **Γ_time** window.
+`acceptanceSpec` **MUST** be present and **MUST** define how delivered `U.Work` is judged (pass/fail/graded) against declared targets (SLO‑style; any SLA deontics bind via `U.Commitment`), and **MUST** declare **Claim scope (G)** where relevant (operating conditions, populations, locales). Every verdict binds to an explicit **Γ_time** window.
+If the acceptance criteria mention measurable characteristics (availability, latency, accuracy, cost, safety, …), each such characteristic MUST be introduced via the Characterization patterns (C.16 / C.25): an explicit `U.Characteristic` (with scale/unit and measurement procedure / evidence carrier), referenced by id rather than only by a bare KPI name.
 
 **CC‑A2.3‑5 (Access).**
-If consumers must request/obtain the service through an interface, `accessSpec` **MUST** reference the MethodDescription that defines eligibility and invocation rules (API/desk/SOP). If the service is ambient (e.g., compressed air on a manifold), accessSpec **MAY** be omitted, but the eligibility condition **MUST** be stated in the context.
+If consumers must request/obtain **service delivery work** through a request‑facing interface, `accessSpec` **MUST** reference the MethodDescription that defines eligibility and invocation rules (API/desk/SOP). If the **service access point** is ambient (e.g., compressed air on a manifold), `accessSpec` **MAY** be omitted, but the eligibility condition **MUST** be stated in the Context.
 
-**CC‑A2.3‑6 (Unit of delivery).**
+**CC‑A2.3‑6 (Unit of delivery + counting rule).**
 If performance is counted/charged, `unitOfDelivery` **SHOULD** be declared (e.g., “request”, “kWh”, “case”).
+When declared, `unitOfDelivery` **MUST** include a **countingRule** that maps accepted delivery work episodes (`W✓`) to unit counts (A.7:5.10). If omitted, the default is “1 unit per accepted delivery work episode”.
 
-**CC‑A2.3‑7 (No actuals on Service).**
-Resource/time **actuals** and incident logs **MUST** attach to `U.Work` only (A.15.1). Services carry no actuals.
+**CC‑A2.3‑7 (No actuals on Promise Content).**
+Resource/time **actuals** and incident logs **MUST** attach to `U.Work` only (A.15.1). Promise contents carry no actuals.
 
 **CC‑A2.3‑8 (Capability requirement).**
 If the context requires provider abilities, it **MUST** express them as `bindsCapability(providerRole, Capability)` in the context, not by stuffing capabilities into the Service object.
 
 **CC‑A2.3‑9 (Versioning & timespan).**
-Service clauses **MAY** carry `version`/`timespan`. A `U.Work` that claims/fulfils a service clause **MUST** record which service‑clause version it used.
+Promise contents **MAY** carry `version`/`timespan`. A `U.Work` that claims/fulfils a promise content **MUST** record which service‑clause version it used.
 
 **CC‑A2.3‑10 (Lexical rule).**
-Unqualified head‑noun uses of *service* (and the co‑moving cluster *service provider* / *server*) in normative prose **MUST** be disambiguated per **A.6.8 (RPR‑SERV)** and its lexical anchor **L‑SERV** (E.10). When the intended referent is `U.Service`, the head phrase SHALL be **service clause**.
+Unqualified head‑noun uses of *service* (and the co‑moving cluster *service provider* / *server*) in normative prose **MUST** be disambiguated per **A.6.8 (RPR‑SERV)** and its lexical anchor **L‑SERV** (E.10). 
 
 **CC‑A2.3‑11 (No mereology).**
-Do **not** place a Service in PBS/SBS or treat it as a part/component. Structural assemblies live in PBS/SBS; Service is a promise.
+Do **not** place a promise content clause in PBS/SBS or treat it as a part/component. Structural assemblies live in PBS/SBS; the promise clause is an episteme (A.2.3) and “service” talk must be facet‑unpacked (A.6.8).
 
 **CC‑A2.3‑12 (Plan–run split).**
 Windows and calendars belong to `U.WorkPlan` (A.15.2). Fulfilment evidence belongs to `U.Work` (A.15.1).
@@ -2496,47 +2582,73 @@ Deprecated labels *applicability/envelope/generality/validity* **MUST NOT** appe
 **CC-A2.3-14 (Bridges & CL).**
 Cross-context mappings via Bridges keep **F/G** stable; **CL** penalties apply to **R**. A mapping **MAY** recommend **narrowing** the mapped **Claim scope (G)** as best practice (A.2.6/B-line).
 
-### A.2.3:8 - Evidence relations & operators (Service ⇄ Work)
+
+
+**CC-A2.3-15 (OutcomeSpec typing).**
+`promisedOutcomeSpecRef` MUST resolve to `U.OutcomeSpec` (A.7:5.10). It MUST NOT be used to point at a concrete `U.Work` episode or at an extensional delivered object.
+
+**CC-A2.3-16 (OutcomeSpec is explicit and mode‑complete).**
+`promisedOutcomeSpecRef` MUST be present and MUST reference an `U.OutcomeSpec` that declares `mode ∈ {WorkOnly, ResultOnly, Composite}` and satisfies A.7:5.10 mode completeness:
+* `WorkOnly` → `workSpec` present, `resultSpec` absent
+* `ResultOnly` → `resultSpec` present, `workSpec` absent
+* `Composite` → both `workSpec` and `resultSpec` present
+
+**CC-A2.3-17 (OutcomeSpec ⇄ Work anchoring).**
+For any `U.Work` that `claimsPromiseContent(-, SC)` (and especially for `fulfilsPromiseContent(-, SC)`), the Context MUST be able to derive an evidence link from that Work to `SC.promisedOutcomeSpecRef`:
+* if `SC.promisedOutcomeSpecRef.workSpec` is present, the Work is compatible with `methodConstraintRef` (if present) and satisfies `workPredicateRef`;
+* if `SC.promisedOutcomeSpecRef.resultSpec` is present, the Work’s outputs / affected referents / effect‑delta (and cited evidence carriers) satisfy `postConditionRef` on the referenced `statePlaneRef` (or its declared default plane).
+(You MAY materialize this as `deliversPromisedOutcome(Work, OutcomeSpec)` per A.2.3:8.1 for auditability.)
+
+**CC-A2.3-18 (AcceptanceSpec ⇄ OutcomeSpec binding).**
+`acceptanceSpec` MUST be written as an evaluation over the same evidence base used to establish delivery of `SC.promisedOutcomeSpecRef`. In particular, a Work MUST NOT be judged “pass” for a promise content unless it also delivers the promised outcome spec (see `fulfilsPromiseContent` in A.2.3:8.1). If the Context uses multi‑grade verdicts, it MUST declare how “non‑delivery” is represented (fail, N/A, separate grade).
+
+**CC-A2.3-19 (OutcomeSpec ↔ unitOfDelivery coherence).**
+If `unitOfDelivery` is present, its `countingRule.selectorRef` MUST select only Work episodes that are eligible to satisfy `SC.promisedOutcomeSpecRef` (WorkOnly / ResultOnly / Composite) and MUST define how to avoid double counting (via an explicit `dedupeKeyRef` or a policy cited by id) when a single Work episode can satisfy multiple clauses/bundles. The selector MAY be “all fulfilments” (`fulfilsPromiseContent`) but MUST NOT count non‑delivering Work episodes.
+
+**CC-A2.3-20 (Unit-of-delivery is computable from Work evidence).**
+If `unitOfDelivery` is present, then it MUST declare how delivered units are computed from Work evidence (duration, quantity, cases, kWh, etc) per A.7:5.10.3. The default “1 unit per fulfilment Work” is permitted only when `unitOfDelivery` is a pure count of fulfilment episodes.
+
+### A.2.3:8 - Evidence relations & operators (Promise content ⇄ Work)
 
 To keep the promise → evidence path explicit:
 
 #### A.2.3:8.1 - Core relations
 
-* **`claimsServiceClause(Work, ServiceClause)`** — the Work instance **intends** to fulfil the service clause (pre‑verdict).
-* **`fulfilsServiceClause(Work, ServiceClause)`** — the Work instance **meets** the service clause’s `acceptanceSpec` (post‑verdict: pass).
-* **`acceptanceVerdict(Work)`** → {`pass`, `fail`, `partial`, context‑specific grades} — computed by applying `acceptanceSpec` to Work facts.
+* **`claimsPromiseContent(Work, PromiseContent)`** — the Work instance **intends** to fulfil the promise content (pre‑verdict).
+* **`deliversPromisedOutcome(Work, OutcomeSpec)`** — the Work instance evidences delivery of the promised outcome spec (work facet and/or result facet); derived from Work’s I/O/Δ plus the `U.OutcomeSpec` (and MAY be asserted explicitly for auditability).
+* **`acceptanceVerdict(Work, PromiseContent)`** → {`pass`, `fail`, `partial`, context‑specific grades} — computed by applying `acceptanceSpec` (with its declared **Γ_time** and claim scope) to the same Work facts/evidence used to establish delivery.
+* **`fulfilsPromiseContent(Work, PromiseContent)`** — the Work instance both (i) **delivers** the promised outcome spec and (ii) **passes** the promise content’s `acceptanceSpec`.
 * **`usesAccess(Work, MethodDescription)`** — consumer Work that invokes the service via its `accessSpec` (when applicable).
 
-> **Invariant:** `fulfilsServiceClause(W,SC)` ⇒ `claimsServiceClause(W,SC)` and `acceptanceVerdict(W)=pass`.
-> **Invariant:** A Work can claim/fulfil **multiple** service clauses only if the context declares a counting policy (no silent double‑counting).
+> **Invariant:** `fulfilsPromiseContent(W,SC)` ⇒ `claimsPromiseContent(W,SC)` and `deliversPromisedOutcome(W, SC.promisedOutcomeSpecRef)` and `acceptanceVerdict(W,SC)=pass`.
+> **Invariant:** A Work can claim/fulfil **multiple** promise contents only if the context declares a counting policy (no silent double‑counting).
 
 #### A.2.3:8.2 - Service‑clause performance operators
 
-Let `W(SC, T)` be the set of Work that `claimsServiceClause(-,SC)` within time window `T`. Let `W✓(SC, T)` be those with `fulfilsServiceClause`.
+Let `W(SC, T)` be the set of Work that `claimsPromiseContent(-,SC)` within time window `T`. Let `W✓(SC, T)` be those with `fulfilsPromiseContent`.
 
-* **Delivered units:** `delivered(SC, T) = |W✓(SC, T)|` (or sum per `unitOfDelivery`).
+* **Delivered units:** `delivered(SC, T)` is computed from the set `W✓(SC, T)` using `unitOfDelivery`’s **countingRule** (A.7:5.10). Default (when `unitOfDelivery` is absent): `delivered(SC, T) = |W✓(SC, T)|` (one unit per accepted delivery work).
 * **Rejection rate:** `rejectRate(SC, T) = 1 − |W✓(SC,T)| / |W(SC,T)|` (declare handling of `partial`).
 * **Lead time:** average/percentile of `duration(Work)` or of request→completion delta (declare definition).
 * **Availability/Uptime:** computed from Work/telemetry events per the context’s definition (declare availability source).
 * **Cost‑to‑serve:** sum of `Γ_work` over `W✓` per resource category (A.15.1).
 
-All metrics are **functions of Work evidence**; the service clause object is never the bearer of actuals.
+All metrics are **functions of Work evidence**; the promise content object is never the bearer of actuals.
 Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by the KPI owner.
-
 
 ### A.2.3:9 - Anti‑patterns (and the right move)
 
 * **“The microservice **is** the service.”**
-  Rewrite to facet‑explicit terms (A.6.8): the microservice is typically a **service delivery system** (`U.System`) and/or a **service access point** (`U.System`). Keep the **promise content** as a **service clause** in `U.ServiceClause` (legacy alias: `U.Service`), and bind accountability via `U.Commitment` if needed.
+  Rewrite to facet‑explicit terms (A.6.8): the microservice is typically a **service delivery system** (`U.System`) and/or a **service access point** (`U.System`). Keep the **promise content** as a **promise content** in `U.PromiseContent`, and bind accountability via `U.Commitment` if needed.
 
 * **“The API **is** the service.”**
-  The API is typically a **service access spec** (`accessSpec : MethodDescription`) (and systems playing interface roles). The **service clause** is the promise content judged by `acceptanceSpec`.
+  The API is typically a **service access spec** (`accessSpec : MethodDescription`) (and systems playing interface roles). The **promise content** is the promise content judged by `acceptanceSpec`.
 
 * **“Our **process** is the service.”**
-  Process/recipe is `U.Method/MethodDescription`; schedule is `U.WorkPlan`. The **service clause** is **what is promised to the consumer**.
+  Process/recipe is `U.Method/MethodDescription`; schedule is `U.WorkPlan`. The **promise content** is **what is promised to the consumer**.
 
 * **“The **ticket** is the service.”**
-  A ticket/case is `U.Work` (and perhaps a `WorkPlan` item). Evidence and outcomes sit on Work, not on the service clause.
+  A ticket/case is `U.Work` (and perhaps a `WorkPlan` item). Evidence and outcomes sit on Work, not on the promise content.
 
 * **“Attach cost to the service.”**
   Actual cost/time attach to `U.Work` only (A.15.1). Service metrics are computed **from** Work.
@@ -2545,17 +2657,17 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
   Services are not structural parts. Keep PBS/SBS clean.
 
 * **“Hard‑code people into the service.”**
-  Name **role kinds** in the service clause (`U.Service`); run‑time performers are `U.RoleAssignment`s.
+  Name **role kinds** in the promise content (`U.PromiseContent`); run‑time performers are `U.RoleAssignment`s.
 
 
 ### A.2.3:10 - Migration notes (quick wins)
 
-1. **Name the promises.** List 5–15 consumer‑facing promises your context lives by; reify each as `U.ServiceClause` with `acceptanceSpec` and, if needed, `accessSpec` and `unitOfDelivery`.
-2. **Separate provider from service clause.** Keep systems/teams as `U.System`; make them providers via `…#ServiceProviderRole:Context`.
-3. **Wire evidence.** Ensure every relevant `U.Work` has `claimsServiceClause` (and `fulfilsServiceClause` post‑verdict).
-4. **Choose metrics.** For each Service, define 2–4 KPIs and the **exact** Work-based formulas (availability, lead-time, rejection rate, cost-to-serve), and declare the **Claim scope (G)** and **Γ_time** policy used for each KPI.
-   → For each **service clause**, define 2–4 KPIs and the exact Work-based formulas, with explicit `Γ_time`.
-5. **Bridge domains.** If a business ontology already exists (“business/technical/internal service”), keep it in its own context and map to `U.Service` via Bridges.
+1. **Name the promises.** List 5–15 consumer‑facing promises your context lives by; reify each as `U.PromiseContent` with `acceptanceSpec` and, if needed, `accessSpec` and `unitOfDelivery`.
+2. **Separate provider from promise content.** Keep systems/teams as `U.System`; make them providers via `…#ServiceProviderRole:Context`.
+3. **Wire evidence.** Ensure every relevant `U.Work` has `claimsPromiseContent` (and `fulfilsPromiseContent` post‑verdict).
+4. **Choose metrics.** For each Service/promise content, define 2–4 KPIs and the **exact** Work-based formulas (availability, lead-time, rejection rate, cost-to-serve), declare the **Claim scope (G)** and **Γ_time** policy used for each KPI, and—when KPIs are numeric/comparable—define the underlying `U.Characteristic` + measurement procedure/evidence (C.16/C.25) and pin `{UnitType, ScaleKind, ReferencePlane, EditionId}`.
+   → For each **promise content**, define 2–4 KPIs and the exact Work-based formulas, with explicit `Γ_time`.
+5. **Bridge domains.** If a business ontology already exists (“business/technical/internal service”), keep it in its own context and map to FPF Kinds via Bridges.
 6. **Tidy language.** Apply **A.6.8 (RPR‑SERV)** / **L‑SERV**: ban unqualified “service” as a synonym for server/team/process/ticket in normative prose; map them explicitly.
 
 
@@ -2569,7 +2681,7 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 
 ### A.2.3:12 - Didactic quick cards (engineer‑manager ready)
 
-* **Service clause = Promise content.** *What we advertise and are judged by.*
+* **Promise content = Promise content.** *What we advertise and are judged by.*
 * **Method/Spec = Recipe.** *How we usually do it (provider‑internal).*
 * **Work = Evidence.** *What actually happened and consumed resources.*
 * **Provider/Consumer = Roles.** *assignment via RoleAssigning at run‑time.*
@@ -2589,7 +2701,7 @@ FPF separates **what exists** (holons and their kinds) from **what acts** (syste
 **Intent.** Provide one uniform, discipline‑neutral role by which an episteme can be assigned as evidence, while keeping:
 
 * **Agency** on systems performing `U.Work` (not on epistemes).
-* **Promise** and Standardual language on `U.ServiceClause` (not on evidence).
+* **Promise** and Standardual language on `U.PromiseContent` (not on evidence).
 * **Recipe** and eligibility on `U.Method` / `U.MethodDescription` (not on evidence).
 
 ### A.2.4:2 - Problem
@@ -2679,7 +2791,7 @@ The **normative properties** of the role (e.g., `claimRef`, `claimScope`, `polar
 | If you are talking about…               | Use in FPF                                                    | Why                                                                   |
 | --------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------- |
 | **Who acted and consumed resources**    | `U.System` with `U.RoleAssignment` performing `U.Work`           | Only systems act; work records resource deltas.                       |
-| **What was promised to a consumer**     | `U.ServiceClause` (promise with access and acceptance)              | A promise is not evidence; it is judged from work.                    |
+| **What was promised to a consumer**     | `U.PromiseContent` (promise with access and acceptance)              | A promise is not evidence; it is judged from work.                    |
 | **How work should be done or invoked**  | `U.Method` / `U.MethodDescription`                                   | Recipes and interfaces are not evidence.                              |
 | **What counts as evidence for a claim** | `U.Episteme` holding `U.EvidenceRole` via `U.RoleAssignment`     | Evidence is a status of an artefact relative to a claim in a context. |
 | **Moving meaning across contexts**      | An explicit bridge/alignment pattern in the receiving context | Role meanings are context‑local by design.                            |
@@ -2908,7 +3020,7 @@ A.2 `U.Role`, A.2.1 `U.RoleAssignment` (role as mask, binding as assignment), A.
 A.3.2 `U.MethodDescription` (protocols, proof obligations), E.6.1 Epistemic Roles via `U.RoleAssignment` (didactic gateway).
 
 **Informs:**
-KD-CAL (knowledge dynamics, assurance cases), Norm-CAL (policy claims with evidence), planned `U.ServiceClauseEvaluation` (services judged from work and reported as epistemes with evidence bindings).
+KD-CAL (knowledge dynamics, assurance cases), Norm-CAL (policy claims with evidence), planned `U.PromiseFulfillmentEvaluation` (services judged from work and reported as epistemes with evidence bindings).
 
 
 ### A.2.4:14 - Migration notes (quick wins)
@@ -4561,7 +4673,7 @@ Role algebra relates **role types** inside **one** `U.BoundedContext`. It is **n
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → **A.2 Roles & Agency Kernel**
 > **Refines:** A.2 (Role Taxonomy)
-> **Builds on:** E.8 (authoring template), A.2.1 (RoleAssignment), A.2.6 (Scope & `Γ_time`), A.7 (Object≠Description≠Carrier), A.2.3 (`U.ServiceClause` as promise), A.15.1 (`U.Work`)
+> **Builds on:** E.8 (authoring template), A.2.1 (RoleAssignment), A.2.6 (Scope & `Γ_time`), A.7 (Object≠Description≠Carrier), A.2.3 (`U.PromiseContent` as promise), A.15.1 (`U.Work`)
 > **Purpose (one line):** Provide a minimal, reusable kernel object for deontic commitments (who is accountable, under what modality, in what scope/window, with respect to which referents, with which adjudication hooks), **explicitly separating the commitment object from its utterance descriptions** (A.7), so deontics stop “living” in naming patterns and become stable across A.6 and later governance patterns.
 
 ### A.2.8:0 - Terminology: “binding” is overloaded (normative)
@@ -4597,7 +4709,7 @@ How can FPF represent a deontic commitment relation so that:
 1. **The accountable subject is explicit** (role or role-enactor; not “the spec/interface/service”),
 2. **Modality is explicit and lintable** (obligation / permission / prohibition / strength),
 3. **Scope and validity window are explicit** (bounded context + time + conditions),
-4. **The content is referenceable** via stable referent claim IDs (service clauses, gates, evidence targets, etc.),
+4. **The content is referenceable** via stable referent claim IDs (promise contents, gates, evidence targets, etc.),
 5. **Adjudication hooks exist** when the binding is meant to be testable/auditable (links to evidence claims and carrier expectations),
 6. **Conflicts can be represented** (without requiring this pattern to solve them).
 
@@ -4619,7 +4731,7 @@ How can FPF represent a deontic commitment relation so that:
 This pattern defines:
 
 * a **normative minimal structure** for `U.Commitment`,
-* how `U.Commitment` relates to `U.ServiceClause`, `U.Work`, and evidence,
+* how `U.Commitment` relates to `U.PromiseContent`, `U.Work`, and evidence,
 * how it is used as the canonical payload for **D-quadrant** claims (A.6.B),
 * and what must be stated for a commitment to be considered **auditable**.
 
@@ -4673,15 +4785,15 @@ DeonticModalityToken ::=
   // - OPTIONAL               -> MAY
 
 ReferentRef ::=
-  ClaimIdRef | ServiceClouseRef | MethodDescriptionRef | WorkRef
+  ClaimIdRef | PromiseContentRef | MethodDescriptionRef | WorkRef
   // Prefer ClaimIdRef when a routed claim ID exists (L-*, A-*, D-*, E-*).
-  // Use ServiceClouseRef when the commitment is about satisfying a promise-content clause (`U.ServiceClause`).
+  // Use PromiseContentRef when the commitment is about satisfying a promise-content clause (`U.PromiseContent`).
   // Use MethodDescriptionRef (preferred) when the commitment is about performing/avoiding a work-kind (work-to-be-done).
   // Use WorkRef only when the commitment is about an already executed/ongoing Work occurrence (rare).
 
-ServiceClauseRef ::=
+PromiseContentRef ::=
   ObjectIdRef
-  // MUST resolve to a `U.ServiceClause` object (A.2.3). (Some chapters may call this a “service clause”.)
+  // MUST resolve to a `U.PromiseContent` object (A.2.3). (Some chapters may call this a “promise content”.)
 
 AdjudicationHooks ::=
   {
@@ -4721,7 +4833,7 @@ CommitmentSource ::=
 
 #### A.2.8:4.3 - Interaction rules (normative)
 
-1. **`U.ServiceClause` is promise content; `U.Commitment` is the governance relation.**
+1. **`U.PromiseContent` is promise content; `U.Commitment` is the governance relation.**
    A service promise clause (what is promised) is not, by itself, an accountable commitment. A `U.Commitment` makes an accountable subject responsible for providing/satisfying the service promise (or for satisfying other governance clauses).
 
 
@@ -4744,7 +4856,7 @@ When using the A.6 stack, represent each **D-quadrant** atomic claim as a `U.Com
 * `id = D-*`,
 * `subject = accountable role/party`,
 * `modality = DeonticModalityToken` (normalized from RFC-keyword family usage),
-* `referents = {ServiceClauseRef, MethodDescriptionRef, L-*, A-* … as needed}` (content/targets),
+* `referents = {PromiseContentRef, MethodDescriptionRef, L-*, A-* … as needed}` (content/targets),
 * `adjudication.evidenceRefs = {E-* …}` when the commitment is meant to be checkable.
  
 
@@ -4764,7 +4876,7 @@ A routable commitment:
 * `modality`: `MUST`,
 * `scope`: bounded context `IncidentManagement`,
 * `validityWindow`: `calendarYear2026` (or “while contract edition X is active”),
-* `referents`: `{ServiceClauseRef(SVC-SLO-RESP-4H), A-SEV1-CLASS-1}`
+* `referents`: `{PromiseContentRef(SVC-SLO-RESP-4H), A-SEV1-CLASS-1}`
    where `A-SEV1-CLASS-1` is the admissibility predicate for “counts as Sev‑1”.
 * `adjudication.evidenceRefs`: `{E-SLO-RESP-1}`
    where `E-SLO-RESP-1` defines the measurement substrate and evidence carriers (tickets + timestamps + clock source).
@@ -4868,7 +4980,7 @@ The triad “promise / utterance / commitment” is useful for language discipli
 
 **Coordinates with**
 
-* A.2.3 (`U.ServiceClause`): services are promise clauses; commitments bind accountable subjects to those clauses.
+* A.2.3 (`U.PromiseContent`): services are promise clauses; commitments bind accountable subjects to those clauses.
 * **A.2.9 (`U.SpeechAct`)**: `U.Commitment.source.speechActRef` points to the instituting communicative work occurrence when provenance matters.
 * A.15.1 (`U.Work`) and evidence patterns: adjudication hooks refer to evidence in work, not to text.
 
@@ -5004,13 +5116,13 @@ A **`SpeechActRef`** is a reference to `U.SpeechAct.id`.
 * A `SpeechActRef` **MUST NOT** be replaced by an `EpistemeRef` (“see the document”) when provenance is needed; the episteme is an utterance description, not the act.
 * If a system cannot record a full `U.SpeechAct`, it may record a **stub** that still satisfies **SA‑C0…SA‑C4** (minimal `actTypes`, performer, judgement context, window, `affected`, plus at least one observable handle). When a required `U.Work` anchor is unknown, the stub **MUST** use an explicit placeholder (e.g., an “AdHocCommunication” MethodDescription) rather than omitting the field.
 
-#### A.2.9:4.4 — Separation rules with `U.Commitment` and `U.ServiceClause` (normative)
+#### A.2.9:4.4 — Separation rules with `U.Commitment` and `U.PromiseContent` (normative)
 
 1. **Speech act is not the deontic binding.**
    A speech act may **institute** a `U.Commitment`, but the deontic relation itself is the `U.Commitment` object (A.2.8). Do not encode obligations/permissions inside `U.SpeechAct` as prose; instead, create/point to `U.Commitment` IDs in `institutes.commitments`.
 
 2. **Speech act is not the service promise clause.**
-   `U.ServiceClause` / service clauses are promise content; a speech act may be the act of offering/issuing that promise, but the promise content lives in the service/service clause objects and is referenced from the resulting commitments.
+   `U.PromiseContent` / promise contents are promise content; a speech act may be the act of offering/issuing that promise, but the promise content lives in the service/promise content objects and is referenced from the resulting commitments.
 
 3. **Speech act is not the carrier.**
    A “signed approval PDF”, “ticket record”, “Slack message”, or “API call log” is a carrier (and may carry an episteme as utterance content); the speech act is the Work occurrence that produced/issued it.
@@ -5534,7 +5646,7 @@ Thus, welding, milling, reagent mixing, and proof construction are all **Methods
 ### A.3.1:8 - Conformance Checklist (normative)
 
 **CC‑A3.1‑1 (Strict Distinction).**
-`U.Method` is the **semantic “way of doing”**. It is **not** a `U.MethodDescription` (artifact on a carrier), **not** a `U.Work` (dated execution), **not** a `U.Role`/assignment, and **not** a `U.ServiceClause`/promise.
+`U.Method` is the **semantic “way of doing”**. It is **not** a `U.MethodDescription` (artifact on a carrier), **not** a `U.Work` (dated execution), **not** a `U.Role`/assignment, and **not** a `U.PromiseContent`/promise.
 
 **CC‑A3.1‑2 (Context anchoring).**
 Every `U.Method` **MUST** be defined **within** a `U.BoundedContext`. Identity, admissible pre/postconditions, and non‑functional bounds are interpreted **in that context**.
@@ -5633,7 +5745,7 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`.
 * **Coordinates with:** A.3 (role masks for transformers/constructors/observers); A.15 (Role–Method–Work Alignment); B.1 Γ (aggregation) for method families vs assembly of systems.
-* **Informs:** `U.WorkPlan` definitional pattern (plans reference Methods they schedule); `U.ServiceClause` definitional pattern (promises cite Methods as delivery means); `U.Dynamics` definitional pattern (models that Methods may assume).
+* **Informs:** `U.WorkPlan` definitional pattern (plans reference Methods they schedule); `U.PromiseContent` definitional pattern (promises cite Methods as delivery means); `U.Dynamics` definitional pattern (models that Methods may assume).
 
 
 ### A.3.1:15 - Didactic quick cards (reuse in specs and onboarding)
@@ -6081,7 +6193,7 @@ Ambiguous uses of *process/processual* (laws vs. runs vs. recipes) **MUST** be r
 * run → `U.Work`.
 
 **CC‑A3.3‑11 (Link to Services—optional).**
-If Service SLOs are derived from a dynamics model, the Service **SHOULD** reference that `U.Dynamics` (A.2.3), but the Service remains the promise, not the law.
+If service SLOs are derived from a dynamics model, the service promise clause (`U.PromiseContent`) **SHOULD** reference that `U.Dynamics` (A.2.3), but the promise clause remains the promise, not the law.
 
 
 ### A.3.3:9 - Evidence and operators (traces, prediction, conformance)
@@ -6141,7 +6253,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
   KPI lists without an explicit `stateSpace` turn into dashboard folklore. Name characteristics with units and ranges.
 
 * **“Hard‑coding SLO inside the law.”**
-  Service targets are promises (`U.ServiceClause.acceptanceSpec`). Keep predictions and promises separate; link them.
+  Service targets are promises (`U.PromiseContent.acceptanceSpec`). Keep predictions and promises separate; link them.
 
 * **“Stuffing Dynamics into BoM.”**
   A model is not a component. Leave PBS/SBS for structure.
@@ -6157,7 +6269,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 3. **Separate recipe from law.** Move control procedures to `Method/MethodDescription`; keep forecasting/plant equations in `U.Dynamics`.
 4. **Wire evidence.** Ensure production `Work` emits the measurements needed by `observation`. Build `trace(Work, D)`.
 5. **Start conformance.** Define a simple `tol` and compute `fits(D, trace, tol)` weekly. Raise issues on drift; version the model when calibrating.
-6. **Link to promises (optional).** If SLOs depend on the law, reference `U.Dynamics` from `U.ServiceClause` and derive targets transparently.
+6. **Link to promises (optional).** If SLOs depend on the law, reference `U.Dynamics` from `U.PromiseContent` and derive targets transparently.
 7. **For KD‑CAL.** Treat belief/support as characteristics; declare a Bayesian/likelihood update in `transitionLaw`; evaluate conformance against evidence arrivals.
 
 
@@ -6170,7 +6282,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 
 * **Coordinates with:**
   `A.3.1 U.Method` / `A.3.2 U.MethodDescription` (planning/control using the law),
-  `A.2.3 U.ServiceClause` (promises informed by predictions),
+  `A.2.3 U.PromiseContent` (promises informed by predictions),
   **KD‑CAL** (knowledge dynamics as a specialisation: belief‑update laws),
   **Resrc‑CAL** (cost/energy models as dynamics over resources).
 
@@ -6518,7 +6630,7 @@ Default landing zones (quadrant → stack layer / section):
 **Integration stitches (informative; this cluster is a routing hub, not a standalone philosophy):**
 * **A.6.1 ↔ A‑quadrant:** `U.Mechanism.AdmissibilityConditions` is the canonical home for `A-*` gate/admissibility claims.
 * **A.10 / B.3 ↔ E‑quadrant:** `E-*` claims should be anchored to evidence carriers + provenance (A.10); without an explicit evidence anchor they are treated as `AssuranceLevel:L0 (Unsubstantiated)` in the Trust & Assurance calculus (B.3).
-* **A.2.3 / F.12 ↔ D/E separation:** a `U.ServiceClause` promise is not evidence; promise acceptance is linked to work evidence via F.12, and role obligations to maintain admissibility are expressed as `D-*` duties referencing `A-*` and/or `E-*` by ID.
+* **A.2.3 / F.12 ↔ D/E separation:** a `U.PromiseContent` promise is not evidence; promise acceptance is linked to work evidence via F.12, and role obligations to maintain admissibility are expressed as `D-*` duties referencing `A-*` and/or `E-*` by ID.
 
  A stack is useful because the intended direction of change is clear:
 
@@ -6589,9 +6701,9 @@ A disciplined stack therefore requires:
 
 When practitioners say “the API contract”, they usually compress multiple distinct things into one word. The core naming split is the **F.18:16.1** triad; boundary engineering adds the missing adjudication substrate (see also **A.6.C**):
 
-* **Service clause (promise content; `U.ServiceClause`, A.2.3):** what is promised to be made available to eligible consumers — **a promise, not execution** (`U.Work`).
+* **Promise content (promise content; `U.PromiseContent`, A.2.3):** what is promised to be made available to eligible consumers — **a promise, not execution** (`U.Work`).
 * **Utterance package (published descriptions + instituting act):** what is said/published and versioned (signature/mechanism + MVPK faces), plus the `U.SpeechAct <: U.Work` that published/approved it when provenance matters (A.2.9).
-* **Commitment (deontic binding; `U.Commitment`, A.2.8):** what an accountable role/agent is obligated/permitted/prohibited to do (often: to satisfy a service clause).
+* **Commitment (deontic binding; `U.Commitment`, A.2.8):** what an accountable role/agent is obligated/permitted/prohibited to do (often: to satisfy a promise content).
 * **Work + Evidence (adjudication substrate; `U.Work` + carriers):** what actually happens and what carriers/traces can adjudicate whether commitments and operational guarantees were met.
 
 In A.6 terms:
@@ -6720,7 +6832,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 | **CC‑A.6.5 (A.7 separation).**           | A conforming boundary description **SHALL** respect Object≠Description≠Carrier; statements about logs/metrics **SHALL** be written as carrier‑anchored evidence claims/policies, not as properties of the text itself. | Prevents category errors and improves auditability.                 |
 | **CC‑A.6.6 (Viewpoint accountability).** | Every published MVPK face (`U.View`) **SHALL** specify `viewRef` and `viewpointRef`. Faces **SHALL** be projections of the boundary’s canonical routed claim set (A.6.B); normative content on faces **MUST** be expressed as citations to routed claim IDs (not re‑stated prose), and faces **MUST NOT** introduce new semantic commitments beyond the underlying signature/mechanism (per **E.17** “no new semantics”). | Preserves viewpoint discipline and prevents view‑forking.    |
 | **CC‑A.6.6a (MVPK face‑kind discipline).**  | A publication that claims MVPK alignment **MUST** conform to **E.17 / L‑SURF** face‑kind closure (i.e., use only `{PlainView, TechCard, InteropCard, AssuranceLane}` and **MUST NOT** mint additional face kinds). Local “cards” may exist only as headings/sections inside those face kinds. | Aligns with MVPK/L‑SURF; prevents new‑face drift.            |
-| **CC‑A.6.7 (Contract unpacking).**       | When using “contract/guarantee/promise” language, a conforming text **SHOULD** apply the reusable discipline in **A.6.C** to disambiguate whether it refers to a service clause as promise content (`U.ServiceClause`, not execution), an utterance package (published descriptions / speech acts), a deontic commitment (`U.Commitment`), and/or work‑effects/evidence, and then route each atomic statement via **A.6.B** (L/A/D/E) with explicit claim‑ID references (no paraphrase drift). (**F.18** is a lexical anchor only.) | Stops agency attribution errors; clarifies responsibility.          |
+| **CC‑A.6.7 (Contract unpacking).**       | When using “contract/guarantee/promise” language, a conforming text **SHOULD** apply the reusable discipline in **A.6.C** to disambiguate whether it refers to a promise content as promise content (`U.PromiseContent`, not execution), an utterance package (published descriptions / speech acts), a deontic commitment (`U.Commitment`), and/or work‑effects/evidence, and then route each atomic statement via **A.6.B** (L/A/D/E) with explicit claim‑ID references (no paraphrase drift). (**F.18** is a lexical anchor only.) | Stops agency attribution errors; clarifies responsibility.          |
 
 
 ### A.6:8 - Common Anti‑Patterns and How to Avoid Them
@@ -6730,7 +6842,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 | **Gate‑as‑law**                | Preconditions written as “laws” in the signature                | Breaks substitution; violates A.6.0’s separation of signature vs mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. |
 | **RFC‑keywords in invariants** | “MUST” appears inside `Definition:` blocks                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicate IDs from CC when needed.               |
 | **Paraphrase drift**           | Same constraint restated in multiple faces with new wording      | Creates hidden divergence; breaks routing discipline and evidence accountability | Use `…-*` IDs + Claim Register; faces reference IDs rather than restating text.              |
-| **Interface‑as‑promiser**      | “The interface promises…” without identifying an agent          | Ontological category error; contracts are agent commitments                      | Apply **F.18:16.1** unpacking: who commits, via which published utterance, to what service clause.           |
+| **Interface‑as‑promiser**      | “The interface promises…” without identifying an agent          | Ontological category error; contracts are agent commitments                      | Apply **F.18:16.1** unpacking: who commits, via which published utterance, to what promise content.           |
 | **Evidence‑free guarantees**   | “Guaranteed latency” without measurement/evidence story         | Effects exist only in work; without carriers it’s non‑testable                   | Bind to carriers (metrics/traces) and specify the evidence surface (what gets logged).       |
 | **View without viewpoint**     | A “view” is published but no viewpoint accountability is stated | Readers cannot interpret omissions; multi‑view discipline collapses              | Require `viewpointRef` with every face; treat view as projection under viewpoint.            |
 | **System‑as‑agent deontics**   | “The system/service SHALL …” used where no accountable role is named | Blurs behavior semantics with enforcement; hides responsibility                   | Rewrite as (`E-*`) behavior/evidence semantics + (`D-*`) duty on implementers/operators.     |
@@ -7437,7 +7549,7 @@ By requiring atomicity and explicit cross‑quadrant references, the square conv
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → **A.6 Signature Stack & Boundary Discipline**
-> **Builds on:** A.6 (stack + routing intent), **A.6.B** (L/A/D/E), **A.6.8 (RPR‑SERV)** (service‑cluster polysemy unpacking), **A.7** (Object≠Description≠Carrier), **A.2.3** (`U.ServiceClause` / service clause; legacy alias: `U.Service`), **A.2.4** (`U.EvidenceRole`), **A.2.8** (`U.Commitment`), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), E.10 (L‑SERV / LEX‑BUNDLE), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance/evidence discipline)
+> **Builds on:** A.6 (stack + routing intent), **A.6.B** (L/A/D/E), **A.6.8 (RPR‑SERV)** (service‑cluster polysemy unpacking), **A.7** (Object≠Description≠Carrier), **A.2.3** (`U.PromiseContent` / promise content), **A.2.4** (`U.EvidenceRole`), **A.2.8** (`U.Commitment`), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), E.10 (L‑SERV / LEX‑BUNDLE), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance/evidence discipline)
 > **Lexical anchor:** **F.18** (NQD front for the *service (promise) / utterance / commitment* triad; naming, not ontology)
 > **Mint/reuse (terminology):** Reuses “contract / SLA / guarantee” as Plain-level boundary shorthand; mints **Contract Bundle** as an unpacking lens (not a new entity kind), plus optional register columns (`bundleId` / `bundlePart` / `faceRefs`). **NQD-front seeds (informative):** contract packet, agreement bundle, boundary bundle (chosen: *Contract Bundle* for low collision with existing “bundle” terms).
 > **Purpose (one line):** Prevent “contract soup” and agency misattribution by unpacking contract-language into distinct promise‑content, utterance package, commitment, and work+evidence (adjudication substrate) parts and routing each part into the Boundary Norm Square.
@@ -7453,14 +7565,14 @@ Boundary descriptions frequently use “contract” as a shorthand for “the th
 
 When these layers are collapsed, authors accidentally assign agency to epistemes (“the interface guarantees…”), encode runtime gates as if they were internal laws, or treat observability as a property of text rather than of carriers and work. A.6 and A.6.B already provide a routing discipline (L/A/D/E) for boundary claims, but “contract” language remains a recurring entry point for category mistakes.
 
-**Service-cluster note (modularity + lexicon).** Boundary “contract talk” commonly co‑moves with the *service* cluster (*service*, *service provider*, *server*, *SLA/SLO/service‑level*). When those tokens appear, their referents MUST be disambiguated per **A.6.8 (RPR‑SERV)** before (or while) applying the four‑part Contract Bundle below. In particular, `U.ServiceClause` (legacy alias: `U.Service`) is promise content and is written in normative prose as **service clause** (not as bare “service”).
+**Service-cluster note (modularity + lexicon).** Boundary “contract talk” commonly co‑moves with the *service* cluster (*service*, *service provider*, *server*, *SLA/SLO/service‑level*). When those tokens appear, their referents MUST be disambiguated per **A.6.8 (RPR‑SERV)** before (or while) applying the four‑part Contract Bundle below. In particular, `U.PromiseContent` is promise content and is written in normative prose as **promise content** (not as bare “service”).
 
 A.6.C makes contract-language usable inside the A.6 stack by providing a canonical unpacking that can be applied to APIs, hardware interfaces, protocols, and socio-technical boundaries.
 
 **Non‑goals (to preserve modularity).** A.6.C does **not**:
 * define “legal contract” doctrine (offer/acceptance/consideration, jurisdictional enforceability, etc.);
 * resolve conflicts between incompatible commitments across scales/contexts (capture them as separate `D-*` claims and route to conflict/mediation patterns when they exist);
-* redefine the core meanings of `U.ServiceClause`, `U.Work`, `U.SpeechAct`, or `U.Commitment`—it only makes “contract talk” routable into those objects/claims.
+* redefine the core meanings of `U.PromiseContent`, `U.Work`, `U.SpeechAct`, or `U.Commitment`—it only makes “contract talk” routable into those objects/claims.
 * redefine quadrant semantics (`L/A/D/E`) or cross‑quadrant reference rules; those are defined normatively in A.6.B.
 
 ### A.6.C:2 — Problem
@@ -7491,13 +7603,13 @@ A.6.C introduces a **Contract Bundle** lens for boundary writing. It is not a ne
 
 Whenever a text uses “contract / guarantee / promise / SLA / interface agreement” language, unpack it into four parts:
 
-1. **Service Clause (Promise content)**
+1. **Promise Content (Promise content)**
 
    * The promised value/effect (the promise *content*) in the intended scope.
- * In FPF terms (A.2.3), **`U.ServiceClause` is promise content**—a **service clause**, not an execution event (`U.Work`) and not (by itself) an accountable deontic binding (`U.Commitment`). (`U.Service` is a legacy alias; do not mint it in new normative text.)
- * **Prose head rule (normative).** When referring to `U.ServiceClause` (legacy alias: `U.Service`) in normative prose, authors SHALL use the head phrase **service clause** (or **service promise clause**) and SHALL NOT rely on the bare head noun *service*. If the surrounding text also talks about endpoints/systems/operations, apply **A.6.8** to select facet‑typed phrases (service access point / service delivery system / service delivery work / …) rather than collapsing them into “service”.
+ * In FPF terms (A.2.3), **`U.PromiseContent` is promise content**—a **promise content**, not an execution event (`U.Work`) and not (by itself) an accountable deontic binding (`U.Commitment`). 
+ * **Prose head rule (normative).** When referring to `U.PromiseContent` in normative prose, authors SHALL use the head phrase **promise content** (or **service offering clause** / **service promise clause**) and SHALL NOT rely on the bare head noun *service*. If the surrounding text also talks about endpoints/systems/operations, apply **A.6.8** to select facet‑typed phrases (service access point / service delivery system / service delivery work / …) rather than collapsing them into “service”.
    * **Recommendation:** give the promise-content a stable local ID (e.g., `SVC-*`) so it can be cited from commitments, gates, evidence, and MVPK faces without paraphrase drift.
- * **Routing discipline:** keep the semantics/definitions of the promised behavior in **L**; express *who is accountable for satisfying the promise* as a **D** claim (`U.Commitment`) that **references** the `U.ServiceClause` (plus any `A-*`/`E-*` claims as needed).
+ * **Routing discipline:** keep the semantics/definitions of the promised behavior in **L**; express *who is accountable for satisfying the promise* as a **D** claim (`U.Commitment`) that **references** the `U.PromiseContent` (plus any `A-*`/`E-*` claims as needed).
 
 2. **Utterance Package (speech act + published descriptions)**
 
@@ -7509,15 +7621,15 @@ Whenever a text uses “contract / guarantee / promise / SLA / interface agreeme
 
 3. **Commitment (Deontic accountability relation)**
 
-   * The accountable agent/role bound to obligations/permissions/prohibitions (including being accountable for satisfying a service clause).
+   * The accountable agent/role bound to obligations/permissions/prohibitions (including being accountable for satisfying a promise content).
    * This bundle part is the **D‑side commitment object**: by default, one or more `U.Commitment` records (A.2.8).
    * **Default checklist (A.2.8 minimal structure):**
      * `id` (stable; often the `D-*` claim ID),
      * `subject` (accountable role/party; never an episteme),
      * `modality` (normalized deontic token / BCP‑14 family),
      * `scope` (`U.ClaimScope`) and `validityWindow` (`U.QualificationWindow`),
-     * `referents` (by reference/ID: service clause IDs like `SVC-*`, plus `L-*`/`A-*`/`MethodDescriptionRef(...)`/`ServiceRef(...)` as needed),
-   * `referents` (by reference/ID: service clause IDs like `SVC-*`, plus `L-*`/`A-*`/`MethodDescriptionRef(...)`/`ServiceClauseRef(...)` as needed),
+     * `referents` (by reference/ID: promise content IDs like `SVC-*`, plus `L-*`/`A-*`/`MethodDescriptionRef(...)`/`ServiceRef(...)` as needed),
+   * `referents` (by reference/ID: promise content IDs like `SVC-*`, plus `L-*`/`A-*`/`MethodDescriptionRef(...)`/`PromiseContentRef(...)` as needed),
      * optional `owedTo` (beneficiary/counterparty),
      * optional `adjudication.evidenceRefs` when the commitment is meant to be auditable (point to `E-*`),
      * optional `source` when authority/provenance matters (issuer + instituting `speechActRef` + description reference),
@@ -7534,7 +7646,7 @@ Whenever a text uses “contract / guarantee / promise / SLA / interface agreeme
 
 After unpacking, route each **atomic** statement using the Boundary Norm Square as defined normatively in **A.6.B** (quadrant semantics + form constraints + cross‑quadrant reference discipline). A.6.C does not redefine `L/A/D/E`; it applies them to contract-language as follows:
 
-* **Service clause → L/A (promise semantics + eligibility).**
+* **Promise content → L/A (promise semantics + eligibility).**
   * Put meanings, invariants, and metric definitions for what is promised in **L** (`L-*` in signature laws/definitions).
   * Put “eligible/covered/valid iff …” predicates as **A** (`A-*` admissibility/gate predicates), not as deontic obligations.
 * **Commitment → D (who is accountable).**
@@ -7582,7 +7694,7 @@ This prevents faces from becoming “second contracts” by paraphrase drift.
 Use the **A.6.B Claim Register** (IDs + statements + quadrant + anchor). Add two optional columns that make A.6.C auditable without adding new ontology:
 
 * `bundleId: ContractBundleId` (local stable ID grouping the claims that constitute one boundary “contract bundle”)
-* `bundlePart ∈ {ServiceClause, Utterance, Commitment, WorkEvidence}`
+* `bundlePart ∈ {PromiseContent, Utterance, Commitment, WorkEvidence}`
 * `faceRefs = {PlainView|TechCard|InteropCard|AssuranceLane : …}` (where the claim is rendered)
 
 ### A.6.C:5 — Archetypal Grounding (Tell–Show–Show)
@@ -7591,7 +7703,7 @@ Use the **A.6.B Claim Register** (IDs + statements + quadrant + anchor). Add two
 
 If you use contract-language for a boundary, do not treat “the interface/spec” as an agent. Instead:
 
-1. Identify the **service clause** (promise content) being promised,
+1. Identify the **promise content** (promise content) being promised,
 2. Identify the accountable **Commitment** holder(s) (roles/agents),
 3. Identify the **Utterance** surfaces that publish the boundary (signature/mechanism + MVPK views),
 4. Identify the **Work + Evidence** carriers that could adjudicate whether commitments were met,
@@ -7650,7 +7762,7 @@ If you use contract-language for a boundary, do not treat “the interface/spec�
 
 **Unpack + route:**
 
-* **Service (promise):** responsiveness promise for a defined incident class and window.
+* **Promise content (service promise clause):** responsiveness promise for a defined incident class and window.
 * **Utterance:** SLA publication (and its views for different audiences).
 * **A:** admissibility predicate for the promise: ticket qualifies iff severity classification meets stated conditions.
 * **D:** provider commitment to meet the target; client duties (e.g., provide required info); auditor duties if applicable.
@@ -7671,7 +7783,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 A boundary description conforms to A.6.C iff it satisfies all items below:
 
 1. **CC‑A.6.C‑1 (Unpacking when contract-language appears).**
-   If the text uses “contract/guarantee/promise/SLA” language, it **SHALL** explicitly disambiguate the statement as referring to at least one of: **Service clause (promise content)**, **Utterance (published description)**, **Commitment (deontic binding)**, **Work+Evidence (adjudication)**.
+   If the text uses “contract/guarantee/promise/SLA” language, it **SHALL** explicitly disambiguate the statement as referring to at least one of: **Promise content (promise content)**, **Utterance (published description)**, **Commitment (deontic binding)**, **Work+Evidence (adjudication)**.
 
 2. **CC‑A.6.C‑2 (No agency to epistemes).**
    The text **MUST NOT** attribute promising/committing/obligating agency to signatures, mechanisms, interfaces, or documents. Any duty/commitment **SHALL** name an accountable role/agent.
@@ -7679,8 +7791,8 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
 3. **CC‑A.6.C‑3 (Route contract-bearing statements via A.6.B).**
    Contract-bearing statements **SHALL** be routable as atomic claims to **L/A/D/E**, with dependencies expressed by explicit references rather than paraphrase.
 
-4. **CC‑A.6.C‑4 (Service clause ≠ Work discipline).**
-   Statements about what is executed/observed **SHALL** be expressed as **E** claims about work/evidence/carriers. Promise‑content language **SHALL** refer to the **service clause** (`U.ServiceClause`, A.2.3; legacy alias: `U.Service`) and its **L‑defined** semantics (and to explicit **D‑*** commitments represented as `U.Commitment`, A.2.8), not to execution events (`U.Work`) or runtime effects.
+4. **CC‑A.6.C‑4 (Promise content ≠ Work discipline).**
+   Statements about what is executed/observed **SHALL** be expressed as **E** claims about work/evidence/carriers. Promise‑content language **SHALL** refer to the **promise content** (`U.PromiseContent`, A.2.3) and its **L‑defined** semantics (and to explicit **D‑*** commitments represented as `U.Commitment`, A.2.8), not to execution events (`U.Work`) or runtime effects.
    Unqualified head‑noun *service* (and the co‑moving cluster *service provider* / *server*) in normative boundary prose SHALL be unpacked per **A.6.8 (RPR‑SERV)**.
 
 5. **CC‑A.6.C‑5 (Evidence hook for operational guarantees).**
@@ -10017,7 +10129,7 @@ To keep disambiguation from collapsing into dictionary debates, present the guid
 Rules for the guide:
 
 * Triggers may be **relation umbrellas** (“same/synced/linked/anchored…”) *or* **participant umbrellas** (pronominal/metonymic/over‑broad kind tokens). The guide SHALL state which role(s) the trigger is standing in for (relation kind, endpoint kind, qualifier, mediator).
-* Candidate sets SHALL be stated as **kinds/facets/RelationKind tokens**, not as synonym lists. “Service” ⇒ {service clause, access point, provider principal, commitment, work+evidence, …} is the archetype (A.6.8).
+* Candidate sets SHALL be stated as **kinds/facets/RelationKind tokens**, not as synonym lists. “Service” ⇒ {promise content, access point, provider principal, commitment, work+evidence, …} is the archetype (A.6.8).
 * When endpoint‑side ambiguity is present, the guide SHOULD recommend producing a **Candidate‑Set Note** (A.6.P:4.0b) as part of the rewrite, so the chosen facet/kind is reviewable.
 * Discriminating questions SHOULD be phrased as small **tests** that map directly to slot requirements (e.g., “Can you call it?” ⇒ `accessPointRef`; “Is it deontic?” ⇒ `commitmentRef` + accountable principal; “Is it actuals?” ⇒ `deliveryWorkRef` + witnesses).
 * Canonical rewrites SHALL land in the A.6.P Tech forms (functional/arrow) and SHALL specify any newly required qualifiers (scope, Γ_time, viewpoint/view, schemes, witnesses).
@@ -10070,13 +10182,13 @@ An operations note says: “Staging is the same service as Production.” Months
 
 **Show.**
 Treat “same” as a red-flag umbrella token. Rewrite into an explicit cross-Context relation kind,
-typed to the facet the draft actually uses (service delivery system sameness for actuals/evidence aggregation; not about service clauses).
+typed to the facet the draft actually uses (service delivery system sameness for actuals/evidence aggregation; not about promise contents).
 
 **Show (candidate‑set note; endpoint facet restoration).**
 
 ```
 CandidateSetNote(triggerSpan="service" in "same service", role=endpointFacet(p₁)):
-- candidates: {serviceClause, serviceAccessPoint, serviceProviderPrincipal, serviceDeliverySystem}
+- candidates: {promiseContent, serviceAccessPoint, serviceProviderPrincipal, serviceDeliverySystem}
 - selected:   serviceDeliverySystem
 - why:        the claim is later used to justify mixing operational actuals/evidence (metrics + incident logs);
   local cues point to delivery artefacts (manifests/config/test runs), not clause carriers
@@ -12023,22 +12135,22 @@ In modern multi-step evaluation pipelines (e.g., calibrated scoring, uncertainty
 > **Status:** Stable
 > **Normativity:** Normative
 > **Placement:** Part A → A.6 (Precision restoration / stack discipline)
-> **Builds on:** A.6.P (RPR recipe), A.6.5 (slot discipline), A.6.B (routing), A.2.3 (`U.ServiceClause`), A.2.8 (`U.Commitment`), A.2.9 (`U.SpeechAct`), A.15 (`U.Work`), E.10 (LEX, incl. L‑SERV, LEX‑BUNDLE & PTG stances), F.17 (UTS — Unified Term Sheet), F.18 (Name Cards / NQD‑front; promise ≠ utterance ≠ commitment).
+> **Builds on:** A.6.P (RPR recipe), A.6.5 (slot discipline), A.6.B (routing), A.2.3 (`U.PromiseContent`), A.2.8 (`U.Commitment`), A.2.9 (`U.SpeechAct`), A.15 (`U.Work`), E.10 (LEX, incl. L‑SERV, LEX‑BUNDLE & PTG stances), F.17 (UTS — Unified Term Sheet), F.18 (Name Cards / NQD‑front; promise ≠ utterance ≠ commitment).
 > **Coordinates with:** A.6.C (contract bundle unpacking), A.7 (Object≠Description≠Carrier), G.* evidence discipline (EvidenceGraph / SCR), Context/Bridge policy for cross‑Context reuse, F.8 (Mint/Reuse), E.15 (LEX‑AUTH when refactoring existing prose at scale).
 > **Delta-Class:** Δ‑3 (new normative pattern; corpus‑wide lexical refactor expected when adopted in Core)
 > **Impact radius:** Any normative prose that uses the “service” cluster (`service`, `service provider`, `server`); LEX rules (L‑SERV / LEX‑BUNDLE); UTS blocks (F.17); contract/boundary patterns that already talk about services (esp. A.6.C); any automated repair/lint pipeline used for bulk refactors (E.15 / LEX‑AUTH).
- **Mint vs reuse:** Mints the `serviceSituation(…)` QRR lens id and the facet headphrase set defined in §4.3. Reuses `U.ServiceClause` (legacy alias: `U.Service`, deprecated), `U.Commitment`, `U.SpeechAct`, `U.System`, `U.Work`, `U.MethodDescription`, and the A.6.P/QRR recipe.
+ **Mint vs reuse:** Mints the `serviceSituation(…)` QRR lens id and the facet headphrase set defined in §4.3. Reuses `U.PromiseContent`, `U.Commitment`, `U.SpeechAct`, `U.System`, `U.Work`, `U.MethodDescription`, and the A.6.P/QRR recipe.
  **DRR pointer:** **REQUIRED before Core admission.** `DRR‑SERV‑POLYSEMY‑<id>` (TBD in draft; must cite the PQG run + refactor/harness plan).
 
 **Intent.** Prevent category errors and metonymic drift caused by the borderline word “service” by forcing every normative mention to name the **facet** (promise content vs promised work‑kind/effect vs accountable principal vs realization system vs access object vs interface vs binding vs act vs run‑time work/evidence) and by providing a stable “service situation” lens that keeps those facets related without collapsing them.
 
-**Non‑goal (modularity guard).** This pattern does **not** redefine the semantics or field structure of the promise‑content object (the **service clause**). That kernel meaning is defined in **A.2.3 (`U.ServiceClause`)**. A.6.8 is a precision‑restoration + lexicon discipline that (i) forces facet‑typed head phrases and (ii) provides an optional QRR lens to bind already‑defined kinds without collapsing them. Contract‑talk unpacking is handled by **A.6.C**, which invokes this pattern when contract language contains the service cluster.
+**Non‑goal (modularity guard).** This pattern does **not** redefine the semantics or field structure of the promise‑content object (the **promise content**). That kernel meaning is defined in **A.2.3 (`U.PromiseContent`)**. A.6.8 is a precision‑restoration + lexicon discipline that (i) forces facet‑typed head phrases and (ii) provides an optional QRR lens to bind already‑defined kinds without collapsing them. Contract‑talk unpacking is handled by **A.6.C**, which invokes this pattern when contract language contains the service cluster.
 
 ### A.6.8:1 - Problem frame
 
 In real engineering language, *service* can denote (and routinely collapses) multiple **facets** that admit different predicates and different governance rules:
 
-* a **service clause** (promise content; `U.ServiceClause` in FPF; legacy alias: `U.Service`),
+* a **promise content** (`U.PromiseContent`),
 * a **promised work‑kind / effect‑kind** (“what is to be delivered”, as a kind/template),
 * a **service provider role** (role kind in the clause),
 * a **service provider principal** (role‑enactor accountable for delivery and capable of holding commitments),
@@ -12050,7 +12162,7 @@ In real engineering language, *service* can denote (and routinely collapses) mul
 * a **service promise act** (promissory speech act: offer/promise/accept/agree/publish),
 * a **service delivery work** episode (run/incident/fulfillment work + evidence).
 
-FPF’s kernel uses `U.ServiceClause` (legacy alias: `U.Service`) as **promise content** (“service clause”), which is SoTA‑consistent for contracts and decision lanes, but clashes with the everyday addressability-centric use of “service”. This makes “service” a high‑risk metonymy attractor: authors start using the same word for (a) the clause, (b) the provider system, and (c) the delivery work, and readers cannot reliably recover which is meant.
+FPF’s kernel uses `U.PromiseContent` as **promise content**, which is SoTA‑consistent for contracts and decision lanes, but clashes with the everyday addressability-centric use of “service”. This makes “service” a high‑risk metonymy attractor: authors start using the same word for (a) the clause, (b) the provider system, and (c) the delivery work, and readers cannot reliably recover which is meant.
 
 In addition, lived “service talk” is rarely isolated to the token *service*: it co‑moves with **server** and **service provider** (and with “API service”, “service desk”, “service team”). Treating only the word *service* as ambiguous is an underfit to the domain.
 
@@ -12105,7 +12217,7 @@ Result: reviewers can’t apply A.6.B routing, and engineers are incentivized to
 
 **Headphrase governance (no ad‑hoc synonyms).**
 
-* Each facet head phrase used by this pattern (e.g., “service clause”, “service access point”) SHALL appear as a **UTS twin** (Tech/Plain) in the local UTS block, not as an author‑invented one‑off.
+* Each facet head phrase used by this pattern (e.g., “promise content”, “service access point”) SHALL appear as a **UTS twin** (Tech/Plain) in the local UTS block, not as an author‑invented one‑off.
 * Both the **Tech** and **Plain** twin for a facet head phrase SHALL carry an explicit **head kind word** that signals the facet category (**clause / role / principal / system / access point / spec / method / commitment / act / work**). Plain synonyms are permitted only if they preserve the head kind (e.g., “endpoint” as an access‑point head kind; “API spec” as an access‑spec head kind). This is the readability guard that prevents “mathematician renamings”.
 * A conforming **normative Tech** text SHALL treat the bare word **service** (unqualified) as **PTG=Guarded** (E.10): it is allowed only under this pattern’s rewrite rules and only as part of a qualified head phrase.
 * If a new facet head phrase must be introduced, it SHALL be treated as a **LexicalAct** with an explicit **Mint/Reuse** decision (F.8), and its **CandidateSet + rationale** SHOULD be recorded via a Name Card (F.18 / NQD‑front) to avoid “clever” but unstable vocabulary.
@@ -12116,12 +12228,14 @@ This preparation step is intentionally “linguistic”: it binds the pattern to
 * “offering / promise content” vs “delivery operations” split → ITIL 4 + EA modeling,
 * “interface/access” vs “realization/implementation” split → ArchiMate + SRE practice,
 * “promissory act” vs “promise content” split → ISO 24617‑2 dialogue acts,
-* “actuals/telemetry” vs “targets/obligations” split → SRE evidence discipline.
+* “offering/commitment” vs “delivery event” split → service ontologies (e.g., S‑OPL / UFO),
+* “actuals/telemetry” vs “targets/obligations” split → SRE evidence discipline,
+* “roles + context” emphasis when discussing “service quality” → service science / service‑dominant logic.
 (These anchors are informative; they do not assert cross‑Context identity and require Bridges when imported as terms.)
 
 #### A.6.8:4.1 — Trigger rule
 
-This pattern applies whenever **“service”** appears in **Tech/normative prose** as a head noun (including compounds like “X service”, “the service”, “our service”, “this service”), **even when the intended referent is `U.ServiceClause`**.
+This pattern applies whenever **“service”** appears in **Tech/normative prose** as a head noun (including compounds like “X service”, “the service”, “our service”, “this service”), **even when the intended referent is `U.PromiseContent`**.
 
 It also applies to the adjacent cluster terms **“service provider”** and **“server”** when they are used as stand‑ins for the same collapsed bundle (clause/access/provider/work). The rewrite outcome for those terms is facet‑typed (see §4.3 and §4.9).
 
@@ -12135,14 +12249,16 @@ Define a stable, kind‑labelled qualified record (hyperedge lens) that makes th
 
 Participant slots (principal facets). The slot names are intentionally *prose-facing* (engineer-readable): they are meant to make it hard to “silently collapse” clause/principal/system/access/work.
 
-* `serviceClauseRef : ServiceClauseRef`
-  *Promise content* — the `U.ServiceClause` referent (A.2.3; legacy alias: `U.Service`). **Plain head:** *service clause* / *service promise clause*.
-* `promisedWorkKindRef? : WorkRef`
-  The **promised work‑kind / effect‑kind** described by the clause (A.15 lens). This is *not* a concrete run; it is the “what is to be delivered” in kind‑form (template/type).
-
-  **Invariant: SERV‑INV‑1 (WorkKindness).**
-  `promisedWorkKindRef` denotes a work‑kind/template, not a concrete run/episode.
-  (If the kernel distinguishes `WorkKind` vs `WorkEpisode`, use `WorkKind`; otherwise the local UTS/LEX cell for this slot SHALL mark it as *kind‑labelled*.)
+* `promiseContentRef : PromiseContentRef`
+  *Promise content* — the `U.PromiseContent` referent (A.2.3). **Plain head:** *promise content* / *service offering clause* / *service promise clause*.
+* `promisedOutcomeSpecRef? : OutcomeSpecRef`
+  The **promised outcome template** described by the clause (`U.OutcomeSpec`, A.7:5.10). It may constrain:
+  - **delivery work** (work‑only: “do X for ≥5 minutes”),
+  - **delivered state / artifact** (result‑only: “a hole of depth ≥1 m exists”),
+  - or **both** (composite).
+  This is **not** a concrete `U.Work` run and **not** the delivered world object; it is the spec used to judge delivery work and evidence.
+**Invariant: SERV‑INV‑1 (OutcomeSpecness).**
+  `promisedOutcomeSpecRef` MUST denote a `U.OutcomeSpec` (kind‑labelled episteme), not a `U.Work` episode and not an extensional result object.
 * `providerRoleRef : RoleRef`
   The provider **role kind** named by the clause (typically `clauseRef.providerRole`).
 * `providerAssignmentRef? : RoleAssignmentRef`
@@ -12155,7 +12271,7 @@ Participant slots (principal facets). The slot names are intentionally *prose-fa
 * `consumerAssignmentRef? : RoleAssignmentRef`
   The concrete **role enactor** of `consumerRoleRef` (when needed for accountability/evidence narratives).
 * `accessSpecRef? : MethodDescriptionRef`
-  The **service access spec** / request‑facing interface description (API signature, OpenAPI, endpoint contract, intake SOP, desk procedure). This is typically `serviceClauseRef.accessSpec` (A.2.3) and is a `U.MethodDescription`.
+  The **service access spec** / request‑facing interface description (API signature, OpenAPI, endpoint contract, intake SOP, desk procedure). This is typically `promiseContentRef.accessSpec` (A.2.3) and is a `U.MethodDescription`.
 * `accessPointRef? : SystemRef`
   The **service access point** — an addressable system/facility/desk/endpoint host through which requests arrive. In lived language this is often called “the service” or “the server”.
 * `deliverySystemRef? : SystemRef`
@@ -12171,6 +12287,14 @@ Participant slots (principal facets). The slot names are intentionally *prose-fa
   When the surrounding passage is normative about responsibility (D‑quadrant language), the promissory actor/authorizer of `promiseActRef` aligns with `providerPrincipalRef` (or the corresponding `providerAssignmentRef`), rather than being silently shifted to `accessPointRef`.
 * `deliveryWorkRef? : WorkRef`
   The delivery / fulfillment work episode(s) (including incidents, runs, requests) when relevant.
+
+  **Invariant: SERV‑INV‑3 (Outcome anchoring).**
+  If both `deliveryWorkRef` and `promisedOutcomeSpecRef` are present, then the cited Work instance(s) either:
+  (i) explicitly assert `deliversPromisedOutcome(deliveryWorkRef, promisedOutcomeSpecRef)` (A.2.3:8.1), or
+  (ii) provide sufficient I/O/Δ evidence anchors for that relation to be derived in the Context.
+
+  **Invariant: SERV‑INV‑4 (Unit-of-delivery measurability).**
+  If `promiseContentRef.unitOfDelivery` is present, then its `countingRule` is stated (per A.7:5.10.3, with defaults allowed) and the cited Work carries the measurements required by that rule (duration, quantity, cases, kWh, etc).
 * `adjudication? : AdjudicationHooks`
   Evidence anchors (e.g., `evidenceRefs`, `carrierRefs`) used for acceptance/breach evaluation when the passage asserts actuals.
 
@@ -12185,13 +12309,13 @@ Qualifier slots (as needed per A.6.P/A.6.B):
 
 **Agency + grounding clarifications (normative).**
 
-* The **service clause** (`serviceClauseRef`) is *promise content*; it does not act, deploy, crash, or guarantee. It can be **published** (via a carrier) and **used as payload** of a commitment.
+* The **promise content** (`promiseContentRef`) is *promise content*; it does not act, deploy, crash, or guarantee. It can be **published** (via a carrier) and **used as payload** of a commitment.
 * The **promisor / commitment‑holder** is the **provider principal** (or its role assignment) unless the Context explicitly models a system as an agent with standing. *(See CC‑A.6.8‑8.)*
 * The **access point** and **delivery system** are typically *instruments/realizers*. The linkage to the accountable principal is expressed via an explicit relation kind (e.g., operated‑by / owned‑by / authorized‑by / fronts / routes‑to). *(See SERV‑WF‑1.)*
 
 **Well‑formedness constraint: SERV‑WF‑1 (Explicit relation typing in bundles).**
 When a `serviceSituation(…)` binds a principal/role assignment to systems (access point / delivery system), the relation kinds are explicit (prefer A.6.6 base relations when available). **Implicit “system implies provider” readings are invalid.**
-* Mechanism/process claims target `deliverySystemRef` and/or `deliveryMethodRef` (and sometimes `accessSpecRef` if the claim is strictly about interface signature), not `serviceClauseRef`. *(See CC‑A.6.8‑9.)*
+* Mechanism/process claims target `deliverySystemRef` and/or `deliveryMethodRef` (and sometimes `accessSpecRef` if the claim is strictly about interface signature), not `promiseContentRef`. *(See CC‑A.6.8‑9.)*
 
 **Well‑formedness constraint: SERV‑WF‑2 (Accountable subject present when binding is asserted).**
 If `serviceSituation(…)` includes `commitmentRef` and/or `promiseActRef`, then it also includes an accountable subject slot:
@@ -12202,8 +12326,8 @@ This prevents “floating” commitments/acts that can’t be routed to a holder
 
 | Facet (slot) | Canonical FPF object | Kind family (A.7 / I‑D‑S) | Typical predicates that *belong* here |
 | --- | --- | --- | --- |
-| `serviceClauseRef` | `U.ServiceClause` | **Episteme** (promise content) | states preconditions/outcomes; defines acceptance criteria; constrains what counts as fulfilment |
-| `promisedWorkKindRef` | `U.Work` (kind‑labelled) | **Described entity / kind** (work‑kind) | is requested; is fulfilled; has outcome constraints; can be decomposed into sub‑work kinds |
+| `promiseContentRef` | `U.PromiseContent` | **Episteme** (promise content) | states preconditions/outcomes; defines acceptance criteria; constrains what counts as fulfilment |
+| `promisedOutcomeSpecRef` | `U.OutcomeSpec` | **Episteme** (outcome template) | constrains delivery work and/or delivered state; supplies the outcome target for acceptance; can be decomposed into work/result clauses |
 | `providerAssignmentRef` | `U.RoleAssignment` | **Role assignment** (who is accountable) | is accountable; is the provider; bears duty; is authorized to promise |
 | `providerPrincipalRef` | (derived from role assignment) | **Agent / principal** (responsible party) | holds commitments; is liable; delegates; authorizes carriers/systems |
 | `deliverySystemRef` | `U.System` | **System** (realizer) | implements/realizes; contains components; has failure modes; produces operational evidence |
@@ -12218,14 +12342,14 @@ This prevents “floating” commitments/acts that can’t be routed to a holder
 
 In normative prose, **replace the head word “service”** with one of the following facet head phrases:
 
-1. **service clause** (or **service promise clause**) — promise content (`serviceClauseRef : ServiceClauseRef`, i.e., `U.ServiceClause`; legacy alias: `U.Service`)
-2. **promised service work‑kind** (or **promised work‑kind**) — what is promised as a kind/template (`promisedWorkKindRef`)
+1. **promise content** (or **service offering clause** / **service promise clause**) — promise content (`promiseContentRef : PromiseContentRef`, i.e., `U.PromiseContent`)
+2. **promised outcome spec** (or **promised deliverable spec**) — what is promised as an outcome template (work‑only / result‑only / composite) (`promisedOutcomeSpecRef`)
 3. **service provider role** — the provider role kind (`providerRoleRef : RoleRef`) when the text is about role structure (not about actuals)
 4. **service provider principal** (or **service provider (role enactor)**) — the accountable provider that can hold commitments (`providerAssignmentRef` / `providerPrincipalRef`)
 5. **service delivery system** (or **service realization system**) — the system that performs/realizes delivery (`deliverySystemRef : SystemRef`)
 6. **service access point** (or **service endpoint**) — addressable entrypoint (`accessPointRef : SystemRef`); this is the “thing you can call/visit”
 7. **service access spec** (or **service interface spec**) — request‑facing interface/method description (`accessSpecRef : MethodDescriptionRef`)
-8. **service delivery method** (or **service runbook / procedure**) — internal procedure for fulfilment (`deliveryMethodRef : MethodDescriptionRef`)
+8. **service delivery method** (or **service method** / **service runbook** / **procedure**) — internal procedure for fulfilment (`deliveryMethodRef : MethodDescriptionRef`)
 9. **service commitment** — deontic binding (`commitmentRef : CommitmentRef`)
 10. **service promise act** (or **promissory speech act**) — speech act (`promiseActRef : SpeechActRef`)
 11. **service delivery work** (or **service run / fulfillment work**) — execution episode (`deliveryWorkRef : WorkRef`)
@@ -12246,15 +12370,17 @@ In code identifiers, slot names (e.g., `deliverySystemRef` in `serviceSituation(
 
 #### A.6.8:4.4 — Addressability rule (the “can you call it?” test)
 
-If the draft sentence implies *addressability* (verbs like **call/invoke/request/visit/go to/connect to/route to/deploy/restart/scale**), then the referent MUST be a **service access point** (`accessPointRef : SystemRef`) or a **work episode** (`deliveryWorkRef`), never the service clause.
+If the draft sentence implies *addressability* (verbs like **call/invoke/request/visit/go to/connect to/route to/deploy/restart/scale**), then the referent MUST be a **service access point** (`accessPointRef : SystemRef`) or a **work episode** (`deliveryWorkRef`), never the promise content.
 
 #### A.6.8:4.4b — Method/mechanism rule (the “how does it work?” test)
 
 If the draft sentence asserts or explains *how the service works* (verbs like **implement/realize/work by/uses/consists of/pipeline/algorithm/workflow/runbook/process steps**) then the referent MUST be a **service delivery system** (`deliverySystemRef`) and/or a **service delivery method** (`deliveryMethodRef`).
 
+If the draft uses *service* as the name of a **promised work method** (common in plain language: “cleaning”, “repair”, “haircutting”), treat that as part of the promise by constraining the `U.OutcomeSpec.workSpec.methodConstraintRef` (what is promised). Keep `deliveryMethodRef` for the provider‑internal runbook/procedure that realizes the promise (how it is executed).
+
 If the draft sentence is specifically about the **externally visible signature/shape** (endpoints, request/response schema, SOP steps visible to consumers), route it to **service access spec** (`accessSpecRef`).
 
-A conforming text **SHALL NOT** attach mechanism/process predicates to the **service clause**; the clause may constrain outcomes or acceptance criteria, but mechanism claims belong to design/method artefacts. *(See CC‑A.6.8‑9.)*
+A conforming text **SHALL NOT** attach mechanism/process predicates to the **promise content**; the clause may constrain outcomes or acceptance criteria, but mechanism claims belong to design/method artefacts. *(See CC‑A.6.8‑9.)*
 
 #### A.6.8:4.5 — Deontic rule (the “must/shall” test)
 
@@ -12274,6 +12400,8 @@ If a server/webpage/API response is involved, a conforming text **SHALL** treat 
 
 If the sentence asserts actuals (**down/slow/99.9% last week/latency is X/incident occurred**), the claim MUST be routed to **work + carriers/evidence** (deliveryWorkRef + witnesses), not to the clause.
 
+If an actual is used in a conformance block, KPI, or acceptance argument, it MUST cite the underlying `U.Characteristic` and measurement procedure/evidence carrier (C.16/C.25), with pinned `{UnitType, ScaleKind, ReferencePlane, EditionId}`; otherwise it is prose only and MUST NOT be treated as a verified SLO/SLA measurement.
+
 When needed, also name whether the actual is about the **access point** (entrypoint symptoms) or the **delivery system** (realizer symptoms). “Down” can be about the gateway even when the backend is fine; the pattern forbids collapsing those.
 
 #### A.6.8:4.8 — Change‑class lexicon (service‑specific narrations)
@@ -12287,7 +12415,7 @@ When the draft describes “service changes”, narrate changes using stable cha
 * `retargetParticipant(providerAssignmentRef := …)` (change provider role‑enactor; outsourcing / org change)
 * `reviseByValue(accessSpecRef := …)` (edit interface description content)
 * `reviseByValue(deliveryMethodRef := …)` (edit runbook/workflow/procedure)
-* `reviseByValue(serviceClauseRef := …)` (edit promise content; typically new edition)
+* `reviseByValue(promiseContentRef := …)` (edit promise content; typically new edition)
 * `changeRelationKind` is not applicable here unless splitting the family (rare)
 * `rescope`, `retime(Γ_time)`, `refreshWitnesses(witnesses := …)` as required
 
@@ -12296,10 +12424,10 @@ When the draft describes “service changes”, narrate changes using stable cha
 If the draft says:
 
 * “**the service** is deployed/restarted/scaled/called” → rewrite as **service access point** (system) or **service delivery work** (deployment work), and (optionally) attach it to a `serviceSituation`.
-* “**the service** promises/guarantees X” → rewrite as **service clause** (promise content), and if “guarantees” is deontic, also introduce **service commitment** held by the **service provider principal**.
+* “**the service** promises/guarantees X” → rewrite as **promise content** (promise content), and if “guarantees” is deontic, also introduce **service commitment** held by the **service provider principal**.
 * “**the service** is down/slow/has 5xx” → rewrite as **service access point** (down) and/or **service delivery work** (incident/run), with evidence.
-* “we **promised** the service” / “we **agreed** the service” → rewrite as **service promise act** + **service clause** (+ commitment if binding).
-* “**the service provider** guarantees X” → rewrite as **service provider (role enactor)** + **service commitment** (+ service clause as payload).
+* “we **promised** the service” / “we **agreed** the service” → rewrite as **service promise act** + **promise content** (+ commitment if binding).
+* “**the service provider** guarantees X” → rewrite as **service provider (role enactor)** + **service commitment** (+ promise content as payload).
 * “**the server** is down / slow / restarted” → rewrite as **service access point** (server/host system) and/or delivery work, not as clause.
 * “**the service** is implemented by / realized by / works by doing Y” → rewrite as **service delivery system** and/or **service delivery method** (and keep the clause separate as the outcome constraint).
 * “**the service** API signature / endpoint schema / request format is …” → rewrite as **service access spec**.
@@ -12319,13 +12447,13 @@ If the draft says:
 * “The **Payments service access point** (the Payments API ingress/endpoint host) is down.”
 * “The **Payments service delivery system** (the Payments backend realizer) is degraded (symptom attribution is explicit).”
 * “The **Payments service access spec** (e.g., OpenAPI/endpoint contract) defines the request/response interface.”
-* “The **Payments service clause** states target availability `SLO=99.9%` over `Γ_time=30d` (promise content).”
+* “The **Payments promise content** states target availability `SLO=99.9%` over `Γ_time=30d` (promise content).”
 * “The **service commitment** held by the **service provider principal** binds them to that clause.”
 * “The **service delivery work** `Incident#2025‑…` records outage evidence and the restart action; the runbook used is the **service delivery method**.”
 
 **Optional `serviceSituation` bundle (sketch):**
 
-* `serviceSituation( serviceClauseRef=PaymentsAvailabilityClause, providerRoleRef=PaymentsPlatform#ServiceProviderRole, providerPrincipalRef=PaymentsPlatformTeam, accessSpecRef=PaymentsAPIv2, accessPointRef=PaymentsAPIIngressProd, deliverySystemRef=PaymentsBackendProd, deliveryMethodRef=PaymentsIncidentRunbook@ed=…, commitmentRef=AvailabilityCommitment@ed=…, deliveryWorkRef=Incident#…, Γ_time=Rolling30d, witnesses={SLOReport#…, IncidentLog#…} )`
+* `serviceSituation( promiseContentRef=PaymentsAvailabilityClause, providerRoleRef=PaymentsPlatform#ServiceProviderRole, providerPrincipalRef=PaymentsPlatformTeam, accessSpecRef=PaymentsAPIv2, accessPointRef=PaymentsAPIIngressProd, deliverySystemRef=PaymentsBackendProd, deliveryMethodRef=PaymentsIncidentRunbook@ed=…, commitmentRef=AvailabilityCommitment@ed=…, deliveryWorkRef=Incident#…, Γ_time=Rolling30d, witnesses={SLOReport#…, IncidentLog#…} )`
 
 #### Show 2 — Episteme archetype (physical/human service)
 
@@ -12336,7 +12464,7 @@ If the draft says:
 
 * “The **service access point** is the *Auto Repair Shop front desk* (an addressable facility).”
 * “The **service access spec** is the *intake procedure* (how to request/submit a car).”
-* “The **service clause** promises ‘repair completed within 2 business days’ given stated preconditions.”
+* “The **promise content** promises ‘repair completed within 2 business days’ given stated preconditions.”
 * “The **service delivery method** is the *shop workflow* (inspection → parts ordering → repair → QA → handover).”
 * “The **service provider principal** is the shop entity that can hold a commitment (not the front desk as an access point).”
 * “If advertised as binding, introduce a **service commitment** held by the shop’s provider role.”
@@ -12364,15 +12492,15 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
 
 1. **CC‑A.6.8‑1 — Unqualified “service” (and cluster stand‑ins) is forbidden in normative prose.**
    A conforming boundary/spec text SHALL NOT use **service** as an unqualified head noun, and SHALL NOT use **server** or bare **service provider** as untyped stand‑ins for the same collapsed bundle.
-   Every such occurrence SHALL be rewritten to a facet head phrase (service clause / promised work‑kind / service provider role or principal / service delivery system / service access point / service access spec / service commitment / service promise act / service delivery work) or replaced with the correct underlying FPF object (team, ticket, workflow, system, etc.).
+   Every such occurrence SHALL be rewritten to a facet head phrase (promise content / promised work‑kind / service provider role or principal / service delivery system / service access point / service access spec / service commitment / service promise act / service delivery work) or replaced with the correct underlying FPF object (team, ticket, workflow, system, etc.).
    The facet head phrases in §4.3 are **canonical**; using **service** as the family‑name modifier inside those phrases is permitted and does not itself trigger further unpacking. Any local shorthand that drops the modifier is allowed only under SERV‑LEX‑3.
    *Exception:* direct quotations may retain the original surface form, but the surrounding normative prose SHALL immediately provide an unpacking rewrite.
 
-2. **CC‑A.6.8‑2 — `U.ServiceClause` is referred to as a “service clause” in prose.**
-   When the intended referent is `U.ServiceClause` (legacy alias: `U.Service`), authors SHALL use “service clause” (or “service promise clause”) as the head phrase and SHALL NOT rely on the bare word “service”.
+2. **CC‑A.6.8‑2 — `U.PromiseContent` is referred to as a “promise content” in prose.**
+   When the intended referent is `U.PromiseContent`, authors SHALL use “promise content” (or “service promise clause”) as the head phrase and SHALL NOT rely on the bare word “service”.
 
 3. **CC‑A.6.8‑3 — Addressability implies `accessPointRef` (system), not clause.**
-   Any statement implying invocation/connection/deployment/restart SHALL target a service access point (`SystemRef`) and/or delivery work, never a service clause (`U.ServiceClause`).
+   Any statement implying invocation/connection/deployment/restart SHALL target a service access point (`SystemRef`) and/or delivery work, never a promise content (`U.PromiseContent`).
 
 4. **CC‑A.6.8‑4 — Deontic language requires a commitment.**
    Any normative “must/shall/guarantee/SLA” statement about service delivery SHALL introduce (or reference) a `U.Commitment` and attach the deontic force to that commitment/holder.
@@ -12382,7 +12510,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
    Any statement using “promise/offer/accept/agree/announce/publish” about the service SHALL reference a `U.SpeechAct` (promise act) and SHALL NOT collapse it into the clause.
 
 6. **CC‑A.6.8‑6 — Actuals require work + evidence.**
-   Any claim about runtime state/telemetry/incidents SHALL be routed to `U.Work` plus carrier/evidence references; it SHALL NOT be stated as a property of the service clause.
+   Any claim about runtime state/telemetry/incidents SHALL be routed to `U.Work` plus carrier/evidence references; it SHALL NOT be stated as a property of the promise content.
 
 7. **CC‑A.6.8‑7 — Bundle lens is used when multiple facets are in play.**
    When a passage simultaneously discusses two or more facets (e.g., clause + endpoint + SLA + incident), the author SHOULD provide a `serviceSituation(…)` record (or equivalent explicit slot binding) so readers can track the linkage without guesswork.
@@ -12393,7 +12521,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
    Any statement that introduces a **service commitment** or **service promise act** SHALL name (directly or via role assignment) the **service provider principal** who is the holder/authorizer. A conforming text SHALL NOT attribute commitments/promises to a bare access point/server unless the Context explicitly models it as an agent with standing (and that modelling is declared).
 
 9. **CC‑A.6.8‑9 — “How it works” claims route to method/system, not to the clause.**
-   Any statement about implementation, mechanism, workflow, runbook, or process SHALL target **service delivery system** and/or **service delivery method** (or **access spec** if it is strictly interface‑signature). It SHALL NOT be stated as a property of the service clause.
+   Any statement about implementation, mechanism, workflow, runbook, or process SHALL target **service delivery system** and/or **service delivery method** (or **access spec** if it is strictly interface‑signature). It SHALL NOT be stated as a property of the promise content.
 
 ### A.6.8:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -12401,25 +12529,25 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
   **Fix:** “The **service access point** (deployment) is deployed on Kubernetes.”
 
 * **Anti‑pattern:** “The service guarantees X.”
-  **Fix:** “The **service clause** states target X; the **service commitment** guarantees X.”
+  **Fix:** “The **promise content** states target X; the **service commitment** guarantees X.”
 
 * **Anti‑pattern:** “The service provider guarantees X.”
-  **Fix:** “The **service provider (role enactor)** holds a **service commitment** that guarantees X; the **service clause** is the promise content.”
+  **Fix:** “The **service provider (role enactor)** holds a **service commitment** that guarantees X; the **promise content** is the promise content.”
 
 * **Anti‑pattern:** “The server provides the service (as if server=promise).”
-  **Fix:** “The **service access point** (server/host system) provides access; the **service clause** is promise content; any ‘must/shall’ binds via **service commitment**.”
+  **Fix:** “The **service access point** (server/host system) provides access; the **promise content** is promise content; any ‘must/shall’ binds via **service commitment**.”
 
 * **Anti‑pattern:** “The service works by doing Y / is implemented with Z.”
-  **Fix:** “The **service delivery system** works by doing Y / is implemented with Z; the **service delivery method** (runbook/workflow) is …; the **service clause** constrains outcomes/acceptance.”
+  **Fix:** “The **service delivery system** works by doing Y / is implemented with Z; the **service delivery method** (runbook/workflow) is …; the **promise content** constrains outcomes/acceptance.”
 
 * **Anti‑pattern:** “We promised the service.”
-  **Fix:** “We performed a **service promise act** that published the **service clause** (and instituted a commitment if binding).”
+  **Fix:** “We performed a **service promise act** that published the **promise content** (and instituted a commitment if binding).”
 
 * **Anti‑pattern:** “Service is down (therefore contract violated).”
   **Fix:** “The **service access point** is down (actual). Contract breach evaluation is a separate claim comparing actuals (work/evidence) to the clause + commitment.”
 
 * **Anti‑pattern:** “Service and API are used interchangeably.”
-  **Fix:** Use **service access spec** for the API description; use **service access point** for the addressable system; use **service clause** for promise content.
+  **Fix:** Use **service access spec** for the API description; use **service access point** for the addressable system; use **promise content** for promise content.
 
 ### A.6.8:9 - Consequences
 
@@ -12458,9 +12586,12 @@ This aligns with A.6.P’s requirement to replace umbrella tokens with explicit 
 | Tradition (Context) | What this pattern uses | Stance | Primary sources (post‑2015) | Notes / divergence |
 |---|---|---|---|---|
 | IT service management (ITSM) | Separates promise/value proposition (“offering”) from delivery/operations talk; motivates forcing facet headwords instead of letting “service” float. | Adapt | ITIL 4 Foundation (AXELOS, 2019) | FPF diverges by treating bare “service” as an always‑unpack token in **normative** prose, because ITSM vocabulary is intentionally managerial and polysemous. |
-| Enterprise architecture modeling | Distinguishes “service” from “interface” and from “realization/implementation”; motivates the access‑spec vs access‑point vs delivery‑system split. | Adopt/Adapt | The Open Group ArchiMate® 3.1 Specification (2019) | FPF adapts the split by making **promise content** (`U.Service`) explicit as “service clause” and by making “addressability” a first‑class disambiguation test. |
+| Enterprise architecture modeling | Distinguishes “service” from “interface” and from “realization/implementation”; motivates the access‑spec vs access‑point vs delivery‑system split. | Adopt/Adapt | The Open Group ArchiMate® 3.1 Specification (2019) | FPF adapts the split by making **promise content** (`U.PromiseContent`) explicit and by making “addressability” a first‑class disambiguation test. |
+| Ontology‑driven conceptual modeling (service ontologies) | Distinguishes service offering/commitment from service delivery events; motivates the “PromiseContent + Commitment + Work+Evidence” separation and prevents metonymy between SLA text, promissory act, and delivered outcome. | Adopt/Adapt | *S‑OPL: An Ontology Pattern Language for Service Modeling* (Falbo et al., 2016); *Unified Foundational Ontology (UFO): A Multi‑layered Ontology for Conceptual Modeling* (Guizzardi et al., 2022) | FPF uses this as a semantic anchor for precision restoration, but stays neutral on any single foundational ontology by treating `U.OutcomeSpec` / `U.Commitment` / `U.Work` as minimal cross‑domain pivots. |
+| Service‑dominant logic / service science | Treats service as applied capability for another actor’s benefit and emphasizes co‑creation and context; motivates being explicit about roles (provider/customer/beneficiary) and claim scope when “service quality” is discussed. | Adapt | Vargo & Lusch (2016); Vargo & Lusch (2017); *The SAGE Handbook of Service‑Dominant Logic* (Vargo & Lusch, eds., 2018) | FPF does not bake “value co‑creation” into kernel types; it supports it via role modeling + claimScope + explicit commitments rather than via the bare token “service”. |
 | Dialogue‑act / speech‑act operationalization | Treats promissory moves as explicit act types; motivates separating promise‑act from promise‑content. | Adopt | ISO 24617‑2:2020 (Dialogue Act Annotation) | FPF diverges by requiring that binding effects are represented as explicit `U.Commitment` objects rather than being inferred from the act alone. |
 | SRE / modern operations practice | Keeps interface specs, SLO targets, deployments/endpoints, and incident evidence as separate artefact families; motivates the “actuals → work+evidence” rule and the “access point vs delivery system” split. | Adopt/Adapt | *Site Reliability Engineering* (Beyer et al., 2016); *The Site Reliability Workbook* (Beyer et al., 2018) | FPF adapts SRE practice by routing deontics to commitments (D) and keeping telemetry/incidents as evidence (E), rather than letting “SLO/SLA” prose collapse into the word “service”. |
+
 
 **Pack binding (status).** No dedicated SoTA Synthesis Pack is cited here yet for the “service polysemy” cluster; if/when such a pack is published, this section SHOULD be updated to cite the relevant ClaimSheet IDs / CorpusLedger entries (and Bridge ids where reuse is asserted) as the auditable anchors for the alignment statements above.
 
@@ -12469,8 +12600,7 @@ This aligns with A.6.P’s requirement to replace umbrella tokens with explicit 
 * **Specialises:** A.6.P (RPR) for the lexical/semantic ambiguity cluster around “service”.
 * **Operationalises + extends:** the lexical disambiguation intent of L‑SERV by making “service” **always‑unpack** in normative prose (and by expanding the cluster to include *service provider* and *server* as co‑moving stand‑ins).
 * **Requires (authoring discipline):** a local UTS block (F.17) and published Tech/Plain twins (E.10) for the service/provider/server cluster; this is the “anti‑FPF‑only loop” guard.
-* **Coordinates with:** A.6.C (contract bundle unpacking). When contract-language includes *service* tokens, apply RPR‑SERV first to select **service clause** vs **commitment** vs **access point/system** vs **work/evidence**, then route the resulting atomic statements through A.6.C → A.6.B (L/A/D/E).
-* **Enables:** safe deprecation of the legacy kind name `U.Service` in favour of `U.ServiceClause`, because normative prose is already forced to use the facet head phrase **service clause** (not bare “service”).
+* **Coordinates with:** A.6.C (contract bundle unpacking). When contract-language includes *service* tokens, apply RPR‑SERV first to select **promise content** vs **commitment** vs **access point/system** vs **work/evidence**, then route the resulting atomic statements through A.6.C → A.6.B (L/A/D/E).
 
 ### A.6.8:End
 
@@ -13822,6 +13952,172 @@ A.7 establishes the following **pairs and triplets**. Use their **names** and **
 6. **Separation from Γ.** `Describe_ID`/`Specify_DS` (`Publ_ID`/`Formalize_DS` in legacy text) do **not** compose with **Γ\_method**, **Γ\_time**, or **Γ\_work**; I/D/S describing/formalising is *not execution* and accrues no resource/time semantics.
 7. **Ontology preservation.** Describing any object (Calculus/Signature/Mechanism/…) via `Describe_ID` does **not** change its ontology; it yields a D/S projection by A.7 rules. *Describing/formalising is not a subtype of mechanism*; publishing to surfaces is handled separately in E.17 (MVPK).
 
+
+
+#### A.7:5.10 - `U.OutcomeSpec` (promised outcome template: work‑only / result‑only / composite)
+
+Engineers routinely use the word **outcome** (and often “result”, “deliverable”, “service delivered”) as a **metonymy** for different things:
+
+* the **work itself** (“work for 5 minutes”, “provide support”, “process N requests”),
+* the **world state / artefact after work** (“a hole exists”, “a hairstyle exists”, “a ticket is resolved”),
+* or **both** (common in SLAs/SOWs: “do it within 20 min *and* produce the requested artefact”).
+
+FPF keeps these distinct by introducing a single promise‑facing target object: `U.OutcomeSpec`.
+
+##### A.7:5.10.1 — Definition (normative)
+
+`U.OutcomeSpec` is an **Episteme** that specifies the promised outcome template referenced by `U.PromiseContent.promisedOutcomeSpecRef` (A.2.3). It is the “content of what is promised” *as a judgement target*.
+
+It MAY constrain:
+
+1. **delivery work** — predicates over `U.Work` episodes (A.15.1), e.g., duration, step coverage, resources used, method constraint;
+2. **delivered state / artefact** — predicates over the post‑state of affected referents (via `U.Work.Δ` / evidence anchors), e.g., geometry/appearance/correctness;
+3. **both** (composite).
+
+`U.OutcomeSpec` is **not** a `U.Work` episode and **not** the extensional delivered object. It exists so a promise clause can be evaluated without confusing *spec* with *actuals*.
+
+**Reference type.**  
+`OutcomeSpecRef ::= ObjectIdRef` and MUST resolve to a `U.OutcomeSpec`.
+
+##### A.7:5.10.2 — Minimal structure (conceptual; normative constraints)
+
+```text
+U.OutcomeSpec ::= {
+  id: OutcomeSpecId,
+  mode: OutcomeMode,                   // WorkOnly | ResultOnly | Composite
+
+  // WorkOnly / Composite:
+  workSpec?: {
+    methodConstraintRef?: MethodDescriptionRef,   // optional: method is part of the promise (not “implementation detail”)
+    workPredicateRef: EpistemeRef                 // predicate evaluated on U.Work facts/evidence (A.15.1)
+  },
+
+  // ResultOnly / Composite:
+  resultSpec?: {
+    describedEntityRef?: EntityRef,               // what thing’s post‑state matters (may be kind-labelled)
+    statePlaneRef?: StatePlaneRef,                // where the predicate lives (A.7:3 pins)
+    postConditionRef: EpistemeRef                 // predicate evaluated on post‑state (or evidence about it)
+  },
+
+  notes?: Text/Episteme
+}
+
+OutcomeMode ::= WorkOnly | ResultOnly | Composite
+```
+
+*Mode completeness (normative).*  
+`mode=WorkOnly ⇒ workSpec present ∧ resultSpec absent`  
+`mode=ResultOnly ⇒ resultSpec present ∧ workSpec absent`  
+`mode=Composite ⇒ workSpec present ∧ resultSpec present`
+
+##### A.7:5.10.3 — `unitOfDelivery` and **countingRule** mini‑schema (normative)
+
+`U.PromiseContent.unitOfDelivery` (A.2.3) is an **Episteme** that states *how delivered units are counted/measured*. It is intentionally not a new “counting language”; it is a small record whose predicates are provided as ordinary epistemes.
+
+A conforming `unitOfDelivery` SHOULD be representable by this mini‑schema:
+
+```text
+unitOfDelivery ::= {
+  unitLabel: Text,                       // e.g., "request", "minute", "case", "kWh"
+  countingRule: {
+    selectorRef: EpistemeRef,            // selects which U.Work episodes contribute (default: W✓ for the promise content)
+    quantityRef: EpistemeRef,            // maps each selected Work → ℝ≥0 units (default: constant 1)
+    aggregation: count | sum,            // count = Σ 1; sum = Σ quantityRef(work)
+    dedupeKeyRef?: EpistemeRef,          // optional: prevents double counting (e.g., by ticketId/appointmentId)
+    Γ_timePolicyRef?: PolicyIdRef        // optional: windowing policy id when non-trivial
+  }
+}
+```
+
+*Default behaviour (normative).* If `unitOfDelivery` is absent, delivered units default to `|W✓(SC,T)|` (one unit per accepted delivery work). If `unitOfDelivery` is present but omits either predicate, defaults apply: `selectorRef := fulfilsPromiseContent(SC)` and `quantityRef := 1`.
+
+**Measurement typing note (normative).** When `quantityRef` denotes a measured characteristic (e.g., seconds, kWh, kg, requests), the characteristic’s scale/unit and measurement procedure MUST be explicit via the Characterization patterns (C.16 / C.25) (or an equivalent UTS definition) so that two parties cannot silently “count different things” under the same `unitLabel`.
+
+##### A.7:5.10.4 — Bridge to `U.Work` (normative invariants)
+
+**OUTSPEC‑INV‑1 (No metonymy).**  
+`promisedOutcomeSpecRef` points to an **OutcomeSpec**, not to `U.Work` and not to an extensional delivered object. The *actuals* live on `U.Work` (A.15.1) and its evidence anchors.
+
+**OUTSPEC‑INV‑2 (Evaluability from work evidence).**  
+All predicates referenced by `workPredicateRef`, `postConditionRef`, and `unitOfDelivery.countingRule.*` MUST be evaluable from `U.Work` facts and cited evidence (including `U.Work.Δ` state anchors / evidence carriers). They MUST NOT require introspecting the internal structure of the provider system unless that structure is itself exposed as evidence.
+
+**OUTSPEC‑INV‑3 (Counting coherence).**  
+If `unitOfDelivery` is present, its countingRule MUST select only work episodes that are eligible to satisfy the promise content and MUST not silently double‑count (use `dedupeKeyRef` or a cited policy).
+
+##### A.7:5.10.5 — Canonical examples (didactic)
+
+**Example 1 — Work‑only (promise the work): “provide consultation for ≥5 minutes”.**
+
+```text
+OutcomeSpec(OS‑Consult‑5min) := {
+  mode: WorkOnly,
+  workSpec: {
+    methodConstraintRef?: MD‑Consultation,
+    workPredicateRef: E‑(duration(work) ≥ 5 minutes)
+  }
+}
+
+unitOfDelivery := {
+  unitLabel: "minute",
+  countingRule: {
+    selectorRef: E‑(work fulfils OS‑Consult‑5min),
+    quantityRef: E‑durationMinutes(work),
+    aggregation: sum
+  }
+}
+```
+
+**Example 2 — Result‑only (promise the world state): “a hole of depth ≥ 1 m exists”.**
+
+```text
+OutcomeSpec(OS‑Hole‑1m) := {
+  mode: ResultOnly,
+  resultSpec: {
+    describedEntityRef: kind(Hole),
+    statePlaneRef: GeometryPlane,
+    postConditionRef: E‑(depth(hole) ≥ 1 m ∧ location(hole) within SiteScope)
+  }
+}
+
+unitOfDelivery := {
+  unitLabel: "hole",
+  countingRule: {
+    selectorRef: E‑(work fulfils OS‑Hole‑1m),
+    quantityRef: E‑1,
+    aggregation: count,
+    dedupeKeyRef: E‑holeId(work)         // prevents double counting when rework happens
+  }
+}
+```
+
+**Example 3 — Composite (promise both): “hairstyle for the evening, produced within 20 minutes, by cut+style (not a wig)”.**
+
+```text
+OutcomeSpec(OS‑Hair‑Evening‑20min) := {
+  mode: Composite,
+  workSpec: {
+    methodConstraintRef: MD‑CutAndStyle‑NoWig,
+    workPredicateRef: E‑(duration(work) ≤ 20 minutes)
+  },
+  resultSpec: {
+    describedEntityRef: kind(HairstyleOnClient),
+    statePlaneRef: AppearancePlane,
+    postConditionRef: E‑(looksLike(style="Evening") ∧ survivability(afterShower) ≥ acceptable)
+  }
+}
+
+unitOfDelivery := {
+  unitLabel: "session",
+  countingRule: {
+    selectorRef: E‑(work fulfils OS‑Hair‑Evening‑20min),
+    quantityRef: E‑1,
+    aggregation: count,
+    dedupeKeyRef: E‑appointmentId(work)
+  }
+}
+```
+
+(Where `E‑(…)` denotes an Episteme/predicate defined in the relevant Context; this appendix does not introduce an expression language.)
 ### A.7:6 - Archetypal Grounding (Tell–Show–Show; System / Episteme)
 
 #### A.7:6.1 - System and Episteme example
@@ -16313,7 +16609,7 @@ In summary, A.17 is the linchpin that turns a loose collection of measurement pr
 
 -   **Builds on / Elaborates:** _FPF Core Measurement Schema_ (as outlined in C.16). A.17 lifts the metric template concepts from C.16 into a kernel-level rule. It also reinforces **A.7 Strict Distinction**, by giving each measurement concept a unique name and forbidding overloaded terms.
     
--   **Constrains:** All other patterns that define or use metrics. For example, **A.3.3 `U.Dynamics`** (system dynamics) must name its state variables as Characteristics with proper scales (it cannot refer to them loosely as “KPIs” without context). Similarly, any **Service-level agreements (A.2.3 `U.ServiceClause`)** or **assurance calculations (B.3, D.3 patterns)** that involve measurements are governed by this canonical terminology (no unwarranted synonyms or unit confusion per ISO/IEC 80000, ISO/IEC 25024, QUDT, SOSA/SSN best practices). The pattern’s lexical rules are part of the **LEX-BUNDLE** (E.10) – any FPF-conformant context must adhere to these naming conventions.
+-   **Constrains:** All other patterns that define or use metrics. For example, **A.3.3 `U.Dynamics`** (system dynamics) must name its state variables as Characteristics with proper scales (it cannot refer to them loosely as “KPIs” without context). Similarly, any **service-level targets / SLO clauses (A.2.3 `U.PromiseContent.acceptanceSpec`)** or **assurance calculations (B.3, D.3 patterns)** that involve measurements are governed by this canonical terminology (no unwarranted synonyms or unit confusion per ISO/IEC 80000, ISO/IEC 25024, QUDT, SOSA/SSN best practices). The pattern’s lexical rules are part of the **LEX-BUNDLE** (E.10) – any FPF-conformant context must adhere to these naming conventions.
     
 -   **Coordinates with:** **A.18 (CSLC-KERNEL)**, which defines the minimal **Characteristic/Scale/Level/Coordinate** Standard in detail. A.17 provides the vocabulary and basic distinctions (what is a Characteristic, and its arity), while A.18 applies this to ensure each measurement template is well-formed. Also coordinates with **C.KD-CAL** and **C.CHR-CAL** (Knowledge Dynamics Calculus, Characterization Calculus) – those patterns use the Characteristic/Scale constructs to build domain-specific metrics (e.g. knowledge quality scores) and rely on A.17’s canon for consistency.
     
@@ -30120,7 +30416,7 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 > **Strict Distinction (A.7) reminders.**
 > *Creativity is not a Role* (no one “plays CreativityRole”). It’s a **characterisation** of outcomes/process.
 > *Creativity is not Work* (no resource deltas). Work **produces** artifacts we later characterise.
-> *Creativity is not a Service* (no external promise). Services are judged from Work; creativity may correlate with value.
+> *Creativity is not a service promise clause* (no external promise). Promise clauses are judged from Work; creativity may correlate with value.
 
 #### C.17:12.1 - The Creativity CharacteristicSpace (CHR‑SPACE)
 
@@ -30157,7 +30453,7 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * *Novelty\@context.*
   Coordinate = `1 − max_similarity(candidate, corpus)` with a declared encoder (text, graph, CAD). Unitless in \[0..1]. Document encoder & corpus freeze (`A.10` Evidence Graph Ref).
 * *Use‑Value.*
-  `Pass` iff **acceptanceSpec** (from `U.ServiceClause` or Decision KPI) is met from **Work** evidence; else `Partial`/`Fail`. For scalar KPIs, publish mean ± CI and the acceptance threshold; predicted values carry error bars and are updated post‑run.
+  `Pass` iff **acceptanceSpec** (from `U.PromiseContent` or Decision KPI) is met from **Work** evidence; else `Partial`/`Fail`. For scalar KPIs, publish mean ± CI and the acceptance threshold; predicted values carry error bars and are updated post‑run.
 * *ConstraintFit.*
   Ratio = satisfied / declared **must** constraints. Constraints are `Norm‑CAL` rules; **count only declared** ones (no unspoken “norms”).
 
@@ -30183,7 +30479,7 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * **carrierKind:** Work (fulfillment) → artifact (decision memo).
 * **definition:** Evaluation of an outcome against a declared **objective/criterion** for the current context (or predicted value with explicit model & error).
 * **scale:** ordinal {Fail, Partial, Pass} or scalar KPI.
-* **EvidencePin:** links to `U.Work` that **fulfilServiceClause\`**; cite acceptanceSpec edition.
+* **EvidencePin:** links to `U.Work` that **fulfilPromiseContent\`**; cite acceptanceSpec edition.
 
 3. **`MT.ConstraintFit`**
 
@@ -30288,7 +30584,7 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * **Metrics.** `Novelty@context` (encoder: CAD‑graph v1; ReferenceSet: in‑house assemblies), `ConstraintFit` (no‑tooling‑change), `Use‑Value` (acceptance: Pass if sim shows ≤ +5 % assembly time).
 * **Roles.** Performers = design cell (#TransformerRole); Observer = methods coach (#ObserverRole ⊥).
 * **Outcome.** 22 candidates; 4 **Pass** usefulness; best `Novelty`=0.41 with **100 %** constraints respected; `Time‑to‑First‑Viable` = 3 h 40 m.
-* **Evidence.** Scorecard episteme holds metrics; links to Work ids; acceptance tied to internal **Service** “Design‑for‑Assembly Simulation”.
+* **Evidence.** Scorecard episteme holds metrics; links to Work ids; acceptance tied to internal **promise content** “Design‑for‑Assembly Simulation”.
 
 **Manager’s read.** “We didn’t just produce ‘novel’ shapes; 4 passed the sim and respected constraints, within the day.”
 
@@ -31627,7 +31923,7 @@ The ladder and LOG shells align with FPF’s **Assurance calculus**: **F** (form
 **Depends on.** A‑kernel (A.1–A.15) for holonic basics and **Role–Method–Work** separation; **B.3** Trust & Assurance (F–G–R with CL penalties); **E.3/E.5** (precedence & Guard‑Rails); **C.5** Resrc‑CAL; **C.18** NQD‑CAL (candidate generation/portfolio); **C.19** E/E‑LOG (explore–exploit policies); **optional** Compose‑CAL and KD‑CAL (knowledge dynamics) where available.
 
 **Coordinates with.**
-U.WorkPlan and U.ServiceClause bindings (acceptance gates), Working‑Model publication discipline (**per B.3**), Evidence/Provenance (G.6).
+U.WorkPlan and U.PromiseContent bindings (acceptance gates), Working‑Model publication discipline (**per B.3**), Evidence/Provenance (G.6).
 
 ### C.24:1 - Problem frame
 
@@ -31650,7 +31946,7 @@ We need a **tool‑agnostic** way to (i) identify **admissible tools**, (ii) **s
 | **General methods vs. hand‑craft** | Scalable, model‑centric search ↔ short‑term wins of bespoke scripts (guarded by **Bitter‑Lesson Preference**). |
 | **Assurance vs. Autonomy**         | F‑G‑R gates & CL penalties ↔ agent freedom to sequence calls and learn online.                                 |
 | **Exploration vs. Delivery**       | Exploration share for illumination ↔ delivery SLAs and cost ceilings (E/E‑LOG policy).                         |
-| **Separation of concerns**         | Planning (MethodDescription) ↔ execution (Work) ↔ service promises (U.ServiceClause).                                |
+| **Separation of concerns**         | Planning (MethodDescription) ↔ execution (Work) ↔ service promises (U.PromiseContent).                                |
 
 ### C.24:4 - Solution — Signature & Realization
 
@@ -31717,12 +32013,12 @@ A **System in AgentialRole** composes a **Plan** (MethodDescription); upon enact
 
 ### C.24:7 - Conformance Checklist (CC‑AT)
 
-1. **CC‑ATC‑1 — Declared separation.** Plan is a `MethodDescription`; execution is `Work`; acceptance is via `U.ServiceClause`. No schedule inside specs; schedules live in `U.WorkPlan`.
+1. **CC‑ATC‑1 — Declared separation.** Plan is a `MethodDescription`; execution is `Work`; acceptance is via `U.PromiseContent`. No schedule inside specs; schedules live in `U.WorkPlan`.
 2. **CC‑ATC‑2 — Budgets on record.** `time/compute/cost/risk` ceilings exist **ex ante**; stop conditions listed.
 3. **CC‑ATC‑3 — E/E policy.** `EmitterPolicyRef` (or equivalent) and `explore_share` are editioned and logged.
 4. **CC‑ATC‑4 — Assurance tuple.** Publish the **typed claim** “Plan admissible under K,S” with **⟨F,G,R⟩** and CL penalties traceable in the **CallGraph** SCR. Design/run never merged.
 5. **CC‑ATC‑5 — BLP waiver discipline.** Any heuristic override against a general method includes **expiry** and **re‑evaluation** date.
-6. **CC‑ATC‑6 — Provenance minimum.** Record `{ServiceClouseRef, MethodDesc.edition, EmitterPolicyRef, DescriptorMapRef? (if NQD), DistanceDefRef? (if NQD), TimeWindow, Seeds?, Dedup?}`.
+6. **CC‑ATC‑6 — Provenance minimum.** Record `{PromiseContentRef, MethodDesc.edition, EmitterPolicyRef, DescriptorMapRef? (if NQD), DistanceDefRef? (if NQD), TimeWindow, Seeds?, Dedup?}`.
 7. **CC‑ATC‑7 — Notation independence.** No vendor tokens in conceptual text; bindings via Bridges/Profiles only.
 8. **CC‑ATC‑8 — BLP tolerances declared.** **α/δ** tolerances are present in `ATC.Policy` or referenced via the active E/E‑LOG profile.
 
@@ -31740,7 +32036,7 @@ A **System in AgentialRole** composes a **Plan** (MethodDescription); upon enact
 ### C.24:10 - Relations
 
 * **Builds on:** A.15 Role–Method–Work alignment (planning vs execution vs service), B.3 Trust & Assurance (F–G–R/CL), C.5 Resrc‑CAL, C.18 NQD‑CAL (candidate/portfolio), C.19 E/E‑LOG (policies).    
-* **Constrains:** Any `U.ServiceClause` used as a “tool” MUST expose acceptance conditions and observation hooks sufficient for B.3 reporting. 
+* **Constrains:** Any `U.PromiseContent` used as a “tool” MUST expose acceptance conditions and observation hooks sufficient for B.3 reporting. 
 * **Enables:** Human‑centric Working‑Model surfaces with policy/assurance disclosures (design/run separated). 
 
 ### C.24:11 - Bias‑Annotation
@@ -31774,7 +32070,7 @@ Provide a **minimal, uniform shape** for engineering “‑ilities” so authors
 
 **Fields (conceptual; reuse existing types).**
 * **Name.** The quality family label (e.g., *Availability*, *Resilience*).  
-* **Carrier.** `U.System | U.ServiceClause | U.Episteme` (what bears the quality).  
+* **Carrier.** `U.System | U.PromiseContent | U.Episteme` (what bears the quality).  
 * **ClaimScope / WorkScope.** **USM** set(s) over `U.ContextSlice` (where the claim holds / where the capability can deliver). **Set‑valued; not CHR.**  (A.2.6 § 6.2).  
 * **Measures[CHR].** One or more **CHR Characteristics bound to one Scale each** (e.g., `AvailabilityRatio[%]`, `RTO[min]`). **These are the measurable slots.** (C.16/A.18).  
 * **QualificationWindow.** Time policy used by guards (point/window/rolling).  
@@ -33377,7 +33673,7 @@ Below are the **normative clauses**
 
 > **Rule V‑0 (Strata).** Every lexical item in a conformant text belongs to exactly one **stratum**:
 
-1. **Kernel** — `U.*` types, kernel relations, invariants (e.g., `U.Holon`, `U.Role`, `U.Method`, `U.Work`, `U.ServiceClause`).
+1. **Kernel** — `U.*` types, kernel relations, invariants (e.g., `U.Holon`, `U.Role`, `U.Method`, `U.Work`, `U.PromiseContent`).
 2. **Extension patterns** — CAL/LOG/CHR exports (e.g., **Sys‑CAL**, **KD‑CAL**, **Agency‑CHR**) that **extend** but do not override Kernel.
 3. **Context** — a **`U.BoundedContext`** with its **Glossary, Invariants, Roles**, and **Bridges** (local Context of meaning).
 4. **Instance** — concrete identifiers (holders, role assignments, works, carriers).
@@ -33476,7 +33772,7 @@ If an intensional object is currently named `… Standard`, rename it to a prope
  `measurement Standard` → `measurement standard`;  
  `Method Interface Standard (MIC)` → `Method Interface Standard (MIS)` *(alias acceptable during transition)*;  
  `Boundary‑Inheritance Standard (BIC)` → `Boundary‑Inheritance Standard (BIS)` *(alias acceptable during transition)*.  
- **Rationale.** Keeps Core prose centred on **intensional objects** and their boundary invariants; reserves deontic obligations for governance contexts and **U.ServiceClause**‑like promises. Do **not** misuse “plane”: deontic speech‑acts are analysed via the **Gov** lens, while **ReferencePlane** remains `{world | concept | episteme}`.
+ **Rationale.** Keeps Core prose centred on **intensional objects** and their boundary invariants; reserves deontic obligations for governance contexts and **U.PromiseContent**‑like promises. Do **not** misuse “plane”: deontic speech‑acts are analysed via the **Gov** lens, while **ReferencePlane** remains `{world | concept | episteme}`.
 
 ### E.10:6.2 - Twin‑Register Discipline (Tech / Plain)
 
@@ -33489,13 +33785,13 @@ If an intensional object is currently named `… Standard`, rename it to a prope
 
 | **Tech (authoritative)** | **Plain (didactic)**                        | **Notes & guards**                                                                           |
 | ------------------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| `U.System`               | system, machine, team                        | “Service” **never** stands for `U.System`; reserve **Service** for `U.ServiceClause` (see L‑SERV). Avoid “service‑instance” as a Plain twin; prefer “system instance” if needed. |
+| `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`; treat it as an **always‑unpack** token (L‑SERV, A.6.8). Avoid “service‑instance”; prefer “system instance”, “service access point”, or “service offering” depending on facet. |
 | `U.Episteme`             | body of knowledge, document, dataset, model | Pair must respect **Carrier vs Content** (A.7).                                              |
 | `U.Method`               | how‑to, procedure (abstract)                | Do **not** call this “process” (L‑PROC).                                                     |
 | `U.MethodDescription`    | recipe, SOP, playbook, code, spec‑text      | If testable, call out **Spec** explicitly per E.10.D2 (I/D/S).                               |
 | `U.Work`                 | run, execution, activity, job, case         | Never use “process” or “procedure” here.                                                     |
 | `U.Role`                 | role, hat, mask                             | Always **context‑indexed** per D.CTX.                                                        |
-| `U.ServiceClause`              | promise, offering, external Standard        | Never equate to provider system or API (L‑SERV).                                             |
+| `U.PromiseContent`              | promise, offering, service offering         | Never equate to provider system or API (L‑SERV).                                             |
 | `U.Capability`           | ability, capacity (within bounds)           | Separate from Role/Method/Work; must carry **envelope & measures**.                          |
 | `U.Dynamics`             | law of change, model of evolution           | Not a capability or a method.                                                                |
 
@@ -33525,7 +33821,7 @@ The plain twin **MUST** preserve the **head term** of the Tech name, or append a
 * Roles keep **“(role)”**, Services keep **“(service)”**, Methods keep **“(method)”**, Work keeps **“(work record)”**, Capability keeps **“(capability)”**.
   *Examples:*
   `TransformerRole` → “**Transformer (role)**”,
-  `U.ServiceClause` → “**Service (service)**”,
+  `U.PromiseContent` → “**Service (service)**”,
   `U.Work` → “**work (work record)**”.
 
 **CC‑TWIN‑4 - Kind‑consistent.**
@@ -33608,7 +33904,7 @@ Prefer **object‑anchored heads** to metaphors. If a metaphor is unavoidable, e
 **SF‑3 (Form, SHOULD).** Prefer typographic separators (**MG-DA**) to fused acronyms (**MGDA**). Use the fused form only in code or identifiers where punctuation is disallowed, and only after registration.
 
 #### E.10:7.8 - Examples (illustrative, canonical)
-Prefer **`U.ServiceClause`** (promise) over *BusinessService*; **`U.Capability`** over *Function*; **`U.Dynamics`** over *NaturalProcess*; **`U.WorkPlan`** over *ScheduleProcess*.  
+Prefer **`U.PromiseContent`** (promise) over *BusinessService*; **`U.Capability`** over *Function*; **`U.Dynamics`** over *NaturalProcess*; **`U.WorkPlan`** over *ScheduleProcess*.  
 Do **not** mint *ETLService* at kernel level—model ETL as `MethodDescription`; the **Service** is “data delivered under acceptance.”
 
 #### E.10:7.9 - Acceptance & regression checks (LEX/USM)
@@ -33811,13 +34107,14 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 | **L‑rule**   | **Weak / ambiguous word (Ban)**                   | **Canonical FPF target(s)**                                                                                                                                                                     | **Layer gate**                                                                       | **TokenClass gate**                         | **Notes**                                                                                            |
 | ------------ | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | **L‑PROC**   | *process / procedure / function step*             | `U.Method` (abstract way‑of‑doing); `U.MethodDescription` (recipe/notation‑agnostic); `U.Work` (execution); `U.WorkPlan` (schedule)                                                             | I for `Method`; D for `MethodDescription`; run artefact for `Work`; D for `WorkPlan` | Kernel/Context for types; Context for runs  | “Industrial process” as **line role** → model system + `…Role`; chemistry in `Method`/`Dynamics`.    |
-| **L‑FUNC**   | *function*                                        | `U.Capability` (ability/envelope) **or** `U.ServiceClause` (promise) **or** `U.Method` (recipe) **or** `U.Work` (what happened)                                                                       | I for Capability/Service/Method; run for Work                                        | Kernel/Context                              | Never use *function* as a type name in Core.                                                         |
-| **L‑SERV**   | *service* used for team/system/API/ticket/process | `U.ServiceClause` = external **promise** (access + acceptance); providers/consumers are **roles** (`…#ServiceProviderRole`) on systems; API is `accessSpec : MethodDescription`; tickets are `U.Work` | I for Service; D for accessSpec; run for Work                                        | Kernel/Context/Discriminator (per artefact) | “API = service” is forbidden; map per row.                                                           |
+| **L‑FUNC**   | *function*                                        | `U.Capability` (ability/envelope) **or** `U.PromiseContent` (promise clause / offering) **or** `U.Method` (recipe) **or** `U.Work` (what happened)                                                                       | I for Capability/PromiseContent/Method; run for Work                                        | Kernel/Context                              | Never use *function* as a type name in Core.                                                         |
+| **L‑SERV**   | *service* used for team/system/API/ticket/process | Always unpack to the facet: `U.PromiseContent` (service offering / promise clause), `U.Commitment` (SLA obligation), `U.SpeechAct` (promise/offer act), `accessSpec : U.MethodDescription` (API/interface spec), **service access point** (`SystemRef`, addressable endpoint), **service delivery system** (`SystemRef`), **service delivery method** (`U.MethodDescription`), and/or `U.Work` (delivery run/case/ticket). | I for PromiseContent/Commitment/Method; D for specs; A for systems; run for Work                                        | Kernel/Context/Discriminator (per artefact) | “API = service” is forbidden; name the facet head phrase (A.6.8).                                                           |
+| **L‑SLA**    | *SLA* / *service level agreement* used for target/contract/document | Unpack: (i) targets/SLOs → `U.PromiseContent.acceptanceSpec`; (ii) binding obligation/penalty → `U.Commitment`; (iii) packaged “the SLA” → Contract Bundle (A.6.C); (iv) published terms → `U.SpeechAct` + clause carrier (`U.Episteme`). | I for PromiseContent/Commitment; D for clause carriers/specs; run for Work+evidence | Kernel/Context/Discriminator | Treat “SLA” as polysemic shorthand; never store it as a single type name. |
 | **L‑SCHED**  | *schedule / plan / calendar* as execution         | `U.WorkPlan` (intent/window) vs `U.Work` (actuals/telemetry)                                                                                                                                    | D vs run                                                                             | Context                                     | Never attach actuals to a plan.                                                                      |
 | **L‑ACT**    | *activity / action / task* as type                | `U.Work` (execution); **steps** belong to `U.MethodDescription` (with `requiredRoles`, capability bounds)                                                                                       | run vs D                                                                             | Context                                     | Reserve verbs: *enact* (role/RSG), *execute* (Work), *actuate* (System), *approve* (SpeechAct Work). |
 | **L‑AGENT**  | *agent / actor / doer* (bare)                     | say “system **bearing** `…Role`”; use `U.AgentialRole` where needed                                                                                                                             | I                                                                                    | Kernel/Context                              | Org titles (Owner/Operator/Reviewer) live as **roles in a Context**.                                 |
 | **L‑OWNER**  | *owner of X* (global)                             | Ownership is a **Role** inside a `U.BoundedContext` (e.g., `OwnerRole:ITIL_2020`); SoD via `⊥`                                                                                                  | I                                                                                    | Context                                     | No global “owner” property in Kernel.                                                                |
-| **L‑CAP**    | *capability* for assignment/recipe/run/promise    | `U.Capability` only = ability with envelope; assignments are `…Role`; recipes `Method/MethodDescription`; runs `Work`; promises `Service`                                                       | I vs D vs run                                                                        | Kernel/Context                              | Holder of a Capability is a `U.System`.                                                              |
+| **L‑CAP**    | *capability* for assignment/recipe/run/promise    | `U.Capability` only = ability with envelope; assignments are `…Role`; recipes `Method/MethodDescription`; runs `Work`; promises `U.PromiseContent` (service promise clause / offering)                                                       | I vs D vs run                                                                        | Kernel/Context                              | Holder of a Capability is a `U.System`.                                                              |
 | **L‑DYN**    | *process of diffusion / growth / learning*        | `U.Dynamics` (law/model of change)                                                                                                                                                              | I                                                                                    | Kernel/Context                              | Reserve for uncaused change models.                                                                  |
 | **L‑EVID**   | “paper/dataset proves/ensures”                    | `…#EvidenceRole:Context` on an **Episteme**; claims/scopes/polarity/timespan; provenance from `Work`                                                                                            | D/S                                                                                  | Context/Discriminator                       | Evidence is a **role binding**, not an actor.                                                        |
 | **L‑CTX**    | *context* (fuzzy trope)                           | `U.BoundedContext` (named card)                                                                                                                                                                 | —                                                                                    | Context                                     | Never use “depends on context” in Core; **name** the Context.                                        |
@@ -33834,8 +34131,8 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 | ------------------------------- | --------------------------------------------------------------------------------------- |
 | “the process owner approves”    | `SystemX#ApproverRole:Context` **performs a SpeechAct Work** “approve …”                |
 | “the document enforces policy”  | `Policy_vN#RequirementRole:Context` **gates** Work; enforcement = **SpeechAct** + audit |
-| “our service runs nightly jobs” | Nightly **Work** **claimsServiceClause**(BatchProcessing); **Service** defines acceptance     |
-| “the API is the service”        | API = `accessSpec : MethodDescription`; **Service = promise** with acceptance           |
+| “our service runs nightly jobs” | Nightly **Work** **claimsPromiseContent**(BatchProcessing); **promise content** defines acceptance     |
+| “the API is the service”        | API = `accessSpec : MethodDescription`; **promise content** defines acceptance           |
 | “capability assigned to team Y” | Team Y **plays** `Role`; the team (as system) **has Capability** C within envelope E    |
 | “process health green”          | StateAssertion for `ObserverRole`/`Service` KPI **passes** acceptance window            |
 | “function of component A fails” | **Work** performed by `SystemA#Role` **failed** acceptance (observations show …)        |
@@ -33848,7 +34145,7 @@ A text **passes** LEX if all answers are **Green**:
 
 1. **Context named.** Polysemous terms appear **inside a named `U.BoundedContext`** (or the page declares a local context card).
 2. **Right layer.** I/D/S layer respected: types/roles on I; recipes/docs on D; actuals on runs (cf. § 8.1 gates).
-3. **Promise vs ability vs performance.** `Service` (promise), `Capability` (ability), `Work` (performance) are not conflated.
+3. **Promise vs ability vs performance.** `PromiseContent` (promise clause), `Capability` (ability), `Work` (performance) are not conflated.
 4. **No anthropomorphism.** Documents/datasets/models do not “do”; **Systems** do.
 5. **Scheduling hygiene.** No actuals on `WorkPlan`; all actuals live on `Work`.
 6. **Cross‑context reuse.** Any reuse across Contexts cites a **Bridge id** with `kind/dir/CL/Loss/scope` (apply **A.6.9 (RPR‑XCTX)** when the surface prose uses “same/equivalent/align/map/…”).
@@ -33893,14 +34190,14 @@ A text **passes** LEX if all answers are **Green**:
 ✗ “The **process** failed; the **service** restarted itself.”
 ✓ `PLC_17#ObserverRole:PipelineOps` logged **Observations**;
 `CAB_Chair#ApproverRole:ChangeControl` **performed a SpeechAct** “approve restart”;
-`OpsBot#DeployerRole:CD_Pipeline_v7` **executed Work** `RestartRun‑4711` which **claimsServiceClause**(CoolingUtility);
+`OpsBot#DeployerRole:CD_Pipeline_v7` **executed Work** `RestartRun‑4711` which **claimsPromiseContent**(CoolingUtility);
 post‑run **Evaluation** shows the **Service** acceptance **passed**.
 
 **Cloud.**
 ✗ “The **process owner** approved; the **API service** deployed.”
 ✓ `ProductLead#AuthorizerRole:Rollout_2025` **performed a SpeechAct**;
 `sCG‑Spec_ci_bot#DeployerRole:CD_Pipeline_v7` **performed Work** `Deploy‑F123`;
-API = `accessSpec : MethodDescription#REST_v12`; **Service** “Feature Access” declares acceptance; telemetry **Work** shows **fulfilServiceClause**.
+API = `accessSpec : MethodDescription#REST_v12`; **promise content** “Feature Access” declares acceptance; telemetry **Work** shows **fulfilPromiseContent**.
 
 **Research.**
 ✗ “Dataset X **proves** the theory; the **process** is reproducible.”
@@ -33934,7 +34231,7 @@ This section **inherits** § 7 **MG-DA** (anchored head nouns; Characteristic/Ch
 2.1 Replace underlined words via **§ 9 L‑rules** table:
  • recipe → **`U.Method` / `U.MethodDescription`**
  • scheduled run → **`U.Work` / `U.WorkPlan`**
- • promise → **`U.ServiceClause`**
+ • promise → **`U.PromiseContent`**
  • ability → **`U.Capability`**
  • actor‑mask → **`…Role / RoleAssignment`**
  • document/evidence carrier → **`Episteme`** with **`EvidenceRole/RequirementRole`**
@@ -34261,7 +34558,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 *Definitional pattern — normative, notation‑agnostic*
 
-> **One‑sentence summary.** For every intensional FPF object (e.g., `U.Role`, `U.Method`, `U.System`, `U.Work`, `U.ServiceClause`), clearly distinguish the **thing itself** (*Intension*), its **context‑bound Description** (KU), and its **formal Specification** (KU). Use **–Spec** only when strict, testable invariants and an acceptance harness exist; otherwise use **–Description**. This keeps semantics clean, didactic, and testable across all FPF patterns.
+> **One‑sentence summary.** For every intensional FPF object (e.g., `U.Role`, `U.Method`, `U.System`, `U.Work`, `U.PromiseContent`), clearly distinguish the **thing itself** (*Intension*), its **context‑bound Description** (KU), and its **formal Specification** (KU). Use **–Spec** only when strict, testable invariants and an acceptance harness exist; otherwise use **–Description**. This keeps semantics clean, didactic, and testable across all FPF patterns.
 
 **Status.** Definitional pattern.
 **Builds on:** A.7 **Strict Distinction (Clarity Lattice)**; E.10.D1 **D.CTX (Context ≡ U.BoundedContext)**; C.2.1 **U.EpistemeSlotGraph (DescriptionContext, IDS‑13)**; C.2.3 **Unified Formality Characteristic (F)**.
@@ -34276,7 +34573,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 * **Descriptions** (KUs) capture human‑readable, **Context‑local** semantics (labels, glosses, characterisations, state graphs, checklists).
 * **Specifications** (KUs) exist **only** when there are verifiable invariants, an acceptance harness, **and a declared Formality F adequate for checkability (C.2.3; default F ≥ F4)**, making claims testable.
 
-**Applicability.** Whenever an FPF text introduces or uses an intensional `U.Type` (e.g., `U.Role`, `U.Method`, `U.ServiceClause`, `U.System`, `U.Work`, `U.RCS`, `U.RSG`, `U.RoleEnactment`) in any part (A–H).
+**Applicability.** Whenever an FPF text introduces or uses an intensional `U.Type` (e.g., `U.Role`, `U.Method`, `U.PromiseContent`, `U.System`, `U.Work`, `U.RCS`, `U.RSG`, `U.RoleEnactment`) in any part (A–H).
 
 ### E.10.D2:2 - Problem
 
@@ -34303,7 +34600,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 For every intensional type `U.T`:
 
 * **Intension — `U.T`.**
-  The thing itself (e.g., `U.Role`, `U.Method`, `U.ServiceClause`, `U.System`, `U.Work`, `U.RCS`, `U.RSG`).
+  The thing itself (e.g., `U.Role`, `U.Method`, `U.PromiseContent`, `U.System`, `U.Work`, `U.RCS`, `U.RSG`).
   *It does **not** contain documents, checklists, or carriers; it is not a runtime event or a file.*
 
 * **Description episteme — `U.TDescription(@Context)`**
@@ -34348,7 +34645,7 @@ If any condition is missing, the artefact **must be** a `…Description`.
 **Core trio (per intensional `U.T`).**
 
 * **`U.T` — the Intension.**
-  Kernel object (e.g., `U.Role`, `U.Method`, `U.ServiceClause`, `U.System`, `U.Work`, `U.RCS`, `U.RSG`).
+  Kernel object (e.g., `U.Role`, `U.Method`, `U.PromiseContent`, `U.System`, `U.Work`, `U.RCS`, `U.RSG`).
   *Never* a document, *never* an event, *never* a file.
 
 * **`U.TDescription(@Context)` — the Description Episteme.**
@@ -34556,7 +34853,7 @@ No acceptance harness yet → remains **MethodDescription**, **not** MethodSpec.
 #### E.10.D2:9.3 - Service (SLO/SLA) — *Calibration Service* (ITIL 4 + SOSA/SSN Contexts)
 
 **Contexts.** `ITIL4_2020` (service), `SOSA_SSN_2017` (observation), `ISO_80000_1_2022` (units).
-**Intension.** `U.ServiceClause :: CalibrationService`.
+**Intension.** `U.PromiseContent :: CalibrationService`.
 
 **ServiceDescription\@ITIL4.**
 
@@ -35531,7 +35828,7 @@ If no **ScaleLensPolicy** is declared, selection remains **neutral** with respec
 `Robot_R7#NavigatorRole:Warehouse_2026` executes `Navigate_v3`.
 `AutonomyBudgetDecl`: `action_tokens=10 k steps/day`, `risk_bands={maxSpeed ≤ 1.2 m/s, minDist ≥ 0.5 m}`, `resource_caps={battery ≥ 20%}`; `AdmissibilityConditionsId=Aut‑Guard‑R7‑v1`; override via `PAUSE`, `RESUME`, `ESCALATE` SpeechActs by `FloorSupervisorRole ⊥ NavigatorRole`. Ledger entries decrement `action_tokens`, track `minDist`. Depletion at 0 tokens halts autonomous moves and pages supervisor.
 
-**Show‑B (U.ServiceClause — autonomous deploy).**
+**Show‑B (U.PromiseContent — autonomous deploy).**
 `DeployerRole` performs step “Promote to prod” under `AutonomyBudgetDecl` with `decision_tokens=3/day`, `risk_envelope={error‑budget burn ≤ 2% / day}`, guard “all pre‑deploy checks pass”. Overrides only by `CABChair#AuthorizerRole ⊥ DeployerRole`.
 
 ### E.16:6 - Conformance Checklist (SCR — E.16‑CC)
@@ -36488,7 +36785,7 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   * `ServiceCapabilityDescription`, `ServiceCapabilitySpec` (when a holon is in Service role).
 
   All such epistemes MUST:
-  * obey I/D/S discipline: `…Description`/`…Spec` as D/S‑layers for `U.Method`/`U.Mechanism`/`U.ServiceClause`;
+  * obey I/D/S discipline: `…Description`/`…Spec` as D/S‑layers for `U.Method`/`U.Mechanism`/`U.PromiseContent`;
   * make their `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩` explicit, with `ViewpointRef = VP.Functional`.
 
 * **ConformanceRules (examples).**
@@ -37319,7 +37616,7 @@ Publish a UTS block named `ViewpointMap` that ties engineering viewpoints (from 
 * `ViewFamilyId` — `U.ViewpointBundle.viewFamilyId` (e.g. `VF.TEVB.ENG` for TEVB, or another bundle id).  
 * `EngineeringVPId : ViewpointId` — a viewpoint from that bundle (for TEVB, one of `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}`).  
 * `PublicationVPId : ViewpointId?` — MVPK publication viewpoint id that governs faces implementing this engineering view (optional if not publishing).  
-* `TargetHolon ∈ {U.System, U.Episteme}` *(extended species may add `{U.ServiceClause|U.MethodFamily}`; if `TargetHolon ≠ U.System`, no `U.Work` enactment appears).*  
+* `TargetHolon ∈ {U.System, U.Episteme}` *(extended species may add `{U.PromiseContent|U.MethodFamily}`; if `TargetHolon ≠ U.System`, no `U.Work` enactment appears).*  
 * `PrimaryTGAConstructs` — nodes/edges/gates actually used for this `(ViewFamilyId, EngineeringVPId, TargetHolon)` (typically one of the four families above).  
 * `Crossings{BridgeId, CL/CL^plane?}` — crossings involved; penalties route to R‑lane only.  
 * `EditionPins{…}` whenever comparable claims appear (bind to CG‑Spec/ComparatorSet editions; any face citing editions includes `BridgeCard + UTS` row per MVPK/UNM).  
@@ -42154,7 +42451,7 @@ Part C patterns (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) when de
 
 **“Judge promises on what happened, not on what was planned.”**
 **Status.** Architectural pattern.
-**Builds on:** F.1 **context of meaning (U.BoundedContext)**; F.2 **Term Harvesting**; F.3 **Intra‑Context Sense Clustering**; F.5 **Naming Discipline**; F.7/F.9 **Bridges & CL**; F.10 **Status Families & Windows**; F.11 **Method Quartet Harmonisation**; A.2.3 **U.ServiceClause**.
+**Builds on:** F.1 **context of meaning (U.BoundedContext)**; F.2 **Term Harvesting**; F.3 **Intra‑Context Sense Clustering**; F.5 **Naming Discipline**; F.7/F.9 **Bridges & CL**; F.10 **Status Families & Windows**; F.11 **Method Quartet Harmonisation**; A.2.3 **U.PromiseContent**.
 **Coordinates with.** KD‑CAL (Observation/Characteristic/Scale); Sys‑CAL (Work/Actuation contexts).
 **Non‑goals.** No team workflows, no tooling, no editorial procedures. This pattern specifies **how to think** about acceptance, not how to store or operate systems.
 
@@ -42163,13 +42460,13 @@ Part C patterns (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) when de
 
 **Intent.** Provide a **conceptual binding** that turns a *service promise* (SLO/SLA clause) into a **clear, local, time‑bounded judgement** about **actual Work**, using **Observations** as evidence and **explicit Bridges** where Cross‑context notions must meet. The result is a **Status** (Satisfied/Violated/Inconclusive) that attaches to the **clause‑about‑that‑Work‑in‑that‑Window**.
 
-**Applicability.** Any situation where a service is promised (availability, latency, safety margin, response time, quality gate, compliance duty) and its fulfilment must be decided from what occurred. Works across digital services, industrial control, laboratory processes, clinical pathways, logistics, etc.
+**Applicability.** Any situation where a **service promise clause** (promise content) is published (availability, latency, safety margin, response time, quality gate, compliance duty) and its fulfilment must be decided from what occurred. Works across digital services, industrial control, laboratory processes, clinical pathways, logistics, etc.
 
 
 ### F.12:2 - Problem frame
 
 1. **Plan ≠ proof.** Diagrams and playbooks are treated as if they demonstrated fulfilment.
-2. **Signal ≠ outcome.** Control signals (Actuation) are mistaken for the service outcome experienced by the consumer.
+2. **Signal ≠ outcome.** Control signals (Actuation) are mistaken for the consumer‑perceived outcome (the outcome promised by the clause).
 3. **Global meanings.** *Availability*, *incident*, *latency* are used as if universal, ignoring context‑local senses.
 4. **Unstated translation.** Metrics from one canon are mapped to clauses from another without declaring losses.
 5. **Timeless verdicts.** Judgements are asserted with no explicit Window (day, month, batch).
@@ -42179,8 +42476,8 @@ Part C patterns (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) when de
 
 | Force                                | Tension to resolve                                                                                        |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| **Promise vs. occurrence**           | Service is defined as an external **promise** (A.2.3), yet acceptance must reference **Work** (run‑time). |
-| **Locality vs. integration**         | Meanings are **context‑local**; still we must compare across services, plants, and monitors.                 |
+| **Promise vs. occurrence**           | A service **promise clause** (`U.PromiseContent`) is an external promise, yet acceptance must reference **Work** (run‑time). |
+| **Locality vs. integration**         | Meanings are **context‑local**; still we must compare across **service situations**, plants, and monitors.                 |
 | **Parsimony vs. realism**            | We want a small binding scheme, yet domains differ (percentiles, downtime minutes, control margins).      |
 | **Evidence vs. privacy/feasibility** | Observations prove outcomes; sometimes only proxies exist.                                                |
 
@@ -42191,7 +42488,7 @@ Part C patterns (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) when de
 Acceptance is a **quadruple of anchors** (all context‑local):
 
 1. **ClauseCell** — a deontic/Standardual **SenseCell** stating the promise (*availability ≥ 99.9%*, *MTTR ≤ 60 min*, *temperature within band*).
-2. **WorkCell** — a **SenseCell** for the **Work** that enacted the service in the relevant situation.
+2. **WorkCell** — a **SenseCell** for the **Work** that enacted **service delivery work** in the relevant situation.
 3. **MeasureCell** — a **SenseCell** for the **Observation/Characteristic** used as evidence (KD‑CAL).
 4. **Window** — the explicit period in which the judgement is made (F.10).
 
@@ -42214,7 +42511,7 @@ The **Status** (Satisfied/Violated/Inconclusive) attaches to **ClauseCell\@Windo
 ### F.12:6 - The binding, as five mental rules (notation‑free)
 
 **R1 — Locus rule.**
-A service verdict **attaches to the Clause**, scoped by a **Window**, **about a specific Work**:
+An acceptance verdict **attaches to the Clause**, scoped by a **Window**, **about a specific Work**:
 `status(ClauseCell, WorkCell, Window) ∈ {Satisfied, Violated, Inconclusive}`.
 *Reading:* We do not place “Satisfied” on the plan or on the whole service concept.
 
@@ -42286,6 +42583,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 6. **Non‑retroactivity.** Updating clauses or specs does not alter past verdicts; re‑evaluation must be explicit.
 7. **One‑Work focus.** A verdict references a **specific Work** (or a defined population of Works) matched to the Clause’s scope.
 8. **Loss honesty.** Each Bridge states **kind/CL/Loss**; stronger claims require stronger Bridges or same‑Context alignment.
+9. **No detached pass.** When the ClauseCell is a `U.PromiseContent` (service promise clause), `Satisfied` about a Work is admissible only if that Work also **delivers** the promised outcome spec for the clause (A.2.3:8.1 `fulfilsPromiseContent`). This keeps acceptance on the **same delivery evidence base** (Work facts + Δ anchors + Observations) and prevents “pass verdict separate from delivery”.
 
 
 ### F.12:9 - Micro‑examples (didactic, multi‑domain)
@@ -42294,7 +42592,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 * **Contexts:** *ITIL 4* (Clause), *PROV‑O* (Work), *SOSA/SSN* (Measure).
 * **ClauseCell:** *availability ≥ 99.9% monthly*.
-* **WorkCell:** *service provision* Activities during June.
+* **WorkCell:** *service delivery work* Activities during June.
 * **MeasureCell:** *uptime observation* from synthetic probes.
 * **Predicate:** share‑of‑time ≥ 0.999.
 * **Bridge:** probe result → user availability (**kind:** proxy; **CL:** 2; **Loss:** regional gaps).
@@ -42334,10 +42632,8 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 | **A8**  | **Retroactive renorm**          | A new clause or recalibrated monitor silently rewrites past verdicts.                        | Violates temporal honesty.                      | Enforce **Non‑retroactivity** (Inv‑6): past verdicts stand; new rules apply forward.                                                                     |
 | **A9**  | **Silent units**                | “Latency ≤ 120” with no unit or scale.                                                       | Ambiguous thresholds.                           | **KD‑CAL discipline**: state **Characteristic, Scale, Unit** on **MeasureCell**.                                                                         |
 | **A10** | **Hidden aggregation**          | “Global availability” but only a subset of regions/slices was covered.                       | Over‑claims evidence.                           | State the **aggregation scope** explicitly or confine the verdict to the observed subset; otherwise **Inconclusive**.                                    |
-| **A11** | **Status on the service**       | Tagging the abstract service as “Satisfied”.                                                 | Loses the describedEntity of the judgement.           | Attach to **ClauseCell\@Window about WorkCell**; the service concept remains a promise vocabulary (A.2.3).                                               |
+| **A11** | **Status on “the service”**     | Tagging an abstract umbrella like *“the service”* as “Satisfied”.                            | Loses the describedEntity of the judgement.           | Attach to **ClauseCell\@Window about WorkCell**; the service concept remains a promise vocabulary (A.2.3).                                               |
 | **A12** | **Bridge‑by‑name**              | Equating *Activity* ≡ *Process* because both say “process”.                                  | Assumes global meaning.                         | Use **F.9 Bridge** with **kind/CL/Loss**; or keep them distinct.                                                                                         |
-
-
 ### F.12:11 - Extended worked examples
 
 > Each example identifies **Contexts**, the **quadruple** ⟨ClauseCell, WorkCell, MeasureCell, Window⟩, any **Bridge(s)**, and the **Predicate**. The verdict attaches to *ClauseCell\@Window about WorkCell*.
@@ -43269,7 +43565,7 @@ The harness arranges checks in three clusters:
 
 **Forbidden:**
 * Tech: `U.Episteme` → Plain: **“Tradition”** (bare) — fails **CC‑TWIN‑4/5**.
-* Tech: `U.ServiceClause` → Plain: **“API”** — fails Kind and head checks (API is an access **method**, not the **promise**).
+* Tech: `U.PromiseContent` → Plain: **“API”** — fails Kind and head checks (API is an access **method**, not the **promise**).
 * Tech: `U.RoleAssignment` → Plain: **“Appointment”** — banned term; conflates governance speech‑act with the binding object.
 
 > **Migration guidance (lightweight)**
@@ -43916,9 +44212,9 @@ Add the following columns (nullable; **required** when autonomy is claimed by th
 A UTS **MUST** declare a **Block Plan**—the sequence of blocks that group rows. Blocks are **thread‑specific**. Example **Block Plan** for *Role Assignment & Enactment* (matches your earlier tables):
 
 * **Block A - Context & Roles** — `U.BoundedContext`, `U.Role`, `U.RoleAssignment`, `U.Capability`.
-* **Block B - Method & Description** — `U.Method`, `U.MethodDescription`, Access/Acceptance descriptions (fields of `U.ServiceClause`).
+* **Block B - Method & Description** — `U.Method`, `U.MethodDescription`, Access/Acceptance descriptions (fields of `U.PromiseContent`).
 * **Block C - Execution & Schedule** — `U.Work`, `U.WorkDescription`, `U.Observation`.
-* **Block D - Service & Deontics** — `U.ServiceClause`, `U.SpeechAct`, `U.Commitment`, `U.ServiceClauseClause`, `U.ServiceClauseEvaluation`.
+* **Block D - Service & Deontics** — `U.PromiseContent`, `U.SpeechAct`, `U.Commitment`, `U.PromiseContent`, `U.PromiseFulfillmentEvaluation`.
 * **Block E - Carriers & Bridges** — `U.Carrier`, *Alignment (Bridge entry)*.
 * **Block R - Knowledge Units & Statuses** — `U.Episteme`, `U.EvidenceRole`, `U.StandardStatus`, `U.RequirementStatus`, `U.DefinitionRole`, `U.AxiomaticCoreRole`.
 
@@ -44082,7 +44378,7 @@ _(Choose 3–5 that fit the thread; do not place Contexts here.)_
 *A.* In `Notes` or as a dedicated row if the stateful nature of a Role family is central to the thread.
 
 **Q4. How do we show deontic approvals?**
-*A.* The concept rows (`U.SpeechAct`, `U.Commitment`, `U.ServiceClauseClause`, `U.ServiceClauseEvaluation`) make the communicative/epistemic pieces visible; enactment appears in examples, not as sheet mechanics.
+*A.* The concept rows (`U.SpeechAct`, `U.Commitment`, `U.PromiseContentClause`, `U.PromiseFulfillmentEvaluation`) make the communicative/epistemic pieces visible; enactment appears in examples, not as sheet mechanics.
 
 ### F.17:18 - 90‑Second Teaching Script
 
@@ -44633,9 +44929,9 @@ Every Name Card **SHALL** declare its `CardMode ∈ {MintNew, DocumentLegacy}`. 
 
 In FPF, everyday “contract” talk is treated as shorthand for a bundle of distinct roles. When precision matters (architecture, audit, compliance), authors **SHALL** avoid mapping “contract” to a single concept and instead disambiguate at least:
 
-* **Service / promise clause (`U.ServiceClause`)** — the promised external effect + acceptance criteria (a spec/Standard), not a run (`U.Work`).
-* **Utterance (`U.SpeechAct`)** — the published statement (a Description) that declares or invokes the service clause.
-* **Commitment (`U.Commitment`)** — the deontic bond that binds an accountable agent/role to the service clause.
+* **Service / promise clause (`U.PromiseContent`)** — the promised external effect + acceptance criteria (a spec/Standard), not a run (`U.Work`).
+* **Utterance (`U.SpeechAct`)** — the published statement (a Description) that declares or invokes the promise content.
+* **Commitment (`U.Commitment`)** — the deontic bond that binds an accountable agent/role to the promise content.
 * **Work & evidence (`U.Work` + carriers)** — the actual enactment and the traces/metrics used to adjudicate fulfilment.
 
 A “contract” bundle typically spans the whole A.6.B square; route each piece explicitly:
@@ -44696,19 +44992,19 @@ Example 2 (§F.18:18.2) shows one naming instantiation of this unpacking.
   *IT service canon:* “SLA/OLA clause”, “ticket approved”.
   *Speech‑act theory:* “performative utterance”.
   *Org governance:* “approval signature”.
-* **Kind:** `U.ServiceClause` (promise), `U.SpeechAct` (utterance), `U.Commitment` (deontic bond).
+* **Kind:** `U.PromiseContent` (promise), `U.SpeechAct` (utterance), `U.Commitment` (deontic bond).
 * **Purpose / use‑domain:** ops/governance vocabulary connecting ITSM, organizational policy, and pragmatics; separates saying, binding, and promising.
 * **NQD‑front (seed candidates):**  
   *promise:* *Service*, *Offering*, *Provision*, *CapabilityOffer*  
   *utterance:* *SpeechAct*, *Performative*, *Utterance*, *Declaration*  
   *deontic bond:* *Commitment*, *Obligation*, *Binding*, *Duty*
 * **Chosen from frontier (Unified Tech / Plain):**  
-  `U.ServiceClause` / “service (promise)”; `U.SpeechAct` / “utterance”; `U.Commitment` / “commitment”.  
+  `U.PromiseContent` / “service (promise)”; `U.SpeechAct` / “utterance”; `U.Commitment` / “commitment”.  
   *Discarded highlights:* **Offering** (business‑model connotations); **Declaration** (too narrow for performatives); **Obligation** (legalese; narrower than commitment envelope).
 * **Ontology note (informative):**
   `U.SpeechAct` and `U.Commitment` are defined normatively in Part A (A.2.9 and A.2.8 respectively). This F.18 card is a lexical/NQD anchor, not the ontology definition site.
 
-* **Bridges:** utterance **institutes** commitment; commitment **binds** service clause; no synonymy claimed.
+* **Bridges:** utterance **institutes** commitment; commitment **binds** promise content; no synonymy claimed.
 * **Why it matters:** Status tracking becomes intelligible without pretending that a “service” acts; the NQD‑front yields neutral, cross‑tradition readable labels. (F.12; F.17 blocks D/R.)
 
 #### F.18:18.3 - Example 3 — *Characteristic* names without lifecycle bias
