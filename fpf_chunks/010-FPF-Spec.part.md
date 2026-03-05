@@ -1256,7 +1256,7 @@ The loop creates a closed, auditable circuit between the two temporal scopes. Cr
 
 The Canonical Evolution Loop is universal. It applies identically to the evolution of physical systems, bodies of knowledge, and operational methods. The following sub-patterns detail its instantiation in each of these domains.
 
-*   **B.4-1 System Instantiation (Field Upgrade Loop):**
+*   **B.4.1 - System Instantiation (Field Upgrade Loop):**
     *   **Context:** A fleet of autonomous delivery drones (`U.System`) is in operation.
     *   **Loop Example:**
         1.  **Operate:** The drones perform deliveries.
@@ -1264,7 +1264,7 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
         3.  **Refine:** The engineering team (`Transformer`) updates the drone's power management software (`design-time` model) with a new algorithm optimized for cold temperatures.
         4.  **Deploy:** The team (`Transformer`) pushes the new firmware to the entire fleet. The cycle begins again.
 
-*   **B.4-2 Knowledge Instantiation (Theory Refinement Loop):**
+*   **B.4.2 - Knowledge Instantiation (Theory Refinement Loop):**
     *   **Context:** A scientific theory of protein folding (`U.Episteme`) is being used to predict structures.
     *   **Loop Example:**
         1.  **Operate:** The theory exists and is applied by researchers.
@@ -1272,7 +1272,7 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
         3.  **Refine:** Another research team (`Transformer`) revises the original theory, adding a new term to its equations (`design-time` model) that accounts for the new protein class.
         4.  **Deploy:** The team (`Transformer`) publishes the revised theory in a journal. The scientific community begins to use the new version. **Note.** The *chart* and any CG‑frame readings derived from this episteme MUST cite the updated `MethodDescription` (per A.19.CN CC‑A19.D1‑3) to keep comparability auditable.
 
-*   **B.4-3 Method Instantiation (Adaptive Workflow Loop):**
+*   **B.4.3 - Method Instantiation (Adaptive Workflow Loop):**
     *   **Context:** A software development team uses a specific agile workflow (`U.Method`).
     *   **Loop Example:**
         1.  **Operate:** The team follows the defined workflow for its sprints.
@@ -2348,4 +2348,3 @@ To prevent confusion between **objects‑of‑talk**, their **descriptions**, an
 
 **Normative definition.**
 
-1. **`U.EpistemeCard`.**

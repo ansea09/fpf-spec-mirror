@@ -2178,7 +2178,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 • The **Gloss** must fit on a single line; defer details to F.3.
 
 
-#### F.2:6.2 - Move C — **Fence it off**
+#### F.2:6.3 - Move C — **Fence it off**
 
 **Question to ask.** *“What must I refuse to conclude here?”*
 **Action (mental).** Explicitly **refuse** to: (1) compare across Contexts, (2) fold morphology that the canon treats as meaningful, (3) embed behaviour, deontics, or type structure.

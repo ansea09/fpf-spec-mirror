@@ -1146,7 +1146,7 @@ FPF already committed to a single SlotKind/ValueKind/RefKind discipline (A.6.5) 
 
 ### A.6.2:End
 
-## A.6.3 - `U.EpistemicViewing` — describedEntity‑preserving morphism**
+## A.6.3 - `U.EpistemicViewing` — describedEntity‑preserving morphism
 
 **One‑line summary.** `U.EpistemicViewing` is the **describedEntity‑preserving** species of `U.EffectFreeEpistemicMorphing`: an effect‑free projection between epistemes that may change content and representation, but **never changes what the episteme is about** (the occupant of `DescribedEntitySlot` in C.2.1).
 

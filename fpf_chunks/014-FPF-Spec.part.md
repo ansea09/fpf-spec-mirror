@@ -1132,7 +1132,7 @@ The **MVE Mandate** ensures that every journey starts with a destination in sigh
 *   **Complements:** `E.12 Didactic Primacy & Cognitive Ergonomics`.
 *   **Provides context for:** The definition of `U.Objective` and `U.Characteristic` by establishing a formal link between them.
 
-### E.10:End
+### E.13:End
 
 ## E.14 - Human‑Centric Working‑Model
 

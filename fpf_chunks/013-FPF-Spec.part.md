@@ -571,7 +571,7 @@ Provide a **minimal, uniform shape** for engineering “‑ilities” so authors
 * Ensure any scope is **USM** (set over `U.ContextSlice`); no “G‑levels.”  
 * Cite mechanisms/status separately; route crossings’ penalties to **R** only.
 
-### C.23:End
+### C.25:End
 
 
 # **Part D – Multi-scale Ethics & Conflict‑Optimisation**
@@ -1579,7 +1579,7 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
    Tell‑Show‑Show pedagogy: universal rule → Sys‑CAL example →
    KD‑CAL example.
 
-4. **Part C Extention Patterns**  
+4. **Part C Extension Patterns**  
    Domain‑specific calculi expand on the examples already seen.
 
 5. **Part D Ethics & Conflict Optimisation**  

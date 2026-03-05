@@ -1,3 +1,4 @@
+1. **`U.EpistemeCard`.**
    A species of `U.Episteme` whose components correspond one‑to‑one to slots of some `U.EpistemeKind`:
    * `content : U.ClaimGraph` (for `ClaimGraphSlot`),
    * `describedEntityRef : U.EntityRef` (for `DescribedEntitySlot`),
