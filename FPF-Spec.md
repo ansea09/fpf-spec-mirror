@@ -1,6 +1,6 @@
 # First Principles Framework (FPF) — Core Conceptual Specification
 by Anatoly Levenchuk and assortment of LLMs.
-February 2026
+March 2026
 
 Pattern and headers templates are explained in pattern E.8.
 
@@ -10,7 +10,7 @@ Pattern and headers templates are explained in pattern E.8.
 
 | ID & Title                                                                                                                                   | Status    | Concise content reminder — “what belongs here”                                                                                                                                                                                        |
 | :------------------------------------------------------------------------------------------------------------------------------------------- | :-------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| FPF is a first principle based architecture decisions for transdiciplinary SoTA methods of evolving holons: systems, epistemes, communities. | full text | FPF serves the Engineer, Researcher, and Manager by providing a generative pattern language for constructing and evolving thought, designed as an "operating system for thought".                                                     |
+| What this specification is (and how to use it) | full text | A practical orientation to the Core Conceptual Specification: what FPF is, what kinds of artefacts/patterns it defines, how Parts A–K fit together, and where to start for different reader roles. |
 | Creativity in Open-Ended Evolution and Assurance*                                                                                            | full text | FPF integrates assurance (audits, evidence) and creativity (generating novel ideas) as complementary engines for responsible innovation, providing a structured choreography for creative work from abduction to operation.           |
 | Navigating Uncertainty: Building Closed Worlds within an Open World                                                                          | full text | Explains how FPF reconciles Open-World and Closed-World assumptions, using Bounded Contexts to create reliable 'islands of closure' for engineering decisions within an inherently open world.                                        |
 | FPF as an Evolutionary Architecture for Thought                                                                                              | full text | Positions FPF as an architecture for the reasoning process itself, designed to sustain key characteristics like auditability, evolvability, and falsifiability by applying architectural thinking to the dynamics of reasoning.       |
@@ -317,11 +317,26 @@ Pattern and headers templates are explained in pattern E.8.
 
 # **Preface** (non-normative)
 
-## FPF is a first principle based architecture decisions for transdisciplinary SoTA methods of evolving holons: systems, epistemes, communities.
+## What this specification is (and how to use it)
 
-FPF is designed to serve three primary roles: the Engineer, who builds reliable systems; the Researcher, who searches for and grows trustworthy knowledge; the Manager, who organizes the collective thinking process of the Engineers and Researchers. Therefore FPF stands on a deliberately cross‑disciplinary scaffold. What follows traces the ideas that most visibly shaped its kernel, holonic constructive algebra, transdisciplinary thinking methods (described by patterns) with conceptual standards of publication/presentation results of this thinking.
+This document is the **Core Conceptual Specification** of the **First Principles Framework (FPF)**. It defines a small, domain‑agnostic kernel and a set of extension patterns for **publishing, checking, and evolving conceptual work** about *systems* and *epistemes* (knowledge claims) — and about the organisations/communities that build them. In FPF terms these are all **holons**: things that can be treated as wholes and as parts.
 
-Format of architecture decisions for transdisciplinary thinking architecture: similar to ADR (architecture decision records). **First Principles Framework (FPF)** proposes: a **pattern language** that is _generative_ rather than prescriptive—a toolkit for constructing thought. Each pattern follows the **Alexanderian quartet** (problem context - problem - solution - checklist - consequences - rationale, plus dependences); Patterns interlock to form an **operating system for thought** that is designed to **evolve** (Open‑Ended Evolution, **A.4**).
+FPF is written as a **pattern language**. A pattern is not a tutorial and not a “best practice” blog post; it is a **contract**: *Problem frame → Problem → Forces → Solution*, ending with a **Conformance Checklist**. The canonical template, terminology registers, and the interpretation of RFC‑2119/8174 keywords live in **E.8**.
+
+**What is in this document (map)**
+- **Part A — Kernel Architecture:** holons, bounded contexts, roles, transformers (Method/Work), time & evolution, modularity, and the core boundary disciplines.
+- **Part B — Reasoning Cluster:** aggregation algebra (Γ), trust & assurance (F–G–R), decision cycles, creative abduction, and cross‑vocabulary bridges.
+- **Part C/D — Extension Specs:** CAL/LOG/CHR packages, plus ethics, conflict topology, and trust‑aware mediation scaffolds.
+- **Part E — Constitution & Authoring:** pillars, artefact architecture, lexical rules (LEX‑BUNDLE), authoring protocol, evolution records (DRR), and quality gates.
+- **Part F/G — Publication & Discipline:** the Unification Suite (cards/tables/records like UTS), multi‑view publication, and SoTA discipline patterns that operationalise the kernel.
+- **Parts H–K:** glossary, annexes, indexes/navigation aids, and tracked lexical/migration debt.
+
+**Where to start**
+- If you want the “why”: **E.1–E.2** (Vision/Mission + Pillars).
+- If you want to use FPF on a project tomorrow: **A.0**, then **A.1–A.3**, then **B.3**, then **F.17 (UTS)** and **E.9 (DRR)**.
+- If you want to write or review patterns: start with **E.8** and **E.19**.
+
+Everything in the Core is intentionally **tool‑agnostic**; implementation details belong to Tooling and worked examples belong to the Pedagogical Companion. The rest of this Preface provides non‑normative motivation and reading heuristics for the patterns that follow.
 
 ## Creativity in Open-Ended Evolution and Assurance*
 
@@ -405,7 +420,7 @@ Part of FPF architecture for open-ended evolution is counterintuitive. E.g., to 
 | **Lexical & Representation Discipline** | Guards against category errors and notation lock‑in; keeps language unambiguous and tool‑neutral across contexts. | **Strict Distinction** (didactic distillation of SD), **LEX‑BUNDLE (E.10)**, and **Guard‑Rails E.5.\*** (DevOps Lexical Firewall, Notational Independence, Unidirectional Dependency, Bias‑Audit). All meanings live in a **`U.BoundedContext`** and cross only via Bridges. |
 | **Measurement Typing & Units** | Ensures metrics are correctly typed (ordinal/interval/ratio), unitful, and safe to operate on; forbids “ordinal averages”. | **A.17/A.18** measurement discipline + **MM‑CHR (C.16)** templates; **KD‑CAL CC‑KD‑12** (units/envelopes/windows). |
 | **Order/Time‑Safe Orchestration** | Separates structure from control‑flow and time; prevents hidden order/time bugs in authored models. | **Γ_ctx** (NC‑1..3) and **Γ_time** (T‑1..T‑3) laws; **CT2R‑LOG** “no order/time in parts”; **E.14** “no order/time in structure” for authoring conformance. |
-| **Trust Calibration & Cross‑Context Integrity** | Keeps claims honest when moved across Contexts; reduces over‑optimism via weakest‑link and CL penalties. | **Trust & Assurance Calculus (B.3)** (F‑G‑R characteristics), **Bridges with CL** (KD‑CAL **CC‑KD‑07**), and creativity rules that lower **R** (not scale) when crossing contexts.  |
+| **Trust Calibration & Cross‑Context Integrity** | Keeps claims honest when moved across Contexts; reduces over‑optimism via weakest‑link and CL penalties. | **Trust & Assurance Calculus (B.3)** (F‑G‑R assurance components: **F/R** characteristics plus **G** as scope object), **Bridges with CL** (KD‑CAL **CC‑KD‑07**), and creativity rules that lower **R** (not scale) when crossing contexts.  |
 | **Agency & Accountability (SoD)** | Makes “who acts” explicit; enforces Separation‑of‑Duties so evidence isn’t self‑authored. | **A.2 Role suite** & **A.15 run‑alignment** (roles vs evidence/work), SoD gates in creativity flows (“fails SoD — same author as reviewer”). |
 | **Scope Safety & Encapsulation** | Prevents scope‑creep and category bleed; each claim applies only within its declared Context/context and exits only via governed bridges. | **Γ_ctx (NC‑1..3)** and **`U.BoundedContext`** for hard context walls; **Bridges with CL** (KD‑CAL **CC‑KD‑07**) for governed crossings; **CG‑frame (A.19)** to declare scope of comparability. |
 | **Reproducibility & Deterministic Replay** | Ability to re‑obtain the same result given the same inputs, model version, and time policy; enables trustworthy debugging and audit. | **A.4 Design–Run split**, **Γ_time (T‑1..T‑3)**, **CT2R‑LOG** (“no order/time in parts”), **E.14** (“no order/time in structure”), **DRR (E.9)** for versioned rationale, **Evidence Graph Referring (A.10)**. |
@@ -646,7 +661,7 @@ Conceptually, the Intellect Stack is formalized as a non-normative **Characteriz
 | Layer                          | Core question                          | Key patterns & exemplary domains                                                                                                                            |
 | ------------------------------ | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1 - Structure & Reality**    | *What exists and how is it bounded?*   | **Kind-CAL** for universal categories; **Sys‑CAL** for system boundaries. <br>Physics (control volumes), Software (static types), Ecology (trophic levels). |
-| **2 - Knowledge & Reasoning**  | *Why should we trust this claim?*      | **KD‑CAL** (F‑G‑R characteristics), **Arg‑LOG** for formal argument. <br>AI (model validation), Evidence‑based policy.                                                 |
+| **2 - Knowledge & Reasoning**  | *Why should we trust this claim?*      | **KD‑CAL** (F‑G‑R assurance components: **F/R** characteristics plus **G** as scope object), **Arg‑LOG** for formal argument. <br>AI (model validation), Evidence‑based policy.                                                 |
 | **3 - Action & Execution**     | *How do we turn intent into change?*   | **Agent‑CHR**, **Method‑CAL**, **Resrc‑CAL**. <br>Robotics (action plans), DevOps (pipelines), Urban planning (resource flows).                             |
 | **4 - Strategy & Rationality** | *Which option wins under uncertainty?* | **Decsn‑CAL**—`U.Decision`, causal models. <br>Finance (risk fronts), Military wargaming.                                                                   |
 | **5 - Governance & Purpose**   | *Why act at all; what is permissible?* | **Norm‑CAL**—`U.Objective`, value conflicts. <br>Bioethics, Sustainability metrics.                                                                         |
@@ -2433,7 +2448,7 @@ This mini‑schema is a **recommendation only**: it is not a kernel object and m
 * **Not a run/incident/ticket:** that is `U.Work`.
 * **Not a schedule:** that is `U.WorkPlan`.
 * **Not a capability:** capability is **provider‑intrinsic ability**; service is **outward promise**. A service may **require** certain capabilities, but it **is not** the capability.
-* **Not a scope label:** do **not** use *applicability*, *envelope*, *generality*, or *validity* as **scope characteristics**; declare **Claim scope (G)** or **Work scope** explicitly where needed (A.2.6).
+* **Not a scope label:** do **not** use *applicability*, *envelope*, *generality*, or *validity* as names for **scope objects**; declare **Claim scope (G)** or **Work scope** explicitly where needed (A.2.6).
 
 #### A.2.3:4.3 - Position in the enactment chain
 
@@ -2577,7 +2592,7 @@ Do **not** place a promise content clause in PBS/SBS or treat it as a part/compo
 Windows and calendars belong to `U.WorkPlan` (A.15.2). Fulfilment evidence belongs to `U.Work` (A.15.1).
 
 **CC-A2.3-13 (Scope lexicon & guards).**
-Deprecated labels *applicability/envelope/generality/validity* **MUST NOT** appear as scope characteristics in guards or conformance blocks. Use **`U.ClaimScope (G)`** for epistemes and **`U.WorkScope`** for capabilities (A.2.6/A.2.2). Scope-sensitive guards **MUST** use **ScopeCoverage** with explicit **Γ_time** selectors.
+Deprecated labels *applicability/envelope/generality/validity* **MUST NOT** appear as names for scope objects in guards or conformance blocks. Use **`U.ClaimScope (G)`** for epistemes and **`U.WorkScope`** for capabilities (A.2.6/A.2.2). Scope-sensitive guards **MUST** use **ScopeCoverage** with explicit **Γ_time** selectors.
 
 **CC-A2.3-14 (Bridges & CL).**
 Cross-context mappings via Bridges keep **F/G** stable; **CL** penalties apply to **R**. A mapping **MAY** recommend **narrowing** the mapped **Claim scope (G)** as best practice (A.2.6/B-line).
@@ -4027,7 +4042,7 @@ Cross‑context transfer maps a **set** `Scope` via a **Bridge** and penalizes *
 What teams often want to “compress into a G number” is actually (a) the **quality of expression** and (b) the **completeness** of the declared scope. The first is an **F threshold** (e.g., require **`U.Formality ≥ F4`** so the scope is predicate‑like and addressable); the second is handled by explicit **ESG guards**: “**Scope covers TargetSlice**,” “**`Γ_time` is specified**,” and “**freshness window holds**” (R‑lane). A ladder for G adds confusion but no additional control.
 
 **Normative directive.**
-`U.ClaimScope (G)` **SHALL** remain a **set‑valued** characteristic; **no ordinal or numeric ladder SHALL be defined** for G. Authoring and gating **SHOULD** use **F thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
+`U.ClaimScope (G)` **SHALL** remain a **set‑valued USM scope object**; **no ordinal or numeric ladder SHALL be defined** for G. If a profile needs scalar reporting, it MAY publish an explicit **report‑only** proxy **`CoverageMetric(G)`**, but **`CoverageMetric(G)` MUST NOT substitute for `G`** in norms, gates, bridge semantics, or CL routing. Authoring and gating **SHOULD** use **F thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
 
 #### A.2.6:7.5 - Translation across Contexts (Bridge & CL)
 
@@ -4095,7 +4110,7 @@ For empirical claims and operational capabilities, **R** typically binds evidenc
 
 **L‑USM‑2 (Work/Run).** Prefer **Work/Run** vocabulary from A.15 for system execution contexts. Do not introduce “operation/operating” as characteristic names; use **Work scope**.
 
-**L‑USM‑3 (Validation).** “Validation/Validate” remain reserved for **LA** in assurance lanes (Part B). Do not name the scope characteristic “validity”.
+**L‑USM‑3 (Validation).** “Validation/Validate” remain reserved for **LA** in assurance lanes (Part B). Do not name a scope object “validity”.
 
 **L‑USM‑4 (Domain).** “Domain” is a descriptive convenience. Scopes are evaluated on **Context slices**; guards SHALL reference slices, not generic “domains”.
 
@@ -4444,7 +4459,7 @@ Only if the formalization **explicitly changes** the scope predicates (ΔG+). Fo
 **Work scope** is **where** the capability can deliver; **measures** within the guard are **what** it promises there (SLO targets). Both are required at use time (WG‑1..3).
 
 **Q5. Can we assign numeric coverage to G?**
-Not normatively. G is set‑valued. You MAY attach **informative** coverage metrics (e.g., proportions) to aid **R** assessment, but guards use set membership.
+Not normatively. G is set‑valued. You MAY attach an **informative**, explicitly declared **`CoverageMetric(G)`** (e.g., a proportion under a pinned policy) to aid **R** assessment, but guards use set membership and **`CoverageMetric(G)` MUST NOT replace `G`**.
 
 **Q6. How do we handle “latest data” scopes?**
 You don’t. Declare a **`Γ_time`** policy (e.g., rolling 90 days). “Latest” is forbidden to ensure reproducible evaluation.
@@ -23546,7 +23561,7 @@ By formalizing the concepts of **Levels** vs. **Layers** and providing a set of 
 ## B.3 - Trust & Assurance Calculus (F–G–R with Congruence)
 
 > **Plain‑English headline.**
-> B.3 defines how **assurance** (trust) is **computed and propagated** for both physical systems and knowledge artifacts, using a small set of **characteristics** and **conservative aggregation rules** that respect the Γ‑invariants and A.15 **Strict Distinction**. It treats the **Working‑Model layer** as the **publication surface** for claims, with assurance **attached downward** (Mapping - Logical - Constructive - Empirical) per E.14.
+> B.3 defines how **assurance** (trust) is **computed and propagated** for both physical systems and knowledge artifacts, using a small **typed assurance tuple** (**F–G–R**: **F/R** characteristics plus **G** as scope object) and **conservative aggregation rules** that respect the Γ‑invariants and A.15 **Strict Distinction**. It treats the **Working‑Model layer** as the **publication surface** for claims, with assurance **attached downward** (Mapping - Logical - Constructive - Empirical) per E.14.
 
 ### B.3:1 - Problem frame
 
@@ -23557,11 +23572,11 @@ Every non‑trivial result in FPF—*a composed system is safe*, *a model is cre
 
 To make such claims comparable and auditable across domains, B.3 introduces a **Trust & Assurance Calculus** that:
 
-* uses a **small set of characteristics** (F–G–R) governed by CHR principles (these are **not** a state space),
+* uses a **small typed assurance tuple** (**F–G–R**: **F/R** characteristics plus **G** as scope object) governed by conservative propagation rules (this is **not** a state space),
 * accounts for **integration quality** via **Congruence Level (CL)** along the edges of a `DependencyGraph` (B.1.1, A.14),
 * and composes these values with **Γ‑flavours** while respecting the **Invariant Quintet** (IDEM, COMM/LOC or their replacements, WLNK, MONO).
 
-B.3 is **conceptual and normative**: it defines *what must be measured and how the measures propagate*. How you improve those measures (e.g., formalize, replicate, reconcile) is the job of KD‑CAL actions (the knowledge‑dynamics patterns; references are descriptive, not required to read here).
+B.3 is **conceptual and normative**: it defines *which assurance components must be published and how they propagate*. How you improve those components (e.g., formalize, replicate, reconcile, or lawfully widen/narrow scope) is the job of KD‑CAL actions (the knowledge‑dynamics patterns; references are descriptive, not required to read here).
 
 **Mechanism linkage.** For law‑governed operation families (e.g., **USM/UNM**) authored as **mechanisms**, use A.6.1 — U.Mechanism to publish **OperationAlgebra/LawSet/AdmissibilityConditions** and the **Transport** clause (Bridge‑only, CL/CL^k/CL^plane). All such penalties **reduce `R/R_eff` only**; **F/G** remain invariant.
 
@@ -23584,17 +23599,17 @@ Without a disciplined calculus, four chronic failures appear:
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | **Conservatism vs. Synthesis**           | Avoid overclaiming (WLNK) ↔ allow real gains from better integration (raise CL) or true emergence (B.2).                            |
 | **Universality vs. Domain nuance**       | One calculus for systems and epistemes ↔ physics and epistemology use different primitives; keep them comparable but not identical. |
-| **Simplicity vs. Fidelity**              | Keep the characteristic space small (A.11) ↔ capture enough structure to be informative and improvable by KD‑CAL actions.           |
+| **Simplicity vs. Fidelity**              | Keep the assurance tuple small and typed (A.11) ↔ capture enough structure to be informative and improvable by KD‑CAL actions.           |
 | **Static clarity vs. Dynamic evolution** | A score must be reproducible today ↔ tomorrow it should legitimately rise after formalization, replication, or reconciliation.      |
 
 
 ### B.3:4 - Solution — **Part 1: The assurance tuple and the universal aggregation skeleton**
 
-B.3 defines **what** to measure, **how** those measures live on nodes and edges of the dependency graph, and the **shape** of the aggregation that any Γ‑flavour must honor when producing an *assurance result*.
+B.3 defines **what** the assurance components are, **how** they live on nodes and edges of the dependency graph, and the **shape** of the aggregation that any Γ‑flavour must honor when producing an *assurance result*.
 
-#### B.3:4.1 - The F–G–R characteristics (CHR‑compliant)
+#### B.3:4.1 - The F–G–R assurance components (typed; `F/R` CHR, `G` USM)
 
-We standardize three characteristics on **nodes (holons)** plus one **edge** characteristic:
+We standardize **two node characteristics**, **one node scope object**, and **one edge characteristic**:
 
 1. **Formality (F)** — *how constrained the reasoning is by explicit, proof‑grade structure.*
 
@@ -23603,11 +23618,11 @@ We standardize three characteristics on **nodes (holons)** plus one **edge** cha
         `F0 Informal prose` - `F1 Structured narrative` - `F2 Formalizable schema` - `F3 Proof‑grade formalism`.
    * **Monotone direction:** higher is better (never lowers assurance when all else fixed).
 
-2. **ClaimScope (G)** — *how broadly the result applies in the relevant domain space.*
+2. **ClaimScope (G)** — *the declared set of `U.ContextSlice` where the result applies.*
 
-   * **Scale kind:** **coverage / span** (set‑ or measure‑based; domain‑specific).
-   * **Monotone direction:** larger, but only when **correctly supported** (see WLNK and CL below).
-
+   * **Type:** **set‑valued USM scope object** (A.2.6), **not** a CHR characteristic.
+   * **Well‑typed operations:** **membership** and **set algebra** (`∈`, `⊆`, `∩`, `⋃`, `SpanUnion`, plus declared Bridge translation / widen / narrow / refit).
+   * **Scalar proxy (report‑only):** if a profile needs a number for reporting, it MAY publish an explicitly declared **`CoverageMetric(G)`**; such a proxy **MUST NOT** replace `G` in norms, gates, bridge semantics, or CL routing.
 3. **Reliability (R)** — *how likely the claim/behavior holds under stated conditions.*
 
    * **Scale kind:** **ratio** in `[0,1]` (or a conservative ordinal proxy when numeric modeling is unavailable).
@@ -23622,8 +23637,8 @@ We standardize three characteristics on **nodes (holons)** plus one **edge** cha
 
 > **Strict Distinction (A.15).**
 >
-> * Characteristics live at **value level** (they qualify holons or edges conceptually), while Γ‑flavours fold **structure/order/time**.
-> * Do not smuggle characteristics into structural edges; keep them explicit on nodes/edges as CHR metadata.
+> * Assurance components live at **value/scope level**: **F/R** as characteristics, **G** as a scope object, while Γ‑flavours fold **structure/order/time**.
+> * Do not smuggle assurance components into structural edges; keep **F/R/CL** explicit as CHR metadata and **G** explicit as a USM scope object.
 
 > **Assurance shoulders (Working‑Model split).**  
 > **Mapping** raises **TA** (typing, fit/CL). **Logical** and **Constructive** contribute to **VA** (intended relation semantics; Γₘ extensional identity for structure). **Empirical Validation** contributes to **LA** (evidence in a bounded context). These supports attach **downward** from the Working‑Model surface (E.14).
@@ -25116,9 +25131,9 @@ Teams routinely entangle **programs, specifications, proofs, and datasets**; a �
 * **Reliability R.** From untested idea to **continuously validated claim**. Litmus: *where is the last successful severe test?* **R‑claims MUST bind to evidence and declare relevance windows; stale bindings degrade R or require waiver per ESG policy.**
 
  **Congruence Level (CL), pairwise ladder.**
- `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable / RoleAssignment‑eligible** (structure‑preserving mapping in a declared fragment with **stated loss**; theorems may transport); `CL‑3` **Near‑identity / Type‑structure‑safe** (invariants match; type‑structure substitution allowed). *CL is a characteristic of a relation between two epistemes; it is not a fourth charachteristic of epistemic characteristic space.* **Norm:** substitution is permitted only if plane‑preserving and **CL ≥ 2**; substituting **type‑structure** requires **CL = 3**.
+ `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable / RoleAssignment‑eligible** (structure‑preserving mapping in a declared fragment with **stated loss**; theorems may transport); `CL‑3` **Near‑identity / Type‑structure‑safe** (invariants match; type‑structure substitution allowed). *CL is a characteristic of a relation between two epistemes; it is not a fourth member of the F–G–R assurance tuple and it is not a characteristic space of its own.* **Norm:** substitution is permitted only if plane‑preserving and **CL ≥ 2**; substituting **type‑structure** requires **CL = 3**.
 
-**Triangle link.** The characteristics live on the **Concept↔Object** side: *F* by the internal claim‑graph structure; *G* by the **ClaimScope** (scope & assumptions); *R* by evaluation templates and evidence bindings. The **Symbol** vertex hosts notation; **carriers are outside** the episteme and link via `isCarriedBy`. Multiple notations are allowed under a **single Symbol component**; authors SHOULD register `NotationBridge(n₁,n₂)` with an associated **CL** to make conversion loss explicit.
+**Triangle link.** The assurance components live on the **Concept↔Object** side: *F* by the internal claim‑graph structure, *G* by the **ClaimScope** (scope & assumptions) as a scope object, and *R* by evaluation templates and evidence bindings. The **Symbol** vertex hosts notation; **carriers are outside** the episteme and link via `isCarriedBy`. Multiple notations are allowed under a **single Symbol component**; authors SHOULD register `NotationBridge(n₁,n₂)` with an associated **CL** to make conversion loss explicit.
 
 #### C.2:4.2 - Four Δ‑moves (epistemic motion)
 
@@ -25477,7 +25492,7 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
 
    * it determines how nodes of `U.ClaimGraph` are mapped to **properties/relations** over values of `DescribedEntitySlot`,
    * it specifies **measurement/evaluation templates** (how to test claims on `GroundingHolon`),
-   * it fixes **claim scope envelopes** over characteristic spaces.
+   * it fixes **claim-scope predicates / admissible regions** over declared `U.ContextSlice` selectors (and, where needed, references to domain spaces used inside those selectors).
 2. `ReferenceSchemeSlot` is a **SlotKind** with:
 
    * **ValueKind** `U.ReferenceScheme`,
@@ -32615,7 +32630,7 @@ The FPF ecosystem is formally stratified into three canonical **artefact familie
     *   **Pedagogical Companion:** Provides a tutorial on how to model a water pump using that profile.
 
 *   **For an `U.Episteme`:**
-    *   **Conceptual Core:** Defines `U.Episteme` and the F-G-R characteristics.
+    *   **Conceptual Core:** Defines `U.Episteme` and the F-G-R assurance tuple components (`F/R` characteristics plus `G` as ClaimScope).
     *   **Tooling Reference:** Provides the reference linting tool to automatically score epistemes.
     *   **Pedagogical Companion:** Provides a case study on how a scientific theory's R-score evolves over time.
 
@@ -32794,7 +32809,7 @@ Establish a **Lexical Firewall** around the **Conceptual Core** *(conceptual con
 
 | Scenario | `U.System` example | `U.Episteme` example |
 |----------|-------------------|----------------------|
-| **Normative text** | “A system boundary must expose at least one conserved‑quantity flow.” (No mention of modelling language.) | “An episteme records its F–G–R coordinates.” (No mention of proof syntax.) |
+| **Normative text** | “A system boundary must expose at least one conserved‑quantity flow.” (No mention of modelling language.) | “An episteme records its F–G–R assurance tuple.” (No mention of proof syntax.) |
 | **Illustrative link** | A modelling profile resides in the Tooling family; Core cites it as “the reference system‑profile”. | A linting routine lives in Tooling; Core cites it as “the reference episteme‑checker”. |
 
 ### E.5.1:6 - Conformance Checklist
@@ -32873,7 +32888,7 @@ Cards, tables and other "forms" exist in FPF core only as conceptual model, not 
 
 | Scenario | `U.System` example | `U.Episteme` example |
 |----------|-------------------|----------------------|
-| Definition | Boundary of a pump is expressed in prose plus set notation; a diagram is illustrative. | F‑G‑R characteristics defined textually; a triple‑store serialisation is illustrative. |
+| Definition | Boundary of a pump is expressed in prose plus set notation; a diagram is illustrative. | F‑G‑R assurance components defined textually; a triple‑store serialisation is illustrative. |
 | Alternate rendering | Same pump semantics rendered in a lattice diagram or a tabular sheet remain valid. | R‑scores plotted in a heatmap or listed in CSV remain equivalent. |
 
 ### E.5.2:6 - Conformance Checklist
@@ -32951,7 +32966,7 @@ Pedagogical Companion  ⟶  Tooling Reference  ⟶  Conceptual Core
 
 | Layer | `U.System` illustration | `U.Episteme` illustration |
 |-------|------------------------|---------------------------|
-| Core | Definition of `U.System` and boundary invariant. | Definition of F‑G‑R characteristics. |
+| Core | Definition of `U.System` and boundary invariant. | Definition of F‑G‑R assurance components. |
 | Tooling | “Reference system‑profile” that checks boundary flow; *imports* Core invariants. | “Episteme‑scoring routine” that calculates R‑score; *imports* Core characteristics. |
 | Pedagogy | Tutorial using the system‑profile to model a pump; *imports* profile and Core term. | Case study explaining R‑score evolution; *imports* scoring routine and Core term. |
 | **Forbidden** | Core pattern importing measurement script. | Core pattern importing R‑score web dashboard. |
@@ -51242,7 +51257,7 @@ FPF is a conceptual framework for disciplined creative work, not a data governan
 
 ### Deprecations (normative)
 
-The following terms **MUST NOT** name scope characteristics in normative text, guards, or conformance blocks:
+The following terms **MUST NOT** name scope objects in normative text, guards, or conformance blocks:
 
 * *applicability*, *envelope*, *generality*, *capability envelope*, *validity* (as a characteristic name).
 
@@ -51289,7 +51304,7 @@ Editors SHALL apply the following replacements:
 ### Migration playbook (informative)
 
 1. **Inventory** scope‑like phrases across your Context (search: applicability, envelope, generality, capability envelope, valid\*).
-2. **Classify** each occurrence as **Claim scope** (episteme) or **Work scope** (capability); replace any “scope characteristic(s)” with “scope type” or “USM scope object” depending on sentence grammar.
+2. **Classify** each occurrence as **Claim scope** (episteme) or **Work scope** (capability); replace any “scope characteristic(s)” with “scope object”, “scope type”, or “USM scope object” depending on sentence grammar.
 3. **Rewrite** guards to use `Scope covers TargetSlice` + explicit **`Γ_time`**; remove “latest”.
 4. **Publish** any required **Bridges** with **CL** for Cross‑context usage.
 5. **Document** ΔG changes separately from evidence freshness (R).
