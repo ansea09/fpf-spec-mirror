@@ -63,6 +63,8 @@ Pattern and headers templates are explained in pattern E.8.
 | A.6.1 | **U.Mechanism - Law‑governed application to a SubjectKind over a BaseType** | Stable | Keywords: Mechanism, OperationAlgebra, LawSet, AdmissibilityConditions, Transport, Bridge‑only. Queries: "How to define a mechanism like USM/UNM?", "Where do operational guards live?", "How to handle cross‑context transport?" | **Builds on:** A.6.0, E.10.D1. **Instances:** USM (A.2.6), UNM (A.19). |
 | A.6.2 | **U.EffectFreeEpistemicMorphing — Effect-Free Morphisms of Epistemes** | Stable | *Keywords:* episteme, effect-free, morphism, functoriality, describedEntity, lenses, reproducibility. *Queries:* "How to transform descriptions/specs without mechanisms?", "What are conservative episteme-to-episteme transforms in FPF?", "How do Describe_ID / Specify_DS fit into a general morphism class?" | **Builds on:** A.1 (Holon), A.7 (Strict Distinction, Object≠Description≠Carrier), A.6.0 (U.Signature), A.6.5 (U.RelationSlotDiscipline), E.10.D2 (I/D/S discipline), C.2.1 (U.EpistemeSlotGraph). **Used by:** A.6.3 (U.EpistemicViewing), A.6.4 (U.EpistemicRetargeting), E.17.0 (U.MultiViewDescribing), E.17 (MVPK), E.18 (E.TGA StructuralReinterpretation), KD-CAL mapping rules. |
 | A.6.3 | **U.EpistemicViewing — describedEntity-Preserving Morphism** | Stable | *Keywords:* episteme, view, EpistemicViewing, describedEntity preservation, ClaimGraph, Viewpoint, RepresentationScheme, CorrespondenceModel, Direct vs Correspondence Viewing, optics, displayed fibration. *Queries:* "How to define a view of an artefact without adding new claims?", "What is an EpistemicViewing in FPF terms?", "How do ISO 42010 views and SysML v2 views-as-queries sit in FPF?" | **Builds on:** A.6.0 (U.Signature), A.6.2 (U.EffectFreeEpistemicMorphing), A.6.5 (U.RelationSlotDiscipline), A.7 (Strict Distinction; I/D/S vs Surface), E.10.D2 (I/D/S discipline), C.2.1 (U.EpistemeSlotGraph), C.2 (KD-CAL: describedEntity & ReferencePlane). **Used by:** E.17.0 (U.MultiViewDescribing), E.17 (MVPK), E.17.1/E.17.2 (ViewpointBundleLibrary & TEVB), E.18 (E.TGA viewpoint families), B.5.3 (Role-Projection Bridge), KD-CAL view operators. |
+| A.6.3.CR | **ConservativeRetextualization — same-described-entity textual re-expression** | Draft | *Keywords:* retextualization, summary, report rewrite, translation, filtering, same-described-entity textual re-expression, direct vs correspondence-mediated rewrite. *Queries:* "When is a summary still a conservative same-entity view?", "How does FPF treat same-entity translation or report rewriting?", "What is ConservativeRetextualization?" | **Builds on:** A.6.3, A.6.2, A.7, E.10.D2, E.17.0, E.17, F.9, F.18, E.10. **Coordinates with:** ExplanationFaithfulnessProfile, RepresentationTransduction, E.17.ID.CR ComparativeReading, A.6.4, B.5.2, A.15. |
+| A.6.3.RT | **RepresentationTransduction — same-described-entity representation-scheme transition** | Draft | *Keywords:* representation transduction, table, diagram, notation shift, reasoning medium, recoverability, non-latent, same-described-entity representation change. *Queries:* "When is a table or diagram still a same-entity view?", "What is RepresentationTransduction in FPF?", "How does FPF handle same-entity representation-scheme shifts?" | **Builds on:** A.6.3, A.6.2, A.7, E.10.D2, C.2.7, E.17.0, E.17, F.9, F.18. **Coordinates with:** ConservativeRetextualization, ExplanationFaithfulnessProfile, E.17.ID.CR ComparativeReading, A.6.4, A.15, A.20, A.21, DecodingAccessProfile. |
 | A.6.4 | **U.EpistemicRetargeting — describedEntity-Retargeting Morphism** | Stable | *Keywords:* retargeting, subject retargeting, describedEntity shift, KindBridge, SquareLaw-retargeting, StructuralReinterpretation. *Queries:* "How to change the object-of-talk without losing truth?", "What is StructuralReinterpretation in FPF terms?", "When is a Fourier-like transform a retargeting rather than a new Γ-construction?" | **Builds on:** A.6.2 (effect-free episteme morphisms), A.1 (Holon: System/Episteme split), F.9 (Bridges & CL, including CL^plane and KindBridge), C.2.1 (U.EpistemeSlotGraph; DescribedEntity/GroundingHolon), C.2 (KD-CAL: ReferencePlane & CL propagation), E.18:5.9/E.18:5.12 (E.TGA crossings & StructuralReinterpretation rules). **Used by:** E.18 (StructuralReinterpretation node in E.TGA as species of U.EpistemicRetargeting), KD-CAL/LOG-CAL retargeting rules, Fourier-style transforms and data↔model re-targetings in discipline packs. |
 | A.6.P | **U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind-Explicit Qualified Relation Discipline** | Stable | *Keywords:* relation precision restoration, under-specified relations, RelationKind, QualifiedRelationRecord, lexical guardrails, endpoint restoration, language-state seam. *Queries:* "What is A.6.P in FPF?", "How do I repair under-specified relation language?", "How do A.6.Q and A.6.A relate to the RPR family?" | **Builds on:** A.6, A.6.B, A.6.S, A.6.0, A.6.5, E.8, E.10, F.18. **Coordinates with:** A.2.6, A.10, C.3.3, E.17, F.9. **Specialised by:** A.6.Q, A.6.A, A.6.5, A.6.6, A.6.8, A.6.9, A.6.H. |
 | A.6.Q | **U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)** | Draft | *Keywords:* quality-term precision restoration, evaluative ascription, quality senses, endpoint routing, bridge reading, language-state seam. *Queries:* "How do I repair overloaded quality language in FPF?", "When does quality talk become an evaluative ascription?", "How does A.6.Q hand off to C.25 or later owners?" | **Builds on:** A.6.P, C.25, C.2.2a, A.16, B.4.1, F.9. **Coordinates with:** A.6.A, B.5.2.0. |
@@ -86,7 +88,7 @@ Pattern and headers templates are explained in pattern E.8.
 | A.15 | **Role–Method–Work Alignment (Contextual Enactment)** | Stable | *Keywords:* enactment, alignment, plan vs reality, design vs run, MIC, WorkPlan. *Queries:* "How do roles, methods, and work connect?", "How does an intention become an action in FPF?" | **Integrates:** A.2, A.3, A.4. **Prerequisite for:** all operational models. |
 | A.15.1 | **`U.Work`: The Record of Occurrence** | Stable | *Keywords:* execution, event, run, actuals, log, occurrence. *Queries:* "What is a Work record?", "Where are actual resource costs stored?" | **Refines:** A.15. **Used by:** B.1.6, all Part D. |
 | A.15.2 | **`U.WorkPlan`: The Schedule of Intent** | Stable | *Keywords:* plan, schedule, intent, forecast. *Queries:* "How to model a plan or schedule?", "Difference between a WorkPlan and a MethodDescription." | **Refines:** A.15. **Informs:** `U.Work`. |
-| A.15.3 | **`SlotFillingsPlanItem` — Planned Slot-Fillings Baseline (WorkPlanning PlanItem)** | Stable | *Keywords:* planned baseline, slot owner, planned filler, edition pins, `Γ_time` selector, guard pins, WorkPlanning, P2W seam, variance trail. *Queries:* "What is SlotFillingsPlanItem in FPF?", "How to keep planned slot filling separate from FinalizeLaunchValues?", "How to pin editions and time in WorkPlanning baselines?" | **Builds on:** A.15.2, A.6.5, E.10.D1, E.17, E.18, E.19. **Used by:** A.6.7 (suite contract pins), Part G universalization, suite/kit specialised baselines. |
+| A.15.3 | **`SlotFillingsPlanItem` — Planned Slot-Fillings Baseline (WorkPlanning PlanItem)** | Stable | *Keywords:* planned baseline, slot owner, planned filler, edition pins, `Γ_time` selector, guard pins, WorkPlanning, P2W seam, variance trail. *Queries:* "What is SlotFillingsPlanItem in FPF?", "How to keep planned slot filling separate from FinalizeLaunchValues?", "How to pin editions and time in WorkPlanning baselines?" | **Builds on:** A.15.2, A.6.5, E.10.D1, E.17, E.18, E.19. **Used by:** A.6.7 (suite contract pins), Part G universalization, suite-specific and kit-specific planned baselines. |
 | A.16 | **Language-State Transduction Coordination** | Draft | *Keywords:* language-state, transduction, lawful moves, reopen, sketch-backoff, respecify, retire, handoff. *Queries:* "How do governed epistemes move across the language-state chart?", "What are the lawful move kinds in FPF?" | **Builds on:** C.2.2a, C.2.LS, A.19. **Coordinates with:** A.16.0-A.16.2, B.4.1, E.18. |
 | A.16.0 | **`U.LanguageStateTransductionTrajectory` — Optional trajectory-account normal form** | Draft | *Keywords:* trajectory account, lineage, fork, merge, supersedes, handoff, heavy history. *Queries:* "When do I publish a language-state trajectory account?", "How does FPF record lineage and branch history?" | **Builds on:** A.16, C.2.2a, E.17, E.18. **Used by:** A.16.1, A.16.2, B.4.1, B.5.2.0. |
 | A.16.1 | **`U.PreArticulationCuePack`** | Draft | *Keywords:* cue pack, pre-articulation, early publication, cue nucleus, primary witness, route pressure. *Queries:* "What is a PreArticulationCuePack?", "How do I preserve early cues before route publication?" | **Builds on:** A.16, C.2.2a, C.2.LS. **Coordinates with:** B.4.1, A.16.2. |
@@ -240,9 +242,11 @@ Pattern and headers templates are explained in pattern E.8.
 | E.15 | **Lexical Authoring & Evolution Protocol (LEX-AUTH)** | stable | *Keywords:* lexical authoring, evolution protocol, LAT, delta-classes. *Queries:* "How are FPF patterns authored and evolved?", "What is a Lexical Authoring Trace (LAT)?". | **Builds on:** E.9, E.10, B.4, C.18, C.19, A.10, B.3, F.15. |
 | E.16 | **RoC-Autonomy: Budget & Enforcement** | Stable | *Keywords:* autonomy, budget, guarded enactment, ledger, SoD, override, UTS. *Queries:* "How is autonomy bounded and tested?", "How are overrides enforced under SoD?" | **Builds on:** E.8, E.10, **C.16 (MM‑CHR)**, **F.8 (Mint/Reuse)**, **E.18 (OperationalGate/GateCrossing)**, **A.21 (OperationalGate(profile); GateFit)**; ties F.4/F.6/F.15/F.17; G.4/G.5/G.9. |
 | E.17.0 | **U.MultiViewDescribing — Viewpoints, Views & Correspondences** | New | Keywords: multi-view describing, viewpoint, view, entity-of-interest, description families, correspondence model, ISO 42010 alignment, view vs viewpoint, engineering vs publication viewpoints. Queries: “How to organise multiple descriptions of one object-of-talk?”, “How are viewpoints, views and correspondences structured in FPF?”, “How do viewpoint libraries generalise ISO 42010 for non-architectural descriptions?” | Builds on: C.2.1 (U.EpistemeSlotGraph; DescribedEntity/Viewpoint/View slots), A.6.2 (U.EffectFreeEpistemicMorphing), A.6.3 (U.EpistemicViewing), A.6.4 (U.EpistemicRetargeting), A.7 (Strict Distinction; I/D/S vs Surface), E.10.D1 (Context), E.10.D2 (I/D/S discipline). Used by: E.17 (MVPK — publication as a specialisation of multi-view describing for morphisms), E.17.1 (U.ViewpointBundleLibrary), E.17.2 (TEVB), E.18:5.12 (E.TGA engineering viewpoint families), domain-specific description schemes (architecture, safety cases, governance, research). |
-| E.17.1 | **`U.ViewpointBundleLibrary` — Reusable Viewpoint Bundles** | Stable | *Keywords:* viewpoint bundle, reusable viewpoint family, import discipline, alias discipline, governance, engineering/management/research bundles. *Queries:* "How do I define reusable viewpoint bundles in FPF?", "What is a ViewpointBundleLibrary?" | **Builds on:** E.17.0, A.6.2-A.6.4, A.7, E.7, E.10. **Used by:** E.17.2, E.18, domain-specific viewpoint packs. |
+| E.17.1 | **`U.ViewpointBundleLibrary` — Reusable Viewpoint Bundles** | Stable | *Keywords:* viewpoint bundle, reusable viewpoint family, import discipline, alias discipline, governance, engineering/management/research bundles. *Queries:* "How do I define reusable viewpoint bundles in FPF?", "What is a ViewpointBundleLibrary?" | **Builds on:** E.17.0, A.6.2-A.6.4, A.7, E.7, E.10. **Used by:** E.17.2, E.18, domain-specific viewpoint-bundle libraries. |
 | E.17.2 | **TEVB — Typical Engineering Viewpoints Bundle** | Stable | Keywords: engineering viewpoints, holon, Functional/Procedural/Role-Enactor/Module-Interface views, EoIClass = U.Holon, ISO 42010 mapping, E.TGA bindings. Queries: “What are canonical engineering viewpoints over a holon?”, “How does TEVB relate to E.TGA and MVPK?”, “How do ISO 42010 architecture viewpoints map onto FPF engineering viewpoints?” | Builds on: E.17.0 (U.MultiViewDescribing), E.17.1 (U.ViewpointBundleLibrary), C.2.1 (U.EpistemeSlotGraph; DescribedEntity/Viewpoint/View slots), A.1 (Holon; U.System/U.Episteme as typical EoI), A.6.2–A.6.4 (episteme morphisms), A.7/E.10.D2 (Strict Distinction & I/D/S discipline). Used by: E.18:5.12 (E.TGA engineering viewpoint families), E.17 (MVPK — publication of engineering morphisms via EngineeringVPId/PublicationVPId correspondences), engineering description/spec patterns and future ISO-aligned architecture description species. |
 | E.17 | **Multi‑View Publication Kit (for Morphisms)** | Stable | Keywords: publication, U.View/U.EpistemeView, multi-view, viewpoints, PublicationScope (USM), PlainView/TechCard/InteropCard/AssuranceLane, functorial views, reindexing (PromoteView[s→t]), Publication characteristics (PC.Number, PC.EvidenceBinding, PC.ComparatorSetRef, PC.CharacteristicSpaceRef), CHR/UNM/CG-Spec anchoring, UTS, pin discipline, D/S→Surface (no I→D/D→S). Queries: “How to publish any morphism across Plain/Tech/Interop/Assurance views without changing semantics?”, “How do MVPK faces relate to U.View/U.EpistemeView and U.Viewpoint/PublicationVPId?”, “How to pin numeric claims and evidence lanes on publication faces so they stay functorial and audit-ready?” | Builds on: A.7/E.10.D2 (Strict Distinction & I/D/S discipline; Surface orthogonality), A.6.2–A.6.3 (U.EffectFreeEpistemicMorphing, U.EpistemicViewing), C.2.1 (U.EpistemeSlotGraph; View/Viewpoint slots), E.17.0 (U.MultiViewDescribing), E.17.1 (U.ViewpointBundleLibrary), E.17.2 (TEVB), E.8 (Authoring conventions), E.10 (LEX-BUNDLE incl. L-SURF), Part F/G (UTS, CG-Spec, CHR pins, UNM). Used by / Coordinates with: E.18 (E.TGA — publication of morphisms via MVPK faces), Part G (SoTA pack shipping surfaces, EvidenceGraph views), tooling that emits human-readable cards/lanes over D/S-epistemes about morphisms. |
+| E.17.EFP | **ExplanationFaithfulnessProfile — explanation classification over existing MVPK faces** | Draft | *Keywords:* explanation, rendering, source-pinned, reconstruction, didactic retelling, speculative retelling, evidence binding, admissible faces. *Queries:* "How does FPF classify explanation-facing renderings?", "What is ExplanationFaithfulnessProfile?", "How do explanation renderings stay on existing MVPK faces without becoming a second semantic rule track?" | **Builds on:** E.17.0, E.17, A.7, E.10.D2, A.6.B, F.9, F.18. **Coordinates with:** ConservativeRetextualization, RepresentationTransduction, E.17.ID.CR ComparativeReading, A.6.4, A.15, A.20, A.21. |
+| E.17.ID.CR | **InterpretationDiscipline / ComparativeReading — bounded comparative reading over comparative review surfaces** | Draft | *Keywords:* comparative reading, comparative review surface, bounded comparison, source-pinned material, same object of talk, bounded lift, forbidden stronger uptake. *Queries:* "What is ComparativeReading in FPF?", "How does FPF govern a comparative review surface?", "When does a comparative review note stay bounded rather than becoming bridge, explanation, prompt, ontology, or gate work?" | **Builds on:** C.2.2a, A.16.0, F.9, E.14. **Coordinates with:** A.6.3, A.6.3.CR, A.6.3.RT, F.9.1, E.17.EFP, B.5.2.0, B.5.2, A.6.4, A.15, A.20, A.21. |
 | E.18 | **Transduction Graph Architecture (E.TGA)** | Stable | *Keywords:* transduction graph, **nodes=morphisms**, **edge=U.Transfer** (single-edge kind), **OperationalGate(profile)**, **CV⇒GF** (ConstraintValidity → GateFit), **MVPK** faces, **SquareLaw**, **UNM single-writer**, **CSLC normalize-then-compare**, **Set-return selection**, **PathSlice/Sentinel refresh**, **DesignRunTag**. *Queries:* “What is E.TGA?”, “How do gates/bridges publish crossings?”, “How to model flows of morphisms?” | **Builds on:** E.17 (MVPK), E.8, E.10, A.7. **Coordinates with:** A.20–A.26 (Flow/GateProfilization/Profiles/Sentinels), F.9 (Bridges & CL), G.11 (Refresh). |
 | E.19 | **Pattern Quality Gates: Review & Refresh Profiles** | Stable | *Keywords:* pattern review, quality gates, admission, refresh, staleness, profile-based checks, PQG, PCP, suite-level review (PCP‑SUITE), planned baseline & P2W seam (PCP‑P2W), `SlotFillingsPlanItem`, MVPK projections, guard vs gate separation. *Queries:* "How to review a new FPF pattern before admitting it?", "How to refresh stale patterns in FPF?", "What are PQG/PCP in FPF?", "How to review a MechSuiteDescription (suite obligations, contract pins, protocols)?", "How to review SlotFillingsPlanItem / planned slot filling and its MVPK projections?" | **Builds on:** E.8, E.10, E.9, E.15. **Coordinates with:** F.8 (Mint/Reuse), F.18 (Naming protocol), F.9 (Bridges & CL), F.15 (Harness), E.17 (MVPK), A.6.7 (MechSuiteDescription), A.15.3 (SlotFillingsPlanItem), G.11 (Refresh). **Constrains:** Admission/refresh decisions for patterns intended for the canonical corpus. |
 | E.20 | **Mechanism Introduction Protocol (MIP)** | Draft | *Keywords:* mechanism introduction, authoring protocol, owner routing, MIP-run manifest, canonical card-first, no dangling `…IntensionRef`, suite boundary hygiene, P2W seam, SlotKind lexicon discipline, alias docking, typed RSCR triggers, regression envelope, PQG profiles. *Queries:* "How to introduce a new mechanism in FPF?", "How to avoid dangling IntensionRefs in suites?", "How to route mechanism changes by semantic owner?", "How to evolve mechanism suites without drift?" | **Builds on:** E.8, E.9, E.10, E.15, E.19. **Coordinates with:** A.6.1, A.6.7, A.15.3, F.18, E.18, G.Core, G.2, `G.x:Ext.*`. **Constrains:** Any change-set that introduces or revises mechanisms, suites, planned baselines, wiring modules, or citeable tokens. |
@@ -340,20 +344,22 @@ One important cluster of the Core deals with a recurrent real-world problem: tea
 
 FPF therefore treats this not as one vague maturity ladder but as a governed region of a declared **language-state chart** over `U.CharacteristicSpace`, with explicit facet owners, lawful transduction moves, route-bearing seam publications, and explicit handoff to later endpoint owners. That cluster is what lets an engineer-manager say, in a disciplined way, not only *what is already known*, but also *what is emerging, how far it is articulated, how closed it is, how it is anchored, which routes remain live, and which later owner should receive it next*.
 
+The first operational wave of that cluster is now already present inside the Core. It includes corridor-reading notes in `C.2.2a`, `C.2.LS`, `A.16`, `F.18`, and `E.10`; same-described-entity textual re-expression in `A.6.3.CR`; the **non-latent branch** of same-described-entity representation-scheme transition in `A.6.3.RT`; explanation classification over existing MVPK faces in `E.17.EFP`; and bounded comparative reading over comparative review surfaces in `E.17.ID.CR`. In other words, the monolith now carries not only the early language-state corridor itself, but also the first downstream families for keeping same-entity rewrites, representation changes, explanation-facing renderings, and bounded comparative review surfaces lawful and reviewable. This first wave is integrated in **Draft / pass-under-guard** form: it is already part of the Core, but it is not yet the closed or final semioarchitecture canon. Latent or decode-mediated `A.6.3.RT` cases remain under explicit guard rather than part of the green first-wave path.
+
 **What is in this document (map)**
 - **Part A — Kernel Architecture:** holons, bounded contexts, roles, transformers (Method/Work), time and evolution, modularity, and the core boundary disciplines.
 - **Part B — Reasoning Cluster:** aggregation algebra (Γ), trust and assurance (F–G–R), decision cycles, creative abduction, and cross-vocabulary bridges.
 - **Part C/D — Extension Specs:** CAL/LOG/CHR packages, plus ethics, conflict topology, and trust-aware mediation scaffolds.
 - **Part E — Constitution & Authoring:** pillars, artefact architecture, lexical rules (LEX-BUNDLE), authoring protocol, evolution records (DRR), and quality gates.
 - **Part F/G — Publication & Discipline:** the Unification Suite (cards/tables/records like UTS), multi-view publication, and SoTA discipline patterns that operationalise the kernel.
-- **Language-state cluster (C.2.2a–C.2.7, A.16–A.16.2, B.4.1, B.5.2.0, A.6.Q, A.6.A):** how FPF models positions in a language-state chart, lawful transduction trajectories between those positions, early seam publications, route publication, abductive handoff, and later precision-restoration or endpoint patterns without flattening them into one vague maturity story.
+- **Language-state navigation cluster (C.2.2a–C.2.7, A.16–A.16.2, B.4.1, B.5.2.0, A.6.3.CR, A.6.3.RT, E.17.EFP, E.17.ID.CR, A.6.Q, A.6.A):** how FPF models positions in a language-state chart, lawful transduction trajectories between those positions, early seam publications, route publication, abductive handoff, and the first same-entity textual, representational, explanation-facing, and bounded comparative-reading families without flattening them into one vague maturity story. This is a **reading cluster**, not the same thing as the narrower language-state owner set inside that cluster.
 - **Parts H–K:** glossary, annexes, indexes and navigation aids, and tracked lexical or migration debt.
 
 **Where to start**
 - If you want the “why”: **E.1–E.2** (Vision/Mission + Pillars).
 - If you want to use FPF on a project tomorrow: **A.0**, then **A.1–A.3**, then **B.3**, then **F.17 (UTS)** and **E.9 (DRR)**.
 - If you want to write or review patterns: start with **E.8** and **E.19**.
-- If your real situation is “we know something is there, but it is still only partly said”: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4–C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
+- If your real situation is “we know something is there, but it is still only partly said”: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4–C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**. If the next lawful move is a same-entity rewrite, representation change, explanation-facing rendering, or one bounded comparative review surface, continue with **A.6.3.CR**, **A.6.3.RT**, **E.17.EFP**, or **E.17.ID.CR**. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
 
 Everything in the Core is intentionally **tool-agnostic**; implementation details belong to Tooling and worked examples belong to the Pedagogical Companion. The rest of this Preface provides non-normative motivation and reading heuristics for the patterns that follow.
 
@@ -3923,7 +3929,7 @@ These SlotKinds are stable names for signatures, substitution laws, and guard te
 
 **Definition.** `U.Scope ⊆ ContextSliceSet` is a **set‑valued USM property** whose values are sets of `U.ContextSlice` where a given statement, behavior, or capability is **fit‑for‑use**. It is **not** numeric; its internal order is the subset relation `⊆`. There is no “unit”. The primitive judgement is **membership**: `slice ∈ Scope`.  
 
-+**Guard (normative).** `U.Scope`, `U.ClaimScope (G)`, `U.WorkScope`, and `U.PublicationScope` are **not** `U.Characteristic`s in the A.17/CSLC sense; do **not** include them as slots in any `U.CharacteristicSpace`, and do **not** attach normalizations/scores to them. They are **USM scope objects**.
+**Guard (normative).** `U.Scope`, `U.ClaimScope (G)`, `U.WorkScope`, and `U.PublicationScope` are **not** `U.Characteristic`s in the A.17/CSLC sense; do **not** include them as slots in any `U.CharacteristicSpace`, and do **not** attach normalizations/scores to them. They are **USM scope objects**.
 
 **Operations.** USM admits:
 
@@ -4250,7 +4256,7 @@ AND Scope’ covers TargetSlice
 AND (Apply CL penalty to R)
 ```
 
-+* **Owner(Scope).** The carrier that declares the scope: an **Episteme** (for `U.ClaimScope`), a **Capability** (for `U.WorkScope`), or a **Publication carrier** (for `U.PublicationScope`).  
+* **Owner(Scope).** The carrier that declares the scope: an **Episteme** (for `U.ClaimScope`), a **Capability** (for `U.WorkScope`), or a **Publication carrier** (for `U.PublicationScope`).  
 * **Translate(b, Scope).** The partial mapping of a set of source slices to target slices induced by Bridge **b**. If a source slice is unmappable, it is dropped. The result is a set of target slices; **CL penalties apply to R only**.
 * **Penalty to R**: applied per trust calculus; F and G remain as declared.
 
@@ -4682,10 +4688,10 @@ Role algebra relates **role types** inside **one** `U.BoundedContext`. It is **n
 * **Use:** Frequent conjunctions (e.g., “On‑call Incident Commander” = *Engineer ⊗ Communicator ⊗ Decision‑Maker*).
 * **CC‑ALG‑3.** Engines that check `requires: [RoleC]` **MUST** expand to conjunctive checks.
 
-+> **Didactic guardrails.**
-+> Use `≤` for lasting ladders, `⊥` for critical safety/governance, `⊗` for frequent conjunctions. Prefer listing multiple `requiredRoles` on Method steps to avoid ornate lattices.
+> **Didactic guardrails.**
+> Use `≤` for lasting ladders, `⊥` for critical safety/governance, `⊗` for frequent conjunctions. Prefer listing multiple `requiredRoles` on Method steps to avoid ornate lattices.
 
-+### A.2.7:3 - Relations
+### A.2.7:3 - Relations
 
 **Builds on / depends on**
 
@@ -7993,7 +7999,7 @@ Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names a
 For every **n‑ary relation or operator** declared in the **Vocabulary** row, the Signature **SHALL** assign, to each argument position, a **SlotSpec** triple:
 
 ```text
-+SlotSpec_i := ⟨SlotKind_i, ValueKind_i, refMode_i⟩
+SlotSpec_i := ⟨SlotKind_i, ValueKind_i, refMode_i⟩
 ```
 
 where:
@@ -8655,7 +8661,7 @@ Where `describedEntityChangeMode(f) = retarget`, conservativity is understood **
 We work in the category **Ep** whose objects are epistemes (species of `U.Episteme`) and whose arrows are EFEM morphisms satisfying P0–P2, together with the functor
 
 ```
-+α : Ep → Ref
+α : Ep → Ref
 ```
 
 that maps each episteme to the object it describes (value of `DescribedEntitySlot`, i.e. `describedEntityRef(E)`) as in the mathematical layer for epistemes. EFEM instances with `describedEntityChangeMode(f) = preserve` are **vertical morphisms** for α (`α(f) = id`), while those with `describedEntityChangeMode(f) = retarget` reindex along a declared `KindBridge` in **Ref**.
@@ -9357,6 +9363,644 @@ If all answers are crisp and the laws EV‑0…EV‑6 are satisfied, the pattern
 
 ### A.6.3:End
 
+## A.6.3.CR - ConservativeRetextualization — same-described-entity textual re-expression
+
+**Placement.** Specialization under `A.6.3 U.EpistemicViewing` for same-described-entity textual re-expression.  
+**Builds on.** `A.6.3 U.EpistemicViewing`; `A.6.2 U.EffectFreeEpistemicMorphing`; `A.7`; `E.10.D2`; `E.17.0`; `E.17`; `F.9`; `F.18`; `E.10`.  
+**Coordinates with.** `ExplanationFaithfulnessProfile`; `RepresentationTransduction`; `E.17.ID.CR ComparativeReading`; `A.6.4 U.EpistemicRetargeting`; `B.5.2`; `A.15`.
+
+**One-line summary.** `ConservativeRetextualization` is a same-described-entity textual re-expression of an episteme that stays inside `A.6.3 U.EpistemicViewing`: it may shorten, reorder, filter, translate, or restate claims, but it does **not** silently change `describedEntityRef`, add new claims about that entity, or hide bridge work.
+
+### A.6.3.CR:1 - Problem frame
+
+Teams constantly need a second textual form of the same episteme:
+- an internal technical statement rewritten as an engineer-manager-readable report;
+- a longer source note rewritten as a shorter working summary;
+- a source-language statement rewritten into another natural language;
+- a dense claim set rewritten as a filtered report that keeps only one declared slice.
+
+These transforms are often treated as harmless editing. In practice they can quietly drift into hidden reinterpretation, hidden bridge work, hidden explanation, or even hidden retargeting. FPF already has `A.6.3` for same-described-entity conservative viewing. What is still needed is a focused named pattern that states when a textual rewrite remains only a conservative viewing case under `A.6.3`.
+
+### A.6.3.CR:2 - Problem
+
+Without a dedicated pattern for conservative textual re-expression:
+1. report, summary, translation, and filtered rewrite cases are handled ad hoc;
+2. authors treat textual simplification as if it were automatically conservative;
+3. the boundary to explanation-facing surfaces stays blurry;
+4. correspondence-mediated rewrites are not distinguished from direct rewrites;
+5. later reviewers cannot tell whether the result is still a view of the same described entity or a new interpretive artefact.
+
+### A.6.3.CR:3 - Forces
+
+- **Same entity, different wording.** Readers need different textual forms without reopening the described entity.
+- **Compression vs loss visibility.** Shorter or plainer forms are often useful, but omission and attenuation must stay explicit.
+- **Direct vs correspondence-mediated rewrites.** Some rewrites read from one source episteme; others depend on a declared `CorrespondenceModel`.
+- **Textual focus vs family creep.** The pattern should cover same-entity textual re-expression, not explanation, not representation-wide shifts, and not retargeting.
+- **Publication discipline.** Admissible faces and surfaces still matter even when the transform looks like "just a rewrite."
+
+### A.6.3.CR:4 - Solution — same-described-entity textual re-expression under `A.6.3`
+
+#### A.6.3.CR:4.1 - Informal definition
+
+> `ConservativeRetextualization` is a named pattern specialized under `A.6.3 U.EpistemicViewing` for textual re-expression of the same described entity.
+>
+> It preserves `describedEntityRef`, keeps the transform effect-free, and allows only claim-preserving or explicitly loss-declared rewriting of already available content.
+>
+> It may change register, ordering, textual density, language, emphasis, or local wording. It may not silently introduce new claims, new bridge licences, new downstream authority, or a changed object-of-talk.
+
+#### A.6.3.CR:4.1.a - Pattern, case, and publication distinction
+
+`ConservativeRetextualization` is an **intensional pattern** and a named specialization under `A.6.3`. Concrete same-described-entity rewrites are passive episteme-level cases or publication texts reviewed under this pattern; the pattern itself does not act, decide, or publish.
+
+This distinction matters because the pattern governs **how** a rewrite is recognised, justified, and checked. It does **not** require every short report paragraph, summary line, or translation sentence to carry a giant standalone record.
+
+#### A.6.3.CR:4.1.b - Local working vocabulary
+
+This pattern repeatedly uses a small working vocabulary.
+- **Source slice** = the already available pinned or otherwise reviewable textual material being restated.
+- **Published slice** = the resulting textual rendering that remains under same-described-entity discipline.
+- **Ordinary case** = a reviewable same-entity rewrite where source tether, omission notes, and reroute conditions stay readable without a heavyweight review record.
+- **Load-bearing case** = a case where dispute, policy, assurance, correspondence burden, or cross-context reliance makes a fuller record worth publishing.
+
+These terms are only local reading aids. They do not create new owners, new publication faces, or a second semantic layer.
+
+#### A.6.3.CR:4.2 - Scope and exclusions
+
+**In scope**
+- same-described-entity report rewrite;
+- same-described-entity summary;
+- same-described-entity translation between natural-language surfaces;
+- declared filtering or foregrounding of already-present claims in textual form.
+
+**Out of scope**
+- any change of `describedEntityRef` or hidden change of object-of-talk (`A.6.4`);
+- explanation surfaces whose main purpose is explanatory rendering rather than same-entity rewrite (`ExplanationFaithfulnessProfile`);
+- representation-regime changes such as text→table, text→diagram, or text→latent form (`RepresentationTransduction`);
+- abductive, bridge-mediated, or route-bearing work that introduces new claims rather than restating available ones.
+
+
+#### A.6.3.CR:4.2.a - Reader guidance
+
+Use this pattern when the object-of-talk stays fixed and the published result still remains textual.
+- If the main change is explanatory, move to `ExplanationFaithfulnessProfile`.
+- If the main change is a representation-scheme shift, move to `RepresentationTransduction`.
+- If the described entity changes, move to `A.6.4`.
+
+#### A.6.3.CR:4.2.b - What a reviewer checks first
+
+A reviewer usually does not begin by filling every field name. The first useful questions are simpler:
+1. Is the published result still about the same described entity?
+2. Is the result still textual, or has it become explanation or representation change?
+3. Can the reader see what was omitted, softened, or foregrounded?
+4. If correspondence is doing work, is that burden visible rather than hidden in fluent prose?
+5. If any answer is doubtful, is the reroute path explicit?
+
+Only after these questions are answered does a fuller load-bearing review record usually become worth writing.
+
+#### A.6.3.CR:4.3 - Working-model first; explicit review record only when the case is load-bearing
+
+Most same-described-entity textual rewrites should stay human-usable. This pattern therefore follows **E.14’s working-model-first discipline**: ordinary report, summary, or translation cases do not need a giant inline metadata block. What they do need is enough explicitness that a reviewer can still tell what stayed the same, what was omitted, and where the case would have to reroute.
+
+**Ordinary case (default).** For everyday same-described-entity rewrites, it is usually enough that the text or its surrounding publication keeps explicit:
+- which source material is being re-expressed;
+- that `describedEntityRef` remains preserved;
+- whether the case is direct or correspondence-mediated when that is not obvious;
+- what omissions or attenuation matter for the reader;
+- where the case exits if it has turned into explanation, representation shift, retargeting, or world/gate-bearing material.
+
+**Explicit review record (only for load-bearing cases).** A fuller record is warranted when the case is assurance-facing, gate-adjacent, cross-context, correspondence-heavy, policy-bearing, or likely to be disputed. The record may inherit host ids and already-pinned metadata instead of restating them inline. When published, that record normally captures:
+- transform placement (`landingForm = specialization under A.6.3`, `hostOwner`, `sourceForm`, `targetForm`, `changeLocus`);
+- preservation context (`describedEntityPolicy = preserve`, `boundedContextPolicy`, `viewpointPolicy`, `referenceSchemePolicy`, `representationSchemePolicy`, `groundingPolicy`, `referencePlanePolicy`);
+- claim and publication discipline (`claimPolicy`, `claimScopePolicy`, `publicationScopePolicy`, `reliabilityTransportPolicy`, `pinningPolicy`, `provenancePolicy`, `lossProfile`);
+- continuity and bridge discipline (`claimContinuityClass`, `microtheoryContinuityClass`, `onticContinuityClass`, `bridgeRequirement`, `conservativityWitness`);
+- downstream and admissibility discipline (`worldContactPolicy`, `evidencePolicy`, `gatePolicy`, `workCrossing`, `upstreamOwner`, `downstreamOwner`, `admissibleFaces`, `admissibleSurfaces`, `compositionLaw`, `reopenCondition`);
+- naming and presentation discipline (`publicNamePolicy`).
+
+The point of this record is not bureaucratic completion for every paragraph. It is to make **load-bearing** cases reviewable without hiding meaning in style, topic familiarity, or editor intuition.
+
+#### A.6.3.CR:4.3.a - Ordinary admissibility defaults
+
+Default admissibility for ordinary same-described-entity textual cases:
+- primary admissible faces are `Plain` and `Tech`;
+- bounded report-only use is lawful when source pins, provenance, loss notes, and same-described-entity conservativity remain visible;
+- `Interop` use is lawful only when the host explicitly permits source-pinned, text-preserving export without added semantics;
+- `Assurance` or gate-bearing use is not default and requires host-explicit policy plus source-pinned conservativity without hidden strengthening.
+
+#### A.6.3.CR:4.4 - Direct and correspondence-mediated profiles
+
+**Direct ConservativeRetextualization**
+- source and target are textual re-expressions of one source episteme;
+- no `CorrespondenceModelRef` is needed;
+- the main burden is explicit loss/provenance discipline.
+
+**CorrespondenceConservativeRetextualization**
+- the target text is derived from a declared correspondence between epistemes or views of the same described entity;
+- `CorrespondenceModelRef` is required;
+- the result remains under `A.6.3` only if the correspondence supports same-described-entity conservativity and no new claims are imported beyond the declared witness set.
+
+Cross-language translation is not automatically direct. If the translation depends on declared correspondence, reference-scheme mediation, or bounded equivalence notes, it must be treated as correspondence-mediated rather than disguised direct rewriting.
+
+#### A.6.3.CR:4.4.a - Recurring same-entity textual moves
+
+The pattern covers a small family of recurring textual moves as long as the same described entity remains explicit:
+- **Register shift** — a technical statement is rewritten into plainer engineer-manager prose without changing what is being said about the same entity.
+- **Summary or filtered restatement** — a source note is shortened or focused on one declared slice, with omissions stated rather than hidden.
+- **Cross-language restatement** — the same source claim is restated in another natural language while the same source tether and same-entity line remain explicit.
+- **Correspondence-supported textual synthesis** — one textual rendering is produced from declared same-entity correspondences without importing extra bridge or substitution burden.
+
+These are recurring move shapes, not separate owners. The host relation remains the same: same-described-entity textual re-expression under `A.6.3`.
+
+#### A.6.3.CR:4.5 - Shared conservative retextualization law packet
+
+##### A.6.3.CR:4.5.a. Preservation law
+A case under `ConservativeRetextualization` preserves the same described-entity line, the declared bounded context, and the already available claim-bearing source while changing wording, register, language, ordering, or density. It states what remains preserved about claim scope, publication scope, pins, provenance, grounding, and ontic scaffold, and it says whether the case is `Direct` or `Correspondence`.
+
+##### A.6.3.CR:4.5.b. Loss and reliability law
+A reviewed case makes explicit what is omitted, shortened, foregrounded, or attenuated by the rewrite. Reliability transport may remain source-bounded or be explicitly downgraded, but it must never be silently strengthened by cleaner prose, stronger rhetoric, or management-facing polish.
+
+##### A.6.3.CR:4.5.c. Authority and handoff law
+A case reviewed under this pattern stays same-entity and episteme-level. It does not own explanation governance, bridge stance, retargeting, gate authority, or work enactment. If the rewrite becomes explanatory, bridge-bearing, gate-bearing, or world-facing, the case must hand off to the appropriate downstream owner and say so explicitly.
+
+##### A.6.3.CR:4.5.d. Composition and reopen law
+Repeated direct rewrite over the same source line may be idempotent, but heterogeneous rewrites and correspondence-mediated rewrites are generally order-sensitive. A reviewed case must reopen whenever correspondence support, source pins, provenance, admissible-face assumptions, or same-described-entity conservativity stop being explicit.
+
+##### A.6.3.CR:4.5.e. Non-collapse note for correspondence
+Correspondence-mediated retextualization does **not** by itself grant bridge licence, substitution licence, or comparative-reading licence. If the case needs those burdens, they must be declared separately rather than being smuggled in through correspondence language.
+
+##### A.6.3.CR:4.5.f. Local conservativity witness for borderline textual cases
+For borderline textual rewrites, a reviewer treats the case as no longer conservative under this pattern unless each point below remains visibly preserved or is explicitly loss-declared with the reroute path stated.
+- **Modality and force.** A rewrite may not silently turn possibility, uncertainty, bounded scope, or hypothesis language into stronger commitment.
+- **Caveats and qualifications.** A rewrite may not quietly remove conditions, exception notes, uncertainty markers, or temporal qualifiers that still matter for reading the same source.
+- **Reliability posture.** Cleaner prose, better ordering, or manager-facing polish may not silently raise confidence, warrant strength, or readiness for action.
+- **Bridge and substitution burden.** Same-entity textual fluency may not import cross-context equivalence, substitution, or comparative-reading licence unless that burden is declared elsewhere.
+- **Alternative preservation.** A rewrite may not collapse open alternatives, rival hypotheses, or declared plurality into one apparently settled reading unless the loss is stated and still lawful under this pattern.
+
+This witness is local to `ConservativeRetextualization`. It does not replace the broader conservativity laws of `A.6.3`; it makes them inspectable for textual rewrites where fluent prose can otherwise hide strengthening.
+
+### A.6.3.CR:5 - Archetypal Grounding
+
+#### A.6.3.CR:5.1 - Same-described-entity report rewrite
+**Source note slice.** `Service S exceeded the latency threshold in the evening batch window. Trace T-44 and dashboard pin D-17 show the spike. Two low-confidence hypotheses remain open.`
+
+**Published report slice.** `Evening-batch latency for Service S exceeded the threshold. Source pins: Trace T-44, Dashboard D-17. Low-confidence hypotheses are omitted here and remain in the pinned source note.`
+
+This is a lawful direct `ConservativeRetextualization` because the described entity stays fixed, the report remains textual, and the omission is stated rather than hidden. In ordinary internal use, this often needs only source pins plus visible omission notes rather than a full explicit review record.
+
+#### A.6.3.CR:5.1.a - Ordinary inherited-pin summary
+**Pinned source cluster.** `Incident note N-14, trace T-44, and dashboard card D-17 are already published together under one incident review bundle.`
+
+**Published stand-up slice.** `Evening-batch latency again exceeded the threshold for Service S. See N-14 / T-44 / D-17 for the pinned source cluster.`
+
+This is still a lawful ordinary case even though the short stand-up slice does not restate every pin and qualifier inline. The didactic point is that lightweight use may inherit already-published pins and provenance when the tether stays visible to the reader.
+
+#### A.6.3.CR:5.2 - Same-described-entity rewrite via declared correspondence
+**Source design slice.** `Cooling loop CL-2 preserves safe temperature margins during standard load.`
+
+**Source safety slice.** `Cooling loop CL-2 maintains the temperature condition required for hazard-control claim HC-7 during standard load.`
+
+**Published joint-review slice.** `For standard load, Cooling loop CL-2 is described in both the design and safety views as maintaining the required temperature condition. This summary relies on CorrespondenceModel CM-12 and does not add claims beyond that declared overlap.`
+
+The synthesis may stay in this pattern only if the source relation remains explicit and the text does not silently strengthen claims beyond the declared correspondence-supported overlap. Because correspondence support is load-bearing here, a fuller explicit review record is usually warranted.
+
+#### A.6.3.CR:5.2.b - Cross-language re-expression without hidden bridge work
+**Source slice.** `The backup controller stays in passive watch mode until the primary loop fails two consecutive heartbeat checks.`
+
+**Published slice.** `Резервный контроллер остаётся в режиме пассивного наблюдения, пока основной контур не пропустит две последовательные проверки heartbeat.`
+
+This remains in `ConservativeRetextualization` only if the translation is still tethered to the same source claim, preserves the same described entity, and does not quietly add cross-tradition bridge claims such as "equivalent architecture role" or "same operational guarantee" beyond what the source actually states.
+
+#### A.6.3.CR:5.3 - Boundary to explanation surfaces
+A text is rewritten not mainly to restate the same source, but to explain why it matters, simplify reasoning for a learner, or narrate a mechanism. That move should leave `ConservativeRetextualization` and be reviewed under `ExplanationFaithfulnessProfile`.
+
+#### A.6.3.CR:5.4 - Boundary to representation transduction
+A prose note is rewritten as a table, matrix, diagram, or latent/distributed representation. Even if the described entity stays fixed, this is not only a textual rewrite; it belongs with `RepresentationTransduction`.
+
+### A.6.3.CR:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**.
+This pattern intentionally biases toward same-entity conservativity and away from explanation or retargeting inflation. The main mitigation is explicit reroute discipline to `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `A.6.4`, and later downstream owners when the same-entity textual reading stops being honest.
+
+### A.6.3.CR:7 - Conformance Checklist
+
+1. **CC-CR-1 — Same described entity remains explicit.**
+   The case preserves `describedEntityRef` without special pleading.
+2. **CC-CR-2 — Textual re-expression remains the right family.**
+   The result stays a textual re-expression rather than explanation or representation shift.
+3. **CC-CR-3 — Loss / provenance / pinning / reliability are explicit or inherited by pinned reference.**
+   The case states these explicitly or inherits them through already-pinned host material that remains visible to review.
+4. **CC-CR-4 — Direct vs correspondence split is explicit.**
+   The `Direct / Correspondence` split is explicit and justified.
+5. **CC-CR-5 — Correspondence support is named where needed.**
+   If correspondence-mediated, `CorrespondenceModelRef` is declared.
+6. **CC-CR-6 — Local conservativity witness remains satisfied.**
+   The reviewed case does not silently strengthen modality, remove caveats, raise reliability posture, import bridge or substitution licence, or collapse declared alternatives beyond stated loss notes.
+7. **CC-CR-7 — Reroute path is explicit on failure.**
+   If the case fails any of the checks above, the reroute path is explicit (`ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `A.6.4`, `B.5.2`, or another owner).
+8. **CC-CR-8 — Working-model first remains intact.**
+   Ordinary same-entity rewrites stay lightweight; fuller explicit review records are reserved for load-bearing cases.
+
+### A.6.3.CR:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it is wrong | How to avoid it |
+|---|---|---|
+| Treating every summary as automatically conservative | summary pressure hides omission and claim drift | publish loss/provenance discipline explicitly |
+| Hiding correspondence in plain paraphrase | correspondence burden disappears into prose | declare `CorrespondenceModelRef` when needed |
+| Letting a rewrite become explanation | explanation work quietly becomes a textual “rewrite” | reroute to explanation governance once didactic/explanatory work dominates |
+| Letting object-of-talk drift by topic similarity | same topic is not the same described entity | exit to `A.6.4` if `DescribedEntityRef` changes |
+
+### A.6.3.CR:9 - Consequences
+
+- Textual same-entity rewrites get a lawful place without inventing a new heavy owner.
+- Direct and correspondence-mediated variants stay visibly separated.
+- Loss, provenance, and reliability transport become explicit instead of implicit editorial judgement.
+- Ordinary working-model use stays lightweight, while load-bearing cases get a fuller explicit review record when risk warrants it.
+- The pattern remains safely bounded by `A.6.3`, `A.6.4`, explanation-facing work, and representation-shift work.
+
+### A.6.3.CR:10 - Rationale
+
+This pattern is worth splitting out because same-entity textual re-expression is common, useful, and safer than many neighboring transform families when it stays explicitly conservative. Keeping it under `A.6.3` as a named specialization preserves owner integrity while making a recurring authoring move easier to review, while still respecting E.14’s working-model-first discipline for ordinary cases.
+
+### A.6.3.CR:11 - SoTA-Echoing
+
+**SoTA note.** This section does not mint an independent second rule layer. It is a load-bearing alignment surface: the Solution, Conformance Checklist, boundary rules, and Relations of this pattern must match the stance stated here or explicitly justify any divergence.
+
+**Traditions covered.** This pattern binds itself to architecture-description governance, summarization factuality, translation-quality governance, and plain-language rewrite practice.
+
+| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `A.6.3.CR` | Adoption status |
+|---|---|---|---|---|
+| Conservative rewrite must stay visibly tied to the same described content rather than drifting through presentation fluency. | Architecture-description practice separates source artefact, view, viewpoint, and correspondence burden instead of letting rendered prose silently change the object being described. | ISO/IEC/IEEE 42010:2022 | `A.6.3.CR` keeps same-described-entity textual restatement under `A.6.3`, requires explicit reroute when object-of-talk changes, and keeps bridge burden out of fluent rewrite. | **Adopt.** |
+| Summary-like rewriting is not automatically harmless; factuality and faithfulness need source-sensitive checking. | Modern summarization work treats unsupported compression, strengthening, and hallucinated linkage as core failure modes rather than editorial noise. | Maynez et al. (2020), *On Faithfulness and Factuality in Abstractive Summarization* | `A.6.3.CR` adopts that stance and adapts it to FPF by making omission, reliability posture, and same-entity bounds explicit review concerns. | **Adopt/Adapt.** |
+| Translation quality is governed through declared dimensions such as accuracy, omission, and addition rather than by fluency alone. | Translation-quality governance separates adequacy from surface smoothness and requires explicit treatment of omission/addition error classes. | Lommel et al. (2018), *MQM: A Framework for Declaring Translation Quality Metrics* | `A.6.3.CR` adapts this by treating correspondence-mediated and cross-language rewrites as lawful only when loss, provenance, and same-entity bounds stay explicit. | **Adapt.** |
+| Plain-language rewrite may improve readability, but it must not silently change obligations, scope, or force. | Plain-language standards favour reader-oriented rewriting while preserving the original commitments and conditions that matter for use. | ISO 24495-1:2023 | `A.6.3.CR` adopts reader-oriented simplification for ordinary cases and rejects the popular shortcut that “plainer text” alone proves conservativity. | **Adopt/Reject-popular-shortcut.** |
+
+**Architecture-description governance.** `A.6.3.CR` adopts the discipline that rendered text must stay visibly tied to a declared source/view line. It therefore rejects same-topic textual polish as sufficient evidence of same-described-entity conservativity.
+
+**Summarization factuality.** `A.6.3.CR` adapts modern factuality concerns into a local conservativity witness: unsupported strengthening, hidden omission, and rhetorical uplift are treated as load-bearing failures, not as style noise.
+
+**Translation and plain-language traditions.** `A.6.3.CR` adopts the reader-oriented value of translation and plain rewrite, but rejects the still-popular habit of treating cross-language or plain-language textual fluency as automatic proof that no new claim has been introduced.
+
+**Local stance.** Best-known current practice supports a narrow rule: same-described-entity textual restatement is lawful only when source tether, loss, provenance, and same-entity bounds remain explicit enough that the reader can still tell what was preserved, what was omitted, and when the case must exit to another owner.
+
+### A.6.3.CR:12 - Relations
+
+- **Builds on:** `A.6.3`, `A.6.2`, `A.7`, `E.10.D2`, `E.17.0`, `E.17`, `F.9`, `F.18`, `E.10`
+- **Coordinates with:** `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `E.17.ID.CR ComparativeReading`, `A.6.4`, `B.5.2`, `A.15`
+- **Impact radius:** primary touch `A.6.3`; secondary review surfaces `E.17.0`, `E.17`, `F.9`; failed conservativity exits to `A.6.4`, `B.5.2`, or `A.15`
+- **Boundary notes:** explanation-facing cases exit to `ExplanationFaithfulnessProfile`; representation-regime shifts exit to `RepresentationTransduction`; bounded comparative review surfaces exit to `E.17.ID.CR ComparativeReading`; described-entity changes exit to `A.6.4`.
+
+### A.6.3.CR:End
+
+
+
+
+## A.6.3.RT - RepresentationTransduction — same-described-entity representation-scheme transition
+
+**Placement.** Specialization under `A.6.3 U.EpistemicViewing` for same-described-entity representation-scheme transition.  
+**Builds on.** `A.6.3 U.EpistemicViewing`; `A.6.2 U.EffectFreeEpistemicMorphing`; `A.7`; `E.10.D2`; `C.2.7`; `E.17.0`; `E.17`; `F.9`; `F.18`.  
+**Coordinates with.** `ConservativeRetextualization`; `ExplanationFaithfulnessProfile`; `E.17.ID.CR ComparativeReading`; `A.6.4 U.EpistemicRetargeting`; `A.15`; `A.20`; `A.21`; explicit decoding-access review.
+
+**One-line summary.** `RepresentationTransduction` is a same-described-entity shift in representation scheme that stays inside `A.6.3 U.EpistemicViewing`: it may move between prose, table, diagram, structured notation, or another declared representation regime, but it does **not** silently change `describedEntityRef`, promote geometry or notation into ontology-by-default, or hide decode-mediated recoverability behind surface fluency.
+
+### A.6.3.RT:1 - Problem frame
+
+The same described entity often needs to be carried across more than one representation regime:
+- prose into a table that makes comparison or coverage clearer;
+- a table into a diagram that foregrounds dependency or topology;
+- a diagram into a structured notation suitable for replay or technical review;
+- a source representation into another regime that changes reasoning affordances without changing the underlying object-of-talk.
+
+In practice these shifts are often treated as harmless reformatting. But some representation changes alter reasoning affordances, weaken recoverability, or quietly change what appears to be present in the source. FPF already has `A.6.3` for same-described-entity conservative viewing. This pattern names the recurring same-described-entity case where the published result changes representation scheme while the case still remains inside `A.6.3`.
+
+### A.6.3.RT:2 - Problem
+
+Without a dedicated named pattern for representation-scheme transitions:
+1. teams treat text-to-table, table-to-diagram, and notation shifts as if they were all the same kind of harmless rewrite;
+2. changes in reasoning medium and recoverability remain implicit;
+3. latent/distributed cases tempt authors to treat geometry or feature clusters as ontology-by-default;
+4. reviewers cannot tell when a case is still same-entity viewing and when it has become retargeting, explanation, carrier work, or decode-mediated reconstruction;
+5. representation factors owned near `C.2.7` are discussed rhetorically rather than as explicit deltas.
+
+### A.6.3.RT:3 - Forces
+
+- **Same entity, different reasoning medium.** Teams need different representational forms without silently changing the described entity.
+- **Legibility vs recoverability.** A clearer representation is useful only if readers can still recover how it relates to source claims, anchors, and pins.
+- **Representation change vs ontology drift.** A new notation or geometry can make structure more visible, but it must not silently become a new object-of-talk.
+- **Recoverability before decode ambition.** Start from cases where recoverability can be reviewed directly before leaning on decode-mediated reconstruction.
+- **Owner restraint.** This pattern must stay under `A.6.3`, not swallow explanation governance, retargeting, bridge work, or carrier work.
+
+### A.6.3.RT:4 - Solution — same-described-entity representation-scheme transition under `A.6.3`
+
+#### A.6.3.RT:4.1 - Informal definition
+
+> `RepresentationTransduction` is a named pattern specialized under `A.6.3 U.EpistemicViewing` for same-described-entity transitions across declared representation schemes.
+>
+> It preserves `describedEntityRef`, keeps the transform effect-free, and makes explicit what changes in representation factors, reasoning medium, recoverability, and loss profile.
+>
+> It may move between prose, table, diagram, structured notation, or another declared representation regime. It may not silently change the described entity, silently import bridge semantics, or treat decode-mediated structure as if it were directly given.
+
+#### A.6.3.RT:4.1.a - Pattern, case, and published rendering distinction
+
+`RepresentationTransduction` is an **intensional pattern** and a named specialization under `A.6.3`. Concrete same-described-entity representation changes are passive episteme-level cases or published renderings reviewed under this pattern; the pattern itself does not act, decide, or publish.
+
+This distinction matters because the pattern governs **how** a representation change is recognised, justified, and checked. It does **not** turn every table, diagram, or structured notation into a giant standalone review object, and it does not reduce review to a mechanical reformatting step.
+
+#### A.6.3.RT:4.1.b - Local working vocabulary
+
+This pattern uses a small local vocabulary for review.
+- **Representation scheme** = the published form in which the same entity is rendered (for example prose, table, diagram, or structured notation).
+- **Reasoning medium** = the form-specific affordances readers actually use when inspecting the published material.
+- **Semiotic mode** = what kind of meaning-bearing support is doing the main work in the rendering, such as structural likeness, trace/index, conventional code, model-mediated correspondence, or decode-mediated recoverability.
+- **Factor delta** = the explicit change in representation factors that matters for review.
+- **Source tether** = the visible link back to pinned or otherwise reviewable source material that keeps same-entity support honest.
+- **Decode-mediated case** = a case where explicit access to the target representation depends on a declared decoding route rather than direct reading from already published source material.
+
+These terms are local review aids. They do not create a new face family or a new ontology owner.
+
+#### A.6.3.RT:4.2 - Scope and exclusions
+
+**In scope**
+- text-to-table shift over the same described entity;
+- table-to-diagram shift over the same described entity;
+- diagram-to-structured-notation shift where the represented entity and claim-bearing material stay preserved;
+- other same-entity representation-scheme changes with explicit recoverability discipline.
+
+**Out of scope**
+- any change of `describedEntityRef` or hidden change of object-of-talk (`A.6.4`);
+- explanation-facing renderings whose main purpose is didactic or explanatory surface work (`ExplanationFaithfulnessProfile`);
+- purely textual rewrites that stay inside one representation regime (`ConservativeRetextualization`);
+- carrier work such as rendering, export, upload, serialization, or OCR/parsing-like extraction;
+- latent/distributed use without explicit decode route and recoverability evidence.
+
+
+#### A.6.3.RT:4.2.a - Reader guidance
+
+Use this pattern when the object-of-talk stays fixed but the published result changes representation scheme or reasoning medium.
+- If only wording changes, stay in `ConservativeRetextualization`.
+- If the target mainly teaches, narrates, or explains, move to `ExplanationFaithfulnessProfile`.
+- If same-entity support fails, move to `A.6.4`.
+
+#### A.6.3.RT:4.2.b - What a reviewer checks first
+
+A reviewer usually starts with five questions:
+1. Is the described entity still the same, or has the object-of-talk shifted?
+2. What changed in representation scheme and reasoning medium?
+3. Can the target still be tethered back to source-bearing material strongly enough for same-entity reading?
+4. Has the case quietly become explanation, bridge-bearing comparison, retargeting, or carrier work?
+5. If decoding is involved, is the evidence class strong enough for the intended face and use?
+
+Only after these questions are answered clearly does a fuller load-bearing review record normally become necessary.
+
+#### A.6.3.RT:4.3 - Working-model first; explicit review record only when the case is load-bearing
+
+Most same-described-entity representation shifts should stay human-usable and reviewable without turning every table, diagram, or structured rendering into a giant metadata block. This pattern therefore follows **E.14's working-model-first discipline**: ordinary non-latent cases need enough explicitness to show what stayed the same, what changed in representation and reasoning medium, what was lost or foregrounded, and where the case would have to reroute.
+
+**Ordinary case (default).** For everyday same-described-entity representation shifts, it is usually enough that the rendering or its surrounding publication keeps explicit:
+- which source material is being re-expressed in a different representation regime;
+- that `describedEntityRef` remains preserved;
+- what changed in representation scheme or reasoning medium;
+- what losses, foregrounding choices, or recoverability limits matter for the reader;
+- where the case exits if it has turned into explanation, retargeting, bridge-bearing comparison, carrier work, or decode-mediated reconstruction with insufficient support.
+
+**Explicit review record (only for load-bearing cases).** A fuller record is warranted when the case is assurance-facing, gate-adjacent, cross-context, correspondence-heavy, decode-mediated, policy-bearing, or likely to be disputed. The record may inherit host ids and already-pinned metadata instead of restating them inline. When published, that record normally captures:
+- transform placement (`landingForm = specialization under A.6.3`, `hostOwner`, `sourceForm`, `targetForm`, `changeLocus`);
+- preservation context (`describedEntityPolicy = preserve`, `boundedContextPolicy`, `viewpointPolicy`, `referenceSchemePolicy`, `representationSchemePolicy`, `groundingPolicy`, `referencePlanePolicy`);
+- claim and publication discipline (`claimPolicy`, `claimScopePolicy`, `publicationScopePolicy`, `reliabilityTransportPolicy`, `pinningPolicy`, `provenancePolicy`, `lossProfile`);
+- continuity and bridge discipline (`claimContinuityClass`, `microtheoryContinuityClass`, `onticContinuityClass`, `bridgeRequirement`);
+- downstream and admissibility discipline (`worldContactPolicy`, `evidencePolicy`, `gatePolicy`, `workCrossing`, `upstreamOwner`, `downstreamOwner`, `admissibleFaces`, `admissibleSurfaces`, `compositionLaw`, `reopenCondition`);
+- representation and recoverability discipline (`representationFactorDelta`, `inferenceRegimeDelta`, `semioticModePrimary?`, `semioticModeSupport?`, `semioticModeShift?`, `modeOverreadRisk?`, `salienceShift?`, `topologyShift?`, `actionabilityShift?`, `calibrationShift?`, `interactivityShift?`, `onticScaffoldPreservation`, `onticRecoverabilityClass`, `onticRecoverabilityMode`, `RecoverabilityEvidenceClass`, `decodeMechanismRef`, `CorrespondenceModelRef?` where needed);
+- naming and presentation discipline (`publicNamePolicy`).
+
+#### A.6.3.RT:4.3.a - Working admissibility defaults
+
+By default in this pattern:
+- primary admissible faces for non-latent cases are `Plain` and `Tech`;
+- bounded report-only use is lawful when source pins, provenance, loss notes, and same-described-entity support remain visible;
+- `Interop` use is lawful only when the host explicitly permits source-pinned, structure-preserving export without added semantics;
+- `Assurance` or gate-bearing use is not default and requires host-explicit policy plus source-pinned same-entity support;
+- latent/distributed variants remain bounded until explicit recoverability evidence and decode-route discipline are published.
+
+#### A.6.3.RT:4.4 - Direct and correspondence-mediated profiles
+
+**Direct RepresentationTransduction**
+- source and target are representation-scheme variants over one same-described-entity source line;
+- no `CorrespondenceModelRef` is required;
+- the main burden is explicit factor delta, reasoning-medium delta, and recoverability discipline.
+
+**CorrespondenceRepresentationTransduction**
+- the target representation is derived through a declared correspondence between epistemes or views of the same described entity;
+- `CorrespondenceModelRef` is required;
+- the result remains under `A.6.3` only if same-entity conservativity is still supportable and the correspondence does not silently import extra claims.
+
+Correspondence-mediated representation work does **not** by itself grant bridge licence, substitution licence, or comparative-reading licence. If the case needs those burdens, they must be declared separately rather than hidden inside representation language.
+
+#### A.6.3.RT:4.4.a - Recurring same-entity representation moves
+
+Recurring same-entity moves under this pattern include:
+- **Tabulation** — prose or dispersed claims are rendered into a table that exposes comparison or coverage more clearly.
+- **Diagramming** — a table or prose relation set is rendered into a diagram that foregrounds structure while remaining source-tethered.
+- **Structured notation shift** — prose, table, or diagram material is rendered into a notation better suited for disciplined replay or technical inspection.
+- **Correspondence-supported representation shift** — the target representation depends on declared same-entity correspondence support without thereby becoming a bridge case.
+
+These are recurring move shapes under one host relation. They are not separate owners and they do not override `E.17` face discipline.
+
+#### A.6.3.RT:4.4.b - How a reviewer reads representation-factor and reasoning-medium change
+A reviewer should be able to say, in one short paragraph, what changed in representational shape, what changed in reasoning medium, and whether the primary change is also a `semioticModeShift` rather than only a scheme change. Typical read-outs are: "the table foregrounds comparability across rows", "the diagram foregrounds dependency shape", or "the notation foregrounds explicit argument positions."
+
+When the case is more demanding, that paragraph should also name whether salience, topology, actionability, calibration, or interactivity materially changed. If the author cannot name those shifts without slipping into new ontology, hidden bridge work, or a changed described entity, the case is not yet ready to stay here. Use `semioarchitecture-representation-delta-review-crib-sheet-v0.1.md` and `semioarchitecture-semiotic-mode-axis-note-v0.1.md` when the deltas need a more normalized read-out.
+
+#### A.6.3.RT:4.5 - Shared representation law packet
+
+##### A.6.3.RT:4.5.a. Preservation law
+`RepresentationTransduction` preserves the same described-entity line, bounded context, and declared claim-bearing source while changing the representation scheme and, often, the reasoning medium. It must state what remains preserved about the ontic scaffold, claim scope, publication scope, pins, provenance, and grounding. It must also state whether the case remains direct or correspondence-mediated.
+
+##### A.6.3.RT:4.5.a.1. Local conservativity witness
+For this pattern, a new intensional claim is introduced when the target rendering:
+- upgrades a source-visible relation into a stronger relation theory or stronger dependency semantics;
+- turns geometry, notation, embedding proximity, or decoder output into ontology-by-default;
+- adds bridge, substitution, comparative-reading, or mechanism claims not already licensed by the source line or declared correspondence;
+- collapses source alternatives, uncertainty, or bounded scope into one stronger commitment;
+- or treats decode-mediated recoverability as if it were direct givenness.
+
+Conservativity is approximated here by checking, together, `describedEntityPolicy = preserve`, source-tether strength, factor delta, reasoning-medium delta, loss profile, ontic scaffold preservation, and whether each target-side connective can be pointed back to pinned source material or declared same-entity correspondence support.
+
+##### A.6.3.RT:4.5.b. Loss and reliability law
+A reviewed case under this pattern makes explicit which distinctions, affordances, or local cues are lost, foregrounded, or rearranged by the shift in representation regime. Reliability transport may remain source-bounded or be explicitly downgraded, but it must never be silently strengthened just because the target form looks clearer, more structured, or more formal.
+
+##### A.6.3.RT:4.5.c. Authority and handoff law
+A case reviewed under this pattern stays same-entity and episteme-level. It does not own retargeting, bridge stance, explanation governance, executable docking, gate authority, or work enactment. If the shift depends on decode-mediated recovery, intervention-backed extraction, or world/gate consequences, those dependencies must stay explicit and may restrict the target to exploratory or report-only use.
+
+##### A.6.3.RT:4.5.c.1. Same-entity entry condition for decode-mediated cases
+A decode-mediated case may stay here only when the target rendering is tethered back to already pinned and provenance-bearing source material for the same described entity. A decode-mediated result alone does not establish the same described entity strongly enough for this pattern.
+
+##### A.6.3.RT:4.5.d. Composition and reopen law
+Repeated same-regime normalization may be idempotent, but heterogeneous regime shifts are generally order-sensitive. The case must reopen whenever recoverability assumptions, pins, provenance, correspondence support, or target-face admissibility change. A representation shift also reopens if what looked like one same-entity line turns out to require a new described entity or a decode route stronger than currently declared.
+
+#### A.6.3.RT:4.6 - Hard boundary rules
+
+A case reviewed under this pattern keeps the following explicit:
+- `describedEntityPolicy = preserve` is mandatory;
+- any change of `DescribedEntityRef` exits to `A.6.4`;
+- purely textual rewrite cases stay with `ConservativeRetextualization`;
+- explanation-facing cases stay with `ExplanationFaithfulnessProfile`;
+- carrier work stays outside this pattern;
+- geometry, notation, embedding space, or feature clustering must not become ontology-by-default;
+- the family changes representation scheme, not face ownership, and it therefore stays under existing `E.17.0 / E.17` face discipline rather than creating a new publication family.
+
+If recoverability depends on decoding, probing, or intervention, the evidence class must bound admissible use; otherwise the case stays exploratory, report-only, or outside the admissible same-described-entity path under `A.6.3.RT`. Low-evidence decode-mediated results are not weaker canonical publications; they are bounded exploratory or report-only renderings. Non-latent cases remain the default entry path until decode-mediated recoverability is made explicit.
+
+### A.6.3.RT:5 - Archetypal grounding
+
+#### A.6.3.RT:5.1 - Same-entity text-to-table shift
+**Source slice.** `Service S showed three recurring latency spikes in the evening batch window. Trace T-44 and dashboard pin D-17 identify the same service and time window.`
+
+**Published table slice.** `| Service | Window | Spike count | Source pins |
+| Service S | Evening batch | 3 | T-44, D-17 |`
+
+This is a lawful direct `RepresentationTransduction` if no new claims are introduced, the same described entity stays explicit, and the representation-factor delta is declared. In ordinary engineering use, this usually needs a visible source tether, explicit loss notes if anything was omitted, and a clear statement that the table is still about the same service occurrence rather than a new derived object.
+
+#### A.6.3.RT:5.2 - Same-entity table-to-diagram shift
+**Source table slice.** `| Node | Depends on |
+| CoolingLoop | Sensor A |
+| CoolingLoop | Valve B |`
+
+**Published diagram slice.** `CoolingLoop -> Sensor A; CoolingLoop -> Valve B`
+
+The move stays in this pattern only if the described entity is preserved, the diagram does not silently add new semantic commitments, and reasoning-medium change is declared. If the diagram starts asserting a stronger dependency theory than the source table actually states, the case must reopen and may leave this pattern.
+
+#### A.6.3.RT:5.2.a - Correspondence-mediated text-to-table shift
+**Source prose slice.** `In the safety view, CL-2 maintains the required temperature condition during standard load.`
+
+**Published table slice.** `| View | Entity | Condition | Correspondence model |
+| Safety | CL-2 | required temperature condition during standard load | CM-12 |`
+
+The move stays in this pattern only if the correspondence remains explicit, the described entity stays preserved, and the resulting table does not quietly import bridge semantics or a changed object-of-talk. Because the correspondence burden is doing real work here, a fuller review record is often warranted instead of relying only on the rendered table.
+
+#### A.6.3.RT:5.2.b - Same-entity diagram-to-structured-notation shift
+**Source diagram slice.** `CoolingLoop -> Sensor A; CoolingLoop -> Valve B`
+
+**Published notation slice.** `dependsOn(CoolingLoop, SensorA)`
+`dependsOn(CoolingLoop, ValveB)`
+
+This remains under `RepresentationTransduction` when the notation stays tethered to the same relation line already visible in the diagram, the described entity remains preserved, and no stronger dependency theory is silently imported by the notational rendering.
+
+#### A.6.3.RT:5.3 - Boundary to textual rewrite
+A source prose note is shortened, reordered, or translated but remains essentially textual. That case stays with `ConservativeRetextualization`, not this pattern.
+
+#### A.6.3.RT:5.4 - Boundary to explanation surfaces
+A representation shift is performed mainly to teach or narrate rather than to publish another same-entity representation regime. That case should leave this pattern and be reviewed under explanation governance.
+
+#### A.6.3.RT:5.4.a - Boundary to bridge-bearing comparison
+**Source slice.** `Local reliability note: Pump P-2 remained within operating range during test window W-3.`
+
+**Published comparative slice.** `Pump P-2 in W-3 behaves like Unit U-7 in Plant B and can therefore be treated as operationally equivalent for this comparison.`
+
+This does **not** stay in `RepresentationTransduction`. The rendering has moved from a same-described-entity representation shift to comparative or bridge-bearing reading across contexts. Once the publication starts asserting cross-context equivalence, substitution, or comparative licence, the case must leave this pattern and move to explicit bridge-governed review.
+
+#### A.6.3.RT:5.4.b - Boundary to carrier/export work
+**Source rendering slice.** `| Service | Window | Spike count | Source pins |`
+
+**Published export slice.** `latency-report.csv` and dashboard PNG generated from the same table.
+
+This also stays outside `RepresentationTransduction`. The representation scheme was already chosen; what follows is carrier formatting, export, packaging, or rendering work on that representation. The didactic point is that not every change in visible form is a new same-described-entity representation transition.
+
+#### A.6.3.RT:5.5 - Boundary to decode-mediated latent cases
+A reviewer or decode path tries to restate a latent region or distributed feature cluster as explicit object/relation content. This stays outside the admissible same-described-entity path under `A.6.3.RT` unless an explicit decoding-access profile, `RecoverabilityEvidenceClass`, and an explicit decode route are already present. Readable decode output alone is not enough.
+
+#### A.6.3.RT:5.5.a - Guarded decode-mediated readout
+**Pinned source cluster.** `Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4 for the same diagnostic case.`
+
+**Published exploratory slice.** `A decode-mediated readout suggests a cluster that may correspond to the same failure episode already pinned in P-8 / M-12 / EV-4. This rendering stays exploratory and report-only until stronger recoverability evidence is published.`
+
+This example remains guarded-open rather than green. The didactic point is that a decode-mediated rendering may still be useful, but it does not become a normal same-entity publication merely because the result looks readable.
+
+### A.6.3.RT:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**.
+This pattern intentionally biases toward same-entity representation shifts and away from hidden retargeting, explanation inflation, or ontology-by-default through notation or geometry. The main mitigation is explicit recoverability discipline, preserve-vs-retarget escape rules, and directly reviewable entry cases before decode-mediated ones.
+
+### A.6.3.RT:7 - Conformance Checklist
+
+1. **CC-RT-1 — Same described entity remains explicit.**
+   The case preserves `describedEntityRef` without special pleading.
+2. **CC-RT-2 — Representation shift is the right family.**
+   The result is genuinely a representation-scheme shift rather than mere textual rewrite or explanation work.
+3. **CC-RT-3 — Factor, reasoning-medium, and mode deltas are explicit.**
+   `representationFactorDelta`, `inferenceRegimeDelta`, and any load-bearing `semioticModeShift` are explicit.
+4. **CC-RT-4 — Extended delta axes are explicit when load-bearing.**
+   `salienceShift`, `topologyShift`, `actionabilityShift`, `calibrationShift`, and `interactivityShift` are named whenever they materially shape review or misuse risk.
+5. **CC-RT-5 — Recoverability is explicit.**
+   Recoverability is stated explicitly through `onticRecoverabilityClass` and `onticRecoverabilityMode`.
+6. **CC-RT-6 — Decode-mediated cases carry stronger evidence.**
+   If the case is decode-mediated or latent/distributed, `RecoverabilityEvidenceClass` and decode route are explicit.
+7. **CC-RT-7 — Loss / provenance / pinning / reliability are explicit.**
+   Losses, provenance, pinning, and reliability transport are explicit.
+8. **CC-RT-8 — Preserve-vs-retarget reroute is explicit.**
+   If the case fails any of the checks above, the reroute path is explicit (`ConservativeRetextualization`, `ExplanationFaithfulnessProfile`, `A.6.4`, or another owner).
+9. **CC-RT-9 — Direct vs correspondence split is explicit.**
+   The case states whether it is direct or correspondence-mediated; if correspondence-mediated, `CorrespondenceModelRef` is explicit.
+10. **CC-RT-10 — Non-default face/surface admissibility is explicit.**
+    Any `Interop`, `Assurance`, gate-bearing, or decode-bounded use states host-explicit admissibility and keeps same-entity support visible.
+11. **CC-RT-11 — Decode-mediated same-entity entry tether is explicit.**
+    A decode-mediated case states how the target rendering is tethered back to already pinned and provenance-bearing source material for the same described entity.
+12. **CC-RT-12 — No hidden bridge or face-family inflation.**
+    The case makes clear that representation work does not by itself grant bridge, substitution, or comparative-reading licence and does not create a new face family.
+13. **CC-RT-13 — Reopen triggers are explicit when recoverability, admissibility, or primary mode changes.**
+    If recoverability assumptions, pins, provenance, correspondence support, target-face admissibility, or the primary semiotic mode change, the case records the reopen trigger explicitly.
+
+### A.6.3.RT:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it is wrong | How to avoid it |
+|---|---|---|
+| Treating every format shift as harmless formatting | representation changes can alter reasoning affordances and recoverability | publish factor delta and reasoning-medium delta explicitly |
+| Collapsing representation-scheme shift, semiotic-mode shift, and viewpoint shift into one vague change | reviewers cannot tell what actually changed or what burden is primary | name scheme, mode, and viewpoint separately and use the canonical boundary exemplars when only one of them changed |
+| Letting notation become ontology-by-default | diagram or geometry starts pretending to define the world rather than represent it | keep ontic scaffold preservation and recoverability explicit |
+| Hiding retargeting under representation language | a changed object-of-talk is mislabeled as same-entity representation work | exit to `A.6.4` whenever `DescribedEntityRef` changes |
+| Starting with latent/distributed cases before recoverability is explicit | decode burden overwhelms same-entity review | keep decode-mediated cases out until decoding access and evidence class are explicit |
+
+### A.6.3.RT:9 - Consequences
+
+- Same-entity representation shifts get a lawful place without inventing a new heavy owner.
+- Representation-factor and reasoning-medium changes become explicit rather than rhetorical.
+- Recoverability and decode dependence become reviewable instead of hidden behind cleaner surfaces.
+- The pattern remains safely bounded by `A.6.3`, `A.6.4`, explanation governance, and carrier work.
+
+### A.6.3.RT:10 - Rationale
+
+This pattern is worth splitting out because representation changes are already happening in practice and they are not well served by treating every such case as either mere rewriting or full retargeting. Keeping the family under `A.6.3` preserves owner safety while making representation-factor and recoverability burdens explicit.
+
+### A.6.3.RT:11 - SoTA-Echoing
+
+**SoTA note.** This section does not mint an independent second rule layer. It is a load-bearing alignment surface: the Solution, Conformance Checklist, boundary rules, and Relations of this pattern must match the stance stated here or explicitly justify any divergence.
+
+**Claim 1.** Best-known current architecture-description and model-based practice treats views, representation schemes, and reasoning media as load-bearing rather than as decorative formatting.
+**Practice / source / alignment / adoption.** ISO/IEC/IEEE 42010:2022 and current SysML v2 view practice treat viewpoint, view, model kind, and rendering discipline as explicit review objects rather than mere layout choices. This pattern **adopts** explicit representation-scheme review, **adapts** it to same-described-entity viewing under `A.6.3`, and **rejects** the shortcut where a clearer table, diagram, or notation is treated as if it had automatically earned stronger ontology or authority.
+
+**Claim 2.** Best-known contemporary notation-and-reasoning practice treats tables, diagrams, and structured notations as reasoning media with different affordances, not as neutral surface restyling.
+**Practice / source / alignment / adoption.** Post-2015 model-based and notation-sensitive review practice treats representational form as something that changes what readers can inspect, compare, or replay. This pattern **adopts** reasoning-medium review, **adapts** it through explicit factor and medium deltas, and **rejects** hidden dependency-theory uplift or silent semantic strengthening by prose-to-diagram or diagram-to-notation moves.
+
+**Claim 3.** Best-known representation-aware AI practice treats latent geometry and decode-mediated structure as evidence-bounded interpretation rather than ontology-by-default.
+**Practice / source / alignment / adoption.** Byte Latent Transformer (2024) and Large Concept Model (2024) both reinforce that representation regime matters, but neither licenses silent promotion from geometry, cluster structure, or decoder output to canonical object/relation ontology. This pattern **adopts** representation-aware review, **adapts** it through `RecoverabilityEvidenceClass`, decode-route explicitness, and same-entity source tethering, and **rejects** the popular shortcut where readable decode output is treated as if it were direct givenness.
+
+**Local stance.** The load-bearing SoTA claim for this pattern is narrow: representation regime and reasoning medium are lawful review targets, but geometry, notation, or a decode-mediated result do not become ontology-by-default.
+
+### A.6.3.RT:12 - Relations
+
+- **Builds on:** `A.6.3`, `A.6.2`, `A.7`, `E.10.D2`, `C.2.7`, `E.17.0`, `E.17`, `F.9`, `F.18`
+- **Coordinates with:** `ConservativeRetextualization`, `ExplanationFaithfulnessProfile`, `E.17.ID.CR ComparativeReading`, `A.6.4`, `A.15`, `A.20`, `A.21`, explicit decoding-access review
+- **Impact radius:** primary touch `A.6.3`; secondary review surfaces `C.2.7`, `E.17.0`, `E.17`, `F.9`, decode-mediated recoverability review; failed same-entity or recoverability conditions exit to `A.6.4`, explanation governance, or later world/gate owners
+- **Boundary notes:** textual same-regime rewrites stay with `ConservativeRetextualization`; explanation-facing renderings stay with `ExplanationFaithfulnessProfile`; bounded comparative review surfaces exit to `E.17.ID.CR ComparativeReading`; described-entity changes exit to `A.6.4`; decode-mediated world/gate consequences remain bounded by explicit evidence and downstream handoff.
+
+### A.6.3.RT:End
+
+
+
+
+
+
+
+
+
+
 ## A.6.4 - `U.EpistemicRetargeting` — describedEntity‑retargeting morphism
 
 **One‑line summary.** `U.EpistemicRetargeting` is the **describedEntity‑retargetning** species of `U.EffectFreeEpistemicMorphing`: an effect‑free episteme→episteme morphism that **intentionally changes what the episteme is about** (the occupant of `DescribedEntitySlot` in C.2.1) under a declared `KindBridge` and invariant, while remaining conservative with respect to that invariant.
@@ -9917,18 +10561,24 @@ A.6.P defines a **suite recipe**. A pattern is a **RPR‑pattern** (member of A.
 
 #### A.6.P:4.0 — Trigger rule (when A.6.P applies)
 
-A relation mention is in-scope for A.6.P when **any** of the following holds:
+A relation mention or relation-bearing phrase is in-scope for A.6.P when **any** of the following holds:
 
 * the predicate/verb phrase is **lexically overloaded** (umbrella tokens such as “same/sync/link/connect/anchor/ground/align/map/depends”), or
-* one or more endpoints/qualifiers are expressed via **pronominal / deictic / metonymic stand‑ins** or **over‑broad kind tokens** (e.g., “it/this/that”, “the service”, “the system”, “at the table”), such that multiple referents/facets remain plausible, or
+* one or more endpoints/qualifiers are expressed via **pronominal / deictic / metonymic stand-ins** or **over-broad kind tokens** (e.g., “it/this/that”, “the service”, “the system”, “at the table”), such that multiple referents/facets remain plausible, or
+* a **generic or over-broad head noun** carries its load only through a qualifier, modifier, or surrounding phrase (e.g., “comparative note”, “safe guidance”, “interactive view”, “reliable output”), so the object kind is still ambiguous even though the qualifier sounds informative, or
 * the statement implicitly relies on **scope / Γ_time / viewpoint/view / schemes** (reference, representation), or
 * the relation is used for **assurance / admissibility / gating / publication** decisions, or
 * the relation crosses **Contexts or planes** (requires Bridges + CL; no silent equivalence), or
 * different stakeholders interpret endpoints differently (multi-view asymmetry and polarity fights).
 
-**Adoption test (review heuristic).** If a reviewer can reasonably ask any of: “Which kind is this?”, “What exactly does this span refer to (which facet/kind, and in which lane: Object vs Description vs Carrier)?”, “What else participates?”, “Under what scope/time/view?”, “What changed?”, or “What makes this admissible?”, then authors SHOULD treat the mention as in-scope and rewrite it into explicit kind+slots form before using it for cross‑Context reuse or decision/publication claims.
+**Repair order note.** When a load-bearing phrase is triggered because its **head noun** is too generic, first restore what kind of thing the head actually names (artifact, reading, process, lane, authority use, or another host-local kind) using local object-of-talk discipline (`E.10`, `A.7`, and nearby host law). A narrowing qualifier such as `comparative`, `safe`, `interactive`, or `reliable` may narrow the phrase, but it does **not** by itself restore the head kind. Then apply A.6.P to restore the remaining relation or comparison burden. Mixed-axis checks come **after** those two repairs, not before them.
+
+**Adoption test (review heuristic).** If a reviewer can reasonably ask any of: “Which kind is this?”, “What exactly does this span refer to (which facet/kind, and in which lane: Object vs Description vs Carrier)?”, “What relation or comparison burden is hidden in this qualifier?”, “What else participates?”, “Under what scope/time/view?”, “What changed?”, or “What makes this admissible?”, then authors SHOULD treat the mention as in-scope and rewrite it into explicit kind+slots form before using it for cross-Context reuse or decision/publication claims.
+
+**Precision/relaxation note.** A.6.P is not a blanket demand that every sentence stay maximally explicit forever. It is a trigger-based repair path for **load-bearing** prose. In design-time FPF texts and in run-time texts being prepared for admissible publication, review, gating, or reuse, the repair should be performed before any later didactic plain-language softening or lawful coarsening. Later relaxation is allowed only when the more precise upstream reading remains recoverable and authoritative.
 
 #### A.6.P:4.0 - Language-state entry note
+
 
 RPR entry normally presupposes enough `C.2.4` articulation explicitness that at least one relation-like skeleton can be named explicitly, and often enough `C.2.5` closure that one candidate reading is worth publishing as a relation record rather than remaining mere cue pressure.
 
@@ -9936,27 +10586,29 @@ If the material is still best treated as a cue pack, routed cue, or unresolved r
 
 #### A.6.P:4.0a — Operational repair sequence (how repairs actually proceed)
 
-The suite is presented as **lens → slots → change lexicon → guardrails** because the *stable abstraction* is what keeps repairs reusable. In actual editing, repairs often start from a **triggering surface token** and proceed through a context‑reconstruction step.
+The suite is presented as **lens → slots → change lexicon → guardrails** because the *stable abstraction* is what keeps repairs reusable. In actual editing, repairs often start from a **triggering surface token** and proceed through a context-reconstruction step.
 
 Operationally, authors SHOULD follow this repair sequence when applying an RPR repair:
 
-1. **Trigger on surface form.** Detect umbrella relation predicates *and* pronominal/umbrella endpoint tokens or metonymic pointers (including domain clusters such as **service** in A.6.8 and cross‑Context “same/equivalent/align/map” in A.6.9).
-2. **Reconstruct the situation ontology from local context.** Enumerate candidate referents/facets for endpoints *(including A.7 lane: Object vs Description vs Carrier when it matters)* and candidate `RelationKind` tokens for the umbrella predicate, plus implied participants (scope/time/view/scheme/mediator artefacts). Capture the result as a **Candidate‑Set Note** (A.6.P:4.0b) so review has a checkable artifact: candidates → selected facet/kind → why. When metonymy is plausible, include both the *literal* and the *intended* candidates.
-3. **Choose a stable lens** that can represent the reconstructed arity/polarity without ad‑hoc role invention.
-4. **Refine the ontology under the lens.** Turn implied roles into SlotSpecs; repair endpoint kind mismatches explicitly (narrowing / KindBridge / retargetParticipant); make qualifiers explicit as slots.
-5. **Emit canonical rewrites + routing hooks.** Produce Tech‑form rewrites (`relationKind(…)` / arrow form) and state the A.6.B hooks: which parts are L vs A vs D vs E, and which witnesses/commitments/work claims are now demanded.
+0. **Restore the head kind if needed.** If the triggering phrase uses a generic or over-broad head noun (`note`, `view`, `guidance`, `output`, `artifact`, and similar placeholders), first state what kind of thing it actually is in local host terms (publication artifact, reading, process, authority use, and so on). Do not let a qualifier do this job by implication alone.
+1. **Trigger on surface form.** Detect umbrella relation predicates, pronominal/umbrella endpoint tokens or metonymic pointers, and generic-head-plus-load-bearing-qualifier combinations (including domain clusters such as **service** in A.6.8 and cross-Context “same/equivalent/align/map” in A.6.9).
+2. **Reconstruct the situation ontology from local context.** Enumerate candidate referents/facets for endpoints *(including A.7 lane: Object vs Description vs Carrier when it matters)*, candidate head kinds where the phrase is noun-led, and candidate `RelationKind` tokens or comparison burdens for the overloaded predicate/qualifier, plus implied participants (scope/time/view/scheme/mediator artefacts). Capture the result as a **Candidate-Set Note** (A.6.P:4.0b) so review has a checkable artifact: candidates → selected facet/kind → why. When metonymy is plausible, include both the *literal* and the *intended* candidates.
+3. **Choose a stable lens** that can represent the reconstructed arity/polarity without ad-hoc role invention.
+4. **Refine the ontology under the lens.** Turn implied roles into SlotSpecs; repair endpoint kind mismatches explicitly (narrowing / KindBridge / retargetParticipant); separate object kind, relation burden, and qualifier burden; make qualifiers explicit as slots or routed conditions.
+5. **Emit canonical rewrites + routing hooks.** Produce Tech-form rewrites (`relationKind(…)` / arrow form) and state the A.6.B hooks: which parts are L vs A vs D vs E, and which witnesses/commitments/work claims are now demanded.
+6. **Only then allow later relaxation.** If a Plain, didactic, or coarsened restatement is still wanted, derive it from the repaired form and keep the repaired form as the authoritative source for any stronger reading.
 
-**Decision/publication fail‑closed (normative).** If an in‑scope mention is used to justify an admissibility gate, publication claim, or cross‑Context reuse, authors MUST resolve the candidate sets to a selected `RelationKind` and selected endpoint facets/kinds and emit an explicit rewrite. If that cannot be done from available context and witnesses, keep the statement as Plain/informative gloss (or split into multiple explicit alternatives) and do not treat it as admissible input for the gate.
+**Decision/publication fail-closed (normative).** If an in-scope mention is used to justify an admissibility gate, publication claim, or cross-Context reuse, authors MUST resolve the candidate sets to a selected `RelationKind`, selected endpoint facets/kinds, and any required head-kind reconstruction and emit an explicit rewrite. If that cannot be done from available context and witnesses, keep the statement as Plain/informative gloss (or split into multiple explicit alternatives) and do not treat it as admissible input for the gate.
 
 **Informative: referential compression spectrum.** Many triggers live on a spectrum from high to low referential precision:
 pronouns/deictics → overloaded polysemes → coarse domain kinds → facet head phrases → precise domain terms.
-Metonymy often shifts the denotation (e.g., a place phrase standing in for an object or a role). The repair sequence explicitly treats this as a **candidate‑set** problem, not as “the dictionary meaning”.
+Metonymy often shifts the denotation (e.g., a place phrase standing in for an object or a role). The repair sequence explicitly treats this as a **candidate-set** problem, not as “the dictionary meaning”.
 
 **Metonymy micro-example (informative; endpoint-side trigger beyond anaphora).**
 
 Draft: “Alice is **at the table**.”
 
-`at the table` → candidates `{place, meeting, artifact, role}` → choose explicitly → rewrite into endpoint‑refs + qualifiers:
+`at the table` → candidates `{place, meeting, artifact, role}` → choose explicitly → rewrite into endpoint-refs + qualifiers:
 
 ```
 CandidateSetNote(triggerSpan="at the table", role=endpointFacet(p₂)):
@@ -9975,11 +10627,11 @@ participatesInMeetingUnder(
 
 If the literal location reading is intended, select `PlaceRef(Table#7)` and rewrite as `locatedAt(…)` with an explicit `Γ_time` qualifier.
 
-This step is intentionally **not lexicon‑only**. The lexical rewrite is the *output* of an ontology‑ and lens‑constrained repair, not the starting point. If you cannot state the candidate referents/facets and the selected RelationKind token, the repair is incomplete.
+This step is intentionally **not lexicon-only**. The lexical rewrite is the *output* of an ontology- and lens-constrained repair, not the starting point. If you cannot state the candidate referents/facets, the selected head kind where needed, and the selected `RelationKind` token, the repair is incomplete.
 
 #### A.6.P:4.0b — Candidate‑Set Note (informative; review artifact)
 
-When endpoint identity (pronoun/deixis/metonymy/coarse kind) or relation‑kind selection is ambiguous, reviews can collapse into “lexicon debates”. A.6.P treats this as an ontology reconstruction step with an explicit, checkable intermediate artifact.
+When endpoint identity (pronoun/deixis/metonymy/coarse kind) or relation-kind selection is ambiguous, reviews can collapse into “lexicon debates”. A.6.P treats this as an ontology reconstruction step with an explicit, checkable intermediate artifact.
 
 **Candidate‑Set Note template (informative).**
 
@@ -9988,9 +10640,9 @@ When endpoint identity (pronoun/deixis/metonymy/coarse kind) or relation‑kind 
 For each ambiguous role (relation kind, endpoint facet/kind, qualifier, mediator), record:
 
 * **Trigger span:** the exact surface token(s) in the draft (copy/paste).
-* **Role being disambiguated:** `relationKind` | `endpointFacet(pᵢ)` | `endpointRef(pᵢ)` | `qualifier(qⱼ)` | `mediator`.
+* **Role being disambiguated:** `headKind` | `relationKind` | `endpointFacet(pᵢ)` | `endpointRef(pᵢ)` | `qualifier(qⱼ)` | `mediator`.
 * **Lane (A.7) (when endpoint‑side):** `Object` | `Description` | `Carrier` (state explicitly when live contenders span lanes; lane‑mixing is a common source of “contract” category errors).
-* **Candidate set:** a short list of plausible **kinds/facets** and/or **RelationKind tokens** (not synonyms), each with the local cue(s) that made it plausible.
+* **Candidate set:** a short list of plausible **head kinds**, **kinds/facets**, and/or **RelationKind tokens** (not synonyms), each with the local cue(s) that made it plausible.
 * **Selected facet/kind (and selected RelationKind, if relevant):** the chosen candidate(s).
 * **Why:** the discriminating test(s) that were applied, plus pointers to the specific local evidence/witness cues used (carriers, claims, artefacts).
 * **Consequence:** which SlotSpecs become required/forbidden and which A.6.B hooks are now triggered (L/A/D/E).
@@ -10023,7 +10675,7 @@ The lens is a compression device: one stable abstraction that keeps the relation
 
 For every in‑scope relational claim, authors SHALL select (or mint) an explicit **RelationKind token** as a declared vocabulary element.
 
-A RelationKind token is authored as a `U.Signature`‑level vocabulary element with explicit SlotSpecs for its participant and qualifier positions (`⟨SlotKind, ValueKind, refMode⟩`). 
+A RelationKind token is authored as a `U.Signature`‑level vocabulary element with explicit SlotSpecs for its participant and qualifier positions (`⟨SlotKind, ValueKind, refMode⟩`). When no suitable token already exists, authors SHALL NOT improvise a one-off string by intuition. They SHALL route mint-or-reuse through **F.18**: use **MintNew** by default, build a seed candidate set, surface an honest NQD-front, run the sense-seed read-through, and record why the selected token is chosen from the non-dominated front. Use **DocumentLegacy** only when the label is externally fixed and that status is stated explicitly.
 
 **RelationKind contract skeleton (minimum, recipe-level).**
 For each `RelationKind` token, a conforming Context publication SHALL publish a vocabulary entry whose **signature-level definition** is paired with (or points to) a **routed claim bundle** (“contract skeleton”) that declares (at minimum):
@@ -10322,8 +10974,9 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
 1. **CC‑A.6.P‑1 — Lens is explicit.**
    P SHALL name the stable lens used to stabilise the ambiguity cluster and justify its fit.
 
-2. **CC‑A.6.P‑2 — RelationKind is explicit and its contract skeleton is published.**
+2. **CC‑A.6.P‑2 — RelationKind is explicit and named through lawful mint-or-reuse.**
    Every in‑scope relation claim SHALL name an explicit RelationKind token, and that token SHALL resolve to a vocabulary entry whose contract skeleton publishes (at minimum): polarity (and explicit inverses if needed), participant SlotSpecs `⟨SlotKind, ValueKind, refMode⟩`, qualifier requirements, witness expectations for decision/publication lanes, admissible semantic change classes, and (when applicable) cross‑Context/plane policy (Bridge + CL + loss notes). Routed claims SHALL respect A.6.B.
+   When a suitable token does not already exist, authors SHALL mint or document it through **F.18** rather than inventing a one-off label by intuition: **MintNew** is the default, the seed candidate set and NQD-front SHALL be surfaced, and the final token SHALL be selected from that non-dominated front unless an explicit legacy exception is recorded.
    The contract skeleton SHALL also declare admissible **repair paths for endpoint kind mismatches** (KindBridge / explicit narrowing / explicit retargeting) and enforce **qualifier placement discipline** (no adjective smuggling).
 
 3. **CC‑A.6.P‑3 — Slot‑explicit instances.**
@@ -10359,7 +11012,7 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
     If a relation instance crosses Contexts/planes (or requires translation), the carrier SHALL cite Bridge ids + CL policy (and loss notes, when applicable). Label identity or “same anyway” prose SHALL NOT substitute.
 
 13. **CC‑A.6.P‑13 — Disambiguation guide is actionable.**
-    P SHALL include an explicit rewrite/selection guide that maps each red‑flag umbrella cluster to candidate `RelationKind` tokens (and, when the ambiguity is endpoint‑side, to candidate endpoint facets/kinds), required qualifiers, and canonical rewrite forms.
+    P SHALL include an explicit rewrite/selection guide that maps each red-flag umbrella cluster or generic load-bearing head phrase to candidate head kinds, candidate `RelationKind` tokens, and (when the ambiguity is endpoint-side) candidate endpoint facets/kinds, plus required qualifiers and canonical rewrite forms.
     The guide SHOULD follow the RPR‑Disambiguation format: **trigger → candidates → discriminating questions/tests → canonical rewrite → L/A/D/E routing hooks**.
     
     Where endpoint referential compression is a primary risk, the guide SHOULD also include (or point to) the **Candidate‑Set Note** template (A.6.P:4.0b) so instance‑level reviews have an auditable trail: candidates → selected facet/kind → why.
@@ -10372,17 +11025,20 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
 
 ### A.6.P:8 — Common Anti‑Patterns and How to Avoid Them
 
-| Anti-pattern                                   | Why it fails                                                                | Repair                                                                              |
+| Anti-pattern | Why it fails | Repair |
 | ---------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| “Just define the umbrella word”                | Definitions don’t separate arity, operation classes, or viewpoint asymmetry | Replace umbrella use with explicit RelationKind + qualified record + change lexicon |
-| Keep the umbrella verb, add adjectives         | Adjectives are not contracts; invariants remain unstated                    | Mint/select distinct RelationKind tokens; enforce rewrite discipline                |
-| Leave pronominal/metonymic endpoints implicit  | Endpoint identity/facet remains guesswork; slot typing cannot stabilise     | Reconstruct candidate referents/facets (**capture as a Candidate‑Set Note**); add explicit slots/refs; then rewrite (A.6.8 is the archetype for “service” polysemy) |
-| Ontology only, no lexical guardrails           | Prose re‑collapses meaning                                                  | Add red‑flag tokens + prohibited umbrella use in Tech/normative prose               |
-| Lexicon only, no structural lens               | Becomes subjective policing                                                 | Introduce stable lens + slot schema; then attach guardrails                         |
-| Solve viewpoint mismatch by renaming endpoints | Silent re‑typing breaks cross‑pattern reuse                                 | Keep roles stable; use explicit kind selection + explicit repair paths              |
-| Using “bind” to mean “edit relation”           | Collapses name-binding vs slot-writing layers                               | Reserve `bind/rebind` for names; use change lexicon / slot verbs properly           |
-| Implicit “current/latest”                      | Violates explicit time discipline                                           | Add explicit `Γ_time` where time matters                                            |
-| Treat `Γ_time` as witness freshness             | Time selection ≠ evidence freshness/decay; conflates time discipline with evidence lanes | Keep `Γ_time` for temporal scope; express freshness/decay via witness metadata and carrier-anchored E‑claims |
+| “Just define the umbrella word” | Definitions do not separate arity, operation classes, or viewpoint asymmetry. | Replace umbrella use with explicit RelationKind + qualified record + change lexicon. |
+| Keep the umbrella verb, add adjectives | Adjectives are not contracts; invariants remain unstated. | Mint/select distinct RelationKind tokens; enforce rewrite discipline. |
+| Leave a load-bearing generic head uninterpreted | Readers cannot tell what kind of thing the phrase governs, so later qualifiers float without an ontology. | Restore the head kind first in host-local terms; only then repair the remaining relation/comparison burden. |
+| Let a qualifier smuggle the real burden | A phrase like “comparative note”, “safe guidance”, or “reliable output” sounds precise while leaving the actual relation, comparison basis, or authority burden implicit. | Unpack the qualifier into explicit comparison basis, relation kind, admissibility condition, or routed claim before stronger use. |
+| Leave pronominal/metonymic endpoints implicit | Endpoint identity/facet remains guesswork; slot typing cannot stabilise. | Reconstruct candidate referents/facets (**capture as a Candidate‑Set Note**); add explicit slots/refs; then rewrite (A.6.8 is the archetype for “service” polysemy). |
+| Ontology only, no lexical guardrails | Prose re-collapses meaning. | Add red-flag tokens + prohibited umbrella use in Tech/normative prose. |
+| Lexicon only, no structural lens | Becomes subjective policing. | Introduce stable lens + slot schema; then attach guardrails. |
+| Solve viewpoint mismatch by renaming endpoints | Silent re-typing breaks cross-pattern reuse. | Keep roles stable; use explicit kind selection + explicit repair paths. |
+| Using “bind” to mean “edit relation” | Collapses name-binding vs slot-writing layers. | Reserve `bind/rebind` for names; use change lexicon / slot verbs properly. |
+| Implicit “current/latest” | Violates explicit time discipline. | Add explicit `Γ_time` where time matters. |
+| Treat `Γ_time` as witness freshness | Time selection does not equal evidence freshness/decay; this conflates time discipline with evidence lanes. | Keep `Γ_time` for temporal scope; express freshness/decay via witness metadata and carrier-anchored E-claims. |
+| Compare across a mixed ontological axis | Artifact, process, authority use, or owner-lane semantics get ranked on one axis before their kinds and burdens are restored. | First restore head kind, then qualifier burden, then rewrite the sentence through burden/threshold/handoff/owner-lane language so the comparison axis is homogeneous. |
 
 ### A.6.P:9 — Consequences
 
@@ -18057,7 +18713,7 @@ After `route`, `projection`, `formalize`, or `operationalize`, the next lawful p
 Naming only the owner is insufficient because owners are not forms. Naming only the face is insufficient because faces are not forms. A lawful move note states the owned publication form first, then the owner, then the face if the face matters.
 
 #### A.16:4.4 - Effect-free versus work-requiring moves
-Some `formalize` and `operationalize` steps are effect-free epistemic rewrites or publication-strengthening steps over already available grounds. Others require new measurements, experiments, instrumentation, execution, or other `U.Work`. When the latter happens, the move note shall expose the crossing or handoff explicitly; `A.16` does not pretend that world-facing work occurred inside the language layer.
+Some `formalize` and `operationalize` moves are effect-free epistemic rewrites or publication-strengthening moves over already available grounds. Others require new measurements, experiments, instrumentation, execution, or other `U.Work`. When the latter happens, the move note shall expose the crossing or handoff explicitly; `A.16` does not pretend that world-facing work occurred inside the language layer.
 
 #### A.16:4.5 - Move-note threshold and path publication discipline
 A typed local move note is sufficient when a small move or short move chain can be kept reconstructible without publishing extra lineage machinery.
@@ -18065,7 +18721,7 @@ A typed local move note is sufficient when a small move or short move chain can 
 Use `A.16.0` only when at least one of the following is load-bearing:
 
 - derivation, supersession, fork, merge, or retirement structure;
-- a multi-step history whose compression would hide owner or authority changes;
+- a multi-move history whose compression would hide owner or authority changes;
 - visible loss notes or reopen conditions spanning more than one move;
 - responsibility handoff or bridge/viewpoint entry that depends on upstream history.
 
@@ -18090,6 +18746,8 @@ The pattern biases authors toward explicit move-typing and away from folk storie
 - `CC-A.16-6` `respecify` **SHALL NOT** be used to hide slot-explicit semantic repair that belongs to later repair owners.
 - `CC-A.16-7` Retreat or retirement **SHALL** preserve, withdraw, or discard prior witnesses and authority explicitly.
 - `CC-A.16-8` Published path structures **SHOULD** reuse `E.18` when a graph publication object is needed.
+- `CC-A.16-9` `AuthorityState` and `EndpointAdmissionProfile` reuse **SHALL NOT** be treated as new owners, new route-bearing forms, or substitutes for gate or work state.
+- `CC-A.16-10` A summarized multi-move publication **SHALL** keep intermediate owner transitions reconstructible; otherwise the case must reopen or publish richer history.
 
 ### A.16:8 - Common Anti-Patterns and How to Avoid Them
 - **Trajectory-wrapper inflation.** Do not wrap every local move in `A.16.0`. Publish a local move note unless history has its own governance value.
@@ -18106,7 +18764,15 @@ The benefit is a clean owner for language-state transductions and a lawful place
 This separation keeps `C.2.3` as the sole owner of formality while `C.2.2a` / `A.19` define position semantics, `A.16.0` packages only the history that deserves publication as an account, and `A.16` defines move legality.
 
 ### A.16:11 - SoTA-Echoing
-The pattern follows contemporary practice in iterative reasoning, exploratory design, incident response, operator intervention, and model-probing practice: advancement, route publication, backoff, reframing, and branch retirement are all part of the same governed space.
+**Claim 1.** Best-known current incident-response, exploratory design, and inquiry practice treats advance, backoff, reopening, and retirement as governed transitions rather than as one irreversible maturity climb.
+
+**Practice / source / alignment / adoption.** Contemporary incident review, exploratory design, and inquiry practice after 2015 keeps rollback, reopen, and retirement explicit because otherwise later readers over-credit earlier weak forms. This pattern **adopts** explicit retreat and retirement, **adapts** them to typed publication forms, route states, and authority states, and **rejects** the still-popular shortcut where every change is narrated as one-way maturation.
+
+**Claim 2.** Best-known current provenance, path-publication, and model-evaluation practice distinguishes a local transition note from a heavier published history object.
+
+**Practice / source / alignment / adoption.** Contemporary provenance and evaluation practice separates lightweight transition marking from heavier account publication when branch structure, loss notes, or handoff history become governance-relevant. This pattern **adopts** that separation, **adapts** it through the `A.16` / `A.16.0` / `E.18` split, and **rejects** both extremes: wrapping every move in a mandatory trajectory object and compressing a governance-relevant move history into one vague maturity sentence.
+
+**Local stance.** The load-bearing SoTA claim for this pattern is narrow: lawful language-state movement needs typed move notes, explicit authority effects, and explicit retreat/retirement options, but it does not need a second ladder or a mandatory wrapper around every move.
 
 ### A.16:12 - Relations
 - Builds on: `C.2.2a`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.18`, `A.19`.
@@ -18232,12 +18898,19 @@ A governed publication after route work is usually in one of four states:
 
 - **open plurality** - several downstream directions remain live;
 - **selected-but-not-owned** - one route is preferred, but the publication is still in an early or seam owner;
-- **endpoint-owned** - a later owner now carries the relevant contract;
+- **endpoint-owned** - a later owner now carries the relevant publication and responsibility;
 - **retired / withdrawn** - the publication or branch is no longer current and survives only as historical continuity.
 
 Confusing these states is one of the main causes of premature endpoint language.
 
-#### A.16:18.3 - Authority may rise, stay bounded, fall, or retire
+#### A.16:18.3 - `AuthorityState` extraction note
+The four states above may be reused as `AuthorityState`, an extracted shared profile for corridor coordination and review.
+
+That extraction does **not** create a new owner. It reuses the state vocabulary already owned here for later cross-references in `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.Q`, `A.6.A`, and `A.15`.
+
+`AuthorityState` names authority posture after route work. It does not replace `routeDecision`, `selectedRoute`, `routeAuthorityState`, route-bearing publication ownership, gate state, or work-execution state. Any `endpoint-owned` state still names the downstream owner explicitly.
+
+#### A.16:18.4 - Authority may rise, stay bounded, fall, or retire
 A move may:
 
 - **raise authority**, as when a routed cue becomes a lawful endpoint-owned form;
@@ -18247,8 +18920,17 @@ A move may:
 
 The authority effect should be named as carefully as the move kind itself.
 
-#### A.16:18.4 - Boundary to owner replacement
+#### A.16:18.5 - Boundary to owner replacement
 `A.16` never authorizes a silent owner replacement. If a route crosses into `A.6.P`, `B.5.2`, `A.15`, `C.25`, or another endpoint owner, that owner and the owned publication form must be named explicitly. `A.16` coordinates the crossing; it does not absorb the destination owner's semantics.
+
+#### A.16:18.6 - `EndpointAdmissionProfile` extraction note
+The corridor may later reuse an `EndpointAdmissionProfile` as a declarative host-derived profile for lawful handoff from language-state publications to later owners.
+
+That profile is stated over already-owned conditions: declared language-state positions in `C.2.2a`, facet readings in `C.2.LS` and `C.2.4`-`C.2.7`, explicit route state in `B.4.1`, prompt-readiness in `B.5.2.0`, and witness or grounding conditions that are already visible in the publication chain.
+
+`EndpointAdmissionProfile` decides whether handoff is lawful; it does not own the downstream publication form itself. A relation-like skeleton may therefore be admitted toward `A.6.P`; an explicit open question with rival-set may be admitted toward `B.5.2.0`; evaluative or action-inviting material may be admitted toward `A.6.Q` or `A.6.A`; executable docking may be admitted toward `A.15`.
+
+No admission result makes a later owner optional. Tone, style, or mere apparent explicitness is never sufficient on its own; the relevant owner conditions still have to be named and met.
 
 ### A.16:19 - Worked Failure and Recovery Cases
 
@@ -18264,13 +18946,16 @@ A note is formalized too early into a relation-like shape, but later review show
 #### A.16:19.4 - Silent branch disappearance
 A route-bearing publication originally kept two candidate routes live. Later text talks only as if one route ever existed. Reviewers should treat that as silent branch laundering unless the abandoned route was explicitly retired, merged, or shown never to have become its own branch.
 
-### A.16:20 - Multi-Step Composition and Path Publication
+#### A.16:19.5 - Form-owner-face collapse
+A note says only `the move publishes a Tech face` or `the move enters A.6.P` and never names the actual publication form. That wording is non-conforming because it collapses three different layers into one phrase. The repair is to name the publication form first, then the owner, then the MVPK face if the face matters for rendering or review.
+
+### A.16:20 - Multi-Move Composition and Path Publication
 
 #### A.16:20.1 - Compound move rule
-Many histories are short chains such as `notice -> stabilize -> route -> projection` into `U.AbductivePrompt`, or `endpoint-owned form -> reopen -> sketchBackoff -> route`. A conforming publication may summarize such a chain only if the intermediate owner transitions remain reconstructible.
+Many published histories are short move chains such as `notice -> stabilize -> route -> projection` into `U.AbductivePrompt`, or `endpoint-owned form -> reopen -> sketchBackoff -> route`. A conforming publication may summarize such a chain only if the intermediate owner transitions remain reconstructible.
 
-#### A.16:20.2 - Stepwise authority reading
-Read authority stepwise. Later strengthening does not retroactively authorize earlier weak forms, and later retreat or retirement does not erase the fact that stronger authority once existed.
+#### A.16:20.2 - Move-by-move authority reading
+Read authority move by move. Later strengthening does not retroactively authorize earlier weak forms, and later retreat or retirement does not erase the fact that stronger authority once existed.
 
 #### A.16:20.3 - `A.16.0` threshold
 When a move history acquires governance value of its own, publish it through `A.16.0` rather than overloading one local move note with hidden lineage structure.
@@ -18281,13 +18966,13 @@ When the history must be published as a path object in a graph sense, reuse `E.1
 ### A.16:21 - Comparative Move Law and Boundary Tests
 
 #### A.16:21.1 - Comparing move histories
-Move histories may be compared across contexts only if the compared steps are typed by publication form, owner, and authority effect. Comparing one context's `route -> projection` chain to another context's `cue -> requirement` leap as though they were the same "formalization speed" is a category mistake.
+Move histories may be compared across contexts only if the compared moves are typed by publication form, owner, and authority effect. Comparing one context's `route -> projection` chain to another context's `cue -> requirement` leap as though they were the same "formalization speed" is a category mistake.
 
 #### A.16:21.2 - No maturity-ladder compression
-A multi-step path shall not be redescribed as one generic climb in maturity, rigor, or readiness. The lawful comparison is over move kinds, facet shifts, route states, owner crossings, and authority effects.
+A multi-move path shall not be redescribed as one generic climb in maturity, rigor, or readiness. The lawful comparison is over move kinds, facet shifts, route states, owner crossings, and authority effects.
 
 #### A.16:21.3 - Boundary test for silent path laundering
-If a later endpoint claim depends on prior steps that are not visible anywhere in the publication chain, reviewers should assume silent path laundering until the missing move records are supplied. `A.16` exists precisely to prevent such invisible transitions.
+If a later endpoint claim depends on prior move publications that are not visible anywhere in the publication chain, reviewers should assume silent path laundering until the missing move records are supplied. `A.16` exists precisely to prevent such invisible transitions.
 
 ### A.16:22 - Review Matrix for Integration Integrity
 
@@ -18297,11 +18982,13 @@ A reviewer can test an `A.16` move or move chain with six questions:
 2. **Are owner and face kept distinct from the form?** If not, the move collapses layers.
 3. **Is the authority effect explicit?** If not, later owner boundaries will drift.
 4. **Is route plurality being confused with lineage fork?** If yes, the history is being misread.
-5. **Are intermediate steps suppressed in a way that changes the reading?** If yes, the chain is over-compressed.
+5. **Are intermediate move publications suppressed in a way that changes the reading?** If yes, the chain is over-compressed.
 6. **Has `A.16` started to impersonate a later owner or a trajectory wrapper?** If yes, the relevant later owner or `A.16.0` threshold needs to be named explicitly.
 
 This matrix keeps the integration layer narrow while still making its move semantics inspectable.
 ### A.16:End
+
+
 
 ## A.16.0 - `U.LanguageStateTransductionTrajectory` - Optional trajectory-account normal form over the language-state `U.CharacteristicSpace`
 
@@ -20575,7 +21262,7 @@ Downstream continuation (outside `suite_protocols`): publication/telemetry via `
 * **Mechanism specializations are not wiring.** Domain/project variants are expressed via A.6.1 (`⊑/⊑⁺`) under their semantic owner (typically a project pattern `P.*`), not by editing suite membership. The suite binds to `…IntensionRef`; the planned baseline (A.19.CHR:4.7.2 under A.15.3) chooses concrete instances/specializations.
 * **Protocols evolve within the suite boundary.** Adding/changing suite protocols (A.19.CHR:4.5) is allowed as long as each protocol remains suite‑closed and does not import publish/telemetry as a mandatory step. If a protocol introduces a new required stage not present in membership, treat it as a suite variant rather than a protocol edit.
 * **SoTA harvesting updates methods, not the kernel.** Updates from SoTA harvesting/synthesis (G.2) are carried via edition‑pinned `MethodDescriptionRef` / `ComparatorSpecRef` selections and wiring modules (`G.x:Ext.*`), keeping the kernel Intension set stable. If a SoTA update requires changing a mechanism’s signature/laws, the change happens in the owning A.6.1 card and MUST emit RSCR triggers from `G.Core`.
-* **New mechanism families (outside CHR).** Introduce new mechanism kinds as new pattens in their mechanism suite pattern cluster. If they require suite‑level composition and P2W binding, add a new suite pattern `A.6.7.<FamilyKey>` plus a suite‑specific planned baseline specialization of A.15.3, mirroring the ownership routing of this pattern.
+* **New mechanism families (outside CHR).** Introduce new mechanism kinds as new family-specific patterns under the appropriate mechanism family. If they require suite-level composition and P2W binding, add a corresponding suite pattern `A.6.7.<FamilyKey>` plus a suite-specific planned baseline specialization of A.15.3, mirroring the ownership routing of this pattern.
 
 #### A.19.CHR:5.1 - `U.System` vignette (Tell–Show–Show)
 
@@ -24282,7 +24969,7 @@ The penalty function `Φ` quantifies the loss of reliability due to poor concept
 | :--- | :--- | :--- | :--- | :--- |
 | **Penalty Φ(CL_min)** | 1.5 | 1.0 | 0.5 | 0.0 |
 
-+*A domain profile **MAY** provide an alternative table but **MUST** preserve monotonic decrease (a lower `CL` cannot have a smaller penalty). The default values are derived from empirical fits in KD-CAL Bench 0.3.*
+*A domain profile **MAY** provide an alternative table but **MUST** preserve monotonic decrease (a lower `CL` cannot have a smaller penalty). The default values are derived from empirical fits in KD-CAL Bench 0.3.*
 
  6. **Conflict detection (no averaging).**
     Detect contradictions (e.g., `p` and `¬p` with overlapping scope). Do **not** average. Either (i) **separate** by context or scope (bounded contexts; Γ\_time slices), (ii) mark **provisional** with explicit conflict edges, or (iii) if resolution yields **new closure**, consider **MHT**.
@@ -26402,7 +27089,7 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
   * `CL`: mapping of scales (CL1 vs CL3).
   * `G`: populations union, but unsupported sub‑populations are dropped.
 * **Aggregation:**
-+* **Aggregation:**  
+* **Aggregation:**  
 * **\[M‑1]** ordinal support ranking; note weakest‑link study.  
 * **\[M‑2]** compute `R_eff` with Φ table; record `CL_min` for scale mappings.  
 * **\[F‑constructive]** formalise the effect‑model equivalence and export proof‑term hash.  # [M/F]
@@ -29716,6 +30403,17 @@ A published position claim in `U.LanguageStateSpace` should normally make at lea
 
 A position claim may be partial when some slots are intentionally unknown, but the unknowns should be declared rather than hidden under a broad readiness label.
 
+#### C.2.2a:4.5.a - Local position-reading witness
+For this pattern, a position claim is reviewable when:
+
+- the occupant is named or inherited by an already pinned upstream publication;
+- the slot values, intervals, or `ValueSet` claims are explicit enough to show where the publication stands;
+- the grounds, witnesses, or inherited pins that support those values remain visible;
+- any threshold-bearing use states the local threshold note or the pinned threshold source it inherits;
+- and the text keeps the occupant, publication form, publication face, and carrier in distinct role lanes.
+
+A polished note, a stronger carrier, or a more formal face does not by itself prove a new position. The chart claim remains lawful only when those role lanes and slot claims stay visible.
+
 #### C.2.2a:4.6 - Non-substitution of `F`
 `F` remains one basis slot in the chart, not the whole chart.
 
@@ -29748,6 +30446,23 @@ Comparisons inside one context may use the shared chart and local thresholds. Co
 
 `C.2.2a` therefore supports bridge work, but does not grant cross-context identity by itself.
 
+#### C.2.2a:4.10 - Corridor reading note
+The current `Language-State & Semantic Routing Corridor` in this cluster is a distributed overlay over:
+
+- `C.2.2a`
+- `C.2.LS`
+- `C.2.4–C.2.7`
+- `A.16`
+- `A.16.0–A.16.2`
+- `B.4.1`
+- `B.5.2.0`
+
+`A.16.1 / U.PreArticulationCuePack` remains the earliest durable seam publication form in that corridor. `B.4.1` is the explicit route-bearing seam after cue preservation, not the first publication in the corridor. `B.5.2.0` is typed prompt entry, not generic route ownership.
+
+`A.6.Q`, `A.6.A`, `A.6.P`, `B.5.2`, `A.15`, and `C.25` are seam-coupled downstream owners rather than members of this language-state owner set.
+
+This note gives readers one corridor map only. It does not relocate articulation, closure, route, prompt, bridge, or endpoint semantics out of their current owners.
+
 ### C.2.2a:5 - Archetypal Grounding
 **Tell.** One note can be strongly operator-loop anchored yet still weakly closed. Another can be document-mediated and symbol-heavy while still open on route choice. Both are positions in one language-state chart, but not on one maturity ladder.
 
@@ -29764,6 +30479,8 @@ The pattern deliberately biases authors toward decomposable coordinate claims an
 - `CC-C.2.2a-3` Position claims **SHALL** use slot-explicit values, `ValueSet` claims, or intervals; uncertainty **SHALL NOT** be hidden inside stage words such as `ready`, `early`, or `mature`.
 - `CC-C.2.2a-4` A position claim in the chart **MUST NOT** be conflated with the current ground, witness, publication form, publication face, or carrier.
 - `CC-C.2.2a-5` Cross-context comparison of positions or threshold talk **SHALL** go through bridge discipline rather than label similarity.
+- `CC-C.2.2a-6` Corridor and navigation notes **MUST NOT** be read as relocation of facet, seam, bridge, or downstream-owner semantics into the chart owner set.
+- `CC-C.2.2a-7` If a position claim is used for routing, endpoint entry, or gate-adjacent reasoning, the threshold note and the role-lane distinction between occupant, publication form, face, and carrier **SHALL** remain explicit or explicitly inherited from pinned upstream material.
 
 ### C.2.2a:8 - Common Anti-Patterns and How to Avoid Them
 - **Maturity monism.** Replace five facets with one stage word. Repair by publishing explicit slot placement.
@@ -29771,6 +30488,7 @@ The pattern deliberately biases authors toward decomposable coordinate claims an
 - **Carrier collapse.** Treat a document, cue pack, or routed note as if it were the position itself. Repair by separating carrier lane, publication form, publication face, and position claim.
 - **Threshold folklore.** Speak of readiness without any explicit threshold declaration. Repair by publishing relevant local threshold notes on explicit slots.
 - **Bridge by vibe.** Treat similar stage language in two schools as equivalence. Repair by explicit `F.9` bridge with loss notes.
+- **Corridor inflation.** Treat the navigation cluster or corridor map as if it were the owner set for all downstream semantics. Repair by naming whether the current statement belongs to the chart owner set, a seam publication owner, or a downstream owner.
 
 ### C.2.2a:9 - Consequences
 The benefit is that practitioners, including engineers, operators, researchers, managers, and engineer-managers, can speak about where a governed `U.Episteme` stands without hiding the reasons inside vague maturity language. The trade-off is that publication must carry explicit slot and threshold information when decisions depend on it.
@@ -29779,7 +30497,22 @@ The benefit is that practitioners, including engineers, operators, researchers, 
 Language-state work needs one explicit statement of what this chart is before individual facet, move, and endpoint patterns start using it. Without that statement, readers have to reconstruct the same geometry from scattered local rules and examples.
 
 ### C.2.2a:11 - SoTA-Echoing
-The pattern aligns with contemporary work on exploratory reasoning, embodied inquiry, operator-centered decision support, and structured representation: the useful invariant is not one universal ladder of maturity, but a stable multi-facet `U.CharacteristicSpace` chart in which position claims can be published, compared, and moved.
+
+**SoTA note.** This section does not mint a second rule layer. It is a load-bearing alignment surface: the Solution, Conformance Checklist, and role-lane discipline of this pattern must match the stance stated here or explicitly justify divergence.
+
+**Traditions covered.** This pattern binds itself to architecture-description governance, model-based systems engineering, and risk/governance profiling practice.
+
+| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `C.2.2a` | Adoption status |
+|---|---|---|---|---|
+| Complex technical state should be published through explicit views, viewpoints, and model distinctions rather than one implicit maturity word. | Contemporary architecture-description governance separates source artefact, view, viewpoint, and correspondence burden instead of letting one surface adjective stand in for the whole state. | ISO/IEC/IEEE 42010:2022 | `C.2.2a` adopts this by keeping chart position, publication form, face, and carrier in distinct role lanes and by rejecting stage-language as a surrogate coordinate system. | **Adopt.** |
+| Rich engineering state is better represented through typed properties and relations than through one lifecycle ladder. | Recent MBSE practice favours explicit model elements, properties, and cross-view consistency over one implicit readiness staircase. | OMG SysML v2 (2025) | `C.2.2a` adapts this into a declared language-state chart with named basis facets, slot-explicit values, and local thresholds instead of one maturity rail. | **Adapt.** |
+| Governance-relevant readiness requires context-local profiles and thresholds, not one global adjective. | Current governance and risk frameworks use explicit profiles, thresholds, and scoped conditions rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | `C.2.2a` adopts the threshold-publication discipline and rejects the popular shortcut where `ready`, `early`, or `mature` replaces explicit slot conditions. | **Adopt/Reject-popular-shortcut.** |
+
+**Architecture-description governance.** `C.2.2a` adopts the discipline that positions, publication forms, faces, and carriers stay explicitly distinct, even when one local rendering makes them look aligned.
+
+**MBSE and profile discipline.** `C.2.2a` adapts multi-property state publication into a chart over `U.CharacteristicSpace` whose basis facets remain decomposable and locally thresholded.
+
+**Local stance.** The load-bearing SoTA claim for this pattern is narrow: best-known current practice treats governed language-state as a multi-facet chart with explicit thresholds and role-lane distinctions, not as one maturity ladder or one polished publication surface.
 
 ### C.2.2a:12 - Relations
 - Builds on: `A.19`, `E.10`, `F.18`.
@@ -29813,6 +30546,9 @@ That position explains why the alert belongs in a route-bearing seam publication
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
 A document-mediated adequacy note about an architecture description may be relatively high in formality and articulation, mid-level in closure, document-mediated in anchoring, and strongly symbolic in representation. That position remains within the same language-state chart even though its carrier lane differs from an embodied inquiry cue.
 
+#### C.2.2a:13.4 - Polished prose is not closure
+A prose rewrite may look cleaner, more compact, or more manager-readable than the source cue and still remain low in closure or articulation explicitness. If the underlying slot values, uncertainty, and route plurality remain unchanged, then publication polish changes the rendering or carrier lane, not the chart position by itself.
+
 ### C.2.2a:14 - Position Publication Package Discipline
 A publishable position claim should normally identify:
 
@@ -29835,13 +30571,11 @@ A reviewer should ask:
 5. If the text compares two contexts, is there a real bridge or only a lexical resemblance?
 
 ### C.2.2a:16 - Boundary Notes
-`C.2.2a` does not own move kinds, seam publication species, endpoint repair semantics, or bridge substitution licence. Those belong respectively to `A.16` / `A.16.0`, `A.16.1` / `B.4.1` / `B.5.2.0`, `A.6.*` / `C.25`, and `F.9` / `F.9.1`.
+`C.2.2a` does not own move kinds, seam publication forms, endpoint repair semantics, or bridge substitution licence. Those belong respectively to `A.16` / `A.16.0`, `A.16.1` / `B.4.1` / `B.5.2.0`, `A.6.*` / `C.25`, and `F.9` / `F.9.1`.
 
 Its job is narrower and more foundational: to make the declared language-state `U.CharacteristicSpace` chart readable so that downstream patterns can refer to one visible common geometry instead of rebuilding it piecemeal.
 
 ### C.2.2a:End
-
-
 
 ## C.2.3 - Unified Formality Characteristic F
 
@@ -30154,7 +30888,8 @@ For the language-space extension, `F` does **not** own `U.ArticulationExplicitne
 
 ### C.2.3:End
 
-## C.2.LS - `U.LanguageStateFacetProfile` - Thin owner for language-state facets
+
+## C.2.LS - U.LanguageStateFacetProfile - Thin owner for language-state facets
 
 > **Type:** Definitional (D)
 > **Status:** Draft
@@ -30201,6 +30936,16 @@ Without a dedicated profile owner, authors blur articulation, closure, anchoring
 #### C.2.LS:4.2 - Threshold publication discipline
 Any threshold used for routing, lawful move guards, or entry into `A.6.P` shall be published on explicit named facets within the profile. Contexts shall not speak of hidden sub-levels of `F` when what matters is really articulation, closure, anchoring, or the representation-factor bundle.
 
+#### C.2.LS:4.2.a - Local profile-reading witness
+For this pattern, a published facet profile is reviewable when:
+
+- the facet refs are explicit or explicitly inherited from already pinned upstream material;
+- any threshold-bearing use names the facet whose threshold is being invoked;
+- route notes or local overlays remain informative and visibly docked to the explicit facet bundle;
+- and the profile does not smuggle move law, bridge law, gate state, or downstream-owner semantics into the bundle record.
+
+A polished label, one strong facet, or one memorable route note does not by itself yield a lawful profile reading. The profile remains conformant only when the named facets stay explicit and decomposable.
+
 #### C.2.LS:4.3 - Composite readings
 A language-state judgement may be composite, but the composite shall be decomposable. For example, a cue may be:
 
@@ -30210,6 +30955,11 @@ A language-state judgement may be composite, but the composite shall be decompos
 - and representation-wise mixed rather than purely symbolic.
 
 A conforming profile makes this decomposition visible rather than hiding it under one poetic label such as "early" or "raw".
+
+#### C.2.LS:4.4 - Corridor map note
+`C.2.LS` participates in the current `Language-State & Semantic Routing Corridor`, but only as the thin owner of the facet-profile bundle. Readers who need one map of the full language-state owner set should read the corridor note in `C.2.2a`.
+
+That map does not change the owner boundary here: `C.2.LS` still does not own cue preservation, route-bearing publication, prompt entry, or downstream endpoint handoff.
 
 ### C.2.LS:5 - Archetypal Grounding
 **Tell.** A team may say a draft is "still forming" for different reasons. `U.LanguageStateFacetProfile` forces the team to say whether the issue is low articulation, weak candidate-space closure, an anchoring mismatch, or an unresolved representation-factor bundle.
@@ -30226,13 +30976,16 @@ The pattern biases authors toward explicit facet ownership and away from master-
 - `CC-C.2.LS-2` `C.2.LS` **MUST NOT** redefine `F` or create a second formality ladder.
 - `CC-C.2.LS-3` Thresholds that matter for routing, reopening, or lexical repair **SHALL** be published on explicit facets.
 - `CC-C.2.LS-4` Trajectory accounts that rely on facet profiles **SHOULD** reuse `A.16` move kinds and `E.18` path publication rules.
-- `CC-C.2.LS-5` Composite labels such as "early", "settled", or "ready" **SHALL NOT** stand in for the explicit facet bundle when those states matter operationally.
+- `CC-C.2.LS-5` Composite labels such as `early`, `settled`, or `ready` **SHALL NOT** stand in for the explicit facet bundle when those states matter operationally.
+- `CC-C.2.LS-6` Composite readings, overlays, and route notes **SHALL** remain decomposable into named facets and **MUST NOT** behave as hidden master axes.
+- `CC-C.2.LS-7` A profile bundle **MUST NOT** smuggle move law, bridge law, gate state, or downstream-owner semantics into what should remain a thin facet-profile record.
 
 ### C.2.LS:8 - Common Anti-Patterns and How to Avoid Them
-- **Shadow ladder.** Treating "early/late" as a master scale. Split the judgement into the named facets.
+- **Shadow ladder.** Treating `early/late` as a master scale. Split the judgement into the named facets.
 - **Formality capture.** Letting `F` stand in for closure or articulation. Publish those facets explicitly.
 - **Bundle inflation.** Turning `U.LanguageStateFacetProfile` into a second `A.19`. Keep it thin and referential.
-- **Opaque readiness.** Using words such as "ready" or "mature" without naming which facet justifies the claim.
+- **Opaque readiness.** Using words such as `ready` or `mature` without naming which facet justifies the claim.
+- **Route-note capture.** Letting an informative route note behave like move law, gate state, or endpoint ownership. Keep route notes informative and push operative authority back to `A.16`, downstream owners, or gate/work owners.
 
 ### C.2.LS:9 - Consequences
 The benefit is owner clarity: early cue work, bridge annotations, and reopen moves can all talk about one explicit facet profile. The trade-off is more explicit profile authoring and threshold publication.
@@ -30241,7 +30994,22 @@ The benefit is owner clarity: early cue work, bridge annotations, and reopen mov
 The pattern gives the declared language-state chart over `U.CharacteristicSpace` one stable facet-profile record through which its facet bundle can be published together, while respecting the rest of FPF's owner boundaries.
 
 ### C.2.LS:11 - SoTA-Echoing
-The factorization fits contemporary work on embodied cue capture, model probing, exploratory design, and interpretive bridge work: the useful invariant is not one universal ladder, but a small profile of orthogonal facets.
+
+**SoTA note.** This section does not mint a second rule layer. It is a load-bearing alignment surface: the Solution, Conformance Checklist, and boundary discipline of this pattern must match the stance stated here or explicitly justify divergence.
+
+**Traditions covered.** This pattern binds itself to architecture-description governance, model-based systems engineering, and governance/profile discipline.
+
+| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `C.2.LS` | Adoption status |
+|---|---|---|---|---|
+| Multi-facet state should be published through explicit profile elements rather than one summary stage label. | Contemporary architecture-description practice keeps the relevant properties, views, and correspondence burden explicit instead of replacing them with one reader-facing maturity word. | ISO/IEC/IEEE 42010:2022 | `C.2.LS` adopts this by requiring explicit facet refs and by rejecting profile-by-vibe labels such as `ready` or `raw` when the bundle matters operationally. | **Adopt.** |
+| Complex technical state is better captured through typed properties and decomposable profiles than one lifecycle rail. | Recent MBSE practice favours explicit properties, viewpoints, and cross-view consistency over one implicit staircase of readiness. | OMG SysML v2 (2025) | `C.2.LS` adapts this into a thin facet-profile bundle whose members remain decomposable and whose thresholds stay tied to named facets. | **Adapt.** |
+| Governance-facing readiness should stay scoped and profile-based, not collapse into one global adjective. | Current governance frameworks use explicit profiles, scoped conditions, and local thresholds rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | `C.2.LS` adopts profile-level threshold publication and rejects the popular shortcut where one polished profile label substitutes for explicit facet talk. | **Adopt/Reject-popular-shortcut.** |
+
+**Architecture-description governance.** `C.2.LS` adopts the discipline that useful state publication should keep the relevant profile elements explicit rather than hiding them inside one summary label.
+
+**MBSE and profile discipline.** `C.2.LS` adapts typed multi-property state publication into a thin, decomposable language-state facet bundle rather than one master scale.
+
+**Local stance.** The load-bearing SoTA claim for this pattern is narrow: best-known current practice treats language-state publication as a small explicit facet profile with local thresholds and decomposable readings, not as one maturity adjective or one route-coloured bundle label.
 
 ### C.2.LS:12 - Relations
 - Builds on: `A.18`, `A.19`, `C.2.2a`, `C.2.3`.
@@ -30258,7 +31026,7 @@ A console alert note may be published with a language-state facet profile such a
 - `LanguageStateAnchoringMode = AM.OperatorLoop` because the note is directly anchored to operator action;
 - `RepresentationFactorBundle = {local, sparse, mixed-symbolic}` because alert text and compact codes coexist.
 
-This example shows why no one facet can replace the others. The note is not "simply early"; it is early in a specific, decomposable way.
+This example shows why no one facet can replace the others. The note is not `simply early`; it is early in a specific, decomposable way.
 
 #### C.2.LS:13.2 - Research cue before lexical repair
 A felt or trace-anchored mismatch cue in an inquiry note may be:
@@ -30272,6 +31040,9 @@ That profile explains why the cue should remain in `A.16.1` rather than being fo
 
 #### C.2.LS:13.3 - Architecture-description case
 A viewpoint-bound note about the adequacy of an architecture description may be moderately high in `F`, moderately high in `AE`, still mid-level in `CD`, document-mediated in `AM`, and strongly symbolic in its representation-factor bundle. The profile keeps description-side adequacy distinct from system-side engineering quality.
+
+#### C.2.LS:13.4 - Same `F`, different profile
+Two notes may share the same rough `F` band and still differ sharply in articulation, closure, anchoring, and representation factors. One may be operator-loop anchored and low-closure; another may be document-mediated and comparatively closed. The profile bundle keeps that difference visible instead of letting `F` behave like a master axis.
 
 ### C.2.LS:14 - Authoring and Review Guidance
 
@@ -31664,7 +32435,7 @@ Never treat **AT** as “wider/narrower” **G**.
 
 ### C.3:11 - Worked examples (end‑to‑end)
 
-+> *Each example shows the typed pre‑check, Scope composition, penalties to **R**, and the managerial decision. Full guard clauses for these scenarios are in **Annex C.3.A**.*
+> *Each example shows the typed pre‑check, Scope composition, penalties to **R**, and the managerial decision. Full guard clauses for these scenarios are in **Annex C.3.A**.*
 
 #### C.3:11.1 - Cyber‑physical braking policy across labs and plants
 
@@ -33756,9 +34527,9 @@ Declared lists of part‑of sub‑relations **scale poorly** and **lack identity
 2. **`Γₘ.set(elems:Set[U.Entity])`** — returns a **collection** *C*; each *e* in *elems* stands in a calculus‑internal **mero:KernelPartOf(e, C)** under **member‑as‑part** semantics (publication alias: typically **`ut:MemberOf`**). **Counts/order** (e.g., parallel/serial factors) are **not carried here**; they live in method/time families adjacent to structure.  *Note:* although `mero:KernelPartOf` is transitive in the calculus, the **published** `MemberOf` alias remains **non‑transitive** by design (see A.14 guards). 
 3. **`Γₘ.slice(entity:U.Entity, facet:U.Facet)`** — returns an **aspect** *S* such that **mero:KernelPartOf(S, entity)** and *S* carries the declared **facet**. Temporal facets are excluded here.
    
-+**Note.** The calculus names an internal backbone **`mero:KernelPartOf`**; the Kernel’s public `ut:PartOf`/**A.14** catalogue remain unchanged. Publish only via Working‑Model aliases (CT2R‑LOG).
+**Note.** The calculus names an internal backbone **`mero:KernelPartOf`**; the Kernel’s public `ut:PartOf`/**A.14** catalogue remain unchanged. Publish only via Working‑Model aliases (CT2R‑LOG).
 
-+The calculus emits a **trace** for every construction; Structural aliases **MUST** be *grounded by* exactly one such trace.
+The calculus emits a **trace** for every construction; Structural aliases **MUST** be *grounded by* exactly one such trace.
 
 **Non‑goals (clarifications).**
 * No extra constructors for “parallelism” or “time slices”; parallelism is modelled via **set** (with order handled in `Γ_method`), and temporal parts live in the appropriate temporal/system calculus. This preserves parsimony.
@@ -33776,7 +34547,7 @@ Declared lists of part‑of sub‑relations **scale poorly** and **lack identity
 
 #### C.13:4.3 - Scope, applicability, terms & notation
 
-+Use Compose-CAL whenever a claim concerns **structural containment** of entities (assemblies, collections, aspects). Compose-CAL is *not* used for epistemic relations between knowledge artefacts; those are **epistemic** relations and may be justified by **Logical/Mapping** and/or **Empirical Validation** with an explicit `validationMode ∈ {inferential, postulate}`. Compose-CAL is neutral with respect to domain (mechanical, biological, software, etc.).
+Use Compose-CAL whenever a claim concerns **structural containment** of entities (assemblies, collections, aspects). Compose-CAL is *not* used for epistemic relations between knowledge artefacts; those are **epistemic** relations and may be justified by **Logical/Mapping** and/or **Empirical Validation** with an explicit `validationMode ∈ {inferential, postulate}`. Compose-CAL is neutral with respect to domain (mechanical, biological, software, etc.).
 
 * **Γₘ** — the mereological construction operator of this calculus.
 * **trace** — a minimal, inspectable witness that a constructor was applied to given inputs to yield a whole (or aspect).
@@ -35475,7 +36246,7 @@ Export a **Discipline.ESG** with named states and guarded transitions (e.g., *Em
 
 ### C.20:8 - Consequences
 **Benefits.** Auditable field composition; lawful federation across traditions; selector‑ready maturity/evidence linkage; didactic surface for stewardship.  
-+**Trade‑offs.** Discipline authoring requires CG‑Spec literacy and Bridge hygiene; paid back by safe reuse and clearer governance.
+**Trade‑offs.** Discipline authoring requires CG‑Spec literacy and Bridge hygiene; paid back by safe reuse and clearer governance.
 
 ### C.20:9 - Rationale
 The calculus keeps **describedEntity local**, **comparability lawful**, and **assurance explicit**. It aligns with KD‑CAL’s weak‑link folds and CL routing, with CG‑Spec’s **ScaleComplianceProfile (SCP)** and **Γ‑fold** rules, and with LEX twin‑label governance. It avoids “phlogiston disciplines” by tying fields to measurable CHRs (C.21) and evidence lanes.
@@ -35880,7 +36651,7 @@ If the problem requires **open‑ended generation** of tasks/environments, S2 **
 2. **Fill TaskSignature (S2).** Populate all fields; mark `unknown` explicitly; align **Missingness** with CHR semantics. 
 3. **Bind CG-Spec ids.** For any numeric comparison/aggregation you expect downstream, cite **CG-Spec.Characteristics** and prove **CSLC** legality. 
 4. **Attach Evidence Graph Ref.** Lanes (TA/VA/LA), carriers, freshness windows; set **Gamma-fold** default; no self-evidence. 
-+5. **Publish crossings.** If importing across a **GateCrossing** boundary, mint **BridgeDescription + UTS row**; record **CL/CL^plane**; penalties **→ R only**. 
+5. **Publish crossings.** If importing across a **GateCrossing** boundary, mint **BridgeDescription + UTS row**; record **CL/CL^plane**; penalties **→ R only**. 
 6. **Keep thresholds in Acceptance.** Move any thresholds (gate numbers) into **G.4**;  wire **RSCR** refusal tests (illegal ops; unit/scale checks; **tri-state unknowns**; CL->R routing; **Phi tables present**).
 7. **Run GateCrossing checks** on the signature and crossings: stance tagging (if used; informative only), **CrossingSurface** presence/consistency (**E.18/A.27/F.9**), **LanePurity**, and **Lexical SD** (**E.10**); attach **UTS Name Cards** with twin labels.
 8. **Bias audit.** Check E.5.4 and C.21 hooks if the problem lives *inside* a discipline dashboard or SoTA pack.
@@ -37851,32 +38622,38 @@ It is the only allowed heading *inside* a pattern whose section token is non‑n
 *Unification note:* historic A‑ and D‑templates differed only by the presence/absence of **Bias‑Annotation** and **Relations**; the unified template keeps the headings everywhere while allowing explicit `Not applicable` statements when justified.
 The Alexandrian pattern canon historically calls *Problem frame* “Context”. FPF avoids that label because **Context** is already overloaded in FPF (e.g., `U.BoundedContext` and its Plain‑register label).
 
-#### E.8:4.2 - Stylistic Principles (S‑0 … S‑13)
+#### E.8:4.2 - Stylistic Principles (S-0 ... S-19)
 
 | # | Principle | Guideline |
 |---|-----------|-----------|
-| S‑0 | Narrative Flow Seven‑Step Heuristic | Authors are encouraged to structure major paragraphs or subsections using the seven‑step mnemonic. |
-| S‑1 | Density without Jargon | Short declarative sentences; tool names belong in Pedagogy/Tooling. |
-| S‑2 | Internal Cohesion | Inline references to Pillars and related patterns. |
-| S‑3 | Embedded Mini‑Definitions | Gloss a new term in parentheses on first appearance. |
-| S‑4 | Contextualisation | Brief historical or disciplinary lineage anchors. |
-| S‑5 | Prophylactic Clarification | Pre‑empt common misreadings inside the prose. |
-| S‑6 | Quotable Closers | Finish Solution or Consequences with a memorable aphorism. |
-| S‑7 | Generative over Prescriptive | Present rules as enabling constraints, not bureaucracy. |
-| S‑8 | Trans‑disciplinary Tie‑ins | Illustrate using at least two distinct fields. |
-| S‑9 | Physical Grounding Reference | Link abstractions to a `Transformer` or physical process. |
-| S‑10 | Punchy Blocks | ≤ 5 sentences per paragraph; lists for clarity. |
-| S‑11 | Narrative Flow | Ensure sections read as a continuous story, not bullet soup. |
-| S‑12 | Full sentences over tags | Avoid “keyword soup”. Each list item SHOULD contain a subject and a verb; prefer 2–4 sentence micro‑paragraphs to bare tag lists. |
-| S‑13 | SoTA‑Echo craft | In the SoTA‑Echoing section, present: **claim → practice → source → alignment → adoption status (adopt/adapt/reject)**; cite Bridges & CL when crossing Contexts/planes. |
+| S-0 | Narrative Flow Seven-Step Heuristic | Authors are encouraged to structure major paragraphs or subsections using the seven-step mnemonic. |
+| S-1 | Density without Jargon | Short declarative sentences; tool names belong in Pedagogy/Tooling. |
+| S-2 | Internal Cohesion | Inline references to Pillars and related patterns. |
+| S-3 | Embedded Mini-Definitions | Gloss a new term in parentheses on first appearance. |
+| S-4 | Contextualisation | Brief historical or disciplinary lineage anchors. |
+| S-5 | Prophylactic Clarification | Pre-empt common misreadings inside the prose. |
+| S-6 | Quotable Closers | Finish Solution or Consequences with a memorable aphorism. |
+| S-7 | Generative over Prescriptive | Present rules as enabling constraints, not bureaucracy. |
+| S-8 | Trans-disciplinary Tie-ins | Illustrate using at least two distinct fields. |
+| S-9 | Physical Grounding Reference | Link abstractions to a `Transformer` or physical process. |
+| S-10 | Punchy Blocks | <= 5 sentences per paragraph; lists for clarity. |
+| S-11 | Narrative Flow | Ensure sections read as a continuous story, not bullet soup. |
+| S-12 | Full sentences over tags | Avoid “keyword soup”. Each list item SHOULD contain a subject and a verb; prefer 2-4 sentence micro-paragraphs to bare tag lists. |
+| S-13 | SoTA-Echo craft | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt/adapt/reject)**; cite Bridges & CL when crossing Contexts/planes. |
+| S-14 | Surface sufficiency | New and substantially revised patterns carry enough second/third-surface content to be teachable without nearby project notes. |
+| S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source/result slice; scenario names alone are not enough. |
+| S-16 | Ordinary vs load-bearing realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
+| S-17 | Self-contained monolith prose | A merged pattern must explain itself inside the monolith; planning shorthand and review-context dependencies are not admissible in live prose. |
+| S-18 | Reader-role discipline | Keep live pattern prose addressed to the intended FPF user; move package-development and architecture-placement rationale to separate companion notes or clearly marked informative placement notes. |
+| S-19 | Precision before relaxation | In load-bearing prose, restore the head kind named by a generic phrase before treating any qualifier as trustworthy semantic guidance; then restore the burden hidden in the qualifier before allowing any later plain, didactic, or coarsened restatement. |
 
 Authors use the principles as a *scaffold*, not a straitjacket: the goal
 is coherent, engaging insight.
 
-**S‑0 (Narrative Flow Seven‑Step Heuristic) — explanation**
-Narrative flow is recommended to follow these steps: **Hook → Frame → Weave → Anchor → Bridge → Flow → Close**.
+**S-0 (Narrative Flow Seven-Step Heuristic) — explanation**
+Narrative flow is recommended to follow these steps: **Hook -> Frame -> Weave -> Anchor -> Bridge -> Flow -> Close**.
 
-Brief explanations: 
+Brief explanations:
 | Step       | Purpose in a paragraph/section                             |
 | ---------- | ---------------------------------------------------------- |
 | **Hook**   | Grab attention with a vivid image or paradox.              |
@@ -37887,9 +38664,122 @@ Brief explanations:
 | **Flow**   | Deliver the formal content or argument.                    |
 | **Close**  | End with a quotable line or payoff that reinforces memory. |
 
-Narrative Flow Heuristic also operationalises S‑1 (Density w/o Jargon), S‑2 (Internal Cohesion), S‑4 (Contextualisation), and S‑6 (Quotable Closers).
+Narrative Flow Heuristic also operationalises S-1 (Density w/o Jargon), S-2 (Internal Cohesion), S-4 (Contextualisation), and S-6 (Quotable Closers).
+#### E.8:4.2.1 - Recognition surface and assurance surface
+Every canonical pattern SHALL stabilise one governed object early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely surface forms of one governed object and which would instead name a different act, process, work-product, or owner lane. Recognition and assurance surfaces may refine that object differently, but they must not silently swap the central object kind.
 
-#### E.8:4.3 - Autonomy authoring stub (mandatory when autonomy is claimed)
+If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what governed object is actually in play, what move is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
+
+Under `F.18` local-first naming, the canonical pair here is **recognition surface** and **assurance surface**.
+The earlier provisional `recognition shell / assurance shell` wording is retired.
+These names refer to two reading-order surfaces inside one pattern; they do **not** mint new owner kinds, new publication-surface kinds, or a second face family.
+A later third didactic support surface remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
+
+The **recognition surface** is the first reading surface.
+It is the part of the pattern that lets a cold working reader recognise the situation quickly enough to decide whether to keep reading.
+It should start from a subject-domain or practice moment before internal taxonomy whenever the pattern is meant to help real work rather than only internal canon maintenance.
+In practice it usually lives in an early `Use this when` line or equivalent opening, plus the upper parts of `Problem frame`, `Problem`, `Solution`, `Consequences`, and nearby worked slices.
+Its job is to make visible:
+- what ordinary working situation this pattern is for;
+- what goes wrong if the pattern is missed;
+- what the pattern buys the reader in practice;
+- when this is not the right pattern;
+- what governed object is actually being kept stable;
+- and, when technical terms must appear early, a pairwise plain gloss for each early high-pressure term.
+
+The **assurance surface** is the second reading surface.
+It carries the heavier load-bearing material that makes the pattern reviewable and auditable:
+- declaration blocks and typed fields when those are part of the contract;
+- representation ontology or object-of-talk discipline;
+- any minimal modeling or mathematical lens that keeps the governed object stable;
+- law, invariants, admissibility, and reroute or neighbouring-owner conditions;
+- `SoTA-Echoing` when it is carrying live explanatory load;
+- and the review hooks that let a stronger reading be checked explicitly.
+
+The assurance surface may sharpen, justify, and discipline the recognition surface.
+It must **not** silently replace, strengthen, or universalize the claim that the recognition surface made visible.
+If the recognition surface says “this pattern helps with a bounded working situation”, the assurance surface must not quietly turn that into a stronger owner, stronger guarantee, or broader universality claim.
+
+If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition surface.
+It is not enough for universality to appear only later in a law sheet, declaration block, or `SoTA-Echoing` rationale.
+A broad claim should therefore be demonstrated in the recognition surface through at least **three heterogeneous reader or domain situations**.
+When a compact matrix helps, `F.16` is the preferred template for showing that breadth.
+If `SoTA-Echoing` is load-bearing, the practical implication of those rows should be recoverable from the recognition surface and case bank rather than remaining a late-only justification layer.
+
+A **third didactic support surface** means enough didactic and operational support that the pattern survives without nearby project documents. Typical signs include:
+- at least one concrete source/result slice in Archetypal Grounding when the pattern governs transforms or publication change;
+- at least one boundary-heavy example or anti-example when nearby owners are easy to confuse;
+- reviewer guidance that tells what to inspect first and what failure mode forces reroute;
+- local mini-definitions or glossary support for recurring terms that would otherwise be recovered only from project context.
+
+Pattern density is therefore not “more metadata” and not “longer tag lists”. It is the presence of enough recognition, assurance, and, when needed, extra didactic support that a reader can understand the pattern, apply it lightly in ordinary cases, and recognise when a heavier review path is required.
+#### E.8:4.2.2 - Package-form and host-relation role-word discipline
+
+FPF pattern prose is not free-form descriptive English. When authors name a *package-form* or a *host relation*, they must use role words with stable semantic intent.
+
+Use the following distinctions explicitly:
+
+This is a cross-cutting review discipline, not a replacement for local host lexica. For example, `A.6.7` / `A.19.CHR` already carry the suite/kit/pack distinction, and `E.17.1` already carries the viewpoint bundle/family/library distinction.
+- **owner** = the pattern that owns the primary semantic law surface for the family;
+- **specialization** = a named refinement under an existing owner;
+- **overlay** = a cross-cutting governance or reading layer over existing owners;
+- **profile** = a declarative review/use surface derived from a host owner rather than a replacement owner;
+- **family** = a recurring class of cases governed by one owner surface;
+- **bundle** = a packaged set of defaults, allowances, or coordinated members;
+- **cluster** = a navigation or reading grouping; not by itself an owner claim;
+- **suite** = a coordinated set of members with explicit suite semantics under the right host law;
+- **pack** = an editorial or review grouping, not automatically a semantic owner;
+- **kit** = a reusable coordinated publication or contract surface with kit-level semantics under the right host law;
+- **record** = a case/report/review artefact;
+- **umbrella** = a provisional or review-stage head spanning possible subfamilies before final owner freeze.
+
+These words are not interchangeable. In particular, authors must not let `cluster`, `bundle`, `suite`, `family`, `profile`, `overlay`, or `umbrella` do the work of an unnamed host relation. When the host relation matters, it must be stated directly: `specialization under ...`, `hosted profile under ...`, `overlay over ...`, `bundle under ...`, or another equally explicit formulation.
+
+A pattern may reuse a host-native role word when that role is already owned and defined by the host pattern. Outside that case, authors must not improvise near-synonyms or shift between role words for stylistic variety.
+
+#### E.8:4.2.3 - Reader-role discipline for live pattern prose
+
+A live pattern is written for its intended FPF user: the person who will use the pattern to organise thought, inspect a case, publish a note, or review a result under that pattern.
+Its load-bearing sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms.
+
+Authors must keep FPF-development or package-architecture material separate from that user-facing body.
+In particular, `Problem`, `Solution`, `Consequences`, `Rationale`, worked slices, and ordinary-vs-load-bearing guidance must not do the work of:
+- arguing that the material is worth isolating;
+- justifying overlay/profile/owner choice as a package decision;
+- discussing owner freeze, naming freeze, merge posture, blast radius, or safest landing form;
+- or narrating future package promotion or defer decisions.
+
+If architecture-placement commentary is still helpful, the default home is a separate companion note or ADR-like architecture surface.
+A live pattern may include a short optional informative subsection such as `Architectural placement note (informative)` only when that placement materially helps users avoid misuse; even then, it must stay clearly separated from the user-facing solution and rationale rather than replacing them.
+
+#### E.8:4.2.4 - Human-facing fit beyond surface correctness
+Human-facing fit is also subject-domain fit. A recognition surface that starts from internal taxonomy, owner-lane convenience, or package-architecture wording before the problem-owning domain moment is still under-authored even if its later law surface is correct. When a broader umbrella name and a narrower operative branch are both live, the first surface should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
+
+A pattern can already be surface-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
+That failure usually appears when the text is lawful but does not yet make the working situation, practical payoff, governed object, or first reading surface visible enough.
+
+For canonical patterns, the first reading surface should behave as a **recognition surface** and the heavier burden should remain in an **assurance surface**.
+When a pattern claims practice guidance or is meant to be used by engineers, managers, researchers, or other working readers, authors should make the following visible before the heavier harness takes over:
+- a recognisable `Use this when` or equivalent first-minute entry;
+- a concrete working situation in `Problem frame`, not only taxonomic or owner-lane language;
+- a short statement of what goes wrong if the pattern is missed or misread;
+- a short statement of what this pattern buys the reader in practice;
+- a short `Not this pattern when` boundary for the ordinary nearby misroutes;
+- one minimally viable worked case or use slice that shows what changes in practice;
+- when a typed declaration block, formal lens, or other compact modeling support is load-bearing, a short user-facing statement of what kind of object the pattern is governing and what minimal lens keeps that object reviewable;
+- pairwise plain glosses for any high-pressure technical terms that must appear before the heavier declaration surface arrives;
+- when `SoTA-Echoing` is carrying live explanatory load, a short working-reader implication for each row or cluster of rows and a visible link back to the case bank or worked slices that those rows discipline;
+- a visible split between the recognition surface and the heavier declaration / review / assurance surface;
+- and, if the draft implicitly serves several reader families, an explicit primary working reader, primary concern surface, or primary viewpoint.
+
+If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition surface.
+At minimum the recognition surface should show at least three heterogeneous reader or domain situations rather than one narrow lane with a later broad claim attached.
+When a compact matrix helps, `F.16` is the preferred template for making that breadth legible.
+
+This is not a request to flatten the pattern into plain language only.
+It is a rule about ordering, layering, and surface consistency: the recognition surface must help a working reader recognise the pattern early, while the assurance surface continues to carry the full semantic burden.
+If the pattern uses technical lexicon, ontological distinctions, or a mathematical lens, those supports must remain recoverable, but the first reading surface should not require the reader to decode that full stack before recognising the working situation.
+The assurance surface may tighten or discipline the recognition surface; it must not silently shift what the recognition surface claimed.
 If a pattern or example claims **autonomy** for any Role/Method/Service:
 1) Add a subsection **“Autonomy (RoC‑E.16)”** that lists:
    * `AutonomyBudgetDeclRef` (id, version, Scope (G), Γ_time),
@@ -37917,37 +38807,53 @@ This guidance biases toward **Did** (readability, narrative flow) and **Arch** (
 ### E.8:7 - Conformance Checklist
 
 **CC style (canonical).**
-Conformance Checklist items are obligations/conditions in the **authoring plane**: they constrain artefacts that claim conformance (and the reviewers/validators that accept them). A CC clause of the form “X SHALL …” is to be read as “In a conforming artefact, X SHALL …”, not as a deontic statement about the modeled world.
+Conformance Checklist items are obligations/conditions in the **authoring plane**: they constrain artefacts that claim conformance (and the reviewers/validators that accept them). A CC clause of the form “X SHALL ...” is to be read as “In a conforming artefact, X SHALL ...”, not as a deontic statement about the modeled world.
 
-**Preferred wording for new or edited CC items:** start with an explicit conformance subject (e.g., “Authors …”, “Reviewers …”, “A conforming implementation …”, “A validator …”). If a CC item is enforcing an admissibility predicate, it **SHOULD** cite the predicate’s identifier (from a `Definition:` / `Invariant:` / `Well‑formedness constraint:` block) rather than restating the predicate as “X MUST …”. For boundary/interface/protocol/contract patterns, prefer A.6.B‑routed claim IDs (L/A/D/E) or cite an existing Claim Register (A.6.B:7) instead of restating mixed prose.
+**Preferred wording for new or edited CC items:** start with an explicit conformance subject (e.g., “Authors ...”, “Reviewers ...”, “A conforming implementation ...”, “A validator ...”). If a CC item is enforcing an admissibility predicate, it **SHOULD** cite the predicate’s identifier (from a `Definition:` / `Invariant:` / `Well-formedness constraint:` block) rather than restating the predicate as “X MUST ...”. For boundary/interface/protocol/contract patterns, prefer A.6.B-routed claim IDs (L/A/D/E) or cite an existing Claim Register (A.6.B:7) instead of restating mixed prose.
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
-| **CC‑SG.0 (Heading discipline).** | Pattern and subsection headings **SHALL** follow **H‑1 … H‑9** (FullId prefix, reserved punctuation, heading levels, ellipsis discipline). The Footer marker **SHALL** follow **H‑9**. | Makes chunks self‑contained; reduces ambiguity between author elision and retrieval truncation. |
-| **CC‑SG.1** | Every new pattern **SHALL** follow the section order defined in the Canonical Template (Title block → … → Footer marker). | Guarantees structural comparability. |
-| **CC‑SG.2 (Grounding required).** | Every pattern **MUST** include an *Archetypal Grounding* section. If **System** or **Episteme** grounding is inapplicable, authors **MUST** state `Not applicable` and give a one‑paragraph justification. | Keeps patterns teachable and reduces “definition‑only” ambiguity. |
-| **CC‑SG.3** | The *Bias‑Annotation* section **SHALL** cite the five Principle‑Taxonomy lenses and declare either “Universal” or an explicit scope limitation. | Keeps cross‑disciplinary neutrality explicit (ties to Guard‑Rail 4). |
-| **CC‑SG.4** | Deontic normative sentences **MUST** use only RFC‑style keywords (see **H‑8**); RFC keywords **MUST NOT** appear inside `Definition:`/`Invariant:`/`Well‑formedness constraint:` blocks. When enforceable, admissibility/validity predicates **SHOULD** be referenced by id from the Conformance Checklist (rather than duplicated as “X MUST …”). Informal deontic verbs are prohibited in normative clauses. | Prevents ambiguity between obligation language and model validity; improves auditability. |
-| **CC‑SG.5** | Pattern prose **SHOULD** demonstrate adherence to Style Principles **S‑0 … S‑13**; reviewers are empowered to request revision when clarity or didactic quality suffers. | Embeds common narrative voice without rigid policing. |
-| **CC‑SG.6 (SoTA‑Echo required).** | Every pattern **SHALL** include a **SoTA‑Echoing** section and clearly state divergence of its Solution from SoTA with explanation of why. Architectural patterns **SHALL** satisfy the full obligations below; Definitional patterns **MAY** satisfy the reduced obligations (terminology drift + ≥ 1 post‑2015 primary source) when a full SoTA comparison is not meaningful. | Ensures explicit lineage and guards against vocabulary drift. |
-| **CC‑SG.7 (Post‑2015, multi‑Tradition).** | For Architectural patterns, SoTA‑Echoing **SHALL** cite ≥ 3 post‑2015 sources across ≥ 2 Traditions; each item **MUST** carry adoption status (adopt/adapt/reject) with reason. | Guards against monoculture; makes intent explicit. |
-| **CC‑SG.8 (Bridge & CL on reuse).** | Any cross‑Context or plane reuse mentioned in SoTA‑Echoing **MUST** cite **Bridge id + CL** and (if planes differ) **Φ(CL)**/**Φ_plane** policy‑ids; penalties **→ R_eff** only. | Safe, auditable reuse. |
-| **CC‑SG.9 (Lexical hygiene).** | The term **mapping** **SHALL NOT** appear in SoTA‑Echoing except in the precise E.10 sense; use **alignment/Bridge/relation** instead. | Avoids overloading reserved vocabulary. |
-| **CC‑SG.10 (No keyword soup).** | SoTA‑Echoing items **MUST** be written as sentences (not bare noun phrases); bullet lists are acceptable only with complete clauses. | Improves didactic quality and comparability. |
-| **CC‑SG.11 (Anti‑patterns).** | Every pattern **SHALL** include a **Common Anti‑Patterns and How to Avoid Them** section. It **MAY** be `Not applicable` only with a one‑paragraph justification. | Makes misuse paths explicit and reduces review churn. |
-| **CC‑SG.12 (Boundary routing).** | If a pattern’s subject is a boundary/interface/protocol/contract (API boundary, protocol, connector, “contract” description, or a published boundary surface), it **MUST** either (a) provide an **A.6.B**‑routed atomic claim set (`L-*`/`A-*`/`D-*`/`E-*`, with stable IDs), or (b) explicitly cite an existing **A.6.B Claim Register** / routed claim set that it reuses. | Pulls A.6.B into the authoring contour; prevents “contract soup” and makes review lintable. |
+| **CC-SG.0 (Heading discipline).** | Pattern and subsection headings **SHALL** follow **H-1 ... H-9** (FullId prefix, reserved punctuation, heading levels, ellipsis discipline). The Footer marker **SHALL** follow **H-9**. | Makes chunks self-contained; reduces ambiguity between author elision and retrieval truncation. |
+| **CC-SG.1** | Every new pattern **SHALL** follow the section order defined in the Canonical Template (Title block -> ... -> Footer marker). | Guarantees structural comparability. |
+| **CC-SG.2 (Grounding required).** | Every pattern **MUST** include an *Archetypal Grounding* section. If **System** or **Episteme** grounding is inapplicable, authors **MUST** state `Not applicable` and give a one-paragraph justification. | Keeps patterns teachable and reduces “definition-only” ambiguity. |
+| **CC-SG.3** | The *Bias-Annotation* section **SHALL** cite the five Principle-Taxonomy lenses and declare either “Universal” or an explicit scope limitation. | Keeps cross-disciplinary neutrality explicit (ties to Guard-Rail 4). |
+| **CC-SG.4** | Deontic normative sentences **MUST** use only RFC-style keywords (see **H-8**); RFC keywords **MUST NOT** appear inside `Definition:`/`Invariant:`/`Well-formedness constraint:` blocks. When enforceable, admissibility/validity predicates **SHOULD** be referenced by id from the Conformance Checklist (rather than duplicated as “X MUST ...”). Informal deontic verbs are prohibited in normative clauses. | Prevents ambiguity between obligation language and model validity; improves auditability. |
+| **CC-SG.5** | Pattern prose **SHOULD** demonstrate adherence to Style Principles **S-0 ... S-19**; reviewers are empowered to request revision when clarity or didactic quality suffers. | Embeds common narrative voice without rigid policing. |
+| **CC-SG.6 (SoTA-Echo required).** | Every pattern **SHALL** include a **SoTA-Echoing** section and clearly state divergence of its Solution from SoTA with explanation of why. Architectural patterns **SHALL** satisfy the full obligations below; Definitional patterns **MAY** satisfy the reduced obligations (terminology drift + >= 1 post-2015 primary source) when a full SoTA comparison is not meaningful. | Ensures explicit lineage and guards against vocabulary drift. |
+| **CC-SG.7 (Post-2015, multi-Tradition).** | For Architectural patterns, SoTA-Echoing **SHALL** cite >= 3 post-2015 sources across >= 2 Traditions; each item **MUST** carry adoption status (adopt/adapt/reject) with reason. | Guards against monoculture; makes intent explicit. |
+| **CC-SG.8 (Bridge & CL on reuse).** | Any cross-Context or plane reuse mentioned in SoTA-Echoing **MUST** cite **Bridge id + CL** and (if planes differ) **Φ(CL)**/**Φ_plane** policy-ids; penalties **-> R_eff** only. | Safe, auditable reuse. |
+| **CC-SG.9 (Lexical hygiene).** | The term **mapping** **SHALL NOT** appear in SoTA-Echoing except in the precise E.10 sense; use **alignment/Bridge/relation** instead. | Avoids overloading reserved vocabulary. |
+| **CC-SG.10 (No keyword soup).** | SoTA-Echoing items **MUST** be written as sentences (not bare noun phrases); bullet lists are acceptable only with complete clauses. | Improves didactic quality and comparability. |
+| **CC-SG.11 (Anti-patterns).** | Every pattern **SHALL** include a **Common Anti-Patterns and How to Avoid Them** section. It **MAY** be `Not applicable` only with a one-paragraph justification. | Makes misuse paths explicit and reduces review churn. |
+| **CC-SG.12 (Boundary routing).** | If a pattern’s subject is a boundary/interface/protocol/contract (API boundary, protocol, connector, “contract” description, or a published boundary surface), it **MUST** either (a) provide an **A.6.B**-routed atomic claim set (`L-*`/`A-*`/`D-*`/`E-*`, with stable IDs), or (b) explicitly cite an existing **A.6.B Claim Register** / routed claim set that it reuses. | Pulls A.6.B into the authoring contour, prevents “contract soup”, and makes review more explicit and repeatable. |
+| **CC-SG.13 (Didactic sufficiency).** | New patterns and substantial revisions **MUST** remain understandable without project-planning notes. When a pattern introduces a new named family/profile/specialization, or adds a non-trivial host-derived note, its Solution and Grounding **SHALL** carry enough second/third-surface content: explicit host relation, ordinary-vs-load-bearing guidance, at least one concrete source/result slice where applicable, and visible reroute cues. | Prevents skeleton-only patterns and project-context leakage. |
+| **CC-SG.14 (Controlled prose, not free shorthand).** | Load-bearing prose **SHALL NOT** rely on bare relation words or planning shorthand whose host relation is left implicit (e.g., bare “species”, “branch”, “flow”, or API-like “input/output” language). When a host relation matters, authors **MUST** name it explicitly (`specialization under ...`, `hosted profile under ...`, `overlay over ...`, etc.). | Keeps pattern prose precise and self-identifying. |
+| **CC-SG.15 (Package-form and host-relation role-word discipline).** | When a pattern names a package-form or the host relation of a family (`owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, `umbrella`), the chosen role word **MUST** match the intended ontology and **MUST NOT** be swapped for stylistic variety or left to implication. | Prevents semantic blur in pattern prose and keeps host relations auditable. |
+| **CC-SG.16 (Reader-role discipline).** | Authors **MUST** keep live pattern sections user-facing. FPF-development or package-architecture reasoning about isolation, overlay or owner choice, freeze, merge posture, or planned evolution **MUST NOT** occupy `Problem`, `Solution`, `Consequences`, `Rationale`, or worked slices; if such material is still needed, it **MUST** live in a separate companion note or a clearly marked informative placement note. | Keeps pattern prose aligned with its intended reader and prevents package-governance leakage into live use guidance. |
+| **CC-SG.17 (Recognition surface and assurance surface).** | Admission or substantial revision runs **MUST** check that a canonical pattern exposes a recognition surface early enough for the intended working reader and an assurance surface that carries declaration, law, modeling, and review burden without silently shifting the recognition-surface claim. The recognition surface **MUST** surface a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and a clear ordinary `not this pattern when` boundary. Any load-bearing typed declaration or modeling lens **MUST** be surfaced by a short user-facing statement of the governed object, early high-pressure technical terms **MUST** receive nearby pairwise plain glosses, and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If the pattern claims universal or transdisciplinary reach, the recognition surface **MUST** demonstrate that claim through at least three heterogeneous reader or domain situations, preferably using an `F.16`-style example matrix or an equally explicit alternative. | Prevents surface-clean but reader-opaque patterns and keeps broad claims visible where cold readers actually enter the text. |
+| **CC-SG.18 (Precision before relaxation).** | In load-bearing prose, authors **MUST NOT** leave a generic head noun or burden-carrying qualifier uninterpreted when that phrase carries semantic, boundary, or authority load. A narrowing qualifier by itself does **not** restore the head kind. Authors **MUST** restore head kind first, then qualifier burden, then any comparison/escalation axis before stronger use. If a later Plain, didactic, or coarsened rendering is kept, the more precise upstream reading **MUST** remain recoverable. | Prevents ambiguity from being hidden inside ordinary-looking phrases and keeps softened prose subordinate to an explicit authoritative reading. |
 
-### E.8:8 - Common Anti‑Patterns and How to Avoid Them
+### E.8:8 - Common Anti-Patterns and How to Avoid Them
 
 These failure modes recur in drafts and in downstream application. They are predictable ways the Forces in this pattern get violated.
 
-| Anti‑pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
+| Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
 |-------------|---------|------------------------------|-----------------------|
-| **Template cargo‑culting** | Headings exist, but each section is a thin bullet list with no narrative. | Satisfies Uniformity but loses Readability and Didactic Primacy. | Use S‑0 narrative flow per section; write 2–4 sentence micro‑paragraphs before any list/table. |
-| **Un‑grounded abstractions** | Problem/Solution stay abstract; no concrete System/Episteme Tell–Show–Show. | Breaks teachability and makes misuse likely. | Fill Archetypal Grounding first; then back‑propagate concrete nouns into Problem/Forces/Solution. |
-| **SoTA name‑dropping** | SoTA‑Echoing is a list of nouns/buzzwords with no adopt/adapt/reject rationale. | Violates CC‑SG.7 and CC‑SG.10; readers cannot audit alignment. | For each source, state what is adopted/adapted/rejected and why (complete clauses, 2–4 sentences). |
-| **Tool‑bound normativity** | A vendor tool, file format, or schema is described as required to apply the pattern. Data governance implied. | Violates Guard‑Rails (lexical firewall; notation independence, data governance absence); reduces portability and conceptual clarity. | Keep normative content conceptual; move tooling and data governance into Context‑local Profiles. |
-| **Hidden trade‑offs** | Solution sounds universally good; Consequences lists only benefits. | Removes decision‑support value; applicability cannot be judged. | In Consequences, include at least one trade‑off and a mitigation; if none exists, explain why. |
+| **Template cargo-culting** | Headings exist, but each section is a thin bullet list with no narrative. | Satisfies Uniformity but loses Readability and Didactic Primacy. | Use S-0 narrative flow per section; write 2-4 sentence micro-paragraphs before any list/table. |
+| **Un-grounded abstractions** | Problem/Solution stay abstract; no concrete System/Episteme Tell-Show-Show. | Breaks teachability and makes misuse likely. | Fill Archetypal Grounding first; then back-propagate concrete nouns into Problem/Forces/Solution. |
+| **SoTA name-dropping** | SoTA-Echoing is a list of nouns/buzzwords with no adopt/adapt/reject rationale. | Violates CC-SG.7 and CC-SG.10; readers cannot audit alignment. | For each source, state what is adopted/adapted/rejected and why (complete clauses, 2-4 sentences). |
+| **Tool-bound normativity** | A vendor tool, file format, or schema is described as required to apply the pattern. Data governance implied. | Violates Guard-Rails (lexical firewall; notation independence, data governance absence); reduces portability and conceptual clarity. | Keep normative content conceptual; move tooling and data governance into Context-local Profiles. |
+| **Hidden trade-offs** | Solution sounds universally good; Consequences lists only benefits. | Removes decision-support value; applicability cannot be judged. | In Consequences, include at least one trade-off and a mitigation; if none exists, explain why. |
+| **Skeleton-only pattern** | The template is present, but the pattern gives only one compressed definition block and scenario labels. | Passes form while failing didactic sufficiency. | Add second/third-surface content: local decomposition, concrete slices, reviewer cues, and reroute guidance. |
+| **Project-context leakage** | A reader needs architecture memos or planning notes to understand the pattern. | The monolith stops being self-sufficient. | Move the essential problem framing, worked slices, and rationale into the pattern itself; keep project reviews informative only. |
+| **Generic-head underspecification** | A load-bearing phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the text never restores what kind of thing that phrase names. | The reader cannot tell what ontology the sentence is actually governing. | Restore the head kind first in host-local terms before any stronger claim or comparison is made. |
+| **Qualifier-smuggled burden** | A modifier such as `comparative`, `safe`, `interactive`, `reliable`, or `faithful` is doing the semantic work while the text leaves its burden implicit. | The sentence sounds precise without actually stating its comparison basis, relation burden, or stronger-use boundary. | Unpack the qualifier into explicit burden, criteria, or reroute language rather than relying on the modifier alone. |
+| **Mixed comparison axis** | One sentence compares or ranks artifact-like, process-like, authority-like, or owner-like things on one axis. | The sentence becomes ontologically incoherent even if each local noun sounds plausible. | First restore head kind, then qualifier burden, then rewrite the comparison through a homogeneous burden/threshold/handoff axis. |
+| **Implicit relation shorthand** | Words like “species”, “branch”, or process metaphors do the semantic work without naming the actual host relation. | Readers infer the wrong ontology or workflow. | State the host relation explicitly and remove shorthand that only makes sense inside project discussions. |
+| **Package-form and host-relation drift** | Words like `bundle`, `cluster`, `profile`, `overlay`, `family`, `suite`, or `kit` are swapped as if they were stylistic variants. | Readers cannot tell whether the text is naming an owner, a navigation grouping, a review surface, or a packaged set of defaults. | Pick one role word by ontology, keep the host relation explicit, and do not vary the noun unless the ontology really changes. |
+| **Reader-role leakage** | Live sections start telling the reader why the pattern was isolated, what landing form is safest, or why freeze/merge is premature. | The pattern stops teaching the user and starts narrating FPF-development decisions. | Move package-development reasoning to companion notes; keep live sections about lawful use, costs, boundaries, and reroutes for the intended user. |
+| **Role-clean but pragmatically foggy** | The pattern addresses the right reader in principle, but a cold practitioner still cannot recognise the working situation, practical payoff, governed object, first useful move, or project-level implication of the `SoTA-Echoing` early enough. | The text passes role hygiene but still fails `E.12`/`E.13`/`E.14` as a working artifact. | Bring a manager-first or practitioner-first entry higher, add one minimally viable worked case, state what changes in practice, surface the governed object and any minimal modeling lens in plain user-facing prose, add plain glosses for early high-pressure terms, and keep `SoTA-Echoing` tied to visible practitioner or manager implications plus nearby case linkage rather than lineage alone. |
+| **Hybrid audience blob** | One main narrative tries to serve engineers, managers, auditors, architects, and researchers at once with no primary working reader or concern surface. | The text becomes globally polite but locally blurry; no reader knows which concern governs the first surface. | Make the primary working reader / concern / viewpoint explicit and route other audiences into secondary support, other faces, or an explicit out-of-scope note. |
 
 ### E.8:9 - Consequences
 
@@ -37972,15 +38878,16 @@ International and industry standards often speak in terms of *conformance criter
 
 ### E.8:11 - SoTA‑Echoing  *(normative; lineage & deltas to contemporary State‑of‑the‑Art)*
 
-**Purpose.** Make each pattern’s relationship to contemporary practice explicit and comparable without importing tooling or data governance. This section is prose‑first and notation‑independent.
+**Purpose.** Make each pattern’s relationship to contemporary best-known practice explicit and comparable without importing tooling or data governance. This section is prose‑first and notation‑independent. It does not mint an independent second rule layer, but it is a load-bearing alignment surface: the Solution, Conformance Checklist, Relations, and other load-bearing sections must reflect the stance stated here or explicitly justify divergence.
 
 **Minimum contents (obligations).**
 1) **Evidence binding (no duplicate SoTA).** If a **SoTA Synthesis Pack** exists (G.2), this section **SHALL cite** its **ClaimSheet IDs** / **CorpusLedger entries** / **BridgeMatrix rows** as the source‑of‑truth for claims and report `adopt/adapt/reject` **consistent with those IDs**. Avoid forking an untracked SoTA narrative.
 2) **Sources (post‑2015).** For **Architectural patterns**, cite ≥ 3 primary SoTA sources (standards/papers/books), with at least **two independent Traditions**. For **Definitional patterns**, cite ≥ 1 post‑2015 primary source and, where relevant, a short note on terminology drift/deprecations.
-3) **Practice alignment.** For each cited item, state **what is adopted/adapted/rejected** and **why** (2–4 sentences).
-4) **Scale legality.** If numeric operations are implied, bind to ComparatorSet/CG‑Spec and declare partial‑order stance (no hidden scalarisation).
-5) **Cross‑Context reuse.** Any reuse across `U.BoundedContext` must surface Bridge+CL/Φ_plane policy‑ids (penalties affect only `R_eff`).
-6) **Lexical hygiene.** Avoid “mapping” unless you mean an explicit Bridge/translation relation with loss notes.
+3) **Best-known, not merely popular.** Authors **SHALL** distinguish best-known currently defensible practice from merely widespread or fashionable defaults. If the pattern adopts, adapts, or rejects a popular-but-weaker practice, that divergence **MUST** be stated explicitly.
+4) **Practice alignment.** For each cited item, state **what is adopted/adapted/rejected** and **why** (2–4 sentences).
+5) **Scale legality.** If numeric operations are implied, bind to ComparatorSet/CG‑Spec and declare partial‑order stance (no hidden scalarisation).
+6) **Cross‑Context reuse.** Any reuse across `U.BoundedContext` must surface Bridge+CL/Φ_plane policy‑ids (penalties affect only `R_eff`).
+7) **Lexical hygiene.** Avoid “mapping” unless you mean an explicit Bridge/translation relation with loss notes.
 
 **Writing guidance (readability).**
 *Write short paragraphs, not tag lists.* For each Tradition, provide (a) a one‑sentence capsule of the practice, (b) a one‑sentence comparison to the pattern’s Solution, (c) a one‑sentence adoption status with reason. Where helpful, add one **System** and one **Episteme** micro‑example (Tell–Show–Show).
@@ -38119,7 +39026,7 @@ duplicated prose, and distillation into informative pattern sections
 * **Naming morphology** (allowed suffixes & style) for the kernel’s core objects;
 * **Minimal Generality** tests (names are neither parochial nor vacuous);
 * **Canonical rewrites** for overloaded words (e.g., *process*, *function*, *service*);
-* **Conformance checks** (lintable) and minimal examples.
+* **Conformance checks** and minimal examples.
 
 **Scope.** Applies to:
 (a) **Core** (Parts A–G), (b) **Extensions patterns specs** (CAL/LOG/CHR), (c) **Context glossaries** that claim FPF conformity, and (d) **Diagrams/prose** in normative text. It **does not** constrain Tooling or Pedagogy wording other than where they quote Core semantics.
@@ -38344,7 +39251,7 @@ Every plain twin **MUST** have a **registry entry** (in the LEX registry) record
 
 #### E.10:7.1 - `LEX.TokenClass` (meta‑lexical; not a USM Scope)
 **Definition.** `LEX.TokenClass : NameToken → {KernelToken | ContextToken | DiscriminatorToken}`.  
-This is a **Characteristic on NameTokens** (symbols), used by the LEX registry and MG-DA lints.
+This is a **Characteristic on NameTokens** (symbols), used by the LEX registry and MG-DA checks.
 It is **not** a USM scope and carries **no** truth/validity semantics.
 
 #### E.10:7.2 - `KernelToken` — Minimal Generality (MG‑K)
@@ -38611,9 +39518,9 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 > **Red/Green pattern (example).** ✗ “The **process** ensures quality.” → ✓ “The **MethodDescription** defines steps; **Work** is **evaluated** against **RequirementRole**.”
 
 
-#### E.10:9.2 - Quick, lintable substitutions (mechanical helpers)
+#### E.10:9.2 - Quick substitutions (common rewrite hints)
 
-> Editors may auto‑offer these rewrites; accept only if the transformed sentence passes **§ 7 MG-DA** and **§ 8 LEX.Morph** gates.
+> Use these as quick rewrite hints; accept only if the transformed sentence passes **§ 7 MG-DA** and **§ 8 LEX.Morph** gates.
 
 | **Ban**                         | **Canonical rewrite**                                                                   |
 | ------------------------------- | --------------------------------------------------------------------------------------- |
@@ -38670,7 +39577,7 @@ A text **passes** LEX if all answers are **Green**:
 5. **LEX‑CC‑5 (MG-DA).** New tokens pass **MG-DA** tests, including **full‑text collision** and **Reserved‑Names** checks.
 6. **LEX‑CC‑6 (Service & evidence).** Service acceptance computed from **Work**; evidence is an **EvidenceRole** on an **Episteme** with provenance.
 7. **LEX‑CC‑7 (USM compatibility).** For each LexicalAct, `USM.Scope ∈ AllowedScopes(LEX.TokenClass)`.
-
+8. **LEX‑CC‑8 (Minting discipline).** If overload cleanup requires a new or replacement token, the text records lawful reuse or a full **F.18 `MintNew` / `DocumentLegacy`** procedure; intuition-first partial Name Cards are non-conformant.
 
 #### E.10:9.6 - Worked micro‑examples (short, cross‑domain)
 
@@ -38693,9 +39600,21 @@ API = `accessSpec : MethodDescription#REST_v12`; **promise content** “Feature 
 reproducibility via **StateAssertions** on `ReplicationEvidenceRole`;
 procedures are `U.MethodDescription`; re‑runs are **Work**.
 
+**Semioarchitecture.**
+✗ “`projection` means the same thing in routing and bridge prose.”
+✓ `A.16` keeps `projection` as a move name for route-bounded partialization; `F.9.1` keeps `projection` as a bridge stance label. If a new token is really needed, route the naming question through **F.18 `MintNew` / `DocumentLegacy`** rather than flattening both readings into one umbrella rewrite.
 
 **Editorial note.**
 This section **inherits** § 7 **MG-DA** (anchored head nouns; Characteristic/CharacteristicSpace for enums; collision checks) and § 8 **LEX.Morph** (suffix/prefix/casing). It deliberately **omits** their details to avoid duplication.  The only legitimate uses of *plane* in the Core are **CHR:ReferencePlane** and the derived operators **CL^plane** and **Φ_plane**; policy flags MUST NOT introduce new “planes”. To distinguish pre‑operational vs operational states *within* **ReferencePlane=world**, use **WorldRegime ∈ {prep|live}** (formerly `PlaneRegime`).
+
+### E.10:9.1 - Guarded-head cross-reference *(normative lexical caution)*
+When one surface head already carries several load-bearing local readings, lexical cleanup should prefer a **guarded-head note** over silent flattening. The note may record that the head remains risky, name the lawful local owners, and point readers to the local canonical reading in each owner.
+
+If cleanup reveals that no lawful existing token can carry the needed meaning, the editor must route the naming question through **F.18 `MintNew` / `DocumentLegacy`** rather than inventing an ad hoc synonym by feel.
+
+This cross-reference is lexical only. It does **not** create a new repair owner, does **not** establish Cross-context equivalence, and does **not** overrule owner-local definitions. It simply keeps overloaded heads from being normalized into one false global reading.
+
+`projection` is the main current example: `A.16` keeps it as a move name for route-bounded partialization, while `F.9.1` keeps it as a bridge stance label. E.10 therefore requires deconfliction notes and owner-explicit prose, not one umbrella rewrite that erases the distinction.
 
 ### E.10:10 - Migration playbook — turning messy language into ULR‑clean prose *(informative)*
 
@@ -38735,35 +39654,40 @@ This section **inherits** § 7 **MG-DA** (anchored head nouns; Characteristic/Ch
 3.4 Log a short **DRR** when renames/aliases occur (F.13), linking to grep results that motivated the change.
 
 
-### E.10:11 - ULR conformance prompts *(normative, concept‑only questions)*
+### E.10:11 - ULR conformance prompts *(normative, concept-only questions)*
 
 > Use these **prompts** during review. They reference § 7 (MG-DA) and § 8 (LEX.Morph) instead of repeating them.
 
 1. **Context prompt.** Does each potentially polysemous noun live inside a **named `U.BoundedContext`**?
 2. **Layer prompt.** Is each sentence in the correct **I/D/S layer** (I: type/role; D: description/spec; run: actuals)?
 3. **Token prompt.** For new/renamed tokens, is **`LEX.TokenClass`** declared and consistent with where the token appears?
-4. **Object‑of‑talk prompt.** Does the **head noun** name the object being classified (Role/Method/Service/Work/Context/Characteristic)?
-5. **Morphology prompt.** Do suffix/prefix/casing pass **LEX.Morph** gates (e.g., `…Role`, `MethodDescription`, `Work`)?
-6. **Promise vs ability vs performance.** Are **Service** (promise), **Capability** (ability), and **Work** (performance) distinct?
-7. **Plan vs execution.** Are **WorkPlan** windows separated from **Work** actuals?
-8. **Evidence prompt.** Do documents **hold roles** and **justify**, while **systems act**?
-9. **Bridge prompt.** If sameness spans Contexts, is there an explicit **Bridge** with **CL** and loss notes?
-10. **Collision prompt.** Did we run full‑text + Reserved‑Names checks (no other meaning of this token anywhere in FPF)?
+4. **Head-kind prompt.** Does the **head noun** name what kind of thing the phrase is actually about (Role/Method/Service/Work/Context/Characteristic/publication artifact/reading/process/authority use)? A narrowing qualifier alone does **not** answer this question.
+5. **Qualifier-burden prompt.** If an adjective, participle, genitive, or comparative modifier is doing semantic work, has that burden been restored explicitly rather than left inside the modifier alone?
+6. **Comparison-axis prompt.** If the sentence compares, ranks, escalates, or downgrades something, is the comparison axis ontologically homogeneous after head-kind and qualifier restoration?
+7. **Morphology prompt.** Do suffix/prefix/casing pass **LEX.Morph** gates (e.g., `…Role`, `MethodDescription`, `Work`)?
+8. **Promise vs ability vs performance.** Are **Service** (promise), **Capability** (ability), and **Work** (performance) distinct?
+9. **Plan vs execution.** Are **WorkPlan** windows separated from **Work** actuals?
+10. **Evidence prompt.** Do documents **hold roles** and **justify**, while **systems act**?
+11. **Bridge prompt.** If sameness spans Contexts, is there an explicit **Bridge** with **CL** and loss notes?
+12. **Collision prompt.** Did we run full-text + Reserved-Names checks (no other meaning of this token anywhere in FPF)?
+13. **Naming-procedure prompt.** If no lawful existing token carried the needed meaning, did we run the full **F.18 `MintNew` / `DocumentLegacy`** procedure rather than picking a label by intuition and filling a partial Name Card afterward?
 
+**Working order for precision repair on load-bearing prose.** Restore the head kind first; a narrowing qualifier such as `comparative`, `safe`, `interactive`, or `reliable` does **not** by itself restore that kind. Then unpack qualifier burden, then check whether the comparison or escalation axis is homogeneous. Only after that may a later Plain, didactic, or coarsened rendering lawfully relax the sentence, and even then the more precise upstream reading must remain recoverable.
 
-### E.10:12 - ULR regression cues *(concept‑only “diff” triggers)*
+### E.10:12 - ULR regression cues *(concept-only “diff” triggers)*
 
-Re‑review your prose when any of these happen:
+Re-review your prose when any of these happen:
 
-* **Context edition** changes → re‑affirm twin labels, Bridges, and acceptance wording.
-* **A role/type name grows** (“and/plus/‑‑”) → apply MG-DA: split or bundle (A.2).
+* **Context edition** changes → re-affirm twin labels, Bridges, and acceptance wording.
+* **A role/type name grows** (“and/plus/--”) → apply MG-DA: split or bundle (A.2).
 * **A “service” statement broadens scope** → check that **acceptance** terms cover the new target; else split the Service.
 * **Recipes gain/lose steps** → update **`MethodDescription`**, not `Service` or `Role` names.
-* **Evidence verbs creep into actor sentences** → re‑apply L‑rules (documents don’t act).
+* **Evidence verbs creep into actor sentences** → re-apply L-rules (documents do not act).
+* **A generic head acquires a strong qualifier** (`comparative`, `safe`, `interactive`, `reliable`, and similar burden-carrying modifiers) → restore the head kind first, then unpack the qualifier burden before stronger publication.
 * **New token minted** → ensure `LEX.TokenClass` declared; run collision checks; add CharacteristicSpace if enum.
 * **Suffix drift** (e.g., `…Work` on a plan) → fix via **LEX.Morph**.
-* **Cross‑Context reuse by label** appears → require a **Bridge** (F.9) or split senses.
-
+* **Cross-Context reuse by label** appears → require a **Bridge** (F.9) or split senses.
+* **A guarded head needs a new label** → prefer a guarded-head note first; if no lawful existing token remains, route the naming question through full **F.18 `MintNew` / `DocumentLegacy`**.
 
 ### E.10:13 - Teaching deck — the ULR quick card *(reusable in any Context)*
 
@@ -38819,7 +39743,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 
 ### E.10:End
-  
+
 ## E.10.P - Conceptual Prefixes policy & registry
  **Intent.** Provide a compact, **notation‑neutral** registry and **minting policy** for *conceptual prefixes* — short shorthands that signal **cognitive namespaces** used throughout the Core.
 
@@ -39726,6 +40650,7 @@ The **MVE Mandate** ensures that every journey starts with a destination in sigh
 
 ### E.13:End
 
+
 ## E.14 - Human‑Centric Working‑Model
 
 ### E.14:1 - Intent
@@ -39733,11 +40658,11 @@ The **MVE Mandate** ensures that every journey starts with a destination in sigh
 Establish a **single, human‑centric Working‑Model** that practitioners can read, discuss, and evolve **without exposure to formal machinery**.  
 Each statement **declares a justification stance** (`validationMode`) and, when assurance is sought, attaches **appropriate grounding** via one or more assurance shoulders — **Mapping**, **Logical**, **Constructive** — and **may additionally attach Empirical Validation** (evidence) as defined by the Trust & Assurance calculus. Empirical Validation can accompany any stance; it is **required** when the stance is *postulate*. Assurance shoulders sit **beneath** the Working‑Model and **never define its vocabulary**.
  
-+Put bluntly: *one model people work in; three assurance shoulders — plus empirical checks when the world is the judge.*
+Put bluntly: *one model people work in; three assurance shoulders — plus empirical checks when the world is the judge.*
 
 ### E.14:2 - Problem & Context
 
-+Teams need **one shared Working‑Model** to make decisions at speed. Historically this surface either:
+Teams need **one shared Working‑Model** to make decisions at speed. Historically this surface either:
 
 * **drifts into jargon**—different terms for the same thing, slash‑labels, partial overlaps; or
 * **calcifies into machinery**—too formal for day‑to‑day design and review.
@@ -39777,8 +40702,28 @@ This pattern dovetails with the framework’s unification stance (**small Workin
 ### E.14:4 - Solution
 
 #### E.14:4.1 - Human-Centric principles
+##### E.14:4.1.1 - Recognition surface and assurance surface
+Human-facing patterns also need governed-object stability across the two surfaces. The working reader should not meet one object in the recognition surface and a different ontological kind in the assurance surface. If the pattern distinguishes a governed object, the interpretive or operational move applied to that object, and the wider review or work process around it, those distinctions should be made explicit rather than hidden behind stylistic noun-swapping.
 
-> **E.14‑P.1 – Working‑Model first, stance explicit.**  
+Working-Model-first drafting therefore also means subject-domain-first drafting. If a pattern is meant to help with a real review, design, cultural, research, or operational problem, the recognition surface should open from that problem-owning moment before internal taxonomy or package architecture. If a broader umbrella head and a narrower operative branch are both live, the pattern should state that stack plainly enough that a cold reader can tell what the umbrella names, what branch is current, what object is governed, what move is being carried, and what wider work remains outside.
+
+Under `F.18` local-first naming, the canonical pair here is **recognition surface** and **assurance surface**.
+The earlier provisional `...shell` wording is retired.
+These names refer to two reading-order surfaces inside one pattern, not to new publication-surface kinds or owner kinds.
+
+For human-facing canonical patterns, Working-Model-first discipline should appear in a two-surface reading order.
+The **recognition surface** is the working surface that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.
+The **assurance surface** is the heavier surface that carries declaration, object discipline, modeling lens, law, reroute conditions, and other review burden.
+
+The assurance surface may justify, tighten, or audit the working surface, but it must not silently replace or strengthen the recognition-surface claim.
+Where semio-heavy or transform-heavy patterns need a compact ontological account, the assurance surface should surface three things explicitly:
+- the ontic target or governed object;
+- the modeling substrate or mathematical lens when one is load-bearing;
+- the publication or working surface by which the claim is presented.
+
+This is a reading-order rule rather than a demand that every reader consume the assurance surface first.
+The point is to keep the human-facing Working-Model surface primary while preserving a recoverable, auditable second surface beneath it.
+> **E.14‑P.1 – Working‑Model first, stance explicit.**  **  
 > Operate one **Working‑Model** for all human‑facing discussion. For **each** assertion, the author **SHALL declare** a justification stance (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** (term↔kind alignment via **Lang‑CHR** / D‑Projection), **Logical** (CT2R alias semantics, scope/constraints), **Constructive** (Γₘ generative trace), and **Empirical Validation** (evidence via `U.EvidenceRole` in a declared `U.BoundedContext`).
 
 > **E.14‑P.2 – Downward‑only dependency.**
@@ -39797,9 +40742,12 @@ This pattern dovetails with the framework’s unification stance (**small Workin
 > **E.14‑P.6 – Parsimony at the surface.**
 > No new Working‑Model relation types are introduced if the existing Logical aliases plus Constructive grounding suffice to capture the intended meaning.
 
-> **E.14‑P.7 – Evidence is a first‑class support.**  
-> When *postulate* is chosen, authors **SHALL** attach an **evidence pointer** (Empirical Validation) appropriate to the claim and context, governed by `U.EvidenceRole` within a declared `U.BoundedContext`.  
- 
+> **E.14‑P.7 – Evidence is a first‑class support.**
+> When *postulate* is chosen, authors **SHALL** attach an **evidence pointer** (Empirical Validation) appropriate to the claim and context, governed by `U.EvidenceRole` within a declared `U.BoundedContext`.
+
+> **E.14‑P.8 – Working-model-first is not explanation-thin.**
+> Human-facing parsimony does **not** license under-explained pattern prose. When a pattern claims a Working‑Model benefit, it **SHALL** still provide enough problem framing, rationale, and worked slices that readers can tell what the model clarifies, what remains on the assurance shoulders, and when a heavier review path is required.
+
 ### E.14:5 - Layer Standard & Downward Flow (Working‑Model → Assurance)
 
 This section defines **what each layer is for**, **what it guarantees**, and **how a single Working‑Model statement is carried down**.
@@ -39916,6 +40864,8 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 |**CC-E14-10 (Structural grounding handshake).** | For **structural** edges on the Working-Model, authors **SHALL** set `validationMode=axiomatic` and provide **Constructive** grounding with `tv:groundedBy → Γₘ.sum|set|slice` (see **Compose-CAL** and **CT2R-LOG**). Exactly **one** Γₘ trace is permitted per edge (CI rule alignment). | Aligns E.14 with CT2R-LOG and Compose-CAL; ensures extensional identity. |
 | **CC‑E14‑11 (Empirical bindings).**        | When `validationMode=postulate` (or when adding real‑world confirmation), authors **SHALL** bind evidence via `U.EvidenceRole` in a declared `U.BoundedContext` with an explicit **timespan** and provenance anchors. | Aligns with Evidence Graph Referring and empirical ageing policies. |
 | **CC-E14-12 (F-declaration).**             | Normative Working-Model artefacts **SHALL** declare `U.Formality = Fk` per **C.2.3** (**recommended F ≥ F3** for readable surfaces). Assurance artefacts **MAY** carry higher F; **min-F** applies to composites. | Aligns E.14 with the unified Formality characteristic; avoids legacy “tiers/modes”. |
+| **CC‑E14‑13 (Light records, not thin prose).** | Authors **SHALL NOT** use the Working‑Model-first stance as a reason to strip problem framing, rationale, or worked slices out of the pattern text. Ordinary use may stay light, but readers **MUST** still be able to understand the pattern without nearby project notes. | Keeps human-facing economy from collapsing into under-explained prose. |
+| **CC‑E14‑14 (Working surface before assurance surface).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep a recognition-first working surface distinct from the heavier assurance surface. The assurance surface **MAY** refine and justify the working surface, but it **SHALL NOT** silently change the recognition-surface claim. If the pattern claims broad or transdisciplinary reach, the working surface **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |
 
 *All obligations above are **conceptual** and apply to thought and prose; they introduce no notational or data‑processing requirements.*
 
@@ -40003,6 +40953,10 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 * Part F unification practices (context of meaning, bridges, fit levels) by reinforcing the preference for human‑readable labels with explicit alignment notes rather than silent formal substitutions.
 
 ### E.14:End
+
+
+
+
 
 ## E.15 - Lexical Authoring & Evolution Protocol  (LEX‑AUTH)
 
@@ -41521,9 +42475,9 @@ Any deviation MUST be explicitly documented as a species‑level extension and M
 Part G’s NQD discipline treats candidate viewpoint families as points in an N/U/C/D quality space (Use‑Value, Constraint‑Fit, Novelty, Diversity_P). Applied to a SoTA‑harvested candidate set of engineering viewpoints (Functional, Behavioural/Procedural, Structural/Module, Allocation/Role, Information/Data, Assurance/Safety, Mission/Context, Deployment/Operational, Business/Usage), this yields a small Pareto frontier for *engineering holon* viewpoints. On that frontier, the `F–B–S+R` cut implemented by `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}` is the minimal set that:
 * spans the Function–Behaviour–Structure ontology used in contemporary design theory while adding an explicit allocation/responsibility axis;  
 * aligns with the “functional/process/structural/deployment” clusters recurrent in standards and architecture frameworks;  
-* stays neutral with respect to domain‑specific qualities (`‑ilities`) and business/mission framing, which are captured in separate Q‑bundles and governance/viewpoint packs rather than in TEVB itself.
+* stays neutral with respect to domain‑specific qualities (`‑ilities`) and business/mission framing, which are captured in separate Q‑Bundles and governance-oriented viewpoint bundles rather than in TEVB itself.
 
-Other candidates (e.g. dedicated information, assurance, or mission viewpoints) remain important but either duplicate concerns already captured by TEVB (when specialised to engineering holons) or are better modelled as orthogonal quality bundles (C.25) or non‑engineering bundles (business/governance packs). TEVB therefore pins only the core four and leaves the rest to specialised families.
+Other candidates (e.g. dedicated information, assurance, or mission viewpoints) remain important but either duplicate concerns already captured by TEVB (when specialised to engineering holons) or are better modelled as orthogonal quality bundles (C.25) or non-engineering viewpoint bundles (business and governance viewpoint bundles). TEVB therefore pins only the core four and leaves the rest to specialised families.
 
 #### E.17.2:7.2 - Alignment with post‑2015 engineering practice
 
@@ -41871,7 +42825,1122 @@ U :  X ──f──▶ Y ──g──▶ Z    X ──f──▶ Y ──g─�
 
 ### E.17:End
 
-## E.18 - Transduction Graph Architecture** (E.TGA)
+
+## E.17.EFP - ExplanationFaithfulnessProfile — explanation classification over existing MVPK faces
+
+**Placement.** Hosted profile under `E.17.0 / E.17` host review.  
+**Builds on.** `E.17.0 U.MultiViewDescribing`; `E.17` MVPK; `A.7`; `E.10.D2`; `A.6.B`; `F.9`; `F.18`.  
+**Coordinates with.** `ConservativeRetextualization`; `RepresentationTransduction`; `E.17.ID.CR ComparativeReading`; `A.6.4`; `A.15`; `A.20`; `A.21`.
+
+**One-line summary.** `ExplanationFaithfulnessProfile` classifies explanation-facing renderings over already available claims, traces, and pins on existing MVPK faces. It helps reviewers distinguish source-pinned rendering, source-linked reconstruction, didactic retelling, and speculative retelling without creating a second face family or a second semantic rule track.
+
+### E.17.EFP:1 - Problem frame
+
+The same underlying claim set often needs explanation-facing renderings on more than one existing face:
+- an engineer-manager-readable rendering of a technical claim set;
+- a technical explanation that makes source linkage more visible than the original source prose;
+- a didactic retelling for onboarding or review preparation;
+- a clearly marked speculative retelling that helps discussion but does not pretend to be canonical content.
+
+FPF already has `E.17.0` for viewpoints, views, and correspondences, and `E.17` for typed publication faces. A compact review profile is still needed to say what kind of explanation-facing rendering is being published, how strongly it stays tied to source material, and where it is admissible.
+
+### E.17.EFP:2 - Problem
+
+Without a dedicated profile:
+1. source-pinned rendering, reconstruction, didactic simplification, and speculation blur together;
+2. explanation prose starts behaving like a second semantic rule track;
+3. reviewers cannot tell which faces remain lawful for a given explanation class;
+4. pins, provenance, and evidence binding become optional rhetorical extras instead of explicit publication conditions;
+5. explanation work quietly drifts into new claims, hidden bridge work, or gate-facing misuse.
+
+### E.17.EFP:3 - Forces
+
+- **Clarity vs semantic restraint.** Explanation may help readers, but it must not mint new semantic commitments on publication faces.
+- **Face discipline vs reader fit.** The same source may need different renderings, but all of them still live on existing MVPK faces.
+- **Traceability vs accessibility.** Simpler renderings are useful only if readers can still recover how they relate to the source.
+- **Didactic usefulness vs policy misuse.** A didactic or speculative retelling may help humans, but it must not masquerade as assurance or gate-bearing content.
+- **Explanation vs interpretation.** Some moves still belong to explanation rendering; others should exit toward interpretation, retargeting, or world/gate owners.
+
+### E.17.EFP:4 - Solution — review profile for explanation renderings on existing MVPK faces
+
+#### E.17.EFP:4.1 - Informal definition
+
+> `ExplanationFaithfulnessProfile` is a hosted review profile for explanation-facing renderings over already available claims, traces, and pins on existing MVPK faces.
+>
+> It does not create a new face family. It classifies how an explanation relates to its source material, what kind of augmentation is allowed, how strongly evidence remains bound, and on which existing faces the rendering may lawfully appear.
+
+#### E.17.EFP:4.1.a - Profile, case, and published rendering distinction
+
+`ExplanationFaithfulnessProfile` is an **intensional hosted profile** under `E.17.0 / E.17`. Concrete explanation-facing renderings are passive published renderings or reviewed cases classified under this profile; the profile itself does not act, decide, or publish.
+
+This distinction matters because the profile governs **how** a rendering is classified and reviewed. It does not turn every explanatory paragraph into a giant standalone record, and it does not replace MVPK face ownership with a second semantic track.
+
+#### E.17.EFP:4.1.b - How to read this profile
+
+This profile does not decide whether a claim is true. It says how an explanation rendering relates to already available claim-bearing material and where that rendering may lawfully appear.
+- Class names are publication-behaviour labels, not merit labels.
+- Faces stay owned by `E.17`; the profile only constrains what sort of explanation is lawful on them.
+- If a rendering begins to add new semantic commitments, it has left this profile even if the prose still looks explanatory.
+- It helps reviewers classify one published rendering relative to already pinned source material.
+
+#### E.17.EFP:4.1.c - Local working vocabulary
+
+This profile uses a small local vocabulary for review.
+- **Source material** = already pinned claims, traces, notes, or other reviewable source-bearing material.
+- **Rendering** = one published explanation-facing text on one existing face.
+- **Class assignment** = the explanation-class assigned to that rendering on that face.
+- **Bundle-level difference** = a case where two renderings in one bundle lawfully carry different explanation classes.
+
+These are review aids, not new owner kinds. Faces remain owned by `E.17`; this profile only qualifies explanation behaviour on those faces.
+
+#### E.17.EFP:4.2 - Core profile fields
+
+A rendering reviewed under this profile should make explicit at least:
+- `landingForm = profile under E.17/E.17.0 host review`;
+- `hostOwner = E.17 / E.17.0`;
+- `sourceForm`;
+- `targetForm`;
+- `changeLocus`;
+- `describedEntityPolicy = preserve` for explanation renderings over the same underlying claim-bearing material;
+- `boundedContextPolicy`;
+- `viewpointPolicy`;
+- `referenceSchemePolicy`;
+- `representationSchemePolicy`;
+- `groundingPolicy`;
+- `referencePlanePolicy`;
+- `claimPolicy`;
+- `claimScopePolicy`;
+- `publicationScopePolicy`;
+- `reliabilityTransportPolicy`;
+- `pinningPolicy`;
+- `provenancePolicy`;
+- `lossProfile`;
+- `claimContinuityClass`;
+- `microtheoryContinuityClass`;
+- `onticContinuityClass`;
+- `bridgeRequirement`;
+- `worldContactPolicy`;
+- `evidencePolicy`;
+- `gatePolicy`;
+- `workCrossing`;
+- `upstreamOwner` / `downstreamOwner`;
+- `admissibleFaces`;
+- `admissibleSurfaces`;
+- `publicNamePolicy`;
+- `sourceRelation`;
+- `augmentationRelation`;
+- `addedLinkPolicy` when `SourceLinkedReconstruction` adds bounded connective prose;
+- `targetUserModel?` when reader-fit materially shapes the rendering;
+- `interactionMode?` when the explanation is more than one static explanatory paragraph;
+- `contrastiveQuestion?` when the rendering is answering a specific user-facing contrast or why-question;
+- `allowedUptake?` when downstream use must be bounded by reader role or task;
+- `misuseRisk?` when over-reading pressure is part of the review burden;
+- `evidenceRelation`;
+- `noNewBoundaryClaims = true` on explanation faces;
+- `compositionLaw`;
+- `reopenCondition`.
+
+Where explanation crosses from source rendering into new claim production, hidden bridge work, gate-bearing semantics, or world-facing intervention claims, the profile no longer suffices and the case must leave this profile.
+
+#### E.17.EFP:4.2.a - Working-model first
+
+Ordinary reviewed renderings do not need to restate every field from scratch. When the host face, pinned source material, and already published provenance anchors already fix a field honestly, the rendering may inherit that condition by explicit reference.
+
+A fuller review record becomes necessary when:
+- explanation class differs across faces in the same publication bundle;
+- the rendering relies on bounded connective prose that is not obvious from the source wording alone;
+- didactic or speculative wording creates a real risk of policy, assurance, or gate misuse;
+- source linkage, provenance, or reliability transport would otherwise become unclear.
+
+#### E.17.EFP:4.2.b - What a reviewer checks first
+
+A reviewer usually starts with four questions:
+1. What exactly is the source-bearing material for this rendering?
+2. Which explanation class is being claimed for this rendering on this face?
+3. Are the pins, provenance anchors, and evidence relation visible enough for that class?
+4. Has the rendering quietly begun to add new semantic commitments or new face-like behaviour?
+
+If these questions are answered clearly, the rendering often remains lightweight. If they are not, a fuller face-by-face review record is usually warranted.
+
+#### E.17.EFP:4.2.c - Interpretant-side block
+
+This profile still governs explanation renderings on existing faces, not full interactive explanation systems.
+
+However, when reader-help, onboarding, or contrastive explanation is doing real work, the rendering should also make visible:
+- who the rendering is fit for (`targetUserModel`);
+- whether the interaction is static, guided, contrastive, or another bounded mode (`interactionMode`);
+- what question the rendering is helping answer (`contrastiveQuestion`);
+- what uptake remains lawful (`allowedUptake`);
+- and what stronger uptake would be wrongful (`misuseRisk`).
+
+These fields do not create a new owner. Their current role is narrower: stop explanation prose from pretending that every rendering is audience-neutral, and make misuse boundaries explicit when reader-fit is part of the explanation burden.
+
+#### E.17.EFP:4.3 - Explanation class set
+
+The explanation-class set used in this profile is:
+- `SourcePinnedRendering`
+- `SourceLinkedReconstruction`
+- `DidacticRetelling`
+- `SpeculativeRetelling`
+
+These classes are not mere style labels. They state how the explanation relates to the source, how much augmentation is tolerated, what reliability transport is still honest, and which faces remain lawful.
+
+Class assignment is per published rendering on a face, not one blanket label for a whole multi-face bundle. If a Plain rendering stays source-pinned while a Tech rendering adds bounded connective prose, the bundle must state that class difference explicitly.
+
+#### E.17.EFP:4.3.a - Ordinary class-selection guidance
+
+A practical reading order is:
+- start with `SourcePinnedRendering` if the rendering stays close to the source wording and keeps direct pins visible;
+- move to `SourceLinkedReconstruction` when bounded connective prose is added but source linkage remains explicit;
+- move to `DidacticRetelling` when reader-help dominates and some phrasing is intentionally more pedagogical than canonical;
+- move to `SpeculativeRetelling` only when the rendering openly goes beyond source-backed explanation and remains confined to exploratory or didactic use.
+
+The profile should not be used to make a rendering sound more respectable than its actual source relation warrants.
+
+#### E.17.EFP:4.3.b - `SourceLinkedReconstruction` added-link policy
+
+When a rendering claims `SourceLinkedReconstruction`, it should publish a compact `addedLinkPolicy` whenever the connective move is not already explicit in the source wording.
+
+Minimum reading burden:
+- `addedLinkKind` — what bounded connective move is being added;
+- `sourceAnchorSet` — which pinned claims, traces, or notes support that move;
+- `boundednessReason` — why the added link does not become a stronger theory, modality lift, causal claim, bridge burden, or policy-bearing reading;
+- `forbiddenLinkClass` — which stronger connective move is explicitly excluded;
+- `reopenTrigger` — what would force downgrade, reroute, or fuller review.
+
+Working rule:
+- if `addedLinkPolicy` cannot be stated plainly, the rendering should drop to a weaker class, move to a more restricted face/surface, or leave `E.17.EFP`;
+- `SourceLinkedReconstruction` may not hide new relation theory, bridge equivalence, design-level generalization, or policy-bearing guidance inside "bounded" connective prose.
+
+#### E.17.EFP:4.4 - Working admissibility matrix
+
+| Class | Source relation | Augmentation relation | Evidence relation | Usually admissible faces | Usually admissible surfaces | Usually forbidden uses |
+|---|---|---|---|---|---|---|
+| `SourcePinnedRendering` | rendering | omission-only | trace-bound | Plain, Tech | `PublicationSurface`; `InteropSurface` only when the host explicitly permits source-pinned, structure-preserving export without added semantics | Assurance or gate-bearing use if required pins/evidence are absent |
+| `SourceLinkedReconstruction` | reconstruction | bounded link-addition | trace-supported | Plain, Tech | `PublicationSurface` on bounded explanatory use | Interop or Assurance unless host policy explicitly allows it with source linkage kept visible |
+| `DidacticRetelling` | reconstruction | omission + didactic addition | trace-supported or partly trace-free | Plain | `PublicationSurface` on didactic or onboarding use only | Tech, Interop, Assurance, or policy-bearing use when it could be mistaken for canonical semantics |
+| `SpeculativeRetelling` | speculation | link-addition or counterfactual augmentation | trace-free or weakly trace-supported | Plain | `PublicationSurface` on clearly marked exploratory or didactic use only | Tech, Interop, Assurance, gate-adjacent, or policy-bearing use |
+
+`ExplanationFaithfulnessProfile` ordinarily stays on `PublicationSurface`. Any appearance on `InteropSurface` must remain source-pinned and structure-preserving, and must never smuggle explanation-specific semantics into interop publication. Didactic or speculative restrictions are use-profile restrictions over existing faces, not new face kinds.
+
+Source-pinned explanation on Assurance-facing publication is exceptional rather than ordinary. Unless the host explicitly permits that use with visible evidence carriers, source pins, and no added semantics, reviewers should treat Assurance-facing explanation rendering as non-admissible.
+
+Every concrete explanation rendering must also publish the source claim IDs, pins, trace refs, or equivalent provenance anchors that justify its class on that face. If those anchors cannot be made visible on the chosen face or surface, the rendering must drop to a weaker class, move to a more restricted use profile, or leave the face.
+
+When reader-help, onboarding, or contrastive explanation is part of the case, the rendering should also publish or inherit its `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUptake`, and `misuseRisk` so that user-fit does not quietly become stronger policy guidance.
+
+#### E.17.EFP:4.5 - Shared explanation law packet
+
+##### E.17.EFP:4.5.a. Preservation law
+Explanation-facing renderings under this profile preserve the same underlying described-entity line, bounded context, and source-pinned claim-bearing material. Viewpoint, reference scheme, representation scheme, grounding, and reference-plane handling must stay explicit rather than being left to prose. `SourcePinnedRendering` and `SourceLinkedReconstruction` are expected to remain claim-conservative; `DidacticRetelling` may be claim-attenuating but must stay source-linked; `SpeculativeRetelling` may widen explanatory language only when kept clearly off canonical faces and off gate-bearing use.
+
+##### E.17.EFP:4.5.b. Loss and reliability law
+A rendering assigned to one of these explanation classes declares what is omitted, reordered, simplified, or newly connected. Reliability transport may stay source-bounded or be explicitly downgraded, but it must never be silently strengthened by more persuasive prose. Didactic and speculative renderings also state forbidden downstream uses whenever omissions, weakening, or trace-free additions occur.
+
+When reader-fit is part of the explanation burden, `allowedUptake` and `misuseRisk` should be explicit enough that a didactic or contrastive rendering cannot be mistaken for stronger assurance, policy, or gate-bearing guidance.
+
+##### E.17.EFP:4.5.c. Authority and handoff law
+This profile stays explanation-facing and episteme-level. It does not own bridge stance, retargeting, route selection, executable docking, gate authority, or work enactment. If a case starts carrying one bounded comparative review surface, rival interpretations, bridge-mediated comparison burdens, or world/gate consequences, it must hand off to the appropriate downstream owner (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.20`, `A.21`).
+
+Interpretant-side fields do not weaken that handoff rule. They only bound reader uptake; they do not authorize stronger downstream guidance.
+
+##### E.17.EFP:4.5.d. Composition and reopen law
+Repeated `SourcePinnedRendering` over the same pinned source may be idempotent. `SourceLinkedReconstruction` and `DidacticRetelling` are order-sensitive and must reopen when the source claim set, pins, provenance, or admissible-face assumptions change. `SpeculativeRetelling` must reopen whenever stronger source binding becomes available or whenever the rendering starts to look like a canonical explanation rather than a clearly bounded exploratory retelling.
+
+#### E.17.EFP:4.6 - Hard boundary rules
+
+A rendering reviewed under this profile keeps the following explicit:
+- it does **not** create a second face family;
+- it does **not** turn faces into a second semantic rule track;
+- it does **not** license new `L/A/D/E` claims on explanation faces;
+- it does **not** replace bridge discipline, retargeting discipline, or world/gate handoff discipline;
+- it does **not** let `PublicationSurface` and `InteropSurface` collapse into one undifferentiated explanation channel.
+
+If explanation text starts carrying new semantic commitments instead of rendering or licensed explanation over existing ones, the case must leave this profile.
+
+### E.17.EFP:5 - Archetypal grounding
+
+#### E.17.EFP:5.1 - Source-pinned explanation across multiple faces
+**Source claim slice.** `Claim D-14: Cooling loop CL-2 maintains the required temperature margin during standard load. Evidence pins: T-44, E-17.`
+
+**Plain rendering.** `Cooling loop CL-2 keeps the required temperature margin in standard operation. Source pins: T-44, E-17.`
+
+**Tech rendering.** `D-14 remains source-pinned to T-44 and E-17; this rendering only shortens and reorders the claim.`
+
+This stays within `SourcePinnedRendering` because the rendering changes readability, not the semantic burden.
+
+#### E.17.EFP:5.2 - Source-linked reconstruction
+**Source slice.** `Claims D-14 and D-18 jointly constrain the safe operating window, but the relation is left implicit in the original note.`
+
+**Published reconstruction.** `Claims D-14 and D-18 jointly bound the safe operating window; see the pinned source notes for the original wording and evidence anchors.`
+
+This stays within `SourceLinkedReconstruction` if the connective prose remains bounded and does not add new claims.
+
+A minimal `addedLinkPolicy` for this slice would say:
+- `addedLinkKind = relation-explication only`;
+- `sourceAnchorSet = {D-14, D-18}`;
+- `boundednessReason = makes an already implied joint constraint explicit without adding a new mechanism, policy conclusion, or stronger modality`;
+- `forbiddenLinkClass = design-level robustness or gate-sufficiency claim`.
+
+#### E.17.EFP:5.2.a - Mixed-face bundle with different explanation classes
+**Source slice.** `Claim D-31 and trace set T-8 jointly show that the reserve path remains available during the short overload interval.`
+
+**Plain rendering.** `The reserve path stays available during the short overload interval. Source pins: D-31, T-8.`
+
+**Tech rendering.** `D-31 and T-8 jointly support availability of the reserve path during the short overload interval; this rendering adds bounded connective prose to make the support relation explicit.`
+
+The Plain rendering may stay `SourcePinnedRendering` while the Tech rendering is `SourceLinkedReconstruction`. The bundle is lawful only if that class difference is stated rather than hidden under one blanket label.
+
+#### E.17.EFP:5.3 - Didactic retelling
+**Source slice.** `The pressure-control condition is satisfied whenever the reserve valve opens within 80 ms.`
+
+**Didactic rendering.** `For onboarding: the system stays safe here because the reserve valve opens quickly enough; the exact threshold and source claim remain in the pinned technical note.`
+
+This stays in `DidacticRetelling` only if it is kept off Tech/Assurance faces where it could be mistaken for canonical semantics.
+
+#### E.17.EFP:5.4 - Speculative retelling
+**Source slice.** `The source materials record the observed recovery, but they do not explain why the recovery was so rapid.`
+
+**Speculative rendering.** `One possible reading is that a temporary coupling effect accelerated recovery, but this is a reflective aid for discussion, not a source-backed claim.`
+
+This is lawful only as a clearly marked exploratory or didactic use on an existing face; it must not appear as policy-bearing, gate-bearing, or assurance-bearing content.
+
+#### E.17.EFP:5.4.a - Anti-example: explanation that quietly becomes a new claim
+**Source slice.** `The pinned materials show the reserve path remained available during the short overload interval.`
+
+**Overreaching rendering.** `The reserve-path design is therefore robust against short overloads.`
+
+This no longer stays inside explanation classification. The rendering introduces a stronger design-level commitment than the pinned source actually states, so the case must reopen and route toward the appropriate owner instead of hiding inside a face-level explanation label.
+
+#### E.17.EFP:5.4.b - Anti-example: reader help that quietly becomes policy-bearing use
+**Source slice.** `The onboarding note explains, in simplified prose, that the reserve valve usually opens quickly enough to keep the local pressure condition inside the tolerated window.`
+
+**Overreaching rendering on a stronger face.** `Operators may rely on this explanation as sufficient assurance that short overloads stay inside the tolerated window.`
+
+This also exits the profile. The rendering is no longer only reader help over existing claims; it starts acting like policy-bearing or assurance-bearing guidance. The case must reopen, drop the explanation class, or move toward the appropriate downstream owner rather than staying on an explanation face.
+
+#### E.17.EFP:5.5 - Class-specific reopen cues in the worked slices
+- **`SourcePinnedRendering`** reopens when the pinned source claim set, source pins, or admissible-face assumptions change so that the rendering can no longer remain omission-only and visibly source-bound.
+- **`SourceLinkedReconstruction`** reopens when the connective prose begins carrying a stronger relation than the source justifies, or when the source claim set changes enough that the bounded reconstruction is no longer plainly source-linked.
+- **`DidacticRetelling`** reopens when the rendering moves onto Tech or Assurance-facing use, or when reader-help prose starts functioning as policy-bearing, design-bearing, or gate-bearing guidance.
+- **`SpeculativeRetelling`** reopens when stronger source binding becomes available, or when the rendering starts to behave like canonical explanation rather than clearly bounded exploratory help.
+
+#### E.17.EFP:5.6 - Boundary to interpretation and world handoff
+If the rendering starts generating one bounded comparative review surface, rival interpretations, bridge-mediated comparative claims, new hypotheses, or world/gate consequences, it must leave this profile and move toward the appropriate owner track (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.20`, `A.21`).
+
+### E.17.EFP:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**.
+This profile intentionally biases toward explanation restraint on existing faces and against face inflation. The main mitigation is explicit admissibility by face, strong no-new-`L/A/D/E` discipline, and hard exits to interpretation, retargeting, and world/gate owners when explanation stops being only explanation.
+
+### E.17.EFP:7 - Conformance Checklist
+
+1. **CC-EF-1 — Explanation class is explicit.**
+   The explanation class is explicitly named.
+2. **CC-EF-2 — Admissible faces and surfaces are explicit.**
+   The rendering states admissible faces and surfaces explicitly.
+3. **CC-EF-3 — Pinning, provenance, and reliability transport are explicit.**
+   Pinning, provenance, and reliability transport are stated explicitly.
+4. **CC-EF-4 — Interpretant-side block is explicit when reader-fit does real work.**
+   When onboarding, contrastive explanation, or other reader-fit shaping matters, `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUptake`, and `misuseRisk` are visible enough to review.
+5. **CC-EF-5 — No new `L/A/D/E` claims on explanation faces.**
+   The no-new-boundary-claims rule is explicit on explanation faces.
+6. **CC-EF-6 — Boundary to interpretation, retargeting, and world/gate handoff is explicit.**
+   The reroute boundary is explicit.
+7. **CC-EF-7 — No second face family.**
+   A reviewer can tell why the case remains explanation-facing rather than becoming a second semantic rule track.
+8. **CC-EF-8 — Bundle-level class differences are explicit.**
+   When one publication bundle carries different explanation classes across faces, that difference is stated explicitly rather than hidden under one bundle-wide label.
+9. **CC-EF-9 — Weakened classes publish forbidden downstream uses.**
+   Didactic or speculative renderings, and any rendering with downgraded reliability transport, state their forbidden downstream uses explicitly.
+10. **CC-EF-10 — Reopen triggers match the class.**
+   The published review surface makes class-relevant reopen triggers visible when source claim set, pins, provenance, or admissible-face assumptions change.
+11. **CC-EF-11 — `SourceLinkedReconstruction` publishes `addedLinkPolicy` when needed.**
+   When bounded connective prose is doing real review work, the rendering states what link is added, why it remains bounded, and which stronger link class is explicitly forbidden.
+
+### E.17.EFP:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it is wrong | How to avoid it |
+|---|---|---|
+| Treating every explanatory prose block as equally faithful | rendering, reconstruction, didactic work, and speculation have different burdens | publish the explanation-class set and admissibility matrix |
+| Letting reader-fit stay implicit when explanation is clearly tailored | a didactic or contrastive rendering can be over-read as general or policy-bearing guidance | publish the interpretant-side block whenever user model, uptake, or misuse boundaries are load-bearing |
+| Using explanation faces as a second rule track | new semantic commitments hide behind reader-friendly prose | keep explanation faces tied to existing claim IDs, pins, and provenance |
+| Calling connective reconstruction "bounded" without naming the added link | source-linked explanation quietly imports stronger relation theory or bridge burden | require `addedLinkPolicy` with source anchors, boundedness reason, and forbidden link class |
+| Letting speculative prose enter technical or assurance use | speculative retelling starts to look canonical | restrict speculative retelling to clearly marked exploratory or didactic use on existing faces |
+| Collapsing face and surface discipline | explanation appears to create a new publication family | stay on existing MVPK faces and keep surface/carrier policy explicit |
+
+### E.17.EFP:9 - Consequences
+
+- Explanation classes become explicit and reviewable.
+- Existing MVPK face discipline stays intact.
+- Pins, provenance, and evidence-binding become structural, not rhetorical extras.
+- The boundary to interpretation, retargeting, and world/gate work becomes easier to review.
+
+### E.17.EFP:10 - Rationale
+
+This profile is worth stating explicitly because explanation-facing rendering is already happening on top of existing publication faces, but without a compact discipline reviewers have to reconstruct by hand whether a rendering is source-pinned, reconstructive, didactic, or speculative. A profile-first move is safer than freezing a heavier owner too early.
+
+### E.17.EFP:11 - SoTA-Echoing
+
+**SoTA note.** This section does not mint an independent second rule layer. It is a load-bearing alignment surface: the Solution, Conformance Checklist, boundary rules, and Relations of this pattern must match the stance stated here or explicitly justify any divergence.
+
+**Traditions covered.** This profile binds itself to architecture-description governance, explainability and reliability guidance, and faithfulness evaluation for natural-language explanations.
+
+| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `E.17.EFP` | Adoption status |
+|---|---|---|---|---|
+| Explanation renderings must remain subordinate to governed views, published claims, and source-bearing material rather than quietly becoming a second semantic layer. | Architecture-description practice keeps views, viewpoints, correspondences, and architecture descriptions explicit instead of letting reader-help prose replace governed source. | ISO/IEC/IEEE 42010:2022 | `E.17.EFP` adopts this by keeping explanation on existing MVPK faces, tying class assignment to source-bearing material, and rejecting a second face family or second semantic rule track. | **Adopt.** |
+| Explanation quality is use- and audience-sensitive and must make knowledge limits visible rather than collapse all explanations into one generic mode. | Explainable-AI guidance distinguishes explanation obligations by user, purpose, and stated limits instead of one universal explanation class. | Phillips et al. (2021), *Four Principles of Explainable Artificial Intelligence* | `E.17.EFP` adapts this into explicit explanation classes, admissible faces, and forbidden downstream uses, while keeping the host face system unchanged. | **Adopt/Adapt.** |
+| Faithfulness is not the same as plausibility; explanation evaluation must stay tethered to the underlying source or decision basis. | Faithfulness work in interpretable NLP treats explanation as source-sensitive and warns against equating persuasive prose with faithful interpretation. | Jacovi & Goldberg (2020), *Towards Faithfully Interpretable NLP Systems* | `E.17.EFP` adopts this by requiring source relation, evidence relation, pins, provenance, and class-per-rendering review rather than fluency alone. | **Adopt.** |
+| Natural-language explanation needs explicit checking for faithfulness or self-consistency rather than trust in stylistic coherence. | Recent evaluation work treats natural-language explanation as a review problem with explicit faithfulness or self-consistency checks, not just readability. | Parcalabescu & Frank (2024), *On Measuring Faithfulness or Self-consistency of Natural Language Explanations* | `E.17.EFP` adapts this into admissibility review, class downgrade, and reopen duties when source anchoring, evidence relation, or face assumptions weaken. | **Adapt.** |
+
+**Architecture-description governance tradition.** `E.17.EFP` adopts the rule that reader-helpful renderings stay subordinate to already governed publication material rather than replacing it. Explanation therefore remains on existing faces and is judged against source-bearing claims, pins, and provenance anchors.
+
+**Explainability and reliability traditions.** `E.17.EFP` adopts the distinction between source-bound explanation and merely plausible explanation prose. It rejects the still-popular shortcut in which fluent or pedagogically useful language is treated as sufficient evidence of explanation faithfulness.
+
+**Local stance.** Best-known current practice supports a narrow rule: explanation renderings are lawful only when their class, source anchoring, evidence relation, admissible faces, and forbidden downstream uses remain visible enough that reader help does not become a second semantic rule track.
+
+### E.17.EFP:12 - Relations
+
+- **Builds on:** `E.17.0`, `E.17`, `A.7`, `E.10.D2`, `A.6.B`, `F.9`, `F.18`
+- **Coordinates with:** `ConservativeRetextualization`, `RepresentationTransduction`, `E.17.ID.CR ComparativeReading`, `A.6.4`, `A.15`, `A.20`, `A.21`
+- **Impact radius:** primary touch `E.17.0 / E.17`; secondary review surfaces `F.9`, `A.6.4`, `A.15`, `A.20`, `A.21`; any move toward new semantics or gate-bearing use exits the profile
+- **Boundary notes:** comparative-interpretation cases exit to `E.17.ID.CR ComparativeReading`; retargeting exits to `A.6.4`; world/gate-bearing consequences exit to `A.15`, `A.20`, or `A.21`.
+
+### E.17.EFP:End
+
+
+## E.17.ID.CR - InterpretationDiscipline / ComparativeReading — bounded comparative reading over comparative review surfaces
+
+**Placement.** Guarded branch-local pattern for bounded comparative reading over comparative review surfaces, coordinated with the neighboring `A.6.3.*`, `F.9.1`, and `E.17.EFP` seams.
+**Builds on.** `C.2.2a`; `A.16.0`; `F.9`; `E.14`.
+**Coordinates with.** `A.6.3`; `A.6.3.CR`; `A.6.3.RT`; `F.9.1`; `E.17.EFP`; `B.5.2.0`; `B.5.2`; `OntologicalReframing`; `A.6.4`; `A.15`; `A.20`; `A.21`.
+**Plain-name.** Bounded comparative reading over comparative review surfaces.
+**One-line summary.** `ComparativeReading` governs one comparative review surface over already available, source-pinned material while the same object of talk (`DescribedEntityRef`) stays preserved, one bounded contrast is being made visible, and stronger uptake still stays outside.
+**Governed object in plain terms.** The pattern governs the comparative review surface itself - the comparison note, comparison sheet, or guided review aid that carries one bounded contrast - not the whole source packet and not the wider decision workflow.
+
+**Early comparative lens.** Read the branch through one early formula: one comparative review surface over already available, source-pinned material keeps the same object of talk visible while making one bounded contrast inspectable, with stronger uptake still left outside. That is the whole early read. It does not govern interpretation in general, the whole source packet, or the wider decision workflow.
+
+**Use this when.** Use this pattern when you need a small comparative review surface, such as a comparison note, comparison sheet, or guided review aid, over already available material so that a team can inspect one bounded contrast while still keeping the same object of talk and without yet claiming equivalence, root cause, redesign, release approval, or another stronger decision.
+
+**First-minute working moment.** A team already has two or more source-pinned notes, sheets, views, or review aids on the table and needs one honest comparison surface that keeps the same object of talk visible while making one bounded contrast inspectable. The real job is not yet route choice, approval, ontology repair, or workflow takeover. It is to help reviewers compare without pretending that the comparison note already became a decision.
+
+**Primary working reader.** The primary first-minute reader is an engineer-manager or programme lead using a bounded comparative review surface in ordinary review work. Architecture reviewers, release or compliance reviewers, research reviewers, and cultural or programme reviewers remain important secondary readers, but the first recognition surface should still read manager-first rather than architecture-first.
+
+**Problem-owning practice reading.** In ordinary practice, this pattern helps teams write design-review notes, release or compliance comparisons, incident triage comparisons, research review notes, and programme review aids when the real job is to compare already available material over the same object without yet claiming equivalence, route choice, or decision authority. The job is not to settle the full review or downstream decision workflow. It is to make one bounded comparative surface honest enough that reviewers can inspect one contrast, know what stronger uptake stays outside, and stop arguing as if the note had already become a decision.
+
+**What goes wrong if you miss this.** If this pattern stays unnamed, teams often flip between two bad readings. Either the comparative review surface is dismissed as if it were only harmless prose, or it is over-read as if it already licensed equivalence, route choice, gate pressure, or action. The practical result is distrust and friction in review work because readers can no longer tell whether they are looking at one bounded comparison aid or at a disguised decision.
+
+**What this buys you in practice.** Naming the pattern buys one smaller and more usable review surface. A team can compare already available material, inspect one bounded contrast, and still keep stronger uptake outside. In practice that means review conversations move faster with less argument about whether the note already settled equivalence, approval, or next action.
+
+**Not this pattern when.** This is not the right pattern when the primary burden is:
+- restating the same thing or shifting its representation rather than adding one bounded contrast under `A.6.3.*`;
+- explicating an already-declared bridge stance rather than governing a comparative review surface under `F.9.1`;
+- classifying or governing explanation faces rather than carrying bounded comparative reading under `E.17.EFP`;
+- whole-surface object-of-talk stabilization after local repair;
+- rival-route or prompt pressure under `B.5.2(.0)`;
+- ontology or target change under `OntologicalReframing` / `A.6.4`;
+- or downstream action, gate, assurance, or adjudication authority under `A.15 / A.20 / A.21`.
+
+**Quick exit route.** If this is really same-thing rewrite, bridge explication, explanation-face governance, prompt pressure, ontology change, or gate/authority work, reroute before you open the heavier branch stack. If the main debt is still only local head repair or whole-surface object-of-talk stabilization, use `Surface Precision Restoration` or `Surface Object-of-Talk Discipline` as narrow drafting-support repair companions first and only then return here. Those support surfaces are not part of the ordinary branch burden unless that repair trigger is actually live. For the nearest worked exit bank, move to `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10`.
+
+**Quick recovery route.** If the recognition surface fits, recover the branch in this order: the governed comparative review surface, the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`, and the nearest ordinary worked slices in `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.c`. Use `E.17.ID.CR:4.1.d` only if one pressure term still blocks the read.
+
+**Quick kind-plus-lens reading.** `InterpretationDiscipline` names the umbrella and `ComparativeReading` names the active branch here. Recover the branch through the early comparative lens above: one comparative review surface over already available, source-pinned material, the same `DescribedEntityRef` preserved, one bounded contrast made visible, and stronger uptake still outside. If that read no longer holds, reroute rather than widening this branch into interpretation-in-general.
+
+**First-minute term reading.** Read the early pressure terms this way. `DescribedEntityRef` = the same thing still being discussed across the comparison. Source-pinned material and source anchors = already available material plus the notes, views, or links that keep the comparison checkable. `allowedUptake` and `misuseRisk` = what this surface honestly supports now and what stronger reading it may wrongly attract.
+
+**Quick first check.** Before you read the heavier harness, ask:
+1. Am I governing the comparative review surface itself?
+2. Does the same object of talk stay preserved while one bounded contrast is being made visible?
+3. Is the main burden still this bounded comparison rather than same-thing rewrite, whole-surface stabilization, or downstream authority?
+
+If yes, stay here and use the ordinary working card. If no, use the quick exit route above and the fuller reroute table in `E.17.ID.CR:4.5`.
+
+**Worked-slice pointer.** If you need one ordinary sentence fast, borrow the nearest lawful example from `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.c` and then check it against the seven-row ordinary working card rather than treating the example itself as a second mini-harness.
+
+### E.17.ID.CR:1 - Problem frame
+
+**Anti-workflow note.** The quick checks, ordinary working card, worked-slice pointer, working order, and worked slices in this pattern are local aids and examples for one comparative review surface.
+They are not a canonical transduction workflow for the governed object here, not a mandatory lifecycle for review work, and not a promise that lawful cases move through one fixed graph in one direction.
+FPF fixes the local governed object, the local move, the reroutes, and the inherited dynamic frame; actual motion may branch, reopen, back off, loop, or depend on outside observations and downstream constraints.
+Read the worked-slice bank sideways rather than as one required sequence: one lawful case may finish after a single bounded comparison, another may reopen after a new outside observation, and another may exit immediately once environmental drift or downstream constraints make a neighboring pattern the more honest governing move.
+
+Engineer-managers, programme leads, and research or cultural reviewers repeatedly need to prepare or share a small comparative review surface that helps a team read two already available materials together without overstating what that surface now authorizes.
+Typical moments include:
+- a design-review note that says one already available option write-up foregrounds coupling risk more strongly than another;
+- a release or compliance comparison that says an internal control sheet and a vendor bulletin are not yet equivalent even though they speak to the same review task;
+- an operations comparison that says a dashboard view and a maintenance note foreground different burdens in the same service episode;
+- a research-review note that says one available synthesis foregrounds measurement uncertainty more strongly than another without yet declaring a better method;
+- a program or cultural review note that says one available brief foregrounds participation continuity more strongly than another without yet deciding funding, curation, or program direction.
+
+These review surfaces are useful precisely because they help a review move forward.
+They become dangerous when a reader starts treating them as if they already established equivalence, root cause, redesign priority, route selection, program choice, or approval.
+
+### E.17.ID.CR:2 - Problem
+
+Without a named comparative-reading discipline:
+1. a useful comparative review surface is dismissed as if it were only harmless prose;
+2. a cautious review aid is over-read as if it already licensed substitution, interoperability, or equivalence;
+3. a comparative review surface quietly becomes route pressure or hidden hypothesis work while still sounding calm;
+4. same-entity viewing, explanation rendering, and bounded comparative reading collapse into one fuzzy review bucket;
+5. ontology-facing drift or changed object-of-talk hides inside comparative wording;
+6. a review surface written to support review is mistaken for action guidance, assurance shorthand, or release authority.
+
+### E.17.ID.CR:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| **Manager usability vs governance precision** | The pattern must start from a recognisable review situation without hiding its host seams. |
+| **Middle-band reality** | Some comparative readings are stronger than simple bridge-explication but weaker than full route selection. |
+| **Source tether vs interpretive lift** | The case must add a bounded interpretive lift without pretending to create a new free-floating semantics. |
+| **Governed object vs surrounding work** | The pattern must keep the review surface, the interpretive move, and the larger review process distinct rather than sliding between them by style. |
+| **Viewing restraint** | Interpretation must not absorb same-entity viewing, conservative rewriting, or representation transduction whose main burden is not comparative reading. |
+| **Bridge restraint** | Interpretation must not become a second bridge taxonomy. |
+| **Explanation restraint** | Interpretation must not become a shadow face-classification system next to `E.17.EFP`. |
+| **Abductive restraint** | Interpretation must stop before rival-route pressure becomes live. |
+| **Ontology restraint** | Interpretation must not hide same-referent / new-intension burden or changed `DescribedEntityRef`. |
+| **Interpretant-side boundedness** | Reader-fit may matter, but it must remain explicit and bounded rather than silently rewriting authority. |
+
+### E.17.ID.CR:4 - Solution - comparative review surfaces with bounded comparative reading, escalation, and reroute rules
+
+#### E.17.ID.CR:4.1 - Manager-first entry, governed-object distinction, and compact branch definition
+
+The solution opening here follows `E.17.ID.CR:4.3`'s working-model-first discipline.
+A solution-side reader should first meet the manager-first use surface and the governed-object distinction, and only then the compact branch definition that names the formal comparative burden.
+That order keeps the branch explicit without making the blockquote definition the first gate into ordinary use.
+
+#### E.17.ID.CR:4.1.a - Manager-first use
+
+In plain working terms, this pattern is for a review surface that says something like:
+- `this option write-up foregrounds integration burden more strongly than that one`;
+- `these two available materials are useful together, but they are not yet equivalent`;
+- `this dashboard view helps triage one contrastive question, but it is not yet a release decision or a root-cause claim`;
+- `this research synthesis foregrounds uncertainty more strongly than that one, but it is not yet a method choice`;
+- `this program brief foregrounds continuity risk more strongly than that one, but it is not yet a funding decision`.
+
+If that sounds like the review surface you need, start here.
+If instead you are mainly restating source material, explaining it, opening a new route, changing the object of talk, or making a decision, start with the neighboring pattern first.
+
+#### E.17.ID.CR:4.1.b - Pattern, case, and governed-object distinction
+
+This pattern presents the `ComparativeReading` branch inside the broader `InterpretationDiscipline` umbrella.
+The umbrella names the wider interpretation zone.
+The branch here is narrower and more concrete.
+It governs one **comparative review surface** and only the **bounded comparative reading** carried by that surface.
+The wider review or decision workflow remains outside the pattern except where reroute or authority limits are needed.
+
+The kind stack should therefore be read explicitly:
+- umbrella = `InterpretationDiscipline` as the naming-level umbrella;
+- umbrella-level move class = bounded interpretation work at that wider level;
+- branch = `ComparativeReading` as the narrowed branch for this pattern;
+- governed object = the comparative review surface;
+- branch move = bounded comparative reading over already available material;
+- wider work = the broader review or decision process that still sits outside this pattern.
+
+In ordinary use the governed surface may appear as a short comparison note, comparison sheet, guided review aid, or guided comparative UI.
+Those are lawful surface forms, not rival governed objects.
+
+This distinction matters because the pattern is not governing reading in the head in the abstract and it is not governing the whole review workflow.
+It is governing a small, reviewable surface that carries one bounded comparative lift over already available material.
+The pattern does not create a new practical surface type of its own; it tells when such a comparative review surface can stay modest and when a stronger burden already belongs to another governed pattern surface.
+
+##### E.17.ID.CR:4.1.b.a - Compact branch definition
+
+> `ComparativeReading` is a branch inside the `InterpretationDiscipline` umbrella.
+>
+> It governs one comparative review surface over already available, source-pinned material and carries one bounded comparative reading over that surface.
+>
+> It stays lawful only while the case preserves the same `DescribedEntityRef`, keeps the source anchors visible, keeps the added comparative lift bounded, and does not shift its primary burden into same-entity viewing, stronger bridge burden, explanation-face governance, prompt-bearing abductive work, ontology-facing reframing, retargeting, or downstream action authority.
+
+Read this blockquote as the compact branch reminder.
+It should stay nearby and early, but not stand in front of the manager-first use surface or the governed-object distinction that working readers need first.
+
+#### E.17.ID.CR:4.1.c - Why the comparative-reading branch needs its own discipline
+
+Teams already produce small comparative review surfaces, often as comparison notes, comparison sheets, or guided review aids, that are stronger than plain bridge-explication alone but weaker than route selection, ontology reframing, retargeting, or approval guidance.
+Leaving that middle band unnamed creates two opposite failures: one reader dismisses the review surface as harmless prose, while another over-reads it as if it already carried substitution, route pressure, or action authority.
+
+This pattern gives teams a narrow way to prepare, share, and inspect that comparative review surface without smuggling a stronger burden than the source, bridge stance, and bounded uptake can honestly support.
+
+#### E.17.ID.CR:4.1.d - Local working vocabulary
+
+This pattern uses a small local vocabulary for review.
+- **Comparative review surface** = a lightweight review surface such as a short comparison note, comparison sheet, guided review aid, or guided comparative UI whose explicit burden is one bounded comparative reading.
+- **Base host classification** = `baseHostClassification`, the primary pattern that still carries the surface before bounded comparative reading is added.
+- **Reviewed source material** = the already pinned or otherwise reviewable material being comparatively read; in plain terms, the already available material under review.
+- **Source anchors** = `sourceAnchorSet` or `sourceRefs` that make the interpreted material inspectable.
+- **Same `DescribedEntityRef`** = the same object of talk remains preserved even while one contrast is being made more visible.
+- **Interpretive lift** = the bounded comparative or asymmetry-bearing reading added on top of already available material.
+- **Bridge anchor** = `bridgeCardRef` or `bridgeStanceRef` when the case depends on bridge-mediated correspondence rather than ordinary source reading alone.
+- **Allowed uptake** = what this review surface may legitimately be used for while it remains only a bounded comparative review surface.
+- **Misuse risk** = how the review surface is most likely to be over-read into a stronger bridge, route, ontology, or authority claim.
+- **Prompt handoff** = the explicit `U.AbductivePrompt` publication that takes over when rival-route pressure becomes live.
+- **Ordinary minimum block** = the smallest ordinary record that keeps the review surface honest for working use.
+- **Load-bearing extension** = the fuller declaration surface used when the case sits close to bridge, explanation, abductive, ontology, or authority seams.
+
+These terms are local review aids.
+They do not replace source notes, bridge cards, explanation renderings, prompt publications, or gate-bearing materials.
+Their role is to keep a bounded comparative review surface readable without silently upgrading its authority.
+
+#### E.17.ID.CR:4.2 - Scope and exclusions
+
+**In scope**
+- bounded comparative asymmetry over already declared reviewed source material;
+- reader-facing interpretive caution that stays source-tethered and preserves the same `DescribedEntityRef`;
+- comparative review surfaces that answer one explicit contrastive question without opening a rival-route search;
+- bounded user-fit when that fit only limits uptake rather than widening authority.
+
+**Out of scope**
+- same-entity restatement, conservative rewrite, or representation shift whose main burden stays with `A.6.3`, `A.6.3.CR`, or `A.6.3.RT`;
+- pure bridge-explication that only clarifies an already-declared bridge stance (`F.9.1`);
+- explanation-face classification, admissibility, or added-link review on existing faces (`E.17.EFP`);
+- rival-route or prompt-bearing cases (`B.5.2.0 / B.5.2`);
+- ontology-facing reframing or changed object of talk (`OntologicalReframing` / `A.6.4`);
+- policy, gate, adjudication, assurance, or work-facing use (`A.15 / A.20 / A.21`).
+
+#### E.17.ID.CR:4.2.a - Quick entry test
+
+Use this discipline only when all of the following hold:
+1. the reviewed source material is already pinned or otherwise reviewable;
+2. the review surface adds one bounded comparative or interpretive lift;
+3. the case is still answering a bounded contrastive question rather than selecting a route;
+4. the same `DescribedEntityRef` stays preserved;
+5. the main burden is not already better described as same-entity viewing, bridge-explication, or explanation-face classification.
+
+If any of those fail, reroute.
+
+#### E.17.ID.CR:4.2.b - Nearest host seams
+
+Always classify the base host first and open interpretation second.
+The nearest host seams should be read in this order:
+1. **`A.6.3` / `A.6.3.CR` / `A.6.3.RT` first.** If the move is still mainly restatement, representation shift, or another same-entity viewing transform, it does not enter interpretation.
+2. **`F.9.1` second.** If the review surface only makes an already-declared bridge stance more legible, it stays bridge-subordinate.
+3. **`E.17.EFP` third.** If the main question is explanation class, face admissibility, or bounded connective prose on an existing face, it stays with explanation governance.
+4. **`B.5.2.0 / B.5.2` fourth.** If open-question pressure or route pursuit becomes live, interpretation ends.
+5. **`OntologicalReframing` / `A.6.4` / downstream authority patterns last.** If continuity witnesses, changed target, or decision-bearing consequence are needed, the case has already left this discipline.
+
+#### E.17.ID.CR:4.3 - Working-model first; plain questions first, ordinary minimum second, full declaration third
+
+Most working users should not have to start with a long declaration block.
+This pattern therefore follows `E.14`'s working-model-first discipline: the first usable surface is a small set of plain questions that helps an engineer-manager decide whether the review surface still belongs here.
+The opening of `E.17.ID.CR:4.1` now follows that same order by value: manager-first use and governed-object distinction come first, and the compact branch definition stays nearby as an early recovery surface rather than the first gate into the branch.
+The ordinary minimum block comes next for ordinary use.
+The full declaration block remains available as a load-bearing assurance surface.
+
+#### E.17.ID.CR:4.3.a - Five plain working questions
+
+The top-of-pattern quick first check is the canonical first working surface for this pattern.
+A working user should be able to answer these same five questions before touching the fuller blocks:
+1. What already available material am I comparing?
+2. What single contrast or asymmetry am I trying to make visible?
+3. Am I still talking about the same thing, or has the object of talk already shifted?
+4. What stronger reading must the team not take from this review surface?
+5. What would force me to reroute this review surface into explanation, bridge work, prompt work, ontology work, or decision authority?
+
+If these five answers are not visible, the case is not ready to stay here as a bounded comparative review surface.
+
+#### E.17.ID.CR:4.3.b - Ordinary minimum block
+
+For ordinary bounded comparative review surfaces, it is usually enough that the surface or its surrounding review context keeps explicit:
+- what reviewed source material is being interpreted;
+- where the source anchors live;
+- that the same `DescribedEntityRef` remains preserved;
+- what exact bounded comparative lift is being added;
+- what stronger use remains forbidden;
+- that the default `worldContactPolicy` here is review-only / non-executive;
+- and what reroute becomes mandatory if the pressure intensifies.
+
+If those minimum answers cannot stay stable across the same note, sheet, or review aid without sliding between reviewed material, governed surface, bounded lift, and outside workflow, stop here. Repair local head-kind pressure through `Surface Precision Restoration`; if the whole review surface still drifts after that repair, hand off to `Surface Object-of-Talk Discipline` before adding more declaration weight.
+
+##### E.17.ID.CR:4.3.b.a - Ordinary working card
+
+A lawful ordinary comparative review surface should normally let a reader recover these seven rows without opening the heavier declaration harness:
+
+| Row | Plain question | Minimum answer |
+| --- | --- | --- |
+| **Reviewed material** | What already available material is being compared? | one pinned source slice or one explicit source pair/set |
+| **Source anchors** | Where can a reviewer inspect that material? | visible `sourceAnchorSet` or nearby `sourceRefs` |
+| **Same object of talk** | What same thing is still being discussed? | preserved same `DescribedEntityRef` |
+| **Bounded lift** | What single contrast is this surface making visible? | one declared `comparisonBasis` or bounded comparative lift |
+| **Forbidden stronger uptake** | What is this surface not yet claiming? | no equivalence, route choice, ontology change, or decision authority |
+| **World-contact limit** | What may the surface not be used to do? | `review-only / non-executive` |
+| **Reroute trigger** | What would end this pattern and force another host? | one explicit bridge, explanation, prompt, ontology, or authority trigger |
+
+This working card may live inline in the comparative review surface or in its immediate review context.
+Read it as the branch-local recovery surface for the near-top working-entry check:
+- if rows 1-4 are still unstable because one pressured head or qualifier is doing too much work, stop and repair that local pressure through `Surface Precision Restoration` before you keep building the comparative surface here;
+- if rows 3-7 cannot stay stable because the same review surface still slides between reviewed material, comparative move, and outside workflow after one honest local repair, hand off to `Surface Object-of-Talk Discipline`;
+- if rows 1-7 stay recoverable over one pinned source slice or source pair, one preserved `DescribedEntityRef`, and one bounded contrast, `ComparativeReading` remains the honest primary lane.
+
+The nearest stay-here worked slices for this reading are `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.b`.
+The nearest stop-and-reopen worked slice is `E.17.ID.CR:5.4.6.c`.
+
+Move to the load-bearing extension only when one of the seam, reader-fit, or misuse conditions in `E.17.ID.CR:4.3.c` becomes true.
+`ComparativeReading` remains primary only while those seven rows stay recoverable and the same review surface is still mainly about one bounded comparative reading over already pinned material. If you first need to restabilize what the review surface is about, what move it is carrying, and what wider workflow remains outside, hand off to `Surface Object-of-Talk Discipline` before thickening this branch-local card.
+
+#### E.17.ID.CR:4.3.c - Load-bearing extension guidance
+
+A fuller declaration surface becomes warranted when:
+- reader-fit is doing real work;
+- misuse risk is high;
+- the review surface sits close to viewing, bridge, explanation, abductive, ontology, or downstream-authority boundaries;
+- mixed composition with `A.6.3.*` or `E.17.EFP` is load-bearing;
+- the whole surface still drifts between object, move, and outside work after local repair;
+- or the case would otherwise be too easy to over-read as stronger than a bounded comparative review surface.
+
+The load-bearing extension may inherit already-declared host IDs, source pins, and provenance anchors instead of restating them inline.
+When recorded as a load-bearing review surface, that extension normally captures the ordinary minimum block plus any host-owned fields that remain load-bearing for the mixed case.
+Do not answer whole-surface instability by stacking more local fields onto the load-bearing extension. If `Surface Precision Restoration` has already repaired the local pressure and the same review surface still drifts between reviewed material, governed surface, comparative move, and outside workflow, hand off to `Surface Object-of-Talk Discipline` first and only then decide how much heavier declaration burden should stay here.
+
+#### E.17.ID.CR:4.3.d - Load-bearing declaration block
+
+When the heavier declaration burden really stays here, the surface should still make at least these fields recoverable:
+- `sourceRelation`;
+- `sourceAnchorSet` or `sourceRefs`;
+- `semanticClaimKind = SemanticIdentity | BoundedCorrespondence | AudienceFacingReExpression`;
+- `comparisonBasis`;
+- `addedClaimPolicy`;
+- `bridgeStanceVisibility`;
+- `bridgeCardRef` or `bridgeStanceRef` when the case depends on bridge-mediated reading;
+- `targetUserModel` when reader-fit is materially shaping the reading;
+- `interactionMode` when the review surface is not just one static comparative sentence;
+- `contrastiveQuestion` when the case is answering a specific contrast;
+- `allowedUptake`;
+- `misuseRisk`;
+- `promptWorthinessThreshold`;
+- `ontologyExitTrigger`;
+- `worldContactPolicy`;
+- `downstreamAuthorityLimit`;
+- `baseHostClassification` when the review surface is a mixed case layered over `A.6.3.*` or `E.17.EFP`.
+
+`semanticClaimKind` is a sorting aid, not the thing that decides the lawful home.
+`AudienceFacingReExpression` by itself does not open interpretation, and `BoundedCorrespondence` by itself does not remove bridge burden.
+The main burden plus the neighboring pattern boundaries still decide the lawful home.
+
+#### E.17.ID.CR:4.3.e - Interpretant-side block
+
+The interpretant-side fields above do not turn this zone into a full interactive explanation system or a dialog-management system.
+Their current role is narrower:
+- keep bounded comparative reading from pretending it is audience-neutral when it is not;
+- make the contrastive question, guided review mode, and allowed uptake visible;
+- and stop interpretation prose from quietly becoming prompt-bearing guidance, assurance shorthand, or policy pressure.
+
+#### E.17.ID.CR:4.3.f - Representation ontology and modeling lens (informative)
+
+The early canonical lens for this branch is already stated near the top: one comparative review surface over already available, source-pinned material, with the same `DescribedEntityRef` preserved, one bounded contrast made visible, and stronger uptake kept outside.
+
+This informative note only unpacks that same lens. It does not introduce a second one.
+
+This pattern does not model interpretation in general.
+It models the `ComparativeReading` branch inside the broader `InterpretationDiscipline` umbrella.
+In plain terms, the pattern governs the review surface itself.
+That surface may appear as a comparison note, comparison sheet, or guided review aid, but it is not the whole review process, it is not the source system, and it is not the hidden act of reading in the abstract.
+The bounded comparative reading is the interpretive lift carried by that review surface.
+
+The minimum typed lens is a compact record of:
+- source anchors and source relation;
+- one declared semantic-claim kind;
+- one declared comparison basis and added-claim policy;
+- one allowed uptake boundary, one misuse-risk surface, and one `worldContactPolicy`;
+- the relevant prompt, ontology, and authority exit triggers;
+- and which neighboring pattern still owns the base case when this remains a mixed overlay.
+
+That lens is intentionally modest.
+It keeps the main read tied to the review surface and the problem-owning review domain, while inheriting host law plus the shared transduction baseline where those already govern source, continuity, and reroute burden.
+This branch therefore does not create a rival bridge taxonomy, a rival formal substrate, or a stronger authority surface of its own.
+
+#### E.17.ID.CR:4.3.g - Working read-out
+
+A working reader should be able to say, in one short paragraph:
+- what reviewed source material is being comparatively read;
+- what bounded interpretive lift is being added;
+- why the same `DescribedEntityRef` still remains preserved;
+- what stronger host seam is still negative;
+- and what reroute or handoff would become mandatory if the case were read more strongly.
+
+If that read-out becomes fuzzy, the review surface is no longer bounded enough to stay here and should weaken, clarify, or reroute.
+
+#### E.17.ID.CR:4.4 - Branch-law summary
+
+This section is the compact branch-law summary for `ComparativeReading` inside the Core.
+It keeps the branch burden recoverable for ordinary users and manager-first review.
+For mixed seams, the neighboring host-owner law still remains primary where the base case really belongs to `A.6.3.*`, `F.9.1`, or `E.17.EFP`.
+
+Use the fuller solution, reroute table, worked slices, and relations surfaces here when exact clause wording, full field burden, or full reopen burden matter.
+Keep the branch to these summary rules.
+
+1. **Preserve the same object of talk.**
+   Keep the same `DescribedEntityRef`, visible reviewed source material, visible source anchors, and one declared comparison basis; keep `contrastiveQuestion` explicit when it is doing real review work.
+2. **Keep the lift bounded and comparative.**
+   The review surface may add a bounded comparative or asymmetry-bearing reading, but it may not quietly intensify into stronger theory, bridge licence, route pressure, explanation governance, ontology shift, or downstream authority.
+3. **Classify the base case first.**
+   If the main burden is really same-entity rewrite, bridge explication, explanation-face work, prompt opening, ontology reframing, retargeting, or downstream authority, this pattern should not stay primary.
+4. **Keep stronger seams explicit.**
+   `BoundedCorrespondence` still carries explicit `bridgeCardRef` or `bridgeStanceRef`; prompt-worthy cases hand off as `U.AbductivePrompt`; ontology pressure exits to `OntologicalReframing` or `A.6.4`; stronger action, gate, or adjudication use exits to downstream authority patterns.
+5. **Keep reader-fit bounded.**
+   `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUptake`, and `misuseRisk` may be surfaced when they are doing real work, but they do not authorize coaching, route selection, policy guidance, or a stronger authority claim.
+
+#### E.17.ID.CR:4.5 - Quick reroute glance
+
+This table is a first-pass routing aid only.
+For fuller mixed-seam burden, read this table together with the neighboring host-owner law.
+
+| If the case is really doing this... | It should stay / move here... |
+| --- | --- |
+| one local head or qualifier is still doing too much work, but one honest repair would stabilize the same surface | `Surface Precision Restoration` |
+| the same note is mostly rewriting, reframing, or re-rendering the same thing with no bounded comparative lift | `A.6.3` / `A.6.3.CR` / `A.6.3.RT` |
+| the real job is only to make an already-declared bridge stance explicit | `F.9.1` |
+| one review surface already keeps the same object, one bounded comparison, and one outside-work boundary stable | `ComparativeReading` within `InterpretationDiscipline` |
+| the same surface still drifts between reviewed material, comparative move, and wider workflow after local repair | `Surface Object-of-Talk Discipline` |
+| the real burden is explanation-face governance on existing faces | `E.17.EFP` |
+| the comparison is now opening a route or prompt | `B.5.2.0 / B.5.2` |
+| the target or ontology is changing and now needs continuity witnesses | `OntologicalReframing` / `A.6.4` |
+| the surface is now being used for execution, gate, or adjudication consequence | `A.15 / A.20 / A.21` |
+
+For first-minute use, read the four routing rows around the branch itself as a compact mirror of the near-top working-entry check and the ordinary working card:
+- local pressured head -> `Surface Precision Restoration`;
+- stable same-object comparative surface -> stay with `ComparativeReading`;
+- same surface still drifting after local repair -> `Surface Object-of-Talk Discipline`;
+- stronger host seam already primary -> reroute out of this branch.
+If you already know you are exiting rather than staying, use the non-branch rows first and then read `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` as the nearest worked exit bank.
+
+#### E.17.ID.CR:4.5.a - Ordinary working order for the card
+
+The shortest ordinary working order is:
+1. classify the base host first if the case is mixed;
+2. pin the reviewed source material and make the same `DescribedEntityRef` visible;
+3. state the bounded comparative lift in one sentence;
+4. declare the stronger forbidden uptake and the review-only / non-executive world-contact limit;
+5. name the reroute trigger that would end interpretation.
+
+That five-step order is not a second ordinary working card, and it is not a canonical review workflow. It is only one local working aid for this branch.
+It is the shortest way to recover the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`.
+In ordinary use, publish the resulting seven-row burden in compact form rather than a heavier load-bearing declaration block whenever seam pressure still stays low.
+If the seven-row working card still cannot be completed plainly through that order, the review surface is not yet ready to stay here.
+If the note, sheet, or review aid first has to answer what it is about, what move it is carrying, and what wider work remains outside, reroute to `Surface Object-of-Talk Discipline` before continuing branch-local comparative-reading work.
+
+### E.17.ID.CR:5 - Archetypal grounding
+
+**Worked-slice status.** Read the system case, episteme case, and boundary-bank cases as a heterogeneous example bank, not as one recommended progression.
+They show different lawful outcomes for the same branch: some cases stay small and stop, some stay mixed with a host pattern, and some reopen or reroute when outside observations, environmental drift, or downstream constraints change what the comparative surface can honestly carry.
+
+#### E.17.ID.CR:5.1 - Tell
+
+`ComparativeReading` names the bounded middle band where a team needs to prepare one explicit comparative reading over already anchored material without yet opening route-selection work, ontology-facing reframing, or downstream authority use.
+The governed object is the comparative review surface.
+That review surface must stay modest enough that a reviewer can still see the same `DescribedEntityRef`, the declared comparison basis, the stronger forbidden uptake, and the reroute trigger that would end interpretation.
+
+#### E.17.ID.CR:5.2 - Show (System)
+
+**Source slice.** Two pinned operating notes describe the same service episode from different operational responsibilities.
+One note is anchored in the maintenance log, the other in the continuity dashboard for the same declared episode and the same `DescribedEntityRef`.
+
+**Comparative review surface.** `Under the declared comparison basis, the maintenance note foregrounds operator-induced variance, while the continuity note foregrounds buffer-sensitive drift; each view exposes a blind spot in the other without granting direct substitution.`
+
+**Why this stays here.**
+- source relation and source anchors are explicit;
+- the same `DescribedEntityRef` remains preserved;
+- one bounded comparative lift is added;
+- no substitution licence is added;
+- no rival route is yet being asked for.
+
+#### E.17.ID.CR:5.3 - Show (Episteme)
+
+**Source slice.** Two pinned analytic renderings over the same evidence packet are already available for review.
+One rendering is a `SourceLinkedReconstruction` on a Tech face; the other is a compact comparison sheet that preserves the same evidence packet and the same described operational episode.
+
+**Comparative review surface.** `For maintenance reviewers, the reconstruction foregrounds operator burden more strongly than the comparison sheet, while the comparison sheet foregrounds recovery sequencing more strongly than the reconstruction; this difference is useful for review, but it is not yet a design recommendation or a route claim.`
+
+**Why this stays here.**
+- the base host surfaces remain identifiable;
+- the comparative lift is explicit and bounded to one reviewer task;
+- explanation-face governance and same-entity transform law remain with their host patterns;
+- downstream authority and prompt-bearing route pressure remain negative.
+
+#### E.17.ID.CR:5.4 - Boundary bank
+
+##### E.17.ID.CR:5.4.1 - Lower-boundary bridge-explication case
+
+**Bridge-explication review surface.** `The local term tracks maintenance burden, while the partner term tracks service continuity, so the bridge should be read as asymmetry-explicating rather than substitution-friendly.`
+
+Why it stays under `F.9.1`:
+- the bridge stance is already declared;
+- the review surface only makes that stance more legible;
+- no bounded interpretive lift beyond bridge-explication is added.
+
+##### E.17.ID.CR:5.4.2 - Mixed primary-pattern composition with `A.6.3.RT`
+
+**Base host rendering.** A same-entity comparison sheet retabulates one pinned incident note into columns for trigger, burden, and recovery.
+
+**Comparative review surface.** `In the retabulated view, the recovery column makes the operator-induced asymmetry easier to inspect than the trigger column, but the table should not be read as establishing a new causal hierarchy.`
+
+Why this remains mixed rather than collapsing:
+- `A.6.3.RT` still owns the base representation shift;
+- bounded comparative reading is secondary and only adds a bounded comparative lift;
+- strongest forbidden-use constraint wins, so no new ontology or gate reading is licensed.
+
+##### E.17.ID.CR:5.4.3 - Mixed primary-pattern composition with `E.17.EFP`
+
+**Base host rendering.** A Tech-face explanation rendering is already classified as `SourceLinkedReconstruction` and publishes a bounded connective policy.
+
+**Comparative review surface.** `For maintenance reviewers, this rendering foregrounds the difference between operator burden and throughput burden more strongly than the original prose, but it should not be read as a stronger design-level recommendation.`
+
+Why this stays mixed rather than collapsing:
+- `E.17.EFP` still owns explanation class and face admissibility;
+- bounded comparative reading only adds a bounded comparative uptake for one reviewer task;
+- the review surface still does not own explanation-face governance or downstream authority.
+
+##### E.17.ID.CR:5.4.4 - Guided review aid with bounded interaction mode
+
+**Source slice.** A reviewer UI presents two already pinned source notes side by side for the same described operational episode.
+
+**Guided comparative review surface.** `Question: which note foregrounds variance introduced by operator timing rather than environmental drift? Allowed uptake: bounded comparative triage only. Misuse risk: do not treat this aid as route selection or release guidance.`
+
+Why it stays here:
+- the interaction mode is explicit but still bounded;
+- the review surface answers one contrastive question rather than opening route pursuit;
+- allowed uptake and misuse risk are visible instead of being smuggled into interface tone.
+
+##### E.17.ID.CR:5.4.5 - Product and design-review comparison case
+
+**Source slice.** Two already available design-review notes describe the same integration surface for the same planned release.
+One note foregrounds coupling and rollback burden; the other foregrounds delivery simplicity and lower immediate implementation cost.
+
+**Comparative review surface.** `For architecture review, the first note foregrounds coupling risk more strongly than the second, while the second foregrounds delivery speed more strongly than the first; that asymmetry is useful for discussion, but it is not yet a recommendation to choose either option.`
+
+**Entry-triage reading.** This is the ordinary stay-here branch: one honest local repair and one whole-surface check would already leave the review surface stable enough that the bounded comparative review move itself stays primary.
+
+Why it stays here:
+- the same planned release surface remains the `DescribedEntityRef`;
+- one bounded comparative lift is made explicit for a declared review task;
+- the surface supports design discussion without quietly becoming route selection or approval.
+
+##### E.17.ID.CR:5.4.6 - Compliance and release-review comparison case
+
+**Source slice.** An internal control checklist and a vendor compliance bulletin are already available for the same release candidate and the same declared control scope.
+
+**Comparative review surface.** `For release review, the vendor bulletin foregrounds protocol conformance more strongly than rollback evidence, while the internal checklist foregrounds rollback evidence more strongly than protocol conformance; this comparison helps frame the review, but it is not yet a release gate or equivalence claim.`
+
+**Entry-triage reading.** This is the same stay-here branch under a release/compliance load: the comparison surface is already stable enough, so the primary burden is the bounded contrast rather than local repair or whole-surface stabilization.
+
+Why it stays here:
+- the comparison basis is explicit and bounded to one review task;
+- the source anchors remain visible and the same release candidate stays in view;
+- the review surface helps a manager see a review asymmetry without laundering gate authority.
+
+##### E.17.ID.CR:5.4.6.a - Research-review comparison case
+
+**Source slice.** Two already available research syntheses discuss the same measured phenomenon and the same declared evidence slice.
+One synthesis foregrounds variance decomposition limits more strongly; the other foregrounds protocol repeatability more strongly.
+
+**Comparative review surface.** `For method review, the first synthesis foregrounds uncertainty-handling limits more strongly than the second, while the second foregrounds repeatability support more strongly than the first; this asymmetry helps frame the discussion, but it is not yet a method choice or a claim that one synthesis is globally better.`
+
+Why it stays here:
+- the same measured phenomenon remains the `DescribedEntityRef`;
+- the comparative lift is bounded to one review task;
+- the surface supports research discussion without quietly becoming route selection or ontological reframing.
+
+##### E.17.ID.CR:5.4.6.b - Program and cultural-review comparison case
+
+**Source slice.** Two already available programme briefs discuss the same continuing initiative and the same declared participation scope.
+One foregrounds continuity of community engagement more strongly; the other foregrounds short-term event visibility more strongly.
+
+**Comparative review surface.** `For programme review, the first brief foregrounds participation continuity more strongly than the second, while the second foregrounds short-term visibility more strongly than the first; this comparison helps frame the discussion, but it is not yet a funding, curation, or programme-direction decision.`
+
+Why it stays here:
+- the same initiative remains the `DescribedEntityRef`;
+- the comparison basis is explicit for one declared review task;
+- the surface supports programme discussion without laundering decision authority.
+
+##### E.17.ID.CR:5.4.6.c - Exogenous-drift stop-and-reopen case
+
+**Source slice.** An internal release-review comparison sheet already compares one control checklist and one vendor bulletin for the same declared release candidate and the same control scope.
+Mid-review, an external incident bulletin arrives and changes the live rollback assumptions for that same candidate.
+
+**Initial comparative review surface.** `Before the new bulletin, the vendor bulletin foregrounds protocol conformance more strongly than rollback evidence, while the internal checklist foregrounds rollback evidence more strongly than protocol conformance; this comparison frames the review, but it is not yet a release gate or equivalence claim.`
+
+**Entry-triage follow-through.** This case begins on the same lawful stay-here branch as `E.17.ID.CR:5.4.6`, but outside observation then changes the declared comparison basis, so the surface must stop and reopen instead of being carried forward by inertia.
+
+**Why this must stop and reopen.**
+- the new outside observation changes the declared comparison basis;
+- the previous bounded comparison may remain traceable, but it cannot continue by inertia as if the same live review conditions still held;
+- the lawful next move is either to restate a fresh comparative review surface over the new declared basis or to reroute into a neighboring lane if downstream gate or authority burden has now become primary.
+
+**Nearest first-minute exit bank.** The next four cases are the nearest worked exits for the quick exit route above: prompt pressure, same-entity viewing, ontology shift, and gate or authority misuse. Use them when the near-top negative-boundary rows fit and you need one worked reroute cue before opening the heavier branch stack.
+
+##### E.17.ID.CR:5.4.7 - Upper-boundary prompt-bearing exit case
+
+**Prompt-bearing review surface.** `This contrast raises the question whether both systems are being constrained by the same hidden gating variable, so we should open a prompt around that shared control possibility.`
+
+Why it exits:
+- route pressure has become live;
+- the review surface is now prompt-bearing rather than only interpretive;
+- the lawful home is `B.5.2.0 / B.5.2` through explicit `U.AbductivePrompt` handoff.
+
+##### E.17.ID.CR:5.4.8 - Same-entity viewing boundary case
+
+**Viewing surface.** `The source note is retabulated into a compact comparison sheet that preserves the same claims and entity but makes burden, trigger, and recovery fields easier to inspect.`
+
+Why it does not enter interpretation:
+- the main burden is representational reshaping rather than comparative reading;
+- no bounded asymmetry or interpretive claim is added;
+- the safer home is `A.6.3.RT`.
+
+##### E.17.ID.CR:5.4.9 - Ontology-exit anti-case
+
+**Ontology-pressuring review surface.** `The older maintenance note and the new drift note are best read as two observational cuts over the same latent failure mode, so we should recast both under a new operational kind and treat the source labels as legacy surface names.`
+
+Why it exits:
+- the case is now asking for a stronger same-referent / new-intension reading;
+- continuity witnesses would now be needed;
+- bounded comparative reading is no longer enough, so the lawful home is `OntologicalReframing`.
+
+##### E.17.ID.CR:5.4.10 - Authority and gate misuse anti-case
+
+**Authority-pressuring review surface.** `Because this comparison consistently foregrounds the safer operating posture, reviewers may use the review surface directly as a release gate and do not need the underlying source packet during triage.`
+
+Why it exits:
+- the review surface is being over-read as gate-facing authority;
+- the bounded comparative reading has become a substitute for stronger source-governed material;
+- the lawful home moves toward downstream authority patterns rather than staying in interpretation.
+
+##### E.17.ID.CR:5.4.11 - Invalid publication and repair example
+
+**Invalid review surface.** `These two views are basically the same thing for current operations, so the team can use whichever wording is easier.`
+
+Why it is invalid here:
+- no source anchors are visible;
+- `BoundedCorrespondence` is being implied without explicit bridge burden;
+- stronger substitution and authority uptake are being smuggled in through soft phrasing.
+
+**Minimal repair.** `Under bridge card BC-12 and the stated comparison basis, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source packet remains primary.`
+
+What the repair does:
+- restores the source and bridge anchors;
+- weakens the claim back to bounded comparative reading;
+- reasserts forbidden stronger uptake.
+
+### E.17.ID.CR:6 - Bias-Annotation
+
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
+Scope: **bounded comparative review surfaces governed under the `ComparativeReading` branch of `InterpretationDiscipline`**, not a universal claim about all review or publication forms.
+
+This pattern intentionally biases toward bounded comparative reading and away from hidden bridge inflation, explanation laundering, ontology shift, route pressure, or downstream-authority inflation.
+The main mitigations are explicit primary-pattern classification, visible source anchors, explicit interpretant-side boundedness, explicit stronger forbidden uptake, explicit governed-object surfacing, and hard exits to bridge, abductive, ontology, retargeting, and downstream-authority patterns.
+Under the governance lens, the pattern is deliberately conservative: it helps a user prepare or review a bounded comparative review surface without letting that surface quietly become policy, assurance, gate, or action authority.
+
+### E.17.ID.CR:7 - Conformance Checklist
+
+Use this as the ordinary checklist for this pattern.
+For fuller mixed-seam burden, read this checklist together with the neighboring host-owner law and the reroute surfaces gathered in this section.
+
+**Assurance recovery note.** Read this checklist as a heavier read-back of the already-declared branch burden, not as a second rule list. If a row cannot be recovered through the ordinary seven-row card, the nearest worked slices, or the practical safeguards already named in the pattern, the case is not yet stable enough to rely on checklist prose alone.
+
+1. **CC-ID-1 - Governed object is explicit.**
+   The pattern makes clear that the governed object is a comparative review surface rather than the whole review workflow or a hidden mental act.
+2. **CC-ID-2 - Source anchors and comparison basis are explicit.**
+   A reviewer can see what already-fixed material is being read and what declared comparison basis or contrast is carrying the lift.
+3. **CC-ID-3 - The lift stays bounded.**
+   The pattern keeps the comparative lift visibly weaker than bridge licence, explanation governance, route opening, ontology shift, or authority-bearing guidance.
+4. **CC-ID-4 - Host-first routing is explicit.**
+   A reviewer can tell why the case does not really belong to `A.6.3.*`, `F.9.1`, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
+5. **CC-ID-5 - Bridge burden does not hide.**
+   If `BoundedCorrespondence` is live, `bridgeCardRef` or `bridgeStanceRef` remains visible and subordinate.
+6. **CC-ID-6 - Stronger exits stay visible.**
+   Prompt-worthiness, ontology pressure, or downstream authority pressure leads to explicit reroute rather than staying hidden inside comparative prose.
+7. **CC-ID-7 - Reader-fit stays bounded.**
+   `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUptake`, and `misuseRisk` are visible when needed, but they do not open a stronger authority claim.
+8. **CC-ID-8 - The review surface does not over-claim authority.**
+   The surface is still review-only / non-executive and does not present itself as substitution licence, gate guidance, or action authority.
+
+**Checklist recovery map.** If an assurance-side reader needs to cash one checklist row out by value, use the nearest ordinary burden and worked recovery below before treating the checklist as self-sufficient:
+
+| Checklist row | Recover through first | Nearest worked or practical recovery |
+| --- | --- | --- |
+| `CC-ID-1` | `E.17.ID.CR:4.3.b.a` rows **Reviewed material** and **Same object of talk** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
+| `CC-ID-2` | `E.17.ID.CR:4.3.b.a` rows **Reviewed material**, **Source anchors**, and **Bounded lift** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
+| `CC-ID-3` | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Forbidden stronger uptake**, and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
+| `CC-ID-4` | near-top **Quick exit route**, **Quick first check**, and `E.17.ID.CR:4.5 - Quick reroute glance` | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
+| `CC-ID-5` | `E.17.ID.CR:4.3.d` bridge burden fields plus `E.17.ID.CR:4.2` host seams | `E.17.ID.CR:5.4.1`, `E.17.ID.CR:5.4.2`, `E.17.ID.CR:5.4.3` |
+| `CC-ID-6` | `E.17.ID.CR:4.3.b.a` row **Reroute trigger** plus the near-top exit corridor | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
+| `CC-ID-7` | `E.17.ID.CR:4.3.d` interpretant-side fields, kept subordinate to the ordinary card and stronger forbidden uptake | `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` |
+| `CC-ID-8` | `E.17.ID.CR:4.3.b.a` rows **Forbidden stronger uptake** and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
+
+### E.17.ID.CR:8 - Common Anti-Patterns and How to Avoid Them
+
+
+| Anti-pattern | Why it is wrong | How to avoid it |
+| --- | --- | --- |
+| **Governed-object drift** | The text sounds as if it governs a note in one section, a publication artifact in another, a reading move in a third, and a whole review process in a fourth. | Stabilise one governed object early and keep note/sheet/UI/rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
+| **Bridge gloss inflation** | A helpful comparative sentence starts acting like a stronger bridge licence than the declared bridge stance allows. | Keep `BoundedCorrespondence` tied to explicit `bridgeCardRef` or `bridgeStanceRef` and subordinate it to `F.9.1`. |
+| **Soft prompt smuggling** | The review surface is really opening a question or route, but hides it in gentle prose. | If route pressure becomes live, publish `U.AbductivePrompt` with explicit `promptSpecies`, `openQuestion`, and cue or route provenance instead of keeping it here. |
+| **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Classify the base pattern first and open interpretation only when comparative lift is primary. |
+| **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and admissibility review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
+| **Gentle-tone advisory drift** | A calm explanatory tone makes action, assurance, or gate guidance sound harmless. | Publish `allowedUptake`, `misuseRisk`, `worldContactPolicy`, and `downstreamAuthorityLimit` explicitly. |
+| **Object-of-talk drift** | A changed target is mislabeled as interpretation because the prose still sounds comparative. | Exit to `OntologicalReframing` or `A.6.4` once continuity witnesses or changed target become load-bearing. |
+| **Interface neutrality fiction** | A guided or contrastive aid pretends to be audience-neutral while steering stronger uptake. | Make `targetUserModel`, `interactionMode`, and `contrastiveQuestion` explicit and keep the stronger use forbidden. |
+
+### E.17.ID.CR:9 - Consequences
+
+- The middle band between bridge-explication and prompt-bearing abduction becomes reviewable rather than rhetorical.
+- Reviewers get a cleaner way to distinguish comparative interpretation from same-entity viewing, explanation rendering, ontology shift, and downstream authority.
+- Authors pay a small extra declaration burden, but the gain is fewer hidden host-boundary mistakes and less governed-object drift.
+- Guided comparative review surfaces become easier to prepare honestly because allowed uptake, misuse risk, and world-contact limits can be declared without pretending that the surface already carries a broader guidance burden than it really does.
+- Users get a lawful way to keep bounded comparative review surfaces modest: the surface can stay useful while its reading pressure remains below the reroute threshold for prompt publication, ontology-facing reframing, or gate-facing guidance.
+
+### E.17.ID.CR:10 - Rationale
+
+Teams already write small comparative review surfaces, often as comparison notes or sheets, to move a review forward.
+What they usually lack is a disciplined way to keep that surface useful without letting it silently become an equivalence claim, a hidden hypothesis, a redesign push, or a release decision.
+
+This pattern exists to protect that everyday review move.
+It keeps a comparative review surface usable by making five things visible enough to inspect: the governed object, the source anchors, the bounded comparative lift, the stronger forbidden uptake, and the reroute trigger that would end interpretation.
+The gain is practical: a team can compare available material honestly without pretending that a helpful review surface already carries more authority than it really does.
+
+### E.17.ID.CR:11 - SoTA-Echoing
+
+**SoTA note.** This section does not mint an independent second rule layer. It is a load-bearing alignment surface: the Solution, Conformance Checklist, boundary rules, and Relations of this pattern must match the stance stated here or explicitly justify any divergence.
+**Assurance recovery note.** Read each row here as a heavier confirmation of one already-declared branch burden. If a row cannot be recovered through the ordinary card, the interpretant-side block, the quick exit corridor, or the nearest worked slices, do not let the citation carry the branch by itself.
+
+**Traditions covered.** This pattern binds itself to architecture-description governance, explainable-AI review discipline, and interactive explanation-system practice. These rows are selected because they discipline recurrent review work in the problem-owning domains named in the case bank; they are not a decorative literature collage added after the branch was chosen.
+
+| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with the current `ComparativeReading` branch | Nearest recovery surface | Adoption status |
+| --- | --- | --- | --- | --- | --- |
+| Comparative review surfaces should stay tied to explicit source, view, and review structure rather than drifting through helpful prose alone. | Architecture-description practice treats views, viewpoints, and comparison surfaces as explicit review objects rather than letting reader-help prose replace structural review. | ISO/IEC/IEEE 42010:2022 | This pattern adopts explicit source anchors, declared comparison basis, and explicit reroute laws instead of letting comparative fluency define the case. | `E.17.ID.CR:4.3.b.a` rows **Reviewed material**, **Source anchors**, and **Bounded lift**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` | **Adopt.** |
+| Interpretation and explanation support are use-sensitive and bounded by reader role and knowledge limits rather than audience-neutral by default. | Explainable-AI guidance distinguishes explanation, meaningfulness for intended users, explanation accuracy, and knowledge limits instead of treating all supportive prose as equally safe. | Phillips et al. (2021), NIST IR 8312, *Four Principles of Explainable Artificial Intelligence* | This pattern adapts that stance into `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUptake`, and `misuseRisk`, while still keeping explanation-face classification with `E.17.EFP`. | `E.17.ID.CR:4.3.d` interpretant-side block, kept subordinate to the ordinary card; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` | **Adopt/Adapt.** |
+| Interactive interpretive aids need explicit interaction architecture so that helpful guidance does not quietly become stronger authority. | Interactive explanation-system practice treats user model, interaction mode, and explanation lifecycle as load-bearing architecture elements rather than optional interface gloss. | *X-SYS: A Reference Architecture for Interactive Explanation Systems* (2026) | This pattern adapts that lesson narrowly: bounded interaction is allowed only while prompt, ontology, and authority exits remain explicit and stronger governed exits remain negative. | `E.17.ID.CR:4.3.d` interaction fields plus `E.17.ID.CR:4.5 - Quick reroute glance`; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.7` | **Adapt.** |
+| Faithful support is not the same as merely plausible or persuasive prose. | Current interpretation research distinguishes faithful support from attractive but weakly grounded narrative, especially in explanation-like publication. | Jacovi and Goldberg (2020), *Towards Faithfully Interpretable NLP Systems* | This pattern adopts explicit source anchors, stronger forbidden uptake, and bridge burden visibility so that bounded comparative reading is not over-read as stronger semantic authority. | `E.17.ID.CR:4.3.b.a` rows **Forbidden stronger uptake** and **World-contact limit**; `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` | **Adopt.** |
+
+**Row 1.** The ISO row matters because this pattern is governing reviewable comparative surfaces, not free comparative commentary. The pattern adopts the explicit-structure lesson directly: comparison basis, source anchors, and reroute laws must stay visible enough that a reviewer is not forced to infer the real burden from tone alone. Ordinary recovery: read the **Reviewed material**, **Source anchors**, and **Bounded lift** rows together before leaning on the citation. Manager payoff: a comparison note can help a review meeting move faster without being mistaken for a free-form equivalence judgement. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.a`.
+
+**Row 2.** The NIST row matters because this pattern is not really audience-neutral even when the review surface looks small. The pattern therefore adapts user-meaningfulness and knowledge-limit practice into explicit interpretant-side fields, while rejecting any move that would let those fields replace source or pattern discipline. Assurance recovery: keep those fields subordinate to the ordinary card and stronger forbidden uptake rather than letting them stand alone. Manager payoff: the note can be written for a real audience and task without pretending it is safe for every audience and every downstream use. Case linkage: see `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.b`.
+
+**Row 3.** The interactive-system row matters because bounded comparative aids can become stronger than static prose without crossing into a full new governed pattern of their own. The pattern adapts only the minimal architectural lesson it needs: if interaction mode is load-bearing, that fact must be explicit and must still stop before prompt, ontology, or authority escalation. Assurance recovery: read that burden through the interaction fields plus the prompt and authority exit rows rather than treating the source citation as a licence for stronger guidance. Manager payoff: a guided comparative UI can stay useful for review without silently becoming coaching, route selection, or approval machinery. Case linkage: see `E.17.ID.CR:5.4.4` and `E.17.ID.CR:5.4.7`.
+
+**Row 4.** The faithfulness row matters because a comparative review surface can sound careful while still smuggling bridge, route, or authority burden. The pattern adopts the demand for explicit grounding, but rejects any shortcut where plausible comparative prose is treated as if it were already a stronger semantic or operational licence. Ordinary recovery: use the **Forbidden stronger uptake** and **World-contact limit** rows before letting polished prose win the argument by tone. Manager payoff: polished prose is no longer enough to overrule the underlying source packet or to sneak in a stronger decision claim. Case linkage: see `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, and `E.17.ID.CR:5.4.11`.
+
+### E.17.ID.CR:12 - Relations
+
+- **Naming-level umbrella:** `InterpretationDiscipline` names the wider interpretation zone for this branch.
+- **Branch:** `ComparativeReading` over comparative review surfaces.
+- **Inherited dynamic frame:** `C.2.2a` and `A.16.0`, where what moves is a lineage of successive governed `U.Episteme` publications over `U.CharacteristicSpace`.
+- **Surface lane reading:** the comparative review surface is one working or publication surface over that inherited frame; it is not the moving lineage itself, not a carrier, and not the whole review workflow.
+- **Builds on:** `C.2.2a`, `A.16.0`, `F.9`, `E.14`
+- **Normative dependencies:** the shared transduction baseline plus whichever host law still governs the base case (`A.6.3.*`, `F.9.1`, or `E.17.EFP` in mixed seams); those constraints remain normative even when the branch stays small.
+- **Canonical branch-law locus inside the Core:** this section now carries the branch-local summary, checklist, worked slices, and boundary surface for `ComparativeReading`; mixed-seam host-owner law remains primary where the base case still belongs elsewhere.
+- **Drafting-support companions:** use `Surface Precision Restoration` when head-kind or qualifier pressure is still local; use `Surface Object-of-Talk Discipline` when the same review surface still drifts between reviewed material, governed surface, comparative move, and outside workflow after local repair. These are drafting-support repair companions, not always-on prerequisites for ordinary `ComparativeReading` use.
+- **Coordinates with:** `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `F.9.1`, `E.17.EFP`, `B.5.2.0`, `B.5.2`, `OntologicalReframing`, `A.6.4`, `A.15`, `A.20`, `A.21`
+- **Primary boundary touch-points:** `A.6.3.*`, `F.9.1`, `E.17.EFP`, and `B.5.2.0 / B.5.2`
+- **Exit seams:** rival-route pressure exits to `B.5.2.0 / B.5.2`; ontology and changed-target pressure exit to `OntologicalReframing` or `A.6.4`; downstream action, gate, assurance, and adjudication pressure exit to `A.15 / A.20 / A.21`
+- **Boundary notes:** same-entity transform law stays with `A.6.3.*`; bridge-explication stays with `F.9.1`; explanation-face governance stays with `E.17.EFP`; bounded comparative reading does not by itself authorize stronger downstream use.
+- **Non-goal:** this branch does not create a rival authority surface, a rival bridge taxonomy, or a rival formal substrate.
+
+### E.17.ID.CR:End
+
+
+
+
+## E.18 - Transduction Graph Architecture (E.TGA)
 
 > **Tech‑name:** **E.TGA** (pattern label)
 > **Plain‑name:** Architecture of the transduction graph
@@ -42386,7 +44455,7 @@ Without a unified, explicit review pattern:
 | **Uniformity vs Fit**                   | One universal checklist is simple ↔ different pattern kinds carry different risks.  |
 | **Rigor vs Editorial cost**             | Deep audits increase quality ↔ they must remain feasible for routine updates.       |
 | **Stability vs Evolution**              | Canon should stay stable ↔ it must absorb new SoTA and correct mistakes.            |
-| **Conceptual purity vs Enforceability** | Core must stay tooling‑agnostic ↔ gates must still be actionable and auditable.     |
+| **Conceptual purity vs Enforceability** | Core must stay implementation-agnostic ↔ gates must still be actionable and auditable.     |
 | **Local meaning vs Reuse**              | Patterns must remain context‑anchored ↔ authors want to reuse ideas across domains. |
 | **Freshness vs timelessness**           | Some claims should be evergreen ↔ others decay and must be refreshed on cadence.    |
 
@@ -42417,14 +44486,16 @@ Every run MUST include **PCP‑BASE**, reviewer depth SHOULD prioritize the load
 2. **Lexical discipline & reserved vocabulary**
    Terms and registers follow lexical rules; ambiguous “everyday” synonyms do not silently replace kernel vocabulary.
 3. **SoTA‑Echoing minimum compliance (E.8)**
-   SoTA‑Echoing satisfies the E.8 obligations applicable to the pattern kind (Architectural vs Definitional), including post‑2015 sourcing and explicit adopt/adapt/reject stances. If a SoTA Synthesis Pack exists for the topic, SoTA‑Echoing binds to it rather than forking an untracked narrative; any divergence of pattern norms from contemporary practice is explicitly stated as such. SoTA‑Echoing **MUST** be non‑decorative: the Solution and other load‑bearing sections **MUST** align with the declared SoTA stance, or explicitly justify any divergence.
+   SoTA‑Echoing satisfies the E.8 obligations applicable to the pattern kind (Architectural vs Definitional), including post‑2015 sourcing and explicit adopt/adapt/reject stances. If a SoTA Synthesis Pack exists for the topic, SoTA‑Echoing binds to it rather than forking an untracked narrative; any divergence of pattern norms from contemporary practice is explicitly stated as such. SoTA‑Echoing **MUST** be non‑decorative and **MUST** reflect best-known current practice rather than merely popular defaults for the declared problem. It does not create a second rule layer, but it **MUST** govern the Solution and other load-bearing sections, or those sections **MUST** justify divergence explicitly.
 4. **Cross-pattern compatibility & impact radius**
    Relations are consistent with declared dependencies and dependents; declared scope/impact is compatible or explicitly limited.
 5. **Didactic grounding**
    Archetypal Grounding is present and teaches the concept with concrete anchors, not only abstractions.
-6. **Template & section integrity**
+6. **Reader-role fit**
+   The live pattern body stays addressed to the intended FPF user rather than to FPF developers or package architects. Load-bearing sections explain lawful use, costs, boundaries, reroutes, and neighbouring relations in user terms. Architecture-placement, freeze/merge posture, and broader package-development rationale stay in separate companions or clearly marked informative placement notes when needed.
+7. **Template & section integrity**
    This is lowest priority for review depth and **SHOULD NOT** consume effort that would displace ontology/semantics/modularity/slots/SoTA checks. 
-7. **Modularity & contradiction hygiene**
+8. **Modularity & contradiction hygiene**
    The pattern **SHOULD NOT** be overloaded or significantly expand obligations/dependencies without an explicit reason and impact record.
    Checks include: scope containment, split/refactor recommendations when warranted, and contradiction scans against neighbor patterns in Relations.
    The pattern SHOULD balance cohesion and coupling across FPF.
@@ -42435,30 +44506,33 @@ Every run MUST include **PCP‑BASE**, reviewer depth SHOULD prioritize the load
 PQG is meant to increase *semantic and ontological trust*, not to turn every review into an exhaustive editorial audit on form. To keep reviews feasible while improving the important parts:
 
 * Treat **load-bearing surfaces** as the primary depth targets:
+  * the pattern’s **Problem frame**, **Rationale**, and **worked slices** when a new family/profile/specialization would otherwise be intelligible only from project context,
+  * reader-role fit in **Problem**, **Solution**, **Consequences**, **Rationale**, and worked slices whenever the draft risks mixing user guidance with package-development rationale,
   * the pattern’s **Conformance Checklist** (the enforceable contract): keep items universal, cognitively ergonomic, not overly prohibitive, and avoid duplicating checks that belong to other patterns (modularity),
   * **deontic clauses** (`MUST/SHALL/SHOULD/MAY`) that define obligations on the authoring/validation plane (not laws of nature or mathematical facts; ensure an explicit conformance subject),
-  * **admissibility constraints** (`Invariant:` / `Well‑formedness constraint:`) that define valid models (cardinality, typing/kinds, totality) and are written as non‑deontic predicates (no RFC keywords inside the predicate),
+  * **admissibility constraints** (`Invariant:` / `Well-formedness constraint:`) that define valid models (cardinality, typing/kinds, totality) and are written as non-deontic predicates (no RFC keywords inside the predicate),
   * **definitions and mint/reuse decisions** (new terms, renamed terms, scope claims baked into names, names that are not overloaded and are properly chosen),
   * **cross-context / cross-plane claims** (Bridge hygiene and “sameness” assertions),
-  * **SoTA** (when the pattern claims state‑of‑the‑art rather than a popular‑but‑outdated solution or vocabulary),
+  * **SoTA** (when the pattern claims state-of-the-art rather than a popular-but-outdated solution or vocabulary),
   * **modularity and Slot discipline of A.6.5** that provide evolvability of FPF,
   * **absence of contradictions in a pattern**,
   * **Relations** that define compatibility and impact radius.
-* Treat **low-signal surfaces** as “scan-level” unless they change meaning: headings/formatting, micro-typos, stylistic polish, and non-load-bearing narrative refactors, compliance to deontic RFC.
-* **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H‑5), missing canonical sections, or a missing footer marker are fixable integrity defects. Patch them quickly and continue with the load-bearing surface checks in the same run.
+* Treat **low-signal surfaces** as “quick-pass” unless they change meaning: headings, micro-typos, stylistic polish, and non-load-bearing narrative refactors, including RFC-form deontic cleanup.
+* **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H-5), missing canonical sections, or a missing footer marker are fixable integrity defects. Patch them quickly and continue with the load-bearing surface checks in the same run.
+* **Sentence-level precision matters on load-bearing prose.** Reviewers SHOULD inspect load-bearing sentences for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. The default repair order is: restore head kind, then qualifier burden, then comparison/escalation axis homogeneity, and only then judge whether a later Plain or coarsened rendering is lawful.
+* **Design-time and run-time both count.** The same precision discipline applies to live FPF pattern prose and to any target publication text, worked slice, or governed runtime exemplar when that text is being assessed for stronger admissibility, guidance, reuse, or gating.
 * **Report ordering (impact-first).** In run outputs and remediation patches, prioritize fixes on ontology, semantic, modularity and SoTA-related load-bearing surfaces first; group low-signal formatting/typos into a single hunk at the end unless they change meaning.
 
 #### E.19:4.3 - Add risk-driven profiles
 
 **PCP‑PRAG (Pragmatic utility & adoption)** — Trigger: the pattern is Normative and claims practice guidance.
-Checks include: minimally viable example, non-decorative Consequences/Anti-Patterns, and an explicit “So what?” adoption test.
-
-**PCP‑MOD (Modularity & layering discipline)** — Trigger: the review target shows scope creep or level-mixing (e.g., one pattern bundles universal core rules with frame-specific content and discipline-specific method semantics; or it mixes `Intension`/`Description`/`Spec` roles in one object).
+Checks include: a visible recognition surface early enough for a cold working reader; a recognisable first-minute working situation; one short `Use this when` or equivalent entry; a plain statement of what goes wrong if the pattern is missed; a plain statement of what the pattern buys in practice; a visible ordinary `not this pattern when` boundary; a minimally viable example; non-decorative Consequences/Anti-Patterns; at least one worked slice when the pattern is easy to misuse; a visible assurance surface carrying declaration, law, modeling, and review burden; surface consistency so that the assurance surface does not silently strengthen or universalize the recognition-surface claim; explicit practical payoff in user-facing prose; a short user-facing statement of the governed object and any minimal modeling lens when typed declaration support is load-bearing; nearby pairwise plain glosses for high-pressure technical terms that appear before the heavier harness; a short working-reader implication for any `SoTA-Echoing` rows that carry live explanatory load plus visible linkage to the worked cases or boundary slices they discipline; an explicit primary working reader / concern / viewpoint when several reader families are being served; an explicit `So what?` adoption test; and, when the pattern claims universal or transdisciplinary reach, at least three heterogeneous recognition-surface situations with `F.16` preferred as the compact example-matrix template.
+**PCP‑MOD (Modularity & layering discipline)** — Trigger: the review target shows scope creep or level-mixing (e.g., one pattern bundles universal core rules with frame-specific content and discipline-specific method semantics; or it mixes Intension/Description/Spec roles in one object).
 Checks include:
 
 * an explicit **core vs extensions** cut (universal invariants are factored into one stable “core”, and extensions reference it rather than re-stating or mutating it),
 * no conflation of **specialization vs dependency**: use `⊑/⊑⁺` for refinement/extension and `Uses` for pipelines; do not mix their semantics,
-* no conflation of container roles: **Pack vs Kit vs Suite vs Family** are not interchanged, and “family of implementations” is not used as “set of mechanisms”,
+* no conflation of package-form and host-relation roles: **Pack vs Kit vs Suite vs Family vs Bundle vs Cluster vs Profile vs Overlay vs Record vs Umbrella** are not interchanged, and the review states owner status / host relation explicitly instead of leaving it implicit or varying it for style,
 * level hygiene: Description-level artefacts do not grow mechanism semantics; MVPK faces remain projections and do not become “the place of truth”,
 * slot-discipline hygiene for any ladder: SlotKind invariance is preserved and inherited operations do not gain new mandatory inputs (A.6.5 / A.6.1 specialization discipline).
 
@@ -42467,7 +44541,7 @@ Checks include:
 
 * refresh‑sensitive claims are identified (time‑bounded or ecosystem‑bounded) and either (a) updated with post‑2015 evidence **and** matching Solution changes, or (b) explicitly scope‑limited and labeled as historical lineage,
 * Relations are updated to current pattern IDs; deprecations/renames are handled via explicit continuity notes (no silent relabeling),
-* the run records a Delta‑Class and impact radius; if the refresh causes Δ‑2/Δ‑3, it emits/updates a DRR pointer and triggers any required harness/Bridge refresh obligations defined elsewhere (E.15/F.15/F.9).
+* the run records a Delta‑Class and impact radius; if the refresh causes Δ‑2/Δ‑3, it emits/updates a DRR pointer and triggers any required refresh and Bridge obligations defined elsewhere (E.15/F.15/F.9).
 
 Trigger overrides are permitted but intentionally rare: a run MAY override a triggered profile only when it can show the trigger’s risk is genuinely absent *in this case*, and the record MUST name (a) why the trigger is a false positive here and (b) what compensating check(s) were applied instead.
 
@@ -42482,8 +44556,8 @@ Checks include:
 **PCP‑SOTA (Evidence & SoTA alignment)** — Trigger: the pattern’s Solution asserts “best practice”, “state-of-the-art”, or introduces new synthesis claims.
 Checks include:
 
-* each “best practice / SoTA” claim in the Solution is explicitly **bound** to SoTA‑Echoing rows (or to SoTA Synthesis Pack identifiers when used), rather than floating as ungrounded prescription,
-* novel synthesis is not presented as established SoTA: it is either (a) framed as a scoped hypothesis with explicit limits, or (b) promoted into/registered as a SoTA Synthesis Pack entry before the pattern is admitted as normative guidance,
+* each “best practice / SoTA” claim in the Solution is explicitly **bound** to SoTA‑Echoing rows (or to SoTA Synthesis Pack identifiers when used), rather than floating as ungrounded prescription, and those rows identify best-known current practice rather than popularity alone,
+* novel synthesis is not presented as established SoTA: it is either (a) framed as a scoped hypothesis with explicit limits, or (b) promoted into/registered as a SoTA Synthesis Pack entry before the pattern is admitted as normative guidance; a merely explanatory SoTA note that leaves the load-bearing sections untouched is non-conforming,
 * where traditions disagree materially, the pattern surfaces the disagreement and states why it adopts/adapts/rejects (instead of silently selecting one tradition),
 * refresh‑sensitive claims (those likely to decay) are explicitly marked with scope limits, timespan notes, or lineage labeling when appropriate.
 
@@ -42523,34 +44597,38 @@ Checks include:
 * MVPK projections remain projections: any `U.View` face (TechCard/PlainView/InteropCard/AssuranceLane) over a plan item MUST NOT add new claims, MUST NOT introduce “shadow defaults”, and MUST avoid “signature” language (signatures belong to intensional objects),
 * if a view publishes edition pins or makes claims about crossing/comparability/selection/launch, it MUST also carry the required audit/ownership pins (UTS + Path pins, crossing pins, applicable guard-owner pins); missing pins are treated as nonconformance and read fail-closed downstream.
 
-**PCP‑TERM (Terminology & naming protocol)** — Trigger: the pattern introduces new terms, new U.Types, new “unified names”, or redefines existing labels.
+**PCP-TERM (Terminology & naming protocol)** — Trigger: the pattern introduces new terms, new U.Types, new “unified names”, redefines existing labels, or leans on load-bearing phrases whose head kind or qualifier burden is not yet restored.
 Checks include:
 
 * “mint vs reuse” decision is explicit,
 * naming follows the local-first naming protocol and avoids scope smuggling (roles/metrics/stages baked into labels; overloaded words used as terms with a local sense). Remediation **SHOULD** use F.18,
+* generic heads and burden-carrying qualifiers are not accepted at face value on load-bearing surfaces: the review restores the head kind first, and a narrowing qualifier by itself does **not** count as that restoration; only then does the review restore the qualifier burden before deciding whether the phrase is lawful,
+* if a sentence compares, escalates, downgrades, or otherwise puts pressure on a phrase after that restoration, the review checks that the comparison axis is ontologically homogeneous,
 * deprecated aliases and continuity rules are respected.
 
 **PCP‑DEONT (Deontic clause hygiene: RFC keywords)** — Trigger: the pattern conflates admissibility/validity constraints with deontic obligations (e.g., uses RFC keywords where a non-deontic `Invariant:` predicate is required).
 Checks include:
 * Deontic requirements are expressed with RFC-style keywords (see H‑8); 
 * obligations are not smuggled into prose as informal imperatives. Admissibility/validity constraints are stated non‑deontically as `Invariant:` / `Well‑formedness constraint:` predicates and referenced from the Conformance Checklist when enforceable. 
-* **Subject discipline for RFC keywords.** If a sentence uses RFC keywords, its grammatical subject **MUST** be an agent or a publishable artefact (author, reviewer, tool, model, record, validator). RFC keywords **MUST NOT** modify modeled‑world entities (e.g., “Earth”, “RoleAssignment”, “Role”, “holon”) — express those as `Invariant:` / `Well‑formedness constraint:` predicates instead, and (if needed) reference them from CC items.
+* **Subject discipline for RFC keywords.** If a sentence uses RFC keywords, its grammatical subject **MUST** be an agent or a publishable artefact (author, reviewer, record, published model). RFC keywords **MUST NOT** modify modeled‑world entities (e.g., “Earth”, “RoleAssignment”, “Role”, “holon”) — express those as `Invariant:` / `Well‑formedness constraint:` predicates instead, and (if needed) reference them from CC items.
 
 #### E.19:4.4 - Decision outcomes
 
-A PQG run **MUST** end with (a) a remediation patch (English, unified diff, fenced) and (b) a compact list of blocking findings.
+A PQG run **MUST** end with (a) concrete remediation proposals and (b) a compact list of blocking findings.
 
-**Remediation payload (patch-first).** The run MUST provide concrete remediation proposals as a unified diff patch in English in a fenced code block (if patch is huge, acceptable have it in separate file to have all needed details without need to excess brevity), accompanied by a short commentary stating (a) the explicit misses found and (b) any remaining work that was intentionally deferred. This is a user interchange convention, not a tool mandate.
+**Remediation payload.** The run **MUST** provide concrete proposed changes in a form that can be adopted into the target text, accompanied by a short commentary stating (a) the explicit misses found and (b) any remaining work that was intentionally deferred.
 
-**Report ordering (impact-first).** The patch is the primary artifact. In the short commentary, list findings in descending order of expected impact on semantic trust (load-bearing surfaces first). Template/formatting-only issues belong at the end unless they hide missing content.
+**Precision-remediation order.** When a defect sentence combines a generic head, a burden-carrying qualifier, and mixed-axis comparison pressure, remediation SHOULD repair them in that order: restore head kind, then qualifier burden, then comparison-axis homogeneity. A narrowing qualifier does **not** by itself repair the head-kind defect. Only after those repairs may the run keep or reintroduce a Plain, didactic, or coarsened restatement, and only if the more precise upstream reading remains recoverable.
 
-**Budget discipline (anti‑lint‑worship).** If the run identifies semantic defects in load-bearing surfaces, remediation MUST prioritize those fixes; purely mechanical edits (formatting, micro-typos) MUST be minimized and MUST NOT dominate the patch by volume.
+**Report ordering (impact-first).** The remediation proposals are the primary artifact. In the short commentary, list findings in descending order of expected impact on semantic trust (load-bearing surfaces first). Template-only issues belong at the end unless they hide missing content.
 
-**Noise discipline.** The run record is a human-facing audit trail. It **SHOULD** be sparse: list findings, deferrals, and decisions; do **not** paste full PASS output. No need emitting per-check “passed” lines; only found problems and remediation/fixes matter.
+**Budget discipline (anti-surface-only review).** If the run identifies semantic defects in load-bearing surfaces, remediation **MUST** prioritize those fixes; purely mechanical edits (formatting, micro-typos) **MUST** be minimized and **MUST NOT** dominate the remediation by volume.
+
+**Noise discipline.** The run record is a human-facing audit trail. It **SHOULD** stay sparse: list findings, deferrals, and decisions; no per-check pass recital is needed when no defect was found.
 
 ### E.19:5 - Archetypal Grounding — Tell–Show–Show: System / Episteme
 
-| Scenario | `U.System` grounding | `U.Episteme` grounding |
+| Scenario | U.System grounding | U.Episteme grounding |
 |---|---|
 | **Tell** | A safety-critical engineering team proposes a new pattern describing how to gate a subsystem before deployment. The draft looks polished, but it quietly imports domain terms, assumes cross-team equivalences, and introduces obligations that are not listed in its own checklist. | A research group refreshes an older pattern that summarizes how to evaluate evidence strength. The pattern still reads well, but its SoTA references and terminology no longer match current practice, and its Relations point to patterns that were renamed or superseded. |
 | **Show (failure without PQG)** | Reviewers focus on whether the idea is good and whether the template exists. The pattern is admitted, but later users disagree on what it requires because the Conformance Checklist is incomplete and key constraints are only in prose. | The pattern remains unchanged because “nothing looks broken”. Over time, it becomes a conceptual fossil: newcomers treat it as current guidance, but it encodes an outdated stance and stale vocabulary. |
@@ -42575,23 +44653,38 @@ Bias risks and mitigations:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC‑E19‑1 (Baseline is mandatory).** | Every PQG run **MUST** apply **PCP‑BASE** to the review target. | Ensures a uniform minimum gate across all pattern kinds. |
-| **CC‑E19‑2 (Profile selection is auditable).** | The run record **MUST** state (a) the selected PCPs, (b) the trigger(s) for each non‑BASE profile, and (c) any override decisions. Any override of a triggered profile **MUST** record why the trigger is a false positive and what compensating check(s) were applied instead. | Makes depth decisions repeatable and reviewable. |
-| **CC‑E19‑3 (Delta‑Class & impact for breaking change levels).** | If the run proposes or accepts a change that is **Δ‑2/Δ‑3** (per E.15), the run record **MUST** include Delta‑Class, an impact radius, and a DRR pointer; it **MUST** confirm that required harness/Bridge refresh obligations are triggered where applicable. | Keeps evolution controlled and compatible with downstream dependencies. |
-| **CC‑E19‑4 (Contract coherence is enforced).** | Remediation **MUST** eliminate “orphan” obligations and “unclaimed” requirements by aligning the target pattern’s Conformance Checklist, deontic clauses, and admissibility constraints with its Solution. | Preserves the CC as the enforceable contract surface. |
-| **CC‑E19‑5 (Triage & noise discipline).** | The run **SHOULD** prioritize load‑bearing surfaces (e.g. CC, content of deontic clauses and content of admissibility constraints, definitions, Relations, SoTA, modularity) and keep purely mechanical edits (e.g. RFC format of deontic clauses) minimal. Template defects **MUST** be fixed before admission (or before closing a refresh run) but **MUST NOT** be used to skip semantic review. | Improves semantic trust without turning review into lint and RFC compliance worship. |
-| **CC‑E19‑6 (Patch-first output).** | The run output **MUST** include a remediation patch (English, unified diff, fenced) and a compact list of blocking findings, ordered by semantic impact (load‑bearing surfaces first). | Ensures actionability and consistent reporting. |
-
+| **CC-E19-1 (Baseline is mandatory).** | Every PQG run **MUST** apply **PCP-BASE** to the review target. | Ensures a uniform minimum gate across all pattern kinds. |
+| **CC-E19-2 (Profile selection is auditable).** | The run record **MUST** state (a) the selected PCPs, (b) the trigger(s) for each non-BASE profile, and (c) any override decisions. Any override of a triggered profile **MUST** record why the trigger is a false positive and what compensating check(s) were applied instead. | Makes depth decisions repeatable and reviewable. |
+| **CC-E19-3 (Delta-Class & impact for breaking change levels).** | If the run proposes or accepts a change that is **Δ-2/Δ-3** (per E.15), the run record **MUST** include Delta-Class, an impact radius, and a DRR pointer; it **MUST** confirm that required refresh and Bridge obligations are triggered where applicable. | Keeps evolution controlled and compatible with downstream dependencies. |
+| **CC-E19-4 (Contract coherence is enforced).** | Remediation **MUST** eliminate “orphan” obligations and “unclaimed” requirements by aligning the target pattern’s Conformance Checklist, deontic clauses, and admissibility constraints with its Solution. | Preserves the CC as the enforceable contract surface. |
+| **CC-E19-5 (Triage & noise discipline).** | The run **SHOULD** prioritize load-bearing surfaces (e.g. CC, content of deontic clauses and content of admissibility constraints, definitions, Relations, SoTA, modularity) and keep purely mechanical edits (e.g. RFC-form deontic cleanup) minimal. Template defects **MUST** be fixed before admission (or before closing a refresh run) but **MUST NOT** be used to skip semantic review. | Improves semantic trust without turning review into surface-only compliance. |
+| **CC-E19-6 (Concrete remediation output).** | The run output **MUST** include concrete remediation proposals and a compact list of blocking findings, ordered by semantic impact (load-bearing surfaces first). | Ensures actionability and consistent reporting. |
+| **CC-E19-7 (Recognition surface, assurance surface, and self-containment).** | Admission or refresh runs for new and substantially revised patterns **MUST** check that a recognition surface appears early enough for the intended reader, that the heavier assurance surface remains visibly second rather than becoming the first real point of entry, and that the assurance surface does not silently shift the recognition-surface claim. The run **MUST** check for a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and an ordinary `not this pattern when` boundary; for any load-bearing typed declaration or modeling lens, the run **MUST** confirm that a short user-facing statement surfaces the governed object and the minimal lens that keeps it reviewable; the run **MUST** also check that the governed object keeps one stable kind across title, opening surface, declaration surface, worked slices, and neighbouring-owner guidance rather than drifting between object, act, work-product, and owner-lane labels. When a broader umbrella name and a narrower operative branch are both live, the run **MUST** check that the recognition surface makes that stack explicit enough to identify the umbrella, the active branch, the governed object, the move, and the wider work or process that still remains outside. The recognition surface **MUST** start from a recognisable problem-owning domain or practice moment whenever that can be done without loss of precision, rather than opening first with internal package architecture or taxonomy language. Early high-pressure technical terms **MUST** receive nearby pairwise plain glosses; transform-like families **MUST** carry concrete worked slices plus ordinary-vs-load-bearing guidance where needed; and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If SoTA or practice tradition is load-bearing, the run **MUST** check that governed-object choice, narrowed-branch choice, and practical payoff remain answerable to the relevant domain or practice rather than only to internal package architecture. If a pattern claims universal or transdisciplinary usefulness, the run **MUST** check that this breadth is already demonstrated in the recognition surface through at least three heterogeneous situations, with `F.16` preferred as the example-matrix template. | Prevents architecturally correct but reader-opaque patterns and keeps broad claims from appearing only late in the assurance surface. |
+| **CC-E19-8 (Sentence-level precision restoration).** | Load-bearing sentences **MUST** be reviewed for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. A narrowing qualifier does **not** by itself restore head kind. The default repair order is head kind first, qualifier burden second, comparison-axis homogeneity third. When broad umbrella words such as `interpretation`, `reading`, `review`, `surface`, `document`, or `artifact` are carrying live architectural or semantic load, the run **MUST** also restore whether the text names an umbrella, a narrowed branch, a governed object, a move, or a wider work/process lane before that wording is allowed to carry architectural burden. | Keeps controlled technical writing from collapsing into free shorthand or false precision. |
+| **CC-E19-9 (Package-form and host-relation role-word discipline).** | Reviews **MUST** check that role words such as `owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, and `umbrella` match the actual ontology of the case and do not drift by stylistic substitution. | Keeps host relations, review surfaces, and package forms semantically legible. |
+| **CC-E19-10 (Reader-role discipline).** | Reviews **MUST** check that live pattern sections are written for the intended FPF user, that any multi-reader draft makes its primary working reader / concern / viewpoint explicit enough, and that package-development reasoning about isolation, landing form, freeze, merge posture, or later promotion stays in separate companions or clearly marked informative placement notes. | Keeps reviews from accepting conceptually correct but role-confused patterns. |
+| **CC-E19-11 (Precision before relaxation).** | If remediation preserves or introduces a Plain, didactic, or coarsened restatement of a repaired load-bearing sentence, the run **MUST** keep a more precise upstream reading recoverable and must not let the softened form become the only authority-bearing surface. | Keeps later readability aids subordinate to an explicit stronger reading. |
 ### E.19:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern                       | Symptom                                                          | Why it fails (force violated)                           | How to avoid / repair                                                |
+| Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
 | ---------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Verdict-only review**            | The run ends with “pass/fail” and prose complaints, but no proposed edits. | Raises editorial cost; reduces repeatability.           | Require a remediation payload: patch-first proposed edits + short commentary; treat the patch as the primary artifact. |
-| **Single giant checklist**         | Review becomes a long, unfocused ritual that few complete.       | Increases cost; reduces fit and rigor in practice.      | Use a minimal baseline plus triggered profiles.                      |
-| **Template-only compliance**       | All headings exist, but obligations are vague and untestable.    | Looks uniform; fails enforceability and auditability.   | Enforce normative clause hygiene and CC/Solution coherence.          |
-| **SoTA name-dropping**             | SoTA‑Echoing is a list of buzzwords with no stance.              | Breaks evidence lineage; invites monoculture.           | Require adopt/adapt/reject with reasons per item.                    |
-| **Terminology drift by “synonym”** | Authors swap kernel terms for nicer-sounding words.              | Increases ambiguity; harms cross-pattern composability. | Apply PCP‑TERM and require explicit mini-definitions on first use.   |
-| **Typos-first review (lint worship)** | Review time goes to formatting and micro-edits while the normative surface, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat load-bearing surfaces as depth targets; satisfy mechanical checks via auditable lint/harness traces when available. |
+| **Governed-object drift** | The draft appears to govern one thing in the opening, another in the declaration block, and a third in the examples or neighbouring-owner guidance. | Review cannot tell whether the pattern governs an object, a reading move, a work-product, or a whole process, so later naming and boundary decisions become unstable. | Stabilise one governed object early, keep its head kind explicit, and mark note/sheet/UI/rendering/process labels as either examples of that object or separate neighbouring entities rather than stylistic substitutes. |
+| **Role-clean but pragmatically foggy** | The draft is addressed to the right reader in principle, but cold working readers still cannot recognise the situation, practical payoff, governed object, or first useful move early enough. | The run passes role hygiene while still failing pragmatic fit and first-minute usability. | Pull a recognisable working situation upward, add one minimally viable worked case, make the practical payoff explicit in nearby user-facing prose, surface the governed object and any minimal modeling lens in plain terms, add plain glosses for early high-pressure terms, and require `SoTA-Echoing` rows that carry live load to name the practitioner or manager implication plus the case they discipline. |
+| **Architecture-clean but domain-thin** | The text is internally well placed in the package, but the governed object, narrowed branch, or practical payoff are justified mainly through package architecture while the problem-owning domain, practice, or SoTA appears late or decoratively. | The pattern passes internal architecture checks while drifting away from the domain whose work it claims to improve. | Pull the problem-owning domain moment into the recognition surface, make the narrowed branch and governed object answerable to the relevant domain or practice, and require load-bearing `SoTA-Echoing` to discipline the practical cases rather than merely bless them after the fact. |
+| **Verdict-only review** | The run ends with “pass/fail” and prose complaints, but no concrete remediation proposals. | Raises editorial cost; reduces repeatability. | Require concrete proposed changes plus short commentary; treat those changes as the primary artifact. |
+| **Single giant checklist** | Review becomes a long, unfocused ritual that few complete. | Increases cost; reduces fit and rigor in practice. | Use a minimal baseline plus triggered profiles. |
+| **Template-only compliance** | All headings exist, but obligations are vague and untestable. | Looks uniform; fails enforceability and auditability. | Enforce normative clause hygiene and CC/Solution coherence. |
+| **SoTA name-dropping** | SoTA-Echoing is a list of buzzwords with no stance. | Breaks evidence lineage; invites monoculture. | Require adopt/adapt/reject with reasons per item. |
+| **Terminology drift by “synonym”** | Authors swap kernel terms for nicer-sounding words. | Increases ambiguity; harms cross-pattern composability. | Apply PCP-TERM and require explicit mini-definitions on first use. |
+| **Surface-only review** | Review time goes to formatting and micro-edits while the normative surface, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat load-bearing surfaces as depth targets and keep mechanical cleanup subordinate to semantic correction. |
+| **Architecturally right, didactically thin** | The family is lawful, but readers still need project notes to understand what the pattern really governs. | Trust in the monolith depends on external context rather than the pattern text. | Strengthen problem frame, worked slices, local definitions, and reroute guidance before admission. |
+| **Scenario-name grounding** | Grounding names a situation but does not show what the source and resulting publication actually look like. | Readers cannot tell why the case stays in the family or where it exits. | Add concrete source/result slices, especially for transform families and easy boundary confusions. |
+| **Generic-head underspecification** | A load-bearing phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the run leaves that head uninterpreted. | Review discusses the sentence before the object kind is even stable. | Restore the head kind first in host-local terms before accepting or comparing the sentence. |
+| **Qualifier-smuggled burden** | A modifier such as `comparative`, `safe`, `interactive`, `reliable`, or `faithful` is doing the semantic work while the run treats the phrase as already precise. | The review blesses apparent precision without recovering the actual burden. | Unpack the qualifier into explicit burden, comparison basis, or stronger-use boundary before acceptance. |
+| **Mixed comparison axis** | One sentence compares or ranks artifact-like, process-like, authority-like, or owner-like things on one axis. | The sentence remains ontologically incoherent even after local wording is polished. | Restore head kind, then qualifier burden, then rewrite the comparison through a homogeneous burden/threshold/handoff axis. |
+| **Sentence-level shorthand drift** | A few innocent-looking words (“species”, “branch”, “flow”, “input/output”) quietly carry the semantic burden. | Review passes while key relations remain implicit or wrong. | Inspect load-bearing sentences one by one and replace shorthand with explicit host relations or publication language. |
+| **Package-form and host-relation drift** | The text slides between `family`, `bundle`, `cluster`, `profile`, `overlay`, `suite`, `kit`, or `record` without showing that the ontology changed. | Reviews miss owner blur because each local sentence still sounds plausible. | Require one intended role word, check host relation explicitly, and treat stylistic noun-swapping as a semantic defect. |
+| **Reader-role leakage** | Live sections explain why the pattern was isolated, what landing form is safest, or why merge/freeze is premature. | Review accepts a package memo disguised as a user pattern. | Move package-development reasoning to companions; rewrite live sections in terms of what the user may do, must avoid, and when the case reroutes. |
 
 ### E.19:9 - Consequences
 
@@ -42606,7 +44699,7 @@ Bias risks and mitigations:
 
 Patterns are both **teaching artifacts** and **normative contracts**. A specification that grows without explicit quality gates becomes a patchwork: locally good, globally inconsistent. A profile-based gate is the smallest structure that keeps reviews repeatable while remaining sensitive to risk and pattern kind.
 
-The baseline profile protects cross-pattern comparability and editorial sanity. Triggered profiles keep depth where it matters: norms, SoTA claims, cross-context reuse, terminology changes, and legacy refresh.
+The baseline profile protects cross-pattern comparability and editorial sanity. Triggered profiles keep depth where it matters: norms, SoTA claims, cross-context reuse, terminology changes, legacy refresh, and reader-role fit. A pattern that is lawful in package terms but speaks to the wrong reader is still a review defect.
 
 ### E.19:11 - SoTA-Echoing — post-2015 review/validation practice alignment
 
@@ -42617,7 +44710,7 @@ The baseline profile protects cross-pattern comparability and editorial sanity. 
 | Reviews need explicit criteria, not informal taste.                    | Move from folklore validation to explicit validation methods and documented criteria.                       | Riehle et al. (2020), “Pattern Discovery and Validation Using Scientific Research Methods”. | PCPs make criteria explicit; CC coherence is enforced.                                    | **Adopt.** Keep methods lightweight but explicit.                                                            |
 | A stable structure improves comparability and reduces ambiguity.       | Standards specify required viewpoints/concerns and consistency rules for descriptions.                      | ISO/IEC/IEEE 42010:2022 (architecture description).                                         | PCP‑BASE includes structural integrity and internal consistency.                          | **Adopt/Adapt.** Adopt conformance mindset; adapt to pattern-language template and didactic grounding.       |
 | Pattern writing benefits from explicit guidance plus critique culture. | Pattern-language communities emphasize clear template usage, consequences, and critique for quality.        | Iba (2021), “How to Write Patterns …” (PLoP 2021).                                          | Baseline checks enforce meaningful sections; anti-patterns make critique concrete.        | **Adopt.** Directly supports admission quality.                                                              |
-| “Living” guidance needs refresh discipline.                            | Reporting/review guidance is updated and versioned; reviewers must track changes and report deltas clearly. | Page et al. (2021), PRISMA 2020 statement and explanation papers.                           | Runs require explicit decisions and deltas in SoTA‑Echoing. | **Adapt.** Use the “versioned guidance + explicit deltas” principle without importing tool/process mandates. |
+| “Living” guidance needs refresh discipline.                            | Reporting and review guidance is updated and versioned; reviewers track changes and report deltas clearly. | Page et al. (2021), PRISMA 2020 statement and explanation papers.                           | Runs require explicit decisions and deltas in SoTA‑Echoing. | **Adapt.** Use the “versioned guidance + explicit deltas” principle without importing implementation or process mandates. |
 
 ### E.19:12 - Relations
 
@@ -43312,6 +45405,7 @@ An artefact is **ready** with respect to F.0.1 when:
 > **Mental checklist:** *Name the Context → speak in the Context → connect Contexts only by labelled bridges → build rows from bridged cells.*
 
 ### F.0.1:End
+
 
 ## F.1 - Domain‑Family Landscape Survey
 
@@ -44564,8 +46658,8 @@ Let **`stance(T)`** ∈ {**design**, **run**} (from the Context).
 #### F.4:11.4 - Co‑wearability / co‑bearability
 
 **Form.**
-+`senseFamily(T₁)=senseFamily(T₂)=Role ∧ stance(T₁)=stance(T₂) ∧ ¬incompatible(T₁,T₂) ⊢ coWearable(T₁,T₂)`
-+`senseFamily(T₁)=senseFamily(T₂)=Status ∧ ¬incompatible(T₁,T₂) ⊢ stackable(T₁,T₂)`
+`senseFamily(T₁)=senseFamily(T₂)=Role ∧ stance(T₁)=stance(T₂) ∧ ¬incompatible(T₁,T₂) ⊢ coWearable(T₁,T₂)`
+`senseFamily(T₁)=senseFamily(T₂)=Status ∧ ¬incompatible(T₁,T₂) ⊢ stackable(T₁,T₂)`
 
 **Reading.** Within a Context, two Roles can be worn together (or two Statuses carried) when they **do not** conflict.
 
@@ -44728,7 +46822,7 @@ Let **T** be a Role Description in Context **C** with SenseCell `sense(T)=⟨C,�
 
 Let **U** be a U.Type minted from a **Concept‑Set row** (F.7) satisfying A.8 (≥3 domain families) AND MinInterFamilyDistance ≥ δ_family (from F1‑Card).
 
-+**R‑UT‑1 (Witnessed neutrality).** The Tech label **must not** be a term owned by one context when alternatives exist. Prefer **discipline‑neutral head nouns** (*Result, Reading, Execution, Evidence, Requirement, State, Type Node*). **Use** *Characteristic/Scale/Value/Level/Coordinate/Score/ScoringMethod* **only** when the U.Type denotes a **measurement‑sense** kind anchored in a declared **CharacteristicSpace**; otherwise avoid these measurement‑canon terms to prevent semantics bleed.
+**R‑UT‑1 (Witnessed neutrality).** The Tech label **must not** be a term owned by one context when alternatives exist. Prefer **discipline‑neutral head nouns** (*Result, Reading, Execution, Evidence, Requirement, State, Type Node*). **Use** *Characteristic/Scale/Value/Level/Coordinate/Score/ScoringMethod* **only** when the U.Type denotes a **measurement‑sense** kind anchored in a declared **CharacteristicSpace**; otherwise avoid these measurement‑canon terms to prevent semantics bleed.
 
 **R‑UT‑2 (Minimal generality).** Name the **least upper sense** that all row witnesses share. If *Observation* and *Measurement* disagree, perhaps the U.Type is **Result** or **Reading**, not **Observation**.
 
@@ -46465,7 +48559,7 @@ The annotation mirrors common interpretive practice in comparative theory, desig
 
 ### F.9.1:12 - Relations
 - Builds on: `F.9`, `C.2.2a`.
-- Coordinates with: `A.16.0`, `E.17.1`, `A.6.P`, `A.6.A`, `A.6.Q`, `C.25`, and `B.4.1`.
+- Coordinates with: `A.16.0`, `E.17.1`, `E.17.ID.CR`, `A.6.P`, `A.6.A`, `A.6.Q`, `C.25`, and `B.4.1`.
 - Constrains: authoring annotations for tradition and routing bundles.
 ### F.9.1:13 - Worked Bridge-Card Examples
 
@@ -49277,6 +51371,13 @@ When a label changes, or two labels consolidate or split, record it on the Name 
 
 #### F.18:4.2 - The Six P‑practices (normative process)
 
+#### F.18:4.3 - Guarded-head note for locally risky labels
+Some locally useful heads remain risky because they already carry different load-bearing readings under different owners. In such cases, authors may publish a **guarded-head note** as a thin naming-governance companion.
+
+A guarded-head note does **not** create a new owner, does **not** establish Cross-context sameness by itself, and does **not** replace the host owner's meaning. It simply records that one surface head should stay deconflicted while local-first naming continues to govern minting, reuse, aliases, and Bridges.
+
+This is especially useful when one head already appears in more than one lawful local reading, such as `projection` in `A.16` move language and in `F.9.1` bridge stance language. The note should therefore name the consumer sites, keep the local owner meanings explicit, and resist any temptation to flatten them into one global head.
+
 **P1 — Candidate set (*NQD-front* of seed-words).**
 Do **not** pick a label “in one shot”. Build a **small, non-dominated candidate set** (an *NQD-front*, typically 5–10 items) by seeding and varying along:
 **Traditions** — mathematics, physics, engineering, computer science, systems thinking, management, etc. with their typical contexts and situations; use maximum diversity here;
@@ -49337,15 +51438,19 @@ To prevent “post-hoc justification” of intuitively chosen labels, every **Na
 
 * **MintNew.** The Card is the **output of an NQD-style lexical search** over a **candidate label set** generated inside
   the home Context(s), using the lexical Q-tuple `{SemanticFidelity, CognitiveErgonomics, OperationalAffordance,
-  AliasRisk}` together with **Novelty (N)** and **Diversity_P** (per A.0 / C.17–C.18 / B.5.2.1).  
-  – The Card SHALL record:  
-    – a minimal **CandidateSet** (the labels actually evaluated), with **head-term family** tags for each candidate;  
-    – the resulting **NQD-front** of **non-dominated candidates** over ⟨Q-tuple, N, Diversity_P⟩;  
+  AliasRisk}` together with **Novelty (N)** and **Diversity_P** (per A.0 / C.17–C.18 / B.5.2.1).
+  – The Card SHALL record:
+    – a minimal **CandidateSet** (the labels actually evaluated), with **head-term family** tags for each candidate;
+    – the resulting **NQD-front** of **non-dominated candidates** over ⟨Q-tuple, N, Diversity_P⟩;
+    – the **sense-seeds** used for P2 read-through and their mismatch patterns;
     – a short **selection note** explaining why the chosen Tech/Plain pair was picked from that front
-      (e.g., “better CognitiveErgonomics at equal SemanticFidelity”).  
- 
+      (e.g., “better CognitiveErgonomics at equal SemanticFidelity”).
+
   – A single-element NQD-front is permitted only if the Card records a brief rationale why **no alternative candidate
     survived** the lexical and NQD filters (e.g., legacy constraints, strong AliasRisk on all other options).
+  – A MintNew card is **non-conformant** if authors fill only the top fields after choosing a label by intuition.
+    Recording the chosen label, Kind, and a short rationale is **not** a substitute for the seed set, NQD-front,
+    sense-seed read-through, and explicit non-dominated selection.
 
 * **DocumentLegacy.** The Card documents an **externally imposed legacy label** (e.g., a regulatory or de facto Standard)
   and its mapping to FPF structures. In this mode the Card MAY omit a full NQD-front, but SHALL:  
@@ -49371,9 +51476,9 @@ A **Name Card** is the authoritative, human‑readable record of a name inside i
 10. **Alignment note** — if a Bridge exists to other Contexts, cite it and record **loss/fit** in plain words (no formulas required on the Card).
 11. **Relation kind** — if the name is for a relation, declare **structural** vs **epistemic** and `validationMode ∈ {axiomatic, inferential, postulate}`. For **structural** relations, provide **Constructive** grounding (`tv:groundedBy → Γₘ.sum|set|slice`). If the name is not for a relation with arity ≥ 2, set this field to “n/a”.
 12. **Manager’s clip** — one‑line “use/avoid” guidance for everyday communication.
-13. **Archetypal situations (sense‑seeds)** — **5-10 short “X‑case” lines** used by **P2** for the semantic read‑through; keep them **edition‑aware** and **context‑local**.
-14. **NQD‑front seeds** — brief rationale for discarded candidates (**include mismatch patterns from P2 and any lexical Q‑scores used in P1**).
-15. **SemanticFidelity/CognitiveErgonomics/OperationalAffordance/AliasRisk** scores for the NQD-front labels.
+13. **Archetypal situations (sense‑seeds)** — **5-10 short “X‑case” lines** used by **P2** for the semantic read‑through; keep them **edition‑aware** and **context‑local**. For **MintNew** cards these are required evidence, not optional examples.
+14. **NQD‑front notes** — brief rationale for discarded candidates (**include mismatch patterns from P2, the head-term family mix, and any lexical Q‑scores used in P1**).
+15. **SemanticFidelity/CognitiveErgonomics/OperationalAffordance/AliasRisk** scores for the NQD-front labels, recorded at least ordinally for the surviving candidates.
 16. **Version**  — current status and history of editions.
 17. **Card notes** — optional free text with comments about the name (e.g., recommended translations, etymology, pronunciation). 
 
@@ -49713,16 +51818,19 @@ Letting a Plain label or alias accumulate extra meanings absent in the underlyin
 
 **CC‑F18‑13 (Lexical Pareto discipline).** When a Name Card uses **NQD‑CAL (C.18)** to score label candidates, the **chosen Unified Tech label** **SHALL** lie on the **Pareto frontier** of the lexical Q‑tuple `{SemanticFidelity, CognitiveErgonomics, OperationalAffordance, AliasRisk}` (per **C.16** ordinal discipline and P1’s NQD‑front definition), unless an explicit exception is recorded. If authors deliberately select a dominated candidate (e.g., to honour legacy regulation or user muscle memory), the Name Card’s notes **MUST** state the reason for stepping off the frontier.
 
-**CC-F18-13 (NQD-front surfaced, with honest diversity).**  
+**CC-F18-14 (NQD-front surfaced, with honest diversity).**  
 When a Name Card is in **MintNew** mode, the **candidate label set** and the resulting **NQD-front of non-dominated label candidates** over the lexical Q-tuple `{SemanticFidelity, CognitiveErgonomics, OperationalAffordance, AliasRisk}` **SHALL** be explicitly recorded on the Card (at least as a small table or list), together with the NQD evidence hooks (`DescriptorMapRef`, `DistanceDefRef`, and a brief `Diversity_P` / coverage summary).  
 Each candidate **SHALL** carry a **head-term family** tag; morphological or prepositional variants built on the same head (e.g. “X plane”, “plane of X”, “planar X”) **MAY NOT** be counted as distinct for Diversity_P. The Card **SHALL** indicate how many distinct head-term families are represented on the NQD-front.  
 An NQD-front with fewer than **three** head-term families is permitted **only** if the Card records why no lexically more diverse alternatives survived the SemanticFidelity / AliasRisk filters (e.g., very narrow domain, frozen legacy idiom).
 
-**CC-F18-14 (Selection from the front only).**  
+**CC-F18-15 (Selection from the front only).**  
 The **Unified Tech** and **Plain** labels published on the UTS row for a unified concept **SHALL** be drawn from the currently recorded **NQD-front** on the Name Card. Publishing a Tech/Plain pair that is **not** on that front (or that is dominated with respect to the declared lexical Q-axes plus NQD) is **non-conformant**, except in explicit **DocumentLegacy** mode as defined in §5.1.
 
-**CC-F18-15 (Mode declaration).**  
+**CC-F18-16 (Mode declaration).**  
 Every Name Card **SHALL** declare its `CardMode ∈ {MintNew, DocumentLegacy}`. For Core-surface naming of **U.Types** and other canonical FPF concepts, **MintNew** is the default; **DocumentLegacy** is permitted only when recording pre-existing external names and MUST (i) cite the legacy source, and (ii) either attach an NQD-front over viable FPF variants or record a short rationale why NQD search is out-of-scope.
+
+**CC-F18-17 (Procedure is not optional in MintNew mode).**  
+A **MintNew** Name Card is **non-conformant** if it records only the chosen label, Kind, and a short rationale while omitting the seed candidate set, the NQD-front, the sense-seed read-through, or the mismatch patterns that justify the final choice. A card filled in after an intuition-first label pick does **not** satisfy F.18.
 
 ### F.18:16 - Anti‑patterns & safe rewrites (normative)
 
@@ -49937,6 +52045,7 @@ All patterns that propose or consume unified names and rows in Part F; any Part 
 **A.17/A.18** for measurement lexicon when rows concern measurable notions (Characteristic/Scale/Level/Coordinate vocabulary), ensuring neutral naming aligns with canonical terms and eases external alignment via Bridges.  
 
 ### F.18:End
+
 
 # Part G – Discipline SoTA Patterns Kit
 
