@@ -246,7 +246,9 @@ Pattern and headers templates are explained in pattern E.8.
 | E.17.2 | **TEVB — Typical Engineering Viewpoints Bundle** | Stable | Keywords: engineering viewpoints, holon, Functional/Procedural/Role-Enactor/Module-Interface views, EoIClass = U.Holon, ISO 42010 mapping, E.TGA bindings. Queries: “What are canonical engineering viewpoints over a holon?”, “How does TEVB relate to E.TGA and MVPK?”, “How do ISO 42010 architecture viewpoints map onto FPF engineering viewpoints?” | Builds on: E.17.0 (U.MultiViewDescribing), E.17.1 (U.ViewpointBundleLibrary), C.2.1 (U.EpistemeSlotGraph; DescribedEntity/Viewpoint/View slots), A.1 (Holon; U.System/U.Episteme as typical EoI), A.6.2–A.6.4 (episteme morphisms), A.7/E.10.D2 (Strict Distinction & I/D/S discipline). Used by: E.18:5.12 (E.TGA engineering viewpoint families), E.17 (MVPK — publication of engineering morphisms via EngineeringVPId/PublicationVPId correspondences), engineering description/spec patterns and future ISO-aligned architecture description species. |
 | E.17 | **Multi‑View Publication Kit (for Morphisms)** | Stable | Keywords: publication, U.View/U.EpistemeView, multi-view, viewpoints, PublicationScope (USM), PlainView/TechCard/InteropCard/AssuranceLane, functorial views, reindexing (PromoteView[s→t]), Publication characteristics (PC.Number, PC.EvidenceBinding, PC.ComparatorSetRef, PC.CharacteristicSpaceRef), CHR/UNM/CG-Spec anchoring, UTS, pin discipline, D/S→Surface (no I→D/D→S). Queries: “How to publish any morphism across Plain/Tech/Interop/Assurance views without changing semantics?”, “How do MVPK faces relate to U.View/U.EpistemeView and U.Viewpoint/PublicationVPId?”, “How to pin numeric claims and evidence lanes on publication faces so they stay functorial and audit-ready?” | Builds on: A.7/E.10.D2 (Strict Distinction & I/D/S discipline; Surface orthogonality), A.6.2–A.6.3 (U.EffectFreeEpistemicMorphing, U.EpistemicViewing), C.2.1 (U.EpistemeSlotGraph; View/Viewpoint slots), E.17.0 (U.MultiViewDescribing), E.17.1 (U.ViewpointBundleLibrary), E.17.2 (TEVB), E.8 (Authoring conventions), E.10 (LEX-BUNDLE incl. L-SURF), Part F/G (UTS, CG-Spec, CHR pins, UNM). Used by / Coordinates with: E.18 (E.TGA — publication of morphisms via MVPK faces), Part G (SoTA pack shipping surfaces, EvidenceGraph views), tooling that emits human-readable cards/lanes over D/S-epistemes about morphisms. |
 | E.17.EFP | **ExplanationFaithfulnessProfile — explanation classification over existing MVPK faces** | Draft | *Keywords:* explanation, rendering, source-pinned, reconstruction, didactic retelling, speculative retelling, evidence binding, admissible faces. *Queries:* "How does FPF classify explanation-facing renderings?", "What is ExplanationFaithfulnessProfile?", "How do explanation renderings stay on existing MVPK faces without becoming a second semantic rule track?" | **Builds on:** E.17.0, E.17, A.7, E.10.D2, A.6.B, F.9, F.18. **Coordinates with:** ConservativeRetextualization, RepresentationTransduction, E.17.ID.CR ComparativeReading, A.6.4, A.15, A.20, A.21. |
-| E.17.ID.CR | **InterpretationDiscipline / ComparativeReading — bounded comparative reading over comparative review surfaces** | Draft | *Keywords:* comparative reading, comparative review surface, bounded comparison, source-pinned material, same object of talk, bounded lift, forbidden stronger uptake. *Queries:* "What is ComparativeReading in FPF?", "How does FPF govern a comparative review surface?", "When does a comparative review note stay bounded rather than becoming bridge, explanation, prompt, ontology, or gate work?" | **Builds on:** C.2.2a, A.16.0, F.9, E.14. **Coordinates with:** A.6.3, A.6.3.CR, A.6.3.RT, F.9.1, E.17.EFP, B.5.2.0, B.5.2, A.6.4, A.15, A.20, A.21. |
+| E.17.ID.CR | **InterpretationDiscipline / ComparativeReading — bounded comparative reading over comparative review surfaces** | Draft | *Keywords:* comparative reading, comparative review surface, bounded comparison, source-pinned material, same object of talk, bounded lift, forbidden stronger uptake. *Queries:* "What is ComparativeReading in FPF?", "How does FPF govern a comparative review surface?", "When does a comparative review note stay bounded rather than becoming bridge, explanation, prompt, ontology, or gate work?" | **Builds on:** C.2.2a, A.16.0, F.9, E.14. **Coordinates with:** A.6.3, A.6.3.CR, A.6.3.RT, F.9.1, E.17.EFP, E.17.SD.SPR, E.17.SD.OOTD, B.5.2.0, B.5.2, A.6.4, A.15, A.20, A.21. |
+| E.17.SD.SPR | **SurfaceDiscipline / Surface Precision Restoration — repair the pressured surface word before the whole surface inherits it** | Draft | *Keywords:* pressured head, head kind, active lane, local repair, governed object, outside-work boundary, local wording repair. *Queries:* "How do I repair one vague surface word before the whole note drifts?", "What is Surface Precision Restoration in FPF?", "When do I need local head repair rather than whole-surface stabilization?" | **Builds on:** A.6.P, A.7, E.10, F.18, E.14. **Coordinates with:** E.17.ID.CR, E.17.SD.OOTD, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
+| E.17.SD.OOTD | **SurfaceDiscipline / Surface Object-of-Talk Discipline — authored-surface stability over one primary object of talk** | Draft | *Keywords:* authored surface, object of talk, whole-surface drift, carried move, outside-work boundary, explicit transition. *Queries:* "How do I keep one note about one thing at a time?", "What is Surface Object-of-Talk Discipline in FPF?", "When do I need whole-surface stabilization rather than only local wording repair?" | **Builds on:** A.6.P, A.7, E.10, F.18, E.14, E.19, C.2.2a, A.16.0. **Coordinates with:** E.17.SD.SPR, E.17.ID.CR, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.18 | **Transduction Graph Architecture (E.TGA)** | Stable | *Keywords:* transduction graph, **nodes=morphisms**, **edge=U.Transfer** (single-edge kind), **OperationalGate(profile)**, **CV⇒GF** (ConstraintValidity → GateFit), **MVPK** faces, **SquareLaw**, **UNM single-writer**, **CSLC normalize-then-compare**, **Set-return selection**, **PathSlice/Sentinel refresh**, **DesignRunTag**. *Queries:* “What is E.TGA?”, “How do gates/bridges publish crossings?”, “How to model flows of morphisms?” | **Builds on:** E.17 (MVPK), E.8, E.10, A.7. **Coordinates with:** A.20–A.26 (Flow/GateProfilization/Profiles/Sentinels), F.9 (Bridges & CL), G.11 (Refresh). |
 | E.19 | **Pattern Quality Gates: Review & Refresh Profiles** | Stable | *Keywords:* pattern review, quality gates, admission, refresh, staleness, profile-based checks, PQG, PCP, suite-level review (PCP‑SUITE), planned baseline & P2W seam (PCP‑P2W), `SlotFillingsPlanItem`, MVPK projections, guard vs gate separation. *Queries:* "How to review a new FPF pattern before admitting it?", "How to refresh stale patterns in FPF?", "What are PQG/PCP in FPF?", "How to review a MechSuiteDescription (suite obligations, contract pins, protocols)?", "How to review SlotFillingsPlanItem / planned slot filling and its MVPK projections?" | **Builds on:** E.8, E.10, E.9, E.15. **Coordinates with:** F.8 (Mint/Reuse), F.18 (Naming protocol), F.9 (Bridges & CL), F.15 (Harness), E.17 (MVPK), A.6.7 (MechSuiteDescription), A.15.3 (SlotFillingsPlanItem), G.11 (Refresh). **Constrains:** Admission/refresh decisions for patterns intended for the canonical corpus. |
 | E.20 | **Mechanism Introduction Protocol (MIP)** | Draft | *Keywords:* mechanism introduction, authoring protocol, owner routing, MIP-run manifest, canonical card-first, no dangling `…IntensionRef`, suite boundary hygiene, P2W seam, SlotKind lexicon discipline, alias docking, typed RSCR triggers, regression envelope, PQG profiles. *Queries:* "How to introduce a new mechanism in FPF?", "How to avoid dangling IntensionRefs in suites?", "How to route mechanism changes by semantic owner?", "How to evolve mechanism suites without drift?" | **Builds on:** E.8, E.9, E.10, E.15, E.19. **Coordinates with:** A.6.1, A.6.7, A.15.3, F.18, E.18, G.Core, G.2, `G.x:Ext.*`. **Constrains:** Any change-set that introduces or revises mechanisms, suites, planned baselines, wiring modules, or citeable tokens. |
@@ -344,7 +346,7 @@ One important cluster of the Core deals with a recurrent real-world problem: tea
 
 FPF therefore treats this not as one vague maturity ladder but as a governed region of a declared **language-state chart** over `U.CharacteristicSpace`, with explicit facet owners, lawful transduction moves, route-bearing seam publications, and explicit handoff to later endpoint owners. That cluster is what lets an engineer-manager say, in a disciplined way, not only *what is already known*, but also *what is emerging, how far it is articulated, how closed it is, how it is anchored, which routes remain live, and which later owner should receive it next*.
 
-The first operational wave of that cluster is now already present inside the Core. It includes corridor-reading notes in `C.2.2a`, `C.2.LS`, `A.16`, `F.18`, and `E.10`; same-described-entity textual re-expression in `A.6.3.CR`; the **non-latent branch** of same-described-entity representation-scheme transition in `A.6.3.RT`; explanation classification over existing MVPK faces in `E.17.EFP`; and bounded comparative reading over comparative review surfaces in `E.17.ID.CR`. In other words, the monolith now carries not only the early language-state corridor itself, but also the first downstream families for keeping same-entity rewrites, representation changes, explanation-facing renderings, and bounded comparative review surfaces lawful and reviewable. This first wave is integrated in **Draft / pass-under-guard** form: it is already part of the Core, but it is not yet the closed or final semioarchitecture canon. Latent or decode-mediated `A.6.3.RT` cases remain under explicit guard rather than part of the green first-wave path.
+The first operational wave of that cluster is now already present inside the Core. It includes corridor-reading notes in `C.2.2a`, `C.2.LS`, `A.16`, `F.18`, and `E.10`; same-described-entity textual re-expression in `A.6.3.CR`; the **non-latent branch** of same-described-entity representation-scheme transition in `A.6.3.RT`; explanation classification over existing MVPK faces in `E.17.EFP`; local pressured-head repair in `E.17.SD.SPR`; authored-surface stability over one primary object of talk in `E.17.SD.OOTD`; and bounded comparative reading over comparative review surfaces in `E.17.ID.CR`. In other words, the monolith now carries not only the early language-state corridor itself, but also the first downstream families for keeping same-entity rewrites, representation changes, explanation-facing renderings, local authored-surface repair, whole-surface authored-surface stabilization, and bounded comparative review surfaces lawful and reviewable. This first wave is integrated in **Draft / pass-under-guard** form: it is already part of the Core, but it is not yet the closed or final semioarchitecture canon. Latent or decode-mediated `A.6.3.RT` cases remain under explicit guard rather than part of the green first-wave path.
 
 **What is in this document (map)**
 - **Part A — Kernel Architecture:** holons, bounded contexts, roles, transformers (Method/Work), time and evolution, modularity, and the core boundary disciplines.
@@ -352,14 +354,14 @@ The first operational wave of that cluster is now already present inside the Cor
 - **Part C/D — Extension Specs:** CAL/LOG/CHR packages, plus ethics, conflict topology, and trust-aware mediation scaffolds.
 - **Part E — Constitution & Authoring:** pillars, artefact architecture, lexical rules (LEX-BUNDLE), authoring protocol, evolution records (DRR), and quality gates.
 - **Part F/G — Publication & Discipline:** the Unification Suite (cards/tables/records like UTS), multi-view publication, and SoTA discipline patterns that operationalise the kernel.
-- **Language-state navigation cluster (C.2.2a–C.2.7, A.16–A.16.2, B.4.1, B.5.2.0, A.6.3.CR, A.6.3.RT, E.17.EFP, E.17.ID.CR, A.6.Q, A.6.A):** how FPF models positions in a language-state chart, lawful transduction trajectories between those positions, early seam publications, route publication, abductive handoff, and the first same-entity textual, representational, explanation-facing, and bounded comparative-reading families without flattening them into one vague maturity story. This is a **reading cluster**, not the same thing as the narrower language-state owner set inside that cluster.
+- **Language-state navigation cluster (C.2.2a–C.2.7, A.16–A.16.2, B.4.1, B.5.2.0, A.6.3.CR, A.6.3.RT, E.17.EFP, E.17.SD.SPR, E.17.SD.OOTD, E.17.ID.CR, A.6.Q, A.6.A):** how FPF models positions in a language-state chart, lawful transduction trajectories between those positions, early seam publications, route publication, local authored-surface repair, whole-surface authored-surface stabilization, abductive handoff, and the first same-entity textual, representational, explanation-facing, local-repair, whole-surface-stability, and bounded comparative-reading families without flattening them into one vague maturity story. This is a **reading cluster**, not the same thing as the narrower language-state owner set inside that cluster.
 - **Parts H–K:** glossary, annexes, indexes and navigation aids, and tracked lexical or migration debt.
 
 **Where to start**
 - If you want the “why”: **E.1–E.2** (Vision/Mission + Pillars).
 - If you want to use FPF on a project tomorrow: **A.0**, then **A.1–A.3**, then **B.3**, then **F.17 (UTS)** and **E.9 (DRR)**.
 - If you want to write or review patterns: start with **E.8** and **E.19**.
-- If your real situation is “we know something is there, but it is still only partly said”: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4–C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**. If the next lawful move is a same-entity rewrite, representation change, explanation-facing rendering, or one bounded comparative review surface, continue with **A.6.3.CR**, **A.6.3.RT**, **E.17.EFP**, or **E.17.ID.CR**. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
+- If your real situation is “we know something is there, but it is still only partly said”: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4–C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**. If the next lawful move is a same-entity rewrite, representation change, explanation-facing rendering, one pressured-head local repair, one authored-surface stabilization pass, or one bounded comparative review surface, continue with **A.6.3.CR**, **A.6.3.RT**, **E.17.EFP**, **E.17.SD.SPR**, **E.17.SD.OOTD**, or **E.17.ID.CR**. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
 
 Everything in the Core is intentionally **tool-agnostic**; implementation details belong to Tooling and worked examples belong to the Pedagogical Companion. The rest of this Preface provides non-normative motivation and reading heuristics for the patterns that follow.
 
@@ -43213,7 +43215,7 @@ This profile is worth stating explicitly because explanation-facing rendering is
 
 **Placement.** Guarded branch-local pattern for bounded comparative reading over comparative review surfaces, coordinated with the neighboring `A.6.3.*`, `F.9.1`, and `E.17.EFP` seams.
 **Builds on.** `C.2.2a`; `A.16.0`; `F.9`; `E.14`.
-**Coordinates with.** `A.6.3`; `A.6.3.CR`; `A.6.3.RT`; `F.9.1`; `E.17.EFP`; `B.5.2.0`; `B.5.2`; `OntologicalReframing`; `A.6.4`; `A.15`; `A.20`; `A.21`.
+**Coordinates with.** `A.6.3`; `A.6.3.CR`; `A.6.3.RT`; `F.9.1`; `E.17.EFP`; `E.17.SD.SPR`; `B.5.2.0`; `B.5.2`; `OntologicalReframing`; `A.6.4`; `A.15`; `A.20`; `A.21`.
 **Plain-name.** Bounded comparative reading over comparative review surfaces.
 **One-line summary.** `ComparativeReading` governs one comparative review surface over already available, source-pinned material while the same object of talk (`DescribedEntityRef`) stays preserved, one bounded contrast is being made visible, and stronger uptake still stays outside.
 **Governed object in plain terms.** The pattern governs the comparative review surface itself - the comparison note, comparison sheet, or guided review aid that carries one bounded contrast - not the whole source packet and not the wider decision workflow.
@@ -43241,7 +43243,7 @@ This profile is worth stating explicitly because explanation-facing rendering is
 - ontology or target change under `OntologicalReframing` / `A.6.4`;
 - or downstream action, gate, assurance, or adjudication authority under `A.15 / A.20 / A.21`.
 
-**Quick exit route.** If this is really same-thing rewrite, bridge explication, explanation-face governance, prompt pressure, ontology change, or gate/authority work, reroute before you open the heavier branch stack. If the main debt is still only local head repair or whole-surface object-of-talk stabilization, use `Surface Precision Restoration` or `Surface Object-of-Talk Discipline` as narrow drafting-support repair companions first and only then return here. Those support surfaces are not part of the ordinary branch burden unless that repair trigger is actually live. For the nearest worked exit bank, move to `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10`.
+**Quick exit route.** If this is really same-thing rewrite, bridge explication, explanation-face governance, prompt pressure, ontology change, or gate/authority work, reroute before you open the heavier branch stack. If the main debt is still only local head repair or whole-surface object-of-talk stabilization, use `E.17.SD.SPR` (`Surface Precision Restoration`) or `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`) as narrow drafting-support repair companions first and only then return here. Those support surfaces are not part of the ordinary branch burden unless that repair trigger is actually live. For the nearest worked exit bank, move to `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10`.
 
 **Quick recovery route.** If the recognition surface fits, recover the branch in this order: the governed comparative review surface, the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`, and the nearest ordinary worked slices in `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.c`. Use `E.17.ID.CR:4.1.d` only if one pressure term still blocks the read.
 
@@ -43450,7 +43452,7 @@ For ordinary bounded comparative review surfaces, it is usually enough that the 
 - that the default `worldContactPolicy` here is review-only / non-executive;
 - and what reroute becomes mandatory if the pressure intensifies.
 
-If those minimum answers cannot stay stable across the same note, sheet, or review aid without sliding between reviewed material, governed surface, bounded lift, and outside workflow, stop here. Repair local head-kind pressure through `Surface Precision Restoration`; if the whole review surface still drifts after that repair, hand off to `Surface Object-of-Talk Discipline` before adding more declaration weight.
+If those minimum answers cannot stay stable across the same note, sheet, or review aid without sliding between reviewed material, governed surface, bounded lift, and outside workflow, stop here. Repair local head-kind pressure through `E.17.SD.SPR` (`Surface Precision Restoration`); if the whole review surface still drifts after that repair, hand off to `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`) before adding more declaration weight.
 
 ##### E.17.ID.CR:4.3.b.a - Ordinary working card
 
@@ -43468,15 +43470,15 @@ A lawful ordinary comparative review surface should normally let a reader recove
 
 This working card may live inline in the comparative review surface or in its immediate review context.
 Read it as the branch-local recovery surface for the near-top working-entry check:
-- if rows 1-4 are still unstable because one pressured head or qualifier is doing too much work, stop and repair that local pressure through `Surface Precision Restoration` before you keep building the comparative surface here;
-- if rows 3-7 cannot stay stable because the same review surface still slides between reviewed material, comparative move, and outside workflow after one honest local repair, hand off to `Surface Object-of-Talk Discipline`;
+- if rows 1-4 are still unstable because one pressured head or qualifier is doing too much work, stop and repair that local pressure through `E.17.SD.SPR` (`Surface Precision Restoration`) before you keep building the comparative surface here;
+- if rows 3-7 cannot stay stable because the same review surface still slides between reviewed material, comparative move, and outside workflow after one honest local repair, hand off to `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`);
 - if rows 1-7 stay recoverable over one pinned source slice or source pair, one preserved `DescribedEntityRef`, and one bounded contrast, `ComparativeReading` remains the honest primary lane.
 
 The nearest stay-here worked slices for this reading are `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.b`.
 The nearest stop-and-reopen worked slice is `E.17.ID.CR:5.4.6.c`.
 
 Move to the load-bearing extension only when one of the seam, reader-fit, or misuse conditions in `E.17.ID.CR:4.3.c` becomes true.
-`ComparativeReading` remains primary only while those seven rows stay recoverable and the same review surface is still mainly about one bounded comparative reading over already pinned material. If you first need to restabilize what the review surface is about, what move it is carrying, and what wider workflow remains outside, hand off to `Surface Object-of-Talk Discipline` before thickening this branch-local card.
+`ComparativeReading` remains primary only while those seven rows stay recoverable and the same review surface is still mainly about one bounded comparative reading over already pinned material. If you first need to restabilize what the review surface is about, what move it is carrying, and what wider workflow remains outside, hand off to `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`) before thickening this branch-local card.
 
 #### E.17.ID.CR:4.3.c - Load-bearing extension guidance
 
@@ -43490,7 +43492,7 @@ A fuller declaration surface becomes warranted when:
 
 The load-bearing extension may inherit already-declared host IDs, source pins, and provenance anchors instead of restating them inline.
 When recorded as a load-bearing review surface, that extension normally captures the ordinary minimum block plus any host-owned fields that remain load-bearing for the mixed case.
-Do not answer whole-surface instability by stacking more local fields onto the load-bearing extension. If `Surface Precision Restoration` has already repaired the local pressure and the same review surface still drifts between reviewed material, governed surface, comparative move, and outside workflow, hand off to `Surface Object-of-Talk Discipline` first and only then decide how much heavier declaration burden should stay here.
+Do not answer whole-surface instability by stacking more local fields onto the load-bearing extension. If `E.17.SD.SPR` (`Surface Precision Restoration`) has already repaired the local pressure and the same review surface still drifts between reviewed material, governed surface, comparative move, and outside workflow, hand off to `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`) first and only then decide how much heavier declaration burden should stay here.
 
 #### E.17.ID.CR:4.3.d - Load-bearing declaration block
 
@@ -43587,20 +43589,20 @@ For fuller mixed-seam burden, read this table together with the neighboring host
 
 | If the case is really doing this... | It should stay / move here... |
 | --- | --- |
-| one local head or qualifier is still doing too much work, but one honest repair would stabilize the same surface | `Surface Precision Restoration` |
+| one local head or qualifier is still doing too much work, but one honest repair would stabilize the same surface | `E.17.SD.SPR` (`Surface Precision Restoration`) |
 | the same note is mostly rewriting, reframing, or re-rendering the same thing with no bounded comparative lift | `A.6.3` / `A.6.3.CR` / `A.6.3.RT` |
 | the real job is only to make an already-declared bridge stance explicit | `F.9.1` |
 | one review surface already keeps the same object, one bounded comparison, and one outside-work boundary stable | `ComparativeReading` within `InterpretationDiscipline` |
-| the same surface still drifts between reviewed material, comparative move, and wider workflow after local repair | `Surface Object-of-Talk Discipline` |
+| the same surface still drifts between reviewed material, comparative move, and wider workflow after local repair | `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`) |
 | the real burden is explanation-face governance on existing faces | `E.17.EFP` |
 | the comparison is now opening a route or prompt | `B.5.2.0 / B.5.2` |
 | the target or ontology is changing and now needs continuity witnesses | `OntologicalReframing` / `A.6.4` |
 | the surface is now being used for execution, gate, or adjudication consequence | `A.15 / A.20 / A.21` |
 
 For first-minute use, read the four routing rows around the branch itself as a compact mirror of the near-top working-entry check and the ordinary working card:
-- local pressured head -> `Surface Precision Restoration`;
+- local pressured head -> `E.17.SD.SPR` (`Surface Precision Restoration`);
 - stable same-object comparative surface -> stay with `ComparativeReading`;
-- same surface still drifting after local repair -> `Surface Object-of-Talk Discipline`;
+- same surface still drifting after local repair -> `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`);
 - stronger host seam already primary -> reroute out of this branch.
 If you already know you are exiting rather than staying, use the non-branch rows first and then read `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` as the nearest worked exit bank.
 
@@ -43617,7 +43619,7 @@ That five-step order is not a second ordinary working card, and it is not a cano
 It is the shortest way to recover the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`.
 In ordinary use, publish the resulting seven-row burden in compact form rather than a heavier load-bearing declaration block whenever seam pressure still stays low.
 If the seven-row working card still cannot be completed plainly through that order, the review surface is not yet ready to stay here.
-If the note, sheet, or review aid first has to answer what it is about, what move it is carrying, and what wider work remains outside, reroute to `Surface Object-of-Talk Discipline` before continuing branch-local comparative-reading work.
+If the note, sheet, or review aid first has to answer what it is about, what move it is carrying, and what wider work remains outside, reroute to `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`) before continuing branch-local comparative-reading work.
 
 ### E.17.ID.CR:5 - Archetypal grounding
 
@@ -43928,7 +43930,7 @@ The gain is practical: a team can compare available material honestly without pr
 - **Builds on:** `C.2.2a`, `A.16.0`, `F.9`, `E.14`
 - **Normative dependencies:** the shared transduction baseline plus whichever host law still governs the base case (`A.6.3.*`, `F.9.1`, or `E.17.EFP` in mixed seams); those constraints remain normative even when the branch stays small.
 - **Canonical branch-law locus inside the Core:** this section now carries the branch-local summary, checklist, worked slices, and boundary surface for `ComparativeReading`; mixed-seam host-owner law remains primary where the base case still belongs elsewhere.
-- **Drafting-support companions:** use `Surface Precision Restoration` when head-kind or qualifier pressure is still local; use `Surface Object-of-Talk Discipline` when the same review surface still drifts between reviewed material, governed surface, comparative move, and outside workflow after local repair. These are drafting-support repair companions, not always-on prerequisites for ordinary `ComparativeReading` use.
+- **Drafting-support companions:** use `E.17.SD.SPR` (`Surface Precision Restoration`) when head-kind or qualifier pressure is still local; use `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`) when the same review surface still drifts between reviewed material, governed surface, comparative move, and outside workflow after local repair. These are drafting-support repair companions, not always-on prerequisites for ordinary `ComparativeReading` use.
 - **Coordinates with:** `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `F.9.1`, `E.17.EFP`, `B.5.2.0`, `B.5.2`, `OntologicalReframing`, `A.6.4`, `A.15`, `A.20`, `A.21`
 - **Primary boundary touch-points:** `A.6.3.*`, `F.9.1`, `E.17.EFP`, and `B.5.2.0 / B.5.2`
 - **Exit seams:** rival-route pressure exits to `B.5.2.0 / B.5.2`; ontology and changed-target pressure exit to `OntologicalReframing` or `A.6.4`; downstream action, gate, assurance, and adjudication pressure exit to `A.15 / A.20 / A.21`
@@ -43936,6 +43938,681 @@ The gain is practical: a team can compare available material honestly without pr
 - **Non-goal:** this branch does not create a rival authority surface, a rival bridge taxonomy, or a rival formal substrate.
 
 ### E.17.ID.CR:End
+
+## E.17.SD.SPR - SurfaceDiscipline / Surface Precision Restoration - repair the pressured surface word before the whole surface inherits it
+
+**Placement.** Narrow local-repair branch inside the broader `SurfaceDiscipline` umbrella.
+
+**Builds on.** `A.6.P`, `A.7`, `E.10`, `F.18`, `E.14`.
+
+**Coordinates with.** `E.17.ID.CR`, `E.17.SD.OOTD`, `E.17.EFP`, `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `A.15`, `A.20`, `A.21`.
+
+**Plain-name.** Repair the pressured surface word before the whole surface inherits it.
+
+**One-line summary.** `Surface Precision Restoration` is a narrow local-repair branch for cases where one locally familiar word such as `text`, `document`, `surface`, `review`, or `interpretation` is being asked to carry more burden than the sentence has honestly restored.
+
+**Governed object in plain terms.** The governed object here is one pressured head inside one authored surface. The governed move is to restore the head kind, active lane, governed object when one is active, move or burden, and nearest outside-work boundary before the rest of the surface inherits ambiguity.
+
+**Use this when.** Use this section when one note, memo, review surface, table, or semio-heavy paragraph starts leaning on one broad familiar word and you can no longer tell what kind of thing that word names here. Use it when the local head has become the pressure point, but the whole surface has not yet proved that it needs full object-of-talk stabilization.
+
+**First-minute working moment.** A draft says `this review`, `this text`, `this document`, `this publication`, or `this interpretation`, and everyone in the room keeps reading a different thing into the same head. You do not yet need a whole new surface-level law check. You need the local head repaired before the rest of the surface can be trusted.
+
+**What goes wrong if you miss this.** One vague head quietly governs the next three sentences. Review then turns into an argument about taste while the real defect is simple: the surface never said whether it was naming a description, a carrier, an authored surface, a move, a branch, or wider work.
+
+**What this buys you in practice.** It lets a team stabilize the smallest honest unit first. You repair the pressured head, keep local lane and burden visible, and avoid escalating into whole-surface review too early.
+
+**Not this pattern when.** This is not the right pattern when:
+- the same authored surface still drifts after local repair and now needs one stable answer to what it is about, what move it carries, and what remains outside;
+- the real burden is already one bounded comparative review move over an otherwise stable surface;
+- the main issue is view, face, carrier, publication architecture, or downstream authority work rather than a pressured local head;
+- the text is already honest locally, and the unresolved problem is wider strategy, rollout sequencing, or architecture framing.
+
+**Primary working reader.** The first working reader is an author, reviewer, architect, or manager who needs one quick way to repair a pressured surface head before the whole text overclaims.
+
+**Problem-owning practice reading.** In ordinary practice, this branch helps teams editing review notes, status notes, decision memos, architecture notes, and semio-heavy paragraphs where one familiar head has become the pressure point. The job is not to redesign the whole text. It is to make one local sentence honest enough that reviewers stop arguing past each other about what the head names here.
+
+**Quick recovery route.** If the recognition surface fits, recover the local repair through the five-row ordinary card in `E.17.SD.SPR:3.2` and the nearest worked slices in `E.17.SD.SPR:5.1` through `E.17.SD.SPR:5.6`. Use the quick worked-slice starter only while one pressured head still stays primary; if that recovery already lands in bounded comparison or whole-surface stabilization, hand back or reroute before you open the heavier extension.
+
+**Quick first check.** Do not open the whole branch yet. Ask these five questions first:
+1. Which exact word is under pressure?
+2. What head kind is that word honestly naming here?
+3. Which lane is actually primary here?
+4. What governed object, move or burden, and outside work are actually in play here?
+5. After one honest repair, does the surface stabilize locally, or does it still drift into a neighboring lane?
+
+**Local-repair threshold.** One honest local repair should restore the pressured head, its head kind, the active lane, the governed object when one is active, and the move or burden the sentence is actually carrying. If the next sentence still borrows a different kind, a different lane, or a different outside-work boundary from the same head, local repair is no longer the only primary burden.
+
+**Neighboring-lane boundary check.** If one honest local repair stabilizes the surface and the remaining burden is one bounded comparative review move over already pinned material, hand back to `E.17.ID.CR` (`ComparativeReading`) rather than thickening this local-repair branch. If the same authored surface still cannot keep one stable object, one move, and one outside-work boundary visible after local repair, reroute to `E.17.SD.OOTD` (`Surface Object-of-Talk Discipline`) instead of stacking more qualifiers onto the pressured head.
+
+**Quick kind stack.** `SurfaceDiscipline` names the wider umbrella. `Surface Precision Restoration` names the local-repair branch used when one pressured head inside one authored surface still needs its head kind, active lane, governed object, move or burden, and any umbrella or branch stack restored before the rest of the surface inherits ambiguity. When that broader stack is doing real work, write one explicit output line: `umbrella = ... | branch = ... | governed object = ... | move = ... | outside work = ...`. This local repair works over the inherited frame; it does not redefine the moving lineage, carrier, face, or publication architecture that sits outside the current authored-surface repair. Whole-surface stability stays outside unless local repair still fails, in which case the case should reroute to `E.17.SD.OOTD`. The canonical whole-surface law/check surface remains `E.17.SD.OOTD`; this section governs only the narrower local-repair branch.
+
+If those five questions are the right questions, start here.
+
+### E.17.SD.SPR:1 - Problem frame
+
+**Anti-workflow note.** The quick checks, ordinary card, worked slices, and reroute rules in this section are local aids for one authored surface under review. They are not a canonical transduction workflow, not a mandatory lifecycle, and not a promise that lawful cases move through one fixed sequence. One case may stabilize after one head repair, another may reopen when outside observation changes the honest burden, and another may reroute to `E.17.SD.OOTD` when the whole surface still drifts.
+
+The recurring defect is small but expensive:
+- one broad familiar word enters early;
+- the word is never restored to one kind or lane;
+- later sentences inherit its ambiguity as if nothing happened.
+
+Typical high-pressure heads include:
+- `document`
+- `text`
+- `artifact`
+- `note`
+- `sheet`
+- `publication`
+- `surface`
+- `face`
+- `view`
+- `review`
+- `interpretation`
+- `reading`
+
+These words are not uniformly wrong. They become risky when one of them starts carrying governed-object load, lane load, move load, or owner-boundary load without being restored first.
+
+### E.17.SD.SPR:2 - Problem
+
+Without a named local restoration move:
+1. teams keep asking qualifiers to rescue an unstable head;
+2. one sentence names a thing while the next sentence names the move over it;
+3. readers over-infer whole-surface meaning from one under-restored umbrella;
+4. later whole-surface discipline is opened too early for a problem that was still local;
+5. or the opposite happens: a whole-surface drift defect is hidden because nobody repaired the local pressure first.
+
+### E.17.SD.SPR:3 - Solution
+
+> `Surface Precision Restoration` repairs the pressured local head before the rest of the authored surface is allowed to inherit it.
+>
+> It restores head kind, active lane, move or burden, and any umbrella/branch/object stack that the sentence is quietly relying on.
+
+#### E.17.SD.SPR:3.1 - Pairwise plain glosses
+
+- **Pressured head** = the word doing more work than the sentence has honestly restored.
+- **Head kind** = what kind of thing that word names here: for example description, carrier, authored surface, governed object, face, or view.
+- **Active lane** = where the local work is happening here: for example review, publication, comparison, process, or authority.
+- **Governed object** = what the local sentence or authored surface is actually about here.
+- **Move/burden** = what the sentence is doing with that governed object, if anything.
+- **Umbrella/branch/object stack** = when a broader umbrella or narrower branch is active, name the umbrella, branch, governed object, move, and outside work separately rather than letting one familiar head carry them by implication.
+
+**Local reading lens.** Treat the pressured head as one typed surface anchor inside one authored surface. This local lens restores one pressured head; it does not settle whole-surface modeling-lens policy, redefine the inherited moving lineage or its publication-form and face/carrier lanes, or replace neighboring semioarchitecture axes. The smallest honest local lens asks five things: what head kind is named here, which lane is primary, what governed object is in play, what move or burden is carried, and what still remains outside. If that local lens no longer stabilizes the same surface, local repair has already reached its limit and the case should reroute.
+
+#### E.17.SD.SPR:3.2 - Ordinary working card
+
+Use this five-row card for ordinary cases:
+
+| Row | Ordinary prompt |
+| --- | --- |
+| 1 | Which exact word is under pressure? |
+| 2 | What head kind is it honestly naming here? |
+| 3 | Which lane is actually primary here? |
+| 4 | What governed object, move or burden, and outside work are actually in play here? |
+| 5 | After one honest repair, does local restoration stay enough, or does the case honestly hand back or reroute? |
+
+Treat that card as the recognition surface. It is a local repair aid, not a universal lifecycle rail.
+Use it while one pressured head remains the main defect.
+
+When umbrella or branch language is load-bearing, add one explicit conditional output line next to the card: `umbrella = ... | branch = ... | governed object = ... | move = ... | outside work = ...`.
+
+Read the card as a three-way recovery surface:
+- if rows 1-5 stabilize around one repaired local head, one restored lane, one governed object, and one honest local burden, stay here;
+- if rows 1-5 stabilize locally and the remaining burden is one bounded comparative review move over already pinned material, hand back to `E.17.ID.CR` rather than thickening this local-repair branch;
+- if rows 2-5 still cannot stay stable because the same authored surface keeps borrowing a different object, move, or outside-work boundary from the same head, reroute to `E.17.SD.OOTD` instead of pretending one more qualifier will rescue the same surface.
+
+The nearest worked slices for those three landings are:
+- ordinary stay-local: `E.17.SD.SPR:5.2`;
+- lawful hand-back to bounded comparison: `E.17.SD.SPR:5.4`;
+- lawful whole-surface reroute: `E.17.SD.SPR:5.5`.
+
+#### E.17.SD.SPR:3.3 - Load-bearing extension
+
+If the local case is close to a seam and the ordinary card already stabilizes the surface, add these checks:
+- pressured head;
+- restored head kind;
+- restored active lane;
+- restored governed object;
+- restored move or burden;
+- restored outside-work boundary;
+- any umbrella/branch/object distinction now made explicit;
+- reroute decision.
+
+Use that extension as the assurance surface only when ordinary repair is already holding and the remaining risk is misuse at a neighboring seam.
+It is for the stay-local landing, not for re-deciding whether the case really belongs in `E.17.ID.CR` or `E.17.SD.OOTD`.
+If the ordinary card now shows one stable local repair plus one bounded comparative review burden, hand back to `E.17.ID.CR` before opening the extension.
+If the ordinary card still shows whole-surface drift after local repair, reroute to `E.17.SD.OOTD` before adding declaration weight here.
+Do not use it to rescue a surface that still drifts at whole-surface level, and do not turn it into a second law sheet.
+
+#### E.17.SD.SPR:3.4 - Ordinary repair order
+
+Use this order when one head is carrying too much:
+1. name the pressured word;
+2. restore the head kind;
+3. restore the active lane;
+4. restore the governed object when one is active;
+5. restore the move or burden, if any;
+6. restore any umbrella/branch/object distinction and nearest outside-work boundary the sentence is relying on;
+7. decide which of three landings is honest: stay with local repair, hand back to bounded comparison, or reroute to whole-surface discipline.
+
+A narrowing qualifier alone does not count as restoration.
+Treat this order as one local repair aid, not as a canonical flow.
+Steps 1-6 restore the pressured head; step 7 classifies what the repaired surface can honestly do next.
+If step 6 keeps reopening because the same surface still cannot hold one stable object, one move, and one outside-work boundary, stop local repair and reroute to `E.17.SD.OOTD`.
+If the local head is now honest and the only remaining burden is one bounded contrast over already available material, hand back to `E.17.ID.CR` instead of escalating the local card into a heavier surface by habit.
+If the local head is honest and no neighboring lane has become primary, stop here rather than manufacturing extra extension weight.
+
+### E.17.SD.SPR:4 - Quick worked-slice starter
+
+If you need one ordinary entry sentence fast, start from one of these:
+
+| Working moment | Safe starter sentence |
+| --- | --- |
+| Architecture note | `This note is about the proposed service boundary as one authored review surface, not yet about rollout work.` |
+| Operations review | `This review surface is about the incident episode and its timing contrast, not yet about action approval.` |
+| Semio-heavy paragraph | `This paragraph is about the comparative review surface, not the wider architecture strategy.` |
+
+Use these starters only as local examples. If outside observations or downstream constraints change what the sentence can honestly carry, reopen or reroute instead of treating the starter as step one of a fixed flow.
+
+### E.17.SD.SPR:5 - Worked slices
+
+**Worked-slice status.** Read the release-boundary, publication-surface, semio-heavy, bounded-comparison, whole-surface-reroute, and outside-observation cases as a heterogeneous example bank, not as one recommended repair ladder. They show different lawful landings for this local-repair branch: some cases stabilize after one honest head repair and stop here, some hand back to `E.17.ID.CR`, some reroute to `E.17.SD.OOTD`, and some stop and reopen when outside observation changes what the same local sentence can honestly carry. For quickest recovery of the three main landings, read `E.17.SD.SPR:5.2` as ordinary stay-local repair, `E.17.SD.SPR:5.4` as lawful hand-back to `E.17.ID.CR`, and `E.17.SD.SPR:5.5` as lawful whole-surface reroute to `E.17.SD.OOTD`. Then read `E.17.SD.SPR:5.6` as the separate stop-and-reopen or neighboring handoff case after outside observation changes what the same local surface can honestly carry.
+
+**Worked-slice mini-schema.** When a case turns semio-heavy or seam-heavy, recover the same compact output in this order: `pressured head | head kind | active lane | governed object | move or burden | outside work | landing`.
+
+#### E.17.SD.SPR:5.1 - `review` is really carrying two jobs
+
+A note says:
+`This review establishes the release boundary for the service.`
+
+Two sentences later it says:
+`The review should therefore assign rollout ownership to platform.`
+
+Local repair first:
+- pressured head = `review`;
+- restored head kind = authored review surface;
+- active lane = boundary review, not ownership assignment;
+- governed object = the release boundary as made visible in this review surface;
+- carried move = make one boundary visible;
+- outside work = ownership assignment.
+
+The repaired surface can now either stay with the boundary review or explicitly hand off to the ownership lane. Without that repair, the note quietly overclaims.
+
+#### E.17.SD.SPR:5.2 - `text` quietly drifts into carrier or document status
+
+A paragraph says:
+`This text is the policy.`
+
+But what it really means is one authored publication surface that describes the policy rather than being the policy object itself.
+
+Local repair:
+- pressured head = `text`;
+- restored head kind = authored publication surface;
+- active lane = authored surface, not governed policy object;
+- governed object = the policy description visible in this surface;
+- carried move = describe the policy rather than claim authority for it;
+- outside work = downstream authority status.
+
+This is the ordinary stay-local case. One repaired head keeps later sentences from borrowing authority from the wrong lane without forcing whole-surface stabilization.
+
+**Recovery reading.** Stay in `E.17.SD.SPR`: the local head is now honest, the same local surface no longer drifts, and no neighboring lane has become primary.
+
+#### E.17.SD.SPR:5.3 - Semio-heavy umbrella does too much work
+
+A semio note says:
+`This interpretation clarifies the package.`
+
+But the same paragraph is really about one bounded comparative-reading move over one review surface, not about `InterpretationDiscipline` as a whole and not about the whole package.
+
+Local repair:
+- pressured head = `interpretation`;
+- restored head kind = comparative review surface anchor inside one semio-heavy paragraph;
+- active lane = bounded comparative reading, not umbrella-level package explanation;
+- governed object = comparative review surface;
+- stack restored = umbrella `InterpretationDiscipline`, branch `ComparativeReading`;
+- move = bounded comparative reading;
+- outside work = wider architecture strategy.
+
+Now the local paragraph stops pulling package-level load it never declared.
+
+#### E.17.SD.SPR:5.4 - Local repair lands back in bounded comparison
+
+A comparison note says:
+`This review shows option A is safer than option B.`
+
+But the surface is really one comparative review note over already pinned material, not a whole-surface drift case and not yet a route choice.
+
+Local repair:
+- pressured head = `review`;
+- restored head kind = comparative review surface;
+- active lane = bounded comparative-reading surface, not whole release workflow;
+- governed object = the already pinned option contrast;
+- carried move = make one bounded contrast visible over already available material;
+- outside work = route choice or approval.
+
+Once that local head is repaired, do not keep thickening this branch by habit. The lawful next move is to hand the now-stable surface back to `E.17.ID.CR`, because the remaining burden is one bounded contrast rather than whole-surface object-of-talk drift.
+
+**Recovery reading.** This is the honest hand-back branch: finish the local repair here, then let `E.17.ID.CR` carry the remaining bounded contrast over the now-stable surface.
+
+#### E.17.SD.SPR:5.5 - Local repair exposes whole-surface drift and must reroute
+
+A release note says:
+`This document records the release decision for the candidate.`
+
+After one sentence, the same surface starts talking as if it were:
+- the authored review surface that compares evidence;
+- the decision object itself;
+- and the rollout work that follows if approval lands.
+
+Local repair can still restore the pressured head:
+- pressured head = `document`;
+- restored head kind = authored review surface;
+- active lane = authored surface, not decision object or rollout work;
+- carried move = record the current release reasoning visible in this surface;
+- outside work = actual approval, rollout execution, and downstream authority burden.
+
+But the repaired head does not keep the same authored surface stable. The next sentences still slide between the object being decided, the move of comparing evidence, and the wider work that happens after the decision. That means local head repair has done its job and shown the remaining defect honestly: the whole surface still cannot keep one stable object, one move, and one outside-work boundary visible.
+
+**Recovery reading.** This is the lawful whole-surface-reroute branch: stop thickening the local repair, keep the restored head as the last honest local result, and move to `E.17.SD.OOTD` because the same surface still drifts after one honest repair.
+
+#### E.17.SD.SPR:5.6 - Outside observation changes what the same head can honestly carry
+
+A status note says:
+`This note captures the current rollback posture for the candidate.`
+
+Mid-review, a new vendor bulletin changes the live failure boundary and pushes the surrounding conversation toward approval burden.
+
+Local repair can still make the current sentence honest:
+- pressured head = `note`;
+- restored head kind = authored review surface;
+- active lane = current review surface, not downstream approval surface;
+- carried move = capture the rollback posture visible on the current evidence slice;
+- outside work = any new approval, adjudication, or widened authority step.
+
+But this is the stop-and-reopen case. Once outside observation changes what the same local surface can honestly stay about, do not keep appending stronger burden as if the same local repair simply continued. Stop, reopen with a newly declared burden, or hand off if downstream authority or whole-surface stabilization has become primary.
+
+**Recovery reading.** Do not keep thickening the local card here: outside observation has changed what the same local surface can honestly carry, so the lawful landing is stop-and-reopen or neighboring handoff, not one more local qualifier.
+
+### E.17.SD.SPR:6 - Reroutes
+
+**Assurance-recovery note.** Read these reroutes as a heavier audit surface over the same ordinary five-row card and the same three honest landings. They are not a second compact law list. If a reroute bullet starts carrying the case by itself, recover the local-repair threshold, `E.17.SD.SPR:3.2 Row 5`, and the nearest worked slice first.
+
+Reroute away from this branch when:
+- the repaired local head is no longer the real problem and the whole surface still drifts;
+- the same surface is already stable enough and the remaining burden is one bounded comparative review move over already pinned material;
+- the problem is really view/face/carrier architecture;
+- the surface has already become downstream approval, gate, adjudication, or execution work;
+- outside observation or environmental drift has changed what the same local surface can honestly carry, so the case now needs stop-and-reopen or a neighboring handoff rather than one more local qualifier.
+
+**Reroute recovery map.**
+
+| If this reroute becomes primary | Recover this ordinary burden first | Nearest worked recovery |
+| --- | --- | --- |
+| The repaired local head is no longer the real problem and the whole surface still drifts. | `E.17.SD.SPR:3.2 Row 5`: one honest local repair no longer stabilizes one object, one move, and one outside-work boundary. | `E.17.SD.SPR:5.5` |
+| The same surface is already stable enough and the remaining burden is one bounded comparative review move over already pinned material. | `E.17.SD.SPR:3.2 Row 5`: the local head is now honest and the remaining burden is the bounded comparison, not one more local repair. | `E.17.SD.SPR:5.4` |
+| Outside observation or environmental drift has changed what the same local surface can honestly carry. | The local-repair threshold plus the stop-and-reopen safeguard: do not keep appending stronger burden to the same surface. | `E.17.SD.SPR:5.6` |
+| The surface has already become downstream approval, gate, adjudication, or execution work. | `E.17.SD.SPR:3.2 Row 4` plus the outside-work field: the sentence is no longer naming one pressured head inside one authored review surface. | `E.17.SD.SPR:5.5` and `E.17.SD.SPR:5.6` |
+
+The comparison-side neighbor is `E.17.ID.CR ComparativeReading`: use that branch when the local head is now honest, the surface already stays about the same object of talk, and the remaining burden is one bounded comparative reading over already available material.
+
+The main whole-surface neighbor is `E.17.SD.OOTD Surface Object-of-Talk Discipline`: use that branch when local head repair is no longer enough and the whole authored surface still cannot keep one stable object, one move, and one outside-work boundary visible.
+
+Treat those as neighboring recoveries, not as a required sequence. Some cases will stop after one local repair, some will hand back to bounded comparison under `E.17.ID.CR`, and some will reroute to whole-surface stabilization under `E.17.SD.OOTD` once the honest burden changes.
+
+### E.17.SD.SPR:7 - Consequences
+
+Used well, this branch:
+- prevents one vague head from governing a whole section by accident;
+- keeps local repair cheap instead of escalating too early;
+- makes later whole-surface review cleaner because the local head burden has already been restored;
+- gives authors and reviewers one common language for saying `the problem is still local`.
+
+Used badly, it can become one more vocabulary exercise. If the whole surface still drifts after local repair, do not keep polishing the pressured head forever. Hand off.
+
+### E.17.SD.SPR:8 - SoTA-Echoing
+
+**Assurance-recovery note.** Use these rows only after the ordinary five-row card, the local-repair threshold, and the nearest worked slices already tell you which landing is primary. Each row should recover back into the same local burden, landing, or safeguard; if a citation starts carrying the case by itself, recover the ordinary surface first.
+
+| Claim this branch needs | Relevant practice | Primary source | Practitioner implication here | Nearest recovery surface | Adoption status |
+| --- | --- | --- | --- | --- | --- |
+| One pressured word should not silently switch concerns, viewpoints, or object lanes mid-surface. | Architecture-description practice treats explicit concerns and consistency across descriptions as first-class obligations. | ISO/IEC/IEEE 42010:2022 | In `E.17.SD.SPR:5.2` and `E.17.SD.SPR:5.5`, repair the head by making explicit whether the sentence names an authored surface, a governed object, or outside work before later sentences inherit the wrong lane. | `E.17.SD.SPR:3.2 Rows 2-4`; `E.17.SD.SPR:5.2`; `E.17.SD.SPR:5.5` | **Adopt/Adapt.** Adopt viewpoint accountability; adapt it to one pressured head inside one authored surface. |
+| A working pattern should make the first useful move teachable and critique-ready, not merely correct in hindsight. | Pattern-writing practice emphasizes clear template usage, concrete consequences, and critique-ready worked guidance. | Iba (2021), “How to Write Patterns …” (PLoP 2021) | The ordinary card and worked slices are here so a practitioner can repair one pressured head in `E.17.SD.SPR:5.1` or `E.17.SD.SPR:5.4` without opening whole-surface discipline too early. | `E.17.SD.SPR:3.2`; `E.17.SD.SPR:5.1`; `E.17.SD.SPR:5.4` | **Adopt.** Keep the move teachable through one small card plus concrete slices. |
+| Review quality improves when criteria are explicit instead of left to taste. | Pattern-validation practice pushes toward explicit criteria and documented review checks. | Riehle et al. (2020), “Pattern Discovery and Validation Using Scientific Research Methods”. | The local-repair threshold and the three landings keep review from collapsing into style debate: see `E.17.SD.SPR:5.2` for stay-local, `E.17.SD.SPR:5.4` for hand-back, and `E.17.SD.SPR:5.5` for reroute. | local-repair threshold; `E.17.SD.SPR:3.2 Row 5`; `E.17.SD.SPR:5.2`; `E.17.SD.SPR:5.4`; `E.17.SD.SPR:5.5`; `E.17.SD.SPR:5.6` | **Adopt.** Keep the criteria lightweight but explicit. |
+
+Read `E.17.SD.SPR:6 - Reroutes` through this table only after the landing is already visible by value. The citations do not choose the landing for you; they discipline why the already-recovered landing is reviewable and teachable.
+
+### E.17.SD.SPR:9 - Relations
+
+**Builds on**
+- `A.6.P Relational Precision Restoration Suite`
+- `E.10 Unified Lexical Rules for FPF`
+- `F.18 Local-First Unification Naming Protocol`
+- `A.7 Strict Distinction`
+
+**Nearest neighbors**
+- `E.17.SD.OOTD Surface Object-of-Talk Discipline`
+- `E.17.ID.CR ComparativeReading`
+
+**Authority note.** This monolith section is the canonical branch-law locus for `Surface Precision Restoration` inside the Core. Companion notes may summarize, harden, or stage adjacent recovery support, but they may not override this section.
+
+### E.17.SD.SPR:End
+
+## E.17.SD.OOTD - SurfaceDiscipline / Surface Object-of-Talk Discipline - authored-surface stability over one primary object of talk
+
+**Placement.** Narrow whole-surface stability branch inside the broader `SurfaceDiscipline` umbrella.
+
+**Builds on.** `A.6.P`, `A.7`, `E.10`, `F.18`, `E.14`, `E.19`, `C.2.2a`, `A.16.0`.
+
+**Coordinates with.** `E.17.SD.SPR`, `E.17.ID.CR`, `E.17.EFP`, `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `A.15`, `A.20`, `A.21`.
+
+**Plain-name.** Keep one authored surface about one thing at a time.
+
+**One-line summary.** `Surface Object-of-Talk Discipline` governs one authored working or publication surface at a time and keeps that surface explicit about what it is mainly about, what move it is carrying over that thing, and what wider work or stronger downstream decision burden remains outside.
+
+**Governed object in plain terms.** The governed object here is one authored surface that other people are meant to read as one unit: a note, memo, sheet, review aid, screen, table, or short section. The governed move is to keep that surface explicit about one primary object of talk, one carried move over that object, and one outside-work boundary.
+
+**Use this when.** Use this pattern when one note, memo, sheet, screen, table, comparison aid, or other authored surface starts reading as if it is still about one thing while it is quietly sliding into a different thing, a different concern, or a wider process. Use it when local word repair is not enough anymore and the whole surface needs one stable answer to: what is this surface about, what move is it making, and what still remains outside?
+
+**What goes wrong if you miss this.** One surface starts by talking about one thing and quietly ends by licensing a different reading, a different concern, or a wider workflow. Review then gets trapped in sentence-level wording arguments while the real defect is whole-surface drift, and readers over-attribute decision weight or scope to a surface that never declared it.
+
+**What this buys you in practice.** It lets a team stop whole-surface drift before one memo, note, or review surface quietly starts carrying rollout, approval, wider architecture strategy, or another wider concern by habit. In practice that means reviewers can name the real stabilization job earlier, keep stronger downstream work outside, and decide faster whether the current surface is stable enough to keep using at all.
+
+**Not this pattern when.** This is not the right pattern when:
+- the problem is still local head-kind or qualifier repair and `E.17.SD.SPR` (`Surface Precision Restoration`) is enough;
+- the same authored surface is already stable enough, and the main burden is one bounded comparative review move over already available material under `E.17.ID.CR`;
+- the main burden is still same-entity rewrite, representation shift, explanation-face work, bridge-explication, or another neighboring pattern whose move is already primary;
+- the main burden is view, face, carrier, or publication architecture rather than whole-surface drift;
+- the surface is already being used to approve, assign, adjudicate, or direct action and should move to the more honest downstream decision text.
+
+**Quick recovery route.** If the recognition surface fits, recover the working burden through the ordinary six-row card in `E.17.SD.OOTD:4.3` and the nearest worked slices in `E.17.SD.OOTD:5.1` through `E.17.SD.OOTD:5.5`. If that ordinary card plus one nearest worked slice already settles the case, stop there rather than climbing into the heavier support sections by habit.
+
+**Quick exit route.** If the recognition surface no longer fits, exit early instead of opening the heavier stack by habit. One pressured head or qualifier only -> `E.17.SD.SPR` (`Surface Precision Restoration`). Same stable surface, but the real burden is one bounded comparison over already pinned material -> `E.17.ID.CR`. View, face, carrier, same-entity rewrite, or downstream approval/action burden -> the neighboring pattern or the more honest downstream decision text.
+
+**Quick kind-plus-lens reading.** `SurfaceDiscipline` names the broader umbrella. `Surface Object-of-Talk Discipline` names the whole-surface branch used when one authored surface needs its object of talk, carried move, and outside-work boundary made explicit together. The inherited moving lineage still remains successive governed `U.Episteme` publications over `U.CharacteristicSpace`; this branch governs how one authored surface speaks about that lineage or a move over it, not a rival moving thing.
+
+**Primary working reader.** The first-minute reader is an engineer-manager, architect, reviewer, or programme lead who needs to stop one authored surface from quietly changing what it is about. Secondary readers may include people polishing or reviewing the text itself, but the top recognition surface should still read as ordinary review and writing discipline first.
+
+### E.17.SD.OOTD:1 - Problem frame
+
+**Anti-workflow note.** The quick checks, ordinary six-row card, heavier extension, and worked slices in this section are local aids for one authored surface under review. They are not a canonical lifecycle for authored surfaces and not a promise that lawful cases move through one fixed graph in one direction. Read the worked slices sideways rather than as one required sequence: one lawful case may stop after one whole-surface declaration, another may reopen when outside observations change the honest object of talk, and another may hand off once downstream approval/action burden or a neighboring pattern burden becomes primary.
+
+Teams repeatedly write one authored surface that begins by talking about one thing and ends by talking about another while still sounding like one unchanged text.
+
+Typical moments include:
+- an architecture note that starts about a system boundary and ends about rollout work;
+- an operations review note that starts about an incident episode and ends about action approval;
+- a requirements or policy note that starts about a described object and ends about its carrier or document status;
+- a semio-heavy note that starts about one pattern or surface and ends about wider architecture strategy;
+- a comparison sheet that starts about one governed object and quietly drifts into workflow, approval, or action burden.
+
+That drift is usually not caused by one bad sentence alone.
+It is caused by one whole authored surface no longer holding a stable answer to what it is about, what move it is carrying, and what wider work still stays outside.
+
+### E.17.SD.OOTD:2 - Problem
+
+Without a named whole-surface discipline:
+1. authors repair one vague phrase at a time but still leave the surface unstable as a whole;
+2. reviewers argue about wording while missing that the surface has already shifted from object to process or from description to decision burden;
+3. teams quietly read one note as if it licensed a stronger move than the surface actually declared;
+4. local lexical discipline (`A.6.P`, `E.10`, `F.18`) gets blamed for a whole-surface drift it was never meant to solve alone;
+5. surface-level confusion is mistaken for view, face, carrier, or publication architecture even when the immediate problem is simpler and closer.
+
+### E.17.SD.OOTD:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| **Local repair vs whole-surface stability** | The pattern must not replace local precision repair, but it must become available when local repair no longer stabilizes the surface. |
+| **Object clarity vs workflow convenience** | The surface must keep one primary object of talk without forcing the whole surrounding workflow into the same text. |
+| **Reading clarity vs overgrowth** | The section must distinguish object, description, carrier, authored surface, process, and stronger downstream decision use without turning into a giant ontology lecture. |
+| **User-facing discipline vs hidden support weight** | The ordinary recognition surface must stay light enough for practice while still surviving seam pressure and review. |
+| **Surface stability vs architecture replacement** | The pattern must not replace view, face, carrier, publication, or moving-lineage architecture. |
+
+### E.17.SD.OOTD:4 - Solution - stabilize one authored surface, one object of talk, one move, and one outside-work boundary
+
+#### E.17.SD.OOTD:4.1 - Manager-first entry
+
+> `Surface Object-of-Talk Discipline` keeps one authored surface explicit about what it is mainly about, what move it is carrying over that thing, and what wider work remains outside.
+>
+> It becomes necessary when local repair is no longer enough and the whole surface still drifts between object, description, carrier, authored surface, process, or stronger downstream decision use while sounding unchanged.
+
+In plain working terms, this section is for moments like:
+- `this memo is about the architecture boundary, not yet about the rollout plan`;
+- `this review note is about the incident episode, not yet about the action decision`;
+- `this comparison sheet is about the governed object under review, not yet about approval or the downstream decision`;
+- `this semio note is about one pattern surface, not the wider architecture policy around it`.
+
+If that is the clarification you need, start here.
+If the real problem is still only one vague head word, start with `E.17.SD.SPR` (`Surface Precision Restoration`).
+
+#### E.17.SD.OOTD:4.1.a - Pairwise plain glosses
+
+- **Authored surface** = one written or displayed thing others are meant to read as one unit, such as a note, memo, sheet, table, or guided screen.
+- **Primary object of talk** = what that surface is mainly about.
+- **Carried move** = what the surface is doing over that thing, or that it is only stabilizing it without adding a new move.
+- **Outside-work boundary** = what wider review, workflow, execution, or stronger downstream decision burden stays outside the current surface.
+- **Explicit transition** = the surface openly says it has moved from one reading or object to another instead of pretending nothing changed.
+
+#### E.17.SD.OOTD:4.1.b - Minimal modeling lens
+
+Treat the governed thing here as one authored surface carrying one primary object-of-talk reading over one current working concern or lineage slice.
+The smallest honest lens asks five things:
+1. what authored surface is being governed;
+2. what object is primary;
+3. what move over that object is being carried;
+4. which reading is active;
+5. what wider work still stays outside.
+
+If that lens cannot stay stable after local repair, do not patch over the drift with a stronger declaration; reopen or reroute the surface instead.
+
+#### E.17.SD.OOTD:4.2 - Scope and exclusions
+
+**In scope**
+- one authored surface drifting between multiple objects of talk;
+- one surface mixing move and outside work;
+- one surface quietly shifting between object, description, carrier, authored surface, process, or stronger downstream decision use;
+- semio-heavy texts where umbrella, branch, governed object, move, and outside work must stay explicit across one whole surface.
+
+**Out of scope**
+- local head repair only;
+- pure view, face, or carrier architecture work;
+- same-entity transform, explanation, bridge, ontology, or comparative-reading burdens whose neighboring patterns already own the main move;
+- downstream gate, approval, execution, or stronger decision burden.
+
+**Ordinary stop rule.** If the ordinary six-row card plus one nearest worked slice already settle the case, stop there. Do not climb into heavier support just to prove that one surface now keeps one object, one move, and one outside-work boundary honestly in place.
+
+#### E.17.SD.OOTD:4.3 - Ordinary working card
+
+For ordinary use, keep at least these six rows visible:
+
+| Row | Ordinary prompt |
+| --- | --- |
+| 1 | What single authored surface am I asking people to read as one thing? |
+| 2 | What is it mainly about? |
+| 3 | What move is it making over that thing, or is it only stabilizing it? |
+| 4 | What wider work or workflow is outside this surface? |
+| 5 | Is any transition between readings or objects explicit? |
+| 6 | If this still drifts after local repair, what neighboring pattern or support surface do I reroute to? |
+
+If those six rows can stay stable across the same authored surface, ordinary use is usually enough.
+Treat that six-row card as the recognition surface.
+
+If local repair is still enough, go back to `E.17.SD.SPR` (`Surface Precision Restoration`) instead of adding more structure here.
+If the surface remains one thing but seam pressure, misuse risk, or cross-reading ambiguity becomes load-bearing, move to the heavier extension as the assurance surface.
+If the same surface is already stable as one object, one move, and one outside-work boundary, and the remaining burden is one bounded comparative review move over already available material, hand back to `E.17.ID.CR` before thickening this whole-surface card.
+If the surface cannot keep one stable object, one move, and one outside-work boundary even after local repair, do not solve that by stacking more fields onto the heavier extension; reroute or reopen the neighboring-pattern check first.
+
+#### E.17.SD.OOTD:4.4 - Load-bearing extension and quick reroute summary
+
+Use the heavier extension only when the ordinary six-row card already stays stable and the case is close to important seams.
+It is for stronger declaration, not for rescuing a surface that still cannot keep one object, one move, and one outside-work boundary in place.
+
+Then add:
+- `surfaceKind`;
+- `primaryReading`;
+- `transitionPolicy`;
+- `modelingLensPolicy`;
+- `downstreamDecisionPolicy`.
+
+These fields do not create a rival law track. They only make the heavier seam pressure visible once the ordinary card already holds.
+
+**Quick reroute summary**
+- use `E.17.SD.SPR` (`Surface Precision Restoration`) when the instability is still local to one head, qualifier, or reading word;
+- use `E.17.ID.CR` when the same authored surface already holds one stable object, one move, and one outside-work boundary, and the real burden is one bounded comparative review move over already available material;
+- stay here when one authored surface still drifts between object, carried move, and wider workflow after honest local repair;
+- reroute to the neighboring pattern or downstream decision text when view/face/carrier, same-entity transform, explanation, bridge, ontology, gate, approval, or execution burden becomes primary.
+
+#### E.17.SD.OOTD:4.5 - Branch-law summary
+
+This section is the canonical branch-law summary for `Surface Object-of-Talk Discipline` inside the Core.
+Companion notes may elaborate support checks and review scaffolding, but they may not override this section.
+
+The practical summary is:
+1. keep one primary object of talk unless a transition is explicit;
+2. do not collapse object, description, carrier, authored surface, process, and stronger downstream decision use into one unchanged reading;
+3. keep the carried move distinct from the wider work around it;
+4. use local `E.17.SD.SPR` (`Surface Precision Restoration`) first, and open this branch when whole-surface drift remains after that;
+5. hand back to `E.17.ID.CR` when whole-surface stability already holds and the remaining burden is one bounded comparative review move over already available material;
+6. reroute when the surface starts carrying downstream decision burden or another neighboring pattern burden.
+
+### E.17.SD.OOTD:5 - Archetypal grounding
+
+**Worked-slice status.** Read the architecture, operations, semio-heavy, comparison-hand-back, and changed-object cases as a heterogeneous example bank, not as one recommended progression.
+
+#### E.17.SD.OOTD:5.1 - Architecture note drifting into rollout work
+
+A short architecture memo begins with:
+`This note is about the proposed service boundary between catalog and checkout.`
+
+Three paragraphs later it says:
+`We should therefore assign rollout ownership to platform and stage migration in two sprints.`
+
+The fix is not only lexical.
+The authored surface changed its object of talk from architecture boundary to rollout process and decision ownership.
+This section forces the author to either:
+- keep the note about the boundary and push rollout outside;
+- or make the transition explicit and reroute to a downstream decision or rollout text.
+
+#### E.17.SD.OOTD:5.2 - Operations note drifting into approval
+
+An incident note begins as a comparative review of timing variance and operator context.
+It ends as if it already recommends a production action.
+
+This section makes the author keep the review surface about the episode and the contrast it is surfacing, while forcing action approval into an explicit outside-work or downstream decision text.
+
+#### E.17.SD.OOTD:5.3 - Semio-heavy text mixing branch and wider architecture strategy
+
+A semio note starts about one governed branch and ends as if it had decided the packaging strategy for the whole overlay.
+
+This section forces the surface to say:
+- what the note is about now;
+- what move it is making over that thing;
+- and what wider architecture strategy remains outside the current surface.
+
+#### E.17.SD.OOTD:5.4 - Surface stabilizes and hands back to bounded comparison
+
+A review note first drifts between the governed interface boundary, the move it is making over the current evidence, and the rollout implications around that boundary.
+After one honest whole-surface repair it now says:
+`This review surface is about the interface boundary options and the contrast they make visible under the current incident evidence; rollout ownership and approval remain outside this note.`
+
+At that point the same surface already holds one stable object, one move, and one outside-work boundary.
+`Surface Object-of-Talk Discipline` has done its job.
+If the remaining burden is now one bounded comparison between the already pinned options over the same evidence, the honest next move is to hand back to `E.17.ID.CR` rather than keep thickening whole-surface discipline.
+
+#### E.17.SD.OOTD:5.5 - Outside observation changes the honest object of talk
+
+A release-readiness note is already explicit that it is about one candidate surface and the risk posture visible from the current evidence.
+Mid-review, an external vendor bulletin and a new field observation change the live failure boundary for that same candidate.
+
+The honest move is not to keep appending the new burden while pretending the same surface still carries the same object of talk unchanged.
+This section forces the author to either:
+- stop the current surface at the originally declared object and open a new downstream surface for the changed burden;
+- explicitly reopen the same surface with a newly declared object, move, and outside-work boundary;
+- or hand off once approval, execution, or another downstream decision text becomes the more honest primary burden.
+
+### E.17.SD.OOTD:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**.
+This section intentionally biases toward explicit whole-surface stability and against quietly letting one surface absorb wider workflow or stronger decision burden by habit.
+The main mitigation is explicit object/move/outside-work surfacing, early hand-back to `E.17.ID.CR` when whole-surface stability is already solved, and hard reroutes once stronger downstream burden becomes primary.
+
+### E.17.SD.OOTD:7 - Conformance Checklist
+
+1. **CC-SOOTD-1 - One authored surface is explicit.**
+   The governed authored surface is explicitly identifiable as one note, memo, sheet, screen, table, or section meant to be read as one unit.
+2. **CC-SOOTD-2 - Primary object of talk is explicit.**
+   The surface makes its primary object of talk recoverable enough that readers are not left to infer it from tone alone.
+3. **CC-SOOTD-3 - Carried move is explicit.**
+   The surface states what move it is making over that object, or explicitly says that it is only stabilizing the object without a new move.
+4. **CC-SOOTD-4 - Outside-work boundary is explicit.**
+   Wider workflow, approval, execution, or stronger downstream decision burden is either declared outside or rerouted rather than smuggled into the same unchanged surface.
+5. **CC-SOOTD-5 - Any transition is explicit.**
+   If the surface moves between object, description, carrier, authored surface, process, or stronger decision use, that transition is explicit rather than quietly absorbed.
+6. **CC-SOOTD-6 - Local vs whole-surface repair choice is honest.**
+   `E.17.SD.SPR` (`Surface Precision Restoration`) is used first when local repair is enough; this branch is used only when whole-surface drift remains after local repair.
+7. **CC-SOOTD-7 - Neighboring-pattern routing is explicit.**
+   If same-entity transform, explanation, bridge, comparative-reading, ontology, gate, approval, or execution burden becomes primary, the surface reroutes honestly rather than pretending this branch still governs the case.
+8. **CC-SOOTD-8 - Load-bearing lens is surfaced when needed.**
+   If a minimal modeling lens or downstream-decision policy is materially load-bearing, it is surfaced rather than silently assumed.
+
+### E.17.SD.OOTD:8 - Common Anti-Patterns
+
+- **Local-repair inflation.** Opening whole-surface discipline when one pressured head or qualifier is still the real defect.
+- **Workflow smuggling.** Letting a note begin as architecture, incident review, or comparison work and end as rollout, approval, or execution guidance without naming the transition.
+- **Support-lane replacement.** Treating this branch as if it replaced view/face/carrier architecture, same-entity transform law, explanation governance, bridge law, or downstream decision texts.
+- **Overgrowth by declaration.** Stacking heavier fields onto a surface that still cannot keep one stable object, one move, and one outside-work boundary in place.
+
+### E.17.SD.OOTD:9 - Consequences
+
+Used well, this section buys three main gains:
+- authors stop smuggling wider work into one surface by accident;
+- reviewers can name whole-surface drift instead of only arguing about wording;
+- neighboring patterns and downstream decision texts stop getting blamed for confusion created one layer earlier.
+
+The cost is that some notes must become shorter, split earlier, or reopen more honestly when the object of talk really changes.
+That cost is deliberate.
+
+### E.17.SD.OOTD:10 - Rationale
+
+The point of this branch is not to create a second architecture of views, faces, carriers, or downstream decision texts.
+It is narrower: one authored surface can become misleading even when every single sentence looks locally acceptable.
+
+`A.6.P`, `A.7`, `E.10`, and `F.18` already keep kinds, distinctions, and naming precise.
+This branch adds the missing whole-surface discipline that asks whether the same authored surface is still honestly about one thing, carrying one move, with one explicit outside-work boundary.
+
+The branch also stays intentionally close to `E.14` and `E.19`.
+Recognition comes first through a manager-usable surface and the ordinary six-row card.
+Heavier declaration comes only after the ordinary surface already holds.
+
+### E.17.SD.OOTD:11 - SoTA-Echoing
+
+| Whole-surface obligation | Domain or practice tradition | Working implication here | Nearest recovery surface |
+| --- | --- | --- | --- |
+| One authored surface should keep one explicit concern or object unless it declares a transition. | Architecture-description and viewpoint practice (`ISO/IEC/IEEE 42010:2022`) | In `E.17.SD.OOTD:5.1`, keep the memo about the service boundary and push rollout sequencing or ownership outside before later paragraphs inherit the wrong concern. | `E.17.SD.OOTD:4.3`, `E.17.SD.OOTD:5.1` |
+| Under-restored heads and cross-disciplinary ambiguity should be repaired at the level where readers actually reconstruct meaning, not left to reviewer guesswork. | Terminology and ambiguity practice | In `E.17.SD.OOTD:5.3`, say whether the surface is about the umbrella, the narrowed branch, the governed pattern surface, or wider architecture strategy before the next paragraph borrows the wrong object of talk. | `E.17.SD.OOTD:4.3`, `E.17.SD.OOTD:5.3` |
+| Fluent prose should not be over-read as if it already licensed stronger action, assurance, or downstream decision burden than the surface declared. | Faithfulness and explanation caution | In `E.17.SD.OOTD:5.2` and `E.17.SD.OOTD:5.5`, stop the note at one declared object and move, then reopen or hand off once approval, changed evidence, or downstream decision burden becomes the honest primary burden. | `E.17.SD.OOTD:4.3`, `E.17.SD.OOTD:5.2`, `E.17.SD.OOTD:5.5` |
+
+### E.17.SD.OOTD:12 - Relations
+
+**Builds on**
+- `A.6.P`
+- `A.7`
+- `E.10`
+- `F.18`
+- `E.14`
+- `E.19`
+- `C.2.2a`
+- `A.16.0`
+
+**Nearest neighbors**
+- `E.17.SD.SPR` for local head-kind or qualifier repair;
+- `E.17.ID.CR` when the same surface is already stable and the remaining burden is one bounded comparative review move;
+- `E.17.EFP` when explanation-face governance on existing faces is primary;
+- `A.6.3`, `A.6.3.CR`, and `A.6.3.RT` when the main burden is same-entity rewrite or representation change;
+- `A.15`, `A.20`, and `A.21` when approval, gate, adjudication, or execution burden becomes primary.
+
+**Authority note.** This monolith section is the canonical branch-law locus for `Surface Object-of-Talk Discipline` inside the Core. Companion notes may summarize, harden, or stage adjacent review support, but they may not override this section.
+
+### E.17.SD.OOTD:End
 
 
 
