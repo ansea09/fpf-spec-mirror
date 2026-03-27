@@ -247,6 +247,7 @@ Pattern and headers templates are explained in pattern E.8.
 | E.17 | **Multi‑View Publication Kit (for Morphisms)** | Stable | Keywords: publication, U.View/U.EpistemeView, multi-view, viewpoints, PublicationScope (USM), PlainView/TechCard/InteropCard/AssuranceLane, functorial views, reindexing (PromoteView[s→t]), Publication characteristics (PC.Number, PC.EvidenceBinding, PC.ComparatorSetRef, PC.CharacteristicSpaceRef), CHR/UNM/CG-Spec anchoring, UTS, pin discipline, D/S→Surface (no I→D/D→S). Queries: “How to publish any morphism across Plain/Tech/Interop/Assurance views without changing semantics?”, “How do MVPK faces relate to U.View/U.EpistemeView and U.Viewpoint/PublicationVPId?”, “How to pin numeric claims and evidence lanes on publication faces so they stay functorial and audit-ready?” | Builds on: A.7/E.10.D2 (Strict Distinction & I/D/S discipline; Surface orthogonality), A.6.2–A.6.3 (U.EffectFreeEpistemicMorphing, U.EpistemicViewing), C.2.1 (U.EpistemeSlotGraph; View/Viewpoint slots), E.17.0 (U.MultiViewDescribing), E.17.1 (U.ViewpointBundleLibrary), E.17.2 (TEVB), E.8 (Authoring conventions), E.10 (LEX-BUNDLE incl. L-SURF), Part F/G (UTS, CG-Spec, CHR pins, UNM). Used by / Coordinates with: E.18 (E.TGA — publication of morphisms via MVPK faces), Part G (SoTA pack shipping surfaces, EvidenceGraph views), tooling that emits human-readable cards/lanes over D/S-epistemes about morphisms. |
 | E.17.EFP | **ExplanationFaithfulnessProfile — explanation classification over existing MVPK faces** | Stable | *Keywords:* explanation, rendering, source-pinned, reconstruction, didactic retelling, speculative retelling, evidence binding, admissible faces. *Queries:* "How does FPF classify explanation-facing renderings?", "What is ExplanationFaithfulnessProfile?", "How do explanation renderings stay on existing MVPK faces without becoming a second semantic rule track?" | **Builds on:** E.17.0, E.17, A.7, E.10.D2, A.6.B, F.9, F.18. **Coordinates with:** ConservativeRetextualization, RepresentationTransduction, E.17.ID.CR ComparativeReading, A.6.4, A.15, A.20, A.21. |
 | E.17.ID.CR | **InterpretationDiscipline / ComparativeReading — bounded comparative reading over comparative review units** | Stable | *Keywords:* comparative reading, comparative review unit, bounded comparison, source-pinned material, same object of talk, bounded lift, forbidden stronger uptake. *Queries:* "What is ComparativeReading in FPF?", "How does FPF govern a comparative review unit?", "When does a comparative review note stay bounded rather than becoming bridge, explanation, prompt, ontology, or gate work?" | **Builds on:** C.2.2a, A.16.0, F.9, E.14. **Coordinates with:** A.6.3, A.6.3.CR, A.6.3.RT, F.9.1, E.17.EFP, E.17.AUD.LHR, E.17.AUD.OOTD, B.5.2.0, B.5.2, A.6.4, A.15, A.20, A.21. |
+| E.17.AUD | **AuthoredUnitDiscipline — umbrella routing for one authored unit that is starting to drift** | Stable | *Keywords:* authored unit, primary object of talk, carried move, outside-work boundary, umbrella routing, authored-unit stability. *Queries:* "How do I keep one note or memo honest as one readable unit?", "What is AuthoredUnitDiscipline in FPF?", "When is the real burden local head repair, whole-unit stabilization, bounded comparison, or another neighboring pattern?" | **Builds on:** C.2.2a, A.16.0, A.7, E.10, F.18, E.14, E.19. **Coordinates with:** E.17.AUD.LHR, E.17.AUD.OOTD, E.17.ID.CR, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.17.AUD.LHR | **AuthoredUnitDiscipline / Local Head Restoration — repair the pressured local head before the authored unit inherits it** | Stable | *Keywords:* pressured head, head kind, active lane, local repair, governed object, outside-work boundary, local wording repair. *Queries:* "How do I repair one vague local head before the whole note drifts?", "What is Local Head Restoration in FPF?", "When do I need local head repair rather than authored-unit stabilization?" | **Builds on:** A.6.P, A.7, E.10, F.18, E.14. **Coordinates with:** E.17.ID.CR, E.17.AUD.OOTD, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.17.AUD.OOTD | **AuthoredUnitDiscipline / AuthoredUnit Object-of-Talk Discipline — authored-unit stability over one primary object of talk** | Stable | *Keywords:* authored unit, object of talk, authored-unit drift, carried move, outside-work boundary, explicit transition. *Queries:* "How do I keep one note about one thing at a time?", "What is AuthoredUnit Object-of-Talk Discipline in FPF?", "When do I need authored-unit stabilization rather than only local wording repair?" | **Builds on:** A.6.P, A.7, E.10, F.18, E.14, E.19, C.2.2a, A.16.0. **Coordinates with:** E.17.AUD.LHR, E.17.ID.CR, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.18 | **Transduction Graph Architecture (E.TGA)** | Stable | *Keywords:* transduction graph, **nodes=morphisms**, **edge=U.Transfer** (single-edge kind), **OperationalGate(profile)**, **CV⇒GF** (ConstraintValidity → GateFit), **MVPK** faces, **SquareLaw**, **UNM single-writer**, **CSLC normalize-then-compare**, **Set-return selection**, **PathSlice/Sentinel refresh**, **DesignRunTag**. *Queries:* “What is E.TGA?”, “How do gates/bridges publish crossings?”, “How to model flows of morphisms?” | **Builds on:** E.17 (MVPK), E.8, E.10, A.7. **Coordinates with:** A.20–A.26 (Flow/GateProfilization/Profiles/Sentinels), F.9 (Bridges & CL), G.11 (Refresh). |
@@ -346,7 +347,7 @@ One important cluster of the Core deals with a recurrent real-world problem: tea
 
 FPF therefore treats this not as one vague maturity ladder but as a governed region of a declared **language-state chart** over `U.CharacteristicSpace`, with explicit facet owners, lawful transduction moves, route-bearing seam publications, and explicit handoff to later endpoint owners. That cluster is what lets an engineer-manager say, in a disciplined way, not only *what is already known*, but also *what is emerging, how far it is articulated, how closed it is, how it is anchored, which routes remain live, and which later owner should receive it next*.
 
-The first operational wave of that cluster is now already present inside the Core. It includes corridor-reading notes in `C.2.2a`, `C.2.LS`, and `A.16`; the checked language-state support branches `A.16.0`, `A.16.1`, and `A.16.2`; naming and lexical host law in `F.18`, `E.10`, and `A.6.P`; the checked downstream burden-family specializations `A.6.Q` and `A.6.A`; same-described-entity textual re-expression in `A.6.3.CR`; the **non-latent branch** of same-described-entity representation-scheme transition in `A.6.3.RT`; explanation classification over existing MVPK faces in `E.17.EFP`; local pressured-head repair in `E.17.AUD.LHR`; authored-unit stability over one primary object of talk in `E.17.AUD.OOTD`; and bounded comparative reading over comparative review units in `E.17.ID.CR`. In other words, the monolith now carries not only the early language-state corridor itself, but also the checked language-governance and support-branch families that keep that corridor lawful, plus the first downstream families for same-entity rewrites, representation changes, explanation-facing renderings, local authored-unit repair, authored-unit stabilization, and bounded comparative review units. This first wave is now integrated as **Stable under guard** Core material: it is already part of the checked baseline for this corridor, its checked language-governance and support branches, and its first downstream families, but it is not yet the final semioarchitecture settlement or a license to treat latent/decode-mediated `A.6.3.RT` cases as part of that settled path. Those latent or decode-mediated `A.6.3.RT` cases remain outside this first-wave path.
+The first operational wave of that cluster is now already present inside the Core. It includes corridor-reading notes in `C.2.2a`, `C.2.LS`, and `A.16`; the checked language-state support branches `A.16.0`, `A.16.1`, and `A.16.2`; naming and lexical host law in `F.18`, `E.10`, and `A.6.P`; the checked downstream burden-family specializations `A.6.Q` and `A.6.A`; same-described-entity textual re-expression in `A.6.3.CR`; the **non-latent branch** of same-described-entity representation-scheme transition in `A.6.3.RT`; explanation classification over existing MVPK faces in `E.17.EFP`; authored-unit umbrella routing in `E.17.AUD`; local pressured-head repair in `E.17.AUD.LHR`; authored-unit stability over one primary object of talk in `E.17.AUD.OOTD`; and bounded comparative reading over comparative review units in `E.17.ID.CR`. In other words, the monolith now carries not only the early language-state corridor itself, but also the checked language-governance and support-branch families that keep that corridor lawful, plus the first downstream families for same-entity rewrites, representation changes, explanation-facing renderings, authored-unit umbrella routing, local authored-unit repair, authored-unit stabilization, and bounded comparative review units. This first wave is now integrated as **Stable under guard** Core material: it is already part of the checked baseline for this corridor, its checked language-governance and support branches, and its first downstream families, but it is not yet the final semioarchitecture settlement or a license to treat latent/decode-mediated `A.6.3.RT` cases as part of that settled path. Those latent or decode-mediated `A.6.3.RT` cases remain outside this first-wave path.
 
 **What is in this document (map)**
 - **Part A — Kernel Architecture:** holons, bounded contexts, roles, transformers (Method/Work), time and evolution, modularity, and the core boundary disciplines.
@@ -354,14 +355,14 @@ The first operational wave of that cluster is now already present inside the Cor
 - **Part C/D — Extension Specs:** CAL/LOG/CHR packages, plus ethics, conflict topology, and trust-aware mediation scaffolds.
 - **Part E — Constitution & Authoring:** pillars, artefact architecture, lexical rules (LEX-BUNDLE), authoring protocol, evolution records (DRR), and quality gates.
 - **Part F/G — Publication & Discipline:** the Unification Suite (cards/tables/records like UTS), multi-view publication, and SoTA discipline patterns that operationalise the kernel.
-- **Language-state navigation cluster (C.2.2a–C.2.7, A.16–A.16.2, B.4.1, B.5.2.0, A.6.3.CR, A.6.3.RT, E.17.EFP, E.17.AUD.LHR, E.17.AUD.OOTD, E.17.ID.CR, A.6.Q, A.6.A):** how FPF models positions in a language-state chart, lawful transduction trajectories between those positions, early seam publications, route publication, local authored-unit repair, authored-unit stabilization, abductive handoff, and the first same-entity textual, representational, explanation-facing, local-repair, authored-unit-stability, and bounded comparative-reading families without flattening them into one vague maturity story. This is a **reading cluster**, not the same thing as the narrower language-state owner set inside that cluster.
+- **Language-state navigation cluster (C.2.2a–C.2.7, A.16–A.16.2, B.4.1, B.5.2.0, A.6.3.CR, A.6.3.RT, E.17.EFP, E.17.AUD, E.17.AUD.LHR, E.17.AUD.OOTD, E.17.ID.CR, A.6.Q, A.6.A):** how FPF models positions in a language-state chart, lawful transduction trajectories between those positions, early seam publications, route publication, authored-unit umbrella routing, local authored-unit repair, authored-unit stabilization, abductive handoff, and the first same-entity textual, representational, explanation-facing, authored-unit-routing, local-repair, authored-unit-stability, and bounded comparative-reading families without flattening them into one vague maturity story. This is a **reading cluster**, not the same thing as the narrower language-state owner set inside that cluster.
 - **Parts H–K:** glossary, annexes, indexes and navigation aids, and tracked lexical or migration debt.
 
 **Where to start**
 - If you want the “why”: **E.1–E.2** (Vision/Mission + Pillars).
 - If you want to use FPF on a project tomorrow: **A.0**, then **A.1–A.3**, then **B.3**, then **F.17 (UTS)** and **E.9 (DRR)**.
 - If you want to write or review patterns: start with **E.8** and **E.19**.
-- If your real situation is “we know something is there, but it is still only partly said”: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4–C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**. If the next lawful move is a same-entity rewrite, representation change, explanation-facing rendering, one pressured-head local repair, one authored-unit stabilization pass, or one bounded comparative review unit, continue with **A.6.3.CR**, **A.6.3.RT**, **E.17.EFP**, **E.17.AUD.LHR**, **E.17.AUD.OOTD**, or **E.17.ID.CR**. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
+- If your real situation is “we know something is there, but it is still only partly said”: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4–C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**. If the next lawful move is a same-entity rewrite, representation change, explanation-facing rendering, one authored-unit routing pass, one pressured-head local repair, one authored-unit stabilization pass, or one bounded comparative review unit, continue with **A.6.3.CR**, **A.6.3.RT**, **E.17.EFP**, **E.17.AUD**, **E.17.AUD.LHR**, **E.17.AUD.OOTD**, or **E.17.ID.CR**. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
 
 Everything in the Core is intentionally **tool-agnostic**; implementation details belong to Tooling and worked examples belong to the Pedagogical Companion. The rest of this Preface provides non-normative motivation and reading heuristics for the patterns that follow.
 
@@ -9808,7 +9809,7 @@ These are recurring move shapes under one host relation. They are not separate o
 #### A.6.3.RT:4.4.b - How a reviewer reads representation-factor and reasoning-medium change
 A reviewer should be able to say, in one short paragraph, what changed in representational shape, what changed in reasoning medium, and whether the primary change is also a `semioticModeShift` rather than only a scheme change. Typical read-outs are: "the table foregrounds comparability across rows", "the diagram foregrounds dependency shape", or "the notation foregrounds explicit argument positions."
 
-When the case is more demanding, that paragraph should also name whether salience, topology, actionability, calibration, or interactivity materially changed. If the author cannot name those shifts without slipping into new ontology, hidden bridge work, or a changed described entity, the case is not yet ready to stay here. Use `semioarchitecture-representation-delta-review-crib-sheet-v0.1.md` and `semioarchitecture-semiotic-mode-axis-note-v0.1.md` when the deltas need a more normalized read-out.
+When the case is more demanding, that paragraph should also name whether salience, topology, actionability, calibration, or interactivity materially changed. If the author cannot name those shifts without slipping into new ontology, hidden bridge work, or a changed described entity, the case is not yet ready to stay here. Use `semioarchitecture-representation-delta-review-crib-sheet.md` and `semioarchitecture-semiotic-mode-axis-note.md` when the deltas need a more normalized read-out.
 
 #### A.6.3.RT:4.5 - Shared representation law packet
 
@@ -43942,6 +43943,277 @@ The gain is practical: a team can compare available material honestly without pr
 
 ### E.17.ID.CR:End
 
+## E.17.AUD - AuthoredUnitDiscipline - keep one authored unit stable enough to read honestly
+
+**Placement.** First umbrella routing pattern for one authored-readable unit whose burden may still narrow into local head repair, whole-unit object-of-talk stabilization, bounded comparison, or a neighboring non-authored-unit pattern.
+
+**Builds on.** `C.2.2a`, `A.16.0`, `A.7`, `E.10`, `F.18`, `E.14`, `E.19`.
+
+**Coordinates with.** `E.17.AUD.LHR`, `E.17.AUD.OOTD`, `E.17.ID.CR`, `E.17.EFP`, `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `A.15`, `A.20`, `A.21`.
+
+**Plain-name.** Keep one authored unit stable enough to read honestly.
+
+**One-line summary.** `AuthoredUnitDiscipline` is the umbrella pattern for notes, memos, sheets, tables, screens, and short sections that start to drift as if they were still about one unchanged thing. It helps the reader decide whether the real burden is still local head repair, whole-unit object-of-talk stabilization, bounded comparison over already stable material, or a neighboring non-authored-unit pattern.
+
+**Governed object in plain terms.** The governed object is the authored unit itself: one note, memo, sheet, table, screen, or short section that people are expected to read as one readable unit. The primary object of talk is whatever that unit is mainly about. Keep those levels separate: this umbrella governs the unit as a readable unit, while the narrower whole-unit branch checks whether that unit still keeps one stable primary object of talk by value.
+
+**Minimal lens in plain terms.** Use a four-part reading: one governed unit, one primary object of talk, one carried move over that object, and one outside-work boundary. The outside-work boundary usually needs one light exit type too: neighboring pattern move, downstream authority/deontic use, or ongoing workflow/process continuation. If any of those shifts quietly, the unit is no longer honest enough to read as one unchanged authored unit.
+
+**Local working vocabulary.**
+- `governed unit` = the note, memo, sheet, table, screen, or short section being kept honest as one unit;
+- `primary object of talk` = what that unit is mainly about right now;
+- `carried move` = what that unit is actually doing over that primary object of talk;
+- `outside-work boundary` = stronger work or exit class that still remains outside the unit.
+
+**Use this when.** Use this pattern when one note, memo, sheet, screen, table, or short section is no longer trustworthy as one stable reading unit. Use it when people keep arguing about a paragraph, but the real question is simpler: is this still a local head problem, a whole-unit drift problem, a bounded comparison problem, or a neighboring pattern altogether?
+
+**First-minute working moment.** A memo starts by naming one thing, then quietly starts doing something else with it, or quietly becomes about a different thing. One reviewer wants to repair one vague local word. Another wants to rewrite the whole memo. A third person thinks the real burden is already a bounded comparison or a downstream decision text. You need one honest routing surface before the unit gets patched in three incompatible ways.
+
+**What goes wrong if you miss this.** Teams keep fixing sentences without agreeing on the governed unit. Local head repair gets asked to carry whole-unit stabilization. Whole-unit stabilization gets asked to carry bounded comparison. Comparison gets mistaken for approval or rollout. A stronger-looking format gets mistaken for stronger authority. The text stays readable enough to circulate, but no longer honest enough to trust.
+
+**What this buys you in practice.** It gives one quick umbrella check before the draft widens or reroutes. Teams can decide earlier whether to stay local, stabilize the whole authored unit, hand over to bounded comparison, or leave the authored-unit family entirely for a more honest neighboring pattern or downstream text.
+
+**Not this pattern when.** This is not the right pattern when:
+- one pressured local head is still the only real defect and `Local Head Restoration` is enough;
+- the authored unit is already stable and the real burden is one bounded comparison over already pinned material;
+- the main burden is explanation classification over an existing face, view/face/carrier discipline, or another neighboring semio pattern rather than authored-unit stability;
+- the text is already being used to approve, direct, assign, or adjudicate work and should move into the more honest downstream decision or action surface.
+
+**Primary working reader.** The first working reader is an author or reviewer who needs to stop one memo, note, sheet, table, screen, or short section from quietly changing what it is about or what it is licensing. Architects, managers, and program leads are important secondary readers when they need the same reroute signal, but they are not the first-minute reader for this opening surface.
+
+**Quick kind stack.** `AuthoredUnitDiscipline` names the first umbrella routing pattern for one drifting authored unit. `Local Head Restoration` is the narrower branch when one pressured head is still the primary defect. `AuthoredUnit Object-of-Talk Discipline` is the narrower branch that owns the whole-unit law/check burden once the unit itself must keep one stable primary object of talk, one carried move, and one outside-work boundary by value. `ComparativeReading` is the neighboring branch when the authored unit is already stable and the primary move is bounded comparison over already available material. This umbrella helps readers route one authored unit honestly; it does not by itself decide publication form, carrier choice, or downstream authority.
+
+**Quick recognition matrix.**
+
+| Situation | What is really happening | Honest next reading |
+| --- | --- | --- |
+| A semio-heavy note keeps using vague heads such as `review`, `reading`, or `interpretation` | the whole unit is mostly stable, but one pressured head is doing too much semantic work | stay local with `Local Head Restoration` |
+| An architecture or status memo starts about one bounded question, then quietly starts sounding like rollout, approval, go/no-go, or assignment text | the whole authored unit has drifted in object or move | move to `AuthoredUnit Object-of-Talk Discipline` |
+| A comparison sheet already keeps one stable object and one clear boundary, but reviewers keep treating it as if it needed whole-unit rescue | the unit is stable enough; the real burden is bounded contrast over already available material | hand to `ComparativeReading` |
+| An onboarding explainer, dashboard card, or review note starts to act as if cleaner prose alone licensed stronger policy, assurance, or action | the burden has left authored-unit stability and entered a neighboring explanation or downstream authority burden | leave the authored-unit family and route honestly |
+
+**Recognition-surface note.** The opening card above is the quick recognition surface. The sections below carry the heavier assurance surface: burden typing, branch and reroute discipline, worked slices, and SoTA/domain grounding.
+
+### E.17.AUD:1 - Problem frame
+
+**Anti-workflow note.** The branch checks, recognition matrix, and worked slices below are routing aids for one authored unit under review. They are not a fixed lifecycle and not a promise that every lawful case moves through one mandatory sequence.
+
+This pattern is for real authored units used in review, design, architecture, coordination, onboarding, and similar reading situations. It is for the moment when one authored unit still sounds like one unchanged note even after its object of talk, carried move, or stronger downstream force has already changed.
+
+The recurring defect family is simple:
+- one authored unit begins as if it were about one thing;
+- the unit then quietly changes what it is about, what move it is making, or what still remains outside;
+- the surrounding team starts repairing different defect families at once because nobody first named the real authored-unit burden.
+
+Typical moments include:
+- a semio-heavy note where one broad head starts carrying more load than the sentence restored;
+- an architecture or status memo that starts about one bounded object and ends by sounding like rollout or approval work;
+- a comparison sheet that is already stable enough locally, but is still being overworked as if it needed full authored-unit stabilization;
+- an onboarding aid, dashboard card, or review note that quietly drifts into explanation, policy, or decision language while still sounding like one unchanged unit.
+
+### E.17.AUD:2 - Problem
+
+Without a named umbrella discipline:
+1. teams repair local wording when the real defect is whole-unit drift;
+2. teams open whole-unit stabilization when the real defect is still one pressured local head;
+3. teams keep thickening an authored-unit repair when the real burden is already bounded comparison;
+4. teams mistake note/sheet/table/screen language for different governed objects when the real object is still one authored unit in different surface forms;
+5. teams over-attribute workflow, approval, or rollout force to a text that never honestly became that kind of unit.
+
+### E.17.AUD:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| **Recognisability vs precision** | Cold readers need a quick recognition surface, but the unit still needs explicit object/move/outside-work discipline. |
+| **Local repair vs whole-unit stabilization** | It is cheaper to fix one pressured head, but sometimes the whole authored unit has already drifted. |
+| **Stability vs reroute honesty** | Teams want to keep one unit usable, but they also need to admit when the case now belongs to comparison, explanation, or downstream authority. |
+| **Form variety vs governed-object fidelity** | Note, memo, sheet, table, and screen are convenient ordinary labels, but they must not silently replace the governed object. |
+| **Readability vs authority laundering** | Clearer or more polished prose helps readers, but it does not by itself mint stronger approval, policy, or gate force. |
+
+### E.17.AUD:4 - Solution
+
+> `AuthoredUnitDiscipline` is the first routing surface for one unstable authored unit.
+>
+> It asks what the unit is mainly about, what move it is carrying, and which narrower branch or neighboring pattern should actually govern the case.
+
+#### E.17.AUD:4.1 - Minimum lawful reading
+
+A locally lawful reading keeps four things visible enough to inspect by value:
+- one governed unit;
+- one primary object of talk;
+- one carried move over that object;
+- one outside-work boundary, with one light exit type when that distinction matters: neighboring pattern move, downstream authority/deontic use, or ongoing workflow/process continuation.
+
+If the authored unit changes any of those four without saying so, the unit has already drifted even when the sentences still look polished.
+
+#### E.17.AUD:4.2 - Umbrella burden vs branch burden
+
+`AuthoredUnitDiscipline` is the first routing surface for one unstable authored unit.
+Its job is to decide whether the burden stays local with `Local Head Restoration`, moves into whole-unit stabilization through `AuthoredUnit Object-of-Talk Discipline`, hands over to `ComparativeReading`, or leaves the authored-unit family altogether.
+
+It does **not** re-own the narrower whole-unit law/check burden that already belongs to `AuthoredUnit Object-of-Talk Discipline` once the active question becomes: can this one unit still keep one stable primary object of talk, one carried move, and one outside-work boundary by value?
+
+#### E.17.AUD:4.3 - Inherited dynamic frame
+
+This umbrella governs authored-readable-unit stability over the inherited lineage/move frame already carried by `C.2.2a` / `A.16.0`. It is about how one authored unit speaks about that inherited moving thing or move. It is not a standalone theory of documents, carriers, or publication forms.
+
+#### E.17.AUD:4.4 - Kind and boundary
+
+This pattern governs one authored unit as a readable unit. It does **not** treat that unit as automatically identical with:
+- the primary object of talk inside the unit;
+- a publication face;
+- a carrier or evidence object;
+- a view or viewpoint;
+- a workflow stage;
+- a downstream approval, action, or authority surface.
+
+Those may become relevant neighboring concerns, but they are not the burden being governed here just because the same note, sheet, or screen happens to mention them.
+
+#### E.17.AUD:4.5 - Ordinary working card
+
+Use this seven-row card before you widen the repair:
+
+| Row | Ordinary prompt |
+| --- | --- |
+| 1 | What is the governed unit being kept honest here? |
+| 2 | What is that unit mainly about right now? |
+| 3 | What move is it carrying over that primary object of talk right now? |
+| 4 | What stronger work still remains outside this unit, and is that exit mainly a neighboring pattern move, downstream authority/deontic use, or ongoing workflow/process continuation? |
+| 5 | Is the real burden still one pressured local head, whole-unit object-of-talk stabilization, bounded comparison, or another neighboring pattern altogether? |
+| 6 | Is the current form label (`note`, `sheet`, `table`, `screen`, and similar ordinary labels) naming only the surface form, or is it quietly being used as if it changed the governed unit or the kind of downstream force readers are now inferring? |
+| 7 | Does the current reading depend on a modeling basis to identify the primary object or carried move, and if so has that basis been surfaced honestly enough for this unit? |
+
+#### E.17.AUD:4.6 - Branch and reroute rule
+
+- If row 5 still points to one pressured local head, stay with `Local Head Restoration`.
+- If row 5 shows that the whole authored unit still cannot keep one stable primary object of talk, one carried move, and one outside-work boundary visible, move to `AuthoredUnit Object-of-Talk Discipline`.
+- If the authored unit is already stable enough and the real move is bounded comparison over already available material, hand to `ComparativeReading`.
+- If the main burden is explanation classification over an existing face, move to the more honest neighboring explanation pattern rather than keeping the case inside authored-unit stability by inertia.
+- If the real burden is publication form, bridge work, or downstream authority/action, leave the authored-unit family and move to the more honest neighboring pattern or downstream text.
+
+#### E.17.AUD:4.7 - Local naming and lexical-governance rule
+
+Treat ordinary labels such as `note`, `memo`, `sheet`, `table`, `screen`, `review`, and `status` as surface-form clues, not as self-authenticating object kinds.
+
+Working rule:
+- if one pressured local head is doing most of the semantic work, repair that head first through `Local Head Restoration`;
+- if the head is not the real issue, keep the authored unit stable at whole-unit level instead of hiding the drift under one more qualifier;
+- do not let cleaner or more formal wording stand in for stronger authority, stronger comparison basis, or stronger downstream warrant.
+
+#### E.17.AUD:4.8 - Modeling-basis surfacing rule
+
+If the primary object of talk or the carried move depends on a modeling basis, surface that basis briefly in the unit or reroute the case to a heavier surface that can carry it honestly. Do not let a formally loaded case pretend it is only prose hygiene.
+
+#### E.17.AUD:4.9 - Local assurance dock
+
+When the authored unit carries load-bearing explanation, comparison, or downstream-use pressure, keep five quick checks visible enough to audit:
+- evidence/source-pin status when the unit leans on already available material;
+- current admissible use and forbidden stronger uptake;
+- whether this unit is the canonical locus or a derivative helper surface;
+- any load-bearing modeling basis;
+- and that the assurance surface only tightens the opening recognition claim rather than silently broadening it into stronger authority.
+
+### E.17.AUD:5 - Worked slices
+
+#### E.17.AUD:5.1 - Local-head case
+
+A semio note keeps saying `this review` and `this interpretation`, but nobody can tell what kind of thing those heads name here. The rest of the governed unit is still locally stable once the head is repaired. The honest move is not broad authored-unit stabilization. It is `Local Head Restoration`.
+
+#### E.17.AUD:5.2 - Whole-unit drift case
+
+A memo starts about one bounded architecture question over an inherited lineage or move, then drifts into wider rollout or approval language without declaring the transition. Repairing one sentence does not stabilize the governed unit because the primary object of talk and the carried move have both widened. The honest move is `AuthoredUnit Object-of-Talk Discipline`.
+
+#### E.17.AUD:5.3 - Stable-unit comparison case
+
+A comparison sheet already keeps one stable primary object of talk and one clear outside-work boundary, but the team is using authored-unit drift language because the comparison is contentious. The honest move is not more authored-unit stabilization. It is `ComparativeReading`.
+
+#### E.17.AUD:5.4 - Explanation-laundering case
+
+An onboarding explainer starts from one stable source-pinned note, but then the simplified prose begins to sound like canonical assurance or policy. The authored unit may still be readable, yet the main burden is no longer authored-unit stability. The honest move is to leave this umbrella and route to the neighboring explanation/faithfulness discipline.
+
+#### E.17.AUD:5.5 - Downstream-authority case
+
+A status card starts as one bounded summary of progress, then quietly becomes the place where people infer approval, assignment, or go/no-go force. The problem is no longer only authored-unit stability. The honest move is to stop treating the card as if it were still only one neutral note and route to the downstream authority or action surface.
+
+#### E.17.AUD:5.6 - Compact scenario and anti-case pack
+
+Use this quick contrast set when the first reading is still foggy:
+
+| Near-miss case | What to look for | Honest route |
+| --- | --- | --- |
+| `LHR-only` | one pressured local head is doing most of the semantic work while the governed unit otherwise stays stable | stay with `Local Head Restoration` |
+| `whole-unit drift` | the governed unit quietly changes primary object of talk or carried move | move to `AuthoredUnit Object-of-Talk Discipline` |
+| `stable comparison -> CR` | the unit is already stable and the live burden is bounded comparison over pinned material | hand to `ComparativeReading` |
+| `downstream authority drift` | readers are inferring approval, assignment, or go/no-go force from the authored unit | leave the authored-unit family for the more honest downstream surface |
+| `modeling-lens hidden` | the unit only makes sense because of one unsurfaced model or formal basis | surface that basis briefly or reroute to a heavier surface |
+
+### E.17.AUD:6 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it fails | How to avoid it |
+| --- | --- | --- |
+| Fixing one sentence while the whole unit has already drifted | local repair is asked to carry whole-unit stabilization | check object of talk, carried move, and outside-work boundary before repairing the sentence |
+| Treating form labels as if they changed the governed object | `table`, `sheet`, or `screen` is used as if it already named a different ontology or stronger authority | treat those as surface forms first; only route out when the burden itself changes |
+| Laundering comparison through stability language | teams keep saying the unit is unstable when the real burden is already bounded comparison | use the branch/reroute rule and move to `ComparativeReading` |
+| Laundering authority through clearer prose | a better-written note is over-read as if it had become approval or action text | keep outside-work boundary explicit and route out when stronger downstream force appears |
+| Letting three repair families act at once | head repair, whole-unit stabilization, and neighboring reroute all get patched in parallel with no shared object reading | use the working card first and name one current burden before patching the unit |
+
+### E.17.AUD:7 - Consequences
+
+- You slow down long enough to name the real authored-unit burden before patching the draft.
+- You reduce pointless escalation from one pressured local head into a whole-unit rewrite.
+- You reduce the opposite failure too: trying to solve whole-unit drift with one more qualifier on the same local head.
+- You keep neighboring authored-unit branches and non-authored-unit patterns explicit instead of letting one umbrella name quietly absorb them.
+- You make it harder for clearer prose, stronger formatting, or wider circulation to masquerade as stronger authority.
+
+### E.17.AUD:8 - Rationale
+
+`AuthoredUnitDiscipline` is worth stating explicitly because local head repair and whole-unit object-of-talk stabilization are both already real burdens, but authors and reviewers still need one umbrella surface that says when the case is local, when it is whole-unit, when it is already bounded comparison, and when it has left the authored-unit family entirely.
+
+The pattern stays intentionally narrow. It does not turn every authored-unit problem into publication design or downstream authority work. Its job is simpler and more load-bearing: keep one authored unit honest enough that readers can still tell what it is mainly about, what it is doing, and what stronger work remains outside.
+
+### E.17.AUD:9 - SoTA-Echoing
+
+**Claim 1.** Best-known current architecture-description practice keeps the entity of interest and the description expressing it explicit enough that one document does not silently change its concern while still sounding continuous.
+
+**Practice / source / alignment / adoption.** ISO/IEC/IEEE 42010:2022 distinguishes the architecture of an entity from the architecture description that expresses it and requires explicit structure and concern handling. `AuthoredUnitDiscipline` adopts that explicit concern discipline, adapts it from architecture descriptions to authored units more broadly, and rejects silent object-of-talk drift inside one readable unit. For a reviewer or architect, this is the practical guard behind worked slices 5.2 and 5.3: one authored unit must not quietly shift concern and still be treated as one unchanged note.
+
+**Claim 2.** Best-known current information-for-use practice treats user-facing units as purpose-bound, structured information rather than as loose bundles that can mix explanation, instruction, warning, and decision force by convenience.
+
+**Practice / source / alignment / adoption.** IEC/IEEE 82079-1:2019 requires information for use to be purpose-directed, structured, and evaluated for usability. `AuthoredUnitDiscipline` adopts purpose-bound authored units and explicit outside-work boundaries, adapts that discipline from information-for-use to notes, memos, sheets, tables, and screens, and rejects the shortcut where a clearer or stronger-looking unit is treated as if it had already become approval, policy, or action text. For a manager or operator, this is the practical guard behind worked slices 5.4 and 5.5: better explanatory form does not itself mint stronger downstream force.
+
+**Claim 3.** Best-known current pattern-writing and pattern-validation practice keeps patterns tied to recognisable situations, explicit problem/solution/consequence structure, and reviewable rationale rather than elegant internal naming alone.
+
+**Practice / source / alignment / adoption.** Iba (2021) and Riehle et al. (2020) both treat pattern writing and validation as requiring recognisable situations, explicit structure, and reviewable reasoning rather than only elegant naming. `AuthoredUnitDiscipline` adopts worked slices, recognisable entry cues, and explicit reroute discipline, adapts those expectations to authored-unit stability work, and rejects a pattern text that is cleanly labeled but domain-thin or reader-thin. For the current working reader, this is the practical guard behind the recognition surface and slices 5.1 through 5.5: the pattern should be usable before one has to reconstruct the surrounding rationale from scratch.
+
+**Local stance.** The current SoTA claim is narrow. This pattern is not claiming one universal theory of documents. It claims a smaller and more practical point: one authored unit stays trustworthy only when its primary object of talk, carried move, and outside-work boundary remain explicit enough for cold readers to recover, and when neighboring burdens are rerouted rather than hidden.
+
+### E.17.AUD:10 - Conformance Checklist
+
+1. **CC-AUD-1 — One governed authored unit is explicit.**
+   The case names one note, memo, sheet, table, screen, or short section as the governed unit rather than letting surface-form labels stand in for the governed object.
+2. **CC-AUD-2 — Primary object of talk and carried move are explicit enough to route the case.**
+   The case keeps visible what the unit is mainly about and what move it is carrying over that object right now.
+3. **CC-AUD-3 — Outside-work boundary is explicit.**
+   The case states what stronger work still remains outside the governed unit, including neighboring pattern move, downstream authority/deontic use, or ongoing workflow/process continuation when that distinction matters.
+4. **CC-AUD-4 — The active burden family is named honestly.**
+   The case makes explicit whether the live burden is local head repair, whole-unit object-of-talk stabilization, bounded comparison, or another neighboring pattern rather than patching several burdens at once under one vague stability claim.
+5. **CC-AUD-5 — Branch and reroute choice is explicit.**
+   When the burden belongs with `Local Head Restoration`, `AuthoredUnit Object-of-Talk Discipline`, `ComparativeReading`, a neighboring explanation/faithfulness pattern, or a downstream authority/action surface, that route is explicit rather than hidden inside umbrella wording.
+6. **CC-AUD-6 — Surface-form labels do not launder object kind or authority.**
+   `note`, `memo`, `sheet`, `table`, `screen`, and similar labels remain surface-form clues and do not silently change the governed unit or mint stronger downstream force.
+7. **CC-AUD-7 — Load-bearing modeling basis is surfaced or rerouted.**
+   If the primary object of talk or carried move depends on a modeling basis, that basis is surfaced briefly enough for review or the case is rerouted to a heavier surface that can carry it honestly.
+8. **CC-AUD-8 — Clearer prose does not silently strengthen use.**
+   Readability, formatting, and wider circulation may improve the unit, but they do not by themselves turn the unit into approval, policy, assignment, or action text.
+
+### E.17.AUD:11 - Relations
+
+- **Builds on:** `A.7`, `E.10`, `F.18`, `E.14`, `E.19`
+- **Coordinates with:** `Local Head Restoration`, `AuthoredUnit Object-of-Talk Discipline`, `ComparativeReading`, neighboring explanation/faithfulness discipline, and downstream authority/action texts when the unit stops being only a readable authored unit
+- **Impact radius:** primary touch is the authored-unit stability family; secondary touch is adjacent explanation, comparison, publication, and downstream authority routing when the authored unit can no longer stay honest inside this umbrella
+
+### E.17.AUD:End
+
 ## E.17.AUD.LHR - AuthoredUnitDiscipline / Local Head Restoration - repair the pressured local head before the authored unit inherits it
 
 **Placement.** Narrow local-repair branch inside the broader `AuthoredUnitDiscipline` umbrella.
@@ -45151,13 +45423,18 @@ A **Pattern Check Profile (PCP)** is a named bundle of check families. Profiles 
 
 #### E.19:4.1 - Define the review target
 
-A review **SHOULD** propose revisions to a target pattern (including didactic restructuring) that positively affect downstream usage and interoperability. Formal/template defects (e.g., non‑compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic/ontological defects or non‑SoTA Solutions, but they also **MUST** be corrected.
+A review **SHOULD** leave one findings-first run record against a named target pattern or landing subset. The run MAY propose didactic restructuring or compact repair direction, but its primary obligation is to leave an independent review record that improves downstream usage and interoperability without relying on chat memory or reviewer taste.
 
-E.g. if the header block is missing or incomplete, **continue with ontology and semantic review first**. Treat missing header fields as a mechanical defect to patch (PCP‑BASE #7), not as a reason to stop.
+Formal/template defects (e.g. non-compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic/ontological defects or non-SoTA Solutions, but they also **MUST** be recorded and later repaired.
 
-The run **SHOULD** give best-known **Delta‑Class (Δ‑0…Δ‑3)** and record an initial **impact radius** (dependent patterns/tests/relations that need be changed due to pattern norms), using existing definitions where available (e.g., the LEX‑AUTH protocol).
+E.g. if the header block is missing or incomplete, **continue with ontology and semantic review first**. Treat missing header fields as one mechanical defect to record and route for repair (PCP-BASE #7), not as a reason to stop.
+
+The run **SHOULD** give best-known **Delta-Class (Δ-0…Δ-3)** and record an initial **impact radius** (dependent patterns/tests/relations that need be changed due to pattern norms), using existing definitions where available (e.g., the LEX-AUTH protocol).
+
+If the local workflow separates review from repair, direct target-text patching, unified-diff output, or immediate remediation edits are optional local tactics rather than part of the core `E.19` contract. The core obligation is one findings-first run record plus sufficiently precise repair direction.
 
 #### E.19:4.2 - Apply the baseline profile to every run
+
 
 Every run MUST include **PCP‑BASE**, reviewer depth SHOULD prioritize the load-bearing surfaces in E.19:4.2.1.
 
@@ -45198,10 +45475,10 @@ PQG is meant to increase *semantic and ontological trust*, not to turn every rev
   * **absence of contradictions in a pattern**,
   * **Relations** that define compatibility and impact radius.
 * Treat **low-signal surfaces** as “quick-pass” unless they change meaning: headings, micro-typos, stylistic polish, and non-load-bearing narrative refactors, including RFC-form deontic cleanup.
-* **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H-5), missing canonical sections, or a missing footer marker are fixable integrity defects. Patch them quickly and continue with the load-bearing surface checks in the same run.
+* **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H-5), missing canonical sections, or a missing footer marker are fixable integrity defects. Record them as repair items and continue with the load-bearing surface checks in the same run.
 * **Sentence-level precision matters on load-bearing prose.** Reviewers SHOULD inspect load-bearing sentences for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. The default repair order is: restore head kind, then qualifier burden, then comparison/escalation axis homogeneity, and only then judge whether a later Plain or coarsened rendering is lawful.
 * **Design-time and run-time both count.** The same precision discipline applies to live FPF pattern prose and to any target publication text, worked slice, or governed runtime exemplar when that text is being assessed for stronger admissibility, guidance, reuse, or gating.
-* **Report ordering (impact-first).** In run outputs and remediation patches, prioritize fixes on ontology, semantic, modularity and SoTA-related load-bearing surfaces first; group low-signal formatting/typos into a single hunk at the end unless they change meaning.
+* **Report ordering (impact-first).** In run outputs and remediation direction, prioritize findings on ontology, semantic, modularity and SoTA-related load-bearing surfaces first; group low-signal formatting/typos into one compact tail finding unless they change meaning.
 
 #### E.19:4.3 - Add risk-driven profiles
 
@@ -45221,6 +45498,7 @@ Checks include:
 
 * refresh‑sensitive claims are identified (time‑bounded or ecosystem‑bounded) and either (a) updated with post‑2015 evidence **and** matching Solution changes, or (b) explicitly scope‑limited and labeled as historical lineage,
 * Relations are updated to current pattern IDs; deprecations/renames are handled via explicit continuity notes (no silent relabeling),
+* when one new or substantially revised pattern subset is being prepared for send or landing, the run explicitly checks which neighboring patterns, host-owner laws, companion patterns, Relations targets, or monolith-backed loci require aligned edits so the subset does not land as one isolated local improvement; the run record states which of those updates landed now, which remain deferred, and why that deferral is still lawful,
 * the run records a Delta‑Class and impact radius; if the refresh causes Δ‑2/Δ‑3, it emits/updates a DRR pointer and triggers any required refresh and Bridge obligations defined elsewhere (E.15/F.15/F.9).
 
 Trigger overrides are permitted but intentionally rare: a run MAY override a triggered profile only when it can show the trigger’s risk is genuinely absent *in this case*, and the record MUST name (a) why the trigger is a false positive here and (b) what compensating check(s) were applied instead.
@@ -45282,37 +45560,51 @@ Checks include:
 
 * “mint vs reuse” decision is explicit,
 * naming follows the local-first naming protocol and avoids scope smuggling (roles/metrics/stages baked into labels; overloaded words used as terms with a local sense). Remediation **SHOULD** use F.18,
+* when PCP-TERM is live, `F.18` winner selection and `A.6.P` follow-through are one mandatory chain rather than two optional passes: the run records candidate heads or phrases reviewed, any kind-conflict / lexical-conflict findings, the provisional F.18 winner plus rejected candidates, and the later `A.6.P` survival result on the repaired phrase,
 * generic heads and burden-carrying qualifiers are not accepted at face value on load-bearing surfaces: the review restores the head kind first, and a narrowing qualifier by itself does **not** count as that restoration; only then does the review restore the qualifier burden before deciding whether the phrase is lawful,
 * if a sentence compares, escalates, downgrades, or otherwise puts pressure on a phrase after that restoration, the review checks that the comparison axis is ontologically homogeneous,
+* the run leaves one explicit account of the resulting governed object, governed move, outside work, and any role-word / package-form decision when the repaired wording still carries architectural burden,
 * deprecated aliases and continuity rules are respected.
 
-**PCP‑DEONT (Deontic clause hygiene: RFC keywords)** — Trigger: the pattern conflates admissibility/validity constraints with deontic obligations (e.g., uses RFC keywords where a non-deontic `Invariant:` predicate is required).
+**PCP‑DEONT (Deontic clause hygiene: RFC keywords)** — Trigger: the pattern conflates admissibility/validity constraints with deontic obligations (e.g., uses RFC keywords where a non-deontic Invariant: predicate is required).
 Checks include:
 * Deontic requirements are expressed with RFC-style keywords (see H‑8); 
 * obligations are not smuggled into prose as informal imperatives. Admissibility/validity constraints are stated non‑deontically as `Invariant:` / `Well‑formedness constraint:` predicates and referenced from the Conformance Checklist when enforceable. 
 * **Subject discipline for RFC keywords.** If a sentence uses RFC keywords, its grammatical subject **MUST** be an agent or a publishable artefact (author, reviewer, record, published model). RFC keywords **MUST NOT** modify modeled‑world entities (e.g., “Earth”, “RoleAssignment”, “Role”, “holon”) — express those as `Invariant:` / `Well‑formedness constraint:` predicates instead, and (if needed) reference them from CC items.
 
+#### E.19:4.3.1 - Common cross-source hardening accounts must be explicit in the run record
+
+When the review target is one new or substantially revised live pattern subset, the run record **MUST** leave explicit by-value accounts for the common hardening burdens that otherwise get “remembered manually” by reviewers:
+
+1. **Usability and working-reader fit.** The run must say how the target performed on recognition-surface vs assurance-surface ordering, first-minute working-reader usability, practical payoff, worked slices, primary-reader fit, and the relevant human-facing checks from `E.8`, `E.12`, `E.13`, `E.14`, `E.17.*`, `F.16`, or other applicable pattern-side sources.
+2. **Scenario / anti-case / utility-fit basis.** When the current domain or workstream has a scenario pack, anti-case corpus, pilot bank, utility tree, or fitness catalog, the run must say which of those sources were actually checked, which scenarios or anti-cases were exercised, what qualities were under pressure, and what still remains deferred.
+3. **Packaging / host-relation / shipping-fit.** The run must say whether host relation, package form, owner-lane placement, send posture, landing posture, monolith posture, and other shipping-facing claims were checked by value, and whether any of those remain blockers or lawful deferrals.
+4. **Domain-tightened profile depth.** When a domain-specific mapping note or support stack exists (for example semio `FIT-*` under `E.19`), the run must say which local depth checks were actually used and what they found. Mentioning the mapping note or the PCP stack in the abstract is not enough.
+
+These accounts may conclude `not applicable`, but silent omission is nonconforming.
+
 #### E.19:4.4 - Decision outcomes
 
-A PQG run **MUST** end with (a) concrete remediation proposals and (b) a compact list of blocking findings.
+A PQG run **MUST** end with (a) one compact list of blocking findings and (b) one concrete remediation-direction account.
 
-**Remediation payload.** The run **MUST** provide concrete proposed changes in a form that can be adopted into the target text, accompanied by a short commentary stating (a) the explicit misses found and (b) any remaining work that was intentionally deferred.
+**Remediation payload.** The run **MUST** provide repair direction precise enough that a later independent repair pass can adopt it into the target text without reinventing the diagnosis. The core obligation is findings-first traceability, not direct patch emission.
 
 **Precision-remediation order.** When a defect sentence combines a generic head, a burden-carrying qualifier, and mixed-axis comparison pressure, remediation SHOULD repair them in that order: restore head kind, then qualifier burden, then comparison-axis homogeneity. A narrowing qualifier does **not** by itself repair the head-kind defect. Only after those repairs may the run keep or reintroduce a Plain, didactic, or coarsened restatement, and only if the more precise upstream reading remains recoverable.
 
-**Report ordering (impact-first).** The remediation proposals are the primary artifact. In the short commentary, list findings in descending order of expected impact on semantic trust (load-bearing surfaces first). Template-only issues belong at the end unless they hide missing content.
+**Report ordering (impact-first).** The blocking findings are the primary artifact. Remediation directions accompany them and SHOULD be listed in descending order of expected impact on semantic trust (load-bearing surfaces first). Template-only issues belong at the end unless they hide missing content.
 
-**Budget discipline (anti-surface-only review).** If the run identifies semantic defects in load-bearing surfaces, remediation **MUST** prioritize those fixes; purely mechanical edits (formatting, micro-typos) **MUST** be minimized and **MUST NOT** dominate the remediation by volume.
+**Budget discipline (anti-surface-only review).** If the run identifies semantic defects in load-bearing surfaces, remediation direction **MUST** prioritize those fixes; purely mechanical edits (formatting, micro-typos) **MUST** be minimized and **MUST NOT** dominate the review by volume.
 
-**Noise discipline.** The run record is a human-facing audit trail. It **SHOULD** stay sparse: list findings, deferrals, and decisions; no per-check pass recital is needed when no defect was found.
+**Noise discipline.** The run record is a human-facing audit trail. It **SHOULD** stay sparse: list findings, deferrals, repair direction, and decisions; no per-check pass recital is needed when no defect was found.
 
 ### E.19:5 - Archetypal Grounding — Tell–Show–Show: System / Episteme
+
 
 | Scenario | U.System grounding | U.Episteme grounding |
 |---|---|
 | **Tell** | A safety-critical engineering team proposes a new pattern describing how to gate a subsystem before deployment. The draft looks polished, but it quietly imports domain terms, assumes cross-team equivalences, and introduces obligations that are not listed in its own checklist. | A research group refreshes an older pattern that summarizes how to evaluate evidence strength. The pattern still reads well, but its SoTA references and terminology no longer match current practice, and its Relations point to patterns that were renamed or superseded. |
 | **Show (failure without PQG)** | Reviewers focus on whether the idea is good and whether the template exists. The pattern is admitted, but later users disagree on what it requires because the Conformance Checklist is incomplete and key constraints are only in prose. | The pattern remains unchanged because “nothing looks broken”. Over time, it becomes a conceptual fossil: newcomers treat it as current guidance, but it encodes an outdated stance and stale vocabulary. |
-| **Show (repair with PQG profiles)** | PCP‑BASE finds missing internal coherence (requirements in prose not reflected in CC). PCP‑TERM finds naming drift and scope-smuggling in new terms. PCP‑BRIDGE finds implicit cross-context identity claims without explicit alignment. The pattern is revised before admission, and the final CC becomes the canonical contract. | Patch provided explicit decision: updated SoTA‑Echoing with post‑2015 guidance and appropriate Solution changes, limit the scope to “historical lineage” where appropriate, and update Relations to current dependencies. The refreshed pattern becomes trustworthy again, and any remaining historical material is clearly labeled as such. |
+| **Show (repair with PQG profiles)** | PCP‑BASE finds missing internal coherence (requirements in prose not reflected in CC). PCP‑TERM finds naming drift and scope-smuggling in new terms. PCP‑BRIDGE finds implicit cross-context identity claims without explicit alignment. The findings-first run record then routes one repair pass before admission, and the final CC becomes the canonical contract. | The run record leaves one explicit decision: update SoTA‑Echoing with post‑2015 guidance and appropriate Solution changes, limit the scope to “historical lineage” where appropriate, and update Relations to current dependencies. The refreshed pattern becomes trustworthy again, and any remaining historical material is clearly labeled as such. |
 
 ### E.19:6 - Bias-Annotation
 
@@ -45334,24 +45626,30 @@ Bias risks and mitigations:
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | **CC-E19-1 (Baseline is mandatory).** | Every PQG run **MUST** apply **PCP-BASE** to the review target. | Ensures a uniform minimum gate across all pattern kinds. |
-| **CC-E19-2 (Profile selection is auditable).** | The run record **MUST** state (a) the selected PCPs, (b) the trigger(s) for each non-BASE profile, and (c) any override decisions. Any override of a triggered profile **MUST** record why the trigger is a false positive and what compensating check(s) were applied instead. | Makes depth decisions repeatable and reviewable. |
+| **CC-E19-2 (Profile selection is auditable).** | The run record **MUST** state (a) the selected PCPs, (b) the trigger(s) for each non-BASE profile, and (c) any override decisions. Any override of a triggered profile **MUST** record why the trigger is a false positive and what compensating check(s) were applied instead. The run record **MUST** account for the whole current profile set rather than only the selected profiles or the easiest visible trigger family; a deontic-only or selected-stack-only recital is nonconforming. | Makes depth decisions repeatable and reviewable. |
 | **CC-E19-3 (Delta-Class & impact for breaking change levels).** | If the run proposes or accepts a change that is **Δ-2/Δ-3** (per E.15), the run record **MUST** include Delta-Class, an impact radius, and a DRR pointer; it **MUST** confirm that required refresh and Bridge obligations are triggered where applicable. | Keeps evolution controlled and compatible with downstream dependencies. |
 | **CC-E19-4 (Contract coherence is enforced).** | Remediation **MUST** eliminate “orphan” obligations and “unclaimed” requirements by aligning the target pattern’s Conformance Checklist, deontic clauses, and admissibility constraints with its Solution. | Preserves the CC as the enforceable contract surface. |
 | **CC-E19-5 (Triage & noise discipline).** | The run **SHOULD** prioritize load-bearing surfaces (e.g. CC, content of deontic clauses and content of admissibility constraints, definitions, Relations, SoTA, modularity) and keep purely mechanical edits (e.g. RFC-form deontic cleanup) minimal. Template defects **MUST** be fixed before admission (or before closing a refresh run) but **MUST NOT** be used to skip semantic review. | Improves semantic trust without turning review into surface-only compliance. |
-| **CC-E19-6 (Concrete remediation output).** | The run output **MUST** include concrete remediation proposals and a compact list of blocking findings, ordered by semantic impact (load-bearing surfaces first). | Ensures actionability and consistent reporting. |
+| **CC-E19-6 (Findings-first remediation direction).** | The run output **MUST** include one compact list of blocking findings plus concrete remediation direction, ordered by semantic impact (load-bearing surfaces first). Findings stay primary; direct patch text is optional local workflow, not the core `E.19` artifact. | Ensures actionability and independent repeatability without collapsing review into repair. |
 | **CC-E19-7 (Recognition surface, assurance surface, and self-containment).** | Admission or refresh runs for new and substantially revised patterns **MUST** check that a recognition surface appears early enough for the intended reader, that the heavier assurance surface remains visibly second rather than becoming the first real point of entry, and that the assurance surface does not silently shift the recognition-surface claim. The run **MUST** check for a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and an ordinary `not this pattern when` boundary; for any load-bearing typed declaration or modeling lens, the run **MUST** confirm that a short user-facing statement surfaces the governed object and the minimal lens that keeps it reviewable; the run **MUST** also check that the governed object keeps one stable kind across title, opening surface, declaration surface, worked slices, and neighbouring-owner guidance rather than drifting between object, act, work-product, and owner-lane labels. When a broader umbrella name and a narrower operative branch are both live, the run **MUST** check that the recognition surface makes that stack explicit enough to identify the umbrella, the active branch, the governed object, the move, and the wider work or process that still remains outside. The recognition surface **MUST** start from a recognisable problem-owning domain or practice moment whenever that can be done without loss of precision, rather than opening first with internal package architecture or taxonomy language. Early high-pressure technical terms **MUST** receive nearby pairwise plain glosses; transform-like families **MUST** carry concrete worked slices plus ordinary-vs-load-bearing guidance where needed; and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If SoTA or practice tradition is load-bearing, the run **MUST** check that governed-object choice, narrowed-branch choice, and practical payoff remain answerable to the relevant domain or practice rather than only to internal package architecture. If a pattern claims universal or transdisciplinary usefulness, the run **MUST** check that this breadth is already demonstrated in the recognition surface through at least three heterogeneous situations, with `F.16` preferred as the example-matrix template. | Prevents architecturally correct but reader-opaque patterns and keeps broad claims from appearing only late in the assurance surface. |
-| **CC-E19-8 (Sentence-level precision restoration).** | Load-bearing sentences **MUST** be reviewed for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. A narrowing qualifier does **not** by itself restore head kind. The default repair order is head kind first, qualifier burden second, comparison-axis homogeneity third. When broad umbrella words such as `interpretation`, `reading`, `review`, `surface`, `document`, or `artifact` are carrying live architectural or semantic load, the run **MUST** also restore whether the text names an umbrella, a narrowed branch, a governed object, a move, or a wider work/process lane before that wording is allowed to carry architectural burden. | Keeps controlled technical writing from collapsing into free shorthand or false precision. |
-| **CC-E19-9 (Package-form and host-relation role-word discipline).** | Reviews **MUST** check that role words such as `owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, and `umbrella` match the actual ontology of the case and do not drift by stylistic substitution. | Keeps host relations, review surfaces, and package forms semantically legible. |
-| **CC-E19-10 (Reader-role discipline).** | Reviews **MUST** check that live pattern sections are written for the intended FPF user, that any multi-reader draft makes its primary working reader / concern / viewpoint explicit enough, and that package-development reasoning about isolation, landing form, freeze, merge posture, or later promotion stays in separate companions or clearly marked informative placement notes. | Keeps reviews from accepting conceptually correct but role-confused patterns. |
+| **CC-E19-8 (Sentence-level precision restoration).** | Load-bearing sentences **MUST** be reviewed for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. A narrowing qualifier does **not** by itself restore head kind. The default repair order is head kind first, qualifier burden second, comparison-axis homogeneity third. When broad umbrella words such as `interpretation`, `reading`, `review`, `surface`, `document`, or `artifact` are carrying live architectural or semantic load, the run **MUST** also restore whether the text names an umbrella, a narrowed branch, a governed object, a move, or a wider work/process lane before that wording is allowed to carry architectural burden. When naming or terminology repair is load-bearing, the run record **MUST** leave one explicit `F.18 -> A.6.P` account on disk: candidate heads or phrases reviewed, mint-vs-reuse decision, provisional F.18 winner plus rejected candidates, any kind-conflict / lexical-conflict findings, the `A.6.P` survival result on the repaired phrase, and the resulting governed object / governed move / outside-work reading if the wording still carries architectural burden. | Keeps controlled technical writing from collapsing into free shorthand or false precision. |
+| **CC-E19-9 (Package-form and host-relation role-word discipline).** | Reviews **MUST** check that role words such as `owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, and `umbrella` match the actual ontology of the case and do not drift by stylistic substitution. When naming or ontology repair introduces or retains one head already occupied elsewhere in FPF, the run **MUST** explicitly account for that occupied-kind / occupied-head conflict and say whether the same occupied meaning is intentionally reused or instead blocked as a collision. | Keeps host relations, review surfaces, and package forms semantically legible. |
+| **CC-E19-10 (Reader-role discipline).** | Reviews **MUST** check that live pattern sections are written for the intended FPF user, that any multi-reader draft makes its primary working reader / concern / viewpoint explicit enough, and that package-development reasoning about isolation, landing form, freeze, merge posture, later promotion, safest move, blast radius, or defer posture stays in separate companions or clearly marked informative placement notes. The run record **MUST** name the user-facing sections scanned for this leak family and any repaired or still-informative exceptions. | Keeps reviews from accepting conceptually correct but role-confused patterns. |
 | **CC-E19-11 (Precision before relaxation).** | If remediation preserves or introduces a Plain, didactic, or coarsened restatement of a repaired load-bearing sentence, the run **MUST** keep a more precise upstream reading recoverable and must not let the softened form become the only authority-bearing surface. | Keeps later readability aids subordinate to an explicit stronger reading. |
+| **CC-E19-12 (Integration impact is accounted for).** | Before send or monolith-facing motion for one new or substantially revised pattern subset, the run record **MUST** explicitly account for neighboring patterns, host-owner laws, companion notes, Relations targets, or current monolith sections that now require aligned edits. The run **MUST** say which such updates landed now, which are deferred, and why any deferral is still lawful for the claimed boundary. | Prevents one locally stronger pattern from landing as an isolated mismatch in the wider FPF pattern set. |
+| **CC-E19-13 (Usability account is explicit).** | For one new or substantially revised live pattern subset, the run record **MUST** leave one explicit usability / working-reader-fit account by value: recognition-surface vs assurance-surface verdict, first-minute working situation, practical payoff, ordinary boundary, worked-slice coverage, primary reader or viewpoint, and the applicable pattern-side human-facing checks used (`E.8`, `E.12`, `E.13`, `E.14`, `E.17.*`, `F.16`, or clearly named local equivalents). | Prevents cold-reader usability from being treated as something the reviewer “just kept in mind”. |
+| **CC-E19-14 (Scenario / anti-case / utility-fit account is explicit).** | When the current domain or workstream has a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous common check source, the run record **MUST** explicitly state which of those sources were consulted, which scenarios or anti-cases were actually checked, which qualities or fitness pressures were load-bearing, and what remains deferred. | Prevents scenario, anti-case, and fitness checks from disappearing into reviewer memory or external-review folklore. |
+| **CC-E19-15 (Packaging / host-relation / shipping-fit account is explicit).** | Before any send-facing, landing-facing, or monolith-facing posture claim, the run record **MUST** explicitly account for host relation, package form, owner-lane placement, send posture, landing posture, monolith posture, and other shipping-facing claims that matter for this target. It **MUST** say what was checked, what was blocked, what was cleared, and why the claimed boundary is lawful now. | Keeps packaging and shipping checks from being inferred loosely after one local text improvement. |
+| **CC-E19-16 (Domain-tightened profile depth is explicit).** | When a domain-specific mapping note or support stack exists under `E.19` (for example semio `FIT-*` or equivalent local depth checks), the run record **MUST** explicitly state which such local checks were used, which PCP load they tightened, and what they found or explicitly did not find. | Keeps local review depth auditable and prevents domain-specific checks from becoming optional folklore around the PCP stack. |
 ### E.19:8 - Common Anti-Patterns and How to Avoid Them
+
 
 | Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
 | ---------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
 | **Governed-object drift** | The draft appears to govern one thing in the opening, another in the declaration block, and a third in the examples or neighbouring-owner guidance. | Review cannot tell whether the pattern governs an object, a reading move, a work-product, or a whole process, so later naming and boundary decisions become unstable. | Stabilise one governed object early, keep its head kind explicit, and mark note/sheet/UI/rendering/process labels as either examples of that object or separate neighbouring entities rather than stylistic substitutes. |
 | **Role-clean but pragmatically foggy** | The draft is addressed to the right reader in principle, but cold working readers still cannot recognise the situation, practical payoff, governed object, or first useful move early enough. | The run passes role hygiene while still failing pragmatic fit and first-minute usability. | Pull a recognisable working situation upward, add one minimally viable worked case, make the practical payoff explicit in nearby user-facing prose, surface the governed object and any minimal modeling lens in plain terms, add plain glosses for early high-pressure terms, and require `SoTA-Echoing` rows that carry live load to name the practitioner or manager implication plus the case they discipline. |
 | **Architecture-clean but domain-thin** | The text is internally well placed in the package, but the governed object, narrowed branch, or practical payoff are justified mainly through package architecture while the problem-owning domain, practice, or SoTA appears late or decoratively. | The pattern passes internal architecture checks while drifting away from the domain whose work it claims to improve. | Pull the problem-owning domain moment into the recognition surface, make the narrowed branch and governed object answerable to the relevant domain or practice, and require load-bearing `SoTA-Echoing` to discipline the practical cases rather than merely bless them after the fact. |
-| **Verdict-only review** | The run ends with “pass/fail” and prose complaints, but no concrete remediation proposals. | Raises editorial cost; reduces repeatability. | Require concrete proposed changes plus short commentary; treat those changes as the primary artifact. |
+| **Verdict-only review** | The run ends with “pass/fail” and prose complaints, but no precise findings-first repair direction. | Raises editorial cost; reduces repeatability. | Require one findings-first run record plus concrete remediation direction; do not rely on direct patch text as the primary artifact. |
 | **Single giant checklist** | Review becomes a long, unfocused ritual that few complete. | Increases cost; reduces fit and rigor in practice. | Use a minimal baseline plus triggered profiles. |
 | **Template-only compliance** | All headings exist, but obligations are vague and untestable. | Looks uniform; fails enforceability and auditability. | Enforce normative clause hygiene and CC/Solution coherence. |
 | **SoTA name-dropping** | SoTA-Echoing is a list of buzzwords with no stance. | Breaks evidence lineage; invites monoculture. | Require adopt/adapt/reject with reasons per item. |
