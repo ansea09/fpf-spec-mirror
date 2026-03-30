@@ -316,7 +316,7 @@ Pattern and headers templates are explained in pattern E.8.
 | § | ID & Title | Status | Concise reminder |
 | :--- | :--- | :--- | :--- |
 | I.1 | **Deprecated Aliases** | stub | Legacy names kept for backward compatibility. |
-| I.2 | **Detailed Walk‑throughs** | stub | Step‑by‑step modelling of a pump + proof + dev‑ops pipeline. |
+| I.2 | **Detailed Walk‑throughs** | stub | Route-indexed walkthroughs for the main first-practical entry routes: project alignment, partly-said discovery, boundary unpacking, lawful comparison/selection, generator/SoTA kit authoring, and same-entity rewrite/explanation/comparative reading. |
 | I.3 | **Change‑Log (auto‑generated)** | stub | Version history keyed to DRR ids. |
 | I.4 | **External Standards Mappings** | stub | Trace tables to ISO 15926, BORO, CCO, Constructor‑Theory terms. |
 
@@ -327,6 +327,7 @@ Pattern and headers templates are explained in pattern E.8.
 | J.1 | **Concept‑to‑Pattern Index** | stub | Quick jump from idea (“boundary”) to pattern (§, id). |
 | J.2 | **Pattern‑to‑Example Index** | stub | Table listing every archetypal grounding vignette. |
 | J.3 | **Principle‑Trace Index** | Stub | Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
+| J.4 | **First Practical Entry Route Index** | full text | Cross-links the main first-practical entry routes to their first honest burden, current route-bearing surfaces, first working outputs, typical next owners, and common reroutes. |
 
 **Part K - Lexical Debt**
 
@@ -350,19 +351,44 @@ FPF therefore treats this not as one vague maturity ladder but as a governed reg
 The first operational wave of that cluster is now already present inside the Core. It includes corridor-reading notes in `C.2.2a`, `C.2.LS`, and `A.16`; the checked language-state support branches `A.16.0`, `A.16.1`, and `A.16.2`; naming and lexical host law in `F.18`, `E.10`, and `A.6.P`; the checked downstream burden-family specializations `A.6.Q` and `A.6.A`; same-described-entity textual re-expression in `A.6.3.CR`; the **non-latent branch** of same-described-entity representation-scheme transition in `A.6.3.RT`; explanation classification over existing MVPK faces in `E.17.EFP`; authored-unit umbrella routing in `E.17.AUD`; local pressured-head repair in `E.17.AUD.LHR`; authored-unit stability over one primary object of talk in `E.17.AUD.OOTD`; and bounded comparative reading over comparative review units in `E.17.ID.CR`. In other words, the monolith now carries not only the early language-state corridor itself, but also the checked language-governance and support-branch families that keep that corridor lawful, plus the first downstream families for same-entity rewrites, representation changes, explanation-facing renderings, authored-unit umbrella routing, local authored-unit repair, authored-unit stabilization, and bounded comparative review units. This first wave is now integrated as **Stable under guard** Core material: it is already part of the checked baseline for this corridor, its checked language-governance and support branches, and its first downstream families, but it is not yet the final semioarchitecture settlement or a license to treat latent/decode-mediated `A.6.3.RT` cases as part of that settled path. Those latent or decode-mediated `A.6.3.RT` cases remain outside this first-wave path.
 
 **What is in this document (map)**
-- **Part A — Kernel Architecture:** holons, bounded contexts, roles, transformers (Method/Work), time and evolution, modularity, and the core boundary disciplines.
-- **Part B — Reasoning Cluster:** aggregation algebra (Γ), trust and assurance (F–G–R), decision cycles, creative abduction, and cross-vocabulary bridges.
-- **Part C/D — Extension Specs:** CAL/LOG/CHR packages, plus ethics, conflict topology, and trust-aware mediation scaffolds.
-- **Part E — Constitution & Authoring:** pillars, artefact architecture, lexical rules (LEX-BUNDLE), authoring protocol, evolution records (DRR), and quality gates.
-- **Part F/G — Publication & Discipline:** the Unification Suite (cards/tables/records like UTS), multi-view publication, and SoTA discipline patterns that operationalise the kernel.
-- **Language-state navigation cluster (C.2.2a–C.2.7, A.16–A.16.2, B.4.1, B.5.2.0, A.6.3.CR, A.6.3.RT, E.17.EFP, E.17.AUD, E.17.AUD.LHR, E.17.AUD.OOTD, E.17.ID.CR, A.6.Q, A.6.A):** how FPF models positions in a language-state chart, lawful transduction trajectories between those positions, early seam publications, route publication, authored-unit umbrella routing, local authored-unit repair, authored-unit stabilization, abductive handoff, and the first same-entity textual, representational, explanation-facing, authored-unit-routing, local-repair, authored-unit-stability, and bounded comparative-reading families without flattening them into one vague maturity story. This is a **reading cluster**, not the same thing as the narrower language-state owner set inside that cluster.
-- **Parts H–K:** glossary, annexes, indexes and navigation aids, and tracked lexical or migration debt.
+- **Part A - Kernel Architecture Cluster:** holons, bounded contexts, role and scope discipline, transformers, time/evolution, work-planning and plan-to-work seams, measurement/comparability foundations, and the signature-stack / boundary-discipline family.
+- **Part B - Trans-disciplinary Reasoning Cluster:** aggregation, emergence, trust and assurance, canonical evolution and reasoning cycles, pre-abductive routing, abductive prompting, creative search entry, and bridge-use families.
+- **Part C - Kernel Extension Specifications:** the extension calculi and characterization families - Sys/KD/Kind/Method/LOG/CHR, measurement, creativity, NQD, explore/exploit policy, discipline health, problem typing, method-maturity, agentic tool-use, and quality-bundle patterns.
+- **Part D - Multi-scale Ethics & Conflict-Optimisation:** axiological neutrality, multi-scale ethics, conflict topology, trust-aware mediation, and bias / ethical-assurance overlays.
+- **Part E - The FPF Constitution and Authoring Guides:** vision, pillars, guard-rails, didactic architecture, authoring protocol, lexical law, human-facing working-model discipline, multi-view describing/publication governance, transduction-graph architecture, review gates, and DRR-based evolution governance.
+- **Part F - The Unification Suite (U-Suite):** concept-set building, local naming, role descriptions, mint/reuse discipline, bridges, status mappings, method-quartet harmonisation, harnesses, and human-facing publication surfaces such as UTS.
+- **Part G - Discipline SoTA Patterns Kit:** CG-Spec, CG-Frame kit authoring, SoTA harvesting and synthesis, lawful characteristics/calculi authoring, selector/dispatcher patterns, shipping surfaces, and telemetry / refresh discipline for repeatable domain packs.
+- **Parts H-K:** glossary, annexes and extended tutorials, indexes and navigation aids, and tracked lexical or migration debt.
+
+The navigation clusters below are **reading clusters**. They are not new owner families and do not relocate semantics out of the patterns they reference.
+
+- **Language-state navigation cluster (C.2.2a-C.2.7, A.16-A.16.2, B.4.1, B.5.2.0, A.6.3.CR, A.6.3.RT, E.17.EFP, E.17.ID.CR, E.17.AUD.LHR, E.17.AUD.OOTD, A.6.Q, A.6.A):** how FPF models positions in a language-state chart, lawful transduction trajectories between those positions, early seam publications, route publication, local authored-unit repair, authored-unit stabilization, abductive handoff, and the first same-entity textual, representational, explanation-facing, local-repair, authored-unit-stability, and bounded comparative-reading families without flattening them into one vague maturity story.
+- **Project-alignment navigation cluster (A.1.1, A.15, A.15.2, A.15.3, B.5.1, F.9, F.11, F.17):** how FPF establishes local semantic framing, role-method-work alignment, plan/run separation, a simple project lifecycle reading, bridge-aware alignment, and a first human-facing work sheet.
+- **Boundary-discipline navigation cluster (A.6, A.6.B, A.6.C, A.6.P, A.6.Q, A.6.A):** how FPF unpacks contract-language and interface boundaries into routed atomic claims, claim registers, precision-restoration branches, and auditable publication faces without contract-soup drift.
+- **Comparability & selection navigation cluster (A.17-A.19, A.19.CN, A.19.CPM, A.19.SelectorMechanism, G.0, G.5):** how FPF declares characteristics, governs comparability, keeps comparison distinct from selection, and produces lawful portfolio/set outcomes without hidden scalarization or hidden thresholds.
+- **Generator / SoTA / portfolio-kit navigation cluster (A.0, G.0, G.1, G.2, G.5, G.11, C.17-C.19):** how FPF authors a reusable generation / harvest / selection / refresh scaffold with explicit comparability governance and open-ended search discipline.
+- **Same-entity rewrite / explanation / comparative-reading navigation cluster (A.6.3.CR, A.6.3.RT, E.17.EFP, E.17.ID.CR, E.17.AUD.LHR, E.17.AUD.OOTD):** how FPF restates, re-renders, explains, repairs, stabilizes, and compares already-authored material without silently changing the object of talk or minting a second semantic track.
 
 **Where to start**
-- If you want the “why”: **E.1–E.2** (Vision/Mission + Pillars).
-- If you want to use FPF on a project tomorrow: **A.0**, then **A.1–A.3**, then **B.3**, then **F.17 (UTS)** and **E.9 (DRR)**.
-- If you want to write or review patterns: start with **E.8** and **E.19**.
-- If your real situation is “we know something is there, but it is still only partly said”: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4–C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**. If the next lawful move is a same-entity rewrite, representation change, explanation-facing rendering, one authored-unit routing pass, one pressured-head local repair, one authored-unit stabilization pass, or one bounded comparative review unit, continue with **A.6.3.CR**, **A.6.3.RT**, **E.17.EFP**, **E.17.AUD**, **E.17.AUD.LHR**, **E.17.AUD.OOTD**, or **E.17.ID.CR**. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
+
+The order of Parts in this document follows the didactic architecture of the Core. A first practical entry route does **not** have to follow that macro-order.
+
+The routes below are **informative navigation only**. They introduce no new norms and do not change semantic ownership.
+
+Choose the route by the **first governed object, publication burden, or stabilization burden** you honestly need to handle, not by chapter order.
+
+Reach a **human-facing working surface** early - typically **F.17 (UTS)** or another route-native publication form - before escalating into heavier assurance or evolution-governance patterns.
+
+Use **B.3** when assurance / trust / evidence transport is already part of the present burden. Use **E.9 (DRR)** when a change to normative content, semantic ownership, or durable canon rationale must be published; do **not** treat it as a universal day-one gate.
+
+- For the **"why"**: **E.1-E.2** (Vision/Mission + Pillars).
+- For **writing or reviewing patterns**: start with **E.8** and **E.19**.
+- For **project alignment** - contexts, actors, plan vs run, and a first shared work surface: start with **A.1.1**, then **A.15**, then **A.15.2 / A.15.3**, then **B.5.1**. When method/work vocabulary itself must be aligned across contexts, add **F.11** (and **F.9** where bridge discipline matters). Land on **F.17 (UTS)**.
+- When the real situation is **"we know something is there, but it is still only partly said"**: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4-C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**.
+- For **boundary burden** - API, contract, protocol, SLO/SLA, acceptance clause, compliance text, or interface language: start with **A.6**, then **A.6.B**, then **A.6.C**. When the boundary text hides overloaded quality or action language, continue with **A.6.P**, then **A.6.Q** or **A.6.A**. Use the **Claim Register** when mixed statements must be decomposed and tracked by ID.
+- For **lawful comparison or portfolio selection** rather than one-off judgement: start with **A.19:0** for the reading path, then **A.17-A.19**, then **G.0**, then **A.19.CPM** and **A.19.SelectorMechanism**, and then **G.5**. Publish the result as a **portfolio / set** surface rather than forcing a single winner.
+- For a **reusable generator / SoTA / portfolio kit** as the first deliverable: start with **A.0**, then **G.0**, then **G.1**, then **G.2** and **G.5**. When creative search, novelty, or explore/exploit policy is already central, add **B.5.2.1** and **C.17-C.19** early rather than retrofitting them later. Land on **UTS** + kit surfaces before discussing tooling.
+- For **same-entity rewrite, representation change, explanation-facing rendering, local authored-unit repair, authored-unit stabilization, or bounded comparative reading** without minting a new object of talk: choose the nearest owner. Use **A.6.3.CR** for same-entity retextualization, **A.6.3.RT** for representation-scheme transition, **E.17.EFP** for explanation-facing rendering, **E.17.ID.CR** for bounded comparative reading, **E.17.AUD.LHR** for pressured-head local repair, and **E.17.AUD.OOTD** for authored-unit stability. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
 
 Everything in the Core is intentionally **tool-agnostic**; implementation details belong to Tooling and worked examples belong to the Pedagogical Companion. The rest of this Preface provides non-normative motivation and reading heuristics for the patterns that follow.
 
@@ -6541,6 +6567,14 @@ This section is intentionally lightweight: it provides architectural intent and 
 >
 **Canonical companion.** The square itself (quadrant definitions, form constraints, and cross‑quadrant dependency discipline) is specified normatively in **A.6.B — Boundary Norm Square**. This overview only (i) maps quadrants onto the Signature Stack, and (ii) explains how MVPK faces project the canonical routed claim set. If anything in this overview conflicts with A.6.B, **A.6.B is authoritative**.
 
+**Start here when.** The dominant burden is API, protocol, contract, compliance, SLO/SLA, connector, or interface language that is mixing runtime behaviour, governance, and evidence into one undifferentiated boundary story.
+
+**First output.** One Claim Register or equivalent routed atomic claim set with stable `L-* / A-* / D-* / E-*` identifiers, stack placement, and face citations by ID rather than paraphrase.
+
+**Typical next owners.** `A.6.B` for the quadrant law, `A.6.C` for contract unpacking, `A.6.P`, `A.6.Q`, or `A.6.A` for later lexical repair, and `E.17` faces for audience-specific publication of the same routed claim set.
+
+**Common wrong escalations / reroutes.** If the real burden is still cue preservation or route-bearing early articulation, reroute to `A.16` / `A.16.1`; if you are already repairing qualified relation, quality-term, or action-invitation language, continue into `A.6.P`, `A.6.Q`, or `A.6.A`; if agent duties are being mixed into one contract sentence, split them through `A.6.B` rather than minting one more contract-soup paragraph.
+
 **Conventions:** The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, **MAY**, and **SHALL** are to be interpreted as in RFC 2119/8174. Lower‑case “must/may/should” in explanatory prose is descriptive, not normative.
 
 **Statement identifiers (recommended):** Adopt the quadrant‑prefixed ID scheme from **A.6.B:0** for routable statements:
@@ -6943,7 +6977,11 @@ The stack creates a default **direction of dependence**: higher layers constrain
 
 ### A.6:End
 
+
+---
+
 ## A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)
+
 
 > **Type:** Architectural (A)
 > **Status:** Stable
@@ -17534,7 +17572,21 @@ Each edited heading should carry the badge **“► decided‑by: A.14 Advanced 
 
 ## A.15 - Role–Method–Work Alignment (Contextual Enactment)
 
-### A.15:1 - Intent & Context
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+**At a glance.** This pattern is the entry-bearing alignment surface for engineer-managers when the real confusion is not "what component is this" but `who is responsible`, `how the work is supposed to happen`, `when the plan lives`, and `what actually happened`.
+
+**Start here when.** The dominant ambiguity is role vs method vs schedule vs actual run, and the team keeps arguing about a "process" without separating recipe, plan, capability, and executed work.
+
+**First output.** One explicit Role / Method / MethodDescription / WorkPlan / Work separation, plus one traceable chain from `U.RoleAssignment` through the governing method description to the actual or intended work surface.
+
+**Typical next owners.** `A.15.1` for dated execution, `A.15.2` for schedule/baseline planning, `A.15.3` for slot-filling plan items, `B.5.1` for the simple lifecycle reading, `F.11` when method/work vocabulary itself must be aligned across contexts, and `F.17` when the result should land on a human-facing work sheet.
+
+**Common wrong escalations / reroutes.** If the first honest artefact is still only a cue, reroute to `A.16` / `A.16.1`; if the burden is boundary language or contract soup, reroute to `A.6`; if you only need one executed occurrence rather than the alignment frame, continue straight to `A.15.1`.
+
+### A.15:1 - Problem frame
 
 In any complex system, from a software project to a biological cell, there is a fundamental distinction between **what something is** (its structure), **what it is supposed to do** (its role and specified capability), and **what it actually does** (its work). Confusing these layers is a primary source of design flaws, budget overruns, and failed projects. Teams argue about a "process" without clarifying if they mean the documented procedure, the team's ability to execute it, or a specific execution that happened last Tuesday.
 
@@ -17545,9 +17597,9 @@ This pattern provides the canonical alignment for modeling contextual enactment 
 
 The intent of this pattern is to establish a normative, unambiguous vocabulary and set of relations for describing the entire evolution of an action, from the specification of a capability to its concrete, resource-consuming execution.
 
-To keep plan–run separation explicit, this pattern references **A.15.2 `U.WorkPlan`** for **schedules/calendars** and **A.15.1 `U.Work`** for **dated execution**. Ambiguous terms like “process / workflow / schedule” are constrained by **L‑PROC / L‑FUNC / L‑SCHED** (E‑cluster): a _workflow_ is a **Method/MethodDescription**, a _schedule_ is a **WorkPlan**, and what _happened_ is **Work**.
+To keep plan-run separation explicit, this pattern references **A.15.2 `U.WorkPlan`** for **schedules/calendars** and **A.15.1 `U.Work`** for **dated execution**. Ambiguous terms like "process / workflow / schedule" are constrained by **L-PROC / L-FUNC / L-SCHED** (E-cluster): a _workflow_ is a **Method/MethodDescription**, a _schedule_ is a **WorkPlan**, and what _happened_ is **Work**.
 
-**Terminology note (L‑ACT).** The words _action/activity_ are **not normative** in the kernel. When a generic “doing” is needed, we use the didactic term **enactment** (not a type). Normative references must be to **`U.Method` / `U.MethodDescription` / `U.Work` / `U.WorkPlan`**. See lexical rules **L‑PROC / L‑FUNC / L‑SCHED / L‑ACT**
+**Terminology note (L-ACT).** The words _action/activity_ are **not normative** in the kernel. When a generic "doing" is needed, we use the didactic term **enactment** (not a type). Normative references must be to **`U.Method` / `U.MethodDescription` / `U.Work` / `U.WorkPlan`**. See lexical rules **L-PROC / L-FUNC / L-SCHED / L-ACT**.
 
 ### A.15:2 - Problem
 
@@ -17557,7 +17609,7 @@ Without this formal framework, models suffer from a cascade of category errors:
 2.  **Specification-as-Execution:** A `MethodDescription` (the "recipe") is treated as evidence that the work was done. This leads to "paper compliance," where a system is considered complete simply because its documentation exists.
 3.  **Capability-as-Work:** A team's *ability* to perform a task (`Capability`) is conflated with the *actual performance* of that task (`Work`). This obscures the reality of resource consumption and actual outcomes.
 4.  **Work-without-Context:** An instance of work is logged without a clear link back to the role, capability, and specification that governed it, making the work unauditable and its results impossible to reproduce.
-5.  **Ambiguous "Process/Activity":** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication that paralyzes decision-making. Activity/action terms must be resolved via L‑ACT to Method/MethodDescription (recipe), WorkPlan (schedule), or Work (run).
+5.  **Ambiguous "Process/Activity":** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication that paralyzes decision-making. Activity/action terms must be resolved via L-ACT to Method/MethodDescription (recipe), WorkPlan (schedule), or Work (run).
 
 ### A.15:3 - Forces
 
@@ -17578,11 +17630,11 @@ FPF mandates the use of the following distinct, non-overlapping entities to mode
 **A) Design-Time Entities (The World of Potential):**
 
 *   **`U.Role`:** A contextual "mask" or "job title" (e.g., `TesterRole`). It specifies a function but is not the function itself.
-*  **`U.Method`:** The **abstract way‑of‑doing** inside a context (paradigm‑agnostic; may be imperative, functional, logical, or hybrid).
-*  **`U.MethodDescription`:** A **`U.Episteme` describing a `U.Method`** (the SOP/algorithm/proof/recipe on a carrier).
+*   **`U.Method`:** The **abstract way-of-doing** inside a context (paradigm-agnostic; may be imperative, functional, logical, or hybrid).
+*   **`U.MethodDescription`:** A **`U.Episteme` describing a `U.Method`** (the SOP/algorithm/proof/recipe on a carrier).
 *   **`U.Capability`:** An **attribute** of a `U.System` that represents its **ability** to perform the actions described in a `MethodDescription`. This is the "skill" or "know-how."
-* **`U.WorkPlan`:** An **`U.Episteme`** declaring **intended `U.Work` occurrences** (windows, dependencies, intended performers as role kinds, budgets) — see **A.15.2**.
-* 
+*   **`U.WorkPlan`:** An **`U.Episteme`** declaring **intended `U.Work` occurrences** (windows, dependencies, intended performers as role kinds, budgets) - see **A.15.2**.
+
 **B) The Bridge Entity:**
 *   **`U.RoleAssignment`:** The formal assertion `Holder#Role:Context` that links a specific `U.Holon` to a `U.Role` within a `U.BoundedContext`. This binding is what "activates" the requirements associated with a role.
 
@@ -17593,9 +17645,9 @@ FPF mandates the use of the following distinct, non-overlapping entities to mode
 **Kinds of Work and the primary target**
 Every `U.Work` SHALL declare a `primaryTarget: U.Holon` and a `kind`.
 Kinds:
-* Operational — transforms a `U.System` or its environment.
-* Communicative (SpeechAct) — transforms a deontic/organizational frame (e.g., commitments, permissions, approvals).
-* Epistemic — transforms a `U.Episteme` (e.g., curating a dataset).
+* Operational - transforms a `U.System` or its environment.
+* Communicative (SpeechAct) - transforms a deontic/organizational frame (e.g., commitments, permissions, approvals).
+* Epistemic - transforms a `U.Episteme` (e.g., curating a dataset).
 The `primaryTarget` disambiguates enactment: what is being acted upon. Example: an approval is `kind=Communicative`, `primaryTarget = Commitment(change=4711)`. A deployment is `kind=Operational`, `primaryTarget = ServiceInstance(prod-us-eu-1)`.
 
 **Didactic Note for Managers: The "Chef" Analogy**
@@ -17603,12 +17655,12 @@ The `primaryTarget` disambiguates enactment: what is being acted upon. Example: 
 This model can be easily understood using the analogy of a chef in a restaurant.
 
 *   **`ChefRole`** is the **Role**. It's a job title with certain expectations.
-*   A **Cookbook (`U.MethodDescription`)** contains the **recipe** for a Soufflé. It's a piece of knowledge.
-*   The chef's **skill** in making soufflés is their **`U.Capability`**. They have this skill even when they are not cooking.
+*   A **Cookbook (`U.MethodDescription`)** contains the **recipe** for a Souffle. It's a piece of knowledge.
+*   The chef's **skill** in making souffles is their **`U.Capability`**. They have this skill even when they are not cooking.
 *   The restaurant's rulebook (`U.BoundedContext`) states that anyone in the `ChefRole` *must* have the `Capability` to follow the recipes in the cookbook.
-*   The actual act of **making a soufflé** on Tuesday evening—using eggs and butter, taking 25 minutes, and consuming gas—is the **`U.Work`**.
+*   The actual act of **making a souffle** on Tuesday evening - using eggs and butter, taking 25 minutes, and consuming gas - is the **`U.Work`**.
 
-Confusing these is like mistaking the cookbook for the soufflé. FPF's framework simply makes these common-sense distinctions formal and mandatory.
+Confusing these is like mistaking the cookbook for the souffle. FPF's framework simply makes these common-sense distinctions formal and mandatory.
 
 ### A.15:4.2 - The Canonical Relations: Connecting the Layers
 
@@ -17644,13 +17696,13 @@ graph TD
 ```
 
 *   **`bindsCapability(Role, Capability)`:** A `U.BoundedContext` asserts that a given `Role` requires a specific `Capability`. This is a `design-time` rule.
-*  **`isDescribedBy(Method, MethodDescription)`:** A `Capability` is formally described by one or more `MethodDescription`s. This links the skill to the recipe.
-*   **`isExecutionOf(Work, MethodDescription)`:** A specific `U.Work` is a `run-time` instance of a `design-time` `Capability`.
-*   **`performedBy(Work, RoleAssigning)`:** A `U.Work` is always performed by a specific `Agent` (a RoleAssignment). This links the action to the actor-in-context.
+*   **`isDescribedBy(Method, MethodDescription)`:** A `U.Method` is formally described by one or more `MethodDescription`s. This links the abstract way-of-doing to the recipe on a carrier.
+*   **`isExecutionOf(Work, MethodDescription)`:** A specific `U.Work` is a `run-time` realization of a `design-time` `MethodDescription`. Capability checks are evaluated against the holder at run time.
+*   **`performedBy(Work, RoleAssignment)`:** A `U.Work` is always performed by a specific `Agent` (a `U.RoleAssignment`). This links the action to the actor-in-context.
 
-_At run time, capability thresholds declared by the context/spec are **checked** against the holder; Work outcomes provide **evidence** for capability conformance._
+_At run time, capability thresholds declared by the context/spec are **checked** against the holder; `U.Work` outcomes provide **evidence** for capability conformance._
 
-This chain provides complete traceability: a specific instance of `Work` can be traced back through its `Capability` to its `MethodDescription`, and to the `Agent` (`Holder` + `Role` + `Context`) that was authorized and responsible for its execution.
+This chain provides complete traceability: a specific instance of `U.Work` can be traced back to the `U.MethodDescription` that governed it, the `U.Method` it describes, and the `Agent` (`Holder` + `Role` + `Context`) that was authorized and responsible for its execution.
 
 ### A.15:5 - Archetypal Grounding
 
@@ -17662,32 +17714,58 @@ The Contextual Action Framework is universal. It applies identically to the mode
 | **`Role`** | `WeldingRobotRole` | `ReviewerRole` |
 | **`Holder`** | `ABB_Robot_Model_IRB_6700` (`U.System`) | `Dr_Alice_Smith` (modeled as a `U.System`) |
 | **`U.RoleAssignment`** | `ABB_Robot#WeldingRobotRole:Line_B` | `Dr_Smith#ReviewerRole:PhysicsLetters_A` |
-| **`MethodDescription` (`U.Episteme`)**| `Welding_Procedure_WP-28A.pdf` (SOP) | `Peer_Review_Guidelines_v3.docx` |
+| **`MethodDescription` (`U.Episteme`)** | `Welding_Procedure_WP-28A.pdf` (SOP) | `Peer_Review_Guidelines_v3.docx` |
 | **`Capability` (Attribute of Holder)** | `executeWeldingSeam(Type: 3F)` | `evaluateManuscript(Field: QuantumOptics)` |
-| **`Work` (`Occurrence`)** | Manufacturing Work: `Weld_Job_#78345` (15:32-15:34 UTC, consumed 1.2 kWh, 5g Argon) — **isExecutionOf** `Welding_Procedure_WP‑28A.pdf` | Peer‑review Work: `Review_of_Manuscript_#PL-2025-018` (Completed 2025-08-15, took 4 hours) — **isExecutionOf** `Peer_Review_Guidelines_v3.docx` |
+| **`Work` (`Occurrence`)** | Manufacturing Work: `Weld_Job_#78345` (15:32-15:34 UTC, consumed 1.2 kWh, 5g Argon) - **isExecutionOf** `Welding_Procedure_WP-28A.pdf` | Peer-review Work: `Review_of_Manuscript_#PL-2025-018` (Completed 2025-08-15, took 4 hours) - **isExecutionOf** `Peer_Review_Guidelines_v3.docx` |
 
 **Key takeaway from grounding:**
 This side-by-side comparison reveals the power of the framework. A seemingly different activity like welding a car chassis and reviewing a scientific paper are shown to have the **exact same underlying causal structure**. Both involve a `Holder` (a system) acting in a `Role` within a `Context`, using a `Capability` described by a `MethodDescription` to produce a specific, auditable instance of `Work`. This universality is what allows FPF to bridge disparate domains.
 
-### A.15:6 - Conformance Checklist
+### A.15:6 - Bias-Annotation
+
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for contextual enactment across engineering, operational, and knowledge-work settings.
+
+Bias risks and mitigations:
+
+* **Governance bias (Gov):** teams may over-treat role or approval surfaces as enough evidence that work happened.
+  *Mitigation:* keep `U.RoleAssignment`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` distinct, and let only `U.Work` carry actuals and resource use.
+* **Architectural bias (Arch):** modelers may pull roles or capabilities into structural part hierarchies because those diagrams are already present.
+  *Mitigation:* preserve role and capability as contextual-functional entities, not parts.
+* **Epistemic bias (Onto/Epist):** a documented recipe or schedule can be mistaken for proof of execution.
+  *Mitigation:* require the traceability chain from `U.RoleAssignment` and `U.MethodDescription` to dated `U.Work`.
+* **Pragmatic bias (Prag):** teams may keep using one overloaded "process" word because it feels faster.
+  *Mitigation:* resolve "workflow / schedule / what happened" through `U.Method` / `U.MethodDescription`, `U.WorkPlan`, and `U.Work`.
+* **Didactic bias (Did):** the chef analogy can make the pattern seem intuitive while hiding the need for explicit model links.
+  *Mitigation:* pair the analogy with the canonical relations and checklist.
+
+### A.15:7 - Conformance Checklist
 
 To ensure the integrity of action modeling, all FPF-compliant models must adhere to the following normative checks.
 
 | ID | Requirement (Normative Predicate) | Purpose / Rationale |
 | :--- | :--- | :--- |
-| **CC-A15-1 (Entity Distinction)** | The entities `U.Role`, **`U.Method`**, **`U.MethodDescription`**, `U.Capability`, **`U.WorkPlan`**, and `U.Work` **MUST** be modeled as distinct, non‑overlapping types. | This is the core enforcement of **Strict Distinction (A.7)**. It prevents the category errors outlined in the "Problem" section. |
-| **CC-A15-2 (Temporal Scope)** | `U.Method`/`U.MethodDescription`/`U.WorkPlan` exist in **design‑time**; `U.Work` exists in **run‑time**. Design artifacts are not mutated by operational events. | Enforces **Temporal Duality (A.4)**. Blueprints cannot be mutated by operational events. |
-| **CC-A15-3 (RoleAssignment Mandate)**| Every `U.Work` **MUST** be linked via `performedBy` to a valid `U.RoleAssignment`. | Guarantees that every action has a clearly identified, context-bound actor, ensuring accountability. |
-| **CC-A15-4 (Traceability Chain)**| For every `U.Work`, an unbroken chain **MUST** exist: `Work —performedBy→ RoleAssigning` and `Work —isExecutionOf→ MethodDescription —describes→ Method`. Capability checks are evaluated against the holder at run time. | Ensures end-to-end auditability from a specific action back to the "recipe" that governed it. |
+| **CC-A15-1 (Entity Distinction)** | The entities `U.Role`, **`U.Method`**, **`U.MethodDescription`**, `U.Capability`, **`U.WorkPlan`**, and `U.Work` **MUST** be modeled as distinct, non-overlapping types. | This is the core enforcement of **Strict Distinction (A.7)**. It prevents the category errors outlined in the "Problem" section. |
+| **CC-A15-2 (Temporal Scope)** | `U.Method`/`U.MethodDescription`/`U.WorkPlan` exist in **design-time**; `U.Work` exists in **run-time**. Design artifacts are not mutated by operational events. | Enforces **Temporal Duality (A.4)**. Blueprints cannot be mutated by operational events. |
+| **CC-A15-3 (RoleAssignment Mandate)** | Every `U.Work` **MUST** be linked via `performedBy` to a valid `U.RoleAssignment`. | Guarantees that every action has a clearly identified, context-bound actor, ensuring accountability. |
+| **CC-A15-4 (Traceability Chain)** | For every `U.Work`, an unbroken chain **MUST** exist: `Work -performedBy-> RoleAssignment` and `Work -isExecutionOf-> MethodDescription -describes-> Method`. Capability checks are evaluated against the holder at run time. | Ensures end-to-end auditability from a specific action back to the recipe that governed it. |
 | **CC-A15-5 (No Roles in Mereology)** | A `U.Role` or `U.Capability` **SHALL NOT** be part of a mereological (`partOf`) hierarchy. | The "Role-as-Part" anti-pattern is a violation. Roles and capabilities are functional, not structural. Enforces **A.14**. |
 | **CC-A15-6 (Resource Honesty)** | Resource consumption (`U.Resource`) **MUST** only be associated with `U.Work`, never with `U.MethodDescription` or `U.Capability`. | Enforces that costs are tied to actual events, not to plans or potential. Aligns with **Resrc-CAL (C.5)**. |
-| **CC‑A15‑7 (Plan/Run Split)** | Schedules/calendars **MUST** be represented as `U.WorkPlan` (A.15.2). A WorkPlan SHALL NOT be used as evidence of execution; only `U.Work` carries actuals. | |
-| **CC‑A15‑8 (Lexical Sanity)** | Unqualified “process/workflow/schedule” **MUST** be interpreted per **L‑PROC/L‑FUNC/L‑SCHED**: workflow ⇒ `Method/MethodDescription`; schedule ⇒ `WorkPlan`; what happened ⇒ `Work`. | |
-| **CC-A15-9 (Realisation)** | A valid `U.Work` realises a `U.MethodDescription` under a `U.RoleAssignment`. Spontaneous physical evolution without a MethodDescription is modeled as `U.Dynamics`, not as `U.Work`. | |
-| **CC-A15-10 (GateSplit)** | A SpeechAct that changes a Role’s state (e.g., “Approve”, “Authorize”) MUST be modeled as a distinct `U.Work` step (kind=Communicative). It may open the Green‑Gate for a subsequent operational step, but it SHALL NOT be conflated with that step. | |
-| **CC-A15-11 (KindFit)** The `U.Role` named in the `performedBy` assignment SHALL be appropriate for the Work kind (e.g., ApproverRole for Communicative approvals; DeployerRole for Operational deployments). | |
+| **CC-A15-7 (Plan/Run Split)** | Schedules/calendars **MUST** be represented as `U.WorkPlan` (A.15.2). A `U.WorkPlan` SHALL NOT be used as evidence of execution; only `U.Work` carries actuals. | Preserves plan/run separation and prevents schedule-as-actual drift. |
+| **CC-A15-8 (Lexical Sanity)** | Unqualified "process/workflow/schedule" **MUST** be interpreted per **L-PROC / L-FUNC / L-SCHED**: workflow -> `Method/MethodDescription`; schedule -> `WorkPlan`; what happened -> `Work`. | Keeps process vocabulary auditable and reduces lexical ambiguity. |
+| **CC-A15-9 (Realisation)** | A valid `U.Work` realizes a `U.MethodDescription` under a `U.RoleAssignment`. Spontaneous physical evolution without a `MethodDescription` is modeled as `U.Dynamics`, not as `U.Work`. | Prevents background dynamics from being miscast as governed work. |
+| **CC-A15-10 (GateSplit)** | A SpeechAct that changes a Role's state (e.g., "Approve", "Authorize") MUST be modeled as a distinct `U.Work` step (`kind=Communicative`). It may open the Green-Gate for a subsequent operational step, but it SHALL NOT be conflated with that step. | Preserves authority-state changes as distinct communicative acts. |
+| **CC-A15-11 (KindFit)** | The `U.Role` named in the `performedBy` assignment SHALL be appropriate for the `U.Work` kind (e.g., `ApproverRole` for communicative approvals; `DeployerRole` for operational deployments). | Prevents kind-mismatched role attribution. |
 
-### A.15:7 - Consequences
+### A.15:8 - Common Anti-Patterns and How to Avoid Them
+
+- **Role-as-part.** Do not place `U.Role` or `U.Capability` inside structural `partOf` decomposition; keep them contextual and functional.
+- **Recipe-as-evidence.** Do not treat a `U.MethodDescription` or SOP as proof that work occurred; record dated `U.Work` instead.
+- **Plan-as-actual.** Do not let schedules, calendars, or intended assignments stand in for actual execution; use `U.WorkPlan` for intent and `U.Work` for actuals.
+- **Capability-as-work.** Do not treat possession of a capability as if the task has already been performed; capability supports execution but is not execution.
+- **Approval collapse.** Do not merge approval or authorization speech acts into the operational step they open; model them as distinct communicative `U.Work` when they change authority state.
+- **Process soup.** Do not leave "process / workflow / activity" uninterpreted in load-bearing passages; resolve the word to method, plan, or work.
+
+### A.15:9 - Consequences
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
@@ -17696,33 +17774,52 @@ To ensure the integrity of action modeling, all FPF-compliant models must adhere
 | **Enables True Modularity:** By separating capability from execution, the framework allows for easier substitution. A `MethodDescription` can be updated without invalidating past `Work` records. A `Holder` can be replaced with another, as long as it possesses the same `Capability`. | - |
 | **Foundation for Governance:** The model makes it possible to build powerful governance rules. For example: "Only an `Agent` with `AuditorRole` can execute `Work` that instantiates the `ApproveRelease` capability." | - |
 
-### A.15:8 - Rationale
+### A.15:10 - Rationale
 
 This pattern solves a problem that has plagued systems modeling for decades: the conflation of what a system *is* with what it *does*. Its rigor is not arbitrary but is grounded in several key intellectual traditions.
 
 *   **Ontology Engineering:** The pattern is a direct application of best practices from foundational ontologies (like UFO), which have long insisted on the distinction between *endurants* (objects like a `U.System`) and *perdurants* (events/processes like `U.Work`), and between intrinsic properties and relational roles. FPF makes these powerful distinctions accessible to practicing engineers.
 *   **Process Theory:** Formalisms like the Pi-calculus or Petri Nets model processes as dynamic interactions. The FPF Contextual Action Framework provides a higher-level, more semantically rich layer on top of such formalisms. The `U.Work` entity can be seen as an instance of a process, but FPF adds the crucial context of the `Role`, `Capability`, and `MethodDescription` that govern it.
-*   **Pragmatism and Practice:** The framework is deeply pragmatic. The distinctions it makes (e.g., between a `MethodDescription` and `Work`) are precisely the ones that matter in the real world of project management, compliance, and debugging. When a failure occurs, a manager needs to know: was the recipe wrong (`MethodDescription`), did the chef lack the skill (`Capability`), or did they just make a mistake this one time (`Work`)? This framework provides the vocabulary to ask and answer that question precisely.
+*   **Pragmatism and Practice:** The framework is deeply pragmatic. The distinctions it makes (e.g., between a `MethodDescription` and `U.Work`) are precisely the ones that matter in the real world of project management, compliance, and debugging. When a failure occurs, a manager needs to know: was the recipe wrong (`MethodDescription`), did the chef lack the skill (`Capability`), or did they just make a mistake this one time (`U.Work`)? This framework provides the vocabulary to ask and answer that question precisely.
 
 By creating this clean, stratified alignment for enactment, FPF provides a stable and scalable foundation for all of its more advanced patterns, from resource management (`Resrc-CAL`) and decision theory (`Decsn-CAL`) to ethics (`Norm-CAL`).
 
-### A.15:9 - Relations
+### A.15:11 - SoTA-Echoing
+
+**Claim 1.** Best-known current workflow, digital-thread, and service-operations practice keeps recipe, plan, and execution separate.
+
+**Practice / source / alignment / adoption.** Contemporary process modeling, service operations, and auditability practice after 2015 separates procedure, schedule, and executed occurrence because otherwise paper compliance becomes indistinguishable from completed work. In the manufacturing and peer-review slices above, this means a procedure or calendar never counts as the weld or the review itself. This pattern **adopts** that separation, **adapts** it through `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`, and **rejects** the shortcut where one undifferentiated "process" object carries all three loads.
+
+**Claim 2.** Best-known current accountability practice keeps actor-in-context explicit rather than attributing work to a role label or a document.
+
+**Practice / source / alignment / adoption.** Contemporary governance, service delivery, and incident practice distinguishes accountable assignee, governing procedure, and actual run record because post-hoc review depends on knowing who acted, under what role, and under which method. In the slices above, that is why the robot or reviewer acts under `U.RoleAssignment` rather than the role or guideline acting on its own. This pattern **adopts** explicit actor-in-context attribution through `U.RoleAssignment`, **adapts** it to bounded-context semantics, and **rejects** anonymous work logs and role-as-part modeling.
+
+**Claim 3.** Best-known current approval and execution practice treats communicative gate acts and operational acts as distinct kinds of work.
+
+**Practice / source / alignment / adoption.** Contemporary release, compliance, and safety-critical practice separates approval, authorization, and review acts from the operational steps they permit because authority change and world change are not the same event. In the examples above, that means an approval is not the same work as a deployment or a weld. This pattern **adopts** that split, **adapts** it through communicative versus operational `U.Work` kinds, and **rejects** the collapse of approval into the thing being approved.
+
+**Local stance.** The load-bearing SoTA claim for this pattern is practical and narrow: contextual enactment remains reviewable only when role, method, plan, and work stay distinct enough that audits can tell whether the problem was in the assignment, the recipe, the schedule, the capability, or the run itself.
+
+### A.15:12 - Relations
 
 *   **Directly Implements:** `A.7 Strict Distinction`.
 *   **Builds Upon:** `A.2 (U.Role)`, `A.2.1 (U.RoleAssignment)`, `A.4 (Temporal Duality)`, `A.12 (External Transformer)`.
 *   **Is Used By / Provides Foundation For:**
-    *   `C.4 Method-CAL`: Provides the formal definition of `U.MethodDescription` and the `Γ_method` operator for composing them.
+    *   `C.4 Method-CAL`: Provides the formal definition of `U.MethodDescription` and the `Gamma_method` operator for composing them.
     *   `C.5 Resrc-CAL`: Provides the `U.Work` entity to which resource consumption is attached.
-    *   `B.1.6 Γ_work`: The aggregation operator for `U.Work`.
-    *   `B.4 Canonical Evolution Loop`: The entire loop is a sequence of `Work` instances that modify `MethodDescription`s.
-    *   `A.15.2 U.WorkPlan`: plan–run split, baselines and variance against `U.Work`.
-* **Constrains:** Any FPF pattern that models actions or processes must use this framework to be conformant. It serves as the canonical alignment for **contextual enactment** in the FPF ecosystem.
-* **Coordinates with** L‑PROC / L‑FUNC / L‑SCHED (E‑cluster) for lexical disambiguation of _process / workflow / schedule_.
+    *   `B.1.6 Gamma_work`: The aggregation operator for `U.Work`.
+    *   `B.4 Canonical Evolution Loop`: The entire loop is a sequence of `U.Work` instances that modify `MethodDescription`s.
+    *   `A.15.2 U.WorkPlan`: plan-run split, baselines and variance against `U.Work`.
+*   **Constrains:** Any FPF pattern that models actions or processes must use this framework to be conformant. It serves as the canonical alignment for **contextual enactment** in the FPF ecosystem.
+*   **Coordinates with:** `L-PROC / L-FUNC / L-SCHED` (E-cluster) for lexical disambiguation of _process / workflow / schedule_.
 
 ### A.15:End
 
 
+---
+
 ## A.15.1 - U.Work
+
 
 ### A.15.1:1 - Problem Frame
 
@@ -18658,10 +18755,18 @@ This pattern aligns with post‑2015 practice in multiple traditions while delib
 ## A.16 - Language-State Transduction Coordination
 
 > **Type:** Architectural (A)
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state move coordination.
+
+**Start here when.** Your first honest artefact is a cue, not yet a claim, requirement, method, or work record, and you need to name the next lawful move without pretending that one downstream owner has already taken over.
+
+**First output.** A small typed move note or early preservation-to-routing note that names the source publication form, target publication form, target owner, and MVPK face where that face matters.
+
+**Typical next owners.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, later endpoint owners such as `A.6.P`, `A.6.A`, and `A.6.Q`, and `A.16.2` when the right move is reopen/backoff/respecify/retire.
+
+**Common wrong escalations / reroutes.** If history itself must be published as an accountable trajectory, reroute to `A.16.0`; if you are already doing slot-explicit semantic repair, reroute to `A.6.P`, `A.6.Q`, or `A.6.A`; if the publication target is a graph object in its own right, reroute to `E.18`.
 
 ### A.16:1 - Problem frame
 Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need lawful move kinds for how governed `U.Episteme` publications change, narrow, reopen, or hand off across that chart. Those moves must not collapse into a second formality ladder, a generic workflow story, or an invisible sequence of owner replacements.
@@ -18995,8 +19100,10 @@ This matrix keeps the integration layer narrow while still making its move seman
 ### A.16:End
 
 
+---
 
 ## A.16.0 - `U.LanguageStateTransductionTrajectory` - Optional trajectory-account normal form over the language-state `U.CharacteristicSpace`
+
 
 > **Type:** Architectural (A)
 > **Status:** Draft
@@ -19243,10 +19350,18 @@ Its job is narrower and architectural: to make the heavier trajectory account vi
 ## A.16.1 - `U.PreArticulationCuePack`
 
 > **Type:** Definitional (D)
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Pre-articulation cue pack.
+
+**Start here when.** Your first honest artefact is a preserve-worthy cue nucleus that should not yet be forced into a claim, route decision, method, or work record.
+
+**First output.** One `U.PreArticulationCuePack` with an explicit cue nucleus, preservation rationale, primary witness or anchor when one is load-bearing, and any early lane candidates or route pressure that is already visible.
+
+**Typical next owners.** `B.4.1` when route plurality or route authority becomes publishable, `B.5.2.0` for cue-derived abductive prompting, `A.6.P`, `A.6.A`, or `A.6.Q` once endpoint articulation threshold is actually met, and `A.16.2` when reopening or retirement becomes the truthful move.
+
+**Common wrong escalations / reroutes.** Do not publish a cue pack as a route decision, anomaly statement, evaluative ascription, action invitation, or work record; if route authority is already explicit, reroute to `B.4.1`; if endpoint semantics are already stable, reroute to the later owner; if backoff or retirement is the real burden, reroute to `A.16.2`.
 
 ### A.16.1:1 - Problem frame
 Early governed `U.Episteme` publications can be worth preserving before route publication, prompt publication, relation repair, evaluative repair, action-invitation repair, method work, or later endpoint ownership. `U.PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold material.
@@ -19517,7 +19632,11 @@ A reviewer can test a cue pack with four questions:
 Migration from legacy signal language should therefore reconstruct not just a vague "signal", but the preserved cue nucleus, its primary witness or anchor, and any directional pressure that is already honestly visible.
 ### A.16.1:End
 
+
+---
+
 ## A.16.2 - Reopen / SketchBackoff / Respecify
+
 
 > **Type:** Architectural (A)
 > **Status:** Draft
@@ -38348,9 +38467,10 @@ steep learning curve and repeated “forward‑reference” detours.
 
 ### E.6:2 - Problem
 If core ideas are buried under formalism or scattered across parts,
-readers either give up or misuse the framework. We need a **fixed
-narrative scaffold** that guides cognitive load from low to high while
-keeping normative sections discoverable.
+readers either give up or misuse the framework. We need a didactic
+macro-order that guides cognitive load from low to high while keeping
+normative sections discoverable, without letting readers confuse
+document order with one universal first-practical workflow.
 
 ### E.6:3 - Forces
 
@@ -38358,9 +38478,13 @@ keeping normative sections discoverable.
 |-------|---------|
 | **Cognitive Load** | Early clarity ↔ eventual formal depth. |
 | **Conceptual Integrity** | Foregoing examples risks abstraction ↔ too many examples delay axioms. |
-| **Uniform Flow** | Single, predictable roadmap ↔ flexibility for future parts. |
+| **Didactic order vs practical entry** | Stable document macro-order ↔ truthful first-practical routes that may cross parts. |
 
 ### E.6:4 - Solution — “On‑Ramp to Archetypes first, Authoring last” sequence
+
+#### E.6:4.0 - Document order is not the same thing as first-practical entry
+
+The macro-order of the document is a didactic scaffold, not a universal practical workflow. Route-bearing navigation surfaces such as the `Preface`, `J.4`, route-bearing owner patterns, and route-indexed walkthroughs are informative navigation only: they may cross Parts when that is the first honest entry for the burden at hand, and they do not create a second normative lifecycle.
 
 The "On-Ramp First" Macro-Structure: The specification is ordered to create a smooth cognitive ramp:
 * It begins with an informal, non-normative Preface (The On-Ramp), which uses storytelling and concrete examples (System and Episteme) to build intuition.
@@ -38407,6 +38531,7 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
 | **CC‑DA.1** | Each Part **SHALL** open with a one‑paragraph situational “hook” before formal text. |
 | **CC‑DA.2** | Every architectural pattern **MUST** implement Tell‑Show‑Show: universal rule plus System & Episteme illustrations. |
 | **CC‑DA.3** | Governance patterns (**Part E**) **SHALL NOT** appear before the Kernel in the main document flow. |
+| **CC‑DA.4** | Navigation aids **SHALL** distinguish document order from first-practical entry routes; entry routes are informative and MAY cross Parts without implying a universal lifecycle. |
 
 ### E.6:7 - Consequences
 
@@ -38679,7 +38804,7 @@ If a pattern uses a broad umbrella or head together with a narrower operative br
 Under `F.18` local-first naming, the canonical pair here is **recognition surface** and **assurance surface**.
 The earlier provisional `recognition shell / assurance shell` wording is retired.
 These names refer to two reading-order surfaces inside one pattern; they do **not** mint new owner kinds, new publication-surface kinds, or a second face family.
-A later third didactic support layer remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
+A later third didactic support surface remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
 
 The **recognition surface** is the first reading surface.
 It is the part of the pattern that lets a cold working reader recognise the situation quickly enough to decide whether to keep reading.
@@ -38712,7 +38837,7 @@ A broad claim should therefore be demonstrated in the recognition surface throug
 When a compact matrix helps, `F.16` is the preferred template for showing that breadth.
 If `SoTA-Echoing` is load-bearing, the practical implication of those rows should be recoverable from the recognition surface and case bank rather than remaining a late-only justification layer.
 
-A **third didactic support layer** means enough didactic and operational support that the pattern survives without nearby project documents. Typical signs include:
+A **third didactic support surface** means enough didactic and operational support that the pattern survives without nearby project documents. Typical signs include:
 - at least one concrete source/result slice in Archetypal Grounding when the pattern governs transforms or publication change;
 - at least one boundary-heavy example or anti-example when nearby owners are easy to confuse;
 - reviewer guidance that tells what to inspect first and what failure mode forces reroute;
@@ -38778,6 +38903,12 @@ When a pattern claims practice guidance or is meant to be used by engineers, man
 - a visible split between the recognition surface and the heavier declaration / review / assurance surface;
 - and, if the draft implicitly serves several reader families, an explicit primary working reader, primary concern surface, or primary viewpoint.
 
+**Entry-bearing mini-block (informative).** When a canonical pattern genuinely functions as a local front door for one first practical route, the recognition surface SHOULD add one short routing block near the top with: `Start here when`, `First output`, `Typical next owners`, and `Common wrong escalations / reroutes`.
+
+This mini-block does not replace `Use this when`, `Problem frame`, `Consequences`, or ordinary `Not this pattern when` guidance. Its job is to shorten first-minute routing for a cold reader without silently widening owner scope, changing route-count decisions, or relocating semantics out of the pattern that actually owns them.
+
+If the block points to neighbouring owners, it should name those owners as next moves or reroutes rather than as hidden co-owners of the current pattern.
+
 If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition surface.
 At minimum the recognition surface should show at least three heterogeneous reader or domain situations rather than one narrow lane with a later broad claim attached.
 When a compact matrix helps, `F.16` is the preferred template for making that breadth legible.
@@ -38837,6 +38968,7 @@ Conformance Checklist items are obligations/conditions in the **authoring plane*
 | **CC-SG.15 (Package-form and host-relation role-word discipline).** | When a pattern names a package-form or the host relation of a family (`owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, `umbrella`), the chosen role word **MUST** match the intended ontology and **MUST NOT** be swapped for stylistic variety or left to implication. | Prevents semantic blur in pattern prose and keeps host relations auditable. |
 | **CC-SG.16 (Reader-role discipline).** | Authors **MUST** keep live pattern sections user-facing. FPF-development or package-architecture reasoning about isolation, overlay or owner choice, freeze, merge posture, or planned evolution **MUST NOT** occupy `Problem`, `Solution`, `Consequences`, `Rationale`, or worked slices; if such material is still needed, it **MUST** live in a separate companion note or a clearly marked informative placement note. | Keeps pattern prose aligned with its intended reader and prevents package-governance leakage into live use guidance. |
 | **CC-SG.17 (Recognition surface and assurance surface).** | Admission or substantial revision runs **MUST** check that a canonical pattern exposes a recognition surface early enough for the intended working reader and an assurance surface that carries declaration, law, modeling, and review burden without silently shifting the recognition-surface claim. The recognition surface **MUST** surface a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and a clear ordinary `not this pattern when` boundary. Any load-bearing typed declaration or modeling lens **MUST** be surfaced by a short user-facing statement of the governed object, early high-pressure technical terms **MUST** receive nearby pairwise plain glosses, and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If the pattern claims universal or transdisciplinary reach, the recognition surface **MUST** demonstrate that claim through at least three heterogeneous reader or domain situations, preferably using an `F.16`-style example matrix or an equally explicit alternative. | Prevents surface-clean but reader-opaque patterns and keeps broad claims visible where cold readers actually enter the text. |
+| **CC-SG.17a (Entry-bearing route block).** | When a canonical pattern genuinely functions as a local first-practical route for working readers, the recognition surface **SHOULD** include one short informative routing block with `Start here when`, `First output`, `Typical next owners`, and `Common wrong escalations / reroutes`. The block **SHALL NOT** silently widen owner scope or treat neighbouring owners as hidden co-owners. | Keeps route-bearing patterns locally legible without relocating semantics out of their actual owners. |
 | **CC-SG.18 (Precision before relaxation).** | In load-bearing prose, authors **MUST NOT** leave a generic head noun or burden-carrying qualifier uninterpreted when that phrase carries semantic, boundary, or authority load. A narrowing qualifier by itself does **not** restore the head kind. Authors **MUST** restore head kind first, then qualifier burden, then any comparison/escalation axis before stronger use. If a later Plain, didactic, or coarsened rendering is kept, the more precise upstream reading **MUST** remain recoverable. | Prevents ambiguity from being hidden inside ordinary-looking phrases and keeps softened prose subordinate to an explicit authoritative reading. |
 
 ### E.8:8 - Common Anti-Patterns and How to Avoid Them
@@ -38917,7 +39049,11 @@ International and industry standards often speak in terms of *conformance criter
 
 ### E.8:End
 
+
+---
+
 ## E.9 - Design‑Rationale Record (DRR) Method
+
 
 ### E.9:1 - Problem frame
 FPF is engineered for Pillar **P‑10 Open‑Ended Evolution**: its normative
@@ -42834,11 +42970,25 @@ U :  X ──f──▶ Y ──g──▶ Z    X ──f──▶ Y ──g─�
 
 ## E.17.EFP - ExplanationFaithfulnessProfile — explanation classification over existing MVPK faces
 
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+**One-line summary.** `ExplanationFaithfulnessProfile` classifies explanation-facing renderings over already available claims, traces, and pins on existing MVPK faces. It helps reviewers distinguish source-pinned rendering, source-linked reconstruction, didactic retelling, and speculative retelling without creating a second face family or a second semantic rule track.
+
+**Use this when.** Use this profile when one note, memo, sheet, screen, table, or short section is trying to help a reader understand already available material on an existing face and you need to say what kind of explanation it is without turning that help into a second semantic rule track.
+
+**Start here when.** Your first honest artefact is one explanation-facing rendering on an existing MVPK face, and the real question is whether it stays source-pinned, becomes bounded reconstruction, is openly didactic, or has already drifted into speculation or stronger downstream use.
+
+**First output.** One face-bound explanation rendering or compact review note with an explicit explanation class, visible source anchors, admissible face/surface, and any forbidden stronger uptake or `addedLinkPolicy` needed to keep the rendering reviewable.
+
+**Typical next owners.** `E.17.ID.CR` when the burden becomes bounded comparative reading; `A.6.3.CR` or `A.6.3.RT` when the real job is same-entity rewrite or representation change; `A.6.4` or `OntologicalReframing` when the object of talk changes; and `A.15`, `A.20`, or `A.21` when explanation starts carrying downstream action, assurance, or gate authority.
+
+**Common wrong escalations / reroutes.** Do not use this profile to hide new claims, bridge burden, route pressure, or gate-bearing guidance inside helpful prose. If the rendering is really a bounded comparison, reroute to `E.17.ID.CR`; if it is only same-entity rewriting or representation shift, reroute to `A.6.3.*`; if it is already making stronger world, action, or authority claims, leave `E.17.EFP` for the more honest downstream owner.
+
 **Placement.** Hosted profile under `E.17.0 / E.17` host review.  
 **Builds on.** `E.17.0 U.MultiViewDescribing`; `E.17` MVPK; `A.7`; `E.10.D2`; `A.6.B`; `F.9`; `F.18`.  
 **Coordinates with.** `ConservativeRetextualization`; `RepresentationTransduction`; `E.17.ID.CR ComparativeReading`; `A.6.4`; `A.15`; `A.20`; `A.21`.
-
-**One-line summary.** `ExplanationFaithfulnessProfile` classifies explanation-facing renderings over already available claims, traces, and pins on existing MVPK faces. It helps reviewers distinguish source-pinned rendering, source-linked reconstruction, didactic retelling, and speculative retelling without creating a second face family or a second semantic rule track.
 
 ### E.17.EFP:1 - Problem frame
 
@@ -43046,7 +43196,7 @@ A rendering assigned to one of these explanation classes declares what is omitte
 When reader-fit is part of the explanation burden, `allowedUptake` and `misuseRisk` should be explicit enough that a didactic or contrastive rendering cannot be mistaken for stronger assurance, policy, or gate-bearing guidance.
 
 ##### E.17.EFP:4.5.c. Authority and handoff law
-This profile stays explanation-facing and episteme-level. It does not own bridge stance, retargeting, route selection, executable docking, gate authority, or work enactment. If a case starts carrying one bounded comparative review unit, rival interpretations, bridge-mediated comparison burdens, or world/gate consequences, it must hand off to the appropriate downstream owner (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.20`, `A.21`).
+This profile stays explanation-facing and episteme-level. It does not own bridge stance, retargeting, route selection, executable docking, gate authority, or work enactment. If a case starts carrying one bounded comparative review surface, rival interpretations, bridge-mediated comparison burdens, or world/gate consequences, it must hand off to the appropriate downstream owner (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.20`, `A.21`).
 
 Interpretant-side fields do not weaken that handoff rule. They only bound reader uptake; they do not authorize stronger downstream guidance.
 
@@ -43132,7 +43282,7 @@ This also exits the profile. The rendering is no longer only reader help over ex
 - **`SpeculativeRetelling`** reopens when stronger source binding becomes available, or when the rendering starts to behave like canonical explanation rather than clearly bounded exploratory help.
 
 #### E.17.EFP:5.6 - Boundary to interpretation and world handoff
-If the rendering starts generating one bounded comparative review unit, rival interpretations, bridge-mediated comparative claims, new hypotheses, or world/gate consequences, it must leave this profile and move toward the appropriate owner track (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.20`, `A.21`).
+If the rendering starts generating one bounded comparative review surface, rival interpretations, bridge-mediated comparative claims, new hypotheses, or world/gate consequences, it must leave this profile and move toward the appropriate owner track (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.20`, `A.21`).
 
 ### E.17.EFP:6 - Bias-Annotation
 
@@ -43214,8 +43364,8 @@ This profile is worth stating explicitly because explanation-facing rendering is
 
 ### E.17.EFP:End
 
-
 ## E.17.ID.CR - InterpretationDiscipline / ComparativeReading — bounded comparative reading over comparative review units
+
 
 **Placement.** Pattern for bounded comparative reading over comparative review units, coordinated with the neighboring `A.6.3.*`, `F.9.1`, and `E.17.EFP` seams.
 **Builds on.** `C.2.2a`; `A.16.0`; `F.9`; `E.14`.
@@ -53823,7 +53973,15 @@ This pattern aligns with post‑2015 best practice in evaluation and governance 
 **Primary output.** the **six‑card chassis** `M1…M6` published as a **complete, reusable CG‑Frame kit**, plus a versioned **kit manifest** `CGKitId` that binds the six cards as a single reusable unit (view‑friendly inventory + wiring surface)  
 **Primary hooks.** see **§12 Relations** (notably `G.Core`, `G.0`, `G.2`, `G.5`, `G.10`, `G.11`)  
 **Working‑model first (informative).** prefer working models and didactic micro‑examples; escalate to formal harnesses only when risk warrants (per E.8).  
-**Non‑duplication note.** universal Part‑G invariants (tri‑state guard, set‑return, penalties→`R_eff`‑only, crossing visibility, typed RSCR triggers, default ownership, P2W split, linkage discipline, shipping boundary) are **single‑owner in `G.Core`** and are **only cited** here.
+**Non‑duplication note.** universal Part‑G invariants (tri‑state guard, set-return, penalties→`R_eff`‑only, crossing visibility, typed RSCR triggers, default ownership, P2W split, linkage discipline, shipping boundary) are **single‑owner in `G.Core`** and are **only cited** here.
+
+**Start here when.** Your first deliverable is a reusable generator / selector / portfolio scaffold rather than a one-off plan, one-off comparison, or tool-specific workflow recipe.
+
+**First output.** The six-card chassis `M1…M6` published as a reusable `CGKitId`-bound kit with a scope anchor, local SoTA set, variant pool, shortlist surface, and refresh-ready wiring.
+
+**Typical next owners.** `G.2` for the local SoTA set, `G.5` for governed set-return selection, `G.10` for shipping surfaces, `G.11` for refresh wiring, and `F.17` when the result must also land on a human-facing UTS surface.
+
+**Common wrong escalations / reroutes.** If the real burden is only a one-off governed comparison or shortlist, reroute to `A.19` / `G.0` / `G.5`; if the real burden is project alignment rather than kit authoring, reroute to `A.15`; if tooling choice is being treated as the first artefact, hold the route here until the chassis and its bindings are explicit.
 
 ### G.1:1 - Problem frame
 
@@ -59113,7 +59271,7 @@ FPF is a conceptual framework for disciplined creative work, not a data governan
 | §   | ID & Title                  |  Concise reminder                                                |
 | --- | --------------------------- | --- | --------------------------------------------------------------- |
 | I.1 | Deprecated Aliases          |  Legacy names kept for backward compatibility.                   |
-| I.2 | Detailed Walk‑throughs      |  Step‑by‑step modelling of a pump + proof + dev‑ops pipeline.    |
+| I.2 | Detailed Walk‑throughs      |  Route-indexed walkthroughs for the main first-practical entry routes: project alignment, partly-said discovery, boundary unpacking, lawful comparison/selection, generator/SoTA kit authoring, and same-entity rewrite/explanation/comparative reading. |
 | I.3 | Change‑Log (auto‑generated) |  Version history keyed to DRR ids.                               |
 | I.4 | External Standards Mappings |  Trace tables to ISO 15926, BORO, CCO, Constructor‑Theory terms. |
 
@@ -59125,6 +59283,20 @@ FPF is a conceptual framework for disciplined creative work, not a data governan
 | J.1 | Concept‑to‑Pattern Index |  Quick jump from idea (“boundary”) to pattern (§, id).   |
 | J.2 | Pattern‑to‑Example Index |  Table listing every archetypal grounding vignette.      |
 | J.3 | Principle‑Trace Index    |  Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
+| J.4 | First Practical Entry Route Index | Cross-links the main first-practical entry routes to their first honest burden, current route-bearing surfaces, first working outputs, typical next owners, and common reroutes. |
+
+## J.4 - First Practical Entry Route Index
+
+This index is informative navigation only. It names the current first-practical routes in the monolith by the first honest burden that should choose them, the first working output they normally leave behind, the most typical next owners, and the reroutes that most often keep the reader honest.
+
+| Route | First honest burden | Current route-bearing surfaces / owners | First working output | Typical next owners | Common wrong reroutes |
+| --- | --- | --- | --- | --- | --- |
+| Project alignment | role / method / plan / work confusion | `Preface`, `J.4`, `I.2`, `A.15` | role / method / work separation and a first work sheet or UTS-ready alignment frame | `A.15.1`, `A.15.2`, `A.15.3`, `B.5.1`, `F.11`, `F.17` | if the first honest artefact is still a cue, reroute to `A.16`; if the burden is boundary language, reroute to `A.6` |
+| Partly-said / language-state discovery | preserve and route a cue without pretending endpoint ownership | `Preface`, `J.4`, `I.2`, `A.16`, `A.16.1` | typed move note or `U.PreArticulationCuePack` | `B.4.1`, `B.5.2.0`, `A.16.2`, later endpoint owners | do not recast the cue as a claim, requirement, or work record too early |
+| Boundary unpacking | contract / API / protocol / compliance text is mixing law, gate, duty, and evidence | `Preface`, `J.4`, `I.2`, `A.6` | Claim Register or routed atomic claim set | `A.6.B`, `A.6.C`, `A.6.P`, `A.6.Q`, `A.6.A`, `E.17` faces | if the real burden is early cue preservation, reroute to `A.16 / A.16.1` |
+| Lawful comparison / selection | compare options or publish a governed shortlist / set-return result | `Preface`, `J.4`, `I.2`, `A.19:0`, `A.17-A.19`, `G.0`, `G.5` | declared characteristics, comparison frame, or set-return result | `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, later publication surfaces | do not force a one-winner answer when the honest output is still a governed set or portfolio |
+| Generator / SoTA / portfolio kit | first deliverable is a reusable generator / selector / portfolio scaffold | `Preface`, `J.4`, `I.2`, `A.0`, `G.0`, `G.1`, `G.2`, `G.5` | kit/chassis with scope anchor, SoTA set, variant pool, or shortlist surface | `G.2`, `G.5`, later UTS / kit surfaces | do not collapse this route into one-off selection or treat tooling choice as the first owner |
+| Same-entity rewrite / explanation / comparative reading | re-explain, re-render, or comparatively read one object of talk without minting a second semantic track | `Preface`, `J.4`, `I.2`, `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR`, `E.17.AUD.LHR`, `E.17.AUD.OOTD` | same-entity rewrite, explanation-facing rendering, authored-unit repair/stability surface, or bounded comparative reading note | `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR`, `E.17.AUD.LHR`, `E.17.AUD.OOTD` | do not let explanation, repair, or comparison quietly mint a new object of talk or a second rule track |
 
 # **Part K  – Lexical debt**
 ## Mandatory replacement map for measurement terms
