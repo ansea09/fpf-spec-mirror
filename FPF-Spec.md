@@ -83,9 +83,9 @@ Pattern and headers templates are explained in pattern E.8.
 | A.10 | **Evidence Graph Referring (C-4)** | Stable | *Keywords:* evidence, traceability, audit, provenance, SCR/RSCR. *Queries:* "How are claims supported by evidence?", "How to ensure auditability?" | **Builds on:** A.1. **Prerequisite for:** B.3. |
 | A.11 | **Ontological Parsimony (C-5)** | Stable | *Keywords:* minimalism, simplicity, Occam's razor, essential concepts. *Queries:* "How does FPF avoid becoming too complex?", "Rule for adding new concepts." | **Builds on:** P-1 Cognitive Elegance. **Constrains:** all new `U.Type` proposals. |
 | A.12 | **External Transformer & Reflexive Split (C-2)** | Stable | *Keywords:* causality, agency, self-modification, external agent, control loop. *Queries:* "How to model a self-healing or self-calibrating system?", "What is the external transformer principle?" | **Builds on:** A.3. **Prerequisite for:** B.2.5. |
-| A.13 | **The Agential Role & Agency Spectrum** | Stable | *Keywords:* agency, autonomy, AgentialRole, Agency-CHR, decision-making. *Queries:* "How is agency modeled in FPF?", "What is the agency spectrum?" | **Builds on:** A.2. **Refined by:** C.9 Agency-CHR. |
+| A.13 | **The Agential Role & Agency Spectrum** | Stable | *Keywords:* agency as role, agency spectrum, contextual role assignment, autonomy grading, substrate-neutral autonomy. *Queries:* "How does FPF model agency without minting a `U.Agent` type?", "How do I grade autonomy on an evidence-backed spectrum?" | **Builds on:** A.2, A.2.1, A.12. **Informs:** C.9 Agency-CHR, E.16. |
 | A.14 | **Advanced Mereology: Components, Portions, Aspects & Phases**| Stable | *Keywords:* mereology, part-of, ComponentOf, PortionOf, PhaseOf, composition. *Queries:* "How to model different kinds of 'part-of' relationships?" | **Refines:** A.1. **Prerequisite for:** B.1.1. |
-| A.15 | **Role–Method–Work Alignment (Contextual Enactment)** | Stable | *Keywords:* enactment, alignment, plan vs reality, design vs run, MIC, WorkPlan. *Queries:* "How do roles, methods, and work connect?", "How does an intention become an action in FPF?" | **Integrates:** A.2, A.3, A.4. **Prerequisite for:** all operational models. |
+| A.15 | **Role–Method–Work Alignment (Contextual Enactment)** | Stable | *Keywords:* role-method-work split, `U.WorkPlan` vs `U.Work`, contextual enactment, checkpoint return, bounded specialization scouting. *Queries:* "How do role, method, plan, and work stay distinct in FPF?", "How does bounded specialization scouting return a checkpoint instead of a silent rollout?" | **Integrates:** A.2, A.4, A.12. **Prerequisite for:** A.15.1-A.15.3, C.24, E.16. |
 | A.15.1 | **`U.Work`: The Record of Occurrence** | Stable | *Keywords:* execution, event, run, actuals, log, occurrence. *Queries:* "What is a Work record?", "Where are actual resource costs stored?" | **Refines:** A.15. **Used by:** B.1.6, all Part D. |
 | A.15.2 | **`U.WorkPlan`: The Schedule of Intent** | Stable | *Keywords:* plan, schedule, intent, forecast. *Queries:* "How to model a plan or schedule?", "Difference between a WorkPlan and a MethodDescription." | **Refines:** A.15. **Informs:** `U.Work`. |
 | A.15.3 | **`SlotFillingsPlanItem` — Planned Slot-Fillings Baseline (WorkPlanning PlanItem)** | Stable | *Keywords:* planned baseline, slot owner, planned filler, edition pins, `Γ_time` selector, guard pins, WorkPlanning, P2W seam, variance trail. *Queries:* "What is SlotFillingsPlanItem in FPF?", "How to keep planned slot filling separate from FinalizeLaunchValues?", "How to pin editions and time in WorkPlanning baselines?" | **Builds on:** A.15.2, A.6.5, E.10.D1, E.17, E.18, E.19. **Used by:** A.6.7 (suite contract pins), Part G universalization, suite-specific and kit-specific planned baselines. |
@@ -130,14 +130,14 @@ Pattern and headers templates are explained in pattern E.8.
 | B.3.3 | **Assurance Subtypes & Levels** | Stable | *Keywords:* assurance levels, L0-L2, TA, VA, LA, typing, verification, validation. *Queries:* "What are the assurance levels in FPF?", "How does an artifact mature in FPF?" | **Builds on:** B.3. |
 | B.3.4 | **Evidence Decay & Epistemic Debt** | Stable | *Keywords:* evidence aging, decay, freshness, epistemic debt, stale data. *Queries:* "How does FPF handle outdated evidence?", "What is epistemic debt?" | **Builds on:** B.3. |
 | B.3.5 | **CT2R-LOG — Working-Model Relations & Grounding**| Stable | *Keywords:* grounding, constructive trace, working model, assurance layer, CT2R, Compose-CAL. *Queries:* "How are FPF models grounded in evidence?", "What is the CT2R-LOG?" | **Builds on:** B.3, E.14, C.13. |
-| **B.4** | **Canonical Evolution Loop** | Stable | *Keywords:* evolution, run-observe-refine-deploy, continuous improvement, temporal duality, transformer. *Queries:* "How do systems or epistemes evolve in FPF?", "What is the canonical evolution loop?" | **Builds on:** A.4, A.12. **Prerequisite for:** B.4.1-B.4.3. |
-| B.4.1 | **Observe -> Notice -> Stabilize -> Route** | Draft | *Keywords:* observe, notice, stabilize, route, routed cue set, route plurality, pre-abductive seam. *Queries:* "How do early cues become routed before abduction?", "What is the observe-to-route seam in FPF?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, A.6.Q, A.6.A. |
+| **B.4** | **Canonical Evolution Loop** | Stable | *Keywords:* evolution loop, design/run feedback, observe-notice-stabilize-route, drift repair, open-ended evolution. *Queries:* "How does FPF evolve a system or episteme without design-reality drift?", "Where does pre-abductive routing sit in the canonical loop?" | **Builds on:** A.4, A.12. **Prerequisite for:** B.4.1-B.4.3. |
+| B.4.1 | **Observe -> Notice -> Stabilize -> Route** | Draft | *Keywords:* routed cue set, route plurality, route selection, pre-abductive seam, task-family specialization route. *Queries:* "How do weak cues become routed before endpoint ownership?", "When should a cue become a routed cue set instead of an abductive prompt?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, A.6.Q, A.6.A, C.22.1. |
 | B.4.2 | **Knowledge Instantiation** | Stub | *Keywords:* theory refinement, knowledge evolution, scientific method. *Queries:* "How are scientific theories refined in FPF?" | **Builds on:** B.4, A.1. |
 | B.4.3 | **Method Instantiation** | Stub | *Keywords:* adaptive workflow, process improvement, operational evolution. *Queries:* "How do workflows or methods evolve in FPF?" | **Builds on:** B.4, A.3.1. |
 | **B.5** | **Canonical Reasoning Cycle** | Stable | *Keywords:* reasoning, problem-solving, Abduction-Deduction-Induction, scientific method. *Queries:* "How does FPF model problem-solving?", "What is the canonical reasoning cycle?" | **Builds on:** A.10. **Prerequisite for:** All B.5.x. |
 | B.5.1 | **Explore → Shape → Evidence → Operate** | Stable | *Keywords:* development cycle, lifecycle, state machine, Explore, Shape, Evidence, Operate. *Queries:* "What are the development stages of an artifact in FPF?" | **Builds on:** B.5. |
 | B.5.2 | **Abductive Loop** | Stable | *Keywords:* abduction, explanatory prompt, candidate hypotheses, plausibility filters, origin trace, route-to-hypothesis. *Queries:* "How does FPF model abductive hypothesis generation?", "What is the abductive loop?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
-| B.5.2.0 | **`U.AbductivePrompt`** | Draft | *Keywords:* abductive prompt, prompt readiness, anomaly, opportunity cue, rival-set, explanatory probe. *Queries:* "What is an AbductivePrompt in FPF?", "When is a routed cue ready to enter abduction?" | **Builds on:** B.4.1, A.16, C.2.2a. **Used by:** B.5.2. |
+| B.5.2.0 | **`U.AbductivePrompt`** | Draft | *Keywords:* abductive prompt, prompt species, rival-set discipline, threshold crossing, explanation-ready cue. *Queries:* "When is a routed cue ready to enter abduction?", "What prompt species does FPF distinguish before hypothesis work begins?" | **Builds on:** B.4.1, A.16, C.2.2a. **Coordinates with:** A.6.P, A.6.A, A.6.Q. **Used by:** B.5.2. |
 | B.5.2.1 | **Creative Abduction with NQD** | Stable | *Keywords:* NQD, novelty, quality, diversity, open-ended search, Pareto front, E/E-LOG. *Queries:* "How to systematically generate creative ideas?", "What is NQD in FPF?" | **Builds on:** B.5.2, C.17, C.18, C.19. |
 | B.5.3 | **Role-Projection Bridge** | Stable | *Keywords:* domain-specific vocabulary, concept bridge, mapping, terminology. *Queries:* "How does FPF integrate domain-specific language?", "What is a Role-Projection Bridge?" | **Builds on:** A.2, C.3. |
 | **B.6** | **Characterisation Families (CHR-use)** | Draft | *Keywords:* characterization, templates, CHR patterns, measurement. *Queries:* "How to use CHR patterns?" | **Builds on:** Part C (CHR). |
@@ -185,12 +185,13 @@ Pattern and headers templates are explained in pattern E.8.
 | C.18 | **NQD‑CAL — Open‑Ended Search Calculus** | Stable | *Keywords:* search, exploration, hypothesis generation, novelty, quality, diversity (NQD). *Queries:* "How does FPF support structured brainstorming?", "What is NQD search?". | **Builds on:** KD-CAL. **Coordinates with:** B.5.2.1, Creativity-CHR, E/E-LOG. |
 | C.18.1 | **SLL — Scaling‑Law Lens (binding)** | Stable | *Keywords:* scaling law, scale variables (S), compute‑elasticity, data‑elasticity, resolution‑elasticity, exponent class, knee, diminishing returns. *Queries:* "How to make search scale‑savvy?", "Where to declare scale variables and expected elasticities?" | **Builds on:** C.16, C.17, C.18. **Coordinates with:** C.19, G.5, G.9, G.10. |
 | C.19 | **E/E‑LOG — Explore–Exploit Governor** | Stable | *Keywords:* explore-exploit, policy, strategy, decision lens, portfolio management. *Queries:* "How to balance exploration and exploitation?", "What is an EmitterPolicy?". | **Builds on:** Decsn-CAL. **Coordinates with:** NQD-CAL. |
-| C.19.1 | **BLP — Bitter‑Lesson Preference (policy)** | Stable | *Keywords:* general‑method preference, iso‑scale parity, scale‑probe, deontic override. *Queries:* "What is the default policy when a domain‑specific trick competes with a scalable general method?" | **Builds on:** C.19, C.24. **Coordinates with:** G.5, G.8, G.9, A.0. |
+| C.19.1 | **Bitter‑Lesson Preference (BLP)** | Stable | *Keywords:* Bitter Lesson, scale-audit, BLP-waiver, α/δ tolerances, task-family specialization. *Queries:* "When may a narrower method beat a scalable one in FPF?", "How does BLP stay compatible with bounded task-family specialization?" | **Builds on:** C.19, C.24, B.3. **Coordinates with:** G.5, G.8, G.9, G.11, A.0. |
 | C.20 | **Discipline‑CAL — Composition of `U.Discipline`** | Stable| *Keywords:* discipline, **U.AppliedDiscipline**, **U.Transdiscipline**, episteme corpus, standards, institutions, **Γ_disc**. *Queries:* "How to compose and assess a discipline in FPF?" | **Builds on:** C.2 KD‑CAL, G.0, Part F (Bridges/UTS). **Coordinates with:** C.21, C.23. |
 | C.21 | **Discipline‑CHR - Field Health & Structure** | Stable | *Keywords:* discipline, field health, reproducibility, standardisation, alignment, disruption. *Queries:* "How to measure the health of a scientific field?", "What is reproducibility rate?". | **Builds on:** C.16, C.2, A.2.6, B.3. **Coordinates with:** C.20, G.2. |
-| C.22 | **Problem‑CHR - Problem Typing & TaskSignature Binding** | Stable | Keywords: problem typing, TaskSignature, selector, eligibility, acceptance, CHR‑typed traits. Queries: "How does FPF type problems for selection?", "What is a TaskSignature?". | **Builds on:** C.16, G.5, G.0. **Coordinates with:** G.4, C.23. |
+| C.22 | **Problem Typing & TaskSignature Assignment (Problem‑CHR)** | Stable | *Keywords:* Problem‑CHR, TaskSignature, TaskKind, ScopeSlice(G), unknown handling, specialization anchor. *Queries:* "How does FPF bind a typed `TaskSignature` for lawful selection?", "How does TaskSignature stay separate from method choice and specialization claims?" | **Builds on:** C.16, G.0, G.5. **Coordinates with:** G.4, C.22.1, C.23. |
+| C.22.1 | **Task-family adaptation signature** | Stable | *Keywords:* adaptation signature, time-to-threshold, budget-to-threshold, prior exposure, corridor entry, stepping stone. *Queries:* "How do I publish a specialization claim on one task family honestly?", "What fields make task-family adaptation comparable in `G.5` and `G.9`?" | **Builds on:** C.22. **Coordinates with:** C.19.1, G.5, G.9. |
 | C.23 | **Method‑SoS‑LOG — MethodFamily Evidence & Maturity** | Stable | *Keywords:* MethodFamily, evidence, maturity, SoS-LOG, admit, degrade, abstain, selector. *Queries:* "How is method family maturity assessed?", "What is the SoS-LOG for selection?". | **Builds on:** G.5, G.4, C.22, B.3. |
-| C.24 | **C.Agent-Tools-CAL — Agentic Tool-Use & Call-Planning** | Stable | Keywords: agentic tools, call-planning, budget, BLP, SLL, policy-aware sequencing. Queries: "How to sequence tool calls?", "What is Agent-Tools-CAL?" | **Builds on:** C.5, C.18, C.19, B.3. **Coordinates with:** G.5, G.9. |
+| C.24 | **C.Agent-Tools-CAL — Agentic Tool-Use & Call-Planning** | Stable | *Keywords:* agentic tool use, call planning, budgeted exploration, `explore_share`, BLP-aware sequencing, replanning. *Queries:* "How does FPF plan tool calls under budgets and policy?", "How do agentic calls stay lawful without hard-coded heuristics?" | **Builds on:** A.15, B.3, C.5, C.18, C.19. **Coordinates with:** E.16, G.5, G.9. |
 | C.25 | **Q-Bundle — Structured Treatment of "-ilities" (Quality Families)** | Stable | *Keywords:* quality bundle, -ility, quality family, characteristic plus scope, mechanism/status slots, endpoint routing. *Queries:* "What is a Q-Bundle in FPF?", "When is an -ility one characteristic and when is it a bundle?" | **Builds on:** A.2.6, A.6.1, C.16, B.3. **Coordinates with:** A.6.Q, A.15. |
 
 **Part D – Multi-scale Ethics & Conflict-Optimisation**
@@ -240,7 +241,7 @@ Pattern and headers templates are explained in pattern E.8.
 | E.13 | **Pragmatic Utility & Value Alignment** | Stable | *Keywords:* pragmatic, utility, value, Goodhart's Law, Proxy-Audit Loop, MVE. *Queries:* "How does FPF ensure solutions are useful, not just correct?", "What is a Minimally Viable Example (MVE)?". | **Builds on:** E.2 (P-7). **Complements:** E.12. |
 | E.14 | **Human-Centric Working-Model** | Stable | *Keywords:* working model, human-centric, publication surface, grounding, assurance layers. *Queries:* "What is the main interface for FPF users?", "How does FPF separate human-readable models from formal assurance?". | **Builds on:** E.7, E.8, C.2.3. **Coordinates with:** B.3.5, C.13, E.10. |
 | E.15 | **Lexical Authoring & Evolution Protocol (LEX-AUTH)** | stable | *Keywords:* lexical authoring, evolution protocol, LAT, delta-classes. *Queries:* "How are FPF patterns authored and evolved?", "What is a Lexical Authoring Trace (LAT)?". | **Builds on:** E.9, E.10, B.4, C.18, C.19, A.10, B.3, F.15. |
-| E.16 | **RoC-Autonomy: Budget & Enforcement** | Stable | *Keywords:* autonomy, budget, guarded enactment, ledger, SoD, override, UTS. *Queries:* "How is autonomy bounded and tested?", "How are overrides enforced under SoD?" | **Builds on:** E.8, E.10, **C.16 (MM‑CHR)**, **F.8 (Mint/Reuse)**, **E.18 (OperationalGate/GateCrossing)**, **A.21 (OperationalGate(profile); GateFit)**; ties F.4/F.6/F.15/F.17; G.4/G.5/G.9. |
+| E.16 | **RoC‑Autonomy Budget & Enforcement** | Stable | *Keywords:* autonomy budget, guarded enactment, autonomy ledger, override speech act, scout/probe/commit checkpoint. *Queries:* "How does FPF make autonomy enforceable and auditable?", "How do bounded specialization budgets stay separate from committed rollout?" | **Builds on:** A.13, A.15, A.21, B.3. **Coordinates with:** C.24, G.4, G.5, G.9. |
 | E.17.0 | **U.MultiViewDescribing — Viewpoints, Views & Correspondences** | New | Keywords: multi-view describing, viewpoint, view, entity-of-interest, description families, correspondence model, ISO 42010 alignment, view vs viewpoint, engineering vs publication viewpoints. Queries: “How to organise multiple descriptions of one object-of-talk?”, “How are viewpoints, views and correspondences structured in FPF?”, “How do viewpoint libraries generalise ISO 42010 for non-architectural descriptions?” | Builds on: C.2.1 (U.EpistemeSlotGraph; DescribedEntity/Viewpoint/View slots), A.6.2 (U.EffectFreeEpistemicMorphing), A.6.3 (U.EpistemicViewing), A.6.4 (U.EpistemicRetargeting), A.7 (Strict Distinction; I/D/S vs Surface), E.10.D1 (Context), E.10.D2 (I/D/S discipline). Used by: E.17 (MVPK — publication as a specialisation of multi-view describing for morphisms), E.17.1 (U.ViewpointBundleLibrary), E.17.2 (TEVB), E.18:5.12 (E.TGA engineering viewpoint families), domain-specific description schemes (architecture, safety cases, governance, research). |
 | E.17.1 | **`U.ViewpointBundleLibrary` — Reusable Viewpoint Bundles** | Stable | *Keywords:* viewpoint bundle, reusable viewpoint family, import discipline, alias discipline, governance, engineering/management/research bundles. *Queries:* "How do I define reusable viewpoint bundles in FPF?", "What is a ViewpointBundleLibrary?" | **Builds on:** E.17.0, A.6.2-A.6.4, A.7, E.7, E.10. **Used by:** E.17.2, E.18, domain-specific viewpoint-bundle libraries. |
 | E.17.2 | **TEVB — Typical Engineering Viewpoints Bundle** | Stable | Keywords: engineering viewpoints, holon, Functional/Procedural/Role-Enactor/Module-Interface views, EoIClass = U.Holon, ISO 42010 mapping, E.TGA bindings. Queries: “What are canonical engineering viewpoints over a holon?”, “How does TEVB relate to E.TGA and MVPK?”, “How do ISO 42010 architecture viewpoints map onto FPF engineering viewpoints?” | Builds on: E.17.0 (U.MultiViewDescribing), E.17.1 (U.ViewpointBundleLibrary), C.2.1 (U.EpistemeSlotGraph; DescribedEntity/Viewpoint/View slots), A.1 (Holon; U.System/U.Episteme as typical EoI), A.6.2–A.6.4 (episteme morphisms), A.7/E.10.D2 (Strict Distinction & I/D/S discipline). Used by: E.18:5.12 (E.TGA engineering viewpoint families), E.17 (MVPK — publication of engineering morphisms via EngineeringVPId/PublicationVPId correspondences), engineering description/spec patterns and future ISO-aligned architecture description species. |
@@ -293,11 +294,11 @@ Pattern and headers templates are explained in pattern E.8.
 | G.2 | **SoTA Harvester & Synthesis** | Stable | *Keywords:* SoTA harvest, synthesis, `SoTA Synthesis Pack@CG-Frame`, `SoTA_Set@CG-Frame`, `SoTAPaletteDescription`, `Tradition`, ClaimSheets, CorpusLedger, PRISMA Flow Record, BridgeMatrix, describedEntity, micro-examples, hand-off manifests, RSCRTriggerKindId. *Queries:* "How does FPF harvest and synthesize SoTA for a CG-Frame?", "What is a SoTA Synthesis Pack@CG-Frame?", "How to keep competing Traditions plural but comparable via bridges?", "How to make SoTA harvest refreshable with pinned editions and typed RSCR causes?" | **Builds on:** G.Core, E.8, E.10, E.19, A.10, B.3, F.9, F.17, G.0, G.6. **Used by:** G.1, G.3–G.5, G.10, G.11. **Relates to:** G.13. |
 | G.3 | **CHR Authoring: Characteristics - Scales - Levels - Coordinates** | Stable | *Keywords:* CHR authoring, characteristics, scales, levels, coordinates, CSLC legality, typed measurement, CHR Pack@CG-Frame, ReferencePlane, Φ/CL policy pins, edition pins, RSCRTriggerKindId. *Queries:* "How do I author CHR packs (typed characteristics and scales) for a CG-Frame?", "How to keep measurement lawful (CSLC) and refreshable (RSCR)?" | **Builds on:** G.Core, G.2, G.0, A.17–A.19, A.18 (CSLC), C.16 (MM-CHR), A.19.CHR, A.15.3, G.6, F.17. **Prerequisite for:** G.4. **Used by:** G.4, G.5, G.10, G.11. |
 | G.4 | **CAL Authoring: Calculi - Acceptance - Evidence** | Stable | *Keywords:* CAL authoring, operators, acceptance clauses, evidence profiles, tri-state admissibility, Γ-fold hooks, Φ/Ψ/Φ_plane policy pins, legality gates, edition pins, RSCRTriggerKindId. *Queries:* "How to author CAL operators and acceptance clauses for CG-Frames?", "How to keep acceptance/evidence wiring auditable and refreshable?" | **Builds on:** G.Core, G.3, G.0, B.3 (Trust), A.18 (CSLC), G.6. **Prerequisite for:** G.5. **Used by:** G.5, G.8–G.10, G.11. |
-| G.5 | **Multi-Method Dispatcher & MethodFamily Registry** | Stable | *Keywords:* dispatcher, selector, MethodFamily registry, GeneratorFamily registry, TaskSignature, set-return selection, portfolio (`Archive`/`Pareto`), dominance regime, parity harness, UTS publication, evidence pins (PathId/PathSliceId), typed RSCRTriggerKindId. *Queries:* "How does FPF dispatch among competing MethodFamilies without scalarising?", "How are portfolios and parity runs made auditable and refreshable?" | **Builds on:** G.Core, G.0, A.19 (CN-Spec), G.2, G.3, G.4, G.6. **Coordinates with:** G.7–G.11, C.18 (NQD-CAL), C.19 (E/E-LOG), C.23 (Method-SoS-LOG), A.15.3. **Used by:** G.1, G.8–G.12, G.10, G.11. |
+| G.5 | **Multi‑Method Dispatcher & MethodFamily Registry** | Stable | *Keywords:* method family registry, generator family registry, set-return selection, specialist portfolio, narrowed handoff plan, specialization profile. *Queries:* "How does FPF dispatch among rival method families without hidden scalarization?", "How are specialist portfolios and specialization profiles published for later parity?" | **Builds on:** G.Core, G.0, G.2-G.4, G.6. **Coordinates with:** C.19.1, C.22.1, G.9-G.11. |
 | G.6 | **Evidence Graph & Provenance Ledger** | Stable | *Keywords:* EvidenceGraph, provenance, PathId, PathSliceId, lane tags (TA/VA/LA), SCR/RSCR, GateCrossing, CrossingBundle, UTS PathCard, TriggerAliasMap, Γ-fold pinning. *Queries:* "How does FPF trace claims to evidence?", "What is an EvidenceGraph?", "How do PathId/PathSliceId support audit and refresh?" | **Builds on:** G.Core, A.10, B.3, G.4, F.9, F.15, F.17, E.18, A.21, E.10, E.5.2. **Used by:** G.5, G.8, G.9, G.10, G.11. |
 | G.7 | **Cross-Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)** | Stable | *Keywords:* bridge calibration, BridgeCard, BridgeCalibrationTable (BCT), RegressionSet, SentinelSet, BridgeSentinel, Congruence Level (CL/CL^k/CL^plane), loss notes, waivers, ReferencePlane, Φ(CL)/Ψ(CL^k)/Φ_plane policy pins, PathSliceId, GateCrossing, UTS, RSCRTriggerKindId. *Queries:* "How to calibrate cross-Tradition bridges in Part G?", "What is BCT and how is it used?", "How do Bridge Sentinels trigger RSCR?" | **Builds on:** G.Core, G.2, F.9, F.3, F.7, B.3, G.6, E.18, A.21, E.10, C.21. **Prerequisite for:** G.5. **Used by:** G.9–G.11, G.10, G.12. |
 | G.8 | **SoS-LOG Bundles & Maturity Ladders** | Stable | *Keywords:* SoS-LOG, rule ids, admissibility ledger, tri-state `{pass|degrade|abstain}`, maturity ladder (poset/ordinal), selector-facing bundle, evidence path pins (`PathId/PathSliceId`), Bridge/CL/Φ policy pins, portfolio/archive telemetry, RSCRTriggerKindId. *Queries:* "How to package SoS-LOG rules for the selector?", "How to publish a maturity ladder as a citable card?", "How to keep thresholds out of LOG and pin evidence paths?" | **Builds on:** G.Core, C.23, G.4, G.6, G.5, C.22. **Coordinates with:** G.7, G.10, G.11, F.8, F.9, E.18, E.10, E.5.2. |
-| G.9 | **Parity / Benchmark Harness** | Stable | *Keywords:* parity, benchmark, harness, `ParityPlan@Context`, `ParityReport@Context`, pinned editions, freshness windows, `ComparatorSpecRef.edition`, baseline binding (`BaselineBindingRef`), EvidenceTrace (`EvidenceGraphId`, `PathId`, `PathSliceId`), GateCrossing visibility, set-return outcomes (portfolio/archive), RSCR parity tests, cross-tradition parity via Bridge/CL/Φ pins. *Queries:* "What is a parity run in FPF?", "How to run a reproducible parity benchmark (pins, windows, editions)?", "How to publish parity outcomes without hidden scalarisation?" | **Builds on:** G.Core, G.5, G.6, G.4, F.15, E.18, A.21, A.27, E.5.2, E.10. **Uses:** G.0, A.19, F.9. **Publishes to:** G.10, G.11. **Optional wiring:** G.7, C.18/C.19, C.23. |
+| G.9 | **Parity / Benchmark Harness** | Stable | *Keywords:* parity harness, benchmark plan, adaptation parity, freshness windows, comparator pins, portfolio outcomes. *Queries:* "How does FPF run reproducible parity with explicit pins and windows?", "How do adaptation-speed and specialization claims become lawful parity burden?" | **Builds on:** G.Core, G.5, G.6, G.4, F.15. **Uses:** G.0, A.19, C.22.1. |
 | G.10 | **SoTA Pack Shipping (pack-boundary owner; `SoTA-Pack(Core)`)** | Stable | *Keywords:* shipping, SoTA-Pack(Core), pack boundary, publication surface, `AuditPins`, `MOOManifest`, `UTS` publication, `PathId`/`PathSliceId`, `CrossingBundle`, edition pins, telemetry pins, RSCR wiring, parity pins, notation-independent pack. *Queries:* "How does FPF ship a SoTA pack?", "What is SoTA-Pack(Core) in Part G?", "How do AuditPins and MOOManifest support replay and audit?", "How are crossing bundles exposed during shipping?" | **Builds on:** G.Core, F.17–F.18, E.5.2, E.18, A.10, A.15.3. **Consumes/cites:** G.2–G.9, optional G.12–G.13. **Used by:** selector-facing consumers (via G.5), refresh orchestration (G.11). |
 | G.11 | **Telemetry-Driven Refresh & Decay Orchestrator** | Stable | *Keywords:* telemetry, refresh, decay, RSCR, PathSlice, Bridge Sentinels, edition-aware, epistemic debt, deprecation, edition bumps, re-shipping. *Queries:* "How does FPF keep SoTA packs up-to-date?", "What triggers refresh / RSCR reruns?", "How are deprecations and edition bumps governed?". | **Builds on:** G.Core, G.6, G.7, G.5, G.8, G.9, G.10, B.3.4, E.18. **Coordinates with:** G.12, C.18/C.19, C.23, F.15. |
 | G.12 | **DHC Dashboards — Discipline-Health Time-Series (lawful telemetry, generation-first)** | Stable | *Keywords:* dashboard, DHC, discipline health, time-series, lawful telemetry, view-only slices, PathId/PathSliceId, edition pins, UTS twins, RSCR/refresh wiring. *Queries:* "How to build DHC dashboards in FPF?", "How to publish lawful DHC time-series with evidence and edition pins?", "How to wire dashboard telemetry into RSCR refresh?" | **Builds on:** G.Core, C.21, G.6, G.11, A.19, G.0, F.17/F.18, E.5.2, E.10. **Coordinates with:** G.5 (portfolio/set outputs), G.7 (crossings/CL/Φ_plane pins), G.8 (maturity ladder panel), G.10 (shipping inclusion), C.18/C.19 (QD/OEE telemetry), G.2 (SoTA palette hooks). |
@@ -17218,6 +17219,11 @@ The `Agency-CHR` profile is grounded in contemporary research (e.g., Active Infe
 4.  **Policy Enactment Reliability (PER):** The probability that the agent will successfully execute its chosen `U.Method` under operational conditions. *(How reliably does it do what it decides to do?)*
 5.  **Objective Complexity (OC):** A measure of the complexity of the `U.Objective` the agent can pursue, from simple set-points to abstract, multi-scale goals.
 
+##### A.13:4.3.1 - Context-bounded task-family specialization claims
+
+When work shifts to a new `TaskFamily`, describe the holder as acquiring **context-bounded task-family specialization** rather than as becoming more generally intelligent in the abstract. The same holder may carry different task-family specializations across different task families without becoming a new kernel type. Breadth across unrelated task families is not the governed claim here; the governed claim is **time-to-usable specialization** on the declared task family and work target under a named work-measure threshold, adaptation budget, and freshness or provenance basis.
+
+Low-human-overlap or newly discovered task families remain admissible when the task family, evidence basis, and reuse window are explicit by value.
 #### A.13:4.4 - The Agency Grade (Didactic Layer)
 
 While the multi-dimensional `Agency-CHR` profile is essential for formal assurance, engineers and managers need a simpler, at-a-glance summary. The **Agency Grade** is a **non-normative, didactic** scale from 0 to 4 that synthesizes the CHR profile into an intuitive level of autonomy.
@@ -17623,7 +17629,7 @@ Without this formal framework, models suffer from a cascade of category errors:
 ### A.15:4 - Solution
 The solution is a stratified alignment that cleanly separates the `design-time` and `run-time` for contextual **enactment**. The bridge between these worlds is the **`U.RoleAssignment`**.
 
-### A.15:4.1 - The Core Entities: A Strict Distinction
+#### A.15:4.1 - The Core Entities: A Strict Distinction
 
 FPF mandates the use of the following distinct, non-overlapping entities to model action. Using them interchangeably is a conformance violation.
 
@@ -17636,7 +17642,7 @@ FPF mandates the use of the following distinct, non-overlapping entities to mode
 *   **`U.WorkPlan`:** An **`U.Episteme`** declaring **intended `U.Work` occurrences** (windows, dependencies, intended performers as role kinds, budgets) - see **A.15.2**.
 
 **B) The Bridge Entity:**
-*   **`U.RoleAssignment`:** The formal assertion `Holder#Role:Context` that links a specific `U.Holon` to a `U.Role` within a `U.BoundedContext`. This binding is what "activates" the requirements associated with a role.
+*   **`U.RoleAssignment`:** The formal assertion `Holder#Role:Context` that links a specific `U.Holon` to a `U.Role` within a `U.BoundedContext`. This holder-to-role assignment link is what "activates" the requirements associated with a role.
 
 **C) Run-Time Entity (The World of Actuality):**
 
@@ -17662,7 +17668,7 @@ This model can be easily understood using the analogy of a chef in a restaurant.
 
 Confusing these is like mistaking the cookbook for the souffle. FPF's framework simply makes these common-sense distinctions formal and mandatory.
 
-### A.15:4.2 - The Canonical Relations: Connecting the Layers
+#### A.15:4.2 - The Canonical Relations: Connecting the Layers
 
 The entities are connected by a set of precise, normative relations that form an unbreakable causal chain. The following diagram illustrates this flow from the abstract context down to the concrete execution.
 
@@ -17704,6 +17710,21 @@ _At run time, capability thresholds declared by the context/spec are **checked**
 
 This chain provides complete traceability: a specific instance of `U.Work` can be traced back to the `U.MethodDescription` that governed it, the `U.Method` it describes, and the `Agent` (`Holder` + `Role` + `Context`) that was authorized and responsible for its execution.
 
+#### A.15:4.3 - Bounded specialization scouting and `CheckpointReturn`
+
+When one human-plus-AI pair faces a new task family or candidate solution corridor, the governed work system may temporarily compose four distinct local roles inside the same dyad: a human-side `UtilityOwnerRole`, an `AIScoutRole`, an `AISpecialistProbeRole`, and a human-side `CommitAuthorityRole`. The payoff of the dyad is faster lawful specialization of the next move, not disappearance of the human decision surface.
+
+For this bounded burden, the pair should declare one utility target first, enumerate heterogeneous candidate approaches that may satisfy that target, spend a bounded scout or probe budget before any committed route is chosen, and return one `CheckpointReturn` that compares the tested approaches rather than silently treating one successful probe as a committed rollout. `A.15` owns this dyadic move and local role split only; it does not re-own the checkpoint-record semantics of `C.24` or the budget/guard enforcement of `E.16`.
+
+Every `CheckpointReturn` should carry:
+- the declared utility target and current `TaskFamily`
+- the candidate approaches actually tested
+- the evidence observed on each tested approach, including progress toward the named work-measure threshold and important failure signals
+- the budget already burned and the residual budget still available
+- the recommended next action: continue probing, commit, narrow, hand off, or stop
+- the exact commit trigger that would justify leaving the probe state
+
+Low-human-overlap approaches remain admissible here only while they stay tied to the declared utility target, budget guard rails, and evidence basis by value.
 ### A.15:5 - Archetypal Grounding
 
 The Contextual Action Framework is universal. It applies identically to the modeling of physical engineering processes, knowledge work, and socio-technical systems.
@@ -17800,6 +17821,9 @@ By creating this clean, stratified alignment for enactment, FPF provides a stabl
 
 **Local stance.** The load-bearing SoTA claim for this pattern is practical and narrow: contextual enactment remains reviewable only when role, method, plan, and work stay distinct enough that audits can tell whether the problem was in the assignment, the recipe, the schedule, the capability, or the run itself.
 
+**Claim 4.** Best-known current agentic work practice treats fast bounded specialization as a checkpointed scout/probe discipline rather than as a naked winner claim.
+
+**Practice / source / alignment / adoption.** Contemporary agentic tool-use, adaptive workflow, and human-in-the-loop governance practice separates bounded exploration from committed rollout because a successful probe is not yet a lawful route choice. In the working moment above, that is why the pair returns one `CheckpointReturn` with candidate approaches, evidence, burned and residual budget, and a commit trigger rather than only a winner label. This pattern **adopts** checkpointed scout/probe discipline, **adapts** it through the dyad-local roles and `CheckpointReturn`, and **rejects** the shortcut where an early probe silently becomes a committed rollout.
 ### A.15:12 - Relations
 
 *   **Directly Implements:** `A.7 Strict Distinction`.
@@ -21640,7 +21664,7 @@ This pattern aligns with several post‑2015 practice lines while adapting them 
 **Intent.** Provide a single, explicit normalization mechanism for **coordinate values** in a `U.CharacteristicSpace`, so that **comparability** and downstream characterization steps can be stated as “**normalize-then-compare**” (governance), rather than as hidden arithmetic inside scoring/selection.
 
 **Where it sits.**
-- **CN-frame governance card:** `CN_Spec.normalization` + `CN_Spec.comparability.mode` route whether comparison is `coordinatewise` or `normalization-based`.  
+- **CN-frame governance card:** `CN_Spec.normalization` + `CN_Spec.comparability.mode` route whether comparison is `coordinatewise` or `normalization-based`.
 - **CHR suite role:** stage `normalize` (first-stage, when enabled by the suite protocol / comparability routing).
 
 **Key outputs.**
@@ -27889,6 +27913,8 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
         3.  **Refine:** Another research team (`Transformer`) revises the original theory, adding a new term to its equations (`design-time` model) that accounts for the new protein class.
         4.  **Deploy:** The team (`Transformer`) publishes the revised theory in a journal. The scientific community begins to use the new version. **Note.** The *chart* and any CG‑frame readings derived from this episteme MUST cite the updated `MethodDescription` (per A.19.CN CC‑A19.D1‑3) to keep comparability auditable.
 
+      **Adaptive-specialization note.** Knowledge instantiation for one declared task family **SHALL** name the prior basis being refined from, the named work-measure threshold being pursued, the adaptation budget being spent, and the freshness or provenance basis for claiming the specialization is reusable. If the refinement is claimed as one specialization step, it **SHALL** also cite the declared `TaskFamily` or `TaskSignature` anchor that later `C.22.1`, `G.5`, and `G.9` will consume. This keeps the refinement legible as contextual task-family specialization rather than vague general capability growth.
+
 *   **B.4.3 - Method Instantiation (Adaptive Method Loop):**
     *   **Context:** A field-maintenance organization uses a declared inspection-and-repair method (`U.Method`).
     *   **Loop Example:**
@@ -27897,11 +27923,15 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
         3.  **Refine:** The method stewards (`Transformer`) revise the design-time method description by adding an earlier isolation step and a clearer classification checkpoint.
         4.  **Deploy:** The revised method description is adopted for the next maintenance cycle. **Note.** Method evolution MUST be recorded as `Γ_method` composition over `U.Method` (design‑time) and separated from `U.Work` (run‑time), with DRR ids attached (per A.4/B.1.5).
 
+      **Adaptive-specialization note.** Method instantiation for one declared task family **SHALL** name the narrower higher-fit specialist method or specialist portfolio being activated, the refinement budget being spent, the escalation or commit checkpoints, and the fallback when that method fails. If the method update is being used as evidence of specialization, the note **SHALL** keep the bearer of that specialization explicit: the holder, dyad, team, or scoped portfolio carries the claim; the method is only one selected vehicle. This keeps method evolution reviewable as bounded specialist acquisition rather than as hidden budget inflation.
+
 ### B.4:6 - **Conformance Checklist**
 
 *   **CC-B4.1 (Loop Integrity):** Any evolutionary change to a holon **MUST** be documented as a full traversal of the four-phase loop. Ad-hoc changes that bypass a phase (e.g., deploying a refinement without a documented observation and evidence phase) are a process violation.
 *   **CC-B4.2 (Temporal Scope Mandate):** The *Refine* phase **MUST** operate on `design-time` artifacts, while the *Operate* phase involves a `run-time` artifact. The *Observe* and *Deploy* phases are the only permissible bridges between these scopes.
 *   **CC-B4.3 (Transformer Mandate):** The *Observe*, *Refine*, and *Deploy* transitions **MUST** be performed by an explicitly identified external `Transformer` (Pattern A.12). A holon cannot observe, refine, or deploy itself.
+*   **CC-B4.4 (Adaptive-specialization anchoring):** When `B.4.2` or `B.4.3` carries a bounded-specialization claim, that claim **MUST** name the declared `TaskFamily` or `TaskSignature`, the work-measure threshold target, the adaptation budget, and the freshness or provenance basis for reuse.
+*   **CC-B4.5 (Adaptive-specialization boundary):** `B.4.2` and `B.4.3` **SHALL NOT** silently re-own selector/parity semantics. If transfer, retention, downstream exploitation efficiency, corridor entry, or downside burden are comparison-relevant, the host note **MUST** leave those fields recoverable by the downstream `C.22.1`, `G.5`, and `G.9` owners.
 
 ### B.4:7 - **Common Anti-Patterns and How to Avoid Them**
 
@@ -27990,14 +28020,25 @@ A conforming routed cue set may publish:
 
 A multi-route `RoutedCueSet` is still one governed member. A lineage fork appears only after distinct successor publications are issued.
 
-#### B.4.1:4.2 - Starter route family
+#### B.4.1:4.2 - Starter route family and conditional extension species
 The candidate route set may contain, among others:
 
-- `EvaluativeRoute`
-- `ActionInvitationRoute`
-- `ProblemAbductionRoute`
-- `MethodWorkRoute`
-- `RequirementCommitmentRoute`
+- starter canonical routes:
+  - `EvaluativeRoute`
+  - `ActionInvitationRoute`
+  - `ProblemAbductionRoute`
+  - `MethodWorkRoute`
+  - `RequirementCommitmentRoute`
+- conditional extension routes for bounded specialization or corridor discovery:
+  - `TaskFamilySpecializationRoute`
+  - `AdaptationProbeRoute`
+  - `NonHumanUtilityRoute`
+  - `SubstrateDiversificationRoute`
+
+##### B.4.1:4.2.1 - Specialization-sensitive extension route family
+These four routes are not part of the starter canonical core. Use them only when the cue already carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that later owners must be able to recover by value.
+
+Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle. Use `AdaptationProbeRoute` when the honest next question is whether threshold-reaching specialization is actually attainable under the current budget. Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but still tied to one declared task family or utility target. Use `SubstrateDiversificationRoute` when the cue says the current method substrate may be too narrow and a broader or different substrate should be tested before commitment.
 
 Contexts may refine the route family locally, but they shall keep the distinction between early route publication and endpoint ownership.
 
@@ -28028,6 +28069,7 @@ The pattern favors preserving weak cues and publishing route plurality explicitl
 - `CC-B.4.1-3` When route selection occurs, `routeDecision`, `selectedRoute`, and `routeRationale` **SHALL** be explicit.
 - `CC-B.4.1-4` `publicationFaceRefs` **MAY** be named, but route-bearing form and publication face **SHALL NOT** be collapsed.
 - `CC-B.4.1-5` `RoutedCueSet` **SHALL NOT** silently masquerade as a late endpoint owner.
+- `CC-B.4.1-6` When a specialization-sensitive route is kept live, the route package **SHALL** name the declared task family or utility target, the current budget window if known, the missing discriminator still needed, and the downstream owner that would become lawful if the discriminator is satisfied.
 
 ### B.4.1:8 - Common Anti-Patterns and How to Avoid Them
 - **Anomaly inflation.** Treat every early cue as already an anomaly statement.
@@ -28072,36 +28114,14 @@ This is lawful only if the route rationale makes the plurality explicit rather t
 #### B.4.1:13.3 - Invalid direct jump
 It is invalid to treat a routed cue set as if it were already a hypothesis, a gate, or a work plan. It is a route-bearing publication form, not the endpoint owner.
 
-### B.4.1:14 - Authoring and Review Guidance
+#### B.4.1:13.4 - Specialization-route and nonhuman-utility split
+A routed cue set for a new task family may lawfully keep `ProblemAbductionRoute`, `TaskFamilySpecializationRoute`, and `NonHumanUtilityRoute` live together. The point is to preserve the declared task family, utility target, current budget window, missing discriminator, and possible corridor-entry burden without laundering those routes into a premature prompt, selector, or policy choice.
 
-#### B.4.1:14.1 - Author prompt
-A routed cue set should say:
+### B.4.1:14 - Keeping route plurality useful
 
-- where the cue came from,
-- which routes are live,
-- whether route selection has occurred,
-- why one route was selected if a selection occurred,
-- what typed downstream publication, if any, is now lawful.
+A routed cue set stays useful only when route plurality, route grounds, and current authority remain explicit without turning the seam into one hidden endpoint.
 
-#### B.4.1:14.2 - Review prompt
-A reviewer should check whether the selected route is justified by the published cue pack and whether suppressed alternative routes were genuinely considered rather than silently erased.
-
-#### B.4.1:14.3 - Threshold reminder
-If the articulation threshold is not met, the routed cue set should keep the publication early rather than laundering it into a late endpoint form.
-
-### B.4.1:15 - Migration and Boundary Notes
-
-#### B.4.1:15.1 - Migration from anomaly-first prose
-Older anomaly-first language should be migrated into route publication when the publication is not yet strong enough for anomaly ownership.
-
-#### B.4.1:15.2 - Boundary reminder
-`B.4.1` owns route publication, not abductive reasoning, lexical repair, deontic commitment, or work execution. Those belong to later owners.
-
-### B.4.1:16 - Route-Set Package Discipline
-
-A routed cue set is strongest when it makes route plurality, route grounds, and current authority explicit.
-
-#### B.4.1:16.1 - Minimal route package
+#### B.4.1:14.1 - Minimal route package
 A robust route package should identify:
 
 - the **originating cue pack**,
@@ -28114,29 +28134,27 @@ A robust route package should identify:
 
 This is enough to keep later handoff reviewable without collapsing the seam into an endpoint owner.
 
-#### B.4.1:16.2 - Selected route is not endpoint ownership
+For specialization-sensitive routes, the package should also make explicit the declared task family or utility target, the current budget window, the missing discriminator still needed, and the downstream owner that would become lawful if that discriminator is satisfied.
+
+#### B.4.1:14.2 - Selected route is not endpoint ownership
 Even when one route is selected, the routed cue set remains a seam publication form until a later owner is entered explicitly.
 
-#### B.4.1:16.3 - Deferred selection
+#### B.4.1:14.3 - Review prompt and threshold reminder
+A reviewer should check whether the selected route is justified by the published cue pack and whether suppressed alternative routes were genuinely considered rather than silently erased. If the articulation threshold is not yet met, keep the publication early rather than laundering it into a late prompt, requirement, or work owner.
+
+#### B.4.1:14.4 - Deferred selection and route splitting
 Deferral is lawful when route plurality and missing discriminators are published. It is not lawful when one route is silently assumed while the publication still speaks as if the question were open.
 
-### B.4.1:17 - Route Selection and Branch Law
+One cue cluster may also split into several routed cue sets if different sub-cues support different destinations. The split should be published explicitly so that later readers do not assume that one route exhausted the whole original cue complex.
 
-#### B.4.1:17.1 - Selecting one route
-Route selection should be driven by published cue grounds, not by convenience. A selected route should therefore cite the stabilizing anchors, route rationale, and any threshold conditions that make later handoff lawful.
+### B.4.1:15 - Migration and worked continuation boundaries
 
-#### B.4.1:17.2 - Keeping several routes live
-Some cues are genuinely multi-routable. In those cases, the point of `B.4.1` is not to force premature convergence but to keep the route set legible until later owners can discriminate more sharply.
+`B.4.1` owns route publication, not abductive reasoning, lexical repair, deontic commitment, or work execution. Those belong to later owners once the next publication is explicit enough to carry them.
 
-#### B.4.1:17.3 - Multi-route state versus lineage fork
-One routed cue set may keep several candidate routes live without yet forking lineage. A fork occurs only when distinct successor publications are actually issued and acquire their own authority, losses, or handoff semantics.
+#### B.4.1:15.1 - Migration from anomaly-first prose
+Older anomaly-first language should be migrated into route publication when the publication is not yet strong enough for anomaly ownership.
 
-#### B.4.1:17.4 - Route splitting
-One cue cluster may split into several routed cue sets if different sub-cues support different destinations. The split should be published explicitly so that later readers do not assume that one route exhausted the whole original cue complex.
-
-### B.4.1:18 - Worked Seam Cases and Review Tests
-
-#### B.4.1:18.1 - Intervention vs inquiry split
+#### B.4.1:15.2 - Intervention vs inquiry split
 An operator-facing disturbance may legitimately support both:
 
 - an immediate intervention-oriented route,
@@ -28144,17 +28162,11 @@ An operator-facing disturbance may legitimately support both:
 
 `B.4.1` preserves both without forcing one to swallow the other.
 
-#### B.4.1:18.2 - Requirement-route overreach
-A route set that includes `RequirementCommitmentRoute` should not be read as if the requirement already exists. Reviewers should ask whether a requirement owner has actually been entered or whether the route is merely one lawful continuation among others.
+#### B.4.1:15.3 - Requirement-route overreach
+A route set that includes `RequirementCommitmentRoute` should not be read as if the requirement already exists. The route is only one lawful continuation unless a later requirement owner is actually entered.
 
-#### B.4.1:18.3 - Review test for false single-route certainty
-A reviewer should ask: if the selected route were denied, would the publication still contain enough information to explain the other live routes? If not, the route set is likely under-published and has collapsed too early into one favored continuation.
-
-### B.4.1:19 - Boundary to Later Owners
-
-The routed cue set exists to make later owner entry cleaner, not to delay it indefinitely.
-
-Typical next-owner conditions are:
+#### B.4.1:15.4 - Leaving the seam
+The routed cue set should leave this pattern only when one later publication is already explicit enough to own the next move, for example:
 
 - explicit evaluative family selection for `A.6.Q`,
 - explicit action-oriented family selection for `A.6.A`,
@@ -28162,7 +28174,7 @@ Typical next-owner conditions are:
 - explicit requirement or commitment head for requirement-facing owners,
 - or explicit method/work hook for `A.15`-side use.
 
-If none of those next-owner conditions can yet be stated, the governed publication likely still belongs in the seam. If they can already be stated, `B.4.1` should not remain a holding form for a publication that has already crossed the threshold.
+If those next-owner conditions cannot yet be stated honestly, the governed publication still belongs in the seam and should keep its route plurality visible.
 
 ### B.4.1:20 - Route Evidence and Discrimination Package
 
@@ -28172,8 +28184,14 @@ Each live route in a routed cue set should cite the cue grounds that actually su
 #### B.4.1:20.2 - Discriminator publication
 When a route set remains plural, authors should name the discriminator they are waiting for: a missing anchor, contrast, measurement, witness, articulation threshold, closure condition, or other explicit facet transition. Doing so makes deferred selection informative instead of merely indecisive.
 
-#### B.4.1:20.3 - Projection restraint
+#### B.4.1:20.3 - Multi-route state is not yet a lineage fork
+One routed cue set may keep several candidate routes live without yet forking lineage. A fork occurs only when distinct successor publications are actually issued and acquire their own authority, losses, or handoff semantics.
+
+#### B.4.1:20.4 - Projection restraint
 A typed downstream projection publication or prompt may be shown as one lawful continuation, but it shall not dominate the routed cue set so strongly that the other routes become unreadable. Projection is guidance, not covert owner replacement.
+
+#### B.4.1:20.5 - Review test for false single-route certainty
+Ask: if the selected route were denied, would the publication still contain enough information to explain the other live routes and the discriminator that would separate them? If not, the route set is under-published and has collapsed too early into one favored continuation.
 ### B.4.1:End
 
 
@@ -28661,11 +28679,22 @@ If anomaly is the only admissible input, pre-anomaly opportunity cues and route-
 ### B.5.2.0:4 - Solution
 `U.AbductivePrompt` is a narrow supertype for the prompt forms that may lawfully seed `B.5.2` after lawful cue preservation and routing under `A.16`, `A.16.1`, and `B.4.1`. `A.16.0` is used only when the cue-to-prompt history itself has governance value as an explicit trajectory account. When rendered, a prompt uses ordinary MVPK faces; prompt status is a property of the publication form, not a rival face ontology.
 
-#### B.5.2.0:4.1 - Starter canonical species
-- `AnomalyStatement`
-- `ProblemCuePrompt`
-- `OpportunityCuePrompt`
-- `ProbeCuePrompt`
+#### B.5.2.0:4.1 - Starter canonical species and conditional extension species
+- starter canonical species:
+  - `AnomalyStatement`
+  - `ProblemCuePrompt`
+  - `OpportunityCuePrompt`
+  - `ProbeCuePrompt`
+- conditional extension species:
+  - `TaskFamilySpecializationPrompt`
+  - `AdaptationProbePrompt`
+  - `NonHumanUtilityPrompt`
+  - `SubstrateDiversificationPrompt`
+
+##### B.5.2.0:4.1.1 - Specialization-sensitive prompt species
+These extension species are lawful only when route or cue provenance already carries the bounded-specialization burden by value; they are not the starter canonical entry set for ordinary abduction.
+
+`TaskFamilySpecializationPrompt` asks what narrower higher-fit specialist lane should be acquired for the declared task family, where that lane may later resolve into one specialist method, portfolio, or competence bundle. `AdaptationProbePrompt` asks which bounded probe would most cheaply reveal whether threshold-reaching specialization is actually attainable. `NonHumanUtilityPrompt` asks whether a low-human-overlap approach or corridor may still satisfy the declared utility target better than the current familiar repertoire. `SubstrateDiversificationPrompt` asks whether the current substrate is too narrow and a broader or different substrate should be tested before later commitment.
 
 #### B.5.2.0:4.2 - Core shape
 A conforming abductive prompt may publish:
@@ -28679,7 +28708,7 @@ A conforming abductive prompt may publish:
 - `routeProvenance?`
 - `GammaTime?`
 
-A prompt is not yet a hypothesis. Prompt legality usually presupposes articulation high enough to publish a stable open question and closure low enough that rival answers remain live; those thresholds remain owned by `C.2.4` and `C.2.5`, typically reached through cue or route provenance from `A.16.1` and `B.4.1`. It is the initiating publication form that licenses entry into the abductive loop.
+A prompt is not yet a hypothesis. Prompt legality usually presupposes articulation high enough to publish a stable open question and closure low enough that rival answers remain live; those articulation and closure thresholds remain owned by `C.2.4` and `C.2.5`, typically reached through cue or route provenance from `A.16.1` and `B.4.1`. It is the initiating publication form that licenses entry into the abductive loop.
 
 #### B.5.2.0:4.3 - Boundary rule
 `U.AbductivePrompt` is an entry form, not an excuse to let arbitrary prose count as abductive input. Only declared prompt species may enter `B.5.2` through this form.
@@ -28700,6 +28729,7 @@ The pattern broadens the entry form to abduction, but still keeps it typed and a
 - `CC-B.5.2.0-3` Cue-derived prompts **SHOULD** preserve route provenance.
 - `CC-B.5.2.0-4` Prompt publication **SHALL** include the open question that makes abduction appropriate.
 - `CC-B.5.2.0-5` A publication that already fixes the answer or suppresses plausible rivals **SHALL NOT** remain in prompt status.
+- `CC-B.5.2.0-6` When a specialization-sensitive prompt species is used, the prompt package **SHALL** make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, and the route or cue provenance that made the prompt lawful.
 
 ### B.5.2.0:8 - Common Anti-Patterns and How to Avoid Them
 - **Prompt equals hypothesis.** Keep the prompt distinct from the abductive output.
@@ -28730,34 +28760,14 @@ A cue may lawfully become an opportunity prompt when the open question concerns 
 #### B.5.2.0:13.3 - Probe-style prompt
 A routed cue may become a probe prompt when what matters is not yet explanation but the explicit need to test, contrast, instrument, or perturb.
 
-### B.5.2.0:14 - Authoring and Review Guidance
+#### B.5.2.0:13.4 - Specialization-sensitive prompt set
+A routed cue set may lawfully become a `TaskFamilySpecializationPrompt`, `AdaptationProbePrompt`, `NonHumanUtilityPrompt`, or `SubstrateDiversificationPrompt` when the live question is not yet a selector decision but a bounded entry into specialist acquisition, adaptation probing, nonhuman-utility discovery, or substrate widening. The point is to preserve the task family, budget window, rival routes, and corridor-entry burden long enough for later comparison rather than smuggling a commitment into prompt form.
 
-#### B.5.2.0:14.1 - Author prompt
-An abductive prompt should state:
-
-- which prompt species it is,
-- what open question it poses,
-- what cue or route provenance justifies entry,
-- and why the current publication is still a prompt rather than already a hypothesis.
-
-#### B.5.2.0:14.2 - Review prompt
-A reviewer should watch for the common mistake where authors silently upgrade a prompt into a hypothesis merely because the prose sounds explanatory.
-
-#### B.5.2.0:14.3 - Provenance reminder
-If the prompt came from a routed cue, route provenance should stay visible so that later abductive claims can be audited back to their originating form.
-
-### B.5.2.0:15 - Migration and Invalid Entry Notes
-
-#### B.5.2.0:15.1 - Migration from anomaly monopoly
-Older statements such as "abduction begins only with anomaly" should be rewritten into the narrower claim that anomaly is one canonical prompt species among several lawful entry forms.
-
-#### B.5.2.0:15.2 - Invalid entry case
-A bare intuition, slogan, or rhetorical question with no prompt species and no cue provenance is not yet a lawful `U.AbductivePrompt`.
-### B.5.2.0:16 - Prompt Package Discipline
+### B.5.2.0:14 - Prompt package discipline
 
 A prompt becomes reusable in `B.5.2` only when its initiating question is explicit enough to remain stable across later hypothesis work.
 
-#### B.5.2.0:16.1 - Minimal prompt package
+#### B.5.2.0:14.1 - Minimal prompt package
 
 A robust abductive prompt should make explicit:
 
@@ -28770,51 +28780,48 @@ A robust abductive prompt should make explicit:
 
 This package lets later conjectures be tested against the same question rather than against a later paraphrase.
 
-#### B.5.2.0:16.2 - Prompts are questions, not claims
+For specialization-sensitive prompt species, the package should also make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, the prior route provenance, and the rival prompt shapes still in play.
+
+#### B.5.2.0:14.2 - Prompts are questions, not claims
 
 A prompt may imply pressure toward one explanation, but it remains a question-bearing entry form. If the text already asserts the answer, it has moved past prompt status and should be treated under `B.5.2` or another later owner.
 
-#### B.5.2.0:16.3 - Prompt provenance remains load-bearing
+#### B.5.2.0:14.3 - Prompt provenance remains load-bearing
 
 Route provenance, cue provenance, and witness provenance are part of prompt legality, not optional history.
 
-### B.5.2.0:17 - Species Boundary Tests
+#### B.5.2.0:14.4 - Review prompt against silent promotion
+A reviewer should watch for the common mistake where authors silently upgrade a prompt into a hypothesis merely because the prose sounds explanatory. If the text already leans on one preferred answer as settled, either weaken it back into a real question or promote the later owner explicitly.
 
-#### B.5.2.0:17.1 - `AnomalyStatement`
+### B.5.2.0:15 - Species boundary reminders
 
-Use anomaly species when the key form is an explicit failure, contradiction, or surprising departure from what the current model expected.
+Use anomaly species when the key form is an explicit failure, contradiction, or surprising departure from what the current model expected. Use opportunity species when the pressure comes from a promising line of development or advantageous contrast. Use probe species when what matters is the need to instrument, contrast, perturb, or ask a question that could discriminate among several future explanations.
 
-#### B.5.2.0:17.2 - `ProblemCuePrompt`
+Use `TaskFamilySpecializationPrompt` when the live question is which narrower higher-fit specialist lane should be acquired for one declared task family. Use `AdaptationProbePrompt` when the next honest move is a bounded probe that tests whether threshold-reaching specialization is attainable under the current budget. Use `NonHumanUtilityPrompt` when the prompt must keep a low-human-overlap approach or corridor admissible because it may satisfy the declared utility target better than the current familiar repertoire. Use `SubstrateDiversificationPrompt` when the current question is whether the present substrate is too narrow and a broader or different substrate should be tested before later commitment.
 
-Use this species when the current cue-derived publication has become problem-shaped enough to justify abductive entry, but is still better described as a cue-derived problem prompt than as a fully stabilized anomaly statement.
+Cue-derived prompt entries should stay prompt-headed species rather than projection-headed aliases. The load-bearing question is the prompt kind itself, not one package-local naming trick.
 
-Cue-derived labels such as `ProblemCueProjection`, `OpportunityCueProjection`, and `ProbeCueProjection` should be retired in favor of prompt-headed species names. The prompt kind is load-bearing; the older labels over-signalled the narrowing move and under-signalled the actual owner.
-
-#### B.5.2.0:17.3 - `OpportunityCuePrompt`
-
-Use opportunity species when the pressure comes from a promising line of development or advantageous contrast, not primarily from failure or contradiction.
-
-#### B.5.2.0:17.4 - `ProbeCuePrompt`
-
-Use probe species when what matters is the need to instrument, contrast, perturb, or ask a question that could discriminate among several future explanations.
-
-These tests are not lexical ornaments. They keep different prompt pressures from collapsing into one anomaly-shaped template.
-
-### B.5.2.0:18 - Handoff, Deferral, and Invalid Prompt Drift
-
-#### B.5.2.0:18.1 - Handoff to `B.5.2`
+### B.5.2.0:16 - Handoff, deferral, and invalid drift
 
 A prompt should enter `B.5.2` only when the question is explicit enough that rival hypotheses can now be compared against it. If the question is still too weakly articulated, the lawful continuation is further stabilization or routing, not premature abduction.
 
-#### B.5.2.0:18.2 - Deferred prompt entry
-
 A routed cue may be close to prompt form but still missing one decisive contrast or witness. In such cases the prompt may be deferred explicitly rather than forced into `U.AbductivePrompt` before its initiating question is stable.
 
-#### B.5.2.0:18.3 - Invalid prompt drift
+A bare intuition, slogan, or rhetorical question with no prompt species and no cue provenance is not yet a lawful `U.AbductivePrompt`.
 
-A common failure mode is drift from cue -> prompt -> hypothesis without anyone naming the boundary crossings. `B.5.2.0` blocks that drift by keeping the prompt package distinct from both the earlier cue pack and the later prime hypothesis. The point is to keep the starting question stable and reviewable.
+A common failure mode is drift from cue -> prompt -> hypothesis without anyone naming the boundary crossings. `B.5.2.0` blocks that drift by keeping the prompt package distinct from both the earlier cue pack and the later prime hypothesis.
 
-### B.5.2.0:19 - Review Tests for Prompt Readiness
+### B.5.2.0:17 - Scope, rival-set, and comparative-validity discipline
+
+A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry-bounded scope cut that makes the question answerable. If scope remains unbounded, rival hypotheses will later become incomparable because they are answering different questions.
+
+A prompt need not list full hypotheses yet, but it should make visible whether rival answer types are already imaginable. If no rival answer space is even latent, the publication may still be a cue or orientation note rather than a true abductive prompt.
+
+A prompt may be narrowed to become more discriminating, but the narrowing must not silently smuggle in the answer it is supposedly asking about. Otherwise the prompt ceases to be an initiating question and becomes a disguised conclusion. If a prompt already excludes every serious rival except one preferred explanatory line, the publication may already be preloading a hypothesis. Review should then either weaken the prompt back into a real question or promote the later owner explicitly.
+
+Prompts may be compared across contexts only when their species, scope, and provenance are explicit. A probe-shaped question and an opportunity-shaped question are not the same kind of abductive entry merely because both invite explanation.
+
+One note may legitimately contain a bundle of closely related prompts. If so, the bundle members should be distinguishable and still support later rival comparison without confusion.
 
 A reviewer can test prompt readiness with three questions:
 
@@ -28822,39 +28829,11 @@ A reviewer can test prompt readiness with three questions:
 2. **Is the prompt species plausible?** If the initiating pressure is opportunity-shaped or probe-shaped, forcing anomaly species is a category error.
 3. **Could rival hypotheses now be compared against this prompt?** If not, the prompt candidate probably needs more stabilization before entering `B.5.2`.
 
-These tests keep the prompt layer narrow and help prevent the common drift where every interesting sentence is treated as abductive input.
-### B.5.2.0:20 - Prompt Scope and Rival-Set Discipline
-
-#### B.5.2.0:20.1 - Scope must be stated narrowly enough
-A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry slice that makes the question answerable. If scope remains unbounded, rival hypotheses will later become incomparable because they are answering different questions.
-
-#### B.5.2.0:20.2 - Rival-set anticipation
-A prompt need not list full hypotheses yet, but it should make visible whether rival answer types are already imaginable. If no rival answer space is even latent, the publication may still be a cue or orientation note rather than a true abductive prompt.
-
-#### B.5.2.0:20.3 - Prompt narrowing without answer smuggling
-A prompt may be narrowed to become more discriminating, but the narrowing must not silently smuggle in the answer it is supposedly asking about. Otherwise the prompt ceases to be an initiating question and becomes a disguised conclusion.
-
-### B.5.2.0:21 - Prompt Composition and Comparative Validity
-
-#### B.5.2.0:21.1 - One prompt versus prompt bundle
-A note may legitimately contain a bundle of closely related prompts. If so, the bundle members should be distinguishable. Treating several open questions as one prompt is only lawful if the bundle still supports later rival comparison without confusion.
-
-#### B.5.2.0:21.2 - Comparative prompt use
-Prompts may be compared across contexts only when their species, scope, and provenance are explicit. A probe-shaped question and an opportunity-shaped question are not the same kind of abductive entry merely because both invite explanation.
-
-#### B.5.2.0:21.3 - Boundary to hypothesis preloading
-If a prompt already excludes every serious rival except one preferred explanatory line, the publication may already be preloading a hypothesis. Review should then either weaken the prompt back into a real question or promote the later owner explicitly.
-
-### B.5.2.0:22 - Review Addendum for Prompt Readiness
-
-Add three checks to the base prompt tests:
+Add three follow-up checks:
 
 - **Is the scope tight enough for later comparison?**
 - **Is there an imaginable rival-set, even if not yet fully written?**
-- **Has narrowing turned the question into a disguised answer?**
-
-These checks keep `U.AbductivePrompt` a genuine entry form for later abductive work rather than a rhetorical preloading device.
-
+- **Is the narrowing still a question rather than a disguised answer?**
 ### B.5.2.0:End
 
 
@@ -36230,6 +36209,10 @@ Among admissible options with comparable assurance (within **δ**) and budget (w
 > • **Complementary bias:** the heuristic is an **inductive bias** that **improves** the general method **without blocking scale** (graceful degradation as `S` grows).
 > All overrides record a **BLP‑waiver** with rationale, owner, and expiry/review in the DRR. 
 
+**BLP‑2.2 — Task-family specialization compatibility.**
+A bounded task-family specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, when it acts as a complementary bias that does not block scale, or when it survives the ordinary **BLP** comparison discipline on the same declared task family and work target. `BLP` therefore governs whether the narrower current method was generated, compared, audited, waived, and overridden lawfully; it does **not** require the final local behavior at every moment to look maximally generic.
+
+Low-human-overlap or newly discovered approaches remain admissible when the task family, budget guard rails, and evidence basis are explicit by value and the same `Scale‑Audit`, `α/δ`, waiver, and override discipline is preserved.
 **BLP‑3 — Minimal‑prescription default.**
 Author **rules‑as‑prohibitions** (negative constraints) instead of stepwise scripts; encode limits in **Φ policy tables** (and **Φ_plane**) and allow agents to **sequence autonomously** within those constraints. Scripts are permissible only when mandated by safety/regulation or with compelling DRR evidence reviewed under E.3/E.5. 
 
@@ -36255,6 +36238,8 @@ Scale‑Audit artefacts **SHALL** be exported to **G.11** with edition pins, CI 
 6. **Resrc‑CAL** accounts and assurance deltas reported.
 7. **Replicate counts/seeds** and **confidence intervals** recorded for slope estimates; heteroscedasticity handling disclosed.
 8. Audit artefacts exported to **G.11** with **BLP.Policy@Context** id.
+
+9. When a narrower specialist method is selected or returned for one declared task family, the record names the task family/work target and the Scale‑Audit, waiver, or override ground that keeps the choice BLP‑compatible.
 
 ### C.19.1:4 - Anti‑patterns & remedies
 
@@ -36598,7 +36583,7 @@ Publish: UTS twin labels; RSCR triggers on method edition change.
 
 ## C.22 - Problem Typing & TaskSignature Assignment (Problem-CHR)
 
-**Purpose.** Give FPF a **lawful, minimal, and portable** way to speak about “the problem we face” so that the **selector** (G.5) can legally admit/abstain without prose or guesswork. We do this by (i) **typing problems** with CHR‑grounded traits and (ii) **binding** them to a **TaskSignature (S2)** that downstream patterns can consume. The Standard is **Context‑local**, evidence‑anchored, tri‑state‑aware, and bridge‑savvy. TaskSignature is *minimal* but sufficient for **eligibility**, **acceptance**, and **policy‑governed** choice. 
+**Purpose.** Give FPF a **lawful, minimal, and portable** way to speak about “the problem we face” so that the **selector** (G.5) can legally admit/abstain without prose or guesswork. We do this by (i) **typing problems** with CHR‑grounded traits and (ii) **attaching** them to a **TaskSignature (S2)** record that downstream patterns can consume. The Standard is **Context‑local**, evidence‑anchored, tri‑state‑aware, and bridge‑savvy. TaskSignature is *minimal* but sufficient for **eligibility**, **acceptance**, and **policy‑governed** choice.
 
 **Status & placement.** Part C (Kernel Extentions Specifications) → Cluster C.I (Core CHRs/CALs).
 **Depends on:** **C.16 MM‑CHR** (measurement legality), **G.5** (selector S2/S3), **G.0** (CG‑Spec invariants).
@@ -36607,13 +36592,22 @@ Publish: UTS twin labels; RSCR triggers on method edition change.
 ### C.22:1 - Intent
 
 Operationalise No‑Free‑Lunch discipline in selection by ensuring every run‑time decision sees a **typed TaskSignature (S2)**, not a paragraph, and that **“problem”** (method unknown) is cleanly separated from **“task”** (method known; signature bound). The signature is the **smallest CHR‑typed set** sufficient to drive **Eligibility → Acceptance → policy‑governed selection** without illegal arithmetic or silent coercions; crossings are auditable (Bridge+CL → **R_eff only**).
+
+#### C.22:1.1 - Term split used in this pattern
+
+- `TaskSignature` attachment means attaching one typed problem record to one declared task family or work target; it does **not** pre-bind a method.
+- `ScopeSlice(G)` means the claim-bounding scope cut over `describedEntity/scope`; it is not an evidence-path slice and not a baseline-set slice.
+- `threshold` is not one undifferentiated family here:
+  - articulation and closure thresholds stay with cue/prompt owners such as `B.4.1` and `B.5.2.0`
+  - acceptance-gate thresholds stay with `G.4`
+  - the work-measure threshold target used in specialization claims is only the declared success mark for the current task family or work target
 ### C.22:2 - Problem Frame (design/run split; crossing-visible)
 
 **method‑first stance**
 In FPF a **Problem** exists when a Holder or external **Transformer** cannot cite a known **Method** (or specialisation thereof) that satisfies the current **TaskSignature** under the declared **ScopeSlice(G)**. Problem‑solving therefore entails **strategizing** (selecting or synthesising a method). The resulting **strategy/policy** is a composition under **G.5/E/E‑LOG** and **is not** a new kernel type.  
 **Unknown‑first discipline.** Author S2 with `unknown` traits rather than coercions; **SoS‑LOG** branches MUST specify `{admit|degrade|abstain|sandbox}` handling for `unknown` via closed enums registered at UTS.
-Un-typed “problems” collapse into **informal prose**; selectors cannot **filter/abstain** lawfully; thresholds leak into scoring; cross-Context reuse is by name, not Bridge. We need a Context-local descriptor that (i) obeys **MM-CHR legality** (Scale/Unit/Polarity proven before any aggregation), (ii) records **Assurance lanes (TA/VA/LA)** per **A.10** and **ReferencePlane**, (iii) carries **tri-state unknowns** explicitly, and (iv) **publishes crossing attestations** (**BridgeCard + UTS row**) with **Φ(CL)/Φ_plane** policy-ids.
-Un‑typed “problems” collapse into **informal prose**; selectors cannot **filter/abstain** lawfully; thresholds leak into scoring; cross‑Context reuse is by name, not Bridge. We need a Context‑local descriptor that (i) obeys **MM‑CHR legality** (Scale/Unit/Polarity proven before any aggregation), (ii) records **
+
+Un‑typed "problems" collapse into **informal prose**; selectors cannot **filter/abstain** lawfully; acceptance-gate thresholds leak into scoring; cross‑Context reuse is by name, not Bridge. We need a Context‑local descriptor that (i) obeys **MM‑CHR legality** (Scale/Unit/Polarity proven before any aggregation), (ii) records **Assurance lanes (TA/VA/LA)** per **A.10** and **ReferencePlane**, (iii) carries **tri‑state unknowns** explicitly, and (iv) **publishes crossing attestations** (**BridgeCard + UTS row**) with **Φ(CL)/Φ_plane** policy‑ids.
 
 ### C.22:3 - Problem
 
@@ -36629,7 +36623,7 @@ Without typed descriptors, **Eligibility/Acceptance** degenerate into prose; **i
 | **Locality vs portability**  | Problem is **in‑room**; still must cross **via Bridges**, with **CL** and (if planes differ) **CL^plane** penalties → **R** only. |
 
 
-### C.22:5 - Solution — **Problem‑CHR** (fields) + **TaskSignature (S2) binding** *(normative)*
+### C.22:5 - Solution — **Problem‑CHR** (fields) + **TaskSignature (S2) attachment** *(normative)*
 
 #### C.22:5.1 - Minimal CHR fields (tri‑state aware).
 Each field is **CHR‑typed** (Characteristic/Scale/Unit/Polarity; MM‑CHR discipline). Every predicate admits `unknown` (tri‑state). Unknowns must propagate to {degrade|abstain|sandbox} per Acceptance/EvidenceProfile policy (recorded in SCR). (G.4/G.6 alignment)
@@ -36638,10 +36632,10 @@ Each field is **CHR‑typed** (Characteristic/Scale/Unit/Polarity; MM‑CHR disc
 * **`NoiseModel`** — uncertainty class / robustness envelope (e.g., iid Gaussian; heavy‑tailed; adversarial budget).
 * **`ObjectiveProfile`** — objective heads (**Scale/Unit/Polarity** and **ReferencePlane** declared), polarity, and **lawful orders** (lexicographic, Pareto, medoid/median where legal). **Weighted sums across mixed scale types are forbidden**; ordinal heads use order‑only guards. For QD tasks, explicitly enumerate **Q (quality)**, **D (diversity)**, and **QD‑score** heads; see **DominanceRegime** below.
 * `RegularityTraits` — method‑relevant structure (**convexity/differentiability/separability/monotonicity**) as CHR‑typed predicates with guard‑macros (e.g., `ORD_COMPARE_ONLY`, `UNIT_CHECK`, `POLARITY_CHECK`). Include `ConditionClass` (e.g., stiffness/κ‑proxies) where applicable.
-* **`Constraints`** — explicit hard/soft constraint classes (feasibility predicates; **ResourceEnvelope**/**RiskEnvelope**). **Thresholds live in Acceptance (G.4) only; never inside CHR or code paths.**
+* **`Constraints`** — explicit hard/soft constraint classes (feasibility predicates; **ResourceEnvelope**/**RiskEnvelope**). **Acceptance-gate thresholds live in `G.4` only; never inside CHR or code paths.**
 * **`ShiftClass/Stationarity`** — CHR‑typed claims about regime stability (iid | covariate‑shift | concept‑drift | adversarial). Default=`unknown`. Acceptance/Flows MUST honor this in gating or abstain.
 * `EvidenceGraphRef (A.10)` — carriers & **lane tags (TA/VA/LA)** with **freshness windows**; **no self‑evidence**; default Γ‑fold = **weakest‑link** unless CAL proves an alternative.
-* `ScopeSlice(G)` — **USM** slice of **describedEntity/scope** to bound claims (discipline governance in **CG‑Spec**; Domain is a catalog mark only).
+* `ScopeSlice(G)` — the **USM claim-bounding scope cut** over **describedEntity/scope** (discipline governance in **CG‑Spec**; Domain is a catalog mark only).
 * `Size/Scale` — size/condition proxies (**n, m, κ, sparsity**) with **declared units**; unit mismatch ⇒ {sandbox|refuse}.
 * **`Freshness`** — validity window for descriptors.
 * `Missingness` — **MCAR/MAR/MNAR** (or mapped equivalents) per **CHR.Missingness**; MUST be honoured by Acceptance/Flows.
@@ -36661,24 +36655,30 @@ Each field is **CHR‑typed** (Characteristic/Scale/Unit/Polarity; MM‑CHR disc
 
 **Legality.** Before any numeric comparison/aggregation, **prove CSLC legality** (Scale/Unit/Polarity) and **cite CG‑Spec.Characteristics**; publish **ReferencePlane**. **Unknowns** propagate as {degrade|abstain|sandbox}; **no `unknown→0/false` coercions**.
 
-#### C.22:5.2 - TaskSignature (S2) — binding definition (design‑time + run‑time).
+#### C.22:5.2 - TaskSignature (S2) — attachment definition (design‑time + run‑time).
 A TaskSignature is a minimal typed record the selector consumes:
-`⟨Context, TaskKind, KindSet:U.Kind[], DataShape, NoiseModel, ObjectiveProfile, Constraints{incl. Resource/Risk Envelopes}, ScopeSlice(G), EvidenceGraphRef, Size/Scale, Freshness, Missingness, ShiftClass?, BehaviorSpaceRef?, ArchiveConfig?, EmitterPolicyRef?, DominanceRegime?, PortfolioMode?, Budgeting?, TelemetryHooks?, GeneratorIntent?⟩`
+`⟨Context, TaskKind, TaskFamilyRef?, KindSet:U.Kind[], DataShape, NoiseModel, ObjectiveProfile, Constraints{incl. Resource/Risk Envelopes}, ScopeSlice(G), EvidenceGraphRef, Size/Scale, Freshness, Missingness, ShiftClass?, BehaviorSpaceRef?, ArchiveConfig?, EmitterPolicyRef?, DominanceRegime?, PortfolioMode?, Budgeting?, TelemetryHooks?, GeneratorIntent?⟩`
 
 
 **Minimality rule.** S2 carries only fields required for **Eligibility→Acceptance→lawful selection**; any additional traits derived at design‑time are published as provenance (UTS) but **do not expand S2**. 
 
 Values are **CHR‑typed** with **provenance**; traits may be **inferred** from CHR/CAL bindings (e.g., *convexity known? differentiable? ordinal vs interval scales?*) and from **USM** scope metadata. Unknowns are tri‑state; **Missingness semantics MUST align with CHR.Missingness** and be honored by Acceptance/Flows. 
 
+`TaskKind` names the governing kind of work or problem under this context. `TaskFamilyRef?` names one comparison-relevant family inside that task kind when specialization, transfer, or parity burden is live. `TaskSignature` is the context-bound typed attachment record for one current case under that kind and scope cut. `KindSet` continues to name the objects-of-talk governed by the task kind; it is not a substitute for the task family anchor.
+
 **Design/Run hygiene.** Do not mix DesignRunTag in one signature; **publish GateCrossings** as **CrossingBundles** (**E.18**; Bridge+UTS **A.27**; BridgeCard **F.9**) when importing design‑time traits into run‑time.
 
+##### C.22:5.2.1 - Specialization-claim anchoring (normative)
+Any claim that one holder, dyad, team, or explicitly scoped specialist portfolio acquired usable specialization **SHALL** anchor that claim to one declared `TaskFamilyRef` or `TaskSignature`, one named work-measure threshold target, an adaptation budget, and the freshness or provenance basis for reuse. A method may be selected, refined, or retired as part of that story, but the method is not the bearer of the specialization claim. The attached task-family record should stay rich enough for `C.22.1` adaptation signatures, `G.5` specialization profiles, and `G.9` adaptation parity to attach to the same task family and work target without reconstructing the claim from narrative prose.
+
+Low-human-overlap or newly discovered task families remain admissible when those anchors are explicit by value.
 #### C.22:5.3 - Provenance & planes.
 Record **Context**, **ReferencePlane** for each value; on any cross‑Context/plane reuse, attach BridgeDescription + UTS row, apply **CL** (and, if planes differ, **CL^plane**) penalties to **R_eff only**; both **Φ(CL)** and (if used) **Φ_plane** MUST be **monotone, bounded, and table‑backed**; **no “distance” language; penalties never mutate F/G.** Publish policy‑ids in SCR and cite Bridge ids on crossings.
 
-#### C.22:5.4 - Binding & use.
+#### C.22:5.4 - Attachment & use.
 
 * **Eligibility** gates read TaskSignature against each **MethodFamily.Eligibility** (C.23) and **CG‑Spec.MinimalEvidence** for referenced characteristics.
-* **Acceptance** clauses (G.4) use these fields for **threshold predicates** (thresholds live in Acceptance only).
+* **Acceptance** clauses (G.4) use these fields for **acceptance-gate threshold predicates** (acceptance-gate thresholds live in Acceptance only).
 * **Selection kernel** (G.5.S3) applies a **lawful order** (often partial); **weighted sums across mixed scale types are forbidden**. If only a partial order remains, **return a Pareto (non‑dominated) set** with tie notes. If `PortfolioMode=Archive`, the selector **may** return a **QD archive** (per `ArchiveConfig`) **in addition to** or **instead of** a Pareto set. **Illumination** enters dominance **only** if `DominanceRegime=ParetoPlusIllumination` is **enabled by CAL** (policy id cited); otherwise, QD metrics are **reported** but **excluded** from dominance.
 * When `GeneratorIntent` is present, G.5 may dispatch to a registered **`GeneratorFamily`** (POET‑class); the selection surface becomes **pairs** `{environment, method}`, with Environment guarded by **`EnvironmentValidityRegion`** and **`TransferRulesRef`** (C.23 wiring). Report **`IlluminationSummary`** as a **telemetry summary over `Diversity_P`** (report‑only by default) in telemetry; dominance remains unaffected unless policy changes as above.
 
@@ -36698,11 +36698,11 @@ If the problem requires **open‑ended generation** of tasks/environments, S2 **
 
 **A. Differential equations (continuous systems, solver choice).**
 *ProblemProfile.* `DataShape=ODE, stiff?=unknown, Size/Scale={n≈10^3}, ObjectiveProfile={↓error@ratio, ↑throughput@ratio}, Constraints={budget≤X, safety_gate@ordinal}, RegularityTraits={Lipschitz known?=unknown, Jacobian sparsity=high}, Missingness=MAR`.
-*Binding.* Selector reads TaskSignature; **eligibility** filters MethodFamilies that require known stiffness or differentiability (unknown ⇒ **degrade/abstain** per family); **Acceptance** enforces `safety_gate` as **ordinal predicate**, not averaged (ORD\_COMPARE\_ONLY), and budgets with **unit‑aligned sums** (ratio). The selector returns a **Pareto set**; no cross‑ordinal weighting.
+*Attachment.* Selector reads TaskSignature; **eligibility** filters MethodFamilies that require known stiffness or differentiability (unknown ⇒ **degrade/abstain** per family); **Acceptance** enforces `safety_gate` as **ordinal predicate**, not averaged (ORD\_COMPARE\_ONLY), and budgets with **unit‑aligned sums** (ratio). The selector returns a **Pareto set**; no cross‑ordinal weighting.
 
 **B. Mixed‑integer optimisation (planning/scheduling).**
 *ProblemProfile.* `DataShape=MIP, NoiseModel=deterministic, ObjectiveProfile={↓cost@ratio, ↑service_level@ordinal}, Constraints={SLA hard, workforce soft}, RegularityTraits={convex_relaxation=available}, Size/Scale={vars~10^5}, Missingness=MCAR`.
-*Binding.* **CG‑Spec** forbids means over **service\_level** (ordinal); **Acceptance** holds thresholds; **Eligibility** checks convex‑relaxation availability; **Selection** applies **lexicographic** guard (assumption‑fit ≻ evidence‑fit ≻ resource), compute **R\_eff** with Γ‑fold, route **CL** to **R** only; if partial order remains, return a **Pareto set**.
+*Attachment.* **CG‑Spec** forbids means over **service\_level** (ordinal); **Acceptance** holds acceptance-gate thresholds; **Eligibility** checks convex‑relaxation availability; **Selection** applies **lexicographic** guard (assumption‑fit ≻ evidence‑fit ≻ resource), compute **R\_eff** with Γ‑fold, route **CL** to **R** only; if partial order remains, return a **Pareto set**.
 
 > *Contemporary anchors (informative):* modern **Julia** ecosystems illustrate the “**general call outside, specialised implementations inside**” ethos (e.g., DifferentialEquations.jl, JuMP), aligning with C.22→G.5 multi‑method dispatch under NFL.
 
@@ -36740,7 +36740,7 @@ If the problem requires **open‑ended generation** of tasks/environments, S2 **
 3. **Unknowns propagate.** Unknowns **must** map to {pass|degrade|abstain} in **Acceptance**/**Eligibility**; no implicit coercions; behavior recorded in **SCR**.
 4. **Evidence lanes.** **A.10 anchors** + **Assurance lanes (TA/VA/LA)** + **freshness windows** recorded; **Γ‑fold** default=weakest‑link unless proved otherwise.
 5. **ReferencePlane guarded.**  ReferencePlane noted **per value and per ObjectiveProfile head**; on crossings apply **CL** (and **CL^plane** if planes differ); **Φ(CL)/Φ_plane** are **monotone, bounded, table‑backed and documented in the `CG‑Spec`**; penalties → **R_eff only** (F/G invariant).
-6. **Acceptance thresholds live in CAL.** No thresholds in CHR or code paths; only in **G.4 AcceptanceClauses**. 
+6. **Acceptance thresholds live in CAL.** No acceptance-gate thresholds in CHR or code paths; only in **G.4 AcceptanceClauses**.
 7. **Selector legality.** Selection uses **admissible (possibly partial) orders**; **weighted sums across mixed scale types are forbidden**; return a **Pareto set** when appropriate. 
 8. **Crossings published (visibility).** Any cross-stance/cross-Context reuse emits **BridgeCard/BridgeDescription + UTS row** with CL notes and (if planes differ) CL^plane + Φ_plane.
 9. **UTS twin labels.** All exported cards publish **Name Cards** with twin labels; Bridges carry loss notes. 
@@ -36753,6 +36753,8 @@ If the problem requires **open‑ended generation** of tasks/environments, S2 **
 16. **Archive legality.** `DistanceDefRef.edition` and any novelty measures **SHALL** be CSLC-lawful and **editioned**; illegal ops => **Abstain**.
 17. **Planes.** **ReferencePlane** **SHALL** be declared for all QD heads/axes; plane crossings apply **Phi\_plane** (penalty to **R** only).
 18. **Unknowns.** Unknown QD fields **map** to `{degrade|abstain|sandbox}`; no coercions.
+
+19. **Specialization claims anchored.** Any declared specialization on this TaskSignature **SHALL** name the task family/work target, named work-measure threshold target, adaptation budget, freshness or provenance basis for reuse, and enough attachment detail for `C.22.1`, `G.5`, and `G.9` to consume the same claim lawfully.
 
 ### C.22:10 - Interfaces & Data Paths
 
@@ -36770,23 +36772,149 @@ If the problem requires **open‑ended generation** of tasks/environments, S2 **
 ### C.22:12 - Relations
 **Builds on:** **C.16 MM-CHR**, **G.0 CG-Spec**. **Coordinates with:** **G.4 Acceptance**, **G.5 Selector**, **C.18 NQD-CAL**, **C.19 E/E-LOG**, **C.23 Method-SoS-LOG**. **Constrained by:** **E.10 (LEX/I/D/S)**, **E.18 (GateCrossing visibility / publication gating)**.
 
-### C.22:13 - Author's quick checklist
+### C.22:13 - Practical reading checks
 
-1. **Write the ProblemProfile.** Context, TaskKind, ObjectKinds, USM **ScopeSlice(G)**, describedEntity (GroundingHolon, ReferencePlane). 
-2. **Fill TaskSignature (S2).** Populate all fields; mark `unknown` explicitly; align **Missingness** with CHR semantics. 
-3. **Bind CG-Spec ids.** For any numeric comparison/aggregation you expect downstream, cite **CG-Spec.Characteristics** and prove **CSLC** legality. 
-4. **Attach Evidence Graph Ref.** Lanes (TA/VA/LA), carriers, freshness windows; set **Gamma-fold** default; no self-evidence. 
-5. **Publish crossings.** If importing across a **GateCrossing** boundary, mint **BridgeDescription + UTS row**; record **CL/CL^plane**; penalties **→ R only**. 
-6. **Keep thresholds in Acceptance.** Move any thresholds (gate numbers) into **G.4**;  wire **RSCR** refusal tests (illegal ops; unit/scale checks; **tri-state unknowns**; CL->R routing; **Phi tables present**).
-7. **Run GateCrossing checks** on the signature and crossings: stance tagging (if used; informative only), **CrossingBundle** presence/consistency (**E.18/A.27/F.9**), **LanePurity**, and **Lexical SD** (**E.10**); attach **UTS Name Cards** with twin labels.
-8. **Bias audit.** Check E.5.4 and C.21 hooks if the problem lives *inside* a discipline dashboard or SoTA pack.
-
+- If two candidate approaches are answering different `TaskKind`s or different `ScopeSlice(G)` cuts, this pattern does not yet license a direct comparison.
+- If specialization is the live burden, the task-family anchor, threshold target, adaptation budget, and provenance basis should already be recoverable from the attached `TaskSignature`.
+- If crossing, normalization, or missingness changes what comparison means, publish that in the signature and its cited refs rather than hiding it in code, local memory, or later prose.
+- If `QD` or `OEE` heads are in scope, archive and generator fields belong in the same typed signature rather than in a detached explanatory appendix.
 
 ### C.22:14 - Goldilocks hook (design‑time)
 
 When generating candidate solutions for a **TaskKind**, target **“goldilocks”** slots (feasible‑but‑hard) so that the TaskSignature is informative (neither trivial nor impossible); this aligns with **G.1** (target goldilocks, abductive provenance) and ensures the **TaskSignature is informative** (neither trivial nor impossible) for **G.5** selection.
 
 ### C.22:End
+
+## C.22.1 - Task-family adaptation signature
+
+**One-screen purpose (manager-first).**
+Make a specialization claim publishable as one typed adaptation record over a declared `TaskFamilyRef` or `TaskSignature`, so later selector and parity work compares the same threshold target, budget burn, prior exposure, transfer, durability, downside, and corridor-entry burden rather than reconstructing that story from narrative prose.
+
+**Builds on.** `C.22` (TaskSignature attachment and task-family anchoring), `C.19.1` (`BLP` compatibility), `A.15` (role/method/work split for scout/probe work), `C.24` (`CheckpointReturn` planning semantics), `E.16` (budget enforcement).
+**Coordinates with.** `G.5` (selector specialization profiles), `G.9` (adaptation parity), `G.11` (later telemetry / refresh reuse).
+**Keywords.** adaptation signature; task-family specialization; time-to-threshold; budget-to-threshold; prior exposure; corridor entry; stepping stone; transfer; retention; downside burden.
+
+### C.22.1:1 - Problem frame
+
+Final task score alone does not tell whether a holder, dyad, or bounded specialist portfolio acquired usable specialization quickly, under what budget, with what prior exposure, whether the resulting competence transferred, or whether it entered a genuinely new solution corridor. If those elements are not published together, the adaptation claim splinters across task typing, probe notes, selector prose, and parity notes, and later readers can no longer tell what exactly was being compared.
+
+### C.22.1:2 - Problem
+
+FPF needs one compact way to publish a bounded specialization claim on the same declared task family and work target without retyping the task anchor from `C.22` or silently pushing the adaptation burden into selector/parity prose.
+
+### C.22.1:3 - Use this when
+
+- the governed claim is not only that a holder or dyad solved a task, but how fast it acquired usable specialization on a declared task family
+- comparison must stay honest about the work-measure threshold target, prior exposure, adaptation budget, transfer burden, and reuse window
+- movement into a new solution corridor or stepping-stone family is part of the real novelty burden
+
+### C.22.1:4 - What goes wrong if missed
+
+- adaptation claims collapse into vague `got better` language with no declared work-measure threshold target or budget-to-threshold account
+- parity later compares outcomes that were reached under different prior exposure, different work-measure threshold targets, or different reuse windows
+- nonhuman or unfamiliar solution corridors are either romanticized as novelty or dismissed as noise because the corridor entry was never typed
+
+### C.22.1:5 - What this buys
+
+- adaptation speed becomes reviewable by value on the same declared `TaskFamily` and work target
+- later `G.5 / G.9` portfolio and parity work can compare the same specialization object instead of reconstructing it from narrative prose
+- stepping-stone or solution-corridor movement becomes visible as one typed part of the adaptation claim rather than one afterthought
+
+### C.22.1:6 - Forces
+
+| Force | Tension |
+| :--- | :--- |
+| Threshold crossing vs final score | A static outcome can look similar even when one system specialized much faster or more cheaply than another. |
+| Local novelty vs reproducible evidence | Corridor-entry claims matter, but they are easy to over-romanticize when no baseline or entry evidence is published. |
+| Task anchor vs adaptation burden | The section must keep the adaptation-signature burden readable without retyping task anchoring from `C.22` or turning selector/parity law into the same pattern. |
+| Reuse upside vs specialization cost | Transfer, retention, and downside matter to the same claim even when the first threshold crossing looks impressive. |
+
+### C.22.1:7 - Solution — one adaptation signature over the `C.22` anchor
+
+- Use one shared adaptation-signature field set for this burden. `G.5`, `G.9`, and later notes may cite or consume it, but they should not silently rename threshold, prior-exposure, transfer, downside, or corridor-entry terms.
+- When specialization is the governed burden, publish one adaptation signature bound to the declared `TaskFamilyRef` or `TaskSignature`, not one generic improvement claim.
+- The signature should expose at least:
+  - `thresholdTarget`
+  - `timeToThreshold`
+  - `budgetToThreshold`
+  - `postThresholdEfficiency?`
+  - `priorExposureDeclaration`
+  - `transferTarget?`
+  - `transferGain?`
+  - `retentionWindow?`
+  - `downsideBurden?`
+  - `corridorEntryBaseline?`
+  - `corridorEntryEvidence?`
+  - `steppingStoneEvidence?`
+- These fields stay anchored to the same work target and work-measure threshold semantics already declared by `C.22`, so adaptation is typed as movement toward usable specialization rather than as an ungrounded growth story.
+- `C.22` continues to carry the declared task-family anchor, task typing, and baseline `TaskSignature`. `C.22.1` narrows the adaptation burden to threshold timing, reuse, downside, and corridor-entry disclosure over that existing anchor.
+
+### C.22.1:8 - Corridor, transfer, and durability discipline
+
+- If the adaptation claim depends on entering a new solution corridor, publish the `corridorEntryBaseline` first: the prior repertoire, baseline set, or comparison family relative to which corridor entry is being claimed.
+- Then publish the `corridorEntryEvidence` that marks real entry into that corridor rather than exotic accident, for example a reproducible solution class, a stable descriptor shift, or one explicit stepping-stone sequence.
+- If a stepping stone mattered, publish the stepping-stone evidence as part of the adaptation signature rather than treating it as retrospective color.
+- Corridor or stepping-stone notes do not replace the work-measure threshold account; they explain why the adaptation path matters, not whether the threshold was actually reached.
+- A fast threshold result is not yet enough to claim durable specialization.
+- If transfer to a neighboring task family is claimed, name the transfer target and the observed gain explicitly.
+- If retention is claimed, name the reuse or retention window rather than letting durability hide inside one isolated run.
+- If specialization harms neighboring task families, narrows reusable competence, or creates de-specialization cost, publish that in `downsideBurden?` rather than telling only the upside story.
+- If post-threshold performance matters to later exploitation, publish `postThresholdEfficiency?` so the claim is not trapped at the threshold-crossing moment only.
+
+### C.22.1:9 - Worked moment
+
+- Two agentic research setups both eventually reach an acceptable threshold on a new catalyst-search task family.
+- One of them reaches threshold after a small probe budget, shows a declared transfer gain on one adjacent task family, and records that the winning path entered a previously unused solution corridor.
+- The other reaches threshold only after much larger budget and without any reusable transfer.
+- The adaptation signature makes that difference publishable without pretending that both runs express the same specialization story.
+
+### C.22.1:10 - Consequences
+
+- Threshold speed, budget burn, prior exposure, and post-threshold efficiency become part of the same reviewable object instead of one after-the-fact prose explanation.
+- Selector and parity surfaces can consume a stable upstream specialization object without minting shadow vocabularies.
+- Corridor-entry and downside burdens stay visible in the same claim that celebrates the specialization gain, reducing romanticized novelty talk.
+
+### C.22.1:11 - Rationale
+
+The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit. `A.15`, `C.24`, and `E.16` may generate the probe, checkpoint, and budget evidence. `G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those surfaces by making threshold timing, reuse, downside, and corridor-entry burden recoverable in one short read instead of forcing the reader to reconstruct it from scattered notes.
+
+### C.22.1:12 - SoTA-Echoing
+
+**Claim 1.** Current frontier adaptation work judges usable specialization by threshold-crossing under bounded resources, not by terminal score alone.
+
+**Practice / source / alignment / adoption.** Contemporary frontier lines in refinement-heavy `QD`, self-play/task-discovery, and agentic adaptation repeatedly separate threshold target, budget burn, transfer, and reuse burden from one final benchmark score. This pattern **adopts** that practical burden, **adapts** it through one `TaskFamilyRef` or `TaskSignature`-bound adaptation signature, and **rejects** generic `got better` narratives that leave threshold and budget semantics implicit.
+
+**Claim 2.** Current open-ended exploration work treats corridor entry and stepping stones as evidence-bearing novelty signals rather than decorative commentary.
+
+**Practice / source / alignment / adoption.** Contemporary `QD`/`OEE` and nonhuman-domain exploration lines distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline or evidence basis.
+
+**Claim 3.** Current selector and parity practice needs one stable shared field set for specialization claims.
+
+**Practice / source / alignment / adoption.** Current selector and parity surfaces stay reviewable only when compared candidates reuse the same published field set for threshold, prior exposure, transfer, retention, downside, and corridor-entry burden. This pattern **adopts** that reuse discipline, **adapts** it by publishing one stable adaptation-signature field set here, and **rejects** silent downstream field redefinition in `G.5` or `G.9`.
+
+**Evidence-tier note.** Peer-reviewed frontier anchors carry the strongest support for threshold/budget/parity burdens, while fast-moving frontier lines remain explicit support for corridor-entry and open-ended exploration pressure rather than a flattened single evidence tier.
+
+### C.22.1:13 - Relations
+
+**Builds on:** `C.22` TaskSignature anchoring, `C.19.1` `BLP` compatibility, `A.15` role/method/work separation, `C.24` scout/probe and `CheckpointReturn` semantics, `E.16` budget enforcement.
+**Coordinates with:** `G.5` selector specialization profiles, `G.9` adaptation parity, `G.11` later telemetry/refresh reuse.
+**Constrained by:** `E.10` lexical discipline and `E.19` pattern-quality review when this child section is newly landed or materially revised.
+
+### C.22.1:14 - Not this pattern when
+
+- the burden is only to name the task family and work-measure threshold target, with no adaptation-speed or transfer claim at all; ordinary `C.22` anchoring is enough
+- the live question is already selector or parity law across candidate portfolios; that belongs to `G.5 / G.9`
+- the text cannot yet declare one work-measure threshold target, one prior-exposure stance, or one evidence basis for corridor entry
+
+### C.22.1:15 - Conformance checklist
+
+- `CC-C22.1-1` An adaptation signature **SHALL** bind to one declared `TaskFamily` or `TaskSignature`, one work target, and one work-measure threshold target rather than one generic improvement story.
+- `CC-C22.1-2` An adaptation signature **SHALL** publish `timeToThreshold`, `budgetToThreshold`, and `priorExposureDeclaration`; if threshold was not reached, the signature **SHALL** say so explicitly instead of implying success.
+- `CC-C22.1-3` Any declared transfer, retention, post-threshold-efficiency, downside, corridor-entry, or stepping-stone claim **SHALL** be explicit by value with the target, baseline, or evidence basis named, not left as narrative garnish.
+- `CC-C22.1-4` This pattern may refine specialization timing and reuse claims over the declared `C.22` anchor, but it **SHALL NOT** redefine acceptance-gate thresholds, task-family attachment, or selector/parity law owned elsewhere.
+- `CC-C22.1-5` Downstream selector/parity surfaces **SHALL** cite or consume the same published adaptation-signature field set rather than silently redefining threshold, prior-exposure, transfer, retention, downside, or corridor-entry terms.
+
+### C.22.1:End
 
 ## C.23 - MethodFamily Evidence & Maturity (Method‑SoS‑LOG)
 
@@ -37057,6 +37185,13 @@ A **System in AgentialRole** composes a **Plan** (MethodDescription); upon enact
 6. `Γ_agent.score(Plan or Step) → ⟨ValueProxies, Cost, Risk, FGR_floor⟩`
    Computes selection signals **without** illegal scalarisation across mixed scales; **uses Pareto comparison under the C.19 E/E‑LOG lens** and defers final dominance to declared policies. 
 
+#### C.24:4.1 - Bounded scout/probe cycle for unfamiliar task families
+
+When the objective is still being pursued across heterogeneous or unfamiliar candidate approaches, the agent should first declare the utility target, enumerate admissible candidate approaches, spend a bounded scout/probe budget before any committed route is chosen, and return one checkpoint package that compares the tested approaches.
+
+That `CheckpointReturn` should carry the declared utility target and current `TaskFamily`, the candidate approaches tested, the evidence on each approach, the burned and residual budget, the recommended next action, and the exact commit trigger that would justify leaving probe state.
+
+A successful probe does not by itself authorize a larger burn or a committed rollout. `C.24` owns the `CheckpointReturn` record and plan semantics for this probe loop; `A.15` owns the dyadic move and `E.16` owns the budget partition plus guard and ledger enforcement. Low-human-overlap approaches remain admissible only while they stay tied to the declared utility target, budget guard rails, and evidence basis by value.
 **Normative Laws (ATC‑Laws).**
 
 * **ATC‑1 (Model‑the‑Call, not the App).** A tool call is a **Work** instance that enacts a referenced **MethodDescription** promised by a **Service**; plans schedule calls but are **not the calls**. (A.15.)
@@ -37100,6 +37235,8 @@ A **System in AgentialRole** composes a **Plan** (MethodDescription); upon enact
 7. **CC‑ATC‑7 — Notation independence.** No vendor tokens in conceptual text; bindings via Bridges/Profiles only.
 8. **CC‑ATC‑8 — BLP tolerances declared.** **α/δ** tolerances are present in `ATC.Policy` or referenced via the active E/E‑LOG profile.
 
+9. **CC‑ATC‑9 — `CheckpointReturn` for bounded specialization.** When a plan uses scout/probe discipline on a new task family, it **SHALL** publish one `CheckpointReturn` with candidate set, evidence, burned/residual budget, next action, and commit trigger; a successful probe alone never counts as committed rollout.
+
 ### C.24:8 - Consequences
 
 *Positive.* Portable agent patterns; **auditable autonomy**; lawful exploration; faster hypothesis cycles via BLP; replayable call graphs; decision‑grade Working‑Model surfaces.
@@ -37121,7 +37258,7 @@ A **System in AgentialRole** composes a **Plan** (MethodDescription); upon enact
 
 *Lexical firewall* and *notation independence* apply; no vendor tokens; mixed‑scale characteristics are never averaged; illumination remains a **report only telemetry** unless a policy promotes it into dominance.  
 
-#### C.24:12 - Didactic Quick Card (1‑screen crib)
+### C.24:12 - Didactic Quick Card (1‑screen crib)
 
 **Agentic Call Plan (public):**
 *Objective - Context(K) - Budget{time/compute/cost/risk} - PolicyRef (E/E‑LOG) - Explore‑share - Steps[ pre/ call /post ] - Stop‑conditions - **BLP tolerances (α,δ)** - BLP‑note (if any) - Assurance⟨F,G,R|K,S⟩ - Provenance ids.*
@@ -41312,7 +41449,7 @@ Autonomy‑claiming **performers** (*RoleAssignments* over services/robots/teams
 | **Simplicity vs Auditability** | Lightweight authoring vs ledger‑grade evidence                           |
 | **Autonomy vs SoD**            | Helpful self‑action vs separation‑of‑duties and human‑in‑the‑loop points |
 
-### E.16:3.1 - Bias-Annotation
+#### E.16:3.1 - Bias-Annotation
 
 **Lenses tested:** `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`. **Scope:** Universal for any Role/Method/Service that claims autonomous operation (unsupervised decision or actuation) and is admitted via `AutonomyBudgetDecl` + Green‑Gate. It is **not** aimed at purely assistive “suggestion‑only” tools where each action is confirmed by a human at the point of execution.
 
@@ -41347,6 +41484,8 @@ AutonomyBudgetDecl {
 }
 ```
 
+**E.16‑S1.A (Scout / probe / commit partition for bounded specialization).**
+When an autonomy-bearing method uses bounded specialization scouting, the budget declaration **MUST** keep scout budget, probe budget, and commit checkpoint as distinct control surfaces rather than collapsing them into one undifferentiated burn envelope. A successful probe does not by itself authorize a committed route, wider burn, or scope widening. Leaving probe state requires one explicit checkpoint decision through the declared guard or override path, with budget burn and residual budget recorded in the `AutonomyLedger`. `E.16` owns this budget partition plus guard and ledger enforcement; it does not replace the dyadic move of `A.15` or the `CheckpointReturn` plan semantics of `C.24`.
 **E.16‑S2 (Guarded enactment — Green‑Gate).**
 A **Method step** that *requires* autonomy **MUST** list `requires: [RoleX]` **and** `requiresAutonomyBudget: AutonomyBudgetDecl.id`. A **Work** instance is admissible *iff* at enactment time:
 
@@ -41426,13 +41565,15 @@ If no **ScaleLensPolicy** is declared, selection remains **neutral** with respec
 | **E.16‑CC‑5** | **Depletion** **MUST** block autonomy‑gated steps until a **ResumeAutonomy** SpeechAct passes SoD and guard checks.                                                         |
 | **E.16‑CC‑6** | **UTS rows** for autonomy‑bearing Roles/Methods/Services **MUST** include `AutonomyBudgetDeclRef`, `Aut-Guard policy-id (PolicyIdRef)`, `OverrideProtocolRef`, `Scope (G)`, and `Γ_time`. |
 
+| **E.16‑CC‑7** | When bounded specialization scouting is in scope, scout budget, probe budget, and commit checkpoint **MUST** stay explicit, and a successful probe **SHALL NOT** count as automatic committed rollout. |
+
 ### E.16:7 - Consequences
 
 * **Testability.** Autonomy is measurable (tokens/envelopes), audit‑ready (ledger), and stoppable (SpeechActs).
 * **Comparability.** UTS surfaces autonomy metadata for fair selection & parity.
 * **Safety.** Guards are hard gates; depletion halts further autonomy‑gated Work.
 
-### E.16:7.1 - SoTA‑Echoing (post‑2015 practice alignment)
+#### E.16:7.1 - SoTA‑Echoing (post‑2015 practice alignment)
 
 > Each item states **Adopt / Adapt / Reject**, and why. Vendor/tool tokens are kept as *informative*, not normative.
 
@@ -41454,7 +41595,9 @@ If no **ScaleLensPolicy** is declared, selection remains **neutral** with respec
 6. **Scaling laws & the Bitter Lesson (2019→).**  
    **Adapt/Reject.** Empirical scaling work and the Bitter Lesson motivate considering compute‑heavy search when returns are monotonic (Sutton, 2019; Kaplan et al., 2020). E.16 adapts this into an **optional** ScaleLensPolicy (E.16‑S7) constrained by the *same* budgets and guards, and **rejects** any interpretation that lets “scale” bypass safety gates.
 
-### E.16:7.2 - Common Anti-Patterns and How to Avoid Them
+7. **Budgeted specialist acquisition and checkpointed exploitation (2024→).**
+   **Adopt/Adapt.** Recent agentic tool-use, self-play, and open-ended search lines reinforce that the competition variable is time or budget to threshold plus fast exploitation after a viable route is found. E.16 adapts this into distinct scout/probe/commit control surfaces and rejects any reading where early probe success authorizes rollout without an explicit checkpoint.
+#### E.16:7.2 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Why it fails | Repair |
 | --- | --- | --- | --- |
@@ -55771,12 +55914,25 @@ All of these remain method‑specific semantics and therefore belong in `Extensi
 
 ## G.5 - Multi‑Method Dispatcher & MethodFamily Registry
 
-**Tag.** Architectural pattern (dispatcher/registry kit; selector façade)
-**Stage.** *design‑time* authoring & registration with a *run‑time* selector façade (policy‑governed; edition‑aware)
-**Primary output.** `MethodFamily Registry@CG‑Frame` + `GeneratorFamily Registry@CG‑Frame` + `Selector façade` surfaces (candidate sets, portfolio artefacts, DRR/SCR‑addressable audit pins)
-**Primary hooks.** `G.Core`, `G.0 (CG‑Spec)`, `A.19 (CN‑Spec)`, `G.1–G.4`, `G.6–G.7`, `G.9–G.11`, `UTS (F.17–F.18)`, `GateCrossing/CrossingBundle (E.18; A.21)`, `CSLC (A.18)`, optional method/generator owners via Extensions (`C.18`, `C.19`, `C.23`, …).
+### G.5:0 - Use this when
 
-**Non‑duplication note (Phase‑2, normative intent).** Universal Part‑G invariants (no shadow specs, crossing visibility, tri‑state, penalties→`R_eff` only, set‑return semantics, P2W split, typed RSCR causes, default ownership, shipping boundary) are **single‑owner in `G.Core`** and are **not re‑specified** here. This pattern cites them through the linkage manifest in **`G.5:4.1`** and (where needed for ID‑continuity) via **delegation statements** in `CC‑G5.*`.
+- several method families or generator families can lawfully act on the same declared task family or work target
+- you need one selector to return a portfolio, narrowed handoff plan, or abstain outcome without pretending that there is always one scalar winner
+- downstream parity, refresh, and shipping surfaces must be able to recover why the selector returned that outcome by value
+
+### G.5:0.1 - What goes wrong if missed
+
+- rival families are compared under silent comparator drift, hidden baseline changes, or unspoken crossing costs
+- the selector hides one dogmatic winner even when only a partial order is lawful
+- exploration, open-ended, or specialization pressure leaks in as one architecture convenience rather than one explicit policy-bound choice
+
+### G.5:0.2 - What this buys
+
+- one registry that keeps rival method families disjoint but dispatchable
+- one selector surface that can publish candidate sets, specialist portfolios, narrowed handoff plans, or abstain outcomes honestly
+- one DRR/SCR-addressable trace that later `G.9`, `G.11`, and shipping surfaces can consume without inventing shadow rules
+
+G.5 keeps the dispatcher/registry surfaces here and leaves universal Part‑G invariants to `G.Core`; method- or generator-specific semantics stay in their named source patterns and arrive here only through explicit pins.
 
 ### G.5:1 - Problem frame
 
@@ -55801,8 +55957,8 @@ How to design a **general, auditable dispatcher** that:
 * produces **set‑valued outcomes** when only partial orders are lawful;
 * cleanly separates:
 
-  * **pattern‑owned kit/surfaces** (registry + selector façade + publication surfaces),
-  * **universal Part‑G invariants** (owned by `G.Core`),
+  * **selector kit/surfaces** (registry + selector façade + publication surfaces),
+  * **universal Part‑G invariants** (carried by `G.Core`),
   * **method/generator specifics** (wired only via `Extensions` blocks).
 
 ### G.5:3 - Forces
@@ -55817,7 +55973,7 @@ How to design a **general, auditable dispatcher** that:
 
 #### G.5:4.1 - G.Core linkage (normative)
 
-**Builds on:** `G.Core` (Part‑G core invariants; single‑owner routing)
+**Builds on:** `G.Core` (Part‑G core invariants; single-source default routing)
 
 **GCoreLinkageManifest (normative; size‑controlled via profiles/sets).**
 Effective obligations/pins/triggers are computed by union expansion of the referenced ids (per `G.Core:4.2.1`). Profiles/sets + explicit deltas; `Nil‑elision` applies.
@@ -55852,9 +56008,9 @@ Effective obligations/pins/triggers are computed by union expansion of the refer
   * `GCoreTriggerSetId.RefreshOrchestration`
     *(payload pins: `TaskSignatureRef`, `CGSpecRef.edition`, `CNSpecRef.edition`, `MethodFamilyId[]`, `GeneratorFamilyId[]?`, `AcceptanceClauseId[]?`, `SoSLogBranchId?`, `FailureBehaviorPolicyId?`, `DescriptorMapRef.edition?`, `DistanceDefRef.edition?`, `TransferRulesRef.edition?`, `InsertionPolicyRef?`, `PathId`, `PathSliceId`, `SCRId`, `DRRId`, `RSCRTestId[]`)*
 
-#### G.5:4.2 - Dispatcher & Registry kit (pattern‑owned; notation‑independent)
+#### G.5:4.2 - Dispatcher & Registry kit (notation‑independent)
 
-G.5 owns the **kit surfaces** below. Their purpose is to make dispatch **possible and auditable** without embedding any method‑family semantics in the selector kernel.
+G.5 defines the **kit surfaces** below. Their purpose is to make dispatch **possible and auditable** without embedding any method-family semantics in the selector kernel.
 
 **S1 — `MethodFamily Registry` (design‑time; per CG‑Frame).**
 A registry row represents *a family*, not a single implementation. Minimal fields (conceptual, notationally independent):
@@ -55865,15 +56021,15 @@ A registry row represents *a family*, not a single implementation. Minimal field
 * `LegalityBindings`: explicit references to the **single** governance card and legality gate (`CNSpecRef`, `CGSpecRef`) and to any required legality constraints (e.g., scale/unit legality via CSLC).
 * `EvidencePins`: citations to `G.6` (`PathId/PathSliceId`) for claims/guarantees where such claims are asserted.
 * `CrossingAllowance`: explicit Bridge/CL allowance pins **only** if cross‑Context operation is claimed.
-* `PolicyHooksRef?`: optional pointers to policy owners (not defined here; wired via Extensions).
+* `PolicyHooksRef?`: optional pointers to policy surfaces (not defined here; wired via Extensions).
 
 **S1′ — `GeneratorFamily Registry` (design‑time; optional; per CG‑Frame).**
-A registry row for families that generate tasks/environments and/or co‑evolve solver families. G.5 owns the *surface*, not the generator semantics:
+A registry row for families that generate tasks/environments and/or co‑evolve solver families. G.5 carries the *surface*, not the generator semantics:
 
 * `Identity`: `GeneratorFamilyId`, `ContextId`, `UTSRowId`.
 * `GeneratorSignatureRef`: conceptual I/O and budget semantics.
 * `EnvironmentValidityRegionRef?`: pinned constraints for generated environments/tasks.
-* `TransferRulesRef.edition?`: required when the Open‑Ended mode is enabled (semantics owned elsewhere; see Extensions).
+* `TransferRulesRef.edition?`: required when the Open-Ended mode is enabled (semantics come from the cited extension surfaces).
 * `CouplerRefs?`: which `MethodFamilyId[]` can be coupled with this generator family.
 
 **S2 — `TaskSignature` façade (design‑time + run‑time).**
@@ -55889,8 +56045,15 @@ A notation‑independent selector that:
 * returns a **set/portfolio** result (per `DefaultId.PortfolioMode` and explicit overrides),
 * emits audit artefacts (DRR/SCR‑addressable pins).
 
+**S3.A — `TaskFamilySpecializationProfile@Context` (run‑time; conditional).**
+When the real selector burden is acquisition of usable specialization on a declared task family, the selector may publish one `TaskFamilySpecializationProfile@Context` for each candidate, specialist portfolio, or narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new kernel type and not a generic narrative profile. `G.5` consumes this burden over `C.22.1`; it does not re-own the adaptation-signature field vocabulary.
+
+The profile should therefore cite one `AdaptationSignatureRef` or equivalent pinned field set carrying the declared `TaskFamilyRef` or `TaskSignature`, the work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, any declared transfer or retention claim, any downside burden, and any corridor-entry baseline, corridor-entry evidence, or stepping-stone note that materially affects comparison.
+
+When the declared task family is heterogeneous, the selector may return one composed specialist portfolio, one narrowed handoff plan, or one small admissible set that preserves rival specialists rather than collapsing them into a fake single winner. Low-human-overlap candidates remain admissible only when the profile, evidence basis, and policy constraints are explicit by value.
+
 **S4 — `Composition & fallbacks` templates (design‑time).**
-A library of composition shapes (preconditioner → solver → verifier; cascades; meta‑selectors) **as templates**, legality‑checked and pinned. Concrete semantics of a particular strategy live in upstream method owners; G.5 only owns the composition surface.
+A library of composition shapes (preconditioner → solver → verifier; cascades; meta‑selectors) **as templates**, legality‑checked and pinned. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition surface.
 
 **S5 — `Publication & telemetry` surface (run‑time).**
 A standard surface to publish:
@@ -55902,20 +56065,11 @@ A standard surface to publish:
 **S6 — `Governance & evolution` surface (design‑time).**
 Versioning, deprecation, and registry evolution discipline (UTS publication; continuity), without minting new Part‑G‑wide types.
 
-#### G.5:4.3 - Selector specialization ladder (Phase‑2 alignment; head vs refinements)
+#### G.5:4.3 - Selector head and narrower selector families
 
-Selection/dispatch is treated as a **mechanism family** whose specialization ladder must obey the **A.6.1:4.2.1** discipline (SlotKind invariance; specialization only via `⊑/⊑⁺`; no new mandatory inputs introduced by inherited ops).
+Selection/dispatch stays one generic selector head. Narrower selector families may refine it, but they do not redefine the universal invariants routed via `G.Core`, do not add hidden mandatory inputs beyond pinned policy or edition refs, and do not mutate SlotKinds.
 
-**Normative alignment (cite, don’t duplicate):**
-
-* `SelectorMechanism` is the *head* intension (generic selector façade).
-* `SelectorMethodMechanism` and other method‑bound selectors are refinements (`⊑/⊑⁺`) that:
-
-  * do not redefine universal invariants (those are routed via `G.Core`),
-  * do not introduce new mandatory inputs to the selector façade beyond pinned policy/edition refs,
-  * keep SlotKinds stable (refinements may narrow by specialization, not mutate kinds).
-
-**Phase‑2 placement rule.** Method/generator specifics (QD archives, open‑ended portfolios, explore/exploit lenses, preference‑learning comparators, etc.) are **not** part of the selector head; they are connected via **`Extensions`** (`G.5:4.5`) through `Uses` and explicit pins.
+Method- and generator-specific pressures such as `QD` archives, open-ended portfolios, explore/exploit lenses, or preference comparators do not become part of the selector head. They arrive only through explicit extension wiring and the pins those extensions require.
 
 #### G.5:4.4 - Interfaces (minimal I/O surface)
 
@@ -55925,11 +56079,19 @@ Selection/dispatch is treated as a **mechanism family** whose specialization lad
 | **G.5‑2 RegisterGeneratorFamily** | `SoTA` generator family cards (from `G.2`), `ContextId`, pinned refs (including `TransferRulesRef.edition` when applicable)                                  | A `GeneratorFamily` registry row (`GeneratorFamilyId`, `GeneratorSignatureRef`, `UTSRowId`, pinned refs)                                                                                                                                                   |
 | **G.5‑3 Select**                  | `TaskSignatureRef`, `MethodFamilyId[]` (in scope), pinned `CNSpecRef/CGSpecRef` (editions), policy refs (if any), audit citation pins (`PathId/PathSliceId`) | `CandidateSet` (set‑returning), portfolio artefact (per `PortfolioMode`), `DRR + SCR` pins; if no admissible candidate exists: return `CandidateSet=∅` plus an escalation hint (`ActionHint`) and the pins required to plan next steps (P2W split applies) |
 | **G.5‑4 Compose**                 | `CandidateSet`, composition template refs, pinned legality constraints                                                                                       | Composite strategy surface (template‑level; legality‑checked; pinned)                                                                                                                                                                                      |
-| **G.5‑5 Telemetry**               | run outcomes + citations + policy/edition pins                                                                                                               | refresh cues (typed RSCR causes + payload pins), parity deltas (if parity harness is in use), telemetry pins (selector‑side; orchestration owner is `G.11`)                                                                                                |
+| **G.5‑5 Telemetry**               | run outcomes + citations + policy/edition pins                                                                                                               | refresh cues (typed RSCR causes + payload pins), parity deltas (if parity harness is in use), telemetry pins (selector‑side; orchestration surface is `G.11`)                                                                                              |
+
+#### G.5:4.4a - Worked selector slice
+
+- A catalyst-search team is choosing among three method families for the same declared `TaskSignature` and `C.22.1` adaptation signature.
+- The shared profile pins one work-measure threshold target, one freshness window, one prior-exposure declaration, and one adaptation budget. One family reaches threshold quickly but carries high downside burden on adjacent tasks. One family is slower but transfers cleanly. One family never clears `MinimalEvidence` and must abstain.
+- A lawful `G.5` result therefore publishes a set-return shortlist or a narrowed handoff plan, with `DRR/SCR` citing why the third family was excluded and why the first two remain non-dominated. The selector does not invent one scalar winner and does not hide the specialization profile in wiring notes.
 
 #### G.5:4.5 - Extensions (pattern‑scoped; non‑core)
 
-All blocks below are **wiring‑only**: they declare `Uses` and required pins, but do not redefine semantics owned by the referenced patterns.
+Most working readers can stop after `G.5:4.4a`. The blocks below are binding-only docking records used only when the corresponding mode is actually active.
+
+All blocks below are **wiring‑only**: they declare `Uses` and required pins, but do not redefine semantics already defined in the referenced patterns.
 
 **GPatternExtension block: `G.5:Ext.EELog`**
 
@@ -55941,7 +56103,7 @@ All blocks below are **wiring‑only**: they declare `Uses` and required pins, b
 * `⊑/⊑⁺`: `∅`
 * `RequiredPins/EditionPins/PolicyPins (minimum):`
 
-  * `EELensPolicyRef` *(or equivalent lens/policy id owned by `C.19`)*
+  * `EELensPolicyRef` *(or equivalent lens/policy id carried by `C.19`)*
   * `RiskBudgetRef?`
   * `ProbeAccountingRef?`
   * `FailureBehaviorPolicyId?` *(if degrade behavior is routed through policy)*
@@ -55964,7 +56126,7 @@ All blocks below are **wiring‑only**: they declare `Uses` and required pins, b
   * `SoSLogRuleId[]`
   * `SoSLogBranchId[]` *(including escalation branches, if used)*
   * `FailureBehaviorPolicyId` *(if degrade behavior is made explicit)*
-  * `MaturityRungId[]?` *(when maturity ladders are used as gates; semantics owned by `C.23`)*
+  * `MaturityRungId[]?` *(when maturity ladders are used as gates; semantics come from `C.23`)*
   * `AdmissibilityLedgerRef?` *(when selector consumes admissibility rows rather than recomputing thresholds)*
 * `RSCRTriggerKindIds`: `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.EvidenceSurfaceEdit}`
 * `Notes (wiring‑only; semantics routed):`
@@ -56013,24 +56175,6 @@ All blocks below are **wiring‑only**: they declare `Uses` and required pins, b
   * This block enables portfolios of `{Environment, MethodFamily}` pairs without redefining generator semantics in G.5.
   * Post‑2015 examples typically referenced via `G.2` family cards: POET‑class and later open‑ended/co‑evolutionary regimes, including enhanced variants where transfer policies and validity gates must be edition‑pinned.
 
-**GPatternExtension block: `G.5:Ext.PreferenceComparators`** *(Phase‑3 seed; owner TBD)*
-
-* `PatternScopeId`: `G.5:Ext.PreferenceComparators`
-* `GPatternExtensionId`: `PreferenceComparators`
-* `GPatternExtensionKind`: `Phase3Seed`
-* `SemanticOwnerPatternId`: `owner TBD`
-* `Uses`: `∅`
-* `⊑/⊑⁺`: `∅`
-* `RequiredPins/EditionPins/PolicyPins (minimum):`
-
-  * `PreferenceModelRef.edition?`
-  * `ComparatorSpecRef.edition?`
-  * `QueryPolicyRef?` *(e.g., when preference elicitation is interactive)*
-* `RSCRTriggerKindIds`: `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta}`
-* `Notes (seed only; no Phase‑2 norming):`
-
-  * Reserved for preference‑learning and human‑in‑the‑loop comparator families (post‑2015), where “legality of comparison” and audit pins must be explicit. Formal owner pattern to be introduced in Phase‑3 if needed.
-
 ### G.5:5 - Archetypal Grounding
 
 **Tell (archetype).**
@@ -56049,7 +56193,7 @@ System keeps the selector head unchanged, but activates `G.5:Ext.NQD` (pins `Des
 Potential biases and failure modes this pattern explicitly guards against:
 
 * **Monoculture bias (single Tradition dominance by default).** Mitigation: registry requires explicit eligibility/assurance surfaces; selection is set‑returning under partial orders; method‑specific policies are explicit pins, not hard‑coded defaults.
-* **Hidden scalarisation bias.** Mitigation: set‑return semantics is core‑routed; dominance regimes are explicit and default ownership is single‑owner.
+* **Hidden scalarisation bias.** Mitigation: set‑return semantics is core‑routed; dominance regimes are explicit and default routing is singular and declared.
 * **“Tool equals method” bias.** Mitigation: notation independence + prohibition of tool keywords in core registry/eligibility fields; tool choices are outside the core.
 * **Cross‑Context leakage bias.** Mitigation: explicit crossing pins only; Bridges + CL are required when crossings occur; no implicit crossings.
 * **Survivorship bias in refresh.** Mitigation: RSCR triggers are typed/id‑based; freshness/decay and telemetry deltas are first‑class causes with canonical ids.
@@ -56063,7 +56207,7 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.1`       | Every `MethodFamily` **SHALL** declare an `EligibilityStandardRef` using CHR/CAL terms (typed; edition‑pinned where applicable). Standards **SHALL NOT** rely on tool‑specific keywords.  |
 | `CC‑G5.2`       | Selection **SHALL** be a pure function of `TaskSignatureRef` + pinned policy/edition refs; side effects are limited to emitting DRR/SCR pins and telemetry/RSCR triggers (no hidden mutation of contract surfaces). |
 | `CC‑G5.3`       | **Delegated (ID‑continuity).** Cross‑Context use **MUST** follow `G.Core` crossing visibility and penalty routing. **Delegation targets:** `CC‑GCORE‑CROSS‑1`, `CC‑GCORE‑PEN‑1`.  |
-| `CC‑G5.4`       | **Default owner for** `DefaultId.GammaFoldForR_eff`. The selector **MUST** default to the weakest‑link rule for `R_eff` and record contributors in SCR; it **MAY** use an alternative Γ‑fold only when provided by an explicitly pinned policy/profile with proof obligations satisfied (monotonicity; boundary behavior). |
+| `CC‑G5.4`       | **Default rule for** `DefaultId.GammaFoldForR_eff`. The selector **MUST** default to the weakest‑link rule for `R_eff` and record contributors in SCR; it **MAY** use an alternative Γ‑fold only when provided by an explicitly pinned policy/profile with proof obligations satisfied (monotonicity; boundary behavior). |
 | `CC‑G5.5`       | Ordinal scales **MUST NOT** be averaged/subtracted; any aggregation/comparison must respect CHR scale typing and legality constraints (incl. CSLC where applicable). |
 | `CC‑G5.6`       | Method and generator family identities **SHALL** be published to UTS with the required naming discipline (twin labels where applicable; deprecations follow lexical continuity rules). *(Core routing applies; G.5 adds the registry‑specific publication obligation.)* |
 | `CC‑G5.7`       | **Conditional.** If `G.5:Ext.EELog` is present, exploration **MUST** be budgeted under the pinned E/E‑LOG policy; probe outcomes **MUST** feed refresh via canonical RSCR trigger kinds. |
@@ -56073,7 +56217,7 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.11`      | **Delegated (ID‑continuity).** Tri‑state eligibility/acceptance semantics and unknown handling are routed via `G.Core`. **Delegation target:** `CC‑GCORE‑GUARD‑1`. *(Includes the rule that `degrade(...)` is expressed via a pinned FailureBehavior/SoS‑LOG branch id — not as a fourth status.)* |
 | `CC‑G5.12`      | **No “universal” cross‑Tradition scoring.** Cross‑Tradition selection **MUST NOT** rely on a single numeric formula not justified by pinned CHR/CAL constraints and the contract surfaces. If a triad/portfolio **claims universality**, it **MUST** satisfy **explicit, pinned** heterogeneity gates (ids/pins), e.g., `FamilyCoverage ≥ k` and `MinInterFamilyDistance ≥ δ_family`, where `k` and `δ_family` are declared by the pinned policy/TaskSignature/SoTA pack, and cite the relevant **Context Card id (F.1)** in DRR/SCR; otherwise treat the outcome as Context‑local.  |
 | `CC‑G5.13`      | **Conditional.** If the selector consumes admissibility/maturity artefacts (e.g., via `G.5:Ext.SoSLOG`), it **MUST NOT** recompute thresholds; it consumes pinned admissibility ledger rows and cites clause/rung ids in audit pins. |
-| `CC‑G5.14`      | **Φ(CL) / Φ_plane discipline.** If crossing or plane penalties are applied, the active penalty policy ids (e.g., `Φ(CL)`, `Φ_plane`) **MUST** be explicit in audit pins, and the pinned policies **MUST** satisfy the monotone & bounded requirements asserted by their owners and be published via the owner surface (e.g., `CG‑Spec`). SCR **MUST** record the policy‑id in use; penalty routing semantics remain routed via `G.Core`. |
+| `CC‑G5.14`      | **Φ(CL) / Φ_plane discipline.** If crossing or plane penalties are applied, the active penalty policy ids (e.g., `Φ(CL)`, `Φ_plane`) **MUST** be explicit in audit pins, and the pinned policies **MUST** satisfy the monotone & bounded requirements asserted by their cited contract surfaces and be published via those same cited surfaces (e.g., `CG‑Spec`). SCR **MUST** record the policy‑id in use; penalty routing semantics remain routed via `G.Core`. |
 | `CC‑G5.15`      | Units/scale legality **MUST** be established via CSLC (A.18) before any aggregation or Γ‑fold; unit/scale mismatches are a fail‑fast defect. |
 | `CC‑G5.16`      | Hidden thresholds are forbidden. Thresholds live in explicitly pinned acceptance/eligibility policy artefacts, not in selector prose, LOG shells, or code.  |
 | `CC‑G5.17`      | ReferencePlane **MUST** be declared (pinned) for any claim that is used in dispatch, and the selector’s audit artefacts must cite it (including plane‑crossing pins when applicable). |
@@ -56082,17 +56226,18 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.20`      | **Conditional (QD).** QD/illumination summaries are treated as telemetry unless explicitly promoted by a pinned acceptance/policy artefact; the selector must record the promoting policy id in audit pins. |
 | `CC‑G5.21`      | **Conditional (Archive/QD).** Any use of archives **MUST** declare `InsertionPolicyRef` and pin the required editions for reproducibility (e.g., descriptor/distance definitions and any method editions they depend on).  |
 | `CC‑G5.22`      | **Conditional (QD).** Twin‑naming discipline for descriptor vs plain space (if used) must be respected (distinct objects; no aliasing).  |
-| `CC‑G5.23`      | **Default owner for** `DefaultId.PortfolioMode`. The selector **MUST** expose `PortfolioMode ∈ {Pareto, Archive}` with **default = `Archive`**, and echo it in DRR/SCR and portfolio artefacts when not explicitly overridden by pinned policy/TaskSignature. `ε`‑fronts are allowed as *local* decision aids under `CG‑Spec` when explicitly pinned.  |
+| `CC‑G5.23`      | **Default rule for** `DefaultId.PortfolioMode`. The selector **MUST** expose `PortfolioMode ∈ {Pareto, Archive}` with **default = `Archive`**, and echo it in DRR/SCR and portfolio artefacts when not explicitly overridden by pinned policy/TaskSignature. `ε`‑fronts are allowed as *local* decision aids under `CG‑Spec` when explicitly pinned.  |
 | `CC‑G5.23a`     | **Parity‑run publication.** If parity harness is in use, a selector/generator **MUST** publish a parity run and `ParityCard` to **UTS** (see `G.9`). This obligation remains mandatory irrespective of dominance/portfolio policy. |
 | `CC‑G5.24`      | **Conditional (Open‑Ended).** If `G.5:Ext.OpenEndedFamilyWiring` is present, the selector **MUST** support portfolios of `{Environment, MethodFamily}` pairs as set‑valued outcomes under explicit pins. |
 | `CC‑G5.25`      | **Conditional (Open‑Ended).** In Open‑Ended mode, `TransferRulesRef.edition` is mandatory and **MUST** be visible to telemetry and RSCR triggers.  |
 | `CC‑G5.26`      | **Conditional (Archive/QD).** Within any archive niche/cell, ordering and tie‑breaks **MUST** remain lawful over compatible scales; illegal mixed‑scale weighted sums are forbidden. |
 | `CC‑G5.27`      | If the selector cites any `GateCrossing`, the corresponding `CrossingBundle` publication **MUST** be present and conformant; missing/non‑conformant `CrossingBundle` blocks downstream consumption. | 
-| `CC‑G5.28`      | **Default owner for** `DefaultId.DominanceRegime`. `DominanceRegime` **SHALL** default to `ParetoOnly`. Any inclusion of additional telemetry dimensions into dominance (e.g., illumination) requires an explicitly pinned acceptance/policy artefact and must be recorded in audit pins. **Parity‑run publication (CC‑G5.23a) remains mandatory** irrespective of dominance policy. |
+| `CC‑G5.28`      | **Default rule for** `DefaultId.DominanceRegime`. `DominanceRegime` **SHALL** default to `ParetoOnly`. Any inclusion of additional telemetry dimensions into dominance (e.g., illumination) requires an explicitly pinned acceptance/policy artefact and must be recorded in audit pins. **Parity‑run publication (CC‑G5.23a) remains mandatory** irrespective of dominance policy. |
 | `CC‑G5.29`      | **Conditional (QD/Open‑Ended).** Any telemetry event that materially changes an archive/portfolio state **MUST** log `PathSliceId`, the active policy id, and the active editions of the relevant definition pins (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `TransferRulesRef.edition` when applicable) and expose them to RSCR triggers. |
 | `CC‑G5.30`      | **No Strategy minting.** Within `G.5`, “strategy” is a policy‑bound composition surface; the pattern **SHALL NOT** mint a new universal `U.Type` named `Strategy` (E.10 discipline). If a stable reference is needed, publish composition/policy ids (e.g., UTS entries) rather than minting a universal type. |
 | `CC‑G5.31`      | **Strategy hint on non‑admissible sets.** If selection yields `CandidateSet = ∅`, the selector **SHALL** emit an explicit escalation hint (`ActionHint`) that is **DRR/SCR‑compatible** and auditable: include (at minimum) the top‑3 blocking constraints as cited ids/pins, and (where applicable) the relevant edition pins (e.g., `TransferRulesRef.edition` in Open‑Ended mode) to guide exploration under explicitly pinned lenses (e.g., E/E‑LOG). |
 | `CC‑G5.32`      | **Parity‑run publication + lawful roll‑ups.** If parity harness is in use, parity publication is required per `CC‑G5.23a` (ID‑continuity). Any scalar roll‑up or summary view **MUST** be lawful under **CG‑Spec** (no mixed‑scale sums), and published views must preserve set‑return semantics (no single‑score leaderboards as authoritative outputs without an explicit, lawful comparator surface). |
+| `CC‑G5.33`      | **Conditional (bounded specialization).** When the selection burden is acquisition of usable specialization on a declared `TaskFamilyRef` or `TaskSignature`, selector outputs **SHALL** either publish `TaskFamilySpecializationProfile@Context` or cite equivalent pins carrying the `C.22.1` adaptation-signature fields needed for comparison: work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, and any declared transfer, retention, downside, or corridor-entry notes. |
 
 ### G.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -56128,7 +56273,7 @@ Potential biases and failure modes this pattern explicitly guards against:
 * **Why registries?** Dispatch requires stable, auditable “family objects” with explicit eligibility and assurance surfaces; otherwise selection collapses into ad‑hoc tooling.
 * **Why separation via Extensions?** QD/OEE/preference‑learning and similar families are fast‑moving and method‑specific; making them part of the selector head would force a universal semantics and violate strict distinction.
 * **Why set‑return?** Partial orders are common and often the only lawful representation under heterogeneous scales; set‑return preserves semantics and makes tie criteria explicit.
-* **Why explicit defaults with single owners?** Defaults are unavoidable; single‑owner indexing prevents competing defaults from silently diverging across patterns.
+* **Why explicit defaults with one declared source?** Defaults are unavoidable; single-source indexing prevents competing defaults from silently diverging across patterns.
 
 ### G.5:11 - SoTA-Echoing
 
@@ -56136,10 +56281,12 @@ This pattern is designed to **host** (not redefine) post‑2015 SoTA families vi
 
 * **Quality‑Diversity / illumination (post‑2015 refinements).** Archive‑centric QD families (e.g., MAP‑Elites‑line evolutions, CMA‑ME‑line hybrids) fit naturally as `G.5:Ext.NQD` wiring with explicit descriptor/distance/insertion pins.
 * **Open‑Endedness (post‑2015 wave).** POET‑class and later open‑ended/co‑evolutionary families dock via generator registries + `TransferRulesRef.edition` pins (`G.5:Ext.OpenEndedFamilyWiring`).
-* **Algorithm selection & meta‑selection.** Modern selection under uncertainty, robust evaluation, and policy‑driven probing regimes dock via explicit policy owners (`C.19`‑style lenses) and typed telemetry pins, rather than as hard‑coded scoring rules.
-* **Preference‑learning comparators.** Interactive and learned‑preference regimes (post‑2015) are treated as comparator/policy artefacts with explicit editions (Phase‑3 seed stub provided).
+* **Algorithm selection & meta‑selection.** Modern selection under uncertainty, robust evaluation, and policy‑driven probing regimes dock via explicit policy surfaces (`C.19`‑style lenses) and typed telemetry pins, rather than as hard‑coded scoring rules.
+* **Budgeted specialist acquisition.** Current agentic search lines compete on time or budget to threshold plus truthful portfolio return when heterogeneous specialists remain non-dominated, so G.5 keeps specialization profiles and set-return semantics explicit instead of forcing one static breadth winner.
+* **Preference‑learning comparators.** Interactive and learned‑preference regimes (post‑2015) are treated as comparator/policy artefacts with explicit editions when they are actually declared.
 
 SoTA here is treated as **best‑known practice for a declared goal and constraint regime**, not “what is currently popular”.
+Evidence-tier note: peer-reviewed anchors carry the strongest support for typed comparison, budget-to-threshold, and truthful portfolio return. Faster-moving workshop, poster, or frontier-exploration lines remain explicit support for corridor-entry or open-ended pressure, not silently equal evidence for every selector claim.
 
 ### G.5:12 - Relations
 
@@ -56151,9 +56298,9 @@ SoTA here is treated as **best‑known practice for a declared goal and constrai
 * Upstream kits: `G.1 (CG‑Frame Card)`, `G.2 (SoTA Pack)`, `G.3 (CHR Pack)`, `G.4 (CAL Pack)`.
 * Evidence & crossings: `G.6 (EvidenceGraph; PathId/PathSliceId)`, `G.7 (Bridge/CL calibration)`, `E.18/A.21 (CrossingBundle/GateChecks)`.
 * Planning/enactment boundary: `A.15.3 (SlotFillingsPlanItem)` as the planned baseline anchor (cited, not redefined).
-* Optional method/generator owners via `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus any future owner patterns (Phase‑3).
+* Optional method/generator extensions via `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus any future extension-bearing patterns that add extra selector pins.
 
-**Publishes to:** `UTS` (family ids, selector policy surfaces), `G.6` (audit citations), RSCR emission surfaces (typed triggers + payload pins), and downstream packs via the canonical shipping owner (`G.10`).
+**Publishes to:** `UTS` (family ids, selector policy surfaces), `G.6` (audit citations), RSCR emission surfaces (typed triggers + payload pins), and downstream packs via `G.10` shipping surfaces.
 
 ### G.5:End
 
@@ -57393,14 +57540,25 @@ This pattern’s separation of **decision rules**, **acceptance thresholds**, **
 
 ## G.9 — Parity / Benchmark Harness
 
-**Tag:** Architectural pattern
-**Stage:** design‑time planning **+** run‑time execution (selector‑adjacent)
-**Primary hooks:** **G.Core** (core invariants & linkage catalogues), **G.5** (selector & portfolio semantics), **G.6** (EvidenceGraph, `PathId`/`PathSliceId`), **G.4** (Acceptance & CAL predicates), **G.0** (CG‑Spec legality surface), **A.19** (CN‑Spec governance card), **C.22** (TaskSignature S2), **C.23** (SoS‑LOG branches & maturity; guard narration), **C.18/C.19** (QD & E/E‑LOG pins, when used), **G.7** (Bridge calibration / CL regimes; BCT/Sentinels), **F.15** (RSCR parity/regression harness), **F.9** (Bridges & CL), **G.11** (refresh orchestration), **G.10** (shipping), **E.18/A.21/A.27** (GateCrossing & CrossingBundle), **E.5.2** (notation‑independence), **E.10** (LEX discipline).
+### G.9:0 — Use this when
 
-**Why this exists.** “Benchmarking” rival MethodFamilies/Traditions routinely fails for reasons that are *not* about compute: window mismatch, silent edition drift, unpinned comparator semantics, covert cross‑Context reuse, or “making a scalar winner” out of a partial order. **G.9** provides a **ParityPlan@Context** (WorkPlanning) and a **ParityReport@Context** (Work/Audit) that make parity runs **reproducible and audit‑addressable**, so that downstream selection (via **G.5**) can consume parity outcomes *without inventing new legality gates or shadow governance cards*.
-Illumination/coverage/regret signals are treated as **telemetry (report‑only by default)**; any promotion of telemetry into dominance is an **explicit CAL policy** and MUST be recorded via a pinned **policy‑id** in audit pins (the harness does not “smuggle” objectives).
+- rival method families, portfolios, or adaptation paths must be compared under one declared baseline set and freshness window
+- you need parity to publish one reproducible report rather than one opaque benchmark score
+- downstream selection must recover comparator, normalization, bridge, and evidence pins without relying on one hidden scoring sheet
 
-**Modularity note.** G.9 does **not** redefine CN‑Spec, CG‑Spec, CHR, Acceptance, or SoS‑LOG semantics. It only **pins and wires** the relevant refs/editions/policy‑ids, executes parity as a **selector‑adjacent** harness, and publishes an auditable trace (EvidenceGraph paths + pins).
+### G.9:0.1 — What goes wrong if missed
+
+- benchmark numbers mix different windows, baselines, or comparator editions and still pretend to be comparable
+- cross-context reuse or normalization mapping stays hidden until a disagreement appears downstream
+- parity flattens a partial order into one scalar winner and silently changes what the comparison means
+
+### G.9:0.2 — What this buys
+
+- one `ParityPlan@Context` that fixes baseline, freshness, comparator, and bridge discipline up front
+- one `ParityReport@Context` that echoes the active pins, outcomes, and evidence trace by value
+- one harness that downstream selection can consume without inventing new legality gates or shadow governance cards
+
+Illumination, coverage, and regret remain telemetry by default. If they are promoted into dominance, that promotion must be one explicit policy-bound choice rather than one hidden scoring convenience.
 
 ### G.9:1 — Intent
 
@@ -57465,7 +57623,7 @@ Effective obligations/pins/triggers are computed as **union(expand(sets), explic
   `DefaultId.PortfolioMode`,
   `DefaultId.GammaFoldForR_eff`
   }
-  *(Owners are routed via `G.Core.DefaultOwnershipIndex` (not restated here); expected owners include `CC‑G5.28`, `CC‑G5.23`, `CC‑G5.4` respectively.)*
+  *(Defaults are routed via `G.Core.DefaultOwnershipIndex` (not restated here); the expected default routes are `CC‑G5.28`, `CC‑G5.23`, `CC‑G5.4` respectively.)*
 
 * `CorePinSetIds` := {
   `GCorePinSetId.PartG.AuthoringMinimal`,
@@ -57490,7 +57648,7 @@ Effective obligations/pins/triggers are computed as **union(expand(sets), explic
 
 #### G.9:4.1 — Objects and surfaces
 
-All objects below are **notation‑independent**; serialisations (if any) live under shipping/interop ownership, not here.
+All objects below are **notation‑independent**; serialisations (if any) are handled in shipping/interop surfaces, not here.
 
 **(1) `ParityPlan@Context`** *(WorkPlanning surface)*
 A plan that fixes *what is being compared* and *under what pinned conditions*.
@@ -57499,15 +57657,15 @@ Minimal fields (conceptual; ids/pins only):
 
 `ParityPlan@Context := ⟨  
   ParityPlanId(UTS),  
-  CGFrameId?,                              // or CG-FrameContext id/scope anchor used by the owner surfaces
+  CGFrameId?,                              // or CG-FrameContext id/scope anchor cited by the referenced frame surfaces
   describedEntity := ⟨GroundingHolon, ReferencePlane⟩,
-  UNM_id?, NormalizationMethodId[]?, NormalizationMethodInstanceId[]?, // when “normalize, then compare” is required (ids only; semantics owned by CN‑Spec / UNM)
+  UNM_id?, NormalizationMethodId[]?, NormalizationMethodInstanceId[]?, // when “normalize, then compare” is required (ids only; semantics come from CN‑Spec / UNM)
   EpsilonDominance?,                       // optional ε-front thinning (ε≥0; id/param; pinned when used)
-  PortfolioMode?, DominanceRegime?,         // may be explicit or routed via DefaultOwnership (semantics owned by G.5)
-  HomeContextId,  
-  BaselineSet,                            // method-family / generator-family baseline scope (ids; notation-independent)  
-  BaselineBindingRef,                      // e.g., EvidenceGraph/PathSlice binding to “what counts as baseline”  
-  FreshnessWindows,  
+  PortfolioMode?, DominanceRegime?,         // may be explicit or inherited via DefaultOwnership (semantics follow G.5)
+  HomeContextId,
+  BaselineSet,                            // method-family / generator-family baseline scope (ids; notation-independent)
+  BaselineBindingRef,                      // evidence-backed baseline-set reference that says what counts as baseline
+  FreshnessWindows,
   CNSpecRef.edition, CGSpecRef.edition, ComparatorSpecRef.edition, // edition-pinned refs
   SCPRef.edition?,                         // optional (when a specific SCP profile must be pinned/cited)
   MinimalEvidenceRef.edition?,             // optional (when CG-Spec exposes minima profiles by ref)
@@ -57518,7 +57676,7 @@ Minimal fields (conceptual; ids/pins only):
 
 **(2) `ParityPinSet`** *(surface)*
 A declared set of pins required for reproducibility and audit (editions + policy‑ids + UTS/Path pins).
-The concrete contents are *pattern‑local* (G.9 owns the surface), but must satisfy the *core pin discipline* via G.Core.
+The concrete contents are *pattern-local* (G.9 carries the surface), but must satisfy the *core pin discipline* via `G.Core`.
 
 **(3) `ParityReport@Context`** *(Work / Audit surface)*
 A publication object produced by executing a ParityPlan.
@@ -57551,13 +57709,16 @@ A publication object produced by executing a ParityPlan.
 
 Planning is the act of making the parity run *reproducible by construction*:
 
-1. **Fix the baseline set.** Choose the `BaselineSet` (MethodFamilies, and optionally GeneratorFamilies) to compare; where parity context matters, cite `SoS‑LOGBundleId?` / maturity‑rung ids by reference (thresholds remain in `G.4` Acceptance).
+1. **Fix the baseline set.** Choose the `BaselineSet` (MethodFamilies, and optionally GeneratorFamilies) to compare; where parity context matters, cite `SoS‑LOGBundleId?` / maturity‑rung ids by reference (acceptance-gate thresholds remain in `G.4` Acceptance).
 2. **Bind scope.** Fix `describedEntity := ⟨GroundingHolon, ReferencePlane⟩` and record it in the plan (no silent widening/narrowing).
-3. **Define baseline binding.** Declare what counts as “baseline set” and how it is cited (e.g., `BaselineBindingRef` pointing to an EvidenceGraph slice or an upstream shipped artefact id).
+3. **Define baseline-set reference.** Declare what counts as “baseline set” and how it is cited (e.g., `BaselineBindingRef`, the evidence-backed baseline-set reference, pointing to an EvidenceGraph path slice or an upstream shipped artefact id).
 4. **Equalise window (and budget, if pinned).** Declare a single `FreshnessWindows` and apply it across all baselines; if `Budgeting` is used/pinned, it MUST be shared/pinned across baselines as well.
+
+When specialization is the live burden, the same plan should also hold constant the declared task family or target scope cut, the work-measure threshold target, adaptation budget, prior exposure declaration, and freshness window; if transfer, retention, downstream exploitation efficiency, downside burden, or corridor entry are part of the claim, those pins should be explicit as well, including the baseline relative to which corridor entry is being claimed.
+
 5. **Pin governance, legality, and comparator references.** `CNSpecRef`, `CGSpecRef`, and `ComparatorSpecRef` are referenced with explicit edition pins.
-6. **Pin measurement/comparator definitions (conditional).** Where parity depends on mode‑specific artefacts (e.g., DHC/QD/OEE), pin the relevant definition ids/editions/policies. The minimum required pins are declared by the applicable `Extensions` blocks (e.g., `G.9:Ext.DHCParityPins`, `G.9:Ext.QDArchiveParity`, `G.9:Ext.OEEParity`) and the owner surfaces they cite.
-7. **Bind comparator choice to CG‑Spec (legality).** Any numeric comparison/aggregation MUST be CSLC‑lawful and cite the corresponding CG‑Spec entry (via `ComparatorSpecRef`). If Characteristics differ by unit/scale/space, the plan MUST declare the ids used for “normalize, then compare” (`UNM_id?`, `NormalizationMethodId[]?`, `NormalizationMethodInstanceId[]?`) — ids only; semantics is owned elsewhere.
+6. **Pin measurement/comparator definitions (conditional).** Where parity depends on mode‑specific artefacts (e.g., DHC/QD/OEE), pin the relevant definition ids/editions/policies. The minimum required pins are declared by the applicable `Extensions` blocks (e.g., `G.9:Ext.DHCParityPins`, `G.9:Ext.QDArchiveParity`, `G.9:Ext.OEEParity`) and the referenced surfaces they cite.
+7. **Bind comparator choice to CG‑Spec (legality).** Any numeric comparison/aggregation MUST be CSLC‑lawful and cite the corresponding CG‑Spec entry (via `ComparatorSpecRef`). If Characteristics differ by unit/scale/space, the plan MUST declare the ids used for “normalize, then compare” (`UNM_id?`, `NormalizationMethodId[]?`, `NormalizationMethodInstanceId[]?`) — ids only; semantics are defined elsewhere.
 8. **Declare order & portfolio semantics.** Parity MUST preserve set‑return semantics; `PortfolioMode`/`DominanceRegime` are either explicitly pinned or routed via `G.Core.DefaultOwnershipIndex`. IlluminationSummary/coverage/regret remain telemetry unless a CAL policy explicitly promotes them (policy‑id pinned & recorded).
 9. **Attach planned baselines (when applicable).** If parity depends on planned slot fillings, the plan cites the relevant `SlotFillingsPlanItem` refs (A.15.3) via `PlanItemRefs[]` rather than embedding a competing baseline object (nil‑elision when unused).
 10. **Route crossings (when invoked).** Cross‑Context/plane/Kind reuse requires explicit Bridge/CL/Φ pins; penalties route to `R_eff` only (invariants routed via `G.Core`).
@@ -57568,13 +57729,24 @@ Execution is **one run** under the pinned plan:
 
 1. **Gate on legality & pins.** Validate pins and legality‑gate availability; run eligibility/acceptance checks under the plan’s `TaskSignature (S2)` and refuse/abstain on illegal ops (record trace; no “fourth status”).
 2. **Invoke selection/dispatch.** Call **G.5** under the plan’s pinned refs and emit selector outputs in a form consistent with G.5’s portfolio semantics.
-3. **Record comparability mapping (when used).** If `UNM_id?` / `NormalizationMethodId[]?` / `NormalizationMethodInstanceId[]?` were declared, **echo them** in `ParityReport@Context` (or in its explicit pins deltas) and record their ids (and any scoped notes required by the owner surface) in audit pins/SCR; cite the applicable `PathId`s.
+
+When parity is comparing bounded specialization, the report should echo the active specialization profiles or equivalent pins so reviewers can recover the work-measure threshold target, prior exposure, budget-to-threshold, post-threshold efficiency when relevant, transfer, retention, downside burden, and any corridor-entry baseline or evidence note from the parity object itself rather than from later narrative explanation.
+
+3. **Record comparability mapping (when used).** If `UNM_id?` / `NormalizationMethodId[]?` / `NormalizationMethodInstanceId[]?` were declared, **echo them** in `ParityReport@Context` (or in its explicit pins deltas) and record their ids (and any scoped notes required by the cited contract surface) in audit pins/SCR; cite the applicable `PathId`s.
 4. **Publish trace.** Emit `ParityReport@Context` with EvidenceGraph citations and all active pins (editions/policy‑ids), so the run can be re‑checked and re‑run.
 5. **Emit telemetry hooks (optional, report‑only).** When telemetry is produced, it is emitted as telemetry pins/events for refresh wiring (not as a silent change in dominance interpretation).
 
+#### G.9:4.3a — Worked parity slice
+
+- Two agentic search setups both claim bounded specialization on the same declared task family.
+- The `ParityPlan` pins the same freshness window, threshold target, adaptation budget, prior-exposure declaration, comparator editions, and corridor-entry baseline. One setup reaches threshold sooner but shows weak retention and no transfer. The other reaches threshold later, but carries reusable transfer and lower downside burden.
+- A lawful `ParityReport@Context` therefore states what was held constant, which signals remained telemetry, and why the outcome stays a governed portfolio or partial order rather than collapsing into a scalar winner. The reader can recover the practical comparison from the parity slice itself before reading any optional wiring blocks.
+
 #### G.9:4.9 — Extensions (pattern‑scoped; non‑core)
 
-The following blocks store **wiring only** (pins/refs/policy‑ids, relevant triggers, and `Uses`), while semantics is owned by the referenced patterns.
+Most working readers can stop after `G.9:4.3a`. The blocks below are binding-only wiring records used only when the corresponding parity mode is actually active.
+
+The following blocks store **wiring only** (pins/refs/policy‑ids, relevant triggers, and `Uses`), while semantics remains defined in the referenced patterns.
 
 **GPatternExtension block: `G.9:Ext.CrossTraditionParity`**
 **GPatternExtension: CrossTraditionParity**
@@ -57605,7 +57777,7 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
 * **Uses:** `{C.23, G.6, G.4}`
 * **⊑/⊑⁺:** `∅`
 * **RequiredPins/EditionPins/PolicyPins (minimum; conditional on use):**
-  * `SoSLogRuleId[]` / `BranchId[]` *(ids as cited labels; semantics owned by C.23)*
+  * `SoSLogRuleId[]` / `BranchId[]` *(ids as cited labels; semantics come from `C.23`)*
   * `FailureBehaviorPolicyId/SoSLogBranchId`
   * `EvidenceTrace.PathId[]` / `PathSliceId?`
   * `AcceptanceClauseId[]` *(when referenced)*
@@ -57622,7 +57794,7 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
 * **⊑/⊑⁺:** `∅`
 * **RequiredPins/EditionPins/PolicyPins (minimum; conditional on use):**
   * `DHCMethodRef.edition`
-  * `DHCMethodSpecRef.edition?` *(when the owner distinguishes method vs method‑spec editions)*
+  * `DHCMethodSpecRef.edition?` *(when the cited DHC contract distinguishes method vs method-spec editions)*
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.EvidenceSurfaceEdit}`
 * **Notes (wiring-only):** Declares the pins required to make DHC‑based parity reproducible and RSCR‑refreshable; semantics of DHC lives in `C.21`.
 
@@ -57641,7 +57813,7 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
   * `EmitterPolicyRef`
   * `InsertionPolicyRef`
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta}`
-* **Notes (wiring-only):** Post‑2015 QD families are referenced here only as wiring + edition/policy pin obligations (semantics owned by `C.18`/`C.19`/`G.5`).
+* **Notes (wiring-only):** Post‑2015 QD families are referenced here only as wiring + edition/policy pin obligations (semantics come from `C.18`/`C.19`/`G.5`).
 
 **GPatternExtension block: `G.9:Ext.OEEParity`**
 **GPatternExtension: OEEParity**
@@ -57659,22 +57831,6 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta}`
 * **Notes (wiring-only):** Open‑ended parity is expressed as policy/edition pins + telemetry wiring, not as new core norms.
 
-**GPatternExtension block: `G.9:Ext.RobustEvaluationProtocols`** *(Phase‑3 seed)*
-**PatternScopeId:** `G.9:Ext.RobustEvaluationProtocols`
-**GPatternExtensionId:** `RobustEvaluationProtocols`
-**GPatternExtensionKind:** `Phase3Seed`
-**SemanticOwnerPatternId:** `owner TBD`
-**Uses:** `{G.0, A.19}`
-**⊑/⊑⁺:** `∅`
-**RequiredPins/EditionPins/PolicyPins (minimum):**
-
-* `ComparatorSpecRef.edition`
-* `CNSpecRef.edition`
-* `UncertaintyPolicyId?` / `CalibrationPolicyId?` *(ids only; semantics owner TBD)*
-**RSCRTriggerKindIds:** `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.EditionPinChange}`
-**Notes (seed; wiring-only):**
-Intended docking point for post‑2015 robust evaluation idioms (e.g., set‑valued / conformal‑style reporting, distribution‑shift aware benchmarking) once an owner pattern is established.
-
 ### G.9:5 — Interfaces (minimal I/O; conceptual)
 
 | Interface                          | Consumes                                                                                                                                         | Produces                                                                                        |
@@ -57684,12 +57840,12 @@ Intended docking point for post‑2015 robust evaluation idioms (e.g., set‑val
 | **G.9‑3 `Publish_ParityReport`**   | Run artefacts + trace + active pins                                                                                                              | `ParityReport@Context` (UTS entry; audit‑addressable; emits canonical RSCR ids)                 |
 | **G.9‑4 `Expose_ParityTelemetry`** | Telemetry deltas (archive changes, coverage/regret signals, etc.)                                                                                | Telemetry events carrying `PathSliceId?`, policy‑ids, and edition pins for refresh wiring       |
 
-*Surfaces are conceptual; serialisations belong to shipping/interop ownership (see G.10 / interop annexes), not to G.9.*
+*Surfaces are conceptual; serialisations belong in shipping/interop surfaces (see `G.10` / interop annexes), not in `G.9`.*
 
 ### G.9:6 — Conformance Checklist (CC‑G9)
 
 **CC‑G9‑CoreRef (normative; mandatory).**
-G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` declared in **G.9:4.0 GCoreLinkageManifest** (including trigger typing, default ownership routing, and P2W split).
+G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` declared in **G.9:4.0 GCoreLinkageManifest** (including trigger typing, default-routing links, and P2W split).
 
 1. **CC‑G9.1 — Equal windows (and budgets) & pinned contract editions (local).**
    A ParityPlan **SHALL** declare a single `FreshnessWindows` shared across baselines. If `Budgeting` is used/pinned, it **SHALL** be shared across baselines as well. `ParityPinSet` **SHALL** include the edition pins required by the referenced contract/comparator surfaces (at minimum `CNSpecRef.edition`, `CGSpecRef.edition`, `ComparatorSpecRef.edition`).
@@ -57702,7 +57858,7 @@ G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` decl
    * OEE parity → `G.9:Ext.OEEParity`
 
 3. **CC‑G9.3 — Lawful orders & lawful arithmetic (delegation point + local constraint).**
-   Delegated to `CC‑GCORE‑SET‑1` (and the relevant G.5 portfolio semantics). Additionally: any numeric comparison/aggregation invoked by parity **SHALL** be CSLC‑lawful and cite the corresponding CG‑Spec entry; illegal operations (e.g., ordinal means / mixed‑scale weighted sums) **SHALL** be refused or abstained with path‑cited trace (routing only; semantics owned by CG‑Spec/MM‑CHR).
+   Delegated to `CC‑GCORE‑SET‑1` (and the relevant G.5 portfolio semantics). Additionally: any numeric comparison/aggregation invoked by parity **SHALL** be CSLC‑lawful and cite the corresponding CG‑Spec entry; illegal operations (e.g., ordinal means / mixed‑scale weighted sums) **SHALL** be refused or abstained with path‑cited trace (routing only; arithmetic legality comes from `CG‑Spec`/`MM‑CHR`).
 
 4. **CC‑G9.4 — Normalization discipline (local, routing only).**
    If Characteristics differ by unit/scale/space, the ParityPlan **SHALL** cite the lawful comparability mapping by id (`UNM_id?`, `NormalizationMethodId[]?`, `NormalizationMethodInstanceId[]?`) and compare only after that mapping is applied (“normalize, then compare”).  
@@ -57710,8 +57866,11 @@ G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` decl
    The harness **SHALL NOT** define a local mapping.
 
 5. **CC‑G9.5 — Dominance/portfolio interpretation & telemetry separation (local).**
-   ParityPlan/ParityReport **SHALL** either (i) explicitly pin the applicable regime/mode via refs/policy‑ids, or (ii) cite the owners of `DefaultId.DominanceRegime` and `DefaultId.PortfolioMode` via `G.Core.DefaultOwnershipIndex`. Any non‑default “promotion” behaviour must be policy‑bound and recorded via policy‑id pins.
+   ParityPlan/ParityReport **SHALL** either (i) explicitly pin the applicable regime/mode via refs/policy‑ids, or (ii) cite the corresponding defaults for `DefaultId.DominanceRegime` and `DefaultId.PortfolioMode` via `G.Core.DefaultOwnershipIndex`. Any non‑default “promotion” behaviour must be policy‑bound and recorded via policy‑id pins.
    IlluminationSummary/coverage/regret **SHALL** be treated as telemetry (report‑only by default); any promotion into dominance is an explicitly pinned CAL policy and MUST be recorded in audit pins/SCR.
+
+5a. **CC‑G9.5a — Adaptation parity disclosure (local; conditional).**
+   When the parity claim concerns bounded specialization, the ParityPlan and ParityReport **SHALL** pin the declared task family or target scope cut, the work-measure threshold target, adaptation budget, prior exposure declaration, and any transfer, retention, downstream exploitation efficiency, downside burden, or corridor-entry baseline/evidence note that materially affects comparison.
 
 6. **CC‑G9.6 — Epsilon‑front thinning (local; conditional).**
    If ε‑front thinning is used, `EpsilonDominance (ε≥0)` **SHALL** be explicit in the plan/report and pinned (param/id) such that the same ε is reproducible.
@@ -57776,13 +57935,11 @@ ParityPlan pins transfer rule editions and exploration policy refs. ParityReport
 **Uses:** **G.0**, **A.19**, **F.9**.
 **Uses (optional, via Extensions):** **G.7**, **C.18/C.19** (QD/OEE wiring), **C.23** (SoS‑LOG narration and failure‑policy pins).
 
-### G.9:11 — Author’s quick checklist (non‑normative)
+### G.9:11 — Working reading checks
 
-1. Bind `describedEntity` + `ReferencePlane`; define a baseline binding ref (don’t leave it as prose).
-2. Pin `CNSpecRef.edition`, `CGSpecRef.edition`, `ComparatorSpecRef.edition`.
-3. Declare `FreshnessWindows` and enforce it across baselines (and budgets, if pinned).
-4. Declare `ParityPinSet` (editions + policy‑ids + evidence pins) and attach `PlanItemRefs[]` when planned baseline matters.
-5. Run once; publish `ParityReport@Context` with EvidenceTrace and active pins; emit telemetry pins for refresh as needed.
+- If two baselines are being compared under different freshness windows, comparator editions, or silent normalization rules, this pattern has not yet been satisfied.
+- If parity cannot tell the reader what was held constant, what remained telemetry, and what crossings or penalties were active, the report is not yet usable.
+- If a scalar winner is being claimed where only a portfolio or partial order is lawful, parity is overclaiming and should publish the lawful outcome shape instead.
 
 ### G.9:End
 
