@@ -57,6 +57,7 @@ Pattern and headers templates are explained in pattern E.8.
 | A.5 | **Open-Ended Kernel & Extension Layering** | Transitional stub | *Keywords:* FPF architecture, specialization vs dependancy hierarhies, modularity, extensibility. *Queries:* "What is the architecture of FPF?", "How are new domains added?" | **Builds on:** P-4, P-5. |
 | ***Cluster A.IV.A - Signature Stack & Boundary Discipline (A.6.*)*** | | | | |
 | A.6 | **Signature Stack & Boundary Discipline** | Stable | *Keywords:* boundary, signature stack, routing, laws, admissibility, deontics, evidence, claim register, MVPK, view/viewpoint, surface. *Queries:* "What is the Signature Stack in FPF?", "How do I route boundary statements (laws vs gates vs duties vs evidence)?", "How to avoid contract-soup drift in boundary descriptions?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Coordinates with:** A.6.5, A.6.6, A.6.7, E.19. |
+| A.6.RSIG | **Recognition Signatures for Descriptions** | Stable | description-recognition signature; encountered carrier vs authoritative home; API/access description not promise; method applicability note; false neighboring description | `A.6`, `A.6.P`, `F.18`, `E.10` |
 | A.6.B | **Boundary Norm Square (Laws / Admissibility / Deontics / Work-Effects)** | Stable | *Keywords:* boundary norm square, atomic claims, L/A/D/E routing, laws vs gates, commitments, evidence carriers, no upward dependencies, claim IDs, triangle decomposition. *Queries:* "What is the Boundary Norm Square in FPF?", "How to decompose a mixed sentence into gate/duty/evidence claims?", "Where do RFC keywords belong in FPF patterns?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Used by:** A.6 (cluster overview). |
 | A.6.C | **Contract Unpacking for Boundaries** | Stable | *Keywords:* contract bundle unpacking, SLA/guarantee routing, promise content (promise content) ≠ work, promise-act/utterance/commitment separation, Boundary Norm Square (L/A/D/E), MVPK faces “no new semantics”. *Queries:* "How to unpack contract language into promise content / utterance / commitment / work+evidence?", "How to prevent interface-as-agent / contract soup mistakes?", "How to stop MVPK faces becoming ‘second contracts’?", "When contract talk includes service-cluster tokens, what gets unpacked first?" | **Builds on:** A.6, A.6.B, A.6.8, A.7, A.2.3, A.2.8, A.2.9, E.10, E.17. **Coordinates with:** F.12, F.18. |
 | A.6.0| **U.Signature — Universal, law‑governed declaration** | Stable | *Keywords:* signature, vocabulary, laws, applicability, bounded context. *Queries:* "What is the universal signature block?", "Where do laws vs. implementations live?" | **Placement:** Kernel; **Coordinates:** A.6.1. |
@@ -96,8 +97,8 @@ Pattern and headers templates are explained in pattern E.8.
 | A.17 | **A.CHR-NORM — Canonical “Characteristic” & rename (Dimension/Axis → Characteristic)** | Stable | *Keywords:* characteristic, measurement, property, attribute, dimension, axis. *Queries:* "What is the correct term for a measurable property?", "How to define a metric?" | **Prerequisite for:** A.18, A.19, C.16. |
 | A.18 | **A.CSLC-KERNEL — Minimal CSLC in Kernel (Characteristic/Scale/Level/Coordinate)** | Stable | *Keywords:* CSLC, Characteristic, Scale, Level, Coordinate, polarity, ordinal vs cardinal scale, one-characteristic-one-scale rule, lawful comparability, no illegal averaging, measurement interpretability. *Queries:* "What must be declared before a value is interpretable?", "When can two measurements be compared?", "Why can ordinal labels not be averaged?" | **Builds on:** A.17. **Coordinates with:** C.16, A.19, A.19.CN, G.0, B.3. **Prerequisite for:** measurement, scoring, comparison, aggregation, and CHR mechanism patterns. |
 | A.19 | **CharacteristicSpace & Dynamics Hook (A.CHR-SPACE)** | Stable | *Keywords:* CharacteristicSpace, U.Dynamics.stateSpace, state trajectories, declared Characteristics and Scales, subspace, embedding, product, structural overlays, coordinatewise comparability, role-specific space refs stay outside A.19. *Queries:* "How do I declare the state space a dynamics model moves through?", "How do Characteristics become a multi-coordinate state space?", "What stays inside A.19 and what routes to cross-surface substrate or support patterns?" | **Builds on:** A.17, A.18, A.2.5. **Coordinates with:** C.16, A.19.CN, A.19.SURF-SPACE, A.19.SUPPORT-VIEW, A.19.CHR, G.0, E.18, A.3.3. **Prerequisite for:** CHR mechanisms and dynamics models that quantify over trajectories. |
-| A.19.SURF-SPACE | **Cross-Surface / Cross-Space Substrate** | Draft | *Keywords:* source surface, search-side space ref, outcome-side space ref, cross-surface substrate, SpaceRefRelationKind, SourceToOutcomeRelation, DistortionPosture, SourceSurfaceId, sameDeclaredSpaceAs, distinctDeclaredSpaceFrom. *Queries:* "How do I declare one source surface plus search-side and outcome-side refs?", "How do I keep source-to-outcome relation and distortion posture explicit?", "When do search and outcome refs resolve to the same declared CharacteristicSpace?" | **Builds on:** A.19, A.17, A.18. **Coordinates with:** C.18, C.19, G.5, G.10, A.19.SUPPORT-VIEW, A.6.P, A.0. **Specialized by:** A.19.SUPPORT-VIEW and later support-view or atlas specializations. |
-| A.19.SUPPORT-VIEW | **Cross-Surface Support View** | Draft | *Keywords:* support view, thin support, atlas support, CrossSurfaceSupportView, CrossSurfaceAtlasView, TraditionAtlasView, TypedSetViews, support qualifiers, support-only reading. *Queries:* "When do I use a support view over an already-declared substrate?", "When is thin support enough and when do I need atlas form?", "How does TraditionAtlasView stay a local specialization instead of the generic head?" | **Builds on:** A.19.SURF-SPACE, A.19, A.6.3, E.17.0, E.17. **Coordinates with:** G.2, G.5, G.10, C.19, C.24, A.6.P, A.0. **Specialized locally by:** CrossSurfaceAtlasView and `TraditionAtlasView` under G.2. |
+| A.19.SURF-SPACE | **Cross-Surface / Cross-Space Substrate** | Stable | *Keywords:* source surface, search-side space ref, outcome-side space ref, cross-surface substrate, SpaceRefRelationKind, SourceToOutcomeRelation, DistortionPosture, SourceSurfaceId, sameDeclaredSpaceAs, distinctDeclaredSpaceFrom. *Queries:* "How do I declare one source surface plus search-side and outcome-side refs?", "How do I keep source-to-outcome relation and distortion posture explicit?", "When do search and outcome refs resolve to the same declared CharacteristicSpace?" | **Builds on:** A.19, A.17, A.18. **Coordinates with:** C.18, C.19, G.5, G.10, A.19.SUPPORT-VIEW, A.6.P, A.0. **Specialized by:** A.19.SUPPORT-VIEW and later support-view or atlas specializations. |
+| A.19.SUPPORT-VIEW | **Cross-Surface Support View** | Stable | *Keywords:* support view, thin support, atlas support, CrossSurfaceSupportView, CrossSurfaceAtlasView, TraditionAtlasView, TypedSetViews, support qualifiers, support-only reading. *Queries:* "When do I use a support view over an already-declared substrate?", "When is thin support enough and when do I need atlas form?", "How does TraditionAtlasView stay a local specialization instead of the generic head?" | **Builds on:** A.19.SURF-SPACE, A.19, A.6.3, E.17.0, E.17. **Coordinates with:** G.2, G.5, G.10, C.19, C.24, A.6.P, A.0. **Specialized locally by:** CrossSurfaceAtlasView and `TraditionAtlasView` under G.2. |
 | A.19.CN| **CN-frame (comparability & normalization)** | Stable | *Keywords:* CN-frame, CN-Spec, chart, comparability modes, normalization refs, indicator policy refs, Γ-fold governance, registry, bridges, CL/loss notes, WLNK discipline, conformance checklist, SCR/RSCR harness, RSG admission hooks. *Queries:* "What is a CN-frame in FPF?", "How does CN-Spec govern comparability and normalization by reference?", "How do CN-frames use bridges and CL for cross-context reuse?", "What are the conformance and regression checks for CN-frames?" | **Builds on:** A.19. **Coordinates with:** A.6.1 (mechanism intension cards), C.16 (evidence/backing), F.9 (Bridges & CL), G.0 (CG-Spec legality gate). |
 | A.19.CHR | **`CHRMechanismSuite` — CHR mechanism-suite anchor (suite obligations + P2W planned baseline)** | Stable | *Keywords:* CHR suite, characterization core, CN-Spec, CG-Spec, legality gate, suite obligations, set-return selection, tri-state guard decision, crossing visibility, Bridge-only transport, penalties→R_eff, planned baseline, `SlotFillingsPlanItem`, P2W seam, no hidden scalarization, no hidden thresholds. *Queries:* "What is CHRMechanismSuite in FPF?", "How do CHR mechanisms cite CN-Spec/CG-Spec?", "How to enforce planned slot filling in WorkPlanning only?", "How to keep UNM/UINDM/ULSAM explicit (no hidden tails)?" | **Builds on:** A.6.7, A.15.3, A.6.1, A.6.5, A.19, G.0, E.18, E.10, E.19. **Coordinates with:** A.21, G.5, G.10, C.23. **Used by:** Part G universalization; CHR mechanism stacks. |
 | A.19.UNM | **Unified Normalization Mechanism (UNM)** | Stable | *Keywords:* normalization, `CV→NCV`, `≡_UNM`, `NormalizationMethodId`, `NormalizationMethodInstanceId`, `NormalizationInvariant[*]`, `NormalizationFixSpec`, validity window (no implicit “latest”), fail-closed tri-state guard (`pass|degrade|abstain`), `CN-Spec.normalization`, `CN-Spec.comparability.mode`, Bridge-only transport + ReferencePlane/CL pins, penalties→`R`/`R_eff` only. *Queries:* "What is UNM in FPF?", "How does FPF normalize coordinate values (CV→NCV)?", "What is ≡_UNM and why quotients/fix matter?", "How does CN-Spec.comparability.mode route normalization-based comparability?" | **Builds on:** A.19.CN, A.6.1, A.6.5, A.19.CHR, A.17–A.18, C.16, G.0, E.18, E.20, F.18. **Used by:** A.19.CHR, A.19.USCM, A.19.CPM, A.19.SelectorMechanism. **Coordinates with:** G.2, B.3. |
@@ -233,12 +234,13 @@ Pattern and headers templates are explained in pattern E.8.
 | **Cluster E.II — The Author’s Handbook** | | | | |
 | E.6 | **Didactic Architecture of the Spec** | Stable | *Keywords:* didactic, pedagogy, structure, narrative flow, on-ramp, learning. *Queries:* "How is the FPF specification structured for learning?", "What is the 'On-Ramp first' principle?". | **Builds on:** E.2 (P-2 Didactic Primacy). |
 | E.7 | **Archetypal Grounding Principle** | Stable | *Keywords:* grounding, examples, archetypes, U.System, U.Episteme, Tell-Show-Show. *Queries:* "How are FPF patterns explained?", "What are the standard examples in FPF?". | **Builds on:** E.6. **Constrains:** All architectural patterns. |
-| E.8 | **FPF Authoring Conventions & Style Guide** | Stable | *Keywords:* authoring, style guide, conventions, template, S-rules, narrative flow. *Queries:* "How to write a new FPF pattern?", "What is the FPF style guide?". | **Builds on:** E.6, E.7. **Constrains:** All new patterns. |
+| E.8 | **FPF Authoring Conventions and Style Guide** | Stable | Problem-frame first-reading role; recognition vs assurance role; no route-shaped pattern tops; reader-time usability | `E.6`, `E.7` |
 | E.9 | **Design-Rationale Record (DRR) Method** | Stable | *Keywords:* DRR, design rationale, change management, decision record, context, consequences. *Queries:* "How are changes to FPF managed?", "What is a DRR?". | **Builds on:** E.2 (P-10 Open-Ended Evolution). **Constrains:** All normative changes. |
 | E.10 | **LEX-BUNDLE: Unified Lexical Rules for FPF** | Stable | *Keywords:* lexical rules, naming, registers, rewrite rules, process, function, service. *Queries:* "What is the complete set of FPF naming rules?". | **Builds on:** A.7, E.5, F.5. **Coordinates with:** A.2, A.10, A.15, B.1, B.3, Part F. |
 | E.10.P | **Conceptual Prefixes (policy & registry)** | Stable | *Keywords:* prefixes, U., Γ_, ut:, tv:, namespace, registry. *Queries:* "What do the prefixes like 'U.' mean in FPF?". | **Depends on:** E.9. **Constrains:** E.5.1, E.5.2. |
 | E.10.D1 | **Lexical Discipline for “Context” (D.CTX)** | Stable | *Keywords:* context, U.BoundedContext, anchor, domain, frame. *Queries:* "What is the formal meaning of 'Context' in FPF?". | **Builds on:** A.7, A.4. **Coordinates with:** F.1, F.2, F.3, F.7, F.9. |
 | E.10.D2 | **Intension–Description–Specification Discipline (I/D/S)** | Stable | *Keywords:* intension, description, specification, I/D/S, testable, verifiable. *Queries:* "Difference between a description and a specification in FPF?". | **Builds on:** A.7, E.10.D1, C.2.1, C.2.3. **Constrains:** F.4, F.5, F.8, F.9, F.15. |
+| E.11 | **First-Practical Entry and Pattern-Use Discoverability Discipline** | Stable | which pattern first; first honest burden; tempting wrong pattern; lawful entry stop; thin echo not source of truth | `A.6.RSIG`, `E.8` |
 | E.12 | **Didactic Primacy & Cognitive Ergonomics** | Stable | *Keywords:* didactic, cognitive load, ergonomics, usability, Rationale Mandate, HF-Loop. *Queries:* "How does FPF ensure it's understandable?", "What is the 'So What?' test in FPF?". | **Builds on:** E.2 (P-2). **Complements:** E.13. |
 | E.13 | **Pragmatic Utility & Value Alignment** | Stable | *Keywords:* pragmatic, utility, value, Goodhart's Law, Proxy-Audit Loop, MVE. *Queries:* "How does FPF ensure solutions are useful, not just correct?", "What is a Minimally Viable Example (MVE)?". | **Builds on:** E.2 (P-7). **Complements:** E.12. |
 | E.14 | **Human-Centric Working-Model** | Stable | *Keywords:* working model, human-centric, publication surface, grounding, assurance layers. *Queries:* "What is the main interface for FPF users?", "How does FPF separate human-readable models from formal assurance?". | **Builds on:** E.7, E.8, C.2.3. **Coordinates with:** B.3.5, C.13, E.10. |
@@ -254,7 +256,7 @@ Pattern and headers templates are explained in pattern E.8.
 | E.17.AUD.LHR | **AuthoredUnitDiscipline / Local Head Restoration — repair the pressured local head before the authored unit inherits it** | Stable | *Keywords:* pressured head, head kind, active lane, local repair, governed object, outside-work boundary, local wording repair. *Queries:* "How do I repair one vague local head before the whole note drifts?", "What is Local Head Restoration in FPF?", "When do I need local head repair rather than authored-unit stabilization?" | **Builds on:** A.6.P, A.7, E.10, F.18, E.14. **Coordinates with:** E.17.ID.CR, E.17.AUD.OOTD, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.17.AUD.OOTD | **AuthoredUnitDiscipline / AuthoredUnit Object-of-Talk Discipline — authored-unit stability over one primary object of talk** | Stable | *Keywords:* authored unit, object of talk, authored-unit drift, carried move, outside-work boundary, explicit transition. *Queries:* "How do I keep one note about one thing at a time?", "What is AuthoredUnit Object-of-Talk Discipline in FPF?", "When do I need authored-unit stabilization rather than only local wording repair?" | **Builds on:** A.6.P, A.7, E.10, F.18, E.14, E.19, C.2.2a, A.16.0. **Coordinates with:** E.17.AUD.LHR, E.17.ID.CR, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.18 | **Transduction Graph Architecture (E.TGA)** | Stable | *Keywords:* transduction graph, **nodes=morphisms**, **edge=U.Transfer** (single-edge kind), **OperationalGate(profile)**, **CV⇒GF** (ConstraintValidity → GateFit), **MVPK** faces, **SquareLaw**, **UNM single-writer**, **CSLC normalize-then-compare**, **Set-return selection**, **PathSlice/Sentinel refresh**, **DesignRunTag**. *Queries:* “What is E.TGA?”, “How do gates/bridges publish crossings?”, “How to model flows of morphisms?” | **Builds on:** E.17 (MVPK), E.8, E.10, A.7. **Coordinates with:** A.20–A.26 (Flow/GateProfilization/Profiles/Sentinels), F.9 (Bridges & CL), G.11 (Refresh). |
-| E.19 | **Pattern Quality Gates: Review & Refresh Profiles** | Stable | *Keywords:* pattern review, quality gates, admission, refresh, staleness, profile-based checks, PQG, PCP, suite-level review (PCP‑SUITE), planned baseline & P2W seam (PCP‑P2W), `SlotFillingsPlanItem`, MVPK projections, guard vs gate separation. *Queries:* "How to review a new FPF pattern before admitting it?", "How to refresh stale patterns in FPF?", "What are PQG/PCP in FPF?", "How to review a MechSuiteDescription (suite obligations, contract pins, protocols)?", "How to review SlotFillingsPlanItem / planned slot filling and its MVPK projections?" | **Builds on:** E.8, E.10, E.9, E.15. **Coordinates with:** F.8 (Mint/Reuse), F.18 (Naming protocol), F.9 (Bridges & CL), F.15 (Harness), E.17 (MVPK), A.6.7 (MechSuiteDescription), A.15.3 (SlotFillingsPlanItem), G.11 (Refresh). **Constrains:** Admission/refresh decisions for patterns intended for the canonical corpus. |
+| E.19 | **Pattern Quality Gates: Review and Refresh Profiles** | Stable | PCP-ENTRY; entry review trigger; wrong-pattern check; support-role parity; retrieval-facing entry fixture | `E.8`, `E.10`, `E.9`, `F.18` |
 | E.20 | **Mechanism Introduction Protocol (MIP)** | Draft | *Keywords:* mechanism introduction, authoring protocol, owner routing, MIP-run manifest, canonical card-first, no dangling `…IntensionRef`, suite boundary hygiene, P2W seam, SlotKind lexicon discipline, alias docking, typed RSCR triggers, regression envelope, PQG profiles. *Queries:* "How to introduce a new mechanism in FPF?", "How to avoid dangling IntensionRefs in suites?", "How to route mechanism changes by semantic owner?", "How to evolve mechanism suites without drift?" | **Builds on:** E.8, E.9, E.10, E.15, E.19. **Coordinates with:** A.6.1, A.6.7, A.15.3, F.18, E.18, G.Core, G.2, `G.x:Ext.*`. **Constrains:** Any change-set that introduces or revises mechanisms, suites, planned baselines, wiring modules, or citeable tokens. |
 
 **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
@@ -290,7 +292,7 @@ Pattern and headers templates are explained in pattern E.8.
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| G.Core | Part G Core Invariants | Draft | *Keywords:* Part‑G invariants, delegation-first core, RSCR trigger kinds, default ownership index, ID continuity, core linkage. *Queries:* "How to universalize Part G without drift?", "How to make RSCR triggers id-based?" | **Builds on:** E.8/E.10/E.19, A.6.7, A.15.3, A.19, G.0, A.19.CHR. Used by: all `G.0…G.13`. |
+| G.Core | Part G Core Invariants | Stable | *Keywords:* Part‑G invariants, delegation-first core, RSCR trigger kinds, default ownership index, ID continuity, core linkage. *Queries:* "How to universalize Part G without drift?", "How to make RSCR triggers id-based?" | **Builds on:** E.8/E.10/E.19, A.6.7, A.15.3, A.19, G.0, A.19.CHR. Used by: all `G.0…G.13`. |
 | G.0 | **CG-Spec — Frame Standard & Comparability Governance** | Stable | *Keywords:* CG-Spec, CG-Frame, legality gate, ComparatorSet, ScaleComplianceProfile (SCP), MinimalEvidence, Γ-fold, Φ(CL), Φ_plane, CL-routing, ReferencePlane, edition pins, RSCRTriggerKindId. *Queries:* "What is CG-Spec in FPF?", "How does CG-Spec constrain lawful comparison and aggregation?", "What must be pinned for CG-Spec reproducibility?" | **Builds on:** G.Core, A.19 (CN-Spec), A.10, A.17–A.19 / C.16 (MM-CHR legality), A.18 (CSLC), B.3, Part F (Bridges/UTS), E.10, E.5.2. **Prerequisite for:** G.1–G.6. |
 | G.1 | **CG-Frame-Ready Generator**| Stable | *Keywords:* generator chassis, generator / selector / set-surface scaffold, six-card kit (M1-M6), `CGKitId` manifest, `SoTA_SetId`, `VariantPoolId`, `ShortlistId`, `CGFrameLibraryId`, `RefreshReadinessCardId`, set-return selection, set-surface outcome, UTS/Name Cards, RSCR linkage surfaces, edition pins, shipping/refresh boundaries. *Queries:* "How do I author a reusable CG-Frame generator kit?", "What belongs in the six-card chassis M1-M6?", "How do G.2 harvesting, G.5 set-return selection, G.10 shipping, and G.11 refresh connect without becoming one method spec?" | **Builds on:** G.Core, E.8, E.10, E.19. **Uses:** A.10, A.15.3, A.19 (CN-Spec), G.0 (CG-Spec), G.2, G.3, G.4, G.5, G.10, G.11; (via Extensions) C.17, C.18, C.19. **Produces:** `CGKitId` plus reusable CG-Frame kit/chassis, set-surface scaffold, and linkage surfaces (UTS/RSCR-ready). |
 | G.2 | **SoTA Harvester & Synthesis** | Stable | *Keywords:* SoTA harvest, synthesis, SoTA Synthesis Pack@CG-Frame, SoTAPaletteDescription, Tradition, TraditionAtlasView, CrossSurfaceAtlasView, TypedSetViews, BridgeMatrix, GammaEpistSynthId, FlowRecord, palette-first. *Queries:* "How does FPF harvest and synthesize SoTA for a CG-Frame?", "When is TraditionAtlasView lawful and when is palette-first or thinner support enough?", "How do competing Traditions stay plural while bridgeable and refreshable?" | **Builds on:** G.Core, E.8, E.10, E.19, A.10, B.3, F.9, F.17, G.0. **Used by:** G.1, G.3-G.5, G.10, G.11. **Coordinates with:** A.19.SUPPORT-VIEW, A.6.P, G.13. |
@@ -304,7 +306,7 @@ Pattern and headers templates are explained in pattern E.8.
 | G.10 | **SoTA Pack Shipping (pack-boundary owner; `SoTA-Pack(Core)`)** | Stable | *Keywords:* shipping, `SoTA-Pack(Core)`, pack-boundary owner, selector-ready publication surface, `AuditPins`, `MOOManifest`, `PortfolioRosterId`, UTS publication, `PathId`/`PathSliceId`, `CrossingBundle`, edition pins, telemetry pins, RSCR wiring, parity pins, notation-independent pack, no semantic respecification. *Queries:* "How does FPF ship a SoTA pack without smuggling semantics?", "What is SoTA-Pack(Core) as a pack rather than a kit or suite?", "How do AuditPins, MOOManifest, path citations, and crossing bundles support replay and refresh?" | **Builds on:** G.Core, F.17-F.18, E.5.2, E.18, A.10, A.15.3. **Consumes/cites:** G.2-G.9, optional G.12-G.13. **Used by:** selector-facing consumers via G.5 and refresh orchestration via G.11. |
 | G.11 | **Telemetry-Driven Refresh & Decay Orchestrator** | Stable | *Keywords:* telemetry, refresh, decay, RSCR, PathSlice, Bridge Sentinels, edition-aware, epistemic debt, deprecation, edition bumps, re-shipping. *Queries:* "How does FPF keep SoTA packs up-to-date?", "What triggers refresh / RSCR reruns?", "How are deprecations and edition bumps governed?". | **Builds on:** G.Core, G.6, G.7, G.5, G.8, G.9, G.10, B.3.4, E.18. **Coordinates with:** G.12, C.18/C.19, C.23, F.15. |
 | G.12 | **DHC Dashboards — Discipline-Health Time-Series (lawful telemetry, generation-first)** | Stable | *Keywords:* dashboard, DHC, discipline health, time-series, lawful telemetry, view-only slices, PathId/PathSliceId, edition pins, UTS twins, RSCR/refresh wiring. *Queries:* "How to build DHC dashboards in FPF?", "How to publish lawful DHC time-series with evidence and edition pins?", "How to wire dashboard telemetry into RSCR refresh?" | **Builds on:** G.Core, C.21, G.6, G.11, A.19, G.0, F.17/F.18, E.5.2, E.10. **Coordinates with:** G.5 (selector set-surface outputs), G.7 (crossings/CL/Φ_plane pins), G.8 (maturity ladder panel), G.10 (shipping inclusion), C.18/C.19 (QD/OEE telemetry), G.2 (SoTA palette hooks). |
-| G.13 | **External Interop Hooks for SoTA Discipline Packs (conceptual; normative when used)** | Draft | *Keywords:* interop, external index, claim mapper, mapping policy, plane map, embedding spec, `ExternalIndexCard@Context`, `ClaimMapperCard@Context`, `InteropSurface@Context`, CHR-typed SoS features, edition pins, UTS twins, RSCRTriggerKindId, telemetry pin. *Queries:* "How does FPF integrate external scholarly indexes into Part G?", "What is an ExternalIndexCard / ClaimMapperCard / InteropSurface in FPF?", "How to make interop refreshable with RSCR trigger kinds and edition pins?" | **Builds on:** G.Core, G.2–G.7, G.9–G.12, A.19, A.18, G.0, F.17, E.5.2, E.18. |
+| G.13 | **External Interop Hooks for SoTA Discipline Packs (conceptual; normative when used)** | Stable | *Keywords:* interop, external index, claim mapper, mapping policy, plane map, embedding spec, `ExternalIndexCard@Context`, `ClaimMapperCard@Context`, `InteropSurface@Context`, CHR-typed SoS features, edition pins, UTS twins, RSCRTriggerKindId, telemetry pin. *Queries:* "How does FPF integrate external scholarly indexes into Part G?", "What is an ExternalIndexCard / ClaimMapperCard / InteropSurface in FPF?", "How to make interop refreshable with RSCR trigger kinds and edition pins?" | **Builds on:** G.Core, G.2–G.7, G.9–G.12, A.19, A.18, G.0, F.17, E.5.2, E.18. |
 
 **Part H – Glossary & Definitional Pattern Index**
 
@@ -319,7 +321,7 @@ Pattern and headers templates are explained in pattern E.8.
 | § | ID & Title | Status | Concise reminder |
 | :--- | :--- | :--- | :--- |
 | I.1 | **Deprecated Aliases** | stub | Legacy names kept for backward compatibility. |
-| I.2 | **Detailed Walk‑throughs** | stub | Route-indexed walkthroughs for the main first-practical entry routes: project alignment, partly-said discovery, boundary unpacking, lawful comparison/selection, generator/SoTA kit authoring, and same-entity rewrite/explanation/comparative reading. |
+| I.2 | **Detailed Walk-throughs** | Stable | Worked entry readings for high-risk or compact-insufficient entry neighborhoods; compact-index-only is a complete lawful posture when enough. |
 | I.3 | **Change‑Log (auto‑generated)** | stub | Version history keyed to DRR ids. |
 | I.4 | **External Standards Mappings** | stub | Trace tables to ISO 15926, BORO, CCO, Constructor‑Theory terms. |
 
@@ -330,7 +332,7 @@ Pattern and headers templates are explained in pattern E.8.
 | J.1 | **Concept‑to‑Pattern Index** | stub | Quick jump from idea (“boundary”) to pattern (§, id). |
 | J.2 | **Pattern‑to‑Example Index** | stub | Table listing every archetypal grounding vignette. |
 | J.3 | **Principle‑Trace Index** | Stub | Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
-| J.4 | **First Practical Entry Route Index** | full text | Cross-links the main first-practical entry routes to their first honest burden, current route-bearing surfaces, first working outputs, typical next owners, and common reroutes. |
+| J.4 | **First Practical Entry Neighborhood Index** | Stable | Compact six-row entry-neighborhood index matching the public entry families without route/owner/output columns. |
 
 **Part K - Lexical Debt**
 
@@ -339,7 +341,38 @@ Pattern and headers templates are explained in pattern E.8.
 | K.1 | **Mandatory Replacement of Measurement Terms** | Stub | Retires "axis/dimension" in favor of "Characteristic" and aligns other measurement terms. |
 | K.2 | **Migration Debt from A.2.6 (USM)** | Stub | Specifies the required edits across the FPF to align with the new Unified Scope Mechanism (USM). |
 
+## Keywords & Search Queries Discipline
+
+`FPF` already exposes one pattern-entry discoverability-bearing
+catalogue-search role in the `Table of Content` rows with
+`Keywords & Search Queries`. Those rows are governed as lexical-query and
+pattern-entry discoverability-bearing projections rather than decorative index
+metadata.
+
+They:
+
+- use lexical-query wording that helps recover one strongest pattern home,
+  entry neighborhood, or strongest projection role under likely reader
+  phrasing;
+- remain answerable to the `E.11` rule that one claim names one strongest home
+  or strongest projection role and leaves only thin echoes elsewhere;
+- route naming, twins, aliases, and lexical conflicts through `F.17 / F.18 /
+  E.10`;
+- do not mint aliases, semantic equivalences, or free `SEO` strings;
+- avoid becoming one second semantic summary of the pattern body.
+
+Ordinary lexical-query support stays sparse:
+
+- ordinary `Table of Content` rows: prefer `2-5` high-signal query phrases;
+- ordinary `J.4` neighborhoods: keep only the strongest domain phrases and
+  false friends;
+- fuller lexical sets belong under `F.17 / F.18 / E.10` only when one real
+  naming, alias, bridge, or collision burden exists.
+
+Lexical support increases entry precision, not keyword recall volume.
+
 # **Preface** (non-normative)
+
 
 ## What this specification is (and how to use it)
 
@@ -374,28 +407,76 @@ The navigation clusters below are **reading clusters**. They are not new owner f
 
 **Where to start**
 
-The order of Parts in this document follows the didactic architecture of the Core. A first practical entry route does **not** have to follow that macro-order.
+The order of Parts in this document follows the didactic architecture of the
+Core. A first practical entry does not have to follow that macro-order.
 
-The routes below are **informative navigation only**. They introduce no new norms and do not change semantic ownership.
+This guidance is coarse entry orientation only. It introduces no new norms and
+does not change authoritative pattern meaning.
 
-Choose the route by the **first governed object, publication burden, or stabilization burden** you honestly need to handle, not by chapter order.
+> **Preface is high-recall, low-detail.**
+> `J.4` is the compact canonical entry index.
+> `I.2` is the worked-reading depth role.
+> The pattern's own `Problem frame` is the local high-precision first-reading
+> role.
 
-Reach a **human-facing working surface** early - typically **F.17 (UTS)** or another route-native publication form - before escalating into heavier assurance or evolution-governance patterns.
+Choose the first entry by what you are really trying to decide, publish, or
+stabilize, not by chapter order.
 
-Use **B.3** when assurance / trust / evidence transport is already part of the present burden. Use **E.9 (DRR)** when a change to normative content, semantic ownership, or durable canon rationale must be published; do **not** treat it as a universal day-one gate.
+Consider a human-facing stabilizing result early when vocabulary, decision
+criteria, or publication need to stay shareable. A typical lawful stabilizing
+result is `F.17 (UTS)` when vocabulary alignment is live; other burdens have
+their own publication or review forms.
 
-- For the **"why"**: **E.1-E.2** (Vision/Mission + Pillars).
-- For **writing or reviewing patterns**: start with **E.8** and **E.19**.
-- For **project alignment** - contexts, actors, plan vs run, and a first shared work surface: start with **A.1.1**, then **A.15**, then **A.15.2 / A.15.3**, then **B.5.1**. When method/work vocabulary itself must be aligned across contexts, add **F.11** (and **F.9** where bridge discipline matters). Land on **F.17 (UTS)**.
-- When the real situation is **"we know something is there, but it is still only partly said"**: start with **C.2.2a** for the shared language-state chart, then **C.2.LS / C.2.4-C.2.7** for the facet owners, then **A.16 / A.16.1 / A.16.2** for lawful moves and early preservation, then **B.4.1 / B.5.2.0** for route publication and abductive handoff, and only then move into endpoint owners such as **A.6.Q**, **A.6.A**, or **C.25**.
-- For **boundary burden** - API, contract, protocol, SLO/SLA, acceptance clause, compliance text, or interface language: start with **A.6**, then **A.6.B**, then **A.6.C**. When the boundary text hides overloaded quality or action language, continue with **A.6.P**, then **A.6.Q** or **A.6.A**. Use the **Claim Register** when mixed statements must be decomposed and tracked by ID.
-- For **lawful comparison or selected-set publication** rather than one-off judgement: start with **A.19:0** for the reading path, then **A.17-A.19**, then **G.0**, then **A.19.CPM** and **A.19.SelectorMechanism**, and then **G.5**. Publish the result as a governed **selected set / shortlist** surface rather than forcing a single winner.
-- For a **reusable generator / SoTA / selector / set-surface scaffold** as the first deliverable: start with **A.0**, then **G.0**, then **G.1**, then **G.2** and **G.5**. When creative search, novelty, or explore/exploit policy is already central, add **B.5.2.1** and **C.17-C.19** early rather than retrofitting them later. Land on **UTS** plus the declared set, selector, and publication surfaces before discussing tooling.
-- For **same-entity rewrite, representation change, explanation-facing rendering, local authored-unit repair, authored-unit stabilization, or bounded comparative reading** without minting a new object of talk: choose the nearest owner. Use **A.6.3.CR** for same-entity retextualization, **A.6.3.RT** for representation-scheme transition, **E.17.EFP** for explanation-facing rendering, **E.17.ID.CR** for bounded comparative reading, **E.17.AUD.LHR** for pressured-head local repair, and **E.17.AUD.OOTD** for authored-unit stability. Use **A.16.0** only when branch, loss, handoff, or lineage history itself must be published as an explicit trajectory account.
+Use `B.3` when assurance / trust / evidence transport is already part of the
+present burden. Use `E.9 (DRR)` when a change to normative content,
+authoritative pattern meaning, or durable canon rationale must actually be
+published; do not treat it as a universal day-one gate.
 
-Everything in the Core is intentionally **tool-agnostic**; implementation details belong to Tooling and worked examples belong to the Pedagogical Companion. The rest of this Preface provides non-normative motivation and reading heuristics for the patterns that follow.
+- For the **why**: inspect `E.1-E.2`.
+- For **writing or reviewing patterns**: inspect `E.8` and `E.19`.
+- For **project alignment** - contexts, roles, method, plan, run, and a first
+  shared work or vocabulary stabilizer: inspect `A.1.1`, `A.15`,
+  `A.15.2 / A.15.3`, and `B.5.1`. Consider `F.11` when method/work vocabulary
+  must be aligned across contexts, `F.9` when bridge discipline matters, and
+  `F.17` when term stabilization is the live burden.
+- When the real situation is **partly-said / language-state discovery**:
+  inspect `C.2.2a`, `C.2.LS / C.2.4-C.2.7`,
+  `A.16 / A.16.1 / A.16.2`, and `B.4.1 / B.5.2.0`. Consider endpoint patterns
+  such as `A.6.Q`, `A.6.A`, or `C.25` only when the burden is actually
+  endpoint-owned.
+- For **boundary unpacking** - API, contract, protocol, `SLO/SLA`, acceptance
+  clause, compliance text, or interface language: inspect `A.6`, `A.6.B`, and
+  `A.6.C`. If the first question is only "what description is this?", inspect
+  `A.6.RSIG` before routed claim structure. Add `A.6.P`, `A.6.Q`, or `A.6.A`
+  only when relation, quality, or action wording is the live burden.
+- For **lawful comparison / pool / selection / selected-set publication**:
+  inspect `A.19:0`, `A.17-A.19`, `A.19.CN`, `G.0`, `C.18`, `C.19`, and `G.5`.
+  Consider `C.11` only when the burden has narrowed to one local decision
+  doctrine, and `C.24` only when the next honest artifact is a call plan or
+  checkpoint return.
+- For a **reusable generator / SoTA / portfolio kit** as the first deliverable:
+  inspect `A.0`, `G.0`, `G.1`, `G.2`, and `G.5`. Consider `B.5.2.1` and
+  `C.17-C.19` when creative search, novelty, or explore/exploit policy is
+  already central. Consider `G.10` / `G.11` when shipping or refresh is live.
+- For **same-entity rewrite, explanation, representation change, repair, or
+  bounded comparative reading** without minting a new object of talk: inspect
+  `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, and `E.17.ID.CR`. Consider
+  `E.17.AUD.LHR` for pressured-head local repair and `E.17.AUD.OOTD` for
+  authored-unit stability.
+
+`Preface` helps the reader begin entry; it does not become one second `J.4`.
+Update `Preface` when the global entry map changes or the center of gravity of
+`FPF` shifts materially. If only one local nearby-pattern cue or one
+worked-reading branch changes, that is not automatically one reason to rewrite
+`Preface`.
+
+Everything in the Core is intentionally tool-agnostic. Implementation details
+belong to Tooling and worked examples belong to the Pedagogical Companion. The
+rest of this `Preface` provides non-normative motivation and reading heuristics
+for the patterns that follow.
 
 ## Creativity in Open-Ended Evolution and Assurance*
+
 
 Most engineering and management standards, methodologies and frameworks pick a side. They either optimise for **assurance** — audits, evidence, safety gates — or they celebrate open-ended evolution/agility based on **creativity** — ideas, leaps, pivots. **First Principles Framework (FPF)** is built to do both at once. It gives you a disciplined way to collectiverly generate and mature novel ideas with trust.
 
@@ -1663,7 +1744,7 @@ Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal**
 
 #### A.2.1:4.1 - Canonical definition (notation‑free)
 
-**`U.RoleAssignment`** is a **context-local assignment:
+**`U.RoleAssignment`** is a **context-local assignment**:
 
 ```
 RoleAssignment ::=
@@ -7094,7 +7175,428 @@ The stack creates a default **direction of dependence**: higher layers constrain
 
 ---
 
+## A.6.RSIG - Recognition Signatures for Descriptions
+
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+### A.6.RSIG:1 - Problem frame
+
+A reader often meets one description before they know whether it is the right
+description to inspect. The reader may see a boundary clause, method note,
+interface excerpt, pattern opening, or public projection. The first burden is
+not yet the full semantics of that description. It is first-contact recognition:
+what description is seen, where it is encountered, what it applies to, what
+excludes it, which authoritative home defines it, and which nearby reading or
+wrong home must be rejected.
+
+Use this pattern when the live burden is still first-contact recognition over
+one encountered description carrier or projection. The reader needs to decide
+whether this is the right description to inspect before broader comparison,
+publication-face selection, boundary-claim routing, or pattern-language entry
+comparison begins.
+
+What goes wrong if this pattern is missed:
+
+- one summary, excerpt, boundary phrase, or local top is mistaken for the
+  authoritative home of the description;
+- one access/request description is over-read as a promise about downstream
+  effect;
+- one boundary-presented description is over-read as routed claim structure or
+  as the full semantic contract;
+- one method note is treated as applicable before its actual method family and
+  exclusions are recoverable;
+- one pattern-local opening is forced to carry cross-pattern comparison that
+  belongs to `E.11`.
+
+What this pattern buys:
+
+- the reader can tell what the encountered description is for before deeper
+  semantics are reconstructed;
+- carrier, projection, description, and authoritative home stay distinct;
+- false neighboring descriptions and wrong authoritative homes become
+  rejectable in one first pass;
+- later boundary, publication, lexical, or pattern-language reroutes happen
+  from a typed first-contact read instead of from guesswork.
+
+Ordinary not-this-pattern boundary:
+
+- not when the live burden is already full routed-claim structure, published
+  view law, lexical repair, or cross-pattern entry orientation;
+- not when the real question is the whole semantics of the method, boundary
+  claim, interface promise, or pattern;
+- not when a search/query phrase needs naming repair rather than
+  first-contact recognition of a particular encountered description.
+
+### A.6.RSIG:2 - Problem
+
+When first-contact recognition is under-governed, several defects recur:
+
+1. One reader finds a boundary, method, interface, or pattern-local opening but
+   cannot tell whether it is the right description to inspect.
+2. An encountered carrier or public projection is misread as the authoritative
+   semantic home.
+3. Recognition cues drift into description semantics, workflow hints, graph
+   metaphors, or lexical aliases that belong elsewhere.
+4. Pattern-entry navigation is asked to solve a broader
+   description-recognition burden that belongs before pattern-language
+   comparison begins.
+
+### A.6.RSIG:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| First-contact precision vs reader economy | The cue needs enough strength to discriminate without turning every opening into a mini essay. |
+| Neutral substrate vs local specialization | This pattern governs description-recognition signatures in general without absorbing pattern-entry discoverability, publication-face law, or boundary-claim routing. |
+| Recognition vs semantics | The cue helps the reader recover the right description and home, not silently redefine the description's full semantics. |
+| Carrier/projection vs authority | An encountered carrier can help recognition without becoming the source of semantic authority. |
+| Local wording vs controlled lexemes | Real reader language remains usable without minting uncontrolled aliases or shadow names. |
+| Readability vs auditability | The signature stays usable by readers while remaining crisp enough for later review and boundary checking. |
+
+### A.6.RSIG:4 - Solution
+
+#### A.6.RSIG:4.1 - Governed object and non-goals
+
+`A.6.RSIG` governs description-recognition signatures in general: the
+first-contact cue structure by which one reader can recover what encountered
+description is live, what carrier or projection exposed it, what it applies to,
+what excludes it, which authoritative home defines it, and which nearby false
+description or wrong home must be rejected.
+
+Here "description-recognition signature" is lower-case authoring and reading
+discipline. It is not `U.Signature`, not a Signature Stack object, not a new
+Description object by default, not a `U.*` kind, and not a specialization of
+`A.6.0` unless another pattern explicitly promotes a particular declaration.
+
+The encountered carrier or projection may help recognition; it does not become
+authoritative merely by being encountered. `surface` wording in this pattern is
+only lower-case prose for an encountered publication/projection when no
+existing `PublicationSurface`, `InteropSurface`, `View`, `Card`, or `Lane` kind
+is being minted.
+
+`A.6.RSIG` does not govern:
+
+- general information architecture or search UX;
+- documentation layout or publication-face selection;
+- pattern-entry discoverability across a pattern language;
+- the full semantics of the description itself;
+- lexical repair, alias acceptance, or naming governance as such;
+- graph ontology, workflow sequencing, or runtime route semantics.
+
+#### A.6.RSIG:4.2 - Two-level description-recognition shape
+
+**Reader-visible minimum.** For ordinary reader-facing use, the minimum is not a card. One or two good
+sentences may be enough if they make recoverable:
+
+1. what this description is for;
+2. when it applies;
+3. when it does not apply;
+4. where the authoritative home is;
+5. what nearby false reading or wrong home to reject.
+
+**Review-expanded shape, only when needed.** When the recognition burden is
+load-bearing or under review, use the expanded recoverability shape:
+
+```text
+description_seen
+encountered_carrier_or_projection
+reader_viewpoint
+case_signal_or_access_condition
+applies_to
+excludes
+expected_first_recognition_gain
+first_lawful_entry_stop_or_reroute
+authoritative_home
+projection_role_if_any
+nearby_false_description_or_wrong_home
+```
+
+This shape is a review aid, not a mandatory form for every encountered
+description. It exists to keep description, carrier, projection, and home from
+collapsing into one overloaded `surface` label.
+
+#### A.6.RSIG:4.2.1 - Minimal local repair and review sequence
+
+Use this sequence when authoring or reviewing one recognition-signature repair:
+
+1. Name the `description_seen` and the reader viewpoint in one concrete first
+   sentence.
+2. Name the encountered carrier or projection if confusing it with authority is
+   a live risk.
+3. State what the description applies to and what excludes it.
+4. Name the authoritative home to inspect first.
+5. Name one nearby false description or wrong authoritative home that looks
+   plausible in the same situation.
+6. State the first lawful entry stop or reroute.
+7. If that stop cannot be stated without boundary routing, publication-face law,
+   lexical repair, or cross-pattern comparison, reroute the burden instead of
+   stretching `A.6.RSIG`.
+
+Minimal lawful output:
+
+- one first-contact recognition statement the reader can use immediately;
+- one explicit authoritative home;
+- one explicit false-neighbor rejection;
+- one lawful entry stop or reroute.
+
+#### A.6.RSIG:4.3 - Parent cases
+
+`A.6.RSIG` keeps the main parent cases explicit:
+
+- **boundary-description recognition**: can one reader recover what one
+  boundary-presented description is for before routed claim structure becomes
+  the dominant burden;
+- **method-description applicability recognition**: can one reader recover
+  whether one method description is the right description to inspect, reject, or
+  compare under the live burden;
+- **interface/access-description recognition**: can one reader recover the
+  right access or interface description without confusing it with promise,
+  execution, or downstream effect semantics;
+- **pattern-local recognition-signature case**: can one reader recover one
+  pattern opening as the right first description to inspect before broader
+  pattern-language comparison begins.
+
+#### A.6.RSIG:4.4 - Neighbor boundaries
+
+Neighbor boundaries remain explicit:
+
+- `A.6.B` governs routed `L/A/D/E` claim structure when the boundary
+  description is already in routed-claim territory;
+- `E.17.0 / E.17` govern lawful view and publication-face projection when the
+  same recognition burden is carried through published views;
+- `E.10.D2` and the `E.10 / F.18 / A.6.P` lane govern lexical repair,
+  collision checks, and naming survival;
+- `C.25 / A.6.Q` govern formal quality treatment when the discoverability or
+  recognition claim becomes explicitly evaluative;
+- the relevant authoritative pattern body governs pattern semantics when the
+  encountered description is one pattern-local opening.
+
+The four-level split for pattern-local recognition is:
+
+| Level | Governing home | What it governs |
+| --- | --- | --- |
+| Generic first-contact description recognition | `A.6.RSIG` | The neutral cue shape: description, carrier/projection, home, exclusions, false neighbor. |
+| Local placement and form | `E.8` | How the pattern's `Problem frame` carries the first-reading role. |
+| Actual local semantics | The pattern itself | The pattern's governed object, solution, consequences, and conformance law. |
+| Cross-pattern comparison | `E.11` / `J.4` / `I.2` | Candidate patterns, tempting wrong patterns, burden reclassification, and worked entry reading. |
+
+#### A.6.RSIG:4.5 - No-minting rule
+
+This pattern does not mint:
+
+- one standalone `U.Discoverability`;
+- one new `U.Signature`, Signature Stack object, `U.Characteristic`, `CHR`, or
+  local `Q-Bundle`;
+- one `SurfaceKind`, `DescriptionKind`, relation kind, graph ontology, route
+  graph, or workflow family;
+- one universal reader-orientation role.
+
+If a recognition-signature burden is promoted into a stronger quality claim,
+typed signature object, reusable description object, or publication-face law,
+that promotion is explicit and routed through the existing neighboring
+patterns.
+
+### A.6.RSIG:5 - Archetypal grounding
+
+#### A.6.RSIG:5.1 - System-side worked recognition repair: boundary-presented description
+
+Draft cue:
+
+> "The system shall reject invalid requests."
+
+Why the cue is not enough yet:
+
+- the reader can tell this is important, but not whether they are reading one
+  law, admissibility gate, duty, work effect, or evidence statement;
+- one summary page or local paraphrase can be mistaken for the authoritative
+  home;
+- a reviewer can start arguing full semantics before the first-contact
+  recognition burden has been stabilized.
+
+Recognition repair:
+
+1. `description_seen` = one boundary-presented admissibility description.
+2. `encountered_carrier_or_projection` = one clause or excerpt where the
+   description is seen.
+3. `reader_viewpoint` = one practitioner or reviewer deciding whether this is
+   the right boundary description to inspect first.
+4. `applies_to` = requests presented at the boundary under the declared
+   admissibility conditions.
+5. `excludes` = downstream effect claims, duty allocation, or evidence claims
+   not actually stated by this description.
+6. `authoritative_home` = the governing boundary description, not one local
+   paraphrase or summary note.
+7. `nearby_false_description_or_wrong_home` = one evidence/work claim or one
+   routed quadrant statement that only becomes lawful after the reader has
+   stabilized the admissibility description.
+8. `first_lawful_entry_stop_or_reroute` = the reader can now say "this is the
+   admissibility description to inspect first"; if the burden becomes routed
+   claim structure, inspect `A.6.B`.
+
+#### A.6.RSIG:5.2 - System-side anti-case: interface/access description over-read as promise
+
+Draft cue:
+
+> "`POST /deploy` triggers deployment."
+
+Plausible but wrong first reading:
+
+- the reader treats one access/request description as if it already promised
+  one downstream operational effect or successful completion.
+
+Recognition repair:
+
+1. `description_seen` = one interface/access description.
+2. `encountered_carrier_or_projection` = one API excerpt or endpoint note.
+3. `applies_to` = request accessibility and invocation form.
+4. `excludes` = success, completion, rollout, or downstream effect guarantees
+   not present in the access description itself.
+5. `authoritative_home` = the specification or pattern that actually governs
+   downstream effect, if that burden is live.
+6. `first_lawful_entry_stop_or_reroute` = "this is the access description to
+   inspect first, not the promise of the whole deployment result."
+
+#### A.6.RSIG:5.3 - Episteme-side worked recognition repair: method-description applicability
+
+Draft cue:
+
+> "Use pairwise comparison."
+
+Why the cue is not enough yet:
+
+- the reader cannot tell whether the note applies to ranking alternatives,
+  selecting one option, shaping a shortlist, or comparing method families;
+- the method note can be mistaken for the authoritative home of selection
+  semantics;
+- a team can prematurely choose `C.11` or `G.5` before knowing what kind of
+  comparison burden is actually live.
+
+Recognition repair:
+
+1. `description_seen` = one method-description applicability note.
+2. `encountered_carrier_or_projection` = one procedure note, pattern excerpt,
+   or review comment that mentions pairwise comparison.
+3. `applies_to` = comparison under a declared comparator set or characteristic
+   family.
+4. `excludes` = publication of a selected set, execution planning, evidence
+   sufficiency, and one-off decision doctrine unless those homes are separately
+   opened.
+5. `authoritative_home` = the relevant comparison or method pattern, not the
+   note itself.
+6. `nearby_false_description_or_wrong_home` = selection/publication doctrine
+   treated as if the method note had already settled it.
+7. `first_lawful_entry_stop_or_reroute` = method applicability is recognized or
+   rejected before selection semantics begin.
+
+### A.6.RSIG:6 - Bias-Annotation
+
+This pattern counters:
+
+- front-door centralization bias, where every recognition burden is pushed into
+  one global front-door cue;
+- signature-stack overreach, where any useful cue is prematurely promoted into
+  `U.Signature`;
+- carrier-authority collapse, where an encountered carrier or projection is
+  treated as the authoritative home;
+- alias bias, where uncontrolled synonyms compensate for missing recognition
+  structure;
+- workflow bias, where first-contact recognition is narrated as sequence or
+  handoff.
+
+### A.6.RSIG:7 - Conformance checklist
+
+- **CC-RSIG-1 First-contact only.** The pattern governs recognition of the
+  right description, not the full semantics of that description.
+- **CC-RSIG-2 Carrier/home split.** A conforming description-recognition signature
+  distinguishes `description_seen`, encountered carrier or projection,
+  authoritative home, and projection role when those distinctions are
+  load-bearing. The encountered carrier or projection may help recognition,
+  but it does not become authoritative merely by being encountered.
+- **CC-RSIG-3 Neighbor boundaries explicit.** The text states when burdens go
+  to `A.6.B`, `E.17`, `E.10 / F.18 / A.6.P`, `C.25 / A.6.Q`, or the relevant
+  authoritative pattern body.
+- **CC-RSIG-4 No kind inflation.** Recognition signatures are not silently
+  promoted into `U.Signature`, Signature Stack objects, `SurfaceKind`s,
+  graph objects, workflow objects, or new `U.*` kinds.
+- **CC-RSIG-5 Recoverable cue shape.** For load-bearing cases, description,
+  viewpoint, cue, applicability, exclusion, authoritative home, false neighbor,
+  and lawful entry stop remain recoverable.
+- **CC-RSIG-6 No alias minting.** Query cues and ordinary phrasing do not become
+  aliases, bridges, semantic twins, or lexical authority without the relevant
+  naming home.
+
+### A.6.RSIG:8 - Common Anti-Patterns and How to Avoid Them
+
+- **Recognition-as-semantics.** The opening tries to define the whole
+  description instead of making the right description recoverable. Repair by
+  shrinking back to first-contact discrimination.
+- **Carrier-as-authority.** A local excerpt, public projection, or retrieved
+  fragment is treated as the authoritative home. Repair by naming the
+  encountered carrier/projection and the authoritative home separately.
+- **Boundary-routing collapse.** A boundary-description cue tries to absorb
+  routed claim structure. Repair by routing routed quadrant work to `A.6.B`.
+- **Pattern-language collapse.** Pattern-entry comparison is written as if it
+  were just another description cue. Repair by routing cross-pattern selection
+  to `E.11`.
+- **Signature inflation.** Any recurring cue is treated as one typed signature
+  object. Repair by keeping `description-recognition signature` lower-case
+  unless one explicit promotion is justified.
+
+### A.6.RSIG:9 - Consequences
+
+This pattern gives one neutral governing discipline for first-contact
+description recognition without turning discoverability into one universal
+governing pattern. It sharpens the boundary between cue recognition, semantic
+authority, lexical repair, publication-face projection, and pattern-language
+entry.
+
+The cost is one extra explicit split when a cue is confusing: description,
+encountered carrier/projection, authoritative home, and false neighbor must not
+be collapsed. The cost stays bounded because the expanded shape is review-only
+or risk-triggered, not a required card for ordinary prose.
+
+### A.6.RSIG:10 - Rationale
+
+This pattern lands in the `A.6` cluster because the burden is still one
+description/signature burden: a reader is recovering what one description is
+for, what it applies to, and which authoritative home to inspect first. That
+sits closer to signature and boundary discipline than to pattern-language
+navigation or review-profile law.
+
+Read this honestly as one `FPF`-local synthesis over current SoTA, not as one
+already established external standard term. It combines information-scent,
+human/AI expectation-management, controlled vocabulary, and retrieval-context
+practices into one description-facing discipline for `FPF`.
+
+### A.6.RSIG:11 - SoTA-Echoing
+
+This pattern is an `FPF`-local synthesis, not an established external term. It
+carries the modern practice burden only where that burden sharpens one
+description-facing recognition question: can the reader recover the right
+description, its carrier or projection, its exclusions, its authoritative home,
+and its tempting false neighbor before stronger semantic work begins?
+
+| Pattern claim carried here | Source-bearing SoTA support (post-2015) | Alignment with `A.6.RSIG` | Adoption status and worked-slice implication |
+| --- | --- | --- | --- |
+| First-contact recognition is narrower than general information architecture or documentation UX. | Jorge Arango (2018), *Living in Information: Responsible Design for Digital Places*; ISO/IEC/IEEE 26514:2022, *Systems and software engineering - Design and development of information for users*. | These sources support purposeful information places and user information shaped around what the user needs. `A.6.RSIG` narrows that to one encountered description: what it is for, what applies, what excludes, what carrier exposed it, and what home has authority. | **Adopt / narrow.** Adopt the recognition and information-need burden; reject a universal UX or layout pattern. In the boundary sentence slice, the first repair is not "what does the whole contract mean?" but "what description is this, what does it apply to, and where is the authoritative home?" |
+| Information scent helps first-contact cue economy but is not semantic authority. | Raluca Budiu (2020), "Information Scent: How Users Decide Where to Go Next", Nielsen Norman Group. | Information scent treats visible labels, context, and prior knowledge as imperfect estimates of source value. `A.6.RSIG` adopts the cue-economy insight but strengthens it with authoritative-home, exclusion, and false-neighbor discipline. | **Adopt / strengthen.** Adopt first-contact cue economy; reject treating familiar wording, link scent, or local projection as the source of truth. In the API slice, a good endpoint label can attract attention while still failing to promise deployment success. |
+| Description-recognition signatures help human and AI-assisted readers manage applicability and limitation expectations. | Amershi et al. (2019), "Guidelines for Human-AI Interaction", CHI 2019. | Human-AI guidance emphasizes making capabilities and limits clear enough for users to calibrate trust. `A.6.RSIG` adapts that pressure into `applies_to`, `excludes`, `authoritative_home`, and lawful entry stop for human and AI-assisted readers. | **Adapt.** Adopt expectation management; reject making this an AI-interface pattern. In the method-note slice, the reader learns what the note can and cannot settle before using it for a decision. |
+| Description-recognition cues need controlled wording without becoming synonym or alias governance. | Helen Lippell, ed. (2022), *Taxonomies: Practical Approaches to Developing and Managing Vocabularies for Digital Information*. | Taxonomy practice supports governed terms, validation, and maintenance for search and browse. `A.6.RSIG` adopts stable cue language while leaving naming, alias, bridge, and collision repair to `F.18 / E.10 / A.6.P`. | **Adapt.** Adopt controlled-lexeme discipline; reject synonym stuffing inside description-recognition signatures. The worked slices state home, exclusions, and false neighbor instead of adding more query phrases. |
+| Thin echoes and projection snippets need authoritative-home anchors before a reader or retrieval system treats them as source truth. | Lewis et al. (2020), "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"; Liu, Zhang, and Liang (2023), "Evaluating Verifiability in Generative Search Engines"; Gao et al. (2023), "Enabling Large Language Models to Generate Text with Citations". | Retrieval and citation work makes source context, support, and verifiability load-bearing. `A.6.RSIG` adapts this as recognition hygiene: retrieved fragments, public projections, or local examples remain useful only when their authoritative home and projection role are recoverable. | **Adapt / narrow.** Adopt source anchoring and citation-support pressure; reject a retrieval benchmark or graph-native authority. A retrieved method note is safe only when it remains a method-applicability cue, not the home of selection semantics. |
+| Description-recognition-signature adequacy is reviewable through small, case-linked checks rather than folklore or heavy empirical machinery. | Riehle, Harutyunyan, and Barcomb (2020), *Pattern Discovery and Validation Using Scientific Research Methods*, Technical Report CS-2020-01. | Pattern-validation practice supports explicit evidence and case adequacy. `A.6.RSIG` keeps that pressure lightweight: use the first-contact shape, false-neighbor rejection, and worked slices before escalating to `C.25`, `A.6.Q`, or empirical evidence. | **Adopt / lightweight.** Adopt accountable validation; reject mandatory benchmark machinery for ordinary recognition repairs. |
+
+### A.6.RSIG:12 - Relations
+
+- **Builds on:** `A.6`, `A.6.P`, `F.18`, `E.10`
+- **Does not specialise:** `A.6.0` / `U.Signature`; it uses "signature" only in the lower-case cue-pattern sense unless an explicit neighbouring pattern promotes the structure into a typed declaration.
+- **Neighbors:** `A.6.B`, `A.6.C`, `E.17.0`, `E.17`, `E.10.D2`, `C.25`, `A.6.Q`
+- **Supports:** `E.11` as the pattern-language application above this neutral substrate
+
+### A.6.RSIG:End
+
 ## A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)
+
 
 
 > **Type:** Architectural (A)
@@ -20787,7 +21289,7 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
 ## A.19.SURF-SPACE - Cross-Surface / Cross-Space Substrate
 
 > **Type:** Architectural (A)
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 
 **Plain-name.** Cross-surface / cross-space substrate.
@@ -21328,7 +21830,7 @@ That is why this pattern stops before support views and before publication metad
 ## A.19.SUPPORT-VIEW - Cross-Surface Support View
 
 > **Type:** Architectural (A)
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 
 **Plain-name.** Cross-surface support view.
@@ -40935,7 +41437,7 @@ document order with one universal first-practical workflow.
 
 #### E.6:4.0 - Document order is not the same thing as first-practical entry
 
-The macro-order of the document is a didactic scaffold, not a universal practical workflow. Route-bearing navigation surfaces such as the `Preface`, `J.4`, route-bearing owner patterns, and route-indexed walkthroughs are informative navigation only: they may cross Parts when that is the first honest entry for the burden at hand, and they do not create a second normative lifecycle.
+The macro-order of the document is a didactic scaffold, not a universal practical workflow. Entry navigation surfaces such as the `Preface`, `J.4`, entry-neighborhood owner patterns, and worked entry readings are informative navigation only: they may cross Parts when that is the first honest entry for the burden at hand, and they do not create a second normative lifecycle.
 
 The "On-Ramp First" Macro-Structure: The specification is ordered to create a smooth cognitive ramp:
 * It begins with an informal, non-normative Preface (The On-Ramp), which uses storytelling and concrete examples (System and Episteme) to build intuition.
@@ -40982,7 +41484,7 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
 | **CC‑DA.1** | Each Part **SHALL** open with a one‑paragraph situational “hook” before formal text. |
 | **CC‑DA.2** | Every architectural pattern **MUST** implement Tell‑Show‑Show: universal rule plus System & Episteme illustrations. |
 | **CC‑DA.3** | Governance patterns (**Part E**) **SHALL NOT** appear before the Kernel in the main document flow. |
-| **CC‑DA.4** | Navigation aids **SHALL** distinguish document order from first-practical entry routes; entry routes are informative and MAY cross Parts without implying a universal lifecycle. |
+| **CC‑DA.4** | Navigation aids **SHALL** distinguish document order from first-practical entry guidance; entry-neighborhood and worked-reading guidance are informative and MAY cross Parts without implying a universal lifecycle. |
 
 ### E.6:7 - Consequences
 
@@ -41124,7 +41626,7 @@ fracture, violating Pillars **P‑1 Cognitive Elegance** and
 #### E.8:4.1 - Canonical Pattern Template
 Within each pattern, the **canonical** section headings **SHALL** appear in the order below.
 For each **canonical content section heading (1–12)**, the `<Title>` component (after the heading separator, e.g. ` - `) **MUST** start with the canonical section title (case-insensitive match; canonical capitalisation preferred); an optional clarifier after an em dash is allowed (e.g., `Solution — …`).
-The **Footer marker** (section **13**, if present) is a sentinel and is governed by **H‑9** rather than the standard `<FullId> - <Title>` shape.
+The **Footer marker** (section **13**, if present) is a sentinel and is governed by **H-9** rather than the standard `<FullId> - <Title>` shape.
 
 **Extensibility.**
 Authors **MAY** add additional sections. Prefer expressing them as subsections under the nearest canonical section (e.g., `4.1`, `4.1.1` under *Solution*). If an additional top-level section is necessary, it **MUST NOT** delete or reorder the canonical sections and its title **MUST NOT** shadow a canonical title.
@@ -41132,6 +41634,8 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 **Mandatory vs optional.**
 * Canonical sections **1–13** are mandatory in every pattern.
 * The escape hatch `Not applicable` is permitted **only** where explicitly stated below; when used, it **MUST** include a short justification (1 paragraph).
+* **First substantive authoring seed.** The first non-empty authored body of a live pattern **SHALL** already instantiate the canonical section frame by value: title line, header block, canonical sections **1–13**, and the footer marker.
+* Recognition-role openings and first-minute working guidance belong **inside** that canonical frame. Any retained legacy route-shaped material must also stay inside that same canonical frame rather than appearing as one pre-template opening memo. Authors **MUST NOT** seed one pre-template opening memo and postpone canonical sectioning, `Conformance Checklist`, or footer-marker installation to one separate `E.19`, assembly, or review-repair pass.
 
 **Template:**
 - **Title line:** Hashes + FullId + ` - ` + Pattern Title; optional `(informative)` note.
@@ -41157,34 +41661,34 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 ##### E.8:4.1.1 - Heading & ID discipline (human tooling + retrieval)
 FPF is often consumed through full‑text search and retrieval (RAG). A reader or an LLM may see a subsection without its parent headings, so headings must be **self‑identifying**.
 
-**H‑1 (Heading shape).** Every pattern heading and every subsection heading inside a pattern **SHALL** follow:
+**H-1 (Heading shape).** Every pattern heading and every subsection heading inside a pattern **SHALL** follow:
 `<hashes> <FullId> - <Title> (optional note of non‑normativity)`
 
-*Exception.* The **Footer marker** is a sentinel heading and is governed by **H‑9**, not by the standard `<FullId> - <Title>` shape.
+*Exception.* The **Footer marker** is a sentinel heading and is governed by **H-9**, not by the standard `<FullId> - <Title>` shape.
 
-**H‑2 (Heading separator).** The canonical separator between `<FullId>` and `<Title>` is ` - ` (ASCII, space-hyphen-space).
-Legacy text may use ` - `; tooling **SHOULD** treat the two as equivalent, and authors **SHOULD** migrate to ` - ` when touching a heading.
+**H-2 (Heading separator).** The canonical separator between `<FullId>` and `<Title>` is ` - ` (ASCII, space-hyphen-space).
+Legacy text may use Unicode dash variants such as ` – ` or ` — ` as separators; tooling **SHOULD** treat those variants as migration candidates, and authors **SHOULD** migrate touched headings to ` - `.
 
-**H‑3 (FullId).** `FullId` is the full hierarchical address.
+**H-3 (FullId).** `FullId` is the full hierarchical address.
 For a **pattern heading** it is the pattern ID (e.g., `A.2`, `E.10.D1`).
 For **headings inside a pattern**, append dot‑separated ordinal section numbers after the colon (`:`) (e.g., `A.2:4.4`, `E.10.D2:3`).
-*Exception:* the Footer marker uses the reserved sentinel token `:End` as defined in **H‑9**.
+*Exception:* the Footer marker uses the reserved sentinel token `:End` as defined in **H-9**.
 The colon (`:`) is **reserved** for section paths and **MUST NOT** appear in pattern IDs.
 
-**H‑4 (Ordinals).** Ordinals in section paths **SHOULD** track the canonical template numbering (**1 = Problem frame**, …, **13 = Footer marker**) to maximise cross‑pattern comparability. During refactors or in legacy patterns, ordinals **MAY** be local. In that case, the **canonical section title at the start of `<Title>`** is the semantic key; readers and tools **MUST NOT** infer section semantics from the ordinal alone.
-*Note:* the Footer marker itself is exempt from ordinal encoding; it uses the reserved token `:End` (see **H‑9**).
+**H-4 (Ordinals).** Ordinals in section paths **SHOULD** track the canonical template numbering (**1 = Problem frame**, …, **13 = Footer marker**) to maximise cross‑pattern comparability. During refactors or in legacy patterns, ordinals **MAY** be local. In that case, the **canonical section title at the start of `<Title>`** is the semantic key; readers and tools **MUST NOT** infer section semantics from the ordinal alone.
+*Note:* the Footer marker itself is exempt from ordinal encoding; it uses the reserved token `:End` (see **H-9**).
 
-**H‑5 (Where kind and normativity live).** Pattern **kind** (e.g., Architectural / Definitional) **MUST** be declared in the **Header block**, not encoded into the heading text. Normativity (**normative** / **informative**) **MUST** also live in the Header block when it deviates from the default. If a reminder is needed for readers, authors **MAY** add a short parenthetical note at the end of the heading (e.g., `(informative)` / `(non‑normative)`), but headings **MUST NOT** use square‑bracket tags.
+**H-5 (Where kind and normativity live).** Pattern **kind** (e.g., Architectural / Definitional) **MUST** be declared in the **Header block**, not encoded into the heading text. Normativity (**normative** / **informative**) **MUST** also live in the Header block when it deviates from the default. If a reminder is needed for readers, authors **MAY** add a short parenthetical note at the end of the heading (e.g., `(informative)` / `(non‑normative)`), but headings **MUST NOT** use square‑bracket tags.
 
-**H‑6 (Heading levels).** Heading levels **MUST** preserve a fixed offset between structural layers (Part or Cluster (flat) → Pattern → Pattern sections):
+**H-6 (Heading levels).** Heading levels **MUST** preserve a fixed offset between structural layers (Part or Cluster (flat) → Pattern → Pattern sections):
 * Part and Cluster headings **MUST** use `#` (level 1) across the file.
 * A Pattern heading **MUST** use `##` (level 2).
 * Inside a pattern, each nested section **MUST** add exactly one `#` per level (e.g., `## A.2 - …`, `### A.2:2 - …`, `#### A.2:2.1 - …`).
 
-**H‑7 (Ellipsis discipline).** Authors **MUST NOT** use **three consecutive full stops/dots** (`...`) as punctuation in headings or narrative prose. Authors **MUST** use the Unicode ellipsis `…` (U+2026) instead. For editorial elisions in quotations, authors **SHOULD** prefer `[…]` to make the omission explicit and distinguish it from retrieval truncation.
+**H-7 (Ellipsis discipline).** Authors **MUST NOT** use **three consecutive full stops/dots** (`...`) as punctuation in headings or narrative prose. Authors **MUST** use the Unicode ellipsis `…` (U+2026) instead. For editorial elisions in quotations, authors **SHOULD** prefer `[…]` to make the omission explicit and distinguish it from retrieval truncation.
 *Exception:* literal three‑dot sequences that are part of an external language’s syntax **MAY** appear **only inside code spans or fenced code blocks**.
 
-**H‑8 (Normative keywords).** The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** are to be interpreted as described in RFC 2119, as clarified by RFC 8174 (only when capitalised). Authors **SHOULD** avoid informal deontic phrasing (“need to”, “is required to”) in normative clauses.
+**H-8 (Normative keywords).** The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** are to be interpreted as described in RFC 2119, as clarified by RFC 8174 (only when capitalised). Authors **SHOULD** avoid informal deontic phrasing (“need to”, “is required to”) in normative clauses.
 
 **Deontics vs admissibility.** Use RFC keywords only for **deontic obligations** (requirements on authors, reviewers, implementers/tooling, or published artefacts) — i.e., things an agent can choose to do or omit. Do **not** use RFC keywords to state **definitions**, **structural invariants**, **typing rules**, or other **admissibility conditions** of the modeled world.
 
@@ -41197,7 +41701,7 @@ When expressing admissibility/validity constraints as predicates (`Definition:` 
 * Authors **SHOULD** write the constraint as a declarative predicate (optionally quantified), e.g., `role ∈ Roles(context)`, rather than as “X MUST …”.
 * If the constraint needs to be enforceable as part of a pattern’s contract, authors **SHOULD** reference the predicate identifier from the Conformance Checklist (and/or call out validator behaviour), rather than duplicating the predicate with RFC keywords.
 
-**H‑9 (Footer marker sentinel).** Footer marker **SHALL** be a single heading line whose `FullId` is the pattern ID followed by the reserved sentinel token `:End` (no ordinals, no title, no square‑bracket tags): 
+**H-9 (Footer marker sentinel).** Footer marker **SHALL** be a single heading line whose `FullId` is the pattern ID followed by the reserved sentinel token `:End` (no ordinals, no title, no square‑bracket tags): 
 `### <PatternId>:End`
 It is the only allowed heading *inside* a pattern whose section token is non‑numeric. It **MUST** be the final line of the pattern and **MUST NOT** carry any prose. Tooling and readers **MUST** treat it as a boundary sentinel, not as a semantic section.
 
@@ -41222,7 +41726,7 @@ The Alexandrian pattern canon historically calls *Problem frame* “Context”. 
 | S-11 | Narrative Flow | Ensure sections read as a continuous story, not bullet soup. |
 | S-12 | Full sentences over tags | Avoid “keyword soup”. Each list item SHOULD contain a subject and a verb; prefer 2-4 sentence micro-paragraphs to bare tag lists. |
 | S-13 | SoTA-Echo craft | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt/adapt/reject)**; cite Bridges & CL when crossing Contexts/planes. |
-| S-14 | Surface sufficiency | New and substantially revised patterns carry enough second/third-surface content to be teachable without nearby project notes. |
+| S-14 | Support-content sufficiency | New and substantially revised patterns carry enough supporting content to be teachable without nearby project notes. |
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source/result slice; scenario names alone are not enough. |
 | S-16 | Ordinary vs load-bearing realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
 | S-17 | Self-contained monolith prose | A merged pattern must explain itself inside the monolith; planning shorthand and review-context dependencies are not admissible in live prose. |
@@ -41247,17 +41751,17 @@ Brief explanations:
 | **Close**  | End with a quotable line or payoff that reinforces memory. |
 
 Narrative Flow Heuristic also operationalises S-1 (Density w/o Jargon), S-2 (Internal Cohesion), S-4 (Contextualisation), and S-6 (Quotable Closers).
-#### E.8:4.2.1 - Recognition surface and assurance surface
-Every canonical pattern SHALL stabilise one governed object early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely surface forms of one governed object and which would instead name a different act, process, work-product, or owner lane. Recognition and assurance surfaces may refine that object differently, but they must not silently swap the central object kind.
+#### E.8:4.2.1 - Recognition role and assurance role
+Every canonical pattern SHALL stabilise one governed object early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one governed object and which would instead name a different act, process, work-product, or owner lane. The first-reading recognition role and the heavier assurance role may refine that object differently, but they must not silently swap the central object kind.
 
 If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what governed object is actually in play, what move is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
 
-Under `F.18` local-first naming, the canonical pair here is **recognition surface** and **assurance surface**.
+Under `F.18` local-first naming, the canonical pair here is **recognition role** and **assurance role**.
 The earlier provisional `recognition shell / assurance shell` wording is retired.
-These names refer to two reading-order surfaces inside one pattern; they do **not** mint new owner kinds, new publication-surface kinds, or a second face family.
-A later third didactic support surface remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
+These names refer to two reading-order roles carried by existing sections or projections inside one pattern; they do **not** mint new authority-home kinds, new publication-surface kinds, SurfaceKinds, or a second face family.
+A third didactic support role remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
 
-The **recognition surface** is the first reading surface.
+The **recognition role** is the first reading role.
 It is the part of the pattern that lets a cold working reader recognise the situation quickly enough to decide whether to keep reading.
 It should start from a subject-domain or practice moment before internal taxonomy whenever the pattern is meant to help real work rather than only internal canon maintenance.
 In practice it usually lives in an early `Use this when` line or equivalent opening, plus the upper parts of `Problem frame`, `Problem`, `Solution`, `Consequences`, and nearby worked slices.
@@ -41269,28 +41773,28 @@ Its job is to make visible:
 - what governed object is actually being kept stable;
 - and, when technical terms must appear early, a pairwise plain gloss for each early high-pressure term.
 
-The **assurance surface** is the second reading surface.
+The **assurance role** is the second reading role.
 It carries the heavier load-bearing material that makes the pattern reviewable and auditable:
 - declaration blocks and typed fields when those are part of the contract;
 - representation ontology or object-of-talk discipline;
 - any minimal modeling or mathematical lens that keeps the governed object stable;
-- law, invariants, admissibility, and reroute or neighbouring-owner conditions;
+- law, invariants, admissibility, and reroute or neighbouring-pattern conditions;
 - `SoTA-Echoing` when it is carrying live explanatory load;
 - and the review hooks that let a stronger reading be checked explicitly.
 
-The assurance surface may sharpen, justify, and discipline the recognition surface.
-It must **not** silently replace, strengthen, or universalize the claim that the recognition surface made visible.
-If the recognition surface says “this pattern helps with a bounded working situation”, the assurance surface must not quietly turn that into a stronger owner, stronger guarantee, or broader universality claim.
+The assurance role may sharpen, justify, and discipline the recognition role.
+It must **not** silently replace, strengthen, or universalize the claim that the recognition role made visible.
+If the recognition role says “this pattern helps with a bounded working situation”, the assurance role must not quietly turn that into a stronger authority claim, stronger guarantee, or broader universality claim.
 
-If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition surface.
+If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition role.
 It is not enough for universality to appear only later in a law sheet, declaration block, or `SoTA-Echoing` rationale.
-A broad claim should therefore be demonstrated in the recognition surface through at least **three heterogeneous reader or domain situations**.
+A broad claim should therefore be demonstrated in the recognition role through at least **three heterogeneous reader or domain situations**.
 When a compact matrix helps, `F.16` is the preferred template for showing that breadth.
-If `SoTA-Echoing` is load-bearing, the practical implication of those rows should be recoverable from the recognition surface and case bank rather than remaining a late-only justification layer.
+If `SoTA-Echoing` is load-bearing, the practical implication of those rows should be recoverable from the recognition role and case bank rather than remaining a late-only justification layer.
 
-A **third didactic support surface** means enough didactic and operational support that the pattern survives without nearby project documents. Typical signs include:
+A **third didactic support role** means enough didactic and operational support that the pattern survives without nearby project documents. Typical signs include:
 - at least one concrete source/result slice in Archetypal Grounding when the pattern governs transforms or publication change;
-- at least one boundary-heavy example or anti-example when nearby owners are easy to confuse;
+- at least one boundary-heavy example or anti-example when nearby patterns or other governing support roles are easy to confuse;
 - reviewer guidance that tells what to inspect first and what failure mode forces reroute;
 - local mini-definitions or glossary support for recurring terms that would otherwise be recovered only from project context.
 
@@ -41302,16 +41806,16 @@ FPF pattern prose is not free-form descriptive English. When authors name a *pac
 Use the following distinctions explicitly:
 
 This is a cross-cutting review discipline, not a replacement for local host lexica. For example, `A.6.7` / `A.19.CHR` already carry the suite/kit/pack distinction, and `E.17.1` already carries the viewpoint bundle/family/library distinction.
-- **owner** = the pattern that owns the primary semantic law surface for the family;
+- **owner** = the pattern that is the semantic home for the primary law of the family;
 - **specialization** = a named refinement under an existing owner;
 - **overlay** = a cross-cutting governance or reading layer over existing owners;
-- **profile** = a declarative review/use surface derived from a host owner rather than a replacement owner;
-- **family** = a recurring class of cases governed by one owner surface;
+- **profile** = a declarative review/use role derived from a host owner rather than a replacement owner;
+- **family** = a recurring class of cases governed by one semantic home;
 - **bundle** = a packaged set of defaults, allowances, or coordinated members;
 - **cluster** = a navigation or reading grouping; not by itself an owner claim;
 - **suite** = a coordinated set of members with explicit suite semantics under the right host law;
 - **pack** = an editorial or review grouping, not automatically a semantic owner;
-- **kit** = a reusable coordinated publication or contract surface with kit-level semantics under the right host law;
+- **kit** = a reusable coordinated publication or contract package with kit-level semantics under the right host law;
 - **record** = a case/report/review artefact;
 - **umbrella** = a provisional or review-stage head spanning possible subfamilies before final owner freeze.
 
@@ -41322,7 +41826,7 @@ A pattern may reuse a host-native role word when that role is already owned and 
 #### E.8:4.2.3 - Reader-role discipline for live pattern prose
 
 A live pattern is written for its intended FPF user: the person who will use the pattern to organise thought, inspect a case, publish a note, or review a result under that pattern.
-Its load-bearing sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms.
+Its load-bearing sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms. When neighbouring patterns or other governing support roles are named, the prose should answer one user question such as `where does the burden reclassify`, `which nearby pattern is easy to confuse`, or `what must stay coordinated here`; it should not read as one explanatory aside about why the package architecture was split that way.
 
 Authors must keep FPF-development or package-architecture material separate from that user-facing body.
 In particular, `Problem`, `Solution`, `Consequences`, `Rationale`, worked slices, and ordinary-vs-load-bearing guidance must not do the work of:
@@ -41331,43 +41835,90 @@ In particular, `Problem`, `Solution`, `Consequences`, `Rationale`, worked slices
 - discussing owner freeze, naming freeze, merge posture, blast radius, or safest landing form;
 - or narrating future package promotion or defer decisions.
 
-If architecture-placement commentary is still helpful, the default home is a separate companion note or ADR-like architecture surface.
+If architecture-placement commentary is still helpful, the default place is a separate companion note or ADR-like architecture note.
 A live pattern may include a short optional informative subsection such as `Architectural placement note (informative)` only when that placement materially helps users avoid misuse; even then, it must stay clearly separated from the user-facing solution and rationale rather than replacing them.
 
-#### E.8:4.2.4 - Human-facing fit beyond surface correctness
-Human-facing fit is also subject-domain fit. A recognition surface that starts from internal taxonomy, owner-lane convenience, or package-architecture wording before the problem-owning domain moment is still under-authored even if its later law surface is correct. When a broader umbrella name and a narrower operative branch are both live, the first surface should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
+#### E.8:4.2.4 - Human-facing fit beyond role correctness
+Human-facing fit is also subject-domain fit. A first-reading recognition role that starts from internal taxonomy, authority-lane convenience, or package-architecture wording before the problem-owning domain moment is still under-authored even if its later law text is correct. When a broader umbrella name and a narrower operative branch are both live, the first role should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
 
-A pattern can already be surface-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
-That failure usually appears when the text is lawful but does not yet make the working situation, practical payoff, governed object, or first reading surface visible enough.
+A pattern can already be role-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
+That failure usually appears when the text is lawful but does not yet make the working situation, practical payoff, governed object, or first reading role visible enough.
 
-For canonical patterns, the first reading surface should behave as a **recognition surface** and the heavier burden should remain in an **assurance surface**.
+For canonical patterns, the first reading role should behave as a **recognition role** and the heavier burden should remain in an **assurance role**.
 When a pattern claims practice guidance or is meant to be used by engineers, managers, researchers, or other working readers, authors should make the following visible before the heavier harness takes over:
 - a recognisable `Use this when` or equivalent first-minute entry;
-- a concrete working situation in `Problem frame`, not only taxonomic or owner-lane language;
+- a concrete working situation in `Problem frame`, not only taxonomic or authority-lane language;
 - a short statement of what goes wrong if the pattern is missed or misread;
 - a short statement of what this pattern buys the reader in practice;
 - a short `Not this pattern when` boundary for the ordinary nearby misroutes;
 - one minimally viable worked case or use slice that shows what changes in practice;
 - when a typed declaration block, formal lens, or other compact modeling support is load-bearing, a short user-facing statement of what kind of object the pattern is governing and what minimal lens keeps that object reviewable;
-- pairwise plain glosses for any high-pressure technical terms that must appear before the heavier declaration surface arrives;
+- pairwise plain glosses for any high-pressure technical terms that must appear before the heavier declaration role arrives;
 - when `SoTA-Echoing` is carrying live explanatory load, a short working-reader implication for each row or cluster of rows and a visible link back to the case bank or worked slices that those rows discipline;
-- a visible split between the recognition surface and the heavier declaration / review / assurance surface;
-- and, if the draft implicitly serves several reader families, an explicit primary working reader, primary concern surface, or primary viewpoint.
+- a visible split between the recognition role and the heavier declaration / review / assurance role;
+- and, if the draft implicitly serves several reader families, an explicit primary working reader, primary concern role, or primary viewpoint.
 
-**Entry-bearing mini-block (informative).** When a canonical pattern genuinely functions as a local front door for one first practical route, the recognition surface SHOULD add one short routing block near the top with: `Start here when`, `First output`, `Typical next owners`, and `Common wrong escalations / reroutes`.
+**Problem-frame recognition signature (informative).** When a canonical pattern
+genuinely functions as an entry-bearing pattern for one common first-use
+burden, the recognition role SHOULD express that entry role through the
+pattern's `Problem frame`, not through one separate route block.
 
-This mini-block does not replace `Use this when`, `Problem frame`, `Consequences`, or ordinary `Not this pattern when` guidance. Its job is to shorten first-minute routing for a cold reader without silently widening owner scope, changing route-count decisions, or relocating semantics out of the pattern that actually owns them.
+The local recognition signature should make recoverable:
 
-If the block points to neighbouring owners, it should name those owners as next moves or reroutes rather than as hidden co-owners of the current pattern.
+- the concrete working situation;
+- the governed object or stabilized concern;
+- what goes wrong if the pattern is missed or misread;
+- the ordinary not-this-pattern boundary;
+- the first lawful entry stop or entry-stabilizing result.
 
-If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition surface.
-At minimum the recognition surface should show at least three heterogeneous reader or domain situations rather than one narrow lane with a later broad claim attached.
+`Use this pattern when`, `This pattern applies when`, or equivalent `Problem
+frame` prose may be used as the first sentence or compact cue of this
+signature.
+It is not one separate required section.
+Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in
+`I.2`.
+
+If the prose points to neighbouring patterns or other governing support roles, it should present them as nearby patterns or burden reclassifications rather than as hidden co-authorities of the current pattern.
+
+If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition role.
+At minimum the recognition role should show at least three heterogeneous reader or domain situations rather than one narrow lane with a later broad claim attached.
 When a compact matrix helps, `F.16` is the preferred template for making that breadth legible.
 
 This is not a request to flatten the pattern into plain language only.
-It is a rule about ordering, layering, and surface consistency: the recognition surface must help a working reader recognise the pattern early, while the assurance surface continues to carry the full semantic burden.
-If the pattern uses technical lexicon, ontological distinctions, or a mathematical lens, those supports must remain recoverable, but the first reading surface should not require the reader to decode that full stack before recognising the working situation.
-The assurance surface may tighten or discipline the recognition surface; it must not silently shift what the recognition surface claimed.
+It is a rule about ordering, layering, and role consistency: the recognition role must help a working reader recognise the pattern early, while the assurance role continues to carry the full semantic burden.
+If the pattern uses technical lexicon, ontological distinctions, or a mathematical lens, those supports must remain recoverable, but the first reading role should not require the reader to decode that full stack before recognising the working situation.
+The assurance role may tighten or discipline the recognition role; it must not silently shift what the recognition role claimed.
+
+**Illustrative migration example (informative).**
+
+Old route-shaped top:
+
+```text
+Start here when the dominant burden is API, protocol, contract, or compliance wording.
+First output: Claim Register.
+Nearby patterns / burden reclassifications: A.6.B, A.6.C.
+```
+
+Repaired Problem-frame recognition signature:
+
+```text
+Use this pattern when boundary-facing language - API, contract, protocol, SLO/SLA, or compliance clause - mixes laws, admissibility gates, duties, and evidence into one sentence or published boundary description.
+
+If missed, the text becomes contract soup: runtime behavior, governance, and evidence are treated as one undifferentiated promise.
+
+Do not use this pattern merely because the text mentions an API or contract. If the live burden is still one unstable cue, preserve it through the lawful cue-preservation line first.
+
+First lawful entry stop: one routed atomic claim set or one Claim Register whose live burdens are explicit enough for the next authoritative pattern to inspect.
+```
+
+#### E.8:4.2.5 - Design-time and run-time referents stay separated in live pattern prose
+
+Live pattern prose must keep its referent index explicit. In ordinary body sections, the default truth-makers are run-time or governed-domain objects, states, moves, boundaries, consequences, and user-facing practical effects. Standard-plane wording is still lawful when the sentence is explicitly about the standard as a normative artifact, for example in marked legacy route examples, marked informative notes, or conformance/checklist clauses.
+
+Design-time and control-plane referents are different objects. The current draft, current body, current pass, author, reviewer, handoff, packet, owner lane, landing choice, or other writing-process/control objects must not be smuggled in as the hidden truth-condition of live pattern prose. A quick test is: what makes this sentence true? If the sentence is true because the current text is arranged a certain way, because the author/reviewer must do something next, or because the current control state says so, then it is design-time residue, not live pattern content.
+
+Move that material to the authored-slice carrier, handoff, `DRR`, or companion architecture note. If a sentence is kept in the live pattern, rewrite it so that its truth depends on the governed run-time/domain object or on the standard's declared normative contract rather than on the current writing pass.
+
 If a pattern or example claims **autonomy** for any Role/Method/Service:
 1) Add a subsection **“Autonomy (RoC‑E.16)”** that lists:
    * `AutonomyBudgetDeclRef` (id, version, Scope (G), Γ_time),
@@ -41403,6 +41954,7 @@ Conformance Checklist items are obligations/conditions in the **authoring plane*
 |----|-------------|---------|
 | **CC-SG.0 (Heading discipline).** | Pattern and subsection headings **SHALL** follow **H-1 ... H-9** (FullId prefix, reserved punctuation, heading levels, ellipsis discipline). The Footer marker **SHALL** follow **H-9**. | Makes chunks self-contained; reduces ambiguity between author elision and retrieval truncation. |
 | **CC-SG.1** | Every new pattern **SHALL** follow the section order defined in the Canonical Template (Title block -> ... -> Footer marker). | Guarantees structural comparability. |
+| **CC-SG.1a (Initial live draft shape).** | The first non-empty authored version of a live pattern **SHALL** already use the canonical section frame (Title block -> Footer marker). Authors **MUST NOT** start from one pre-template opening memo and promise to backfill canonical sections later. | Prevents large late-stage structural rewrites and keeps drafting aligned with `E.8` from the first substantive pass. |
 | **CC-SG.2 (Grounding required).** | Every pattern **MUST** include an *Archetypal Grounding* section. If **System** or **Episteme** grounding is inapplicable, authors **MUST** state `Not applicable` and give a one-paragraph justification. | Keeps patterns teachable and reduces “definition-only” ambiguity. |
 | **CC-SG.3** | The *Bias-Annotation* section **SHALL** cite the five Principle-Taxonomy lenses and declare either “Universal” or an explicit scope limitation. | Keeps cross-disciplinary neutrality explicit (ties to Guard-Rail 4). |
 | **CC-SG.4** | Deontic normative sentences **MUST** use only RFC-style keywords (see **H-8**); RFC keywords **MUST NOT** appear inside `Definition:`/`Invariant:`/`Well-formedness constraint:` blocks. When enforceable, admissibility/validity predicates **SHOULD** be referenced by id from the Conformance Checklist (rather than duplicated as “X MUST ...”). Informal deontic verbs are prohibited in normative clauses. | Prevents ambiguity between obligation language and model validity; improves auditability. |
@@ -41413,13 +41965,14 @@ Conformance Checklist items are obligations/conditions in the **authoring plane*
 | **CC-SG.9 (Lexical hygiene).** | The term **mapping** **SHALL NOT** appear in SoTA-Echoing except in the precise E.10 sense; use **alignment/Bridge/relation** instead. | Avoids overloading reserved vocabulary. |
 | **CC-SG.10 (No keyword soup).** | SoTA-Echoing items **MUST** be written as sentences (not bare noun phrases); bullet lists are acceptable only with complete clauses. | Improves didactic quality and comparability. |
 | **CC-SG.11 (Anti-patterns).** | Every pattern **SHALL** include a **Common Anti-Patterns and How to Avoid Them** section. It **MAY** be `Not applicable` only with a one-paragraph justification. | Makes misuse paths explicit and reduces review churn. |
-| **CC-SG.12 (Boundary routing).** | If a pattern’s subject is a boundary/interface/protocol/contract (API boundary, protocol, connector, “contract” description, or a published boundary surface), it **MUST** either (a) provide an **A.6.B**-routed atomic claim set (`L-*`/`A-*`/`D-*`/`E-*`, with stable IDs), or (b) explicitly cite an existing **A.6.B Claim Register** / routed claim set that it reuses. | Pulls A.6.B into the authoring contour, prevents “contract soup”, and makes review more explicit and repeatable. |
-| **CC-SG.13 (Didactic sufficiency).** | New patterns and substantial revisions **MUST** remain understandable without project-planning notes. When a pattern introduces a new named family/profile/specialization, or adds a non-trivial host-derived note, its Solution and Grounding **SHALL** carry enough second/third-surface content: explicit host relation, ordinary-vs-load-bearing guidance, at least one concrete source/result slice where applicable, and visible reroute cues. | Prevents skeleton-only patterns and project-context leakage. |
+| **CC-SG.12 (Boundary routing).** | If a pattern’s subject is a boundary/interface/protocol/contract (API boundary, protocol, connector, “contract” description, or a published boundary description), it **MUST** either (a) provide an **A.6.B**-routed atomic claim set (`L-*`/`A-*`/`D-*`/`E-*`, with stable IDs), or (b) explicitly cite an existing **A.6.B Claim Register** / routed claim set that it reuses. | Pulls A.6.B into the authoring contour, prevents “contract soup”, and makes review more explicit and repeatable. |
+| **CC-SG.13 (Didactic sufficiency).** | New patterns and substantial revisions **MUST** remain understandable without project-planning notes. When a pattern introduces a new named family/profile/specialization, or adds a non-trivial host-derived note, its Solution and Grounding **SHALL** carry enough supporting content: explicit host relation, ordinary-vs-load-bearing guidance, at least one concrete source/result slice where applicable, and visible reroute cues. | Prevents skeleton-only patterns and project-context leakage. |
 | **CC-SG.14 (Controlled prose, not free shorthand).** | Load-bearing prose **SHALL NOT** rely on bare relation words or planning shorthand whose host relation is left implicit (e.g., bare “species”, “branch”, “flow”, or API-like “input/output” language). When a host relation matters, authors **MUST** name it explicitly (`specialization under ...`, `hosted profile under ...`, `overlay over ...`, etc.). | Keeps pattern prose precise and self-identifying. |
 | **CC-SG.15 (Package-form and host-relation role-word discipline).** | When a pattern names a package-form or the host relation of a family (`owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, `umbrella`), the chosen role word **MUST** match the intended ontology and **MUST NOT** be swapped for stylistic variety or left to implication. | Prevents semantic blur in pattern prose and keeps host relations auditable. |
 | **CC-SG.16 (Reader-role discipline).** | Authors **MUST** keep live pattern sections user-facing. FPF-development or package-architecture reasoning about isolation, overlay or owner choice, freeze, merge posture, or planned evolution **MUST NOT** occupy `Problem`, `Solution`, `Consequences`, `Rationale`, or worked slices; if such material is still needed, it **MUST** live in a separate companion note or a clearly marked informative placement note. | Keeps pattern prose aligned with its intended reader and prevents package-governance leakage into live use guidance. |
-| **CC-SG.17 (Recognition surface and assurance surface).** | Admission or substantial revision runs **MUST** check that a canonical pattern exposes a recognition surface early enough for the intended working reader and an assurance surface that carries declaration, law, modeling, and review burden without silently shifting the recognition-surface claim. The recognition surface **MUST** surface a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and a clear ordinary `not this pattern when` boundary. Any load-bearing typed declaration or modeling lens **MUST** be surfaced by a short user-facing statement of the governed object, early high-pressure technical terms **MUST** receive nearby pairwise plain glosses, and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If the pattern claims universal or transdisciplinary reach, the recognition surface **MUST** demonstrate that claim through at least three heterogeneous reader or domain situations, preferably using an `F.16`-style example matrix or an equally explicit alternative. | Prevents surface-clean but reader-opaque patterns and keeps broad claims visible where cold readers actually enter the text. |
-| **CC-SG.17a (Entry-bearing route block).** | When a canonical pattern genuinely functions as a local first-practical route for working readers, the recognition surface **SHOULD** include one short informative routing block with `Start here when`, `First output`, `Typical next owners`, and `Common wrong escalations / reroutes`. The block **SHALL NOT** silently widen owner scope or treat neighbouring owners as hidden co-owners. | Keeps route-bearing patterns locally legible without relocating semantics out of their actual owners. |
+| **CC-SG.16a (Referent-index discipline in live prose).** | Live pattern sections **MUST** keep run-time/domain referents, standard-plane referents, and design-time/control-plane referents distinct. In ordinary live prose, sentence truth **MUST** depend on the governed run-time/domain object or on the pattern's declared normative contract, not on the current draft state, author/reviewer action, or control-plane posture. If a sentence is true only because of the current writing/review pass or text arrangement, it is design-time residue and belongs in carriers or companion notes, not in the live pattern body. | Prevents Conway/process leakage and reduces late cleanup before review or landing. |
+| **CC-SG.17 (Recognition role and assurance role).** | Admission or substantial revision runs **MUST** check that a canonical pattern exposes a recognition role early enough for the intended working reader and an assurance role that carries declaration, law, modeling, and review burden without silently shifting the recognition-role claim. The recognition role **MUST** expose a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and a clear ordinary `not this pattern when` boundary. Any load-bearing typed declaration or modeling lens **MUST** be exposed by a short user-facing statement of the governed object, early high-pressure technical terms **MUST** receive nearby pairwise plain glosses, and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If the pattern claims universal or transdisciplinary reach, the recognition role **MUST** demonstrate that claim through at least three heterogeneous reader or domain situations, preferably using an `F.16`-style example matrix or an equally explicit alternative. | Prevents role-clean but reader-opaque patterns and keeps broad claims visible where cold readers actually enter the text. |
+| **CC-SG.17a (Problem-frame recognition signature for entry-bearing patterns).** | When a canonical pattern genuinely functions as an entry-bearing pattern for one common first-use burden, authors **SHOULD** express that entry role through the pattern's `Problem frame`, not through a separate route block. The `Problem frame` should make recoverable the concrete working situation, the governed object or stabilized concern, what goes wrong if the pattern is missed or misread, the ordinary not-this-pattern boundary, and the first lawful entry stop or entry-stabilizing result. Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in `I.2`; lexical-query support belongs under the lexical/naming patterns and support roles that already govern it. Pattern-local `Start here when`, `First output`, next-owner lists, and `Common wrong escalations / reroutes` blocks **SHOULD NOT** be used for new or materially revised patterns. | Keeps first-use recognition inside the canonical pattern frame while preventing route/workflow language from becoming local pattern structure. |
 | **CC-SG.18 (Precision before relaxation).** | In load-bearing prose, authors **MUST NOT** leave a generic head noun or burden-carrying qualifier uninterpreted when that phrase carries semantic, boundary, or authority load. A narrowing qualifier by itself does **not** restore the head kind. Authors **MUST** restore head kind first, then qualifier burden, then any comparison/escalation axis before stronger use. If a later Plain, didactic, or coarsened rendering is kept, the more precise upstream reading **MUST** remain recoverable. | Prevents ambiguity from being hidden inside ordinary-looking phrases and keeps softened prose subordinate to an explicit authoritative reading. |
 
 ### E.8:8 - Common Anti-Patterns and How to Avoid Them
@@ -41433,16 +41986,17 @@ These failure modes recur in drafts and in downstream application. They are pred
 | **SoTA name-dropping** | SoTA-Echoing is a list of nouns/buzzwords with no adopt/adapt/reject rationale. | Violates CC-SG.7 and CC-SG.10; readers cannot audit alignment. | For each source, state what is adopted/adapted/rejected and why (complete clauses, 2-4 sentences). |
 | **Tool-bound normativity** | A vendor tool, file format, or schema is described as required to apply the pattern. Data governance implied. | Violates Guard-Rails (lexical firewall; notation independence, data governance absence); reduces portability and conceptual clarity. | Keep normative content conceptual; move tooling and data governance into Context-local Profiles. |
 | **Hidden trade-offs** | Solution sounds universally good; Consequences lists only benefits. | Removes decision-support value; applicability cannot be judged. | In Consequences, include at least one trade-off and a mitigation; if none exists, explain why. |
-| **Skeleton-only pattern** | The template is present, but the pattern gives only one compressed definition block and scenario labels. | Passes form while failing didactic sufficiency. | Add second/third-surface content: local decomposition, concrete slices, reviewer cues, and reroute guidance. |
+| **Skeleton-only pattern** | The template is present, but the pattern gives only one compressed definition block and scenario labels. | Passes form while failing didactic sufficiency. | Add supporting content: local decomposition, concrete slices, reviewer cues, and reroute guidance. |
 | **Project-context leakage** | A reader needs architecture memos or planning notes to understand the pattern. | The monolith stops being self-sufficient. | Move the essential problem framing, worked slices, and rationale into the pattern itself; keep project reviews informative only. |
 | **Generic-head underspecification** | A load-bearing phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the text never restores what kind of thing that phrase names. | The reader cannot tell what ontology the sentence is actually governing. | Restore the head kind first in host-local terms before any stronger claim or comparison is made. |
 | **Qualifier-smuggled burden** | A modifier such as `comparative`, `safe`, `interactive`, `reliable`, or `faithful` is doing the semantic work while the text leaves its burden implicit. | The sentence sounds precise without actually stating its comparison basis, relation burden, or stronger-use boundary. | Unpack the qualifier into explicit burden, criteria, or reroute language rather than relying on the modifier alone. |
 | **Mixed comparison axis** | One sentence compares or ranks artifact-like, process-like, authority-like, or owner-like things on one axis. | The sentence becomes ontologically incoherent even if each local noun sounds plausible. | First restore head kind, then qualifier burden, then rewrite the comparison through a homogeneous burden/threshold/handoff axis. |
 | **Implicit relation shorthand** | Words like “species”, “branch”, or process metaphors do the semantic work without naming the actual host relation. | Readers infer the wrong ontology or workflow. | State the host relation explicitly and remove shorthand that only makes sense inside project discussions. |
-| **Package-form and host-relation drift** | Words like `bundle`, `cluster`, `profile`, `overlay`, `family`, `suite`, or `kit` are swapped as if they were stylistic variants. | Readers cannot tell whether the text is naming an owner, a navigation grouping, a review surface, or a packaged set of defaults. | Pick one role word by ontology, keep the host relation explicit, and do not vary the noun unless the ontology really changes. |
+| **Package-form and host-relation drift** | Words like `bundle`, `cluster`, `profile`, `overlay`, `family`, `suite`, or `kit` are swapped as if they were stylistic variants. | Readers cannot tell whether the text is naming an owner, a navigation grouping, a review role, or a packaged set of defaults. | Pick one role word by ontology, keep the host relation explicit, and do not vary the noun unless the ontology really changes. |
 | **Reader-role leakage** | Live sections start telling the reader why the pattern was isolated, what landing form is safest, or why freeze/merge is premature. | The pattern stops teaching the user and starts narrating FPF-development decisions. | Move package-development reasoning to companion notes; keep live sections about lawful use, costs, boundaries, and reroutes for the intended user. |
-| **Role-clean but pragmatically foggy** | The pattern addresses the right reader in principle, but a cold practitioner still cannot recognise the working situation, practical payoff, governed object, first useful move, or project-level implication of the `SoTA-Echoing` early enough. | The text passes role hygiene but still fails `E.12`/`E.13`/`E.14` as a working artifact. | Bring a manager-first or practitioner-first entry higher, add one minimally viable worked case, state what changes in practice, surface the governed object and any minimal modeling lens in plain user-facing prose, add plain glosses for early high-pressure terms, and keep `SoTA-Echoing` tied to visible practitioner or manager implications plus nearby case linkage rather than lineage alone. |
-| **Hybrid audience blob** | One main narrative tries to serve engineers, managers, auditors, architects, and researchers at once with no primary working reader or concern surface. | The text becomes globally polite but locally blurry; no reader knows which concern governs the first surface. | Make the primary working reader / concern / viewpoint explicit and route other audiences into secondary support, other faces, or an explicit out-of-scope note. |
+| **Editorial/process-plane self-instruction leak** | The live pattern starts saying things like `this draft should ...`, `later authoring will ...`, or `that is the opening this draft must hold`. | The text stops addressing the working reader and starts narrating the current editorial or drafting process. | Move the sentence to the authored-slice carrier or handoff, or rewrite it as one user-facing claim about the governed object, boundary, or practical consequence. |
+| **Role-clean but pragmatically foggy** | The pattern addresses the right reader in principle, but a cold practitioner still cannot recognise the working situation, practical payoff, governed object, first useful move, or project-level implication of the `SoTA-Echoing` early enough. | The text passes role hygiene but still fails `E.12`/`E.13`/`E.14` as a working artifact. | Bring a manager-first or practitioner-first entry higher, add one minimally viable worked case, state what changes in practice, expose the governed object and any minimal modeling lens in plain user-facing prose, add plain glosses for early high-pressure terms, and keep `SoTA-Echoing` tied to visible practitioner or manager implications plus nearby case linkage rather than lineage alone. |
+| **Hybrid audience blob** | One main narrative tries to serve engineers, managers, auditors, architects, and researchers at once with no primary working reader or concern role. | The text becomes globally polite but locally blurry; no reader knows which concern governs the first role. | Make the primary working reader / concern / viewpoint explicit and route other audiences into secondary support roles, other faces, or an explicit out-of-scope note. |
 
 ### E.8:9 - Consequences
 
@@ -41467,15 +42021,16 @@ International and industry standards often speak in terms of *conformance criter
 
 ### E.8:11 - SoTA‑Echoing  *(normative; lineage & deltas to contemporary State‑of‑the‑Art)*
 
-**Purpose.** Make each pattern’s relationship to contemporary best-known practice explicit and comparable without importing tooling or data governance. This section is prose‑first and notation‑independent. It does not mint an independent second rule layer, but it is a load-bearing alignment surface: the Solution, Conformance Checklist, Relations, and other load-bearing sections must reflect the stance stated here or explicitly justify divergence.
+**Purpose.** Make each pattern’s relationship to contemporary best-known practice explicit and comparable without importing tooling or data governance. This section is prose‑first and notation‑independent. It does not mint an independent second rule layer, but it is a load-bearing alignment section: the Solution, Conformance Checklist, Relations, and other load-bearing sections must reflect the stance stated here or explicitly justify divergence.
 
 **Minimum contents (obligations).**
 1) **Evidence binding (no duplicate SoTA).** If a **SoTA Synthesis Pack** exists (G.2), this section **SHALL cite** its **ClaimSheet IDs** / **CorpusLedger entries** / **BridgeMatrix rows** as the source‑of‑truth for claims and report `adopt/adapt/reject` **consistent with those IDs**. Avoid forking an untracked SoTA narrative.
+1a) **Accepted basis set, not DRR-only narrowing.** When a pattern is drafted under an accepted `DRR` and other accepted basis materials also exist by value, the `DRR` remains the decision and placement anchor, but `SoTA‑Echoing`, neighboring-pattern relations, and any minimal modeling or mathematical lens **MAY** and **SHOULD** inherit non-conflicting material from that accepted basis set.
 2) **Sources (post‑2015).** For **Architectural patterns**, cite ≥ 3 primary SoTA sources (standards/papers/books), with at least **two independent Traditions**. For **Definitional patterns**, cite ≥ 1 post‑2015 primary source and, where relevant, a short note on terminology drift/deprecations.
 3) **Best-known, not merely popular.** Authors **SHALL** distinguish best-known currently defensible practice from merely widespread or fashionable defaults. If the pattern adopts, adapts, or rejects a popular-but-weaker practice, that divergence **MUST** be stated explicitly.
 4) **Practice alignment.** For each cited item, state **what is adopted/adapted/rejected** and **why** (2–4 sentences).
 5) **Scale legality.** If numeric operations are implied, bind to ComparatorSet/CG‑Spec and declare partial‑order stance (no hidden scalarisation).
-6) **Cross‑Context reuse.** Any reuse across `U.BoundedContext` must surface Bridge+CL/Φ_plane policy‑ids (penalties affect only `R_eff`).
+6) **Cross‑Context reuse.** Any reuse across `U.BoundedContext` must expose Bridge+CL/Φ_plane policy‑ids (penalties affect only `R_eff`).
 7) **Lexical hygiene.** Avoid “mapping” unless you mean an explicit Bridge/translation relation with loss notes.
 
 **Writing guidance (readability).**
@@ -41500,10 +42055,8 @@ International and industry standards often speak in terms of *conformance criter
 
 ### E.8:End
 
-
----
-
 ## E.9 - Design‑Rationale Record (DRR) Method
+
 
 
 ### E.9:1 - Problem frame
@@ -43063,7 +43616,557 @@ Think in three layers: **Intension** (what the thing *is*), **Description/Spec**
 
 ### E.10.D2:End
 
+## E.11 - First-Practical Entry and Pattern-Use Discoverability Discipline
+
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+### E.11:1 - Problem frame
+
+One cold reader often enters `FPF` with one burden phrase rather than one
+pattern ID. The reader may see several plausible patterns, one search result,
+one `Preface` blurb, one `J.4` row, or one local pattern opening, but still not
+know which authoritative pattern to inspect first, which nearby pattern is only
+support or a tempting wrong first stop, and where it is lawful to stop reading
+for entry purposes.
+
+Pattern-entry discoverability is the discipline that makes that first
+recognition honest without turning the pattern language into workflow.
+
+Use this pattern when the reader can name the burden in ordinary work language
+but still cannot tell which pattern to inspect first, which nearby pattern is
+only support, and where the first lawful entry stop belongs.
+
+What goes wrong if this pattern is missed:
+
+- `Preface`, `README`, `J.4`, one search result, or one local top is treated as
+  if it were the authoritative pattern rather than one projection or support
+  role;
+- one plausible nearby pattern becomes a hidden required next step because
+  entry language turns into workflow language;
+- lexical support turns into synonym stuffing instead of governed query cues;
+- readers repeat the same wrong first guesses because the corpus never
+  publishes one explicit entry-neighborhood discipline.
+
+What this pattern buys:
+
+- the first honest burden becomes nameable near the point of use;
+- candidate patterns, tempting wrong patterns, and lawful entry stops become
+  visible without minting a workflow;
+- support/projection roles can help the reader recover the right pattern
+  without competing for semantic authority.
+
+Ordinary not-this-pattern boundary:
+
+- not when the real burden is first-contact recognition of one single
+  encountered description; use `A.6.RSIG`;
+- not when the real burden is already one published route, language-state cue,
+  endpoint publication line, or work sequence;
+- not when the authoritative pattern is already known and the remaining job is
+  only didactic order or lexical repair;
+- not when a formal quality claim about discoverability is being made; route
+  that burden through `C.25` / `A.6.Q` as applicable.
+
+### E.11:2 - Problem
+
+Pattern-entry discoverability burdens are spread across `Preface`, `J.4`,
+`I.2`, local pattern `Problem frame`s, table-of-content query rows, and
+lexical-support homes. Without one governing pattern for their split, readers
+can infer false sequence, wrong pattern, wrong strongest home, or shadow
+projection authority because the support roles are under-governed.
+
+### E.11:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| High recall vs high precision | Coarse orientation helps the reader enter quickly without creating false confidence or false sequence. |
+| Local fit vs corpus consistency | Pattern-local cues stay honest while the corpus avoids stale echoes and duplicated strong guidance. |
+| Subject-domain wording vs canonical wording | Readers search in real phrases, but canonical names and governed distinctions stay lawful. |
+| Quick orientation vs anti-workflow discipline | Entry support helps pattern selection without reading like route execution, handoff, or pipeline. |
+| Reader economy vs fanout control | More support roles can help entry, but repeated near-duplicate guidance creates contradiction risk and maintenance burden. |
+| Human and AI-assisted retrieval vs authority | Retrieval may return helpful fragments, but fragments must not answer as if they were the strongest home. |
+
+### E.11:4 - Solution
+
+#### E.11:4.1 - Governed object, non-goals, and non-minting boundary
+
+`E.11` governs pattern-entry discoverability for `FPF` and
+`FPF`-conformant pattern-language authoring: the coordination law by which one
+reader can bring plausible authoritative patterns into view, compare them,
+reject tempting wrong patterns and wrong strongest homes, use lawful
+projection/support roles, and reach one lawful entry stop or burden
+reclassification without reading the pattern language as workflow.
+
+In `E.11`, the live governed case is pattern-entry discoverability. Description
+discoverability remains routed through `A.6.RSIG`; `E.11` mentions it only to
+preserve the semantic-name settlement and support-role partition.
+
+`E.11` does not govern:
+
+- discoverability trigger-word repair or naming assets that belong to
+  `A.6.P / F.18 / E.10`;
+- description-recognition signatures in general, which belong to `A.6.RSIG`;
+- local first-reading placement and form, which belong to `E.8`;
+- didactic order, learning order, cognitive-load ramping, tutorial sequence,
+  progressive mastery, and teaching examples after the relevant pattern family
+  has already been identified;
+- workflows, process routes, control-flow graphs, prescribed method sequences,
+  work handoffs, or runtime execution stops;
+- the semantic content of referenced patterns;
+- formal quality treatment, which belongs to `C.25` / `A.6.Q` when the claim
+  becomes evaluative;
+- graph ontology in `E.18`.
+
+This pattern does not mint one new `U.Discoverability`, `RelationKind`,
+`PatternKind`, `StatusKind`, `SurfaceKind`, graph node, or workflow state.
+
+#### E.11:4.2 - Pattern-entry discoverability claim and FPF strata
+
+Pattern-entry discoverability is one composite quality-facing concern over
+whether one reader can:
+
+- bring the right candidate patterns into view, together with any lawful
+  support roles needed for comparison;
+- recognize applicability or non-applicability;
+- avoid common wrong patterns, wrong strongest homes, or projection-only
+  fragments answered as if they were authoritative;
+- reach one lawful entry stop or burden reclassification.
+
+This pattern keeps these semantic heads distinct:
+
+| Head | Working meaning here |
+| --- | --- |
+| `pattern-entry discoverability` | one composite entry quality over a support/projection stack inside a pattern language |
+| `description-recognition signature` | one first-contact cue structure of one encountered description, governed by `A.6.RSIG` |
+| `first-reading role` | the local reading job carried by an existing pattern section or projection; not a new surface kind |
+| `lexical-query support` | cue-to-home access through the reader's words, domain phrases, and query cues without alias minting |
+| `worked entry reading` | one explanatory reading case, not `U.Work`, not a workflow, and not an execution trace |
+| `entry neighborhood` | one case-relative editorial grouping or `J.4` row, not a graph node, route, selector output, or object kind |
+| `thin echo` | lower-case projection discipline: a reminder or pointer, not a `U.Type`, publication-face kind, or authority relation |
+
+None of those heads is a synonym for the others. This pattern routes each
+effect to its strongest home or strongest projection role rather than letting
+`discoverability` become one semantic swamp.
+
+Reader-facing entry language speaks primarily in pattern-language terms:
+`candidate pattern`, `nearby pattern`, `tempting wrong pattern`, `burden
+reclassification`, `lawful entry stop`, `thin echo`, and `strongest home`.
+
+`owner` and `ownership` are not default reader-facing terms here. Use them only
+in process-law owner-set contexts or explicit authority-conflict diagnostics.
+
+#### E.11:4.3 - Pattern-language navigation stance and case-orientation snapshot
+
+An `entry neighborhood` is one case-relative editorial grouping of plausible
+candidate patterns, nearby patterns, common misclassifications, burden
+reclassifications, and lawful entry stops under one first honest burden.
+
+`candidate patterns` here are case-plausible patterns to inspect under one
+named burden. They are not `OptionSet`s, candidate pools, selected sets, or
+selector outputs unless another authoritative pattern explicitly promotes that
+structure.
+
+`nearby pattern` means case-near for recognition, disambiguation, or burden
+reclassification. It does not mean next, required, dependent, broader,
+narrower, or pedagogically prior.
+
+Authors can use one lower-case `case-orientation snapshot` as an editorial lens
+over the current cues, current burden hypothesis, plausible candidate patterns,
+tempting wrong pattern, disambiguating fact, lawful entry stop, and current
+reading role. It is not one canonical persisted object and does not create a
+transition history.
+
+Minimal example:
+
+```text
+case_signal = "we need a shortlist, not one winner"
+current_burden_hypothesis = selected-set publication or candidate-pool policy
+plausible_candidate_patterns = C.19; G.5 only when selected-set publication is live
+nearby_patterns_or_reclassifications = C.11, C.24, A.19 comparator/selector supports
+tempting_wrong_pattern = C.11
+disambiguating_fact = output remains a governed set, not one local choice
+lawful_entry_stop = inspect C.19 if pool policy is live; inspect G.5 if publication is live; inspect C.11/C.24 only after the burden narrows
+
+```
+
+#### E.11:4.4 - Entry-orientation labels and burden reclassification discipline
+
+The local `FPF` application of this pattern is the coordination law for
+first-practical entry orientation over the `FPF` pattern language: support-role
+partition, entry-bearing vs nearby-pattern discipline, burden-reclassification
+presentation, thin-echo discipline, entry-lexeme-support hooks, and review
+hooks.
+
+Route-shaped wording can blur entry orientation with lawful publication seams,
+early language-state routing, endpoint publication, `A.6.B` routed claim
+structure, `DRR` claim routing, or actual method/work sequencing. Repair that
+blur by typing the live burden explicitly rather than by treating every
+route-shaped phrase as entry guidance.
+
+Use this placement test whenever one pattern-entry discoverability-bearing
+claim or wording repair is being placed:
+
+| If the claim is about... | Route it to... |
+| --- | --- |
+| first surfacing candidate material through reader words, domain phrases, or query cues | lexical-query support under `F.17 / F.18 / E.10`, coordinated by `E.11` only where the pattern-entry burden is live |
+| one description's first-contact recognition, truthful applicability signal, or authoritative home | `A.6.RSIG` |
+| choosing among patterns, candidate patterns, nearby patterns, wrong strongest homes, or burden reclassifications inside the pattern language | `E.11` |
+| the lawful local `Problem frame` first-reading role, reading order, or recognition/assurance relation | `E.8` |
+| review trigger, evidence-mode selection, or cross-role parity checks for one pattern-entry discoverability-bearing change | `E.19 / PCP-ENTRY` |
+| one compact or worked projection of already-governed pattern-entry discoverability content | `J.4`, `I.2`, `Preface`, the pattern `Problem frame`, or lexical support according to the strongest-home map |
+| the order in which one already-identified area is learned or taught | `E.6`, `E.7`, `E.12`, `F.16`, and the appropriate tutorial views or walkthroughs |
+| route-bearing publication of cues, route pressure, or endpoint publication | `A.16`, `A.16.1`, `B.4.1`, or the relevant publication pattern |
+| one actual work sequence, method, plan, artifact output, or execution stop | the relevant method/work pattern rather than `E.11` |
+| the meaning of the actual pattern, method, boundary description, or other governed object | the relevant authoritative pattern or governing support home rather than the entry support role |
+
+`E.11` uses only lower-case editorial labels when reviewers need a compact
+diagnostic vocabulary:
+
+- entry-orientation labels: `candidate-pattern`, `nearby-pattern`,
+  `burden-reclassification`, `common-misclassification`;
+- projection-support labels: `lexical-support`, `worked-reading-expansion`;
+- entry-posture labels: `entry-bearing`, `participant-only`,
+  `burden-critical`;
+- projection-purpose labels: `global-entry orientation role`,
+  `catalogue-search support role`, `entry-neighborhood index role`,
+  `worked-entry-reading support role`, `Problem-frame recognition role`,
+  `entry-lexeme support role`, `review-profile role`, `assurance role`.
+
+These labels are optional reviewer/editor vocabulary. They are not exported
+kind families and are not required authoring dimensions for ordinary pattern
+repairs.
+
+#### E.11:4.5 - Support-role partition, Problem-frame first-reading discipline, and README boundary
+
+The concrete `FPF` application uses distinct support/projection roles:
+
+- `Preface` gives coarse global orientation;
+- `Table of Content` `Keywords & Search Queries` gives sparse
+  catalogue-search and lexical-query support;
+- `J.4` gives compact entry-neighborhood comparison;
+- `I.2` gives worked entry readings for high-risk or compact-insufficient
+  cases;
+- the pattern's own `Problem frame` gives the primary local first-reading role;
+- `F.17 / F.18 / E.10` carry entry-lexeme support;
+- `README` can echo the Core entry architecture and point to `Preface`, `J.4`,
+  `I.2`, and selected pattern families.
+
+`README` remains downstream of Core and does not introduce entry neighborhoods,
+candidate patterns, or lexical names absent from Core. It changes when public
+entry claims change materially, not for every internal local wording repair.
+
+Canonical entry neighborhoods can use compact lexical-query support when the
+lexical burden is real. Query cues are retrieval aids, not aliases, Bridges,
+equivalence claims, or semantic twins. A query cue becomes an alias only through
+the relevant lexical/naming home.
+
+Minimal visible lexical-query shape:
+
+```text
+canonical_label
+plain_twin_if_governed
+visible_query_cues
+domain_query_examples
+deprecated_cues
+false_friends_or_forbidden_synonyms
+```
+
+Ordinary lexical-query support stays sparse:
+
+- ordinary `Table of Content` rows: prefer `2-5` high-signal query phrases;
+- ordinary `J.4` neighborhoods: keep only the strongest domain phrases and
+  false friends;
+- fuller lexical sets belong under `F.17 / F.18 / E.10` only when one real
+  naming, alias, bridge, or collision burden exists.
+
+#### E.11:4.6 - Fanout, thin-echo discipline, and semantic parity
+
+Each entry/discoverability claim names one strongest home or strongest
+projection role. Other mentions remain thin echoes.
+
+| Claim payload | Strongest home / projection role | Thin echoes allowed in |
+| --- | --- | --- |
+| trigger-word repair and naming fix | `A.6.P` / `F.18` / `E.10` | quoted local reminders only when needed for user safety |
+| description-recognition-signature claim | `A.6.RSIG` | one bounded publication/view cue under `E.17` when needed |
+| compact entry-neighborhood row | `J.4` | `Preface`, README, one pattern's `Problem frame` |
+| worked entry reading | `I.2` | one compact `J.4` pointer |
+| local first-use recognition cue | the pattern `Problem frame` under `E.8` | `J.4` as cross-pattern comparison |
+| lexical-query cue | `F.17 / F.18 / E.10` or a bounded ToC/J.4 support hook | `I.2`, README, and local prose only as sparse cues |
+
+Support-role parity means semantic consistency of first-use burden, strongest
+home or strongest projection role, wrong-pattern boundary, projection-only
+status, and no claim stronger than the Core pattern body. It does not require
+identical wording, identical examples, identical rows, or exhaustive coverage
+across all support/projection roles.
+
+#### E.11:4.7 - Change propagation, compact host-note discipline, and `PCP-ENTRY` hook
+
+Authors do not introduce `Entry-orientation account` as a standalone artifact
+family.
+
+For material entry/discoverability changes, the author leaves one compact host
+note inside the `DRR`, `PCP` record, patch note, or equivalent host record.
+Ordinary wording repairs do not require a separate note when candidate-pattern
+force, first honest burden, strongest home or strongest projection role, and
+support role remain unchanged.
+
+Allowed host-note shape:
+
+```text
+Entry-change note:
+changed projection or support role:
+changed first-use burden:
+strongest home / projection role:
+wrong-pattern or parity risk:
+selected check, if any:
+```
+
+If the note takes more than a few lines for an ordinary material entry change,
+the change is probably too large for a local note or should escalate to a real
+`DRR` / `PCP` record.
+
+`PCP-ENTRY` is the narrow additive review profile for material
+pattern-entry-discoverability changes. It is risk-triggered rather than
+universal and reviews only entry-facing effects.
+
+A pattern does not need a `J.4` row merely because it exists. A `J.4` row is
+needed only when the pattern or neighborhood is a likely first practical entry,
+a common wrong first guess, or a public/retrieval-facing entry point.
+
+`I.2` worked readings are rare-depth. A compact-index-only posture is a
+complete lawful entry result when the `J.4` row plus pattern `Problem frame` are
+enough for the burden.
+
+#### E.11:4.7.1 - Minimum viable entry discipline
+
+For an ordinary entry-bearing pattern change, the minimum is:
+
+1. the `Problem frame` names the working situation;
+2. it names or implies the first candidate pattern/home;
+3. it rejects one tempting wrong reading if that risk is live;
+4. it does not imply workflow, handoff, or route order;
+5. any support role remains a thin echo.
+
+Everything else is triggered:
+
+- `J.4` row: only if it is a likely first entry or common wrong first guess;
+- `I.2` worked reading: only if compact guidance repeatedly fails or risk is
+  high;
+- ToC lexical cues: only if search/query support is material;
+- README/Preface echo: only if public entry changes materially;
+- host note: only for material entry-force changes;
+- evidence mode: only for high-risk, disputed, retrieval-facing,
+  repeated-failure, or measured-improvement claims.
+
+### E.11:5 - Archetypal grounding
+
+#### E.11:5.1 - System-side worked entry repair: shortlist burden, not one-off choice
+
+Live reader phrase:
+
+> "We need a shortlist, not one winner."
+
+Why the phrase is easy to mishandle:
+
+- `C.11` looks tempting because a local decision may eventually happen;
+- `G.5` looks tempting because publication may happen later;
+- `C.24` can be nearby when the missing object is a tool-call plan;
+- one reader can mistake the live burden for a required next step in a hidden
+  selection workflow.
+
+Entry repair:
+
+1. first honest burden = selected-set shaping, candidate-pool policy, or
+   selected-set publication, not automatically one-off local choice;
+2. plausible candidate patterns = `A.19.CN`, `A.17-A.19`, `C.18`, `C.19`,
+   `G.0`, and `G.5` when selected-set publication is already live;
+3. nearby / burden-reclassification patterns = `C.11` only after the burden
+   narrows to one local decision doctrine, `C.24` only when the next honest
+   artifact is a call plan or checkpoint return, and `A.19.CPM` /
+   `A.19.SelectorMechanism` when comparator/selector structure is live;
+4. disambiguating fact = the desired output remains a governed set or
+   shortlist rather than one local winner;
+5. lawful entry stop = inspect `C.19` if pool/candidate policy is live; inspect
+   `G.5` if selected-set publication is already live; inspect `C.11` or `C.24`
+   only after that narrower burden is actually live.
+
+
+#### E.11:5.2 - Episteme-side anti-case: partly-said cue is not yet a claim
+
+Live reader phrase:
+
+> "This phrase matters, but it is not yet a claim."
+
+Plausible but wrong first reading:
+
+- the reader jumps straight to `A.6.P`, `A.6.Q`, `A.6.A`, or `C.25` because
+  the phrase sounds conceptually important.
+
+Entry repair:
+
+1. first honest burden = cue preservation and burden typing, not endpoint claim
+   publication;
+2. plausible candidate patterns = `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`,
+   `B.5.2.0`;
+3. tempting wrong pattern = any endpoint claim, action, or quality pattern that
+   assumes the cue is already stable enough to publish as a claim;
+4. lawful entry stop = cue preserved, entry plurality opened, or burden
+   reclassified honestly; if the phrase is already a boundary claim, inspect
+   `A.6.B` / `A.6.C` instead.
+
+#### E.11:5.3 - Episteme-side worked entry repair: same-entity rewrite
+
+Live reader phrase:
+
+> "We need to explain the same thing for another audience."
+
+Entry repair:
+
+1. first honest burden = same-entity retextualization, representation-scheme
+   transition, explanation-facing rendering, or bounded comparative reading;
+2. plausible candidate patterns = `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`,
+   `E.17.ID.CR`;
+3. tempting wrong pattern = minting one second semantic object or parallel rule
+   lane;
+4. disambiguating fact = the governed object stays the same; only rendering,
+   reading posture, or explanatory framing changes;
+5. lawful entry stop = same-entity rewrite opened or explanation-facing
+   rendering stabilized with source pins.
+
+#### E.11:5.4 - Quick compact-index-only examples
+
+- **Project alignment.** If the first burden is responsibility/method/plan vs
+  run confusion, `A.15` and neighboring work/role patterns are likely first
+  homes; `F.17` is a typical vocabulary stabilizer when vocabulary is
+  unstable. This can stay compact-index-only unless repeated readers confuse it
+  with the whole FPF method.
+- **Generator / SoTA / portfolio kit.** If the first deliverable is a reusable
+  search/harvest/portfolio scaffold, inspect `A.0`, `G.0`, `G.1`, `G.2`, and
+  `G.5`. This can stay compact-index-only unless portfolio/generator entry is
+  repeatedly misclassified as one-off recommendation.
+
+### E.11:6 - Bias-Annotation
+
+This pattern counters:
+
+- workflow bias;
+- programmer's-bias graph language;
+- front-door centralization bias;
+- synonym-soup bias;
+- support-projection authority bias;
+- owner-bias in reader-facing entry language.
+
+### E.11:7 - Conformance checklist
+
+- **CC-E11-0 Affordability.** Entry guidance is non-conforming when it becomes
+  more expensive to author, review, or read than the discoverability risk
+  warrants.
+- **CC-E11-1 No workflow.** Entry prose does not imply mandatory sequence,
+  handoff, route execution, baton transfer, control state, or artifact
+  pipeline.
+- **CC-E11-2 Pattern authority.** Entry support roles do not redefine the
+  semantic content of the authoritative pattern.
+- **CC-E11-3 Strongest home / thin echo.** Each entry/discoverability claim has
+  one strongest home or strongest projection role; other mentions remain thin
+  echoes.
+- **CC-E11-4 Pattern-language vocabulary.** Reader-facing entry prose uses
+  candidate patterns, nearby patterns, tempting wrong patterns, burden
+  reclassification, and lawful entry stop rather than next-step vocabulary.
+- **CC-E11-4a Editorial labels only.** Entry labels in `E.11` are editorial
+  projection labels over existing patterns, sections, rows, or publication
+  faces. They do not create `PatternKind`, `RelationKind`, `StatusKind`,
+  `SurfaceKind`, `Role`, `U.Type`, graph node, or workflow state.
+- **CC-E11-5 Problem-frame first-reading role.** Local first-use recognition
+  remains in the pattern's `Problem frame`; `J.4`, `I.2`, lexical support, and
+  `README` do not become competing local recognition homes.
+- **CC-E11-6 Quality boundary.** Formal quality claims about discoverability or
+  recognition route through `C.25` / `A.6.Q` as applicable; `E.11` coordinates
+  pattern-entry use, not quality authority.
+- **CC-E11-7 Semantic parity.** Multi-role changes keep burden, authority,
+  boundary, and projection-only status compatible without requiring identical
+  wording or exhaustive coverage.
+- **CC-E11-8 Worked reading threshold.** High-risk, often-misclassified,
+  repeatedly failed, retrieval-facing, or materially new entry neighborhoods
+  have either one worked entry reading or one explicit compact-index-only
+  posture.
+- **CC-E11-9 Lexical-query support.** Material lexical divergence is handled
+  through governed lexical-query support, not synonym stuffing or alias
+  equivalence.
+- **CC-E11-10 Retrieval-facing claim.** Retrieval fixtures are used only when
+  retrieval behavior is explicitly claimed, observed to fail, or
+  machine-facing projection support is in scope.
+
+### E.11:8 - Common Anti-Patterns and How to Avoid Them
+
+- **Problem-frame absence.** The pattern body is lawful, but the first-use
+  situation is still unclear. Repair by rewriting the `Problem frame` for the
+  first-reading role.
+- **Top overgrowth.** The opening carries architecture placement, token guards,
+  route fields, or law before the working situation is clear. Repair by moving
+  heavy material to `Solution`, `Relations`, `Conformance`, or `I.2`.
+- **Route smuggling.** Local text says `Start here`, `next owner`, `handoff`, or
+  `reroute` as if it were a sequence. Repair by replacing it with candidate
+  patterns, nearby patterns, burden reclassification, and lawful entry stop.
+- **Shadow projection.** `J.4`, `README`, or another projection defines pattern
+  semantics. Repair by moving that definition back to the authoritative pattern
+  and leaving only one thin echo.
+- **Lexical stuffing.** Pattern bodies fill themselves with synonyms for
+  findability. Repair by routing lexical support through `F.17 / F.18 / E.10`.
+- **Entry-block-as-ontology.** A temporary map of neighborhoods is frozen as if
+  it were one stable ontology. Repair by keeping neighborhoods case-relative
+  and projection-scoped.
+
+### E.11:9 - Consequences
+
+This pattern gives `FPF` one explicit coordination law for pattern-entry
+discoverability instead of leaving the burden fragmented across `Preface`,
+`J.4`, `I.2`, pattern tops, query rows, and lexical support lanes.
+
+It also imposes discipline: entry support becomes thinner, more explicit about
+its authoritative patterns and support roles, and less tolerant of
+workflow-shaped wording. The cost stays bounded because worked readings,
+host notes, parity scans, retrieval fixtures, and evidence modes are triggered
+by risk rather than required for ordinary wording repairs.
+
+### E.11:10 - Rationale
+
+This pattern is needed because the burden is no longer only local pattern form
+and not only lexical repair. `E.8` governs local first-reading form;
+`A.6.RSIG` governs the neutral description-recognition-signature substrate;
+`E.19` reviews risk-triggered entry changes. The cross-pattern entry law still
+needs its own governing pattern.
+
+### E.11:11 - SoTA-Echoing
+
+This pattern is an `FPF`-local pattern-entry discipline. It adopts current
+discoverability, documentation-mode, taxonomy, pattern-validation,
+human/AI-facing, and retrieval practices only where they preserve one
+burden-oriented entry reading over a pattern language. It rejects turning that
+reading into one workflow, front door, route graph, synonym store, or
+retrieval-tooling ontology.
+
+| Pattern claim carried here | Source-bearing SoTA support (post-2015) | Alignment with `E.11` | Adoption status and worked-slice implication |
+| --- | --- | --- | --- |
+| Pattern-entry starts from first honest burden and candidate-pattern recognition, not chapter order or route execution. | Jorge Arango (2018), *Living in Information: Responsible Design for Digital Places*; Raluca Budiu (2020), "Information Scent: How Users Decide Where to Go Next", Nielsen Norman Group. | Information-architecture practice supports orientation through places, labels, context, and reader expectations. `E.11` adopts scent as first-contact cue economy, then strengthens it into semantic-home recovery, tempting-wrong-pattern rejection, burden reclassification, and lawful entry stop. | **Adopt / strengthen.** Adopt cue economy and burden-oriented orientation; reject scent, familiar wording, or a retrieved support echo as sufficient semantic authority. In the shortlist case, the manager distinguishes selected-set publication, candidate-pool policy, and one-off choice before opening the wrong pattern. |
+| Pattern-entry support needs role partition: coarse orientation, compact index, worked reading, local first-reading role, and lexical support are different jobs. | ISO/IEC/IEEE 26514:2022; Daniele Procida, *Diataxis* documentation framework (2017-2025). | User-information and documentation-mode practice separates information needs and presentation modes. `E.11` extends this from documentation form to semantic-home recovery and wrong-pattern rejection. | **Adapt.** Adopt mode separation; reject replacing pattern authority with documentation architecture. Practitioners get compact rows in `J.4`, worked readings in `I.2`, and local recognition in the authoritative pattern. |
+| Entry lexemes and query cues need controlled governance, but lexical support is not alias minting and not semantic equivalence. | Helen Lippell, ed. (2022), *Taxonomies: Practical Approaches to Developing and Managing Vocabularies for Digital Information*. | Taxonomy practice supports governed terms, validation, and maintenance for search, browse, and interpretation. `E.11` routes query cues, false friends, and plain twins through `F.17 / F.18 / E.10`, `J.4`, `I.2`, and ToC rows instead of stuffing synonyms into every pattern body. | **Adapt.** Adopt lexical-query discipline; reject uncontrolled alias growth. In the partly-said anti-case, subject-language cues help find the neighborhood while the cue remains not-yet-claim. |
+| Human and AI-assisted readers need clear capability, limitation, and uncertainty cues. | Amershi et al. (2019), "Guidelines for Human-AI Interaction", CHI 2019. | Human-AI guidance validates the need to make capabilities and limits clear enough for calibration. `E.11` adapts this into public and machine-assisted entry: thin echoes say what they can point to and what they cannot define, while `A.6.RSIG` fields such as applies-to, excludes, authoritative home, and lawful entry stop calibrate what an encountered description can and cannot settle. | **Adapt / narrow.** Adopt expectation management for mixed human/AI reading; reject an AI-interface pattern. README and `Preface` should say "typical entry-stabilizing result" rather than promise guaranteed outputs, and the `E.19` LLM-retrieved-paragraph case should recover the strongest home instead of letting a helpful fragment answer as authority. |
+| Pattern-entry claims need accountable case-linked validation and selected evidence, but evidence cost is risk-triggered. | Riehle, Harutyunyan, and Barcomb (2020), *Pattern Discovery and Validation Using Scientific Research Methods*. | Pattern-validation practice supports explicit evidence beyond folklore. `E.11` adapts this into `PCP-ENTRY`, worked-entry readings, wrong-pattern checks, compact host notes, tiny golden cases, and selected evidence only when entry force, semantic support-role parity, public-entry risk, repeated failure, or retrieval-facing behavior warrants them. | **Adopt / lightweight.** Adopt accountable case-linked validation; reject universal empirical validation or heavy fixture work for ordinary wording or support-role/projection edits. |
+| Retrieval-facing entry support must distinguish successful retrieval from correct pattern selection and faithful source use. | Lewis et al. (2020), "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"; Liu, Zhang, and Liang (2023), "Evaluating Verifiability in Generative Search Engines"; Gao et al. (2023), "Enabling Large Language Models to Generate Text with Citations"; Asai et al. (2024), "Self-RAG"; Saad-Falcon et al. (2023), "ARES"; Es et al. (2023), "RAGAS"; Wallat et al. (2024/2025), work on correctness versus faithfulness in `RAG` attributions. | Current retrieval and citation work distinguishes context relevance, retrieved support, citation precision/recall, answer faithfulness, attribution faithfulness, post-rationalized citation-like support, and adaptive retrieval. `E.11` adapts that into strongest-home / thin-echo hygiene and selected retrieval fixtures that distinguish pattern hit, support-role hit, source faithfulness, projection-vs-home ambiguity, stale-echo absence, and thin-echo anchor presence. | **Adapt / risk-triggered.** Adopt the hit/support/authority/faithfulness split; reject universal RAG benchmarking and reject citation-like support as authority by itself. In the "LLM retrieved a helpful paragraph but not the pattern" case, the repair is to recover the strongest home, not to bless the fragment as authority. |
+
+### E.11:12 - Relations
+
+- **Builds on:** `A.6.RSIG`, `E.8`
+- **Coordinates with:** `E.19 / PCP-ENTRY`, `J.4`, `I.2`, `F.17`, `F.18`,
+  `E.10`, `E.6`, `E.7`, `E.12`, `F.16`, `C.25`, `A.6.Q`
+- **Constrains:** reader-facing entry support roles for `FPF` and
+  `FPF`-conformant pattern languages
+
+### E.11:End
+
 ## E.12 - Didactic Primacy & Cognitive Ergonomics
+
 
 ### E.12:1 - **Problem Frame**
 
@@ -48005,7 +49108,7 @@ Without a unified, explicit review pattern:
 * Different reviewers optimize for formal/template compliance and miss deeper ontological, semantic, and naming issues, producing bureaucratic output that does not improve the enforceable contract.
 * Authors “optimize for the visible checklist” and miss hidden obligations (lexical discipline, Bridge hygiene, SoTA‑Echoing quality, scope claims, delta‑class impact).
 * Legacy patterns accumulate “conceptual bit-rot” and diverge from current practice, current terminology, or current internal invariants.
-* The specification’s normative surface becomes harder to trust: compliance becomes a matter of reviewer taste rather than a repeatable gate.
+* The specification’s normative contract becomes harder to trust: compliance becomes a matter of reviewer taste rather than a repeatable gate.
 
 ### E.19:3 - Forces
 
@@ -48026,13 +49129,13 @@ A **Pattern Check Profile (PCP)** is a named bundle of check families. Profiles 
 
 **Terminology note (disambiguation).** PQG/PCP are editorial review constructs in the authoring plane (Part E). They are distinct from enactment/runtime gating constructs such as `OperationalGate(profile)` / `GateProfile` (A.21), which govern Work transitions and gate decision policies elsewhere in FPF.
 
-**Mint vs reuse.** This pattern mints **PQG**, **PCP**, and the profile IDs **PCP‑BASE/MOD/PRAG/NORM/SOTA/BRIDGE/SUITE/P2W/TERM/DEONT/REFRESH**. It reuses existing FPF terms (e.g., **Delta‑Class**, **DRR**, **Bridge**, **CL**, **SoTA Synthesis Pack**) without changing their meanings.
+**Mint vs reuse.** This pattern mints **PQG**, **PCP**, and the profile IDs `PCP-BASE`, `PCP-MOD`, `PCP-PRAG`, `PCP-NORM`, `PCP-SOTA`, `PCP-BRIDGE`, `PCP-SUITE`, `PCP-P2W`, `PCP-TERM`, `PCP-DEONT`, `PCP-REFRESH`, and `PCP-ENTRY`. It reuses existing FPF terms (e.g., **Delta‑Class**, **DRR**, **Bridge**, **CL**, **SoTA Synthesis Pack**) without changing their meanings.
 
 #### E.19:4.1 - Define the review target
 
 A review **SHOULD** leave one findings-first run record against a named target pattern or landing subset. The run MAY propose didactic restructuring or compact repair direction, but its primary obligation is to leave an independent review record that improves downstream usage and interoperability without relying on chat memory or reviewer taste.
 
-Formal/template defects (e.g. non-compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic/ontological defects or non-SoTA Solutions, but they also **MUST** be recorded and later repaired.
+Formal/template defects (e.g. non-compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic/ontological defects or non-SoTA Solutions, but they also **MUST** be recorded and routed into the active repair boundary.
 
 E.g. if the header block is missing or incomplete, **continue with ontology and semantic review first**. Treat missing header fields as one mechanical defect to record and route for repair (PCP-BASE #7), not as a reason to stop.
 
@@ -48043,7 +49146,9 @@ If the local workflow separates review from repair, direct target-text patching,
 #### E.19:4.2 - Apply the baseline profile to every run
 
 
-Every run MUST include **PCP‑BASE**, reviewer depth SHOULD prioritize the load-bearing surfaces in E.19:4.2.1.
+Every run MUST include **PCP‑BASE** as a triage baseline. Full-depth checking
+is selected only where the relevant risk is live; reviewer depth SHOULD
+prioritize the load-bearing sections and obligations in E.19:4.2.1.
 
 1. **Internal coherence (problem ↔ contract ↔ solution)**
    The Conformance Checklist matches Problem statement and the Solution (no “orphan requirements” and no “unclaimed obligations”).
@@ -48065,11 +49170,11 @@ Every run MUST include **PCP‑BASE**, reviewer depth SHOULD prioritize the load
    The pattern SHOULD balance cohesion and coupling across FPF.
    If the pattern defines specialization or layering, it SHOULD NOT mix slot interfaces or parameters from different levels; use explicit `⊑/⊑⁺` or `Uses` cuts instead.
 
-##### E.19:4.2.1 - Triage: spend depth on load-bearing surfaces without making reviews heavier
+##### E.19:4.2.1 - Triage: spend depth on load-bearing sections without making reviews heavier
 
 PQG is meant to increase *semantic and ontological trust*, not to turn every review into an exhaustive editorial audit on form. To keep reviews feasible while improving the important parts:
 
-* Treat **load-bearing surfaces** as the primary depth targets:
+* Treat **load-bearing sections and obligations** as the primary depth targets:
   * the pattern’s **Problem frame**, **Rationale**, and **worked slices** when a new family/profile/specialization would otherwise be intelligible only from project context,
   * reader-role fit in **Problem**, **Solution**, **Consequences**, **Rationale**, and worked slices whenever the draft risks mixing user guidance with package-development rationale,
   * the pattern’s **Conformance Checklist** (the enforceable contract): keep items universal, cognitively ergonomic, not overly prohibitive, and avoid duplicating checks that belong to other patterns (modularity),
@@ -48081,16 +49186,16 @@ PQG is meant to increase *semantic and ontological trust*, not to turn every rev
   * **modularity and Slot discipline of A.6.5** that provide evolvability of FPF,
   * **absence of contradictions in a pattern**,
   * **Relations** that define compatibility and impact radius.
-* Treat **low-signal surfaces** as “quick-pass” unless they change meaning: headings, micro-typos, stylistic polish, and non-load-bearing narrative refactors, including RFC-form deontic cleanup.
-* **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H-5), missing canonical sections, or a missing footer marker are fixable integrity defects. Record them as repair items and continue with the load-bearing surface checks in the same run.
+* Treat **low-signal text** as “quick-pass” unless it changes meaning: headings, micro-typos, stylistic polish, and non-load-bearing narrative refactors, including RFC-form deontic cleanup.
+* **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H-5), missing canonical sections, or a missing footer marker are fixable integrity defects. Record them as repair items and continue with the load-bearing section checks in the same run.
 * **Sentence-level precision matters on load-bearing prose.** Reviewers SHOULD inspect load-bearing sentences for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. The default repair order is: restore head kind, then qualifier burden, then comparison/escalation axis homogeneity, and only then judge whether a later Plain or coarsened rendering is lawful.
 * **Design-time and run-time both count.** The same precision discipline applies to live FPF pattern prose and to any target publication text, worked slice, or governed runtime exemplar when that text is being assessed for stronger admissibility, guidance, reuse, or gating.
-* **Report ordering (impact-first).** In run outputs and remediation direction, prioritize findings on ontology, semantic, modularity and SoTA-related load-bearing surfaces first; group low-signal formatting/typos into one compact tail finding unless they change meaning.
+* **Report ordering (impact-first).** In run outputs and remediation direction, prioritize findings on ontology, semantic, modularity and SoTA-related load-bearing sections first; group low-signal formatting/typos into one compact tail finding unless they change meaning.
 
 #### E.19:4.3 - Add risk-driven profiles
 
 **PCP‑PRAG (Pragmatic utility & adoption)** — Trigger: the pattern is Normative and claims practice guidance.
-Checks include: a visible recognition surface early enough for a cold working reader; a recognisable first-minute working situation; one short `Use this when` or equivalent entry; a plain statement of what goes wrong if the pattern is missed; a plain statement of what the pattern buys in practice; a visible ordinary `not this pattern when` boundary; a minimally viable example; non-decorative Consequences/Anti-Patterns; at least one worked slice when the pattern is easy to misuse; a visible assurance surface carrying declaration, law, modeling, and review burden; surface consistency so that the assurance surface does not silently strengthen or universalize the recognition-surface claim; explicit practical payoff in user-facing prose; a short user-facing statement of the governed object and any minimal modeling lens when typed declaration support is load-bearing; nearby pairwise plain glosses for high-pressure technical terms that appear before the heavier harness; a short working-reader implication for any `SoTA-Echoing` rows that carry live explanatory load plus visible linkage to the worked cases or boundary slices they discipline; an explicit primary working reader / concern / viewpoint when several reader families are being served; an explicit `So what?` adoption test; and, when the pattern claims universal or transdisciplinary reach, at least three heterogeneous recognition-surface situations with `F.16` preferred as the compact example-matrix template.
+Checks include: a visible first-reading recognition role early enough for a cold working reader; a recognisable first-minute working situation; one short `Use this when` or equivalent entry; a plain statement of what goes wrong if the pattern is missed; a plain statement of what the pattern buys in practice; a visible ordinary `not this pattern when` boundary; a minimally viable example; non-decorative Consequences/Anti-Patterns; at least one worked slice when the pattern is easy to misuse; a visible assurance role carrying declaration, law, modeling, and review burden; role consistency so that the assurance role does not silently strengthen or universalize the recognition-role claim; explicit practical payoff in user-facing prose; a short user-facing statement of the governed object and any minimal modeling lens when typed declaration support is load-bearing; nearby pairwise plain glosses for high-pressure technical terms that appear before the heavier harness; a short working-reader implication for any `SoTA-Echoing` rows that carry live explanatory load plus visible linkage to the worked cases or boundary slices they discipline; an explicit primary working reader / concern / viewpoint when several reader families are being served; an explicit `So what?` adoption test; and, when the pattern claims universal or transdisciplinary reach, at least three heterogeneous recognition-role situations with `F.16` preferred as the compact example-matrix template.
 **PCP‑MOD (Modularity & layering discipline)** — Trigger: the review target shows scope creep or level-mixing (e.g., one pattern bundles universal core rules with frame-specific content and discipline-specific method semantics; or it mixes Intension/Description/Spec roles in one object).
 Checks include:
 
@@ -48105,7 +49210,7 @@ Checks include:
 
 * refresh‑sensitive claims are identified (time‑bounded or ecosystem‑bounded) and either (a) updated with post‑2015 evidence **and** matching Solution changes, or (b) explicitly scope‑limited and labeled as historical lineage,
 * Relations are updated to current pattern IDs; deprecations/renames are handled via explicit continuity notes (no silent relabeling),
-* when one new or substantially revised pattern subset is being prepared for send or landing, the run explicitly checks which neighboring patterns, host-owner laws, companion patterns, Relations targets, or monolith-backed loci require aligned edits so the subset does not land as one isolated local improvement; the run record states which of those updates landed now, which remain deferred, and why that deferral is still lawful,
+* when one new or substantially revised pattern subset is being prepared for send or landing, the run explicitly checks which neighboring patterns, host-owner laws, companion patterns, Relations targets, or monolith-backed loci require aligned edits so the subset does not land as one isolated local improvement; the run record states which of those updates are inside the claimed boundary now and which therefore remain outside that claimed boundary,
 * the run records a Delta‑Class and impact radius; if the refresh causes Δ‑2/Δ‑3, it emits/updates a DRR pointer and triggers any required refresh and Bridge obligations defined elsewhere (E.15/F.15/F.9).
 
 Trigger overrides are permitted but intentionally rare: a run MAY override a triggered profile only when it can show the trigger’s risk is genuinely absent *in this case*, and the record MUST name (a) why the trigger is a false positive here and (b) what compensating check(s) were applied instead.
@@ -48123,7 +49228,7 @@ Checks include:
 
 * each “best practice / SoTA” claim in the Solution is explicitly **bound** to SoTA‑Echoing rows (or to SoTA Synthesis Pack identifiers when used), rather than floating as ungrounded prescription, and those rows identify best-known current practice rather than popularity alone,
 * novel synthesis is not presented as established SoTA: it is either (a) framed as a scoped hypothesis with explicit limits, or (b) promoted into/registered as a SoTA Synthesis Pack entry before the pattern is admitted as normative guidance; a merely explanatory SoTA note that leaves the load-bearing sections untouched is non-conforming,
-* where traditions disagree materially, the pattern surfaces the disagreement and states why it adopts/adapts/rejects (instead of silently selecting one tradition),
+* where traditions disagree materially, the pattern makes the disagreement visible and states why it adopts/adapts/rejects (instead of silently selecting one tradition),
 * refresh‑sensitive claims (those likely to decay) are explicitly marked with scope limits, timespan notes, or lineage labeling when appropriate.
 
 **PCP‑BRIDGE (Cross‑context/plane reuse integrity)** — Trigger: the pattern imports claims, terms, or norms across contexts, disciplines, or reference planes.
@@ -48144,7 +49249,7 @@ Checks include:
 * CG/CN contract pins remain explicit references to the single governance card and legality gate: if suite protocols include numeric comparison/aggregation/scoring, they cite `CG‑Spec` (SCP + Γ-fold + MinimalEvidence) and (where applicable) `CN‑Spec`, rather than duplicating “local CG‑Spec-like” content,
 * suite protocols contain **no hidden tails**: if UNM/UINDM/ULSAM are required, the protocol expresses them as explicit `Uses` steps and suite audit obligations cite the chosen mechanism ids/refs (no “implicit normalization/aggregation inside score/compare/select”),
 * gate separation is preserved: mechanisms/guards use tri-state `GuardDecision := {pass|degrade|abstain}` and MUST NOT publish `GateDecision` / `DecisionLog`; `block` remains gate-level only (`OperationalGate(profile)`),
-* defaults remain single-sourced: `PortfolioMode`, dominance regime, and unknown/failure behavior are either pinned in `TaskSignature` / a single policy map or not claimed; the suite does not define competing defaults,
+* defaults remain single-sourced: portfolio mode, dominance regime, and unknown/failure behavior are either pinned in `TaskSignature` / a single policy map or not claimed; the suite does not define competing defaults,
 * when the suite claims reusable outputs, publish/telemetry is explicit and terminates via existing publication surfaces (e.g., G.10 and/or PTM), not as a hidden tail inside a selection step.
 
 **PCP‑P2W (Planned baseline & slot-fillings seam integrity)** — Trigger: the review target introduces or revises WorkPlanning artifacts that pin planned fillers for an owner’s slots (e.g., `SlotFillingsPlanItem` or specializations), and/or introduces view projections of such artifacts.
@@ -48167,42 +49272,303 @@ Checks include:
 
 * “mint vs reuse” decision is explicit,
 * naming follows the local-first naming protocol and avoids scope smuggling (roles/metrics/stages baked into labels; overloaded words used as terms with a local sense). Remediation **SHOULD** use F.18,
-* when PCP-TERM is live, `F.18` winner selection and `A.6.P` follow-through are one mandatory chain rather than two optional passes: the run records candidate heads or phrases reviewed, any kind-conflict / lexical-conflict findings, the provisional F.18 winner plus rejected candidates, and the later `A.6.P` survival result on the repaired phrase,
-* generic heads and burden-carrying qualifiers are not accepted at face value on load-bearing surfaces: the review restores the head kind first, and a narrowing qualifier by itself does **not** count as that restoration; only then does the review restore the qualifier burden before deciding whether the phrase is lawful,
+* when PCP-TERM is live, `F.18` winner selection and `A.6.P` follow-through are one mandatory chain rather than two optional passes: the run records candidate heads or phrases reviewed, any kind-conflict / lexical-conflict findings, the provisional F.18 winner plus rejected candidates, and the resulting `A.6.P` survival result on the repaired phrase,
+* generic heads and burden-carrying qualifiers are not accepted at face value in load-bearing prose: the review restores the head kind first, and a narrowing qualifier by itself does **not** count as that restoration; only then does the review restore the qualifier burden before deciding whether the phrase is lawful,
 * if a sentence compares, escalates, downgrades, or otherwise puts pressure on a phrase after that restoration, the review checks that the comparison axis is ontologically homogeneous,
 * the run leaves one explicit account of the resulting governed object, governed move, outside work, and any role-word / package-form decision when the repaired wording still carries architectural burden,
 * deprecated aliases and continuity rules are respected.
 
 **PCP‑DEONT (Deontic clause hygiene: RFC keywords)** — Trigger: the pattern conflates admissibility/validity constraints with deontic obligations (e.g., uses RFC keywords where a non-deontic Invariant: predicate is required).
 Checks include:
-* Deontic requirements are expressed with RFC-style keywords (see H‑8); 
+* Deontic requirements are expressed with RFC-style keywords (see H-8); 
 * obligations are not smuggled into prose as informal imperatives. Admissibility/validity constraints are stated non‑deontically as `Invariant:` / `Well‑formedness constraint:` predicates and referenced from the Conformance Checklist when enforceable. 
 * **Subject discipline for RFC keywords.** If a sentence uses RFC keywords, its grammatical subject **MUST** be an agent or a publishable artefact (author, reviewer, record, published model). RFC keywords **MUST NOT** modify modeled‑world entities (e.g., “Earth”, “RoleAssignment”, “Role”, “holon”) — express those as `Invariant:` / `Well‑formedness constraint:` predicates instead, and (if needed) reference them from CC items.
 
-#### E.19:4.3.1 - Common cross-source hardening accounts must be explicit in the run record
+**PCP-ENTRY (Pattern-entry discoverability and entry-orientation changes)** —
+Trigger: one change materially affects how one reader recognizes, selects,
+rejects, or reclassifies one strongest pattern home, strongest projection home,
+entry-neighborhood, Problem-frame recognition signature, worked entry reading,
+or entry-lexeme-support cue.
 
-When the review target is one new or substantially revised live pattern subset, the run record **MUST** leave explicit by-value accounts for the common hardening burdens that otherwise get “remembered manually” by reviewers:
+Trigger posture:
 
-1. **Usability and working-reader fit.** The run must say how the target performed on recognition-surface vs assurance-surface ordering, first-minute working-reader usability, practical payoff, worked slices, primary-reader fit, and the relevant human-facing checks from `E.8`, `E.12`, `E.13`, `E.14`, `E.17.*`, `F.16`, or other applicable pattern-side sources.
-2. **Scenario / anti-case / utility-fit basis.** When the current domain or workstream has a scenario pack, anti-case corpus, pilot bank, utility tree, or fitness catalog, the run must say which of those sources were actually checked, which scenarios or anti-cases were exercised, what qualities were under pressure, and what still remains deferred.
-3. **Packaging / host-relation / shipping-fit.** The run must say whether host relation, package form, owner-lane placement, send posture, landing posture, monolith posture, and other shipping-facing claims were checked by value, and whether any of those remain blockers or lawful deferrals.
-4. **Domain-tightened profile depth.** When a domain-specific mapping note or support stack exists (for example semio `FIT-*` under `E.19`), the run must say which local depth checks were actually used and what they found. Mentioning the mapping note or the PCP stack in the abstract is not enough.
+`PCP-ENTRY` is an explicit profile identifier under the existing Pattern Check Profile family. It reuses the `PCP` profile kind; it is an editorial review profile, not a runtime gate, not `GateProfile`, not a workflow state, and not a new route registry.
+PCP-ENTRY is risk-triggered rather than universal.
+Use one lead review profile for the change, and import other profiles only for
+their specific failure mode.
 
-These accounts may conclude `not applicable`, but silent omission is nonconforming.
+Use this risk-trigger model:
+
+* **Trigger class 0 — micro-edit**
+  punctuation, formatting, typo repair, grammar, or meaning-preserving
+  compression with unchanged pattern force.
+  No `PCP-ENTRY`, no compact host note, no evidence mode, and no parity scan
+  are required.
+
+* **Trigger class 1 — local recognition wording repair**
+  one improved `Use this when`, `Not this pattern when`, or one removed
+  workflow-smelling phrase with unchanged candidate-pattern set and unchanged
+  strongest-home / strongest-projection-home boundary.
+  Only the four-question core check is required.
+
+* **Trigger class 2 — material entry-support change**
+  one new or changed `J.4` row, one pattern home or strongest projection home
+  newly treated as entry-bearing, one changed wrong-pattern or
+  strongest-home / strongest-projection-home boundary, one changed local
+  first-entry force, or one material lexical-query cue change.
+  The author leaves one compact host-note, runs the core check, and adds at
+  most one selected risk check if needed.
+
+* **Trigger class 3 — multi-role or high-risk public entry change**
+  one change affecting several live projection/support roles together, one
+  public-entry rewrite, one often-misclassified burden, or one newly
+  introduced entry-neighborhood.
+  The author runs the core check and adds only the relevant selected risk
+  check, usually parity, wrong-pattern, public-entry, or worked-reading
+  adequacy.
+
+* **Trigger class 4 — retrieval-facing, observed-failure, or measured-improvement change**
+  one retrieval-facing support role changes, one observed misretrieval or repeated
+  search failure is being repaired, or the patch itself claims measured
+  discoverability improvement.
+  One selected evidence mode may be required, but benchmark-style reporting is
+  not the default.
+
+* **Trigger class 5 — normative authority, kind, or durable-name change**
+  one entry-selection split, stable-name settlement, label-family change, or other
+  normative architectural rewrite is in scope.
+  `DRR`, `PCP-TERM`, and `PCP-MOD` are the lead decision or review homes as applicable;
+  `PCP-ENTRY` reviews only the entry-facing effects.
+
+Ordinary non-triggers include:
+
+* punctuation, formatting, and typo fixes;
+* meaning-preserving prose tightening;
+* one bare mention of a pattern without changed entry-selection force;
+
+* local wording repair that preserves the current first honest burden,
+  candidate-pattern set, strongest-home / strongest-projection-home boundary,
+  and entry-neighborhood membership.
+
+`PCP-ENTRY` stays one narrow additive review profile, not one super-profile
+that absorbs `PCP-PRAG`, `PCP-MOD`, `PCP-TERM`, `PCP-NORM`, and every other
+review burden.
+It composes with `PCP-PRAG`, `PCP-TERM`, and `PCP-MOD`; it does not replace
+them.
+Its distinctive object is changed pattern-selection force, changed first-use
+burden, changed entry-neighborhood membership, changed tempting-wrong-pattern
+boundary, changed Problem-frame recognition role, changed worked-entry-reading
+force, changed entry-lexeme support, and changed semantic support-role parity.
+
+Its default burden is one small core triggered check:
+
+1. **No workflow implication**
+   Entry text does not imply mandatory sequence, control transfer, handoff, or
+   artefact pipeline unless another strongest home or strongest projection home
+   explicitly governs that semantics.
+
+2. **Strongest-home boundary preserved**
+   Entry/index/lexical support roles do not redefine the strongest home's `Problem`
+   or `Solution`.
+
+3. **First honest burden preserved**
+   The change does not make the first burden or case signal misleading.
+
+4. **No duplicate strong support role**
+   The change does not create one new stale echo or one second high-detail
+   support role outside the one strongest home or strongest projection home already
+   named for the claim.
+
+A change pays only the review cost of the concern it actually changes.
+Learning-order edits do not trigger `PCP-ENTRY` unless they also change
+candidate-pattern force, strongest-home / strongest-projection-home boundary,
+first honest burden, or entry-neighborhood membership.
+Lexical-only edits do not trigger extra entry-review burden unless they change
+pattern-selection force or entry recognition.
+Retrieval fixtures are not required unless retrieval-facing behavior is
+explicitly claimed, one machine-consumed projection is in scope, or one
+observed misretrieval is being repaired.
+
+When the risk warrants more than that core check, the run may add only the
+relevant selected risk checks:
+
+* one parity check when more than one pattern-entry
+  discoverability-bearing projection changes;
+* one wrong-pattern check when known misclassification is live;
+* one lexical check when subject-language divergence is material;
+* one worked-reading check when `I.2` changes or one high-risk neighborhood
+  still lacks depth;
+* one public-entry check when coarse public entry wording materially changes
+  entry force or carries high public-entry risk;
+* one retrieval check when the change is retrieval-facing or repairs one
+  observed retrieval failure.
+
+Substantial discoverability changes leave one compact host note in the host
+record.
+That host-note may stop at one explicit rationale when the risk is already
+controlled by strongest-home / strongest-projection-home inspection, support-role
+partition, or one local wording repair.
+It is not a separate artefact unless the change is high-risk, disputed,
+public-facing with material entry risk, or retrieval-facing.
+
+When one compact host note is needed, it names only the changed support role, the
+affected entry neighborhood or pattern, the changed first-use burden or
+recognition signature, the strongest home or strongest projection home for the
+claim or projection role, and the selected check if any.
+
+One compact risk-triggered gate is enough here:
+
+| Change shape | Default check | Acceptance signal |
+| --- | --- | --- |
+| typo, grammar, formatting, meaning-preserving compression | no evidence run beyond ordinary review | current burden, strongest-home / strongest-projection-home boundary, and support role remains unchanged |
+| one Problem-frame recognition-signature wording change or one wrong-pattern clarification | reviewer-only entry check | no workflow implication and no strongest-home / strongest-projection-home drift |
+| one `J.4` row change or one changed candidate-pattern set | pattern-selection or wrong-pattern check | intended strongest pattern home or one lawful candidate-pattern set is recoverable without one false mandatory sequence |
+| one lexical-hook change | lexical query check | subject-domain phrasing recovers the strongest home or strongest projection home without uncontrolled alias drift |
+| two or more projection/support roles change together | support-role parity check | one strongest home or strongest projection home stays unique and the changed support roles agree on first-use burden, wrong-pattern boundary, projection-only status, and no stronger claim than the Core pattern body; they need not share identical wording or examples |
+| one high-risk public-facing or materially changed first-entry support role changes | cold-reader recognition task | one reader can recover the intended strongest pattern home or lawful candidate-pattern set under the named first honest burden |
+| one retrieval-facing support role changes or one observed misretrieval is repaired | retrieval / `RAG` fixture | retrieval returns the strongest home or intended projection support before one stale echo, and answer-to-strongest-home faithfulness remains intact |
+
+Empirical evidence is required only when the change is:
+
+* high-risk;
+* disputed;
+* retrieval-facing;
+* repeatedly misclassified;
+* public-facing with material entry-force change, repeated failure, or one
+  measured-improvement claim;
+* or itself claims measured discoverability improvement.
+
+`PCP-ENTRY-E4` is selected only when retrieval-facing behavior is explicitly
+claimed, one machine-consumed projection is in scope, or one observed
+misretrieval is being repaired.
+Public-facing changes with material entry-force risk usually select `PCP-ENTRY-E1`.
+Lexical-hook changes usually select `PCP-ENTRY-E3`.
+Changes across multiple projections or support roles usually select `PCP-ENTRY-E5`.
+Observed search or query failures usually select `PCP-ENTRY-E6`, optionally
+together with `PCP-ENTRY-E3` or `PCP-ENTRY-E4` when the failure is lexical or
+retrieval-facing.
+
+The following evidence modes are selected high-risk tools, not one suite to
+exhaust on ordinary authoring passes.
+Selected evidence modes may include:
+
+1. **PCP-ENTRY-E1 — cold-reader recognition or pattern-selection task**
+   Given one real case signal, can one reader recover the intended strongest
+   pattern home or one lawful candidate-pattern set?
+   One tiny micro-task is enough:
+
+   ```text
+   Given this burden phrase, name:
+   1. the first candidate pattern,
+   2. one tempting wrong pattern,
+   3. the lawful entry stop,
+   4. the strongest home or strongest projection home.
+   ```
+
+2. **PCP-ENTRY-E2 — wrong-pattern / wrong-home trap**
+   Does the support role actively prevent the most tempting wrong pattern or wrong
+   family?
+
+3. **PCP-ENTRY-E3 — lexical query check**
+   Does subject-domain phrasing retrieve the strongest home or strongest
+   projection home without uncontrolled aliases?
+
+4. **PCP-ENTRY-E4 — retrieval / `RAG` fixture**
+   Does retrieval recover the strongest home or strongest projection home under
+   exact-ID or keyword phrasing, under semantic paraphrase phrasing, and under
+   projection-vs-strongest-home ambiguity, while keeping retrieved support,
+   source faithfulness, stale echoes, and post-rationalized citation-like
+   support from being treated as the semantic source of truth?
+
+5. **PCP-ENTRY-E5 — support-role parity check**
+   Do the live support/projection roles, plus any explicit absence note, preserve
+   the same first-use burden, strongest-home / strongest-projection-home role,
+   wrong-pattern boundary, projection-only status, and no-stronger-than-Core
+   claim without requiring identical wording, rows, or examples?
+
+6. **PCP-ENTRY-E6 — observed failure or query-log capture**
+   Does one observed misretrieval, wrong-pattern loop, or repeated query miss
+   still survive after the repair, or has the live failure actually been
+   removed?
+
+#### E.19:4.3.1 - Tiny golden case bank for regression and worked examples
+
+One tiny golden case bank is enough here. It is a review-regression echo, not the canonical entry inventory: rows 1-4 mirror `J.4` / `I.2` entry neighborhoods that already carry entry support, while rows 5-6 add review-specific search and retrieval stress cases. `J.4` and `I.2` remain the strongest entry-support homes; this bank only tests whether a change preserved them.
+It is not one benchmark suite and does not force universal empirical review for ordinary wording or support-role/projection edits.
+A run may cite one relevant golden case or state that none is relevant. It does
+not need to execute the whole bank.
+It keeps a stable set of recurring entry burdens recoverable across hardening
+passes:
+
+| Case | case_signal | expected_entry_neighborhood | candidate_patterns | tempting_wrong_pattern_or_wrong_home | lawful_entry_stop | support_roles_that_help | projections_that_do_not_define_semantics |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | “we need a shortlist, not one winner” | comparison / pool / selected-set publication neighborhood | `A.19.CN`, `A.17-A.19`, `C.18`, `C.19`, `G.0`, and `G.5` when selected-set publication is live | treating `C.11` as one one-off choice when the real burden is selected-set publication or candidate-set stabilization | lawful candidate-pattern set stabilised or selected-set publication opened | `J.4`, one pattern `Problem frame`, one worked entry reading if compact cues still fail | one README blurb, one thin echo, one lexical-query row alone |
+| 2 | “we have a vague cue, not yet a claim” | pre-articulation cue neighborhood | `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0` | forcing the cue into one endpoint-claim, quality, or assurance pattern too early | `burden-reclassified` or cue preserved for the lawful next burden | `J.4`, one pattern `Problem frame`, one case-linked `I.2` reading when needed | one coarse public entry projection alone |
+| 3 | “this is the same object rewritten for another audience” | same-entity rewrite neighborhood | `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR` | minting one second semantic object or one second competing explanatory lane instead of one same-entity rewrite | `wrong-pattern-rejected` or same-entity rewrite opened | one worked entry reading, one pattern `Problem frame`, strongest-home pointer | one parallel explanatory blurb treated as one second governing home |
+| 4 | “the API/contract says X” | boundary-contract unpacking neighborhood | `A.6`, `A.6.B`, `A.6.C`, `A.6.P`, `A.6.Q`, `A.6.A`, `E.17` | treating one boundary phrase as one agent duty, promise, or generic contract paragraph without atomic claim routing | `boundary-claim-pattern-opened` or routed atomic claim set opened | one boundary-focused `J.4` row, one pattern `Problem frame`, one worked entry reading where interface/access confusion is common | one query cue or public entry projection treated as the strongest home |
+| 5 | “I found a pattern by search, but I am not sure it is the right one” | one pattern-local recognition-signature case under the live neighborhood | one candidate strongest pattern home plus one nearby pattern if truly live | one lexical near-match or same-family pattern without strongest-home fit | `non-use-confirmed` or `pattern-selected` | one pattern `Problem frame`, one `J.4` row, one lexical-query support hook | one search-query row alone |
+| 6 | “the LLM retrieved a helpful-looking paragraph but not the pattern” | one retrieval-facing entry-neighborhood case | one strongest pattern home plus one strongest projection home | one stale thin echo or one projection-only support role answered as if it were the strongest home | `strongest-home-opened` or `worked-reading-needed` | one strongest-home anchor, one projection-only status marker, one retrieval-facing pointer to the strongest pattern home | one thin echo chunk without strongest-home anchor or projection-only cue |
+
+These six cases are enough to keep:
+
+* burden-oriented entry recognition;
+* wrong-pattern or wrong-home rejection;
+* lawful entry-stop honesty;
+* lexical-query support discipline;
+* thin-echo retrieval hygiene;
+* and strongest-home / projection separation recoverable as the amendment
+  lands.
+
+When one empirical or retrieval evidence run is actually selected, the run
+makes recoverable only the fields needed by that run, such as:
+
+```text
+viewpoint_class
+task_prompt_or_query
+expected_strongest_home_or_lawful_candidate_set
+near_miss_patterns_or_projection_roles_if_any
+time_budget_if_relevant
+success_criterion_if_relevant
+success_or_failure_note
+observed_failure_mode_if_any
+rationale_or_repair_action
+```
+
+When retrieval evidence is selected, keep retrieval result, answer
+faithfulness, and stale-echo result distinct without forcing benchmark-style
+reporting on ordinary edits.
+One minimal retrieval fixture checks exact ID or keyword retrieval, semantic
+paraphrase retrieval, projection-vs-strongest-home disambiguation,
+and, when thin echoes are live, thin-echo anchor presence.
+Ordinary local guidance stays prose-only rather than minting one stable
+anchor by default.
+
+#### E.19:4.3.2 - Common hardening accounts are triggered by live burden
+
+When one common hardening burden is load-bearing, disputed, or explicitly invoked by the target, the run record names the checked source and finding. Otherwise absence is ordinary and does not require a by-value `not applicable` recital.
+
+Use triggered accounts only for the burden that is live:
+
+1. **Usability and working-reader fit.** Record this when first-reading recognition role, assurance role, first-minute working-reader usability, practical payoff, worked slices, primary-reader fit, or `E.8` / `E.12` / `E.13` / `E.14` / `E.17.*` / `F.16` checks carry the finding or acceptance decision.
+2. **Scenario / anti-case / utility-fit basis.** Record this when a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous source is actually used or materially disputed.
+3. **Packaging / host-relation / shipping-fit.** Record this before any send-facing, landing-facing, monolith-facing, or host-relation posture claim. Do not require it for ordinary local wording repairs.
+4. **Domain-tightened profile depth.** Record this when a domain-specific mapping note or support stack actually tightens a selected profile or resolves a live finding.
+
+For `PCP-ENTRY`, the ordinary compact host note remains enough unless one of the triggered burdens above is genuinely live.
 
 #### E.19:4.4 - Decision outcomes
 
 A PQG run **MUST** end with (a) one compact list of blocking findings and (b) one concrete remediation-direction account.
 
-**Remediation payload.** The run **MUST** provide repair direction precise enough that a later independent repair pass can adopt it into the target text without reinventing the diagnosis. The core obligation is findings-first traceability, not direct patch emission.
+**Remediation payload.** The run **MUST** provide repair direction precise enough that one independent repair pass can adopt it into the target text without reinventing the diagnosis. The core obligation is findings-first traceability, not direct patch emission.
 
 **Precision-remediation order.** When a defect sentence combines a generic head, a burden-carrying qualifier, and mixed-axis comparison pressure, remediation SHOULD repair them in that order: restore head kind, then qualifier burden, then comparison-axis homogeneity. A narrowing qualifier does **not** by itself repair the head-kind defect. Only after those repairs may the run keep or reintroduce a Plain, didactic, or coarsened restatement, and only if the more precise upstream reading remains recoverable.
 
-**Report ordering (impact-first).** The blocking findings are the primary artifact. Remediation directions accompany them and SHOULD be listed in descending order of expected impact on semantic trust (load-bearing surfaces first). Template-only issues belong at the end unless they hide missing content.
+**Report ordering (impact-first).** The blocking findings are the primary artifact. Remediation directions accompany them and SHOULD be listed in descending order of expected impact on semantic trust (load-bearing sections first). Template-only issues belong at the end unless they hide missing content.
 
-**Budget discipline (anti-surface-only review).** If the run identifies semantic defects in load-bearing surfaces, remediation direction **MUST** prioritize those fixes; purely mechanical edits (formatting, micro-typos) **MUST** be minimized and **MUST NOT** dominate the review by volume.
+**Budget discipline (anti-form-only review).** If the run identifies semantic defects in load-bearing sections, remediation direction **MUST** prioritize those fixes; purely mechanical edits (formatting, micro-typos) **MUST** be minimized and **MUST NOT** dominate the review by volume.
 
-**Noise discipline.** The run record is a human-facing audit trail. It **SHOULD** stay sparse: list findings, deferrals, repair direction, and decisions; no per-check pass recital is needed when no defect was found.
+**Noise discipline.** The run record is a human-facing audit trail. It **SHOULD** stay sparse: list findings, boundary exceptions when any exist, repair direction, and decisions; no per-check pass recital is needed when no defect was found.
 
 ### E.19:5 - Archetypal Grounding — Tell–Show–Show: System / Episteme
 
@@ -48235,33 +49601,33 @@ Bias risks and mitigations:
 | **CC-E19-1 (Baseline is mandatory).** | Every PQG run **MUST** apply **PCP-BASE** to the review target. | Ensures a uniform minimum gate across all pattern kinds. |
 | **CC-E19-2 (Profile selection is auditable).** | The run record **MUST** state (a) the selected PCPs, (b) the trigger(s) for each non-BASE profile, and (c) any override decisions. Any override of a triggered profile **MUST** record why the trigger is a false positive and what compensating check(s) were applied instead. The run record **MUST** account for the whole current profile set rather than only the selected profiles or the easiest visible trigger family; a deontic-only or selected-stack-only recital is nonconforming. | Makes depth decisions repeatable and reviewable. |
 | **CC-E19-3 (Delta-Class & impact for breaking change levels).** | If the run proposes or accepts a change that is **Δ-2/Δ-3** (per E.15), the run record **MUST** include Delta-Class, an impact radius, and a DRR pointer; it **MUST** confirm that required refresh and Bridge obligations are triggered where applicable. | Keeps evolution controlled and compatible with downstream dependencies. |
-| **CC-E19-4 (Contract coherence is enforced).** | Remediation **MUST** eliminate “orphan” obligations and “unclaimed” requirements by aligning the target pattern’s Conformance Checklist, deontic clauses, and admissibility constraints with its Solution. | Preserves the CC as the enforceable contract surface. |
-| **CC-E19-5 (Triage & noise discipline).** | The run **SHOULD** prioritize load-bearing surfaces (e.g. CC, content of deontic clauses and content of admissibility constraints, definitions, Relations, SoTA, modularity) and keep purely mechanical edits (e.g. RFC-form deontic cleanup) minimal. Template defects **MUST** be fixed before admission (or before closing a refresh run) but **MUST NOT** be used to skip semantic review. | Improves semantic trust without turning review into surface-only compliance. |
-| **CC-E19-6 (Findings-first remediation direction).** | The run output **MUST** include one compact list of blocking findings plus concrete remediation direction, ordered by semantic impact (load-bearing surfaces first). Findings stay primary; direct patch text is optional local workflow, not the core `E.19` artifact. | Ensures actionability and independent repeatability without collapsing review into repair. |
-| **CC-E19-7 (Recognition surface, assurance surface, and self-containment).** | Admission or refresh runs for new and substantially revised patterns **MUST** check that a recognition surface appears early enough for the intended reader, that the heavier assurance surface remains visibly second rather than becoming the first real point of entry, and that the assurance surface does not silently shift the recognition-surface claim. The run **MUST** check for a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and an ordinary `not this pattern when` boundary; for any load-bearing typed declaration or modeling lens, the run **MUST** confirm that a short user-facing statement surfaces the governed object and the minimal lens that keeps it reviewable; the run **MUST** also check that the governed object keeps one stable kind across title, opening surface, declaration surface, worked slices, and neighbouring-owner guidance rather than drifting between object, act, work-product, and owner-lane labels. When a broader umbrella name and a narrower operative branch are both live, the run **MUST** check that the recognition surface makes that stack explicit enough to identify the umbrella, the active branch, the governed object, the move, and the wider work or process that still remains outside. The recognition surface **MUST** start from a recognisable problem-owning domain or practice moment whenever that can be done without loss of precision, rather than opening first with internal package architecture or taxonomy language. Early high-pressure technical terms **MUST** receive nearby pairwise plain glosses; transform-like families **MUST** carry concrete worked slices plus ordinary-vs-load-bearing guidance where needed; and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If SoTA or practice tradition is load-bearing, the run **MUST** check that governed-object choice, narrowed-branch choice, and practical payoff remain answerable to the relevant domain or practice rather than only to internal package architecture. If a pattern claims universal or transdisciplinary usefulness, the run **MUST** check that this breadth is already demonstrated in the recognition surface through at least three heterogeneous situations, with `F.16` preferred as the example-matrix template. | Prevents architecturally correct but reader-opaque patterns and keeps broad claims from appearing only late in the assurance surface. |
+| **CC-E19-4 (Contract coherence is enforced).** | Remediation **MUST** eliminate “orphan” obligations and “unclaimed” requirements by aligning the target pattern’s Conformance Checklist, deontic clauses, and admissibility constraints with its Solution. | Preserves the CC as the enforceable contract. |
+| **CC-E19-5 (Triage & noise discipline).** | The run **SHOULD** prioritize load-bearing sections and obligations (e.g. CC, content of deontic clauses and content of admissibility constraints, definitions, Relations, SoTA, modularity) and keep purely mechanical edits (e.g. RFC-form deontic cleanup) minimal. Template defects **MUST** be fixed before admission (or before closing a refresh run) but **MUST NOT** be used to skip semantic review. | Improves semantic trust without turning review into form-only compliance. |
+| **CC-E19-6 (Findings-first remediation direction).** | The run output **MUST** include one compact list of blocking findings plus concrete remediation direction, ordered by semantic impact (load-bearing sections first). Findings stay primary; direct patch text is optional local workflow, not the core `E.19` artifact. | Ensures actionability and independent repeatability without collapsing review into repair. |
+| **CC-E19-7 (Recognition role, assurance role, and self-containment).** | Admission or refresh runs for new and substantially revised patterns **MUST** check that a first-reading recognition role appears early enough for the intended reader, that the heavier assurance role remains visibly second rather than becoming the first real point of entry, and that the assurance role does not silently shift the recognition-role claim. The run **MUST** check for a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and an ordinary `not this pattern when` boundary; for any load-bearing typed declaration or modeling lens, the run **MUST** confirm that a short user-facing statement exposes the governed object and the minimal lens that keeps it reviewable; the run **MUST** also check that the governed object keeps one stable kind across title, opening role, declaration role, worked slices, and neighbouring-pattern or authoritative-home guidance rather than drifting between object, act, work-product, and authority-lane labels. When a broader umbrella name and a narrower operative branch are both live, the run **MUST** check that the recognition role makes that stack explicit enough to identify the umbrella, the active branch, the governed object, the move, and the wider work or process that still remains outside. The recognition role **MUST** start from a recognisable problem-owning domain or practice moment whenever that can be done without loss of precision, rather than opening first with internal package architecture or taxonomy language. Early high-pressure technical terms **MUST** receive nearby pairwise plain glosses; transform-like families **MUST** carry concrete worked slices plus ordinary-vs-load-bearing guidance where needed; and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If SoTA or practice tradition is load-bearing, the run **MUST** check that governed-object choice, narrowed-branch choice, and practical payoff remain answerable to the relevant domain or practice rather than only to internal package architecture. If a pattern claims universal or transdisciplinary usefulness, the run **MUST** check that this breadth is already demonstrated in the recognition role through at least three heterogeneous situations, with `F.16` preferred as the example-matrix template. | Prevents architecturally correct but reader-opaque patterns and keeps broad claims from appearing only late in the assurance role. |
 | **CC-E19-8 (Sentence-level precision restoration).** | Load-bearing sentences **MUST** be reviewed for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. A narrowing qualifier does **not** by itself restore head kind. The default repair order is head kind first, qualifier burden second, comparison-axis homogeneity third. When broad umbrella words such as `interpretation`, `reading`, `review`, `surface`, `document`, or `artifact` are carrying live architectural or semantic load, the run **MUST** also restore whether the text names an umbrella, a narrowed branch, a governed object, a move, or a wider work/process lane before that wording is allowed to carry architectural burden. When naming or terminology repair is load-bearing, the run record **MUST** leave one explicit `F.18 -> A.6.P` account on disk: candidate heads or phrases reviewed, mint-vs-reuse decision, provisional F.18 winner plus rejected candidates, any kind-conflict / lexical-conflict findings, the `A.6.P` survival result on the repaired phrase, and the resulting governed object / governed move / outside-work reading if the wording still carries architectural burden. | Keeps controlled technical writing from collapsing into free shorthand or false precision. |
-| **CC-E19-9 (Package-form and host-relation role-word discipline).** | Reviews **MUST** check that role words such as `owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, and `umbrella` match the actual ontology of the case and do not drift by stylistic substitution. When naming or ontology repair introduces or retains one head already occupied elsewhere in FPF, the run **MUST** explicitly account for that occupied-kind / occupied-head conflict and say whether the same occupied meaning is intentionally reused or instead blocked as a collision. | Keeps host relations, review surfaces, and package forms semantically legible. |
+| **CC-E19-9 (Package-form and host-relation role-word discipline).** | Reviews **MUST** check that role words such as `owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, and `umbrella` match the actual ontology of the case and do not drift by stylistic substitution. When naming or ontology repair introduces or retains one head already occupied elsewhere in FPF, the run **MUST** explicitly account for that occupied-kind / occupied-head conflict and say whether the same occupied meaning is intentionally reused or instead blocked as a collision. | Keeps host relations, review roles, and package forms semantically legible. |
 | **CC-E19-10 (Reader-role discipline).** | Reviews **MUST** check that live pattern sections are written for the intended FPF user, that any multi-reader draft makes its primary working reader / concern / viewpoint explicit enough, and that package-development reasoning about isolation, landing form, freeze, merge posture, later promotion, safest move, blast radius, or defer posture stays in separate companions or clearly marked informative placement notes. The run record **MUST** name the user-facing sections scanned for this leak family and any repaired or still-informative exceptions. | Keeps reviews from accepting conceptually correct but role-confused patterns. |
-| **CC-E19-11 (Precision before relaxation).** | If remediation preserves or introduces a Plain, didactic, or coarsened restatement of a repaired load-bearing sentence, the run **MUST** keep a more precise upstream reading recoverable and must not let the softened form become the only authority-bearing surface. | Keeps later readability aids subordinate to an explicit stronger reading. |
-| **CC-E19-12 (Integration impact is accounted for).** | Before send or monolith-facing motion for one new or substantially revised pattern subset, the run record **MUST** explicitly account for neighboring patterns, host-owner laws, companion notes, Relations targets, or current monolith sections that now require aligned edits. The run **MUST** say which such updates landed now, which are deferred, and why any deferral is still lawful for the claimed boundary. | Prevents one locally stronger pattern from landing as an isolated mismatch in the wider FPF pattern set. |
-| **CC-E19-13 (Usability account is explicit).** | For one new or substantially revised live pattern subset, the run record **MUST** leave one explicit usability / working-reader-fit account by value: recognition-surface vs assurance-surface verdict, first-minute working situation, practical payoff, ordinary boundary, worked-slice coverage, primary reader or viewpoint, and the applicable pattern-side human-facing checks used (`E.8`, `E.12`, `E.13`, `E.14`, `E.17.*`, `F.16`, or clearly named local equivalents). | Prevents cold-reader usability from being treated as something the reviewer “just kept in mind”. |
-| **CC-E19-14 (Scenario / anti-case / utility-fit account is explicit).** | When the current domain or workstream has a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous common check source, the run record **MUST** explicitly state which of those sources were consulted, which scenarios or anti-cases were actually checked, which qualities or fitness pressures were load-bearing, and what remains deferred. | Prevents scenario, anti-case, and fitness checks from disappearing into reviewer memory or external-review folklore. |
-| **CC-E19-15 (Packaging / host-relation / shipping-fit account is explicit).** | Before any send-facing, landing-facing, or monolith-facing posture claim, the run record **MUST** explicitly account for host relation, package form, owner-lane placement, send posture, landing posture, monolith posture, and other shipping-facing claims that matter for this target. It **MUST** say what was checked, what was blocked, what was cleared, and why the claimed boundary is lawful now. | Keeps packaging and shipping checks from being inferred loosely after one local text improvement. |
+| **CC-E19-11 (Precision before relaxation).** | If remediation preserves or introduces a Plain, didactic, or coarsened restatement of a repaired load-bearing sentence, the run **MUST** keep a more precise upstream reading recoverable and must not let the softened form become the only authority-bearing wording. | Keeps later readability aids subordinate to an explicit stronger reading. |
+| **CC-E19-12 (Integration impact is accounted for).** | Before send or monolith-facing motion for one new or substantially revised pattern subset, the run record **MUST** explicitly account for neighboring patterns, host-owner laws, companion notes, Relations targets, or current monolith sections that now require aligned edits. The run **MUST** say which such updates are inside the claimed boundary now and which therefore remain outside that claimed boundary. | Prevents one locally stronger pattern from landing as an isolated mismatch in the wider FPF pattern set. |
+| **CC-E19-13 (Usability account is explicit).** | For one new or substantially revised live pattern subset, the run record **MUST** leave one explicit usability / working-reader-fit account by value: recognition role vs assurance role verdict, first-minute working situation, practical payoff, ordinary boundary, worked-slice coverage, primary reader or viewpoint, and the applicable pattern-side human-facing checks used (`E.8`, `E.12`, `E.13`, `E.14`, `E.17.*`, `F.16`, or clearly named local equivalents). | Prevents cold-reader usability from being treated as something the reviewer “just kept in mind”. |
+| **CC-E19-14 (Scenario / anti-case / utility-fit account is explicit).** | When the current domain or workstream has a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous common check source, the run record **MUST** explicitly state which of those sources were consulted, which scenarios or anti-cases were actually checked, which qualities or fitness pressures were load-bearing, and what remains outside the claimed review boundary. | Prevents scenario, anti-case, and fitness checks from disappearing into reviewer memory or external-review folklore. |
+| **CC-E19-15 (Packaging / host-relation / shipping-fit account is explicit).** | Before any send-facing, landing-facing, or monolith-facing posture claim, the run record **MUST** explicitly account for host relation, package form, authority-lane placement, send posture, landing posture, monolith posture, and other shipping-facing claims that matter for this target. It **MUST** say what was checked, what was blocked, what was cleared, and why the claimed boundary is lawful now. | Keeps packaging and shipping checks from being inferred loosely after one local text improvement. |
 | **CC-E19-16 (Domain-tightened profile depth is explicit).** | When a domain-specific mapping note or support stack exists under `E.19` (for example semio `FIT-*` or equivalent local depth checks), the run record **MUST** explicitly state which such local checks were used, which PCP load they tightened, and what they found or explicitly did not find. | Keeps local review depth auditable and prevents domain-specific checks from becoming optional folklore around the PCP stack. |
 ### E.19:8 - Common Anti-Patterns and How to Avoid Them
 
 
 | Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
 | ---------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Governed-object drift** | The draft appears to govern one thing in the opening, another in the declaration block, and a third in the examples or neighbouring-owner guidance. | Review cannot tell whether the pattern governs an object, a reading move, a work-product, or a whole process, so later naming and boundary decisions become unstable. | Stabilise one governed object early, keep its head kind explicit, and mark note/sheet/UI/rendering/process labels as either examples of that object or separate neighbouring entities rather than stylistic substitutes. |
-| **Role-clean but pragmatically foggy** | The draft is addressed to the right reader in principle, but cold working readers still cannot recognise the situation, practical payoff, governed object, or first useful move early enough. | The run passes role hygiene while still failing pragmatic fit and first-minute usability. | Pull a recognisable working situation upward, add one minimally viable worked case, make the practical payoff explicit in nearby user-facing prose, surface the governed object and any minimal modeling lens in plain terms, add plain glosses for early high-pressure terms, and require `SoTA-Echoing` rows that carry live load to name the practitioner or manager implication plus the case they discipline. |
-| **Architecture-clean but domain-thin** | The text is internally well placed in the package, but the governed object, narrowed branch, or practical payoff are justified mainly through package architecture while the problem-owning domain, practice, or SoTA appears late or decoratively. | The pattern passes internal architecture checks while drifting away from the domain whose work it claims to improve. | Pull the problem-owning domain moment into the recognition surface, make the narrowed branch and governed object answerable to the relevant domain or practice, and require load-bearing `SoTA-Echoing` to discipline the practical cases rather than merely bless them after the fact. |
+| **Governed-object drift** | The draft appears to govern one thing in the opening, another in the declaration block, and a third in the examples or neighbouring-pattern / authoritative-home guidance. | Review cannot tell whether the pattern governs an object, a reading move, a work-product, or a whole process, so later naming and boundary decisions become unstable. | Stabilise one governed object early, keep its head kind explicit, and mark note/sheet/UI/rendering/process labels as either examples of that object or separate neighbouring entities rather than stylistic substitutes. |
+| **Role-clean but pragmatically foggy** | The draft is addressed to the right reader in principle, but cold working readers still cannot recognise the situation, practical payoff, governed object, or first useful move early enough. | The run passes role hygiene while still failing pragmatic fit and first-minute usability. | Pull a recognisable working situation upward, add one minimally viable worked case, make the practical payoff explicit in nearby user-facing prose, expose the governed object and any minimal modeling lens in plain terms, add plain glosses for early high-pressure terms, and require `SoTA-Echoing` rows that carry live load to name the practitioner or manager implication plus the case they discipline. |
+| **Architecture-clean but domain-thin** | The text is internally well placed in the package, but the governed object, narrowed branch, or practical payoff are justified mainly through package architecture while the problem-owning domain, practice, or SoTA appears late or decoratively. | The pattern passes internal architecture checks while drifting away from the domain whose work it claims to improve. | Pull the problem-owning domain moment into the recognition role, make the narrowed branch and governed object answerable to the relevant domain or practice, and require load-bearing `SoTA-Echoing` to discipline the practical cases rather than merely bless them after the fact. |
 | **Verdict-only review** | The run ends with “pass/fail” and prose complaints, but no precise findings-first repair direction. | Raises editorial cost; reduces repeatability. | Require one findings-first run record plus concrete remediation direction; do not rely on direct patch text as the primary artifact. |
 | **Single giant checklist** | Review becomes a long, unfocused ritual that few complete. | Increases cost; reduces fit and rigor in practice. | Use a minimal baseline plus triggered profiles. |
 | **Template-only compliance** | All headings exist, but obligations are vague and untestable. | Looks uniform; fails enforceability and auditability. | Enforce normative clause hygiene and CC/Solution coherence. |
 | **SoTA name-dropping** | SoTA-Echoing is a list of buzzwords with no stance. | Breaks evidence lineage; invites monoculture. | Require adopt/adapt/reject with reasons per item. |
 | **Terminology drift by “synonym”** | Authors swap kernel terms for nicer-sounding words. | Increases ambiguity; harms cross-pattern composability. | Apply PCP-TERM and require explicit mini-definitions on first use. |
-| **Surface-only review** | Review time goes to formatting and micro-edits while the normative surface, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat load-bearing surfaces as depth targets and keep mechanical cleanup subordinate to semantic correction. |
+| **Form-only review** | Review time goes to formatting and micro-edits while the normative contract, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat load-bearing sections as depth targets and keep mechanical cleanup subordinate to semantic correction. |
 | **Architecturally right, didactically thin** | The family is lawful, but readers still need project notes to understand what the pattern really governs. | Trust in the monolith depends on external context rather than the pattern text. | Strengthen problem frame, worked slices, local definitions, and reroute guidance before admission. |
 | **Scenario-name grounding** | Grounding names a situation but does not show what the source and resulting publication actually look like. | Readers cannot tell why the case stays in the family or where it exits. | Add concrete source/result slices, especially for transform families and easy boundary confusions. |
 | **Generic-head underspecification** | A load-bearing phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the run leaves that head uninterpreted. | Review discusses the sentence before the object kind is even stable. | Restore the head kind first in host-local terms before accepting or comparing the sentence. |
@@ -48276,7 +49642,7 @@ Bias risks and mitigations:
 | Benefits                                                                         | Trade-offs / Mitigations                                                                   |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Repeatable admission decisions** — reviewers share a common gate language.     | More explicit editorial work; mitigated by a small baseline and triggered profiles.        |
-| **Higher trust in the normative surface** — CC becomes the enforceable contract. | Authors must align prose and CC carefully; mitigated by coherence checks.                  |
+| **Higher trust in the normative contract** — CC becomes the enforceable contract. | Authors must align prose and CC carefully; mitigated by coherence checks.                  |
 | **Controlled evolution** — runs prevent conceptual bit-rot.              | Periodic workload; mitigated by prioritizing high-dependency and high-risk patterns first. |
 | **Less hidden drift** — terminology and cross-context reuse become explicit.     | Some drafts will be delayed; mitigated by early profile selection during authoring.        |
 
@@ -48296,6 +49662,7 @@ The baseline profile protects cross-pattern comparability and editorial sanity. 
 | A stable structure improves comparability and reduces ambiguity.       | Standards specify required viewpoints/concerns and consistency rules for descriptions.                      | ISO/IEC/IEEE 42010:2022 (architecture description).                                         | PCP‑BASE includes structural integrity and internal consistency.                          | **Adopt/Adapt.** Adopt conformance mindset; adapt to pattern-language template and didactic grounding.       |
 | Pattern writing benefits from explicit guidance plus critique culture. | Pattern-language communities emphasize clear template usage, consequences, and critique for quality.        | Iba (2021), “How to Write Patterns …” (PLoP 2021).                                          | Baseline checks enforce meaningful sections; anti-patterns make critique concrete.        | **Adopt.** Directly supports admission quality.                                                              |
 | “Living” guidance needs refresh discipline.                            | Reporting and review guidance is updated and versioned; reviewers track changes and report deltas clearly. | Page et al. (2021), PRISMA 2020 statement and explanation papers.                           | Runs require explicit decisions and deltas in SoTA‑Echoing. | **Adapt.** Use the “versioned guidance + explicit deltas” principle without importing implementation or process mandates. |
+| Retrieval-facing entry changes need selected evidence dimensions, not universal benchmarks. | RAG evaluation practice separates context relevance, answer faithfulness, answer relevance, and support quality. | Es et al. (2023), `RAGAS`; Saad-Falcon et al. (2023), `ARES`. | `PCP-ENTRY-E4` and related evidence modes select tiny retrieval fixtures only when retrieval-facing behavior or observed misretrieval is live. | **Adopt / lightweight.** Keep hit/support/authority/faithfulness dimensions; ordinary entry prose remains prose-only. |
 
 ### E.19:12 - Relations
 
@@ -48313,6 +49680,7 @@ The baseline profile protects cross-pattern comparability and editorial sanity. 
   * `F.9` (cross-context alignment discipline)
   * `F.15` (conceptual harness and regression framing)
   * `E.17` (MVPK / `U.View` projection discipline)
+  * `E.11` (pattern-entry discoverability discipline, for `PCP-ENTRY` only as a review hook, not as a semantic prerequisite)
   * `A.6.7` (`MechSuiteDescription` suite-level semantics)
   * `A.15.3` (`SlotFillingsPlanItem` P2W planned-baseline seam)
   * `G.11` (refresh/decay orchestration principles, where applicable)
@@ -48320,6 +49688,7 @@ The baseline profile protects cross-pattern comparability and editorial sanity. 
 ### E.19:End
 
 ## E.20 - Mechanism Introduction Protocol
+
 
 > **Type:** Architectural pattern  
 > **Status:** Draft  
@@ -55684,7 +57053,7 @@ All patterns that propose or consume unified names and rows in Part F; any Part 
 **Stage.** *design‑time* (authoring discipline + ID‑stable routing; no run‑time mechanism)
 **Primary hooks.** E.8 (pattern template), E.10 (lexical/ontological rules), E.19 (conformance discipline), A.6.7 (SuiteObligations + suite protocol pins), A.15.3 (planned baseline), A.19 (CN‑Spec), G.0 (CG‑Spec), A.19.CHR (CHR suite boundary), C.23 (SoS‑LOG), F.17 (UTS), F.15 (RSCR).
 
-**Status.** Draft (Phase‑2 deliverable)  
+**Status.** Stable (Phase‑2 deliverable)  
 **Placement.** Part G → immediately after `G.0` (without renumbering `G.0…G.13`)  
 **Normativity.** Normative unless explicitly marked informative  
 
@@ -61743,7 +63112,7 @@ Optional panels:
 **Stage.** *design‑time registration & alignment* → *run‑time ingestion, telemetry, refresh*
 **Primary hooks.** `G.Core` (Part‑G core invariants + trigger catalogue + default ownership), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.4` (CAL Pack), `G.5` (selector & registries), `G.6` (EvidenceGraph + PathId/PathSliceId), `G.7` (BridgeMatrix + CL/planes), `G.8` (SoS‑LOG bundle surfaces), `G.9` (parity harness), `G.10` (shipping), `G.11` (refresh orchestration), `G.12` (dashboards), `A.19` (CN‑Spec), `A.18` (CSLC legality), `G.0` (CG‑Spec), `F.17` (UTS), `E.5.2` (notation independence), `E.18/A.21/A.27` (GateCrossing/CrossingBundle checks).
 
-**Status.** Draft (Phase‑2 universalized; `G.Core` linkage explicit)
+**Status.** Stable (Phase‑2 universalized; `G.Core` linkage explicit)
 **Normativity.** Normative when used (when any `G.13` surface is authored/emitted/consumed); informative otherwise.
 
 **Non‑duplication note (Phase‑2 universalization).** This pattern **does not restate** Part‑G‑wide invariants (contract‑surface single‑ownership, crossing visibility, penalty routing, set‑return discipline, typed RSCR triggers, default ownership, Δ‑discipline). Those are **single‑owned** in `G.Core` and referenced here via the linkage manifest and CC delegations (*cite, don’t duplicate*).
@@ -62093,34 +63462,248 @@ FPF is a conceptual framework for disciplined creative work, not a data governan
 | §   | ID & Title                  |  Concise reminder                                                |
 | --- | --------------------------- | --- | --------------------------------------------------------------- |
 | I.1 | Deprecated Aliases          |  Legacy names kept for backward compatibility.                   |
-| I.2 | Detailed Walk‑throughs      |  Route-indexed walkthroughs for the main first-practical entry routes: project alignment, partly-said discovery, boundary unpacking, lawful comparison/selection, generator/SoTA kit authoring, and same-entity rewrite/explanation/comparative reading. |
+| I.2 | Detailed Walk-throughs | Worked entry readings for high-risk or compact-insufficient entry neighborhoods; compact-index-only is a complete lawful posture when enough. |
 | I.3 | Change‑Log (auto‑generated) |  Version history keyed to DRR ids.                               |
 | I.4 | External Standards Mappings |  Trace tables to ISO 15926, BORO, CCO, Constructor‑Theory terms. |
 
 
+## I.2 - Detailed Walk-throughs
+
+`I.2` is the canonical worked entry-reading support role in this architecture.
+An `I.2` item can serve as one entry-reading vignette, one didactic learning
+walkthrough, or both. When it serves as entry reading, its `E.11` force is
+limited to disambiguation, wrong-pattern rejection, burden reclassification,
+and lawful entry stop.
+
+`worked entry reading` here is an explanatory reading case. It is not
+`U.Work`, not a workflow, not a route script, and not an execution trace.
+
+`I.2` carries expanded reading only when compact `J.4` guidance plus local
+`Problem frame` recognition are insufficient for one high-risk,
+often-misclassified, repeatedly failed, retrieval-facing, or materially new
+entry neighborhood. Compact-index-only posture is a complete lawful entry result
+when the `J.4` row and pattern `Problem frame` are enough.
+
+Each worked entry reading keeps recoverable:
+
+- `Case signal`
+- `Initial uncertainty`
+- `Plausible candidate patterns`
+- `Tempting wrong pattern, wrong home, or false family`
+- `Disambiguating fact`
+- `Recognition repair or burden reclassification`
+- `Actual strongest home or strongest projection role`
+- `Lawful entry stop`
+- `What not to infer`
+
+### I.2.1 - Project alignment
+
+- **Case signal:** "We keep mixing responsibility, method, plan, and what
+  actually happened."
+- **Posture:** compact-index-only is normally sufficient.
+- **Initial uncertainty:** the reader may think FPF starts with the whole
+  specification, but the burden is narrower: align context, roles, method/work
+  vocabulary, and actual execution.
+- **Plausible candidate patterns:** `A.1.1`, `A.15`, `A.15.2`, `A.15.3`,
+  `B.5.1`.
+- **Nearby patterns:** `F.11` for method/work vocabulary; `F.9` for bridge
+  discipline; `F.17` for an early term sheet when vocabulary is the live
+  stabilizing result.
+- **Tempting wrong pattern:** treat `F.17` or `E.9` as a universal first stop.
+- **Actual strongest home or projection role:** `A.15` and its neighbors govern
+  the role/method/plan/run split; `F.17` is a stabilizing lexical projection,
+  not the whole alignment home.
+- **Lawful entry stop:** the reader has opened the right alignment home or has
+  enough first shared vocabulary to proceed.
+- **What not to infer:** no universal first chain is implied.
+
+### I.2.2 - Partly-said / language-state discovery
+
+- **Case signal:** "This phrase matters, but it is not yet a claim."
+- **Initial uncertainty:** the reader can be seeing one cue, one early
+  language-state burden, one publication seam, or one routed claim family.
+- **Plausible candidate patterns:** `C.2.LS`, `A.16`, `A.16.1`, `A.16.2`,
+  `B.4.1`, `B.5.2.0`.
+- **Tempting wrong pattern:** harden the cue into `A.6.P`, `A.6.Q`, `A.6.A`,
+  or `C.25` before it is stable enough to be a claim, action, or quality
+  object.
+- **Disambiguating fact:** the phrase still needs preservation and burden
+  typing; it is not yet an endpoint claim.
+- **Decision movement:** if the phrase is still a cue, stay in `C.2.LS` /
+  `A.16`; if it must be preserved across a seam, inspect `A.16.1` / `B.4.1`;
+  if it is already a boundary claim, inspect `A.6.B` / `A.6.C`; if it is being
+  forced into a quality/action endpoint too early, reject `A.6.Q`, `A.6.A`, and
+  `C.25` for now.
+
+- **Actual strongest home or projection role:** `C.2.LS` / `A.16*` /
+  `B.4.1` are the first homes for cue preservation and entry plurality;
+  `A.6.B` / `A.6.C` become first homes only after boundary claim structure is
+  actually live.
+- **Lawful entry stop:** cue preserved, entry plurality opened, or burden
+  reclassified into the right boundary-claim pattern.
+- **What not to infer:** do not recast the cue as a finished requirement, work
+  record, quality claim, or action invitation too early.
+
+### I.2.3 - Boundary unpacking / claim routing
+
+- **Case signal:** "The API/contract says X."
+- **Initial uncertainty:** the reader may be seeing one boundary description,
+  an admissibility gate, a duty, an evidence claim, an action invitation, or an
+  interface/access note.
+- **Plausible candidate patterns:** `A.6`, `A.6.B`, `A.6.C`.
+- **Nearby patterns:** `A.6.RSIG` if first-contact recognition is still live;
+  `A.6.P` for relation wording; `A.6.Q` for quality wording; `A.6.A` for
+  action invitation wording; `E.17` for publication/view burden.
+- **Tempting wrong pattern:** treat an API/access phrase as a promise of
+  downstream effect, or treat one boundary phrase as the whole contract.
+- **Disambiguating fact:** the sentence mixes law/gate/duty/evidence/action
+  burdens, or the encountered description's authoritative home is not yet
+  clear.
+- **Recognition repair or burden reclassification:** use `A.6.RSIG` if the
+  first question is "what description is this?"; otherwise inspect `A.6.B`
+  / `A.6.C` for atomic boundary claim structure.
+- **Actual strongest home or projection role:** `A.6.B` / `A.6.C` govern
+  routed claim decomposition; `A.6.RSIG` only governs first-contact
+  description recognition.
+- **Lawful entry stop:** boundary claim pattern opened, or one Claim Register /
+  routed atomic claim set is ready for the next authoritative pattern.
+- **What not to infer:** one contract/API cue does not by itself create one
+  action, quality, or evidence home.
+
+### I.2.4 - Lawful comparison / pool / selection / selected-set publication
+
+- **Case signal:** "We need a shortlist, not one winner."
+- **Initial uncertainty:** the live burden can be comparison substrate,
+  candidate-pool policy, one local choice, call planning, or selected-set
+  publication.
+- **Plausible candidate patterns:** `A.19.CN`, `A.17-A.19`, `C.18`, `C.19`,
+  `G.0`, `G.5`.
+- **Nearby patterns:** `C.11` if the burden narrows to one local decision
+  doctrine; `C.24` if the next honest artifact is a call plan or checkpoint
+  return; `A.19.CPM` / `A.19.SelectorMechanism` if comparator/selector
+  structure is live.
+- **Tempting wrong pattern:** treat `C.11` as the first home while the real
+  burden is candidate-pool policy or selected-set publication.
+- **Disambiguating fact:** the output remains one governed set, shortlist, or
+  selected-set publication home rather than one single winner.
+- **Decision movement:** if the work is still forming a candidate pool, inspect
+  `C.19`; if the set is ready to be published as a governed shortlist, inspect
+  `G.5`; if the burden has narrowed to choosing one option under a local
+  decision doctrine, inspect `C.11`; if the missing object is a call plan or
+  planned comparison setup, inspect `C.24`.
+
+- **Actual strongest home or projection role:** `C.19` for candidate-pool
+  policy, `G.5` for selected-set publication, `C.11` for local choice,
+  `C.24` for call-planning/checkpoint-return.
+- **Lawful entry stop:** the correct first home is opened, or a lawful
+  candidate-pattern set is stabilised without implying sequence.
+- **What not to infer:** do not force a one-winner answer when the honest
+  output is still a governed selected set.
+
+### I.2.5 - Generator / SoTA / portfolio kit
+
+- **Case signal:** "We need a reusable search/harvest/portfolio scaffold, not
+  one recommendation."
+- **Posture:** compact-index-only is normally sufficient unless repeated
+  misclassification makes a worked reading necessary.
+- **Initial uncertainty:** the reader can confuse generator/scaffold authoring
+  with one-off recommendation, one comparison, one selected-set publication, or
+  tooling choice.
+- **Plausible candidate patterns:** `A.0`, `G.0`, `G.1`, `G.2`, `G.5`.
+- **Nearby patterns:** `B.5.2.1` and `C.17-C.19` when creative search,
+  novelty, or explore/exploit policy is already central; `G.10` / `G.11` when
+  shipping or refresh is live.
+- **Tempting wrong pattern:** jump to `G.5` publication or a local selector
+  before the reusable generator/SoTA scaffold is declared.
+- **Disambiguating fact:** the first deliverable must be reusable across
+  searches, portfolios, or updates.
+- **Actual strongest home or projection role:** `G.1` / `G.2` for generator and
+  SoTA support; `G.5` only when selected-set publication is live.
+- **Lawful entry stop:** scaffold/generator home opened, or portfolio
+  publication home identified.
+- **What not to infer:** not every generator/SoTA burden is a tool implementation or
+  one immediate publication obligation.
+
+### I.2.6 - Same-entity rewrite / explanation / comparative reading
+
+- **Case signal:** "We need to explain the same thing for another audience."
+- **Initial uncertainty:** explanation, rendering, repair, representation
+  transition, and comparison are all nearby, and the reader can accidentally
+  mint one second object of talk.
+- **Plausible candidate patterns:** `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`,
+  `E.17.ID.CR`.
+- **Nearby patterns:** `E.17.AUD.LHR` for pressured-head local repair;
+  `E.17.AUD.OOTD` for authored-unit stability.
+- **Tempting wrong pattern:** explanation-as-new-object or repair-as-second-rule
+  track.
+- **Disambiguating fact:** the governed object stays the same; only rendering,
+  reading posture, or explanatory framing changes.
+- **Recognition repair or burden reclassification:** move toward same-entity
+  rewrite or explanation-facing rendering while rejecting second-object drift.
+- **Actual strongest home or projection role:** `A.6.3.CR` for same-entity
+  retextualization, `A.6.3.RT` for representation transition, `E.17.EFP` for
+  explanation-facing rendering, `E.17.ID.CR` for bounded comparative reading.
+- **Lawful entry stop:** same-entity rewrite opened or explanation-facing
+  rendering stabilized with source pins.
+- **What not to infer:** explanation or comparison does not by itself justify a
+  second semantic track.
+
 # **Part J – Indexes & Navigation Aids**
+
 
 | §   | ID & Title               |  Concise reminder                                        |
 | --- | ------------------------ | --- | ------------------------------------------------------- |
 | J.1 | Concept‑to‑Pattern Index |  Quick jump from idea (“boundary”) to pattern (§, id).   |
 | J.2 | Pattern‑to‑Example Index |  Table listing every archetypal grounding vignette.      |
 | J.3 | Principle‑Trace Index    |  Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
-| J.4 | First Practical Entry Route Index | Cross-links the main first-practical entry routes to their first honest burden, current route-bearing surfaces, first working outputs, typical next owners, and common reroutes. |
+| J.4 | First Practical Entry Neighborhood Index | Compact six-row entry-neighborhood index matching the public entry families without route/owner/output columns. |
 
-## J.4 - First Practical Entry Route Index
+## J.4 - First Practical Entry Neighborhood Index
 
-This index is informative navigation only. It names the current first-practical routes in the monolith by the first honest burden that should choose them, the first working output they normally leave behind, the most typical next owners, and the reroutes that most often keep the reader honest.
+This index is informative navigation only.
+It helps one reader compare plausible first pattern entries under one live
+burden. It is not one route table, not one workflow, not one learning syllabus,
+and not one pattern-local recognition role. It is one compact comparison of
+nearby starting points.
 
-| Route | First honest burden | Current route-bearing surfaces / owners | First working output | Typical next owners | Common wrong reroutes |
-| --- | --- | --- | --- | --- | --- |
-| Project alignment | role / method / plan / work confusion | `Preface`, `J.4`, `I.2`, `A.15` | role / method / work separation and a first work sheet or UTS-ready alignment frame | `A.15.1`, `A.15.2`, `A.15.3`, `B.5.1`, `F.11`, `F.17` | if the first honest artefact is still a cue, reroute to `A.16`; if the burden is boundary language, reroute to `A.6` |
-| Partly-said / language-state discovery | preserve and route a cue without pretending endpoint ownership | `Preface`, `J.4`, `I.2`, `A.16`, `A.16.1` | typed move note or `U.PreArticulationCuePack` | `B.4.1`, `B.5.2.0`, `A.16.2`, later endpoint owners | do not recast the cue as a claim, requirement, or work record too early |
-| Boundary unpacking | contract / API / protocol / compliance text is mixing law, gate, duty, and evidence | `Preface`, `J.4`, `I.2`, `A.6` | Claim Register or routed atomic claim set | `A.6.B`, `A.6.C`, `A.6.P`, `A.6.Q`, `A.6.A`, `E.17` faces | if the real burden is early cue preservation, reroute to `A.16 / A.16.1` |
-| Lawful comparison / selected-set publication | compare options or publish a governed selected set / shortlist result | `Preface`, `J.4`, `I.2`, `A.19:0`, `A.17-A.19`, `G.0`, `G.5` | declared characteristics, comparison frame, or selected-set / shortlist result | `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, later publication surfaces | do not force a one-winner answer when the honest output is still a governed selected set |
-| Generator / SoTA / selector / set-surface scaffold | first deliverable is a reusable generator / selector / set-surface scaffold | `Preface`, `J.4`, `I.2`, `A.0`, `G.0`, `G.1`, `G.2`, `G.5` | kit/chassis with scope anchor, SoTA set, variant pool, shortlist surface, or set-surface outcome | `G.2`, `G.5`, later UTS plus declared set, selector, and publication surfaces | do not collapse this route into one-off selection or treat tooling choice as the first owner |
-| Same-entity rewrite / explanation / comparative reading | re-explain, re-render, or comparatively read one object of talk without minting a second semantic track | `Preface`, `J.4`, `I.2`, `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR`, `E.17.AUD.LHR`, `E.17.AUD.OOTD` | same-entity rewrite, explanation-facing rendering, authored-unit repair/stability surface, or bounded comparative reading note | `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR`, `E.17.AUD.LHR`, `E.17.AUD.OOTD` | do not let explanation, repair, or comparison quietly mint a new object of talk or a second rule track |
+Plain reading: choose by what you are really trying to decide, not by document
+order. A row names first patterns to inspect, plausible wrong first stops, and
+where entry can stop without pretending there is a required workflow.
+
+Plain column key: entry neighborhood = nearby starting-point cluster; first
+honest burden = what you are really trying to decide or stabilize; candidate
+patterns = first patterns to inspect; lawful entry stop = enough to proceed
+without pretending there is a workflow.
+
+| Entry neighborhood | First honest burden / case signal | Candidate patterns | Nearby patterns / burden reclassifications | First lawful entry stop | Not this entry when | Worked reading / lexical-query support |
+| --- | --- | --- | --- | --- | --- | --- |
+| Project alignment | "We keep mixing responsibilities, working method, plans, and what actually happened." | `A.1.1`; `A.15`; `A.15.2`; `A.15.3`; `B.5.1` | `F.11` when method/work vocabulary is itself unstable; `F.9` when bridge discipline is live; `F.17` as a typical vocabulary-stabilizing output | the right alignment home is opened, or a first shared work/term form is stable enough to proceed | not when the live burden is already comparison, boundary claim routing, or SoTA/generator scaffold design | `I.2.1` gives compact-index-only posture; ToC cues stay sparse |
+| Partly-said / language-state discovery | "Something important is there, but it is too early to publish as a settled claim, requirement, or work record." | `C.2.LS`; `A.16`; `A.16.1`; `A.16.2`; `B.4.1`; `B.5.2.0` | endpoint claim, action, or quality patterns become candidates only after the cue is mature enough | cue preserved, language-state burden typed, or entry plurality opened without endpoint hardening | not when the claim is already stable enough for a routed boundary claim set or endpoint record | `I.2.2` worked reading; lexical cues may mention "vague cue", "not yet a claim" |
+| Boundary unpacking / claim routing | "A contract, API, protocol, SLA, acceptance, or compliance sentence mixes law, gate, duty, evidence, or action." | `A.6`; `A.6.B`; `A.6.C` | `A.6.RSIG` if first-contact recognition of the boundary description is still live; `A.6.P`, `A.6.Q`, `A.6.A` when relation, quality, or action wording is the burden | boundary claim pattern opened, or a routed atomic claim set / Claim Register is ready for the next authoritative pattern | not when the phrase is only a partly-said cue, or when a full routed claim set already exists | `I.2.3` worked reading; ToC cues should not turn API wording into generic contract authority |
+| Lawful comparison / pool / selection / selected-set publication | "We need comparison, a shortlist, a live pool, a call-planning distinction, or a selected set without forcing one winner too early." | `A.19:0`; `A.17-A.19`; `A.19.CN`; `C.18`; `C.19`; `G.0`; `G.5` | `C.11` when the burden narrows to one local decision doctrine; `C.24` when the next honest artifact is call plan / checkpoint return; `A.19.CPM` and `A.19.SelectorMechanism` when comparator/selector structure is live | candidate-pool policy, comparison substrate, local choice, call-plan, or selected-set publication home identified honestly | not when a selector contract or selected-set publication home is already settled elsewhere | `I.2.4` worked reading; lexical cues may include "shortlist not winner" and "acceptable option set" |
+| Generator / SoTA / portfolio kit | "The first deliverable is a reusable search, harvest, generator, selector, or portfolio scaffold, not one recommendation." | `A.0`; `G.0`; `G.1`; `G.2`; `G.5` | `B.5.2.1` and `C.17-C.19` when creative search, novelty, or explore/exploit policy is already central; `G.10` / `G.11` when shipping or refresh is live | kit/scaffold burden opened, or portfolio/set publication home identified | not when the burden is only one local comparison or one one-off recommendation | `I.2.5` gives compact-index-only posture unless repeated misclassification makes depth necessary |
+| Same-entity rewrite / explanation / comparative reading | "We need to restate, explain, render, repair, or compare the same object without quietly changing what it is about." | `A.6.3.CR`; `A.6.3.RT`; `E.17.EFP`; `E.17.ID.CR` | `E.17.AUD.LHR` and `E.17.AUD.OOTD` when pressured-head repair or authored-unit stability is live | same-entity rewrite, representation transition, explanation-facing rendering, or bounded comparative reading opened | not when the burden is one new semantic object, new rule track, or independent authored object | `I.2.6` worked reading; ToC cues should include "same object, different audience" |
+
+Rows are for likely first practical entries, common wrong first guesses, or
+public/retrieval-facing entry points. A pattern does not need a `J.4` row merely
+because it exists.
+Index maintainers update a row when the pattern becomes a practical entry point
+or its first-pattern choice changes; ordinary pattern authors only need the
+pattern's own `Problem frame` and any live wrong-pattern boundary to be clear.
+
+A `J.4` row usually stays bounded: `3-6` candidate patterns, `1-3` nearby or
+reclassification cues, one short not-this-entry sentence, and one short lawful
+entry-stop phrase. The row remains compact enough to read in one pass and
+strong enough not to smuggle workflow.
+
+`J.4` remains the strongest compact projection role for these rows. It does
+not become the strongest home for the burdens or relations it points to. If a
+referenced pattern's own `Problem frame` does not expose its use situation, the
+pattern itself remains under-authored. If a row cannot stay compact, the depth
+belongs in `I.2`.
 
 # **Part K  – Lexical debt**
+
 ## Mandatory replacement map for measurement terms
 
 > **Rule:** In all **normative** content (specifications, data schemas, etc.), the deprecated terms **“axis”** and **“dimension”** (and their plural or compound forms) **MUST NOT** be used to denote a measurable aspect. Use **Characteristic** in the Tech register instead. Other colloquial terms should be mapped to canonical terms as listed below. In **Plain** narrative, the legacy words may appear _only on first use_ and only if paired with their canonical equivalent for clarity.
