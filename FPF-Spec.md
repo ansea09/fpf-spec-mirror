@@ -235,7 +235,7 @@ Pattern and headers templates are explained in pattern E.8.
 | E.6 | **Didactic Architecture of the Spec** | Stable | *Keywords:* didactic, pedagogy, structure, narrative flow, on-ramp, learning. *Queries:* "How is the FPF specification structured for learning?", "What is the 'On-Ramp first' principle?". | **Builds on:** E.2 (P-2 Didactic Primacy). |
 | E.7 | **Archetypal Grounding Principle** | Stable | *Keywords:* grounding, examples, archetypes, U.System, U.Episteme, Tell-Show-Show. *Queries:* "How are FPF patterns explained?", "What are the standard examples in FPF?". | **Builds on:** E.6. **Constrains:** All architectural patterns. |
 | E.8 | **FPF Authoring Conventions and Style Guide** | Stable | Problem-frame first-reading role; recognition vs assurance role; no route-shaped pattern tops; reader-time usability | `E.6`, `E.7` |
-| E.9 | **Design-Rationale Record (DRR) Method** | Stable | *Keywords:* DRR, design rationale, change management, decision record, context, consequences. *Queries:* "How are changes to FPF managed?", "What is a DRR?". | **Builds on:** E.2 (P-10 Open-Ended Evolution). **Constrains:** All normative changes. |
+| E.9 | **Design-Rationale Record (DRR) Method** | Stable | *Keywords:* DRR, design rationale, decision record, context, consequences, conceptual auditability. *Queries:* "How are FPF design decisions justified?", "What is a DRR?". | **Builds on:** E.2 (P-10 Open-Ended Evolution). **Constrains:** All normative changes. |
 | E.10 | **LEX-BUNDLE: Unified Lexical Rules for FPF** | Stable | *Keywords:* lexical rules, naming, registers, rewrite rules, process, function, service. *Queries:* "What is the complete set of FPF naming rules?". | **Builds on:** A.7, E.5, F.5. **Coordinates with:** A.2, A.10, A.15, B.1, B.3, Part F. |
 | E.10.P | **Conceptual Prefixes (policy & registry)** | Stable | *Keywords:* prefixes, U., Γ_, ut:, tv:, namespace, registry. *Queries:* "What do the prefixes like 'U.' mean in FPF?". | **Depends on:** E.9. **Constrains:** E.5.1, E.5.2. |
 | E.10.D1 | **Lexical Discipline for “Context” (D.CTX)** | Stable | *Keywords:* context, U.BoundedContext, anchor, domain, frame. *Queries:* "What is the formal meaning of 'Context' in FPF?". | **Builds on:** A.7, A.4. **Coordinates with:** F.1, F.2, F.3, F.7, F.9. |
@@ -549,7 +549,7 @@ Part of FPF architecture for open-ended evolution is counterintuitive. E.g., to 
 | Architectural Characteristic of Thought | What it protects / why it matters | The FPF Mechanisms that Preserve It |
 | :--- | :--- | :--- |
 | **Auditability & Traceability** | The unbreakable chain from a claim back to its evidence. This is the quality of being able to answer "Why is this true?" at any point. | **`Evidence Graph Referring (A.10)`**, the **`Design-Rationale Record (DRR) Method (E.9)`**, and the entire **`Trust & Assurance Calculus (B.3)`**. The architecture makes untraceable claims a modeling violation. |
-| **Evolvability** | The capacity of a model or system to adapt to new information or requirements without losing its conceptual integrity. | The **`Open-Ended Evolution Principle (P-10)`**, the **`Canonical Evolution Loop (B.4)`**, and the **`DRR Process (E.9)`**. Change is not a bug; it is a formally managed, first-class feature of the architecture. |
+| **Evolvability** | The capacity of a model or system to adapt to new information or requirements without losing its conceptual integrity. | The **`Open-Ended Evolution Principle (P-10)`**, the **`Canonical Evolution Loop (B.4)`**, and the **`DRR Method (E.9)`**. Change is not a bug; it is a formally managed, first-class feature of the architecture. |
 | **Creativity (Generative Novelty & Value)** | The ability to reliably generate, select, and mature novel hypotheses/designs that are both *new* and *fit to purpose*—exploration without losing auditability or safety. | **`Creativity‑CHR (C.17)`** for measurable **Novelty / Use‑Value / Surprise / Constraint‑Fit**; **`NQD‑CAL (C.18)`** for open‑ended, illumination‑style search; **`E/E‑LOG (C.19)`** to govern explore↔exploit policies; **`Creative Abduction with NQD (B.5.2.1)`** / **`Abductive Loop (B.5.2)`** to structure hypothesis generation; **`Design‑Rationale Record (E.9)`** to capture decisions so creativity stays auditable. |
 | **Composability & Modularity** | The ability to construct complex, reliable ideas from simpler, independently verifiable components. | The **`Open-Ended Kernel (A.5)`**, **`Universal Γ (B.1)`**, plus **Boundary‑Inheritance Standard (BIC)** and the **Cut‑Stable Boundary Axiom** for safe structural cuts, and the **Method Interface Standard (MIC)** for typed method I/O and conservation constraints. Together they make composition predictable and auditable.  |
 | **Falsifiability** | The quality that every claim is structured so it can be rigorously tested and potentially proven false. | **`Conformance Checklists`** embedded in every pattern and the **`Trust & Assurance Calculus (B.3)`**. Every normative artifact must declare success/failure criteria and null tests. |
@@ -38791,7 +38791,8 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 - **C19-4** Promotion of Surprise/Illumination into dominance MUST be explicit in policy.
 - **C19-5** USM/RSG gate applies: policy actions SHALL operate within the Context's scope and enactable RSG states.
 - **C19-6** Each selection lens **MUST** implement and document the pipeline` Eligibility (ConstraintFit=pass) → Dominance (declared set) → Tie-breakers (declared)`. Any **promotion** of Surprise/Illumination into the dominance set **MUST** be named by lens/policy id and recorded in provenance.
-- **C19-7 (LEX-AUTH trigger).** Any change to `EmitterPolicy` defaults that affects domain-family quotas/samplers (HET-FIRST), or any change to `DescriptorMap` family coordinates, `DistanceDef`, or the `δ_family` threshold MUST be authored via **E.15 LEX-AUTH** with a published **LAT**; the DRR SHALL carry the LAT pointer (see **CC-DRR.6**). Record policy/card ids in SCR.
+- **C19-7 (LEX-AUTH trigger).** Any change to `EmitterPolicy` defaults that affects domain-family quotas/samplers (HET-FIRST), or any change to `DescriptorMap` family coordinates, `DistanceDef`, or the `δ_family` threshold MUST be authored via **E.15 LEX-AUTH**. Any resulting **LAT** lives in the relevant LAT/evidence owner; the DRR need only carry the content decision itself plus any decisive evidence or validation consequence by value when that consequence materially shaped the choice (see **CC-DRR.6**). Record policy/card ids in SCR.
+
 - **C19-8**  When the Heterogeneity-first lens is used, provenance MUST include: (i) the family-quota vector (including the default triad quota k), (ii) the subFamilyDef id (from F1-Card) if sub-family quotas apply, (iii) the sampler class, seed, and policy id.
 - **C19-9** When `C.19` returns one pool-policy result, that result **MUST** identify the still-live pool or family scope, the governing lens or policy id, and the next treatment (`widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`).
 - **C19-10** If the burden is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** reroute rather than restate `C.11`, `C.24`, or `G.5`.
@@ -42059,6 +42060,32 @@ International and industry standards often speak in terms of *conformance criter
 
 
 
+### E.9:0 - Use this when
+
+- one proposed normative change needs an explicit by-value account of what FPF should say, why this decision is preferred, and what neighboring homes it affects
+- several pattern or support homes must move together and one external decision artefact is needed to keep one bounded coordinated change set (one mutually dependent change set) semantically complete while enduring Core text is redistributed
+- one bounded content burden would otherwise force authors to decide the same load-bearing answer separately across several pattern/support homes
+- one deprecation, narrowing, or cross-owner amendment must stay reviewable without reconstructing intent from patch history, chat memory, or scattered notes
+
+**Not this pattern when.** Do not use `E.9` as the permanent home of normative law, as a campaign/workflow brief, or as the main vehicle for purely editorial `Δ‑0/Δ‑1` cleanup that lawfully fits the lightweight variant in `CC‑DRR.5`.
+
+### E.9:0.1 - What goes wrong if missed
+
+- Core text changes without one explicit rationale account, so later readers cannot recover which alternatives were rejected or which exclusions were intentional
+- coordinated multi-home amendments drift apart because the temporary decision contract survives only in patches, handoffs, or reviewer memory
+- future repairs overfit to local wording and silently lose Pillar, taxonomy-lens, impact-graph, practical-use, or lawful-home discipline
+
+### E.9:0.2 - What this buys
+
+- one external decision artefact that states the bounded FPF change by value before Core text is rewritten
+- one minimum kernel that keeps Problem frame, Decision, Rationale, and Consequences recoverable for later review and replay
+- one lawful temporary convergence artefact (one external holding artefact while enduring Core homes are still being updated) for coordinated changes, while keeping enduring Core homes in the Core rather than in the DRR
+- one temporary convergence artefact that fixes the selected answer (the chosen content answer for the bounded burden) before later drafting fans out across several enduring homes
+
+**Governed object in plain terms.** The governed object here is one external decision-rationale artefact for one bounded FPF content decision or one bounded coordinated change set. The minimal lens is simple: the artefact must keep the problem frame, decision, rationale, consequences, and impact/boundary account recoverable enough that accepted content can be distributed into the right Core homes without semantic invention.
+
+**Primary working reader.** The first working reader is an FPF author, reviewer, or steward who must evaluate, challenge, or land one bounded content decision. Downstream pattern readers benefit from the landed Core text; they are not the primary reader of the DRR itself.
+
 ### E.9:1 - Problem frame
 FPF is engineered for Pillar **P‑10 Open‑Ended Evolution**: its normative
 rules must adapt as new calculi and insights arrive. But change without a
@@ -42083,76 +42110,232 @@ systemic hazards:
 |-------|---------|
 | **Agility vs Rigour** | Evolve swiftly ↔ demonstrate deliberate, Pillar‑aligned decisions. |
 | **Transparency vs Efficiency** | Provide a public argument trail ↔ avoid bureaucratic drag on minor edits. |
-| **Clarity vs Conciseness** | Capture full reasoning ↔ prevent meta‑text from bloating the Core itself. |
+| **Clarity vs Conciseness** | Capture enough reasoning and coordinated implications ↔ prevent meta‑text from bloating the Core itself. |
 
-### E.9:4 - Solution — the DRR as a structured argument
+### E.9:4 - Solution — the DRR as a structured argument and temporary convergence artefact
 Any proposal to add, modify or deprecate a `NORM`, `A`, `D`, or `GOV`
 rule **MUST** be accompanied by a **Design‑Rationale Record**. By default,
-it contains exactly four conceptual components (below); a lightweight
-editorial variant is permitted by CC‑DRR.5.
+a conforming DRR contains at least four conceptual components (below);
+these form the minimum decision kernel recoverable by any conforming DRR.
+A lightweight editorial variant is permitted by CC‑DRR.5.
 
-| Component | Guiding question | Typical content |
+In this pattern, a **bounded coordinated change set** means one bounded
+group of mutually dependent content decisions whose enduring FPF
+expression will be distributed across several pattern/support homes.
+In this pattern, the **selected answer** means the current set of chosen
+content decisions for that bounded burden: what FPF should say, which
+homes carry it, what stays outside, and what support or
+loss/recoverability regime applies.
+In this pattern, a **temporary convergence artefact** means one external
+decision artefact that temporarily holds the selected answer while
+enduring Core homes are still being updated.
+
+A nontrivial DRR may therefore govern one bounded coordinated change set.
+In that case the DRR is the temporary convergence artefact for the selected
+answer until enduring Core homes are updated; it is not a second
+permanent law layer.
+
+| Minimum-kernel component | Guiding question | Typical content |
 |-----------|------------------|-----------------|
-| **Problem frame** | *Why are we talking about this?* | Problem statement, triggering insight, or external change. |
-| **Decision** | *What will we do?* | Precise normative text to enter the specification. |
-| **Rationale** | *Why is this the right thing?* | Comparison of alternatives, Pillar check, taxonomy‑lens balance. |
-| **Consequences** | *What happens next?* | Expected benefits, trade‑offs, impacted patterns, risk notes. |
+| **Problem frame** | *Why are we talking about this?* | Problem statement, triggering insight, intended FPF use-value, scenario basis, or external change. |
+| **Decision** | *What will we do?* | Precise normative text, selected content distribution, explicit outside-current-decision disposition, or other substantive change law to enter the specification. |
+| **Rationale** | *Why is this the right thing?* | Comparison of alternatives, Pillar check, taxonomy-lens balance, architecture/usability/SoTA grounds. |
+| **Consequences** | *What follows from this choice?* | Expected benefits, trade-offs, impacted patterns/support homes, practical gains/costs, and remaining validation burden. |
 
-The DRR lives **outside** the normative Core. Upon acceptance, its
-*Decision* **SHALL** be applied to the relevant pattern(s) as explicit
-normative text (the change is "in the Core"; the DRR is not).
+#### E.9:4.1 - Minimum decision-support surfaces
+
+A conforming DRR must also make the following decision-support surfaces
+recoverable. They may live inside the four kernel components or inside one
+dedicated `Basis used` / decision-support block, but they are part of
+substantive DRR adequacy rather than later review-only hardening.
+
+| Decision-support surface | What must be recoverable by value | Ordinary home |
+|---|---|---|
+| **Exact substantive basis and governing inheritance** | Exact basis owners and inherited architecture/audit basis that materially govern the decision, plus any still-live uncertainty not already closed by that basis. | Header or `Basis used`, with Problem frame/Rationale support. |
+| **Purpose, utility, and scenario basis** | Intended FPF use-value, first-minute working situation, minimum scenario/anti-case basis, and compact utility/fitness reading. | Problem frame. |
+| **Alternatives and current disposition map** | Material alternatives plus one current disposition for each still-live burden this DRR must settle: `selected now`, `rejected now`, `inherited unchanged`, or `outside current decision with named owner`. | Decision and Rationale. |
+| **Surface-distribution and outside-home boundary map** | For each load-bearing selected answer: selected pattern/support homes, exact content obligations on each selected home, which nearby homes stay unamended under the current decision, and any cross-surface agreement that selected homes must preserve. | Decision. |
+| **Existing-home sufficiency and new-home necessity** | For each load-bearing selected answer, whether one already-existing pattern/support home is sufficient or one newly selected home is necessary, and why rejected home options would misplace, overload, or falsely split semantic authority. | Decision and Rationale. |
+| **Naming, ontology, and wrong-owner-confusion account** | Head/branch/object/move/outside-work separation, tempting wrong-owner confusion, and any load-bearing `F.18` naming burden needed to keep the selected answer truthful by value. | Problem frame, Decision, and Rationale. |
+| **Reusable-support disposition when triggered** | Whether a potentially reusable support object/view/helper family remains local, is generalized now, is rejected, or is routed outside the current decision with named owner. | Decision and Rationale. |
+| **Loss and recoverability template when weakening is declared** | Preserved distinctions, dropped distinctions, admissible use, forbidden downstream use, recoverability class, and reopen/exit rule. | Decision and Consequences. |
+| **Lawful host and neighbor-boundary account** | Why the selected pattern/support homes are the lawful carriers, which tempting homes stay outside, and which neighboring reroutes remain authoritative. | Decision and Rationale. |
+| **Convergence and overlap account when several burden branches touch the same home set** | Whether overlap is lawful convergence or one reopened architecture smell, what cross-surface agreements must hold, and whether a new home is actually selected or refused now. | Decision and Consequences. |
+| **Selected-answer stability boundary** | Which elements of the selected answer are fixed now for later FPF drafting, and which later elaborations may strengthen wording, examples, or support without reopening the selected answer. | Decision and Consequences. |
+| **Impact, practical gains, and remaining validation burden** | Affected patterns/support homes, practical gains/costs, authority or release consequences when they follow from the content decision, and the remaining validation burden that still constrains later authoring or landing. | Consequences. |
+| **SoTA and competitive-positioning account when load-bearing** | Current anchors that discipline the decision, what problem-owning domain or practice they answer to, and what unresolved uncertainty would materially change the selected answer. | Problem frame, Rationale, and Consequences. |
+
+These support surfaces are not separate process paperwork. A DRR that keeps
+only the four labels while leaving basis, first-minute use burden, naming,
+surface placement, home sufficiency/necessity, overlap handling, impact,
+or live uncertainty implicit is structurally labeled but still
+substantively immature.
+
+Together these support surfaces let the DRR act as one decision artefact
+for one bounded coordinated change set: enough semantic closure that later
+drafting distributes the selected answer into enduring homes rather than
+inventing it for the first time pattern by pattern.
+
+When one bounded decision coordinates several pattern or support homes, or
+one cluster of mutually dependent pattern/support edits, the DRR **MAY**
+carry additional substantive sections beyond that minimum kernel. Typical
+lawful additions include obligations on selected homes, one explicit
+new-home vs existing-home decision, one cross-owner impact or non-goal
+map, cross-surface coverage or agreement maps, convergence
+classification, and one provisional decision-law account by value that
+keeps the bounded change contract semantically complete until enduring
+Core text is distributed.
+
+Such additions do not change the DRR’s kind. A DRR carrying them remains
+lawful only when it stays about the FPF content decision: what FPF should
+say, why, what is excluded, how selected pattern/support homes are
+affected, and what practical burden improves. A DRR carrying richer
+convergence content **MUST NOT** become a campaign plan, workflow script,
+baton carrier, packet checklist, staging log, or other development-process
+brief.
+
+When one selected answer could plausibly live in one already-existing home
+or one newly proposed home, the DRR must decide that
+sufficiency/necessity question by value. It is not enough to list a
+tentative home list or leave downstream drafting to discover the lawful
+home later.
+
+When one accepted basis exposes one potentially reusable local support
+object, view, atlas/helper family, or neighboring support mechanism, the
+DRR must not merely note that such support already exists. It must decide
+whether that support is generalized now, kept local with a substantive
+reason, rejected, or marked outside the current decision with a named
+owner.
+
+When one burden involves weakening, attenuation, simplification, redaction,
+summarization, or other declared loss, the DRR must make the lawful-case
+template explicit by value. Explanation alone is not enough; the decision
+must say what remains preserved, what is dropped, which branch reading or
+hosted lane is lawful, which uses are forbidden, what recoverability class
+applies, and what reopen or exit rule governs cases that exceed the
+declared weakening.
+
+A nontrivial DRR is mature enough for downstream authoring only when
+materially live burden-family choices about the governed object, selected
+homes, outside-current-decision boundary, reusable-support disposition,
+and loss/recoverability regime have already been selected, rejected,
+inherited unchanged, or routed outside the current decision with named
+owner. If those choices are still missing, the DRR is still basis work
+rather than one accepted design-rationale record.
+
+The DRR lives **outside** the normative Core. An accepted DRR **SHALL** be
+landed by applying its Decision account and any stabilized enduring
+content to the relevant pattern(s) or other Core homes as explicit
+normative or informative text (the change is "in the Core"; the DRR is
+not). A richer DRR **MAY** remain the temporary convergence artefact while
+redistribution into enduring Core homes is still incomplete, but it
+**SHALL NOT** remain the permanent sole semantic home once landed Core text
+exists.
+
+Authors drafting from an accepted DRR **MAY** elaborate examples,
+SoTA‑Echoing, recognition surfaces, local wording inside the selected
+homes, and neighboring
+fit. They **SHALL NOT** silently revise the selected answer, selected
+homes, outside-current-decision boundary, reusable-support disposition, or
+declared loss/recoverability regime. Any such revision **SHALL** be routed
+through one successor DRR or other lawful successor decision owner.
 
 To preserve **P‑2 Didactic Primacy** without duplicating meta‑text,
-stable and reusable parts of the DRR’s *Rationale* and *Consequences*
-**SHOULD** be **distilled** into the **informative** sections of the
-affected pattern(s) (Rationale, Consequences, SoTA‑Echoing, Archetypal
-Grounding; per the Pattern Template, E 8). The full DRR remains
-external as provenance.
+authors landing an accepted DRR **SHOULD** distill stable and reusable
+parts of its *Rationale*, *Consequences*, and other lawful convergence
+sections into the appropriate **informative** sections of the affected
+pattern(s) (Rationale, Consequences, SoTA‑Echoing, Archetypal Grounding;
+per the Pattern Template, E.8). The full DRR remains external as
+provenance.
+
+A substantive DRR is one current content decision object. It may carry
+selected content obligations only when they are part of the
+Decision or Consequences. It **MUST NOT** carry next-gate posture,
+handoff/packet state, route order, monolith status, future campaign
+planning, or one hidden promise that the same current burden will be
+decided later inside the same decision object. Any undecided remainder must
+be marked outside the current decision with a named owner.
 
 ### E.9:5 - Archetypal Grounding (System / Episteme)
 
-| Holon flavour | DRR analogue | Four components illustrated |
+| Holon flavour | DRR analogue | Minimum kernel illustrated |
 |---------------|--------------|-----------------------------|
-| **`U.System`** (physical) | Engineering Change Order for pump motor upgrade. | Context: inefficiency; Decision: switch to brushless DC; Rationale: energy gain vs cost; Consequences: new control schema + supplier change. |
-| **`U.Episteme`** (knowledge) | Foundational theory revision paper. | Context: conflicting data; Decision: introduce new axiom; Rationale: explains legacy & new data, Pillar alignment; Consequences: fresh predictions, update to curricula. |
+| **`U.System`** (physical) | Engineering Change Order for pump motor upgrade. | Context: inefficiency and plant-use burden; Decision: switch to brushless DC and update the selected control/maintenance homes; Rationale: energy gain vs cost and authority fit; Consequences: new control schema, supplier change, validation burden. |
+| **`U.Episteme`** (knowledge) | Foundational theory revision paper. | Context: conflicting data and explanatory burden; Decision: introduce new axiom and distribute its consequences into the selected theory/teaching homes; Rationale: explains legacy & new data, Pillar alignment, alternative rejection; Consequences: fresh predictions, update to curricula, downstream review burden. |
 
 ### E.9:6 - Conformance Checklist
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
-| **CC‑DRR.1** | Any **semantic** change (Δ‑2/Δ‑3) to a `NORM`, `A`, `D`, or `GOV` pattern **SHALL** be preceded by an accepted DRR containing Problem‑frame (Context), Decision, Rationale, Consequences. | Prevents undocumented semantic edits. |
-| **CC‑DRR.1a** | When the proposed change is expressed as a (new or revised) pattern written in the standard template (E 8), the DRR **MAY** satisfy its four components by **pointing to** the corresponding pattern sections, rather than duplicating prose. | Avoids “double writing” while keeping the argument recoverable. |
-| **CC‑DRR.2** | The *Rationale* element **MUST** assess the proposal against **all Eleven Pillars** and the five Principle‑Taxonomy lenses (`Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`). | Keeps evolution aligned and cross‑disciplinary. |
-| **CC‑DRR.3** | The DRR **SHALL** list every pattern it supersedes, amends, or risks impacting. | Maintains explicit impact graph. |
-| **CC‑DRR.4** | Once approved, the *Decision* text **SHALL** be inserted into the Core as the normative change. Other DRR sections **MAY** be distilled into **informative** pattern sections (Rationale/Consequences/SoTA‑Echoing/Grounding) but **SHALL NOT** introduce new normative constraints except via explicit `NORM`/`A`/`D`/`GOV` text. | Preserves brevity while keeping the Core teachable. |
-| **CC‑DRR.5** | Minor, non‑substantive edits (Δ‑0/Δ‑1; e.g., typos, wording clarity, didactic rearrangements) **MAY** follow a lightweight DRR variant containing Problem‑frame (Context) + Decision only (“no semantic change”), provided they do not alter semantics. | Avoids bureaucratic drag on editorial work. |
-| **CC‑DRR.6 (LAT pointer)** | For Δ‑2/Δ‑3 changes to part F or part G patterns, the DRR **SHALL** include a non‑normative pointer (id/URI) to a published LEX‑AUTH Trace (LAT) archived as `U.Work`; the LAT is evidence, not normative prose. | Binds high‑impact changes to re‑runnable authoring evidence without importing tooling. |
+| **CC‑DRR.1** | Any Δ‑2/Δ‑3 semantic change set against a `NORM`, `A`, `D`, or `GOV` pattern **SHALL** be backed by an accepted DRR containing at least Problem‑frame (Context), Decision, Rationale, and Consequences. | Prevents undocumented semantic edits while setting a minimum kernel rather than an artificial ceiling. |
+| **CC‑DRR.1a** | A DRR whose proposed change is expressed as a new or revised pattern written in the standard template (E.8) **MAY** satisfy that minimum kernel by **pointing to** the corresponding pattern sections rather than duplicating prose. | Avoids “double writing” while keeping the argument recoverable. |
+| **CC‑DRR.1b (rich convergence content is permitted)** | A DRR that coordinates several pattern/support homes or mutually dependent pattern/support changes **MAY** include additional substantive sections beyond the minimum kernel—for example obligations on selected homes, explicit new-home vs existing-home decisions, boundary/non-goal maps, cross-surface coverage or agreement maps, convergence classification, or one provisional decision-law account by value—provided that the DRR stays about the FPF content decision and **MUST NOT** become process/workflow management. | Allows one semantically sufficient convergence artefact for coordinated changes without forcing mid-distribution invention or extra shadow documents. |
+| **CC‑DRR.1c (exact basis is recoverable)** | A conforming DRR **MUST** make its exact substantive basis and governing inheritance recoverable by value, either in one dedicated `Basis used` section or one equivalent header/support block. Routing, status, and provenance owners do not count unless their substantive content still governs the decision by value. | Prevents anti-telephone drift and keeps the decision inspectable against its real basis. |
+| **CC‑DRR.1d (problem-frame adequacy)** | The Problem frame **MUST** make the intended FPF use-value, first-minute working situation, minimum scenario/anti-case basis, compact utility/fitness reading, and any load-bearing current SoTA / competitive-positioning basis or exact inherited-basis justification recoverable by value. | Prevents a DRR from being formally labeled but pragmatically under-specified. |
+| **CC‑DRR.1e (current disposition map and surface obligations)** | The Decision **MUST** name the selected pattern/support homes and the content obligations each selected home must carry by value. For every load-bearing selected answer and for every still-live burden explicitly deferred to this DRR by accepted basis, the Decision **MUST** record one current disposition now: `selected now`, `rejected now`, `inherited unchanged`, or `outside current decision with named owner`. | Stops hidden deferral and prevents tentative home-list prose from replacing real content decisions. |
+| **CC‑DRR.1f (reusable-support disposition when triggered)** | When accepted basis exposes a potentially reusable support object, view, helper family, or neighboring support mechanism, the DRR **MUST** decide whether it is generalized now, kept local with reason, rejected, or routed outside the current decision with named owner. | Prevents unexamined inheritance of local support forms. |
+| **CC‑DRR.1g (loss/recoverability template when triggered)** | If the decision declares weakening, attenuation, simplification, redaction, summarization, or other loss, the DRR **MUST** make explicit the preserved distinctions, dropped distinctions, admissible uses, forbidden downstream uses, recoverability class, and reopen/exit rule. | Prevents rhetorical smoothing from masquerading as stable lawful content. |
+| **CC‑DRR.1h (naming and ontology adequacy)** | A conforming DRR **MUST** make the selected head/branch/object/move/outside-work separation recoverable by value and **MUST** expose any tempting wrong-owner confusion or load-bearing `F.18` naming burden that materially affects the decision. | Prevents semantically important naming and typing choices from being rediscovered later during pattern drafting. |
+| **CC‑DRR.1i (existing-home sufficiency or new-home necessity is explicit)** | When a load-bearing selected answer could plausibly live in one already-existing pattern/support home or one newly proposed home, the DRR **MUST** make that sufficiency/necessity judgement by value and **MUST** explain why rejected home options would misplace, overload, or falsely split semantic authority. | Prevents lawful-home selection from being rediscovered during downstream drafting. |
+| **CC‑DRR.1j (selected-answer stability boundary is explicit)** | The Decision or Consequences **MUST** make clear which elements of the selected answer are fixed now for later FPF drafting and which later elaborations may strengthen wording, examples, or support without reopening the selected answer. | Prevents later drafting from silently widening or re-deciding the accepted answer. |
+| **CC‑DRR.2** | A conforming DRR **MUST** include a rationale account that compares the materially live alternatives and assesses the selected proposal against **all Eleven Pillars** and the five Principle‑Taxonomy lenses (`Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`). | Keeps evolution aligned, comparative, and cross‑disciplinary. |
+| **CC‑DRR.3** | The DRR **SHALL** list every pattern, support home, or neighboring semantic home it supersedes, amends, excludes from the current decision, routes to, or risks impacting, together with any cross-surface agreement the selected homes must preserve. It **MUST** also make clear why the selected homes are the lawful carriers, which tempting homes stay outside, and, when several burden branches touch the same home set, whether that overlap is lawful convergence or one reopened architecture smell. | Maintains an explicit impact/boundary graph for coordinated changes. |
+| **CC‑DRR.3a (practical and validation consequences are explicit)** | The Consequences account **MUST** expose the practical change in use, practical gains/costs, affected patterns/support homes, and any remaining content-level validation burden or authority/release consequence that still constrains the selected decision by value. | Prevents consequences from collapsing into generic optimism or route prose. |
+| **CC‑DRR.3b (SoTA shapes the decision when load-bearing)** | When SoTA or competitive positioning is load-bearing, the DRR **MUST** make the current SoTA basis and any uncertainty that would materially change the decision recoverable by value. A literature overview that does not shape the selected answer, boundary, or validation burden is non-conforming. | Keeps SoTA from becoming decorative appendix material. |
+| **CC‑DRR.4** | An accepted DRR **SHALL** have its Decision account landed in the Core as the normative change. When that DRR temporarily carries richer convergence content, authors landing it **SHOULD** distribute any part that stabilizes into enduring FPF content into the relevant Core patterns/support homes. Authors **MAY** distill other DRR sections into **informative** pattern sections (Rationale/Consequences/SoTA‑Echoing/Grounding), but they **SHALL NOT** introduce new normative constraints except via explicit `NORM`/`A`/`D`/`GOV` text. | Preserves Core authority while allowing a richer temporary convergence artefact. |
+| **CC‑DRR.4a (separate-law owner proliferation is blocked)** | If the DRR needs compact law/check content, it **SHOULD** keep that content as one decision-law section or as obligations on selected existing amendment targets. It **MUST NOT** mint a separate `law sheet`, `profile`, support owner, or checklist owner unless that separate owner is selected by value and shown not to duplicate the DRR or the selected amendment targets. | Prevents unnecessary separate-owner proliferation and shadow-law duplication. |
+| **CC‑DRR.4b (current decision object remains singular)** | A conforming DRR **MUST** remain one current content decision object. It **MUST NOT** carry route/gate/handoff/process posture, mutable status, or hidden same-decision future-planning language; any undecided remainder **MUST** be marked outside the current decision with named owner. | Keeps the DRR ontologically about the FPF decision rather than about the development container. |
+| **CC‑DRR.4c (downstream authoring stays inside the accepted decision)** | Authors drafting from an accepted DRR **MAY** elaborate examples, SoTA‑Echoing, recognition surfaces, local wording inside the selected homes, and neighboring fit, but they **SHALL NOT** silently revise the selected answer, selected homes, outside-current-decision boundary, reusable-support disposition, or declared loss/recoverability regime. Any such revision **SHALL** be routed through one successor DRR or other lawful successor decision owner. | Keeps later pattern drafting from re-deciding bounded content by drift. |
+| **CC‑DRR.4d (major decision gaps are not left to drafting-time invention)** | A conforming DRR **MUST NOT** leave materially live burden-family choices about the governed object, selected homes, outside-current-decision boundary, reusable-support disposition, or loss/recoverability regime to be discovered case-by-case during later pattern/support drafting. Those choices **MUST** already be selected, rejected, inherited unchanged, or routed outside the current decision with named owner. | Ensures the DRR actually coordinates one bounded change set rather than serving as a thin preface to later rediscovery. |
+| **CC‑DRR.5** | A DRR for minor, non‑substantive edits (Δ‑0/Δ‑1; e.g., typos, wording clarity, didactic rearrangements) **MAY** use a lightweight variant containing Problem‑frame (Context) + Decision only (“no semantic change”), provided it does not alter semantics. | Avoids bureaucratic drag on editorial work. |
+| **CC‑DRR.6 (evidence boundary)** | For Δ‑2/Δ‑3 lexical or authoring-sensitive changes, the DRR **SHALL** state the content-level evidence or validation burden that bears on the decision, and it **MAY** summarize already-available decisive evidence by value when that evidence materially shapes the chosen content. The DRR **SHALL NOT** need a LAT id, run-manifest id, gate id, packet id, or other authoring-evidence citation in order to count as complete; those remain in the relevant evidence or authoring owner. If later LAT or refresh evidence motivates reopening or revising the decision, that later evidence belongs in a successor DRR or other lawful successor owner rather than being retrofitted into the accepted DRR. | Keeps the DRR a design-rationale record while preserving re-runnable evidence in its own owner. |
 
 ### E.9:7 - Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | **Complete audit trail** – every semantic normative change carries a structured “why”. | Adds deliberate friction; mitigated by CC‑DRR.5 (Δ‑0/Δ‑1 lightweight) and CC‑DRR.1a (pointer‑based DRRs). |
-| **Higher decision quality** – Pillar & lens check surfaces hidden conflicts early. | Authors must learn taxonomy; template checklist shortens ramp‑up. |
+| **Higher decision quality** – Pillar, alternatives, scenario, and utility checks surface hidden conflicts early. | Authors must do more real content work up front; the gain is less downstream reinvention and less hidden deferral. |
 | **Institutional memory** – prevents re‑litigation of rejected alternatives. | DRR archive grows; index stored in a non‑normative annex. |
+| **Executable downstream authoring** – selected homes, outside-home boundary, reusable-support decisions, selected-answer stability, and remaining validation burden are explicit enough for later drafting/landing without semantic invention. | Richer DRRs need discipline to avoid becoming shadow specs or process briefs; mitigated by CC‑DRR.1b, CC‑DRR.4a, CC‑DRR.4b, CC‑DRR.4c, and CC‑DRR.4d. |
 
 ### E.9:8 - Rationale
 FPF evolves by **explicit, reviewable deltas** rather than silent edits.
-The DRR is the *minimal structured argument* that keeps **P‑10
-Open‑Ended Evolution** compatible with **P‑1 Cognitive Elegance** and
-**P‑2 Didactic Primacy**: the Core stays succinct and teachable, while
-the “why” is recoverable. Pointer‑based DRRs (CC‑DRR.1a) prevent
-duplicated prose, and distillation into informative pattern sections
-(CC‑DRR.4) keeps the spec itself learnable.
+The DRR is the *minimum structured argument*—and, when several pattern or
+support homes must move together, an allowed temporary convergence
+artefact—that keeps **P‑10 Open‑Ended Evolution** compatible with **P‑1
+Cognitive Elegance** and **P‑2 Didactic Primacy**.
+
+E.9 sets a **floor, not a ceiling**: every conforming DRR must make
+Problem‑frame / Decision / Rationale / Consequences recoverable, but it
+may carry richer substantive coordination content when that prevents
+shadow documents or semantic invention during distribution into Core
+homes. The same floor also requires the decision-support content that
+later authoring and review otherwise reconstruct manually: exact basis,
+use-value, first-minute working situation, scenario basis, alternatives,
+current disposition map, naming/ontology burden, lawful surface placement,
+existing-home sufficiency/new-home necessity, overlap classification,
+selected-answer stability, impact/boundary graph, practical payoff, and
+any still-live uncertainty that materially shapes the decision.
+
+Pointer-based DRRs (CC‑DRR.1a) prevent duplicated prose, and distribution
+into Core homes (CC‑DRR.4) keeps the specification itself learnable
+without turning the DRR into a permanent shadow canon. Process-law route,
+gate, and handoff surfaces stay outside because they are not part of the
+content answer that FPF is selecting.
 
 ### E.9:9 - Relations
 
 * **Instantiates:** P‑10 Open‑Ended Evolution, P‑2 Didactic Primacy  
-* **Template governed by:** `pat:authoring/pattern‑template` (E 8)  
-* **Interacts with:** `pat:guard/bias‑audit` (E 5.4) via lens check  
-* **Complemented by:** `pat:authoring/code‑of‑conduct` (E 12) – etiquette for DRR debate  
+* **Template governed by:** `pat:authoring/pattern‑template` (E.8)  
+* **Interacts with:** `pat:guard/bias‑audit` (E.5.4) via lens check  
+* **Complemented by:** `pat:authoring/code‑of‑conduct` (E.12) – etiquette for DRR debate  
 
 ### E.9:End
+
+
+
+
 
 ## E.10 - Unified Lexical Rules for FPF (LEX‑BUNDLE)
 *Definitional pattern; normative for all FPF pattern text and for any Context that claims FPF conformance.*
@@ -44708,7 +44891,8 @@ LEX‑AUTH defines **how** a pattern is **proposed, varied, selected, validated,
 12. **Merge** the winner; version pattern **SemVer** by Delta‑Class.
 
 **Stage E — Publish & Monitor**
-13. Publish the **LEX‑AUTH Trace (LAT)** (§4.2) with the pattern.
+13. Publish the **LEX‑AUTH Trace (LAT)** (§4.2) as the separate authoring/evidence artefact for the change.
+
 14. Schedule **evidence refresh** windows and an **evolution watchpoint** (B.4 loop): when metrics or SoTA inputs decay, reopen Stage B.
 
 #### E.15:4.2 - The **LEX‑AUTH Trace (LAT)** — what it is and why it matters
@@ -44730,7 +44914,8 @@ A LAT is **not** “we ran a script.” It is a **structured episteme** that let
 
 **Uses of the LAT:**
 *Reproducibility* (re‑run B‑stages as SoTA changes), *assurance* (explicit impact on F/G/R), *portfolio health* (diversity/coverage), *teaching* (didactic before/after), and *cross‑context safety* (no silent imports).
-Publish the pattern with a DRR that carries a LAT pointer (id/URI). The LAT itself is a U.Work evidence pack (non‑normative), archived with edition and Γ_time.
+Publish the pattern with its **DRR**, and publish the **LAT** as the separate authoring/evidence artefact for the change. The LAT carries the reproducible authoring trace and cites the DRR as the governing decision record. The DRR remains complete without LAT citations; it may summarize already-available decisive evidence by value when that evidence materially shaped the content choice. If later LAT or refresh evidence motivates a reopened or revised choice, route that evidence into a later DRR or other lawful successor owner rather than retrofitting the accepted DRR.
+
 
 **Example of a LAT‑stub**
 ```
@@ -44749,7 +44934,8 @@ LAT:
 
 #### E.15:4.3 - What counts as “changed the pattern as a whole” — **Delta‑Classes & versioning**
 
-Classify the intended change **before** work starts (declared in DRR & LAT):
+Classify the intended change **before** work starts (declare it in the DRR framing; echo it in the LAT/evidence owner when one is used):
+
 
 * **Δ‑0 Lexical polish** — wording/ordering only; **no** change to CC or semantics. → *Patch* (x.y.**z**+1).
 * **Δ‑1 Didactic restructure** — narrative/layout; **unchanged** Conformance Checklist (CC). → *Minor* (**x.y**+1.0).
