@@ -239,7 +239,7 @@ Pattern and headers templates are explained in pattern E.8.
 | **Cluster E.II — The Author’s Handbook** | | | | |
 | E.6 | **Didactic Architecture of the Spec** | Stable | *Keywords:* didactic, pedagogy, structure, narrative flow, on-ramp, learning. *Queries:* "How is the FPF specification structured for learning?", "What is the 'On-Ramp first' principle?". | **Builds on:** E.2 (P-2 Didactic Primacy). |
 | E.7 | **Archetypal Grounding Principle** | Stable | *Keywords:* grounding, examples, archetypes, U.System, U.Episteme, Tell-Show-Show. *Queries:* "How are FPF patterns explained?", "What are the standard examples in FPF?". | **Builds on:** E.6. **Constrains:** All architectural patterns. |
-| E.8 | **FPF Authoring Conventions and Style Guide** | Stable | Problem-frame first-reading role; recognition vs assurance role; no route-shaped pattern tops; reader-time usability | `E.6`, `E.7` |
+| E.8 | **FPF Authoring Conventions and Style Guide** | Stable | Problem-frame recognition surface; recognition surface / assurance surface; no route-shaped pattern tops; reader-time usability | `E.6`, `E.7` |
 | E.9 | **Design-Rationale Record (DRR) Method** | Stable | *Keywords:* DRR, design rationale, decision record, context, consequences, conceptual auditability. *Queries:* "How are FPF design decisions justified?", "What is a DRR?". | **Builds on:** E.2 (P-10 Open-Ended Evolution). **Constrains:** All normative changes. |
 | E.10 | **LEX-BUNDLE: Unified Lexical Rules for FPF** | Stable | *Keywords:* lexical rules, naming, registers, rewrite rules, process, function, service. *Queries:* "What is the complete set of FPF naming rules?". | **Builds on:** A.7, E.5, F.5. **Coordinates with:** A.2, A.10, A.15, B.1, B.3, Part F. |
 | E.10.P | **Conceptual Prefixes (policy & registry)** | Stable | *Keywords:* prefixes, U., Γ_, ut:, tv:, namespace, registry. *Queries:* "What do the prefixes like 'U.' mean in FPF?". | **Depends on:** E.9. **Constrains:** E.5.1, E.5.2. |
@@ -43886,10 +43886,29 @@ language out of the Core.
 
 ## E.8 - FPF Authoring Conventions & Style Guide
 
-> **Type:** Architectural (A)  
-> **Status:** Stable  
+> **Type:** Architectural (A)
+> **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
 
+### E.8:0 - Use this when
+
+Use `E.8` when you are writing, revising, or reviewing one FPF pattern and need to know what shape, voice, reader-entry surface, and assurance support the pattern must carry before it can be treated as mature FPF text.
+
+Use it especially when a draft is technically correct but hard to use: the cold reader cannot tell when to apply it, what mistake it prevents, what action changes in practice, where neighbouring patterns take over, or which assurance material is informative support rather than the first point of entry.
+
+**Not this pattern when.** Use `E.9` when the main work is deciding why FPF should change and how that decision is distributed across patterns. Use `E.19` when the main work is an admission or refresh review. Use the local domain pattern when the question is what FPF says inside that domain rather than how a pattern should be authored.
+
+### E.8:0.1 - What goes wrong if missed
+
+A pattern can satisfy a checklist and still be practically unreadable. It may open with package architecture instead of a recognisable working moment, bury its payoff, hide its neighbouring boundaries, or let assurance prose silently replace the reader-facing claim. The result is a formally neat text that authors can defend but practitioners cannot reliably use.
+
+### E.8:0.2 - What this buys
+
+`E.8` gives FPF authors one shared pattern shape and one shared authoring discipline: recognition surface first, assurance surface second, canonical sections present, terminology kept stable, SoTA used as live support rather than decoration, and practical consequences visible before a reader has to reconstruct the architecture.
+
+**Governed object in plain terms.** The governed object is the authored FPF pattern body: its canonical sections, reader-entry surface, wording discipline, examples, rationale, anti-patterns, SoTA-Echoing, and relations.
+
+**Primary working reader.** The first reader is an FPF author or reviewer shaping pattern prose for later practitioners and managers. The downstream practitioner is the reader the pattern must ultimately serve, so the authoring guide must model the same recognition discipline it requires.
 ### E.8:1 - Problem frame
 FPF grows through the addition of patterns written by authors from many
 disciplines. Without a shared structure *and* voice, the framework would
@@ -43900,9 +43919,9 @@ fracture, violating Pillars **P‑1 Cognitive Elegance** and
 *Structural drift* and *stylistic fragmentation* threaten three qualities:
 
 1. **Comparability** – readers cannot align patterns lacking common
-   headings.  
+   headings.
 2. **Narrative cohesion** – prose swings from dry jargon to informal
-   blog style.  
+   blog style.
 3. **Auditability** – missing sections hide safety checks
    (Archetypal Grounding, Bias‑Annotation).
 
@@ -43945,7 +43964,7 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 10. **Rationale**
 11. **SoTA‑Echoing** (post‑2015 practice alignment; terminology drift & deltas; `Not applicable` allowed only with justification)
 12. **Relations**
-13. **Footer marker** 
+13. **Footer marker**
 
 **Footer marker.** End each pattern with a single visible sentinel heading line on its own: `### <PatternId>:End`. This makes truncation detectable even when HTML comments are stripped or surfaced by editors. The footer marker is intentionally content‑free: **do not** place prose under it.
 
@@ -43994,7 +44013,7 @@ When expressing admissibility/validity constraints as predicates (`Definition:` 
 * Authors **SHOULD** write the constraint as a declarative predicate (optionally quantified), e.g., `role ∈ Roles(context)`, rather than as “X MUST …”.
 * If the constraint needs to be enforceable as part of a pattern’s contract, authors **SHOULD** reference the predicate identifier from the Conformance Checklist (and/or call out validator behaviour), rather than duplicating the predicate with RFC keywords.
 
-**H-9 (Footer marker sentinel).** Footer marker **SHALL** be a single heading line whose `FullId` is the pattern ID followed by the reserved sentinel token `:End` (no ordinals, no title, no square‑bracket tags): 
+**H-9 (Footer marker sentinel).** Footer marker **SHALL** be a single heading line whose `FullId` is the pattern ID followed by the reserved sentinel token `:End` (no ordinals, no title, no square‑bracket tags):
 `### <PatternId>:End`
 It is the only allowed heading *inside* a pattern whose section token is non‑numeric. It **MUST** be the final line of the pattern and **MUST NOT** carry any prose. Tooling and readers **MUST** treat it as a boundary sentinel, not as a semantic section.
 
@@ -44044,17 +44063,17 @@ Brief explanations:
 | **Close**  | End with a quotable line or payoff that reinforces memory. |
 
 Narrative Flow Heuristic also operationalises S-1 (Density w/o Jargon), S-2 (Internal Cohesion), S-4 (Contextualisation), and S-6 (Quotable Closers).
-#### E.8:4.2.1 - Recognition role and assurance role
-Every canonical pattern SHALL stabilise one governed object early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one governed object and which would instead name a different act, process, work-product, or owner lane. The first-reading recognition role and the heavier assurance role may refine that object differently, but they must not silently swap the central object kind.
+#### E.8:4.2.1 - Recognition surface and assurance surface
+Every canonical pattern SHALL stabilise one governed object early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely surface forms of one governed object and which would instead name a different act, process, work-product, or governing support surface. Recognition and assurance surfaces may refine that object differently, but they must not silently swap the central object kind.
 
 If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what governed object is actually in play, what move is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
 
-Under `F.18` local-first naming, the canonical pair here is **recognition role** and **assurance role**.
+Under `F.18` local-first naming, the canonical pair here is **recognition surface** and **assurance surface**.
 The earlier provisional `recognition shell / assurance shell` wording is retired.
 These names refer to two reading-order roles carried by existing sections or projections inside one pattern; they do **not** mint new authority-home kinds, new publication-surface kinds, SurfaceKinds, or a second face family.
 A third didactic support role remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
 
-The **recognition role** is the first reading role.
+The **recognition surface** is the first reading surface.
 It is the part of the pattern that lets a cold working reader recognise the situation quickly enough to decide whether to keep reading.
 It should start from a subject-domain or practice moment before internal taxonomy whenever the pattern is meant to help real work rather than only internal canon maintenance.
 In practice it usually lives in an early `Use this when` line or equivalent opening, plus the upper parts of `Problem frame`, `Problem`, `Solution`, `Consequences`, and nearby worked slices.
@@ -44066,7 +44085,7 @@ Its job is to make visible:
 - what governed object is actually being kept stable;
 - and, when technical terms must appear early, a pairwise plain gloss for each early high-pressure term.
 
-The **assurance role** is the second reading role.
+The **assurance surface** is the second reading surface.
 It carries the heavier load-bearing material that makes the pattern reviewable and auditable:
 - declaration blocks and typed fields when those are part of the contract;
 - representation ontology or object-of-talk discipline;
@@ -44075,15 +44094,15 @@ It carries the heavier load-bearing material that makes the pattern reviewable a
 - `SoTA-Echoing` when it is carrying live explanatory load;
 - and the review hooks that let a stronger reading be checked explicitly.
 
-The assurance role may sharpen, justify, and discipline the recognition role.
-It must **not** silently replace, strengthen, or universalize the claim that the recognition role made visible.
-If the recognition role says “this pattern helps with a bounded working situation”, the assurance role must not quietly turn that into a stronger authority claim, stronger guarantee, or broader universality claim.
+The assurance surface may sharpen, justify, and discipline the recognition surface.
+It must **not** silently replace, strengthen, or universalize the claim that the recognition surface made visible.
+If the recognition surface says “this pattern helps with a bounded working situation”, the assurance surface must not quietly turn that into a stronger carrier claim, stronger guarantee, or broader universality claim.
 
-If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition role.
+If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition surface.
 It is not enough for universality to appear only later in a law sheet, declaration block, or `SoTA-Echoing` rationale.
-A broad claim should therefore be demonstrated in the recognition role through at least **three heterogeneous reader or domain situations**.
+A broad claim should therefore be demonstrated in the recognition surface through at least **three heterogeneous reader or domain situations**.
 When a compact matrix helps, `F.16` is the preferred template for showing that breadth.
-If `SoTA-Echoing` is load-bearing, the practical implication of those rows should be recoverable from the recognition role and case bank rather than remaining a late-only justification layer.
+If `SoTA-Echoing` is load-bearing, the practical implication of those rows should be recoverable from the recognition surface and case bank rather than remaining a late-only justification layer.
 
 A **third didactic support role** means enough didactic and operational support that the pattern survives without nearby project documents. Typical signs include:
 - at least one concrete source/result slice in Archetypal Grounding when the pattern governs transforms or publication change;
@@ -44099,15 +44118,15 @@ FPF pattern prose is not free-form descriptive English. When authors name a *pac
 Use the following distinctions explicitly:
 
 This is a cross-cutting review discipline, not a replacement for local host lexica. For example, `A.6.7` / `A.19.CHR` already carry the suite/kit/pack distinction, and `E.17.1` already carries the viewpoint bundle/family/library distinction.
-- **owner** = the pattern that is the semantic home for the primary law of the family;
-- **specialization** = a named refinement under an existing owner;
-- **overlay** = a cross-cutting governance or reading layer over existing owners;
-- **profile** = a declarative review/use role derived from a host owner rather than a replacement owner;
-- **family** = a recurring class of cases governed by one semantic home;
+- **governing pattern** = the pattern that carries the primary law of the family;
+- **specialization** = a named refinement under an existing governing pattern;
+- **overlay** = a cross-cutting governance or reading layer over existing governing patterns;
+- **profile** = a declarative review/use role derived from a host pattern rather than a replacement pattern;
+- **family** = a recurring class of cases governed by one pattern or governing support surface;
 - **bundle** = a packaged set of defaults, allowances, or coordinated members;
-- **cluster** = a navigation or reading grouping; not by itself an owner claim;
+- **cluster** = a navigation or reading grouping; not by itself a governing-pattern claim;
 - **suite** = a coordinated set of members with explicit suite semantics under the right host law;
-- **pack** = an editorial or review grouping, not automatically a semantic owner;
+- **pack** = an editorial or review grouping, not automatically a semantic-authority claim;
 - **kit** = a reusable coordinated publication or contract package with kit-level semantics under the right host law;
 - **record** = a case/report/review artefact;
 - **umbrella** = a provisional or review-stage head spanning possible subfamilies before final owner freeze.
@@ -44132,15 +44151,15 @@ If architecture-placement commentary is still helpful, the default place is a se
 A live pattern may include a short optional informative subsection such as `Architectural placement note (informative)` only when that placement materially helps users avoid misuse; even then, it must stay clearly separated from the user-facing solution and rationale rather than replacing them.
 
 #### E.8:4.2.4 - Human-facing fit beyond role correctness
-Human-facing fit is also subject-domain fit. A first-reading recognition role that starts from internal taxonomy, authority-lane convenience, or package-architecture wording before the problem-owning domain moment is still under-authored even if its later law text is correct. When a broader umbrella name and a narrower operative branch are both live, the first role should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
+Human-facing fit is also subject-domain fit. A recognition surface that starts from internal taxonomy, pattern-placement convenience, or package-architecture wording before the problem-domain moment is still under-authored even if its later law text is correct. When a broader umbrella name and a narrower operative branch are both live, the first surface should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
 
 A pattern can already be role-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
 That failure usually appears when the text is lawful but does not yet make the working situation, practical payoff, governed object, or first reading role visible enough.
 
-For canonical patterns, the first reading role should behave as a **recognition role** and the heavier burden should remain in an **assurance role**.
+For canonical patterns, the first reading surface should behave as a **recognition surface** and the heavier burden should remain in an **assurance surface**.
 When a pattern claims practice guidance or is meant to be used by engineers, managers, researchers, or other working readers, authors should make the following visible before the heavier harness takes over:
 - a recognisable `Use this when` or equivalent first-minute entry;
-- a concrete working situation in `Problem frame`, not only taxonomic or authority-lane language;
+- a concrete working situation in `Problem frame`, not only taxonomic or pattern-placement language;
 - a short statement of what goes wrong if the pattern is missed or misread;
 - a short statement of what this pattern buys the reader in practice;
 - a short `Not this pattern when` boundary for the ordinary nearby misroutes;
@@ -44148,12 +44167,12 @@ When a pattern claims practice guidance or is meant to be used by engineers, man
 - when a typed declaration block, formal lens, or other compact modeling support is load-bearing, a short user-facing statement of what kind of object the pattern is governing and what minimal lens keeps that object reviewable;
 - pairwise plain glosses for any high-pressure technical terms that must appear before the heavier declaration role arrives;
 - when `SoTA-Echoing` is carrying live explanatory load, a short working-reader implication for each row or cluster of rows and a visible link back to the case bank or worked slices that those rows discipline;
-- a visible split between the recognition role and the heavier declaration / review / assurance role;
+- a visible split between the recognition surface and the heavier declaration / review / assurance surface;
 - and, if the draft implicitly serves several reader families, an explicit primary working reader, primary concern role, or primary viewpoint.
 
 **Problem-frame recognition signature (informative).** When a canonical pattern
 genuinely functions as an entry-bearing pattern for one common first-use
-burden, the recognition role SHOULD express that entry role through the
+burden, the recognition surface SHOULD express that entry through the
 pattern's `Problem frame`, not through one separate route block.
 
 The local recognition signature should make recoverable:
@@ -44173,14 +44192,14 @@ Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in
 
 If the prose points to neighbouring patterns or other governing support roles, it should present them as nearby patterns or burden reclassifications rather than as hidden co-authorities of the current pattern.
 
-If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition role.
-At minimum the recognition role should show at least three heterogeneous reader or domain situations rather than one narrow lane with a later broad claim attached.
+If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition surface.
+At minimum the recognition surface should show at least three heterogeneous reader or domain situations rather than one narrow case family with a later broad claim attached.
 When a compact matrix helps, `F.16` is the preferred template for making that breadth legible.
 
 This is not a request to flatten the pattern into plain language only.
-It is a rule about ordering, layering, and role consistency: the recognition role must help a working reader recognise the pattern early, while the assurance role continues to carry the full semantic burden.
-If the pattern uses technical lexicon, ontological distinctions, or a mathematical lens, those supports must remain recoverable, but the first reading role should not require the reader to decode that full stack before recognising the working situation.
-The assurance role may tighten or discipline the recognition role; it must not silently shift what the recognition role claimed.
+It is a rule about ordering, layering, and surface consistency: the recognition surface must help a working reader recognise the pattern early, while the assurance surface continues to carry the full semantic burden.
+If the pattern uses technical lexicon, ontological distinctions, or a mathematical lens, those supports must remain recoverable, but the first reading surface should not require the reader to decode that full stack before recognising the working situation.
+The assurance surface may tighten or discipline the recognition surface; it must not silently shift what the recognition surface claimed.
 
 **Illustrative migration example (informative).**
 
@@ -44208,9 +44227,9 @@ First lawful entry stop: one routed atomic claim set or one Claim Register whose
 
 Live pattern prose must keep its referent index explicit. In ordinary body sections, the default truth-makers are run-time or governed-domain objects, states, moves, boundaries, consequences, and user-facing practical effects. Standard-plane wording is still lawful when the sentence is explicitly about the standard as a normative artifact, for example in marked legacy route examples, marked informative notes, or conformance/checklist clauses.
 
-Design-time and control-plane referents are different objects. The current draft, current body, current pass, author, reviewer, handoff, packet, owner lane, landing choice, or other writing-process/control objects must not be smuggled in as the hidden truth-condition of live pattern prose. A quick test is: what makes this sentence true? If the sentence is true because the current text is arranged a certain way, because the author/reviewer must do something next, or because the current control state says so, then it is design-time residue, not live pattern content.
+Design-time and control-plane referents are different objects. The current draft, current body, current pass, author, reviewer, handoff, packet, governing support surface, landing choice, or other writing-process/control objects must not be smuggled in as the hidden truth-condition of live pattern prose. A quick test is: what makes this sentence true? If the sentence is true because the current text is arranged a certain way, because the author/reviewer must do something next, or because the current control state says so, then it is design-time residue, not live pattern content.
 
-Move that material to the authored-slice carrier, handoff, `DRR`, or companion architecture note. If a sentence is kept in the live pattern, rewrite it so that its truth depends on the governed run-time/domain object or on the standard's declared normative contract rather than on the current writing pass.
+Move that material to the authored-slice carrier, handoff, `DRR`, or companion architecture note. If a sentence is kept in the live pattern, rewrite it so that its truth depends on the governed run-time/domain object or on the standard's declared normative claim set rather than on the current writing pass.
 
 If a pattern or example claims **autonomy** for any Role/Method/Service:
 1) Add a subsection **“Autonomy (RoC‑E.16)”** that lists:
@@ -44241,7 +44260,7 @@ This guidance biases toward **Did** (readability, narrative flow) and **Arch** (
 **CC style (canonical).**
 Conformance Checklist items are obligations/conditions in the **authoring plane**: they constrain artefacts that claim conformance (and the reviewers/validators that accept them). A CC clause of the form “X SHALL ...” is to be read as “In a conforming artefact, X SHALL ...”, not as a deontic statement about the modeled world.
 
-**Preferred wording for new or edited CC items:** start with an explicit conformance subject (e.g., “Authors ...”, “Reviewers ...”, “A conforming implementation ...”, “A validator ...”). If a CC item is enforcing an admissibility predicate, it **SHOULD** cite the predicate’s identifier (from a `Definition:` / `Invariant:` / `Well-formedness constraint:` block) rather than restating the predicate as “X MUST ...”. For boundary/interface/protocol/contract patterns, prefer A.6.B-routed claim IDs (L/A/D/E) or cite an existing Claim Register (A.6.B:7) instead of restating mixed prose.
+**Preferred wording for new or edited CC items:** start with an explicit conformance subject (e.g., “Authors ...”, “Reviewers ...”, “A conforming implementation ...”, “A validator ...”). If a CC item is enforcing an admissibility predicate, it **SHOULD** cite the predicate’s identifier (from a `Definition:` / `Invariant:` / `Well-formedness constraint:` block) rather than restating the predicate as “X MUST ...”. For boundary/interface/protocol/declaration patterns, prefer A.6.B-routed claim IDs (L/A/D/E) or cite an existing Claim Register (A.6.B:7) instead of restating mixed prose.
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
@@ -44261,11 +44280,11 @@ Conformance Checklist items are obligations/conditions in the **authoring plane*
 | **CC-SG.12 (Boundary routing).** | If a pattern’s subject is a boundary/interface/protocol/contract (API boundary, protocol, connector, “contract” description, or a published boundary description), it **MUST** either (a) provide an **A.6.B**-routed atomic claim set (`L-*`/`A-*`/`D-*`/`E-*`, with stable IDs), or (b) explicitly cite an existing **A.6.B Claim Register** / routed claim set that it reuses. | Pulls A.6.B into the authoring contour, prevents “contract soup”, and makes review more explicit and repeatable. |
 | **CC-SG.13 (Didactic sufficiency).** | New patterns and substantial revisions **MUST** remain understandable without project-planning notes. When a pattern introduces a new named family/profile/specialization, or adds a non-trivial host-derived note, its Solution and Grounding **SHALL** carry enough supporting content: explicit host relation, ordinary-vs-load-bearing guidance, at least one concrete source/result slice where applicable, and visible reroute cues. | Prevents skeleton-only patterns and project-context leakage. |
 | **CC-SG.14 (Controlled prose, not free shorthand).** | Load-bearing prose **SHALL NOT** rely on bare relation words or planning shorthand whose host relation is left implicit (e.g., bare “species”, “branch”, “flow”, or API-like “input/output” language). When a host relation matters, authors **MUST** name it explicitly (`specialization under ...`, `hosted profile under ...`, `overlay over ...`, etc.). | Keeps pattern prose precise and self-identifying. |
-| **CC-SG.15 (Package-form and host-relation role-word discipline).** | When a pattern names a package-form or the host relation of a family (`owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, `umbrella`), the chosen role word **MUST** match the intended ontology and **MUST NOT** be swapped for stylistic variety or left to implication. | Prevents semantic blur in pattern prose and keeps host relations auditable. |
-| **CC-SG.16 (Reader-role discipline).** | Authors **MUST** keep live pattern sections user-facing. FPF-development or package-architecture reasoning about isolation, overlay or owner choice, freeze, merge posture, or planned evolution **MUST NOT** occupy `Problem`, `Solution`, `Consequences`, `Rationale`, or worked slices; if such material is still needed, it **MUST** live in a separate companion note or a clearly marked informative placement note. | Keeps pattern prose aligned with its intended reader and prevents package-governance leakage into live use guidance. |
-| **CC-SG.16a (Referent-index discipline in live prose).** | Live pattern sections **MUST** keep run-time/domain referents, standard-plane referents, and design-time/control-plane referents distinct. In ordinary live prose, sentence truth **MUST** depend on the governed run-time/domain object or on the pattern's declared normative contract, not on the current draft state, author/reviewer action, or control-plane posture. If a sentence is true only because of the current writing/review pass or text arrangement, it is design-time residue and belongs in carriers or companion notes, not in the live pattern body. | Prevents Conway/process leakage and reduces late cleanup before review or landing. |
-| **CC-SG.17 (Recognition role and assurance role).** | Admission or substantial revision runs **MUST** check that a canonical pattern exposes a recognition role early enough for the intended working reader and an assurance role that carries declaration, law, modeling, and review burden without silently shifting the recognition-role claim. The recognition role **MUST** expose a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and a clear ordinary `not this pattern when` boundary. Any load-bearing typed declaration or modeling lens **MUST** be exposed by a short user-facing statement of the governed object, early high-pressure technical terms **MUST** receive nearby pairwise plain glosses, and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If the pattern claims universal or transdisciplinary reach, the recognition role **MUST** demonstrate that claim through at least three heterogeneous reader or domain situations, preferably using an `F.16`-style example matrix or an equally explicit alternative. | Prevents role-clean but reader-opaque patterns and keeps broad claims visible where cold readers actually enter the text. |
-| **CC-SG.17a (Problem-frame recognition signature for entry-bearing patterns).** | When a canonical pattern genuinely functions as an entry-bearing pattern for one common first-use burden, authors **SHOULD** express that entry role through the pattern's `Problem frame`, not through a separate route block. The `Problem frame` should make recoverable the concrete working situation, the governed object or stabilized concern, what goes wrong if the pattern is missed or misread, the ordinary not-this-pattern boundary, and the first lawful entry stop or entry-stabilizing result. Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in `I.2`; lexical-query support belongs under the lexical/naming patterns and support roles that already govern it. Pattern-local `Start here when`, `First output`, next-owner lists, and `Common wrong escalations / reroutes` blocks **SHOULD NOT** be used for new or materially revised patterns. | Keeps first-use recognition inside the canonical pattern frame while preventing route/workflow language from becoming local pattern structure. |
+| **CC-SG.15 (Package-form and host-relation role-word discipline).** | When a pattern names a package-form or the host relation of a family (`primary carrier`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, `umbrella`), the chosen role word **MUST** match the intended ontology and **MUST NOT** be swapped for stylistic variety or left to implication. | Prevents semantic blur in pattern prose and keeps host relations auditable. |
+| **CC-SG.16 (Reader-role discipline).** | Authors **MUST** keep live pattern sections user-facing. FPF-development or package-architecture reasoning about isolation, overlay or carrier choice, freeze, merge posture, or planned evolution **MUST NOT** occupy `Problem`, `Solution`, `Consequences`, `Rationale`, or worked slices; if such material is still needed, it **MUST** live in a separate companion note or a clearly marked informative placement note. | Keeps pattern prose aligned with its intended reader and prevents package-governance leakage into live use guidance. |
+| **CC-SG.16a (Referent-index discipline in live prose).** | Live pattern sections **MUST** keep run-time/domain referents, standard-plane referents, and design-time/control-plane referents distinct. In ordinary live prose, sentence truth **MUST** depend on the governed run-time/domain object or on the pattern's declared normative claim set, not on the current draft state, author/reviewer action, or control-plane posture. If a sentence is true only because of the current writing/review pass or text arrangement, it is design-time residue and belongs in carriers or companion notes, not in the live pattern body. | Prevents Conway/process leakage and reduces late cleanup before review or landing. |
+| **CC-SG.17 (Recognition surface and assurance surface).** | Admission or substantial revision runs **MUST** check that a canonical pattern exposes a recognition surface early enough for the intended working reader and an assurance surface that carries declaration, law, modeling, and review burden without silently shifting the recognition-surface claim. The recognition surface **MUST** surface a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and a clear ordinary `not this pattern when` boundary. Any load-bearing typed declaration or modeling lens **MUST** be exposed by a short user-facing statement of the governed object, early high-pressure technical terms **MUST** receive nearby pairwise plain glosses, and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If the pattern claims universal or transdisciplinary reach, the recognition surface **MUST** demonstrate that claim through at least three heterogeneous reader or domain situations, preferably using an `F.16`-style example matrix or an equally explicit alternative. | Prevents surface-clean but reader-opaque patterns and keeps broad claims visible where cold readers actually enter the text. |
+| **CC-SG.17a (Problem-frame recognition signature for entry-bearing patterns).** | When a canonical pattern genuinely functions as an entry-bearing pattern for one common first-use burden, authors **SHOULD** express that entry through the pattern's `Problem frame`, not through a separate route block. The `Problem frame` should make recoverable the concrete working situation, the governed object or stabilized concern, what goes wrong if the pattern is missed or misread, the ordinary not-this-pattern boundary, and the first lawful entry stop or entry-stabilizing result. Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in `I.2`; lexical-query support belongs under the lexical/naming patterns and support surfaces that already govern it. Pattern-local `Start here when`, `First output`, next-pattern lists, and `Common wrong escalations / reroutes` blocks **SHOULD NOT** be used for new or materially revised patterns. | Keeps first-use recognition inside the canonical pattern frame while preventing route/workflow language from becoming local pattern structure. |
 | **CC-SG.18 (Precision before relaxation).** | In load-bearing prose, authors **MUST NOT** leave a generic head noun or burden-carrying qualifier uninterpreted when that phrase carries semantic, boundary, or authority load. A narrowing qualifier by itself does **not** restore the head kind. Authors **MUST** restore head kind first, then qualifier burden, then any comparison/escalation axis before stronger use. If a later Plain, didactic, or coarsened rendering is kept, the more precise upstream reading **MUST** remain recoverable. | Prevents ambiguity from being hidden inside ordinary-looking phrases and keeps softened prose subordinate to an explicit authoritative reading. |
 
 ### E.8:8 - Common Anti-Patterns and How to Avoid Them
@@ -44304,8 +44323,8 @@ Structure and style function as FPF’s *grammar*. By unifying what were
 once separate “template” and “style guide” patterns, authors face a
 single reference point that satisfies:
 
-* **P‑1 Cognitive Elegance** – uniform, minimal surprises.  
-* **P‑2 Didactic Primacy** – narrative flow, dual archetype examples.  
+* **P‑1 Cognitive Elegance** – uniform, minimal surprises.
+* **P‑2 Didactic Primacy** – narrative flow, dual archetype examples.
 * Guard‑Rails 1 & 2 – no tool jargon, no notation lock‑in inside prose.
 
 A unified template also improves retrieval: a chunk containing `A.2:<n> - Bias‑Annotation` remains self‑identifying even when parent headings are missing, and the recommended footer marker makes truncation detectable.
@@ -44342,39 +44361,41 @@ International and industry standards often speak in terms of *conformance criter
 
 ### E.8:12 - Relations
 
-* **Builds on:** E.6, E.7  
-* **Constrained by:** Guard‑Rails E.5.1–E.5.4 (lexical firewall, notation independence, etc.)  
-* **Constrains:** All patterns; the DRR template references the same section order.  
+* **Builds on:** E.6, E.7
+* **Constrained by:** Guard‑Rails E.5.1–E.5.4 (lexical firewall, notation independence, etc.)
+* **Constrains:** All patterns; the DRR template references the same section order.
 
 ### E.8:End
 
 ## E.9 - Design‑Rationale Record (DRR) Method
 
-
+> **Type:** Governance / authoring pattern
+> **Status:** Stable
+> **Normativity:** Normative
 
 ### E.9:0 - Use this when
 
-- one proposed normative change needs an explicit by-value account of what FPF should say, why this decision is preferred, and what neighboring homes it affects
+- one proposed normative change needs an explicit by-value account of what FPF should say, why this decision is preferred, and which neighboring patterns or governing support surfaces it affects
 - several patterns or governing support surfaces must move together and one external decision artefact is needed to keep one bounded coordinated change set (one mutually dependent change set) semantically complete while enduring Core text is redistributed
 - one bounded content burden would otherwise force authors to decide the same load-bearing answer separately across several patterns or governing support surfaces
-- one deprecation, narrowing, or cross-owner amendment must stay reviewable without reconstructing intent from patch history, chat memory, or scattered notes
+- one deprecation, narrowing, or cross-pattern amendment must stay reviewable without reconstructing intent from patch history, chat memory, or scattered notes
 
-**Not this pattern when.** Do not use `E.9` as the permanent home of normative law, as a campaign/workflow brief, or as the main vehicle for purely editorial `Δ‑0/Δ‑1` cleanup that lawfully fits the lightweight variant in `CC‑DRR.5`.
+**Not this pattern when.** Do not use `E.9` as the permanent location of normative Core law, as a campaign/workflow brief, or as the main vehicle for purely editorial `Δ‑0/Δ‑1` cleanup that fits the lightweight variant in `CC‑DRR.5`.
 
 ### E.9:0.1 - What goes wrong if missed
 
 - Core text changes without one explicit rationale account, so later readers cannot recover which alternatives were rejected or which exclusions were intentional
-- coordinated multi-home amendments drift apart because the temporary decision contract survives only in patches, handoffs, or reviewer memory
-- future repairs overfit to local wording and silently lose Pillar, taxonomy-lens, impact-graph, practical-use, or lawful-home discipline
+- coordinated multi-pattern amendments drift apart because the temporary selected-answer account survives only in patches, handoffs, or reviewer memory
+- future repairs overfit to local wording and silently lose Pillar, taxonomy-lens, impact-graph, practical-use, or pattern-placement discipline
 
 ### E.9:0.2 - What this buys
 
 - one external decision artefact that states the bounded FPF change by value before Core text is rewritten
 - one minimum kernel that keeps Problem frame, Decision, Rationale, and Consequences recoverable for later review and replay
-- one lawful temporary convergence artefact (one external holding artefact while enduring Core homes are still being updated) for coordinated changes, while keeping enduring Core homes in the Core rather than in the DRR
-- one temporary convergence artefact that fixes the selected answer (the chosen content answer for the bounded burden) before later drafting fans out across several enduring homes
+- one temporary convergence artefact for coordinated changes, while keeping enduring Core text in the selected patterns and governing support surfaces rather than in the DRR
+- one temporary convergence artefact that fixes the selected answer (the chosen content answer for the bounded burden) before later drafting fans out across several selected patterns or governing support surfaces
 
-**Governed object in plain terms.** The governed object here is one external decision-rationale artefact for one bounded FPF content decision or one bounded coordinated change set. The minimal lens is simple: the artefact must keep the problem frame, decision, rationale, consequences, and impact/boundary account recoverable enough that accepted content can be distributed into the right Core homes without semantic invention.
+**Governed object in plain terms.** The governed object here is one external decision-rationale artefact for one bounded FPF content decision or one bounded coordinated change set. The minimal lens is simple: the artefact must keep the problem frame, decision, rationale, consequences, and impact/boundary account recoverable enough that accepted content can be distributed into the selected Core patterns and governing support surfaces without semantic invention.
 
 **Primary working reader.** The first working reader is an FPF author, reviewer, or steward who must evaluate, challenge, or land one bounded content decision. Downstream pattern readers benefit from the landed Core text; they are not the primary reader of the DRR itself.
 
@@ -44390,9 +44411,9 @@ Direct edits to the Core, absent a structured rationale, trigger three
 systemic hazards:
 
 1. **Lost provenance** – future authors cannot infer the reasoning behind
-   a rule; intent decays.  
+   a rule; intent decays.
 2. **Implicit assumptions** – discarded alternatives vanish from memory,
-   so debates resurface and churn repeats.  
+   so debates resurface and churn repeats.
 3. **Conceptual drift** – incremental tweaks slip past the Eleven Pillars
    and Principle Taxonomy lenses, blurring the framework’s foundations.
 
@@ -44416,15 +44437,15 @@ group of mutually dependent content decisions whose enduring FPF
 expression will be distributed across several patterns or governing support surfaces.
 In this pattern, the **selected answer** means the current set of chosen
 content decisions for that bounded burden: what FPF should say, which
-homes carry it, what stays outside, and what support or
+selected patterns or governing support surfaces carry it, what stays outside, and what support or
 loss/recoverability regime applies.
 In this pattern, a **temporary convergence artefact** means one external
 decision artefact that temporarily holds the selected answer while
-enduring Core homes are still being updated.
+the selected Core patterns and governing support surfaces are still being updated.
 
 A nontrivial DRR may therefore govern one bounded coordinated change set.
 In that case the DRR is the temporary convergence artefact for the selected
-answer until enduring Core homes are updated; it is not a second
+answer until selected Core patterns and governing support surfaces are updated; it is not a second
 permanent law layer.
 
 | Minimum-kernel component | Guiding question | Typical content |
@@ -44441,59 +44462,58 @@ recoverable. They may live inside the four kernel components or inside one
 dedicated `Basis used` / decision-support block, but they are part of
 substantive DRR adequacy rather than later review-only hardening.
 
-| Decision-support surface | What must be recoverable by value | Ordinary home |
+| Decision-support surface | What must be recoverable by value | Usual location in the DRR |
 |---|---|---|
-| **Exact substantive basis and governing inheritance** | Exact basis owners and inherited architecture/audit basis that materially govern the decision, plus any still-live uncertainty not already closed by that basis. | Header or `Basis used`, with Problem frame/Rationale support. |
+| **Exact substantive basis and governing inheritance** | Exact basis sources and inherited architecture/audit basis that materially govern the decision, plus any still-live uncertainty not already closed by that basis. | Header or `Basis used`, with Problem frame/Rationale support. |
 | **Purpose, utility, and scenario basis** | Intended FPF use-value, first-minute working situation, minimum scenario/anti-case basis, and compact utility/fitness reading. | Problem frame. |
-| **Alternatives and current disposition map** | Material alternatives plus one current disposition for each still-live burden this DRR must settle: `selected now`, `rejected now`, `inherited unchanged`, or `outside current decision with named owner`. When the accepted basis or the DRR itself already names one pattern or governing support surface as part of the live distribution question, that named pattern or support surface is already part of the current disposition map and must not remain one conditional watch item. | Decision and Rationale. |
+| **Alternatives and current disposition map** | Material alternatives plus one current disposition for each still-live burden this DRR must settle: `selected now`, `rejected now`, `inherited unchanged`, or `outside current decision with named pattern/support surface/decision record`. When the accepted basis or the DRR itself already names one pattern or governing support surface as part of the live distribution question, that named pattern or support surface is already part of the current disposition map and must not remain one conditional watch item. | Decision and Rationale. |
 
-| **Surface-distribution and outside-home boundary map** | For each load-bearing selected answer: selected patterns and governing support surfaces, exact content obligations on each selected pattern or support surface, which nearby patterns or support surfaces stay unamended under the current decision, and any cross-surface agreement that those selected patterns and support surfaces must preserve. Named nearby patterns or support surfaces must be classified now, not left as tentative `most likely` / `may need` / `if later touched` watch prose. | Decision. |
+| **Surface-distribution and outside-boundary map** | For each load-bearing selected answer: selected patterns and governing support surfaces, exact content obligations on each selected pattern or support surface, which nearby patterns or support surfaces stay unamended under the current decision, and any cross-surface agreement that those selected patterns and support surfaces must preserve. Named nearby patterns or support surfaces must be classified now, not left as tentative `most likely` / `may need` / `if later touched` watch prose. | Decision. |
 
-| **Existing-home sufficiency and new-home necessity** | For each load-bearing selected answer, whether one already-existing pattern is sufficient, one already-existing governing support surface is sufficient, or one newly selected pattern or governing support surface is necessary, and why rejected options would misplace, overload, or falsely split semantic authority. | Decision and Rationale. |
-| **Naming, ontology, and wrong-owner-confusion account** | Head/branch/object/move/outside-work separation, tempting wrong-owner confusion, and any load-bearing `F.18` naming burden needed to keep the selected answer truthful by value. | Problem frame, Decision, and Rationale. |
-| **Reusable-support disposition when triggered** | Whether a potentially reusable support object/view/helper family remains local, is generalized now, is rejected, or is routed outside the current decision with named owner. | Decision and Rationale. |
-| **Loss and recoverability template when weakening is declared** | Preserved distinctions, dropped distinctions, admissible use, forbidden downstream use, recoverability class, and reopen/exit rule. | Decision and Consequences. |
-| **Lawful host and neighbor-boundary account** | Why the selected patterns and governing support surfaces are the lawful carriers, which tempting patterns or support surfaces stay outside, and which neighboring reroutes remain authoritative. | Decision and Rationale. |
-| **Convergence and overlap account when several burden branches touch the same home set** | Whether overlap is lawful convergence or one reopened architecture smell, what cross-surface agreements must hold, and whether a new home is actually selected or refused now. | Decision and Consequences. |
+| **Existing-pattern sufficiency and new-pattern necessity** | For each load-bearing selected answer, whether one already-existing pattern is sufficient, one already-existing governing support surface is sufficient, or one newly selected pattern or governing support surface is necessary, and why rejected options would misplace, overload, or falsely split semantic authority. | Decision and Rationale. |
+| **Naming, ontology, and wrong-carrier-confusion account** | Head/branch/object/move/outside-work separation, tempting wrong-pattern or wrong-support-surface confusion, and any load-bearing `F.18` naming burden needed to keep the selected answer truthful by value. | Problem frame, Decision, and Rationale. |
+| **Reusable-support disposition when triggered** | Whether a potentially reusable support object/view/helper family remains local, is generalized now, is rejected, or is routed outside the current decision with named pattern/support surface/decision record. | Decision and Rationale. |
+| **Loss and recoverability template when weakening is declared** | Preserved distinctions, dropped distinctions, supported use, unsupported downstream use, recoverability class, and reopen/exit rule. | Decision and Consequences. |
+| **Selected carrier and neighbor-boundary account** | Why the selected patterns and governing support surfaces carry the content, which tempting patterns or support surfaces stay outside, and which neighboring reroutes remain authoritative. | Decision and Rationale. |
+| **Convergence and overlap account when several burden branches touch the same carrier set** | Whether overlap is valid convergence or one reopened architecture smell, what cross-surface agreements must hold, and whether a new pattern or support surface is actually selected or refused now. | Decision and Consequences. |
 | **Selected-answer stability boundary** | Which elements of the selected answer are fixed now for later FPF drafting, and which later elaborations may strengthen wording, examples, or support without reopening the selected answer. | Decision and Consequences. |
 | **Impact, practical gains, and remaining validation burden** | Affected patterns and governing support surfaces, practical gains/costs, authority or release consequences when they follow from the content decision, and the remaining validation burden that still constrains later authoring or landing. | Consequences. |
 | **SoTA and competitive-positioning account when load-bearing** | Current anchors that discipline the decision, what problem-owning domain or practice they answer to, and what unresolved uncertainty would materially change the selected answer. | Problem frame, Rationale, and Consequences. |
 
 These support surfaces are not separate process paperwork. A DRR that keeps
 only the four labels while leaving basis, first-minute use burden, naming,
-surface placement, home sufficiency/necessity, overlap handling, impact,
+selected content distribution, pattern/support-surface sufficiency or necessity, overlap handling, impact,
 or live uncertainty implicit is structurally labeled but still
 substantively immature.
 
 Together these support surfaces let the DRR act as one decision artefact
 for one bounded coordinated change set: enough semantic closure that later
-drafting distributes the selected answer into enduring homes rather than
+drafting distributes the selected answer into selected patterns and governing support surfaces rather than
 inventing it for the first time pattern by pattern.
 
 When one bounded decision coordinates several patterns or governing support
 surfaces, or one cluster of mutually dependent pattern edits and
 support-surface edits, the DRR **MAY**
 carry additional substantive sections beyond that minimum kernel. Typical
-lawful additions include obligations on selected homes, one explicit
-new-home vs existing-home decision, one cross-owner impact or non-goal
+Typical substantive additions include obligations on selected patterns and support surfaces, one explicit
+new-pattern vs existing-pattern decision, one cross-pattern/support-surface impact or non-goal
 map, cross-surface coverage or agreement maps, convergence
 classification, and one provisional decision-law account by value that
-keeps the bounded change contract semantically complete until enduring
+keeps the bounded change account semantically complete until enduring
 Core text is distributed.
 
 Such additions do not change the DRR’s kind. A DRR carrying them remains
-lawful only when it stays about the FPF content decision: what FPF should
+conforming only when it stays about the FPF content decision: what FPF should
 say, why, what is excluded, how selected patterns and governing support surfaces are
 affected, and what practical burden improves. A DRR carrying richer
 convergence content **MUST NOT** become a campaign plan, workflow script,
 baton carrier, packet checklist, staging log, or other development-process
 brief.
 
-When one selected answer could plausibly live in one already-existing home
-or one newly proposed home, the DRR must decide that
+When one selected answer could plausibly fit one already-existing pattern or support surface
+or require one newly proposed pattern or support surface, the DRR must decide that
 sufficiency/necessity question by value. It is not enough to list a
-tentative home list or leave downstream drafting to discover the lawful
-home later.
+tentative carrier list or leave downstream drafting to discover the selected pattern or support surface later.
 
 When the accepted basis or the DRR itself already names one pattern or
 governing support surface as part of the live distribution question, that
@@ -44501,56 +44521,49 @@ pattern or support surface is not a neutral future watch item. The DRR
 must classify it now either as one selected pattern or support surface
 with explicit obligation, one explicit boundary neighbor kept unchanged,
 one inherited-unchanged neighbor, or one outside-current-decision burden
-with named owner. Conditional or
+with named pattern/support surface/decision record. Conditional or
 time-relative host prose such as `most likely`, `may need local
 hardening`, `if later touched`, `watch later`, or one equivalent
 placeholder is non-conforming there because it marks one unmade current
-decision rather than one lawful current disposition.
+decision rather than one explicit current disposition.
 
 
 When one accepted basis exposes one potentially reusable local support
 object, view, atlas/helper family, or neighboring support mechanism, the
 DRR must not merely note that such support already exists. It must decide
 whether that support is generalized now, kept local with a substantive
-reason, rejected, or marked outside the current decision with a named
-owner.
+reason, rejected, or marked outside the current decision with a named pattern, support surface, or decision record.
 
 When one burden involves weakening, attenuation, simplification, redaction,
-summarization, or other declared loss, the DRR must make the lawful-case
-template explicit by value. Explanation alone is not enough; the decision
+summarization, or other declared loss, the DRR must make the supported-use template explicit by value. Explanation alone is not enough; the decision
 must say what remains preserved, what is dropped, which branch reading or
-hosted lane is lawful, which uses are forbidden, what recoverability class
+support surface is supported, which uses are unsupported, what recoverability class
 applies, and what reopen or exit rule governs cases that exceed the
 declared weakening.
 
 A nontrivial DRR is mature enough for downstream authoring only when
-materially live burden-family choices about the governed object, selected
-homes, outside-current-decision boundary, reusable-support disposition,
+materially live burden-family choices about the governed object, selected patterns and support surfaces, outside-current-decision boundary, reusable-support disposition,
 and loss/recoverability regime have already been selected, rejected,
-inherited unchanged, or routed outside the current decision with named
-owner. If those choices are still missing, the DRR is still basis work
+inherited unchanged, or routed outside the current decision with a named pattern, support surface, or decision record. If those choices are still missing, the DRR is still basis work
 rather than one accepted design-rationale record.
 
 The DRR lives **outside** the normative Core. An accepted DRR **SHALL** be
 landed by applying its Decision account and any stabilized enduring
-content to the relevant pattern(s) or other Core homes as explicit
+content to the relevant pattern(s) or other Core support surfaces as explicit
 normative or informative text (the change is "in the Core"; the DRR is
 not). A richer DRR **MAY** remain the temporary convergence artefact while
-redistribution into enduring Core homes is still incomplete, but it
-**SHALL NOT** remain the permanent sole semantic home once landed Core text
+redistribution into selected Core patterns and governing support surfaces is still incomplete, but it
+**SHALL NOT** remain the permanent sole semantic carrier once landed Core text
 exists.
 
 Authors drafting from an accepted DRR **MAY** elaborate examples,
-SoTA‑Echoing, recognition surfaces, local wording inside the selected
-homes, and neighboring
-fit. They **SHALL NOT** silently revise the selected answer, selected
-homes, outside-current-decision boundary, reusable-support disposition, or
+SoTA‑Echoing, recognition surfaces, local wording inside the selected patterns and support surfaces, and neighboring fit. They **SHALL NOT** silently revise the selected answer, selected patterns and support surfaces, outside-current-decision boundary, reusable-support disposition, or
 declared loss/recoverability regime. Any such revision **SHALL** be routed
-through one successor DRR or other lawful successor decision owner.
+through one successor DRR or other named successor decision record.
 
 To preserve **P‑2 Didactic Primacy** without duplicating meta‑text,
 authors landing an accepted DRR **SHOULD** distill stable and reusable
-parts of its *Rationale*, *Consequences*, and other lawful convergence
+parts of its *Rationale*, *Consequences*, and other valid convergence
 sections into the appropriate **informative** sections of the affected
 pattern(s) (Rationale, Consequences, SoTA‑Echoing, Archetypal Grounding;
 per the Pattern Template, E.8). The full DRR remains external as
@@ -44562,53 +44575,74 @@ Decision or Consequences. It **MUST NOT** carry next-gate posture,
 handoff/packet state, route order, monolith status, future campaign
 planning, or one hidden promise that the same current burden will be
 decided later inside the same decision object. Any undecided remainder must
-be marked outside the current decision with a named owner.
+be marked outside the current decision with a named pattern, support surface, or decision record.
 
 ### E.9:5 - Archetypal Grounding (System / Episteme)
 
 | Holon flavour | DRR analogue | Minimum kernel illustrated |
 |---------------|--------------|-----------------------------|
-| **`U.System`** (physical) | Engineering Change Order for pump motor upgrade. | Context: inefficiency and plant-use burden; Decision: switch to brushless DC and update the selected control/maintenance homes; Rationale: energy gain vs cost and authority fit; Consequences: new control schema, supplier change, validation burden. |
-| **`U.Episteme`** (knowledge) | Foundational theory revision paper. | Context: conflicting data and explanatory burden; Decision: introduce new axiom and distribute its consequences into the selected theory/teaching homes; Rationale: explains legacy & new data, Pillar alignment, alternative rejection; Consequences: fresh predictions, update to curricula, downstream review burden. |
+| **`U.System`** (physical) | Engineering Change Order for pump motor upgrade. | Context: inefficiency and plant-use burden; Decision: switch to brushless DC and update the selected control/maintenance patterns or support surfaces; Rationale: energy gain vs cost and authority fit; Consequences: new control schema, supplier change, validation burden. |
+| **`U.Episteme`** (knowledge) | Foundational theory revision paper. | Context: conflicting data and explanatory burden; Decision: introduce new axiom and distribute its consequences into the selected theory/teaching patterns or support surfaces; Rationale: explains legacy & new data, Pillar alignment, alternative rejection; Consequences: fresh predictions, update to curricula, downstream review burden. |
 
-### E.9:6 - Conformance Checklist
+### E.9:6 - Bias-Annotation
+
+| Lens | Bias risk in DRR use | Mitigation in this pattern |
+|---|---|---|
+| **Gov** | The DRR can become a bureaucratic approval ritual rather than a decision-rationale artefact. | Keep `CC-DRR.5` for lightweight editorial changes and require richer DRRs only when the content decision is semantically load-bearing. |
+| **Arch** | A rich DRR can become a shadow specification that competes with the selected Core patterns and governing support surfaces. | Treat the DRR as temporary convergence support; enduring content is distributed into the selected Core patterns and support surfaces. |
+| **Onto/Epist** | Authors can mix content decisions, evidence basis, process state, and provenance into one ambiguous object. | Require exact substantive basis and selected-answer boundaries while excluding route, baton, packet, and mutable status posture from the DRR. |
+| **Prag** | The method adds work before editing Core text. | Allow pointer-based DRRs and require only the support surfaces materially needed for the selected decision. |
+| **Did** | Rationale can become too internal for later authors to use. | Distill stable rationale, consequences, anti-cases, and SoTA implications into informative pattern sections when the Core text is updated. |
+
+Scope: this bias annotation is universal for FPF semantic changes governed by `E.9`. It does not turn project-management state, helper state, or review logistics into DRR content.
+### E.9:7 - Conformance Checklist
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
 | **CC‑DRR.1** | Any Δ‑2/Δ‑3 semantic change set against a `NORM`, `A`, `D`, or `GOV` pattern **SHALL** be backed by an accepted DRR containing at least Problem‑frame (Context), Decision, Rationale, and Consequences. | Prevents undocumented semantic edits while setting a minimum kernel rather than an artificial ceiling. |
 | **CC‑DRR.1a** | A DRR whose proposed change is expressed as a new or revised pattern written in the standard template (E.8) **MAY** satisfy that minimum kernel by **pointing to** the corresponding pattern sections rather than duplicating prose. | Avoids “double writing” while keeping the argument recoverable. |
-| **CC‑DRR.1b (rich convergence content is permitted)** | A DRR that coordinates several patterns or governing support surfaces, or mutually dependent pattern and support-surface changes, **MAY** include additional substantive sections beyond the minimum kernel—for example obligations on selected patterns or support surfaces, explicit new-home vs existing-home decisions, boundary/non-goal maps, cross-surface coverage or agreement maps, convergence classification, or one provisional decision-law account by value—provided that the DRR stays about the FPF content decision and **MUST NOT** become process/workflow management. | Allows one semantically sufficient convergence artefact for coordinated changes without forcing mid-distribution invention or extra shadow documents. |
-| **CC‑DRR.1c (exact basis is recoverable)** | A conforming DRR **MUST** make its exact substantive basis and governing inheritance recoverable by value, either in one dedicated `Basis used` section or one equivalent header/support block. Routing, status, and provenance owners do not count unless their substantive content still governs the decision by value. | Prevents anti-telephone drift and keeps the decision inspectable against its real basis. |
+| **CC‑DRR.1b (rich convergence content is permitted)** | A DRR that coordinates several patterns or governing support surfaces, or mutually dependent pattern and support-surface changes, **MAY** include additional substantive sections beyond the minimum kernel—for example obligations on selected patterns or support surfaces, explicit new-pattern vs existing-pattern decisions, boundary/non-goal maps, cross-surface coverage or agreement maps, convergence classification, or one provisional decision-law account by value—provided that the DRR stays about the FPF content decision and **MUST NOT** become process/workflow management. | Allows one semantically sufficient convergence artefact for coordinated changes without forcing mid-distribution invention or extra shadow documents. |
+| **CC‑DRR.1c (exact basis is recoverable)** | A conforming DRR **MUST** make its exact substantive basis and governing inheritance recoverable by value, either in one dedicated `Basis used` section or one equivalent header/support block. Routing, status, and provenance records do not count unless their substantive content still governs the decision by value. | Prevents anti-telephone drift and keeps the decision inspectable against its real basis. |
 | **CC‑DRR.1d (problem-frame adequacy)** | The Problem frame **MUST** make the intended FPF use-value, first-minute working situation, minimum scenario/anti-case basis, compact utility/fitness reading, and any load-bearing current SoTA / competitive-positioning basis or exact inherited-basis justification recoverable by value. | Prevents a DRR from being formally labeled but pragmatically under-specified. |
-| **CC‑DRR.1e (current disposition map and surface obligations)** | The Decision **MUST** name the selected patterns and governing support surfaces and the content obligations each selected pattern or support surface must carry by value. For every load-bearing selected answer and for every still-live burden explicitly deferred to this DRR by accepted basis, the Decision **MUST** record one current disposition now: `selected now`, `rejected now`, `inherited unchanged`, or `outside current decision with named owner`. When one pattern or governing support surface is already named as part of that live distribution question, the Decision **MUST NOT** leave it in conditional or time-relative host prose such as `most likely`, `may need`, or `if later touched`. | Stops hidden deferral, including conditional/time-relative home-watch wording, and prevents tentative home-list prose from replacing real content decisions. |
+| **CC‑DRR.1e (current disposition map and surface obligations)** | The Decision **MUST** name the selected patterns and governing support surfaces and the content obligations each selected pattern or support surface must carry by value. For every load-bearing selected answer and for every still-live burden explicitly routed to this DRR by accepted basis, the Decision **MUST** record one current disposition now: `selected now`, `rejected now`, `inherited unchanged`, or `outside current decision with named pattern/support surface/decision record`. When one pattern or governing support surface is already named as part of that live distribution question, the Decision **MUST NOT** leave it in conditional or time-relative host prose such as `most likely`, `may need`, or `if later touched`. | Stops hidden deferral, including conditional/time-relative carrier-list wording, and prevents tentative carrier-list prose from replacing real content decisions. |
 
-| **CC‑DRR.1f (reusable-support disposition when triggered)** | When accepted basis exposes a potentially reusable support object, view, helper family, or neighboring support mechanism, the DRR **MUST** decide whether it is generalized now, kept local with reason, rejected, or routed outside the current decision with named owner. | Prevents unexamined inheritance of local support forms. |
-| **CC‑DRR.1g (loss/recoverability template when triggered)** | If the decision declares weakening, attenuation, simplification, redaction, summarization, or other loss, the DRR **MUST** make explicit the preserved distinctions, dropped distinctions, admissible uses, forbidden downstream uses, recoverability class, and reopen/exit rule. | Prevents rhetorical smoothing from masquerading as stable lawful content. |
-| **CC‑DRR.1h (naming and ontology adequacy)** | A conforming DRR **MUST** make the selected head/branch/object/move/outside-work separation recoverable by value and **MUST** expose any tempting wrong-owner confusion or load-bearing `F.18` naming burden that materially affects the decision. | Prevents semantically important naming and typing choices from being rediscovered later during pattern drafting. |
-| **CC‑DRR.1i (existing-home sufficiency or new-home necessity is explicit)** | When a load-bearing selected answer could plausibly live in one already-existing pattern, one already-existing governing support surface, or one newly proposed pattern or governing support surface, the DRR **MUST** make that sufficiency/necessity judgement by value and **MUST** explain why rejected options would misplace, overload, or falsely split semantic authority. | Prevents lawful-home selection from being rediscovered during downstream drafting. |
+| **CC‑DRR.1f (reusable-support disposition when triggered)** | When accepted basis exposes a potentially reusable support object, view, helper family, or neighboring support mechanism, the DRR **MUST** decide whether it is generalized now, kept local with reason, rejected, or routed outside the current decision with named pattern/support surface/decision record. | Prevents unexamined inheritance of local support forms. |
+| **CC‑DRR.1g (loss/recoverability template when triggered)** | If the decision declares weakening, attenuation, simplification, redaction, summarization, or other loss, the DRR **MUST** make explicit the preserved distinctions, dropped distinctions, supported uses, unsupported downstream uses, recoverability class, and reopen/exit rule. | Prevents rhetorical smoothing from masquerading as stable content. |
+| **CC‑DRR.1h (naming and ontology adequacy)** | A conforming DRR **MUST** make the selected head/branch/object/move/outside-work separation recoverable by value and **MUST** expose any tempting wrong-pattern or wrong-support-surface confusion or load-bearing `F.18` naming burden that materially affects the decision. | Prevents semantically important naming and typing choices from being rediscovered later during pattern drafting. |
+| **CC‑DRR.1i (existing-pattern sufficiency or new-pattern necessity is explicit)** | When a load-bearing selected answer could plausibly live in one already-existing pattern, one already-existing governing support surface, or one newly proposed pattern or governing support surface, the DRR **MUST** make that sufficiency/necessity judgement by value and **MUST** explain why rejected options would misplace, overload, or falsely split semantic authority. | Prevents carrier selection from being rediscovered during downstream drafting. |
 | **CC‑DRR.1j (selected-answer stability boundary is explicit)** | The Decision or Consequences **MUST** make clear which elements of the selected answer are fixed now for later FPF drafting and which later elaborations may strengthen wording, examples, or support without reopening the selected answer. | Prevents later drafting from silently widening or re-deciding the accepted answer. |
 | **CC‑DRR.2** | A conforming DRR **MUST** include a rationale account that compares the materially live alternatives and assesses the selected proposal against **all Eleven Pillars** and the five Principle‑Taxonomy lenses (`Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`). | Keeps evolution aligned, comparative, and cross‑disciplinary. |
-| **CC‑DRR.3** | The DRR **SHALL** list every pattern, governing support surface, or neighboring semantic home it supersedes, amends, excludes from the current decision, routes to, or risks impacting, together with any cross-surface agreement the selected patterns and support surfaces must preserve. It **MUST** also make clear why the selected patterns and support surfaces are the lawful carriers, which tempting patterns or support surfaces stay outside, and, when several burden branches touch the same home set, whether that overlap is lawful convergence or one reopened architecture smell. | Maintains an explicit impact/boundary graph for coordinated changes. |
+| **CC‑DRR.3** | The DRR **SHALL** list every pattern, governing support surface, or neighboring pattern/support surface it supersedes, amends, excludes from the current decision, routes to, or risks impacting, together with any cross-surface agreement the selected patterns and support surfaces must preserve. It **MUST** also make clear why the selected patterns and support surfaces carry the content, which tempting patterns or support surfaces stay outside, and, when several burden branches touch the same carrier set, whether that overlap is valid convergence or one reopened architecture smell. | Maintains an explicit impact/boundary graph for coordinated changes. |
 | **CC‑DRR.3a (practical and validation consequences are explicit)** | The Consequences account **MUST** expose the practical change in use, practical gains/costs, affected patterns and governing support surfaces, and any remaining content-level validation burden or authority/release consequence that still constrains the selected decision by value. | Prevents consequences from collapsing into generic optimism or route prose. |
 | **CC‑DRR.3b (SoTA shapes the decision when load-bearing)** | When SoTA or competitive positioning is load-bearing, the DRR **MUST** make the current SoTA basis and any uncertainty that would materially change the decision recoverable by value. A literature overview that does not shape the selected answer, boundary, or validation burden is non-conforming. | Keeps SoTA from becoming decorative appendix material. |
 | **CC‑DRR.4** | An accepted DRR **SHALL** have its Decision account landed in the Core as the normative change. When that DRR temporarily carries richer convergence content, authors landing it **SHOULD** distribute any part that stabilizes into enduring FPF content into the relevant Core patterns and governing support surfaces. Authors **MAY** distill other DRR sections into **informative** pattern sections (Rationale/Consequences/SoTA‑Echoing/Grounding), but they **SHALL NOT** introduce new normative constraints except via explicit `NORM`/`A`/`D`/`GOV` text. | Preserves Core authority while allowing a richer temporary convergence artefact. |
-| **CC‑DRR.4a (separate-law owner proliferation is blocked)** | If the DRR needs compact law/check content, it **SHOULD** keep that content as one decision-law section or as obligations on selected existing amendment targets. It **MUST NOT** mint a separate `law sheet`, `profile`, support owner, or checklist owner unless that separate owner is selected by value and shown not to duplicate the DRR or the selected amendment targets. | Prevents unnecessary separate-owner proliferation and shadow-law duplication. |
-| **CC‑DRR.4b (current decision object remains singular)** | A conforming DRR **MUST** remain one current content decision object. It **MUST NOT** carry route/gate/handoff/process posture, mutable status, or hidden same-decision future-planning language; any undecided remainder **MUST** be marked outside the current decision with named owner. | Keeps the DRR ontologically about the FPF decision rather than about the development container. |
-| **CC‑DRR.4c (downstream authoring stays inside the accepted decision)** | Authors drafting from an accepted DRR **MAY** elaborate examples, SoTA‑Echoing, recognition surfaces, local wording inside the selected homes, and neighboring fit, but they **SHALL NOT** silently revise the selected answer, selected homes, outside-current-decision boundary, reusable-support disposition, or declared loss/recoverability regime. Any such revision **SHALL** be routed through one successor DRR or other lawful successor decision owner. | Keeps later pattern drafting from re-deciding bounded content by drift. |
-| **CC‑DRR.4d (major decision gaps are not left to drafting-time invention)** | A conforming DRR **MUST NOT** leave materially live burden-family choices about the governed object, selected homes, outside-current-decision boundary, reusable-support disposition, or loss/recoverability regime to be discovered case-by-case during later pattern/support drafting. Those choices **MUST** already be selected, rejected, inherited unchanged, or routed outside the current decision with named owner. | Ensures the DRR actually coordinates one bounded change set rather than serving as a thin preface to later rediscovery. |
+| **CC‑DRR.4a (separate-law surface proliferation is blocked)** | If the DRR needs compact law/check content, it **SHOULD** keep that content as one decision-law section or as obligations on selected existing amendment targets. It **MUST NOT** mint a separate `law sheet`, `profile`, support surface, or checklist surface unless that separate surface is selected by value and shown not to duplicate the DRR or the selected amendment targets. | Prevents unnecessary separate-surface proliferation and shadow-law duplication. |
+| **CC‑DRR.4b (current decision object remains singular)** | A conforming DRR **MUST** remain one current content decision object. It **MUST NOT** carry route/gate/handoff/process posture, mutable status, or hidden same-decision future-planning language; any undecided remainder **MUST** be marked outside the current decision with named pattern/support surface/decision record. | Keeps the DRR ontologically about the FPF decision rather than about the development container. |
+| **CC‑DRR.4c (downstream authoring stays inside the accepted decision)** | Authors drafting from an accepted DRR **MAY** elaborate examples, SoTA‑Echoing, recognition surfaces, local wording inside the selected patterns and support surfaces, and neighboring fit, but they **SHALL NOT** silently revise the selected answer, selected patterns and support surfaces, outside-current-decision boundary, reusable-support disposition, or declared loss/recoverability regime. Any such revision **SHALL** be routed through one successor DRR or other named successor decision record. | Keeps later pattern drafting from re-deciding bounded content by drift. |
+| **CC‑DRR.4d (major decision gaps are not left to drafting-time invention)** | A conforming DRR **MUST NOT** leave materially live burden-family choices about the governed object, selected patterns and support surfaces, outside-current-decision boundary, reusable-support disposition, or loss/recoverability regime to be discovered case-by-case during later pattern/support drafting. Those choices **MUST** already be selected, rejected, inherited unchanged, or routed outside the current decision with named pattern/support surface/decision record. | Ensures the DRR actually coordinates one bounded change set rather than serving as a thin preface to later rediscovery. |
 | **CC‑DRR.5** | A DRR for minor, non‑substantive edits (Δ‑0/Δ‑1; e.g., typos, wording clarity, didactic rearrangements) **MAY** use a lightweight variant containing Problem‑frame (Context) + Decision only (“no semantic change”), provided it does not alter semantics. | Avoids bureaucratic drag on editorial work. |
-| **CC‑DRR.6 (evidence boundary)** | For Δ‑2/Δ‑3 lexical or authoring-sensitive changes, the DRR **SHALL** state the content-level evidence or validation burden that bears on the decision, and it **MAY** summarize already-available decisive evidence by value when that evidence materially shapes the chosen content. The DRR **SHALL NOT** need a LAT id, run-manifest id, gate id, packet id, or other authoring-evidence citation in order to count as complete; those remain in the relevant evidence or authoring owner. If later LAT or refresh evidence motivates reopening or revising the decision, that later evidence belongs in a successor DRR or other lawful successor owner rather than being retrofitted into the accepted DRR. | Keeps the DRR a design-rationale record while preserving re-runnable evidence in its own owner. |
+| **CC‑DRR.6 (evidence boundary)** | For Δ‑2/Δ‑3 lexical or authoring-sensitive changes, the DRR **SHALL** state the content-level evidence or validation burden that bears on the decision, and it **MAY** summarize already-available decisive evidence by value when that evidence materially shapes the chosen content. The DRR **SHALL NOT** need a LAT id, run-manifest id, gate id, packet id, or other authoring-evidence citation in order to count as complete; those remain in the relevant evidence or authoring record. If later LAT or refresh evidence motivates reopening or revising the decision, that later evidence belongs in a successor DRR or other named successor decision record rather than being retrofitted into the accepted DRR. | Keeps the DRR a design-rationale record while preserving re-runnable evidence in its own evidence or authoring record. |
 
-### E.9:7 - Consequences
+### E.9:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | What it looks like | Why it fails | Repair |
+|---|---|---|---|
+| **Process brief disguised as DRR** | The record explains baton movement, packet posture, review timing, or current campaign state. | It describes development process rather than the FPF content decision. | Remove mutable process state and keep only the substantive basis, selected answer, alternatives, and consequences. |
+| **Shadow specification** | The DRR becomes the only place where stable semantics, examples, or support rules live after the Core has moved. | Later FPF readers cannot use the decision because it never became pattern content. | Distribute enduring content into the selected patterns and governing support surfaces; leave the DRR as provenance. |
+| **Four-label shell** | The record has Problem frame, Decision, Rationale, and Consequences headings, but no basis, use-value, alternatives, surface distribution, or impact account by value. | The minimum kernel is labeled but not substantively recoverable. | Fill the decision-support surfaces that are live for the decision, or use the lightweight variant only for true `Delta-0` / `Delta-1` edits. |
+| **Tentative carrier list** | The DRR says a pattern may need work later, is most likely affected, or should be watched if touched. | A named live distribution question is postponed while pretending to be decided. | Classify each named pattern or support surface now: selected, rejected, inherited unchanged, or outside the current decision with a named record. |
+| **Loss without use/reopen rule** | The decision weakens, summarizes, redacts, or simplifies content but does not state supported use, unsupported downstream use, recoverability, and reopen conditions. | A weaker representation can be used as if it were the full source. | Add the loss/recoverability template: preserved distinctions, dropped distinctions, supported uses, unsupported uses, recoverability class, and reopen or exit rule. |
+| **Decorative SoTA appendix** | Sources are listed after the fact but do not shape the selected answer, boundary, or validation burden. | The record looks researched while the decision remains unchallenged by current practice. | State what each load-bearing source makes the DRR adopt, adapt, or reject, and which uncertainty would materially change the answer. |
+### E.9:9 - Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | **Complete audit trail** – every semantic normative change carries a structured “why”. | Adds deliberate friction; mitigated by CC‑DRR.5 (Δ‑0/Δ‑1 lightweight) and CC‑DRR.1a (pointer‑based DRRs). |
 | **Higher decision quality** – Pillar, alternatives, scenario, and utility checks surface hidden conflicts early. | Authors must do more real content work up front; the gain is less downstream reinvention and less hidden deferral. |
 | **Institutional memory** – prevents re‑litigation of rejected alternatives. | DRR archive grows; index stored in a non‑normative annex. |
-| **Executable downstream authoring** – selected homes, outside-home boundary, reusable-support decisions, selected-answer stability, and remaining validation burden are explicit enough for later drafting/landing without semantic invention. | Richer DRRs need discipline to avoid becoming shadow specs or process briefs; mitigated by CC‑DRR.1b, CC‑DRR.4a, CC‑DRR.4b, CC‑DRR.4c, and CC‑DRR.4d. |
+| **Executable downstream authoring** – selected patterns and support surfaces, outside-boundary, reusable-support decisions, selected-answer stability, and remaining validation burden are explicit enough for later drafting/landing without semantic invention. | Richer DRRs need discipline to avoid becoming shadow specs or process briefs; mitigated by CC‑DRR.1b, CC‑DRR.4a, CC‑DRR.4b, CC‑DRR.4c, and CC‑DRR.4d. |
 
-### E.9:8 - Rationale
+### E.9:10 - Rationale
 FPF evolves by **explicit, reviewable deltas** rather than silent edits.
 The DRR is the *minimum structured argument*—and, when several patterns or
 governing support surfaces must move together, an allowed temporary convergence
@@ -44618,27 +44652,36 @@ Cognitive Elegance** and **P‑2 Didactic Primacy**.
 E.9 sets a **floor, not a ceiling**: every conforming DRR must make
 Problem‑frame / Decision / Rationale / Consequences recoverable, but it
 may carry richer substantive coordination content when that prevents
-shadow documents or semantic invention during distribution into Core
-homes. The same floor also requires the decision-support content that
+shadow documents or semantic invention during distribution into Core patterns and governing support surfaces. The same floor also requires the decision-support content that
 later authoring and review otherwise reconstruct manually: exact basis,
 use-value, first-minute working situation, scenario basis, alternatives,
-current disposition map, naming/ontology burden, lawful surface placement,
-existing-home sufficiency/new-home necessity, overlap classification,
+current disposition map, naming/ontology burden, selected content distribution,
+existing-pattern sufficiency/new-pattern necessity, overlap classification,
 selected-answer stability, impact/boundary graph, practical payoff, and
 any still-live uncertainty that materially shapes the decision.
 
 Pointer-based DRRs (CC‑DRR.1a) prevent duplicated prose, and distribution
-into Core homes (CC‑DRR.4) keeps the specification itself learnable
+into Core patterns and governing support surfaces (CC‑DRR.4) keeps the specification itself learnable
 without turning the DRR into a permanent shadow canon. Process-law route,
 gate, and handoff surfaces stay outside because they are not part of the
 content answer that FPF is selecting.
 
-### E.9:9 - Relations
+### E.9:11 - SoTA-Echoing
 
-* **Instantiates:** P‑10 Open‑Ended Evolution, P‑2 Didactic Primacy  
-* **Template governed by:** `pat:authoring/pattern‑template` (E.8)  
-* **Interacts with:** `pat:guard/bias‑audit` (E.5.4) via lens check  
-* **Complemented by:** `pat:authoring/code‑of‑conduct` (E.12) – etiquette for DRR debate  
+`E.9` aligns with contemporary architecture-decision and rationale-capture practice, but adapts that practice to FPF's pattern-governed Core.
+
+| Practice / source family | What FPF adopts, adapts, or rejects | FPF implication |
+|---|---|---|
+| **Architecture-description standards such as ISO/IEC/IEEE 42010:2022** | **Adopts** the idea that architecture work must make concerns, viewpoints, decisions, and rationale inspectable. **Adapts** it from system architecture descriptions to FPF content deltas and selected pattern/support-surface distribution. | A DRR must expose the concerns and alternatives that shape the FPF change, not only the edited text. |
+| **Markdown ADR practice, including post-2015 lightweight ADR/MADR-style templates** | **Adopts** compact context/decision/consequence discipline and version-controlled decision records. **Rejects** treating a generic ADR template as sufficient when a multi-pattern FPF change needs Pillar, lens, naming, SoTA, distribution, or loss/recoverability support. | Minor edits can stay lightweight; semantic amendments need enough by-value support for later pattern drafting without reinvention. |
+| **Continuous/evolutionary architecture and decision-record practice** | **Adopts** the view that decision records are revisitable support for evolving systems. **Adapts** it by keeping mutable process state out of the DRR and routing reopened content through a successor decision record. | FPF keeps rationale durable without turning the DRR into a live status log or permanent shadow law. |
+| **Research and design-rationale traditions around alternatives and trade-off capture** | **Adopts** explicit comparison of rejected alternatives and trade-offs. **Adapts** it through the Eleven Pillars and Principle-Taxonomy lenses. | The DRR should make why-this-not-that recoverable enough that future authors do not re-litigate or silently reverse the selected answer. |
+### E.9:12 - Relations
+
+* **Instantiates:** P‑10 Open‑Ended Evolution, P‑2 Didactic Primacy
+* **Template governed by:** `pat:authoring/pattern‑template` (E.8)
+* **Interacts with:** `pat:guard/bias‑audit` (E.5.4) via lens check
+* **Complemented by:** `pat:authoring/code‑of‑conduct` (E.12) – etiquette for DRR debate
 
 ### E.9:End
 
@@ -51591,6 +51634,25 @@ This arrangement guarantees **functorial publication** (commuting squares on cro
 > **Status:** Stable
 > **Normativity:** Normative
 
+### E.19:0 - Use this when
+
+Use `E.19` when you need to decide whether one new, substantially revised, or aging FPF pattern is ready for admission, refresh, return for repair, or narrower use. It turns quality review into a repeatable pattern-quality run rather than a matter of reviewer taste.
+
+Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, governed-object stability, terminology, SoTA support, neighbouring-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
+
+**Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use local patterns for the domain law being reviewed. Use project gate or release patterns when the question is whether a project artifact passes a delivery gate rather than whether an FPF pattern is mature.
+
+### E.19:0.1 - What goes wrong if missed
+
+Review collapses into surface compliance or personal taste. A draft can pass because it has the right headings while still being hard for a practitioner to recognise, too thin against current practice, unclear about its governed object, or misleading about neighbouring patterns and authority posture.
+
+### E.19:0.2 - What this buys
+
+`E.19` gives authors, reviewers, and stewards a shared review profile: what must be checked, how deep the check should go, which defects block admission or refresh, and what evidence is needed before a pattern-quality claim is made. It also makes the recognition surface visible before the heavier assurance machinery begins.
+
+**Governed object in plain terms.** The governed object is one FPF pattern-quality review or refresh claim: the reviewed pattern text, the selected profile, the defects found or cleared, and the boundary of the admission or refresh decision.
+
+**Primary working reader.** The first reader is an FPF reviewer, with the pattern author close behind. The review must still be answerable to the eventual practitioner or manager who will rely on the admitted pattern.
 ### E.19:1 - Problem frame
 
 FPF evolves by adding and revising patterns. Over time, the framework accumulates two kinds of risk:
@@ -51605,10 +51667,10 @@ FPF already contains many checklists and constraints, but they are distributed a
 
 Without a unified, explicit review pattern:
 
-* Different reviewers optimize for formal/template compliance and miss deeper ontological, semantic, and naming issues, producing bureaucratic output that does not improve the enforceable contract.
+* Different reviewers optimize for formal/template compliance and miss deeper ontological, semantic, and naming issues, producing bureaucratic output that does not improve the enforceable conformance surface.
 * Authors “optimize for the visible checklist” and miss hidden obligations (lexical discipline, Bridge hygiene, SoTA‑Echoing quality, scope claims, delta‑class impact).
 * Legacy patterns accumulate “conceptual bit-rot” and diverge from current practice, current terminology, or current internal invariants.
-* The specification’s normative contract becomes harder to trust: compliance becomes a matter of reviewer taste rather than a repeatable gate.
+* The specification’s normative surface becomes harder to trust: compliance becomes a matter of reviewer taste rather than a repeatable gate.
 
 ### E.19:3 - Forces
 
@@ -51641,7 +51703,7 @@ E.g. if the header block is missing or incomplete, **continue with ontology and 
 
 The run **SHOULD** give best-known **Delta-Class (Δ-0…Δ-3)** and record an initial **impact radius** (dependent patterns/tests/relations that need be changed due to pattern norms), using existing definitions where available (e.g., the LEX-AUTH protocol).
 
-If the local workflow separates review from repair, direct target-text patching, unified-diff output, or immediate remediation edits are optional local tactics rather than part of the core `E.19` contract. The core obligation is one findings-first run record plus sufficiently precise repair direction.
+If the local workflow separates review from repair, direct target-text patching, unified-diff output, or immediate remediation edits are optional local tactics rather than part of the core `E.19` artifact. The core obligation is one findings-first run record plus sufficiently precise repair direction.
 
 #### E.19:4.2 - Apply the baseline profile to every run
 
@@ -51650,7 +51712,7 @@ Every run MUST include **PCP‑BASE** as a triage baseline. Full-depth checking
 is selected only where the relevant risk is live; reviewer depth SHOULD
 prioritize the load-bearing sections and obligations in E.19:4.2.1.
 
-1. **Internal coherence (problem ↔ contract ↔ solution)**
+1. **Internal coherence (problem ↔ conformance claim ↔ solution)**
    The Conformance Checklist matches Problem statement and the Solution (no “orphan requirements” and no “unclaimed obligations”).
 2. **Lexical discipline & reserved vocabulary**
    Terms and registers follow lexical rules; ambiguous “everyday” synonyms do not silently replace kernel vocabulary.
@@ -51663,7 +51725,7 @@ prioritize the load-bearing sections and obligations in E.19:4.2.1.
 6. **Reader-role fit**
    The live pattern body stays addressed to the intended FPF user rather than to FPF developers or package architects. Load-bearing sections explain lawful use, costs, boundaries, reroutes, and neighbouring relations in user terms. Architecture-placement, freeze/merge posture, and broader package-development rationale stay in separate companions or clearly marked informative placement notes when needed.
 7. **Template & section integrity**
-   This is lowest priority for review depth and **SHOULD NOT** consume effort that would displace ontology/semantics/modularity/slots/SoTA checks. 
+   This is lowest priority for review depth and **SHOULD NOT** consume effort that would displace ontology/semantics/modularity/slots/SoTA checks.
 8. **Modularity & contradiction hygiene**
    The pattern **SHOULD NOT** be overloaded or significantly expand obligations/dependencies without an explicit reason and impact record.
    Checks include: scope containment, split/refactor recommendations when warranted, and contradiction scans against neighbor patterns in Relations.
@@ -51677,7 +51739,7 @@ PQG is meant to increase *semantic and ontological trust*, not to turn every rev
 * Treat **load-bearing sections and obligations** as the primary depth targets:
   * the pattern’s **Problem frame**, **Rationale**, and **worked slices** when a new family/profile/specialization would otherwise be intelligible only from project context,
   * reader-role fit in **Problem**, **Solution**, **Consequences**, **Rationale**, and worked slices whenever the draft risks mixing user guidance with package-development rationale,
-  * the pattern’s **Conformance Checklist** (the enforceable contract): keep items universal, cognitively ergonomic, not overly prohibitive, and avoid duplicating checks that belong to other patterns (modularity),
+  * the pattern’s **Conformance Checklist** (the enforceable conformance surface): keep items universal, cognitively ergonomic, not overly prohibitive, and avoid duplicating checks that belong to other patterns (modularity),
   * **deontic clauses** (`MUST/SHALL/SHOULD/MAY`) that define obligations on the authoring/validation plane (not laws of nature or mathematical facts; ensure an explicit conformance subject),
   * **admissibility constraints** (`Invariant:` / `Well-formedness constraint:`) that define valid models (cardinality, typing/kinds, totality) and are written as non-deontic predicates (no RFC keywords inside the predicate),
   * **definitions and mint/reuse decisions** (new terms, renamed terms, scope claims baked into names, names that are not overloaded and are properly chosen),
@@ -51695,13 +51757,13 @@ PQG is meant to increase *semantic and ontological trust*, not to turn every rev
 #### E.19:4.3 - Add risk-driven profiles
 
 **PCP‑PRAG (Pragmatic utility & adoption)** — Trigger: the pattern is Normative and claims practice guidance.
-Checks include: a visible first-reading recognition role early enough for a cold working reader; a recognisable first-minute working situation; one short `Use this when` or equivalent entry; a plain statement of what goes wrong if the pattern is missed; a plain statement of what the pattern buys in practice; a visible ordinary `not this pattern when` boundary; a minimally viable example; non-decorative Consequences/Anti-Patterns; at least one worked slice when the pattern is easy to misuse; a visible assurance role carrying declaration, law, modeling, and review burden; role consistency so that the assurance role does not silently strengthen or universalize the recognition-role claim; explicit practical payoff in user-facing prose; a short user-facing statement of the governed object and any minimal modeling lens when typed declaration support is load-bearing; nearby pairwise plain glosses for high-pressure technical terms that appear before the heavier harness; a short working-reader implication for any `SoTA-Echoing` rows that carry live explanatory load plus visible linkage to the worked cases or boundary slices they discipline; an explicit primary working reader / concern / viewpoint when several reader families are being served; an explicit `So what?` adoption test; and, when the pattern claims universal or transdisciplinary reach, at least three heterogeneous recognition-role situations with `F.16` preferred as the compact example-matrix template.
+Checks include: a visible first-reading recognition surface early enough for a cold working reader; a recognisable first-minute working situation; one short `Use this when` or equivalent entry; a plain statement of what goes wrong if the pattern is missed; a plain statement of what the pattern buys in practice; a visible ordinary `not this pattern when` boundary; a minimally viable example; non-decorative Consequences/Anti-Patterns; at least one worked slice when the pattern is easy to misuse; a visible assurance surface carrying declaration, law, modeling, and review burden; role consistency so that the assurance surface does not silently strengthen or universalize the recognition-surface claim; explicit practical payoff in user-facing prose; a short user-facing statement of the governed object and any minimal modeling lens when typed declaration support is load-bearing; nearby pairwise plain glosses for high-pressure technical terms that appear before the heavier harness; a short working-reader implication for any `SoTA-Echoing` rows that carry live explanatory load plus visible linkage to the worked cases or boundary slices they discipline; an explicit primary working reader / concern / viewpoint when several reader families are being served; an explicit `So what?` adoption test; and, when the pattern claims universal or transdisciplinary reach, at least three heterogeneous recognition-surface situations with `F.16` preferred as the compact example-matrix template.
 **PCP‑MOD (Modularity & layering discipline)** — Trigger: the review target shows scope creep or level-mixing (e.g., one pattern bundles universal core rules with frame-specific content and discipline-specific method semantics; or it mixes Intension/Description/Spec roles in one object).
 Checks include:
 
 * an explicit **core vs extensions** cut (universal invariants are factored into one stable “core”, and extensions reference it rather than re-stating or mutating it),
 * no conflation of **specialization vs dependency**: use `⊑/⊑⁺` for refinement/extension and `Uses` for pipelines; do not mix their semantics,
-* no conflation of package-form and host-relation roles: **Pack vs Kit vs Suite vs Family vs Bundle vs Cluster vs Profile vs Overlay vs Record vs Umbrella** are not interchanged, and the review states owner status / host relation explicitly instead of leaving it implicit or varying it for style,
+* no conflation of package-form and host-relation roles: **Pack vs Kit vs Suite vs Family vs Bundle vs Cluster vs Profile vs Overlay vs Record vs Umbrella** are not interchanged, and the review states carrier status / host relation explicitly instead of leaving it implicit or varying it for style,
 * level hygiene: Description-level artefacts do not grow mechanism semantics; MVPK faces remain projections and do not become “the place of truth”,
 * slot-discipline hygiene for any ladder: SlotKind invariance is preserved and inherited operations do not gain new mandatory inputs (A.6.5 / A.6.1 specialization discipline).
 
@@ -51710,7 +51772,7 @@ Checks include:
 
 * refresh‑sensitive claims are identified (time‑bounded or ecosystem‑bounded) and either (a) updated with post‑2015 evidence **and** matching Solution changes, or (b) explicitly scope‑limited and labeled as historical lineage,
 * Relations are updated to current pattern IDs; deprecations/renames are handled via explicit continuity notes (no silent relabeling),
-* when one new or substantially revised pattern subset is being prepared for send or landing, the run explicitly checks which neighboring patterns, host-owner laws, companion patterns, Relations targets, or monolith-backed loci require aligned edits so the subset does not land as one isolated local improvement; the run record states which of those updates are inside the claimed boundary now and which therefore remain outside that claimed boundary,
+* when one new or substantially revised pattern subset is being prepared for send or landing, the run explicitly checks which neighboring patterns, host-pattern constraints, companion patterns, Relations targets, or monolith-backed loci require aligned edits so the subset does not land as one isolated local improvement; the run record states which of those updates are inside the claimed boundary now and which therefore remain outside that claimed boundary,
 * the run records a Delta‑Class and impact radius; if the refresh causes Δ‑2/Δ‑3, it emits/updates a DRR pointer and triggers any required refresh and Bridge obligations defined elsewhere (E.15/F.15/F.9).
 
 Trigger overrides are permitted but intentionally rare: a run MAY override a triggered profile only when it can show the trigger’s risk is genuinely absent *in this case*, and the record MUST name (a) why the trigger is a false positive here and (b) what compensating check(s) were applied instead.
@@ -51738,7 +51800,7 @@ Checks include:
 * Congruence / loss is surfaced where applicable,
 * any cross-plane reuse is explicitly acknowledged and its penalties do not leak into unrelated assurances.
 
-**PCP‑SUITE (Mechanism-suite integrity)** — Trigger: the review target introduces or revises a suite-level Description that enumerates multiple distinct mechanisms (e.g., `MechSuiteDescription` or a suite specialization) and/or changes suite obligations, contract pins, or suite protocols.
+**PCP‑SUITE (Mechanism-suite integrity)** — Trigger: the review target introduces or revises a suite-level Description that enumerates multiple distinct mechanisms (e.g., `MechSuiteDescription` or a suite specialization) and/or changes suite obligations, conformance pins, or suite protocols.
 Checks include:
 
 * the suite remains a **Description-level** object: it enumerates member `U.Mechanism.Intension` refs and declares shared obligations/pins, but does **not** define mechanism blocks (`OperationAlgebra`, `Transport`, `Audit`, …) and is not used as a mechanism node,
@@ -51780,8 +51842,8 @@ Checks include:
 
 **PCP‑DEONT (Deontic clause hygiene: RFC keywords)** — Trigger: the pattern conflates admissibility/validity constraints with deontic obligations (e.g., uses RFC keywords where a non-deontic Invariant: predicate is required).
 Checks include:
-* Deontic requirements are expressed with RFC-style keywords (see H-8); 
-* obligations are not smuggled into prose as informal imperatives. Admissibility/validity constraints are stated non‑deontically as `Invariant:` / `Well‑formedness constraint:` predicates and referenced from the Conformance Checklist when enforceable. 
+* Deontic requirements are expressed with RFC-style keywords (see H-8);
+* obligations are not smuggled into prose as informal imperatives. Admissibility/validity constraints are stated non‑deontically as `Invariant:` / `Well‑formedness constraint:` predicates and referenced from the Conformance Checklist when enforceable.
 * **Subject discipline for RFC keywords.** If a sentence uses RFC keywords, its grammatical subject **MUST** be an agent or a publishable artefact (author, reviewer, record, published model). RFC keywords **MUST NOT** modify modeled‑world entities (e.g., “Earth”, “RoleAssignment”, “Role”, “holon”) — express those as `Invariant:` / `Well‑formedness constraint:` predicates instead, and (if needed) reference them from CC items.
 
 **PCP-ENTRY (Pattern-entry discoverability and entry-orientation changes)** —
@@ -51857,7 +51919,7 @@ It composes with `PCP-PRAG`, `PCP-TERM`, and `PCP-MOD`; it does not replace
 them.
 Its distinctive object is changed pattern-selection force, changed first-use
 burden, changed entry-neighborhood membership, changed tempting-wrong-pattern
-boundary, changed Problem-frame recognition role, changed worked-entry-reading
+boundary, changed Problem-frame recognition surface, changed worked-entry-reading
 force, changed entry-lexeme support, and changed semantic support-role parity.
 
 Its default burden is one small core triggered check:
@@ -52049,7 +52111,7 @@ When one common hardening burden is load-bearing, disputed, or explicitly invoke
 
 Use triggered accounts only for the burden that is live:
 
-1. **Usability and working-reader fit.** Record this when first-reading recognition role, assurance role, first-minute working-reader usability, practical payoff, worked slices, primary-reader fit, or `E.8` / `E.12` / `E.13` / `E.14` / `E.17.*` / `F.16` checks carry the finding or acceptance decision.
+1. **Usability and working-reader fit.** Record this when first-reading recognition surface, assurance surface, first-minute working-reader usability, practical payoff, worked slices, primary-reader fit, or `E.8` / `E.12` / `E.13` / `E.14` / `E.17.*` / `F.16` checks carry the finding or acceptance decision.
 2. **Scenario / anti-case / utility-fit basis.** Record this when a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous source is actually used or materially disputed.
 3. **Packaging / host-relation / shipping-fit.** Record this before any send-facing, landing-facing, monolith-facing, or host-relation posture claim. Do not require it for ordinary local wording repairs.
 4. **Domain-tightened profile depth.** Record this when a domain-specific mapping note or support stack actually tightens a selected profile or resolves a live finding.
@@ -52101,33 +52163,33 @@ Bias risks and mitigations:
 | **CC-E19-1 (Baseline is mandatory).** | Every PQG run **MUST** apply **PCP-BASE** to the review target. | Ensures a uniform minimum gate across all pattern kinds. |
 | **CC-E19-2 (Profile selection is auditable).** | The run record **MUST** state (a) the selected PCPs, (b) the trigger(s) for each non-BASE profile, and (c) any override decisions. Any override of a triggered profile **MUST** record why the trigger is a false positive and what compensating check(s) were applied instead. The run record **MUST** account for the whole current profile set rather than only the selected profiles or the easiest visible trigger family; a deontic-only or selected-stack-only recital is nonconforming. | Makes depth decisions repeatable and reviewable. |
 | **CC-E19-3 (Delta-Class & impact for breaking change levels).** | If the run proposes or accepts a change that is **Δ-2/Δ-3** (per E.15), the run record **MUST** include Delta-Class, an impact radius, and a DRR pointer; it **MUST** confirm that required refresh and Bridge obligations are triggered where applicable. | Keeps evolution controlled and compatible with downstream dependencies. |
-| **CC-E19-4 (Contract coherence is enforced).** | Remediation **MUST** eliminate “orphan” obligations and “unclaimed” requirements by aligning the target pattern’s Conformance Checklist, deontic clauses, and admissibility constraints with its Solution. | Preserves the CC as the enforceable contract. |
+| **CC-E19-4 (Conformance-claim coherence is enforced).** | Remediation **MUST** eliminate “orphan” obligations and “unclaimed” requirements by aligning the target pattern’s Conformance Checklist, deontic clauses, and admissibility constraints with its Solution. | Preserves the CC as the enforceable conformance surface. |
 | **CC-E19-5 (Triage & noise discipline).** | The run **SHOULD** prioritize load-bearing sections and obligations (e.g. CC, content of deontic clauses and content of admissibility constraints, definitions, Relations, SoTA, modularity) and keep purely mechanical edits (e.g. RFC-form deontic cleanup) minimal. Template defects **MUST** be fixed before admission (or before closing a refresh run) but **MUST NOT** be used to skip semantic review. | Improves semantic trust without turning review into form-only compliance. |
 | **CC-E19-6 (Findings-first remediation direction).** | The run output **MUST** include one compact list of blocking findings plus concrete remediation direction, ordered by semantic impact (load-bearing sections first). Findings stay primary; direct patch text is optional local workflow, not the core `E.19` artifact. | Ensures actionability and independent repeatability without collapsing review into repair. |
-| **CC-E19-7 (Recognition role, assurance role, and self-containment).** | Admission or refresh runs for new and substantially revised patterns **MUST** check that a first-reading recognition role appears early enough for the intended reader, that the heavier assurance role remains visibly second rather than becoming the first real point of entry, and that the assurance role does not silently shift the recognition-role claim. The run **MUST** check for a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and an ordinary `not this pattern when` boundary; for any load-bearing typed declaration or modeling lens, the run **MUST** confirm that a short user-facing statement exposes the governed object and the minimal lens that keeps it reviewable; the run **MUST** also check that the governed object keeps one stable kind across title, opening role, declaration role, worked slices, and neighbouring-pattern or authoritative-home guidance rather than drifting between object, act, work-product, and authority-lane labels. When a broader umbrella name and a narrower operative branch are both live, the run **MUST** check that the recognition role makes that stack explicit enough to identify the umbrella, the active branch, the governed object, the move, and the wider work or process that still remains outside. The recognition role **MUST** start from a recognisable problem-owning domain or practice moment whenever that can be done without loss of precision, rather than opening first with internal package architecture or taxonomy language. Early high-pressure technical terms **MUST** receive nearby pairwise plain glosses; transform-like families **MUST** carry concrete worked slices plus ordinary-vs-load-bearing guidance where needed; and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If SoTA or practice tradition is load-bearing, the run **MUST** check that governed-object choice, narrowed-branch choice, and practical payoff remain answerable to the relevant domain or practice rather than only to internal package architecture. If a pattern claims universal or transdisciplinary usefulness, the run **MUST** check that this breadth is already demonstrated in the recognition role through at least three heterogeneous situations, with `F.16` preferred as the example-matrix template. | Prevents architecturally correct but reader-opaque patterns and keeps broad claims from appearing only late in the assurance role. |
-| **CC-E19-8 (Sentence-level precision restoration).** | Load-bearing sentences **MUST** be reviewed for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. A narrowing qualifier does **not** by itself restore head kind. The default repair order is head kind first, qualifier burden second, comparison-axis homogeneity third. When broad umbrella words such as `interpretation`, `reading`, `review`, `surface`, `document`, or `artifact` are carrying live architectural or semantic load, the run **MUST** also restore whether the text names an umbrella, a narrowed branch, a governed object, a move, or a wider work/process lane before that wording is allowed to carry architectural burden. When naming or terminology repair is load-bearing, the run record **MUST** leave one explicit `F.18 -> A.6.P` account on disk: candidate heads or phrases reviewed, mint-vs-reuse decision, provisional F.18 winner plus rejected candidates, any kind-conflict / lexical-conflict findings, the `A.6.P` survival result on the repaired phrase, and the resulting governed object / governed move / outside-work reading if the wording still carries architectural burden. | Keeps controlled technical writing from collapsing into free shorthand or false precision. |
-| **CC-E19-9 (Package-form and host-relation role-word discipline).** | Reviews **MUST** check that role words such as `owner`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, and `umbrella` match the actual ontology of the case and do not drift by stylistic substitution. When naming or ontology repair introduces or retains one head already occupied elsewhere in FPF, the run **MUST** explicitly account for that occupied-kind / occupied-head conflict and say whether the same occupied meaning is intentionally reused or instead blocked as a collision. | Keeps host relations, review roles, and package forms semantically legible. |
+| **CC-E19-7 (Recognition surface, assurance surface, and self-containment).** | Admission or refresh runs for new and substantially revised patterns **MUST** check that a first-reading recognition surface appears early enough for the intended reader, that the heavier assurance surface remains visibly second rather than becoming the first real point of entry, and that the assurance surface does not silently shift the recognition-surface claim. The run **MUST** check for a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and an ordinary `not this pattern when` boundary; for any load-bearing typed declaration or modeling lens, the run **MUST** confirm that a short user-facing statement exposes the governed object and the minimal lens that keeps it reviewable; the run **MUST** also check that the governed object keeps one stable kind across title, opening role, declaration role, worked slices, and neighbouring-pattern or support-surface guidance rather than drifting between object, act, work-product, and carrier-placement labels. When a broader umbrella name and a narrower operative branch are both live, the run **MUST** check that the recognition surface makes that stack explicit enough to identify the umbrella, the active branch, the governed object, the move, and the wider work or process that still remains outside. The recognition surface **MUST** start from a recognisable problem-owning domain or practice moment whenever that can be done without loss of precision, rather than opening first with internal package architecture or taxonomy language. Early high-pressure technical terms **MUST** receive nearby pairwise plain glosses; transform-like families **MUST** carry concrete worked slices plus ordinary-vs-load-bearing guidance where needed; and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If SoTA or practice tradition is load-bearing, the run **MUST** check that governed-object choice, narrowed-branch choice, and practical payoff remain answerable to the relevant domain or practice rather than only to internal package architecture. If a pattern claims universal or transdisciplinary usefulness, the run **MUST** check that this breadth is already demonstrated in the recognition surface through at least three heterogeneous situations, with `F.16` preferred as the example-matrix template. | Prevents architecturally correct but reader-opaque patterns and keeps broad claims from appearing only late in the assurance surface. |
+| **CC-E19-8 (Sentence-level precision restoration).** | Load-bearing sentences **MUST** be reviewed for generic heads, burden-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. A narrowing qualifier does **not** by itself restore head kind. The default repair order is head kind first, qualifier burden second, comparison-axis homogeneity third. When broad umbrella words such as `interpretation`, `reading`, `review`, `surface`, `document`, or `artifact` are carrying live architectural or semantic load, the run **MUST** also restore whether the text names an umbrella, a narrowed branch, a governed object, a move, or a wider work or process outside the governed object before that wording is allowed to carry architectural burden. When naming or terminology repair is load-bearing, the run record **MUST** leave one explicit `F.18 -> A.6.P` account on disk: candidate heads or phrases reviewed, mint-vs-reuse decision, provisional F.18 winner plus rejected candidates, any kind-conflict / lexical-conflict findings, the `A.6.P` survival result on the repaired phrase, and the resulting governed object / governed move / outside-work reading if the wording still carries architectural burden. | Keeps controlled technical writing from collapsing into free shorthand or false precision. |
+| **CC-E19-9 (Package-form and host-relation role-word discipline).** | Reviews **MUST** check that role words such as `primary carrier`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, and `umbrella` match the actual ontology of the case and do not drift by stylistic substitution. When naming or ontology repair introduces or retains one head already occupied elsewhere in FPF, the run **MUST** explicitly account for that occupied-kind / occupied-head conflict and say whether the same occupied meaning is intentionally reused or instead blocked as a collision. | Keeps host relations, review roles, and package forms semantically legible. |
 | **CC-E19-10 (Reader-role discipline).** | Reviews **MUST** check that live pattern sections are written for the intended FPF user, that any multi-reader draft makes its primary working reader / concern / viewpoint explicit enough, and that package-development reasoning about isolation, landing form, freeze, merge posture, later promotion, safest move, blast radius, or defer posture stays in separate companions or clearly marked informative placement notes. The run record **MUST** name the user-facing sections scanned for this leak family and any repaired or still-informative exceptions. | Keeps reviews from accepting conceptually correct but role-confused patterns. |
 | **CC-E19-11 (Precision before relaxation).** | If remediation preserves or introduces a Plain, didactic, or coarsened restatement of a repaired load-bearing sentence, the run **MUST** keep a more precise upstream reading recoverable and must not let the softened form become the only authority-bearing wording. | Keeps later readability aids subordinate to an explicit stronger reading. |
-| **CC-E19-12 (Integration impact is accounted for).** | Before send or monolith-facing motion for one new or substantially revised pattern subset, the run record **MUST** explicitly account for neighboring patterns, host-owner laws, companion notes, Relations targets, or current monolith sections that now require aligned edits. The run **MUST** say which such updates are inside the claimed boundary now and which therefore remain outside that claimed boundary. | Prevents one locally stronger pattern from landing as an isolated mismatch in the wider FPF pattern set. |
-| **CC-E19-13 (Usability account is explicit).** | For one new or substantially revised live pattern subset, the run record **MUST** leave one explicit usability / working-reader-fit account by value: recognition role vs assurance role verdict, first-minute working situation, practical payoff, ordinary boundary, worked-slice coverage, primary reader or viewpoint, and the applicable pattern-side human-facing checks used (`E.8`, `E.12`, `E.13`, `E.14`, `E.17.*`, `F.16`, or clearly named local equivalents). | Prevents cold-reader usability from being treated as something the reviewer “just kept in mind”. |
+| **CC-E19-12 (Integration impact is accounted for).** | Before send or monolith-facing motion for one new or substantially revised pattern subset, the run record **MUST** explicitly account for neighboring patterns, host-pattern constraints, companion notes, Relations targets, or current monolith sections that now require aligned edits. The run **MUST** say which such updates are inside the claimed boundary now and which therefore remain outside that claimed boundary. | Prevents one locally stronger pattern from landing as an isolated mismatch in the wider FPF pattern set. |
+| **CC-E19-13 (Usability account is explicit).** | For one new or substantially revised live pattern subset, the run record **MUST** leave one explicit usability / working-reader-fit account by value: recognition surface vs assurance surface verdict, first-minute working situation, practical payoff, ordinary boundary, worked-slice coverage, primary reader or viewpoint, and the applicable pattern-side human-facing checks used (`E.8`, `E.12`, `E.13`, `E.14`, `E.17.*`, `F.16`, or clearly named local equivalents). | Prevents cold-reader usability from being treated as something the reviewer “just kept in mind”. |
 | **CC-E19-14 (Scenario / anti-case / utility-fit account is explicit).** | When the current domain or workstream has a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous common check source, the run record **MUST** explicitly state which of those sources were consulted, which scenarios or anti-cases were actually checked, which qualities or fitness pressures were load-bearing, and what remains outside the claimed review boundary. | Prevents scenario, anti-case, and fitness checks from disappearing into reviewer memory or external-review folklore. |
-| **CC-E19-15 (Packaging / host-relation / shipping-fit account is explicit).** | Before any send-facing, landing-facing, or monolith-facing posture claim, the run record **MUST** explicitly account for host relation, package form, authority-lane placement, send posture, landing posture, monolith posture, and other shipping-facing claims that matter for this target. It **MUST** say what was checked, what was blocked, what was cleared, and why the claimed boundary is lawful now. | Keeps packaging and shipping checks from being inferred loosely after one local text improvement. |
+| **CC-E19-15 (Packaging / host-relation / shipping-fit account is explicit).** | Before any send-facing, landing-facing, or monolith-facing posture claim, the run record **MUST** explicitly account for host relation, package form, authority-bearing publication role, send posture, landing posture, monolith posture, and other shipping-facing claims that matter for this target. It **MUST** say what was checked, what was blocked, what was cleared, and why the claimed boundary is valid now. | Keeps packaging and shipping checks from being inferred loosely after one local text improvement. |
 | **CC-E19-16 (Domain-tightened profile depth is explicit).** | When a domain-specific mapping note or support stack exists under `E.19` (for example semio `FIT-*` or equivalent local depth checks), the run record **MUST** explicitly state which such local checks were used, which PCP load they tightened, and what they found or explicitly did not find. | Keeps local review depth auditable and prevents domain-specific checks from becoming optional folklore around the PCP stack. |
 ### E.19:8 - Common Anti-Patterns and How to Avoid Them
 
 
 | Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
 | ---------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Governed-object drift** | The draft appears to govern one thing in the opening, another in the declaration block, and a third in the examples or neighbouring-pattern / authoritative-home guidance. | Review cannot tell whether the pattern governs an object, a reading move, a work-product, or a whole process, so later naming and boundary decisions become unstable. | Stabilise one governed object early, keep its head kind explicit, and mark note/sheet/UI/rendering/process labels as either examples of that object or separate neighbouring entities rather than stylistic substitutes. |
+| **Governed-object drift** | The draft appears to govern one thing in the opening, another in the declaration block, and a third in the examples or neighbouring-pattern / support-surface guidance. | Review cannot tell whether the pattern governs an object, a reading move, a work-product, or a whole process, so later naming and boundary decisions become unstable. | Stabilise one governed object early, keep its head kind explicit, and mark note/sheet/UI/rendering/process labels as either examples of that object or separate neighbouring entities rather than stylistic substitutes. |
 | **Role-clean but pragmatically foggy** | The draft is addressed to the right reader in principle, but cold working readers still cannot recognise the situation, practical payoff, governed object, or first useful move early enough. | The run passes role hygiene while still failing pragmatic fit and first-minute usability. | Pull a recognisable working situation upward, add one minimally viable worked case, make the practical payoff explicit in nearby user-facing prose, expose the governed object and any minimal modeling lens in plain terms, add plain glosses for early high-pressure terms, and require `SoTA-Echoing` rows that carry live load to name the practitioner or manager implication plus the case they discipline. |
-| **Architecture-clean but domain-thin** | The text is internally well placed in the package, but the governed object, narrowed branch, or practical payoff are justified mainly through package architecture while the problem-owning domain, practice, or SoTA appears late or decoratively. | The pattern passes internal architecture checks while drifting away from the domain whose work it claims to improve. | Pull the problem-owning domain moment into the recognition role, make the narrowed branch and governed object answerable to the relevant domain or practice, and require load-bearing `SoTA-Echoing` to discipline the practical cases rather than merely bless them after the fact. |
+| **Architecture-clean but domain-thin** | The text is internally well placed in the package, but the governed object, narrowed branch, or practical payoff are justified mainly through package architecture while the problem-owning domain, practice, or SoTA appears late or decoratively. | The pattern passes internal architecture checks while drifting away from the domain whose work it claims to improve. | Pull the problem-owning domain moment into the recognition surface, make the narrowed branch and governed object answerable to the relevant domain or practice, and require load-bearing `SoTA-Echoing` to discipline the practical cases rather than merely bless them after the fact. |
 | **Verdict-only review** | The run ends with “pass/fail” and prose complaints, but no precise findings-first repair direction. | Raises editorial cost; reduces repeatability. | Require one findings-first run record plus concrete remediation direction; do not rely on direct patch text as the primary artifact. |
 | **Single giant checklist** | Review becomes a long, unfocused ritual that few complete. | Increases cost; reduces fit and rigor in practice. | Use a minimal baseline plus triggered profiles. |
 | **Template-only compliance** | All headings exist, but obligations are vague and untestable. | Looks uniform; fails enforceability and auditability. | Enforce normative clause hygiene and CC/Solution coherence. |
 | **SoTA name-dropping** | SoTA-Echoing is a list of buzzwords with no stance. | Breaks evidence lineage; invites monoculture. | Require adopt/adapt/reject with reasons per item. |
 | **Terminology drift by “synonym”** | Authors swap kernel terms for nicer-sounding words. | Increases ambiguity; harms cross-pattern composability. | Apply PCP-TERM and require explicit mini-definitions on first use. |
-| **Form-only review** | Review time goes to formatting and micro-edits while the normative contract, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat load-bearing sections as depth targets and keep mechanical cleanup subordinate to semantic correction. |
+| **Form-only review** | Review time goes to formatting and micro-edits while the normative surface, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat load-bearing sections as depth targets and keep mechanical cleanup subordinate to semantic correction. |
 | **Architecturally right, didactically thin** | The family is lawful, but readers still need project notes to understand what the pattern really governs. | Trust in the monolith depends on external context rather than the pattern text. | Strengthen problem frame, worked slices, local definitions, and reroute guidance before admission. |
 | **Scenario-name grounding** | Grounding names a situation but does not show what the source and resulting publication actually look like. | Readers cannot tell why the case stays in the family or where it exits. | Add concrete source/result slices, especially for transform families and easy boundary confusions. |
 | **Generic-head underspecification** | A load-bearing phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the run leaves that head uninterpreted. | Review discusses the sentence before the object kind is even stable. | Restore the head kind first in host-local terms before accepting or comparing the sentence. |
@@ -52142,13 +52204,13 @@ Bias risks and mitigations:
 | Benefits                                                                         | Trade-offs / Mitigations                                                                   |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Repeatable admission decisions** — reviewers share a common gate language.     | More explicit editorial work; mitigated by a small baseline and triggered profiles.        |
-| **Higher trust in the normative contract** — CC becomes the enforceable contract. | Authors must align prose and CC carefully; mitigated by coherence checks.                  |
+| **Higher trust in the normative surface** — CC becomes the enforceable conformance surface. | Authors must align prose and CC carefully; mitigated by coherence checks.                  |
 | **Controlled evolution** — runs prevent conceptual bit-rot.              | Periodic workload; mitigated by prioritizing high-dependency and high-risk patterns first. |
 | **Less hidden drift** — terminology and cross-context reuse become explicit.     | Some drafts will be delayed; mitigated by early profile selection during authoring.        |
 
 ### E.19:10 - Rationale
 
-Patterns are both **teaching artifacts** and **normative contracts**. A specification that grows without explicit quality gates becomes a patchwork: locally good, globally inconsistent. A profile-based gate is the smallest structure that keeps reviews repeatable while remaining sensitive to risk and pattern kind.
+Patterns are both **teaching artifacts** and **normative surfaces**. A specification that grows without explicit quality gates becomes a patchwork: locally good, globally inconsistent. A profile-based gate is the smallest structure that keeps reviews repeatable while remaining sensitive to risk and pattern kind.
 
 The baseline profile protects cross-pattern comparability and editorial sanity. Triggered profiles keep depth where it matters: norms, SoTA claims, cross-context reuse, terminology changes, legacy refresh, and reader-role fit. A pattern that is lawful in package terms but speaks to the wrong reader is still a review defect.
 
