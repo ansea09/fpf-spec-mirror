@@ -56,7 +56,7 @@ Pattern and headers templates are explained in pattern E.8.
 | ***Cluster A.IV - Kernel Modularity*** | | | | |
 | A.5 | **Open-Ended Kernel & Extension Layering** | Transitional stub | *Keywords:* FPF architecture, specialization vs dependancy hierarhies, modularity, extensibility. *Queries:* "What is the architecture of FPF?", "How are new domains added?" | **Builds on:** P-4, P-5. |
 | ***Cluster A.IV.A - Signature Stack & Boundary Discipline (A.6.*)*** | | | | |
-| A.6 | **Signature Stack & Boundary Discipline** | Stable | *Keywords:* boundary, signature stack, boundary route fields, A.6.B L/A/D/E claims, authority-wording split, promise/commitment/API/policy wording, probe/order/frame/export/state-reading claims. *Queries:* "How do I route boundary statements?", "Where do probe, frame, export, and state-reading claims belong?", "When does authority-looking wording split into source, gate, work, assurance, or boundary claims?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Coordinates with:** A.6.B, A.6.P, C.26, C.26.1, F.9, A.10, A.15, B.3, E.17.EFP, A.20, A.21, E.19. |
+| A.6 | **Signature Stack & Boundary Discipline** | Stable | *Keywords:* boundary, signature stack, boundary route fields, A.6.B L/A/D/E claims, authority-wording split, register-backed status boundary, promise/commitment/API/policy wording, probe/order/frame/export/state-reading claims. *Queries:* "How do I route boundary statements?", "Where do probe, frame, export, and state-reading claims belong?", "When does authority-looking wording split into source, gate, work, assurance, or boundary claims?", "When is a pass, badge, tile, or status display only a publication of a register-backed source?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Coordinates with:** A.6.B, A.6.P, C.26, C.26.1, F.9, A.10, A.15, B.3, E.17.EFP, A.20, A.21, E.19. |
 | A.6.RSIG | **Recognition Signatures for Descriptions** | Stable | description-recognition signature; encountered carrier vs definition authority source; API/access description not promise; method applicability note; false neighboring description | `A.6`, `A.6.P`, `F.18`, `E.10` |
 | A.6.B | **Boundary Norm Square (Laws / Admissibility / Deontics / Work-Effects)** | Stable | *Keywords:* boundary norm square, atomic claims, L/A/D/E routing, laws vs gates vs commitments vs evidence, supported use, unsupported use, claim IDs, triangle decomposition. *Queries:* "What is the Boundary Norm Square in FPF?", "How do I decompose probe-coupled or mixed boundary statements?", "Where do RFC keywords and use conditions belong in FPF patterns?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Coordinates with:** A.6, A.6.P, C.26.1, A.10, B.3. |
 | A.6.C | **Contract Unpacking for Boundaries** | Stable | *Keywords:* contract bundle unpacking, SLA/guarantee routing, promise content (promise content) ≠ work, promise-act/utterance/commitment separation, Boundary Norm Square (L/A/D/E), MVPK faces “no new semantics”. *Queries:* "How to unpack contract language into promise content / utterance / commitment / work+evidence?", "How to prevent interface-as-agent / contract soup mistakes?", "How to stop MVPK faces becoming ‘second contracts’?", "When contract talk includes service-cluster tokens, what gets unpacked first?" | **Builds on:** A.6, A.6.B, A.6.8, A.7, A.2.3, A.2.8, A.2.9, E.10, E.17. **Coordinates with:** F.12, F.18. |
@@ -82,15 +82,16 @@ Pattern and headers templates are explained in pattern E.8.
 | A.7 | **Strict Distinction (Clarity Lattice)** | Stable | *Keywords:* category error, Object ≠ Description, Role ≠ Work, ontology. *Queries:* "How to avoid common modeling mistakes?", "What are FPF's core distinctions?" | **Builds on:** A.1, A.2, A.3. **Constrains:** all patterns. |
 | A.8 | **Universal Core (C-1)** | Stable | *Keywords:* universality, transdisciplinary, domain-agnostic, generalization. *Queries:* "How does FPF ensure its concepts are universal?" | **Builds on:** P-8. **Constrains:** Kernel-level `U.Type`s. |
 | A.9 | **Cross-Scale Consistency (C-3)** | Stable | *Keywords:* composition, aggregation, holarchy, invariants, roll-up. *Queries:* "How do rules compose across different scales?", "How to aggregate metrics safely?" | **Builds on:** A.1, A.8. **Prerequisite for:** B.1. |
-| A.10 | **Evidence Graph Referring (C-4)** | Stable | *Keywords:* evidence, traceability, provenance, evidence carrier, claim support, authority-reliance evidence path, generated-explanation source support, exact authority reference, probe/distributed/export/causal evidence, SCR/RSCR. *Queries:* "How are claims supported by evidence?", "When does a generated explanation become source-backed evidence rather than approval or authorization?", "How do I keep evidence carriers separate from the state they report?" | **Builds on:** A.1. **Coordinates with:** A.6, A.15, B.3, E.17.EFP, A.20, A.21, C.16, F.9, C.26.1, C.26.2, C.26.3, C.28. |
+| A.10 | **Evidence Graph Referring (C-4)** | Stable | *Keywords:* evidence, traceability, provenance, evidence carrier, claim support, authority-reliance evidence path, status register, register excerpt, generated-explanation source support, exact authority reference, probe/distributed/export/causal evidence, SCR/RSCR. *Queries:* "How are claims supported by evidence?", "When does a generated explanation become source-backed evidence rather than approval or authorization?", "How do I keep evidence carriers separate from the state they report?", "When is a credential, pass, badge, or status display only an excerpt of a source record?" | **Builds on:** A.1. **Coordinates with:** A.6, A.15, B.3, E.17.EFP, A.20, A.21, C.16, F.9, C.26.1, C.26.2, C.26.3, C.28. |
 | A.11 | **Ontological Parsimony (C-5)** | Stable | *Keywords:* minimalism, simplicity, Occam's razor, essential concepts. *Queries:* "How does FPF avoid becoming too complex?", "Rule for adding new concepts." | **Builds on:** P-1 Cognitive Elegance. **Constrains:** all new `U.Type` proposals. |
 | A.12 | **External Transformer & Reflexive Split (C-2)** | Stable | *Keywords:* causality, agency, self-modification, external agent, control loop. *Queries:* "How to model a self-healing or self-calibrating system?", "What is the external transformer principle?" | **Builds on:** A.3. **Prerequisite for:** B.2.5. |
 | A.13 | **The Agential Role & Agency Spectrum** | Stable | *Keywords:* agency as role, agency spectrum, contextual role assignment, autonomy grading, substrate-neutral autonomy. *Queries:* "How does FPF model agency without minting a `U.Agent` type?", "How do I grade autonomy on an evidence-backed spectrum?" | **Builds on:** A.2, A.2.1, A.12. **Informs:** C.9 Agency-CHR, E.16. |
 | A.14 | **Advanced Mereology: Components, Portions, Aspects & Phases**| Stable | *Keywords:* mereology, part-of, ComponentOf, PortionOf, PhaseOf, composition. *Queries:* "How to model different kinds of 'part-of' relationships?" | **Refines:** A.1. **Prerequisite for:** B.1.1. |
-| A.15 | **Role-Method-Work Alignment (Contextual Enactment)** | Stable | *Keywords:* role-method-work split, `U.WorkPlan` vs `U.Work`, contextual enactment, coordinated-work evidence, work-reliance stress case, authority-looking briefing/source exit, checkpoint return, weakened briefing. *Queries:* "How do role, method, plan, and work stay distinct in FPF?", "When can coordinated work evidence a state that no one report carries?", "When is authorization-looking material only a briefing, source, gate, or evidence issue rather than work enactment?" | **Integrates:** A.2, A.4, A.12. **Builds on / coordinates with:** A.6, A.6.3.CSC, A.10, B.3, E.17.EFP, A.20, A.21, and C.26.2. **Prerequisite for:** A.15.1-A.15.3, C.24, E.16. |
+| A.15 | **Role-Method-Work Alignment (Contextual Enactment)** | Stable | *Keywords:* role-method-work distinction, `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, contextual enactment, coordinated-work evidence, work admission display, source-restoration boundary. *Queries:* "How do role, method, plan, and work stay distinct in FPF?", "When can coordinated work evidence a state that no one report carries?", "When is authorization-looking material a source-restoration problem rather than work enactment?", "When does something that looks like permission or prohibition to start work need the project source behind it first?" | **Integrates:** A.2, A.4, A.12. **Builds on / coordinates with:** A.6, A.10, B.3, E.17, E.17.EFP, A.20, A.21, and C.26.2. **Prerequisite for:** A.15.1-A.15.4, C.24, E.16. |
 | A.15.1 | **`U.Work`: The Record of Occurrence** | Stable | *Keywords:* execution, event, run, actuals, log, occurrence. *Queries:* "What is a Work record?", "Where are actual resource costs stored?" | **Refines:** A.15. **Used by:** B.1.6, all Part D. |
 | A.15.2 | **`U.WorkPlan`: The Schedule of Intent** | Stable | *Keywords:* plan, schedule, intent, forecast. *Queries:* "How to model a plan or schedule?", "Difference between a WorkPlan and a MethodDescription." | **Refines:** A.15. **Informs:** `U.Work`. |
 | A.15.3 | **`SlotFillingsPlanItem` — Planned Slot-Fillings Baseline (WorkPlanning PlanItem)** | Stable | *Keywords:* planned baseline, slot owner, planned filler, edition pins, `Γ_time` selector, guard pins, WorkPlanning, P2W seam, variance trail. *Queries:* "What is SlotFillingsPlanItem in FPF?", "How to keep planned slot filling separate from FinalizeLaunchValues?", "How to pin editions and time in WorkPlanning baselines?" | **Builds on:** A.15.2, A.6.5, E.10.D1, E.17, E.18, E.19. **Used by:** A.6.7 (suite contract pins), Part G universalization, suite-specific and kit-specific planned baselines. |
+| A.15.4 | **Work-Relevant Source Restoration** | Stable | *Keywords:* work-relevant source restoration, dashboard display, credential view, generated explanation, copied statement, provenance mark, required project source, admissible next project move, blocked overread, P2W load and position, approval-looking display. *Queries:* "Which project source is needed before a dashboard or explanation can guide work?", "When is a visible item only source-finding before work/reliance?", "How do I keep publication, display, or cue separate from work, evidence, gate passage, or engineering justification?" | **Builds on:** A.15, E.17, C.2.1. **Coordinates with:** A.10, B.3, A.6, A.2.1, A.2.8, A.2.9, A.20, A.21, and E.17.EFP. |
 | A.16 | **Language-State Transduction Coordination** | Stable | *Keywords:* language-state, transduction, admissible moves, reopen, sketch-backoff, respecify, retire, handoff. *Queries:* "How do governed epistemes move across the language-state chart?", "What are the admissible move kinds in FPF?" | **Builds on:** C.2.2a, C.2.LS, A.19. **Coordinates with:** A.16.0-A.16.2, B.4.1, E.18. |
 | A.16.0 | **`U.LanguageStateTransductionTrajectory` — Optional trajectory-account normal form** | Stable | *Keywords:* trajectory account, lineage, fork, merge, supersedes, handoff, heavy history. *Queries:* "When do I publish a language-state trajectory account?", "How does FPF record lineage and branch history?" | **Builds on:** A.16, C.2.2a, E.17, E.18. **Used by:** A.16.1, A.16.2, B.4.1, B.5.2.0. |
 | A.16.1 | **`U.PreArticulationCuePack`** | Stable | *Keywords:* cue pack, pre-articulation, early publication, cue nucleus, primary witness, route pressure. *Queries:* "What is a PreArticulationCuePack?", "How do I preserve early cues before route publication?" | **Builds on:** A.16, C.2.2a, C.2.LS. **Coordinates with:** B.4.1, A.16.2. |
@@ -259,13 +260,13 @@ Pattern and headers templates are explained in pattern E.8.
 | E.17.1 | **`U.ViewpointBundleLibrary` — Reusable Viewpoint Bundles** | Stable | *Keywords:* viewpoint bundle, reusable viewpoint family, import discipline, alias discipline, governance, engineering/management/research bundles. *Queries:* "How do I define reusable viewpoint bundles in FPF?", "What is a ViewpointBundleLibrary?" | **Builds on:** E.17.0, A.6.2-A.6.4, A.7, E.7, E.10. **Used by:** E.17.2, E.18, domain-specific viewpoint-bundle libraries. |
 | E.17.2 | **TEVB — Typical Engineering Viewpoints Bundle** | Stable | Keywords: engineering viewpoints, holon, Functional/Procedural/Role-Enactor/Module-Interface views, EoIClass = U.Holon, ISO 42010 mapping, E.TGA bindings. Queries: “What are canonical engineering viewpoints over a holon?”, “How does TEVB relate to E.TGA and MVPK?”, “How do ISO 42010 architecture viewpoints map onto FPF engineering viewpoints?” | Builds on: E.17.0 (U.MultiViewDescribing), E.17.1 (U.ViewpointBundleLibrary), C.2.1 (U.EpistemeSlotGraph; DescribedEntity/Viewpoint/View slots), A.1 (Holon; U.System/U.Episteme as typical EoI), A.6.2–A.6.4 (episteme morphisms), A.7/E.10.D2 (Strict Distinction & I/D/S discipline). Used by: E.18:5.12 (E.TGA engineering viewpoint families), E.17 (MVPK — publication of engineering morphisms via EngineeringVPId/PublicationVPId correspondences), engineering description/spec patterns and future ISO-aligned architecture description species. |
 | E.17 | **Multi‑View Publication Kit (for Morphisms)** | Stable | Keywords: publication, U.View/U.EpistemeView, multi-view, viewpoints, PublicationScope (USM), PlainView/TechCard/InteropCard/AssuranceLane, functorial views, reindexing (PromoteView[s→t]), Publication characteristics (PC.Number, PC.EvidenceBinding, PC.ComparatorSetRef, PC.CharacteristicSpaceRef), CHR/UNM/CG-Spec anchoring, UTS, pin discipline, D/S→Surface (no I→D/D→S). Queries: “How to publish any morphism across Plain/Tech/Interop/Assurance views without changing semantics?”, “How do MVPK faces relate to U.View/U.EpistemeView and U.Viewpoint/PublicationVPId?”, “How to pin numeric claims and evidence lanes on publication faces so they stay functorial and audit-ready?” | Builds on: A.7/E.10.D2 (Strict Distinction & I/D/S discipline; Surface orthogonality), A.6.2–A.6.3 (U.EffectFreeEpistemicMorphing, U.EpistemicViewing), C.2.1 (U.EpistemeSlotGraph; View/Viewpoint slots), E.17.0 (U.MultiViewDescribing), E.17.1 (U.ViewpointBundleLibrary), E.17.2 (TEVB), E.8 (Authoring conventions), E.10 (LEX-BUNDLE incl. L-SURF), Part F/G (UTS, CG-Spec, CHR pins, UNM). Used by / Coordinates with: E.18 (E.TGA — publication of morphisms via MVPK faces), Part G (SoTA pack shipping surfaces, EvidenceGraph views), tooling that emits human-readable cards/lanes over D/S-epistemes about morphisms. |
-| E.17.EFP | **ExplanationFaithfulnessProfile - explanation classification over existing MVPK faces** | Stable | *Keywords:* explanation, rendering, source-pinned, source-linked reconstruction, didactic retelling, speculative retelling, generated-explanation source finding, evidence binding, admissible faces, allowed use, fuller-source return. *Queries:* "How does FPF classify explanation-facing renderings?", "When does generated explanation become source-backed only through A.10 evidence?", "When does explanation help become controlled coarsening or unsupported downstream guidance?" | **Builds on:** E.17.0, E.17, A.7, E.10.D2, A.6.B, F.9, F.18. **Coordinates with:** A.6.3.CSC, ConservativeRetextualization, RepresentationTransduction, E.17.ID.CR ComparativeReading, A.6.4, A.10, A.15, A.20, A.21. |
+| E.17.EFP | **ExplanationFaithfulnessProfile - explanation classification over existing MVPK faces** | Stable | *Keywords:* explanation, rendering, derivative rendering, adaptation source links, source-pinned, source-linked reconstruction, didactic retelling, speculative retelling, generated-explanation source finding, evidence binding, admissible faces, allowed use, fuller-source return. *Queries:* "How does FPF classify explanation-facing renderings?", "When does generated explanation become source-backed only through A.10 evidence?", "When does explanation help become controlled coarsening or unsupported downstream guidance?", "When is a fork, adaptation, translation, tutorial, or generated explanation not the source it explains?" | **Builds on:** E.17.0, E.17, A.7, E.10.D2, A.6.B, F.9, F.18. **Coordinates with:** A.6.3.CSC, ConservativeRetextualization, RepresentationTransduction, E.17.ID.CR ComparativeReading, A.6.4, A.10, A.15, A.20, A.21. |
 | E.17.ID.CR | **ComparativeReading - bounded comparative reading over comparative review units** | Stable | *Keywords:* comparative reading, comparative review unit, bounded comparison, source episteme/publication lane, same described entity, bounded lift, forbidden downstream claim/effect, InterpretationDiscipline specialization. *Queries:* "What is ComparativeReading in FPF?", "How does FPF govern a comparative review unit?", "When does a comparison note stay bounded rather than becoming bridge, coarsening, explanation, prompt, ontology, or gate work?" | **Builds on:** C.2.2a, A.16.0, F.9, E.14. **Coordinates with:** A.6.3, A.6.3.CSC, A.6.3.CR, A.6.3.RT, F.9.1, E.17.EFP, E.17.AUD.LHR, E.17.AUD.OOTD, B.5.2.0, B.5.2, A.6.4, A.15, A.20, A.21. |
 | E.17.AUD | **AuthoredUnitDiscipline - problem-pressure classification for one authored-readable unit with unstable described-entity or carried-move reading** | Stable | *Keywords:* authored unit, primary described entity, carried move, outside-work boundary, problem-pressure classification, authored-unit stability. *Queries:* "How do I keep one note or memo honest as one readable unit?", "What is AuthoredUnitDiscipline in FPF?", "When is the real load local lexical-head repair, whole-unit stabilization, bounded comparison, or another neighboring pattern?" | **Builds on:** C.2.2a, A.16.0, A.7, E.10, F.18, E.14, E.19. **Coordinates with:** E.17.AUD.LHR, E.17.AUD.OOTD, E.17.ID.CR, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.17.AUD.LHR | **AuthoredUnitDiscipline / Local Head Restoration — repair the pressured local head before the authored unit inherits it** | Stable | *Keywords:* pressured local lexical head, lexical-head kind, active lane, local repair, governed object, outside-work boundary, local wording repair. *Queries:* "How do I repair one vague local lexical head before the whole note's reading shifts?", "What is Local Head Restoration in FPF?", "When do I need local lexical-head repair rather than authored-unit stabilization?" | **Builds on:** A.6.P, A.7, E.10, F.18, E.14. **Coordinates with:** E.17.ID.CR, E.17.AUD.OOTD, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.17.AUD.OOTD | **AuthoredUnitDiscipline / AuthoredUnit Primary Described-Entity Discipline — authored-unit stability over one primary described entity and carried move** | Stable | *Keywords:* authored unit, primary described entity, authored-unit reading instability, carried move, outside-work boundary, explicit transition. *Queries:* "How do I keep one note about one described entity and one carried move at a time?", "What is AuthoredUnit Primary Described-Entity Discipline in FPF?", "When do I need authored-unit stabilization rather than only local wording repair?" | **Builds on:** A.6.P, A.7, E.10, F.18, E.14, E.19, C.2.2a, A.16.0. **Coordinates with:** E.17.AUD.LHR, E.17.ID.CR, E.17.EFP, A.6.3, A.6.3.CR, A.6.3.RT, A.15, A.20, A.21. |
 | E.18 | **Transduction Graph Architecture (E.TGA)** | Stable | *Keywords:* transduction graph, **nodes=morphisms**, **edge=U.Transfer** (single-edge kind), **OperationalGate(profile)**, **CV⇒GF** (ConstraintValidity → GateFit), **MVPK** faces, **SquareLaw**, **UNM single-writer**, **CSLC normalize-then-compare**, **Set-return selection**, **PathSlice/Sentinel refresh**, **DesignRunTag**. *Queries:* “What is E.TGA?”, “How do gates/bridges publish crossings?”, “How to model flows of morphisms?” | **Builds on:** E.17 (MVPK), E.8, E.10, A.7. **Coordinates with:** A.20–A.26 (Flow/GateProfilization/Profiles/Sentinels), F.9 (Bridges & CL), G.11 (Refresh). |
-| E.19 | **Pattern Quality Gates: Review and Refresh Profiles** | Stable | PCP-ENTRY; entry review trigger; wrong-pattern check; support-role parity; retrieval-facing entry fixture | `E.8`, `E.10`, `E.9`, `F.18` |
+| E.19 | **Pattern Quality Gates: Review and Refresh Profiles** | Stable | PCP-TERM; high-pressure trigger-word check; A.6.P survival check; PCP-ENTRY; entry review trigger; wrong-pattern check; support-role parity; retrieval-facing entry fixture | `E.8`, `E.10`, `E.9`, `F.18`, `A.6.P` |
 | E.20 | **Mechanism Introduction Protocol (MIP)** | Draft | *Keywords:* mechanism introduction, authoring protocol, owner routing, MIP-run manifest, canonical card-first, no dangling `…IntensionRef`, suite boundary hygiene, P2W seam, SlotKind lexicon discipline, alias docking, typed RSCR triggers, regression envelope, PQG profiles. *Queries:* "How to introduce a new mechanism in FPF?", "How to avoid dangling IntensionRefs in suites?", "How to route mechanism changes by semantic owner?", "How to evolve mechanism suites without drift?" | **Builds on:** E.8, E.9, E.10, E.15, E.19. **Coordinates with:** A.6.1, A.6.7, A.15.3, F.18, E.18, G.Core, G.2, `G.x:Ext.*`. **Constrains:** Any change-set that introduces or revises mechanisms, suites, planned baselines, wiring modules, or citeable tokens. |
 
 **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
@@ -6830,7 +6831,9 @@ This section is intentionally lightweight: it provides architectural intent and 
 
 **Credential-currentness boundary.** A displayed credential can support only issuer/holder/verifier/status/currentness after an `A.10` evidence path verifies it for the relying context. Boundary permission, admissibility, authorization, deontic commitment, role/status effect, or gate passage still needs the exact `A.6.B`, `A.2.8`, `A.2.9`, `A.2.1`, or `A.21` source.
 
-**Conflicting-source boundary.** When routed boundary wording, a display, copied summary, current source, gate decision, credential status, recency signal, or provenance label disagree, do not resolve by wording strength, visual salience, color, or apparent freshness. Name the source order, decision source, freshness policy, and supersession rule; until those are resolved, keep only cue/source-finding or bounded reversible probes available.
+**Register-backed status boundary.** A pass, badge, dashboard cell, API response, certificate view, or other status-looking item may be only a publication of a governing register entry or status-source record. If that register entry is the source that creates or changes permission, role/status, duty, or gate state in the bounded context, cite that exact register/status-source record and split the created claims through `A.6.B`, `A.2.1`, `A.2.8`, `A.2.9`, or `A.21`. If the item is only an extract, cache, screenshot, certificate view, or convenience display, keep it as source-finding/currentness support under `A.10` until the exact source is recoverable.
+
+**Conflicting-source boundary.** When routed boundary wording, a display, copied summary, current source, gate decision, credential status, register entry, status-source display, recency signal, or provenance label disagree, do not resolve by wording strength, visual salience, color, or apparent freshness. Name the source order, decision source, freshness policy, and supersession rule; until those are resolved, keep only cue/source-finding or bounded reversible probes available.
 
 **Adversarial wording guard.** Do not let intentionally ambiguous "allowed", "approved", "authorized", "certified", "recommended", or "guaranteed" wording collapse `L-*`, `A-*`, `D-*`, and `E-*` claims. Split the boundary statement first, then route work/reliance, evidence, gate, commitment, and assurance use to the exact supporting source.
 
@@ -7086,7 +7089,7 @@ Then:
 - if release, deployment, rollback, or execution work is asserted, cite `A.15.1` dated `U.Work` occurrence plus its `A.10` evidence carrier path;
 - if the phrase is only an action invitation or cue, keep it in `A.6.A` or `A.16` / `A.16.1`.
 
-Policy-as-code, dynamic authorization, credential, provenance, attestation, and assurance practices support complementary parts of this split: policy engines support bounded authorization decisions; credentials support issuer/holder/verifier/status claims; provenance and attestation support bounded origin/process claims; assurance practice supports claim-argument-evidence confidence claims. None of them lets wording, a displayed credential, a provenance label, or a schema cue stand in for the exact subject, requested policy operation or work class, affected resource or work target, context, policy/gate version, evidence refs, validity/revocation window, gate decision, or work occurrence needed for work/reliance.
+Policy-as-code, dynamic authorization, credential, register-backed status, provenance, attestation, and assurance practices support complementary parts of this split: policy engines support bounded authorization decisions; credentials support issuer/holder/verifier/status claims; governing registers or status-source records may carry role/status, permission, duty, or gate-state effects only when the bounded context gives that source such force; provenance and attestation support bounded origin/process claims; assurance practice supports claim-argument-evidence confidence claims. None of them lets wording, a displayed credential, a register excerpt, a provenance label, or a schema cue stand in for the exact subject, requested policy operation or work class, affected resource or work target, context, policy/gate version, evidence refs, validity/revocation window, gate decision, or work occurrence needed for work/reliance.
 
 
 
@@ -7295,7 +7298,7 @@ The stack creates a default **direction of dependence**: higher layers constrain
 * **Adapt — observability as evidence discipline.** Post‑2015 observability practice treats traces/logs/metrics as first‑class evidence carriers. A.6 places such claims in Quadrant E and ties them to carriers (A.7), preventing “guarantees without telemetry”.
 
 * **Adapt — Zero Trust, dynamic authorization, and policy-as-code practice.** Current authorization practice separates policy/API/schema text from a decision over subject, requested policy operation or work class, affected resource or work target, context, policy/gate version, decision source, and evidence. Cedar-style policy language and Zanzibar-style relation authorization are useful practice anchors for this split: the wording is not the decision. A.6 keeps policy/API/schema wording in routed `L-*` / `A-*` / `D-*` / `E-*` claims and sends work/reliance back through `A.15` rather than letting "allowed" or "authorized" wording decide by itself.
-* **Adopt/adapt/reject stance for authority-looking boundary wording.** A.6 adopts policy-as-code separation of policy text from evaluated decision, adapts credential/provenance/attestation practice as source, evidence, and currentness support rather than as the `L/A/D/E` split itself, and rejects visible wording, schema cues, credential displays, or provenance labels as permission, gate passage, work occurrence, evidence, or assurance by themselves.
+* **Adopt/adapt/reject stance for authority-looking boundary wording.** A.6 adopts policy-as-code separation of policy text from evaluated decision, adapts credential, register-backed status, provenance, and attestation practice as source, evidence, and currentness support rather than as the `L/A/D/E` split itself, and rejects visible wording, schema cues, credential displays, register excerpts, or provenance labels as permission, gate passage, work occurrence, evidence, or assurance by themselves.
 
 
 
@@ -7348,7 +7351,6 @@ Useful outputs:
 - a relation repair through `A.6.P` / `F.18` when coupling words become reusable relation candidates.
 
 ### A.6:End
-
 
 ## A.6.RSIG - Recognition Signatures for Descriptions
 
@@ -10244,7 +10246,7 @@ If all answers are crisp and the invariants EV-0...EV-6 are satisfied, the patte
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Placement.** `Controlled Semantic Coarsening` is a specialization under `A.6.3 U.EpistemicViewing` for deliberate same-lineage weakening from a fuller source episteme/publication into a narrower-use rendering.
+**Placement.** `Controlled Semantic Coarsening` is a specialization under `A.6.3 U.EpistemicViewing` for same-lineage weakening from one fuller-source side into a narrower-use rendering, whether the weakening was planned before publication or discovered during review of a target that can be retained only under a weaker-use card. That fuller-source side may be one governed source episteme/publication or one declared source set with a stable source-set identifier and bounded membership; it is not an open corpus.
 
 **Builds on.** `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `A.6.P`, `E.8`, `E.10`, `E.19`, and `F.18`.
 
@@ -10252,31 +10254,46 @@ If all answers are crisp and the invariants EV-0...EV-6 are satisfied, the patte
 
 ### A.6.3.CSC:1 - Problem frame
 
-Use this pattern when a summary, briefing, redaction, dashboard tile, lookup handle, didactic compression, or other readable target intentionally weakens distinctions, recoverability, reliability transport, or supported-use strength from a fuller source episteme/publication.
+**Use this when.** A summary, briefing, redaction, dashboard tile, lookup handle, didactic compression, or other readable target weakens distinctions, recoverability, reliability transport, or supported-use posture from one fuller-source side, or when review discovers that the target can be retained only as a weaker rendering.
 
-`Controlled Semantic Coarsening` governs one weaker rendering that remains useful only because a fuller source episteme/publication stays identifiable, the supported use is narrower, downstream use is unsupported, and escalation reopens the fuller source. It is the FPF governing pattern for that source/rendering relation. It is not a tag, token, `U.*` kind, publication face, carrier, bridge card, stance overlay, work plan, approval, or gate.
+`Controlled Semantic Coarsening` governs one weaker rendering that remains useful only because the fuller-source side stays identifiable, the supported use is narrower, downstream use is unsupported, and escalation reopens that fuller-source side. It is the FPF governing pattern for that source/rendering relation. It is not a tag, token, `U.*` kind, publication face, carrier, bridge card, stance overlay, work plan, approval, or gate.
 
-**Start here when.** Your first honest artifact is a small controlled-coarsening card: fuller source episteme/publication, weakened rendering, narrower supported use, main weakening, unsupported downstream use, and reopen trigger.
+**Start here when.** Your first honest artifact is a small controlled-coarsening card: fuller-source side, weakened rendering, narrower supported use, main weakening, unsupported downstream use, and reopen trigger. Read `orientation use`, `reliance use`, `operative claim`, `unsupported downstream use`, and `reopen trigger` through the shared `E.17:5.1c` terms; use `E.17:5.1d` when the primary live question may be ordinary rewrite, representation change, explanation, comparison, bridge/substitution, work/reliance, gate, evidence, assurance, retargeting, or carrier/front-end work instead of coarsening.
 
-**Typical next governing patterns / authority-source exits.** Ordinary same-entity wording belongs under `A.6.3.CR`; representation-scheme change belongs under `A.6.3.RT`; explanation-facing class discipline belongs under `E.17.EFP`; bounded comparison belongs under `E.17.ID.CR`; bridge or substitution use belongs under `F.9` / `F.9.1`; changed described entity belongs under `A.6.4`; work authority belongs under `A.15`; gate or adjudication authority belongs under `A.20` / `A.21`.
+**Neighboring project records and governing patterns.** Ordinary same-entity wording belongs under `A.6.3.CR`; representation-scheme change belongs under `A.6.3.RT`; explanation-facing class discipline belongs under `E.17.EFP`; bounded comparison belongs under `E.17.ID.CR`; bridge or substitution use belongs under `F.9` / `F.9.1`; changed described entity belongs under `A.6.4`; work authority requires `A.15`-governed project method/work material; gate or adjudication authority requires `A.20` / `A.21`-governed project records.
 
-**What goes wrong if missed.** A helpful weak rendering starts acting like the fuller source episteme/publication: a summary becomes evidence, a redaction becomes accountability closure, a dashboard tile becomes a causal verdict, a comparison note starts supporting bridge/substitution use, or a briefing becomes work authority.
+**What goes wrong if missed.** A helpful weak rendering starts acting like the fuller-source side: a summary becomes evidence, a redaction becomes accountability closure, a dashboard tile becomes a causal verdict, a comparison note starts supporting bridge/substitution use, or a briefing becomes work authority.
 
-**What this buys.** FPF users get a cheap admissible way to publish weakened renderings without hiding loss, overclaiming authority, or forcing every ordinary summary through a full assurance record.
+**What this buys.** FPF users get a cheap admissible way to publish weakened renderings without hiding loss, overclaiming authority, or forcing every ordinary summary through a full assurance record. This is the positive path for bounded dashboard tiles, redactions, partner notes, lookup handles, workshop simplifications, and didactic compressions that help work without pretending to be the fuller source.
+
+**Working action spine.** A weaker rendering is useful but cannot carry the fuller source -> separate fuller source, weaker rendering, narrower supported use, main weakening, unsupported downstream use, and reopen trigger -> use the weak rendering for orientation, triage, disclosure, retrieval, comparison, or planning preparation -> output the six-row mini-card -> reopen or hand off if reuse, reliance, citation, dispute, bridge, work, gate, privacy, or engineering-justification pressure appears.
+
+**Ordinary use.** If the weaker rendering only supports orientation, bounded disclosure, retrieval, workshop framing, preliminary triage, comparison, or planning preparation, use the six-row mini-card and stop there.
+
+**Load-bearing use.** Open the fuller coarsening record only when the weakened rendering will be externally relied on, disputed, cited, used across context, policy-bearing, bridge-adjacent, work-adjacent, gate-adjacent, privacy-sensitive, or engineering-justification-facing.
+
+**Stop condition.** Stop at the mini-card when the weakened rendering changes no next admissible work/reliance, disclosure, review, or planning-preparation move and blocks no concrete overclaim beyond its narrower supported use.
+
+**Supported-use examples.**
+
+| Supported project use | Source-finding or reversible probe | Unsupported use |
+| --- | --- | --- |
+| A redacted partner note, bounded dashboard tile, lookup handle, workshop simplification, or didactic compression supports triage, bounded disclosure, retrieval, coordination, or planning preparation inside its narrower use. | A tile or redacted note cues fuller-source reopen before release, audit, accountability, or engineering-justification reliance. | The weakened rendering is used as release authority, evidence, audit closure, accountability finding, bridge/substitution support, work authority, or assurance conclusion. |
+
 
 **Not this pattern when.** Not this pattern when the primary question is ordinary same-entity wording, representation-medium change, explanation fidelity, comparison, bridge/substitution use, changed described entity, work authority, approval, adjudication, or gate authority. Use the neighboring governing pattern or authority source for that primary question.
 
 ### A.6.3.CSC:2 - Problem
 
-FPF often needs a weaker form of a fuller source episteme/publication: a manager summary, a redacted disclosure note, a dashboard tile, a lookup surrogate, a workshop simplification, or a didactic compression. The weaker form can be valuable, but it becomes dangerous when readers forget that its authority is narrower than the source.
+FPF often needs a weaker form of a fuller-source side: a manager summary, a redacted disclosure note, a dashboard tile, a lookup surrogate, a workshop simplification, or a didactic compression. The weaker form can be valuable, but it becomes dangerous when readers forget that its authority is narrower than the source.
 
 The core failure is not ordinary omission by itself. The failure appears when the weaker rendering stays honest only under a supported-use card like this:
 
-- the fuller source episteme/publication remains governing;
+- the fuller-source side remains governing;
 - the target is weaker or less recoverable;
 - the target supports only narrower use;
 - downstream use is unsupported;
-- downstream use reopens the fuller source or moves to a more honest governing pattern or authority source.
+- downstream use reopens the fuller-source side or moves to the exact governing pattern or authority source that supports the requested use.
 
 Without a named pattern for that relation, neighboring patterns repeat partial coarsening rules locally. The repetition hides the shared load and makes it too easy for weak renderings to travel as if they were the fuller source.
 
@@ -10284,21 +10301,21 @@ Without a named pattern for that relation, neighboring patterns repeat partial c
 
 | Force | Tension |
 | --- | --- |
-| Reader economy vs source strength | Readers need short, useful renderings, but shortness must not erase the fuller source episteme/publication or its limits. |
+| Reader economy vs source support | Readers need short, useful renderings, but shortness must not erase the fuller-source side or its limits. |
 | Ordinary use vs load-bearing use | A small summary should stay cheap, while disputed, cited, external, policy, bridge, work, or gate-adjacent use needs more assurance. |
 | Helpfulness vs unsupported authority reading | The clearer the weak rendering is, the more likely it is to be over-read as evidence, bridge/substitution support, approval, or execution authority. |
 | Reuse vs provenance reset | Weak-to-weaker reuse saves effort, but it must not reset source path, loss envelope, uncertainty, or reopen duty. |
-| Neighbor clarity vs family sprawl | The coarsening relation needs one governing pattern without stealing ordinary rewrite, representation, explanation, comparison, bridge, stance, work, or gate law from neighboring patterns. |
+| Neighbor clarity vs family sprawl | The coarsening relation needs one governing pattern without stealing ordinary rewrite, representation, explanation, comparison, bridge, stance, work, or gate discipline from neighboring patterns. |
 
 ### A.6.3.CSC:4 - Solution
 
 `Controlled Semantic Coarsening` governs one source/rendering relation.
 
-- **Fuller source episteme/publication** means the governed `U.Episteme` or `U.EpistemePublication` lane that still carries the fuller claim, distinction, evidence relation, trace relation, or authority-reference relation.
-- **Weaker rendering** means the target readable form that intentionally carries less detail, less recoverability, weaker reliability transport, or narrower supported use.
+- **Fuller-source side** means the governed `U.Episteme`, governed `U.EpistemePublication`, or declared source set that still carries the fuller claim, distinction, evidence relation, trace relation, or authority-reference relation. A declared source set must have a stable source-set identifier, bounded membership, and a reopen route; an open corpus, folder, topic area, search-result cluster, or vague document neighborhood is not a fuller-source side.
+- **Weaker rendering** means the target readable form that carries less detail, less recoverability, weaker reliability transport, or narrower supported use than the fuller-source side.
 - **Narrower supported use** means the practical use the weaker rendering can still support, such as orientation, retrieval, bounded disclosure, workshop framing, or preliminary triage.
 - **Unsupported downstream use** means the use the weaker rendering cannot support alone, such as approval, audit closure, release gate, work plan, equivalence, bridge/substitution use, accountability finding, or canonical technical claim.
-- **Reopen trigger** means the condition that requires return to the fuller source episteme/publication, re-expansion in the current rendering or publication, or handoff to another governing pattern or authority source.
+- **Reopen trigger** means the condition that requires return to the fuller-source side, re-expansion in the current rendering or publication, or handoff to another governing pattern or authority source.
 - **Load-bearing case** means a coarsening case that will be cited, disputed, externally relied on, policy-bearing, bridge-adjacent, gate-adjacent, work-adjacent, privacy-sensitive, or assurance-facing.
 
 #### A.6.3.CSC:4.1 - Ordinary mini-card
@@ -10307,26 +10324,30 @@ For ordinary use, publish only the smallest card that keeps the weaker rendering
 
 | Row | Question |
 | --- | --- |
-| Fuller source episteme/publication | What fuller source remains governing and reopenable? |
+| Fuller-source side | What governed source episteme/publication or declared source set remains governing and reopenable? |
 | Weaker rendering | What target form is being offered to the reader? |
 | Narrower supported use | What can this weaker rendering support? |
-| Main weakening | What distinction, detail, recoverability, reliability transport, or use strength was weakened? |
+| Main weakening | What distinction, detail, recoverability, reliability transport, or supported-use posture was weakened? |
 | Unsupported downstream use | What claim/effect or work/reliance use is unsupported by this weaker rendering alone? |
 | Reopen trigger | What demand forces fuller-source return, re-expansion, or governing-pattern handoff? |
 
+A CSC card makes only the narrower supported use named on the card admissible for the weaker rendering. It never makes the unsupported downstream use admissible; it only tells the reader when and where to reopen the fuller-source side or hand off to the governing pattern that carries that downstream use.
+
 The card may live inline. Inherited source pins count when the surrounding publication already makes the fuller source visible.
+
+If the weaker rendering is used only for local orientation and the fuller-source side remains adjacent, the six-row card may be inline or implicit by immediate context; do not create a durable `Controlled Semantic Coarsening` object unless reuse, reliance, citation, or dispute appears.
 
 #### A.6.3.CSC:4.2 - First check
 
 Before using this pattern, ask five questions:
 
-1. Is there a fuller source episteme/publication?
-2. Is the target deliberately weaker?
+1. Is there exactly one fuller-source side: one governed source episteme/publication or one declared source set with stable identifier, bounded membership, and reopen route?
+2. Is the target weaker than that fuller-source side, or has review shown that it can be retained only as a weaker rendering?
 3. Does the target support only narrower use?
 4. Is downstream use explicitly unsupported?
 5. Is the fuller-source reopen or governing-pattern handoff trigger visible?
 
-If any answer is no, do not polish a coarsening story. Use the ordinary governing pattern or move to the more honest `governingPatternRef` or `authoritySourceRef`.
+If any answer is no, do not polish a coarsening story. Use the ordinary governing pattern or recover the project source record / authority-reference relation that actually supports the requested use. If the required support is missing, create only a prospective repair/request/decision/work-plan/source-gap record; do not treat that record as retroactive support for the weak rendering, earlier claim/effect, work occurrence, evidence, approval, gate passage, release permission, or engineering justification.
 
 #### A.6.3.CSC:4.3 - Ordinary vs load-bearing
 
@@ -10334,28 +10355,30 @@ Ordinary cases should remain light. A short orientation summary, redacted partne
 
 Load-bearing cases add only the fields that matter for the live pressure. This list is not a daily gate for ordinary summaries, briefings, redactions, or lookup handles:
 
+The fields below inherit the `E.17:5.1e` local-field rule. They are review aids for one weaker-rendering case, not `U.Kind`, `SurfaceKind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, authority source, or project source record unless another governing FPF pattern explicitly instantiates that object.
+
 - `sourceLane` and `targetLane` when authored unit, publication face, `PublicationSurface`, `InteropSurface`, or carrier could be confused;
 - `targetAuthoredUnitIfAny` when the weaker rendering is carried by one authored-readable unit that is distinct from the publication, disclosure note, dashboard tile, or `InteropSurface` on which it appears;
-- `governingPatternRef`, `authoritySourceRef`, or one privileged reopen path, so a weak target cannot reset its own provenance;
-- `branchReading` and `supportedUseClass` as separate fields;
+- `governingFpfLocusRef`, `projectSourceRecordRef`, or one privileged reopen path, so a weak target cannot reset its own provenance;
+- `coarseningBranch` and `supportedUsePosture` as separate fields;
 - `lossClass` and `recoverabilityAfterCoarsening` when the loss affects claim support, accountability, supported-use posture, or later citation;
 - at least one kept claim/distinction bundle, one weakened or dropped bundle, and one reopen-only bundle when the case is disputed or later-cited;
-- `sourceSupportPosture` when source-pointer-present, source-faithful, source-used, claim-supported, and supported-for-this-use could diverge;
+- `sourceSupportPosture` when the `E.17:5.1b` postures could diverge: source pointer, source availability, source retrieval, source use, source faithfulness, claim support, contradiction, plausibility-only, omission, weakening, strengthening, added linkage, independent verification, supported use, forbidden downstream use, or reopen trigger;
 - uncertainty or abstention posture when branch reading, preserved distinctions, source pin, or supported use cannot yet be stated stably;
 - independent-verification question when downstream testing, assurance, gate, or external reliance appears;
 - `audienceOverReadRisk`, plus a light reader-reliance or user-evidence check when readers may mistake the weaker rendering for authority it does not carry;
-- whether local re-expansion is enough to repair the current rendering or whether downstream use still needs return to the fuller source episteme/publication or named authority source.
+- whether local re-expansion is enough to repair the current rendering or whether downstream use still needs return to the fuller-source side or named authority source.
 
 #### A.6.3.CSC:4.4 - Branch and supported-use discipline
 
-`branchReading` answers what sort of coarsening case this is. `supportedUseClass` answers which use of the weaker rendering remains supported. Do not infer one from the other.
+`coarseningBranch` answers what sort of coarsening case this is. `supportedUsePosture` answers which use of the weaker rendering remains supported. Do not infer one from the other.
 
 | Field | Values this pattern uses | Rule |
 | --- | --- | --- |
-| `branchReading` | aggregation or quotient-like orientation; source-pinned surrogate/index/handle; privacy or redaction weakening; exceptional interop-facing simplification | The branch names the kind of weakening, not the authority granted by the weak rendering. |
-| `supportedUseClass` | ordinary supported; source-pinned-only; exceptional authority-reference explicit; unsupported-by-default | The use class names what the weak rendering can support. |
+| `coarseningBranch` | aggregation or quotient-like orientation; source-pinned surrogate/index/handle; privacy or redaction weakening; exceptional interop-facing simplification | The branch names the kind of weakening, not the authority granted by the weak rendering. |
+| `supportedUsePosture` | ordinary supported; source-pinned-only; authority-source-reopen-only; unsupported-by-default | The use posture names what the weak rendering can support. |
 
-Ordinary supported use covers aggregation, quotient-like orientation, didactic or report summaries, and briefings only for the named narrower use. Source-pinned-only use covers surrogate, index, retrieval-hint, lookup, and handle forms; these may help find or orient to the source but do not become semantic authority.
+Ordinary supported use covers aggregation, quotient-like orientation, didactic or report summaries, and briefings only for the named narrower use. Source-pinned-only use covers surrogate, index, retrieval-hint, lookup, and handle forms; these may help find or orient to the source but do not provide claim support themselves. Authority-source-reopen-only use covers the exceptional case where the weak rendering names the source whose authority-source relation must be reopened; the weak rendering itself does not become the authority source, evidence source, gate source, or work source.
 
 Privacy or redaction weakening is admissible here only when the card names the sharing boundary, what was withheld or weakened, the main re-identification or accountability risk being reduced, the fuller-source review path, and the accountability or gate uses that remain unsupported.
 
@@ -10368,7 +10391,7 @@ The card must name the live loss class before a coarsened rendering is treated a
 | Loss class | What weakened |
 | --- | --- |
 | semantic distinction loss | distinctions, exceptions, alternatives, or claim boundaries disappeared from the weak rendering |
-| microtheory loss | the local theory, model, or explanation basis was simplified below source strength |
+| microtheory loss | the local theory, model, or explanation basis was simplified below source-support posture |
 | modality / force / decision-status loss | recommendation, evidence, possibility, obligation, or decision status was softened or collapsed |
 | reliability-transport loss | evidence path, confidence, pinning, trace, or source support became weaker |
 | scope / time loss | validity window, population, context, or temporal scope narrowed or became less recoverable |
@@ -10381,9 +10404,9 @@ Recoverability and supported use are separate. A recoverable weak rendering is n
 | directly recoverable | the weaker rendering itself still carries enough detail to recover the fuller distinction |
 | source-pinned recoverable | the distinction is recoverable only by returning to the named fuller source |
 | reconstruction or validation required | recovery needs a new reconstruction, test, or validation, so downstream use remains blocked until that work is done |
-| not recoverable from admissible source lanes | the available source epistemes/publications, traces, or cited authority sources cannot restore the distinction; do not treat the weak rendering as stable authority |
+| not recoverable from admissible source epistemes/publications | the available source epistemes/publications, traces, or cited authority sources cannot restore the distinction; do not treat the weak rendering as support for downstream reliance |
 
-A weak-to-weaker chain may not silently reset provenance. If one coarsened rendering is reused to make another, the same fuller source episteme/publication or named authority source must stay explicit, the earlier loss envelope and uncertainty posture must remain visible, and the new rendering must declare only the added loss delta. If that cannot be stated cleanly, reopen the fuller source rather than extending the chain.
+A weak-to-weaker chain may not silently reset provenance. If one coarsened rendering is reused to make another, the same fuller-source side must stay explicit, the earlier loss envelope and uncertainty posture must remain visible, and the new rendering must declare only the added loss delta. If that cannot be stated cleanly, reopen the fuller-source side rather than extending the chain.
 
 Aggregation or quotient-like coarsening remains inside this pattern only while the weak rendering keeps one bounded described set, slice, case bundle, or alternative bundle explicit as the described entity or described set. If several entities, alternatives, or slices become one new class target or proxy target, exit to `A.6.4`.
 
@@ -10393,11 +10416,12 @@ Aggregation or quotient-like coarsening remains inside this pattern only while t
 | --- | --- |
 | Same-entity textual rewording without a separate weaker-use card | `A.6.3.CR` |
 | Representation scheme or reasoning-medium shift | `A.6.3.RT` |
-| Explanation-facing class over existing source episteme/publication lane | `E.17.EFP` |
+| Explanation-facing class over existing source `U.Episteme` / `U.EpistemePublication` | `E.17.EFP` |
 | Bounded comparison over already pinned source epistemes/publications | `E.17.ID.CR` |
 | Equivalence, substitution, interop row, or bridge/substitution use | `F.9` |
 | Stance over an already published bridge card | `F.9.1` |
 | Changed described entity or proxy target | `A.6.4` |
+| Carrier, export, OCR/parsing, or front-end behavior is primary | `A.7` first; then `A.6.3.RT`, `A.6.3.CSC`, `A.6.4`, or interpretation sources only if meaning-bearing structure, loss, retargeting, or interpretive lift is live |
 | Briefing treated as work plan, work authority, or execution cue | `A.15` |
 | Gate, approval, assurance, or adjudication authority | `A.20` / `A.21` |
 
@@ -10405,11 +10429,11 @@ Neighboring governing patterns may point here when a weaker rendering relation b
 
 #### A.6.3.CSC:4.7 - Well-formedness constraints
 
-**Well-formedness constraint CSC-WF-1 (source/rendering relation).** A controlled-coarsening case is well formed only when it contains exactly one fuller-source side, at least one weaker-rendering side, one declared narrower supported use, one unsupported downstream use, and one visible fuller-source reopen or governing-pattern handoff condition.
+**Well-formedness constraint CSC-WF-1 (source/rendering relation).** A controlled-coarsening case is well formed only when it contains exactly one fuller-source side, at least one weaker-rendering side, one declared narrower supported use, one unsupported downstream use, and one visible fuller-source reopen or governing-pattern handoff condition. The fuller-source side may be one governed source episteme/publication or one declared source set with stable source-set identifier and bounded membership; it must not be an open, vague corpus.
 
-**Well-formedness constraint CSC-WF-2 (no authority upgrade).** A weaker rendering does not gain evidence, bridge, work, approval, gate, or adjudication authority by repetition, fluency, audience convenience, citation, or publication on a more visible surface.
+**Well-formedness constraint CSC-WF-2 (no authority upgrade).** A weaker rendering does not gain evidence, bridge, work, approval, gate, or adjudication authority by repetition, fluency, audience convenience, citation, or publication on a more visible publication face or channel.
 
-**Well-formedness constraint CSC-WF-3 (source path continuity).** A weak-to-weaker chain remains well formed only while the same fuller source episteme/publication or named authority source, prior loss envelope, uncertainty posture, and added loss delta remain recoverable.
+**Well-formedness constraint CSC-WF-3 (source path continuity).** A weak-to-weaker chain remains well formed only while the same fuller-source side, prior loss envelope, uncertainty posture, and added loss delta remain recoverable.
 
 ### A.6.3.CSC:5 - Archetypal Grounding
 
@@ -10425,9 +10449,11 @@ Neighboring governing patterns may point here when a weaker rendering relation b
 
 **Redacted partner note.** The fuller source is a full incident record with actor identity, trace path, and recovery evidence. The weaker rendering is a partner-facing redacted note that withholds actor identity and trace path. Its narrower supported use is bounded disclosure and coordination. Accountability, legal, audit, readiness, and gate uses reopen the full incident record or exit to the relevant authority source.
 
+**Redacted functional-description publication.** The fuller source is a functional architecture note that names flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception cases. The weaker rendering is a partner-facing table that keeps the main flow relation and removes the exception cases and result-measurement details. Its narrower supported use is bounded orientation for coordination. Work planning, gate passage, evidence, engineering justification, control-architecture use, and release permission reopen the fuller source or exit to `A.15`, `A.10`, `B.3`, `A.20` / `A.21`, or `B.2.5`.
+
 **Exceptional interop-facing simplification.** The fuller source is two pinned context notes plus their bridge or comparison basis. The weaker rendering is: `For this exchange only, Field A is treated as broader than Field B; see source notes for exceptions.` The rendering may orient the exchange, but any equivalence, substitution, projection, bridge-row, or approval use exits to `F.9` / `F.9.1` or reopens the fuller source basis.
 
-**Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` This is not an admissible controlled coarsening card. The sentence tries to convert a weak summary into execution or gate authority. Reroute to `A.15`, `A.20`, or `A.21`, and reopen the fuller source before any work or approval claim proceeds.
+**Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` This is not an admissible controlled coarsening card. The sentence tries to convert a weak summary into execution or gate authority. Use `A.15`, `A.20`, or `A.21`, and reopen the fuller source before any work or approval claim proceeds.
 
 ### A.6.3.CSC:6 - Bias-Annotation
 
@@ -10437,36 +10463,46 @@ This pattern favors **Prag** and **Did** by allowing useful weak renderings to r
 
 ### A.6.3.CSC:7 - Conformance Checklist
 
+A conformance check is retained only if it changes the next admissible use of the weaker rendering, blocks a concrete overclaim, or preserves the fuller-source reopen path needed for the declared supported use.
+
+#### A.6.3.CSC:7.1 - CSC-Core
+
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-CSC-1 (Source visible).** | A conforming controlled-coarsening card SHALL name the fuller source episteme/publication or inherit it from the immediate source context. | Prevents the weak rendering from resetting provenance. |
-| **CC-CSC-2 (Rendering explicit).** | A conforming card SHALL identify the weaker rendering and keep it distinct from the fuller source episteme/publication. | Prevents citation laundering and source/rendering collapse. |
+| **CC-CSC-1 (Source visible).** | A conforming controlled-coarsening card SHALL name the fuller-source side or inherit it from the immediate source context. | Prevents the weak rendering from resetting provenance. |
+| **CC-CSC-2 (Rendering explicit).** | A conforming card SHALL identify the weaker rendering and keep it distinct from the fuller-source side. | Prevents citation laundering and source/rendering collapse. |
 | **CC-CSC-3 (Supported use).** | A conforming card SHALL state the narrower supported use. | Keeps ordinary convenience from becoming broad authority. |
 | **CC-CSC-4 (Unsupported downstream use).** | A conforming card SHALL state the unsupported downstream use. | Makes over-read and misuse visible early. |
 | **CC-CSC-5 (Reopen or handoff).** | A conforming card SHALL state the fuller-source reopen trigger or governing-pattern handoff condition. | Gives readers an admissible next move under pressure. |
 | **CC-CSC-6 (Ordinary economy).** | Authors SHOULD keep ordinary cases to the mini-card unless dispute, citation, external reliance, policy, bridge, work, gate, privacy, or assurance pressure appears. | Preserves usability and avoids daily-process inflation. |
+
+#### A.6.3.CSC:7.2 - CSC-Conditional
+
+| ID | Requirement | Purpose |
+| --- | --- | --- |
 | **CC-CSC-7 (Pressure-specific assurance).** | Load-bearing cases SHALL add only the support fields needed for the live pressure. | Keeps the assurance surface tied to real risk. |
-| **CC-CSC-8 (Branch/use split).** | Load-bearing or disputed cases SHALL keep `branchReading` and `supportedUseClass` separate. | Prevents the kind of weakening from implying authority. |
+| **CC-CSC-8 (Branch/use split).** | Load-bearing or disputed cases SHALL keep `coarseningBranch` and `supportedUsePosture` separate. | Prevents the kind of weakening from implying authority. |
 | **CC-CSC-9 (Loss and recoverability).** | Cases affecting claim support, accountability, supported-use posture, or later citation SHALL state loss class and recoverability class. | Prevents recoverability from being mistaken for supported use. |
-| **CC-CSC-10 (Weak-chain continuity).** | A weak-to-weaker chain SHALL satisfy `CSC-WF-3` or reopen the fuller source episteme/publication. | Prevents provenance reset by repeated summarization. |
+| **CC-CSC-10 (Weak-chain continuity).** | A weak-to-weaker chain SHALL satisfy `CSC-WF-3` or reopen the fuller-source side. | Prevents provenance reset by repeated summarization. |
 | **CC-CSC-11 (Governing-pattern exits).** | Bridge, stance, work, gate, adjudication, and changed-entity pressures SHALL move to their governing patterns or authority sources. | Prevents CSC from stealing neighboring pattern duties. |
 | **CC-CSC-12 (No authority by repetition).** | A conforming card SHALL satisfy `CSC-WF-2`. | Blocks authority laundering through fluency or citation. |
-| **CC-CSC-13 (Lane separation).** | Load-bearing cases SHALL separate source lane, target lane, authored unit, publication face, `PublicationSurface`, `InteropSurface`, and carrier when those could be confused. | Keeps authored unit, face, and carrier lanes distinct. |
+| **CC-CSC-13 (Source/rendering/publication separation).** | Load-bearing cases SHALL separate fuller-source side, weaker rendering, authored unit, publication face, `PublicationSurface`, `InteropSurface`, and carrier when those could be confused. | Keeps authored unit, publication face, and carrier roles distinct. |
 | **CC-CSC-14 (Privacy/redaction).** | Privacy or redaction cases SHALL name the sharing boundary, withheld distinctions, risk basis, unsupported accountability or gate uses, and fuller-source review path. | Prevents redaction from becoming closure. |
 | **CC-CSC-15 (Interop simplification).** | Exceptional interop-facing simplifications SHALL name the operative relation kind and hand bridge or equivalence pressure to `F.9` / `F.9.1`. | Prevents simplified relation language from supporting bridge/substitution use. |
-| **CC-CSC-16 (Source support posture).** | Load-bearing source-support cases SHALL distinguish source pointer present, source used, source faithful, claim support, supported use, independent verification, and audience over-read where those could diverge. | Keeps helpful renderings from passing as evidence. |
+| **CC-CSC-16 (Source support posture).** | Load-bearing source-support cases SHALL use the `E.17:5.1b` vocabulary where needed: source pointer, source availability, source retrieval, source use, source faithfulness, claim support, contradiction, plausibility-only, omission, weakening, strengthening, added linkage, independent verification, supported use, forbidden downstream use, and reopen trigger. | Keeps helpful renderings from passing as evidence. |
 
 ### A.6.3.CSC:8 - Common Anti-Patterns and How to Avoid Them
+
 
 | Anti-pattern | Failure | Avoid by |
 | --- | --- | --- |
 | Helpful summary becomes authority | The weak target starts deciding downstream questions that it does not carry. | Publish unsupported downstream use and reopen trigger. |
-| Citation laundering | A weak target is cited as if it were the source. | Keep the fuller source episteme/publication named and reopenable. |
+| Citation laundering | A weak target is cited as if it were the source. | Keep the fuller-source side named and reopenable. |
 | Label-as-evidence | A lookup handle carries a claim. | State retrieval-only use. |
 | Redaction-as-closure | Withheld detail is treated as resolved detail. | State the sharing boundary and accountability reopen condition. |
-| Stance cure | `projection` or `nonEquivalent` is used instead of a bridge card or source return. | Reroute bridge pressure to `F.9` / `F.9.1`. |
-| Briefing-as-work | A summary becomes work plan, action cue, gate, or approval. | Reroute to `A.15`, `A.20`, or `A.21`. |
-| Summary-chain source loss | A note summarizes an already weakened note and loses the original source and loss envelope. | Keep the same fuller source episteme/publication and added loss delta visible, or reopen the fuller source. |
+| Stance cure | `projection` or `nonEquivalent` is used instead of a bridge card or source return. | Move bridge pressure to `F.9` / `F.9.1`. |
+| Briefing-as-work | A summary becomes work plan, action cue, gate, or approval. | Use `A.15`, `A.20`, or `A.21` for the work, constraint, or gate claim. |
+| Summary-chain source loss | A note summarizes an already weakened note and loses the original source and loss envelope. | Keep the same fuller-source side and added loss delta visible, or reopen that fuller-source side. |
 | Aggregation target shift | A quotient or bundle turns several entities or alternatives into one new proxy target. | Exit to `A.6.4` rather than treating target shift as same-lineage weakening. |
 
 ### A.6.3.CSC:9 - Consequences
@@ -10474,34 +10510,41 @@ This pattern favors **Prag** and **Did** by allowing useful weak renderings to r
 | Benefits | Trade-offs / mitigations |
 | --- | --- |
 | Cheap weak renderings stay admissible because the source, supported use, loss, unsupported use, and reopen path remain visible. | Authors must add a small card where they might otherwise write only a friendly summary. The mitigation is that ordinary cases need only the mini-card. |
-| Neighboring patterns can hand coarsening pressure to one common governing pattern instead of repeating partial local doctrine. | Readers must still choose the primary governing pattern or authority source correctly. The neighbor-exit table and bad-fit examples keep that choice inspectable. |
+| Neighboring patterns can hand coarsening pressure to one common governing pattern instead of repeating partial local doctrine. | Readers must still keep the primary question with the governing pattern or authority source that carries it. The neighbor-exit table and bad-fit examples keep that disposition inspectable. |
 | Load-bearing coarsening becomes reviewable without making every summary a full assurance object. | Under high pressure the assurance record can grow. The pressure-specific field rule keeps growth tied to real risk. |
 
 ### A.6.3.CSC:10 - Rationale
 
 Controlled coarsening is useful because FPF work often needs cheap readable forms. It is risky because cheap readable forms often travel farther than their supported use. The pattern therefore does not ban weakened renderings; it makes the source/rendering relation explicit enough that later users know when to stop, reopen, or hand off to another governing pattern or authority source.
 
-This pattern is narrower than a general simplification pattern. It applies only when the weaker target remains tied to a fuller source episteme/publication or named authority source and carries a narrower-use card.
+This pattern is narrower than a general simplification pattern. It applies only when the weaker target remains tied to a fuller-source side and carries a narrower-use card.
 
-The core memory aid is simple: a weak rendering may help reading, but it must not become the source it weakened.
+The core memory aid is simple: a weak rendering may help reading, but it must not become the fuller-source side it was derived from. It may expose or cite the fuller-source side or a project source record; that exposed source remains the support, not the weaker rendering's readable face. If support is missing, a repair/gap/reopen record may guide only future repair or return to source; it does not backdate the weak rendering into source support.
 
-### A.6.3.CSC:11 - SoTA-Echoing
+### A.6.3.CSC:11 - SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts
 
-**Purpose.** This section justifies the pattern's safeguards. It is not an additional operational checklist. The Solution, Conformance Checklist, worked slices, and Relations above carry the live pattern law.
+**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `A.6.3.CSC` | Adoption status |
+
+**Purpose.** This section justifies the pattern's safeguards. It is not an additional operational checklist. The Solution, Conformance Checklist, worked slices, and Relations above carry the live pattern discipline.
+
+**Positive SoTA role.** Use CSC when a weaker readable rendering is still worth using in project work, but only for a narrower supported use and without pretending that the rendering carries the fuller-source side's support.
+
+| Claim need | Source idea / current source | Current source locus | Local FPF invariant / practical local test | Adopted/adapted invariant / rejected shortcut |
 | --- | --- | --- | --- | --- |
-| Fluent summaries and generated renderings can be useful while remaining weaker than source support. | Summarization and factuality work separates fluency from faithfulness, attribution, and fine-grained source support. | Maynez et al. (2020), *On Faithfulness and Factuality in Abstractive Summarization*; Min et al. (2023), *FActScore*; Es et al. (2023), *RAGAS*. | `A.6.3.CSC` adopts the source-support distinction by separating source pointer present, source used, source faithful, claim supported, independent verification, supported use, and audience-over-read risk. | **Adopt/Adapt.** Adopt the warning against fluent unsupported output; adapt it into a lightweight FPF card so ordinary summaries are not forced into full evaluation studies. |
-| Redaction and de-identification reduce exposure without deleting accountability or audit questions. | Privacy-risk and de-identification guidance treats disclosure boundary, residual risk, and governance context as part of safe release. | NIST SP 800-188, *De-Identifying Government Datasets* (2023). | The privacy/redaction branch requires sharing boundary, withheld distinctions, fuller-source review path, and unsupported accountability or gate uses. | **Adapt.** Use privacy governance as a safeguard for bounded disclosure while rejecting redaction-as-closure. |
-| Views, representations, and relation kinds remain load-bearing even when a surface is made easier to read. | Architecture-description and model-based practice make viewpoint, view, model kind, and traceable relation explicit rather than treating a clearer view as neutral formatting. | ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025). | The pattern keeps coarsening distinct from representation transduction, explanation profiling, comparative reading, bridge cards, bridge-stance overlays, and work/gate authority. | **Adopt/Adapt.** Adopt explicit view/relation discipline; adapt it to same-lineage weaker renderings and neighbor exits. |
-| Data and interoperability publication practice distinguishes discoverability, metadata, validation, and exchange from authority to substitute one object for another. | Web-data and semantic-web standards separate catalog metadata, provenance, structural metadata, and validation conditions from the data or relation itself. | W3C Data on the Web Best Practices (2017); W3C SHACL (2017); W3C DCAT v3 (2024). | Exceptional interop simplification must name its relation kind and hand equivalence, substitution, projection, or bridge pressure to `E.17.ID.CR`, `F.9`, or `F.9.1`. | **Adapt/Reject.** Adapt explicit metadata and validation discipline; reject using a simplified relation gloss as support for bridge/substitution use. |
-| Explanation usefulness depends on the user and can be over-read as authority it does not carry. | Explainable-AI practice treats explanation as audience-facing support with limits, not as a universal guarantee. | NIST IR 8312, *Four Principles of Explainable Artificial Intelligence* (2021). | `audienceOverReadRisk` and source reopen keep helpful prose subordinate to the fuller source episteme/publication when stakes rise. | **Adopt/Adapt.** Adopt user-sensitive explanation limits; adapt them to FPF coarsening cases where a rendering is useful but not authoritative for downstream use. |
+| Fluent summaries and generated renderings can be useful while remaining weaker than source support. | Summarization and factuality work separates fluency from faithfulness, attribution, and fine-grained source support. | Maynez et al. (2020), *On Faithfulness and Factuality in Abstractive Summarization*; Min et al. (2023), *FActScore*; Es et al. (2023), *RAGAS*; source maturity = research papers and evaluation practice supporting evaluation posture. | `A.6.3.CSC` adopts the `E.17:5.1b` source-support distinction by separating source pointer, source availability/retrieval, source use, source faithfulness, claim support, contradiction, plausibility-only, omission, weakening, strengthening, added linkage, independent verification, supported use, forbidden downstream use, and reopen trigger. | **Adopt/Adapt.** Adopt the warning against fluent unsupported output; adapt it into a lightweight FPF card so ordinary summaries are not forced into full evaluation studies. |
+| Redaction and de-identification reduce exposure without deleting accountability or audit questions. | Privacy-risk and de-identification guidance treats disclosure boundary, residual risk, and governance context as part of safe release. | NIST SP 800-188, *De-Identifying Government Datasets* (2023); source maturity = current government guidance. | The privacy/redaction branch requires sharing boundary, withheld distinctions, fuller-source review path, and unsupported accountability or gate uses. | **Adapt.** Use privacy governance as a safeguard for bounded disclosure while rejecting redaction-as-closure. |
+| Views, representations, and relation kinds remain load-bearing even when a publication face or rendering is made easier to read. | Architecture-description and model-based practice make viewpoint, view, model kind, and traceable relation explicit rather than treating a clearer view as neutral formatting. | ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025); source maturity = mature standard plus current technical specification. | The pattern keeps coarsening distinct from representation transduction, explanation profiling, comparative reading, bridge cards, bridge-stance overlays, and work/gate authority. | **Adopt/Adapt.** Adopt explicit view/relation discipline; adapt it to same-lineage weaker renderings and neighbor exits. |
+| Data and interoperability publication practice distinguishes discoverability, metadata, validation, and exchange from authority to substitute one object for another. | Web-data and semantic-web standards separate catalog metadata, provenance, structural metadata, and validation conditions from the data or relation itself. | W3C Data on the Web Best Practices (2017); W3C SHACL (2017); W3C DCAT v3 (2024); source maturity = mature web standards/recommendations for metadata, validation, and catalog interoperability. | Exceptional interop simplification must name its relation kind and hand equivalence, substitution, projection, or bridge pressure to `E.17.ID.CR`, `F.9`, or `F.9.1`. | **Adapt/Reject.** Adapt explicit metadata and validation discipline; reject using a simplified relation gloss as support for bridge/substitution use. |
+| Explanation usefulness depends on the user and can be over-read as authority it does not carry. | Explainable-AI practice treats explanation as audience-facing support with limits, not as a universal guarantee. | NIST IR 8312, *Four Principles of Explainable Artificial Intelligence* (2021); source maturity = current government guidance. | `audienceOverReadRisk` and source reopen keep helpful prose subordinate to the fuller-source side when stakes rise. | **Adopt/Adapt.** Adopt user-sensitive explanation limits; adapt them to FPF coarsening cases where a rendering is useful but not authoritative for downstream use. |
 
-The practical implication is the same across these traditions: weak readable surfaces are valuable, but their supported use depends on source support, relation kind, validation evidence, audience, and reopen path. The worked slices in `A.6.3.CSC:5.1` are the nearest recovery anchors for those SoTA rows.
+The practical implication is the same across these traditions: weak readable publication faces or renderings are valuable, but their supported use depends on source support, relation kind, validation evidence, audience, and reopen path. The worked slices in `A.6.3.CSC:5.1` are the nearest recovery anchors for those SoTA rows.
+
+**Semantic-web boundary.** In the W3C row, Data on the Web, SHACL, and DCAT support publication metadata, provenance, validation, cataloging, and interoperability. They do not by themselves support work occurrence, gate passage, bridge/substitution use, equivalence, release permission, or project claim support; those uses require the governing pattern or project source record that carries that claim.
 
 ### A.6.3.CSC:12 - Relations
 
-- **Specializes:** `A.6.3 U.EpistemicViewing` for deliberate weakening across a source/rendering relation.
+- **Specializes:** `A.6.3 U.EpistemicViewing` for same-lineage weakening across a source/rendering relation.
 - **Coordinates with:** `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR`, `F.9`, `F.9.1`, `A.15`, `A.6.4`, `A.20`, and `A.21`.
 - **Does not replace:** conservative retextualization, representation transduction, explanation profiling, bounded comparative reading, bridge-card discipline, stance overlay, changed-object discipline, work authority, gate authority, or adjudication authority.
 - **Entry relation:** neighboring patterns may hand off here when a weaker rendering's narrower-use, unsupported-use, and reopen card becomes the primary question.
@@ -10509,7 +10552,7 @@ The practical implication is the same across these traditions: weak readable sur
 
 ### A.6.3.CSC:12a - Boundary with quantum-like state-representation coarsening
 
-Use CSC first when a fuller source episteme/publication, model, state representation, or evidence set is deliberately made less detailed for a narrower use: summary, dashboard row, orientation note, partner-safe version, simplified diagram, or coarse working description. Ordinary controlled simplification remains CSC even when it is lossy.
+Use CSC first when one fuller-source side, model, state representation, or evidence set is made less detailed for a narrower use, or when review discovers that a target already in circulation can be retained only under a weaker-use card: summary, dashboard row, orientation note, partner-safe version, simplified diagram, or coarse working description. Ordinary controlled simplification remains CSC even when it is lossy.
 
 Action path:
 
@@ -10518,7 +10561,7 @@ Action path:
 3. State the lost distinctions, evidence paths, comparability, uncertainty, state dimensions, or alternatives.
 4. State supported use and unsupported use in practical terms.
 5. State when to reopen the fuller source.
-6. If the weaker rendering claims to preserve action, intervention, manipulation, explanation, or cross-level structure, state the causal-abstraction or approximate-causal-abstraction mapping before treating the shortcut as QL coarsening.
+6. If the weaker rendering claims to preserve action, intervention, manipulation, explanation, or cross-abstraction structure, state the causal-abstraction or approximate-causal-abstraction mapping before treating the shortcut as QL coarsening.
 7. Ask whether the shortcut depends on a QL cue such as incompatible probes, contextual probability, instrument-like update, open-information-system update whose update rule, probe frame, or export admissibility is part of the modeling requirement, or no faithful-enough export of the represented state for the supported use. If not, stay in CSC.
 8. If yes, coordinate with the `C.26` state-representation coarsening support section while leaving CSC as the controlled-use boundary for the weakened version.
 
@@ -10527,7 +10570,7 @@ For ordinary use, start with the standard shortcut mini-form:
 
 | Mini-entry | Question |
 | --- | --- |
-| Source | Which fuller source episteme/publication, model, state representation, or evidence set is being weakened? |
+| Source | Which fuller-source side, model, state representation, or evidence set is being weakened? |
 | Shortcut | Which less detailed rendering or working shortcut is used instead? |
 | Loss | Which distinction, evidence path, comparability, uncertainty, state dimension, or alternative is not carried? |
 | Supported use | Which triage, orientation, explanation, or local decision use remains supported? |
@@ -10571,7 +10614,28 @@ Useful outputs:
 
 **What this buys.** One honest same-entity textual rewrite with visible source tether, visible omission or loss notes, and an explicit handoff when the case stops being only conservative retextualization.
 
-**Not this pattern when.** Not this pattern when the case is primarily explanatory rendering (`ExplanationFaithfulnessProfile`), representation-scheme change (`RepresentationTransduction`), changed described entity (`A.6.4`), or a deliberately weakened rendering whose narrower allowed use, forbidden heavier use, and stronger-source reopen card has become primary. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening` instead of resolving it as ordinary `ConservativeRetextualization`.
+**Working action spine.** Same described entity needs a second textual form -> separate source slice, published slice, omission/loss, and supported use -> use the rewrite for readable restatement, source-finding, review, comparison, or planning preparation -> output one source-slice to published-slice sentence or mini-card -> hand off if weakened-use, explanation, representation change, retargeting, work planning, evidence, gate, or authority pressure appears.
+
+**Ordinary use.** If the rewrite only supports orientation, source-finding, review, comparison, or planning preparation, one source-slice to published-slice sentence or mini-card with the supported use and visible omission/loss note is enough.
+
+**Cheap stop before CSC.** If the rewrite is local, source-visible, non-reliance-bearing, and does not change supported use, stay in `ConservativeRetextualization` without opening a `Controlled Semantic Coarsening` card.
+
+**Work-planning boundary.** A rewritten method-selection note, work-planning note, or result-measurement note may improve readability and source-finding, but selected-method support, intended `U.WorkPlan`, actual `U.Work`, and work-result measurement remain governed by `A.15` plus the project source material for that work.
+
+**Load-bearing use.** Open the fuller rewrite-support record only when the rewritten text will be externally relied on, disputed, cited as source support, used across context, or read as release/gate/work preparation, engineering justification, approval, or evidence support.
+
+**Multi-source boundary.** A textual rendering over several source slices stays in this pattern only when every target claim can be recovered from either one already available same-described-entity source line or declared same-described-entity correspondence support. The rewrite may align wording, shorten, translate, filter, or foreground with visible loss notes; it may not add comparative claims, hypotheses, rankings, recommendations, bridge/substitution licence, causal linkage, or a new connective theory. Those pressures leave `ConservativeRetextualization` for `E.17.ID.CR`, `B.5.2` / an abductive prompt, `A.6.4`, `F.9` / `F.9.1`, or `A.6.3.CSC` as applicable.
+
+**Stop condition.** Stop once the rewrite changes no next reading, review, comparison, source-finding, or planning-preparation move and blocks no concrete overclaim about source support, omission, work, gate, approval, or evidence.
+
+**Supported-use examples.**
+
+| Supported project use | Source-finding or reversible probe | Unsupported use |
+| --- | --- | --- |
+| A summary or translation restates the same source claim with visible source slice, published slice, and omission/loss note. | A generated or manager-readable summary helps the team find/check the source before relying on an approval, evidence, gate, work, or engineering-justification claim. | A summary silently adds modality, reliability, approval, evidence, gate support, or work authority that the source slice does not carry. |
+
+
+**Not this pattern when.** Not this pattern when the case is primarily explanatory rendering (`ExplanationFaithfulnessProfile`), representation-scheme change (`RepresentationTransduction`), changed described entity (`A.6.4`), or a deliberately weakened rendering whose narrower allowed use, forbidden heavier use, and fuller-source reopen card has become primary. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening` instead of resolving it as ordinary `ConservativeRetextualization`.
 
 ### A.6.3.CR:1 - Problem frame
 
@@ -10612,7 +10676,7 @@ Without a dedicated pattern for conservative textual re-expression:
 
 #### A.6.3.CR:4.1.a - Pattern, case, and publication distinction
 
-`ConservativeRetextualization` is an **intensional pattern** and a named specialization under `A.6.3`. Concrete same-described-entity rewrites are passive episteme-lane cases or publication texts reviewed under this pattern; the pattern itself does not act, decide, or publish.
+`ConservativeRetextualization` is an **intensional pattern** and a named specialization under `A.6.3`. Concrete same-described-entity rewrites are passive episteme cases or publication texts reviewed under this pattern; the pattern itself does not act, decide, or publish.
 
 This distinction matters because the pattern governs **how** a rewrite is recognised, justified, and checked. It does **not** require every short report paragraph, summary line, or translation sentence to carry a giant standalone record.
 
@@ -10624,7 +10688,9 @@ This pattern repeatedly uses a small working vocabulary.
 - **Ordinary case** = a reviewable same-entity rewrite where source tether, omission notes, and handoff conditions stay readable without a heavyweight review record.
 - **Load-bearing case** = a case where dispute, policy, assurance, required correspondence support, or cross-context reliance makes a fuller record worth publishing.
 
-These terms are only local reading aids. They do not create new governing patterns, new publication faces, or a second semantic rule track.
+`sourceSlice` and `publishedSlice` are local review labels for the source text and the resulting textual rendering in one rewrite case. A `publishedSlice` is not automatically a `U.EpistemePublication`; it becomes one only when the governing publication discipline instantiates it as such.
+
+These terms are only local reading aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `SurfaceKind`, `RelationKind`, evidence kind, project source record, new governing pattern, new publication face, or a second semantic rule track.
 
 #### A.6.3.CR:4.2 - Scope and exclusions
 
@@ -10633,12 +10699,13 @@ These terms are only local reading aids. They do not create new governing patter
 - same-described-entity summary;
 - same-described-entity translation between natural-language textual forms;
 - declared filtering or foregrounding of already-present claims in textual form.
+- correspondence-supported textual synthesis where every target claim remains recoverable to one same-described-entity source line or declared same-described-entity correspondence support.
 
 **Out of scope**
 - any change of `describedEntityRef` or hidden change of described entity (`A.6.4`);
 - explanation-facing renderings whose main purpose is explanatory rendering rather than same-entity rewrite (`ExplanationFaithfulnessProfile`);
 - representation-regime changes such as text→table, text→diagram, or text→latent form (`RepresentationTransduction`);
-- abductive-prompt, bridge-mediated, or action-selection work that introduces new claims rather than restating available ones.
+- comparison, abductive-prompt, ranking, recommendation, bridge-mediated, substitution, or action-selection work that introduces new claims rather than restating available ones.
 
 
 #### A.6.3.CR:4.2.a - Reader guidance
@@ -10654,13 +10721,13 @@ A reviewer usually does not begin by filling every field name. The first useful 
 1. Is the published result still about the same described entity?
 2. Is the result still textual, or has it become explanation or representation change?
 3. Can the reader see what was omitted, softened, or foregrounded?
-4. If correspondence is doing work, is the required correspondence support visible rather than hidden in fluent prose?
+4. If several source slices or correspondence support are doing work, can each target claim be traced to one same-described-entity source line or declared same-described-entity correspondence support?
 5. Is the source only pointed at, or is it actually used and still admissible for the intended use?
 6. If any answer is doubtful, is the handoff target explicit?
 
 If omissions, softening, or filtering are admissible only because the published result is weaker, narrower-use, unsupported for heavier use, and tied to fuller-source return, the case has crossed out of ordinary conservative retextualization even if the prose still looks like a summary. Use `A.6.3.CSC Controlled Semantic Coarsening` for that source/rendering relation.
 
-Here, **fuller-source return** means returning to the stronger source-bearing content, while **handoff** means the governing pattern has changed. A coarsened textual slice may need both.
+Here, **fuller-source return** means returning to the fuller source-bearing content, while **handoff** means the governing pattern has changed. A coarsened textual slice may need both.
 
 Only after these questions are answered does a fuller load-bearing review record usually become worth writing.
 
@@ -10676,7 +10743,7 @@ Most same-described-entity textual rewrites should stay human-usable. This patte
 - where the case exits if it has turned into explanation, representation shift, retargeting, or world/gate-bearing publication content.
 
 **Explicit review record (only for load-bearing cases).** A fuller record is warranted when the case is assurance-facing, gate-adjacent, cross-context, correspondence-heavy, policy-bearing, or likely to be disputed. The record may inherit pattern ids and already-pinned metadata instead of restating them inline. When published, that record normally captures:
-- transform placement (`landingForm = specialization under A.6.3`, `governingPatternRef`, `sourcePublicationOrRecordForm`, `targetPublicationOrRecordForm`, `changeTargetRef`);
+- transform placement (`patternPlacementRef = A.6.3 specialization`, `governingPatternRef`, `sourcePublicationOrRecordForm`, `targetPublicationOrRecordForm`, `changeTargetRef`);
 - preservation context (`describedEntityPolicy = preserve`, `boundedContextPolicy`, `viewpointPolicy`, `referenceSchemePolicy`, `representationSchemePolicy`, `groundingPolicy`, `referencePlanePolicy`);
 - claim and publication discipline (`claimPolicy`, `claimScopePolicy`, `publicationScopePolicy`, `reliabilityTransportPolicy`, `pinningPolicy`, `provenancePolicy`, `lossProfile`);
 - continuity and bridge discipline (`claimContinuityClass`, `microtheoryContinuityClass`, `onticContinuityClass`, `bridgeRequirement`, `conservativityWitness`);
@@ -10688,10 +10755,10 @@ The point of this record is not bureaucratic completion for every paragraph. It 
 #### A.6.3.CR:4.3.a - Ordinary admissibility defaults
 
 Default admissibility for ordinary same-described-entity textual cases:
-- primary admissible faces are `Plain` and `Tech`;
+- primary admissible faces are `PlainView` and `TechCard`;
 - bounded report-only use is admissible when source pins, provenance, loss notes, and same-described-entity conservativity remain visible;
-- `Interop` use is admissible only when the governing publication-face source explicitly permits source-pinned, text-preserving export without added semantics;
-- `Assurance` or gate-bearing use is not default and requires governing publication-face policy plus source-pinned conservativity without hidden strengthening.
+- `InteropCard` use is admissible only when the governing publication-face source explicitly permits source-pinned, text-preserving export without added semantics;
+- `AssuranceLane` or gate-bearing use is not default and requires governing publication-face policy plus source-pinned conservativity without hidden strengthening.
 
 #### A.6.3.CR:4.4 - Direct and correspondence-mediated profiles
 
@@ -10726,7 +10793,7 @@ A case under `ConservativeRetextualization` preserves the same described-entity 
 A reviewed case makes explicit what is omitted, shortened, foregrounded, or attenuated by the rewrite. Reliability transport may remain source-bounded or be explicitly downgraded, but it must never be silently strengthened by cleaner prose, stronger rhetoric, or management-facing polish.
 
 ##### A.6.3.CR:4.5.c. Authority and handoff rule
-A case reviewed under this pattern stays same-entity and episteme-lane. It does not govern explanation governance, bridge stance, retargeting, gate authority, or work enactment. If the rewrite becomes explanatory, bridge-bearing, gate-bearing, or world-facing, the case must hand off to the appropriate downstream governing pattern and say so explicitly.
+A case reviewed under this pattern stays same-entity and episteme. It does not govern explanation governance, bridge stance, retargeting, gate authority, or work enactment. If the rewrite becomes explanatory, bridge-bearing, gate-bearing, or world-facing, the case must hand off to the appropriate downstream governing pattern and say so explicitly.
 
 ##### A.6.3.CR:4.5.d. Composition and reopen rule
 Repeated direct rewrite over the same source line may be idempotent, but heterogeneous rewrites and correspondence-mediated rewrites are generally order-sensitive. A reviewed case must reopen whenever correspondence support, source pins, provenance, admissible-face assumptions, or same-described-entity conservativity stop being explicit.
@@ -10736,9 +10803,9 @@ Correspondence-mediated retextualization does **not** by itself grant bridge lic
 
 ##### A.6.3.CR:4.5.f. Local conservativity witness for borderline textual cases
 For borderline textual rewrites, a reviewer treats the case as no longer conservative under this pattern unless each point below remains visibly preserved or is explicitly loss-declared with the handoff target stated.
-- **Modality and force.** A rewrite may not silently turn possibility, uncertainty, bounded scope, or hypothesis language into stronger commitment.
+- **Modality and force.** A rewrite may not silently turn possibility, uncertainty, permission, obligation, recommendation, decision status, bounded scope, temporal window, or hypothesis language into a stronger commitment.
 - **Caveats and qualifications.** A rewrite may not quietly remove conditions, exception notes, uncertainty markers, or temporal qualifiers that still matter for reading the same source.
-- **Reliability posture.** Cleaner prose, better ordering, or manager-facing polish may not silently raise confidence, warrant strength, or readiness for action.
+- **Reliability posture.** Cleaner prose, better ordering, or manager-facing polish may not silently raise confidence, warrant posture, or readiness for action.
 - **Bridge and substitution support load.** Same-entity textual fluency may not import cross-context equivalence, substitution, or comparative-reading licence unless that support is declared elsewhere.
 - **Alternative preservation.** A rewrite may not collapse open alternatives, rival hypotheses, or declared plurality into one apparently settled reading unless the loss is stated and still admissible under this pattern.
 
@@ -10767,7 +10834,36 @@ This is still an admissible ordinary case even though the short stand-up slice d
 
 This stays ordinary `ConservativeRetextualization` because the omission is declared, the same described entity remains visible, and no separate narrower supported use / unsupported heavier use / fuller-source return card is doing the real work. Ordinary omission alone is not controlled semantic coarsening.
 
+#### A.6.3.CR:5.1.c - Functional-description textual summary
+
+**Source note slice.** `The principle scheme says: choose method family MF-2 for small-batch mixing when material X remains below threshold T; selected method M-2 still requires work plan WP-17 and result measurement RM-4.`
+
+**Published summary slice.** `For small-batch material X below T, method M-2 is the selected method. Work plan WP-17 and result measurement RM-4 remain required.`
+
+This remains `ConservativeRetextualization` because it is a textual restatement of the same described source content and it keeps the work-planning and result-measurement requirements visible. It supports reading and source-finding. It does not by itself provide performed `U.Work`, evidence, gate passage, engineering justification, or control architecture. If the summary drops the work-plan/result-measurement requirements or makes the selected method look executable by summary alone, treat the text as `A.6.3.CSC Controlled Semantic Coarsening` or recover the project source record that actually supports the requested use.
+
+#### A.6.3.CR:5.1.d - Generated-summary source-support variant
+
+A generated or machine-assisted summary may stay in `ConservativeRetextualization` only when it remains a same-described-entity textual re-expression and its source support is visible enough for the intended use. This is the ordinary LLM-generated-summary case: a model-produced paragraph over a pinned inspection note, method-selection note, safety note, incident note, or other source slice is not automatically `ExplanationFaithfulnessProfile` merely because it was generated; it remains `ConservativeRetextualization` only while it restates source content and leaves omissions, loss, and unsupported uses visible. Ordinary source-finding use can stay light; use the compact variant below when the summary will be reused, cited, disputed, or relied on.
+
+| Source-support question | CR-local meaning |
+| --- | --- |
+| source pointer present | The summary points to the source slice or source bundle it claims to restate. |
+| source actually used | The inspectable generation or rewrite path used that source, not merely a similar topic or remembered background. If the path is unavailable, keep the summary source-pointer-only or orientation-only until a source-use path is recovered. |
+| claim supported | Each load-bearing summary claim can be recovered from the source slice or declared correspondence support. |
+| claim merely plausible | A sentence sounds likely but is not recoverable from the source; it must stay orientation-only or leave CR. |
+| omission/loss | Relevant omitted qualifiers, alternatives, caveats, uncertainty, or conditions are visible enough for the supported use. |
+| strengthening | The summary does not turn possibility, hypothesis, bounded scope, or low-confidence wording into a stronger commitment. |
+| added linkage | New causal, bridge, comparison, work, gate, evidence, or explanation links are not introduced as if they were in the source. |
+
+When the generated-summary case needs the shared vocabulary rather than this CR-local question list, read the posture through `E.17:5.1b`: `source-pointer-only`, `source-available`, `source-retrieved`, `source-used`, `source-faithful`, `claim-supported`, `claim-unsupported`, `claim-contradicted`, `claim-plausible-only`, `source-omitted`, `source-weakened`, `claim-strengthened`, `added-linkage`, `independent-verification-present`, `supported-for-this-use`, `downstream-use-forbidden`, and `reopen-trigger-present`.
+
+The summary may expose or cite the source slice it restates. It does not become that source slice by fluency, brevity, translation, layout, generated form, or reuse. If the source slice or required project source support is missing, a repair/request/source-gap record is only prospective; it does not retroactively make the earlier summary source-supported.
+
+If the generated summary is source-pointer-only, merely plausible, strengthened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. Either keep it as source-finding/orientation, repair it against the source, or hand off to `A.6.3.CSC`, `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `E.17.ID.CR`, `A.15`, `A.10`, or another exact governing pattern according to the live claim.
+
 #### A.6.3.CR:5.2 - Same-described-entity rewrite via declared correspondence
+
 
 **Source design slice.** `Cooling loop CL-2 preserves safe temperature margins during standard load.`
 
@@ -10775,7 +10871,7 @@ This stays ordinary `ConservativeRetextualization` because the omission is decla
 
 **Published joint-review slice.** `For standard load, Cooling loop CL-2 is described in both the design and safety views as maintaining the required temperature condition. This summary relies on CorrespondenceModel CM-12 and does not add claims beyond that declared overlap.`
 
-The synthesis may stay in this pattern only if the source relation remains explicit and the text does not silently strengthen claims beyond the declared correspondence-supported overlap. Because correspondence support is load-bearing here, a fuller explicit review record is usually warranted.
+The synthesis may stay in this pattern only if the source relation remains explicit, every target claim remains recoverable to the design slice, the safety slice, or the declared `CorrespondenceModel`, and the text does not silently strengthen claims beyond the declared same-described-entity overlap. Because correspondence support is load-bearing here, a fuller explicit review record is usually warranted.
 
 #### A.6.3.CR:5.2.b - Cross-language re-expression without hidden bridge work
 **Source slice.** `The backup controller stays in passive watch mode until the primary loop fails two consecutive heartbeat checks.`
@@ -10817,7 +10913,7 @@ This pattern intentionally biases toward same-entity conservativity and away fro
    If correspondence-mediated, `CorrespondenceModelRef` is declared.
 6. **CC-CR-6 — Local conservativity witness remains satisfied.**
    The reviewed case does not silently strengthen modality, remove caveats, raise reliability posture, import bridge or substitution licence, or collapse declared alternatives beyond stated loss notes.
-7. **CC-CR-7 — Reroute path is explicit on failure.**
+7. **CC-CR-7 — Handoff path is explicit on failure.**
    If the case fails any of the checks above, the handoff target is explicit (`ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `A.6.4`, `B.5.2`, or another governing pattern).
 8. **CC-CR-8 — Working-model first remains intact.**
    Ordinary same-entity rewrites stay lightweight; fuller explicit review records are reserved for load-bearing cases.
@@ -10843,24 +10939,24 @@ This pattern intentionally biases toward same-entity conservativity and away fro
 
 This pattern is worth splitting out because same-entity textual re-expression is common, useful, and safer than many neighboring transform families when it stays explicitly conservative. Keeping it under `A.6.3` as a named specialization preserves governing-pattern boundary while making a recurring authoring move easier to review, while still respecting E.14’s working-model-first discipline for ordinary cases.
 
-### A.6.3.CR:11 - SoTA-Echoing
+### A.6.3.CR:11 - SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts
 
-**SoTA note.** This section does not mint an independent second rule track. It is a load-bearing alignment section: the Solution, Conformance Checklist, boundary rules, and Relations of this pattern must match the stance stated here or explicitly justify any divergence.
+**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 
 **Traditions covered.** This pattern binds itself to architecture-description governance, summarization factuality, translation-quality governance, and plain-language rewrite practice.
 
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `A.6.3.CR` | Adoption status |
+| Claim need | Source idea / current source | Current source locus | Local FPF invariant / practical local test | Adopted/adapted invariant / rejected shortcut |
 |---|---|---|---|---|
-| Conservative rewrite must stay visibly tied to the same described content rather than shifting through presentation fluency. | Architecture-description practice separates source publication, view, viewpoint, and required correspondence support instead of letting rendered prose silently change the described entity. | ISO/IEC/IEEE 42010:2022 | `A.6.3.CR` keeps same-described-entity textual restatement under `A.6.3`, requires explicit handoff when `describedEntityRef` changes, and keeps bridge support load out of fluent rewrite. | **Adopt.** |
-| Summary-like rewriting is not automatically harmless; factuality and faithfulness need source-sensitive checking. | Modern summarization work treats unsupported compression, strengthening, and hallucinated linkage as core failure modes rather than editorial noise. | Maynez et al. (2020), *On Faithfulness and Factuality in Abstractive Summarization* | `A.6.3.CR` adopts that stance and adapts it to FPF by making omission, reliability posture, and same-entity bounds explicit review concerns. | **Adopt/Adapt.** |
-| Translation quality is governed through declared quality aspects such as accuracy, omission, and addition rather than by fluency alone. | Translation-quality governance separates adequacy from text smoothness and requires explicit treatment of omission/addition error classes. | Lommel et al. (2018), *MQM: A Framework for Declaring Translation Quality Metrics* | `A.6.3.CR` adapts this by treating correspondence-mediated and cross-language rewrites as admissible only when loss, provenance, and same-entity bounds stay explicit. | **Adapt.** |
-| Plain-language rewrite may improve readability, but it must not silently change commitments, scope, or force. | Plain-language standards favour reader-oriented rewriting while preserving the original commitments and conditions that matter for use. | ISO 24495-1:2023 | `A.6.3.CR` adopts reader-oriented simplification for ordinary cases and rejects the popular shortcut that “plainer text” alone proves conservativity. | **Adopt/Reject-popular-shortcut.** |
+| Conservative rewrite must stay visibly tied to the same described content rather than shifting through presentation fluency. | Architecture-description practice separates source publication, view, viewpoint, and required correspondence support instead of letting rendered prose silently change the described entity. | ISO/IEC/IEEE 42010:2022; source maturity = mature standard | `A.6.3.CR` keeps same-described-entity textual restatement under `A.6.3`, requires explicit handoff when `describedEntityRef` changes, and keeps bridge support load out of fluent rewrite. | **Adopt.** |
+| Summary-like rewriting is not automatically harmless; factuality and faithfulness need source-sensitive checking. | Modern summarization work treats unsupported compression, strengthening, and hallucinated linkage as core failure modes rather than editorial noise. | Maynez et al. (2020), *On Faithfulness and Factuality in Abstractive Summarization*; source maturity = research paper supporting evaluation posture | `A.6.3.CR` adopts that stance and adapts it to FPF by making omission, reliability posture, and same-entity bounds explicit review concerns. | **Adopt/Adapt.** |
+| Translation quality is governed through declared quality aspects such as accuracy, omission, and addition rather than by fluency alone. | Translation-quality governance separates adequacy from text smoothness and requires explicit treatment of omission/addition error classes. | W3C Multidimensional Quality Metrics (MQM) Community Group / MQM issue-type framework: ongoing framework and community practice, with stable issue-type work and current attention to human, machine, and generative-AI translation quality evaluation. | `A.6.3.CR` adapts this by treating correspondence-mediated and cross-language rewrites as admissible only when loss, provenance, and same-entity bounds stay explicit. | **Adapt; source maturity = ongoing framework/community practice.** |
+| Plain-language rewrite may improve readability, but it must not silently change commitments, scope, or force. | Plain-language standards favour reader-oriented rewriting while preserving the original commitments and conditions that matter for use. | ISO 24495-1:2023; source maturity = mature standard | `A.6.3.CR` adopts reader-oriented simplification for ordinary cases and rejects the popular shortcut that “plainer text” alone proves conservativity. | **Adopt/Reject-popular-shortcut.** |
 
 **Architecture-description governance.** `A.6.3.CR` adopts the discipline that rendered text must stay visibly tied to a declared source/view line. It therefore rejects same-topic textual polish as sufficient evidence of same-described-entity conservativity.
 
-**Summarization factuality.** `A.6.3.CR` adapts modern factuality concerns into a local conservativity witness: unsupported strengthening, hidden omission, and rhetorical uplift are treated as load-bearing failures, not as style noise.
+**Summarization factuality.** `A.6.3.CR` adapts modern factuality concerns into a local conservativity witness: source pointer, source actually used, claim support, contradiction, plausible-but-unsupported claim, omission/loss, weakening, strengthening, added linkage, independent verification, supported use, forbidden downstream use, and reopen trigger are treated as reviewable support distinctions, not as style noise. The shared source-support vocabulary is `E.17:5.1b`; the shared use-boundary terms are `E.17:5.1c`; the primary-pressure chooser is `E.17:5.1d`. This pattern uses them only for same-described-entity textual restatement.
 
-**Translation and plain-language traditions.** `A.6.3.CR` adopts the reader-oriented value of translation and plain rewrite, but rejects the still-popular habit of treating cross-language or plain-language textual fluency as automatic proof that no new claim has been introduced.
+**Translation and plain-language traditions.** `A.6.3.CR` adopts the reader-oriented value of translation and plain rewrite, but rejects the still-popular habit of treating cross-language or plain-language textual fluency as automatic proof that no new claim has been introduced. The W3C MQM source is used for issue-type and evaluation discipline, not as a brand-level warrant that a translated or rewritten sentence is source-equivalent.
 
 **Local stance.** Best-known current practice supports a narrow rule: same-described-entity textual restatement is admissible only when source tether, loss, provenance, and same-entity bounds remain explicit enough that the reader can still tell what was preserved, what was omitted, and when the case must exit to another governing pattern.
 
@@ -10878,10 +10974,11 @@ This pattern is worth splitting out because same-entity textual re-expression is
 **Placement.** Specialization under `A.6.3 U.EpistemicViewing` for same-described-entity representation-scheme transition.
 **Builds on.** `A.6.3 U.EpistemicViewing`; `A.6.2 U.EffectFreeEpistemicMorphing`; `A.7`; `E.10.D2`; `C.2.7`; `E.17.0`; `E.17`; `F.9`; `F.18`.
 **Coordinates with.** `ConservativeRetextualization`; `ExplanationFaithfulnessProfile`; `E.17.ID.CR ComparativeReading`; `A.6.4 U.EpistemicRetargeting`; `A.15`; `A.20`; `A.21`; explicit decoding-access review.
+**Name boundary.** In this pattern, `RepresentationTransduction` names an `A.6.3 U.EpistemicViewing` specialization for a same-described-entity transition across declared representation schemes or reasoning media. It is not an `E.18` Transduction Graph Architecture node, not a TGA graph edge, not a method/work process, and not a changed-function or control-architecture claim.
 
 **One-line summary.** `RepresentationTransduction` is a same-described-entity shift in representation scheme that stays inside `A.6.3 U.EpistemicViewing`: it may move between prose, table, diagram, structured notation, or another declared representation regime, but it does **not** silently change `describedEntityRef`, promote geometry or notation into ontology-by-default, or hide decode-mediated recoverability behind rendering fluency.
 
-**Governed object in plain terms.** One published rendering of the same described entity in a different representation scheme or reasoning medium; not the whole source corpus, not a new ontology, and not a carrier-operation workflow.
+**Governed object in plain terms.** One published rendering of the same described entity in a different representation scheme or reasoning medium; not the whole source corpus, not a new ontology, and not carrier-operation work.
 **Governing move in plain terms.** Change representation scheme while keeping same-described-entity support reviewable, factor deltas visible, and handoff explicit when the case has become explanation, retargeting, bridge work, or a weaker-use card.
 
 **Use this when.** Use this pattern when the same described entity needs to move across representation schemes or reasoning media such as prose, table, diagram, or structured notation, and the real job is still the representation shift rather than explanation, retargeting, or downstream action.
@@ -10892,7 +10989,35 @@ This pattern is worth splitting out because same-entity textual re-expression is
 
 **What this buys.** One honest same-described-entity representation shift with visible source tether, visible factor and reasoning-medium change, and an explicit handoff when the case stops being ordinary representation transduction.
 
-**Not this pattern when.** Not this pattern when only wording changes (`ConservativeRetextualization`), explanation becomes primary (`ExplanationFaithfulnessProfile`), the described entity changes (`A.6.4`), or the target stays honest only by carrying its own narrower use, unsupported use, and stronger-source reopen card because deliberate attenuation has become the governing issue. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening` instead of resolving it as ordinary `RepresentationTransduction`.
+**Working action spine.** Same described entity appears in a new representation scheme -> separate described entity, representation scheme, reasoning medium, and supported use -> use the rendering for inspection, source-finding, comparison, or planning preparation -> output the ordinary three-line test or fuller representation-support record when pressure is live -> hand off if action/work, evidence, gate, explanation, retargeting, bridge, carrier, or weaker-use pressure appears.
+
+**Ordinary use.** If the artifact only supports inspection, source-finding, comparison, or planning preparation, keep the record to the same described entity, the representation-scheme change, and the supported/unsupported use.
+
+**Ordinary three-line test.**
+1. Is the described entity still the same?
+2. What representation scheme or reasoning medium changed?
+3. What use remains supported, and what stronger use is not supported?
+
+**Action/work boundary.** A representation shift may support method inspection or work-planning preparation, but the source for intended or actual work remains `A.15` plus the project source material that governs that work claim.
+
+**Load-bearing use.** Open the fuller representation-support record only when the shifted representation will be externally relied on, disputed, cited as support, used across context, treated as gate/release/work preparation support, or carried through a decode-mediated or latent access path.
+
+**Representation-validity grounding.** Recoverability is recoverability for one declared supported use, not a general property of the target representation. A diagram, table, notation, decoded output, or model-state rendering may be recoverable enough for inspection or technical review when target relations trace back to source anchors and loss notes, while still being insufficient for work-planning reliance, gate/release reliance, evidence reliance, assurance reliance, or engineering justification. For any such reliance use, this pattern supplies only same-entity correspondence support; the operative project source must come from the governing source relation such as `A.15`, `A.10`, `A.20`, `A.21`, `B.3`, `E.17.EFP`, `E.17.ID.CR`, `F.9`, or `F.9.1` as applicable. When the shifted representation will carry load-bearing use, state the support path that makes that exact use admissible: source tether, recoverability target, decode path where needed, evidence class, any probe or intervention support claimed, and the `E.17:5.1b` source-support posture when source pointer, source availability/retrieval, source use, source faithfulness, claim support, contradiction, omission, strengthening, or reopen trigger could diverge. Use `E.17:5.1c` for the shared use-boundary meanings of `orientation use`, `reliance use`, `operative claim`, `unsupported downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary live question may belong to ordinary textual restatement, coarsening, explanation, comparison, bridge/substitution, work/reliance, gate, evidence, assurance, retargeting, or carrier/front-end work.
+
+A table, diagram, notation, decoded output, or model-state rendering may expose or cite its source support. It does not become that source support, architecture, ontology, evidence, gate, or work source by visual clarity, geometry, notation, proximity, or reuse. If the needed support path is missing, a repair/request/source-gap record or future evidence-work plan is prospective only; it does not retroactively make the earlier representation shift supported.
+
+
+
+**Stop condition.** Stop once the representation shift changes no next inspection, comparison, source-finding, or planning-preparation move and blocks no concrete overclaim about the represented entity, source support, work, gate, or evidence.
+
+**Supported-use examples.**
+
+| Supported project use | Source-finding or reversible probe | Unsupported use |
+| --- | --- | --- |
+| A table or diagram makes the same described entity easier to inspect while the source tether and representation-scheme change stay visible. | A diagram helps reversible planning or source inspection while the team checks recoverability, source anchors, or decode path before stronger use. | A diagram, geometry, table, or notation is treated as architecture, ontology, evidence, gate passage, work authority, or engineering justification by visual form alone. |
+
+
+**Not this pattern when.** Not this pattern when only wording changes (`ConservativeRetextualization`), explanation becomes primary (`ExplanationFaithfulnessProfile`), the described entity changes (`A.6.4`), or the target stays honest only by carrying its own narrower use, unsupported use, and fuller-source reopen card because deliberate attenuation has become the governing issue. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening` instead of resolving it as ordinary `RepresentationTransduction`.
 
 ### A.6.3.RT:1 - Problem frame
 
@@ -10933,13 +11058,13 @@ Without a dedicated named pattern for representation-scheme transitions:
 
 #### A.6.3.RT:4.1.a - Pattern, case, and published rendering distinction
 
-`RepresentationTransduction` is an **intensional pattern** and a named specialization under `A.6.3`. Concrete same-described-entity representation changes are passive episteme-lane cases or published renderings reviewed under this pattern; the pattern itself does not act, decide, or publish.
+`RepresentationTransduction` is an **intensional pattern** and a named specialization under `A.6.3`. Concrete same-described-entity representation changes are passive episteme cases or published renderings reviewed under this pattern; the pattern itself does not act, decide, or publish.
 
 This distinction matters because the pattern governs **how** a representation change is recognised, justified, and checked. It does **not** turn every table, diagram, or structured notation into a giant standalone review record, and it does not reduce review to a mechanical reformatting step.
 
 #### A.6.3.RT:4.1.b - Local working vocabulary
 
-This pattern uses a small local vocabulary for review.
+Use this vocabulary only after the ordinary three-line test leaves a live ambiguity or a load-bearing pressure. Ordinary text-to-table, table-to-diagram, or diagram-to-notation cases do not need every term below; use only the term that changes the next representation decision or blocks a concrete overclaim.
 - **Representation scheme** = the published form in which the same entity is rendered (for example prose, table, diagram, or structured notation).
 - **Reasoning medium** = the form-specific inspection possibilities readers actually use when inspecting the published rendering.
 - **Semiotic mode** = what kind of meaning-bearing support is doing the main work in the rendering, such as structural likeness, trace/index, conventional code, model-mediated correspondence, or decode-mediated recoverability.
@@ -10947,10 +11072,23 @@ This pattern uses a small local vocabulary for review.
 - **Source tether** = the visible link back to pinned or otherwise reviewable source episteme content that keeps same-entity support honest.
 - **Decode-mediated case** = a case where explicit access to the target representation depends on a declared decoding path rather than direct reading from already published source content.
 - **actionabilityShift** = a changed reader action-possibility reading or apparent readiness created by the rendering. It is not execution authority, gate status, action invitation, work authority, or proof that work may proceed.
-- **recoverabilityEvidenceClass** = a load-bearing evidence class for decode-mediated or latent cases. It is not required for ordinary non-latent representation shifts unless recoverability pressure is live.
-- **Load-bearing support posture** = the extra support needed only when the representation shift is disputed, assurance-facing, gate-adjacent, externally relied on, decode-mediated, or likely to invite stronger use: claim support posture, uncertainty or abstention posture, independent verification question, audience overread risk, anti-overread condition, or recoverability evidence.
+- **recoverabilityEvidenceClass** = a local review field naming the recoverability evidence support needed for decode-mediated or latent cases. It is not an `EvidenceKind`, and it is not required for ordinary non-latent representation shifts unless recoverability pressure is live.
+- **representationValiditySupportPosture** = a local support-posture value used only when the representation shift is disputed, assurance-facing, gate-adjacent, externally relied on, decode-mediated, or likely to invite stronger use. It says what the shifted representation may support now; it is not a score, ordered rank, promotion sequence, ontology class, evidence class, or authority source.
+- **sourceSupportPosture** = the shared `E.17:5.1b` vocabulary used beside representation-validity posture when the source relation itself is under pressure: pointer-only, available, retrieved, used, faithful, supported, unsupported, contradicted, plausible-only, omitted, weakened, strengthened, added-linkage, independently verified, supported-for-this-use, downstream-use-forbidden, or reopen-trigger-present.
 
-These terms are local review aids. They do not create a new face family or a new ontology governing pattern.
+| representationValiditySupportPosture | What it supports | Required support | Shortcut rejected |
+| --- | --- | --- | --- |
+| `readability-only` | Inspection, discussion, source-finding, or planning preparation. | Source tether and unsupported stronger-use line. | Clearer rendering means stronger claim. |
+| `source-recoverable` | The reader can trace target relations back to source anchors. | Source anchors, loss/provenance note, and recoverability statement. | Target form replaces source support. |
+| `structure-preserving` | Technical review of preserved relation structure. | Declared relation structure, preservation witness, and no-new-claim check. | Diagram/topology defines ontology by form. |
+| `decode-supported` | Bounded decode-mediated report or review. | Decode path, `recoverabilityEvidenceClass`, and recoverability target. | Readable decode output is direct givenness. |
+| `probe/intervention-supported` | Bounded representation-to-property or representation-to-behavior claim. | Probe evidence, intervention evidence, or causal-abstraction support that names the exact supported use. | Probe confidence or intervention success becomes general ontology. |
+| `source-equivalent / bridge-supported` | Stronger equivalence, substitution, or bridge use only where another governing pattern supplies it. | Existing bridge/equivalence/substitution support outside RT, with the handoff named. | RT itself grants source equivalence or substitution. |
+
+
+**Recoverability-for-use rule.** If the declared supported use is inspection, source-finding, comparison, or technical review, `RepresentationTransduction` can close with same-described-entity preservation, source tether, representation-scheme delta, and loss/recoverability notes. If the declared supported use is work-planning preparation, this pattern supports only reversible preparation until `A.15` supplies the role/method/plan/work source relation. If the declared supported use is evidence/currentness, gate/release, assurance, commitment, bridge/substitution, or engineering justification, the case must name the downstream governing source relation; otherwise the target representation remains orientation or review support only.
+
+These terms are local review aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `SurfaceKind`, `RelationKind`, `KindBridge`, `MechanismKind`, `EvidenceKind`, project source record, new face family, or new ontology governing pattern.
 
 #### A.6.3.RT:4.2 - Scope and exclusions
 
@@ -10958,6 +11096,7 @@ These terms are local review aids. They do not create a new face family or a new
 - text-to-table shift over the same described entity;
 - table-to-diagram shift over the same described entity;
 - diagram-to-structured-notation shift where the represented entity and claim-bearing source content stay preserved;
+- functional-description diagrams, tables, screens, or notations when the same described entity remains fixed and the main change is representation scheme or reasoning medium;
 - other same-entity representation-scheme changes with explicit recoverability discipline.
 
 **Out of scope**
@@ -10981,13 +11120,13 @@ Use this pattern when the described entity stays fixed but the published result 
 A reviewer usually starts with five questions:
 1. Is the described entity still the same, or has the described entity shifted?
 2. What changed in representation scheme and reasoning medium?
-3. Can the target still be tethered back to pinned source content strongly enough for same-entity reading?
+3. Can the target still be tethered back to pinned source content with enough specificity for the declared supported use?
 4. Has the case quietly become explanation, bridge-bearing comparison, retargeting, or carrier work?
-5. If decoding is involved, is the evidence class strong enough for the target face and permitted use class?
+5. If decoding is involved, is the evidence class adequate for the declared supported use rather than only for readable review?
 
 If the representation shift is no longer the main review problem, and the target instead stays honest only by carrying a weaker-use card with unsupported heavier use and reopen duty, the case has crossed out of ordinary representation transduction even if the new form still looks like a neat table, diagram, or notation. Use `A.6.3.CSC Controlled Semantic Coarsening` for that source/rendering relation.
 
-Here, **reopen** means return to the stronger-source-bearing content, while **handoff** means the governing pattern has changed. A coarsened representation may need both.
+Here, **reopen** means return to the fuller-source-bearing content, while **handoff** means the governing pattern has changed. A coarsened representation may need both.
 
 Only after these questions are answered clearly does a fuller load-bearing review record normally become necessary.
 #### A.6.3.RT:4.3 - Working-model first; explicit review record only when the case is load-bearing
@@ -11003,21 +11142,21 @@ Most same-described-entity representation shifts should stay human-usable and re
 - where the case exits if it has turned into explanation, retargeting, bridge-bearing comparison, carrier work, decode-mediated reconstruction with insufficient support, or a separate weaker-use / unsupported-use / reopen card whose primary review question is no longer the representation shift.
 
 **Explicit review record (only for load-bearing cases).** A fuller record is warranted when the case is assurance-facing, gate-adjacent, cross-context, correspondence-heavy, decode-mediated, policy-bearing, or likely to be disputed. The record may inherit pattern ids and already-pinned metadata instead of restating them inline. When published, that record normally captures:
-- transform placement (`landingForm = specialization under A.6.3`, `governingPatternRef`, `sourcePublicationOrRecordForm`, `targetPublicationOrRecordForm`, `changeTargetRef`);
+- transform placement (`patternPlacementRef = A.6.3 specialization`, `governingFpfLocusRef`, `sourcePublicationOrRecordForm`, `targetPublicationOrRecordForm`, `changeTargetRef`);
 - preservation context (`describedEntityPolicy = preserve`, `boundedContextPolicy`, `viewpointPolicy`, `referenceSchemePolicy`, `representationSchemePolicy`, `groundingPolicy`, `referencePlanePolicy`);
 - claim and publication discipline (`claimPolicy`, `claimScopePolicy`, `publicationScopePolicy`, `reliabilityTransportPolicy`, `pinningPolicy`, `provenancePolicy`, `lossProfile`);
 - continuity and bridge discipline (`claimContinuityClass`, `microtheoryContinuityClass`, `onticContinuityClass`, `bridgeRequirement`);
 - downstream and admissibility discipline (`worldContactPolicy`, `evidencePolicy`, `gatePolicy`, `workCrossing`, `upstreamGoverningPatternRef`, `downstreamGoverningPatternRef`, `admissibleFaces`, `admissiblePublicationRenderings`, `compositionRule`, `reopenCondition`);
-- representation and recoverability discipline (`representationFactorDelta`, `inferenceRegimeDelta`, `semioticModePrimary?`, `semioticModeSupport?`, `semioticModeShift?`, `modeOverreadRisk?`, `salienceShift?`, `topologyShift?`, `supportedUseShift?`, `calibrationShift?`, `interactivityShift?`, `onticScaffoldPreservation`, `onticRecoverabilityClass`, `onticRecoverabilityMode`, `recoverabilityEvidenceClass`, `decodeMechanismRef`, `CorrespondenceModelRef?` where needed);
+- representation and recoverability discipline (`representationValiditySupportPosture`, `representationFactorDelta`, `inferenceRegimeDelta`, `semioticModePrimary?`, `semioticModeSupport?`, `semioticModeShift?`, `modeOverreadRisk?`, `salienceShift?`, `topologyShift?`, `supportedUseShift?`, `calibrationShift?`, `interactivityShift?`, `onticScaffoldPreservation`, `onticRecoverabilityClass`, `onticRecoverabilityMode`, `recoverabilityEvidenceClass`, `decodeMechanismRef`, `CorrespondenceModelRef?` where needed);
 - naming and presentation discipline (`publicNamePolicy`).
 
 #### A.6.3.RT:4.3.a - Working admissibility defaults
 
 By default in this pattern:
-- primary admissible faces for non-latent cases are `Plain` and `Tech`;
+- primary admissible faces for non-latent cases are `PlainView` and `TechCard`;
 - bounded report-only use is admissible when source pins, provenance, loss notes, and same-described-entity support remain visible, and when the target is not relying on one separate weaker-use card to remain honest;
-- `Interop` use is admissible only when the governing publication-face source explicitly permits source-pinned, structure-preserving export without added semantics;
-- `Assurance` or gate-bearing use is not default and requires governing publication-face policy plus source-pinned same-entity support;
+- `InteropCard` use is admissible only when the governing publication-face source explicitly permits source-pinned, structure-preserving export without added semantics;
+- `AssuranceLane` or gate-bearing use is not default and requires governing publication-face policy plus source-pinned same-entity support;
 - latent/distributed variants remain bounded until explicit recoverability evidence and decode-path discipline are published.
 
 #### A.6.3.RT:4.4 - Direct and correspondence-mediated profiles
@@ -11062,13 +11201,13 @@ For this pattern, a new intensional claim is introduced when the target renderin
 - collapses source alternatives, uncertainty, or bounded scope into one stronger commitment;
 - or treats decode-mediated recoverability as if it were direct givenness.
 
-Conservativity is approximated here by checking, together, `describedEntityPolicy = preserve`, source-tether strength, factor delta, reasoning-medium delta, loss profile, ontic scaffold preservation, and whether each target-side connective can be pointed back to pinned source episteme content or declared same-entity correspondence support.
+Conservativity is approximated here by checking, together, `describedEntityPolicy = preserve`, source-tether posture, factor delta, reasoning-medium delta, loss profile, ontic scaffold preservation, and whether each target-side connective can be pointed back to pinned source episteme content or declared same-entity correspondence support.
 
 ##### A.6.3.RT:4.5.b. Loss and reliability rule
 A reviewed case under this pattern makes explicit which distinctions, inspection possibilities, or local cues are lost, foregrounded, or rearranged by the shift in representation regime. Reliability transport may remain source-bounded or be explicitly downgraded, but it must never be silently strengthened just because the target form looks clearer, more structured, or more formal.
 
 ##### A.6.3.RT:4.5.c. Authority and handoff rule
-A case reviewed under this pattern stays same-entity and episteme-lane. It does not govern retargeting, bridge stance, explanation governance, executable docking, gate authority, or work enactment. If the shift depends on decode-mediated recovery, intervention-backed extraction, or world/gate consequences, those dependencies must stay explicit and may restrict the target to exploratory or report-only use.
+A case reviewed under this pattern stays same-entity and episteme. It does not govern retargeting, bridge stance, explanation governance, executable docking, gate authority, or work enactment. If the shift depends on decode-mediated recovery, intervention-backed extraction, or world/gate consequences, those dependencies must stay explicit and may restrict the target to exploratory or report-only use.
 
 ##### A.6.3.RT:4.5.c.1. Same-entity entry condition for decode-mediated cases
 A decode-mediated case may stay here only when the target rendering is tethered back to already pinned and provenance-bearing source episteme content for the same described entity. A decode-mediated result alone does not establish the same described entity strongly enough for this pattern.
@@ -11124,6 +11263,17 @@ The move stays in this pattern only if the correspondence remains explicit, the 
 
 This remains under `RepresentationTransduction` when the notation stays tethered to the same relation line already visible in the diagram, the described entity remains preserved, and no stronger dependency theory is silently imported by the notational rendering.
 
+#### A.6.3.RT:5.2.c - Functional-description diagram/table/screen shift
+
+**Source slice.** `The mixing cell transfers liquid from Tank A through heat exchanger H-2 to reactor R-4; the source description is about the same declared functional slice and keeps instrumentation/control claims outside this relation.`
+
+**Published table/screen slice.** `| Function relation | Source | Target | Limit |`
+`| transfer and heat before reaction | Tank A | R-4 via H-2 | no control-loop claim |`
+
+This remains `RepresentationTransduction` only when the same described entity is preserved and the table or screen changes representation scheme or reasoning medium without adding performed-work order, module structure, evidence, gate passage, or control architecture. If the diagram, table, or screen changes the governed target into a functional, control, or flow architecture claim rather than re-rendering the already declared functional slice, leave this pattern for `A.6.4`, `OntologicalReframing`, or `E.18` as applicable. If the diagram order is explanatory, causal, dependency-like, or didactic, do not read it as physical time order or performed-work sequence unless that temporal claim is present in the source episteme and separately supported. If a parser or OCR step only extracts pixels, text, or carrier layout from a scanned diagram or screen, start with `A.7`; enter this pattern only when the extracted structure is being treated as a same-described-entity representation of source episteme content with source tether and loss notes visible.
+
+If the published screen becomes honest only by omitting exceptions, confidence bands, or source distinctions and by carrying a narrower supported use with fuller-source return, move to `A.6.3.CSC Controlled Semantic Coarsening` rather than keeping the case here as ordinary representation transduction.
+
 #### A.6.3.RT:5.3 - Boundary to textual rewrite
 A source prose note is shortened, reordered, or translated but remains essentially textual. That case stays with `ConservativeRetextualization`, not this pattern.
 
@@ -11149,7 +11299,7 @@ This also stays outside `RepresentationTransduction`. The representation scheme 
 
 **Published dashboard tile.** `Service S: current dashboard view foregrounds cache-failover evidence; alternative branches and confidence bands remain in the incident worksheet.`
 
-This does **not** remain ordinary `RepresentationTransduction` if the tile is treated as more than a narrow report view. The tile foregrounds one causal branch and suppresses uncertainty and alternative branches, so it stays honest only with stronger-source return to the fuller worksheet and an unsupported heavier-use line. It is not a causal proof, service status verdict, or action cue. Once that weakened-use card becomes primary, the case leaves ordinary same-described-entity representation transduction and must use `A.6.3.CSC Controlled Semantic Coarsening` rather than being treated as a normal scheme shift.
+This does **not** remain ordinary `RepresentationTransduction` if the tile is treated as more than a narrow report view. The tile foregrounds one causal branch and suppresses uncertainty and alternative branches, so it stays honest only with fuller-source return to the fuller worksheet and an unsupported heavier-use line. It is not a causal proof, service status verdict, or action cue. Once that weakened-use card becomes primary, the case leaves ordinary same-described-entity representation transduction and must use `A.6.3.CSC Controlled Semantic Coarsening` rather than being treated as a normal scheme shift.
 #### A.6.3.RT:5.5 - Boundary to decode-mediated latent cases
 A reviewer or decode path tries to restate a latent region or distributed feature cluster as explicit entity/relation content. This stays outside the admissible same-described-entity path under `A.6.3.RT` unless an explicit decoding-access profile, `recoverabilityEvidenceClass`, and an explicit decode path are already present. Readable decode output alone is not enough.
 
@@ -11167,32 +11317,41 @@ This pattern intentionally biases toward same-entity representation shifts and a
 
 ### A.6.3.RT:7 - Conformance Checklist
 
+A conformance check is retained only if it changes the next admissible use of the shifted representation, blocks a concrete overclaim, or preserves a source/reopen path needed for the declared supported use.
+
+#### A.6.3.RT:7.1 - RT-Core ordinary checks
+
 1. **CC-RT-1 — Same described entity remains explicit.**
    The case preserves `describedEntityRef` without special pleading.
 2. **CC-RT-2 — Representation shift is the right family.**
-   The result is genuinely a representation-scheme shift rather than mere textual rewrite or explanation work.
-3. **CC-RT-3 — Factor, reasoning-medium, and mode deltas are explicit.**
-   `representationFactorDelta`, `inferenceRegimeDelta`, and any load-bearing `semioticModeShift` are explicit.
-4. **CC-RT-4 — Extended delta factors are explicit when load-bearing.**
+   The result is genuinely a representation-scheme or reasoning-medium shift rather than mere textual rewrite, explanation work, carrier work, or changed described entity.
+3. **CC-RT-3 — Supported and unsupported use are visible.**
+   The ordinary three-line test states the representation-scheme/reasoning-medium change, the supported use, and the stronger use not supported by this representation shift.
+4. **CC-RT-8 — Preserve-vs-retarget handoff is explicit.**
+   If the case fails the ordinary checks, the handoff target is explicit (`A.6.3.CR`, `E.17.EFP`, `A.6.3.CSC`, `A.6.4`, carrier work under `A.7`, or another governing pattern).
+5. **CC-RT-14 — Functional-description publication overread is blocked.**
+   Functional diagrams, tables, screens, exports, and parser/OCR results are kept separate from performed `U.Work`, gate passage, evidence, engineering justification, supervisory/control architecture, and carrier work. OCR/parsing starts with `A.7`; same-entity representation work stays here only when source tether, same described entity, representation-scheme change, and loss notes remain visible.
+
+#### A.6.3.RT:7.2 - RT-Conditional checks
+
+1. **CC-RT-4 — Factor, reasoning-medium, and mode deltas are explicit when load-bearing.**
+   `representationFactorDelta`, `inferenceRegimeDelta`, and any load-bearing `semioticModeShift` are explicit when they materially shape review or misuse risk.
+2. **CC-RT-5 — Extended delta factors are explicit when load-bearing.**
    `salienceShift`, `topologyShift`, `supportedUseShift`, `calibrationShift`, and `interactivityShift` are named whenever they materially shape review or misuse risk.
-5. **CC-RT-5 — Recoverability is explicit.**
-   Recoverability is stated explicitly through `onticRecoverabilityClass` and `onticRecoverabilityMode`.
-6. **CC-RT-6 — Decode-mediated cases carry stronger evidence.**
+3. **CC-RT-6 — Decode-mediated cases carry stronger evidence.**
    If the case is decode-mediated or latent/distributed, `recoverabilityEvidenceClass` and decode path are explicit.
-7. **CC-RT-7 — Loss / provenance / pinning / reliability are explicit.**
-   Losses, provenance, pinning, and reliability transport are explicit.
-8. **CC-RT-8 - Preserve-vs-retarget handoff is explicit.**
-   If the case fails any of the checks above, the handoff target is explicit (`ConservativeRetextualization`, `ExplanationFaithfulnessProfile`, `A.6.4`, or another governing pattern).
-9. **CC-RT-9 — Direct vs correspondence split is explicit.**
+4. **CC-RT-7 — Loss / provenance / pinning / reliability are explicit when needed.**
+   Losses, provenance, pinning, and reliability transport are stated or inherited by visible pinned reference when external reliance, dispute, gate, assurance, evidence, or cross-context use is live.
+5. **CC-RT-9 — Direct vs correspondence split is explicit when correspondence is doing work.**
    The case states whether it is direct or correspondence-mediated; if correspondence-mediated, `CorrespondenceModelRef` is explicit.
-10. **CC-RT-10 — Non-default face/rendering admissibility is explicit.**
-    Any `Interop`, `Assurance`, gate-bearing, or decode-bounded use states governing publication-face admissibility and keeps same-entity support visible.
-11. **CC-RT-11 — Decode-mediated same-entity entry tether is explicit.**
-    A decode-mediated case states how the target rendering is tethered back to already pinned and provenance-bearing source episteme content for the same described entity.
-12. **CC-RT-12 — No hidden bridge or face-family inflation.**
-    The case makes clear that representation work does not by itself grant bridge, substitution, or comparative-reading licence and does not create a new face family.
-13. **CC-RT-13 — Reopen triggers are explicit when recoverability, admissibility, or primary mode changes.**
-    If recoverability assumptions, pins, provenance, correspondence support, target-face admissibility, or the primary semiotic mode change, the case records the reopen trigger explicitly.
+6. **CC-RT-10 — Non-default face/rendering admissibility is explicit.**
+   Any `InteropCard`, `AssuranceLane`, gate-bearing, or decode-bounded use states governing publication-face admissibility and keeps same-entity support visible.
+7. **CC-RT-11 — Decode-mediated same-entity entry tether is explicit.**
+   A decode-mediated case states how the target rendering is tethered back to already pinned and provenance-bearing source episteme content for the same described entity.
+8. **CC-RT-12 — No hidden bridge or face-family inflation.**
+   The case makes clear that representation work does not by itself grant bridge, substitution, or comparative-reading licence and does not create a new face family.
+9. **CC-RT-13 — Reopen triggers are explicit when recoverability, admissibility, or primary mode changes.**
+   If recoverability assumptions, pins, provenance, correspondence support, target-face admissibility, or the primary semiotic mode change, the case records the reopen trigger explicitly.
 
 ### A.6.3.RT:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -11215,22 +11374,26 @@ This pattern intentionally biases toward same-entity representation shifts and a
 
 This pattern is worth splitting out because representation changes are already happening in practice and they are not well served by treating every such case as either mere rewriting or full retargeting. Keeping the family under `A.6.3` preserves governing-pattern boundary while making representation-factor and recoverability support needs explicit.
 
-### A.6.3.RT:11 - SoTA-Echoing
+### A.6.3.RT:11 - SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts
 
-**SoTA note.** This section does not mint an independent second rule track. It is a load-bearing alignment section: the Solution, Conformance Checklist, boundary rules, and Relations of this pattern must match the stance stated here or explicitly justify any divergence.
+**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 
 **Claim 1.** Best-known current architecture-description and model-based practice treats views, representation schemes, and reasoning media as load-bearing rather than as decorative formatting.
-**Practice / source / alignment / adoption.** ISO/IEC/IEEE 42010:2022 and current SysML v2 view practice treat viewpoint, view, model kind, and rendering discipline as explicit review targets rather than mere layout choices. This pattern **adopts** explicit representation-scheme review, **adapts** it to same-described-entity viewing under `A.6.3`, and **rejects** the shortcut where a clearer table, diagram, or notation is treated as if it had automatically earned stronger ontology or authority.
+**Practice / source / alignment / adoption.** ISO/IEC/IEEE 42010:2022 and current SysML v2 view practice (source maturity = mature standard plus current technical specification/practice) treat viewpoint, view, model kind, and rendering discipline as explicit review targets rather than mere layout choices. This pattern **adopts** explicit representation-scheme review, **adapts** it to same-described-entity viewing under `A.6.3`, and **rejects** the shortcut where a clearer table, diagram, or notation is treated as if it had automatically earned stronger ontology or authority.
 
 **Claim 2.** Best-known contemporary notation-and-reasoning practice treats tables, diagrams, and structured notations as reasoning media with different inspection possibilities, not as neutral visual restyling.
-**Practice / source / alignment / adoption.** Post-2015 model-based and notation-sensitive review practice treats representational form as something that changes what readers can inspect, compare, or replay. This pattern **adopts** reasoning-medium review, **adapts** it through explicit factor and medium deltas, and **rejects** hidden dependency-theory uplift or silent semantic strengthening by prose-to-diagram or diagram-to-notation moves.
+**Practice / source / alignment / adoption.** Post-2015 model-based and notation-sensitive review practice (source maturity = widely used technical practice) treats representational form as something that changes what readers can inspect, compare, or replay. This pattern **adopts** reasoning-medium review, **adapts** it through explicit factor and medium deltas, and **rejects** hidden dependency-theory uplift or silent semantic strengthening by prose-to-diagram or diagram-to-notation moves.
 
-**Claim 3.** Best-known representation-aware AI practice treats latent geometry and decode-mediated structure as evidence-bounded interpretation rather than ontology-by-default.
-**Practice / source / alignment / adoption.** Byte Latent Transformer (2024) and Large Concept Model (2024) both reinforce that representation regime matters, but neither licenses silent promotion from geometry, cluster structure, or decoder output to canonical entity/relation ontology. This pattern **adopts** representation-aware review, **adapts** it through `recoverabilityEvidenceClass`, decode-path explicitness, and same-entity source tethering, and **rejects** the popular shortcut where readable decode output is treated as if it were direct givenness.
+**Claim 3.** Best-known representation-aware practice treats latent geometry, decoded output, and representation structure as evidence-bounded interpretation that needs a declared support path before it can carry an engineering claim.
+**Practice / source / alignment / adoption.** Representation engineering and causal-abstraction practice (source maturity = research/technical practice supporting evaluation posture) treats internal representations as inspectable, monitorable, manipulable, or experimentally aligned only through explicit methods that connect representation to behavior, causal role, or source support. BLT/LCM-style model examples (source maturity = examples/analogy only here, not load-bearing authority) show that representation regime matters, but they do not by themselves decide when a diagram, decoded output, or latent cluster becomes a valid engineering claim. This pattern **adopts** representation-validity grounding through source tether, recoverability target, decode path, `recoverabilityEvidenceClass`, and declared probe/intervention support where claimed; it **rejects** the shortcut where latent geometry, diagram topology, or decoded prose becomes ontology by readability or model reputation.
 
-**Local stance.** The load-bearing SoTA claim for this pattern is narrow: representation regime and reasoning medium are admissible review targets, but geometry, notation, or a decode-mediated result do not become ontology-by-default.
+
+**Local stance.** The load-bearing SoTA claim for this pattern is narrow: representation regime and reasoning medium are admissible review targets, but geometry, notation, topology, probe output, decoded prose, or latent/distributed structure do not become ontology, evidence, gate support, work authority, or engineering justification unless a declared support path makes that exact use admissible.
 
 ### A.6.3.RT:12 - Relations
+
+
+
 
 - **Builds on:** `A.6.3`, `A.6.2`, `A.7`, `E.10.D2`, `C.2.7`, `E.17.0`, `E.17`, `F.9`, `F.18`
 - **Coordinates with:** `ConservativeRetextualization`, `ExplanationFaithfulnessProfile`, `E.17.ID.CR ComparativeReading`, `A.6.4`, `A.15`, `A.20`, `A.21`, explicit decoding-access review
@@ -11247,8 +11410,8 @@ Action path:
 2. Name the source representation scheme and target representation scheme.
 3. State what changed in representation factor, reasoning medium, mode, salience, topology, actionability, calibration, or interactivity.
 4. State recoverability: what can be recovered from the target representation, by which decode path, and with which evidence.
-5. If the target representation claims to preserve action, intervention, manipulation, explanation, or cross-level structure, state the causal-abstraction or approximate-causal-abstraction mapping before treating the shortcut as QL coarsening.
-6. Ask whether the shortcut depends on a QL cue: contextual probability, incompatible probes, instrument-like update, Hilbert-like or orthomodular representation, open-information-system update law/probe-frame/export-admissibility burden, or declared lossy export of a state that matters to the decision.
+5. If the target representation claims to preserve action, intervention, manipulation, explanation, or cross-abstraction structure, state the causal-abstraction or approximate-causal-abstraction mapping before treating the shortcut as QL coarsening.
+6. Ask whether the shortcut depends on a QL cue: contextual probability, incompatible probes, instrument-like update, Hilbert-like or orthomodular representation, open-information-system update rule, probe frame, export-admissibility evidence requirement, or declared lossy export of a state that matters to the decision.
 7. If no, keep the case under RT, CSC, ordinary abstraction, compression, diagramming, causal abstraction, approximation, or a declared representation-learning access pattern, whichever governs the actual support claim.
 8. If yes, coordinate with the `C.26` state-representation coarsening support section and state supported use, unsupported use, and return condition.
 
@@ -11262,7 +11425,7 @@ For ordinary use, start with the standard shortcut mini-form:
 | Supported use | Which decision, explanation, triage, comparison, or action-selection move remains supported? |
 | Reopen | Which dispute, decision change, stronger-use demand, evidence gap, or recoverability failure sends the reader back to the source representation or stronger model? |
 
-Use a fuller C.26 coarsening record only when the shortcut becomes reusable, formal, empirical, high-stakes, or tied to comparative performance or tractability claims. In that fuller record, add the mechanism, baseline path, unsupported use, and QL cue needed for the stronger claim.
+Use a fuller C.26 coarsening record only when the shortcut becomes reusable, formal, empirical, high-stakes, or tied to comparative performance or tractability claims. In that fuller record, add the mechanism, baseline path, unsupported use, and QL cue needed for the additional-support claim.
 
 Do not describe ordinary compression, low-bit implementation, diagramming, or representation learning as quantum-like unless the formal cue is load-bearing.
 ### A.6.3.RT:End
@@ -18239,7 +18402,7 @@ Minimum path for routine reliance:
 | --- | --- |
 | Supported claim/effect | Approval, permission, gate passage, role/status currentness, work occurrence, evidence support, assurance input, or other exact claim/effect being attempted. |
 | Carrier | The visible or recovered carrier, with enough identity to reopen it. |
-| Issuer, performer, source role, or trust anchor | The role/system accountable for producing or verifying the carrier or source-backed content in this context. |
+| Issuer, performer, source role, trust anchor, or status register | The role/system or governing register accountable for producing, updating, or verifying the carrier or source-backed content in this context. |
 | Affected object and relying context | The release, service, model, person/role holder, policy subject, work item, claim, audience, tenant, environment, or other object for which reliance is attempted. |
 | Time/window and freshness | Issue time, validity window, decay, supersession, revocation, policy/gate version, and reopen condition. |
 | Evidence-producing work/event or method/work trace | The production, verification, query, generation, execution, or review work that made the carrier. |
@@ -18262,15 +18425,15 @@ Expanded fields are collected only insofar as they decide the live reliance ques
 | Proof / cryptographic-signature / status verification result | Credential, provenance, attestation, authenticity, revocation, or currentness support is claimed. |
 | Policy/gate version and decision source | Permission, admissibility, gate passage, release, rollback authority, or policy authorization is attempted. |
 | Source-chain transform notes | Support passed through extraction, copy, rewrite, representation shift, explanation rendering, summary, export, redaction, or another transform step before reliance. |
-| Source order and supersession rule | Multiple source candidates disagree or freshness/priority may defeat the visible publication face, carrier, rendering, or cue. |
+| Source order and supersession rule | Multiple source candidates disagree or freshness/priority may defeat the visible publication face, carrier, rendering, or cue. Include the governing register or status-source order when a register entry is the source of role/status, permission, duty, or gate state. |
 | Minimum disclosure posture | Raw evidence would expose secrets, personal data, tenant identifiers, privileged logs, tokens, security-sensitive traces, or unnecessary identities. |
 
 Case repairs:
 
 | Case | Evidence repair |
 | --- | --- |
-| Stale credential badge | Show issuer or trust anchor, holder/subject binding, verifier/relying-party context, proof/status result, revocation/freshness, validity window, and carrier integrity. Display presence is not current role/status or permission. |
-| Verifiable credential / credential view | Treat as an A.10 carrier with issuer or trust anchor, holder/subject binding, verifier, proof/status/currentness, relying context, validity/revocation window, and acceptance rule. When those checks pass, it may support credential-currentness for that holder and relying context; it supports permission, authorization, role/status, or gate passage only when another exact source such as `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` says so. |
+| Stale credential badge or status display | Show issuer or trust anchor, governing status register when one exists, holder/subject binding, verifier/relying-party context, proof/status result, revocation/freshness, validity window, source record version, and carrier integrity. Display presence is not current role/status or permission. |
+| Verifiable credential / credential view / register excerpt | Treat as an A.10 carrier with issuer or trust anchor, governing status register when one exists, register entry or source-record id/version, holder/subject binding, verifier, proof/status/currentness, relying context, validity/revocation window, and acceptance rule. When those checks pass, it may support credential-currentness for that holder and relying context. It supports permission, authorization, role/status, or gate passage only when the register entry or another exact source such as `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` creates or states that effect for the bounded context. |
 
 | Copied approval or review summary | Show the original `A.2.9` `SpeechActRef` / issuing act when approval or authorization is claimed, or the original reviewed source when only review-content currentness is claimed. Add copy relation, currentness, scope/window, evidence-producing work/event, and whether separate commitment/work support is live. Copy evidence is not approval by itself. |
 | Provenance/authenticity/attestation label | Show the bounded origin/history/build/process claim, source episteme/publication lane or source carrier, method/work trace, source-specific proof, carrier integrity, verifier/relying policy that accepts it for this claim/effect, and rival explanation. Provenance does not show truth, safety, approval, release, gate passage, permission, or assurance unless another exact source carries that additional claim/effect. |
@@ -18418,7 +18581,7 @@ What this does not authorize: `A.10` does not identify causal effects, create an
 * **Temporal reasoning.** Monotone coverage (no unexplained gaps/overlaps) aligns with temporal knowledge graph practice and avoids “impossible histories.”
 * **Holonic parsimony.** By drawing a firewall between **mereology** (A.14) and **provenance**, A.10 prevents semantic leakage and keeps the holarchy well‑typed.
 * **Role–Method–Work clarity.** Anchoring explicitly rides on A.15: **roles** act via **methods** specified at design‑time and produce **work** observed at run‑time. This keeps agency, policy, and execution disentangled yet connected.
-* **Credential, provenance, attestation, and generated-source currentness.** Verifiable credentials / digital identity practice separates issuer or trust anchor, holder binding, proof/status result, revocation, validity window, audience, and relying context. C2PA content provenance and SLSA / in-toto attestations separate bounded origin/history/build/process claims from truth, approval, release, safety, gate passage, permission, or assurance; their consumer-side verifier or policy acceptance rule is part of the relying context, not implied by source-carrier presence. LLM citation and generated-explanation practice requires claim-bound attribution alignment before operative claims are relied on. A.10 adopts issuer/holder/verifier/status/currentness and claim-bound attribution as evidence-path invariants, adapts credential, provenance, attestation, model/data documentation, and generated-explanation practice as FPF source-role and carrier-support inputs, and rejects visual display, copied text, generated text, provenance mark, credential display, or attestation form as evidence of an operative action invitation, gate, role/status, work-occurrence, assurance, or admissible-work effect without exact source support.
+* **Credential, provenance, attestation, status-register, and generated-source currentness.** Verifiable credentials / digital identity practice separates issuer or trust anchor, holder binding, proof/status result, revocation, validity window, audience, and relying context. Some bounded contexts also treat a register entry or status-source record as the source that creates or changes role/status, permission, duty, or gate state; a credential view, pass, badge, dashboard cell, API response, screenshot, or certificate excerpt is then a publication of that source, not automatically the source itself. C2PA content provenance and SLSA / in-toto attestations separate bounded origin/history/build/process claims from truth, approval, release, safety, gate passage, permission, or assurance; their consumer-side verifier or policy acceptance rule is part of the relying context, not implied by source-carrier presence. LLM citation and generated-explanation practice requires claim-bound attribution alignment before operative claims are relied on. A.10 adopts issuer/holder/verifier/status/currentness, status-source recoverability, and claim-bound attribution as evidence-path invariants, adapts credential, provenance, attestation, model/data documentation, register-backed status display, and generated-explanation practice as FPF source-role and carrier-support inputs, and rejects visual display, copied text, generated text, provenance mark, credential display, register excerpt, or attestation form as evidence of an operative action invitation, gate, role/status, work-occurrence, assurance, or admissible-work effect without exact source support.
 
 
 
@@ -18430,7 +18593,7 @@ What this does not authorize: `A.10` does not identify causal effects, create an
 * **Constrains / used by:** B.1 (all Γ‑flavours: `Γ_sys`, `Γ_epist`, `Γ_method`, `Γ\_time`, `Γ_work`); B.1.1 (Dependency Graph & Proofs).
 * **Enables:** **B.3 Trust Calculus** (R/CL inputs, auditability); B.4 Canonical Evolution Loop (clean design/run bridges).
 * **Coordinates with:** `C.28` when an evidence path is used as causal-use support; A.10 carries the evidence/provenance path, while `C.28` governs causal-use question, support basis, identification, realizability, and supported/unsupported use.
-* **Coordinates with:** `A.15` for first-use work/reliance disposition, `A.6` for mixed boundary wording, `B.3` for assurance strength, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status/witness, `A.2.9` for speech-act refs, `A.2.8` for commitments, and `A.15.1` for work occurrences. `A.10` supplies evidence paths for those sources; it does not create their gate decision, commitment, role/status, work-occurrence, assurance, or admissible work/reliance effect.
+* **Coordinates with:** `A.15` for work/reliance disposition, `A.6` for mixed boundary wording, `B.3` for assurance strength, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status/witness, `A.2.9` for speech-act refs, `A.2.8` for commitments, and `A.15.1` for work occurrences. `A.10` supplies evidence paths for those sources; it does not create their gate decision, commitment, role/status, work-occurrence, assurance, or admissible work/reliance effect.
 
 ### A.10:10 - Migration (practical and brief)
 
@@ -18485,7 +18648,6 @@ Useful outputs:
 Do not let the label `quantum-like` carry evidence weight by itself. The evidence graph carries the claim; the math lens only explains what representational mistake the evidence is being used to avoid.
 
 ### A.10:End
-
 
 ## A.11 - Ontological Parsimony (C‑5)
 
@@ -19160,39 +19322,60 @@ Each edited heading should carry the badge **“► decided‑by: A.14 Advanced 
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** This pattern is the entry-bearing alignment pattern for engineer-managers when the real confusion is not "what component is this" but `who is responsible`, `how the work is supposed to happen`, `when the plan lives`, and `what actually happened`.
+**At a glance.** This pattern is the action-guiding alignment pattern for engineer-managers when the real confusion is not "what component is this" but `who is responsible`, `how the work is supposed to happen`, `when the plan lives`, and `what actually happened`.
 
 **Use this when.** Use this pattern when the real job is to separate role, method, plan, capability, and actual work before a team treats one cue, one schedule, one display, one copied/generated statement, or one document as if it already counted as the role assignment, the method, the work plan, execution evidence, or the work itself.
 
 **Start here when.** The dominant ambiguity is role vs method vs schedule vs actual run, and the team keeps arguing about a "process" without separating recipe, plan, capability, and executed work.
 
-**First output.** One explicit Role / Method / MethodDescription / WorkPlan / Work separation, plus one traceable chain from `U.RoleAssignment` through the governing method description to the actual `U.Work` occurrence or intended `U.WorkPlan`.
+**First output.** One explicit Role / Method / MethodDescription / WorkPlan / Work separation, plus the shortest traceable chain that already exists from `U.RoleAssignment` through the governing method description to the intended `U.WorkPlan` or actual `U.Work` occurrence, or an explicit source gap that blocks the stronger claim.
+
+**Working action spine.** Role/method/plan/work confusion -> separate role/holder/context, method description, intended `U.WorkPlan`, and actual `U.Work` -> choose proceed, plan, bounded probe, narrow, hand off, or stop -> output the smallest alignment frame needed for the next project move -> use `A.15.4` only when an encountered episteme/publication item, display, credential view, explanation, copied statement, provenance mark, dashboard tile, schema/API wording, or composed source chain begins to support a work/reliance claim/effect.
+
+**Working action path.**
+1. Name the role/holder/context distinction that is live.
+2. Name the method or method description that is meant to govern the work.
+3. Name the intended `U.WorkPlan` or actual `U.Work` occurrence being claimed.
+4. Choose the next move: proceed inside current support, plan, run a bounded reversible probe, narrow scope, hand off to the project source that governs the live claim/effect, or stop.
+5. If a visible item is being used as approval, permission, gate passage, evidence, engineering justification, role/status currentness, release support, or performed work by appearance, move to `A.15.4 Work-Relevant Source Restoration` and return here only for the role/method/plan/work separation.
+
+**Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, capability, and actual work distinct so the acting engineer-manager can choose the next admissible project move. Work-relevant source restoration is the neighboring `A.15.4` cluster member.
+
+**Minimum sufficient next move.** Choose the minimum sufficient next move, recover only the project source record needed for that move, and do not raise the claim beyond that recovered support.
+
+**Supported-source green path.** If the required project source is present and its scope/window match the live role/method/plan/work move, proceed inside that bounded support. If not, narrow scope, run a bounded reversible probe, source-find or create only a prospective repair/request/decision/work-plan/source-gap record, or block only the unsupported claim/effect; do not treat the repair record as past evidence, approval, gate passage, performed `U.Work`, release permission, or assurance.
+
+**Ordinary use.** If the team only needs to separate role, method, plan, capability, and actual work for orientation or planning, one separation sentence or small working card is enough.
+
+**Load-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role/status attribution, release/reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the live issue is whether a visible item has the exact project source support needed for that work/reliance claim/effect.
+
+**Stop condition.** Stop once the separation changes no next admissible work/reliance move and blocks no concrete overclaim about role, method, plan, work, status, approval, evidence, or release.
+
+**Supported-use examples.**
+
+| Supported project use | Source-finding or reversible probe | Unsupported use |
+| --- | --- | --- |
+| A maintenance team names `PumpInspectorRole`, the inspection method description, the current `U.WorkPlan`, and the dated `U.Work` record that will be created after the inspection. The team may plan and perform the inspection under those distinct records. | A short briefing says the inspection is ready, but the method description or work plan is missing; use the briefing only to find or repair the missing source before planned work proceeds. | A dashboard tile, copied approval, generated explanation, or briefing is treated as performed work, gate passage, evidence, engineering justification, or release permission by appearance. Use `A.15.4` for that source-restoration question. |
 
 **Governed object in plain terms.** One alignment frame linking `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` through `U.RoleAssignment`; not a single work occurrence, not a checklist, not a language-style repair pattern, and not a mere cue note.
 
-**Governing move in plain terms.** Keep design-time role/method/plan distinct from run-time work while making the chain between them inspectable enough for enactment, audit, and reroute.
+**Governing move in plain terms.** Keep design-time role/method/plan distinct from run-time work while making the chain between them inspectable enough for enactment, audit, and project-source repair.
 
 **What goes wrong if missed.** Teams collapse role, recipe, plan, capability, and actual run into one fuzzy "process" story, then mistake documentation for execution, capability for evidence, schedule for occurrence, or a weaker briefing for the source that makes work admissible.
 
 **What this buys.** One inspectable enactment frame that lets a team ask who held what role, which method governed, what plan existed, and what work actually occurred before treating follow-on work, blame, or approval as if those distinctions were the same.
 
-**Not this pattern when.** Not this pattern when the honest need is only one dated work occurrence (`A.15.1`), only planning or schedule baseline (`A.15.2`), only a cue note that has not yet become an enactment-alignment question (`A.16` / `A.16.1`), or only boundary/policy wording without a live role-method-work question (`A.6` / `A.6.B`).
+**Not this pattern when.** Not this pattern when the honest need is only one dated work occurrence (`A.15.1`), only planning or schedule baseline (`A.15.2`), only a cue note that has not yet become an enactment-alignment question (`A.16` / `A.16.1`), only boundary/policy wording without a live role-method-work question (`A.6` / `A.6.B`), or work-relevant source restoration for a visible item (`A.15.4`).
 
-**Typical next governing patterns / authority-source exits.** `A.15.1` for dated execution, `A.15.2` for schedule/baseline planning, `A.15.3` for slot-filling plan items, `B.5.1` for the simple engineering-process reading, `F.11` when method/work vocabulary itself must be aligned across contexts, and `F.17` when the result should land on a human-facing work sheet.
+**Neighboring project records and governing patterns.** `A.15.1` governs dated execution records, `A.15.2` schedule/baseline planning records, `A.15.3` slot-filling plan items, `A.15.4` work-relevant source restoration, `B.5.1` the simple engineering-process reading, `F.11` method/work vocabulary alignment across contexts, and `F.17` the human-facing work sheet.
 
-**Causal-use work boundary.** Realized counterfactual-sampling work, counterfactual randomization, intervention assignment, target-trial emulation work, and causal evidence collection remain `U.MethodDescription`, `U.WorkPlan`, and `U.Work` structures here. `A.15` can say who performs which sampling or intervention work under which method and role; it does not make the resulting causal use admissible. `C.28` owns the causal-use question, `CausalityLadderRung`, causal estimand, support basis, counterfactual sampling realizability, and supported/unsupported use.
+**Causal-use work boundary.** Realized counterfactual-sampling work, counterfactual randomization, intervention assignment, target-trial emulation work, and causal evidence collection remain `U.MethodDescription`, `U.WorkPlan`, and `U.Work` structures here. `A.15` can say who performs which sampling or intervention work under which method and role; it does not make the resulting causal use admissible. `C.28` governs the causal-use question, `CausalityLadderRung`, causal estimand, support basis, counterfactual sampling realizability, and supported/unsupported use.
 
-**Common wrong escalations / reroutes.** If the first honest encountered lane is still only a cue, reroute to `A.16` / `A.16.1`; if the live question is boundary, promise, agreement-like service, or policy wording, reroute to `A.6`; if you only need one executed occurrence rather than the alignment frame, continue straight to `A.15.1`.
+**Common wrong escalations / required project records.** If the first honest encountered item is still only a cue, keep it under `A.16` / `A.16.1`; if the live question is boundary, promise, agreement-like service, or policy wording, recover the `A.6`-governed claim record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for work/reliance support, use `A.15.4`.
 
-**Authority-looking source-backed work/reliance split (subordinate work-reliance stress case).** Use this compact entry only when an approval-, permission-, gate-, command-, credential-, delegation-, revocation-, status-, provenance-, dashboard-, copied-review-, generated-explanation-, schema/API-, or composed-chain case is about to guide method-family selection, selected method / method of work, work plan, planned work, actual `U.Work`, work result, result-measurement, release/reliance decision, execution-evidence claim, approval claim/effect, role/status claim/effect, or another exact work-relevant claim/effect. The trigger is that exact P2W class or reliance claim plus the exact `FPF` claim/effect being read from, or through, the encountered episteme/publication lane; it is not the displayed word by itself. The candidate move is not evidence that actual `U.Work` happened; actual execution remains an `A.15.1` work-occurrence question. This subsection stays subordinate to the role/method/plan/work alignment frame; the detailed source-exit tables, role prompts, display guidance, lint cues, and stress cases live under `A.15:4.4` after the core solution.
+**Boundary to weakened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may help orient work or cue attention, but it does not become a sufficient source for work execution, an implementation checklist, a work plan, a work occurrence, an approval, a gate decision, or execution evidence by convenience alone. If a weaker rendering needs return to the governing method, plan, approval, gate, or evidence source before work can proceed admissibly, keep that boundary explicit here and treat the weaker-source relation as `A.6.3.CSC Controlled Semantic Coarsening` governed rather than treating the weakened rendering as executable.
 
-Here "authority-looking case" is only a recognition phrase for the encountered situation; it is not a `U.*` kind, not a profile, not a score, and not a new evidence source, governing pattern, or authority source.
-
-**First stress-case output.** Name the live P2W class or reliance claim, required `FPF` claim/effect, actor/role, affected work target/context/window, the relevant episteme/publication lane, exact source exit or safe next move, and the work/reliance claim/effect still unsupported. If exact support is incomplete, use the visible publication face, carrier, rendering, or cue only for orientation/source-finding; reopen or refresh the exact source; narrow the scope/window; run a bounded reversible probe under an explicit `U.WorkPlan`; route repair to the accountable source role; or block only the unsupported reliance claim/effect.
-
-**Boundary to weakened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may help orient work or cue attention, but it does not become a sufficient source for work execution, an implementation checklist, a work plan, a work occurrence, an approval, a gate decision, or execution evidence by convenience alone. If a weaker rendering needs return to the governing method, plan, approval, gate, or evidence source before work can proceed admissibly, keep that boundary explicit here and use `A.6.3.CSC Controlled Semantic Coarsening` for the weaker-source relation rather than treating the weakened rendering as executable.
-
-**Recognition block vs assurance block.** Read **At a glance**, **Use this when**, **Start here when**, **First output**, **Governed object**, **Governing move**, and **What this buys** as the primary recognition block. Read the authority-looking source-backed work/reliance split as a specialized work-reliance stress case, and read the entity distinctions, canonical relations, checklist, and relations below as assurance blocks that tighten the same alignment-frame claim; they do not widen the pattern into one single work occurrence, one cue note, one wording pattern, or one undifferentiated "process" object.
+**Recognition block vs assurance block.** Read **At a glance**, **Use this when**, **Start here when**, **First output**, **Working action path**, **Supported-use examples**, **Governed object**, **Governing move**, **What goes wrong if missed**, **What this buys**, and **Not this pattern when** as the primary recognition block. Read the entity distinctions, canonical relations, checklist, and relations below as assurance blocks that tighten the same alignment-frame claim; they do not widen the pattern into one single work occurrence, one cue note, one wording pattern, one source-restoration pattern, or one undifferentiated "process" object.
 
 ### A.15:1 - Problem frame
 
@@ -19321,7 +19504,7 @@ When one human-plus-AI pair faces a new task family or candidate solution corrid
 
 
 
-For this bounded dyadic work question, the pair should declare one utility target first, enumerate heterogeneous candidate approaches that may satisfy that target, spend a bounded scout or probe budget before any committed route is chosen, and return one `CheckpointReturn` that compares the tested approaches rather than silently treating one successful probe as a committed rollout. `A.15` owns this dyadic move and local role split only; it does not re-own the checkpoint-record semantics of `C.24` or the budget/guard enforcement of `E.16`.
+For this bounded dyadic work question, the pair should declare one utility target first, enumerate heterogeneous candidate approaches that may satisfy that target, spend a bounded scout or probe budget before any committed approach is chosen, and return one `CheckpointReturn` that compares the tested approaches rather than silently treating one successful probe as a committed rollout. `A.15` governs this dyadic move and local role split only; it does not restate the checkpoint-record semantics of `C.24` or the budget/guard enforcement of `E.16`.
 
 Every `CheckpointReturn` should carry:
 - the declared utility target and current `TaskFamily`
@@ -19331,191 +19514,17 @@ Every `CheckpointReturn` should carry:
 - the recommended next work/reliance move: continue probing, commit to planned work, narrow the method or claim, hand off, or stop
 - the exact commit trigger that would justify leaving the probe state
 
+The return is candidate support, budget posture, observed result, and commit-trigger support. It is not the selected method, not a `U.WorkPlan`, not performed `U.Work`, not execution evidence, and not rollout authority until the project source that governs that stronger claim exists.
+
 Low-human-overlap approaches remain admissible here only while they stay tied to the declared utility target, budget guard rails, and evidence basis by value.
 
-#### A.15:4.4 - Authority-looking work-reliance stress case
+#### A.15:4.4 - Boundary to A.15.4 Work-Relevant Source Restoration
 
-**Authority-looking source-backed work/reliance split (subordinate work-reliance stress case).** Use this subsection when an approval-, permission-, gate-, command-, credential-, delegation-, revocation-, status-, provenance-, dashboard-, copied-review-, generated-explanation-, schema/API-, or composed-chain case is about to be used as a work cue, reliance basis, release/reliance basis, execution-evidence basis, approval claim/effect basis, role/status claim/effect basis, or next work-relevant move. The trigger is the live P2W class or reliance claim plus the exact `FPF` claim/effect being read from, or through, the wording, display, publication face, carrier, or source-finding cue; it is not the wording alone. This subsection does not change the governed object of `A.15`: it uses the role/method/plan/work separation to decide whether the encountered case has exact work-relevant support here or must exit to another `FPF` pattern before work or reliance.
+Use `A.15.4` when an encountered episteme/publication item, display, credential view, generated explanation, copied statement, provenance mark, dashboard tile, schema/API wording, or composed source chain is being used to support approval, permission, gate passage, evidence, engineering justification, role/status currentness, release/reliance, or performed `U.Work` by appearance.
 
-Here "authority-looking case" is only a recognition phrase for the encountered situation; it is not a `U.*` kind, not a profile, not a score, and not a new evidence source, governing pattern, or authority source.
+`A.15` itself keeps the kernel separation: `U.Role`, holder/context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question asks which exact project source record must be recovered before the encountered item can support the live work/reliance claim/effect; that question belongs to `A.15.4` or to the exact neighboring source pattern named there.
 
-The central behaviour is: name the live P2W class or reliance claim, name the required `FPF` claim/effect, keep the `U.Episteme` or `U.EpistemePublication` distinct from publication form, MVPK face, carrier, rendering, and source-finding cue, choose the minimum sufficient next move, recover only the source needed for that move, and do not raise claim strength beyond that recovered support. If the exact `governingPatternRef` or `authoritySourceRef` is already available, cite that reference directly rather than routing through wording analysis.
-
-**Positive repaired path.** An encountered `U.Episteme` publication, publication form, MVPK face, carrier, rendering, or source-finding cue may guide work or reliance only to the strength supported by the exact `governingPatternRef` or `authoritySourceRef`, actor/role, live P2W class or reliance claim, affected work target/context/window, and source-supported claim/effect. The repaired outcome is the smallest admissible work/reliance statement plus the unsupported work/reliance claim/effect still blocked.
-
-
-Load posture by required `FPF` claim/effect:
-
-| Load posture | Use when | Minimum useful record |
-| --- | --- | --- |
-| Orientation/source-finding note | The encountered lane is only a publication face, carrier, rendering, cue, search handle, learning aid, or reversible local probe trigger. | `encountered lane / required claim/effect not yet supported / source to reopen / stop condition`. |
-| Routine reliance note | The team needs ordinary bounded reliance without release, safety, compliance, delegated status, contested source, or cross-context reuse. | Live P2W class or reliance claim, required claim/effect, actor/role, affected work target/context/window, visible source/ref, and reopen condition. |
-| Source-exit reliance path | The required claim/effect is external-impact, irreversible, release-bearing, gate-bearing, compliance/safety-bearing, delegated/revoked/status-bearing, generated/copied/provenance-mediated, contested, or cross-context. | Exact `governingPatternRef` or `authoritySourceRef` exit plus the live `A.10`, `A.6`, `B.3`, `A.2.9`, `A.2.8`, `A.21`, `A.20`, or `A.15.1` support fields needed for that claim/effect. |
-
-A small A.15 note is enough for the first posture:
-
-| Field | Value |
-| --- | --- |
-| live P2W class or reliance claim | Name the live class exactly: method-family selection, selected method / method of work, work plan, planned work, actual `U.Work`, work result, result-measurement, release/reliance decision, or non-work reliance claim/effect. A planned baseline remains a `U.WorkPlan` / `U.WorkPlanning` plan record; actual execution becomes `U.Work` only after it occurs and is recorded under `A.15.1`; work-result measurement routes to the evidence/result-measurement source. |
-| required `FPF` claim/effect | Approval, permission, gate passage, role/status currentness, work occurrence, evidence support, assurance strength, boundary claim, or other exact claim/effect needed before that class or claim can be treated as supported. |
-| actor/role | Who would act or rely. |
-| affected work target/context/window | Release, service, person/role holder, work item, claim, tenant, environment, physical batch, construction element, machine state, or validity window affected by that class or claim. |
-| episteme/publication lane | The claim-bearing FPF kind is `U.Episteme` or a species such as `U.EpistemePublication`; if the encountered lane is only a publication form, MVPK face, carrier/rendering, authored unit, dashboard tile, copied text, credential view, generated explanation, API wording, or cue, name that exact lane separately. |
-| exact source needed or safe next move | Source to reopen, status to refresh, reversible probe, accountable source to ask, or weakened use. |
-| stop/reopen condition | What blocks the work/reliance claim/effect and what would reopen it. |
-
-**Borrowed episteme/publication discipline.** This subsection borrows the `C.2.1` / `E.17` / `A.16.0` distinction rather than minting a new generic `U.*` kind. The claim-bearing FPF kind here is `U.Episteme`; `U.EpistemePublication` is used only when that episteme is available as a published episteme with MVPK-face references. Publication forms, MVPK faces, carriers/renderings, authored units, and source-finding cues are separate lanes. A planned baseline remains a `U.WorkPlan` / `U.WorkPlanning` plan record such as `SlotFillingsPlanItem`; launch values, decision logs, execution evidence, and actual work occurrences remain `U.WorkEnactment`, gate, evidence, or `A.15.1` matters.
-
-When exact source support is incomplete, choose one admissible degraded-operation move after naming the live P2W class or reliance claim and required claim/effect; pick the lightest move that preserves practical work and source recoverability:
-
-1. Use the encountered lane only for orientation or source-finding.
-2. Reopen the exact source or refresh status/currentness.
-3. Narrow actor or role, requested operation or work class, affected target, context, and window until the recovered source really covers the move.
-4. Run a bounded reversible probe under an explicit `U.WorkPlan` when no external-impact reliance is being made.
-5. Ask the accountable issuer, gate source, evidence source, role/status source, or boundary source to expose or repair the missing source.
-6. Repair the `U.WorkPlan`, `U.MethodDescription`, dashboard label, source link, or boundary wording that made the overread plausible.
-7. Proceed only inside the recovered scope/window.
-8. Block only the work/reliance claim/effect that lacks source support.
-
-**Broken-source repair route.** If the exact source is required but unavailable to the acting user, route the repair to the accountable issuer/source role, gate source role, evidence source role, role/status source role, or boundary source role. The acting user records the blocked work/reliance claim/effect and the source to expose or repair, then proceeds only with the safe narrowed move available under recovered support.
-
-
-An encountered item may be a `U.Episteme`, a `U.EpistemePublication`, a publication form, an MVPK face, a carrier/rendering, an authored unit, or only a source-finding cue. Name that lane before using it. Do not treat a file, display, dashboard tile, model card, credential view, generated text, authored unit, publication face, or carrier as the source claim/effect, work occurrence, gate decision, role/status, evidence relation, or assurance claim by presentation alone.
-
-**Adversarial misuse guard.** Do not let release pressure, delegated pressure, compliance pressure, unsourced green-dashboard pressure, or copied/generated wording convert a cue into work/reliance support. A properly designed dashboard tile may guide release when it is a current view of the relevant `GateDecision` plus evidence/currentness path; pressure or color alone does not replace that source.
-
-
-Source exits by required `FPF` claim/effect:
-
-
-- cue-only orientation: use only for attention or source-finding; stay with `A.16` / `A.16.1` for pre-articulation cues or `A.6.A` for `A.6.A`-governed invitation. Cue-only orientation is not work guidance, work plan, gate passage, approval, work occurrence evidence, or assurance.
-
-- issuing, approval, authorization, delegation, or revocation act: cite `A.2.9` `U.SpeechAct` / `SpeechActRef`, including act type, actor/role, affected work target or claim target, judgement context, window, carrier/evidence refs when currentness matters, and instituted effects if claimed; because `U.SpeechAct <: U.Work`, the same act can satisfy dated work-occurrence evidence only when it is used as that communicative work occurrence;
-- role or status reliance: cite `A.2.1` / `U.RoleAssignment`, a status-changing `U.SpeechAct`, a governing context-state record, a credential proof/status result under `A.10`, or an `A.21` `GateDecision` when the status is gate-governed; do not infer a status kind from a label;
-- deontic permission, obligation, prohibition, or recommendation-as-duty: cite `U.Commitment` / `A.2.8` and the instituting `SpeechActRef` when provenance matters; if "permission" means admissibility predicate, gate passage, authorization act, role/status effect, credential status, cue, or advice, route to `A.6.B`, `A.21`, `A.2.9`, `A.2.1`, `A.10`, `A.16`, or `A.6.A` instead;
-- boundary, policy, API, schema, "allowed", "authorized", "approved", "recommended", or "guaranteed" wording: split the statement through `A.6` / `A.6.B`; route agreement-like guarantee, SLA, or promise wording through `A.6.C`, `A.2.3`, `A.2.8`, and `A.2.9` before work/reliance;
-- gate decision or gate passage: cite `A.21` `OperationalGate(profile)`, `GateDecision`, `GateDecisionRationale`, `DecisionLogRef`, gate profile/version, check set, scope/window, and replay/freshness pins;
-- constraint or flow-validity witness: cite `A.20` `ConstraintValidity` status/witness, `GateCheckRef.aspect = ConstraintValidity`, path/window/sentinel/pins as applicable; this is not the same thing as a gate decision;
-- release/deployment/rollback work occurred: cite `A.15.1` dated `U.Work` occurrence and the `A.10` evidence carrier path; a gate decision or command-like cue is not execution evidence;
-- evidence, provenance, authenticity, currentness, copied-source, or generated-source support: exit to `A.10`; evidence support does not approve, permit, execute, pass a gate, or raise assurance by itself;
-- assurance, readiness, safety, compliance, trust, release confidence, `R`, `F`, `G`, or `CL` increase: exit to `B.3`;
-- generated explanation: use `E.17.EFP` for explanation faithfulness or source-finding relation, then require `A.10` claim-bound source support for every operative claim that will be relied on.
-- approval claim/effect split: if approval means someone approved something, cite `A.2.9` `U.SpeechAct` / `SpeechActRef`; if the approval institutes a deontic binding, cite `A.2.8` `U.Commitment` and the instituting act; if it means a gate passed, cite `A.21` `GateDecision` / `DecisionLogRef`; if it is being used as evidence that release or other work occurred, cite `A.15.1` dated `U.Work` plus `A.10`; if it is only approval wording in boundary, API, policy, or schema prose, split through `A.6` / `A.6.B`; if it is evidence of approval, exit to `A.10`; if it is confidence because something was approved, use `B.3` only when a typed assurance claim is live.
-- permission claim/effect split: if permission is a deontic relation, cite `A.2.8` `U.Commitment` and the instituting source; if it is an admissibility predicate, cite the `A.6.B` `A-*` claim; if it means gate passage, cite `A.21`; if it means an authorization act, cite `A.2.9`; if it changes or depends on role/status, cite `A.2.1` or status-changing support; if it means credential status, use `A.10`; if it is only a UI label, badge, dashboard display, or permission-looking wording, treat it as orientation/source-finding until the exact source is recovered.
-- authorization claim/effect split: if authorization means a speech act authorizing, cite `A.2.9`; if it means a policy/admissibility predicate over subject, requested policy operation or work class, affected resource or work target, context, and policy version, split through `A.6.B`; if it means gate decision or gate passage, cite `A.21`; if it means access proof, credential proof, status proof, or currentness, use `A.10`; if it means role assignment or role/status effect, cite `A.2.1` or status-changing support; if it is being used to say execution happened, do not use authorization as evidence of execution, cite `A.15.1` dated `U.Work` plus `A.10` instead.
-
-
-
-
-Return products for loop closure:
-
-| Route used | Return product for this A.15 split | What the return product does not hide |
-| --- | --- | --- |
-| `A.6` / `A.6.B` | Routed claim IDs (`L-* / A-* / D-* / E-*`) plus the required `FPF` claim/effect question. | Raw wording is not work/reliance support. |
-| `A.10` | Claim-bound evidence path, freshness/currentness posture, and supported/unsupported use for the attempted claim. | Evidence support is not approval, permission, gate passage, work occurrence, or assurance. |
-| `B.3` | Typed assurance claim, no-assurance-use disposition, or rejected/downgraded assurance claim. | Assurance wording is not a generic trust label. |
-| `A.21` | `OperationalGate(profile)`, `GateDecision`, `DecisionLogRef`, gate profile/version, scope/window, and replay/freshness pins. | Gate passage is not execution evidence or assurance. |
-| `A.20` | `ConstraintValidity` status/witness, path/window/sentinel/pins where live. | Constraint validity is not the gate decision itself. |
-| `A.2.9` | `SpeechActRef` with act type, actor/role, affected work target or claim target, judgement context, window, and instituted effects if claimed. | A speech act is not deontic binding, gate passage, or work occurrence by itself. |
-| `A.2.8` | `U.Commitment` / deontic relation with accountable role/agent, content, object, window, and instituting source when needed. | Commitment is not proof that work occurred. |
-| `A.15.1` | Dated `U.Work` occurrence plus evidence carrier path when relied on. | Work occurrence is not permission or assurance. |
-| `E.17.EFP` | Explanation class and source-finding/faithfulness relation over the source episteme/publication lane. | Explanation is not operative source support without A.10 claim-bound evidence. |
-
-
-
-Load-bearing work or reliance - especially external-impact, irreversible, release-bearing, role/status-bearing, gate-bearing, compliance/safety-bearing, delegated, contested, or assurance-bearing claim/effect - is admissible only for the actor/role, live P2W class or reliance claim, affected work target or claim target, audience, scope, environment, version, policy context, operational mode, and time/window for which exact governing `FPF` support is recoverable. Cue-only, source-finding, learning, and bounded reversible probes stay lightweight and do not require a full source dossier.
-
-Quick dispositions:
-
-
-| Encountered case | First `A.15` disposition |
-| --- | --- |
-| Source-backed release dashboard tile | If the tile is a current dashboard view of `A.21` `GateDecision` / `DecisionLogRef` plus release/work target, environment, scope/window, gate profile/version, and `A.10` evidence path, it may support gate-passage reliance for that release and environment. |
-| Unsourced or stale release dashboard tile | Display/source-finding only until the current `GateDecision` / `DecisionLogRef`, release/work target, scope/window, gate profile/version, and `A.10` evidence path are recoverable; use `B.3` only if assurance strength is claimed. |
-| Copied review summary or copied approval | Copied wording/currentness at most; approval, authorization, permission, commitment, or work occurrence needs the original `A.2.9` `SpeechActRef`, `A.21` decision, `A.2.8` commitment, or `A.15.1` work source plus `A.10` evidence. |
-| Delegation chain / forwarded approval | Each link names delegator, delegatee, delegated operation or work class, affected target, scope/window, source permitting delegation, subdelegation allowance if any, revocation/currentness state, and evidence path. A forwarded approval is not delegated authority by copy alone. |
-| Role/revocation/status display | Resolve to role assignment, status-changing speech act, context-state record, credential proof/status result, or gate decision with freshness/revocation support; visual status cannot defeat a higher-priority revocation or supersession source. |
-| Conflicting sources | Do not resolve by color, visual salience, copied wording, or apparent recency. Name source order, governing decision source, freshness policy, and supersession rule; the work/reliance claim/effect is contested until resolved, while source-finding and bounded reversible probes remain available. |
-| Credential badge | Use the display to find issuer/trust anchor, holder/subject binding, verifier/relying context, proof/status result, revocation/freshness, and validity window. If those checks pass, rely only on credential-currentness for that holder/context; permission, authorization, role/status effect, or gate passage needs `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` support. |
-
-| Rollback command-like cue | Treat as cue or `A.6.A`-governed invitation unless exact command/authorization, work occurrence, execution result, or gate support is recoverable. |
-| Generated explanation says "authorized" | Explanation may help find sources; it does not issue, approve, revoke, commit, authorize, pass a gate, evidence execution, or raise assurance. A citation or source mention inside the explanation supports work/reliance only when the cited carrier supports that exact relied-on claim in the relying context under `A.10`. |
-
-| Extracted-source -> rewrite -> representation shift -> explanation -> gate/release claim/effect | Reopen the strongest exact source at the first lossy or non-commutative transform step; the gate/release claim/effect waits for exact transform, evidence, explanation, gate, or assurance support. |
-| Repeated green-tile/no-source failures | Treat recurrence as upstream source-system repair work: expose decision refs, fix dashboard semantics, add source links/currentness, revise boundary wording, or add review/lint cues so the acting user is not repeatedly forced to reconstruct missing source support. |
-
-
-Worked dashboard/approval slice:
-
-A release dashboard shows a green approval-looking tile for `Release-2026.05.08-prod`. If the tile is a current view of the relevant `GateDecisionRef` plus evidence/currentness path, it may guide release work for that named target and window. If not, treat the tile as orientation and source-finding until the team can name the live release-work class, required `FPF` claim/effect, and exact `governingPatternRef` or `authoritySourceRef`.
-
-| Step | Required move |
-| --- | --- |
-| Required `FPF` claim/effect | Release reliance, gate passage, compliance proof, assurance increase, or evidence/currentness support. |
-| Gate decision source | Cite the current `A.21` `GateDecision` / `DecisionLogRef`, gate profile/version, release/work target, scope/window, and replay/freshness pins. Without that source, the tile is not release permission or gate passage. |
-| Constraint or flow-validity source | Cite `A.20` `ConstraintValidity` status/witness only when the claim is about constraint or flow validity, not about the gate decision itself. |
-| Evidence/currentness source | Use `A.10` for the dashboard query, carrier integrity, evidence refs, time/window, freshness/revocation stance, verifier/relying context, and rival explanation such as stale display or copied status. |
-| Assurance source | Use `B.3` only if the tile is being used to raise readiness, compliance, trust, safety, release confidence, `R`, `F`, `G`, or `CL`; otherwise no assurance tuple is live. |
-| Admissible repaired use | With the decision and evidence path recovered, rely on gate passage only for the named release/work target, environment, gate profile/version, and time/window. |
-| Blocked overreads | The dashboard color does not create approval, permission, compliance proof, rollback success, work occurrence, or assurance by display. |
-
-Role prompts:
-
-| Role in the situation | Prompt |
-| --- | --- |
-| Acting user | What can I safely do next without turning the encountered episteme/publication lane into unsupported work/reliance support? |
-| Release engineer | Which `A.21` gate decision/log, release/work target, and `A.15.1` work occurrence are separate here? |
-| Issuer/gate/evidence/role source | What source, status, decision ref, or evidence path must be exposed or repaired? |
-| Auditor/reviewer | Which evidence path, decision ref, speech-act ref, commitment, work occurrence, or assurance claim must be recoverable? |
-| Boundary author | Which words need routed claim IDs before they can guide work or reliance? |
-| Manager | Is repeated ambiguity a source-system repair item rather than another manual check for the acting user? |
-| LLM/tool user | Which exact source does the explanation help find, and which operative claims still need `A.10` support? |
-| Security/compliance source | Which revocation, currentness, proof/status, source order, or supersession source must be exposed? |
-| Model/data source | Which intended-use, evaluation-condition, version/window, limitation, and evidence path bound the model/data documentation? |
-| Assurance reviewer | Which named claim is actually being strengthened, with what assurance tuple, evidence path, limitations, and reopen condition? |
-Search aliases for this subsection include: approval, approval-looking display, authorization, authorization-looking display, permission, permission display, allowed wording, green dashboard, release tile, release readiness, model card, datasheet, data card, provenance, provenance mark, attestation, attestation label, credential, credential badge, generated explanation, copied review, copied approval, review summary, compliance-looking mark, delegation, delegation display, revocation, revocation status, gate passed, gate passage, rollback successful, rollback cue, and assurance label. These are search handles only; choose the actual starting pattern by the live question, not by the displayed word or carrier/source name.
-
-First-entry map for authority-looking cases:
-
-| Live question | Start in | First useful output |
-| --- | --- | --- |
-| Can this encountered episteme publication, publication face, carrier, rendering, or cue guide work or reliance? | `A.15` | Candidate next `U.WorkPlanning` / `U.Work` / reliance move, required `FPF` claim/effect, minimum admissible next move, and exact source needed. |
-| Is the problem boundary, policy, API, schema, or connector wording? | `A.6` / `A.6.B` | Routed `L-*`, `A-*`, `D-*`, and `E-*` claims before the work/reliance claim is used. |
-| Is the problem evidence, currentness, provenance, credential status, generated/copy source support, or source-chain recovery? | `A.10` | Claim-bound evidence/currentness path and supported/unsupported use. |
-| Is the problem assurance, readiness, safety, compliance, trust, release confidence, or `R`/`F`/`G`/`CL` strength? | `B.3` | Typed assurance claim, no-assurance-use disposition, or downgraded/rejected assurance use. |
-
-Display guidance for bounded status: a visible status meant to guide work should expose source type, exact ref or link, freshness/window, scope, and unsupported work/reliance/claim/effect. For example, prefer `Gate check passed / GateDecisionRef / release target / environment / window / not compliance proof, rollback success, or assurance increase` over a bare approval-looking label.
-
-Incident-learning fields for authority-looking overread: encountered episteme/publication lane, live P2W class or reliance claim, required `FPF` claim/effect, actor/role, affected work target or claim target, context/window, missing or stale source, exact `governingPatternRef`, `authoritySourceRef`, or source role, plausible overread, safe disposition used now, and upstream repair item for the source, dashboard, explanation, credential view, boundary wording, publication face, or carrier.
-
-Contestability/redress route: when an authority-looking case affects person or team status, access, assignment, responsibility, release blockage, compliance posture, or safety-impacting work, name the review route before the work/reliance claim hardens. The route should name the disputed source or claim, the source role that can refresh or correct it, the evidence/status path to reopen, the safe interim disposition, and the time/window for review.
-
-
-
-
-
-Lintable overread cues:
-
-| Lint signal | Exact reroute |
-| --- | --- |
-| `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary/API/schema/policy wording | Split through `A.6` / `A.6.B` into `L-*`, `A-*`, `D-*`, and `E-*`; route agreement-like wording through `A.6.C`, `A.2.8`, and `A.2.9` where live. |
-| Dashboard tile, status color, or release tile used as release evidence or gate passage | Require `A.21` `GateDecision` / `DecisionLogRef` plus `A.10` evidence/currentness path. |
-| Credential screenshot or badge used as permission, authorization, or role/status support | Require `A.10` issuer/holder/verifier/status/currentness/relying-context support, then exact `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` source for the required permission, authorization, role/status, or gate claim/effect. |
-| Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for explanation/source-finding relation and `A.10` claim-bound source support; issue/approval/gate/commitment claims still need `A.2.9`, `A.21`, or `A.2.8`. |
-| Model card, datasheet, label, or note cited as readiness, safety, compliance, or release confidence | Require a typed `B.3` assurance claim, intended-use match, evaluation condition, limitations, and `A.10` evidence path. |
-| Provenance/attestation label cited as truth, safety, release, or permission | Require `A.10` bounded provenance/process claim plus separate evidence for truth, safety, release, permission, or assurance. |
-| Evidence, assurance, gate, or work-occurrence words without their `governingPatternRef` or `authoritySourceRef` | Route respectively to `A.10`, `B.3`, `A.21`, or `A.15.1` before the work/reliance claim is used. |
-
-Stress cases for practice:
-
-| Case | Expected A.15 disposition |
-| --- | --- |
-| Green release dashboard tile with no `GateDecisionRef`. | Source-finding only; recover `A.21` decision/log plus `A.10` evidence before gate-passage reliance. |
-| Copied approval from last month. | Recover original `A.2.9` `SpeechActRef`, currentness/freshness, and any live `A.2.8` commitment or `A.21` gate source. |
-| Credential badge screenshot after revocation. | Treat as contested credential-currentness; use `A.10` issuer/holder/verifier/status/revocation path and do not infer permission. |
-| Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation/source-finding and `A.10` claim-bound support; issuing/gate/commitment claims still need their own sources. |
-| Boundary wording says `guaranteed approved for production`. | Split through `A.6` / `A.6.B`; if agreement-like or promise-bearing, unpack through `A.6.C`, `A.2.8`, and `A.2.9`. |
-| Dashboard says green while decision log says blocked. | Treat as conflicting sources; name source order, governing decision source, freshness policy, and supersession rule before the work/reliance claim is used. |
+A principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain readable may help the team plan work or find the needed source, but it does not become performed `U.Work`, work authority, evidence, gate passage, engineering justification, or release permission by publication alone.
 
 ### A.15:5 - Archetypal Grounding
 
@@ -19541,6 +19550,23 @@ This side-by-side comparison reveals the power of the framework. A seemingly dif
 
 This briefing may orient the team and cue attention, but it is not the governing execution authority by itself. Work can proceed admissibly only when the underlying method description, current work plan, required approval records, and evidence carriers / evidence paths stay explicit and reopenable. If the team wants to treat the briefing as sufficient to execute, the case leaves simple orientation and must reopen the governing method, plan, approval, or evidence source rather than treating the shortened note as the work-enactment authority.
 
+#### A.15:5.1.b - P2W principle-scheme publication supports planning, not occurrence
+
+**Source set.** A team has a principle scheme that shows the P2W principles-to-work transduction chain for a fabrication task: signature or principle material, method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, and result measurement.
+
+**Published slice.** `For this batch family, method M-2 is selected from the declared method family; prepare work plan WP-17 before any run is recorded.`
+
+This publication may support method inspection and work-planning preparation under `A.15`. It does not say that the work already occurred, that the batch may pass a gate, that evidence is sufficient, or that engineering justification is complete. A conforming use keeps the selected method, `U.WorkPlan`, actual `U.Work`, work-result record, and result measurement distinct. Evidence/provenance use requires a project evidence path governed by `A.10`; engineering-justification use requires an engineering-justification record governed by `B.3`; gate use requires the project gate/constraint decision governed by `A.20` / `A.21`; carrier, screen, export, or OCR behavior requires the carrier/front-end record governed by `A.7`; publication/readability questions stay with `E.17` and the relevant `A.6.3.*` relation.
+
+#### A.15:5.1.c - Scenario supports method selection, not performed work
+
+**Source set.** A method-selection scenario says that material X is below threshold T, resource window W is available, and the fabrication cell is in setup state S. The scenario is source material for choosing between method families.
+
+**Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
+
+The scenario can support method-family selection and work-planning preparation. It is not the selected method by itself, not a `U.WorkPlan`, not performed `U.Work`, and not evidence that the work result was achieved. Once the team selects a method or prepares a plan, record that project choice or plan as the exact `A.15` method/plan/work material; if the scenario is being used as evidence, gate passage, or engineering justification, first recover the existing project evidence path, gate/constraint decision, or engineering-justification record governed by `A.10`, `A.20` / `A.21`, or `B.3`. If no existing project source carries the needed load-bearing claim, create only a prospective repair/request/decision/work-plan/source-gap record; do not backdate evidence, approval, gate passage, performed `U.Work`, release permission, engineering justification, or assurance for the earlier scenario-based claim.
+
+
 ### A.15:6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for contextual enactment across engineering, operational, and knowledge-work settings.
@@ -19560,24 +19586,25 @@ Bias risks and mitigations:
 
 ### A.15:7 - Conformance Checklist
 
-To ensure the integrity of role-method-work modeling, all FPF-compliant models must adhere to the following normative checks.
+To preserve role-method-work modeling, a conforming model/use SHALL satisfy the following checks.
 
 | ID | Requirement (Normative Predicate) | Purpose / Rationale |
 | :--- | :--- | :--- |
-| **CC-A15-1 (Entity Distinction)** | The entities `U.Role`, **`U.Method`**, **`U.MethodDescription`**, `U.Capability`, **`U.WorkPlan`**, and `U.Work` **MUST** be modeled as distinct, non-overlapping types. | This is the core enforcement of **Strict Distinction (A.7)**. It prevents the category errors outlined in the "Problem" section. |
+| **CC-A15-1 (Entity Distinction)** | A conforming model SHALL keep `U.Role`, **`U.Method`**, **`U.MethodDescription`**, `U.Capability`, **`U.WorkPlan`**, and `U.Work` as distinct, non-overlapping types. | This is the core enforcement of **Strict Distinction (A.7)**. It prevents the category errors outlined in the "Problem" section. |
 | **CC-A15-1a (Work target/kind predicate)** | A conforming `U.Work` record SHALL satisfy `A15-WF-1`; validators SHOULD report missing `primaryTarget` or missing `kind` as an invalid work record. | Keeps target and work kind enforceable as work-record validity without stating modeled-world admissibility through a free RFC sentence. |
 | **CC-A15-2 (Temporal Scope)** | `U.Method`/`U.MethodDescription`/`U.WorkPlan` exist in **design-time**; `U.Work` exists in **run-time**. Design-time method descriptions and work plans are not mutated by operational events. | Enforces **Temporal Duality (A.4)**. Blueprints cannot be mutated by operational events. |
-| **CC-A15-3 (RoleAssignment Mandate)** | Every `U.Work` **MUST** be linked via `performedBy` to a valid `U.RoleAssignment`. | Guarantees that every work occurrence has a clearly identified, context-bound actor, ensuring accountability. |
-| **CC-A15-4 (Traceability Chain)** | For every `U.Work`, an unbroken chain **MUST** exist: `Work -performedBy-> RoleAssignment` and `Work -isExecutionOf-> MethodDescription -describes-> Method`. Capability checks are evaluated against the holder at run time. | Ensures end-to-end auditability from a specific work occurrence back to the recipe that governed it. |
-| **CC-A15-5 (No Roles in Mereology)** | A `U.Role` or `U.Capability` **SHALL NOT** be part of a mereological (`partOf`) hierarchy. | The "Role-as-Part" anti-pattern is a violation. Roles and capabilities are functional, not structural. Enforces **A.14**. |
-| **CC-A15-6 (Resource Honesty)** | Resource consumption (`U.Resource`) **MUST** only be associated with `U.Work`, never with `U.MethodDescription` or `U.Capability`. | Enforces that costs are tied to actual events, not to plans or potential. Aligns with **Resrc-CAL (C.5)**. |
-| **CC-A15-7 (Plan/Run Split)** | Schedules/calendars **MUST** be represented as `U.WorkPlan` (A.15.2). A `U.WorkPlan` SHALL NOT be used as evidence of execution; only `U.Work` carries actuals. | Preserves plan/run separation and prevents schedule-as-actual drift. |
-| **CC-A15-8 (Lexical Sanity)** | Unqualified "process/workflow/schedule" **MUST** be interpreted per **L-PROC / L-FUNC / L-SCHED**: workflow -> `Method/MethodDescription`; schedule -> `WorkPlan`; what happened -> `Work`. | Keeps process vocabulary auditable and reduces lexical ambiguity. |
+| **CC-A15-3 (RoleAssignment Mandate)** | A conforming `U.Work` record SHALL link via `performedBy` to a valid `U.RoleAssignment`. | Guarantees that every work occurrence has a clearly identified, context-bound actor, ensuring accountability. |
+| **CC-A15-4 (Traceability Chain)** | A conforming model SHALL provide an unbroken chain for every `U.Work`: `Work -performedBy-> RoleAssignment` and `Work -isExecutionOf-> MethodDescription -describes-> Method`. Capability checks are evaluated against the holder at run time. | Ensures end-to-end auditability from a specific work occurrence back to the recipe that governed it. |
+| **CC-A15-5 (No Roles in Mereology)** | A conforming model SHALL NOT place `U.Role` or `U.Capability` in a mereological (`partOf`) hierarchy. | The "Role-as-Part" anti-pattern is a violation. Roles and capabilities are functional, not structural. Enforces **A.14**. |
+| **CC-A15-6 (Resource Honesty)** | A conforming model SHALL associate resource consumption (`U.Resource`) only with `U.Work`, never with `U.MethodDescription` or `U.Capability`. | Enforces that costs are tied to actual events, not to plans or potential. Aligns with **Resrc-CAL (C.5)**. |
+| **CC-A15-7 (Plan/Run Split)** | A conforming model SHALL represent schedules/calendars as `U.WorkPlan` (A.15.2). A `U.WorkPlan` SHALL NOT be used as evidence of execution; only `U.Work` carries actuals. | Preserves plan/run separation and prevents schedule-as-actual drift. |
+| **CC-A15-8 (Lexical Sanity)** | A conforming use SHALL interpret unqualified "process/workflow/schedule" per **L-PROC / L-FUNC / L-SCHED**: workflow -> `Method/MethodDescription`; schedule -> `WorkPlan`; what happened -> `Work`. | Keeps process vocabulary auditable and reduces lexical ambiguity. |
 | **CC-A15-9 (Realisation)** | A valid `U.Work` realizes a `U.MethodDescription` under a `U.RoleAssignment`. Spontaneous physical evolution without a `MethodDescription` is modeled as `U.Dynamics`, not as `U.Work`. | Prevents background dynamics from being miscast as governed work. |
-| **CC-A15-10 (GateSplit)** | A SpeechAct that changes a Role's state (e.g., "Approve", "Authorize") MUST be modeled as a distinct `U.Work` step (`kind=Communicative`). It may open the Green-Gate for a subsequent operational step, but it SHALL NOT be conflated with that step. | Preserves authority-state changes as distinct communicative acts. |
-| **CC-A15-11 (KindFit)** | The `U.Role` named in the `performedBy` assignment SHALL be appropriate for the `U.Work` kind (e.g., `ApproverRole` for communicative approvals; `DeployerRole` for operational deployments). | Prevents kind-mismatched role attribution. |
-| **CC-A15-12 (Causal-use Work Boundary)** | Intervention assignment, counterfactual randomization, target-trial emulation, causal evidence collection, and realized counterfactual-sampling work MAY be modeled here only as `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, and role-assigned execution structure. Any claim that the resulting causal use is admissible SHALL cite `C.28` for causal-use question, `CausalityLadderRung`, causal estimand, support basis, support verdict, and supported/unsupported use. | Prevents method/work structure from being mistaken for causal-use support. |
-| **CC-A15-13 (Authority-looking source-backed work/reliance split)** | Before an authority-looking case guides work or reliance, a conforming `A.15` use SHALL name the live P2W class or reliance claim, required `FPF` claim/effect, and either cite the exact `governingPatternRef` or `authoritySourceRef` exit or mark the case orientation-only, contested, reopened, or blocked. A conforming `A.15` use SHALL NOT absorb evidence, assurance, boundary wording, gate decision, role/status, commitment, speech-act, or work-occurrence semantics from `A.10`, `B.3`, `A.6`, `A.2.1`, `A.2.8`, `A.2.9`, `A.20`, `A.21`, or `A.15.1`. | Prevents displays, badges, copied text, generated explanations, and composed chains from becoming authority by appearance. |
+| **CC-A15-10 (GateSplit)** | A conforming model SHALL represent a SpeechAct that changes a Role's state (e.g., "Approve", "Authorize") as a distinct `U.Work` step (`kind=Communicative`). It may open the Green-Gate for a subsequent operational step, but it SHALL NOT be conflated with that step. | Preserves authority-state changes as distinct communicative acts. |
+| **CC-A15-11 (KindFit)** | A conforming `performedBy` assignment SHALL use a `U.Role` appropriate for the `U.Work` kind (e.g., `ApproverRole` for communicative approvals; `DeployerRole` for operational deployments). | Prevents kind-mismatched role attribution. |
+| **CC-A15-12 (Causal-use Work Boundary)** | A conforming causal-use model MAY represent intervention assignment, counterfactual randomization, target-trial emulation, causal evidence collection, and realized counterfactual-sampling work here only as `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, and role-assigned execution structure. Any claim that the resulting causal use is admissible SHALL cite `C.28` for causal-use question, `CausalityLadderRung`, causal estimand, support basis, support verdict, and supported/unsupported use. | Prevents method/work structure from being mistaken for causal-use support. |
+| **CC-A15-13 (A.15.4 Boundary)** | If a visible item is being used for work/reliance support by appearance, a conforming `A.15` use SHALL use `A.15.4` for the source-restoration question and keep only the role/method/plan/work separation here. | Prevents the A.15 kernel from absorbing evidence, assurance, boundary wording, gate decision, role/status, commitment, speech-act, or work-occurrence semantics from neighboring source patterns. |
+| **CC-A15-14 (P2W Publication Boundary)** | A conforming use SHALL NOT treat a principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain readable as performed `U.Work`, work authority, evidence, gate passage, engineering justification, or release permission by publication alone. | The project use names the exact `A.15` material it supports: method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or result measurement; unsupported source-restoration claims use `A.15.4`. |
 
 ### A.15:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -19588,7 +19615,8 @@ To ensure the integrity of role-method-work modeling, all FPF-compliant models m
 - **Approval collapse.** Do not merge approval or authorization speech acts into the operational step they open; model them as distinct communicative `U.Work` when they change authority state.
 - **Process soup.** Do not leave "process / workflow / activity" uninterpreted in load-bearing passages; resolve the word to method, plan, or work.
 - **Briefing-as-execution-cue.** Do not treat a lighter review note, rollout summary, or redacted operations note as if it already authorized execution, approval, gate passage, or a work plan. Reopen the governing method, plan, approval, or evidence source before work proceeds.
-- **Authority-looking case as source / work/role-status overread.** Do not treat a dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain as approval, permission, gate passage, role/status currentness, work occurrence, evidence, or assurance by appearance. First name the live P2W class or reliance claim and required `FPF` claim/effect, then exit to the exact `governingPatternRef` or `authoritySourceRef` or block reliance.
+- **P2W publication as work occurrence.** Do not treat a principle scheme, functional diagram, scenario, screen, or explanation as if it were performed `U.Work`, evidence, gate passage, or engineering justification. Use it only for the exact method or work-planning support it carries, then recover the project source record that actually supports any unsupported claim.
+- **Visible item as work source.** Do not treat a dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain as approval, permission, gate passage, role/status currentness, work occurrence, evidence, or assurance by appearance. Use `A.15.4` for the source-restoration question and keep `A.15` for role/method/plan/work separation.
 
 ### A.15:9 - Consequences
 
@@ -19609,7 +19637,10 @@ This pattern solves a problem that has plagued systems modeling for decades: the
 
 By creating this clean, stratified alignment for enactment, FPF provides a stable and scalable foundation for all of its more advanced patterns, from resource management (`Resrc-CAL`) and decision theory (`Decsn-CAL`) to ethics (`Norm-CAL`).
 
-### A.15:11 - SoTA-Echoing
+### A.15:11 - SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts
+
+**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
+
 
 **Claim 1.** Best-known current workflow, digital-thread, and service-operations practice keeps recipe, plan, and execution separate.
 
@@ -19627,18 +19658,19 @@ By creating this clean, stratified alignment for enactment, FPF provides a stabl
 
 **Claim 4.** Best-known current agentic work practice treats fast bounded specialization as a checkpointed scout/probe discipline rather than as a naked winner claim.
 
-**Practice / source / alignment / adoption.** Contemporary agentic tool-use, adaptive workflow, and human-in-the-loop governance practice separates bounded exploration from committed rollout because a successful probe is not yet an admissible route choice. In the working moment above, that is why the pair returns one `CheckpointReturn` with candidate approaches, evidence, burned and residual budget, and a commit trigger rather than only a winner label. This pattern **adopts** checkpointed scout/probe discipline, **adapts** it through the dyad-local roles and `CheckpointReturn`, and **rejects** the shortcut where an early probe silently becomes a committed rollout.
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `A.15` | Adoption status |
+**Practice / source / alignment / adoption.** Contemporary agentic tool-use, adaptive workflow, and human-in-the-loop governance practice separates bounded exploration from committed rollout because a successful probe is not yet an admissible committed approach. In the working moment above, that is why the pair returns one `CheckpointReturn` with candidate approaches, evidence, burned and residual budget, and a commit trigger rather than only a winner label. This pattern **adopts** checkpointed scout/probe discipline, **adapts** it through the dyad-local roles and `CheckpointReturn`, and **rejects** the shortcut where an early probe silently becomes a committed rollout.
+| Claim need | Source idea / current source | Current source locus | Local FPF invariant / practical local test | Adopted/adapted invariant / rejected shortcut |
 | --- | --- | --- | --- | --- |
-| Recipe, plan, case, decision, and executed occurrence must stay separable. | Case-management, decision-modeling, and service-change practice distinguish discretionary case work, decision logic, planned change support, and the realized service/product change. | OMG CMMN 1.1 (2016); OMG DMN 1.5 (2024); ITIL 4 Practitioner: Change Enablement (2023). | The manufacturing, peer-review, and rollout slices keep `U.MethodDescription`, `U.WorkPlan`, approval work, and `U.Work` separate so a calendar or procedure never counts as the weld, review, deployment, or actual run. | **Adopt/Adapt.** Adopt the separation of case, decision, plan, and occurrence; adapt it to FPF's `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`; reject an undifferentiated "process" object. |
-| Architecture and digital-thread practice need traceable views without confusing description, authority, and occurrence. | Architecture-description and model-based systems practice treat descriptions, viewpoints, requirements, behavior, verification, and traceability as explicit review objects. | ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025). | `A.15` uses actor-in-context, role assignment, method description, and work occurrence so post-hoc review can ask whether the problem was assignment, capability, recipe, plan, approval, or run. | **Adopt/Adapt.** Adopt explicit trace and viewpoint discipline; adapt it to role/method/work alignment; reject attributing work to a role label or document alone. |
-| Approval and execution are distinct practical acts. | Change-enablement and decision-modeling practice separates risk assessment, authorization, scheduling, decision logic, and the work that realizes change. | ITIL 4 Practitioner: Change Enablement (2023); OMG DMN 1.5 (2024). | In the release and gate examples, an approval or authorization changes authorization state; it is not the same work as deployment, welding, or other operational occurrence. | **Adopt.** Adopt the communicative/operational split and reject collapse of approval into the thing approved. |
-| Fast bounded exploration must not become committed rollout by convenience. | Contemporary service and modeling practice supports adaptive work while preserving explicit authorization, traceability, and reviewable transition from option exploration to committed change. | ITIL 4 Practitioner: Change Enablement (2023); ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025). | The scout/probe moment returns evidence, budget posture, and a commit trigger rather than only a winner label. The practical safeguard is that successful exploration still needs explicit commit authority before it becomes work enactment. | **Adapt/Reject.** Adapt adaptive-change and traceability practice to FPF role/method/work splits; reject the shortcut where an early probe silently becomes a committed rollout. |
-| Authority-looking displays need exact current source support before work/reliance claims. | Contemporary practice contributes complementary invariants: dynamic authorization separates subject, requested operation, affected target, context, and window; credential practice separates issuer/holder/verifier/status/currentness; provenance and attestation separate origin/process support from truth or release; assurance practice separates claim/evidence/limitations/decay from visible labels; release/change practice separates decision, schedule, and executed work. | NIST Zero Trust / dynamic authorization practice; Cedar policy language; Zanzibar-style relation authorization; W3C Verifiable Credentials / digital identity; C2PA content provenance; SLSA / in-toto attestations; ITIL 4 Change Enablement. | The source-backed work/reliance split asks for live P2W class or reliance claim, required `FPF` claim/effect, exact source exit, affected work target or claim target, context, policy/gate version, time/window, freshness/revocation, evidence, and relying context before work/reliance while leaving cue-only and source-finding moves lightweight. | **Adopt/Adapt/Reject.** Adopt bounded currentness and source-support invariants; adapt them through exact `FPF` exits; reject treating a display, copy, explanation, credential, provenance mark, dashboard tile, or composed chain as authority. |
+| Recipe, plan, case, decision, and executed occurrence must stay separable. | Case-management, decision-modeling, and service-change practice distinguish discretionary case work, decision logic, planned change support, and the realized service/product change. | OMG CMMN 1.1 (2016); OMG DMN 1.5 (2024); ITIL 4 Practitioner: Change Enablement (2023); source maturity = mature modeling standards plus current practitioner guidance. | The manufacturing, peer-review, and rollout slices keep `U.MethodDescription`, `U.WorkPlan`, approval work, and `U.Work` separate so a calendar or procedure never counts as the weld, review, deployment, or actual run. | **Adopt/Adapt.** Adopt the separation of case, decision, plan, and occurrence; adapt it to FPF's `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`; reject an undifferentiated "process" object. |
+| Architecture and digital-thread practice need traceable views without confusing description, authority, and occurrence. | Architecture-description and model-based systems practice treat descriptions, viewpoints, requirements, behavior, verification, and traceability as explicit review objects. | ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025); source maturity = mature standard plus current technical specification. | `A.15` uses actor-in-context, role assignment, method description, and work occurrence so post-hoc review can ask whether the problem was assignment, capability, recipe, plan, approval, or run. | **Adopt/Adapt.** Adopt explicit trace and viewpoint discipline; adapt it to role/method/work alignment; reject attributing work to a role label or document alone. |
+| Approval and execution are distinct practical acts. | Change-enablement and decision-modeling practice separates risk assessment, authorization, scheduling, decision logic, and the work that realizes change. | ITIL 4 Practitioner: Change Enablement (2023); OMG DMN 1.5 (2024); source maturity = current practitioner guidance plus mature modeling standard. | In the release and gate examples, an approval or authorization changes authorization state; it is not the same work as deployment, welding, or other operational occurrence. | **Adopt.** Adopt the communicative/operational split and reject collapse of approval into the thing approved. |
+| Fast bounded exploration must not become committed rollout by convenience. | Contemporary agentic tool-use and adaptive-work practice, including ReAct/Toolformer/Reflexion-style tool-use and self-correction lines, supports bounded probing while preserving explicit transition from option exploration to committed change. | Current agentic tool-use/self-correction practice; ITIL 4 Practitioner: Change Enablement (2023); ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025); source maturity = current technical/practitioner guidance plus mature/current modeling standards. | The scout/probe moment returns candidate support, observed result, burned/residual budget posture, and a commit trigger rather than a selected method, `U.WorkPlan`, performed `U.Work`, or rollout authority. | **Adapt/Reject.** Adapt bounded scout/probe discipline to FPF role/method/work splits; reject the shortcut where an early probe silently becomes a committed method choice, work plan, or rollout. |
 
 
 
-The nearest recovery anchors are the manufacturing, peer-review, rollout briefing, and authority-looking case slices above, plus `CC-A15-7`, `CC-A15-10`, `CC-A15-12`, and `CC-A15-13`. If a SoTA row cannot be recovered through those local checks, do not let the source citation stand in for the local `A.15` rule.
+For visible credential, provenance, dashboard, explanation, or composed-source cases that need exact project-source support before work/reliance, use `A.15.4`. A.15 receives only the returned role/method/plan/work part of the case.
+
+The nearest recovery anchors are the manufacturing, peer-review, rollout briefing, `CC-A15-7`, `CC-A15-10`, `CC-A15-12`, and the boundary to `A.15.4`. If a SoTA row cannot be recovered through those local checks, do not let the source citation stand in for the local `A.15` rule.
 
 ### A.15:12 - Relations
 
@@ -19653,9 +19685,9 @@ The nearest recovery anchors are the manufacturing, peer-review, rollout briefin
     *   `C.28 CausalUse-CAL`: causal-use meaning and support for intervention, counterfactual sampling, target-trial emulation, and causal evidence work; A.15 keeps the role/method/work chain.
 *   **Constrains:** Any FPF pattern that models method, plan, work occurrence, or overloaded process language must use this framework to be conformant. It serves as the canonical alignment for **contextual enactment** in the FPF ecosystem.
 *   **Coordinates with:** `L-PROC / L-FUNC / L-SCHED` (E-cluster) for lexical disambiguation of _process / workflow / schedule_.
-*   **Coordinates with:** `A.6`, `A.6.B`, and `A.6.C` for mixed boundary/policy/API/schema wording; `A.10` for evidence/currentness/provenance; `B.3` for assurance strength; `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`; `A.20` for `ConstraintValidity` status/witness; `A.15.1` for release/deployment work occurrence; and `E.17.EFP` for generated-explanation faithfulness/source-finding.
+*   **Coordinates with:** `A.15.4` for work-relevant source restoration; `A.6`, `A.6.B`, and `A.6.C` for mixed boundary/policy/API/schema wording; `A.10` for evidence/currentness/provenance; `B.3` for assurance claims; `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`; `A.20` for `ConstraintValidity` status/witness; `A.15.1` for release/deployment work occurrence; and `E.17.EFP` for generated-explanation faithfulness/source-finding.
 
-### A.15:12a - Coordinated-work evidence and quantum-like route note
+### A.15:12a - Coordinated-work evidence and quantum-like reading note
 
 Use A.15 first when the claim is about who acts, by which method, under which role, under which work plan, producing which work result. Coordinated work, routine skill, team alignment, tacit knowledge, and role-method fit are not quantum-like by default.
 
@@ -19666,7 +19698,7 @@ Action path:
 3. Ask whether role-method-work alignment alone explains the case. If yes, stay in A.15.
 4. If no participant statement, local component report, single carrier, dashboard, or exported representation carries the inferred state faithfully enough for the supported state use, add a `C.26.2` distributed-state reading.
 5. State the weakest claim, time window, rival explanations, and export loss.
-6. Route evidence strength through `A.10` and assurance strength through `B.3` when the claim supports work/reliance, audit, readiness, release, or compliance.
+6. Carry evidence support through `A.10` and assurance claims through `B.3` when the claim supports work/reliance, audit, readiness, release, or compliance.
 
 Add a `C.26.2` distributed-state reading only when coordinated work is being used as evidence for a state that no participant statement, local component report, single carrier, dashboard, or exported representation carries faithfully enough for the supported state use. That evidence-bound claim states:
 
@@ -19683,11 +19715,10 @@ Useful outputs:
 
 - an A.15 work-alignment claim when work roles explain the case;
 - a C.26.2 weak distributed-state reading when coordination evidence survives ordinary rivals;
-- an A.10/B.3 evidence or assurance route when the reading will support a work/reliance claim;
+- an A.10/B.3 evidence or assurance support path when the reading will support a work/reliance claim;
 - no distributed-state claim when carriers, rivals, or time window cannot be named.
 
 ### A.15:End
-
 
 ## A.15.1 - U.Work
 
@@ -20622,6 +20653,306 @@ This pattern aligns with post‑2015 practice in multiple traditions while delib
   * **C3.2-S-02 Time discipline** — time selection policy may be pinned by ref; run-time `Γ_time` stays in Work evidence.
 
 ### A.15.3:End
+
+## A.15.4 - Work-Relevant Source Restoration
+
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+**At a glance.** This A.15 cluster member tells an engineer-manager which exact project source must be recovered before an encountered episteme/publication item, display, credential view, generated explanation, copied statement, provenance mark, dashboard tile, schema/API wording, or composed source chain may support a work/reliance claim/effect.
+
+**Use this when.** Use this pattern when a visible item is about to guide a work/reliance move or a work-relevant P2W claim/effect by appearance, and the acting user must recover the exact project source record before proceeding.
+
+**First output.** One compact restoration note: encountered item, live work/reliance claim or P2W load/position, exact source needed, admissible next project move now, and blocked overread.
+
+**What goes wrong if missed.** Teams treat a visible dashboard, credential view, copied approval, generated explanation, provenance mark, schema/API wording, or other publication/display/cue as if it already carried approval, permission, gate passage, evidence, engineering justification, performed work, release permission, or role/status support. Work then proceeds or stops on appearance while the project source that actually governs the claim/effect is missing, stale, revoked, or contradicted.
+
+**Governed object in plain terms.** One source-restoration relation for one live work/reliance claim or P2W load/position: encountered item, exact project claim/effect governing locus, project source record needed, admissible next project move now, and blocked overread. It is not a new authority source, evidence source, gate record, engineering justification object, work occurrence, or generic publication kind.
+
+**Governing move in plain terms.** Recover or name the exact FPF/project source relation before allowing the encountered item to guide work or reliance. When that source is absent or insufficient, narrow the move, reopen or refresh the source, run only a bounded reversible probe under a work plan, or block the unsupported claim/effect.
+
+**Recognition block vs assurance block.** Read **At a glance**, **Use this when**, **First output**, **What goes wrong if missed**, **Governed object**, **Governing move**, **Working action path**, **Not this pattern when**, and **What this buys** as the primary recognition block. Read the field tables, lookup table, lint cues, stress cases, conformance checklist, SoTA alignment, and relations below as assurance/support blocks that tighten the same source-restoration claim; they do not widen this pattern into an evidence, gate, engineering-justification, speech-act, commitment, boundary, or work-occurrence pattern.
+
+**Working action path.**
+1. Name the encountered item locus without treating its appearance as source support.
+2. Name the live work/reliance claim or P2W load/position and the exact project claim/effect governing locus.
+3. Recover the exact project source record or neighboring FPF locus that carries that claim/effect.
+4. Choose the lightest admissible project move now: proceed inside recovered support, narrow the move, run a bounded reversible probe under `U.WorkPlan`, reopen/refresh the source, ask the accountable role assignment to expose or repair the missing source, or block only the unsupported claim/effect.
+5. Return to `A.15` only when the remaining live question is role/method/plan/work separation.
+
+**Not this pattern when.** Stay in A.15 when the live problem is only role/method/plan/work separation. Stay in E.17 when the live problem is only publication-face exposure or multi-view publication. Stay in A.10, B.3, A.20, A.21, A.2.8, A.2.9, A.6, or A.15.1 when evidence/currentness, engineering justification, gate/constraint validity, commitment/speech act, boundary claim, or work occurrence already governs the live claim/effect directly.
+
+**What this buys.** The acting engineer-manager can keep work moving at the lightest admissible level: proceed inside recovered support, narrow the move, run a bounded reversible probe under a work plan, reopen the needed project source, ask the role assignment accountable for that source to expose or repair it, or block only the unsupported claim/effect while preserving weaker admissible use.
+
+### A.15.4:1 - Problem Frame
+
+Dashboards, credential views, generated explanations, copied approvals, provenance labels, green tiles, schema/API wording, and composed source chains often look ready for action before the project source that makes the action or reliance admissible has been recovered. The practical problem is not to classify the item in FPF; the problem is to decide what an engineer-manager may do in the project now without turning appearance into approval, gate passage, evidence, assurance, performed work, or release permission.
+
+### A.15.4:2 - Cluster Boundary
+
+A.15 remains the kernel for separating `U.Role`, holder/context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and actual `U.Work`. A.15.4 starts only when an encountered item begins to support a work/reliance claim/effect and the team must recover the exact project source record that carries that support. If the exact source is already known, use that source pattern directly and keep A.15.4 as the bounded restoration step.
+
+### A.15.4:3 - Work-Relevant Source Restoration
+
+##### Core stress-case rule
+**Ordinary source-restoration note.** In ordinary use, do not build a source dossier. The first useful note is:
+
+`encountered item / live work-or-reliance claim / exact source needed / admissible next project move now / blocked overread`
+
+The encountered item may be a tile, credential view, approval-looking memo, generated explanation, copied review, provenance mark, API wording, functional-description publication, or composed source chain. The pattern asks whether the exact work/reliance claim is currently supported, not whether the item is impressive, fluent, or easy to read.
+
+**Conditional source-support field set.** Use the fuller fields below only when release, safety, compliance, role/status, gate, assurance, contested source, external reliance, cross-context reuse, currentness/revocation, or generated/copied source support is live. These fields are local restoration aids, not a new record kind.
+
+| Field | Working question |
+| --- | --- |
+| subject/actor | Who or what would perform the work, rely on the item, hold the status, or be affected by the claim? |
+| role | Which `U.RoleAssignment` / role-context reading is live? |
+| action/work target | Which selected method, method of work, `U.WorkPlan`, planned work, actual `U.Work`, work result, release/reliance move, or status/effect is being guided? |
+| resource/claim target | Which resource, claim, gate, credential, status, evidence, approval, or authority-source finding is supposedly affected? |
+| context | Which bounded context, environment, project slice, interface/protocol setting, or relying situation makes the claim live? |
+| policy/gate version | Which policy, gate profile, constraint version, method version, or register edition is supposed to govern the claim? |
+| time window | During which window is the support claimed to hold? |
+| currentness/revocation status | Is the supporting source current, stale, revoked, superseded, expired, contradicted, or unknown? |
+| issuer/source | Which issuer, project source record, register/status source, speech act, gate decision, evidence path, or work-occurrence record carries the support? |
+| verifier/relying context | Who is checking or relying on the claim, and in which context? |
+| evidence/attestation path | Which `A.10` evidence/provenance/attestation path, if any, supports the claim without itself becoming approval, gate passage, assurance, or work occurrence? |
+| sourceSupportPosture | Which `E.17:5.1b` posture applies to the encountered item and required claim/use? |
+| unsupported effect | Which requested work/reliance claim or downstream effect remains unsupported and must be narrowed, repaired, reopened, probed, or blocked? |
+
+
+
+Start with the A.15.4 working action path above when the encountered item is about to guide a work/reliance move or a work-relevant claim/effect. If the live issue is only evidence/currentness, gate/constraint, engineering justification, commitment/speech act, boundary/admissibility wording, credential/status proof, explanation, comparison, or carrier/front-end behavior, apply that exact governing pattern or project source relation directly; use A.15.4 only when that source must be restored before role, method, plan, work, work result, result measurement, or another work/reliance move can proceed.
+
+**Authority-looking source-backed work/reliance case.** Use A.15.4 when an approval-, permission-, gate-, command-, credential-, delegation-, revocation-, status-, provenance-, dashboard-, copied-review-, generated-explanation-, schema/API-, or composed-chain case is about to be used as a work cue, reliance basis, release/reliance basis, execution-evidence basis, approval claim/effect basis, role/status claim/effect basis, or next work-relevant move. The recognition moment is that an encountered publication, display, credential view, wording, or explanation looks like permission, prohibition, readiness, or evidence for starting work; the governed question is still the live work/reliance claim or P2W load/position plus the exact project claim/effect governing locus being read from, or through, the wording, display, publication face, carrier, or source-finding cue. It is not the wording alone. A.15.4 does not change the governed object of `A.15`; it governs only the source-restoration step before the encountered case can support work or reliance.
+
+Here "authority-looking case" is only a recognition phrase for the encountered situation; it is not a `U.*` kind, not a profile, not a score, and not a new evidence source, governing pattern, or authority source. The source-backed object that permits, forbids, records, or supports the work may instead be a `GateDecision`, `SpeechAct`, `Commitment`, `RoleAssignment`, credential/status record, `A.6.B`-governed claim, `A.10` evidence path, or `B.3` assurance claim. Use `E.17:5.1c` for the shared meanings of `orientation use`, `reliance use`, `work/reliance claim/effect`, `operative claim`, `unsupported downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary live question may belong to another governing pattern or project source relation.
+
+The central behaviour is: name the live work/reliance claim or P2W load/position, name the exact project claim/effect governing locus, keep the `U.Episteme` or `U.EpistemePublication` distinct from publication form, MVPK face, carrier, rendering, and source-finding cue, choose the minimum sufficient next move, recover only the project source record needed for that move, and do not raise the claim beyond that recovered support. If the project record already states the governing source relation, use that recorded relation directly rather than inferring support from wording.
+
+**Positive repaired path.** An encountered `U.Episteme` publication, publication form, MVPK face, carrier, rendering, or source-finding cue may guide work or reliance only to the support carried by the recovered project source record, actor/role, live work/reliance claim or P2W load/position, affected work target/context/window, and source-supported claim/effect. The repaired outcome is the smallest admissible work/reliance statement plus the unsupported work/reliance claim/effect still blocked.
+
+
+Load posture by exact project claim/effect governing locus:
+
+| Work/reliance posture | Use when | Minimum useful record |
+| --- | --- | --- |
+| Orientation/source-finding note | The encountered item is only a publication face, carrier, rendering, cue, search handle, learning aid, or reversible local probe trigger. | `encountered item / required claim/effect not yet supported / source to reopen / stop condition`. |
+| Routine reliance note | The team needs ordinary bounded reliance without release, safety, compliance, delegated status, contested source, or cross-context reuse. | Live work/reliance claim or P2W load/position, required claim/effect, actor/role, affected work target/context/window, visible source/ref, and reopen condition. |
+| Project-source reliance path | The required claim/effect is external-impact, irreversible, release-bearing, gate-bearing, compliance/safety-bearing, delegated/revoked/status-bearing, generated/copied/provenance-mediated, contested, or cross-context. | Project source record with the live `A.10`, `A.6`, `B.3`, `A.2.9`, `A.2.8`, `A.21`, `A.20`, or `A.15.1` support fields needed for that claim/effect. |
+
+A small A.15.4 restoration note is enough for the first posture:
+
+| Field | Value |
+| --- | --- |
+| live work/reliance claim or P2W load/position | Name the live load or position exactly: method-family selection, selected method / method of work, work plan, planned work, actual `U.Work`, work result, result-measurement, release/reliance decision, or non-work reliance claim/effect. A planned baseline remains a `U.WorkPlan` / `U.WorkPlanning` plan record; actual execution becomes `U.Work` only after it occurs and is recorded under `A.15.1`; work-result measurement belongs with the evidence/result-measurement source. This row is a local restoration label unless it cites an existing FPF kind or project source relation. |
+| exact project claim/effect governing locus | Approval, permission, gate passage, role/status currentness, work occurrence, evidence support, assurance claim, boundary claim, or other exact claim/effect needed before that load/position or claim can be treated as supported. The governing locus must be the FPF source relation that carries the claim/effect, not a new `A.15.4` kind. |
+| actor/role | Who would act or rely. |
+| affected work target/context/window | Release, service, person/role holder, work item, claim, tenant, environment, physical batch, construction element, machine state, or validity window affected by that class or claim. |
+| claim-bearing episteme/publication | The claim-bearing FPF kind is `U.Episteme` or a species such as `U.EpistemePublication`; if the encountered item is only a publication form, MVPK face, carrier/rendering, authored unit, dashboard tile, copied text, credential view, generated explanation, API wording, or cue, name that exact kind separately. |
+| project source record needed or safe next move | Source record to reopen, status to refresh, reversible probe, role assignment accountable for exposing or repairing the missing source, or weakened use. |
+| stop/reopen condition | What blocks the work/reliance claim/effect and what would reopen it. |
+
+**Borrowed episteme/publication discipline.** A.15.4 borrows the `C.2.1` / `E.17` / `A.16.0` distinction rather than minting a new generic `U.*` kind. The claim-bearing FPF kind here is `U.Episteme`; `U.EpistemePublication` is used only when that episteme is available as a published episteme with MVPK-face references. Publication forms, MVPK faces, carriers/renderings, authored units, and source-finding cues are separate kinds/roles in the case. A planned baseline remains a `U.WorkPlan` / `U.WorkPlanning` plan record such as `SlotFillingsPlanItem`; launch values and finalization values remain their own project records, decision logs remain gate/decision records, execution evidence remains evidence, and actual work occurrences remain `A.15.1` / `U.Work` matters.
+
+When required project source support is incomplete, choose one admissible degraded-operation move after naming the live work/reliance claim or P2W load/position and the exact project claim/effect governing locus; pick the lightest move that preserves practical work and source recoverability:
+
+1. Use the encountered item only for orientation or source-finding.
+2. Reopen the required source record or refresh status/currentness.
+3. Narrow actor or role, requested operation or work class, affected target, context, and window until the recovered source really covers the move.
+4. Run a bounded reversible probe under an explicit `U.WorkPlan` when no external-impact reliance is being made.
+5. Ask the role assignment accountable for the issuer, gate decision, evidence path, role/status record, or boundary claim set to expose or repair the missing source.
+6. Repair the `U.WorkPlan`, `U.MethodDescription`, dashboard label, source link, or boundary wording that made the overread plausible.
+7. Proceed only inside the recovered scope/window.
+8. Block only the work/reliance claim/effect that lacks source support.
+
+##### Repair assignment rule
+
+**Broken-source repair assignment.** If the required project source record is unavailable to the acting user, assign only prospective repair/request/decision/work-plan/source-gap work to the role assignment accountable for the issuer record, gate decision, evidence path, role/status record, or boundary claim set. The acting user records the blocked work/reliance claim/effect and the missing source relation to expose or repair, then proceeds only with the safe narrowed move available under recovered support. The repair record is not past evidence, approval, gate passage, performed `U.Work`, release permission, or assurance.
+
+
+An encountered item may be a `U.Episteme`, a `U.EpistemePublication`, a publication form, an MVPK face, a carrier/rendering, an authored unit, or only a source-finding cue. Name that kind before using it. Do not treat a file, display, dashboard tile, model card, credential view, generated text, authored unit, publication face, or carrier as the source claim/effect, work occurrence, gate decision, role/status, evidence relation, or assurance claim by presentation alone. If the encountered item exposes a typed project source record, use the exposed `GateDecision`, `SpeechAct`, evidence path, credential/status source, work-occurrence record, or other exact FPF source record directly; do not infer that support from the display face itself.
+
+**Adversarial misuse guard.** Do not let release pressure, delegated pressure, compliance pressure, unsourced green-dashboard pressure, or copied/generated wording convert a cue into work/reliance support. A properly designed dashboard tile may guide release when it is a current view of the relevant `GateDecision` plus evidence/currentness path; pressure or color alone does not replace that source.
+
+
+##### Project source record lookup table
+
+Project source records by required claim/effect kind:
+
+
+- cue-only orientation: use only for attention or source-finding; stay with `A.16` / `A.16.1` for pre-articulation cues or `A.6.A` for `A.6.A`-governed invitation. Cue-only orientation is not work guidance, work plan, gate passage, approval, work occurrence evidence, or assurance.
+
+- issuing, approval, authorization, delegation, or revocation act: cite `A.2.9` `U.SpeechAct` / `SpeechActRef`, including act type, actor/role, affected work target or claim target, judgement context, window, carrier/evidence refs when currentness matters, and instituted effects if claimed; because `U.SpeechAct <: U.Work`, the same act can satisfy dated work-occurrence evidence only for that communicative act itself. It does not evidence the deployment, release, repair, inspection, or other operational work that the act approved, ordered, or described;
+- role or status reliance: cite `A.2.1` / `U.RoleAssignment`, a status-changing `U.SpeechAct`, a governing context-state record, a credential proof/status result under `A.10`, or an `A.21` `GateDecision` when the status is gate-governed; do not infer a status kind from a label;
+- deontic permission, obligation, prohibition, or recommendation-as-duty: cite `U.Commitment` / `A.2.8` and the instituting `SpeechActRef` when provenance matters; if "permission" means admissibility predicate, gate passage, authorization act, role/status effect, credential status, cue, or advice, use `A.6.B`, `A.21`, `A.2.9`, `A.2.1`, `A.10`, `A.16`, or `A.6.A` according to the actual claim/effect kind instead;
+- boundary, policy, API, schema, "allowed", "authorized", "approved", "recommended", or "guaranteed" wording: split the statement through `A.6` / `A.6.B`; use `A.6.C`, `A.2.3`, `A.2.8`, and `A.2.9` for agreement-like guarantee, SLA, or promise wording before work/reliance;
+- gate decision or gate passage: cite `A.21` `OperationalGate(profile)`, `GateDecision`, `GateDecisionRationale`, `DecisionLogRef`, gate profile/version, check set, scope/window, and replay/freshness pins;
+- constraint or flow-validity witness: cite `A.20` `ConstraintValidity` status/witness, `GateCheckRef.aspect = ConstraintValidity`, path/window/sentinel/pins as applicable; this is not the same thing as a gate decision;
+- release/deployment/rollback work occurred: cite `A.15.1` dated `U.Work` occurrence and the `A.10` evidence carrier path; a gate decision or command-like cue is not execution evidence;
+- evidence, provenance, authenticity, currentness, copied-source, or generated-source support: exit to `A.10`; evidence support does not approve, permit, execute, pass a gate, or raise assurance by itself;
+- assurance, readiness, safety, compliance, trust, release confidence, `R`, `F`, `G`, or `CL` increase: exit to `B.3`;
+- generated explanation: use `E.17.EFP` for explanation faithfulness or source-finding relation, then require `A.10` claim-bound source support for every operative claim that will be relied on.
+- approval claim/effect split: if approval means someone approved something, cite `A.2.9` `U.SpeechAct` / `SpeechActRef`; if the approval institutes a deontic binding, cite `A.2.8` `U.Commitment` and the instituting act; if it means a gate passed, cite `A.21` `GateDecision` / `DecisionLogRef`; if it is being used as evidence that release or other work occurred, cite `A.15.1` dated `U.Work` plus `A.10`; if it is only approval wording in boundary, API, policy, or schema prose, split through `A.6` / `A.6.B`; if it is evidence of approval, exit to `A.10`; if it is confidence because something was approved, use `B.3` only when a typed assurance claim is live.
+- permission claim/effect split: if permission is a deontic relation, cite `A.2.8` `U.Commitment` and the instituting source; if it is an admissibility predicate, cite the `A.6.B` `A-*` claim; if it means gate passage, cite `A.21`; if it means an authorization act, cite `A.2.9`; if it changes or depends on role/status, cite `A.2.1` or status-changing support; if it means credential status, use `A.10`; if it is only a UI label, badge, dashboard display, or permission-looking wording, treat it as orientation/source-finding until the required project source record is recovered.
+- authorization claim/effect split: if authorization means a speech act authorizing, cite `A.2.9`; if it means a policy/admissibility predicate over subject, requested policy operation or work class, affected resource or work target, context, and policy version, split through `A.6.B`; if it means gate decision or gate passage, cite `A.21`; if it means access proof, credential proof, status proof, or currentness, use `A.10`; if it means role assignment or role/status effect, cite `A.2.1` or status-changing support; if it is being used to say execution happened, do not use authorization as evidence of execution, cite `A.15.1` dated `U.Work` plus `A.10` instead.
+
+
+
+
+Return products for loop closure:
+
+| Governing locus used | Return product for this A.15.4 restoration | What the return product does not hide |
+| --- | --- | --- |
+| `A.6` / `A.6.B` | Routed claim IDs (`L-* / A-* / D-* / E-*`) plus the exact project claim/effect governing locus. | Raw wording is not work/reliance support. |
+| `A.10` | Claim-bound evidence path, freshness/currentness posture, and supported/unsupported use for the attempted claim. | Evidence support is not approval, permission, gate passage, work occurrence, or assurance. |
+| `B.3` | Typed assurance claim, no-assurance-use disposition, or rejected/downgraded assurance claim. | Assurance wording is not a generic trust label. |
+| `A.21` | `OperationalGate(profile)`, `GateDecision`, `DecisionLogRef`, gate profile/version, scope/window, and replay/freshness pins. | Gate passage is not execution evidence or assurance. |
+| `A.20` | `ConstraintValidity` status/witness, path/window/sentinel/pins where live. | Constraint validity is not the gate decision itself. |
+| `A.2.9` | `SpeechActRef` with act type, actor/role, affected work target or claim target, judgement context, window, and instituted effects if claimed. | A speech act is not deontic binding, gate passage, or operational work occurrence by itself; as work-occurrence evidence it supports only the communicative act that occurred. |
+| `A.2.8` | `U.Commitment` / deontic relation with accountable role/agent, content, object, window, and instituting source when needed. | Commitment is not proof that work occurred. |
+| `A.15.1` | Dated `U.Work` occurrence plus evidence carrier path when relied on. | Work occurrence is not permission or assurance. |
+| `E.17.EFP` | Explanation class and source-finding/faithfulness relation over the source `U.Episteme` / `U.EpistemePublication`. | Explanation is not operative source support without A.10 claim-bound evidence. |
+
+
+
+Load-bearing work or reliance - especially external-impact, irreversible, release-bearing, role/status-bearing, gate-bearing, compliance/safety-bearing, delegated, contested, or assurance-bearing claim/effect - is admissible only for the actor/role, live work/reliance claim or P2W load/position, affected work target or claim target, audience, scope, environment, version, policy context, operational mode, and time/window for which required FPF-governed project support is recoverable. Cue-only, source-finding, learning, and bounded reversible probes stay lightweight and do not require a full source dossier.
+
+Quick dispositions:
+
+
+| Encountered case | First `A.15.4` disposition |
+| --- | --- |
+| Source-backed release dashboard tile | If the tile is a current dashboard view of `A.21` `GateDecision` / `DecisionLogRef` plus release/work target, environment, scope/window, gate profile/version, and `A.10` evidence path, it may support gate-passage reliance for that release and environment. |
+| Unsourced or stale release dashboard tile | Display/source-finding only until the current `GateDecision` / `DecisionLogRef`, release/work target, scope/window, gate profile/version, and `A.10` evidence path are recoverable; use `B.3` only if an assurance claim is live. |
+| Copied review summary or copied approval | Copied wording/currentness at most; approval, authorization, permission, commitment, or work occurrence needs the original `A.2.9` `SpeechActRef`, `A.21` decision, `A.2.8` commitment, or `A.15.1` work source plus `A.10` evidence. |
+| Delegation chain / forwarded approval | Each link names delegator, delegatee, delegated operation or work class, affected target, scope/window, source permitting delegation, subdelegation allowance if any, revocation/currentness state, and evidence path. A forwarded approval is not delegated authority by copy alone. |
+| Role/revocation/status display | Resolve to role assignment, status-changing speech act, context-state record, credential proof/status result, or gate decision with freshness/revocation support; visual status cannot defeat a higher-priority revocation or supersession source. |
+| Conflicting sources | Do not resolve by color, visual salience, copied wording, or apparent recency. Name source order, governing decision source, freshness policy, and supersession rule; the work/reliance claim/effect is contested until resolved, while source-finding and bounded reversible probes remain available. |
+| Credential badge or register-backed status view | Use the display as a publication of a credential/status source, not the source itself. Find the governing status register or issuer/trust anchor, holder/subject binding, verifier/relying context, proof/status result, revocation/freshness, and validity window. If the governing register entry itself creates or changes role/status, permission, duty, or gate state in the bounded context, cite that exact register/status-source record and the `A.2.1`, `A.2.8`, `A.2.9`, `A.6.B`, or `A.21` source it depends on. Otherwise rely only on credential-currentness for that holder/context. |
+
+| Rollback command-like cue | Treat as cue or `A.6.A`-governed invitation unless exact command/authorization, work occurrence, execution result, or gate support is recoverable. |
+| Generated explanation says "authorized" | Explanation may help find sources; it does not issue, approve, revoke, commit, authorize, pass a gate, evidence execution, or raise assurance. A citation or source mention inside the explanation supports work/reliance only when the cited carrier supports that exact relied-on claim in the relying context under `A.10`. |
+
+| Extracted-source -> rewrite -> representation shift -> explanation -> gate/release claim/effect | Reopen the strongest available project source record at the first lossy or non-commutative transform step; the gate/release claim/effect waits for required transform, evidence, explanation, gate, or assurance support. |
+| Repeated green-tile/no-source failures | Treat recurrence as upstream source-system repair work: expose decision refs, fix dashboard semantics, add source links/currentness, revise boundary wording, or add review/lint cues so the acting user is not repeatedly forced to reconstruct missing source support. |
+
+
+##### Worked dashboard/approval examples
+
+Worked dashboard/approval slice:
+
+A release dashboard shows a green approval-looking tile for `Release-2026.05.08-prod`. If the tile is a current view of the relevant `GateDecisionRef` plus evidence/currentness path, it may support bounded gate-passage reliance for that release target and window. Execution or deployment still requires an `A.15.1` work-occurrence source if the claim is that deployment happened. If the gate source is missing or stale, treat the tile as orientation and source-finding until the team can name the live release-work load/position, exact project claim/effect governing locus, and project source record that carries the gate decision and evidence/currentness path.
+
+| Step | Required move |
+| --- | --- |
+| Required project claim/effect kind | Release reliance, gate passage, compliance proof, assurance increase, or evidence/currentness support. |
+| Gate decision source | Cite the current `A.21` `GateDecision` / `DecisionLogRef`, gate profile/version, release/work target, scope/window, and replay/freshness pins. Without that source, the tile is not release permission or gate passage. |
+| Constraint or flow-validity source | Cite `A.20` `ConstraintValidity` status/witness only when the claim is about constraint or flow validity, not about the gate decision itself. |
+| Evidence/currentness source | Use `A.10` for the dashboard query, carrier integrity, evidence refs, time/window, freshness/revocation stance, verifier/relying context, and rival explanation such as stale display or copied status. |
+| Assurance source | Use `B.3` only if the tile is being used to raise readiness, compliance, trust, safety, release confidence, `R`, `F`, `G`, or `CL`; otherwise no assurance tuple is live. |
+| Admissible repaired use | With the decision and evidence path recovered, rely on gate passage only for the named release/work target, environment, gate profile/version, and time/window; a claim that deployment happened still needs an `A.15.1` work-occurrence source. |
+| Blocked overreads | The dashboard color does not create approval, permission, compliance proof, rollback success, work occurrence, or assurance by display. |
+
+Approval memo green path:
+
+An approval memo may support an approval claim when it exposes the `A.2.9` `SpeechActRef`, actor/role, affected release/work target, judgement context, time/window, carrier/evidence refs, and instituted effect being claimed. That supports the bounded approval claim/effect only. It does not prove that release, deployment, rollback, or other work occurred; that execution claim still needs the dated `A.15.1` work-occurrence source plus any `A.10` evidence path required for the relying context.
+
+Credential/status green path:
+
+A credential or status response may support holder/status/currentness reliance only inside the issuer or governing status register, holder/subject binding, verifier/relying context, proof/status result, revocation/freshness stance, and validity window that it exposes. It does not by itself support release, work occurrence, gate passage, engineering justification, evidence for underlying operational facts, or contextual permission; those uses require the exact project source record that governs that claim/effect.
+
+Role prompts:
+
+| Role in the situation | Prompt |
+| --- | --- |
+| Acting user | What can I safely do next without turning the encountered episteme/publication item into unsupported work/reliance support? |
+| Release engineer | Which `A.21` gate decision/log, release/work target, and `A.15.1` work occurrence are separate here? |
+| Issuer/gate/evidence/role source | What source, status, decision ref, or evidence path must be exposed or repaired? |
+| Auditor/reviewer | Which evidence path, decision ref, speech-act ref, commitment, work occurrence, or assurance claim must be recoverable? |
+| Boundary author | Which words need typed claim IDs before they can guide work or reliance? |
+| Manager | Is repeated ambiguity a source-system repair item rather than another manual check for the acting user? |
+| LLM/tool user | Which project source record does the explanation help find, and which operative claims still need `A.10` support? |
+| Security/compliance source | Which revocation, currentness, proof/status, source order, or supersession source must be exposed? |
+| Model/data source | Which intended-use, evaluation-condition, version/window, limitation, and evidence path bound the model/data documentation? |
+| Assurance reviewer | Which named claim is actually receiving an assurance posture, with what assurance tuple, evidence path, limitations, and reopen condition? |
+Search aliases for A.15.4 include: approval, approval-looking display, authorization, authorization-looking display, permission, permission display, allowed wording, green dashboard, release tile, release readiness, model card, datasheet, data card, provenance, provenance mark, attestation, attestation label, credential, credential badge, generated explanation, copied review, copied approval, review summary, compliance-looking mark, delegation, delegation display, revocation, revocation status, gate passed, gate passage, rollback successful, rollback cue, and assurance label. These are search handles only; decide the carrying project source record and governing FPF locus from the live work/reliance question, not from the displayed word or carrier/source name.
+
+Work/reliance disposition map for authority-looking cases:
+
+| Live question | Start in | First useful output |
+| --- | --- | --- |
+| Can this encountered episteme publication, publication face, carrier, rendering, or cue guide work or reliance? | `A.15.4` | Candidate next `U.WorkPlanning` / `U.Work` / reliance move, exact project claim/effect governing locus, minimum admissible next move, and project source record needed. |
+| Is the problem boundary, policy, API, schema, or connector wording? | `A.6` / `A.6.B` | Routed `L-*`, `A-*`, `D-*`, and `E-*` claims before the work/reliance claim is used. |
+| Is the problem evidence, currentness, provenance, credential status, generated/copy source support, or source-chain recovery? | `A.10` | Claim-bound evidence/currentness path and supported/unsupported use. |
+| Is the problem assurance, readiness, safety, compliance, trust, release confidence, or `R`/`F`/`G`/`CL` posture? | `B.3` | Typed assurance claim, no-assurance-use disposition, or downgraded/rejected assurance use. |
+
+Display guidance for bounded status: a visible status meant to guide work should expose source type, exact ref or link, freshness/window, scope, and unsupported work/reliance/claim/effect. For example, prefer `Gate check passed / GateDecisionRef / release target / environment / window / not compliance proof, rollback success, or assurance increase` over a bare approval-looking label.
+
+Incident-learning fields for authority-looking overread: encountered episteme/publication item, live work/reliance claim or P2W load/position, exact project claim/effect governing locus, actor/role, affected work target or claim target, context/window, missing or stale source record, governing source relation or role assignment accountable for the missing source record, plausible overread, safe disposition used now, and upstream repair item for the source, dashboard, explanation, credential view, boundary wording, publication face, or carrier.
+
+Contestability/redress path: when an authority-looking case affects person or team status, access, assignment, responsibility, release blockage, compliance posture, or safety-impacting work, name the review/redress path before the work/reliance claim hardens. The path should name the disputed source or claim, the role assignment accountable for refreshing or correcting that source, the evidence/status path to reopen, the safe interim disposition, and the time/window for review.
+
+
+
+
+
+Lintable overread cues:
+
+| Lint signal | Exact governing exit |
+| --- | --- |
+| `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary/API/schema/policy wording | Split through `A.6` / `A.6.B` into `L-*`, `A-*`, `D-*`, and `E-*`; use `A.6.C`, `A.2.8`, and `A.2.9` for agreement-like wording where live. |
+| Dashboard tile, status color, or release tile used as release evidence or gate passage | Require `A.21` `GateDecision` / `DecisionLogRef` plus `A.10` evidence/currentness path. |
+| Credential screenshot or badge used as permission, authorization, or role/status support | Require `A.10` issuer/holder/verifier/status/currentness/relying-context support, then exact `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` source for the required permission, authorization, role/status, or gate claim/effect. |
+| Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for explanation/source-finding relation and `A.10` claim-bound source support; issue/approval/gate/commitment claims still need `A.2.9`, `A.21`, or `A.2.8`. |
+| Model card, datasheet, label, or note cited as readiness, safety, compliance, or release confidence | Require a typed `B.3` assurance claim, intended-use match, evaluation condition, limitations, and `A.10` evidence path. |
+| Provenance/attestation label cited as truth, safety, release, or permission | Require `A.10` bounded provenance/process claim plus separate evidence for truth, safety, release, permission, or assurance. |
+| Evidence, assurance, gate, or work-occurrence words without the project source record carrying that claim/effect | Recover the `A.10`, `B.3`, `A.21`, or `A.15.1` support fields respectively before the work/reliance claim is used. |
+
+Stress cases for practice:
+
+| Case | Expected A.15.4 disposition |
+| --- | --- |
+| Green release dashboard tile with no `GateDecisionRef`. | Source-finding only; recover `A.21` decision/log plus `A.10` evidence before gate-passage reliance. |
+| Copied approval from last month. | Recover original `A.2.9` `SpeechActRef`, currentness/freshness, and any live `A.2.8` commitment or `A.21` gate source. |
+| Credential badge screenshot after revocation. | Treat as contested credential-currentness; use `A.10` issuer/holder/verifier/status/revocation path and do not infer permission. |
+| Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation/source-finding and `A.10` claim-bound support; issuing/gate/commitment claims still need their own sources. |
+| Boundary wording says `guaranteed approved for production`. | Split through `A.6` / `A.6.B`; if agreement-like or promise-bearing, unpack through `A.6.C`, `A.2.8`, and `A.2.9`. |
+| Dashboard says green while decision log says blocked. | Treat as conflicting sources; name source order, governing decision source, freshness policy, and supersession rule before the work/reliance claim is used. |
+
+### A.15.4:4 - Conformance Checklist
+
+| ID | Requirement (Normative Predicate) | Purpose / Rationale |
+| :--- | :--- | :--- |
+| **CC-A15.4-1 (Work-relevant source restoration)** | Before an authority-looking case guides work or reliance, a conforming `A.15.4` use SHALL produce the ordinary source-restoration note: encountered item, live work/reliance claim or P2W load/position, exact source needed, admissible next project move now, and blocked overread. It SHALL identify the project source record or neighboring FPF locus that actually carries the requested approval, permission, status, evidence, gate, assurance, or work-occurrence support; if that source is absent or stale, mark only the unsupported reliance as orientation-only, contested, reopened, or blocked. Fuller source-support fields open only when the live pressure requires them. Any new repair/request/decision/work-plan/source-gap record is prospective and SHALL NOT be used as retroactive evidence, approval, gate passage, performed `U.Work`, release permission, or assurance. A conforming `A.15.4` use SHALL NOT absorb evidence, assurance, boundary wording, gate decision, role/status, commitment, speech-act, or work-occurrence semantics from `A.10`, `B.3`, `A.6`, `A.2.1`, `A.2.8`, `A.2.9`, `A.20`, `A.21`, or `A.15.1`. | Prevents displays, badges, copied text, generated explanations, and composed chains from becoming authority by appearance while keeping ordinary use cheap. |
+| **CC-A15.4-2 (P2W publication use boundary)** | A principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain readable SHALL NOT be used as performed `U.Work`, work authority, evidence, gate passage, engineering justification, or release permission by publication alone. | The project use names the exact `A.15` material it supports: method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or result measurement; unsupported claims require their own project source records. |
+
+### A.15.4:5 - Common Anti-Patterns and How to Avoid Them
+
+- **Authority-looking case as source / work/role-status overread.** Do not treat a dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain as approval, permission, gate passage, role/status currentness, work occurrence, evidence, or assurance by appearance. First name the live work/reliance claim or P2W load/position and exact project claim/effect governing locus, then recover the project source record that actually carries the requested approval, permission, status, evidence, gate, assurance, or work-occurrence support, or block only that unsupported reliance.
+
+### A.15.4:6 - SoTA Alignment
+
+**SoTA alignment rule.** Read the row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and relations of this pattern.
+
+| Claim need | Source idea / current source | Current source locus | Local FPF invariant / practical local test | Adopted/adapted invariant / rejected shortcut |
+| --- | --- | --- | --- | --- |
+| Dynamic authorization or policy-response displays need exact operation/target/context/window support. | Dynamic authorization practice separates subject, requested operation, affected target, context, and window before a relying move is allowed. | NIST Zero Trust / dynamic authorization practice; Cedar policy language; Zanzibar-style relation authorization; source maturity = current standards/specifications and widely used technical practice. | The restoration note names the live work/reliance claim or P2W load/position, the affected work target or claim target, policy version, context, and time/window before treating a visible allow/deny/policy response as support. | **Adopt/Adapt/Reject.** Adopt bounded currentness and source-support invariants; adapt them through exact FPF project records; reject treating policy-looking output as permission or work authority by display. |
+| Credential or register-backed status needs issuer/holder/verifier/status/currentness and relying-context support. | Credential/status practice separates issuer, holder/subject binding, verifier/relying context, proof/status result, governing register entry, revocation, freshness, and validity window. | W3C Verifiable Credentials / digital identity and register-backed status practice; source maturity = current specifications and technical practice. | A credential view or status tile can support only the holder/status/currentness claim whose issuer/register, proof/status result, revocation/freshness, and relying context are recoverable. | **Adopt/Adapt/Reject.** Adopt status-currentness separation; reject reading a badge, screenshot, or register excerpt as role/status, permission, gate passage, or work support without the governing project source. |
+| Provenance and attestation marks need source/process support without becoming truth, release, or work evidence. | Provenance and attestation practice separates origin/process support, build/supply-chain claim, and verification metadata from truth of downstream claims or release permission. | C2PA content provenance; SLSA / in-toto attestations; source maturity = current standards/specifications and widely used practice. | A provenance or attestation mark remains source/process support until `A.10`, `B.3`, `A.20`, `A.21`, `A.15.1`, or another exact source relation carries the downstream claim. | **Adopt/Adapt/Reject.** Adopt source/process traceability; reject provenance-mark-as-truth, release permission, gate passage, assurance, or work occurrence. |
+| Change, gate, release, and approval displays need decision, schedule, and executed-work separation. | Release/change practice separates approval/authorization acts, gate decisions, planned schedules, and executed work. | ITIL 4 Change Enablement and current release/change practice; source maturity = current practitioner guidance plus mature service practice. | A dashboard or approval-looking display must expose the `GateDecision`, `SpeechAct`, `Commitment`, `U.WorkPlan`, or `A.15.1` work-occurrence source that carries the exact claim/effect. | **Adopt/Adapt/Reject.** Adopt decision/schedule/executed-work separation; reject a green tile, copied approval, or generated explanation as rollout, release, or work support by appearance. |
+
+**Digital-identity/provenance boundary.** The W3C Verifiable Credentials, C2PA, SLSA/in-toto, Cedar/Zanzibar-style, NIST, and ITIL sources are used for currentness, status, provenance, authorization-support fields, and change-practice fields. They do not turn a visible credential, provenance label, attestation, policy response, register excerpt, or dashboard state into work occurrence, gate passage, permission, assurance, release, or project claim support without the exact project source record required by `A.15.4`, `A.15`, `A.10`, `B.3`, `A.20`, or `A.21`.
+
+The nearest recovery anchors are the worked dashboard/approval examples, `CC-A15.4-1`, `CC-A15.4-2`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, and `A.15.1`. If a SoTA row cannot be recovered through those local checks, do not let the source citation stand in for the local `A.15.4` rule.
+
+### A.15.4:7 - Relations
+
+* **Cluster relation:** `A.15.4` is a cluster member under `A.15` for work-relevant source restoration; it does not replace the A.15 role/method/plan/work kernel.
+* **Uses:** `E.17:5.1b` / `E.17:5.1c` source-support and use vocabulary, `E.17.EFP` for generated-explanation faithfulness/source-finding, `A.6` / `A.6.B` / `A.6.C` for boundary/policy/API/schema wording, `A.10` for evidence/currentness/provenance/credential status, `B.3` for engineering justification claims, `A.20` for constraint validity, `A.21` for gate decisions, `A.2.8` for commitments, `A.2.9` for speech acts, and `A.15.1` for dated `U.Work` occurrences.
+* **Returns to:** `A.15` when the remaining live question is role/method/plan/work alignment rather than source restoration.
+
+### A.15.4:End
 
 ## A.16 - Language-State Transduction Coordination
 
@@ -30392,7 +30723,7 @@ This arrangement preserves **A.11 Parsimony** (few characteristics), aligns with
 * **Builds on:** B.1 (Universal Γ), B.1.1 (Proof Kit), B.1.2 (Γ_sys & BIC), B.1.3 (Γ_epist & SCR), B.1.4 (Γ_ctx/Γ_time), A.12 (Transformer), A.14 (Mereology), A.15 (Strict Distinction), **C.13 (Compose‑CAL)**.
 * **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication-facing assertion discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation aliasing and grounding (`tv:*`, `validationMode`).
 * **Coordinates with:** `C.28` for causal-use support verdicts, `CausalityLadderRung` support, identification/realizability profile refs, and supported/unsupported causal use; `A.10` for the evidence graph path carrying causal support-basis refs.
-* **Coordinates with:** `A.15` for first-use work/reliance disposition, `A.6` for mixed authority wording, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status/witness, and `A.15.1` for release/deployment work occurrence. B.3 only handles assurance-strength use; labels and evidence pointers return to the exact neighboring source when assurance is not live.
+* **Coordinates with:** `A.15` for work/reliance disposition, `A.6` for mixed authority wording, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status/witness, and `A.15.1` for release/deployment work occurrence. B.3 only handles assurance-strength use; labels and evidence pointers return to the exact neighboring source when assurance is not live.
 * **Used by:** KD‑CAL action patterns (to plan improvements), B.4 (Evolution loops that raise F/G/R or CL over time).
 * **Triggers:** B.2 (Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes) when genuine new capabilities emerge that change the applicable cutsets or envelopes.
 
@@ -47815,9 +48146,9 @@ language out of the Core.
 
 ### E.8:0 - Use this when
 
-Use `E.8` when you are writing, revising, or reviewing one FPF pattern and need to know what shape, voice, reader-entry role, and assurance support the pattern must carry before it can be treated as mature FPF text.
+Use `E.8` when you are writing, revising, or reviewing one FPF pattern and need to know what shape, voice, reader-recognition role, and assurance support the pattern must carry before it can be treated as mature FPF text.
 
-Use it especially when a draft is technically correct but hard to use: the cold reader cannot tell when to apply it, what action to take, what mistake that action prevents, where neighbouring patterns take over, or which assurance material is informative support rather than the first point of entry.
+Use it especially when a draft is technically correct but hard to use: the cold reader cannot tell when to apply it, what action to take, what mistake that action prevents, where neighbouring patterns take over, or which assurance material is informative support rather than the first user-facing guidance.
 
 **Not this pattern when.** Use `E.9` when the main work is deciding why FPF should change and how that decision is distributed across patterns. Use `E.19` when the main work is an admission or refresh review. Use the local domain pattern when the question is what FPF says inside that domain rather than how a pattern should be authored.
 
@@ -47829,7 +48160,7 @@ A pattern can satisfy a checklist and still be practically unreadable. It may op
 
 `E.8` gives FPF authors one shared pattern shape and one shared authoring discipline: recognition surface first, assurance surface second, canonical sections present, terminology kept stable, SoTA used as live support rather than decoration, and practical consequences visible before a reader has to reconstruct the architecture.
 
-**Governed object in plain terms.** The governed object is the authored FPF pattern body: its canonical sections, reader-entry role, wording discipline, examples, rationale, anti-patterns, SoTA-Echoing, and relations.
+**Governed object in plain terms.** The governed object is the authored FPF pattern body: its canonical sections, reader-recognition role, wording discipline, examples, rationale, anti-patterns, SoTA-Echoing, and relations.
 
 **Primary working reader.** The first reader is an FPF author or reviewer shaping pattern prose for later practitioners and managers. The downstream practitioner is the reader the pattern must ultimately serve, so the authoring guide must model the same recognition discipline it requires.
 
@@ -48069,7 +48400,7 @@ A pattern may reuse a pattern-native role word when that role is already defined
 #### E.8:4.2.3 - Reader-role discipline for live pattern prose
 
 A live pattern is written for its intended FPF user: the person who will use the pattern to organise thought, inspect a case, publish a note, or review a result under that pattern.
-Its load-bearing sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms. When neighbouring patterns or other governing support roles are named, the prose should answer one user question such as `where does the entry load reclassify`, `which nearby pattern is easy to confuse`, or `what must stay coordinated here`; it should not read as one explanatory aside about why the package architecture was split that way.
+Its load-bearing sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms. When neighbouring patterns or other governing support roles are named, the prose should answer one user question such as `which neighboring pattern or authority-source exit takes over`, `which nearby pattern is easy to confuse`, or `what must stay coordinated here`; it should not read as one explanatory aside about why the package architecture was split that way.
 
 Authors must keep FPF-development or package-architecture material separate from that user-facing body.
 In particular, `Problem`, `Solution`, `Consequences`, `Rationale`, worked slices, and ordinary-vs-load-bearing guidance must not do the work of:
@@ -48089,7 +48420,7 @@ That failure usually appears when the text is admissible but does not yet make t
 
 For canonical patterns, the first reading surface should behave as a **recognition surface** and the heavier review load should remain in an **assurance surface**.
 When a pattern claims practice guidance or is meant to be used by engineers, managers, researchers, or other working readers, authors should make the following visible before the heavier harness takes over:
-- a recognisable `Use this when` or equivalent first-minute entry;
+- a recognisable `Use this when` or equivalent first-minute recognition cue;
 - a concrete working situation in `Problem frame`, not only taxonomic or pattern-placement language;
 - a short statement of what goes wrong if the pattern is missed or misread;
 - a short statement of what this pattern buys the reader in practice;
@@ -48102,10 +48433,12 @@ When a pattern claims practice guidance or is meant to be used by engineers, man
 - a visible split between the recognition surface and the heavier assurance surface or support companion;
 - and, if the draft implicitly serves several reader families, an explicit primary working reader, primary concern role, or primary viewpoint.
 
-**Problem-frame recognition signature (informative).** When a canonical pattern
-genuinely functions as an entry-bearing pattern for one common first-use
-entry load, the recognition surface SHOULD express that entry through the
-pattern's `Problem frame`, not through one separate navigation block.
+**Problem-frame recognition signature (informative).** A canonical pattern should
+expose the working situation through its `Problem frame`, not through one
+separate navigation block. When an `E.11` pattern-entry discoverability problem
+is live, the same `Problem frame` may also carry candidate-pattern and
+tempting-wrong-pattern cues; otherwise it should stay with action guidance
+rather than becoming a local catalogue row.
 
 The local recognition signature should make recoverable:
 
@@ -48114,7 +48447,8 @@ The local recognition signature should make recoverable:
 - what goes wrong if the pattern is missed or misread;
 - the first admissible action-guiding move and what that move buys;
 - the ordinary not-this-pattern boundary;
-- the first admissible entry stop or entry-stabilizing result.
+- the first admissible action-guiding result; when an `E.11` discoverability
+  problem is live, the first admissible entry stop or entry-stabilizing result.
 
 `Use this pattern when`, `This pattern applies when`, or equivalent `Problem
 frame` prose may be used as the first sentence or compact cue of this
@@ -48123,7 +48457,7 @@ It is not one separate required section.
 Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in
 `I.2`.
 
-If the prose points to neighbouring patterns or other governing support roles, it should present them as nearby patterns or entry-load reclassifications rather than as hidden co-authorities of the current pattern.
+If the prose points to neighbouring patterns or other governing support roles, it should present them as neighboring patterns, authority-source exits, or `E.11` entry-load reclassifications rather than as hidden co-authorities of the current pattern.
 
 If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition surface.
 At minimum the recognition surface should show at least three heterogeneous reader or domain situations rather than one narrow case family with a later broad claim attached.
@@ -48139,9 +48473,9 @@ The assurance surface may tighten or discipline the recognition surface; it must
 Old pre-template top:
 
 ```text
-Start here when the dominant entry load is API, protocol, SLA, published boundary, or compliance wording.
+Start here when the dominant live question is API, protocol, SLA, published boundary, or compliance wording.
 First output: Claim Register.
-Nearby patterns / entry-load reclassifications: A.6.B, A.6.C.
+Neighboring pattern exits / entry-load reclassifications: A.6.B, A.6.C.
 ```
 
 Repaired Problem-frame recognition signature:
@@ -48151,9 +48485,9 @@ Use this pattern when boundary-facing language - API, protocol, SLO/SLA, complia
 
 If missed, the text becomes boundary-claim soup: runtime behavior, governance, and evidence are treated as one undifferentiated promise.
 
-Do not use this pattern merely because the text mentions an API or boundary description. If the live entry load is still one unstable cue, preserve it through the admissible cue-preservation line first.
+Do not use this pattern merely because the text mentions an API or boundary description. If the live question is still one unstable cue, preserve it through the admissible cue-preservation line first.
 
-First admissible entry stop: one routed atomic claim set or one Claim Register whose live entry loads are explicit enough for the next authoritative pattern to inspect.
+First admissible action-guiding result: one routed atomic claim set or one Claim Register whose live claim/use questions are explicit enough for the governing pattern or authority-source exit to inspect.
 ```
 
 #### E.8:4.2.5 - Design-time and run-time referents stay separated in live pattern prose
@@ -48217,7 +48551,7 @@ Conformance Checklist items are checks in the **authoring plane**: they test whe
 | **CC-SG.16 (Reader-role discipline).** | Authors **MUST** keep live pattern sections user-facing. FPF-development or package-architecture reasoning about isolation, overlay or carrier choice, freeze, merge posture, or planned evolution **MUST NOT** occupy `Problem`, `Solution`, `Consequences`, `Rationale`, or worked slices; if such material is still needed, it **MUST** live in a separate companion note or a clearly marked informative placement note. | Keeps pattern prose aligned with its intended reader and prevents package-governance leakage into live use guidance. |
 | **CC-SG.16a (Referent-index discipline in live prose).** | Live pattern sections **MUST** keep run-time/domain referents, standard-plane referents, and design-time/control-plane referents distinct. In ordinary live prose, sentence truth **MUST** depend on the governed run-time/domain object or on the pattern's declared normative claim set, not on the current draft state, author/reviewer action, or control-plane posture. If a sentence is true only because of the current writing/review pass or text arrangement, it is design-time residue and belongs in carriers or companion notes, not in the live pattern body. | Prevents Conway/process leakage and reduces late cleanup before review or landing. |
 | **CC-SG.17 (Recognition surface and assurance surface).** | Admission or substantial revision runs **MUST** check that a canonical pattern exposes a recognition surface early enough for the intended working reader and an assurance surface that carries declaration, guidance/check, modeling, and review load without silently shifting the recognition-surface claim. The recognition surface **MUST** surface a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and a clear ordinary `not this pattern when` boundary. Any load-bearing typed declaration or modeling lens **MUST** be exposed by a short user-facing statement of the governed object, early high-pressure technical terms **MUST** receive nearby pairwise plain glosses, and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If the pattern claims universal or transdisciplinary reach, the recognition surface **MUST** demonstrate that claim through at least three heterogeneous reader or domain situations, preferably using an `F.16`-style example matrix or an equally explicit alternative. | Prevents surface-clean but reader-opaque patterns and keeps broad claims visible where cold readers actually enter the text. |
-| **CC-SG.17a (Problem-frame recognition signature for entry-bearing patterns).** | When a canonical pattern genuinely functions as an entry-bearing pattern for one common first-use entry load, authors **SHOULD** express that entry through the pattern's `Problem frame`, not through a separate navigation block. The `Problem frame` should make recoverable the concrete working situation, the governed object or stabilized concern, what goes wrong if the pattern is missed or misread, the ordinary not-this-pattern boundary, and the first admissible entry stop or entry-stabilizing result. Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in `I.2`; lexical-query support belongs under the lexical/naming patterns and support companions that already govern it. Pattern-local `Start here when`, `First output`, next-pattern lists, and `Common wrong escalations / exits` blocks **SHOULD NOT** be used for new or materially revised patterns. | Keeps first-use recognition inside the canonical pattern frame while preventing navigation/workflow language from becoming local pattern structure. |
+| **CC-SG.17a (Problem-frame recognition signature and E.11 boundary).** | Authors **SHOULD** express a pattern's concrete working situation through the pattern's `Problem frame`, not through a separate navigation block. The `Problem frame` should make recoverable the governed object or stabilized concern, what goes wrong if the pattern is missed or misread, the ordinary not-this-pattern boundary, the first admissible action-guiding move, and the result that move buys. Only when an `E.11` pattern-entry discoverability problem is live should the same surface add candidate-pattern, tempting-wrong-pattern, entry-load reclassification, or first admissible entry-stop cues. Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in `I.2`; lexical-query support belongs under the lexical/naming patterns and support companions that already govern it. Pattern-local `Start here when`, `First output`, neighboring-pattern lists, and `Common wrong escalations / exits` blocks **SHOULD NOT** replace the action-guiding `Problem frame` and `Solution`. | Keeps working-use recognition inside the canonical pattern frame while preventing navigation/workflow language from becoming local pattern structure. |
 | **CC-SG.18 (Precision before relaxation).** | In load-bearing prose, authors **MUST NOT** leave a generic head noun or load-bearing qualifier uninterpreted when that phrase carries semantic, boundary, or authority load. A narrowing qualifier by itself does **not** restore the head kind. Authors **MUST** restore head kind first, then qualifier load, then any comparison/escalation basis before downstream claim/effect. If a later Plain, didactic, or coarsened rendering is kept, the more precise upstream reading **MUST** remain recoverable. | Prevents ambiguity from being hidden inside ordinary-looking phrases and keeps softened prose subordinate to an explicit authoritative reading. |
 
 ### E.8:8 - Common Anti-Patterns and How to Avoid Them
@@ -48240,7 +48574,7 @@ These failure modes recur in drafts and in downstream application. They are pred
 | **Package-form and governing-pattern relation drift** | Words like `bundle`, `cluster`, `profile`, `overlay`, `family`, `suite`, or `kit` are swapped as if they were stylistic variants. | Readers cannot tell whether the text is naming an authority source, a navigation grouping, a review role, or a packaged set of defaults. | Pick one role word by ontology, keep the governing-pattern relation explicit, and do not vary the noun unless the ontology really changes. |
 | **Reader-role leakage** | Live sections start telling the reader why the pattern was isolated, what landing form is safest, or why freeze/merge is premature. | The pattern stops teaching the user and starts narrating FPF-development decisions. | Move package-development reasoning to companion notes; keep live sections about admissible use, costs, boundaries, and authority-source exits for the intended user. |
 | **Editorial/process-plane self-instruction leak** | The live pattern starts saying things like `this draft should ...`, `later authoring will ...`, or `that is the opening this draft must hold`. | The text stops addressing the working reader and starts narrating the current editorial or drafting process. | Move the sentence to the authored-slice carrier or handoff, or rewrite it as one user-facing claim about the governed object, boundary, or practical consequence. |
-| **Role-clean but pragmatically foggy** | The pattern addresses the right reader in principle, but a cold practitioner still cannot recognise the working situation, practical payoff, governed object, first useful move, or project-level implication of the `SoTA-Echoing` early enough. | The text passes role hygiene but still fails `E.12`/`E.13`/`E.14` as a working artifact. | Bring a manager-first or practitioner-first entry higher, add one minimally viable worked case, state what changes in practice, expose the governed object and any minimal modeling lens in plain user-facing prose, add plain glosses for early high-pressure terms, and keep `SoTA-Echoing` tied to visible practitioner or manager implications plus nearby case linkage rather than lineage alone. |
+| **Role-clean but pragmatically foggy** | The pattern addresses the right reader in principle, but a cold practitioner still cannot recognise the working situation, practical payoff, governed object, first useful move, or project-level implication of the `SoTA-Echoing` early enough. | The text passes role hygiene but still fails `E.12`/`E.13`/`E.14` as a working artifact. | Bring a manager-first or practitioner-first recognition cue higher, add one minimally viable worked case, state what changes in practice, expose the governed object and any minimal modeling lens in plain user-facing prose, add plain glosses for early high-pressure terms, and keep `SoTA-Echoing` tied to visible practitioner or manager implications plus nearby case linkage rather than lineage alone. |
 | **Hybrid audience blob** | One main narrative tries to serve engineers, managers, auditors, architects, and researchers at once with no primary working reader or concern role. | The text becomes globally polite but locally blurry; no reader knows which concern governs the first role. | Make the primary working reader / concern / viewpoint explicit and assign other audiences to secondary support roles, other faces, or an explicit out-of-scope note. |
 
 ### E.8:9 - Consequences
@@ -50217,7 +50551,7 @@ projection authority because the support roles are under-governed.
 #### E.11:4.1 - Governed object, non-goals, and non-minting boundary
 
 `E.11` governs pattern-entry discoverability for `FPF` and
-`FPF`-conformant pattern-language authoring: the coordination law by which one
+`FPF`-conformant pattern-language support roles: the coordination discipline by which one
 reader can bring plausible authoritative patterns into view, compare them,
 reject tempting wrong patterns and wrong strongest applicable pattern bodies, use admissible
 projection/support roles, and reach one admissible entry stop or entry-load
@@ -50233,6 +50567,10 @@ preserve the semantic-name settlement and support-role partition.
   `A.6.P / F.18 / E.10`;
 - description-recognition signatures in general, which belong to `A.6.RSIG`;
 - local first-reading placement and form, which belong to `E.8`;
+- `DRR` and campaign content decisions, which belong to `E.9`;
+- ordinary pattern authoring and pattern-content changes, which belong to `E.8`
+  plus the governing domain pattern unless a live pattern-entry discoverability
+  defect is being repaired;
 - didactic order, learning order, cognitive-load ramping, tutorial sequence,
   progressive mastery, and teaching examples after the relevant pattern family
   has already been identified;
@@ -50317,7 +50655,7 @@ admissible_entry_stop = inspect C.19 if pool policy is live; inspect G.5 if publ
 
 #### E.11:4.4 - Entry-orientation labels and entry-load reclassification discipline
 
-The local `FPF` application of this pattern is the coordination law for
+The local `FPF` application of this pattern is the coordination discipline for
 first-practical entry orientation over the `FPF` pattern language: support-role
 partition, entry-bearing vs nearby-pattern discipline, entry-load-reclassification
 presentation, thin-echo discipline, entry-lexeme-support hooks, and review
@@ -50416,10 +50754,10 @@ projection role. Other mentions remain thin echoes.
 | description-recognition-signature claim | `A.6.RSIG` | one bounded publication/view cue under `E.17` when needed |
 | compact entry-neighborhood row | `J.4` | `Preface`, README, one pattern's `Problem frame` |
 | worked entry reading | `I.2` | one compact `J.4` pointer |
-| local first-use recognition cue | the pattern `Problem frame` under `E.8` | `J.4` as cross-pattern comparison |
+| local problem-frame recognition cue | the pattern `Problem frame` under `E.8` | `J.4` as cross-pattern comparison |
 | lexical-query cue | `F.17 / F.18 / E.10` or a bounded ToC/J.4 support hook | `I.2`, README, and local prose only as sparse cues |
 
-Support-role parity means semantic consistency of first-use entry load, strongest
+Support-role parity means semantic consistency of first-contact entry load, strongest
 governing pattern/source role or strongest projection role, wrong-pattern boundary, projection-only
 status, and no claim stronger than the Core pattern body. It does not require
 identical wording, identical examples, identical rows, or exhaustive coverage
@@ -50441,7 +50779,7 @@ Allowed host-note shape:
 ```text
 Entry-change note:
 changed projection or support role:
-changed first-use entry load:
+changed first-contact entry load:
 strongest applicable pattern body / projection role:
 wrong-pattern or parity risk:
 selected check, if any:
@@ -50465,7 +50803,7 @@ enough for the entry load.
 
 #### E.11:4.7.1 - Minimum viable entry discipline
 
-For an ordinary entry-bearing pattern change, the minimum is:
+For an ordinary `E.11`-triggered entry-discoverability change, the minimum is:
 
 1. the `Problem frame` names the working situation;
 2. it names or implies the first candidate pattern or authority source;
@@ -50602,7 +50940,7 @@ This pattern counters:
   projection labels over existing patterns, sections, rows, or publication
   faces. They do not create `PatternKind`, `RelationKind`, `StatusKind`,
   `SurfaceKind`, `Role`, `U.Type`, graph node, or workflow state.
-- **CC-E11-5 Problem-frame first-reading role.** Local first-use recognition
+- **CC-E11-5 Problem-frame first-reading role.** Local problem-frame recognition
   remains in the pattern's `Problem frame`; `J.4`, `I.2`, lexical support, and
   `README` do not become competing local recognition homes.
 - **CC-E11-6 Quality boundary.** Formal quality claims about discoverability or
@@ -50644,7 +50982,7 @@ This pattern counters:
 
 ### E.11:9 - Consequences
 
-This pattern gives `FPF` one explicit coordination law for pattern-entry
+This pattern gives `FPF` one explicit coordination discipline for pattern-entry
 discoverability instead of leaving the burden fragmented across `Preface`,
 `J.4`, `I.2`, pattern tops, query rows, and lexical support lanes.
 
@@ -52745,6 +53083,34 @@ As SoTA evolves, new bundles can be added or TEVB can gain a new edition with a 
 
 ## E.17 - Multi‑View Publication Kit (for Morphisms)
 
+**At a glance.** Use `E.17` when one claim-bearing morphism or functional relation must be published in several readable faces for different readers without changing the underlying claim.
+
+**Use this when.** The engineering team needs a plain view, technical card, interoperability card, or assurance lane that helps people read, inspect, exchange, or cite the same source-backed relation without turning the face into work occurrence, evidence, gate passage, engineering justification, control architecture, or release permission by presentation alone.
+
+**First output.** One source-pinned publication face with the underlying `U.Episteme` / D/S episteme, publication scope, face kind, supported use, and any required project-source exit named only as far as the current use needs.
+
+**Working action spine.** Publish one morphism face -> separate source episteme/view, face, carrier, supported use, and project-source exit -> use the face for inspection, source-finding, review, exchange, or planning preparation -> output one source-pinned publication face -> use the exact neighboring source pattern if work, evidence, gate, engineering-justification, control, or release use becomes live.
+
+**Ordinary formality rule.** If the face only supports orientation, source-finding, review, comparison, or planning preparation, keep the publication light: one pinned face or compact card plus a clear supported-use line is enough.
+
+**Load-bearing formality rule.** Add the fuller MVPK record only when the face will support external-impact reliance, cross-context exchange, evidence citation, gate/release pressure, engineering-justification use, disputed interpretation, or another use where a concrete overclaim would change the next engineering move.
+
+**Stop condition.** Do not create a new publication record merely because a face exists. Stop when the current face changes no next engineering move and blocks no concrete overclaim.
+
+**Supported-use examples.**
+
+| Supported project use | Source-finding or reversible probe | Unsupported use |
+| --- | --- | --- |
+| A source-pinned MVPK face lets the team inspect one morphism, review it, exchange it, or prepare planning without changing the claim. | A face helps planning support, but the team still needs to recover the exact method, evidence, gate, control, or carrier source before stronger use. | A face, screen, export, or diagram is treated as performed work, gate passage, evidence, engineering justification, supervisory/control relation, or release permission by layout/readability alone. |
+
+
+**Boundary aid pointer.** If one encountered publication-facing item is easy to read as work, evidence, gate, approval, status, explanation, comparison, or weaker rendering, handle one live claim/effect at a time using `E.17:5.1d`.
+
+Here in the first-screen read, keep only the MVPK publication move: one source-pinned face, one supported use, and exact neighboring source exits only as far as the current use needs.
+
+
+**Not this pattern when.** Not this pattern when the live issue is performed `U.Work`, a work plan, evidence/provenance path, engineering justification, gate decision, control architecture, carrier/OCR work, or a weaker rendering that needs its own fuller-source return. Use the project source pattern that governs that issue.
+
 > **Tech‑name:** `U.MultiViewPublicationKit` (**MVPK**)
 > **Plain‑name:** Multi‑view publication kit (for morphisms)
 > **Signature (conceptual form):**  `MVPK : (U.Morphism, Σ_viewpoints) ↦ U.ViewFamily` with per‑viewpoint components
@@ -52766,7 +53132,7 @@ Provide a **disciplined, compositional way to publish morphisms** (arrows) acros
 
 ### E.17:2 - Problem frame
 
-* Teams routinely need several **faces** of the *same* arrow: a **Tech card** for the catalog, an **Interop card** for machine exchange, a **Plain view** for narrative, and an **Assurance lane** for evidence.
+* Teams routinely need several **faces** of the *same* arrow: a **`TechCard`** for the catalog, an **`InteropCard`** for machine exchange, a **`PlainView`** for narrative, and an **`AssuranceLane`** for evidence.
 * Informal “renderings” quietly **drift semantics**; **composite arrows** are often published piecemeal, breaking traceability; **evidence** forgets unit/scale/edition pins.
 * “View” and “viewpoint” are **blurred** in practice; authors conflate **publication** with **mechanism**.
 * L‑SURF requires **`SurfaceKind` token discipline**; Core allows only **PublicationSurface/InteropSurface**; faces are **…View / …Card / …Lane** (no ad‑hoc `…Surface` kinds).
@@ -52799,7 +53165,7 @@ Provide a **disciplined, compositional way to publish morphisms** (arrows) acros
   * (a) the **viewpoint index** `Σ` and its partial order `⪯`,
   * (b) the admissible **Publication characteristics (PC)** and required **pinning requirements**,
   * (c) any cross‑Context/plane constraints (Bridge/CL policies) applicable to emitted faces.
-* **L, P, D, E quartet.** The canonical MVPK‑Max profile enumerates exactly four **face kinds**: `PlainView (P)`, `TechCard (T)`, `InteropCard (I)`, `AssuranceLane (A)`. If a program elects to retain the mnemonic **(L, P, D, E)** tuple, it MUST map it 1‑to‑1 onto these **face kinds** and SHALL NOT introduce additional kinds without a USM extension.
+* **MVPK face-name quartet.** The canonical MVPK-Max profile enumerates exactly four **face kinds**: `PlainView (P)`, `TechCard (T)`, `InteropCard (I)`, `AssuranceLane (A)`. MVPK face ids, `SurfaceKind` values, claim quadrants, `governingPatternRef`, and local field values must not use an `L/P/D/E` mnemonic; use the P/T/I/A face-name initials only when an abbreviation is unavoidable.
 
 #### E.17:5.1 - Terminology (normative)
 
@@ -52815,9 +53181,36 @@ Provide a **disciplined, compositional way to publish morphisms** (arrows) acros
 * **ISO mapping note.** ISO **viewpoint** → `PublicationVPId` (publication lane); **engineering viewpoint** → `EngineeringVPId` (E.TGA E.18:5.12). An ISO **view** may be a single MVPK face; “bundles” are packaging only.
 * **No‑mechanism equivalence:** MVPK **is not** a mechanism; any operational toil (build/render/upload) is **separate `U.Work` by a system on carriers** (A.7; see **Rule 5 — No Γ-leakage** in §6).
 * **ViewpointSpec (`U.Viewpoint`)** — a typed specification that declares stakeholders, concerns, conformance rules, allowed **Publication Characteristics**, and pinning requirements per profile. The index set `Σ` consists of identifiers of `U.Viewpoint` instances, typically drawn from `U.ViewpointBundle` species (E.17.1/E.17.2) (see §5.3).
-* **Explanation-facing rendering classes.** Existing faces may classify explanation-facing renderings as `SourcePinnedRendering`, `SourceLinkedReconstruction`, `DidacticRetelling`, or `SpeculativeRetelling`, but those are profile labels over already existing MVPK faces rather than new face kinds. Per-face pins, provenance anchors, and no-new-`L/A/D/E` discipline still apply.
+* **Explanation-use profile values.** Existing faces may state an explanation-use profile value as `SourcePinnedExplanation`, `SourceLinkedExplanationReconstruction`, `DidacticRetelling`, or `SpeculativeRetelling`, but those are local profile values over already existing MVPK faces rather than new face kinds, explanation kinds, or carrier-rendering kinds. Per-face pins, provenance anchors, and no-new-`L/A/D/E` discipline still apply.
 
 #### E.17:5.1a - Episteme-publication lane binding  *(normative)*
+
+For functional-description publications, MVPK governs the publication lane only.
+
+**Publication lane.** A principle scheme, functional diagram, comparison table, screen, export, scenario, explanation, or code-like method description may support interpretation, source-finding, comparison, selected-method inspection, or work-planning support.
+
+**Unsupported neighboring claims.** The publication does not by itself assert performed `U.Work`, gate passage, evidence, engineering justification, supervisory/control relation, release permission, or a new TGA kind.
+
+**Interface/protocol proximity.** When interface, protocol, schema, boundary, or API wording appears beside a functional-flow description, keep the operational boundary/interface/protocol claim with its own project claim set and source record, governed by the relevant FPF kind such as `A.6.B`, `A.6.C`, or `E.18`. Do not absorb it into the functional-flow publication by layout proximity.
+
+**Retargeting.** If the publication changes the governed target from an already described component, process, material artifact, or source claim into a functional, control, or flow architecture claim, this is not a same-entity publication/use change. Use `A.6.4`, `OntologicalReframing`, or `E.18` as applicable.
+
+**Source recovery.** When a requested use requires a project source record beyond the publication face, the engineer first recovers the corresponding existing project source if one already carries the needed claim:
+
+- work-relevant source restoration under `A.15.4`;
+- method/work-plan/work-result material under `A.15`;
+- evidence/provenance path under `A.10`;
+- engineering-justification record under `B.3`;
+- constraint or gate decision under `A.20` / `A.21`;
+- supervisory/control architecture record under `B.2.5`;
+- carrier/export/OCR/front-end record under `A.7`;
+- same-entity textual, representation, or weaker-rendering relation under `A.6.3.CR` / `A.6.3.RT` / `A.6.3.CSC`.
+
+**No backdating.** If no existing project source carries a claim that was supposed to be already supported, do not create a backdated source. Create only a prospective repair request, decision request, future work-plan record, or explicit source-gap record, and treat the earlier claim/effect as unsupported until the required source exists.
+
+Ordinary orientation and source-finding can stay as an inline note.
+
+**Functional-description guard (`CC-MVPK-FD`).** A functional-description publication face must separate the source `U.Episteme` / episteme-lane `U.View`, the MVPK face, any live carrier/rendering work, the supported engineering use, and unsupported neighboring use. The guard applies only when a functional-description face is present; it is not the first universal MVPK conformance gate.
 
 MVPK inherits the C.2.1 distinction between `U.Episteme`, `U.EpistemePublication`, publication form, `U.View`, carrier, and authority-reference relation. MVPK does not introduce a generic object kind for semiosis and does not let a publication face act as `governingPatternRef`, `authoritySourceRef`, or the source claim for a claim.
 
@@ -52828,16 +53221,125 @@ When a morphism publication is encountered or reused, name the relevant lane bef
 * the publication form used by the local pattern, if one is live;
 * the `U.View` / MVPK face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) that renders the publication for a viewpoint;
 * the SCR/RSCR carrier or rendering work that holds or displays it;
-* and either `governingPatternRef` or `authoritySourceRef` when the next work/reliance claim depends on a named authority reference.
+* the project source record or authority-reference relation when the next work/reliance claim depends on named authority support.
 
-The practical payoff is that a reader can recover exactly what may be relied on: the episteme claim, the published form, the view, the carrier, or the governing FPF source. A dashboard tile, generated explanation, card face, credential view, or carrier can guide source-finding, but it does not by itself become the source claim/effect, gate decision, evidence relation, assurance claim, role/status, work occurrence, or permission.
+The practical payoff is that a reader can recover exactly what may be relied on: the episteme claim, the published form, the view, the carrier, the project source record, or the authority-reference relation. A dashboard tile, generated explanation, card face, credential view, or carrier can guide source-finding, but it does not by itself become the source claim/effect, gate decision, evidence relation, assurance claim, role/status, work occurrence, or permission.
+
+**Source-exposure rule.** A publication face, carrier, rendering, dashboard tile, credential/status view, comparison unit, explanation rendering, signed decision memo, release decision record, approval speech-act publication, or gate dashboard may expose, cite, or carry a typed project source record only when that record is recoverable under its governing FPF pattern or project source relation. It does not become that source record by readability, layout, title, color, fluency, proximity, copying, generation, or reuse. When the exposed record is a real `SpeechAct`, `GateDecision`, evidence path, credential/status source, `U.Work` occurrence record, `U.Episteme`, or `U.EpistemePublication`, rely on that typed and recoverable source record and its FPF-governed source relation; otherwise treat the face/carrier/display/rendering as orientation or source-finding only.
+
+**No retroactive source creation.** When required source support is missing, a new record can be only a prospective repair request, future decision request, prospective work-plan record, or explicit source-gap record. It must not be read as earlier evidence, approval, gate passage, instituting speech act, `U.Work` occurrence, release permission, engineering justification, or assurance for the unsupported past claim/effect.
+
+#### E.17:5.1b - Shared source-support posture vocabulary
+
+Use this vocabulary when a publication face, rendering, generated text, comparison note, weaker rendering, source-finding cue, or authority-looking display may be over-read as carrying stronger source support than it actually carries. The vocabulary names support posture for one claim/use; it is not a score, not a proof class, not an evidence relation by itself, not an authority source, and not a gate or work state.
+
+| Source-support posture | Meaning for the local claim/use |
+| --- | --- |
+| `source-pointer-only` | The item points to a possible source but does not show that the source is available, was used, or supports the claim. |
+| `source-available` | The cited source can be recovered or inspected for the current use. This does not yet show that the rendering used it correctly. |
+| `source-retrieved` | The cited source has actually been recovered for the current check. This still does not show that it was used correctly or supports the local claim. |
+| `source-used` | The inspectable generation, rewrite, rendering, comparison, or work-reliance path actually used the named source rather than only similar background. If the path is unavailable, treat the item as pointer-only or orientation-only until a source-use path is recovered. |
+| `source-faithful` | The item stays within the source claim/support relation for the stated use; omissions, weakening, and additions are visible enough to inspect. |
+| `claim-supported` | The local claim is recoverable from the source, declared correspondence support, or required project source record for the stated use. |
+| `claim-unsupported` | The local claim is not recoverable from the source support currently available. |
+| `claim-contradicted` | The local claim conflicts with the available source support. |
+| `claim-plausible-only` | The claim may sound reasonable, but the source support currently available does not carry it. |
+| `source-omitted` | Relevant source material, qualifier, condition, alternative, caveat, or uncertainty is missing from the item. |
+| `source-weakened` | The item intentionally carries less detail, narrower scope, redaction, aggregation, or other attenuation than the fuller source. |
+| `claim-strengthened` | The item turns a source possibility, hypothesis, bounded condition, low-confidence statement, narrower permission, or source-finding cue into a stronger claim/use. |
+| `added-linkage` | The item adds a causal, explanatory, bridge, comparison, work, evidence, gate, or authority relation not already carried by the source support. |
+| `independent-verification-present` | A separate check, test, evidence path, or project source record supports the local claim/use independently of the item. |
+| `supported-for-this-use` | The item is admissible for the named use only; stronger downstream use still needs its own source support. |
+| `downstream-use-forbidden` | The item must not be used for the named downstream claim/effect because the needed source support is absent, weaker, contradicted, or outside scope. |
+| `reopen-trigger-present` | A stated change, dispute, use escalation, source update, context shift, missing support, or contradiction forces return to the fuller source or the governing project source record. |
+
+Patterns may use shorter local field names such as `sourceSupportPosture`, `explanationSourcePosture`, or `representationValiditySupportPosture` when the local object is clear. Comparative patterns split source-support posture from comparative-relation posture instead of using one overloaded field. The local field must still be interpretable through the vocabulary above, and the supported use must be named beside it when downstream reliance could change.
+
+For ordinary use, only name the posture distinction that changes the next admissible use. The common light states are `source-pointer-only`, `supported-for-this-use`, `downstream-use-forbidden`, and `reopen-trigger-present`. The vocabulary is not an ordered scale or maturity ladder. If `independent-verification-present` is relied on, name the separate governing pattern, evidence path, gate record, work record, bridge card, or other project source record that performs that independent support.
+
+#### E.17:5.1c - Shared use-boundary terms
+
+Use these terms when a publication face, rendering, weaker rendering, explanation, comparison note, source-finding cue, or authority-looking display may be read beyond the support it carries. Define them once here and link back to this section from local patterns instead of minting local synonyms.
+
+| Term | Meaning for FPF use |
+| --- | --- |
+| `orientation use` | The item helps a reader find, inspect, triage, compare, teach, discuss, or prepare planning while the item itself does not support a downstream work/reliance claim/effect. |
+| `reliance use` | The item is used as support for an engineering claim/effect that changes a next work/reliance move, such as method choice, work plan, performed-work claim, release, gate, approval, role/status, evidence, assurance, or external-impact move. |
+| `work/reliance claim/effect` | A claim or instituted effect about method selection, selected method, `U.WorkPlan`, performed `U.Work`, work result, gate/release, role/status, evidence, assurance, boundary/policy effect, or another exact project source relation. |
+| `operative claim` | A claim whose acceptance would change the next admissible work/reliance move, the project source record to recover, or the cross-context use of the item. Explanatory prose, examples, and source-finding cues are not operative claims unless they are used that way. |
+| `unsupported downstream use` | A stronger use that the current item/source relation does not carry. It requires narrowing the use, returning to a fuller source, recovering source support, or moving to the exact neighboring FPF pattern/source relation that governs the stronger claim/effect. |
+| `reopen trigger` | A dispute, use escalation, missing/stale/contradictory source support, source update, context/window change, or stronger claim/effect that requires fuller-source return, source refresh, re-expansion, or use of the governing pattern. |
+| `authority-looking case` | A recognition phrase for an encountered item that may be over-read as permission, approval, evidence, gate passage, role/status, work occurrence, assurance, or release support. It is not a `U.*` kind, not a source record, and not a governing pattern. |
+
+#### E.17:5.1d - Compact Boundary Aid For The Live Claim/Effect
+
+When a readable artifact, publication face, rendering, weaker rendering, explanation, comparison note, dashboard tile, credential/status view, carrier, or generated item creates more than one possible reading, separate the live claim/effect being used now and cite the exact governing source relation for that claim/effect. This is a compact boundary aid, not a standing selection guide, process order, software call path, or artifact taxonomy. The same encountered item may expose several source records; handle one live claim/effect at a time instead of pretending there is one overall source relation for the artifact.
+
+| Live claim/effect question | Apply or recover |
+| --- | --- |
+| Is the item being used to guide a work/reliance move by appearance, while the acting user still needs the exact project source record before proceeding? | `A.15.4` for the restoration step; the recovered source may then be `A.15`, `A.15.1`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, `A.6.B`, or another exact project source relation. If that exact source is already the live question, use it directly. |
+| Is the item being used as evidence, provenance, attestation, currentness, freshness, or claim-bound support? | `A.10` evidence/provenance/currentness path for the exact claim. |
+| Is the item being used as engineering justification, assurance, confidence, readiness, or limitations support? | `B.3` assurance/engineering-justification claim with evidence, limits, and decay explicit. |
+| Is the item being used as gate passage, constraint validity, adjudication, or release decision support? | `A.20` / `A.21` project records, including gate/constraint profile, decision/log, scope, window, and replay/freshness support. |
+| Is it the same described entity with textual restatement only? | `A.6.3.CR Conservative Retextualization`. |
+| Is it the same described entity with representation scheme or reasoning medium changed? | `A.6.3.RT Representation Transduction`. |
+| Is it deliberately weaker and useful only under narrower supported use, unsupported downstream use, and fuller-source reopen? | `A.6.3.CSC Controlled Semantic Coarsening`. |
+| Is the primary issue explanation-facing rendering class on an existing MVPK face? | `E.17.EFP ExplanationFaithfulnessProfile`. |
+| Is the primary issue one bounded comparative review unit over sources? | `E.17.ID.CR ComparativeReading`. |
+| Did the described entity, target, ontology frame, or governed claim change? | `A.6.4`, `OntologicalReframing`, or the exact retargeting/reframing pattern. |
+| Is the item being used as bridge, substitution, equivalence, same/equivalent/align/map wording, or cross-context comparison support? | Use Part F / `A.6.9` for repairing "same / equivalent / align / map" wording into explicit bridge work; use `F.9` / `F.9.1` for Bridge Cards, bridge kind, direction, `CL`, loss notes, supported use, and stance overlays. Comparison alone is not a bridge. |
+| Is the live question carrier, export, OCR, screen, front-end behavior, or work on carriers? | `A.7` and the exact carrier/front-end/work-on-carrier source record. |
+
+**Evidence-path boundary.** An `A.10` evidence, provenance, attestation, freshness, or currentness path supports only the exact claim it instantiates. It does not approve or authorize work, pass a gate, perform work, supply release permission, or raise assurance/engineering-justification posture unless the project source relation that carries that downstream claim is also instantiated, such as `A.15.4`, `A.15`, `A.20`, `A.21`, or `B.3`.
+
+**Gate-display boundary.** A dashboard tile, status view, or release screen may expose a gate decision only when the `GateDecisionRef`, gate or constraint profile/version, target release/work scope, time window, currentness/freshness or replay support, and evidence path are recoverable. Without that exact project source support, the display remains orientation or source-finding only; it is not a gate decision, gate passage, release permission, or performed-work record by color, label, layout, or proximity.
+
+#### E.17:5.1e - Local review fields are not FPF kinds
+
+Local review fields and values in CR, RT, CSC, EFP, ID.CR, or a neighboring publication-use pattern are local review aids for one case. They are not `U.Kind`, `SurfaceKind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `SlotKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, publication face, authority source, or project source record unless another governing FPF pattern explicitly instantiates that object. When a local field starts carrying one of those loads, move to or cite the governing FPF source relation that carries it.
+
+#### E.17:5.1f - Shared anti-overread invariants for publication-facing items
+
+Use the lightest FPF pattern that owns the live claim/effect. Keep any local review field local, preserve weaker admissible use, and move only the unsupported stronger claim to its governing source relation.
+
+**No-extra-pattern path.** If an artifact only supports ordinary orientation, learning, source-finding, review, comparison, or planning preparation, and no operative work/reliance, evidence, gate, assurance, bridge, source-dispute, or release claim is live, keep the existing publication/source relation and proceed with ordinary use.
+
+**Pattern-inflation anti-pattern.** Do not open a heavier neighboring pattern merely because the artifact resembles a worked example. Open the neighboring pattern only when a live claim/effect changes the next admissible project move.
+
+**Carrier-travel invariant.** A copied, exported, screenshotted, summarized, generated, translated, or re-rendered artifact may carry orientation or source-finding cues. It does not carry evidence support, authority support, gate passage, approval, engineering-justification support, work occurrence, currentness, or release support unless the governing project source relation remains recoverable for that exact use.
+
+**Derivative-chain decay.** A second-order rendering inherits at most the supported use that is explicitly carried from the prior source relation. It does not inherit source faithfulness, source support, currentness, authority support, gate support, work support, or reliance support by default.
+
+**Claim-level support only.** Do not assign one whole-artifact support posture unless every operative claim in that artifact has the same support relation for the same use and unsupported downstream uses are explicit.
+
+**Modality and deontic-force preservation.** Publication-facing transformations must preserve possibility, obligation, permission, recommendation status, decision status, confidence, scope, and temporal window when those are load-bearing. If one of these changes, narrow the supported use or hand off to the governing pattern that carries the changed claim/effect.
+
+**Reader role is not project role.** Reader, audience, target user model, verifier, reviewer, and learner positions do not become project roles, role assignments, decision authority, gate authority, issuer roles, or work roles unless a project source instantiates that role relation.
+
+**Source-gap states.** When support is missing, say which gap is live: source not named; source named but unavailable; source available but not used; source used but insufficient; source stale or outside its window; source contradicted; source accountable role/register mismatch. Block only the unsupported effect and keep any weaker supported use available.
+
+**Metric and display overread.** A number, score, percentage, color, rank, confidence value, similarity value, dashboard state, or metric display is orientation only until the measurement source, aggregation rule, validity window, population/scope, calibration or evidence path, and intended use are governed by the exact project source relation. Evidence-like use exits to `A.10`; assurance-like use exits to `B.3`; gate-like use exits to `A.20` / `A.21`; work/reliance use exits to `A.15.4` and then to the recovered project source; bridge/substitution use exits to `F.9` / `F.9.1`.
+
+**World-contact stop.** Publication-facing items do not self-refresh after source update, revocation, policy change, system-state change, incident, model update, environmental change, or new external observation. A live outside change requires source refresh, reissued publication, or a new governed project source relation before stronger use continues.
+
+**Functional-description boundary.** A functional, architectural, descriptive, representational, or explanatory fit claim does not create permission, obligation, approval, gate passage, release support, performed-work evidence, or engineering justification. Those uses require the exact neighboring project source relation.
+
+**Mixed bundle no-strongest-reading rule.** A bundle with source-pinned, weaker, speculative, didactic, comparison, and evidence-facing parts cannot be read at its strongest member's support level. Each operative claim keeps its own source relation and unsupported downstream use.
+
+**Educational usefulness.** Didactic, onboarding, tutorial, and workshop usefulness is real orientation support. It is not evidence, gate passage, approval, work occurrence, engineering justification, release permission, or bridge support.
+
+**Comparison exposes conflict; it does not adjudicate it.** A comparison note may expose contradiction, asymmetry, different foregrounding, or unresolved residue. It does not settle the conflict, select an option, approve release, pass a gate, or create bridge/substitution support unless the governing project source relation carries that result.
+
+**Same-artifact multi-reading examples.** A green release dashboard can be one MVPK face for source-finding, an `A.10` currentness/evidence path when the evidence query is recoverable, an `A.21` gate-decision view when the `GateDecisionRef` is recoverable, or an unsupported release cue when those sources are missing. A generated comparative explanation can be an `E.17.EFP` explanation-use case, an `E.17.ID.CR` comparison case, a `A.6.3.CR` generated-summary case, or source-finding only; it is never all of those at the strongest support level by fluency alone.
+
+**Concrete reopen trigger.** A reopen trigger must name the condition and the nearest fuller source or governing pattern. A vague "reopen if needed" does not preserve source support.
 
 #### E.17:5.2 - Allowed `SurfaceKind` values at Part E (L-SURF discipline)
 Part E restricts `SurfaceKind` values to **PublicationSurface** and **InteropSurface**. Concrete publication faces SHALL be named **...View / ...Card / ...Lane**.
 
 **USM linkage (normative).** Every `U.View` **SHALL** declare a `U.PublicationScope` (USM §6.5).
 For a view **about an episteme** `E`: `PublicationScope(view_E) ⊆ ClaimScope(E)`.
-For a view **about a capability** `C`: `PublicationScope(view_C) ⊆ WorkScope(C)`.
+For a view **about a capability** `C`: `PublicationScope(view_C) ⊆ WorkScope(C)`. This is the publication scope of a capability description, not permission to perform work and not evidence that work occurred. Work admissibility still requires `A.15.4` source restoration when the view is used for work/reliance, and the `A.15` role/method/plan/work source relation for the actor, target, context, scope, and time/window in use.
 Cross‑context views **SHALL** cite Bridge + CL; **CL penalties apply to R only** (scope membership unchanged).
 
 **L‑PUBSURF naming discipline**
@@ -52854,6 +53356,8 @@ Cross‑context views **SHALL** cite Bridge + CL; **CL penalties apply to R only
 * `TechCard` (typed catalog card)
 * `AssuranceLane` (evidence bindings/lanes)
 * `InteropCard` (conceptual interoperability view; **mapping to concrete exchange formats lives in Annex/Interop; Part E does not specify schemas**)
+
+`AssuranceLane` may expose evidence bindings, evidence-carrier references, pins, and presence bits. It is not a `B.3` assurance claim, readiness/confidence verdict, engineering-justification record, or evidence-sufficiency result. When a published face is used to raise or lower assurance, readiness, confidence, limitation, or engineering-justification posture, the governing source relation is `B.3`; the lane only helps recover the cited evidence-binding material.
 
 **Lean profiles (small‑team friendly, optional; as MVPK kit profiles):**
 * **MVPK‑Min (F0–F1):** Σ = {`PlainView`, `TechCard‑Lite`}. `AssuranceLane` omitted. No interop face.
@@ -52877,7 +53381,7 @@ Cross‑context views **SHALL** cite Bridge + CL; **CL penalties apply to R only
 2) **No duplication on faces.** MVPK faces **do not duplicate** I/O lists; they publish a **minimal profile**: **presence‑pins**, **CG‑Spec/CHR anchors**, and **EditionId** only.
 3) **Signature reserved to intensional.** Use **“Signature”** exclusively for intensional objects (`U.Signature`, `U.PrincipleFrame`, …). On faces, avoid “signature” and use **TechName/PlainName**.
 4) **Admissible orders, return sets.** Whenever a face shows **selection or comparison**, it **returns sets / admissible partial orders** and **never hides scalarization**; cite a **ComparatorSetRef** for any total order.
-5) **Bridge routing, penalties.** Crossings go via **Bridge + CL**; publish **Φ(CL)/Φ_plane** ids; penalties route to **R only** (never F/G).
+5) **Bridge crossing penalties.** Crossings cite **Bridge + CL**; publish **Φ(CL)/Φ_plane** ids; penalties apply to **R only** (never F/G).
 6) **Carrier anchoring & lanes.** On first mention, anchor carriers (**SCR/RSCR**); keep **Work occurrences** distinct from **epistemic claims** via lanes.
 7) **Publication ≠ execution.** No time/resource semantics on faces; any build/render/upload is separate **`U.Work`**.
 
@@ -52900,7 +53404,7 @@ The catalog **MAY** be extended (see “Extensibility” below); PCs **must** re
 * **E17‑PC‑1 (CHR grounding).** Every PC that yields numeric/comparable content **SHALL** cite CHR/CG‑Spec anchors and carry pins {unit, scale, reference‑plane, edition}.
 * **E17‑PC‑2 (Lexical discipline — no geometry).** Faces and PCs **MUST NOT** use “axis”, “dimension”, or geometric metaphors; use **Characteristic**, **slot**, **CharacteristicSpace** where applicable (**E.10**; see also A.19).
 * **E17‑PC‑3 (No hidden arithmetic).** Faces **MUST NOT** smuggle aggregation/normalization; any such logic lives in **CG‑Spec** (UNM/NormalizationMethod) and is cited by **…Ref.edition**.
-* **E17‑PC‑4 (Plane & crossing).** When a PC depends on **ReferencePlane** or crosses planes/contexts, the face **SHALL** cite `BridgeId` and **CL** policy‑ids; penalties route to the **R‑channel only**.
+* **E17‑PC‑4 (Plane & crossing).** When a PC depends on **ReferencePlane** or crosses planes/contexts, the face **SHALL** cite `BridgeId` and **CL** policy‑ids; penalties apply to the **R‑channel only**.
 * **E17‑PC‑5 (Edition pinning).** PCs that rely on maps or distances **SHALL** pin `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and, if used, `CharacteristicSpaceRef.edition` / `TransferRulesRef.edition`.
 * **E17‑PC‑6 (Viewpoint scope).** Each PC instance declares the **Viewpoint** under which it is valid; promotion `PromoteView[s→t]` **MUST NOT** strengthen claims; at most, it reindexes or annotates.
 * **E17‑PC‑7 (Comparator/SetSemantics edition).** `PC.ComparatorSetRef` and any `SetSemanticsRef` **SHALL carry edition identifiers**; cards MUST be re‑emitted upon edition change with migration notes.
@@ -52939,11 +53443,22 @@ The catalog **MAY** be extended (see “Extensibility” below); PCs **must** re
 
 ### E.17:6 - Rules and Invariants (normative)
 
+**Publication-composition local test bundle.** A face that claims compositional publication passes only when five local tests are visible:
+
+1. `identity`: `Emit_s(id_X)` is the identity view for `ViewObj_s(X)`.
+2. `composition witness`: the published face for `g∘f` matches the composition of the published faces for `f` and `g`, or the face is marked non-compositional / explanatory-only.
+3. `no-new-claim diff`: red-line against the governing D/S episteme shows formatting, indexing, pinning, or view/refinement work only.
+4. `monotone promotion`: promotion from a plainer face to a richer face adds fields, pins, or typing without retracting or strengthening the source claim.
+5. `scope non-widening`: `PublicationScope` stays within the relevant `ClaimScope` or `WorkScope`, and promotion does not widen it.
+
+
+
 For any composable arrows `X —f→ Y —g→ Z` in `U`, and any `s, t ∈ Σ_viewpoints`:
 
 1. **Functoriality & typing (per‑viewpoint).**
     * (a) **Identity:** `Emit_s(id_X) = id_{ViewObj_s(X)}`.
-    * (b) **Composition:** `Emit_s(g∘f) = Emit_s(g) ∘ Emit_s(f)`.
+    * (b) **Composition:** `Emit_s(g∘f) = Emit_s(g) ∘ Emit_s(f)`. A face that claims compositional status carries a local witness: compare the published face for `g∘f` with the composition of the published faces for `f` and `g`. If the witness is absent or fails, mark that face non-compositional / explanatory-only and do not use it to satisfy the composition rule.
+
     * (c) **Typing (totality):** if `f : X → Y` then `Emit_s(f) : ViewObj_s(X) → ViewObj_s(Y)` is **total**; ill-typed composites must be fixed via `ViewObj_s`, not by weakening invariants.
     * *Intuition:* every viewpoint acts functorially on arrows; publication does not break arrow algebra.
 2. **Reindexing coherence (monotone refinement + naturality).**
@@ -52967,11 +53482,11 @@ For any composable arrows `X —f→ Y —g→ Z` in `U`, and any `s, t ∈ Σ_v
 7. **Isomorphism preservation.**
     * If `f` is an isomorphism in `U`, then `Emit_s(f)` is an isomorphism in `View_s(U)`; inverses map accordingly.
 8. **Cross‑Context/plane bridging.**
-    * If a view crosses contexts or reference planes, it **SHALL** cite the **Bridge + CL policy ids** (A.7 §5.8, “Bridge routing”). Such crossings MUST be explicit on `TechCard` and `AssuranceLane`.
+    * If a view crosses contexts or reference planes, it **SHALL** cite the **Bridge + CL policy ids** (A.7 §5.8, bridge crossing). Such crossings MUST be explicit on `TechCard` and `AssuranceLane`.
 9. **Totality of publication morphisms.**
     * Publication maps are total on their domains; when a composition in a view would be ill‑typed, the author **must** fix the view-object mapping (via `ViewObj_s`) rather than weakening functoriality or reindexing rules.
 10. **PublicationScope discipline (subset & composition).**
-    * (a) **Subset rule:** If a view `v` is about episteme `E` then `PublicationScope(v) ⊆ ClaimScope(E)`; if about capability `C` then `PublicationScope(v) ⊆ WorkScope(C)`.
+    * (a) **Subset rule:** If a view `v` is about episteme `E` then `PublicationScope(v) ⊆ ClaimScope(E)`; if about capability `C` then `PublicationScope(v) ⊆ WorkScope(C)` only as the publication scope of a capability description, not as work admissibility, gate passage, release permission, or evidence that `U.Work` occurred.
     * (b) **No widening by refinement:** If `s ⪯ t`, then promotion `PromoteView[s→t]` MUST NOT widen `PublicationScope`.
     * (c) **Compositional bound:** For composable arrows `X —f→ Y —g→ Z`,
       `PublicationScope(Emit_s(g∘f)) ⊆ PublicationScope(Emit_s(g)) ∩ PublicationScope(Emit_s(f))`.
@@ -52991,39 +53506,57 @@ U :  X ──f──▶ Y ──g──▶ Z    X ──f──▶ Y ──g─�
 ```
 * **Author** chooses `Σ_viewpoints` (declared concerns + conformance rules).
 * **MVPK** emits `U.ViewFamily(f)` for each arrow `f`.
-* **Gate‑based validation** (via declared publication checks / OperationalGate(profile) GateChecks) verifies that pins/anchors/IDs are present and that MVPK invariants are respected.
+* **Declared publication checks** verify that pins/anchors/IDs are present and that MVPK invariants are respected. Use `OperationalGate(profile)` / GateChecks only when a live project gate profile actually governs the next project move.
 
-### E.17:8 - Examples (SoTA‑echoing)
+### E.17:8 - Examples (SoTA-aligned Local Tests)
 
-1. **Composite service pipeline (Interop + Assurance).**
+Read these examples as local tests for MVPK invariants, not as source citations by reputation.
+
+
+1. **Composite service pipeline (`InteropCard` + `AssuranceLane`).**
     `f: Parse → Normalize`, `g: Normalize → Score`.
     `InteropCard(g∘f)` is an interoperability **view** whose path set equals the **relational composition** of the two cards; `AssuranceLane(g∘f)` cites test records as evidence **carriers** with edition pins. (Carriers, not semantics; concrete envelope formats are outside Part E.)
-2. **Control loop morphism (Tech + Plain).**
+2. **Control loop morphism (`TechCard` + `PlainView`).**
     * For `h: Setpoint → Actuation`, `TechCard(h)` is a typed card with units; `PlainView(h)` narrates the same mapping with no new claims. (Monotone formalization echoes refinement‑typed stacks.)
-3. **Optics‑style compositional views.**
-    * Treat each `Emit_s(–)` as a **profunctor optic** from arrow semantics to its projection; then (by optics invariants) `Emit_s(g∘f) = Emit_s(g) ∘ Emit_s(f)`. *Modern echo:* profunctor/optic literature (2017–2019) establishes precisely the kind of **compositional view** MVPK requires.
+3. **Optics-informed composition witness.**
+    * Profunctor/optic accounts are useful only as a source idea for why compositional publication matters. The local FPF test is still the MVPK witness: emit the face for `g∘f`, compose the emitted faces for `f` and `g`, and compare them. If the comparison is not supplied or fails, the face stays non-compositional / explanatory-only; optics vocabulary does not carry the rule by analogy.
+
+4. **Functional-description publication (`PlainView` + `TechCard`).**
+    A principle scheme or functional diagram can publish a readable relation from signature or principle material to method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, and result measurement. The MVPK faces may help a team inspect that relation and prepare a work plan, but they do not turn the diagram, table, screen, or export into work occurrence, gate passage, evidence, engineering justification, or supervisory/control architecture. For those uses, the team first recovers the existing project source that carries the claim when available: work-relevant source restoration under `A.15.4`, method/plan/work material under `A.15`, evidence/provenance path under `A.10`, engineering-justification record under `B.3`, gate/constraint decision under `A.20` / `A.21`, or supervisory/control architecture record under `B.2.5`. If no existing source carries the needed claim, create only a prospective repair request, future decision request, prospective work-plan record, or explicit source-gap record; do not backdate evidence, gate passage, work occurrence, release permission, engineering justification, or assurance for the earlier claim.
+
 
 ### E.17:9 - Conformance checklist (normative)
 
+`CC-MVPK-FD` is the functional-description guard in §5.1a. It is conditional on a functional-description publication face and must not read as the first universal MVPK gate.
+
+A conformance check is retained only if it changes the next admissible use of the publication face, blocks a concrete overclaim, or preserves a source/reopen path needed for the declared supported use.
+
+#### E.17:9.1 - Core ordinary checks
+
 | ID | Requirement | Practical test |
 | --- | --- | --- |
-| **CC‑MVPK‑0 (Lean publication guard)** | For Lean profiles, a minimal guard runs: (i) set‑returning selection present; (ii) ReferencePlane present; (iii) any crossing cites BridgeId+CL with penalties routed to R only. | Validation report shows presence bits; penalties route to R only. |
 | **CC‑MVPK‑1 (Viewpoint explicit)** | Each view declares its **Viewpoint** (stakeholders, concerns, conformance) as a publication `U.Viewpoint`. | Cards show `PublicationVPId` (or equivalent publication‑viewpoint field) and concerns. |
-| **CC‑MVPK‑2 (Functoriality)** | `Emit_s(id)` is identity; `Emit_s(g∘f) = Emit_s(g)∘Emit_s(f)`. | Compose two cards and diff with the card of the composite. |
 | **CC‑MVPK‑3 (No content extension)** | `PlainView`, `TechCard`, and `InteropCard` add **no new claims** beyond the underlying D/S‑epistemes. | Red‑line vs D/S episteme output (`Describe_ID`/`Specify_DS`) shows only formatting/indexing. |
-| **CC‑MVPK‑3b (Boundary claim‑set integrity)** | If a published arrow is a boundary/interface/protocol and an A.6.B routed claim set exists (`L-* / A-* / D-* / E-*`), then any normative text on faces **MUST** be traceable to that claim set (prefer claim‑ID citations); faces **MUST NOT** become a second boundary specification. | Lint flags uncited normative clauses; faces reduce to {claim‑ID citations + informative commentary}. |
 | **CC‑MVPK‑4 (Pins & anchors)** | Numbers/thresholds pin {...}. **Lean exception:** at MVPK‑Min/Lite profiles, EditionId MAY remain coarse; ordinal claims are admissible only as compare‑only (no means/z‑scores). | Validation shows pins present or compare‑only mode engaged. |
-| **CC‑MVPK‑4b (Lean assurance)** | If `AssuranceLane‑Lite` is used, presence bits for {PathSliceId?, BridgeId?} suffice; full evidence-carrier lists stay with the owning evidence source. | Presence bits visible; required evidence-carrier refs route out of Lite. |
+| **CC‑MVPK‑4j (PublicationScope present)** | Each view **declares `U.PublicationScope`** (USM §6.5). | Field present; presence‑bit green. |
+| **CC‑MVPK‑5 (Carrier anchoring)** | First mention includes **SCR/RSCR** ids when carrier/rendering work is live. | SCR ids visible on the card when used. |
+
+#### E.17:9.2 - Conditional checks
+
+| ID | Requirement | Practical test |
+| --- | --- | --- |
+| **CC‑MVPK‑0 (Lean publication guard)** | For Lean profiles, a minimal guard runs: (i) set‑returning selection present; (ii) ReferencePlane present; (iii) any crossing cites BridgeId+CL with penalties applied to R only. | Validation report shows presence bits; penalties apply to R only. |
+| **CC‑MVPK‑2 (Functoriality)** | `Emit_s(id)` is identity; `Emit_s(g∘f) = Emit_s(g)∘Emit_s(f)`. | Compose two cards and diff with the card of the composite. |
+| **CC‑MVPK‑3b (Boundary claim‑set integrity)** | If a published arrow is a boundary/interface/protocol and an A.6.B claim set exists (`L-* / A-* / D-* / E-*`), then any normative text on faces **MUST** be traceable to that claim set (prefer claim‑ID citations); faces **MUST NOT** become a second boundary specification. | Lint flags uncited normative clauses; faces reduce to {claim‑ID citations + informative commentary}. |
+| **CC‑MVPK‑4b (Lean assurance)** | If `AssuranceLane‑Lite` is used, presence bits for {PathSliceId?, BridgeId?} suffice; full evidence-carrier lists stay with the governing evidence source. | Presence bits visible; required evidence-carrier refs stay outside Lite. |
 | **CC‑MVPK‑4c (I/O vs publication)** | Faces **do not** restate I/O; they carry **presence‑pins + anchors + EditionId** only. | Face inspection shows no I/O duplication. |
 | **CC‑MVPK‑4d (Admissible orders)** | Any selection/comparison on faces **returns sets / admissible partial orders** with a **ComparatorSet** citation. | No hidden scalarization; ComparatorSetRef present. |
 | **CC‑MVPK‑4e (Signature on faces — banned)** | The term **“signature”** is **not used** on faces; use **TechName/PlainName**. | Token scan: no “signature” on faces. |
 | **CC‑MVPK‑4f (PC discipline)** | Any numeric/comparable publication uses **Publication characteristics** (PC) and carries pins {unit, scale, reference‑plane, edition}. | Cards show PC fields + pins; validation passes. |
 | **CC‑MVPK‑4g (No axis/dimension)** | Faces avoid “axis/dimension/plane” metaphors except **ReferencePlane**; use CHR terms (**Characteristic/slot/CharacteristicSpace**). | Lexical check flags none; only `ReferencePlane` appears. |
 | **CC‑MVPK‑4h (Edition pins on defs)** | Where maps/distances/spaces are cited, the face pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition?`. | Validation shows edition fields populated. |
-| **CC‑MVPK‑4i (Crossings gated)** | Plane/Context crossings cite **Bridge + CL** policies; penalties route to **R‑channel** only. | IDs present; routing verified in harness logs. |
-| **CC‑MVPK‑4j (PublicationScope present)** | Each view **declares `U.PublicationScope`** (USM §6.5). | Field present; presence‑bit green. |
+| **CC‑MVPK‑4i (Crossings gated)** | Plane/Context crossings cite **Bridge + CL** policies; penalties apply to **R‑channel** only. | IDs present; R-channel penalty application verified in harness logs. |
 | **CC‑MVPK‑4k (Subset‑of underlier)** | For views about epistemes/capabilities, `PublicationScope ⊆ ClaimScope/WorkScope`; reindexing **does not widen** it. | Subset witness passes; promotion diff shows no widening. |
-| **CC‑MVPK‑5 (Carrier anchoring)** | First mention includes **SCR/RSCR** ids. | SCR ids visible on the card. |
 | **CC‑MVPK‑6 (Γ‑separation)** | No cost/time/data‑spend on publication morphisms. | CI shows proof/witness records; gate validation passes. |
 | **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
 | **CC‑MVPK‑8 (`SurfaceKind` discipline)** | Only **PublicationSurface/InteropSurface** are used; faces named **...View/...Card**. | Token scan; no “rendering/presentation” as `SurfaceKind` values. |
@@ -53042,7 +53575,7 @@ U :  X ──f──▶ Y ──g──▶ Z    X ──f──▶ Y ──g─�
     *Fix:* Reject card; supply **pins** and CG/CHR anchors.
 4. **Viewpointless views.**
     *Fix:* Define Viewpoint; attach concerns + conformance; re‑emit.
-5. **Interop ≡ Tech duplication.**
+5. **`InteropCard` equivalent to `TechCard` duplication.**
     *Fix:* `InteropCard` may refine typing/shape but cannot contradict `TechCard` (reindexing monotone).
 
 ### E.17:11 - Consequences
@@ -53050,23 +53583,31 @@ U :  X ──f──▶ Y ──g──▶ Z    X ──f──▶ Y ──g─�
 | Benefit | Why it matters | Trade‑off / Mitigation |
 | --- | --- | --- |
 | **Arrow traceability.** | Composition preserved across views enables chain‑of‑evidence on pipelines. | Slight authoring overhead → MVPK templates. |
-| **Review-ready faces.** | Pins + CHR anchors make numeric claims verifiable. | Gate-based validation performs checks. |
+| **Review-ready faces.** | Pins + CHR anchors make numeric claims verifiable. | Declared publication checks perform MVPK checks; project gates stay with the relevant `OperationalGate(profile)` / `GateDecision` source when gate pressure is live. |
 | **Terminology hygiene.** | Clear View vs Viewpoint, Publication vs Presentation. | Enforce L‑SURF tokens in CI. |
 | **Notation independence.** | Viewpoints talk concerns, not tools. | Provide adapters to local stacks. |
 
-### E.17:12 - SoTA-echoing (post‑2015; conceptual pointers)
+### E.17:12 - SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts
 
-* **Profunctor/optic accounts (2017–2019).** Establish **compositional “views”** that compose like arrows, mirroring MVPK’s functorial invariant.
-* **Refinement‑typed ecosystems (2016→).** Units/scale in the type system echo **pin discipline**.
-* **Interoperability & evidence envelopes.** External standards exist, but **their concrete formats live outside Part E** (see Annex/Interop for examples and mappings).
+**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 
-(References are illustrative exemplars of practice; MVPK remains notation‑agnostic.)
+| Source idea and current source | Local FPF invariant / practical local test | Adopted/adapted invariant / rejected shortcut |
+| --- | --- | --- |
+| Architecture-description and MBSE practice separates source description, view/viewpoint, model kind, correspondence, and interoperability surface instead of letting one readable model face stand in for all of them. | MVPK publishes one source-pinned face over an existing source episteme/view, keeps `U.View`, viewpoint, carrier/rendering work, correspondence support, and concrete exchange/interoperability envelopes separate, and sends work, evidence, gate, assurance, carrier, or bridge use to the governing source relation. | Adopt explicit source/view/viewpoint/model-kind separation; reject the shortcut where a readable architecture or model face becomes evidence, work occurrence, gate passage, release permission, bridge support, or concrete exchange authority by presentation alone. |
+| Profunctor/optic accounts (2017-2019; source maturity = research/theory line, not load-bearing without local witness) support compositional views that compose like arrows. | MVPK adopts only local publication-composition tests: identity, composition witness, no-new-claim diff, monotone promotion, and scope non-widening. | Adopt the five-test publication-composition bundle; reject optics vocabulary as proof by analogy or as a replacement for local witnesses. |
+| Refinement-typed ecosystems (2016+; source maturity = widely used technical practice) keep units, scales, and type-like constraints attached to values. | MVPK publication faces carry pins and CHR/CG anchors; local test: numbers, thresholds, and characteristic claims on faces have units, scales, reference-plane/edition support where load-bearing. | Adapt pin discipline; reject readable numbers as self-validating values. |
+| Interoperability and evidence-envelope practice (source maturity = mature standards/practice, depending on concrete envelope) separates exchange format and carrier evidence from the claim being carried. | MVPK faces may expose evidence carriers or exchange envelopes, but concrete formats live outside Part E; local test: the face adds no claim and points back to the governing source or evidence path. | Adapt envelope discipline; reject treating envelope presence as semantic truth, evidence sufficiency, work occurrence, or gate passage. |
+
+(References are selected because they support local MVPK invariants and tests; MVPK remains notation-agnostic.)
+
 
 ### E.17:13 - Relations
 
-* **Builds on:** A.7/E.10.D2 (Strict Distinction & I/D/S discipline), A.6.2–A.6.3 (episteme morphisms, `U.EffectFreeEpistemicMorphing` / `U.EpistemicViewing`), E.17.0 (`U.MultiViewDescribing`), E.8 (Authoring conventions), E.10 (LEX‑BUNDLE incl. L‑SURF), Part F/G (UTS, CG‑Spec, CHR pins).
-* **Constrains:** Any publication-face-emitting automation; must treat publication as a species of `U.EpistemicViewing` over existing D/S‑epistemes, not as a new I→D→S mechanism.
-* **Coordinates with:** B‑operators (no Γ‑leakage), C‑cluster (selection/archives: views are publication faces, not selections), **CHR‑MM** (measurement semantics), **UNM** (normalization families).
+* **Builds on:** `A.7` / `E.10.D2` for carrier/front-end and strict I/D/S discipline; `A.6.2`-`A.6.3` for episteme morphisms, `U.EffectFreeEpistemicMorphing`, and `U.EpistemicViewing`; `E.17.0` for `U.MultiViewDescribing`; `E.8` and `E.10` for authoring and publication-language discipline; Part F/G for bridge, terminology, characteristic, and pin discipline.
+* **Constrains:** publication-face-emitting automation and hand-authored publication faces. They remain species of `U.EpistemicViewing` over existing D/S epistemes and may not become a second I->D->S mechanism, evidence path, gate decision, work occurrence, assurance record, release source, or bridge declaration by readable form.
+* **Current outgoing exits from `E.17:5.1d`:** work/reliance support exits to `A.15.4`, with `A.15` for role/method/plan/work alignment and `A.15.1` for one dated `U.Work` occurrence; evidence, provenance, attestation, currentness, and freshness exit to `A.10`; engineering justification, assurance, confidence, readiness, and limitations exit to `B.3`; gate passage, constraint validity, adjudication, and release decision support exit to `A.20` / `A.21`; same-entity textual restatement exits to `A.6.3.CR`; same-entity representation-scheme or reasoning-medium change exits to `A.6.3.RT`; deliberately weaker narrower-use rendering exits to `A.6.3.CSC`; explanation-facing rendering exits to `E.17.EFP`; bounded comparative review exits to `E.17.ID.CR`; changed described entity, target, ontology frame, or governed claim exits to `A.6.4`, `OntologicalReframing`, or the exact retargeting/reframing pattern; carrier, export, OCR, screen, front-end behavior, or work on carriers exits to `A.7`.
+* **Part F / bridge wording exit:** when the publication face uses or invites "same", "equivalent", "align", "map", substitutable, interchangeable, attribute/entity/profile matching, or other bridge-wording pressure across contexts, the wording repair belongs to Part F / `A.6.9` and the bridge support belongs to `F.9` / `F.9.1`; `E.17` does not create a local bridge taxonomy.
+* **Coordinates with:** B-operators for no Gamma-leakage, C-cluster selection/archive patterns where views remain publication faces rather than selections, CHR/UNM for measurement and normalization semantics, `F.9` / `F.9.1` / `A.6.9` for bridge and sameness wording, and the neighboring source patterns named above. This section is relation/exit truth for publication use, not a standing decision tree or process order.
 
 ### E.17:14 - Minimal authoring template (Part E)
 
@@ -53075,39 +53616,55 @@ U :  X ──f──▶ Y ──g──▶ Z    X ──f──▶ Y ──g─�
 
 ### E.17:15 - Manager’s one‑page review (copy‑paste)
 
-> “We publish every **morphism** under a declared **set of viewpoints** using **MVPK**. Each **view** is **functorial** (identities, composition), **adds no new claims**, and pins **unit/scale/reference‑plane/edition** with **CHR/CG** anchors. **Interop** views clarify concerns/semantics only (concrete exchange lives outside Part E); **Assurance** cites evidence carriers (SCR). Any cross‑Context/plane view cites **Bridge+CL** (Φ→R only). Publication toil is **`U.Work` on carriers**, not a mechanism change.”
+> “We publish every **morphism** under a declared **set of viewpoints** using **MVPK**. Each **view** that claims functorial composition carries the local composition witness; without that witness it stays non-compositional / explanatory-only. Each face **adds no new claims** and pins **unit/scale/reference‑plane/edition** with **CHR/CG** anchors. **`InteropCard`** views clarify concerns/semantics only (concrete exchange lives outside Part E); **`AssuranceLane`** cites evidence carriers (SCR). Any cross‑Context/plane view cites **Bridge+CL** (Φ→R only). Publication toil is **`U.Work` on carriers**, not a mechanism change.”
 
 ### E.17:End
-
-## E.17.EFP - ExplanationFaithfulnessProfile — explanation classification over existing MVPK faces
+## E.17.EFP - ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**One-line summary.** `ExplanationFaithfulnessProfile` classifies explanation-facing renderings over already available claims, traces, and pins on existing MVPK faces. It helps reviewers distinguish source-pinned rendering, source-linked reconstruction, didactic retelling, and speculative retelling without creating a second face family or a second semantic rule track.
+**One-line summary.** `ExplanationFaithfulnessProfile` states how explanation-facing renderings over already available claims, traces, and pins on existing MVPK faces may be used. It helps reviewers distinguish source-pinned rendering, source-linked reconstruction, didactic retelling, and speculative retelling without creating a second face family or a second semantic rule track.
 
-**Governed object in plain terms.** One explanation-facing rendering on an existing MVPK face; not the whole face family, not the whole source episteme/publication lane, and not a second semantic track.
+**Governed object in plain terms.** One explanation-facing rendering on an existing MVPK face; not the whole face family, not the whole source `U.Episteme` / `U.EpistemePublication`, and not a second semantic track.
 
-**Governing move in plain terms.** Classify how that rendering relates to already available source `U.Episteme` / `U.EpistemePublication`, source pins, traces, and provenance anchors, what class it belongs to, and what downstream claim/effect still stays outside the profile.
+**Governing move in plain terms.** State how that rendering relates to already available source `U.Episteme` / `U.EpistemePublication`, source pins, traces, and provenance anchors, which explanation-use class it belongs to, and what downstream claim/effect still stays outside the profile.
 
-**Use this when.** Use this profile when one note, memo, sheet, screen, table, or short section is trying to help a reader understand an already available source episteme/publication lane on an existing face and you need to say what kind of explanation it is without turning that help into a second semantic rule track.
+**Use this when.** Use this profile when one note, memo, sheet, screen, table, or short section is trying to help a reader understand an already available source `U.Episteme` / `U.EpistemePublication` on an existing face and you need to say what kind of explanation it is without turning that help into a second semantic rule track.
 
-**Start here when.** The first item to classify is one explanation-facing rendering on an existing MVPK face, and the real question is whether it stays source-pinned, becomes bounded reconstruction, is openly didactic, or has already shifted into speculation or unsupported downstream claim/effect.
+**Start here when.** The first decision is about one explanation-facing rendering on an existing MVPK face, and the real question is whether it stays source-pinned, becomes bounded reconstruction, is openly didactic, or has already shifted into speculation or unsupported downstream claim/effect.
 
 **What goes wrong if missed.** Helpful explanation quietly turns into a second semantic rule track, hidden bridge-comparison load, or unsupported downstream guidance because the rendering is read as if it were canonical content.
 
 **What this buys.** One honest explanation class on an existing face with visible source anchors, admissible-use boundary, and explicit exits when the rendering has stopped being merely explanatory help.
 
-**Not this pattern when.** Not this profile when the real job is same-entity rewrite (`A.6.3.CR`), representation change (`A.6.3.RT`), bounded comparative reading (`E.17.ID.CR`), changed described entity (`A.6.4`), deliberately weakened rendering that now needs narrower allowed claim/effect, forbidden downstream claim/effect, and reopen to the fuller source episteme/publication lane (`A.6.3.CSC`), or downstream work/reliance, assurance, or gate-bearing content (`A.15`, `A.20`, `A.21`).
+**Not this pattern when.** Not this profile when the real job is same-entity rewrite (`A.6.3.CR`), representation change (`A.6.3.RT`), bounded comparative reading (`E.17.ID.CR`), changed described entity (`A.6.4`), deliberately weakened rendering that now needs narrower allowed claim/effect, forbidden downstream claim/effect, and reopen to the fuller source `U.Episteme` / `U.EpistemePublication` (`A.6.3.CSC`), or downstream work/reliance, assurance, or gate-bearing content (`A.15`, `A.20`, `A.21`).
 
-**First output.** One face-bound explanation rendering or compact review note with an explicit explanation class, visible source anchors, admissible MVPK face and named `PublicationSurface`/`InteropSurface` class, and any forbidden downstream claim/effect or `addedLinkPolicy` needed to keep the rendering reviewable.
+**First output.** One compact review note: explanation class, source anchor, allowed reader use, unsupported downstream use, and reopen or exit condition. MVPK face, pins, provenance, and source fields are inherited by reference unless ambiguity or load-bearing pressure makes them live.
 
-**Typical next governing patterns / authority-source exits.** `E.17.ID.CR` when the case becomes bounded comparative reading; `A.6.3.CR` or `A.6.3.RT` when the real job is same-entity rewrite or representation change; `A.6.3.CSC` when the rendering stays honest only through narrower allowed claim/effect, forbidden downstream claim/effect, and reopen to the fuller source episteme/publication lane; `A.6.4` or `OntologicalReframing` when the described entity changes; and `A.15`, `A.20`, or `A.21` when explanation starts carrying downstream work/reliance, assurance, or gate-bearing claim/effect.
+**Working action spine.** One explanation-facing rendering is helping a reader -> separate source-pinned rendering, bounded reconstruction, didactic retelling, and speculative retelling -> use the explanation for understanding, source navigation, bounded restatement, teaching, or exploration according to class -> output one class plus safe next action -> hand off if reliance, evidence, work, gate, engineering justification, comparison, weakened-use, or new-claim pressure appears. Use `E.17:5.1c` for `orientation use`, `reliance use`, `operative claim`, `unsupported downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary live question may be same-entity rewrite, representation change, coarsening, comparison, bridge/substitution, work/reliance, gate, evidence, assurance, retargeting, or carrier/front-end work instead of explanation-facing rendering.
+
+**Ordinary use.** If the explanation only helps reading, source-finding, review, comparison, or planning preparation, one compact review note naming the explanation class, source anchor, and unsupported downstream claim/effect is enough.
+
+**Load-bearing use.** Open the fuller explanation review only when the rendering will guide work/reliance, be externally relied on, be disputed, cross context, affect person/team status, or be cited as evidence, approval, engineering justification, gate, or release support.
+
+**Stop condition.** Stop once the explanation class changes no next reading, review, source-finding, comparison, or planning-preparation move and blocks no concrete overclaim about source support, work/reliance, evidence, approval, gate, or release.
+
+**Supported-use examples.**
+
+| Supported project use | Source-finding or reversible probe | Unsupported use |
+| --- | --- | --- |
+| A `SourcePinnedExplanation` or `SourceLinkedExplanationReconstruction` helps navigation, bounded restatement, or source inspection with pins and trace visible. | A didactic explanation helps onboarding or helps the team find the source, while operative claims still return to the source-pinned face or `A.10` evidence path. | A fluent explanation is used as assurance, evidence, approval, gate passage, release permission, or work-occurrence support. |
+
+
+**Neighboring project records and governing patterns.** `E.17.ID.CR` governs bounded comparative reading; `A.6.3.CR` or `A.6.3.RT` govern same-entity rewrite or representation change; `A.6.3.CSC` governs a rendering that stays honest only through narrower allowed claim/effect, forbidden downstream claim/effect, and reopen to the fuller source `U.Episteme` / `U.EpistemePublication`; `A.6.4` or `OntologicalReframing` govern changed described entity; and `A.15`, `A.20`, or `A.21` govern the project records needed when explanation starts carrying downstream work/reliance, assurance, or gate-bearing claim/effect.
 
 **Common wrong escalations / exits.** Do not use this profile to hide new claims, bridge-comparison load, action-selection pressure, or gate-bearing guidance inside helpful prose. If the rendering is really a bounded comparison, move to `E.17.ID.CR`; if it is only same-entity rewriting or representation shift, move to `A.6.3.*`; if it is a deliberately weakened rendering whose narrower allowed claim/effect, forbidden downstream claim/effect, and fuller-source reopen now govern the case, move to `A.6.3.CSC`; if it is already making world, work/reliance, assurance, or gate-bearing claims, leave `E.17.EFP` for the more exact downstream pattern/source.
 
-**Generated-explanation repaired path.** When a generated explanation is used to help reliance, this profile only classifies the explanation relation and source-finding posture. The explanation becomes usable for an operative claim only when `A.10` maps that claim to the exact source passage, carrier path, `governingPatternRef`, or `authoritySourceRef` that supports it in the relying context; otherwise it remains reader help, not approval, authorization, evidence, assurance, gate passage, or work-occurrence support.
+**Generated-explanation repaired path.** When a generated explanation is used to help reliance, this profile only states the explanation relation, source-finding posture, and `E.17:5.1b` source-support posture needed for the current use. The explanation becomes usable for an operative claim only when an `A.10`-governed evidence path maps that claim to the exact source passage, carrier path, or project source record that supports it in the relying context. If that path or source record is missing, create only a prospective repair/request/source-gap record or future evidence-work plan; it does not become retroactive support for the earlier explanation-based claim. Do not open an `A.10` path for ordinary reader help; otherwise the generated explanation remains reader help, not approval, authorization, evidence, assurance, gate passage, or work-occurrence support.
+
+**Derivative rendering/adaptation source-link rule.** A fork, adaptation, abridged guide, translated rendering, generated explanation, tutorial, access-format conversion, or other derivative rendering of a source `U.Episteme` / `U.EpistemePublication` may improve access or teaching, but it is not equivalent to the source by usefulness, fluency, or local adoption. It may expose or cite a typed project source record, but the support belongs to that exposed source record and source relation, not to the explanation rendering as a face. If the derivative rendering will guide work/reliance, `A.10` must map every operative claim being relied on to the exact source passage, carrier path, or project source record that supports it; if the map or record is absent, only a prospective repair/request/source-gap record or future evidence-work plan may be created. If simplification or format change narrows allowed use, forbids downstream use, or requires return to the fuller source, use `A.6.3.CSC` rather than treating the derivative as ordinary explanation.
 
 
 **Placement.** Profile governed by `E.17.0 / E.17` review.
@@ -53122,7 +53679,7 @@ The same underlying claim set often needs explanation-facing renderings on more 
 - a didactic retelling for onboarding or review preparation;
 - a clearly marked speculative retelling that helps discussion but does not pretend to be canonical content.
 
-FPF already has `E.17.0` for viewpoints, views, and correspondences, and `E.17` for typed publication faces. A compact review profile is still needed to say what kind of explanation-facing rendering is being published, how strongly it stays tied to the source episteme/publication lane, and where it is admissible.
+FPF already has `E.17.0` for viewpoints, views, and correspondences, and `E.17` for typed publication faces. A compact review profile is still needed to say what kind of explanation-facing rendering is being published, how its source tether to the source `U.Episteme` / `U.EpistemePublication` is stated, and where it is admissible.
 
 ### E.17.EFP:2 - Problem
 
@@ -53147,26 +53704,27 @@ Without a dedicated profile:
 
 > `ExplanationFaithfulnessProfile` is a review profile governed by `E.17.0 / E.17` for explanation-facing renderings over already available claims, traces, and pins on existing MVPK faces.
 >
-> It does not create a new face family. It classifies how an explanation relates to its source episteme/publication lane, what kind of augmentation is allowed, how strongly evidence remains bound, and on which existing faces the rendering may admissibly appear.
+> It does not create a new face family. It states how an explanation relates to its source `U.Episteme` / `U.EpistemePublication`, what kind of augmentation is allowed, which evidence binding remains source-bounded, and on which existing faces the rendering may admissibly appear.
 
 #### E.17.EFP:4.1.a - Profile, case, and published rendering distinction
 
 `ExplanationFaithfulnessProfile` is an **intensional review profile** governed by `E.17.0 / E.17`. Concrete explanation-facing renderings are passive published renderings or reviewed cases classified under this profile; the profile itself does not act, decide, or publish.
 
-This distinction matters because the profile governs **how** a rendering is classified and reviewed. It does not turn every explanatory paragraph into a giant standalone record, and it does not replace MVPK face governance with a second semantic track.
+This distinction matters because the profile governs **how** a rendering is related to its source and reviewed. It does not turn every explanatory paragraph into a giant standalone record, and it does not replace MVPK face governance with a second semantic track.
 
 #### E.17.EFP:4.1.b - How to read this profile
 
 This profile does not decide whether a claim is true. It says how an explanation rendering relates to already available source `U.Episteme` / `U.EpistemePublication`, source pins, traces, and provenance anchors, and where that rendering may admissibly appear.
-- Class names are publication-behaviour labels, not merit labels.
+- `Faithfulness` names the review question for the rendering, not a pass verdict for every class.
+- Class names are source-relation and admissible-use labels, not merit labels or proof that all classes are faithful in the same sense.
 - Faces stay governed by `E.17`; the profile only constrains what sort of explanation is admissible on them.
 - If a rendering begins to add new semantic commitments, it has left this profile even if the prose still looks explanatory.
-- It helps reviewers classify one published rendering relative to the already pinned source episteme/publication lane.
+- It helps reviewers state one published rendering's relation to the already pinned source `U.Episteme` / `U.EpistemePublication`.
 
 #### E.17.EFP:4.1.c - Local working vocabulary
 
 This profile uses a small local vocabulary for review.
-- **Source episteme/publication lane** = the already pinned source `U.Episteme` / `U.EpistemePublication`, source claims, traces, notes, pins, or provenance anchors that the explanation rendering depends on. This is not the MVPK face, not the SCR/RSCR carrier, and not an arbitrary carrier or physical item.
+- **Source `U.Episteme` / `U.EpistemePublication`** = the already pinned source `U.Episteme` / `U.EpistemePublication`, source claims, traces, notes, pins, or provenance anchors that the explanation rendering depends on. This is not the MVPK face, not the SCR/RSCR carrier, and not an arbitrary carrier or physical item.
 - **Rendering** = one published explanation-facing text on one existing face.
 - **Class assignment** = the explanation-class assigned to that rendering on that face.
 - **Bundle-local class difference** = a case where two renderings in one bundle admissibly carry different explanation classes.
@@ -53175,8 +53733,19 @@ These are review aids, not new governance kinds. Faces remain governed by `E.17`
 
 #### E.17.EFP:4.2 - Core profile fields
 
-A rendering reviewed under this profile should make explicit at least:
-- `landingForm = profile governed by E.17/E.17.0 review`;
+Most renderings reviewed under this profile need only the compact review note:
+
+| Core field | Question |
+| --- | --- |
+| `explanationClass` | Which local profile value is assigned to this one rendering? |
+| source anchor | Which already available source `U.Episteme` / `U.EpistemePublication`, pins, trace, or provenance anchor does the rendering depend on? |
+| allowed reader use | What may the reader do with this explanation now: understand, navigate, inspect, teach, or prepare review? |
+| unsupported downstream use | What stronger claim/effect is not supported by the explanation? |
+| reopen or exit condition | What source change, dispute, use escalation, missing support, or neighboring-pattern pressure ends this profile use? |
+
+The fuller field vocabulary below opens only when ambiguity or load-bearing pressure is live: different classes across faces, source linkage dispute, connective reconstruction, reader-fit pressure, interaction/statefulness, derivative rendering, cross-context reuse, cited reliance, work/reliance, evidence, gate, engineering-justification, bridge, or coarsening pressure.
+
+- `profilePlacementRef = E.17/E.17.0-governed profile`;
 - `governingPatternRef = E.17 / E.17.0`;
 - `sourcePublicationOrRecordForm`;
 - `targetPublicationOrRecordForm`;
@@ -53205,11 +53774,12 @@ A rendering reviewed under this profile should make explicit at least:
 - `workCrossing`;
 - `upstreamGoverningPatternRef?` / `upstreamAuthoritySourceRef?` / `downstreamGoverningPatternRef?` / `downstreamAuthoritySourceRef?`;
 - `admissibleFaces`;
-- `admissibleSurfaces`;
+- `SurfaceKind value` when `PublicationSurface` / `InteropSurface` discipline is live;
 - `publicNamePolicy`;
-- `sourceRelation`;
+- `explanationSourcePosture` using the shared `E.17:5.1b` vocabulary when source pointer, source availability/retrieval, source use, source faithfulness, claim support, contradiction, omission, strengthening, added linkage, independent verification, admissible use, forbidden downstream use, or reopen trigger could diverge;
+- no generic source-relation field; source support is recorded through `explanationSourcePosture`;
 - `augmentationRelation`;
-- `addedLinkPolicy` when `SourceLinkedReconstruction` adds bounded connective prose;
+- `addedLinkPolicy` when `SourceLinkedExplanationReconstruction` adds bounded connective prose;
 - `targetUserModel?` when reader-fit materially shapes the rendering;
 - `interactionMode?` when the explanation is more than one static explanatory paragraph;
 - `contrastiveQuestion?` when the rendering is answering a specific user-facing contrast or why-question;
@@ -53220,27 +53790,30 @@ A rendering reviewed under this profile should make explicit at least:
 - `compositionRule`;
 - `reopenCondition`.
 
-Where explanation crosses from source rendering into new claim production, hidden bridge work, gate-bearing semantics, or world-facing intervention claims, the profile no longer suffices and the case must leave this profile.
+These fields inherit the `E.17:5.1e` local-field rule. They classify one explanation-facing rendering for review; they do not create `U.Kind`, `SurfaceKind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, authority source, publication face, or project source record unless another governing FPF pattern explicitly instantiates that object. The `explanationClass` value is a local source-relation/admissible-use profile value, not `ExplanationKind`, not `U.Kind`, not `EvidenceKind`, not `FaceKind`, and not a truth certificate.
+
+Where explanation crosses from source rendering into new claim production, hidden bridge work, gate-bearing semantics, world-facing intervention claims, or a deliberately weaker source relation, the profile no longer suffices and the case must leave this profile.
 
 #### E.17.EFP:4.2.a - Working-model first
 
-Ordinary reviewed renderings do not need to restate every field from scratch. When the governing MVPK face, pinned source episteme/publication lane, and already published provenance anchors already fix a field honestly, the rendering may inherit that condition by explicit reference.
+Ordinary reviewed renderings do not need to restate every field from scratch. When the governing MVPK face, pinned source `U.Episteme` / `U.EpistemePublication`, and already published provenance anchors already fix a field honestly, the rendering may inherit that condition by explicit reference.
 
 A fuller review record becomes necessary when:
 - explanation class differs across faces in the same publication bundle;
 - the rendering relies on bounded connective prose that is not obvious from the source wording alone;
 - didactic or speculative wording creates a real risk of policy, assurance, or gate misuse;
-- source linkage, provenance, or reliability transport would otherwise become unclear.
+- source linkage, provenance, or reliability transport would otherwise become unclear;
+- the rendering is a fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or another derivative publication that may be mistaken for the source itself.
 
 When one rendering needs its own narrower-allowed-claim/effect line, forbidden-downstream-claim/effect line, or fuller-source reopen rule because distinctions were deliberately weakened for reader fit, the issue is no longer only explanation class. Do not keep that case here as if it were merely one more helpful rendering style; move it to `A.6.3.CSC Controlled Semantic Coarsening`.
 
 #### E.17.EFP:4.2.b - What a reviewer checks first
 
 A reviewer usually starts with four questions:
-1. What exactly is the source episteme/publication lane for this rendering?
+1. What exactly is the source `U.Episteme` / `U.EpistemePublication` for this rendering?
 2. Which explanation class is being claimed for this rendering on this face?
 3. Are the pins, provenance anchors, and evidence relation visible enough for that class?
-4. Has the rendering quietly begun to add new semantic commitments, new face-like behaviour, or a deliberately weakened source rendering that needs `A.6.3.CSC`?
+4. Has the rendering quietly begun to add new semantic commitments, new face-like behaviour, derivative-source replacement, or a deliberately weakened source rendering that needs `A.6.3.CSC`?
 
 If these questions are answered clearly, the rendering often remains lightweight. If they are not, a fuller face-by-face review record is usually warranted.
 
@@ -53260,22 +53833,33 @@ These fields do not create a new governance source. Their current role is narrow
 #### E.17.EFP:4.3 - Explanation class set
 
 The explanation-class set used in this profile is:
-- `SourcePinnedRendering`
-- `SourceLinkedReconstruction`
+- `SourcePinnedExplanation`
+- `SourceLinkedExplanationReconstruction`
 - `DidacticRetelling`
 - `SpeculativeRetelling`
 
-In field form, the local assignment is `explanationClass = SourcePinnedRendering | SourceLinkedReconstruction | DidacticRetelling | SpeculativeRetelling`.
+In field form, the local assignment is `explanationClass = SourcePinnedExplanation | SourceLinkedExplanationReconstruction | DidacticRetelling | SpeculativeRetelling`.
+
+Class assignment is a source-relation and admissible-use classification. `SourcePinnedExplanation` is source-bound rendering, `SourceLinkedExplanationReconstruction` is bounded reconstruction with explicit added-link policy, `DidacticRetelling` is teaching/onboarding support, and `SpeculativeRetelling` is exploratory support. The last two classes do not assert the same kind of source faithfulness as `SourcePinnedExplanation`; they state the limits under which reader help remains admissible.
+
+Safe next action by class:
+
+| Class | Safe next action |
+| --- | --- |
+| `SourcePinnedExplanation` | source inspection, bounded restatement, and source navigation. |
+| `SourceLinkedExplanationReconstruction` | bounded explanation with explicit `addedLinkPolicy`. |
+| `DidacticRetelling` | onboarding or teaching only; return to source for reliance. |
+| `SpeculativeRetelling` | exploratory discussion only; no evidence, work, gate, assurance, or release reliance. |
 
 These classes are publication-behaviour labels for one rendering on one existing face. They are not `U.Kind` values, not MVPK faces, and not semantic merit grades. They state how the explanation relates to the source, how much augmentation is tolerated, what reliability transport is still honest, and which faces remain admissible.
 
-Class assignment is per published rendering on a face, not one blanket label for a whole multi-face bundle. If a Plain rendering stays source-pinned while a Tech rendering adds bounded connective prose, the bundle must state that class difference explicitly.
+Class assignment is per published rendering on a face, not one blanket label for a whole multi-face bundle. If a `PlainView` rendering stays source-pinned while a `TechCard` rendering adds bounded connective prose, the bundle must state that class difference explicitly.
 
 #### E.17.EFP:4.3.a - Ordinary class-selection guidance
 
 A practical reading order is:
-- start with `SourcePinnedRendering` if the rendering stays close to the source wording and keeps direct pins visible;
-- move to `SourceLinkedReconstruction` when bounded connective prose is added but source linkage remains explicit;
+- start with `SourcePinnedExplanation` if the rendering stays close to the source wording and keeps direct pins visible;
+- move to `SourceLinkedExplanationReconstruction` when bounded connective prose is added but source linkage remains explicit;
 - move to `DidacticRetelling` when reader-help dominates and some phrasing is intentionally more pedagogical than canonical;
 - move to `SpeculativeRetelling` only when the rendering openly goes beyond source-backed explanation and remains confined to exploratory or didactic use.
 
@@ -53283,9 +53867,9 @@ The profile should not be used to make a rendering sound more respectable than i
 
 It should also not be used to keep one deliberately weaker, narrower-use rendering inside explanation just because the prose is reader-friendly. If the rendering needs its own forbidden-use line and reopen rule to stay honest, explanation is no longer the primary question; use `A.6.3.CSC Controlled Semantic Coarsening`.
 
-#### E.17.EFP:4.3.b - `SourceLinkedReconstruction` added-link policy
+#### E.17.EFP:4.3.b - `SourceLinkedExplanationReconstruction` added-link policy
 
-When a rendering claims `SourceLinkedReconstruction`, it should publish a compact `addedLinkPolicy` whenever the connective move is not already explicit in the source wording.
+When a rendering claims `SourceLinkedExplanationReconstruction`, it should publish a compact `addedLinkPolicy` whenever the connective move is not already explicit in the source wording.
 
 Minimum reading load:
 - `addedLinkKind` — what bounded connective move is being added;
@@ -53295,32 +53879,32 @@ Minimum reading load:
 - `reopenTrigger` — what would force downgrade, handoff, or fuller review.
 
 Working rule:
-- if `addedLinkPolicy` cannot be stated plainly, the rendering should drop to a weaker class, move to a more restricted MVPK face or named `PublicationSurface`/`InteropSurface` class, or leave `E.17.EFP`;
-- `SourceLinkedReconstruction` may not hide new relation theory, bridge equivalence, design-scope generalization, or policy-bearing guidance inside "bounded" connective prose.
+- if `addedLinkPolicy` cannot be stated plainly, the rendering should drop to a weaker class, move to a more restricted MVPK face or named `SurfaceKind` value, or leave `E.17.EFP`;
+- `SourceLinkedExplanationReconstruction` may not hide new relation theory, bridge equivalence, design-scope generalization, or policy-bearing guidance inside "bounded" connective prose.
 
 #### E.17.EFP:4.4 - Working admissibility matrix
 
 | Class | Source relation | Augmentation relation | Evidence relation | Usually admissible faces | Usually admissible `PublicationSurface` / `InteropSurface` use | Usually forbidden uses |
 |---|---|---|---|---|---|---|
-| `SourcePinnedRendering` | rendering | omission-only | trace-bound | Plain, Tech | `PublicationSurface`; `InteropSurface` only when the governing face source explicitly permits source-pinned, structure-preserving export without added semantics | Assurance or gate-bearing claim/effect if required pins/evidence are absent |
-| `SourceLinkedReconstruction` | reconstruction | bounded link-addition | trace-supported | Plain, Tech | `PublicationSurface` on bounded explanatory use | Interop or Assurance unless governing face policy explicitly allows it with source linkage kept visible |
-| `DidacticRetelling` | reconstruction | omission + didactic addition | trace-supported or partly trace-free | Plain | `PublicationSurface` on didactic or onboarding use only | Tech, Interop, Assurance, or policy-bearing use when it could be mistaken for canonical semantics |
-| `SpeculativeRetelling` | speculation | link-addition or counterfactual augmentation | trace-free or weakly trace-supported | Plain | `PublicationSurface` on clearly marked exploratory or didactic use only | Tech, Interop, Assurance, gate-adjacent, or policy-bearing use |
+| `SourcePinnedExplanation` | rendering | omission-only | trace-bound | `PlainView`, `TechCard` | `PublicationSurface`; `InteropSurface` only when the governing face source explicitly permits source-pinned, structure-preserving export without added semantics | `AssuranceLane` or gate-bearing claim/effect if required pins/evidence are absent |
+| `SourceLinkedExplanationReconstruction` | reconstruction | bounded link-addition | trace-supported | `PlainView`, `TechCard` | `PublicationSurface` on bounded explanatory use | `InteropCard` or `AssuranceLane` unless governing face policy explicitly allows it with source linkage kept visible |
+| `DidacticRetelling` | reconstruction | omission + didactic addition | trace-supported for domain facts; trace-free only for analogy, scaffolding, or reader orientation | `PlainView` | `PublicationSurface` on didactic or onboarding use only | `TechCard`, `InteropCard`, `AssuranceLane`, or policy-bearing use when it could be mistaken for canonical semantics |
+| `SpeculativeRetelling` | speculation | link-addition or counterfactual augmentation | trace-free or weakly trace-supported | `PlainView` | `PublicationSurface` on clearly marked exploratory or didactic use only | `TechCard`, `InteropCard`, `AssuranceLane`, gate-adjacent, or policy-bearing use |
 
 `ExplanationFaithfulnessProfile` ordinarily stays on `PublicationSurface`. Any appearance on `InteropSurface` must remain source-pinned and structure-preserving, and must never smuggle explanation-specific semantics into interop publication. Didactic or speculative restrictions are use-profile restrictions over existing faces, not new face kinds.
 
-Source-pinned explanation on Assurance-facing publication is exceptional rather than ordinary. Unless the governing face source explicitly permits that use with visible evidence carriers, source pins, and no added semantics, reviewers should treat Assurance-facing explanation rendering as non-admissible.
+Source-pinned explanation on `AssuranceLane`-facing publication is exceptional rather than ordinary. Unless the governing face source explicitly permits that use with visible evidence carriers, source pins, and no added semantics, reviewers should treat `AssuranceLane`-facing explanation rendering as non-admissible.
 
-`DidacticRetelling` and trace-free reader help are illustrative or analogical scaffolding only. They may not carry domain facts, causal claims, policy claims, reliability claims, or canonical Tech-face semantics. If didactic content appears near technical content, mark it as a boxed or otherwise clearly separated non-canonical reader aid rather than letting it merge into the technical source.
+`DidacticRetelling` and trace-free reader help are illustrative or analogical scaffolding only. Trace-free didactic material may carry analogy, scaffolding, or reader orientation, but any domain fact inside didactic prose must either be source-pinned or explicitly downgraded to non-canonical reader aid. It may not carry causal claims, policy claims, reliability claims, or canonical `TechCard` semantics. If didactic content appears near technical content, mark it as a boxed or otherwise clearly separated non-canonical reader aid rather than letting it merge into the technical source.
 
-Every concrete explanation rendering must also publish the source claim IDs, pins, trace refs, or equivalent provenance anchors that justify its class on that face. If those anchors cannot be made visible on the chosen MVPK face or named `PublicationSurface`/`InteropSurface` class, the rendering must drop to a weaker class, move to a more restricted use profile, or leave the face.
+Every concrete explanation rendering must also publish the source claim IDs, pins, trace refs, or equivalent provenance anchors that justify its class on that face. If those anchors cannot be made visible on the chosen MVPK face or named `SurfaceKind` value, the rendering must drop to a weaker class, move to a more restricted use profile, or leave the face.
 
 When reader-help, onboarding, or contrastive explanation is part of the case, the rendering should also publish or inherit its `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` so that user-fit does not quietly become policy guidance, assurance guidance, or gate-bearing guidance.
 
 #### E.17.EFP:4.5 - Shared explanation rule packet
 
 ##### E.17.EFP:4.5.a. Preservation rule
-Explanation-facing renderings under this profile preserve the same underlying described-entity line, bounded context, and source-pinned `U.Episteme` / `U.EpistemePublication`. Viewpoint, reference scheme, representation scheme, grounding, and reference-plane handling must stay explicit rather than being left to prose. `SourcePinnedRendering` and `SourceLinkedReconstruction` are expected to remain claim-conservative; `DidacticRetelling` may be claim-attenuating but must stay source-linked; `SpeculativeRetelling` may widen explanatory language only when kept clearly off canonical faces and off gate-bearing claim/effect.
+Explanation-facing renderings under this profile preserve the same underlying described-entity line, bounded context, and source-pinned `U.Episteme` / `U.EpistemePublication`. Viewpoint, reference scheme, representation scheme, grounding, and reference-plane handling must stay explicit rather than being left to prose. `SourcePinnedExplanation` and `SourceLinkedExplanationReconstruction` are expected to remain claim-conservative; `DidacticRetelling` may be claim-attenuating but must stay source-linked; `SpeculativeRetelling` may widen explanatory language only when kept clearly off canonical faces and off gate-bearing claim/effect.
 
 ##### E.17.EFP:4.5.b. Loss and reliability rule
 A rendering assigned to one of these explanation classes declares what is omitted, reordered, simplified, or newly connected. Reliability transport may stay source-bounded or be explicitly downgraded, but it must never be silently strengthened by more persuasive prose. Didactic and speculative renderings also state forbidden downstream uses whenever omissions, weakening, or trace-free additions occur.
@@ -53328,21 +53912,21 @@ A rendering assigned to one of these explanation classes declares what is omitte
 When reader-fit is part of the explanation case, `allowedUse` and `misuseRisk` should be explicit enough that a didactic or contrastive rendering cannot be mistaken for assurance, policy, or gate-bearing guidance.
 
 ##### E.17.EFP:4.5.c. Downstream-use and handoff rule
-This profile stays explanation-facing and episteme-facing. It does not govern bridge stance, retargeting, action selection, executable docking, gate-bearing claim/effect, or work enactment. If a case starts carrying one bounded comparative review case, rival interpretations, bridge-mediated comparison load, or world/gate consequences, it must hand off to the appropriate downstream `governingPatternRef` (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.20`, `A.21`).
+This profile stays explanation-facing and episteme-facing. It does not govern bridge stance, retargeting, action selection, executable docking, gate-bearing claim/effect, or work enactment. If a case starts carrying one bounded comparative review case, rival interpretations, bridge-mediated comparison load, or world/gate consequences, it must move to the neighboring pattern or project source record that actually governs that claim/effect (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.20`, `A.21`).
 
 Interpretant-side fields do not weaken that handoff rule. They only bound reader use; they do not authorize unsupported downstream guidance.
 
-If a weakened explanation-like rendering needs narrower allowed claim/effect, forbidden downstream claim/effect, and fuller-source reopen to remain honest, the case hands off to `A.6.3.CSC Controlled Semantic Coarsening` rather than staying in ordinary explanation classification.
+If a weakened explanation-like rendering needs narrower allowed claim/effect, forbidden downstream claim/effect, and fuller-source reopen to remain honest, the case hands off to `A.6.3.CSC Controlled Semantic Coarsening` rather than staying in ordinary explanation-use discipline.
 
 ##### E.17.EFP:4.5.d. Composition and reopen rule
-Repeated `SourcePinnedRendering` over the same pinned source may be idempotent. `SourceLinkedReconstruction` and `DidacticRetelling` are order-sensitive and must reopen when the source claim set, pins, provenance, or admissible-face assumptions change. `SpeculativeRetelling` must reopen whenever source binding becomes available or whenever the rendering starts to look like a canonical explanation rather than a clearly bounded exploratory retelling.
+Repeated `SourcePinnedExplanation` over the same pinned source may be idempotent. `SourceLinkedExplanationReconstruction` and `DidacticRetelling` are order-sensitive and must reopen when the source claim set, pins, provenance, or admissible-face assumptions change. `SpeculativeRetelling` must reopen whenever source binding becomes available or whenever the rendering starts to look like a canonical explanation rather than a clearly bounded exploratory retelling.
 
 #### E.17.EFP:4.6 - Hard boundary rules
 
 A rendering reviewed under this profile keeps the following explicit:
 - it does **not** create a second face family;
 - it does **not** turn faces into a second semantic rule track;
-- it does **not** license new `L/A/D/E` claims on explanation faces (`L/A/D/E` here means A.6.B-routed law, admissibility, deontic/commitment, and effect/evidence claims);
+- it does **not** license new `L/A/D/E` claims on explanation faces (`L/A/D/E` here means A.6.B-governed law, admissibility, deontic/commitment, and effect/evidence claims);
 - it does **not** replace bridge discipline, retargeting discipline, or world/gate handoff discipline;
 - it does **not** let `PublicationSurface` and `InteropSurface` collapse into one undifferentiated explanation channel.
 
@@ -53353,18 +53937,18 @@ If explanation text starts carrying new semantic commitments instead of renderin
 #### E.17.EFP:5.1 - Source-pinned explanation across multiple faces
 **Source claim slice.** `Claim D-14: Cooling loop CL-2 maintains the required temperature margin during standard load. Evidence pins: T-44, E-17.`
 
-**Plain rendering.** `Cooling loop CL-2 keeps the required temperature margin in standard operation. Source pins: T-44, E-17.`
+**`PlainView` rendering.** `Cooling loop CL-2 keeps the required temperature margin in standard operation. Source pins: T-44, E-17.`
 
-**Tech rendering.** `D-14 remains source-pinned to T-44 and E-17; this rendering only shortens and reorders the claim.`
+**`TechCard` rendering.** `D-14 remains source-pinned to T-44 and E-17; this rendering only shortens and reorders the claim.`
 
-This stays within `SourcePinnedRendering` because the rendering changes readability, not the semantic load.
+This stays within `SourcePinnedExplanation` because the rendering changes readability, not the semantic load.
 
 #### E.17.EFP:5.2 - Source-linked reconstruction
 **Source slice.** `Claims D-14 and D-18 jointly constrain the safe operating window, but the relation is left implicit in the original note.`
 
 **Published reconstruction.** `Claims D-14 and D-18 jointly bound the safe operating window; see the pinned source notes for the original wording and evidence anchors.`
 
-This stays within `SourceLinkedReconstruction` if the connective prose remains bounded and does not add new claims.
+This stays within `SourceLinkedExplanationReconstruction` if the connective prose remains bounded and does not add new claims.
 
 A minimal `addedLinkPolicy` for this slice would say:
 - `addedLinkKind = relation-explication only`;
@@ -53372,21 +53956,29 @@ A minimal `addedLinkPolicy` for this slice would say:
 - `boundednessReason = makes an already implied joint constraint explicit without adding a new mechanism, policy conclusion, or unsupported modality lift`;
 - `forbiddenLinkClass = design-scope robustness or gate-sufficiency claim`.
 
+#### E.17.EFP:5.2.b - Selected-method explanation
+
+**Source slice.** `The method-selection note chooses method M-2 because the material stays below threshold T and resource window W is available. The same source says that work plan WP-17 and result measurement RM-4 are still required before and after execution.`
+
+**Published explanation.** `Method M-2 is selected here because the material condition and resource window match the declared method family. Use WP-17 for planning and RM-4 for result measurement.`
+
+This may stay within `SourceLinkedExplanationReconstruction` when the explanation keeps its source anchors visible and only makes the already source-supported selection relation easier to inspect. It supports interpretation, source-finding, and selected-method inspection. It is not evidence that work occurred, not a gate decision, and not engineering justification. Evidence/provenance use requires a project evidence path governed by `A.10`; engineering-justification use requires an engineering-justification record governed by `B.3`; work-plan or work-occurrence use requires the project method/plan/work material governed by `A.15`; gate use requires the project gate/constraint decision governed by `A.20` / `A.21`.
+
 #### E.17.EFP:5.2.a - Mixed-face bundle with different explanation classes
 **Source slice.** `Claim D-31 and trace set T-8 jointly show that the reserve path remains available during the short overload interval.`
 
-**Plain rendering.** `The reserve path stays available during the short overload interval. Source pins: D-31, T-8.`
+**`PlainView` rendering.** `The reserve path stays available during the short overload interval. Source pins: D-31, T-8.`
 
-**Tech rendering.** `D-31 and T-8 jointly support availability of the reserve path during the short overload interval; this rendering adds bounded connective prose to make the support relation explicit.`
+**`TechCard` rendering.** `D-31 and T-8 jointly support availability of the reserve path during the short overload interval; this rendering adds bounded connective prose to make the support relation explicit.`
 
-The Plain rendering may stay `SourcePinnedRendering` while the Tech rendering is `SourceLinkedReconstruction`. The bundle is admissible only if that class difference is stated rather than hidden under one blanket label.
+The `PlainView` rendering may stay `SourcePinnedExplanation` while the `TechCard` rendering is `SourceLinkedExplanationReconstruction`. The bundle is admissible only if that class difference is stated rather than hidden under one blanket label.
 
 #### E.17.EFP:5.3 - Didactic retelling
 **Source slice.** `The pressure-control condition is satisfied whenever the reserve valve opens within 80 ms.`
 
 **Didactic rendering.** `For onboarding: the system stays safe here because the reserve valve opens quickly enough; the exact threshold and source claim remain in the pinned technical note.`
 
-This stays in `DidacticRetelling` only if it is kept off Tech/Assurance faces where it could be mistaken for canonical semantics.
+This stays in `DidacticRetelling` only if it is kept off `TechCard` / `AssuranceLane` faces where it could be mistaken for canonical semantics.
 
 #### E.17.EFP:5.4 - Speculative retelling
 **Source slice.** `The pinned source notes record the observed recovery, but they do not explain why the recovery was so rapid.`
@@ -53400,26 +53992,26 @@ This is admissible only as a clearly marked exploratory or didactic use on an ex
 
 **Overreaching rendering.** `The reserve-path design is therefore robust against short overloads.`
 
-This no longer stays inside explanation classification. The rendering introduces a design-scope commitment that the pinned source does not state, so the case must reopen and move toward the appropriate `governingPatternRef` or `authoritySourceRef` instead of hiding inside a face-local explanation label.
+This no longer stays inside explanation-use discipline. The rendering introduces a design-scope commitment that the pinned source does not state, so the case must reopen the appropriate source record or move to the neighboring pattern that governs that commitment instead of hiding inside a face-local explanation label.
 
 #### E.17.EFP:5.4.b - Anti-example: reader help that quietly becomes policy-bearing use
 **Source slice.** `The onboarding note explains, in simplified prose, that the reserve valve usually opens quickly enough to keep the local pressure condition inside the tolerated window.`
 
-**Overreaching rendering on an Assurance-facing use.** `Operators may rely on this explanation as sufficient assurance that short overloads stay inside the tolerated window.`
+**Overreaching rendering on an `AssuranceLane`-facing use.** `Operators may rely on this explanation as sufficient assurance that short overloads stay inside the tolerated window.`
 
-This also exits the profile. The rendering is no longer only reader help over existing claims; it starts acting like policy-bearing or assurance-bearing guidance. The case must reopen, drop the explanation class, or move toward the appropriate downstream `governingPatternRef` or `authoritySourceRef` rather than staying on an explanation face.
+This also exits the profile. The rendering is no longer only reader help over existing claims; it starts acting like policy-bearing or assurance-bearing guidance. The case must reopen, drop the explanation class, or move to the project source record or neighboring pattern that governs that guidance rather than staying on an explanation face.
 
 #### E.17.EFP:5.4.c - Boundary to lighter explanatory note with fuller-source return
 **Source slice.** `The technical incident note says the reserve path remained available during the measured load band, but it also keeps one unresolved ambiguity about recovery latency.`
 
 **Lighter explanatory rendering.** `In plain terms: the reserve path stayed available during overload recovery.`
 
-This does **not** remain ordinary explanation profiling. The lighter note suppresses the load-band condition and the unresolved ambiguity, so it can stay honest only through narrower allowed claim/effect, forbidden downstream claim/effect, and return to the fuller source episteme/publication lane. Once those narrowed-claim conditions become primary, the case must leave ordinary explanation classification and be governed as a coarsened rendering rather than as ordinary reader help.
+This does **not** remain ordinary explanation profiling. The lighter note suppresses the load-band condition and the unresolved ambiguity, so it can stay honest only through narrower allowed claim/effect, forbidden downstream claim/effect, and return to the fuller source `U.Episteme` / `U.EpistemePublication`. Once those narrowed-claim conditions become primary, the case must leave ordinary explanation-use discipline and be governed as a coarsened rendering rather than as ordinary reader help.
 
 #### E.17.EFP:5.5 - Class-specific reopen cues in the worked slices
-- **`SourcePinnedRendering`** reopens when the pinned source claim set, source pins, or admissible-face assumptions change so that the rendering can no longer remain omission-only and visibly source-bound.
-- **`SourceLinkedReconstruction`** reopens when the connective prose begins carrying an unsupported relation, or when the source claim set changes enough that the bounded reconstruction is no longer plainly source-linked.
-- **`DidacticRetelling`** reopens when the rendering moves onto Tech or Assurance-facing use, or when reader-help prose starts functioning as policy-bearing, design-bearing, or gate-bearing guidance.
+- **`SourcePinnedExplanation`** reopens when the pinned source claim set, source pins, or admissible-face assumptions change so that the rendering can no longer remain omission-only and visibly source-bound.
+- **`SourceLinkedExplanationReconstruction`** reopens when the connective prose begins carrying an unsupported relation, or when the source claim set changes enough that the bounded reconstruction is no longer plainly source-linked.
+- **`DidacticRetelling`** reopens when the rendering moves onto `TechCard` or `AssuranceLane`-facing use, or when reader-help prose starts functioning as policy-bearing, design-bearing, or gate-bearing guidance.
 - **`SpeculativeRetelling`** reopens when source binding becomes available, or when the rendering starts to behave like canonical explanation rather than clearly bounded exploratory help.
 
 #### E.17.EFP:5.6 - Boundary to interpretation and world handoff
@@ -53432,30 +54024,42 @@ This profile intentionally biases toward explanation restraint on existing faces
 
 ### E.17.EFP:7 - Conformance Checklist
 
+A conformance check is retained only if it changes the next admissible use of the explanation rendering, blocks a concrete overclaim, or preserves a source/reopen path needed for the declared safe next action.
+
+Use core ordinary checks first. Conditional rows open only when reader-fit, bundle-local class difference, weakened class, connective reconstruction, derivative rendering, or downstream reliance pressure is live.
+
+#### E.17.EFP:7.1 - EFP-Core ordinary checks
+
 1. **CC-EF-1 — Explanation class is explicit.**
    The explanation class is explicitly named.
-2. **CC-EF-2 — Admissible MVPK faces and named `PublicationSurface`/`InteropSurface` classes are explicit.**
-   The rendering states admissible MVPK faces and named `PublicationSurface`/`InteropSurface` classes explicitly.
-3. **CC-EF-3 — Pinning, provenance, and reliability transport are explicit.**
-   Pinning, provenance, and reliability transport are stated explicitly.
-4. **CC-EF-4 — Interpretant-side block is explicit when reader-fit does real work.**
-   When onboarding, contrastive explanation, or other reader-fit shaping matters, `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` are visible enough to review.
-5. **CC-EF-5 — No new `L/A/D/E` claims on explanation faces.**
-   The no-new-boundary-claims rule is explicit on explanation faces; `L/A/D/E` refers to A.6.B-routed law, admissibility, deontic/commitment, and effect/evidence claims.
-6. **CC-EF-6 — Boundary to interpretation, retargeting, coarsening, and world/gate handoff is explicit.**
-   The handoff boundary is explicit, including `A.6.3.CSC Controlled Semantic Coarsening` when a narrower allowed claim/effect, forbidden downstream claim/effect, or fuller-source reopen condition becomes primary.
-7. **CC-EF-7 — No second face family.**
+2. **CC-EF-3 — Source anchor and unsupported downstream use are explicit.**
+   The compact note states source anchor, allowed reader use, unsupported downstream use, and reopen or exit condition.
+4. **CC-EF-5 — No new `L/A/D/E` claims on explanation faces.**
+   The no-new-boundary-claims rule is explicit on explanation faces; `L/A/D/E` refers to A.6.B-governed law, admissibility, deontic/commitment, and effect/evidence claims.
+5. **CC-EF-7 — No second face family.**
    A reviewer can tell why the case remains explanation-facing rather than becoming a second semantic rule track.
-8. **CC-EF-8 — Bundle-local class differences are explicit.**
+
+#### E.17.EFP:7.2 - EFP-Conditional checks
+
+1. **CC-EF-4 — Interpretant-side block is explicit when reader-fit does real work.**
+   When onboarding, contrastive explanation, or other reader-fit shaping matters, `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` are visible enough to review.
+2. **CC-EF-2 — Face and `SurfaceKind` boundary is explicit when live.**
+   When face placement, `PublicationSurface`, `InteropSurface`, pinning, provenance, or reliability transport is not already inherited by visible source reference, the rendering states the admissible MVPK face, `SurfaceKind` value, and required pin/provenance boundary explicitly.
+3. **CC-EF-6 — Boundary to interpretation, retargeting, coarsening, and world/gate handoff is explicit.**
+   The handoff boundary is explicit, including `A.6.3.CSC Controlled Semantic Coarsening` when a narrower allowed claim/effect, forbidden downstream claim/effect, or fuller-source reopen condition becomes primary.
+4. **CC-EF-8 — Bundle-local class differences are explicit.**
    When one publication bundle carries different explanation classes across faces, that difference is stated explicitly rather than hidden under one bundle-wide label.
-9. **CC-EF-9 — Weakened classes publish forbidden downstream uses.**
+5. **CC-EF-9 — Weakened classes publish forbidden downstream uses.**
    Didactic or speculative renderings, and any rendering with downgraded reliability transport, state their forbidden downstream uses explicitly.
-10. **CC-EF-10 — Reopen triggers match the class.**
+6. **CC-EF-10 — Reopen triggers match the class.**
    The published review note makes class-relevant reopen triggers visible when source claim set, pins, provenance, or admissible-face assumptions change.
-11. **CC-EF-11 — `SourceLinkedReconstruction` publishes `addedLinkPolicy` when needed.**
+7. **CC-EF-11 — `SourceLinkedExplanationReconstruction` publishes `addedLinkPolicy` when needed.**
    When bounded connective prose is doing real review work, the rendering states what link is added, why it remains bounded, and which unsupported link class is explicitly forbidden.
+8. **CC-EF-12 — Derivative renderings keep source links operative.**
+   A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work/reliance maps each operative claim to the exact source passage, carrier path, or project source record that supports it, or else downgrades to reader help / `A.6.3.CSC` as appropriate.
 
 ### E.17.EFP:8 - Common Anti-Patterns and How to Avoid Them
+
 
 | Anti-pattern | Why it is wrong | How to avoid it |
 |---|---|---|
@@ -53465,6 +54069,7 @@ This profile intentionally biases toward explanation restraint on existing faces
 | Calling connective reconstruction "bounded" without naming the added link | source-linked explanation quietly imports unsupported relation theory or bridge-comparison load | require `addedLinkPolicy` with source anchors, boundedness reason, and forbidden link class |
 | Letting speculative prose enter technical or assurance use | speculative retelling starts to look canonical | restrict speculative retelling to clearly marked exploratory or didactic use on existing faces |
 | Collapsing MVPK face and `PublicationSurface`/`InteropSurface` discipline | explanation appears to create a new publication family | stay on existing MVPK faces and keep named `PublicationSurface`/`InteropSurface` and carrier policy explicit |
+| Derivative rendering as source replacement | a fork, adaptation, generated explanation, tutorial, or access-format conversion is treated as the original source because it is easier to read or access | keep it as a derivative rendering, publish source links for operative claims, and use `A.10` or `A.6.3.CSC` when reliance or narrowed-use discipline is live |
 
 ### E.17.EFP:9 - Consequences
 
@@ -53477,20 +54082,21 @@ This profile intentionally biases toward explanation restraint on existing faces
 
 Explanation help already appears on existing faces, and the nearest failure mode is to let helpful prose shift into hidden source claims, bridge-comparison load, or gate-bearing guidance. `E.17.EFP` gives the reader one practical benefit: they can tell whether a rendering is source-pinned, reconstructive, didactic, or speculative, and therefore whether it may stay as explanation help, must downgrade use, or must move because the rendering has stopped being only explanation-facing support.
 
-### E.17.EFP:11 - SoTA-Echoing
+### E.17.EFP:11 - SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts
 
-**SoTA note.** This section does not mint an independent second rule track. It is a load-bearing alignment section: the Solution, Conformance Checklist, boundary rules, and Relations of this pattern must match the stance stated here or explicitly justify any divergence.
+**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 
 **Traditions covered.** This profile binds itself to architecture-description governance, explainability and reliability guidance, and faithfulness evaluation for natural-language explanations.
 
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `E.17.EFP` | Adoption status |
+| Claim need | Source idea / current source | Current source locus | Local FPF invariant / practical local test | Adopted/adapted invariant / rejected shortcut |
 |---|---|---|---|---|
-| Explanation renderings must remain subordinate to governed views, source `U.Episteme` / `U.EpistemePublication`, source pins, and provenance anchors rather than quietly becoming a second semantic track. | Architecture-description practice keeps views, viewpoints, correspondences, and architecture descriptions explicit instead of letting reader-help prose replace governed source. | ISO/IEC/IEEE 42010:2022 | `E.17.EFP` adopts this by keeping explanation on existing MVPK faces, tying class assignment to the source episteme/publication lane, and rejecting a second face family or second semantic rule track. | **Adopt.** |
-| Explanation quality is use- and audience-sensitive and must make knowledge limits visible rather than collapse all explanations into one generic mode. | Explainable-AI guidance distinguishes explanation obligations by user, purpose, and stated limits instead of one universal explanation class. | Phillips et al. (2021), *Four Principles of Explainable Artificial Intelligence* | `E.17.EFP` adapts this into explicit explanation classes, admissible faces, and forbidden downstream uses, while keeping the `E.17` face system unchanged. | **Adopt/Adapt.** |
-| Faithfulness is not the same as plausibility; explanation evaluation must stay tethered to the underlying source or decision basis. | Faithfulness work in interpretable NLP treats explanation as source-sensitive and warns against equating persuasive prose with faithful interpretation. | Jacovi & Goldberg (2020), *Towards Faithfully Interpretable NLP Systems* | `E.17.EFP` adopts this by requiring source relation, evidence relation, pins, provenance, and class-per-rendering review rather than fluency alone. | **Adopt.** |
-| Natural-language explanation needs explicit checking for faithfulness or self-consistency rather than trust in stylistic coherence. | Recent evaluation work treats natural-language explanation as a review problem with explicit faithfulness or self-consistency checks, not just readability. | Parcalabescu & Frank (2024), *On Measuring Faithfulness or Self-consistency of Natural Language Explanations* | `E.17.EFP` adapts this into admissibility review, class downgrade, and reopen duties when source anchoring, evidence relation, or face assumptions weaken. | **Adapt.** |
+| Explanation renderings must remain subordinate to governed views, source `U.Episteme` / `U.EpistemePublication`, source pins, and provenance anchors rather than quietly becoming a second semantic track. | Architecture-description practice keeps views, viewpoints, correspondences, and architecture descriptions explicit instead of letting reader-help prose replace governed source. | ISO/IEC/IEEE 42010:2022; source maturity = mature standard | `E.17.EFP` adopts this by keeping explanation on existing MVPK faces, tying class assignment to the source `U.Episteme` / `U.EpistemePublication`, and rejecting a second face family or second semantic rule track. | **Adopt.** |
+| Explanation quality is use- and audience-sensitive and must make knowledge limits visible rather than collapse all explanations into one generic mode. | Explainable-AI guidance distinguishes explanation obligations by user, purpose, and stated limits instead of one universal explanation class. | Phillips et al. (2021), *Four Principles of Explainable Artificial Intelligence*; source maturity = current government guidance | `E.17.EFP` adapts this into explicit explanation classes, admissible faces, and forbidden downstream uses, while keeping the `E.17` face system unchanged. | **Adopt/Adapt.** |
+| Faithfulness is not the same as plausibility; explanation evaluation must stay tethered to the underlying source or decision basis. | Faithfulness work in interpretable NLP treats explanation as source-sensitive and warns against equating persuasive prose with faithful interpretation. | Jacovi & Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*; source maturity = research paper supporting evaluation posture | `E.17.EFP` adopts this by requiring source relation, `E.17:5.1b` source-support posture, evidence relation, pins, provenance, and class-per-rendering review rather than fluency alone. | **Adopt.** |
+| Natural-language explanation needs explicit checking for faithfulness or self-consistency rather than trust in stylistic coherence. | Recent evaluation work treats natural-language explanation as a review problem with explicit faithfulness or self-consistency checks, not just readability. | Parcalabescu & Frank (2024), *On Measuring Faithfulness or Self-consistency of Natural Language Explanations*; source maturity = research paper supporting evaluation posture | `E.17.EFP` adapts this into admissibility review, class downgrade, and reopen duties when source anchoring, evidence relation, or face assumptions weaken. | **Adapt.** |
+| Interactive explanations create extra support demands: repeated queries, changing models/data, traceability, responsiveness, and reader-action boundaries. | Interactive-explanation work treats explanation as an information-systems architecture problem connecting reader interaction demands with system capabilities; source maturity = emerging arXiv preprint, not settled standard. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3. | `E.17.EFP` adapts this narrowly through `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` when reader interaction is live, while full interactive explanation systems remain outside this profile. | **Adapt with maturity label.** Use as emerging support for interaction-sensitive fields; reject treating it as a normative standard or as authority that static explanation prose is enough. |
 
-**Architecture-description governance tradition.** `E.17.EFP` adopts the rule that reader-helpful renderings stay subordinate to the already governed source episteme/publication lane rather than replacing it. Explanation therefore remains on existing faces and is judged against source claims, pins, and provenance anchors.
+**Architecture-description governance tradition.** `E.17.EFP` adopts the rule that reader-helpful renderings stay subordinate to the already governed source `U.Episteme` / `U.EpistemePublication` rather than replacing it. Explanation therefore remains on existing faces and is judged against source claims, pins, and provenance anchors.
 
 **Explainability and reliability traditions.** `E.17.EFP` adopts the distinction between source-bound explanation and merely plausible explanation prose. It rejects the still-popular shortcut in which fluent or pedagogically useful language is treated as sufficient evidence of explanation faithfulness.
 
@@ -53513,24 +54119,55 @@ Explanation help already appears on existing faces, and the nearest failure mode
 **Builds on.** `C.2.2a`; `A.16.0`; `F.9`; `E.14`.
 **Coordinates with.** `A.6.3`; `A.6.3.CR`; `A.6.3.RT`; `F.9.1`; `E.17.EFP`; `E.17.AUD.LHR`; `B.5.2.0`; `B.5.2`; `OntologicalReframing`; `A.6.4`; `A.15`; `A.20`; `A.21`.
 **Active governing pattern.** `ComparativeReading` is the governing pattern here under the wider `InterpretationDiscipline` family. The public pattern name is `ComparativeReading`, not interpretation-in-general.
-**Family-specialization guard.** In this pattern, `ComparativeReading` is a specialization inside the `InterpretationDiscipline` review family. It is not an `A.16/A.16.0` language-state lineage fork, a coarsening family, a workflow condition, or an action-selection case.
+**Citation names.** Cite this pattern as `E.17.ID.CR`, `ID.CR`, or `ComparativeReading`. Do not cite it as unqualified `ID` or `CR`; use `A.6.3.CR` when the intended pattern is `ConservativeRetextualization`.
+**Family-specialization guard.** `InterpretationDiscipline` is a naming-level family label only. It is not a `U.*` kind, not a `SurfaceKind`, not a publication face, not a new episteme kind, not an authority-source reference, not a bridge taxonomy, not a second semantic track, and not a governing pattern by itself. The active governing pattern here is `ComparativeReading`; no artifact cites `InterpretationDiscipline`, `ID`, or `CR` alone as `governingPatternRef` or `authoritySourceRef`.
 **Plain-name.** Bounded comparative reading over comparative review units.
-**One-line summary.** `ComparativeReading` governs one comparative review unit over already available source epistemes/publications while the same `DescribedEntityRef` stays preserved, one bounded contrast is being made visible, and downstream claim/effect remains outside.
-**Governed object in plain terms.** The pattern governs the comparative review unit itself - the comparison note, comparison sheet, or guided review aid that carries one bounded contrast - not the whole source episteme/publication set and not the wider decision or work process.
+**One-line summary.** `ComparativeReading` governs one comparative review unit over already available source epistemes/publications while the shared review frame stays preserved, one bounded contrast or a small set of bounded contrast rows is being made visible, and downstream claim/effect remains outside. The compared alternatives may be distinct entities when they stay under that shared review frame.
+**Governed object in plain terms.** The pattern governs the comparative review unit itself - the comparison note, small comparison sheet, or guided review aid that carries one bounded contrast or a small set of bounded contrast rows - not the whole source episteme/publication set and not the wider decision or work process.
 
-**Early comparative lens.** Read the comparative-reading case through one early formula: one comparative review unit over already available source epistemes/publications keeps the same `DescribedEntityRef` visible while making one bounded contrast inspectable, with downstream claim/effect still left outside. That is the whole early read. It does not govern interpretation in general, the whole source episteme/publication set, or the wider decision or work process.
+**Early comparative lens.** Read the comparative-reading case through one early formula: one comparative review unit over already available source epistemes/publications keeps the shared review frame visible while making one bounded contrast or a small set of bounded contrast rows inspectable, with downstream claim/effect still left outside. The shared frame may be the same `DescribedEntityRef`, review target, described situation, decision situation, release candidate, method family, control scope, problem frame, or source-set anchor. Compared alternatives under that frame may be distinct objects. That is the whole early read. It does not govern interpretation in general, the whole source episteme/publication set, or the wider decision or work process.
 
-**Use this when.** Use this pattern when you need a small comparative review unit, such as a comparison note, comparison sheet, or guided review aid, over already available source epistemes/publications so that a team can inspect one bounded contrast while still keeping the same described entity and without yet claiming equivalence, root cause, redesign, release approval, or another unsupported downstream claim/effect.
+**Use this when.** Use this pattern when you need a small comparative review unit, such as a comparison note, comparison sheet, or guided review aid, over already available source epistemes/publications so that a team can inspect one bounded contrast or a small set of bounded contrast rows while still keeping the shared review frame and compared alternatives explicit and without yet claiming equivalence, root cause, redesign, release approval, or another unsupported downstream claim/effect.
 
-**First-minute working moment.** A team already has two or more source-pinned notes, sheets, views, or review aids on the table and needs one honest comparison unit that keeps the same described entity visible while making one bounded contrast inspectable. The real job is not yet action selection, approval, ontology repair, or wider work-process control. It is to help reviewers compare without pretending that the comparison note already became a decision.
+**First-minute working moment.** A team already has two or more source-pinned notes, sheets, views, or review aids on the table and needs one honest comparison unit that keeps the shared review frame visible while making one bounded contrast or a small comparison sheet inspectable. The compared items may be two design options for one release, two methods for one task family, two vendor bulletins for one control scope, or two programme strategies for one initiative. The real job is not yet action selection, approval, ontology repair, or wider work-process control. It is to help reviewers compare without pretending that the comparison note or sheet already became a decision.
 
-**Primary working reader.** The primary first-minute reader is an engineer-manager or programme lead using a bounded comparative review unit in ordinary review work. Architecture reviewers, release or compliance reviewers, research reviewers, and cultural or programme reviewers remain important secondary readers, but the first recognition block should still read manager-first rather than architecture-first.
+**First-screen questions.**
+1. What source epistemes/publications are being compared?
+2. What one contrast or small set of contrast rows is being made visible?
+3. What shared review frame remains preserved, and what compared alternatives stay distinct under it?
+4. What does this note not decide?
+5. What exit would make it a decision, prompt, bridge, ontology, work/reliance, gate, assurance, or adjudication case?
 
-**Problem-owning practice reading.** In ordinary practice, this pattern helps teams write design-review notes, release or compliance comparisons, incident triage comparisons, research review notes, and programme review aids when the real job is to compare already available source epistemes/publications over the same described entity without yet claiming equivalence, action selection, or decision authority. The job is not to settle the full review or downstream decision process. It is to make one bounded comparative review unit honest enough that reviewers can inspect one contrast, know what downstream claim/effect stays outside, and stop arguing as if the note had already become a decision.
+**Working action spine.** A comparison note or guided review aid is needed -> separate compared sources, one bounded contrast or small row set, shared review frame, distinct alternatives when present, and undecided downstream claim/effect -> use the unit for bounded review, source-finding, contrast inspection, or planning preparation -> output the seven-row ordinary working card or one compact note/sheet -> exit if decision, bridge, prompt, ontology, work/reliance, gate, assurance, or adjudication pressure begins. Use `E.17:5.1c` for `orientation use`, `reliance use`, `operative claim`, `unsupported downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary live question may be same-entity rewrite, representation change, coarsening, explanation, bridge/substitution, work/reliance, gate, evidence, assurance, retargeting, or carrier/front-end work instead of bounded comparative reading.
+
+**Primary working reader.** The primary first-minute reader is an engineer-manager or programme lead using a bounded comparative review unit in ordinary review work. Architecture reviewers, release or compliance reviewers, research reviewers, and cultural or programme reviewers remain important secondary readers, but the first recognition block should still read engineer-manager-first rather than architecture-first.
+
+**Problem-owning practice reading.** In ordinary practice, this pattern helps teams write design-review notes, release or compliance comparisons, incident triage comparisons, research review notes, and programme review aids when the real job is to compare already available source epistemes/publications under one shared review frame without yet claiming equivalence, action selection, or decision authority. The job is not to settle the full review or downstream decision process. It is to make one bounded comparative review unit honest enough that reviewers can inspect one contrast or a small set of contrast rows, know what downstream claim/effect stays outside, and stop arguing as if the note had already become a decision.
 
 **What goes wrong if you miss this.** If this pattern stays unnamed, teams often flip between two bad readings. Either the comparative review unit is dismissed as if it were only harmless prose, or it is over-read as if it already licensed equivalence, action selection, gate pressure, or work/reliance. The practical result is distrust and friction in review work because readers can no longer tell whether they are looking at one bounded comparison aid or at a disguised decision.
 
-**What this buys you in practice.** Naming the pattern buys one smaller and more usable review unit. A team can compare already available source epistemes/publications, inspect one bounded contrast, and still keep downstream claim/effect outside. In practice that means review conversations move faster with less argument about whether the note already settled equivalence, approval, or the next work/reliance move.
+**What this buys you in practice.** Naming the pattern buys one smaller and more usable review unit. A team can compare already available source epistemes/publications, inspect one bounded contrast or a small comparison sheet, and still keep downstream claim/effect outside. In practice that means review conversations move faster with less argument about whether the note already settled equivalence, approval, or the next work/reliance move.
+
+**Ordinary use.** If the comparison only helps review, source-finding, contrast inspection, or planning preparation, keep one small comparison note or the seven-row ordinary working card; do not thicken it into a decision, bridge, release, or authority record.
+
+**Cheap stop after ordinary card.** If the comparison note answers the seven-row card and no boundary pressure is live, stop. Do not open `E.17.AUD.LHR`, `E.17.AUD.OOTD`, `E.17.EFP`, `A.6.3.CSC`, bridge, prompt, work/reliance, gate, assurance, or authority paths.
+
+**Assurance-surface boundary.** Read `E.17.AUD.LHR`, `E.17.AUD.OOTD`, interpretant-side fields, bridge/prompt/authority exits, and the heavier boundary tables as assurance or support material after the seven-row ordinary card, not as the ordinary first screen for one comparison note.
+
+**Load-bearing use.** Open the fuller comparison-support apparatus only when the comparison will be externally relied on, disputed, cited, used across context, used to affect person/team status, or read as release, gate, bridge/substitution, action-selection, work/reliance, or engineering-justification support.
+
+**Stop condition.** Stop once the comparison changes no next review, source-finding, contrast-inspection, or planning-preparation move and blocks no concrete overclaim about equivalence, decision, bridge/substitution, work/reliance, gate, or engineering justification.
+
+**Supported-use examples.**
+
+| Supported project use | Source-finding or reversible probe | Unsupported use |
+| --- | --- | --- |
+| A comparison note supports one bounded review discussion by naming the compared sources, shared review frame, compared alternatives when present, one contrast, and what remains undecided. | A comparison suggests the next source, method, or bridge claim to inspect without deciding substitution, method selection, release, or work reliance. | A comparison table is used as equivalence, bridge licence, method-selection decision, release decision, evidence, gate passage, or adjudication authority. |
+
+
+**Admissible comparative-unit forms.**
+- **Single-contrast note** — one bounded contrast with one comparison basis, one shared review frame, unsupported downstream claim/effect, world-contact limit, and exit trigger.
+- **Small comparison sheet** — a small set of bounded contrast rows under one shared review frame. Each row states its comparison basis; the sheet has one shared unsupported downstream claim/effect, one world-contact limit, and one exit trigger. It must not add an aggregate recommendation, ranking, or action-selection conclusion unless another governing pattern or project source supplies that support.
 
 When one comparative note is itself lighter or simplified, it remains admissible here only while fuller-source return stays available and heavier bridge, action-selection, or work/reliance claim remains outside.
 
@@ -53538,43 +54175,45 @@ When one comparative note is itself lighter or simplified, it remains admissible
 - restating the same thing or shifting its representation rather than adding one bounded contrast under `A.6.3.*`;
 - carrying a controlled weaker rendering whose governing relation is fuller-source tether, narrower-use discipline, forbidden downstream claim/effect, and reopen duty rather than bounded comparative reading;
 - explicating an already-declared bridge stance rather than governing a comparative review unit under `F.9.1`;
-- classifying or governing explanation faces rather than carrying bounded comparative reading under `E.17.EFP`;
+- deciding explanation-face use rather than carrying bounded comparative reading under `E.17.EFP`;
 - authored-unit described-entity stabilization after local repair;
 - abductive-prompt or action-selection pressure under `B.5.2(.0)`;
 - ontology or target change under `OntologicalReframing` / `A.6.4`;
 - or downstream work/reliance, gate, assurance, or adjudication authority under `A.15 / A.20 / A.21`.
 
-**Quick exit bank.** If this is really same-thing rewrite, bridge-stance overlay over an existing Bridge Card, explanation-face governance, prompt pressure, ontology change, or gate/authority work, move to the governing pattern before you open the heavier ComparativeReading governing-pattern stack. If the main debt is still only local lexical-head repair or authored-unit described-entity stabilization, use `E.17.AUD.LHR` (`Local Head Restoration`) or `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`) first and only then return here. Those neighboring patterns are not part of the ordinary ComparativeReading case unless that repair trigger is actually live. For the nearest worked exit bank, move to `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10`.
+**Neighboring-work boundary.** If the live work is actually same-thing rewrite, bridge-stance note over an existing Bridge Card, explanation-face use, abductive prompt, ontology change, gate/authority work, or local authored-unit repair, keep the current comparative review unit narrow and use the FPF pattern that governs that outside work (`A.6.3.*`, `F.9.1`, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing` / `A.6.4`, `A.15` / `A.20` / `A.21`, `E.17.AUD.LHR`, or `E.17.AUD.OOTD`). The engineer-manager action is to keep the comparison note from carrying that outside work; if the outside work is live, recover the existing project source for that work when available. If no existing source carries the needed load-bearing claim, create only a prospective repair/request/decision/work-plan/source-gap record and otherwise keep the comparison note to inline orientation/source-finding; the new record must not be treated as retroactive evidence, approval, gate passage, performed `U.Work`, release permission, or assurance.
 
-**Quick recovery entry.** If the recognition block fits, recover the comparative-reading case in this order: the governed comparative review unit, the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`, and the nearest ordinary worked slices in `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.c`. Use `E.17.ID.CR:4.1.d` only if one pressure term still blocks the read.
 
-**Quick kind-plus-lens reading.** `InterpretationDiscipline` names the wider interpretation family and `ComparativeReading` names the active governing pattern here. Recover the case through the early comparative lens above: one comparative review unit over already available source epistemes/publications, the same `DescribedEntityRef` preserved, one bounded contrast made visible, and downstream claim/effect still outside. If that read no longer holds, move to the governing neighboring pattern rather than widening this pattern into interpretation-in-general.
+**Ordinary recovery anchor.** If the recognition block fits, keep three things recoverable: the governed comparative review unit, the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`, and the nearest ordinary worked slices in `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.c`. Use `E.17.ID.CR:4.1.d` only if one pressure term still blocks the working read.
 
-**First-minute term reading.** Read the early pressure terms this way. `DescribedEntityRef` = the same described entity preserved across the comparison. Source episteme/publication lane and source anchors = already available source epistemes/publications plus the notes, views, or links that keep the comparison checkable. `allowedUse` and `misuseRisk` = what this unit honestly supports now and what unsupported downstream reading it may wrongly attract.
+**Quick kind-plus-lens reading.** `InterpretationDiscipline` names the wider interpretation family and `ComparativeReading` names the active governing pattern here. Recover the case through the early comparative lens above: one comparative review unit over already available source epistemes/publications, the shared review frame preserved, one bounded contrast or small row set made visible, and downstream claim/effect still outside. If that read no longer holds, handle the neighboring work under the pattern or project source that governs it rather than widening this pattern into interpretation-in-general.
 
-**Quick first check.** Before you read the heavier harness, ask:
+**First-minute term reading.** Read the early pressure terms this way. Shared review frame = the review target, described situation, decision situation, release candidate, method family, control scope, problem frame, or source-set anchor preserved across the comparison. Compared alternatives = the distinct options, methods, bulletins, strategies, notes, or source objects kept separate under that frame. Source epistemes/publications and source anchors = already available source epistemes/publications plus the notes, views, or links that keep the comparison checkable. `allowedUse` and `misuseRisk` = what this unit honestly supports now and what unsupported downstream reading it may wrongly attract.
+
+**Quick working-fit check.** Before you read the heavier harness, ask:
 1. Am I governing the comparative review unit itself?
-2. Does the same described entity stay preserved while one bounded contrast is being made visible?
+2. Does the shared review frame stay preserved, with compared alternatives still distinct if they are distinct, while one bounded contrast or small row set is being made visible?
 3. Is the main question still this bounded comparison rather than same-thing rewrite, authored-unit stabilization, or downstream authority?
 
-If yes, stay here and use the ordinary working card. If no, use the quick exit bank above and the fuller exit table in `E.17.ID.CR:4.5`.
+If yes, stay here and use the ordinary working card. If no, use the neighboring-work boundary above and the fuller boundary table in `E.17.ID.CR:4.5`.
 
 **Worked-slice pointer.** If you need one ordinary sentence fast, borrow the nearest admissible example from `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.c` and then check it against the seven-row ordinary working card rather than treating the example itself as a second mini-harness.
 
 ### E.17.ID.CR:1 - Problem frame
 
-**Anti-workflow note.** The quick checks, ordinary working card, worked-slice pointer, working order, and worked slices in this pattern are local aids and examples for one comparative review unit.
-They are not a canonical transduction workflow for the governed object here, not a mandatory lifecycle for review work, and not a promise that admissible cases move through one fixed graph in one direction.
+
+**Anti-fixed-process note.** The quick checks, ordinary working card, worked-slice pointer, working order, and worked slices in this pattern are local aids and examples for one comparative review unit.
+They are not a canonical transduction process for the governed object here, not a mandatory fixed sequence for review work, and not a promise that admissible cases move through one fixed graph in one direction.
 FPF fixes the local governed object, the local move, the governing-pattern exits, and the inherited dynamic frame; actual work may reopen, back off, loop, or depend on outside observations and downstream constraints.
 Read the worked-slice bank sideways rather than as one required sequence: one admissible case may finish after a single bounded comparison, another may reopen after a new outside observation, and another may exit immediately once environmental change or downstream constraints make a neighboring pattern the more honest governing move.
 
 Engineer-managers, programme leads, and research or cultural reviewers repeatedly need to prepare or share a small comparative review unit that helps a team read two already available source epistemes/publications together without overstating what that unit now supports.
 Typical moments include:
-- a design-review note that says one already available option write-up foregrounds coupling risk more strongly than another;
+- a design-review note that says one already available option write-up foregrounds coupling risk more than another;
 - a release or compliance comparison that says an internal control sheet and a vendor bulletin are not yet equivalent even though they speak to the same review task;
 - an operations comparison that says a dashboard view and a maintenance note foreground different operational pressures in the same service episode;
-- a research-review note that says one available synthesis foregrounds measurement uncertainty more strongly than another without yet declaring a better method;
-- a program or cultural review note that says one available brief foregrounds participation continuity more strongly than another without yet deciding funding, curation, or program direction.
+- a research-review note that says one available synthesis foregrounds measurement uncertainty more than another without yet declaring a better method;
+- a program or cultural review note that says one available brief foregrounds participation continuity more than another without yet deciding funding, curation, or program direction.
 
 These review units are useful precisely because they help a review move forward.
 They become dangerous when a reader starts treating them as if they already established equivalence, root cause, redesign priority, action selection, program choice, or approval.
@@ -53593,57 +54232,60 @@ Without a named comparative-reading discipline:
 
 | Force | Tension |
 | --- | --- |
-| **Manager usability vs governance precision** | The pattern must start from a recognisable review situation without hiding its neighboring patterns. |
-| **Middle-band reality** | Some comparative readings are stronger than a bridge-stance overlay over an existing Bridge Card but weaker than full action selection. |
+| **Engineer-manager usability vs governance precision** | The pattern must start from a recognisable review situation without hiding its neighboring patterns. |
+| **Middle-band reality** | Some comparative readings are more committed than a bridge-stance overlay over an existing Bridge Card but still below full action selection. |
 | **Source tether vs interpretive lift** | The case must add a bounded interpretive lift without pretending to create a new free-floating semantics. |
 | **Governed object vs surrounding work** | The pattern must keep the review unit, the interpretive move, and the larger review process distinct rather than sliding between them by style. |
 | **Viewing restraint** | Interpretation must not absorb same-entity viewing, conservative rewriting, or representation transduction whose main question is not comparative reading. |
 | **Bridge restraint** | Interpretation must not become a second bridge taxonomy. |
-| **Explanation restraint** | Interpretation must not become a shadow face-classification system next to `E.17.EFP`. |
+| **Explanation restraint** | Interpretation must not become a shadow face-use discipline system next to `E.17.EFP`. |
 | **Abductive restraint** | Interpretation must stop before abductive-prompt or action-selection pressure becomes live. |
 | **Ontology restraint** | Interpretation must not hide same-referent / new-intension pressure or changed `DescribedEntityRef`. |
 | **Interpretant-side boundedness** | Reader-fit may matter, but it must remain explicit and bounded rather than silently rewriting authority. |
 
 ### E.17.ID.CR:4 - Solution - comparative review units with bounded comparative reading, escalation, and exit rules
 
-#### E.17.ID.CR:4.1 - Manager-first entry, governed-object distinction, and compact branch definition
+#### E.17.ID.CR:4.1 - Engineer-manager-first working use, governed-object distinction, and compact branch definition
 
 The solution opening here follows `E.17.ID.CR:4.3`'s working-model-first discipline.
-A solution-side reader should first meet the manager-first use block and the governed-object distinction, and only then the compact ComparativeReading definition that names the formal comparative read.
-That order keeps the governing pattern explicit without making the blockquote definition the first gate into ordinary use.
+A solution-side reader first meets the engineer-manager working use and the governed-object distinction, then the compact `ComparativeReading` definition that names the formal comparative read.
+That order keeps the governing pattern explicit without making the compact definition a substitute for the working review moment.
 
-#### E.17.ID.CR:4.1.a - Manager-first use
+#### E.17.ID.CR:4.1.a - Engineer-manager-first use
+
 
 In plain working terms, this pattern is for a review unit that says something like:
-- `this option write-up foregrounds integration pressure more strongly than that one`;
+- `this option write-up foregrounds integration pressure more than that one`;
 - `these two available source epistemes/publications are useful together, but they are not yet equivalent`;
 - `this dashboard view helps triage one contrastive question, but it is not yet a release decision or a root-cause claim`;
-- `this research synthesis foregrounds uncertainty more strongly than that one, but it is not yet a method choice`;
-- `this program brief foregrounds continuity risk more strongly than that one, but it is not yet a funding decision`.
+- `this research synthesis foregrounds uncertainty more than that one, but it is not yet a method choice`;
+- `this program brief foregrounds continuity risk more than that one, but it is not yet a funding decision`.
 
-If that sounds like the review unit you need, start here.
-If instead you are mainly restating source epistemes/publications, explaining them, opening a new abductive prompt or action-selection question, changing the described entity, or making a decision, start with the neighboring pattern first.
+If that sounds like the review unit you need, keep the comparison unit bounded this way.
+If instead you are mainly restating source epistemes/publications, explaining them, opening a new abductive prompt or action-selection question, changing the described entity, or making a decision, handle that live work under the FPF pattern or project source that governs it before the comparison unit carries the claim.
 
 #### E.17.ID.CR:4.1.b - Pattern, case, and governed-object distinction
 
 This pattern presents the `ComparativeReading` as the active governing pattern inside the broader `InterpretationDiscipline` family.
-The umbrella names the wider interpretation zone.
+The family name marks the wider interpretation zone.
 The governing pattern here is narrower and more concrete than interpretation-in-general.
 It governs one **comparative review unit** and only the **bounded comparative reading** carried by that unit.
-The wider review or decision workflow remains outside the pattern except where governing-pattern exit or authority limits are needed.
+The wider review or decision work remains outside the pattern except where neighboring-work boundary or authority limits are needed.
 
 The kind stack should therefore be read explicitly:
-- umbrella = `InterpretationDiscipline` as the naming-level umbrella;
-- umbrella-level move class = bounded interpretation work at that wider level;
+- family name = `InterpretationDiscipline` as the wider naming-level family;
+- family-level move class = bounded interpretation work at that wider level;
 - governing pattern = `ComparativeReading`;
 - governed object = the comparative review unit;
 - governed move = bounded comparative reading over already available source epistemes/publications;
 - wider work = the broader review or decision process that still sits outside this pattern.
 
+The family name is only a naming aid for this branch. It is not a `U.Kind`, `SurfaceKind`, publication face, authority-source reference, or governing-pattern reference; when a record needs a governing pattern, cite `E.17.ID.CR ComparativeReading` or the more exact neighboring pattern.
+
 In ordinary use the governed unit may appear as a short comparison note, comparison sheet, guided review aid, or guided comparative UI.
 Those are admissible unit forms, not rival governed objects.
 
-This distinction matters because the pattern is not governing reading as such in the abstract and it is not governing the whole review workflow.
+This distinction matters because the pattern is not governing reading as such in the abstract and it is not governing the whole review or decision work.
 It is governing a small, reviewable unit that carries one bounded comparative lift over already available source epistemes/publications.
 The pattern does not create a new practical governed-unit family of its own; it tells when such a comparative review unit can stay modest and when a downstream claim/effect or decision-bearing record already belongs to another governed pattern.
 
@@ -53651,16 +54293,16 @@ The pattern does not create a new practical governed-unit family of its own; it 
 
 > `ComparativeReading` is the active governing pattern inside the `InterpretationDiscipline` family.
 >
-> It governs one comparative review unit over already available, source-pinned epistemes/publications and carries one bounded comparative reading over that unit.
+> It governs one comparative review unit over already available, source-pinned epistemes/publications and carries one bounded comparative reading, or a small set of bounded contrast rows, over that unit.
 >
-> It stays admissible only while the case preserves the same `DescribedEntityRef`, keeps the source anchors visible, keeps the added comparative lift bounded, and does not turn into same-entity viewing, bridge claims, explanation-face governance, prompt-bearing abductive work, ontology-facing reframing, retargeting, or downstream work/reliance authority.
+> It stays admissible only while the case preserves the shared review frame, keeps distinct alternatives distinct unless bridge/substitution support exists elsewhere, keeps the source anchors visible, keeps the added comparative lift bounded, and does not turn into same-entity viewing, bridge claims, explanation-face governance, prompt-bearing abductive work, ontology-facing reframing, retargeting, or downstream work/reliance authority.
 
 Read this blockquote as the compact governing-pattern reminder.
-It should stay nearby and early, but not stand in front of the manager-first use block or the governed-object distinction that working readers need first.
+It should stay nearby and early, but not stand in front of the engineer-manager-first use block or the governed-object distinction that working readers need first.
 
 #### E.17.ID.CR:4.1.c - Why the comparative-reading branch needs its own discipline
 
-Teams already produce small comparative review units, often as comparison notes, comparison sheets, or guided review aids, that are stronger than a plain bridge-stance overlay over an existing Bridge Card but weaker than action selection, ontology reframing, retargeting, or approval guidance.
+Teams already produce small comparative review units, often as comparison notes, comparison sheets, or guided review aids, that are more committed than a plain bridge-stance overlay over an existing Bridge Card but still below action selection, ontology reframing, retargeting, or approval guidance.
 Leaving that middle band unnamed creates two opposite failures: one reader dismisses the review unit as harmless prose, while another over-reads it as if it already carried substitution, action-selection pressure, or action authority.
 
 This pattern gives teams a narrow way to prepare, share, and inspect that comparative review unit without smuggling a downstream claim/effect beyond what the source, bridge stance, and bounded use can honestly support.
@@ -53668,12 +54310,14 @@ This pattern gives teams a narrow way to prepare, share, and inspect that compar
 #### E.17.ID.CR:4.1.d - Local working vocabulary
 
 This pattern uses a small local vocabulary for review.
-- **Comparative review unit** = a lightweight review unit such as a short comparison note, comparison sheet, guided review aid, or guided comparative UI whose explicit job is one bounded comparative reading.
-- **Base-case classification** = `baseCasePattern`, the primary pattern that still carries the unit before bounded comparative reading is added.
+- **Comparative review unit** = a lightweight review unit such as a short comparison note, small comparison sheet, guided review aid, or guided comparative UI whose explicit job is one bounded comparative reading or a small set of bounded contrast rows under one shared review frame.
+- **Base governing case** = the primary source relation, pattern-governed case, or project work question that is already live before bounded comparative reading is added.
 - **Reviewed source episteme/publication** = the already pinned or otherwise reviewable episteme/publication being comparatively read; in plain terms, the already available source content under review.
 - **Source anchors** = `sourceAnchorSet` or `sourceRefs` that make the interpreted source episteme/publication inspectable.
-- **Same `DescribedEntityRef`** = the same described entity remains preserved even while one contrast is being made more visible.
-- **Interpretive lift** = the bounded comparative or asymmetry-bearing reading added on top of already available source epistemes/publications.
+- **Shared review frame** = the review target, described situation, decision situation, release candidate, method family, control scope, problem frame, or source-set anchor that remains preserved while the comparison is made.
+- **Compared alternative** = one distinct option, method, bulletin, strategy, note, view, or source object kept separate under the shared review frame.
+- **Same `DescribedEntityRef` case** = the special case where the compared sources describe the same entity. This is common, but it is not required when distinct alternatives remain under one shared review frame.
+- **Interpretive lift** = the bounded comparative or asymmetry-bearing reading added on top of already available source epistemes/publications; in a small comparison sheet, each row has its own declared comparison basis while the unit keeps one shared unsupported downstream claim/effect and exit trigger.
 - **Bridge anchor** = required `bridgeCardRef` when the case depends on bridge-mediated correspondence rather than ordinary source reading alone; optional `bridgeStanceRef` may qualify that bridge only after the bridge card exists.
 - **Allowed use** = what this review unit may be used for while it remains only a bounded comparative review unit.
 - **Misuse risk** = how the review unit is most likely to be over-read into a bridge, action-selection, ontology, or authority claim that it does not carry.
@@ -53681,7 +54325,7 @@ This pattern uses a small local vocabulary for review.
 - **Ordinary minimum block** = the smallest ordinary record that keeps the review unit honest for working use.
 - **Load-bearing extension** = the fuller declaration record used when the case sits close to bridge, explanation, abductive, ontology, or authority boundaries.
 
-These terms are local review aids.
+These terms are local review aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `SurfaceKind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, authority source, publication face, or project source record unless another governing FPF pattern explicitly instantiates that object.
 They do not replace source notes, bridge cards, explanation renderings, prompt publications, or gate-bearing source forms.
 Their role is to keep a bounded comparative review unit readable without silently upgrading its authority.
 
@@ -53689,54 +54333,55 @@ Their role is to keep a bounded comparative review unit readable without silentl
 
 **In scope**
 - bounded comparative asymmetry over already declared reviewed source epistemes/publications;
-- reader-facing interpretive caution that stays source-tethered and preserves the same `DescribedEntityRef`;
+- reader-facing interpretive caution that stays source-tethered and preserves the shared review frame;
+- comparison of distinct alternatives under one shared review target, described situation, release candidate, method family, control scope, problem frame, or source-set anchor;
 - comparative review units that answer one explicit contrastive question without opening a rival action-selection search;
 - bounded user-fit when that fit only limits use rather than widening authority.
 
 **Out of scope**
 - same-entity restatement, conservative rewrite, or representation shift whose main question stays with `A.6.3`, `A.6.3.CR`, or `A.6.3.RT`;
 - bridge-stance overlay that only clarifies an already-declared bridge stance over an existing Bridge Card (`F.9.1`);
-- explanation-face classification, admissibility, or added-link review on existing faces (`E.17.EFP`);
+- explanation-face use discipline, admissibility, or added-link review on existing faces (`E.17.EFP`);
 - abductive-prompt or action-selection cases (`B.5.2.0 / B.5.2`);
 - ontology-facing reframing or changed described entity (`OntologicalReframing` / `A.6.4`);
 - policy, gate, adjudication, assurance, or work-facing use (`A.15 / A.20 / A.21`).
 
-#### E.17.ID.CR:4.2.a - Quick entry test
+#### E.17.ID.CR:4.2.a - Working-fit test
 
 Use this discipline only when all of the following hold:
 1. the reviewed source episteme/publication is already pinned or otherwise reviewable;
-2. the review unit adds one bounded comparative or interpretive lift;
+2. the review unit adds one bounded comparative or interpretive lift, or a small set of bounded contrast rows with row-level comparison bases;
 3. the case is still answering a bounded contrastive question rather than selecting an action path;
-4. the same `DescribedEntityRef` stays preserved;
-5. the main question is not already better described as same-entity viewing, bridge-stance overlay over an existing Bridge Card, or explanation-face classification.
+4. the shared review frame stays preserved, and compared alternatives remain distinct unless an explicit bridge/substitution source supports equivalence, substitution, or another named relation between them;
+5. the main question is not already better described as same-entity viewing, bridge-stance overlay over an existing Bridge Card, or explanation-face use discipline.
 
-If any of those fail, move to the governing neighboring pattern.
+If any of those fail, handle the live work under the neighboring FPF pattern or project source that actually governs it.
 
-#### E.17.ID.CR:4.2.b - Nearest neighboring patterns
+#### E.17.ID.CR:4.2.b - Nearest neighboring work
 
-Always classify the base-case pattern first and open interpretation second.
-The nearest neighboring patterns should be read in this order:
-1. **`A.6.3` / `A.6.3.CR` / `A.6.3.RT` first.** If the move is still mainly restatement, representation shift, or another same-entity viewing transform, it does not enter interpretation.
-2. **`F.9.1` second.** If the review unit only makes an already-declared bridge stance more legible, it stays bridge-subordinate.
-3. **`E.17.EFP` third.** If the main question is explanation class, face admissibility, or bounded connective prose on an existing face, it stays with explanation governance.
-4. **`B.5.2.0 / B.5.2` fourth.** If open-question pressure or action-selection pursuit becomes live, interpretation ends.
-5. **`OntologicalReframing` / `A.6.4` / downstream authority patterns last.** If continuity witnesses, changed target, or decision-bearing consequence are needed, the case has already left this discipline.
+Name the base source relation or work question before adding bounded comparative reading.
+The nearest neighboring work questions should be separated in this order:
+1. **Same-entity rewrite or representation shift.** If the project move is still mainly restatement, representation shift, or another same-entity viewing transform, keep it with `A.6.3`, `A.6.3.CR`, or `A.6.3.RT`.
+2. **Bridge-stance clarification.** If the review unit only makes an already-declared bridge stance more legible, it stays subordinate to `F.9.1`.
+3. **Explanation-face use.** If the main question is explanation class, face admissibility, or bounded connective prose on an existing face, it stays with `E.17.EFP`.
+4. **Abductive prompt or action-selection pressure.** If open-question pressure or action-selection pursuit becomes live, bounded comparative reading ends and `B.5.2.0` / `B.5.2` governs that work.
+5. **Changed described entity or downstream authority.** If continuity witnesses, changed target, or decision-bearing consequence are needed, the case has already left this discipline for `OntologicalReframing`, `A.6.4`, `A.15`, `A.20`, `A.21`, or another exact governing source.
 
 #### E.17.ID.CR:4.3 - Working-model first; plain questions first, ordinary minimum second, full declaration third
 
 Most working users should not have to start with a long declaration block.
-This pattern therefore follows `E.14`'s working-model-first discipline: the first usable block is a small set of plain questions that helps an engineer-manager decide whether the review unit still belongs here.
-The opening of `E.17.ID.CR:4.1` now follows that same order by value: manager-first use and governed-object distinction come first, and the compact ComparativeReading definition stays nearby as an early recovery anchor rather than the first gate into the governing pattern.
+This pattern therefore follows `E.14`'s working-model-first discipline: the first usable block is a small set of plain questions that helps an engineer-manager keep the review unit bounded to the work it can honestly support.
+The opening of `E.17.ID.CR:4.1` follows that same order by value: engineer-manager working use and governed-object distinction come first, and the compact `ComparativeReading` definition stays nearby as a recovery anchor rather than a gate before use.
 The ordinary minimum block comes next for ordinary use.
 The full declaration block remains available as a load-bearing assurance record.
 
 #### E.17.ID.CR:4.3.a - Five plain working questions
 
-The top-of-pattern quick first check is the canonical first working block for this pattern.
+The near-top quick working-fit check is the canonical first working block for this pattern.
 A working user should be able to answer these same five questions before touching the fuller blocks:
 1. What already available source epistemes/publications am I comparing?
-2. What single contrast or asymmetry am I trying to make visible?
-3. Am I still talking about the same described entity, or has the described entity already shifted?
+2. What single contrast or small set of contrast rows am I trying to make visible?
+3. Am I still inside the same shared review frame, with compared alternatives kept distinct when they are distinct, or has the review target already shifted?
 4. What unsupported downstream reading must the team not take from this review unit?
 5. What would force this review unit to leave `ComparativeReading` for explanation, bridge work, prompt work, ontology work, or decision authority?
 
@@ -53747,8 +54392,8 @@ If these five answers are not visible, the case is not ready to stay here as a b
 For ordinary bounded comparative review units, it is usually enough that the unit or its surrounding review context keeps explicit:
 - what reviewed source episteme/publication is being interpreted;
 - where the source anchors live;
-- that the same `DescribedEntityRef` remains preserved;
-- what exact bounded comparative lift is being added;
+- that the shared review frame remains preserved and that distinct alternatives remain distinct unless another source supports bridge/substitution;
+- what exact bounded comparative lift is being added, or which bounded contrast rows are included and what comparison basis each row uses;
 - what downstream claim/effect remains unsupported;
 - that the default `worldContactPolicy` here is review-only / non-executive;
 - and what governing-pattern exit becomes mandatory if the pressure intensifies.
@@ -53763,23 +54408,23 @@ An admissible ordinary comparative review unit should normally let a reader reco
 | --- | --- | --- |
 | **Reviewed source** | What already available source epistemes/publications are being compared? | one pinned source slice or one explicit source pair/set |
 | **Source anchors** | Where can a reviewer inspect that source content? | visible `sourceAnchorSet` or nearby `sourceRefs` |
-| **Same described entity** | What same described entity is still being discussed? | preserved same `DescribedEntityRef` |
-| **Bounded lift** | What single contrast is this unit making visible? | one declared `comparisonBasis` or bounded comparative lift |
+| **Shared review frame / alternative identities** | What review target, described situation, or source-set anchor is preserved, and what alternatives remain distinct under it? | preserved shared review frame; distinct alternatives are not treated as equivalent or substitutable without bridge support |
+| **Bounded lift row(s)** | What single contrast or small row set is this unit making visible? | one declared `comparisonBasis` or a small set of row-level `comparisonBasis` statements under one shared unsupported downstream claim/effect and exit trigger |
 | **Unsupported downstream claim/effect** | What is this unit not yet claiming? | no equivalence, prompt opening, ontology change, or decision authority |
 | **World-contact limit** | What may the unit not be used to do? | `review-only / non-executive` |
 | **Exit trigger** | What would end this pattern and require another governing pattern? | one explicit bridge, explanation, prompt, ontology, or authority trigger |
 
 This working card may live inline in the comparative review unit or in its immediate review context.
-Read it as the ordinary recovery anchor for the near-top entry check:
+Read it as the ordinary recovery anchor for the near-top working-fit check:
 - if rows 1-4 are still unstable because one pressured local lexical head or qualifier is doing too much work, stop and repair that local lexical-head pressure through `E.17.AUD.LHR` (`Local Head Restoration`) before you keep building the comparative review unit here;
 - if rows 3-7 cannot stay stable because the same review unit still has unstable reviewed-source, comparative-move, or outside-work reading after one honest local repair, move to `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`);
-- if rows 1-7 stay recoverable over one pinned source slice or source pair, one preserved `DescribedEntityRef`, and one bounded contrast, `ComparativeReading` remains the honest primary lane.
+- if rows 1-7 stay recoverable over one pinned source slice or source pair, one preserved shared review frame, distinct alternatives where present, and one bounded contrast or small row set, `ComparativeReading` remains the honest primary governing pattern.
 
 The nearest stay-here worked slices for this reading are `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.b`.
 The nearest stop-and-reopen worked slice is `E.17.ID.CR:5.4.6.c`.
 
 Move to the load-bearing extension only when one of the boundary, reader-fit, or misuse conditions in `E.17.ID.CR:4.3.c` becomes true.
-`ComparativeReading` remains primary only while those seven rows stay recoverable and the same review unit is still mainly about one bounded comparative reading over already pinned source epistemes/publications. If you first need to restabilize what the review unit is about, what move it is carrying, and what wider work remains outside, move to `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`) before thickening this card.
+`ComparativeReading` remains primary only while those seven rows stay recoverable and the same review unit is still mainly about one bounded comparative reading, or a small set of bounded contrast rows, over already pinned source epistemes/publications. If the review unit first needs to restabilize what it is about, what move it carries, and what wider work remains outside, use `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`) to stabilize that authored-unit question before adding more declaration weight here.
 
 #### E.17.ID.CR:4.3.c - Load-bearing extension guidance
 
@@ -53789,22 +54434,22 @@ A fuller declaration record becomes warranted when:
 - the review unit sits close to viewing, bridge, explanation, abductive, ontology, or downstream-authority boundaries;
 - mixed composition with `A.6.3.*` or `E.17.EFP` is load-bearing;
 - the authored unit still has unstable described-entity, carried-move, or outside-work reading after local repair;
-- or the case would otherwise be too easy to over-read as stronger than a bounded comparative review unit.
+- or the case would otherwise be too easy to over-read as more committed than a bounded comparative review unit.
 
 The load-bearing extension may inherit already-declared case ids, source pins, and provenance anchors instead of restating them inline.
 When recorded as a load-bearing review unit, that extension normally captures the ordinary minimum block plus any neighboring-pattern fields that remain load-bearing for the mixed case.
-Do not answer authored-unit instability by stacking more local fields onto the load-bearing extension. If `E.17.AUD.LHR` (`Local Head Restoration`) has already repaired the local lexical-head pressure and the same review unit still has unstable reviewed-source, governed-unit, comparative-move, or outside-work reading, move to `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`) first and only then decide how much heavier declaration weight should stay here.
+Do not answer authored-unit instability by stacking more local fields onto the load-bearing extension. If `E.17.AUD.LHR` (`Local Head Restoration`) has already repaired the local lexical-head pressure and the same review unit still has unstable reviewed-source, governed-unit, comparative-move, or outside-work reading, stabilize that authored-unit question with `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`) before deciding how much declaration weight should stay here.
 
 #### E.17.ID.CR:4.3.d - Load-bearing declaration block
 
 When the heavier declaration weight really stays here, the unit should still make at least these fields recoverable:
-- `sourceRelation`;
+- `sourceSupportPosture` using the shared `E.17:5.1b` vocabulary when the comparison depends on source pointer, source availability/retrieval, source use, source faithfulness, claim support, contradiction, omission, strengthening, added linkage, independent verification, admissible use, forbidden downstream use, or reopen trigger;
 - `sourceAnchorSet` or `sourceRefs`;
-- `sourceRelation = sameDescribedEntityPreservation | sameDescribedEntityContrast | boundedCorrespondence | audienceFacingReExpression`;
+- `comparativeRelationPosture = sameEntityComparisonPosture | sharedFrameDistinctAlternativePosture | readerFitComparativePosture`;
 - `comparisonBasis`;
 - `addedClaimPolicy`;
 - `bridgeStanceVisibility`;
-- required `bridgeCardRef` plus optional `bridgeStanceRef` when the case depends on bridge-mediated reading;
+- required `bridgeCardRef` plus optional `bridgeStanceRef` when the case depends on bridge-mediated comparative posture;
 - `targetUserModel` when reader-fit is materially shaping the reading;
 - `interactionMode` when the review unit is not just one static comparative sentence;
 - `contrastiveQuestion` when the case is answering a specific contrast;
@@ -53816,8 +54461,8 @@ When the heavier declaration weight really stays here, the unit should still mak
 - `downstreamAuthorityLimit`;
 - `baseCasePattern` when the review unit is a mixed case layered over `A.6.3.*` or `E.17.EFP`.
 
-`sourceRelation` is a sorting aid, not the thing that decides the selected governing pattern or authority source. The terms `sameDescribedEntityPreservation` and `sameDescribedEntityContrast` say only that the comparative review unit keeps the same described entity while making a preservation or contrast posture visible; they do not assert semantic identity.
-`audienceFacingReExpression` by itself does not open interpretation, and `boundedCorrespondence` by itself does not supply bridge declaration. `boundedCorrespondence` here is a comparative-reading posture; when cross-context bridge semantics are live, the actual bridge kind and Bridge Card remain owned by `F.9`. If bridge-mediated reading is live, `bridgeCardRef` is required and any `bridgeStanceRef` remains optional and subordinate.
+`sourceSupportPosture` is only source-support posture for the local claim/use. `comparativeRelationPosture` is only the comparative-relation posture of this review unit. Neither field is a `RelationKind`, `KindBridge`, Bridge Card, bridge support, bridge stance, semantic identity, equivalence, substitution, evidence relation, authority support, or decision support. The `sameEntityComparisonPosture` value is a special case for comparisons where the compared sources really describe the same entity; it does not assert semantic identity. When the unit compares distinct alternatives, use `sharedFrameDistinctAlternativePosture` plus distinct alternative refs, and do not treat the alternatives as equivalent or substitutable without bridge support.
+`readerFitComparativePosture` by itself does not open interpretation. Bounded correspondence wording that starts implying bridge support is bridge-mediated comparative posture: it requires an explicit `bridgeCardRef`, or the case exits to `F.9` / `F.9.1` before the comparison unit can carry that support. When cross-context bridge semantics are live, the actual bridge kind and Bridge Card remain owned by `F.9`. If bridge-mediated reading is live, `bridgeCardRef` is required and any `bridgeStanceRef` remains optional and subordinate.
 The main comparison question plus the neighboring pattern boundaries still decide the selected governing pattern or authority source.
 
 #### E.17.ID.CR:4.3.e - Interpretant-side block
@@ -53828,9 +54473,18 @@ Their current role is narrower:
 - make the contrastive question, guided review mode, and allowed use visible;
 - and stop interpretation prose from quietly becoming prompt-bearing guidance, assurance shorthand, or policy pressure.
 
-#### E.17.ID.CR:4.3.f - Representation ontology and modeling lens (informative)
+#### E.17.ID.CR:4.3.f - Static note versus interactive aid
 
-The early canonical lens for this pattern is already stated near the top: one comparative review unit over already available, source-pinned epistemes/publications, with the same `DescribedEntityRef` preserved, one bounded contrast made visible, and unsupported downstream claim/effect kept outside.
+Use two support levels.
+
+1. **Static comparative review note.** A static note, sheet, or short review unit normally needs only the reviewed source episteme/publication set, source anchors, `E.17:5.1b` source-support posture when source support is disputed, comparison basis, bounded lift, unsupported downstream claim/effect, world-contact limit, and exit trigger. Do not import interactive-explanation vocabulary into this ordinary case.
+2. **Interactive comparative aid.** Add `targetUserModel`, `interactionMode`, state/history needed for the live comparison, `misuseRisk`, and admissible-use boundary only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. These fields still do not authorize prompt/action selection, gate use, work/reliance, or approval; they only keep the interactive comparative aid from being mistaken for audience-neutral static prose.
+
+A comparative review unit may expose or cite source records being compared. It does not become those source records, a bridge card, a gate decision, or a work/reliance source by table layout, fluent contrast, side-by-side placement, or guided-review reuse. If required source support is missing, the repair/request/source-gap record is prospective only; it does not backdate source support into the earlier comparison.
+
+#### E.17.ID.CR:4.3.g - Representation ontology and modeling lens (informative)
+
+The early canonical lens for this pattern is already stated near the top: one comparative review unit over already available, source-pinned epistemes/publications, with the shared review frame preserved, one bounded contrast or small row set made visible, and unsupported downstream claim/effect kept outside.
 
 This informative note only unpacks that same lens. It does not introduce a second one.
 
@@ -53850,43 +54504,43 @@ The minimum typed lens is a compact record of:
 
 That lens is intentionally modest.
 It keeps the main read tied to the review unit and the problem-owning review domain, while leaving source, continuity, and exit discipline under whichever neighboring pattern still governs the base case.
-This pattern therefore does not create a rival bridge taxonomy, a rival base-case law, or a stronger authority-bearing publication of its own.
+This pattern therefore does not create a rival bridge taxonomy, a rival base-case discipline, or an authority-bearing publication of its own.
 
-#### E.17.ID.CR:4.3.g - Working read-out
+#### E.17.ID.CR:4.3.h - Working read-out
 
 A working reader should be able to say, in one short paragraph:
 - what reviewed source episteme/publication is being comparatively read;
 - what bounded interpretive lift is being added;
-- why the same `DescribedEntityRef` still remains preserved;
-- what stronger neighboring pattern is still not yet active;
-- and what exit would become mandatory if the case were read more strongly.
+- what shared review frame remains preserved, and, in the special same-described-entity case, why the same `DescribedEntityRef` remains preserved;
+- which higher-commitment neighboring pattern is still not yet active;
+- and what exit would become mandatory if the case were read as carrying a higher-commitment claim.
 
 If that read-out becomes fuzzy, the review unit is no longer bounded enough to stay here and should weaken, clarify, or move to the governing neighboring pattern.
 
-#### E.17.ID.CR:4.4 - Branch-law summary
+#### E.17.ID.CR:4.4 - Branch-discipline summary
 
 This section is the compact governing-rule summary for `ComparativeReading` inside the Core.
-It keeps the ComparativeReading governing rule recoverable for ordinary users and manager-first review.
-In mixed cases, the neighboring pattern law still remains primary where the base case really belongs to `A.6.3.*`, `F.9.1`, or `E.17.EFP`.
+It keeps the ComparativeReading governing rule recoverable for ordinary users and engineer-manager-first review.
+In mixed cases, the neighboring pattern discipline still remains primary where the base case really belongs to `A.6.3.*`, `F.9.1`, or `E.17.EFP`.
 
 Use the fuller solution, exit table, worked slices, and relations section here when exact clause wording, full field set, or full reopen conditions matter.
 Keep this pattern to these summary rules.
 
-1. **Preserve the same described entity.**
-   Keep the same `DescribedEntityRef`, visible reviewed source episteme/publication, visible source anchors, and one declared comparison basis; keep `contrastiveQuestion` explicit when it is doing real review work.
+1. **Preserve the shared review frame.**
+   Keep the review target, described situation, decision situation, release candidate, method family, control scope, problem frame, or source-set anchor visible; keep distinct alternatives distinct unless bridge/substitution support exists elsewhere; keep source anchors and one declared comparison basis per contrast row visible; keep `contrastiveQuestion` explicit when it is doing real review work.
 2. **Keep the lift bounded and comparative.**
-   The review unit may add a bounded comparative or asymmetry-bearing reading, but it may not quietly intensify into stronger theory, bridge licence, prompt-opening pressure, explanation governance, ontology shift, or downstream authority.
-3. **Classify the base case first.**
+   The review unit may add a bounded comparative or asymmetry-bearing reading, but it may not quietly intensify into higher-commitment theory, bridge licence, prompt-opening pressure, explanation governance, ontology shift, or downstream authority.
+3. **Name the base source relation or work question.**
    If the main question is really same-entity rewrite, bridge-stance overlay over an existing Bridge Card, explanation-face work, prompt opening, ontology reframing, retargeting, or downstream authority, this pattern should not stay primary.
-4. **Keep stronger neighboring patterns explicit.**
-   `boundedCorrespondence` still requires explicit `bridgeCardRef`; optional `bridgeStanceRef` may qualify only an existing bridge card. Prompt-worthy cases exit as `U.AbductivePrompt`; ontology pressure exits to `OntologicalReframing` or `A.6.4`; stronger action, gate, or adjudication use exits to downstream authority patterns. If the primary question is weaker-source rendering rather than bounded comparison, move to `A.6.3.CSC Controlled Semantic Coarsening`.
+4. **Keep higher-commitment neighboring patterns explicit.**
+   Bridge-mediated comparative posture still requires explicit `bridgeCardRef`; optional `bridgeStanceRef` may qualify only an existing bridge card. Prompt-worthy cases exit as `U.AbductivePrompt`; ontology pressure exits to `OntologicalReframing` or `A.6.4`; higher-commitment action, gate, or adjudication use exits to downstream authority patterns. If the primary question is weaker-source rendering rather than bounded comparison, move to `A.6.3.CSC Controlled Semantic Coarsening`.
 5. **Keep reader-fit bounded.**
    `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` may be stated when they are doing real work, but they do not authorize coaching, prompt/action selection, policy guidance, or an authority claim that the unit does not carry.
 
-#### E.17.ID.CR:4.5 - Quick exit glance
+#### E.17.ID.CR:4.5 - Neighboring-work boundary glance
 
-This table is a first-pass governing-pattern/source boundary aid only.
-For a fuller mixed-case read, read this table together with the neighboring pattern law.
+This table is a compact boundary aid for separating the comparative review unit from neighboring project work and source requirements.
+For a fuller mixed-case read, read this table together with the neighboring pattern discipline.
 
 | If the case is really doing this... | It should stay / move here... |
 | --- | --- |
@@ -53901,27 +54555,27 @@ For a fuller mixed-case read, read this table together with the neighboring patt
 | the target or ontology is changing and now needs continuity witnesses | `OntologicalReframing` / `A.6.4` |
 | the unit is now being used for execution, gate, or adjudication consequence | `A.15 / A.20 / A.21` |
 
-For first-minute use, read the four exit rows around the comparative-reading case itself as a compact mirror of the near-top entry check and the ordinary working card:
+For first-minute use, read the four boundary rows around the comparative-reading case itself as a compact mirror of the near-top working-fit check and the ordinary working card:
 - pressured local lexical head -> `E.17.AUD.LHR` (`Local Head Restoration`);
 - stable same-object comparative review unit -> stay with `ComparativeReading`;
 - same unit still unstable after local repair -> `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`);
-- stronger neighboring pattern already primary -> move out of this pattern.
-If you already know you are exiting rather than staying, use the non-stay rows first and then read `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` as the nearest worked exit bank.
+- higher-commitment neighboring pattern already primary -> move out of this pattern.
+If the comparison unit is already carrying neighboring work, use the boundary rows first and then read `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` as the nearest worked boundary examples.
 
 #### E.17.ID.CR:4.5.a - Ordinary working order for the card
 
 The shortest ordinary working order is:
-1. classify the base-case pattern first if the case is mixed;
-2. pin the reviewed source episteme/publication and make the same `DescribedEntityRef` visible;
-3. state the bounded comparative lift in one sentence;
+1. name the base source relation or work question if the case is mixed;
+2. pin the reviewed source episteme/publication and make the shared review frame plus any distinct alternatives visible;
+3. state the bounded comparative lift, or the small set of contrast rows and their row-level comparison bases, in compact form;
 4. declare the unsupported downstream claim/effect and the review-only / non-executive world-contact limit;
 5. name the exit trigger that would end interpretation.
 
-That five-step order is not a second ordinary working card, and it is not a canonical review workflow. It is only one local working aid for this pattern.
+That five-step order is not a second ordinary working card, and it is not a canonical review process. It is only one local working aid for this pattern.
 It is the shortest way to recover the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`.
 In ordinary use, publish the resulting seven-row card in compact form rather than a heavier load-bearing declaration block whenever boundary pressure still stays low.
 If the seven-row working card still cannot be completed plainly through that order, the review unit is not yet ready to stay here.
-If the note, sheet, or review aid first has to answer what it is about, what move it is carrying, and what wider work remains outside, move to `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`) before continuing comparative-reading work.
+If the note, sheet, or review aid first has to answer what it is about, what move it is carrying, and what wider work remains outside, stabilize that authored-unit question with `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`) before continuing comparative-reading work.
 
 ### E.17.ID.CR:5 - Archetypal grounding
 
@@ -53951,14 +54605,14 @@ One note is anchored in the maintenance log, the other in the continuity dashboa
 #### E.17.ID.CR:5.3 - Show (Episteme)
 
 **Source slice.** Two pinned analytic renderings over the same evidence set are already available for review.
-One rendering is a `SourceLinkedReconstruction` on a Tech face; the other is a compact comparison sheet that preserves the same evidence set and the same described operational episode.
+One rendering is a `SourceLinkedExplanationReconstruction` on a `TechCard` face; the other is a compact comparison sheet that preserves the same evidence set and the same described operational episode.
 
-**Comparative review unit.** `For maintenance reviewers, the reconstruction foregrounds operator load more strongly than the comparison sheet, while the comparison sheet foregrounds recovery sequencing more strongly than the reconstruction; this difference is useful for review, but it is not yet a design recommendation or an action-selection claim.`
+**Comparative review unit.** `For maintenance reviewers, the reconstruction foregrounds operator load more than the comparison sheet, while the comparison sheet foregrounds recovery sequencing more than the reconstruction; this difference is useful for review, but it is not yet a design recommendation or an action-selection claim.`
 
 **Why this stays here.**
 - the base-case governing patterns remain identifiable;
 - the comparative lift is explicit and bounded to one reviewer task;
-- explanation-face governance and same-entity transform law remain with their neighboring patterns;
+- explanation-face governance and same-entity transform discipline remain with their neighboring patterns;
 - downstream authority and prompt-bearing action-selection pressure remain negative.
 
 #### E.17.ID.CR:5.4 - Boundary bank
@@ -53985,9 +54639,9 @@ Why this remains mixed rather than collapsing:
 
 ##### E.17.ID.CR:5.4.3 - Mixed primary-pattern composition with `E.17.EFP`
 
-**Base-case rendering.** A Tech-face explanation rendering is already classified as `SourceLinkedReconstruction` and publishes a bounded connective policy.
+**Base-case rendering.** A `TechCard`-face explanation rendering is already classified as `SourceLinkedExplanationReconstruction` and publishes a bounded connective policy.
 
-**Comparative review unit.** `For maintenance reviewers, this rendering foregrounds the difference between operator load and throughput pressure more strongly than the original prose, but it should not be read as a stronger design-level recommendation.`
+**Comparative review unit.** `For maintenance reviewers, this rendering foregrounds the difference between operator load and throughput pressure more than the original prose, but it should not be read as a higher-commitment design-level recommendation.`
 
 Why this stays mixed rather than collapsing:
 - `E.17.EFP` still owns explanation class and face admissibility;
@@ -54010,9 +54664,9 @@ Why it stays here:
 **Source slice.** Two already available design-review notes describe the same integration boundary for the same planned release.
 One note foregrounds coupling and rollback pressure; the other foregrounds delivery simplicity and lower immediate implementation cost.
 
-**Comparative review unit.** `For architecture review, the first note foregrounds coupling risk more strongly than the second, while the second foregrounds delivery speed more strongly than the first; that asymmetry is useful for discussion, but it is not yet a recommendation to choose either option.`
+**Comparative review unit.** `For architecture review, the first note foregrounds coupling risk more than the second, while the second foregrounds delivery speed more than the first; that asymmetry is useful for discussion, but it is not yet a recommendation to choose either option.`
 
-**Entry-triage reading.** This is the ordinary stay-here case: one honest local repair and one authored-unit check would already leave the review unit stable enough that the bounded comparative review move itself stays primary.
+**Working-boundary reading.** This is the ordinary stay-here case: one honest local repair and one authored-unit check would already leave the review unit stable enough that the bounded comparative review move itself stays primary.
 
 Why it stays here:
 - the same planned release remains the `DescribedEntityRef`;
@@ -54023,21 +54677,21 @@ Why it stays here:
 
 **Source slice.** An internal control checklist and a vendor compliance bulletin are already available for the same release candidate and the same declared control scope.
 
-**Comparative review unit.** `For release review, the vendor bulletin foregrounds protocol conformance more strongly than rollback evidence, while the internal checklist foregrounds rollback evidence more strongly than protocol conformance; this comparison helps frame the review, but it is not yet a release gate or equivalence claim.`
+**Comparative review unit.** `For release review, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal checklist foregrounds rollback evidence more than protocol conformance; this comparison helps frame the review, but it is not yet a release gate or equivalence claim.`
 
-**Entry-triage reading.** This is the same stay-here case under a release/compliance load: the comparison unit is already stable enough, so the primary question is the bounded contrast rather than local repair or authored-unit stabilization.
+**Working-boundary reading.** This is the same stay-here case under a release/compliance load: the comparison unit is already stable enough, so the primary question is the bounded contrast rather than local repair or authored-unit stabilization.
 
 Why it stays here:
 - the comparison basis is explicit and bounded to one review task;
 - the source anchors remain visible and the same release candidate stays in view;
-- the review unit helps a manager see a review asymmetry without laundering gate authority.
+- the review unit helps an engineer-manager see a review asymmetry without laundering gate authority.
 
 ##### E.17.ID.CR:5.4.6.a - Research-review comparison case
 
 **Source slice.** Two already available research syntheses discuss the same measured phenomenon and the same declared evidence slice.
-One synthesis foregrounds variance decomposition limits more strongly; the other foregrounds protocol repeatability more strongly.
+One synthesis foregrounds variance decomposition limits more; the other foregrounds protocol repeatability more.
 
-**Comparative review unit.** `For method review, the first synthesis foregrounds uncertainty-handling limits more strongly than the second, while the second foregrounds repeatability support more strongly than the first; this asymmetry helps frame the discussion, but it is not yet a method choice or a claim that one synthesis is globally better.`
+**Comparative review unit.** `For method review, the first synthesis foregrounds uncertainty-handling limits more than the second, while the second foregrounds repeatability support more than the first; this asymmetry helps frame the discussion, but it is not yet a method choice or a claim that one synthesis is globally better.`
 
 Why it stays here:
 - the same measured phenomenon remains the `DescribedEntityRef`;
@@ -54047,9 +54701,9 @@ Why it stays here:
 ##### E.17.ID.CR:5.4.6.b - Program and cultural-review comparison case
 
 **Source slice.** Two already available programme briefs discuss the same continuing initiative and the same declared participation scope.
-One foregrounds continuity of community engagement more strongly; the other foregrounds short-term event visibility more strongly.
+One foregrounds continuity of community engagement more; the other foregrounds short-term event visibility more.
 
-**Comparative review unit.** `For programme review, the first brief foregrounds participation continuity more strongly than the second, while the second foregrounds short-term visibility more strongly than the first; this comparison helps frame the discussion, but it is not yet a funding, curation, or programme-direction decision.`
+**Comparative review unit.** `For programme review, the first brief foregrounds participation continuity more than the second, while the second foregrounds short-term visibility more than the first; this comparison helps frame the discussion, but it is not yet a funding, curation, or programme-direction decision.`
 
 Why it stays here:
 - the same initiative remains the `DescribedEntityRef`;
@@ -54061,27 +54715,51 @@ Why it stays here:
 **Source slice.** An internal release-review comparison sheet already compares one control checklist and one vendor bulletin for the same declared release candidate and the same control scope.
 Mid-review, an external incident bulletin arrives and changes the live rollback assumptions for that same candidate.
 
-**Initial comparative review unit.** `Before the new bulletin, the vendor bulletin foregrounds protocol conformance more strongly than rollback evidence, while the internal checklist foregrounds rollback evidence more strongly than protocol conformance; this comparison frames the review, but it is not yet a release gate or equivalence claim.`
+**Initial comparative review unit.** `Before the new bulletin, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal checklist foregrounds rollback evidence more than protocol conformance; this comparison frames the review, but it is not yet a release gate or equivalence claim.`
 
-**Entry-triage follow-through.** This case begins on the same admissible stay-here case as `E.17.ID.CR:5.4.6`, but outside observation then changes the declared comparison basis, so the unit must stop and reopen instead of being carried forward by inertia.
+**Working-boundary follow-through.** This case begins on the same admissible stay-here case as `E.17.ID.CR:5.4.6`, but outside observation then changes the declared comparison basis, so the unit must stop and reopen instead of being carried forward by inertia.
 
 **Why this must stop and reopen.**
 - the new outside observation changes the declared comparison basis;
 - the previous bounded comparison may remain traceable, but it cannot continue by inertia as if the same live review conditions still held;
-- the admissible next move is either to restate a fresh comparative review unit over the new declared basis or to move into a neighboring lane if downstream gate or authority question has now become primary.
+- the admissible next move is either to restate a fresh comparative review unit over the new declared basis or to move to a neighboring governing pattern if downstream gate or authority question has now become primary.
 
 ##### E.17.ID.CR:5.4.6.d - Lighter comparison note with source-return discipline
 
 **Source episteme/publication set.** A release team already has the full internal rollback worksheet, vendor bulletin, and incident-note bundle for one release candidate. A short comparison note is then prepared for the daily review stand-up.
 
-**Comparative review unit.** `For today's review, the vendor bulletin foregrounds protocol conformance more strongly than rollback evidence, while the internal rollback worksheet foregrounds rollback evidence more strongly than protocol conformance; this short note is only a review aid over the same release candidate, and the full source episteme/publication set remains primary for any bridge, release, coarsening, or work/reliance reading.`
+**Comparative review unit.** `For today's review, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal rollback worksheet foregrounds rollback evidence more than protocol conformance; this short note is only a review aid over the same release candidate, and the full source episteme/publication set remains primary for any bridge, release, coarsening, or work/reliance reading.`
 
 Why it still stays here:
 - the governed object is still one bounded comparative review unit, not a replacement for the source episteme/publication set;
 - the note remains source-pinned through the already available source episteme/publication set and openly forbids bridge, gate, or work/reliance use that it does not carry;
 - any attempt to treat the short note as enough for equivalence, release approval, execution pressure, or a weaker-use source substitute forces fuller-source return, `A.6.3.CSC Controlled Semantic Coarsening`, or another neighboring-pattern exit.
 
-**Nearest first-minute exit bank.** The next four cases are the nearest worked exits for the quick exit bank above: prompt pressure, same-entity viewing, ontology shift, and gate or authority misuse. Use them when the near-top negative-boundary rows fit and you need one worked exit cue before opening the heavier ComparativeReading governing-pattern stack.
+##### E.17.ID.CR:5.4.6.e - Functional versus constructive-description comparison
+
+**Source slice.** A functional-description publication and a constructive/product-description publication describe the same pumping skid. The functional description foregrounds flow relation and method-selection support; the constructive description foregrounds module composition and installed equipment.
+
+**Comparative review unit.** `For design review, the functional description foregrounds what the skid is supposed to do in the declared flow relation, while the constructive description foregrounds what parts are present. This contrast helps the engineer keep function and construction separate, but it is not a module-equivalence claim, a performed-work record, or a gate decision.`
+
+Why it stays here:
+- both source publications remain anchored and inspectable;
+- the same pumping skid remains the `DescribedEntityRef`;
+- the bounded comparative lift is the function-versus-construction contrast for one review task;
+- module equivalence, work occurrence, evidence, and gate claims remain unsupported downstream uses.
+
+##### E.17.ID.CR:5.4.6.f - Method-option comparison without method choice
+
+**Source slice.** Two method descriptions are already pinned for the same fabrication task. One foregrounds lower setup cost; the other foregrounds tighter result-measurement discipline.
+
+**Comparative review unit.** `For method review, method M-1 foregrounds lower setup cost more, while method M-2 foregrounds result-measurement discipline more. This comparison helps prepare method discussion, but it is not yet the selected method, not a work plan, and not evidence that either method has been performed.`
+
+Why it stays here:
+- the reviewed source epistemes are pinned;
+- the comparison basis is explicit;
+- no selected-method, work-plan, performed-work, evidence, or engineering-justification claim is added;
+- if the team chooses a method or prepares a work plan, record the selected method or work plan as project method/plan/work material governed by `A.15`.
+
+**Nearest neighboring-work examples.** The next four cases are the nearest worked boundaries for prompt pressure, same-entity viewing, ontology shift, and gate or authority misuse. Use them when the near-top negative-boundary rows fit and you need one worked cue for keeping the comparison unit from carrying outside work.
 
 
 ##### E.17.ID.CR:5.4.7 - Upper-boundary prompt-bearing exit case
@@ -54107,7 +54785,7 @@ Why it does not enter interpretation:
 **Ontology-pressuring review unit.** `The older maintenance note and the new field-observation note are best read as two observational cuts over the same latent failure mode, so we should recast both under a new operational kind and treat the source labels as legacy labels.`
 
 Why it exits:
-- the case is now asking for a stronger same-referent / new-intension reading;
+- the case is now asking for a higher-commitment same-referent / new-intension reading;
 - continuity witnesses would now be needed;
 - bounded comparative reading is no longer enough, so the case exits toward `OntologicalReframing`.
 
@@ -54126,7 +54804,7 @@ Why it exits:
 
 Why it is invalid here:
 - no source anchors are visible;
-- `boundedCorrespondence` is being implied without explicit bridge declaration;
+- bridge-mediated comparison is being implied without explicit bridge declaration;
 - unsupported substitution and authority claims are being smuggled in through soft phrasing.
 
 **Minimal repair.** `Under bridge card BC-12 and the stated comparison basis, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme/publication set remains primary.`
@@ -54142,41 +54820,47 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
 Scope: **bounded comparative review units governed under the `ComparativeReading` governing pattern inside `InterpretationDiscipline`**, not a universal claim about all review or publication forms.
 
 This pattern intentionally biases toward bounded comparative reading and away from hidden bridge inflation, explanation laundering, ontology shift, action-selection pressure, or downstream-authority inflation.
-The main mitigations are explicit primary-pattern classification, visible source anchors, explicit interpretant-side boundedness, explicit unsupported downstream claim/effect, explicit governed-object surfacing, and hard exits to bridge, abductive, ontology, retargeting, and downstream-authority patterns.
+The main mitigations are explicit primary-governing-pattern naming, visible source anchors, explicit interpretant-side boundedness, explicit unsupported downstream claim/effect, explicit governed-object surfacing, and hard boundaries to bridge, abductive, ontology, retargeting, and downstream-authority patterns.
 Under the governance lens, the pattern is deliberately conservative: it helps a user prepare or review a bounded comparative review unit without letting that unit quietly become policy, assurance, gate, or action authority.
 
 ### E.17.ID.CR:7 - Conformance Checklist
 
-Use this as the ordinary checklist for this pattern.
-For fuller mixed-case read, read this checklist together with the neighboring pattern law and the exit boundaries gathered in this section.
+A conformance check is retained only if it changes the next admissible use of the comparative review unit, blocks a concrete overclaim, or preserves a source/reopen path needed for the declared supported use.
+
+Use ID.CR-Core for ordinary comparison notes. Conditional rows open only when the note touches neighboring-pattern relation, bridge declaration, or reader-fit fields. For fuller mixed-case read, read this checklist together with the neighboring pattern discipline and the exit boundaries gathered in this section.
 
 **Assurance recovery note.** Read this checklist as a heavier read-back of the already-declared ComparativeReading governing rule, not as a second rule list. If a row cannot be recovered through the ordinary seven-row card, the nearest worked slices, or the practical safeguards already named in the pattern, the case is not yet stable enough to rely on checklist prose alone.
 
+#### E.17.ID.CR:7.1 - ID.CR-Core ordinary checks
+
 1. **CC-ID-1 - Governed object is explicit.**
-   The pattern makes clear that the governed object is a comparative review unit rather than the whole review workflow or a hidden mental act.
+   The pattern makes clear that the governed object is a comparative review unit rather than the whole review or decision work or a hidden mental act.
 2. **CC-ID-2 - Source anchors and comparison basis are explicit.**
    A reviewer can see what already-fixed source episteme/publication is being read and what declared comparison basis or contrast is carrying the lift.
 3. **CC-ID-3 - The lift stays bounded.**
    The pattern keeps the comparative lift visibly weaker than bridge licence, explanation governance, prompt opening, ontology shift, or authority-bearing guidance.
-4. **CC-ID-4 - Host-first governing-pattern selection is explicit.**
-   A reviewer can tell why the case does not really belong to `A.6.3.*`, `F.9.1`, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
-5. **CC-ID-5 - Bridge declaration does not hide.**
-   If `boundedCorrespondence` is live, `bridgeCardRef` is required; optional `bridgeStanceRef` remains visible and subordinate to that existing bridge card.
-6. **CC-ID-6 - Stronger exits stay visible.**
+4. **CC-ID-6 - Stronger exits stay visible.**
    Prompt-worthiness, ontology pressure, or downstream authority pressure leads to an explicit governing-pattern exit rather than staying hidden inside comparative prose.
-7. **CC-ID-7 - Reader-fit stays bounded.**
-   `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` are visible when needed, but they do not open an authority claim that the unit does not carry.
-8. **CC-ID-8 - The review unit does not over-claim authority.**
+5. **CC-ID-8 - The review unit does not over-claim authority.**
    The unit is still review-only / non-executive and does not present itself as substitution licence, gate guidance, or action authority.
+
+#### E.17.ID.CR:7.2 - ID.CR-Conditional checks
+
+1. **CC-ID-4 - Base-case governing-pattern relation is explicit.**
+   A reviewer can tell why the case does not really belong to `A.6.3.*`, `F.9.1`, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
+2. **CC-ID-5 - Bridge declaration does not hide.**
+   If bridge-mediated comparative posture is live, `bridgeCardRef` is required; optional `bridgeStanceRef` remains visible and subordinate to that existing bridge card.
+3. **CC-ID-7 - Reader-fit stays bounded.**
+   `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` are visible when needed, but they do not open an authority claim that the unit does not carry.
 
 **Checklist recovery map.** If an assurance-side reader needs to cash one checklist row out by value, use the nearest ordinary card row and worked recovery below before treating the checklist as self-sufficient:
 
 | Checklist row | Recover through first | Nearest worked or practical recovery |
 | --- | --- | --- |
-| `CC-ID-1` | `E.17.ID.CR:4.3.b.a` rows **Reviewed source** and **Same described entity** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
+| `CC-ID-1` | `E.17.ID.CR:4.3.b.a` rows **Reviewed source** and **Shared review frame / alternative identities** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
 | `CC-ID-2` | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source anchors**, and **Bounded lift** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
 | `CC-ID-3` | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Unsupported downstream claim/effect**, and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
-| `CC-ID-4` | near-top **Quick exit bank**, **Quick first check**, and `E.17.ID.CR:4.5 - Quick exit glance` | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
+| `CC-ID-4` | near-top **Neighboring-work boundary**, **Quick working-fit check**, and `E.17.ID.CR:4.5 - Neighboring-work boundary glance` | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
 | `CC-ID-5` | `E.17.ID.CR:4.3.d` bridge-declaration fields plus `E.17.ID.CR:4.2` neighboring patterns | `E.17.ID.CR:5.4.1`, `E.17.ID.CR:5.4.2`, `E.17.ID.CR:5.4.3` |
 | `CC-ID-6` | `E.17.ID.CR:4.3.b.a` row **Exit trigger** plus the near-top exit corridor | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
 | `CC-ID-7` | `E.17.ID.CR:4.3.d` interpretant-side fields, kept subordinate to the ordinary card and unsupported downstream claim/effect | `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` |
@@ -54188,9 +54872,9 @@ For fuller mixed-case read, read this checklist together with the neighboring pa
 | Anti-pattern | Why it is wrong | How to avoid it |
 | --- | --- | --- |
 | **Governed-object instability** | The text sounds as if it governs a note in one section, a publication artifact in another, a reading move in a third, and a whole review process in a fourth. | Stabilise one governed object early and keep note/sheet/UI/rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
-| **Bridge gloss inflation** | A helpful comparative sentence starts acting like a bridge licence the declared bridge card and stance do not allow. | Keep `boundedCorrespondence` tied to required `bridgeCardRef`; use optional `bridgeStanceRef` only as a subordinate overlay under `F.9.1`. |
+| **Bridge gloss inflation** | A helpful comparative sentence starts acting like a bridge licence the declared bridge card and stance do not allow. | Keep bridge-mediated comparative posture tied to required `bridgeCardRef`; use optional `bridgeStanceRef` only as a subordinate overlay under `F.9.1`. |
 | **Soft prompt smuggling** | The review unit is really opening a question or action-selection case, but hides it in gentle prose. | If prompt/action-selection pressure becomes live, publish `U.AbductivePrompt` with explicit `promptSpecies`, `openQuestion`, and cue or action-selection provenance instead of keeping it here. |
-| **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Classify the base pattern first and open interpretation only when comparative lift is primary. |
+| **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use comparative reading only when bounded comparative lift is primary. |
 | **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and admissibility review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
 | **Gentle-tone advisory overread** | A calm explanatory tone makes work/reliance, assurance, or gate guidance sound harmless. | Publish `allowedUse`, `misuseRisk`, `worldContactPolicy`, and `downstreamAuthorityLimit` explicitly. |
 | **Described-entity shift** | A changed target is mislabeled as interpretation because the prose still sounds comparative. | Exit to `OntologicalReframing` or `A.6.4` once continuity witnesses or changed target become load-bearing. |
@@ -54213,46 +54897,45 @@ This pattern exists to protect that everyday review move.
 It keeps a comparative review unit usable by making five things visible enough to inspect: the governed object, the source anchors, the bounded comparative lift, the unsupported downstream claim/effect, and the exit trigger that would end interpretation.
 The gain is practical: a team can compare available source epistemes/publications honestly without pretending that a helpful review unit already carries more authority than it really does.
 
-### E.17.ID.CR:11 - SoTA-Echoing
+### E.17.ID.CR:11 - SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts
 
-**SoTA note.** This section does not mint an independent second rule layer. It stays truthful only when the Solution, Conformance Checklist, boundary rules, and Relations of this pattern still tell the same story about the governed move and its limits.
+**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 **Assurance recovery note.** Read each row here as a heavier confirmation of one already-declared ComparativeReading governing rule. If a row cannot be recovered through the ordinary card, the interpretant-side block, the quick exit corridor, or the nearest worked slices, do not let the citation carry the pattern by itself.
 
 **Traditions covered.** This pattern binds itself to architecture-description governance, explainable-AI review discipline, and interactive explanation-system practice. These rows are selected because they discipline recurrent review work in the problem-owning domains named in the case bank; they are not a decorative literature collage added after the governing pattern was chosen.
 
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with the current `ComparativeReading` governing pattern | Nearest recovery anchor | Adoption status |
+| Claim need | Source idea / current source | Current source locus | Local FPF invariant / practical local test | Nearest recovery anchor | Adopted/adapted invariant / rejected shortcut |
 | --- | --- | --- | --- | --- | --- |
-| Comparative review units should stay tied to explicit source, view, and review structure rather than shifting through helpful prose alone. | Architecture-description practice treats views, viewpoints, and comparison units as explicit review objects rather than letting reader-help prose replace structural review. | ISO/IEC/IEEE 42010:2022 | This pattern adopts explicit source anchors, declared comparison basis, and explicit exit rules instead of letting comparative fluency define the case. | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source anchors**, and **Bounded lift**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` | **Adopt.** |
-| Interpretation and explanation support are use-sensitive and bounded by reader role and knowledge limits rather than audience-neutral by default. | Explainable-AI guidance distinguishes explanation, meaningfulness for intended users, explanation accuracy, and knowledge limits instead of treating all supportive prose as equally safe. | Phillips et al. (2021), NIST IR 8312, *Four Principles of Explainable Artificial Intelligence* | This pattern adapts that stance into `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk`, while still keeping explanation-face classification with `E.17.EFP`. | `E.17.ID.CR:4.3.d` interpretant-side block, kept subordinate to the ordinary card; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` | **Adopt/Adapt.** |
-| Interactive interpretive aids need explicit interaction architecture so that helpful guidance does not quietly become stronger authority. | Interactive explanation-system practice treats user model, interaction mode, and explanation lifecycle as load-bearing architecture elements rather than optional interface gloss. | *X-SYS: A Reference Architecture for Interactive Explanation Systems* (2026) | This pattern adapts that lesson narrowly: bounded interaction is allowed only while prompt, ontology, and authority exits remain explicit and stronger governed exits remain negative. | `E.17.ID.CR:4.3.d` interaction fields plus `E.17.ID.CR:4.5 - Quick exit glance`; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.7` | **Adapt.** |
-| Faithful support is not the same as merely plausible or persuasive prose. | Current interpretation research distinguishes faithful support from attractive but weakly grounded narrative, especially in explanation-like publication. | Jacovi and Goldberg (2020), *Towards Faithfully Interpretable NLP Systems* | This pattern adopts explicit source anchors, unsupported downstream claim/effect, and bridge-claim visibility so that bounded comparative reading is not over-read as semantic authority it does not carry. | `E.17.ID.CR:4.3.b.a` rows **Unsupported downstream claim/effect** and **World-contact limit**; `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` | **Adopt.** |
+| Comparative review units should stay tied to explicit source, view, and review structure rather than shifting through helpful prose alone. | Architecture-description practice treats views, viewpoints, and comparison units as explicit review objects rather than letting reader-help prose replace structural review. | ISO/IEC/IEEE 42010:2022; source maturity = mature standard | This pattern adopts explicit source anchors, declared comparison basis, and explicit exit rules instead of letting comparative fluency define the case. | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source anchors**, and **Bounded lift**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` | **Adopt.** |
+| Interpretation and explanation support are use-sensitive and bounded by reader role and knowledge limits rather than audience-neutral by default. | Explainable-AI guidance distinguishes explanation, meaningfulness for intended users, explanation accuracy, and knowledge limits instead of treating all supportive prose as equally safe. | Phillips et al. (2021), NIST IR 8312, *Four Principles of Explainable Artificial Intelligence*; source maturity = current government guidance | This pattern adapts that stance into `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk`, while still keeping explanation-face use discipline with `E.17.EFP`. | `E.17.ID.CR:4.3.d` interpretant-side block, kept subordinate to the ordinary card; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` | **Adopt/Adapt.** |
+| Static comparative notes and interactive comparative aids must not carry the same support load. | Static review notes need source anchors, comparison basis, bounded lift, unsupported downstream claim/effect, and exit; interactive explanation-system practice becomes relevant only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3; source maturity = emerging preprint, not settled standard. | This pattern keeps the ordinary seven-row card sufficient for static notes and adds `targetUserModel`, `interactionMode`, state/history, `misuseRisk`, and admissible-use boundary only for actual interactive comparative aids. | `E.17.ID.CR:4.3.b.a` ordinary card; `E.17.ID.CR:4.3.f` static/interactive split; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.7` | **Adapt conditionally.** Reject importing XAI architecture into ordinary static notes. |
+| Faithful support is not the same as merely plausible or persuasive prose. | Current interpretation research distinguishes faithful support from attractive but weakly grounded narrative, especially in explanation-like publication. | Jacovi and Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*; source maturity = research paper supporting evaluation posture | This pattern adopts explicit source anchors, `E.17:5.1b` source-support posture when live, unsupported downstream claim/effect, and bridge-claim visibility so that bounded comparative reading is not over-read as semantic authority it does not carry. | `E.17.ID.CR:4.3.b.a` rows **Unsupported downstream claim/effect** and **World-contact limit**; `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` | **Adopt.** |
 
-**Row 1.** The ISO row matters because this pattern is governing reviewable comparative units, not free comparative commentary. The pattern adopts the explicit-structure lesson directly: comparison basis, source anchors, and exit rules must stay visible enough that a reviewer is not forced to infer the real comparison question from tone alone. Ordinary recovery: read the **Reviewed source**, **Source anchors**, and **Bounded lift** rows together before leaning on the citation. Manager payoff: a comparison note can help a review meeting move faster without being mistaken for a free-form equivalence judgement. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.a`.
+**Row 1.** The ISO row matters because this pattern is governing reviewable comparative units, not free comparative commentary. The pattern adopts the explicit-structure lesson directly: comparison basis, source anchors, and exit rules must stay visible enough that a reviewer is not forced to infer the real comparison question from tone alone. Ordinary recovery: read the **Reviewed source**, **Source anchors**, and **Bounded lift** rows together before leaning on the citation. Engineer-manager payoff: a comparison note can help a review meeting move faster without being mistaken for a free-form equivalence judgement. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.a`.
 
-**Row 2.** The NIST row matters because this pattern is not really audience-neutral even when the review unit looks small. The pattern therefore adapts user-meaningfulness and knowledge-limit practice into explicit interpretant-side fields, while rejecting any move that would let those fields replace source or pattern discipline. Assurance recovery: keep those fields subordinate to the ordinary card and unsupported downstream claim/effect rather than letting them stand alone. Manager payoff: the note can be written for a real audience and task without pretending it is safe for every audience and every downstream use. Case linkage: see `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.b`.
+**Row 2.** The NIST row matters because this pattern is not really audience-neutral even when the review unit looks small. The pattern therefore adapts user-meaningfulness and knowledge-limit practice into explicit interpretant-side fields, while rejecting any move that would let those fields replace source or pattern discipline. Assurance recovery: keep those fields subordinate to the ordinary card and unsupported downstream claim/effect rather than letting them stand alone. Engineer-manager payoff: the note can be written for a real audience and task without pretending it is safe for every audience and every downstream use. Case linkage: see `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.b`.
 
-**Row 3.** The interactive-system row matters because bounded comparative aids can become stronger than static prose without crossing into a full new governed pattern of their own. The pattern adapts only the minimal architectural lesson it needs: if interaction mode is load-bearing, that fact must be explicit and must still stop before prompt, ontology, or authority escalation. Assurance recovery: read that pressure through the interaction fields plus the prompt and authority exit rows rather than treating the source citation as a licence for stronger guidance. Manager payoff: a guided comparative UI can stay useful for review without silently becoming coaching, prompt/action selection, or approval machinery. Case linkage: see `E.17.ID.CR:5.4.4` and `E.17.ID.CR:5.4.7`.
+**Row 3.** The interactive-system row matters because bounded comparative aids can become more directive than static prose without crossing into a full new governed pattern of their own. The pattern adapts only the minimal architectural lesson it needs: if interaction mode is load-bearing, that fact must be explicit and must still stop before prompt, ontology, or authority escalation. Assurance recovery: read that pressure through the interaction fields plus the prompt and authority exit rows rather than treating the source citation as a licence for higher-commitment guidance. Engineer-manager payoff: a guided comparative UI can stay useful for review without silently becoming coaching, prompt/action selection, or approval machinery. Case linkage: see `E.17.ID.CR:5.4.4` and `E.17.ID.CR:5.4.7`.
 
-**Row 4.** The faithfulness row matters because a comparative review unit can sound careful while still smuggling bridge, prompt, or authority claims. The pattern adopts the demand for explicit grounding, but rejects any shortcut where plausible comparative prose is treated as if it were already a semantic or operational licence. Ordinary recovery: use the **Unsupported downstream claim/effect** and **World-contact limit** rows before letting polished prose win the argument by tone. Manager payoff: polished prose is no longer enough to overrule the underlying source episteme/publication set or to sneak in a decision claim. Case linkage: see `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, and `E.17.ID.CR:5.4.11`.
+**Row 4.** The faithfulness row matters because a comparative review unit can sound careful while still smuggling bridge, prompt, or authority claims. The pattern adopts the demand for explicit grounding, but rejects any shortcut where plausible comparative prose is treated as if it were already a semantic or operational licence. Ordinary recovery: use the **Unsupported downstream claim/effect** and **World-contact limit** rows before letting polished prose win the argument by tone. Engineer-manager payoff: polished prose is no longer enough to overrule the underlying source episteme/publication set or to sneak in a decision claim. Case linkage: see `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, and `E.17.ID.CR:5.4.11`.
 
 ### E.17.ID.CR:12 - Relations
 
-- **Naming-level umbrella:** `InterpretationDiscipline` names the wider interpretation family for this governing pattern.
+- **Naming-level family:** `InterpretationDiscipline` names the wider interpretation family for this governing pattern.
 - **Governing pattern:** `ComparativeReading` over comparative review units.
 - **Inherited dynamic frame:** `C.2.2a` and `A.16.0`, where what moves is a lineage of successive governed `U.Episteme` publications over `U.CharacteristicSpace`.
-- **Governed-unit / carrier reading:** the comparative review unit is one working review unit that may be carried by an admissible `PublicationSurface` over that inherited frame; it is not the moving lineage itself, not a carrier, and not the whole review workflow.
-- **Builds on:** `C.2.2a`, `A.16.0`, `F.9`, `E.14`
-- **Mixed-case dependency rule:** in mixed cases, this pattern stays subordinate to whichever neighboring pattern still governs the base case (`A.6.3.*`, `F.9.1`, or `E.17.EFP`), including that pattern's source, continuity, and exit constraints.
+- **Governed-unit / carrier reading:** the comparative review unit is one working review unit that may be carried by an admissible `PublicationSurface` over that inherited frame; it is not the moving lineage itself, not a carrier, and not the whole review or decision work.
+- **Builds on:** `C.2.2a`, `A.16.0`, `F.9`, `F.9.1`, Part F / `A.6.9`, and `E.14`.
+- **Mixed-case dependency rule:** in mixed cases, this pattern stays subordinate to whichever neighboring pattern still governs the base case (`A.6.3.*`, `F.9` / `F.9.1`, Part F / `A.6.9`, or `E.17.EFP`), including that pattern's source, continuity, bridge, wording-repair, and exit constraints.
 - **Primary rule here:** this section carries the summary, checklist, worked slices, and boundary block for `ComparativeReading`; mixed-case neighboring pattern rule remains primary where the base case still belongs elsewhere.
 - **Repair-only neighbors when local instability is real:** use `E.17.AUD.LHR` (`Local Head Restoration`) when lexical-head kind or qualifier pressure is still local; use `E.17.AUD.OOTD` (`AuthoredUnit Primary Described-Entity Discipline`) when the same review unit still has unstable reviewed-source, governed-unit, comparative-move, or outside-work reading after local repair. These neighboring patterns are not always-on prerequisites for ordinary `ComparativeReading` use.
-- **Coordinates with:** `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `F.9.1`, `E.17.EFP`, `B.5.2.0`, `B.5.2`, `OntologicalReframing`, `A.6.4`, `A.15`, `A.20`, `A.21`
-- **Nearest neighboring patterns:** `A.6.3.*`, `F.9.1`, `E.17.EFP`, and `B.5.2.0 / B.5.2`
-- **Main exits:** abductive-prompt pressure exits to `B.5.2.0 / B.5.2`; ontology and changed-target pressure exit to `OntologicalReframing` or `A.6.4`; downstream work/reliance, gate, assurance, and adjudication pressure exit to `A.15 / A.20 / A.21`
-- **Boundary notes:** same-entity transform rule stays with `A.6.3.*`; bridge-stance overlay stays with `F.9.1` over an existing `F.9` Bridge Card; explanation-face governance stays with `E.17.EFP`; weaker source-pinned renderings with narrower-use / forbidden-use / reopen discipline move to `A.6.3.CSC Controlled Semantic Coarsening`; bounded comparative reading does not by itself authorize downstream use it does not carry.
-- **Non-goal:** this pattern does not create a rival authority-bearing publication, a rival bridge taxonomy, or a rival base-case law of its own.
+- **Coordinates with:** `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `F.9.1`, Part F / `A.6.9`, `E.17.EFP`, `B.5.2.0`, `B.5.2`, `OntologicalReframing`, `A.6.4`, `A.15`, `A.15.4`, `A.20`, `A.21`.
+- **Nearest neighboring FPF patterns for outside work:** `A.6.3.*`, `F.9` / `F.9.1`, Part F / `A.6.9`, `E.17.EFP`, and `B.5.2.0 / B.5.2`.
+- **Main exits:** sameness, equivalence, alignment, mapping, substitutability, interchangeability, or attribute/entity/profile matching across contexts exits to Part F / `A.6.9` and, when bridge support is live, `F.9` / `F.9.1`; abductive-prompt pressure exits to `B.5.2.0 / B.5.2`; ontology and changed-target pressure exit to `OntologicalReframing` or `A.6.4`; downstream work/reliance, gate, assurance, and adjudication pressure exit to `A.15.4`, `A.15`, `A.20`, or `A.21`.
+- **Boundary notes:** same-entity transform rule stays with `A.6.3.*`; bridge-stance overlay stays with `F.9.1` over an existing `F.9` Bridge Card; "same / equivalent / align / map" wording repair and attribute/entity/profile mismatch repair stay with Part F / `A.6.9`; explanation-face governance stays with `E.17.EFP`; weaker source-pinned renderings with narrower-use / forbidden-use / reopen discipline move to `A.6.3.CSC Controlled Semantic Coarsening`; bounded comparative reading does not by itself authorize downstream use it does not carry.
+- **Non-goal:** this pattern does not create a rival authority-bearing publication, a rival bridge taxonomy, a rival sameness/equivalence repair pattern, or a rival base-case discipline of its own.
 
 ### E.17.ID.CR:End
-
 ## E.17.AUD - AuthoredUnitDiscipline - keep one authored unit stable enough to read honestly
 
 **Placement.** First problem-pressure classification pattern for authored-readable units whose active pressure must be assigned to one of the existing governing patterns or authority-source exits: local lexical-head repair, whole-unit primary-described-entity stabilization, bounded comparison, or a neighboring non-authored-unit pattern.
@@ -55899,12 +56582,13 @@ Checks include:
 * MVPK projections remain projections: any `U.View` face (TechCard/PlainView/InteropCard/AssuranceLane) over a plan item MUST NOT add new claims, MUST NOT introduce “shadow defaults”, and MUST avoid “signature” language (signatures belong to intensional objects),
 * if a view publishes edition pins or makes claims about crossing/comparability/selection/launch, it MUST also carry the required audit/slot-target pins (UTS + Path pins, crossing pins, applicable guard-source pins); missing pins are treated as nonconformance and read fail-closed downstream.
 
-**PCP-TERM (Terminology & naming protocol)** — Trigger: the pattern introduces new terms, new U.Types, new “unified names”, redefines existing labels, or leans on load-bearing phrases whose head kind or qualifier semantic load is not yet restored.
+**PCP-TERM (Terminology & naming protocol)** — Trigger: the pattern introduces new terms, new U.Types, new “unified names”, redefines existing labels, leans on load-bearing phrases whose head kind or qualifier semantic load is not yet restored, or uses high-pressure trigger wording as if the word itself carried the needed kind.
 Checks include:
 
 * “mint vs reuse” decision is explicit,
 * naming follows the local-first naming protocol and avoids scope smuggling (roles/metrics/stages baked into labels; overloaded words used as terms with a local sense). Remediation **SHOULD** use F.18,
 * when PCP-TERM is live, `F.18` winner selection and `A.6.P` follow-through are one mandatory chain rather than two optional passes: the run records candidate heads or phrases reviewed, any kind-conflict / lexical-conflict findings, the provisional F.18 winner plus rejected candidates, and the resulting `A.6.P` survival result on the repaired phrase,
+* high-pressure trigger wording must be classified before acceptance, including `lawful/lawfully/lawfulness`, `burden`, `affordance`, `axis/axes`, `tier/rung/level/layer/ladder`, `contract`, `lifecycle`, `workflow`, `procedure/call`, `home/owner`, `surface`, `route/routing/reroute`, and local equivalents; the run names the exact admissibility, deontic, evidence, review-check, reader-task, action-invitation, characteristic/scale, maturity-rung, I/D/S-layer, control-layer, method/work/work-plan, authority-source, pattern-host, publication-surface, or support-role kind that is live,
 * generic heads and semantic-load-carrying qualifiers are not accepted at face value in load-bearing prose: the review restores the head kind first, and a narrowing qualifier by itself does **not** count as that restoration; only then does the review restore the qualifier semantic load before deciding whether the phrase is admissible,
 * if a sentence compares, escalates, downgrades, or otherwise puts pressure on a phrase after that restoration, the review checks that the comparison basis is ontologically homogeneous,
 * the run leaves one explicit account of the resulting governed object, governed move, outside work, and any role-word / package-form decision when the repaired wording still carries architectural load,
@@ -56044,7 +56728,7 @@ It is not a separate artefact unless the change is high-risk, disputed,
 public-facing with substantive entry risk, or retrieval-facing.
 
 When one compact pattern-local note is needed, it names only the changed support role, the
-affected entry neighborhood or pattern, the changed first-use entry load or
+affected entry neighborhood or pattern, the changed first-contact entry load or
 recognition signature, the strongest admissible entry or strongest projection role for the
 claim or projection role, and the selected check if any.
 
@@ -56056,7 +56740,7 @@ One compact risk-triggered gate is enough here:
 | one Problem-frame recognition-signature wording change or one wrong-pattern clarification | reviewer-only entry check | no workflow implication and no strongest admissible entry / strongest projection role drift |
 | one `J.4` row change or one changed candidate-pattern set | pattern-selection or wrong-pattern check | intended strongest applicable pattern body or one admissible candidate-pattern set is recoverable without one false mandatory sequence |
 | one lexical-hook change | lexical query check | subject-domain phrasing recovers the strongest admissible entry or strongest projection role without uncontrolled alias drift |
-| two or more projection/support roles change together | support-role parity check | one strongest admissible entry or strongest projection role stays unique and the changed support roles agree on first-use entry load, wrong-pattern boundary, projection-only status, and no stronger claim than the Core pattern body; they need not share identical wording or examples |
+| two or more projection/support roles change together | support-role parity check | one strongest admissible entry or strongest projection role stays unique and the changed support roles agree on first-contact entry load, wrong-pattern boundary, projection-only status, and no stronger claim than the Core pattern body; they need not share identical wording or examples |
 | one high-risk public-facing or substantively changed first-entry support role changes | cold-reader recognition task | one reader can recover the intended strongest applicable pattern body or admissible candidate-pattern set under the named first honest entry load |
 | one retrieval-facing support role changes or one observed misretrieval is repaired | retrieval / `RAG` fixture | retrieval returns the strongest admissible entry or intended projection support before one stale echo, and answer-to-strongest-entry faithfulness remains intact |
 
@@ -56114,7 +56798,7 @@ Selected evidence modes may include:
 
 5. **PCP-ENTRY-E5 — support-role parity check**
    Do the live support/projection roles, plus any explicit absence note, preserve
-   the same first-use entry load, strongest admissible entry / strongest projection role,
+   the same first-contact entry load, strongest admissible entry / strongest projection role,
    wrong-pattern boundary, projection-only status, and no-stronger-than-Core
    claim without requiring identical wording, rows, or examples?
 
