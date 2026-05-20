@@ -1,3 +1,1379 @@
+### A.6:8 - Common Anti‑Patterns and How to Avoid Them
+
+| Anti‑pattern                   | Symptom                                                         | Why it fails                                                                     | How to avoid / repair                                                                        |
+| ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Gate‑as‑law**                | Preconditions written as “laws” in the signature                | Breaks substitution; violates A.6.0’s separation of signature vs mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. |
+| **RFC‑keywords in invariants** | “MUST” appears inside `Definition:` blocks                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicate IDs from CC when needed.               |
+| **Paraphrase drift**           | Same constraint restated in multiple faces with new wording      | Creates hidden divergence; breaks L/A/D/E claim-classification discipline and evidence accountability | Use `…-*` IDs + Claim Register; faces reference IDs rather than restating text.              |
+| **Interface‑as‑promiser**      | “The interface promises…” without identifying an agent          | Ontological category error; contracts are agent commitments                      | Apply **F.18:16.1** unpacking: who commits, via which published utterance, to what promise content.           |
+| **Evidence‑free guarantees**   | “Guaranteed latency” without measurement/evidence account       | Effects exist only in work; without carriers it’s non‑testable                   | Bind to carriers (metrics/traces) and specify the evidence carriers and logged records.       |
+| **View without viewpoint**     | A “view” is published but no viewpoint accountability is stated | Readers cannot interpret omissions; multi‑view discipline collapses              | Require `viewpointRef` with every face; treat view as projection under viewpoint.            |
+| **System‑as‑agent deontics**   | “The system/service SHALL …” used where no accountable role is named | Blurs behavior semantics with enforcement; hides responsibility                   | Rewrite as (`E-*`) behavior/evidence semantics + (`D-*`) duty on implementers/operators.     |
+| **One‑doc monoculture**        | Same document mixes laws, gates, duties, and evidence           | Evolvability collapses; updates become all‑or‑nothing                            | Use the stack: separate Signature/Mechanism/Norms/Evidence faces; route by matrix.           |
+| **Deontic claim laundering or admissibility/gate overread** | "Allowed", "authorized", "approved", "certified", or "guaranteed" used as work permission, reliance permission, evidence, assurance, gate passage, or work occurrence | One word silently carries several claim families and hides missing source support | Split through `L-*`, `A-*`, `D-*`, and `E-*`, then use `A.15`, `A.10`, `B.3`, `A.20`, or `A.21` only when that work claim or reliance claim is live. |
+
+### A.6:9 - Consequences
+
+| Benefits                                                                                                           | Trade‑offs / Mitigations                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| **Evolvable boundaries.** Implementations can change while signatures remain stable.                               | More upfront structure; mitigated by MVPK faces that present only relevant slices per audience. |
+| **Reduced category mistakes.** Object/description/carrier confusion becomes detectable.                            | Requires discipline in writing; mitigated by the “Where statements go” routing examples.        |
+| **Auditability and reproducibility.** Effect claims are tied to evidence carriers; commitments are tied to agents. | Requires evidence carriers and evidence-record formats to be designed; mitigated by making `AssuranceLane` (evidence bindings) a standard face.    |
+| **Clearer cross‑disciplinary communication.** Legal/compliance deontics no longer compete with math invariants.    | Teams must align on viewpoint responsibilities; mitigated by explicit viewpointRef in MVPK.     |
+
+### A.6:10 - Rationale
+
+A boundary is simultaneously:
+
+* a **mathematical object** (signature: operations over vocabulary, governed by laws),
+* an **engineering interface description** (stable intent, evolvable implementations),
+* a **governance object** (commitments, responsibilities, deontics), and
+* an **operational phenomenon** (effects happen only by doing work and observing traces).
+
+If these are mixed, evolution becomes impossible to reason about: every change becomes “semantic”, and every claim becomes unfalsifiable.
+
+The stack creates a default **direction of dependence**: higher layers constrain lower layers, not vice versa. The matrix creates a default **routing** that is not reliant on word choice alone and therefore survives natural‑language variation (“must”, “guarantee”, “valid”, “allowed”).
+
+### A.6:11 - SoTA‑Echoing (post‑2015 practice alignment)
+
+> **Informative.** Alignment notes; not normative requirements.
+
+* **Adopt — algebraic effects & handlers / effect systems.** Modern effect systems separate the *signature of operations* from handler semantics (e.g., Koka’s effect typing; mainstream effect handlers in OCaml 5 era). A.6 aligns by keeping boundary-signature content in `U.Signature` and placing execution semantics in `U.Mechanism`/Realizations, preserving substitution and evolvability.
+
+* **Adopt — session/behavioural types for protocol boundaries.** Post‑2015 practice in behavioural typing treats boundaries as typed interaction protocols with progress/safety properties. A.6’s routing matrix makes “protocol laws” (Quadrant L) explicit and separates entry gates (Quadrant A) from agent duties (Quadrant D) and runtime evidence (Quadrant E), reducing ambiguity.
+
+* **Adapt — categorical optics / lenses / bidirectional transformations.** Contemporary lenses treat boundaries as paired transformations with coherence laws; this mirrors the signature/mechanism split plus cross‑context view morphisms. In FPF, the “projection faces” (views) remain governed by viewpoints, and any cross‑context reuse must remain explicit (Bridge/CL discipline).
+
+* **Adapt — ISO/IEC/IEEE 42010 viewpoint discipline and views‑as‑queries (SysML v2 motif).** A.6 explicitly preserves viewpoint as a first‑class accountability handle: MVPK requires `viewRef` and `viewpointRef`, turning “views” into disciplined projections rather than informal screenshots.
+
+* **Adapt — DDD bounded contexts and microservice contract-language practice.** Modern architecture practice keeps meaning local and makes crossings explicit. A.6’s stack and L/A/D/E claim-classification discipline provide a precise placement scheme for what belongs to the context boundary claim set, what belongs at the entry gate, what belongs to governance duties, and what belongs to observability evidence.
+
+* **Adapt — observability as evidence discipline.** Post‑2015 observability practice treats traces/logs/metrics as first‑class evidence carriers. A.6 places such claims in Quadrant E and ties them to carriers (A.7), preventing “guarantees without telemetry”.
+
+* **Adapt — Zero Trust, dynamic authorization, and policy-as-code practice.** Current authorization practice separates policy, API, or schema text from a decision over subject, requested policy operation or work class, affected resource or work target, context, policy or gate version, decision source, and evidence. Cedar-style policy language and Zanzibar-style relation authorization are useful practice anchors for this split: the wording is not the decision. A.6 keeps policy, API, or schema wording in routed `L-*`, `A-*`, `D-*`, and `E-*` claims and returns work use or reliance use to `A.15` rather than letting "allowed" or "authorized" wording decide by itself.
+* **Adopt/adapt/reject stance for authority-looking boundary wording.** A.6 adopts policy-as-code separation of policy text from evaluated decision, adapts credential, register-backed status, provenance, and attestation practice as source, evidence, and currentness support rather than as the `L/A/D/E` split itself, and rejects visible wording, schema cues, credential displays, register excerpts, or provenance labels as permission, gate passage, work occurrence, evidence, or assurance by themselves.
+
+
+* **Adapt — Markov blankets / active inference as probabilistic boundary views.** Markov‑blanket thinking can help pick observables and diagnose “boundary leaks”, but it does not replace deontics, invariants, or admissibility gates; therefore it is a complementary *view* under a viewpoint, not the primary boundary-description object.
+
+### A.6:12 - Relations
+
+* **Implements authoring discipline:** Follows canonical section order and style expectations from E.8.
+* **Constrains signature writing:** Reinforces A.6.0 separation of Laws vs operational gates (AdmissibilityConditions live in mechanisms).
+* **Constrains mechanism writing:** Aligns with A.6.1 structure (Signature block plus mechanism‑only blocks such as AdmissibilityConditions, Transport, Audit).
+* **Requires Object≠Description≠Carrier discipline:** Uses A.7 to prevent category mistakes; ties evidence to carriers and publication faces to descriptions.
+* **Operationalises `U.View` and `U.Viewpoint` accountability:** Uses MVPK and `U.MultiViewDescribing` (E.17.0) so each face is a projection under a viewpoint, not a viewpoint‑free snapshot.
+* **Unpacks “contract” talk:** Reuses F.18’s promise/utterance/commitment separation to keep agency and responsibility explicit.
+* **Connects to signature engineering patterns:** A.6.5 (slot discipline) and A.6.6 (anchor/base discipline) can be read as “constructor/enabling” operations that help *build* well‑formed signatures by disciplined unpacking and grounding (they belong in the same stack discipline because they govern boundary construction).
+* **Coordinates with `C.28 CausalUse-CAL`:** When boundary prose uses causal support to justify deployment, release, duty, commitment, or admissibility, A.6 splits the boundary sentence while `C.28` carries the causal-use question, `CausalityLadderRung`, estimand, support basis, support verdict, and supported causal use and unsupported causal use.
+* **Coordinates with `A.15`, `A.10`, `B.3`, `A.21`, `A.20`, and `A.15.1`:** When routed boundary wording is then used for work, reliance, evidence, currentness, provenance, assurance, gate decision, constraint-validity witness, release work occurrence, or deployment work occurrence, the required claim or effect is carried by the exact source: `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`; `A.20` for `ConstraintValidity` status or witness; `A.15.1` for dated `U.Work` occurrence.
+
+### A.6:12a - Quantum-like boundary-route note
+
+Use A.6 first for ordinary boundary, interface, API, protocol, contract, connector, publication-face, and observability-evidence wording. Quantum-like boundary prose is supported only after the boundary text still needs a probe, order, frame, export, or state-reading distinction that ordinary boundary patterns would otherwise erase.
+
+Action path:
+
+1. Identify the boundary sentence and name the boundary object in ordinary A.6 terms.
+2. Name endpoints, channel, and carrier separately; do not let one word such as "interface", "service", "contract", or "context" stand for all of them.
+3. Apply the applicable ordinary FPF patterns to the ordinary boundary content: A.6, A.6.B, F.9, A.15, C.16, or C.25.
+4. If the boundary text uses a coarsened representation to claim preserved action, intervention, manipulation, explanation, or preserved structure across representation scales, state the causal-abstraction or approximate-causal-abstraction mapping before retaining QL wording.
+5. Ask whether the boundary act is being used as a passive read or unjustified lossless-transfer reading while actually changing the represented state, export validity, or viability decision.
+6. If yes, apply `C.26.1` only to that remaining residual question; keep the ordinary boundary pattern active.
+7. If no, keep the text in the ordinary boundary, bridge, work, measurement, or quality pattern and remove QL wording.
+
+Minimum boundary discipline before a quantum-like boundary reading:
+
+
+| Field | What the author names |
+| --- | --- |
+| Boundary | Which interface, protocol, context crossing, publication face, service situation, or evidence boundary is being described |
+| Endpoints | Which systems, epistemes, roles, carriers, contexts, or faces stand on each side |
+| Channel or interaction | Message, meeting, metric, dashboard, API read, bridge/export, split/merge, orchestration, or other boundary act |
+| Claimed state reading | What represented state is claimed before and after the act, and whether the act is treated as passive read, action, export, or probe |
+| Evidence / carrier | Which carrier, trace, metric, report, observation, or work result supports the reading |
+| Export or loss | What is copied, transformed, no longer comparable, or not faithfully exportable |
+| Ordinary pattern tried | Which of A.6, F.9, A.15, C.16, or C.25 already carries the baseline question |
+
+Useful outputs:
+
+- an L/A/D/E-classified boundary claim set when ordinary A.6 is enough;
+- a Bridge Card when the issue is export/loss across contexts;
+- a C.26.1 probe-coupled boundary note only when the boundary act changes the represented state in a decision-relevant way;
+- a relation repair using `A.6.P` or `F.18` when coupling words become reusable relation candidates.
+
+### A.6:End
+
+## A.6.RSIG - Recognition Signatures for Descriptions
+
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+### A.6.RSIG:1 - Problem frame
+
+A reader often meets one description before they know whether it is the right
+description to inspect. The reader may see a boundary clause, method note,
+interface excerpt, pattern opening, or public projection. The first entry load is
+not yet the full semantics of that description. It is first-contact recognition:
+what description is seen, where it is encountered, what it applies to, what
+excludes it, which `definitionEpistemeRef` identifies its defining `U.Episteme`, and which nearby reading or
+wrong defining `U.Episteme` must be rejected.
+
+**Plain recognition line.** Do not let the first wording you see define itself; ask which defining `U.Episteme` gives it meaning and which nearby reading it rejects.
+
+Use this pattern when the live entry load is still first-contact recognition over
+one encountered description carrier or projection.
+ The reader needs to decide
+whether this is the right description to inspect before broader comparison,
+publication-face selection, boundary-claim routing, or pattern-language entry
+comparison begins.
+
+What goes wrong if this pattern is missed:
+
+- one summary, excerpt, boundary phrase, or local top is mistaken for the
+  defining `U.Episteme` of the description;
+- one access/request description is over-read as a promise about downstream
+  effect;
+- one boundary-presented description is over-read as L/A/D/E-classified claim structure or
+  as the full semantic claim set;
+- one method note is treated as applicable before its actual method family and
+  exclusions are recoverable;
+- one pattern-local opening is forced to carry cross-pattern comparison that
+  belongs to `E.11`.
+
+What this pattern buys:
+
+- the reader can tell what the encountered description is for before deeper
+  semantics are reconstructed;
+- carrier, projection, description, and defining `U.Episteme` stay distinct;
+- false neighboring descriptions and wrong defining `U.Episteme` references become
+  rejectable in one first pass;
+- later boundary, publication, lexical, or pattern-language repairs start
+  from a typed first-contact read instead of from guesswork.
+
+Ordinary not-this-pattern boundary:
+
+- not when the live entry load is already full routed-claim structure, published
+  view law, lexical repair, or cross-pattern entry orientation;
+- not when the real question is the whole semantics of the method, boundary
+  claim, interface promise, or pattern;
+- not when a search/query phrase needs naming repair rather than
+  first-contact recognition of a particular encountered description.
+
+### A.6.RSIG:2 - Problem
+
+When first-contact recognition is under-governed, several defects recur:
+
+1. One reader finds a boundary, method, interface, or pattern-local opening but
+   cannot tell whether it is the right description to inspect.
+2. An encountered carrier or public projection is misread as the defining `U.Episteme`.
+3. Recognition cues drift into description semantics, workflow hints, graph
+   metaphors, or lexical aliases that belong elsewhere.
+4. Pattern-entry navigation is asked to solve a broader
+   description-recognition entry load that belongs before pattern-language
+   comparison begins.
+
+### A.6.RSIG:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| First-contact precision vs reader economy | The cue needs enough discriminating detail without turning every opening into a mini essay. |
+| Neutral substrate vs local specialization | This pattern governs description-recognition signatures in general without absorbing pattern-entry discoverability, publication-face law, or boundary-claim routing. |
+| Recognition vs semantics | The cue helps the reader recover the right description and defining `U.Episteme`, not silently redefine the description's full semantics. |
+| Carrier/projection vs authority | An encountered carrier can help recognition without becoming the defining episteme. |
+| Local wording vs controlled lexemes | Real reader language remains usable without minting uncontrolled aliases or shadow names. |
+| Readability vs auditability | The signature stays usable by readers while remaining crisp enough for later review and boundary checking. |
+
+### A.6.RSIG:4 - Solution
+
+#### A.6.RSIG:4.1 - Governed object and non-goals
+
+`A.6.RSIG` governs description-recognition signatures in general: the
+first-contact cue structure by which one reader can recover what encountered
+description is live, what carrier or projection exposed it, what it applies to,
+what excludes it, which `definitionEpistemeRef` identifies its defining `U.Episteme`, and which nearby false
+description or wrong defining `U.Episteme` must be rejected.
+
+Here "description-recognition signature" is lower-case authoring and reading
+discipline. It is not `U.Signature`, not a Signature Stack object, not a new
+Description object by default, not a `U.*` kind, and not a specialization of
+`A.6.0` unless another pattern explicitly promotes a particular declaration.
+
+The encountered carrier or projection may help recognition; it does not become
+authoritative merely by being encountered. When this pattern talks about an
+encountered publication or projection, that wording does not mint a new surface
+kind; use an existing `PublicationSurface`, `InteropSurface`, `View`, `Card`, or
+`Lane` kind only when that kind is actually live.
+
+Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite the `U.EpistemePublication` that publishes it separately; the publication, projection, or carrier does not become the defining episteme by being the encountered item.
+
+`A.6.RSIG` does not govern:
+
+- general information architecture or search UX;
+- documentation layout or publication-face selection;
+- pattern-entry discoverability across a pattern language;
+- the full semantics of the description itself;
+- lexical repair, alias acceptance, or naming governance as such;
+- graph ontology, workflow sequencing, or runtime route semantics.
+
+#### A.6.RSIG:4.2 - Two-level description-recognition shape
+
+**Reader-visible minimum.** For ordinary reader-facing use, the minimum is not a card. One or two good
+sentences may be enough if they make recoverable:
+
+1. what this description is for;
+2. when it applies;
+3. when it does not apply;
+4. which definitionEpistemeRef applies;
+5. what nearby false reading or wrong defining `U.Episteme` to reject.
+
+**Review-expanded shape, only when needed.** When the recognition entry load is
+load-bearing or under review, use the expanded recoverability shape:
+
+```text
+description_seen
+encountered_carrier_or_projection
+reader_viewpoint
+case_signal_or_access_condition
+applies_to
+excludes
+expected_first_recognition_gain
+first_admissible_entry_stop_or_reroute
+definitionEpistemeRef
+projection_role_if_any
+nearby_false_description_or_wrong_definition_episteme
+```
+
+This shape is a review aid, not a mandatory form for every encountered
+description. It exists to keep description, carrier, projection, and definitionEpistemeRef from
+collapsing into one overloaded publication label or projection label.
+
+#### A.6.RSIG:4.2.1 - Minimal local repair and review sequence
+
+Use this sequence when authoring or reviewing one recognition-signature repair:
+
+1. Name the `description_seen` and the reader viewpoint in one concrete first
+   sentence.
+2. Name the encountered carrier or projection if confusing it with authority is
+   a live risk.
+3. State what the description applies to and what excludes it.
+4. Name the defining `U.Episteme` to inspect first.
+5. Name one nearby false description or wrong defining `U.Episteme` that looks
+   plausible in the same situation.
+6. State the first admissible entry stop or neighboring-pattern application.
+7. If that stop cannot be stated without A.6.B claim routing, publication-face law,
+   lexical repair, or cross-pattern comparison, apply the appropriate neighboring pattern instead of
+   stretching `A.6.RSIG`.
+
+Minimal admissible output:
+
+- one first-contact recognition statement the reader can use immediately;
+- one explicit defining `U.Episteme`;
+- one explicit false-neighbor rejection;
+- one admissible entry stop or reroute.
+
+#### A.6.RSIG:4.3 - Parent cases
+
+`A.6.RSIG` keeps the main parent cases explicit:
+
+- **boundary-description recognition**: can one reader recover what one
+  boundary-presented description is for before L/A/D/E-classified claim structure becomes
+  the dominant entry load;
+- **method-description applicability recognition**: can one reader recover
+  whether one method description is the right description to inspect, reject, or
+  compare under the live entry load;
+- **interface/access-description recognition**: can one reader recover the
+  right access or interface description without confusing it with promise,
+  execution, or downstream effect semantics;
+- **pattern-local recognition-signature case**: can one reader recover one
+  pattern opening as the right first description to inspect before broader
+  pattern-language comparison begins.
+
+#### A.6.RSIG:4.4 - Neighbor boundaries
+
+Neighbor boundaries remain explicit:
+
+- `A.6.B` governs routed `L/A/D/E` claim structure when the boundary
+  description is already in routed-claim territory;
+- `E.17.0 / E.17` govern admissible view and publication-face projection when the
+  same recognition entry load is carried through published views;
+- `E.10.D2` and the `E.10 / F.18 / A.6.P` lane govern lexical repair,
+  collision checks, and naming survival;
+- `C.25 / A.6.Q` govern formal quality treatment when the discoverability or
+  recognition claim becomes explicitly evaluative;
+- the relevant authoritative pattern body governs pattern semantics when the
+  encountered description is one pattern-local opening.
+
+The four-part split for pattern-local recognition is:
+
+| Recognition concern | Governing FPF pattern or source-maintenance role assignment | What it governs |
+| --- | --- | --- |
+| Generic first-contact description recognition | `A.6.RSIG` | The neutral cue shape: description, carrier or projection, definitionEpistemeRef, exclusions, false neighbor. |
+| Local placement and form | `E.8` | How the pattern's `Problem frame` carries the first-reading role. |
+| Actual local semantics | The pattern itself | The pattern's governed object, solution, consequences, and conformance law. |
+| Cross-pattern comparison | `E.11`, `J.4`, and `I.2` | Candidate patterns, tempting wrong patterns, entry-load reclassification, and worked entry reading. |
+
+#### A.6.RSIG:4.5 - No-minting rule
+
+This pattern does not mint:
+
+- one standalone `U.Discoverability`;
+- one new `U.Signature`, Signature Stack object, `U.Characteristic`, `CHR`, or
+  local `Q-Bundle`;
+- one `SurfaceKind`, `DescriptionKind`, relation kind, graph ontology, route-publication
+  graph, or process-family claim;
+- one universal reader-orientation role.
+
+If a recognition-signature entry load is promoted into a quality claim with a higher evidence requirement,
+typed signature object, reusable description object, or publication-face law,
+that promotion is explicit and handled by the existing neighboring
+patterns.
+
+### A.6.RSIG:5 - Archetypal grounding
+
+#### A.6.RSIG:5.1 - System-side worked recognition repair: boundary-presented description
+
+Draft cue:
+
+> "The system shall reject invalid requests."
+
+Why the cue is not enough yet:
+
+- the reader can tell this is important, but not whether they are reading one
+  law, admissibility gate, duty, work effect, or evidence statement;
+- one summary page or local paraphrase can be mistaken for the governing
+  boundary description;
+- a reviewer can start arguing full semantics before the first-contact
+  recognition entry load has been stabilized.
+
+Recognition repair:
+
+1. `description_seen` = one boundary-presented admissibility description.
+2. `encountered_carrier_or_projection` = one clause or excerpt where the
+   description is seen.
+3. `reader_viewpoint` = one practitioner or reviewer deciding whether this is
+   the right boundary description to inspect first.
+4. `applies_to` = requests presented at the boundary under the declared
+   admissibility conditions.
+5. `excludes` = downstream effect claims, duty allocation, or evidence claims
+   not actually stated by this description.
+6. `definitionEpistemeRef` = the governing boundary description, not one local
+   paraphrase or summary note.
+7. `nearby_false_description_or_wrong_definition_episteme` = one evidence/work claim or one
+   routed quadrant statement that only becomes admissible after the reader has
+   stabilized the admissibility description.
+8. `first_admissible_entry_stop_or_reroute` = the reader can now say "this is the
+   admissibility description to inspect first"; if the entry load becomes routed
+   claim structure, inspect `A.6.B`.
+
+#### A.6.RSIG:5.2 - System-side anti-case: interface/access description over-read as promise
+
+Draft cue:
+
+> "`POST /deploy` triggers deployment."
+
+Plausible but wrong first reading:
+
+- the reader treats one access/request description as if it already promised
+  one downstream operational effect or successful completion.
+
+Recognition repair:
+
+1. `description_seen` = one interface/access description.
+2. `encountered_carrier_or_projection` = one API excerpt or endpoint note.
+3. `applies_to` = request accessibility and invocation form.
+4. `excludes` = success, completion, rollout, or downstream effect guarantees
+   not present in the access description itself.
+5. `definitionEpistemeRef` = the specification or pattern that actually governs
+   downstream effect, if that entry load is live.
+6. `first_admissible_entry_stop_or_reroute` = "this is the access description to
+   inspect first, not the promise of the whole deployment result."
+
+#### A.6.RSIG:5.3 - Episteme-side worked recognition repair: method-description applicability
+
+Draft cue:
+
+> "Use pairwise comparison."
+
+Why the cue is not enough yet:
+
+- the reader cannot tell whether the note applies to ranking alternatives,
+  selecting one option, shaping a shortlist, or comparing method families;
+- the method note can be mistaken for the defining `U.Episteme` of selection
+  semantics;
+- a team can prematurely choose `C.11` or `G.5` before knowing what kind of
+  comparison entry load is actually live.
+
+Recognition repair:
+
+1. `description_seen` = one method-description applicability note.
+2. `encountered_carrier_or_projection` = one method-description note, pattern excerpt,
+   or review comment that mentions pairwise comparison.
+3. `applies_to` = comparison under a declared comparator set or characteristic
+   family.
+4. `excludes` = publication of a selected set, execution planning, evidence
+   sufficiency, and one-off decision doctrine unless those governing FPF patterns or `authoritySourceRef` targets are separately
+   opened.
+5. `definitionEpistemeRef` = the relevant comparison or method pattern, not the
+   note itself.
+6. `nearby_false_description_or_wrong_definition_episteme` = selection/publication doctrine
+   treated as if the method note had already settled it.
+7. `first_admissible_entry_stop_or_reroute` = method applicability is recognized or
+   rejected before selection semantics begin.
+
+### A.6.RSIG:6 - Bias-Annotation
+
+This pattern counters:
+
+- front-door centralization bias, where every recognition entry load is pushed into
+  one global front-door cue;
+- signature-stack overreach, where any useful cue is prematurely promoted into
+  `U.Signature`;
+- carrier-authority collapse, where an encountered carrier or projection is
+  treated as the defining `U.Episteme`;
+- alias bias, where uncontrolled synonyms compensate for missing recognition
+  structure;
+- workflow bias, where first-contact recognition is narrated as sequence or
+  handoff.
+
+### A.6.RSIG:7 - Conformance checklist
+
+- **CC-RSIG-1 First-contact only.** The pattern governs recognition of the
+  right description, not the full semantics of that description.
+- **CC-RSIG-2 Carrier/definition-episteme split.** A conforming description-recognition signature
+  distinguishes `description_seen`, encountered carrier or projection,
+  defining `U.Episteme`, and projection role when those distinctions are
+  load-bearing. The encountered carrier or projection may help recognition,
+  but it does not become authoritative merely by being encountered.
+- **CC-RSIG-3 Neighbor boundaries explicit.** The text states when entry loads go
+  to `A.6.B`, `E.17`, `E.10 / F.18 / A.6.P`, `C.25 / A.6.Q`, or the relevant
+  authoritative pattern body.
+- **CC-RSIG-4 No kind inflation.** Recognition signatures are not silently
+  promoted into `U.Signature`, Signature Stack objects, `SurfaceKind`s,
+  graph objects, workflow objects, or new `U.*` kinds.
+- **CC-RSIG-5 Recoverable cue shape.** For load-bearing cases, description,
+  viewpoint, cue, applicability, exclusion, defining `U.Episteme`, false neighbor,
+  and admissible entry stop remain recoverable.
+- **CC-RSIG-6 No alias minting.** Query cues and ordinary phrasing do not become
+  aliases, bridges, semantic twins, or lexical authority without applying the relevant
+  naming pattern or `authoritySourceRef` target.
+
+### A.6.RSIG:8 - Common Anti-Patterns and How to Avoid Them
+
+- **Recognition-as-semantics.** The opening tries to define the whole
+  description instead of making the right description recoverable. Repair by
+  shrinking back to first-contact discrimination.
+- **Carrier-as-authority.** A local excerpt, public projection, or retrieved
+  fragment is treated as the defining `U.Episteme`. Repair by naming the
+  encountered carrier or projection and the defining `U.Episteme` separately.
+- **Boundary-routing collapse.** A boundary-description cue tries to absorb
+  L/A/D/E-classified claim structure. Repair by classifying quadrant work under `A.6.B`.
+- **Pattern-language collapse.** Pattern-entry comparison is written as if it
+  were just another description cue. Repair by routing cross-pattern selection
+  to `E.11`.
+- **Signature inflation.** Any recurring cue is treated as one typed signature
+  object. Repair by keeping `description-recognition signature` lower-case
+  unless one explicit promotion is justified.
+
+### A.6.RSIG:9 - Consequences
+
+This pattern gives one neutral governing discipline for first-contact
+description recognition without turning discoverability into one universal
+governing pattern. It sharpens the boundary between cue recognition, semantic
+authority, lexical repair, publication-face projection, and pattern-language
+entry.
+
+The cost is one extra explicit split when a cue is confusing: description,
+encountered carrier or projection, defining `U.Episteme`, and false neighbor must not
+be collapsed. The cost stays bounded because the expanded shape is review-only
+or risk-triggered, not a required card for ordinary prose.
+
+### A.6.RSIG:10 - Rationale
+
+This pattern lands in the `A.6` cluster because the entry load is still one
+description/signature entry load: a reader is recovering what one description is
+for, what it applies to, and which defining `U.Episteme` to inspect first. That
+sits closer to signature and boundary discipline than to pattern-language
+navigation or review-profile law.
+
+Read this honestly as one `FPF`-local synthesis over current SoTA, not as one
+already established external standard term. It combines information-scent,
+human/AI expectation-management, controlled vocabulary, and retrieval-context
+practices into one description-facing discipline for `FPF`.
+
+### A.6.RSIG:11 - SoTA-Echoing
+
+This pattern is an `FPF`-local synthesis, not an established external term. It
+carries the modern practice concern only where that concern sharpens one
+description-facing recognition question: can the reader recover the right
+description, its carrier or projection, its exclusions, its defining `U.Episteme`,
+and its tempting false neighbor before relation-precision or semantic-rewrite work begins?
+
+| Pattern claim carried here | Source-bearing SoTA support (post-2015) | Alignment with `A.6.RSIG` | Adoption status and worked-slice implication |
+| --- | --- | --- | --- |
+| First-contact recognition is narrower than general information architecture or documentation UX. | Jorge Arango (2018), *Living in Information: Responsible Design for Digital Places*; ISO/IEC/IEEE 26514:2022, *Systems and software engineering - Design and development of information for users*. | These sources support purposeful information places and user information shaped around what the user needs. `A.6.RSIG` narrows that to one encountered description: what it is for, what applies, what excludes, what carrier exposed it, and which `definitionEpistemeRef` identifies the defining episteme. | **Adopt or narrow.** Adopt the recognition and information-need concern; reject a universal UX or layout pattern. In the boundary sentence slice, the first repair is not "what does the complete Contract Bundle mean?" but "what description is this, what does it apply to, and which definitionEpistemeRef applies?" |
+| Information scent helps first-contact cue economy but is not the defining episteme. | Raluca Budiu (2020), "Information Scent: How Users Decide Where to Go Next", Nielsen Norman Group. | Information scent treats visible labels, context, and prior knowledge as imperfect estimates of source value. `A.6.RSIG` adopts the cue-economy insight and adds definition-episteme, exclusion, and false-neighbor discipline. | **Adopt and add definition-episteme discipline.** Adopt first-contact cue economy; reject treating familiar wording, link scent, or local projection as the defining `U.Episteme`. In the API slice, a good endpoint label can attract attention while still failing to promise deployment success. |
+| Description-recognition signatures help human and AI-assisted readers manage applicability and limitation expectations. | Amershi et al. (2019), "Guidelines for Human-AI Interaction", CHI 2019. | Human-AI guidance emphasizes making capabilities and limits clear enough for users to calibrate trust. `A.6.RSIG` adapts that pressure into `applies_to`, `excludes`, `definitionEpistemeRef`, and admissible entry stop for human and AI-assisted readers. | **Adapt.** Adopt expectation management; reject making this an AI-interface pattern. In the method-note slice, the reader learns what the note can and cannot settle before using it for a decision. |
+| Description-recognition cues need controlled wording without becoming synonym or alias governance. | Helen Lippell, ed. (2022), *Taxonomies: Practical Approaches to Developing and Managing Vocabularies for Digital Information*. | Taxonomy practice supports governed terms, validation, and maintenance for search and browse. `A.6.RSIG` adopts stable cue language while leaving naming, alias, bridge, and collision repair to `F.18 / E.10 / A.6.P`. | **Adapt.** Adopt controlled-lexeme discipline; reject synonym stuffing inside description-recognition signatures. The worked slices state definitionEpistemeRef, exclusions, and false neighbor instead of adding more query phrases. |
+| Thin echoes and projection snippets need definition-episteme anchors before a reader or retrieval system treats them as the defining episteme. | Lewis et al. (2020), "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"; Liu, Zhang, and Liang (2023), "Evaluating Verifiability in Generative Search Engines"; Gao et al. (2023), "Enabling Large Language Models to Generate Text with Citations". | Retrieval and citation work makes source context, support, and verifiability load-bearing. `A.6.RSIG` adapts this as recognition hygiene: retrieved fragments, public projections, or local examples remain useful only when their defining `U.Episteme` and projection role are recoverable. | **Adapt / narrow.** Adopt source anchoring and citation-support pressure; reject a retrieval benchmark or graph-native authority. A retrieved method note is safe only when it remains a method-applicability cue, not the defining episteme for selection semantics. |
+| Description-recognition-signature adequacy is reviewable through small, case-linked checks rather than folklore or heavy empirical machinery. | Riehle, Harutyunyan, and Barcomb (2020), *Pattern Discovery and Validation Using Scientific Research Methods*, Technical Report CS-2020-01. | Pattern-validation practice supports explicit evidence and case adequacy. `A.6.RSIG` keeps that pressure lightweight: use the first-contact shape, false-neighbor rejection, and worked slices before escalating to `C.25`, `A.6.Q`, or empirical evidence. | **Adopt / lightweight.** Adopt accountable validation; reject mandatory benchmark machinery for ordinary recognition repairs. |
+
+### A.6.RSIG:12 - Relations
+
+- **Builds on:** `A.6`, `A.6.P`, `F.18`, `E.10`
+- **Does not specialise:** `A.6.0` / `U.Signature`; it uses "signature" only in the lower-case cue-pattern sense unless an explicit neighbouring pattern promotes the structure into a typed declaration.
+- **Neighbors:** `A.6.B`, `A.6.C`, `E.17.0`, `E.17`, `E.10.D2`, `C.25`, `A.6.Q`
+- **Supports:** `E.11` as the pattern-language application above this neutral substrate
+
+### A.6.RSIG:End
+
+## A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)
+
+
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative (unless explicitly marked informative)
+> **Placement:** Part A → A.6.B (matrix module; referenced by A.6 cluster overview)
+> **Builds on:** E.8 (authoring template), A.6.0 (`U.Signature`), A.6.1 (`U.Mechanism`), A.6.3 (`U.EpistemicViewing`), E.17.0/E.17 (MVPK + “no new semantics” faces), A.7 (Object≠Description≠Carrier), F.18 (promise/utterance/commitment), E.10.D2 (I/D/S vs Surface), E.10/L‑SURF (Surface token discipline)
+> **Purpose (one line):** Provide a canonical 2×2 norm square that classifies boundary statements (L/A/D/E), constrains how each quadrant is written, and defines explicit cross‑quadrant reference rules so boundaries remain evolvable and audit‑ready.
+
+### A.6.B:0 — Conventions
+
+**Keywords.** The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, **MAY**, and **SHALL** are to be interpreted as in RFC 2119/8174. Lower‑case “must/may/should” in explanatory prose is descriptive, not normative.
+
+**Quadrant labels.** This pattern uses the routing labels **L / A / D / E** as *statement quadrants*:
+
+* **L** — Laws & Definitions
+* **A** — Admissibility & Gates
+* **D** — Deontics & Commitments
+* **E** — Work‑Effects & Evidence
+
+These labels are **claim-classification labels for statements**, not MVPK face kinds and not pattern identifiers.
+
+**Statement identifiers (recommended).** Routable statements **SHOULD** be given stable IDs with a quadrant prefix: `L-*`, `A-*`, `D-*`, `E-*`. Other sections and views **SHOULD** reference these IDs rather than restating the same constraint in new words.
+
+**Non-collision note (informative).** The `A-*` prefix here is “Admissibility”, not Part‑A numbering and not MVPK’s `AssuranceLane` face kind. If this is a readability hazard in your program, prefer an explicit `G-*` (“Gate”) local convention while keeping the quadrant name “Admissibility”. Also avoid introducing single‑letter mnemonics for MVPK face kinds inside this cluster (MVPK has a legacy L,P,D,E mnemonic); spell face kinds in full to reduce collisions.
+
+**Atomic claim.** An **atomic claim** is a sentence (or bullet) that performs exactly one logical role and is routable to exactly one quadrant. If a sentence mixes roles, it is **not atomic** and **MUST** be split before it can be routed.
+
+**Adjudication substrate (for routing).** For the purposes of this square, an atomic claim is classified by the primary substrate that decides its satisfaction:
+
+* **In‑description / in‑theory**: satisfaction is decided from the description alone (e.g., proof/type validation), or the claim is itself a governance utterance whose content is fully determined by the text.
+* **In-work or in-execution**: deciding satisfaction requires observing executed work and/or inspecting carriers produced in work.
+
+**Note (important).** `D-*` claims are authored and interpreted in the description; whether they are met is typically established indirectly via referenced `E-*` claims (or other governance procedures). This does not move `D-*` into quadrant E; it clarifies the routing distinction.
+
+**Modality family.** A claim is either:
+
+* **Truth‑conditional**: definitions, invariants, typing rules (“is”, “iff”, “∀”).
+* **Governance**: governance conditions, obligations, commitments, and exclusions (“MUST/SHOULD/MAY”, “is admissible”, “is blocked”, “commits to”).
+
+### A.6.B:1 — Problem frame
+
+Boundary descriptions routinely collapse four distinct claim families into “contract soup”: definitions are written as obligations, runtime gates are hidden inside laws, governance talk is assigned to “the interface”, and “guarantees” are asserted without any evidence story. The resulting boundary is brittle: substitution becomes unclear, and auditability becomes performative rather than adjudicable.
+
+FPF already separates the necessary strata (Signature vs Mechanism, Object≠Description≠Carrier, views under viewpoints). What is still needed is a **single, reusable routing primitive** that any boundary text can apply consistently and that other patterns can cite as a stable authoring module.
+
+### A.6.B:2 — Problem
+
+When authors cannot reliably answer two questions—
+
+1. “Is this a truth‑conditional statement or a governance statement?”
+2. “Is it adjudicated by reading the description or by observing work?”
+
+—then boundary statements drift across layers, faces fork semantics, and “compliance” becomes a matter of interpretation rather than a property that can be checked.
+
+A boundary needs a minimal, stable classification that:
+
+* routes every **atomic** statement to a unique quadrant, and
+* forces any cross‑quadrant dependencies to be **explicitly referenced**, not smuggled by paraphrase.
+
+### A.6.B:3 — Forces
+
+| Force                              | Tension                                                                                        |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Precision vs readability**       | Predicate‑style constraints reduce ambiguity; narrative helps adoption.                        |
+| **Evolvability vs enforceability** | Stable laws should not embed volatile runtime gates; governance still needs enforcement hooks. |
+| **Auditability vs simplicity**     | Evidence makes claims adjudicable; evidence also introduces operational design obligations.    |
+| **Local meaning vs reuse**         | Boundaries must be local; reuse must be explicit via IDs and references, not duplicated prose. |
+
+### A.6.B:4 - Solution — the Boundary Norm Square
+
+#### A.6.B:4.1 - Two independent distinctions
+
+The **Boundary Norm Square** is the cross product of two independent distinctions:
+
+1. **Modality family:** Truth‑conditional vs Governance
+2. **Adjudication position:** In-description vs in-work
+
+The square yields four quadrants that are *mutually exclusive for atomic claims*.
+
+#### A.6.B:4.2 — The square
+
+|                                | **Truth‑conditional** (definitions & invariants) | **Governance** (governance conditions & obligations) |
+| ------------------------------ | ------------------------------------------------ | ------------------------------------------ |
+| **In‑description / in‑theory** | **L — Laws & Definitions**                       | **D — Deontics & Commitments**             |
+| **In-work or in-execution**     | **E — Work‑Effects & Evidence**                  | **A — Admissibility & Gates**              |
+
+**Clarification (do not conflate).** The Governance column includes two different “normative” roles:
+* **D** is **`U.Agent` or `U.Role` governance** (duties, commitments, prohibitions).
+* **A** is **mechanism governance** (admissibility predicates: what the mechanism admits at application time).
+`A-*` is not an obligation on an actor; obligations belong in `D-*` and may reference `A-*`.
+
+**Normative rule (single quadrant).** Each **atomic** claim **MUST** be routable to exactly one quadrant **L/A/D/E**.
+
+**Normative rule (no mixed sentences).** A conforming boundary text **SHALL** decompose any sentence that bundles multiple quadrants (typical form: “MUST … if … then … and it is logged …”) into multiple atomic claims before those claims are treated as normative.
+
+#### A.6.B:4.3 — Canonical placements in the Signature Stack
+
+The quadrants have canonical placements in the boundary stack:
+
+* **L → Signature layer:** `U.Signature.Laws` (and mechanism‑local semantic laws if present).
+* **A → Mechanism layer:** `U.Mechanism.AdmissibilityConditions` (entry gates / runtime admissibility predicates).
+* **D → Norms & commitments layer:** role‑anchored duties, commitments, publication/accountability duties (often rendered inside MVPK `TechCard`).
+* **E → Evidence bindings layer:** work‑adjudicated effects tied to carriers and measurement conditions (authored canonically in an Evidence/Carriers section; commonly rendered inside MVPK `AssuranceLane` as a projection).
+
+A published view **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** is a specialization that enforces this rule for a fixed set of publication face kinds.
+
+### A.6.B:5 — Quadrant specifications
+
+This section is the normative “API” of the square: what each quadrant is for, how it is written, and what it must not contain.
+
+#### A.6.B:5.1 — Quadrant L: Laws & Definitions
+
+**Intent.** State truth‑conditional content: definitions, invariants, typing/well‑formedness constraints, equational laws.
+
+**Adjudication.** In‑description: can be checked by inspection, proof, type validation, or model reasoning.
+
+**Canonical form.** `Definition:` / `Invariant:` / predicate‑style constraints using “is / iff / for all”.
+
+**Prohibitions.**
+
+* An `L-*` statement **MUST NOT** contain RFC deontic keywords (**MUST/SHALL/SHOULD/MAY**) as operators inside the law/definition itself.
+* An `L-*` statement **MUST NOT** encode runtime gate predicates (those are `A-*`).
+* An `L-*` statement **MUST NOT** assert evidence availability or measurement outcomes (those are `E-*`).
+
+**A.7 anchoring.** `L-*` claims are **Descriptions**: they specify semantics of the signature/mechanism description, not work.
+
+**Typical dependence.** `A-*` and `E-*` claims may reference `L-*` IDs for vocabulary, metric definitions, and invariants needed for interpretation.
+
+#### A.6.B:5.2 — Quadrant A: Admissibility & Gates
+
+**Intent.** Specify when a mechanism application is admissible: runtime entry predicates, authorization gates, validity gates, applicability checks that require context or execution environment.
+
+**Common mistake #0 — Applicability ≠ Admissibility (informative).** Signature `Applicability` scopes *intended use/bounded context*; it is not a runtime entry gate. Runtime entry checks and admissibility predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If your prose reads like “clients must satisfy the applicability”, you almost certainly want a `D-*` duty + an `A-*` gate (linked by ID) instead.
+
+**Adjudication.** In‑work: evaluated at mechanism entry (or operationally at the point the mechanism is applied).
+
+**Canonical form.** Predicate style, e.g.:
+
+* “A request is admissible iff …”
+* `admissible(x) iff P(x)` (conceptual form; no particular syntax is required)
+
+**Prohibitions.**
+
+* An `A-*` statement **MUST NOT** be placed in `U.Signature.Laws`.
+* An `A-*` statement **MUST NOT** use RFC deontic keywords as if it were an agent obligation. (It is a gate predicate, not a duty.)
+* An `A-*` statement **MUST NOT** claim that evidence exists (that is `E-*`) or that someone must enforce the gate (that is `D-*`).
+
+**A.7 anchoring.** `A-*` claims are **Descriptions** of a mechanism gate. They are not “what a client must do”; they are “what the mechanism admits”.
+
+**Required references (explicit).** If an `A-*` predicate relies on defined terms or invariants, it **SHOULD** reference the relevant `L-*` IDs (or at minimum the signature that defines them).
+
+#### A.6.B:5.3 — Quadrant D: Deontics & Commitments
+
+**Intent.** State governance: obligations, governance conditions, exclusions, commitments, publication duties, operational duties, contractual commitments—always with accountable agents/roles.
+
+**Adjudication.** In‑description (governance is stated in the spec); compliance may be audited via `E-*`.
+
+**Canonical form.** A deontic statement **MUST** have an accountable subject (`U.Agent` or `U.Role`), e.g.:
+
+* “Client implementers **MUST** satisfy `A-…`.”
+* “Operators **SHALL** retain carriers …”
+* “Provider **SHALL** meet `E-…` under exclusions …”
+
+**Canonical payload (recommended; lintable).** When a `D-*` claim is intended to be lintable/reusable, it **SHOULD** be representable as a `U.Commitment` record (A.2.8). Default fields to make explicit:
+
+* `id` (often the `D-*` claim ID),
+* `subject` (accountable role/party; never an episteme),
+* `modality` (BCP‑14/RFC keyword family normalized),
+* `scope` + `validityWindow`,
+* `referents` (by ID; e.g., `SVC-*`, `L-*`, `A-*`, `E-*`, `MethodDescriptionRef(...)`),
+* optional `adjudication.evidenceRefs` when the commitment is meant to be auditable,
+* optional `source` when authority/provenance matters.
+
+**Prohibitions.**
+
+* A `D-*` statement **MUST NOT** use “the system/service/interface/spec” as the grammatical subject unless the accountable role/party is explicitly named (so the statement is representable as a `U.Commitment` with an explicit `subject`, A.2.8). (**F.18** is a lexical anchor only.)
+* A `D-*` statement **MUST NOT** restate `L-*` or `A-*` predicates in new words when an ID exists; it **SHOULD** reference the ID.
+* A `D-*` statement **MUST NOT** pretend that commitments are laws. A commitment is an agent relation, not a truth‑conditional invariant.
+
+**A.7 anchoring.** `D-*` claims are primarily **about Objects** (roles/agents and their duties) or **about Carriers** (retention/exposure duties), but they are still written as **Descriptions**.
+
+**Required references (explicit).**
+
+* If a `D-*` statement imposes compliance with a gate, it **MUST** reference the relevant `A-*` ID(s).
+* If a `D-*` statement is meant to be auditable, it **SHOULD** reference the `E-*` claim(s) that provide evidence and the carrier classes involved.
+#### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
+
+**Intent.** State what happens in work and how it can be evidenced: observed effects, emitted events, traces/logs/metrics, produced reports, measurement outcomes.
+
+**Adjudication.** In‑work: checked by running/operating and inspecting carriers produced in work.
+
+**Canonical form.** An `E-*` statement **SHOULD** include the minimum fields needed for adjudication:
+
+1. **Observation/measurement conditions** (when/where/how observed; workload/window; triggers)
+2. **Carrier class/schema reference** (A.7 Carrier) that bears the evidence
+3. **Viewpoint/consumer** (who uses this evidence and why; ties to `viewpointRef` discipline)
+
+**Prohibitions.**
+
+* `E-*` statements **SHOULD NOT** use RFC deontic keywords (they are not obligations; they describe adjudicable effects/evidence).
+* An `E-*` statement **MUST NOT** hide a gate predicate; gate predicates are `A-*`.
+* An `E-*` statement **MUST NOT** assign agency (“the interface guarantees …”); if enforceability/commitment is intended, express it as `D-*` referencing the `E-*`.
+
+**A.7 anchoring.** `E-*` claims are primarily **Carrier‑anchored**: they assert what carriers exist and how they relate to observed work.
+
+**Required references (explicit).**
+
+* If the effect/evidence is conditioned on a gate decision, the `E-*` statement **SHOULD** reference the relevant `A-*` ID(s).
+* If the evidence is interpreted using metric definitions or invariants, the `E-*` statement **SHOULD** reference relevant `L-*` ID(s).
+
+### A.6.B:6 — Cross‑quadrant link discipline
+
+The square is not just classification; it is a **dependency discipline**. Claims often depend on each other; such dependencies **MUST** be explicit (by claim ID) rather than duplicated prose.
+
+#### A.6.B:6.1 — Explicit reference rule
+
+If a claim’s meaning materially depends on another L/A/D/E-classified claim, that dependency **MUST** be represented as an explicit reference to the other claim’s ID (or to the canonical location where it lives), rather than by restating it.
+
+**Guideline (informative).** Treat this as “import hygiene” for prose: reuse by reference, not by copy.
+
+#### A.6.B:6.2 — Canonical cross‑quadrant dependency patterns
+
+These patterns are valid (and common). The square becomes operational when these links are used systematically.
+
+##### A.6.B:6.2.1 - (D → A) Duty-to-gate linkage
+
+When governance requires someone to comply with a gate:
+
+* `D-*`: “Role **MUST** satisfy/enforce `A-*`.”
+
+This separates **what is admissible** (A) from **who is responsible** (D).
+
+##### A.6.B:6.2.2 - (E → A) Evidence-for-gate linkage
+
+When gate decisions must be observable:
+
+* `E-*`: “On rejection/acceptance due to `A-*`, carrier `C` is produced/observable under conditions …”
+
+This separates **gate semantics** (A) from **evidence semantics** (E).
+
+##### A.6.B:6.2.3 - (D → E) Duty-to-evidence linkage
+
+When governance requires evidence production/retention/exposure or commits to measured properties:
+
+* `D-*`: “Role **MUST** retain/expose carrier class `C` used by `E-*` …”
+* `D-*`: “Provider **SHALL** meet `E-*` under exclusions …”
+
+This separates **obligation/commitment** (D) from **adjudication** (E).
+
+##### A.6.B:6.2.4 - (A/E → L) Semantic grounding linkage
+
+When a gate predicate or measurement relies on definitions/invariants:
+
+* `A-*` / `E-*` references `L-*` that define terms/metrics.
+
+This prevents “metric drift” and “definition drift” across views.
+
+##### A.6.B:6.2.5 - (D → L) Governance-to-definition linkage
+
+When an obligation/commitment relies on precise term or metric meanings:
+
+* `D-*` references `L-*` that define the terms/metrics it uses.
+
+This keeps governance text from accidentally redefining semantics in prose.
+#### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
+
+**Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) an obligation to satisfy/enforce it, and (iii) an observability expectation into the three quadrants:
+
+* **A:** admissibility predicate (`A-*`)
+* **D:** duty/commitment referencing the gate (`D-* → A-*`)
+* **E:** evidence binding referencing the gate (and carriers) (`E-* → A-*`)
+
+This is the canonical repair for “contract soup” around validity, authorization, compliance, audit, and security boundaries.
+
+#### A.6.B:6.4 — Dependency direction (no “upward” imports)
+
+The square is intended to preserve **layered modularity**: semantics should not depend on governance text, and evidence semantics should not depend on duties.
+
+**Normative rule (no upward dependencies).**
+
+* `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes explicitly marked informative).
+* `A-*` claims **MUST NOT** depend on or reference `D-*` claims. (`A-*` may reference `L-*` for defined terms/invariants.)
+* `E-*` claims **MUST NOT** depend on or reference `D-*` claims. (`E-*` may reference `A-*` for conditioning and `L-*` for metric/term meanings.)
+* `D-*` claims **MAY** reference `L-*`, `A-*`, and/or `E-*` claims as needed, and **SHOULD** do so by ID rather than restating content.
+
+**Rationale (informative).** This keeps foundational meaning stable (L), keeps runtime gates independent of governance prose (A), and keeps evidence semantics independent of enforcement policy (E). Governance (D) is the place where “who must do what, using which gates and which evidence” is assembled.
+
+### A.6.B:7 — Mini-register: Claim Register (informative, recommended)
+
+A Claim Register is a drift‑control device that lists every routable statement verbatim with routing metadata. It is not a new meaning authority.
+
+| ID | Quadrant | Statement (verbatim) | Canonical location (section or publication unit) | Stack layer | A.7 primary layer | viewRef | viewpointRef | References | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+Guidance (informative):
+* The **Statement** cell should contain the normative text as authored (copy/paste), not a paraphrase.
+* **Canonical location** should point to the one place the statement “lives” (e.g., `Signature.Laws`, `Mechanism.AdmissibilityConditions`, `TechCard.NormsCommitments`, `Evidence.Carriers`), so other faces can cite it by ID.
+* **Stack layer** should be one of `{Signature, Mechanism, Norms/Commitments, Evidence/Carriers}` to make routing auditable.
+* **A.7 primary layer** is the claim’s *primary referent* (`Object`, `Description`, or `Carrier`), even though the claim is always written as a Description.
+* Use **References** for explicit cross‑quadrant links (e.g., which `D-*` enforces which `A-*`, which `E-*` adjudicates which commitments, which `L-*` defines a metric used by `E-*`) and for external standards/policies where applicable.
+
+### A.6.B:8 - Archetypal Grounding (Tell–Show–Show)
+
+> **Informative.** Examples for learning the square; they do not add requirements beyond A.6.B:10.
+
+#### A.6.B:8.1 - Tell (universal rule)
+
+A boundary remains evolvable and auditable when every normative statement is decomposed into atomic claims, each claim is routed to exactly one quadrant of the Boundary Norm Square, and cross‑quadrant dependencies are expressed by explicit claim‑ID references rather than paraphrase.
+
+#### A.6.B:8.2 - Show #1: Effect signature vs handler (post‑2015 effect systems)
+
+A service boundary naturally mirrors **algebraic effects & handlers** practice (popularized broadly in the post‑2015 era, with mainstream effect handlers becoming especially prominent around OCaml 5):
+
+* **L:** defines the operation vocabulary and laws (effect signature semantics).
+* **A:** defines when the operation is admissible (runtime guard predicates).
+* **D:** states who must enforce guards and what the provider commits to (operator/implementer duties; SLAs).
+* **E:** ties “what happened” to observable carriers (traces/logs/metrics/events) so commitments can be adjudicated.
+
+The square prevents accidentally writing handler obligations as laws or treating observability as a definition.
+
+#### A.6.B:8.3 - Show #2: ML evaluation protocol boundary (reproducibility discipline)
+
+A published “evaluation protocol” boundary (common in modern ML governance) benefits from strict routing:
+
+* **L:** metric definitions and invariants (e.g., what counts as AUROC; data partition invariants).
+* **A:** admissibility gates (dataset usage-term constraints; pinned environment constraints; seed policy).
+* **D:** checker and author duties (publish required faces; use declared dataset version; retention duties for run evidence carriers).
+* **E:** evidence carriers (run logs, hashes, reports, trace IDs) and adjudication conditions (which viewpoint measures, what windows).
+
+The square keeps “must use dataset vX” (D) separate from “evaluation is admissible iff dataset usage terms match” (A), and both separate from “a run produced report carrier R with hash h” (E).
+
+#### A.6.B:8.4 — Worked Rewrite Kit (informative, recommended)
+
+> **Informative.** This kit is a worked, copy‑pasteable restatement of A.6.B’s rules (atomicity, L/A/D/E routing, explicit references, triangle decomposition, and no‑upward dependencies). If anything here conflicts with A.6.B, **A.6.B is authoritative**.
+
+##### A.6.B:8.4.0 - Goal
+
+Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence” into:
+
+1. **atomic L/A/D/E-classified claims** (L/A/D/E),
+2. **explicit references by claim ID** (no paraphrase duplication),
+3. **a readable recomposition** (Tech + Plain),
+4. **a minimal anti-pattern lint** (things we reject / flag).
+
+##### A.6.B:8.4.1 - Micro-procedure (Atomize → Route → Triangle → Link → Anchor → Recompose)
+
+**Step 1 — Atomize.** Split mixed prose into atomic claims; each must route to exactly one quadrant.
+
+**Step 2 — Route (L/A/D/E).**
+
+* **L** if the claim is **truth‑conditional** and adjudicable *in‑description* (inspection, proof/type validation, or model reasoning **over declared assumptions**): definitions, invariants, typing/well‑formedness constraints.
+  **Guardrails:** `L-*` MUST NOT (i) use RFC deontic keywords as operators, (ii) encode runtime entry predicates (those are `A-*`), or (iii) assert evidence existence/measurement outcomes (those are `E-*`).
+* **A** if it is an *in‑work* **gate predicate**: what the mechanism admits at application time (“admissible iff …”). It is not a duty and MUST NOT be phrased as one.
+  **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence/carriers exist (that is `E-*`), or (iii) assign responsibility/enforcement (that is `D-*`).
+  *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning/use; it is not a runtime entry gate.)*
+* **D** if it assigns **duties/commitments** to an accountable `U.Role` or `U.Agent` (RFC keywords belong here; “the interface/system promises” does not).
+  **Guardrails:** `D-*` MUST name an accountable subject and SHOULD reference `L-*`/`A-*`/`E-*` by ID rather than restating them in new words (to prevent paraphrase drift).
+* **E** if it is an *in‑work* truth‑conditional claim about adjudicable effects/evidence: what carriers exist, under what observation conditions, and/or what was observed.
+  **Minimum fields (recommended):** (1) observation/measurement conditions, (2) carrier class/schema reference, and (3) viewpoint/consumer.
+  **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords, MUST NOT hide a gate predicate (that is `A-*`), and MUST NOT cite `D-*`.
+  *(If the sentence is “Role SHALL measure/retain/expose …”, route that obligation to **D**, even if it is about evidence.)*
+
+**Step 3 — Triangle decomposition.** If the original sentence mixes (i) an entry condition, (ii) an obligation/commitment, and (iii) an observability expectation (a common failure mode with “guarantee/ensure/approved/aligned”), decompose it into:
+
+* **A**: the admissibility predicate (what must be true to treat the claim as applicable),
+* **D → A**: who is responsible for keeping/ensuring the predicate,
+* **E → A**: what evidence/traces are used to adjudicate the predicate.
+
+**Note (claim-classification sanity).** `D-*` claims are authored in the description even when their compliance is audited via `E-*` claims. Auditing via evidence does not move `D-*` into quadrant E.
+
+**Guideline.** Keep gate semantics independent of specific evidence carriers: write the gate predicate in `A-*`, then bind observability in `E-*` that references the gate (`E → A`). `A-*` claims MUST NOT reference `E-*` (no upward dependencies), even though `E-*` is used to adjudicate gate satisfaction.
+
+**Step 4 — Link by ID, not by paraphrase.** Supported directions (no upward deps):
+
+* `A-*` may cite `L-*`
+* `E-*` may cite `L-*` and `A-*`
+* `D-*` may cite `L-*`, `A-*`, `E-*`
+* Unsupported: `L-*` citing anything; `A-*` or `E-*` citing `D-*`.
+
+**Common link motifs (informative).** The most reusable boundary rewrites use the canonical motifs: `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`.
+
+**Step 5 — Anchor (minimal A.7 discipline).**
+
+* Anchor **L** claims in `Signature.Laws` (and mechanism‑local semantic laws if present), and **A** claims in `Mechanism.AdmissibilityConditions`.
+* Anchor **D** claims to accountable roles/agents and prefer ID references (no restatement of `L-*` / `A-*` content in new words).
+* Anchor **E** claims to carriers + observation conditions and **SHOULD** include viewpoint/consumer (minimum: conditions + carrier class/schema + consumer/viewpoint).
+
+**Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with canonical location + references so faces can cite by ID without paraphrase.
+
+**Step 6 — Recompose into readable text.**
+Produce two surfaces:
+
+* **Tech surface**: a short **L/A/D/E-classified claim bundle** (sometimes called a “claim skeleton”) listing L/A/D/E claims and ID references.
+* **Plain surface**: a one-paragraph narrative that *summarizes* the bundle and points to IDs (**no new semantics**). If you need a new constraint, add a new atomic L/A/D/E-classified claim; do not smuggle it into Plain.
+
+##### A.6.B:8.4.2 - Anti-pattern (quick)
+
+* **AP-1 Evidence-free guarantees.** “X guarantees Y” with no E-claims.
+* **AP-2 Interface-as-promiser.** Non-agent objects “promise/commit”.
+* **AP-3 Gate-as-evidence.** Treating the gate predicate (A) as if it were an observation (E).
+* **AP-4 Gate-as-law.** Entry predicates as signature “laws/definitions” (L) instead of `A-*`.
+* **AP-5 Adjective smuggling.** “fast/secure/approved/aligned” used instead of qualifiers/slots.
+* **AP-6 Paraphrase drift.** Restating L/A content in D or E with changed meaning (instead of citing by ID).
+* **AP-7 Deontics in predicates.** RFC keywords (“MUST/SHALL/…”) used as operators inside `L-*` or `A-*` predicates (should be `D-*` that references `L-*`/`A-*`).
+* **AP-8 View-fork semantics.** Recomposition/face text introduces new `L/A/D/E` meaning not present in the L/A/D/E-classified claim set (violates “no new semantics” discipline).
+* **AP-9 Applicability-as-gate.** Using `Signature.Applicability` (intended use) as a substitute for `A-*` runtime admission predicates.
+
+##### A.6.B:8.4.3 - Example 1 — Software engineering (SLO-ish API latency)
+
+###### A.6.B:8.4.3.1 - Draft sentence (non-conformant)
+
+> “This API guarantees p95 latency < 200ms.”
+
+###### A.6.B:8.4.3.2 - Atomize + Route (L/A/D/E)
+
+**L-API-01 (Definition).**
+`p95_latency(window W, population P, unit U, method M)` is defined as … (formal measurement definition).
+*(Lives in Signature.Laws or a referenced measurement definition pack.)*
+
+**L-API-02 (Interface signature).**
+The API endpoints and parameters are as declared (including parameter passing discipline / units).
+*(Signature-level structure.)*
+
+**A-API-01 (Gate predicate: admissibility).**
+The claim “p95 < 200ms” is admissible **only under** declared load/profile + deployment region + sampling method + window:
+`AdmissibleLatencyClaim := (region=US) ∧ (concurrency≤X) ∧ (payload≤Y) ∧ (W=5m) ∧ (M=HDRHistogram@v…) ∧ (P=requests that match filter F)`
+*(References L-API-01 for definition.)*
+
+**D-API-01 (Commitment).**
+`ServiceOwner` SHALL meet the latency target `p95_latency < 200ms` when `A-API-01` holds, adjudicated per `L-API-01` using the carriers/observation conditions in `E-API-01`.
+*(References L-API-01 and A-API-01 by ID; does not restate them.)*
+
+**D-API-02 (Operational duty).**
+`SRE_oncall` SHALL publish incident notes when the commitment `D-API-01` is violated, and SHALL avoid claiming compliance outside `A-API-01`.
+*(References D-API-01 and A-API-01 by ID.)*
+
+**E-API-01 (Evidence / carriers).**
+For decisions under `A-API-01`, the following carrier **classes** are produced or observable under the declared observation conditions: trace/span IDs, raw histogram carriers with schema reference, percentile dashboard snapshots, and pinned sampling configuration for window `W`.
+**Observation conditions (minimum):** workload/profile selector, sampling method/config pins, and computation method reference (`L-API-01`).
+**Viewpoint/consumer (minimum):** the role/view that uses the carriers to adjudicate the gate and/or audit commitments (e.g., SRE/PerfReview).
+*(References `A-API-01` and `L-API-01`; avoids RFC deontics; does not smuggle gates. Note: `E-*` MUST NOT cite `D-*`.)*
+
+**D-API-03 (Duty-to-evidence linkage).**
+`Operators` SHALL retain/expose the carrier classes referenced in `E-API-01` for the audit window required by policy.
+*(References E-API-01 by ID.)*
+
+**E-API-02 (Observed value claim).**
+For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and using carriers in `E-API-01`, observed `p95_latency = 173ms` (computed per `L-API-01`).
+*(References A-API-01, L-API-01 and E-API-01.)*
+
+###### A.6.B:8.4.3.3 - Triangle decomposition (explicit)
+
+* **A-API-01** is “the predicate”.
+* **D-API-01 → A-API-01** states the commitment under the gate/envelope.
+* **E-API-01 → A-API-01** anchors adjudication (carriers used to decide the gate/commitment).
+* **D-API-03 → E-API-01** expresses retention/exposure obligations for those carriers.
+
+###### A.6.B:8.4.3.4 - Readable recomposition
+
+**Tech recomposition (L/A/D/E-classified claim bundle, short):**
+
+* `L-API-01` defines p95 latency computation.
+* `A-API-01` specifies when the latency claim is admissible.
+* `D-API-01` states the commitment under that envelope.
+* `E-API-01` lists adjudicable carriers/conditions used to adjudicate `A-API-01` (and therefore any commitments that reference it).
+* `D-API-02` assigns operational incident-note duties.
+* `D-API-03` assigns retention/exposure duties for carriers in `E-API-01`.
+* `E-API-02` reports observed performance under `A-API-01` for `Γ_time=[t1..t2]`.
+
+**Plain recomposition (one paragraph, readable):**
+“The API’s latency target uses the p95 definition in **L-API-01** and is only applicable under the declared operating envelope **A-API-01**. The service owner commits to meeting the <200ms target under that envelope (**D-API-01**). Adjudication uses the telemetry carriers listed in **E-API-01**, which operators must retain/expose (**D-API-03**), and the on-call SRE must publish incident notes when the commitment is violated (**D-API-02**). Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
+
+##### A.6.B:8.4.4 - Example 2 — Mechanical engineering (fit / coaxiality)
+
+###### A.6.B:8.4.4.1 - Draft sentence (non-conformant)
+
+> “This fit ensures coaxiality.”
+
+###### A.6.B:8.4.4.2 - Atomize + Route
+
+**L-FIT-01 (Definition).**
+`coaxiality` is defined relative to a declared base axis and measurement method (datum scheme, instrument, tolerance zone).
+*(Truth-conditional: “what it means”.)*
+
+**L-FIT-02 (Interface/boundary structure).**
+The boundary relation involves shaft, bushing, datum axis, tolerance class, temperature window, assembly procedure class.
+*(Signature-level arity recovery / slots.)*
+
+**A-FIT-01 (Gate predicate).**
+The coaxiality claim is admissible only if manufacturing and assembly satisfy the declared process envelope: material batch, temperature window, tool calibration validity, surface finish class, alignment procedure version.
+*(Gate predicate; can be checked using evidence, but is not itself evidence.)*
+
+**D-FIT-01 (Duty).**
+`ProcessEngineer` SHALL ensure A-FIT-01 holds for the production lot and SHALL not release the lot for use when A-FIT-01 is false.
+*(References A-FIT-01.)*
+
+**E-FIT-01 (Evidence carriers).**
+Evidence carriers used to adjudicate `A-FIT-01` include CMM reports, tool calibration certificates, assembly logs, temperature traces, and datum scheme pins.
+*(References A-FIT-01 and L-FIT-01; avoids RFC deontics.)*
+
+**D-FIT-02 (Duty-to-evidence linkage).**
+`QualityEngineer` SHALL retain/expose the carriers referenced in `E-FIT-01` for the production lot.
+*(References E-FIT-01 by ID.)*
+
+**E-FIT-02 (Observed).**
+For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-01` and using carriers in `E-FIT-01`, measured coaxiality was within tolerance zone `T` (interpreted per `L-FIT-01`).
+*(References A-FIT-01, L-FIT-01, and E-FIT-01.)*
+
+###### A.6.B:8.4.4.3 - Readable recomposition
+
+**Tech bundle:**
+
+* Meaning of coaxiality: `L-FIT-01`.
+* Boundary arity/participants: `L-FIT-02`.
+* When the claim is admissible: `A-FIT-01`.
+* Who is responsible: `D-FIT-01`.
+* What we observe and keep as carriers: `E-FIT-01` and measured outcome `E-FIT-02` (with retention duty `D-FIT-02`).
+
+**Plain paragraph:**
+“‘Ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The coaxiality claim is only applicable under the declared manufacturing/assembly envelope (**A-FIT-01**), which the process engineer is accountable for maintaining (**D-FIT-01**). Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
+
+##### A.6.B:8.4.5 - Example 3 — Management (project “approved/aligned”)
+
+###### A.6.B:8.4.5.1 - Draft sentence (non-conformant)
+
+> “The project is approved.”
+
+###### A.6.B:8.4.5.2 - Atomize + Route
+
+**L-PRJ-01 (Definition).**
+`approved(project, approvalKind)` is defined as a relation kind; approval kinds include: “sponsor-signoff”, “stage-gate-pass”, “budget-authorized”, “staffing-assigned”, etc.
+*(Truth-conditional: disambiguates kind and polarity.)*
+
+**A-PRJ-01 (Gate predicate: stage entry).**
+For starting execution work, `ExecutionAdmissible(project)` holds iff required approvals are present *and* required prerequisites are satisfied (e.g., risk review completed, budget line exists, key roles staffed).
+*(This is the real “may start work” gate; references L-PRJ-01 for what counts as approvals.)*
+
+**D-PRJ-01 (Duty).**
+`ProjectOwner` SHALL not initiate execution unless `A-PRJ-01` holds, SHALL keep the approval registry current, and SHALL retain/expose the evidence carriers referenced in `E-PRJ-01`.
+*(References A-PRJ-01 and E-PRJ-01 by ID.)*
+
+**E-PRJ-01 (Evidence carriers).**
+Evidence carriers used to adjudicate `A-PRJ-01` include: signed decision record IDs, meeting minutes pins, budget system references, staffing assignment records, and gate checklist snapshots.
+*(References A-PRJ-01; avoids RFC deontics.)*
+
+**E-PRJ-02 (Observed state).**
+As of `Γ_time=snapshot(t)`, a resolvable gate-status carrier (e.g., `GateChecklistSnapshot#…`) indicates `A-PRJ-01` holds, with the referenced evidence set pinned as `{DecisionRecord#…, BudgetLine#…, StaffingAssignments#…}` (carrier classes as per `E-PRJ-01`).
+*(Observed / pinned state; references `A-PRJ-01` and `E-PRJ-01`; includes carrier instance(s), not just carrier classes.)*
+
+###### A.6.B:8.4.5.3 - Readable recomposition
+
+**Tech bundle:**
+
+* “Approved” is not one relation: `L-PRJ-01` defines approval kinds.
+* “May start execution” is a gate predicate: `A-PRJ-01`.
+* Owner accountability: `D-PRJ-01`.
+* Carriers and adjudication: `E-PRJ-01` and observed snapshot `E-PRJ-02`.
+
+**Plain paragraph:**
+“Instead of a generic ‘approved’, we select an explicit approval kind as defined in **L-PRJ-01** and treat ‘may start execution’ as an admissibility gate (**A-PRJ-01**). The project owner is accountable for not starting execution unless that gate holds and for keeping the approval registry current (**D-PRJ-01**). Gate status is adjudicated using the pinned carriers listed in **E-PRJ-01**; as of snapshot `t`, the evidence indicates the gate holds (**E-PRJ-02**).”
+
+##### A.6.B:8.4.6 - A compact “recomposition pattern” you can reuse verbatim
+
+###### A.6.B:8.4.6.1 - Tech register (2–5 lines)
+
+> “This boundary claim is defined by **L-…**, is applicable only under **A-…**, is accountable under **D-…**, and is adjudicated using evidence carriers **E-…**. Observed status/value is **E-…** for `Γ_time=…`.”
+
+###### A.6.B:8.4.6.2 - Plain register (1 paragraph)
+
+> “We mean **[short label]** in the sense of **L-…**. It’s only meant to be used when **A-…** holds. **[Role]** is responsible for maintaining that condition (**D-…**). Whether it holds is checked using **E-…**, and the latest recorded status/value is **E-…**.”
+
+### A.6.B:9 — Bias‑Annotation
+
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions.
+
+* **Arch bias:** favors explicit separation and explicit references; mitigated by allowing narrative faces while keeping commitments routed and referenced by ID.
+* **Gov bias:** makes accountability explicit (D) and auditability explicit (E); mitigated by keeping evidence conceptual and carrier‑anchored rather than tool‑specific.
+* **Onto/Epist bias:** insists on Object≠Description≠Carrier and on work‑adjudicated effects; mitigated by providing clear cross‑quadrant link patterns so authors can still express real‑world governance needs.
+
+### A.6.B:10 — Conformance Checklist
+
+| ID                                       | Requirement                                                                                                                                                                                                      | Purpose                                                  |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **CC‑A.6.B.1 (Atomicity).**              | A conforming boundary text **SHALL** decompose mixed sentences into **atomic claims** such that each atomic claim belongs to exactly one quadrant **L/A/D/E**.                                                    | Makes L/A/D/E classification unambiguous; prevents contract soup.       |
+| **CC‑A.6.B.2 (Quadrant routing).**       | Each atomic claim **MUST** be classified by the Boundary Norm Square and placed in its canonical stack placement (L→Signature.Laws; A→Mechanism.AdmissibilityConditions; D→Norms/Commitments; E→Evidence/Carriers). | Preserves stack modularity and evolvability.             |
+| **CC‑A.6.B.3 (Form constraints).**       | `L-*` and `A-*` claims **MUST NOT** contain RFC deontic keywords as operators; `D-*` claims **MUST** name an accountable `U.Agent` or `U.Role`; `E-*` claims **SHOULD NOT** use RFC deontic keywords.                       | Keeps modalities separated and audit‑ready.              |
+| **CC‑A.6.B.4 (Explicit references).**    | Where a claim depends on another L/A/D/E-classified claim, that dependency **MUST** be expressed by explicit ID reference rather than restating the other claim in new words.                                                | Prevents paraphrase drift across layers/faces.           |
+| **CC‑A.6.B.5 (E‑claim adjudicability).** | Each `E-*` claim **SHOULD** include (a) observation conditions, (b) carrier class/schema reference, and (c) viewpoint/consumer.                                                                                  | Makes work‑effects adjudicable rather than aspirational. |
+| **CC‑A.6.B.6 (No gate smuggling).**      | Operational admissibility predicates **MUST NOT** appear as `L-*` laws in the signature layer; they **MUST** be `A-*` claims in the mechanism layer.                                                             | Preserves substitution and signature stability.          |
+| **CC‑A.6.B.7 (No upward dependencies).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`; `A-*` and `E-*` claims **MUST NOT** reference `D-*`.                                                                                                   | Preserves layering and prevents hidden coupling.         |
+
+### A.6.B:11 - Common Anti‑Patterns and How to Avoid Them
+
+| Anti‑pattern                 | Symptom                                            | Why it fails                                                | Repair (square‑consistent)                                                                  |
+| ---------------------------- | -------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Gate‑as‑law**              | Preconditions written as “laws”                    | Collapses signature/mechanism boundary; breaks substitution | Move to `A-*` in Mechanism.AdmissibilityConditions; reference `L-*` terms.                  |
+| **Deontics in predicates**   | “MUST” inside definitions or gates                 | Confuses governance with truth/admissibility                | Rewrite as `L-*`/`A-*` predicate; add `D-*` duty referencing it.                            |
+| **Interface‑as‑promiser**    | “The API promises/guarantees …”                    | Category error (F.18): epistemes don’t promise              | Identify committing role (`D-*`), measured property (`E-*`), and metric definition (`L-*`). |
+| **Evidence‑free guarantees** | “Guaranteed p95 latency” with no measurement story | Unadjudicable; turns into marketing                         | Create `E-*` with carriers + conditions; link commitment as `D-* → E-*`.                    |
+| **Paraphrase drift**         | Same rule restated across faces                    | Divergence becomes invisible                                | Use IDs; faces cite IDs; optional Claim Register.                                           |
+| **View‑fork semantics**      | A face introduces new L/A/D/E content              | Violates “no new semantics” publication discipline          | Move new claim into canonical layer (L/A/D/E) or mark as informative only.                  |
+
+### A.6.B:12 — Consequences
+
+| Benefits                                                                                                     | Trade‑offs / mitigations                                                                         |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| **Stable modular boundaries.** Laws don’t accidentally become gates; governance doesn’t masquerade as truth. | Requires writers to split sentences; mitigated by the triangle decomposition pattern.            |
+| **Auditability by construction.** Commitments can be linked to adjudicable evidence carriers.                | Requires evidence to be designed; mitigated by keeping evidence conceptual and carrier‑anchored. |
+| **Reduced semantic drift across faces.** IDs + explicit references prevent accidental divergence.            | More cross‑references; mitigated by a Claim Register (optional but recommended).                 |
+
+### A.6.B:13 — Rationale
+
+The square is the smallest authoring primitive that forces an explicit choice across two distinctions that are otherwise routinely conflated:
+
+* **Truth vs governance** (what is the case vs what is required/committed), and
+* **Description vs work** (what can be decided by reading vs what must be decided by observing execution).
+
+By requiring atomicity and explicit cross‑quadrant references, the square converts “contract talk” into a set of routed, evolvable claims with clear adjudication semantics.
+
+### A.6.B:14 — SoTA‑Echoing (post‑2015 practice alignment)
+
+> **Informative.** Alignment notes; not normative requirements.
+
+**Representative sources (post‑2015; illustrative).** See also A.6:11 for a fuller list.
+* ISO/IEC/IEEE 42010:2022 (`U.View` and `U.Viewpoint` discipline).
+* Leijen (2017) / Hillerström & Lindley (2018) (effects & handlers).
+* OpenTelemetry Specification (v1.0+, 2021–) (evidence carriers as traces/logs/metrics).
+
+* **Effect systems & handlers:** clear separation between operation signature (L) and handler/runtime behavior (A/E), with governance duties (D) attached to accountable operators/implementers.
+* **Behavioural/session typing:** protocol laws (L) and admissibility (A) remain distinct from commitments (D) and runtime traces (E), improving interpretability of “progress/safety” style boundary guarantees.
+* **SRE/observability discipline:** treating traces/logs/metrics as evidence carriers (E) and separating evidence semantics from retention/exposure duties (D) mirrors contemporary operational practice while staying tool‑agnostic.
+
+### A.6.B:15 — Relations
+
+* **Used by A.6:** supplies the canonical matrix and cross‑quadrant link discipline that A.6 references as “Boundary Discipline Matrix”.
+* **Constrains A.6.0 (`U.Signature`):** enforces that `L-*` laws are truth‑conditional and do not include admissibility predicates.
+* **Constrains A.6.1 (`U.Mechanism`):** enforces that admissibility lives in `AdmissibilityConditions` (`A-*`) and that evidence semantics are routed as `E-*` with carrier anchors.
+* **Requires A.7:** anchors quadrants to Object/Description/Carrier so agency and evidence are not misattributed.
+* **Interacts with MVPK/E.17:** faces are projections that cite L/A/D/E-classified claims; faces must not mint new semantic commitments.
+
+### A.6.B:15a - Probe-coupled boundary claim routing
+
+Probe-coupled boundary language does not create a fifth quadrant. A boundary sentence that says a question, metric, dashboard, workshop, bridge, or API read changes the represented state must still be atomized through the same L/A/D/E square.
+
+Action path:
+
+1. Copy the boundary sentence being used for a decision.
+2. Split it into atomic claims before judging it: definition/law, admissibility/use condition, role commitment, and work/evidence effect.
+3. Give each atomic claim its quadrant and identifier.
+4. Put the state, probe, update, or export part in the quadrant where it belongs rather than treating "quantum-like boundary" as one claim.
+5. Apply `A.6.P` and `F.18` to reusable relation words; apply `A.10` to evidence; apply `B.3` to assurance; apply `C.16` to measurement; apply `C.26.1` to the remaining probe-coupled support load.
+6. Emit a Claim Register row set or equivalent L/A/D/E-classified claim set only when the sentence is decision-bearing, reusable, contested, assurance-facing, or likely to be cited across faces.
+
+For a local working note, the lighter action is enough: atomize the sentence mentally, write one clean L/A/D/E-classified sentence, and avoid the phrase "quantum-like boundary" as a single claim. Use the Claim Register when the L/A/D/E-classified claim set must survive reuse or dispute.
+
+| Quantum-like boundary phrase hides | Claim class | What the user writes |
+| --- | --- | --- |
+| The term, variable, state, frame, or relation being defined | `L-*` law/definition claim | Definition or invariant, without agent obligation language |
+| When a probe, metric, question, or bridge use is usable for the intended decision | `A-*` admissibility/use claim | Use condition, admissible use, non-admissible use, and neighboring-pattern handoff |
+| Who is responsible for applying, retaining, exposing, or not overusing the probe result | `D-*` role/commitment claim | Accountable role and referenced L/A/E claim IDs |
+| What work effect, carrier, trace, report, metric, or observed before/after state supports the claim | `E-*` work-effect/evidence claim | Carrier, observation condition, time window, and evidence reference |
+
+Useful outputs:
+
+- a Claim Register row set when the boundary sentence mixes claim kinds;
+- one rewritten L/A/D/E-classified sentence when the case is only a local working note;
+- an ordinary A.6.B L/A/D/E-classified claim set when no QL support load remains;
+- a C.26.1 route only for the remaining probe-coupled state-reading part;
+- an A.10/B.3/C.16/F.9 route when evidence, assurance, measurement, or bridge work is the real entry load.
+
+Do not write "the boundary is quantum-like" as one unL/A/D/E-classified claim. The action is: split the claim, classify the pieces, then decide whether `C.26.1` still has a remaining job.
+
+### A.6.B:End
+## A.6.C — Contract Unpacking for Boundaries
+
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative (unless explicitly marked informative)
+> **Placement:** Part A → **A.6 Signature Stack & Boundary Discipline**
+> **Builds on:** A.6 (stack + routing intent), **A.6.B** (L/A/D/E), **A.6.8 (RPR‑SERV)** (service‑cluster polysemy unpacking), **A.7** (Object≠Description≠Carrier), **A.2.3** (`U.PromiseContent` / promise content), **A.2.4** (`U.EvidenceRole`), **A.2.8** (`U.Commitment`), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), E.10 (L‑SERV / LEX‑BUNDLE), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance/evidence discipline)
+> **Lexical anchor:** **F.18** (NQD front for the *service (promise) / utterance / commitment* triad; naming, not ontology)
+> **Mint/reuse (terminology):** Reuses “contract / SLA / guarantee” as Plain-level boundary shorthand; mints **Contract Bundle** as an unpacking lens (not a new entity kind), plus optional register columns (`bundleId` / `bundlePart` / `faceRefs`). **NQD-front seeds (informative):** contract packet, agreement bundle, boundary bundle (chosen: *Contract Bundle* for low collision with existing “bundle” terms).
+> **Purpose (one line):** Prevent “contract soup” and agency misattribution by unpacking contract-language into distinct promise‑content, utterance package, commitment, and work+evidence (adjudication substrate) parts and routing each part into the Boundary Norm Square.
+
+### A.6.C:1 — Problem frame
+
+Boundary descriptions frequently use “contract” as a shorthand for “the thing that governs the interaction”. That shorthand is useful in conversation, but it collapses distinct layers that FPF deliberately keeps separate:
+
+* **Promise-level intent** (what is promised to be true or provided),
+* **Published description** (what is written and versioned),
+ * **Deontic commitment relation** (who is accountable for which obligations/permissions),
+* **Operational work and evidence** (what actually happens and what can be observed).
+
+When these layers are collapsed, authors accidentally assign agency to epistemes (“the interface guarantees…”), encode runtime gates as if they were internal laws, or treat observability as a property of text rather than of carriers and work. A.6 and A.6.B already provide an L/A/D/E claim-classification discipline for boundary claims, but “contract” language remains a recurring entry point for category mistakes.
+
+**Service-cluster note (modularity + lexicon).** Boundary “contract talk” commonly co‑moves with the *service* cluster (*service*, *service provider*, *server*, *SLA/SLO/service‑level*). When those tokens appear, their referents MUST be disambiguated per **A.6.8 (RPR‑SERV)** before (or while) applying the four‑part Contract Bundle below. In particular, `U.PromiseContent` is promise content and is written in normative prose as **promise content** (not as bare “service”).
+
+A.6.C makes contract-language usable inside the A.6 stack by providing a canonical unpacking that can be applied to APIs, hardware interfaces, protocols, and socio-technical boundaries.
+
+**Non‑goals (to preserve modularity).** A.6.C does **not**:
+* define “legal contract” doctrine (offer/acceptance/consideration, jurisdictional enforceability, etc.);
+* resolve conflicts between incompatible commitments across scales or contexts (capture them as separate `D-*` claims and apply conflict or mediation patterns when they exist);
+* redefine the core meanings of `U.PromiseContent`, `U.Work`, `U.SpeechAct`, or `U.Commitment`—it only makes “contract talk” routable into those objects/claims.
+* redefine quadrant semantics (`L/A/D/E`) or cross‑quadrant reference rules; those are defined normatively in A.6.B.
+
+### A.6.C:2 — Problem
+
+How can an author write (or repair) contract-language so that:
+
+1. **Agency is not misattributed** to descriptions (signatures, docs, specs, “interfaces”),
+2. **Governance statements** (obligations/commitments) are distinguishable from **admissibility gates** and from **semantic laws**,
+3. **Operational “guarantees”** become adjudicable via explicit evidence expectations, without smuggling evidence into semantics,
+4. **Multi-view publication** (MVPK faces) does not create parallel Contract Bundles or rival canonical claim sets by paraphrase drift?
+
+### A.6.C:3 — Forces
+
+| Force                      | Tension                                                                                                                                           |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Conversational convenience | People will keep saying “contract”; banning the term is unrealistic.                                                                              |
+| Ontological correctness    | “Contract” is a metaphor unless we explicitly locate who promises/commits and what can be evidenced.                                              |
+| Boundary diversity         | Software APIs, hardware connectors, protocols, and SLAs share the “contract” word but differ in what is adjudicated and how.                      |
+| Multi-view publication     | Faces are necessary for audience fit, but rephrasing easily creates new commitments.                                                              |
+| Adjudicability             | “Guarantee” claims must either be (i) semantic truths, (ii) deontic commitments, or (iii) evidenced properties—otherwise they are empty rhetoric. |
+| Minimality                 | The unpacking should be lightweight enough to apply during routine authoring and review.                                                          |
+
+### A.6.C:4 — Solution
+
+A.6.C introduces a **Contract Bundle** lens for boundary writing. It is not a new foundational entity kind; it is a disciplined way to interpret and rewrite contract-language under A.6.B.
+
+#### A.6.C:4.1 — The Contract Bundle (four-part unpacking)
+
+Whenever a text uses “contract / guarantee / promise / SLA / interface agreement” language, unpack it into four parts:
+
+1. **Promise Content (Promise content)**
+
+   * The promised value/effect (the promise *content*) in the intended scope.
+ * In FPF terms (A.2.3), **`U.PromiseContent` is promise content**—a **promise content**, not an execution event (`U.Work`) and not (by itself) an accountable deontic binding (`U.Commitment`).
+ * **Prose head rule (normative).** When referring to `U.PromiseContent` in normative prose, authors SHALL use the head phrase **promise content** (or **service offering clause** or **service promise clause**) and SHALL NOT rely on the bare head noun *service*. If the surrounding text also talks about endpoints/systems/operations, apply **A.6.8** to select facet‑typed phrases (service access point, service delivery system, service delivery work, and so on) rather than collapsing them into “service”.
+   * **Recommendation:** give the promise-content a stable local ID (e.g., `SVC-*`) so it can be cited from commitments, gates, evidence, and MVPK faces without paraphrase drift.
+ * **Routing discipline:** keep the semantics/definitions of the promised behavior in **L**; express *who is accountable for satisfying the promise* as a **D** claim (`U.Commitment`) that **references** the `U.PromiseContent` (plus any `A-*`/`E-*` claims as needed).
+
+2. **Utterance Package (speech act + published descriptions)**
+
+   * The work occurrence of stating/publishing/approving (a `U.SpeechAct <: U.Work`, A.2.9) **and** the utterance descriptions it produces or updates (versioned **epistemes** on carriers) that carry the L/A/D/E-classified claim set.
+   * A speech act **may** institute/update commitments, but only under an explicit context policy that recognizes that `actType` as having such institutional force.
+   * The published utterance descriptions (signature/mechanism spec + MVPK faces) carry L/A/D/E-classified claims. The act is not “the contract”; it is the work occurrence that created/updated the descriptions and (when recognized) the associated commitments.
+   * **Default interpretation rule (normative).** A conformant boundary model **MUST NOT** infer or assume any `U.Commitment` objects solely from the presence of a `Publish`/`Approve` `U.SpeechAct`. Publication creates/updates utterance descriptions and MAY institute publication/status claims (e.g., “Published”, “Approved as Standard”, “Deprecated”), but commitments exist only when represented explicitly as `U.Commitment` records (A.2.8).
+   * If a bounded context defines a policy that maps certain publish/approve act types to commitment-instituting effects (e.g., a named `SpecPublicationPolicy@Context`), the model **MUST** cite that policy, and any resulting commitments **MUST** still be represented explicitly as one or more `U.Commitment` objects with accountable subjects (not inferred from publication alone).
+
+3. **Commitment (Deontic accountability relation)**
+
+   * The accountable `U.Agent` or `U.Role` bound to obligations, permissions, and prohibitions (including being accountable for satisfying a promise content).
+   * This bundle part is the **D‑side commitment object**: by default, one or more `U.Commitment` records (A.2.8).
+   * **Default checklist (A.2.8 minimal structure):**
+     * `id` (stable; often the `D-*` claim ID),
+     * `subject` (accountable role/party; never an episteme),
+     * `modality` (normalized deontic token / BCP‑14 family),
+     * `scope` (`U.ClaimScope`) and `validityWindow` (`U.QualificationWindow`),
+     * `referents` (by reference/ID: promise content IDs like `SVC-*`, plus `L-*`/`A-*`/`MethodDescriptionRef(...)`/`ServiceRef(...)` as needed),
+   * `referents` (by reference/ID: promise content IDs like `SVC-*`, plus `L-*`/`A-*`/`MethodDescriptionRef(...)`/`PromiseContentRef(...)` as needed),
+     * optional `owedTo` (beneficiary/counterparty),
+     * optional `adjudication.evidenceRefs` when the commitment is meant to be auditable (point to `E-*`),
+     * optional `source` when authority/provenance matters (issuer + instituting `speechActRef` + description reference),
+     * optional `notes` for explicitly informative commentary (not part of the binding).
+   * A commitment is not “the spec text”: utterance descriptions carry the statement, but the binding is the `U.Commitment` object (A.7 / A.2.8).
+4. **Work + Evidence (Adjudication substrate)**
+
+   * The executed work and the observable carriers/traces that can adjudicate whether a commitment was met.
+   * This is **E quadrant**: “what evidence is produced/exposed/retained, under what conditions, and how it is interpreted”.
+   * Work is not “the contract”; it is what makes any operational claim testable.
+   * In FPF terms, evidence is normally expressed as **carrier‑anchored `E-*` claims** (often backed by `U.EvidenceRole` assignments on epistemes with provenance from Work).
+
+#### A.6.C:4.2 — Routing recipe into A.6.B (L/A/D/E)
+
+After unpacking, route each **atomic** statement using the Boundary Norm Square as defined normatively in **A.6.B** (quadrant semantics + form constraints + cross‑quadrant reference discipline). A.6.C does not redefine `L/A/D/E`; it applies them to contract-language as follows:
+
+* **Promise content → L/A (promise semantics + eligibility).**
+  * Put meanings, invariants, and metric definitions for what is promised in **L** (`L-*` in signature laws/definitions).
+  * Put “eligible/covered/valid iff …” predicates as **A** (`A-*` admissibility/gate predicates), not as deontic obligations.
+* **Commitment → D (who is accountable).**
+  * Put “MUST/SHALL/commits to …” statements as **D** (`D-*`), preferably as `U.Commitment` payloads (A.2.8).
+  * If compliance requires satisfying/enforcing a gate, the commitment **MUST** reference the relevant `A-*` ID(s) (D→A).
+  * If the commitment is meant to be auditable, include evidence hooks by referencing `E-*` (D→E), preferably via `U.Commitment.adjudication.evidenceRefs`.
+* **Work + Evidence → E (how we can tell).**
+  * Put observable traces, audit records, measurement windows, and carrier semantics as **E** (`E-*`) with explicit carrier and observation/measurement conditions (A.6.B:5.4).
+**Keyword placement rule (canonical claim set).**
+Within the canonical L/A/D/E-classified claim set, BCP‑14 norm keywords (RFC 2119 + RFC 8174)—and their common synonyms (e.g., SHALL, REQUIRED, RECOMMENDED, OPTIONAL)—belong in **D** claims only, expressed as `U.Commitment.modality` and normalized per **A.2.8**. Authors **SHOULD** avoid using these keywords in **L/A/E** claims; phrase **L** as definitions/invariants (“is defined as…”, “holds iff…”), **A** as predicates (“is admissible iff…”), and **E** as observable/evidenced properties. If a BCP‑14 keyword (or synonym) appears in an **L/A/E** claim, it **SHOULD** be rewritten into predicate/definition form (or explicitly marked informative) before publication.
+
+A helpful rewrite rule:
+
+> If a sentence mixes “when allowed” + “who must comply” + “how we can tell”, decompose it into an **A** predicate, a **D** duty referencing that predicate, and an **E** evidence claim referencing that predicate (per A.6.B triangle decomposition).
+
+#### A.6.C:4.3 — “Guarantee” disambiguation
+
+Treat “guarantee” as ambiguous until routed:
+
+* **Semantic guarantee** → **L** (“by definition / invariant”).
+* **Governance guarantee** → **D** (“provider commits / implementer must”).
+* **Operational guarantee** → **E** (measured property with evidence expectations; optionally referenced by D as the adjudication target).
+
+If none of these fits, the statement is likely rhetorical and should be rewritten or explicitly marked as aspirational/informative.
+
+#### A.6.C:4.4 — MVPK faces are not second contracts
+
+A contract bundle has one canonical claim set. Publication faces are **views** of that set under viewpoints:
+
+* Faces may **select, summarize, and render** claims for audiences.
+* Faces must not **introduce new semantic commitments** beyond the underlying claim set.
+* Any face-level decision-relevant / normative-looking statement **SHOULD** cite the underlying claim ID(s). If it cannot be traced to claim IDs, it **MUST** be explicitly presented as informative commentary.
+
+**Keyword rule (faces).**
+If a face contains BCP‑14 norm keywords (RFC 2119 + RFC 8174), including common synonyms (SHALL, REQUIRED, RECOMMENDED, OPTIONAL), then each such sentence MUST be a projection of an existing **D‑*** claim (`U.Commitment`) and MUST cite the underlying **D** claim ID(s).
+If a sentence cannot be traced to **D‑*** claim IDs, it MUST be rewritten to remove BCP‑14 keywords (e.g., turn it into explanatory prose that cites the relevant claim IDs) or moved out of the face.
+To avoid keyword‑evasion, equivalent deontic phrasings (e.g., “is required to…”, “is prohibited from…”) SHOULD follow the same trace-by-ID discipline even when no BCP‑14 keyword is present.
+
+Projection may be paraphrased for audience fit, but it **MUST NOT** change the deontic or semantic claim; if exactness is critical or disputed, use verbatim.
+
+This prevents faces from becoming “second contracts” by paraphrase drift.
+
+#### A.6.C:4.5 — Default register: Contract Claim Register (recommended)
+
+Use the **A.6.B Claim Register** (IDs + statements + quadrant + anchor). Add two optional columns that make A.6.C auditable without adding new ontology:
+
+* `bundleId: ContractBundleId` (local stable ID grouping the claims that constitute one boundary “contract bundle”)
+* `bundlePart ∈ {PromiseContent, Utterance, Commitment, WorkEvidence}`
+* `faceRefs = {PlainView|TechCard|InteropCard|AssuranceLane : …}` (where the claim is rendered)
+
+### A.6.C:5 — Archetypal Grounding (Tell–Show–Show)
+
+#### A.6.C:5.1 — Tell
+
+If you use contract-language for a boundary, do not treat “the interface/spec” as an agent. Instead:
+
+1. Identify the **promise content** (promise content) being promised,
+2. Identify the accountable **Commitment** holder(s) (roles/agents),
+3. Identify the **Utterance** surfaces that publish the boundary (signature/mechanism + MVPK views),
+4. Identify the **Work + Evidence** carriers that could adjudicate whether commitments were met,
+5. Route each claim through **L/A/D/E** and reference across quadrants rather than paraphrasing.
+
+#### A.6.C:5.2 — Show (System archetypes)
+
+**(A) Software API boundary**
+
+*Draft wording (contract soup):*
 “The Payments API guarantees idempotency. Clients must provide `Idempotency-Key`. We log all requests. Availability is 99.9%.”
 
 **Unpack + route:**
@@ -36,8 +1412,8 @@
 * **Utterance:** protocol description (could be a type/protocol spec plus explanatory views).
 * **L:** safety/progress properties as laws over the protocol model (truth-conditional, within the theory).
 * **A:** admissibility: when an interaction trace is considered valid/admissible (e.g., runtime checks; compilation checks; gating conditions for entering a session).
-* **D:** obligations on implementers/operators: implement the protocol; do not send messages outside the allowed state machine; publish conformance artefacts if required.
-* **E:** evidence: message trace carriers; conformance test run artefacts; audit trails for disputed interactions.
+* **D:** obligations on implementers/operators: implement the protocol; do not send messages outside the allowed state machine; publish conformance records if required.
+* **E:** evidence: message trace carriers, conformance test-run records, and audit trails for disputed interactions.
 
 **(D) Socio-technical “SLA + audit trail” boundary**
 
@@ -70,10 +1446,10 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    If the text uses “contract/guarantee/promise/SLA” language, it **SHALL** explicitly disambiguate the statement as referring to at least one of: **Promise content (promise content)**, **Utterance (published description)**, **Commitment (deontic binding)**, **Work+Evidence (adjudication)**.
 
 2. **CC‑A.6.C‑2 (No agency to epistemes).**
-   The text **MUST NOT** attribute promising/committing/obligating agency to signatures, mechanisms, interfaces, or documents. Any duty/commitment **SHALL** name an accountable role/agent.
+   The text **MUST NOT** attribute promising/committing/obligating agency to signatures, mechanisms, interfaces, or documents. Any duty/commitment **SHALL** name an accountable `U.Role` or `U.Agent`.
 
-3. **CC‑A.6.C‑3 (Route contract-bearing statements via A.6.B).**
-   Contract-bearing statements **SHALL** be routable as atomic claims to **L/A/D/E**, with dependencies expressed by explicit references rather than paraphrase.
+3. **CC‑A.6.C‑3 (Route contract-language statements via A.6.B).**
+   Contract-language statements **SHALL** be routable as atomic claims to **L/A/D/E**, with dependencies expressed by explicit references rather than paraphrase.
 
 4. **CC‑A.6.C‑4 (Promise content ≠ Work discipline).**
    Statements about what is executed/observed **SHALL** be expressed as **E** claims about work/evidence/carriers. Promise‑content language **SHALL** refer to the **promise content** (`U.PromiseContent`, A.2.3) and its **L‑defined** semantics (and to explicit **D‑*** commitments represented as `U.Commitment`, A.2.8), not to execution events (`U.Work`) or runtime effects.
@@ -83,7 +1459,7 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    If a “guarantee” is operational (requires reality to decide), the text **SHALL** include an **E** claim that states what evidence would adjudicate it (even if the evidence surface is abstract/conceptual).
 
 6. **CC‑A.6.C‑6 (No second contracts via faces).**
-   MVPK faces **MUST NOT** add new commitments beyond the underlying routed claims; faces may only project/summarize/select from the canonical claim set under a viewpoint.
+   MVPK faces **MUST NOT** add new commitments beyond the underlying L/A/D/E-classified claims; faces may only project/summarize/select from the canonical claim set under a viewpoint.
 
 7. **CC‑A.6.C‑7 (RFC‑keyword discipline inside faces).**
    If an MVPK face contains BCP‑14 norm keywords, each BCP‑14 sentence **MUST** cite the underlying **D‑*** claim ID(s) (`U.Commitment`) it is projecting. If it cannot, the face is non‑conformant until rewritten (no BCP‑14 keyword) or moved out of the face.
@@ -95,13 +1471,13 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
 
 | Anti-pattern                                        | Why it fails                                                   | Repair                                                                                      |
 | --------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Interface-as-promiser** (“the API promises…”)     | Epistemes are descriptions; they do not commit                 | Name the committing role/agent; route as D claim; keep the signature as utterance substrate |
+| **Interface-as-promiser** (“the API promises…”)     | Epistemes are descriptions; they do not commit                 | Name the committing `U.Role` or `U.Agent`; route as D claim; keep the signature as utterance substrate |
 | **Guarantee-without-substrate**                     | “Guarantee” is empty unless it is L, D, or E                   | Decide: semantic law (L), deontic commitment (D), or evidenced property (E)                 |
 | **SLA smuggled into laws**                          | Mixes governance with semantics; breaks substitution reasoning | Put SLA targets as D claims referencing L-defined metrics and E evidence                    |
 | **Gate written as obligation**                      | Confuses admissibility predicates with duties                  | Write predicate as A; write duty-to-gate as D→A reference                                   |
 | **Evidence as prose property** (“document proves…”) | Violates Object≠Description≠Carrier                            | State evidence as E claims about carriers produced/observed in work                         |
 | **Face-level paraphrase drift**                     | Creates multiple incompatible contracts                        | Faces should reference canonical claims; keep commitments centralized                       |
-| **Cross‑scale contract collapse**                   | Different agents claim incompatible “contracts” at different scales/contexts | Represent each as separate, scoped `D-*` claims (with accountable roles + Context); route conflicts to conflict/mediation patterns rather than collapsing them into one “contract”. |
+| **Cross‑scale contract collapse**                   | Different agents claim incompatible “contracts” at different scales or contexts | Represent each as separate, scoped `D-*` claims (with accountable roles + Context); apply conflict or mediation patterns rather than collapsing them into one “contract”. |
 
 ### A.6.C:9 — Consequences
 
@@ -128,14 +1504,14 @@ F.18 provides the **naming** intuition (service/promise vs utterance vs commitme
 
 * **Adopt — BCP 14 (RFC 2119 + RFC 8174) norm keyword discipline for spec language.** Modern spec-writing practice treats these keywords as a disciplined modality family; A.6.C constrains where such modality belongs (D) versus where predicate-style constraints belong (A/L).
 * **Adopt — behavioural/session types for protocol boundaries (post‑2015 practice).** Protocols as typed interactions emphasize separating safety/progress properties (L) from runtime admission (A) and from implementer obligations (D), with trace-based evidence (E).
-* **Adopt/Adapt — algebraic effects & handlers / effect systems.** The “operation signature vs handler semantics” split mirrors “utterance substrate vs work/evidence”, preventing execution semantics from being conflated with contract surfaces.
+* **Adopt/Adapt — algebraic effects & handlers / effect systems.** The “operation signature vs handler semantics” split mirrors “utterance substrate vs work/evidence”, preventing execution semantics from being conflated with governing spec refs.
 * **Adapt — ISO/IEC/IEEE 42010:2022 viewpoint discipline.** Multi-view publication is treated as viewpoints governing projections; A.6.C applies this to contract talk to avoid face-level semantic forks.
 
 ### A.6.C:12 — Relations
 
 * **Uses / is used by**
 
-  * Uses **A.6.B** for routing (L/A/D/E), atomicity, and cross-quadrant reference discipline.
+  * Uses **A.6.B** for L/A/D/E claim classification, atomicity, and cross-quadrant reference discipline.
   * Used by **A.6** cluster conformance (“contract unpacking”) as the detailed, reusable form of that discipline.
   * Complements **A.6.S** (signature engineering): contract unpacking is a common constructor step when turning prose boundaries into publishable signatures.
   * Coordinates with **A.6.P** families: when an RPR pattern touches “contract/guarantee” language, apply A.6.C to avoid category errors. (A.6.C is **not** a specialization of A.6.P; A.6.P is relation‑precision, A.6.C is boundary‑contract disambiguation.)
@@ -150,10 +1526,10 @@ F.18 provides the **naming** intuition (service/promise vs utterance vs commitme
 
 ## A.6.0 - U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType
 
-**Status.** Architectural pattern, kernel‑level and universal.  
-**Placement.** Part A (Kernel), **before A.6.1** (“U.Mechanism”).  
+**Status.** Architectural pattern, kernel‑level and universal.
+**Placement.** Part A (Kernel), **before A.6.1** (“U.Mechanism”).
 **Builds on.** **A.2.6** (USM: context slices & scopes), **E.8** (authoring order), **E.10** LEX-BUNDLE (registers, naming, stratification), **E.10.D1** D.CTX (Context discipline).
-  
+
 **Coordinates with.** **A.6.1** (U.Mechanism), **A.6.5** (`U.RelationSlotDiscipline` for n‑ary arguments), **E.5.3** (Unidirectional Dependency), **E.10** (LEX-BUNDLE), and **Part F** (harnesses & cross-context transport; naming). Conformance keywords: RFC 2119.
 
 ### A.6.0:1 - Problem frame
@@ -161,7 +1537,7 @@ F.18 provides the **naming** intuition (service/promise vs utterance vs commitme
 FPF already uses “signatures” to stabilise public promises of **reusable extension vocabularies** and, via **A.6.1**, of **mechanisms**. But authors also need stable, minimal declarations for **theories**, **methods** (operational families), and **disciplines** (regulated vocabularies). Without **one** universal notion of signature:
 * similar constructs proliferate under incompatible names;
 * readers cannot tell what is **declared** (intension & laws) versus what is **implemented** (specification);
-* cross‑context reuse lacks a canonical place to state **applicability** and **lawful vocabularies**.
+* cross-context reuse lacks a canonical place to state **applicability** and **declared admissible vocabularies**.
 
 E.8 demands a single authoring voice and section order; E.10 demands lexical discipline across strata. A.6.0 provides the common kernel shape these patterns presuppose.
 
@@ -170,11 +1546,11 @@ E.8 demands a single authoring voice and section order; E.10 demands lexical dis
 If each family (theories, mechanisms, methods, disciplines) invents its own “signature”:
 
 1. **Tight coupling.** Private definitions leak as public standards, breaking substitutability.
-    
-2. **Lexical drift.** The same surface label (e.g., *scope*, *normalization*) hides different laws.
-    
+
+2. **Lexical drift.** The same lexical label (e.g., *scope*, *normalization*) hides different laws.
+
 3. **Scope opacity.** Applicability (where the words mean what) remains implicit, violating D.CTX.
-    
+
 
 ### A.6.0:3 - Forces
 
@@ -191,8 +1567,8 @@ If each family (theories, mechanisms, methods, disciplines) invents its own “s
 
 Where the **Vocabulary** introduces an **n‑ary relation or morphism**, the Signature **SHALL**, for each parameter position `i`, declare a `SlotSpec_i = ⟨SlotKind_i, ValueKind_i, refMode_i⟩` as defined in **A.6.5 `U.RelationSlotDiscipline`**. SlotSpecs live inside the per‑relation parameter block of the **Vocabulary** row and **MUST NOT** introduce additional rows beyond the four‑row Signature Block.
 
-**Arrow form (typing for MVPK).** Author a Signature as a **morphism**  
-`SigDecl : ⟨SubjectBlock⟩ → ⟨Vocabulary × Laws × Applicability⟩`  
+**Arrow form (typing for MVPK).** Author a Signature as a **morphism**
+`SigDecl : ⟨SubjectBlock⟩ → ⟨Vocabulary × Laws × Applicability⟩`
 where `SubjectBlock = ⟨SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?⟩`. This makes `U.Signature` directly consumable by **E.17 MVPK** (publication of morphisms) without adding semantics on faces (no new claims; pins for any numeric content).
 
 *Guard clarification (normative).* **Operational guard predicates** (run‑time or admission guards) **BELONG ONLY** to **A.6.1 Mechanisms**. A Signature may express **domain/type constraints** intensionally (e.g., restricting an operator’s domain) but **SHALL NOT** encode operational admissions.
@@ -205,15 +1581,15 @@ A `U.Signature` is conceptual: it contains no implementation, no packaging/CI me
 
 #### A.6.0:4.1 - The **Signature Block (universal form)**
 
-The **four conceptual rows** (“SubjectBlock / Vocabulary / Laws / Applicability”) give a repeatable, holon‑stable pattern across mathematics → physics → engineering:  
-* **SubjectBlock** = *what it’s about + how quantified* (axiomatics + domain of interpretation),  
-* **Vocabulary/Laws** = *principles/laws* (postulates & constraints),  
+The **four conceptual rows** (“SubjectBlock / Vocabulary / Laws / Applicability”) give a repeatable, holon‑stable pattern across mathematics → physics → engineering:
+* **SubjectBlock** = *what it’s about + how quantified* (axiomatics + domain of interpretation),
+* **Vocabulary/Laws** = *principles/laws* (postulates & constraints),
 * **Applicability** = *where they hold in practice* (bounded context & time).
 
 Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names are universal; family‑specific aliases are mapped below):
 
-1. **SubjectBlock** — ⟨**SubjectKind**, **BaseType**, **SliceSet**, **ExtentRule**, **ResultKind?**⟩.  
-   *SubjectKind* names the intensional subject (C.3); *BaseType* is the `U.Type` the signature ranges over (CHR Spaces appear here **as types**, not as field names); *SliceSet* addresses the quantification domain (USM; e.g., **ContextSliceSet**); *ExtentRule* computes `Extension(SubjectKind, slice)` (C.3.2); *ResultKind?* (optional) is the intensional kind of outputs.  
+1. **SubjectBlock** — ⟨**SubjectKind**, **BaseType**, **SliceSet**, **ExtentRule**, **ResultKind?**⟩.
+   *SubjectKind* names the intensional subject (C.3); *BaseType* is the `U.Type` the signature ranges over (CHR Spaces appear here **as types**, not as field names); *SliceSet* addresses the quantification domain (USM; e.g., **ContextSliceSet**); *ExtentRule* computes `Extension(SubjectKind, slice)` (C.3.2); *ResultKind?* (optional) is the intensional kind of outputs.
    **Editorial split (allowed).** Authors **MAY** render the **SubjectBlock** as two adjacent lines — **Subject** *(SubjectKind, BaseType)* and **Quantification** *(SliceSet, ExtentRule, ResultKind?)* — **without changing semantics**. Even when visually split, SubjectBlock counts as **one** conceptual row.
 
    **Semantic roles of the SubjectBlock kinds (informative)**
@@ -222,19 +1598,19 @@ Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names a
    * **SliceSet (addressability).** The addressable set of `U.ContextSlice`s (USM). It identifies where **extent** is computed; it is not a “space” unless CHR.
    * **ExtentRule (extent).** A rule yielding `Extension(SubjectKind, slice)` (C.3.2); this is the quantifier’s domain, computed per slice.
    * **ResultKind? (outputs).** Optional: the intensional kind of the outputs of the operations declared in *Vocabulary* (use when outputs differ in kind from the SubjectKind).
-    
-2. **Vocabulary** — names and sorts of the public **types / relations / operators** this signature commits to (no handler semantics; no AdmissibilityConditions). For each **n‑ary relation or morphism** in the Vocabulary, parameters **SHALL** be declared via **SlotSpecs** `SlotSpec_i = ⟨SlotKind, ValueKind, refMode⟩` per **A.6.5 `U.RelationSlotDiscipline`**. SlotKinds and RefKinds **MUST** follow the `…Slot` / `…Ref` lexical discipline in **A.6.5** and **E.10 (LEX‑BUNDLE)**; ValueKinds **MUST** remain free of these suffixes.
+
+2. **Vocabulary** — names and sorts of the public **types, relations, and operators** this signature commits to (no handler semantics; no AdmissibilityConditions). For each **n‑ary relation or morphism** in the Vocabulary, parameters **SHALL** be declared via **SlotSpecs** `SlotSpec_i = ⟨SlotKind, ValueKind, refMode⟩` per **A.6.5 `U.RelationSlotDiscipline`**. SlotKinds and RefKinds **MUST** follow the `…Slot` / `…Ref` lexical discipline in **A.6.5** and **E.10 (LEX‑BUNDLE)**; ValueKinds **MUST** remain free of these suffixes.
    (No additional rows beyond the four‑row Signature Block.)
-  
+
 3. **Laws (Axioms/Invariants)** — equations and order/closure laws that are context‑local truths under the stated Applicability (no proofs here). **Operational guard predicates belong to Mechanisms (A.6.1)**, not to Signatures.
-    
+
 4. **Applicability (Scope & Context)** — conditions under which the laws are valid (bounded context, plane, stance, time notions). Applicability **MUST** bind a **`U.BoundedContext`** (D.CTX). Applicability here is the *context of meaning* for the Signature’s vocabulary/laws; it **MUST NOT** be used to encode claim‑level applicability, which remains a **Scope** on claims (USM / C.3.2). Cross‑context use **MUST NOT** be implicit; if intended, **name** the Bridge (conceptual reference only). When numeric comparability is implied, **bind** legality to **CG‑Spec/MM‑CHR** (normalize‑then‑compare; lawful scales/units).
-    
-*Mapping to existing families (normative aliases).*  
-— **A.6.1 (Mechanism).** *SubjectBlock* ↔ **SubjectKind/BaseType/…**; *Vocabulary* ↔ **OperationAlgebra**; *Laws* ↔ **LawSet**; *Applicability* remains contextual; **AdmissibilityConditions** — separate field of mechanism (not in the `U.Signature`).  
+
+*Mapping to existing families (normative aliases).*
+— **A.6.1 (Mechanism).** *SubjectBlock* ↔ **SubjectKind/BaseType/…**; *Vocabulary* ↔ **OperationAlgebra**; *Laws* ↔ **LawSet**; *Applicability* remains contextual; **AdmissibilityConditions** — separate field of mechanism (not in the `U.Signature`).
 — **Task/Problem/Discipline signatures (C.22, G-cluster).** These **SHALL** be introduced as **species of `U.Signature`** that reuse the same four-row Block (SubjectBlock / Vocabulary / Laws / Applicability); any extra per-family views are projections only (no new conceptual rows).
 
-*Optional projection views (normative).* Publications MAY include additional **projection views** (e.g., a Dependency View listing `imports/provides`, or an Assurance View listing audit/evidence hooks), but such views:
+*Optional projection views (normative).* Publications MAY include additional **projection views** (e.g., a Dependency View listing `imports/provides`, or an Assurance View listing audit and evidence hooks), but such views:
 1) MUST be mechanically derivable from `SignatureManifest` + the four‑row Block (and referenced ClaimIds where used), and
 2) MUST NOT introduce new semantics, obligations, or “extra rows”.
 
@@ -243,7 +1619,7 @@ Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names a
 For every **n‑ary relation or operator** declared in the **Vocabulary** row, the Signature **SHALL** assign, to each argument position, a **SlotSpec** triple:
 
 ```text
-+SlotSpec_i := ⟨SlotKind_i, ValueKind_i, refMode_i⟩
+SlotSpec_i := ⟨SlotKind_i, ValueKind_i, refMode_i⟩
 ```
 
 where:
@@ -275,16 +1651,16 @@ This example illustrates the intended reading: **parameters are typed twice**—
 #### A.6.0:4.2 - Profile specialisations (normative; structure‑preserving)
 To enable first‑principles layers without minting new Kernel kinds, apply **profiles** to `U.Signature`:
 
-* **`profile = FormalSubstrate`** — *formal‑deductive layer*  
-  **Vocabulary:** `TermRegister` (ref‑only), **InferenceKinds** (ref‑only), **EffectDiscipline** (operation/effect signatures).  
-  **Laws:** equational/structural axioms of the calculus; **no handler semantics**.  
-  **Applicability:** binds a `U.BoundedContext` at the **concept‑plane**; **no units/ReferencePlane/Transport** on faces.  
-  **MVPK pins:** **`No‑Realization` pin (mandatory)** on `PlainView`/`TechCard` asserting that handler semantics live only in **A.6.1 `U.Mechanism::U.EffectRealization`**.  
+* **`profile = FormalSubstrate`** — *formal‑deductive layer*
+  **Vocabulary:** `TermRegister` (ref‑only), **InferenceKinds** (ref‑only), **EffectDiscipline** (operation/effect signatures).
+  **Laws:** equational/structural axioms of the calculus; **no handler semantics**.
+  **Applicability:** binds a `U.BoundedContext` at the **concept‑plane**; **no units/ReferencePlane/Transport** on faces.
+  **MVPK pins:** **`No‑Realization` pin (mandatory)** on `PlainView`/`TechCard` asserting that handler semantics live only in **A.6.1 `U.Mechanism::U.EffectRealization`**.
   **Faces:** On MVPK faces, **`InferenceKindsAllowed`** MAY present a **ref‑only subset** of the enumerated **`InferenceKinds`**; Signatures do not add handler semantics.
 
-* **`profile = PrincipleFrame`** — *postulates + measurability intent (CHR‑binding)*  
-  **Vocabulary:** **PostulateSet** (in the calculus imported), **CHR‑Binding presence** (ref‑only to characteristics/observation profiles), **Ontology anchors** (ref‑only to substrate types/morphisms used to name subject‑matter entities).  
-  **Laws:** timeless/order‑free invariants; **no operational admissions**.  
+* **`profile = PrincipleFrame`** — *postulates + measurability intent (CHR‑binding)*
+  **Vocabulary:** **PostulateSet** (in the calculus imported), **CHR‑Binding presence** (ref‑only to characteristics/observation profiles), **Ontology anchors** (ref‑only to substrate types/morphisms used to name subject‑matter entities).
+  **Laws:** timeless/order‑free invariants; **no operational admissions**.
   **Applicability:** binds a `U.BoundedContext`; **Signatures SHALL NOT publish units/ReferencePlane/ComparatorSet/Transport** (first mention is in **UNM**).
   **MVPK pins:** **`NoReferencePlaneOnSignature`** (alias: **`NoReferencePlaneOnPF`**) and **`UNM‑priority`** (units/planes/comparators/Transport are declared only by **`U.ContextNormalization`** and cited by edition/ref‑id where needed).
 
@@ -298,10 +1674,10 @@ If a Signature’s **Vocabulary** includes an **EffectDiscipline** (operation/ef
 
 * **I/D/S separation.** A signature **states intension and laws**; Realizations (if any) carry **specifications**. Do not mix tutorial text or operational recipes into the Block. Do **not** include **AdmissibilityConditions** or run‑time admissions here.
 * **Context discipline.** Bind Applicability to a **`U.BoundedContext`**. If cross‑context use is intended, **name** the crossing and **reference** the Bridge (Part F/B); A.6.0 does **not** prescribe **compatibility/loss tables (CL, including `CL^plane`)** or penalty formulas.
-* **Stratification.** Use LEX‑BUNDLE registers and strata; do not redefine Kernel names in lower strata (no cross‑bleed).  
+* **Stratification.** Use LEX‑BUNDLE registers and strata; do not redefine Kernel names in lower strata (no cross‑bleed).
 * **Signature manifest.** If the signature is intended to be imported/reused, publish a `SignatureManifest` immediately above the Block with explicit `id`, `imports`, and `provides` lists (§4.4.1). Keep the universal four‑row Block free of dependency/export metadata.
 
-* **Realization discipline (normative extension point).** If a family publishes any *Realization* of a `U.Signature`, each Realization **MUST** (i) declare which `SignatureId` it implements, (ii) satisfy the Signature’s **Laws** (and imported laws) and **MAY** tighten them but **MUST NOT** relax them, and (iii) treat imported Signatures as **opaque**—it **MUST NOT** depend on their internal structure beyond what is exported via `provides` and cited via ClaimIds. Realization‑specific build/tooling/test metadata belongs to the Realization artifact, not to the `U.Signature` Block.
+* **Realization discipline (normative extension point).** If a family publishes any *Realization* of a `U.Signature`, each Realization **MUST** (i) declare which `SignatureId` it implements, (ii) satisfy the Signature’s **Laws** (and imported laws) and **MAY** tighten them but **MUST NOT** relax them, and (iii) treat imported Signatures as **opaque**—it **MUST NOT** depend on their internal structure beyond what is exported via `provides` and cited via ClaimIds. Realization-specific build, tooling, and test metadata belongs to the Realization record or publication, not to the `U.Signature` Block.
 
 ##### A.6.0:4.4.1 - SignatureManifest (imports/provides; normative)
 
@@ -323,31 +1699,31 @@ A `U.Signature` MAY be prefixed with a lightweight manifest that makes boundary 
 - **No ghost dependencies (vocabulary symbols).** Any non‑Kernel **SymbolId** referenced in the **SubjectBlock** or **Vocabulary** rows (including `BaseType`, `ResultKind?`, operator names, SlotKinds, ValueKinds, RefKinds) that is **not** provided by this signature MUST be provided by some imported signature. References that are *not* vocabulary symbols—e.g., **ClaimIds**, **BridgeIds**, **policy‑ids**, or **EditionIds**—are exempt.
 - **Law anchoring.** When downstream text depends on laws/constraints from an imported signature, it SHOULD cite the corresponding **ClaimId** (A.6.B), not paraphrase prose.
 
-The A.6.0 four‑row Block remains the source of truth for meaning (Vocabulary/Laws/Applicability). The manifest only declares dependency edges and exported names.
+The A.6.0 four-row Block remains the canonical meaning carrier for Vocabulary, Laws, and Applicability. The manifest only declares dependency edges and exported names.
 
-* **Token hygiene.** Do **not** mint new `U.*` tokens inside a Signature without a **DRR**; prefer referencing existing Kernel/Extension `U.Type`s. 
+* **Token hygiene.** Do **not** mint new `U.*` tokens inside a Signature without a **DRR**; prefer referencing existing Kernel/Extension `U.Type`s.
 
-*MVPK publication discipline for Signatures (normative).* When publishing a `U.Signature` via MVPK (E.17), faces **SHALL** be typed projections that add **no new claims**; any numeric/comparable statement **MUST** pin unit/scale/reference‑plane/**EditionId** to **CG‑Spec/MM‑CHR** where applicable. For deductive substrates, faces **MUST** carry a **No‑Realization pin** (handlers/realizers absent). For Principle‑level signatures, faces **MUST NOT** introduce units/ReferencePlane/Transport (first mention occurs in UNM).
+*MVPK publication discipline for Signatures (normative).* When publishing a `U.Signature` via MVPK (E.17), faces **SHALL** be typed projections that add **no new claims**; any numeric/comparable statement **MUST** pin unit, scale, reference-plane, and **EditionId** to **CG‑Spec/MM‑CHR** where applicable. For deductive substrates, faces **MUST** carry a **No‑Realization pin** (handlers/realizers absent). For Principle‑level signatures, faces **MUST NOT** introduce units/ReferencePlane/Transport (first mention occurs in UNM).
 
 #### A.6.0:4.5 - Specialisation knobs (for downstream patterns)
 
 A.6.0 exposes **three** conceptual knobs; downstream patterns (A.6.1, method/discipline specs) may **tighten** them:
 
 1. **Builder policy.** The Block MUST NOT export Γ‑builders. If a family publishes a Γ‑like builder/aggregator, it MUST be outside the Block (typically as an **A.6.1** Mechanism‑level operator), explicitly marked optional, and namespaced under the Signature id.
-    
-2. **Transport clause.** If cross‑context/plane use is part of the design, the signature **may declare** a conceptual Transport clause; **A.6.1** gives a concrete schema (Bridge, **CL/CL^k/CL^plane**—Bridges per **F.9**, penalties per **B.3**, **CL^plane** per **C.2.1**), but A.6.0 remains agnostic about penalty shapes.
-    
+
+2. **Transport clause.** If cross-context or cross-plane use is part of the design, the signature **may declare** a conceptual Transport clause; **A.6.1** gives a concrete schema (Bridge, **CL/CL^k/CL^plane**—Bridges per **F.9**, penalties per **B.3**, **CL^plane** per **C.2.1**), but A.6.0 remains agnostic about penalty shapes.
+
 3. **Morphisms.** Families may define `SigMorph` (refinement, conservative extension, equivalence, quotient, product) to relate signatures; **A.6.1** instantiates this for mechanisms. Where such morphisms, or downstream **substitution / retargeting** laws (e.g., **A.6.2–A.6.4**), act on **n‑ary relations or morphisms**, they **SHALL** express their read/write/retargeting discipline in terms of **SlotSpecs**  (SlotKind / ValueKind / RefKind) rather than unnamed parameter indices, using **A.6.5 `U.RelationSlotDiscipline`** as the normative slot calculus.
 
 #### A.6.0:4.6 - Profile‑specialisation as a structure‑preserving morphism (normative)
 Profile application `ι_profile : U.Signature → U.Signature(profile=…)` **SHALL** be a **structure‑preserving morphism**:
-— **SubjectBlock** is preserved up to α‑renaming (SubjectKind/BaseType unchanged; ResultKind? only added when it exists in the universal intent).  
-— **Vocabulary** is **monotone** (adds or refines names/sorts without contradicting existing ones).  
-— **Laws** are **monotone** (add/strengthen axioms; never weaken).  
-— **Applicability** is **restrictive** (binds or tightens `U.BoundedContext`; never widens implicitly).  
-— No **AdmissibilityConditions**, **operational guards**, or **handler semantics** are introduced by the profile (those live under **A.6.1**).  
+— **SubjectBlock** is preserved up to α‑renaming (SubjectKind/BaseType unchanged; ResultKind? only added when it exists in the universal intent).
+— **Vocabulary** is **monotone** (adds or refines names/sorts without contradicting existing ones).
+— **Laws** are **monotone** (add/strengthen axioms; never weaken).
+— **Applicability** is **restrictive** (binds or tightens `U.BoundedContext`; never widens implicitly).
+— No **AdmissibilityConditions**, **operational guards**, or **handler semantics** are introduced by the profile (those live under **A.6.1**).
 This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in the sense of kernel specialisation and supports SigMorph reasoning (refinement/conservative extension).
-   
+
 ### A.6.0:5 - Archetypal Grounding (Tell–Show–Show)
 
 | quartet Element | `U.System` Example — **Grammar of Motions** | `U.Episteme` Example — **Normalization Family** |
@@ -362,11 +1738,11 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 ### A.6.0:6 - Bias‑Annotation (lenses & defaults)
 
 * **Local‑first meaning.** Laws are **local** to the named Context; cross‑context use must be explicit (Bridge), never implicit.
-    
-* **No illicit scalarisation.** If numbers appear, legal comparability follows **CG‑Spec/MM‑CHR**; **no ordinal means**, **partial orders return sets**; unit/scale alignment is explicit.
-    
+
+* **No illicit scalarisation.** If numbers appear, legal comparability follows **CG‑Spec/MM‑CHR**; **no ordinal means**, **partial orders return sets**; unit and scale alignment is explicit.
+
 * **Register hygiene.** Keep Tech vs Plain register pairs; avoid tooling/vendor talk in Kernel prose (E.10).
-  
+
 ### A.6.0:7 - Conformance Checklist (normative)
 
 | ID | Requirement |
@@ -381,7 +1757,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 | **CC‑A.6.0‑8 (No‑Realization on Signatures with EffectDiscipline).** | If **EffectDiscipline** appears in **Vocabulary**, faces **MUST** carry a **`No‑Realization` pin** and **MUST NOT** publish handler semantics; any **EffectRealization** is referenced (A.6.1) by id only. |
 | **CC‑A.6.0‑9 (CHR‑binding without units/Transport).** | Signatures that declare **measurability intent** (e.g., PrincipleFrame) **SHALL NOT** publish **units, ReferencePlane, ComparatorSet, or Transport**; those are declared only by **UNM** and cited by edition/ref‑id where consumers require numeric comparability. |
 | **CC‑A.6.0‑10 (UNM‑priority on faces).** | Any numeric/comparable claim on a Signature face **pins** **CG‑Spec/ComparatorSet edition ids** and, where scale/plane conversion occurs, **UNM.TransportRegistry edition** with **CL/CL^plane policy‑ids**; **penalties route to R/R_eff only**. |
-| **CC‑A.6.0‑11 (Bridge‑only crossings).** | Cross‑context/plane reuse of Signature claims **MUST** name a **Bridge** (UTS row) and **MUST NOT** imply implicit equivalence by label; losses are recorded via **CL** (penalties → **R**). |
+| **CC‑A.6.0‑11 (Bridge‑only crossings).** | Cross-context or cross-plane reuse of Signature claims **MUST** name a **Bridge** (UTS row) and **MUST NOT** imply implicit equivalence by label; losses are recorded via **CL** (penalties → **R**). |
 | **CC‑A.6.0‑12 (Profile conformance).** | If the Signature declares `profile=FormalSubstrate` or `profile=PrincipleFrame`, the corresponding **profile pins** in §4.2 are **mandatory**; failure to emit them makes the Signature **non‑conformant** for that profile. |
 | **CC‑A.6.0‑13 (Profile morphism discipline).** | Applying a profile **SHALL** satisfy §4.6 (structure‑preserving morphism: SubjectBlock preserved, Vocabulary/Laws monotone, Applicability restrictive, no admissibility/handlers). |
 | **CC‑A.6.0‑14 (SlotSpec for argument positions).** | Any `U.Signature` whose **Vocabulary** declares n‑ary relations or operators **SHALL** provide, for each argument position, a **SlotSpec** triple `⟨SlotKind, ValueKind, refMode⟩` (with `refMode ∈ {ByValue \| RefKind}`) as per A.6.5 `U.RelationSlotDiscipline`. |
@@ -393,14 +1769,14 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 | **CC‑A.6.0‑20 (No redeclare across imports).** | If `imports` is present, `provides(S)` MUST NOT re‑declare any symbol already provided by any transitive import of `S`. |
 | **CC‑A.6.0‑21 (No ghost dependencies).** | If `imports` is present, any non‑Kernel **SymbolId** referenced in the **SubjectBlock/Vocabulary** rows that is **not** provided by this signature MUST be provided by some imported signature (ClaimIds/BridgeIds/policy‑ids/EditionIds are exempt). |
 | **CC‑A.6.0‑22 (Realization opacity).** | If a family publishes any Realization of a `U.Signature`, that Realization **MUST** treat imported Signatures as **opaque** (depend only on their `provides` symbols and cited ClaimIds), and **MUST NOT** reference internal structure of imported Signatures. |
-| **CC‑A.6.0‑23 (Monotone Realization).** | A Realization **MAY** tighten but **MUST NOT** relax the Signature’s Laws; if weaker laws are needed, authors MUST mint a new Signature (or publish an explicit refinement morphism) rather than weakening an existing contract. |
+| **CC‑A.6.0‑23 (Monotone Realization).** | A Realization **MAY** tighten but **MUST NOT** relax the Signature’s Laws; if weaker laws are needed, authors MUST mint a new Signature (or publish an explicit refinement morphism) rather than weakening the existing Signature Laws. |
 
 ### A.6.0:8 - Consequences
 
 * **Uniform kernel shape.** Authors can define **theory**, **mechanism**, **method**, **discipline**, or other family signatures without inventing new templates.
-    
-* **Hard decoupling.** Boundary surfaces stay stable: the A.6.0 Block defines the contract, while mechanisms/realizations can evolve behind it (with monotone strengthening and explicit guard surfaces).
-    
+
+* **Hard decoupling.** Boundary surfaces stay stable: the A.6.0 Block defines the signature and laws, while mechanisms/realizations can evolve behind it (with monotone strengthening and explicit guard surfaces).
+
 **Didactic cohesion.** Readers see the same four conceptual rows across the spec, satisfying E.8’s comparability goal.
 
 ### A.6.0:9 - Rationale
@@ -408,30 +1784,30 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 **Why “SubjectBlock”?** A.6.1 showed that making the **carrier explicit** (here: *BaseType* — the carrier type) avoids category mistakes when moving between domains (e.g., *set‑algebra on context slices* vs *equivalence‑classes of normalisations*). A.6.0 lifts this to the kernel so every signature can declare **what it is about** before saying **what it provides**.
 **Why one universal Block?** Experience with extension/mechanism signatures shows the value of a single canonical “shape” for Vocabulary/Laws/Applicability/Alignment; A.6.0 factors that universal core so other families can add headers and views without fragmenting the Kernel.
 
-**Informative echoes (post‑2015 SoTA).**  
-— **Algebraic effects & handlers** (OCaml 5, Koka, Effekt, Links): *operation signatures + handler laws* mirror **Vocabulary + Laws** while keeping implementations separate.  
-— **Session/behavioural types** (2016–2024): protocol/admissibility laws parallel the **Laws** row (at mechanism level).  
+**Informative echoes (post‑2015 SoTA).**
+— **Algebraic effects & handlers** (OCaml 5, Koka, Effekt, Links): *operation signatures + handler laws* mirror **Vocabulary + Laws** while keeping implementations separate.
+— **Session/behavioural types** (2016–2024): protocol/admissibility laws parallel the **Laws** row (at mechanism level).
 — **Graded/row‑polymorphic effects** (Granule, row‑effects): inform the **EffectDiscipline** vocabulary and equational laws.
 
-**Profiles rationale (informative).**  
-— **FormalSubstrate.** Captures *mathematical language + inference kinds + effect signatures* at the **concept plane**, ensuring the calculus stays independent from handler/realization choices; consuming mechanisms (A.6.1) provide **EffectRealization** only by reference.  
+**Profiles rationale (informative).**
+— **FormalSubstrate.** Captures *mathematical language + inference kinds + effect signatures* at the **concept plane**, ensuring the calculus stays independent from handler/realization choices; consuming mechanisms (A.6.1) provide **EffectRealization** only by reference.
 — **PrincipleFrame.** Captures *postulates/invariants + measurability intent (CHR binding)* without committing to **units/planes/Transport**, which are authored centrally in **UNM** so that comparisons remain lawful and edition‑pinned.
 
 ### A.6.0:10 - Relations
 
 * **Specialises / is specialised by:** **A.6.1** (adds `OperationAlgebra` / `LawSet` / `AdmissibilityConditions` / `Transport` for mechanisms) and any domain‑profiled signature publications that preserve the four‑row Block.
 * **Constrained by:** E.10 LEX‑BUNDLE (registers, strata); D.CTX for Context binding; **Part F** (Bridges & cross‑context transport; naming).
-* **Consumed by (profiles):** **`U.FormalSubstrate`** and **`U.PrincipleFrame`** specialisations of `U.Signature` on the principled path; **UNM** (Context Normalization) remains the **single source of truth** for **CG‑Spec/ComparatorSet/Transport** editions that Signature consumers pin on faces.
+* **Consumed by (profiles):** **`U.FormalSubstrate`** and **`U.PrincipleFrame`** specialisations of `U.Signature` on the principled path; **UNM** (Context Normalization) remains the canonical edition source for **CG‑Spec/ComparatorSet/Transport** editions that Signature consumers pin on faces.
 
 * **Enables:** uniform authoring and comparison of signatures across Part C families, methods, and discipline glossaries (Part F).
-  
+
 ### A.6.0:End
 
 ## A.6.1 - U.Mechanism - Law‑governed application to a SubjectKind over a BaseType
 
 **One‑line summary.** A `U.Mechanism` is a specialisation of `U.Signature` (A.6.0): its **Vocabulary** is an explicit **OperationAlgebra** whose operators publish **SlotSpecs** (A.6.5), its **Laws** are a **LawSet**, and it adds **AdmissibilityConditions** (operational guards) plus a named **Transport** clause for cross‑context use. Transport is **Bridge‑only** (per **F.9**) with penalties routed to the **Reliability** channel only (**R**, or **R_eff** when distinguished) (per **B.3**); **F/G** remain invariant; **CL^plane** follows **C.2.1 CHR:ReferencePlane**. Realizations MAY be published, but MUST be monotone w.r.t. the Mechanism’s **LawSet** (and any imported Signature laws) and MUST treat imported signatures as opaque (use `imports`/`provides` + ClaimIds).
 
-**Status.** Normative \[A\] in **Part A (Kernel)**.  
+**Status.** Normative \[A\] in **Part A (Kernel)**.
 
 **Placement.** Immediately **after A.6.0** as **A.6.1**. **USM (A.2.6)** and **UNM (A.19/C.16)** become **instances conforming to A.6.1** (no semantic change to either).
 
@@ -471,18 +1847,18 @@ Without a kernel abstraction, scope/normalization/comparison constructs prolifer
 
 #### A.6.1:4.1 - **Mechanism Intension**
 
-A `U.Mechanism` **publishes**  
+A `U.Mechanism` **publishes**
         `U.Mechanism.Intension := ⟨IntensionHeader, Imports,
                 SubjectBlock := ⟨SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?⟩,
                 SlotIndex, OperationAlgebra, LawSet, AdmissibilityConditions,
-                Applicability, Transport, Γ_timePolicy, PlaneRegime, Audit⟩`  
+                Applicability, Transport, Γ_timePolicy, PlaneRegime, Audit⟩`
 and admits Realizations that respect it. The shape is **notation‑independent** and **conceptual** (no tooling, storage, or CI metadata).
 
-* **A.6.0 alignment (normative).** `U.Mechanism` is a specialisation of `U.Signature` (A.6.0). A mechanism publication **SHALL** include the universal four‑row Signature Block (*SubjectBlock / Vocabulary / Laws / Applicability*). The canonical mapping is:  
-  – **SubjectBlock** ↔ `SubjectBlock`  
-  – **Vocabulary** ↔ `OperationAlgebra` (including inline SlotSpecs per A.6.0:4.1.1 / A.6.5)  
-  – **Laws** ↔ `LawSet`  
-  – **Applicability** ↔ `Applicability`  
+* **A.6.0 alignment (normative).** `U.Mechanism` is a specialisation of `U.Signature` (A.6.0). A mechanism publication **SHALL** include the universal four‑row Signature Block (*SubjectBlock / Vocabulary / Laws / Applicability*). The canonical mapping is:
+  – **SubjectBlock** ↔ `SubjectBlock`
+  – **Vocabulary** ↔ `OperationAlgebra` (including inline SlotSpecs per A.6.0:4.1.1 / A.6.5)
+  – **Laws** ↔ `LawSet`
+  – **Applicability** ↔ `Applicability`
   `SlotIndex` is a mechanism-only **index/projection** over SlotSpecs used by `OperationAlgebra` (and any extra SlotSpecs used only by `AdmissibilityConditions`); it does **not** introduce a fifth Signature row and does not relax A.6.0:4.1.1.
   Mechanism‑only additions are `AdmissibilityConditions`, `Transport`, `Γ_timePolicy`, `PlaneRegime`, and `Audit`; they extend the Signature without contradicting its intension/specification split (A.6.0; CC‑A.6.0‑5).
 
@@ -502,16 +1878,16 @@ and admits Realizations that respect it. The shape is **notation‑independent**
   • **SliceSet.** The addressable set of Context slices (USM: **ContextSliceSet**).
   • **ExtentRule.** A rule yielding `Extension(SubjectKind, slice)` (C.3.2), used as the quantifier’s domain.
   • **ResultKind?** Optional intensional kind for outputs of `OperationAlgebra`.
-  • **SlotIndex.** A set (or map) of SlotSpecs `SlotSpec = ⟨SlotKind, ValueKind, refMode⟩` (A.6.0:4.1.1; A.6.5) covering every argument position used by **OperationAlgebra** and **AdmissibilityConditions**. SlotKinds are stable names for substitution and specialisation; parameter names/indices are presentation only.  
+  • **SlotIndex.** A set (or map) of SlotSpecs `SlotSpec = ⟨SlotKind, ValueKind, refMode⟩` (A.6.0:4.1.1; A.6.5) covering every argument position used by **OperationAlgebra** and **AdmissibilityConditions**. SlotKinds are stable names for substitution and specialisation; parameter names/indices are presentation only.
     For **Vocabulary-level** operators, SlotSpecs remain declared **in each operator’s parameter block** (A.6.0:4.1.1). `SlotIndex` is an extracted index that **MUST** be mechanically derivable from those declarations (plus any guard-only SlotSpecs). Guard-only SlotSpecs **SHALL** be authored as part of the **AdmissibilityConditions** predicate signatures (not only as prose) so they remain mechanically extractable.
     **Shorthand views (didactic only).** Authors MAY include a simple name→ValueKind list (a `ValueKindView`) as a didactic projection of SlotSpecs, but it SHALL NOT replace SlotSpecs (`SlotKind/ValueKind/refMode`) in normative Mechanism definitions. If present, it MUST be mechanically derivable from `SlotIndex` (e.g., `ValueKindView = π_value(SlotIndex)` by dropping `refMode`). The colloquial label **ParamKind** is permitted only in prose as a synonym for the `ValueKind` component of a SlotSpec; it MUST NOT be introduced as a field name, token, or type.
-* **OperationAlgebra.** Named operations whose signatures are expressed over SlotKinds from `SlotIndex` (A.6.5); **no implicit parameters**. For every n‑ary operator, its Vocabulary declaration **SHALL** publish SlotSpec triples per argument position (A.6.0:4.1.1); positional indices are presentation only. Examples:  
-  • **USM:** `∈, ⊆, ∩, SpanUnion, translate, widen, narrow, refit`.  
+* **OperationAlgebra.** Named operations whose signatures are expressed over SlotKinds from `SlotIndex` (A.6.5); **no implicit parameters**. For every n‑ary operator, its Vocabulary declaration **SHALL** publish SlotSpec triples per argument position (A.6.0:4.1.1); positional indices are presentation only. Examples:
+  • **USM:** `∈, ⊆, ∩, SpanUnion, translate, widen, narrow, refit`.
   • **UNM:** `apply(method)`, `compose`, `quotient(≡_UNM)`; **normalize‑then‑compare**.
 
 * **LawSet.** Equations/invariants (no proofs here). **Admissions/eligibility tests belong under AdmissibilityConditions, not here.** Laws **MUST** be compatible with CHR legality where numeric comparison/aggregation is induced. Examples:
-  • **USM:** serial **intersection**; **SpanUnion** only where a **named independence assumption** is satisfied (state features/axes, validity window, evidence class); `translate` uses declared Bridges; **Γ_time** is mandatory.  
-  • **UNM:** **scale‑appropriate** transforms — ratio→positive‑scalar; interval→affine; ordinal→monotone; nominal→categorical; `tabular:LUT(+uncertainty)`.  
+  • **USM:** serial **intersection**; **SpanUnion** only where a **named independence assumption** is satisfied (state features or characteristics, validity window, evidence class); `translate` uses declared Bridges; **Γ_time** is mandatory.
+  • **UNM:** **scale‑appropriate** transforms — ratio→positive‑scalar; interval→affine; ordinal→monotone; nominal→categorical; `tabular:LUT(+uncertainty)`.
   *(A conformant `U.Mechanism` publication **MUST NOT** mint a new Kernel token for “certificate”; if such a type is later required, it **MUST** follow DRR/LEX minting.)*
 
 * **AdmissibilityConditions.** Deterministic, **context‑local** *operational* guard predicates that **fail closed** (e.g., “Scope covers TargetSlice” with named **Γ_time**; “NormalizationMethod class + validity window named”). Predicate arguments **SHALL** be declared via SlotSpecs from `SlotIndex` (A.6.5), not as implicit positional parameters. Unknowns **→ {degrade | abstain}**; never coerce to 0/false.
@@ -524,26 +1900,26 @@ and admits Realizations that respect it. The shape is **notation‑independent**
 * **PlaneRegime.** Declare `ReferencePlane` on values/paths; when planes differ, name **CL^plane** and apply a **Φ_plane** policy (Part F/B.3). Plane penalties **do not** change CL; route to **R/R_eff** only; **F/G** stay invariant.
 
 * **Audit.** Conceptual audit surface only (no data/telemetry workflows): crossings are publishable on **UTS**; surface **policy‑ids** rather than tables. Edition pins and regression hooks (if any) are referenced by id; operational details remain out of scope.
-* **SignatureBlock alignment.** The referenced Signature’s four‑row Block (A.6.0) is canonical. Any mechanism rendering MUST preserve that block (or an explicit projection of it) and MUST obey A.6.5 for n‑ary argument discipline. SlotKinds and SlotSpecs in `SlotIndex` remain part of the **Vocabulary** row (A.6.0) and **MUST** obey A.6.5. 
+* **SignatureBlock alignment.** The referenced Signature’s four‑row Block (A.6.0) is canonical. Any mechanism rendering MUST preserve that block (or an explicit projection of it) and MUST obey A.6.5 for n‑ary argument discipline. SlotKinds and SlotSpecs in `SlotIndex` remain part of the **Vocabulary** row (A.6.0) and **MUST** obey A.6.5.
 
-* **Compatibility with A.6.\*** A.6.1 is a strict specialisation of A.6.0: the canonical four‑row Signature Block remains the source of truth; additional Mechanism fields (algebra, carriers, evidence) must not introduce new semantic rows or shadow the signature’s `imports`/`provides`. 
+* **Compatibility with A.6.\*** A.6.1 is a strict specialisation of A.6.0: the canonical four-row Signature Block remains the meaning carrier; additional Mechanism fields (algebra, carriers, evidence) must not introduce new semantic rows or shadow the signature's `imports`/`provides`.
 
 #### A.6.1:4.2 - U.MechMorph - Refinement, Extension, Equivalence & Composition
 
-**Intent.** Provide structure‑preserving **relations & constructors** between mechanisms.  
+**Intent.** Provide structure‑preserving **relations & constructors** between mechanisms.
 **Definitions.**
 
 * **Refinement** `M′ ⊑ M`: narrows the **SubjectBlock** and/or **SlotSpecs** (ValueKinds/refMode for inherited SlotKinds) and/or **strengthens** `LawSet`/`AdmissibilityConditions` (safe substitution; Liskov‑style). A Refinement **MUST NOT** rename SlotKinds or add new required arguments to inherited operations.
 * **Extension** `M ⊑⁺ M″`: **adds operations** (and any new SlotKinds used only by those new operations) without weakening existing Laws/Guards; old programs remain valid (conservative extension).
 * **Equivalence** `M ≡ M′`: there exists a bijective mapping between Subjects/ops preserving/reflecting **LawSet** (up‑to‑isomorphism on **BaseType** and **OperationAlgebra**).
-    
+
 * **Quotient** `M/≈`: factor by a **congruence** (e.g., **≡_UNM** for charts).
 
 * **Product** `M×N`: independent **BaseTypes**; ops are component‑wise; ensures **no illegal cross‑ops** (e.g., set‑algebra discipline for `SpanUnion`). Where independence is claimed, **name and justify** the assumption (do not mint new Kernel types here).
 
-##### A.6.1:4.2.1 - Multi-level specialisation ladders (normative)
+##### A.6.1:4.2.1 - Specialisation relation chains (normative)
 
-Many families need a **generic** mechanism at the top (e.g., “select anything”) and progressively **specialised** mechanisms below (e.g., “select a method by decision theory”, “select a telemetry pack”). To keep such ladders **modular** and to prevent cross‑level leakage:
+Many families need a **generic** mechanism at the top (e.g., “select anything”) and progressively **specialised** mechanisms below (e.g., “select a method by decision theory”, “select a telemetry pack”). To keep such specialisation chains **modular** and to prevent leakage across the chain:
 
 1. **Explicit parent + morphism kind.** Any mechanism that specialises another **MUST** name its parent and declare whether the step is a **Refinement** (`⊑`) or an **Extension** (`⊑⁺`). A specialisation family **MUST** be acyclic (a DAG).
 
@@ -553,9 +1929,9 @@ Many families need a **generic** mechanism at the top (e.g., “select anything�
 
 4. **No new mandatory inputs to inherited operations.** If a specialisation needs extra inputs, it **MUST** introduce a new operation (Extension) or an adapter mechanism; it **MUST NOT** retrofit new required parameters into an inherited operation signature.
 
-5. **No upward leakage.** A top‑level mechanism in a ladder **SHOULD** mention only the most general ValueKinds required by its SlotSpecs and Laws. Domain‑specific artefacts (e.g., decision‑theory policies, OEE generators, evaluation packs) belong in specialised mechanisms that refine slots and/or add operations.
+5. **No upward leakage.** A root mechanism in a specialisation chain **SHOULD** mention only the most general ValueKinds required by its SlotSpecs and Laws. Domain-specific policies, generators, and evaluation packs belong in specialised mechanisms that refine slots or add operations.
 
-*Informative selector ladder sketch.* `SelectorMechanism` can declare a stable slot interface (`CandidateSetSlot`, `ComparisonResultSlot`, `CriteriaSlot`, `ContextSlot`, `SelectionSlot`) with generic ValueKinds. `SelectorMethodMechanism ⊑ SelectorMechanism` then narrows `CandidateSetSlot.ValueKind` to `U.Method` and (by Extension) adds decision‑theory specific slots/ops; an OEE generator is authored as a separate mechanism that produces candidate/criteria packs consumed by the selector.
+*Informative selector specialisation-chain sketch.* `SelectorMechanism` can declare a stable slot interface (`CandidateSetSlot`, `ComparisonResultSlot`, `CriteriaSlot`, `ContextSlot`, `SelectionSlot`) with generic ValueKinds. `SelectorMethodMechanism ⊑ SelectorMechanism` then narrows `CandidateSetSlot.ValueKind` to `U.Method` and (by Extension) adds decision‑theory specific slots/ops; an OEE generator is authored as a separate mechanism that produces candidate/criteria packs consumed by the selector.
 **Transport** `Bridge⋅M`: lifts across Contexts/planes; names **CL/CL^k/CL^plane** regimes; penalties → **`R_eff` only**; **UTS row** recommended for publication; **ReferencePlane(src,tgt)** recorded. If mapping losses are material, **narrow** the mapped set or publish an **adapter** (best practice).
 
 **Passing example.** `USM′ = USM + “publish named independence‑assumption evidence for SpanUnion”` ⇒ **Refinement** (strengthened law; substitution‑safe).
@@ -583,9 +1959,9 @@ Many families need a **generic** mechanism at the top (e.g., “select anything�
 #### A.6.1:4.6 - Born‑via‑A.6.1 sketch (informative)
 
 **PTM — Publication & Telemetry Mechanism (informative)**
-**BaseType:** `SoTA‑Pack(Core)`, `PathId/PathSliceId`, `PolicyId`. **OperationAlgebra:** emit **selector‑ready** packs with parity pins and **telemetry stubs**; listen for edition/illumination bumps; trigger **slice‑scoped** refresh. 
-**LawSet:** **no change of dominance defaults** unless CAL policy promotes; edition-aware refresh.  
-**Guards:** **GateCrossing visibility harness** blocks publication on missing crossing attestations (BridgeCard+UTS row, ReferencePlane, CL/CL^k/CL^plane, Φ/Ψ policy-ids), on lane-purity violations (CL→R only; F/G invariant), or on lexical SD violations (E.10). 
+**BaseType:** `SoTA‑Pack(Core)`, `PathId/PathSliceId`, `PolicyId`. **OperationAlgebra:** emit **selector‑ready** packs with parity pins and **telemetry stubs**; listen for edition/illumination bumps; trigger **slice‑scoped** refresh.
+**LawSet:** **no change of dominance defaults** unless CAL policy promotes; edition-aware refresh.
+**Guards:** **GateCrossing visibility harness** blocks publication on missing crossing attestations (BridgeCard+UTS row, ReferencePlane, CL/CL^k/CL^plane, Φ/Ψ policy-ids), on lane-purity violations (CL→R only; F/G invariant), or on lexical SD violations (E.10).
 **Transport/Audit:** **G.10/G.11** publication & refresh semantics (CL routing to **R/R_eff**).
 
 *Informative SoTA:* telemetry hooks align with post‑2015 quality‑diversity families (CMA‑ME/MAE, DQD/MEGA) and open‑ended methods (POET‑class) when monitored via illumination telemetry rather than scored.
@@ -597,11 +1973,11 @@ Many families need a **generic** mechanism at the top (e.g., “select anything�
 #### A.6.1:4.8 - Quick “builder’s” checklist (author‑facing)
 
 1. Draft a **run↔design charter**: why this Mechanism, which **guard surfaces** and **comparability** are in scope; which `DesignRunTag`/`CtxState.locus` boundary it mediates; is a **Γ_m (CAL)** builder needed?
-    
+
 * Fill **Mechanism.Intension** (**SubjectBlock**, **SlotSpecs**, **OperationAlgebra**, **LawSet**, **AdmissibilityConditions**, **Applicability**, **Transport**, **Γ_timePolicy**, **PlaneRegime**, **Audit**).
-    
+
 * Bind **CHR legality & CG‑Spec** when comparing/aggregating (ComparatorSet, ScaleComplianceProfile (SCP), MinimalEvidence, Γ‑fold).
-    
+
 Ship **UTS + G.10**; wire **G.11** telemetry (PathSlice‑keyed); ensure penalties **route to `R_eff` only**.
 
 ### A.6.1:5 - Archetypal Grounding
@@ -613,7 +1989,7 @@ Ship **UTS + G.10**; wire **G.11** telemetry (PathSlice‑keyed); ensure penalti
 * **SliceSet:** `U.ContextSliceSet` (addressable `U.ContextSlice`s).
 * **SubjectKind:** `U.Scope` with specializations `U.ClaimScope` (G), `U.WorkScope`, and `U.PublicationScope`.
 * **OperationAlgebra:** `∈, ⊆, ∩, SpanUnion, translate, widen, narrow, refit`.
-* **LawSet:** serial **intersection**; **SpanUnion** only where a **named independence assumption** is satisfied (state features/axes, validity window, evidence class); **translate** uses declared **Bridges**; **Γ_time** is **mandatory**.
+* **LawSet:** serial **intersection**; **SpanUnion** only where a **named independence assumption** is satisfied (state features or characteristics, validity window, evidence class); **translate** uses declared **Bridges**; **Γ_time** is **mandatory**.
 * **AdmissibilityConditions:** deterministic **“Scope covers TargetSlice”**; **fail‑closed**; `unknown → {degrade|abstain}` (no implicit `unknown→0/false`).
 * **Transport:** **Bridge‑only** with **CL**; penalties → **`R_eff`**; **F/G** invariant; publish UTS notes.
 * **Γ_timePolicy:** `point | window | policy`; **no implicit “latest.”**
@@ -621,7 +1997,7 @@ Ship **UTS + G.10**; wire **G.11** telemetry (PathSlice‑keyed); ensure penalti
 
 ### A.6.1:6 - Bias-Annotation *(informative)*
 
-This pattern intentionally biases Mechanism authoring toward explicit contracts, context-local semantics, and auditable reuse.
+This pattern intentionally biases Mechanism authoring toward explicit signatures and laws, context-local semantics, and auditable reuse.
 
 * **Gov (governance).** Bias toward publishable obligations (Signature rows, CC items) and explicit policy-ids for crossings. Risk: perceived authoring overhead. Mitigation: reuse the `U.MechAuthoring` template; keep Realizations opaque and put operational details outside the Kernel.
 * **Arch (architecture).** Bias toward locality-first semantics and **Bridge-only** transport with costs routed to **R/R_eff**. Risk: reduced convenience for ad-hoc cross-context reuse. Mitigation: publish adapter mechanisms and make crossings explicit via `Transport` (CC‑UM.3/CC‑UM.4).
@@ -633,10 +2009,10 @@ This pattern intentionally biases Mechanism authoring toward explicit contracts,
 
 | ID | Requirement |
 |----|-------------|
-| **CC‑UM.0** | **A.6.0 alignment:** a conformant `U.Mechanism` publication **MUST** include the four‑row `U.Signature` Block (A.6.0). `OperationAlgebra` (including inline SlotSpecs per A.6.0:4.1.1/A.6.5) is the **Vocabulary** row, `LawSet` the **Laws** row, and `Applicability` the **Applicability** row; the universal block remains the comparability contract. Any `SlotIndex` is an index/projection and **MUST NOT** be treated as a fifth Signature row. |
+| **CC‑UM.0** | **A.6.0 alignment:** a conformant `U.Mechanism` publication **MUST** include the four‑row `U.Signature` Block (A.6.0). `OperationAlgebra` (including inline SlotSpecs per A.6.0:4.1.1/A.6.5) is the **Vocabulary** row, `LawSet` the **Laws** row, and `Applicability` the **Applicability** row; the universal block remains the comparability signature block. Any `SlotIndex` is an index/projection and **MUST NOT** be treated as a fifth Signature row. |
 | **CC‑UM.1** | **Complete Mechanism.Intension:** a conformant `U.Mechanism` publication **MUST** publish: `IntensionHeader(id, version, status); Imports; SubjectBlock (SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?); SlotIndex (A.6.5); OperationAlgebra; LawSet; AdmissibilityConditions; Applicability; Transport (Bridge named; ReferencePlane); Γ_timePolicy; PlaneRegime; Audit`. `IntensionHeader.id` **MUST** be PascalCase; `version` **MUST** follow SemVer; `status ∈ {draft|review|stable|deprecated}`. Eligibility/admission tests **MUST** be expressed as `AdmissibilityConditions`, not as `LawSet`. If the mechanism is intended to be imported/reused, it **MUST** also include a `SignatureManifest` per **CC‑A.6.0‑18**, consistent with `IntensionHeader`/`Imports` (A.6.1:4.1). |
-| **CC‑UM.2** | **Monotone realization (contract discipline):** if a mechanism publishes (or implies) any realization of a signature, that realization MUST satisfy the signature’s LawSet (and imported laws) and MAY only tighten (never relax) them. Realizations MUST treat imported signatures as **opaque**: reference only symbols in `provides` (A.6.0:4.4.1) and cite ClaimIds (A.6.B). Do not mint a parallel signature header; use `SignatureManifest`. |
-| **CC‑UM.3** | **Bridge‑only transport:** for any cross‑context/plane use, `Transport` **MUST** name the BridgeId and channel (F.9) and **MUST** record `ReferencePlane(src,tgt)` (C.2.1); when planes differ it **MUST** name `CL^plane`. Implicit crossings **MUST NOT** occur. When typed reuse is involved, the two‑bridge rule **MUST** apply (scope CL and kind `CL^k` penalties routed separately to **R**/**R_eff**). `Transport` is a declarative policy surface and **MUST NOT** be used to introduce a `U.Transfer` edge (E.18 term separation). It **MUST NOT** restate CL ladders or Φ/Ψ/Φ_plane tables; it **MUST** reference policy ids / registries. |
+| **CC‑UM.2** | **Monotone realization (signature-law discipline):** if a mechanism publishes (or implies) any realization of a signature, that realization MUST satisfy the signature’s LawSet (and imported laws) and MAY only tighten (never relax) them. Realizations MUST treat imported signatures as **opaque**: reference only symbols in `provides` (A.6.0:4.4.1) and cite ClaimIds (A.6.B). Do not mint a parallel signature header; use `SignatureManifest`. |
+| **CC‑UM.3** | **Bridge‑only transport:** for any cross-context or cross-plane use, `Transport` **MUST** name the BridgeId and channel (F.9) and **MUST** record `ReferencePlane(src,tgt)` (C.2.1); when planes differ it **MUST** name `CL^plane`. Implicit crossings **MUST NOT** occur. When typed reuse is involved, the two‑bridge rule **MUST** apply (scope CL and kind `CL^k` penalties routed separately to **R**/**R_eff**). `Transport` is a declarative policy surface and **MUST NOT** be used to introduce a `U.Transfer` edge (E.18 term separation). It **MUST NOT** restate CL ladders or Φ/Ψ/Φ_plane tables; it **MUST** reference policy ids / registries. |
 | **CC‑UM.4** | **R‑only routing:** any CL / `CL^k` / `CL^plane` penalties declared or incurred by `Transport` **MUST** reduce the Reliability channel only (**R**, or **R_eff** when distinguished) per **B.3**; they **MUST NOT** mutate **F/G**. |
 | **CC‑UM.5** | **CG‑Spec binding:** if the Mechanism defines or induces any numeric comparison or aggregation, it **MUST** bind to **CG‑Spec/MM‑CHR** (lawful **SCP**, Γ‑fold, MinimalEvidence; normalize‑then‑compare) and obey CHR legality: partial orders **MUST** return sets; ordinal means **MUST NOT** be computed; interval/ratio arithmetic **MUST** occur only with unit alignment (CSLC‑proven). |
 | **CC‑UM.6** | **E.8/E.10 compliance:** the A.6.1 publication **MUST** include Tell–Show–Show under **“Archetypal Grounding”** and **MUST** respect twin registers & I‑D‑S. Any new `U.*` token (including any new `U.Type`) **MUST** have a DRR and a `LEX.TokenClass` entry; `BaseType` **MUST** reference an existing `U.Type` (no in‑place minting), and any new `U.Type` required for that reference **MUST** be minted via DRR/LEX outside the mechanism definition. Non‑spec surfaces **MUST** end with **“…Description”**. Core narrative **MUST NOT** include tool/vendor tokens. |
@@ -661,16 +2037,16 @@ This pattern intentionally biases Mechanism authoring toward explicit contracts,
 ### A.6.1:9 - Consequences (informative)
 
 * **Uniform kernel shape.** Scope, normalization, comparison families can be authored and compared without lexical drift.
-* **Auditable reuse.** GateCrossings are UTS-visible via **CrossingSurface** (**E.18**); penalties are transparent (**R only**), with **LanePurity** + **Lexical SD** (E.10) checks runnable (GateChecks in **A.21**; Bridge+UTS discipline **A.27**; BridgeCard **F.9**).
+* **Auditable reuse.** GateCrossings are UTS-visible via **CrossingBundle** (**E.18**); penalties are transparent (**R only**), with **LanePurity** + **Lexical SD** (E.10) checks runnable (GateChecks in **A.21**; Bridge+UTS discipline through **F.9**, **F.17**, **E.17**, and **E.18**).
 * **Scalarisation avoids illegality.** Partial orders remain set‑valued; cross‑scale arithmetic is blocked by **CG‑Spec/CSLC**.
 
 ### A.6.1:10 - Rationale (informative)
 
-Anchoring mechanisms in an explicit **Signature → Realization** discipline (A.6.0 `SignatureManifest` + CC‑UM.2 monotonicity/opacity) keeps reuse safe: signatures are the contract; realizations may vary but cannot relax laws. It also makes cross‑context (Bridge) crossings explicit and costed on `R_eff` (never F/G).
+Anchoring mechanisms in an explicit **Signature → Realization** discipline (A.6.0 `SignatureManifest` + CC‑UM.2 monotonicity/opacity) keeps reuse safe: signatures and laws carry the boundary semantics; realizations may vary but cannot relax laws. It also makes cross‑context (Bridge) crossings explicit and costed on `R_eff` (never F/G).
 
 ### A.6.1:11 - SoTA-Echoing (post-2015 practice alignment) *(informative)*
 
-**Purpose.** To show how the FPF concept of a *Mechanism* (law-governed signature with guards and transport) aligns with, and improves upon, leading research and engineering practices after 2015.  
+**Purpose.** To show how the FPF concept of a *Mechanism* (law-governed signature with guards and transport) aligns with, and improves upon, leading research and engineering practices after 2015.
 All comparisons are *informative*: they serve didactic continuity, not new normative force.
 
 #### A.6.1:11.1 - Contemporary references (post-2015 sources)
@@ -683,7 +2059,7 @@ All comparisons are *informative*: they serve didactic continuity, not new norma
 
 3. **Policy‑as‑Code** (declarative guard/risk rules) — **Adapt.** A.6.1 turns runtime policies into deterministic, fail‑closed `AdmissibilityConditions` with named Γ_time windows; evaluators and tool binding stay out of Core. *(e.g., Open Policy Agent / Rego, 2016+; UL 4600:2020; ISO 21448:2019).*
 
-4. **Session / typestate types** (post‑2015 protocol safety) — **Adapt.** Protocol constraints inform how guards can restrict legal operator sequences, but A.6.1 keeps the contract as signature+laws and surfaces sequencing constraints as explicit guard predicates rather than hidden state. *(e.g., Scalas & Yoshida, 2016–2018; mainstream session‑type toolchains, 2017–2024).*
+4. **Session / typestate types** (post‑2015 protocol safety) — **Adapt.** Protocol constraints inform how guards can restrict legal operator sequences, but A.6.1 keeps boundary semantics as signature and laws and surfaces sequencing constraints as explicit guard predicates rather than hidden state. *(e.g., Scalas & Yoshida, 2016–2018; mainstream session‑type toolchains, 2017–2024).*
 
 5. **Lawful measurement and calibrated uncertainty** (monotone and calibrated learning, conformal prediction) — **Adopt/Adapt.** Modern calibrated methods show why comparability must be explicit; A.6.1 binds induced numeric operations to **CG‑Spec/CSLC** and forbids illegal scalarisation (e.g., ordinal means). *(e.g., Romano et al., 2019; Angelopoulos & Bates, 2021).*
 
@@ -696,7 +2072,7 @@ Each source corresponds to a distinct *Tradition*: formal semantics, categorical
 | **OperationAlgebra + LawSet** | Algebraic effects & handlers separate operation signatures from handlers. | Hillerström & Lindley (2018); OCaml‑5/Multicore OCaml effect handlers (2021–2022). | FPF keeps operator signatures explicit, adds an explicit `LawSet`, and treats admissibility/time as separate surfaces (no hidden context). | Adopt/Adapt |
 | **U.MechMorph** (Refine/Extend/Quotient) | Institution‑style morphisms / functorial data migration provide typed signature translations and quotients. | Spivak & Schultz (2017); CQL ecosystem papers/docs (2017–2023). | FPF reuses the morphism structure but requires cross‑Context use to be stated as `Transport` with an explicit `BridgeId` (F.9) and CL/CL^k/CL^plane regimes; penalties route → `R/R_eff` only (B.3). | Adapt |
 | **AdmissibilityConditions + Γ_timePolicy** | Policy‑as‑Code makes guard/risk predicates executable and reviewable. | Open Policy Agent / Rego (2016+); UL 4600:2020; ISO 21448:2019. | FPF treats policy predicates as deterministic, fail‑closed guards with named validity windows; it forbids implicit “latest” and avoids embedding evaluators in Core. | Adapt |
-| **AdmissibilityConditions** (sequencing) | Session/typestate disciplines constrain legal operation sequences. | Scalas & Yoshida (2016–2018); post‑2017 multiparty session type toolchains. | FPF uses guards to make sequencing constraints explicit and auditable, while leaving the kernel contract as signature+laws (no hidden automata). | Adapt |
+| **AdmissibilityConditions** (sequencing) | Session/typestate disciplines constrain legal operation sequences. | Scalas & Yoshida (2016–2018); post‑2017 multiparty session type toolchains. | FPF uses guards to make sequencing constraints explicit and auditable, while leaving the kernel boundary semantics as signature and laws (no hidden automata). | Adapt |
 | **CG‑Spec / MM‑CHR binding** | Calibrated/monotone ML and conformal prediction make uncertainty and monotonicity explicit. | Romano et al. (2019); Angelopoulos & Bates (2021). | FPF requires scale legality (CSLC) and forbids ordinal averaging; partial orders remain set‑valued unless a lawful scorer is declared. | Adopt/Adapt |
 
 #### A.6.1:11.3 - Adopt / Adapt / Reject summary
@@ -705,13 +2081,13 @@ Each source corresponds to a distinct *Tradition*: formal semantics, categorical
 
 * **Adapt.** Typed translation ideas and policy‑as‑code idioms into a kernel form that is Context‑local by default, with explicit guards (`AdmissibilityConditions`) and explicit time windows (`Γ_timePolicy`) instead of implicit recency.
 
-* **Reject.** Tool‑bound semantics, automatic recency heuristics, and any cross‑scale arithmetic without CSLC proof; A.6.1 also rejects implicit cross‑Context/plane reuse.
+* **Reject.** Tool‑bound semantics, automatic recency heuristics, and any cross‑scale arithmetic without CSLC proof; A.6.1 also rejects implicit cross-Context or cross-plane reuse.
 
-* **Cross‑Context/plane delta (E.8:11).** Whenever a SoTA practice would reuse semantics across Contexts/planes, A.6.1 requires an explicit `BridgeId` (F.9) plus CL / `CL^k` / `CL^plane` anchors and Φ/Ψ/Φ_plane policy‑ids (B.3), with penalties routed to `R/R_eff` only (never mutating `F/G`).
+* **Cross-Context or cross-plane delta (E.8:11).** Whenever a SoTA practice would reuse semantics across Contexts/planes, A.6.1 requires an explicit `BridgeId` (F.9) plus CL / `CL^k` / `CL^plane` anchors and Φ/Ψ/Φ_plane policy‑ids (B.3), with penalties routed to `R/R_eff` only (never mutating `F/G`).
 
 #### A.6.1:11.4 - Holonic repeatability
 
-The same correspondence holds at **every holonic level**:  
+The same correspondence holds at **every holonic level**:
 a part-holon declares its own `OperationAlgebra/LawSet/AdmissibilityConditions`; a whole-holon merges them via Bridges; a meta-holon re-binds mechanisms under a new Γ-closure. All penalties remain in **R / R_eff**, while **F / G** invariants propagate intact.
 
 ### A.6.1:12 - Relations (quick pointers)
@@ -734,7 +2110,7 @@ A.6.3 `U.EpistemicViewing`; A.6.4 `U.EpistemicRetargeting`; E.17.0 `U.MultiViewD
 
 ### A.6.2:1 - Problem frame
 
-FPF has many operations that **transform knowledge artifacts** without directly doing work in the world:
+FPF has many operations that **transform knowledge epistemes or publications** without directly doing work in the world:
 
 * turning an informal method description into a more formal specification;
 * projecting a large system description into a smaller “for‑safety‑officer” view;
@@ -754,7 +2130,7 @@ Without a universal pattern for such morphisms:
 Concretely, without EFEM:
 
 1. **No single place for “effect‑free” discipline.**
-   The distinction *“episteme‑only change”* vs *“Work in the world”* is already important (C.2.1 separates episteme components from Work and from presentation surfaces), but the laws for “episteme‑only” operations are scattered or implicit. 
+   The distinction *“episteme‑only change”* vs *“Work in the world”* is already important (C.2.1 separates episteme components from Work and from presentation surfaces), but the laws for “episteme‑only” operations are scattered or implicit.
 
 2. **Described entity behaviour is unclear.**
    Many transforms **intend** to keep “what this episteme is about” fixed (viewing), others **intend** to change it under an invariant (retargeting). Without a common *DescribedEntityChangeMode* discipline we get silent breaks in “describedEntity”: an operation that looks like a harmless format change may in fact surreptitiously change the entity‑of‑interest.
@@ -773,7 +2149,7 @@ The result: engineers and tool builders can no longer tell **when they are allow
   Effect‑free episteme transforms are attractive precisely because they can be reasoned about algebraically and composed freely. But the more operational power they are given (IO, solver calls, measurements), the less they remain “pure” and the more they belong under `U.Mechanism` / `U.WorkEnactment`.
 
 * **Preserve vs retarget.**
-  Viewing is describedEntity‑preserving; reinterpretation along a KindBridge is describedEntity‑retargenting. Both are important, but **they must be distinguished and witnessed differently**.
+  Viewing is describedEntity‑preserving; reinterpretation along a KindBridge is describedEntity-retargeting. Both are important, but **they must be distinguished and witnessed differently**.
 
 * **Conservativity vs usefulness.**
   EFEM should be **conservative**: no new intensional commitments beyond what input epistemes already entail. At the same time, we need transformations that can *factor*, *aggregate*, or *normalise* content, which may drop some information or change its representation.
@@ -790,7 +2166,7 @@ The result: engineers and tool builders can no longer tell **when they are allow
 
 > **Definition.** A `U.EffectFreeEpistemicMorphing` (EFEM) is a class of **episteme→episteme morphisms** that:
 >
-> * operate **only** on the components of an episteme as fixed in `C.2.1 U.EpistemeSlotGraph` (ClaimGraph, slots for described entity, grounding holon, viewpoint, representation/reference schemes, meta); 
+> * operate **only** on the components of an episteme as fixed in `C.2.1 U.EpistemeSlotGraph` (ClaimGraph, slots for described entity, grounding holon, viewpoint, representation/reference schemes, meta);
 > * are **effect‑free** (no Work, no Mechanism application, no mutation of systems or carriers);
 > * are **conservative** in what they claim about the described entity (no new intensional commitments beyond logical consequences under the declared ReferenceScheme);
 > * are **functorial** (identities and composition behave as expected on the category of epistemes);
@@ -812,8 +2188,8 @@ As a `U.Signature`, EFEM publishes the following **SubjectBlock** and the standa
 ```
 SubjectBlock
   SubjectKind   = U.EffectFreeEpistemicMorphing
-  BaseType      = ⟨X : U.Episteme, Y : U.Episteme⟩        // carrier pair (domain,codomain)
-  Quantification= SliceSet:=U.ContextSliceSet; 
+  BaseType      = ⟨X : U.Episteme, Y : U.Episteme⟩        // episteme pair (domain,codomain)
+  Quantification= SliceSet:=U.ContextSliceSet;
   ExtentRule:=admissibleEpistemeMorphisms // Context slices & admissible EFEM per slice
   ResultKind?   = U.Morphism                               // typed morphism f : X→Y
 ```
@@ -905,10 +2281,10 @@ Where `describedEntityChangeMode(f) = retarget`, conservativity is understood **
 We work in the category **Ep** whose objects are epistemes (species of `U.Episteme`) and whose arrows are EFEM morphisms satisfying P0–P2, together with the functor
 
 ```
-+α : Ep → Ref
+α : Ep → Ref
 ```
 
-that maps each episteme to the object it describes (value of `DescribedEntitySlot`, i.e. `describedEntityRef(E)`) as in the mathematical layer for epistemes. EFEM instances with `describedEntityChangeMode(f) = preserve` are **vertical morphisms** for α (`α(f) = id`), while those with `describedEntityChangeMode(f) = retarget` reindex along a declared `KindBridge` in **Ref**.
+that maps each episteme to the entity it describes (value of `DescribedEntitySlot`, i.e. `describedEntityRef(E)`) as in the mathematical layer for epistemes. EFEM instances with `describedEntityChangeMode(f) = preserve` are **vertical morphisms** for α (`α(f) = id`), while those with `describedEntityChangeMode(f) = retarget` reindex along a declared `KindBridge` in **Ref**.
 
 1. **Identities.** For each episteme `X`, there exists `id_X : X→X` such that:
 
@@ -981,13 +2357,13 @@ The examples below show how EFEM is intended to be used across I/D/S and Viewpoi
 
 * Domain: `X = U.MethodDescription` episteme with
   `describedEntityRef(X) : U.MethodRef`, `content(X) : U.ClaimGraph_D`, `viewpointRef(X)` an engineering viewpoint (TEVB), `ReferenceScheme_D`.
-* Codomain: `Y = U.MethodSpec` episteme with the **same** `describedEntityRef(Y) = describedEntityRef(X)`, `viewpointRef(Y) = viewpointRef(X)`, more structured `content(Y) : U.ClaimGraph_S`, stronger ReferenceScheme (explicit pre/post, obligations).
+* Codomain: `Y = U.MethodSpec` episteme with the **same** `describedEntityRef(Y) = describedEntityRef(X)`, `viewpointRef(Y) = viewpointRef(X)`, more structured `content(Y) : U.ClaimGraph_S`, more explicit ReferenceScheme (explicit pre/post, obligations).
 
 `Specify_DS` is a species of EFEM:
 
 * `describedEntityChangeMode(Specify_DS) = preserve`.
 * P1 — effect‑free: it transforms epistemes only.
-* P2 — conservative: any behavioural claims in the Spec must be logically entailed by the informal Description and the underlying Method Intension; if the spec makes stronger claims, that is modelled as creating a **new Intension with its own D/S pair**, not as a valid EFEM instance.
+* P2 — conservative: any behavioural claims in the Spec must be logically entailed by the informal Description and the underlying Method Intension; if the spec makes behavioural claims not entailed by that source pair, that is modelled as creating a **new Intension with its own D/S pair**, not as a valid EFEM instance.
 * P3–P5 — functorial and scoped: specs compose, applicability bound to the appropriate engineering context and Viewpoints.
 
 This matches A.7/E.10.D2 strict distinction: I→D (`Describe_ID`) is not itself an episteme→episteme morphism, but `Specify_DS` is; EFEM supplies its laws.
@@ -1096,7 +2472,7 @@ EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent�
 ### A.6.2:9 - Consequences
 
 * **Single place for episteme‑to‑episteme laws.**
-  All effect‑free transforms of knowledge artefacts, across KD‑CAL, MVPK, E.TGA, discipline packs, can now be defined as species of EFEM, instead of each family re‑inventing its own law set.
+  All effect‑free transforms of knowledge epistemes or publications, across KD‑CAL, MVPK, E.TGA, discipline packs, can now be defined as species of EFEM, instead of each family re‑inventing its own law set.
 
 * **Clear separation from mechanisms & work.**
   Anything that touches the world (measurements, execution, simulation) is forced into `U.Mechanism` / `U.WorkEnactment`, with CL‑penalised Bridges and Γ_time; EFEM remains pure and compositional.
@@ -1105,7 +2481,7 @@ EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent�
   A.6.3 and A.6.4 do not need to repeat P0–P5; they specialise EFEM with additional constraints (preserve/retarget). Other patterns (e.g. MultiViewDescribing, MVPK, E.TGA StructuralReinterpretation) can depend on EFEM as a stable base.
 
 * **Slot‑level clarity.**
-  By formulating EFEM laws in terms of SlotKinds/ValueKinds/RefKinds (A.6.5) and the EpistemeSlotGraph (C.2.1), it becomes much harder for Episteme to confuse “object of talk”, “slot in a relation”, and “reference to that object”.
+  By formulating EFEM laws in terms of SlotKinds/ValueKinds/RefKinds (A.6.5) and the EpistemeSlotGraph (C.2.1), it becomes much harder for Episteme to confuse “described entity”, “slot in a relation”, and “reference to that entity”.
 
 * **Better didactics.**
   The old “semantic triangle” becomes a didactic projection of EFEM over the EpistemeSlotGraph: EFEM + C.2.1 explain precisely what the triangle was trying to gesture at (symbol, concept, object), while correctly foregrounding operations, viewpoints, grounding holons, and reference schemes.
@@ -1117,11 +2493,11 @@ EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent�
 * A.6.1 governs **Mechanisms** (operations with AdmissibilityConditions, Γ_time, transport and Bridges)—too operational for the pure episteme transforms we want here.
 * C.2.1 fixes the **ontology of epistemes** (slots, components, ReferencePlane), but does not talk about morphisms. EFEM is explicitly a **morphism‑level** pattern over that ontology.
 
-This split mirrors how Signature (A.6.0) separates “what is declared” from “how it is realised”: C.2.1 says what an episteme is; A.6.2 says what a legal episteme→episteme transform is.
+This split mirrors how Signature (A.6.0) separates “what is declared” from “how it is realised”: C.2.1 says what an episteme is; A.6.2 says what an admissible episteme-to-episteme transform is.
 
 **Why insist on DescribedEntityChangeMode?**
 
-Because almost all subtle errors in multi‑view reasoning show up as **silent retargeting**: a transform that appears to keep the same object‑of‑talk actually changes it (e.g., from “component assembly” to “function bundle”) without naming the bridge or invariant. By forcing every species to declare `preserve` vs `retarget`, EFEM makes those decisions explicit and reviewable.
+Because almost all subtle errors in multi‑view reasoning show up as **silent retargeting**: a transform that appears to keep the same described entity actually changes it (e.g., from “component assembly” to “function bundle”) without naming the bridge or invariant. By forcing every species to declare `preserve` vs `retarget`, EFEM makes those decisions explicit and reviewable.
 
 **Why attach EFEM to SlotKinds instead of informal “fields”?**
 
@@ -1136,7 +2512,7 @@ FPF already committed to a single SlotKind/ValueKind/RefKind discipline (A.6.5) 
 * **Specialises / is specialised by.**
 
   * Builds on A.6.0 `U.Signature` and A.6.1 `U.Mechanism` for the uniform SubjectBlock/vocabulary/laws/applicability structure.
-  * Specialised by A.6.3 `U.EpistemicViewing` (describedEntity‑preserving EFEM) and A.6.4 `U.EpistemicRetargeting` (describedEntity‑retargering EFEM).
+  * Specialised by A.6.3 `U.EpistemicViewing` (describedEntity‑preserving EFEM) and A.6.4 `U.EpistemicRetargeting` (describedEntity-retargeting EFEM).
 
 * **Constrained by.**
   A.6.5 `U.RelationSlotDiscipline` (SlotKind/ValueKind/RefKind); C.2.1 `U.EpistemeSlotGraph` (episteme components, ReferencePlane); E.10.D2 (I/D/S discipline); Part F (Bridges, CL, ReferencePlane crossings); E.10 (LEX‑BUNDLE naming rules, especially on `…Slot` / `…Ref` and ban on Subject/Object in episteme tech names).
@@ -1160,13 +2536,13 @@ E.17.0 `U.MultiViewDescribing`; E.17 (MVPK — Multi‑View Publication Kit); E.
 
 ### A.6.3:1 - Problem frame
 
-Engineers and researchers constantly need **views of the same knowledge artefact**:
+Engineers and researchers constantly need **views of the same described entity**:
 * an ISO 42010‑style architectural view for a particular stakeholder group over a shared architecture description;
 * a SysML v2 “view‑as‑query” over an underlying model, changing visualisation but not the modelled system;
 * a publication view (Plain/Tech/Assurance) in MVPK over a common description/specification;
 * an LLM‑friendly episteme derived from a symbolic specification (or vice versa), preserving what system is being described.
 
-All of these are **episteme→episteme** transforms which intend to:
+All of these are **episteme→episteme** transforms that must:
 * keep the **DescribedEntity** fixed (`DescribedEntitySlot` in C.2.1), and
 * change only **how** the episteme talks about it: sliced `U.ClaimGraph`, different `U.Viewpoint`, alternative `U.RepresentationScheme`, or a different `U.ReferenceScheme` tuned to the same entity and grounding holon.
 
@@ -1174,27 +2550,27 @@ We need a single, reusable notion of **“epistemic viewing”** that captures t
 * **effect‑free** (no Work/Mechanism side‑effects),
 * **describedEntity‑preserving** (no silent retargeting),
 * **conservative** (no new intensional commitments about the same entity),
-* and **functorial** (compose cleanly in multi‑step pipelines).
+* and **functorial** (compose cleanly in multi-step compositions).
 
 ### A.6.3:2 - Problem
 
 Without a dedicated pattern for EpistemicViewing:
 1. **Views vs retargetings blur.**
-   Operations that *intend* to change only representation (viewing) are easily conflated with operations that change the **object‑of‑talk** (retargeting). A Fourier‑style transform or a StructuralReinterpretation in E.TGA can quietly drift from “view of S” into “view of a different S′”, without declaring a `KindBridge`.
+   Operations that *intend* to change only representation (viewing) are easily conflated with operations that change the **described entity** (retargeting). A Fourier‑style transform or a StructuralReinterpretation in E.TGA can quietly drift from “view of S” into “view of a different S′”, without declaring a `KindBridge`.
 
-2. **“View” vs “viewpoint” vs “surface” collapse.**
+2. **“View” vs “viewpoint” vs rendered publication collapse.**
    In standards and tools, “view” is often used interchangeably to mean:
    * the **viewpoint** (specification of concerns and conformance rules),
    * the **episteme** produced under that viewpoint, and
-   * the **surface** (rendered document or GUI).
-     Without a clear episteme‑level notion of viewing, MVPK and E.17.0 cannot cleanly separate these layers.
+   * the **rendered publication or carrier** (document, GUI, export, or other bearer).
+     Without a clear episteme-lane notion of viewing, MVPK and E.17.0 cannot cleanly separate these lanes.
 
 2. **No describedEntity guarantees.**
    A projection that looks like a harmless slice of a system description may in fact:
    * change `describedEntityRef` (switching to a subsystem or a function),
    * change `groundingHolonRef` (different plant or runtime),
    * or smuggle in new intensional claims.
-     Without explicit laws on C.2.1 components, “view” becomes an informal metaphor, not a reliable morphism class.
+     Without explicit invariants over C.2.1 components, “view” becomes an informal metaphor, not a reliable morphism class.
 
 4. **Multi‑view reasoning has no core discipline.**
    Multi‑view patterns (ISO 42010 viewpoint libraries, SysML v2 view queries, TEVB, MVPK faces) need:
@@ -1208,7 +2584,7 @@ Without a dedicated pattern for EpistemicViewing:
   Stakeholders want different slices of the same description/specification, sometimes under different viewpoints, without re‑identifying the entity (system, method, role, service) being described.
 
 * **Internal vs cross‑episteme views.**
-  Some views depend only on a single episteme (direct viewing); others depend on a **CorrespondenceModel** (e.g. aligning requirements and design models). Both must be supported, but with **different obligations**.
+  Some views depend only on a single episteme (direct viewing); others depend on a **CorrespondenceModel** (e.g. aligning requirements and design models). Both must be supported, but with **different required supports**.
 
 * **Conservativity vs expressivity.**
   A view must not introduce new commitments about the described entity, but it may:
@@ -1218,10 +2594,10 @@ Without a dedicated pattern for EpistemicViewing:
   * or shift to a different inference regime, **as long as this is conservative**.
 
 * **I/D/S strictness.**
-  `…Description` and `…Spec` are epistemes with `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`. Viewing must work over these **DescriptionContexts** without collapsing Intension (`I`) into episteme or confusing D/S with publication surfaces.
+  `…Description` and `…Spec` are epistemes with `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`. Viewing must work over these **DescriptionContexts** without collapsing Intension (`I`) into episteme or confusing D/S with publication faces or carriers.
 
 * **Slot discipline and modularity.**
-  With C.2.1 and A.6.5, epistemes now have explicit `SlotKind`/`ValueKind`/`RefKind` triples. Viewing laws must be stated **at the slot level**, not in terms of ad‑hoc “fields”, so they can be reused across engineering, publication, and discipline packs.
+  With C.2.1 and A.6.5, epistemes now have explicit `SlotKind`/`ValueKind`/`RefKind` triples. Viewing invariants must be stated **per SlotKind**, not in terms of ad‑hoc “fields”, so they can be reused across engineering, publication, and discipline packs.
 
 ### A.6.3:4 - Solution — `U.EpistemicViewing` as EFEM profile (`describedEntityChangeMode = preserve`)
 
@@ -1247,7 +2623,7 @@ In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the epistem
 ```
 SubjectBlock
   SubjectKind    = U.EpistemicViewing
-  BaseType       = ⟨X:U.Episteme, Y:U.Episteme⟩      // carrier pair
+  BaseType       = ⟨X:U.Episteme, Y:U.Episteme⟩      // domain/codomain episteme pair
   Quantification = SliceSet := U.ContextSliceSet;
                    ExtentRule := admissible view morphisms
   ResultKind     = U.Morphism                        // an instance v
@@ -1261,7 +2637,7 @@ SubjectBlock
   * `apply(v, x:U.Episteme) : U.Episteme`
   * `dom(v), cod(v) : U.Episteme`
   * `subjectRef(-) : U.SubjectRef`
-**Slot‑level discipline.**
+**SlotKind-specific discipline.**
 Domain and codomain epistemes are instances of some `U.Episteme` species (typically `U.EpistemeCard`, `U.EpistemeView`, or `U.EpistemePublication`) whose episteme kinds each provide SlotSpecs (A.6.5) including at least:
   * `DescribedEntitySlot` (ValueKind `U.Entity`, RefKind `U.EntityRef`),
   * `GroundingHolonSlot?` (ValueKind `U.Holon`, RefKind `U.HolonRef`),
@@ -1276,9 +2652,9 @@ Practical species of EpistemicViewing will very often take `X` and `Y` from the 
 * Every `U.EpistemicViewing` is an **EFEM morphism** with `describedEntityChangeMode = preserve` in the sense of A.6.2/C.2.1.
 * It **inherits** P0–P5 from A.6.2, specialised to the case where the occupant of `DescribedEntitySlot` is unchanged.
 
-#### A.6.3:4.3 - Laws (EV‑0…EV‑6, over C.2.1 components)
+#### A.6.3:4.3 - Invariants (EV-0...EV-6, over C.2.1 components)
 
-All laws below are **in addition** to A.6.2’s EFEM laws P0–P5 and SHALL be read directly against C.2.1 components and A.6.5 SlotSpecs.
+All invariants below are **in addition** to A.6.2 EFEM invariants P0-P5 and SHALL be read directly against C.2.1 components and A.6.5 SlotSpecs.
 
 **EV‑0 - Species & DescribedEntityChangeMode.**
 
@@ -1294,7 +2670,7 @@ All laws below are **in addition** to A.6.2’s EFEM laws P0–P5 and SHALL be r
 For any `v:X→Y` in `U.EpistemicViewing`:
 1. `X` and `Y` are instances of `U.Episteme` species whose episteme kinds both realise at least the core C.2.1 slots (`DescribedEntitySlot`, `GroundingHolonSlot?`, `ClaimGraphSlot`, `ViewpointSlot?`, `ReferenceSchemeSlot`) and obey A.6.5. Many practical species of EpistemicViewing will take `X` and `Y` from the **same** `U.EpistemeKind`, but the A.6.3 pattern only requires **SlotSpec compatibility** between domain and codomain kinds (in the sense of A.6.5), not literal kind equality.
 
-2. At the SlotKind level:
+2. In the SlotKind-specific read/write discipline:
    * `DescribedEntitySlot` is **read‑only** (no change in `describedEntityRef`).
    * `GroundingHolonSlot`, if present, is:
      * either preserved exactly, or
@@ -1316,10 +2692,10 @@ EpistemicViewing remains **pure** in the EFEM sense:
   * meta‑components (edition, provenance, status flags).
 * It **MUST NOT**:
   * invoke `U.Mechanism` or `U.WorkEnactment` (measure, execute, actuate),
-  * create or modify `U.PresentationCarrier` (no direct publishing to surfaces),
+  * create or modify `U.PresentationCarrier` (no direct publication rendering or carrier writing),
   * cross ReferencePlanes implicitly (plane crossings go through Bridges with CL penalties in Part F).
 
-Any operational machinery (e.g. SAT/SMT solving, simulation, LLM tool‑use) MUST be modelled as a **separate `U.Mechanism`** that produces input epistemes or auxiliary artefacts consumed by the EpistemicViewing morphism.
+Any operational machinery (e.g. SAT/SMT solving, simulation, LLM tool‑use) MUST be modelled as a **separate `U.Mechanism`** that produces input epistemes or auxiliary epistemes or carriers consumed by the EpistemicViewing morphism.
 
 **EV‑3 - No new intensional claims about the same DescribedEntity.**
 
@@ -1334,7 +2710,7 @@ Then:
   * re‑expression (changing representation, not truth conditions),
   * aggregation (e.g. summarising multiple claims into an explicitly derivable macro‑claim),
   * dropping some information (lossy projection), provided **no new atomic commitments** about the same described entity are introduced.
-* Any intended strengthening of behavioural or structural commitments about the same entity **is not a valid EpistemicViewing**; it must be modelled either as:
+* Any deliberate strengthening of behavioural or structural commitments about the same entity **is not a valid EpistemicViewing**; it must be modelled either as:
   * a change in Intension (new D/S pair under A.7/E.10.D2), or
   * an A.6.4 `U.EpistemicRetargeting` plus a new Intension.
 
@@ -1351,8 +2727,8 @@ EpistemicViewing **inherits EFEM functoriality** and specialises it:
 2. **Correspondence‑based EpistemicViewing (representation changes).**
    When viewing relies on a `CorrespondenceModel` between epistemes or representation schemes:
    * the viewing morphism MUST reference that `CorrespondenceModel`,
-   * compositions involving such viewings **MUST** publish witnesses (epistemes or proof objects) that squares commute **up to declared isomorphism** (oplax naturality is allowed, but corrections are deterministic and reproducible),
-   * `describedEntityRef` and `groundingHolonRef` remain as in EV‑1; any transfer across contexts/planes goes via Bridges, not via hidden behaviour of the viewing.
+   * compositions involving such viewings **MUST** publish witnesses (epistemes or proof epistemes or proof records) that squares commute **up to declared isomorphism** (oplax naturality is allowed, but corrections are deterministic and reproducible),
+   * `describedEntityRef` and `groundingHolonRef` remain as in EV‑1; any transfer across contexts or planes goes via Bridges, not via hidden behaviour of the viewing.
 
 **EV‑5 - Idempotency & determinism on fixed configuration.**
 
@@ -1382,1484 +2758,3 @@ Each species of `U.EpistemicViewing` MUST:
    * admissible `viewpointRef` ranges (possibly a named `U.ViewpointBundle`),
    * supported `representationSchemeRef` families.
 1. For D/S epistemes in a `U.MultiViewDescribing` family (E.17.0):
-   * preserve `DescribedEntityRef` of `DescriptionContext`,
-   * either preserve `ViewpointRef` or change it within the declared viewpoint bundle, with any additional constraints recorded in the family’s `CorrespondenceModel`,
-   * never widen `ClaimScope` beyond what EV‑3 permits.
-3. Treat **any change of DescribedEntity** (even if “intuitively minor”, such as moving from subsystem to system) as **out of scope** for A.6.3; such moves belong to A.6.4 `U.EpistemicRetargeting`.
-
-#### A.6.3:4.4 - Profiles: `U.DirectEpistemicViewing` and `U.CorrespondenceEpistemicViewing`
-
-`U.EpistemicViewing` is further structured into two important species; both inherit EV‑0…EV‑6.
-
-1. **`U.DirectEpistemicViewing` — self‑contained views.**
-   * Domain and codomain epistemes share:
-     * the same `representationSchemeRef` (up to declared normalisation),
-     * the same `ReferenceScheme` (or a refinement which is conservative and structurally documented).
-   * No external `CorrespondenceModel` is needed: the view is computed **solely from the input episteme** and, optionally, fixed configuration.
-   * Typical cases:
-     * internal normalisation (sorting, rewriting) of an engineering view;
-     * filtering `U.ClaimGraph` to keep only safety‑relevant claims;
-     * simplifying a proof‑oriented specification to a more operational form under the same semantics.
-
-1. **`U.CorrespondenceEpistemicViewing` — views relying on correspondence models.**
-   * Viewing depends on:
-     * one or more subject epistemes (e.g. requirements and design),
-     * an explicit `CorrespondenceModel` that relates their ClaimGraphs and representation schemes.
-   * The result is an episteme (often an `U.EpistemeView`) whose `describedEntityRef` matches that of the primary episteme, but whose content is computed **through** the correspondence links.
-   * Typical cases:
-     * ISO 42010‑style correspondences between architectural descriptions;
-     * cross‑model views in model‑based systems engineering (MBSE), where view content is computed from multiple model fragments;
-     * traceability‑based views aggregating requirements, design elements, and tests.
-
-In both profiles:
-* `CorrespondenceModel` remains an **episteme‑level artefact**, not a new kernel‑type hidden inside A.6.3.
-* `U.EpistemicViewing` stays **view‑like**: it reveals what is already there under the correspondence; it does not perform Γ‑style constructions of new Intensions.
-
-### A.6.3:5 - Archetypal grounding (Tell–Show–Show)
-
-#### A.6.3:5.1 - Engineering system description → safety officer view (DirectEpistemicViewing)
-
-*Context.*
-A system team maintains a rich `SystemDescription` episteme for a plant holon `S` under an engineering viewpoint from TEVB. A safety officer needs a concise view showing only safety‑critical components, hazards, and mitigations.
-
-*Shape.*
-
-* **Domain `X`.**
-  `X : U.SystemDescription` with:
-  * `describedEntityRef(X) : U.SystemRef` (the plant `S`),
-  * `groundingHolonRef(X) : U.HolonRef` (runtime environment),
-  * `viewpointRef(X) : U.ViewpointRef` (engineering TEVB viewpoint),
-  * `content(X) : U.ClaimGraph` (full behavioural & structural claims).
-* **Codomain `Y`.**
-  `Y : U.EpistemeView` with:
-  * `describedEntityRef(Y) = describedEntityRef(X)`,
-  * `groundingHolonRef(Y) = groundingHolonRef(X)`,
-  * `viewpointRef(Y)` either equal to or a refinement of the original engineering viewpoint (TEVB safety sub‑viewpoint),
-  * `content(Y)` containing only safety‑relevant claims, plus explicit aggregation nodes (e.g. hazard summaries).
-
-`SafetyView : X→Y` is a **DirectEpistemicViewing**:
-* `describedEntityChangeMode = preserve`,
-* only `content`, `viewpointRef` (within TEVB) and `meta` change,
-* KD‑CAL/LOG‑CAL checks show that every hazard/mitigation claim in `Y` is entailed by `X`,
-* view is idempotent and deterministic given `X` and the selected safety profile.
-
-This is the canonical “engineering view” archetype that later species in E.17.2/TEVB refer back to.
-
-#### A.6.3:5.2 - MVPK publication view normalisation (DirectEpistemicViewing)
-
-*Context.*
-MVPK emits a `TechCard` view `V_raw` for an arrow `f` in a morphism class (e.g. a **gate-checked, crossing-visible** service with `OperationalGate(profile)` + `DecisionLog`). The publication pipeline wants a normalised view `V_norm` where:
-* arrows are ordered canonically,
-* units and names follow a fixed naming discipline,
-* redundant cells are removed.
-
-*Shape.*
-
-* `X = V_raw`, `Y = V_norm`, both `U.EpistemeView` instances with:
-  * same `describedEntityRef` (the morphism’s arrow or capability),
-  * same `groundingHolonRef` (runtime/plant),
-  * same `viewpointRef` (publication viewpoint),
-  * same `representationSchemeRef` (TechCard schema).
-
-`NormalizeTechCard : X→Y` is a **DirectEpistemicViewing**:
-* changes only `content` and `meta` (e.g. “normalised at edition E”),
-* is pure and idempotent (two passes give the same normal form),
-* is conservative: no new claims about the arrow `f` appear; information is only reordered or discarded.
-
-MVPK can rely on this as an A.6.3‑conformant step without restating EFEM laws.
-
-#### A.6.3:5.3 - Cross‑model consistency view (CorrespondenceEpistemicViewing)
-
-*Context.*
-A system has:
-* a requirements episteme `R` (“what the system should do”), and
-* a design episteme `D` (“how the system does it”),
-
-both with `describedEntityRef` pointing to the same system holon `S`, but living in different notations and contexts. A systems engineer wants a view that shows **only those requirements that currently have design coverage**.
-
-*Shape.*
-
-* `R : U.SystemRequirementsDescription` with ClaimGraph `C_R`.
-* `D : U.SystemDesignDescription` with ClaimGraph `C_D`.
-* `CM : U.CorrespondenceModel` relating requirements to design elements.
-* `Y : U.EpistemeView` with:
-  * `describedEntityRef(Y) = describedEntityRef(R) = describedEntityRef(D) = S`,
-  * `groundingHolonRef(Y)` inherited from `R`/`D` or declared via a Bridge,
-  * `content(Y)` aggregating only those requirements in `C_R` for which `CM` records coverage in `C_D`.
-
-`CoveredRequirementsView(R,D,CM) : X→Y` (with `X` a compound episteme or a bundle episteme over `R,D,CM`) is a **CorrespondenceEpistemicViewing**:
-* relies essentially on `CM` (without it, the view is undefined — fail‑closed),
-* must publish witnesses that two different ways of composing local correspondences give the same result up to declared equivalence,
-* remains conservative: it does not assert that any requirement is covered unless that fact is recorded in `CM` and justified in `D`.
-
-This archetype mirrors post‑2015 work on model synchronisation and bidirectional transformations, but anchored in the EpistemeSlotGraph.
-
-### A.6.3:6 - Consequences
-
-* **Clear separation of viewing vs retargeting.**
-  `U.EpistemicViewing` and `U.EpistemicRetargeting` (A.6.4) now **cleanly separate**:
-
-  * “view of the same entity” vs “description of a different entity under a bridge”, and
-  * vertical morphisms (`α` fixed) vs retargeting morphisms (α changes under KindBridge).
-
-* **Stable backbone for multi‑view patterns.**
-  Multi‑view description (E.17.0), viewpoint bundle libraries (E.17.1/E.17.2), and MVPK publication now share a **single notion of view morphism**, aligned with C.2.1 slots and the I/D/S discipline.
-
-* **Slot‑level discipline for tools.**
-  Tools implementing views (queries, projections, report generators, LLM‑based summarisation) must declare:
-
-  * which SlotKinds they read,
-  * which SlotKinds they may write,
-  * and that `DescribedEntitySlot` is preserved.
-    This removes ambiguity around “subject/object” changes and supports robust static checking.
-
-* **Alignment with modern view/query practices.**
-  The pattern aligns with:
-  * ISO 42010:2011/2022 and its focus on **viewpoints**, **views**, and **correspondences** over an entity‑of‑interest;
-  * SysML v2 “views‑as‑queries” paradigm, where views are queries over a stable model, not new models;
-  * post‑2015 work on **optics** and **displayed categories**, treating views as structured projections over a fibred category of epistemes.
-
-### A.6.3:7 - Rationale & SoTA‑echoing  *(informative)*
-
-* **Optics and displayed categories.**
-  In categorical terms, epistemes form a category `Ep` fibred over a category of described entities `Ref` via `α : Ep → Ref`. EpistemicViewing corresponds to **vertical morphisms** that preserve α. Their behaviour closely tracks **profunctor optics**: the DescribedEntitySlot plays the role of the “focus index”, while ClaimGraphs and representation schemes act as the data being transformed. Recent work on optics (2018‑onwards) provides compositional laws that FPF leverages without committing to a specific optic calculus.
-
-* **Multi‑view modelling and viewpoint libraries.**
-  ISO 42010 and its successors, as well as MBSE practice from ~2015 onwards, have refined the separation between **viewpoints** (families of concerns, stakeholders, and notations) and **views** (instances under those viewpoints). `U.EpistemicViewing` gives FPF a substrate‑agnostic notion of “view” that can be instantiated for architecture descriptions, safety cases, or even research artefacts, while TEVB and E.17.0 specialise it to engineering holons.
-
-* **Bidirectional transformations and consistency management.**
-  Modern BX research treats views and consistency restoration as structured transformations between models, with consistency relations acting as correspondences. `U.CorrespondenceEpistemicViewing` echoes this practice but insists that:
-  * viewing is **non‑creative** in intensional terms (no new commitments),
-  * any strengthening or change of described entity is explicitly modelled as retargeting or Intension change.
-
-* **Hybrid symbolic/latent representations.**
-  Contemporary work on LLMs and neurosymbolic systems often toggles between:
-  * symbolic specifications (logical, tabular, diagrammatic), and
-  * distributed or latent representations used for computation.
-    By treating `U.RepresentationScheme` and `U.RepresentationOperation` as first‑class episteme components, FPF allows EpistemicViewing to range over:
-  * purely symbolic projections,
-  * latent‑space projections,
-  * or hybrids that invoke external mechanisms before applying a pure view, without changing the core laws.
-
-### A.6.3:8 - Conformance checklist (normative)
-
-**CC‑A.6.3‑1 - EFEM species and DescribedEntityChangeMode.**
-Any pattern that claims to define `U.EpistemicViewing` **SHALL**:
-
-* declare itself a species of `U.EffectFreeEpistemicMorphing` (A.6.2),
-* fix `describedEntityChangeMode = preserve`,
-* and state its Applicability profile (EoIClass, contexts, viewpoints, representation schemes).
-
-**CC‑A.6.3‑2 - Slot‑level read/write discipline.**
-For each species of EpistemicViewing, authors **MUST**:
-
-* list the SlotKinds it **reads** (typically `DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`),
-* list the SlotKinds it **writes** (typically `ClaimGraphSlot`, optionally `ViewpointSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`, and `meta`),
-* assert explicitly that `DescribedEntitySlot` is read‑only,
-* and state any constraints on `GroundingHolonSlot` / `ViewpointSlot` changes.
-
-This satisfies A.6.5 and C.2.1 checkpoint CC‑C.2.1‑5.
-
-**CC‑A.6.3‑3 - DescriptionContext discipline (for D/S epistemes).**
-When domain/codomain epistemes are `…Description`/`…Spec`:
-* viewing laws SHALL be phrased in terms of `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`,
-* `DescribedEntityRef` MUST be preserved,
-* `BoundedContextRef` MUST be preserved unless a Bridge is explicitly cited,
-* `ViewpointRef` MUST either be preserved or changed within a declared `U.ViewpointBundle`.
-
-**CC‑A.6.3‑4 - Conservativity witness.**
-For each species, authoring SHALL provide:
-* a clear statement of what counts as a **new intensional claim** in the relevant discipline,
-* and a sketch of how conservativity (EV‑3) is checked or approximated (e.g. via KD‑CAL entailment, proof obligations, or structural invariants).
-
-**CC‑A.6.3‑5 - Profile classification.**
-* Species that do not require a `CorrespondenceModel` MUST be marked as `U.DirectEpistemicViewing`.
-* Species that do require such a model MUST be marked as `U.CorrespondenceEpistemicViewing` and SHALL:
-  * document the shape of the `CorrespondenceModel`,
-  * describe how witness epistemes ensure oplax naturality of compositions.
-
-**CC‑A.6.3‑6 - Separation from Retargeting and Mechanisms.**
-* Any species that may change `describedEntityRef` is **not** a conformant EpistemicViewing; it MUST be treated as `U.EpistemicRetargeting` (A.6.4) or as a different pattern.
-* Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`/`U.WorkEnactment` and cannot be an EpistemicViewing.
-
-### A.6.3:9 - Mini‑checklist (for authors)
-
-When you introduce a new “view” in FPF, check:
-1. **Same described entity?**
-   Does `describedEntityRef` stay the same? If not, this is **Retargeting**, not Viewing.
-
-2. **Which slots move?**
-   Have you listed exactly which SlotKinds you read/write, and shown that `DescribedEntitySlot` is read‑only?
-
-3. **Conservative?**
-   Can you explain, in your discipline’s terms, why the view does not introduce new claims about the same entity?
-
-4. **Profile?**
-   Is this a self‑contained projection (`U.DirectEpistemicViewing`) or does it depend on a `CorrespondenceModel` (`U.CorrespondenceEpistemicViewing`)?
-
-5. **Context & viewpoint?**
-   Have you stated:
-   * the EoIClass for `DescribedEntitySlot`,
-   * the contexts/ReferencePlanes you assume,
-   * and the viewpoint bundle (if any) you operate under?
-
-If all answers are crisp and the laws EV‑0…EV‑6 are satisfied, the pattern is a good candidate for `U.EpistemicViewing`.
-
-### A.6.3:End
-
-## A.6.4 - `U.EpistemicRetargeting` — describedEntity‑retargeting morphism
-
-**One‑line summary.** `U.EpistemicRetargeting` is the **describedEntity‑retargetning** species of `U.EffectFreeEpistemicMorphing`: an effect‑free episteme→episteme morphism that **intentionally changes what the episteme is about** (the occupant of `DescribedEntitySlot` in C.2.1) under a declared `KindBridge` and invariant, while remaining conservative with respect to that invariant.
-
-**Placement.** After **A.6.3 `U.EpistemicViewing`**, before **A.6.5 `U.RelationSlotDiscipline`**. 
-
-**Builds on.**
-A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicViewing`; A.6.5 `U.RelationSlotDiscipline`; A.7/E.10.D2 (I/D/S discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot graph`; C.2/C.3 (KD‑CAL/LOG‑CAL, ReferencePlane, Kind‑level reasoning); F.9 (Bridges, `KindBridge`, CL/CL^plane, SquareLaw witnesses).
-
-**Used by.**
-E.18 (E.TGA StructuralReinterpretation and other reinterpretation nodes); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; future species for architecture and governance reinterpretations. 
-
-### A.6.4:1 - Problem frame
-
-Many important operations on descriptions **change the object‑of‑talk** while preserving a structural or behavioural invariant:
-
-* **Physical vs functional reinterpretation.**
-  An episteme about a physical module (cabinet, rack, device) is re‑interpreted as an episteme about a function‑holon it realises. This is precisely what StructuralReinterpretation nodes in E.TGA attempt to do. 
-
-* **Signal vs spectrum.**
-  A time‑domain signal description is re‑targeted to a description of its frequency‑domain spectrum. The underlying invariant (typically energy or inner‑product) is preserved, but the “thing we talk about” changes from `time→value` trajectories to `frequency→amplitude/phase` distributions. 
-
-* **Data vs model.**
-  An episteme about raw observations (dataset) is turned into an episteme about a learned or estimated model, keeping an invariant such as likelihood, sufficient statistics, or predictive performance. 
-
-All of these are **Ep→Ep transforms** that:
-* do **not** change the Intension (`I`) directly (they operate on descriptions/specifications),
-* do **not** merely slice or re‑express an episteme of the same entity (that would be EpistemicViewing, A.6.3),
-* but **do change** the **DescribedEntity‑bundle** (`DescribedEntitySlot` and usually `GroundingHolonSlot`) under a formal bridge between kinds.
-
-We need a single, reusable notion of **“epistemic retargeting”** that captures these operations as:
-* **effect‑free** at the level of Work/Mechanism (EFEM discipline),
-* **describedEntity‑retargeotating** in a controlled way,
-* **invariant‑conservative** (no violation of the declared invariant between kinds),
-* and **functorial** (retargetings compose cleanly and align with Bridges).
-
-### A.6.4:2 - Problem
-
-Without a dedicated pattern for EpistemicRetargeting:
-1. **Retargeting is silently confused with viewing.**
-   Structural reinterpretations (e.g., component→function, signal→spectrum, data→model) can be mistakenly treated as “just another view” of the same entity, even though they change `describedEntityRef`. This hides the fact that the **object‑of‑talk** has changed and that a `KindBridge` and invariant are required.
-
-2. **Invariants float untyped.**
-   Fourier‑style moves, structural reinterpretations, and abstraction/refinement steps are often justified by “energy is preserved”, “this component realises that function”, or “this model summarises those data” — but these invariants are not connected to the episteme morphism class. Without a dedicated species:
-
-   * invariants live only in text,
-   * CL‑penalties and ReferencePlane crossings cannot be tracked systematically (Part F).
-
-3. **Cross‑kind reasoning has no canonical morphism.**
-   A general EFEM (A.6.2) can change `describedEntityRef` by setting `describedEntityChangeMode = retarget`, but:
-
-   * nothing states what that means at the level of kinds (`Kind(describedEntityRef(X))` vs `Kind(describedEntityRef(Y))`),
-   * nothing connects these moves to `KindBridge` and ReferencePlane policies.
-
-4. **StructuralReinterpretation is ad‑hoc.**
-   E.TGA currently hosts StructuralReinterpretation as a special node, but its semantics are much closer to a generic “retargeting under a bridge” pattern than to something specific to graph‑based architectures. Without a core pattern:
-
-   * StructuralReinterpretation risks duplicating retargeting logic,
-   * other discipline packs may reinvent their own ad‑hoc re‑targetings.
-
-5. **I/D/S discipline is left underspecified.**
-   For descriptions/specifications (`…Description` / `…Spec`), retargeting **changes `DescribedEntityRef` in `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`** (E.10.D2), but must say what happens to context and viewpoint. Without an explicit pattern, these decisions get scattered across different E‑patterns instead of being governed centrally. 
-
-### A.6.4:3 - Forces
-
-* **Changing the object‑of‑talk vs constructing something new.**
-  Retargeting should express **“talking about a different but bridge‑related entity”**, not arbitrary construction of a new Intension/episteme. The invariant lives **across** the pair of entities, not inside a single episteme.
-
-* **Invariants may be lossy but must be explicit.**
-  A retargeting is often **lossy** (e.g. data→model, signal→spectrum, structural→functional view), but:
-
-  * it must preserve an explicitly declared invariant (energy, behaviour, statistics),
-  * any additional strengthening must be modelled as a change of Intension plus new D/S, not as a hidden side‑effect.
-
-* **Bridges and CL‑penalties.**
-  Retargeting often crosses:
-  * Kind‑planes (different `Kind(U.Entity)`),
-  * ReferencePlanes (different observability or abstraction regimes).
-    Part F already has `KindBridge`, plane Bridges and CL‑penalties; EpistemicRetargeting must **re‑use** them instead of introducing its own notion of “link”.
-
-* **Functors over `α : Ep → Ref`.**
-  In the fibred view of epistemes (C.2 / A.6.2), `α : Ep → Ref` maps each episteme to its described entity. EpistemicViewing preserves α (`α(v) = id`). Retargeting must:
-  * change α in a controlled way (`α(r) = b : R₁→R₂` in `Ref`),
-  * align with `KindBridge` and plane Bridges used for those base arrows.
-
-* **Slot discipline and modularity.**
-  C.2.1 and A.6.5 give epistemes a precise `SlotKind`/`ValueKind`/`RefKind` structure, including `DescribedEntitySlot` and `GroundingHolonSlot`. Retargeting laws must be stated **at the slot level**, not on ad‑hoc “fields”, so they can be reused across E.TGA, MVPK, and discipline packs.
-
-### A.6.4:4 - Solution — `U.EpistemicRetargeting` as EFEM profile (`describedEntityChangeMode = retarget`)
-
-#### A.6.4:4.1 - Informal definition
-
-> **Definition (informal).**
-> `U.EpistemicRetargeting` is the **describedEntity‑retargeting species** of `U.EffectFreeEpistemicMorphing`.
-> A `U.EpistemicRetargeting r : X→Y`:
->
-> * takes an input episteme `X` and produces an output episteme `Y`,
-> * **changes** the occupant of `DescribedEntitySlot` (`describedEntityRef(Y) ≠ describedEntityRef(X)`),
-> * relates the kinds of the old and new described entities via an explicit `KindBridge` in the appropriate ReferencePlane,
-> * preserves a declared **invariant** across the pair of entities (e.g. energy, behaviour, sufficient statistics),
-> * is **effect‑free** at the level of Work/Mechanism (EFEM discipline),
-> * and composes functorially with other retargetings and viewings.
-
-In C.2.1 terms, `U.EpistemicRetargeting` **re‑indexes** an episteme along a base‑level bridge: it moves the `DescribedEntitySlot` (and often the `<DescribedEntitySlot, GroundingHolonSlot>` bundle) along a `KindBridge`, while re‑expressing `content : U.ClaimGraph` and `referenceScheme` so that the declared invariant continues to hold at the new target. 
-
-#### A.6.4:4.2 - Signature (A.6.0 / A.6.5 alignment)
-
-**Signature header.**
-`U.EpistemicRetargeting` is a **Morphism‑kind** under A.6.0, specialised from EFEM:
-
-```
-SubjectBlock
-  SubjectKind    = U.EpistemicRetargeting
-  BaseType       = ⟨X:U.Episteme, Y:U.Episteme⟩      // carrier pair
-  Quantification = SliceSet := U.ContextSliceSet;
-                   ExtentRule := admissible retargeting morphisms
-  ResultKind     = U.Morphism                        // an instance r
-```
-
-**Vocabulary (re‑uses A.6.2).**
-
-* **Types.** `U.Episteme`, `U.SubjectRef`, `U.Morphism`, `U.EpistemicRetargeting`.
-* **Operators.**
-
-  * `id    : U.Morphism(X→X)`
-  * `compose(g,f) : U.Morphism(X→Z)` where `f:X→Y`, `g:Y→Z`
-  * `apply(r, x:U.Episteme) : U.Episteme`
-  * `dom(r), cod(r) : U.Episteme`
-  * `subjectRef(-) : U.SubjectRef`
-* **Slot‑level discipline.**
-  Domain and codomain epistemes are instances of some `U.Episteme` species (typically `U.EpistemeCard`, `U.EpistemeView`, or `U.EpistemePublication`) whose episteme kinds each provide SlotSpecs (A.6.5) including at least:
-
-  * `DescribedEntitySlot` (ValueKind `U.Entity`, RefKind `U.EntityRef`, usually restricted to an `EoIClass ⊑ U.Entity`),
-  * `GroundingHolonSlot?` (ValueKind `U.Holon`, RefKind `U.HolonRef`),
-  * `ClaimGraphSlot` (ValueKind `U.ClaimGraph`, by‑value),
-  * `ViewpointSlot?` (ValueKind `U.Viewpoint`, RefKind `U.ViewpointRef`),
-  * `ReferenceSchemeSlot` (ValueKind `U.ReferenceScheme`, by‑value),
-  * and, where C.2.1+ is in use, `RepresentationSchemeSlot`, `ViewSlot` and related slots.
-
-The pattern only requires **SlotSpec compatibility** between domain and codomain kinds (in the sense of A.6.5); they need not be literally the same kind.
-
-**Relation to EFEM and Viewing.**
-
-* Every `U.EpistemicRetargeting` is an **EFEM morphism** with `describedEntityChangeMode = retarget` in the sense of A.6.2/C.2.1.
-* It **inherits** EFEM laws P0–P5 and adds retargeting‑specific obligations ER‑0…ER‑6 below.
-* `U.EpistemicViewing` (A.6.3) covers the complementary case `describedEntityChangeMode = preserve`, where the object‑of‑talk does not change.
-
-#### A.6.4:4.3 - Laws (ER‑0…ER‑6, over C.2.1 components)
-
-All laws below are **in addition** to A.6.2’s EFEM laws P0–P5 and SHALL be read directly against C.2.1 components and A.6.5 SlotSpecs. 
-
-**ER‑0 - Species & DescribedEntityChangeMode.**
-
-* Any morphism `r:X→Y` declared as `U.EpistemicRetargeting` **MUST**:
-  * be a species of `U.EffectFreeEpistemicMorphing` (A.6.2), and
-  * declare `describedEntityChangeMode(r) = retarget`.
-* Consequently:
- * the pair `<DescribedEntitySlot, GroundingHolonSlot>` is the **target bundle** for the change (as in C.2.1 §7.3: DescribedEntity‑bundle retargeting),
- * `DescribedEntitySlot` is **write‑enabled** (unlike Viewing) but only under the constraints below,
-  * there exist entities `T₁, T₂ : U.Entity` such that:
-    * `describedEntityRef(X) = T₁`,
-    * `describedEntityRef(Y) = T₂`,
-    * `T₁ ≠ T₂` (as Ref/identity), and
-    * `Kind(T₁)` and `Kind(T₂)` are related by a `KindBridge` in Part F’s sense (with declared CL^k). 
-
-**ER‑1 - Typed domain/codomain & DescribedEntity‑bundle behaviour.**
-
-For any `r:X→Y` in `U.EpistemicRetargeting`:
-
-1. `X` and `Y` are instances of `U.Episteme` species whose episteme kinds both realise at least the core C.2.1 slots (`DescribedEntitySlot`, `GroundingHolonSlot?`, `ClaimGraphSlot`, `ViewpointSlot?`, `ReferenceSchemeSlot`) and obey A.6.5.
-
-2. At the SlotKind level:
-
-   * `DescribedEntitySlot`:
-     * **MUST change** (`describedEntityRef(Y) ≠ describedEntityRef(X)`),
-     * the ValueKinds for the slot in the domain and codomain kinds **MUST** be related via an `EoIClass` pair that the `KindBridge` covers (e.g. `PhysicalModule` ↔ `FunctionHolon`, `Signal` ↔ `Spectrum`, `Dataset` ↔ `StatisticalModel`). 
-
-   * `GroundingHolonSlot`, if present:
-     * is either preserved exactly (`groundingHolonRef(Y) = groundingHolonRef(X)`), or
-     * changed only along a declared holon‑Bridge in the same ReferencePlane (for example, moving from one runtime to another under a deployment bridge) with CL^plane penalties recorded in Part F.
-
-   * `ViewpointSlot`, if present:
-     * is either preserved, or
-     * changed only within a declared `U.ViewpointBundle` (E.17.1/E.17.2), with the corresponding `CorrespondenceModel` explaining how the invariant is maintained under the new viewpoint.
-
-1. For any episteme that is a `…Description`/`…Spec` (E.10.D2), `subjectRef` decodes to `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`. Under EpistemicRetargeting:
-   * `DescribedEntityRef` **MUST** change from `T₁` to `T₂` as in ER‑0,
-   * `BoundedContextRef` is:
-     * either preserved, or
-     * changed along an explicit Context‑Bridge (E.10.D1, Part F),
-   * `ViewpointRef` is treated as in (2) above (preserved or mapped within a bundle), and any resulting change in admissible claims is governed by ER‑2.
-
-The pair `<DescribedEntitySlot, GroundingHolonSlot>` is treated as a **target bundle**: many practical retargetings work at the level of this bundle rather than DescribedEntity alone, especially in E.TGA. 
-
-**ER‑2 - Invariant‑based conservativity (lossy but lawful).**
-
-Let `X` and `Y = apply(r,X)` with:
-* `describedEntityRef(X) = T₁`, `describedEntityRef(Y) = T₂`,
-* `KindBridge(T₁,T₂)` and associated invariant `Inv` declared for this species (e.g. energy, behavioural relation, likelihood),
-* `content_X`, `referenceScheme_X`,
-* `content_Y`, `referenceScheme_Y`,
-* `groundingHolonRef_X`, `groundingHolonRef_Y`.
-
-Then:
-1. There MUST exist a KD‑CAL/LOG‑CAL expression of `Inv` such that:
-   * all claims about `Inv` that can be derived by reading `content_Y` through `referenceScheme_Y` relative to `<T₂, groundingHolonRef_Y>`
-     **are entailed by**
-     claims about `Inv` derivable from `content_X` through `referenceScheme_X` relative to `<T₁, groundingHolonRef_X>`. 
-
-2. Retargeting, as an EFEM instance, **may**:
-   * discard information not needed to maintain `Inv` (lossy summarisation),
-   * change representation schemes (e.g. time vs frequency domain),
-   * move to different abstraction levels or ReferencePlanes (with Bridges and CL penalties declared),
-   but **MUST NOT** violate the declared invariant.
-
-3. Any intended change that **strengthens** commitments about `Inv` beyond what is derivable from `X` **is not a valid EpistemicRetargeting**. It must be modelled as:
-   * a change of Intension (new D/S pair under A.7/E.10.D2), or
-   * a chain of retargetings and Intension updates explicitly recorded in KD‑CAL/LOG‑CAL.
-
-**ER‑3 - Functoriality, α‑reindexing & SquareLaw witnesses.**
-
-EpistemicRetargeting **inherits EFEM functoriality** and specialises it to the retargeting case:
-
-1. At the `Ep` level:
-   * `apply(id, X) = X` (no retargeting),
-   * `apply(r₂ ∘ r₁, X) = apply(r₂, apply(r₁, X))` whenever domains/codomains match,
-   * the composite `r₂∘r₁` has `describedEntityRef(X) = T₁` and `describedEntityRef(cod(r₂∘r₁)) = T₃`, with a composed `KindBridge(T₁,T₃)` whenever the Bridges of `r₁` and `r₂` compose.
-
-2. At the `Ref` level, under `α : Ep → Ref`:
-   * each retargeting `r` induces a base arrow `α(r) : R₁→R₂` in `Ref`, compatible with the `KindBridge` used in ER‑0,
-   * the square formed by:
-     * `X→Y` in `Ep` (retargeting),
-     * `α(X)→α(Y)` in `Ref` (base retargeting),
-     * any measurement or evaluation morphisms on either side,
-       **MUST** commute **up to a declared SquareLaw‑retargeting witness** (Part F / E.TGA), documenting that evaluating then retargeting vs retargeting then evaluating yields equivalent results (modulo CL‑penalties).
-
-2. When retargetings use CorrespondenceModels between epistemes (e.g. aligning detailed hardware layouts with function networks), they MUST:
-   * reference the CorrespondenceModel explicitly,
-   * publish witness epistemes that certify commutativity of key squares, analogous to EV‑4 but now across **different described entities.**
-
-**ER‑4 - Idempotency & determinism on fixed Bridge/invariant.**
-
-For any `r:X→Y` in `U.EpistemicRetargeting`, with fixed:
-* `KindBridge(T₁,T₂)` and ReferencePlane policies,
-* invariant `Inv`,
-* configuration (ContextSlice, representation families, CorrespondenceModels),
-
-the following MUST hold:
-
-* **Idempotency.**
-  Applying `r` twice does not further change the described entity or invariant‑relevant content:
-  * `apply(r, apply(r, X))` is **isomorphic** (in the EFEM sense) to `apply(r, X)`,
-  * `describedEntityRef` is already `T₂` after the first application,
-  * `content` and `referenceScheme` differ at most by declared structural equivalence (e.g. normal forms at the new target).
-
-* **Determinism.**
-  For fixed input `X` and fixed Bridge/invariant configuration, the result is uniquely determined modulo declared equivalence. Any source of non‑determinism (randomness, time, external service state) MUST either:
-  * be made explicit as part of `content`/`meta` of `X`, or
-  * be moved to a `U.Mechanism` outside the retargeting morphism.
-
-**ER‑5 - Applicability, EoI‑pairs & CL‑discipline.**
-
-Each species of `U.EpistemicRetargeting` MUST declare an **Applicability profile** (A.6.0) that includes:
-
-1. **EoI‑pairs.**
-   Admissible pairs of `EoIClass`es (ValueKinds of `DescribedEntitySlot` for domain and codomain), for example:
-   * `(PhysicalModule, FunctionHolon)`,
-   * `(Signal, Spectrum)`,
-   * `(Dataset, StatisticalModel)`.
-
-   For each such pair, the pattern MUST reference the appropriate `KindBridge` species in Part F.
-
-2. **Grounding constraints.**
-   Permitted classes of `groundingHolonRef` and ReferencePlanes, including whether:
-   * grounding must stay within the same holon,
-   * or may move along specific holon Bridges with CL^plane penalties.
-
-3. **Viewpoint/context constraints.**
-   Whether retargeting is allowed for all viewpoints or only for specific `U.ViewpointBundle`s (TEVB etc.), and any requirements on `BoundedContextRef`.
-
-4. **CL‑discipline.**
-   Minimum CL^k and CL^plane required for the Bridges used, aligning with F.9 and E.TGA’s StructuralReinterpretation rules.
-
-Any attempt to apply a retargeting outside this Applicability profile is **ill‑typed**.
-
-**ER‑6 - Compatibility with Viewing and Mechanisms.**
-
-1. **Separation from Viewing.**
-
-   * Any morphism that **does not change** `describedEntityRef` (and keeps `DescribedEntityChangeMode = preserve`) belongs to A.6.3 `U.EpistemicViewing`, not to `U.EpistemicRetargeting`.
-   * Any morphism that **does** change `describedEntityRef` **MUST NOT** be declared as `U.EpistemicViewing`; it is either:
-     * a `U.EpistemicRetargeting`, or
-     * a more general pattern that composes several retargetings and Intension changes.
-
-   In any composite `V∘r` or `r∘V`, describedEntity changes are localised to retargeting steps; Viewing steps are always `describedEntityChangeMode = preserve`.
-
-2. **Separation from Mechanisms.**
-
-   * Retargeting MAY depend on artefacts produced by `U.Mechanism` (e.g., computing a Fourier transform, fitting a model), but those are separate Work/Mechanism steps.
-   * `U.EpistemicRetargeting` itself remains **effect‑free**: it rearranges epistemes, slots and ClaimGraphs, but does not perform measurements or actuation.
-
-### A.6.4:5 - Archetypal grounding (Tell–Show–Show)
-
-**Tell.**
-EpistemicRetargeting captures **“same invariant, different described entity”** moves:
-
-* we stop talking about “this cabinet” and start talking about “the routing function it realises”;
-* we stop talking about “this signal over time” and start talking about “its spectrum over frequency”;
-* we stop talking about “this dataset” and start talking about “a model class with parameters θ learned from it”.
-
-In each case, what remains stable is an **invariant** (behaviour, energy, likelihood), not the described entity itself.
-
-**Show 1 — StructuralReinterpretation in E.TGA.** 
-* `X` describes a physical module holon `S_phys`.
-* `Y` describes a function holon `S_func`.
-* A `KindBridge(S_phys, S_func)` expresses “this module realises that function”.
-* A StructuralReinterpretation node in E.TGA is an instance of `U.EpistemicRetargeting` whose invariant is the behaviour relation between `S_phys` and `S_func`.
-
-**Show 2 — Signal↔Spectrum.**
-* `X` describes a time‑domain signal `s(t)`; `DescribedEntityRef(X) = S_time`.
-* `Y` describes its spectrum `S(ω)`; `DescribedEntityRef(Y) = S_freq`.
-* `KindBridge(S_time, S_freq)` encodes Fourier duality in the relevant ReferencePlane.
-* The invariant is energy (or inner product), expressed as a KD‑CAL statement; EpistemicRetargeting ensures that energy‑related claims in `Y` are entailed by `X`.
-
-**Show 3 — Data→Model.**
-* `X` describes a dataset `D` (observations); `DescribedEntityRef(X) = S_data`.
-* `Y` describes a model `M` (e.g. a parametric family with learned parameters); `DescribedEntityRef(Y) = S_model`.
-* `KindBridge(S_data, S_model)` encodes the intended data→model relation (e.g. MLE, Bayesian posterior).
-* The invariant is likelihood or predictive performance; the retargeting laws ensure `Y` does not claim more about this invariant than is supported by `X`.
-
-### A.6.4:6 - Consequences
-
-* **Clear separation of Viewing vs Retargeting.**
-  A.6.3 and A.6.4 now jointly distinguish:
-  * **views**: same `DescribedEntityRef`, possible representation/viewpoint changes;
-  * **retargetings**: different `DescribedEntityRef` under `KindBridge` and invariants.
-
-* **Canonical home for StructuralReinterpretation.**
-  E.TGA StructuralReinterpretation becomes a **species of `U.EpistemicRetargeting`**, not an ad‑hoc special node. This reduces duplication and clarifies how CL penalties and Bridges are used.
-
-* **Invariants become first‑class.**
-  Retargeting makes invariants explicit and type‑checked: every such morphism must state what it preserves and how that is expressed in KD‑CAL/LOG‑CAL.
-
-* **Safer cross‑plane reasoning.**
-  ReferencePlane crossings and kind‑level moves are handled via existing Bridges (Part F), with CL^plane/CL^k penalties and SquareLaw witnesses, instead of hidden in implementation details.
-
-* **Better integration with I/D/S.**
-  For `…Description`/`…Spec` epistemes, retargeting is the only place where `DescribedEntityRef` in `DescriptionContext` is allowed to change; all other I/D/S‑level operations (Describe/Specify, Viewing) keep it fixed. 
-
-### A.6.4:7 - Rationale & SoTA‑echoing  *(informative)*
-* **Fibrations and base‑change (displayed categories, 2017+).**
-  With epistemes forming a category `Ep` fibred over `Ref` via `α : Ep → Ref` (C.2 / A.6.2), EpistemicViewing corresponds to **vertical morphisms** (`α(v) = id`), while EpistemicRetargeting corresponds to **reindexing along base arrows** (`α(r) = b : R₁→R₂`). This lines up with base‑change and transport along fibrations in category theory.
-
-* **Structured cospans and reinterpretation.**
-  Modern work on structured cospans and open systems uses cospans and their morphisms to move between different presentations of a system while preserving a notion of interface/behaviour. Retargeting plays a similar role: it moves from one entity kind to another while preserving a declared invariant.
-
-* **Fourier‑style dualities.**
-  In signal processing and physics, Fourier and related transforms are often treated as isometries between function spaces, preserving energy while changing the domain of discourse. `U.EpistemicRetargeting` abstracts this pattern: the invariant is codified in KD‑CAL/LOG‑CAL; the morphism explicitly changes the described entity along a `KindBridge`.
-
-* **Data/model duality in ML.**
-  Contemporary ML workflows cycle between data and models; invariants such as likelihood, risk, and calibration matter more than raw equality of ClaimGraphs. Retargeting gives a structured way to talk about data→model (and, potentially, model→data) moves as episteme morphisms, rather than untyped “training” steps.
-
-* **Consistency management and abstraction.**
-  In model‑driven and bidirectional transformation literature, abstraction and refinement transfers information between models with different subject domains. Treating these as retargetings with explicit Bridges and invariants makes their assumptions amenable to CL accounting and KD‑CAL reasoning, instead of hiding them in tooling.
-
-### A.6.4:8 - Conformance checklist (normative)
-
-**CC‑A.6.4‑1 - EFEM species and DescribedEntityChangeMode.**
-Any pattern that claims to define `U.EpistemicRetargeting` **SHALL**:
-
-* declare itself a species of `U.EffectFreeEpistemicMorphing` (A.6.2),
-* fix `describedEntityChangeMode = retarget`,
-* and state its Applicability profile (EoI‑pairs, contexts, viewpoints, representation schemes, invariants).
-
-**CC‑A.6.4‑2 - Slot‑level read/write discipline.**
-For each species of EpistemicRetargeting, authors **MUST**:
-* list the SlotKinds it **reads** (at least `DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`, plus any C.2.1+ slots used),
-* list the SlotKinds it **writes** (at least `DescribedEntitySlot`, typically also `ClaimGraphSlot`, `ReferenceSchemeSlot`, and `meta`),
-* state explicitly how `GroundingHolonSlot` and `ViewpointSlot` behave (preserved vs bridged),
-* reference A.6.5 to show that SlotSpecs remain consistent across domain/codomain kinds.
-
-**CC‑A.6.4‑3 - Bridge & invariant declaration.**
-Each species SHALL:
-* identify the relevant `KindBridge` species (and, where applicable, plane Bridges),
-* declare the invariant(s) it preserves (in KD‑CAL/LOG‑CAL terms),
-* sketch how invariant preservation is checked or approximated (e.g. through proofs, tests, or statistical guarantees).
-
-**CC‑A.6.4‑4 - SquareLaw‑retargeting witnesses.**
-For retargetings that interact with E.TGA or other graph‑level transductions, authors **MUST**:
-* describe the commutative squares (or more general diagrams) that express “evaluate then retarget = retarget then evaluate” up to equivalence,
-* identify the corresponding SquareLaw‑retargeting witnesses and how they are represented as epistemes.
-
-**CC‑A.6.4‑5 - D/S‑context behaviour.**
-For retargetings over `…Description`/`…Spec` epistemes:
-* laws MUST be phrased in terms of `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`,
-* `DescribedEntityRef` MUST change in a way consistent with the declared `KindBridge`,
-* `BoundedContextRef` MUST either be preserved or changed only via explicit Context‑Bridges,
-* `ViewpointRef` MUST either be preserved or change within a declared `U.ViewpointBundle`.
-
-**CC‑A.6.4‑6 - Separation from Viewing and Mechanisms.**
-* Any species that leaves `describedEntityRef` unchanged is **not** a conformant EpistemicRetargeting; it belongs to `U.EpistemicViewing` (A.6.3) or another EFEM species.
-* Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`/`U.WorkEnactment` and cannot be an EpistemicRetargeting.
-
-### A.6.4:9 - Mini‑checklist (for authors)
-
-When you think you need “retargeting” in FPF, ask:
-
-1. **Does `describedEntityRef` change?**
-   If no, this is Viewing (A.6.3), not Retargeting.
-
-2. **Is there a `KindBridge` between old and new entities?**
-   If not, you probably need to introduce one in Part F or rethink the Intension, not fudge a retargeting.
-
-3. **What invariant are you preserving?**
-   Write it down in KD‑CAL/LOG‑CAL terms. If you cannot, retargeting is underspecified.
-
-4. **How do `GroundingHolonRef`, context and viewpoint behave?**
-   Explicitly state whether they stay the same, move along Bridges, or are out of scope.
-
-5. **Can the operation be factored as Mechanism + pure retargeting?**
-   If the step needs computation (FFT, model fitting), separate the Mechanism from the EpistemicRetargeting.
-
-### A.6.4:10 - Relations
-
-* **Specialises / is specialised by.**
-  * Specialises A.6.2 `U.EffectFreeEpistemicMorphing` as the `describedEntityChangeMode = retarget` profile.
-  * Complements A.6.3 `U.EpistemicViewing` (describedEntity‑preserving EFEM) as the “retargeting” counterpart.
-
-* **Constrained by.**
-  * A.6.5 `U.RelationSlotDiscipline` for SlotKind/ValueKind/RefKind discipline.
-  * C.2.1 `U.EpistemeSlotGraph` for episteme components and `DescribedEntitySlot`/`GroundingHolonSlot`.
-  * E.10.D2 (I/D/S discipline; `DescriptionContext`).
-  * Part F (Bridges, `KindBridge`, ReferencePlane crossings, CL/CL^plane).
-  * E.10 (LEX‑BUNDLE naming rules, especially on `…Slot`/`…Ref` and ban on Subject/Object in episteme tech names).
-
-* **Consumed by.**
-  * E.18 (E.TGA StructuralReinterpretation and other cross‑kind architecture transformations).
-  * E.17.0/E.17 (for cases where publication needs to move between different entities‑of‑interest but preserve invariants).
-  * KD‑CAL/LOG‑CAL rules that reason about retargeting and invariant preservation across different described entities.
-
-### A.6.4:End
-
-## A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline
-
-> **Type:** Architectural (A)
-> **Status:** Stable
-> **Normativity:** Normative (Core)
-
-**Plain-name.** Relational precision restoration suite.
-
-**Intent.** Provide a family-level, reusable discipline for repairing a recurring defect in FPF texts: **under‑specified relational language** (often phrased as a seemingly binary verb) that actually hides **(i)** higher arity (missing participant positions), **(ii)** multiple semantic change classes, **(iii)** viewpoint/view asymmetry, **(iv)** boundary obligations (laws vs admissibility vs deontics vs evidence/work), and **(v)** endpoint referential compression (pronominal/metonymic stand‑ins and over‑broad kinds).
-RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explicit, qualified relation records** with an explicit **change-class lexicon** and **lexical guardrails**, while respecting the **A.6 Signature Stack** and **A.6.B Boundary Norm Square** separation. 
-
-**Placement.** Part A → cluster **A.6 Signature Stack & Boundary Discipline** → header pattern for the **relation‑precision restoration family** (A.6.5, A.6.6, A.6.8, A.6.9, A.6.H, and future A.6.x patterns). 
-
-**Builds on.**
-
-* **A.6** (stack layering + boundary discipline requirements). 
-* **A.6.B `U.BoundaryNormSquare`** (L/A/D/E routing; claim atomicity; cross‑quadrant references). 
-* **A.6.S `U.SignatureEngineeringPair`** (TargetSignature vs ConstructorSignature; canonical constructor verb mapping; effect‑free constructor ops). 
-* **A.6.0 `U.Signature`** (SlotSpec requirement for argument positions). 
-* **A.6.5 `U.RelationSlotDiscipline`** (SlotKind/ValueKind/RefKind stratification + canonical slot verbs; `bind` reserved for name binding). 
-* **E.8** (pattern authoring discipline; Tell–Show–Show; SoTA echoing hygiene).
-* **F.18** (promise vs utterance vs commitment; avoids “interface‑as‑promiser” category errors).
-* **E.10** (LEX‑BUNDLE discipline; I/D/S vs Surface; L‑SURF token discipline; reserved primitives; Tech↔Plain pairing). *(Referenced conceptually; no tooling implied.)*
-
-**Coordinates with.**
-
-* **A.2.4 `U.EvidenceRole`** (witness semantics: role/timespan/freshness metadata for decision‑relevant witness sets).
-* **A.2.6 scope + `Γ_time` discipline** (avoid implicit “current/latest”; make time selectors explicit when time matters). 
-* **A.7 Strict Distinction** (Object≠Description≠Carrier; avoid treating evidence/logs as properties of prose). 
-* **A.6.2–A.6.4** (effect‑free episteme morphisms, epistemic viewing/retargeting as disciplined slot writes). 
-* **A.10 evidence discipline** (witnesses are carrier‑anchored; freshness is adjudicated in work/evidence lanes).
-* **C.2.1 `U.EpistemeSlotGraph`** (slot read/write profiles for constructor operators, when declared).
-* **C.3.3 `U.KindBridge` + `CL^k` discipline** (repairing endpoint kind mismatches; kind-level congruence + loss notes).
-* **E.17 MVPK / multi‑view publication** (faces are views; “no new semantics”; viewpoint accountability).
-* **E.19 pattern quality gates** (review/refresh discipline for guardrails and conformance lists).
-* **F.17 `UTS`** (when ambiguity clusters become recurring vocabulary: publish stable `RelationKind` tokens and facet head phrases as UTS/LEX‑governed term assets, so rewrites don’t live only inside A‑patterns).
-* **F.9 Bridges + CL** for cross‑Context/plane reuse (no silent sameness). 
-
-**Specialisations already in Core.**
-
-* **A.6.5**: RPR for n‑ary relations and slot discipline (archetype: “putting something into a place”; explicit SlotKinds + ValueKind/RefKind + slot‑operation lexicon). 
-* **A.6.6**: RPR for “relative‑to / basedness” claims (explicit `baseRelation` token + scoped, witnessed base declarations + base‑change lexicon; lexical red‑flags for `anchor*`). 
-* **A.6.8 (RPR‑SERV)**: RPR for the “service” cluster polysemy (facet‑explicit `serviceSituation` lens; canonical rewrites for `service`/`server`/`service provider`; routing tests for clause vs access point vs provider commitment vs work+evidence).
-* **A.6.9 (RPR‑XCTX)**: RPR for cross‑Context “same / equivalent / align / map” talk (explicit Bridges with direction, endpoint refinement, substitution licence, CL and loss notes; blocks silent inversion and “alignment” umbrella verbs).
-* **A.6.H (RPR‑WHOLE)**: RPR for “whole/part/integrity/complete” polysemy (WHOL triggers + Boundary–Parthood–Fold–Order/Time–Completeness lens; routes turnkey/end‑to‑end into A.15 coverage; includes artefact↔referent↔work level test). 
-
-
-### A.6.P:0 — TERM/LEX token guards (local-first)
-
-This pattern reserves the following tokens on Tech (normative) surfaces:
-
-* **RPR** — *Relational Precision Restoration* (the suite recipe; not a new `U.Type`).
-* **RelationKind** — a Context-local vocabulary token (signature-level) that fixes polarity and SlotSpecs for participant/qualifier positions. It is a *registry entry/token*, not a relation instance.
-* **QualifiedRelationRecord** — the slot-explicit relation instance record kind (Context-local episteme/record kind); instances carry a `relationKind` token reference plus explicit participant/qualifier slots.
-
-**Mint-or-reuse note (recipe-level).** This pattern mints the suite label **RPR**, the role name **RelationKind**, and the generic shape name **QualifiedRelationRecord** as local-first terms for this family. It reuses existing FPF terms (`U.Signature`, SlotKind/ValueKind/RefKind, Bridges/CL, `U.Scope`, `Γ_time`, `U.View`/`U.Viewpoint`, evidence pins/carriers) without changing their meanings.
-
-**Definitions (recipe-level; non-deontic).**
-
-* **RelationKind token** — a declared vocabulary element (signature-level) whose *public surface* fixes polarity and SlotSpecs for participant/qualifier positions, and that is referenced by routed claims (L/A/D/E) that govern admissibility, duties/commitments, and evidence/work.
-* **QualifiedRelationRecord** — a Context-local episteme/record kind whose `relationKind` field points (by id/ref) to a RelationKind token and whose instance records make all contract-required participant/qualifier slots explicit.
-
-Rename-guards (common collisions):
-
-* **contract** — Plain shorthand for “published boundary interface description”; a conforming text MUST NOT treat the term *contract* as itself establishing a promise/obligation. Promises, duties, and gates route via A.6.B.
-* **bind/binding** — reserved for **name binding** (Identifier → SlotKind/slot-instance) and MUST NOT be used as a synonym for relation instance edits.
-* **same/synced/linked/connected/anchored/grounded** — treated as umbrella tokens; allowed as Plain gloss only when immediately mapped to an explicit RelationKind token (Tech) via rewrite rules.
-
-### A.6.P:1 — Problem frame
-
-FPF repeatedly encounters a predictable precision failure mode:
-
-Authors describe a situation with an apparently simple relational phrase:
-
-* “X **is the same as** Y”, “X **is linked to** Y”, “X **is synced with** Y”
-* “X **depends on** Y”, “X **is grounded/anchored** in Y”
-* “X **maps to** Y”, “X **aligns with** Y”, “X **is connected to** Y”
-
-…but the intended meaning is actually:
-
-1. **Hidden multiarity.** The claim requires additional participant positions (scope, time selector, witness carriers, policy, direction/inverse, reference scheme, representation scheme, mediator artefact).
-2. **Kind elision.** The umbrella verb stands in for an unstated family of relation kinds (different invariants; different admissibility; different evidence burdens).
-3. **Viewpoint fights.** Different stakeholders describe “the same” relation from incompatible viewpoints, creating polarity flips and silent re‑typing.
-4. **Unnameable change semantics.** Authors say “update/bind/anchor/sync”, but mean distinct semantic change classes (retarget vs revise vs rescope vs retime vs witness refresh).
-5. **Regression via prose.** Even after ontology repairs, umbrella language re‑enters and collapses distinctions unless structural precision is coupled to lexical guardrails.
-6. **Pronominal/metonymic endpoints.** Even when the relation verb is fixed, endpoints may be referred to via pronoun‑like or umbrella tokens (or metonymic pointers), so the relation cannot be typed or audited until endpoint facets/kinds are restored from context.
-
-A.6.P defines a **repeatable precision restoration recipe** that makes this defect repairable and reusable across future A.6.x patterns. 
-
-### A.6.P:2 — Problem
-
-How can FPF represent and evolve “relations in prose” that are structurally richer than they appear, so that:
-
-* the **relation kind** is explicit and reviewable,
-* missing positions can be made explicit **without semantic drift**,
-* changes to the relation can be narrated with **stable semantic change classes**,
-* multi‑view publication can exist **without creating multiple incompatible contracts**, and
-* cross‑Context/plane reuse cannot silently assume “sameness by label”?
-
-### A.6.P:3 — Forces
-
-| Force                                 | Tension                                                                                                |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Universality vs precision             | The repair must be reusable across domains, but must not hide the distinctions it is meant to recover. |
-| Prose convenience vs contract clarity | Humans want short verbs; engineering/assurance needs declared kinds, slots, and invariants.            |
-| Kernel minimality vs safety           | Few primitives are good; umbrella relations are cross‑Context safety hazards.                          |
-| Multi‑view reality vs coherence       | Viewpoints must be expressible without silent polarity flips or re‑typing.                             |
-| Evolution vs auditability             | Relations change; edits must not rewrite meaning invisibly.                                            |
-| Stack discipline                      | Laws, admissibility, deontics, and evidence/work must not be mixed (A.6 + A.6.B).                      |
-
-### A.6.P:4 — Solution — The RPR recipe (Lens → Slots → Change Lexicon → Guardrails), aligned to A.6 / A.6.B / A.6.S
-
-A.6.P defines a **suite recipe**. A pattern is a **RPR‑pattern** (member of A.6.P) iff it provides the ingredients below.
-
-#### A.6.P:4.0 — Trigger rule (when A.6.P applies)
-
-A relation mention is in-scope for A.6.P when **any** of the following holds:
-
-* the predicate/verb phrase is **lexically overloaded** (umbrella tokens such as “same/sync/link/connect/anchor/ground/align/map/depends”), or
-* one or more endpoints/qualifiers are expressed via **pronominal / deictic / metonymic stand‑ins** or **over‑broad kind tokens** (e.g., “it/this/that”, “the service”, “the system”, “at the table”), such that multiple referents/facets remain plausible, or
-* the statement implicitly relies on **scope / Γ_time / viewpoint/view / schemes** (reference, representation), or
-* the relation is used for **assurance / admissibility / gating / publication** decisions, or
-* the relation crosses **Contexts or planes** (requires Bridges + CL; no silent equivalence), or
-* different stakeholders interpret endpoints differently (multi-view asymmetry and polarity fights).
-
-**Adoption test (review heuristic).** If a reviewer can reasonably ask any of: “Which kind is this?”, “What exactly does this span refer to (which facet/kind, and in which lane: Object vs Description vs Carrier)?”, “What else participates?”, “Under what scope/time/view?”, “What changed?”, or “What makes this admissible?”, then authors SHOULD treat the mention as in-scope and rewrite it into explicit kind+slots form before using it for cross‑Context reuse or decision/publication claims.
-
-#### A.6.P:4.0a — Operational pipeline (how repairs actually proceed)
-
-The suite is presented as **lens → slots → change lexicon → guardrails** because the *stable abstraction* is what keeps repairs reusable. In actual editing, repairs often start from a **triggering surface token** and proceed through a context‑reconstruction step.
-
-Operationally, authors SHOULD follow this pipeline when applying an RPR repair:
-
-1. **Trigger on surface form.** Detect umbrella relation predicates *and* pronominal/umbrella endpoint tokens or metonymic pointers (including domain clusters such as **service** in A.6.8 and cross‑Context “same/equivalent/align/map” in A.6.9).
-2. **Reconstruct the situation ontology from local context.** Enumerate candidate referents/facets for endpoints *(including A.7 lane: Object vs Description vs Carrier when it matters)* and candidate `RelationKind` tokens for the umbrella predicate, plus implied participants (scope/time/view/scheme/mediator artefacts). Capture the result as a **Candidate‑Set Note** (A.6.P:4.0b) so review has a checkable artifact: candidates → selected facet/kind → why. When metonymy is plausible, include both the *literal* and the *intended* candidates.
-3. **Choose a stable lens** that can represent the reconstructed arity/polarity without ad‑hoc role invention.
-4. **Refine the ontology under the lens.** Turn implied roles into SlotSpecs; repair endpoint kind mismatches explicitly (narrowing / KindBridge / retargetParticipant); make qualifiers explicit as slots.
-5. **Emit canonical rewrites + routing hooks.** Produce Tech‑form rewrites (`relationKind(…)` / arrow form) and state the A.6.B hooks: which parts are L vs A vs D vs E, and which witnesses/commitments/work claims are now demanded.
-
-**Decision/publication fail‑closed (normative).** If an in‑scope mention is used to justify an admissibility gate, publication claim, or cross‑Context reuse, authors MUST resolve the candidate sets to a selected `RelationKind` and selected endpoint facets/kinds and emit an explicit rewrite. If that cannot be done from available context and witnesses, keep the statement as Plain/informative gloss (or split into multiple explicit alternatives) and do not treat it as admissible input for the gate.
-
-**Informative: referential compression spectrum.** Many triggers live on a spectrum from high to low referential precision:
-pronouns/deictics → overloaded polysemes → coarse domain kinds → facet head phrases → precise domain terms.
-Metonymy often shifts the denotation (e.g., a place phrase standing in for an object or a role). The pipeline explicitly treats this as a **candidate‑set** problem, not as “the dictionary meaning”.
-
-**Metonymy micro-example (informative; endpoint-side trigger beyond anaphora).**
-
-Draft: “Alice is **at the table**.”
-
-`at the table` → candidates `{place, meeting, artifact, role}` → choose explicitly → rewrite into endpoint‑refs + qualifiers:
-
-```
-CandidateSetNote(triggerSpan="at the table", role=endpointFacet(p₂)):
-- candidates: {PlaceRef(Table#7), MeetingRef(NegotiationSession#3), ArtifactRef(AgendaDoc#12), RoleRef(DecisionMakerSeat#2)}
-- selected:   MeetingRef(NegotiationSession#3) + RoleRef(DecisionMakerSeat#2)  // metonymy: place → meeting/role
-- consequence: require explicit `meetingRef`, `roleRef`, `Γ_time`, `witnesses` (and route decision/admissibility separately via A.6.B)
-
-participatesInMeetingUnder(
-  personRef  = PersonRef(Alice),
-  meetingRef = MeetingRef(NegotiationSession#3),
-  roleRef    = RoleRef(DecisionMakerSeat#2),
-  Γ_time     = snapshot(t),
-  witnesses  = {attendanceLogPins}
-)
-```
-
-If the literal location reading is intended, select `PlaceRef(Table#7)` and rewrite as `locatedAt(…)` with an explicit `Γ_time` qualifier.
-
-This step is intentionally **not lexicon‑only**. The lexical rewrite is the *output* of an ontology‑ and lens‑constrained repair, not the starting point. If you cannot state the candidate referents/facets and the selected RelationKind token, the repair is incomplete.
-
-#### A.6.P:4.0b — Candidate‑Set Note (informative; review artifact)
-
-When endpoint identity (pronoun/deixis/metonymy/coarse kind) or relation‑kind selection is ambiguous, reviews can collapse into “lexicon debates”. A.6.P treats this as an ontology reconstruction step with an explicit, checkable intermediate artifact.
-
-**Candidate‑Set Note template (informative).**
-
-> **Collision note.** This “Candidate‑Set Note” is **not** the F.18 naming-process *candidate set* (NQD-front). It is a local disambiguation artifact for endpoint referents/facets and RelationKind selection during RPR repairs.
-
-For each ambiguous role (relation kind, endpoint facet/kind, qualifier, mediator), record:
-
-* **Trigger span:** the exact surface token(s) in the draft (copy/paste).
-* **Role being disambiguated:** `relationKind` | `endpointFacet(pᵢ)` | `endpointRef(pᵢ)` | `qualifier(qⱼ)` | `mediator`.
-* **Lane (A.7) (when endpoint‑side):** `Object` | `Description` | `Carrier` (state explicitly when live contenders span lanes; lane‑mixing is a common source of “contract” category errors).
-* **Candidate set:** a short list of plausible **kinds/facets** and/or **RelationKind tokens** (not synonyms), each with the local cue(s) that made it plausible.
-* **Selected facet/kind (and selected RelationKind, if relevant):** the chosen candidate(s).
-* **Why:** the discriminating test(s) that were applied, plus pointers to the specific local evidence/witness cues used (carriers, claims, artefacts).
-* **Consequence:** which SlotSpecs become required/forbidden and which A.6.B hooks are now triggered (L/A/D/E).
-
-Minimal one‑screen representation:
-
-| Candidates (kinds/facets/tokens) | Selected facet/kind | Why (tests + cues) | Consequence (slots + routing hooks) |
-| --- | --- | --- | --- |
-| C1 …; C2 …; C3 … | … | … | … |
-
-**Notes.**
-
-* For **metonymy**, list both the literal candidate and the intended target candidate (and make the shift explicit).
-* Keep the candidate set small: include only live contenders, and state the elimination test for the others.
-* This note is **informative**: it does not replace routed L/A/D/E claims. It exists to prevent “lexicon instead of ontology”.
-
-#### A.6.P:4.1 — Stable lens
-
-A RPR‑pattern SHALL name a stable mathematical “lens” that prevents re‑inventing roles per domain. Examples of lenses (illustrative):
-
-* **Kind‑labelled qualified hyperedge / record** (default A.6.P lens)
-* **n‑ary relation with distinguished positions** (A.6.5 style)
-* **kind‑labelled dependence arrow over a base** (A.6.6 style)
-* **span/cospan + declared loss/correspondence notes** (Bridge‑like families)
-* **correspondence relation + repair operations** (sync/consistency families)
-
-The lens is a compression device: one stable abstraction that keeps the relation’s **arity and polarity** stable and makes invariants speakable.
-
-#### A.6.P:4.2 — Kind‑explicit relation tokens (no umbrella meaning‑surrogates)
-
-For every in‑scope relational claim, authors SHALL select (or mint) an explicit **RelationKind token** as a declared vocabulary element.
-
-A RelationKind token is authored as a `U.Signature`‑level vocabulary element with explicit SlotSpecs for its participant and qualifier positions (`⟨SlotKind, ValueKind, refMode⟩`). 
-
-**RelationKind contract skeleton (minimum, recipe-level).**
-For each `RelationKind` token, a conforming Context publication SHALL publish a vocabulary entry whose **signature-level definition** is paired with (or points to) a **routed claim bundle** (“contract skeleton”) that declares (at minimum):
-
-The leading **(L)/(A)/(D)/(E)** tags below indicate the intended **A.6.B quadrant routing** for each element of the skeleton.
-
-* **(L) applicability** (A.6.0): the Context/planes where the kind is defined (local meaning is first-class).
-* **(L) polarity**, and (if needed) explicit **inverse tokens** (no silent role flips in Tech prose).
-* **(L) SlotSpecs** for all participant positions (and any qualifier slots exposed by the family) (`⟨SlotKind, ValueKind, refMode⟩`, where `refMode` is either `ByValue` or a concrete `RefKind` token per A.6.5).
-* **(A) repair path for endpoint kind mismatches** (normative): allowed repairs are (i) explicit narrowing, (ii) a `KindBridge` (+ `CL^k` + loss notes), and/or (iii) explicit `retargetParticipant`. Renaming endpoints is not a repair.
-* **(L) qualifier expectations**: which qualifiers are required/optional/forbidden (scope, `Γ_time`, viewpoint/view, reference scheme, representation scheme).
-* **(D) qualifier placement discipline**: extra parameters belong in `scope` or explicit qualifier slots, not as adjectives attached to endpoint names.
-* **(A/E) witness discipline**: when witnesses are required as an admissibility gate and what carrier-anchored witness sets look like in this family.
-* **(L/A) admissible semantic change classes** (see §4.4) and whether they require a new edition.
-* **(A/E) cross‑Context/plane policy** when applicable (Bridge ids + CL + loss notes policy).
-
-**Important stack constraint (A.6 / A.6.S / A.6.B).**
-Treat “contract” as a routed set of claims, not a single magical object:
-
-* **L‑claims** (laws/invariants; polarity; SlotSpec typing) live in `Signature.Laws`.
-* **A‑claims** (admissibility gates) are authored as admissibility predicates (canonically placed in `Mechanism.AdmissibilityConditions` when an explicit mechanism exists) and may reference the RelationKind token by ID.
-* **D‑claims** (duties/commitments) name accountable roles/agents and may reference `L-*`/`A-*` by ID.
-* **E‑claims** (evidence/work effects) anchor to carriers and observation conditions and may reference `L-*`/`A-*` by ID.
-
-#### A.6.P:4.3 — Slot‑explicit qualified relation records (recover hidden arity)
-
-A conforming text SHALL ensure that each in‑scope relation instance is representable as a **Qualified Relation Record** (a first‑class record/episteme in the relevant Context) that fills the relation’s slots.
-
-Conceptual notation‑neutral shape:
-
-**Notation note (A.6.5 alignment).** In this family `refMode` is a slot‑content mode: either `ByValue` (inline value of the declared ValueKind) or a concrete `RefKind` token (slot holds a reference/pin of that RefKind).
-```
-QualifiedRelationRecord :=
-⟨ relationKind : RelationKind, // vocabulary token / registry entry (signature-level)
-
-  // participant positions (pattern-specific; contract fixes SlotSpecs)
-  p₁ : SlotContent(VK₁, refMode₁),
-  …,
-  pₙ : SlotContent(VKₙ, refModeₙ),
-
-  // qualifier kit (pattern-specific; contract selects subset)
-  scope?       : SlotContent(U.Scope, ByValue | RefKind),
-  Γ_time?      : SlotContent(U.GammaTimePolicy, ByValue), // time selector/policy; not an evidence freshness proxy
-  viewpoint?   : SlotContent(U.Viewpoint, ByValue | RefKind),
-  view?        : SlotContent(U.View, ByValue | RefKind),
-  refScheme?   : SlotContent(U.ReferenceScheme, ByValue | RefKind),
-  reprScheme?  : SlotContent(U.RepresentationScheme, ByValue | RefKind),
-
-  witnesses?   : SlotContent(VK_wit, ByValue | RefKind)
-⟩
-```
-
-**Slot naming guard.** `*Slot` suffix names positions (SlotKinds), not occupants; prose SHOULD use occupant names (`scope`, `witnesses`, `base`, `dependent`, …) for fillers. This is the same guard used in A.6.6 and A.6.5. 
-
-**Well‑formedness principle.** The record is “typed by contract”: SlotSpecs are fixed by the selected RelationKind token, and missing slots are permitted only if the contract says they are optional. This mirrors A.6.6’s scoped/witnessed declaration move (SWBD): “shape + contract makes a concrete typed signature”.
-
-**Well‑formedness constraints (non‑deontic).**
-
-* **WF‑A6P‑QR‑1 (Required slots are present).** For any QualifiedRelationRecord `r` with `r.relationKind = k`, `r` provides values for every SlotSpec that `k` marks as required.
-* **WF‑A6P‑QR‑2 (No silent kind swap).** `relationKind` is part of a record’s identity/edition boundary. If the kind changes, the result is represented as a distinct record/edition linked by an explicit `changeRelationKind` (or an explicit withdrawal + re‑declaration), not as an in-place mutation that preserves identity.
-
-**Normative prose forms (Tech).**
-In Tech/normative prose, authors SHALL express an in‑scope relation instance in one of the following equivalent forms:
-
-* **Functional form:** `relationKind(p₁=…, …, pₙ=…, qualifiers…)`
-* **Arrow form (binary projection only):** `p_left --relationKind{qualifiers}--> p_right`
-
-Passive umbrella voice (“X is synced/linked/anchored …”) is permitted only as Plain gloss when immediately rewritten into one of the above forms.
-
-**Cross‑Context/plane note (recipe-level).**
-If any participant/qualifier implies cross‑Context or cross‑plane reuse, the routed claim bundle MUST cite the relevant Bridge ids + CL policy (and loss notes, when applicable) in the appropriate routed claims (typically `A-*` and/or `E-*`). Label identity is not an admissible substitute.
-
-#### A.6.P:4.4 — Change‑class lexicon (operations are not adjectives)
-
-A RPR‑pattern SHALL publish a **relation‑change lexicon**: a small set of semantic change classes used in normative prose to describe “what changed” without umbrella verbs.
-
-Minimum semantic change classes (conceptual; specialisations may add more):
-
-1. **declareRelation** — mint a new qualified relation record (slot‑explicit).
-2. **withdrawRelation** — retire a relation instance (render it inactive for downstream use). If the intent is narrowing (still valid within a smaller scope/window), use `rescope`/`retime` rather than overloading withdrawal.
-3. **retargetParticipant(slotKind, newRef)** — change a RefKind slot-content while preserving SlotKind and ValueKind (conceptually corresponds to slot‑level **retarget**). 
-4. **reviseByValue(slotKind, newValue)** — edit embedded by‑value content (conceptually corresponds to slot‑level assign/update or “by‑value edit”). 
-5. **rescope(newScope)** — change scope explicitly (no “in our context” prose).
-6. **retime(newΓ_time)** — change `Γ_time` when time matters; not a substitute for witness freshness claims.
-7. **refreshWitnesses(newWitnessSet)** — update witness bindings to point at appropriate carriers; generating evidence is Work, not a constructor op. 
-8. **changeRelationKind(newRelationKindToken)** — semantic change; MUST NOT be treated as an edit‑in‑place.
-
-**Edition fence rule (A.6.S / A.6.6 alignment).**
-In decision/publication lanes, any semantic change that alters meaning SHALL be represented as a new edition and connected via explicit continuity/withdrawal, rather than mutating the old record in place. 
-
-**Mapping note (informative, conceptual).**
-These change classes are semantic; they may be realised by A.6.5 slot verbs (retarget vs by‑value edit) and, when the relation is a basedness family, by A.6.6 base‑change verbs. The semantic story must not collapse into “we edited something”. 
-
-#### A.6.P:4.5 — Lexical guardrails (ban umbrella metaphors as meaning‑surrogates)
-
-A RPR‑pattern SHALL define **red‑flag umbrella tokens** for its ambiguity cluster, and SHALL provide canonical rewrite forms.
-
-Normative base rules (suite-level):
-
-* In **Tech / normative prose**, umbrella predicates (e.g., “same”, “synced”, “linked”, “connected”, “anchored/grounded”) MUST NOT substitute for an unnamed RelationKind token.
-* **“bind/binding” is reserved for name binding** (Identifier → SlotKind/slot‑instance) and MUST NOT be used as a synonym for declaring/changing a relation instance. Use the change‑class lexicon instead. 
-* Pattern-defined carve‑outs MAY exist (reserved primitives elsewhere), but they remain review triggers to ensure the reserved sense is intended (as in A.6.6’s `anchor*` carve‑out rule). 
-
-**Recommended publication move (no tooling implied).** For stable ambiguity clusters, publish the red‑flag token list and canonical rewrites as a LEX‑BUNDLE entry (PTG=Guarded) and, when the cluster introduces new `RelationKind` tokens or stable facet head phrases, include them in the relevant UTS rows (F.17). This keeps rewrite discipline shareable outside the A.6 cluster.
-
-#### A.6.P:4.6 — Progressive elaboration (the “precision dial” rule)
-
-A.6.P supports a controlled escalation path that preserves meaning and prevents drift:
-
-1) Start with a minimal explicit **RelationKind token** + principal endpoints (a binary projection is allowed only if every omitted participant/qualifier slot is contractually optional *and* irrelevant for the downstream lane(s)).
-
-2) When ambiguity emerges, **do one (or more) explicitly**:
-   * add missing participants as additional slots (turn the projection into n‑ary),
-   * add explicit qualifiers (scope / `Γ_time` / viewpoint/view / schemes / witnesses),
-   * refine the RelationKind token to a more specific one (new contract skeleton; `changeRelationKind`),
-   * introduce Bridges + CL (and loss notes) when crossing Contexts/planes.
-
-3) Authors MUST keep the transition monotone:
-   * no silent re‑typing,
-   * no implicit polarity flips,
-   * no “edit‑in‑place” that changes meaning (use edition fences + explicit continuity/withdrawal links).
-
-#### A.6.P:4.7 — Two‑view / polarity discipline (no silent role flips)
-
-A RPR‑pattern SHALL specify how the same relation is expressed from both “sides” without polarity flips:
-
-* Either keep both endpoints visible with the same polarity-preserving token, **or**
-* declare explicit inverse tokens and require them for inverse prose.
-
-Implicit role flips (“B validates A” without explicit inverse) are prohibited in Tech/normative prose. This is already a core rule for basedness patterns and is generalised here. 
-
-#### A.6.P:4.8 — Disambiguation guide (rewrite/selection)
-
-A RPR‑pattern SHALL include an actionable guide:
-
-> “If the draft says *X*, decide between relation kinds A/B/C, expand missing slots, and rewrite into explicit kind+slots notation.”
-
-For basedness families, A.6.6 provides an existence proof of such a guide (select baseRelation family; add scope/time/witnesses). A.6.P requires this move suite‑wide. 
-
-**Recommended format: RPR‑Disambiguation Guide (Winograd‑style, but ontology‑first).**
-To keep disambiguation from collapsing into dictionary debates, present the guide as a compact decision scaffold:
-
-* **trigger surface form** → **candidate RelationKinds / candidate facets (kinds)** → **discriminating questions/tests** → **canonical rewrite(s)** → **L/A/D/E routing hooks**
-
-Rules for the guide:
-
-* Triggers may be **relation umbrellas** (“same/synced/linked/anchored…”) *or* **participant umbrellas** (pronominal/metonymic/over‑broad kind tokens). The guide SHALL state which role(s) the trigger is standing in for (relation kind, endpoint kind, qualifier, mediator).
-* Candidate sets SHALL be stated as **kinds/facets/RelationKind tokens**, not as synonym lists. “Service” ⇒ {promise content, access point, provider principal, commitment, work+evidence, …} is the archetype (A.6.8).
-* When endpoint‑side ambiguity is present, the guide SHOULD recommend producing a **Candidate‑Set Note** (A.6.P:4.0b) as part of the rewrite, so the chosen facet/kind is reviewable.
-* Discriminating questions SHOULD be phrased as small **tests** that map directly to slot requirements (e.g., “Can you call it?” ⇒ `accessPointRef`; “Is it deontic?” ⇒ `commitmentRef` + accountable principal; “Is it actuals?” ⇒ `deliveryWorkRef` + witnesses).
-* Canonical rewrites SHALL land in the A.6.P Tech forms (functional/arrow) and SHALL specify any newly required qualifiers (scope, Γ_time, viewpoint/view, schemes, witnesses).
-* Routing hooks SHALL name which claim(s) are expected in each quadrant (L/A/D/E) so that “unpacking” reliably produces reviewable obligations rather than prose paraphrases.
-
-**Mini-row (metonymy; endpoint-side trigger, illustrative).**
-
-`"at the table"` → `{PlaceRef(Table#7), MeetingRef(NegotiationSession#3), RoleRef(DecisionMakerSeat#2)}` → tests `{Is the claim about physical location? about participation? about accountable role? which carrier-anchored witnesses exist (badge/access log, calendar invite, minutes/recording)?}` → rewrite `{locatedAt(personRef=…, placeRef=…, Γ_time=…, witnesses=…) | participatesInMeetingUnder(personRef=…, meetingRef=…, roleRef?=…, Γ_time=…, witnesses=…)}` → L/A/D/E hooks `{L: publish RelationKind tokens + SlotSpecs + polarity/inverses; A: decision/publication use requires explicit Γ_time + witness set; D: forbid metonymic endpoint spans in Tech prose (require explicit refs); E: cite carrier-anchored witnesses and their observation conditions}`.
-
-#### A.6.P:4.9 — A.6.B routing template for RPR relation families
-
-Any RPR‑pattern that claims “contract-bearing” semantics SHALL route its normative content using **A.6.B**:
-
-* **L‑claims**: signature‑level structure and laws (SlotSpecs, polarity, invariants).
-* **A‑claims**: admissibility / “entry gate” rules for *using* relation instances in specified lanes (e.g., decision use requires witnesses; time dependence requires `Γ_time`; cross‑Context use requires Bridges/CL).
-* **D‑claims**: deontic obligations on authors/agents (lexical firewall; prohibited umbrella use; rewrite obligations).
-* **E‑claims**: work/evidence expectations and carrier anchoring (what counts as a witness; evidence freshness is a property of carriers, not prose). 
-
-A.6.P does not mandate a particular claim‑ID format; it mandates the **separation and cross‑reference discipline**.
-
-**Atomicity + explicit references (normative, recipe-level).**
-Per A.6.B, mixed sentences MUST be decomposed into **atomic** claims so each claim routes to exactly one quadrant, and any dependencies MUST be expressed as explicit references (by claim ID or canonical location), not paraphrased duplicates.
-
-**No upward dependencies (normative, recipe-level).**
-`L-*` claims MUST NOT reference `A-*`, `D-*`, or `E-*`; `A-*` and `E-*` claims MUST NOT reference `D-*`. Where cross‑quadrant coupling is needed, link by explicit IDs in the allowed directions.
-
-#### A.6.P:4.10 — A.6.S compatibility note (ConstructorSignature is optional but canonical for engineered families)
-
-If a RPR‑pattern is used as an engineered family (created/evolved over time), it SHOULD be expressible as:
-
-* a **TargetSignature**: declared relation kinds + SlotSpecs + laws, and
-* a minimal **ConstructorSignature**: effect‑free operations that rewrite under‑specified prose into the explicit form and evolve relation records using the change‑class lexicon (mapped to A.6.5/A.6.6 canonical verbs).
-
-If a ConstructorSignature is provided, it SHOULD (conceptually) declare, for each constructor operator family:
-
-* whether it is a species of **A.6.2 / A.6.3 / A.6.4**, and
-* which **`U.EpistemeSlotGraph` slots** (C.2.1) it may read and write (SlotKind/ValueKind/RefKind profile).
-
-**Publication note (recommended).**
-If the TargetSignature / relation-kind registry is published via MVPK, treat every face as a **view** (no new semantics), keep viewpoint accountability explicit, and prefer stable claim IDs (Claim Register) so downstream carriers cite claims rather than paraphrasing.
-
-### A.6.P:5 — Archetypal Grounding (System / Episteme)
-
-A.6.P requires Tell–Show–Show grounding in both System and Episteme lanes.
-
-#### A.6.P:5.1 — System archetype: “same system across environments”
-
-**Tell.**
-An operations note says: “Staging is the same service as Production.” Months later, incident metrics are aggregated “because it’s the same thing”, and evidence across environments is mixed, producing an incorrect causal story.
-
-**Show.**
-Treat “same” as a red-flag umbrella token. Rewrite into an explicit cross-Context relation kind,
-typed to the facet the draft actually uses (service delivery system sameness for actuals/evidence aggregation; not about promise contents).
-
-**Show (candidate‑set note; endpoint facet restoration).**
-
-```
-CandidateSetNote(triggerSpan="service" in "same service", role=endpointFacet(p₁)):
-- candidates: {promiseContent, serviceAccessPoint, serviceProviderPrincipal, serviceDeliverySystem}
-- selected:   serviceDeliverySystem
-- why:        the claim is later used to justify mixing operational actuals/evidence (metrics + incident logs);
-  local cues point to delivery artefacts (manifests/config/test runs), not clause carriers
-- consequence: endpoints typecheck as `DeliverySystemRef` participants; clause/provider facets are explicitly out-of-scope
-
-sameDeliverySystemUnder(
-  leftDeliverySystemRef  = SystemRef(staging_delivery_system),
-  rightDeliverySystemRef = SystemRef(prod_delivery_system),
-  scope     = ClaimScope{SLO_family = X, signals = {latency, error_rate}},
-  Γ_time    = interval[2025-12-01, 2026-01-31],
-  viewpoint = OpsViewpoint,
-  witnesses = {deploymentManifestPins, configPins, testRunPins}
-)
-
-aggregationAdmissibleIff(
-  relationRef  = RelationRef(sameDeliverySystemUnder, SystemRef(staging_delivery_system), SystemRef(prod_delivery_system), ed=…),
-  target       = deliveryWorkMetrics,                   // actuals
-  Γ_time       = interval[2025-12-01, 2026-01-31],
-  witnesses    = {metricCarrierPins, incidentLogPins}   // evidence carriers for the actuals
-)
-```
-
-**Show.**
-Now the relation is auditable: aggregation is admissible only if the relation kind’s admissibility
-claims say it preserves the needed characteristics under the declared scope/time, and if witnesses exist.
-Cross-Context reuse is explicit and cannot piggyback on label identity.
-
-
-#### A.6.P:5.2 — Episteme archetype: “the models are synced”
-
-**Tell.**
-A draft says: “The simulation model is synced with the physical twin.” Reviewers ask what “synced” means. The authors respond with examples, but downstream users still cannot tell whether the claim is about parameters, structure, calibration, evidence freshness, or mapping quality.
-
-**Show.**
-Rewrite “synced” as an explicit correspondence relation kind + explicit qualifiers + witnesses:
-
-```
-entityMatchedBy(
-  leftRef          = ModelRef(SimModel@ed=12),
-  rightRef         = SystemRef(PhysicalTwin@ed=7),
-  mappingArtifactRef = AlignmentModel_2025_11,
-  scope            = ClaimScope{signals = S, metrics = M},
-  Γ_time           = snapshot(t),
-  referenceScheme  = RefScheme(CustomerIdRegistry#EU),
-  viewpoint        = DataEngineeringViewpoint,
-  witnesses        = {evalRunPins, calibrationPins, mappingArtifactPins}
-)
-```
-
-**Show (change narration).**
-Two weeks later, the mapping artefact is replaced and the witness set is refreshed. In decision/publication lanes, represent this as a new edition and narrate the change via change classes (not via “re‑synced”):
-
-```
-withdrawRelation( relationRef = RelationRef(entityMatchedBy, leftRef, rightRef, ed=12) )
-
-declareRelation(
-  entityMatchedBy(
-    leftRef           = ModelRef(SimModel@ed=12),
-    rightRef          = SystemRef(PhysicalTwin@ed=7),
-    mappingArtifactRef= AlignmentModel_2026_01,
-    scope             = ClaimScope{signals = S, metrics = M},
-    Γ_time           = snapshot(t₂),
-    referenceScheme   = RefScheme(CustomerIdRegistry#EU),
-    viewpoint         = DataEngineeringViewpoint,
-    witnesses         = {evalRunPins_2026_01, calibrationPins_2026_01, mappingArtifactPins_2026_01}
-  )
-)
-```
-
-**Show.**
-Different “sync meanings” become different **RelationKind tokens** (e.g., `entityMatchedBy`, `schemaAlignedUnder`), not adjectives. Subsequent changes become narratable as `retargetParticipant`, `rescope`, `retime`, or `refreshWitnesses`, rather than “we updated the sync”. 
-
-### A.6.P:6 — Bias‑Annotation
-
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for RPR‑style precision restoration in the A.6 cluster.
-
-* **Gov bias:** prefers explicit admissibility and evidence routing; increases auditability but raises authoring cost.
-* **Arch bias:** favours reusable structural lenses (records/hyperedges) over narrative prose.
-* **Onto/Epist bias:** pushes kind‑explicit relations and polarity discipline; discourages metaphor-first modeling.
-* **Prag bias:** reduces rework and cross-team misinterpretation; may feel heavy in exploratory notes.
-* **Did bias:** enforces teachable rewrite guides; can be perceived as prescriptive.
-
-### A.6.P:7 — Conformance Checklist (CC‑A.6.P)
-
-A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
-
- > **Note.** This checklist defines conformance for **RPR specialisations** (e.g., A.6.5, A.6.6, A.6.8, A.6.9, A.6.C and future A.6.x patterns). A.6.P itself is the **suite recipe**.
-
-1. **CC‑A.6.P‑1 — Lens is explicit.**
-   P SHALL name the stable lens used to stabilise the ambiguity cluster and justify its fit.
-
-2. **CC‑A.6.P‑2 — RelationKind is explicit and its contract skeleton is published.**
-   Every in‑scope relation claim SHALL name an explicit RelationKind token, and that token SHALL resolve to a vocabulary entry whose contract skeleton publishes (at minimum): polarity (and explicit inverses if needed), participant SlotSpecs `⟨SlotKind, ValueKind, refMode⟩`, qualifier requirements, witness expectations for decision/publication lanes, admissible semantic change classes, and (when applicable) cross‑Context/plane policy (Bridge + CL + loss notes). Routed claims SHALL respect A.6.B.
-   The contract skeleton SHALL also declare admissible **repair paths for endpoint kind mismatches** (KindBridge / explicit narrowing / explicit retargeting) and enforce **qualifier placement discipline** (no adjective smuggling).
-
-3. **CC‑A.6.P‑3 — Slot‑explicit instances.**
-   P SHALL ensure that every in‑scope relation instance is expressible as a Qualified Relation Record filling all contract‑required participant slots (no hidden arity; see WF‑A6P‑QR‑1).
-
-4. **CC‑A.6.P‑4 — Qualifiers are explicit when required.**
-   If scope/time/viewpoint/reference-scheme assumptions matter (or the relation kind requires them), they SHALL be explicit; implicit “current/latest/in our context” SHALL NOT substitute.
-   When witness freshness/decay matters, it SHALL be expressed explicitly (evidence-role timespans, qualification windows, explicit freshness predicates), not by treating `Γ_time` as a proxy.
-
-5. **CC‑A.6.P‑5 — No silent polarity flips.**
-   If inverse wording is used, it SHALL use explicit inverse tokens or polarity‑preserving forms; implicit role flips are forbidden. 
-
-6. **CC‑A.6.P‑6 — Change semantics use a change‑class lexicon.**
-   Normative prose about relation evolution SHALL use named semantic change classes (declare/withdraw/retarget/revise/rescope/retime/refreshWitnesses/changeKind), not generic “update/modify/sync/bind/anchor”.
-   Any mapping to lower-level slot verbs MUST preserve the A.6.5 retarget vs by‑value edit distinction. 
-
-7. **CC‑A.6.P‑7 — “bind/binding” discipline.**
-   `bind/rebind` SHALL be reserved for name binding (Identifier → SlotKind/slot‑instance) and SHALL NOT be used as a synonym for relation edits. 
-
-8. **CC‑A.6.P‑8 — Lexical firewall is normative.**
-   P SHALL list red‑flag umbrella tokens for the family and provide rewrite rules; umbrella tokens SHALL NOT function as meaning‑surrogates in Tech/normative prose. If legacy/Plain umbrella wording appears, it SHALL be immediately mapped to an explicit Tech form (`relationKind(…)` or `--relationKind-->`).
-
-9. **CC‑A.6.P‑9 — A.6.B atomicity, routing, and explicit references are respected.**
-   Normative text SHALL be decomposed into atomic claims routable to exactly one quadrant (L/A/D/E). Dependencies SHALL be expressed by explicit references (IDs or canonical locations), not paraphrase. No‑upward‑dependency constraints SHALL be preserved.
-
-10. **CC‑A.6.P‑10 — Evidence is carrier‑anchored (A.7 separation).**
-    Statements about witnesses/evidence/freshness SHALL be framed as properties/expectations of carriers and work, not as properties of prose. 
-
-11. **CC‑A.6.P‑11 — A.6.S compatibility when engineered.**
-    If the pattern family is presented as engineered/evolving, it SHALL be compatible with A.6.S: distinguish TargetSignature vs ConstructorSignature; map constructor verbs to A.6.5/A.6.6 canonical verbs; keep constructor ops effect‑free; and (when a ConstructorSignature is present) declare the C.2.1 slot read/write profile and whether ops are A.6.2/A.6.3/A.6.4 species.
-
-12. **CC‑A.6.P‑12 — Cross‑Context/plane reuse is explicit (no “sameness by label”).**
-    If a relation instance crosses Contexts/planes (or requires translation), the carrier SHALL cite Bridge ids + CL policy (and loss notes, when applicable). Label identity or “same anyway” prose SHALL NOT substitute.
-
-13. **CC‑A.6.P‑13 — Disambiguation guide is actionable.**
-    P SHALL include an explicit rewrite/selection guide that maps each red‑flag umbrella cluster to candidate `RelationKind` tokens (and, when the ambiguity is endpoint‑side, to candidate endpoint facets/kinds), required qualifiers, and canonical rewrite forms.
-    The guide SHOULD follow the RPR‑Disambiguation format: **trigger → candidates → discriminating questions/tests → canonical rewrite → L/A/D/E routing hooks**.
-    
-    Where endpoint referential compression is a primary risk, the guide SHOULD also include (or point to) the **Candidate‑Set Note** template (A.6.P:4.0b) so instance‑level reviews have an auditable trail: candidates → selected facet/kind → why.
-
-14. **CC‑A.6.P‑14 — Grounding spans System and Episteme.**
-    P SHALL include at least one Tell–Show–Show vignette in a **System** lane and at least one in an **Episteme** lane (per E.8), demonstrating a real ambiguity repair and a relation‑change narration using the change‑class lexicon.
-
-15. **CC‑A.6.P‑15 — Trigger rule is explicit.**
-    P SHALL include an explicit trigger rule (or selection heuristic) stating when the family applies and what counts as “in-scope” umbrella relational prose.
-
-### A.6.P:8 — Common Anti‑Patterns and How to Avoid Them
-
-| Anti-pattern                                   | Why it fails                                                                | Repair                                                                              |
-| ---------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| “Just define the umbrella word”                | Definitions don’t separate arity, operation classes, or viewpoint asymmetry | Replace umbrella use with explicit RelationKind + qualified record + change lexicon |
-| Keep the umbrella verb, add adjectives         | Adjectives are not contracts; invariants remain unstated                    | Mint/select distinct RelationKind tokens; enforce rewrite discipline                |
-| Leave pronominal/metonymic endpoints implicit  | Endpoint identity/facet remains guesswork; slot typing cannot stabilise     | Reconstruct candidate referents/facets (**capture as a Candidate‑Set Note**); add explicit slots/refs; then rewrite (A.6.8 is the archetype for “service” polysemy) |
-| Ontology only, no lexical guardrails           | Prose re‑collapses meaning                                                  | Add red‑flag tokens + prohibited umbrella use in Tech/normative prose               |
-| Lexicon only, no structural lens               | Becomes subjective policing                                                 | Introduce stable lens + slot schema; then attach guardrails                         |
-| Solve viewpoint mismatch by renaming endpoints | Silent re‑typing breaks cross‑pattern reuse                                 | Keep roles stable; use explicit kind selection + explicit repair paths              |
-| Using “bind” to mean “edit relation”           | Collapses name-binding vs slot-writing layers                               | Reserve `bind/rebind` for names; use change lexicon / slot verbs properly           |
-| Implicit “current/latest”                      | Violates explicit time discipline                                           | Add explicit `Γ_time` where time matters                                            |
-| Treat `Γ_time` as witness freshness             | Time selection ≠ evidence freshness/decay; conflates time discipline with evidence lanes | Keep `Γ_time` for temporal scope; express freshness/decay via witness metadata and carrier-anchored E‑claims |
-
-### A.6.P:9 — Consequences
-
-**Benefits**
-
-* **Predictable precision upgrades.** Umbrella relational prose becomes systematically expandable into explicit structure.
-* **Viewpoint conflict becomes repairable.** Differences surface as explicit roles/kinds/qualifiers, not silent rewrites.
-* **Change becomes speakable.** “What changed?” is a named semantic change class, reducing folklore.
-* **Cross‑Context safety improves.** “Same/synced/linked” becomes contract‑bearing and auditable, not rhetorical.
-
-**Trade‑offs / mitigations**
-
-* **Higher authoring overhead.** Mitigated by progressive elaboration: expand only when invariants, reuse, or decisions require it.
-* **More explicit qualifiers.** Mitigated by keeping the lens stable and reusing slot templates (A.6.5/A.6.6).
-* **Perceived prescriptiveness.** Mitigated by allowing Plain-register glosses that are immediately mapped to Tech tokens (without creating new contracts).
-
-### A.6.P:10 — Rationale
-
-Upper/foundational ontologies optimise for broad applicability via sparse commitments. FPF’s recurring, high-cost failures are often elsewhere: **under‑specified relations** in prose, where ambiguity hides in arity, kind selection, viewpoint, and change semantics.
-
-A.6.P is orthogonal to “add a global taxonomy”:
-
-* It provides a repeatable method to **restore relational precision** without requiring any external formalism or tooling.
-* It operationalises A.6’s boundary discipline by ensuring relation talk can be cleanly separated into laws, admissibility, deontics, and evidence/work (A.6.B), rather than becoming “contract soup”. 
-
-### A.6.P:11 — SoTA‑Echoing (informative; post‑2015 alignment)
-
-**Evidence binding note.** If your Context maintains a SoTA Synthesis Pack for relation/contract authoring or “qualified relations”, cite it here and keep this section consistent. Otherwise, treat the table below as a seed list (informative only).
-
-A.6.P echoes contemporary practice across independent traditions, while remaining notation‑neutral and Context-local:
-
-| SoTA practice (post‑2015) | Primary source (post‑2015) | Echo | What A.6.P adds | Adoption stance |
-| --- | --- | --- | --- | --- |
-| Constraint/shape validation over graph assertions | W3C **SHACL** Recommendation (2017) | Separates “assertions” from “constraints” | Couples structural contracts with **lexical guardrails** to prevent prose regression | **Adopt/Adapt** — adopt “explicit contracts”, adapt by binding to Tech↔Plain and rewrite discipline |
-| Qualified statements / reification patterns | **RDF‑star / SPARQL‑star** (2017+) practice family | Reification/qualification when hidden arity appears | Requires explicit **RelationKind** + change‑class lexicon (not just representational qualification) | **Adapt** — representation is not enough without kind selection + change semantics |
-| Architecture views & correspondences | ISO/IEC/IEEE **42010:2022** | Viewpoints and correspondences as first-class concerns | Forces viewpoint discipline inside relation qualification + prohibits silent polarity flips | **Adopt/Adapt** — adopt viewpoint accountability, adapt by embedding it into relation records |
-| Bidirectional transformations / optics | Pickering et al., **Profunctor Optics** (ICFP 2017) and successors | “Pairs of projections + laws” as stable lenses | Uses optics as conceptual stabilisers for multi‑view relations while keeping Core notation‑neutral | **Adapt** — use as a stabilising lens, not as mandated notation |
-| Compositional modelling (applied category theory) | Fong & Spivak, **Seven Sketches in Compositionality** (2019) | Stable abstract lenses reusable across domains | Embeds lens choice into an authoring discipline with explicit slots + guardrails | **Adapt** — keep the categorical lens didactic; operationalise via SlotSpecs + change lexicon |
-
-These echoes justify why A.6.P is structured as: **stable lens → explicit slots → explicit change classes → lexical guardrails**, rather than “just define the verb”.
-
-### A.6.P:12 — Relations
-
-**Specialised by**
-
-* **A.6.5 `U.RelationSlotDiscipline`** — slot precision restoration for n‑ary relations. 
-* **A.6.6 `U.BaseDeclarationDiscipline`** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags). 
-* **A.6.8 (RPR‑SERV)** — service polysemy unpacking as a relation/facet precision restoration discipline (serviceSituation lens + canonical rewrites + service‑specific tests and change narration).
-* **A.6.9 (RPR‑XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align / map” via explicit Bridges 
-* **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole/part/integrity/complete”) into boundary, typed parthood, explicit Γ selection, order/time routing, and A.15 completeness/coverage claims.
-
-**Coordinates with**
-
-* **A.6.S `U.SignatureEngineeringPair`** — RPR rewrite operations can be packaged as a ConstructorSignature for engineered relation families; must preserve canonical verb mapping and effect‑free constructor semantics. 
-
-**Intended future A.6.x specialisations (illustrative)**
-
-* Cross‑Context equivalence / “sameness” discipline (Bridge + loss notes families)
-* Correspondence/consistency + repair discipline (sync/alignment families)
-* Transfer/hand‑off discipline (multi‑party “give/assign/ownership” families)
-
-### A.6.P:End
-
-## A.6.5 -  U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)
-
-**Plain‑name.** Relation slot discipline.
-
-**Status.** Normative (Core).
-**Placement.** Part A, cluster A.IV “Signature Stack & Boundary Discipline”; directly under A.6.0 `U.Signature` and alongside A.6.1–A.6.4.
-**Depends on.**
-– A.1 `U.Holon` (holonic carrier model).
-– A.6.0 `U.Signature` (universal morphism/relationship signatures).
-– A.7 (Strict Distinction; I/D/S vs Surface).
-– E.8 (pattern authoring order & SoTA discipline).
-– E.10 (LEX‑BUNDLE: Tech/Plain registers, naming guards).
-
-**Coordinates with.**
-– C.2.1 `U.EpistemeSlotGraph` (episteme slots: DescribedEntity, GroundingHolon, ClaimGraph, Viewpoint, View, ReferenceScheme).
-– C.3.* Kind‑CAL (Kinds, KindSignature, KindBridge).
-– F.18 (name governance; twin‑register discipline).
-
-### A.6.5:1 - Problem frame
-
-FPF relies heavily on **n‑ary relations and morphisms**:
-
-* episteme component layouts (`U.EpistemeKind` in C.2.1),
-* role enactment and assignment,
-* method/service signatures,
-* guards and bridges in Part B/C,
-* publication and view operators in Part E, and any other `U.Signature` whose **Vocabulary** row declares n‑ary relations or operators across Part A/B/C/E.
-
-In practice, existing episteme and drafts **frequently conflate**:
-
-1. the **place/position** in a signatured structure (relation/operator/record/port bundle; e.g. “the 2nd argument, named Subject”),
-2. the **kind of value** that may fill that position (`U.Entity`, `U.Holon`, …), and
-3. the **reference/identifier** we actually store there (`…Id`, `…Ref`).
-
-This produces subtle bugs (elaborated in A.6.5:2):
-
-* misuse of “Subject/Object” as SlotKind‑like names for very different ValueKinds (explicitly banned for episteme Tech names by E.10),
-* the `…Ref` suffix attached to both conceptual values and reference fields, erasing ValueKind vs RefKind,
-* mixed reasoning about “role”, “slot”, and “filler” as if they were the same layer,
-* fragile substitution questions (“can I plug this module here?”) that depend on informal judgement rather than SlotSpec laws.
-
-A second, subtler conflation appears in prose: authors mix **binding / initialization / assignment / substitution / retargeting / mutation / passing** as if they were synonyms for “put something in a slot”. This blurs the intended discipline precisely in the places where FPF must be crisp (signatures, morphisms, bridges, and viewing operators).
-
-`U.RelationSlotDiscipline` pins a **single, reusable discipline** over `U.Signature` so that **every position in an n‑ary signature** is described with:
-
-* a **SlotKind** — *where* in the signature,
-* a **ValueKind** — *what sort of thing* may fill that place, and
-* a **RefKind** — *how we point at it* in episteme (identifier / handle), if at all,
-
-**and** it standardises the **lexicon for operations over slots** so that extension texts can describe “early vs late binding”, “retargeting”, and “by‑value edits” without collapsing layers.
-
-This pattern makes slot discipline explicit and shareable across **epistemes, roles, methods, services, bridges, guards, and all other `U.Signature`d calculi**: any “parameter list”, “port list”, “field set”, or “coordinate tuple” for an n‑ary signature in FPF **is** a set of SlotSpecs governed by this discipline.
-
-### A.6.5:2 - Problem (symptoms in FPF)
-
-Typical failure modes the pattern is designed to eliminate:
-
-1. **Slot vs value vs ref confusion.**
-   Episteme fields such as `DescribedEntityRef` are sometimes treated as:
-
-   * the **slot** (“the described entity position”),
-   * the **value kind** (“the described entity type”), and
-   * a **reference field** (“this is the pointer we store”).
-
-   Reasoning about substitution (“can I swap one described entity for another?”) then mixes three levels at once.
-
-2. **Kernel types misused as slot names.**
-   Kernel concepts like `U.Entity` or `U.Holon` are used directly as slot names (“the `U.Entity` of this episteme”), hiding the difference between:
-
-   * the abstract **Kind** (`U.Entity` as intensional universe), and
-   * the **place** where one such entity is used in a particular relation.
-
-3. **“Role” overloaded as slot.**
-   In relation signatures and structural calculi, “role” has crept in as a synonym for “argument position”: “the role of the subject”, “the role of the provider”. This clashes with `U.Role` in RoleEnactment and makes it hard to distinguish:
-
-   * **holonic role** (mask worn by a system), from
-   * **slot** (position in a relation).
-
-4. **Ref‑suffix drift.**
-   In the absence of a discipline, the suffix `…Ref` is attached to:
-
-   * entity kinds (`U.EntityRef` interpreted as “the entity itself”),
-   * episteme fields (`describedEntityRef`),
-   * sometimes even to slots (“DescribedEntityRefSlot”).
-
-   That makes it impossible to read signatures and know whether we talk about:
-
-   * a **conceptual value** (by‑value), or
-   * a **reference/identifier** (by‑reference via a handle).
-
-5. **Substitution rules not localisable.**
-   When the slot/value/ref layers are not separated:
-
-   * we cannot state “you may substitute **any instance of ValueKind V** in Slot S”, nor
-   * “this Bridge only changes RefKind, not ValueKind”.
-
-   This blocks clean use of A.6.0 `U.Signature` as a shared calculus for method/role/episteme signatures.
-
-6. **Episteme‑specific slots not standardised.**
-   For epistemes, the positions “what is this about?”, “in which holon is it grounded?”, “what ClaimGraph is inside?” re‑appear across patterns. Without a shared slot discipline, each pattern names these ad‑hoc, breaking the ability to state **universal laws** over episteme morphisms (A.6.2–A.6.4).
-
-7. **Operation‑lexicon drift (slot filling spoken as one verb).**
-   Extension prose introduces ad‑hoc words for “put something in a slot” and then imports unintended semantics. The most common mistakes are:
-
-   * using a single word (e.g. “fill”, “set”, “occupy”, “attach”) to cover **initialization**, **assignment**, **retargeting**, and **by‑value editing**;
-   * using person/role metaphors for slot content (“occupant”) that re‑introduce the “role ≈ slot” confusion;
-   * describing “early vs late binding” without stating **which link** is early/late (name→slot binding vs slot→content filling vs ref→referent resolution).
-
-The result: **local convenience, global incoherence** — exactly what A.6.0 and E.10 are supposed to prevent.
-
-### A.6.5:3 - Forces
-
-* **F1 - Simplicity vs expressiveness.**
-  Engineers need a **small number of concepts** they can hold in mind while reading a signature; yet we must express:
-
-  * where a parameter sits,
-  * which kinds it can take,
-  * whether it’s by value/by reference,
-  * how substitution behaves,
-  * and (in prose) what kind of slot‑operation is being described.
-
-* **F2 - Cross‑disciplinary reuse.**
-  Slot discipline must work for:
-
-  * logical relations (KD‑CAL, LOG‑CAL),
-  * episteme structures (C.2.1),
-  * systems/roles/methods (A/B),
-  * services and APIs (including method/service interfaces and ports),
-  * cells in tables and databases,
-  * guards, bridges, and flows in E.TGA,
-  * and publication operations (E.17).
-
-  A scheme that is too domain‑specific (e.g. “database attributes only”) won’t scale; the same discipline must underlie **all** `U.Signature`d argument/port lists.
-
-* **F3 - Alignment with existing tooling.**
-  Tooling stacks already operate with:
-
-  * typed parameters and records,
-  * identifiers vs values vs references,
-  * and (in modern typed settings) explicit distinctions between *binding*, *store update*, and *mutation*.
-
-  FPF must line up with this practice enough that signatures can be implemented without inventing a parallel type system.
-
-* **F4 - I/D/S discipline.**
-  Strict distinction (A.7, E.10.D2) already separates **intensional objects**, their **descriptions**, and **specifications**. The same discipline is needed inside relations:
-
-  * slot ≠ value ≠ reference,
-  * system role ≠ slot name,
-  * describedEntity ≠ guard,
-  * and “change the reference” ≠ “change the thing referred to”.
-
-* **F5 - Didactic primacy and naming discipline.**
-  E.8 and E.10 demand patterns that are:
-
-  * teachable (Tell‑Show‑Show examples, explicit biases),
-  * lexically guarded (Tech/Plain split, explicit head‑nouns).
-
-  Slot discipline must integrate seamlessly with that.
-
-* **F6 - Binding‑time talk must be unambiguous.**
-  “Early binding / late binding” is meaningful only if the author states **what is being fixed when**. FPF needs a canonical way to speak about:
-
-  * early/late **slot filling**,
-  * early/late **reference resolution / dispatch**,
-  * and (where a language surface is in play) early/late **name binding**.
-
-### A.6.5:4 - Solution — SlotKind / ValueKind / RefKind triple (plus a slot‑operation lexicon)
-
-#### A.6.5:4.1 - Three layers for every argument position
-
-`U.RelationSlotDiscipline` extends `U.Signature` with a **three‑layer description** for every argument position (whether we call it “parameter”, “slot”, “coordinate”, or “port” in colloquial prose).
-In **normative** text, the canonical word is **slot**, and the canonical carrier is a **SlotSpec** triple (A.6.0).
-
-1. **SlotKind (place in signature).**
-   *How this position is denoted in the Signature and what is fixed about it by the signature’s definition.*

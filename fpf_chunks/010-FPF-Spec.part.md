@@ -1,2350 +1,2510 @@
-| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| **B — Boundary closure**     | The collection is presented under a single conceptual boundary: a name, a unified vocabulary, stable definitions, and a shared symbolic representation. It becomes citable as one thing. | “Can we refer to this with a single name and reliably mean the same thing across the organisation?”      |
-| **O — Objective emergence**  | A unifying explanatory or predictive objective emerges that none of the individual epistemes could satisfy alone. The whole answers a bigger question.                                   | “Does this synthesis let us explain or predict something that the parts could not?”                      |
-| **S — Supervisor emergence** | A set of meta-principles, axioms, invariants, or core values is introduced that *governs* how constituent epistemes are interpreted and composed.                                        | “Is there now a ‘golden rule’ that tells us how the pieces fit together?”                                |
-| **C — Complexity threshold** | The web of parts, exceptions, and interrelations becomes more complex to manage than a unifying abstraction. The meta‑episteme is simpler than the patchwork.                            | “Are we drowning in edge cases and local fixes, such that a single framework is now the simpler option?” |
+-   **Constrained by lexical rules:** This pattern’s content is part of the formal lexicon governance. It works within **E.10 LEX-BUNDLE**, which means the terms _Characteristic, Scale, Coordinate, Level,_ etc., are controlled vocabulary. A.18 localizes some generic requirements from A.17 (for example, A.17 mandates polarity in principle; A.18 requires it be declared per template in practice). It also aligns with external standards: by having explicit scale types and units, it dovetails with ISO/IEC measurement terminology and allows straightforward mapping to frameworks like **ISO 80000 (quantities and units)** and **Stevens’s scale types**. This relation to standards is deliberate – it eases **F.9 (Alignment Bridge)** construction to external ontologies by having a clean internal schema (A.18 provides that schema). In effect, A.18 is where FPF’s internal consistency meets external compatibility, ensuring our measurement semantics can relate to those outside FPF when needed.
 
-When a `Transformer` can provide evidence for all four triggers, it can formally declare a MET, creating a new `U.Episteme` via `emergesAs`.
+### A.18:End
 
-In practice, many METs also involve **X (context rebase)** when vocabulary or definitions change. When that happens, the Promotion Record **MUST** carry `triggers.X?` and satisfy `MHT‑CTX‑MAP` (B.2:5.2).
+---
 
-#### B.2.3:4.3 - Didactic note for managers (informative)
+## A.19 - CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)
 
-> **From a pile of bricks to a cathedral**
-> Before a MET, you have a pile of valuable bricks: reports, models, datasets. Each brick is useful, but they do not yet form a structure.
-> After a MET, a `Transformer` has built a cathedral: a coherent framework with a name (**Boundary**), a purpose (**Objective**), and guiding architectural principles (**Supervisor**).
-> A portfolio becomes capital only when it can be reused as one thing.
+> **Status:** Stable
 
-#### B.2.3:4.4 - Common anti-patterns and how to avoid them (informative)
+### A.19:0 - Reading path for engineer-managers
 
-| Anti-pattern                           | What it looks like                                                                                                        | How FPF prevents it                                                                                                                                                                                                             |
-| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **“Grand unifying narrative” fallacy** | A high-level write-up is called a “new theory”, but it adds no new explanatory principle and no new predictive objective. | The MET declaration requires evidence for **O** and **S**, not just summarisation. Without those triggers, the collection remains an aggregate.                                                                                 |
-| **“Forced marriage” of ideas**         | Conflicting epistemes are merged into an incoherent hybrid.                                                               | A MET is not a mechanical merge. The `Transformer` must supply a supervisory principle that reconciles or contextualises the constituents, and the trust model (B.3) penalises incoherent integration via congruence penalties. |
-| **“Ivory tower theory”**               | A beautiful synthesis is detached from evidence; it produces no testable constraints.                                     | The resulting `U.Episteme` is subject to the same assurance discipline as any other: explicit rebasing (`MHT‑ASS‑REBAS`) and congruence penalties apply; speculative synthesis remains low‑`R_eff` until supported.          |
+> **Informative (navigation only).** This subsection is a didactic index for human readers. It introduces no new norms and does not change governing-pattern assignment.
 
-### B.2.3:5 - Archetypal Grounding
+**When to use this path.** You need to review a CHR-enabled plan or audit, or coordinate engineering work across teams, without deep-diving every CHR mechanism up front.
 
-#### B.2.3:5.1 - System vignette (Tell–Show–Show)
+**Step 1 — Measurement vocabulary: what is measured, and what “comparable” can mean.**
 
-**Tell.** A programme team has many operational dashboards, runbooks, and service metrics. Leaders call it “observability”, but each service still uses incompatible definitions and locally optimised alerts.
+* **A.17** — canonizes the technical anchor **Characteristic** (and retires near-synonyms such as “axis/dimension/feature/property/metric” from normative Tech register).
+* **A.18** — CSLC discipline (**Characteristic / Scale / Level / Coordinate**) as the metrology of interpretability, comparability, and lawful aggregation.
+* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms.
 
-**Show A (pre‑MET).** Each team maintains its own “SLO”, “incident”, and “error budget” episteme; cross-team comparisons are mostly rhetorical, and improvements do not transfer reliably.
+**Step 2 — Ontology and governing spec refs the CHR suite operates on.**
 
-**Show B (post‑MET).** A `Transformer` (a standards group inside the organisation) publishes a single, named reliability doctrine with shared definitions, a unified objective (“predict and reduce user‑visible harm”), and a small set of invariants that govern interpretation (“measure what users experience”, “alerts must be actionable”). The doctrine is treated as one `U.Episteme` that supervises and constrains the constituent local practices.
+* This pattern **A.19** — `U.CharacteristicSpace` and the dynamics hook: the base ontology of measurable coordinates and their spaces.
+* **A.19.CN** — CN‑frame / **CN‑Spec**: the governance card for normalization and comparability routing, indicator policy, aggregation routing, and acceptance; it explicitly points to **C.16** for evidence/backing and to **G.0** for legality gates.
 
-#### B.2.3:5.2 - Episteme vignette (cross-domain table)
+**Step 3 — Legality gates and mechanism shape (what to check when numbers appear).**
 
-| Domain                           | Constituent `U.Episteme`s                                                                                              | Emergent meta-episteme (`U.Episteme`)                                                             | Key trigger evidence (B‑O‑S‑C)                                                                                                                                                                                                                                  |
-| :------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Physics**                      | Lorentz transformations; equivalence principle; Mercury perihelion anomalies; Maxwell’s equations.                     | **General Relativity**.                                                                           | **B:** A single name + coherent formalism. **O:** Gravity as spacetime geometry. **S:** Covariance + equivalence act as supervisory axioms. **C:** Patching classical mechanics became untenable.                                                               |
-| **Software development**         | Iterative development; user stories; daily coordination rituals; continuous integration; pair programming.             | **Agile** as a coherent body of practice.                                                         | **B:** Shared “Agile” boundary and vocabulary. **O:** A unifying objective around adaptability and feedback. **S:** Manifesto values/principles supervise local practices. **C:** Waterfall coordination costs exceeded a threshold.                            |
-| **Business strategy**            | Market analysis; competitor intelligence; capability assessments; technology forecasts.                                | A cohesive **multi‑year corporate strategy**.                                                     | **B:** Single authoritative strategy artefact. **O:** One overarching objective (e.g., leadership in a segment). **S:** Strategic pillars supervise execution plans. **C:** Disconnected departmental plans created unmanageable complexity.                    |
-| **Machine learning (post‑2015)** | Self‑supervised representation learning; attention mechanisms; large‑scale pretraining; prompt‑conditioning practices. | The **foundation‑model paradigm** (general‑purpose pretrained models with downstream adaptation). | **B:** A stable shared name and vocabulary. **O:** General-purpose representations enabling many tasks. **S:** Scaling laws and adaptation protocols supervise model development and use. **C:** Bespoke task-by-task pipelines became too complex to maintain. |
+* **G.0 (CG‑Spec)** — the legality gate for numeric operations and comparisons (SCP, ComparatorSet, MinimalEvidence, Γ_fold, crossings/plane pins). CHR mechanisms cite CG‑Spec; they do not duplicate it.
+* **A.6.1 and A.6.5** — the mechanism norm‑form (`U.Mechanism.Intension`) and slot discipline. Read once so the structure of each mechanism-governing pattern (slots, operators, laws, admissibility guards, audit anchors) is predictable.
 
-### B.2.3:6 - Bias-Annotation
+**Step 4 — The CHR suite boundary and the P2W seam.**
 
-**Lenses tested:** `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`. **Scope:** Universal for MET declarations over `U.Episteme` holons (knowledge synthesis events), not for all MHT types.
+* **A.19.CHR (CHRMechanismSuite)** — focus on:
+  * `A.19.CHR:4.1` (published objects),
+  * `A.19.CHR:4.2.1` (CHR SlotKind lexicon),
+  * `A.19.CHR:4.2.2` (canonical mechanism targets),
+  * `A.19.CHR:4.5` (suite protocols — order/optionality live here, not in `mechanisms[]`),
+  * `A.19.CHR:4.6–4.7.2` (P2W planned-baseline hook and the plan-item shape),
+  * `A.19.CHR:7` (suite conformance checklist).
+* **A.15.3** — `SlotFillingsPlanItem` (planned baseline discipline: planning vs enactment).
+* **E.18 (E.TGA)** — how to express the actual pipeline/flow graph (including crossings) while keeping suite and plan artefacts refs‑only.
 
-* **Gov.** Bias toward explicit responsibility: a named `Transformer` owns the synthesis claim. Mitigation: require a Promotion Record with evidence, so responsibility is auditable rather than merely social.
-* **Arch.** Bias toward structural comparability: MET is forced through the same BOSC trigger skeleton as other MHTs. Mitigation: the trigger interpretations are explicitly epistemic and do not pretend to be operational or physical.
-* **Onto/Epist.** Bias toward clarity about “what the new thing is”: the meta‑episteme is a first‑class `U.Episteme` holon with a supervisory core. Mitigation: avoid implying that synthesis increases truth; it only changes organisation and explanatory structure until evidence raises trust.
-* **Prag.** Bias toward actionability: the “Go/No‑Go” questions are framed for managers who need to allocate funding and ownership. Mitigation: conformance criteria still force evidence binding and do not reduce MET to a narrative decision.
-* **Did.** Bias toward teachability: the “bricks→cathedral” metaphor may over‑romanticise synthesis. Mitigation: anti‑patterns explicitly warn against rhetoric without BOSC evidence.
+**Step 5 — The six CHR mechanism-governing patterns (read one at a time).**
 
-### B.2.3:7 - Conformance Checklist
+Each mechanism-governing pattern below publishes its `U.Mechanism.Intension` card and assumes the measurement-lawfulness base from **A.17/A.18** and **C.16**.
 
-* **CC-B2.3.1 (Transformer mandate):** A Meta‑Epistemic Transition **MUST** attribute the `emergesAs` relation to an explicit external `Transformer` (e.g., a research team, a standards body, a synthesis agent). Constituent epistemes do not self‑organise into a promoted holon.
-* **CC-B2.3.2 (Trigger mandate):** The `Transformer` **MUST** provide a **Promotion Record** (B.2) containing evidence for all four epistemic B‑O‑S‑C triggers.
-* **CC-B2.3.3 (Episteme-holon mandate):** Both the constituents and the resulting meta‑episteme **MUST** be modeled as `U.Episteme` holons.
-* **CC-B2.3.4 (Supervisory principle mandate):** The emergent meta‑episteme **MUST** contain one or more identifiable supervisory principles (axioms, invariants, core values) that govern how its constituents are interpreted and composed.
-* **CC-B2.3.5 (Assurance re-baseline):** Any trust/assurance statement about the post‑MET meta‑episteme **MUST** be evaluated as a claim about a new holon and **MUST NOT** be asserted by silent inheritance from constituent `R` values.
-* **CC-B2.3.6 (Context reframe mapping):** If the MET introduces new primitives/terms or changes definitions, the Promotion Record **MUST** satisfy `MHT‑CTX‑MAP` (B.2:5.2): list concept/unit/terminology mappings with CL levels and record the new `boundedContext` and its CL baseline.
+1. **A.19.UNM** — normalization (CV→NCV, `≡_UNM`, `TransportRegistryΦ`).
+2. **A.19.UINDM** — indicatorization (policy-bound indicator selection; no “NCV ⇒ indicator” shortcut).
+3. **A.19.USCM** — scoring (SCP-first; no implicit UNM).
+4. **A.19.ULSAM** — lawful aggregation (explicit `Γ_fold`; ordinals are not averaged).
+5. **A.19.CPM** — comparison (set-valued outcomes; no silent scalarisation/totalisation).
+6. **A.19.SelectorMechanism** — selection kernel (set-returning; dominance/`PortfolioMode` defaults are policy-bound).
 
-### B.2.3:8 - Consequences
+**Step 6 — Specialization and reuse.**
 
-| Benefits                                                                                                                              | Trade-offs / mitigations                                                                                                                                               |
-| :------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Raises epistemic leverage.** A coherent meta‑episteme makes future reasoning and reuse cheaper and safer than managing a patchwork. | **High cognitive effort.** A MET is not routine. Mitigation: the trigger checklist is intentionally strict so the label is reserved for real synthesis.                |
-| **Creates stable foundations.** A well‑formed meta‑episteme can become a high‑`R_eff` platform for incremental work.                  | **Early fragility.** New syntheses are initially more speculative. Mitigation: conservative assurance and explicit congruence penalties keep trust inflation in check. |
-| **Improves governance.** Ownership, maintenance, and change control become assignable to a single artifact.                           | **Modeling overhead.** Promotion Records take time. Mitigation: the cost is paid once, and prevents repeated “reinvent the framework” cycles.                          |
-| **Guides innovation.** BOSC becomes a deliberate target for R&D teams (“what would count as a unifying supervisor?”).                 | **Risk of rhetoric.** Synthesis can be oversold. Mitigation: anti‑patterns and conformance criteria explicitly block narrative‑only declarations.                      |
+* **E.20** — how to use specializations of mechanisms (`⊑` / `⊑⁺`) without breaking SlotKind meaning or introducing hidden inputs; consult this whenever you see project‑ or domain‑specific variants of the CHR mechanisms.
 
-### B.2.3:9 - Rationale
+**Fast review entry points.**
 
-The most important leaps in human capability often come from re‑organising knowledge, not from adding more facts. MET is the architectural name for that re‑organisation.
+* If you are reviewing a plan: start from **A.19.CHR:4.6–4.7.2** (planned baseline hook + plan item shape) and **A.15.3** (what a planned baseline may/may not contain).
+* If you are reviewing semantic drift: start from **A.19.CHR:4.2.2** (canonical targets), then use **E.10** (suffix discipline) and **F.18** (alias docking) to preserve public continuity while fixing terminology.
+* If you are reviewing conformance: start from **A.19.CHR:7** (suite checklist), then consult the relevant **A.19.<MechId>** checklist(s) for mechanism-level conformance; use **E.19** for the review protocol.
 
-By defining a Meta‑Epistemic Transition using observable triggers and an explicit `Transformer`, FPF gives a rigorous, non‑mystical account of paradigm‑level synthesis. It ensures that “unification” is not merely a rhetorical flourish, but a declared event with auditability and downstream governance consequences.
+**Non‑duplication note.** This pattern defines `U.CharacteristicSpace` and the typing hook `U.Dynamics.stateSpace`. It reuses the canonical measurement concepts (`U.Characteristic`, **CSLC** terms) from **A.17/A.18** and remains notation‑neutral about storage/IDs.
+This pattern is intentionally **not** a second governing pattern for CHR mechanisms: it may *use* CHR‑mechanism terms when talking about comparability and certification, but it does so strictly by *Tell + Cite* to the corresponding `A.19.<MechId>` mechanism-governing patterns.
 
-### B.2.3:10 - SoTA-Echoing
+**Governing-pattern rule (Normalization & CHR mechanisms referenced here).** This pattern **MUST NOT** be a second governing pattern for CHR‑mechanism vocabulary.
+- **Normalization vocabulary + admissibility** (UNM vocabulary items: `UNM`, `NormalizationMethod`, `NormalizationMethodDescription`, `NormalizationMethodInstance`, **NCV**, **≡_UNM**, `NormalizationFix`; κ-retirement; “map vs Map” lexical guard) are governed normatively by **A.19.UNM**.
+- **Indicatorization vocabulary + admissibility** (UINDM vocabulary items: `IndicatorChoicePolicy`, `Indicator`, `IndicatorSet`, indicatorization as a policy step; “NCV ⇒ indicator” prohibition) are governed normatively by **A.19.UINDM**.
+- **Other CHR mechanism vocabulary referenced here** (e.g., scoring, aggregation, comparison, and selection terms) is governed normatively by the corresponding mechanism-governing pattern in the `A.19.<MechId>` family (e.g., `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`).
+- **Evidence/calibration backing** for normalization is governed by **C.16 (MM‑CHR)**.
+- **CN‑Spec field/ref bindings** (`CN_Spec.normalization`, `CN_Spec.comparability.*`) are governed by **A.19.CN (CN‑Spec)**.
+- **Vocabulary extension rule.** If this pattern needs a new term for normalization, indicatorization, scoring, aggregation, comparison, or selection, it SHALL be introduced in the corresponding mechanism-governing pattern first, then cited here (*Tell + Cite*). A.19 SHALL NOT mint new CHR‑mechanism vocabulary.
 
-This section aligns MET with post‑2015 state‑of‑the‑art practice in evidence synthesis, knowledge representation, and science‑of‑science.
+**Terminology pointer (informative; do not duplicate).** When A.19 uses normalization or indicatorization terms below, it uses them *by reference* to **A.19.UNM** and **A.19.UINDM** and **C.16**. This pattern only constrains how such normalization method instances or declarations are **cited** when doing state‑space comparability, embeddings, and certification.
 
-| Claim (MET need)                                                | SoTA practice                                                                             | Primary source (post‑2015)                                                                                 | Alignment with MET                                                                                                                                                                             | Adoption status                                                                                                    |
-| :-------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| Synthesis must be auditable, not rhetorical.                    | Structured evidence-synthesis reporting and traceability norms.                           | PRISMA 2020 / PRISMA 2020 Statement (Page et al., 2021).                                                   | MET’s Promotion Record mirrors the idea that a synthesis claim needs explicit evidence and structure, but goes beyond reporting by requiring BOSC triggers and a supervising core.             | **Adopt/Adapt.** Adopt traceability discipline; adapt by adding BOSC and explicit `Transformer` attribution.       |
-| A synthesis should be continuously maintainable, not “one‑off”. | Living systematic reviews / living guidelines (continuous updating under evidence drift). | Living systematic review methodology (e.g., Elliott et al., 2017; and later living-review guidance).       | MET’s governance consequence (“assign ownership and maintenance”) matches the living-review premise: the synthesis is a managed asset, not a static report.                                    | **Adapt.** Same maintenance intent; MET is broader than health-science review protocols.                           |
-| Knowledge should be representable as composable claim networks. | Scholarly knowledge graphs capturing claims, evidence, and relations.                     | Open Research Knowledge Graph (ORKG) work (e.g., Jaradeh et al., 2019 and follow-on primary publications). | MET treats the resulting synthesis as a new `U.Episteme` holon that supervises constituents; claim‑graph representations are compatible as carriers, but MET adds explicit emergence criteria. | **Adopt/Adapt.** Adopt claim-network representation; adapt by requiring BOSC evidence for promotion.               |
-| Paradigm-level shifts have measurable structural signatures.    | Science‑of‑science models of how fields reorganise and consolidate.                       | “Science of science” synthesis (Fortunato et al., 2018).                                                   | MET’s **C** trigger (“complexity threshold”) and **B** trigger (“boundary closure”) correspond to consolidation signatures, while MET insists on explicit responsibility via `Transformer`.    | **Adapt.** Use the descriptive lens as grounding, but keep the MET declaration normative and responsibility‑bound. |
+**Reader map (informative).**
+* If you need the **meaning** of `UNM`, `NCV`, `≡_UNM`, or `NormalizationFix` or `NormalizationFixSpec`: see **A.19.UNM**.
+* If you need the **meaning** of `IndicatorChoicePolicy` / indicatorization: see **A.19.UINDM**.
+* If you need the **CN‑Spec field/ref bindings** (`CN_Spec.normalization`, `CN_Spec.comparability.*`): see **A.19.CN**.
+* If you need **evidence/calibration backing** for normalization or scoring legality: see **C.16 (MM‑CHR)**.
+* If you need **cross‑context alignment mechanics**: see **F.9 (Alignment Bridge)** and the `Transport` discipline (A.6.1).
 
-### B.2.3:11 - Relations
+### A.19:1 - Intent & Scope (Normative)
 
-* **Is a specialization of:** `B.2 Meta-Holon Transition (MHT)`.
-* **Builds on:** `B.2.1 BOSC Triggers` and the `B.2` Promotion Record.
-* **Is complemented by:** `B.2.2 MST (Sys)` (system emergence) and `B.2.4 MFT` (capability emergence).
-* **Is performed by:** An external `Transformer` (A.12) executing an abductive synthesis (see B.5.2 for abductive moves).
-* **Produces:** A new `U.Episteme` whose trust/assurance is governed by `B.3 Trust & Assurance Calculus`.
+**Intent.** Establish a **kernel‑level state‑space type**—`U.CharacteristicSpace`—so that any holon’s **state changes** (e.g., a system’s condition or a role’s readiness) can be formalized as **trajectories in a space of declared Characteristics with chosen Scales**. For **epistemes**, state is governed by **ESG**; **F–G–R** are **assurance coordinates**, not a state space. This gives every `U.Dynamics` model a well‑typed `stateSpace` and enables formal state certification (using RoleStateGraph checklists) instead of narrative stage transitions.
 
-### B.2.3:End
+**Scope.** Pattern A.19 **defines**:
+
+-   the **type** `U.CharacteristicSpace` as a finite product of **slot value sets** (per A.18),
+-   the **slot** construct for each factor (a pairing of a **Characteristic** with a chosen **Scale**),
+
+-   minimal **structural overlays** (optional **order**, **topology**, **metric** hooks) that downstream patterns _may_ attach to a space, and
+
+-   the **hook** `U.Dynamics.stateSpace : CharacteristicSpace` – i.e. the requirement that any dynamics model declare a CharacteristicSpace for its state space (typing only).
 
 
-## B.2.4 - Meta-Functional Transition (MFT)
+A.19 **does not** introduce any new measurement aspects, composite metrics, or **normalization semantics** (governed by **A.19.UNM**, with evidence/calibration under **C.16 (MM‑CHR)**), and it does not define how dynamics evolve over time or any predictive laws (see **A.3.3** for dynamics semantics). The focus here is purely on the _structure of state spaces_ and their comparability.
 
-### B.2.4:1 - **Problem Frame**
+**Space-vs-consumer boundary.** Use A.19 to declare the **`CharacteristicSpace` itself**: its slots, its optional overlays, and the `U.Dynamics.stateSpace` typing hook. Do **not** use A.19 to declare consumer-side ref positions that merely point to a declared space, and do **not** use it to declare relation kinds between several such refs. Accordingly, one field such as `...SpaceRef` is a reference to a declared `CharacteristicSpace`, not a second space kind, not a slot alias inside that space, and not a role claim. If a line needs search-side versus outcome-side positions over declared spaces, one explicit relation between those refs, one source-surface bridge, or one `A.19.SUPPORT-VIEW` reading over an already-declared substrate-bearing line, source surface, or set surface, declare that in the pattern or surface that uses the space rather than in A.19 itself.
 
-The FPF framework provides distinct patterns for the emergence of new systems (`MST` for `U.System`s) and the synthesis of new knowledge (`MET` for `U.Episteme`s). However, a third, equally critical form of emergence occurs in the operational domain: the evolution of **capability**. Holons, particularly `Transformer`s executing `AgentialRole`s, do not just exist or represent knowledge; they *act*. These actions are guided by `Method`s, which represent their capabilities.
+**Lexical guard (“map”).** Follow the normalization lexical discipline governed by **A.19.UNM**. In this pattern, lowercase **map** is used only in the mathematical sense, while capitalized **Map** retains its Part‑G suffix meaning (e.g., `DescriptorMap`). Do not mint new normalization terminology here.
 
-Initially, an organization or an autonomous system might possess a portfolio of simple, disconnected methods—individual skills or atomic operational procedures. For example, a software team has separate methods for writing code, running tests, and deploying artifacts. A manufacturing system has distinct methods for milling, drilling, and painting. These are executed as discrete tasks, often with manual hand-offs and coordination.
+**Lexical guard (“carrier”).** In kernel prose, **Carrier** (capitalized) names `U.Carrier` (a **symbol bearer**). Do **not** use “carrier” for set‑theoretic supports; prefer **ValueSet**/**underlying set**. A.19 therefore uses **ValueSet(slot)** for the set that supplies values to a slot.
 
-However, through learning, automation, and process refinement, a collection of these simple functions can crystallize into a single, cohesive, and often adaptive composite `U.Method`. This emergent capability is more than just a sequence of the original steps; it possesses its own internal logic, objectives, and regulatory mechanisms. FPF formally calls this event a **Meta-Functional Transition (MFT)**. It is the birth of a new, integrated operational capability.
+### A.19:2 - Context (Informative)
 
-### B.2.4:2 - **Problem**
+FPF’s kernel already standardizes **what** is measured (a **Characteristic**, per A.17) and **how** it is measured (a **Scale** with units, via the **CSLC** Standard in A.18). We also have a measurement substrate (`U.DHCMethodRef`, `U.Measure`) to handle individual observations. What has been missing for modeling **dynamics** is a canonical “Context” in which **multiple Characteristics** can co-exist so that complex **states** (with many aspects) and their **trajectories** are well-typed and comparable. Without a formal CharacteristicSpace, teams either hard-code ad-hoc vectors (often with inconsistent assumptions) or fall back to informal lifecycle stories (“phases” or stages) that contradict the kernel’s open-ended, non-linear evolution paradigm. The Architectural patterns (A-cluster) expect that `U.Dynamics.stateSpace` will be a set of **declared Characteristics each with a declared Scale**. Pattern A.19 delivers exactly this capability, leveraging the CSLC measurement discipline without reinventing any arithmetic or unit-handling logic.
 
-If we lack a formal concept to describe the emergence of integrated capabilities, our models of complex operations remain fundamentally incomplete. We can describe the parts and the raw materials, but not the "well-oiled machine" itself. This conceptual gap leads to several severe, practical problems:
+### A.19:3 - Problem (Informative)
 
-1.  **Capability Blindness:** The model cannot distinguish between a "bucket of skills" and a true "integrated capability." A team that can perform tasks A, B, and C independently is modeled identically to a high-performance team that has mastered a new, synergistic workflow combining A, B, and C. The emergent value created by integration remains invisible and unmanageable.
-2.  **Siloed Optimization and Global Sub-optimization:** Without a formal representation of the composite `U.Method`, improvement efforts inevitably focus on the individual steps. A team might spend weeks making `Method_A` 10% faster, while the real bottleneck lies in the manual, error-prone hand-off between `Method_A` and `Method_B`. The team is locally efficient but globally ineffective.
-3.  **Implicit Coordination and "Tribal Knowledge":** The critical coordination logic that weaves simple methods into a complex, adaptive workflow remains unstated. It lives in the heads of a few key individuals or is buried in un-documented scripts. This "tribal knowledge" is impossible to audit, transfer to new team members, or reliably improve. When a key person leaves, the emergent capability dissolves.
-4.  **Inability to Govern Complex Workflows:** Without a formal holon representing the entire workflow, it is impossible to assign a clear owner, define end-to-end performance objectives, or create an assurance case for the workflow's reliability as a whole.
+-   **P1 — “Feature vector” drift.** In practice, teams often assemble state vectors or “feature” lists with implicit or mismatched units and scales. Without a formal space, one coordinate’s value can’t safely be compared or combined with another’s (e.g. mixing degrees Celsius with percentages). **CSLC** guarantees consistency **per Characteristic**, but a bundle of multiple “characteristics” remains under-specified if we lack a unified space definition.
 
-### B.2.4:3 - **Forces**
+-   **P2 — Lifecycle bias.** Absent a formal state space, system change tends to be described in terms of fixed **stages or phases** (design phases, maturity levels, etc.). This conflicts with FPF’s **open-ended** stance: in FPF a role’s state model (RSG) allows re-entry and refinement of states rather than one-way lifecycle stages with an “end.” We need a space model that treats evolution as continuous movement, not a one-directional sequence.
+
+-   **P3 — Incoherence across CN‑frames.** Different modeling “CN‑frames” (architecture vs. epistemic vs. operational) often choose different sets of qualities to measure (different sets of characteristics). Later, however, we may need to **compose** these models or **project** one into another. Without a kernel notion of how one state space can be a **subspace** of or **embedded** in another, any integration of models will be ad hoc and error-prone.
+
+-   **P4 — Relational measurements.** Some Characteristics are inherently **relational** (e.g. a _Coupling_ between two components, or _Distance_ between points). Naïvely forcing such traits into a single-object feature vector loses critical information (arity, symmetry). The kernel already distinguishes single-entity vs multi-entity Characteristics (A.17); we must preserve that distinction in the state space so that a relational metric isn’t treated as an intrinsic one by mistake.
+
+-   **P5 — The geometry temptation.** When defining a state space, it’s tempting to assume or inject additional structure (ordering of states, topologies for continuity, metrics for distance) as if inherent. But the kernel must remain minimal and domain-neutral: it should not **smuggle in** analysis methods or domain-specific norms under the guise of geometry. Any such structure should be added explicitly by specialized patterns, not baked into the core definition of a space.
+
+
+### A.19:4 - Forces (Informative)
+
+-   **F1 – CSLC integrity at scale.** When combining multiple measurements into a state, we must uphold the **CSLC discipline** for each component: each coordinate has a defined Characteristic, Scale type, unit, and (if applicable) polarity. We need to do this without redefining or duplicating that single-characteristic integrity – the multi-dimensional space should simply enforce CSLC per slot.
+
+-   **F2 – Transdisciplinarity & lexical clarity.** The state space framework must work for **quantitative physical metrics** (ratio scales, continuous units), **qualitative assessments** (ordinal scales, tiers), and mixtures thereof. It must not be biased toward one domain’s notion of measurement. At the same time, to avoid confusion, the **lexicon must remain canonical**: we use _Characteristic_ (not “axis/dimension”) as the formal term for a measured aspect, regardless of domain, per A.17’s naming convention.
+
+-   **F3 – Arity and semantics.** Lifting various Characteristics into a unified space should not obscure their nature. If a Characteristic is defined as a relation (multi-entity property), the state space must represent it appropriately (e.g. as a coordinate that is a tuple or a symmetric relation) rather than flattening it into an unrelated scalar. Entity-specific vs relational properties must remain clear in the space’s structure.
+
+-   **F4 – Minimal core, extensible further.** The kernel should provide only the **bare essentials**: a carrier for state with proper typing. It should be possible to impose additional structure like order, topology, or metrics _if and when needed_ by downstream theories, but these must be **optional overlays**. The core space definition should be minimalistic to allow broad use, yet capable of extension for advanced needs.
+
+-   **F5 – Composability of spaces.** We need well-defined operations to **project** a state space to a subspace (dropping some Characteristics), **embed** one space into a larger space (mapping coordinates from one context to another), and take **products** of spaces (combining different state spaces into a joint space). These operations are crucial for composing sub-models, comparing alternatives, or aligning different “CN‑frames” (for example, linking an architectural model’s state space with a metrics model’s space). The approach must support such composition in a principled way.
+
+-   **F6 – Alignment with RSG (state machines).** In FPF, formal **state certification** is done via checklists on RoleStateGraphs (A.2.5). Our state space concept must complement that: i.e. the **state** of a holon remains an **intensional** concept (defined by criteria), but those criteria are evaluated against the measurable **coordinates** in a CharacteristicSpace. The design must allow checklists to map observed coordinates to named states and enable re-certification as states evolve, rather than locking states into a static progression.
+
+
+### A.19:5 - Solution
+
+#### A.19:5.1 - `U.CharacteristicSpace`
+
+##### A.19:5.1.1 - Type signature
+
+Let **I** be a finite index set labeling a collection of **slots**. Each **slot** _i_ (for _i ∈ I_) is defined as a pair:
+
+> **`slot_i = (Characteristic_i, Scale_i)`**,
+
+where:
+
+-   `Characteristic_i` is a `U.Characteristic` (with an explicit arity, i.e. either an entity-Characteristic or a relation-Characteristic as defined in A.17), and
+
+-   `Scale_i` is a chosen **Scale** for that Characteristic (with a specified scale type and unit, per A.18 and the MM‑CHR rules).
+
+Then a **CharacteristicSpace** (CS) is formally the Cartesian product of all slot **value sets**:
+
+$\mathbf{CS} = \prod_{i \in I} \mathrm{ValueSet}(\mathrm{slot}_i)\,.$
+
+In other words, a point (state) in the space consists of one coordinate value for each slot. A **state** _x_ in CS can be seen as a total function _x(i)_ that picks a value from each slot’s **ValueSet** (for every _i ∈ I_, _x(i) ∈ ValueSet(slot\_i)_). By kernel mandate, any `U.Dynamics.stateSpace` **SHALL** be bound to some instance of `CharacteristicSpace`, and all states or trajectories described by that dynamics model **MUST** lie within that space’s **value set**. (The actual dynamic **laws** and time progression are handled in A.3.3; A.19 only defines the state‑space container and its properties.)
+
+##### A.19:5.1.2 - Slot discipline (invariants)
+
+To ensure consistency and comparability, a CharacteristicSpace must obey the following invariants:
+
+-   **A19-CS-1 (Exactly one per slot).** Each slot **binds exactly one** Characteristic to **exactly one** Scale (including a specific Unit or kind, if applicable). This mirrors the CSLC clause of “one aspect – one scale”: there are no ambiguous or compound mappings in a single slot. (If a Characteristic can be measured on multiple scales, only one is chosen for a given space; others would require separate slots or a different space.)
+
+-   **A19-CS-2 (Named basis).** A CharacteristicSpace **SHALL** publish an ordered list of its slots as its **basis**. Each slot in the basis has a stable identifier (or key) that can be used in technical notations, interfaces, data structures, or APIs. These basis names should be treated as stable technical tokens (identifier-like); any human-friendly alias or description for a slot should be provided only in the Plain register as a non-normative aid (per E.10). In short, the identity and order of slots in the space are explicit and stable.
+
+-   **A19-CS-3 (Immutability of meaning).** Once a space is in use, the meaning of each slot is fixed. A slot’s `(Characteristic, Scale)` pair **MUST NOT** be retroactively altered. If requirements change (e.g. a different scale or a revised definition of the Characteristic), one **MUST** define a new version of the space (or a new slot) rather than silently changing the existing one. When a space is versioned or a slot replaced, an explicit **embedding** (mapping from the old space to the new space) should be published to relate historical states to the new coordinates. This ensures past data remains interpretable and prevents semantic drift.
+
+-   **A19-CS-4 (Arity preservation).** If a `Characteristic_i` is defined as a **relation** (multi-entity characteristic), then slot _i_ represents a relationship among multiple entities. The coordinate value at such a slot is a **tuple** (with the appropriate entity types) rather than a simple scalar. The slot’s declaration **SHALL** indicate the relation’s symmetry or directionality as part of its meaning (this should align with how the Characteristic was originally defined in its template). In essence, relational Characteristics retain their arity in the space, so that we don’t confuse, say, “Coupling between X and Y” with an intrinsic property of X or Y alone.
+
+ -  **A19-CS-5 (No hidden normalizations or aggregations).** A CharacteristicSpace itself carries **no implicit normalizations or formulas** for combining coordinates. It is a _descriptive_ structure, not a scoring mechanism. Any computation that combines or transforms coordinates (e.g., **normalizing**, **indicatorizing**, **scoring**, **Γ‑folding**, **comparing**, or **selecting**) must be defined outside the core space—typically as an explicit **CHR mechanism step** and cited from its designated mechanism-governing pattern (`A.19.UNM`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`).
+   *Normalization semantics and admissibility* are governed by **A.19.UNM**; *evidence/calibration backing* is governed by **C.16 (MM‑CHR)**.
+   In particular, any handling of **polarity** (which way “better” is), weighting, or cross-slot aggregation happens in those external mechanisms/policies, not inside the space definition. The space provides the raw coordinates; the logic to interpret or aggregate them is added by domain‑specific layers with explicit disclosure of how it’s done.
+
+ - **A19-CS-6 (Slot meta completeness).** Where applicable, each slot **SHALL** declare `admissible_domain` and **missingness semantics** (e.g., codes for *missing*, *censored*, *not-applicable*), consistent with the Characteristic’s Scale and with MM‑CHR. This prevents silent domain drift and clarifies how absent values participate in predicates and comparisons.
+
+ - **A19-CS-7 (Space-vs-consumer boundary).** A `CharacteristicSpace` publishes only its own slot basis, optional overlays, and typing hooks. Ref-typed consumer fields that point to a declared space, explicit relation kinds between such refs, source-surface wiring, support-view organization, and publication metadata are **outside** the space object and **MUST** be declared in the pattern or surface that uses the space. This prevents `CharacteristicSpace` from being silently widened into ref-position semantics, selector semantics, source-surface semantics, publication-form semantics, or support-view semantics.
+
+##### A.19:5.1.3 - Minimal structure hooks (optional overlays)
+
+By default, a CharacteristicSpace has no assumed ordering or metric structure – it is just a Cartesian product of value sets. However, a space **MAY** declare certain structural attributes _as opt-in metadata_ (i.e. informative annotations that patterns can rely on, but not enforced by the kernel). These optional **overlays** include:
+
+-   **Product topology.** A **topology** on the space, typically the product topology when slots that are quantitative (interval or ratio scales) need continuity considerations. Declaring a topology is useful if continuity or convergence arguments are relevant (e.g. to say a sequence of states approaches a limit state). By default, without declaration, no topological structure is assumed on the space.
+
+_Lexical note:_ Here **“distance metric”** strictly means a mathematical distance function (or a generalized distance such as a **pseudometric** or **quasi‑metric**) on the state space. This is **not** to be confused with *metrics* as performance measures in MM‑CHR. In the **Tech** register, avoid the noun **metric**; refer to **`U.DHCMethod`/`U.DHCMethodRef`** for measurement templates (see **C.16**). Any distance overlay on a CharacteristicSpace must not conflict with scale semantics; it is an additional analysis structure, not a redefinition of measurement meaning.
+
+These overlays are entirely **optional** and have no effect on the core meaning of the space – they exist only to support particular needs (like making **dominance**, **continuity**, or **distance** reasoning possible) in models that require them. If needed, they should be added deliberately by an architectural theory rather than assumed. This way, any ordering or metric properties of states are made **explicit** instead of relying on hidden or default arithmetic. _(Rationale:_ The CSLC and MM‑CHR rules already govern what operations are allowed on each scale; A.19’s approach is to let neighboring theories add an order, topology, or metric when appropriate, so nothing is taken for granted tacitly in multi-dimensional arithmetic._)_
+
+##### A.19:5.1.4 - Dynamics hook (typing only)
+
+Any model of change or dynamics in FPF must declare the state space it operates over. Formally, `U.Dynamics.stateSpace` **SHALL** be specified as a reference to a `CharacteristicSpace`. This creates a typing obligation: the dynamic model can only produce states (and trajectories of states) that lie in the given space. All predicates or predictions in such a dynamics model are understood to **quantify over** sequences of points in that CharacteristicSpace (with time semantics governed by A.3.3’s time base and laws). **Note:** A.19 defines only the structure of the state space; it deliberately **does not** fix any time base or dynamic law. Those remain the responsibility of the dynamics pattern (A.3.3). A.19 simply ensures there is a well-defined space in which states live, so that dynamics are decoupled from any narrative “stage” and instead treat evolution as movement through this space.
+
+##### A.19:5.1.5 - Lexical discipline (Normative)
+
+In all **normative references, definitions, and identifiers** related to this pattern, the specification uses the canonical measurement terminology: **Characteristic**, **Scale**, **Level**, **Coordinate**, **CharacteristicSpace**, **slot**, **basis**. Legacy terms like “axis”, “dimension”, or “point” are **forbidden** in Technical/Formal registers of the spec (per A.17’s lexical rules). They may appear _at most once_ in explanatory **Plain** language as mapped aliases to aid understanding (and if used, must be explicitly identified as equivalent to the official terms). In this pattern, we consistently use “slot” or “basis element” (never “axis”) to refer to a component of a space, and “Characteristic” (never “dimension”) to refer to the measured aspect. This lexical discipline ensures clarity and consistency across the framework (see A.17 and C.16 L-rules for the formal policy on terminology).
+
+##### A.19:5.1.6 - Quotients & NormalizationFix (Normative)
+
+**Governing-pattern note.** `≡_UNM` and `NormalizationFix` are defined in **A.19.UNM**. This section constrains only how they are **cited** when used in state‑space reasoning.
+
+**Design rule — read invariants, not labels.** Any checklist, acceptance predicate, or comparability claim over a CharacteristicSpace **SHALL** be evaluated on **quotients by ≡_UNM** (or on explicitly **Normalization‑fixed** charts), not on raw labels.
+**Design rule — read invariants, not labels.** Any checklist, acceptance predicate, or comparability claim that depends on representation choice (chart, unit, reference plane, or normalization route) **SHALL** be evaluated on **quotients by ≡_UNM** (or on explicitly **Normalization‑fixed** charts), not on raw labels.
+
+*Minimal obligations:*
+1) **Name the quotient or fix.** If a checklist predicates over a **normalization‑variant** property, it **MUST** name the **NormalizationFix** (including the referenced **UNM** and the relevant `NormalizationMethodInstance`(s), by reference) and thus the **≡_UNM** class.
+2) **Declare NormalizationMethod class.** Every normalization used **MUST** name its method‑class token and validity window **as defined in A.19.UNM** (do not restate the class taxonomy here).
+3) **Join/equality only on invariants.** Equality checks and joins across spaces **MUST** target invariant forms (the **≡_UNM** quotient or a declared **Normalization‑fixed** representation), never raw un‑fixed coordinates.
+
+##### A.19:5.1.7 - Metric discipline & calibration (Normative)
+
+Use the **weakest safe structure** required by the argument (pre‑order → semi‑metric → metric).
+* **If a distance overlay is declared**, any acceptance predicate or KPI defined over a CharacteristicSpace **SHALL be non‑expansive** (Lipschitz ≤ 1) w.r.t. the published `d` on the **declared domain** (raw coordinates or NCVs, as specified), or else state an explicit margin that absorbs any expansion.
+* **If only an order overlay is declared**, any acceptance predicate/KPI **SHALL be isotone** w.r.t. the declared product order.
+
+*Minimal obligations:*
+1) **Publish the metric (if used).** If a distance overlay is used, the space **MUST** publish the distance function `d` (including any weights/parameters) and its declared domain of applicability.
+2) **Bound expansion.** Any acceptance predicate/KPI that relies on `d` **MUST** be shown **non‑expansive** (Lipschitz ≤ 1); otherwise an explicit **expansion bound** and compensating **margin** **MUST** be stated.
+3) **State error & commutation.** If a metric is used together with **NormalizationFix**, the specification **MUST** state (a) the maximum tolerated measurement/calibration error and (b) whether `d` **commutes** with the **NormalizationFix** (or provide a disclaimer and additional guard if it does not).
+
+#### A.19:5.2 - State Spaces & Comparability
+
+> **Memory hook:** _We compare **only what lies in the same space** (or is translated into a common space via a declared mapping), and we only certify a holon’s **state** based on **observable coordinates** in that space (using a defined checklist). Anything else is just storytelling._
+
+To make state-space reasoning practical across different contexts and models, this section provides the key **operators and criteria** related to CharacteristicSpaces:
+
+1.  **Space operations** – how to derive a **Subspace**, establish an **Embedding**, or form a **Product** of spaces. These enable us to restrict a space to fewer slots, to map one space into another (with unit conversions, etc.), or to combine spaces (e.g. for composite models).
+
+2.  **Comparability regimes** – two allowable ways to compare states: (a) **coordinatewise**, which requires strict sameness of space and units; or (b) **normalization-based**, which uses declared transformations to reconcile differences. We define when each applies and how to apply it properly.
+
+3.  **RSG integration** – how formal **state certification** (via checklists in a Role’s state graph) ties into the CharacteristicSpace: ensuring that whenever we declare a system “Ready” or “Degraded”, it’s based on snapshot coordinates in a space. We also outline how to push or pull state definitions along space embeddings (so different contexts can translate states).
+
+4.  **Archetypal examples** – “worked mini-schemas” illustrating typical usage in complementary CN‑frames (Operational, Assurance, Alignment). These examples show minimal models mixing entity and relational slots, how data might be structured, and how cross-context alignment works in practice.
+
+
+> **Terminology note:** We often denote a CharacteristicSpace abstractly as **CS**. Formally, one can describe a CS as a tuple `⟨I, basis⟩` where _I_ is the index set of slots and _basis_ is the set (or ordered list) of `slot_i` pairs. When a CharacteristicSpace is attached to a specific **Role** in a specific **Context** (see A.2, A.2.5), we may call it an **RCS** (Role CharacteristicSpace) – essentially the state space for that role’s state machine within that bounded context. Individual **states** of a role live in an RSG (RoleStateGraph, A.2.5), and a **StateAssertion** is a certified claim that at a given time window, the holon’s RCS coordinates satisfy the checklist for a particular state.
+
+##### A.19:5.2.1 - CS Operators (notation-neutral, context-local)
+
+To support model composition, we define operations on CharacteristicSpaces in a notation-independent way (so these can be implemented in any tooling or notation). All these operations are assumed to occur **within a single context** (within one `U.BoundedContext`) unless otherwise noted:
+
+###### A.19:5.2.1.1 - Subspace – **Projection** `π_S : CS → CS|_S`.
+Given a CharacteristicSpace CS with basis _I_ (slots) and a chosen subset of slot indices $S \subseteq I$, one can form the **subspace** $CS|_S$ which includes only the slots in _S_ and omits all others. The projection map `π_S` takes any state _x_ in the original space and **projects** it onto the coordinates indexed by _S_, effectively discarding the other coordinates. This operation is straightforward: if $S = \{i_1, i_2, … \}$, then $CS|_S$ has those slots, and any state in $CS|_S$ corresponds to a state in CS with the other coordinates ignored.
+**Properties:** Projection is **idempotent** (`π_S ∘ π_S = π_S`) and, if an order or other structure is defined solely on the subspace’s slots, `π_S` preserves that structure (e.g. it will reflect any order that depends only on slots in _S_).
+
+###### A.19:5.2.1.2 Embedding – **Injection** `ι : CS₁ ↪ CS₂`.
+An **embedding** is a structure-preserving **injection** from one space CS₁ into another space CS₂. It consists of two parts: (a) an injective **slot correspondence** from CS₁ to CS₂, and (b) (only where needed) cited **normalization instances** that make the correspondence semantically safe. Formally, let CS₁ have basis _I₁_ and CS₂ have _I₂_. An embedding declares an injective function _m: I₁ → I₂_ that identifies each slot of CS₁ with a corresponding slot in CS₂.
+
+For each slot _i ∈ I₁_ where the scale/unit differs from the target slot _m(i)_ in CS₂, the embedding **MUST cite** a `NormalizationMethodInstanceId` (per **A.19.UNM**) that re‑expresses values from `ValueSet(slot_i)` into `ValueSet(slot_{m(i)})` within the declared invariants and validity window. The embedding does **not** define normalization semantics; it only references the required instances.
+
+Intuitively, an embedding says: “Any coordinate tuple from CS₁ can be interpreted as a coordinate tuple in CS₂, possibly after converting units or re‑scaling, and without losing any information except what the declared **NormalizationMethods** intentionally **coarse‑grain**.” If there is no loss at all (**NormalizationMethods** are identity or strict conversions), the embedding is essentially an inclusion of one space into a larger one; if there is some information loss (e.g., converting a fine‑grained scale to a coarse one), that loss is explicit in the **NormalizationMethodDescription**. **Locality:**
+
+Embeddings are defined **within a single `U.BoundedContext`** (i.e., both CS₁ and CS₂ are in the same context). Using an embedding across contexts requires an **Alignment Bridge** (see F.9) and **MUST** be declared via the relevant mechanism’s **A.6.1 Transport** clause (BridgeId + channel + `ReferencePlane(src,tgt)` + any `CL^plane`; no implicit crossings).
+
+**Normalization declaration duties (MUST):** Each cited `NormalizationMethodInstanceId` **MUST** satisfy the declaration/admissibility obligations governed by **A.19.UNM** (incl. method‑class token and validity window). If such normalization method instances or declarations are used for gating or assurance, their evidence/calibration backing and waiver rules are governed by **C.16 (MM‑CHR)**. In other words, you cannot assume one context’s space fits into another’s without an explicit Bridge; any attempt to do so must treat it as a cross‑context alignment with potential loss.
+
+###### A.19:5.2.1.3 Product – **Combination** `CS₁ ⊗ CS₂ = CS⊗`.
+The **product** of two spaces CS₁ and CS₂ is a new space **CS⊗** that effectively contains all slots of CS₁ and all slots of CS₂. If CS₁ has index set _I₁_ and basis slots {slot₁…} and CS₂ has _I₂_, then $CS⊗$ has index set $I\_⊗ = I₁ ⊎ I₂$ (disjoint union) with each slot’s definition carried over from its original space. In practical terms, any state in the product space is a pair _(x₁, x₂)_ where _x₁_ is a state of CS₁ and _x₂_ is a state of CS₂ (assuming the two spaces pertain to possibly different aspects or roles). **Use cases:** Product spaces allow modeling **multi-role scenarios** or bundling an entity’s state with some environmental or contextual state. For example, one might take a space of internal capability metrics and ⊗ with a space of external conditions to form a combined space for “readiness under conditions.” **Note:** When combining scores or coordinates from a product space, one must be mindful of scale incommensurability. Cross‑slot aggregation **SHALL** proceed only via a declared **Γ‑fold** (B.1) and, where needed, explicitly declared **NormalizationMethods**; naïve arithmetic is forbidden. The product operation itself doesn’t perform any aggregation; it only sets the stage.
+
+##### A.19:5.2.2 - Comparability of **States** (two admissible regimes)
+
+A **state label** like "Ready", "Authorized", "Degraded", etc., in an RSG is an intensional category (defined by a checklist of conditions – see A.2.5). Determining whether the **states of two holons** are comparable (e.g. whether one is “better” or “worse” than the other in some multi-criteria sense) depends on **where** their state coordinates live and **how** we map those coordinates to a common basis. There are two admissible comparability regimes in FPF:
+
+###### A.19:5.2.2.1 Coordinatewise comparability (`≼_coord`)
+
+Two states can be compared **coordinatewise** only under strict conditions. Essentially, we require the states to be expressed in the **same measurement space**, with the **same units and scales**, and using the **same state definitions**. Formally, coordinatewise comparison is allowed **only if all of the following hold**:
+
+-   **Same space.** The two holders’ state snapshots lie in the **exact same CharacteristicSpace** (and, if relevant, the same RCS attached to a Role in a given Context). It’s not enough that they have similarly named characteristics; they must share the actual defined space (same slots with same definitions).
+
+-   **Scale congruence.** For each slot being compared, the scale type, unit, and polarity orientation are **identical**. For example, if comparing temperature readings, both must be on the same scale (say, °C on a ratio scale with “higher = hotter” orientation). No unit mismatches or differing interpretations can be present.
+
+-   **State-definition congruence.** The states or status labels themselves must be defined in terms of the **same checklist criteria applied in the same space**. In other words, if we are comparing whether one system is “Ready” and another is “Ready”, both instances of “Ready” must derive from the same formal definition (same thresholds, same checklist logic) over those coordinates. If one context’s "Ready" means something different, you cannot assume they correspond.
+
+When these conditions are met, one can define a **coordinatewise preorder** over states. Common patterns include:
+
+- **Dominance:** For a given set of “higher is better” slots, we say state *x* **≼<sub>coord</sub>** state *y* if and only if for *every relevant slot a*, the coordinate $a(x) \le a(y)$ (**after orienting all slots to the declared polarity for that slot**). In other words, *y* is as good or better on all enforced criteria. This defines a Pareto-like ordering (often partial, not total).
+
+-   **Threshold band inclusion:** If states are defined by meeting certain thresholds (e.g. State _Y_ means all metrics above specific levels), then we might say _x_ **≼<sub>coord</sub>** _y_ if _x_ meets every threshold that defines _y_’s state. For instance, if state _y_ = “High Performance” requires speed > 100 and accuracy > 90%, then _x_ is “no less than y” if _x_ also exceeds those thresholds.
+
+By default, **no comparability** is assumed unless proven. If any of the above congruence conditions fails, one must **not** fall back to ad-hoc comparisons (like matching by name or normalizing without declaration). Either switch to a **normalization-based regime** or declare the states **incomparable**.
+
+###### A.19:5.2.2.2 Normalization‑based comparability (`≼_normalization`)
+
+When two state vectors do not meet the strict conditions for coordinatewise comparison (e.g. they come from different spaces, or the “same” Characteristics are measured on different scales/units), the only sanctioned way to compare them is: **normalize, then compare**.
+
+Concretely: if we have state _x_ in CS₁ and state _y_ in CS₂, a normalization‑based comparison is permitted only if the model can cite a set of `NormalizationMethodInstanceId`(s) under a chosen **UNM** (per **A.19.UNM**) that lands the relevant coordinates of _x_ into CS₂ (or lands both into a declared common target space). The result is understood as **NCVs** (or an `≡_UNM` quotient class) per A.19.UNM.
+
+**Comparability rule (normalize‑then‑compare).** We say _x_ **≼<sub>normalization</sub>** _y_ only if, after applying the cited normalization instances to produce a representation of _x_ in CS₂ (or a common target), the mapped state can be compared **coordinatewise** under `≼_coord`. In other words, we never compare raw _x_ and _y_; we compare *after landing in a common, well‑typed space*.
+
+If the normalization crosses context boundaries (i.e., CS₁ and CS₂ are in different bounded contexts), then by FPF policy this mapping MUST be treated as a formal **Alignment Bridge** (F.9) with an associated **congruence‑loss (CL)** level and MUST be declared via the relevant mechanism’s **A.6.1 Transport** (BridgeId + channel + `ReferencePlane(src,tgt)`; no implicit crossings). In such cases, any conclusions drawn carry an assurance penalty per **B.3** (`Φ(CL)`).
+
+**Auditability.** Each cited `NormalizationMethodInstanceId` used for comparison SHOULD be transparent via its referenced description/edition (per **A.19.UNM**). Evidence/calibration backing and waiver discipline are governed by **C.16 (MM‑CHR)**. The key here is that **no comparison is magic** – if values differ in scale or context, the normalization route and its limitations must be explicit.
+
+> **Mnemonic:** _“Never compare before you **land** both points in the **same** well-typed space.”_ In other words, always map measurements to a common basis (same CharacteristicSpace and units) before attempting to say one state is ≥ or ≤ another. Directly comparing raw numbers from different scales or contexts is not allowed.
+
+##### A.19:5.2.3 - RSG touch-points — **State certification via CS**
+
+To connect the abstract concept of a **space of metrics** with the operational concept of **states** (like “Ready” or “Degraded”) in a RoleStateGraph, we introduce a **certifier** function that evaluates state predicates against coordinates:
+
+certify(Role, Context): Snapshot( RCS[Role,Context], Window )  ──→  {StateAssertion}
+
+This is a conceptual sketch: given a **snapshot** of all relevant coordinates for a Role (in its RCS) over some time window, the certifier produces a set of **StateAssertions** that are deemed true in that window. Each StateAssertion claims that the holder is in a particular state (e.g. “Ready”) during the window, backed by evidence.
+
+**5.2.3.1 From CS snapshot to StateAssertion (design → run).** Each possible state _s_ in a Role’s RSG has an associated **Checklist** _(s)_ – a design-time artifact (see A.2.5 §8.1) which is a predicate defined over the RCS’s coordinates (and possibly other contextual observables). For example, a state “Degraded” might have a checklist like “\[temperature < 50 °C\] AND \[pressure > 5 bar\] for 10 minutes”. When the system is running, we take an **Observation** of the current coordinates (a snapshot of the RCS at a given time or over a time window) and evaluate the checklist. A **StateAssertion**(holder, _s_, Window) is then a record that the checklist for state _s_ has been satisfied by the observed data in that interval. In other words, it’s a certified evaluation that “state _s_ holds true for this holon at this time.” Only observable, measurable facts go into these predicates (no subjective judgments), and each assertion is traceable to the specific evidence (observations) that support it. The Role’s **Green-Gate Law** (A.2.5 §8.4) then says that a Role can proceed with an enactment (e.g. performing work) if and only if there is a **StateAssertion** showing the holon to be in an **enactable** state at that time. This connects measurement to action: you can only act if you have evidence you’re in the right state to act.
+**Evidence kind & window.** Every StateAssertion **SHALL** record `evidence_kind ∈ {observation, prediction}`, the **window** `[t_from, t_to]`, and, if `prediction`, the **horizon Δt** relative to the observation base. Use of `prediction` in enactment gates is permitted **only** under the DYN/TIME constraints captured in **CC‑A19.17–A19.18**; otherwise a **fresh observation** is required.
+
+**5.2.3.2 Translating state definitions across embeddings.** If we have an **embedding** ι: RCS₁ ↪ RCS₂ (for example, RCS₁ is a subspace or a different version of RCS₂), we might want to reuse or compare state definitions between the two. There are two directions to consider:
+* **Pulling a checklist** (reuse state criteria from a larger space in a smaller space): Given a checklist defined on RCS₂ (the larger or target space), we can **pull it back** via the normalization map **N** of the embedding to get a predicate on RCS₁. This derived checklist (**Checklist₂ ∘ N**) lets us apply the RCS₂’s state definition to a holon that only has RCS₁ measurements. This is useful when a consumer context wants to evaluate whether a producer (with fewer characteristics or different units) meets the consumer’s state definitions. Essentially, the consumer asks: “If I map the producer’s metrics into my space, does it satisfy my state criteria _s_?”
+ * **Pushing an assertion** (honor a producer’s certified state in a larger space): If a holon has a StateAssertion for state s’ in RCS₁, can we treat it as evidence for state s in RCS₂? This is only valid under a strict condition: the checklist for state s in the larger space, when composed with the normalization mapping **N**, must logically imply the checklist s’ in the smaller space (or vice versa, depending on which state corresponds to which). In practice, this often requires a proof of refinement: that meeting state s (in big space) guarantees state s’ (in small space), or that state s’ (in small) is sufficient for state s (in big space) given the normalization translations. If that condition is met (or a policy waiver is granted in lieu of proof), then an assertion in the smaller space can be **pushed up** to count as an assertion in the larger space. This mechanism allows, for example, a component’s certified state to satisfy a system-level state requirement, provided the relationship is formally established.
+
+**5.2.3.3 Certification interface (pointer).** Operational interface examples and minimal data stubs are **informative** and live in **A.19.CN** (“Certification Interface Example”). Pattern A.19 only constrains **conceptual** obligations; no storage/ID scheme is mandated here.
+
+_(In summary, embeddings not only allow numeric comparability, but also allow **state definitions** and **certifications** to be systematically translated between contexts, ensuring consistency in how we interpret “Ready”, “Failed”, etc., across different models.)_
+
+##### A.19:5.2.4 - Cross-context comparability & assurance hooks
+
+When comparing states or metrics **across different bounded contexts** (different “context of meaning”), additional rules apply to maintain semantic integrity:
+
+###### A.19:5.2.4.1 Direction & loss (Bridges).
+Suppose we want to claim that “Holon X in Context B is in state _Ready_ as defined in Context A.” This requires an explicit **Alignment Bridge** declaration that maps the RCS of _(Role, Context B)_ to the RCS of _(Role, Context A)_ (or maps State B to State A). Such a Bridge (see F.9) will specify the correspondence of Characteristics (and the necessary **NormalizationMethods under UNM**) and a **congruence‑loss (CL)** level indicating how much fidelity is lost in translation. Critically, these Bridges are **one-directional** mappings unless explicitly made bidirectional. Just because we can interpret B’s state as an A-state does not mean we can go the other way without another mapping. The Bridge makes the mapping and any loss explicit. Without a declared Bridge, cross-context state comparisons or substitutions are not valid – there is no implicit global state space. The statement above, for instance, would only hold if we have something like “Bridge B→A (with defined NormalizationMethods) such that X@B can be viewed in A’s terms.” The **direction matters**: “B satisfies A’s Ready” does **not** imply the converse unless another bridge (A→B) is defined.
+
+###### A.19:5.2.4.2 Confidence penalties for mapped comparisons.
+Whenever a **normalization-based comparison** crosses Contexts (via a Bridge), assurance **MUST** apply the penalty **Φ(CL)** as **defined in B.3** (CL is **ordinal** there). For episteme‑specific compositions, **B.1.3** instantiates the same policy. This pattern does **not** restate the scale or Φ; it uses **B.3** for the scale and penalty policy. For example, a safety argument that relies on a cross-context comparison might need to downgrade its certainty or include an extra safety margin.  This penalty **MUST** be declared as part of the assurance argument for the comparison (stating the Bridge used and its CL), so that the Φ(CL) discount can be reasoned and applied. No implementation‑level storage format or identifier is mandated by this pattern.
+
+###### A.19:5.2.4.3 Declare “incomparable” when appropriate.
+If for some critical Characteristic there is **no valid NormalizationMethod** to translate measurements between two contexts (e.g. the scale types are fundamentally different, or the measurement’s meaning doesn’t carry over), then the framework insists that we declare the states or metrics **incomparable** rather than attempting any fudge. No comparison should ever default to “close enough by name” or other heuristics. For instance, if one context measures “User Satisfaction” qualitatively and another quantitatively, and no monotonic mapping can be justified, one must simply say a user satisfaction state in context A cannot be compared to one in context B. Mark it incomparable and avoid any misleading conclusions. This rule guards against the natural temptation to compare things just because they have the same label or general intent, when in fact their measurement basis is different.
+
+##### A.19:5.2.5 - Certification pipeline (Minimal, Normative)
+
+Canonical evaluation chain (notation‑neutral):
+
+`raw coords → Normalize (UNM.NormalizationMethodInstance) → Quotient / NormalizationFix → (optional) Indicatorization (via IndicatorChoicePolicy) → (optional) Order/Distance overlay → Evaluate Checklist → StateAssertion → Green‑Gate`
+
+**Strict distinction.** Steps may be **co‑implemented**, but are **logically distinct** and **MUST** be referenceable in assertions (**NormalizationMethodInstance/UNM** name or formula, overlay kind). A gate is **invalid** if any required step lacks a current, valid referent (e.g., expired **NormalizationMethodInstance** edition).
+
+#### A.19:5.3 - Operator library (notation‑neutral)
+
+**Spaces:** `Sub` (projection), `Emb` (embedding), `Prod` (product), `Quot` (quotient by declared equivalence), `NormalizationFix` (fix to a named chart/edition).
+
+**States/criteria transport:** `Pull` (pull checklist via embedding/NormalizationMethodInstance), `Push` (push assertion along embedding with proof/waiver), `Indicatorize` (apply **IndicatorChoicePolicy** to select Indicators), `Align_B` (cross‑context alignment via Bridge with CL), `Fold_Γ` (admissible aggregation/accumulation per B.1, with WLNK/MONO constraints).
+
+**OP‑1 (Normative).** If `Align_B` is used in **gating**, the **Bridge used** and its **CL** **MUST** be declared in the assurance argument; the corresponding Φ(CL) penalty is applied per B.3. Silent cross‑context reuse is forbidden. (A.19 does not mandate any storage/ID scheme.)
+
+#### A.19:5.4 - Typed set views and optional neighboring transition-sensitive selection support
+
+- `TypedSetViews` name declared views over already declared set surfaces such as one palette, one front, one archive, or one shortlist.
+- A typed set view is one optional neighboring support for interpretation or shipping; it does not become a new public head for the set and it does not redefine the current minimal core question by itself.
+- `SelectionSlot` still returns one selected set surface, and `Shortlist` remains the public head when a selected surface is emitted.
+- If one atlas-like reading uses several typed set views over the same source surface, each view should keep its active source surface and typed question recoverable instead of speaking as though one default view already settles the whole family.
+- In cross-surface support prose, `SearchSpaceRef` and `OutcomeSpaceRef` are role-specific refinements of the older `SpaceRef` idiom. Do not let umbrella `SpaceRef` wording hide which support role the current typed-set-view reading depends on.
+- Use one `SpaceMetricRef` only when a comparison, neighborhood, spread, or crowding claim truly depends on one declared space metric or comparison rule.
+- Use one `TransitionSupportRef` only when the text must say how transition or trajectory relations behave across one declared level shift, normalization choice, or aggregation step. One covariance-style model is one admissible subtype of `TransitionSupportRef`, not the only one.
+- If one typed set view also cites one such role-specific space ref or `OutcomeMapRef`, keep those refs as declared support for that view rather than as one new public set head.
+- If one selector or comparison reads one derived tradition view through one typed set view, keep the underlying declared source surface recoverable at the same time.
+- Different typed set views may coexist for the same source surface; keep that plurality visible rather than pretending one metric or transition formalism already settles every neighboring comparison.
+
+### A.19:6 - Conformance Checklist (normative) — **CC‑A19**
+
+**Formality anchors & operational segregation (normative).** A.19 aligns with **C.2.3 Unified Formality Characteristic (F)**. The legacy tier labels **T0/T1/T2 are deprecated**; speak **F** directly and treat operations separately (see **E.10** for registers).
+— **F-Surface (recommended F ≥ F3).** Obligations are **declarability** and **arguability**: the author can **name** the CharacteristicSpace (basis/slots as *(Characteristic, Scale)* pairs), **state** the comparability regime (coordinatewise or normalization-based), and **express** a state’s checklist in observable coordinates. No storage formats, IDs, or operational provenance are required.
+— **F-Predicates (F ≥ F4 when predicate-like).** As above, plus **explicit slot/NormalizationMethod names** and **stated overlays** (order/metric). When acceptance conditions are written as **typed predicates over coordinates**, declare **F ≥ F4**. Remains **notation-neutral** and **storage-agnostic**.
+— **Operational bindings (not part of F).** When automatic checking/assurance is required, use **A.19.CN / C.16 / B.3** for IDs, validity windows, waivers, and logs. These raise **R/TA** in the trust calculus and **do not change F** unless the **expression form** changes (see C.2.3 orthogonality).
+
+The following checklist summarizes the normative requirements introduced by Pattern A.19. An implementation or model **conforms** to A.19 if and only if all these conditions are met:
+
+**Spaces & mappings**
+**CC‑A19.1.** Any defined **Subspace**, **Embedding**, or **Product** of CharacteristicSpaces **MUST** explicitly list the involved slots and their metadata (scale type, unit, polarity). No comparability or merging is allowed purely by matching names or assuming correspondence – it must be declared.
+**CC‑A19.2.** Every **Embedding** `ι: CS₁ ↦ CS₂` **MUST** cite a well‑defined `NormalizationMethodInstance` (per **A.19.UNM**) for each slot where `CS₁`’s slot differs in scale/unit from `CS₂`’s. The cited instances MUST satisfy the admissibility/declaration obligations governed by **A.19.UNM** (incl. monotonicity w.r.t. polarity, validity window, and method‑class token) and, when used for gating/assurance, MUST be evidence‑backed per **C.16**. (Identity suffices where scales are identical.)
+**CC‑A19.2a.** **Scale‑class guard (by reference).** The scale‑class requirements for admissible normalizations are governed by **A.19.UNM** (and must remain CSLC‑consistent per **A.18**). This checklist item is satisfied by citing a `NormalizationMethodInstance` whose declared class token meets those requirements; do not restate the taxonomy here.
+
+**Comparability**
+**CC‑A19.3.** **Coordinatewise comparability** (`≼_coord`) is **permitted only** when the states being compared share the **same CharacteristicSpace**, with **identical scale metadata** on each compared slot, and using the **same state definition criteria**. If these conditions aren’t fully satisfied, an implementation **MUST NOT** attempt direct coordinatewise comparison; it should either apply a **normalization‑based** method or report the items as **incomparable**.
+**CC‑A19.3a.** Use of **Indicators** in any checklist/assertion **MUST** cite an **IndicatorChoicePolicy** (edition). Treating any **NCV** as an Indicator **without** a declared policy is **forbidden**.
+
+**CC‑A19.4.** **Normalization‑based comparability** (`≼_normalization`) **MUST** be done by first normalizing all relevant coordinates of the source state into the target state’s space via declared admissible `NormalizationMethodInstance`(s) (see **A.19.UNM**), and **only then** comparing in that common space. In other words, two states can be compared under `≼_normalization` only by producing an image of one in the other’s space (`N(x)`) and using `≼_coord` on the result. No implicit or “on the fly” conversions are permitted.
+**CC‑A19.5.** Any cross-context state comparison or substitution **MUST** cite a corresponding **Alignment Bridge** (F.9) with an explicit **CL (congruence-loss) level**. If such a Bridge is used in an assurance or decision-making context, the model **MUST** apply the appropriate confidence reduction (`Φ(CL)` penalty per B.3) to reflect the loss. Cross-context comparisons without a Bridge (i.e. assuming equivalence by name or convention) are **forbidden**.
+
+**Certification & enactment**
+**CC‑A19.6.** Every **StateAssertion** **MUST** identify at least: the specific **state** being asserted (by name), the associated **checklist** or criteria set (by name), and the observation **window**. Furthermore, if the evaluation involved cross‑space mapping, it **MUST** **declare** which **NormalizationMethod(s)** or **Bridge** were applied. This ensures the decision can be examined in review; A.19 does not mandate any storage/ID scheme.
+
+**CC‑A19.7.** The **Green-Gate enactment rule** (A.2.5) **SHALL** be enforced: a transformative action (`U.Work`) by a RoleAssignment is only allowed if there exists a **contemporaneous** StateAssertion showing the holon in a state that is marked **enactable**. If a StateAssertion has been translated from another context or space, it is valid for gating **only** if it was obtained through declared Embeddings/Bridges (no untracked inferences). This ensures no work is done under an unverified or mis-mapped state condition.
+**CC‑A19.8.** All **Checklist** definitions for states **MUST** be formulated in terms of **observable predicates** on the RCS (and known context events) – no hidden workflows or implicit time sequencing inside a checklist. A checklist should read like a static predicate (even if it’s about a duration of some condition). If temporal order or multi-step processes are involved in achieving a state, those must be modeled via explicit **Methods/Work** or via an aggregation logic (e.g., using the Γ (Gamma) patterns in B.1 for process sequencing), rather than being baked into the state’s definition. **Use of Indicators in any checklist MUST cite an IndicatorChoicePolicy edition; treating any NCV as an Indicator without policy is forbidden.**
+
+**Anti‑drift**
+**CC‑A19.9.** If a **NormalizationMethod/UNM** or a **state checklist** is updated or calibrated differently in a new version, previous StateAssertions **MUST NOT** be retroactively modified. One must close out or mark the old assertions with their valid time window and start issuing new assertions under the updated definitions. In other words, historical records remain as they were (tied to the definitions at that time), and any change in criteria results in a _new context or version_ for future assertions. This prevents retroactive truth-changing and maintains integrity of historical data.
+**CC‑A19.10.** If any **critical slot** in a comparison lacks an **admissible** `NormalizationMethodInstanceId` (per **A.19.UNM**) to translate that slot between the relevant spaces (within the declared validity window), then the comparison **MUST** be reported as **incomparable**. The model must not attempt unofficial workarounds (e.g., name‑matching, silent dropping of the slot, or ad‑hoc coercions). This rule applies even if all other slots have admissible normalization instances, unless a policy explicitly accepts the loss via a declared Bridge with stated limitations.
+
+**Quotients & Normalization‑fix (QNT)**
+**CC‑A19.11.** Equality checks and joins across spaces **MUST** target invariant forms (on a **quotient** or declared **NormalizationFixed** chart), not raw coordinates.
+**CC‑A19.12.** If a checklist predicates on a normalization‑variant property, it **MUST** name the **NormalizationFix** (which UNM.NormalizationMethod or chart is assumed).
+**CC‑A19.13.** All used **method‑class tokens** for cited `NormalizationMethodInstanceId`(s) **MUST** be named in the bounded context’s glossary (per the taxonomy governed by **A.19.UNM**). Do not restate the class taxonomy here.
+
+**Metric discipline & calibration (MET)**
+**CC‑A19.14.** If a distance overlay is used, acceptance predicates/KPIs over a CS **SHALL** be **non‑expansive** (Lipschitz ≤ 1) w.r.t. the published `d` on the declared domain (raw coordinates or NCVs), or declare a compensating margin; otherwise they **SHALL** be isotone w.r.t. the declared product order.
+**CC‑A19.15.** Any distance used in state/acceptance checks **MUST** carry max tolerated error and, where claimed, a **Lipschitz bound** for the **NormalizationMethod** composition in use.
+**CC‑A19.16.** Cross‑CN‑frame inputs **SHALL** name the **normalization transform** and its **validity window**; expired transforms are invalid for gating unless waived explicitly.
+
+**Dynamics & time (DYN/TIME)**
+**CC‑A19.17.** Every temporal guard **MUST** specify the window `[t_from, t_to]` and `evidence_kind ∈ {observation, prediction}`; if `prediction` is used for gating, the conditions in **§ 5.2.3.1 (Evidence kind & window)** **MUST** hold.
+**CC‑A19.18.** Any dynamics map `Φ_{Δt}` used in comparison/gating **MUST** be **non‑expansive** (Lipschitz ≤ 1) under the declared distance overlay **and** commute with **NormalizationFix**; otherwise **observation** is required.
+
+**Certification (CERT)**
+**CC‑A19.19.** StateAssertions **MUST** **state** the current **NormalizationMethod/UNM** and overlay artifacts used (by name or formula) and the `evidence_kind`; assertions relying on **expired** NormalizationMethod/UNM are **invalid** for gating unless an explicit **Waiver SpeechAct** is **declared** per policy. (A.19 imposes no requirement on IDs or storage.)
+**CC‑A19.20.** The certification pipeline steps (**Normalize (UNM.NormalizationMethod); Quot/Fix_normalization; overlay; evaluate; assert**) are **logically distinct** and **MUST** be reconstructable in argument/review; collapsing steps without clearly stated referents violates A.19. (No specific persistence format is implied.)
+
+**Operators (OP)**
+**CC‑A19.21.** Use of `Align_B` in gating **MUST** **declare** the **Bridge** used and propagate **CL** into assurance (B.3). Cross‑context comparison without a Bridge is **forbidden**. (No requirement to store an ID is imposed by A.19.)
+
+### A.19:7 - Anti‑patterns → safe rewrites
+
+_The following are common modeling mistakes (“anti-patterns”) related to measurement spaces, and how to correct them:_
+
+-   **“Same label ⇒ comparable.”**
+    ✗ _Assuming_ **Ready@contextA ≥ Ready@contextB** _just because both states are called "Ready"._
+  ✓ **Explicitly normalize and bridge contexts:** Define an Alignment **Bridge (B→A)** and appropriate **NormalizationMethods** for the underlying metrics. Then compare by first translating one state’s coordinates (compute **N(x)** as NCVs in the target space) and using `≼_coord` on the result.
+
+-   **“Compare before landing.”**
+    ✗ Comparing values directly across different scales, e.g. _Drift\_A = 5°C vs Drift\_B = 5°F_ as if they were the same.
+  ✓ **Normalize to common units first:** e.g., apply the Fahrenheit‑to‑Celsius **NormalizationMethod** _m_(T_F) = (T_F − 32) × 5/9 to convert all data to °C, **then** compare the drift values. Always **normalize into one space** before comparing magnitudes.
+
+-   **“Checklist = workflow.”**
+    ✗ Defining a state’s checklist with an implied sequence: _“State ‘Ready’ requires doing Step 1 then Step 2…”_
+    ✓ **Keep checklists declarative:** A **Checklist** should represent a state of the system (a condition) – essentially **state evidence** – not a sequence of actions. If order or process matters, model that explicitly via a **MethodDescription** or by using a **Γ** (Gamma) aggregator for process logic. In other words, state = “Ready” might require conditions A and B to be true (regardless of how you got there), whereas the procedure to get ready (do Step1 then Step2) should be a separate method or playbook.
+
+-   **“Retro-fix past assertions.”**
+    ✗ Going back to edit or reinterpret old StateAssertions after changing a threshold or NormalizationMethod (e.g. “We updated the criteria, let’s ‘fix’ last quarter’s records to match”).
+    ✓ **Never alter historical assertions:** **Leave history as‑is.** If criteria change, issue new assertions under the new criteria going forward, and if needed, explicitly **version** the **NormalizationMethod/UNM** or checklist. Past assertions remain valid for the old version and their time; new ones apply henceforth. This ensures auditability and avoids erasing or rewriting what was true under earlier standards.
+
+
+**C.27 temporal-claim relation.**
+
+- C.27 may flag: a rate/rate-change claim that needs base characteristic, scale/unit, time base or sampling window, transformation/finite-difference method, evidence, and admissible use.
+- This pattern keeps: CharacteristicSpace coordinate discipline and the measurement/coordinate relation carried with C.16.
+- Non-admissible use: derivative-like words such as velocity, acceleration, throughput, cadence, or recovery speed do not make a free characteristic, metric, or measurement template.
+- Exit: when the reading is load-bearing, cite `baseCharacteristicRef`, the relevant measure reference, sampling window, construction method such as `DHCMethodRef`, and `C16RouteRef`; C.27 does not define a parallel measurement system.
+
+### A.19:12a - C.29 MLA relation
+
+> If topology, order, distance, product, subspace, embedding, or metric is only a `CharacteristicSpace` overlay, stay in `A.19` and write the space, coordinate, normalization, and comparability declaration there. If the overlay is used as a mathematical lens to explain, predict, bridge, assure, publish, compare across contexts, or support reusable explanation beyond local declaration, add the applicable `C.29` output for lens adequacy. Do not move the space declaration out of `A.19`; `C.29` names only what the mathematical lens preserves, loses, makes visible, and cannot license.
+
+### A.19:End
+## A.19.SURF-SPACE - Cross-Surface and Cross-Space Substrate
+
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative
+
+**Plain-name.** Cross-surface / cross-space substrate.
+
+**Governed object.** The declared relation-and-ref-position stack that links one recoverable source surface to search-side and outcome-side references over `A.19` `CharacteristicSpace`, states how those two refs relate, and makes the source-to-outcome relation plus its distortion, uncertainty, or error posture explicit enough to guide use.
+
+### A.19.SURF-SPACE:0 - Use this when
+
+Use this pattern when one working line depends on all of the following at once:
+
+- one declared source surface still matters and must stay recoverable by name;
+- one search-side space reference and one outcome-side space reference must both be explicit;
+- the line must say whether those refs resolve to one declared `CharacteristicSpace` or to two distinct declared `CharacteristicSpace` declarations;
+- the source-to-outcome relation is load-bearing enough that the reader must know what is being related, in which direction, and through which declared carrier or support;
+- and distortion, uncertainty, or error cannot be left as vague atmosphere.
+
+This is the right pattern for QD, OEE, archive/front, or adjacent synthesis lines when the problem is no longer only "what space exists?" and not yet "what shortlist or shipped surface do we publish?".
+
+Not this pattern when:
+
+- you only need to declare or compare `CharacteristicSpace` itself, with no source-surface or source-to-outcome requirement; use `A.19`;
+- you are publishing selector or shipping metadata such as `SelectorOutcomeKind`, `SetSurfaceKind`, `HandoffKind`, or public shortlist identity; use `G.5` or `G.10`;
+- you are building one interpretive or support view over an already-declared substrate; use `A.19.SUPPORT-VIEW` or a local specialization such as `G.2`;
+- you are deciding live pool policy, frontier retention, or next-move planning; use `C.19` or `C.24`.
+
+### A.19.SURF-SPACE:0.1 - What goes wrong if missed
+
+If this pattern is missed, authors usually collapse several different things into one vague "space" or one vague "projection":
+
+- the declared source surface disappears behind bare words such as `front`, `archive`, `palette`, or `portfolio`;
+- `SearchSpaceRef` and `OutcomeSpaceRef` never become explicit, or `SpaceRefRelationKind` never becomes explicit, so one line silently hides whether search and outcome use one declared space twice or two different declared spaces;
+- `DescriptorMapRef` or `DistanceDefRef` gets mistaken for the space itself rather than one representation or metric support;
+- publication metadata in `G.5` or `G.10` starts standing in for substrate semantics;
+- and distortion, uncertainty, or error is either hidden or treated as if every non-trivial case were only one bridge-loss story.
+
+The result looks tidy, but the reader cannot tell what is being searched, what is being evaluated, what is only being published, and where uncertainty actually enters.
+
+### A.19.SURF-SPACE:0.2 - What this buys
+
+This pattern buys one conservative but expressive substrate declaration:
+
+- the active source surface stays visible;
+- the search-side and outcome-side references over `A.19` spaces stay distinct;
+- the relation between those refs becomes inspectable instead of being hidden in one overloaded noun or verb;
+- heavier support pins remain available without being forced into every case;
+- and support-view or publication neighbors can reuse the substrate without changing what it means.
+
+The practical payoff is simple: readers can tell what the line is acting on, what relation between the two space refs it assumes, what kind of qualification they must keep in view, and which neighboring pattern governs the next move if that requirement grows.
+
+### A.19.SURF-SPACE:0.a - TERM/LEX token-status guard (local-first)
+
+Keep this token-status split explicit:
+
+- `CharacteristicSpace` is the reused `A.19` kind. This pattern does not mint a second space kind.
+- `SearchSpaceRef` and `OutcomeSpaceRef` are role-named local fields whose slot content is typed by the existing `CharacteristicSpaceRef` / `SpaceRef` idiom. They are not new heads, not slot aliases inside the space, and not `U.Role` claims. In cross-surface support or typed-set-view passages, read them as role-specific refinements of that older `SpaceRef` idiom rather than collapsing the roles back into one umbrella `SpaceRef`.
+- `SpaceRefRelationKind` is a local relation-kind field over those two refs. In this slice, `sameDeclaredSpaceAs` and `distinctDeclaredSpaceFrom` are controlled token values for that field, not free prose.
+- `SourceToOutcomeRelation` and `DistortionPosture` are local declaration fields. Their field names do not by themselves create one new generic ontology; the declaration requirement is satisfied only when their payload is explicit enough to audit.
+- `SourceSurfaceKind`, `SourceSurfaceComposition`, and `DerivedViewKind` are local fields in this `CrossSurfaceCrossSpaceSubstrate` declaration. Whether any value later becomes a broader stable head is outside this pattern.
+- `BasePaletteRef`, `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, `BridgeDistortionNote`, `DescriptorMapRef`, and `DistanceDefRef` are guarded neighboring refs or support qualifiers reused here. This pattern may cite them, but it does not redefine them.
+- `carrier` inside `SourceToOutcomeRelation` names the declared support, declared line, or declared object through which the relation is being realized in this local record. It is not a claim that the thing is `U.Carrier`.
+
+### A.19.SURF-SPACE:0.b - First-minute operator cue and confusion map
+
+If you are about to write one line that says what is being searched, what is being judged, and whether those two relations sit in one declared space or in two declared spaces, stop and fill this pattern before you write any more umbrella prose such as `space`, `projection`, `portfolio`, or `front`.
+
+Do this in the first minute:
+
+1. Name the active source surface.
+2. Point `SearchSpaceRef` and `OutcomeSpaceRef` to declared `CharacteristicSpace`.
+3. Choose `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom`.
+4. State the source-to-outcome relation in direction, mode, and carrier.
+5. State the governing posture token.
+
+If one of those five cells cannot yet be filled honestly, do not improvise around it. Either you are still in `A.19`, or you have really moved into support-view work, publication, or policy, or the current line is still missing one declared basis.
+
+| If the live question sounds like... | Use now | Why |
+| --- | --- | --- |
+| "Which space are we searching in and which space are we judging in?" | `A.19.SURF-SPACE` | This pattern governs the dual-ref substrate stack. |
+| "How should I help the reader inspect that already-declared line?" | `A.19.SUPPORT-VIEW` | That is one support reading over the substrate, not the substrate declaration itself. |
+| "What do we publish, ship, keep live, or plan next?" | `G.5`, `G.10`, `C.19`, or `C.24` | Those are downstream output or policy questions. |
+| "I only need one space declaration." | `A.19` | No source-to-outcome substrate stack is in play yet. |
+
+Common confusion to kill early: descriptor maps, distance definitions, and outcome maps may discipline the line, but they do not answer the first-minute substrate question unless the five cells above are already filled.
+
+### A.19.SURF-SPACE:1 - Problem frame
+
+
+In many search, synthesis, and cross-surface lines, the live substrate-bearing line is not just one `CharacteristicSpace` and not just one published shortlist or archive either. The line actually depends on a stack such as:
+
+- one declared source surface, for example one front, archive, palette, or another declared source-surface family;
+- one search-side reference to an `A.19` `CharacteristicSpace`;
+- one outcome-side reference to an `A.19` `CharacteristicSpace`;
+- one explicit `SpaceRefRelationKind` over those two references, stating whether they resolve to the same declared space or to two different declared spaces;
+- one relation from the source-side line into the outcome-side line;
+- and one declared posture about whether that relation is transparent, approximate, learned, lossy, uncertain, or otherwise qualified.
+
+Without an explicit substrate declaration for that stack, nearby declarations start carrying loads they are not meant to carry. `A.19` gets stretched from space typing into source-surface governance. `C.18` descriptor maps start masquerading as the whole search space. `G.5` and `G.10` publication fields start reading like ontology. Support views or atlas views drift into default meaning instead of staying optional derived help.
+
+### A.19.SURF-SPACE:2 - Problem
+
+How should one declare a cross-surface and cross-space line so that:
+
+1. the declared source surface remains explicit and recoverable;
+2. `SearchSpaceRef` and `OutcomeSpaceRef` stay guarded refs to declared `A.19` `CharacteristicSpace`, not new free-floating space kinds;
+3. the text states whether those refs point to one declared space or to two distinct declared spaces;
+4. the source-to-outcome relation is explicit enough for the reader to know what is being mapped, projected, translated, scored, or otherwise connected;
+5. distortion, uncertainty, and error are stated honestly rather than hidden in prose;
+6. `SourceSurfaceComposition` and `DerivedViewKind` remain conditional fields rather than fabricated mandatory baggage;
+7. support pins such as `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote` remain available but support-only;
+8. and neighboring declarations such as `A.19`, `C.18`, `G.5`, `G.10`, and `A.19.SUPPORT-VIEW` can dock to the substrate without redefining it?
+
+### A.19.SURF-SPACE:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Component Skills vs. Integrated Capability** | How to represent the qualitative leap from a set of individual, executable functions to a single, coherent, and often adaptive composite `U.Method` that possesses properties not found in any of its parts. |
-| **Prescription vs. Performance** | The `MethodDescription` (the "recipe") describes how a method *should* be performed, but the MFT is about the emergence of the *actual, reliable capability* to perform it at run-time, often in ways that are more adaptive than the static recipe. |
-| **Decomposition vs. Synergy** | How to model a composite `U.Method` that is demonstrably more than the sum of its parts, possessing new regulatory and synergistic properties, without violating the conservative Weakest-Link principle where it still applies. |
-| **Explicit Design vs. Emergent Order** | Is the new meta-method a result of a deliberate, top-down design effort, or did it emerge bottom-up from the interactions of agents adapting to their environment? The framework must be able to model both pathways. |
+| --- | --- |
+| `A.19` typing vs adjacent substrate requirement | `A.19` already declares `CharacteristicSpace`, but source-surface and publication-surface semantics still need a separate substrate declaration. |
+| Precision vs over-typing | The line needs explicit ref positions, an explicit ref-to-ref relation kind, and explicit relation posture, but it should not fabricate composition, derivation, metrics, or transition support when the case does not need them. |
+| Reuse vs semantic collapse | `DescriptorMapRef`, `DistanceDefRef`, `OutcomeMapRef`, or `BridgeDistortionNote` are useful supports, but they must not silently become the whole substrate. |
+| User readability vs architectural honesty | Cold readers need a first-minute explanation, while specialist readers still need exact boundaries and docking rules. |
+| Support views vs substrate core | Atlas or support-view lines can be valuable, but they should remain optional derived help rather than the default meaning of the substrate. |
+| Uncertainty honesty vs fake closure | Many current lines use learned, adaptive, unstructured, or distribution-valued spaces or relations; the pattern must expose that posture without pretending the heaviest support posture is already settled. |
 
-### B.2.4:4 - **Solution**
+### A.19.SURF-SPACE:4 - Solution
 
-An MFT is a formal promotion of a set of `U.Method`s into a new, composite **`U.Method`**. This new `U.Method` is often referred to descriptively as a **"meta-method"** because of its supervisory role, but it remains a `U.Method` in type, preserving ontological parsimony. The transition is a change in the **operational reality** of a `Transformer` or a collective of `Transformers`. It is declared when the performance of the methods satisfies the B-O-S-C triggers, adapted for function and capability.
+Declare the cross-surface or cross-space line through one explicit substrate stack, keep only the load-bearing core mandatory, and place every heavier requirement in conditional fields, support qualifiers, or companion declarations.
 
-#### B.2.4:4.1 - The B-O-S-C Triggers for Methods/Functions
+#### A.19.SURF-SPACE:4.1 - Governed object and outside work
 
-The four triggers from the parent MHT pattern are interpreted in the operational context of methods and functions:
+Use this pattern to declare only the substrate stack below:
 
-| Trigger | Functional Interpretation | Manager's View: The "Go/No-Go" Question for Declaring a New Capability |
-| :--- | :--- | :--- |
-| **B - Boundary Closure**| The set of methods now exposes a single, unified **functional interface**. An external agent can invoke the entire workflow via a single, well-defined call (e.g., "initiate deployment"), without needing to know about or coordinate the individual internal steps. | "Can I now ask the team to 'run the deployment process' as a single, black-box service, or do I still have to personally manage the hand-offs between coding, testing, and release?" |
-| **O - Objective Emergence**| A new, **operational objective** for the entire workflow emerges, which is not merely the sum of the objectives of the individual steps. This is often a holistic, end-to-end performance goal (e.g., "achieve a 99.9% success rate for the entire process"). | "Is the team now optimizing for the success of the *entire workflow*, even if it means one individual step has to run 'sub-optimally' (e.g., slower) for the good of the whole?" |
-| **S - Supervisor Emergence**| A new **coordination and control logic** (the "supervisor") appears. This mechanism orchestrates the execution of the individual methods based on the state of the overall workflow. This "meta"-property is modeled via `controls` or `supervises` relations. | "Is there a concrete mechanism—whether it's a CI/CD orchestrator, a formal team protocol, or a project manager's explicit control board—that is now actively managing the flow and making decisions between the steps?" |
-| **C - Complexity Threshold** | The cognitive or coordination overhead of manually managing the individual methods becomes a significant bottleneck. The cost of *not* integrating outweighs the cost of creating and maintaining the new, integrated workflow. | "Have we reached the point where the time we spend in meetings coordinating the hand-offs is taking more time and energy than the actual work itself?" |
+- the declared source surface that the line is acting on;
+- the recoverable concrete source-surface identity when the family name alone would be ambiguous;
+- the search-side reference to one declared `A.19` `CharacteristicSpace`;
+- the outcome-side reference to one declared `A.19` `CharacteristicSpace`;
+- the explicit `SpaceRefRelationKind` over those two ref positions;
+- the explicit source-to-outcome relation;
+- and the explicit distortion, uncertainty, or error posture for that relation.
 
-When a `Transformer`'s performance demonstrates sustained evidence for all four triggers, an MFT has occurred. The `Transformer` now possesses a new, emergent composite `U.Method`.
+Do not use this pattern to declare:
 
-> **Didactic Note on "Meta-" vs. "Supra-":**
-> We use the prefix "Meta-" descriptively (as in a "meta-method") to signify the emergence of a new **layer of control and reflection**. A `U.Method` resulting from an MFT is not just a larger method; it is a method that *manages and orchestrates* other methods. This supervisory property is modeled through relations, not by creating a new `U.MetaMethod` type. This preserves ontological parsimony (Pillar C-5) by recognizing that the position in a control hierarchy is a relational property, not a change in fundamental type.
+- `A.19` space typing itself;
+- selector outcome publication, shortlist identity, or shipping closure;
+- live pool policy or enactment planning;
+- or optional support-view families that interpret or reorganize an already-declared substrate.
 
-> **Didactic Note on Terminology: "Process," "Workflow," "Function" vs. FPF's `Method` and `Work`**
+#### A.19.SURF-SPACE:4.2 - Minimal declaration stack
+
+Use the following notation-independent stack:
+
+```text
+CrossSurfaceCrossSpaceSubstrate := <
+  SourceSurfaceKind,
+  SourceSurfaceId?,
+  SearchSpaceRef,
+  OutcomeSpaceRef,
+  SpaceRefRelationKind,
+  SourceToOutcomeRelation,
+  DistortionPosture,
+  SourceSurfaceComposition?,
+  DerivedViewKind?,
+  BasePaletteRef?,
+  OutcomeMapRef?,
+  SpaceMetricRef?,
+  TransitionSupportRef?,
+  BridgeDistortionNote?
 >
-> The terms "process," "workflow," "function," and "work process" are notoriously overloaded. FPF resolves this ambiguity by mapping these common terms to its precise, distinct concepts, in alignment with Pattern A.15.
->
-> | Your Domain's Term | How FPF Models It | The Core Distinction |
-> | :--- | :--- | :--- |
-> | **Workflow, Work Process, Function (as a sequence of steps)** | As a **`U.Method`** | This is the `run-time` **capability** or "role-mask" for work, enacted by a `Transformer`. It describes *how* an action is performed. |
-> | **The description of a workflow, a Standard Operating Procedure (SOP), an algorithm** | As a **`U.MethodDescription`** | This is the `design-time` **episteme** that documents the `Method`. It is the recipe, not the cooking. |
-> | **The actual execution of the workflow, an operation, a job** | As a **`U.Work`** | This is the `run-time` **occurrence**—the event of the `Method` being performed, which consumes resources. |
->
-> The **Meta-Functional Transition (MFT)** described in this pattern is about the emergence of a new, composite **`U.Method`**. It is a transition in the *capability to act*, not just in the documentation or in a single execution.
-
-### B.2.4:5 - **Archetypal Grounding**
-
-The emergence of a new, composite `U.Method` is a universal pattern of learning and organization. It can be observed in technical, biological, and social domains.
-
-| Domain | Constituent `U.Method`s | Emergent Composite `U.Method` ("Meta-Method") | Key Trigger Evidence (B-O-S-C) |
-| :--- | :--- | :--- | :--- |
-| **Software Engineering** | A set of discrete developer methods: `WriteCode`, `RunUnitTests`, `CommitToCG‑SpecS`, `ManualDeploy`. | An **automated Continuous Integration/Continuous Delivery (CI/CD) Pipeline**. | **B:** A single interface ("trigger pipeline") now executes the entire sequence. **O:** A new objective emerges: "maintain the main branch in a perpetually deployable state." **S:** The CI/CD orchestrator (e.g., GitHub Actions, Jenkins) acts as the supervisor, automatically sequencing steps and handling failures. **C:** The overhead of manual coordination became a bottleneck to frequent releases. |
-| **Cognitive Science (Learning)** | A novice driver's individual methods: `CheckMirrors`, `PressClutch`, `ChangeGear`, `Steer`. | The expert driver's fluid, integrated **`Method` of "Driving"**. | **B:** The actions become a single, seamless behavior. **O:** A new, holistic objective appears: "navigate traffic smoothly and safely," replacing the focus on individual mechanical steps. **S:** The driver's cerebellum and basal ganglia form a "supervisor," coordinating the motor actions subconsciously. **C:** Conscious management of each step is too slow for real-world traffic. |
-| **Organizational Design**| Separate, siloed methods in a company: `MarketingCampaign`, `SalesPitch`, `CustomerOnboarding`. | An **Integrated "Go-to-Market" `Method`**. | **B:** A single cross-functional team now owns the entire customer journey from lead to active user. **O:** A new objective is set: "maximize customer lifetime value (LTV)." **S:** A shared set of KPIs and a weekly cross-functional sync meeting act as the supervisory loop. **C:** The "leaky bucket" problem, where customers were lost in the hand-offs between departments, became too costly. |
-
-### B.2.4:6 - **Conformance Checklist**
-
-*   **CC-B2.4.1 (MFT Declaration Mandate):** The emergence of a composite `U.Method` with supervisory properties **MUST** be declared as an MFT and justified with a **Promotion Record** (Pattern B.2) that provides evidence for the B-O-S-C triggers.
-*   **CC-B2.4.2 (Method-Holon Mandate):** Both the constituent functions and the resulting composite function **MUST** be modeled as `U.Method`s, documented by `U.MethodDescription`s, and enacted as `U.Work`. They are not `U.System`s.
-*   **CC-B2.4.3 (Supervisor Relation Mandate):** The "meta" nature of the emergent `U.Method` **MUST** be modeled through explicit relations, such as `controls` or `supervises`, linking the `Transformer` enacting the composite `Method` to the execution of the constituent `Method`s. A new `U.MetaMethod` type **SHALL NOT** be created.
-*   **CC-B2.4.4 (Interface Standard):** The emergent `U.Method` **MUST** have a formally documented interface Standard (`Method Interface Standard` or MIC, see Pattern B.1.5), which specifies how the external world interacts with it and how the internal methods are encapsulated.
-
-### B.2.4:7 - **Common Anti-Patterns and How to Avoid Them**
-
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It (Conceptually) |
-| :--- | :--- | :--- |
-| **The "Process on Paper" Fallacy** | A team creates a beautiful, complex workflow diagram (`MethodDescription`) but continues to operate in the old, siloed way. The new capability exists only in documentation. | An MFT is a transition in **operational reality** (`U.Method` enactment), not just in `design-time` artifacts (`MethodDescription`). **CC-B2.4.1** requires evidence for the B-O-S-C triggers, which are based on observed behavior, not just documented intent. |
-| **The "Micromanaging Supervisor"** | A new "meta-process" is introduced, but it's just a manager manually coordinating the old, separate steps. There is no new, emergent logic or automation. | **CC-B2.4.3** requires the supervisory function to be modeled as an explicit mechanism with `controls` relations. If the "supervisor" is just a person doing the same old coordination, no new, persistent `U.Method` has emerged. |
-| **The "Capability by Fiat"** | A leader declares that a new, integrated capability now exists, but the underlying methods, tools, and objectives of the team have not actually changed. The "synergy" is aspirational. | An MFT is an observable, bottom-up phenomenon. The B-O-S-C triggers provide a falsifiable checklist. If there is no new boundary, no new objective, and no new supervisory loop, no MFT has occurred, regardless of declarations. |
-
-### B.2.4:8 - **Consequences**
-
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Makes Capability Tangible:** The MFT provides a formal way to represent and manage integrated capabilities as first-class holons (`U.Method`s), making them visible, auditable, and optimizable. | **Modeling Effort:** Identifying and documenting an MFT requires analytical effort. *Mitigation:* This effort is an investment in creating a more robust and scalable operational model, preventing the much higher long-term cost of managing "tribal knowledge." |
-| **Enables True Process Improvement:** It shifts the focus of optimization from local, component-level efficiencies to the performance of the end-to-end value stream. | - |
-| **Fosters Organizational Learning:** The pattern provides a language for describing how teams and systems learn to work together more effectively, transforming implicit learning into an explicit, reusable asset. | - |
-| **Improves Assurance and Governance:** By formalizing the emergent "meta-method," it becomes possible to create an assurance case for the entire workflow and assign clear ownership and accountability for its performance. | - |
-
-### B.2.4:9 - **Rationale**
-
-This pattern extends the FPF's theory of emergence into the crucial domain of action and capability. It recognizes that the most significant leaps in performance often come not from improving individual components, but from inventing new and better ways to coordinate them. The MFT is FPF's formal name for this act of organizational or operational creativity.
-
-By defining the transition in terms of the observable B-O-S-C triggers and tying it to the rigorous `Method`/`Work`/`MethodDescription` distinction from Pattern A.15, the MFT provides a bridge between the abstract principles of cybernetics and the concrete realities of managing a project, a team, or an autonomous system. It ensures that when we talk about a "new way of working," we are referring to a precise, verifiable, and architecturally significant event.
-
-### B.2.4:10 - **Relations**
-
-*   **Is a specialization of:** `B.2 Meta-Holon Transition (MHT)`.
-*   **Is complemented by:** `B.2.2 MST (Sys)` and `B.2.3 MET (KD)`.
-*   **Is the emergent result of:** The execution of a `MethodDescription` created during a `B.2.3 MET (KD)`.
-*   **Creates the context for:** The application of `B.2.5 Supervisor–Subsystem Feedback Loop`, which describes the internal architecture of the new composite `U.Method`.
-*   **Relies on:** The conceptual distinctions defined in `A.15 Role–Method–Work Alignment`.
-
-### B.2.4:End
-
-## B.2.5 — Supervisor–Subholon Feedback Loop
-
-### B.2.5:1 - **Problem Frame**
-
-Many of the most successful and resilient holons, both natural and engineered—from scientific paradigms and bacterial cells to the internet and human sensorimotor control—share a common architectural motif: a **Layered Supervisory Architecture**. In this architecture, the complex task of managing the holon is decomposed into a stack of functional layers. Each layer operates at a different spatiotemporal scale and level of abstraction, communicating with its neighbors through well-defined interfaces.
-
-The paper "Towards a Theory of Control Architecture" by Matni, Ames, and Doyle (2024) provides a rigorous foundation for understanding such architectures in the context of control systems. FPF generalizes these insights to all holon types. For example, a **`U.System`** like an aircraft might have a Guidance, Navigation, and Control (GNC) architecture realized by distinct `Transformer`s. Similarly, a **`U.Episteme`** like a large scientific theory has layers: foundational axioms (which act as a "decision making" layer), core theorems (a "trajectory planning" layer), and specific applications or derived lemmas (a "feedback control" layer). This layered structure is a convergent solution to the fundamental problem of managing complexity.
-
-### B.2.5:2 - **Problem**
-
-While the concept of layered supervision is intuitive, its formal modeling is fraught with conceptual traps. Without a strict, principled distinction between different types of hierarchies, as mandated by **Strict Distinction (A.7)**, models become ambiguous. The primary challenge is to untangle three distinct hierarchies for any given holon:
-
-1.  **The Structural Hierarchy (Levels):** The mereological (part-whole) decomposition of the holon's **carrier**. For a `U.System`, this is its physical composition (e.g., an engine is `ComponentOf` a car). For a `U.Episteme`, this is the structure of its `Symbol` carrier (e.g., a chapter is `ComponentOf` a book).
-2.  **The Functional/Supervisory Hierarchy (Layers):** The decomposition of the management or reasoning task. This is a hierarchy of **`Transformer`s playing roles**. A `Transformer` in a higher layer (e.g., a scientific committee) `supervises` a `Transformer` in a lower layer (e.g., a research lab) by providing it with objectives or constraints.
-3.  **The Dataflow Network:** The network of information exchange (`U.Interaction`) between these `Transformer`s in their respective roles (e.g., `funding decisions` flowing down, `research findings` flowing up).
-
-Confusing these hierarchies leads to critical modeling errors. For example, treating a functional layer (a `U.Method` performed by a `Transformer`) as if it were a structural component (`ComponentOf` the holon it manages) is a category error that this pattern is designed to prevent.
-
-### B.2.5:3 - **Archetypal Grounding**
-
-The universal architecture of the Supervisor-Subsystem loop is instantiated differently depending on the nature of the holon being managed. Below are two detailed archetypes that illustrate this distinction.
-
-#### B.2.5:3.1 - **Archetype 1: Loop for a `U.System` (Robotic Swarm)**
-
-Here, the loop governs the **physical behavior** of a collection of active `U.System`s.
-
-*   **Meta-System:** A swarm of autonomous delivery drones.
-*   **Sub-Holons:** The individual drones (`U.System`s).
-*   **`Transformer`s:** Each drone is its own `Transformer`, executing its local flight `Method`. The Supervisor is also a `Transformer` (either a designated leader drone or a distributed consensus algorithm running on all drones).
-
-**Instantiation of the Loop Roles and Principles:**
-
-| Role/Principle | Instantiation in the Robotic Swarm |
-| :--- | :--- |
-| **Supervisor** | The **consensus algorithm** (`U.Method`) running across the swarm. Its `GenerativeModel ℳ` is a shared map of the delivery area and the real-time state of all drones. Its `Objective Ξ` is to "maximize fleet-wide delivery throughput." |
-| **Sub-Holons**| The individual drones. |
-| **Shared Medium**| A wireless mesh network (`U.Interaction` channel). |
-| **Loop in Action:** | 1. **Sense:** Each drone reports its position, battery, and status. The Supervisor aggregates this into a global state `X`. <br> 2. **Judge:** The Supervisor compares `X` to the optimal fleet configuration `Ξ` from its model. The `Error Δ` is the deviation (e.g., coverage gaps, overloaded drones). <br> 3. **Plan:** The Supervisor's influence policy `Λ` computes a new set of target waypoints and speed commands (`Influence Signal α`) for individual drones. <br> 4. **Act/Adapt:** Each drone receives its new command `α` and adapts its local flight `Method` (`πᵢ`) to move towards its new waypoint. |
-| **Stability Principles:** | **(P-C) Standardion:** The control law is designed so that the swarm exponentially converges to the target formation. <br> **(P-D) Dissipativity:** The system is dissipative; oscillations from a disturbance (like a sudden gust of wind) are actively dampened. <br> **(P-I) Information Constraint:** The loop is robust to a communication delay of `τ = 50ms`. |
-
-#### B.2.5:3.2 - **Archetype 2: Loop for a `U.Episteme` (A Scientific Theory)**
-
-Here, the loop governs the **conceptual integrity and evolution** of a passive knowledge artifact (`U.Episteme`). The "actions" are not physical movements but acts of reasoning and revision performed by human `Transformer`s.
-
-*   **Meta-System:** The entire body of knowledge known as "The Theory of Evolution by Natural Selection."
-*   **Sub-Holons:** Individual epistemes that are `ConstituentOf` the theory, such as the Principle of Variation, the Principle of Inheritance, and the Principle of Selection.
-*   **`Transformer`s:** The global scientific community in the relevant field.
-
-**Instantiation of the Loop Roles and Principles:**
-
-| Role/Principle | Instantiation for the Scientific Theory |
-| :--- | :--- |
-| **Supervisor** | The **peer-review process and the scientific method itself** (`U.Method`), enacted by the community (`Transformer`). Its `GenerativeModel ℳ` is the core set of axioms and principles of the theory. Its `Objective Ξ` is "to provide the most parsimonious and predictively powerful explanation for the diversity of life." |
-| **Sub-Holons**| The constituent principles and supporting evidence (individual papers, datasets). |
-| **Shared Medium**| Scientific journals, conferences, and preprint archives (`U.Interaction` channels). |
-| **Loop in Action:** | 1. **Sense:** A research lab (`Transformer`) performs an experiment and publishes a new finding (`U.Observation`, e.g., evidence for horizontal gene transfer). <br> 2. **Judge:** The community (`Supervisor`) compares this new finding `X` with the current predictions of the theory `Ξ`. The `Error Δ` is the anomaly—a result that the current theory cannot easily explain. <br> 3. **Plan:** Other researchers (`Supervisor`) propose revisions to the theory (`Influence Signal α`, e.g., a new paper suggesting a modification to the "tree of life" model). <br> 4. **Act/Adapt:** Over time, if the new proposal is corroborated by further evidence, the community (`Transformer`) updates the canonical understanding of the theory. The core `U.Episteme` is refined. |
-| **Stability Principles:** | **(P-C) Standardion:** A healthy scientific paradigm is Standardive; it progressively reduces the set of unexplained anomalies. <br> **(P-D) Dissipativity:** The process is dissipative; flawed or unfalsifiable hypotheses are eventually "dampened" and discarded by the community. <br> **(P-B) Bilevel Optimization:** The global objective (explanatory power) guides the local work of individual labs. |
-
-### B.2.5:4 - **Key Distinction:**
-
-In the `U.System` example, the loop is a fast, often automated, **control system**. In the `U.Episteme` example, it is a slow, human-driven **process of collective reasoning**. However, the **architectural pattern is identical**: a supervisor monitors the state of sub-holons and issues corrective signals to maintain a global objective. This demonstrates the true universality of the LCA pattern.
- 
-### B.2.5:5 - **Conformance Checklist**
-
-*   **CC-B2.5.1 (Role Mandate):** Any model of a layered supervisory architecture **MUST** explicitly identify the holons (or `Transformer`s) playing the roles of `Supervisor` and `Sub-Holon`, as well as the `U.Interaction` channel that constitutes the `Shared Medium`.
-*   **CC-B2.5.2 (Loop Closure Mandate):** The model **MUST** demonstrate a closed feedback loop. A one-way, open-loop command structure is not a conformant Supervisor-Subsystem loop.
-*   **CC-B2.5.3 (Principle Evidence):** An assurance case for a supervisory loop **SHOULD** provide evidence, whether through formal proof, simulation, or empirical data, that it adheres to the four principles of stable control (Standardion, Dissipativity, Bilevel Optimization, Information Constraint).
-*   **CC-B2.5.4 (Levels vs. Layers Distinction):** The model **MUST** maintain the formal distinction between the structural hierarchy of `Levels` (`ComponentOf`) and the functional hierarchy of `Layers` (`controls`/`supervises`).
-
-### B.2.5:6 - **Common Anti-Patterns and How to Avoid Them**
-
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It (Conceptually) |
-| :--- | :--- | :--- |
-| **The "Ghost in the Machine"** | The model shows a collection of parts that somehow coordinate to achieve a global goal, but there is no identifiable mechanism or agent responsible for that coordination. | **CC-B2.5.1** forces the modeler to explicitly name the `Supervisor`. If no supervisor can be identified, then no supervisory loop exists, and the coordination is either an illusion or an un-modeled external factor. |
-| **The "Functional Soup"** | A diagram mixes physical components and functional layers in the same hierarchy. The "Planning Layer" is shown as a "part of" the physical system. | **CC-B2.5.4** and the strict mereology of FPF (A.14) forbid this. A functional layer is realized *by* physical components, but it is not *part of* them. This prevents category errors. |
-| **The "Perfect Communication" Fallacy** | The design of the control logic assumes that the supervisor has instant, infinite-bandwidth access to the state of all subsystems. The system fails in the real world due to network latency. | **Principle P-I (Information Constraint)** and its formal invariant **SSI-5** mandate that the stability analysis must account for the real-world constraints of the `Shared Medium`. |
-
-### B.2.5:7 - **Consequences**
-
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Provable Stability and Robustness:** The pattern provides a path to creating complex, multi-agent systems that are not just functional but are provably stable and resilient to disturbances. | **Analytical Complexity:** Proving the formal invariants (SSI-1 to SSI-5) can be a non-trivial analytical or simulation task. *Mitigation:* For less critical systems, demonstrating adherence to the manager-facing criteria may be sufficient. The full formal proof is reserved for high-assurance applications. |
-| **Composable Control:** A well-formed LCA, proven to be Standardive and dissipative, can itself be treated as a stable "sub-holon" in an even higher-level supervisory loop. This enables the construction of deeply nested, yet manageable, control holarchies. | - |
-| **Clear Architectural Roles:** The pattern provides a clear language (Supervisor, Sub-Holon, Shared Medium) for describing the roles and responsibilities within a complex supervisory architecture, improving communication between teams. | - |
-| **Universal Applicability:** The pattern provides a single, unified conceptual tool for understanding control and regulation in systems as diverse as robotics, economics, and scientific communities. | - |
-
-### B.2.5:8 - **Rationale**
-
-This pattern distills the core insights of modern, post-2015 control theory and cybernetics into a universal, tool-agnostic architectural template. It recognizes that the classical, single-controller model is insufficient for the challenges of autonomy, collective intelligence, and large-scale socio-technical systems.
-
-By formalizing the concepts of **Levels** vs. **Layers** and providing a set of universal stability principles (Standardion, Dissipativity, etc.), FPF creates a bridge between the abstract mathematics of control theory and the practical art of systems architecture. It provides a rigorous, first-principles answer to the fundamental question: "How do you build a complex, multi-part holon that reliably works together to achieve a common goal, without falling into chaos?" The pattern's true power lies in its universality: it reveals the congruent architectural logic that underpins effective supervision, whether that supervision is realized by a silicon chip, a nervous system, or a social Standard.
-
-### B.2.5:9 - **Relations**
-
-*   **Is an elaboration of:** The "Supervisor Emergence" (S) trigger in `B.2 Meta-Holon Transition (MHT)`. This pattern describes the architecture of the supervisor that emerges during an MHT.
-*   **Builds upon:** The `U.System`, `U.Method`, `U.Role`, and `U.Interaction` concepts from the FPF Kernel and Part A.
-*   **Constrains:** The design of any `U.Method` intended to serve a supervisory function.
-*   **Enables:** The creation of deep, multi-level holarchies where each level is itself a provably stable supervisory system.
-
-### B.2.5:End
-
-## B.3 - Trust & Assurance Calculus (F–G–R with Congruence)
-
-> **Plain‑English headline.**
-> B.3 defines how **assurance** (trust) is **computed and propagated** for both physical systems and knowledge artifacts, using a small set of **characteristics** and **conservative aggregation rules** that respect the Γ‑invariants and A.15 **Strict Distinction**. It treats the **Working‑Model layer** as the **publication surface** for claims, with assurance **attached downward** (Mapping - Logical - Constructive - Empirical) per E.14.
-
-### B.3:1 - Problem frame
-
-Every non‑trivial result in FPF—*a composed system is safe*, *a model is credible*, *a conclusion holds*—is a **claim** that rests on **composed evidence**.
-
-* For **U.System** holons (Γ\_sys), assurance is about *capabilities and constraints* under stated conditions.
-* For **U.Episteme** holons (Γ\_epist), assurance is about the *quality of support* for a statement or model.
-
-To make such claims comparable and auditable across domains, B.3 introduces a **Trust & Assurance Calculus** that:
-
-* uses a **small set of characteristics** (F–G–R) governed by CHR principles (these are **not** a state space),
-* accounts for **integration quality** via **Congruence Level (CL)** along the edges of a `DependencyGraph` (B.1.1, A.14),
-* and composes these values with **Γ‑flavours** while respecting the **Invariant Quintet** (IDEM, COMM/LOC or their replacements, WLNK, MONO).
-
-B.3 is **conceptual and normative**: it defines *what must be measured and how the measures propagate*. How you improve those measures (e.g., formalize, replicate, reconcile) is the job of KD‑CAL actions (the knowledge‑dynamics patterns; references are descriptive, not required to read here).
-
-**Mechanism linkage.** For law‑governed operation families (e.g., **USM/UNM**) authored as **mechanisms**, use A.6.1 — U.Mechanism to publish **OperationAlgebra/LawSet/AdmissibilityConditions** and the **Transport** clause (Bridge‑only, CL/CL^k/CL^plane). All such penalties **reduce `R/R_eff` only**; **F/G** remain invariant.
-
-**Working‑Model handshake (alignment with E.14 - B.3.5 - C.13).**  
-Assurance consumes two inputs declared at the **Working‑Model** surface (CT2R‑LOG, B.3.5): the **justification stance** `validationMode ∈ {postulate, inferential, axiomatic}` and, where present, the **grounding link** `tv:groundedBy`. Structural claims that aspire to the strongest guarantees rely on **Constructive** grounding as a **Γₘ** (Compose‑CAL) narrative referenced via `tv:groundedBy`. No assurance artefact **defines** Working‑Model wording or layout (downward‑only dependence, E.14).
-
-### B.3:2 - Problem
-
-Without a disciplined calculus, four chronic failures appear:
-
-1. **Trust inflation:** Averaging or summing heterogeneous “quality” tags yields aggregates that look better than their weakest parts, violating WLNK.
-2. **Scale confusion:** Mixing ordinal and ratio scales (e.g., averaging “formality levels” with numeric reliabilities) produces meaningless numbers.
-3. **Congruence blindness:** Integration quality (how well pieces fit) is invisible; brilliantly strong parts connected by weak mappings produce overconfident wholes.
-4. **Scope drift:** Design‑time formalism and run‑time evidence are composed into a single score; dashboards then claim “assurance” for a blueprint using live data, or vice versa.
-
-
-### B.3:3 - Forces
-
-| Force                                    | Tension                                                                                                                             |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **Conservatism vs. Synthesis**           | Avoid overclaiming (WLNK) ↔ allow real gains from better integration (raise CL) or true emergence (B.2).                            |
-| **Universality vs. Domain nuance**       | One calculus for systems and epistemes ↔ physics and epistemology use different primitives; keep them comparable but not identical. |
-| **Simplicity vs. Fidelity**              | Keep the characteristic space small (A.11) ↔ capture enough structure to be informative and improvable by KD‑CAL actions.           |
-| **Static clarity vs. Dynamic evolution** | A score must be reproducible today ↔ tomorrow it should legitimately rise after formalization, replication, or reconciliation.      |
-
-
-### B.3:4 - Solution — **Part 1: The assurance tuple and the universal aggregation skeleton**
-
-B.3 defines **what** to measure, **how** those measures live on nodes and edges of the dependency graph, and the **shape** of the aggregation that any Γ‑flavour must honor when producing an *assurance result*.
-
-#### B.3:4.1 - The F–G–R characteristics (CHR‑compliant)
-
-We standardize three characteristics on **nodes (holons)** plus one **edge** characteristic:
-
-1. **Formality (F)** — *how constrained the reasoning is by explicit, proof‑grade structure.*
-
-   * **Scale kind:** **ordinal** (levels do not admit arithmetic).
-   * **Canonical levels (example):**
-        `F0 Informal prose` - `F1 Structured narrative` - `F2 Formalizable schema` - `F3 Proof‑grade formalism`.
-   * **Monotone direction:** higher is better (never lowers assurance when all else fixed).
-
-2. **ClaimScope (G)** — *how broadly the result applies in the relevant domain space.*
-
-   * **Scale kind:** **coverage / span** (set‑ or measure‑based; domain‑specific).
-   * **Monotone direction:** larger, but only when **correctly supported** (see WLNK and CL below).
-
-3. **Reliability (R)** — *how likely the claim/behavior holds under stated conditions.*
-
-   * **Scale kind:** **ratio** in `[0,1]` (or a conservative ordinal proxy when numeric modeling is unavailable).
-   * **Monotone direction:** higher is better.
-
-2. **Congruence Level (CL)** — *edge property: how well two parts fit* (semantic alignment, calibration, interface Standard).
-
-   * **Scale kind:** **ordinal** with a **monotone penalty function** `Φ(CL)` where `Φ` decreases as CL increases.
-   * **Canonical levels (example):**
-     `CL0 weak guess` - `CL1 plausible mapping` - `CL2 validated mapping` - `CL3 verified equivalence`.
-   * **Interpretation:** low CL reduces the credibility of the *integration itself* (not the parts), and therefore **penalizes** the aggregate **R**.
-
-> **Strict Distinction (A.15).**
->
-> * Characteristics live at **value level** (they qualify holons or edges conceptually), while Γ‑flavours fold **structure/order/time**.
-> * Do not smuggle characteristics into structural edges; keep them explicit on nodes/edges as CHR metadata.
-
-> **Assurance shoulders (Working‑Model split).**  
-> **Mapping** raises **TA** (typing, fit/CL). **Logical** and **Constructive** contribute to **VA** (intended relation semantics; Γₘ extensional identity for structure). **Empirical Validation** contributes to **LA** (evidence in a bounded context). These supports attach **downward** from the Working‑Model surface (E.14).
-
-#### B.3:4.2 - Assurance as a typed claim
-
-B.3 speaks about **assurance of a specific typed claim** `C` over a holon `H` under context `K` and scope `S ∈ {design, run}`:
-
-```
-Assurance(H, C | K, S) = ⟨F_eff, G_eff, R_eff, Notes⟩
 ```
 
-* `C` examples: *meets load L*, *argument Q holds*, *model M predicts within δ*.
-* `K` binds assumptions (environment, usage, priors).
-* `Notes` include the **SCR** (all sources, B.1.3), **OrderSpec/TimeWindow** where applicable (B.1.4), cutsets, and evidence citations (A.10).
+Interpret the fields as follows:
 
-This tuple gives readers an at‑a‑glance view (didactic primacy) while preserving the pieces needed for audit and improvement.
+- `SourceSurfaceKind` names the primary declared source-surface family that the line is anchored on.
+- `SourceSurfaceId?` names the concrete declared source surface or declared set surface when several same-family surfaces are live or when one neighboring governing pattern must be cited to keep that identity unique. It may be omitted only when the concrete source surface is unambiguous from the declared line.
+- `SearchSpaceRef` points to one declared `A.19` `CharacteristicSpace` in the search-side position.
+- `OutcomeSpaceRef` points to one declared `A.19` `CharacteristicSpace` in the outcome-side position.
+- `SpaceRefRelationKind` states how those two refs relate. In ordinary use, the token is either `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom`.
+- `SourceToOutcomeRelation` is one controlled declaration slot. State at least direction, mode, and carrier.
+- `DistortionPosture` is one controlled declaration slot with one primary posture token plus optional clarifying note. In this slice, lawful posture tokens include `transparent-for-current-use`, `lossy-bridge`, `metric/model-dependent`, `transition-dependent`, `uncertainty-bearing`, `learned/adaptive`, and `unstable-under-refresh`.
+- `SourceSurfaceComposition`, `DerivedViewKind`, and related `...Kind` values remain declaration fields or controlled field values unless some receiving governing pattern explicitly promotes them; they are not automatically independent heads merely because their names end with `Kind`.
 
-**Validation modes (declaration, normative).** 
-Each published Working‑Model assertion **SHALL** declare **`validationMode ∈ {postulate, inferential, axiomatic}`** (E.14).  
-— *postulate* → pragmatic working claim; **Empirical Validation** is **required** for audit.  
-— *inferential* → reasoned consequence; **Logical** assurance carries the burden.  
-— *axiomatic* → constructive identity; **structural** edges MUST provide a Γₘ narrative and a **`tv:groundedBy`** pointer (C.13, B.3.5).
+This is an `A.6.5` / `A.6.P` move: `SearchSpaceRef` and `OutcomeSpaceRef` are ref-typed slot contents, while `SpaceRefRelationKind` is the explicit `RelationKind` token that governs how those two ref positions are read together.
 
-**Design vs run (no chimeras).** Assurance tuples for **design‑time** and **run‑time** SHALL be reported **separately** and **not composed into a single score**; see the *Scope drift* hazard in §2 and the obligations in B.3.3.
+#### A.19.SURF-SPACE:4.3 - Substrate declaration laws (SS-0..SS-7)
 
-#### B.3:4.3 - Where the numbers live (and do not)
+**SS-0 - One substrate line, one explicit stack.**
+Treat a line as declared substrate only if one recoverable source-surface basis, two recoverable space refs, one explicit ref-to-ref relation kind, one explicit source-to-outcome relation, and one explicit posture are present together.
 
-* **On nodes:** each input holon contributes its local `F, G, R` according to its nature (system vs. episteme).
-* **On edges:** each integration step has a `CL` (congruence of the connection).
-* **Not inside Γ:** Γ consumes `D` and returns a composed holon; B.3 governs how `F, G, R, CL` **propagate** to the **Assurance** tuple for that composed holon. This keeps Γ algebra and assurance calculus **separable** and reviewable.
-* **Not a state space:** `⟨F,G,R⟩` is an **assurance tuple**, not a `U.CharacteristicSpace`; do **not** draw “trajectories” in `⟨F,G,R⟩`. For episteme evolution, use **ESG** states and the **assurance‑trace** hooks (see below).
+**SS-1 - Ref typing is preserved.**
+`SearchSpaceRef` and `OutcomeSpaceRef` must resolve to declared `A.19` `CharacteristicSpace`. They do not become parallel space kinds, slot aliases, or role claims.
 
-#### B.3:4.4 - Universal aggregation skeleton (domain‑neutral)
+**SS-2 - Source-surface recoverability is mandatory.**
+The reader must be able to recover not only the source-surface family but, when several same-family surfaces are simultaneously live, the concrete declared surface through `SourceSurfaceId?` or one cited neighboring governing pattern that uniquely identifies it.
 
-Any Γ‑flavour that claims an **Assurance** result **must** adopt the following **conservative skeleton**:
+**SS-3 - Relation requirement must be explicit.**
+`SourceToOutcomeRelation` is conforming only when direction, mode, and carrier are explicit enough to tell what is related to what, through which carrier/relation mode, and through which declared support qualifier.
 
-1. **Formality:**
+**SS-4 - Posture honesty is mandatory.**
+`DistortionPosture` must say whether the line is transparent for current use or qualified by loss, metric/model dependence, transition dependence, uncertainty, learning/adaptation, or instability under refresh. The line may not hide qualification in atmospheric prose.
 
-   ```
-   F_eff = min_i F_i
-   ```
+**SS-5 - Conditional and support fields stay subordinate.**
+`SourceSurfaceComposition`, `DerivedViewKind`, `BasePaletteRef`, `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote` may clarify the substrate, but they do not replace the core stack and do not become mandatory everywhere.
 
-   *Rationale:* the least formal piece caps the formality of the whole (WLNK on F).
-   *Monotone:* raising any `F_i` cannot reduce `F_eff`.
+**SS-6 - Publication and policy stay outside.**
+Publication metadata, shortlist identity, live-pool policy, and enactment policy remain neighboring decisions. A substrate line may feed them, but it does not decide them.
 
-2. **ClaimScope:**
+**SS-7 - Admission is fail-closed.**
+If the source surface cannot be recovered, either space ref is unresolved, `SpaceRefRelationKind` cannot be chosen honestly, relation direction, mode, or carrier remains vague, or posture remains unclassified, then the line is not yet a declared substrate. Keep it as a working gloss or move it to the governing pattern that can close the missing requirement.
 
-   ```
-   G_eff = SpanUnion({G_i}) constrained by support
-   ```
+#### A.19.SURF-SPACE:4.4 - Profiles
 
-   * “SpanUnion” is a **set/coverage union** in the domain’s space.
-   * **Constraint:** any region in the union **unsupported** by reliable parts is **dropped** (WLNK).
-   * *Monotone:* adding supported span cannot reduce `G_eff`.
+Use one of these ordinary profiles:
 
-3. **Reliability (penalized by integration):**
+- **Shared-space profile.**
+  `SearchSpaceRef` and `OutcomeSpaceRef` both resolve to the same declared `CharacteristicSpace`, and `SpaceRefRelationKind = sameDeclaredSpaceAs`.
+- **Cross-space profile.**
+  `SearchSpaceRef` and `OutcomeSpaceRef` resolve to two distinct declared `CharacteristicSpace` declarations, and `SpaceRefRelationKind = distinctDeclaredSpaceFrom`.
+- **Derived-source supplement.**
+  If the visible source surface is one derived tradition, front, or palette view, keep `DerivedViewKind` and `BasePaletteRef` explicit so the derived surface does not silently become the default meaning of the base palette or source surface.
 
-   ```
-   R_raw = min_i R_i                       // Weakest-link cap
-   R_eff = max(0, R_raw − Φ(CL_min))       // Congruence penalty
-   ```
+#### A.19.SURF-SPACE:4.5 - Operational declaration sequence (fail-closed)
 
-   * `CL_min` is the **lowest** congruence level on any edge in the proof spine / critical integration region for the claim `C`.
-   * `Φ` is **monotone decreasing** and **bounded** (never makes negative values).
-   * *Monotone:* increasing any `R_i` or any `CL` cannot lower `R_eff`.
+When declaring one substrate-bearing line, proceed in this order:
 
-4. **SCR and Notes:**
-   * The aggregate SHALL produce a SCR listing all contributing nodes and edges, with their F, G, R, CL, scopes, and evidence links (A.10).  
-   * The SCR SHALL additionally surface the **describedEntity** (`describe(Object→GroundingHolon)`) and the **ReferencePlane** for the claim, and present a **separable TA/VA/LA table** of evidence contributions with **valid_until/decay** marks and the **Epistemic‑Debt** per § B.3.4.  
-   * If order/time mattered for the claim, attach the OrderSpec or TimeWindow identifiers (B.1.4).
+0. **Entry test.** Confirm that the line really needs source-surface plus search/outcome-space plus relation/posture discipline. If it only needs `CharacteristicSpace` typing, use `A.19`. If it only needs publication or policy, apply the governing pattern that carries that publication or policy question.
+1. **Recover the active source surface.** State `SourceSurfaceKind`. If several same-family surfaces are simultaneously live, fill `SourceSurfaceId?` or cite the neighboring governing pattern that makes that identity unique.
+2. **Recover the space refs.** Point `SearchSpaceRef` and `OutcomeSpaceRef` to already-declared `CharacteristicSpace`.
+3. **Choose the ref-to-ref relation kind.** Declare `sameDeclaredSpaceAs` only when both refs truly resolve to one declared space. Declare `distinctDeclaredSpaceFrom` only when they truly resolve to two distinct declared spaces. Do not leave this to reader inference.
+4. **State the source-to-outcome relation.** Give direction, mode, and carrier explicitly. If one named `OutcomeMapRef` or another declared support qualifier carries the relation, cite that qualifier explicitly. If not, state the carrier directly in prose.
+5. **State the posture.** Declare whether the line is transparent for current use or qualified by loss, metric/model dependence, transition dependence, uncertainty, learning/adaptation, or instability under refresh.
+6. **Add only the fields that are really doing work.** Add composition, derived-view, base-palette, metric, transition, or bridge qualifiers only when the current case actually depends on them.
+7. **Run the boundary check.** If the line starts deciding publication metadata, shortlist identity, live candidate policy, enactment policy, or support-view organization, stop and apply the pattern that governs that question.
 
-This skeleton is **mandatory**. Domain‑specific patterns may add **refinements** (e.g., separate epistemic “replicability” vs. “calibration”) as long as they **do not violate** WLNK or MONO and preserve scale kinds.
+**Fail-closed rule.** Do not treat the line as declared substrate if any of steps 1-5 remains unresolved. Incomplete recovery is a real defect here, not one stylistic omission.
 
+#### A.19.SURF-SPACE:4.6 - Canonical rewrite forms
 
-#### B.3:4.5 - System vs. Episteme — same shape, different readings
+When the line is ready, it should be possible to rewrite it into one of these minimal forms.
 
-* **For systems (Γ\_sys):**
+**Shared-space form**
 
-  * `F` reads as **engineering discipline** (from ad‑hoc procedure to verified specification).
-  * `G` reads as **operational envelope coverage**.
-  * `R` reads as **assured reliability** under `K` (requirements, environment, test campaigns).
-  * `CL` often arises at **interfaces** (Boundary‑Inheritance Standard; B.1.2): poorly controlled interfaces reduce `R_eff`.
+```text
+SourceSurfaceKind      = ...
+SourceSurfaceId?       = ...
+SearchSpaceRef         = DeclaredCharacteristicSpace@...
+OutcomeSpaceRef        = DeclaredCharacteristicSpace@...
+SpaceRefRelationKind   = sameDeclaredSpaceAs
+SourceToOutcomeRelation= <direction, mode, carrier>
+DistortionPosture      = <posture token; optional note>
+```
 
-* **For epistemes (Γ\_epist):**
+**Cross-space form**
 
-  * `F` reads as **logical/semantic formality** (from prose to proof).
-  * `G` reads as **domain span** (concepts, populations, conditions).
-  * `R` reads as **evidential support** (replication quality, measurement integrity).
-  * `CL` measures **semantic alignment** of merged constructs (terminology mapping, ontology bridges, calibration).
+```text
+SourceSurfaceKind      = ...
+SourceSurfaceId?       = ...
+SearchSpaceRef         = SearchCharacteristicSpace@...
+OutcomeSpaceRef        = OutcomeCharacteristicSpace@...
+SpaceRefRelationKind   = distinctDeclaredSpaceFrom
+SourceToOutcomeRelation= <direction, mode, carrier>
+DistortionPosture      = <posture token; optional note>
+```
 
-> **Agentness is separate (A.13).**
-> Agency metrics (Agency‑CHR) **do not enter the skeleton by default**. They may act as a **contextual overlay** (e.g., to argue why a supervisory policy can maintain `R` across disturbances), but **never** to bypass **WLNK** or the **CL penalty**. Grade shifts should be modeled as **MHT** events when they create new capabilities.
+If neither rewrite form can be completed honestly, the line is not yet publishable as substrate-bearing text.
 
+#### A.19.SURF-SPACE:4.7 - Conditional fields stay conditional
 
-#### B.3:4.6 - Scale discipline (CHR guard‑rails)
+Use `SourceSurfaceComposition` only when the line genuinely consumes several declared source surfaces.
 
-To prevent silent misuse:
+When composition is active:
 
-* **Ordinal scales (F, CL):** never average or subtract; only `min`/`max`, thresholds, and monotone comparisons are allowed.
-* **Coverage scales (G):** use union/intersection in a declared domain space; do not “average” sets. If a numeric proxy is used (e.g., coverage ratio), it **must** be derived from a set operation, not vice versa.
-* **Ratio scales (R):** may be combined with `min`, `max`, or **explicitly justified** conservative functions; do not add R’s from different contexts without normalization of `K` (assumptions).
+- `SourceSurfaceKind` still names the primary family the line is anchored on;
+- `SourceSurfaceComposition` names the additional declared source-surface families or the explicit composed-source posture that widens that primary family;
+- the composition field does not replace the primary family, and it does not silently retitle the whole line as one different source kind.
 
+Use `DerivedViewKind` only when one derived view is materially active and the reader must be able to recover that derivation.
 
-#### B.3:4.7 - What improves the tuple (action patterns, high‑level)
+Use `BasePaletteRef` only when a derived tradition or palette view would otherwise hide the recoverable base palette.
 
-B.3 remains neutral about *how* improvement happens, but for didactic clarity:
+#### A.19.SURF-SPACE:4.8 - Support qualifiers stay support-only
 
-* **Raise F:** formalize narratives (specifications, machine‑checked models).
-* **Raise G:** enlarge supported span (new test regimes, new populations) with adequate evidence.
-* **Raise R:** replicate, calibrate, tighten measurement error, reduce bias.
-* **Raise CL:** reconcile vocabularies, align units, formalize mappings, verify interface Standards.
+`OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote` are admitted as support-only qualifiers.
 
-Each of these corresponds to recognizable **Transformer roles** and KD‑CAL moves (design‑time); their **run‑time** counterparts are covered by Γ\_time (phase evidence) and Γ\_work (cost of obtaining assurance).
+Use them when:
 
-### B.3:4.8 - Prohibition (normative) — F–G–R is not a CharacteristicSpace
-Do not treat `⟨F,G,R⟩` as a `U.CharacteristicSpace` and do not define geometric **trajectories** over it. Use **ESG** for episteme state and the **assurance‑trace** hooks for trends in assurance tuples.
+- one declared mapping really disciplines the source-to-outcome relation;
+- one metric really disciplines spread, neighborhood, or comparison claims;
+- one `TransitionSupportRef` really disciplines dynamic coupling or transfer;
+- or one bridge-loss note is the relevant reason the relation is qualified.
 
-### B.3:5 Proof obligations (attach these when producing an Assurance tuple)
+Do not make those support qualifiers the semantic center of the substrate. They help explain the relation; they do not replace the line made explicit by `SourceSurfaceKind`, `SourceSurfaceId?`, `SearchSpaceRef`, `OutcomeSpaceRef`, and the declared relation/posture pair.
 
-These obligations refine the generic Proof Kit from **B.1.1 §6** for **assurance** outputs. Each Γ‑flavour that emits an *Assurance(H, C | K, S)* tuple MUST attach the applicable obligations below.
+Qualifier semantics are first declared on the substrate side. Later support views may reuse those qualifiers, but they do not become the place where the qualifier is first invented or materially changed.
 
-#### B.3:5.1 - Common obligations (all Γ‑flavours)
+#### A.19.SURF-SPACE:4.9 - Descriptor maps and distance definitions dock here, but do not replace the space refs
 
-* **ASS‑CLM (Typed claim & context).**
-  State the **claim** `C` (what is being assured), the **context** `K` (assumptions, environment), and the **scope** `S ∈ {design, run}`.
+When a neighboring line already uses `DescriptorMapRef` or `DistanceDefRef`, dock it explicitly:
 
-* **ASS‑SCA (Scale discipline).**
-  Declare the **scale kind** used for each characteristic (F ordinal, G coverage, R ratio) and confirm that all operations are **admissible** for that kind (no averaging of ordinals; G via set/coverage ops).
+- `DescriptorMapRef` may realize or support the search-side or outcome-side representation requirement, as the current line requires;
+- `DistanceDefRef` may realize or support the metric requirement over that representation on either side, as the current line requires;
+- but neither one replaces `SearchSpaceRef` or `OutcomeSpaceRef`;
+- and `CharacteristicSpace` remains a different kind from `DescriptorMap`.
 
-* **ASS‑WLNK (Weakest‑link evidence).**
-  Identify the **cutset** (node or edge set) that caps F/G/R for the claim (the proof spine for epistemes, the structural or assurance bottleneck for systems).
+Use this docking rule whenever a reader could otherwise mistake one local representation layer for the whole search-side or outcome-side space reference.
 
-* **ASS‑CL (Congruence path).**
-  Identify the **relevant integration path(s)** and record `CL_min` used in the penalty `Φ(CL_min)`.
+#### A.19.SURF-SPACE:4.10 - Publication and shipping remain downstream consumers
 
-* **ASS‑MAN (SCR).**
-  Produce a **SCR** listing all contributing nodes and edges with `(F, G, R)` and `CL` values, their **DesignRunTag**, and Evidence Graph Ref (A.10). If order or time were material, include the **OrderSpec** or **TimeWindow** identifiers from **B.1.4**.
+`G.5` and `G.10` may carry metadata such as `SelectorOutcomeKind`, `SetSurfaceKind`, `SourceSurfaceKind`, `SourceSurfaceComposition`, `DerivedViewKind`, and `BasePaletteRef` when one selected or shipped surface is being published.
 
-* **ASS‑MONO (Declared monotone characteristics).**
-  List the characteristics along which local improvement cannot reduce the aggregate (this supports future evolution, B.4).
+That does not mean `G.5` or `G.10` defines the substrate.
 
-#### B.3:5.2 - Γ\_sys (systems) — additional obligations
+Read the boundary this way:
 
-* **CORE‑BIC (Interface congruence).**
-  Reference the **Boundary‑Inheritance Standard** (BIC) from **B.1.2** and record any interface mismatches; these contribute to `CL_min`.
+- this pattern defines the substrate that later publication must preserve;
+- `G.5` publishes selector-facing outcome metadata;
+- `G.10` ships publication metadata and pins;
+- neither one redefines the search-side reference, the outcome-side reference, or the source-to-outcome relation.
 
-* **CORE‑ENV (Operating envelope).**
-  Specify the domain used for **G** (e.g., load–temperature region) and how coverage is computed (set union constrained by support).
+#### A.19.SURF-SPACE:4.11 - Ordinary and heavier use
 
-#### B.3:5.3 - Γ\_epist (epistemes) — additional obligations
+For ordinary use, one short declaration block is enough:
 
-* **EPI‑SPN (Entailment spine).**
-  Identify the **premise/lemma spine** for the claim; `R_raw = min R_i` is taken along this spine, not over arbitrary satellites.
+- one `SourceSurfaceKind`;
+- `SourceSurfaceId?` when family-level naming alone would be ambiguous;
+- one `SearchSpaceRef`;
+- one `OutcomeSpaceRef`;
+- one explicit `SpaceRefRelationKind`;
+- one explicit relation line;
+- one explicit posture line.
 
-* **EPI‑MAP (Semantic mapping congruence).**
-  Point to the **vocabulary/ontology mappings** used; their verification status sets the **CL** levels on the integration edges.
+Use the heavier stack only when one of these is true:
 
-#### B.3:5.4 - Γ\_ctx / Γ\_method (order‑sensitive) — additional obligations
+- several declared source surfaces are genuinely composed;
+- one derived view must stay recoverable;
+- one support qualifier is materially active;
+- one descriptor-map or distance-definition docking clause is needed to prevent collapse;
+- or the reader would otherwise mistake publication metadata for substrate semantics.
 
-* **CTX‑ORD (OrderSpec).**
-  Attach the partial or total order `σ` and any **join‑soundness** conditions (types, pre/post‑conditions).
-  (See B.1.4 for NC‑1..3 invariants; B.1.5 adds duration/capability typing.)
+#### A.19.SURF-SPACE:4.12 - Operator kit: choose, declare, self-check, apply governing neighbor
 
-#### B.3:5.5 - Γ\_time (temporal) — additional obligations
+Use this compact kit whenever the task is practical declaration rather than one more explanatory paragraph.
 
-* **TIME‑COV (Coverage & identity).**
-  Show that `PhaseOf` intervals cover the declared window without overlap for the **same carrier**; justify any gap/overlap explicitly.
+| Decision point | What to do now | Admissible result | Stop or apply another pattern when... |
+| --- | --- | --- | --- |
+| `1. What is the line acting on?` | Name `SourceSurfaceKind`, and when several same-family surfaces are live also make the concrete source surface recoverable. | The reader can tell which surface the line is about. | The source surface still floats behind one vague family word. |
+| `2. Are search and outcome in one declared space or in two?` | Point `SearchSpaceRef` and `OutcomeSpaceRef` to declared `CharacteristicSpace`, then choose `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom`. | The space-role split is explicit. | The same-space versus cross-space question is still being guessed from context. |
+| `3. What relation is actually being claimed?` | Write one explicit `SourceToOutcomeRelation` with direction, mode, and carrier. | The reader can inspect what is related to what, through which carrier and relation mode. | You are still leaning on one umbrella word such as `projection`, `portfolio`, or `maps into`. |
+| `4. What qualification is honest?` | Choose the governing `DistortionPosture` token and add one note only when it really sharpens the case. | The line is honest about loss, uncertainty, learning/adaptation, or other qualification. | Qualification remains atmospheric prose or one fake default of transparency. |
+| `5. Which heavier supports are truly active?` | Add only the qualifier fields that the current case actually uses. | Supports stay subordinate to the substrate. | The next question is really support-view work, publication, or policy. |
 
-> **Note on Γ\_work.**
-> Resource spending and efficiency live in **Γ\_work**. Their *measurement integrity* can influence **R** for a claim (e.g., if a reliability figure depends on calibrated energy input), but **costs themselves are not assurance**; keep them in Γ\_work and cite their **measurement assurance** as inputs here.
+Use this minimal worksheet when drafting or repairing one substrate line:
 
+```text
+SourceSurfaceKind       = ...
+SourceSurfaceId?        = ...
+SearchSpaceRef          = ...
+OutcomeSpaceRef         = ...
+SpaceRefRelationKind    = sameDeclaredSpaceAs | distinctDeclaredSpaceFrom
+SourceToOutcomeRelation = <direction, mode, carrier>
+DistortionPosture       = <token; optional note>
+Optional supports       = <only those actually active>
+```
 
-### B.3:6 - Archetypal grounding (worked examples)
+Run this self-check before you leave the line:
 
-#### B.3:6.1 - System archetype — **Battery pack safety claim**
+- if the worksheet cannot be filled without one hidden assumption, the declaration is not ready yet;
+- if the next needed prose is mainly "how should the reader inspect this substrate?", continue in `A.19.SUPPORT-VIEW`;
+- if the next needed prose is "what gets published, shipped, retained, or enacted?", apply `G.5`, `G.10`, `C.19`, or `C.24`;
+- if the current line changes because one neighbor wants different naming, glossing, or repair vocabulary, keep the substrate declaration here and let `F.18`, `A.0`, or `A.6.P` handle that neighboring requirement explicitly.
 
-* **Claim `C`:** *Pack P meets discharge current L with thermal safety margin δ in environment K.*
-* **Context `K`:** Ambient ≤ 35 °C; airflow ≥ X; duty cycle Y. Scope `S = run`.
-* **Graph:** Cells `ComponentOf` modules `ComponentOf` pack; BIC exposes main power and thermal interface.
-* **Inputs:**
+#### A.19.SURF-SPACE:4.13 - Using the substrate with neighboring patterns
 
-  * `F` per node: module spec F2, cell test F1 → `F_eff = F1`.
-  * `G`: operating envelope regions; union constrained by supported test regimes.
-  * `R`: per‑module reliability from test data; cutset is **hot‑spot path** near weakest cell.
-  * `CL`: interface congruence (sensor calibration CL2; thermal contact CL1).
-* **Aggregation:**
+Once one substrate line is declared, use neighboring patterns in this order:
 
-  * `R_raw = min R_i` along the thermal cutset.
-  * `R_eff = max(0, R_raw − Φ(CL_min=CL1))`.
-  * `G_eff`: union of supported (L,T) rectangles, dropping regions lacking validated thermal data.
-  * `F_eff = min(F_cell=F1, F_module=F2) = F1`.
-* **SCR:** Evidence for calibration, test campaigns, BIC.
-* **Improvement path:** raise `CL` (better thermal interface verification), raise `F` (formal thermal model), add supported envelope → **R\_eff** and **G\_eff** increase monotonically.
+- Use `A.19.SUPPORT-VIEW` when the next requirement is interpretive help over the same substrate. The support view may foreground the line, but it does not become the ontology.
+- Use `G.2` when that support becomes palette-first, tradition-facing atlas work. Keep the base palette and the cited substrate recoverable while doing it.
+- Use `A.6.P` when one passage collapses source surface, space ref, support view, atlas view, or mapping into one umbrella word. Repair the wording back to the substrate declaration before adding more theory.
+- Use `F.18` when the problem is label choice or naming-side comparison around this stack. Naming notes may explain why one head is better named; they do not settle the substrate relation.
+- Use `A.0` when the task is cold-reader glossing of these tokens. Glosses help recognition; they do not replace the declaration block.
 
-#### B.3:6.2 - Episteme archetype — **Meta‑analysis claim**
+If a neighboring passage would change the source-to-outcome relation or the distortion posture, reopen this pattern first. Neighboring text may reuse the substrate, but it may not silently rewrite it.
 
-* **Claim `C`:** *Intervention X reduces outcome O by Δ on population P.*
-* **Context `K`:** Inclusion/exclusion criteria, measurement protocol; `S = design`.
-* **Graph:** Studies `MemberOf` evidence corpus; effect models `ConstituentOf` synthesis; mappings align different outcome scales.
-* **Inputs:**
+### A.19.SURF-SPACE:5 - Archetypal Grounding
 
-  * `F`: two RCTs at F3, one observational at F2 → `F_eff = F2`.
-  * `R`: per‑study replication/quality → weakest R on the entailment spine caps `R_raw`.
-  * `CL`: mapping of scales (CL1 vs CL3).
-  * `G`: populations union, but unsupported sub‑populations are dropped.
-* **Aggregation:**
-+* **Aggregation:**  
-* **\[M‑1]** ordinal support ranking; note weakest‑link study.  
-* **\[M‑2]** compute `R_eff` with Φ table; record `CL_min` for scale mappings.  
-* **\[F‑constructive]** formalise the effect‑model equivalence and export proof‑term hash.  # [M/F]
 
-  * `R_eff = max(0, min(R_RCT1, R_RCT2, R_OBS) − Φ(CL_min=CL1))`.
-  * `G_eff`: union of supported sub‑populations; out‑of‑scope groups excluded.
-* **SCR:** Data provenance, scale mappings, bias assessment.
-* **Improvement path:** upgrade mapping verification to CL2/CL3; increase `F` via registered analysis plan; replicate lagging study.
+#### A.19.SURF-SPACE:5.1 - System
 
-#### B.3:6.3 - Order/Process archetype — **Manufacturing route assurance**
+**Tell.** One QD line keeps saying that one archive is both the search surface and the evaluation basis. Downstream readers need to see that the same declared `CharacteristicSpace` can still occupy two different role positions without turning the archive or the descriptor layer into the space itself.
 
-* **Claim `C`:** *Route R meets output defect rate ≤ ε.*
-* **Context `K`:** Materials, equipment class; `S = run`.
-* **Γ\_ctx artifacts:** `σ` order; declared independent branches; join conditions at inspection.
-* **Assurance:**
+**Show.**
 
-  * `R_raw = min R_step` along the **critical path** (includes inspection effectiveness).
-  * Penalty from poor join soundness `CL_min`.
-  * Improvement via faster but **verified** inspection (↑R\_step) or tighter join spec (↑CL).
+```text
+SourceSurfaceKind       = Archive
+SearchSpaceRef          = BehaviorCharacteristicSpace@ed=12
+OutcomeSpaceRef         = BehaviorCharacteristicSpace@ed=12
+SpaceRefRelationKind    = sameDeclaredSpaceAs
+SourceToOutcomeRelation = archive-retained candidates are navigated and judged
+                          for local coverage gain in the same declared behavior
+                          space
+DistortionPosture       = metric/model-dependent; descriptor realization and
+                          neighborhood metric support are active
+DescriptorMapRef        = QDDescriptorMap@ed=9
+DistanceDefRef          = ArchiveNeighborhoodDistance@ed=4
+SpaceMetricRef          = ArchiveNeighborhoodMetric@ed=4
+```
 
-#### B.3:6.4 - Temporal archetype — **Versioned model credibility**
+**Cash-out.** This line now says three distinct things cleanly: the active source surface is one archive, both role-refs resolve to the same declared `CharacteristicSpace`, and the descriptor map plus distance definition are only support layers over that shared space reference. A downstream selection or archive-maintenance discussion can reuse this line without pretending the archive itself is the space.
 
-* **Claim `C`:** *Model M predicts within ±δ over τ.*
-* **Context `K`:** Data regime and drift tolerance; `S = run`.
-* **Γ\_time artifacts:** `PhaseOf` slices v1, v2, v3 covering `τ`.
-* **Assurance:**
+#### A.19.SURF-SPACE:5.2 - Episteme
 
-  * `R_raw = min(R_v1, R_v2, R_v3)`;
-  * penalty if v2–v3 interface had low calibration congruence;
-  * improvement via re‑calibration (↑CL) or new validation campaign (↑R\_v3).
+**Tell.** One synthesis line presents one derived tradition front and then starts speaking as if the visible front were the default meaning of the whole palette.
 
-### B.3:7 - Conformance Checklist (normative)
+**Show.**
 
-| ID          | Requirement                                                                                                                                                                   | Purpose                                      |                                   |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | --------------------------------- |
-| **CC‑B3.1** | An assurance result **SHALL** be a typed claim \`Assurance(H, C                                                                                                               |  K, S)`with`S ∈ {design, run}\`.             | Prevent scope drift and chimeras. |
-| **CC‑B3.2** | `F` **SHALL** be treated as **ordinal** (`min`/thresholds only); `G` as **coverage** (set/measure union constrained by support); `R` as **ratio** (`min` + conservative ops). | Preserve scale integrity (CHR).              |                                   |
-| **CC‑B3.3** | The **Congruence Level** `CL` **SHALL** live on **edges**; the penalty `Φ(CL)` **SHALL** be **monotone decreasing** and **bounded** (`R_eff ≥ 0`).                            | Make integration quality first‑class.        |                                   |
-| **CC‑B3.4** | `R_eff` **SHALL** be computed as `R_eff = max(0, min_i R_i − Φ(CL_min))` for the relevant integration path(s), unless a stricter domain‑specific rule is justified.           | Enforce WLNK and penalize weak integrations. |                                   |
-| **CC‑B3.5** | `F_eff = min_i F_i`; `G_eff = SpanUnion({G_i})` **constrained by support**.                                                                                                   | Prevent over‑generalization.                 |                                   |
-| **CC‑B3.6** | An **Assurance SCR** **SHALL** be produced, listing node/edge values, Evidence Graph Ref, and any OrderSpec/TimeWindow identifiers, **and SHALL also display**:  (i) the **describedEntity binding** `describe(Object→GroundingHolon)` for the claim and the declared **CHR:ReferencePlane ∈ {world|concept|episteme}** (cf. C.2.3); (ii) a **TA/VA/LA breakdown** of anchored evidence **kept separable** per **CC–KD‑08**, with **decay/valid‑until** indicators on empirical bindings (A.10), and the **Epistemic‑Debt** tally as computed in **§ B.3.4**. | Provide auditability (A.10).                 |                      
-| **CC‑B3.7** | **Agency‑CHR** values (A.13) **SHALL NOT** override WLNK or `Φ(CL)` penalties; if agency grade change alters capabilities, model it as a **Meta‑Holon Transition**.           | Preserve safety; keep agency separate.       |                                   |
-| **CC‑B3.8** | Design‑time and run‑time assurance **SHALL NOT** be mixed in one tuple; compare them side‑by‑side if needed.                                                                  | Avoid design/run mixing.                     |                                   |
+```text
+SourceSurfaceKind       = Front
+DerivedViewKind         = TraditionFront
+BasePaletteRef          = SoTAPaletteDescriptionId
+SearchSpaceRef          = TraditionComparisonSpace@ed=3
+OutcomeSpaceRef         = AdoptionOutcomeSpace@ed=2
+SpaceRefRelationKind    = distinctDeclaredSpaceFrom
+SourceToOutcomeRelation = the visible tradition front is one derived reading
+                          over the base palette and is compared against the
+                          declared adoption outcome space through one explicit
+                          cross-tradition outcome-bearing line
+DistortionPosture       = lossy-bridge; derived-view selection and bridge-loss
+                          notes must stay visible
+BridgeDistortionNote    = CrossTraditionComparisonLossNote@ed=1
+```
 
-### B.3:8 - Anti‑patterns and repairs
+**Cash-out.** The visible front stays a derived view over the palette, the base palette stays recoverable, and the outcome-side evaluation line stays explicit. A later support view or atlas view may reorganize this story, but it may not silently change the declared source-to-outcome relation or erase the bridge-loss warning.
 
-| Anti‑pattern             | Symptom                                                    | Repair                                                                                                         |
-| ------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **Averaging assurance**  | Mean of `R_i` reported as system reliability               | Use `min R_i` on the cutset, then apply `Φ(CL_min)`.                                                           |
-| **Ordinal arithmetic**   | Averaging `F` or `CL` to produce “2.3”                     | Use `min`/`max` or thresholds; never average ordinals.                                                         |
-| **Coverage as centroid** | Replacing `G` union with a single “typical point”          | Keep `G` as set/coverage; if a numeric proxy is needed, derive it from the set.                                |
-| **Ignoring congruence**  | No penalty for weak mappings/interfaces                    | Assign `CL` to integration edges; apply `Φ(CL_min)`.                                                           |
-| **Design/run chimera**   | “One score” mixing blueprint and telemetry                 | Split into `S=design` and `S=run` tuples; compare explicitly.                                                  |
-| **Agency override**      | Claiming higher assurance because a controller is “clever” | Agency may justify *how* improvements are achieved; it cannot remove WLNK or `Φ`.                              |
-| **MemberOf as stock**    | Using `MemberOf` to sum reliabilities                      | Keep `MemberOf` for collections; reliability comes from the relevant **Γ** composition (e.g., Γ\_sys cutset). |
+#### A.19.SURF-SPACE:5.3 - Boundary anti-case
 
+**Tell.** One note says only that "the shortlist front is the published surface for the current selector result" and names no source-to-outcome relation, no search-side space, no outcome-side space, and no posture.
 
-### B.3:9 - Consequences
+**Show.** This is not a substrate declaration. It is publication metadata over one already-selected surface.
+
+**Cash-out.** Apply `G.5` or `G.10` to that note. Do not pad it with pseudo-substrate words just to make it look deeper than it is.
+
+#### A.19.SURF-SPACE:5.4 - Use-situation spread
+
+Use the pattern this way across different working situations:
+
+| Working situation | What to do with this pattern | What must stay explicit | Common miss avoided |
+| --- | --- | --- | --- |
+| Archive-side QD line where navigation and evaluation stay in one declared behavior space | Use the shared-space profile. Fill the six core fields, then add descriptor/metric support only if active. | `Archive` as source surface, both role-refs, `sameDeclaredSpaceAs`, and the active posture. | Treating the archive or descriptor layer as if it were the space itself. |
+| Derived tradition/front line that is judged against one different outcome space | Use the cross-space profile and keep `DerivedViewKind` plus `BasePaletteRef` visible. | The derived view stays derived, the base palette stays recoverable, and the cross-space relation stays explicit. | Letting the visible front replace the base palette or hiding the bridge-loss posture. |
+| Learned, adaptive, or uncertainty-bearing line where the space declaration is real but heavier support is still case-bound | Keep the substrate core explicit and choose the honest posture token such as `uncertainty-bearing`, `learned/adaptive`, or `unstable-under-refresh`. | The reader can see that the substrate is real without being promised fake geometric closure. | Pretending every serious case is either fully transparent or fully described by one metric stack. |
+| Shortlist or publication note that only says what surface is shown or shipped | Do not use this pattern. Apply `G.5` or `G.10` directly. | The note stays publication-facing instead of imitating substrate depth. | Padding publication metadata with pseudo-substrate language. |
+
+### A.19.SURF-SPACE:6 - Bias-Annotation
+
+
+- **Gov bias.** The pattern prefers explicit declaration over convenient shorthand.
+- **Arch bias.** The pattern keeps substrate, support view, and publication consumers separated even when one merged story would read more smoothly.
+- **Prag bias.** The pattern prefers a short explicit substrate declaration that can be reused across search, synthesis, and publication-adjacent lines.
+- **SoTA bias.** The pattern assumes current QD and OEE work often uses learned, adaptive, unstructured, or uncertainty-bearing spaces and therefore resists premature geometric closure.
+
+### A.19.SURF-SPACE:7 - Conformance Checklist
+
+Treat a line as conforming only if every gate below passes.
+
+| ID | Gate question | Fail when | Repair or governing pattern |
+| --- | --- | --- | --- |
+| `CC-A19SS-1` | Is the line really declaring one substrate-bearing relation rather than only `CharacteristicSpace`, publication metadata, or policy? | The line only names a space object, or only publishes, ships, or retains something, with no explicit source, ref, relation, or posture stack. | Move to `A.19`, `G.5`, `G.10`, `C.19`, or `C.24` as appropriate. |
+| `CC-A19SS-2` | Is the active source surface recoverable enough for the current case? | Only a vague family word such as `front` or `archive` remains, and several same-family surfaces are live with no way to tell which one is meant. | Add the concrete declared surface id or cite the neighboring governing pattern that makes the surface unique. |
+| `CC-A19SS-3` | Do `SearchSpaceRef` and `OutcomeSpaceRef` both resolve to declared `A.19` `CharacteristicSpace`, and is `SpaceRefRelationKind` explicit? | One or both refs are vague, or the line leaves the same-space versus cross-space question to inference. | Restore the two refs and declare `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom` explicitly. |
+| `CC-A19SS-4` | Is the source-to-outcome relation explicit in direction, mode, and carrier? | The line hides the relation in one umbrella phrase such as `projection`, `portfolio`, or `maps into`, with no explicit carrier. | Rewrite into the canonical substrate form and state direction, mode, and carrier. |
+| `CC-A19SS-5` | Is the active qualification posture explicit and honest? | The line is qualified in effect, but the posture is unstated or all non-transparent cases are blurred into one generic loss story. | Declare the governing posture token and any needed note; if that cannot be done honestly, keep the line informative only. |
+| `CC-A19SS-6` | Are conditional and support fields used only when they really do work? | Composition, derivation, base-palette, map, metric, transition, or bridge qualifiers are fabricated everywhere or silently become core. | Remove unused qualifiers; keep only the fields the current case actually depends on. |
+| `CC-A19SS-7` | If `DescriptorMapRef` or `DistanceDefRef` is active, does the text say they realize or support the relation rather than replace the space ref? | The representation or metric layer is treated as if it were the declared search-side or outcome-side space. | Re-state the docking rule and keep the two space refs visible. |
+| `CC-A19SS-8` | Does the line stay out of publication and policy work? | The prose starts deciding shortlist identity, selector outcome, shipping closure, or live-pool/enactment policy. | Split the line and move those downstream decisions to their governing patterns. |
+| `CC-A19SS-9` | Can the line be rewritten into one canonical substrate form without invention? | The line still depends on hidden assumptions or unresolved candidates. | Keep it as a working gloss or repair the missing recovery before reuse. |
+| `CC-A19SS-10` | Could a cold reader take the next lawful declaration step from this line without surrounding memo help? | The line still speaks only in umbrella words such as `space`, `projection`, or `portfolio`, and the reader cannot tell what to fill next. | Use the substrate worksheet from `4.12` or rewrite into one canonical substrate form before reuse. |
+| `CC-A19SS-11` | When the next question is support-view, publication, or policy, is the next governing pattern explicit? | The text keeps talking as if substrate, support, publication, and policy were one layer, so the reader cannot tell where to continue. | Split the line and cite `A.19.SUPPORT-VIEW`, `G.5`, `G.10`, `C.19`, or `C.24` as the next governing pattern. |
+| `CC-A19SS-12` | Does the current use claim only the breadth it actually supports? | The prose implies universal geometric closure or one universal heavy-support story, but the declared posture or supports stay narrower, uncertain, learned/adaptive, or case-bound. | Narrow the claim explicitly or add the missing posture/support qualifiers that make the broader claim honest. |
+
+### A.19.SURF-SPACE:8 - Common Anti-Patterns and How to Avoid Them
+
+
+| Anti-pattern | Why it fails | Repair |
+| --- | --- | --- |
+| Treating one archive or front as the search space itself | A source surface is not the same kind as one declared `CharacteristicSpace`. | Keep `SourceSurfaceKind` and `SearchSpaceRef` separate. |
+| Leaving `SpaceRefRelationKind` implicit | The reader then has to guess whether search and outcome share one declared space or use two distinct declared spaces. | Declare `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom` next to the two refs. |
+| Letting `DescriptorMapRef` stand in for the whole substrate | A representation layer is not identical to the position-typed space declaration. | State the docking rule explicitly and keep the space refs visible. |
+| Making `SourceSurfaceComposition` or `DerivedViewKind` mandatory in every line | The line fabricates composition or derivation where none exists. | Keep them conditional. |
+| Publishing with bare `portfolio` language | `portfolio` blurs retained-set, selected-set, and posture talk. | Use declared source-surface and outcome metadata instead. |
+| Treating all distortion as one bridge story | Not every qualified relation is bridge-mediated. | State the active posture directly. |
+| Letting `G.5` or `G.10` sound like the substrate itself | Publication metadata then silently replaces substrate semantics. | Keep publication as downstream use of the substrate. |
+
+### A.19.SURF-SPACE:9 - Consequences
 
 **Benefits**
 
-* **Comparable, conservative, improvable.** The tuple ⟨F, G, R⟩ with **edge‑level CL** gives a compact, auditable view that improves monotonically under targeted actions (formalize, replicate, reconcile).
-* **Cross‑scale coherence.** Works for assemblies and arguments, procedures and histories, without leaking order/time/cost into structure.
-* **Clear upgrade paths.** It is obvious **what to do** to raise each component (raise F/G/R locally or raise CL on the glue).
+- Readers can see what the line is acting on, what spaces it distinguishes, what relation is declared between the two space refs, and what outcome load it claims.
+- `A.19`, `C.18`, `G.5`, and `G.10` stay coordinated without collapsing into one layer.
+- Heavier supports such as maps, metrics, transitions, and bridge-loss notes remain usable without being forced into every first slice.
 
-**Trade‑offs**
+**Trade-offs**
 
-* **More explicit metadata.** You must state scale kinds, cutsets, and mapping congruence; this is intentional transparency.
-* **Conservatism may feel pessimistic.** True synergy appears only via **MHT** or after raising CL—never by arithmetic optimism.
+- The line must expose one explicit relation and one explicit posture instead of hiding them in umbrella prose.
+- Some cases that used to look "simple" will expose real uncertainty or loss that now needs to be declared.
+- Neighboring support-view or publication patterns may need to be read as companions rather than assumed from local shorthand.
+
+### A.19.SURF-SPACE:10 - Rationale
+
+The pattern chooses a narrow but sturdy center of gravity.
+
+`A.19` already declares `CharacteristicSpace`. The missing load is not another free-floating space kind. It is the ref-position and relation stack that tells the reader:
+
+- which declared source surface is active;
+- which declared space is named in the search-side position;
+- which declared space is named in the outcome-side position;
+- what `SpaceRefRelationKind` says about those two refs;
+- and how much transparency, distortion, uncertainty, or error the line is honestly claiming.
+
+That is why this pattern stops before support views and before publication metadata. If it tried to say less, the load would collapse back into vague `space` or `projection` talk. If it tried to say more, it would start absorbing views, fronts, archives, shortlists, or shipping semantics that belong elsewhere.
+
+### A.19.SURF-SPACE:11 - SoTA-Echoing
+
+| SoTA practice | Primary source(s) | Practice demand disciplined here | Practical safeguard bought | Adoption stance |
+| --- | --- | --- | --- | --- |
+| Modern multilevel evolutionary theory looks for one common substrate across several levels rather than forcing one tradition-local carrier to tell the whole story. | Vanchurin (2026) on generally covariant evolutionary dynamics; Warrell et al. (2024) on unified multilevel evolutionary frameworks. | `SS-0`, `SS-2`, `CC-A19SS-1`, `CC-A19SS-2`. | Keeps one neutral substrate beside `A.19`, so one archive, front, or publication surface cannot silently stand in for the whole substrate declaration load. | **Adapt.** Keep one neutral substrate, but bind it to FPF declaration discipline. |
+| Contemporary QD practice distinguishes feature/behavior space, quality/objective side, archive/repertoire surfaces, and local competition rather than treating one vague "space" as enough. | 2026 QD review; IJCAI 2024 stepping-stone results; MOUR-QD (2025). | `SS-1`, `SS-3`, `CC-A19SS-3`, `CC-A19SS-4`, worked slices `5.1` and `5.2`. | Forces search-side ref, outcome-side ref, and source-to-outcome relation to stay explicit, so downstream search/evaluation claims remain auditable. | **Adopt/Adapt.** Adopt the split; adapt it to FPF declared-source-surface discipline. |
+| Frontier QD and adjacent work increasingly use learned, adaptive, unstructured, and uncertainty-bearing spaces and supports, so one heavy metric or transition stack should not be assumed everywhere. | Uncertain Quality-Diversity (2023); Extract-QD (2025); later adaptive-space and meta-competition lines. | `SS-4`, `SS-5`, `CC-A19SS-5`, `CC-A19SS-6`. | Makes uncertainty posture explicit while keeping map, metric, transition, and bridge-loss pins optional unless the case truly depends on them. | **Adopt/Adapt.** Adopt uncertainty honesty and optional heavier supports; reject mandatory geometric monoculture. |
+| Atlas and manifold-support lines are useful in some cases, but they are not the default meaning of every cross-surface line. | UMAP 2024 review; 2024-2025 atlas and manifold-optimization lines. | `SS-5`, `SS-6`, boundary anti-case `5.3`, `CC-A19SS-8`. | Preserves substrate semantics so later support or atlas views can help interpretation without quietly becoming the ontology. | **Adapt.** Keep atlas-form support as a later specialization, not the substrate's ordinary center. |
+
+### A.19.SURF-SPACE:12 - Relations
+
+- **Builds on:** `A.19`, `A.17`, `A.18`.
+- **Coordinates with:** `C.18`, `C.19`, `G.5`, `G.10`, `A.19.SUPPORT-VIEW`, `A.6.P`, `A.0`.
+- **Specialized by:** `A.19.SUPPORT-VIEW` and later support-view or atlas specializations when one line needs derived interpretation over an already-declared substrate.
+- **Does not replace:** selector outcome publication, shipping metadata, live pool policy, or enactment planning.
+
+### A.19.SURF-SPACE:End
+
+---
+
+## A.19.SUPPORT-VIEW - Cross-Surface Support View
+
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative
+
+**Plain-name.** Cross-surface support view.
+
+**Governed object.** One declared support-only view over one already-declared cross-surface and cross-space substrate-bearing basis, written as a domain-specific use-site under existing `U.EpistemicViewing` and `U.MultiViewDescribing` law, so the reader can inspect one substrate through thinner or fuller support views without changing the substrate, the publication surface, or the described entity. In this slice, the admissible basis is either the explicit substrate line itself or one declared source-surface entry point or set-surface entry point through which that substrate remains recoverable.
+
+### A.19.SUPPORT-VIEW:0 - Use this when
+
+Use this pattern when one already-declared substrate from `A.19.SURF-SPACE` is already in force, and the current passage either cites that substrate directly or works through one declared source-surface entry point or set-surface entry point that keeps the substrate recoverable, but the reader still needs one support view to see how the line should be read in practice.
+
+Typical indicators are:
+
+- the substrate is already declared, but one thinner interpretive view is still needed so the active source surface, search-side space, outcome-side space, or distortion posture stays understandable;
+- one fuller atlas-form reading may help collect several typed set views, active set surfaces, cited spaces, mappings, or support qualifiers without changing the underlying substrate;
+- one derived tradition or palette view must stay recoverable as a view over a base palette rather than silently becoming the palette's default meaning;
+- or one line needs optional support pins such as `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, or `BridgeDistortionNote`, but those pins must stay supporting qualifiers rather than the semantic center.
+
+This is the right pattern when the working need is no longer "what substrate is declared?" and not yet "what shortlist, publication surface, or shipped result do we emit?".
+
+Not this pattern when:
+
+- you still need to declare the substrate itself, including source-surface and search/outcome-space roles; use `A.19.SURF-SPACE`;
+- you only need `CharacteristicSpace`, its slots, or its typing hooks; use `A.19`;
+- you are publishing selector outcomes, shortlist identity, or shipping metadata; use `G.5` or `G.10`;
+- you are setting live pool policy, retained-set policy, or enactment/planning posture; use `C.19` or `C.24`;
+- you are defining a new generic view law, viewpoint bundle, or publication-view family rather than one domain-specific support reading; use `A.6.3`, `E.17.0`, `E.17`, or `E.17.1`;
+- the line would change the described entity rather than preserve it; use `A.6.4` or the appropriate retargeting pattern.
+
+### A.19.SUPPORT-VIEW:0.1 - What goes wrong if missed
+
+If this pattern is missed, support work usually fails in one of four ways:
+
+- the substrate is forced to carry every support question itself, so `A.19.SURF-SPACE` starts reading as if it also governed support views, atlas readings, or palette interpretation;
+- the word `view` appears as one fresh local theory, detached from existing `U.EpistemicViewing` and `U.MultiViewDescribing`, so viewpoint, view, and surface start collapsing again;
+- one atlas-form reading quietly becomes the default meaning of the whole family, so a fuller support form starts redefining the base palette or base source surface;
+- or support pins such as `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote` either disappear into vague prose or are promoted into mandatory core everywhere.
+
+The reader then cannot tell whether a visible interpretation is one optional support view, one fuller atlas reading, one publication surface, or one new semantic head.
+
+### A.19.SUPPORT-VIEW:0.2 - What this buys
+
+This pattern buys one disciplined middle layer:
+
+- the substrate remains the semantic center;
+- thinner support views remain admissible when a full atlas form is unnecessary;
+- `CrossSurfaceAtlasView` remains available as one fuller reusable specialization, but not as the default head;
+- derived palette or tradition views keep their base palette and base source surfaces recoverable;
+- active set surfaces, cited spaces, mappings, and qualifying support stay recoverable when the current reading uses them;
+- and publication, shipping, and pool-policy questions stay outside the view.
+
+The practical payoff is simple: the reader can use one support view to understand the declared line better without mistaking that support view for the line's ontology, output, or policy.
+
+### A.19.SUPPORT-VIEW:0.a - TERM/LEX token-status guard (local-first)
+
+Keep this token-status split explicit:
+
+- `CrossSurfaceSupportView` is the ordinary/common support-view head introduced here for domain-specific reuse over one already-declared substrate-bearing basis: either the substrate line itself or one declared source surface or declared set surface that keeps the substrate recoverable.
+- `CrossSurfaceAtlasView` is the fuller specialization of that same family. It is not the common head and it is not automatically required.
+- `TypedSetViews` is one local plural field over already-declared set-view heads or ids. It is not a new generic set-surface ontology.
+- `TraditionAtlasView` is one local `G.2` specialization of `CrossSurfaceAtlasView`, not the family head for all support-view use.
+- `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote` are guarded neighboring refs or support qualifiers reused here. This pattern may foreground them, but it does not mint them.
+- `support question` is one local declaration field naming the interpretive load the current reading helps with. It is not a replacement for `U.Viewpoint`.
+- `DerivedViewKind` and `BasePaletteRef` stay local recoverability aids here; they do not silently turn the derived reading into the base ontology.
+
+### A.19.SUPPORT-VIEW:0.b - First-minute operator cue and confusion map
+
+Use this pattern only after one substrate is already declared, either cited directly or kept recoverable through one declared source surface or declared set surface. The first-minute move here is not "write more about the same space". It is "decide what support question the reader needs answered without changing the described entity".
+
+Do this in the first minute:
+
+1. Cite the base substrate or the source-surface entry point or set-surface entry point that stays recoverable with it.
+2. State the support question in one sentence.
+3. Choose thin support or atlas support.
+4. Keep the active source surface and any active set surface recoverable.
+5. Add only the supports that truly discipline the reading.
+
+If you cannot name the base substrate or the recoverable source-surface entry point or set-surface entry point that carries it, or if the current prose would change the source-to-outcome relation or its posture, stop. You are either repairing the substrate, retargeting the object, or drifting into publication/policy.
+
+| If the live question sounds like... | Use now | Why |
+| --- | --- | --- |
+| "How do I help the reader inspect the declared substrate?" | `A.19.SUPPORT-VIEW` | This pattern governs support-only reading. |
+| "What is the substrate itself?" | `A.19.SURF-SPACE` | The base line has to exist first. |
+| "Which palette-first or tradition-facing atlas reading should I use?" | `G.2` over this family | That is one local specialization of atlas support. |
+| "What do we publish, ship, keep live, or plan next?" | `G.5`, `G.10`, `C.19`, or `C.24` | Those publication, shipping, live-pool, and planning questions stay outside support views. |
+
+Common confusion to kill early: one visible atlas or metric note does not make atlas form automatically necessary. Thin support is already a complete admissible answer.
+
+### A.19.SUPPORT-VIEW:1 - Problem frame
 
 
-### B.3:10 - Rationale (informative)
+Once one cross-surface and cross-space substrate has been declared, many lines still need one second-order reading surface for ordinary work.
 
-B.3 distills mature post‑2015 practice across several fields into a single, small calculus:
+Examples include:
 
-* **Assurance by weakest link** reflects reliability engineering and safety cases in complex systems; composing claim strength by minima prevents over‑statement.
-* **Formality and verifiability** mirror advances in model‑based engineering and formal verification, where raising F turns subjective arguments into verifiable artifacts.
-* **Coverage as set/measure** follows evidence synthesis and validation practice that treat applicability as a domain region, not a scalar to “average.”
-* **Congruence on edges** captures what meta‑analysis, interface control, and ontology alignment have repeatedly shown: integration quality is often the real bottleneck. Penalizing low‑CL is a principled way to prevent silent over‑confidence while rewarding verified reconciliation.
+- one archive-centered reading that needs optional metric or transition support to explain why certain regions stay promising;
+- one derived tradition or palette reading that must remain visibly derived from a base palette;
+- one atlas-form reading that collects several typed set views, active set surfaces, spaces, maps, metrics, or distortion notes so that cross-scale structure stays readable;
+- one support rendering that helps the reader inspect the declared substrate without turning that rendering into the substrate's default meaning.
 
-This arrangement preserves **A.11 Parsimony** (few characteristics), aligns with **A.14/A.15** (clear separation of structure, order, time, cost, values), and leaves Context for domain‑specific refinements that do not break the invariants.
+Current FPF already points in that direction. `A.6.3` and `E.17.0` already give the general law that views are describedEntity-preserving and do not mint autonomous new semantics. `G.2` already keeps `TraditionAtlasView` as optional neighboring support over one palette and declared set surfaces rather than making atlas semantics the meaning of `Tradition` itself. What is still missing is one common support-view pattern that:
 
+- stays explicitly under existing view law;
+- keeps thinner support views admissible;
+- keeps atlas form reusable but non-default;
+- and keeps support qualifiers optional and recoverable.
 
-### B.3:11 - Relations
+### A.19.SUPPORT-VIEW:2 - Problem
 
-* **Builds on:** B.1 (Universal Γ), B.1.1 (Proof Kit), B.1.2 (Γ_sys & BIC), B.1.3 (Γ_epist & SCR), B.1.4 (Γ_ctx/Γ_time), A.12 (Transformer), A.14 (Mereology), A.15 (Strict Distinction), **C.13 (Compose‑CAL)**.
-* * **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication‑surface discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation aliasing and grounding (`tv:*`, `validationMode`).
-* **Used by:** KD‑CAL action patterns (to plan improvements), B.4 (Evolution loops that raise F/G/R or CL over time).
-* **Triggers:** B.2 (Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes) when genuine new capabilities emerge that change the applicable cutsets or envelopes.
+How should one declare a support view so that:
 
-> **One‑page takeaway.**
-> Report assurance as **⟨F, G, R⟩** for a **typed claim** under explicit **context/scope**, and penalize by the **lowest edge‑level congruence**.
-> Improve assurance by raising **F**, **G**, **R**, or **CL**—and keep order, time, and cost in their own lanes.
+1. it is explicitly one domain-specific use-site of existing `U.EpistemicViewing` and `U.MultiViewDescribing` law, not one fresh autonomous theory of views;
+2. it keeps the already-declared substrate recoverable instead of replacing it;
+3. it allows both ordinary thinner support views and one fuller atlas-form support view;
+4. it keeps `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote` optional and support-only;
+5. it keeps derived palette or tradition views recoverable through `DerivedViewKind` and `BasePaletteRef` when those are active;
+6. it does not mint new set-surface heads, selector policy, publication policy, or shipping semantics;
+7. it lets `G.2` keep `TraditionAtlasView` as one local specialization rather than as the generic head of the whole family;
+8. and it fails closed when the line would really be retargeting, new view-law work, substrate repair, publication, or policy?
 
-### B.3:End
-
-## B.3.3 — Assurance Subtypes & Levels
-
-### B.3.3:1 - **Problem Frame**
-
-A complex project may generate hundreds of artifacts: design specifications, simulation models, test suites, and operational logs. While the Trust & Assurance Calculus provides a framework for evaluating these artifacts, teams often face a critical challenge: how to aggregate this diverse evidence into a single, meaningful signal of an artifact's maturity. Simply counting the number of tests or documents can lead to "paper compliance," where an artifact appears well-supported but has critical, unexamined weaknesses in its formal structure or conceptual alignment.
-
-### B.3.3:2 - **Problem**
-
-How do we create an objective, auditable, and balanced Standard for what constitutes "trustworthiness" at each stage of an artifact's development cycle? FPF requires a mechanism that moves beyond simple evidence counting to a qualitative assessment of assurance. This mechanism must prevent common failure modes, such as over-investing in run-time validation (LA) at the expense of design-time verification (VA), or neglecting the critical work of ensuring concepts are correctly mapped and typed (TA).
-
-### B.3.3:3 - **Solution**
-
-FPF establishes a formal Standard that links three distinct **Assurance Subtypes** to three computable **Assurance Levels**. An artifact's level is not assigned manually by an author; it is **derived automatically** by its anchored evidence. This creates a transparent and falsifiable system for tracking an artifact's journey from a speculative idea to a robust, reliable holon.
-
-#### B.3.3:3.1 - Assurance Subtypes: The Three Pillars of Trust
-
-These three subtypes categorize the kind of question an assurance activity answers, ensuring a balanced approach to building confidence.
-
-| Subtype | Code | Core Question | Links to Epistemic Score | Manager's View: What It Prevents |
-| :--- | :--- | :--- | :--- | :--- |
-| **Typing Assurance** | TA | “Does the artifact faithfully represent its intended concept?” | **CL** (Congruence Level) | **Miscommunication & Integration Failures.** TA ensures that when a requirement says "Sensor," the design model's "Sensor" component is the same conceptual thing. This activity directly improves the Congruence Level (CL) of the integration *edges* between artifacts. |
-| **Verification Assurance**| VA | “Is the holon logically correct under its stated assumptions?” | **FV** (Formal Verifiability)| **"It Works on Paper" Errors.** VA catches design flaws, logical inconsistencies, and specification errors before a single line of code is written or a physical part is machined. It ensures the blueprint is sound. |
-| **Validation Assurance**| LA | “Does the holon work correctly in the real world?” | **EV** (Empirical Validability)| **"Works in the Lab, Fails in the Field" Surprises.** LA confirms that the holon performs as expected under real or simulated operational conditions, accounting for noise, unexpected inputs, and environmental factors. |
-
-#### B.3.3:3.2 - Computed Assurance Levels: The Ladder of Maturity
-
-An artifact’s level is computed based on the evidence it has accumulated. This creates a clear, step-by-step path for increasing trust.
-
-| Level | Name | How It Is Computed |
-| :--- | :--- | :--- |
-| **Level 0** | **Unsubstantiated** | No `verifiedBy` or `validatedBy` evidence is present. The artifact is a claim or an idea. |
-| **Level 1** | **Substantiated** | At least one `verifiedBy` or `validatedBy` link to an evidence artifact exists, and the artifact is supported by Typing Assurance (TA). |
-| **Level 2** | **Axiomatic** | The artifact is `verifiedBy` either a proof **or** a **Compose‑CAL (Γₘ) constructive narrative** that the author has linked from the Working‑Model via `tv:groundedBy` (CT2R‑LOG). Its FormalVerifiabilityScore (FV) meets or exceeds a pre‑defined threshold. Additionally, if the holon is designated as safety‑critical, it **MUST** also be supported by **Validation Assurance (LA)**. For non‑critical holons, LA is strongly recommended (`SHOULD`). |
-
-> **Didactic Note for Managers: What 'Level 1' Really Means**
->
-> Think of moving from Level 0 to Level 1 as the first step toward professional seriousness.
->
-> *   **Level 0** is an idea on a whiteboard. It has potential, but no receipts.
-> *   **Level 1** means you have **at least one receipt**. You have anchored the idea to something concrete: a passing test, a formal sketch, a simulation result. It's no longer just an opinion.
->
-> Crucially, Level 1 also demands **Typing Assurance (TA)**. This sounds technical, but its business impact is simple: **it means you've named your terms correctly and consistently**. You've used the Role-Projection Bridge (Pattern B.5) to ensure that the "Sensor" in your requirements document is the same "Sensor" in your architectural diagram. This basic alignment work is what prevents costly integration failures and endless meetings where teams talk past each other. Good typing is the foundation of clear communication, and at Level 1, FPF makes it mandatory.
-
-### B.3.3:4 - **Conformance Checklist**
-
-To ensure the integrity of the assurance calculus, the following rules are normative. A **Target of Assurance (ToA)** is any working-model element designated as a root claim (e.g., a top-level system requirement, safety goal, or core hypothesis).
-
-*   **CC-B3.3.1 (L1 Anchor Mandate):** A ToA **SHALL NOT** be considered to have reached `AssuranceLevel:L1` unless it is linked to at least one evidence artifact via `verifiedBy` or `validatedBy`.
-*   **CC-B3.3.2 (L1 Typing Mandate):** A ToA at `AssuranceLevel:L1` or higher **MUST** be supported by **Typing Assurance (TA)**. This includes, at a minimum, that its core concepts are mapped via the Role-Projection bridge (Pattern B.5) and it conforms to its declared schema.
-*   **CC-B3.3.3 (L2 V&V Mandate):** A ToA at `AssuranceLevel:L2` **MUST** satisfy all L1 criteria. In addition, it **MUST** be supported by **Verification Assurance (VA)** with `FV ≥ threshold_FV`. For holons designated as safety-critical (e.g., `criticality ≥ SIL-2`), the ToA **MUST** also be supported by **Validation Assurance (LA)** with `EV > 0`. For non-critical holons, LA **SHOULD** be present.
-    *   *Exemption Note:* Purely formal artifacts (e.g., mathematical axioms) may justify an exemption from the LA requirement, provided this is documented in their rationale.
-*   **CC-B3.3.4 (Concept-Bridge Completeness):** For any mechanism used in a model at `AssuranceLevel:L1` or higher, all of its mandatory U.Types **MUST** be mapped to domain concepts via the Role-Projection bridge (Pattern B.5).
-*   **CC-B3.3.5 (Scope Separation):** Assurance claims **MUST** maintain a strict separation between `design-time` and `run-time` scopes (Pattern A.4). An assurance tuple for a `MethodDescription` (design-time) SHALL NOT be conflated with one for its corresponding `Work`/`Trace` (run-time). The Evidence Graph Ref (`verifiedBy`, `validatedBy`) must point to artifacts of the appropriate scope.
-* **CC-B3.3.6 (CT2R‑LOG Handshake):** If a ToA depends on **structural** claims, those claims **SHALL** be published as **Working‑Model** relations and, when used to justify `L2`, **SHALL** declare `validationMode=axiomatic` and provide **Constructive** grounding with `tv:groundedBy → Γₘ.(sum|set|slice)` (see B.3.5 and C.13).  
-* **CC-B3.3.7 (Downward‑Only Dependence):** Assurance artefacts (Mapping/Logical/Constructive/Evidence) **SHALL NOT** impose vocabulary or layout back onto the Working‑Model surface (E.14).
- 
-### B.3.3:5 - **Common Anti-Patterns and How to Avoid Them**
-
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
-| :--- | :--- | :--- |
-| **The "Tested but Untyped" Mess** | "Our code has 100% test coverage, but we still have integration bugs and nobody understands what the code do." | **CC-B3.3.2** makes Typing Assurance (TA) mandatory for L1. You cannot claim your work is "Substantiated" without first ensuring your terms and concepts are clear and consistently mapped. |
-| **The "Perfect Blueprint, Flawed Reality"** | "The design was formally proven to be perfect, but the physical product failed catastrophically in the field." | **CC-B3.3.3** mandates Validation Assurance (LA) for safety-critical systems at L2. A perfect blueprint (`FV=4`) is not enough; you must also provide empirical evidence (`EV>0`) that it works in the real world. |
-| **The "Paper Compliance" Shell Game** | "We have thousands of documents and links, so we must be at a high assurance level." | The computed `AssuranceLevel` is not based on the *quantity* of evidence but on its *type* and *quality* (via FV/EV scores). You cannot reach L2 without strong formal verification (VA), no matter how much validation (LA) you do. |
-
-### B.3.3:6 - **Consequences**
-
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Objective Gatekeeping:** The rules provide a clear, objective, and falsifiable basis for an artifact's assurance status, eliminating subjective judgment and "assurance theater." | **Risk of Over-stringency:** The rules might feel too strict for rapid prototypes. *Mitigation:* The requirements for `L1` are deliberately lightweight, demanding only one piece of evidence and basic typing, making the first step onto the ladder accessible. |
-| **Balanced Assurance:** The Standard requires a mix of evidence types for higher levels, preventing teams from over-investing in one area (e.g., testing) while neglecting another (e.g., formal specification). | **Risk of Evidence Inflation:** Teams might add trivial evidence just to meet the criteria. *Mitigation:* The quality of evidence is assessed via the epistemic scores (FV, EV, CL); merely linking to low-quality evidence will not significantly raise the scores needed for L2. |
-| **Clear Progress Tracking:** The ladder provides a clear roadmap for maturing an artifact from an idea to a fully assured component, making planning and progress monitoring transparent. | **Overhead for Complex Holons:** A holon with many ToAs may require significant assurance work. *Mitigation:* The framework allows grouping, where a parent claim's evidence can satisfy the coverage requirements for its children if explicitly declared. |
-
-### B.3.3:7 - **Rationale**
-
-This pattern transforms the assurance framework from a descriptive taxonomy into a prescriptive, actionable Standard. By binding the computed `AssuranceLevel` to mandatory, well-defined evidence coverage, it makes the notion of "trustworthiness" in FPF an objective and auditable property. The rules ensure that as an artifact's formality and claimed reliability increase, the rigor and balance of its supporting evidence increase in lockstep, operationalizing the principle of "no blind trust." The separation of `design-time` and `run-time` evidence, mandated by CC-B3.3.5, further ensures that claims made about a blueprint are not confused with claims made about a running system, preserving the integrity of the entire lifecycle.
-
-### B.3.3:8 - **Relations**
-
-*   **Builds on:** `B.3.1 Characteristic & Epistemic Spaces`, `A.10 Evidence Graph Referring`, `A.4 Temporal Duality`.
-*   **Constrains:** The computation and interpretation of `AssuranceLevel` for all holons.
-*   **Enables:** Objective quality gates in the Canonical Evolution Loop (B.4) and reliable inputs for the Trust-Aware Mediation Calculus (D.4).
-
-### B.3.3:End
-
-## B.3.4 - Evidence Decay & Epistemic Debt
-
-### B.3.4:1 - **Problem Frame**
-
-The FPF assurance model (Pattern B.3.3) provides a robust framework for building trust in holons by anchoring claims to a rich body of evidence. However, it implicitly treats this evidence as timeless. A proof verified today is assumed to hold forever; a validation test run last year is given the same weight as one run yesterday. This assumption is dangerously flawed in any dynamic environment.
-
-Consider a bridge certified in 1980. The assurance case, resting on evidence about steel fatigue from that era, would be considered highly reliable *at that time*. Today, after decades of environmental change, new material science insights, and an entirely different traffic load, would we still trust that original certification without re-evaluation? The context has drifted, and the original evidence has lost its relevance. FPF requires a formal mechanism to account for this natural decay of trust.
-
-### B.3.4:2 - **Problem**
-
-Without a calculus for evidence aging, FPF models are vulnerable to three critical failure modes:
-
-1.  **Silent Risk Accumulation:** Trust silently decays. A component's high `AssuranceLevel` can become an illusion, resting on foundational evidence that is no longer valid in the current operational context. When aggregated, this stale trust propagates upwards, creating a seemingly robust system-of-systems that is, in fact, incredibly brittle.
-2.  **Audit Illusion:** An artifact can pass an audit with flying colors, showing a complete set of anchors to high-quality evidence, yet be fundamentally untrustworthy because that evidence is obsolete. This leads to a false sense of security and undermines the very purpose of the assurance case.
-3.  **Maintenance Paralysis:** Without a systematic way to flag stale evidence, re-validation efforts are often misdirected. Teams either engage in costly, unfocused re-testing of everything, or, more commonly, do nothing, allowing epistemic debt to accumulate until a failure forces a crisis.
-
-### B.3.4:3 - **Forces**
+### A.19.SUPPORT-VIEW:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Timeless Truth vs. Contextual Reality** | Formal proofs and logical derivations feel permanent and universal, yet the assumptions they make about the world are context-dependent and perishable. |
-| **Rigor vs. Agility** | Continuously re-validating every piece of evidence is prohibitively expensive and would paralyze any agile workflow. |
-| **Transparency vs. Cognitive Load** | We need to make the "staleness" of evidence visible, but we must do so without overwhelming teams with a constant barrage of decay alerts. |
-| **Governance vs. Flexibility** | There must be a formal method for managing aging evidence, yet teams need the autonomy to make risk-informed decisions about when to accept, refresh, or deprecate it. |
+| --- | --- |
+| Existing view law vs local usefulness | The support view must be useful in local substrate work, but it cannot invent a second `view` ontology beside `A.6.3` and `E.17.0`. |
+| Substrate stability vs interpretive help | Readers need one support layer, but that support layer must not redefine the substrate. |
+| Thin support vs atlas-form reading | Some cases need only one light interpretive view; others genuinely need one fuller atlas-form reading. The pattern must support both without making the fuller form default. |
+| Recoverability vs convenience | Derived tradition or palette views help reading, but they must not hide the base palette, base source surface, or active declared spaces. |
+| Support richness vs semantic inflation | Maps, metrics, transition supports, and distortion notes are often useful, but they must stay optional support qualifiers rather than new mandatory core. |
+| Readability vs downstream boundary discipline | The pattern should help cold readers immediately, while still keeping `G.5`, `G.10`, `C.19`, and `C.24` outside the support view. |
 
-### B.3.4:4 - **Solution**
+### A.19.SUPPORT-VIEW:4 - Solution
 
-FPF introduces a formal freshness model and a governance loop that make evidence aging a first-class, manageable property of the assurance calculus.
+Declare support views as support-only readings over one already-declared substrate-bearing basis, keep them explicitly under existing view law, and reserve atlas form for the cases that truly need it.
 
-#### B.3.4:4.1 - The Principle of Perishable Evidence
+#### A.19.SUPPORT-VIEW:4.1 - Governed object and outside work
 
-The core of the solution is a new normative principle: **Evidence is perishable**. The relevance of any piece of evidence is a function of time and context. An `AssuranceLevel` is therefore not a permanent achievement but a state that must be actively maintained.
+Use this pattern to declare:
 
-#### B.3.4:4.2 - Mechanism 1: The Freshness Standard (`valid_until`)**
+- one `CrossSurfaceSupportView`, the ordinary/common head of this support-view family;
+- one support-only reading over one already-declared substrate-bearing basis: either one explicit `A.19.SURF-SPACE` line or one already-declared source surface or declared set surface whose supporting spaces, mappings, and qualifiers remain recoverable through such a line;
+- the support question that makes this view worth showing;
+- the recoverable source surface or source surfaces that the support view is reading;
+- any active set surface, derived view, or base palette that the current reading keeps in play;
+- any cited spaces or mappings that the current reading depends on, provided those remain recoverable through declared refs or the cited substrate-bearing line;
+- and any optional supporting qualifiers that the current view genuinely needs.
 
-Every evidence artifact anchored in the Assurance Layer **MUST** carry a `valid_until` attribute.
+`CrossSurfaceAtlasView` is one fuller specialization inside that same family. It is not the common head.
 
-*   **`valid_until: ISO-8601-date | null`**
-*   This attribute acts as a "best before" date, explicitly stating the time horizon over which its creators consider it to be fully relevant without review.
-*   A value of `null` signifies that the evidence is considered **perpetual**. This is reserved for artifacts like mathematical axioms or fundamental physical laws whose validity is not expected to decay on engineering timescales.
+Do not use this pattern to declare:
 
-#### B.3.4:4.3 - Mechanism 2: The Epistemic Debt Metric (ED)
+- `CharacteristicSpace` itself;
+- the substrate role/relation stack from `A.19.SURF-SPACE`;
+- selector outcomes, shortlist heads, or shipping outputs;
+- live pool policy or enactment policy;
+- or a new generic law for views, viewpoints, or publication surfaces.
 
-When the current time `t` surpasses an evidence artifact's `valid_until` date, that artifact begins to accrue **Epistemic Debt (ED)**.
+#### A.19.SUPPORT-VIEW:4.2 - Minimal support view declaration
 
-*   **Definition:** Epistemic Debt is a quantitative measure of an artifact's "staleness." It is a function of its age past its expiry date.
-*   **Purpose:** ED is not a penalty but a **signal**. It makes the invisible risk of relying on old evidence visible and measurable.
+A conforming support view makes the following explicit:
 
-#### B.3.4:4.4 - Mechanism 3: The Governance Loop (`Refresh / Deprecate / Waive`)
+- which support-family head is active: ordinary `CrossSurfaceSupportView` or fuller `CrossSurfaceAtlasView`;
+- which already-declared substrate-bearing basis it is reading: either the explicit substrate line or the declared source-surface entry point or set-surface entry point that keeps that substrate recoverable;
+- which support question the view is answering;
+- which source surface or source surfaces must stay recoverable while the view is active;
+- which active set surface, if any, the current reading is using over that source surface;
+- which cited spaces and mappings, if any, the current reading depends on, and how they remain recoverable;
+- which optional supporting qualifiers are genuinely doing work in the current case;
+- and which neighboring publication, policy, naming, or support questions stay outside this view.
 
-Epistemic Debt is managed through a project-level **epistemic_debt_budget**. When the total accrued debt exceeds this budget, an alert is triggered, and the team **MUST** take one of three actions:
+The minimum ordinary support view declaration is therefore:
 
-| Action | What It Means | Manager's View: The Practical Consequence |
-| :--- | :--- | :--- |
-| **Refresh** | Produce new, up-to-date evidence and set a new `valid_until` date. | **"We invest the resources to re-validate."** This is the engineering fix: run the tests again, update the model, re-certify the component. |
-| **Deprecate**| Acknowledge that the evidence is no longer valid and formally downgrade the `AssuranceLevel` of the dependent artifact (typically to `L0` or `L1`). | **"We accept the risk by lowering the component's official status."** The component is no longer considered fully assured and may be flagged for restricted use until it is refreshed. |
-| **Waive** | A designated authority (e.g., a senior systems engineer or a safety officer) formally accepts the risk of using the stale evidence for a limited time. | **"I am signing off on this risk, for now."** This is a temporary, auditable override. It keeps the project moving but makes the risk acceptance explicit and assigns responsibility. |
+1. one declared substrate-bearing basis from `A.19.SURF-SPACE`: either the explicit base substrate line or one declared source surface or declared set surface whose substrate remains recoverable with it;
+2. one explicit support question;
+3. one recoverable active source-surface basis, plus any active set surface drawn from it when the reading uses one;
+4. any cited spaces, mappings, and qualifying uncertainty/distortion supports remain recoverable whenever the reading cites them;
+5. one explicit statement that this is support-only and does not redefine substrate or publication semantics.
 
-> **Didactic Note for Managers: Managing Your "Trust Budget"**
->
-> Think of Epistemic Debt exactly like financial or technical debt. It’s not inherently evil, but it must be managed. The FPF dashboard now includes a "Trust Health" meter.
->
-> *   **Green:** Your evidence is fresh. Your assurance case is solid.
-> *   **Amber:** Epistemic Debt is accumulating. It's time to plan for re-validation work in the next sprint.
-> *   **Red:** Your debt has exceeded its budget. Your CI/CD pipeline might be issuing warnings, and you are now carrying un-budgeted risk. You must immediately decide: **Pay it down (Refresh), write it off (Deprecate), or take out a short-term, high-visibility loan (Waive).**
->
-> This loop transforms the vague problem of "keeping things up to date" into a concrete, resource-managed, and auditable engineering process.
+#### A.19.SUPPORT-VIEW:4.3 - Support view declaration laws (SV-0..SV-8)
 
-#### B.3.4:4.5 - Mechanism 4: The Epistemic Debt (ED) Calculation & Aggregation**
+**SV-0 - View-law docking is explicit.**
+Every conforming support view is one domain-specific use-site under existing `A.6.3` / `E.17.0` law. It does not introduce one autonomous new theory of views.
 
-To make ED a useful leading indicator, it must be computed and aggregated consistently.
+**SV-1 - The described entity is preserved.**
+The support view preserves the described entity already carried by the base line. If the current prose would change that described entity, the line is no longer one support view over the same substrate.
 
-*   **Calculation:** For a single evidence artifact `i`, its debt at time `t` is a function of its age past expiry:
-    `ED_t(i) = k * max(0, t - valid_until_i)`
-    *   The coefficient `k` is a configurable linear decay factor (default: `1.0 per day`), allowing projects to tune the "interest rate" on their debt.
+**SV-2 - The base substrate remains the semantic center.**
+The support view may foreground aspects of the base line, but it does not replace or repair the base substrate declaration. Substrate repair belongs back in `A.19.SURF-SPACE`.
 
-*   **Aggregation:** The total ED for an artifact `A` is the sum of the debt from all its direct and transitive Evidence Graph Ref:
-    `ED_t(A) = Σ_i ED_t(evidence_i)`
-    *   This rule ensures that debt propagates up the holarchy. If a foundational component's validation expires, the entire system that depends on it inherits that debt.
+**SV-3 - Source, set-surface, and palette recoverability are mandatory.**
+The current source surface, any active set surface drawn from it, and any active derived view or base palette must remain recoverable while the support view is active.
 
-*   **Impact on Assurance Level:** When an artifact's total `ED_t(A)` exceeds a defined threshold (typically `> 0` unless waived), its computed `AssuranceLevel` is **provisionally downgraded by one level**. For example, an `L2` artifact with expired evidence is treated as `L1` for governance and risk purposes until the debt is resolved. This makes the consequence of inaction immediate and visible on project dashboards.
+**SV-4 - Support qualifiers remain foregrounding devices only.**
+`OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote` may be foregrounded, but they do not become the support view's ontology and they do not silently change the base relation or posture.
 
-### B.3.4:5 - **Conformance Checklist**
+**SV-5 - Thin support and atlas support are different profiles.**
+Ordinary `CrossSurfaceSupportView` is a complete admissible profile, not a placeholder. `CrossSurfaceAtlasView` is used only when the fuller composite support question is real.
 
-*   **CC-ED.1 (Freshness Mandate):** Every evidence artifact anchored via `verifiedBy` or `validatedBy` **MUST** include a `valid_until` attribute. A value of `null` (perpetual) **MUST** be justified in the artifact's rationale.
-*   **CC-ED.2 (Debt Budget Mandate):** Every project or `U.System` at `AssuranceLevel:L1` or higher **MUST** declare an `epistemic_debt_budget` in its manifest.
-*   **CC-ED.3 (Aggregation Mandate):** The total Epistemic Debt of a composite holon **MUST** be the sum of the debt of its constituent parts, consistent with the aggregation rule `ED_t(S) = Σ_j ED_t(child_j)`.
-*   **CC-ED.4 (Downgrade Mandate):** An artifact with `ED_t > epistemic_debt_budget` **SHALL** have its effective `AssuranceLevel` provisionally downgraded until the debt is resolved via `Refresh`, `Deprecate`, or `Waive`.
-*   **CC-ED.5 (Waiver Auditability):** Any `Waive` action **MUST** be recorded as a formal, auditable event, citing the responsible authority, the rationale, and a new, short-term expiry date for the waiver itself.
+**SV-6 - Atlas form requires a complete composite record.**
+If atlas form is active, the view must keep the base substrate, the active source or set surface, the relevant `TypedSetViews`, any cited spaces, any cited mappings, and any qualifying support explicit enough that the reader can recover why thin support was not enough.
 
-### B.3.4:6 - **Common Anti-Patterns and How to Avoid Them**
+**SV-7 - Local specialization stays local.**
+If `TraditionAtlasView` is used, it remains one `G.2` specialization of `CrossSurfaceAtlasView`; it does not become the common head of the family.
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
-| :--- | :--- | :--- |
-| **The "Perpetual Evidence" Fallacy** | "We verified this component five years ago, so it's still L2. It's just a simple library, nothing has changed." | **CC-ED.1** forces a `valid_until` date. The context (compiler versions, new vulnerabilities, OS updates) has certainly changed. Setting `valid_until: null` requires explicit justification that the artifact is truly timeless, like a mathematical theorem. |
-| **The "Invisible Debt" Trap** | A critical, low-level component's test suite has been failing silently for months, but the high-level system dashboard is still green. | **CC-ED.3** ensures that the debt from the failing component's expired evidence propagates up to the system level, turning the dashboard amber or red and forcing attention. |
-| **The "Risk Acceptance by Silence"** | "We know those tests are stale, but we're too busy to fix them. Let's just ignore the warnings for now." | **CC-ED.5** makes risk acceptance an explicit, auditable action. A manager must formally `Waive` the debt, putting their name on the decision. This transforms passive neglect into active, accountable risk management. |
+**SV-8 - Admission is fail-closed.**
+If the current line would change the described entity, add new generic view law, repair the substrate, decide publication, or decide policy, it is not a conforming support view here. Apply the pattern that governs that question instead of stretching the family.
 
-### B.3.4:7 - **Consequences**
+#### A.19.SUPPORT-VIEW:4.4 - Profiles
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Lifecycle Honesty:** The framework provides a transparent, quantitative way to track the erosion of trust over time, preventing "assurance rot." | **Process Overhead:** Teams must now manage `valid_until` dates and respond to debt alerts. *Mitigation:* Tooling can automate much of this, suggesting default expiry dates based on artifact type and providing one-click actions for the governance loop. |
-| **Risk-Informed Maintenance:** Epistemic Debt becomes a leading indicator for maintenance and re-validation planning, allowing teams to allocate resources proactively, not reactively. | **Risk of False Positives:** Overly aggressive decay coefficients (`k`) could create excessive noise. *Mitigation:* The `k` value is configurable, and the `Waive` mechanism provides a safety valve for situations where a formal refresh is not yet warranted. |
-| **Enhanced Auditability:** The entire state progression of evidence—from creation to expiry and resolution—is now a traceable, auditable part of the FPF model. | - |
+Use one of these profiles explicitly:
 
-### B.3.4:8 - **Rationale**
+- **Thin-support profile.**
+  Use ordinary `CrossSurfaceSupportView` when one source basis plus one support question is enough, and the current reading does not need several typed set views or several support qualifiers held together at once.
+- **Atlas-support profile.**
+  Use `CrossSurfaceAtlasView` when the reader must hold several declared views, spaces, mappings, or qualifiers together to understand the same base substrate-bearing line.
 
-Knowledge frameworks that ignore time degrade silently. By embedding entropy accounting (epistemic debt) directly into the assurance calculus, FPF gains a self-regulating "immune system." This pattern operationalizes the common-sense insight that evidence is perishable, transforming maintenance from an ad-hoc, often-neglected chore into a budgeted, auditable, and risk-informed engineering activity. It complements the human-centric loop of ADR-014 and the pragmatic utility guardrail of ADR-015 by ensuring that what we trust today remains trustworthy tomorrow.
+If neither profile can be chosen honestly, the line is not ready as support-view text.
 
-### B.3.4:9 - **Relations**
+#### A.19.SUPPORT-VIEW:4.5 - Operational declaration sequence (fail-closed)
 
-*   **Builds on:** `B.3.3 Assurance Subtypes & Levels`, `A.10 Evidence Graph Referring`.
-*   **Constrains:** The temporal validity of `AssuranceLevel` for all holons.
-*   **Enables:** Proactive maintenance planning within the Canonical Evolution Loop (B.4) and provides a dynamic risk input for ethical and strategic decision-making (Part D).
+When declaring one support view, proceed in this order:
 
-### B.3.4:End
+0. **Entry test.** Confirm that one already-declared substrate exists and that the current support question can cite it either directly or through one declared source-surface entry point or set-surface entry point that keeps it recoverable, rather than drifting into substrate repair, publication, or policy.
+1. **Name the active support head.** Use ordinary `CrossSurfaceSupportView` unless the current reading genuinely needs the fuller atlas form.
+2. **Cite the base line.** Name the already-declared substrate the view is reading, or cite the source-surface entry point or set-surface entry point together with the recoverable substrate it depends on.
+3. **State the support question directly.** Say what the view helps the reader see that the substrate alone leaves hard to inspect.
+4. **Keep the base surfaces recoverable.** Name the active source surface, and if the view is over one declared front, archive, shortlist, palette, or other set surface drawn from that source, keep that active set surface recoverable too.
+5. **Recover derived-view and palette structure when it matters.** If the view depends on one derived tradition or palette reading, state `DerivedViewKind` and `BasePaletteRef`.
+6. **Add the actual supports.** Add `TypedSetViews`, cited spaces, mappings, metrics, transition supports, or distortion notes only when the current reading truly depends on them.
+7. **Run the preservation check.** If the support prose would materially change the base source-to-outcome relation or the base distortion/uncertainty/error posture, stop and reopen the substrate declaration.
+8. **Run the boundary check.** If the prose starts changing the described entity, minting new generic view law, publishing selected sets, shipping outputs, or deciding policy, apply the pattern that governs that question.
 
-## B.3.5 - Working-Model Relations & Grounding (CT2R-LOG)
+**Fail-closed rule.** Do not treat the line as a support view if steps 2-7 cannot be completed honestly. Missing base-line recovery or hidden posture change is a real defect here.
 
-> **One‑line summary.**
-> CT2R‑LOG treats the everyday **Working‑Model relations**— **ut:ComponentOf**, **ut:MemberOf**, **ut:PortionOf**, **ut:AspectOf** —as the **publication surface** for structure, while binding each published edge to a **grounding trace** and a **declared `tv:validationMode`**. Authors keep using a short list of relations; reviewers get reconstructible provenance.
+#### A.19.SUPPORT-VIEW:4.6 - Thin support remains a complete admissible form
 
-### B.3.5:1 - Intent
+Many cases need one support view but not one atlas-form support package.
 
-*Provide a single, human‑facing family of **Working‑Model** relations as the **publication surface**, with explicit hooks for (G) grounding and (R) reliability—without exposing constructor jargon or burdening day‑to‑day authors.*
+Stay with one thinner support view when:
 
-**What you get (manager/engineer view).**
- The same relations you already know (e.g., **ComponentOf**) remain the **public interface**.
+- the current reading needs only one declared source surface or one derived view over it;
+- the current question does not need several typed set views assembled at once;
+- one explicit support sentence is enough to keep the current line readable;
+- or the case does not genuinely depend on metrics, transitions, or bridge-loss notes.
 
-**What changes (auditor/ontologist view).**
-* Each published edge carries two additional commitments:
+This matters because the support layer should stay proportionate to the support question. If a thin interpretive view already solves the reader's problem, forcing atlas form would over-type the line and create fake necessity.
 
-  1. **`tv:groundedBy`** → points to a **reconstructible trace** (e.g., `Γ_m.sum`) whenever the edge is *structural*.
-  2. **`validationMode ∈ {axiomatic, inferential, postulate}`** → declares how the author justifies the assertion.
+#### A.19.SUPPORT-VIEW:4.7 - Atlas form is fuller support and needs a complete record
 
-This is the **alias‑plus‑grounding** split: **Compose‑CAL** builds the trace; **CT2R‑LOG** declares the alias pattern and links it; **Lang‑CHR** supplies the labels.
+Use `CrossSurfaceAtlasView` for the fuller support cases:
 
-### B.3.5:2 - Problem frame & forces (why this pattern exists)
+- when several typed set views over one declared source surface or one active derived set surface must be read together;
+- when one atlas-form reading helps the reader inspect cross-scale structure, cross-space structure, support plurality, or mapping plurality;
+- when the current interpretation genuinely depends on one declared map, metric, transition support, or distortion note and those supports must stay visible together with the active source surfaces or active set surfaces they qualify.
 
-* **Two audiences, one dial.** Project managers want **one relation family** and stable views; ontologists want **generative completeness** and extensional identity.
-* **Parsimony constraint.** The Kernel stays minimal; construction is **outside** the Kernel.
-* **Unification inside FPF.** We already unify external vocabularies; the same discipline is applied **internally** so *every* pattern that needs mereology rides on **one generative basis** and **one alias façade**.
+The minimal admissible atlas-support declaration therefore contains:
 
+- the cited base substrate or source-surface entry point or set-surface entry point;
+- the active source surface and any active set surface drawn from it;
+- `TypedSetViews` when several declared set views are being held together;
+- any cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs that the atlas reading depends on;
+- any cited `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, or `BridgeDistortionNote` that materially disciplines the reading;
+- `DerivedViewKind` and `BasePaletteRef` whenever the atlas reading is over one derived palette or tradition view;
+- one explicit reason thin support is insufficient.
 
-### B.3.5:3 - Problem
+If atlas form cannot state that composite support view without invention, stay with thin support or apply the pattern that governs the missing question.
 
-Declared sub‑relations of `ut:PartOf` (e.g., **ComponentOf**, **MemberOf**) are easy to use but **not self‑justifying**: nothing in their declaration shows *why* a given edge should be trusted, or how to **re‑derive** it if challenged. Conversely, exposing constructor traces everywhere makes the graph unreadable to non‑specialists.
+#### A.19.SUPPORT-VIEW:4.8 - No autonomous local view law is introduced here
 
-**We need**: a stable **publication surface** for relations *and* a mandatory, **reconstructible** **grounding channel**—plus a visible **validation intent** that downstream assurance can reason about.
+Read the docking to `A.6.3` / `E.17.0` strictly:
 
+- the support view preserves the described entity already carried by the base line;
+- it does not silently mint new intensional commitments about that same described entity;
+- it does not replace one viewpoint bundle or one publication-view family with one new local invention;
+- and it does not collapse viewpoint, view, and surface into one word.
 
-### B.3.5:4 - Solution (thumbnail)
+If a case would need a different described entity, a different generic view law, or one new viewpoint family, this pattern is no longer the governing pattern.
 
-CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
+#### A.19.SUPPORT-VIEW:4.9 - Support qualifiers stay support-only
 
-1. **Alias link (concept‑level).**
-   **Working‑Model relations** (e.g., `ut:ComponentOf`) are **alias patterns** over a general constructional principle. Denote by **`tv:AliasOf`**.
+`OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote` are admitted here only as support qualifiers.
 
-2. **Grounding link (evidence‑level).**
-   Each **edge instance** carries **`tv:groundedBy`**:
+They are declared first on the substrate side. This pattern may foreground or organize them for the reader, but it may not silently widen, narrow, or otherwise change the base substrate posture.
 
-   * **MANDATORY** for **all structural edges** (sub-properties of `ut:StructPartOf`): the target is a valid **`Γ_m` trace** from **Compose-CAL** (one of `sum`, `set`, `slice`). **Set** `validationMode=axiomatic`; **`postulate` SHALL NOT be used for structural edges**.
-   * **Optional** for **epistemic edges** (e.g., `ConstituentOf`, `RepresentationOf`): if no `Γ_m` trace is appropriate, attach an **evidence object** whose admissibility is governed by the declared **`validationMode ∈ {inferential, postulate}`** (assurance rules).
+Use them when the current support view genuinely needs them:
 
-2. **Validation flag (author intent).**
-   Every declared edge or aggregation rule carries **`tv:validationMode`** with one of:
-   * **`postulate`** — pragmatic working claim backed by observations;
-   * **`inferential`** — reasoned consequence (proof outline);
-   * **`axiomatic`** — constructive grounding via a `Γ_m.*` composition.
+- `OutcomeMapRef` when the current reading must show how one declared source or set surface bears on one outcome surface;
+- `SpaceMetricRef` when neighborhood, spread, reachability, or crowding claims are load-bearing in the current reading;
+- `TransitionSupportRef` when the current reading depends on explicit transition or cross-scale state-change support;
+- `BridgeDistortionNote` when the reader must keep one declared loss or distortion visible near the current reading.
 
-> **F–G–R alignment.**
-> **F** (the published *Fact*): `:PumpA ut:ComponentOf :Skid12`.
-> **G** (its *Grounding*): `:e123 tv:groundedBy :trace_Γm_sum_456`.
-> **R** (declared *Reliability mode*): `tv:validationMode=axiomatic` → inputs B.3.3’s **AssuranceLevel** assessment.
+If the support view would newly introduce `lossy-bridge`, `uncertainty-bearing`, `transition-dependent`, `learned/adaptive`, or another materially different posture that the substrate did not already declare, reopen the substrate declaration instead of treating that posture change as view-only convenience.
 
-### B.3.5:5 - Vocabulary & notation (normative)
+#### A.19.SUPPORT-VIEW:4.10 - Publication, set-surface, and pool-policy boundaries
 
-* **Working-Model relations (front‑stage).**
- `ut:ComponentOf`, `ut:PortionOf`, `ut:AspectOf` are **publication-grade** sub-properties of `ut:StructPartOf` **(structural)**; `ut:MemberOf` is a sub-property of `ut:EpiPartOf` **(epistemic)**. 
+This pattern does not publish selected sets, declare shortlist heads, or decide which candidate lines stay live.
 
-* **Alias principle (lexical).**
-  `tv:AliasOf` links a **relation type** to its **generative rule schema** (e.g., “`ComponentOf` aliases the result of a `Γ_m.sum` with role=component”).
+Keep the split explicit:
 
-* **Grounding (per‑edge).**
- `tv:groundedBy` on an *edge instance* **MUST** point to a **Γₘ trace** (`sum|set|slice`) for **structural** edges (**set** `validationMode=axiomatic`); for **epistemic** edges it **MAY** point to an **evidence object** or a logical proof per declared `validationMode ∈ {inferential, postulate}`. 
+- `A.19.SUPPORT-VIEW` helps the reader inspect one already-declared substrate;
+- `G.5` publishes selector outcomes and their source/publication metadata;
+- `G.10` ships publication surfaces and pins;
+- `C.19` governs live candidate-pool and frontier policy;
+- `C.24` governs enactment/planning posture.
 
-* **Trace family.**
-  `Γ_m.sum`, `Γ_m.set`, `Γ_m.slice` are the only normative constructors for structural grounding; no temporal or workflow constructor is added here (time slices live in Sys‑CAL; parallelism via `set`).
+If the prose starts deciding who survives, what is published, or what is shipped, it has already left this pattern.
 
-* **Validation flag.**
- `tv:validationMode ∈ {postulate, inferential, axiomatic}` is **required** on every declared edge or aggregation rule; **for structural edges `postulate` is disallowed**.
+#### A.19.SUPPORT-VIEW:4.11 - `G.2` keeps the tradition-facing atlas specialization
 
-### B.3.5:6 - Running example (didactic)
+When the current support view is tradition-facing and palette-first recoverability matters, use the local specialization governed by `G.2`.
 
-> **Story.** A refinery team publishes `:PumpA ut:ComponentOf :Skid12`.
+Read the relation this way:
 
-* **Publication — Working-Model surface.**
-  They mint one edge with the **Working-Model** relation **ComponentOf** and **declare the surface’s `U.Formality`** (typically **F≈F3**, controlled narrative). Only the publication surface is visible to readers.
+- `A.19.SUPPORT-VIEW` states the generic support-view family and the generic fuller atlas form `CrossSurfaceAtlasView`;
+- `G.2` keeps the palette-first, tradition-facing specialization `TraditionAtlasView`;
+- `TraditionAtlasView` is therefore one local specialization of the fuller atlas form, not the common head of the whole support family.
 
-* **Constructive grounding (Γₘ).**
-  In the background, the edge node records `tv:groundedBy :trace_Γₘ_sum_456`. That trace is a **Compose-CAL** “sum” that lists the parts aggregated into the skid. Any auditor can **replay** the trace to prove extensional identity. *(Grounding does not change the surface’s F; it sets `validationMode=axiomatic` and contributes to **R** in the **VA** lane.)*
+This keeps the family honest in both directions:
 
-* **Assurance stance & R-lane.**
- Because the edge is construction-backed, authors set `tv:validationMode=axiomatic`. B.3.3 reads the flag and assigns an **AssuranceLevel** in the appropriate **R** lane (scale defined in B.3.3). **F**, **G**, and **R** remain **orthogonal**: this move raises assurance without changing claim scope (**G**) or the surface’s formality (**F**).
+- the common support-view family does not force `Tradition` or `Atlas` into every case;
+- and the `G.2` specialization does not lose its palette-first recoverability.
 
-* **Contrast (epistemic).**
-When the same team asserts `:MassFlowRepresentation RepresentationOf :FlowModel`, they declare `validationMode=postulate` and attach a calibration dataset (Empirical Validation) instead of a **Γₘ** trace. The edge remains publishable, but reviewers record a lower-confidence stance, and B.3.4’s **evidence ageing** policy will decay its trust over time.
-  
-Result: **one** visible relation for engineers, **two** hidden anchors for assurance.
+#### A.19.SUPPORT-VIEW:4.12 - Operator kit: choose, record, preserve, apply governing neighbor
 
-### B.3.5:7 - Author Standard (at a glance)
+Use this compact kit whenever you need one support view that can actually be used, checked, and bounded against neighboring patterns in practice.
 
-When you add or import a relation edge:
+| Decision point | What to do now | Admissible result | Stop or apply another pattern when... |
+| --- | --- | --- | --- |
+| `1. Which base line am I reading?` | Cite the base substrate or recoverable source-surface entry point or set-surface entry point. | The support view is anchored on one visible base line. | The view still floats free of the line it is supposed to help read. |
+| `2. What support question is this view answering?` | State the question directly in one sentence. | The reader can tell what this view helps inspect. | The view mostly repeats theory without naming the practical inspection load. |
+| `3. Do I need thin support or atlas support?` | Choose ordinary `CrossSurfaceSupportView` unless several views, spaces, mappings, or qualifiers must be held together at once. | The support head is chosen honestly. | Atlas language appears by reflex, or thin support would already solve the reading problem. |
+| `4. Which surfaces and qualifiers must stay recoverable?` | Keep the active source surface, active set surface, derived view, base palette, and cited qualifiers visible only when they truly do work. | Recoverability stays proportional to the support question. | The base palette or base surface disappears behind the fullest visible overlay. |
+| `5. Is the line still support-only?` | Check whether the prose preserves the base substrate and its described entity. | The view remains one reading, not one rewrite of the underlying line. | The prose is really changing the substrate, publishing outputs, or deciding policy. |
 
-1. **Pick a Working‑Model relation** (ComponentOf/MemberOf/…); avoid raw `ut:PartOf` unless you are drafting meta‑level axioms.
-   
-2. **Attach `tv:groundedBy`**:
+Use this compact support view declaration when drafting or repairing the line:
 
-   * Structural? → **must** be a `Γ_m` trace ID.
-   * Epistemic? → `Γ_m` trace *or* evidence object.
-3. **Declare `tv:validationMode`** (**postulate** / **inferential** / **axiomatic**).
+```text
+SupportHead               = CrossSurfaceSupportView | CrossSurfaceAtlasView
+BaseSubstrateRef          = ...
+SupportQuestion           = ...
+ActiveSourceSurface       = ...
+ActiveSetSurface?         = ...
+DerivedViewKind?          = ...
+BasePaletteRef?           = ...
+TypedSetViews?            = ...
+CitedSpaceRefs?           = ...
+SupportQualifiers?        = ...
+WhyThinIsEnough? /
+WhyAtlasIsNeeded?         = ...
+```
 
-> **What managers see:** nothing new in the graph picture.
-> **What auditors get:** a reliable trail from every published edge back to a principled constructor or an evidence pack.
+Run this self-check before you leave the passage:
 
+- if the support view would change the base relation or posture, reopen `A.19.SURF-SPACE`;
+- if the atlas-necessity line is empty, stay with thin support;
+- if the next live question is naming repair, terminology precision, publication, or policy, apply `F.18`, `A.6.P`, `G.5`, `G.10`, `C.19`, or `C.24` instead of stretching support-view prose across those boundaries.
 
-### B.3.5:8 - Compatibility & cross‑references
+#### A.19.SUPPORT-VIEW:4.13 - Using the support view with neighboring patterns
 
-* **B.3.2 (LOG‑use).** CT2R‑LOG supplies the **places to hang proofs/evidence** that B.3.2 formalizes.
-* **B.3.3 (Assurance levels).** `validationMode` + presence/quality of `tv:groundedBy` are the **inputs** to compute `AssuranceLevel (L0–L2)`.
-* **B.3.4 (Evidence ageing).** If an edge relies on **postulated evidence**, its confidence **decays** per that pattern until refreshed; **axiomatic** edges from `Γ_m` traces do not age, but their **inputs** (tokens) might.
+Read neighboring patterns in this order once the support view declaration is in place:
 
-### B.3.5:9 - Rule‑set — CT2R‑LOG (conceptual, human‑first)
+- Use `G.2` when the support view becomes palette-first, tradition-facing atlas work. That is one local specialization of atlas support, not the common family head.
+- Use `F.18` when the live question is label choice around support-view, atlas, palette, or map language. Naming notes may explain the labels, but they do not change the base substrate or the support question.
+- Use `A.6.P` when one passage collapses view, surface, space, map, or palette into one umbrella word. Repair the layer split first, then continue.
+- Use `A.0` when cold-reader glossing is what the current line lacks. Glosses help recognition; they do not replace the base support view declaration.
+- Use `G.5`, `G.10`, `C.19`, or `C.24` when the passage starts deciding outputs, survivor sets, or planning posture.
 
-**Intent (one line).** Make **Working‑Model** relations the canonical interface for authors, while providing a **clean, optional bridge** to formal assurance by way of *aliasing* and *grounding* semantics.
+If a neighboring passage would change the described entity or the base substrate posture, this pattern is no longer the governing pattern for that sentence. Reopen the base line or apply the pattern that governs the new question.
 
-#### B.3.5:9.1 - Vocabulary & Roles (what the words mean in this pattern)
+### A.19.SUPPORT-VIEW:5 - Archetypal Grounding
 
-* **Working‑Model relation.** A human‑oriented statement an engineer would naturally write, using U.Type relations such as `ut:ComponentOf`, `ut:PortionOf`, `ut:AspectOf`, `ut:MemberOf`. This is the **canonical publication surface** for structure for readers and reviewers in Part B. (Didactic primacy governs this choice.)
 
-* **Assurance Layer.** Three complementary kinds of support an author MAY attach:
+#### A.19.SUPPORT-VIEW:5.1 - System
 
-  * **Constructive** grounding: a *generative* narrative that reconstructs the relation via the three mereological aggregators (`Γ_m.sum | Γ_m.set | Γ_m.slice`) from **Compose‑CAL**. (No formal notation is required in this pattern—only a reconstructible *story of construction*.)
-  * **Logical** grounding: a *reasoned* chain (think KD‑CAL style arguments) that shows why the relation follows from stated premises.
-  * **Mapping** grounding: a *type/lexical alignment* that shows the domain label truly denotes the intended U.Type relation (Kind-CAL / Lang‑CHR stance).
-    These three kinds of support are *complementary*, not exclusive.
+**Tell.** One QD line already has one declared archive-side substrate. Readers still need one ordinary support reading that keeps local archive neighborhoods readable, but no shortlist, atlas bundle, or shipping result exists yet.
 
-* **Empirical Validation.** How a published relation meets reality (observations, calibration scenarios). It lives beside, not inside, the relation. (See B.3 family.)
+**Show.** The active support head is ordinary `CrossSurfaceSupportView`. It reads one declared archive-side substrate line whose active source surface remains `Archive` and whose active space question remains recoverable through `BehaviorCharacteristicSpace@ed=12`. The only extra support kept visible here is `ArchiveNeighborhoodMetric@ed=4`, because the current question is simply how local archive neighborhoods shape the reader's interpretation of the already-declared line.
 
-* **Grounding vocabulary (`tv:`).**
+**Cash-out.** This is one thinner support view over one already-declared substrate. It keeps one source surface and one support question in view without introducing several `TypedSetViews`, one outcome map, one `TransitionSupportRef`, or one bridge-loss note. Downstream interpretation gets the extra legibility without accidentally turning the metric note into ontology.
 
-  * `tv:AliasOf` — declares that a Working‑Model relation is the **canonical projection** of a more general pattern (its “principle of use”).
-  * `tv:groundedBy` — points to the **author’s grounding narrative** (Constructive, Logical, or Mapping, as applicable).
-    The `tv:` namespace is part of the Core conceptual lexicon; it is **notation‑agnostic** and **tool‑agnostic**.
+#### A.19.SUPPORT-VIEW:5.2 - Episteme
 
-* **`tv:validationMode ∈ {postulate, inferential, axiomatic}`.** A **declaration by the author** of the *confidence stance* for a relation instance:
-  *postulate* — a pragmatic working claim;
-  *inferential* — a reasoned consequence;
-  *axiomatic* — a constructively grounded identity (mereological extensionality is exhibited). (Modes align with the B.3 cluster’s trust model.) 
+**Tell.** One synthesis line already keeps a base SoTA palette and one derived tradition-facing reading. The reader now needs one fuller atlas-form support view that keeps the base palette recoverable while showing how several tradition-facing views and cross-scale notes sit together.
 
-> **Authoring note.** This pattern defines *meanings*, not formats. The words above SHALL be used consistently and without reference to any specific notations or execution environments (Guard‑Rails: Notational Independence).
+**Show.** The active support head is `CrossSurfaceAtlasView`. It reads one declared palette-facing substrate line whose source-surface family remains `TraditionPalette`, whose active derived view remains `TraditionFront`, and whose base palette remains recoverable through `SoTAPaletteDescriptionId`. The cited spaces stay explicit as `TraditionComparisonSpace@ed=3` and `AdoptionOutcomeSpace@ed=2`. The atlas reading keeps together the declared set views `TraditionFront` and `TraditionArchive`, the mapping `PaletteToAdoptionOutcomeMap@ed=1`, the distortion note `CrossTraditionComparisonLossNote@ed=1`, and the local `G.2` specialization `TraditionAtlasView`.
 
+**Cash-out.** Here the fuller atlas form is honest because several declared views, spaces, and qualifiers really must stay visible together. Even so, it still does not redefine the base palette. The reader can recover the palette, the active derived set surface, the cited spaces, the outcome map, the support note, and the local specialization together.
 
-#### B.3.5:9.2 - Normative rules (MUST/SHALL clauses for thinking‑and‑writing)
+#### A.19.SUPPORT-VIEW:5.3 - Boundary anti-case
 
-**S‑1 (Working-Model first).**
-Authors **SHALL** publish structural claims in the **Working‑Model** form (`ut:*Of` relations). This is the canonical interface for human readers and cross‑disciplinary teams. Formal reconstructions are **optional** and live in the Assurance Layer.
+**Tell.** One note starts from "atlas view" language, then quietly changes the base outcome posture and argues that only one shortlisted tradition should remain live.
 
-**S‑2 (Alias declaration).**
-If a Working‑Model relation follows a known general principle, the author **SHOULD** declare `tv:AliasOf <Principle>`, thereby making the intended *use‑pattern* explicit for reviewers and future readers. (This improves comparability without introducing extra formality.)
+**Show.** This is not a support view anymore. It is mixing substrate repair with candidate-pool or publication policy.
 
-**S‑3 (Grounding by mode).**
-For every relation instance the author **MUST** set `validationMode` and follow the corresponding grounding stance:
+**Cash-out.** Reopen the substrate if the base relation or posture changed. Apply `C.19`, `C.24`, `G.5`, or `G.10` to retention or shipping decisions instead of using support-view prose to smuggle them in.
 
-* **S‑3.a `postulate`.** The author **MAY** omit `Γ_m` grounding; the relation stands as a pragmatic working claim within a stated scope. The author **SHOULD** supply brief empirical cues (where the claim tends to hold) to ease later validation. (Empirical Validation is tracked in B.3.)
+#### A.19.SUPPORT-VIEW:5.4 - Use-situation spread
 
-* **S‑3.b `inferential`.** The author **SHALL** outline a *reasoned chain* (plain‑language steps) that makes the relation a consequence of previously admitted statements. No formal calculus is required in this pattern; the outline must be sufficient for a peer to follow. (Think KD‑CAL stance, conceptually.)
+Use the support-view family this way across different working situations:
 
-* **S‑3.c `axiomatic`.** The author **SHALL** provide a *constructive grounding narrative* that reconstructs the relation as a `Γ_m.sum | Γ_m.set | Γ_m.slice` composition and **SHALL** link it with `tv:groundedBy`. The narrative **MUST** be reconstructible by a competent peer *without introducing new primitives* (parsimony). (Compose‑CAL’s three aggregators are the only constructive moves assumed here.)
+| Working situation | Choose | What must stay explicit | Common miss avoided |
+| --- | --- | --- | --- |
+| Archive-side QD line that only needs one metric cue so the reader can see local neighborhoods | Thin support | One base substrate, one support question, one active source surface, and the specific metric qualifier doing work. | Forcing atlas form into a case that only needs one simple reading aid. |
+| Palette-first synthesis line that really needs several declared views, spaces, mappings, and loss notes held together | Atlas support, with `G.2` when the case is tradition-facing | The base palette, derived view, cited spaces, qualifying map/distortion supports, and the reason thin support is insufficient. | Letting the most salient visible atlas overlay replace the palette-first base line. |
+| Derived tradition/front note that only needs to remind the reader how to read one already-declared substrate | Thin support | The support question, derived-view recoverability, and the base palette when it would otherwise disappear. | Treating every derived tradition reading as if it were already full atlas work. |
+| Passage that starts changing the outcome posture, survivor set, or publication result | Do not use this pattern | The boundary out to substrate repair, publication, or policy stays explicit. | Smuggling retargeting or policy decisions into support-view prose. |
 
-* **S-3.d Structural constraint.** For **structural** edges, `tv:groundedBy → Γ_m.*` is **REQUIRED regardless of `validationMode`**; the `postulate` mode **MUST NOT** be used for structural mereology. 
+### A.19.SUPPORT-VIEW:6 - Bias-Annotation
 
-**S-4 (Relation-kind sense-making).**
-* For **structural** subtypes of `ut:StructPartOf` (Component/Portion/Aspect), constructive grounding (`tv:groundedBy → Γ_m.*`) is **REQUIRED** in all modes; **`postulate` MUST NOT be used** for structural mereology (see S-3.d).
 
-* For **epistemic/constitutive** links (e.g., representation, usage), constructive grounding is **OPTIONAL** in all stances; authors prefer *inferential* or *postulate* with empirical cues.
+- **Gov bias.** The pattern prefers explicit reuse of existing view law over local convenience talk about one `view`.
+- **Arch bias.** The pattern keeps substrate, support reading, publication, and policy separated even when one merged story would sound simpler.
+- **Prag bias.** The pattern prefers thinner support views by default and treats atlas form as one fuller option rather than a universal baseline.
+- **Did bias.** The pattern insists on recoverability of the base palette or base source surface because readers otherwise over-trust the most salient visible support form.
 
-**S‑5 (Order and time are not mereology).**
-Authors **SHALL NOT** encode execution order, parallelism, or temporal slicing as part‑whole. Such concerns belong to `Γ_method` and `Γ_time` families and **SHOULD** appear as method/time statements adjacent to, not inside, Working‑Model structure. (This prevents conceptual leakage between planes.)
+### A.19.SUPPORT-VIEW:7 - Conformance Checklist
 
-**S‑6 (Unidirectional dependence).**
-CT2R‑LOG may *consume* Compose‑CAL and KD‑CAL conceptually; it **SHALL NOT** redefine them. Meaning flows **downward only** (Kernel → Extention → Context → Instance).
+Treat a line as conforming only if every gate below passes.
 
-**S‑7 (Register discipline).**
-When naming principles in `tv:AliasOf`, authors **SHOULD** use Tech/Plain *twin labels* where available and obey minimal‑generality and rewrite rules (LEX‑BUNDLE), so that aliases are recognisable across context of meaning.
+| ID | Gate question | Fail when | Repair or governing pattern |
+| --- | --- | --- | --- |
+| `CC-A19SV-1` | Is one already-declared base substrate or source-surface entry point or set-surface entry point named explicitly? | The support view floats free of the line it is supposed to help read. | Cite the base substrate or the recoverable source-surface entry point or set-surface entry point. |
+| `CC-A19SV-2` | Is the support view explicitly docked to existing `A.6.3` / `E.17.0` law? | The text presents itself as one autonomous local theory of views. | State the docking explicitly or apply the pattern that really defines the missing view law. |
+| `CC-A19SV-3` | Does the line preserve the same described entity and keep the base substrate as semantic center? | The support prose retargets the described entity or repairs the substrate in place. | Reopen under `A.19.SURF-SPACE`, `A.6.4`, or the appropriate neighboring pattern. |
+| `CC-A19SV-4` | Are the current source surface, any active set surface, and any active derived view or base palette recoverable? | The support reading hides the base palette, base surface, or active derived set surface behind one fuller visible overlay. | Restore the missing recoverability fields. |
+| `CC-A19SV-5` | Is the active profile chosen honestly: thin support or atlas support? | Atlas language is used by reflex, or the line needs atlas support but never says so. | State the profile explicitly and justify why thin support is or is not sufficient. |
+| `CC-A19SV-6` | If atlas form is active, is the composite atlas-support declaration complete? | Several views, spaces, mappings, or qualifiers are being used, but `TypedSetViews`, cited spaces, mappings, qualifiers, or the reason thin support is insufficient remain hidden. | Publish the missing atlas-support declaration or step back to thin support. |
+| `CC-A19SV-7` | Are support qualifiers really support-only and reused from the substrate side? | Metrics, transitions, maps, or distortion notes silently change the base relation or posture, or become mandatory core everywhere. | Keep them as foregrounded qualifiers only, or reopen the substrate declaration. |
+| `CC-A19SV-8` | If `TraditionAtlasView` is used, is it kept as one `G.2` specialization rather than the common family head? | The local specialization is treated as if every support case were already palette-first atlas work. | Restore the split between `CrossSurfaceAtlasView` and `TraditionAtlasView`. |
+| `CC-A19SV-9` | Does the line stay out of publication and policy work? | The prose starts deciding who survives, what is published, or what is shipped. | Split the line and apply `G.5`, `G.10`, `C.19`, or `C.24` to those questions. |
+| `CC-A19SV-10` | Could a cold reader choose thin support versus atlas support and fill one support view declaration without hidden invention? | The reader still needs surrounding memo knowledge to know which head to use, what fields matter, or why atlas is or is not needed. | Fill the compact support view declaration from `4.12` and state why thin support is enough or why atlas support is necessary. |
+| `CC-A19SV-11` | Is the support question explicit enough to tell the reader what this view helps inspect now? | The view mostly restates the base theory, but the practical inspection load stays unnamed. | State the support question directly and keep the base line recoverable beside it. |
+| `CC-A19SV-12` | When specialization, naming repair, publication, or policy becomes the next question, is the governing neighbor explicit? | The support prose silently drifts into `G.2`, `F.18`, `A.6.P`, `G.5`, `G.10`, `C.19`, or `C.24` without naming the boundary. | Split the line and cite the governing neighbor instead of stretching support-view prose across that boundary. |
 
-**S‑8 (No tool talk).**
-Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑oriented notations in place of concepts. If examples are needed, they **MAY** be plain‑language narratives or domain vignettes. (This pattern is conceptual by Standard.)
+### A.19.SUPPORT-VIEW:8 - Common Anti-Patterns and How to Avoid Them
 
 
-#### B.3.5:9.3 - Scope & Non‑Goals (to keep the plane clean)
+| Anti-pattern | Why it fails | Repair |
+| --- | --- | --- |
+| Writing as if `A.19.SUPPORT-VIEW` were a fresh autonomous theory of views | It duplicates existing `A.6.3` and `E.17.0` law and collapses `U.Viewpoint`, `U.View`, and publication-surface discipline. | State the docking to existing view law explicitly. |
+| Letting atlas language become the default meaning of every support case | The fullest visible support form silently becomes the family head. | Keep ordinary thinner support views admissible and say when atlas form is actually needed. |
+| Treating support pins as the view's semantic center | Metrics, transitions, or distortion notes then replace the base substrate. | Keep the base substrate and support question explicit, and keep support pins optional. |
+| Letting a derived tradition view replace its base palette | The reader loses palette-first recoverability and mistakes one local interpretation for the default ontology. | Keep `DerivedViewKind` and `BasePaletteRef` visible together. |
+| Turning the support view into publication or pool policy | The reader can no longer tell whether the text is helping interpret the line or deciding what survives and gets published. | Keep `G.5`, `G.10`, `C.19`, and `C.24` outside this pattern. |
+| Forcing atlas form into every first reading | Simple cases become over-typed and harder to use. | Start with the thinner support-view form and widen only when the current need genuinely requires it. |
 
-* **In scope.**
-  Canonical publication of relations for humans; alias‑to‑principle clarity; conceptual grounding stories; author‑declared *validationMode*; separation of structure vs order/time.
-
-* **Out of scope.**
-  Any machinery that *executes* checks; any binding to specific notations; any process/workflow mechanics; any discussion of file formats. (Those belong to Tooling/Pedagogy artefacts and SHALL NOT be imported by the Conceptual Core.)
-  
-* **Edge placements.**
-  When a claim is chiefly about *naming fit* across Contexts, prefer **Mapping** grounding (Kind-CAL/Lang‑CHR stance). When it is chiefly about *why* it follows, prefer **Logical** grounding. When it is about *what the whole is, from its parts*, prefer **Constructive** grounding. (Authors MAY combine them.)
-
-
-#### B.3.5:9.4 - Author’s working moves (micro‑playbook, notation‑free)
-
-**M‑1.** State the relation in **Working‑Model** form (e.g., “Impeller `ComponentOf` Pump”).
-**M‑2.** Pick `validationMode`:
-
-* If you’re sketching and exploring → choose **postulate**; add one‑sentence scope.
-* If you’re justifying from known statements → choose **inferential**; list the 2–4 steps in plain language.
-* If you require extensional identity → choose **axiomatic**; narrate the `Γ_m.*` reconstruction in a short paragraph.
-
-**M‑3.** Add `tv:AliasOf` to the principle you intend readers to recognise (e.g., “Component = sum of parts”).
-**M‑4.** Keep *order/time* adjacent, not embedded: if you need “assembled in two parallel lines”, write that as a **method/time** statement next to the structure, not as a part‑of edge.
-**M‑5.** Stop when the *reader can follow without guessing*. This is the stopping rule for Quarter 2: clarity before formality. (Didactic primacy.)
-
-### B.3.5:10 - Bias‑Annotation (auditable, human‑first)
-
-The purpose of this section is to make **typical cognitive slips** visible and name the **counter‑moves** an author (or reviewer) should apply **in thought**—not with tools. These biases are generic; the remedies point to earlier FPF guard‑rails and neighbouring patterns.
-
-| Bias (name)                     | Symptom in the model                                                                                                          | Cognitive counter‑move (conceptual only)                                                                                                                                                                          | Where to check                                                       |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Formalism capture**           | Treating a constructive trace as “the real thing” and the human relation (e.g., *ComponentOf*) as an optional label.          | Re‑assert **canonical‑first**: the Working‑Model relation is the canonical publication. A constructive trace is a **grounding** you may attach when assurance demands it. Choose a **validationMode** explicitly. | CC‑CT2R‑1, CC‑CT2R‑2; B.3 skeleton for assurance conservatism.       |
-| **Canonical inversion**         | Demanding a constructive grounding for **epistemic** claims by default. *(For **structural** claims, Constructive grounding is mandatory; epistemic remains progressive.)*                    | Keep **progressive assurance**: declare `validationMode ∈ {postulate, inferential, axiomatic}`; reserve *axiomatic* with **Constructive** grounding for structural; use **Logical/Mapping**/**Empirical** where appropriate. Express formality via **F** (C.2.3), not tiers. | CC-CT2R-2; B.3.3 relation-kind discipline & validation modes.         |
-| **Order/time leakage**          | Encoding sequence or phase as part‑whole edges.                                                                               | Apply **Strict Distinction**: order/time belong to Γ\_method / Γ\_time, not to mereology or CT2R relations.                                                                                                       | B.3 “keep order/time in their own lanes”; cross‑ref Γ\_ctx/Γ\_time.  |
-| **Notation lock‑in**            | Letting a diagram or syntax define the meaning (“it’s true because the diagram says so”).                                     | Enforce **Notational Independence**: meaning is defined in prose/maths; renderings are illustrative only.                                                                                                         | Part E guard‑rail on notational independence.                        |
-| **Congruence blindness**        | Composing strong parts through weak mappings without acknowledging the fit penalty.                                           | Make **edge‑fit first‑class**: reason about Congruence Level (CL) on connections; penalise low fit conceptually.                                                                                                  | B.3 universal aggregation skeleton (Φ(CL)); anti‑patterns list.      |
-| **Collection/composition swap** | Using **MemberOf** to stand in for **PartOf** (or vice versa), then carrying over reliability as if it were a structural sum. | Re‑separate **MemberOf** (collections) from **part‑whole** mereology; read A.14 notes in Γ\_epist context.                                                                                                        | Γ\_epist context / A.14 compliance.                                  |
-| **Design/run chimera**          | Mixing design‑time and run‑time evidence into one “assurance” line.                                                           | Split the **scope** of the claim: `S ∈ {design, run}`; compare side‑by‑side rather than merging.                                                                                                                  | B.3 typed claim tuple & anti‑pattern “design/run chimera”.           |
-
-> **Reviewer reminder.** Bias audit is a **reading aid**. It never licenses tooling talk in Core; use the guard‑rails in Part E to keep semantics primacy and unidirectional dependence of layers.
-
-
-### B.3.5:11 - Conformance Checklist (normative, author‑facing)
-
-The following obligations regulate **how to think and write** CT2R content. They are **notation‑agnostic** and purely conceptual.
-
-| ID                                              | Requirement                                                                                                                                                                                                                                   | Purpose                                                                   |
-| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **CC‑CT2R‑1 (Canonical‑first).**                | A relation published for readers **SHALL** be stated in Working‑Model terms (`ut:*Of`) as the canonical form; any constructive or logical basis is recorded as **grounding** (not as the definition).                                         | Preserve human‑first canon and didactic primacy.                          |
-| **CC‑CT2R‑2 (Mode declaration).**               | For every declarative relation or rule, the author **SHALL** declare `tv:validationMode ∈ {postulate, inferential, axiomatic}` in prose (no silent defaults).                                                                                | Make assurance intent explicit and auditable by reading.                  |
-| **CC‑CT2R‑3 (Structural axiomatic grounding).** | If the relation is **structural** (a subtype of `ut:StructPartOf`) **and** the author chooses `axiomatic`, they **SHALL** provide a **grounding narrative** that can be reconstructed as one of the Γ\_m aggregators (*sum*, *set*, *slice*). | Tie high‑assurance claims to constructive identity without tool mandates. |
-| **CC‑CT2R‑4 (No order/time in parts).**         | Authors **SHALL NOT** encode order (`Serial/Parallel`) or phase/time as part‑whole relations; handle them via `Γ_method` / `Γ_time` when relevant to the claim.                                                                               | Maintain the structure/order/time firewall.                               |
-| **CC‑CT2R‑5 (Collection vs part).**             | Authors **SHALL** keep **MemberOf** (collections) distinct from **PartOf** (structure) and refrain from carrying reliability as if membership implied structural composition.                                                                 | Prevent category errors flagged in B.3 anti‑patterns.                     |
-| **CC‑CT2R‑6 (Fit is explicit).**                | Where mappings or alignments matter, the author **SHALL** reason about **fit** explicitly (Congruence Level, conceptually) and acknowledge that weak fit reduces the effective reliability of any composed claim.                             | Keep integration quality first‑class.                                     |
-| **CC‑CT2R‑7 (Notational independence).**        | Core meaning **MUST NOT** hinge on any specific diagram or syntax; illustrative renderings, if present, are labelled *informative*.                                                                                                           | Ensure longevity and cross‑discipline portability.                        |
-| **CC‑CT2R‑8 (Layer direction).**                | Grounding flows **downwards** from Working‑Model to Assurance layers (Mapping/Logical/Constructive). Authors **SHALL** avoid back‑defining the canonical relation by its grounding artefact.                                                  | Preserve unidirectional dependence of layers.                             |
-| **CC‑CT2R‑9 (Scope split).**                    | When assurance is discussed, authors **SHALL** state the **typed claim** and **scope** `S ∈ {design, run}` and keep them distinct in reasoning.                                                                                               | Prevent design/run chimeras.                                              |
-
-
-### B.3.5:12 - Consequences (benefits, trade‑offs, mitigations)
+### A.19.SUPPORT-VIEW:9 - Consequences
 
 **Benefits**
 
-* **Cognitive clarity for authors and readers.** By making Working‑Model relations canonical and keeping formal bases as optional groundings, CT2R reduces the barrier to disciplined reasoning while preserving a path to higher assurance when necessary.  This honours the B.3 family's “few characteristics, conservative aggregation” ethos and keeps order/time outside of structure.
-* **Progressive assurance without tooling commitments.** The *postulate → inferential → axiomatic* ladder lets teams raise assurance deliberately, matching their context and risk, in line with B.3.3’s maturity logic.
-* **Explicit fit management.** Treating edge‑fit (CL) as a first‑class concern prevents silent over‑confidence: weak mappings visibly cap reliability of composed claims.
-* **Cleaner separation of concerns.** Distinguishing collections from compositions and keeping sequence/time in Γ\_method / Γ\_time prevents recurrent category errors and preserves Γ‑algebra reviewability.
+- Readers get one explicit support layer without losing the declared substrate.
+- FPF keeps one common support-view family without forcing `G.2` or another local specialization to carry the whole support requirement.
+- Atlas-form support remains available where it helps, but thinner support views stay lawful.
 
-**Trade‑offs & mitigations**
+**Trade-offs**
 
-* **Extra prose discipline.** Declaring `validationMode` and writing a short grounding narrative (when *axiomatic*) adds authoring effort. *Mitigation:* reuse local templates; keep narratives concise and Γ\_m‑oriented by idea rather than notation.
-* **Temptation to stay “forever postulate.”** Teams may stop at Working‑Model relations. *Mitigation:* use B.3.3’s subtypes/levels as a **planning aid** to decide where *axiomatic* or *inferential* grounding is worth the cost.
-* **Perceived conservatism.** Acknowledging weak fit (CL) may lower effective reliability of otherwise strong parts. *Mitigation:* treat CL as a guide to improvement (reconcile terms, align units, verify interfaces) rather than a punishment.
+- The declaration must keep more boundaries explicit: view law, substrate, publication, and policy no longer collapse into one comfortable narrative.
+- Some cases that once looked like "just a view" must now say whether they are thin support, atlas support, publication, or policy.
+- The pattern requires the base palette or source surface to stay recoverable, which can make local prose slightly less terse.
 
-> **One‑line takeaway for managers.**
-> CT2R lets you **talk in natural, domain‑meaningful relations** while preserving a clear, optional path to formal grounding and empirical checking—so confidence can grow deliberately without dragging your model into tooling or syntax.
+### A.19.SUPPORT-VIEW:10 - Rationale
 
+The family needs one common support-view pattern because neither of the earlier extremes is good enough.
 
-### B.3.5:13 - Rationale (informative)
+If everything stays in the substrate, the substrate starts carrying interpretive and atlas-form requirements that are not part of its semantic center.
 
-**13.1 Why canonical‑first?**
-CT2R‑LOG treats the **human‑readable, task‑appropriate relation** (e.g., `ut:ComponentOf`) as the **canonical publication form** because that is what engineers and managers actually use to reason, decide, and communicate. The formal layers exist to **support** that form—not to replace it. This is consistent with the authoring Standard in Part E (pattern template and style guide), which privileges **clarity, purpose and didactics** over premature formalism in the body text. Authors write *for people first*, then point to the kind of assurance they are invoking.
+If everything stays inside one local specialization such as `G.2`, the common support requirement gets trapped inside one tradition-facing case and starts looking like a local accident rather than a reusable family.
 
-**13.2 Why two `tv:` links—and why concept‑only?**
-`tv:AliasOf` and `tv:groundedBy` name **conceptual bridges** between a Working‑Model relation and its assurance. They are *not* mandates for any particular notational scheme; they are **mental handles** that keep authors honest about *what* grounds their claims (constructive, logical, mapping) and *when* that grounding is expected to be present. This honours the **Notational Independence** guard‑rail in Part E: we adopt **concepts and obligations**, not file formats or tool Standards, in the normative text.
+`A.19.SUPPORT-VIEW` is the middle answer:
 
-**13.3 Why a triad of `validationMode`?**
-The triad **{postulate, inferential, axiomatic}** expresses a **scalable formality ladder** compatible with the FPF stance on staged assurance: start with what the team can responsibly claim now, and climb to stricter justification where risk or context demands it. That mirrors the “ladder” patterns in Part E and gives reviewers a shared vocabulary for **how strong** a claim is meant to be—without changing the canonical relation itself.
+- it keeps the support layer generic and reusable;
+- it keeps the layer explicitly under existing view law;
+- it lets ordinary thinner support views remain first-class;
+- and it reserves atlas-form reading for the cases that truly need it.
 
-**13.4 Why keep order/time out of mereology?**
-CT2R‑LOG aligns with A.14’s **firewall**: structure (parthood) is distinct from **order** and **temporal coverage**. The former is published as `ut:StructPartOf` sub‑relations; the latter live in `Γ_method` / `Γ_time` and must **not** be smuggled into part‑trees. This separation avoids classic modelling failures (temporal smearing, pseudo‑components for quantities) and keeps reasoning crisp across the Γ‑family.
+That is why `CrossSurfaceAtlasView` appears here as one richer support specialization, while `TraditionAtlasView` remains one `G.2` specialization of it rather than the common head.
 
-**13.5 Why point to `Γ_m.sum | set | slice` (Compose‑CAL) for constructive grounding?**
-Three constructive moves—**sum, set, slice**—are sufficient to narrative‑rebuild all structural trees while preserving **extensional identity**. When an author selects the *axiomatic* stance, a brief `grounding narrative` can always be told in those terms, without expanding the kernel or inventing bespoke constructors. This satisfies **parsimony (C‑5)** and keeps formal power **outside** the kernel, in a calculus.
+### A.19.SUPPORT-VIEW:11 - SoTA-Echoing
 
-**13.6 Why mental obligations rather than process mandates?**
-Part E requires that patterns govern **thinking** and **authoring**; enforcement and automation, if any, are external concerns. CT2R‑LOG therefore states obligations as **self‑contained cognitive checks**: declare your mode; tell the constructive story only when you claim *axiomatic* strength; keep order/time in their places. This keeps the core specification **evergreen and tool‑agnostic**, as required.
+| Practice line | Primary accepted basis | Practice demand disciplined here | Practical safeguard bought | Adoption stance |
+| --- | --- | --- | --- | --- |
+| Support readings should remain describedEntity-preserving views rather than becoming fresh semantic centers. | `A.6.3` and `E.17.0` already require views to preserve the described entity and not silently add new intensional commitments. | `SV-0`, `SV-1`, `SV-8`, `CC-A19SV-2`, `CC-A19SV-3`. | Keeps support prose from quietly turning into retargeting or new view-law invention. | **Adopt.** Reuse the existing view law directly rather than minting one local alternative. |
+| Palette-first SoTA synthesis already treats atlas support as optional neighboring support rather than the default meaning of `Tradition` or `SoTAPaletteDescription`. | `G.2:4.7` already keeps `TraditionAtlasView` as optional neighboring support and preserves palette-first recoverability. | `SV-5`, `SV-6`, `SV-7`, `CC-A19SV-5`, `CC-A19SV-8`, worked slice `5.2`. | Keeps atlas form available without letting the most salient visible support layer replace the base palette or family head. | **Adopt/Adapt.** Adopt palette-first recoverability and adapt it into one reusable common support family. |
+| Contemporary QD, manifold, and atlas practice uses both projection-style support and richer atlas or geometry support, while heavier metrics and transition models remain case-dependent rather than universally mandatory. | Current atlas, manifold, and QD practice treats richer map, metric, and transition apparatus as optional discipline tied to the case rather than as mandatory baseline machinery. | `SV-4`, `SV-5`, `SV-6`, `CC-A19SV-5`, `CC-A19SV-6`, `CC-A19SV-7`. | Keeps thinner support admissible, keeps atlas support reusable but non-default, and prevents rich formal support from being smuggled in by default. | **Adapt.** Keep richer formal support available without pretending it is the baseline for every support reading. |
 
-### B.3.5:14 - Relations
+### A.19.SUPPORT-VIEW:12 - Relations
 
-**Builds on**
-• **A.14 Advanced Mereology** — structural catalogue and the firewall that excludes roles/recipes and distinguishes Portion/Phase/Component/Constituent; CT2R‑LOG preserves these distinctions at publication time.
-• **A.11 Ontological Parsimony (C‑5)** — constructive grounding lives in a calculus; the kernel remains minimal.
-• **B.1 Universal Γ** — shared invariants and the placement of order/time in their respective Γ‑flavours.
-• **Part E authoring rules** — canonical pattern template and notational independence, which CT2R‑LOG explicitly follows.
+- **Builds on:** `A.19.SURF-SPACE`, `A.19`, `A.6.3`, `E.17.0`, `E.17`.
+- **Coordinates with:** `G.2`, `G.5`, `G.10`, `C.19`, `C.24`, `A.6.P`, `A.0`.
+- **Specialized locally by:** `CrossSurfaceAtlasView`, and in palette-first tradition work `TraditionAtlasView` under `G.2`.
+- **Does not replace:** substrate declaration, selector outcome publication, shipping metadata, or live candidate-pool / enactment policy.
 
-**Coordinates with**
-• **Compose-CAL (Γ_m)** — provides the **constructive** shoulder of the Assurance layer for **structural** relations; CT2R-LOG’s `tv:groundedBy` points *conceptually* to traces narratable as **sum/set/slice**.
-• **KD‑CAL** — provides the **logical** shoulder (inferential justification) when authors pick `validationMode = inferential`.
-• **Kind-CAL / Lang‑CHR** — provide the **mapping** shoulder (type alignment and language hygiene) supporting alias policies without altering Working-Model relations.
+### A.19.SUPPORT-VIEW:End
 
-**Constrained by**
-• **Notational Independence (E.5.2)** — CT2R‑LOG refuses to prescribe formats, keeping all obligations conceptual.
+---
 
-**Specialises / feeds**
-• **B.3.1–B.3.4** — supplies the publication discipline (Working-Model relations, declared **relation kind** and **validationMode**; **F** per C.2.3 where relevant) that B.3’s trust calculus expects; interacts with ageing and assurance-level assessments without changing the relations themselves.
+## A.19.CN - CN‑frame (comparability & normalization)
 
-
-**Non‑relations**
-**No introduction of order/time** — CT2R‑LOG does **not** define `SerialStepOf` / `ParallelFactorOf` / temporal **phases**; those belong to **Method‑CAL** and **Sys‑CAL (TemporalPart)** respectively.  
-
-### B.3.5:End
-
-## B.4 - Canonical Evolution Loop
-
-### B.4:1 - **Problem Frame**
-
-The FPF is built on the **Principle of Open-Ended Evolution (P-10)**. This is not merely a philosophical stance, but a pragmatic recognition that any useful holon—whether a physical system, a scientific theory, or a method—is in a perpetual state of becoming. A static model is a dead model. The framework, therefore, requires a universal, repeatable method that governs how holons adapt and improve over time. This process must bridge the abstract world of `design-time` blueprints with the concrete, messy reality of `run-time` operations, as mandated by the **Temporal Duality principle (Pattern A.4)**.
-
-### B.4:2 - **Problem**
-
-Without a canonical, shared model for evolution, projects fall into predictable and costly failure modes:
-
-1.  **Design-Reality Divergence (The "Drift"):** The `run-time` artifact (the "as-is") slowly drifts away from its `design-time` specification (the "as-intended"). Over time, the formal models become elegant fictions, assurance cases become irrelevant, and the team loses the ability to reason reliably about their own creation.
-2.  **Learning Stagnation (The "Ivory Tower"):** Valuable insights are generated by observing a holon's performance in its context, but there is no formal method to feed this learning back into the design. "Lessons learned" are captured in static documents that are never acted upon.
-3.  **Chaotic Change (The "Whack-a-Mole"):** "Improvements" are made in an ad-hoc, reactive manner. Each change is a patch, not a principled refinement. This introduces hidden dependencies and unintended consequences, often making the holon more fragile over time.
-
-### B.4:3 - **Forces**
-
-| Force | Tension |
-| :--- | :--- |
-| **Stability vs. Change** | How to evolve a holon continuously while maintaining its core identity and assurance guarantees. |
-| **Learning vs. Operating** | How to balance the need for a holon to be stable in its operational context with the need to gather data and learn from its performance. |
-| **Top-Down Intent vs. Bottom-Up Reality** | How to reconcile strategic, top-down refinement goals with emergent, bottom-up feedback from operational reality. |
-
-### B.4:4 - **Solution**
-
-FPF defines the **Canonical Evolution Loop**, a four-phase cycle that serves as the universal engine for all principled, open-ended evolution. This loop is a direct implementation of the **Explore → Shape → Evidence → Operate** state machine (Pattern B.5.1) and is powered by the **Canonical Reasoning Cycle** (Pattern B.5).
-
-The loop creates a closed, auditable circuit between the two temporal scopes. Crucially, transitions between phases are performed by an **external `Transformer`** (Pattern A.12). A holon does not evolve itself; it is evolved by an external agent acting upon it.
-
-*A diagram showing a cycle: Operate (Run-time) → Observe (Run-time to Design-time bridge, performed by a Transformer) → Refine (Design-time) → Deploy (Design-time to Run-time bridge, performed by a Transformer) → Operate.*
-
-**The Four Phases of the Loop:**
-
-| Phase | Core Activity | Role of the External `Transformer` | Key FPF Patterns Used |
-| :--- | :--- | :--- | :--- |
-| **1. Operate** | The holon exists in its `run-time` context, fulfilling its purpose. | **The `Transformer` observes the holon.** It does not act *on* it, but gathers data about its performance or state. For a `U.System`, this could be a sensor. For a `U.Episteme`, this could be a researcher applying the theory and noting its predictions. | `A.4 Temporal Duality` |
-| **2. Observe** | The `Transformer` compares the observed reality with an expected model, identifying an **anomaly** or an **opportunity**. This is the bridge from `run-time` back to `design-time`. | **The `Transformer` generates a new insight.** Based on the observation, the `Transformer` (e.g., the research team, an automated analysis system) formulates a new hypothesis about how to improve the holon. | `B.5.2 Abductive Loop`, `A.10 Evidence Graph Referring` |
-| **3. Refine** | The `design-time` model of the holon is updated by the `Transformer`. A new hypothesis is shaped (Deduction) and tested against evidence (Induction). | **The `Transformer` modifies the blueprint.** It alters the `design-time` episteme—the specification, the theory, the source code—to incorporate the new insight. | `B.5 Canonical Reasoning Cycle`, `B.3 Trust & Assurance Calculus` |
-| **4. Deploy** | The `Transformer` instantiates the refined `design-time` model as a new `run-time` version of the holon. This is the bridge that carries improvements from the blueprint back into the real world. | **The `Transformer` builds and releases the new version.** This could be a compiler building new software, a 3D printer creating a new physical part, or an editor publishing a revised version of a scientific paper. | `A.3 Transformer Constitution`, `A.4 Temporal Duality` |
-
-> **Didactic Note for Managers: The "Learn and Adapt" Engine**
+> **Scope.** This CN‑frame Algebra & Normalization Discipline **extends A.19** by fixing the **governance Standard** for CN‑frames, defining a **conformance checklist** and **regression harness**, and providing **didactic one‑pagers** and **anti‑patterns** so teams can introduce CN‑frames without tool lock‑in. The mandatory pattern structure and authoring discipline from **Part E** (Style Guide, Tell‑Show‑Show, checklists, DRR, guard‑rails) are applied throughout.
 >
-> The Canonical Evolution Loop is your organization's formal method for **institutional learning**. It is a structured way to answer the four key questions of continuous improvement:
-> 
-> 1.  **Operate:** "Is the artifact (system, theory, process) performing its function in its environment?"
-> 2.  **Observe:** "What are our monitoring systems and our people (the `Transformers`) telling us? Are there any surprises or problems?"
-> 3.  **Refine:** "Based on what we've learned, how can our team (the `Transformer`) design a better version?"
-> 4.  **Deploy:** "How does our team (the `Transformer`) roll out the improved version safely and efficiently?"
+> **Governing-pattern boundary (cite, don’t duplicate).** A.19.CN governs the **CN-frame governance card, registry, bridges, and checklist/harness** (`CN-Spec`, registry, bridges, checklist/harness). It does **not** govern any CHR-mechanism **intensions**, term cards, or method taxonomies. Those are governed by the corresponding mechanism-governing patterns: **A.19.UNM**, **A.19.UINDM**, **A.19.USCM**, **A.19.ULSAM**, **A.19.CPM**, and **A.19.SelectorMechanism**. Evidence/backing is governed by **C.16**; legality gates are governed by **G.0**. Therefore A.19.CN specifies *where the references live*, *what must be citeable for audit*, and *how governance changes trigger regression* — not mechanism semantics.
 >
-> This loop ensures that your projects don't just *deliver* once, but continuously *adapt* and *improve* based on real-world feedback. It makes the role of the acting agents (`Transformers`) in this evolution explicit and auditable.
+> **Reader map (fast navigation).**
+> - “What does `NormalizationMethodId/…InstanceId/≡_UNM/NormalizationFix` mean?” → **A.19.UNM**.
+> - “What is an Indicator / `IndicatorChoicePolicy` and why NCV ≠ Indicator?” → **A.19.UINDM**.
+> - “Why can we trust a normalization / where does calibration or evidence live?” → **C.16 (MM‑CHR)**.
+> - “What is admissible to compare or aggregate, and what is `MinimalEvidence`?” -> **G.0 (CG-Spec)**.
+
+### A.19.CN:1 - Context
+
+A.19 established a substrate‑neutral picture:
+
+* a **CN‑frame** = *(Context‑local)* **CharacteristicSpace (CS)** + **chart** (coordinate patch + units) + a referenced **Normalization mechanism (UNM)** pinned from `CN‑Spec.normalization`. Any semantics of admissibility, invariants, and `≡_UNM` is governed by the A.19.UNM governing pattern (see **A.19.UNM**);
+* **operators** (subspace, product, pullback/pushforward) and **comparability** (coordinatewise vs **normalization‑based (normalize‑then‑compare)**);
+* **RSG touch‑points**: role readiness (**RSG** states) are **certified** against CS via **checklists** over observable characteristics;
+* **entity/relational mixtures** across CN‑frames via minimal schemas and bridges.
 
-### B.4:5 - **Archetypal Grounding**
+**Terminology guard.** *CN‑frame* is the **lens** (I); *CN‑Spec* is the **governance card** (S) that fixes admissible charts/normalization *references*/comparability/Γ‑fold for that lens **in one `U.BoundedContext`**; *CN‑Description* is the didactic surface (D) with worked examples and anti‑patterns. Mechanism‑level term cards (e.g., `NormalizationMethod`, `NormalizationMethodInstance`, `NCV`, `≡_UNM`, `IndicatorChoicePolicy`) are governed by the corresponding **A.19.<MechId>** patterns and are only **cited** here.
 
-The Canonical Evolution Loop is universal. It applies identically to the evolution of physical systems, bodies of knowledge, and operational methods. The following sub-patterns detail its instantiation in each of these domains.
+**Lexical guard (map/Map, by reference).** Follow the lexical discipline governed by **A.19.UNM**: avoid introducing new normalization tokens that use “map/Map/mapping” (because `…Map` is a Part‑G method‑type kind). In normalization contexts prefer **normalize / transform / re‑parameterize**. Legacy tokens (including retired κ‑notation) are handled via **alias docking** (F.18); A.19.CN applies this rule and does not redefine it.
 
-*   **B.4.1 - System Instantiation (Field Upgrade Loop):**
-    *   **Context:** A fleet of autonomous delivery drones (`U.System`) is in operation.
-    *   **Loop Example:**
-        1.  **Operate:** The drones perform deliveries.
-        2.  **Observe:** A monitoring service (`Transformer`) detects that battery performance degrades faster than expected in cold weather (an anomaly).
-        3.  **Refine:** The engineering team (`Transformer`) updates the drone's power management software (`design-time` model) with a new algorithm optimized for cold temperatures.
-        4.  **Deploy:** The team (`Transformer`) pushes the new firmware to the entire fleet. The cycle begins again.
+A.19.CN makes this *operational and auditable*.
 
-*   **B.4.2 - Knowledge Instantiation (Theory Refinement Loop):**
-    *   **Context:** A scientific theory of protein folding (`U.Episteme`) is being used to predict structures.
-    *   **Loop Example:**
-        1.  **Operate:** The theory exists and is applied by researchers.
-        2.  **Observe:** A research lab (`Transformer`) discovers a new class of proteins whose structure the theory fails to predict (an anomaly). They publish this finding.
-        3.  **Refine:** Another research team (`Transformer`) revises the original theory, adding a new term to its equations (`design-time` model) that accounts for the new protein class.
-        4.  **Deploy:** The team (`Transformer`) publishes the revised theory in a journal. The scientific community begins to use the new version. **Note.** The *chart* and any CG‑frame readings derived from this episteme MUST cite the updated `MethodDescription` (per A.19.CN CC‑A19.D1‑3) to keep comparability auditable.
+### A.19.CN:2 - Problem
 
-*   **B.4.3 - Method Instantiation (Adaptive Workflow Loop):**
-    *   **Context:** A software development team uses a specific agile workflow (`U.Method`).
-    *   **Loop Example:**
-        1.  **Operate:** The team follows the defined workflow for its sprints.
-        2.  **Observe:** The scrum master (`Transformer`) notes that the time from code commit to production deployment is consistently exceeding the target SLA (an anomaly).
-        3.  **Refine:** The team (`Transformer`) redesigns its CI/CD pipeline (`design-time` model of the method), introducing a new automated testing stage to catch errors earlier.
-        4.  **Deploy:** The team (`Transformer`) implements the new pipeline configuration. The next sprint operates under the refined method. **Note.** Method evolution MUST be recorded as `Γ_method` composition over `U.Method` (design‑time) and separated from `U.Work` (run‑time), with DRR ids attached (per A.4/B.1.5).
+Absent a governance layer, four failure modes recur:
 
-### B.4:6 - **Conformance Checklist**
+1. **Chartless numbers.** Measures move between teams without units, reference states, or declared normalization → **illusory comparability**.
+2. **Hidden normalization flips.** Re‑parameterisations (e.g., normalising by batch size) silently alter meaning; trend lines lie.
+3. **CN‑frame sprawl.** Every initiative mints a new “dashboard dimension”; semantics diverge; assurance collapses.
+4. **Un‑bridgeable reports.** Cross‑team roll‑ups average **incongruent** CN‑frames, violating the **weakest‑link (WLNK)** discipline from Γ and B.3.
 
-*   **CC-B4.1 (Loop Integrity):** Any evolutionary change to a holon **MUST** be documented as a full traversal of the four-phase loop. Ad-hoc changes that bypass a phase (e.g., deploying a refinement without a documented observation and evidence phase) are a process violation.
-*   **CC-B4.2 (Temporal Scope Mandate):** The *Refine* phase **MUST** operate on `design-time` artifacts, while the *Operate* phase involves a `run-time` artifact. The *Observe* and *Deploy* phases are the only permissible bridges between these scopes.
-*   **CC-B4.3 (Transformer Mandate):** The *Observe*, *Refine*, and *Deploy* transitions **MUST** be performed by an explicitly identified external `Transformer` (Pattern A.12). A holon cannot observe, refine, or deploy itself.
+### A.19.CN:3 - Forces
 
-### B.4:7 - **Common Anti-Patterns and How to Avoid Them**
+| Force                         | Tension we must balance                                                              |
+| ----------------------------- | ------------------------------------------------------------------------------------ |
+| **Universality vs nuance**    | One Standard for robotics, safety, finance — yet leave each context’s idioms intact. |
+| **Speed vs audit**            | Light ceremony for on‑ramp; hard guarantees for assurance and SoD.                   |
+| **Local truth vs federation** | Keep CN‑frames meaning‑local; still enable **explicit** bridging across Contexts.          |
+| **Minimalism vs safety**      | Few mandatory slots; enough structure to forbid silent normalization drift.                  |
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It (Conceptually) |
-| :--- | :--- | :--- |
-| **The "Immaculate Conception"** | A new feature or design "just appears" in the specification, with no record of the problem it was meant to solve. | **CC-B4.1** and **CC-B4.3** mandate that every refinement must start with an *Observe* phase, performed by a named `Transformer`. There is no change without a documented observation and an agent who made it. |
-| **The "Self-Healing Illusion"** | The model claims "the system automatically improves itself" without specifying the mechanism. | **CC-B4.3** forbids self-evolution. The model must explicitly show an *external* `Transformer` (which could be an automated control loop, but is still modeled as external to the holon being changed) that performs the Observe-Refine-Deploy cycle. |
-| **The "Run-time Edit"** | An engineer makes a "quick fix" directly on a live system without updating the official design documents. | **CC-B4.2** enforces that all refinements happen in `design-time`. A "hotfix" is conceptually an emergency, accelerated run through the entire loop: the fix is observed, designed, and then deployed. |
 
-### B.4:8 - **Consequences**
+### A.19.CN:4 - Solution — **The CN‑Spec** (CN‑Spec) + **Registry** + **Bridges**
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Creates a "Learning Architecture":** The loop provides a formal, repeatable structure for continuous improvement and adaptation, making the organization's learning process explicit. | **Process Overhead:** Documenting each phase of the loop can feel bureaucratic for small, rapid changes. *Mitigation:* The conceptual requirement for a DRR (Design Rationale Record) can be lightweight. The key is to capture the *what* and *why* of the change, not to create extensive paperwork. |
-| **Ensures Design-Reality Sync:** The loop guarantees that `design-time` specifications and `run-time` realities are continuously reconciled, preventing divergence and maintaining a "living" assurance case. | - |
-| **Makes Evolution Auditable:** The entire lifecycle of a holon, including every refinement and the rationale behind it, becomes a traceable, auditable record performed by named `Transformers`. | - |
+#### A.19.CN:4.1 - The **CN‑Spec** (comparability & normalization specification per CN‑frame, in one `U.BoundedContext`)
 
-### B.4:9 - **Rationale**
+A **CN‑frame** is governed by a compact, notation‑free card:
 
-This pattern operationalizes the **Open-Ended Evolution Principle (P-10)** by providing its core engine. It is the FPF's formalization of proven iterative cycles like the Deming Cycle (Plan-Do-Check-Act) and the OODA Loop (Observe-Orient-Decide-Act), but it enriches them with the strong semantic distinctions of the FPF, such as `design-time` vs. `run-time` and the formal role of the external `Transformer`.
+```
+CN‑Spec {
+  name              : CN‑frameName                  // local to Context
+  context           : U.BoundedContext              // edition/version included
+  cs_basis          : [{
+    slot_id         : <tech-token>,                 // stable slot id (basis name)
+    characteristic  : <U.Characteristic>,          // per A.17 / A.18
+    scale           : { type: nominal|ordinal|interval|ratio, unit?: <U.Unit>, bounds?: <… > },
+    polarity        : up|down|target-range,        // comparison orientation
+    // if needed: missingness?, admissible_domain? (MM‑CHR‑consistent metadata)
+  }]
+  chart             : { reference_state, coordinate_patch, measurement_protocol_ref }
+  normalization     : {
+   UNM_id?,                                      // reference to the UNM mechanism; canonical Intension: A.19.UNM
+   methods: [NormalizationMethodId],              // A.19.UNM-governed tokens; semantics are governed by A.19.UNM
+   instances?: [NormalizationMethodInstanceId],   // A.19.UNM-governed tokens; evidence/backing lives in C.16
+   method_descriptions: [NormalizationMethodDescriptionRef], // refs only; semantics and corpus live with A.19.UNM
+   admissible_reparameterizations,                // A.19.UNM-governed declarations (opaque here; see A.19.UNM)
+   invariants,                                    // A.19.UNM-governed invariant tokens (opaque here; see A.19.UNM)
+   fix?: <NormalizationFixSpec>                   // A.19.UNM-governed fix spec (opaque here; see A.19.UNM)
+   }
+  comparability     : { mode ∈ {coordinatewise, normalization-based}, minimal_evidence }  // `minimal_evidence` is a gate reference (default: CG‑Spec.MinimalEvidence; see G.0 and C.16)
+  indicator_policy? : { IndicatorChoicePolicyRef, scope, edition }  // policy ref only; semantics governed by A.19.UINDM
+  acceptance        : { checklist_for_admission, window, evidence_anchors } // gates RSG state checks
+  aggregation       : { Γ_fold, WLNK/COMM/LOC/MONO choices, time_policy }   // fold tokens only; semantics governed by B.3 and G.0 (and the folding mechanism card, if cited)
+  alignment?        : { bridges_to_other_contexts, CL_levels, loss_notes }  // optional
+  maintenance       : { source_maintenance_role_assignment, DRR_links, deprecation_plan }
+}
+```
 
-By making the `Transformer`'s role explicit in every phase, the pattern avoids the common conceptual error of treating systems or theories as if they evolve on their own. Evolution is always an *action* performed by an agent on a holon. This rigorous, externalist stance is critical for clear causal reasoning and auditable accountability. By making this loop canonical, FPF ensures that all holons within its ecosystem are not just designed and built, but are designed *to be evolved* in a principled, traceable manner.
+**Reading:** *A CN‑frame is a context‑local lens with declared characteristics and a chart to read them. `CN‑Spec` pins the **references and governance choices** needed to make admission, comparability, and safe roll‑ups auditable: the UNM reference for normalization‑based comparability, an optional `IndicatorChoicePolicyRef`, an explicit `Γ_fold`, and the admission checklist. Any mechanism semantics, such as what `≡_UNM` means or what counts as an Indicator, is governed by the corresponding mechanism-governing pattern and is only cited from here.*
 
-### B.4:10 - **Relations**
+**Governing-pattern assignment note.** CN-Spec stores only the **governance references and declarations**. The semantics and term cards for `NormalizationMethod*`, `≡_UNM`, `NCV`, `IndicatorChoicePolicy`, and any other CHR-mechanism vocabulary are governed by the corresponding mechanism-governing patterns such as **A.19.UNM** and **A.19.UINDM**; evidence backing lives in **C.16**. (Kernel reminder: per **A19‑CS‑5**, `U.CharacteristicSpace` carries no hidden normalizations or aggregations.) In A.6.1 terms, `UNM_id` points to a canonical **`U.Mechanism.Intension`** card; the CN‑Spec **references** that mechanism and does **not** introduce implicit **Transport**.
 
-*   **Implements:** `P-10 Open-Ended Evolution`, `A.4 Temporal Duality`.
-*   **Orchestrates:** `B.5 Canonical Reasoning Cycle` (provides the cognitive engine for the *Observe* and *Refine* phases) and `B.3 Trust & Assurance Calculus` (provides the metrics for the *Evidence* sub-phase).
-*   **Is instantiated by:** The more detailed evolution loops for specific holon types, such as `B.4.1 System Instantiation`.
+**L‑CN‑Spec‑NORM‑IDs (by reference).** When CN‑Spec (or its audit trail) needs stable normalization tokens, use **NormalizationMethodId**/**NormalizationMethodInstanceId** as specified by A.19.UNM. Avoid generic “map” nouns and retired κ‑notation (see the **A.19.UNM** lexical guard); preserve retired tokens only via **F.18 alias docking**. If you introduce reference‑typed fields, obey **A.6.5** (`*Ref` reserved for reference fields; `*Slot` reserved for SlotKinds).
 
-### B.4:End
+#### A.19.CN:4.2 - **CN‑frame Registry** (per Context)
 
-## B.5 - Canonical Reasoning Cycle
+Each `U.BoundedContext` keeps a **CN‑frame Registry** (VR):
 
-### B.5:1 - **Problem Frame**
+* **canonical names** and **editions**;
+* **SoD hooks** (who can edit CN‑Spec, who can certify admission);
+* **deprecation map** (what replaces what, when).
 
-While preceding patterns define the anatomy of trust (`Assurance Levels` in B.3) and the structure of holons (A.1, A.14), they do not specify the cognitive "engine" that drives the creation and evolution of knowledge within FPF. A framework for thinking must provide more than just a filing system for conclusions; it must offer a repeatable, rigorous method for arriving at them, especially when confronting novel, complex, or ill-defined problems.
+#### A.19.CN:4.3 - **Bridges** (across contexts)
 
-### B.5:2 - **Problem**
+Cross‑context reuse occurs **only** via explicit **Alignment Bridges** (F.9) between CN‑Specs:
 
-Without a formal, shared reasoning cycle, teams and individuals fall into predictable cognitive traps that stall progress and hide risks:
+```
+Bridge CN‑frameA@Context1  →  CN‑frameB@Context2
+  channel: {Scope|Kind}                 // F.9 (and A.6.1 Transport)
+  planes: ReferencePlane(src,tgt)       // C.2.1 (must be recorded)
+  CL: {3|2|1|0}
+  CL_plane?: {3|2|1|0}                  // only when planes differ
+  kept_characteristics: [… ]
+  lost_characteristics: [… ]
+  transform: {pullback | pushforward | re-scaling | re-binning | … }  // illustrative; use the operator vocabulary governed by A.19 and F.9
+  extra_guards: {additional evidence, review role, or waiver speech act}
+```
 
-1.  **Analysis Paralysis:** Teams get stuck endlessly debating existing assumptions, running deductions within a closed world of known facts without a mechanism to introduce genuinely new ideas.
-2.  **Blind Empiricism:** Teams engage in unstructured, expensive trial-and-error, running tests and gathering data (induction) without a clear, falsifiable hypothesis to guide their efforts.
-3.  **Innovation Gap:** In the face of a problem where existing knowledge is insufficient, there is no formal "permission" or process to generate a creative, plausible guess—the essential first step of any breakthrough.
+**CL policy (reference).** **CL levels and the penalty Φ(CL) are defined in B.3** (CL is **ordinal**; do not average). In A.6.1 terms, any cross‑context (or cross‑plane) reuse is declared **only** via a mechanism’s **Transport** clause: **name the BridgeId and channel** (`Scope|Kind`) and **record** `ReferencePlane(src,tgt)`; if planes differ, declare the `CL^plane` regime. **Transport is declarative** (it does not introduce a `U.Transfer` edge and does not restate CL ladders or Φ tables). When both scope and *describedEntity* change, apply the **two‑bridge rule** (Scope bridge + **KindBridge (CL^k)**). Penalties from scope/kind/plane **route to `R/R_eff` only** (never to **F/G**). This CN‑Spec may **add operational guards** per level (e.g., “extra reviewer at CL=1”, “waiver at CL=2”), but it **does not redefine** the scale or Φ. For episteme‑specific frames, see also **B.1.3**.
 
-These pathologies lead to wasted resources, circular debates, and a failure to solve the very problems that require first-principles thinking.
+### A.19.CN:5 - Conformance Checklist (normative)
 
-### B.5:3 - **Forces**
+> **Pass these and your CN‑frames are fit for assurance and cross‑team composition.**
 
-| Force | Tension |
-| :--- | :--- |
-| **Rigor vs. Innovation** | How can we encourage creative, "out-of-the-box" hypotheses while maintaining formal discipline and verifiability? |
-| **Certainty vs. Progress** | How can we act and learn systematically when faced with incomplete information and uncertainty? |
-| **Theory vs. Practice** | How do we ensure that abstract models and formal deductions are continuously anchored to real-world evidence and empirical validation? |
-| **Systematic Flow** | How do we transform problem-solving from a chaotic, ad-hoc art into a repeatable, auditable, and teachable science? |
+**CC‑A19.D1‑1 (Local scope).** Every CN‑frame **MUST** live inside a declared `U.BoundedContext` (with edition). Names are **local**; same label in another Context ≠ same CN‑frame.
 
-### B.5:4 - **Solution**
+**CC‑A19.D1‑2 (Units & polarity).** Each characteristic in `cs_basis` **MUST** declare **unit and scale** and **polarity** (↑ better, ↓ better, or target range). No unlabeled magnitudes.
 
-FPF establishes the **Abductive–Deductive–Inductive Loop** as its canonical reasoning cycle. This cycle gives formal primacy to **abduction** (hypothesis generation) as the engine of innovation, while using deduction and induction as the rigorous mechanisms for testing and refining those hypotheses.
+**CC‑A19.D1‑3 (Chart).** `chart` **MUST** name the **reference state**, **coordinate patch** and **measurement protocol** (`U.MethodDescription`) to make numbers reproducible.
 
-The loop consists of three distinct, sequential phases:
+**CC‑A19.D1‑4 (Normalization references, not redefinition).** `normalization` **MUST** (i) cite the UNM mechanism (`UNM_id?`) and (ii) provide the normalization references required by the A.19.UNM governing pattern (methods / invariants / fix, and instances when used) so that any normalization‑based comparison is auditable. This pattern does not define what a “NormalizationMethod” is — it requires that CN‑Spec can point to the governing pattern that does.
 
-#### B.5:4.1 - Abduction (Hypothesis Generation)
+**CC‑A19.D1‑5 (Comparability mode).** `comparability.mode` **MUST** be either **coordinatewise** (same chart & units) or **normalization‑based** (“normalize‑then‑compare” via the declared **UNM**). Mixed/implicit modes are prohibited. The semantics of `≡_UNM` and what counts as “same class” is governed by **A.19.UNM**; CN-Spec only pins the references needed to audit the choice.
 
-*   **Core Question:** "What is the most plausible new explanation or solution?"
-*   **Description:** This is the creative, inventive leap. When faced with an anomaly, a design challenge, or an unanswered question, the first step is to propose a new `U.Episteme`—a new requirement, a new component, a new causal link—that *might* solve the problem. This act is not guaranteed to be correct; it is a conjecture. Within FPF, this new, untested artifact typically begins its life at **`AssuranceLevel:L0 (Unsubstantiated)`**. Abduction is the only phase that introduces genuinely novel ideas into the model. This formalizes the process described in the **Abductive Loop** (Pattern B.5.2).
+**CC‑A19.D1‑6 (Admission checklist).** `acceptance.checklist_for_admission` **MUST** be observable and time‑bounded; each datum admitted to the CN‑frame **SHALL** cite a **StateAssertion** or equivalent `U.Evaluation`.
 
-#### B.5:4.2 - Deduction (Consequence Derivation)
+**CC‑A19.D1‑7 (Aggregation discipline).** `aggregation.Γ_fold` **MUST** specify WLNK/COMM/LOC/MONO choices and the **time policy** (e.g., average of rates vs integral of counts). **No free‑hand averages.** The legality/semantics of folding is governed by **B.3** and **G.0** (and, when a folding mechanism is cited, by its mechanism-governing pattern); CN‑Spec only stores the governance pins.
 
-*   **Core Question:** "If this hypothesis is true, what logically follows?"
-*   **Description:** This is the phase of rigorous analysis. Given the new hypothesis, we use the formal models and calculi of FPF to deduce its logical consequences. What are its testable predictions? Does it create internal contradictions with other parts of the model? How does it propagate through the system? This phase aligns with **Verification Assurance (VA)** and is concerned with raising the artifact's **FormalVerifiabilityScore (FV)**. Deduction turns a plausible idea into a set of precise, falsifiable claims.
+**CC‑A19.D1‑8 (Bridge‑only reuse).** Cross‑context consumption **MUST** cite a **Bridge** with: (i) `channel ∈ {Scope|Kind}`, (ii) recorded `ReferencePlane(src,tgt)`, (iii) CL (and `CL^plane` when planes differ), and (iv) **loss notes**; coordinate‑by‑name without a Bridge **fails**. If the data participate in **gating/assurance**, apply **Φ(CL) per B.3**; this CN‑Spec does not restate Φ.
 
-#### B.5:4.3 - Induction (Empirical Evaluation)
+**CC‑A19.D1‑9 (SoD & roles).** Editing CN‑Spec and admitting data **MUST** be performed by **different** roles (⊥ enforced): `CN‑frameStewardRole ⊥ CN‑frameCertifierRole` inside the same context.
 
-*   **Core Question:** "Do the predicted consequences match reality?"
-*   **Description:** This is the phase of testing and learning from evidence. The predictions derived in the deductive phase are compared against real-world data from experiments, simulations, or observations. This phase aligns with **Validation Assurance (LA)** and is the primary mechanism for raising an artifact's **EmpiricalValidabilityScore (EV)** and, consequently, its **Reliability (R)**. A successful test corroborates the hypothesis (raising its `AssuranceLevel`), while a failed test (a refutation) provides critical new information that feeds back into the next abductive cycle.
+**CC‑A19.D1‑10 (Maintenance, deprecation, and DRR).** Every CN-Spec **MUST** carry a **source-maintenance role assignment**, a **deprecation plan**, and links to **DRR** entries for rationale and changes (Part E.9).
 
-#### B.5:4.4 - **Didactic Note for Managers: The "Propose → Analyze → Test" Cycle**
->
-> The Abductive-Deductive-Inductive loop is not an abstract philosophical concept; it is the formal name for the problem-solving cycle that all successful R&D and engineering teams instinctively use.
->
-> | Phase | Simple Name | What Your Team Does | FPF's Contribution |
-> | :--- | :--- | :--- | :--- |
-> | **Abduction** | **Propose** | Brainstorms a new feature, architecture, or fix. | Gives formal permission for this creative step and a place to record the new idea (`L0` artifact). |
-| **Deduction** | **Analyze** | Thinks through the implications, runs simulations, checks for conflicts. | Provides the formal models (VA, FV) to make this analysis rigorous and repeatable. |
-| **Induction** | **Test** | Builds a prototype, runs A/B tests, gathers user feedback. | Provides the framework (LA, EV, R) to measure the results and build an auditable evidence base. |
->
-> By making this cycle explicit, FPF transforms problem-solving from a chaotic art into a repeatable, auditable science. It gives teams a shared map for navigating from an unknown problem to a validated solution.
+**CC‑A19.D1‑11 (Anchors & lanes for comparability).** Any **admission** into a CN‑frame that is later **used for comparison/aggregation** **SHALL** cite the corresponding **A.10 EvidenceRole** anchors for each characteristic, with **assuranceUse lane** tags {TA, VA, LA} and **validity windows** (where applicable), so that the **SCR** can report lane‑separated contributions and freshness (B.3). Absence of anchors for a required characteristic renders items **incomparable**.
 
-### B.5:5 - **Conformance Checklist**
+**CC‑A19.D1‑12 (Notation independence).** CN‑Spec content **MUST NOT** depend on a tool or file format; semantics precede notation (E.5.2 Notational Independence).
 
-To ensure the reasoning cycle is applied consistently and rigorously, the following criteria are normative:
+**CC‑A19.D1‑13 (Lexical guard‑rails).** characteristic names and role labels **MUST** follow the Part E lexical discipline (registers, twin labels; no overloaded “process/service/function”).
 
-*   **CC-B5.1 (Abductive Primacy):** Any discipline that introduces a new, non-derivable claim or design element into a working model **MUST** document it as an abductive step. The resulting artifact **SHALL** initially be assigned `AssuranceLevel:L0`.
-*   **CC-B5.2 (Deductive Mandate):** An abductively generated hypothesis **SHALL NOT** be subjected to inductive testing (Validation Assurance) until its key logical consequences have been derived and documented through a deductive process.
-*   **CC-B5.3 (Inductive Grounding):** A claim **SHALL NOT** be promoted to `AssuranceLevel:L1` or higher on the basis of a successful inductive test unless that test is explicitly linked to a prediction derived in the deductive phase.
-*   **CC-B5.4 (Cycle Closure):** The outcome of an inductive test (whether corroboration or refutation) **MUST** be formally recorded as an evidence artifact (Pattern A.10), and this artifact **MUST** be used as an input for the next iteration of the reasoning cycle.
-*   **CC-B5.5 (State Machine Alignment):** The Abductive–Deductive–Inductive Loop is the cognitive engine that drives state transitions in the **Explore → Shape → Evidence → Operate** state machine (Pattern B.5.1). Abduction dominates the *Explore* phase; Deduction dominates the *Shape* phase; and Induction is the core of the *Evidence* phase.
+### A.19.CN:6 - Consequences (informative)
 
-**Common Anti-Patterns and How to Avoid Them**
+| Benefit                           | Why it matters                                                                                                        |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Auditable comparability**       | Chart + declared normalization (UNM + NormalizationMethods) make “same number” meaningful; silent re‑basings become explicit, reviewable choices.                   |
+| **Safe roll‑ups**                 | Γ‑folds with WLNK/COMM/LOC/MONO stop optimistic averaging and preserve invariants.                                    |
+| **Pluralism without incoherence** | Bridges with CL and loss notes allow federation without pretending to global sameness.                                |
+| **RSG‑ready**                     | Admission checklists let **RSG** states reference **CN‑frame‑backed** facts (e.g., *Ready* requires characteristics within bounds). |
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
-| :--- | :--- | :--- |
-| **The "Solution in Search of a Problem"** | A team builds a technically impressive feature (deduction/induction) but cannot clearly state what user problem it solves. | **CC-B5.1** forces the process to start with an abductive hypothesis that is explicitly framed as a solution to a stated problem or anomaly. |
-| **The "Ready, Fire, Aim" Approach** | A team jumps directly from an idea to expensive prototyping and testing, without a clear model of what they expect to happen. | **CC-B5.2** mandates a deductive analysis phase *before* inductive testing. This ensures that every test is designed to confirm or refute a specific, well-defined prediction. |
-| **The "Data Dredging" Exercise** | A team gathers massive amounts of data and looks for correlations, hoping a solution will emerge. | The cycle requires a hypothesis *first*. Data is gathered to test that hypothesis, not in the hope of stumbling upon one. This makes the process more focused and cost-effective. |
+### A.19.CN:7 - Rationale (informative)
 
-### B.5:6 - **Consequences**
+The CN‑Spec aligns A.19.CN with **Part E**: it packages Tell‑Show‑Show, Conformance Checklists, and DRR‑backed change, while honouring **DevOps Lexical Firewall**, **Unidirectional Dependency**, and **Notational Independence** so that semantics never depend on tooling.  It also operationalises B.3 **Trust & Assurance** by making CL penalties and WLNK folds first‑class.
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Encourages Innovation:** By formally sanctioning abduction, the framework creates a safe and structured space for creative problem-solving and the introduction of novel ideas. | **Abduction is not algorithmic:** The framework cannot tell you *how* to generate a good hypothesis. *Mitigation:* It provides the structure to capture and test hypotheses, and can be used in conjunction with creative methodologies (e.g., TRIZ, design thinking) that specialize in hypothesis generation. |
-| **Improves Problem-Solving Efficiency:** The cycle provides a clear, repeatable workflow that prevents teams from getting stuck in analysis paralysis or wasting resources on unfocused testing. It ensures that effort is always directed toward falsifying or corroborating a clear claim. | **Requires Iterative Mindset:** The cycle is inherently iterative. Teams must be prepared for hypotheses to be refuted and for the need to restart the cycle. *Mitigation:* FPF's architecture (e.g., cheap state transitions) is designed to make this iteration low-cost. |
-| **Creates a Transparent Rationale:** The cycle produces a complete, auditable trail of how a solution was developed: which hypotheses were proposed, what their consequences were, and how they fared against empirical evidence. This "intellectual provenance" is invaluable for future maintenance, audits, and learning. | - |
-| **Aligns with Scientific and Engineering Best Practices:** The cycle is a formalization of the scientific method (conjecture and refutation) and modern engineering design cycles (e.g., Deming's PDCA loop). | - |
 
-### B.5:7 - **Rationale**
+### A.19.CN:8 - Archetypal Grounding *(Tell‑Show‑Show)*
 
-FPF is designed to be an "operating system for thought," and this reasoning cycle is its central processing unit. By elevating abduction to a first-class citizen, FPF acknowledges a fundamental truth about complex problem-solving: progress does not come from simply rearranging known facts (deduction) or finding patterns in data (induction). It comes from the creative act of proposing a new way of seeing the world—a new hypothesis. Deduction and induction are the indispensable tools we use to discipline and validate this creativity.
+> **Same slots, three arenas; no tooling implied.** The examples below use plain-language normalization descriptions as placeholders; any normative use must cite A.19.UNM-governed ids/refs (A.19.UNM) and evidence pins (C.16), not invent new terminology here.
 
-This pattern provides the engine that drives an artifact up the ladder of `AssuranceLevels`. An abductive leap creates an `L0` artifact. Deduction begins the process of providing **Verification Assurance**, building its `FV` score. Induction provides the **Validation Assurance**, building its `EV` and `R` scores. Without this cycle, the assurance framework would be a static scoring system; with it, it becomes a dynamic model of knowledge growth.
+#### A.19.CN:8.1 - **Industrial line** — *Weld‑quality CN‑frame* (`AssemblyLine_2026`)
 
-### B.5:8 - **Relations**
+* `cs_basis`: *BeadWidth\[mm] (target 6.0±0.2)*, *Porosity\[ppm] (↓)*, *SeamRate\[1/min] (↑ until limit)*
+* `chart`: reference jig, fixture ID, torch type; `MethodDescription#Weld_MIG_v3`
+* `normalization`: affine rescale on gray‑level calibration → invariant = physical porosity
+* `comparability`: **normalization‑based (UNM)** (calibration tables applied)
+* `aggregation`: WLNK on quality (min‑bound), COMM on counts, time = per‑shift histograms
+* **RSG hook**: `WelderRole.Ready` requires *Porosity ≤ 500 ppm* & *BeadWidth within ±0.2 mm* admitted by this CN‑frame.
 
-*   **Integrates:** `B.5.1 Explore → Shape → Evidence → Operate`, `B.5.2 Abductive Loop`.
-*   **Drives:** The progression through `B.3.3 Assurance Subtypes & Levels`.
-*   **Enables:** The refinement phase of the `B.4 Canonical Evolution Loop`.
-*   **Operationalizes:** The core FPF mission of transforming ideas into reliable, evidence-backed holons.
+#### A.19.CN:8.2 - **Software/SRE line** — *Latency CN‑frame* (`SRE_Prod_Cluster_EU_2026`)
 
-### B.5:End
+* `cs_basis`: *P50Latency\[ms] (↓)*, *P99Latency\[ms] (↓)*, *Load\[req/s]*
+* `chart`: client vantage, trace sampler v4; `MethodDescription#HTTP_probe_v4`
+* `normalization`: monotone time‑warp compensation for collector skew; invariant = percentile order
+* `comparability`: **normalization‑based (UNM)** with declared normalization
+* `aggregation`: MONO on latency (max of mins), WLNK across services
+* **RSG hook**: `DeployerRole.Active` gated if **P99** < declared SLO over the admission window.
 
-## B.5.1 - Explore → Shape → Evidence → Operate
+#### A.19.CN:8.3 - **Clinical/episteme line** — *Trial‑outcome CN‑frame* (`Cardio_2026`)
 
-### B.5.1:1 - **Problem Frame**
+* cs_basis:
+  - slot_id: ΔBP
+    characteristic: BloodPressureChange
+    scale: { type: ratio, unit: mmHg }
+    polarity: down
+  - slot_id: AdverseRate
+    characteristic: AdverseEventRate
+    scale: { type: ratio, unit: "%" }
+    polarity: down
+  - slot_id: Age
+    characteristic: Age
+    scale: { type: ratio, unit: years }
+    polarity: neutral
+* `chart`: cohort definition; `MethodDescription#TrialProtocol_v5`
+* `normalization`: case‑mix adjustment (propensity score); invariant = adjusted ΔBP
+* `comparability`: **normalization‑based (UNM)** (post‑adjustment)
+* `aggregation`: LOC on subcohorts; WLNK on safety outcomes
+* **RSG hook**: `EvidenceRole.Validated` admission requires CN‑frame acceptance; **Assurance** pulls CL from any Bridge used.
 
-Every successful innovation, from a new piece of software to a scientific theory, follows a predictable evolution (state transitions). It begins as a fuzzy idea, is gradually given a clear structure, is tested against reality, and finally, is put into operational use. Without a shared map of this lifecycle, teams often get stuck: developers might endlessly refine a structure without testing it, while analysts might gather evidence for an idea that has not yet been clearly defined.
+#### A.19.CN:8.4 - Worked mini-schemas (entity/relational mixtures across CN‑frames, informative)
 
-### B.5.1:2 - **Problem**
+To illustrate how CharacteristicSpace is used in practice, below are simplified schema snippets for three typical **CN‑frames**: an **Operations** view (run-time state and action gating), an **Assurance** view (evidence and cross-context comparison), and an **Alignment** view (design-time consistency across contexts). These examples mix entity-based and relational Characteristics and demonstrate how normalization and bridge *references* may appear in a model.
 
-How do we provide a simple, universal state machine that guides an artifact's journey from a raw concept to a reliable, operational holon? This pattern defines the four canonical states of this journey, providing a clear roadmap for teams and a stable framework for project management.
+**Didactic-only note (no data governance).** The “schema/table” shapes below are purely explanatory: they show which **references must be cite-able** for audit and reproducibility. They are **not** storage requirements, do not prescribe file formats, and do not define the semantics of `NormalizationMethod*` tokens (see A.19.UNM / C.16).
 
-### B.5.1:3 - **Solution**
+##### A.19.CN:8.4.1 - Operations CN‑frame — Run-time gating & enactment
 
-FPF defines a four-state development cycle model for any artifact (`U.Episteme` or `U.System`). An artifact transitions from one state to the next as it accumulates rigor and evidence. This state machine is driven by the **Canonical Reasoning Cycle** (Pattern B.5).
+_Entity graph view:_
 
-**The Four States of an Artifact's Lifecycle:**
+Holder (System) ── playsRoleOf ──> Role@Context ── has ──> RCS (slots…)
+RSG (Role@Context) ── lists ──> State (◉ status)
+Checklist (of State) ── testedBy ──> Evaluation ── yields ──> StateAssertion
+Work ── performedBy ──> RoleAssignment
+Work ── isExecutionOf ──> MethodDescription
 
-| State | Core Activity | Manager's View: What It Means | Driven by Phase of Reasoning Cycle | Typical `AssuranceLevel` |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. Exploration** | **Generating possibilities.** The focus is on brainstorming, questioning assumptions, and generating multiple, often competing, hypotheses. | "We are in the 'what if' phase. All ideas are on the table. We are looking for a plausible path forward." | **Abduction** (Pattern B.5.2) | `L0` |
-| **2. Shaping** | **Defining a single, coherent form.** The most promising hypothesis from the exploration phase is selected and given a rigorous, internally consistent structure. | "We've chosen our direction. Now we are building the blueprint, defining the architecture, and ensuring all the pieces fit together logically."| **Deduction** | `L0` → `L1` (if formalization counts as TA) |
-| **3. Evidence** | **Testing against reality.** The shaped artifact is subjected to rigorous empirical or formal tests to validate its claims and measure its performance. | "The blueprint is done. Now we are at the proving ground. Does it actually work? We are running the tests and gathering the data." | **Induction** | `L1` → `L2` |
-| **4. Operation** | **Deploying and monitoring in a live environment.** The validated artifact is put into production, where it performs its intended function and is monitored for ongoing reliability. | "It's live. The system is in service, delivering value, and we are monitoring its health and performance." | Continuous Induction (Monitoring) | `L2` (maintained) |
+In the above, a **Holder** (a system instance) plays a **Role** in some Context, which has an attached **RCS** (a set of slots defining its characteristic space). That Role’s **RSG** lists various possible **State** entries (each state could be, e.g., Ready, Waiting, Degraded, etc.). Each State has a **Checklist** which is **tested by** an Evaluation process, resulting in a **StateAssertion** (pass/fail) at runtime. Meanwhile, **Work** instances (concrete operations) are performed by the RoleAssignment and correspond to some MethodDescription (procedure). The “gate” for Work is that a StateAssertion for an enactable state must exist.
 
-> **Didactic Note for Managers: Aligning States with Your Project Plan**
->
-> This state machine is not an abstract theory; it maps directly to the familiar phases of any well-run project.
->
-> *   **Exploration** is your R&D or initial discovery sprint.
-> *   **Shaping** is your design and architecture phase.
-> *   **Evidence** is your QA, testing, and V&V phase.
-> *   **Operation** is the live deployment and maintenance phase.
->
-> By using these four states, you can instantly communicate to your team and stakeholders exactly where an artifact is in its state transition, what the current focus is, and what needs to happen to move to the next stage.
+_Relational stub:_ (illustrating how information might be recorded)
 
-### B.5.1:4 - **Conformance Checklist**
+| Table | Key Columns (essential) |
+| --- | --- |
+| **ROLE\_ASSIGNMENT** | `RA_ID` (PK); `HOLDER_ID`; `ROLE_ID`; `CONTEXT_ID`; `WINDOW_FROM`, `WINDOW_TO` |
+| **RCS\_SNAPSHOT** | `SNAP_ID` (PK); `RA_ID` (FK to ROLE\_ASSIGNMENT); `WINDOW_FROM`, `WINDOW_TO`; `CHAR_ID`; `VALUE`; `UNIT`; `SCALE_TYPE` |
+| **RSG\_STATE** | `STATE_ID` (PK); `ROLE_ID`; `CONTEXT_ID`; `NAME`; `ENACTABLE` (bool) |
+| **CHECKLIST** | `CHK_ID` (PK); `STATE_ID` (FK to RSG\_STATE); `PREDICATE_TYPE`; `PREDICATE_SPEC` |
+| **STATE\_ASSERTION** | `SA_ID` (PK); `RA_ID` (FK); `STATE_ID` (FK); `CHK_ID` (FK); `WINDOW_FROM`, `WINDOW_TO`; `VERDICT` (pass/fail); `NORMALIZATION_INSTANCE_ID`?; `BRIDGE_ID`? |
+| **WORK** | `WORK_ID` (PK); `RA_ID` (FK); `METHODDESC_ID` (FK to MethodDescription); `WINDOW_FROM`, `WINDOW_TO`; _(other fields like results or references)_ |
 
-*   **CC-B5.1.1 (State Explicitness):** Every artifact in a project **MUST** be tagged with its current state from the set {Exploration, Shaping, Evidence, Operation}.
-*   **CC-B5.1.2 (Sequential Progression):** An artifact **SHALL** progress through the states in sequence. Skipping a state (e.g., moving directly from Exploration to Evidence without Shaping) is a process violation and must be explicitly justified in the artifact's rationale.
-*   **CC-B5.1.3 (Reasoning Cycle Alignment):** The transition between states **MUST** be triggered by the completion of the corresponding phase of the Canonical Reasoning Cycle (Pattern B.5). For example, the transition from *Shaping* to *Evidence* requires the completion of the deductive analysis.
+In this schema: an RCS snapshot table might log individual coordinate values (`VALUE`) for each Characteristic (`CHAR_ID`) in a given RoleAssignment, with their units and scale type noted (to ensure we know what the number means). The StateAssertion ties a RoleAssignment to a state checklist and says whether it passed, including references to any **NormalizationMethodInstance** or **Bridge** if cross-context or cross-scale comparisons were involved. The gate logic for enactment can then be a query like: “Is Work W admissible now?” – which joins through ROLE\_ASSIGNMENT to find the latest StateAssertion for that RA where `ENACTABLE=true` and `VERDICT=pass`.
 
-### B.5.1:5 - **Consequences**
+##### A.19.CN:8.4.2 - Assurance CN‑frame — Evidence freshness & mapped comparisons
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Clear Project Visibility:** The state machine provides a simple, shared language for tracking the maturity of every artifact in a project. | **Risk of Bureaucracy:** If applied too rigidly, the state machine could feel like a waterfall process. *Mitigation:* The cycle is meant to be rapid and iterative. A single artifact might cycle through all four states within a single sprint. The goal is clarity, not ceremony. |
-| **Improved Focus:** Each state has a clear primary activity, which helps teams focus their efforts and avoid common pitfalls like premature optimization or untested designs. | - |
-| **Reduces "It's Done" Ambiguity:** The states provide a precise definition of "done" for each phase. An artifact is not "done" with Shaping until its structure is coherent and its consequences are deduced. | - |
+_Entity graph view:_
 
-### B.5.1:6 - **Rationale**
+NormalizationMethodInstance ── appliesTo ──> Characteristic   (each instance is a scale‑appropriate, monotone transform within UNM)
+Bridge (ContextB → ContextA)   (Alignment Bridge between contexts, with CL and loss notes)
+StateAssertion ── uses ──> {NormalizationMethodInstance, Bridge}   (if a state comparison crossed contexts)
 
-This pattern operationalizes the **Principle of State Explicitness (P-9)**. By giving every artifact a clear, unambiguous state, FPF transforms the often-chaotic process of innovation into a structured, manageable, and auditable development cycle. This state machine provides the "scaffolding" upon which the more detailed cognitive work of the Canonical Reasoning Cycle is performed, ensuring that every idea is systematically guided from a speculative guess to a reliable operational reality.
+This view highlights that in the assurance context, we keep track of how we mapped or compared states:
 
-### B.5.1:7 - **Relations**
+* A **NormalizationMethodInstance** reference records that an admitted comparison/assertion relied on a declared normalization instance. The admissibility conditions, monotonicity constraints and evidence semantics are governed by **A.19.UNM** and **C.16**.
+* A **Bridge** between Context B and Context A (for corresponding roles or states) carries a CL rating and possibly notes on what is “lost in translation.”
+* A **StateAssertion** may **use** a NormalizationMethodInstance or a Bridge, meaning that assertion was reached by translating data via that instance or comparing across that bridge.
 
-*   **Is driven by:** `B.5 Canonical Reasoning Cycle`.
-*   **Organizes the progression of:** `B.3.3 Assurance Subtypes & Levels`.
-*   **Provides the states for:** `B.4 Canonical Evolution Loop`.
+_Relational stub:_
 
-### B.5.1:End
+| Table                | Key Columns (essential)                                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **NORMALIZATION\_METHOD** | `NORMALIZATION_METHOD_ID` (PK); `KIND` (token; see A.19.UNM); `DESCRIPTION_REF` |
+| **NORMALIZATION\_INSTANCE** | `NORMALIZATION_INSTANCE_ID` (PK); `NORMALIZATION_METHOD_ID` (FK); `SRC_CHAR_ID`; `TGT_CHAR_ID`; `FORMULA_SPEC|LUT_REF` (illustrative); `VALIDITY_WINDOW` (illustrative); `EVIDENCE_REF` (pin/ref; see C.16) |
+| **BRIDGE**           | `BRIDGE_ID` (PK); `FROM_ROLE@CTX`; `TO_ROLE@CTX`; `CL` (congruence-loss level, e.g. 0–3); `NOTES` (description of losses/adjustments) |
+| **ASSURANCE\_EVENT** | `AE_ID` (PK); `SA_ID` (FK to StateAssertion); `EFFECT` (enum: penalty\_applied, evidence\_refreshed, etc.); `DETAILS`                 |
 
-## B.5.2 - Abductive Loop
+In this stub, **NORMALIZATION\_INSTANCE** records a mapping instance that has to be accounted for when reconstructing an assertion or comparison. The exact meaning of `FORMULA_SPEC`/`VALIDITY_WINDOW`/evidence pins is governed by the UNM and evidence patterns (A.19.UNM / C.16); the point here is that the instance is **referenceable** so audits can follow it. The Bridge table enumerates official Bridges between contexts (for example, bridging a “Ready” state in an engineering context to “Ready” in an operations context, with CL indicating how fully comparable they are). An ASSURANCE\_EVENT log could record when a penalty was applied due to a low-CL Bridge or when an assertion was refreshed or invalidated due to new evidence or time lapse.
 
-### B.5.2:1 - **Problem Frame**
+##### A.19.CN:8.4.3 Alignment CN‑frame — Design-time reuse of states across Contexts
 
-The Canonical Reasoning Cycle (Pattern B.5) begins with abduction—the act of generating a new hypothesis. While deduction and induction have well-understood formalisms, abduction is often treated as a mysterious "black box" of creativity, a moment of insight that cannot be managed or systematized. This view is both impractical and incorrect. In engineering, research, and strategy, the ability to generate high-quality, plausible hypotheses is the single most critical driver of innovation.
+_Entity graph view:_
 
-### B.5.2:2 - **Problem**
+Checklist(ContextA.State)   ← pull(N) —   Checklist’(ContextB.State’)   (pull a checklist via **NormalizationMethodInstance** N)
+Refinement π : RSG(Role' ≤ Role)   (RSG refinement mapping, e.g. Role' is a subtype of Role)
 
-Without a formal method for abduction, teams are left to rely on unstructured brainstorming or individual genius. This leads to several failure modes:
+This view covers how _design-time_ alignment happens:
 
-1.  **Innovation Deadlock:** When faced with a problem that cannot be solved with existing knowledge, the team has no formal next step. They are stuck, waiting for a "eureka" moment that may never come.
-2.  **Untraceable Origins:** When a new idea does emerge, its origins are often unrecorded. The context, the discarded alternatives, and the initial rationale are lost, making it impossible to audit or learn from the decision later.
-3.  **Low-Quality Hypotheses:** Without a guiding structure, brainstorming can produce a wide range of ideas, but many may be untestable, irrelevant, or based on flawed assumptions.
+-   A **Checklist’** for a state in Context B can be **pulled** via a **NormalizationMethodInstance** into Context A to become a derived Checklist for a state in Context A. This is effectively what we described in the pull operation: using another context’s criteria in your own space.
 
-### B.5.2:3 - **Forces**
+-   A **Refinement π** is shown between RSGs indicating Role’ is a specialized role of Role (e.g. a sub-role or a scenario-specific role) and how their states relate (Role’ might have extra states or more granular distinctions). This refinement should maintain that for each state in Role’ that maps to a state in Role, the entails/implication relation holds for enactability.
 
-| Force | Tension |
-| :--- | :--- |
-| **Creativity vs. Discipline** | How can we encourage bold, imaginative leaps while ensuring they are grounded, plausible, and lead to testable outcomes? |
-| **Speed vs. Rigor** | How can we generate new ideas quickly without sacrificing the analytical rigor needed to vet them? |
-| **Openness vs. Focus** | How can we explore a wide range of possibilities without getting lost in endless, unproductive speculation? |
 
-### B.5.2:4 - **Solution**
+_Relational stub:_ (illustrating how information might be recorded)
 
-FPF operationalizes abduction not as a single moment of insight, but as a structured, iterative **Abductive Loop**. This loop provides a repeatable method for generating and refining high-quality hypotheses.
+| Table               | Key Columns                                                                                                                                                                                       |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **RSG\_REFINEMENT** | `MAP_ID` (PK); `ROLEPRIME_ID` (FK to Role' in Context B); `ROLE_ID` (FK to Role in Context A); `STATEPRIME_ID` (FK to state in Role' RSG); `STATE_ID` (FK to state in Role RSG); `ENTAILS` (bool) |
+| **CHECKLIST\_PULL** | `PULL_ID` (PK); `SRC_STATE_ID`; `TGT_STATE_ID`; `NORMALIZATION_INSTANCE_ID` (FK to NormalizationMethodInstance used); `VERSION`? /\* and perhaps timestamp \*/                                     |
 
-#### B.5.2:4.1 - The Nature of Abduction in FPF**
+In this stub, RSG\_REFINEMENT maps states of a sub-role to states of a super-role, with an `ENTAILS` flag indicating if being in the sub-state guarantees being in the super-state. **Every refinement mapping should ensure at least one enactable state in the sub-role corresponds to an enactable state in the super-role** (or else the sub-role would allow something the super-role doesn’t – that’s an alignment lint check). The CHECKLIST\_PULL table records that a state from one context has had its checklist pulled into another context via a **NormalizationMethodInstance** (identified by `NORMALIZATION_INSTANCE_ID`). This is a design-time description saying “State X in context A is defined by applying normalization instance N to State Y in context B’s criteria.” A version or validity field might ensure we know which edition of the checklist or normalization instance was used.
 
-In FPF, abduction is defined as **inference to the most plausible explanation or solution**. It is not a random guess. It is a reasoned, albeit non-deductive, process of proposing a new `U.Episteme` that, if true, would best explain a surprising observation or solve a pressing problem.
 
-#### B.5.2:4.2 - The Abductive Loop: A Four-Step Micro-Cycle
+### A.19.CN:9 - Anti‑patterns (and the fix)
 
-The loop provides a scaffold for this inference process:
+| Anti‑pattern            | Symptom                                   | Why it hurts                 | Fix (CN‑Spec slot)                           |
+| ----------------------- | ----------------------------------------- | ---------------------------- | --------------------------------------- |
+| **Chartless number**    | “Latency = 120”                           | No unit/vantage → untestable | Fill `cs_basis` + `chart`                          |
+| **Normalization smuggling**     | Quiet “per‑unit” normalisation mid‑stream | Trend reversal               | Declare UNM normalization references (`NormalizationMethodId` / `NormalizationMethodInstanceId`) + named invariants (see A.19.UNM)        |
+| **Bridge‑by‑name**      | Reusing labels across Contexts               | False comparability          | Author **Bridge** with CL + loss        |
+| **Free‑hand averaging** | Arithmetic mean on bounded risks          | Violates WLNK                | Declare `Γ_fold` with WLNK              |
+| **CN‑frame sprawl**        | Ten nearly‑identical CN‑frames               | Cognitive debt               | Use Registry + DRR; prefer reuse        |
+| **Role conflation**     | Same person edits CN‑Spec & certifies data     | SoD breach                   | Enforce `CN‑frameSteward ⊥ CN‑frameCertifier` |
 
-| Step | Core Activity | Manager's View: What Your Team is Doing |
-| :--- | :--- | :--- |
-| **1. Frame the Anomaly** | **Isolate the surprise.** The team clearly articulates the specific observation, conflict, or goal that cannot be explained or achieved with the current model. | "Let's be crystal clear about the one specific thing we don't understand or can't solve right now." |
-| **2. Generate Candidate Hypotheses** | **Brainstorm explanations.** The team generates a set of candidate hypotheses, each proposing a new entity, relation, or rule that could account for the anomaly. | "What are all the possible reasons for this? Let's get them all on the table, from the obvious to the radical." |
-| **3. Apply Plausibility Filters** | **Rank the candidates.** The team assesses each hypothesis against a set of plausibility criteria (e.g., simplicity, consistency with known principles, explanatory power). | "Which of these ideas are actually worth pursuing? Which are too complex, contradict known facts, or don't really solve the problem?" |
-| **4. Select & Formalize the Prime Hypothesis** | **Choose the best bet.** The most plausible hypothesis is selected and formally documented as a new `U.Episteme` artifact with `AssuranceLevel:L0`. | "We've got our lead. Let's write it down as a formal, testable claim and move it to the next stage of the reasoning cycle." |
+### A.19.CN:10 - Didactic quick cards (one‑liners teams reuse)
 
-This loop can be cycled through rapidly. An initial "prime hypothesis" might be quickly refined or replaced as the team deepens its understanding by applying the plausibility filters.
+1. **Numbers travel with their Context.** Always cite `Context@Edition`.
+2. **If the normalization is not declared, the trend is fiction.**
+3. **WLNK beats wishful means.** Use weakest‑link folds for safety.
+4. **Admit → Assert → Act.** (CN‑frame admission → RSG StateAssertion → Method step).
+5. **Bridge or bust.** Cross‑context = Bridge with CL and loss notes.
+6. **Steward writes, Certifier admits.** (SoD by design.)
+7. **Charts are recipes.** Name the `MethodDescription` that made the number.
+8. **Deprecate in the open.** CN‑frame cards carry DRR & retirement plans.
+9. **Keep characteristics few, meanings sharp.** Prefer ≤ 7 characteristics per CN‑frame.
+10. **No tooling names in Core.** Semantics first; notation later.
+11. **Use method/instance IDs; avoid generic “map” nouns.** Prefer `NormalizationMethodId`/`NormalizationMethodInstanceId` (see the **A.19.UNM** lexical guard).
 
-#### B.5.2:4.3 **Didactic Note for Managers: De-Mystifying Creativity**
->
-> The Abductive Loop is your tool for managing innovation. It transforms "waiting for a brilliant idea" into a proactive, repeatable method.
->
-> *   **It's not about forcing creativity; it's about creating the conditions for it.** By clearly *framing the anomaly*, you give your team a focused target for their creative efforts.
-> *   **It values quantity *and* quality.** The *generation* step encourages a wide net of ideas. The *plausibility filtering* step ensures that only the most promising of those ideas consume valuable engineering and testing resources.
-> *   **It's a funnel, not a lightbulb.** The loop is a process of systematic refinement. It takes a cloud of possibilities and funnels them down to a single, high-quality, testable conjecture. This makes innovation a manageable, predictable part of your project plan, not a random stroke of luck.
+### A.19.CN:11 - SCR / RSCR Harness (acceptance & regression)
 
-### B.5.2:5 - **Conformance Checklist**
+> **These are concept‑level checks; notation‑agnostic.**
 
-*   **CC-B5.2.1 (Anomaly Framing Mandate):** Any abductive process **MUST** begin with a documented "anomaly statement" that clearly defines the problem, observation, or goal that the current model cannot address.
-*   **CC-B5.2.2 (Plausibility Filter Mandate):** The selection of a prime hypothesis **MUST** be justified by documenting its evaluation against at least two plausibility filters. Common filters include:
-    *   **Parsimony (Occam's Razor):** Does the hypothesis introduce the minimum necessary new complexity?
-    *   **Explanatory Power:** How much of the anomaly does the hypothesis explain?
-    *   **Consistency:** Is the hypothesis consistent with well-established, high-reliability principles (Pillars) from other parts of the model?
-    *   **Falsifiability:** Does the hypothesis generate clear, testable predictions?
-*   **CC-B5.2.3 (L0 Artifact Mandate):** The selected prime hypothesis **MUST** be instantiated as a new `U.Episteme` artifact with its `AssuranceLevel` explicitly set to `L0 (Unsubstantiated)`.
-*   **CC-B5.2.4 (Traceability Mandate):** The `L0` artifact **MUST** contain a rationale that links it back to the anomaly statement and briefly summarizes the plausibility filtering that led to its selection.
+#### A.19.CN:11.1 - **SCR — Acceptance (first introduction)**
 
-**Common Anti-Patterns and How to Avoid Them**
+* **SCR‑A19.4‑S01 (Completeness).** **CN‑Spec has **all** mandatory slots; `cs_basis` include **unit, scale, and polarity**; `chart` references a `MethodDescription`.
+* **SCR‑A19.4‑S02 (Normalization clarity).** `normalization` cites the UNM mechanism (`UNM_id?`) and provides the normalization references required by the A.19.UNM governing pattern (methods / invariants / fix, and instances when used). If instances are referenced in assurance logs, their evidence/backing and validity constraints are handled by the governing evidence pattern (C.16), not by A.19.CN.
+* **SCR‑A19.4‑S03 (Comparability test).** Provide one worked example showing **coordinatewise** or **normalization‑based** comparison end‑to‑end (with Evidence Graph Ref).
+* **SCR‑A19.4‑S04 (Γ‑fold audit).** Aggregation rule spells out WLNK/COMM/LOC/MONO choices; reviewer reconstructs result on a toy set.
+* **SCR‑A19.4‑S05 (SoD).** Distinct `RoleAssignments` for `CN‑frameStewardRole` and `CN‑frameCertifierRole` exist; windows do not overlap.
+* **SCR‑A19.4‑S06 (describedEntity & anchors surfaced).** For each CN‑Spec characteristic used in the worked example, cite the corresponding CHR Characteristic name and the evidence anchor(s) (A.10) that make the reading observable in this Context.
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
-| :--- | :--- | :--- |
-| **The "Pet Idea" Problem** | An influential team member pushes their favorite solution without considering alternatives. The team spends weeks pursuing a flawed idea because no one challenged it. | **CC-B5.2.2** forces the team to generate and filter *multiple* candidates. The "pet idea" must compete on its merits against other plausible hypotheses. |
-| **The "Untestable Grand Theory"** | A team proposes a sweeping, philosophical explanation that sounds impressive but generates no concrete, testable predictions. | The **Falsifiability** plausibility filter (part of CC-B5.2.2) requires that any selected hypothesis must lead to clear predictions. If it doesn't, it's rejected as a poor candidate. |
-| **Solving a Symptom, Not the Cause** | The team proposes a quick fix that addresses the immediate pain point but fails to resolve the underlying anomaly. The problem keeps recurring. | **CC-B5.2.1** forces a clear articulation of the *anomaly* itself. The **Explanatory Power** filter then helps the team evaluate whether a proposed solution actually resolves the root cause. |
+#### A.19.CN:11.2 - **RSCR — Regression (on change)**
 
-### B.5.2:6 - **Consequences**
+* **RSCR‑A19.4‑R01 (UNM edit).** On changing `normalization` (UNM/NormalizationMethod), flag **all** downstream Bridges for CL re‑assessment; re‑run example comparisons.
+* **RSCR‑A19.4‑R02 (Slot surgery/Basis surgery).** Adding/removing/renaming slot/basis requires a **new edition**; old data remain valid **for their edition**.
+* **RSCR‑A19.4‑R03 (Chart drift).** Updating measurement protocol bumps edition; **historic Work** keeps old edition link.
+* **RSCR‑A19.4‑R04 (Fold change).** Any change to `Γ_fold` invalidates cached roll‑ups; re‑compute or mark as superseded.
+* **RSCR‑A19.4‑R05 (Bridge health).** After either side’s edition change, **re‑validate** Bridge CL and loss notes before accepting Cross‑context data.
+* **RSCR‑A19.4‑R06 (Deprecation rule).** On deprecating a CN‑frame, Registry lists its successor; bridges re‑targeted or retired.
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Structured Innovation:** The loop provides a repeatable, auditable method for generating high-quality hypotheses, making innovation a manageable engineering activity rather than a random event. | **Cognitive Effort:** Applying the plausibility filters requires deliberate, critical thinking. *Mitigation:* The method is designed to be lightweight and rapid. A team can cycle through the loop multiple times in a single workshop session. |
-| **Improved Decision Quality:** By forcing the consideration of multiple alternatives and the application of explicit filters, the process significantly increases the quality and robustness of the selected hypothesis. | - |
-| **Enhanced Traceability and Learning:** The process creates a clear record of the "why" behind a design choice—which problem was being solved, what alternatives were considered, and why the chosen path was selected. This is invaluable for future learning and onboarding. | - |
-| **Resource Optimization:** The loop acts as a "quality gate" for ideas. It ensures that only the most plausible and promising hypotheses proceed to the more resource-intensive deductive and inductive phases, saving significant time and money. | - |
+### A.19.CN:12 - Interaction summary (wiring to the rest of the kernel)
 
-### B.5.2:7 - **Rationale**
+* **A.2 / A.2.5 (Roles / RSG).** RSG **checklists** quote **CN‑Spec.acceptance**; enactment gates rely on **admitted** CN‑frame data.
+* **B.1 (Γ‑algebra).** CN‑Spec’s `Γ_fold` instantiates Γ\_ctx/Γ\_time/WLNK/MONO choices explicitly.
+* **B.3 (Assurance).** Bridge CL enters the **R** term; WLNK protects safety roll‑ups.
+* **C.6 / C.7 (LOG‑CAL / CHR‑CAL).** Units, scales, and measurement templates come from CHR; proofs about folds live in LOG‑CAL.
 
-The Abductive Loop is the formal heart of the **Exploration** state (Pattern B.5.1). It operationalizes the principle that all rigorous inquiry begins with a well-formed question and a plausible, falsifiable answer. While FPF cannot automate creativity, it can and must provide a disciplined scaffold to guide it. This loop provides that scaffold.
+### A.19.CN:13 - Minimal CN‑Spec template (copy/paste, informational)
 
-It directly implements the **Primacy of Abduction** (from ADR-005) by placing hypothesis generation at the very start of the reasoning process. It is the engine that creates the initial `L0` artifacts that are the raw material for the rest of the FPF assurance lifecycle. By making this often-implicit process explicit, auditable, and repeatable, FPF provides a powerful tool for navigating the uncertainty and complexity inherent in any frontier-pushing project.
+**Template note (refs-only).** This template shows *slot placement* for governance. Token semantics for normalization belong to the A.19.UNM governing pattern (A.19.UNM); indicatorization semantics belong to the indicatorization governing pattern (e.g., A.19.UINDM); evidence/backing semantics belong to C.16; legality/evidence gates belong to G.0.
 
-### B.5.2:8 - **Relations**
+```
+CN‑frame: <Name>      Context: <Context/Edition>
+characteristics:
+  - <CharacteristicName> : <Unit/Scale>  [Polarity: up|down|target-range]
+Chart:
+  reference_state: <text>
+  coordinate_patch: <domain/subset>
+  measurement_protocol_ref: <MethodDescriptionId>
+Normalization:
+  UNM: <UNMId?>
+  methods: [<NormalizationMethodId>… ]
+  method_descriptions: [<NormalizationMethodDescriptionRef>… ]
+  invariants: [<property>… ]           # what ≡_UNM preserves (token semantics: see A.19.UNM)
+  fix?: <NormalizationFixSpec>          # canonical representative of the ≡_UNM class (token semantics: see A.19.UNM)
+Indicators (optional):
+  policy_ref: <IndicatorChoicePolicyRef>
+  resulting_indicators: [<IndicatorId>… ] // selection is policy‑defined; NCVs alone do not make an Indicator (see A.19.UINDM)
+Comparability:
+  mode: coordinatewise | normalization-based
+  minimal_evidence: <what must be observed to compare>  # legality/evidence gate surface (see G.0 and C.16)
+Aggregation:
+  fold: <Γ_fold expr>   time_policy: <window, statistic>
+  WLNK/COMM/LOC/MONO: <declared choices>
+Acceptance:
+  checklist: [<observable criterion>… ]
+  window: <ISO 8601 interval>
+  evidence_anchors: [<Observation/Evaluation ids>… ]
+Alignment (optional):
+  bridges: [<BridgeId, CL, kept/lost characteristics, extra guards>… ]
+MaintenanceAndDeprecation:
+  source_maintenance_role_assignment: <RoleAssignmentRef>
+  DRR_links: [<DRR ids>… ]
+  deprecation_plan: <short note>
+```
 
-*   **Is the first step of:** `B.5 Canonical Reasoning Cycle`.
-*   **Takes place during:** `B.5.1 Exploration` state.
-*   **Produces:** `AssuranceLevel:L0` artifacts, which become the input for deductive analysis and subsequent progression through `B.3.3 Assurance Subtypes & Levels`.
-*   **Is informed by:** The **Role-Projection Bridge** (Pattern B.5.3), which can provide a rich vocabulary of domain-specific concepts to use in generating hypotheses.
+**Implementation note (non‑normative): conceptual audit fields.** (For implementation completeness only; not part of the CN‑Spec normative surface.) The goal is *auditability*: any implementation should be able to cite the relevant refs (CN‑Spec edition, evidence anchors, UNM instance refs, Bridge ids) when producing a `StateAssertion`. The normative semantics of normalization and evidence/backing are governed by the corresponding mechanism and evidence patterns (e.g., A.19.UNM and C.16). A.19.CN does not prescribe storage formats.
 
-### B.5.2:End
+### A.19.CN:Close
 
-## B.5.2.1 - Creative Abduction with NQD
+A.19.CN gives A.19 some **teeth**: a *CN‑Spec* you can put on one page, a **Registry** that stops sprawl, **Bridges** that carry explicit loss, and a **checklist + harness** that make comparability **auditable**. It obeys the **mandatory pattern structure** of Part E (style, checklists, DRR, guard‑rails) while remaining tool‑agnostic and context‑local.
 
-**Status.** Normative **binding** to **B.5.2 Abductive Loop** that delegates candidate generation to **Γ_nqd.generate** (**C.18 NQD-CAL**) and exploration/exploitation policy to **E/E-LOG (C.19)**; the kernel remains unchanged.
+### A.19.CN:End
 
-**Non‑duplication & parsimony.** “Introduces **no new kernel primitives**; reuses the CHR kit (**A.17/A.18**) to define measurable **Characteristics**. This pattern does not introduce new eligibility conditions. Application is permitted only when USM coverage holds for the target slice and the performer’s RSG state is enactable (eligibility), without prescribing any team workflow. Per **A.11 Ontological Parsimony**, only a context‑local CHR import and a **Method** are added; **no changes to Γ/LOG**. All generation is performed via **Γ_nqd.* (C.18)** and all exploration/exploitation control via **E/E-LOG (C.19)**. 
-**Terminology discipline.** Use **NQD** consistently (Novelty–Quality–Diversity). Treat **S**/**I** as *secondary* metrics unless explicitly promoted by policy (see §3, §5).
+## A.19.CHR - CHRMechanismSuite
 
-### B.5.2.1:1 - **Problem Frame**
-* **Conceptual binding:** **B.5.2 Abductive Loop** (this pattern specifies the *how* for Steps 2–3).
-* **FPF pattern:** a domain‑neutral **Creativity‑CHR** (C‑cluster) that declares the **Characteristics** used here (see §2). (No change to Γ/LOG.) This binding also references **C.18 NQD-CAL** (operators Γ_nqd.*) and **C.19 E/E-LOG** (EmitterPolicy).
-* **Manager’s mental model (informative):** “We add measurable characteristics for *newness*, *spread*, and *fit*, then use a generator that explores widely and returns a **Pareto set** (not a single winner) of non‑dominated options.”
-* **Operational loops:** compatible with **B.4 Canonical Evolution Loop** (ideas generated here flow into Run→Observe→Refine→Deploy) and with **B.5 Canonical Reasoning Cycle** (ADI), preserving abductive primacy. 
-* **Agency note.** Decisions are taken by a **system in role**. **Contexts publish** measurement spaces and admissible policies as **semantic frames**; they do **not** enact choices.
+> **Type:** Architectural (A)
+> **Status:** Stable
 
-### B.5.2.1:2 - Intent & Problem
+**PatternId:** A.19.CHR
+**Name:** `CHRMechanismSuite`
+**Pattern class:** specialization of **A.6.7** (`MechSuiteDescription`) for the CHR (characterization) core.
 
-**Intent.** Turn Step 2 (*generate*) and Step 3 (*filter*) of the Abductive Loop from ad‑hoc brainstorming into a **disciplined, instrumented exploration** that can (i) *produce many* distinct, plausible hypotheses and (ii) *surface the few worth pursuing*—*without* bloating the kernel or forcing a specific creative method.
+**Introduces / fixes canonical objects and kinds**
 
-**Problem.** Unstructured ideation routinely fails on two fronts: it either produces *too little variety* (pet ideas win by seniority) or *too little plausibility* (grand theories with no testable predictions). **B.5.2** names these failure modes; this pattern adds a minimal, measurable counter‑mechanism aligned to FPF’s assurance lanes and state machine.
+* **`CHRMechanismSuiteDescription`** (object; kind: `MechSuiteDescription`): the canonical CHR suite description instance (cited downstream via `MechSuiteDescriptionRef`, edition-addressable when used as a reproducibility baseline).
+* **`CHRMechanismSuiteSlotFillingsPlanItem`** (kind; `⊑ SlotFillingsPlanItem`): a suite-specialized plan item kind used as the **planned baseline** for P2W integration of the CHR suite (selection → WorkPlanning → WorkEnactment).
 
-### B.5.2.1:3 - The **Creativity‑CHR** (references only; no re‑definitions here)
+**Depends on**
 
-This binding **references** the context‑local **Creativity‑CHR** (see **C.17**) and **does not** restate measurement templates. The primary coordinates are:
-• **`Novelty@context`** (C.17 §5.1), • **`ΔDiversity_P`** (marginal; C.17 §5.5), and • **`Q` components** (per A.18).  
-**`Surprise`** and **`Illumination`** are **secondary**: Illumination is **report‑only telemetry** (published as **`IlluminationSummary`** over `Diversity_P`); both act as **tie‑breakers** unless explicitly promoted by policy (C.19).  
-**`Use‑Value`** (*alias:* `ValueGain`) is **informative for decision lenses** (Decsn‑CAL) and **MUST NOT** enter NQD dominance by default (see C.17 §5.2).
+* A.6.7 `MechSuiteDescription` (Kernel)
+* A.15.3 `SlotFillingsPlanItem` (WorkPlanning)
+* A.6.1 `U.Mechanism.Intension` (mechanism norm-form)
+* A.6.5 slot discipline (`SlotSpec := ⟨SlotKind, ValueKind, refMode⟩`; `SlotIndex` is a projection)
+* A.19 `CN‑Spec` (governance card)
+* G.0 `CG‑Spec` (legality gate for numeric operations)
+* E.TGA / E.18 (P2W + crossings + UTS/Path pins)
+* E.10 lexical/ontological rules (strict distinction, suffix discipline, minimal specificity)
+* E.19 conformance style (checklist obligations)
 
-All listed **Characteristics** are **context‑local** with explicit units/ranges and **polarity↑**. They are *measurements*, not eligibility conditions; eligibility conditions are supplied by **USM/RSG**. (Complies with **A.18** measurement discipline; does not overload assurance semantics.)
+**Non-goals**
 
-> **Lexical discipline.** The items above are **Characteristics** in the sense of **A.17/A.18**; avoid reserved names such as “validity” or “operation.”
-> **Normalization note.** If a **QualityVector** has heterogeneous units, Contexts SHALL normalize or nondimensionalize each component before Pareto analysis (see CC‑B.5.2.1‑7).
-> **D vs I (normative).** **D = ΔDiversity_P** (marginal gain) and is eligible for the primary dominance test. **I** is _portfolio illumination_ (report/visual); it **SHALL NOT** be part of the primary dominance test and is usable **only** as an explicit tie-break per policy.
-> **Measurement invariants.** Distances, grids, and transforms MUST be declared once per run, versioned, and referenced from provenance (§3, §5).
+* No “data governance”, no implementation tooling, no “machine readability” requirements.
+* Not a packaging/bundling mechanism (that remains **G.10**).
+* Not a replacement for `MechFamilyDescription` (that remains “many implementations of **one** mechanism intension”).
 
-### B.5.2.1:4 - Solution — **Binding to Γ_nqd.generate (C.18)**
+### A.19.CHR:1 - Problem frame
 
-**Method name (Plain/Unified Tech).** *NQD‑Generate* — a **U.Method** that, given (i) a **HypothesisSpace** and (ii) a **CharacteristicSpace** with a **CoverageGrid**, returns a *finite*, **non‑dominated** set of candidate hypotheses that maximize **Quality** (per‑component) while maintaining **Diversity** and encouraging **Novelty**.
+Part G (and adjacent patterns that operate on measurable slot coordinates, e.g. Q-bundles) repeatedly needs the same *lawful characterization core*:
+normalization, indicatorization, scoring, lawful aggregation, comparison, and selection under explicit legality constraints.
 
-**Minimal signature.**
+In the current corpus, many G patterns interleave:
 
-* **Inputs (declared in MethodDescription):**
- `HypothesisSpace`, `CharacteristicSpace`, `Seeds?`, `Budget (time/compute)`, `EmitterPolicy` (**E/E-LOG policy id**), `QualityMeasures (Q components)`, `NoveltyMetric`, `CoverageGrid/Granularity`, `CellCapacity K? (default=1)`, `EpsilonDominance ε? (default=0)`, `TieBreakPolicy? (S/I)`, `DedupThreshold?`, `Policy(TimeWindow)`, `DeterminismSeed?`
- 
-* **Outputs:**
-  CandidateSet = {h_i: (desc_i, Q_i, N_i, D_i:=ΔDiversity_P(h_i | Pool), S_i, I_i, UseValue_i?), genealogy_i?, provenance_i (including **DHCMethodRef.edition** and **policyId** from E/E-LOG)} where `Q_i` is a vector and `provenance_i` captures generator settings and evaluation sources. If Use‑Value is present, include the objective id / acceptanceSpec, counterfactual method (if predicted), and model edition per C.17. Note: S and I are tie-breakers only unless promoted by explicit Context policy; Use-Value is informative for decision lenses and SHALL NOT enter the dominance set.
+* universal CHR legality mechanics (CN‑Spec/CG‑Spec citation, set-return semantics, tri-state uncertainty handling, penalties routing),
+* CG-frame and crossing obligations (ReferencePlane, Bridge-only transport visibility, edition-sensitive pins), and
+* discipline/method/generator specifics (method families, candidate/criteria emitters, packaging concerns),
 
-**Strategy (notation‑neutral).**
+inside one construct. This mixing makes it hard to universalize Part G, causes drift in defaults and guard semantics, and encourages “hidden tails”
+(implicit UNM/UINDM/ULSAM or implicit slot filling outside WorkPlanning).
 
-1. **Seeding.** Initialize with seeds (known solutions, random draws, or prior L0 artifacts).
-2. **Iterated illumination.** Propose variations, evaluate **Q** (per‑component); maintain up to **K** elites per cell (or descriptor bucket); compute **N/D/S/I** on the fly; deduplicate by `DedupThreshold` in **CharacteristicSpace**.
-3. **Budget‑bounded loop.** Iterate until budget or coverage‑convergence; return the **(ε‑)Pareto front** over `{Q₁…Q_k, D, N, ΔDiversity_P}` (do **not** collapse to a single scalar). Illumination is excluded from the dominance set by default; Surprise and Illumination act only as tie-breakers unless a Context policy explicitly promotes them. **Use-Value** may appear as a **side note** for decision discussions **but MUST NOT be mixed into NQD dominance set**.   
-4. **Traceability.** Emit a **Design Rationale Record (DRR)**: grids/metrics versions, seed(s), policy and `TimeWindow`, which cells were filled, why items were dominated (list **Characteristics**), and how the final set was produced (including `ε`, `K`, and dedup). (Lightweight DRR is permitted per B.4 guidance.)
-5. **Algorithmic freedom (informative).** Implementations MAY use MAP‑Elites/illumination, novelty search with local competition, Bayesian/surrogate‑assisted search, or deterministic enumerations; ε‑dominance or knee‑point thinning MAY be used *after* recording the full front in provenance.
+At the same time, the P2W split requires a uniform *planned baseline* object:
+selection can choose refs/policies, WorkPlanning can record planned slot fillings, and WorkEnactment can witness `FinalizeLaunchValues`.
+Without a canonical planned-baseline WorkPlanning plan item, teams tend to “smuggle” launch values into planning prose or into mechanism descriptions,
+which breaks auditability and makes crossings and edition sensitivity non-obvious.
 
-> **No kernel growth.** This is a *Method* (C.4 Method‑CAL) plus a CHR import; **no new Γ‑operator** is added (per **A.11**).
+### A.19.CHR:2 - Problem
 
-### B.5.2.1:5 - Implementation & Binding into **B.5.2** (two injection points)
+This pattern applies when a workflow (especially in Part G) needs lawful characterization over measurable slots/coordinates (e.g., in Q‑bundles), including normalization, indicatorization, scoring, aggregation, comparison, and selection.
 
-**Step 2 — Generate candidates.** 
-**Precondition (USM+RSG).** Generation is permitted only when the **Claim/Work Scope** covers the TargetSlice (USM) **and** the performer’s **RoleAssignment** is in an **enactable RSG state** (Green-Gate law). 
+### A.19.CHR:3 - Forces
 
-When the pattern is imported, replace or *supplement* freeform brainstorming with **NQD‑Generate**; the output is a *pool* of L0 hypotheses annotated by `{N, D, Q, S, I, V?}` **plus provenance/DRR refs**. The abductive step remains *abduction* (a conjecture), now instrumented and diverse by construction.
+* **No implicit crossings.** Any cross‑context / cross‑plane reuse must be expressed via Bridge-only Transport and visible crossing bundles (UTS/Path pins).
+* **CN‑Spec and CG‑Spec must remain the governing spec refs.** Mechanisms cite them; mechanisms do not duplicate them.
+* **Strict separation of layers.** Universal CHR core vs discipline/method specializations vs generators vs packaging.
+* **SlotKind invariance.** Specialisation chains must preserve SlotKind meaning and only refine ValueKind / strengthen guards/laws.
+* **No silent scalarization / totalization.** Partial orders must remain set‑valued; any numeric summary is report‑only unless explicitly declared as a lawful comparator/policy.
+* **P2W split.** Planned slot filling belongs to WorkPlanning; launch values belong to WorkEnactment.
 
-**Step 3 — Plausibility filters.** Apply B.5.2’s plausibility criteria, now with explicit hooks:
+### A.19.CHR:4 - Solution
 
-* **Falsifiability** → filter out ideas with no testable predictions in the **Shaping/Evidence** states (B.5 alignment).
-* **Explanatory power** → prioritize candidates whose *Q‑improvements* (and attached rationales) align with the framed anomaly.
+This pattern defines a single, canonical **CHR mechanism suite** as a *description object* (not a mechanism, not a pack), so that:
 
-The *selected* “prime hypothesis” proceeds exactly as in B.5.2: formalize it as a new `U.Episteme` at **L0**, then move to Deduction/Induction.
+1. the CHR core is reusable across all Part‑G patterns (not only G.5),
+2. legality is centralized via **spec pins** (`CN‑Spec`, `CG‑Spec`) and **Transport discipline**,
+3. P2W integration is made explicit by requiring a standard **planned slot fillings** plan item in `WorkPlanning`, while keeping **FinalizeLaunchValues** exclusively in `WorkEnactment`.
 
-Primary dominance test: compute the (ε-)Pareto front over {Q components}. By default, N (Novelty@context) and ΔDiversity_P act only as tie-breakers unless a policy explicitly promotes them into the dominance set; S (Surprise) and I (Illumination) are also tie-break/report-only by default; Use-Value remains non-dominant.
+Core idea:
+`CHRMechanismSuiteDescription := {UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism} + SuiteObligations + SuiteSpecPins + SuiteProtocols (+ audit obligations)`.
 
-**Defaults (if policy is unspecified)**  
-> **Dominance:** `{Q components}`, with `ConstraintFit=pass` as **eligibility gate**.  
-> **Tie‑breakers:** `Novelty@context`, `ΔDiversity_P`, and `Surprise`; `IlluminationSummary (telemetry summary over Diversity_P)` remains report‑only unless a CAL policy promotes it.  
-> **Archive:** `K=1`, `ε=0`, deduplication in `CharacteristicSpace`.  
-> **Policy:** UCB‑class with moderate temperature; `explore_share ≈ 0.3–0.5`.  
-> **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `EmitterPolicyRef`, `TimeWindow`, `Seeds`.
+#### A.19.CHR:4.0 - Pattern-definition map and implementability guard
 
-“**Scope‑of‑claim annotation (descriptive).** Record the **BoundedContext** and **TimeWindow** that delimit where each **N/Q/D** measurement is intended to hold; this is for reasoning traceability only (no operational gates).”
+**Tell.** CHR mechanisms are implementable only when each described CHR mechanism, suite obligation, protocol, extension block, or decision record names the FPF pattern, section, extension block, or DRR that governs it. The governing definition is citable and patchable by its `PatternId`, `PatternId:SectionPath`, `PatternScopeId = G.x:Ext.*`, or `DRRId` (E.9).
 
-Note — Status `Surprise` (scope and default role):
-By default in B.5.2.1, `Surprise` functions solely as a secondary tie‑break among candidates that are otherwise Pareto‑equivalent on the Context’s primary characteristics. A Context policy MAY elevate `Surprise` into the dominance set, allowing it to enter the CreativitySpace dominance alongside the primary characteristics.  If no Context policy is specified, the default tie‑break role applies.
+**Where each governed item is defined (cite, don’t duplicate):**
 
-### B.5.2.1:6 - Conformance Checklist (normative)
+* **see `A.19.CHR:4.2.2` for canonical targets**.
+* **CHR suite boundary (membership + obligations + protocols):** `A.19.CHR` (`mechanisms[]` declares `…IntensionRef`; `suite_protocols` declares order/optionality).
+* **Planned baseline binding (instances/editions/policy pins):** `A.15.3` + `A.19.CHR:4.7.2` (refs/pins only; no launch values).
+* **SoTA harvesting and method claims:** `G.2` (pack pattern) and downstream authoring kits (`G.3`, `G.4`) — not this suite.
+* **Wiring modules for method/discipline/generator specifics:** `G.*:Extensions` as `GPatternExtension` blocks (`PatternScopeId = G.x:Ext.<…>`), with explicit `GoverningPatternId`.
+* **RSCR trigger catalogue and trigger alias maps:** `G.Core` (catalogue defined there).
+* **Lexical alias docking (token drift without breaking public references):** `F.18`.
+* **Project‑level specialization and transduction graphs:** project patterns (`P.*`) for `⊑/⊑⁺` specializations; `E.18 (E.TGA)` for flow graphs citing planned baseline instance refs.
 
-**CC‑B.5.2.1‑1 (CHR discipline).** If a Context uses this pattern, it **SHALL** declare the Creativity‑CHR **Characteristics** with **A.18**‑style templates (type, unit/range, polarity). No new kernel terms are introduced.
-**CC‑B.5.2.1‑2 (Instrumented generation).** Step 2 of **B.5.2** **SHALL** either (a) invoke *NQD‑Generate* or (b) justify a Context‑specific generator of equivalent effect (diversity + quality + novelty with measurable **Characteristics**).
-**CC‑B.5.2.1‑3 (Diversity coupling).** When this pattern is used, **D MUST be ΔDiversity_P** computed against the current candidate Pool using the **C.17** definition of **Diversity_P** under the same Context, CharacteristicSpace, kernel, and TimeWindow.
-**CC‑B.5.2.1‑Eligibility**: Eligibility requires **(i)** `ConstraintFit = pass` for the candidate (Norm‑CAL must‑set), **then (ii)** **USM** coverage for the TargetSlice and **(iii)** an enactable **RSG** state for the performer; only then may calls to `Γ_nqd.*` occur.
-**CC‑B.5.2.1‑4 (Non‑dominated shortlist).** The *CandidateSet* **MUST** include the **Pareto front** over `{Q₁…Q_k, N, D}`; any pruned candidate **MUST** carry a DRR note (“dominated by … on {Characteristics}”).
-**CC‑B5.2.1‑5 (Abductive primacy preserved).** The pattern **MUST NOT** bypass the ADI ordering mandated by **B.5**: induction may not start before deduction; abductive L0 creation remains the start.
-**CC‑B.5.2.1‑6 (Normalization for Pareto).** When **Q** has multiple components with different units/scales, Contexts **SHALL** normalize or use declared utility‑free monotone transforms before dominance tests.
-**CC‑B.5.2.1‑7 (Use‑Value separation). ** If Use‑Value (C.17 §5.2) is recorded, it SHALL remain outside Assurance scores; it MAY inform decision lenses (Decsn‑CAL). Do not alter **R/G** semantics based on Use‑Value. (see **C.17 §5.2** for `Use-Value / ValueGain` definition)
-**CC‑B.5.2.1‑8 (Provenance).** Each `h_i` in the *CandidateSet* **MUST** reference its `provenance_i` sufficient to reproduce scores given the same `Policy(TimeWindow)`, score/metric versions, and `DeterminismSeed?`.
-**CC‑B.5.2.1‑9 (Secondary metrics).** **I (illumination)** and **S (surprise)** SHALL be used only for tie‑breaking/reporting unless explicitly promoted by policy; the **primary dominance test is over {Q components}** by default.
-**CC‑B.5.2.1‑10 (Cell capacity & ε).** If `K>1` or `ε>0` are used, the values MUST be declared and recorded in provenance; any thinning AFTER recording the front SHALL be documented in the DRR.
-**CC‑B.5.2.1‑11 (Dominance set).** By default the dominance set **SHALL be {Q components}**; **N (Novelty@context)** and **ΔDiversity_P** act as **tie‑breakers** unless explicitly promoted by **policy** (record the policy‑id in provenance).
+#### A.19.CHR:4.1 - Objects published by this pattern
 
-### B.5.2.1:7 - Cognitive Load & Kernel Growth Budget
+##### A.19.CHR:4.1.1 - `CHRMechanismSuiteDescription`
 
-**For engineers/managers (user cognitive load).**
+A concrete `MechSuiteDescription` instance whose role is to:
 
-* *Added steps:* selecting descriptor **Characteristics** & granularity; reading a Pareto table (**non‑statisticians tip:** scan the “front” row; ignore dominated rows).
-* *Mitigations:* provide a one‑screen “NQD Cards” template analogous to RSG cards; default grids and metrics per Context. (Keep ≤ 7 visible **Characteristics**—mirrors RSG human‑scale guidance.)
-* *Reader quickstart (engineer‑manager):* (1) Pick 2–3 **Q** characteristics aligned to the anomaly + a simple **CharacteristicSpace** (2–4 dimensions). (2) Accept defaults for `NoveltyMetric`, grid granularity, and `K=1`. (3) Run **NQD‑Generate** to a fixed budget; read the *front row* first. (4) Apply Step 3 filters; log decisions in the DRR.
+* enumerate the canonical CHR mechanisms (as `U.Mechanism.IntensionRef`s),
+* declare suite‑level obligations/invariants,
+* declare suite‑level spec pins (refs only),
+* declare admissible suite protocols (Uses pipelines),
+* require a standard planned baseline plan item (`CHRMechanismSuiteSlotFillingsPlanItem`) on P2W paths.
 
-**For the framework (kernel growth).**
+**Note (non-normative, disambiguation).** Kernel A.6.7 already uses `CHRMechanismSuiteDescription` as an illustrative *example* of a `MechSuiteDescription`. This pattern fixes the same-named object as the **canonical** CHR suite instance and supplies its P2W hook plus conformance envelope.
 
-* *Zero* new primitives; only a CHR import and a **Method**. Passes **A.11** minimal‑sufficiency. 
+##### A.19.CHR:4.1.2 - `CHRMechanismSuiteSlotFillingsPlanItem`
 
-### B.5.2.1:8 - Placement in the Reasoning Cycle (ADI)
+A `SlotFillingsPlanItem` specialization used in WorkPlanning to fix the **planned baseline** of:
 
-This pattern **only structures hypothesis exploration** (Abduction) and does not define or imply any **operational** gates. It respects ADI ordering (Abduct → Deduct → Induct) and leaves deployment/readiness concerns to patterns outside this spec.
+* pinned `CN‑Spec` / `CG‑Spec` refs (and editions where required),
+* chosen mechanism instances / method descriptions / comparator specs (refs only),
+* time selector / time rule pins for “no implicit latest”,
+* expected guards (Launch/Compare pins) and expected crossing policy pins,
+* and context identifiers needed for audit traceability (CG‑frame, path slice, publication scope).
 
-### B.5.2.1:9 - Context‑Level KPIs (optional, informative)
+It is explicitly **not** a mechanism, not an admissibility gate, and not a witness of execution.
 
-Contexts *may* monitor these—*not* as gates, but to improve practice:
+#### A.19.CHR:4.2 - Canonical mechanism membership
 
-1. **Generativity (Gv).** Fraction of abductive cycles whose selected candidate reaches **L1/L2** within policy windows (time‑to‑L1; time‑to‑evidence). (Maps onto state transitions driven by **B.5**.)
-2. **Frontier‑Hit Rate (FHR).** % of cycles where the chosen candidate lies on the **Pareto front** of `{Q, N, D}` at selection time.
-3. Coverage Gain (ΔI, report). Change in the *illumination summary* (coverage map/%filled cells) per cycle (how much of the descriptor space is now “lit”).
-4. **Exploration Cost Ratio (ECR).** Compute/time spent in NQD‑Generate divided by downstream Shape/Evidence cost saved (tracks whether the pattern pays for itself).
-5. **Refutation Learning Yield (RLY).** Among *refuted* candidates, % that added new coverage or raised SurpriseScore—turning “failures” into map‑building.
+**Tell.** `CHRMechanismSuiteDescription.mechanisms` MUST contain the following six mechanism intensions (each published as `U.Mechanism.Intension` per their governing patterns) and MUST treat them as **distinct mechanisms** (not “implementations of one”):
 
-### B.5.2.1:10 - Worked micro‑example (abbreviated)
+1. `UNM` — Unified Normalization Mechanism
+2. `UINDM` — Unified Indicatorization Mechanism
+3. `USCM` — Unified Scoring Mechanism
+4. `ULSAM` — Unified Lawful Scale Aggregation Mechanism
+5. `CPM` — Unified Comparison Mechanism
+6. `SelectorMechanism` — universal set‑returning selection kernel
 
-**Framing = Step 1 in B.5.2**
-**Context:** A Context using FPF to evolve FPF itself (meta‑improvement). *Anomaly:* “Users perceive FPF as compliance‑heavy; we need first‑principles creativity surfaced.” 
+**Show.**
 
-**Step 2 (NQD‑Generate).**
+```
+CHRMechanismSuiteDescription.mechanisms :=
+  [ UNM.IntensionRef,
+    UINDM.IntensionRef,
+    USCM.IntensionRef,
+    ULSAM.IntensionRef,
+    CPM.IntensionRef,
+    SelectorMechanism.IntensionRef ]
+```
 
-* **CharacteristicSpace:** {*creative‑characteristic count*, *explicit novelty metric present?*, *QD operator present?*, *didactic cards present?*}. *(Illustrative; Contexts SHALL define their own descriptors per §2.)*
-* **Q‑measures:** {*editor effort↓*, *time‑to‑L1↓*, *reader clarity↑*}.
-* **Output Pareto set (sketch):**
+**Membership semantics note (normative).**
+`mechanisms` denotes a duplicates-free **set**; order carries no semantics. Any intended ordering is expressed only in `suite_protocols`.
 
-  * `h₁ = “Add Creativity‑CHR + NQD pattern (this pattern)”` — high *D*, high *N*, medium *Q*.
-  * `h₂ = “Rename governance terms to arts vocabulary”` — low *N*, low *D*, medium *Q*.
-  * `h₃ = “Add live ideation sandbox (ops tooling)”` — medium *N*, medium *D*, high *Q*.
+**Rationale.** This suite is unified by **governance card, legality gate, and Transport discipline** (CN‑Spec + CG‑Spec + Transport), not by a single BaseType.
 
-**Step 3 (Filters).**
+#### A.19.CHR:4.2.1 - CHR SlotKind Lexicon (suite‑wide minimum)
 
-* **Falsifiability:** `h₂` weak—no testable prediction → drop.
-* **Scope (USM):** `h₁` scoped to Part B; `TimeWindow = edition 2025‑Q4` → *covers TargetSlice*. `h₃` crosses Contexts (tooling) → requires Bridge; the overhead is accounted for in **R** (not **F/G**). *(This pattern does not create or alter Bridges.)*
-* **Select prime:** `h₁` → formalize as L0 episteme (this pattern), move to *Shaping* (define checklist), then *Evidence* (track KPIs).
+**Tell.** To prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules, CHR mechanism intensions SHOULD use the SlotKind tokens from this lexicon whenever they refer to the corresponding semantic roles. New SlotKinds MAY be introduced, but only by first extending this lexicon (suite‑governed), then citing the new SlotKind from the affected mechanism card.
 
-### B.5.2.1:10 - Trade‑offs & mitigations
+**Lexicon (minimum).** Tokens below are **SlotKind** names (not types). Concrete `ValueKind` / `RefKind` constraints are defined by the governing mechanism card and by A.6.5, A.19, G.0.
 
-* **Cognitive effort.** Interpreting Pareto sets and coverage maps adds thinking overhead. *Mitigation:* standard “NQD Card” + default grids; keep **Characteristics** small in number (≤ 7). *Manager shortcut:* pick 2–3 **Q** characteristics that reflect the anomaly, then run with defaults.
-* **Locality.** Novelty/diversity are **context‑local**; Cross‑context reuse requires **re‑measurement or an explicit mapping**. This pattern **does not define** Cross‑context operational controls.
-* **Not a magic idea machine.** Abduction remains human/agentic; the pattern *structures* search, it does not automate insight. B.5’s abductive primacy stands.
-* **Metric gaming & collinearity.** Avoid making **N** and **S** redundant by policy; when strong collinearity is detected, freeze one as informative only and record rationale in the DRR.
+- **Core suite SlotKinds**
+  - `CharacteristicSpaceSlot`
+  - `CNSpecSlot`
+  - `CGSpecSlot`
+  - `ContextSlot`
 
-### B.5.2.1:11 - Related Patterns
+- **Indicatorization**
+  - `IndicatorChoicePolicySlot`
+  - `IndicatorSetSlot`
+  - `JustificationSlot`
 
-* **Extends:** **B.5.2 Abductive Loop** (Step 2/3 operationalization). 
-* **Driven by / feeds:** **B.5 Canonical Reasoning Cycle** (Abduction→Deduction→Induction), **B.4 Evolution Loop** (Observe/Refine). 
-* **Uses:** **A.17/A.18** for characteristic discipline and **B.5 ADI ordering**. **May** refer to Context‑specific MAP‑Elites/novelty‑search implementations in the MethodDescription. **No operational gating is in scope here.** C.17 (Use‑Value / ValueGain, normative definition).
-* **Respects:** **A.11** (no kernel growth beyond CHR template import + Method).
-  
-### B.5.2.1:End
+- **Scoring**
+  - `InputProfileSlot`
+  - `ScoreProfileSlot`
 
-## B.5.3 - Role-Projection Bridge
+- **Aggregation**
+  - `MeasureSetSlot`
+  - `GammaFoldSlot`
+  - `GammaTimeRuleSlot` *(optional)*
+  - `AggregatedMeasureSlot`
+  - `ContributorSetSlot` *(optional)*
 
-### B.5.3:1 - **Problem Frame**
+- **Comparison**
+  - `LeftProfileSlot`
+  - `RightProfileSlot`
+  - `ComparatorSpecSlot`
+  - `ComparisonResultSlot`
 
-The FPF is built upon a small set of universal, domain-agnostic concepts (`U.Types`) like `U.System`, `U.Objective`, and `U.State`. This universality is the source of its power, allowing it to be applied to any domain, from thermodynamics to software engineering. However, practitioners in these domains do not speak in terms of `U.Types`; they use their own rich, specialized vocabularies. A thermodynamicist talks about a "Thermodynamic System" and its "Macrostate," not a `U.System` and its `U.State`.
+- **Selection**
+  - `CandidateSetSlot`
+  - `CriteriaSlot`
+  - `TaskSignatureSlot` *(optional)*
+  - `SelectionSlot`
 
-### B.5.3:2 - **Problem**
+- **Evidence / legality (optional, policy‑bound)**
+  - `MinimalEvidenceSlot` *(optional)*
 
-How can FPF bridge this gap between its universal core and the specific language of a domain without either polluting the kernel with domain-specific terms or forcing experts to abandon their familiar vocabulary? A simple alias mechanism (e.g., a dictionary mapping `U.System` to "Thermodynamic System") is insufficient because:
+**Note.** This lexicon is intentionally small and role‑based: it constrains naming, not method semantics. Method/discipline specifics belong in SoTA packs (G.2) and wiring‑only `GPatternExtension` modules, not in the suite core.
 
-1.  **It's brittle:** It assumes a one-to-one mapping, which often breaks down. A single domain concept can play multiple universal roles in different contexts.
-2.  **It's semantically poor:** It only captures naming, not the rich constraints and relationships that a domain-specific concept entails. We can't express that a "Thermodynamic System" is a *special kind* of `U.System` with specific properties related to temperature and pressure.
-3.  **It's not integrated:** The mappings live outside the formal model, making them difficult to govern, version, and use in automated reasoning.
+#### A.19.CHR:4.2.2 - Canonical Intension targets (no dangling refs)
 
-### B.5.3:3 - **Forces**
+**Tell.** Each `…IntensionRef` enumerated in `CHRMechanismSuiteDescription.mechanisms` SHALL resolve to a canonical `U.Mechanism.Intension` publication under the mechanism’s designated governing pattern (for CHR: the corresponding `A.19.<MechId>` mechanism-profile pattern). Draft stubs are allowed; dangling refs are not.
 
-| Force | Tension |
-| :--- | :--- |
-| **Universality vs. Specificity** | How to maintain a lean, universal kernel while accommodating the rich, specific terminologies of countless domains. |
-| **Flexibility vs. Rigor** | How to allow a single entity to be viewed through multiple lenses (e.g., as a physical system and an economic asset) without creating ambiguity. |
-| **Integration vs. Isolation** | How to incorporate domain knowledge into the formal model without hard-coding it into the FPF kernel, thereby preserving the Open-Ended Kernel principle (P-4). |
+**Canonical targets (normative anchors).**
 
-### B.5.3:4 - **Solution**
+- `UNM.IntensionRef` → `A.19.UNM`
+- `UINDM.IntensionRef` → `A.19.UINDM`
+- `USCM.IntensionRef` → `A.19.USCM`
+- `ULSAM.IntensionRef` → `A.19.ULSAM`
+- `CPM.IntensionRef` → `A.19.CPM`
+- `SelectorMechanism.IntensionRef` → `A.19.SelectorMechanism`
 
-FPF solves this with the **Role-Projection Pattern**, a mechanism that creates a robust, semantically rich **Concept-Bridge** between the universal kernel and domain-specific vocabularies. This pattern is built on three core components:
+#### A.19.CHR:4.3 - Suite obligations
 
-#### B.5.3:4.1 - The `Role` Concept
+`CHRMechanismSuiteDescription.suite_obligations` MUST be written using the **canonical obligation vocabulary** from A.6.7:4.2 and MUST include the following clauses (duplicates-free set semantics; order carries no meaning):
 
-*   **Description:** FPF introduces a new universal type, `U.Role`. A `Role` is not a concrete thing but an **abstract, context-dependent role** that an entity can play. It represents the domain-specific *interpretation* of a universal concept.
-*   **Example:** "Thermodynamic System" is not modeled as a new subtype of `U.System`. Instead, it is modeled as a `Role` that a `U.System` can *play* when it is being analyzed from a thermodynamic perspective.
+`{ bridge_only_crossings,
+   two_bridge_rule_for_described_entity_change,
+   transport_declarative_only,
+   penalties_route_to_r_eff_only,
+   guard_decision_tristate(pass|degrade|abstain),
+   unknown_never_coerces_to_pass,
+   gate_decision_separation,
+   guard_lexeme_reservations,
+   cg_spec_cite_required_for_numeric_ops,
+   no_silent_scalarisation_of_partial_orders,
+   no_silent_totalisation,
+   no_thresholds_in_suite_core,
+   crossing_visibility_required,
+   planned_slot_filling_in_work_planning_only,
+   finalize_launch_values_in_work_enactment_only,
+   implementation_export_discipline_when_cited }`.
 
-#### B.5.3:4.2 - The `refinesType` Relation**
+##### A.19.CHR:4.3.1 - Crossings, visibility, and penalties
 
-*   **Description:** Every `Role` **MUST** declare which universal `U.Type` it refines or specializes. This is done via the `refinesType` relation.
-*   **Example:** The `ThermodynamicSystemRole` would have the relation `refinesType: U.System`. This creates a formal, unbreakable link to the kernel. It guarantees that any entity playing this role still inherits all the fundamental properties and invariants of a `U.System`. This is a many-to-one relationship: many different roles (e.g., `EconomicSystemRole`, `BiologicalSystemRole`) can all refine the same `U.System` type.
+* **`bridge_only_crossings`:** all cross-context and cross-plane reuse is Bridge-only (no implicit crossings).
+* **`two_bridge_rule_for_described_entity_change`:** any described-entity (kind/identity) change (`CL^k`) is explicit and satisfies the two-bridge rule.
+* **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane tables and does not introduce transfer edges; it requires only refs/pins/anchors whose realization is mediated by E.TGA / gate surfaces.
+* **`penalties_route_to_r_eff_only`:** CL/Φ/Ψ/Φ_plane penalties route to `R/R_eff` only; `F/G` are invariant under penalty routing.
+* **`crossing_visibility_required`:** any GateCrossing relevant to suite use publishes a `CrossingBundle` (E.18) and can be cited as an audit anchor (including LaunchGate and `edition_key` changes of pinned `editions{…}` vectors).
 
-#### B.5.3:4.3 - The `plays_role_of` Relation**
+##### A.19.CHR:4.3.2 - Guards and gate separation
 
-*   **Description:** This relation connects a **concrete entity** in a model to a `Role`. It is the assertion that "this specific thing is currently playing that specific role."
-*   **Example:** In a model of a steam engine, we would assert that our specific engine instance `plays_role_of: ThermodynamicSystemRole`. This assertion signals to all tools and reviewers that this engine should be interpreted as a `U.System` and that the rules and constraints associated with the `ThermodynamicSystemRole` now apply to it.
+* **Guard decision tristate:** mechanism‑level guards return
+  `GuardDecision := {pass | degrade | abstain}`.
+* **Unknown never coerces to pass:** unknown/insufficient evidence MUST map to `degrade` or `abstain`, not to `pass`.
+* **Gate decision separation:** mechanisms and suite objects MUST NOT publish `GateDecision` nor `DecisionLog`. `block` is gate‑only (OperationalGate(profile)).
+* **Guard lexeme reservations:** `USM.CompareGuard` / `USM.LaunchGuard` are gate‑level pins; mechanism predicates use suffixes `…Admissibility` / `…Eligibility`.
 
-> **Didactic Note for Managers: From "Alias" to "Job Description"**
->
-> The Role-Projection pattern is the difference between giving someone an alias and giving them a job description.
->
-> *   **An Alias (the old way):** Simply says "Bob is also known as The Manager." It's just a name swap.
-> *   **A Role (the FPF way):** Says "Bob `plays_role_of` Manager." This is much richer. It implies that Bob has specific responsibilities, authorities, and performance expectations that come with the "Manager" role. He might also play other roles, like "Mentor" or "Team Lead."
->
-> Similarly, when we say a component `plays_role_of` "Sensor," we are not just renaming it. We are activating a rich set of expectations and rules that come with being a sensor (e.g., it must have an output port, it must have a defined accuracy, etc.). This makes our models smarter, safer, and more precise.
+##### A.19.CHR:4.3.3 - Numeric legality and order semantics
 
-### B.5.3:5 - **Archetypal Grounding**
+* **CG‑Spec citation required:** any numeric scoring/aggregation/comparison MUST cite CG‑Spec (SCP + ComparatorSet + MinimalEvidence + Γ_fold + Φ/CL pins), and MUST NOT embed a “shadow CG‑Spec” inside mechanisms/suite.
+* **No silent scalarisation of partial orders:** partial order comparisons remain set‑valued; any scalar summary is report‑only unless explicitly declared as a lawful comparator/policy.
+* **No silent totalisation:** absence of totality MUST NOT be hidden by “tie‑breakers” or implicit weights.
 
-To illustrate the pattern in action, let's consider how we would bridge the domain of **classical thermodynamics** to the FPF kernel.
+##### A.19.CHR:4.3.4 - P2W discipline
 
-1.  **Define the Roles:** A domain expert creates a set of `Role`s, each refining a core `U.Type`:
-    *   A `U.Role` named `ThermodynamicSystemRole` with `refinesType: U.System`. It might have a description: "A region of the universe under study, separated by a boundary."
-    *   A `U.Role` named `MacrostateRole` with `refinesType: U.State`. Its description could specify that it is defined by variables (P, V, T, N).
-    *   A `U.Role` named `ControlVolumeRole` with `refinesType: U.Boundary`.
-    *   A `U.Role` named `FreeEnergyObjectiveRole` with `refinesType: U.Objective`.
+* **Planned slot filling in WorkPlanning only.**
+* **FinalizeLaunchValues in WorkEnactment only.**
+* Suite and plan objects MUST NOT contain launch‑value witnesses.
 
-2.  **Apply the Roles in a Model:** An engineer modeling a heat engine would then use these roles:
-    *   They create an instance of `U.System` representing the engine and assert: `HeatEngine_Instance plays_role_of: ThermodynamicSystemRole`.
-    *   They model the engine's state and assert: `EngineState_Instance plays_role_of: MacrostateRole`.
-    *   They define the system's goal and assert: `EngineObjective_Instance plays_role_of: FreeEnergyObjectiveRole`.
+##### A.19.CHR:4.3.5 - Thresholds and defaults
 
-**What this achieves:**
+* **`no_thresholds_in_suite_core`:** acceptance thresholds live in AcceptanceClauses / TaskSignature / GateProfile, not in CHR suite core.
+* **Default discipline (no competing defaults):** the suite MUST NOT introduce competing defaults. If a default is used (e.g., `PortfolioMode`), it MUST be cited from its single declared source (typically a TaskSignature or an explicit policy-id), and all other mentions are citations.
 
-*   The model is now **semantically rich**. Tools can now understand that `HeatEngine_Instance` is not just any system, but one that should be analyzed using the laws of thermodynamics.
-*   The model is **verifiable**. A tool could now check if an entity playing the `MacrostateRole` actually has attributes for Pressure and Temperature, enforcing domain-specific consistency.
-*   The model remains **universally compatible**. Because `ThermodynamicSystemRole` refines `U.System`, the heat engine can still be reasoned about as a generic system in a wider context (e.g., in a model of the entire power plant).
+##### A.19.CHR:4.3.6 - Implementation export discipline (when cited)
 
-**Conformance Checklist**
+* Suite MAY cite implementations (CAL/LOG/CHR) as refs, but:
 
-*   **CC-B5.3.1 (Role Grounding Mandate):** Every `U.Role` **MUST** be linked to exactly one universal `U.Type` via the `refinesType` relation. Orphaned roles are forbidden.
-*   **CC-B5.3.2 (Explicit Role Assertion):** A domain-specific concept **SHALL NOT** be treated as a subtype of a `U.Type` directly. Its relationship **MUST** be expressed using the `plays_role_of` relation to a `U.Role`.
-*   **CC-B5.3.3 (Multi-Role Flexibility):** A single entity **MAY** `play_role_of` multiple `Role`s simultaneously, even from different domains.
-*   **CC-B5.3.4 (Semantic Integrity):** A `Role` **MAY** introduce additional constraints or required attributes that are more specific than those of the `U.Type` it refines, but it **SHALL NOT** contradict them.
+  * LOG/CHR do not export Γ,
+  * CAL exports exactly one Γ,
+  * imports are acyclic.
 
-**Common Anti-Patterns and How to Avoid Them**
+##### A.19.CHR:4.3.7 - Routed claim mini-register (A.6.B)
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
-| :--- | :--- | :--- |
-| **The "Subtype Explosion"** | The list of system "types" in the project grows endlessly: `ThermodynamicSystem`, `EconomicSystem`, `SoftwareSystem`, etc. The ontology becomes bloated and unmanageable. | **CC-B5.3.2** forbids this. There is only one `U.System`. Different perspectives on it are modeled as `Role`s, which keeps the core ontology lean. |
-| **The "Magic Synonym"** | A developer simply renames `U.System` to "Thermodynamic System" in their diagrams, but there are no formal rules or constraints attached. The term is just an alias. | The FPF pattern requires a formal `Role` with a `refinesType` link. This is a rich, structural connection, not just a cosmetic name change. |
-| **The "One-Hat Fallacy"** | The model forces an entity to be only one thing. An asset can be a "Physical Component" or a "Financial Asset," but not both, leading to duplicated models. | **CC-B5.3.3** explicitly allows an entity to play multiple roles. A single server in your data center can simultaneously `play_role_of` "PhysicalComponent" (for Sys-CAL) and "DepreciableAsset" (for a financial mechanisms). |
+**Intent.** `CHRMechanismSuite` is a suite-obligation boundary with a P2W hook. To avoid “contract soup”, the load-bearing statements below are routed as atomic claims per **A.6.B** and can be cited by IDs instead of being paraphrased across downstream patterns and MVPK faces.
 
-### B.5.3:6 - **Consequences**
+| ID | Quadrant | Statement (atomic; verbatim) | Canonical location |
+|---|---|---|---|
+| **L-A67CHR-01** | L | `CHRMechanismSuiteDescription.mechanisms` denotes a duplicates-free set; order carries no semantics. | A.19.CHR:4.2 (Membership semantics note) |
+| **L-A67CHR-02** | L | A “planned baseline” is a `CHRMechanismSuiteSlotFillingsPlanItem` in WorkPlanning that records planned fillers and pins for a P2W path slice. | A.19.CHR:4.1.2 / 4.6 |
+| **L-A67CHR-03** | L | A planned baseline is not an execution witness and contains no launch values. | A.19.CHR:4.1.2 / 4.6 |
+| **A-A67CHR-01** | A | A suite protocol is *suite-closed* iff every `ProtocolStep.mechanism` is a member of `CHRMechanismSuiteDescription.mechanisms`. | A.19.CHR:4.5 (WF‑MS‑2) |
+| **A-A67CHR-02** | A | A P2W path slice is CHR-suite-ready for enactment iff a planned baseline of kind `CHRMechanismSuiteSlotFillingsPlanItem` exists for that slice, sets `target_slot_bearing_description_ref` to an edition-addressable `MechSuiteDescriptionRef` whose referent is `CHRMechanismSuiteDescription`, and pins `CNSpecRef` and `CGSpecRef`. | A.19.CHR:4.6 |
+| **D-A67CHR-01** | D | Suite authors SHALL publish `CHRMechanismSuiteDescription` as a `MechSuiteDescription` instance. | A.19.CHR:7.1 (CC‑A67CHR‑1) |
+| **D-A67CHR-02** | D | Suite authors SHALL NOT encode `CHRMechanismSuiteDescription` as a `MechFamilyDescription`. | A.19.CHR:7.1 (CC‑A67CHR‑1) |
+| **D-A67CHR-03** | D | Suite authors SHALL enumerate exactly `{UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism}` as `U.Mechanism.IntensionRef`s in `CHRMechanismSuiteDescription.mechanisms`. | A.19.CHR:4.2 / 7.1 (CC‑A67CHR‑2) |
+| **D-A67CHR-04** | D | Suite authors SHALL keep `CHRMechanismSuiteDescription.suite_spec_pins` refs-only. | A.19.CHR:4.4 / 7.1 (CC‑A67CHR‑3) |
+| **D-A67CHR-05** | D | Suite authors SHALL NOT embed CL/Φ/Ψ/Φ_plane tables or introduce transport edges in `CHRMechanismSuiteDescription` or `CHRMechanismSuiteSlotFillingsPlanItem`. | A.19.CHR:4.3.1 / 4.4 / 7.2 (CC‑A67CHR‑13) |
+| **D-A67CHR-06** | D | WorkPlanning authors SHALL publish one `CHRMechanismSuiteSlotFillingsPlanItem` per P2W path slice that uses the CHR suite. | A.19.CHR:4.6 / 7.2 (CC‑A67CHR‑10) |
+| **D-A67CHR-07** | D | WorkPlanning authors SHALL ensure a `CHRMechanismSuiteSlotFillingsPlanItem` contains planned pins/fillers only. | A.19.CHR:7.2 (CC‑A67CHR‑11) |
+| **D-A67CHR-08** | D | WorkPlanning authors SHALL NOT include launch values, execution witnesses, gate decisions, or decision logs in a `CHRMechanismSuiteSlotFillingsPlanItem`. | A.19.CHR:7.2 (CC‑A67CHR‑11) |
+| **D-A67CHR-09** | D | MVPK face authors SHALL ensure any claimful face that publishes edition pins or comparability/launch claims also publishes the required BridgeCard + UTS row anchors and the applicable USM guard pin with `GuardOwnerGateSlot`. | A.19.CHR:7.3 (CC‑A67CHR‑16) |
+| **E-A67CHR-01** | E | Evidence carrier for the planned baseline is the `CHRMechanismSuiteSlotFillingsPlanItem` instance and its citation from downstream `U.Work.Audit` as the baseline for the path slice. | A.19.CHR:7.2 (CC‑A67CHR‑14) |
+| **E-A67CHR-02** | E | Evidence carrier for launch values and `FinalizeLaunchValues` is `U.WorkEnactment` (and its audit and evidence carriers), not the planned baseline plan item. | A.19.CHR:4.6 / 7.2 |
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Semantic Richness and Precision:** The pattern allows domain-specific constraints and rules to be formally integrated into the model, enabling much more powerful automated checking and reasoning. | **Increased Modeling Granularity:** It introduces a layer of indirection (`Entity → Role → U.Type`) that modelers must learn. *Mitigation:* Tooling can automate much of this, suggesting relevant roles based on the context or domain. |
-| **Multi-Domain Integration:** The pattern provides a clean and robust mechanism for a single model to incorporate concepts from multiple, diverse domains without conflict. | - |
-| **Preserves a Lean Kernel:** The FPF kernel remains small and universal, with all domain-specific complexity handled in a modular, plug-in fashion via `Role` libraries. | - |
-| **Enhanced Traceability and Clarity:** The roles an entity plays are explicit assertions. This makes the model's intent clear and auditable. | - |
+#### A.19.CHR:4.4 - Suite spec pins
 
-### B.5.3:7 - **Rationale**
+`CHRMechanismSuiteDescription.suite_spec_pins` MUST be refs‑only and MUST include:
 
-The Role-Projection pattern is the cornerstone of FPF's approach to **universality with specificity**. It is a direct implementation of the **Open-Ended Kernel (P-4)** and **FPF Layering (P-5)** principles. By separating the timeless, universal concepts (`U.Types`) from their context-dependent, domain-specific interpretations (`Role`s), FPF achieves a powerful balance.
+1. **Required spec refs:** `{CNSpecRef, CGSpecRef}` (as required pins, not copied content).
+2. **Required planned baseline:** `required_planned_baseline_ref := CHRMechanismSuiteSlotFillingsPlanItem` (kind‑level requirement: “P2W path MUST publish a planned baseline plan item of this kind”).
+3. **Required edition pins / policy pins (when applicable):**
 
-This approach is inspired by contemporary practices in both ontology engineering (e.g., the use of role concepts in foundational ontologies like UFO) and software architecture (e.g., aspect-oriented programming and role-based modeling), but it integrates them into a single, coherent pattern. It provides a formal, scalable, and semantically rich solution to the perennial problem of bridging the universal and the particular.
+   * `editions{CG‑Spec, ComparatorSet, UNM.TransportRegistryΦ, …}` when the chosen protocol path is edition‑sensitive,
+   * policy‑id pins for Φ/Ψ/Φ_plane when crossings are expected.
 
-### B.5.3:8 - **Relations**
+**Tell (discipline).** Spec pins are **anchors**; they do not embed tables (CL ladders, Φ registries) and do not introduce transport edges.
 
-*   **Implements:** `ADR-003: Role-Projection Pattern and Concept-Bridge`.
-*   **Enables:** The practical application of all FPF patterns by providing the "glue" that connects them to the FPF kernel.
-*   **Used By:** All other patterns in the reasoning cycle, as it provides the vocabulary for framing hypotheses and interpreting evidence in a domain-specific context.
+#### A.19.CHR:4.5 - Suite protocols
 
-### B.5.3:End
+`CHRMechanismSuiteDescription.suite_protocols` (if present) MUST follow the A.6.7 `SuiteProtocol` structure and MUST be closed over suite membership (WF‑MS‑2): every `ProtocolStep.mechanism` is a member of `CHRMechanismSuiteDescription.mechanisms`.
 
-# **Part C — Kernel Extensions Specifications**
+If `suite_protocols` is present, it SHALL include at least one protocol that is equivalent to the canonical **suite-closed** pipeline below (with `fold_Γ` explicitly optional).
 
-| §                                            | Pattern                        | Tag | Scope & Exports                                                      |
-| -------------------------------------------- | ---------------------------------- | --- | -------------------------------------------------------------------- |
-| **Cluster C.I – Core CALs / LOGs / CHRs**    |                                    |     |                                                                      |
-| C.1                                          | **Sys‑CAL**                        | CAL | Physical holon composition; conservation invariants; resource hooks. |
+**Show (canonical suite-closed protocol).**
 
-## C.2 - Epistemic holon composition (KD-CAL)
+```
+normalize (UNM) →
+indicatorize (UINDM) →
+score (USCM) →
+fold_Γ? (ULSAM) →
+compare (CPM) →
+select (SelectorMechanism)
+```
 
-**Scope & exports.** A substrate‑neutral calculus for composing **epistemic holons** (`U.Episteme`) and reasoning about their motion and equivalence. Exports: (i) three **point‑characteristics**—**Formality F**, **ClaimScope G**, **Reliability R**—that locate a single episteme; (ii) a **pairwise ladder** of **Congruence Levels (CL 0…3)**; (iii) four **Δ‑moves** (*Formalise, Generalise/Specialise, Calibrate/Validate, Congrue*); (iv) **composition rules** (Γ_epist) for aggregates; (v) propagation laws for CL through mappings and notation bridges. KD‑CAL sits on the `U.Episteme` *semantic triangle* (Symbol–Concept–Object) and never confuses **notation** with **carrier**. All F–G–R computations are **context‑local**; Cross‑context traversals **require** an explicit **Bridge** with **CL** and apply the **B.3** congruence penalty **Φ(CL)** to **R**.  // Contexts ≡ U.BoundedContext; substitution is plane‑preserving only.
+**Tell.**
 
-**Formality F** is the rigor characteristic defined **normatively in C.2.3**. All KD‑CAL computations and guards **SHALL** use `U.Formality` (F0…F9) as specified there; **no parallel “mode” ladders** are allowed.
+* The `fold_Γ` step is optional (explicitly optional, not implicit inside `score/compare/select`).
+* `suite_protocols` encodes a pipeline/Uses contour between mechanisms; it does **not** define a specialisation relation (`⊑/⊑⁺`). Specialisations live in `A.6.1:4.2.1` (and in project `P.*` extensions).
+* Any publish/telemetry step is **outside** `suite_protocols` (to preserve WF‑MS‑2 closure) and is governed by established publication patterns (G.10 and/or PTM), not as “hidden tails” inside CHR mechanisms.
 
-### C.2:1 - Problem Frame
+#### A.19.CHR:4.6 - P2W hook: mandatory planned baseline
 
-FPF fixes two archetypal sub‑holons: **`U.System`** (physical/operational) and **`U.Episteme`** (knowledge holon). KD‑CAL is the **home pattern** of `U.Episteme`, giving engineers a compact, testable way to say (a) how strictly an episteme is written (**F**), (b) how much structure it manages (**G**), (c) how well it is warranted by evidence or severe tests (**R**), and (d) how closely **two** epistemes coincide (**CL**). KD‑CAL is built atop **C.2.1 U.Episteme — Semantic Triangle via Components**, which reifies every episteme as **Concept** (claim‑graph), **Object** (describedEntity & evaluation rules), and **Symbol** (notation)—*not the file itself*; **carriers** and **work/executions** remain outside and are linked via `isCarriedBy` / `producedBy(U.Work)`.
+**Tell.** Any P2W path that uses `CHRMechanismSuiteDescription` MUST include a `WorkPlanning` plan item:
 
-### C.2:2 - Problem
+an instance of kind `CHRMechanismSuiteSlotFillingsPlanItem` (where `CHRMechanismSuiteSlotFillingsPlanItem ⊑ SlotFillingsPlanItem`)
 
-Teams routinely entangle **programs, specifications, proofs, and datasets**; a “proof” is treated as a tested routine, a “program” is cited as if it entailed a theorem. **Trust decays** because justification and evidence freshness are not explicit. Epistemes are anthropomorphised as actors (“the standard enforces…”), producing **category errors at execution**. Without a shared composition and equivalence calculus, aggregates hide weakest links and analogies harden into overclaims. KD‑CAL must stop these failure modes with a **single constitution and scale‑set**.
+that acts as the **planned baseline** for all suite‑level pinned refs/editions/policies used downstream.
 
+This is the mandatory bridge between:
 
-### C.2:3 - Forces
+* *selection* (G.* set‑return choice of candidates/policies), and
+* *WorkEnactment* (FinalizeLaunchValues witness + gate execution + logs).
 
-* **Universality vs domain idioms.** One calculus must host physics theories, legal codes, safety specs, algorithms, and formal proofs without flattening their differences.
-* **Meaning vs materiality.** Meaning must be independent of carrier, yet accountable to it historically.
-* **Deductive vs empirical.** Axiomatic certainty and empirical trust have different lifecycles; both must compose.
-* **Abstraction vs enactment.** Epistemes constrain action; **systems** act. The calculus must keep the roles distinct.
+#### A.19.CHR:4.7 - Canonical concept card fragments
 
+##### A.19.CHR:4.7.1 - `CHRMechanismSuiteDescription` as a concrete `MechSuiteDescription`
 
-### C.2:4 - Solution
+**Show (canonical skeleton; refs only).**
 
-#### C.2:4.1 - Coordinates and the triangle
+```
+CHRMechanismSuiteDescription := ⟨
+  mech_suite_id        : MechSuiteId,
+  mechanisms           : [UNM.IntensionRef, UINDM.IntensionRef, USCM.IntensionRef,
+                          ULSAM.IntensionRef, CPM.IntensionRef, SelectorMechanism.IntensionRef],
 
-**KD‑CAL characteristics (single‑episteme, point‑values).**
+  suite_obligations    : SuiteObligations {
+                          bridge_only_crossings,
+                          two_bridge_rule_for_described_entity_change,
+                          transport_declarative_only,
+                          penalties_route_to_r_eff_only,
+                          guard_decision_tristate(pass|degrade|abstain),
+                          unknown_never_coerces_to_pass,
+                          gate_decision_separation,
+                          guard_lexeme_reservations,
+                          no_thresholds_in_suite_core,
+                          cg_spec_cite_required_for_numeric_ops,
+                          no_silent_scalarisation_of_partial_orders,
+                          no_silent_totalisation,
+                          crossing_visibility_required,
+                          planned_slot_filling_in_work_planning_only,
+                          finalize_launch_values_in_work_enactment_only,
+                          implementation_export_discipline_when_cited
+                        },
 
-* **Formality F.** From free prose to **machine‑checkable proof/specification**. Litmus: *would a machine reject it if wrong?*
-* **Claim scope (G), a set‑valued applicability over `U.ContextSlice`, with ∩/SpanUnion/translate algebra; CL penalties apply to R, not to F/G.** Litmus: *how wide is the declared scope, and under what minimal assumptions does the claim hold?*
-* **Reliability R.** From untested idea to **continuously validated claim**. Litmus: *where is the last successful severe test?* **R‑claims MUST bind to evidence and declare relevance windows; stale bindings degrade R or require waiver per ESG policy.**
+  suite_spec_pins  : SuiteSpecPins {
+                          required_spec_refs := {CNSpecRef, CGSpecRef},
+                          required_planned_baseline_ref := CHRMechanismSuiteSlotFillingsPlanItem,
+                          required_edition_pins? := …,
+                          required_policy_id_pins? := …
+                        },
 
- **Congruence Level (CL), pairwise ladder.**
- `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable / RoleAssignment‑eligible** (structure‑preserving mapping in a declared fragment with **stated loss**; theorems may transport); `CL‑3` **Near‑identity / Type‑structure‑safe** (invariants match; type‑structure substitution allowed). *CL is a characteristic of a relation between two epistemes; it is not a fourth charachteristic of epistemic characteristic space.* **Norm:** substitution is permitted only if plane‑preserving and **CL ≥ 2**; substituting **type‑structure** requires **CL = 3**.
+  suite_protocols?     : SuiteProtocol[*],            // includes the canonical pipeline
+  suite_notes?         : …,                            // didactic boundaries + anti-patterns
+  suite_audit_obligations? : …                         // UTS+Path pins, crossings visibility, guard governing-pattern assignment
+⟩
+```
 
-**Triangle link.** The characteristics live on the **Concept↔Object** side: *F* by the internal claim‑graph structure; *G* by the **ClaimScope** (scope & assumptions); *R* by evaluation templates and evidence bindings. The **Symbol** vertex hosts notation; **carriers are outside** the episteme and link via `isCarriedBy`. Multiple notations are allowed under a **single Symbol component**; authors SHOULD register `NotationBridge(n₁,n₂)` with an associated **CL** to make conversion loss explicit.
+##### A.19.CHR:4.7.2 - `CHRMechanismSuiteSlotFillingsPlanItem` as a `SlotFillingsPlanItem`
 
-#### C.2:4.2 - Four Δ‑moves (epistemic motion)
+**Tell.** This plan item fixes the planned baseline for suite spec pins and for chosen mechanism/policy refs, within an explicit P2W context.
 
-* **ΔF — Formalise.** Rewrite for stricter calculi/grammars; raise proof obligations.
-* **ΔG — Generalise / Specialise.** Widen or narrow the **claim scope** (assumptions & scope). Changes to decomposition granularity are an **orthogonal view** and do not change **G** unless they alter the envelope.
-* **ΔR — Calibrate / Validate.** Strengthen severe tests or add live monitoring; update evidence bindings.
-* **ΔCL — Congrue.** Establish and record the sameness relation between **two** epistemes (ladder 0→3).
-  Moves compose into **paths**; CL along a path is the **minimum** of its links.
+**Required fields (minimum; aligns with A.15.3 naming)**
 
-#### C.2:4.3 - Composition (Γ\_epist) and propagation
+* `target_slot_bearing_description_ref` MUST be edition-addressable and MUST reference the `CHRMechanismSuiteDescription` instance (kind: `MechSuiteDescription`) via a `MechSuiteDescriptionRef@edition(…)` (the suite description is the slot-bearing description for this planned baseline).
+* MUST include explicit context anchors:
+  * `described_entity_ref` (a concrete RefKind per C.2.3),
+  * `bounded_context_ref`,
+  * `cg_frame_ref`,
+  * `reference_plane` (unless unambiguously derivable from the cited bounded-context reference and related context records; see A.15.3 context-derivability rule),
+  * `path_slice_id`,
+  * `publication_scope_id`,
+  * `Γ_time_selector` (ByValue) or `Γ_time_rule_ref` (ByRef) — no implicit “latest”.
+* MAY include `expected_usm_guard_pins ⊆ {USM.CompareGuard, USM.LaunchGuard}` (planned expectation only; not execution).
+  If `expected_usm_guard_pins` is present and non-empty, the PlanItem MUST also pin (or make unambiguously derivable) `guard_owner_gate_ref` required for later aggregation of `GuardFail` events (A.15.3 guard-governing pattern rule).
+* MUST include planned fillings for (at least) the suite spec pins, expressed as `planned_fillings` rows keyed by the corresponding SlotKind tokens:
+  * `CNSpecSlot` filled by `ByRef(CNSpecRef@edition(…))` (edition‑pinned where required),
+  * `CGSpecSlot` filled by `ByRef(CGSpecRef@edition(…))` (edition‑pinned where required),
+    and (when applicable) the chosen method/comparator/mechanism refs as planned fillers (e.g., `ScoringMethodDescriptionSlot`, `ComparatorSpecSlot`, …).
+* When crossings are expected, MUST include `expected_crossing_policy_refs` (refs only):
+  `⟨bridge_card_ref, phi_policy_id, psi_policy_id?, phi_plane_policy_id?, reference_plane(src,tgt)⟩ …`,
+  and SHOULD include the corresponding `expected_crossing_bundle_refs` (refs only) so crossing visibility has an explicit anchor.
 
-Let **Γ\_epist** combine epistemes `{Eᵢ}` into a composite episteme **Γ** that makes a joint claim (*AND‑style*) or exposes an interface (*series composition*). KD‑CAL imposes **safe defaults**:
+**Prohibitions**
 
-* **R (Reliability).** Along any justification **path** `P`, compute **`R_eff(P) = max(0, min_i R_i − Φ(CL_min(P)))`** (weakest‑link with congruence penalty). For **series** composition (claims needed conjunctively), the path‑wise weakest‑link applies; for **parallel** support (independent lines to the *same* claim), use **`R(Γ) = max_P R_eff(P)`** (annotate independence); never exceed the best attested line. Cross‑context steps and **NotationBridge** traversals contribute to `CL_min(P)`.
+* MUST NOT contain `GateDecision` / `DecisionLog`.
+* MUST NOT contain `FinalizeLaunchValues` witnesses or launch values.
+* MUST NOT embed CL/Φ/Φ_plane tables; only refs/pins.
 
-* **F (Formality).** `F(Γ) = minᵢ F(Eᵢ)` (monotone non‑increasing along used paths). To raise **F**, apply **ΔF** to the weakest parts.
-* **G (ClaimScope).** On any dependency **path**, take the **intersection** of claim scopes (the **narrowest overlapping scope**). Across **independent support paths to the same claim**, set **`G(Γ) = SpanUnion({G_path})` constrained by support** (drop unsupported regions). Widening/narrowing the scope is an explicit **ΔG±** operation.
-* **CL (Congruence).** For a chain of mappings `E₀ ~ E₁ ~ … ~ Eₖ`, the **path congruence** is `min CL(Eⱼ,Eⱼ₊₁)`. Passing through a **NotationBridge** sets CL to the bridge’s declared level; the **Φ(CL)** penalty is applied in the **R** fold for any path that traverses it.
+#### A.19.CHR:4.8 - Examples
 
-These rules keep Γ aligned with the **holonic kernel**: Γ is only defined on holons and respects identity/boundary discipline from the core. 
+##### A.19.CHR:4.8.1 - Example — normalization-based comparability with explicit Uses chain
 
-#### C.2:4.4 - What **must not** be conflated (normative guards)
+**Show.**
 
-* **Symbol ≠ carrier.** Files, PDFs, or repositories are **carriers** outside the episteme; they never count as parts of `U.Episteme` (**see C.2.1 EP‑1; CC‑EPI‑2/3**).
-* **Epistemes do not act.** Only **systems** perform work; epistemes constrain/evaluate via **Object** and **Concept** (**per Core A.15 / CC‑EPI‑3**).
-* **CL is not a score.** It is a **qualitative ladder** of preservation strength; do not average it. 
+* `CHRMechanismSuiteDescription` is referenced by a G‑pattern (e.g., method selection, parity selection, or lawful publish pipeline).
+* WorkPlanning publishes `CHRMechanismSuiteSlotFillingsPlanItem` with:
 
+  * pinned `CNSpecRef(ed=…)`, `CGSpecRef(ed=…)`,
+  * pinned `ComparatorSpecRef(ed=…)` (from `CG‑Spec.ComparatorSet`),
+  * pinned `ScoringMethodDescriptionRef(ed=…)` (e.g., a monotone scoring method),
+  * explicit `Γ_timeSelector` (“point at …”, no implicit “latest”),
+  * `ExpectedUSMGuards = {USM.CompareGuard, USM.LaunchGuard}`,
+  * expected crossing policy pins for any cross‑context step.
 
-### C.2:5 - ✱ Archetypal Grounding (Tell–Show–Show)
+The executed protocol (by E.TGA/P2W) is:
+Suite-closed protocol:
+`UNM → UINDM → USCM → CPM → SelectorMechanism`.
+Downstream continuation (outside `suite_protocols`): publication/telemetry via `G.10` and/or `PTM`.
 
-**Universal rule (tell).** *Compose knowledge by Γ\_epist with weakest‑link R, monotone F, and explicit CL on every bridge; keep Symbol–Concept–Object separate and never turn a carrier into a part.*
+**SoTA note (illustrative, non-normative).** A `ScoringMethodDescription` here can represent a post‑2015 monotone model family (e.g., monotone lattice / constrained monotone learning) or a set‑valued scoring family (e.g., conformalized score intervals), as long as legality remains SCP‑bound and uncertainty is handled via tri‑state guards rather than being suppressed into a scalar.
 
-**System (show, Sys‑CAL lens).** Consider a **battery‑pack thermal subsystem** integrating a physics model of heat flow and an operating envelope for fast‑charge. As a **system**, it composes pumps, sensors, and controllers by physical Γ with conservation constraints (Sys‑CAL). The assurance story depends on epistemes about the model and envelope; the system **acts**, epistemes constrain. (Archetypes and boundary discipline per core.)
+##### A.19.CHR:4.8.2 - Example — archive `PortfolioMode` with report-only illumination
 
-**Episteme (show, KD‑CAL lens).** Consider a **CMIP‑class climate projection episteme** (post‑2015 generation): its **Concept** is a claim‑graph over PDEs and parameterisations; its **Object** defines an claim scope (historical forcings, resolution); its **Symbol** may include two notations (domain equations vs. tabular schema) linked by a **NotationBridge** with an explicit CL. Compose sub‑epistemes for radiation, clouds, and ocean mixing: `R = min` across the critical path; an independent hindcast line can raise `R` only up to its own level; `F` is bounded by the least‑formal sub‑claim unless the composition adds formal invariants.
+**Show.**
 
+* The same CHR suite is used, but the selected `SelectorMechanism` specialization (via G.* extension) returns an **Archive** retained set.
+* WorkPlanning plan item additionally pins:
 
-### C.2:6 - Bias‑Annotation
+  * `DescriptorMapRef@edition(…)` and `DistanceDefRef@edition(…)` (QD/illumination configuration),
+  * an explicit policy ref that states illumination is **report‑only** by default,
+  * a separate CAL policy‑id if illumination is ever promoted into dominance (never implicit).
 
-* **Metric worship.** Treating `[F,G,R]` as ends rather than means; mitigation: require **evidence bindings** and narrative of limits in the Object envelope.
-* **Category slip.** Equating a notation or its carrier with the Concept; mitigation: Symbol–carrier separation and EP‑1 triangle cardinality.
-* **Analogy inflation.** Presenting CL‑0/1 as identity; mitigation: always name the **CL rung** for cross‑mappings.
+**SoTA note (illustrative, non-normative).** Archive semantics align naturally with quality‑diversity families that matured after 2015 (MAP‑Elites‑class extensions, CMA‑ME‑class, etc.), while the pattern’s “promotion only via policy‑id” prevents an implicit collapse of diversity telemetry into dominance.
 
+#### A.19.CHR:4.9 - Evolution rules
 
-### C.2:7 - Conformance Checklist
+* **Kernel-first stability.** This suite is intentionally minimal. Adding a new core CHR mechanism to this kernel suite is a suite-version change and MUST be accompanied by alias docking (F.18) so existing references remain citeable. For exploratory or domain‑specific extra stages, prefer a suite variant (e.g., `A.19.CHR+` / `A.19.CHR.Extended`) or project‑level specializations (patterns P.\*) instead of mutating the kernel.
+* **Mechanism specializations are not wiring.** Domain/project variants are expressed via A.6.1 (`⊑/⊑⁺`) under their governing pattern (typically a project pattern `P.*`), not by editing suite membership. The suite binds to `…IntensionRef`; the planned baseline (A.19.CHR:4.7.2 under A.15.3) chooses concrete instances/specializations.
+* **Protocols evolve within the suite boundary.** Adding/changing suite protocols (A.19.CHR:4.5) is allowed as long as each protocol remains suite‑closed and does not import publish/telemetry as a mandatory step. If a protocol introduces a new required stage not present in membership, treat it as a suite variant rather than a protocol edit.
+* **SoTA harvesting updates methods, not the kernel.** Updates from SoTA harvesting/synthesis (G.2) are carried via edition‑pinned `MethodDescriptionRef` / `ComparatorSpecRef` selections and wiring modules (`G.x:Ext.*`), keeping the kernel Intension set stable. If a SoTA update requires changing a mechanism’s signature/laws, the change happens in the governing A.6.1 mechanism card and MUST emit RSCR triggers from `G.Core`.
+* **New mechanism families (outside CHR).** Introduce new mechanism kinds as new family-specific patterns under the appropriate mechanism family. If they require suite-level composition and P2W binding, add a corresponding suite pattern `A.6.7.<FamilyKey>` plus a suite-specific planned baseline specialization of A.15.3, mirroring the governing-pattern assignment routing of this pattern.
 
-1. **C2‑1 (Triangle).** Every `U.Episteme` **MUST** occupy exactly one slot per {Symbol, Concept, Object}; carriers link via `isCarriedBy` and are never parts.
-2. **C2‑2 (Coordinates).** Each episteme **SHALL** declare `[F,G,R]` with a brief rationale; **F** is `U.Formality ∈ {F0…F9}` per **C.2.3**, **exactly one episteme‑level F** computed as the **min over essential parts**. CL is declared for **pairs only**. Sub‑anchors: ** Contexts **MAY** mint named sub‑anchors (e.g., `F4[OCL]`, `F7[HOL]`), which **MUST** preserve the global order and **map to their parent anchor** from C.2.3.
-3. **C2‑3 (Composition).** Authors **SHALL** choose Γ_mode (**series** vs **parallel**). For any justification **path** use **`R_eff(P) = max(0, min_i R_i − Φ(CL_min(P)))`**; for **parallel** independent lines to the *same claim*, take **`R(Γ) = max_P R_eff(P)`** (never exceeding the strongest line). Compute `F(Γ) = min` along the used paths. For **G**, use **path‑wise intersections** and then **SpanUnion({G_path}) constrained by support**. Cross‑context traversals **MUST** use a Bridge with **CL** and apply **Φ(CL)** to `R`.
-4. **C2‑4 (NotationBridge).** Multi‑notation Symbol components **SHOULD** register `NotationBridge` edges with CL and loss note; any cross‑notation reasoning **MUST** cite the bridge’s CL.
-5. **C2‑5 (No action).** Epistemes **MUST NOT** be assigned actions; work is executed by systems in role.
+#### A.19.CHR:5.1 - `U.System` vignette (Tell–Show–Show)
 
+**Tell.** A system-level decision must select a declared set of options when measurable evidence comes from multiple slices (test rigs, simulations, field trials). Measurements are multi-scale and not always comparable without explicit normalization, and some evidence is missing or stale. The team needs lawful comparison and selection without forcing a single scalar “fitness”.
 
-### C.2:8 - Consequences
+**Show.** The system’s P2W path cites `CHRMechanismSuiteDescription` and publishes `CHRMechanismSuiteSlotFillingsPlanItem` as the planned baseline:
+`CNSpecRef(ed=…)`, `CGSpecRef(ed=…)`, chosen `ComparatorSpecRef(ed=…)`, chosen `ScoringMethodDescriptionRef(ed=…)`, explicit `Γ_timeSelector` (point or window), and expected guard pins.
+WorkEnactment witnesses `FinalizeLaunchValues` and runs `UNM → UINDM → USCM → CPM → SelectorMechanism`, returning a selected set under Pareto or Archive mode, while any cross-context reuse is surfaced by Bridge-only crossings and audit pins.
 
-**Benefits.** A single, compact **map** for all knowledge artefacts; fast detection of weakest‑link **R** in aggregates; disciplined reuse across domains with explicit **CL**; consistent separation of **meaning** from **material carriers**.
-**Trade‑offs.** Authors must learn to declare Γ‑mode and CL explicitly; multi‑notation work requires bridge bookkeeping; *mitigation:* the triangle and ladder keep the discipline brief and repeatable.
+**Show.** If the team instead embeds normalization inside scoring (“we always normalize to [0,1]”) or collapses a partial order into a single weighted sum, the suite protocol explicitness and “no silent scalarization/totalization” obligations make the violation legible at review time, and the planned baseline cannot honestly pin the missing UNM/ULSAM steps.
 
+#### A.19.CHR:5.2 - `U.Episteme` vignette (Tell–Show–Show)
 
-### C.2:9 - Rationale
+**Tell.** A research episteme compares methodological claims across traditions where some evaluation scales are ordinal (rank-based) and others are interval or ratio. The group wants to select a method family for a task while keeping uncertainty explicit and avoiding illicit aggregation (e.g., averaging ranks).
 
-KD‑CAL externalises a long‑standing semiotic insight (Sign–Meaning–Referent) into a **holonic composition** where syntax/structure (**F,G**), pragmatics/evidence (**R**), and cross‑mapping strength (**CL**) are visible and composable. The explicit triangle (C.2.1) prevents carrier confusion; the characteristic provide a **manager‑readable** yet **formalisation‑ready** scale (with **G** grounded in **scope/envelope**, not part‑count); the CL ladder replaces overloaded “alignment” with a graded sameness notion.
+**Show.** The episteme’s planned baseline pins `CNSpecRef` (comparability mode and indicator policy) and `CGSpecRef` (SCP, ComparatorSet, MinimalEvidence, Γ_fold). The suite runs `UINDM` to select indicators, `USCM` to compute lawful score measures under SCP, `ULSAM` only when Γ_fold is explicitly selected, and `CPM` to compare without scalarizing partial orders. The selector returns a selected set rather than forcing a single winner.
 
+**Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, the pattern’s legality discipline forces the author either to (a) re-express the step as a lawful comparator declared in CG‑Spec, or (b) keep the result as report-only telemetry, not a dominance driver.
 
-### C.2:10 - Relations
+### A.19.CHR:6 - Bias-Annotation
 
-* **Depends on:** `U.Episteme — Semantic Triangle via Components` (C.2.1): identity invariants EP‑1, Symbol–Concept–Object definitions, evidence bindings.
-* **Peers:** **Sys‑CAL** (C.1), which composes **systems**; KD‑CAL composes **epistemes** and feeds assurance lenses in Part B.
-* **Constrained by authoring:** Architectural patterns must include Tell–Show–Show with **Archetypal Grounding** (this section).
+**Lenses tested:** `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`. **Scope:** Universal for any Part‑G (and adjacent) use of the CHR characterization core via `CHRMechanismSuiteDescription` and the corresponding P2W planned-baseline WorkPlanning plan item.
 
-### C.2:11 - Worked mini‑examples (post‑2015 flavours)
+* **Gov.** Bias toward fail-closed legality and explicit auditability (Bridge-only crossings, pinned spec refs, guard–gate separation). Mitigation: the tri-state `GuardDecision` allows uncertainty to degrade or abstain without forcing gate-level blocking; exploration can still proceed via explicit SoS‑LOG policy branches.
+* **Arch.** Bias toward explicit node-level composition (E.TGA) and explicit P2W plan items (`SlotFillingsPlanItem`). Mitigation: the suite fixes only the universal core; discipline-specific generators and extensions remain separate mechanisms connected by `Uses`, keeping the suite compact.
+* **Onto/Epist.** Bias toward a strict separation of CN‑Spec and CG‑Spec spec refs, mechanisms (A.6.1), and planning epistemes (A.15.3). Mitigation: specialization is explicitly supported (`⊑/⊑⁺`) and does not require inventing new kernel constructs; method diversity is expressed via MethodDescription refs and ComparatorSpec refs.
+* **Prag.** Bias toward conservative uncertainty handling (unknown does not coerce to pass) may reduce decisiveness. Mitigation: “probe-only” and “sandbox” behaviors are permitted as explicit, audited degrade modes (policy-id + branch-id), not as silent coercions.
+* **Did.** Bias toward explicit terminology and pins increases authoring surface area. Mitigation: this pattern provides a canonical protocol and a single planned-baseline kind so authors can reuse a stable template rather than re-inventing local prose conventions.
 
-* **Formal lift (ΔF).** Recasting a 2019 **variational free‑energy** narrative into a typed calculus raises **F**, clarifies scope, and enables CL‑2 bridges between biological and ML formulations—*without* claiming empirical gain (**R** unchanged).
-* **Parallel evidence (R, max).** Two independent **hindcast** lines (circa CMIP6, 2019) supporting the same forecast allow `R(Γ)=max(R₁,R₂)`; if one line drifts, the composite is bounded by the stronger line until series constraints apply.
-* **Notation bridge (CL drop).** A 2021 **type‑theoretic specification** rendered in a semi‑formal DSL requires a `NotationBridge` with a CL<3 note; any theorem transported across must respect the bridge’s declared preservation.
+### A.19.CHR:7 - Conformance Checklist
 
-*(No tooling is implied; these are conceptual moves within the calculus.)*
+A CHR mechanism-suite publication set is conformant to **A.19.CHR** iff all applicable items below hold. Where useful, checklist items cite L/A/D/E claim IDs from **A.19.CHR:4.3.7** to reduce paraphrase drift.
 
-### C.2:End
+#### A.19.CHR:7.1 - Suite object checks
 
-## C.2.1 - U.Episteme — Epistemes and their slot graph
+**CC‑A67CHR‑1 (Correct kind and level).**
+A conforming `CHRMechanismSuiteDescription` SHALL be a `MechSuiteDescription` instance and SHALL NOT be encoded as a `MechFamilyDescription`.
 
-> **One-line summary.** `U.Episteme` is the holon type for epistemes; its internal ontology is given by `U.EpistemeSlotGraph`, which replaces the legacy **semantic triangle** with a typed graph n-ary relation over `DescribedEntity`, `GroundingHolon`, `ClaimGraph`, `Viewpoint`, `View`, and `ReferenceScheme`, aligned with `U.RelationSlotDiscipline` and ready for both symbolic and distributed representations.
+**CC‑A67CHR‑1a (Stable citation handle).**
+A conforming `CHRMechanismSuiteDescription` SHALL include a stable `mech_suite_id` suitable for downstream planning and `U.Work.Audit` citation.
 
-### C.2.1:1 - Context
+**CC‑A67CHR‑2 (Canonical membership).**
+A conforming `CHRMechanismSuiteDescription` SHALL enumerate exactly the six CHR mechanisms (UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism) as `U.Mechanism.IntensionRef`s.
 
-FPF’s kernel recognises two archetypal sub‑holons: **System** and **Episteme**. Systems are operational wholes; **epistemes** are **knowledge holons**—theories, models, specifications, standards, algorithms, proofs—whose reason for being is to **say something defeasible or deductive about something** and to be **held to account** by justification. 
+**CC‑A67CHR‑2a (Membership set semantics).**
+A conforming `CHRMechanismSuiteDescription.mechanisms` SHALL be duplicates-free and SHALL NOT treat order as semantic (WF‑MS‑1).
 
-**Readers.** Engineering managers and lead designers who need a uniform way to reason about **theories, specifications, algorithms, proofs**—from charter memos up to formal axiomatics—without collapsing into tooling or discipline‑specific notations.
+**CC‑A67CHR‑2b (No dangling IntensionRefs).**
+Each `U.Mechanism.IntensionRef` enumerated in `CHRMechanismSuiteDescription.mechanisms` SHALL resolve to a canonical `U.Mechanism.Intension` publication under the designated governing pattern (draft stubs allowed; dangling refs are not). See `A.19.CHR:4.2.2`.
 
-KD‑CAL (C.2) needs a precise notion of **what an episteme is** and **how it mediates** between:
+**CC‑A67CHR‑3 (Governing spec refs are pins, not copies).**
+A conforming `CHRMechanismSuiteDescription` SHALL cite `CN‑Spec` and `CG‑Spec` as required spec refs and SHALL NOT duplicate them as “shadow specs”.
 
-* the thing(s) it is about,
-* the contexts and systems that ground and test it, and
-* the representational machinery (notations, carriers, operations) we use to work with it.
+**CC‑A67CHR‑3a (Planned-baseline requirement is pinned).**
+A conforming `CHRMechanismSuiteDescription` SHALL set
+`suite_spec_pins.required_planned_baseline_ref = CHRMechanismSuiteSlotFillingsPlanItem`
+so the P2W seam is enforced by the suite governing spec ref (not by ad hoc prose).
 
-Contemporary work on **formal languages as cognitive artifacts** (Dutilh Novaes), **operational iconicity** of notations (Krӓmer), **material engagement** (Malafouris), **distributed representations** and **latent‑space communication** in ML, and **tool‑augmented reasoning** (ReAct‑style agent loops) shows that:
-* the relation between an episteme and its **DescribedEntitySlot** is not a single “Object-vertex”: it involves explicit **slots and morphisms** (described-entity mapping, grounding, evaluation) typed by SlotKinds and contexts;
-* **representations** come in heterogeneous forms (symbolic, diagrammatic, latent, interactive), with very different **operational affordances**;
-* **inference** is often **mixed‑mode**: symbolic reasoning plus calls to tools, solvers, and learned models.
+**CC‑A67CHR‑4 (Crossing discipline is complete).**
+A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include, at minimum:
+`bridge_only_crossings`,
+`two_bridge_rule_for_described_entity_change`,
+`transport_declarative_only`,
+`penalties_route_to_r_eff_only`,
+`guard_decision_tristate(pass|degrade|abstain)`,
+`unknown_never_coerces_to_pass`,
+`gate_decision_separation`,
+`guard_lexeme_reservations`,
+`cg_spec_cite_required_for_numeric_ops`,
+`no_silent_scalarisation_of_partial_orders`,
+`no_silent_totalisation`,
+`no_thresholds_in_suite_core`,
+`crossing_visibility_required`,
+`planned_slot_filling_in_work_planning_only`,
+`finalize_launch_values_in_work_enactment_only`,
+`implementation_export_discipline_when_cited`.
 
-FPF therefore needs a **more modular, graph‑shaped ontology** for epistemes which:
-* keeps **KD‑CAL** and I/D/S discipline intact,
-* is compatible with **A.6.0/A.6.5** signatures (`SlotKind`/`ValueKind`/`RefKind`),
-* can be used uniformly by A.6.2–A.6.4 (epistemic morphisms) and E.17.* (views & publication),
-* and demotes the old non-SoTA **semanit triangle** to a **didactic projection**, not the normative ontology.
+**CC‑A67CHR‑5 (Guard/gate separation).**
+A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL:
+1) enforce tri‑state guard decisions (`pass|degrade|abstain`),
+2) enforce `unknown_never_coerces_to_pass`,
+3) enforce guard–gate separation (no `GateDecision` / `DecisionLog` at mechanism/suite level; `block` remains gate‑only), and
+4) enforce guard lexeme reservations (`USM.CompareGuard` / `USM.LaunchGuard` are gate-level pins; mechanism predicates use `…Admissibility/…Eligibility`).
 
-In this pattern:+
-* `U.Episteme` is the **holon genus** for epistemes (C.2), with components and identity governed by A.1/A.6.0/A.7.
-* `U.EpistemeSlotGraph` names the **internal ontology graph** of `U.Episteme`: the small, typed n-ary relation over episteme positions (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) on which KD-CAL, A.6.2–A.6.4 and E.17.* rely.
-* Species such as `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` are holonic realisations of `U.Episteme` whose component structure is constrained to be compatible with `U.EpistemeSlotGraph`.
+**CC‑A67CHR‑6 (No hidden scalarization/totalization).**
+A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include explicit bans on silent scalarization of partial orders and silent totalization.
 
-### C.2.1:2 - Problem
+**CC‑A67CHR‑7 (No thresholds in core + single-source defaults).**
+A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include `no_thresholds_in_suite_core`.
+If any suite protocol relies on defaults (e.g., `PortfolioMode`), the suite description and plan items SHALL cite those defaults from their single declared source (typically a TaskSignature or explicit policy-id), and SHALL NOT introduce competing defaults in the suite.
 
-Without a shared **episteme constitution**, teams fall into recurring failure modes:
+**CC‑A67CHR‑8 (Protocol explicitness + closure).**
+If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHALL:
+1) express any dependence as an explicit protocol step (no hidden invocation of UNM/UINDM/ULSAM inside score/compare/select), and
+2) satisfy WF‑MS‑2 (protocol closure): every protocol step cites a mechanism that is a member of the suite.
 
-1. **Object–Description–Carrier soup.** Diagrams and files are treated as *the theory itself*. Changes to a PDF are confused with theoretical change.
-2. **DescribedObject blur.** A spec seems to describe “everything in general”. The **GroundingHolon**—*what exactly this knowledge is about*—is implicit and drifts.
-3. **Proof vs program confusion.** Algorithms, specifications, and proofs are mixed: a “proof” is used as if it were a tested routine; a “program” is cited as if it entailed a theorem (Curry–Howard misunderstood).
-4. **Unanchored trust.** Claims accumulate with no explicit **justification graph** or **evidence freshness**, so assurance degrades invisibly.
-5. **Category errors at execution.** Epistemes appear as *actors* (“the standard enforces…”) instead of **systems** acting *with* or *on* epistemes such as data sets or algorithms.
+**CC‑A67CHR‑8a (Canonical protocol is available when protocols are published).**
+If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHALL include at least one protocol equivalent to:
+`normalize (UNM) → indicatorize (UINDM) → score (USCM) → fold_Γ? (ULSAM) → compare (CPM) → select (SelectorMechanism)`,
+where `fold_Γ` is explicitly optional.
+Any publish/telemetry continuation is governed externally (e.g., by G.10 and/or PTM) and MUST NOT be encoded as a `ProtocolStep` inside `suite_protocols` (to preserve WF‑MS‑2 closure).
 
-The legacy non-SoTA “Semantic Triangle” treated an episteme as a holon with three components: **Concept** (ClaimGraph), **Object** (Reference Map), and **Symbol** (notation).
+**CC‑A67CHR‑9 (Packaging separation).**
+If protocols include `publish/telemetry`, it is governed by G.10 and/or PTM; the suite does not act as a pack or shipping publication.
 
-This worked well for:
-* separating **meaning** (Concept) from **carriers**, and
-* integrating KD‑CAL’s **F–G–R** characteristics (Formality, ClaimScope, Reliability).
+#### A.19.CHR:7.2 - Planned baseline checks
 
-But for current use‑cases it has structural blind spots:
+**CC‑A67CHR‑10 (Planned baseline exists on P2W paths).**
+For each P2W path slice that uses the suite, Authors SHALL provide a `CHRMechanismSuiteSlotFillingsPlanItem` in WorkPlanning.
 
-1. **No explicit DescribedEntity slot.**
-   The “Object vertex” bundles together *what the episteme is about* with *how we interpret and test it*. There is no explicit **slot** for the entity‑of‑interest (`U.Entity`) and no clear separation between:
-   * the **thing described**, and
-   * the **ReferenceScheme** used to read claims as statements about that thing.
+**CC‑A67CHR‑10a (Correct slot-bearing description).**
+A conforming `CHRMechanismSuiteSlotFillingsPlanItem` SHALL set `target_slot_bearing_description_ref = CHRMechanismSuiteDescriptionRef` (edition-addressable when used as a reproducibility baseline).
 
-2. **Grounding collapses into Object.**
-   Material and organisational contexts (labs, infrastructures, organisations) that **ground** an episteme (in Malafouris’ sense) are hidden in the Object/Reference Map. KD‑CAL and Bridges need explicit **GroundingHolon** positions.
+**CC‑A67CHR‑11 (Plan item is baseline, not execution).**
+The plan item contains planned fillers and pins only; it does not contain launch values, execution witnesses, gate decisions, or logs.
 
-3. **Viewpoints are not first‑class.**
-   ISO‑style **viewpoints** (families of stakeholders, concerns, conformance rules) and their induced **views** appear only indirectly, via KD‑CAL or MVPK. There is no explicit `U.Viewpoint` / `U.View` pair at the episteme core, which makes it hard to:
+**CC‑A67CHR‑11a (Minimum P2W context anchors).**
+A conforming `CHRMechanismSuiteSlotFillingsPlanItem` SHALL include, at minimum:
+`described_entity_ref`, `bounded_context_ref`, `cg_frame_ref`, `path_slice_id`, `publication_scope_id`, and an explicit time selector (`Γ_time_selector` ByValue or `Γ_time_rule_ref` ByRef),
+and SHALL either include `reference_plane` or make it unambiguously derivable from the cited bounded-context reference and related context records.
 
-   * connect to I/D/S **DescriptionContext**,
-   * organize multi‑view descriptions (E.17.0), or
-   * align publication viewpoints with engineering viewpoints.
+**CC‑A67CHR‑11b (Planned guard pins and guard governing-pattern assignment).**
+If `expected_usm_guard_pins` is present in a `CHRMechanismSuiteSlotFillingsPlanItem`, it SHALL satisfy
+`expected_usm_guard_pins ⊆ {USM.CompareGuard, USM.LaunchGuard}`.
+If `expected_usm_guard_pins` is present and non-empty, the plan item SHALL also pin (or make unambiguously derivable) `guard_owner_gate_ref` required for later aggregation of `GuardFail` events (per the A.15.3 guard-governing pattern rule).
 
-4. **Representations and operations are compressed into “Symbol”.**
-   Very different representational regimes are flattened into one Symbol vertex:
+**CC‑A67CHR‑11c (Planned spec pins are present).**
+A conforming `CHRMechanismSuiteSlotFillingsPlanItem` SHALL include planned fillings (refs/pins; no copied content) for, at minimum, SlotKinds `CNSpecSlot` and `CGSpecSlot` (filled by edition‑pinned `CNSpecRef` / `CGSpecRef` where required by the chosen protocol).
 
-   * purely denotational notations (no internal inference calculus),
-   * fully operational calculi (e.g., proof assistants),
-   * interactive visualisations,
-   * latent vectors and prompt‑programs for LLMs.
-     There is no place to say “this representation admits **syntactic inference** of such‑and‑such kind” vs “this is just a **passive label**”.
+**CC‑A67CHR‑12 (Edition/time explicitness).**
+The plan item includes explicit time selector/rule (no implicit “latest”) and includes edition pins where the protocol is edition‑sensitive.
+Edition pins MAY be carried via edition-addressable refs in `planned_fillings` and/or via per-row `SlotFillingRow.edition_pin` (A.15.3 edition-pin rule); they MUST remain pins and anchors, not copied content.
 
-5. **No explicit signature discipline.**
-   The triangle speaks of “Object/Concept/Symbol” but not of **slots** and **references** in the sense of A.6.5 `U.RelationSlotDiscipline`. In episteme this leads to:
-   * names where **slot, value and ref** are conflated (`DescribedEntityRef` used as if it were a slot),
-   * ambiguity between “epistemic object” (what is talked about) and “episteme” (the description),
-   * fragile interoperability with signatures for roles, methods, services.
+**CC‑A67CHR‑13 (Crossing pins are refs-only).**
+Expected crossings are expressed via Bridge/policy refs and ReferencePlane pins; no embedded CL/Φ tables.
+If expected crossings are listed, `expected_crossing_bundle_refs` SHOULD be provided (or be unambiguously derivable) so crossing visibility has an explicit audit anchor.
 
-Thus we have problems of:
-* **DescribedEntity drift.**
- Specifications and models accumulate without a stable notion of **which DescribedEntity they talk about**; fields like `SubjectRef` are overloaded and resist safe refactoring.
-* **Viewpoint confusion.**
-  Engineering, publication and governance views are mixed, making it hard to maintain consistency across surfaces or to reason about conformity of descriptions under different viewpoints.
-* **Representation mismatches.**
-  Trade‑offs between neural vs symbolic, diagrammatic vs textual, or interactive vs batch representations cannot be expressed at the episteme level; they leak into ad‑hoc tool descriptions.
-* **Broken modularity.**
-  As soon as we add KD‑CAL, LOG‑CAL, MVPK, and E.TGA, multiple **implicit triangles** appear, each with slightly different semantics, instead of a single shared `U.EpistemeSlotGraph`.
+**CC‑A67CHR‑14 (Audit traceability).**
+The plan item is citeable from downstream `U.Work.Audit` as the planned baseline, and deviations (retarget/substitute/assign/update) require a variance trace.
 
-We need a replacement for the triangle that keeps its **didactic clarity** but matches the **graph‑ and morphism‑centric** reality of contemporary epistemic work.
+#### A.19.CHR:7.3 - MVPK face checks (when projected)
 
-### C.2.1:3 - Forces
+**CC‑A67CHR‑15 (Views do not add meaning).**
+Any `TechCard(…)` / `PlainView(…)` projection of the plan item does not introduce new assertions beyond the plan item.
 
-| Force                                          | Tension we must resolve                                                                                                                |
-| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **Geometry vs. operations**                    | Simple geometric pictures (triangles) are memorable; real epistemic work is **operational and graph‑shaped** (many nodes, many edges). |
-| **Universality vs. representation regimes**    | One ontology must accommodate symbolic calculi, diagrams, DSLs, interactive notebooks, and latent vectors.                             |
-| **Intension vs. description vs. spec (I/D/S)** | Intensional objects (I) are not epistemes; descriptions (D) and specifications (S) are. The core must honour Strict Distinction.       |
-| **Viewpoint locality vs. reuse**               | Viewpoints should be **local** to families of descriptions, yet we want reusable **viewpoint bundles** across domains (E.17.1/E.17.2). |
-| **Slot discipline vs. usability**              | A clean `SlotKind`/`ValueKind`/`RefKind` discipline is vital for reasoning, but must not render engineering episteme unreadable.             |
-| **Stability vs. SoTA evolution**               | The core must remain stable while integrating evolving practices: LLM tool‑use, ReAct‑style loops, structured cospans, optics, etc.    |
+**CC‑A67CHR‑16 (Fail-closed pins on claimful faces).**
+If a face publishes edition pins or claims comparability/launch, it MUST also publish the required BridgeCard + UTS row anchors and the appropriate USM guard pin with `GuardOwnerGateSlot`; otherwise, it is nonconformant (fail‑closed).
 
-### C.2.1:4 - Solution — from outdated semantic triangle to `U.EpistemeSlotGraph`
+### A.19.CHR:8 - Common Anti-Patterns and How to Avoid Them
 
-#### C.2.1:4.0 - Overview
+| Anti-pattern | Why it fails | Avoid / repair |
+|---|---|---|
+| Using `MechFamilyDescription` as a suite container | Collapses “many implementations of one mechanism” into “many mechanisms”, mixing levels and breaking reuse constraints | Use `MechSuiteDescription` for multi-mechanism sets; use `MechFamilyDescription` only for multiple implementations of a single `U.Mechanism.Intension` |
+| Embedding a second CG‑Spec or CL/Φ/Φ_plane tables inside the suite or plan item | Duplicates the governing spec refs and creates drift between planning, gates, and audit | Publish refs and pins only (`CGSpecRef`, `BridgeCardRef`, policy-id pins); keep tables in their canonical registries and cite them |
+| Implicit UNM/UINDM/ULSAM “inside” score/compare/select | Breaks auditability and violates the suite protocol explicitness obligation | Make dependencies explicit as protocol steps (`Uses`) and cite the chosen mechanism instances in the planned baseline and audit pins |
+| Hidden thresholds or weights in CHR core | Moves acceptance criteria into the wrong layer, defeating the declared defaults source and traceability | Keep thresholds in AcceptanceClauses, TaskSignature, or GateProfile; if a policy is needed, mint a policy-id and cite it explicitly |
+| Scalarizing partial orders “for convenience” | Violates set-return semantics and hides incomparability | Keep comparisons set-valued via CPM and selectors set-returning; any scalar summary must be declared as report-only telemetry or as an explicit lawful comparator |
+| Treating planned baseline as a launch witness | Smuggles execution facts into planning and blurs P2W separation | Record planned slot fillings in WorkPlanning; witness `FinalizeLaunchValues` only in WorkEnactment and cite the plan item as baseline with variance traces |
+| Using `CompareGuard` / `LaunchGuard` as mechanism lexemes | Collides with reserved gate-level pins and blurs guard vs gate responsibilities | In mechanisms use `…Eligibility` / `…Admissibility`; reserve `USM.CompareGuard` and `USM.LaunchGuard` for gate-visible pins |
 
-For `U.Episteme`, the legacy semantic triangle is replaced by `U.EpistemeSlotGraph` that is a **small, typed ontology graph** and an **n-ary relation view** over the core episteme positions:
+### A.19.CHR:9 - Consequences
 
- **Nodes / positions / slots.**
-  Minimal **kernel SlotKinds** (with their ValueKinds) that every episteme can refer to, following A.6.5:
-  * `DescribedEntitySlot`  (ValueKind `U.Entity` or a declared subkind) → *“what this episteme is about”*;
-  * `GroundingHolonSlot`   (ValueKind `U.Holon`) → *“where/how this is grounded”*;
-  * `ClaimGraphSlot`       (ValueKind `U.ClaimGraph`) → *“what is being said (intensional content)”*;
-  * `ReferenceSchemeSlot`  (ValueKind `U.ReferenceScheme`) → *“how we read claims as statements about entities”*;
-  * `ViewpointSlot`        (ValueKind `U.Viewpoint`) → *“under which viewpoint we read/validate this episteme”*;
-  * `ViewSlot`             (ValueKind `U.View`) → *“a view‑episteme produced under a viewpoint”*.
+| Consequence | Upside | Cost / risk | Mitigation |
+|---|---|---|---|
+| One canonical CHR core anchor for Part G | Universalization becomes structurally simpler: G patterns cite one suite and specialize via `⊑/⊑⁺` or `Uses` | Up-front refactoring effort | Use the suite as a non-invasive anchor: keep existing method/generator constructs but route them through stable SlotKinds and planned baselines |
+| Explicit P2W planned baseline | Eliminates hidden slot filling and improves auditability of editions, time selectors, and crossings | Adds a planning plan item per path slice | Keep the plan item minimal (refs and pins only) and project it to views for readability when needed |
+| Tri-state guard semantics | Avoids false precision and prevents unknown from silently passing | More conservative behavior can yield larger selected sets or more abstentions | Use explicit SoS‑LOG degrade branches for probe-only exploration while preserving traceability |
+| Spec pins, not copied spec content | Reduces drift and keeps CN‑Spec/CG‑Spec as real centers of gravity | Requires discipline in authoring and review | Enforce “refs-only” at suite/plan level and use conformance items CC‑A67CHR‑3 and CC‑A67CHR‑13 to keep the surface clean |
 
-* **Slots and signatures.**
-  These positions are realised as **SlotKinds** with associated **ValueKinds** and **RefKinds** under `U.RelationSlotDiscipline` (A.6.5). An **episteme kind** (`U.EpistemeKind`) is a **signature** over these slots.
+### A.19.CHR:10 - Rationale
 
-* **Episteme as n‑ary relation and as holon.**
-  Each concrete episteme instance can be seen both as:
+This pattern deliberately fixes the CHR core as a **description object** rather than a new “meta-mechanism” so that:
 
-  * a **tuple** filling these slots (`U.EpistemeTuple`), and
-  * a **holon with components** (`U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication`) whose fields correspond to those slots.
+1. **Level separation stays clean.** The suite is a D-episteme that enumerates mechanisms and obligations; the mechanisms remain `U.Mechanism.Intension` nodes with their own SlotSpecs, laws, guards, transport and audit. This prevents a “god object” that re-implements A.6.1 inside a new container.
 
-`U.Episteme` is thus the holon type whose components are *disciplined* by the `U.EpistemeSlotGraph`; C.2.1 fixes that discipline.
+2. **Spec refs remain centralized.** CN‑Spec and CG‑Spec already define the governance card and legality gate that own comparability, normalization, indicatorization policy, and numeric legality. The suite requires those specs as pins and forbids duplicating them, making “one center of gravity” operational rather than rhetorical.
 
-* **Morphisms.**
-  Simple **epistemic morphisms** (described-entity mapping, grounding, encoding, evaluation) are expressed as ordinary relations/functions between these positions. A.6.2–A.6.4 then specify general laws for effect-free morphisms over `U.Episteme`.
+3. **P2W integration becomes explicit without turning planning into execution.** A planned-baseline `SlotFillingsPlanItem` is the minimal, reusable way to record “what will fill which slots under which CG-frame and path slice” while preserving the rule that only WorkEnactment witnesses launch values.
 
-* **Legacy triangle as didactic projection.**
-  The classic Symbol–Concept–Object triangle becomes a **didactic view** of this graph, not the normative ontology; it is simply the projection to:
+4. **Uncertainty handling is made safe by construction.** Tri-state guard decisions are a minimal guard-decision form that supports admissible abstention and degradation while keeping gate decisions and decision logs in their proper place (OperationalGate(profile)).
 
-  * `Symbol` ≈ a subset of `U.RepresentationScheme`/`U.RepresentationToken`,
-  * `Concept` ≈ `U.ClaimGraph`,
-  * `Object` ≈ `{DescribedEntity, ReferenceScheme}`.
+In short: *governing specs are cited, not copied; plans are declared, not executed; and legality is a first-class surface, not a hidden tail.*
 
-The rest of this pattern fixes the **minimal core** needed by KD‑CAL, A.6.2–A.6.4 and E.17.\*. The representational nodes (`U.RepresentationScheme`, `U.RepresentationToken`, `U.PresentationCarrier`, `U.RepresentationOperation`) are introduced as an **extension C.2.1+**, preserving the interface defined here.
+### A.19.CHR:11 - SoTA-Echoing
 
-#### C.2.1:4.1 - Minimal epistemic positions (nodes & slots)
+This pattern aligns with several post‑2015 practice lines while adapting them to FPF’s concept-first, spec-ref-pinned discipline.
 
-This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the associated **SlotKinds**. These are the positions that A.6.2–A.6.4 and E.17.* can rely on.
-
-##### C.2.1:4.1.1 - `DescribedEntitySlot` — “what this episteme is about”
-
-**Tech:** `DescribedEntitySlot` (SlotKind), `describedEntityRef : U.EntityRef` (Ref slot in tuples/cards).
-**Plain:** *described entity*, *entity‑of‑interest*, *object‑of‑talk*.
-
-**Intent.** Provide a **single, explicit slot** for the entity (or entities) that an episteme is about, avoiding the former conflation of Object/Reference/Context.
-
-**Normative definition.**
-
-1. `DescribedEntitySlot` is a **SlotKind** in the sense of A.6.5 `U.RelationSlotDiscipline`.
-
-   * Its **ValueKind** is `U.Entity`.
-   * Its **RefKind** is `U.EntityRef` (or a species thereof) and **MUST** be realised in data as a field named `describedEntityRef : U.EntityRef` (E.10 discipline).
-1. Species of `U.EpistemeKind` **MAY** constrain the ValueKind to a subtype `EoIClass ⊑ U.Entity` (for example, “EoI is always a `U.Holon` and, more specifically, a `U.System` or `U.Episteme`”). The subtype **MUST NOT** be named `U.DescribedEntity`; “described entity” remains a **role name**, not a kernel type.
-2. Wherever episteme previously used `U.EpistemicObject` as a separate type, it is re‑interpreted as **“`U.Entity` in the role of filling `DescribedEntitySlot`”** and is marked as **legacy alias** in LEX‑BUNDLE.
-
-**Didactic cue.**
-“Ask: *What, exactly, is this description about?* That is the DescribedEntity.”
-
-##### C.2.1:4.1.2 - `GroundingHolonSlot` — “where / in what holon this is grounded”
-
-**Tech:** `GroundingHolonSlot` (SlotKind), `groundingHolonRef : U.HolonRef?`.
-**Plain:** *grounding holon*, *holon‑of‑grounding*, *engagement context*.
-
-**Intent.** Capture the **material–social holon** (system, lab, infrastructure, organisation, runtime environment) with respect to which an episteme’s claims are **tested, calibrated or validated**.
-
-**Normative definition.**
-
-1. `GroundingHolonSlot` is a **SlotKind** with:
-
-   * **ValueKind** `U.Holon`,
-   * **RefKind** `U.HolonRef` (or a species thereof),
-   * and recommended field name `groundingHolonRef? : U.HolonRef` in episteme cards/views.
-2. `GroundingHolonSlot` is **optional** at the minimal core: an episteme may be **un‑grounded** at M‑mode (e.g., purely mathematical), but any episteme used for **empirical evaluation or assurance** under KD‑CAL **SHALL** either:
-
-   * populate `groundingHolonRef`, or
-   * declare explicitly that no such grounding is possible (e.g., counterfactuals, abstract logics), with consequences reflected in KD‑CAL `R`.
-3. The phrase *“grounding holon”* is **plain‑register**; there is no kernel type `U.GroundingHolon`. It always means “the holon currently filling `GroundingHolonSlot` for this episteme.”
-
-**Didactic cue.**
-“Ask: *In which lab/organisation/world‑slice do we test or observe this?* That is the GroundingHolon.”
-
-##### C.2.1:4.1.3 - `U.ClaimGraph` and `ClaimGraphSlot` — intensional content
-
-**Tech:** `U.ClaimGraph` (kernel type), `ClaimGraphSlot` (SlotKind).
-**Plain:** *claim graph*, *intensional content*.
-
-**Intent.** Reuse the existing KD‑CAL notion of **ClaimGraph** as the episteme’s **intensional body**, but make its role as a **slot value** explicit.
-
-**Normative definition.**
-
-1. `U.ClaimGraph` is the **ValueKind** for `ClaimGraphSlot`:
-
-   * nodes: typed claims (definitions, axioms, theorems, requirements, properties, assumptions);
-   * edges: logical/derivational/refinement relations, as already defined in C.2.
-2. `ClaimGraphSlot` is a **SlotKind** whose instances are always **stored by value** in core patterns:
-
-   * `content : U.ClaimGraph` is the normative field in `U.EpistemeCard` / `U.EpistemeView`;
-   * C.2.1 **MUST NOT** introduce `U.ClaimGraphRef` as a ValueKind. Any reference type for ClaimGraphs, if needed, is a **RefKind** defined by discipline packs on top of `U.ClaimGraph`.
-3. `ClaimGraphSlot` is **mandatory**: every `U.EpistemeKind` that uses C.2.1 **SHALL** have exactly one `ClaimGraphSlot`.
-
-**Didactic cue.**
-“Ask: *What is actually being claimed, defined, required, proved?* That is the ClaimGraph.”
-
-##### C.2.1:4.1.4 - `U.Viewpoint` and `ViewpointSlot` — perspective of concerns and validators
-
-**Tech:** `U.Viewpoint` (kernel type), `ViewpointSlot` (SlotKind), `viewpointRef : U.ViewpointRef?`.
-**Plain:** *viewpoint*, *perspective*, *stakeholder perspective*.
-
-**Intent.** Provide a **first‑class home** for ISO‑style viewpoints and their generalisations, as used by E.17.0 `U.MultiViewDescribing`, MVPK, and TEVB.
-
-**Normative definition.**
-
-1. `U.Viewpoint` is the type of **intensional viewpoint specifications**:
-
-   * families of **RoleEnactors/stakeholder groups** the viewpoint speaks for,
-   * their **concerns**,
-   * allowed **kinds of descriptions/specifications**,
-   * and **conformance rules** for views under this viewpoint.
-     (The internal structure of `U.Viewpoint` is fixed in E.17.0, not here.)
-2. `ViewpointSlot` is a **SlotKind** with:
-
-   * **ValueKind** `U.Viewpoint`,
-   * **RefKind** `U.ViewpointRef`,
-   * normative field name `viewpointRef? : U.ViewpointRef` on episteme cards/views.
-3. For **I/D/S descriptions/specs** (E.10.D2), `viewpointRef` is a **mandatory part of `DescriptionContext`**; C.2.1 treats that as a **species‑level constraint**, not as a universal requirement for all epistemes.
-4. `ViewpointSlot` may be unset in purely internal, pre‑viewpoint epistemes (e.g., raw formal developments), but any episteme that participates in **MultiViewDescribing** (E.17.0) **MUST** set it or be deterministically associated to it via a `ViewpointBundle`.
-
-**Didactic cue.**
-“Ask: *Who is this for, and what do they need to see to accept it?* That is the Viewpoint.”
-
-##### C.2.1:4.1.5 - `U.EpistemeView` / `U.View` and `ViewSlot` — episteme‑level views
-
-**Tech:** `U.EpistemeView` (kernel species of `U.Episteme`), alias `U.View`; `ViewSlot` (SlotKind); `viewRef : U.ViewRef`.
-**Plain:** *view*, *epistemic view*.
-
-**Intent.** Distinguish **view‑epistemes** (views **of** descriptions/specifications) from both:
-
-* the underlying descriptions/specifications themselves, and
-* the **PublicationSurface** carriers on which they are rendered (E.17, L‑SURF).
-
-**Normative definition.**
-
-1. `U.EpistemeView` is a **species of `U.Episteme`** whose episteme kind includes, at minimum:
-
-   * one `ClaimGraphSlot` (typically a **sliced or projected ClaimGraph**),
-   * one `DescribedEntitySlot`,
-   * one `ViewpointSlot`,
-   * and appropriate `ReferenceSchemeSlot`.
-2. `U.View` is an **alias** for `U.EpistemeView` in E‑cluster patterns (especially E.17.\*), used where the word “view” is conventional.
-3. `ViewSlot` is a **SlotKind** whose:
-
-   * **ValueKind** is `U.View`,
-   * **RefKind** is `U.ViewRef` (or `U.EpistemeViewRef` species),
-   * intended usage is **in meta‑structures** such as `U.MultiViewDescribing` families and MVPK.
-4. `ViewSlot` **MUST NOT** be confused with carrier slots: Surfaces and faces are **not** values of `ViewSlot`; they are `U.Surface` artefacts in L‑SURF, related to views by MVPK.
-
-**Didactic cue.**
-“Ask: *Which particular slice of the description under this viewpoint are we talking about?* That is the View.”
-
-##### C.2.1:4.1.6 - `U.ReferenceScheme` and `ReferenceSchemeSlot` — reading ClaimGraph as claims about entities
-
-**Tech:** `U.ReferenceScheme` (kernel type), `ReferenceSchemeSlot` (SlotKind); `referenceScheme? : U.ReferenceScheme`.
-**Plain:** *reference scheme*, *interpretation scheme*, *description scheme*.
-
-**Intent.** Separate **what is being said** (ClaimGraph) from **how claims are read as statements about entities and contexts** (designation, measurement, evaluation envelopes), without reifying the referents themselves as a vertex.
-
-**Normative definition.**
-
-1. `U.ReferenceScheme` is a **component type of epistemes**, not an external object:
-
-   * it determines how nodes of `U.ClaimGraph` are mapped to **properties/relations** over values of `DescribedEntitySlot`,
-   * it specifies **measurement/evaluation templates** (how to test claims on `GroundingHolon`),
-   * it fixes **claim scope envelopes** over characteristic spaces.
-2. `ReferenceSchemeSlot` is a **SlotKind** with:
-
-   * **ValueKind** `U.ReferenceScheme`,
-   * **no RefKind in the minimal core** (ReferenceSchemes are stored by value as `referenceScheme? : U.ReferenceScheme` fields on episteme cards/views).
-     Discipline packs **may** introduce `U.ReferenceSchemeRef` as a **RefKind**, but **must not** repurpose it as a new ValueKind.
-3. `ReferenceScheme` is the place where the legacy “Object‑vertex” semantics now live:
-
-   * it does **not** “contain” the real‑world object,
-   * it hosts the **rules** that tie claims to entities and groundings.
-
-**Didactic cue.**
-“Ask: *Given this ClaimGraph, how exactly do we treat it as talking about these entities in these contexts, and how do we test it?* That is the ReferenceScheme.”
-
-##### C.2.1:4.1.7 - Minimal node set and extension C.2.1+
-
-The **minimal `U.EpistemeSlotGraph` core** for C.2.1 consists of positions (the episteme core SlotKinds of A.6.5 CC‑A.6.5‑5):
-* `DescribedEntitySlot` (ValueKind `U.Entity`),
-* `GroundingHolonSlot` (ValueKind `U.Holon`),
-* `ClaimGraphSlot` (ValueKind `U.ClaimGraph`),
-* `ViewpointSlot` (ValueKind `U.Viewpoint`),
-* `ViewSlot` (ValueKind `U.View`),
-* `ReferenceSchemeSlot` (ValueKind `U.ReferenceScheme`).
-
-This pattern **only fixes these positions**.
-The **extension C.2.1+** (second step of the refactor) adds:
-* `U.RepresentationScheme` and `RepresentationSchemeSlot`,
-* `U.RepresentationToken` and `RepresentationTokenSlot`,
-* `U.PresentationCarrier` and `PresentationCarrierSlot`,
-* `U.RepresentationOperation` and `RepresentationOperationSlot` (with inference regime annotations),
-
-without changing:
-* the definition of `U.EpistemeKind`,
-* the minimal `U.EpistemeCard` interface,
-* or the assumptions A.6.2–A.6.4 / E.17.* make about episteme components.
-
-In C.2.1+ carriers remain **structural publication artefacts**, not semantic parts of the episteme:
-`U.PresentationCarrier` values are linked to `U.Episteme` / `U.View` via MVPK / L‑SURF relations (e.g. `isCarriedBy` / faces) and **MUST NOT** be counted as components when reasoning about episteme identity, DescribedEntity/grounding, or KD‑CAL morphisms. Changing carriers or surfaces alone **never** changes the `U.Episteme` instance determined by C.2.1; it only produces new `U.Work` / publication events.
-
-##### C.2.1:4.1.8 - Attached epistemic structures (non-slot components)
-
-`U.EpistemeSlotGraph` deliberately does **not** reify every epistemic artefact as a node. Several key structures remain **attached, non-slot components** of `U.Episteme`:
-* **`JustificationGraph`** — the argument/evidence graph for nodes of `U.ClaimGraph` (A.10/B.3).
-* **`EvidenceBindings`** — per-claim `U.EvidenceRole` assignments that connect claims to external `U.Work` and carriers.
-* **`EditionSeries`** — the `PhaseOf` chain of episteme editions (A.14) with change-class annotations (symbol-only vs ClaimGraph vs ReferenceScheme changes).
-* **`ScopeCard` / `U.ClaimScope`** — USM scope objects (A.2.6) describing where the episteme’s claims hold.
-
-These attached structures are **not extra positions** of `U.EpistemeSlotGraph`; they hang off the `U.ClaimGraph`/`U.ReferenceScheme` pair and are governed by KD-CAL (C.2), A.10 and B.3. C.2.1 only requires that an episteme which participates in KD-CAL exposes them in a way that keeps **ClaimGraph / ReferenceScheme / Evidence / EditionSeries / `ClaimScope`** clearly distinguishable.
-
-#### C.2.1:4.2 - Episteme as n‑ary relation and as holon
-
-To prevent confusion between **objects‑of‑talk**, their **descriptions**, and the **places they occupy in an episteme**, C.2.1 explicitly treats epistemes both as:
-
-1. **n‑ary relations with a signature** (slots & values), and
-2. **holons with components** (fields & parts).
-
-##### C.2.1:4.2.1 - `U.EpistemeKind` — episteme as a typed n‑ary relation
-
-**Tech:** `U.EpistemeKind` (kernel type).
-
-**Intent.** Provide a **signature‑level** description of an episteme as an n‑ary relation whose arguments are governed by `SlotKind`/`ValueKind`/`RefKind` triples per A.6.5.
-
-**Normative definition.**
-
-1. Every episteme that participates in KD‑CAL **belongs to some `U.EpistemeKind`**.
-   The kind determines:
-
-   * which **SlotKinds** appear (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`, …),
-   * the **ValueKind** for each slot (always a subtype of `U.Type`),
-   * the **RefKind** used to store it in episteme (when applicable).
-1. `U.EpistemeKind` is a **special case** of `U.Signature` (A.6.0), with its slots governed by `U.RelationSlotDiscipline` (A.6.5). C.2.1 **MUST NOT** define an alternative slot discipline.
-2. For the minimal core, every `U.EpistemeKind` **MUST** include:
-   * exactly one `ClaimGraphSlot`,
-   * at least one `DescribedEntitySlot`,
-   * and at least one `ReferenceSchemeSlot`.
-     Inclusion of `GroundingHolonSlot`, `ViewpointSlot`, `ViewSlot` **MAY** be species‑level constraints (mandatory for D/S‑epistemes, optional for others).
-
-**Didactic cue.**
-“An `EpistemeKind` is the *type* of episteme: which positions it has and what can go into them.”
-
-##### C.2.1:4.2.2 - `U.EpistemeTuple` — episteme as filled n‑ary relation
-
-**Tech:** `U.EpistemeTuple` (kernel species).
-
-**Intent.** Model **filled instances** of an episteme’s signature, separating the n‑ary relation from any particular holonic packaging or publication.
-
-**Normative definition.**
-
-1. `U.EpistemeTuple` is a species whose instances are **pure value tuples**:
-   * for each SlotKind in the associated `U.EpistemeKind`, a value of the slot’s **ValueKind** (or a reference value of **RefKind**, if the kind is configured as such).
-2. `U.EpistemeTuple` is **notation‑agnostic** and **carrier‑agnostic**: it does not know about files, formats, or surfaces.
-   It exists to give A.6.2–A.6.4 a minimal notion of “episteme as a point in Ep”.
-3. In episteme, `U.EpistemeTuple` rarely appears directly; it is typically **induced** by `U.EpistemeCard` and `U.EpistemeView` (which add component structure and meta‑information).
-
-**Didactic cue.**
-“An `EpistemeTuple` is the abstract record of *what fills which slots* — nothing more.”
-
-##### C.2.1:4.2.3 - `U.EpistemeCard`, `U.EpistemePublication`, `U.EpistemeView` — holonic realisations
-
-**Tech:** `U.EpistemeCard`, `U.EpistemePublication`, `U.EpistemeView` (species of `U.Episteme`).
-
-**Intent.** Provide **holon‑level structures** that engineers can work with (components, mereology, provenance), while keeping them aligned with `U.EpistemeKind` and `U.EpistemeTuple`.
-
-**Normative definition.**
-
+| Practice line (post‑2015) | Primary source | What is adopted here | Adoption status |
+|---|---|---|---|
+| Architecture description standards emphasize explicit viewpoints, explicit views, and view consistency rules. | ISO/IEC/IEEE 42010:2022 | “Views are projections of existing content” is mirrored by MVPK faces that do not add meaning beyond the underlying episteme. | **Adopt/Adapt:** adopt the viewpoint discipline; adapt terminology to FPF’s `U.View` projections. |
+| Selective classification work formalizes abstention/deferral under uncertainty as a first-class outcome. | Geifman & El‑Yaniv (SelectiveNet, 2019) | A first-class “abstain/defer” outcome is mirrored by tri-state `GuardDecision` where unknown does not coerce to pass. | **Adapt:** integrate abstention into guard outputs while keeping gate decisions/logs gate-only (SoS‑LOG for degrade branches). |
