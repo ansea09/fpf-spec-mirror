@@ -1,0 +1,83 @@
+---
+chunk_kind: "child"
+pattern_id: "C.29"
+pattern_title: "Mathematical Lens Adequacy (MLA)"
+section_id: "C.29:14"
+section_title: "Informative taxonomy seed"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.29/C.29__018_informative-taxonomy-seed.md"
+commit_sha: "LOCAL_TEST"
+heading_path:
+  - "C.29 — Mathematical Lens Adequacy (MLA)"
+  - "C.29:14 — Informative taxonomy seed"
+line_start: 48359
+line_end: 48378
+dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.4"
+  - "A.19"
+  - "A.3.3"
+  - "A.6.3.CSC"
+  - "A.6.3.RT"
+  - "A.6.P"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.18.1"
+  - "C.19.1"
+  - "C.26"
+  - "C.27"
+  - "C.28"
+  - "C.29"
+  - "E.10"
+  - "E.10.SEMIO"
+  - "E.17.EFP"
+  - "E.17.ID.CR"
+  - "E.19"
+  - "E.8"
+  - "E.9"
+  - "F.9"
+  - "G.10"
+  - "G.2"
+  - "G.5"
+  - "G.9"
+keywords:
+  - "LensSupportPosture"
+  - "coarse-graining"
+  - "invariants"
+  - "learned lens"
+  - "lens mapping mode"
+  - "lost structure"
+  - "mathematical lens"
+  - "ontology smuggling"
+  - "preserved structure"
+  - "rival lens"
+  - "scale window"
+  - "stop condition"
+  - "structure-preserving representation"
+  - "validation posture"
+---
+
+### C.29:14 - Informative taxonomy seed
+
+Use this recognition menu only to identify a possible lens family and likely neighboring-pattern exits. After selecting a row, state the local C.29 fields that make the lens adequate or stop the use.
+
+| Lens family | What it catches | FPF use | Common stop condition | Likely neighboring patterns |
+|---|---|---|---|---|
+| **Boundary / Stokes / cohomology** | Boundary operators, exterior-derivative or divergence-like local-to-global relations, flows, closed/exact splits, and topological obstructions. | Use when local rules, interfaces, flows, or balances must be related to a global claim or blocked global extension. | Does not license all boundary phenomena as the same physical mechanism; evidence, measurement, and bridges remain neighboring work. | `F.9`, `A.19`, `C.16`, `A.10` |
+| **Obstruction-first / failed-transfer lens** | Impossibility, incompatibility, failed composition, blocked transfer, missing invariant, or diagnostic boundary. | Use when the useful mathematical result marks where a transfer, comparison, model, or simplification stops. | Does not make the rival claim true or the failure cause known without neighboring support. | `F.9`, `A.6.P`, `A.10`, `E.19` |
+| **Symmetry / invariance / equivariance / Noether** | Group actions, invariants, equivariant representations, conservation-like constraints, and geometric-deep-learning regularities. | If the problem depends on sameness under transformations or a conservation-like claim, ask which transformations are admissible, what remains invariant, and which distinctions are lost. | Does not transfer physical conservation law, causal mechanism, or coordinate-free truth without domain evidence. | `A.10`, `C.16`, `A.19`, domain pattern |
+| **Variational / action / optimization / Legendre** | Action, energy, free-energy, loss, value, entropy, or resource functionals; stationarity, extrema, dual variables, potentials, and Legendre or convex duality. | Use when the useful lens is an extremal condition, admissible variation space, boundary condition, dual view, or trade-off. | Does not imply the target literally optimizes unless dynamics and evidence support it. | `A.3.3`, `C.28`, `A.10` |
+| **Diagonal / self-reference / no-go** | Self-application, universal evaluators, closure limits, diagonal constructions, and impossibility boundaries. | Use when the payoff is to block a tempting universal claim or expose a closure boundary. | Does not prove every recursive-looking case is a diagonal or no-go case. | `B.3`, `E.19`, local domain pattern |
+| **RG / coarse-graining / fixed point / universality** | Why different micromodels yield one macropattern; fixed points, basins, scale windows, universality classes, or stable-law-like alternatives. | Use for scale transitions, abstraction, domain compression, and macropattern claims that require a declared scale variable and coarse-graining rule. | Does not assert micro-mechanism identity or universal validity outside `ScaleWindow`. | `C.18.1`, `C.19.1`, `A.3.3` |
+| **Category / compositionality / optics / semiring-limit** | Composition, interfaces, views, transformations, algebraic laws, limit transforms, and cases where changing algebra changes what is preserved. | Multi-view architecture, bridges, system composition, and classical/tropical or Fourier-Laplace/Legendre-style transform cues. | Does not imply all target objects are categories or that every functor-like transfer preserves the needed structure. | `F.9`, `A.6.P`, `A.19` |
+| **Information geometry / learning dynamics** | Update, curvature, optimization trajectory. | Adaptive systems, learning agents, epistemic dynamics. | Does not license “everything is learning” ontology. | `A.3.3`, `A.10`, `C.28` |
+| **Optimal transport / distribution geometry** | Transport plans, Wasserstein-like geometry, couplings, costed movement between distributions, populations, shapes, or allocations. | Use when the question is how one distribution, population, shape, or allocation can move toward another under declared costs and losses. | Does not license causality, fairness, mechanism, or policy effect by itself. | `C.16`, `A.10`, `C.28`, `D.5` |
+| **Operator learning / SciML / latent representations** | Learned function-to-function operators, neural operators, surrogate solvers, embeddings, and world-model representations. | Use when the first useful lens is an operator over functions, states, or fields; name the observation map, training or simulation regime, validation slice, and generalization boundary. | Does not license out-of-domain solver replacement, causal mechanism, or unobserved state truth without validation and neighboring support. | `A.10`, `C.16`, `A.3.3`, `C.28` |
+| **Koopman / operator-theoretic dynamics** | Observables or coordinates where nonlinear dynamics can be represented by an operator, often approximately linear. | Use when nonlinear dynamics need a tractable forecast, control, or diagnostic representation; name the observable/readout and the forecast or control use being tested. | Does not prove a real linear mechanism or temporal-use adequacy; dynamics semantics, evidence, and temporal claims stay with `A.3.3`, `A.10`, and `C.27`. | `A.3.3`, `A.10`, `C.27` |
+| **Causal representation / causal abstraction** | Causal graphs, SCMs, causal representation learning, micro/macro mappings, quotient models, and intervention-preservation questions. | If the user asks what to change to get an effect, test causal graph, SCM, or causal abstraction as the candidate lens, not correlation graph or latent manifold by default. | `C.29` can state lens adequacy only; causal-use support, intervention claims, and counterfactual reliance stay with `C.28`. | `C.28`, `A.10`, `A.3.3` |
+| **Quantum-like / contextual probability** | Probe effects, incompatible frames, order effects. | Dashboards, workshops, surveys, measurement-as-intervention. | Quantum-like is not physical quantum unless separate physics evidence is supplied. | `C.26`, `C.16`, `F.9` |
+

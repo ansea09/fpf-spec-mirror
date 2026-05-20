@@ -1,0 +1,57 @@
+---
+chunk_kind: "child"
+pattern_id: "G.5"
+pattern_title: "Multi‑Method Dispatcher & MethodFamily Registry"
+section_id: "G.5:3"
+section_title: "Forces"
+source_path: "FPF-Spec.md"
+output_path: "by_section/G.5/G.5__009_forces.md"
+commit_sha: "LOCAL_TEST"
+heading_path:
+  - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
+  - "G.5:3 — Forces"
+line_start: 70134
+line_end: 70141
+dependencies:
+  - "C.11"
+  - "C.18"
+  - "C.19"
+  - "C.23"
+  - "C.24"
+  - "G.0"
+  - "G.2"
+  - "G.2-G.4"
+  - "G.5"
+  - "G.6"
+  - "G.9-G.11"
+  - "G.Core"
+keywords:
+  - "RankedShortlist"
+  - "SelectorOutcomeKind"
+  - "Shortlist"
+  - "ShortlistId"
+  - "SpecialistHandoff"
+  - "abstain/escalation result"
+  - "are forbidden in registry"
+  - "assurance"
+  - "basis pins"
+  - "dispatcher"
+  - "eligibility"
+  - "generator-family registry"
+  - "in core registry/eligibility fields"
+  - "method-family registry"
+  - "no hidden scalar winner"
+  - "or selector‑kernel obligations (E.5.*)"
+  - "selected-set publication"
+  - "set-surface outcome"
+  - "tool choices are outside the core"
+---
+
+### G.5:3 - Forces
+
+* **Pluralism vs. forced totalisation.** Many selection regimes are inherently partial‑order; forcing a scalar winner often creates illegal semantics.
+* **Evidence realism vs. hard gates.** Eligibility/acceptance frequently depends on incomplete evidence; selection must remain auditable under tri‑state unknowns.
+* **Reuse vs. leakage.** Cross‑Context reuse is valuable but must be explicit (Bridge + loss notes) and must not silently re‑ground semantics.
+* **Exploration vs. exploitation.** Dispatch sometimes must probe alternatives under explicit policy/risk envelopes, but probing must not become an implicit fourth status.
+* **Evolvability vs. churn.** Registries evolve (new families, deprecations, edition bumps); continuity must not be broken by “rename by meaning”.
+

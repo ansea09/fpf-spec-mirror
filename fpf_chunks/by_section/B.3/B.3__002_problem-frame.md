@@ -1,0 +1,78 @@
+---
+chunk_kind: "child"
+pattern_id: "B.3"
+pattern_title: "Trust & Assurance Calculus (F–G–R with Congruence)"
+section_id: "B.3:1"
+section_title: "Problem frame"
+source_path: "FPF-Spec.md"
+output_path: "by_section/B.3/B.3__002_problem-frame.md"
+commit_sha: "LOCAL_TEST"
+heading_path:
+  - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
+  - "B.3:1 — Problem frame"
+line_start: 30447
+line_end: 30466
+dependencies:
+  - "A.10"
+  - "A.12"
+  - "A.14"
+  - "A.15"
+  - "A.15.1"
+  - "A.20"
+  - "A.21"
+  - "A.6"
+  - "B.1"
+  - "B.1.1"
+  - "B.1.2"
+  - "B.1.3"
+  - "B.1.4"
+  - "B.3"
+  - "B.3.5"
+  - "B.3.x"
+  - "B.4"
+  - "C.13"
+  - "C.16"
+  - "C.26"
+  - "C.26.1"
+  - "C.26.2"
+  - "C.26.3"
+  - "C.28"
+  - "D.4"
+  - "E.14"
+  - "E.17.EFP"
+  - "F.9"
+keywords:
+  - "F-G-R"
+  - "assurance"
+  - "authority-looking labels"
+  - "claim-support posture"
+  - "congruence"
+  - "dashboard tiles"
+  - "evidence"
+  - "formality"
+  - "probe/distributed/export/causal assurance"
+  - "reliability"
+  - "scope"
+  - "trust"
+---
+
+### B.3:1 - Problem frame
+
+Every non‑trivial result in FPF—*a composed system is safe*, *a model is credible*, *a conclusion holds*—is a **claim** that rests on **composed evidence**.
+
+* For **U.System** holons (Γ\_sys), assurance is about *capabilities and constraints* under stated conditions.
+* For **U.Episteme** holons (Γ\_epist), assurance is about the *quality of support* for a statement or model.
+
+To make such claims comparable and auditable across domains, B.3 introduces a **Trust & Assurance Calculus** that:
+
+* uses a **small typed assurance tuple** (**F–G–R**: **F/R** characteristics plus **G** as scope object) governed by conservative propagation rules (this is **not** a state space),
+* accounts for **integration quality** via **Congruence Level (CL)** along the edges of a `DependencyGraph` (B.1.1, A.14),
+* and composes these values with **Γ‑flavours** while respecting the **Invariant Quintet** (IDEM, COMM/LOC or their replacements, WLNK, MONO).
+
+B.3 is **conceptual and normative**: it defines *which assurance components must be published and how they propagate*. How you improve those components (e.g., formalize, replicate, reconcile, or admissibly widen/narrow scope) is the job of KD‑CAL actions (the knowledge‑dynamics patterns; references are descriptive, not required to read here).
+
+**Mechanism linkage.** For law‑governed operation families (e.g., **USM/UNM**) authored as **mechanisms**, use A.6.1 — U.Mechanism to publish **OperationAlgebra/LawSet/AdmissibilityConditions** and the **Transport** clause (Bridge‑only, CL/CL^k/CL^plane). All such penalties **reduce `R/R_eff` only**; **F/G** remain invariant.
+
+**Working‑Model handshake (alignment with E.14 - B.3.5 - C.13).**
+Assurance consumes two inputs declared in the **Working‑Model** assertion layer (CT2R‑LOG, B.3.5): the **justification stance** `validationMode ∈ {postulate, inferential, axiomatic}` and, where present, the **grounding link** `tv:groundedBy`. Structural claims that aspire to the strongest guarantees rely on **Constructive** grounding as a **Γₘ** (Compose‑CAL) narrative referenced via `tv:groundedBy`. No assurance record or publication **defines** Working‑Model wording or layout (downward‑only dependence, E.14).
+

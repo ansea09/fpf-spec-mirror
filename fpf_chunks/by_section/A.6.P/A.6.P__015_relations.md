@@ -1,0 +1,78 @@
+---
+chunk_kind: "child"
+pattern_id: "A.6.P"
+pattern_title: "U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+section_id: "A.6.P:12"
+section_title: "Relations"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.6.P/A.6.P__015_relations.md"
+commit_sha: "LOCAL_TEST"
+heading_path:
+  - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+  - "A.6.P:12 — Relations"
+line_start: 12717
+line_end: 12740
+dependencies:
+  - "A.10"
+  - "A.2.4"
+  - "A.2.6"
+  - "A.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.6"
+  - "A.6.8"
+  - "A.6.9"
+  - "A.6.A"
+  - "A.6.B"
+  - "A.6.H"
+  - "A.6.Q"
+  - "A.6.S"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2a"
+  - "C.26"
+  - "C.3.3"
+  - "E.10"
+  - "E.17"
+  - "E.8"
+  - "F.17"
+  - "F.18"
+  - "F.9"
+keywords:
+  - "QualifiedRelationRecord"
+  - "RelationKind"
+  - "coupling"
+  - "endpoint referential compression"
+  - "export"
+  - "language-state seam"
+  - "lexical guardrails"
+  - "measurement"
+  - "probe"
+  - "relation precision restoration"
+  - "under-specified relational language"
+---
+
+### A.6.P:12 — Relations
+
+**Specialised by**
+
+* **A.6.5 `U.RelationSlotDiscipline`** — slot precision restoration for n‑ary relations.
+* **A.6.6 `U.BaseDeclarationDiscipline`** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags).
+* **A.6.8 (RPR‑SERV)** — service polysemy unpacking as a relation/facet precision restoration discipline (serviceSituation lens + canonical rewrites + service‑specific tests and change narration).
+* **A.6.9 (RPR‑XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align / map” via explicit Bridges
+* **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole/part/integrity/complete”) into boundary, typed parthood, explicit Γ selection, order/time routing, and A.15 completeness/coverage claims.
+
+**Coordinates with**
+
+* **A.6.S `U.SignatureEngineeringPair`** — RPR rewrite operations can be packaged as a ConstructorSignature for engineered relation families; must preserve canonical verb mapping and effect‑free constructor semantics.
+* **A.19 `U.CharacteristicSpace` + `A.19.SUPPORT-VIEW`** — for declared characteristic spaces, guarded role references, and support-view and atlas-view discipline when one relation repair needs those layers explicit.
+* **G.2** — for palette, front, archive, or tradition-atlas specialization when the repaired passage is SoTA-harvest or synthesis prose.
+* **F.18** — when the remaining issue is naming-side choice among candidate labels rather than relation typing or publication-lane repair.
+* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0 + C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** - relation publication enters only after admissible language-state chart positioning, articulation, and closure support exist; earlier cue-pack material stays on the language-state seam, prompt-shaped continuations stay with `B.5.2.0`, retreat/reopen moves remain governed by `A.16.2`, and `A.16.0` is used only when lineage, branch, loss, or handoff history must itself be published.
+
+**Intended future A.6.x specialisations (illustrative)**
+
+* Cross‑Context equivalence / “sameness” discipline (Bridge + loss notes families)
+* Correspondence/consistency + repair discipline (sync/alignment families)
+* Transfer/hand‑off discipline (multi‑party “give/assign/accountability” families)
+

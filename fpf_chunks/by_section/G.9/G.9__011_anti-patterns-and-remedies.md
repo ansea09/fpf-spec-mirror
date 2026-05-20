@@ -1,0 +1,56 @@
+---
+chunk_kind: "child"
+pattern_id: "G.9"
+pattern_title: "Parity / Benchmark Harness"
+section_id: "G.9:7"
+section_title: "Anti‑patterns and remedies"
+source_path: "FPF-Spec.md"
+output_path: "by_section/G.9/G.9__011_anti-patterns-and-remedies.md"
+commit_sha: "LOCAL_TEST"
+heading_path:
+  - "G.9 — Parity / Benchmark Harness"
+  - "G.9:7 — Anti‑patterns and remedies"
+line_start: 72387
+line_end: 72396
+dependencies:
+  - "A.19"
+  - "A.21"
+  - "C.18"
+  - "C.19"
+  - "C.21"
+  - "C.22.1"
+  - "C.23"
+  - "C.27"
+  - "C.28"
+  - "E.10"
+  - "E.17"
+  - "E.18"
+  - "E.5.2"
+  - "F.15"
+  - "F.17"
+  - "F.9"
+  - "G.0"
+  - "G.4"
+  - "G.5"
+  - "G.6"
+  - "G.7"
+  - "G.Core"
+keywords:
+  - "adaptation parity"
+  - "benchmark plan"
+  - "comparator pins"
+  - "freshness windows"
+  - "parity harness"
+  - "selected-set outcomes"
+---
+
+### G.9:7 — Anti‑patterns and remedies
+
+* **AP‑1 Hidden edition drift.** Remedy: require edition pins in `ParityPinSet`; treat changes as RSCR‑relevant via canonical trigger kinds.
+* **AP‑2 Baseline set is informal prose.** Remedy: require `BaselineBindingRef` and EvidenceTrace pins.
+* **AP‑3 Comparator semantics are “whatever the code did”.** Remedy: `ComparatorSpecRef.edition` (and any normalization/comparability refs) must be cited and pinned.
+* **AP‑4 Cross‑Context reuse without visible crossing pins.** Remedy: cite Bridge/reference-plane records and crossing visibility records (delegated to G.Core).
+* **AP‑5 Parity report becomes a hidden scoring sheet.** Remedy: preserve CSLC-admissible outcome shape and keep telemetry as telemetry unless explicitly policy‑promoted by the governing policy pattern.
+* **AP‑6 “Metric” as a primitive in Tech.** Remedy: use `DHCMethodRef`/`U.Measure`/`DistanceDefRef` with editions; “metric” may appear only in Plain with an explicit pointer to canonical terms.
+* **AP‑7 Hidden spec drift (spec edition pins missing).** Remedy: pin `DHCMethodSpecRef.edition` and register RSCR tests that fail on spec edition changes; refuse parity reuse on unpinned spec editions.
+

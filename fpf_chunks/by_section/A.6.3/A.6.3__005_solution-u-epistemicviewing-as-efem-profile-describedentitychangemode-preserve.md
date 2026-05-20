@@ -1,0 +1,253 @@
+---
+chunk_kind: "child"
+pattern_id: "A.6.3"
+pattern_title: "U.EpistemicViewing — describedEntity‑preserving morphism"
+section_id: "A.6.3:4"
+section_title: "Solution — U.EpistemicViewing as EFEM profile (describedEntityChangeMode = preserve)"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.6.3/A.6.3__005_solution-u-epistemicviewing-as-efem-profile-describedentitychangemode-preserve.md"
+commit_sha: "LOCAL_TEST"
+heading_path:
+  - "A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism"
+  - "A.6.3:4 — Solution — U.EpistemicViewing as EFEM profile (describedEntityChangeMode = preserve)"
+line_start: 9842
+line_end: 10046
+dependencies:
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.5"
+  - "A.7"
+  - "B.5.3"
+  - "C.2"
+  - "C.2.1"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.1"
+  - "E.17.2"
+  - "E.18"
+  - "E.TGA"
+  - "U.EffectFreeEpistemicMorphing"
+  - "U.EpistemeSlotGraph"
+  - "U.MultiViewDescribing"
+  - "U.RelationSlotDiscipline"
+  - "U.Signature"
+keywords:
+  - "ClaimGraph"
+  - "CorrespondenceModel"
+  - "Direct vs Correspondence Viewing"
+  - "EpistemicViewing"
+  - "RepresentationScheme"
+  - "Viewpoint"
+  - "describedEntity preservation"
+  - "displayed fibration"
+  - "episteme"
+  - "optics"
+  - "view"
+---
+
+### A.6.3:4 - Solution — `U.EpistemicViewing` as EFEM profile (`describedEntityChangeMode = preserve`)
+
+#### A.6.3:4.1 - Informal definition
+
+> **Definition (informal).**
+> `U.EpistemicViewing` is the **describedEntity‑preserving species** of `U.EffectFreeEpistemicMorphing`.
+> A `U.EpistemicViewing v : X→Y`:
+>
+> * takes an input episteme `X` and produces an output episteme `Y`,
+> * preserves the occupant of `DescribedEntitySlot` (`describedEntityRef(Y) = describedEntityRef(X)`),
+> * may refine or re‑express `content : U.ClaimGraph`, `viewpointRef`, `representationSchemeRef`, and `referenceScheme`,
+> * is **effect‑free and conservative** (no new intensional claims about the same described entity),
+> * and composes functorially with other epistemic viewings.
+
+In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the episteme slot graph**: it focuses on some SlotKinds (typically `ClaimGraphSlot`, `ViewpointSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`) while preserving `DescribedEntitySlot` (and usually `GroundingHolonSlot`).
+
+#### A.6.3:4.2 - Signature (A.6.0 / A.6.5 alignment)
+
+**Signature header.**
+`U.EpistemicViewing` is a **Morphism‑kind** under A.6.0:
+
+```
+SubjectBlock
+  SubjectKind    = U.EpistemicViewing
+  BaseType       = ⟨X:U.Episteme, Y:U.Episteme⟩      // domain/codomain episteme pair
+  Quantification = SliceSet := U.ContextSliceSet;
+                   ExtentRule := admissible view morphisms
+  ResultKind     = U.Morphism                        // an instance v
+```
+
+**Vocabulary (re‑uses A.6.2).**
+* **Types.** `U.Episteme`, `U.SubjectRef`, `U.Morphism`, `U.EpistemicViewing`.
+* **Operators.**
+  * `id    : U.Morphism(X→X)`
+  * `compose(g,f) : U.Morphism(X→Z)` where `f:X→Y`, `g:Y→Z`
+  * `apply(v, x:U.Episteme) : U.Episteme`
+  * `dom(v), cod(v) : U.Episteme`
+  * `subjectRef(-) : U.SubjectRef`
+**SlotKind-specific discipline.**
+Domain and codomain epistemes are instances of some `U.Episteme` species (typically `U.EpistemeCard`, `U.EpistemeView`, or `U.EpistemePublication`) whose episteme kinds each provide SlotSpecs (A.6.5) including at least:
+  * `DescribedEntitySlot` (ValueKind `U.Entity`, RefKind `U.EntityRef`),
+  * `GroundingHolonSlot?` (ValueKind `U.Holon`, RefKind `U.HolonRef`),
+  * `ClaimGraphSlot` (ValueKind `U.ClaimGraph`, by‑value),
+  * `ViewpointSlot?` (ValueKind `U.Viewpoint`, RefKind `U.ViewpointRef`),
+  * `ReferenceSchemeSlot` (ValueKind `U.ReferenceScheme`, by‑value),
+  * and, where C.2.1+ is in use, `RepresentationSchemeSlot`, `ViewSlot` and related slots.
+
+Practical species of EpistemicViewing will very often take `X` and `Y` from the same `U.EpistemeKind`, but the pattern itself only requires that the SlotSpecs of the domain and codomain kinds be **compatible** in the sense of A.6.5, not literally identical.
+
+**Relation to EFEM.**
+* Every `U.EpistemicViewing` is an **EFEM morphism** with `describedEntityChangeMode = preserve` in the sense of A.6.2/C.2.1.
+* It **inherits** P0–P5 from A.6.2, specialised to the case where the occupant of `DescribedEntitySlot` is unchanged.
+
+#### A.6.3:4.3 - Invariants (EV-0...EV-6, over C.2.1 components)
+
+All invariants below are **in addition** to A.6.2 EFEM invariants P0-P5 and SHALL be read directly against C.2.1 components and A.6.5 SlotSpecs.
+
+**EV‑0 - Species & DescribedEntityChangeMode.**
+
+* Any morphism `v:X→Y` declared as `U.EpistemicViewing` **MUST**:
+  * be a species of `U.EffectFreeEpistemicMorphing` (A.6.2), and
+  * declare `describedEntityChangeMode(v) = preserve`.
+* Consequently:
+  * `DescribedEntitySlot` has the **same ValueKind and RefKind** in the episteme kind of `X` and `Y` (same `EoIClass ⊑ U.Entity`);
+  * `describedEntityRef(Y) = describedEntityRef(X)` **by definition** of the species.
+
+**EV‑1 - Typed domain/codomain & DescriptionContext behaviour.**
+
+For any `v:X→Y` in `U.EpistemicViewing`:
+1. `X` and `Y` are instances of `U.Episteme` species whose episteme kinds both realise at least the core C.2.1 slots (`DescribedEntitySlot`, `GroundingHolonSlot?`, `ClaimGraphSlot`, `ViewpointSlot?`, `ReferenceSchemeSlot`) and obey A.6.5. Many practical species of EpistemicViewing will take `X` and `Y` from the **same** `U.EpistemeKind`, but the A.6.3 pattern only requires **SlotSpec compatibility** between domain and codomain kinds (in the sense of A.6.5), not literal kind equality.
+
+2. In the SlotKind-specific read/write discipline:
+   * `DescribedEntitySlot` is **read‑only** (no change in `describedEntityRef`).
+   * `GroundingHolonSlot`, if present, is:
+     * either preserved exactly, or
+     * changed only within an explicitly declared **grounding context** (e.g. normalising identifiers for the same plant or runtime), justified via a `Bridge` in the same ReferencePlane.
+   * `ViewpointSlot`, if present, is:
+     * either preserved (internal normalisation under the same viewpoint), or
+     * changed only to another `U.ViewpointRef` **within a declared `U.MultiViewDescribing` family** (E.17.0), with a `CorrespondenceModel` providing witnesses.
+3. For any episteme that is a `…Description`/`…Spec` (E.10.D2), `subjectRef` decodes to `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`. EpistemicViewing MUST:
+   * preserve `DescribedEntityRef`,
+   * preserve `BoundedContextRef` (unless a Bridge is explicitly cited),
+   * treat `ViewpointRef` as in (2) above.
+
+**EV‑2 - Effect‑free boundary (over EpistemeSlotGraph).**
+EpistemicViewing remains **pure** in the EFEM sense:
+* It may change **only C.2.1 components of the codomain episteme**:
+  * `content : U.ClaimGraph` (e.g. filtering, aggregation, normalisation),
+  * `viewpointRef` (under the constraints in EV‑1),
+  * `representationSchemeRef` and `ReferenceScheme` (within a fixed representation family or under a declared `CorrespondenceModel`),
+  * meta‑components (edition, provenance, status flags).
+* It **MUST NOT**:
+  * invoke `U.Mechanism` or `U.WorkEnactment` (measure, execute, actuate),
+  * create or modify `U.PresentationCarrier` (no direct publication rendering or carrier writing),
+  * cross ReferencePlanes implicitly (plane crossings go through Bridges with CL penalties in Part F).
+
+Any operational machinery (e.g. SAT/SMT solving, simulation, LLM tool‑use) MUST be modelled as a **separate `U.Mechanism`** that produces input epistemes or auxiliary epistemes or carriers consumed by the EpistemicViewing morphism.
+
+**EV‑3 - No new intensional claims about the same DescribedEntity.**
+
+Let `X` and `Y = apply(v,X)` with:
+* `content_X`, `referenceScheme_X`,
+* `content_Y`, `referenceScheme_Y`,
+* shared `describedEntityRef` and (typically) `groundingHolonRef`.
+
+Then:
+* The set of claims about `<describedEntityRef, groundingHolonRef>` obtained by reading `content_Y` through `referenceScheme_Y` **MUST NOT strictly extend** what is already entailed, in KD‑CAL/LOG‑CAL, by `content_X` read through `referenceScheme_X` under the same ReferencePlane and context.
+* Admissible changes:
+  * re‑expression (changing representation, not truth conditions),
+  * aggregation (e.g. summarising multiple claims into an explicitly derivable macro‑claim),
+  * dropping some information (lossy projection), provided **no new atomic commitments** about the same described entity are introduced.
+* Any deliberate strengthening of behavioural or structural commitments about the same entity **is not a valid EpistemicViewing**; it must be modelled either as:
+  * a change in Intension (new D/S pair under A.7/E.10.D2), or
+  * an A.6.4 `U.EpistemicRetargeting` plus a new Intension.
+
+**EV‑4 - Functoriality & correspondence alignment.**
+
+EpistemicViewing **inherits EFEM functoriality** and specialises it:
+
+1. **Direct EpistemicViewing (same representation scheme).**
+   Where `representationSchemeRef` and `ReferenceScheme` of `X` and `Y` are the same (up to declared normal forms), EpistemicViewing acts as a **strict functor** on ClaimGraphs:
+   * `apply(id, X) = X`,
+   * `apply(g ∘ f, X) = apply(g, apply(f, X))`,
+   * `content` transformation corresponds to a structural ClaimGraph function.
+
+2. **Correspondence‑based EpistemicViewing (representation changes).**
+   When viewing relies on a `CorrespondenceModel` between epistemes or representation schemes:
+   * the viewing morphism MUST reference that `CorrespondenceModel`,
+   * compositions involving such viewings **MUST** publish witnesses (epistemes or proof epistemes or proof records) that squares commute **up to declared isomorphism** (oplax naturality is allowed, but corrections are deterministic and reproducible),
+   * `describedEntityRef` and `groundingHolonRef` remain as in EV‑1; any transfer across contexts or planes goes via Bridges, not via hidden behaviour of the viewing.
+
+**EV‑5 - Idempotency & determinism on fixed configuration.**
+
+For any `v:X→Y` in `U.EpistemicViewing`, with fixed:
+* `describedEntityRef`,
+* `groundingHolonRef`,
+* `viewpointRef`,
+* `representationSchemeRef`,
+* `referenceScheme`,
+* and fixed `CorrespondenceModel` (if used),
+
+the following MUST hold:
+* **Idempotency.** `apply(v, apply(v, X))` is **isomorphic** to `apply(v, X)`:
+  * same DescribedEntity and grounding holon,
+  * same viewpoint and representation scheme,
+  * ClaimGraphs differ, at most, by declared structural equivalence (e.g. normal form vs source form).
+* **Determinism.** For fixed input and configuration, the result is uniquely determined (modulo declared equivalence). Any source of non‑determinism (random seeds, timing, external service state) MUST either:
+  * be exposed as part of `content` / `meta` of `X`, or
+  * be moved into a Mechanism outside the viewing morphism.
+
+**EV‑6 - Applicability & MultiViewDescribing alignment.**
+
+Each species of `U.EpistemicViewing` MUST:
+1. Declare an **Applicability profile** (A.6.0) specifying:
+   * permitted `EoIClass ⊑ U.Entity` (ValueKind of `DescribedEntitySlot`),
+   * permitted `groundingHolonRef` classes and ReferencePlanes,
+   * admissible `viewpointRef` ranges (possibly a named `U.ViewpointBundle`),
+   * supported `representationSchemeRef` families.
+1. For D/S epistemes in a `U.MultiViewDescribing` family (E.17.0):
+   * preserve `DescribedEntityRef` of `DescriptionContext`,
+   * either preserve `ViewpointRef` or change it within the declared viewpoint bundle, with any additional constraints recorded in the family’s `CorrespondenceModel`,
+   * never widen `ClaimScope` beyond what EV‑3 permits.
+3. Treat **any change of DescribedEntity** (even if “intuitively minor”, such as moving from subsystem to system) as **out of scope** for A.6.3; such moves belong to A.6.4 `U.EpistemicRetargeting`.
+
+#### A.6.3:4.4 - Profiles: `U.DirectEpistemicViewing` and `U.CorrespondenceEpistemicViewing`
+
+`U.EpistemicViewing` is further structured into two important species; both inherit EV‑0…EV‑6.
+
+1. **`U.DirectEpistemicViewing` — self‑contained views.**
+   * Domain and codomain epistemes share:
+     * the same `representationSchemeRef` (up to declared normalisation),
+     * the same `ReferenceScheme` (or a refinement which is conservative and structurally documented).
+   * No external `CorrespondenceModel` is needed: the view is computed **solely from the input episteme** and, optionally, fixed configuration.
+   * Typical cases:
+     * internal normalisation (sorting, rewriting) of an engineering view;
+     * filtering `U.ClaimGraph` to keep only safety‑relevant claims;
+     * simplifying a proof‑oriented specification to a more operational form under the same semantics.
+
+1. **`U.CorrespondenceEpistemicViewing` — views relying on correspondence models.**
+   * Viewing depends on:
+     * one or more subject epistemes (e.g. requirements and design),
+     * an explicit `CorrespondenceModel` that relates their ClaimGraphs and representation schemes.
+   * The result is an episteme (often an `U.EpistemeView`) whose `describedEntityRef` matches that of the primary episteme, but whose content is computed **through** the correspondence links.
+   * Typical cases:
+     * ISO 42010‑style correspondences between architectural descriptions;
+     * cross‑model views in model‑based systems engineering (MBSE), where view content is computed from multiple model fragments;
+     * traceability‑based views aggregating requirements, design elements, and tests.
+
+In both profiles:
+* `CorrespondenceModel` remains an **episteme-lane publication**, not a new kernel‑type hidden inside A.6.3.
+* `U.EpistemicViewing` stays **view‑like**: it reveals what is already there under the correspondence; it does not perform Γ‑style constructions of new Intensions.
+
+#### A.6.3:4.4.a - Common same-entity specialization notes
+
+Two recurring same-described-entity families can be read as specializations governed by `A.6.3`, provided that EV‑0…EV‑6 remain explicit.
+
+1. **`ConservativeRetextualization`.**
+   Use this when the target remains textual and the main change is wording, density, ordering, language, or bounded filtering of already available content. It stays in `A.6.3` only if `describedEntityRef` is preserved, no new claims about that entity are minted, and correspondence use does not collapse into bridge or substitution licence.
+
+2. **`RepresentationTransduction`.**
+   Use this when the target changes representation scheme or reasoning medium while still preserving the same described entity. It stays in `A.6.3` only if representation-factor delta, recoverability, loss, and preserve-vs-retarget boundaries remain explicit. Purely textual rewrites belong with `ConservativeRetextualization`; any change of `DescribedEntityRef` belongs with `A.6.4`.
+
+These notes do not create new governing patterns. They mark recurring same-entity specialization boundaries that remain subordinate to `U.DirectEpistemicViewing` / `U.CorrespondenceEpistemicViewing` and to the general `A.6.3` invariants.
+
+
