@@ -10979,7 +10979,7 @@ This pattern is worth splitting out because same-entity textual re-expression is
 
 **Placement.** Specialization under `A.6.3 U.EpistemicViewing` for same-described-entity representation-scheme transition.
 **Builds on.** `A.6.3 U.EpistemicViewing`; `A.6.2 U.EffectFreeEpistemicMorphing`; `A.7`; `E.10.D2`; `C.2.7`; `E.17.0`; `E.17`; `F.9`; `F.18`.
-**Coordinates with.** `ConservativeRetextualization`; `ExplanationFaithfulnessProfile`; `E.17.ID.CR ComparativeReading`; `A.6.4 U.EpistemicRetargeting`; `A.15`; `A.20`; `A.21`; explicit decoding-access review.
+**Coordinates with.** `ConservativeRetextualization`; `A.6.3.CSC Controlled Semantic Coarsening`; `ExplanationFaithfulnessProfile`; `E.17.ID.CR ComparativeReading`; `A.6.4 U.EpistemicRetargeting`; `F.9`; `F.9.1`; `E.18`; `A.15`; `A.10`; `B.3`; `B.5.2`; `A.20`; `A.21`; `C.27`; `A.3.3`; explicit decoding-access review.
 **Name boundary.** In this pattern, `RepresentationTransduction` names an `A.6.3 U.EpistemicViewing` specialization for a same-described-entity transition across declared representation schemes or reasoning media. It is not an `E.18` Transduction Graph Architecture node, not a TGA graph edge, not an `A.15` method description, work-plan, or work-occurrence claim, and not a changed-function or control-architecture claim.
 
 **One-line summary.** `RepresentationTransduction` is a same-described-entity shift in representation scheme that stays inside `A.6.3 U.EpistemicViewing`: it may move between prose, table, diagram, structured notation, or another declared representation regime, but it does **not** silently change `describedEntityRef`, promote geometry or notation into ontology-by-default, or hide decode-mediated recoverability behind rendering fluency.
@@ -10995,22 +10995,23 @@ This pattern is worth splitting out because same-entity textual re-expression is
 
 **What this buys.** One honest same-described-entity representation shift with visible source tether, visible factor and reasoning-medium change, and an explicit handoff when the case stops being ordinary representation transduction.
 
-**Working action spine.** Same described entity appears in a new representation scheme -> separate described entity, representation scheme, reasoning medium, and admissible use -> use the rendering for inspection, source-finding, comparison, or planning preparation -> output the ordinary three-line test or fuller representation-support record when ambiguity, dispute, citation, reliance, policy, bridge, work, gate, privacy, assurance, release, or adjudication use is live -> hand off if action or work, evidence, gate, explanation, retargeting, bridge, carrier, or coarsened-rendering claim appears.
+**Working action spine.** Same described entity appears in a new representation scheme -> separate source described entity, receiving described entity, preserved claim, representation scheme, reasoning medium, and admissible use -> use the rendering for inspection, source-finding, comparison, technical review, or reversible planning preparation -> output the ordinary use path or the fuller continuity-witness decision block when ambiguity, dispute, citation, reliance, bridge, work, gate, assurance, decode-mediated access, abductive reopen, temporal/dynamics, release, or TGA-path use is live -> hand off if work, evidence, gate, explanation, retargeting, bridge, carrier, coarsened-rendering, abductive, temporal, dynamics, or TGA claim appears.
 
-**Ordinary use.** If the publication-facing item only supports inspection, source-finding, comparison, or planning preparation, keep the record to the same described entity, the representation-scheme change, and the admissible and non-admissible use.
+**Ordinary use.** If the publication-facing item only supports inspection, source-finding, comparison, or planning preparation, keep the explicit reading to the source described entity, receiving described entity, preserved claim, representation-scheme change, and admissible and non-admissible use.
 
-**Ordinary three-line test.**
-1. Is the described entity still the same?
-2. What representation scheme or reasoning medium changed?
-3. What use remains admissible, and what downstream use is not admissible?
+**Ordinary use path.**
+1. What source described entity and receiving described entity are being compared, and is preservation explicit?
+2. Which source claim or commitment remains preserved for the intended use?
+3. What representation scheme, reasoning medium, or expression form changed?
+4. What reader action remains admissible, and what downstream use is not admissible from this representation shift alone?
 
 **Action/work boundary.** A representation shift may support method inspection or work-planning preparation, but the source for intended or actual work remains `A.15` plus the source `U.Episteme`, source `U.EpistemePublication`, or exact project-side FPF kind and reference that governs that work claim.
 
-**Load-bearing use.** Open the fuller representation-support record only when the shifted representation will be externally relied on, disputed, cited as support, used across context, treated as gate/release/work preparation support, or carried through a decode-mediated or latent access path.
+**Load-bearing use.** Open the fuller continuity-witness decision block only when the shifted representation will be externally relied on, disputed, cited as support, used across context, treated as gate/release/work preparation support, carried through a decode-mediated or latent access path, used in abductive reopen, or used for temporal/dynamics or TGA-path currentness.
 
 **Representation-validity grounding.** Recoverability is recoverability for one declared admissible use, not a general property of the target representation. A diagram, table, notation, decoded output, or model-state rendering may be recoverable enough for inspection or technical review when target relations trace back to source anchors and loss notes, while still being insufficient for work-planning reliance, gate reliance, release reliance, evidence reliance, assurance reliance, or engineering justification. For any such reliance use, this pattern supplies only same-entity correspondence support; the operative support must come from the governing FPF pattern and exact project-side FPF kind and reference named by `A.15`, `A.10`, `A.20`, `A.21`, `B.3`, `E.17.EFP`, `E.17.ID.CR`, `F.9`, or `F.9.1` as applicable. When the shifted representation will carry load-bearing use, state the support path that makes that exact use admissible: source tether, recoverability target, decode path where needed, evidence class, any probe or intervention support claimed, and the `E.17:5.1b` source-support posture when source pointer, source availability, source retrieval, source use, source faithfulness, claim support, contradiction, omission, claim widening, or reopen trigger could diverge. Use `E.17:5.1c` for the shared use-boundary meanings of `orientation use`, `reliance use`, `operative claim`, `unsupported downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary live question may belong to ordinary textual restatement, coarsening, explanation, comparison, bridge work, substitution, work, reliance, gate, evidence, assurance, retargeting, or carrier and front-end work.
 
-A table, diagram, notation, decoded output, or model-state rendering may expose or cite its source support. It does not become that source support, architecture, ontology, evidence, gate, or work source by visual clarity, geometry, notation, proximity, or reuse. If the needed support path is missing, a repair request, source-gap note, or future evidence-work plan is prospective only; it does not retroactively make the earlier representation shift supported.
+A table, diagram, notation, decoded output, or model-state rendering may expose or cite its source support. It does not become that source support, architecture, ontology, evidence, gate, or work source by visual clarity, geometry, notation, proximity, or reuse. If the needed support path is missing, a repair request, source-gap note, or evidence-work plan is prospective only; it does not retroactively make the earlier representation shift supported.
 
 
 **Stop condition.** Stop once the representation shift changes no next inspection, comparison, source-finding, or planning-preparation move and blocks no concrete overclaim about the represented entity, source support, work, gate, or evidence.
@@ -11039,7 +11040,7 @@ In practice these shifts are often treated as harmless reformatting. But some re
 Without a dedicated named pattern for representation-scheme transitions:
 1. teams treat text-to-table, table-to-diagram, and notation shifts as if they were all the same kind of harmless rewrite;
 2. changes in reasoning medium and recoverability remain implicit;
-3. latent/distributed cases tempt authors to treat geometry or feature clusters as ontology-by-default;
+3. latent/distributed cases tempt readers to treat geometry or feature clusters as ontology-by-default;
 4. reviewers cannot tell when a case is still same-entity viewing and when it has become retargeting, explanation, carrier work, or decode-mediated reconstruction;
 5. representation factors governed near `C.2.7` are discussed rhetorically rather than as explicit deltas.
 
@@ -11065,11 +11066,11 @@ Without a dedicated named pattern for representation-scheme transitions:
 
 `RepresentationTransduction` is an **intensional pattern** and a named specialization under `A.6.3`. Concrete same-described-entity representation changes are passive episteme cases or published renderings reviewed under this pattern; the pattern itself does not act, decide, or publish.
 
-This distinction matters because the pattern governs **how** a representation change is recognised, justified, and checked. It does **not** turn every table, diagram, or structured notation into a giant standalone review record, and it does not reduce review to a mechanical reformatting step.
+This distinction matters because the pattern governs **how** a representation change is recognised, justified, and checked. It does **not** turn every table, diagram, or structured notation into a giant standalone review artifact, and it does not reduce review to a mechanical reformatting step.
 
 #### A.6.3.RT:4.1.b - Local working vocabulary
 
-Use this vocabulary only after the ordinary three-line test leaves a live ambiguity or a load-bearing relation-change question. Ordinary text-to-table, table-to-diagram, or diagram-to-notation cases do not need every term below; use only the term that changes the next representation decision or blocks a concrete overclaim.
+Use this vocabulary only after the ordinary use path leaves a live ambiguity or a load-bearing relation-change question. Ordinary text-to-table, table-to-diagram, or diagram-to-notation cases do not need every term below; use only the term that changes the next representation decision or blocks a concrete overclaim.
 - **Representation scheme** = the published form in which the same entity is rendered (for example prose, table, diagram, or structured notation).
 - **Reasoning medium** = the form-specific inspection possibilities readers actually use when inspecting the published rendering.
 - **Semiotic mode** = what kind of meaning-bearing support is doing the main work in the rendering, such as structural likeness, trace/index, conventional code, model-mediated correspondence, or decode-mediated recoverability.
@@ -11078,7 +11079,7 @@ Use this vocabulary only after the ordinary three-line test leaves a live ambigu
 - **Decode-mediated case** = a case where explicit access to the target representation depends on a declared decoding path rather than direct reading from an already published source episteme or source publication.
 - **actionabilityShift** = a changed reader action-possibility reading or apparent readiness created by the rendering. It is not execution authority, gate status, action invitation, work authority, or proof that work may proceed.
 - **recoverabilityEvidenceClass** = a local review field naming the recoverability evidence support needed for decode-mediated or latent cases. It is not an `EvidenceKind`, and it is not required for ordinary non-latent representation shifts unless recoverability is part of the live question.
-- **representationValiditySupportPosture** = a local support-posture value used only when the representation shift is disputed, assurance-facing, gate-adjacent, externally relied on, decode-mediated, or likely to invite gate, evidence, work, or authority use beyond declared support. It says what the shifted representation may support now; it is not a score, ordered rank, promotion sequence, ontology class, evidence class, or `authoritySourceRef` target.
+- **representationValiditySupportPosture** = a local support-posture value used only when the representation shift is disputed, assurance-facing, gate-adjacent, externally relied on, decode-mediated, or likely to invite gate, evidence, work, or authority use beyond declared support. It says what the shifted representation may support now; it is not a score, ordered rank, improvement scale, ontology class, evidence class, or `authoritySourceRef` target.
 - **sourceSupportPosture** = the shared `E.17:5.1b` vocabulary used beside representation-validity posture when the source relation itself is disputed or load-bearing: pointer-only, available, retrieved, used, faithful, claim-supported, claim-unsupported, claim-contradicted, claim-plausible-only, source-omitted, source-loss-declared, claim-widened, added-linkage, independent-verification-present, admissible-for-this-use, downstream-use-forbidden, or reopen-trigger-present.
 
 | representationValiditySupportPosture | What it supports | Required support | Shortcut rejected |
@@ -11109,7 +11110,7 @@ These terms are local review aids. They inherit the `E.17:5.1e` local-field rule
 - explanation-facing renderings whose main purpose is didactic or explanatory rendering work (`ExplanationFaithfulnessProfile`);
 - purely textual rewrites that stay inside one representation regime (`ConservativeRetextualization`);
 - carrier work such as rendering, export, upload, serialization, or OCR/parsing-like extraction;
-- latent/distributed use without explicit decode path and recoverability evidence.
+- latent/distributed use without pinned source claim or publication, decode path or access route, recoverability evidence, admissible use-support value, and remaining reader action.
 
 
 #### A.6.3.RT:4.2.a - Reader guidance
@@ -11133,27 +11134,44 @@ If the representation shift is no longer the main review problem, and the target
 
 Here, **reopen** means return to the source-bearing content, while **handoff** means the governing pattern has changed. A coarsened representation may need both.
 
-Only after these questions are answered clearly does a fuller load-bearing review record normally become necessary.
-#### A.6.3.RT:4.3 - Working-model first; explicit review record only when the case is load-bearing
+Only after these questions are answered clearly does a fuller load-bearing decision block normally become necessary.
 
-Most same-described-entity representation shifts should stay human-usable and reviewable without turning every table, diagram, or structured rendering into a giant metadata block. This pattern therefore follows **E.14's working-model-first discipline**: ordinary non-latent cases need enough explicitness to show what stayed the same, what changed in representation and reasoning medium, what was lost or foregrounded, and where the case would have to move to another governing pattern.
+#### A.6.3.RT:4.3 - Working-model first; explicit decision block only when the case is load-bearing
+
+Most same-described-entity representation shifts stay human-usable and reviewable without turning every table, diagram, or structured rendering into a giant metadata block. This pattern therefore follows **E.14's working-model-first discipline**: ordinary non-latent cases need enough explicitness to show what stayed the same, what changed in representation and reasoning medium, what was lost or foregrounded, and where the case would have to move to another governing pattern.
 
 **Ordinary case (default).** For everyday same-described-entity representation shifts, it is usually enough that the rendering or its surrounding publication keeps explicit:
-- which source `U.Episteme` claims are being re-expressed in a different representation regime;
-- that `describedEntityRef` remains preserved;
-- what changed in representation scheme or reasoning medium;
-- what losses, foregrounding choices, or recoverability limits matter for the reader;
-- whether the source is merely pointed at, actually used, faithful to the source `U.Episteme` claims, and supported for the intended use;
-- where the case exits if it has turned into explanation, retargeting, bridge-bearing comparison, carrier work, decode-mediated reconstruction with insufficient support, or a separate narrower-use card with non-admissible downstream use and source-bearing reopen whose primary review question is no longer the representation shift.
+- the source described entity and the receiving described entity, or the statement that the receiving item preserves the source described entity;
+- the source `U.Episteme` claim or commitment preserved for the intended use;
+- the representation scheme, reasoning medium, or expression-form delta;
+- the remaining admissible reader action and the downstream use not made admissible by this representation shift.
 
-**Explicit review record (only for load-bearing cases).** A fuller record is warranted when the case is assurance-facing, gate-adjacent, cross-context, correspondence-heavy, decode-mediated, policy-bearing, or likely to be disputed. The record may inherit pattern ids and already-pinned metadata instead of restating them inline. When published, that record normally captures:
-- transform placement (`patternPlacementRef = A.6.3 specialization`, `governingPatternRef`, `sourcePublicationOrRecordForm`, `targetPublicationOrRecordForm`, `changeTargetRef`);
-- preservation context (`describedEntityPolicy = preserve`, `boundedContextPolicy`, `viewpointPolicy`, `referenceSchemePolicy`, `representationSchemePolicy`, `groundingPolicy`, `referencePlanePolicy`);
-- claim and publication discipline (`claimPolicy`, `claimScopePolicy`, `publicationScopePolicy`, `reliabilityTransportPolicy`, `pinningPolicy`, `provenancePolicy`, `lossProfile`);
-- continuity and bridge discipline (`claimContinuityClass`, `microtheoryContinuityClass`, `onticContinuityClass`, `bridgeRequirement`);
-- downstream and admissibility discipline (`worldContactPolicy`, `evidencePolicy`, `gatePolicy`, `workCrossing`, `upstreamGoverningPatternRef`, `downstreamGoverningPatternRef`, `admissibleFaces`, `admissiblePublicationRenderings`, `compositionRule`, `reopenCondition`);
-- representation and recoverability discipline (`representationValiditySupportPosture`, `representationFactorDelta`, `inferenceRegimeDelta`, `semioticModePrimary?`, `semioticModeSupport?`, `semioticModeShift?`, `modeOverreadRisk?`, `salienceShift?`, `topologyShift?`, `admissibleUseShift?`, `calibrationShift?`, `interactivityShift?`, `onticScaffoldPreservation`, `onticRecoverabilityClass`, `onticRecoverabilityMode`, `recoverabilityEvidenceClass`, `decodeMechanismRef`, `CorrespondenceModelRef?` where needed);
-- naming and presentation discipline (`publicNamePolicy`).
+That ordinary path is the default. It supports inspection, source-finding, comparison, technical review, or reversible planning preparation. It does not by itself support work authority, evidence force, gate passage, assurance force, bridge substitution, abductive selection, temporal/dynamics currentness, or TGA-path currentness.
+
+**Fuller continuity-witness decision block (only for load-bearing cases).** A fuller block is warranted when the case is disputed, externally relied on, cross-context, correspondence-heavy, decode-mediated, assurance-facing, gate-adjacent, work-pressure, abductive-reopen, temporal/dynamics, or TGA-path-bearing. The block may inherit pattern ids and already-pinned metadata instead of restating them inline. When published, it makes these decision-block fields recoverable:
+
+| Field | Required reading in this pattern |
+| --- | --- |
+| `sourceEpistemeOrPublication` | The source `U.Episteme`, `U.EpistemePublication`, episteme-lane `U.View`, or exact source publication being transformed or cited. |
+| `receivingEpistemeOrPublication` | The receiving episteme, publication, view, diagram, table, functional description, explanation, decoded rendering, or TGA-facing publication item. |
+| `sourceDescribedEntity` | The described entity before the representation shift. |
+| `receivingDescribedEntity` | The described entity after the shift, or the statement that the source described entity is preserved. |
+| `groundingAndContext` | Grounding holon, bounded context, reference plane, and reference scheme as far as the intended use needs. |
+| `claimOrCommitmentUnderTest` | The claim, invariant, commitment, relation, or project-side use whose continuity is being judged. |
+| `viewpointAndView` | The viewpoint and view used to read the source and receiving material when they affect the claim. |
+| `representationSchemeDelta` | The representation scheme, reasoning medium, representation factor, or inference-regime change that matters for review. |
+| `preservedCommitments` | What the receiving item still carries from the source. |
+| `withdrawnOrNewCommitments` | What the receiving item drops, narrows, adds, widens, or changes. |
+| `supportPosture` | The source-support or representation-validity support posture for the exact intended use. |
+| `continuityWitness` | The reason the same-described-entity reading is still supportable. |
+| `counterWitness` | Any fact that weakens same-described-entity support, such as changed entity, changed predicate, changed frame, missing source tether, or unsupported decode path. |
+| `lossAndRecoverability` | Preserved distinctions, lost distinctions, recoverability target, recoverability evidence, and source-bearing reopen condition. |
+| `admissibleUse` | The exact use that remains admissible now. |
+| `nonAdmissibleUse` | The downstream work, evidence, gate, assurance, bridge, decision, abductive, TGA-path, temporal, or dynamics use that is not carried by the current item. |
+| `neighboringPatternHandoff` | The FPF pattern that carries the live neighboring claim, when one is live. |
+| `remainingAdmissibleReaderAction` | One short plain line saying what the reader may now do or which neighboring pattern now carries the live claim. |
+
+The decision block is not a new FPF kind, record, profile, publication form, or hidden support object. It is a recoverable field set for the representation-transition case.
 
 #### A.6.3.RT:4.3.a - Working admissibility defaults
 
@@ -11189,9 +11207,9 @@ Recurring same-entity moves under this pattern include:
 These are recurring move shapes under one specialization relation. They are not separate governing patterns and they do not override `E.17` face discipline.
 
 #### A.6.3.RT:4.4.b - How a reviewer reads representation-factor and reasoning-medium change
-A reviewer should be able to say, in one short paragraph, what changed in representational shape, what changed in reasoning medium, and whether the primary change is also a `semioticModeShift` rather than only a scheme change. Typical read-outs are: "the table foregrounds comparability across rows", "the diagram foregrounds dependency shape", or "the notation foregrounds explicit argument positions."
+A reviewer can say, in one short paragraph, what changed in representational shape, what changed in reasoning medium, and whether the primary change is also a `semioticModeShift` rather than only a scheme change. Typical read-outs are: "the table foregrounds comparability across rows", "the diagram foregrounds dependency shape", or "the notation foregrounds explicit argument positions."
 
-When the case is more demanding, that paragraph should also name whether salience, topology, actionability, admissible-use reading, calibration, or interactivity materially changed. If the author cannot name those shifts without slipping into new ontology, hidden bridge work, or a changed described entity, the case is not yet ready to stay here. Use the representation-delta review crib sheet and the current semiotic-mode support note when the deltas need a more normalized read-out.
+When the case is more demanding, that paragraph also names whether salience, topology, actionability, admissible-use reading, calibration, or interactivity materially changed. If those shifts cannot be stated without slipping into new ontology, hidden bridge work, or a changed described entity, the case is not yet ready to stay here. Use the representation-delta review crib sheet and the current semiotic-mode support note when the deltas need a more normalized read-out.
 
 #### A.6.3.RT:4.5 - Shared representation rule bundle
 
@@ -11212,26 +11230,51 @@ Conservativity is approximated here by checking, together, `describedEntityPolic
 A reviewed case under this pattern makes explicit which distinctions, inspection possibilities, or local cues are lost, foregrounded, or rearranged by the shift in representation regime. Reliability transport may remain source-bounded or be explicitly downgraded, but it must never be silently widened just because the target form looks clearer, more structured, or more formal.
 
 ##### A.6.3.RT:4.5.c. Authority and handoff rule
-A case reviewed under this pattern stays same-entity and episteme. It does not govern retargeting, bridge stance, explanation governance, executable docking, gate authority, or work enactment. If the shift depends on decode-mediated recovery, intervention-backed extraction, or world/gate consequences, those dependencies must stay explicit and may restrict the target to exploratory or report-only use.
+A case reviewed under this pattern stays same-entity and episteme-facing. It does not govern retargeting, bridge stance, explanation governance, executable docking, gate authority, evidence force, assurance force, work enactment, abductive selection, temporal/dynamics currentness, or TGA-path currentness. If any of those claims become live, name the exact neighboring pattern and keep the representation shift to source-finding, inspection, comparison, technical review, reversible planning preparation, report-only use, or exploratory use until the neighboring source relation is supplied.
 
 ##### A.6.3.RT:4.5.c.1. Same-entity entry condition for decode-mediated cases
-A decode-mediated case may stay here only when the target rendering is tethered back to already pinned and provenance-bearing source `U.Episteme` claim graph for the same described entity. A decode-mediated result alone does not establish the same described entity with enough source support for this pattern.
+A decode-mediated or latent/distributed case may stay here only when the target rendering is tethered back to already pinned and provenance-bearing source `U.Episteme` claim graph for the same described entity.
+
+The minimum entry condition is:
+- pinned source claim or source publication;
+- decode path or access route;
+- recoverability evidence for the intended use;
+- admissible use-support value;
+- remaining reader action.
+
+A readable decoded result alone does not establish direct access to the described entity, work authority, evidence force, gate passage, assurance force, TGA-path currentness, or ontology-frame retargeting. If the entry condition is missing, the current disposition is report-only, exploratory, source-bearing reopen, blocked current transfer, or a named neighboring-pattern handoff.
 
 ##### A.6.3.RT:4.5.d. Composition and reopen rule
-Repeated same-regime normalization may be idempotent, but heterogeneous regime shifts are generally order-sensitive. The case must reopen whenever recoverability assumptions, pins, provenance, correspondence support, or target-face admissibility change. A representation shift also reopens if what looked like one same-entity line turns out to require a new described entity or a decode path with higher evidence requirements than currently declared.
+Repeated same-regime normalization may be idempotent, but heterogeneous regime shifts are generally order-sensitive. Multi-publication chains are checked pairwise, but the final use must preserve accumulated loss rather than restarting as if each pair erased earlier losses.
+
+Each step in a chain keeps recoverable:
+- source and receiving described entity;
+- claim or commitment under test;
+- representation-scheme delta;
+- preserved and withdrawn commitments;
+- loss and recoverability;
+- remaining admissible reader action.
+
+The case reopens whenever recoverability assumptions, pins, provenance, correspondence support, target-face admissibility, primary semiotic mode, or accumulated loss changes. A representation shift also reopens if what looked like one same-entity line turns out to require a new described entity, a counter-witness disposition, or a decode path with higher evidence requirements than currently declared.
 
 #### A.6.3.RT:4.6 - Hard boundary rules
 
 A case reviewed under this pattern keeps the following explicit:
 - `describedEntityPolicy = preserve` is mandatory;
-- any change of `DescribedEntityRef` applies `A.6.4`;
+- any change of `DescribedEntityRef`, described-entity kind, ontology frame, admissible predicate set, or invariant-bearing target applies `A.6.4`;
 - purely textual rewrite cases stay with `ConservativeRetextualization`;
-- explanation-facing cases stay with `ExplanationFaithfulnessProfile`;
+- explanation-facing cases stay with `ExplanationFaithfulnessProfile` unless the described entity, kind, ontology frame, admissible predicate set, or invariant-bearing target changes;
 - carrier work stays outside this pattern;
-- geometry, notation, embedding space, or feature clustering must not become ontology-by-default;
+- geometry, notation, embedding space, feature clustering, or readable decoded output must not become ontology-by-default;
+- a `PathSliceId`, `CrossingRef`, or `DecisionLogRef` does not prove same-described-entity continuity by itself;
+- `StructuralReinterpretation` receives retargeting semantics from `A.6.4` and `E.18`; it is not proof of semantic continuity;
+- changed problem formulation leaves this pattern for `B.5.2` when it changes abductive prompt, candidate generation, rival-set formation, selected prime hypothesis, plausibility filtering, or abductive reopen;
+- temporal, dynamics, and control claims leave this pattern for `C.27` or `A.3.3` when freshness, rhythm, effort/inertia, state-space, trajectory, reusable transition law, or control relation is live;
 - the family changes representation scheme, not face governance, and it therefore stays under existing `E.17.0 / E.17` face discipline rather than creating a new publication family.
 
 If recoverability depends on decoding, probing, or intervention, the evidence class must bound admissible use; otherwise the case stays exploratory, report-only, or outside the admissible same-described-entity path under `A.6.3.RT`. Low-evidence decode-mediated results are not canonical publications with reduced support; they are bounded exploratory or report-only renderings. Non-latent cases remain the default entry path until decode-mediated recoverability is made explicit.
+
+When a counter-witness exists but the receiving item remains useful, the current disposition is controlled coarsening, source-bearing reopen, bridge support, report-only use, exploratory use, or a named neighboring-pattern handoff. Do not keep an unnamed middle state where the item remains rhetorically useful but no FPF disposition is stated.
 
 ### A.6.3.RT:5 - Archetypal grounding
 
@@ -11258,7 +11301,7 @@ The move stays in this pattern only if the described entity is preserved, the di
 **Published table slice.** `| View | Entity | Condition | Correspondence model |
 | Safety | CL-2 | required temperature condition during standard load | CM-12 |`
 
-The move stays in this pattern only if the correspondence remains explicit, the described entity stays preserved, and the resulting table does not quietly import bridge semantics or a changed described entity. Because the required correspondence support is doing real work here, a source-bearing review record is often warranted instead of relying only on the rendered table.
+The move stays in this pattern only if the correspondence remains explicit, the described entity stays preserved, and the resulting table does not quietly import bridge semantics or a changed described entity. Because the required correspondence support is doing real work here, a source-bearing continuity note is often warranted instead of relying only on the rendered table.
 
 #### A.6.3.RT:5.2.b - Same-entity diagram-to-structured-notation shift
 **Source diagram slice.** `CoolingLoop -> Sensor A; CoolingLoop -> Valve B`
@@ -11283,7 +11326,7 @@ If the published screen becomes honest only by omitting exceptions, confidence b
 A source prose note is shortened, reordered, or translated but remains essentially textual. That case stays with `ConservativeRetextualization`, not this pattern.
 
 #### A.6.3.RT:5.4 - Boundary to explanation-facing renderings
-A representation shift is performed mainly to teach or narrate rather than to publish another same-entity representation regime. That case should leave this pattern and be reviewed under explanation governance.
+A representation shift is performed mainly to teach or narrate rather than to publish another same-entity representation regime. That case leaves this pattern and is reviewed under explanation governance.
 
 #### A.6.3.RT:5.4.a - Boundary to bridge-bearing comparison
 **Source slice.** `Local reliability note: Pump P-2 remained within operating range during test window W-3.`
@@ -11305,8 +11348,11 @@ This also stays outside `RepresentationTransduction`. The representation scheme 
 **Published dashboard tile.** `Service S: current dashboard view foregrounds cache-failover evidence; alternative branches and confidence bands remain in the incident worksheet.`
 
 This does **not** remain ordinary `RepresentationTransduction` if the tile is treated as more than a narrow report view. The tile foregrounds one causal branch and suppresses uncertainty and alternative branches, so it stays honest only with source-bearing return to the source-bearing worksheet and a non-admissible downstream-use line. It is not a causal proof, service status verdict, or action cue. Once that narrower-use card becomes primary, the case leaves ordinary same-described-entity representation transduction and must use `A.6.3.CSC Controlled Semantic Coarsening` rather than being treated as a normal scheme shift.
+
+
+
 #### A.6.3.RT:5.5 - Boundary to decode-mediated latent cases
-A reviewer or decode path tries to restate a latent region or distributed feature cluster as explicit entity/relation content. This stays outside the admissible same-described-entity path under `A.6.3.RT` unless an explicit decoding-access profile, `recoverabilityEvidenceClass`, and an explicit decode path are already present. Readable decode output alone is not enough.
+A reviewer or decode path tries to restate a latent region or distributed feature cluster as explicit entity/relation content. This stays outside the admissible same-described-entity path under `A.6.3.RT` unless the pinned source claim or publication, decode path or access route, recoverability evidence, admissible use-support value, and remaining reader action are already present. Readable decode output alone is not enough.
 
 #### A.6.3.RT:5.5.a - Guarded decode-mediated readout
 **Pinned source cluster.** `Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4 for the same diagnostic case.`
@@ -11331,7 +11377,7 @@ A conformance check is retained only if it changes the next admissible use of th
 2. **CC-RT-2 — Representation shift is the right family.**
    The result is genuinely a representation-scheme or reasoning-medium shift rather than mere textual rewrite, explanation work, carrier work, or changed described entity.
 3. **CC-RT-3 — Admissible and non-admissible use are visible.**
-   The ordinary three-line test states the representation-scheme or reasoning-medium change, the admissible use, and the downstream use not made admissible by this representation shift.
+   The ordinary use path states the source described entity, receiving described entity or preservation claim, the source claim or commitment preserved for the intended use, the representation-scheme or reasoning-medium change, the admissible reader action, and the downstream use not made admissible by this representation shift.
 4. **CC-RT-8 — Preserve-vs-retarget handoff is explicit.**
    If the case fails the ordinary checks, the handoff target is explicit (`A.6.3.CR`, `E.17.EFP`, `A.6.3.CSC`, `A.6.4`, carrier work under `A.7`, or another governing pattern).
 5. **CC-RT-14 — Functional-description publication overread is blocked.**
@@ -11344,7 +11390,7 @@ A conformance check is retained only if it changes the next admissible use of th
 2. **CC-RT-5 — Extended delta factors are explicit when load-bearing.**
    `salienceShift`, `topologyShift`, `admissibleUseShift`, `calibrationShift`, and `interactivityShift` are named whenever they materially shape review or misuse risk.
 3. **CC-RT-6 — Decode-mediated cases carry additional recoverability evidence.**
-   If the case is decode-mediated or latent/distributed, `recoverabilityEvidenceClass` and decode path are explicit.
+   If the case is decode-mediated or latent/distributed, the pinned source claim or publication, decode path or access route, recoverability evidence, admissible use-support value, and remaining reader action are explicit.
 4. **CC-RT-7 — Loss, provenance, pinning, and reliability are explicit when needed.**
    Losses, provenance, pinning, and reliability transport are stated or inherited by visible pinned reference when external reliance, dispute, gate, assurance, evidence, or cross-context use is live.
 5. **CC-RT-9 — Direct vs correspondence split is explicit when correspondence is doing work.**
@@ -11387,7 +11433,7 @@ This pattern is worth splitting out because representation changes are already h
 **Practice source, local alignment, and adoption decision.** ISO/IEC/IEEE 42010:2022 and current SysML v2 view practice (source maturity = mature standard plus current technical specification/practice) treat viewpoint, view, model kind, and rendering discipline as explicit review targets rather than mere layout choices. This pattern **adopts** explicit representation-scheme review, **adapts** it to same-described-entity viewing under `A.6.3`, and **rejects** the shortcut where a clearer table, diagram, or notation is treated as if it had automatically earned ontology or authority not carried by the source support.
 
 **Claim 2.** Best-known contemporary notation-and-reasoning practice treats tables, diagrams, and structured notations as reasoning media with different inspection possibilities, not as neutral visual restyling.
-**Practice source, local alignment, and adoption decision.** Post-2015 model-based and notation-sensitive review practice (source maturity = widely used technical practice) treats representational form as something that changes what readers can inspect, compare, or replay. This pattern **adopts** reasoning-medium review, **adapts** it through explicit factor and medium deltas, and **rejects** hidden dependency-theory uplift or silent semantic strengthening by prose-to-diagram or diagram-to-notation moves.
+**Practice source, local alignment, and adoption decision.** Post-2015 model-based and notation-sensitive review practice (source maturity = widely used technical practice) treats representational form as something that changes what readers can inspect, compare, or replay. This pattern **adopts** reasoning-medium review, **adapts** it through explicit factor and medium deltas, and **rejects** hidden dependency-theory uplift or silent added semantic commitment by prose-to-diagram or diagram-to-notation moves.
 
 **Claim 3.** Best-known representation-aware practice treats latent geometry, decoded output, and representation structure as evidence-bounded interpretation that needs a declared support path before it can carry an engineering claim.
 **Practice source, local alignment, and adoption decision.** Representation engineering and causal-abstraction practice (source maturity = research/technical practice supporting evaluation posture) treats internal representations as inspectable, monitorable, manipulable, or experimentally aligned only through explicit methods that connect representation to behavior, causal role, or source support. BLT/LCM-style model examples (source maturity = examples/analogy only here, not load-bearing authority) show that representation regime matters, but they do not by themselves decide when a diagram, decoded output, or latent cluster becomes a valid engineering claim. This pattern **adopts** representation-validity grounding through source tether, recoverability target, decode path, `recoverabilityEvidenceClass`, and declared probe/intervention support where claimed; it **rejects** the shortcut where latent geometry, diagram topology, or decoded prose becomes ontology by readability or model reputation.
@@ -11399,9 +11445,9 @@ This pattern is worth splitting out because representation changes are already h
 
 
 - **Builds on:** `A.6.3`, `A.6.2`, `A.7`, `E.10.D2`, `C.2.7`, `E.17.0`, `E.17`, `F.9`, `F.18`
-- **Coordinates with:** `ConservativeRetextualization`, `ExplanationFaithfulnessProfile`, `E.17.ID.CR ComparativeReading`, `A.6.4`, `A.15`, `A.20`, `A.21`, explicit decoding-access review
-- **Impact radius:** primary touch `A.6.3`; secondary review support `C.2.7`, `E.17.0`, `E.17`, `F.9`, decode-mediated recoverability review; failed same-entity or recoverability conditions are governed by `A.6.4`, explanation governance, or later world/gate governing patterns
-- **Boundary notes:** textual same-regime rewrites stay with `ConservativeRetextualization`; explanation-facing renderings stay with `ExplanationFaithfulnessProfile`; bounded comparative review cases apply `E.17.ID.CR ComparativeReading`; described-entity changes apply `A.6.4`; decode-mediated world/gate consequences remain bounded by explicit evidence and downstream handoff.
+- **Coordinates with:** `ConservativeRetextualization`, `A.6.3.CSC Controlled Semantic Coarsening`, `ExplanationFaithfulnessProfile`, `E.17.ID.CR ComparativeReading`, `A.6.4`, `F.9`, `F.9.1`, `E.18`, `A.15`, `A.10`, `B.3`, `B.5.2`, `A.20`, `A.21`, `C.27`, `A.3.3`, explicit decoding-access review
+- **Impact radius:** primary touch `A.6.3`; selected edit companion `A.6.4`; secondary review support `C.2.7`, `E.17.0`, `E.17`, `F.9`, decode-mediated recoverability review, TGA path interpretation under `E.18`, and project-side exits under the exact neighboring pattern when live
+- **Boundary notes:** textual same-regime rewrites stay with `ConservativeRetextualization`; explanation-facing renderings stay with `ExplanationFaithfulnessProfile`; bounded comparative review cases apply `E.17.ID.CR ComparativeReading`; described-entity changes apply `A.6.4`; coarsened source renderings apply `A.6.3.CSC`; bridge, work, evidence, assurance, gate, abductive, temporal, dynamics, and TGA-path consequences remain bounded by explicit evidence and downstream handoff.
 
 ### A.6.3.RT:12a - Boundary with quantum-like state-representation shortcuts
 
@@ -11448,6 +11494,18 @@ A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicVi
 
 **Used by.**
 E.18 (E.TGA StructuralReinterpretation and other reinterpretation nodes); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; additional species for architecture and governance reinterpretations.
+
+**Governed object in plain terms.** One effect-free episteme-to-episteme retargeting where the source episteme and receiving episteme intentionally describe different but bridge-related entities.
+
+**Governing move in plain terms.** Change the occupant of `DescribedEntitySlot` under a declared `KindBridge` and invariant, while making preserved commitments, withdrawn commitments, admissible predicate changes, and source-bearing reopen conditions visible.
+
+**Use this when.** Use this pattern when a representation, view, functional description, model, diagram, `StructuralReinterpretation`, or other episteme-facing item no longer describes the same entity, but a declared bridge and invariant make a controlled retargeting admissible.
+
+**What goes wrong if missed.** A changed target is treated as "the same thing in another form", so readers inherit claims, gates, evidence, work authority, or TGA-path currentness that the new described entity does not support.
+
+**What this buys.** One honest retargeting relation: the reader can see the source entity, receiving entity, bridge, invariant, preserved commitments, lost or new commitments, and the exact admissible use that remains.
+
+**Not this pattern when.** Not this pattern when the described entity is preserved and the main change is wording (`A.6.3.CR`), representation scheme or reasoning medium (`A.6.3.RT`), controlled coarsening (`A.6.3.CSC`), explanation mode (`E.17.EFP`), bridge-supported comparison without retargeting (`F.9` or `F.9.1`), work (`A.15`), evidence (`A.10`), assurance (`B.3`), gate decision (`A.21`), temporal adequacy (`C.27`), or dynamics/control law (`A.3.3`).
 
 ### A.6.4:1 - Problem frame
 
@@ -11503,13 +11561,13 @@ Without a dedicated pattern for EpistemicRetargeting:
 ### A.6.4:3 - Forces
 
 * **Changing the described entity vs constructing something new.**
-  Retargeting should express **“describing a different but bridge-related entity through an explicit bridge”**, not arbitrary construction of a new Intension/episteme. The invariant lives **across** the pair of entities, not inside a single episteme.
+  Retargeting expresses **“describing a different but bridge-related entity through an explicit bridge”**, not arbitrary construction of a new Intension/episteme. The invariant lives **across** the pair of entities, not inside a single episteme.
 
 * **Invariants may be lossy but must be explicit.**
   A retargeting is often **lossy** (e.g. data→model, signal→spectrum, structural→functional view), but:
 
   * it must preserve an explicitly declared invariant (energy, behaviour, statistics),
-  * any additional strengthening must be modelled as a change of Intension plus new D/S, not as a hidden side‑effect.
+  * any additional commitment must be modelled as a change of Intension plus new D/S, not as a hidden side-effect.
 
 * **Bridges and CL‑penalties.**
   Retargeting often crosses:
@@ -11530,17 +11588,46 @@ Without a dedicated pattern for EpistemicRetargeting:
 #### A.6.4:4.1 - Informal definition
 
 > **Definition (informal).**
-> `U.EpistemicRetargeting` is the **describedEntity‑retargeting species** of `U.EffectFreeEpistemicMorphing`.
-> A `U.EpistemicRetargeting r : X→Y`:
+> `U.EpistemicRetargeting` is the **describedEntity-retargeting species** of `U.EffectFreeEpistemicMorphing`.
+> A `U.EpistemicRetargeting r : X->Y`:
 >
 > * takes an input episteme `X` and produces an output episteme `Y`,
-> * **changes** the occupant of `DescribedEntitySlot` (`describedEntityRef(Y) ≠ describedEntityRef(X)`),
-> * relates the kinds of the old and new described entities via an explicit `KindBridge` in the appropriate ReferencePlane,
+> * **changes** the occupant of `DescribedEntitySlot` (`describedEntityRef(Y) != describedEntityRef(X)`),
+> * relates the kinds of the source and receiving described entities via an explicit `KindBridge` in the appropriate ReferencePlane,
 > * preserves a declared **invariant** across the pair of entities (e.g. energy, behaviour, sufficient statistics),
-> * is **effect‑free** at the level of Work/Mechanism (EFEM discipline),
+> * is **effect-free** at the level of Work/Mechanism (EFEM discipline),
 > * and composes functorially with other retargetings and viewings.
 
-In C.2.1 terms, `U.EpistemicRetargeting` **re‑indexes** an episteme along a base‑level bridge: it moves the `DescribedEntitySlot` (and often the `<DescribedEntitySlot, GroundingHolonSlot>` bundle) along a `KindBridge`, while re‑expressing `content : U.ClaimGraph` and `referenceScheme` so that the declared invariant continues to hold at the new target.
+In C.2.1 terms, `U.EpistemicRetargeting` **re-indexes** an episteme along a base-level bridge: it moves the `DescribedEntitySlot` (and often the `<DescribedEntitySlot, GroundingHolonSlot>` bundle) along a `KindBridge`, while re-expressing `content : U.ClaimGraph` and `referenceScheme` so that the declared invariant continues to hold at the new target.
+
+#### A.6.4:4.1.a - Retargeting witness decision block
+
+When a retargeting claim is load-bearing, the receiving text makes these decision-block fields recoverable:
+
+| Field | Required reading |
+| --- | --- |
+| `sourceEpistemeOrPublication` | The source `U.Episteme`, `U.EpistemePublication`, episteme-lane `U.View`, or exact source publication being retargeted or cited. |
+| `receivingEpistemeOrPublication` | The receiving episteme, publication, view, diagram, table, functional description, explanation, `StructuralReinterpretation`, or TGA-facing publication item. |
+| `sourceDescribedEntity` | The described entity before retargeting. |
+| `receivingDescribedEntity` | The described entity after retargeting. |
+| `kindBridgeAndInvariant` | The `KindBridge`, reference-plane relation, and invariant that make the retargeting admissible. |
+| `groundingAndContext` | Grounding holon, bounded context, reference plane, reference scheme, viewpoint, and view as far as the intended use needs. |
+| `claimOrCommitmentUnderTest` | The claim, invariant, commitment, relation, or project-side use whose retargeted support is being judged. |
+| `preservedCommitments` | What the receiving item still carries from the source under the declared invariant. |
+| `withdrawnOrNewCommitments` | What the receiving item drops, narrows, adds, widens, or changes. |
+| `admissiblePredicateChanges` | Which predicates or claim forms become admissible or inadmissible after the target changes. |
+| `supportPosture` | The source-support, bridge-support, or invariant-support posture for the exact intended use. |
+| `retargetingWitness` | The reason the changed described-entity reading is supportable now. |
+| `counterWitness` | Any fact that weakens retargeting support, such as missing bridge, invariant failure, unsupported predicate transfer, source contradiction, or hidden work/evidence/gate reliance. |
+| `lossAndRecoverability` | Preserved distinctions, lost distinctions, recoverability target, recoverability evidence, and source-bearing reopen condition. |
+| `admissibleUse` | The exact use that remains admissible now. |
+| `nonAdmissibleUse` | The downstream work, evidence, gate, assurance, bridge, decision, abductive, TGA-path, temporal, or dynamics use that is not carried by the current item. |
+| `neighboringPatternHandoff` | The FPF pattern that carries the live neighboring claim, when one is live. |
+| `remainingAdmissibleReaderAction` | One short plain line saying what the reader may now do or which neighboring pattern now carries the live claim. |
+
+The decision block is not a new FPF kind, record, profile, publication form, or hidden support object. It is a recoverable field set for retargeting cases. Ordinary local retargeting can stay compact when the source entity, receiving entity, bridge, invariant, and remaining reader action are already explicit.
+
+If the bridge or invariant is insufficient for the intended use, the receiving item can still be useful, but the current disposition is source-bearing reopen, bridge support, controlled coarsening, report-only use, exploratory use, or named neighboring-pattern handoff. Do not keep an unnamed middle state where the retargeted item remains rhetorically useful but no FPF disposition is stated.
 
 #### A.6.4:4.2 - Signature (A.6.0 / A.6.5 alignment)
 
@@ -11652,7 +11739,7 @@ Then:
    * move to different abstraction planes or ReferencePlanes (with Bridges and CL penalties declared),
    but **MUST NOT** violate the declared invariant.
 
-3. Any intended change that **strengthens** commitments about `Inv` beyond what is derivable from `X` **is not a valid EpistemicRetargeting**. It must be modelled as:
+3. Any intended change that adds commitments about `Inv` beyond what is derivable from `X` **is not a valid EpistemicRetargeting**. It must be modelled as:
    * a change of Intension (new D/S pair under A.7/E.10.D2), or
    * a chain of retargetings and Intension updates explicitly recorded in KD‑CAL/LOG‑CAL.
 
@@ -11738,7 +11825,25 @@ Any attempt to apply a retargeting outside this Applicability profile is **ill�
    * Retargeting MAY depend on outputs produced by `U.Mechanism` (e.g., computing a Fourier transform, fitting a model), but those are separate Work/Mechanism steps.
    * `U.EpistemicRetargeting` itself remains **effect‑free**: it rearranges epistemes, slots and ClaimGraphs, but does not perform measurements or actuation.
 
-### A.6.4:5 - Archetypal grounding (Tell–Show–Show)
+#### A.6.4:4.4 - Boundary with representation, explanation, TGA, and neighboring claims
+
+`U.EpistemicRetargeting` is triggered by changed described entity, described-entity kind, ontology frame, admissible predicate set, or invariant-bearing target. It is not triggered by changed wording, changed representation scheme, changed explanation mode, or publication formatting alone.
+
+Boundary rules:
+- if the described entity is preserved and the main change is representation scheme or reasoning medium, use `A.6.3.RT`;
+- if the described entity is preserved and the main change is explanation mode, explanatory stance, or explanation-facing publication, use `E.17.EFP`;
+- if the source and receiving items are only bridge-supported comparison, analogy, equivalence, or substitution support, use `F.9` or `F.9.1` instead of reading the bridge as identity;
+- if the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
+- if decoded or latent output is readable but not tied to source claim, access route, recoverability evidence, use-support value, and remaining reader action, keep it report-only, exploratory, source-bearing reopen, or in the named neighboring pattern;
+- if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting support by themselves;
+- if changed problem formulation changes abductive prompt, candidate generation, rival-set formation, selected prime hypothesis, plausibility filtering, or abductive reopen, use `B.5.2`;
+- if the receiving item is used as work, evidence, assurance, gate passage, temporal claim, dynamics law, or control relation, use `A.15`, `A.10`, `B.3`, `A.21`, `C.27`, `A.3.3`, or the exact neighboring governing pattern.
+
+`StructuralReinterpretation` in `E.18` receives retargeting semantics from this pattern. It is not a TGA-local retargeting kind and not proof that the source and receiving items describe the same entity.
+
+### A.6.4:5 - Archetypal grounding (Tell-Show-Show)
+
+
 
 **Tell.**
 EpistemicRetargeting captures **“same invariant, different described entity”** moves:
@@ -11812,7 +11917,7 @@ Any pattern that claims to define `U.EpistemicRetargeting` **SHALL**:
 * and state its Applicability profile (EoI‑pairs, contexts, viewpoints, representation schemes, invariants).
 
 **CC‑A.6.4‑2 - Slot‑level read/write discipline.**
-For each species of EpistemicRetargeting, authors **MUST**:
+Each species of EpistemicRetargeting **MUST**:
 * list the SlotKinds it **reads** (at least `DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`, plus any C.2.1+ slots used),
 * list the SlotKinds it **writes** (at least `DescribedEntitySlot`, typically also `ClaimGraphSlot`, `ReferenceSchemeSlot`, and `meta`),
 * state explicitly how `GroundingHolonSlot` and `ViewpointSlot` behave (preserved vs bridged),
@@ -11825,7 +11930,7 @@ Each species SHALL:
 * sketch how invariant preservation is checked or approximated (e.g. through proofs, tests, or statistical guarantees).
 
 **CC‑A.6.4‑4 - SquareLaw‑retargeting witnesses.**
-For retargetings that interact with E.TGA or other graph‑level transductions, authors **MUST**:
+Retargeting species that interact with E.TGA or other graph-level transductions **MUST**:
 * describe the commutative squares (or more general diagrams) that express “evaluate then retarget = retarget then evaluate” up to equivalence,
 * identify the corresponding SquareLaw‑retargeting witnesses and how they are represented as epistemes.
 
@@ -11840,24 +11945,36 @@ For retargetings over `…Description`/`…Spec` epistemes:
 * Any species that leaves `describedEntityRef` unchanged is **not** a conformant EpistemicRetargeting; it belongs to `U.EpistemicViewing` (A.6.3) or another EFEM species.
 * Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`/`U.WorkEnactment` and cannot be an EpistemicRetargeting.
 
-### A.6.4:9 - Mini‑checklist (for authors)
+**CC-A.6.4-7 - Retargeting witness and reopen discipline.**
+For every load-bearing retargeting use, the source described entity, receiving described entity, `KindBridge`, invariant, preserved commitments, withdrawn or new commitments, admissible predicate changes, support posture, retargeting witness, and source-bearing reopen condition are recoverable. If bridge or invariant support is insufficient for the intended use, the case records source-bearing reopen, bridge support, controlled coarsening, report-only use, exploratory use, or named neighboring-pattern handoff.
 
-When you think you need “retargeting” in FPF, ask:
+**CC-A.6.4-8 - Neighboring-pattern handoff.**
+Retargeting wording does not carry work authority, evidence force, assurance force, gate passage, abductive selection, temporal adequacy, dynamics law, control relation, bridge substitution, or TGA-path currentness unless the exact governing FPF pattern and exact project-side FPF kind or reference are named.
+
+**CC-A.6.4-9 - StructuralReinterpretation boundary.**
+When `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is used, the graph, path, constraint, and gate relations stay with `E.18`, `A.20`, or `A.21`. `StructuralReinterpretation` receives retargeting semantics from `A.6.4`; it is not proof of same-described-entity continuity and not a TGA-local retargeting kind.
+
+### A.6.4:9 - Mini-checklist (for use)
+
+When you think you need "retargeting" in FPF, ask:
 
 1. **Does `describedEntityRef` change?**
    If no, this is Viewing (A.6.3), not Retargeting.
 
-2. **Is there a `KindBridge` between old and new entities?**
-   If not, you probably need to introduce one in Part F or rethink the Intension, not fudge a retargeting.
+2. **Is there a `KindBridge` between source and receiving entities?**
+   If not, add or select the bridge in Part F, or revise the Intension instead of treating the relation as retargeting.
 
 3. **What invariant are you preserving?**
-   Write it down in KD‑CAL/LOG‑CAL terms. If you cannot, retargeting is underspecified.
+   Write it down in KD-CAL/LOG-CAL terms. If you cannot, retargeting is underspecified.
 
-4. **How do `GroundingHolonRef`, context and viewpoint behave?**
-   Explicitly state whether they stay the same, move along Bridges, or are out of scope.
+4. **How do `GroundingHolonRef`, context, and viewpoint behave?**
+   State whether they stay the same, move along Bridges, or are out of scope.
 
 5. **Can the operation be factored as Mechanism + pure retargeting?**
-   If the step needs computation (FFT, model fitting), separate the Mechanism from the EpistemicRetargeting.
+   If the step needs computation such as FFT or model fitting, separate the Mechanism from the EpistemicRetargeting.
+
+6. **What remains admissible for the reader?**
+   State the remaining reader action, and name source-bearing reopen or a neighboring pattern when the bridge, invariant, or source support is insufficient for the intended use.
 
 ### A.6.4:10 - Relations
 
