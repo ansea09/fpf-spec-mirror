@@ -42,18 +42,10 @@ jobs:
         run: |
           set -euo pipefail
 
-          SHA=$(python - <<'PY'
-import json
-import urllib.request
-
-url = "https://api.github.com/repos/ailev/FPF/commits/main"
-
-with urllib.request.urlopen(url) as response:
-    payload = json.load(response)
-
-print(payload["sha"])
-PY
-          )
+          SHA="$(
+            curl -fsSL https://api.github.com/repos/ailev/FPF/commits/main \
+              | python -c 'import json, sys; print(json.load(sys.stdin)["sha"])'
+          )"
 
           echo "sha=$SHA" >> "$GITHUB_OUTPUT"
           echo "Upstream SHA: $SHA"
