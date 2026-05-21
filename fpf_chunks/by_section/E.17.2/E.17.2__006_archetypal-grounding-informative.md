@@ -1,0 +1,72 @@
+---
+chunk_kind: "child"
+pattern_id: "E.17.2"
+pattern_title: "TEVB — Typical Engineering Viewpoints Bundle"
+section_id: "E.17.2:5"
+section_title: "Archetypal grounding  (informative)"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.17.2/E.17.2__006_archetypal-grounding-informative.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
+  - "E.17.2:5 — Archetypal grounding  (informative)"
+line_start: 55620
+line_end: 55650
+dependencies:
+  - "A.1"
+  - "A.6.2"
+  - "A.6.4"
+  - "A.7"
+  - "C.2.1"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.1"
+  - "E.18"
+  - "E.TGA"
+  - "F.18"
+  - "U.Episteme"
+  - "U.EpistemeSlotGraph"
+  - "U.MultiViewDescribing"
+  - "U.System"
+  - "U.ViewpointBundleLibrary"
+keywords:
+  - "E.TGA bindings"
+  - "EoIClass = U.Holon"
+  - "Functional/Procedural/Role-Enactor/Module-Interface views"
+  - "ISO 42010 mapping"
+  - "engineering viewpoints"
+  - "holon"
+---
+
+### E.17.2:5 - Archetypal grounding  *(informative)*
+
+A minimal TEVB instantiation looks as follows:
+
+```
+TEVB.EngBundle :
+  U.ViewpointBundle {
+    viewFamilyId   = VF.TEVB.ENG
+    EoIClassSpec   = { h : U.Holon | HolonKind(h) ∈ {System, Episteme} }
+    viewpoints     = { VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface }
+    LibraryRef     = FPF.Core.Viewpoints
+  }
+```
+
+Each `VP.*` viewpoint is a `U.Viewpoint` as in E.17.0, with:
+
+* `viewpointId ∈ {VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}`,
+* `EoIClassSpec` inherited from `TEVB.EngBundle`,
+* `StakeholderFamilies`, `Concerns`, `AllowedEpistemeKinds`, `ConformanceRules` aligned with the subsections above.
+
+**Engineering holon (example).**
+
+Let `Plant_X : U.System` be a production plant, and `ControlStack_X : U.Episteme` be its control and optimisation stack as a holon.
+
+* Under `VP.Functional`, `Plant_X` is viewed as a bundle of capabilities and transductions: material/energy/product flows, optimisation functions, safety envelopes.
+* Under `VP.Procedural`, `Plant_X` is viewed as sets of procedures and control sequences: startup/shutdown, normal operation, emergency handling.
+* Under `VP.RoleEnactor`, `Plant_X` is viewed as networks of role‑enactors: human operators, controllers, subsystems enacting roles in SOPs and safety cases.
+* Under `VP.ModuleInterface`, `Plant_X` is viewed as modules and interfaces: equipment units, pipelines, control modules, buses, and their interfaces and specifications.
+
+Each of these is a **family of D/S‑epistemes** with `DescriptionContext = ⟨DescribedEntityRef(Plant_X or ControlStack_X), BoundedContextRef, ViewpointRef=VP.*⟩` and TEVB ensures that E.TGA and MVPK can rely on this common structure.
+

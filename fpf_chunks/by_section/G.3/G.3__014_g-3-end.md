@@ -1,0 +1,58 @@
+---
+chunk_kind: "child"
+pattern_id: "G.3"
+pattern_title: "CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
+section_id: "G.3:End"
+section_title: "G.3:End"
+source_path: "FPF-Spec.md"
+output_path: "by_section/G.3/G.3__014_g-3-end.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
+  - "G.3:End — G.3:End"
+line_start: 69583
+line_end: 69584
+dependencies:
+  - "A.10"
+  - "A.15.3"
+  - "A.17"
+  - "A.18"
+  - "A.19"
+  - "A.19.CHR"
+  - "B.3"
+  - "B.3.4"
+  - "C.16"
+  - "C.18"
+  - "C.19"
+  - "E.10"
+  - "E.5.1"
+  - "E.5.3"
+  - "F.1"
+  - "F.17"
+  - "F.9"
+  - "G.0"
+  - "G.1"
+  - "G.10"
+  - "G.11"
+  - "G.2"
+  - "G.4"
+  - "G.5"
+  - "G.6"
+  - "G.Core"
+keywords:
+  - "CHR Pack@CG-Frame"
+  - "CHR authoring"
+  - "CSLC legality"
+  - "RSCRTriggerKindId"
+  - "ReferencePlane"
+  - "characteristics"
+  - "coordinates"
+  - "edition pins"
+  - "levels"
+  - "scales"
+  - "typed measurement"
+  - "Φ/CL policy pins"
+---
+
+### G.3:End
+

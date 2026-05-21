@@ -1,0 +1,233 @@
+---
+chunk_kind: "child"
+pattern_id: "A.6.S"
+pattern_title: "U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+section_id: "A.6.S:4"
+section_title: "Solution — two signatures and a small constructor vocabulary"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.6.S/A.6.S__006_solution-two-signatures-and-a-small-constructor-vocabulary.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+  - "A.6.S:4 — Solution — two signatures and a small constructor vocabulary"
+line_start: 16975
+line_end: 17161
+dependencies:
+  - "A.12"
+  - "A.3"
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
+  - "A.6.5"
+  - "A.6.6"
+  - "A.6.B"
+  - "A.7"
+  - "C.2.1"
+  - "E.10"
+  - "E.17"
+  - "E.18"
+  - "E.19"
+keywords:
+  - "ConstructorSignature"
+  - "EFEM"
+  - "MVPK views (no new semantics)"
+  - "TargetSignature"
+  - "appear"
+  - "claim register"
+  - "editioning"
+  - "no epistemic agency"
+  - "quadrant classification is governed by A.6.B)"
+  - "retargeting"
+  - "signature engineering"
+  - "slot/base change lexicon"
+  - "two-signature arrangement"
+---
+
+### A.6.S:4 - Solution — two signatures and a small constructor vocabulary
+
+#### A.6.S:4.0 - Ontology and effect profile — constructor operators are epistemes; enactment is Work by transformer Systems
+
+This pattern relies on **Strict Distinction** (A.7) and the **transformer quartet** (A.3):
+
+* **ConstructorSignature (operator description; intensional, D/S-plane).**
+  The ConstructorSignature is an **Episteme** (typically a Description/Spec) that *describes* a small family of constructor operations for signature evolution.
+  The ConstructorSignature SHALL specify each constructor operation family as an instance/species of `U.EffectFreeEpistemicMorphing` (EFEM; A.6.2) or a declared sub‑species (e.g., A.6.3/A.6.4): **episteme→episteme** morphisms over the `C.2.1 U.EpistemeSlotGraph` positions (`ClaimGraphSlot`, `DescribedEntitySlot`, `GroundingHolonSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) plus attached meta/edition fields.
+  As EFEM, constructor ops are **effect‑free** in the strict A.6.2 sense: **no Work, no Mechanism application, and no mutation of systems or carriers**.
+  Concretely: an EFEM step *derives* a successor episteme (often a new edition) and its structured delta; the physical act of materialising that successor on carriers (files, repos, registries, releases, SCR/RSCR pins) is **Work** enacted by a transformer System.
+
+  Slot discipline alignment requirement (A.6.5 / C.2.1:7.1): a conforming ConstructorSignature SHALL state (for each constructor operator family) which `C.2.1` slots it may read and which it may write, expressed in SlotKind/ValueKind/RefKind terms, and SHALL declare whether the operator family is a species of A.6.2 / A.6.3 / A.6.4.
+
+* **Enactor (capability) vs enactment (world-contact).**
+  A **System** in a transformer role bears a **Method** that realises the constructor operations (A.3), and it enacts particular steps as **Work / WorkEnactment** on carriers (repos, releases, pins, SCR/RSCR references).
+  This is where traces, review records, evidence bindings, and publication carriers appear.
+
+Therefore:
+
+* A ConstructorSignature **describes** how a TargetSignature may be constructed/evolved; it MUST NOT be written as if it *performs* the construction.
+* Any step that performs measurements, actuation, validation runs, or other side‑effects is **not** an EFEM; model it as `U.Work` or a mechanism, and classify resulting claims with A.6.B.
+
+#### A.6.S:4.1 - Core move: model signature engineering as a separate boundary
+
+In a conforming design, model **two signatures**:
+
+1. **TargetSignature.**
+   The `TargetSignature` you want to stabilize. It is a `U.Signature` per A.6.0: `SubjectBlock`, `Vocabulary`, `Laws`, `Applicability`. It does **not** contain admissibility gates, deontic obligations, or evidence claims (those are routed per A.6.B).
+
+2. **ConstructorSignature.**
+   A *separate* `U.Signature` whose purpose is to describe the **engineering operations** used to construct and evolve the SoI. Intuitively: it is the “interface” of the enabling activity that produces the target interface.
+
+A.6.S names this pairing discipline **U.SignatureEngineeringPair**: a signature engineering arrangement where a ConstructorSignature is explicitly defined for (at least) one Signature‑of‑Interest.
+A.6.S names this pairing discipline **U.SignatureEngineeringPair**: a signature engineering arrangement where a ConstructorSignature is explicitly defined for (at least) one TargetSignature.
+
+Minimal definition (informative): a `U.SignatureEngineeringPair` binds exactly two signature epistemes in the same Context: a **TargetSignature** (the boundary signature under stabilization) and a **ConstructorSignature** (the enabling signature describing the constructor operations used to build/evolve the TargetSignature).
+
+**Terminology note (C.2.1 alignment + twin discipline).**
+This pattern uses `TargetSignature` as the **Tech role label** for “the signature episteme under construction and stabilisation”.
+If a Context wants an explanatory alias, it MAY use **“signature of interest (SoI)”** as a **Plain twin** for `TargetSignature`, but Plain twins are didactic only and MUST NOT appear in conformance/acceptance clauses.
+
+Do not conflate:
+* the **TargetSignature** (a signature episteme that is engineered and published), with
+* the TargetSignature’s **`DescribedEntitySlot`** (C.2.1), which refers to the boundary or entity the signature is *about*; C.2.1 calls this the described entity or entity of interest.
+
+In C.2.1 terms:
+* the TargetSignature is the **episteme** (and its editions) that we engineer and publish;
+* the TargetSignature’s `DescribedEntitySlot` refers to the **entity of interest** (the boundary in the world or model);
+* the TargetSignature’s `GroundingHolonSlot` anchors where/how that boundary description is grounded.
+
+If the “SoI” phrasing risks confusion with C.2.1 “entity‑of‑interest” talk, keep it out of Tech/normative prose and use **TargetSignature** vs **ConstructorSignature** consistently.
+
+**Mint-or-Reuse note (informative).**
+This pattern introduces the following **Tech role labels** in the A.6 cluster:
+* **TargetSignature** — the target boundary signature episteme being stabilised;
+* **ConstructorSignature** — the enabling signature (episteme) describing constructor operations for TargetSignature evolution;
+* **U.SignatureEngineeringPair** — the two‑signature arrangement (TargetSignature + ConstructorSignature).
+
+If any Plain twins are used (e.g., “signature of interest”), they MUST follow the E.10/F.* twin discipline (1:1 mapping per Context, registry entry, and no use on normative surfaces).
+
+The intended shape is:
+
+* TargetSignature is the published boundary signature used by downstream design and realization work.
+* ConstructorSignature is the enabling signature used by authors and reviewers to produce and revise the TargetSignature in a disciplined, reproducible way.
+
+This directly operationalises the idea already hinted in the A.6 cluster relations: A.6.5 and A.6.6 can be read as constructor/enabling operations for building well‑formed signatures. The new step is to **bundle those operations into an explicit ConstructorSignature** rather than leaving them as implicit editorial practice.
+
+#### A.6.S:4.2 - Minimal constructor operation vocabulary
+
+A conforming ConstructorSignature **SHALL** (conceptually) expose a *small, composable* set of operations. At minimum, include two groups of constructor operations, drawn from existing A.6 subpatterns:
+
+**(A) Slot‑level constructor operations** (from A.6.5)
+
+Use the canonical slot verbs to express “what changed” without ambiguity:
+
+* `bind` / `rebind` (Identifier → SlotKind/slot‑instance; name binding only)
+* `fill`
+* `initialize` (first fill)
+* `assign` / `set` / `write` / `update` (subsequent fill; by‑value replacement)
+* `retarget` (Ref slot update; same SlotKind/ValueKind)
+* `substitute` (typed replacement with explicit compatibility claim)
+* `resolve` / `dereference` (Ref → referent)
+* `pass` (parameter filling at call boundaries)
+
+**Avoid “mutate” as a generic edit verb.**
+In Core, `mutate/modify` denotes **referent‑internal change while the slot‑content (Ref handle) stays the same**.
+In edition‑disciplined contexts, prefer “revise / re‑edition + retarget” rather than “mutate”.
+
+Guidance for naming (by slot qualifier) is inherited from A.6.5: e.g., `Edit<SlotQualifier>` for by‑value changes, `Retarget<SlotQualifier>` for ref changes, and avoid collapsing retargeting into generic “editing”.
+
+**(B) Base‑level constructor operations** (from A.6.6)
+
+Make base declarations and their evolution explicit via base‑change verbs such as:
+
+* `declareBase`
+* `withdrawBaseDecl`
+* `rebase`
+* `repointDependent`
+* `rescope`
+* `retime`
+* `refreshWitnesses`
+* `changeBaseRelation`
+
+A ConstructorSignature does not need *all* of these in every use, but it must provide enough to express “what changed” when the SoI’s grounding base, scope, or anchoring assumptions shift.
+
+**Witness refresh note.**
+`refreshWitnesses` is an **edit of witness bindings**, not the generation of new evidence: producing/collecting new witness carriers is **Work**; `refreshWitnesses` only updates the base declaration to reference them.
+
+**Optional but common: view construction operations (A.6.3)**
+
+If the TargetSignature is published via MVPK (recommended), include constructor operations that produce views as **EpistemicViewing** (A.6.3) of the TargetSignature:
+
+* “Emit MVPK faces” as views (PlainView, TechCard, InteropCard, AssuranceLane), explicitly treated as views and governed by E.17 “no new semantics”.
+  In particular:
+  * `PlainView` / `TechCard` / `InteropCard` MUST add no new claims beyond the underlying TargetSignature/Mechanism claim set.
+  * `AssuranceLane` MAY include procedural adjudication guidance and carrier pointers, but any normative pass/fail criteria MUST live canonically in `E-*` claims and be cited by ID.
+
+These are best modeled as view‑producing operations whose output is an MVPK face, with the explicit constraint that the face is a view and therefore does not introduce new claims about the described entity.
+Publishing those faces (commits, releases, registry writes) is Work on carriers; it is not “the signature doing things”.
+
+#### A.6.S:4.3 - Change discipline: Viewing vs Retargeting vs editing
+
+To connect signature engineering to A.6.2–A.6.6, treat changes in four buckets:
+
+1. **Viewing (A.6.3).**
+   Use when you change *presentation* (views, stakeholder cards, projections) while preserving the described entity.
+
+2. **Slot/base construction edits (A.6.5 / A.6.6).**
+   Use when you unpack and make explicit what was implicit (slot kinds, ref modes, base declarations), or when you adjust the SoI’s internal structure without changing what it is “about”.
+
+3. **Editioning + reference retargeting (A.6.5).**
+   Use when the TargetSignature meaningfully changes and you need a **new SoI edition** for downstream coordination. In that case, do not silently mutate the existing edition: mint a successor edition and **retarget references** (`Retarget<…>` in the relevant Ref slots) to the new edition.
+
+4. **Epistemic retargeting / Structural reinterpretation (A.6.4; rarer).**
+   Use only when `DescribedEntityRef` itself changes under an explicit `KindBridge` and stated invariants (e.g., reinterpretation across kinds/planes). This is distinct from ordinary “new version of the same TargetSignature”.
+
+Rule of thumb:
+
+* If the change can be defended as “same TargetSignature, clearer publication”, prefer slot/base construction plus viewing.
+* If the change is “new TargetSignature edition for consumers”, require a new edition plus explicit reference retargeting.
+* If the change is “different described entity / different kind”, use A.6.4 retargeting under `KindBridge` with explicit invariants.
+
+**EFEM discipline.**
+Every constructor operation family declared as an EFEM MUST declare `describedEntityChangeMode ∈ {preserve, retarget}` (A.6.2).
+**Editioning is orthogonal**: you MAY mint a new edition even under `preserve`, but if you do, downstream references MUST be updated explicitly via slot discipline (A.6.5).
+Any operation that performs measurements/actuation/side‑effects MUST be modeled as Work/Mechanism, not as a constructor op.
+
+#### A.6.S:4.4 - Publication and claim discipline for reproducibility
+
+A conforming signature engineering arrangement **SHOULD** include two publication‑adjacent constraints:
+
+1. **MVPK publication for the TargetSignature (E.17).**
+   Publish the TargetSignature through MVPK faces as `U.View` projections with viewpoint accountability (`viewRef` + `viewpointRef`). Each face must be explicitly treated as a view and must not introduce new semantic commitments beyond the underlying signature/mechanism claim set (per E.17 “no new semantics”).
+
+2. **Claim Register for boundary discipline (A.6.B).**
+   Maintain a claim register that assigns stable identifiers to atomic claims and routes them into the correct quadrant (L/A/D/E). The engineering benefit is that changes to the SoI can be tracked as changes to specific claims rather than as unstructured prose diffs.
+
+This keeps signature engineering aligned with A.6.B’s separation:
+
+* **Laws** live in the SoI (L‑claims).
+* **Admissibility** and operational gate conditions live in mechanisms (A‑claims).
+* **Deontics** are about agents (D‑claims), not about epistemes.
+* **Evidence/work effects** are recorded as outcomes of work (E‑claims), not smuggled into signatures.
+
+#### A.6.S:4.5 - Construction flow as a transduction graph fragment (informative)
+
+If a team already models workflows as E.TGA transduction graphs, the “constructor graph” of A.6.S is a special case:
+
+* EFEM constructor steps can be represented as `U.Transduction(kind=Signature)` vertices (A.6.0), because they are intensional episteme→episteme morphisms (A.6.2).
+* Concrete carrier writes (commits, releases, registry writes, SCR/RSCR pinning) are `U.Transduction(kind=Work)` / `U.WorkEnactment` vertices (world‑contact).
+* Validations/admission checks live at `U.Transduction(kind=Check)` nodes realised as `OperationalGate(profile)` with a `DecisionLog`.
+* Any `DescribedEntityRef`/kind change is a `StructuralReinterpretation` vertex (E.TGA’s use of A.6.4), with explicit `KindBridge` + invariants/witnesses.
+
+This mapping is optional; A.6.S stays usable as a lightweight discipline even without adopting E.TGA structure.
+
+#### A.6.S:4.6 - State during construction (informative)
+
+Do not mint a new kernel “signature state” unless you need it.
+In most cases, use:
+
+* **edition** + explicit continuity/withdrawal links for semantic evolution, and
+* a coarse **status** (`Draft`/`Review`/`Stable`/`Deprecated`) for process signalling.
+
+If a Context needs a finer state-change policy (e.g., “proposed → reviewed → published → frozen”), model it as Work policy in the ConstructorSignature’s Applicability or as a Context‑local state-change episteme; keep the TargetSignature semantics unchanged.
+Where state-change policy is normative, prefer expressing it as a **role-state graph** (A.2.1) borne by the relevant episteme role, rather than minting a new core “signature state”.
+

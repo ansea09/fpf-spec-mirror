@@ -1,0 +1,46 @@
+---
+chunk_kind: "child"
+pattern_id: "E.17.AUD.OOTD"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+section_id: "E.17.AUD.OOTD:8"
+section_title: "Common Anti-Patterns"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__009_common-anti-patterns.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+  - "E.17.AUD.OOTD:8 — Common Anti-Patterns"
+line_start: 58602
+line_end: 58608
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.15.4"
+  - "A.16.0"
+  - "A.20"
+  - "A.21"
+  - "A.6.3"
+  - "A.6.3.CR"
+  - "A.6.3.RT"
+  - "A.6.P"
+  - "A.7"
+  - "B.3"
+  - "C.2.2a"
+  - "E.10"
+  - "E.10.SEMIO"
+  - "E.14"
+  - "E.17.AUD.LHR"
+  - "E.17.EFP"
+  - "E.17.ID.CR"
+  - "E.19"
+  - "F.18"
+keywords:
+---
+
+### E.17.AUD.OOTD:8 - Common Anti-Patterns
+
+- **Local-repair inflation.** Opening publication-unit discipline when one overloaded local lexical head or qualifier is still the real defect.
+- **Work-process smuggling.** Letting a note begin as architecture, incident review, or comparison work and end as rollout, approval, or execution guidance without naming the transition.
+- **Support-pattern replacement.** Treating this pattern as if it replaced view, face, or carrier architecture, same-entity transform rules, explanation governance, bridge rules, or downstream decision texts.
+- **Overgrowth by declaration.** Stacking heavier fields onto a unit that still cannot keep one stable primary described entity, one move, and one outside-work boundary in place.
+

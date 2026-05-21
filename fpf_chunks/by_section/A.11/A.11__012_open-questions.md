@@ -1,0 +1,30 @@
+---
+chunk_kind: "child"
+pattern_id: "A.11"
+pattern_title: "Ontological Parsimony (C‑5)"
+section_id: "A.11:11"
+section_title: "Open Questions"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.11/A.11__012_open-questions.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "A.11 — Ontological Parsimony (C‑5)"
+  - "A.11:11 — Open Questions"
+line_start: 18869
+line_end: 18874
+dependencies:
+  - "A.11"
+  - "U.Type"
+keywords:
+  - "Occam's razor"
+  - "essential concepts"
+  - "minimalism"
+  - "simplicity"
+---
+
+### A.11:11 - Open Questions
+
+1. **Hard size cap** — should the kernel enforce an absolute limit (e.g., 64 live types) beyond which any new entry forces retirement of an old one?
+2. **Semantic similarity tooling** — can embedding models automate Gate G‑2 overlap detection reliably across domains?
+3. **Gate calibration** — is default Sunset Timer (4 quarters) optimal for research‑oriented patterns with slower adoption and evidence accumulation?
+

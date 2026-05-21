@@ -1,0 +1,52 @@
+---
+chunk_kind: "child"
+pattern_id: "C.25"
+pattern_title: "Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
+section_id: "C.25:9"
+section_title: "Consequences"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.25/C.25__010_consequences.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
+  - "C.25:9 — Consequences"
+line_start: 42343
+line_end: 42351
+dependencies:
+  - "A.15"
+  - "A.16.0"
+  - "A.18"
+  - "A.2.6"
+  - "A.6.1"
+  - "A.6.Q"
+  - "B.3"
+  - "C.16"
+  - "C.17"
+  - "C.18"
+  - "C.19"
+  - "C.2.2a"
+  - "C.26.3"
+  - "F.9"
+  - "F.9.1"
+keywords:
+  - "admissible quality-family use"
+  - "characteristic plus scope"
+  - "endpoint classification"
+  - "failure mode"
+  - "ility"
+  - "mechanism/status slots"
+  - "proxy metric"
+  - "quality bundle"
+  - "quality family"
+  - "viability envelope"
+---
+
+### C.25:9 - Consequences
+
+| Benefit | Trade-off / Mitigation |
+|---|---|
+| **Category hygiene.** Scope, measurement, mechanism, and status no longer collapse into one term. | Slightly heavier authoring surface; mitigation: only composite cases need the full bundle. |
+| **Portable comparison.** CHR measures compare legally, while scope remains governed by USM set algebra. | Authors must declare scales and scope explicitly. |
+| **Cleaner gating.** Method/work guards can read the same structure without hidden semantics. | Requires discipline in separating guard factors. |
+| **Better endpoint classification.** `A.6.Q` can terminate in either one characteristic or one Q-Bundle with a clear endpoint pattern. | Requires a first-pass endpoint decision during authoring. |
+

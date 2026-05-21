@@ -1,0 +1,66 @@
+---
+chunk_kind: "child"
+pattern_id: "B.5.2"
+pattern_title: "Abductive Loop"
+section_id: "B.5.2:4"
+section_title: "Solution - Structured abductive micro-cycle"
+source_path: "FPF-Spec.md"
+output_path: "by_section/B.5.2/B.5.2__005_solution-structured-abductive-micro-cycle.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "B.5.2 — Abductive Loop"
+  - "B.5.2:4 — Solution - Structured abductive micro-cycle"
+line_start: 32036
+line_end: 32070
+dependencies:
+  - "A.10"
+  - "A.16"
+  - "A.6.P"
+  - "B.3.3"
+  - "B.4.1"
+  - "B.5"
+  - "B.5.2.0"
+keywords:
+  - "abduction"
+  - "candidate hypotheses"
+  - "explanatory prompt"
+  - "origin trace"
+  - "plausibility filters"
+  - "route-to-hypothesis"
+---
+
+### B.5.2:4 - Solution - Structured abductive micro-cycle
+
+`B.5.2` defines abduction as a typed, iterative micro-cycle that begins from an admissible `U.AbductivePrompt`, expands a candidate set, filters that set by explicit plausibility criteria, and publishes one selected conjecture as a new `U.Episteme` with `AssuranceLevel:L0`.
+
+#### B.5.2:4.1 - Nature of abduction in FPF
+
+In FPF, abduction is **inference to a presently most plausible candidate explanation or solution** under a declared prompt. It is neither arbitrary guessing nor hidden inspiration. The output is not yet an established result; it is a disciplined conjecture prepared for downstream deduction, testing, or refinement.
+
+#### B.5.2:4.2 - Four-step micro-cycle
+
+| Step | Core activity | Required publication outcome |
+|---|---|---|
+| **1. Frame the prompt** | State the initiating `U.AbductivePrompt` precisely enough that the unexplained contrast, opportunity, or probe pressure is explicit. | A prompt record with open question, scope notes, and provenance. |
+| **2. Generate candidate hypotheses** | Produce multiple candidate conjectures that could resolve the prompt. | A visible candidate set, even if lightweight. |
+| **3. Apply plausibility filters** | Compare candidates against explicit plausibility criteria. | A short rationale that records why some candidates remain live and others are rejected. |
+| **4. Select and publish the prime hypothesis** | Choose one candidate for downstream work and instantiate it as a hypothesis-bearing episteme. | A new `U.Episteme` at `AssuranceLevel:L0`, linked back to the prompt and selection rationale. |
+
+The loop is intentionally iterable. A selected prime hypothesis may later be replaced, narrowed, or reopened if deduction, probe work, or evidence reveals a better rival.
+
+#### B.5.2:4.3 - Entry discipline via `U.AbductivePrompt`
+
+`AnomalyStatement` remains a canonical prompt species, but it is not the only one. `B.5.2` also accepts the broader prompt species governed by `B.5.2.0`, such as `ProblemCuePrompt`, `OpportunityCuePrompt`, and `ProbeCuePrompt`. This broadens entry without dissolving type discipline.
+
+#### B.5.2:4.4 - Plausibility filters
+
+The filtering step is local and context-sensitive, but the criteria used **SHALL** be explicit. Typical filters include:
+
+- **Parsimony.** Does the candidate introduce only the additional structure that the prompt requires?
+- **Explanatory reach.** How much of the prompt does the candidate actually account for?
+- **Consistency with established constraints.** Does the candidate avoid collision with already trusted pillars, mechanisms, or scope declarations?
+- **Falsifiability / probeability.** Does the candidate create a path for deduction, testing, contrast, or evidence acquisition?
+- **Scope fit.** Is the candidate framed for the declared prompt scope rather than for an inflated or shifted target?
+
+No one filter is universally decisive. The pattern only requires that at least two filters be declared when a prime hypothesis is selected.
+

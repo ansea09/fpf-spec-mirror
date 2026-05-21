@@ -1,0 +1,29 @@
+---
+chunk_kind: "child"
+pattern_id: "E.13"
+pattern_title: "Pragmatic Utility & Value Alignment"
+section_id: "E.13:End"
+section_title: "E.13:End"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.13/E.13__011_e-13-end.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "E.13 — Pragmatic Utility & Value Alignment"
+  - "E.13:End — E.13:End"
+line_start: 53857
+line_end: 53859
+dependencies:
+  - "E.12"
+  - "E.2"
+keywords:
+  - "Goodhart's Law"
+  - "MVE"
+  - "Proxy-Audit Loop"
+  - "pragmatic"
+  - "utility"
+  - "value"
+---
+
+### E.13:End
+
+

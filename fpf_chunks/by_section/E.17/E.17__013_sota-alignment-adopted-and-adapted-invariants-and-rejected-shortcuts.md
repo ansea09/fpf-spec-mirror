@@ -1,0 +1,51 @@
+---
+chunk_kind: "child"
+pattern_id: "E.17"
+pattern_title: "Multi‑View Publication Kit"
+section_id: "E.17:12"
+section_title: "SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.17/E.17__013_sota-alignment-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "E.17 — Multi‑View Publication Kit"
+  - "E.17:12 — SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
+line_start: 56305
+line_end: 56318
+dependencies:
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.9"
+  - "A.7"
+  - "E.10"
+  - "E.10.D2"
+  - "E.10.SEMIO"
+  - "E.17.0"
+  - "E.17.1"
+  - "E.17.2"
+  - "E.17.AUD"
+  - "E.17.EFP"
+  - "E.17.ID.CR"
+  - "E.8"
+  - "F.9"
+  - "F.9.1"
+  - "U.EffectFreeEpistemicMorphing"
+  - "U.EpistemicViewing"
+  - "U.MultiViewDescribing"
+keywords:
+---
+
+### E.17:12 - SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts
+
+**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
+
+| Source idea and current source | Local FPF invariant and practical local test | Adopted, adapted, or rejected shortcut |
+| --- | --- | --- |
+| Joint ISO, IEC, and IEEE 42010:2022 architecture-description practice separates architecture description, stakeholder concern, viewpoint, view, model kind, correspondence, and correspondence rule instead of letting one readable model face stand in for all of them. | MVPK publishes one source-pinned face over an existing source `U.Episteme` or `U.View`; every load-bearing face names its publication `U.Viewpoint` and the `PublicationVPId` reference when that reference is used, names concerns, keeps `U.View`, viewpoint, carrier work, rendering work, correspondence support, concrete exchange envelope, and evidence envelope separate, and passes the no-new-claim diff before any work, evidence, gate, assurance, carrier, or bridge use is considered. | Adopt explicit source, concern, view, viewpoint, correspondence, and model-kind separation; reject the shortcut where a readable architecture or model face becomes evidence, work occurrence, gate passage, release permission, bridge support, or concrete exchange authority by presentation alone. |
+| Profunctor and optic accounts (2017-2019; source maturity = research or theory line, not load-bearing without local witness) support compositional views that compose like arrows. | MVPK adopts only local publication-composition tests: identity, composition witness, no-new-claim diff, monotone promotion, and scope non-widening. | Adopt the five-test publication-composition bundle; reject optics vocabulary as proof by analogy or as a replacement for local witnesses. |
+| Refinement-typed ecosystems (2016+; source maturity = widely used technical practice) keep units, scales, and type-like constraints attached to values. | MVPK publication faces carry pins and CHR and CG anchors; local test: numbers, thresholds, and characteristic claims on faces have units, scales, reference-plane support, and edition support where load-bearing. | Adapt pin discipline; reject readable numbers as self-validating values. |
+| Interoperability and evidence-envelope practice (source maturity = mature standards or practice, depending on concrete envelope) separates exchange format and carrier evidence from the claim being carried. | MVPK faces may expose evidence carriers or exchange envelopes, but concrete formats live outside Part E; local test: the face adds no claim and points back to the governing source or evidence path. | Adapt envelope discipline; reject treating envelope presence as semantic authority, evidence sufficiency, work occurrence, or gate passage. |
+
+(References are selected because they support local MVPK invariants and tests; MVPK remains notation-agnostic.)
+
+

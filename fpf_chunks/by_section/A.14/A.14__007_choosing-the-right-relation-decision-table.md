@@ -1,0 +1,40 @@
+---
+chunk_kind: "child"
+pattern_id: "A.14"
+pattern_title: "Advanced Mereology: Components, Portions, Aspects & Phases"
+section_id: "A.14:6"
+section_title: "Choosing the right relation (decision table)"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.14/A.14__007_choosing-the-right-relation-decision-table.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
+  - "A.14:6 — Choosing the right relation (decision table)"
+line_start: 19267
+line_end: 19280
+dependencies:
+  - "A.1"
+  - "B.1.1"
+keywords:
+  - "ComponentOf"
+  - "PhaseOf"
+  - "PortionOf"
+  - "composition"
+  - "mereology"
+  - "part-of"
+---
+
+### A.14:6 - Choosing the right relation (decision table)
+
+| You want to say…                                             | Use                  | Why                                                                                |
+| ------------------------------------------------------------ | -------------------- | ---------------------------------------------------------------------------------- |
+| “This is a *piece* of the same stuff (lower amount/extent).” | **PortionOf**        | Governed by a measure μ and conservation (Σ‑additive).                             |
+| “This is a *discrete part* that sits *inside* the whole.”    | **ComponentOf**      | Structural parthood; boundary‑respecting, not measured by μ.                       |
+| “This is a *logical part* in a conceptual whole.”            | **ConstituentOf**    | Sections, lemmas, clauses, conceptual assembly.                                    |
+| “This is the *same entity* during a *sub‑interval*.”          | **PhaseOf**          | Temporal slicing with identity continuity.                                         |
+| “This *item belongs to that collection/collective*.”         | **MemberOf**         | Not a building block of the whole; set‑as‑whole via **C.13 (`Γ_m.set`)**, collective action via **B.1.7/A.15**. |
+| “This system *plays a Role or position*.”          | **playsRole** (A.15) | Roles are contextual masks, never parts.                                           |
+
+> **Firewall reminder.** If your sentence is about *who does what*, *how it is done*, or *what happened when* (role, method, or run), you are likely in **A.15**. If it is about the **document or carrier** (its pages/sections/versions), you may still be in **A.14** (Episteme mereology).
+
+

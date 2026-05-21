@@ -1,0 +1,55 @@
+---
+chunk_kind: "child"
+pattern_id: "G.1"
+pattern_title: "CG‑Frame‑Ready Generator"
+section_id: "G.1:End"
+section_title: "G.1:End"
+source_path: "FPF-Spec.md"
+output_path: "by_section/G.1/G.1__014_g-1-end.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "G.1 — CG‑Frame‑Ready Generator"
+  - "G.1:End — G.1:End"
+line_start: 68640
+line_end: 68641
+dependencies:
+  - "A.10"
+  - "A.15.3"
+  - "A.19"
+  - "C.17"
+  - "C.18"
+  - "C.19"
+  - "C.23"
+  - "E.10"
+  - "E.19"
+  - "E.8"
+  - "G.0"
+  - "G.10"
+  - "G.11"
+  - "G.2"
+  - "G.3"
+  - "G.4"
+  - "G.5"
+  - "G.Core"
+keywords:
+  - "CGFrameLibraryId"
+  - "CGKitId manifest"
+  - "RSCR linkage surfaces"
+  - "RefreshReadinessCardId"
+  - "ShortlistId"
+  - "SoTA_SetId"
+  - "UTS/Name Cards"
+  - "VariantPoolId"
+  - "and set-surface scaffold"
+  - "edition pins"
+  - "generator"
+  - "generator chassis"
+  - "selector"
+  - "set-return selection"
+  - "set-surface outcome"
+  - "shipping and refresh boundaries"
+  - "six-card kit (M1-M6)"
+---
+
+### G.1:End
+

@@ -1,0 +1,107 @@
+name: Sync FPF spec and build pattern-aware chunks
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Every 6 hours, not at the start of the hour.
+    # Change to "23 */3 * * *" if you want every 3 hours.
+    - cron: "17 */6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/build_pattern_chunks.py"
+      - "tools/validate_fpf_chunks.py"
+      - ".github/workflows/sync-and-build-fpf.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fpf-sync-and-build
+  cancel-in-progress: false
+
+jobs:
+  sync-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout mirror repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Get upstream commit SHA
+        id: upstream
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          SHA=$(python - <<'PY'
+import json
+import urllib.request
+
+url = "https://api.github.com/repos/ailev/FPF/commits/main"
+
+with urllib.request.urlopen(url) as response:
+    payload = json.load(response)
+
+print(payload["sha"])
+PY
+          )
+
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "Upstream SHA: $SHA"
+
+      - name: Download latest FPF-Spec.md
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          curl -fsSL \
+            -o FPF-Spec.md \
+            "https://raw.githubusercontent.com/ailev/FPF/${{ steps.upstream.outputs.sha }}/FPF-Spec.md"
+
+          test -s FPF-Spec.md
+
+      - name: Build pattern-aware chunks
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python tools/build_pattern_chunks.py \
+            --source FPF-Spec.md \
+            --out fpf_chunks \
+            --commit-sha "${{ steps.upstream.outputs.sha }}"
+
+      - name: Validate generated chunks
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python tools/validate_fpf_chunks.py \
+            --source FPF-Spec.md \
+            --chunks fpf_chunks
+
+      - name: Commit spec and chunks if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "fpf-sync-bot"
+          git config user.email "fpf-sync-bot@users.noreply.github.com"
+
+          git add FPF-Spec.md fpf_chunks tools/build_pattern_chunks.py tools/validate_fpf_chunks.py .github/workflows/sync-and-build-fpf.yml
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "chore: sync FPF spec and rebuild pattern-aware chunks"
+          git push

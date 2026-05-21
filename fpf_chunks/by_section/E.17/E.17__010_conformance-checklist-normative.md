@@ -1,0 +1,77 @@
+---
+chunk_kind: "child"
+pattern_id: "E.17"
+pattern_title: "Multi‑View Publication Kit"
+section_id: "E.17:9"
+section_title: "Conformance checklist (normative)"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.17/E.17__010_conformance-checklist-normative.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "E.17 — Multi‑View Publication Kit"
+  - "E.17:9 — Conformance checklist (normative)"
+line_start: 56243
+line_end: 56282
+dependencies:
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.9"
+  - "A.7"
+  - "E.10"
+  - "E.10.D2"
+  - "E.10.SEMIO"
+  - "E.17.0"
+  - "E.17.1"
+  - "E.17.2"
+  - "E.17.AUD"
+  - "E.17.EFP"
+  - "E.17.ID.CR"
+  - "E.8"
+  - "F.9"
+  - "F.9.1"
+  - "U.EffectFreeEpistemicMorphing"
+  - "U.EpistemicViewing"
+  - "U.MultiViewDescribing"
+keywords:
+---
+
+### E.17:9 - Conformance checklist (normative)
+
+`CC-MVPK-FD` is the functional-description guard in §5.1a. It is conditional on a functional-description publication face and must not read as the first universal MVPK gate.
+
+A conformance check is retained only if it changes the next admissible use of the publication face, blocks a concrete overclaim, or preserves a source anchor or reopen condition needed for the declared admissible use.
+
+#### E.17:9.1 - Core ordinary checks
+
+| ID | Requirement | Practical test |
+| --- | --- | --- |
+| **CC‑MVPK‑1 (Viewpoint explicit)** | Each view declares its **Viewpoint** (stakeholders, concerns, conformance) as a publication `U.Viewpoint`. | Cards show `PublicationVPId` (or equivalent publication‑viewpoint field) and concerns. |
+| **CC‑MVPK‑3 (No content extension)** | `PlainView`, `TechCard`, and `InteropCard` add **no new claims** beyond the underlying D-side or S-side epistemes. | Red‑line vs D-side or S-side episteme output (`Describe_ID` or `Specify_DS`) shows only formatting or indexing. |
+| **CC‑MVPK‑4 (Pins & anchors)** | Numbers and thresholds pin {...}. **Lean exception:** at MVPK‑Min or MVPK‑Lite profiles, EditionId MAY remain coarse; ordinal claims are admissible only as compare‑only (no means or z-scores). | Validation shows pins present or compare‑only mode engaged. |
+| **CC‑MVPK‑4j (PublicationScope present)** | Each view **declares `U.PublicationScope`** (USM §6.5). | Field present; presence‑bit green. |
+| **CC‑MVPK‑5 (Carrier anchoring)** | First mention includes **SCR/RSCR** ids when carrier work or rendering work is live. | SCR ids visible on the card when used. |
+
+#### E.17:9.2 - Conditional checks
+
+| ID | Requirement | Practical test |
+| --- | --- | --- |
+| **CC‑MVPK‑0 (Lean publication guard)** | For Lean profiles, a minimal guard runs: (i) set‑returning selection present; (ii) ReferencePlane present; (iii) any crossing cites BridgeId+CL with penalties applied to R only. | Validation report shows presence bits; penalties apply to R only. |
+| **CC‑MVPK‑2 (Functoriality)** | `Emit_s(id)` is identity; `Emit_s(g∘f) = Emit_s(g)∘Emit_s(f)`. | Compose two cards and diff with the card of the composite. |
+| **CC‑MVPK‑3b (Boundary claim‑set integrity)** | If a published arrow is a boundary, interface, or protocol and an A.6.B claim set exists (`L-*`, `A-*`, `D-*`, and `E-*`), then any normative text on faces **MUST** be traceable to that claim set (prefer claim‑ID citations); faces **MUST NOT** become a second boundary specification. | Lint flags uncited normative clauses; faces reduce to {claim‑ID citations + informative commentary}. |
+| **CC‑MVPK‑4b (Lean assurance)** | If `AssuranceLane‑Lite` is used, presence bits for {PathSliceId?, BridgeId?} suffice; full evidence-carrier lists stay with the governing evidence source. | Presence bits visible; required evidence-carrier refs stay outside Lite. |
+| **CC‑MVPK‑4c (Input and Output vs publication)** | Faces **do not** restate Input and Output; they carry **presence‑pins + anchors + EditionId** only. | Face inspection shows no Input and Output duplication. |
+| **CC‑MVPK‑4d (Admissible orders)** | Any selection or comparison on faces **returns sets or admissible partial orders** with a **ComparatorSet** citation. | No hidden scalarization; ComparatorSetRef present. |
+| **CC‑MVPK‑4e (Signature on faces — banned)** | The term **“signature”** is **not used** on faces; use **TechName** or **PlainName**. | Token scan: no “signature” on faces. |
+| **CC‑MVPK‑4f (PC discipline)** | Any numeric or comparable publication uses **Publication characteristics** (PC) and carries pins {unit, scale, reference‑plane, edition}. | Cards show PC fields + pins; validation passes. |
+| **CC‑MVPK‑4g (No axis or dimension)** | Faces avoid “axis”, “dimension”, and “plane” metaphors except **ReferencePlane**; use CHR terms (**Characteristic**, slot, or **CharacteristicSpace**). | Lexical check flags none; only `ReferencePlane` appears. |
+| **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition?`. | Validation shows edition fields populated. |
+| **CC‑MVPK‑4i (Crossings gated)** | ReferencePlane crossings or Context crossings cite **Bridge + CL** policies; penalties apply to **R‑channel** only. | IDs present; R-channel penalty application verified in harness logs. |
+| **CC‑MVPK‑4k (Subset‑of underlier)** | For views about epistemes or capabilities, `PublicationScope ⊆ ClaimScope or WorkScope`; reindexing **does not widen** it. | Subset witness passes; promotion diff shows no widening. |
+| **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | CI shows proof records or witness records; gate validation passes. |
+| **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
+| **CC‑MVPK‑8 (`SurfaceKind` discipline)** | Only **PublicationSurface** or **InteropSurface** are used; faces are named **...View** or **...Card**. | Token scan; no “rendering” or “presentation” as `SurfaceKind` values. |
+| **CC‑MVPK‑9 (Reindexing naturality)** | Reindexing coercions `PromoteView[s→t]` exist, are total, and commute with composition. | Witness shows `PromoteView[s→t]_Z ∘ Emit_s(g∘f) = (Emit_t(g) ∘ Emit_t(f)) ∘ PromoteView[s→t]_X`. |
+| **CC‑MVPK‑10 (Iso‑preservation)** | Isomorphisms in `U` remain isomorphisms under each viewpoint. | Cards show mapped inverses or an iso‑witness. |
+| **CC‑MVPK‑11 (Typing & totality)** | Ill‑typed composites are rejected at `ViewObj_s` rather than weakening functoriality. | Type‑check fails early; no “best‑effort” composition in cards. |
+| **CC‑MVPK‑12 (Bridge+CL on crossings)** | Any cross‑Context view or ReferencePlane-crossing view cites **Bridge + CL** policy ids. | IDs present on `TechCard` or `AssuranceLane`. |
+

@@ -1,0 +1,63 @@
+---
+chunk_kind: "child"
+pattern_id: "C.11"
+pattern_title: "Decision Theory (Decsn-CAL)"
+section_id: "C.11:2"
+section_title: "Problem"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.11/C.11__003_problem.md"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+heading_path:
+  - "C.11 — Decision Theory (Decsn-CAL)"
+  - "C.11:2 — Problem"
+line_start: 38314
+line_end: 38332
+dependencies:
+  - "A.13"
+  - "A.18"
+  - "A.19"
+  - "A.6.5"
+  - "A.6.P"
+  - "C.18"
+  - "C.19"
+  - "C.24"
+  - "C.26"
+  - "C.9"
+  - "G.5"
+keywords:
+  - "ChoiceResult"
+  - "ChoiceRule"
+  - "DecisionSubject"
+  - "OptionSet"
+  - "ValueOfComputation"
+  - "ValueOfInformation"
+  - "choose now"
+  - "comparison basis"
+  - "decision theory"
+  - "non-shared comparison frame"
+  - "probe again"
+  - "probe-worthiness"
+  - "question order"
+  - "reject current set"
+  - "reroute"
+---
+
+### C.11:2 - Problem
+
+Many systems have options on the table but still lack one explicit doctrine for what makes one option rational to choose. They mix together at least four different questions.
+
+One question is still generating candidate options, variants, or open-ended search directions. Another question is governing how broadly a candidate pool should be explored or exploited before narrowing. A third question is planning, sequencing, replanning, or enacting the move once a choice has already been made. The fourth question, and the one governed here, is choosing among already-available options under uncertainty, dependence, and bounded deliberation.
+
+A second distortion appears when decision theory is reduced to one thin slogan about expected utility. Real choosers face evidential and causal distinctions, subjunctive or success-first cases, probe costs, information value, computation value, and situations where the chooser is not just one isolated individual.
+
+Without one explicit place for choice calculus, search, candidate-pool policy, and planning rush into the same question, while the actual doctrine of choosing among live options disappears behind generic talk about rationality.
+
+
+| Force | Tension |
+| --- | --- |
+| Choice doctrine versus option generation | `C.11` must govern choice among already-available options without swallowing `C.18` search and candidate-generation work. |
+| Evidential, causal, and subjunctive dependence | The pattern must stay usable with classical decision language while making room for causal and success-first repairs where correlation is not enough. |
+| Decide now versus probe more | The chooser may need to stop and choose now, or spend more effort on information and computation first. The theory must make that trade legible. |
+| Decision subject versus narrower agent language | The chooser may be one person, one team, one organization, or another collectivity-bearing system. The pattern must not silently force all cases into one narrow `Agent` reading. |
+| Minimal mathematical floor versus premature heavy formalism | The pattern needs a stable object stack for disciplined reasoning and inspection, but it should not pretend that one full quantum-like or geometry-heavy package is already settled. |
+
