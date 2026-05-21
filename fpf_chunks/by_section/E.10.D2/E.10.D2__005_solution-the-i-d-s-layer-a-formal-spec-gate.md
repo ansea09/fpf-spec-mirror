@@ -6,7 +6,7 @@ section_id: "E.10.D2:4"
 section_title: "Solution — the I/D/S layer + a formal Spec‑gate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__005_solution-the-i-d-s-layer-a-formal-spec-gate.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:4 — Solution — the I/D/S layer + a formal Spec‑gate"

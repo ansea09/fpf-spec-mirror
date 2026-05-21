@@ -6,7 +6,7 @@ section_id: "B.1.1:8"
 section_title: "Conformance Checklist (normative checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__009_conformance-checklist-normative-checklist.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:8 — Conformance Checklist (normative checklist)"

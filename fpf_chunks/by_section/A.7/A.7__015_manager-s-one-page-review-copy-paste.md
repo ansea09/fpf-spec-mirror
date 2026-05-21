@@ -6,7 +6,7 @@ section_id: "A.7:14"
 section_title: "Manager’s one‑page review (copy‑paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__015_manager-s-one-page-review-copy-paste.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:14 — Manager’s one‑page review (copy‑paste)"

@@ -6,7 +6,7 @@ section_id: "F.18:25"
 section_title: "SoTA-Echoing (post-2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__027_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:25 — SoTA-Echoing (post-2015 practice alignment)"

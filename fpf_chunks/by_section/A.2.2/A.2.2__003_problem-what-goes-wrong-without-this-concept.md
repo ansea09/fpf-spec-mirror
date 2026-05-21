@@ -6,7 +6,7 @@ section_id: "A.2.2:2"
 section_title: "Problem (what goes wrong without this concept)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_problem-what-goes-wrong-without-this-concept.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:2 — Problem (what goes wrong without this concept)"

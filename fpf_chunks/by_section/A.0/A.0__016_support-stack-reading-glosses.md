@@ -6,7 +6,7 @@ section_id: "A.0:QF.2a"
 section_title: "Support-stack reading glosses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__016_support-stack-reading-glosses.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2a — Support-stack reading glosses"

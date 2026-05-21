@@ -6,7 +6,7 @@ section_id: "E.18:15"
 section_title: "Conformance evidence (how to show you comply)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_conformance-evidence-how-to-show-you-comply.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:15 — Conformance evidence (how to show you comply)"

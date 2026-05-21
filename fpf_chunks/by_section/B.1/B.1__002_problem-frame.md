@@ -6,7 +6,7 @@ section_id: "B.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__002_problem-frame.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:1 — Problem Frame"

@@ -6,7 +6,7 @@ section_id: "F.18:8"
 section_title: "Conformance Checklist (editor aid) — Part I: naming & cards (non‑normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_conformance-checklist-editor-aid-part-i-naming-cards-non-normative.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:8 — Conformance Checklist (editor aid) — Part I: naming & cards (non‑normative)"

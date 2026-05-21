@@ -6,7 +6,7 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and semantic-rewrite account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__008_naming-ontology-and-semantic-rewrite-account.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:6 — Naming, ontology, and semantic-rewrite account"

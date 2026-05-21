@@ -6,7 +6,7 @@ section_id: "A.3.2:12"
 section_title: "Anti‑patterns (and the right move)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__013_anti-patterns-and-the-right-move.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:12 — Anti‑patterns (and the right move)"

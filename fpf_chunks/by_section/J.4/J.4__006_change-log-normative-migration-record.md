@@ -6,7 +6,7 @@ section_id: "J.4:section-005"
 section_title: "Change Log (normative migration record)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__006_change-log-normative-migration-record.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:section-005 — Change Log (normative migration record)"

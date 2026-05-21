@@ -6,7 +6,7 @@ section_id: "F.15:12"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_relations-with-other-patterns.md"
-commit_sha: "LOCAL_TEST"
+commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:12 — Relations (with other patterns)"
