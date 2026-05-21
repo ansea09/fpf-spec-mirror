@@ -4,7 +4,7 @@ on:
   workflow_dispatch: {}
   schedule:
     # Every 6 hours, not at the start of the hour.
-    # Change to "23 */3 * * *" if you want every 3 hours.
+    # For every 3 hours, replace this with: "23 */3 * * *"
     - cron: "17 */6 * * *"
   push:
     branches:
@@ -18,42 +18,92 @@ permissions:
   contents: write
 
 concurrency:
-  group: fpf-sync-and-build
+  group: fpf-sync-and-build-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   sync-and-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - name: Checkout mirror repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Clone mirror repository without JavaScript actions
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -Eeuo pipefail
+          trap 'echo "::error::Failed at line ${LINENO}: ${BASH_COMMAND}"' ERR
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+          BRANCH="${GITHUB_REF_NAME:-main}"
 
-      - name: Get upstream commit SHA
+          echo "Repository: ${GITHUB_REPOSITORY}"
+          echo "Branch: ${BRANCH}"
+
+          git clone \
+            --branch "${BRANCH}" \
+            --single-branch \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            repo
+
+          cd repo
+
+          git config user.name "fpf-sync-bot"
+          git config user.email "fpf-sync-bot@users.noreply.github.com"
+
+          echo "Checked out:"
+          git status --short
+          git branch --show-current
+
+      - name: Check required local tools
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          trap 'echo "::error::Failed at line ${LINENO}: ${BASH_COMMAND}"' ERR
+
+          cd repo
+
+          echo "Python:"
+          python3 --version
+
+          echo "Git:"
+          git --version
+
+          echo "Curl:"
+          curl --version | head -1
+
+          test -f tools/build_pattern_chunks.py
+          test -f tools/validate_fpf_chunks.py
+
+      - name: Get upstream FPF commit SHA
         id: upstream
         shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+          trap 'echo "::error::Failed at line ${LINENO}: ${BASH_COMMAND}"' ERR
 
-          SHA="$(
+          cd repo
+
+          UPSTREAM_SHA="$(
             curl -fsSL https://api.github.com/repos/ailev/FPF/commits/main \
-              | python -c 'import json, sys; print(json.load(sys.stdin)["sha"])'
+              | python3 -c 'import json, sys; print(json.load(sys.stdin)["sha"])'
           )"
 
-          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
-          echo "Upstream SHA: $SHA"
+          if [ -z "${UPSTREAM_SHA}" ]; then
+            echo "::error::Could not resolve upstream SHA"
+            exit 1
+          fi
+
+          echo "sha=${UPSTREAM_SHA}" >> "${GITHUB_OUTPUT}"
+          echo "Upstream SHA: ${UPSTREAM_SHA}"
 
       - name: Download latest FPF-Spec.md
         shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+          trap 'echo "::error::Failed at line ${LINENO}: ${BASH_COMMAND}"' ERR
+
+          cd repo
 
           curl -fsSL \
             -o FPF-Spec.md \
@@ -61,39 +111,63 @@ jobs:
 
           test -s FPF-Spec.md
 
+          echo "Downloaded FPF-Spec.md"
+          wc -l FPF-Spec.md
+          wc -c FPF-Spec.md
+
       - name: Build pattern-aware chunks
         shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+          trap 'echo "::error::Failed at line ${LINENO}: ${BASH_COMMAND}"' ERR
 
-          python tools/build_pattern_chunks.py \
+          cd repo
+
+          python3 tools/build_pattern_chunks.py \
             --source FPF-Spec.md \
             --out fpf_chunks \
             --commit-sha "${{ steps.upstream.outputs.sha }}"
 
+          echo "Generated fpf_chunks:"
+          find fpf_chunks -maxdepth 2 -type f | sort | head -80
+
       - name: Validate generated chunks
         shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+          trap 'echo "::error::Failed at line ${LINENO}: ${BASH_COMMAND}"' ERR
 
-          python tools/validate_fpf_chunks.py \
+          cd repo
+
+          python3 tools/validate_fpf_chunks.py \
             --source FPF-Spec.md \
             --chunks fpf_chunks
 
-      - name: Commit spec and chunks if changed
+      - name: Commit and push if changed
         shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+          trap 'echo "::error::Failed at line ${LINENO}: ${BASH_COMMAND}"' ERR
 
-          git config user.name "fpf-sync-bot"
-          git config user.email "fpf-sync-bot@users.noreply.github.com"
+          cd repo
 
-          git add FPF-Spec.md fpf_chunks tools/build_pattern_chunks.py tools/validate_fpf_chunks.py .github/workflows/sync-and-build-fpf.yml
+          BRANCH="${GITHUB_REF_NAME:-main}"
+
+          git add -A FPF-Spec.md fpf_chunks tools/build_pattern_chunks.py tools/validate_fpf_chunks.py .github/workflows/sync-and-build-fpf.yml
 
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No changes to commit."
             exit 0
           fi
 
+          echo "Files to commit:"
+          git diff --cached --name-status
+
           git commit -m "chore: sync FPF spec and rebuild pattern-aware chunks"
-          git push
+
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin "HEAD:${BRANCH}"
+
+          echo "Pushed changes to ${BRANCH}"
