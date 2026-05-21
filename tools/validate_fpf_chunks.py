@@ -3,10 +3,17 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 
-REQUIRED_PATTERNS = [
+PATTERN_ID_RE = re.compile(
+    r"^(?:[A-Z](?:\.[A-Za-z0-9]+(?:[-_][A-Za-z0-9]+)*)+|G\.Core)$"
+)
+
+# These patterns must have real body chunks under fpf_chunks/by_pattern.
+# C.7 is intentionally NOT here because in the current FPF it is ToC-only.
+REQUIRED_BODY_PATTERNS = [
     "A.1",
     "A.1.1",
     "A.2",
@@ -23,7 +30,6 @@ REQUIRED_PATTERNS = [
     "A.10",
     "A.11",
     "A.15",
-    "C.7",
     "C.24",
     "C.27",
     "C.28",
@@ -31,6 +37,14 @@ REQUIRED_PATTERNS = [
     "E.17.EFP",
     "G.6",
     "G.11",
+]
+
+# These patterns are required by your answer protocol, but they may be either:
+# - a real body pattern, or
+# - a ToC-only navigation entry.
+REQUIRED_TOC_OR_BODY_PATTERNS = [
+    *REQUIRED_BODY_PATTERNS,
+    "C.7",
 ]
 
 REQUIRED_FRONT_MATTER_KEYS = [
@@ -46,6 +60,39 @@ REQUIRED_FRONT_MATTER_KEYS = [
     "dependencies",
     "keywords",
 ]
+
+
+def strip_markdown(text: str) -> str:
+    text = text.strip()
+    text = re.sub(r"\*\*(.*?)\*\*", r"\1", text)
+    text = re.sub(r"\*(.*?)\*", r"\1", text)
+    text = text.replace("`", "")
+    return text.strip()
+
+
+def parse_toc_pattern_ids(source: Path) -> set[str]:
+    """
+    Extract pattern ids from Table of Content rows.
+
+    Example row:
+    | C.7 | **CHR‑CAL – Characterisation Kit** | Draft | ... |
+    """
+    toc_ids: set[str] = set()
+
+    for line in source.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            continue
+
+        cells = [cell.strip() for cell in stripped.strip("|").split("|")]
+        if not cells:
+            continue
+
+        candidate = strip_markdown(cells[0])
+        if PATTERN_ID_RE.match(candidate):
+            toc_ids.add(candidate)
+
+    return toc_ids
 
 
 def read_front_matter(path: Path) -> str:
@@ -137,13 +184,54 @@ def main() -> None:
     if not patterns:
         raise SystemExit("Manifest contains no patterns")
 
-    pattern_ids = {item["pattern_id"] for item in patterns}
+    body_pattern_ids = {item["pattern_id"] for item in patterns}
+    toc_pattern_ids = parse_toc_pattern_ids(source)
 
-    missing = [pattern_id for pattern_id in REQUIRED_PATTERNS if pattern_id not in pattern_ids]
-    if missing:
+    # If your build script later creates toc_only stubs, this validator will accept them too.
+    manifest_toc_only_ids = {
+        item.get("pattern_id")
+        for item in manifest.get("toc_only_patterns", [])
+        if item.get("pattern_id")
+    }
+
+    toc_or_body_ids = body_pattern_ids | toc_pattern_ids | manifest_toc_only_ids
+
+    missing_body_patterns = [
+        pattern_id
+        for pattern_id in REQUIRED_BODY_PATTERNS
+        if pattern_id not in body_pattern_ids
+    ]
+
+    if missing_body_patterns:
         raise SystemExit(
-            "Required FPF patterns were not found in generated chunks: "
-            + ", ".join(missing)
+            "Required body patterns were not found in generated body chunks: "
+            + ", ".join(missing_body_patterns)
+        )
+
+    missing_toc_or_body_patterns = [
+        pattern_id
+        for pattern_id in REQUIRED_TOC_OR_BODY_PATTERNS
+        if pattern_id not in toc_or_body_ids
+    ]
+
+    if missing_toc_or_body_patterns:
+        raise SystemExit(
+            "Required patterns were not found in body chunks, ToC rows, or ToC-only stubs: "
+            + ", ".join(missing_toc_or_body_patterns)
+        )
+
+    toc_only_required = [
+        pattern_id
+        for pattern_id in REQUIRED_TOC_OR_BODY_PATTERNS
+        if pattern_id not in body_pattern_ids
+        and pattern_id in (toc_pattern_ids | manifest_toc_only_ids)
+    ]
+
+    if toc_only_required:
+        print(
+            "WARNING: These required patterns are present only as ToC/navigation entries, "
+            "not as body chunks: "
+            + ", ".join(toc_only_required)
         )
 
     source_line_count = len(source.read_text(encoding="utf-8").splitlines())
@@ -183,7 +271,7 @@ def main() -> None:
 
     print(
         f"OK: validated {len(parent_files)} parent chunks, "
-        f"{len(child_files)} child chunks, {len(patterns)} patterns"
+        f"{len(child_files)} child chunks, {len(patterns)} body patterns"
     )
 
 
