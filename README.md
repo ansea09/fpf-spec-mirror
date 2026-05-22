@@ -1,2 +1,2 @@
 # fpf-spec-mirror
-Зеркало репозитория с FPF. Нужно для того, чтобы подключить RAG в ChatGPT
+Зеркало репозитория с [First Principles Framework]([url](https://github.com/ailev/FPF/blob/main/FPF-Spec.md)) (FPF). Нужно для того, чтобы настроить skills в Codex
