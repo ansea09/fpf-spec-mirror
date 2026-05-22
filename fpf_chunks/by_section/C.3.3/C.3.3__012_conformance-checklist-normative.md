@@ -6,12 +6,12 @@ section_id: "C.3.3:11"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__012_conformance-checklist-normative.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:11 — Conformance Checklist (normative)"
-line_start: 37074
-line_end: 37097
+line_start: 37075
+line_end: 37098
 dependencies:
   - "A.2.6"
   - "C.2.2"

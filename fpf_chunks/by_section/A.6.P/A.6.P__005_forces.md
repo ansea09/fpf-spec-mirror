@@ -6,12 +6,12 @@ section_id: "A.6.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__005_forces.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:3 — Forces"
-line_start: 12101
-line_end: 12111
+line_start: 12102
+line_end: 12112
 dependencies:
   - "A.10"
   - "A.2.4"

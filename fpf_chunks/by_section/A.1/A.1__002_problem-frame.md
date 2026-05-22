@@ -6,12 +6,12 @@ section_id: "A.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__002_problem-frame.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:1 — Problem Frame"
-line_start: 1117
-line_end: 1121
+line_start: 1118
+line_end: 1122
 dependencies:
   - "A.1"
   - "A.1.1"

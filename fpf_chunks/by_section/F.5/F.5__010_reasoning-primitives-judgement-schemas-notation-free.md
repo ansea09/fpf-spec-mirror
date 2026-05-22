@@ -6,12 +6,12 @@ section_id: "F.5:9"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__010_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:9 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 62056
-line_end: 62086
+line_start: 62902
+line_end: 62932
 dependencies:
   - "A.11"
   - "A.7"

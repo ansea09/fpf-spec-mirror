@@ -6,12 +6,12 @@ section_id: "B.2:6"
 section_title: "Archetypal cases (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-cases-worked-didactic.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:6 — Archetypal cases (worked, didactic)"
-line_start: 29862
-line_end: 29902
+line_start: 29863
+line_end: 29903
 dependencies:
   - "A.1"
   - "A.12"

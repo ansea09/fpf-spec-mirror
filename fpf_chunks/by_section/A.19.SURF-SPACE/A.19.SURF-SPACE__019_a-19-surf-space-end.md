@@ -6,12 +6,12 @@ section_id: "A.19.SURF-SPACE:End"
 section_title: "A.19.SURF-SPACE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SURF-SPACE/A.19.SURF-SPACE__019_a-19-surf-space-end.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.19.SURF-SPACE — Cross-Surface and Cross-Space Substrate"
   - "A.19.SURF-SPACE:End — A.19.SURF-SPACE:End"
-line_start: 23446
-line_end: 23449
+line_start: 23447
+line_end: 23450
 dependencies:
   - "A.0"
   - "A.17"

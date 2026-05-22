@@ -6,12 +6,12 @@ section_id: "B.1:4"
 section_title: "Solution — The Invariant Quintet Standard"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__005_solution-the-invariant-quintet-standard.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:4 — Solution — The Invariant Quintet Standard"
-line_start: 27828
-line_end: 27878
+line_start: 27829
+line_end: 27879
 dependencies:
   - "A.1"
   - "A.9"

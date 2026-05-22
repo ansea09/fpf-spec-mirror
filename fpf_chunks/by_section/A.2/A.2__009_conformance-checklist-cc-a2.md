@@ -6,12 +6,12 @@ section_id: "A.2:8"
 section_title: "Conformance Checklist (CC‑A2.\\*)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__009_conformance-checklist-cc-a2.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:8 — Conformance Checklist (CC‑A2.\\*)"
-line_start: 1615
-line_end: 1634
+line_start: 1616
+line_end: 1635
 dependencies:
   - "A.1"
   - "A.1.1"

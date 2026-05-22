@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SUPPORT-VIEW.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.19.SUPPORT-VIEW — Cross-Surface Support View"
-line_start: 23450
-line_end: 23948
+line_start: 23451
+line_end: 23949
 dependencies:
   - "A.0"
   - "A.19"

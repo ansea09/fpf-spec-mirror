@@ -6,12 +6,12 @@ section_id: "A.6.P:12b"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__017_c-29-mla-relation.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12b — C.29 MLA relation"
-line_start: 12773
-line_end: 12776
+line_start: 12774
+line_end: 12777
 dependencies:
   - "A.10"
   - "A.2.4"

@@ -6,12 +6,12 @@ section_id: "B.3:11a"
 section_title: "Assurance posture for quantum-like claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__015_assurance-posture-for-quantum-like-claims.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:11a — Assurance posture for quantum-like claims"
-line_start: 30941
-line_end: 30967
+line_start: 30942
+line_end: 30968
 dependencies:
   - "A.10"
   - "A.12"

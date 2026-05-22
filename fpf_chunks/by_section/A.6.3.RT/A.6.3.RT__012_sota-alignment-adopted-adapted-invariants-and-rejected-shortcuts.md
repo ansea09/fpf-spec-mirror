@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:11"
 section_title: "SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__012_sota-alignment-adopted-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — same-described-entity representation-scheme transition"
   - "A.6.3.RT:11 — SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts"
-line_start: 11428
-line_end: 11443
+line_start: 11429
+line_end: 11444
 dependencies:
   - "A.10"
   - "A.15"

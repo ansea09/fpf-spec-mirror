@@ -6,12 +6,12 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:intro — Intro"
-line_start: 20776
-line_end: 20806
+line_start: 20777
+line_end: 20807
 dependencies:
   - "A.10"
   - "A.15"

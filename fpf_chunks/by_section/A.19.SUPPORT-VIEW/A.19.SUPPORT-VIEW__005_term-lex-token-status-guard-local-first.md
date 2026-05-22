@@ -6,12 +6,12 @@ section_id: "A.19.SUPPORT-VIEW:0.a"
 section_title: "TERM/LEX token-status guard (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SUPPORT-VIEW/A.19.SUPPORT-VIEW__005_term-lex-token-status-guard-local-first.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.19.SUPPORT-VIEW — Cross-Surface Support View"
   - "A.19.SUPPORT-VIEW:0.a — TERM/LEX token-status guard (local-first)"
-line_start: 23506
-line_end: 23517
+line_start: 23507
+line_end: 23518
 dependencies:
   - "A.0"
   - "A.19"

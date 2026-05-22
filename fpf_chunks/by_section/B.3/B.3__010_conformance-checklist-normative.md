@@ -6,12 +6,12 @@ section_id: "B.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__010_conformance-checklist-normative.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:7 — Conformance Checklist (normative)"
-line_start: 30868
-line_end: 30884
+line_start: 30869
+line_end: 30885
 dependencies:
   - "A.10"
   - "A.12"

@@ -6,12 +6,12 @@ section_id: "A.6.Q:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.Q/A.6.Q__007_bias-annotation.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.6.Q — U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)"
   - "A.6.Q:6 — Bias-Annotation"
-line_start: 13335
-line_end: 13344
+line_start: 13336
+line_end: 13345
 dependencies:
   - "A.16"
   - "A.16.0"

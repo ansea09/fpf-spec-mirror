@@ -6,12 +6,12 @@ section_id: "E.10.SEMIO:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.SEMIO/E.10.SEMIO__004_what-this-buys.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline"
   - "E.10.SEMIO:0.2 — What this buys"
-line_start: 51301
-line_end: 51315
+line_start: 52147
+line_end: 52161
 dependencies:
   - "A.10"
   - "A.15"

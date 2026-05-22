@@ -6,12 +6,12 @@ section_id: "F.6:5"
 section_title: "Pre‑conditions (lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_pre-conditions-lightweight.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:5 — Pre‑conditions (lightweight)"
-line_start: 62290
-line_end: 62295
+line_start: 63136
+line_end: 63141
 dependencies:
   - "A.15"
   - "A.2.1"

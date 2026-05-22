@@ -6,12 +6,12 @@ section_id: "B.2.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__007_bias-annotation.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "B.2.3 — Meta-Epistemic Transition (MET)"
   - "B.2.3:6 — Bias-Annotation"
-line_start: 30166
-line_end: 30175
+line_start: 30167
+line_end: 30176
 dependencies:
   - "A.1"
   - "B.2"

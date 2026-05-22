@@ -6,12 +6,12 @@ section_id: "G.9:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__003_what-goes-wrong-if-missed.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "G.9 — Parity / Benchmark Harness"
   - "G.9:0.1 — What goes wrong if missed"
-line_start: 71950
-line_end: 71955
+line_start: 72796
+line_end: 72801
 dependencies:
   - "A.19"
   - "A.21"

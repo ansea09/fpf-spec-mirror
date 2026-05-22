@@ -6,12 +6,12 @@ section_id: "A.19.SUPPORT-VIEW:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SUPPORT-VIEW/A.19.SUPPORT-VIEW__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.19.SUPPORT-VIEW — Cross-Surface Support View"
   - "A.19.SUPPORT-VIEW:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23887
-line_end: 23898
+line_start: 23888
+line_end: 23899
 dependencies:
   - "A.0"
   - "A.19"

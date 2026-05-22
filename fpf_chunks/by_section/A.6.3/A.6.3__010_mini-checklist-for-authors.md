@@ -6,12 +6,12 @@ section_id: "A.6.3:9"
 section_title: "Mini‑checklist (for authors)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__010_mini-checklist-for-authors.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism"
   - "A.6.3:9 — Mini‑checklist (for authors)"
-line_start: 10214
-line_end: 10236
+line_start: 10215
+line_end: 10237
 dependencies:
   - "A.6.0"
   - "A.6.2"

@@ -6,12 +6,12 @@ section_id: "B.3.5:2"
 section_title: "Problem frame & forces (why this pattern exists)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__003_problem-frame-forces-why-this-pattern-exists.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:2 — Problem frame & forces (why this pattern exists)"
-line_start: 31195
-line_end: 31201
+line_start: 31196
+line_end: 31202
 dependencies:
   - "B.3"
   - "C.13"

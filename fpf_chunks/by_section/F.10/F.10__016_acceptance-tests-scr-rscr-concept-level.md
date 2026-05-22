@@ -6,12 +6,12 @@ section_id: "F.10:15"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:15 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 64278
-line_end: 64296
+line_start: 65124
+line_end: 65142
 dependencies:
   - "B.3"
   - "D.CTX"

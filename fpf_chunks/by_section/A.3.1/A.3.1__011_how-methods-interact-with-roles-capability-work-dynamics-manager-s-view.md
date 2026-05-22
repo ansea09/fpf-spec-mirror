@@ -6,12 +6,12 @@ section_id: "A.3.1:10"
 section_title: "How Methods interact with Roles, Capability, Work, Dynamics (manager’s view)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__011_how-methods-interact-with-roles-capability-work-dynamics-manager-s-view.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:10 — How Methods interact with Roles, Capability, Work, Dynamics (manager’s view)"
-line_start: 6001
-line_end: 6008
+line_start: 6002
+line_end: 6009
 dependencies:
   - "A.1"
   - "A.1.1"

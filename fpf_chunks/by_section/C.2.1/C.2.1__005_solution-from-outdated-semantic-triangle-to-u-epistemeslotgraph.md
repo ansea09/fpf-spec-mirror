@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution — from outdated semantic triangle to U.EpistemeSlotGraph"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution-from-outdated-semantic-triangle-to-u-epistemeslotgraph.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:4 — Solution — from outdated semantic triangle to U.EpistemeSlotGraph"
-line_start: 32985
-line_end: 33371
+line_start: 32986
+line_end: 33372
 dependencies:
   - "A.1"
   - "A.6.2"

@@ -6,12 +6,12 @@ section_id: "J.4:section-001"
 section_title: "Deprecations (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__002_deprecations-normative.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:section-001 — Deprecations (normative)"
-line_start: 74295
-line_end: 74306
+line_start: 75141
+line_end: 75152
 dependencies:
 keywords:
 ---

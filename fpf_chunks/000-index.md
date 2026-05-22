@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `eb2832093c1e482d5fdd4985c3d2011ab240b429`
+Commit SHA: `725f0b7b372754cda3f6f4e15184215da568fc4d`
 
 Chunking method: `pattern-aware`
 
-Patterns: `210`
+Patterns: `211`
 
 ## Patterns
 
@@ -136,6 +136,7 @@ Patterns: `210`
 - [C.21 — Field Health & Structure (Discipline-CHR)](by_pattern/C.21.md)
 - [C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)](by_pattern/C.22.md)
 - [C.22.1 — Task-family adaptation signature](by_pattern/C.22.1.md)
+- [C.22.2 — ProblemCard@Context](by_pattern/C.22.2.md)
 - [C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)](by_pattern/C.23.md)
 - [C.24 — Agentic Tool‑Use & Call‑Planning (C.Agent‑Tools‑CAL)](by_pattern/C.24.md)
 - [C.25 — Q-Bundle: Authoring "-ilities" as Structured Quality Bundles](by_pattern/C.25.md)

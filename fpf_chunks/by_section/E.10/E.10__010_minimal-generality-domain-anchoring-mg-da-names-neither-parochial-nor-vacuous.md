@@ -6,12 +6,12 @@ section_id: "E.10:7"
 section_title: "Minimal Generality & Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_minimal-generality-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:7 — Minimal Generality & Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 50694
-line_end: 50762
+line_start: 51540
+line_end: 51608
 dependencies:
   - "A.10"
   - "A.15"

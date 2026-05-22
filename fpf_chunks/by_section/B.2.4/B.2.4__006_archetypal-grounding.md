@@ -6,12 +6,12 @@ section_id: "B.2.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__006_archetypal-grounding.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "B.2.4 — Meta-Functional Transition (MFT)"
   - "B.2.4:5 — Archetypal Grounding"
-line_start: 30282
-line_end: 30291
+line_start: 30283
+line_end: 30292
 dependencies:
   - "A.3.1"
   - "B.2"

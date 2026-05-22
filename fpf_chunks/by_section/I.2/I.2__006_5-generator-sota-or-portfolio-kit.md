@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".5 - Generator, SoTA, or Portfolio Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__006_5-generator-sota-or-portfolio-kit.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .5 - Generator, SoTA, or Portfolio Kit"
-line_start: 74135
-line_end: 74158
+line_start: 74981
+line_end: 75004
 dependencies:
 keywords:
 ---

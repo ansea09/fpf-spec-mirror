@@ -6,12 +6,12 @@ section_id: "A.2.6:17."
 section_title: "4 Rationale - F‑Cluster Unification for A.2.6 (F.17 and F.18)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__019_4-rationale-f-cluster-unification-for-a-2-6-f-17-and-f-18.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:17. — 4 Rationale - F‑Cluster Unification for A.2.6 (F.17 and F.18)"
-line_start: 4798
-line_end: 4888
+line_start: 4799
+line_end: 4889
 dependencies:
   - "A.1.1"
   - "A.2.2"

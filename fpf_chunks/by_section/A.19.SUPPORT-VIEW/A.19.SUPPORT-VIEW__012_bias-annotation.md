@@ -6,12 +6,12 @@ section_id: "A.19.SUPPORT-VIEW:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SUPPORT-VIEW/A.19.SUPPORT-VIEW__012_bias-annotation.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.19.SUPPORT-VIEW — Cross-Surface Support View"
   - "A.19.SUPPORT-VIEW:6 — Bias-Annotation"
-line_start: 23860
-line_end: 23867
+line_start: 23861
+line_end: 23868
 dependencies:
   - "A.0"
   - "A.19"

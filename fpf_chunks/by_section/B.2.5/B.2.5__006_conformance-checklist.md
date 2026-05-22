@@ -6,12 +6,12 @@ section_id: "B.2.5:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_conformance-checklist.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "B.2.5 — Supervisor–Subholon Feedback Loop"
   - "B.2.5:5 — Conformance Checklist"
-line_start: 30394
-line_end: 30400
+line_start: 30395
+line_end: 30401
 dependencies:
   - "A.1"
   - "B.2"

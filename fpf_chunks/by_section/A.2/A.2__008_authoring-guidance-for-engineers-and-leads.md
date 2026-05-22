@@ -6,12 +6,12 @@ section_id: "A.2:7"
 section_title: "Authoring guidance (for engineers and leads)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__008_authoring-guidance-for-engineers-and-leads.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:7 — Authoring guidance (for engineers and leads)"
-line_start: 1609
-line_end: 1614
+line_start: 1610
+line_end: 1615
 dependencies:
   - "A.1"
   - "A.1.1"

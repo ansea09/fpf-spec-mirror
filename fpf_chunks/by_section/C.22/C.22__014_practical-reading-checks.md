@@ -6,12 +6,12 @@ section_id: "C.22:13"
 section_title: "Practical reading checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__014_practical-reading-checks.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:13 — Practical reading checks"
-line_start: 41515
-line_end: 41521
+line_start: 41532
+line_end: 41538
 dependencies:
   - "C.16"
   - "C.18"
@@ -34,8 +34,8 @@ keywords:
 
 ### C.22:13 - Practical reading checks
 
-- If two candidate approaches are answering different `TaskKind`s or different `ScopeSlice(G)` cuts, this pattern does not yet license a direct comparison.
+- If two candidate approaches are answering different `TaskKind`s or different `ScopeSlice(G)` cuts, a direct comparison is not admissible yet.
 - If specialization is the live specialization question, the task-family anchor, threshold target, adaptation budget, and provenance basis should already be recoverable from the attached `TaskSignature`.
-- If crossing, normalization, or missingness changes what comparison means, publish that in the signature and its cited refs rather than hiding it in code, local memory, or later prose.
+- If crossing, normalization, or missingness changes what comparison means, state that in the signature and its cited refs rather than hiding it in code, local memory, or later prose.
 - If `QD` or `OEE` heads are in scope, archive and generator fields belong in the same typed signature rather than in a detached explanatory appendix.
 

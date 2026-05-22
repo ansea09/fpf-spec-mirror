@@ -6,12 +6,12 @@ section_id: "C.18.1:12a"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__012_c-29-mla-relation.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:12a — C.29 MLA relation"
-line_start: 40549
-line_end: 40552
+line_start: 40550
+line_end: 40553
 dependencies:
   - "C.16"
   - "C.17"

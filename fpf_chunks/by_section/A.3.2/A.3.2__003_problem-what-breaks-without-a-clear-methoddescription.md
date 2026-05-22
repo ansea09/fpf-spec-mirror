@@ -6,12 +6,12 @@ section_id: "A.3.2:2"
 section_title: "Problem (what breaks without a clear MethodDescription)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__003_problem-what-breaks-without-a-clear-methoddescription.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:2 — Problem (what breaks without a clear MethodDescription)"
-line_start: 6071
-line_end: 6080
+line_start: 6072
+line_end: 6081
 dependencies:
   - "A.1.1"
   - "A.15"

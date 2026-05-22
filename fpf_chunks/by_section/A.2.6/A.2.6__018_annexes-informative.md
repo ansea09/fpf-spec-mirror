@@ -6,12 +6,12 @@ section_id: "A.2.6:17"
 section_title: "Annexes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__018_annexes-informative.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:17 — Annexes (informative)"
-line_start: 4760
-line_end: 4797
+line_start: 4761
+line_end: 4798
 dependencies:
   - "A.1.1"
   - "A.2.2"

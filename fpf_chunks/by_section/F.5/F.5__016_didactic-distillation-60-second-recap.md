@@ -6,12 +6,12 @@ section_id: "F.5:15"
 section_title: "Didactic distillation (60‑second recap)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__016_didactic-distillation-60-second-recap.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:15 — Didactic distillation (60‑second recap)"
-line_start: 62231
-line_end: 62240
+line_start: 63077
+line_end: 63086
 dependencies:
   - "A.11"
   - "A.7"

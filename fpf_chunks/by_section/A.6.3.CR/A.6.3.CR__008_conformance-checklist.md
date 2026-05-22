@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__008_conformance-checklist.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization — same-described-entity textual re-expression"
   - "A.6.3.CR:7 — Conformance Checklist"
-line_start: 10908
-line_end: 10926
+line_start: 10909
+line_end: 10927
 dependencies:
   - "A.15"
   - "A.6.2"

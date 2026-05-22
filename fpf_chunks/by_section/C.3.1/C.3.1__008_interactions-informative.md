@@ -6,12 +6,12 @@ section_id: "C.3.1:7"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__008_interactions-informative.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:7 — Interactions (informative)"
-line_start: 36584
-line_end: 36592
+line_start: 36585
+line_end: 36593
 dependencies:
   - "A.1"
   - "A.2.6"

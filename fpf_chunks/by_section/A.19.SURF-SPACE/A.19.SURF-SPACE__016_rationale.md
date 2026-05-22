@@ -6,12 +6,12 @@ section_id: "A.19.SURF-SPACE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SURF-SPACE/A.19.SURF-SPACE__016_rationale.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.19.SURF-SPACE — Cross-Surface and Cross-Space Substrate"
   - "A.19.SURF-SPACE:10 — Rationale"
-line_start: 23416
-line_end: 23429
+line_start: 23417
+line_end: 23430
 dependencies:
   - "A.0"
   - "A.17"

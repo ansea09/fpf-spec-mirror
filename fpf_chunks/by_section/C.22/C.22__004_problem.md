@@ -6,12 +6,12 @@ section_id: "C.22:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__004_problem.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:3 — Problem"
-line_start: 41352
-line_end: 41355
+line_start: 41364
+line_end: 41367
 dependencies:
   - "C.16"
   - "C.18"
@@ -34,5 +34,5 @@ keywords:
 
 ### C.22:3 - Problem
 
-Without typed descriptors, **Eligibility/Acceptance** degenerate into prose; **illegal ops** creep in (ordinal means; unit mixing); **cross‑plane comparisons** lose **CL/Φ** routing (**penalties to R_eff only**).
+Without typed descriptors, **Eligibility and Acceptance** degenerate into prose; **inadmissible operations** creep in (ordinal means; unit mixing); **cross‑plane comparisons** lose **CL/Φ** penalty assignment (**penalties to R_eff only**).
 

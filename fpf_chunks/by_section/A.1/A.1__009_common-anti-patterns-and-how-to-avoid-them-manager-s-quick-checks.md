@@ -6,12 +6,12 @@ section_id: "A.1:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them — Manager’s quick checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__009_common-anti-patterns-and-how-to-avoid-them-manager-s-quick-checks.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:8 — Common Anti‑Patterns and How to Avoid Them — Manager’s quick checks"
-line_start: 1233
-line_end: 1241
+line_start: 1234
+line_end: 1242
 dependencies:
   - "A.1"
   - "A.1.1"

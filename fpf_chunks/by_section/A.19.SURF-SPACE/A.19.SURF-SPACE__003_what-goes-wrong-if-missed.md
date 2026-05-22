@@ -6,12 +6,12 @@ section_id: "A.19.SURF-SPACE:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SURF-SPACE/A.19.SURF-SPACE__003_what-goes-wrong-if-missed.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "A.19.SURF-SPACE — Cross-Surface and Cross-Space Substrate"
   - "A.19.SURF-SPACE:0.1 — What goes wrong if missed"
-line_start: 22938
-line_end: 22949
+line_start: 22939
+line_end: 22950
 dependencies:
   - "A.0"
   - "A.17"

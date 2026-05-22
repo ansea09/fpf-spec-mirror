@@ -6,12 +6,12 @@ section_id: "C.22:7"
 section_title: "Bias‑Annotation (LEX/discipline guards)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_bias-annotation-lex-discipline-guards.md"
-commit_sha: "eb2832093c1e482d5fdd4985c3d2011ab240b429"
+commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:7 — Bias‑Annotation (LEX/discipline guards)"
-line_start: 41457
-line_end: 41463
+line_start: 41475
+line_end: 41480
 dependencies:
   - "C.16"
   - "C.18"
@@ -34,8 +34,7 @@ keywords:
 
 ### C.22:7 - Bias‑Annotation (LEX/discipline guards)
 
-* **No minted “Strategy” head.** “Strategy/policy” are *roles/lenses* inside G.5; do **not** introduce a new `U.Type` “Strategy”.
-* **No minted `U.Type` “Strategy”.** Strategy/policy are roles/lenses inside G.5 Compose under E/E‑LOG; keep “strategy” as Plain where pedagogically needed.
+* **No minted `U.Type` “Strategy”.** Strategy and policy remain roles inside `G.5`; keep “strategy” as Plain-register wording where it helps recognition, but do not introduce a new `U.Type` or strategy head.
 * **Transdiscipline vs domain.** Comparability flows through **`U.Discipline` CG‑Spec**; “Domain” is a catalog mark stitched to D.CTX + UTS; do **not** attach norms to Domain labels.
-* **Plain twins & head‑anchoring.** Use Description/Spec morphology correctly (I/D/S; E.10.D2).
+* **Plain twins and head‑anchoring.** Use Description and Spec morphology correctly (I, D, S; E.10.D2).
 
