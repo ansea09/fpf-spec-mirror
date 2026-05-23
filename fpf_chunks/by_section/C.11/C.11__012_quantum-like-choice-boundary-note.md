@@ -6,12 +6,12 @@ section_id: "C.11:12a"
 section_title: "Quantum-like choice-boundary note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__012_quantum-like-choice-boundary-note.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:12a — Quantum-like choice-boundary note"
-line_start: 38947
-line_end: 38979
+line_start: 39066
+line_end: 39098
 dependencies:
   - "A.13"
   - "A.18"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CPM.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
-line_start: 26350
-line_end: 26680
+line_start: 26403
+line_end: 26733
 dependencies:
 keywords:
   - "ComparatorSet"

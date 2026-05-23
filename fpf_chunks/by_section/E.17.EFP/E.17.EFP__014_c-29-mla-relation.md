@@ -6,12 +6,12 @@ section_id: "E.17.EFP:12a"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__014_c-29-mla-relation.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:12a — C.29 MLA relation"
-line_start: 57681
-line_end: 57685
+line_start: 57795
+line_end: 57798
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,5 +36,4 @@ keywords:
 ### E.17.EFP:12a - C.29 MLA relation
 
 > When an explanation-facing rendering uses a mathematical lens as part of an explanation, `E.17.EFP` still governs rendering class, source anchoring, evidence relation, admissible faces, and forbidden downstream uses. The applicable `C.29` output for the stated use (`MLA.LensCandidateNote`, `MLA.OneLine`, `MLA.MiniCard`, or `MLA.FullCard` when required) may be cited only for the mathematical-lens adequacy part: candidate mathematical object, lens mapping mode, preserved and lost structure, exposed invariant or distinction, `LensSupportPosture`, admissible use, non-admissible use, and stop condition. It does not make the explanation faithful, evidence-bearing, or admissible for downstream use by itself.
-
 

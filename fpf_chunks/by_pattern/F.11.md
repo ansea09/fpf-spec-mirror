@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.11.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
-line_start: 65152
-line_end: 65491
+line_start: 65269
+line_end: 65608
 dependencies:
   - "A.15"
   - "A.15.1"

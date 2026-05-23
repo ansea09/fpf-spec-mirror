@@ -6,12 +6,12 @@ section_id: "C.22.2:19"
 section_title: "Use-Quality Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__020_use-quality-checks.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:19 — Use-Quality Checks"
-line_start: 42333
-line_end: 42349
+line_start: 42452
+line_end: 42469
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,6 +75,7 @@ A practitioner checking one `ProblemCard@Context` use should be able to find the
 | Validation use | At least the provided golden and anti-case slices can be used to test whether the card produces a usable next move without overclaiming. |
 | Entry support | A practitioner can find `C.22.2` through first-entry phrases and tempting-wrong-pattern boundaries without reading the whole neighboring pattern network first. |
 | P2W export rule | The card states what it exports to downstream P2W or selector-facing use and what it must not decide: method family, work authorization, gate passage, evidence proof, autonomy permission, or selected solution. |
+| P2W reliance rule | When support posture or validation boundary is used for P2W receiving use, the card states `RelianceDisposition`, supported use, unsupported use, and live exits without adding default evidence, assurance, gate, autonomy, control, or work fields. |
 | Neighboring-exit aid | The card user can look up the live relation, receiving pattern, permitted local cue, and forbidden local decision in one aid near the start without treating the aid as the main action engine. |
 | Non-bureaucracy invariant | The card remains as small as the honest next move permits and does not require full-form completion when lighter reviewability is enough. |
 

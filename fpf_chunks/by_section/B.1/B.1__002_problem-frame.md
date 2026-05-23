@@ -6,12 +6,12 @@ section_id: "B.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__002_problem-frame.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:1 — Problem Frame"
-line_start: 27801
-line_end: 27805
+line_start: 27873
+line_end: 27877
 dependencies:
   - "A.1"
   - "A.9"

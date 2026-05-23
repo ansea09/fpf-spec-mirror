@@ -6,12 +6,12 @@ section_id: "C.22.2:11"
 section_title: "Support, Validation, AI-Agent Pressure, and Safe Probing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__012_support-validation-ai-agent-pressure-and-safe-probing.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:11 — Support, Validation, AI-Agent Pressure, and Safe Probing"
-line_start: 42142
-line_end: 42183
+line_start: 42241
+line_end: 42311
 dependencies:
   - "A.10"
   - "A.15"
@@ -82,14 +82,43 @@ Detector, check, and optimization-target discriminator:
 - monitored risk signal: what may worsen, distort value, or change the safe next move; not proof by itself.
 - acceptance authority: carried by `G.4` or another receiving acceptance pattern, not by `C.22.2`.
 
+Reliance-disposition rule for P2W receiving use:
 
+Use this rule when support posture or validation boundary may enter P2W as evidence-like, confidence-like, conformance-like, proxy-like, safety-looking, redress-bearing, or currentness-bearing support. The first C.22.2 move is to keep the result problem-side: name the P2W receiving use, unsupported use, and any live receiving-pattern exit. This rule does not add a default field family to `ProblemCard@Context`. If the Thin card already gives an honest next move and live exits, no additional reliance record is required.
 
+Support role: the disposition table below is a local P2W-reliance recognition and minimum local record aid, and the worked P2W reliance slices are regression/review slices. They are not card field lists, project checklists, or hidden SEMIO state machines. Use them only to state the supported P2W receiving use, unsupported use, and receiving-pattern exit when support posture or validation boundary is actually being relied on. This local section returns the attempted P2W use to the C.22.2 problem-side relation and named receiving-pattern exits; it does not create an extra SEMIO authority or shared relation family.
 
+Affordability card: orientation, discussion, or source-finding can remain an ordinary problem-side cue; bounded P2W reliance states the supported receiving use, unsupported use, window, and exit; threshold reliance names the receiving evidence, assurance, gate, autonomy, control, work, temporal, or representation relation instead of making the card larger. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 
+Common wrong first reading: `P2W-ready` means proof, safety acceptance, gate passage, method selection, work authorization, or release permission. First honest entry: keep the result problem-side; name the P2W receiving use and any exact evidence, assurance, gate, autonomy, control, work, temporal, or representation exit when live.
 
+| Attempted P2W use | Local card move | Receiving-pattern exit when live | Forbidden overread |
+| --- | --- | --- | --- |
+| Support posture is enough for the next P2W receiving use | State `RelianceDisposition=pass` only for the named P2W receiving use, unsupported attempted P2W use, support posture, validation boundary, context, and window. | Open `A.10`, `B.3`, `A.21`, `C.16`, `C.27`, `G.11`, `A.6.3.RT`, or `A.6.4` only when that relation carries part of the support. | Treating `P2W-ready` as proof, safety acceptance, gate passage, method selection, work authorization, portfolio authority, or release permission. |
+| Support is useful but narrower than the attempted P2W use | State `RelianceDisposition=degrade`, the narrowed P2W use, the unsupported attempted use, and the stop condition. | Open measurement, evidence, temporal, refresh, representation, or assurance loci only for the live dependency. | Quietly broadening a weak support posture into full P2W readiness. |
+| Source, confidence, or validation is stale, conflicted, uncalibrated, or not tied to the live relation | State `RelianceDisposition=abstain` or `RelianceDisposition=evidence-needed`, plus the missing evidence kind or receiving relation and the decision point. | `A.10` for evidence/currentness, `C.16` for measurement or marker support, `C.27`/`G.11` for time, expiry, refresh, or monitoring. | Letting uncertainty become indefinite delay or silent permission to continue. |
+| Contest, redress request, changed representation, retargeting, or changed described entity defeats support inheritance | State `RelianceDisposition=reopen`, the relation being reopened, and the card use that is no longer supported. | `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, `A.10`, `B.3`, or another exact relation when the represented problem, evidence path, or support source changed. | Treating an older card as still current merely because its text was preserved. |
+| Safety-looking, release-looking, compliance-looking, public-behavior, resource, people/status, autonomy, gate, or control-bearing use is attempted from the card | State `RelianceDisposition=safety-case-required`, `RelianceDisposition=no-supported-current-use`, or a named exit; do not authorize the use locally. | `B.3` for assurance and the minimum reliance safety support record, `A.21` for gate decision, `E.16` for autonomy, `A.15` for work, `B.2.5` only when a controlled object is regulated through a feedback channel, evidence channel, cadence, window, or supervisory/control relation, `A.10`/`G.6` for evidence/provenance. | Reading a problem-side card as safety acceptance, tool-call permission, delegated-agent authority, release permission, work plan, performed work, or control authority. |
 
+Minimum P2W support statement when this rule is live: support posture, validation boundary, `RelianceDisposition`, supported P2W receiving use, unsupported use, currentness or window when relevant, contest or redress path when relevant, and live receiving-pattern exits. Do not copy evidence, gate, assurance, work, autonomy, or control fields into the card unless the card is explicitly naming a live exit to the receiving pattern.
 
+Misuse guard: `RelianceDisposition=abstain` and `RelianceDisposition=degrade` must state the condition for reopening, narrowing, or closing the P2W use; do not use uncertainty to block valid P2W receiving use indefinitely or to hide a full pass behind a narrower label.
 
+False-negative reliance guard: a blocked, abstained, or evidence-needed P2W use is not final if admissible challenge evidence, missing affected-party evidence, changed source, changed representation, or redress can materially change the disposition.
+
+Support-inheritance guard: support does not inherit across representation scheme, episteme-lane view, publication face, described entity, retargeting relation, or source-basis change merely because the same card text, dashboard label, source phrase, support cue, generated explanation, coarsened or redacted rendering, screenshot, or copied approval survived. Use A.6.3.RT, A.6.3.CSC, A.6.4, E.17, F.9, or E.18 only when that relation is live; otherwise keep the local card use bounded.
+
+Positive repaired path: a messy support cue becomes useful when the card states what P2W may receive now, what P2W must not infer, and which exact neighboring pattern carries any evidence, assurance, gate, temporal, representation, autonomy, control, or work relation. A successful result can be `P2W-ready`, degraded P2W use, evidence-needed, refresh, reopen, `abstain/no-change`, or a named neighboring exit; it need not become a bigger card.
+
+Worked P2W reliance slices:
+
+| Slice | Local card move | Boundary |
+| --- | --- | --- |
+| An archive or portfolio retention cue supports looking at a problem again. | State the support posture, validation boundary, source-set or retention basis, currentness/window, and `RelianceDisposition=degrade`, `RelianceDisposition=evidence-needed`, or `refresh` when the cue is stale or incomplete. | Retention is not proof, safety acceptance, method selection, or work authorization. |
+| Confidence-looking support is enough for one reversible exploration step. | State `RelianceDisposition=pass` only for that P2W receiving use, unsupported attempted use, context, window, and stop condition. | The same card does not become full readiness, release permission, or assurance. |
+| A problem card is cited as safety acceptance or tool-call permission. | State `RelianceDisposition=safety-case-required`, `RelianceDisposition=no-supported-current-use`, or a named exit to `B.3`, `E.16`, `A.21`, `A.15`, or `A.10`. | `ProblemCard@Context` does not authorize action, autonomy, gate passage, work, or release. |
+| A contest, redress request, or changed described entity defeats inherited support. | State `RelianceDisposition=reopen`, the relation being reopened, and which previous P2W use is no longer supported. | Preserved card text does not preserve currentness when representation or evidence changed. |
+| A selected-set or portfolio basis is used before P2W. | Keep the set-source, selection, retention, and not-selected disposition as source cues and name the receiving set patterns when live. | The card is not portfolio authority, selected-set proof, or scalar readiness. |
 
 A cause-theory cue may focus problem formulation inside `ProblemCard@Context`. If that cue is used to claim association, intervention, counterfactual, responsibility, expected effect, or causal evidence, the relation exits to `C.28` plus `A.10`, `G.6`, or `B.3` when support, provenance, or assurance is live.
 

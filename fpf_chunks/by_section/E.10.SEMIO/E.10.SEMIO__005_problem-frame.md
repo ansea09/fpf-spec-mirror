@@ -6,12 +6,12 @@ section_id: "E.10.SEMIO:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.SEMIO/E.10.SEMIO__005_problem-frame.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline"
   - "E.10.SEMIO:1 — Problem frame"
-line_start: 52162
-line_end: 52180
+line_start: 52271
+line_end: 52289
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "F.18:20"
 section_title: "90‑second teaching script (for engineer‑managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__021_90-second-teaching-script-for-engineer-managers.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:20 — 90‑second teaching script (for engineer‑managers)"
-line_start: 68159
-line_end: 68162
+line_start: 68276
+line_end: 68279
 dependencies:
   - "A.19.SUPPORT-VIEW"
   - "A.6.P"

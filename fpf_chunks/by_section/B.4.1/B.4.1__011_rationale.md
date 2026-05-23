@@ -6,12 +6,12 @@ section_id: "B.4.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__011_rationale.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:10 — Rationale"
-line_start: 31719
-line_end: 31721
+line_start: 31838
+line_end: 31840
 dependencies:
   - "A.15"
   - "A.16"

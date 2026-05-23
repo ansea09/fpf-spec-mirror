@@ -6,12 +6,12 @@ section_id: "E.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__007_forces.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
   - "E.19:3 — Forces"
-line_start: 60087
-line_end: 60097
+line_start: 60200
+line_end: 60210
 dependencies:
   - "A.6.P"
   - "E.10"
@@ -21,7 +21,7 @@ dependencies:
   - "F.18"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled‑world entities (e.g"
+  - "MUST NOT modify modeled-world entities (e.g"
   - "and (if needed) reference them from CC items"
   - "inside the predicate)"
   - "where a non-deontic Invariant: predicate is required)"

@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 41725
-line_end: 41948
+line_start: 41838
+line_end: 42052
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,6 @@ keywords:
 
 #### C.22.2:2.1 - Thin First-Use Form
 
-
 The first substantive use of this pattern is the Thin form. It is a practitioner-facing prompt for writing the smallest reviewable problem card, not a demand to complete a field list.
 
 A `ProblemCard@Context` is complete for its current use when it states:
@@ -96,8 +95,6 @@ Local labels in this pattern are local to the `C.22.2` record shape unless a sep
 
 Reference labels ending in `Ref` are reference roles, not object names. This includes `ProblemCard@ContextRef`, `setContextRef`, `rivalProblemFormulationRef`, and `semioRelationRef`; do not shorten or promote them into local object kinds such as `ProblemCardRef`, `SetContext`, `RivalFrame`, or `SemioRelation`.
 
-
-
 `@Context` means that the card is bound to declared context grounding: a named `U.BoundedContext`, a project-side context reference, or an explicitly bounded practice situation with recoverable local meaning. Domain or practice wording may identify the informative locus of the problem, but it does not replace context grounding. A broad label such as healthcare, education, engineering, research, or operations is not context grounding by itself. When domain or practice wording carries semantic load, recover the named bounded context, project-side context reference, or explicit bounded practice situation and state what local meaning or rule is being used. The card does not assert global problem identity outside that declared context grounding.
 
 Plain gloss for `P2W-ready`: problem-side input ready. It means ready as input to downstream P2W or selector reasoning, not ready to execute work, pass a gate, or select a method.
@@ -126,7 +123,6 @@ Use the neighboring-exit aid only when a conditional relation is live.
 This is the Thin-form writing order, not a completion sequence for the whole pattern. It adds no fields; it keeps the practitioner on the smallest truthful card before Standard or High-load relations are paid for.
 
 #### C.22.2:2.3 - Neighboring-Exit Aid
-
 
 Use this exit aid when a live relation appears while writing or reviewing a `ProblemCard@Context`.
 
@@ -180,9 +176,7 @@ Thin is not an immature profile. When it gives the honest next move, Thin is a f
 
 The profile order is a reading aid, not a required transition sequence. Thin is the default entry; Standard and High-load add only liveness-triggered fields; neighboring exits are consulted after the Thin next move exposes a live relation.
 
-
 Stop at Thin when the honest next move is local stabilization, local characterization, source reread, or another early problem-side clarification before P2W readiness is claimed. Stop at Standard when it is sufficient to emit or bind a minimal `TaskSignature`, `TaskKind`, or `ProblemProfile` for downstream selector-facing use without carrying high-load relations locally. Exit immediately instead of continuing the card when the live issue is work, evidence, provenance, assurance, gate, autonomy, bridge, representation transition, retargeting, structural reinterpretation, causal-use claim, temporal claim, agentic call planning, or refresh.
-
 
 #### C.22.2:2.5 - Field Labels and Liveness
 
@@ -226,9 +220,7 @@ Field absence rule: if a conditional relation is not live, the field is absent, 
 
 When the card compares options, selected-set members, retained candidates, or rival problem formulations, it must state the live comparison or parity basis, or state why comparison is not live for the current move. Absence of a parity basis is not automatically a defect; it is a disposition. The admissible result is either parity not live for the current card, or exit to `G.9` before `P2W-ready` is claimed. A local fair-comparison result or selected-set result is not admissible inside `C.22.2`.
 
-
 A conforming `C.22.2` use includes minimal source and context witness material when source, set, selection, characterization, parity, freshness, or semio relation is live. Otherwise a Thin card may cite the observed signal in plain form. The field-group label `problemCardSource` may be used inside the pattern, but it is not a new FPF object and not an evidence graph. It is a recoverability field group for the source and neighboring references that make the problem-side record reviewable:
-
 
 ```text
 problemCardSource:
@@ -242,7 +234,6 @@ problemCardSource:
 ```
 
 Generated problem variants, evaluator feedback, and open-ended problem mutation may be recorded only as `sourceSignalRef`, `selectionOrRetentionBasis`, or `setContextRef` when they make the problem-side record reviewable. They do not provide problem authority, evidence sufficiency, or permission to probe or act.
-
 
 #### C.22.2:2.6 - Anti-Pattern Checks and Worked Slices
 

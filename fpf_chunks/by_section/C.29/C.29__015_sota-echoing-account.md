@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-echoing account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__015_sota-echoing-account.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:13 — SoTA-echoing account"
-line_start: 49032
-line_end: 49125
+line_start: 49141
+line_end: 49234
 dependencies:
   - "A.1.1"
   - "A.10"

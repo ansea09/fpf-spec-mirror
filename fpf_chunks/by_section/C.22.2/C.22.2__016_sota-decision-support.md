@@ -6,12 +6,12 @@ section_id: "C.22.2:15"
 section_title: "SoTA Decision Support"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__016_sota-decision-support.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:15 — SoTA Decision Support"
-line_start: 42268
-line_end: 42299
+line_start: 42391
+line_end: 42418
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,6 @@ keywords:
 
 ### C.22.2:15 - SoTA Decision Support
 
-
 The following external anchors are adopted or adapted only where they change this pattern's local answer by value.
 
 | Current support line | Anchor | Pattern use | Disposition |
@@ -74,22 +73,19 @@ The following external anchors are adopted or adapted only where they change thi
 | Open-ended coding agents use archives, self-improvement, problem variants, evaluator feedback, and stepping-stone retention. | Darwin Godel Machine `https://arxiv.org/abs/2505.22954`, FrontierSmith `https://arxiv.org/abs/2605.14445`, and AlphaEvolve `https://arxiv.org/abs/2506.13131`, all checked 2026-05-20 | Supports record-form, set-source reference, Goldilocks, safe-probe, and freshness fields and exits for archive, problem generation, safe probes, evaluator feedback, no-change and abstain dispositions, and autonomy and evidence boundaries. | Adapted as recent stress/trend pressure; `C.22.2` is not turned into AI-agent doctrine or an AI-agent management pattern. |
 | External AI-agent and autonomy practice increases pressure for evidence, logs, gates, autonomy budgets, and update discipline. | Source presentation plus current FPF autonomy, evidence, and gate patterns | Supports receiving-pattern assignment for support, validation, AI-agent pressure, and safe probing. | Non-load-bearing for the center of `C.22.2`; load-bearing content remains with `E.16`, `A.21`, `A.10`, `G.6`, `B.3`, `A.15`, and `G.11`. |
 
-
 If a `C.22.2` use carries a wider external claim than these dispositions, the claim is outside this pattern and requires a separate content decision or demotion to a non-load-bearing example.
 
 Each load-bearing SoTA use is recovered as a local test: source idea, FPF invariant, practitioner check, and popular shortcut rejected. A source citation without that local test is not enough to carry pattern authority.
 
 Local SoTA-to-action tests:
 
-| Support pressure | Popular shortcut rejected | Required local result |
-|---|---|---|
-| Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover source signal, framed problem representation, context and scope, viewpoint or role concern, improvement check, and rival frame when live. |
-| QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set authority. | Preserve `setContextRef`, source set kind, selection or retention basis, and a non-scalar next move; exit to the receiving set, parity, archive, pool, or refresh pattern when live. |
-| Open-ended agents, problem variants, evaluator feedback, and stepping stones change source pressure. | Agent output, evaluator trace, or generated variant is treated as authority to act. | Record generator, evaluator, variant, or stepping-stone basis only as a source cue; name support, validation, freshness, and authority exits before probe or action. |
-| First-principles or mathematical structure can improve formulation. | A named formalism or mathematical or ontological prestige is treated as adequacy or rigor. | Record the candidate structure, mapping or `C.29` exit, preserved and lost structure when live, practical formulation payoff, support posture, and stop condition. |
-| Early class or kind taxonomy looks available. | A class list or ontology-first taxonomy is treated as the problem formulation. | Keep the formulation question live; record candidate structure, preserved and lost structure when live, and representation or retargeting exits before freezing kind structure. |
-| Object model looks clarifying. | Object-model clarity freezes the wrong described entity or relation. | Keep described entity and relation reviewable; name representation-transition, retargeting, or bridge exits before inheriting support or readiness. |
-
-
-
+| Support pressure | Popular shortcut rejected | Required local result | Reopen condition |
+|---|---|---|---|
+| Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover source signal, framed problem representation, context and scope, viewpoint or role concern, improvement check, and rival frame when live. | Reopen when context, scope, viewpoint, rival frame, evidence need, or improvement or acceptance probe changes. |
+| P2W receives only a reviewable problem-side record. | `P2W-ready` is treated as work authorization, gate passage, method selection, evidence proof, assurance, or selected solution. | State support posture, validation boundary, readiness disposition, supported P2W use, unsupported use, and named neighboring exit when live. | Reopen when the signal, context, scope, acceptance probe, support posture, validation boundary, freshness, or named exit changes. |
+| QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set authority. | Preserve `setContextRef`, source set kind, selection or retention basis, and a non-scalar next move; exit to the receiving set, parity, archive, pool, or refresh pattern when live. | Reopen when the source set, retention basis, parity basis, archive, pool, front, selected set, budget, window, or freshness disposition changes. |
+| Open-ended agents, problem variants, evaluator feedback, and stepping stones change source pressure. | Agent output, evaluator trace, or generated variant is treated as authority to act. | Record generator, evaluator, variant, or stepping-stone basis only as a source cue; name support, validation, freshness, and authority exits before probe or action. | Reopen when generator, evaluator, variant, stepping-stone basis, safety/probe condition, or authority condition changes. |
+| First-principles or mathematical structure can improve formulation. | A named formalism or mathematical or ontological prestige is treated as adequacy or rigor. | Record the candidate structure, mapping or `C.29` exit, preserved and lost structure when live, practical formulation payoff, support posture, and stop condition. | Reopen when candidate structure, preserved or lost structure, support posture, stop condition, or `C.29` result changes. |
+| Early class or kind taxonomy looks available. | A class list or ontology-first taxonomy is treated as the problem formulation. | Keep the formulation question live; record candidate structure, preserved and lost structure when live, and representation or retargeting exits before freezing kind structure. | Reopen when formulation question, kind structure, relation, representation support, or retargeting support changes. |
+| Object model looks clarifying. | Object-model clarity freezes the wrong described entity or relation. | Keep described entity and relation reviewable; name representation-transition, retargeting, or bridge exits before inheriting support or readiness. | Reopen when described entity, relation, view, bridge support, or representation-transition support changes. |
 

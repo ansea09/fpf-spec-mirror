@@ -6,7 +6,7 @@ section_id: "A.6.P:12a"
 section_title: "Quantum-like relation/probe wording precision note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__016_quantum-like-relation-probe-wording-precision-note.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12a — Quantum-like relation/probe wording precision note"

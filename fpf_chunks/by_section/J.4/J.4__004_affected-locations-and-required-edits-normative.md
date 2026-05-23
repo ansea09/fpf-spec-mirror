@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "J.4"
 pattern_title: "First Practical Entry Neighborhood Index"
-section_id: "J.4:section-002"
+section_id: "J.4:section-003"
 section_title: "Affected locations and required edits (normative)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/J.4/J.4__003_affected-locations-and-required-edits-normative.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+output_path: "by_section/J.4/J.4__004_affected-locations-and-required-edits-normative.md"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
-  - "J.4:section-002 — Affected locations and required edits (normative)"
-line_start: 75153
-line_end: 75186
+  - "J.4:section-003 — Affected locations and required edits (normative)"
+line_start: 75273
+line_end: 75306
 dependencies:
 keywords:
 ---

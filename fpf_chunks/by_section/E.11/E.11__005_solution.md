@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution"
-line_start: 54040
-line_end: 54317
+line_start: 54149
+line_end: 54426
 dependencies:
   - "A.6.RSIG"
   - "E.19"

@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations (attach these when producing an Assurance tuple)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__008_proof-obligations-attach-these-when-producing-an-assurance-tuple.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:5 — Proof obligations (attach these when producing an Assurance tuple)"
-line_start: 30748
-line_end: 30803
+line_start: 30871
+line_end: 30924
 dependencies:
   - "A.10"
   - "A.12"
@@ -57,7 +57,6 @@ keywords:
 ---
 
 ### B.3:5 Proof obligations (attach these when producing an Assurance tuple)
-
 
 These obligations refine the generic Proof Kit from **B.1.1 §6** for **assurance** outputs. Each Γ‑flavour that emits an *Assurance(H, C | K, S)* tuple MUST attach the applicable obligations below.
 
@@ -110,5 +109,4 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 
 > **Note on Γ\_work.**
 > Resource spending and efficiency live in **Γ\_work**. Their *measurement integrity* can influence **R** for a claim (e.g., if a reliability figure depends on calibrated energy input), but **costs themselves are not assurance**; keep them in Γ\_work and cite their **measurement assurance** as inputs here.
-
 

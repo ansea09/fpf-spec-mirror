@@ -6,12 +6,12 @@ section_id: "A.11:4"
 section_title: "Solution — Four‑Gate Minimal‑Sufficiency Protocol"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__005_solution-four-gate-minimal-sufficiency-protocol.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:4 — Solution — Four‑Gate Minimal‑Sufficiency Protocol"
-line_start: 18801
-line_end: 18817
+line_start: 18854
+line_end: 18870
 dependencies:
   - "A.11"
   - "U.Type"

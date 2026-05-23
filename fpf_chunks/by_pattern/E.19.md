@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
-line_start: 60038
-line_end: 60691
+line_start: 60152
+line_end: 60808
 dependencies:
   - "A.6.P"
   - "E.10"
@@ -20,7 +20,7 @@ dependencies:
   - "F.18"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled‑world entities (e.g"
+  - "MUST NOT modify modeled-world entities (e.g"
   - "and (if needed) reference them from CC items"
   - "inside the predicate)"
   - "where a non-deontic Invariant: predicate is required)"
@@ -45,7 +45,6 @@ Use it especially when a draft looks structurally compliant but may still fail o
 **Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use local patterns for the domain rule or constraint being reviewed. Use project gate or release patterns when the question is whether a project publication, work-result record, or release candidate passes a delivery gate rather than whether an FPF pattern is mature. `E.19` reviews whether an FPF pattern remains useful action guidance; it does not certify the world, the project, the publication, or the release.
 
 ### E.19:0.1 - What goes wrong if missed
-
 
 Review collapses into heading compliance or personal taste. A draft can pass because it has the right headings while still being hard for a practitioner to recognise, too thin against current practice, unclear about its governed object, or misleading about neighbouring patterns and authority posture.
 
@@ -106,6 +105,12 @@ A review **SHOULD** leave one findings-first run record against a named target p
 
 `E.19` reviewer and review-target wording is FPF pattern-quality wording. It governs FPF pattern-quality review or refresh claims, not project-side publication reading, explanation reading, comparative review-unit use, or participation in a named project-side review relation. When those project-side relations are live, use the publication or project-side pattern that names the object being read or reviewed.
 
+**Project-side reuse boundary.** Use this boundary when an `E.19` pattern-quality result is being reused as project certification, project evidence, safety support, gate input, release justification, compliance support, assurance material, work authority, or publication truth. The first E.19 move is to return the result to the exact FPF pattern-quality claim it reviews: admission, refresh, narrower use, repair return, or selected pattern-quality boundary. If that result is cited for a project-side claim, the receiving relation must be opened for that exact claim: `A.10` for evidence/currentness, `B.3` for assurance, `A.20` for local CV status, `A.21` for gate decision, `A.15` for work, or another exact governing pattern when live. The review result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
+
+**Common wrong first reading.** Pattern review passed means the project, release, publication, safety claim, or compliance claim is certified. First honest entry: E.19 returns only a pattern-quality result; any project-side reuse must name the receiving project relation and its evidence or assurance source.
+
+**Misuse guard.** A pattern-quality caution, return-for-repair result, or narrower-use result cannot be reused as project refusal or project approval unless a project-side receiving relation is live and states its own supported and unsupported use.
+
 Formal/template defects (e.g. non-compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic/ontological defects or non-SoTA Solutions, but they also **MUST** be recorded with the active repair boundary named.
 
 E.g. if the header block is missing or incomplete, **continue with ontology and semantic review first**. Treat missing header fields as one mechanical defect to record with concrete repair direction (PCP-BASE #7), not as a reason to stop.
@@ -115,7 +120,6 @@ The run **SHOULD** give best-known **Delta-Class (Δ-0…Δ-3)** and record an i
 If the local process separates review from repair, direct target-text patching, unified-diff output, or immediate remediation edits are optional local tactics rather than part of the core `E.19` run record. The core obligation is one findings-first run record plus sufficiently precise repair direction.
 
 #### E.19:4.2 - Apply the baseline profile to every run
-
 
 Every run MUST include **PCP‑BASE** as a triage baseline. Full-depth checking
 is selected only where the relevant risk is live; reviewer depth SHOULD
@@ -174,7 +178,6 @@ If an `E.10.SEMIO` cleanup is part of admission or refresh, `PCP-PRAG` treats ty
 
 For a broad cleanup across several patterns, or any cleanup that touches load-bearing Problem frames, Problem sections, first-use recognition text, archetypal grounding, examples, or worked slices, the run must leave a short didactic change account: improved, preserved, or harmed. `Harmed` blocks admission or refresh unless the same pass restores the working situation and first useful move, or names the neighboring FPF pattern that now carries the live claim.
 
-
 **PCP‑MOD (Modularity & layering discipline)** — Trigger: the review target shows scope creep or level-mixing (e.g., one pattern bundles universal core rules with frame-specific content and discipline-specific method semantics; or it mixes Intension/Description/Spec roles in one object).
 
 Checks include:
@@ -182,7 +185,7 @@ Checks include:
 * an explicit **core vs extensions** cut (universal invariants are factored into one stable “core”, and extensions reference it rather than re-stating or mutating it),
 * no conflation of **specialization vs dependency**: use `⊑/⊑⁺` for refinement/extension and `Uses` for pipelines; do not mix their semantics,
 * no conflation of package-form, governing-pattern relation, and package-relation roles: **Pack vs Kit vs Suite vs Family vs Bundle vs Cluster vs Profile vs Overlay vs Record vs Umbrella** are not interchanged, and the review states carrier status, governing-pattern relation, and package relation explicitly instead of leaving it implicit or varying it for style,
-* level hygiene: Description-level artefacts do not grow mechanism semantics; MVPK faces remain projections and do not become “the place of truth”,
+* description-lane descriptions and their publications do not grow mechanism semantics; MVPK faces remain projections and do not become "the place of truth",
 * slot-discipline hygiene for any ordered specialization set: SlotKind invariance is preserved and inherited operations do not gain new mandatory inputs (A.6.5 / A.6.1 specialization discipline).
 
 **PCP‑REFRESH (Staleness & compatibility refresh)** — Trigger: staleness signals are present (e.g., outdated SoTA rows, renamed/superseded Relations targets, terminology drift, or an explicit refresh window in LAT/DRR).
@@ -209,7 +212,7 @@ Checks include:
 Checks include:
 
 * each “best practice” claim or SoTA claim in the Solution is explicitly **bound** to SoTA‑Echoing rows (or to SoTA Synthesis Pack identifiers when used), rather than floating as ungrounded prescription, and those rows identify best-known current practice rather than popularity alone,
-* the selected SoTA source family answers the declared working problem and the relevant domain or practice tradition rather than merely supporting package placement, naming neatness, or pattern clustering,
+* the selected SoTA practice or source set answers the declared working problem and the relevant domain or practice tradition rather than merely supporting package placement, naming neatness, or pattern clustering,
 * each SoTA row changes at least one load-bearing outcome for the pattern: what the user may do, what the user must not over-read, which neighboring FPF pattern must apply, or which claim cannot be raised to release, policy, assurance, gate, action-selection, or adjudication use,
 * novel synthesis is not presented as established SoTA: it is either (a) framed as a scoped hypothesis with explicit limits, or (b) promoted into or registered as a SoTA Synthesis Pack entry before the pattern is admitted as normative guidance; a merely explanatory SoTA note that leaves the load-bearing sections untouched is non-conforming,
 * where traditions disagree substantively, the pattern makes the disagreement visible and states whether it adopts, adapts, or rejects each relevant source idea instead of silently selecting one tradition,
@@ -220,7 +223,7 @@ Checks include:
 Checks include:
 
 * explicit Bridge usage where required (no silent identity by spelling),
-* Congruence / loss is surfaced where applicable,
+* Congruence / loss is made explicit where applicable,
 * any cross-plane reuse is explicitly acknowledged and its penalties do not leak into unrelated assurances.
 
 **PCP‑SUITE (Mechanism-suite integrity)** — Trigger: the review target introduces or revises a suite-level Description that enumerates multiple distinct mechanisms (e.g., `MechSuiteDescription` or a suite specialization) and/or changes suite obligations, conformance pins, or suite protocols.
@@ -268,7 +271,7 @@ Checks include:
 Checks include:
 * Deontic requirements are expressed with RFC-style keywords (see H-8);
 * obligations are not smuggled into prose as informal imperatives. Admissibility/validity constraints are stated non‑deontically as `Invariant:` / `Well‑formedness constraint:` predicates and referenced from the Conformance Checklist when enforceable.
-* **Subject discipline for RFC keywords.** If a sentence uses RFC keywords, its grammatical subject **MUST** be an agent or a publishable artefact (author, reviewer, record, published model). RFC keywords **MUST NOT** modify modeled‑world entities (e.g., “Earth”, “RoleAssignment”, “Role”, “holon”) — express those as `Invariant:` / `Well‑formedness constraint:` predicates instead, and (if needed) reference them from CC items.
+* **Subject discipline for RFC keywords.** If a sentence uses RFC keywords, its grammatical subject **MUST** be an agent or a specified published record/model whose required content is being constrained (author, reviewer, record, published model). RFC keywords **MUST NOT** modify modeled-world entities (e.g., “Earth”, “RoleAssignment”, “Role”, “holon”) — express those as `Invariant:` / `Well‑formedness constraint:` predicates instead, and (if needed) reference them from CC items.
 
 **PCP-ENTRY (Pattern-entry discoverability and entry-orientation changes)** —
 Trigger: one change substantively affects how one reader recognizes, selects,
@@ -350,7 +353,7 @@ Its default review load is one small core triggered check:
 
 1. **No workflow implication**
    Entry text does not imply mandatory sequence, control transfer, handoff, or
-   artefact pipeline unless another governing entry or applicable projection role
+   publication, carrier, or record sequence unless another governing entry or applicable projection role
    explicitly governs that semantics.
 
 2. **Governing-entry boundary preserved**
@@ -393,7 +396,7 @@ Substantial discoverability changes leave one compact pattern-local note in the 
 That pattern-local note may stop at one explicit rationale when the risk is already
 controlled by governing-entry or applicable-projection-role inspection, support-role
 partition, or one local wording repair.
-It is not a separate artefact unless the change is high-risk, disputed,
+It is not a separate review record unless the change is high-risk, disputed,
 public-facing with substantive entry risk, or retrieval-facing.
 
 When one compact pattern-local note is needed, it names only the changed support role, the
@@ -558,9 +561,8 @@ A PQG run **MUST** end with (a) one compact list of blocking findings and (b) on
 
 ### E.19:5 - Archetypal Grounding — Tell–Show–Show: System / Episteme
 
-
 | Scenario | U.System grounding | U.Episteme grounding |
-|---|---|
+|---|---|---|
 | **Tell** | A safety-critical engineering team proposes a new pattern describing how to gate a subsystem before deployment. The draft looks polished, but it quietly imports domain terms, assumes cross-team equivalences, and introduces obligations that are not listed in its own checklist. | A research group refreshes an older pattern that summarizes how to evaluate evidence-support class. The pattern still reads well, but its SoTA references and terminology no longer match current practice, and its Relations point to patterns that were renamed or superseded. |
 | **Show (failure without PQG)** | Reviewers focus on whether the idea is good and whether the template exists. The pattern is admitted, but later users disagree on what it requires because the Conformance Checklist is incomplete and key constraints are only in prose. | The pattern remains unchanged because “nothing looks broken”. Over time, it becomes a conceptual fossil: newcomers treat it as current guidance, but it encodes an outdated stance and stale vocabulary. |
 | **Show (repair with PQG profiles)** | PCP‑BASE finds missing internal coherence (requirements in prose not reflected in CC). PCP‑TERM finds naming drift and scope-smuggling in new terms. PCP‑BRIDGE finds implicit cross-context identity claims without explicit alignment. The findings-first run record then names one repair pass before admission, and the final CC becomes the canonical conformance body. | The run record leaves one explicit decision: update SoTA‑Echoing with post‑2015 guidance and appropriate Solution changes, limit the scope to “historical lineage” where appropriate, and update Relations to current dependencies. The refreshed pattern becomes trustworthy again, and any remaining historical content is clearly labeled as such. |
@@ -592,7 +594,6 @@ Bias risks and mitigations:
 | **CC-E19-6 (Findings-first remediation direction).** | The run output **MUST** include one compact list of blocking findings plus concrete remediation direction, ordered by semantic impact (load-bearing sections first). Findings stay primary; direct patch text is optional local process tactic, not the core `E.19` run record. | Ensures actionability and independent repeatability without collapsing review into repair. |
 | **CC-E19-7 (Recognition text, assurance text, and self-containment).** | Admission or refresh runs for new and substantially revised patterns **MUST** check that a first-reading recognition text appears early enough for the intended reader, that the heavier assurance text remains visibly second rather than becoming the first real point of entry, and that the assurance text does not silently shift the recognition-text claim. The run **MUST** check for a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, the first admissible action-guiding move the user should take, and an ordinary `not this pattern when` boundary; for any load-bearing typed declaration or modeling lens, the run **MUST** confirm that a short user-facing statement exposes the governed object and the minimal lens that keeps it reviewable; the run **MUST** also check that the governed object keeps one stable kind across title, opening role, declaration role, worked slices, and neighbouring-pattern or support-companion guidance rather than drifting between the named governed object, an act, a work-result record, and carrier-placement labels. When a broader umbrella name and a narrower operative branch are both live, the run **MUST** check that the recognition text makes that stack explicit enough to identify the umbrella, the active branch, the governed object, the move, and the wider work or process that still remains outside. The recognition text **MUST** start from a recognisable problem-owning domain or practice moment whenever that can be done without loss of precision, rather than opening first with internal package architecture or taxonomy language. Early load-bearing technical terms **MUST** receive nearby pairwise plain glosses; transform-like families **MUST** carry concrete worked slices plus ordinary-vs-load-bearing guidance where needed; and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If SoTA or practice tradition is load-bearing, the run **MUST** check that governed-object choice, narrowed-branch choice, and practical payoff remain answerable to the relevant domain or practice rather than only to internal package architecture. If a pattern claims universal or transdisciplinary usefulness, the run **MUST** check that this breadth is already demonstrated in the recognition text through at least three heterogeneous situations, with `F.16` preferred as the example-matrix template. | Prevents architecturally correct but reader-opaque patterns and keeps broad claims from appearing only late in the assurance text. |
 | **CC-E19-7a (Semantic cleanup cannot leave inert recognition).** | If admission or refresh includes `E.10.SEMIO` cleanup, the run **MUST** check that the recognition text remains useful after overread removal under `E.2` `P-2` and `E.12`. The run fails this check when repaired wording is typed and semantically repaired but no longer tells the intended working reader why the distinction matters, what remaining admissible reader move exists, or which neighboring FPF pattern now carries the live claim. When the cleanup touches load-bearing Problem frames, Problem sections, first-use recognition text, examples, or worked slices, the run **MUST** also state whether the didactic function was improved, preserved, or harmed. When both Tech and Plain registers are live, the run **MUST** check that Plain or didactic recognition wording either stays ordinary because it carries no FPF load, or maps back to the recovered Tech reading under `E.10:6.2` when it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility load. The run must preserve intentional didactic metaphors when they are ordinary recognition aids or when their load remains recoverable from the recovered Tech reading. The run also fails this check when more expressive recognition wording carries such load without recovery through the recovered Tech reading or named handoff. | Prevents pattern admission or refresh from accepting semantically repaired but practically inert prose, and prevents readability repair from reintroducing overread. |
-
 | **CC-E19-8 (Sentence-level precision restoration).** | Load-bearing sentences **MUST** be reviewed for generic heads, semantic-load-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. A narrowing qualifier does **not** by itself restore head kind. The default repair order is head kind first, qualifier semantic load second, comparison-basis homogeneity third. When broad umbrella words such as `interpretation`, `reading`, `review`, `surface`, `document`, or `artifact` are carrying live architectural or semantic load, the run **MUST** also restore whether the text names an umbrella, a narrowed branch, a governed object, a move, or a wider work or process outside the governed object before that wording is allowed to carry architectural load. When naming or terminology repair is load-bearing, the run record **MUST** leave one explicit `F.18 -> A.6.P` account on disk: candidate heads or phrases reviewed, mint-vs-reuse decision, provisional F.18 winner plus rejected candidates, any kind-conflict / lexical-conflict findings, the `A.6.P` survival result on the repaired phrase, and the resulting governed object / governed move / outside-work reading if the wording still carries architectural load. | Keeps controlled technical writing from collapsing into free shorthand or false precision. |
 | **CC-E19-9 (Package-form, governing-pattern relation, and package-relation role-word discipline).** | Reviews **MUST** check that role words such as `primary carrier`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, and `umbrella` match the actual ontology of the case and do not drift by stylistic substitution. When naming or ontology repair introduces or retains one head already occupied elsewhere in FPF, the run **MUST** explicitly account for that occupied-kind / occupied-head conflict and say whether the same occupied meaning is intentionally reused or instead blocked as a collision. | Keeps governing-pattern relations and package relations, review roles, and package forms semantically legible. |
 | **CC-E19-10 (Reader-role discipline).** | Reviews **MUST** check that live pattern sections are written for the intended FPF user, that any multi-reader draft makes its primary working reader, concern, and viewpoint explicit enough, and that package-development reasoning about isolation, landing form, freeze, merge posture, later promotion, safest move, blast radius, or defer posture stays in separate companions or clearly marked informative placement notes. The run record **MUST** name the user-facing sections scanned for this leak family and any repaired or still-informative exceptions. | Keeps reviews from accepting conceptually correct but role-confused patterns. |
@@ -602,13 +603,12 @@ Bias risks and mitigations:
 | **CC-E19-14 (Scenario / anti-case / utility-fit account is explicit).** | When the current domain or workstream has a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous common check source, the run record **MUST** explicitly state which of those sources were consulted, which scenarios or anti-cases were actually checked, which qualities or fitness pressures were load-bearing, and what remains outside the claimed review boundary. | Prevents scenario, anti-case, and fitness checks from disappearing into reviewer memory or external-review folklore. |
 | **CC-E19-15 (Packaging, governing-pattern relation, package relation, and shipping-fit account is explicit).** | Before any send-facing, landing-facing, or monolith-facing posture claim, the run record **MUST** explicitly account for governing-pattern relation and package relation, package form, publication role with named authority-reference relation, send posture, landing posture, monolith posture, and other shipping-facing claims that matter for this target. It **MUST** say what was checked, what was blocked, what was cleared, and why the claimed boundary is valid now. | Keeps packaging and shipping checks from being inferred loosely after one local text improvement. |
 | **CC-E19-16 (Domain-tightened profile depth is explicit).** | When a domain-specific mapping note or support stack exists under `E.19` (for example semio `FIT-*` or equivalent local depth checks), the run record **MUST** explicitly state which such local checks were used, which PCP load they tightened, and what they found or explicitly did not find. | Keeps local review depth auditable and prevents domain-specific checks from becoming optional folklore around the PCP stack. |
-| **CC-E19-17 (support-object survival is justified).** | When a new or refreshed pattern subset keeps a long-lived support companion, profile, check sheet, pattern-local support row, review harness, or analogous selected non-pattern FPF kind-reference pair, the result **MUST** make its support role explicit: support question, governing pattern or selected non-pattern FPF kind-reference pair, admissible support-only use, one real breakage if absent, and demotion or deletion condition when no such breakage exists. | Prevents support material from surviving by inertia or becoming hidden authority after the pattern body already carries the usable guidance. |
+| **CC-E19-17 (Support-material retention is justified).** | When a new or refreshed pattern subset keeps a long-lived support companion, profile, check sheet, pattern-local support row, review harness, or analogous selected non-pattern FPF kind-reference pair, the result **MUST** make its support role explicit: support question, governing pattern or selected non-pattern FPF kind-reference pair, admissible support-only use, one real breakage if absent, and retention, accepted-basis-only, or removal condition when no such breakage exists. | Prevents support material from remaining by inertia or becoming hidden authority after the pattern body already carries the usable guidance. |
 | **CC-E19-18 (Substantive solution and locus adequacy is explicit).** | A pattern-quality closure claim over a new, refreshed, or materially repaired pattern or subset **MUST** include one target-specific substantive adequacy pass unless the change is purely mechanical and no content-bearing claim changes. The account **MUST** name the local questions and checked loci, then state whether the text still solves the stated problem, sends live claims to the correct neighboring loci, preserves kind and support boundaries, keeps SoTA support current enough for its load, remains usable without excess apparatus, and did not make any content relation worse. If the check exposes a needed wider edit, the declared boundary is widened by value or a named receiving FPF pattern, support document, record, or accepted basis is recorded. | Prevents clean checklists, clean terminology, or successful profile selection from hiding wrong content, shadow authority, lost support relations, or accidental regression. |
 | **CC-E19-19 (Accepted-decision carry-through is explicit).** | If the review work states that accepted decisions from an accepted `DRR`, returned-finding set, accepted intake, architecture basis, or other accepted basis named by value are implemented in or discharged by the `E.19` review target, the run record **MUST** include a decision-carry-through discharge. It maps accepted decisions, accepted-basis slices, terminology/ontology repairs, rejected or not-triggered options, selected validation banks, and support obligations to loci inside that review target or to a named receiving FPF pattern, support document, record, or accepted basis. Each item is classified as expressed sufficiently, expressed partially, not expressed and blocking, carried by direct accepted-basis read obligation, correctly absent because rejected or not triggered, inherited unchanged, or outside the review target with a named receiving FPF pattern, support document, record, or accepted basis. A generic statement that the `DRR` or accepted basis was used is nonconforming. If the live case is an `E.17.ID.CR` comparative review unit, `PublicationUnit`, publication form or face, source-pinned reading case, document whose accepted-basis, evidence-basis, architecture-basis, or review-basis role is named, or project-side review relation, the run **MUST** name that governing-pattern kind and reference rather than collapsing it into `E.19` review-target wording. | Prevents accepted decisions or accepted-basis obligations from disappearing after later wording, profile, or release checks focus only on the text that happened to be changed, without letting `E.19` swallow other review or reading patterns. |
-
+| **CC-E19-20 (Pattern-quality review is not project certification).** | If an `E.19` result is reused outside FPF pattern-quality review, the run record **MUST** state the exact project-side claim and the receiving relation that carries it. `E.19` alone **MUST NOT** be treated as project evidence, safety support, gate input, release justification, compliance support, assurance material, work authority, or publication truth. | Prevents pattern-quality conformance from supplying false project-world certification, gate passage, evidence sufficiency, or safety acceptance. |
 
 ### E.19:8 - Common Anti-Patterns and How to Avoid Them
-
 
 | Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
 | ---------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -632,8 +632,8 @@ Bias risks and mitigations:
 | **Sentence-level shorthand drift** | A few innocent-looking words (“species”, “branch”, “flow”, “input/output”) quietly carry the semantic load. | Review passes while key relations remain implicit or wrong. | Inspect load-bearing sentences one by one and replace shorthand with explicit governing-pattern relations and package relations or publication language. |
 | **Package-form, governing-pattern relation, and package-relation drift** | The text slides between `family`, `bundle`, `cluster`, `profile`, `overlay`, `suite`, `kit`, or `record` without showing that the ontology changed. | Reviews miss governing-pattern or authority-reference blur because each local sentence still sounds plausible. | Require one intended role word, check governing-pattern relation and package relation explicitly, and treat stylistic noun-swapping as a semantic defect. |
 | **Reader-role leakage** | Live sections explain why the pattern was isolated, what landing form is safest, or why merge/freeze is premature. | Review accepts a package memo disguised as a user pattern. | Move package-development reasoning to companions; rewrite live sections in terms of what the user may do, must avoid, and which exact neighboring FPF pattern or named project-side FPF kind and reference governs the release, policy, assurance, gate, action-selection, or adjudication case. |
-| **Support object by inertia** | A companion note, profile, check sheet, support row, or review harness remains attached to a pattern family after the pattern body already carries the usable guidance, but the text does not say what real breakage returns if that support object is absent. | Support material becomes permanent local folklore, hidden authority, or reader cost without a corresponding use gain. | State the support question, governing source, support-only use, real breakage if absent, and demotion or deletion condition; otherwise fold the useful example into the pattern or demote the object. |
-
+| **Support material retained by inertia** | A companion note, profile, check sheet, support row, or review harness remains attached to a pattern family after the pattern body already carries the usable guidance, but the text does not say what real breakage returns if that support material is absent. | Support material becomes permanent local folklore, hidden authority, or reader cost without a corresponding use gain. | State the support question, governing source, support-only use, real breakage if absent, and retention, accepted-basis-only, or removal condition; otherwise fold the useful example into the pattern or keep it only in the accepted basis. |
+| **Pattern-quality result as project certificate** | An `E.19` pass is cited as proof that a project release, safety claim, compliance posture, work result, publication, or gate has passed. | Collapses FPF pattern-quality review into project-world evidence or gate authority. | Keep `E.19` as pattern-quality review; open `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, or another exact receiving pattern for the project-side claim being made. |
 
 ### E.19:9 - Consequences
 
@@ -662,6 +662,8 @@ The baseline profile protects cross-pattern comparability and editorial sanity. 
 | “Living” guidance needs refresh discipline.                            | Reporting and review guidance is updated and versioned; reviewers track changes and report deltas clearly. | Page et al. (2021), PRISMA 2020 statement and explanation papers.                           | Runs require explicit decisions and deltas in SoTA‑Echoing. | **Adapt.** Use the “versioned guidance + explicit deltas” principle without importing implementation or process mandates. |
 | Retrieval-facing entry changes need selected evidence dimensions, not universal benchmarks. | RAG evaluation practice separates context relevance, answer faithfulness, answer relevance, and support quality. | Es et al. (2023), `RAGAS`; Saad-Falcon et al. (2023), `ARES`. | `PCP-ENTRY-E4` and related evidence modes select tiny retrieval fixtures only when retrieval-facing behavior or observed misretrieval is live; the row does not authorize a universal benchmark for every pattern entry. | **Adopt lightly.** Keep hit, support, authority, and faithfulness dimensions only when retrieval-facing behavior is live; ordinary entry prose remains prose-only. |
 
+Action result from the pattern-review and validation practice basis: an `E.19` pass, caution, return-for-repair result, narrower-use result, clean checklist, or clean retrieval-entry check does not become project certification, project evidence, safety support, gate input, release justification, compliance support, assurance material, work authority, publication truth, or project refusal/approval. The local E.19 result is a pattern-quality review or refresh claim over the named target pattern, selected profile, defects found or cleared, admission, refresh, narrower-use, repair-return, or selected pattern-quality boundary. Reopen the pattern-quality result when the reviewed text, accepted-basis decision, SoTA support, neighboring pattern, support relation, profile trigger, target boundary, or attempted project-side reuse changes.
+
 ### E.19:12 - Relations
 
 * **Builds on:**
@@ -684,3 +686,4 @@ The baseline profile protects cross-pattern comparability and editorial sanity. 
   * `G.11` (refresh/decay orchestration principles, where applicable)
 
 ### E.19:End
+

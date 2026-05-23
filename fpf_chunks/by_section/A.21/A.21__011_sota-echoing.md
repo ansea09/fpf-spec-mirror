@@ -6,12 +6,12 @@ section_id: "A.21:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__011_sota-echoing.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:10 — SoTA-Echoing"
-line_start: 27776
-line_end: 27786
+line_start: 27845
+line_end: 27857
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -49,7 +49,9 @@ Anchors (post-2015) that this pattern **adopts/adapts/rejects**, consistent with
 * **Adopt.** *Join-semilattice aggregation as deterministic, profile-bound merge* (distributed systems / CRDT literature, e.g., Kleppmann 2017; Kleppmann & Beresford 2017): A.21 uses the algebraic idea only so declared gate-check outcomes fold to the same `GateDecision` under the same active profile and equivalence witness. It does not import CRDT architecture or use CRDT as prestige terminology.
 
 * **Adapt.** *Compositional reasoning with commuting diagrams* (applied category theory, e.g., Fong & Spivak 2019): A.21 adapts the intuition by making SquareLaw a gate-audited invariant on crossings, while keeping publications human-first and pin-based.
-* **Adapt.** *Supply-chain provenance / policy gating via attestations* (software supply-chain security, e.g., in-toto 2019; SLSA v1.2 current specification for provenance and VSA attestation formats): A.21 adapts the attestation-shaped evidence discipline as MVPK pins plus `DecisionLog`, not DevOps workflow, tool-specific procedures, or runtime scripts.
+* **Adapt.** *Supply-chain provenance / policy gating via attestations* (software supply-chain security, e.g., in-toto 2019; SLSA v1.2 current specification for provenance and VSA attestation formats): A.21 adapts the attestation-shaped evidence discipline as MVPK pins plus `DecisionLog`, not DevOps workflow, tool-specific methods, or runtime scripts.
 
 * **Reject.** *Narrative-as-authority.* Any approach where human-readable explanations function as decision-bearing records is rejected; in A.21, narratives remain optional derivatives of structured rationales and are explicitly non-decisional.
+
+Action result from the gate-publication and attestation practice basis: green tiles, readiness badges, release screens, conformance labels, safety-envelope notes, CV results, and gate-looking explanations do not become gate passage, release permission, safety acceptance, assurance, work occurrence, or work authorization by appearance. The local A.21 result is an active `OperationalGate(profile)`, active `GateProfile`, effective `GateCheckRef` set, CV aggregate, `GateDecision`, `DecisionLogRef`, scope, and currentness/window, or else the item remains a cue, source pointer, CV result, evidence question, or neighboring-pattern exit. Reopen the gate result when the active profile, check set, CV aggregate, decision, rationale, scope, currentness/window, equivalence witness, or consuming neighboring relation changes.
 

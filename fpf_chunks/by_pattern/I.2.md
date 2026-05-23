@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/I.2.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
-line_start: 74848
-line_end: 75062
+line_start: 74965
+line_end: 75180
 dependencies:
 keywords:
 ---
@@ -220,11 +220,12 @@ Each worked entry reading keeps recoverable:
 - **Admissible entry stop:** a cheap downgrade sentence, a local `CausalUseTriageRecord`, a local or durable `CausalUseEvidenceDesignRecord`, a `CausalUseSupportVerdict`, or a named neighbor-pattern use that cites `C.28` without claiming broader authority.
 - **What not to infer:** a randomized procedure is not automatically counterfactual support; a simulation is not realized counterfactual data; a target-trial phrase is not proof of identification; a fairness metric is not causal fairness; a method benchmark is not comparable if methods sit on different causal rungs or estimands; and a causal support record does not by itself create a duty, promise, commitment, release gate, or admissibility predicate.
 
+### I.2:End
+
 # **Part J – Indexes & Navigation Aids**
 
-
 | §   | ID & Title               |  Concise reminder                                        |
-| --- | ------------------------ | --- | ------------------------------------------------------- |
+| --- | ------------------------ | ------------------------------------------------------- |
 | J.1 | Concept‑to‑Pattern Index |  Quick jump from idea (“boundary”) to pattern (§, id).   |
 | J.2 | Pattern‑to‑Example Index |  Table listing every archetypal grounding vignette.      |
 | J.3 | Principle‑Trace Index    |  Maps each Pillar / C‑rule / P‑rule to concrete clauses. |

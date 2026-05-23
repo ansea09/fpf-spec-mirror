@@ -6,7 +6,7 @@ section_id: "A.6.3:4"
 section_title: "Solution — U.EpistemicViewing as EFEM profile (describedEntityChangeMode = preserve)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution-u-epistemicviewing-as-efem-profile-describedentitychangemode-preserve.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism"
   - "A.6.3:4 — Solution — U.EpistemicViewing as EFEM profile (describedEntityChangeMode = preserve)"

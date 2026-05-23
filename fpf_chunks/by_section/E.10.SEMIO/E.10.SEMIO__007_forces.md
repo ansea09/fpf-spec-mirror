@@ -6,12 +6,12 @@ section_id: "E.10.SEMIO:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.SEMIO/E.10.SEMIO__007_forces.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline"
   - "E.10.SEMIO:3 — Forces"
-line_start: 52191
-line_end: 52200
+line_start: 52300
+line_end: 52309
 dependencies:
   - "A.10"
   - "A.15"

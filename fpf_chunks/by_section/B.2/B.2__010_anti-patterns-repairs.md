@@ -6,12 +6,12 @@ section_id: "B.2:8"
 section_title: "Anti‑patterns & repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__010_anti-patterns-repairs.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:8 — Anti‑patterns & repairs"
-line_start: 29928
-line_end: 29939
+line_start: 30000
+line_end: 30011
 dependencies:
   - "A.1"
   - "A.12"

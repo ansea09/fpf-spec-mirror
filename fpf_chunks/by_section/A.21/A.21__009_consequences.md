@@ -6,12 +6,12 @@ section_id: "A.21:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_consequences.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:8 — Consequences"
-line_start: 27751
-line_end: 27765
+line_start: 27820
+line_end: 27834
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -54,6 +54,6 @@ keywords:
 **Trade-offs**
 
 * **More decision records to publish.** Decisions are not “just pass/fail”: they require rationales, pins, and logs.
-* **Two-stage reasoning.** Users need the rule “GF does not apply until CV passes”; mitigated by explicit inapplicability rules and optional narratives only when applicable.
+* **Two-stage reasoning.** Users need the rule “GF does not apply until `CV.Status=pass` holds”; mitigated by explicit inapplicability rules and optional narratives only when applicable.
 * **Scope complexity.** Multi-scope merge semantics can feel heavy; mitigated by union + worst-wins + preserved rationales.
 

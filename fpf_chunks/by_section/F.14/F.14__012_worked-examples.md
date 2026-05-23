@@ -6,12 +6,12 @@ section_id: "F.14:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__012_worked-examples.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:11 — Worked examples"
-line_start: 66343
-line_end: 66381
+line_start: 66460
+line_end: 66498
 dependencies:
   - "F.1"
   - "F.10"

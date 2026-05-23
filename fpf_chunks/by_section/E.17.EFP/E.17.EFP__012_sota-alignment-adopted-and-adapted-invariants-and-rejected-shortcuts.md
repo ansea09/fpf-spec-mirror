@@ -6,12 +6,12 @@ section_id: "E.17.EFP:11"
 section_title: "SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__012_sota-alignment-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:11 — SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
-line_start: 57653
-line_end: 57673
+line_start: 57765
+line_end: 57787
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,4 +53,6 @@ keywords:
 **Explainability and reliability traditions.** `E.17.EFP` adopts the distinction between source-bound explanation and merely plausible explanation prose. It rejects the still-popular shortcut in which fluent or pedagogically useful language is treated as sufficient evidence of explanation faithfulness.
 
 **Local stance.** Best-known current practice supports a narrow rule: explanation renderings are admissible only when their class, source anchoring, evidence relation, admissible faces, and forbidden downstream uses remain visible enough that reader help does not become a second semantic rule track.
+
+Action result from the explanation-faithfulness and retrieval-evaluation practice basis: fluent, source-linked, generated, retrieved, didactic, or pedagogically useful explanations do not become evidence, assurance, approval, gate passage, release support, work authority, or operative-claim support by fluency, plausibility, citation-like wording, or retrieved context. The local E.17.EFP result is explanation class, source anchor, admissible explanation use or source-finding posture, non-admissible downstream use, and operative-claim mapping to `A.10` or another exact receiving pattern only when reliance is live. Reopen the explanation-use result when the source claim set, pins, provenance, retrieved context, generated rendering, admissible face, use escalation, or support for an operative claim changes.
 

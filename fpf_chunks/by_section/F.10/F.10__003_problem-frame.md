@@ -6,12 +6,12 @@ section_id: "F.10:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__003_problem-frame.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:2 — Problem frame"
-line_start: 64803
-line_end: 64812
+line_start: 64920
+line_end: 64929
 dependencies:
   - "B.3"
   - "D.CTX"

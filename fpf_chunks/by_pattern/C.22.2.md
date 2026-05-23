@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.2.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
-line_start: 41692
-line_end: 42519
+line_start: 41806
+line_end: 42628
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,7 +80,6 @@ keywords:
 
 **Boundary summary.** `C.22.2` use starts from messy problem-side signals and yields one reviewable `ProblemCard@Context`, a `P2W-ready` problem-side input for downstream `C.22`, or a named neighboring exit. `C.22` keeps the selector-facing `TaskSignature`; neighboring patterns keep authority for characterization, comparison, acceptance, archive and set relations, evidence, gate, autonomy, work, representation, temporal, causal, and mathematical relations. `C.22.2` does not govern those receiving relations.
 
-
 ### C.22.2:1 - Problem Frame
 
 A working team can reach the beginning of development with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, and opportunity-like cues. Opportunity-like signals still need context, scope cut, not-wish reason, improvement or acceptance probe, and honest next move; they do not turn this pattern into ideation authority. If FPF only says "type the task" or "choose a method", P2W can receive a slogan, a ticket-shaped wish, or a solution-shaped task before the problem itself is reviewable.
@@ -96,7 +95,6 @@ The first-minute working question is:
 ### C.22.2:2 - Thin First Use and Output Kind
 
 #### C.22.2:2.1 - Thin First-Use Form
-
 
 The first substantive use of this pattern is the Thin form. It is a practitioner-facing prompt for writing the smallest reviewable problem card, not a demand to complete a field list.
 
@@ -128,8 +126,6 @@ Local labels in this pattern are local to the `C.22.2` record shape unless a sep
 
 Reference labels ending in `Ref` are reference roles, not object names. This includes `ProblemCard@ContextRef`, `setContextRef`, `rivalProblemFormulationRef`, and `semioRelationRef`; do not shorten or promote them into local object kinds such as `ProblemCardRef`, `SetContext`, `RivalFrame`, or `SemioRelation`.
 
-
-
 `@Context` means that the card is bound to declared context grounding: a named `U.BoundedContext`, a project-side context reference, or an explicitly bounded practice situation with recoverable local meaning. Domain or practice wording may identify the informative locus of the problem, but it does not replace context grounding. A broad label such as healthcare, education, engineering, research, or operations is not context grounding by itself. When domain or practice wording carries semantic load, recover the named bounded context, project-side context reference, or explicit bounded practice situation and state what local meaning or rule is being used. The card does not assert global problem identity outside that declared context grounding.
 
 Plain gloss for `P2W-ready`: problem-side input ready. It means ready as input to downstream P2W or selector reasoning, not ready to execute work, pass a gate, or select a method.
@@ -158,7 +154,6 @@ Use the neighboring-exit aid only when a conditional relation is live.
 This is the Thin-form writing order, not a completion sequence for the whole pattern. It adds no fields; it keeps the practitioner on the smallest truthful card before Standard or High-load relations are paid for.
 
 #### C.22.2:2.3 - Neighboring-Exit Aid
-
 
 Use this exit aid when a live relation appears while writing or reviewing a `ProblemCard@Context`.
 
@@ -212,9 +207,7 @@ Thin is not an immature profile. When it gives the honest next move, Thin is a f
 
 The profile order is a reading aid, not a required transition sequence. Thin is the default entry; Standard and High-load add only liveness-triggered fields; neighboring exits are consulted after the Thin next move exposes a live relation.
 
-
 Stop at Thin when the honest next move is local stabilization, local characterization, source reread, or another early problem-side clarification before P2W readiness is claimed. Stop at Standard when it is sufficient to emit or bind a minimal `TaskSignature`, `TaskKind`, or `ProblemProfile` for downstream selector-facing use without carrying high-load relations locally. Exit immediately instead of continuing the card when the live issue is work, evidence, provenance, assurance, gate, autonomy, bridge, representation transition, retargeting, structural reinterpretation, causal-use claim, temporal claim, agentic call planning, or refresh.
-
 
 #### C.22.2:2.5 - Field Labels and Liveness
 
@@ -258,9 +251,7 @@ Field absence rule: if a conditional relation is not live, the field is absent, 
 
 When the card compares options, selected-set members, retained candidates, or rival problem formulations, it must state the live comparison or parity basis, or state why comparison is not live for the current move. Absence of a parity basis is not automatically a defect; it is a disposition. The admissible result is either parity not live for the current card, or exit to `G.9` before `P2W-ready` is claimed. A local fair-comparison result or selected-set result is not admissible inside `C.22.2`.
 
-
 A conforming `C.22.2` use includes minimal source and context witness material when source, set, selection, characterization, parity, freshness, or semio relation is live. Otherwise a Thin card may cite the observed signal in plain form. The field-group label `problemCardSource` may be used inside the pattern, but it is not a new FPF object and not an evidence graph. It is a recoverability field group for the source and neighboring references that make the problem-side record reviewable:
-
 
 ```text
 problemCardSource:
@@ -274,7 +265,6 @@ problemCardSource:
 ```
 
 Generated problem variants, evaluator feedback, and open-ended problem mutation may be recorded only as `sourceSignalRef`, `selectionOrRetentionBasis`, or `setContextRef` when they make the problem-side record reviewable. They do not provide problem authority, evidence sufficiency, or permission to probe or act.
-
 
 #### C.22.2:2.6 - Anti-Pattern Checks and Worked Slices
 
@@ -379,7 +369,6 @@ The heavy content stays with existing FPF patterns:
 - `G.4` carries acceptance clauses and threshold predicates;
 - `G.5` governs selected-set publication when the problem enters a selected set.
 
-
 Missing characterization or parity basis is a current disposition. The record exits to characterization, parity, or search or pool work under the receiving pattern instead of pretending the problem is ready for P2W.
 
 The `C.22.2` candidate acceptance basis must distinguish functional check, constraint compliance, risk or safety boundary, parity or comparison basis, and freshness window when those relations are live. Comparison frame, CG-Spec, or comparability governance exits to `G.0`. Acceptance clauses and acceptance threshold predicates exit to `G.4`; `C.22.2` may name only the need, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself admissible acceptance for P2W.
@@ -447,7 +436,7 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, l
 | Palette | `C.18`, `C.19`, `G.5` | Preserve candidate-family or option-set reading without turning it into evidence or approval. |
 | Front | `C.18`, `A.19`, `C.25`, `G.5` | Preserve declared characteristics and non-dominated set reading. |
 | Shortlist | `G.5`, with `G.9` when comparison pins matter | Preserve selected-set basis and downstream use. |
-| Ranked shortlist | `G.5` only when an admissible order is declared | Preserve ranking basis or demote to selected set with tie notes. |
+| Ranked shortlist | `G.5` only when an admissible order is declared | Preserve ranking basis or narrow to selected set with tie notes. |
 | Selected set | `G.5` | Preserve selected-set output, basis pins, and unknown handling. |
 | Live pool | `C.19` | Preserve pool policy, current treatment, and change trigger. |
 | Set-return | `G.5`, `C.18`, `A.6.Q`, declared comparison records | Preserve set-valued result when total order is not admissible. |
@@ -455,7 +444,6 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, l
 A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `setContextRef`: the lightweight reference to the source set kind, source reference, selection or retention basis, budget or window, review cadence, and receiving pattern when live. `setContextRef` is a reference field, not a new `SetContext` kind, and is not evidence, gate passage, approval, portfolio object, or work authority.
 
 `setContextRef` must preserve the recoverable source-set form when live: `Palette`, `Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, `SelectedSet`, `LivePool`, or another accepted source-set form. If the source-set form is not recoverable, the card may keep a source cue, but it must not claim selected-set readiness or archive-derived readiness.
-
 
 When multiple plausible problem formulations remain live, `C.22.2` must not bind one `TaskSignature` prematurely. Each optional `rivalProblemFormulationRef` must state the rival formulation, described entity, context, preserved concern, lost concern, reason not selected yet, and next discrimination move. It is not a `CG-Frame`, not the E.8 `Problem Frame`, and not a representation-frame object.
 The next discrimination move may be to characterize, compare, retarget, reopen the source, choose a local problem formulation, or exit to the relation-bearing pattern. Reframing is triggered when context grounding, described entity, viewpoint, scope cut, or cause-theory cue changes the problem representation enough that support or readiness cannot be inherited by wording continuity.
@@ -465,7 +453,6 @@ The next discrimination move may be to characterize, compare, retarget, reopen t
 Goldilocks problem selection is the problem-side adaptation of the current NQD, OEE, and set-return family. It is not direct QD or OEE vocabulary import, not a new scalar readiness doctrine, not a local QD or OEE vocabulary, and not a single score. `C.22.2` must not mint `GoldilocksProblem`, `GoldilocksScore`, `GoldilocksReadiness`, or any equivalent local kind; Goldilocks remains a readiness and selection reading carried by current receiving patterns.
 
 A Goldilocks, stepping-stone, or archive-derived problem must be represented as source context or set context, selection or retention basis, and current next move, not as problem difficulty, priority, or readiness score.
-
 
 `ProblemCard@Context` carries only the problem-side readiness fields and exits:
 
@@ -486,13 +473,11 @@ If the band is not supported by a characteristic, Q-bundle, comparison, retentio
 
 The current receiving family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q`. The relation to `C.22:14` is a role and timing relation inside the same family: `C.22.2` uses the family before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
 
-
 ### C.22.2:10 - Structure Cue That Improves Formulation
 
 `C.29` carries the neighboring adequacy check for first-principles or mathematical structure cues used by `ProblemCard@Context`.
 
 `firstPrinciplesCue` is a local cue label for a formulation-changing structure and an exit to `C.29`; it is not a local mathematical-lens kind or a substitute for `C.29` lens adequacy.
-
 
 The problem card may ask whether a first-principles or mathematical structure helps find or improve the problem formulation, not only whether an already-mentioned mathematical object is admissible. Useful cues include state space, graph, boundary, topology, symmetry, invariant, variational or constrained-optimization structure, probability or information structure, resource bound, obstruction, scale window, composition, or coarse-graining choice.
 
@@ -531,14 +516,43 @@ Detector, check, and optimization-target discriminator:
 - monitored risk signal: what may worsen, distort value, or change the safe next move; not proof by itself.
 - acceptance authority: carried by `G.4` or another receiving acceptance pattern, not by `C.22.2`.
 
+Reliance-disposition rule for P2W receiving use:
 
+Use this rule when support posture or validation boundary may enter P2W as evidence-like, confidence-like, conformance-like, proxy-like, safety-looking, redress-bearing, or currentness-bearing support. The first C.22.2 move is to keep the result problem-side: name the P2W receiving use, unsupported use, and any live receiving-pattern exit. This rule does not add a default field family to `ProblemCard@Context`. If the Thin card already gives an honest next move and live exits, no additional reliance record is required.
 
+Support role: the disposition table below is a local P2W-reliance recognition and minimum local record aid, and the worked P2W reliance slices are regression/review slices. They are not card field lists, project checklists, or hidden SEMIO state machines. Use them only to state the supported P2W receiving use, unsupported use, and receiving-pattern exit when support posture or validation boundary is actually being relied on. This local section returns the attempted P2W use to the C.22.2 problem-side relation and named receiving-pattern exits; it does not create an extra SEMIO authority or shared relation family.
 
+Affordability card: orientation, discussion, or source-finding can remain an ordinary problem-side cue; bounded P2W reliance states the supported receiving use, unsupported use, window, and exit; threshold reliance names the receiving evidence, assurance, gate, autonomy, control, work, temporal, or representation relation instead of making the card larger. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 
+Common wrong first reading: `P2W-ready` means proof, safety acceptance, gate passage, method selection, work authorization, or release permission. First honest entry: keep the result problem-side; name the P2W receiving use and any exact evidence, assurance, gate, autonomy, control, work, temporal, or representation exit when live.
 
+| Attempted P2W use | Local card move | Receiving-pattern exit when live | Forbidden overread |
+| --- | --- | --- | --- |
+| Support posture is enough for the next P2W receiving use | State `RelianceDisposition=pass` only for the named P2W receiving use, unsupported attempted P2W use, support posture, validation boundary, context, and window. | Open `A.10`, `B.3`, `A.21`, `C.16`, `C.27`, `G.11`, `A.6.3.RT`, or `A.6.4` only when that relation carries part of the support. | Treating `P2W-ready` as proof, safety acceptance, gate passage, method selection, work authorization, portfolio authority, or release permission. |
+| Support is useful but narrower than the attempted P2W use | State `RelianceDisposition=degrade`, the narrowed P2W use, the unsupported attempted use, and the stop condition. | Open measurement, evidence, temporal, refresh, representation, or assurance loci only for the live dependency. | Quietly broadening a weak support posture into full P2W readiness. |
+| Source, confidence, or validation is stale, conflicted, uncalibrated, or not tied to the live relation | State `RelianceDisposition=abstain` or `RelianceDisposition=evidence-needed`, plus the missing evidence kind or receiving relation and the decision point. | `A.10` for evidence/currentness, `C.16` for measurement or marker support, `C.27`/`G.11` for time, expiry, refresh, or monitoring. | Letting uncertainty become indefinite delay or silent permission to continue. |
+| Contest, redress request, changed representation, retargeting, or changed described entity defeats support inheritance | State `RelianceDisposition=reopen`, the relation being reopened, and the card use that is no longer supported. | `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, `A.10`, `B.3`, or another exact relation when the represented problem, evidence path, or support source changed. | Treating an older card as still current merely because its text was preserved. |
+| Safety-looking, release-looking, compliance-looking, public-behavior, resource, people/status, autonomy, gate, or control-bearing use is attempted from the card | State `RelianceDisposition=safety-case-required`, `RelianceDisposition=no-supported-current-use`, or a named exit; do not authorize the use locally. | `B.3` for assurance and the minimum reliance safety support record, `A.21` for gate decision, `E.16` for autonomy, `A.15` for work, `B.2.5` only when a controlled object is regulated through a feedback channel, evidence channel, cadence, window, or supervisory/control relation, `A.10`/`G.6` for evidence/provenance. | Reading a problem-side card as safety acceptance, tool-call permission, delegated-agent authority, release permission, work plan, performed work, or control authority. |
 
+Minimum P2W support statement when this rule is live: support posture, validation boundary, `RelianceDisposition`, supported P2W receiving use, unsupported use, currentness or window when relevant, contest or redress path when relevant, and live receiving-pattern exits. Do not copy evidence, gate, assurance, work, autonomy, or control fields into the card unless the card is explicitly naming a live exit to the receiving pattern.
 
+Misuse guard: `RelianceDisposition=abstain` and `RelianceDisposition=degrade` must state the condition for reopening, narrowing, or closing the P2W use; do not use uncertainty to block valid P2W receiving use indefinitely or to hide a full pass behind a narrower label.
 
+False-negative reliance guard: a blocked, abstained, or evidence-needed P2W use is not final if admissible challenge evidence, missing affected-party evidence, changed source, changed representation, or redress can materially change the disposition.
+
+Support-inheritance guard: support does not inherit across representation scheme, episteme-lane view, publication face, described entity, retargeting relation, or source-basis change merely because the same card text, dashboard label, source phrase, support cue, generated explanation, coarsened or redacted rendering, screenshot, or copied approval survived. Use A.6.3.RT, A.6.3.CSC, A.6.4, E.17, F.9, or E.18 only when that relation is live; otherwise keep the local card use bounded.
+
+Positive repaired path: a messy support cue becomes useful when the card states what P2W may receive now, what P2W must not infer, and which exact neighboring pattern carries any evidence, assurance, gate, temporal, representation, autonomy, control, or work relation. A successful result can be `P2W-ready`, degraded P2W use, evidence-needed, refresh, reopen, `abstain/no-change`, or a named neighboring exit; it need not become a bigger card.
+
+Worked P2W reliance slices:
+
+| Slice | Local card move | Boundary |
+| --- | --- | --- |
+| An archive or portfolio retention cue supports looking at a problem again. | State the support posture, validation boundary, source-set or retention basis, currentness/window, and `RelianceDisposition=degrade`, `RelianceDisposition=evidence-needed`, or `refresh` when the cue is stale or incomplete. | Retention is not proof, safety acceptance, method selection, or work authorization. |
+| Confidence-looking support is enough for one reversible exploration step. | State `RelianceDisposition=pass` only for that P2W receiving use, unsupported attempted use, context, window, and stop condition. | The same card does not become full readiness, release permission, or assurance. |
+| A problem card is cited as safety acceptance or tool-call permission. | State `RelianceDisposition=safety-case-required`, `RelianceDisposition=no-supported-current-use`, or a named exit to `B.3`, `E.16`, `A.21`, `A.15`, or `A.10`. | `ProblemCard@Context` does not authorize action, autonomy, gate passage, work, or release. |
+| A contest, redress request, or changed described entity defeats inherited support. | State `RelianceDisposition=reopen`, the relation being reopened, and which previous P2W use is no longer supported. | Preserved card text does not preserve currentness when representation or evidence changed. |
+| A selected-set or portfolio basis is used before P2W. | Keep the set-source, selection, retention, and not-selected disposition as source cues and name the receiving set patterns when live. | The card is not portfolio authority, selected-set proof, or scalar readiness. |
 
 A cause-theory cue may focus problem formulation inside `ProblemCard@Context`. If that cue is used to claim association, intervention, counterfactual, responsibility, expected effect, or causal evidence, the relation exits to `C.28` plus `A.10`, `G.6`, or `B.3` when support, provenance, or assurance is live.
 
@@ -556,7 +570,6 @@ Environment design and safe probing may appear as source signal basis, validatio
 
 `C.22.2` includes a section-local state and disposition vocabulary for `ProblemCard@Context`; this vocabulary is not a new FPF kind. These labels describe the card's current admissible use; they are not required states in a transition sequence, event kinds, or gate records. The local labels are:
 
-
 | State or disposition label | Required reading |
 |---|---|
 | `draftSignal` | A source signal has been captured, but the card is not yet reviewable. |
@@ -569,13 +582,11 @@ Environment design and safe probing may appear as source signal basis, validatio
 | `archived` | The record is retained under the relevant archive, pool, front, or selected-set pattern without being live for P2W. |
 | `abstain/no-change` | No downstream project-side move is selected because the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not worth current downstream work. |
 
-
 Freshness must name the affected locus: problem signal, context, characterization or parity basis, support or source, set-source reference, or semio relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity bases are current enough for the intended next move. For support or source, ask whether cited sources, provenance, and support references are fresh enough for the stated support posture. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention basis are still current. For semio relation, ask whether wording, diagram, functional description, TGA path, bridge, retargeting, or representation change alters the described entity, support inheritance, context grounding, viewpoint or role concern, scope cut, comparison basis, admissible next move, or relation needed for inheritance.
 
 A stale support reference does not always retire the problem; it may send the card to refresh while the problem remains reviewable. A stale problem signal may support refresh, retire, archive, abstain or no-change, or another named neighboring disposition.
 
 Freshness or expiry failure is a current disposition. A stale or unknown-bearing problem card may remain reviewable as a problem-side record, but it does not become P2W-ready unless freshness and unknown handling permit the intended downstream move. A stale problem card does not silently remain admissible for P2W.
-
 
 When freshness, expiry, or unknown handling fails, the record exits to one of these current dispositions:
 
@@ -590,7 +601,6 @@ Unknown-handling fields must state whether they permit use, require degraded use
 The accepted `SEMIO-03` result is part of the current FPF basis. `C.22.2` uses `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, and `E.18` as exits when changed problem formulations, diagrams, functional descriptions, TGA paths, or `PathSlice` examples carry relation load.
 
 Framing is not wording repair. A framing change is live when described entity, context grounding, scope cut, viewpoint, comparison basis, support inheritance, or honest next move changes. SEMIO material is triggered only when wording, diagram, functional description, TGA path, bridge, retargeting, or representation change alters the carried problem-side representation, described entity, support inheritance, context grounding, viewpoint or role concern, scope cut, comparison basis, admissible next move, or live receiving pattern. Ordinary wording cleanup does not trigger a SEMIO exit and does not block a Thin `ProblemCard@Context`.
-
 
 | Pattern or pattern family | Problem-card relation | SEMIO-03 effect | Current disposition |
 |---|---|---|---|
@@ -620,7 +630,7 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Source examples: person, team, organization, system, community, episteme, and work project | Source-local recognition examples for the domain or practice locus when that locus helps identify use, and for the described entity or exact project-side FPF kind or reference when load-bearing; not a new FPF kind taxonomy | `ProblemCard@Context` may state the domain or practice locus when it affects time horizon, indicators, cost of error, role concern, or admissible comparison, but it must also state the context grounding that carries local meaning. The listed examples are not minted here as a new taxonomy of FPF kinds. |
 | Engineering language for reproducibility and management language for coordination, rights, resources, and responsibility | Verification and reproducibility, and coordination and authority, are different FPF relations | `C.22.2` may name reproducibility, role, budget, right, or responsibility pressure only as a field or exit; gate, autonomy, work, evidence, and authority relations stay with their receiving patterns. |
 | Problem factory, solution factory, and factory-of-factories | Source exposition for three related work families, not FPF process kinds | `C.22.2` covers only the problem-side output. Solution and P2W work exits to `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, and `G.11`; organizational-development or platform-capability questions are outside this pattern. |
-| Characterization protocol: context or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement procedure, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` receiving patterns | `ProblemCard@Context` must cite characterization and comparability basis when live; it must not treat available measurement as admitted indicator. |
+| Characterization protocol: context or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` receiving patterns | `ProblemCard@Context` must cite characterization and comparability basis when live; it must not treat available measurement as admitted indicator. |
 | Indicator roles: admission constraints, optimization objectives for the current cycle, and risk signals | Characteristic and Q-bundle use under selected comparison or acceptance | `C.22.2` must preserve whether an indicator is a mandatory constraint, an optimization objective, or a monitored risk signal when that distinction affects acceptance. |
 | Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q` | `ProblemCard@Context` must preserve source set or reference, selection or retention basis, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is live. |
 | Goldilocks as zone-of-growth selection calibrated to current capability and context | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` must not turn Goldilocks into one global difficulty scale or scalar readiness score. |
@@ -633,11 +643,9 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Runbook, rollback plan, canary, SafeStop, error budget, and override protocol | Work, gate, autonomy, evidence, and control records | These source forms are not `C.22.2` subobjects; they are exits to `A.15`, `A.21`, `E.16`, `A.10`, `G.6`, and `B.3` when live. |
 | Trust debt after validity expiry | Freshness and decay indicator and bounded-risk continuation question | Treat trust debt as an indicator or support posture cue, not as punishment, proof failure, or gate passage by itself. |
 
-
 This carry-forward preserves detail, not broader scope. `C.22.2` remains the problem-side output; P2W receives it with enough fields and exits to select method families, plans, performed work, and result measurement without making the problem card a P2W pattern.
 
 ### C.22.2:15 - SoTA Decision Support
-
 
 The following external anchors are adopted or adapted only where they change this pattern's local answer by value.
 
@@ -649,24 +657,21 @@ The following external anchors are adopted or adapted only where they change thi
 | Open-ended coding agents use archives, self-improvement, problem variants, evaluator feedback, and stepping-stone retention. | Darwin Godel Machine `https://arxiv.org/abs/2505.22954`, FrontierSmith `https://arxiv.org/abs/2605.14445`, and AlphaEvolve `https://arxiv.org/abs/2506.13131`, all checked 2026-05-20 | Supports record-form, set-source reference, Goldilocks, safe-probe, and freshness fields and exits for archive, problem generation, safe probes, evaluator feedback, no-change and abstain dispositions, and autonomy and evidence boundaries. | Adapted as recent stress/trend pressure; `C.22.2` is not turned into AI-agent doctrine or an AI-agent management pattern. |
 | External AI-agent and autonomy practice increases pressure for evidence, logs, gates, autonomy budgets, and update discipline. | Source presentation plus current FPF autonomy, evidence, and gate patterns | Supports receiving-pattern assignment for support, validation, AI-agent pressure, and safe probing. | Non-load-bearing for the center of `C.22.2`; load-bearing content remains with `E.16`, `A.21`, `A.10`, `G.6`, `B.3`, `A.15`, and `G.11`. |
 
-
 If a `C.22.2` use carries a wider external claim than these dispositions, the claim is outside this pattern and requires a separate content decision or demotion to a non-load-bearing example.
 
 Each load-bearing SoTA use is recovered as a local test: source idea, FPF invariant, practitioner check, and popular shortcut rejected. A source citation without that local test is not enough to carry pattern authority.
 
 Local SoTA-to-action tests:
 
-| Support pressure | Popular shortcut rejected | Required local result |
-|---|---|---|
-| Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover source signal, framed problem representation, context and scope, viewpoint or role concern, improvement check, and rival frame when live. |
-| QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set authority. | Preserve `setContextRef`, source set kind, selection or retention basis, and a non-scalar next move; exit to the receiving set, parity, archive, pool, or refresh pattern when live. |
-| Open-ended agents, problem variants, evaluator feedback, and stepping stones change source pressure. | Agent output, evaluator trace, or generated variant is treated as authority to act. | Record generator, evaluator, variant, or stepping-stone basis only as a source cue; name support, validation, freshness, and authority exits before probe or action. |
-| First-principles or mathematical structure can improve formulation. | A named formalism or mathematical or ontological prestige is treated as adequacy or rigor. | Record the candidate structure, mapping or `C.29` exit, preserved and lost structure when live, practical formulation payoff, support posture, and stop condition. |
-| Early class or kind taxonomy looks available. | A class list or ontology-first taxonomy is treated as the problem formulation. | Keep the formulation question live; record candidate structure, preserved and lost structure when live, and representation or retargeting exits before freezing kind structure. |
-| Object model looks clarifying. | Object-model clarity freezes the wrong described entity or relation. | Keep described entity and relation reviewable; name representation-transition, retargeting, or bridge exits before inheriting support or readiness. |
-
-
-
+| Support pressure | Popular shortcut rejected | Required local result | Reopen condition |
+|---|---|---|---|
+| Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover source signal, framed problem representation, context and scope, viewpoint or role concern, improvement check, and rival frame when live. | Reopen when context, scope, viewpoint, rival frame, evidence need, or improvement or acceptance probe changes. |
+| P2W receives only a reviewable problem-side record. | `P2W-ready` is treated as work authorization, gate passage, method selection, evidence proof, assurance, or selected solution. | State support posture, validation boundary, readiness disposition, supported P2W use, unsupported use, and named neighboring exit when live. | Reopen when the signal, context, scope, acceptance probe, support posture, validation boundary, freshness, or named exit changes. |
+| QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set authority. | Preserve `setContextRef`, source set kind, selection or retention basis, and a non-scalar next move; exit to the receiving set, parity, archive, pool, or refresh pattern when live. | Reopen when the source set, retention basis, parity basis, archive, pool, front, selected set, budget, window, or freshness disposition changes. |
+| Open-ended agents, problem variants, evaluator feedback, and stepping stones change source pressure. | Agent output, evaluator trace, or generated variant is treated as authority to act. | Record generator, evaluator, variant, or stepping-stone basis only as a source cue; name support, validation, freshness, and authority exits before probe or action. | Reopen when generator, evaluator, variant, stepping-stone basis, safety/probe condition, or authority condition changes. |
+| First-principles or mathematical structure can improve formulation. | A named formalism or mathematical or ontological prestige is treated as adequacy or rigor. | Record the candidate structure, mapping or `C.29` exit, preserved and lost structure when live, practical formulation payoff, support posture, and stop condition. | Reopen when candidate structure, preserved or lost structure, support posture, stop condition, or `C.29` result changes. |
+| Early class or kind taxonomy looks available. | A class list or ontology-first taxonomy is treated as the problem formulation. | Keep the formulation question live; record candidate structure, preserved and lost structure when live, and representation or retargeting exits before freezing kind structure. | Reopen when formulation question, kind structure, relation, representation support, or retargeting support changes. |
+| Object model looks clarifying. | Object-model clarity freezes the wrong described entity or relation. | Keep described entity and relation reviewable; name representation-transition, retargeting, or bridge exits before inheriting support or readiness. | Reopen when described entity, relation, view, bridge support, or representation-transition support changes. |
 
 ### C.22.2:16 - Rationale
 
@@ -715,6 +720,7 @@ A practitioner checking one `ProblemCard@Context` use should be able to find the
 | Validation use | At least the provided golden and anti-case slices can be used to test whether the card produces a usable next move without overclaiming. |
 | Entry support | A practitioner can find `C.22.2` through first-entry phrases and tempting-wrong-pattern boundaries without reading the whole neighboring pattern network first. |
 | P2W export rule | The card states what it exports to downstream P2W or selector-facing use and what it must not decide: method family, work authorization, gate passage, evidence proof, autonomy permission, or selected solution. |
+| P2W reliance rule | When support posture or validation boundary is used for P2W receiving use, the card states `RelianceDisposition`, supported use, unsupported use, and live exits without adding default evidence, assurance, gate, autonomy, control, or work fields. |
 | Neighboring-exit aid | The card user can look up the live relation, receiving pattern, permitted local cue, and forbidden local decision in one aid near the start without treating the aid as the main action engine. |
 | Non-bureaucracy invariant | The card remains as small as the honest next move permits and does not require full-form completion when lighter reviewability is enough. |
 
@@ -736,7 +742,6 @@ Thin card slices:
 | Customer-support escalation after a policy or interface change | Support escalation volume rises after the change. | Product or operations setting where a changed promise, interface path, policy, or support script may have changed user behavior; outside scope is choosing the fix, staffing plan, or release decision. | The signal is not "reduce escalations" as a wish; the problem may be unclear interface promise, changed user path, stale support documentation, wrong acceptance probe, or a causal-use claim that needs another pattern. | The next revision is better only if the cause cue, acceptance probe, risk boundary, measurement or characterization exit, and evidence or causal-use exit are recoverable when live. |
 | Literature-synthesis anomaly before method selection | A repeated anomaly in a literature synthesis does not fit the current category labels. | Named research or review context; outside scope is accepting a new theory, choosing a research method, or settling evidence sufficiency. | The signal is not "explain the anomaly" as a ready task, proof, or theory change; the problem may be an unstable described entity, rival frame, evidence need, or bridge or representation boundary. | The formulation improves only if `rivalProblemFormulationRef`, described entity, evidence need, and bridge, representation, or mathematical-structure exits are recoverable when live. |
 
-
 Next move and tempting wrong-pattern check:
 
 | Micro-slice | Honest next move | Tempting wrong pattern |
@@ -746,7 +751,6 @@ Next move and tempting wrong-pattern check:
 | Problem set or Goldilocks selection | Preserve `setContextRef`; send set, parity, refresh, or set-return questions to `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `A.6.Q` when live. | Treat Goldilocks as one readiness score, priority rank, or local selected-set authority. |
 | Customer-support escalation after a policy or interface change | Stabilize the problem-side record; characterize the signal through `C.16` and `A.19`, and exit to `C.28` if the card claims causal use. | Treat escalation volume as an automatic fix request, staffing plan, release rollback, or evidence that the policy was wrong. |
 | Literature-synthesis anomaly before method selection | Preserve `rivalProblemFormulationRef` when rival frames remain live; exit to `A.10`, `B.3`, `F.9`, `E.18`, or `C.29` when evidence, assurance, bridge, representation, or mathematical structure is live. | Treat the anomaly as proof for a new theory, an accepted research task, or a selected method. |
-
 
 P2W-ready disposition check:
 
@@ -771,14 +775,11 @@ Additional validation cases:
 | Backlog-intake overread | Every ticket, idea, support request, or backlog item is forced through a full `ProblemCard@Context` before ordinary local work can continue. | Use `C.22.2` only when the signal must become reviewable before P2W, task typing, method-family selection, evidence use, gate passage, autonomy control, set-return handling, or first-principles support; the Thin form is sufficient when it gives the honest next move. |
 | Already-solved or stale | The signal is stale, duplicate, already solved, already absorbed, unnecessary, or not currently worth downstream work. | A successful result may be refresh, retire, archive, `abstain/no-change`, bounded use under authority, or another named neighboring exit; the card must not silently remain `P2W-ready`. |
 
-
-
 ### C.22.2:21 - Machine-Assisted Drafting Boundary
 
 Machine-assisted `ProblemCard@Context` drafting is admissible only as draft support. The practitioner remains responsible for verifying the governing fields and neighboring exits before the card is used for P2W, selection, evidence, gate, autonomy, or work.
 
 For AI-assisted entry or retrieval, a `C.22.2` hit is only a candidate-pattern hit. The practitioner or assistant must still check the first honest entry load: problem-side record before P2W, work plan, evidence claim, local choice, safe probe, mathematical-lens adequacy, or ordinary discussion.
-
 
 Required practitioner checks for a machine-assisted draft:
 
@@ -820,11 +821,6 @@ Not `C.22.2` anti-cases:
 - "Can the agent call the tool?" Use `C.24`, `E.16`, or `A.21`; `ProblemCard@Context` may only name the problem-side cue or exit and does not grant tool-call, autonomy, or gate authority.
 - "This is ordinary discussion with no downstream project-side move." Do not use `C.22.2`.
 
-
-
-
-
-
 First-use Thin-card test:
 
 Given a messy signal, a practitioner must be able to produce a Thin `ProblemCard@Context` in under one page and correctly choose one admissible next move: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstain/no-change`, or named neighboring-pattern exit.
@@ -862,7 +858,6 @@ P2W export from `ProblemCard@Context` does not include:
 | Decision, NQD, and OEE follow-on work | `setContextRef`, Goldilocks, and stepping-stone cues relevant to selected-set or set-return follow-on work. | QD or OEE definitions, selected-set docking, Q-front, set-return semantics, decision-quality admissibility, or the selected set itself. |
 
 ### C.22.2:24 - Consequences
-
 
 #### C.22.2:24.1 - Benefits
 

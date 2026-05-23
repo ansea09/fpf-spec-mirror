@@ -6,12 +6,12 @@ section_id: "A.19.SUPPORT-VIEW:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SUPPORT-VIEW/A.19.SUPPORT-VIEW__015_consequences.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.19.SUPPORT-VIEW — Cross-Surface Support View"
   - "A.19.SUPPORT-VIEW:9 — Consequences"
-line_start: 23900
-line_end: 23913
+line_start: 23953
+line_end: 23966
 dependencies:
   - "A.0"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "F.6:12"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__013_migration-notes-conceptual.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:12 — Migration notes (conceptual)"
-line_start: 63310
-line_end: 63318
+line_start: 63427
+line_end: 63435
 dependencies:
   - "A.15"
   - "A.2.1"

@@ -6,12 +6,12 @@ section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"
-line_start: 42405
-line_end: 42421
+line_start: 42521
+line_end: 42536
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,6 @@ keywords:
 Machine-assisted `ProblemCard@Context` drafting is admissible only as draft support. The practitioner remains responsible for verifying the governing fields and neighboring exits before the card is used for P2W, selection, evidence, gate, autonomy, or work.
 
 For AI-assisted entry or retrieval, a `C.22.2` hit is only a candidate-pattern hit. The practitioner or assistant must still check the first honest entry load: problem-side record before P2W, work plan, evidence claim, local choice, safe probe, mathematical-lens adequacy, or ordinary discussion.
-
 
 Required practitioner checks for a machine-assisted draft:
 

@@ -6,12 +6,12 @@ section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:24 — Consequences"
-line_start: 42493
-line_end: 42512
+line_start: 42603
+line_end: 42621
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,6 @@ keywords:
 ---
 
 ### C.22.2:24 - Consequences
-
 
 #### C.22.2:24.1 - Benefits
 

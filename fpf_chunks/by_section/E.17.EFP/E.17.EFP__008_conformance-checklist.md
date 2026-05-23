@@ -6,12 +6,12 @@ section_id: "E.17.EFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__008_conformance-checklist.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:7 — Conformance Checklist"
-line_start: 57593
-line_end: 57628
+line_start: 57703
+line_end: 57740
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,4 +68,6 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
    When bounded connective prose is doing real review work, the rendering states what link is added, why it remains bounded, and which unsupported link class is explicitly forbidden.
 8. **CC-EF-12 — Derivative renderings keep source links operative.**
    A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work or reliance maps each operative claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it, or else downgrades to reader help or applies `A.6.3.CSC` as appropriate.
+9. **CC-EF-13 — Generated explanation reliance boundary is explicit.**
+   A generated explanation used beyond ordinary reader help states its explanation class, source-finding posture, operative claims, receiving pattern for each relied-on claim, and non-admissible downstream use. The explanation itself is not evidence, assurance, approval, gate passage, release support, or work authority.
 

@@ -6,12 +6,12 @@ section_id: "A.20:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)  ✱"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:5 — Archetypal Grounding (Tell–Show–Show)  ✱"
-line_start: 27274
-line_end: 27290
+line_start: 27333
+line_end: 27349
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -40,9 +40,9 @@ keywords:
 ### A.20:5 - Archetypal Grounding (Tell–Show–Show)  ✱
 
 **Tell (internal step, not gate passage).**
-CV answers whether a transformation step satisfies its own declared constraints: units, laws, admissibility conditions, stability bounds, type/domain/range, and, for `StructuralReinterpretation`, reinterpretation equivalence. If that answer is not `pass`, GateFit does not get to rescue the step; if it is `pass`, ranking, acceptance, launch, and profile-fit still belong outside CV.
+CV answers whether a transformation step satisfies its own declared constraints: units, laws, admissibility conditions, stability bounds, type/domain/range, and, for `StructuralReinterpretation`, reinterpretation equivalence. If `CV.Status != pass`, GateFit does not get to rescue the step; if `CV.Status=pass`, ranking, acceptance, launch, and profile-fit still belong outside CV.
 
-**Show‑0 (CV pass, no gate opened).**
+**Show‑0 (`CV.Status=pass`, no gate opened).**
 A normalization step has declared units, domain/range, and invariant refs; the CV check returns `CV.Status=pass` with a `CV.WitnessRef`. No comparison, launch, crossing, freshness, or profile-fit claim is live, so no `GateDecision`, GateFit narrative, or `DecisionLog` is opened. The admissible result is only: this step is internally valid under its declared constraints.
 
 **Show‑1 (compiler build → run).**

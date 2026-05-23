@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__014_relations.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:12 — Relations"
-line_start: 25708
-line_end: 25724
+line_start: 25761
+line_end: 25777
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".8 - Causal-use and counterfactual-support repair"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__009_8-causal-use-and-counterfactual-support-repair.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .8 - Causal-use and counterfactual-support repair"
-line_start: 75041
-line_end: 75062
+line_start: 75158
+line_end: 75169
 dependencies:
 keywords:
 ---
@@ -27,14 +27,4 @@ keywords:
 - **Actual governing FPF pattern body or projection role:** `C.28` carries causal-use question, causality-ladder rung, claim kind, causal estimand, identification, counterfactual sampling realizability, causal evidence support basis, support record and verdict, supported use, and unsupported use. `A.10` carries evidence/provenance path, `B.3` carries assurance consequence, `D.5` carries ethical/fairness audit, `G.5` carries method dispatch, and `G.9` carries benchmark parity only as consumers of `C.28` support.
 - **Admissible entry stop:** a cheap downgrade sentence, a local `CausalUseTriageRecord`, a local or durable `CausalUseEvidenceDesignRecord`, a `CausalUseSupportVerdict`, or a named neighbor-pattern use that cites `C.28` without claiming broader authority.
 - **What not to infer:** a randomized procedure is not automatically counterfactual support; a simulation is not realized counterfactual data; a target-trial phrase is not proof of identification; a fairness metric is not causal fairness; a method benchmark is not comparable if methods sit on different causal rungs or estimands; and a causal support record does not by itself create a duty, promise, commitment, release gate, or admissibility predicate.
-
-# **Part J – Indexes & Navigation Aids**
-
-
-| §   | ID & Title               |  Concise reminder                                        |
-| --- | ------------------------ | --- | ------------------------------------------------------- |
-| J.1 | Concept‑to‑Pattern Index |  Quick jump from idea (“boundary”) to pattern (§, id).   |
-| J.2 | Pattern‑to‑Example Index |  Table listing every archetypal grounding vignette.      |
-| J.3 | Principle‑Trace Index    |  Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
-| J.4 | First Practical Entry Neighborhood Index | Compact entry-neighborhood index matching the public entry families without route-state, authority-reference, or output columns. |
 

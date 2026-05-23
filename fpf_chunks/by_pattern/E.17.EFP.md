@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.EFP.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
-line_start: 57183
-line_end: 57686
+line_start: 57292
+line_end: 57800
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 **Working action spine.** One explanation-facing rendering is helping a reader -> separate source-pinned rendering, bounded reconstruction, didactic retelling, and speculative retelling -> use the explanation for understanding, source navigation, bounded restatement, teaching, or exploration according to class -> output one class plus safe next action -> apply the neighboring FPF pattern if reliance, evidence, work, gate, engineering justification, comparison, narrower-use rendering, or new-claim load appears. Use `E.17:5.1c` for `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary live question may be same-entity rewrite, representation change, coarsening, comparison, bridge or substitution, work or reliance, gate, evidence, assurance, retargeting, or carrier work or front-end work instead of explanation-facing rendering.
 
-**Ordinary use.** If the explanation only helps reading, source-finding, review, comparison, or planning preparation, one compact review note naming the explanation class, source anchor, and non-admissible downstream claim or effect is enough.
+**Ordinary use.** If the explanation only helps reading, source-finding, review, comparison, or planning preparation, one compact review note naming the explanation class, source anchor, and non-admissible downstream claim or effect is enough. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 
 **Load-bearing use.** Open the fuller explanation review only when the rendering will guide work or reliance, be externally relied on, be disputed, cross context, affect person or team status, or be cited as evidence, approval, engineering justification, gate, or release support.
 
@@ -72,20 +72,21 @@ keywords:
 | --- | --- | --- |
 | A `SourcePinnedExplanation` or `SourceLinkedExplanationReconstruction` helps navigation, bounded restatement, or source inspection with pins and trace visible. | A didactic explanation helps onboarding or helps the team find the source, while operative claims still return to the source-pinned face or `A.10` evidence path. | A fluent explanation is used as assurance, evidence, approval, gate passage, release permission, or work-occurrence support. |
 
-
 **Neighboring project records and governing patterns.** `E.17.ID.CR` governs bounded comparative reading; `A.6.3.CR` or `A.6.3.RT` govern same-entity rewrite or representation change; `A.6.3.CSC` governs a rendering that stays honest only through narrower admissible claim or effect, non-admissible downstream claim or effect, and reopen to the source `U.Episteme` or source `U.EpistemePublication`; `A.6.4` or `OntologicalReframing` govern changed described entity; `A.15` and `A.15.4` govern downstream work or reliance, `B.3` governs assurance and engineering justification, and `A.20` or `A.21` govern gate-bearing claim or effect.
 
 **Common wrong escalations and boundary transfers.** Do not use this profile to hide new claims, bridge-comparison load, action-selection pressure, or gate-bearing guidance inside helpful prose. If the rendering is really a bounded comparison, apply `E.17.ID.CR`; if it is only same-entity rewriting or representation shift, apply `A.6.3.CR` or `A.6.3.RT`; if it is a deliberately coarsened rendering whose narrower admissible claim or effect, non-admissible downstream claim or effect, and source-bearing reopen now govern the case, apply `A.6.3.CSC`; if it is already making world, work or reliance, assurance, or gate-bearing claims, leave `E.17.EFP` for the more exact downstream FPF pattern or project-side record.
 
-**Generated-explanation repaired case.** When a generated explanation is used to help reliance, this profile only states the explanation relation, source-finding posture, and `E.17:5.1b` source-support posture needed for the current use. The explanation becomes usable for an operative claim only when an `A.10`-governed evidence path maps that claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it in the relying context. If that path or exact project-side FPF kind and reference is missing, create only a prospective repair request, explicit source-gap note, or future evidence-work plan; it does not become retroactive support for the earlier explanation-based claim. Do not open an `A.10` path for ordinary reader help; otherwise the generated explanation remains reader help, not approval, authorization, evidence, assurance, gate passage, or work-occurrence support.
+**Generated-explanation repaired case.** Use this case when a generated explanation is being relied on beyond reading help. The first E.17.EFP move is to classify the rendering as source-pinned rendering, source-linked reconstruction, didactic retelling, or speculative retelling. The profile only states the explanation relation, source-finding posture, source anchors, admissible explanation-reader use, non-admissible downstream use, and reopen condition for the current rendering. The explanation becomes usable for an operative claim only when an `A.10`-governed evidence path maps that claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it in the relying context. If the operative claim would raise assurance, release confidence, safety, trust, gate passage, work occurrence, work authorization, or approval, the receiving pattern must be opened for that exact claim: `B.3` for assurance, `A.21` for gate decision, `A.15`/`A.15.1` for work, `A.2.8`/`A.2.9` for commitments or speech acts, or another exact source when live. If the map or exact project-side FPF kind and reference is missing, keep only a prospective repair request, source-gap note, or narrower explanation-use note; if operative reliance is still attempted, the receiving `A.10`, `B.3`, `A.21`, or other exact relation may return evidence-needed, abstain, or no-supported-current-use for that attempted reliance. Do not open an `A.10` path for ordinary reader help; otherwise the generated explanation remains reader help, not approval, authorization, evidence, assurance, gate passage, release support, or work-occurrence support.
+
+**Common wrong first reading.** A fluent, confident, source-linked, or reliable-looking explanation is evidence. First honest entry: classify the explanation rendering and use it for reading or source-finding; only an operative claim with an A.10 evidence path or another exact receiving source can support downstream reliance.
+
+Negative result: if a generated explanation says "reliable" but no operative claim maps to source support, the E.17.EFP result is source-finding only or reader help only. If an attempted downstream reliance is still raised, the receiving `A.10`, `B.3`, `A.21`, or other exact relation may return evidence-needed or no-supported-current-use for that attempted reliance. It is not weak evidence by style, confidence, fluency, or citation-like wording.
 
 **Generated-retelling survival.** A generated retelling preserves only the reader help, source-finding cue, quoted source pins, explicitly repeated source relation, and explicitly repeated admissible-use boundary that remain inspectable in that retelling. It does not become or preserve the source `U.Episteme`, source `U.EpistemePublication`, evidence path, assurance, gate passage, decision status, permission, or source replacement merely by fluency, completeness-looking wording, or citation-like links. If the generated retelling compresses, omits, strengthens, or changes source claims, treat the result as a new explanation-use case, a narrower-use rendering under `A.6.3.CSC`, or reader help only.
 
+**Derivative rendering and adaptation source-link rule.** A fork, adaptation, abridged guide, translated rendering, generated explanation, tutorial, access-format conversion, or other derivative rendering of a source `U.Episteme` or source `U.EpistemePublication` may improve access or teaching, but it is not equivalent to the source by usefulness, fluency, or local adoption. It may expose or cite an exact project-side FPF kind and reference, but the support belongs to the exposed value and source relation, not to the explanation rendering as a face. If the derivative rendering will guide work or reliance, `A.10` must map every operative claim being relied on to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it; if the map or exact value is absent, only a prospective repair request, explicit source-gap note, or prospective evidence-work plan may be created. If simplification or format change narrows allowed use, forbids downstream use, or requires return to the source-bearing side, use `A.6.3.CSC` rather than treating the derivative as ordinary explanation.
 
-**Derivative rendering and adaptation source-link rule.** A fork, adaptation, abridged guide, translated rendering, generated explanation, tutorial, access-format conversion, or other derivative rendering of a source `U.Episteme` or source `U.EpistemePublication` may improve access or teaching, but it is not equivalent to the source by usefulness, fluency, or local adoption. It may expose or cite an exact project-side FPF kind and reference, but the support belongs to the exposed value and source relation, not to the explanation rendering as a face. If the derivative rendering will guide work or reliance, `A.10` must map every operative claim being relied on to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it; if the map or exact value is absent, only a prospective repair request, explicit source-gap note, or future evidence-work plan may be created. If simplification or format change narrows allowed use, forbids downstream use, or requires return to the source-bearing side, use `A.6.3.CSC` rather than treating the derivative as ordinary explanation.
-
-**Explanation-rendering identity over revision and regeneration.** A generated, translated, revised, or regenerated explanation-facing rendering is not the same explanation rendering merely because it uses the same source face, prompt, template, carrier, or title. For use beyond ordinary reader help, the rendering must name the preserved source anchors, changed claims, generation or authoring basis when live, and admissible use for this rendering. A translation or adaptation preserves admissible use only when the operative claims and source links survive the change; otherwise it becomes a new explanation-use case, a narrower-use rendering under `A.6.3.CSC`, or reader help only.
-
+**Explanation-rendering identity over revision and regeneration.** A generated, translated, revised, or regenerated explanation-facing rendering is not the same explanation rendering merely because it uses the same source face, prompt, template, carrier, or title. For use beyond ordinary reader help, the rendering must name the preserved source anchors, changed claims, generation or production basis when live, and admissible use for this rendering. A translation or adaptation preserves admissible use only when the operative claims and source links survive the change; otherwise it becomes a new explanation-use case, a narrower-use rendering under `A.6.3.CSC`, or reader help only.
 
 **Placement.** Profile governed by `E.17.0` and `E.17` review.
 **Builds on.** `E.17.0 U.MultiViewDescribing`; `E.17` MVPK; `A.7`; `E.10.D2`; `A.6.B`; `F.9`; `F.18`.
@@ -477,9 +478,10 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
    When bounded connective prose is doing real review work, the rendering states what link is added, why it remains bounded, and which unsupported link class is explicitly forbidden.
 8. **CC-EF-12 — Derivative renderings keep source links operative.**
    A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work or reliance maps each operative claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it, or else downgrades to reader help or applies `A.6.3.CSC` as appropriate.
+9. **CC-EF-13 — Generated explanation reliance boundary is explicit.**
+   A generated explanation used beyond ordinary reader help states its explanation class, source-finding posture, operative claims, receiving pattern for each relied-on claim, and non-admissible downstream use. The explanation itself is not evidence, assurance, approval, gate passage, release support, or work authority.
 
 ### E.17.EFP:8 - Common Anti-Patterns and How to Avoid Them
-
 
 | Anti-pattern | Why it is wrong | How to avoid it |
 |---|---|---|
@@ -490,6 +492,7 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 | Letting speculative prose enter technical or assurance use | speculative retelling starts to look canonical | restrict speculative retelling to clearly marked exploratory or didactic use on existing faces |
 | Collapsing MVPK face and `PublicationSurface` or `InteropSurface` discipline | explanation appears to create a new publication family | stay on existing MVPK faces and keep named `PublicationSurface` or `InteropSurface` and carrier policy explicit |
 | Derivative rendering as source replacement | a fork, adaptation, generated explanation, tutorial, or access-format conversion is treated as the original source because it is easier to read or access | keep it as a derivative rendering, publish source links for operative claims, and use `A.10` or `A.6.3.CSC` when reliance or narrowed-use discipline is live |
+| Explanation as evidence or assurance | a fluent or source-linked explanation is cited as proof, approval, gate passage, release support, work authority, or assurance | classify the rendering, keep ordinary reader help inside E.17.EFP, and open `A.10`, `B.3`, `A.21`, `A.15`, or another exact receiving source only for the operative claim being relied on |
 
 ### E.17.EFP:9 - Consequences
 
@@ -523,6 +526,8 @@ Explanation help already appears on existing faces, and the nearest failure mode
 
 **Local stance.** Best-known current practice supports a narrow rule: explanation renderings are admissible only when their class, source anchoring, evidence relation, admissible faces, and forbidden downstream uses remain visible enough that reader help does not become a second semantic rule track.
 
+Action result from the explanation-faithfulness and retrieval-evaluation practice basis: fluent, source-linked, generated, retrieved, didactic, or pedagogically useful explanations do not become evidence, assurance, approval, gate passage, release support, work authority, or operative-claim support by fluency, plausibility, citation-like wording, or retrieved context. The local E.17.EFP result is explanation class, source anchor, admissible explanation use or source-finding posture, non-admissible downstream use, and operative-claim mapping to `A.10` or another exact receiving pattern only when reliance is live. Reopen the explanation-use result when the source claim set, pins, provenance, retrieved context, generated rendering, admissible face, use escalation, or support for an operative claim changes.
+
 ### E.17.EFP:12 - Relations
 
 - **Builds on:** `E.17.0`, `E.17`, `A.7`, `E.10.D2`, `A.6.B`, `F.9`, `F.18`
@@ -534,5 +539,5 @@ Explanation help already appears on existing faces, and the nearest failure mode
 
 > When an explanation-facing rendering uses a mathematical lens as part of an explanation, `E.17.EFP` still governs rendering class, source anchoring, evidence relation, admissible faces, and forbidden downstream uses. The applicable `C.29` output for the stated use (`MLA.LensCandidateNote`, `MLA.OneLine`, `MLA.MiniCard`, or `MLA.FullCard` when required) may be cited only for the mathematical-lens adequacy part: candidate mathematical object, lens mapping mode, preserved and lost structure, exposed invariant or distinction, `LensSupportPosture`, admissible use, non-admissible use, and stop condition. It does not make the explanation faithful, evidence-bearing, or admissible for downstream use by itself.
 
-
 ### E.17.EFP:End
+

@@ -6,12 +6,12 @@ section_id: "F.8:5"
 section_title: "The decision lattice (conceptual, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_the-decision-lattice-conceptual-notation-free.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:5 — The decision lattice (conceptual, notation‑free)"
-line_start: 63695
-line_end: 63745
+line_start: 63812
+line_end: 63862
 dependencies:
   - "A.11"
   - "A.7"

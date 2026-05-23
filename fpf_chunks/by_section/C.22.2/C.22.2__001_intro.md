@@ -6,12 +6,12 @@ section_id: "C.22.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__001_intro.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:intro — Intro"
-line_start: 41692
-line_end: 41712
+line_start: 41806
+line_end: 41825
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,5 +80,4 @@ keywords:
 **Coordinates with.** `C.11`, `C.18`, `C.19`, `C.22.1`, `C.24`, `C.27`, `C.28`, `A.15`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, and `E.18`.
 
 **Boundary summary.** `C.22.2` use starts from messy problem-side signals and yields one reviewable `ProblemCard@Context`, a `P2W-ready` problem-side input for downstream `C.22`, or a named neighboring exit. `C.22` keeps the selector-facing `TaskSignature`; neighboring patterns keep authority for characterization, comparison, acceptance, archive and set relations, evidence, gate, autonomy, work, representation, temporal, causal, and mathematical relations. `C.22.2` does not govern those receiving relations.
-
 

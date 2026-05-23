@@ -6,12 +6,12 @@ section_id: "B.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__010_conformance-checklist-normative.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:7 — Conformance Checklist (normative)"
-line_start: 30869
-line_end: 30885
+line_start: 30989
+line_end: 31005
 dependencies:
   - "A.10"
   - "A.12"
@@ -70,6 +70,6 @@ keywords:
 | **CC-B3.8** | Design-time and run-time assurance **SHALL NOT** be mixed in one tuple; compare them side by side if needed. | Avoid design-time and run-time mixing. |
 | **CC-B3.9** | If an assurance claim depends on causal-use support, it **SHALL** consume `CausalUseSupportVerdict`, `CausalEvidenceSupportBasis`, and relevant profile refs from `C.28`/`A.10`; unsupported `CausalityLadderRung` climb **SHALL** degrade, block, or abstain rather than raising `R`. | Prevents assurance prose from certifying unsupported causal claims. |
 | **CC-B3.10** | A local `C.28` downgrade, reroute, or abstain **SHALL NOT** be treated as a new assurance tuple trigger unless the claim is assurance-bearing, publication-bearing, release-bearing, or reused as an assurance input. | Keeps cheap causal triage from becoming assurance ceremony. |
-| **CC-B3.11** | A conforming `B.3` use **SHALL NOT** treat a label, badge, dashboard tile, credential display, provenance mark, compliance-looking mark, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase as raising `F`, `G`, `R`, `CL`, readiness, safety, compliance, trust, release confidence, or assurance unless a typed `Assurance(H, C &#124; K, S)` claim and `A.10` evidence path name the claim, assurance use supported by the assurance tuple or relying context, scope, evaluation condition, evidence carriers, argument and support rationale, limitations, decay condition, reopen condition, and relying context. | Blocks assurance-claim laundering from visible authority-looking labels. |
-
+| **CC-B3.11** | A conforming `B.3` use **SHALL NOT** treat a label, badge, dashboard tile, credential display, provenance mark, compliance-looking mark, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase as raising `F`, `G`, `R`, `CL`, readiness, safety, compliance, trust, release confidence, or assurance unless a typed `Assurance(H, C &#124; K, S)` claim and `A.10` evidence path name the claim, assurance use supported by the assurance tuple or relying context, scope, evaluation condition, evidence carriers, argument and support rationale, limitations, decay condition, reopen condition, and relying context. | Blocks visible authority-looking labels from supplying false assurance support. |
+| **CC-B3.12** | When reliance on a source may materially change behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people/team status, operational action, or controlled-object regulation, the B.3 result **SHALL** provide a minimum reliance safety support record or explicitly reject, narrow, degrade, abstain, or reopen the attempted assurance use. The local Tech label `RelianceSafetyCase` **SHALL NOT** be used as a certificate, approval, gate, policy source, Core kind, release permission, or general safety-case ontology. | Keeps safety-bearing reliance support concrete without turning every source-looking item into a dossier or a new authority system. |
 

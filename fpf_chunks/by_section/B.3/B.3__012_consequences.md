@@ -6,12 +6,12 @@ section_id: "B.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__012_consequences.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:9 — Consequences"
-line_start: 30901
-line_end: 30914
+line_start: 31020
+line_end: 31032
 dependencies:
   - "A.10"
   - "A.12"
@@ -61,12 +61,11 @@ keywords:
 **Benefits**
 
 * **Comparable, conservative, improvable.** The tuple ⟨F, G, R⟩ with **edge-scoped Congruence Level (`CL`) values** gives a compact, auditable view that improves monotonically under targeted actions (formalize, replicate, reconcile).
-* **Cross‑scale coherence.** Works for assemblies and arguments, procedures and histories, without leaking order/time/cost into structure.
+* **Cross‑scale coherence.** Works for assemblies and arguments, methods and histories, without leaking order/time/cost into structure.
 * **Clear upgrade paths.** It is obvious **what to do** to raise each component (raise F/G/R locally or raise CL on the glue).
 
 **Trade‑offs**
 
 * **More explicit metadata.** You must state scale kinds, cutsets, and mapping congruence; this is intentional transparency.
 * **Conservatism may feel pessimistic.** True synergy appears only via **MHT** or after raising CL—never by arithmetic optimism.
-
 

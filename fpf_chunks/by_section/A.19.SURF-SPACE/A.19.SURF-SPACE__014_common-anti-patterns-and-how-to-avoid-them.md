@@ -6,12 +6,12 @@ section_id: "A.19.SURF-SPACE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SURF-SPACE/A.19.SURF-SPACE__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.19.SURF-SPACE — Cross-Surface and Cross-Space Substrate"
   - "A.19.SURF-SPACE:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23390
-line_end: 23402
+line_start: 23443
+line_end: 23455
 dependencies:
   - "A.0"
   - "A.17"

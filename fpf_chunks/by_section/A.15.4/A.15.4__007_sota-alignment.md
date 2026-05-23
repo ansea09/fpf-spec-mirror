@@ -6,12 +6,12 @@ section_id: "A.15.4:6"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_sota-alignment.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:6 — SoTA Alignment"
-line_start: 21050
-line_end: 21064
+line_start: 21103
+line_end: 21117
 dependencies:
   - "A.10"
   - "A.15"

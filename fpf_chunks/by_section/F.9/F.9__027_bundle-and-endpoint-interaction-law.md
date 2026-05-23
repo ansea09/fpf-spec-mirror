@@ -6,12 +6,12 @@ section_id: "F.9:25"
 section_title: "Bundle and Endpoint Interaction Law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__027_bundle-and-endpoint-interaction-law.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:25 — Bundle and Endpoint Interaction Law"
-line_start: 64557
-line_end: 64567
+line_start: 64674
+line_end: 64684
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

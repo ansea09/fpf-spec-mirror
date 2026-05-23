@@ -6,12 +6,12 @@ section_id: "A.19.SUPPORT-VIEW:0.b"
 section_title: "First-minute operator cue and confusion map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SUPPORT-VIEW/A.19.SUPPORT-VIEW__006_first-minute-operator-cue-and-confusion-map.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.19.SUPPORT-VIEW — Cross-Surface Support View"
   - "A.19.SUPPORT-VIEW:0.b — First-minute operator cue and confusion map"
-line_start: 23519
-line_end: 23541
+line_start: 23572
+line_end: 23594
 dependencies:
   - "A.0"
   - "A.19"

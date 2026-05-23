@@ -6,12 +6,12 @@ section_id: "A.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__012_relations.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:11 — Relations"
-line_start: 27787
-line_end: 27795
+line_start: 27858
+line_end: 27866
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -45,7 +45,7 @@ keywords:
 ### A.21:11 - Relations
 
 * **E.TGA →coordinates→ A.21.** GateFit-scoped GateChecks are aggregated by `OperationalGate(profile)`; enumeration and publication shape of GateChecks live here.
-* **A.20 →couples_to→ A.21 via CV⇒GF.** CV is evaluated inside transformations; while CV≠pass, GF is `abstain` and GF explanations do not apply.
+* **A.20 →couples_to→ A.21 via CV=>GF.** CV is evaluated inside transformations; while `CV.Status!=pass`, GF is `abstain` and GF explanations do not apply.
 * **A.21 GateProfile binding.** A.21 carries the current profile binding, inheritance boundary, and minimum mandatory check-set semantics. Fuller matrix support is not a separate current authority unless a current governing pattern explicitly admits it.
 * **E.18 / G.11 →provide→ scope and refresh boundaries.** `subflow` scope is bounded and restartable through PathSlice and refresh wiring where live; weakening check sets SHALL use a new `PathSlice`.
 * **F.9 / F.17 / E.17 / E.18 →required_by→ any edition-citing face.** Whenever gate faces cite editions, the compatibility reference (BridgeCard + UTS + `CL/CLPlane`) is required for downstream consumption.

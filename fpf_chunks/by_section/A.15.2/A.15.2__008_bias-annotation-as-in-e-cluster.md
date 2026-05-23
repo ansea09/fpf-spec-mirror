@@ -6,12 +6,12 @@ section_id: "A.15.2:7"
 section_title: "Bias‑Annotation (as in E‑cluster)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__008_bias-annotation-as-in-e-cluster.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7 — Bias‑Annotation (as in E‑cluster)"
-line_start: 20363
-line_end: 20368
+line_start: 20416
+line_end: 20421
 dependencies:
   - "A.15"
   - "U.Work"

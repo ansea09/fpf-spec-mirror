@@ -6,12 +6,12 @@ section_id: "E.17:12"
 section_title: "SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__013_sota-alignment-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:12 — SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
-line_start: 57151
-line_end: 57164
+line_start: 57260
+line_end: 57273
 dependencies:
   - "A.6.2"
   - "A.6.3"

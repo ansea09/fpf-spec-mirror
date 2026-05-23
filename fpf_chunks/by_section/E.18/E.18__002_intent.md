@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:1 — Intent"
-line_start: 59516
-line_end: 59558
+line_start: 59630
+line_end: 59672
 dependencies:
   - "A.2.6"
   - "A.20"

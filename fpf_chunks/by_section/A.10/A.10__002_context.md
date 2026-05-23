@@ -6,12 +6,12 @@ section_id: "A.10:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__002_context.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:1 — Context"
 line_start: 18433
-line_end: 18449
+line_end: 18448
 dependencies:
   - "A.1"
   - "A.10"
@@ -66,5 +66,4 @@ This pattern defines the **Evidence Graph Referring Standard** common to all Γ�
 Use this when a model, report, metric, confidence badge, review note, or QL reading is starting to act like evidence but the carrier, transformer, method, time stance, or provenance edge is still implicit. The action is to turn the assertion into a small because-graph: name the claim, name the carriers, name the external transformer role, name the method or work trace, state the time/coverage condition, and attach the resulting evidence edge to the claim rather than to the holon itself.
 
 Useful output: a claim that can answer "because of which carriers, by which transformer, using which method, and when?" without making provenance pretend to be part-whole structure.
-
 

@@ -6,12 +6,12 @@ section_id: "F.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__004_forces.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:3 — Forces"
-line_start: 61471
-line_end: 61480
+line_start: 61588
+line_end: 61597
 dependencies:
   - "A.11"
   - "A.7"

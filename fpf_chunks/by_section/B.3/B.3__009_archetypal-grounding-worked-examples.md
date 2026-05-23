@@ -6,12 +6,12 @@ section_id: "B.3:6"
 section_title: "Archetypal grounding (worked examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__009_archetypal-grounding-worked-examples.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:6 — Archetypal grounding (worked examples)"
-line_start: 30804
-line_end: 30868
+line_start: 30925
+line_end: 30988
 dependencies:
   - "A.10"
   - "A.12"
@@ -99,7 +99,6 @@ keywords:
 * **Improvement path:** upgrade mapping verification to CL2/CL3; increase `F` via registered analysis plan; replicate lagging study.
 
 #### B.3:6.3 - Order/Process archetype — **Manufacturing route assurance**
-
 
 * **Claim `C`:** *Route R meets output defect rate ≤ ε.*
 * **Context `K`:** Materials, equipment class; `S = run`.

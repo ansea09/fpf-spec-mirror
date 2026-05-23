@@ -6,12 +6,12 @@ section_id: "E.19:11"
 section_title: "SoTA-Echoing — post-2015 review and validation practice alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__015_sota-echoing-post-2015-review-and-validation-practice-alignment.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
   - "E.19:11 — SoTA-Echoing — post-2015 review and validation practice alignment"
-line_start: 60658
-line_end: 60669
+line_start: 60772
+line_end: 60785
 dependencies:
   - "A.6.P"
   - "E.10"
@@ -21,7 +21,7 @@ dependencies:
   - "F.18"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled‑world entities (e.g"
+  - "MUST NOT modify modeled-world entities (e.g"
   - "and (if needed) reference them from CC items"
   - "inside the predicate)"
   - "where a non-deontic Invariant: predicate is required)"
@@ -42,4 +42,6 @@ keywords:
 | Pattern writing benefits from explicit guidance plus critique culture. | Pattern-language communities emphasize clear template usage, consequences, and critique for quality.        | Iba (2021), “How to Write Patterns …” (PLoP 2021).                                          | Baseline checks enforce meaningful sections; anti-patterns make critique concrete.        | **Adopt.** Directly supports admission quality.                                                              |
 | “Living” guidance needs refresh discipline.                            | Reporting and review guidance is updated and versioned; reviewers track changes and report deltas clearly. | Page et al. (2021), PRISMA 2020 statement and explanation papers.                           | Runs require explicit decisions and deltas in SoTA‑Echoing. | **Adapt.** Use the “versioned guidance + explicit deltas” principle without importing implementation or process mandates. |
 | Retrieval-facing entry changes need selected evidence dimensions, not universal benchmarks. | RAG evaluation practice separates context relevance, answer faithfulness, answer relevance, and support quality. | Es et al. (2023), `RAGAS`; Saad-Falcon et al. (2023), `ARES`. | `PCP-ENTRY-E4` and related evidence modes select tiny retrieval fixtures only when retrieval-facing behavior or observed misretrieval is live; the row does not authorize a universal benchmark for every pattern entry. | **Adopt lightly.** Keep hit, support, authority, and faithfulness dimensions only when retrieval-facing behavior is live; ordinary entry prose remains prose-only. |
+
+Action result from the pattern-review and validation practice basis: an `E.19` pass, caution, return-for-repair result, narrower-use result, clean checklist, or clean retrieval-entry check does not become project certification, project evidence, safety support, gate input, release justification, compliance support, assurance material, work authority, publication truth, or project refusal/approval. The local E.19 result is a pattern-quality review or refresh claim over the named target pattern, selected profile, defects found or cleared, admission, refresh, narrower-use, repair-return, or selected pattern-quality boundary. Reopen the pattern-quality result when the reviewed text, accepted-basis decision, SoTA support, neighboring pattern, support relation, profile trigger, target boundary, or attempted project-side reuse changes.
 

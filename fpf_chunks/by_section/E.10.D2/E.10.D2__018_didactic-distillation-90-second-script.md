@@ -6,12 +6,12 @@ section_id: "E.10.D2:17"
 section_title: "Didactic distillation (90‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__018_didactic-distillation-90-second-script.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:17 — Didactic distillation (90‑second script)"
-line_start: 53956
-line_end: 53967
+line_start: 54065
+line_end: 54076
 dependencies:
   - "A.7"
   - "C.2.1"

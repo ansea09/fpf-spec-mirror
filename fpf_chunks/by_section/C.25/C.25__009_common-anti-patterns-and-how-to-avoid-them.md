@@ -6,12 +6,12 @@ section_id: "C.25:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 43180
-line_end: 43188
+line_start: 43289
+line_end: 43297
 dependencies:
   - "A.15"
   - "A.16.0"

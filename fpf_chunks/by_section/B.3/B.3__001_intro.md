@@ -6,12 +6,12 @@ section_id: "B.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__001_intro.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:intro — Intro"
-line_start: 30434
-line_end: 30447
+line_start: 30506
+line_end: 30518
 dependencies:
   - "A.10"
   - "A.12"
@@ -68,5 +68,4 @@ keywords:
 **Assurance load posture.** Use the lightest assurance result that can decide the live assurance use. A cue or source pointer gets no B.3 tuple. A local, non-release, non-compliance, non-safety, non-reused claim may be written as a compact bounded assurance claim statement that names claim, assurance use supported by the assurance tuple or relying context, evidence pointer, limit, and stop/reopen condition. Reserve a full typed `Assurance(H, C \| K, S)` claim for readiness, compliance, safety, release confidence, trust, `F`, `G`, `R`, `CL`, or reused assurance input.
 
 **Continuous assurance posture.** Treat an assurance claim as an engineering-process state that can decay, reopen, narrow, or be withdrawn, not as a one-time checklist result. For model, data, AI, documentation, release, or operational assurance, name the drift, monitoring, incident, evidence-refresh, version-change, policy/gate-change, or residual non-admissible-use condition that reopens the assurance claim.
-
 

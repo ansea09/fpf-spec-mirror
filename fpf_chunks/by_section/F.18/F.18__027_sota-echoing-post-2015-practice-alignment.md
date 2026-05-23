@@ -6,12 +6,12 @@ section_id: "F.18:25"
 section_title: "SoTA-Echoing (post-2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__027_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:25 — SoTA-Echoing (post-2015 practice alignment)"
-line_start: 68243
-line_end: 68252
+line_start: 68360
+line_end: 68369
 dependencies:
   - "A.19.SUPPORT-VIEW"
   - "A.6.P"

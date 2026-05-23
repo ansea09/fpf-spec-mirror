@@ -6,12 +6,12 @@ section_id: "C.26.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__011_rationale.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:10 — Rationale"
-line_start: 44707
-line_end: 44710
+line_start: 44816
+line_end: 44819
 dependencies:
   - "A.10"
   - "A.15"

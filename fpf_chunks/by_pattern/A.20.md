@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.20.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
-line_start: 27050
-line_end: 27387
+line_start: 27103
+line_end: 27450
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -57,6 +57,12 @@ keywords:
 
 **Do not escalate when.** Do not create `GateDecision`, `GateDecisionExplanation`, GateFit narrative, comparator law, bridge law, freshness claim, release-confidence claim, or work-boundary authority from `CV.Status`. Open those neighboring pattern relations only when their own live claim is present.
 
+**Conformance-marker overread note.** Use this note when a conformance label, `CV.Status=pass`, release-screen status, dashboard cue, or CV-looking publication is being read as gate passage, release confidence, safety acceptance, assurance, work occurrence, work authorization, or performed work. The first A.20 move is to return to the local step, CV class, `CV.Status`, witness or refusal, and window governed here; then state the unsupported attempted use and open the receiving relation only if its live claim is present: `A.21` for gate decision, `B.3` for assurance, `A.10` for evidence/currentness, `A.15` for work, or the exact neighboring pattern that carries the live claim. Write `CV.Status=pass` when CV is meant; do not write plain `pass` near gate, release, safety, or work use. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
+
+**Common wrong first reading.** `CV.Status=pass` means release, safety acceptance, or gate passage. First honest entry: `CV.Status` is local step constraint validity with witness or refusal; release, safety, gate, assurance, or work use exits to the receiving pattern only when that live claim is present.
+
+Repaired anti-case: a manufacturing conformance label near release may support only the local CV or conformance relation it actually carries. If release permission, safety acceptance, or work authorization is attempted, state that unsupported use and open the receiving relation rather than treating the label as release support.
+
 **Same problem, different live question.** For a TGA-looking problem, use `E.18` for graph/flow/crossing, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not open the other three until their own claim is live.
 
 **Semantic repair return.** When A.20 blocks a misleading word, face, alias, or source label, the repair must return to the enabled CV action: name `CV.Status`, the applicable CV class, and the witness or refusal that remains admissible. Do not stop at a classification of vocabulary or publication faces.
@@ -65,7 +71,7 @@ keywords:
 
 **Smallest affected locus.** Localize the change to the smallest live locus: `PathSlice` or crossing in `E.18`, CV step in `A.20`, `GateDecision` equivalence class in `A.21`, or mechanism-governing definition in `E.20`. Do not widen to a whole flow or unrelated governed object when that locus is enough.
 
-**Ordinary success.** For ordinary A.20 use, success is that the live CV class, `CV.Status`, and witness or refusal are placed for the step without implying gate passage, comparator admissibility, freshness, or launch readiness. A full conformance pass is needed only when the downstream claim consumes expanded assurance or conformance material.
+**Ordinary success.** For ordinary A.20 use, success is that the live CV class, `CV.Status`, and witness or refusal are placed for the step without implying gate passage, comparator admissibility, freshness, or launch readiness. A full conformance review is needed only when the downstream claim consumes expanded assurance or conformance material.
 
 **Locality asymmetry.** `E.18` is graph-local, `A.20` is step-local, `A.21` is gate-local, and `E.20` is trigger-local. Do not normalize the four patterns into one assurance regime.
 
@@ -87,7 +93,7 @@ keywords:
 
 ### A.20:1 - Problem frame
 
-In E.TGA, *nodes = morphisms* and the graph uses a *single edge kind* (`U.Transfer`). **GateFit** checks aggregate only in `OperationalGate(profile)` with the activation predicate **CV ⇒ GF**: until aggregated **ConstraintValidity = pass**, all **GateFit** checks return **abstain**. Equivalently, while **ConstraintValidity ≠ pass**, any GateFit‑oriented explanation **does not apply**. To keep flows comparable and auditable, this pattern delimits **internal step constraints** (CV) from **external gate fit** (GF), preventing any second process order beside the graph.
+In E.TGA, *nodes = morphisms* and the graph uses a *single edge kind* (`U.Transfer`). **GateFit** checks aggregate only in `OperationalGate(profile)` with the activation predicate **CV => GF**: until aggregated **`CV.Status=pass`**, all **GateFit** checks return **abstain**. Equivalently, while **`CV.Status != pass`**, any GateFit-oriented explanation **does not apply**. To keep flows comparable and auditable, this pattern delimits **internal step constraints** (CV) from **external gate fit** (GF), preventing any second process order beside the graph.
 
 ### A.20:2 - Problem
 
@@ -154,7 +160,7 @@ Minimum pins on faces that carry CV outcomes (**Lean publication** allowed by pr
 
 #### A.20:4.4 - GateChecks (table) — CV only
 
-**Activation predicate (in E.TGA).** *Until aggregated `CV = pass`, all GateFit checks return `abstain` (CV⇒GF).*
+**Activation predicate (in E.TGA).** *Until aggregated `CV.Status=pass`, all GateFit checks return `abstain` (CV=>GF).*
 **Role/Channel Fit guard (GateFit scope).** GateFit checks that involve roles SHALL use **Kernel `U.Role` tokens** (domain = `U.System`) and SHALL NOT consume `TypicalEnactorRoleName` strings from alias tables.
 
 | CV class | Applies when | Publication minimum |
@@ -213,7 +219,7 @@ The record is **PathSlice‑local** and does not declare or translate planes/uni
 
 * Flows are **valuations** over `U.Transfer`, re-emitting **slice-locally** under explicit refresh rules or edition bumps carried through `E.18`, `A.20`, and `G.11` where refresh wiring is live. CV contributes to the **prepare/refresh** conditions but does not expand scope beyond the addressed `PathSliceId`.
 * **Delimitation & planning (normative).** A `PathSlice` **closes** on: (i) any pinned edition change, (ii) Γ‑window boundary relevant to the face, (iii) `GateProfile` change along the path, or (iv) an explicit sentinel rule. **Concurrency:** at most **one active recompute** per `{PathSliceId}`; parallel recomputes are permitted across **distinct** `PathSliceId`s.
-* **CV‑triggered refresh (minimum list).** Re‑emit the addressed `PathSliceId` when any holds: (a) `CV.Status` changes across the lattice; (b) `ReinterpWitness` is added/updated/withdrawn; (c) `AdmissibilityDecl.edition` or `LipschitzBoundRef.edition` changes; (d) updates arrive from `F.9`, `F.17`, `E.17`, or `E.18` bridge and UTS loci, or from `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11` comparator and refresh loci; (e) error/timeout transitions to a resolved `pass` for a previously `abstain|degrade` CV class.
+* **CV‑triggered refresh (minimum list).** Re‑emit the addressed `PathSliceId` when any holds: (a) `CV.Status` changes across the lattice; (b) `ReinterpWitness` is added/updated/withdrawn; (c) `AdmissibilityDecl.edition` or `LipschitzBoundRef.edition` changes; (d) updates arrive from `F.9`, `F.17`, `E.17`, or `E.18` bridge and UTS loci, or from `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11` comparator and refresh loci; (e) error/timeout transitions to `CV.Status=pass` for a previously `abstain|degrade` CV class.
 
 * **CV‑to‑refresh triggers (normative).** A **SliceRefresh(PathSliceId)** SHALL be scheduled when any of the following occurs:
   (`CVRefreshTrigger.StatusFlip`) a **CV status flip** on the slice (`pass↔degrade`, `pass↔block`, or `error/timeout→{degrade|block}` under profile rules);
@@ -251,7 +257,7 @@ Failing (H1–H5) degrades or blocks per GateProfile (§4.4/CC‑TGA‑21a).
 
 #### A.20:4.11 - Unknown/Timeout/Error policy
 
-Each CV class yields `abstain | pass | degrade | block`. Errors/timeouts at CV stage imply **CV ≠ pass**; therefore GateFit abstains by the global activation predicate and any GateFit‑oriented explanation **does not apply**. The **aggregated CV decision** uses the join on `abstain ≤ pass ≤ degrade ≤ block` (neutral = `abstain`; absorbing = `block`).
+Each CV class yields one `CV.Status` value: `abstain | pass | degrade | block`. Errors/timeouts at CV stage imply **`CV.Status != pass`**; therefore GateFit abstains by the global activation predicate and any GateFit‑oriented explanation **does not apply**. The aggregated `CV.Status` uses the join on `abstain <= pass <= degrade <= block` (neutral = `abstain`; absorbing = `block`).
 **Minimal default (profile‑bound, normative):** **Lean/Core ⇒ `error|timeout → degrade`**, **SafetyCritical/RegulatedX ⇒ `error|timeout → block`**; `unknown` folds per GateCheck policy (safety‑default: `degrade`). (Consistent with **CC‑TGA‑22**.)
 
 #### A.20:4.12 - Idempotency / congruence discipline
@@ -263,9 +269,9 @@ Any publication consumed by an `A.21` gate decision uses the `A.21` decision-sta
 ### A.20:5 - Archetypal Grounding (Tell–Show–Show)  ✱
 
 **Tell (internal step, not gate passage).**
-CV answers whether a transformation step satisfies its own declared constraints: units, laws, admissibility conditions, stability bounds, type/domain/range, and, for `StructuralReinterpretation`, reinterpretation equivalence. If that answer is not `pass`, GateFit does not get to rescue the step; if it is `pass`, ranking, acceptance, launch, and profile-fit still belong outside CV.
+CV answers whether a transformation step satisfies its own declared constraints: units, laws, admissibility conditions, stability bounds, type/domain/range, and, for `StructuralReinterpretation`, reinterpretation equivalence. If `CV.Status != pass`, GateFit does not get to rescue the step; if `CV.Status=pass`, ranking, acceptance, launch, and profile-fit still belong outside CV.
 
-**Show‑0 (CV pass, no gate opened).**
+**Show‑0 (`CV.Status=pass`, no gate opened).**
 A normalization step has declared units, domain/range, and invariant refs; the CV check returns `CV.Status=pass` with a `CV.WitnessRef`. No comparison, launch, crossing, freshness, or profile-fit claim is live, so no `GateDecision`, GateFit narrative, or `DecisionLog` is opened. The admissible result is only: this step is internally valid under its declared constraints.
 
 **Show‑1 (compiler build → run).**
@@ -297,11 +303,12 @@ The pattern constrains *how* CV status and witnesses are carried; it does not en
 
  * CV classes present exactly as {UnitsCoherence, LawSetInvariants, Admissibility, LipschitzBounds, TypeDomainRange}; **plus** `ReinterpretationEquivalence` when the node kind is `StructuralReinterpretation`. None declare/translate planes/comparators.
  * **Open‑world species.** Any node **species** binds to one of the minimal kinds; adding a new **kind** is out of scope for A.20 and belongs in an E.TGA update.
-* Aggregated **CV.Status** computed; errors/timeouts ⇒ `CV ≠ pass`.
+* Aggregated **CV.Status** computed; errors/timeouts imply `CV.Status != pass`.
+* Any support-looking use beyond the local step names the receiving relation. `CV.Status` is not gate passage, release confidence, assurance, safety acceptance, work occurrence, or work authorization.
 
 **Gate coupling**
 
-* CC‑TGA‑07: when **CV ≠ pass**, all GateFit checks report **abstain**.
+* CC‑TGA‑07: when **`CV.Status != pass`**, all GateFit checks report **abstain**.
 * CC‑TGA‑23: SquareLaw witnesses present on crossings adjacent to CV‑checked steps.
 * Any edition citation on faces includes `Bridge+UTS` through `F.9`, `F.17`, `E.17`, and `E.18`; comparator or set-return implications use `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11` when live.
 
@@ -333,10 +340,12 @@ E.TGA coordinates A.20 and A.21 as orthogonal cores: CV **inside** transformatio
 
 | SoTA source idea | FPF invariant | Reader move | Rejected shortcut |
 | --- | --- | --- | --- |
-| Algebraic effects, refinement, and certified-computation practice separate local constraint satisfaction from handler or deployment policy. | CV is internal step validity with `CV.Status` plus witness or refusal; GateFit (`A.21`) may consume the CV result only when a gate relation is live. | Name the step, the applicable CV class, and the witness or refusal before making any gate claim. | Treating CV pass as gate passage, launch readiness, comparator admissibility, or a release-confidence claim. |
+| Algebraic effects, refinement, and certified-computation practice separate local constraint satisfaction from handler or deployment policy. | CV is internal step validity with `CV.Status` plus witness or refusal; GateFit (`A.21`) may consume the CV result only when a gate relation is live. | Name the step, the applicable CV class, and the witness or refusal before making any gate claim. | Treating `CV.Status=pass` as gate passage, launch readiness, comparator admissibility, or a release-confidence claim. |
 | Reproducible-pipeline practice keeps mechanism constraints distinct from release or deployment profiles. | A.20 records assumption-bound status and witnesses; it does not define build tooling, cache keys, storage formats, or release policy. | Keep release and profile questions outside CV unless the neighboring pattern is live. | Treating a validation checklist as release readiness. |
-| Optics, profunctors, and open or hypergraph categories support disciplined reinterpretation without adding new face facts. | `ReinterpretationEquivalence` uses imported retargeting semantics and a CV-scoped witness over the addressed `PathSliceId`; projection and describedEntity semantics stay with their governing loci. | Require the relevant witness before allowing a `StructuralReinterpretation` CV pass. | Letting A.20 define a second semantics of projection, view, describedEntity, or retargeting. |
+| Optics, profunctors, and open or hypergraph categories support disciplined reinterpretation without adding new face facts. | `ReinterpretationEquivalence` uses imported retargeting semantics and a CV-scoped witness over the addressed `PathSliceId`; projection and describedEntity semantics stay with their governing loci. | Require the relevant witness before allowing `StructuralReinterpretation` `CV.Status=pass`. | Letting A.20 define a second semantics of projection, view, describedEntity, or retargeting. |
 | Quality-Diversity, MAP-Elites, CMA-ME, and DQD practice preserve set-return and archive visibility. | CV may check that the step did not internally destroy a declared set, archive, or partially ordered return shape; comparator, ranking, archive, and refresh decisions remain outside CV. | Preserve no-hidden-scalarization inside the step and return comparator or archive use to the neighboring loci named in Relations. | Letting CV select, rank, accept, or refresh set-return outputs. |
+
+Action result from the local-constraint and reproducible-pipeline practice basis: `CV.Status`, conformance labels, validation checklists, and CV-looking publications do not become gate passage, launch readiness, release confidence, safety acceptance, assurance, work occurrence, work authorization, comparator admissibility, or refresh authority. The local A.20 result is step, CV class, `CV.Status`, witness or refusal, unsupported attempted use, and the named receiving relation when a gate, release, assurance, work, comparator, or refresh claim is live. Reopen the local result when the CV status, witness, governing definition, assumption, edition, window, path slice, or consuming neighboring relation changes.
 ### A.20:11 - Relations
 
  * **Governed by E.TGA.** Nodes are morphisms; only `U.Transfer` edges; **open‑world species over a minimal kind set**; CV⇒GF activation; MVPK faces; SquareLaw on crossings; CC‑TGA‑06‑EX for `StructuralReinterpretation`.
@@ -374,3 +383,4 @@ E.TGA coordinates A.20 and A.21 as orthogonal cores: CV **inside** transformatio
 Register token classes (Tech) include: `U.TransductionFlow`, `U.TransductionGraph`, `OperationalGate`, `GateProfile`, `GateCheckKind`, `GateCheckRef`, `DecisionLog`, `FreshnessTicket`, `FinalizeLaunchValues`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `VALATA`; discriminators use `Base__P2W`, `Base__EvaluatingAndRefreshing`; Tech names are ASCII; aliases `GammaTimeRule/Plane`, `CLPlane`, `Phi` follow E.10. A.20 references these tokens; it does not introduce additional LEX classes. **For each published CV check, `GateCheckRef.aspect` is fixed to `ConstraintValidity`.** *MVPK minima for CV faces also include `PathId/PathSliceId` where slice-local refresh applies through `E.18`, `A.20`, and `G.11` when live.*
 
 ### A.20:End
+

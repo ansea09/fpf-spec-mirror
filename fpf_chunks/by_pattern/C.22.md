@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
-line_start: 41325
-line_end: 41544
+line_start: 41444
+line_end: 41658
 dependencies:
   - "C.16"
   - "C.18"
@@ -63,7 +63,6 @@ The corresponding claims are governed by their named receiving patterns.
 
 ### C.22:2 - Problem Frame (DesignRunTag split; crossing-visible)
 
-
 **Selector-facing problem case**
 For selector-facing `C.22` use, a problem case is live when the problem-side representation is stable enough to attach or emit a minimal `TaskSignature` for eligibility, acceptance, and policy-governed selection. Method absence, method contestability, or method-family ambiguity is a common downstream reason for `C.22` use, but it is not the only reason a `ProblemCard@Context` may be needed upstream. `C.22` therefore does not define problemhood by method absence; it defines the downstream typed anchor used once problem-side readiness is truthful. When the live question is still a symptom, contested framing, stale context, set-derived candidate, opportunity cue, or preselected work item, use `C.22.2` before binding one chosen `TaskSignature`. When selection or synthesis of a method becomes live, strategy or policy is governed by `G.5` and `E/E-LOG`; `C.22` use does not introduce a strategy or policy kernel type.
 **Unknown‑first discipline.** Author S2 with `unknown` traits rather than coercions; **SoS‑LOG** branches MUST specify `{admit|degrade|abstain|sandbox}` handling for `unknown` via closed enums registered at UTS.
@@ -83,14 +82,12 @@ Without typed descriptors, **Eligibility and Acceptance** degenerate into prose;
 | **CHR admissibility**             | **No mean on ordinals; no unit mixing**; polarity & scale type must be declared *before* aggregation.                             |
 | **Locality vs portability**  | Problem is **in‑room**; still must cross **via Bridges**, with **CL** and (if planes differ) **CL^plane** penalties → **R** only. |
 
-
 ### C.22:5 - Solution — **Problem‑CHR** (fields) + **TaskSignature (S2) attachment** *(normative)*
 
 #### C.22:5.1 - Minimal CHR fields (tri‑state aware).
 **Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, method-family, or policy-governed choice questions. They are not a universal problem-framing checklist and must not replace the `C.22.2` Thin `ProblemCard@Context` pass for a messy signal. Each live field is **CHR-typed** (Characteristic, Scale, Unit, Polarity; MM-CHR discipline). Every predicate admits `unknown` (tri-state). Unknown-handling policy propagates `{degrade|abstain|sandbox}` per Acceptance profile or EvidenceProfile policy (recorded in SCR). (G.4/G.6 alignment)
 
 **Optional extension absence rule.** If QD, OEE, archive, generator, parity, specialization, or another optional relation is not live for the current case, the corresponding optional fields are absent, not `unknown`. Use `unknown` only for a live field whose value is currently unknown. An absent non-live extension does not trigger `{degrade|abstain|sandbox}` propagation.
-
 
 * **`DataShape`** — data regime and admissible transforms (e.g., tabular, sequence, graph; density; stationarity claims).
 * **`NoiseModel`** — uncertainty class and robustness envelope (e.g., iid Gaussian; heavy‑tailed; adversarial budget).
@@ -126,7 +123,6 @@ Use this extension block only when QD, illumination archive, set-return, or OEE 
 A TaskSignature is the minimal typed record read by selector-facing use:
 `⟨Context, TaskKind, TaskFamilyRef?, KindSet:U.Kind[], DataShape, NoiseModel, ObjectiveProfile, Constraints{incl. Resource/Risk Envelopes}, ScopeSlice(G), EvidenceGraphRef, Size/Scale, Freshness, Missingness, ShiftClass?, BehaviorSpaceRef?, ArchiveConfig?, EmitterPolicyRef?, DominanceRegime?, PortfolioMode?, Budgeting?, TelemetryHooks?, GeneratorIntent?⟩`
 
-
 **Minimality rule.** S2 carries only fields required for **Eligibility→Acceptance→admissible selection**; any additional traits derived at design‑time are recorded as provenance (UTS) but **do not expand S2**.
 
 Values are **CHR‑typed** with **provenance**; traits may be **inferred** from CHR and CAL bindings (e.g., *convexity known? differentiable? ordinal vs interval scales?*) and from **USM** scope metadata. Unknowns are tri‑state; **Missingness semantics MUST align with CHR.Missingness** and be honored by Acceptance and Flows.
@@ -157,7 +153,6 @@ Output a **ProblemProfile** (...Description) that carries the bound TaskSignatur
 
 #### C.22:5.7 - Open‑Ended tasks (GeneratorFamily) *(normative)*.
 If the problem requires **open‑ended generation** of tasks or environments, S2 **SHALL** include `GeneratorIntent` with pointers to **`EnvironmentValidityRegion`** (admissible support of generated environments), **`TransferRulesRef`** (cross‑environment transfer constraints), and **coverage and regret** telemetry expectations. Selector outputs are then declared sets over **{environment, method}**; **coverage and regret** are reported telemetry values and **IlluminationSummary** is a **telemetry summary** (reported), excluded from dominance unless a **CAL** policy promotes them (policy‑id recorded in SCR; see `DominanceRegime`). Edition increments of **CharacteristicSpaceRef.edition**, **DescriptorMapRef.edition**, **DistanceDefRef.edition**, and (OEE) **`TransferRulesRef.edition`**, and the **policy‑id** associated with illumination increases **SHALL** be recorded in SCR.
-
 
 ### C.22:6 - Archetypal Grounding (Tell–Show–Show)
 

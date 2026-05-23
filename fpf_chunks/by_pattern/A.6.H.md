@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.H.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
 line_start: 17351
@@ -395,7 +395,7 @@ Scale legality note: whenever “fraction/percentage/share” appears in wholene
 [4]: https://teamtopologies.com/ "Team Topologies - Organizing for fast flow of value"
 [5]: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final "NIST SP 800-53 Rev. 5 - Security and Privacy Controls"
 
-### A.6.H: End
+### A.6.H:End
 
 # Cluster A.V - Constitutional Principles of the Kernel
 

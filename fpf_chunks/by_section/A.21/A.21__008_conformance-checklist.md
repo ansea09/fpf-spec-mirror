@@ -6,12 +6,12 @@ section_id: "A.21:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__008_conformance-checklist.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:7 — Conformance Checklist"
-line_start: 27713
-line_end: 27750
+line_start: 27781
+line_end: 27819
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -53,14 +53,15 @@ Minimum unified conformance for A.21 (and any flow that claims GateFit disciplin
 #### A.21:7.1 - Core gate semantics
 
 * [ ] **CC‑TGA‑06**: all GateCrossings (CtxState changes, and work-boundary crossings via LaunchGate) are mediated by `OperationalGate(profile)` and have a `DecisionLog`.
-* [ ] **CC‑TGA‑07**: CV⇒GF activation predicate holds (`CV≠pass ⇒ GF=abstain`).
+* [ ] **CC‑TGA‑07**: CV=>GF activation predicate holds (`CV.Status!=pass => GF=abstain`).
 * [ ] **CC-TGA-21**: decision stability witness is present on the `DecisionLog` record as an `A.21` `EquivalenceWitness` or `EquivalenceWitnessRef`.
-* [ ] **CC‑TGA‑21a**: aggregation is the join on `abstain ≤ pass ≤ degrade ≤ block`; `GateDecisionExplanation` is optional and non-decisional.
+* [ ] **CC‑TGA‑21a**: aggregation is the join on `GateDecision` values `abstain <= pass <= degrade <= block`; `GateDecisionExplanation` is optional and non-decisional.
 * [ ] **CC‑TGA‑22**: `error|timeout` folds are profile-bound; `unknown` folds per GateCheck policy.
+* [ ] **Gate-looking display boundary**: a dashboard state, green tile, readiness badge, conformance label, CV result, safety-envelope note, or release screen is not gate passage unless active `OperationalGate(profile)`, effective `GateCheckRef` set, aggregate, `GateDecision`, `DecisionLogRef`, scope, and currentness/window are recoverable.
 
 #### A.21:7.2 - LaunchGate discipline (pre-run barrier)
 
-* [ ] **CC‑TGA‑08**: every `U.WorkEnactment` has exactly one `LaunchGate` with mandatory `FreshnessUpToDate` + `DesignRunTagConsistency`; **pre‑run barrier:** if the aggregate `ConstraintValidityStatus` over the declared ingress predecessor set or ingress cut-set for the addressed `PathSlice` is not `pass`, then all LaunchGate GateFit checks are `abstain` and the overall LaunchGate decision is `block` (logged).
+* [ ] **CC‑TGA‑08**: every `U.WorkEnactment` has exactly one `LaunchGate` with mandatory `FreshnessUpToDate` + `DesignRunTagConsistency`; **pre‑run barrier:** if `ConstraintValidityStatus!=pass` over the declared ingress predecessor set or ingress cut-set for the addressed `PathSlice`, then all LaunchGate GateFit checks are `abstain` and the overall `GateDecision=block` (logged).
 
 * [ ] **Pre‑Run barrier** is satisfied for any `U.Work` where `FinalizeLaunchValues` is possible.
 

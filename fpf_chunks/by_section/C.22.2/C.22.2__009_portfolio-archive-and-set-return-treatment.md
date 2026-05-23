@@ -6,12 +6,12 @@ section_id: "C.22.2:8"
 section_title: "Portfolio, Archive, and Set-Return Treatment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__009_portfolio-archive-and-set-return-treatment.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:8 — Portfolio, Archive, and Set-Return Treatment"
-line_start: 42066
-line_end: 42091
+line_start: 42169
+line_end: 42193
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,7 +74,7 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, l
 | Palette | `C.18`, `C.19`, `G.5` | Preserve candidate-family or option-set reading without turning it into evidence or approval. |
 | Front | `C.18`, `A.19`, `C.25`, `G.5` | Preserve declared characteristics and non-dominated set reading. |
 | Shortlist | `G.5`, with `G.9` when comparison pins matter | Preserve selected-set basis and downstream use. |
-| Ranked shortlist | `G.5` only when an admissible order is declared | Preserve ranking basis or demote to selected set with tie notes. |
+| Ranked shortlist | `G.5` only when an admissible order is declared | Preserve ranking basis or narrow to selected set with tie notes. |
 | Selected set | `G.5` | Preserve selected-set output, basis pins, and unknown handling. |
 | Live pool | `C.19` | Preserve pool policy, current treatment, and change trigger. |
 | Set-return | `G.5`, `C.18`, `A.6.Q`, declared comparison records | Preserve set-valued result when total order is not admissible. |
@@ -82,7 +82,6 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, l
 A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `setContextRef`: the lightweight reference to the source set kind, source reference, selection or retention basis, budget or window, review cadence, and receiving pattern when live. `setContextRef` is a reference field, not a new `SetContext` kind, and is not evidence, gate passage, approval, portfolio object, or work authority.
 
 `setContextRef` must preserve the recoverable source-set form when live: `Palette`, `Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, `SelectedSet`, `LivePool`, or another accepted source-set form. If the source-set form is not recoverable, the card may keep a source cue, but it must not claim selected-set readiness or archive-derived readiness.
-
 
 When multiple plausible problem formulations remain live, `C.22.2` must not bind one `TaskSignature` prematurely. Each optional `rivalProblemFormulationRef` must state the rival formulation, described entity, context, preserved concern, lost concern, reason not selected yet, and next discrimination move. It is not a `CG-Frame`, not the E.8 `Problem Frame`, and not a representation-frame object.
 The next discrimination move may be to characterize, compare, retarget, reopen the source, choose a local problem formulation, or exit to the relation-bearing pattern. Reframing is triggered when context grounding, described entity, viewpoint, scope cut, or cause-theory cue changes the problem representation enough that support or readiness cannot be inherited by wording continuity.

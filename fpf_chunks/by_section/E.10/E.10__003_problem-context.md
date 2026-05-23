@@ -6,12 +6,12 @@ section_id: "E.10:1"
 section_title: "Problem context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__003_problem-context.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:1 — Problem context"
-line_start: 51312
-line_end: 51326
+line_start: 51421
+line_end: 51435
 dependencies:
   - "A.10"
   - "A.15"

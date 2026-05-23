@@ -6,12 +6,12 @@ section_id: "E.17.EFP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 57629
-line_end: 57641
+line_start: 57741
+line_end: 57753
 dependencies:
   - "A.10"
   - "A.15"
@@ -35,7 +35,6 @@ keywords:
 
 ### E.17.EFP:8 - Common Anti-Patterns and How to Avoid Them
 
-
 | Anti-pattern | Why it is wrong | How to avoid it |
 |---|---|---|
 | Treating every explanatory prose block as equally faithful | rendering, reconstruction, didactic work, and speculation have different review loads | publish the explanation-class set and admissibility matrix |
@@ -45,4 +44,5 @@ keywords:
 | Letting speculative prose enter technical or assurance use | speculative retelling starts to look canonical | restrict speculative retelling to clearly marked exploratory or didactic use on existing faces |
 | Collapsing MVPK face and `PublicationSurface` or `InteropSurface` discipline | explanation appears to create a new publication family | stay on existing MVPK faces and keep named `PublicationSurface` or `InteropSurface` and carrier policy explicit |
 | Derivative rendering as source replacement | a fork, adaptation, generated explanation, tutorial, or access-format conversion is treated as the original source because it is easier to read or access | keep it as a derivative rendering, publish source links for operative claims, and use `A.10` or `A.6.3.CSC` when reliance or narrowed-use discipline is live |
+| Explanation as evidence or assurance | a fluent or source-linked explanation is cited as proof, approval, gate passage, release support, work authority, or assurance | classify the rendering, keep ordinary reader help inside E.17.EFP, and open `A.10`, `B.3`, `A.21`, `A.15`, or another exact receiving source only for the operative claim being relied on |
 

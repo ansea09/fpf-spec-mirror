@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/J.4.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
-line_start: 75063
-line_end: 75204
+line_start: 75181
+line_end: 75324
 dependencies:
 keywords:
 ---
@@ -60,6 +60,8 @@ not become the applicable governing pattern body for the entry loads or relation
 referenced pattern's own `Problem frame` does not expose its use situation, the
 pattern itself remains under-authored. If a row cannot stay compact, the depth
 belongs in `I.2`.
+
+### J.4:End
 
 # **Part K  – Lexical debt**
 

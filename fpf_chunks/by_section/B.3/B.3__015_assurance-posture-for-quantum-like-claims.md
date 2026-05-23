@@ -6,12 +6,12 @@ section_id: "B.3:11a"
 section_title: "Assurance posture for quantum-like claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__015_assurance-posture-for-quantum-like-claims.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:11a — Assurance posture for quantum-like claims"
-line_start: 30942
-line_end: 30968
+line_start: 31060
+line_end: 31086
 dependencies:
   - "A.10"
   - "A.12"
@@ -65,7 +65,7 @@ Action path:
 1. Decide the claim-support requirement before building assurance machinery.
 2. If the QL note only prevents a local misreading, keep it as QL-lite with ordinary evidence.
 3. If the claim will be reused, state the exact FPF pattern, local stop condition, and evidence posture.
-4. If the claim supports release, readiness, audit, compliance, assurance, or high-impact action, build the B.3 assurance claim over named evidence carriers and scope.
+4. If the claim supports release, readiness, audit, compliance, assurance, or threshold-bearing action, build the B.3 assurance claim over named evidence carriers and scope.
 5. If the claim says QL is better, faster, more accurate, or uniquely necessary, compare rival models, baseline, mechanism, scope, and loss.
 6. State decay conditions and reopen conditions so an old QL-supported assurance claim does not silently stay current after probes, carriers, or scope change.
 

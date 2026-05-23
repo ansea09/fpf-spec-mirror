@@ -6,12 +6,12 @@ section_id: "C.22:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__005_forces.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:4 — Forces"
-line_start: 41368
-line_end: 41377
+line_start: 41486
+line_end: 41494
 dependencies:
   - "C.16"
   - "C.18"
@@ -40,5 +40,4 @@ keywords:
 | **Unknowns**                 | Many traits are **unknown** in the initial problem record → tri‑state semantics must propagate to Acceptance without silent coercions.                |
 | **CHR admissibility**             | **No mean on ordinals; no unit mixing**; polarity & scale type must be declared *before* aggregation.                             |
 | **Locality vs portability**  | Problem is **in‑room**; still must cross **via Bridges**, with **CL** and (if planes differ) **CL^plane** penalties → **R** only. |
-
 

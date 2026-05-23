@@ -6,12 +6,12 @@ section_id: "F.18:18"
 section_title: "Worked examples (compact)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__019_worked-examples-compact.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:18 — Worked examples (compact)"
-line_start: 68075
-line_end: 68140
+line_start: 68192
+line_end: 68257
 dependencies:
   - "A.19.SUPPORT-VIEW"
   - "A.6.P"

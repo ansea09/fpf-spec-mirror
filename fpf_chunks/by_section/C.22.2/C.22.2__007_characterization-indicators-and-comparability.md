@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 41997
-line_end: 42015
+line_start: 42101
+line_end: 42118
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,7 +74,6 @@ The heavy content stays with existing FPF patterns:
 - `G.0` carries comparison-frame and CG-Spec governance;
 - `G.4` carries acceptance clauses and threshold predicates;
 - `G.5` governs selected-set publication when the problem enters a selected set.
-
 
 Missing characterization or parity basis is a current disposition. The record exits to characterization, parity, or search or pool work under the receiving pattern instead of pretending the problem is ready for P2W.
 

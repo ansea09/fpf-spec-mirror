@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution — Part 1: What an MHT is, when to declare it, and how it relates to Γ"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__005_solution-part-1-what-an-mht-is-when-to-declare-it-and-how-it-relates-to.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:4 — Solution — Part 1: What an MHT is, when to declare it, and how it relates to Γ"
-line_start: 29717
-line_end: 29810
+line_start: 29789
+line_end: 29882
 dependencies:
   - "A.1"
   - "A.12"

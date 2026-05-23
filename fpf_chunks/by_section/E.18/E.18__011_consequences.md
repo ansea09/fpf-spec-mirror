@@ -6,12 +6,12 @@ section_id: "E.18:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__011_consequences.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:10 — Consequences"
-line_start: 59946
-line_end: 59960
+line_start: 60060
+line_end: 60074
 dependencies:
   - "A.2.6"
   - "A.20"

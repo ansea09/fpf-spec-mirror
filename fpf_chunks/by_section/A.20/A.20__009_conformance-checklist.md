@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Conformance Checklist  ✱"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_conformance-checklist.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:7 — Conformance Checklist  ✱"
-line_start: 27295
-line_end: 27326
+line_start: 27354
+line_end: 27386
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -53,11 +53,12 @@ keywords:
 
  * CV classes present exactly as {UnitsCoherence, LawSetInvariants, Admissibility, LipschitzBounds, TypeDomainRange}; **plus** `ReinterpretationEquivalence` when the node kind is `StructuralReinterpretation`. None declare/translate planes/comparators.
  * **Open‑world species.** Any node **species** binds to one of the minimal kinds; adding a new **kind** is out of scope for A.20 and belongs in an E.TGA update.
-* Aggregated **CV.Status** computed; errors/timeouts ⇒ `CV ≠ pass`.
+* Aggregated **CV.Status** computed; errors/timeouts imply `CV.Status != pass`.
+* Any support-looking use beyond the local step names the receiving relation. `CV.Status` is not gate passage, release confidence, assurance, safety acceptance, work occurrence, or work authorization.
 
 **Gate coupling**
 
-* CC‑TGA‑07: when **CV ≠ pass**, all GateFit checks report **abstain**.
+* CC‑TGA‑07: when **`CV.Status != pass`**, all GateFit checks report **abstain**.
 * CC‑TGA‑23: SquareLaw witnesses present on crossings adjacent to CV‑checked steps.
 * Any edition citation on faces includes `Bridge+UTS` through `F.9`, `F.17`, `E.17`, and `E.18`; comparator or set-return implications use `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11` when live.
 

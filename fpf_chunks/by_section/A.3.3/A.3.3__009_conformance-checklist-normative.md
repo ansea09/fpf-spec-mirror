@@ -6,7 +6,7 @@ section_id: "A.3.3:8"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__009_conformance-checklist-normative.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:8 — Conformance Checklist (normative)"

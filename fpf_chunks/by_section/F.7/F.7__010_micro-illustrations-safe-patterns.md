@@ -6,12 +6,12 @@ section_id: "F.7:9"
 section_title: "Micro‑illustrations (safe patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__010_micro-illustrations-safe-patterns.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:9 — Micro‑illustrations (safe patterns)"
-line_start: 63456
-line_end: 63478
+line_start: 63573
+line_end: 63595
 dependencies:
   - "A.6.9"
   - "E.10.D1"

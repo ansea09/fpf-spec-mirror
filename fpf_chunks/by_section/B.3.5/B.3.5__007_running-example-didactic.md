@@ -6,12 +6,12 @@ section_id: "B.3.5:6"
 section_title: "Running example (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__007_running-example-didactic.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:6 — Running example (didactic)"
-line_start: 31251
-line_end: 31268
+line_start: 31370
+line_end: 31387
 dependencies:
   - "B.3"
   - "C.13"

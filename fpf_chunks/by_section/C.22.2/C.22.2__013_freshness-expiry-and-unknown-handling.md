@@ -6,12 +6,12 @@ section_id: "C.22.2:12"
 section_title: "Freshness, Expiry, and Unknown Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__013_freshness-expiry-and-unknown-handling.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:12 — Freshness, Expiry, and Unknown Handling"
-line_start: 42184
-line_end: 42216
+line_start: 42312
+line_end: 42341
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,6 @@ keywords:
 
 `C.22.2` includes a section-local state and disposition vocabulary for `ProblemCard@Context`; this vocabulary is not a new FPF kind. These labels describe the card's current admissible use; they are not required states in a transition sequence, event kinds, or gate records. The local labels are:
 
-
 | State or disposition label | Required reading |
 |---|---|
 | `draftSignal` | A source signal has been captured, but the card is not yet reviewable. |
@@ -78,13 +77,11 @@ keywords:
 | `archived` | The record is retained under the relevant archive, pool, front, or selected-set pattern without being live for P2W. |
 | `abstain/no-change` | No downstream project-side move is selected because the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not worth current downstream work. |
 
-
 Freshness must name the affected locus: problem signal, context, characterization or parity basis, support or source, set-source reference, or semio relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity bases are current enough for the intended next move. For support or source, ask whether cited sources, provenance, and support references are fresh enough for the stated support posture. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention basis are still current. For semio relation, ask whether wording, diagram, functional description, TGA path, bridge, retargeting, or representation change alters the described entity, support inheritance, context grounding, viewpoint or role concern, scope cut, comparison basis, admissible next move, or relation needed for inheritance.
 
 A stale support reference does not always retire the problem; it may send the card to refresh while the problem remains reviewable. A stale problem signal may support refresh, retire, archive, abstain or no-change, or another named neighboring disposition.
 
 Freshness or expiry failure is a current disposition. A stale or unknown-bearing problem card may remain reviewable as a problem-side record, but it does not become P2W-ready unless freshness and unknown handling permit the intended downstream move. A stale problem card does not silently remain admissible for P2W.
-
 
 When freshness, expiry, or unknown handling fails, the record exits to one of these current dispositions:
 

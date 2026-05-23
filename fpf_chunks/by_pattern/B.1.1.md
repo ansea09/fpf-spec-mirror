@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.1.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
-line_start: 27973
-line_end: 28312
+line_start: 28045
+line_end: 28384
 dependencies:
   - "A.1"
   - "A.12"

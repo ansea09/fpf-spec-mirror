@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 42092
-line_end: 42118
+line_start: 42194
+line_end: 42218
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,6 @@ Goldilocks problem selection is the problem-side adaptation of the current NQD, 
 
 A Goldilocks, stepping-stone, or archive-derived problem must be represented as source context or set context, selection or retention basis, and current next move, not as problem difficulty, priority, or readiness score.
 
-
 `ProblemCard@Context` carries only the problem-side readiness fields and exits:
 
 - source set kind when archive, pool, front, shortlist, selected set, or portfolio language is live;
@@ -86,5 +85,4 @@ The local `solvability band` label means a context-bound, non-scalar reading of 
 If the band is not supported by a characteristic, Q-bundle, comparison, retention, or capability-context cue, treat Goldilocks wording as informal recognition only and send any selection, set-return, or parity claim to the receiving pattern.
 
 The current receiving family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q`. The relation to `C.22:14` is a role and timing relation inside the same family: `C.22.2` uses the family before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
-
 

@@ -6,12 +6,12 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Support"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-support.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:22 — First Practical Entry Support"
-line_start: 42422
-line_end: 42464
+line_start: 42537
+line_end: 42574
 dependencies:
   - "A.10"
   - "A.15"
@@ -90,11 +90,6 @@ Not `C.22.2` anti-cases:
 - "Which option should we choose among explicit options?" Use `C.11`, or `G.5` when set publication or selected-set semantics are live.
 - "Can the agent call the tool?" Use `C.24`, `E.16`, or `A.21`; `ProblemCard@Context` may only name the problem-side cue or exit and does not grant tool-call, autonomy, or gate authority.
 - "This is ordinary discussion with no downstream project-side move." Do not use `C.22.2`.
-
-
-
-
-
 
 First-use Thin-card test:
 

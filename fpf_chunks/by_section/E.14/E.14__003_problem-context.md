@@ -6,12 +6,12 @@ section_id: "E.14:2"
 section_title: "Problem & Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__003_problem-context.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:2 — Problem & Context"
-line_start: 54715
-line_end: 54732
+line_start: 54824
+line_end: 54841
 dependencies:
   - "B.3.5"
   - "C.13"

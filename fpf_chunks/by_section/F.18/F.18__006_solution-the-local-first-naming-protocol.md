@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution — The Local‑First Naming Protocol"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution-the-local-first-naming-protocol.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:4 — Solution — The Local‑First Naming Protocol"
-line_start: 67478
-line_end: 67661
+line_start: 67595
+line_end: 67778
 dependencies:
   - "A.19.SUPPORT-VIEW"
   - "A.6.P"

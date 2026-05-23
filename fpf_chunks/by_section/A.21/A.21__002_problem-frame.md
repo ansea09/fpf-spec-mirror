@@ -6,12 +6,12 @@ section_id: "A.21:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__002_problem-frame.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:1 — Problem frame"
-line_start: 27433
-line_end: 27475
+line_start: 27502
+line_end: 27543
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -48,11 +48,10 @@ keywords:
 
 This pattern is the governing locus for canonical gate-decision publication content for `OperationalGate(profile)`: `GateCheckRef` as the GateFit check-catalog boundary, gate aggregation, `GateDecision` terminology, `GateDecisionRationale`, `GateDecisionExplanation`, `DecisionLog` minima, profile-bound folds, and A.21 decision equivalence. A.20 governs CV class meaning; an A.21 gate-decision relation may consume referenced CV results but does not define CV class semantics. Receiving patterns govern the domain truth conditions of their checks.
 
-
 Within that boundary, A.21:
 
 * aggregates per-check outcomes into a single **published** `GateDecision` using the join lattice,
-* states the **CV⇒GF** activation boundary: GateFit checks are inactive until aggregated CV is `pass`,
+* states the **CV⇒GF** activation boundary: GateFit checks are inactive until `CV.Status=pass`,
 * defines the minimal **publication faces** and `DecisionLog` content required to make gate outcomes auditable and replayable,
 * applies **SWP at the gate**: `OperationalGate(profile)` and its `GateCheck`s are **ref-only** with respect to editions, registries, and domain publications or records; A.21 publishes **only** `GateDecision` + `DecisionLog` pins and refs, and MUST NOT declare or mutate edition families.
 This pattern is **about the semantics of what is published** (and how it composes), not about procedural execution.
@@ -70,7 +69,7 @@ This pattern is **about the semantics of what is published** (and how it compose
 * **ConstraintValidity (CV)** evaluates *internal step validity*;
 * **GateFit (GF)** is an aspect label on `GateCheckRef` for checks that evaluate *external admissibility vs `GateProfile`* (planes/crossings, freshness, evidence, roles/channels, regulator conformance, etc.). It is not a `U.Type`, node, record family, module, queue, or stage in the flow.
 
-* **Ordering & activation.** CV is evaluated before GateFit; **while `CV ≠ pass`, all GateFit checks return `abstain`.**
+* **Ordering & activation.** CV is evaluated before GateFit; **while `CV.Status != pass`, all GateFit checks return `abstain`.**
 
 #### A.21:1.4 - Failure cases (diagnostic lens)
 

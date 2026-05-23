@@ -6,12 +6,12 @@ section_id: "F.10:9"
 section_title: "Micro‑illustrations (snapshots, not procedures)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__010_micro-illustrations-snapshots-not-procedures.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:9 — Micro‑illustrations (snapshots, not procedures)"
-line_start: 64942
-line_end: 64954
+line_start: 65059
+line_end: 65071
 dependencies:
   - "B.3"
   - "D.CTX"

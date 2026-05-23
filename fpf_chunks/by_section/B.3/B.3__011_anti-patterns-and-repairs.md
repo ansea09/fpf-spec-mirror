@@ -6,12 +6,12 @@ section_id: "B.3:8"
 section_title: "Anti‑patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__011_anti-patterns-and-repairs.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:8 — Anti‑patterns and repairs"
-line_start: 30886
-line_end: 30900
+line_start: 31006
+line_end: 31019
 dependencies:
   - "A.10"
   - "A.12"
@@ -58,7 +58,6 @@ keywords:
 
 ### B.3:8 - Anti‑patterns and repairs
 
-
 | Anti‑pattern             | Symptom                                                    | Repair                                                                                                         |
 | ------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **Averaging assurance**  | Mean of `R_i` reported as system reliability               | Use `min R_i` on the cutset, then apply `Φ(CL_min)`.                                                           |
@@ -68,6 +67,6 @@ keywords:
 | **DesignRunTag chimera**   | “One score” mixing blueprint and telemetry                 | Split into `S=design` and `S=run` tuples; compare explicitly.                                                  |
 | **Agency override**      | Claiming higher assurance because a controller is “clever” | Agency may justify *how* improvements are achieved; it cannot remove WLNK or `Φ`.                              |
 | **MemberOf as stock**    | Using `MemberOf` to sum reliabilities                      | Keep `MemberOf` for collections; reliability comes from the relevant **Γ** composition (e.g., Γ\_sys cutset). |
-| **Assurance-claim laundering** | Badge, dashboard color, credential display, compliance mark, provenance label, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase is used as an assurance claim. | Keep it as orientation or source pointer unless a typed assurance claim and `A.10` evidence path support the intended assurance use. |
-
+| **False assurance support** | Badge, dashboard color, credential display, compliance mark, provenance label, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase is used as an assurance claim. | Keep it as orientation or source pointer unless a typed assurance claim and `A.10` evidence path support the intended assurance use. |
+| **Minimum reliance safety support record inflation** | Ordinary evidence, source-finding explanation, local CV, documentation, or reversible local calibration use is forced into a safety support record; or the support record is used as approval, release permission, gate passage, safety acceptance, or compliance proof. | State the trigger that makes B.3 live. If the trigger is absent, return to `A.10`, `E.17.EFP`, `A.20`, `A.21`, `E.19`, or the local relation. If the trigger is live, write only the minimum support record and contest/redress path needed for the named reliance use. |
 

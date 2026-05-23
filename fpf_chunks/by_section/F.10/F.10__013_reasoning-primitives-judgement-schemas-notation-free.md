@@ -6,12 +6,12 @@ section_id: "F.10:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 65043
-line_end: 65098
+line_start: 65160
+line_end: 65215
 dependencies:
   - "B.3"
   - "D.CTX"

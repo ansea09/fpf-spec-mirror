@@ -6,12 +6,12 @@ section_id: "E.8:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__011_bias-annotation.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:6 — Bias‑Annotation"
-line_start: 50830
-line_end: 50833
+line_start: 50939
+line_end: 50942
 dependencies:
   - "E.10"
   - "E.19"

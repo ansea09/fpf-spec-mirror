@@ -6,12 +6,12 @@ section_id: "E.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
   - "E.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 60615
-line_end: 60642
+line_start: 60730
+line_end: 60756
 dependencies:
   - "A.6.P"
   - "E.10"
@@ -21,7 +21,7 @@ dependencies:
   - "F.18"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled‑world entities (e.g"
+  - "MUST NOT modify modeled-world entities (e.g"
   - "and (if needed) reference them from CC items"
   - "inside the predicate)"
   - "where a non-deontic Invariant: predicate is required)"
@@ -32,7 +32,6 @@ keywords:
 ---
 
 ### E.19:8 - Common Anti-Patterns and How to Avoid Them
-
 
 | Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
 | ---------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -56,6 +55,6 @@ keywords:
 | **Sentence-level shorthand drift** | A few innocent-looking words (“species”, “branch”, “flow”, “input/output”) quietly carry the semantic load. | Review passes while key relations remain implicit or wrong. | Inspect load-bearing sentences one by one and replace shorthand with explicit governing-pattern relations and package relations or publication language. |
 | **Package-form, governing-pattern relation, and package-relation drift** | The text slides between `family`, `bundle`, `cluster`, `profile`, `overlay`, `suite`, `kit`, or `record` without showing that the ontology changed. | Reviews miss governing-pattern or authority-reference blur because each local sentence still sounds plausible. | Require one intended role word, check governing-pattern relation and package relation explicitly, and treat stylistic noun-swapping as a semantic defect. |
 | **Reader-role leakage** | Live sections explain why the pattern was isolated, what landing form is safest, or why merge/freeze is premature. | Review accepts a package memo disguised as a user pattern. | Move package-development reasoning to companions; rewrite live sections in terms of what the user may do, must avoid, and which exact neighboring FPF pattern or named project-side FPF kind and reference governs the release, policy, assurance, gate, action-selection, or adjudication case. |
-| **Support object by inertia** | A companion note, profile, check sheet, support row, or review harness remains attached to a pattern family after the pattern body already carries the usable guidance, but the text does not say what real breakage returns if that support object is absent. | Support material becomes permanent local folklore, hidden authority, or reader cost without a corresponding use gain. | State the support question, governing source, support-only use, real breakage if absent, and demotion or deletion condition; otherwise fold the useful example into the pattern or demote the object. |
-
+| **Support material retained by inertia** | A companion note, profile, check sheet, support row, or review harness remains attached to a pattern family after the pattern body already carries the usable guidance, but the text does not say what real breakage returns if that support material is absent. | Support material becomes permanent local folklore, hidden authority, or reader cost without a corresponding use gain. | State the support question, governing source, support-only use, real breakage if absent, and retention, accepted-basis-only, or removal condition; otherwise fold the useful example into the pattern or keep it only in the accepted basis. |
+| **Pattern-quality result as project certificate** | An `E.19` pass is cited as proof that a project release, safety claim, compliance posture, work result, publication, or gate has passed. | Collapses FPF pattern-quality review into project-world evidence or gate authority. | Keep `E.19` as pattern-quality review; open `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, or another exact receiving pattern for the project-side claim being made. |
 

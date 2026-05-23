@@ -6,12 +6,12 @@ section_id: "F.17:18"
 section_title: "90‑Second Teaching Script"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__019_90-second-teaching-script.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:18 — 90‑Second Teaching Script"
-line_start: 67425
-line_end: 67428
+line_start: 67542
+line_end: 67545
 dependencies:
   - "A.1.1"
   - "A.11"

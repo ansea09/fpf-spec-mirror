@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__005_solution.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:4 — Solution"
-line_start: 27494
-line_end: 27682
+line_start: 27562
+line_end: 27750
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -46,7 +46,7 @@ keywords:
 
 #### A.21:4.1 - Gate = microkernel of checks
 
-> **Note (guards are not GateChecks).** `USM.CompareGuard` and `USM.LaunchGuard` are **not** `GateCheckKind`s; they may emit `GuardFail` events which are **aggregated by the gate named in `GuardOwnerGateId`** under the active profile (`degrade|block`) and recorded in `DecisionLog`. Guard vocabulary is received through `A.2.6`; gate aggregation remains here.
+> **Note (guards are not GateChecks).** `USM.CompareGuard` and `USM.LaunchGuard` are **not** `GateCheckKind`s; they may emit `GuardFail` events which are aggregated by the gate referenced by the existing aggregation-assignment field `GuardOwnerGateId` under the active profile (`degrade|block`) and recorded in `DecisionLog`. Guard vocabulary is received through `A.2.6`; gate aggregation remains here.
 `OperationalGate(profile)` is treated as a microkernel: checks are **pluggable** `GateCheck`s; the gate core **aggregates** their outputs **conceptually**, without procedural semantics and without mutating the transduction graph.
 
 #### A.21:4.2 - Publication lexemes and register discipline
@@ -70,13 +70,13 @@ If a local short form `{ kind, edition, scope }` appears in prose, it is interpr
 
 #### A.21:4.3 - CV⇒GF activation predicate (counterfactual boundary)
 
-GateFit checks are *defined* as inactive unless the CV aspect is `pass`:
+GateFit checks are *defined* as inactive unless `CV.Status=pass`:
 * Let `CV.Status` be the join-aggregate of all `GateCheckRef` with `aspect=ConstraintValidity`.
 * For any `GateCheckRef` with `aspect=GateFit`:
   **If `CV.Status ≠ pass`, the GateFit check outcome is `abstain`.**
 * While `CV.Status ≠ pass` **(or the active profile suppresses narratives)**, any GateFit-oriented `GateDecisionExplanation` **does not apply**.
 
-This keeps the boundary crisp: CV explains internal validity; GF explains profile-fit **only in the counterfactual world where CV passed**.
+This keeps the boundary crisp: CV explains internal validity; GF explains profile-fit **only in the counterfactual world where `CV.Status=pass` holds**.
 
 **LaunchGate pre‑run barrier (work‑boundary special case).**
 
@@ -93,7 +93,7 @@ A.21 adopts order-independent aggregation, not a universal policy language or a 
 **Decision domain.** `GateDecision ∈ {abstain, pass, degrade, block}`.
 
 **Aggregation rule.** Aggregation over all applicable checks is the **idempotent, commutative, associative join** on
-`abstain ≤ pass ≤ degrade ≤ block`, with **neutral = `abstain`** and **absorbing = `block`**.
+`GateDecision` values `abstain <= pass <= degrade <= block`, with **neutral = `abstain`** and **absorbing = `block`**.
 
 Publications carry only:
 
@@ -138,7 +138,7 @@ A.21 binds the following *functional role* of `GateProfile`:
 **Caching constraint (publication).** A gate decision may be cached **only** per
 `{PathSliceId, GateProfile, GateChecks.editions, editions{…}}`, where `GateChecks.editions` denotes the canonicalized, order-independent listing of the **effective** `GateCheckRef{aspect,kind,edition,scope}` (including their `edition`s) for this gate instance. Cache reuse is valid only while the declared freshness/evidence window remains valid under the active profile.
 
-**Re-aggregation triggers (non-exhaustive, normative).** Re-aggregation is required if any of the following changes (slice-local; no execution procedure implied):
+**Re-aggregation triggers (non-exhaustive, normative).** Re-aggregation is required if any of the following changes (slice-local; no execution method implied):
 
 * any component of `editions{…}` changes (any `edition_key ↦ EditionId` bump),
 * any `GateCheckRef.edition` changes (including regulator X editions for `RegulatedConformance(X)`),
@@ -168,7 +168,7 @@ The gate publishes faces to record **what is declared**, not “how it executes�
 * ReferencePlane and CL: source `ReferencePlane` pins and target `ReferencePlane` pins; `CLPlane` / “CL^plane” (for non-crossings `CL^plane = none` is allowed, but pins are still explicit); any Φ penalties are published as rule refs and appear in the **R-channel only**
 * Freshness: declared `GammaTime` / “Γ_time” pin and presence/absence of `FreshnessTicket` (refs)
 * Evidence: SCR/RSCR carrier anchors (refs) + VALATA (VA/LA/TA) presence on AssuranceLane
-* Guards: `USM.CompareGuard` / `USM.LaunchGuard` applicability pins (presence-only; GuardFail uses the `A.2.6` guard vocabulary and is aggregated here by the gate named in `GuardOwnerGateId`)
+* Guards: `USM.CompareGuard` / `USM.LaunchGuard` applicability pins (presence-only; GuardFail uses the `A.2.6` guard vocabulary and is aggregated here by the gate referenced by the existing aggregation-assignment field `GuardOwnerGateId`)
 * Decision: aggregated `GateDecision` and `DecisionLogRef`
 
 **Lean face (PublishMode=Lite).** It MAY fold to `GateProfile / GateChecks / EditionPins / GateDecision + DecisionLogRef`, but:
@@ -187,7 +187,7 @@ The gate publishes faces to record **what is declared**, not “how it executes�
 
 * policy-id dependencies used by checks (as `PolicyIdRef` bundles per F.8:8.1); `Φ(CL)`, `Φ_plane`, and `Ψ(CL^k)` appear only when bridge or crossing is live, while gate-local policy ids appear only when consulted by the active profile
 
-* `GuardFail` events only when guard events exist; if present, they are received from `USM.Guards` and aggregated by the gate named in `GuardOwnerGateId` with the applied profile rule (`degrade|block`)
+* `GuardFail` events only when guard events exist; if present, they are received from `USM.Guards` and aggregated by the gate referenced by the existing aggregation-assignment field `GuardOwnerGateId` with the applied profile rule (`degrade|block`)
 
 * `EquivalenceWitness` (or `EquivalenceWitnessRef`) as an `A.21` publication item, minimally: `{ keys, E⃗, Γ_time(basis), PathSliceId?, ReturnShapeClass, ComparatorSetRef?, profile }`; use `G.6` or `G.11` where evidence-path visibility or refresh implications are live
 * the declared publish reaction for `degrade|block` only when that outcome has a declared publication consequence, including any local “degrade mode” notes when permitted by profile

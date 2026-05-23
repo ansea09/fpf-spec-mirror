@@ -6,12 +6,12 @@ section_id: "A.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__006_archetypal-grounding.md"
-commit_sha: "725f0b7b372754cda3f6f4e15184215da568fc4d"
+commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:5 — Archetypal Grounding"
-line_start: 18818
-line_end: 18827
+line_start: 18871
+line_end: 18880
 dependencies:
   - "A.11"
   - "U.Type"
