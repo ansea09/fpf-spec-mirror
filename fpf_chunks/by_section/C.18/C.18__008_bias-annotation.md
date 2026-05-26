@@ -6,12 +6,12 @@ section_id: "C.18:7"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__008_bias-annotation.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
   - "C.18:7 — Bias‑Annotation"
-line_start: 40557
-line_end: 40559
+line_start: 41300
+line_end: 41302
 dependencies:
   - "A.1"
   - "A.15"

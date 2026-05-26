@@ -6,12 +6,12 @@ section_id: "E.15:9"
 section_title: "Self‑application Work Log (how this very pattern was authored)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__010_self-application-work-log-how-this-very-pattern-was-authored.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:9 — Self‑application Work Log (how this very pattern was authored)"
-line_start: 55290
-line_end: 55303
+line_start: 58002
+line_end: 58015
 dependencies:
   - "A.10"
   - "B.3"

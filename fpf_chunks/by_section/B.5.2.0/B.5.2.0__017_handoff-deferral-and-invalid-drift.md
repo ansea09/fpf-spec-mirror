@@ -6,12 +6,12 @@ section_id: "B.5.2.0:16"
 section_title: "Handoff, deferral, and invalid drift"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__017_handoff-deferral-and-invalid-drift.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:16 — Handoff, deferral, and invalid drift"
-line_start: 32559
-line_end: 32568
+line_start: 33302
+line_end: 33311
 dependencies:
   - "A.16"
   - "A.16.0"

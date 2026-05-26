@@ -6,12 +6,12 @@ section_id: "C.29:End"
 section_title: "C.29:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__020_c-29-end.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:End — C.29:End"
-line_start: 49346
-line_end: 49349
+line_start: 50089
+line_end: 50090
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,6 +62,4 @@ keywords:
 ---
 
 ### C.29:End
-
-
 

@@ -6,12 +6,12 @@ section_id: "E.17.EFP:12a"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__014_c-29-mla-relation.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:12a — C.29 MLA relation"
-line_start: 57795
-line_end: 57798
+line_start: 60507
+line_end: 60510
 dependencies:
   - "A.10"
   - "A.15"

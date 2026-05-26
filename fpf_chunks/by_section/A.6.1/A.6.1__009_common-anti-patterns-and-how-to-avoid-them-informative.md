@@ -6,12 +6,12 @@ section_id: "A.6.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__009_common-anti-patterns-and-how-to-avoid-them-informative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:8 — Common Anti-Patterns and How to Avoid Them (informative)"
-line_start: 9265
-line_end: 9277
+line_start: 9274
+line_end: 9286
 dependencies:
   - "A.19"
   - "A.2.6"

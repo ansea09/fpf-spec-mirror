@@ -6,12 +6,12 @@ section_id: "A.19.SURF-SPACE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SURF-SPACE/A.19.SURF-SPACE__013_conformance-checklist.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.19.SURF-SPACE — Cross-Surface and Cross-Space Substrate"
   - "A.19.SURF-SPACE:7 — Conformance Checklist"
-line_start: 23424
-line_end: 23442
+line_start: 23752
+line_end: 23770
 dependencies:
   - "A.0"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "J.4:section-004"
 section_title: "Migration playbook (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__005_migration-playbook-informative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:section-004 — Migration playbook (informative)"
-line_start: 75307
-line_end: 75314
+line_start: 78981
+line_end: 78988
 dependencies:
 keywords:
 ---

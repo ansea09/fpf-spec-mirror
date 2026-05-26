@@ -6,12 +6,12 @@ section_id: "B.3.5:13"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__014_rationale-informative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:13 — Rationale (informative)"
-line_start: 31556
-line_end: 31575
+line_start: 32299
+line_end: 32318
 dependencies:
   - "B.3"
   - "C.13"

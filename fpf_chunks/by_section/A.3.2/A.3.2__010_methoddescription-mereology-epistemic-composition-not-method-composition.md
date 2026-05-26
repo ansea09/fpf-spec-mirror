@@ -6,12 +6,12 @@ section_id: "A.3.2:9"
 section_title: "MethodDescription mereology (epistemic composition; not method composition)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__010_methoddescription-mereology-epistemic-composition-not-method-composition.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:9 — MethodDescription mereology (epistemic composition; not method composition)"
-line_start: 6248
-line_end: 6264
+line_start: 6257
+line_end: 6273
 dependencies:
   - "A.1.1"
   - "A.15"

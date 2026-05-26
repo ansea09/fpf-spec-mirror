@@ -1,0 +1,49 @@
+---
+chunk_kind: "child"
+pattern_id: "C.30.TGA-FLOW-REL"
+pattern_title: "Architecture/TGA Flow-Structure Relation"
+section_id: "C.30.TGA-FLOW-REL:10"
+section_title: "Rationale"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__011_rationale.md"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+heading_path:
+  - "C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation"
+  - "C.30.TGA-FLOW-REL:10 — Rationale"
+line_start: 51574
+line_end: 51579
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
+  - "A.22"
+  - "A.6.F"
+  - "A.7"
+  - "B.3"
+  - "C.16"
+  - "C.28"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
+  - "E.10"
+  - "E.10.SEMIO"
+  - "E.17"
+  - "E.17.0"
+  - "E.18"
+  - "F.18"
+  - "G.6"
+keywords:
+  - "ArchitectureFlowStructureRelation@TGA"
+  - "FlowTransductionStructure"
+  - "TGA graph support"
+  - "architecture flow relation"
+  - "graph/path/crossing"
+---
+
+### C.30.TGA-FLOW-REL:10 - Rationale
+
+E.TGA is already the governing FPF pattern for transduction graphs, paths, crossings, flow valuations, and related pins. Architecture needs to use that work without letting it become generic architecture ontology. The smallest stable relation is therefore a C.30-side record that points to E.18 objects and states admissible and non-admissible architecture use.
+
+This pattern also protects functional architecture. A functional structure view may be supported by flow/transduction structure, but function and flow are different structure kinds. The relation is useful precisely because it preserves that difference while allowing correspondence.
+

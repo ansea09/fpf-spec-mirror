@@ -6,12 +6,12 @@ section_id: "A.6:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__007_bias-annotation.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:6 — Bias‑Annotation"
-line_start: 7220
-line_end: 7227
+line_start: 7229
+line_end: 7236
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.29:0"
 section_title: "First-use card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__002_first-use-card.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:0 — First-use card"
-line_start: 48140
-line_end: 48155
+line_start: 48883
+line_end: 48898
 dependencies:
   - "A.1.1"
   - "A.10"

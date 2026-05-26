@@ -6,12 +6,12 @@ section_id: "A.12:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__008_archetypal-grounding.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:5 — Archetypal Grounding"
-line_start: 19006
-line_end: 19018
+line_start: 19334
+line_end: 19346
 dependencies:
   - "A.3"
   - "B.2.5"

@@ -6,12 +6,12 @@ section_id: "A.3.1:3"
 section_title: "Forces (what the definition must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__004_forces-what-the-definition-must-balance.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:3 — Forces (what the definition must balance)"
-line_start: 5817
-line_end: 5827
+line_start: 5826
+line_end: 5836
 dependencies:
   - "A.1"
   - "A.1.1"

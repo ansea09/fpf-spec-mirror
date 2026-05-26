@@ -6,12 +6,12 @@ section_id: "A.6.S:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them — Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__010_common-anti-patterns-and-how-to-avoid-them-failure-modes.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:8 — Common Anti‑Patterns and How to Avoid Them — Failure Modes"
-line_start: 17257
-line_end: 17267
+line_start: 17585
+line_end: 17595
 dependencies:
   - "A.12"
   - "A.3"

@@ -6,12 +6,12 @@ section_id: "C.22.2:13"
 section_title: "SEMIO Relation and Representation Continuity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__014_semio-relation-and-representation-continuity.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:13 — SEMIO Relation and Representation Continuity"
-line_start: 42342
-line_end: 42366
+line_start: 43085
+line_end: 43109
 dependencies:
   - "A.10"
   - "A.15"

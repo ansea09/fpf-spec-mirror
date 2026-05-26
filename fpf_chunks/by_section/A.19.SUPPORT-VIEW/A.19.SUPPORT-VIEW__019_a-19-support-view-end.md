@@ -6,12 +6,12 @@ section_id: "A.19.SUPPORT-VIEW:End"
 section_title: "A.19.SUPPORT-VIEW:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SUPPORT-VIEW/A.19.SUPPORT-VIEW__019_a-19-support-view-end.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.19.SUPPORT-VIEW — Cross-Surface Support View"
   - "A.19.SUPPORT-VIEW:End — A.19.SUPPORT-VIEW:End"
-line_start: 23999
-line_end: 24002
+line_start: 24327
+line_end: 24330
 dependencies:
   - "A.0"
   - "A.19"

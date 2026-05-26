@@ -6,12 +6,12 @@ section_id: "E.10.SEMIO:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.SEMIO/E.10.SEMIO__001_intro.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline"
   - "E.10.SEMIO:intro — Intro"
-line_start: 52225
-line_end: 52230
+line_start: 54937
+line_end: 54942
 dependencies:
   - "A.10"
   - "A.15"

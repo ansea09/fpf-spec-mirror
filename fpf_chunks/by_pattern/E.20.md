@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.20.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
-line_start: 60809
-line_end: 61224
+line_start: 63522
+line_end: 63934
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -453,7 +453,4 @@ Governing-definition-directed authoring is a pragmatic compromise: it does not d
 * Any change set that introduces or revises mechanisms, suites, planned baselines, or wiring in a way that changes citeable loci.
 
 ### E.20:End
-# **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
-
-# Cluster F.I — Context of Meaning and Lexical Inputs
 

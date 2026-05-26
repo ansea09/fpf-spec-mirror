@@ -6,12 +6,12 @@ section_id: "E.10.SEMIO:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.SEMIO/E.10.SEMIO__006_problem.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline"
   - "E.10.SEMIO:2 — Problem"
-line_start: 52290
-line_end: 52299
+line_start: 55002
+line_end: 55011
 dependencies:
   - "A.10"
   - "A.15"

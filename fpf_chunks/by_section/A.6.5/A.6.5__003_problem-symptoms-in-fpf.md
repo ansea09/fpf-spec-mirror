@@ -6,12 +6,12 @@ section_id: "A.6.5:2"
 section_title: "Problem (symptoms in FPF)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__003_problem-symptoms-in-fpf.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:2 — Problem (symptoms in FPF)"
-line_start: 14305
-line_end: 14361
+line_start: 14633
+line_end: 14689
 dependencies:
   - "A.1"
   - "A.19"

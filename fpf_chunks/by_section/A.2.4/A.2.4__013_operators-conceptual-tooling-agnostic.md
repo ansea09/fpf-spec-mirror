@@ -6,12 +6,12 @@ section_id: "A.2.4:12"
 section_title: "Operators (conceptual, tooling-agnostic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__013_operators-conceptual-tooling-agnostic.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:12 — Operators (conceptual, tooling-agnostic)"
-line_start: 3284
-line_end: 3308
+line_start: 3293
+line_end: 3317
 dependencies:
   - "A.10"
   - "A.2"

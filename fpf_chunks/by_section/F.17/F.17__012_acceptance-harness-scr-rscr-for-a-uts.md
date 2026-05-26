@@ -6,12 +6,12 @@ section_id: "F.17:11"
 section_title: "Acceptance Harness (SCR/RSCR) for a UTS"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__012_acceptance-harness-scr-rscr-for-a-uts.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:11 — Acceptance Harness (SCR/RSCR) for a UTS"
-line_start: 67445
-line_end: 67468
+line_start: 71116
+line_end: 71139
 dependencies:
   - "A.1.1"
   - "A.11"

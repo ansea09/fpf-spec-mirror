@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Conformance Checklist  ✱"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_conformance-checklist.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:7 — Conformance Checklist  ✱"
-line_start: 27354
-line_end: 27386
+line_start: 27682
+line_end: 27714
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

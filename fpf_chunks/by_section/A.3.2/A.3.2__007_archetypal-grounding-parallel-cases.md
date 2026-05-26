@@ -6,12 +6,12 @@ section_id: "A.3.2:6"
 section_title: "Archetypal grounding (parallel cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__007_archetypal-grounding-parallel-cases.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:6 — Archetypal grounding (parallel cases)"
-line_start: 6172
-line_end: 6193
+line_start: 6181
+line_end: 6202
 dependencies:
   - "A.1.1"
   - "A.15"

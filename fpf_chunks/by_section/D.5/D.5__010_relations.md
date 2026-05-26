@@ -6,12 +6,12 @@ section_id: "D.5:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__010_relations.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
   - "D.5:9 — Relations"
-line_start: 49515
-line_end: 49521
+line_start: 52227
+line_end: 52233
 dependencies:
   - "B.3"
   - "B.3.3"

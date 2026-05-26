@@ -1,0 +1,66 @@
+---
+chunk_kind: "child"
+pattern_id: "A.22"
+pattern_title: "Structure and Structural Views (STRUCT-CAL)"
+section_id: "A.22:10"
+section_title: "Rationale"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.22/A.22__011_rationale.md"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+heading_path:
+  - "A.22 — Structure and Structural Views (STRUCT-CAL)"
+  - "A.22:10 — Rationale"
+line_start: 28546
+line_end: 28553
+dependencies:
+  - "A.1"
+  - "A.10"
+  - "A.14"
+  - "A.15"
+  - "A.20"
+  - "A.21"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.F"
+  - "A.6.P"
+  - "A.7"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.2.1"
+  - "C.25"
+  - "C.28"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.30.ILC"
+  - "C.30.LCA"
+  - "C.30.TGA-FLOW-REL"
+  - "E.10"
+  - "E.10.D2"
+  - "E.10.SEMIO"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.1"
+  - "E.18"
+  - "F.18"
+  - "G.5"
+  - "G.6"
+keywords:
+  - "architecture support"
+  - "preserved/lost structure"
+  - "selected structure"
+  - "source return"
+  - "structural description"
+  - "structural view"
+  - "structure"
+---
+
+### A.22:10 - Rationale
+
+FPF needs one general structure carrier because many useful project claims depend on organization before they depend on a specific architecture, mathematical, measurement, or publication pattern. The carrier has to be intensional, dependent, and non-agentive: it can be described, supported, compared, coarsened, extracted, or used by architecture, but it does not act or certify.
+
+The selected design keeps A.22 small enough for first use. A practitioner can write one `StructureQuestionCard@Project` and stop. Heavier D/S, support, extraction, and source-return records open only when the next use would otherwise hide loss, source dependence, or neighboring-pattern claim kind.
+
+The reason to keep C.30 separate is architectural clarity. Architecture is selected structure for a described holon under context and concern; architecture descriptions are D/S publications over that claim. A.22 supplies the structure substrate, not the architecture ontology.
+

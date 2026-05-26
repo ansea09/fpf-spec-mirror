@@ -6,12 +6,12 @@ section_id: "A.19.SURF-SPACE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SURF-SPACE/A.19.SURF-SPACE__010_solution.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.19.SURF-SPACE — Cross-Surface and Cross-Space Substrate"
   - "A.19.SURF-SPACE:4 — Solution"
-line_start: 23089
-line_end: 23346
+line_start: 23417
+line_end: 23674
 dependencies:
   - "A.0"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "E.10.SEMIO:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.SEMIO/E.10.SEMIO__003_what-goes-wrong-if-missed.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline"
   - "E.10.SEMIO:0.1 — What goes wrong if missed"
-line_start: 52250
-line_end: 52255
+line_start: 54962
+line_end: 54967
 dependencies:
   - "A.10"
   - "A.15"

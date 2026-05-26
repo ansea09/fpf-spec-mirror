@@ -6,12 +6,12 @@ section_id: "A.2.2:17"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__018_relations.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:17 — Relations"
-line_start: 2522
-line_end: 2530
+line_start: 2531
+line_end: 2539
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "F.18:End"
 section_title: "F.18:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__029_f-18-end.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:End — F.18:End"
-line_start: 68381
-line_end: 68383
+line_start: 72052
+line_end: 72054
 dependencies:
   - "A.19.SUPPORT-VIEW"
   - "A.6.P"

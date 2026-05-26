@@ -1,20 +1,25 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.2.5"
-pattern_title: "Supervisor–Subholon Feedback Loop"
+pattern_title: "Supervisor-Subholon Feedback Loop"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.5.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
-  - "B.2.5 — Supervisor–Subholon Feedback Loop"
-line_start: 30405
-line_end: 30505
+  - "B.2.5 — Supervisor-Subholon Feedback Loop"
+line_start: 31108
+line_end: 31248
 dependencies:
   - "A.1"
+  - "A.12"
+  - "A.15"
+  - "A.2"
+  - "A.3"
+  - "A.7"
   - "B.2"
-  - "U.Method"
+  - "C.30.LCA"
 keywords:
   - "control architecture"
   - "feedback loop"
@@ -23,104 +28,144 @@ keywords:
   - "supervisor"
 ---
 
-## B.2.5 — Supervisor–Subholon Feedback Loop
+## B.2.5 - Supervisor-Subholon Feedback Loop
 
-### B.2.5:1 - **Problem Frame**
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative for FPF use that claims a supervisor-subholon feedback-loop relation.
+### B.2.5:1 - Problem frame
 
-Many of the most successful and resilient holons, both natural and engineered—from scientific paradigms and bacterial cells to the internet and human sensorimotor control—share a common architectural motif: a **Layered Supervisory Architecture**. In this architecture, the complex task of managing the holon is decomposed into a stack of functional layers. Each layer operates at a different spatiotemporal scale and level of abstraction, communicating with its neighbors through well-defined interfaces.
+Use this pattern when a holon is described as being supervised, regulated, steered, corrected, constrained, or coordinated through a feedback loop between a supervisor role and one or more subordinate holons.
 
-The paper "Towards a Theory of Control Architecture" by Matni, Ames, and Doyle (2024) provides a rigorous foundation for understanding such architectures in the context of control systems. FPF generalizes these insights to all holon types. For example, a **`U.System`** like an aircraft might have a Guidance, Navigation, and Control (GNC) architecture realized by distinct `Transformer`s. Similarly, a **`U.Episteme`** like a large scientific theory has layers: foundational axioms (which act as a "decision making" layer), core theorems (a "trajectory planning" layer), and specific applications or derived lemmas (a "feedback control" layer). This layered structure is a convergent solution to the fundamental problem of managing complexity.
+The first-minute working situation is familiar: a fleet controller supervises drones, a plant supervisor changes allowed operating modes, a policy role constrains teams, or a scientific community reviews and revises a theory. The useful first move is to recover the feedback-loop relation: who or what is the supervised holon, which `Transformer` or transformer-bearing system plays the supervisor role, what signal or publication channel carries state or observations, what influence or constraint returns, and what objective or constraint the loop is trying to maintain.
 
-### B.2.5:2 - **Problem**
+What goes wrong if B.2.5 is missed: a drawn loop, layer label, publication channel, or supervisor word is read as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance.
 
-While the concept of layered supervision is intuitive, its formal modeling is fraught with conceptual traps. Without a strict, principled distinction between different types of hierarchies, as mandated by **Strict Distinction (A.7)**, models become ambiguous. The primary challenge is to untangle three distinct hierarchies for any given holon:
+What B.2.5 buys in practice: the practitioner can keep useful supervisor/subholon language while naming the acting role, medium, returned influence, and neighboring pattern that carries any proof or support claim.
+Not this pattern when the live issue is only a control-structure view, a reusable dynamics law, a rate/timing claim, a causal intervention claim, an evidence claim, an assurance claim, a gate decision, or a module-interface relation. Use `C.30.LCA` for control-structure view adequacy, `A.3.3` for dynamics, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence support, `B.3` for assurance, `A.20`/`A.21` for constraint validity or gate decisions, and module/interface patterns for interface commitments.
 
-1.  **The Structural Hierarchy (Levels):** The mereological (part-whole) decomposition of the holon's **carrier**. For a `U.System`, this is its physical composition (e.g., an engine is `ComponentOf` a car). For a `U.Episteme`, this is the structure of its `Symbol` carrier (e.g., a chapter is `ComponentOf` a book).
-2.  **The Functional/Supervisory Hierarchy (Layers):** The decomposition of the management or reasoning task. This is a hierarchy of **`Transformer`s playing roles**. A `Transformer` in a higher layer (e.g., a scientific committee) `supervises` a `Transformer` in a lower layer (e.g., a research lab) by providing it with objectives or constraints.
-3.  **The Dataflow Network:** The network of information exchange (`U.Interaction`) between these `Transformer`s in their respective roles (e.g., `funding decisions` flowing down, `research findings` flowing up).
+The governed object is one supervisor-subholon feedback-loop relation. It is not proof that the loop is stable, safe, evidence-sufficient, gate-ready, causally valid, or assured.
 
-Confusing these hierarchies leads to critical modeling errors. For example, treating a functional layer (a `U.Method` performed by a `Transformer`) as if it were a structural component (`ComponentOf` the holon it manages) is a category error that this pattern is designed to prevent.
+### B.2.5:2 - Problem
 
-### B.2.5:3 - **Archetypal Grounding**
+Layered supervision is useful across engineered, biological, organizational, and epistemic cases, but it is easy to model incorrectly. The common error is to collapse three different structures into one drawing:
 
-The universal architecture of the Supervisor-Subsystem loop is instantiated differently depending on the nature of the holon being managed. Below are two detailed archetypes that illustrate this distinction.
+1. Structural composition: part-whole or carrier composition of a holon.
+2. Supervisory relation: a `Transformer` or transformer-bearing system playing a supervisor role over one or more subordinate holons.
+3. Interaction or publication network: observation, signal, command, constraint, report, review, or publication channels through which the loop is enacted or supported.
 
-#### B.2.5:3.1 - **Archetype 1: Loop for a `U.System` (Robotic Swarm)**
+When these are confused, a functional or supervisory layer is treated as a physical part, a publication is treated as an acting agent, a diagram is treated as proof, or a controller label is treated as a gate or assurance result.
 
-Here, the loop governs the **physical behavior** of a collection of active `U.System`s.
+### B.2.5:3 - Forces
 
-*   **Meta-System:** A swarm of autonomous delivery drones.
-*   **Sub-Holons:** The individual drones (`U.System`s).
-*   **`Transformer`s:** Each drone is its own `Transformer`, executing its local flight `Method`. The Supervisor is also a `Transformer` (either a designated leader drone or a distributed consensus algorithm running on all drones).
+* Supervisory-loop language is useful and recognizable in control theory, cyber-physical systems, organizations, and science.
+* Layered-control language often uses `layer`, `level`, `stack`, and `hierarchy`; those words need declared kind recovery.
+* `U.Episteme` cases are especially fragile: an episteme can be reviewed, revised, cited, published, or used by acting systems, but the episteme itself does not sense, judge, plan, decide, or act.
+* A supervisor-subholon loop can be a relation in an architecture description, but stability, safety, assurance, evidence, gate, causal, and timing claim kinds belong to neighboring patterns.
+* The pattern needs to remain small enough to identify the loop before opening heavier control or assurance apparatus.
 
-**Instantiation of the Loop Roles and Principles:**
+### B.2.5:4 - Solution
 
-| Role/Principle | Instantiation in the Robotic Swarm |
-| :--- | :--- |
-| **Supervisor** | The **consensus algorithm** (`U.Method`) running across the swarm. Its `GenerativeModel ℳ` is a shared map of the delivery area and the real-time state of all drones. Its `Objective Ξ` is to "maximize fleet-wide delivery throughput." |
-| **Sub-Holons**| The individual drones. |
-| **Shared Medium**| A wireless mesh network (`U.Interaction` channel). |
-| **Loop in Action:** | 1. **Sense:** Each drone reports its position, battery, and status. The Supervisor aggregates this into a global state `X`. <br> 2. **Judge:** The Supervisor compares `X` to the optimal fleet configuration `Ξ` from its model. The `Error Δ` is the deviation (e.g., coverage gaps, overloaded drones). <br> 3. **Plan:** The Supervisor's influence policy `Λ` computes a new set of target waypoints and speed commands (`Influence Signal α`) for individual drones. <br> 4. **Act/Adapt:** Each drone receives its new command `α` and adapts its local flight `Method` (`πᵢ`) to move towards its new waypoint. |
-| **Stability Principles:** | **(P-C) Standardion:** The control law is designed so that the swarm exponentially converges to the target formation. <br> **(P-D) Dissipativity:** The system is dissipative; oscillations from a disturbance (like a sudden gust of wind) are actively dampened. <br> **(P-I) Information Constraint:** The loop is robust to a communication delay of `τ = 50ms`. |
+Model a supervisor-subholon feedback loop as a relation among holons, roles, transformers, media, and returned influence. A conforming loop identifies:
 
-#### B.2.5:3.2 - **Archetype 2: Loop for a `U.Episteme` (A Scientific Theory)**
+```text
+SupervisorSubholonFeedbackLoop@Context ::= {
+  supervisedHolonRefs      : FinSet(U.HolonRef),
+  supervisorRoleRef        : U.RoleRef,
+  supervisorTransformerRef : U.TransformerRef | TransformerBearingSystemRef,
+  sharedMediumRefs         : FinSet(U.InteractionRef | PublicationChannelRef),
+  observationOrReportRefs  : FinSet(ObservationRef | ReportRef | PublicationUnitRef),
+  influenceOrConstraintRefs: FinSet(InfluenceSignalRef | ConstraintRef | ObjectiveRef),
+  feedbackRelationRefs     : FinSet(QualifiedRelationRecordRef),
+  objectiveOrConstraintRef?,
+  loopClosureCondition,
+  admissibleUse,
+  nonAdmissibleUse,
+  neighboringClaimRefs?
+}
+```
 
-Here, the loop governs the **conceptual integrity and evolution** of a passive knowledge-bearing episteme (`U.Episteme`). The "actions" are not physical movements but acts of reasoning and revision performed by human `Transformer`s.
+**Loop reading.** The loop has an observation/report side and an influence/constraint side. A one-way command relation is not yet a closed supervisor-subholon feedback loop unless the return observation, report, or state relation is also declared.
 
-*   **Meta-System:** The entire body of knowledge known as "The Theory of Evolution by Natural Selection."
-*   **Sub-Holons:** Individual epistemes that are `ConstituentOf` the theory, such as the Principle of Variation, the Principle of Inheritance, and the Principle of Selection.
-*   **`Transformer`s:** The global scientific community in the relevant field.
+**Structural-composition boundary.** A supervised holon may be part of a larger holon, but supervision is not the same relation as part-whole composition. A controller, committee, method, or review practice can supervise a subholon without being a physical component of that subholon.
 
-**Instantiation of the Loop Roles and Principles:**
+**Control-structure view boundary.** When the loop appears in an architecture description as planner/controller/observer/plant/supervisor structure, use `C.30.LCA` to record the control-structure view. `B.2.5` supplies the supervisor-subholon relation; `C.30.LCA` records the broader control-structure view.
 
-| Role/Principle | Instantiation for the Scientific Theory |
-| :--- | :--- |
-| **Supervisor** | The **peer-review process and the scientific method itself** (`U.Method`), enacted by the community (`Transformer`). Its `GenerativeModel ℳ` is the core set of axioms and principles of the theory. Its `Objective Ξ` is "to provide the most parsimonious and predictively powerful explanation for the diversity of life." |
-| **Sub-Holons**| The constituent principles and supporting evidence (individual papers, datasets). |
-| **Shared Medium**| Scientific journals, conferences, and preprint archives (`U.Interaction` channels). |
-| **Loop in Action:** | 1. **Sense:** A research lab (`Transformer`) performs an experiment and publishes a new finding (`U.Observation`, e.g., evidence for horizontal gene transfer). <br> 2. **Judge:** The community (`Supervisor`) compares this new finding `X` with the current predictions of the theory `Ξ`. The `Error Δ` is the anomaly—a result that the current theory cannot easily explain. <br> 3. **Plan:** Other researchers (`Supervisor`) propose revisions to the theory (`Influence Signal α`, e.g., a new paper suggesting a modification to the "tree of life" model). <br> 4. **Act/Adapt:** Over time, if the new proposal is corroborated by further evidence, the community (`Transformer`) updates the canonical understanding of the theory. The core `U.Episteme` is refined. |
-| **Stability Principles:** | **(P-C) Standardion:** A healthy scientific paradigm is Standardive; it progressively reduces the set of unexplained anomalies. <br> **(P-D) Dissipativity:** The process is dissipative; flawed or unfalsifiable hypotheses are eventually "dampened" and discarded by the community. <br> **(P-B) Bilevel Optimization:** The global objective (explanatory power) guides the local work of individual labs. |
+**Proof boundary.** A conforming `B.2.5` loop is a relation, not proof. Stability and reusable state-evolution claims use `A.3.3`; rate and timing claims use `C.27`; causal-use claims use `C.28`; evidence claims use `A.10` or `G.6`; assurance claims use `B.3`; gate and constraint-validity claims use `A.20`/`A.21`; mathematical-lens transfer uses `C.29`.
 
-### B.2.5:4 - **Key Distinction:**
+**Episteme case boundary.** In an episteme case, the acting and revising work is performed by systems or practices bearing `Transformer` roles. The `U.Episteme` is the knowledge-bearing object being reviewed, revised, stabilized, cited, or published. It does not itself sense, judge, plan, or act.
 
-In the `U.System` example, the loop is a fast, often automated, **control system**. In the `U.Episteme` example, it is a slow, human-driven **process of collective reasoning**. However, the **architectural pattern is identical**: a supervisor monitors the state of sub-holons and issues corrective signals to maintain a global objective. This demonstrates the true universality of the LCA pattern.
+**Worked slice A - robotic swarm.** A drone fleet has individual drones, a shared communication medium, and a fleet-scope controller or distributed consensus method. `B.2.5` records each drone as supervised holon, the controller or consensus system as supervisor transformer, telemetry as observation side, and waypoint or mode commands as influence side. Claims about exponential convergence, delay tolerance, or disturbance damping use `A.3.3`, `C.27`, and evidence/assurance support as live.
 
-### B.2.5:5 - **Conformance Checklist**
+**Worked slice B - scientific theory.** A scientific theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions. `B.2.5` records the theory or its constituent epistemes as supervised objects and the community/review practice as transformer-bearing supervisor. Journals, conferences, datasets, and review records are publication or interaction channels. The theory does not perform the sensing or judging; the acting systems and practices do.
 
-*   **CC-B2.5.1 (Role Mandate):** Any model of a layered supervisory architecture **MUST** explicitly identify the holons (or `Transformer`s) playing the roles of `Supervisor` and `Sub-Holon`, as well as the `U.Interaction` channel that constitutes the `Shared Medium`.
-*   **CC-B2.5.2 (Loop Closure Mandate):** The model **MUST** demonstrate a closed feedback loop. A one-way, open-loop command structure is not a conformant Supervisor-Subsystem loop.
-*   **CC-B2.5.3 (Principle Evidence):** An assurance case for a supervisory loop **SHOULD** provide evidence, whether through formal proof, simulation, or empirical data, that it adheres to the four principles of stable control (Standardion, Dissipativity, Bilevel Optimization, Information Constraint).
-*   **CC-B2.5.4 (Levels vs. Layers Distinction):** The model **MUST** maintain the formal distinction between the structural hierarchy of `Levels` (`ComponentOf`) and the functional hierarchy of `Layers` (`controls`/`supervises`).
+**Worked slice C - product supervisor loop.** A product platform constrains component teams through published interface rules and release gates. `B.2.5` records the supervising platform policy role, component/subproduct holons, report channels, and constraint returns. Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use module/interface patterns.
 
-### B.2.5:6 - **Common Anti-Patterns and How to Avoid Them**
+### B.2.5:5 - Archetypal Grounding
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It (Conceptually) |
-| :--- | :--- | :--- |
-| **The "Ghost in the Machine"** | The model shows a collection of parts that somehow coordinate to achieve a global goal, but there is no identifiable mechanism or agent responsible for that coordination. | **CC-B2.5.1** forces the modeler to explicitly name the `Supervisor`. If no supervisor can be identified, then no supervisory loop exists, and the coordination is either an illusion or an un-modeled external factor. |
-| **The "Functional Soup"** | A diagram mixes physical components and functional layers in the same hierarchy. The "Planning Layer" is shown as a "part of" the physical system. | **CC-B2.5.4** and the strict mereology of FPF (A.14) forbid this. A functional layer is realized *by* physical components, but it is not *part of* them. This prevents category errors. |
-| **The "Perfect Communication" Fallacy** | The design of the control logic assumes that the supervisor has instant, infinite-bandwidth access to the state of all subsystems. The system fails in the real world due to network latency. | **Principle P-I (Information Constraint)** and its formal invariant **SSI-5** mandate that the stability analysis must account for the real-world constraints of the `Shared Medium`. |
+| Archetype | Without B.2.5 | With B.2.5 |
+|---|---|---|
+| System | A control diagram mixes physical parts, roles, and commands, then claims coordination is obvious. | The supervised systems, supervisor transformer, shared medium, feedback relation, and returned influence are named. |
+| Episteme | A theory or model is said to sense, judge, plan, or adapt. | Acting systems and review practices carry the transformer role; the episteme is reviewed, revised, cited, or published. |
 
-### B.2.5:7 - **Consequences**
+### B.2.5:6 - Bias-Annotation
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Provable Stability and Robustness:** The pattern provides a path to creating complex, multi-agent systems that are not just functional but are provably stable and resilient to disturbances. | **Analytical Complexity:** Proving the formal invariants (SSI-1 to SSI-5) can be a non-trivial analytical or simulation task. *Mitigation:* For less critical systems, demonstrating adherence to the manager-facing criteria may be sufficient. The full formal proof is reserved for high-assurance applications. |
-| **Composable Control:** A well-formed LCA, proven to be Standardive and dissipative, can itself be treated as a stable "sub-holon" in an enclosing supervisory loop. This enables the construction of deeply nested, yet manageable, control holarchies. | - |
-| **Clear Architectural Roles:** The pattern provides a clear language (Supervisor, Sub-Holon, Shared Medium) for describing the roles and responsibilities within a complex supervisory architecture, improving communication between teams. | - |
-| **Universal Applicability:** The pattern provides a single, unified conceptual tool for understanding control and regulation in systems as diverse as robotics, economics, and scientific communities. | - |
+* **Diagram closure bias.** A loop drawn on a diagram is read as a closed feedback loop. Repair by naming both observation/report and influence/constraint sides.
+* **Layer/level bias.** Layered diagrams hide whether the label names control role, declared system level, aggregation scope, rate band, or publication grouping. Repair by recovering the declared kind.
+* **Episteme-agent bias.** Knowledge-bearing objects are described as acting agents. Repair by naming the acting `Transformer`, publication or revision practice, and support relation.
+* **Proof-by-loop bias.** A loop relation is read as stability, safety, or assurance proof. Repair by assigning the live claim kind to the governing neighboring pattern.
 
-### B.2.5:8 - **Rationale**
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 
-This pattern distills the core insights of modern, post-2015 control theory and cybernetics into a universal, tool-agnostic architectural template. It recognizes that the classical, single-controller model is insufficient for the challenges of autonomy, collective intelligence, and large-scale socio-technical systems.
+### B.2.5:7 - Conformance Checklist
 
-By formalizing the concepts of **Levels** vs. **Layers** and providing a set of universal stability principles (Standardion, Dissipativity, etc.), FPF creates a bridge between the abstract mathematics of control theory and the practical art of systems architecture. It provides a rigorous, first-principles answer to the fundamental question: "How do you build a complex, multi-part holon that reliably works together to achieve a common goal, without falling into chaos?" The pattern's true power lies in its universality: it reveals the congruent architectural logic that underpins effective supervision, whether that supervision is realized by a silicon chip, a nervous system, or a social Standard.
+| ID | Check | Why it matters |
+|---|---|---|
+| CC-B2.5-1 | A conforming use names supervised holon refs and the supervisor role/transformer refs. | Prevents ghost coordination. |
+| CC-B2.5-2 | A conforming use names the shared medium or publication/interaction channel that carries observations, reports, signals, constraints, or influence. | Makes the loop inspectable. |
+| CC-B2.5-3 | A conforming use names both observation/report and influence/constraint sides or explicitly says the loop is not closed. | Separates closed feedback loops from one-way commands. |
+| CC-B2.5-4 | A conforming use keeps structural composition, supervisory relation, and interaction/publication network distinct. | Prevents layer/part category errors. |
+| CC-B2.5-5 | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims are assigned to their governing neighboring patterns. | Prevents loop-as-proof overread. |
+| CC-B2.5-6 | Episteme examples name the acting systems or practices that perform review, revision, publication, or use. | Prevents episteme-agent overread. |
+| CC-B2.5-7 | If a control-structure view is live, the use cites or opens `C.30.LCA`. | Keeps relation-level and view-level architecture support aligned. |
 
-### B.2.5:9 - **Relations**
+### B.2.5:8 - Common Anti-Patterns and How to Avoid Them
 
-*   **Is an elaboration of:** The "Supervisor Emergence" (S) trigger in `B.2 Meta-Holon Transition (MHT)`. This pattern describes the architecture of the supervisor that emerges during an MHT.
-*   **Builds upon:** The `U.System`, `U.Method`, `U.Role`, and `U.Interaction` concepts from the FPF Kernel and Part A.
-*   **Constrains:** The design of any `U.Method` intended to serve a supervisory function.
-*   **Enables:** The creation of deeply nested supervisory holarchies where each nested holon is itself a provably stable supervisory system.
+| Anti-pattern | Symptom | Repair |
+|---|---|---|
+| Ghost coordination | Subholons coordinate, but no supervisor role, shared medium, or feedback relation is named. | Name supervisor role, acting transformer, observation/report side, and influence/constraint side. |
+| Functional layer as component | A planning or control layer is modeled as a physical part of the controlled holon. | Separate structural composition from supervisory relation. |
+| Perfect communication | The loop assumes instant, complete, or lossless access to subholon state. | Add interaction/publication medium limits and assign timing or information claims to `C.27`, `A.3.3`, or evidence support. |
+| Episteme acts | A theory, model, paper, or dashboard senses, judges, plans, or adapts. | Name the acting system, operator, review practice, or revision practice; keep the episteme as described or revised object. |
+| Loop proves safety | The loop is treated as evidence, assurance, gate, or safety proof. | Keep the loop relation and open the governing support pattern for the live claim kind. |
+
+### B.2.5:9 - Consequences
+
+The gain is a precise loop relation that supports architecture, control, organizational, and epistemic examples without collapsing them. A practitioner can keep ordinary supervisor/subholon language while naming the acting role, medium, and returned influence.
+
+The cost is that `B.2.5` no longer lets a layered-control diagram carry proof claim kinds. That cost is intentional: the loop relation is useful because it tells the practitioner what to inspect next, not because it silently certifies stability, safety, evidence, or assurance.
+
+### B.2.5:10 - Rationale
+
+Supervisor-subholon feedback loops are a recurring architecture form. The form is most useful when it is separated from structural mereology and from proof. That separation preserves the engineering insight from layered control architecture while keeping FPF's I/D/S and role/transformer distinctions intact.
+
+The same separation also keeps the epistemic case precise. Scientific theories, documents, models, and other epistemes can participate in feedback loops as reviewed or revised objects and as publications or support objects, but acting systems and practices carry the transformer role. This lets the same pattern cover systems and epistemes without agentive overread.
+
+### B.2.5:11 - SoTA-Echoing
+
+| SoTA/practice anchor | What it supports | FPF adoption stance | Practitioner implication |
+|---|---|---|---|
+| Layered and multi-rate control architecture practice, with Matni/Ames/Doyle used here as lineage and practice support for layered multi-rate control rather than as current proof by itself. | Supervisor, plant, controller, planner, observer, feedback, and rate separation are useful relation cues for supervisor-subholon loop recovery. | Adopt and adapt: keep supervisor-subholon loop recognition, then assign stability, timing, safety, evidence, assurance, and gate claims to their governing patterns. | A loop diagram starts the relation record; dynamics, timing, and safety support still need their own pattern. |
+| Cyber-physical systems and feedback-control practice. | Shared medium limits, observation channels, actuation, delay, disturbance, and plant dynamics affect whether a loop is adequate. | Adopt: require loop closure and medium visibility; assign reusable dynamics claims to `A.3.3`. | If communication delay matters, it is not solved by the B.2.5 label. |
+| Organizational policy and review practice. | Supervisory relations can be enacted through policies, review boards, reports, and publication channels. | Adapt: model the acting systems/practices and publication/support relations explicitly. | A committee or review practice may supervise; a published note does not act by itself. |
+| FPF architecture-description discipline under `C.30` and `C.30.LCA`. | A supervisor loop can be one relation inside a control-structure view. | Reuse: `B.2.5` supplies relation recovery; `C.30.LCA` supplies view recovery. | Use the smallest pattern that carries the live claim kind, then open the neighbor when needed. |
+
+### B.2.5:12 - Relations
+
+* Builds on `B.2`, `A.1`, `A.2`, `A.3`, `A.7`, `A.12`, and `A.15`.
+* Coordinates with `C.30.LCA` for control-structure view adequacy.
+* Exits to `A.3.3` for reusable dynamics or stability claims, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence support, `B.3` for assurance, `A.20`/`A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` for mathematical-lens transfer.
+
+Does not replace: `C.30.LCA` control-structure view adequacy, `A.3.3` dynamics support, `C.27` temporal/rate adequacy, `C.28` causal-use support, `A.10`/`G.6` evidence support, `B.3` assurance, `A.20`/`A.21` gate and constraint-validity records, `A.15` work authority, module/interface patterns, or `C.29` mathematical-lens adequacy.
 
 ### B.2.5:End
-

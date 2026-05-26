@@ -6,12 +6,12 @@ section_id: "E.10.SEMIO:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.SEMIO/E.10.SEMIO__010_bias-annotation.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline"
   - "E.10.SEMIO:6 — Bias-Annotation"
-line_start: 53201
-line_end: 53209
+line_start: 55913
+line_end: 55921
 dependencies:
   - "A.10"
   - "A.15"

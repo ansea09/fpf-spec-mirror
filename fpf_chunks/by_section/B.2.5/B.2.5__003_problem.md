@@ -1,21 +1,26 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.5"
-pattern_title: "Supervisor–Subholon Feedback Loop"
+pattern_title: "Supervisor-Subholon Feedback Loop"
 section_id: "B.2.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__003_problem.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
-  - "B.2.5 — Supervisor–Subholon Feedback Loop"
+  - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:2 — Problem"
-line_start: 30413
-line_end: 30422
+line_start: 31126
+line_end: 31135
 dependencies:
   - "A.1"
+  - "A.12"
+  - "A.15"
+  - "A.2"
+  - "A.3"
+  - "A.7"
   - "B.2"
-  - "U.Method"
+  - "C.30.LCA"
 keywords:
   - "control architecture"
   - "feedback loop"
@@ -24,13 +29,13 @@ keywords:
   - "supervisor"
 ---
 
-### B.2.5:2 - **Problem**
+### B.2.5:2 - Problem
 
-While the concept of layered supervision is intuitive, its formal modeling is fraught with conceptual traps. Without a strict, principled distinction between different types of hierarchies, as mandated by **Strict Distinction (A.7)**, models become ambiguous. The primary challenge is to untangle three distinct hierarchies for any given holon:
+Layered supervision is useful across engineered, biological, organizational, and epistemic cases, but it is easy to model incorrectly. The common error is to collapse three different structures into one drawing:
 
-1.  **The Structural Hierarchy (Levels):** The mereological (part-whole) decomposition of the holon's **carrier**. For a `U.System`, this is its physical composition (e.g., an engine is `ComponentOf` a car). For a `U.Episteme`, this is the structure of its `Symbol` carrier (e.g., a chapter is `ComponentOf` a book).
-2.  **The Functional/Supervisory Hierarchy (Layers):** The decomposition of the management or reasoning task. This is a hierarchy of **`Transformer`s playing roles**. A `Transformer` in a higher layer (e.g., a scientific committee) `supervises` a `Transformer` in a lower layer (e.g., a research lab) by providing it with objectives or constraints.
-3.  **The Dataflow Network:** The network of information exchange (`U.Interaction`) between these `Transformer`s in their respective roles (e.g., `funding decisions` flowing down, `research findings` flowing up).
+1. Structural composition: part-whole or carrier composition of a holon.
+2. Supervisory relation: a `Transformer` or transformer-bearing system playing a supervisor role over one or more subordinate holons.
+3. Interaction or publication network: observation, signal, command, constraint, report, review, or publication channels through which the loop is enacted or supported.
 
-Confusing these hierarchies leads to critical modeling errors. For example, treating a functional layer (a `U.Method` performed by a `Transformer`) as if it were a structural component (`ComponentOf` the holon it manages) is a category error that this pattern is designed to prevent.
+When these are confused, a functional or supervisory layer is treated as a physical part, a publication is treated as an acting agent, a diagram is treated as proof, or a controller label is treated as a gate or assurance result.
 

@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Bias‑annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_bias-annotation-informative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:9 — Bias‑annotation  (informative)"
-line_start: 33693
-line_end: 33712
+line_start: 34436
+line_end: 34455
 dependencies:
   - "A.1"
   - "A.6.2"

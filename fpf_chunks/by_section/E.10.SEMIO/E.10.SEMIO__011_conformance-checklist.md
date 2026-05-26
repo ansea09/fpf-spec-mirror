@@ -6,12 +6,12 @@ section_id: "E.10.SEMIO:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.SEMIO/E.10.SEMIO__011_conformance-checklist.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline"
   - "E.10.SEMIO:7 — Conformance Checklist"
-line_start: 53210
-line_end: 53248
+line_start: 55922
+line_end: 55960
 dependencies:
   - "A.10"
   - "A.15"

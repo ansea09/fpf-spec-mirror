@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.5.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
-line_start: 62898
-line_end: 63205
+line_start: 66569
+line_end: 66876
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "A.6.1:11"
 section_title: "SoTA-Echoing (post-2015 practice alignment) (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__012_sota-echoing-post-2015-practice-alignment-informative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:11 — SoTA-Echoing (post-2015 practice alignment) (informative)"
-line_start: 9288
-line_end: 9333
+line_start: 9297
+line_end: 9342
 dependencies:
   - "A.19"
   - "A.2.6"

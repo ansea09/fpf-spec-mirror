@@ -6,12 +6,12 @@ section_id: "C.16:8"
 section_title: "Integration with RSG & Dynamics (Normative and Clarifying)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__009_integration-with-rsg-dynamics-normative-and-clarifying.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:8 — Integration with RSG & Dynamics (Normative and Clarifying)"
-line_start: 39558
-line_end: 39569
+line_start: 40301
+line_end: 40312
 dependencies:
   - "A.10"
   - "A.17"

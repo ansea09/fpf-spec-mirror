@@ -6,12 +6,12 @@ section_id: "F.14:5"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__006_core-idea-didactic.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:5 — Core idea (didactic)"
-line_start: 66310
-line_end: 66319
+line_start: 69981
+line_end: 69990
 dependencies:
   - "F.1"
   - "F.10"

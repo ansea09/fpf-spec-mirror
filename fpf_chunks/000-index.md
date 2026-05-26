@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `04dd733fb18b66d3a640d11758e0af22ea253fd8`
+Commit SHA: `ae1ff1c7a231a2ec78d244b40d7805a5538c6608`
 
 Chunking method: `pattern-aware`
 
-Patterns: `211`
+Patterns: `219`
 
 ## Patterns
 
@@ -44,6 +44,7 @@ Patterns: `211`
 - [A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
 - [A.6.Q — U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)](by_pattern/A.6.Q.md)
 - [A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
+- [A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)](by_pattern/A.6.F.md)
 - [A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)](by_pattern/A.6.5.md)
 - [A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)](by_pattern/A.6.6.md)
 - [A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms](by_pattern/A.6.7.md)
@@ -83,6 +84,7 @@ Patterns: `211`
 - [A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism](by_pattern/A.19.SelectorMechanism.md)
 - [A.20 — U.Flow.ConstraintValidity — Eulerian](by_pattern/A.20.md)
 - [A.21 — GateProfilization: OperationalGate(profile) (GateFit core)](by_pattern/A.21.md)
+- [A.22 — Structure and Structural Views (STRUCT-CAL)](by_pattern/A.22.md)
 - [B.1 — Universal Algebra of Aggregation (Γ)](by_pattern/B.1.md)
 - [B.1.1 — Dependency Graph & Proofs](by_pattern/B.1.1.md)
 - [B.1.2 — System‑specific Aggregation Γ\_sys](by_pattern/B.1.2.md)
@@ -94,7 +96,7 @@ Patterns: `211`
 - [B.2.2 — Meta-System Transition (MST)](by_pattern/B.2.2.md)
 - [B.2.3 — Meta-Epistemic Transition (MET)](by_pattern/B.2.3.md)
 - [B.2.4 — Meta-Functional Transition (MFT)](by_pattern/B.2.4.md)
-- [B.2.5 — Supervisor–Subholon Feedback Loop](by_pattern/B.2.5.md)
+- [B.2.5 — Supervisor-Subholon Feedback Loop](by_pattern/B.2.5.md)
 - [B.3 — Trust & Assurance Calculus (F–G–R with Congruence)](by_pattern/B.3.md)
 - [B.3.3 — Assurance Subtypes & Levels](by_pattern/B.3.3.md)
 - [B.3.4 — Evidence Decay & Epistemic Debt](by_pattern/B.3.4.md)
@@ -147,6 +149,11 @@ Patterns: `211`
 - [C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change](by_pattern/C.27.md)
 - [C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability](by_pattern/C.28.md)
 - [C.29 — Mathematical Lens Adequacy (MLA)](by_pattern/C.29.md)
+- [C.30 — Architecture Description Adequacy (ADA)](by_pattern/C.30.md)
+- [C.30.ASV — Architecture Structural View Adequacy (ASV)](by_pattern/C.30.ASV.md)
+- [C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
+- [C.30.LCA — Control Structure View Adequacy (LCA)](by_pattern/C.30.LCA.md)
+- [C.30.ILC — Cross-Scope Architecture Residual Triage](by_pattern/C.30.ILC.md)
 - [D.5 — Bias-Audit & Ethical Assurance](by_pattern/D.5.md)
 - [E.1 — Vision & Mission: “Operating System for Thought”](by_pattern/E.1.md)
 - [E.2 — The Eleven Pillars](by_pattern/E.2.md)
@@ -184,6 +191,7 @@ Patterns: `211`
 - [E.18 — Transduction Graph Architecture (E.TGA)](by_pattern/E.18.md)
 - [E.19 — Pattern Quality Gates: Review & Refresh Profiles](by_pattern/E.19.md)
 - [E.20 — Mechanism Introduction Protocol](by_pattern/E.20.md)
+- [E.21 — FPF Pattern Quality Characteristic Space](by_pattern/E.21.md)
 - [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)
 - [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)

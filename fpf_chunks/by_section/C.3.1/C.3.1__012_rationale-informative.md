@@ -6,12 +6,12 @@ section_id: "C.3.1:11"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__012_rationale-informative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:11 — Rationale (informative)"
-line_start: 36748
-line_end: 36759
+line_start: 37491
+line_end: 37502
 dependencies:
   - "A.1"
   - "A.2.6"

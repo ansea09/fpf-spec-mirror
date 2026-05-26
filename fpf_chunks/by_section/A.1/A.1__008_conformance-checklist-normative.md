@@ -6,12 +6,12 @@ section_id: "A.1:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__008_conformance-checklist-normative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:7 — Conformance Checklist (normative)"
-line_start: 1219
-line_end: 1233
+line_start: 1228
+line_end: 1242
 dependencies:
   - "A.1"
   - "A.1.1"

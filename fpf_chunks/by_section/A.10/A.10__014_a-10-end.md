@@ -6,12 +6,12 @@ section_id: "A.10:End"
 section_title: "A.10:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__014_a-10-end.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:End — A.10:End"
-line_start: 18822
-line_end: 18823
+line_start: 19150
+line_end: 19151
 dependencies:
   - "A.1"
   - "A.10"

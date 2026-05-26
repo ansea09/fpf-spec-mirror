@@ -71,6 +71,7 @@ Pattern and headers templates are explained in pattern E.8.
 | A.6.P | **U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind-Explicit Qualified Relation Discipline** | Stable | *Keywords:* relation precision restoration, under-specified relational language, RelationKind, QualifiedRelationRecord, coupling, probe, measurement, export, endpoint referential compression, lexical guardrails, language-state seam. *Queries:* "How do I repair an overloaded relation word without lexicon-only cleanup?", "How do I keep probe/coupling/export wording kind-explicit?", "When should quality/action/sameness/wholeness/QL wording apply another governing pattern?" | **Builds on:** A.6, A.6.B, A.6.S, A.6.0, A.6.5, E.8, E.10, F.18. **Coordinates with:** A.2.4, A.2.6, A.7, A.10, C.2.1, C.2.2a, C.3.3, C.26, E.17, F.9, F.17. **Specialised by:** A.6.Q, A.6.A, A.6.5, A.6.6, A.6.8, A.6.9, A.6.H. |
 | A.6.Q | **U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)** | Stable | *Keywords:* quality-term precision restoration, evaluative ascription, quality senses, endpoint classification, bridge reading, language-state seam. *Queries:* "How do I repair overloaded quality language in FPF?", "When does quality talk become an evaluative ascription?", "How does A.6.Q hand off to C.25 or receiving endpoint governing patterns?" | **Builds on:** A.6.P, C.25, C.2.2a, A.16, B.4.1, F.9. **Coordinates with:** A.6.A, B.5.2.0. |
 | A.6.A | **U.ActionInvitationPrecisionRestoration — Affordance / Action-Invitation Precision Restoration (ACT-INV)** | Stable | *Keywords:* affordance, action invitation, action-first language, post-threshold classification, A.15 docking, language-state seam. *Queries:* "How do I repair overloaded affordance language in FPF?", "When does action-guiding language become an action invitation?", "How does A.6.A differ from early cue routing?" | **Builds on:** A.6.P, A.15, C.2.2a, A.16, B.4.1, F.9. **Coordinates with:** A.6.Q, B.5.2.0. |
+| A.6.F | **Function and Functional Precision Restoration (RPR-FUNCTION)** | Stable | *Keywords:* function wording, functional architecture, FunctionalStructure, function-use repair, capability/effect, work/method boundary, module allocation, mathematical function. *Queries:* "When is functional architecture a structure kind rather than a separate ontology?", "How do I repair function-like wording?", "When is a function a capability, method, work, role, quality, module allocation, or mathematical mapping?" | **Builds on:** A.6.P, A.6.5, A.7, C.30, C.30.ASV, C.29. **Coordinates with:** A.15, A.6.Q, A.6.0, A.6.5, A.6.B, A.6.C, A.6.8, E.18, C.30.TGA-FLOW-REL, module/interface repair patterns. |
 | A.6.5 | **U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)** | Stable | *Keywords:* slot, argument position, value, reference, signature, substitution, pass-by-value, pass-by-reference. *Queries:* “How do I declare positions and references in relations?”, “How do we stop mixing roles, values and ids in signatures?”, “How does SlotKind/ValueKind/RefKind interact with I/D/S and Epistemes?” | **Builds on:** A.6.0 (U.Signature), A.1 (Holon), A.7 (Strict Distinction), E.8 (pattern authoring discipline), E.10 (LEX-BUNDLE; Tech/Plain registers). **Used by:** C.2.1 (U.EpistemeSlotGraph), A.6.2–A.6.4 (episteme morphisms), B.5.* (RoleEnactment), C.3.* (Kinds & KindSignature), E.17.0 (U.MultiViewDescribing), discipline-packs for methods/services. |
 | A.6.6 | **U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)** | Stable | *Keywords:* base declaration, basedness, baseRelation, SWBD, witnesses, scope, Γ_time, anchoring, rebase, retime, rescope. *Queries:* "What is U.BaseDeclarationDiscipline?", "How to model base-dependence without anchoring?", "What is a ScopedWitnessedBaseDeclaration (SWBD)?" | **Builds on:** A.6.0, A.6.5, A.2.6, A.2.4, A.7, E.8, E.10. **Coordinates with:** A.10, A.14, C.2.1, A.6.3–A.6.4, C.3.3, E.18, F.9, F.15, F.18. **Used by:** base-relative admissibility/calibration/attribution patterns; anchor* rewrites into explicit `baseRelation(dependent, base)`. |
 | A.6.7 | **`MechSuiteDescription` — Description of a set of distinct mechanisms** | Stable | *Keywords:* mechanism suite, distinct mechanisms, suite obligations, spec pins, CN-Spec, CG-Spec, P2W, planned baseline, crossing visibility. *Queries:* "What is a MechSuiteDescription?", "How to describe a bundle of distinct mechanisms without using MechFamilyDescription?", "How do suite obligations differ from gate decisions?" | **Builds on:** E.8, A.6.1, A.6.5, E.10, E.19. **Coordinates with:** E.18, A.21. **Used by:** Part G universalization; CHR mechanism stacks. |
@@ -111,6 +112,7 @@ Pattern and headers templates are explained in pattern E.8.
 | A.19.SelectorMechanism | **Unified Selection Kernel (SelectorMechanism)** | Stable | *Keywords:* selection kernel, set-returning selection, selected set, `SelectEligibility`, tri-state guard (`pass|degrade|abstain`), no hidden thresholds, no hidden scalarization, `CriteriaSlot`, `ComparisonResultSlot`, `TaskSignatureSlot`, evidence gating, `CG-Spec.MinimalEvidence`, CHR suite stage `select`, Bridge+CL/ReferencePlane transport, penalties→`R_eff` only. *Queries:* "What is SelectorMechanism in FPF?", "Why does selection return a selected set by default?", "How does SelectEligibility handle unknown or insufficient evidence?", "How does FPF prevent hidden thresholds and scalarization in selection?" | **Builds on:** A.6.1, A.6.5, A.19.CHR, A.19.CN, G.0, G.5, C.22. **Used by:** A.19.CHR, G.5, E.18 (E.TGA). **Coordinates with:** A.19.USCM, A.19.ULSAM, CPM (comparison stage). |
 | A.20 | **U.Flow.ConstraintValidity — Eulerian** | Stable | *Keywords:* flow, ConstraintValidity, Eulerian, TransductionFlow, GateFit, MVPK, SquareLaw, Sentinel, PathSlice. *Queries:* "What is ConstraintValidity in FPF?", "What is the Eulerian stance in FPF flows?", "How does E.TGA relate to flows?" | **Builds on:** E.18 (E.TGA). **Coordinates with:** A.21, E.17, F.9, F.17, A.19.SelectorMechanism, C.18, C.19, G.5, G.6, G.11. |
 | A.21 | **GateProfilization: `OperationalGate(profile)` (GateFit core)** | Stable | *Keywords:* OperationalGate, GateFit, GateProfile, GateChecks, join-semilattice, `GateDecision`, `DecisionLog`, EquivalenceWitness, LaunchGate, CV⇒GF. *Queries:* "What is GateProfilization in FPF?", "How does OperationalGate aggregate GateChecks?", "What is the CV⇒GF activation predicate?" | **Builds on:** E.18 (E.TGA), E.17 (MVPK), A.7. **Coordinates with:** A.20, A.2.6, F.9, F.17, G.6, G.11, A.19, G.0, G.5, C.18, C.19, G.9. |
+| A.22 | **Structure and Structural Views (STRUCT-CAL)** | Stable | *Keywords:* structure, structural view, selected structure, preserved/lost structure, source return, architecture support, structural description. *Queries:* "What is structure in FPF?", "How do I separate structure from a description, view, graph, decision, or mathematical lens?", "When does an extracted view need source return?" | **Builds on:** A.1, A.6.3, A.7, C.2.1, E.10.D2, E.17. **Coordinates with:** C.30, C.30.ASV, C.29, E.18, A.10, B.3, A.20, A.21. |
 
 **Part B — Trans-disciplinary Reasoning Cluster**
 
@@ -206,6 +208,11 @@ Pattern and headers templates are explained in pattern E.8.
 | C.27 | **Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change** | Stable | *Keywords:* temporal claim adequacy, temporal claim, state reading, rate reading, temporal trend, rate-change, intervention-sensitive temporal change, effort window, resistance/inertia, rhythm/cadence, throughput, recovery, braking, coasting, stabilization, dynamic benchmark. *Queries:* "When does a speed, rhythm, throughput, or recovery claim need temporal adequacy?", "How do I separate state, rate, and intervention-sensitive rate-change?", "When is faster improvement not enough for benchmark, quality, viability, or QL claims?" | **Builds on:** C.16, A.3.3, B.1.4, B.1.6. **Coordinates with:** C.18.1, C.19, C.22.1, C.24, C.25, C.26, C.26.3, G.9. |
 | C.28 | **CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability** | Stable | *Keywords:* causal-use question, causality ladder, association, intervention, counterfactual, Pearl Causal Hierarchy, Structural Causal Model, causal diagram, causal estimand, identification, counterfactual sampling realizability, causal evidence support basis, target trial, causal fairness, off-policy causal evaluation, causal-RL evaluation. *Queries:* "Can I say this caused that?", "Is this intervention claim supported?", "What evidence supports a counterfactual claim?", "When does a fairness metric need causal support?", "Is simulation enough for a counterfactual claim?", "Which pattern handles causal benchmark parity?", "When should causal language be downgraded to association, measurement, temporal, QL, or local prose?" | **Builds on:** A.10, B.3, C.11, C.19, C.24, C.26, C.27, D.5, G.5, G.9. **Coordinates with:** A.2.4, A.3.2, A.6, A.15, C.16, G.11. |
 | C.29 | **Mathematical Lens Adequacy (MLA)** | Stable | *Keywords:* mathematical lens, structure-preserving representation, lens mapping mode, preserved structure, lost structure, invariants, stop condition, scale window, coarse-graining, rival lens, `LensSupportPosture`, validation posture, learned lens, ontology smuggling. *Queries:* "When does a mathematical analogy become an admissible FPF lens?", "What structure is preserved by this lens?", "Where must this math transfer stop?", "How do I use mathematical structure without importing ontology?" | **Builds on:** A.1.1, A.6.P, A.3.3, A.19, A.10, A.15, B.3, C.16, E.17.EFP, E.17.ID.CR, A.6.3.RT, A.6.3.CSC, F.9. **Constrained by:** E.8, E.10, E.10.SEMIO, E.19. **Decision basis:** E.9 and C.29:13a. **Coordinates with:** C.11, A.15.1, A.15.4, C.18.1, C.19.1, C.26, C.27, C.28, G.5, G.9, G.2, G.10. |
+| C.30 | **Architecture Description Adequacy (ADA)** | Stable | *Keywords:* architecture description, ArchitectureOf@Context, architecture claim, selected structure, architecture question card, artifact-as-architecture guard. *Queries:* "When is something an architecture description rather than the architecture?", "How do I recover a grounded architecture claim?", "What does a diagram, ADR, graph, or model actually carry?" | **Builds on:** A.22, C.2.1, A.6.3, A.7, E.17.0, E.17, E.10.D2, F.18. **Coordinates with:** C.30.ASV, A.6.F, C.30.TGA-FLOW-REL, C.30.LCA, C.30.ILC, C.29, C.16, C.25, C.28, A.10, B.3, A.20, A.21, A.15, C.11. |
+| C.30.ASV | **Architecture Structural View Adequacy (ASV)** | Stable | *Keywords:* architecture structural view, ArchitectureStructureKindRef, VF.ARCH.STRUCTURE, viewpoint bundle, structure kind, hidden/lost structure, correspondence, source return. *Queries:* "Which structure kind does this architecture view describe?", "How do viewpoint and structure kind stay distinct?", "When does a view hide or lose structure?" | **Builds on:** C.30, A.22, A.6.3, E.17.0, E.17.1, E.17.2, E.17, E.10.D2. **Coordinates with:** A.6.F, C.30.TGA-FLOW-REL, C.30.LCA, C.30.ILC, E.18, C.29. |
+| C.30.TGA-FLOW-REL | **Architecture/TGA Flow-Structure Relation** | Stable | *Keywords:* TGA graph support, architecture flow relation, FlowTransductionStructure, graph/path/crossing, ArchitectureFlowStructureRelation@TGA. *Queries:* "When can a TGA graph support an architecture description?", "How do flow, graph, and architecture structure stay distinct?", "When is a TGA path not work, evidence, gate, or decision?" | **Builds on:** C.30, C.30.ASV, E.18, A.22. **Coordinates with:** A.6.F, C.29, C.16, C.28, A.10, B.3, A.20, A.21, A.15. |
+| C.30.LCA | **Control Structure View Adequacy (LCA)** | Stable | *Keywords:* control-structure view, layered control architecture, supervisor loop, controller/plant, rate band, control layer, proof overread. *Queries:* "When is LCA a control-structure view rather than proof?", "How do layer, level, stack, and rate labels recover exact fields?", "Where do stability, safety, evidence, and gate claims go?" | **Builds on:** C.30, C.30.ASV, B.2.5, A.22. **Coordinates with:** A.3.3, C.27, C.28, A.10, G.6, B.3, A.20, A.21, C.29. |
+| C.30.ILC | **Cross-Scope Architecture Residual Triage** | Stable | *Keywords:* cross-scope residual, interlevel conflict, frustration, declared scope, structure kind, local repair, source return. *Queries:* "What is the first architecture move when a local fix creates a residual elsewhere?", "How do level, layer, scope, scale, and frustration wording recover exact carriers?", "When should the case exit to measurement, scale, evidence, decision, or synthesis patterns?" | **Builds on:** C.30, C.30.ASV, A.22. **Coordinates with:** C.16, C.29, G.5, C.11, C.28, A.10, B.3, G.6, D.3, D.4. |
 
 
 **Part D – Multi-scale Ethics & Conflict-Optimisation**
@@ -270,6 +277,8 @@ Pattern and headers templates are explained in pattern E.8.
 | E.18 | **Transduction Graph Architecture (E.TGA)** | Stable | *Keywords:* transduction graph, **nodes=morphisms**, **edge=U.Transfer** (single-edge kind), **OperationalGate(profile)**, **CV⇒GF** (ConstraintValidity → GateFit), **MVPK** faces, **SquareLaw**, **UNM declaration locus**, **CSLC normalize-then-compare**, **Set-return selection**, **PathSlice/Sentinel refresh**, **DesignRunTag**. *Queries:* “What is E.TGA?”, “How do gates/bridges publish crossings?”, “How to model flows of morphisms?” | **Builds on:** E.17 (MVPK), E.8, E.10, A.7. **Coordinates with:** A.20, A.21, A.2.6, F.9, F.17, G.5, G.9, G.11, and current Part G bridge/crossing wiring when live. |
 | E.19 | **Pattern Quality Gates: Review and Refresh Profiles** | Stable | Pattern-quality review and refresh profiles; PCP-TERM, PCP-ENTRY, SoTA binding, terminology restoration, reader-role discipline, support-role parity, semantic trust, and profile-depth decisions. | `E.8`, `E.9`, `E.10`, `E.10.SEMIO`, `F.18`, `A.6.P` |
 | E.20 | **Mechanism Introduction Protocol (MIP)** | Draft | *Keywords:* mechanism introduction, authoring protocol, governing-definition assignment, MIP-run manifest, canonical card-first, no dangling `…IntensionRef`, suite boundary hygiene, P2W seam, SlotKind lexicon discipline, alias docking, typed RSCR triggers, regression envelope, PQG profiles. *Queries:* "How to introduce a new mechanism in FPF?", "How to avoid dangling IntensionRefs in suites?", "How to assign mechanism changes to their governing definitions?", "How to evolve mechanism suites without drift?" | **Builds on:** E.8, E.9, E.10, E.15, E.19. **Coordinates with:** A.6.1, A.6.7, A.15.3, F.18, E.18, G.Core, G.2, `G.x:Ext.*`. **Constrains:** Any change-set that introduces or revises mechanisms, suites, planned baselines, wiring modules, or citeable tokens. |
+| E.21 | **FPF Pattern Quality Characteristic Space** | Stable | *Keywords:* pattern quality, PatternQualityQBundle, PatternQualityCharacteristicSpace, eligibility filters, activation-normalized coordinates, Pareto/front comparison, stop condition, Goodhart/proxy substitution, coordinate evidence, first move, bounded non-use. *Queries:* "Is this FPF pattern version good enough for this use?", "How do we evaluate pattern quality without one score?", "When may pattern improvement stop?", "How do we avoid administrative proxy quality?" | **Builds on:** E.8, E.19, C.25, C.16, A.17-A.19, F.18. **Coordinates with:** A.6.Q, A.6.P, E.10.SEMIO, E.17.AUD, J.4. **Constrains:** pattern-quality reads, admission/support reads, external entry/projection summaries, and candidate pattern improvement comparisons. |
+
 
 **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 
@@ -14248,7 +14257,326 @@ This pattern is scoped to **action-invitation repair and endpoint handoff**, not
 Bridge stances, articulation-state governing patterns, authority-reference fields, and language-state facet characteristics are **referenced** by this pattern but remain governed by `F.9.1`, `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
 ### A.6.A:End
 
+## A.6.F - Function and Functional Precision Restoration (RPR-FUNCTION)
 
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+
+### A.6.F:1 - Problem frame
+
+Use this pattern when `function`, `functional`, `functionality`, `effect`, or a similar function-like phrase carries a live FPF claim beyond ordinary prose. The claim kind may be architecture, work, method, capability, role, quality, mathematical, module-allocation, interface, decision, evidence, or gate.
+
+The first useful move is small:
+
+```text
+FunctionUseRepair:
+phrase:
+liveUse:
+recoveredCarrierKind:
+recoveredCarrierRef?:
+falseCarrierKindRefs:
+nextAdmissibleMove:
+stopCondition:
+```
+Stop when the recovered carrier kind, any needed carrier ref, false carrier kinds, and the next admissible move are clear.
+
+What goes wrong if A.6.F is missed: a function becomes a root kind; functional architecture becomes a peer ontology beside architecture; a capability becomes a function; a method or work occurrence becomes a function; a mathematical function becomes design ontology; a module allocation becomes functional truth; or a quality claim hides behind "functionality".
+
+What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the exact carrier and the neighboring pattern that carries any remaining claim kind.
+
+Not this pattern when the phrase is ordinary prose and carries no live FPF claim. If the live issue is a general relation word rather than function-like wording, use A.6.P. If the live issue is evaluative language, use A.6.Q. If the live issue is architecture-description adequacy, use C.30. If the live issue is an architecture structural view, use C.30.ASV.
+
+### A.6.F:2 - Problem
+
+FPF texts repeatedly use function-like wording for different carriers:
+
+- required transformation or effect in an architecture view;
+- capability of a holon;
+- method wording;
+- work occurrence or work result;
+- role expectation or responsibility;
+- mathematical function or relation;
+- quality, fitness, or characteristic wording;
+- module allocation or interface relation;
+- functional architecture shorthand.
+
+These uses are all legitimate in ordinary engineering speech. They are not the same FPF kind. If the text does not recover the carrier, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision support.
+
+### A.6.F:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Familiar engineering speech vs kind precision | Engineers naturally say "function", "functional", and "functionality"; FPF needs the carrier and neighboring claim kind recoverable when the phrase carries a live FPF claim. |
+| Functional architecture vs peer ontology | Functional architecture is useful, but it is the `FunctionalStructure` case of `ArchitectureOf@Context`, not a separate root architecture kind. |
+| Capability/effect vs work/method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are different FPF carriers. |
+| Mathematical function vs design relation | Mathematical functions and relations can support reasoning, but C.29 governs their lens use and stop condition. |
+| Module allocation vs functional relation | Functional dependencies may be allocated to modules, but function and module/interface structure do not become one object. |
+| Small repair vs unneeded support apparatus | Most cases need carrier recovery and a stop condition, not a full architecture, evidence, quality, or decision support apparatus. |
+
+### A.6.F:4 - Solution
+
+A.6.F is an A.6.P RPR specialization for function-like wording. It does not mint `U.Function`. It assigns the live use to an existing carrier and stops there unless another claim kind remains live.
+
+#### A.6.F:4.1 - Trigger rule
+
+A.6.F applies when a sentence uses function-like wording to carry one or more live FPF claim kinds:
+
+- architecture or functional architecture;
+- capability, effect, externally promised behavior, or user-visible functionality;
+- method wording, work occurrence, or work result;
+- role expectation or responsibility;
+- mathematical function, mapping, relation, loss, objective, or value functional;
+- quality, fitness, characteristic, score, or proxy wording;
+- module allocation, interface, signature, port, API, protocol, flow, or mechanism relation;
+- evidence, assurance, gate, decision, or release support.
+
+If none of those claim kinds is live, the wording may remain ordinary Plain prose.
+
+#### A.6.F:4.2 - FunctionUseRepair
+
+`FunctionUseRepair` is a pattern-local repair note, not a project publication, not evidence, not a decision, and not `U.Function`. `FunctionalStructure` is an `ArchitectureStructureKindRef` value under C.30.ASV, not a kernel Function kind.
+
+```text
+FunctionUseRepair ::= {
+  phrase,
+  liveUse:
+    requiredTransformationOrEffect |
+    holonCapability |
+    methodOrProcedure |
+    workOccurrenceOrResult |
+    roleExpectation |
+    mathematicalFunctionOrRelation |
+    qualityOrCharacteristic |
+    moduleAllocation |
+    interfaceOrSignatureRelation |
+    functionalArchitecture |
+    evidenceAssuranceGateDecisionSupport |
+    otherDeclared,
+  recoveredCarrierKind:
+    FunctionalStructure |
+    U.Capability |
+    U.Method |
+    U.MethodDescription |
+    U.Work |
+    MathematicalFunctionUnderC29 |
+    QBundleSlot |
+    ModuleAllocationRelation |
+    InterfaceSpecification |
+    RoleExpectation |
+    EvidenceOrGateCue |
+    otherDeclared,
+  recoveredCarrierRef?,
+  falseCarrierKindRefs,
+  recordGoverningPatternRef,
+  neighboringPatternExitRefs?,
+  admissibleUse,
+  nonAdmissibleUse,
+  nextAdmissibleMove,
+  stopCondition
+}
+```
+
+The repair is complete when a practitioner can say which carrier kind the function wording uses, which carrier kinds it does not use, and what the next admissible architecture or neighboring-pattern move is. If the text still hides a function/capability/work/method/role/module/mathematical-function collapse, the repair is incomplete.
+#### A.6.F:4.3 - Repair assignments
+
+| Function wording use | First carrier | Boundary |
+| --- | --- | --- |
+| required transformation or effect | `VP.Functional`, `FunctionalStructureView@Context`, or locally declared capability/effect record | Does not imply physical module, work occurrence, or evidence. |
+| capability of a holon | `U.Capability` or the current capability-support locus | Does not imply that a method, module, or work occurrence exists. |
+| method wording | `U.Method`, `MethodDescription`, `VP.Procedural`, or A.15 design/run boundary as triggered | Does not imply execution. |
+| work occurrence or work result | `U.Work`, Work record, or P2W relation under the governing TGA work-result pattern | Does not imply reusable function ontology. |
+| responsibility or role expectation | `VP.RoleEnactor` and the relevant role/enactor relation | Does not imply the role-holder performed the work. |
+| mathematical function or relation | C.29 mathematical-lens use with domain, codomain or relation domain, preserved/lost structure, support posture, and stop condition | Does not become architecture, evidence, causal proof, assurance, or decision support by itself. |
+| quality or fitness expression | `C.25`, `C.16`, `A.6.Q`, `A.17`, `A.18`, or an admitted characteristic-support receiving pattern according to the live claim | Does not let "functionality" carry a quality claim without bearer and support. |
+| module allocation | `FunctionalStructureView@Context` plus declared correspondence, allocation, retargeting, or module/interface repair as live | Does not make function and module one object. |
+| interface or signature relation | `InterfaceSignatureBoundaryNote`, A.6.0, A.6.5, A.6.B, A.6.C, A.6.8, or the exact module/interface repair pattern when live | Does not turn a functional link, port label, API name, or signature into implemented compatibility. |
+| functional architecture | `ArchitectureOf@Context` with `structureKindRef = FunctionalStructure` and `FunctionalStructureView@Context` under C.30.ASV | Not a peer architecture ontology and not a TGA graph by itself. |
+
+#### A.6.F:4.4 - Functional architecture boundary
+
+Functional architecture is the `FunctionalStructure` case of `ArchitectureOf@Context`: the intensional organization of required transformations, capabilities, effects, functional dependencies, and constraints that a holon is to realize, before or alongside allocation to modules, roles, work, evidence, control relations, or flow/transduction descriptions.
+
+```text
+FunctionalArchitecture@Context shorthand expands to:
+  ArchitectureOf@Context(
+    describedHolonRef,
+    boundedContextRef,
+    structureKindRefs includes FunctionalStructure,
+    structureRefs includes candidate:U.Structure refs for required transformations,
+      effects, capabilities, dependencies, and constraints,
+    admissibleUse,
+    nonAdmissibleUse
+  )
+```
+
+This shorthand is admissible only when the expanded C.30/C.30.ASV reading is recoverable. A TGA graph, path slice, crossing, or flow valuation may support functional structure through `C.30.TGA-FLOW-REL`, but it is not the functional architecture itself.
+
+#### A.6.F:4.5 - Function-flow-module alignment note
+
+Use this note when functional wording touches flow or module allocation but does not yet require a full structural view or module/interface repair.
+
+```text
+FunctionFlowModuleAlignmentNote:
+required function or effect:
+flow path or dependency:
+proposed module allocation:
+role, work, or evidence consequence:
+known mismatch:
+neighboringPatternExitRefs:
+admissible use:
+non-admissible use:
+```
+
+The note is a boundary and source-finding aid. It is not the functional architecture, not a module relation, not an implemented interface, not evidence sufficiency, and not an architecture decision.
+
+#### A.6.F:4.6 - Common carrier separations
+
+| Confusion | Repair |
+| --- | --- |
+| function = module | Keep `VP.Functional` and `VP.ModuleInterface` distinct; connect them through declared correspondence, allocation, retargeting, or module/interface repair. |
+| function = capability | Capability belongs to a holon; function-like wording describes required transformation/effect or architectural relation only when that carrier is declared. |
+| function = work | Work is a dated occurrence or result; function is design-side or description-side content unless work evidence is explicitly live. |
+| function = method | Method is a reusable way of doing; function-like wording names required transformation/effect only when method carrier is not live. |
+| function = role | Role/enactor structure uses `VP.RoleEnactor` and role records; function-like responsibility wording needs role carrier recovery. |
+| mathematical function = system purpose | Use C.29 for mathematical function or relation; recover domain/codomain, preserved/lost structure, support posture, and stop condition. |
+| functional diagram = evidence | Diagram is a view or publication; evidence support goes to `A.10` or `G.6`. |
+| functionality = quality | Recover the quality bearer and support through `C.25`, `C.16`, or A.6.Q before using the wording as adequacy support. |
+
+#### A.6.F:4.7 - Composability and compositionality
+
+Composability and quality compositionality are separate claims. If the text says parts can be assembled, keep that as a structure/use claim. If it says a whole-system quality follows from parts, assign the quality-composition claim to `C.25` and C.16 support:
+
+```text
+Composability:
+  "A and B can be assembled under interface X."
+  recoveredCarrierKind: ModuleAllocationRelation | InterfaceSpecification
+Quality compositionality:
+  "The assembled whole preserves safety, latency, or reliability."
+  recoveredCarrierKind: QBundleSlot | structuralCharacteristicSupportsQBundleSlot | structuralCharacteristicCausalHypothesisForQBundleSlot | structuralCharacteristicEvidenceSupportForQBundleSlot
+Non-admissible:
+  successful assembly is not quality propagation
+```
+
+Compositional formalisms may support explicit composition structures and view/model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
+
+```text
+CompositionalityClaim@Quality ::= {
+  affectedQBundleRef,
+  partStructureRefs,
+  wholeStructureRef,
+  compositionRelation,
+  supportPosture,
+  nonAdmissibleUse
+}
+```
+
+#### A.6.F:4.8 - Worked slices
+
+**Functional architecture phrase.** A team says, "the functional architecture is the user journey." A.6.F does not let the phrase create a separate architecture kind. The repair is:
+
+```text
+FunctionUseRepair:
+phrase: "functional architecture"
+liveUse: functionalArchitecture
+recoveredCarrierKind: FunctionalStructure
+recoveredCarrierRef: ArchitectureOf@Context with structureKindRef = FunctionalStructure
+falseCarrierKindRefs: user journey publication, work log, TGA graph, module diagram
+nextAdmissibleMove: open C.30.ASV only if the selected functional structure changes action
+stopCondition: ordinary phrase remains Plain if no architecture claim is live
+```
+**Functionality as quality.** A product note says, "new functionality improves adequacy." The repair separates added capability or effect from quality support. Capability/effect wording may stay as recognition, but adequacy support goes to `C.25`, `C.16`, A.6.Q, or an admitted characteristic-support receiving pattern when the claim is live. A.6.F stops after carrier recovery when no quality-support claim remains.
+
+**Mathematical function or loss.** A model note says, "the loss function explains the system purpose." The repair keeps the mathematical function under C.29 lens discipline: domain, codomain or relation domain, preserved/lost structure, support posture, and stop condition. The loss may support a reasoning move; it does not become system purpose, evidence sufficiency, causal proof, assurance, or project decision by itself.
+
+### A.6.F:5 - Archetypal Grounding
+
+| Tell-Show-Show row | Grounding |
+| --- | --- |
+| Tell | A practitioner reads "the function", "functional architecture", or "this functionality" and needs to know whether the sentence is about capability, effect, method, work, role, module allocation, mathematical relation, quality, or architecture. A.6.F asks for the carrier before the phrase carries a live FPF claim. |
+| Show: `U.System` | A robot, software system, plant, product platform, or AI-agent system may have capabilities, required effects, control functions, module allocations, runtime flows, and user-visible functionality. Those are not one object; A.6.F assigns each live use to its carrier. |
+| Show: `U.Episteme` | A functional diagram, SysML view, architecture note, generated code architecture note, benchmark report, or mathematical model may publish or support a function-like claim. The episteme or publication does not become the function, capability, work, evidence, or architecture. |
+
+### A.6.F:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: function-like wording that carries a live FPF claim across FPF.
+
+| Bias risk | Mitigation |
+| --- | --- |
+| Function-root bias | The pattern explicitly does not mint `U.Function`; it assigns wording to existing carriers. |
+| Functional-architecture exception bias | Functional architecture is normalized as `FunctionalStructure`, not a peer ontology. |
+| Module bias | Function/module allocation uses correspondence or module/interface repair; function and module remain distinct. |
+| Mathematical bias | Mathematical function wording is assigned to C.29 when used as a lens. |
+| Check-only bias | Every conformance item carries a repair move or neighboring exit. |
+
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+
+### A.6.F:7 - Conformance Checklist
+
+
+| ID | Requirement | Failed-check repair |
+| --- | --- | --- |
+| **CC-A6F-1 Carrier-kind recovery.** | Every function-like phrase that carries a live FPF claim names the recovered carrier kind and, when the claim points to a specific object, the recovered carrier ref. | Add `FunctionUseRepair` or demote the phrase to Plain prose. |
+| **CC-A6F-2 No `U.Function`.** | The use does not mint or rely on `U.Function` as a new root kind. | Assign the use to functional view, capability, method, work, role, mathematical lens, quality/characteristic, module allocation, or neighboring pattern. |
+| **CC-A6F-3 Functional architecture expansion.** | Functional architecture expands to `ArchitectureOf@Context` with `structureKindRef = FunctionalStructure` and C.30.ASV when it carries a live architecture claim. | Add the expansion or keep the phrase as ordinary recognition wording. |
+| **CC-A6F-4 Function/capability split.** | Capability claims and function/effect claims remain distinct. | Assign capability claims to the current capability-support locus and keep function/effect wording in the functional view or effect record. |
+| **CC-A6F-5 Function/work/method split.** | Method, work occurrence, and work result claims do not hide inside function wording. | Assign the claim to `U.Method`, `MethodDescription`, `U.Work`, Work record, or A.15/P2W as live. |
+| **CC-A6F-6 Function/role split.** | Responsibility or role expectation wording uses `VP.RoleEnactor` and role/enactor relations when live. | Add the role carrier or remove the role claim from the function phrase. |
+| **CC-A6F-7 Mathematical function boundary.** | Mathematical function or relation wording used for support names C.29 lens fields and stop condition. | Add C.29 support posture, preserved/lost structure, and stop condition, or mark mathematical use as ordinary. |
+| **CC-A6F-8 Quality/functionality boundary.** | Quality, fitness, characteristic, score, or "functionality" wording recovers bearer and support. | Assign the claim to `C.25`, `C.16`, A.6.Q, `A.17`, `A.18`, or an admitted characteristic-support receiving pattern as live. |
+| **CC-A6F-9 Module/interface boundary.** | Functional relation, module allocation, interface, signature, port, API, protocol, flow, and mechanism wording remain separated. | Add `FunctionFlowModuleAlignmentNote`, `InterfaceSignatureBoundaryNote`, declared correspondence/allocation, or exact module/interface repair. |
+| **CC-A6F-10 Useful action.** | The repair leaves a surviving admissible move: assign carrier, open functional view, add alignment note, assign the live claim to C.29/C.30/C.30.ASV/A.15/C.25/C.16/A.10/B.3/A.20/A.21/C.11, or stop. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+
+### A.6.F:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| **Root function kind** | The text treats function as a new universal object. | Use `FunctionUseRepair` and assign the use to an existing carrier. |
+| **Functional architecture exception** | Functional architecture is treated as a peer architecture ontology. | Expand to `FunctionalStructure` under `ArchitectureOf@Context` and C.30.ASV. |
+| **Capability collapse** | What the holon can do is treated as a functional dependency or vice versa. | Split capability carrier from functional relation/effect carrier. |
+| **Work collapse** | Work occurrence or result is described as a function. | Assign occurrence/result claims to A.15/P2W and keep functional wording design-side unless work evidence is live. |
+| **Mathematical-function import** | A mathematical function, loss, objective, or value functional becomes design ontology. | Use C.29 and state preserved/lost structure plus stop condition. |
+| **Module allocation shortcut** | A function is considered implemented because a module is named. | Add correspondence, allocation, interface/signature boundary, or module/interface repair. |
+| **Functionality as quality proxy** | "Functionality" carries adequacy or quality support without bearer and support. | Recover bearer and support through `C.25`, `C.16`, A.6.Q, or an admitted characteristic-support receiving pattern. |
+| **Sterile carrier repair** | The wording is typed but no useful move remains. | Restore the carrier assignment, functional view, alignment note, or neighboring exit. |
+
+### A.6.F:9 - Consequences
+
+| Benefit | Cost or trade-off |
+| --- | --- |
+| Function-like prose remains usable without minting `U.Function`. | Uses that carry live FPF claims need carrier recovery. |
+| Functional architecture becomes a normal architecture-by-structure-kind case. | C.30/C.30.ASV may be needed when the phrase carries an architecture claim. |
+| Capability, method, work, role, mathematical, quality, module, and interface claims stay separable. | A single familiar word may split into several records when several claim kinds are live. |
+| C.29, C.25, C.16, A.15, C.30, and module/interface patterns receive the claims they actually govern. | A conforming use stops after carrier recovery when no further claim kind is live, instead of opening all possible neighboring patterns. |
+
+### A.6.F:10 - Rationale
+
+Function-like wording is too useful to ban and too overloaded to leave ungoverned. The smallest useful repair is not a new ontology. It is carrier assignment: say what kind of thing the phrase is about, what it is not about, and what move remains admissible.
+
+This design follows A.6.P: trigger phrase, carrier recovery, explicit relation or support fields, and lexical guardrails. It also follows C.30: functional architecture is selected structure for a described holon, not a peer of architecture and not a TGA graph by itself.
+
+The pattern keeps ordinary language alive. A phrase can remain Plain when it carries no live FPF claim. When it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind, the carrier and neighboring-pattern exit are recoverable.
+
+### A.6.F:11 - SoTA-Echoing
+
+| Practice or source line | A.6.F adoption | Action consequence | Boundary |
+| --- | --- | --- | --- |
+| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adapt view/concern discipline to functional architecture as a structure-kind view over an architecture claim. | Functional architecture expands through C.30 and C.30.ASV rather than becoming a separate ontology. | ISO terminology does not mint `U.Function` or turn diagrams into architecture. |
+| OMG SysML v2 and KerML behavior/view practice | Adapt function/behavior/model-view separation as support for functional-view recovery. | Functional views name selected functional structure and keep flow, module, and work relations separate. | SysML/KerML model elements do not override FPF carriers or import tool ontology. |
+| INCOSE systems-engineering and MBSE functional-analysis practice | Adopt the practical need to separate function, requirement, behavior, physical allocation, and verification support. | A function-like phrase can guide architecture work only after capability/effect, allocation, evidence, and verification claim kinds are separated. | Functional analysis practice is not evidence sufficiency, assurance, gate passage, or project decision by itself. |
+| ISO/IEC 25010 quality-model practice | Treat functionality/functional suitability as quality wording when it evaluates a product or service. | Assign quality-like uses to C.25/C.16/A.6.Q before they support adequacy claims. | "Functionality" is not a free adequacy score and not a functional architecture record. |
+| C.29 mathematical-lens discipline | Adopt domain/codomain or relation-domain, preserved/lost structure, support posture, and stop condition for mathematical function use. | Mathematical function wording becomes lens support only when C.29 fields are recoverable. | Mathematical functions, objectives, and value functionals do not become system purpose, evidence, causal proof, assurance, or decision support by themselves. |
+| GonzoML neural-network architecture discussions | Adapt practitioner operation language involving blocks, activations, path-selection, memory/cache, loss functions, pruning, ablation, and architecture search as recognition material. | Function-like neural-network claims require carrier recovery: mathematical function, flow relation, module/interface claim kind, capability/effect, quality characteristic, or decision/evidence exit. | Neural-network labels and benchmark results do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, or assurance by themselves. |
+
+### A.6.F:12 - Relations
+
+Builds on: `A.6.P`, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `A.6.9`, `A.7`, `E.10`, `E.10.SEMIO`, `F.18`, and `E.8`.
+
+Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `E.18`, `A.15`, `A.2`, `C.29`, `C.25`, `C.16`, `A.6.Q`, `A.17`, `A.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.11`, and the exact module/interface repair pattern when module or interface claim kind is live.
+
+Does not replace: C.30 architecture-description adequacy, C.30.ASV architecture structural-view adequacy, E.TGA graph/path/crossing discipline, C.29 mathematical-lens adequacy, C.25 Q-Bundles, C.16 characterization, A.15 work/method discipline, A.10/G.6 evidence, B.3 assurance, A.20/A.21 gate/release records, or C.11 decisions.
+
+### A.6.F:End
 ## A.6.5 -  U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)
 
 **Plain‑name.** Relation slot discipline.
@@ -27868,6 +28196,381 @@ Action result from the gate-publication and attestation practice basis: green ti
 
 # Part B – Trans‑disciplinary Reasoning Cluster
 
+## A.22 - Structure and Structural Views (STRUCT-CAL)
+
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+
+### A.22:1 - Problem frame
+
+Use this pattern when a practitioner needs to say what organization, relation class, constraint, invariant, variation class, or preserved/lost arrangement is being discussed, without turning a diagram, graph, table, document, mathematical lens, support source, decision, or architecture description into the structure itself.
+
+The first useful move is small:
+
+```text
+StructureQuestionCard@Project:
+declared support:
+bounded context:
+candidate structure:
+relation, operation, constraint, invariant, or variation class:
+what is preserved:
+what is lost, hidden, or excluded:
+support source, if a support claim is live:
+admissible use:
+non-admissible use:
+neighboringPatternExitRefs, if another claim kind is live:
+```
+
+`StructureQuestionCard@Project` is a project-side triage aid, not a new structure kind, not a D/S publication, not evidence, and not a decision.
+
+Ordinary minimum: name the bounded context, the candidate structure, one relation, constraint, invariant, or variation class that changes action, one non-admissible overread, and the neighboring pattern exit or stop. Fill preserved or lost structure, support source, and source-return fields only when extraction, coarsening, support reliance, or action reliance is live. All other fields are conditional and may be `not live`.
+
+Stop at this card when it makes the next move clear. Open the heavier records below only when publication, reuse, extraction, coarsening, comparison, evidence, assurance, C.29 lens use, architecture description, or cross-case support is live.
+
+
+What goes wrong if A.22 is missed: architecture becomes a document, a module diagram, a TGA graph, a mathematical-lens output, or a decision record; a support source becomes the structure; a view becomes the described object; a coarsened or extracted representation becomes loss-free. Those collapses damage first-principles reasoning because the practitioner cannot see what is organized, what carries the claim, what support exists, and where the use stops.
+
+What A.22 buys in practice: a practitioner can name selected structure, cite support, publish a structural view, state preserved and lost structure, return to source when the loss matters, or exit to the neighboring FPF pattern that carries evidence, assurance, gate, decision, work, release, architecture-description, or mathematical-lens claim kind.
+
+Not this pattern when the live question is architecture-description adequacy. Use `C.30`. If the live question is an architecture structural view, use `C.30.ASV`. If it is mathematical-lens adequacy, use `C.29`. If it is evidence, assurance, gate, decision, work, release, or project authority, use the exact neighboring FPF pattern and keep A.22 only to the structure carrier or structure-view portion.
+
+### A.22:2 - Problem
+
+FPF needs a carrier for structure that is useful before any one domain ontology, mathematical formalism, architecture notation, or publication form takes over. Working projects often notice that "the structure" is doing real work:
+
+- dependencies repeat across cases;
+- a method or work description hides an invariant relation;
+- a model compresses a trace by preserving one relation class and losing others;
+- a diagram shows an arrangement but is mistaken for the arrangement itself;
+- a mathematical lens exposes preserved structure but is then overread as ontology;
+- an architecture discussion needs selected structure over a holon before it can describe architecture.
+
+How can FPF let a practitioner name structure as an intensional object while preserving the distinction between:
+
+- selected structure and the support from which it was inferred or declared;
+- structure and a D/S description or view of that structure;
+- structure and a publication face, diagram, table, graph, or carrier;
+- structure and mathematical-lens support;
+- structure and evidence, assurance, gate, decision, work, or release;
+- structure in general and architecture-specific structure selected by `C.30`.
+
+### A.22:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| First-principles carrier vs ontology inflation | FPF needs a reusable carrier for relations, constraints, invariants, variation classes, and preserved/lost organization, but adding one carrier can accidentally invite many false root kinds. |
+| Useful compression vs source return | Structure makes work easier by compressing cases, but source return opens when compression, extraction, coarsening, or support reuse hides a distinction needed for action. |
+| D/S usability vs object confusion | Descriptions and views make structure inspectable, but a useful view can be mistaken for the structure itself. |
+| Mathematical support vs mathematical overread | C.29 lenses can expose structure, but lens output does not become the structure and does not license evidence, causal, assurance, or decision claims by itself. |
+| Architecture dependency vs architecture takeover | Architecture uses selected structure through `C.30`; A.22 does not import architecture as its parent or make every structure an architecture. |
+| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, and stack can remain in Plain prose, but load-bearing use needs recoverable Tech fields and neighboring-pattern exits. |
+
+### A.22:4 - Solution
+
+Select `candidate:U.Structure` as a dependent, non-agentive intensional object:
+
+> `candidate:U.Structure` is the organization of typed relations, constraints, invariants, variation classes, and admissible references to operation or dynamics descriptions over declared support, inside a bounded context and admissible-use frame.
+
+`candidate:U.Structure` is not the support itself, not a `U.Holon` by default, not Work, not Evidence, not Gate, not Decision, not Architecture, and not a mathematical lens. It does not act, optimize, prove, warrant, or decide. Claims about a structure are carried by `U.Episteme`, `U.View`, evidence, publication, decision, or neighboring support records. Descriptions and views of structure are D/S epistemes under I/D/S, not the structure itself.
+
+A.22 governs `candidate:U.Structure` as a dependent, non-agentive intensional object and the D/S descriptions and views that describe selected structure in one bounded context. It governs structure carriers, structure-claim support records, structural descriptions, structural views, extracted structural views, structural-aspect descriptions, structural-coarsening descriptions, and structure-general source-return conditions. It does not govern architecture descriptions directly; `C.30` and its subpatterns govern architecture as a use of selected structure over a described holon.
+
+#### A.22:4.1 - Structure carrier
+
+```text
+candidate:U.Structure ::= {
+  structureId,
+  declaredSupportRef:
+    U.EntityRef | U.HolonRef | U.EpistemeRef | DeclaredSubstrateRef,
+  boundedContextRef,
+  relationSignatureRefs?,
+  operationOrDynamicsDescriptionRefs?,
+  constraintRefs?,
+  invariantRefs?,
+  symmetryRefs?,
+  topologyOrGeometryRefs?,
+  stateSpaceRefs?,
+  causalOrPredictiveDescriptionRefs?,
+  informationRegularityRefs?,
+  coarseGrainingRefs?,
+  generalStructureAspectKindRefs:
+    functional | mereological | modular | flowTransduction |
+    control | workMethod | roleEnactor | evidenceAssurance |
+    semantic | informational | causalPredictive | dynamical |
+    algebraic | topological | geometric | scaleCoarseGrained |
+    otherDeclared,
+  granularityOrScaleRef?,
+  equivalenceOrIsomorphismCriterion?,
+  variationClassRefs?,
+  preservedUnder?,
+  brokenBy?,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+The field list is a recovery aid, not a demand to fill every field. The ordinary record names only the fields that carry the next admissible move. When state, dynamics, causality, measurement, bridge, evidence, assurance, gate, work, decision, or mathematical-lens claims are live, the record cites the neighboring pattern instead of absorbing that claim kind into A.22.
+
+A.22 `generalStructureAspectKindRefs` are general structure-aspect cues. C.30.ASV `ArchitectureStructureKindRef` values are architecture-local structure-kind classifiers for structures selected by `ArchitectureOf@Context`. A matching label does not imply identity. Use a declared mapping when an A.22 aspect is used as an architecture structure kind.
+
+#### A.22:4.2 - Structure claim support
+
+Use a support record when the structure claim relies on a source, observation, mathematical lens, simulation, generated representation, evidence relation, or declared source set.
+
+```text
+StructureClaimSupport@Context ::= {
+  structureRef: candidate:U.StructureRef,
+  supportSourceRef:
+    SourceEpistemeRef | SourceEpistemePublicationRef | SourceViewRef |
+    A10EvidenceSupportRef | C29LensOutputRef |
+    SimulationDescriptionRef | ModelRepresentationDescriptionRef |
+    DeclaredSourceSetRef | OtherDeclaredSupportRef,
+  supportSourceGoverningPatternRef,
+
+  supportPosture:
+    sourceDerived | observationSupported | mathematicalLensSupported |
+    simulationSupported | representationSupported | evidenceSupported |
+    reportOnly,
+  validationBoundary,
+  sourceReturnCondition?,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+`candidate:U.Structure` does not carry `descriptionOfStructure`, `representationOfStructure`, `extractedStructureClaim`, `mathematicalLensStructureClaim`, or `simulationSubstrateClaim` as internal postures. Those are support, description, lens, extraction, or simulation claims about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence relation, or lens output.
+
+#### A.22:4.3 - D/S structural descriptions and views
+
+Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, carriers, or source-pin sets. Every record whose name ends in `Description@Context` here is a specialization of existing `U.Episteme` governed by `C.2.1` and `E.10.D2`. Every record whose name ends in `View@Context` here is a specialization of existing `U.View` or `U.EpistemicViewing` governed by `A.6.3` and `E.17.0`. `DescriptionContext` is imported, not locally redefined.
+
+```text
+StructuralDescription@Context ::= {
+  descriptionId,
+  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  structureRefs: FinSet(candidate:U.StructureRef),
+  structureSupportRefs?: FinSet(StructureClaimSupportRef),
+  describingEpistemeRef,
+  admissibleUse,
+  nonAdmissibleUse
+}
+
+StructuralView@Context ::= {
+  viewId,
+  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  structureRefs: FinSet(candidate:U.StructureRef),
+  structuralAspectDescriptionRefs?,
+  selectedRelationsOrOperations,
+  hiddenOrLostStructure,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+`descriptionContext.ViewpointRef` is the viewpoint field. Do not duplicate it locally under another name unless a neighboring pattern supplies a more specific view record.
+
+#### A.22:4.4 - Extracted and transformed structural views
+
+Use extracted or transformed structure records when a corpus, trace, model, lens, simulation, generated representation, coarsening pass, or observer/budget boundary produces a view of structure that may hide distinctions.
+
+```text
+ExtractedStructuralView@Context ::= {
+  extractedViewId,
+  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  sourceCorpusOrTraceRefs,
+  structureRefs: FinSet(candidate:U.StructureRef),
+  extractionDescriptionRef,
+  preservedStructure,
+  lostStructure,
+  validationBoundary,
+  sourceReturnCondition,
+  admissibleUse,
+  nonAdmissibleUse
+}
+
+StructureExtractionDescription@Context ::= {
+  extractionDescriptionId,
+  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  sourceInputKind,
+  lensOrMethodRef,
+  budgetOrObserverBoundary?,
+  preservedStructureKinds,
+  lostStructureKinds,
+  validationBoundary,
+  sourceReturnCondition,
+  admissibleUse,
+  nonAdmissibleUse
+}
+
+StructuralAspectDescription@Context ::= {
+  aspectDescriptionId,
+  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  aspectKindRef,
+  structureRefs: FinSet(candidate:U.StructureRef),
+  structureSupportRefs?: FinSet(StructureClaimSupportRef),
+  admissibleUse,
+  nonAdmissibleUse
+}
+
+StructuralCoarseningDescription@Context ::= {
+  coarseningDescriptionId,
+  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  sourceStructureRefs: FinSet(candidate:U.StructureRef),
+  targetStructureRefs: FinSet(candidate:U.StructureRef),
+  preservedUnder,
+  brokenBy,
+  lostStructure,
+  sourceReturnCondition,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+#### A.22:4.5 - Source return
+
+`SourceReturnCondition` is present when compression, extraction, coarsening, evidence reuse, mathematical-lens use, simulation, ML evaluation, bounded exception, many-to-many allocation, or decision support hides a distinction needed for action, assurance, causal use, legal review, regulatory review, comparison, or subsequent decision reopening.
+
+Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. The condition is live only when the repaired text still relies on the source-side distinction.
+
+#### A.22:4.6 - Relation to architecture
+`StructuralAspectDescription@Context` describes one selected structural aspect under A.22. It is not an `ArchitectureStructureKindRef` by itself. `ArchitectureStructuralView@Context` is a C.30.ASV view over structures selected by `ArchitectureOf@Context` and typed by `ArchitectureStructureKindRef`.
+
+A.22 is intentionally upstream of C.30. Architecture uses structure; structure does not import architecture as a parent.
+
+`C.30` uses A.22 by selecting architecture-relevant structures for one described holon through `ArchitectureOf@Context`. `C.30.ASV` then governs architecture structural views over those selected structures. A structure can be used by architecture, but a structure is not an architecture merely because an architecture description refers to it.
+
+Architecture-related records that belong to C.30 or its subpatterns include `ArchitectureOf@Context`, `ArchitectureDescription@Context`, `ArchitectureStructuralView@Context`, `ArchitectureStructureKindRef`, `ArchitectureStructureKindTriage@Project`, `FunctionalStructureView@Context`, `ArchitectureFlowStructureRelation@TGA`, `ControlStructureView@Context`, and `CrossScopeArchitectureResidualTriage@Context`. A.22 may name them as neighboring exits. It does not define their architecture-specific conformance.
+
+#### A.22:4.7 - Boundary and repair table
+
+| Tempting collapse | A.22 repair |
+| --- | --- |
+| The support source is the structure. | Name `declaredSupportRef` and, when support is live, `StructureClaimSupport@Context`; keep structure as selected organization over support. |
+| The diagram, graph, table, dashboard, or carrier is the structure. | Treat it as publication, description, view, or support only when its relation is explicit. |
+| A TGA graph is the structure in every sense. | Use `E.18` for graph, path, crossing, and flow valuation; use A.22 only for the selected structure claim; use `C.30.TGA-FLOW-REL` when architecture-flow description is live. |
+| A mathematical lens output is the structure. | Use `C.29` for lens adequacy and cite `C29LensOutputRef` only as support. |
+| A structure proves evidence, assurance, safety, causality, or gate passage. | Assign those claims to `A.10`, `G.6`, `B.3`, `C.28`, `A.20`, or `A.21`. |
+| A structure is a decision or work record. | Use `C.11`, `A.20`, `A.21`, `A.15`, or the project-side decision pattern that governs the live claim. |
+| Architecture is a root kind beside structure. | Use `C.30`: architecture is selected structure for a described holon through `ArchitectureOf@Context`. |
+| Function, module, interface, platform, layer, or stack becomes a root kind by appearing in structure prose. | Use `A.6.F`, the exact module/interface repair pattern when that claim kind is live, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `E.18`, `C.30.ASV`, and neighboring patterns as triggered. |
+
+#### A.22:4.8 - Worked slices
+
+**Architecture kernel slice.** A team says, "the architecture is the graph." A.22 does not accept that sentence as a root-kind claim. The repair is:
+
+```text
+declaredSupportRef: TransductionGraphRef under E.18
+candidate structure: selected flow/transduction structure
+support record: StructureClaimSupport@Context(
+  supportSourceRef = SourceViewRef or E18 graph/path/crossing record,
+  supportSourceGoverningPatternRef = E.18,
+  supportPosture = sourceDerived | representationSupported,
+  validationBoundary = path/slice/crossing currentness boundary
+)
+next exit: C.30.TGA-FLOW-REL when this supports an architecture-flow description
+non-admissible use: graph as whole architecture, work, evidence, gate, or decision
+```
+
+The useful move survives: the practitioner can use the graph as flow-structure support without turning it into architecture ontology.
+
+**Extracted code structure slice.** A code-agent relation graph or probe JSON reports imports, calls, registry wiring, and data-flow links. A.22 treats it as an extracted structural view only when the source, extraction method, preserved structure, lost structure, validation boundary, and source-return condition are named. The relation graph or probe output is not the codebase architecture itself and is not proof of internal agent belief, assurance, or release readiness.
+
+```text
+ExtractedStructuralView@Context:
+  sourceCorpusOrTraceRefs: repo snapshot, probe outputs, traces
+  preservedStructure: selected typed relation families
+  lostStructure: unexplored regions, dynamic calls, hidden generated code, ambiguous relation kinds
+  validationBoundary: probe coverage and source edition
+  sourceReturnCondition: when an architecture decision, assurance use, or repair depends on a relation not observed by the extraction
+```
+
+### A.22:5 - Archetypal Grounding
+
+| Tell-Show-Show row | Grounding |
+| --- | --- |
+| Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a support source, or a decision. A.22 asks first: what organization is being selected, over what support, under what context, and with what loss? |
+| Show: `U.System` | In a plant, vehicle, software system, or neural-network model, the selected structure may be flow/transduction, control, module/interface, placement, information, scale, or declared logical structure. The structure record does not become the system and does not prove that the system is safe, maintainable, or ready. |
+| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output can describe or support selected structure. The episteme, view, or publication is not the structure itself; it carries a description, view, or support relation with validation and source-return boundaries. |
+
+### A.22:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: universal within FPF structure claims.
+
+| Bias risk | Mitigation |
+| --- | --- |
+| Architecture bias | Do not make architecture the parent of all structure. A.22 stays upstream; C.30 carries architecture-description adequacy. |
+| Mathematical-formalism bias | A mathematical lens can expose preserved/lost structure, but C.29 remains the governing pattern for lens adequacy and stop condition. |
+| Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. D/S and publication boundaries stay explicit. |
+| Review-only bias | Checks leave a repair move: name the structure, cite support, open a structural view, return to source, or exit to a neighboring pattern. |
+| Didactic-thinning risk | Semantic repair does not leave inert prose. The recognition text keeps the first useful move and the practical payoff visible before the formal records. |
+
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+
+### A.22:7 - Conformance Checklist
+
+
+| ID | Requirement | Failed-check repair |
+| --- | --- | --- |
+| **CC-A22-1 Structure carrier.** | A load-bearing structure claim names `candidate:U.Structure` or an existing exact neighboring FPF carrier; it does not mint an unapproved root kind. | Replace the broad noun with `candidate:U.Structure` or assign the claim to the exact neighboring carrier. |
+| **CC-A22-2 Non-agentive structure.** | Structure wording does not make the structure act, optimize, prove, decide, warrant, sense, plan, or adapt. | Move agency, proof, decision, or work load to the governing pattern and keep A.22 to selected organization. |
+| **CC-A22-3 Support boundary.** | When source, evidence, lens, simulation, extraction, or representation support is live, `StructureClaimSupport@Context` or an exact neighboring support record is named. | Add support posture, validation boundary, admissible use, and non-admissible use, or mark the support claim unsupported. |
+| **CC-A22-4 D/S separation.** | A structural description, structural view, extracted view, diagram, table, graph, dashboard, or publication face is not treated as the structure itself. | Downgrade the artifact to description, view, support, carrier, or publication and name the selected structure separately only if it is live. |
+| **CC-A22-5 DescriptionContext reuse.** | D/S records reuse `DescriptionContext`, `U.Episteme`, `U.View`, `A.6.3`, and `E.17` machinery; no second architecture-local description/view ontology is introduced. | Replace local description/view fields with the imported D/S fields or assign the claim to the exact existing pattern. |
+| **CC-A22-6 Source return.** | `SourceReturnCondition` is present when hidden source-side distinctions are used for action, assurance, causal use, legal or regulatory review, comparison, or decision reopening. | Add one source-return condition or narrow the record's admissible use so the hidden distinction is not relied on. |
+| **CC-A22-7 Neighboring claim kind.** | Evidence, assurance, gate, release, causal, dynamics, measurement, work, decision, publication, bridge, and mathematical-lens claims are assigned to their governing patterns. | Name the neighboring FPF locus and the live claim kind; do not add fields to A.22 to absorb it. |
+| **CC-A22-8 Architecture exit.** | Architecture claims use `C.30` and `ArchitectureOf@Context`; A.22 does not treat architecture as a root kind or define C.30-specific records. | Open C.30 or a C.30 subpattern and keep A.22 only as the selected-structure support. |
+| **CC-A22-9 Plain/Tech recovery.** | Plain structure phrases may remain, but if they carry ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility load, the relevant Tech fields and neighboring pattern exits are recoverable. | Add the missing Tech fields or demote the Plain phrase to ordinary recognition wording. |
+| **CC-A22-10 Useful action.** | The repair leaves a surviving admissible practitioner move: name the structure, cite support, open a structural view, return to source, or exit to the neighboring pattern that carries the live claim kind. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+
+### A.22:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| **Structure-as-document** | A diagram, table, dashboard, relation graph, or prose section is called the structure. | Recover publication, carrier, description, or view relation; name the structure separately only when selected organization is live. |
+| **Support-as-structure** | A source trace, benchmark, lens output, model, or simulation is treated as the structure. | Add `StructureClaimSupport@Context` and state support posture, validation boundary, and non-admissible use. |
+| **Loss-free extraction** | Extracted or coarsened structure is used without lost structure or source return. | Add `preservedStructure`, `lostStructure`, `validationBoundary`, and `sourceReturnCondition`. |
+| **Architecture root-kind rebound** | Structure work reintroduces `U.Architecture` or treats architecture as parallel to structure. | Use `ArchitectureOf@Context` and C.30; keep A.22 as the upstream structure carrier. |
+| **Lens ontology import** | A mathematical lens output becomes the target ontology. | Use C.29 for the lens, cite it as support, and state stop condition. |
+| **Sterile precision rewrite** | The text removes overread but no longer tells the practitioner what to do. | Restore the surviving action: structure card, support record, D/S view, source return, or neighboring-pattern exit. |
+
+### A.22:9 - Consequences
+
+| Benefit | Cost or trade-off |
+| --- | --- |
+| FPF gains a reusable carrier for structure without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use states context, support, preserved/lost structure, and non-admissible use when the claim is load-bearing. |
+| Structural views become usable without confusing the view, carrier, publication, support source, and described object. | Existing loose prose that says "the structure is the diagram" needs repair. |
+| C.29 mathematical lenses and E.18 TGA graphs can support structure claims without becoming structure ontology. | Neighboring-pattern exits are named when evidence, assurance, causality, gate, work, or decision claims are live. |
+| Architecture work can start from selected structure through C.30 instead of forcing architecture to be either a document or a module diagram. | Architecture-specific conformance stays outside A.22, so practitioners may need one extra C.30 application when the architecture-description claim kind is live. |
+
+### A.22:10 - Rationale
+
+FPF needs one general structure carrier because many useful project claims depend on organization before they depend on a specific architecture, mathematical, measurement, or publication pattern. The carrier has to be intensional, dependent, and non-agentive: it can be described, supported, compared, coarsened, extracted, or used by architecture, but it does not act or certify.
+
+The selected design keeps A.22 small enough for first use. A practitioner can write one `StructureQuestionCard@Project` and stop. Heavier D/S, support, extraction, and source-return records open only when the next use would otherwise hide loss, source dependence, or neighboring-pattern claim kind.
+
+The reason to keep C.30 separate is architectural clarity. Architecture is selected structure for a described holon under context and concern; architecture descriptions are D/S publications over that claim. A.22 supplies the structure substrate, not the architecture ontology.
+
+### A.22:11 - SoTA-Echoing
+
+| Practice or source line | FPF adoption | Action consequence | Boundary |
+| --- | --- | --- | --- |
+| ISO/IEC/IEEE 42010:2022 architecture-description practice | Adopt the separation of entity of interest, concern, viewpoint, view, and correspondence as pressure for D/S separation. | A.22 structural descriptions and views reuse `DescriptionContext`, viewpoint, view, and correspondence machinery rather than inventing a local display ontology. | ISO 42010 does not make every structure an architecture and does not add evidence, assurance, gate, or decision authority. |
+| OMG SysML v2 view practice | Adapt views-as-queries and model-view discipline as support for treating views as selected renderings over model content. | A structural view states selected, hidden, or lost structure when the selection changes action. | A view is not the structure and not a proof of the described system. |
+| C.29 mathematical-lens discipline | Adopt preserved/lost structure, support posture, and stop-condition discipline when a mathematical lens supports a structure claim. | Cite C.29 output as support and keep source return visible. | Lens output is not structure, evidence, assurance, causal support, or decision. |
+| arXiv:2603.00601 code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and source-return pressure for extracted structural views. | Use extracted structural-view records with validation boundaries, observed/inferred/unknown status where needed, and source-return conditions. | Do not mint `U.CodeSpace` and do not treat probe output, probe JSON, or benchmark output as structure adequacy, assurance, or release support. |
+| Coarsening, compression, and RG-adjacent traditions | Adopt the need to say what structure is preserved and what is lost. | Use `StructuralCoarseningDescription@Context` and `SourceReturnCondition` before relying on a coarsened structure for action. | RG, epiplexity, structural information, and equivalence support belong to C.29, C.16, or another admitted receiving pattern named for the live claim. |
+| GonzoML neural-network architecture discussions as practitioner-language intake | Adapt block replacement, dataflow change, memory/cache placement, path-selection, pruning, distillation, and architecture-search wording as general architecture-operation recognition material. | When such wording is used, recover changed structure kind, support source, preserved and lost structure, and neighboring exits. | Neural-network labels, benchmark results, ablations, or pruning masks do not become architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
+
+### A.22:12 - Relations
+
+Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `E.10.SEMIO`, `E.17.0`, `E.17.1`, and `F.18`.
+
+Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and named receiving patterns for structure-information, equivalence, and synthesis claims when those claim kinds are live.
+
+Does not replace: `C.30` for architecture description, `C.29` for mathematical-lens adequacy, `C.16` for measurement and characterization, `C.28` for causal-use support, `B.3` for assurance, `A.10` and `G.6` for evidence, `A.20` and `A.21` for gates and release, `A.15` for work, `C.11` for decisions, or `E.17` for publication.
+
+### A.22:End
 ## B.1 - Universal Algebra of Aggregation (Γ)
 
 ### B.1:1 - Problem Frame
@@ -30402,107 +31105,147 @@ By defining the transition in terms of the observable B-O-S-C triggers and tying
 
 ### B.2.4:End
 
-## B.2.5 — Supervisor–Subholon Feedback Loop
+## B.2.5 - Supervisor-Subholon Feedback Loop
 
-### B.2.5:1 - **Problem Frame**
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative for FPF use that claims a supervisor-subholon feedback-loop relation.
+### B.2.5:1 - Problem frame
 
-Many of the most successful and resilient holons, both natural and engineered—from scientific paradigms and bacterial cells to the internet and human sensorimotor control—share a common architectural motif: a **Layered Supervisory Architecture**. In this architecture, the complex task of managing the holon is decomposed into a stack of functional layers. Each layer operates at a different spatiotemporal scale and level of abstraction, communicating with its neighbors through well-defined interfaces.
+Use this pattern when a holon is described as being supervised, regulated, steered, corrected, constrained, or coordinated through a feedback loop between a supervisor role and one or more subordinate holons.
 
-The paper "Towards a Theory of Control Architecture" by Matni, Ames, and Doyle (2024) provides a rigorous foundation for understanding such architectures in the context of control systems. FPF generalizes these insights to all holon types. For example, a **`U.System`** like an aircraft might have a Guidance, Navigation, and Control (GNC) architecture realized by distinct `Transformer`s. Similarly, a **`U.Episteme`** like a large scientific theory has layers: foundational axioms (which act as a "decision making" layer), core theorems (a "trajectory planning" layer), and specific applications or derived lemmas (a "feedback control" layer). This layered structure is a convergent solution to the fundamental problem of managing complexity.
+The first-minute working situation is familiar: a fleet controller supervises drones, a plant supervisor changes allowed operating modes, a policy role constrains teams, or a scientific community reviews and revises a theory. The useful first move is to recover the feedback-loop relation: who or what is the supervised holon, which `Transformer` or transformer-bearing system plays the supervisor role, what signal or publication channel carries state or observations, what influence or constraint returns, and what objective or constraint the loop is trying to maintain.
 
-### B.2.5:2 - **Problem**
+What goes wrong if B.2.5 is missed: a drawn loop, layer label, publication channel, or supervisor word is read as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance.
 
-While the concept of layered supervision is intuitive, its formal modeling is fraught with conceptual traps. Without a strict, principled distinction between different types of hierarchies, as mandated by **Strict Distinction (A.7)**, models become ambiguous. The primary challenge is to untangle three distinct hierarchies for any given holon:
+What B.2.5 buys in practice: the practitioner can keep useful supervisor/subholon language while naming the acting role, medium, returned influence, and neighboring pattern that carries any proof or support claim.
+Not this pattern when the live issue is only a control-structure view, a reusable dynamics law, a rate/timing claim, a causal intervention claim, an evidence claim, an assurance claim, a gate decision, or a module-interface relation. Use `C.30.LCA` for control-structure view adequacy, `A.3.3` for dynamics, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence support, `B.3` for assurance, `A.20`/`A.21` for constraint validity or gate decisions, and module/interface patterns for interface commitments.
 
-1.  **The Structural Hierarchy (Levels):** The mereological (part-whole) decomposition of the holon's **carrier**. For a `U.System`, this is its physical composition (e.g., an engine is `ComponentOf` a car). For a `U.Episteme`, this is the structure of its `Symbol` carrier (e.g., a chapter is `ComponentOf` a book).
-2.  **The Functional/Supervisory Hierarchy (Layers):** The decomposition of the management or reasoning task. This is a hierarchy of **`Transformer`s playing roles**. A `Transformer` in a higher layer (e.g., a scientific committee) `supervises` a `Transformer` in a lower layer (e.g., a research lab) by providing it with objectives or constraints.
-3.  **The Dataflow Network:** The network of information exchange (`U.Interaction`) between these `Transformer`s in their respective roles (e.g., `funding decisions` flowing down, `research findings` flowing up).
+The governed object is one supervisor-subholon feedback-loop relation. It is not proof that the loop is stable, safe, evidence-sufficient, gate-ready, causally valid, or assured.
 
-Confusing these hierarchies leads to critical modeling errors. For example, treating a functional layer (a `U.Method` performed by a `Transformer`) as if it were a structural component (`ComponentOf` the holon it manages) is a category error that this pattern is designed to prevent.
+### B.2.5:2 - Problem
 
-### B.2.5:3 - **Archetypal Grounding**
+Layered supervision is useful across engineered, biological, organizational, and epistemic cases, but it is easy to model incorrectly. The common error is to collapse three different structures into one drawing:
 
-The universal architecture of the Supervisor-Subsystem loop is instantiated differently depending on the nature of the holon being managed. Below are two detailed archetypes that illustrate this distinction.
+1. Structural composition: part-whole or carrier composition of a holon.
+2. Supervisory relation: a `Transformer` or transformer-bearing system playing a supervisor role over one or more subordinate holons.
+3. Interaction or publication network: observation, signal, command, constraint, report, review, or publication channels through which the loop is enacted or supported.
 
-#### B.2.5:3.1 - **Archetype 1: Loop for a `U.System` (Robotic Swarm)**
+When these are confused, a functional or supervisory layer is treated as a physical part, a publication is treated as an acting agent, a diagram is treated as proof, or a controller label is treated as a gate or assurance result.
 
-Here, the loop governs the **physical behavior** of a collection of active `U.System`s.
+### B.2.5:3 - Forces
 
-*   **Meta-System:** A swarm of autonomous delivery drones.
-*   **Sub-Holons:** The individual drones (`U.System`s).
-*   **`Transformer`s:** Each drone is its own `Transformer`, executing its local flight `Method`. The Supervisor is also a `Transformer` (either a designated leader drone or a distributed consensus algorithm running on all drones).
+* Supervisory-loop language is useful and recognizable in control theory, cyber-physical systems, organizations, and science.
+* Layered-control language often uses `layer`, `level`, `stack`, and `hierarchy`; those words need declared kind recovery.
+* `U.Episteme` cases are especially fragile: an episteme can be reviewed, revised, cited, published, or used by acting systems, but the episteme itself does not sense, judge, plan, decide, or act.
+* A supervisor-subholon loop can be a relation in an architecture description, but stability, safety, assurance, evidence, gate, causal, and timing claim kinds belong to neighboring patterns.
+* The pattern needs to remain small enough to identify the loop before opening heavier control or assurance apparatus.
 
-**Instantiation of the Loop Roles and Principles:**
+### B.2.5:4 - Solution
 
-| Role/Principle | Instantiation in the Robotic Swarm |
-| :--- | :--- |
-| **Supervisor** | The **consensus algorithm** (`U.Method`) running across the swarm. Its `GenerativeModel ℳ` is a shared map of the delivery area and the real-time state of all drones. Its `Objective Ξ` is to "maximize fleet-wide delivery throughput." |
-| **Sub-Holons**| The individual drones. |
-| **Shared Medium**| A wireless mesh network (`U.Interaction` channel). |
-| **Loop in Action:** | 1. **Sense:** Each drone reports its position, battery, and status. The Supervisor aggregates this into a global state `X`. <br> 2. **Judge:** The Supervisor compares `X` to the optimal fleet configuration `Ξ` from its model. The `Error Δ` is the deviation (e.g., coverage gaps, overloaded drones). <br> 3. **Plan:** The Supervisor's influence policy `Λ` computes a new set of target waypoints and speed commands (`Influence Signal α`) for individual drones. <br> 4. **Act/Adapt:** Each drone receives its new command `α` and adapts its local flight `Method` (`πᵢ`) to move towards its new waypoint. |
-| **Stability Principles:** | **(P-C) Standardion:** The control law is designed so that the swarm exponentially converges to the target formation. <br> **(P-D) Dissipativity:** The system is dissipative; oscillations from a disturbance (like a sudden gust of wind) are actively dampened. <br> **(P-I) Information Constraint:** The loop is robust to a communication delay of `τ = 50ms`. |
+Model a supervisor-subholon feedback loop as a relation among holons, roles, transformers, media, and returned influence. A conforming loop identifies:
 
-#### B.2.5:3.2 - **Archetype 2: Loop for a `U.Episteme` (A Scientific Theory)**
+```text
+SupervisorSubholonFeedbackLoop@Context ::= {
+  supervisedHolonRefs      : FinSet(U.HolonRef),
+  supervisorRoleRef        : U.RoleRef,
+  supervisorTransformerRef : U.TransformerRef | TransformerBearingSystemRef,
+  sharedMediumRefs         : FinSet(U.InteractionRef | PublicationChannelRef),
+  observationOrReportRefs  : FinSet(ObservationRef | ReportRef | PublicationUnitRef),
+  influenceOrConstraintRefs: FinSet(InfluenceSignalRef | ConstraintRef | ObjectiveRef),
+  feedbackRelationRefs     : FinSet(QualifiedRelationRecordRef),
+  objectiveOrConstraintRef?,
+  loopClosureCondition,
+  admissibleUse,
+  nonAdmissibleUse,
+  neighboringClaimRefs?
+}
+```
 
-Here, the loop governs the **conceptual integrity and evolution** of a passive knowledge-bearing episteme (`U.Episteme`). The "actions" are not physical movements but acts of reasoning and revision performed by human `Transformer`s.
+**Loop reading.** The loop has an observation/report side and an influence/constraint side. A one-way command relation is not yet a closed supervisor-subholon feedback loop unless the return observation, report, or state relation is also declared.
 
-*   **Meta-System:** The entire body of knowledge known as "The Theory of Evolution by Natural Selection."
-*   **Sub-Holons:** Individual epistemes that are `ConstituentOf` the theory, such as the Principle of Variation, the Principle of Inheritance, and the Principle of Selection.
-*   **`Transformer`s:** The global scientific community in the relevant field.
+**Structural-composition boundary.** A supervised holon may be part of a larger holon, but supervision is not the same relation as part-whole composition. A controller, committee, method, or review practice can supervise a subholon without being a physical component of that subholon.
 
-**Instantiation of the Loop Roles and Principles:**
+**Control-structure view boundary.** When the loop appears in an architecture description as planner/controller/observer/plant/supervisor structure, use `C.30.LCA` to record the control-structure view. `B.2.5` supplies the supervisor-subholon relation; `C.30.LCA` records the broader control-structure view.
 
-| Role/Principle | Instantiation for the Scientific Theory |
-| :--- | :--- |
-| **Supervisor** | The **peer-review process and the scientific method itself** (`U.Method`), enacted by the community (`Transformer`). Its `GenerativeModel ℳ` is the core set of axioms and principles of the theory. Its `Objective Ξ` is "to provide the most parsimonious and predictively powerful explanation for the diversity of life." |
-| **Sub-Holons**| The constituent principles and supporting evidence (individual papers, datasets). |
-| **Shared Medium**| Scientific journals, conferences, and preprint archives (`U.Interaction` channels). |
-| **Loop in Action:** | 1. **Sense:** A research lab (`Transformer`) performs an experiment and publishes a new finding (`U.Observation`, e.g., evidence for horizontal gene transfer). <br> 2. **Judge:** The community (`Supervisor`) compares this new finding `X` with the current predictions of the theory `Ξ`. The `Error Δ` is the anomaly—a result that the current theory cannot easily explain. <br> 3. **Plan:** Other researchers (`Supervisor`) propose revisions to the theory (`Influence Signal α`, e.g., a new paper suggesting a modification to the "tree of life" model). <br> 4. **Act/Adapt:** Over time, if the new proposal is corroborated by further evidence, the community (`Transformer`) updates the canonical understanding of the theory. The core `U.Episteme` is refined. |
-| **Stability Principles:** | **(P-C) Standardion:** A healthy scientific paradigm is Standardive; it progressively reduces the set of unexplained anomalies. <br> **(P-D) Dissipativity:** The process is dissipative; flawed or unfalsifiable hypotheses are eventually "dampened" and discarded by the community. <br> **(P-B) Bilevel Optimization:** The global objective (explanatory power) guides the local work of individual labs. |
+**Proof boundary.** A conforming `B.2.5` loop is a relation, not proof. Stability and reusable state-evolution claims use `A.3.3`; rate and timing claims use `C.27`; causal-use claims use `C.28`; evidence claims use `A.10` or `G.6`; assurance claims use `B.3`; gate and constraint-validity claims use `A.20`/`A.21`; mathematical-lens transfer uses `C.29`.
 
-### B.2.5:4 - **Key Distinction:**
+**Episteme case boundary.** In an episteme case, the acting and revising work is performed by systems or practices bearing `Transformer` roles. The `U.Episteme` is the knowledge-bearing object being reviewed, revised, stabilized, cited, or published. It does not itself sense, judge, plan, or act.
 
-In the `U.System` example, the loop is a fast, often automated, **control system**. In the `U.Episteme` example, it is a slow, human-driven **process of collective reasoning**. However, the **architectural pattern is identical**: a supervisor monitors the state of sub-holons and issues corrective signals to maintain a global objective. This demonstrates the true universality of the LCA pattern.
+**Worked slice A - robotic swarm.** A drone fleet has individual drones, a shared communication medium, and a fleet-scope controller or distributed consensus method. `B.2.5` records each drone as supervised holon, the controller or consensus system as supervisor transformer, telemetry as observation side, and waypoint or mode commands as influence side. Claims about exponential convergence, delay tolerance, or disturbance damping use `A.3.3`, `C.27`, and evidence/assurance support as live.
 
-### B.2.5:5 - **Conformance Checklist**
+**Worked slice B - scientific theory.** A scientific theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions. `B.2.5` records the theory or its constituent epistemes as supervised objects and the community/review practice as transformer-bearing supervisor. Journals, conferences, datasets, and review records are publication or interaction channels. The theory does not perform the sensing or judging; the acting systems and practices do.
 
-*   **CC-B2.5.1 (Role Mandate):** Any model of a layered supervisory architecture **MUST** explicitly identify the holons (or `Transformer`s) playing the roles of `Supervisor` and `Sub-Holon`, as well as the `U.Interaction` channel that constitutes the `Shared Medium`.
-*   **CC-B2.5.2 (Loop Closure Mandate):** The model **MUST** demonstrate a closed feedback loop. A one-way, open-loop command structure is not a conformant Supervisor-Subsystem loop.
-*   **CC-B2.5.3 (Principle Evidence):** An assurance case for a supervisory loop **SHOULD** provide evidence, whether through formal proof, simulation, or empirical data, that it adheres to the four principles of stable control (Standardion, Dissipativity, Bilevel Optimization, Information Constraint).
-*   **CC-B2.5.4 (Levels vs. Layers Distinction):** The model **MUST** maintain the formal distinction between the structural hierarchy of `Levels` (`ComponentOf`) and the functional hierarchy of `Layers` (`controls`/`supervises`).
+**Worked slice C - product supervisor loop.** A product platform constrains component teams through published interface rules and release gates. `B.2.5` records the supervising platform policy role, component/subproduct holons, report channels, and constraint returns. Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use module/interface patterns.
 
-### B.2.5:6 - **Common Anti-Patterns and How to Avoid Them**
+### B.2.5:5 - Archetypal Grounding
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It (Conceptually) |
-| :--- | :--- | :--- |
-| **The "Ghost in the Machine"** | The model shows a collection of parts that somehow coordinate to achieve a global goal, but there is no identifiable mechanism or agent responsible for that coordination. | **CC-B2.5.1** forces the modeler to explicitly name the `Supervisor`. If no supervisor can be identified, then no supervisory loop exists, and the coordination is either an illusion or an un-modeled external factor. |
-| **The "Functional Soup"** | A diagram mixes physical components and functional layers in the same hierarchy. The "Planning Layer" is shown as a "part of" the physical system. | **CC-B2.5.4** and the strict mereology of FPF (A.14) forbid this. A functional layer is realized *by* physical components, but it is not *part of* them. This prevents category errors. |
-| **The "Perfect Communication" Fallacy** | The design of the control logic assumes that the supervisor has instant, infinite-bandwidth access to the state of all subsystems. The system fails in the real world due to network latency. | **Principle P-I (Information Constraint)** and its formal invariant **SSI-5** mandate that the stability analysis must account for the real-world constraints of the `Shared Medium`. |
+| Archetype | Without B.2.5 | With B.2.5 |
+|---|---|---|
+| System | A control diagram mixes physical parts, roles, and commands, then claims coordination is obvious. | The supervised systems, supervisor transformer, shared medium, feedback relation, and returned influence are named. |
+| Episteme | A theory or model is said to sense, judge, plan, or adapt. | Acting systems and review practices carry the transformer role; the episteme is reviewed, revised, cited, or published. |
 
-### B.2.5:7 - **Consequences**
+### B.2.5:6 - Bias-Annotation
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Provable Stability and Robustness:** The pattern provides a path to creating complex, multi-agent systems that are not just functional but are provably stable and resilient to disturbances. | **Analytical Complexity:** Proving the formal invariants (SSI-1 to SSI-5) can be a non-trivial analytical or simulation task. *Mitigation:* For less critical systems, demonstrating adherence to the manager-facing criteria may be sufficient. The full formal proof is reserved for high-assurance applications. |
-| **Composable Control:** A well-formed LCA, proven to be Standardive and dissipative, can itself be treated as a stable "sub-holon" in an enclosing supervisory loop. This enables the construction of deeply nested, yet manageable, control holarchies. | - |
-| **Clear Architectural Roles:** The pattern provides a clear language (Supervisor, Sub-Holon, Shared Medium) for describing the roles and responsibilities within a complex supervisory architecture, improving communication between teams. | - |
-| **Universal Applicability:** The pattern provides a single, unified conceptual tool for understanding control and regulation in systems as diverse as robotics, economics, and scientific communities. | - |
+* **Diagram closure bias.** A loop drawn on a diagram is read as a closed feedback loop. Repair by naming both observation/report and influence/constraint sides.
+* **Layer/level bias.** Layered diagrams hide whether the label names control role, declared system level, aggregation scope, rate band, or publication grouping. Repair by recovering the declared kind.
+* **Episteme-agent bias.** Knowledge-bearing objects are described as acting agents. Repair by naming the acting `Transformer`, publication or revision practice, and support relation.
+* **Proof-by-loop bias.** A loop relation is read as stability, safety, or assurance proof. Repair by assigning the live claim kind to the governing neighboring pattern.
 
-### B.2.5:8 - **Rationale**
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 
-This pattern distills the core insights of modern, post-2015 control theory and cybernetics into a universal, tool-agnostic architectural template. It recognizes that the classical, single-controller model is insufficient for the challenges of autonomy, collective intelligence, and large-scale socio-technical systems.
+### B.2.5:7 - Conformance Checklist
 
-By formalizing the concepts of **Levels** vs. **Layers** and providing a set of universal stability principles (Standardion, Dissipativity, etc.), FPF creates a bridge between the abstract mathematics of control theory and the practical art of systems architecture. It provides a rigorous, first-principles answer to the fundamental question: "How do you build a complex, multi-part holon that reliably works together to achieve a common goal, without falling into chaos?" The pattern's true power lies in its universality: it reveals the congruent architectural logic that underpins effective supervision, whether that supervision is realized by a silicon chip, a nervous system, or a social Standard.
+| ID | Check | Why it matters |
+|---|---|---|
+| CC-B2.5-1 | A conforming use names supervised holon refs and the supervisor role/transformer refs. | Prevents ghost coordination. |
+| CC-B2.5-2 | A conforming use names the shared medium or publication/interaction channel that carries observations, reports, signals, constraints, or influence. | Makes the loop inspectable. |
+| CC-B2.5-3 | A conforming use names both observation/report and influence/constraint sides or explicitly says the loop is not closed. | Separates closed feedback loops from one-way commands. |
+| CC-B2.5-4 | A conforming use keeps structural composition, supervisory relation, and interaction/publication network distinct. | Prevents layer/part category errors. |
+| CC-B2.5-5 | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims are assigned to their governing neighboring patterns. | Prevents loop-as-proof overread. |
+| CC-B2.5-6 | Episteme examples name the acting systems or practices that perform review, revision, publication, or use. | Prevents episteme-agent overread. |
+| CC-B2.5-7 | If a control-structure view is live, the use cites or opens `C.30.LCA`. | Keeps relation-level and view-level architecture support aligned. |
 
-### B.2.5:9 - **Relations**
+### B.2.5:8 - Common Anti-Patterns and How to Avoid Them
 
-*   **Is an elaboration of:** The "Supervisor Emergence" (S) trigger in `B.2 Meta-Holon Transition (MHT)`. This pattern describes the architecture of the supervisor that emerges during an MHT.
-*   **Builds upon:** The `U.System`, `U.Method`, `U.Role`, and `U.Interaction` concepts from the FPF Kernel and Part A.
-*   **Constrains:** The design of any `U.Method` intended to serve a supervisory function.
-*   **Enables:** The creation of deeply nested supervisory holarchies where each nested holon is itself a provably stable supervisory system.
+| Anti-pattern | Symptom | Repair |
+|---|---|---|
+| Ghost coordination | Subholons coordinate, but no supervisor role, shared medium, or feedback relation is named. | Name supervisor role, acting transformer, observation/report side, and influence/constraint side. |
+| Functional layer as component | A planning or control layer is modeled as a physical part of the controlled holon. | Separate structural composition from supervisory relation. |
+| Perfect communication | The loop assumes instant, complete, or lossless access to subholon state. | Add interaction/publication medium limits and assign timing or information claims to `C.27`, `A.3.3`, or evidence support. |
+| Episteme acts | A theory, model, paper, or dashboard senses, judges, plans, or adapts. | Name the acting system, operator, review practice, or revision practice; keep the episteme as described or revised object. |
+| Loop proves safety | The loop is treated as evidence, assurance, gate, or safety proof. | Keep the loop relation and open the governing support pattern for the live claim kind. |
+
+### B.2.5:9 - Consequences
+
+The gain is a precise loop relation that supports architecture, control, organizational, and epistemic examples without collapsing them. A practitioner can keep ordinary supervisor/subholon language while naming the acting role, medium, and returned influence.
+
+The cost is that `B.2.5` no longer lets a layered-control diagram carry proof claim kinds. That cost is intentional: the loop relation is useful because it tells the practitioner what to inspect next, not because it silently certifies stability, safety, evidence, or assurance.
+
+### B.2.5:10 - Rationale
+
+Supervisor-subholon feedback loops are a recurring architecture form. The form is most useful when it is separated from structural mereology and from proof. That separation preserves the engineering insight from layered control architecture while keeping FPF's I/D/S and role/transformer distinctions intact.
+
+The same separation also keeps the epistemic case precise. Scientific theories, documents, models, and other epistemes can participate in feedback loops as reviewed or revised objects and as publications or support objects, but acting systems and practices carry the transformer role. This lets the same pattern cover systems and epistemes without agentive overread.
+
+### B.2.5:11 - SoTA-Echoing
+
+| SoTA/practice anchor | What it supports | FPF adoption stance | Practitioner implication |
+|---|---|---|---|
+| Layered and multi-rate control architecture practice, with Matni/Ames/Doyle used here as lineage and practice support for layered multi-rate control rather than as current proof by itself. | Supervisor, plant, controller, planner, observer, feedback, and rate separation are useful relation cues for supervisor-subholon loop recovery. | Adopt and adapt: keep supervisor-subholon loop recognition, then assign stability, timing, safety, evidence, assurance, and gate claims to their governing patterns. | A loop diagram starts the relation record; dynamics, timing, and safety support still need their own pattern. |
+| Cyber-physical systems and feedback-control practice. | Shared medium limits, observation channels, actuation, delay, disturbance, and plant dynamics affect whether a loop is adequate. | Adopt: require loop closure and medium visibility; assign reusable dynamics claims to `A.3.3`. | If communication delay matters, it is not solved by the B.2.5 label. |
+| Organizational policy and review practice. | Supervisory relations can be enacted through policies, review boards, reports, and publication channels. | Adapt: model the acting systems/practices and publication/support relations explicitly. | A committee or review practice may supervise; a published note does not act by itself. |
+| FPF architecture-description discipline under `C.30` and `C.30.LCA`. | A supervisor loop can be one relation inside a control-structure view. | Reuse: `B.2.5` supplies relation recovery; `C.30.LCA` supplies view recovery. | Use the smallest pattern that carries the live claim kind, then open the neighbor when needed. |
+
+### B.2.5:12 - Relations
+
+* Builds on `B.2`, `A.1`, `A.2`, `A.3`, `A.7`, `A.12`, and `A.15`.
+* Coordinates with `C.30.LCA` for control-structure view adequacy.
+* Exits to `A.3.3` for reusable dynamics or stability claims, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence support, `B.3` for assurance, `A.20`/`A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` for mathematical-lens transfer.
+
+Does not replace: `C.30.LCA` control-structure view adequacy, `A.3.3` dynamics support, `C.27` temporal/rate adequacy, `C.28` causal-use support, `A.10`/`G.6` evidence support, `B.3` assurance, `A.20`/`A.21` gate and constraint-validity records, `A.15` work authority, module/interface patterns, or `C.29` mathematical-lens adequacy.
 
 ### B.2.5:End
-
 ## B.3 - Trust & Assurance Calculus (F–G–R with Congruence)
 
 > **Plain‑English headline.**
@@ -49345,8 +50088,1977 @@ Use this recognition menu only to identify a possible lens family and likely nei
 
 ### C.29:End
 
+## C.30 - Architecture Description Adequacy (ADA)
+
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.30:1 - Problem frame
+
+Use this pattern when architecture talk is doing more than naming modules, diagrams, documents, tool outputs, or a general engineering topic. Open C.30 when the live question is what architecture claim is being described, what selected structures carry it, what artifact role the current text or model has, and what the next admissible architecture move is.
+
+The ordinary first output is intentionally small:
+
+```text
+ArchitectureQuestionCard@Project:
+  describedHolonRef:
+  boundedContextRef:
+  liveArchitectureConcernCue:
+  claimPosture:
+    preClaimCue | problemCardReady | architectureClaimReady | neighboringClaimReady
+  plainPromptLabel?:
+  activeStructureKindRefs: FinSet(ArchitectureStructureKindRef)
+  currentCollapseCue:
+  firstArchitectureMove:
+  ordinaryNotThisPatternBoundary:
+  neighboringPatternExitRefs:
+```
+
+Use `ArchitectureConcernCue` only to recognize the architecture problem family that chooses the first structure kind and architecture move:
+
+```text
+ArchitectureConcernCue:
+  changeLocalization | substitutionOrReplacement | flowBottleneck |
+  controlOrRateMismatch | dataCustodyOrStateResidence |
+  physicalSeparationOrPlacement | evidenceReuseOrAssuranceReuse |
+  scaleWindowOrCoarseningLoss | runtimeFailureMode |
+  crossScopeResidual | descriptionViewLoss | otherDeclared
+```
+
+Typical architecture problem cues:
+
+```text
+changeLocalizationFailure
+substitutionFailure
+crossViewMismatch
+flowBottleneckOrHiddenCrossing
+controlRateOrLayerMismatch
+dataCustodyOrStateResidenceUnclear
+placementOrJurisdictionMismatch
+evidenceReuseFailure
+sourceReturnNeeded
+crossScopeResidual
+generatedViewLoss
+```
+
+Use the cue only to choose the first architecture move. The cue is not a quality score, failure proof, risk rating, gate result, or decision.
+
+Do not treat the cue as a quality, measure, risk score, decision, or free `ArchitectureConcern` ontology. If the concern cannot yet name described holon, bounded context, one candidate structure kind, and one admissible next architecture move, keep it as a concern cue or `ProblemCard@Context`-style issue; do not promote it to `ArchitectureOf@Context` by wording alone. ISO 42010-style concern language may remain as lineage or project wording, but C.30 recovers the FPF carrier as `liveArchitectureConcernCue`, `governingArchitectureConcernRefs?`, or `architectureConcernNotes?`.
+
+This is a project-side triage aid, not `U.Architecture`, not evidence, not a decision, and not a mandatory publication.
+The action palette for `firstArchitectureMove` is deliberately short:
+
+- name or narrow the described holon and bounded context;
+- choose the live structure kind;
+- downgrade an artifact to publication, diagram, carrier, support, or generated relation graph when it is not a D/S view;
+- repair a collapsed function, module, flow, control, interface, or signature claim;
+- open a minimal architecture structural view only when it changes the next move;
+- assign C.29, A.10, B.3, A.20, A.21, C.28, A.15, C.11, C.16, or another exact neighboring pattern only when its claim kind is live;
+- state `NoMLANeeded` when no mathematical lens changes the next architecture move;
+
+- stop with one admissible next architecture move.
+
+The full `ArchitectureDescription@Context` opens only for durable publication, cross-team use, regulated or safety use, reusable design, FPF pattern example, comparison, support reuse, or a comparable full-mode claim kind. Ordinary use stops at `ArchitectureQuestionCard@Project` when it makes one next architecture move clear.
+
+What goes wrong if C.30 is missed: a module diagram, Transduction Graph Architecture (TGA) graph, Layered Control Architecture (LCA)/control sketch, mathematical-lens output, generated relation graph, ADR, dashboard, or benchmark result is treated as the architecture; architecture then starts carrying evidence, assurance, gate, work, release, causal, or decision claim kinds it cannot support.
+
+What C.30 buys in practice: a practitioner can separate architecture claim, selected structure, architecture description, view, publication, support, and neighboring claim kind, then choose one small next architecture move instead of opening a full measurement, synthesis, assurance, or decision apparatus by default.
+
+Not this pattern when the live question is only structure as such. Use A.22. If it is an architecture structural view, use `C.30.ASV`. If it is a TGA graph, path, or crossing relation, use `E.18` and `C.30.TGA-FLOW-REL` when architecture-flow description is live. If it is evidence, assurance, causal use, gate, work, decision, publication authority, mathematical-lens adequacy, measurement, structural information, structural equivalence, morphism, or discovery support, use the governing neighboring pattern or an admitted receiving pattern and keep C.30 only to the architecture-description portion.
+
+### C.30:2 - Problem
+
+Engineering teams use "architecture" for several different things:
+
+- the selected structure of a holon;
+- a diagram, model, table, dashboard, generated relation graph, or document;
+- a module layout;
+- a TGA graph or flow description;
+- a functional, control, information, deployment, logical, or physical structure view;
+- an ADR-like publication;
+- a decision, gate, evidence path, assurance case, or release claim.
+
+These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: the architecture-relevant selected structure, the architecture claim over that structure, the D/S description or view of that claim, the publication of that description or view, and the project decision about changing architecture are different records.
+
+The first-minute practitioner can ask: Are we choosing an architecture, or just naming a module layout? Which structure is being described: function, flow, control, module/interface, work, role/enactor, evidence/assurance, information/data, placement/deployment, scale, or declared logical structure? What artifact are we looking at: architecture claim, description, view, carrier, publication, decision, support, or mathematical lens?
+
+How can FPF describe architecture without:
+
+- creating `U.Architecture` as a new root kind;
+- treating a description, view, diagram, graph, ADR, dashboard, or generated relation graph as the architecture;
+- reducing architecture to module/interface structure;
+- letting TGA, LCA, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
+- making architecture descriptions so heavy that ordinary practitioners cannot get a first useful move.
+
+### C.30:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Everyday architecture speech vs FPF kind precision | Engineers need familiar phrases such as functional architecture, physical architecture, and control architecture; load-bearing use recovers described holon, bounded context, selected structure, structure kind, artifact role, and admissible use. |
+| Architecture claim vs architecture description | A useful architecture description can be mistaken for the architecture claim or for the selected structure. |
+| Multi-view adequacy vs module reduction | Architecture includes functional, flow, control, module/interface, work, role, evidence, information, placement, scale, and declared logical structures; module diagrams are only one structure kind. |
+| Small first move vs full record | The practitioner often needs one architecture question card, not a complete architecture description record set. |
+| SoTA architecture-description discipline vs tool lock-in | ISO 42010-style view, viewpoint, and correspondence discipline is useful, and FPF adapts it to holons, epistemes, views, publications, source return, and neighboring-pattern exits. |
+| Structure support vs overread | A structure, graph, lens, measurement, or model can support an architecture description without proving evidence, assurance, causality, gate passage, or release. |
+
+### C.30:4 - Solution
+
+Introduce architecture-description adequacy as governance for describing an `ArchitectureOf@Context` claim record that selects intensional structure for one holon in one bounded context. The description is governed; it is not the architecture itself.
+
+C.30 does not mint `U.Architecture` and does not redefine `U.Viewpoint`. It specializes A.22 structure records and `U.MultiViewDescribing` for architecture descriptions whose described entity is the `ArchitectureOf@Context` claim record for a holon, while preserving the I/D/S distinction between architecture and its descriptions.
+
+C.30 governs architecture-description adequacy for one `ArchitectureOf@Context` claim record over selected `candidate:U.Structure` references for one described holon in one bounded context. It governs `ArchitectureOf@Context`, `ArchitectureQuestionCard@Project`, `ArchitectureDescription@Context`, architecture-description publication boundaries, architecture name formation, characteristic assignment, first architecture-question assignment, and small boundary notes. It does not mint `U.Architecture` and does not govern all architecture structure-kind views; `C.30.ASV` governs architecture structural views.
+
+#### C.30:4.1 - Architecture claim record
+
+```text
+ArchitectureOf@Context ::= {
+  describedHolonRef: U.HolonRef,
+  boundedContextRef: U.BoundedContextRef,
+  structureRefs: FinSet(candidate:U.StructureRef),
+  structureKindRefs: FinSet(ArchitectureStructureKindRef),
+  liveArchitectureConcernCue?,
+  governingArchitectureConcernRefs?,
+  architectureConcernNotes?,
+  structuralRelationRecordRefs?,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+`ArchitectureOf@Context` is a project-side architecture claim record over selected structures. It is not the selected structure itself, not a D/S description, not a view, not a diagram, not a publication face, not a decision, and not a new root `U.*` kind.
+
+`ArchitectureOf@ContextRef` is admissible as a `DescriptionContext.DescribedEntityRef` for architecture D/S descriptions and views. The holon whose architecture is claimed remains `ArchitectureOf@Context.describedHolonRef`; it is not the D/S `DescribedEntityRef` for those architecture descriptions unless a separate direct holon description is opened.
+
+#### C.30:4.2 - Architecture description record
+
+`ArchitectureDescription@Context` is a governed multi-view D/S description record set over one `ArchitectureOf@Context` claim record and selected `StructuralDescription@Context` or `StructuralView@Context` records. It supports engineering reasoning about the described holon's design, operation, evolution, interfaces, work, evidence, adequacy, and scale behavior through typed relations to neighboring records; it does not collect those neighboring claim kinds as architecture-description ontology.
+
+```text
+ArchitectureDescription@Context ::= {
+  architectureDescriptionId: ArchitectureDescriptionId,
+  architectureClaimRef: ArchitectureOf@ContextRef,
+  descriptionContext: DescriptionContext(
+    DescribedEntityRef = architectureClaimRef,
+    BoundedContextRef = ArchitectureOf@Context.boundedContextRef,
+    ViewpointRef = viewpointRef
+  ),
+  selectedStructureRefs: FinSet(candidate:U.StructureRef),
+  structureKindRefs: FinSet(ArchitectureStructureKindRef),
+  architectureStructuralViewRefs: FinSet(ArchitectureStructuralViewRef),
+  structuralAspectDescriptionRefs: FinSet(StructuralAspectDescriptionRef),
+  correspondenceModelRefs: FinSet(CorrespondenceModelRef),
+  structuralRelationRecordRefs: FinSet(QualifiedRelationRecordRef),
+  supportRelationRefs?: FinSet(
+    CharacteristicSupportRelationRef | EvidenceSupportRef | AssuranceSupportRef |
+    TGARelationSupportRef | MLALensSupportRef | SourceReturnRef
+  ),
+  freshnessCueRefs?: FinSet(ArchitectureDescriptionFreshnessCueRef),
+  sourceReturnCondition?,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+`ArchitectureDescription@Context` is not the holon itself, not the selected structure, not identical to the `ArchitectureOf@Context` claim record, and not the publication face, carrier, or rendering. It is a D/S episteme record whose `DescriptionContext.DescribedEntityRef` points to the `ArchitectureOf@Context` claim record.
+
+Use an `ArchitectureDescriptionFreshnessCue` when the admissible use of an architecture description depends on source edition or structure edition:
+
+```text
+ArchitectureDescriptionFreshnessCue:
+  sourceEditionRefs:
+  structureEditionRefs?:
+  knownRefreshTrigger:
+    sourceChange | deploymentChange | interfaceChange | controlRateChange |
+    modelEditionChange | evidenceDecay | toolApiChange |
+    legalRegulatoryChange | incidentFinding | unknown
+  admissibleUseUntil:
+  sourceReturnCondition:
+```
+
+The freshness cue is not evidence sufficiency and not assurance. It only bounds the architecture description's admissible use.
+
+#### C.30:4.3 - Publication boundary
+
+```text
+ArchitectureDescriptionPublication@Project ::= {
+  sourceEpistemeRef | sourceViewRef,
+  publicationVPId,
+  publicationScopeId,
+  boundedContextRef,
+  mvpkFaceRef,
+  carrierRef,
+  sourcePinSetRef,
+  audience,
+  admissiblePublicationUse,
+  nonAdmissiblePublicationUse
+}
+```
+
+`ArchitectureDescriptionPublication@Project` is E.17/MVPK-subordinate. It publishes one source episteme or episteme-lane view reference. `mvpkFaceRef` is a publication-lane face reference, not an alternative source object. Publication does not add architecture claims, evidence sufficiency, gate status, work authority, assurance, decision authority, or release permission.
+
+Model cards, system cards, and evaluation harness reports enter C.30 through the same publication/support boundary. They may describe a model, deployed AI system, architecture claim, evaluation harness, or policy, but they do not by themselves establish architecture adequacy, safety proof, release support, or gate passage.
+
+```text
+ModelCardOrSystemCardBoundaryNote@Project ::= {
+  sourcePublicationRef,
+  describedEntityRef,
+  describedEntityKind:
+    model | deployedAISystem | architectureClaim |
+    evaluationHarness | policy | otherDeclared,
+  architectureStructureKindRefs?,
+  intendedUseScope,
+  evaluationScopeAndKnownLoss?,
+  deploymentContextMismatch?,
+  evidenceOrAssuranceExit?,
+  nonAdmissibleUse:
+    notArchitectureAdequacy | notSafetyProof |
+    notReleaseSupportByPublicationAlone
+}
+```
+
+If the card or harness is used beyond transparency, recover the live architecture structure kind first and then exit to `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.16`, `C.28`, or `C.11` for the neighboring claim kind.
+
+#### C.30:4.4 - Architecture name formation
+
+The word `architecture` is shorthand only after the described holon, bounded context, selected structures, structure kind, and artifact role are recoverable. Without those qualifiers, it is a recovery trigger, not a stable FPF term.
+
+```text
+ArchitectureNameFormationRule:
+
+If a text says "<X> architecture", then the load-bearing use is conforming only with:
+  describedHolonRef,
+  boundedContextRef,
+  structureKindRef = <X>StructureKind or declared local relation,
+  structureRefs,
+  ArchitectureStructuralViewRefs if this is a description/view claim,
+  admissibleUse,
+  nonAdmissibleUse.
+
+If <X> is not a declared structure kind, the phrase is plain recognition wording only.
+```
+
+| Phrase | Required recovery |
+| --- | --- |
+| functional architecture | `structureKindRef = FunctionalStructure`; functions, effects, capabilities, and functional dependencies named as structure content; transductions and flow paths are assigned to `FlowTransductionStructure` or `C.30.TGA-FLOW-REL`. |
+| modular architecture | `structureKindRef = ModuleInterfaceStructure`; module relation records, interface specifications, substitutability rule, and change policy. Full module/interface repair exits to the exact module/interface repair pattern when that claim kind is live. |
+| logical architecture | `structureKindRef = DeclaredLogicalStructure`; local definition says whether `logical` means information, functional, runtime, responsibility/allocation, or another relation class. |
+| physical architecture | `structureKindRef` in `{MaterialSpatialStructure, PlacementDeploymentStructure}` or a locally declared physical structure kind. |
+| control architecture | `structureKindRef = ControlStructure`; an LCA record may describe the control structure, but proof claims are assigned to dynamics, temporal, causal, evidence, safety, or assurance patterns as triggered. |
+| information architecture | `structureKindRef = InformationDataStructure`; state bearer and residence, schema refs, semantic refs, persistence locus, provenance relation, custody relation, and source-return conditions. |
+| security architecture | `structureKindRef = SecurityTrustBoundaryStructure`; recover protected asset or effect, trust boundary, adversarial path, authority or privilege relation, secure-default or hardening boundary, and evidence, assurance, or gate exits when those claim kinds are live. |
 
 
+#### C.30:4.5 - Architecture characteristic assignment
+
+C.30 uses three bearers before any `quality`, `fitness`, `measure`, `metric`, `score`, `modularity`, or `ility` wording carries architecture-adequacy force. Those words are triggers for bearer recovery, not stable architecture adequacy by themselves.
+
+```text
+ArchitectureCharacteristicAssignment:
+
+A. SystemQualityAffectedByArchitecture
+   Bearer: described U.Holon or named product/system entity
+   Governing pattern: C.25 Q-Bundle or C.16
+   Examples: maintainability, evolvability, resilience, availability, safety, observability
+
+B. ArchitectureStructuralCharacteristic
+   Bearer: `ArchitectureOf@Context` claim, architecture structural view, declared structural relation or constraint, module/interface relation
+      Governing pattern: C.16 / A.17-A.19 / admitted architecture-characterization receiving pattern
+   Examples: coupling, cohesion, interface alphabet, substitutability, hidden coupling, reusable-structure share
+
+C. ArchitectureDescriptionAdequacy
+   Bearer: ArchitectureDescription@Context / architecture structural view / correspondence model
+   Governing pattern: C.30 / E.17 / A.6.Q / C.16
+   Examples: viewpoint coverage, correspondence adequacy, source-return adequacy, description modularity
+```
+
+C.30 keeps only a thin bridge from structural characteristics to Q-Bundle relevance. If the claim says architecture causes an outcome improvement, assign causal-use governance to `C.28` before causal use. If a structural characteristic is used as a mechanism, constraint, predictor, proxy, evidence relation, or causal hypothesis for a Q-Bundle slot, start with `ArchitectureStructuralCharacteristicQBundleSupportLine` rather than a formula such as `low coupling = maintainability`; send measurement, modularity scoring, reusable-structure share or accounting, bespoke-residue accounting, evidence sufficiency, assurance, gate, causal proof, and scale audit to their governing neighboring patterns.
+
+`ArchitectureStructuralCharacteristicQBundleSupportLine` is the only ordinary first-contact support shape C.30 introduces for this case. Do not add a second generic characteristic-support record in C.30. Use the line when the useful move is to show why one structural characteristic may matter without opening the full support record. Do not use this line as a measurement record, modularity score, evidence sufficiency statement, assurance verdict, or causal proof:
+
+```text
+ArchitectureStructuralCharacteristicQBundleSupportLine ::= {
+  architectureClaimRef: ArchitectureOf@ContextRef,
+  architectureStructuralViewRef?: ArchitectureStructuralView@ContextRef,
+  structuralCharacteristicCueOrRef,
+  affectedQBundleSlotRef,
+  supportRelationKind:
+    structuralCharacteristicSupportsQBundleSlot |
+    structuralCharacteristicConstrainsQBundleSlot |
+    structuralCharacteristicPredictsQBundleSlot |
+    structuralCharacteristicProxiesQBundleSlot |
+    structuralCharacteristicCausalHypothesisForQBundleSlot |
+    structuralCharacteristicEvidenceSupportForQBundleSlot,
+  supportPosture:
+    modelBased | empirical | causalSupported | expertJudgement |
+    sourceLineageOnly | SoTAActionSupport | reportOnly,
+  evidenceOrCausalExitIfLive?,
+  nonAdmissibleUse
+}
+```
+
+Minimal structural-characteristic support-line examples:
+
+| Structure kind | Structural characteristic cue or relation | Affected Q-Bundle slot | Support relation note | Non-admissible use |
+| --- | --- | --- | --- | --- |
+| `ModuleInterfaceStructure` | Stable interface specification plus substitution policy. | Evolvability or replaceability. | Replacement without global retesting. | Open label as substitutability proof. |
+| `PlacementDeploymentStructure` | Controller placed near plant or edge-node locality. | Latency, resilience, or jurisdictional compliance. | Reduced communication delay and bounded data custody. | Placement diagram as performance or legal proof. |
+| `InformationDataStructure` | State bearer, residence, provenance, and custody boundary. | Observability, privacy, or auditability. | Recoverable state lineage and bounded custody. | Data schema as evidence sufficiency. |
+| `MaterialSpatialStructure` | Physical separation, adjacency, or energy path. | Safety, maintainability, or energy efficiency. | Isolation, accessibility, or loss reduction. | Geometry as safety proof. |
+| `ControlStructure` | Observer-controller-plant loop with rate envelope. | Stability, controllability, or safety. | Feedback and bounded actuation relation. | Control diagram as proof. |
+| `FlowTransductionStructure` | Path crossing, bottleneck, or buffer/waiting-line boundary. | Latency, throughput, or resilience. | Recoverable path, crossing, capacity, and valuation relation. | Flow graph as performance or causal proof. |
+| `SecurityTrustBoundaryStructure` | Trust boundary, privilege path, or untrusted-input crossing. | Security, abuse resistance, or privacy. | Reduced exposed authority and bounded trust crossing. | Risk color or compliance label as security proof. |
+| `EvidenceAssuranceStructure` | Evidence package reused across variants. | Assurance maintainability or release readiness. | Explicit affected-structure and source-return boundary. | Evidence-structure view as assurance verdict. |
+| `WorkMethodStructure` | Method description, work plan, or work enactment relation with explicit exception path. | Operability, auditability, or maintainability. | Bounded repeatability and recoverable exception handling. | Work-method diagram as work authority or evidence sufficiency. |
+
+`ArchitectureCharacteristicQBundleSupportRecord` is a triggered/full-mode record, not the ordinary first-contact shape. Open the full record only when publication, comparison, causal use, evidence reliance, assurance, gate, decision, or reusable cross-case support is live and the thin line cannot keep the relation inspectable, reusable, or bounded. This preserves the protection against causal or quality overread without turning C.30 into a measurement-first pattern.
+
+Relation kinds in this record are C.30-local relation tokens. They must remain recoverable as A.6.P-style relation specifications: polarity, participant slots, qualifiers, witness expectations, admissible semantic change classes, and bridge or loss boundary where those are live.
+ISO/IEC 25010-like quality models may be used as quality vocabulary or comparison lineage for product qualities such as reliability, security, maintainability, usability, efficiency, compatibility, or portability. C.30 does not inherit them as architecture theory. Architecture supports qualities through Q-Bundle slots, mechanism slots, support posture, evidence or causal exits, or report-only posture.
+
+```text
+ArchitectureCharacteristicQBundleSupportRecord ::= {
+  architectureClaimRef: ArchitectureOf@Context,
+  architectureStructuralViewRef?,
+  architectureDescriptionRef?,
+  structuralCHRRefs,
+  affectedQBundleRefs,
+  relationKind:
+    structuralCharacteristicSupportsQBundleSlot |
+    structuralCharacteristicConstrainsQBundleSlot |
+    structuralCharacteristicPredictsQBundleSlot |
+    structuralCharacteristicProxiesQBundleSlot |
+    structuralCharacteristicCausalHypothesisForQBundleSlot |
+    structuralCharacteristicEvidenceSupportForQBundleSlot,
+  participantSlots:
+    structuralCharacteristicRef,
+    qBundleSlotRef,
+    architectureClaimRef,
+    scopeOrScaleWindow?,
+    viewpointRef?,
+  qualifiers?,
+  witnessExpectations?,
+  supportPosture:
+    modelBased | empirical | expertJudgement |
+    sourceLineageOnly | SoTAActionSupport | causalSupported | reportOnly,
+  bridgeOrLossBoundary?,
+  admissibleUse,
+  nonAdmissibleUse,
+  evidenceOrCausalExitIfLive?
+}
+```
+#### C.30:4.6 - Relation to structural views
+
+`C.30.ASV` governs `ArchitectureStructuralView@Context`. C.30 only governs the architecture-description relation to the structural views it uses, with hidden/lost structure, correspondence, support relation, and source-return boundaries recoverable when those boundaries affect action.
+
+A diagram, model, table, TGA graph, LCA diagram, C.29 lens output, ADR, dashboard, generated explanation, or other publication face may carry an architecture description or an architecture structural view. It does not become the architecture, and it does not become a conforming view only because it looks like a view.
+
+Use `AffectedArchitectureStructureNote` when the next architecture move needs to name affected structures or view losses without opening an architecture decision, ADR, gate, evidence, assurance, or release record:
+
+```text
+AffectedArchitectureStructureNote:
+  architectureClaimRef:
+  affectedStructureKindRefs:
+  affectedStructureRefs?:
+  affectedArchitectureStructuralViewRefs?:
+  acceptedOrSuspectedViewLoss?:
+  sourceReturnCondition?:
+  nextAdmissibleMove:
+```
+
+This note only names affected architecture structure for the next move. It is not an architecture decision, not an ADR, not gate passage, not evidence sufficiency, and not release authority.
+
+#### C.30:4.7 - Minimal boundary notes
+
+Use these notes when a common architecture phrase is close to a neighboring pattern but the full neighboring pattern is not yet live.
+
+Use the thinnest support form that preserves the next architecture move. Open fuller support only when the current support relation cannot be inspected, used, compared, refreshed, or bounded without it. Typical thin forms are `ArchitectureMLABoundary` before C.29 Mini or Full, `AffectedArchitectureStructureNote` before an architecture decision record, and `ArchitectureStructuralCharacteristicQBundleSupportLine` before full measurement or causal/evidence support.
+
+```text
+InterfaceSignatureBoundaryNote ::= {
+  phraseOrArtifactRef,
+  apparentClaim:
+    interface | signature | port | endpoint | connector | link |
+    API | protocol | TGA transfer | TGA path | mechanism reference,
+  recoveredKind,
+  neighboringPatternExitRefs,
+  admissibleUse,
+  nonAdmissibleUse
+}
+
+ModuleRelationBoundaryNote ::= {
+  phraseOrArtifactRef,
+  apparentClaim:
+    module | component | package | platform | stack | open architecture |
+    typed control-structure relation,
+  moduleInterfaceRepairClaimLive?: yes | no,
+  openOrPlatformClaimLive?: yes | no,
+  exactModuleInterfaceRelationRefs?,
+  variationPointRef?,
+  substitutabilityPolicyRef?,
+  interfaceConformanceEvidenceExit?,
+  changePathRef?,
+  consumerMigrationBoundary?,
+  versionOrUpdateChannelRef?,
+  secureDefaultOrHardeningBoundary?,
+  neighboringPatternExitRefs,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+These notes are not substitutes for the exact module/interface repair pattern, interface specifications, signature records, conformance evidence, or module/interface repair. An open or platform label is not substitutability proof, security proof, scale proof, assurance, or universal maturity evidence. It becomes architecture-relevant only through local structure, interface, variation, substitution, migration, update, and hardening boundaries. Relation-heavy wording inside these notes remains a Plain cue until an exact module/interface relation ref, neighboring relation record, or governing FPF pattern carrier is named. The note keeps first use honest until the exact neighboring claim kind opens.
+
+#### C.30:4.8 - Architecture mathematical-lens boundary
+
+Architecture descriptions may use C.29 lenses, but the lens does not become architecture ontology.
+
+```text
+ArchitectureMLABoundary:
+  noMLANeeded?: yes | no
+  lensOneLine?:
+    lensRef,
+    structureClaimSupported,
+    preservedStructure,
+    lostStructure,
+    supportPosture,
+    stopCondition,
+    neighboringPatternExitRefs?
+```
+
+Use the one-line boundary only when it is enough to keep the lens from being overread. Open C.29 Mini or Full cards when the lens choice, preserved/lost structure, support posture, or stop condition changes the architecture move.
+
+Lens use by architecture problem:
+
+| Architecture problem | Candidate mathematical lens | Preserved structure | Typical loss or stop |
+| --- | --- | --- | --- |
+| Hidden dependency or modularity. | Typed graph, DSM, or hypergraph. | Dependency, coupling, or clustering. | Semantics, interface law, evidence, and work remain outside unless bridged. |
+| Flow bottleneck. | TGA, network flow, or queueing. | Path, crossing, valuation, and capacity. | Purpose, proof, causality, and safety remain neighboring claims. |
+| Control-rate mismatch. | LCA, hybrid systems, assumption-guarantee relations, or control relations. | Feedback roles and scale or rate relations. | Stability proof and safety proof remain outside the lens. |
+| Cross-scope residual. | Coarse-graining or renormalization-group-style lens. | Preserved and lost structure across scale. | Utility, causal support, and selector authority remain outside unless separately supported. |
+| Extracted structure from traces. | Epiplexity or MDL-style bounded-observer lens. | Learnable structural regularity. | Task relevance, assurance, and causal proof remain neighboring claims. |
+| Physical separation or spatial arrangement. | Topology, geometry, or spatial graph lens. | Adjacency, containment, separation, reachability, or energy/material path. | Safety proof, accessibility, legal acceptance, and causal support remain outside unless separately supported. |
+| Composition relation. | Category, open-systems, or compositional lens. | Interface, composition, and coherence. | Domain semantics remain outside unless bridged. |
+
+This table is not a C.29 replacement and does not make mathematics mandatory. It helps the practitioner see when a lens may add a useful architecture move; C.29 still carries lens adequacy, preserved/lost structure, support posture, and stop condition when those are live.
+
+Epiplexity-like use remains a C.29 bounded-observer structural-information lens. It may help recover learnable structure from traces, but it is not an architecture quality, task relevance proof, causal proof, assurance, or selector authority.
+
+#### C.30:4.9 - Boundary and repair table
+
+| Tempting collapse | C.30 repair |
+| --- | --- |
+| Bare architecture as governed object | Recover `describedHolonRef`, `boundedContextRef`, selected `structureRefs`, active `structureKindRef`, artifact role, `admissibleUse`, and `nonAdmissibleUse`. |
+| Architecture description as architecture | Keep `ArchitectureDescription@Context` as D/S episteme over `ArchitectureOf@Context`. |
+| Diagram, model, table, dashboard, or generated relation graph as architecture | Treat it as carrier, publication, description, view, support, or source-finding aid only when that relation is explicit. |
+| Module diagram as all architecture | Use `C.30.ASV` to recover structure kind; module/interface is only one structure kind. |
+| TGA graph as architecture | Use `E.18` for graph/path/crossing and `C.30.TGA-FLOW-REL` for architecture-flow description. |
+| LCA/control diagram as proof | Use `C.30.LCA` for control-structure view; assign dynamics, temporal, causal, evidence, gate, safety, and assurance claims to their governing patterns. |
+| Mathematical lens as architecture ontology | Use `C.29`; cite `MLAOutputRef` only as support and state stop condition. |
+| ADR as architecture decision | Use the exact project-side architecture decision pattern when a decision claim is live; ADR is a publication form, not the decision. |
+| Quality, score, or measurement term as architecture adequacy | Recover the bearer through `ArchitectureCharacteristicAssignment`; assign the live claim to `C.25`, `C.16`, an admitted architecture-characterization receiving pattern, or C.30 description adequacy. |
+| Architecture record as evidence, assurance, gate, work, or release | Assign evidence, assurance, gate, work, or release claims to `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, or release loci as live. |
+| Architecture as agent, worker, controller, gate, or proof | Recover the mechanism, control relation, role/enactor, gate, work, evidence, or assurance carrier that actually bears enforce, decide, optimize, adapt, prove, or guarantee wording; keep `ArchitectureOf@Context` as a selected-structure claim, not an acting entity. |
+
+#### C.30:4.10 - Worked slices
+
+**"We have the architecture in this diagram."** The diagram is a carrier or publication face unless it explicitly carries an `ArchitectureDescription@Context` or `ArchitectureStructuralView@Context`.
+
+```text
+ArchitectureQuestionCard@Project:
+describedHolonRef: payment system
+boundedContextRef: checkout platform context
+liveArchitectureConcernCue: unclear dependency between payment orchestration and fraud scoring
+plainPromptLabel: "architecture in this diagram"
+activeStructureKindRefs: FunctionalStructure, ModuleInterfaceStructure, FlowTransductionStructure
+currentCollapseCue: diagram is being treated as architecture itself
+firstArchitectureMove: downgrade the diagram to a publication face and create a minimal architecture structural-view note
+ordinaryNotThisPatternBoundary: no evidence, assurance, gate, or decision claim yet
+neighboringPatternExitRefs: C.30.ASV
+```
+
+**"Low coupling gives maintainability."** C.30 does not allow that formula to carry the claim by itself. The ordinary repair starts with the thin support line:
+
+```text
+ArchitectureStructuralCharacteristicQBundleSupportLine:
+  architectureClaimRef: ArchitectureOf@ContextRef
+  structuralCharacteristicCueOrRef: coupling under module/interface relation
+  affectedQBundleSlotRef: maintainability Q-Bundle slot
+  supportRelationKind: structuralCharacteristicSupportsQBundleSlot
+  supportPosture: sourceLineageOnly | SoTAActionSupport | modelBased, as actually supported
+  evidenceOrCausalExitIfLive?: C.28 / B.3 / A.10 / G.6 when the stronger claim is live
+  nonAdmissibleUse: causal proof or assurance by slogan
+```
+
+Open `ArchitectureCharacteristicQBundleSupportRecord` only when publication, comparison, causal use, evidence reliance, assurance, gate, decision, or reusable cross-case support needs the fuller record. The useful move is to decide whether a structural characteristic has a bounded support relation to a maintainability slot, not to accept the slogan as architecture truth.
+
+**"We replaced the neural-network block, so the architecture improved."** The phrase is admissible architecture recognition only after the changed structure kind, flow or transduction relation, module or interface claim kind, preserved and lost structure, changed characteristic, support source, and decision or evidence exit are named. A block label, benchmark result, ablation, pruning mask, or distillation result is not an architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by itself.
+
+### C.30:5 - Archetypal Grounding
+
+| Tell-Show-Show row | Grounding |
+| --- | --- |
+| Tell | A project team says "architecture" while looking at a diagram, model, generated relation graph, ADR, or module list. C.30 asks what holon is being described, what structure is selected, what artifact role the current material has, and what architecture move remains admissible. |
+| Show: `U.System` | A payment system, plant, vehicle, product platform, AI-agent system, or neural-network model has selected structures: function, flow, control, module/interface, information, placement, scale, work/evidence, or declared logical structure. The architecture claim is over selected structures of that holon; the publication is not the holon and not the architecture claim. |
+| Show: `U.Episteme` | An architecture description, model, view, generated relation graph, ADR-like note, safety-case view, or dashboard is an episteme or view publication. It can describe or support an architecture claim, but it does not become the architecture, evidence sufficiency, gate result, assurance case, or project decision. |
+
+### C.30:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: FPF architecture-description use over holons.
+
+| Bias risk | Mitigation |
+| --- | --- |
+| Module-diagram bias | Keep module/interface as one structure kind among several; use `C.30.ASV` and the exact module/interface repair pattern when live. |
+| Tool-model bias | Treat notation, tool model, generated relation graph, diagram, and dashboard as D/S or publication artifacts unless a declared governing relation gives the artifact a more specific role. |
+| Check-only bias | The first output is an architecture question card plus action palette, not a checklist that only detects mistakes. |
+| Assurance/gate bias | Architecture descriptions do not certify safety, evidence sufficiency, release, or gate passage; assign those claims to the governing patterns. |
+| Didactic-thinning risk | Semantic repair preserves why the distinction matters: the pattern opens with the practitioner situation, payoff, stop condition, and first move. |
+
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+
+### C.30:7 - Conformance Checklist
+
+
+| ID | Requirement | Failed-check repair |
+| --- | --- | --- |
+| **CC-C30-1 Grounded architecture name.** | A load-bearing architecture claim names the described holon, bounded context, selected structures, structure kinds, artifact role, admissible use, and non-admissible use. | Rewrite the phrase through `ArchitectureQuestionCard@Project` or demote it to Plain recognition wording. |
+| **CC-C30-2 No `U.Architecture`.** | The pattern use does not mint or rely on a root `U.Architecture`. | Use `ArchitectureOf@Context` over selected A.22 structures, or assign the claim to another existing kind. |
+| **CC-C30-3 I/D/S separation.** | Architecture claim, structure, description, view, publication face, carrier, decision, evidence, and work stay distinct. | Downgrade the artifact or carrier to its D/S or publication role and name the claim or neighboring claim kind separately. |
+| **CC-C30-4 ArchitectureOf record.** | Architecture descriptions and views point through `ArchitectureOf@Context`; the described holon is recovered through `architectureClaimRef.describedHolonRef`. | Add `ArchitectureOf@Context` or split direct holon description from architecture-claim description. |
+| **CC-C30-5 DescriptionContext reuse.** | `ArchitectureDescription@Context` reuses `DescriptionContext` and existing D/S machinery; it does not redefine viewpoint or publication ontology. | Replace local fields with imported D/S fields or assign the publication/view claim to E.17/A.6.3/E.17.0. |
+| **CC-C30-6 Small output before heavy record.** | Ordinary use may stop at `ArchitectureQuestionCard@Project` when one next architecture move and neighboring exit are clear. | Remove needless full-record expansion or explain which full-mode trigger is live. |
+| **CC-C30-7 Structure-kind boundary.** | Structural-view claims exit to `C.30.ASV`; module, function, flow, control, work, evidence, scale, and decision claims do not collapse into C.30. | Name the structure kind, open the structural view if needed, or assign the claim to the exact neighboring pattern. |
+| **CC-C30-8 Characteristic assignment.** | Quality, measure, score, metric, modularity, and `ility` wording recovers its bearer and governing pattern before use. | Add `ArchitectureCharacteristicAssignment`, or narrow the sentence to ordinary non-load-bearing recognition. |
+| **CC-C30-9 Neighboring claim kind.** | Evidence, assurance, causal, gate, work, decision, publication-authority, mathematical-lens, measurement, and release claims are assigned to their governing patterns. | Name the neighboring FPF pattern and the live claim kind; do not add fields to C.30 to absorb it. |
+| **CC-C30-10 Useful action.** | The repaired wording leaves a surviving admissible action: name the architecture claim, downgrade an artifact, open an architecture structural view, add a support relation, return to source, or exit to the neighboring pattern that carries the live claim kind. | Restore that action, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+
+### C.30:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| **Architecture-as-document** | The document, diagram, table, generated relation graph, or dashboard is called the architecture. | Recover carrier/publication/description/view relation and name `ArchitectureOf@Context` only when selected structure is live. |
+| **Publication-unit architecture drift** | One publication unit mixes architecture description, evidence status, gate status, decision note, and work authority under one architecture heading. | Name the source architecture description or view, split evidence/gate/decision/work authority to exact neighboring patterns, and keep the publication face as E.17/MVPK-subordinate. A publication heading is not an architecture claim, and a section title is not evidence, gate, decision, or work authority. |
+| **Module-diagram takeover** | Architecture is reduced to module/interface structure. | Recover structure kind and use `C.30.ASV`; assign full module repair to the exact module/interface repair pattern when that claim kind is live. |
+| **Tool-model lock-in** | A notation or tool model becomes the source of architecture truth. | Recover FPF architecture claim, structures, views, correspondence, and source-return condition. |
+| **Evidence laundering** | A published architecture description is used as evidence sufficiency. | Assign evidence support to `A.10` or `G.6`; C.30 keeps only description adequacy. |
+| **Assurance or safety overread** | Architecture description or LCA diagram is used as assurance or safety case. | Assign the live claim to `B.3`, `A.10`, `G.6`, `C.30.LCA`, and safety/gate patterns as live. |
+| **Risk color as architecture decision** | A red, yellow, or green risk cell, risk matrix, or maturity score decides the architecture move or resource-allocation priority. | Recover the live structure kind, affected scope, loss, hazard, or threat path, support posture, characteristic scale, comparator, and gate pattern; do not treat ordinal risk color as architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation support, or gate passage. |
+| **Causal slogan** | Architecture property is said to cause a quality without support. | Start with `ArchitectureStructuralCharacteristicQBundleSupportLine`; open `C.28`, evidence or assurance support, or `ArchitectureCharacteristicQBundleSupportRecord` only when that stronger support claim is live. |
+| **Architecture-operation overread** | Replacing a block, module, layer, protocol, cache, memory path, or flow relation is treated as improvement by label alone. | Recover changed structure kind, preserved/lost structure, support source, affected characteristic, and decision/evidence exit. |
+| **Sterile compliance rewrite** | The text becomes well typed but no longer helps the practitioner act. | Restore `ArchitectureQuestionCard@Project`, a concrete next architecture move, or a named neighboring exit. |
+
+### C.30:9 - Consequences
+
+| Benefit | Cost or trade-off |
+| --- | --- |
+| Architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use names described holon, context, selected structure, and artifact role when the use is load-bearing. |
+| The pattern supports first-principles architecture reasoning without forcing full measurement, synthesis, assurance, or decision machinery. | Some familiar architecture phrases become triggers for quick recovery rather than accepted claims. |
+| Functional, flow, control, module/interface, information, placement, scale, work/evidence, and declared logical structures can coexist without one structure kind swallowing the rest. | Structural-view adequacy moves to `C.30.ASV`, so practitioners may need an explicit view application. |
+| C.29, E.18, LCA, module/interface, evidence, assurance, and gate patterns can support architecture work without becoming architecture ontology. | Neighboring exits are named whenever a support source is used beyond description adequacy. |
+
+### C.30:10 - Rationale
+
+Architecture is most useful in FPF when it stays close to selected structure over a holon and far away from document-as-architecture, graph-as-architecture, model-as-architecture, and decision-as-architecture collapses. The `ArchitectureOf@Context` record gives the selected structure a project-side claim handle without minting `U.Architecture`.
+
+C.30 and C.30.ASV establish an FPF architecture kernel: architecture as selected intensional structure for a described holon, with D/S descriptions and structural views, structure-kind discipline, correspondence and source-return boundaries, and characteristic-support exits. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
+
+The small first card is deliberate. Architecture discussions often need one immediate move: name the holon, choose the live structure kind, downgrade an artifact, assign an evidence or assurance claim to its governing pattern, or stop. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, or support reuse is live.
+
+The D/S split also preserves plurality. The same architecture claim may have several descriptions and views; several publications may render one description; several source records may support a view with different validation boundaries. C.30 keeps those variants usable without turning any one carrier into the architecture.
+
+### C.30:11 - SoTA-Echoing
+
+| Practice or source line | C.30 adoption | Action consequence | Boundary |
+| --- | --- | --- | --- |
+| ISO/IEC/IEEE 42010:2022 view, viewpoint, concern, and correspondence discipline | Adopt view/viewpoint/correspondence discipline for architecture descriptions. | Ask for architecture claim, `DescriptionContext`, viewpoint/correspondence posture, and next architecture move before notation-specific records. | Reject tool, notation, or method-description lock-in; FPF holon, episteme, view, and publication split stays governing. |
+| OMG SysML v2 and current MBSE traceability/model-consistency practice | Adapt model-view consistency and traceability as support when architecture description or traceability wording is load-bearing. | Use correspondence, source pins, support relations, and source-return conditions. | Reject model-as-architecture overread and tool dependence. |
+| SEI views-and-beyond lineage plus current multi-view practice | Keep module, component/connector, runtime interaction, allocation, and placement as separate view pressures. | Do not reduce architecture to module/interface structure; assign structural-view claims to `C.30.ASV`. | Older view taxonomies are lineage and comparison support, not a second FPF ontology. |
+| arXiv:2603.00601 code-space architecture relation-graph work and related code-agent architecture probing benchmarks | Adapt partial-observability probing, typed edge rules, component-boundary rules, invariant-field semantics, uncertainty or unexplored-region reporting, and probe-as-intervention warning. | A generated code relation graph can support an architecture description or structural view only with claim, source, uncertainty, relation semantics, and source return. | Do not mint `U.CodeSpace`; do not treat probe or benchmark output as architecture adequacy, evidence sufficiency, assurance, or release. |
+| GonzoML neural-network architecture corpus as practitioner operation-language intake | Adopt practitioner architecture-operation language as general architecture material: structural substitution, relation retargeting, dataflow change, path-selection and gating, memory and cache placement, block and layer substitutions, MoE expert-selection, pruning, distillation, NAS, ablation, and compute/memory/latency tradeoffs. | Use the language for architecture-description and architecture-view recognition, TGA flow-structure support, module/interface repair, scale characterization, candidate move guidance, and decision-support fields. | Neural-network labels, benchmarks, ablations, pruning masks, search outputs, or distillation success do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
+| Platform-engineering and MOSA/open-systems practice | Adapt open-interface and platform-readiness pressure as local architecture boundary discipline. | For an open/platform claim, name the local structure, interface, variation point, substitution policy, conformance-evidence exit, migration boundary, update channel, and hardening boundary that change action. | Platform design depends on project, organization, time, and place; there is no universal platform maturity scale or open-label proof. |
+| ADR and architecture-knowledge-management practice | Adopt decision-memory pressure only as a neighboring project-side decision concern. | Treat ADR-like material as publication or decision-description support until the architecture decision pattern is live. | ADR is not the project decision itself and not a source of release authority. |
+
+### C.30:12 - Relations
+
+Builds on: `A.22`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D2`, `E.17.0`, `E.17.1`, `E.17`, `E.17.2`, `A.6.P`, `F.18`, `E.10`, and `E.10.SEMIO`.
+
+Coordinates with: `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named receiving patterns for architecture decision and candidate-set claims when those claim kinds are live.
+
+Does not replace: A.22 structure carrier, C.30.ASV structural-view adequacy, E.TGA graph/path/crossing discipline, C.29 mathematical-lens adequacy, C.16 characterization, C.25 Q-Bundles, C.28 causal-use support, A.10/G.6 evidence, B.3 assurance, A.20/A.21 gate/release records, A.15 work, C.11 decisions, or E.17 publication.
+
+### C.30:End
+
+## C.30.ASV - Architecture Structural View Adequacy (ASV)
+
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.30.ASV:1 - Problem frame
+
+Use this pattern when an architecture discussion needs to say which selected structure is being viewed, not merely that there is a diagram, model, table, dashboard, ADR, generated relation graph, or generic "view".
+
+The first useful move is `ArchitectureStructureKindTriage@Project`:
+
+```text
+ArchitectureStructureKindTriage@Project:
+architectureClaimRef?:
+describedHolonRef?:
+boundedContextRef?:
+
+live architecture concern:
+suspected wrong collapse:
+practitioner prompt label:
+candidate structure kinds:
+smallest useful structure-kind set:
+primaryPatternExitRef:
+admissibleArchitectureMove:
+neighboringPatternExitRefs:
+stop condition:
+```
+
+Ordinary minimum: name the live architecture object or the described holon and bounded context, the one structure kind or structure-kind set that changes action, one non-admissible overread, and the next admissible architecture move or stop. All other fields are conditional and may be `not live`.
+
+Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a view over selected architecture-relevant structure changes the next architecture move. Use the triage record when it names the live structure kind and the next admissible architecture move. Open a full `ArchitectureStructuralView@Context` only when the view changes action, support, correspondence, source return, publication, comparison, evidence, assurance, gate, decision, or neighboring-pattern use.
+
+
+What goes wrong if C.30.ASV is missed: "architecture" silently means "module diagram"; a view becomes a publication face; a viewpoint becomes a structure kind; TEVB is stretched into a full architecture ontology; a Transduction Graph Architecture (TGA) graph, Layered Control Architecture (LCA)/control sketch, code-agent relation graph, or neural-network block diagram becomes the architecture by appearance.
+
+What C.30.ASV buys in practice: the practitioner can name the architecture claim, selected structures, structure kind, viewpoint, selected relation kinds, selected constraints, selected invariants, live operation or dynamics descriptions, hidden or lost structure, correspondence, support relation, source-return condition, admissible use, and non-admissible use before relying on a view.
+
+Not this pattern when the live question is only the general architecture claim. Use `C.30`. If the live question is structure as such, use A.22. If the view is a TGA graph/path/crossing relation, use `E.18` and `C.30.TGA-FLOW-REL` when architecture-flow description is live. If the view is used as evidence, assurance, causal proof, gate result, work record, release permission, or decision authority, use the exact neighboring pattern and keep C.30.ASV only to the view portion.
+
+### C.30.ASV:2 - Problem
+
+An architecture structural view is not a generic view. It is a D/S view over one or more `candidate:U.Structure` references selected by an `ArchitectureOf@Context` claim record. A conforming architecture structural view keeps the D/S relation, described entity, bounded context, structure references, structure kind, viewpoint, hidden or lost structure, correspondence, support relation, source return, and admissible use recoverable.
+
+Without this pattern:
+
+- a module/interface view is treated as all architecture;
+- a TGA graph or control diagram is treated as proof;
+- a structure kind is treated as a `U.Viewpoint`;
+- a TEVB viewpoint bundle is mutated to carry architecture-specific structure kinds;
+- a diagram, table, dashboard, generated relation graph, or ADR is treated as the view itself;
+- functional architecture is treated as a peer ontology rather than a structure-kind reading under C.30;
+- cross-view consistency is asserted by prose instead of correspondence records;
+- omitted structure is relied on in subsequent work without a source-return condition.
+
+### C.30.ASV:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| View usefulness vs view overread | Views make architecture discussable, but a useful artifact can be mistaken for the architecture claim, selected structure, publication, proof, or decision. |
+| Structure kind vs viewpoint | A structure kind classifies selected structure; a viewpoint names a way of viewing. They often travel together but are not the same kind. |
+| TEVB reuse vs TEVB mutation | TEVB gives useful engineering viewpoints over holons; architecture needs more structure kinds without expanding the TEVB core by implication. |
+| Small triage vs full view record | Many cases need only the live structure kind and next move; full view records are justified only when they change action. |
+| Multi-view correspondence vs single-view shortcut | Architecture work often needs relations among functional, flow, control, module, information, work, evidence, scale, and placement views; one favored diagram cannot carry all claims. |
+| Hidden structure vs practical compression | A useful view omits something; omitted structure becomes a problem only when subsequent action relies on it. |
+
+### C.30.ASV:4 - Solution
+
+Govern architecture structural views with `ArchitectureStructuralView@Context` records. A conforming record is a D/S view over selected `candidate:U.Structure` references in one `ArchitectureOf@Context` claim record, under one declared `ArchitectureStructureKindRef` and one `DescriptionContext.ViewpointRef`.
+
+C.30.ASV does not extend the TEVB core viewpoint set by implication. It defines architecture structure kinds and architecture-specific structure-kind/view-record bindings. TEVB viewpoints are reused when the structure-kind view uses one of the TEVB core viewpoints; other structure-kind views use `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, a neighboring FPF pattern, or a support record.
+
+#### C.30.ASV:4.1 - Architecture structural view record
+`StructuralAspectDescription@Context` describes one selected structural aspect under A.22. It is not an `ArchitectureStructureKindRef` by itself. `ArchitectureStructuralView@Context` is a C.30.ASV view over structures selected by `ArchitectureOf@Context` and typed by `ArchitectureStructureKindRef`.
+
+```text
+ArchitectureStructuralView@Context ::= {
+  viewId,
+  architectureClaimRef: ArchitectureOf@ContextRef,
+  descriptionContext: DescriptionContext(
+    DescribedEntityRef = architectureClaimRef,
+    BoundedContextRef = ArchitectureOf@Context.boundedContextRef,
+    ViewpointRef = viewpointRef
+  ),
+  viewpointRef: U.ViewpointRef (= descriptionContext.ViewpointRef),
+  structureRefs: FinSet(candidate:U.StructureRef),
+  structureKindRef: ArchitectureStructureKindRef,
+  recordGoverningPatternRef,
+  selectedRelationKinds,
+  selectedConstraintRefs?,
+  selectedInvariantRefs?,
+  selectedOperationOrDynamicsDescriptionRefs?,
+  viewConstruction:
+    directDescription | projection | query | extraction |
+    coarsening | correspondenceSlice | sourceReturnSlice,
+  structuralAspectDescriptionRef?,
+  hiddenOrLostStructure,
+  structureKnowledgePosture?:
+    declared | observed | inferred | generated | simulated |
+    extracted | hypothesized | unknownRegionPresent,
+  correspondenceModelRefs?,
+  supportRelationRefs?,
+  sourceReturnCondition?,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+`DescriptionContext.DescribedEntityRef` is the `ArchitectureOf@Context` claim record. The described holon is recovered through `architectureClaimRef.describedHolonRef`. The bounded context is recovered through the claim record and `DescriptionContext`.
+
+`viewpointRef` is a recovery label for `descriptionContext.ViewpointRef`, not a second independent viewpoint slot. If the implementation stores only `DescriptionContext`, the viewpoint remains recoverable there.
+
+`structureKnowledgePosture?` states how the selected structure is known when partial knowledge matters: declared, observed, inferred, generated, simulated, extracted, hypothesized, or with an unknown region present. Unknown or inferred structure may guide inspection or source return; it cannot by itself support assurance, gate, release, causal proof, or architecture decision.
+
+#### C.30.ASV:4.2 - Architecture structure-kind classifier
+
+`ArchitectureStructureKindRef` is a C.30-local `DiscriminatorToken` enumeration over architecture-relevant `candidate:U.Structure` references selected by `ArchitectureOf@Context`. It is not `U.Kind`, `U.Viewpoint`, `U.ViewpointBundle`, `StructuralAspectDescription`, `StructuralView@Context`, or a root `U.*` kind. `ArchitectureStructuralView@Context` uses `structureKindRef` to say which selected structure kind is being viewed.
+
+```text
+ArchitectureStructureKindRef ::= one of {
+  FunctionalStructure,
+  FlowTransductionStructure,
+  ControlStructure,
+  ModuleInterfaceStructure,
+  RuntimeInteractionStructure,
+  PlacementDeploymentStructure,
+  InformationDataStructure,
+  SecurityTrustBoundaryStructure,
+  ConstraintRequirementStructure,
+  MaterialSpatialStructure,
+  DeclaredLogicalStructure,
+
+  WorkMethodStructure,
+  RoleEnactorStructure,
+  EvidenceAssuranceStructure,
+  ScaleEvolutionStructure,
+  OtherDeclaredStructureKind
+}
+```
+
+The first group is the seed classifier set for ordinary architecture structural-view use. `WorkMethodStructure`, `RoleEnactorStructure`, `EvidenceAssuranceStructure`, and `ScaleEvolutionStructure` are neighbor-governed classifier values: ASV may use them to name the selected architecture-relevant structure, but their full semantics stay in the named work/method, role/enactor, evidence/assurance, scale, characterization, or mathematical-lens patterns.
+Do not enumerate structure kinds by default. Choose the smallest useful structure-kind set that changes the next architecture move. If no structure kind changes action, keep the phrase as ordinary recognition wording or a source note. This does not weaken kind discipline; it prevents `ArchitectureStructureKindRef` from becoming an audit checklist.
+
+Inside C.30.ASV, `OtherDeclaredStructureKind` is always an architecture-structure-kind classifier value over `candidate:U.Structure`; it does not mint a general FPF root kind.
+
+`OtherDeclaredStructureKind` is admissible only when the local text names:
+
+- `declaredStructureKindName`;
+- `declaredStructureKindDefinition`;
+- allowed relation families;
+- common false readings;
+- neighboring-pattern exits;
+- `boundedContextRef`.
+
+Each structure kind needs a short definition, allowed relation families, common false readings, typical neighboring-pattern exits, and example architecture structural view records. This is not a new root-kind set; it is a controlled classifier set over `candidate:U.Structure`.
+
+
+#### C.30.ASV:4.3 - Small triage output
+
+Use `ArchitectureStructureKindTriage@Project` before a full view record when the practitioner only needs to identify the live structure kind and next architecture move.
+
+```text
+ArchitectureStructureKindTriage@Project ::= {
+  architectureClaimRef?: ArchitectureOf@ContextRef,
+  describedHolonRef?: U.HolonRef,
+  boundedContextRef?: U.BoundedContextRef,
+  liveArchitectureConcernCue,
+  suspectedWrongCollapse,
+  plainPromptLabel,
+  candidateStructureKindRefs: FinSet(ArchitectureStructureKindRef),
+  smallestUsefulStructureKindRefs,
+  structureKnowledgePosture?,
+  primaryPatternExitRef,
+  falseNeighborPatternRefs?,
+  admissibleArchitectureMove:
+    inspect | split | relate | downgrade | assignNeighbor | stop |
+    otherDeclared,
+  candidateGenerationExit?: yes | no,
+  neighboringPatternExitRefs,
+  stopCondition
+}
+```
+
+`primaryPatternExitRef` names the pattern that carries the next live claim kind. `candidateGenerationExit?` marks that the next admissible move is to leave ASV for candidate generation; it is not ASV work. `falseNeighborPatternRefs?` names tempting wrong first patterns when that repair is needed. None of these fields governs the triage record itself; C.30.ASV governs the triage record family.
+When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the live structure kind before opening a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
+
+
+Practitioner prompt labels are first-entry cues, not `ArchitectureStructureKindRef` values. Load-bearing records use the Tech values below:
+
+
+```text
+Functional -> FunctionalStructure
+Flow -> FlowTransductionStructure
+Control -> ControlStructure
+Module -> ModuleInterfaceStructure
+Method/work -> WorkMethodStructure
+Role -> RoleEnactorStructure
+Evidence -> EvidenceAssuranceStructure
+Scale -> ScaleEvolutionStructure
+Security -> SecurityTrustBoundaryStructure
+
+```
+
+#### C.30.ASV:4.4 - Architecture viewpoint bundle and binding rows
+
+Architecture structural views use `VF.ARCH.STRUCTURE` without turning structure kinds into viewpoints. The bundle is separate from `VF.TEVB.ENG`: it may import TEVB, but it does not expand the TEVB core engineering viewpoint set.
+
+Declaration basis: `VF.ARCH.STRUCTURE` is an `E.17.1`/`F.18` declared viewpoint bundle for architecture structural-view records. Its `VP.Architecture*` ids are viewpoint ids only. They do not add TEVB viewpoints, name structure kinds, define publication faces, or carry decision, evidence, gate, or assurance authority.
+
+```text
+VF.TEVB.ENG core stays:
+  { VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface }
+```
+
+TEVB is the small engineering viewpoint bundle over holons. The architecture problem is broader than TEVB, but the broader coverage is not solved by placing record sets inside a `U.ViewpointBundle`. The `U.ViewpointBundle` carries viewpoints; a separate architecture-local description binds structure kinds, view record sets, construction modes, correspondence obligations, and neighboring exits.
+
+```text
+VF.ARCH.STRUCTURE : U.ViewpointBundle {
+  viewFamilyId = VF.ARCH.STRUCTURE,
+  imports = { VF.TEVB.ENG },
+  EoIClassSpec = {
+    a : ArchitectureOf@Context |
+    a.describedHolonRef and a.boundedContextRef are recoverable
+  },
+  viewpoints = {
+    VP.ArchitectureStructure,
+    VP.ArchitectureCorrespondence,
+    VP.ArchitectureSourceReturn,
+    VP.ArchitectureDecisionAffectedStructure
+  }
+}
+
+ArchitectureStructureKindViewRecordBinding ::= {
+  structureKindRef: ArchitectureStructureKindRef,
+  allowableViewpointRefs: FinSet(U.ViewpointRef),
+  viewRecordSetRef,
+  allowedViewConstructionModes,
+  requiredCorrespondenceRefs?,
+  sourceReturnRequirement?,
+  neighboringPatternExitRefs
+}
+```
+
+`viewRecordSetRef` names the allowed D/S record set for one structure-kind binding. It is not a package grouping, not a `U.ViewpointBundle`, not a `ViewFamilyId`, and not a new TEVB viewpoint.
+
+#### C.30.ASV:4.5 - Initial architecture structure kinds and view records
+
+The initial set is a seed for first architecture moves, not an atlas. Use the table to choose one live structure kind and the neighboring exit that carries any stronger claim.
+
+| Seed structure kind | Structural view | Minimum record fields beyond common ASV fields | First boundary |
+| --- | --- | --- | --- |
+| `FunctionalStructure` | `FunctionalStructureView@Context` | function/effect refs, capability refs, dependency refs, allocation refs | Use `A.6.F`, capability, work, or requirement patterns when those claims are live. |
+| `FlowTransductionStructure` | `FlowTransductionStructureView@Context` | `transductionGraphRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs` | Use `E.18` and `C.30.TGA-FLOW-REL` for graph/path/crossing support; use `C.28` for causal claims. |
+| `RuntimeInteractionStructure` | `RuntimeInteractionStructureView@Context` | runtime elements, connectors/protocols, event/message topology, failure/latency boundaries | Use temporal, failure, evidence, or assurance patterns when runtime claims exceed structure. |
+| `ModuleInterfaceStructure` | `ModuleInterfaceStructureView@Context` | module relation refs, interface specs, admissibility conditions, substitutability/change policy | Use the exact module/interface repair pattern and conformance evidence when those claims are live. |
+| `PlacementDeploymentStructure` | `PlacementDeploymentStructureView@Context` | allocation-to-site/environment refs, network/physical locality, jurisdiction/safety constraints | Use temporal, evidence, legal/regulatory, or safety patterns for those stronger claims. |
+| `InformationDataStructure` | `InformationDataStructureView@Context` | state bearer and residence refs, schema refs, semantic refs, persistence locus, provenance relation, custody relation, source-return conditions, privacy constraints | Use evidence, privacy, or source-return patterns when those claims are live. |
+| `SecurityTrustBoundaryStructure` | `SecurityTrustBoundaryStructureView@Context` | protected asset or effect refs, trust boundary refs, untrusted input refs, privilege or authority refs, data-flow and control-flow refs, attack exposure refs, abuse or misuse path refs, secure-default or hardening boundary, supply-chain or update-channel refs, detection-response boundary refs when live | Gives a first security-architecture move before evidence, assurance, gate, risk-score, or compliance proof. |
+| `ControlStructure` | `ControlStructureView@Context` | control role refs, declared control-rate refs, observer/estimator/controller/planner/supervisor relations, feedback refs | Use `C.30.LCA`, dynamics, temporal, causal, evidence, and assurance patterns when those claims are live. |
+| `ConstraintRequirementStructure` | `ConstraintRequirementStructureView@Context` | requirement/constraint/invariant refs, affected structure refs, admissibility conditions | Requirements shape structures; requirement, gate, evidence, causal, or decision claims exit. |
+| `MaterialSpatialStructure` | `MaterialSpatialStructureView@Context` | geometry, adjacency, containment, energy/material flow, safety separation | Physical separation is not safety proof; safety, evidence, dynamics, or causal claims exit. |
+| `DeclaredLogicalStructure` | `LogicalStructureView@Context` | local logical relation class, relation constraints, correspondence to functional/module/runtime/data structures | Covers `logical architecture` without making `logical` a universal ontology token. |
+
+Neighbor-governed classifier values remain admissible when they are the live architecture-relevant structure, but C.30.ASV does not define their full record families:
+
+| Neighbor-governed classifier value | ASV use | Full semantics and exits |
+| --- | --- | --- |
+| `WorkMethodStructure` | Method/work arrangement changes the architecture move. | Use `MethodDescription`, `WorkPlan`, `WorkEnactment`, exception path, launch/gate relation, and `A.15` exits; do not turn a work-method diagram into work authority. |
+| `RoleEnactorStructure` | Responsibility or enactor allocation changes the architecture move. | Use role, enactor, organization, work, and stakeholder patterns for the stronger claim; do not treat an org chart as architecture truth. |
+| `EvidenceAssuranceStructure` | Evidence reuse or assurance arrangement changes affected structure or source return. | Use `A.10`, `G.6`, or `B.3` for evidence sufficiency or assurance verdict; ASV only names the structure and loss boundary. |
+| `ScaleEvolutionStructure` | Scale window, replacement path, or coarse-graining changes the architecture move. | Use `C.29`, `C.16`, temporal, source-return, or decision patterns for scale, characterization, or selection claims. |
+| `OtherDeclaredStructureKind` | A local structure kind is declared because none of the seed or neighbor-governed values fits. | Name definition, relation families, false readings, exits, and context; do not mint a root kind by label alone. |
+
+Minimum useful seed examples:
+
+| Structure kind | Minimal example | False reading | First exit |
+| --- | --- | --- | --- |
+| `FunctionalStructure` | Capability, effect, or transformation allocation. | Purpose truth or requirement satisfaction. | `A.6.F`, capability, work, or requirement pattern as live. |
+| `FlowTransductionStructure` | Path, crossing, valuation, or transduction slice. | Whole architecture or causal proof. | `E.18`, `C.30.TGA-FLOW-REL`, C.29, or C.28 as live. |
+| `ControlStructure` | Controller, observer, plant, feedback, or rate relation. | Stability, safety, or assurance proof. | `C.30.LCA`, temporal, dynamics, causal, evidence, or assurance support as live. |
+| `ModuleInterfaceStructure` | Module relation, interface spec, or substitutability boundary. | Module tree as all architecture. | Exact module/interface repair pattern, conformance evidence, or decision pattern as live. |
+| `InformationDataStructure` | State bearer, residence, provenance, and custody. | Database label. | Evidence, privacy, or source return as live. |
+| `SecurityTrustBoundaryStructure` | Trust boundary, untrusted input, privilege path, or attack exposure. | Security proof, risk score, or compliance label. | Evidence, assurance, gate, C.24, C.16, C.25, or C.30.LCA as live. |
+| `MaterialSpatialStructure` | Separation, adjacency, containment, or energy/material path. | Safety proof or geometry as architecture truth. | Safety, evidence, dynamics, or causal support as live. |
+| `DeclaredLogicalStructure` | Local logical relation class with correspondence to other structures. | Universal logical architecture ontology. | Correspondence, function, module, runtime, data, or exact declared-neighbor pattern as live. |
+Minimal `SecurityTrustBoundaryStructureView@Context` fields:
+
+```text
+SecurityTrustBoundaryStructureView@Context ::= {
+  architectureStructuralViewRef:
+  protectedAssetOrEffectRefs:
+  trustBoundaryRefs:
+  untrustedInputRefs:
+  privilegeOrAuthorityRefs:
+  dataFlowOrControlFlowRefs:
+  attackExposureRefs:
+  abuseOrMisusePathRefs:
+  secureDefaultOrHardeningBoundary:
+  updateOrSupplyChainChannelRefs:
+  detectionResponseBoundaryRefs?:
+  neighboringPatternExitRefs:
+    A.10 | G.6 | B.3 | C.28 | A.20 | A.21 |
+    C.16 | C.25 | C.24 when tool authority or agentic tool-use is live | C.30.LCA when control relation is live
+  admissibleUse:
+  nonAdmissibleUse:
+    not compliance proof, not risk score, not assurance verdict, not security by checklist, not secure because a diagram says "zero trust"
+}
+```
+
+`SecurityTrustBoundaryStructure` carries adversarial-boundary reading: which protected assets or effects are live, who or what is trusted, where untrusted input crosses, what authority or privilege is exposed, which adversarial paths and attack exposures matter, which data-flow or control-flow security boundaries matter, and where secure defaults, hardening, update or supply-chain channels, detection, or response boundaries change the next architecture move.
+
+Do not open evidence, assurance, gate, or compliance support only because the topic is safety, security, or regulation. Open it when the architecture move relies on evidence sufficiency, assurance verdict, gate passage, regulatory acceptance, or release authority. If the live move is structural, first recover the structure: trust boundary, loss-control relation, control relation, evidence reuse structure, or affected structure/view.
+
+Use a `SafetyLossControlStructureNote` when a safety-architecture concern first needs the architecture-side loss-control structure rather than a safety-case verdict:
+
+```text
+SafetyLossControlStructureNote:
+  lossOrHarm:
+  hazardOrUnsafeState:
+  unsafeControlActionOrMissingControl:
+  controlledProcessOrPlantRef:
+  controlConstraintRef:
+  feedbackOrObservabilityBoundary:
+  timingOrRateBoundary:
+  operationalDesignScopeOrMisuseScope:
+  foreseeableMisuseRefs?:
+  architectureStructureKindRefs:
+    ControlStructure | ConstraintRequirementStructure |
+    SecurityTrustBoundaryStructure | InformationDataStructure |
+    EvidenceAssuranceStructure
+  neighboringPatternExitRefs:
+    A.3.3 dynamics, C.27 temporal or rate,
+    C.28 causal-use, A.10/G.6 evidence,
+    B.3 assurance, A.20/A.21 gate
+  nonAdmissibleUse:
+    not safety proof, not safety-case verdict, not regulatory acceptance
+```
+
+The note gives a positive first architecture move: find the loss-control structure, controlled process or plant, constraint, foreseeable misuse, operational design scope, and action-relevant boundary. It does not replace evidence, assurance, gate, causal, dynamics, or temporal support.
+
+#### C.30.ASV:4.6 - Functional structure view boundary
+
+
+
+`FunctionalStructureView@Context` under C.30.ASV does not mint `U.Function`. A functional element is a description-side architecture element under `VP.Functional` unless separately grounded as `U.Capability`, `U.Method`, `U.Work`, `U.Role`, or another existing FPF kind.
+
+```text
+FunctionalStructureView@Context ::= {
+  architectureStructuralViewRef: ArchitectureStructuralView@ContextRef,
+  functionOrEffectRefs?,
+  capabilityRefs?,
+  functionalDependencyRefs?,
+  allocationRefs?,
+  nonFunctionCarrierNotes?,
+  flowRelationRefs?,
+  moduleInterfaceRelationRefs?,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+A transduction graph, path slice, crossing, or flow valuation is not a functional element. When flow is live, connect the functional view to `FlowTransductionStructure` through `C.30.TGA-FLOW-REL`. When module allocation is live, connect the functional view to the exact module/interface repair pattern rather than treating function and module as one object.
+
+Composability and quality compositionality are separate claims. If the view says parts can be assembled, keep that as a structure/use claim. If it says a whole-system quality follows from parts, assign the quality-composition claim to `C.25` and C.16 support.
+
+```text
+Composability:
+  "A and B can be assembled under interface X."
+  recoveredCarrierKind: ModuleAllocationRelation | InterfaceSpecification
+Quality compositionality:
+  "The assembled whole preserves safety, latency, or reliability."
+  recoveredCarrierKind: QBundleSlot | structuralCharacteristicSupportsQBundleSlot | structuralCharacteristicCausalHypothesisForQBundleSlot | structuralCharacteristicEvidenceSupportForQBundleSlot
+Non-admissible:
+  successful assembly is not quality propagation
+```
+
+Compositional formalisms may support explicit composition structures and view/model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
+
+#### C.30.ASV:4.7 - Correspondence and source return
+
+Use correspondence records when the view relates functional, flow, control, module/interface, information, runtime, placement, work, evidence, scale, or logical structures. Do not assert cross-view consistency by prose alone.
+
+Correspondence examples:
+
+| Source wording | Recover |
+| --- | --- |
+| "This function is implemented by that module." | `FunctionToModuleAllocationRef` or the exact neighboring carrier. |
+| "This flow crosses that runtime boundary." | `FlowToRuntimeInteractionCorrespondence`. |
+| "This evidence covers the replacement." | `EvidenceReuseToAffectedStructure`; assign sufficiency or verdict to `A.10`, `G.6`, or `B.3`. |
+| "This requirement constrains that structure." | `RequirementToStructureConstraint` or exact constraint carrier. |
+| "This scale window changes the structure kind." | `ScaleWindowToStructureKindCorrespondence`; assign scale-lens claims to `C.29` when live. |
+
+Use `SourceReturnCondition` when compression, extraction, coarsening, evidence reuse, ML evaluation, bounded exception, many-to-many allocation, publication, or decision support hides a distinction needed for action, assurance, causal use, legal review, regulatory review, comparison, or reopening.
+
+If `viewConstruction` is `query`, `extraction`, `coarsening`, `correspondenceSlice`, or `sourceReturnSlice`, and omitted structure changes action, assurance, causal use, legal or regulatory review, or subsequent decision reopening, `SourceReturnCondition` is live.
+
+When the view is used to name affected structures for a next move but no decision record is live, use C.30 `AffectedArchitectureStructureNote`: affected structure kinds, affected structure refs when known, affected ASV refs, accepted or suspected view loss, source-return condition, and the next admissible move. The note is not an architecture decision, ADR, gate passage, evidence sufficiency, or release authority.
+
+Use the thinnest support form that preserves the next architecture move. Open fuller support only when the current support relation cannot be inspected, used, compared, refreshed, or bounded without it. A `ControlStructureViewNote` may precede full `C.30.LCA` use or proof-neighbor exits when one control relation and its boundary are enough for the current move.
+
+Treat source return as a user action, not only a metadata field:
+
+```text
+SourceReturnAction:
+  returnTo:
+    sourceStructure | sourceEpisteme | sourceView | sourceTrace |
+    sourceCorpus | sourceModel | sourceEvidence | sourcePublication
+  because:
+    hiddenRelation | lostConstraint | coarsenedScale |
+    ambiguousExtraction | staleEdition | crossViewMismatch |
+    legalOrRegulatoryUse | assuranceOrDecisionUse
+  nextMove:
+    inspect | split | downgradeUse | addCorrespondence |
+    openNeighborPattern | stop
+```
+
+
+Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. Do not omit source return when a hidden distinction carries support, assurance, legal, comparison, causal, gate, or decision load. The condition is live only when the repaired text still relies on the hidden source-side distinction.
+
+Model cards, system cards, and evaluation harness reports may publish or support an architecture structural view only when the structural-view claim is recoverable. The view must name the relevant structure kind, such as `RuntimeInteractionStructure`, `InformationDataStructure`, `SecurityTrustBoundaryStructure`, `EvidenceAssuranceStructure`, `ModuleInterfaceStructure`, or another declared structure kind; it must also state intended-use scope, evaluation scope and known loss when evaluation is used, deployment-context mismatch when live, and the evidence or assurance exit when the publication is used beyond transparency. A card or harness is not architecture adequacy, safety proof, or release/gate support by publication alone.
+
+#### C.30.ASV:4.8 - Worked slices
+
+**Runtime degradation.** A team says, "The architecture is fine, but incidents happen when failover starts." The first architecture move is to recover the runtime and support structures before turning a dashboard or deployment diagram into proof:
+
+```text
+Runtime degradation slice:
+  active structure kinds:
+    RuntimeInteractionStructure
+    ControlStructure
+    InformationDataStructure
+    PlacementDeploymentStructure
+    EvidenceAssuranceStructure
+  first architecture move:
+    recover runtime interaction topology, control/failover relation,
+    state custody, placement/locality, and evidence/observability support
+  nonAdmissibleUse:
+    deployment diagram as runtime proof,
+    observability dashboard as evidence sufficiency,
+    green status as gate/release authority
+```
+
+Use `C.24` only when tool-use, call planning, call graph, work execution, or budgeted agentic tool-use is the live claim. Do not absorb those claims into architecture structure.
+
+**CPS or plant architecture.** A plant drawing, P&ID-like artifact, LCA sketch, or safety-case view is not the plant architecture by itself. First recovery may need:
+
+```text
+CPS/plant architecture first recovery:
+  MaterialSpatialStructure:
+    physical separation, adjacency, energy/material path
+  ControlStructure:
+    controller, plant, observer, supervisor, control rate
+  InformationDataStructure:
+    sensor data semantics, provenance, custody, source return
+  PlacementDeploymentStructure:
+    locality, environment, jurisdiction, safety separation
+  EvidenceAssuranceStructure:
+    evidence reuse boundary and affected structures
+first architecture move:
+  relate physical separation, sensor data semantics, control rate,
+  placement boundary, and evidence reuse
+correspondenceOrLossLine:
+  record which separation, data, control-rate, placement, or evidence-reuse
+  relation is preserved by the slice and which structure is hidden or lossy
+stop condition:
+  no P&ID, LCA diagram, or safety case is treated as the architecture
+```
+
+**Chiplet or device architecture.** A packaging diagram or interconnect sketch may open several structure kinds:
+
+```text
+Chiplet/device architecture first recovery:
+  MaterialSpatialStructure:
+    packaging, adjacency, thermal path, energy path
+  FlowTransductionStructure:
+    interconnect topology, data/energy/signal flow path
+  ModuleInterfaceStructure:
+    interface specification, protocol, conformance boundary
+  PlacementDeploymentStructure:
+    physical locality, substrate, host environment
+first architecture move:
+  separate interconnect topology, packaging/thermal/energy path,
+  interface specification, and evidence/conformance boundary
+correspondenceOrLossLine:
+  record the preserved relation among interconnect, physical package,
+  interface, and placement, plus any benchmark or packaging-view loss
+stop condition:
+  no packaging diagram or benchmark becomes performance, safety,
+  evidence, or gate proof by appearance
+```
+
+**Organization or operating-model architecture.** An org chart or work-method diagram can be architecture-relevant only after the work, role, information, and evidence carriers are separated:
+
+```text
+Organization/operating-model architecture first recovery:
+  RoleEnactorStructure:
+    responsibility allocation and enactment boundary
+  WorkMethodStructure:
+    repeatable work method and exception path
+  InformationDataStructure:
+    information custody, state residence, provenance
+  EvidenceAssuranceStructure:
+    evidence reuse, approval, audit trail, source return
+first architecture move:
+  relate responsibility allocation, work repeatability,
+  information custody, and evidence reuse
+correspondenceOrLossLine:
+  record the preserved relation among role, work, information, and evidence
+  structures, plus any org-chart or work-method-diagram loss
+stop condition:
+  no org chart or work-method diagram is treated as the architecture, decision,
+  evidence sufficiency, or assurance verdict
+```
+
+**Evidence reuse across product variants.** A certification or test package reused across module variants may be architecture-relevant as an evidence/assurance structure view, but it is not an assurance verdict:
+
+```text
+Evidence reuse across product variants:
+  structureKindRef: EvidenceAssuranceStructure
+  structuralFeature:
+    evidence package shared across module variants
+  affectedQBundleSlot:
+    assurance maintainability or release readiness
+  architectureMove:
+    name affected structures, variant boundary, hidden view losses,
+    and source-return condition
+  neighboringPatternExitRefs:
+    A.10/G.6/B.3 for evidence sufficiency or assurance verdict
+  nonAdmissibleUse:
+    evidence-structure view as assurance verdict
+```
+
+**AI agent diagram.** A "planner-memory-tools" diagram is not the agent's architecture by itself. It may open first recovery as a structure-kind set, without minting an AI-domain ontology:
+
+```text
+AI-agent architecture first recovery:
+  RuntimeInteractionStructure:
+    model-tool-memory-planner-evaluator-human topology
+  InformationDataStructure:
+    memory scopes, data custody, provenance, retention,
+    context-window/source-return
+  SecurityTrustBoundaryStructure:
+    untrusted content channels, prompt-injection or instruction boundary,
+    tool authority, secret-bearing contexts, memory/data custody crossing,
+    output handling, supply-chain or update path
+  ModuleInterfaceStructure:
+    tool/API/interface specs and substitutability limits
+  EvidenceAssuranceStructure:
+    eval harness, human approval, evidence decay, incident feedback
+admissibleArchitectureMove:
+  split runtime interaction, information, security boundary, module-interface, and evidence-assurance claims before relying on the diagram
+correspondenceOrLossLine:
+  record the preserved relation among runtime topology, information custody,
+  security boundary, module-interface, and evidence-assurance structures,
+  plus any diagram or evaluation-harness loss
+neighboringPatternExitRefs:
+  C.30.TGA-FLOW-REL when E.18 flow support is live,
+  exact module/interface repair pattern for tool, API, or interface relation claims,
+  A.10/G.6/B.3 when evidence or assurance reliance is live,
+  C.24/E.16/A.20/A.21 when tool-call, autonomy, constraint, or gate authority is live
+stop condition:
+  no evidence sufficiency, assurance, gate, autonomy, or tool-call authority remains inside ASV
+```
+
+Structural AI-agent security is architecture structure when these structure kinds change the next architecture move. When the live claim is latent representation, decoding, or effect adequacy rather than architecture structure, keep the phrase as a reduced-use source cue until the exact neighboring representation, decode, or effect-adequacy pattern carries that claim.
+
+**Generated code-agent relation graph.** A probe JSON or code-agent architecture relation graph can be an architecture structural view publication only after observed/inferred/unknown status, evidence/source pointers, unexplored regions, typed relation semantics, and source-return conditions are present. It is not proof of the agent's internal belief and not assurance that a downstream code change is safe.
+
+**Neural-network block replacement.** Replacing attention, FFN, convolution, SSM, recurrent, memory/cache, MoE expert-selection, pruning, distillation, or another block is an architecture move only when the changed structure kind, flow relation, module/interface claim kind, preserved and lost structure, affected characteristic, support source, and decision or evidence exit are named.
+
+### C.30.ASV:5 - Archetypal Grounding
+
+| Tell-Show-Show row | Grounding |
+| --- | --- |
+| Tell | A practitioner looks at an architecture "view" and asks whether it is functional, flow, control, module/interface, information/data, placement, scale, work/evidence, or declared logical structure. C.30.ASV turns that question into structure-kind triage or a full structural view record. |
+| Show: `U.System` | A plant, vehicle, software system, product platform, AI-agent system, or neural-network model may need several structural views over the same architecture claim. One module view does not exhaust the system architecture, and one flow graph does not prove work, evidence, safety, or release. |
+| Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram is an episteme, view, or publication face. It can publish an architecture structural view only when the architecture claim, structure refs, structure kind, viewpoint, hidden/lost structure, correspondence, support, and admissible use are recoverable. |
+
+### C.30.ASV:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: architecture structural-view claims over holons.
+
+| Bias risk | Mitigation |
+| --- | --- |
+| Module-view bias | Make module/interface one structure kind, not the default meaning of architecture. |
+| Viewpoint-kind conflation | Keep structure kind, viewpoint, view record, and viewpoint bundle separate. |
+| TEVB mutation bias | Import TEVB where useful; do not expand `VF.TEVB.ENG` by implication. |
+| Check-only bias | Every failed conformance check gives a repair move or neighboring exit. |
+| Didactic-thinning risk | The pattern starts with triage and action, not taxonomy alone. |
+
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+
+### C.30.ASV:7 - Conformance Checklist
+
+
+| ID | Requirement | Failed-check repair |
+| --- | --- | --- |
+| **CC-ASV-1 Structure target.** | Every architecture structural view names `structureRefs` or a recoverable selected-structure reference. | Name the selected structure reference, or downgrade the artifact to an architecture question, diagram, note, or publication that does not claim to be a structural view. |
+| **CC-ASV-2 Structure kind.** | Every architecture structural view names `structureKindRef`. | Run `ArchitectureStructureKindTriage@Project`; if no structure kind changes action, keep the text as ordinary prose or a source note. |
+| **CC-ASV-3 Same described entity.** | The view preserves `architectureClaimRef`, `DescriptionContext`, and the claim record's `describedHolonRef` and `boundedContextRef` unless explicit retargeting or a bridge is declared. | Restore the same claim record and bounded context, or add an explicit retargeting or bridge note before using the view. |
+| **CC-ASV-4 Viewpoint discipline.** | The view is under `VF.ARCH.STRUCTURE` or another declared architecture-specific bundle, rather than an ad-hoc tag. | Assign the view to `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, or a neighboring pattern; otherwise keep the label as Plain recognition wording. |
+| **CC-ASV-5 Lost structure.** | The view names hidden or lost structure, especially for query, extraction, coarsening, or publication uses. | Add a one-line hidden/lost-structure note, or narrow the admissible use so omitted structure is not relied on. |
+| **CC-ASV-6 Correspondence.** | Cross-view relations are carried by `correspondenceModelRefs` or correspondence records, not by prose alone. | Add a correspondence note or stop at a single-view statement without cross-view consistency claim. |
+| **CC-ASV-7 No publication collapse.** | A diagram, model, table, dashboard, generated relation graph, or ADR is kept as publication, record, or carrier, not the architecture structural view itself. | Keep the artifact as publication or carrier and name the source episteme or view; do not require a full architecture view unless it changes the next move. |
+| **CC-ASV-8 No single-view architecture.** | If a decision uses an architecture view as decision support, it names the affected structures and views, not only one favored diagram. | Add affected structure and view refs, or narrow the statement to the single view's admissible use. |
+| **CC-ASV-9 No proof overread.** | The view does not act as evidence, safety proof, causal proof, gate decision, or work record without a named neighboring pattern. | Assign the live claim to `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, or mark the proof, evidence, gate, or assurance use unsupported; do not add more C.30.ASV fields as a substitute. |
+| **CC-ASV-10 Exact relation carrier.** | Every cross-reference uses exact carriers: structure, structure kind, viewpoint, correspondence, allocation, bridge, evidence relation, publication, interface specification, or neighboring record. | Replace the ambiguous reference with the carrier that actually bears the claim, or split the sentence into separate carriers. |
+| **CC-ASV-11 Source return.** | When compression, extraction, coarsening, evidence reuse, publication, or many-to-many allocation hides distinctions, `SourceReturnCondition` is present. | Add one source-return trigger, or narrow the view's admissible use so omitted distinctions are not used for action, assurance, causal use, legal review, regulatory review, or reopening. |
+| **CC-ASV-12 Architecture-name recovery.** | Every `<X>Architecture` phrase recovers `<X>StructureKind` or a declared local relation. | Rewrite the phrase through `ArchitectureStructureKindTriage@Project`; if no relation is live, keep the name as Plain prose and do not let it carry ontology. |
+| **CC-ASV-13 Useful action.** | The repair leaves a surviving admissible architecture move: inspect, split, relate, downgrade, assign to a neighboring pattern, generate candidates, stop, open a structural view, add correspondence, add source return, or exit to the neighboring pattern. | Restore one move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+
+### C.30.ASV:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| **Module diagram as architecture view** | One module/interface diagram is treated as the whole architecture. | Run structure-kind triage; keep module/interface as one structure kind and add other views only when they change action. |
+| **Viewpoint as structure kind** | `VP.Functional`, `VP.ModuleInterface`, or another viewpoint is used as if it were the selected structure kind. | Recover `ArchitectureStructureKindRef` and bind it to a viewpoint through `ArchitectureStructureKindViewRecordBinding` when needed. |
+| **Structure kind as viewpoint** | `FunctionalStructure` or `ControlStructure` is added to TEVB as a new viewpoint. | Keep TEVB core unchanged; use `VF.ARCH.STRUCTURE` and binding rows. |
+| **Publication-face collapse** | A diagram, model, table, dashboard, generated relation graph, ADR, or C4 view is treated as the ASV record. | Recover source episteme/view and publication relation; open an ASV record only if the view changes action. |
+| **Single-view decision** | A decision uses one architecture view as if it covered all affected structures. | Name affected structures and view refs, or narrow the decision to the single view's admissible use. |
+| **Lost-structure silence** | Extracted, generated, coarsened, or compressed views hide distinctions but still support action. | Add hidden/lost structure and source-return condition, or narrow admissible use. |
+| **Proof overread** | The structural view is used as evidence sufficiency, safety proof, causal proof, gate decision, or work record. | Assign the live claim to the governing neighboring pattern and keep ASV only to view adequacy. |
+| **Risk color as security architecture** | A red, yellow, or green risk cell, risk matrix, maturity score, or compliance color stands in for `SecurityTrustBoundaryStructure` or resource-allocation priority. | Recover protected asset or effect, trust boundary, untrusted input, privilege or authority relation, data/control flow, abuse or misuse path, and the neighboring evidence, assurance, measurement, causal, gate, selection, or allocation claim kind if it is live; do not treat ordinal risk color as security architecture adequacy, resource-allocation support, or gate passage. |
+| **Taxonomy without action** | The text classifies a view but does not say what changes in practice. | Add `admissibleArchitectureMove` or stop at Plain recognition wording. |
+
+### C.30.ASV:9 - Consequences
+
+| Benefit | Cost or trade-off |
+| --- | --- |
+| Architecture views become D/S records over selected structures, not diagrams by appearance. | A conforming use states architecture claim, structure refs, structure kind, viewpoint, and use when the view is load-bearing. |
+| TEVB remains stable while architecture gets broader structure-kind coverage. | Structure-kind bindings add one explicit record when architecture-specific coverage matters. |
+| Functional, flow, control, module/interface, placement, information, runtime, work, evidence, scale, material, and logical structures can be separated. | Some familiar names require triage before they can carry FPF claim kinds. |
+| Failed checks produce repair moves rather than only classification objections. | The checklist is longer than a pure taxonomy, but it is more useful for action. |
+
+### C.30.ASV:10 - Rationale
+
+C.30.ASV exists because architecture descriptions are multi-view by nature, but FPF cannot let "view" absorb every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is being described; a viewpoint says how an episteme or view is oriented toward a concern. They may be bound, but they are not interchangeable.
+
+The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the live structure kind and the next admissible architecture move, no full view record is needed. The full record opens when a view changes action, correspondence, publication, source return, support use, or neighboring-pattern claim kind.
+
+The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and view-record bindings live beside TEVB rather than mutating TEVB.
+
+### C.30.ASV:11 - SoTA-Echoing
+
+| Practice or source line | C.30.ASV adoption | Action consequence | Boundary |
+| --- | --- | --- | --- |
+| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adopt explicit concern, viewpoint, view, correspondence, and entity-of-interest discipline. | ASV records require architecture claim, `DescriptionContext`, viewpoint, structure kind, correspondence where live, and admissible use. | ISO terminology does not override FPF I/D/S and does not make a view the architecture itself. |
+| OMG SysML v2 view-as-query and MBSE traceability practice | Adapt model-view discipline and traceability to FPF D/S views. | Generated, queried, or model-derived views state `viewConstruction`, selected structure, hidden and lost structure, and source-return condition when action relies on the selection. | Tool models and queries do not become source episteme, support relation, evidence sufficiency, gate passage, or assurance. |
+| UAF, ArchiMate, C4, and multi-view architecture practice | Adapt viewpoint-library and lightweight diagram communication pressure. C4 contributes communication and zoom pressure only. | C4/UAF/ArchiMate-like diagrams can publish ASV records only when D/S content, described entity, structure refs, structure kind, viewpoint, and publication relation are explicit. | Do not import their layer, viewpoint, enterprise taxonomies, structure-kind adequacy, evidence sufficiency, or architecture decision support without a recoverable C.30/C.30.ASV source view. |
+| Systems security engineering, secure-by-design, SSDF, and CSF-style practice | Adopt security as architecture-side structure when trust boundaries, authority, untrusted input, secure defaults, hardening, update channels, and detection/response boundaries change action. | Use `SecurityTrustBoundaryStructure` before evidence, assurance, gate, risk score, or compliance proof. | A security framework, checklist, risk color, or control catalog is not security architecture adequacy, evidence sufficiency, assurance, or gate passage by itself. |
+| Theory of Code Space / arXiv:2603.00601 and related code-agent architecture relation-graph probing | Adopt partial-observability, typed relation discovery, invariant discovery, uncertainty reporting, and externalized architecture relation graphs as ASV support. | Treat an externalized code-agent relation graph as a diagnostic architecture-description or ASV publication only with observed/inferred/unknown status, evidence pointers, unexplored regions, typed relation semantics, and source-return conditions. | Do not mint `U.CodeSpace`; do not treat probe JSON, cognitive-model publication, dependency-F1 result, or diagnostic relation graph as architecture adequacy, internal belief proof, agent authority, safe-code-change support, assurance, or release support. |
+| GonzoML neural-network architecture discussions | Adopt practitioner operation language for architecture views: block substitution, relation retargeting, dataflow changes, memory/cache placement, path-selection/gating, MoE expert-selection, pruning, distillation, NAS, ablation, and compute/memory/latency tradeoffs. | Use those phrases as recognition cues for changed structure kind, flow relation, module/interface claim kind, security/trust boundary, data-custody relation, preserved/lost structure, affected characteristic, support source, and decision/evidence exit. | Neural-network labels, benchmarks, ablations, pruning masks, block/layer/router/cache/state labels, or search outputs do not become FPF ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
+
+### C.30.ASV:12 - Relations
+
+Builds on: `C.30`, `A.22`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `E.10.SEMIO`, and `F.18`.
+
+Coordinates with: `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, the exact module/interface repair pattern when the module/interface claim kind is live, and named receiving patterns for architecture decision and candidate-set claims.
+
+Does not replace: C.30 architecture-description adequacy, A.22 structure carrier, E.TGA graph/path/crossing discipline, C.29 mathematical-lens adequacy, C.16 characterization, C.25 Q-Bundles, C.28 causal-use support, A.10/G.6 evidence, B.3 assurance, A.20/A.21 gate/release records, A.15 work, C.11 decisions, or E.17 publication.
+
+### C.30.ASV:End
+
+## C.30.TGA-FLOW-REL - Architecture/TGA Flow-Structure Relation
+
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.30.TGA-FLOW-REL:1 - Problem frame
+
+Use this pattern when an architecture discussion depends on a Transduction Graph Architecture (TGA) graph, path, path slice, crossing, flow valuation, edition pin, plane/context pin, or no-hidden-scalarization claim.
+
+The first useful move is small. `ArchitectureFlowStructureRelation@TGA` is a C.30-side relation record that links an architecture description or architecture structural view to E.18 graph, path, crossing, or flow-valuation support; it is not the graph, not the architecture, not an architecture decision, and not a complete architecture view by itself.
+
+```text
+ArchitectureFlowStructureRelation@TGA:
+architectureDescriptionRef:
+architectureStructuralViewRef:
+functionalStructureViewRef:
+flowTransductionStructureViewRef:
+transductionGraphRef:
+activePathOrSliceRefs:
+crossingBundleRefs:
+flowValuationRefs:
+correspondenceRefs:
+sourceReturnCondition?:
+admissibleUse:
+nonAdmissibleUse:
+neighboringPatternExitRefs:
+```
+
+Ordinary minimum: name either `architectureStructuralViewRef` or `architectureDescriptionRef`, one E.18 graph or path-slice reference, the supported `FlowTransductionStructure`, one blocked overread, and stop or neighboring exit. Use crossing, flow-valuation, correspondence, and source-return fields only when they change the next architecture move. All other fields are conditional and may be `not live`.
+
+Use this relation only when a functional-architecture or flow-structure claim needs E.18 graph/path/crossing/valuation support. Stop when the architecture flow relation and non-admissible uses are clear. Do not open work, evidence, assurance, gate, causal, mathematical-lens, P2W, or architecture-decision support unless that claim kind is live.
+
+
+What goes wrong if this pattern is missed: a TGA graph becomes functional architecture, whole architecture ontology, work sequence, evidence path, gate result, causal flow proof, assurance support, or project decision by appearance.
+
+What this buys in practice: the practitioner can use E.18 for flow/transduction structure while C.30 remains the governing architecture-description locus and C.30.ASV remains the architecture-structural-view locus.
+
+Not this pattern when the live question is a graph, path, crossing, or flow valuation without architecture-description claim kind. Use E.18 directly. If the live question is architecture description without E.TGA graph/path/crossing claim kind, use C.30. If it is a functional view without flow/TGA claim kind, use C.30.ASV and A.6.F. If it is work, evidence, assurance, gate, causal use, mathematical-lens adequacy, P2W, or decision support, use the exact neighboring pattern and keep C.30.TGA-FLOW-REL only to the architecture-flow relation.
+
+### C.30.TGA-FLOW-REL:2 - Problem
+
+TGA already governs transduction graphs, paths, crossings, and flow valuations. Architecture descriptions often need those objects when they discuss flow/transduction structure, functional dependencies, data movement, control paths, evidence flows, neural-network dataflow, or code-agent relation graphs.
+
+The risk is overread. A TGA graph can be useful enough that practitioners start treating it as the architecture, the functional architecture, the work sequence, or the proof that evidence, gate, safety, causality, or assurance conditions are satisfied. C.30.TGA-FLOW-REL prevents that collapse by relating architecture structural views to E.18-governed graph/path/crossing objects without redefining E.TGA.
+
+### C.30.TGA-FLOW-REL:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Flow support vs architecture takeover | E.TGA graph/path/crossing support can be essential, but it does not become all architecture ontology. |
+| Functional view vs flow view | A functional structure view may need flow support, but a graph/path/crossing object is not a functional element by itself. |
+| Graph precision vs work overread | E.18 gives precise graph/path/flow valuation objects; work occurrence and work results remain outside TGA unless their own pattern is live. |
+| No-hidden-scalarization vs architecture scoring | E.18 set-return and no-hidden-scalarization discipline can support architecture reasoning, but it does not become a general architecture score. |
+| Small relation vs unneeded neighboring apparatus | A project often needs one relation record, not a full C.29 lens card, evidence path, assurance case, or decision record. |
+| E.18 stability vs C.30 integration | A TGA-based architecture description needs a relation to E.18 without rewriting E.TGA as generic architecture-description theory. |
+
+### C.30.TGA-FLOW-REL:4 - Solution
+
+C.30.TGA-FLOW-REL is the C.30 entry relation to E.18 when an architecture description or architecture structural view uses E.TGA graph/path/crossing/flow-valuation objects as flow/transduction structure support.
+
+It imports E.18; it does not redefine E.TGA. It supplies only the architecture-description relation:
+
+```text
+ArchitectureFlowStructureRelation@TGA ::= {
+  architectureDescriptionRef,
+  architectureStructuralViewRef?,
+  functionalStructureViewRef?,
+  flowTransductionStructureViewRef?,
+  transductionGraphRef,
+  activePathOrSliceRefs,
+  crossingBundleRefs?,
+  flowValuationRefs?,
+  correspondenceRefs,
+  sourceReturnCondition?,
+  admissibleUse,
+  nonAdmissibleUse
+}
+```
+
+#### C.30.TGA-FLOW-REL:4.1 - Use trigger
+
+Open this pattern only when a live architecture claim depends on one or more E.18 objects:
+
+- `TransductionGraphRef`;
+- `PathId` or `PathSliceId`;
+- `CrossingBundleRef`;
+- `U.Transfer` flow valuation;
+- edition, plane, or context pin;
+- no-hidden-scalarization or set-return discipline;
+- correspondence between functional structure and flow/transduction structure;
+- generated or extracted relation graph used as architecture-flow support.
+
+If the sentence only says that work occurred, use A.15 or the governing work pattern. If the sentence only says that a graph exists, use E.18. If the sentence uses the graph as mathematical lens support, use C.29.
+
+#### C.30.TGA-FLOW-REL:4.2 - Relation to functional structure
+
+`FunctionalStructureView@Context` under C.30.ASV may cite `ArchitectureFlowStructureRelation@TGA` when flow is live. That relation does not make the TGA graph a functional element. It says that a functional structure view is supported by or corresponded with one E.18 graph/path/crossing relation.
+
+```text
+FunctionFlowRelationNote:
+functionalStructureViewRef:
+flowTransductionStructureViewRef:
+architectureFlowStructureRelationRef:
+functionOrEffect:
+pathOrSliceRef:
+crossingBundleRef:
+preservedStructure:
+lostOrHiddenStructure:
+admissibleUse:
+nonAdmissibleUse:
+```
+
+Use this note when the practitioner needs to see whether the function-flow relation changes inspection, split, relation-making, downgrade, neighboring-pattern assignment, candidate generation, or stop.
+
+#### C.30.TGA-FLOW-REL:4.3 - Neighboring exits
+
+| Live claim kind | Exit |
+| --- | --- |
+| Work occurrence or work result | `A.15` and the governing work-result or P2W relation |
+| Gate decision | `A.21` |
+| Evidence support | `A.10` or `G.6` |
+| Assurance support | `B.3` |
+| Causal flow or intervention claim | `C.28` |
+| Mathematical-lens adequacy | `C.29` |
+| Architecture description or view adequacy | `C.30` or `C.30.ASV` |
+| Function-like wording | `A.6.F` |
+| Interface/signature/module compatibility | `InterfaceSignatureBoundaryNote` or the exact module/interface repair pattern when live |
+| Architecture decision | the exact project-side architecture decision pattern when live |
+
+#### C.30.TGA-FLOW-REL:4.4 - E.18:5.12 boundary statement
+
+For the E.TGA-governed flow/transduction structure kind of an architecture description, an architecture-flow description may consist of an E.TGA transduction graph over the described holon plus MVPK faces and correspondences.
+
+Generic architecture description is governed by C.30. E.TGA supplies the flow/transduction substrate and does not define all architecture structure kinds.
+
+This is the E.18:5.12 boundary statement. It is not a TGA rewrite and not a second E.TGA source of truth.
+
+#### C.30.TGA-FLOW-REL:4.5 - Worked slices
+
+**Functional architecture with live flow.** A team says, "The functional architecture is this TGA graph." The repair is:
+
+```text
+functionalStructureViewRef: required effects and dependencies
+flowTransductionStructureViewRef: flow/path/crossing structure
+transductionGraphRef: E.18 graph
+activePathOrSliceRefs: current path slices used for the architecture claim
+correspondenceRefs: functional effect to flow path relation
+nonAdmissibleUse:
+  graph as functional architecture itself,
+  graph as work occurrence,
+  graph as evidence sufficiency,
+  graph as gate result,
+  graph as project decision
+```
+
+**Neural-network dataflow change.** Replacing attention, SSM, convolution, memory/cache, MoE expert-selection, or another block changes architecture only when the changed structure kind and flow/transduction relation are named. A benchmark, ablation, or pruning result may support a neighboring claim, but it does not make the flow relation an architecture decision or evidence sufficiency by itself.
+
+**Code-agent relation graph.** A code-agent relation graph with `IMPORTS`, `CALLS_API`, `REGISTRY_WIRES`, or `DATA_FLOWS_TO` edges can support an architecture-flow relation only with source edition, observed/inferred/unknown status, typed relation semantics, unexplored regions, and source-return condition when subsequent action relies on hidden distinctions.
+
+### C.30.TGA-FLOW-REL:5 - Archetypal Grounding
+
+| Tell-Show-Show row | Grounding |
+| --- | --- |
+| Tell | A practitioner sees a graph or path and wants to use it in an architecture description. C.30.TGA-FLOW-REL asks whether the graph is E.18-governed flow/transduction support for an architecture structural view, and names its non-admissible uses. |
+| Show: `U.System` | A software system, plant, AI agent, neural network, vehicle, or supply chain may have flow/transduction structure. The graph can support architecture reasoning about that structure without proving work, safety, evidence, gate, or decision claims. |
+| Show: `U.Episteme` | A TGA graph, generated relation graph, code-agent probe, neural-network diagram, dashboard, or architecture note is an episteme/view/publication. It can publish or support the flow relation only when its E.18 object, context pins, correspondence, source-return condition, and admissible use are recoverable. |
+
+### C.30.TGA-FLOW-REL:6 - Bias-Annotation
+
+Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-flow relations using E.18 objects.
+
+| Bias risk | Mitigation |
+| --- | --- |
+| Graph-as-architecture bias | The pattern states that generic architecture description stays with C.30 and structural views with C.30.ASV. |
+| Function-flow collapse | Functional structure and flow/transduction structure are related, not identical. |
+| Work/evidence/gate overread | The relation table assigns work, evidence, assurance, gate, causal, and decision claim kinds to their governing patterns. |
+| Mathematical overread | C.29 carries mathematical-lens adequacy when a graph or valuation is used as a lens. |
+| Check-only bias | Conformance checks include repair moves and stop conditions. |
+
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, relation, or repair move above.
+
+### C.30.TGA-FLOW-REL:7 - Conformance Checklist
+
+| ID | Requirement | Failed-check repair |
+| --- | --- | --- |
+| **CC-TGA-FLOW-1 E.18 object.** | The relation names the E.18 graph, path, slice, crossing, or flow valuation object it uses. | Add the exact E.18 reference or use C.30/C.30.ASV without TGA relation. |
+| **CC-TGA-FLOW-2 Architecture locus.** | The relation names the architecture description or architecture structural view it supports. | Add `architectureDescriptionRef` or `architectureStructuralViewRef`, or keep the graph claim inside E.18 only. |
+| **CC-TGA-FLOW-3 Functional/flow separation.** | Functional structure and flow/transduction structure remain separate unless a correspondence is declared. | Add `FunctionFlowRelationNote` or remove the functional-architecture claim from the graph sentence. |
+| **CC-TGA-FLOW-4 No TGA architecture takeover.** | The TGA graph is not treated as generic architecture ontology or all architecture structure kinds. | Assign generic architecture-description claims to C.30 and keep this pattern to flow/transduction structure. |
+| **CC-TGA-FLOW-5 No work overread.** | A graph/path/slice is not treated as work occurrence or work result. | Assign the work claim to A.15 or the governing work-result pattern. |
+| **CC-TGA-FLOW-6 No evidence/assurance/gate overread.** | The relation is not used as evidence sufficiency, assurance support, gate decision, or release permission without neighboring support. | Assign the live claim to A.10/G.6, B.3, A.20/A.21, or release loci as live. |
+| **CC-TGA-FLOW-7 Causal and mathematical boundaries.** | Causal/intervention and mathematical-lens claims are assigned to C.28 and C.29. | Add those exits or narrow the relation's admissible use. |
+| **CC-TGA-FLOW-8 Pin and scalarization boundary.** | Edition/context/plane pins and no-hidden-scalarization claims remain E.18-governed. | Add E.18 pin/set-return references or remove the comparison/selection claim. |
+| **CC-TGA-FLOW-9 Source return.** | Extracted, generated, coarsened, or partial graphs state source-return conditions when hidden distinctions affect action. | Add source-return condition or narrow the admissible use. |
+| **CC-TGA-FLOW-10 Useful action.** | The repair leaves a surviving move: name graph/path/crossing relation, add correspondence, return to source, assign the live claim to a neighboring pattern, or stop. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+
+### C.30.TGA-FLOW-REL:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| **Graph-as-architecture** | The E.18 graph is called the architecture. | Use C.30 for architecture description and this relation only for flow/transduction structure. |
+| **Graph-as-functional-architecture** | A TGA graph is treated as the functional architecture itself. | Split functional structure from flow/transduction structure and add correspondence. |
+| **Flow-as-work-log** | Path or slice wording is treated as work occurrence. | Assign occurrence or result claims to A.15/P2W and keep TGA as graph/path support. |
+| **Crossing-as-gate-result** | A crossing relation is treated as gate passage. | Assign gate-decision claims to A.21 and keep crossing support under E.18. |
+| **Valuation-as-score** | A flow valuation is used as a generic architecture score. | State E.18 valuation and set-return discipline; assign measurement, characterization, selection, or candidate-set claims to `C.16` or an admitted receiving pattern when live. |
+| **Generated relation-graph proof** | A code-agent relation graph or probe output is used as proof of architecture understanding or safety. | Recover source, observed/inferred/unknown status, hidden structure, and neighboring evidence/assurance exits. |
+| **Prompt-data-tool flow as authority proof** | A prompt, data, or tool-flow graph is treated as permission for tool action or proof that authority is safe. | Keep the graph as flow support. A path from untrusted content to tool action opens `SecurityTrustBoundaryStructure` and C.24/E.16/A.20/A.21 exits when those claim kinds are live. |
+
+
+### C.30.TGA-FLOW-REL:9 - Consequences
+
+| Benefit | Cost or trade-off |
+| --- | --- |
+| E.18 graph/path/crossing discipline becomes usable in architecture descriptions. | A conforming use names the C.30 architecture record or C.30.ASV structural-view reference that receives the TGA support. |
+| Functional structure and flow/transduction structure stay separable. | Concise "the graph is the architecture" prose is repaired before it carries FPF claim force. |
+| Work, evidence, assurance, gate, causal, mathematical, and decision claim kinds are assigned to their governing patterns. | More neighboring exits appear when practitioners try to overuse the graph. |
+| The E.18:5.12 boundary statement stays narrow. | Generic architecture-description theory remains outside E.18. |
+
+### C.30.TGA-FLOW-REL:10 - Rationale
+
+E.TGA is already the governing FPF pattern for transduction graphs, paths, crossings, flow valuations, and related pins. Architecture needs to use that work without letting it become generic architecture ontology. The smallest stable relation is therefore a C.30-side record that points to E.18 objects and states admissible and non-admissible architecture use.
+
+This pattern also protects functional architecture. A functional structure view may be supported by flow/transduction structure, but function and flow are different structure kinds. The relation is useful precisely because it preserves that difference while allowing correspondence.
+
+### C.30.TGA-FLOW-REL:11 - SoTA-Echoing
+
+| Practice or source line | C.30.TGA-FLOW-REL adoption | Action consequence | Boundary |
+| --- | --- | --- | --- |
+| E.18 E.TGA graph/path/crossing and flow-valuation discipline | Adopt E.18 as the governing source for graph/path/crossing/valuation objects. | The pattern names E.18 references rather than redefining graph or flow semantics. | E.18 does not become generic architecture-description ontology. |
+| ISO/IEC/IEEE 42010:2022 and multi-view architecture practice | Adapt view/correspondence discipline to architecture-flow support. | Flow/transduction views relate to architecture descriptions through C.30/C.30.ASV and correspondence refs. | Architecture views do not become proof, evidence, gates, or decisions. |
+| MBSE/SysML v2 view and relation practice | Adapt model-derived flow/path views as D/S support. | A model-derived flow view states source, selection, hidden/lost structure, and admissible use. | Tool models do not override FPF E.18 or C.30 carriers. |
+| Neural-network dataflow and GonzoML architecture-operation corpus | Adopt practitioner flow-structure recognition for block replacement, path-selection, memory/cache placement, MoE expert-selection, pruning, distillation, ablation, and compute/memory/latency tradeoffs. | Such cases open C.30.TGA-FLOW-REL only when flow/transduction structure changes the architecture move. | Benchmarks, ablations, pruning masks, or architecture-search outputs do not become evidence sufficiency, assurance, gate passage, or architecture decision by themselves. |
+| Theory of Code Space / arXiv:2603.00601 and code-agent relation graph probing | Adapt observed/inferred/unknown relation graphs and partial-observability warnings. | Generated code relation graphs can support flow relation only with typed relation semantics, source pins, unexplored regions, and source return. | Do not mint `U.CodeSpace`; do not treat probe output as internal belief proof, architecture adequacy, assurance, or release support. |
+
+### C.30.TGA-FLOW-REL:12 - Relations
+
+Builds on: `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `E.18`, `E.17`, `E.17.0`, `A.7`, `E.10`, `E.10.SEMIO`, and `F.18`.
+
+Coordinates with: `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement/selection/candidate-set receiving patterns when live, `InterfaceSignatureBoundaryNote`, and the exact module/interface repair pattern when module or interface claim kind is live.
+
+Does not replace: E.18 graph/path/crossing/flow valuation discipline, C.30 architecture-description adequacy, C.30.ASV architecture structural-view adequacy, A.6.F function-use repair, A.15 work, A.10/G.6 evidence, B.3 assurance, A.20/A.21 gate/release records, C.28 causal-use support, C.29 mathematical-lens adequacy, C.16 characterization or admitted characteristic-support receiving patterns, or C.11 decisions.
+
+### C.30.TGA-FLOW-REL:End
+
+## C.30.LCA - Control Structure View Adequacy (LCA)
+
+> **Type:** Architectural subpattern under `C.30`
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.30.LCA:1 - Problem frame
+
+Use this pattern when an architecture description uses a control-stack, supervisor-loop, controller/plant, planner/regulator, observer/estimator, feedback-loop, multi-rate control, or Layered Control Architecture cue to explain how a grounded holon is controlled, observed, regulated, supervised, or protected.
+
+The first-minute working situation is ordinary engineering talk: a diagram says the supervisor watches a subsystem, a controller regulates a plant, an observer estimates state, a planner gives references to a lower-rate controller, or a policy/control relation changes allowed controller behavior. The useful first move is not to accept the diagram as proof. The useful first move is to recover a `ControlStructureView@Context`: which architecture claim is being described, which control roles and relations are present, which rates or declared control layers are live, which feedback or externality boundaries are named, and which neighboring FPF pattern carries any stability, safety, evidence, gate, causal, or assurance claim kind.
+
+What goes wrong if C.30.LCA is missed: a control diagram becomes proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance; layer and level labels start carrying undeclared scope; and `B.2.5`, Transduction Graph Architecture (TGA), or Layered Control Architecture (LCA) prose is overread as control adequacy.
+
+What C.30.LCA buys in practice: the practitioner can keep useful controller, plant, observer, regulator, supervisor, feedback, rate, and control-layer language while recovering the control-structure view and the exact neighboring pattern that carries any proof or support claim.
+
+Not this pattern when the live issue is only a general TGA path slice, a function description, a module boundary, a measurement head, a causal intervention, or a safety case. Use `C.30.TGA-FLOW-REL` for flow/transduction structure relation, `A.6.F` for function wording repair, the exact module/interface repair pattern for module-interface structure, `C.16` or an admitted characteristic-support receiving pattern for measured characteristics, `C.28` for causal-use claims, and `B.3`/`A.10`/`G.6` for assurance or evidence support.
+
+The governed object is one control-structure view of `ArchitectureOf@Context`, not the controlled holon itself, not a proof, and not the architecture as a whole. Ordinary use may stop with a typed control-structure view note:
+
+```text
+ControlStructureViewNote ordinary minimum:
+  architecture claim or described holon plus context:
+  one control relation:
+  loop posture: closed | one-way | unclear:
+  layer or rate label live?: yes | no:
+  proof, evidence, causal, gate, or assurance exit if live:
+  stop condition:
+```
+
+The full `ControlStructureView@Context` opens when the live control claim needs declared roles, relations, rates, control-layer labels, boundary refs, or explicit neighbor exits beyond that note.
+
+Use a `SafetyLossControlStructureNote` when safety wording is live but the practitioner first needs the architecture-side loss-control structure, not a safety-case verdict:
+
+```text
+SafetyLossControlStructureNote:
+  lossOrHarm:
+  hazardOrUnsafeState:
+  unsafeControlActionOrMissingControl:
+  controlledProcessOrPlantRef:
+  controlConstraintRef:
+  feedbackOrObservabilityBoundary:
+  timingOrRateBoundary:
+  operationalDesignScopeOrMisuseScope:
+  foreseeableMisuseRefs?:
+  architectureStructureKindRefs:
+    ControlStructure | ConstraintRequirementStructure |
+    SecurityTrustBoundaryStructure | InformationDataStructure |
+    EvidenceAssuranceStructure
+  neighboringPatternExitRefs:
+    A.3.3 dynamics, C.27 temporal or rate,
+    C.28 causal-use, A.10/G.6 evidence,
+    B.3 assurance, A.20/A.21 gate
+  nonAdmissibleUse:
+    not safety proof, not safety-case verdict, not regulatory acceptance
+```
+
+The note gives a positive first architecture move: find the loss-control structure, controlled process or plant, constraint, foreseeable misuse, operational design scope, and action-relevant boundary. It does not replace evidence, assurance, gate, causal, dynamics, or temporal support.
+
+
+
+### C.30.LCA:2 - Problem
+
+Control diagrams are persuasive because they look operational: arrows imply feedback, boxes imply responsibility, and layer labels imply separation. In practice that is often enough for orientation, but not enough for architecture support. A control-stack description can quietly overclaim that stability, safety, evidence sufficiency, gate validity, assurance, or causality has already been established.
+
+FPF needs a pattern that preserves the useful recognition of control architecture without letting the recognition cue become a proof. The control roles, feedback relations, externality boundaries, and rate separations belong in an architecture structural view. Claims about dynamics, temporal adequacy, causal use, evidence, assurance, gates, or mathematical lens transfer belong in the neighboring pattern that governs that claim kind.
+
+### C.30.LCA:3 - Forces
+
+* Control talk is useful and current engineering practice uses it, so deleting it would make architecture prose less usable.
+* The same labels can name different things: a control layer, a declared system level, a scale window, an organizational level, a work/evidence scope, or a publication grouping.
+* Layered and multi-rate control descriptions often need timing and dynamics support before they can carry stability or safety claims.
+* `B.2.5` already gives FPF a supervisor-subholon feedback-loop pattern, but it does not turn every loop diagram into proof.
+* TGA graphs can describe flow and transduction relations that participate in control, but the TGA graph is still a description or view, not the control structure itself.
+* Practitioners need one small first output; dynamics, C.29, evidence, assurance, and gate records open only when the live question calls for that neighboring support.
+
+### C.30.LCA:4 - Solution
+
+Treat LCA-like material as a control-structure view under `C.30`. Recover the described architecture claim, the control roles, the control relations, the relevant rate bands or declared control-layer labels, and the boundary refs that make the view checkable. Then state the admissible use and the non-admissible overread.
+
+Use `rateBandRefs?`, `controlLayerRefs?`, and `externalityBoundaryRefs?` only when rate, control-layer, or externality wording carries a live claim. Otherwise the ordinary note may stop after one control relation, loop posture, any live layer or rate label, and the neighboring proof or support exit if that exit is live.
+
+When a layer relation is used to justify decomposition, substitution, or design reliance, recover the inter-layer assumption-guarantee relation or mark the layer relation as orientation only. `interLayerControlRelationRefs?` opens only when the layer relation is used for decomposition, substitution, design reliance, safety, or stability claim kinds.
+
+```text
+InterLayerControlRelationNote:
+  upperLayerAssumptionRefs:
+  lowerLayerGuaranteeRefs:
+  observationRequirementRefs:
+  actuationAuthorityRefs:
+  latencyOrRateEnvelopeRefs:
+  violationFallbackRefs:
+  admissibleUse:
+  nonAdmissibleUse:
+```
+
+Open this note only when a layer relation is used for decomposition, substitution, safety or stability support, or architecture decision support. It is not proof. Otherwise keep C.30.LCA at the small note or ordinary view form.
+
+
+
+```text
+ControlStructureView@Context ::= {
+  architectureClaimRef : ArchitectureOf@ContextRef,
+  descriptionContext   : DescriptionContext(
+    DescribedEntityRef = architectureClaimRef,
+    BoundedContextRef = ArchitectureOf@Context.boundedContextRef,
+    ViewpointRef = viewpointRef
+  ),
+  viewpointRef (= descriptionContext.ViewpointRef),
+  structureKindRef = ControlStructure,
+
+  controlRoleRefs : FinSet(PlannerRef | RegulatorRef | ControllerRef |
+                           ObserverEstimatorRef | PlantProcessRef | SupervisorRef),
+  controlRelationRefs       : FinSet(QualifiedRelationRecordRef),
+  controlLayerRefs?         : FinSet(ControlLayerRef),
+  rateBandRefs?             : FinSet(RateBandRef),
+  interLayerControlRelationRefs? : FinSet(InterLayerControlRelationRef(
+    assumptionRefs,
+    guaranteeRefs,
+    allowedControlActionRefs,
+    observationRequirementRefs,
+    actuationAuthorityRefs,
+    latencyOrRateEnvelopeRefs,
+    violationFallbackRefs
+  )),
+  declaredSystemLevelRefs?  : FinSet(SystemLevelRef),
+  aggregationScopeRefs?     : FinSet(AggregationScopeRef),
+  organizationLevelRefs?    : FinSet(OrganizationLevelRef),
+  workEvidenceScopeRefs?    : FinSet(ScopeRef),
+  scaleWindowRefs?          : FinSet(ScaleWindowRef),
+  feedbackRelationRefs      : FinSet(QualifiedRelationRecordRef),
+  observationBoundaryRefs?  : FinSet(BoundaryRef),
+  actuationBoundaryRefs?    : FinSet(BoundaryRef),
+  externalityBoundaryRefs?  : FinSet(BoundaryRef),
+  controlledSystemRefs?     : FinSet(U.HolonRef),
+
+  rateSeparationSupportRefs? : FinSet(C27TemporalClaimRef | TemporalAdequacySupportRef),
+  dynamicsSupportRefs?       : FinSet(A3_3DynamicsRef),
+  gateDecisionRefs?          : FinSet(A20ConstraintValidityRef | A21GateDecisionRef),
+  TGAPathSliceRefs?        : FinSet(PathSliceId),
+  stabilitySupportRefs?    : FinSet(DynamicsRef | StabilityEvidenceSupportRef),
+  evidenceSupportRefs?     : FinSet(A10EvidenceGraphRef | G6EvidenceSupportRef),
+  assuranceSupportRefs?    : FinSet(B3AssuranceRef),
+  causalUseSupportRefs?    : FinSet(C28ApplicationRef),
+  scaleAuditRef?           : ArchitectureScaleAuditRecordRef,
+  MLAOutputRefs?           : FinSet(MLAOutputRef),
+
+  admissibleUse,
+  nonAdmissibleUse,
+  sourceReturnCondition
+}
+```
+
+**Role reading.**
+
+| Source label | FPF reading |
+|---|---|
+| Plant or controlled system | `U.System` whose state evolves; reusable state-evolution claims use `A.3.3`. |
+| Regulator or controller | System in a control role enacting a method over observations and actuations. |
+| Planner | Upstream role or method producing targets, plans, references, or allowed regions for regulators. |
+| Observer or estimator | Role or method producing state estimates, observations, or evidence-facing readouts. |
+| Supervisor | Role or method governing subordinate holons, gates, policy changes, or control-mode changes. |
+
+**Layer, level, tier, stack, and rate rule.** `Control layer` may remain as an LCA source label only when the record names the control role, relation, rate band, and bounded context. When the source says layer, level, tier, or stack, recover exactly one or more of: `controlLayerRef`, `declaredSystemLevelRef`, `aggregationScopeRef`, `rateBandRef`, `organizationLevelRef`, `workEvidenceScopeRef`, `scaleWindowRef`, or `publicationSectionRef` when the wording only names a document layer. `System level` is not a synonym for control layer. Use it only for a declared system level or aggregation scope, with the relevant `B.2.5` supervisor-subholon relation or comparable declared relation recovered. A layer label is not a structure kind, not a system level, not a rate band, and not evidence of separation by itself. In renormalization, coarse-graining, or mathematical-lens use, prefer `scale`, `scale window`, `coarse-graining scale`, `coarse-graining step`, or `resolution` for the lens itself.
+
+**B.2.5 boundary.** `B.2.5` remains the supervisor-subholon feedback-loop check pattern. `C.30.LCA` can cite a `B.2.5` relation when a supervisor-subholon loop is part of the control view. It does not use `B.2.5` prose as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance. If an episteme appears in a control example, the acting `Transformer`, publication or review practice, and publication/support relation are named; an episteme does not sense, judge, plan, adapt, or act as an agent.
+
+**TGA boundary.** A TGA path slice may support the control view when flow or transduction relation is live. The TGA graph remains a description or view of flow/transduction structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
+
+**C.29 boundary.** LCA may be an accepted local control-theory description in one context and a transferable mathematical lens in another. When transfer, prediction, assurance input, or reusable cross-domain explanation is live, use `MLA.FullCard` or at least `MLA.MiniCard`. Dynamics, temporal adequacy, and causal claims are still assigned to `A.3.3`, `C.27`, and `C.28`.
+
+**Nesting and scale rule.** If a control-structure view nests without a local depth limit, the record uses `scaleAuditRef?` when the nesting affects latency, stability, observability, accountability, or assurance.
+
+**Worked slice A - LCA diagram used as proof.** A safety note says: `The Layered Control Architecture proves the plant is safe because the supervisor monitors the lower controller.` A conforming repair keeps the control-structure view and names planner/controller/plant/supervisor relations, observation and actuation boundaries, and any rate bands. Safety and assurance support move to `B.3`, evidence to `A.10` or `G.6`, temporal adequacy to `C.27`, and dynamics/stability to `A.3.3` or the appropriate dynamics support.
+
+**Worked slice B - multi-rate controller.** A control stack has a slow planner, a faster regulator, and an observer with a different update period. `C.30.LCA` records the roles, relations, and rate bands. It does not claim rate adequacy. If the rate relation matters for oscillation, latency, stability, or safety, the next admissible move is `C.27` plus dynamics or assurance support as live.
+
+**Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller that changes allowed modes. `C.30.LCA` records the supervisor-subholon relation and may reference `B.2.5`. If the text claims that this loop authorizes work, passes a gate, or proves a policy constraint, the claim exits to `A.15`, `A.20`, or `A.21`.
+
+### C.30.LCA:5 - Archetypal Grounding
+
+| Archetype | Without C.30.LCA | With C.30.LCA |
+|---|---|---|
+| System | A plant/controller/supervisor diagram is treated as if the drawing itself established the controlled system's behavior. | The controlled system, controller, observer, planner, supervisor, boundaries, and rate bands are recorded as a view of control structure. |
+| Episteme | A control-description publication is read as proof because it uses familiar control labels. | The publication is treated as a description or view; proof-like claim kinds move to the pattern that governs that claim kind. |
+
+### C.30.LCA:6 - Bias-Annotation
+
+* **Diagram authority bias.** A neat feedback diagram can look more persuasive than the support relation it actually carries. Repair by naming the support relation and the neighboring pattern that carries the live claim kind.
+* **Layer label bias.** A layer label can hide whether it names a control role, aggregation scope, rate band, organization level, publication section, or scale window. Repair by recovering the declared field.
+* **Supervisor anthropomorphism.** A supervisor label can make an episteme, policy, or dashboard sound agentive. Repair by naming the acting transformer, method, or work practice.
+* **TGA/LCA conflation.** A flow graph and a control view can support each other, but neither replaces the other. Repair by naming the description context and structure kind for each view.
+
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+
+### C.30.LCA:7 - Conformance Checklist
+
+
+| ID | Check | Why it matters |
+|---|---|---|
+| CC-LCA-1 | A conforming use names the `ArchitectureOf@Context` or recoverable described holon and bounded context whose control structure is being viewed. | Prevents free-floating control diagrams. |
+| CC-LCA-2 | A conforming use records control roles and relations: planner, regulator/controller, observer/estimator, plant or controlled system, supervisor, or the local subset actually present. | Keeps the view action-guiding. |
+| CC-LCA-3 | A conforming use distinguishes control layer, declared system level, aggregation scope, rate band, organization level, work/evidence scope, and scale window when any of those labels carry a live claim. | Prevents pseudo-level or pseudo-layer overread. |
+| CC-LCA-4 | A conforming use records observation, actuation, feedback, and externality boundaries when they are live in the view. | Makes the control relation inspectable. |
+| CC-LCA-5 | Stability, safety, dynamics, temporal adequacy, causal use, evidence, gate, and assurance claims are assigned to their governing neighboring patterns. | Prevents LCA-as-proof. |
+| CC-LCA-6 | `B.2.5` is used only as a supervisor-subholon feedback-loop relation or check pattern, not as proof of stability, safety, evidence, gate validity, or assurance. | Keeps existing FPF control support bounded. |
+| CC-LCA-7 | A TGA path slice used by the control view remains a flow/transduction description or support relation, not the control structure itself. | Keeps TGA and LCA relations distinct. |
+| CC-LCA-8 | A C.29 or mathematical-lens use is opened when LCA is transferred across domains or used for prediction, reusable explanation, or assurance input. | Preserves mathematical-lens adequacy. |
+| CC-LCA-9 | The record states admissible use, non-admissible use, and source-return condition. | Prevents narrowed recognition from becoming unchecked reliance. |
+
+### C.30.LCA:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+|---|---|---|
+| LCA-as-proof | The text says the control stack proves safety, stability, or gate readiness. | Keep the control view and assign proof or support claims to dynamics, evidence, assurance, gate, or safety patterns. |
+| Control-layer-as-system-level | `Layer`, `level`, `tier`, or `stack` is used without a declared role, relation, rate band, or scope. | Recover the exact field: control layer, declared system level, aggregation scope, rate band, organization level, work/evidence scope, or scale window. |
+| Agentive episteme | A policy, model, dashboard, or architecture note is said to watch, decide, plan, or adapt. | Name the acting transformer, method, work practice, or publication/support relation. |
+| TGA/LCA substitution | A TGA graph is treated as the control architecture, or an LCA diagram is treated as the flow graph. | Use `DescriptionContext` and structure kind fields to keep views distinct. |
+| Hidden rate claim | Multi-rate control is named, but rate adequacy is not checked. | Add `rateSeparationSupportRefs?` and assign timing claims to `C.27`. |
+
+### C.30.LCA:9 - Consequences
+
+The gain is a small, usable control-structure output that preserves common architecture language while blocking proof overread. Practitioners can still say `controller`, `plant`, `supervisor`, `feedback`, and `control layer`, but the record shows what those words carry.
+
+The cost is an extra relation note before downstream reliance. When the live claim is only recognition, that cost is small. When the live claim is safety, stability, evidence, assurance, or gate passage, the cost is appropriate because those claims were never carried by the diagram alone.
+
+### C.30.LCA:10 - Rationale
+
+Control architecture is too important to leave to diagram authority and too useful to remove from architecture language. The FPF move is to keep the practice cue and recover its kind: a control-structure view is a D/S record over selected architecture-relevant control structure. It can cite `B.2.5`, TGA, dynamics, C.27, C.28, evidence, assurance, gates, and C.29, but it does not absorb their claim kinds.
+
+This also protects the architecture ontology's I/D/S distinction. The architecture is the selected structure under `ArchitectureOf@Context`; the LCA diagram or control note is an architecture description/view. Several descriptions may describe the same control structure, and one description may be published without becoming the structure it describes.
+
+### C.30.LCA:11 - SoTA-Echoing
+
+| SoTA/practice anchor | What it supports | FPF adoption stance | Practitioner implication |
+|---|---|---|---|
+| Layered and multi-rate control architecture practice, with Matni/Ames/Doyle used here as lineage and practice support for quantitative layered multi-rate control rather than as current proof by itself. | Planner, controller/regulator, observer, plant, supervisor, rate separation, and feedback relations are recognizable control-structure-view content. | Adopt and adapt: use the practice vocabulary to start or check a control-structure view, then assign stability, safety, timing, evidence, assurance, and gate claims to their governing FPF patterns. | A control-stack diagram can start a view record; it cannot close stability, safety, or evidence review. |
+| Feedback-control and cyber-physical systems practice. | Observation, actuation, plant dynamics, disturbances, and externality boundaries matter for control adequacy. | Adopt: keep boundary fields visible in the control view and assign dynamics/timing claims out. | If timing or plant behavior matters, open `C.27` or `A.3.3` instead of adding more claim force to the LCA sentence. |
+| ISO/IEC/IEEE 42010 architecture-description practice. | Architecture descriptions use viewpoints and views over concerns, and several views may describe one architecture. | Adopt and adapt: bind `ControlStructureView@Context` to `DescriptionContext` and `ArchitectureOf@Context`. | A control view is a view under a declared concern, not the architecture itself. |
+| FPF `B.2.5` supervisor-subholon feedback-loop material. | Supervisor-subholon relations are already useful FPF pattern material for feedback-loop recognition. | Reuse with boundary: cite `B.2.5` for the relation, not for proof. | A supervisor loop becomes inspectable without becoming evidence, assurance, or gate authority. |
+
+### C.30.LCA:12 - Relations
+
+* Builds on `C.30` for architecture-description adequacy and `C.30.ASV` for structural-view adequacy.
+* Uses `A.22` for structure and structural-view kind discipline.
+* Coordinates with `B.2.5` for supervisor-subholon feedback-loop recognition.
+* Coordinates with `E.18` and `C.30.TGA-FLOW-REL` when flow/transduction path slices support the control view.
+* Exits to `A.3.3` for dynamics and stability support, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence support, `B.3` for assurance, `A.20`/`A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` when LCA is used as a transferable mathematical lens.
+
+Does not replace: `C.30` architecture-description adequacy, `C.30.ASV` architecture structural-view adequacy, `B.2.5` supervisor-subholon feedback-loop discipline, `E.18` graph/path/crossing discipline, `A.3.3` dynamics support, `C.27` temporal/rate adequacy, `C.28` causal-use support, `A.10`/`G.6` evidence support, `B.3` assurance, `A.20`/`A.21` gate and constraint-validity records, `A.15` work, or `C.29` mathematical-lens adequacy.
+
+### C.30.LCA:End
+
+## C.30.ILC - Cross-Scope Architecture Residual Triage
+
+> **Type:** Architectural subpattern under C.30
+> **Status:** Stable
+> **Normativity:** Normative for FPF pattern, support-text, and project-description use that claims architecture-specific residuals across declared scopes.
+
+### C.30.ILC:1 - Problem frame
+
+Use this pattern when architecture work is triggered by statements such as:
+
+```text
+"Optimization at the component scope breaks the wider system."
+"We added modularity, but integration exceptions grew."
+"Local agent autonomy conflicts with the control or policy scope."
+"At one scale window the architecture is stable; at the next, bespoke bridges appear."
+"The team optimizes latency, but the evidence or assurance scope becomes unrepairable."
+"We may need a declared system level, control layer, mediator, interface grammar, or work/evidence scope, but it is not clear which architecture move is admissible."
+```
+
+The first useful move is `CrossScopeArchitectureResidualTriage@Context`: name the affected declared scopes, structure kinds, residual carrier, local repair already attempted, why local repair is insufficient, and the first admissible architecture move or neighboring-pattern exit.
+
+Entry condition: if declared scopes, at least one architecture structure kind, and one first admissible architecture move cannot be named in one sentence, keep the phrase as an ordinary source cue or `ProblemCard@Context`, not as `CrossScopeArchitectureResidualTriage@Context`.
+
+
+What goes wrong if C.30.ILC is missed: a local improvement, control layer, scale label, interface grammar, or evidence reuse is treated as whole-architecture adequacy while the residual moves into another declared scope.
+
+What C.30.ILC buys in practice: the practitioner can keep the useful conflict or frustration wording as a Plain source cue, recover the affected scopes and structure kinds, and stop at one admissible architecture move or neighboring-pattern exit.
+
+`Interlevel conflict` and `frustration` may stay as ordinary source cues, but the conforming record recovers them through declared scopes, structure kinds, and residual carrier. The pattern does not create a generic level scale or `U.Frustration`. It asks which declared system level, aggregation scope, control layer, organizational scope, work/evidence scope, system/environment scope, scale window, interface grammar, allocation boundary, or source-return condition is carrying the residual.
+
+Not this pattern when the live issue is stakeholder negotiation, ethics, measurement, scale/coarse-graining, candidate generation, final selection, causal outcome, evidence, assurance, or mathematical-lens validation. Use `D.3`/`D.4`, `C.16` or an admitted characteristic-support receiving pattern, `C.29` or an admitted scale/coarse-graining receiving pattern when that lens is live, `G.5` or an admitted candidate-generation receiving pattern, `C.11`, `C.28`, `A.10`/`B.3`/`G.6`, or `C.29` respectively.
+
+### C.30.ILC:2 - Problem
+
+Architecture work often starts from a residual: a local fix works in one scope and fails in another. Component optimization increases system integration cost. A new module boundary reduces local complexity and increases exceptions at the product-line scope. A control layer improves local safety and creates accountability or latency claims elsewhere. A reusable evidence set reduces repeated work and hides a new source-return obligation.
+
+Without a pattern, teams either discuss the residual as vague `complexity`, treat it as ordinary stakeholder conflict, jump into measurement, or open a new architecture synthesis effort too early. `C.30.ILC` keeps the first move small: identify whether the residual is architecture-shaping and name the first admissible architecture move or exact neighboring-pattern exit.
+
+The practical work is often not to draw another view. It is to distribute the residual across the carrier that can actually bear it: declared scope, structure kind, constraint, characteristic or Q-bundle, evidence-reuse boundary, source-return condition, or neighboring-pattern claim kind.
+
+### C.30.ILC:3 - Forces
+
+* Local optimization can be real and still be harmful at another declared scope.
+* `Level`, `layer`, `scope`, `scale`, `abstraction`, `organization`, and `system/environment` wording can sound precise while naming different objects.
+* Measurement is tempting because the residual feels numeric, but a measure before declared scope and structure-kind recovery can hide the real conflict.
+* Ethics and stakeholder mediation may be live, but not every cross-scope residual is a mediation problem.
+* Architecture synthesis may be needed, but a small triage output often identifies a narrower move: split scope, add mediator, add interface grammar, change allocation, expose coupling, add evidence scope, accept bounded exception, or return to source.
+* The pattern is not a prescribed sequence of moves; architecture work is often case-managed through loops, checks, and dead ends.
+
+### C.30.ILC:4 - Solution
+
+Create a `CrossScopeArchitectureResidualTriage@Context` record when an architecture concern is carried by residuals across declared scopes or structure kinds.
+
+```text
+CrossScopeArchitectureResidualTriage@Context ::= {
+  describedHolonRef,
+  boundedContextRef,
+  liveArchitectureConcernCue,
+
+  declaredScopeRefs: FinSet(AggregationScopeRef | DeclaredSystemLevelRef |
+                            ControlLayerRef | WorkEvidenceScopeRef |
+                            OrganizationScopeRef | SystemEnvironmentScopeRef |
+                            RateBandRef | ScaleWindowRef |
+                            PublicationSectionRef | OtherDeclaredScopeRef),
+  structureKindRefs: FinSet(ArchitectureStructureKindRef),
+
+  localScopeOptimizationClaim?,
+  widerScopeOptimizationClaim?,
+  conflictingConstraintRefs?,
+  conflictingCharacteristicRefs?,
+  conflictingQBundleRefs?,
+
+  symptom,
+  crossScopeResidualDescription,
+  crossScopeResidualCarrierKind:
+    hiddenCoupling | interfaceException | controlRateConflict |
+    scaleWindowLoss | evidenceReuseFailure | regulatoryBespokeResidue |
+    workMethodException | dataSemanticDrift |
+    placementJurisdictionConflict | securityTrustBoundaryBreak |
+    otherDeclared,
+  localRepairAttempted?,
+  whyLocalRepairInsufficient?,
+
+  firstAdmissibleArchitectureMove:
+    splitDeclaredSystemLevel | mergeDeclaredSystemLevel | addMediator |
+    addInterfaceGrammar | addControlLayer | addEvidenceScope |
+    addWorkMethodScope | changeAllocation | exposeHiddenCoupling |
+    acceptBoundedException | exitToD3D4 | exitToC28 |
+    noArchitectureMove,
+
+  triggeredSupportRefs?,
+  admissibleNextMove,
+  stopCondition,
+  sourceReturnCondition?
+}
+```
+
+**Layer, level, tier, stack, and system-level wording.** `System level` may remain as ordinary recognition language when a practitioner would naturally use it, but the record recovers it through `declaredScopeRefs`. When the source says layer, level, tier, or stack, recover exactly one or more of: `controlLayerRef`, `declaredSystemLevelRef`, `aggregationScopeRef`, `rateBandRef`, `organizationLevelRef`, `workEvidenceScopeRef`, `scaleWindowRef`, or `publicationSectionRef` when the wording only names a document layer. A move such as `splitDeclaredSystemLevel` is admissible only when the affected declared system level, aggregation scope, control layer, organization scope, work/evidence scope, system/environment scope, rate band, scale window, publication section, or source-return condition is named. A layer label is not a structure kind, not a system level, not a rate band, and not evidence of separation by itself.
+
+`crossScopeResidualDescription` is not enough by itself. A residual becomes architecture-shaping only when its carrier is declared: hidden coupling, interface exception, control-rate conflict, scale-window loss, evidence-reuse failure, regulatory bespoke residue, work-method exception, data-semantics drift, placement or jurisdiction conflict, security trust-boundary break, or another declared carrier.
+
+Anti-collapse rule: no generic frustration score, no risk-matrix residual, and no stakeholder-mediation takeover. A frustration or risk label is only a cue until declared scopes, structure kinds, residual carrier, and first architecture move are recoverable; stakeholder mediation exits to `D.3`/`D.4` only when values, ethical conflict, or negotiation is live.
+
+**Stop condition.** Stop after `CrossScopeArchitectureResidualTriage@Context` when it names the residual and the first admissible architecture move. It does not measure scale preference, generate candidate architectures, mediate stakeholder conflict, or select a decision. Open a neighboring pattern only when a live claim kind exists:
+
+| Live claim kind | Neighboring pattern |
+|---|---|
+| measurement or characteristic claim | `C.16` or an admitted characteristic-support receiving pattern |
+| scale or coarse-graining claim | `C.29` or an admitted scale/coarse-graining receiving pattern when the scale lens is live |
+| candidate generation | `G.5` or an admitted candidate-generation receiving pattern |
+| final local choice | `C.11` |
+| causal outcome claim | `C.28` |
+| evidence or assurance | `A.10`, `B.3`, or `G.6` |
+| ethical or stakeholder mediation | `D.3` / `D.4` |
+| mathematical-lens transfer | `C.29` |
+
+**D.3/D.4 boundary.** `D.3` and `D.4` handle conflict topology, values, stakeholder mediation, and ethical negotiation. `C.30.ILC` handles architecture-specific recognition: whether the conflict is carried by declared scopes, structural views, allocation, interfaces, control rates, work/evidence reuse, scale windows, or coarse-graining loss. It is a triage and architecture-move pattern, not a negotiation pattern.
+
+**Architecture-move examples.**
+
+| Cue | Admissible architecture move | Non-admissible overread |
+|---|---|---|
+| Component optimization breaks integration | expose hidden coupling; add interface grammar; change allocation | Treat local performance as system adequacy. |
+| Modularity reduces local work and increases exceptions | accept bounded exception; revise module boundary; add work/evidence scope | Average exceptions into a modularity score without declared basis. |
+| Local autonomy conflicts with control scope | add control layer; change allocation; exit to `C.30.LCA` | Treat autonomy label as causal or safety proof. |
+| Evidence reuse hides source loss | add evidence scope; add source-return condition; exit to `A.10`/`G.6` | Treat reused evidence as automatically valid in the wider scope. |
+| A scale window changes the residual | exit to `C.29` or an admitted scale/coarse-graining receiving pattern if the scale lens is live | Treat two observations as a universal scale law. |
+
+**Worked slice A - clean module layout, bad flow.** A product team redraws modules so each component has an explicit responsibility/enactor relation, but order-to-cash flow now crosses more work transfers and exceptions rise. `C.30.ILC` names the module structure, flow/transduction structure, affected work scope, cross-scope residual, and first move: expose hidden coupling or open `C.30.TGA-FLOW-REL`. It does not turn the exception count into a modularity measure until `C.16` or an admitted characterization-support receiving pattern is live.
+
+**Worked slice B - AI agent control conflict.** A local agent optimizes its local objective and violates a supervisor's allowed-mode constraint. `C.30.ILC` names the agent scope, supervisor/control scope, control relation, and local repair attempted. The first move may be add control layer, change allocation, or open `C.30.LCA`. Safety, causality, and gate claims exit to their governing patterns.
+
+**Worked slice C - evidence scope residue.** A reusable certification evidence set removes repeated evidence work for several product variants, but one variant has a hidden environment difference. `C.30.ILC` names the work/evidence scope and source-return condition. It exits to `A.10` or `G.6` when evidence validity becomes live.
+
+### C.30.ILC:5 - Archetypal Grounding
+
+| Archetype | Without C.30.ILC | With C.30.ILC |
+|---|---|---|
+| System | A residual across component, system, control, or environment scopes is called generic complexity. | The affected declared scopes and structure kinds are named, and the first architecture move is bounded. |
+| Episteme | A diagram, measurement note, or conflict memo is read as if it already selected a repair. | The record preserves the cue, separates support from decision, and exits to the governing pattern when evidence, measurement, selection, or mediation is live. |
+
+### C.30.ILC:6 - Bias-Annotation
+
+* **Local-success bias.** A local improvement is treated as whole-architecture improvement. Repair by naming the wider scope and the residual.
+* **Pseudo-level bias.** `Level`, `layer`, or `scope` sounds precise but no declared scope exists. Repair through `declaredScopeRefs`.
+* **Measurement-first bias.** A residual is measured before its structure-kind and scope basis are declared. Repair by opening `C.16` or an admitted characteristic-support receiving pattern only after triage names the affected characteristic or measurement basis.
+* **Mediation-default bias.** Every conflict is treated as stakeholder conflict. Repair by checking whether the live object is architecture structure, allocation, interface grammar, control, work/evidence scope, or source-return.
+* **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before opening `G.5` or an admitted candidate-generation receiving pattern.
+
+This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+
+### C.30.ILC:7 - Conformance Checklist
+
+
+| ID | Check | Why it matters |
+|---|---|---|
+| CC-ILC-1 | A conforming use names `describedHolonRef`, `boundedContextRef`, and the live architecture concern. | Keeps the triage grounded. |
+| CC-ILC-2 | A conforming use names declared scopes, not only `level`, `layer`, `scope`, or `scale` prose. | Prevents pseudo-scope reasoning. |
+| CC-ILC-3 | A conforming use names the architecture structure kinds affected by the residual. | Keeps the residual architectural rather than generic. |
+| CC-ILC-4 | A conforming use records local repair attempted and why local repair was insufficient when a local repair is claimed. | Prevents premature synthesis and repeated local fixes. |
+| CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. | Makes the output action-guiding without opening candidate generation. |
+| CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, and mathematical-lens claim kinds exit to their governing patterns. | Prevents triage from becoming proof or synthesis. |
+| CC-ILC-7 | If a source-return condition is live, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |
+| CC-ILC-8 | The stop condition is visible. | Prevents the triage pattern from expanding into a hidden prescribed sequence. |
+
+### C.30.ILC:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+|---|---|---|
+| Generic complexity bucket | Everything becomes `complexity` or `interlevel conflict`. | Name declared scopes, structure kinds, residual, and first architecture move. |
+| Measurement-first conflict | The team starts measuring before declaring what is in conflict. | Run ILC triage first; open `C.16` or an admitted characteristic-support receiving pattern only when the measured characteristic is live. |
+| Risk color as cross-scope decision | A red, yellow, or green risk cell, risk matrix, or maturity score decides the cross-scope architecture move or resource-allocation priority. | Recover declared scopes, live structure kinds, the residual, the loss, hazard, or threat path, support posture, characteristic scale, comparator, gate pattern, and first admissible architecture move; do not treat ordinal risk color as architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation support, or gate passage. |
+| Stakeholder-only conflict | A structural residual is sent to mediation with no architecture move. | Use `D.3`/`D.4` only when values, stakeholder negotiation, or ethical mediation is live. |
+| Hidden candidate generation | The residual immediately spawns many designs. | State the first admissible move; open `G.5` or an admitted candidate-generation receiving pattern only when candidate generation is live. |
+| Scope word without scope record | The text says `level`, `layer`, `scale`, or `scope` without a declared field. | Recover the exact declared scope or demote the phrase to ordinary recognition. |
+
+### C.30.ILC:9 - Consequences
+
+The gain is an early architecture move that is small and precise. The practitioner can preserve useful problem language such as conflict, frustration, level, layer, or local optimization while recovering the FPF fields that keep the claim reviewable.
+
+The cost is that `C.30.ILC` often refuses to solve the whole problem. It identifies the first architecture move or neighbor exit. Measurement, mathematical lens use, stakeholder mediation, candidate generation, evidence, assurance, and final choice remain outside until they are live.
+
+### C.30.ILC:10 - Rationale
+
+Interlevel conflict and frustration are useful Plain source cues because they point to a recurrent architecture failure: local repair in one scope leaves a residual in another. They are dangerous as generic labels because they can hide which scope, structure kind, relation, or source-return condition is actually responsible.
+
+A local optimum or successful local repair is therefore not treated as whole-architecture adequacy. It becomes architecture-relevant only when the cross-scope residual carrier is recoverable and the next move can be named.
+
+`C.30.ILC` keeps the cue but recovers the object. It treats conflict/frustration as architecture-shaping only when declared scopes and architecture structure kinds are named. This lets FPF support the practical intuition without introducing a second ontology of levels, a hidden measurement pattern, or a prescribed architecture work order.
+
+### C.30.ILC:11 - SoTA-Echoing
+
+| SoTA/practice anchor | What it supports | FPF adoption stance | Practitioner implication |
+|---|---|---|---|
+| Scenario-based architecture trade-off practice, with ATAM-like reasoning used here as lineage and practice support for concern, scenario, sensitivity point, and trade-off recognition rather than as a decision or evidence method. | Architecture work often starts from cross-concern and cross-scope trade-offs rather than one local measurement result. | Adopt and adapt: use the conflict cue for triage, require declared scopes and structure kinds, and keep final selection, evidence, assurance, and gate passage in neighboring patterns. | A residual can start an architecture move without becoming a decision, proof, or safety case. |
+| Complex systems and multi-scale modeling practice. | Local interactions can produce residuals or constraints at wider declared scopes. | Adapt: use scale and scope language only after the FPF record declares the relevant scope or scale window. | `Interlevel`, conflict, and frustration language remains a cue until fields recover the scopes and residual carrier. |
+| Control and cyber-physical systems practice. | Local autonomy, feedback, supervisor relations, and rate separation can create cross-scope conflict. | Reuse through `C.30.LCA`, `B.2.5`, `C.27`, and `A.3.3`; do not let ILC carry control proof. | A control conflict opens control-structure or dynamics support only when live. |
+| FPF source-return and semantic-coarsening discipline. | Compressed views and reusable records can hide distinctions that matter in a wider scope. | Adopt: add `sourceReturnCondition?` when hidden distinctions carry the residual. | A bounded exception or source-return trigger may be the correct first move. |
+
+### C.30.ILC:12 - Relations
+
+* Builds on `C.30` and `C.30.ASV` for architecture-description and structural-view adequacy.
+* Uses `A.22` for structure and structural-view discipline.
+* Coordinates with `C.30.TGA-FLOW-REL`, `C.30.LCA`, `A.6.F`, and module/interface patterns when the residual concerns flow, control, function, allocation, module, or interface structure.
+* Exits to `C.16` or an admitted characteristic-support receiving pattern for measurement or characteristic claims, `C.29` or an admitted scale/coarse-graining receiving pattern for scale/coarse-graining claims, `G.5` or an admitted candidate-generation receiving pattern for candidate generation, `C.11` for final local choice, `C.28` for causal outcome claims, `A.10`/`B.3`/`G.6` for evidence or assurance, `D.3`/`D.4` for ethical or stakeholder mediation, and `C.29` for mathematical-lens transfer.
+
+Does not replace: `C.30` architecture-description adequacy, `C.30.ASV` structural-view adequacy, `A.22` structure support, `C.30.TGA-FLOW-REL` flow/TGA relation support, `C.30.LCA` control-structure view support, `A.6.F` function-use repair, module/interface repair patterns, `C.16` or admitted characteristic-support receiving patterns, `C.29` or admitted scale/coarse-graining receiving patterns, `G.5` or admitted candidate-generation receiving patterns, `C.11` final local choice, `C.28` causal-use support, `A.10`/`B.3`/`G.6` evidence or assurance, `D.3`/`D.4` ethical or stakeholder mediation, or `C.29` mathematical-lens adequacy.
+
+### C.30.ILC:End
 ## D.5 - Bias-Audit & Ethical Assurance
 
 **Use this when.** Use this pattern when a holon, model, metric, decision system, policy, or authored FPF claim may create unfair, biased, or ethically unsafe effects for people or groups. If the fairness claim is causal — for example "this intervention is fair", "this policy would have prevented harm", "this model is counterfactually fair", or "this practice causally reduces disparity" — keep the ethical audit in `D.5` and cite `C.28` for causal-use question, causality-ladder rung, estimand, causal evidence support basis, identification, realizability, evidence design, support record, and support verdict.
@@ -59620,7 +62332,6 @@ Heavier declaration comes only after the ordinary card already holds.
 
 ### E.17.AUD.OOTD:End
 
-
 ## E.18 - Transduction Graph Architecture (E.TGA)
 
 > **Tech‑name:** **E.TGA** (pattern label)
@@ -59630,13 +62341,13 @@ Heavier declaration comes only after the ordinary card already holds.
 ### E.18:1 - Intent
 
 Provide a **notation‑independent** architecture for graphs whose vertices are **morphisms (transductions)** and whose edges are **typed transfers**. The architecture is **agnostic to the concrete morphism set** and equips the graph with **publication, comparability, crossing, and budget** disciplines so that **flows** are **valuations over paths** within the same graph object. Faces appear via **MVPK**; numeric/comparable publication carries **pins** with **Bridge/CL** notes; Φ/CL^plane penalties remain in **R**.
-*Style note:* When this pattern states admissibility criteria, phrase them as model conditions: if the declared graph, path, crossing, or publication conditions hold, the E.TGA explanation applies; otherwise it does not apply. Use duty verbs only for named conformance minima.
+**Admissibility wording.** E.TGA criteria are model conditions: if the declared graph, path, crossing, or publication conditions hold, the E.TGA explanation applies; otherwise it does not apply. Duty verbs appear only in named conformance minima.
 
-**Use this when.** Use E.TGA when the live question is whether a project description needs one transduction graph relation, one graph crossing, or one flow valuation over `U.Transfer` rather than an ordered process narrative.
+**Use this when.** Use E.TGA when the live question is whether a project description needs one transduction graph relation, one graph crossing, or one flow valuation over `U.Transfer` rather than an ordered work/method narrative.
 
 **First useful move.** Name the graph object, the node kinds, the single `U.Transfer` edge kind, and the exact crossing or path slice whose pins are required.
 
-**Smallest sufficient graph and path guidance.** Use the lightest graph and path guidance that preserves the next admissible reader move. Add extra pins, witnesses, `DecisionLog` detail, `CrossingBundle`, `PQG`/`RSCR`, or MIP-run material only when the live claim would otherwise become false, unsafe, non-replayable, or lack a named governing-definition locus.
+**Smallest sufficient graph and path guidance.** Use the lightest graph and path guidance that preserves the next admissible practitioner move. Add extra pins, witnesses, `DecisionLog` detail, `CrossingBundle`, `PQG`/`RSCR`, or MIP-run material only when the live claim would otherwise become false, unsafe, non-replayable, or lack a named governing-definition locus.
 
 **Minimum sufficient next move.** For the ordinary case, name `TransductionGraph`, the active `PathId` or `PathSliceId` when a path or slice is live, the node kinds, one `U.Transfer`, and only the crossings or pins that are live. If there is no crossing, comparison, launch, or refresh claim, do not open `CrossingBundle`, `GateProfile`, or `DecisionLog`.
 
@@ -59644,13 +62355,13 @@ Provide a **notation‑independent** architecture for graphs whose vertices are 
 
 **Same problem, different live question.** For a TGA-looking problem, use `E.18` for graph/flow/crossing, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not open the other three until their own claim is live.
 
-**Semantic repair return.** When E.TGA blocks a misleading word, face, alias, or source label, the repair must return to the enabled graph/path/crossing action: name the graph relation, path or flow valuation, or crossing boundary that remains admissible. Do not stop at a classification of vocabulary or publication faces.
+**Semantic repair return.** When E.TGA blocks a misleading word, face, alias, or source label, the repair returns to the enabled graph/path/crossing action: name the graph relation, path or flow valuation, or crossing boundary that remains admissible. Do not stop at a classification of vocabulary or publication faces.
 
 **Governed-object and relation separation.** Keep the graph object and path or crossing relation (`E.18`), MVPK publication faces (`E.17`), internal CV status and witness (`A.20`), gate decision and `DecisionLog` (`A.21`), evidence or provenance relation (`A.10`/`G.6`), work plan or work occurrence (`A.15`), and mechanism-governing definition assignment (`E.20`) distinct. An MVPK face, `DecisionLog`, evidence carrier, MIP manifest, or work witness does not carry another pattern's project-side value unless that exact governing pattern consumes it for that relation.
 
 **Smallest affected locus.** Localize the change to the smallest live locus: `PathSlice` or crossing in `E.18`, CV step in `A.20`, `GateDecision` equivalence class in `A.21`, or mechanism-governing definition in `E.20`. Do not widen to a whole flow or unrelated governed object when that locus is enough.
 
-**Ordinary success.** For ordinary E.TGA use, success is that the graph object, path or slice, single transfer edge kind, and any live crossing boundary are placed without hidden process order or hidden scalarization. A full conformance pass is needed only when the downstream claim consumes expanded assurance or conformance material.
+**Ordinary success.** For ordinary E.TGA use, success is that the graph object, path or slice, single transfer edge kind, and any live crossing boundary are placed without hidden work/method order or hidden scalarization. A full conformance pass is needed only when the downstream claim consumes expanded assurance or conformance material.
 
 **Locality asymmetry.** `E.18` is graph-local, `A.20` is step-local, `A.21` is gate-local, and `E.20` is trigger-local. Do not normalize the four patterns into one assurance regime.
 
@@ -59658,15 +62369,15 @@ Provide a **notation‑independent** architecture for graphs whose vertices are 
 
 **Field liveness.** Always core for E.TGA: graph object, node kinds, one `U.Transfer`, and the path or slice being governed. Conditional-live: `CrossingBundle`, `GateProfile`, `DecisionLog`, `ViewpointMap`, evidence carriers, refresh pins, and launch/work-boundary fields; open them only when the corresponding crossing, publication, evidence, refresh, gate, or work-boundary claim is live.
 
-**Retrieval trap guard.** When excerpted alone, E.TGA vocabulary must not be read as governing `GateCheckRef`, full viewpoint taxonomy, or gate publication semantics. `A.21` governs gate publication, `E.17` governs MVPK faces, and S12-style viewpoint material is conditional support, not the graph architecture itself.
+**Retrieval trap guard.** When excerpted alone, E.TGA vocabulary is not read as governing `GateCheckRef`, full viewpoint taxonomy, or gate publication semantics. `A.21` governs gate publication, `E.17` governs MVPK faces, and S12-style viewpoint material is conditional support, not the graph architecture itself.
 
-**Anti-Goodhart guard.** Passing E.TGA conformance is not a substitute for the governed graph result: the graph must still avoid hidden process order, hidden crossings, hidden scalarization, and unsupported path/slice currentness.
+**Anti-Goodhart guard.** Passing E.TGA conformance is not a substitute for the governed graph result: the graph still avoids hidden work/method order, hidden crossings, hidden scalarization, and unsupported path/slice currentness.
 
 **Generative side.** E.TGA preserves open-ended action by keeping set-return, archive preservation, admissible loops, and budgeted refresh visible; these are not merely assurance checks, but the reason the graph can carry multiple future paths without collapsing them into one score or one pipeline.
 
-**What goes wrong if missed.** A reader may treat a reference flow, a semio word such as `transition`, or a tool pipeline as a new graph kind or a second process order, then lose comparability, crossing evidence, and slice-local refresh boundaries.
+**What goes wrong if missed.** A practitioner may treat a reference flow, a semio word such as `transition`, or a tool pipeline as a new graph kind or a second work/method order, then lose comparability, crossing evidence, and slice-local refresh boundaries.
 
-**What this buys.** E.TGA lets the reader keep graph structure, publication pins, crossings, CV/GF separation, and refresh locality in one current architecture without turning every domain path into its own flow doctrine.
+**What this buys.** E.TGA lets the practitioner keep graph structure, publication pins, crossings, CV/GF separation, and refresh locality in one current architecture without turning every domain path into its own flow doctrine.
 
 **Not this pattern when.** If the problem is only internal step constraint satisfaction, use `A.20`. If it is gate profile fit or gate decision aggregation, use `A.21`. If it is mechanism-intension meaning, citeable-token denotation, suite membership, planned-baseline pins, or wiring semantics, use `E.20`. If the text asserts that work occurred or should occur, use the work and enactment loci; `E.18` can locate entry to `U.WorkEnactment` as a crossing, but it does not assert work occurrence. If the text only uses semio wording such as `transition` without a live transduction relation and governed object, do not mint a graph kind; keep the phrase in the semio pattern or source-local wording that carries it.
 
@@ -59687,7 +62398,7 @@ MVPK already fixes publication drift at the **single-arrow** scope; E.TGA lifts 
 ### E.18:3 - Problem
 
 1. **Morphisms ≠ Graph.** A catalog of morphism-scoped patterns (e.g., UNM, Selector, Work, Refresh) does not, by itself, explain **how the whole graph is built, constrained, and audited**.
-2. **Flow proliferation.** Multiple “reference flows” can be declared; readers need **one graph discipline** that keeps them admissible and comparable **without privileging any single flow**.
+2. **Flow proliferation.** Multiple “reference flows” can be declared; practitioners need **one graph discipline** that keeps them admissible and comparable **without privileging any single flow**.
 3. **Unsafe publication.** Faces re‑list I/O, hide scalarization, or omit edition/plane pins; cross‑Context reuse lacks **Bridge/CL** citation; **plane penalties** appear in F/G instead of R.
 4. **Cycles without norms.** Selection↔Planning loops run without explicit **budget (Γ_time)**, **FreshnessRequest**, or **slice‑scoped** refresh; `FinalizeLaunchValues` (launch‑value slot filling) is performed too early (outside `U.Work` (`U.WorkEnactment`)).
 
@@ -59702,7 +62413,7 @@ MVPK already fixes publication drift at the **single-arrow** scope; E.TGA lifts 
 | **Agility vs reproducibility**                   | Permit evolving CG‑Spec/UNM/Comparator editions ↔ require **edition pins** and **re‑emission** on change.                                                                  |
 | **Cycles vs convergence**                        | Allow Selection↔Planning iteration ↔ impose **budget** and **slice‑scoped** refresh to prevent thrash.                                                                     |
 
-### E.18:5 - Solution — the E.TGA kit (graph model + choreography)
+### E.18:5 - Solution - E.TGA graph model and relation disciplines
 **Dominant Solution moves.** In ordinary E.TGA use, keep five moves primary: name one graph object; distinguish the graph from a flow valuation; place gates only on crossings or the `U.WorkEnactment` boundary; preserve normalize-before-compare and set-return discipline; and keep cycles under budget plus `PathSlice` refresh. S12 viewpoint mapping remains conditional support when engineering or publication viewpoint mapping is live.
 
 #### E.18:5.1 - S1 - Graph object (conceptual)
@@ -59722,7 +62433,7 @@ with:
   • `E⃗ := Edition vector` — a **partial map** `edition_key ↦ EditionId` over named families `{CG‑Spec, ComparatorSet, UNM.TransportRegistryΦ}` and optional `{DescriptorMapRef, DistanceDefRef, CharacteristicSpaceRef}` when cited.
   • `D := DesignRunTag` — `design(T^D)` or `run(T^R)`, used by **LaunchGate** and acceptance/telemetry duties.
  **Invariants.** Raw `U.Transfer` preserves `CtxState` (`⟨L,P,E⃗,D⟩`): it does **not** write/update any CtxState slot; any CtxState write/update (or entry to `U.WorkEnactment`) occurs at `OperationalGate(profile)`.
- **Extension discipline.** Any extra slot beyond ⟨L,P,E⃗,D⟩ **SHALL** be registered in the **E.17/LEX “CtxState Extension Registry”** with slot‑id, intent, partial‑order law (neutral/absorbing), and SquareLaw compatibility; unregistered extensions are non‑conformant.
+ **Extension discipline.** A conforming use registers any extra slot beyond ⟨L,P,E⃗,D⟩ in the **E.17/LEX “CtxState Extension Registry”** with slot‑id, intent, partial‑order law (neutral/absorbing), and SquareLaw compatibility; unregistered extensions are non‑conformant.
  **Data-shape location.** E.TGA names the graph and valuation obligations for `PathId`, `PathSliceId`, Γ-pins, and lineage: flow is a valuation over `U.Transfer`, raw transfer preserves `CtxState`, and path or slice evidence is carried through this pattern plus `A.20`, with `G.6` or `G.11` where evidence-path visibility or refresh wiring is live. Use these current loci for path and slice currentness.
 
 
@@ -59735,7 +62446,7 @@ with:
   — `StructuralReinterpretation` **≡** the E.TGA placement of **A.6.4** `U.EpistemicRetargeting` as a graph node; it is not a new retargeting kind. **All retargeting semantics** (slot-scoped discipline, `DescribedEntitySlot`/`GroundingHolonSlot` behaviour, invariants, Bridges, witnesses) come from **C.2.1** and **A.6.2–A.6.5**; E.TGA does **not** introduce a TGA-local variant of retargeting.
 
   `OperationalGate ≔ U.Transduction(kind=Check)` with DecisionLog aggregation.
-  The only extra discipline E.TGA adds for `StructuralReinterpretation` is **graph-local**: CtxState and GateCrossing behaviour are governed by **CC-TGA-06-EX** and **CC-TGA-11** (projection-preserving w.r.t. `⟨L,P,E⃗,D⟩`, PathSlice-local, and "no plane/unit change without a gate"). `StructuralReinterpretation` is not a gate exception; it is a proof that no GateCrossing occurred. If any `CtxState` slot, plane/unit, edition, or design/run boundary changes, the case is a GateCrossing again.
+  The only extra discipline E.TGA adds for `StructuralReinterpretation` is **graph-local**: CtxState and GateCrossing behaviour are governed by **CC-TGA-06-EX** and **CC-TGA-11** (projection-preserving w.r.t. `⟨L,P,E⃗,D⟩`, PathSlice-local, and "no plane/unit change without a gate"). `StructuralReinterpretation` is not a gate exception; it carries a recorded witness condition for saying no GateCrossing occurred. If any `CtxState` slot, plane/unit, edition, or design/run boundary changes, the case is a GateCrossing again.
 
 > **MVPK integration (import).** Every vertex with an external publication face is published via **MVPK** faces (`PlainView`, `TechCard`, `AssuranceLane`, `InteropCard`) under a declared **PublicationScope** (E.17). E.TGA **reuses** MVPK’s publication laws (pins, declared-order discipline, “no new numeric claims / no I/O re‑listing”) and only adds graph-scope constraints in S3 and **CC‑TGA‑09/10**; it does **not** define a second, local publication semantics.
 
@@ -59744,7 +62455,7 @@ with:
   (i) `U.BoundedContext` (**Context**), (ii) **ReferencePlane**, (iii) any member of the **Edition vector** `E⃗` (e.g., `CG‑Spec`, `ComparatorSet`, `UNM.TransportRegistryΦ`, `DescriptorMapRef`, `DistanceDefRef`, `CharacteristicSpaceRef`), (iv) **DesignRunTag** (`T^D↔T^R`), or (v) **Kind/describedEntity** (only under `StructuralReinterpretation` subject to **CC‑TGA‑06‑EX**).
 **Invariants.** Raw `U.Transfer` preserves `CtxState`; a GateCrossing occurs at exactly one `OperationalGate(profile)` (SquareLaw applies).
 **Required pins (minimum).** `BridgeCard + UTS row`; `CL` for scope bridges; `CL^plane` for plane crossings; `CL^k` with `bridgeChannel=Kind` for kind transitions; `PublicationScopeId`; `PathSliceId`; Γ‑pins on compare/launch faces.
-**Canonical reference.** `CrossingRef := ⟨GateId, channel, from, to, UTS.RowId, PathSliceId⟩`. Any DecisionLog entry whose rationale depends on a crossing **SHALL** cite `CrossingRef`.
+**Canonical reference.** `CrossingRef := ⟨GateId, channel, from, to, UTS.RowId, PathSliceId⟩`. Any DecisionLog entry whose rationale depends on a crossing cites `CrossingRef`.
 **CrossingBundle (normative)**
 **Definition.** A **CrossingBundle** is the published bundle that makes a GateCrossing **auditable and replayable** (crossing visibility). It includes:
 * the canonical **`CrossingRef`**;
@@ -59755,7 +62466,7 @@ with:
 * the active penalty policy identifiers **`Φ(CL)`** (and **`Ψ(CL^k)`** if used) as **`PolicyIdRef`** bundles (policy-id + `PolicySpecRef` + `MintDecisionRef?`; F.8:8.1);
 * any additional pins mandated by the active **GateProfile** / GateChecks (A.21) for this crossing.
 
-**Obligation.** Every **GateCrossing MUST publish its CrossingBundle**. Missing or non-conformant CrossingBundle is a **blocking** defect for downstream uses that rely on the crossing (selectors, acceptance, audits). A local descriptive graph with no downstream crossing consumption is not over-penalized by this CrossingBundle rule.
+**CrossingBundle rule.** Every **GateCrossing publishes its CrossingBundle**. Missing or non-conformant CrossingBundle is a **blocking** defect for downstream uses that rely on the crossing (selectors, acceptance, audits). A local descriptive graph with no downstream crossing consumption is not over-penalized by this CrossingBundle rule.
 
 **Term separation.** **Transfer** denotes the sole edge kind `U.Transfer` (graph edges). **Transport** denotes Φ‑governed conversion **policies/registries** (**`TransportRegistry^Φ`** under UNM). Wording “reuse via Transport” refers to registries/policies, not to an additional graph edge.
 
@@ -59789,10 +62500,10 @@ E.TGA **imports E.17** wholesale **and associates MVPK faces with `PublicationSc
 
 E.TGA **does not re‑specify** these laws; it only adds **graph-scope obligations** for faces emitted over transduction paths:
 
-1. **Crossings on faces.** When a face participates in a GateCrossing (S1.b/S9), it **SHALL** cite `BridgeId + UTS row + CL` and publish **Φ(CL)/Φ_plane RuleId**; **penalties remain in R‑lane**.
+1. **Crossings on faces.** When a face participates in a GateCrossing (S1.b/S9), it cites `BridgeId + UTS row + CL` and publishes **Φ(CL)/Φ_plane RuleId**; **penalties remain in R‑lane**.
 2. **Gate requirement on cited editions.** Any face that references editions of `CG-Spec`, `ComparatorSet`, or `UNM.TransportRegistryPhi` includes **`BridgeCard + UTS row`**; faces without this are treated as **non-consumable downstream**. Bridge and terminology-synchronization checks are received through `F.9`, `F.17`, `E.17`, and `E.18`; selection and comparator pressure stays with `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11` when live.
-3. **ComparatorSet & set returns (graph‑scope).** Any `ComparatorSet` and `SetSemanticsRef` used along a transduction path **SHALL** carry **edition identifiers**; flows **re‑emit** faces on edition change; faces with comparison **return sets and declared partial orders** (no hidden scalarization), reusing MVPK’s declared-order discipline.
-4. **Γ_time on compare and launch faces.** All compare and launch faces on E.TGA paths pin `Γ_time`; implicit *latest* is not admissible. `A.21` carries current GateProfile binding and minimum profile semantics; E.TGA paths SHALL include the pin. **CHR avoids acceptance thresholds** (*NoThresholdsInCHR*); thresholding and launches are carried by `A.21`, Part G, and `U.Work` where live. Unknowns remain tri-state (`pass|degrade|abstain`) and fold per the active GateProfile (`A.21`).
+3. **ComparatorSet & set returns (graph‑scope).** Any `ComparatorSet` and `SetSemanticsRef` used along a transduction path carries **edition identifiers**; flows **re‑emit** faces on edition change; faces with comparison **return sets and declared partial orders** (no hidden scalarization), reusing MVPK’s declared-order discipline.
+4. **Γ_time on compare and launch faces.** All compare and launch faces on E.TGA paths pin `Γ_time`; implicit *latest* is not admissible. `A.21` carries current GateProfile binding and minimum profile semantics; E.TGA paths include the pin. **CHR avoids acceptance thresholds** (*NoThresholdsInCHR*); thresholding and launches are carried by `A.21`, Part G, and `U.Work` where live. Unknowns remain tri-state (`pass|degrade|abstain`) and fold per the active GateProfile (`A.21`).
 
 > **Reminder.** MVPK already bans “signature” on faces, I/O re‑listing, arithmetic on faces, and unpinned numeric content (E.17 §5.4–5.5). E.TGA **does not weaken or override** those rules; it only constrains how they are used along transduction paths.
 
@@ -59808,7 +62519,7 @@ Otherwise this KindBridge explanation does not apply (the step falls back to a g
 
 #### E.18:5.4 - S4 - Assurance‑operations on `U.Transfer` (counterfactual admissibility)
 On `U.Transfer` edges, an operation is interpreted as a **declarative assurance‑operation** **iff** it is one of
-`ConstrainTo(rule)` - `CalibrateTo(map|standard)` - `CiteEvidence(anchor)` - `AttributeTo(agent|role)`; otherwise this explanation does not apply.
+`ConstrainTo(rule)` - `CalibrateTo(calibrationReference)` - `CiteEvidence(anchor)` - `AttributeTo(provenanceReference)`; otherwise this explanation does not apply.
 Under this interpretation, `CtxState⟨L,P,E⃗,D⟩` is preserved.
 If a claimed assurance operation would change plane or units, the assurance-operations explanation does not apply and the step is handled as a gated crossing (`OperationalGate(profile)+Bridge+UTS`).
 
@@ -59828,7 +62539,7 @@ The comparison explanation applies under the following admissibility conditions:
 
 * The architecture centers the loop between `U.SelectionAndTuning` and `U.WorkPlanning`.
 * The loop operates under a local **budget / max_iter** in `Γ_time`; at expiry, the selector emits the **current `CandidateSet`** and **`MethodTuning`** with a **partial‑optimality** flag; further improvement rolls into the **next `PathSlice`**.
-* **UNM occurs before the loop**; if measurements are missing/stale, UNM emits a **FreshnessRequest** which is **planned** in `U.WorkPlanning` and **executed** in `U.Work`. Transfers, units, and calibrations are published as `CalibrateTo(map|standard)` and pinned to `TransportRegistry^Φ` (**R‑channel only** for penalties).
+* **UNM occurs before the loop**; if measurements are missing/stale, UNM emits a **FreshnessRequest** which is **planned** in `U.WorkPlanning` and **executed** in `U.Work`. Transfers, units, and calibrations are published as `CalibrateTo(calibrationReference)` and pinned to `TransportRegistry^Φ` (**R‑channel only** for penalties).
 * **WorkEnactment is the only site for launch‑value slot filling** (`FinalizeLaunchValues / FinalizeLaunchValuesOnlyInWork`).
 > **Refresh orchestration.** Telemetry from `U.WorkEnactment` and publications are **slice‑scoped**, editions re‑pinned, faces **re‑emitted**.
 
@@ -59837,7 +62548,7 @@ E.TGA checks that set-return, archive preservation, and comparator refs remain v
 
 * **Selectors return sets.** Default **DominanceRegime** is `ParetoOnly`; **IlluminationSummary** (telemetry summary) and any coverage/regret telemetry quantities are **report-only telemetry** (reported), excluded from dominance **unless** a CAL policy promotes them as declared dominance inputs (policy-id in SCR).
 
-If `PortfolioMode=Archive`, a **QD archive** may be returned; when generation is in scope, pairs `{environment, method}` are managed under declared **EnvironmentValidityRegion** and **TransferRulesRef**; parity records and `PathSliceId` are pinned on publication. Comparator semantics and archive pinning are received through `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` when live.
+If `PortfolioMode=Archive`, a **QD archive** can be returned; when generation is in scope, pairs `{environment, method}` are managed under declared **EnvironmentValidityRegion** and **TransferRulesRef**; parity records and `PathSliceId` are pinned on publication. Comparator semantics and archive pinning are received through `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` when live.
 
 #### E.18:5.8 - S8 - Guard aggregation assignment and handling (USM §1.2)
 * **USM.CompareGuard**/**USM.LaunchGuard** **publish `GuardOwnerGateId`**. Guard failures are **events** aggregated by the declared gate (not GateChecks).
@@ -59847,11 +62558,11 @@ If `PortfolioMode=Archive`, a **QD archive** may be returned; when generation is
 
 **Bridge-aware guards (cross-reference).** USM guards apply bridge-translation semantics (`translate(Bridge, Scope)`) with CL penalties in R-lane; guard vocabulary is received through **A.2.6**, while gate aggregation remains in `A.21`.
 
-**Error/timeout/unknown (profile-bound).** GateCheck errors/timeouts fold to **`degrade`** under `Lean|Core` and to **`block`** under `SafetyCritical|RegulatedX`; `unknown` follows the GateCheck's intensional rule (safety-default: `degrade`). The `A.21` DecisionLog record and equivalence witness carry decision stability; E.TGA does not define storage or key structures.
+**Error/timeout/unknown (profile-bound).** GateCheck errors/timeouts fold to **`degrade`** under `Lean\|Core` and to **`block`** under `SafetyCritical\|RegulatedX`; `unknown` follows the GateCheck's intensional rule (safety-default: `degrade`). The `A.21` DecisionLog record and equivalence witness carry decision stability; E.TGA does not define storage or key structures.
 
 #### E.18:5.9 - S9 - Transport & crossings
 * Cross‑Context or cross‑plane edges appear as **GateCrossings** that include a **Bridge** with **CL** policy; **Φ(CL)/Φ_plane** are published; penalties appear **in R only**; **Scope membership** (USM) is unchanged by crossings. **SquareLaw is checked within a single `DesignRunTag`; a `T^D↔T^R` change is modelled as a pair of coordinated gates with `DesignRunTagFrom/To` and the selected `A.15` work or publication locus for the live case.**
-* When *describedEntity/kind* changes across a boundary, declare an explicit **KindBridge (`CL^k`)** in addition to plane/context CL; cross-context reuse of UNM **SHALL** use `Transport`, with any `CL^plane` penalties published in **R-lane** only.
+* When *describedEntity/kind* changes across a boundary, declare an explicit **KindBridge (`CL^k`)** in addition to plane/context CL; cross-context reuse of UNM uses `Transport`, with any `CL^plane` penalties published in **R-lane** only.
 
 #### E.18:5.10 - S10 - Non‑mechanism boundary
 
@@ -59869,26 +62580,26 @@ E.TGA does not mint new viewpoint or view kinds. It **imports** the generic mult
 
 * **Engineering viewpoints.** For engineering holons, E.TGA assumes a TEVB bundle with `ViewFamilyId = VF.TEVB.ENG`. `EngineeringVPId` is one of `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}`, and TEVB is the normative source for their semantics. E.TGA does not refine these viewpoints.
 * **Publication viewpoints.** Publication viewpoints come from MVPK (E.17); `PublicationVPId` is a `MVPK.ViewpointId` that governs faces under a `PublicationScope`.
-* **Architecture description.** Under ISO 42010, an architecture description for a holon is: (i) an E.TGA transduction graph over that holon, plus (ii) MVPK faces emitted for its morphisms, with correspondences per E.17.0 linking each face to the engineering view(s) it implements. Crossings and penalties follow E.TGA’s gating rules (S9; CC‑TGA‑11/23) but do not change viewpoint semantics.
+* **Architecture relation.** E.TGA can describe a flow/transduction-structure view of an `ArchitectureOf@Context` claim when `DescriptionContext`, described holon, bounded context, and structure kind are explicit. It does not define architecture itself, and a TGA graph is not the functional architecture by default. Use `C.30`, `C.30.ASV`, and `C.30.TGA-FLOW-REL` when the graph is used as architecture-description support. Crossings and penalties follow E.TGA gating rules (S9; CC-TGA-11/23) but do not change viewpoint semantics.
 * **Separation of roles.** `VP.*` from TEVB are **EngineeringVPId** values only; they are not publication faces. `PublicationVPId` values live in MVPK. The mapping between them is entirely via ISO‑style correspondences and the `UTS.ViewpointMap`; E.TGA does not define a second notion of viewpoint.
 
 **Entities‑of‑interest (summary).**
 
 * **EoI‑ENG.** The engineering entity described by TEVB/E.TGA is a holon (`U.System` or `U.Episteme`) per TEVB’s `EoIClassSpec`. E.TGA does not broaden or narrow this set.
-* **EoI‑PUB.** MVPK may treat the *architecture description* itself as an entity‑of‑interest; publication viewpoints for that AD are defined in MVPK, not here. E.TGA only requires that such faces honour MVPK discipline and E.TGA’s crossing rules.
+* **EoI‑PUB.** MVPK can treat the *architecture description* itself as an entity‑of‑interest; publication viewpoints for that AD are defined in MVPK, not here. E.TGA only checks that such faces honour MVPK discipline and E.TGA’s crossing rules.
 
 **Naming rules (aligned with E.17.0/E.17.1/E.17.2).**
 * `ViewFamilyId` is the `U.ViewpointBundle.viewFamilyId` (e.g. `VF.TEVB.ENG` for TEVB); its lexical and ontological discipline is governed by E.17.1.
 * `EngineeringVPId : ViewpointId` is always a `U.ViewpointId` drawn from some bundle (for TEVB, one of `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}`). E.TGA never defines new `VP.*` ids.
 * `PublicationVPId : ViewpointId` is a `MVPK.ViewpointId` defined in E.17; TEVB viewpoints are **never** reused as publication viewpoints (per TEVB guard and MVPK).
-* The unqualified field name `ViewpointId` is not valid in S12 rows. Use `EngineeringVPId` and/or `PublicationVPId` explicitly; any imported row with an unqualified `ViewpointId` SHALL be normalized to `PublicationVPId` before the row is used.
+* The unqualified field name `ViewpointId` is not valid in S12 rows. Use `EngineeringVPId` and/or `PublicationVPId` explicitly; any imported row with an unqualified `ViewpointId` is normalized to `PublicationVPId` before the row is used.
 
 **Terminology guards (no local semantics).**
 * Within S12, “viewpoint”, “view” and “correspondence” have exactly the meanings given in E.17.0; “publication face” means an MVPK face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) under some `PublicationVPId`.
 * Faces are **carriers for views**: a face is part of a view only when linked via an ISO‑style `CorrespondenceRef` to an engineering `U.View` under some `EngineeringVPId`; S12 does not add extra conditions beyond E.17.0/E.17.2.
-* Labels such as “Functional view”, “Procedural view”, “Role‑Enactor view”, “Module‑Interface view” in this section are lexical aliases for TEVB viewpoints; they MUST NOT be interpreted as extra viewpoint kinds or as publication-face types.
+* Labels such as “Functional view”, “Procedural view”, “Role‑Enactor view”, “Module‑Interface view” in this section are lexical aliases for TEVB viewpoints; they are not interpreted as extra viewpoint kinds or as publication-face types.
 
-**Purpose.** Provide a neutral (F.18) mapping from TEVB engineering *viewpoint families* — bundle `VF.TEVB.ENG` with `VP.Functional / VP.Procedural / VP.RoleEnactor / VP.ModuleInterface` — to E.TGA constructs so that the same holon can be described functionally, procedurally, structurally, or as a module‑and‑interface architecture **without changing the underlying graph**. S12 does not introduce new `U.Viewpoint` or `U.View` kinds; it reuses those defined in E.17.0/E.17.2.
+**Purpose.** Provide a neutral (F.18) mapping from TEVB engineering viewpoint families - bundle `VF.TEVB.ENG` with `VP.Functional / VP.Procedural / VP.RoleEnactor / VP.ModuleInterface` - to E.TGA constructs so that the same holon can be described through functional, procedural, role-enactor, or module-interface viewpoints while the E.TGA construct scope remains explicit. S12 does not introduce new `U.Viewpoint` or `U.View` kinds, and it does not claim that all such views share one underlying graph unless the graph, described entity, and correspondence refs are declared.
 
 **Holon target.** The mapping applies to any holon, with the constraint that only `U.System` enacts `U.Work` (A.3/A.15). Supervisory and structural hierarchies remain distinct (B.2.5).
 
@@ -59908,29 +62619,29 @@ E.TGA does not mint new viewpoint or view kinds. It **imports** the generic mult
 
     * **Publication:** MVPK faces are **typed projections**, not `U.Work` records or execution carriers; faces add **no new numeric claims** (E.17). Constraints and compatibility appear as CV checks (A.20).
     * **Holonic note:** Structural mereology (part/whole of the carrier) is modeled in Part A; E.TGA ties interface/exposure semantics to morphisms and gates.
-    * **Device‑View reading (Transduction↔Transductor).** The same capability‑flow MAY be read as a **device** that performs the transduction (**transductor**) without changing the graph: model with `Signature` + `Mechanism` only; do **not** introduce extra edge kinds. If describedEntity retargets (function↔element), use `StructuralReinterpretation` with a **`KindBridge (CL^k)`** on **UTS** and a **SquareLaw‑Retargeting witness**; preserve `⟨L,P,E⃗,D⟩` and treat it as a non‑crossing (**CC‑TGA‑06‑EX**; witness shape §4.7).
-    * **Role‑label guard.** `TypicalEnactorRoleName` is **pedagogical only** and MUST NOT be used as a GateFit role; GateFit uses `U.Role` (A.21).
-4) **Module‑Interface View (`EngineeringVPId = VP.ModuleInterface`, physical/logical architecture)** — “what modules exist and how they specify commitments and constraints across interfaces”
+    * **Device‑View reading (Transduction↔Transductor).** The same capability‑flow can be read as a **device** that performs the transduction (**transductor**) without changing the declared E.TGA graph object: model with `Signature` + `Mechanism` only; do **not** introduce extra edge kinds. If describedEntity retargets (function↔element), use `StructuralReinterpretation` with a **`KindBridge (CL^k)`** on **UTS** and a **SquareLaw‑Retargeting witness**; preserve `⟨L,P,E⃗,D⟩` and treat it as a non‑crossing (**CC‑TGA‑06‑EX**; witness shape §4.7).
+    * **Role‑label guard.** `TypicalEnactorRoleName` is **pedagogical only** and is not used as a GateFit role; GateFit uses `U.Role` (A.21).
+4) **Module‑Interface View (`EngineeringVPId = VP.ModuleInterface`, physical/logical module structure)** — “what modules exist and how they specify commitments and constraints across interfaces”
     * **FPF constructs:** Module *interfaces* are `Signature` nodes; module realizations are `Mechanism` nodes; inter‑module dependencies traverse `U.Transfer`, with gates on crossings.
-    * **describedEntity note:** Functional↔element reinterpretation follows the **Device‑View reading** rule above (Role‑Enactor family) and **CC‑TGA‑06‑EX**; see **§4.7** for the retargeting witness shape and CV witness linkage.
-    * **Holonic note:** The same module may appear as a holon in multiple views; supervisory loops (B.2.5) remain orthogonal to structural composition.
+    * **describedEntity note:** Functional-view-to-element-structure reinterpretation follows the **Device‑View reading** rule above (Role‑Enactor family) and **CC‑TGA‑06‑EX**; see **§4.7** for the retargeting witness shape and CV witness linkage.
+    * **Holonic note:** The same module can appear as a holon in multiple views; supervisory loops (B.2.5) remain orthogonal to structural composition.
 This is an expandable list of viewpoint families; TGA is intentionally viewpoint‑neutral. Additional engineering bundles beyond TEVB (safety, mission, information, …) are introduced as separate `U.ViewpointBundle` species via E.17.1/E.17.2; S12 does not define them.
 
 **Alias families for transduction species (LEX‑only).**
-*Scope.* A pattern or domain profile MAY declare `AliasesInViewFamilies[]` for `U.Transduction` species so readers can recognise familiar engineering view families. All semantics come from the referenced bundles (typically TEVB) and MVPK; aliases are purely lexical.
+*Scope.* A pattern or domain profile can declare `AliasesInViewFamilies[]` for `U.Transduction` species so practitioners can recognise familiar engineering view families. All semantics come from the referenced bundles (typically TEVB) and MVPK; aliases are purely lexical.
 
 *Norms.*
-1. Each `U.Transduction` species MAY publish `AliasesInViewFamilies[]` — an open list of records
+1. Each `U.Transduction` species can publish `AliasesInViewFamilies[]` — an open list of records
    `{ ViewFamilyId, EngineeringVPId?, Alias : TechASCII }`.
-   * If `ViewFamilyId = VF.TEVB.ENG`, then `EngineeringVPId` MUST be one of `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}` (TEVB; CC‑TEVB‑1/6).
-   * Other `ViewFamilyId` values MUST denote `U.ViewpointBundle` instances defined elsewhere (e.g. safety/assurance/information bundles), not ad‑hoc local families.
+   * If `ViewFamilyId = VF.TEVB.ENG`, then `EngineeringVPId` is one of `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}` (TEVB; CC‑TEVB‑1/6).
+   * Other `ViewFamilyId` values denote `U.ViewpointBundle` instances defined elsewhere (e.g. safety/assurance/information bundles), not ad‑hoc local families.
 2. Aliases are LEX‑only: **no arithmetic, no new claims, no check participation, no `CtxState` slot writes/updates (incl. `DesignRunTag`)**. They do not create MVPK faces.
-3. Aliases MUST NOT be used as `PublicationVPId`; publication viewpoints remain in MVPK.
+3. Aliases are not used as `PublicationVPId`; publication viewpoints remain in MVPK.
 4. Twin registers are allowed (Tech/Plain) per E.10; naming follows F.18 local‑first discipline.
 5. Do not name transductions by operands or output states (operation != operand or output state).
 
-6. `TypicalEnactorRoleName` MAY be added for pedagogy; it SHALL NOT be used as a GateFit role (GateFit uses `U.Role` only).
-7. Morphology: ASCII TitleCase; conjunctions via `And`; for composite actions use `XingAndYing` (or `XAndYing` if grammar requires).
+6. `TypicalEnactorRoleName` can be added for pedagogy; it is not used as a GateFit role (GateFit uses `U.Role` only).
+7. Morphology: ASCII TitleCase; conjunctions via `And`; for composite actions use `XingAndYing` (or `XAndYing` if grammar calls for it).
 8. The P2W illustrative species row (`U.FormalSubstrate` … `U.EvaluatingAndRefreshing` with functional/procedural aliases and `TypicalEnactorRoleName`) is **informative** and does not change kind or viewpoint semantics.
 
 **Conditional deliverable — `UTS.ViewpointMap` (TEVB-aligned when live).**
@@ -59940,13 +62651,13 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 * `ViewFamilyId` — `U.ViewpointBundle.viewFamilyId` (e.g. `VF.TEVB.ENG` for TEVB, or another bundle id).
 * `EngineeringVPId : ViewpointId` — a viewpoint from that bundle (for TEVB, one of `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}`).
 * `PublicationVPId : ViewpointId?` — MVPK publication viewpoint id that governs faces implementing this engineering view (optional if not publishing).
-* `TargetHolon ∈ {U.System, U.Episteme}` *(extended species may add `{U.PromiseContent|U.MethodFamily}`; if `TargetHolon ≠ U.System`, no `U.Work` enactment appears).*
+* `TargetHolon ∈ {U.System, U.Episteme}` *(extended species can add `{U.PromiseContent|U.MethodFamily}`; if `TargetHolon ≠ U.System`, no `U.Work` enactment appears).*
 * `PrimaryTGAConstructs` — nodes/edges/gates actually used for this `(ViewFamilyId, EngineeringVPId, TargetHolon)` (typically one of the four families above).
 * `Crossings{BridgeId, CL/CL^plane?}` — crossings involved; penalties appear in R-lane only.
 * `EditionPins{...}` whenever comparable claims appear (bind to CG-Spec/ComparatorSet editions; any face citing editions includes `BridgeCard + UTS` row per MVPK/UNM).
 * `SenseCells[]` (at least two per row), each citing Context name + edition (F.17/E.10 discipline; UTS-wide coverage rules still apply).
-* *(REQUIRED when publishing)* `CorrespondenceRef[]` — ISO 42010 correspondences linking emitted faces to the engineering view(s) they implement; may cross architecture descriptions.
-* *(RECOMMENDED)* `ConcernsCovered[]` — ISO 42010 stakeholder concerns addressed by this row via GateProfiles/check catalogues.
+* *(REQUIRED when publishing)* `CorrespondenceRef[]` — ISO 42010 correspondences linking emitted faces to the engineering view(s) they implement; can cross architecture descriptions.
+* *Optional support* `ConcernsCovered[]` — ISO 42010 stakeholder concerns addressed by this row via GateProfiles/check catalogues.
 
 **Conformance (S12-scoped, only when `ViewpointMap` is live).**
 (i) `UTS.ViewpointMap` exists when a viewpoint-family mapping claim is made or consumed.
@@ -59955,9 +62666,9 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 (iv) Each row has at least two `SenseCells` and the sheet meets global UTS coverage rules.
 (v) Any `TargetHolon = U.System` that reaches `U.Work` shows `LaunchGate` with `DesignRunTag` consistency.
 (vi) Crossings referenced in `ViewpointMap` follow CC-TGA-11; comparability along the mapped paths follows CC-TGA-10.
-(vii) Rows MUST NOT use an unqualified `ViewpointId`; they MUST use `EngineeringVPId` and/or `PublicationVPId` explicitly.
-(viii) When faces are published, `CorrespondenceRef[]` MUST be present and resolvable to `U.Viewpoint` ids.
-(ix) Additional bundles (e.g. assurance, information, mission) MAY appear as extra `ViewFamilyId` values but MUST be declared as `U.ViewpointBundle` species; they do not extend `VF.TEVB.ENG`.
+(vii) Rows do not use an unqualified `ViewpointId`; they use `EngineeringVPId` and/or `PublicationVPId` explicitly.
+(viii) When faces are published, `CorrespondenceRef[]` is present and resolvable to `U.Viewpoint` ids.
+(ix) Additional bundles (e.g. assurance, information, mission) can appear as extra `ViewFamilyId` values but are declared as `U.ViewpointBundle` species; they do not extend `VF.TEVB.ENG`.
 
 ### E.18:6 - Archetypal Grounding (Tell–Show–Show; concise)
 
@@ -59967,48 +62678,47 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 
 *Show-B (Neural-net functional).* Nodes: formal substrate (typed tensor ops) -> mechanism (combinator algebra) -> UNM (dataset normalization; **TransportRegistry^Phi**) -> selection (architecture/hyperparam set; Pareto set over accuracy@ratio and FLOPs@ratio) <-> planning (compute budget horizon) -> Work (training runs; Delta anchored) -> refresh (parity inserts; slice-scoped). Faces pin **DescriptorMapRef.edition** and **DistanceDefRef.edition** when QD telemetry values are shown; illumination remains **report-only telemetry** by default.
 
-**Cross-pattern boundary slice (QD archive).** A QD selector emits an archive. `E.18` says: this is one `PathSlice` in one `TransductionGraph`; selection returns a set/archive, not a hidden scalar. `A.20` says: the archive insertion or update step has a live CV class, `CV.Status`, and witness or refusal; no acceptance is inferred. `A.21` says: a comparability gate or `LaunchGate` may publish a `GateDecision` only when that gate relation is live and consumes the relevant CV result. `E.20` says: if a new selector mechanism intension is introduced, the mechanism-governing definition is the locus for the meaning while suites and wiring only cite or bind it. These are four governed objects, not one workflow.
+**Cross-pattern boundary slice (QD archive).** A QD selector emits an archive. `E.18` says: this is one `PathSlice` in one `TransductionGraph`; selection returns a set/archive, not a hidden scalar. `A.20` says: the archive insertion or update step has a live CV class, `CV.Status`, and witness or refusal; no acceptance is inferred. `A.21` says: a comparability gate or `LaunchGate` can publish a `GateDecision` only when that gate relation is live and consumes the relevant CV result. `E.20` says: if a new selector mechanism intension is introduced, the mechanism-governing definition is the locus for the meaning while suites and wiring only cite or bind it. These are four governed objects, not one prescribed work order.
 
 > *Post-2015 SoTA echoes (illustrative):* **TAMP and MPC**, **MAP-Elites / QD (incl. CMA-ME)**, **refinement-typed stacks**, **profunctor optics**. Worked examples and Tell-Show-Show vignettes for P2W, comparator/archive, and refresh specializations stay outside this graph-architecture core unless a current pattern explicitly selects them.
 
 ### E.18:7 - Conformance — **Unified checklist (normative)**
 
-**Conformance use.** This checklist is evidence for the graph/flow/crossing action guidance already stated in the Solution. It is not the first entry text for ordinary use and not a full audit regime by default; an item is applied only when its corresponding graph, crossing, publication, gate, refresh, or assurance move is live. Before applying any item, name the Solution move it tests; if no such reader move is live, treat the item as support-only or not applicable rather than expanding the applied assurance or conformance material.
+**Conformance use.** This checklist is evidence for the graph/flow/crossing action guidance already stated in the Solution. It is not the first entry text for ordinary use and not a full audit regime by default; an item is applied only when its corresponding graph, crossing, publication, gate, refresh, or assurance move is live. Before applying any item, name the Solution move it tests; if no such practitioner move is live, treat the item as support-only or not applicable rather than expanding the applied assurance or conformance material.
 
 **Conformance groups.** Ordinary graph/path use starts with graph object, single edge kind, node typing, `CtxState` preservation, and flow valuation. Crossing/launch items apply only when a GateCrossing, `LaunchGate`, `StructuralReinterpretation`, or work-boundary crossing is live. Publication/assurance items apply only when MVPK faces, edition pins, evidence carriers, decision logs, or replay are live. Extension/change items apply only when node-kind scope, budget/refresh behavior, or UNM/comparator editions are being changed or consumed downstream.
 
 | ID | Requirement | Practical test |
 |----|-------------|----------------|
 | **CC‑TGA‑01 — Single edge kind** | The graph uses exactly one edge kind `U.Transfer`; all plane/Context/edition transitions occur only at nodes via `OperationalGate(profile)`. | Model lint finds no auxiliary edge kinds for unit/plane changes; crossings sit on declared gates. |
-| **CC-TGA-02 — Nodes are morphisms** | Nodes are intensional `U.Transduction(kind in {Signature, Mechanism, Work, Check, StructuralReinterpretation})`. This enumeration is a **minimal kind baseline**. **Domain-specific species are open-world** and non-exhaustive; they bind to one of these kinds. Adding a **new kind** requires an explicit E.TGA update. `StructuralReinterpretation` nodes are **projection-preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and carry CV/GF obligations per `A.20`, `A.21`, `A.6.4`, and E.TGA. The enumeration is **not** a TGA-local taxonomy: `Signature -> A.6.0`, `Mechanism -> A.6.1`, `Work -> A.15`, `Check -> A.21 OperationalGate`, and `StructuralReinterpretation -> A.6.4 plus E.TGA/A.20` where CV is live. | Type registry shows at least the listed kinds; additional species map to one of them; checks realized as `OperationalGate` (see CC-TGA-06-EX/11). **Lint:** registry/table exposes `{species -> {kind, KindDefinition}}`; missing or mismatched `KindDefinition` fails. |
+| **CC-TGA-02 — Nodes are morphisms** | Nodes are intensional `U.Transduction(kind in {Signature, Mechanism, Work, Check, StructuralReinterpretation})`. This enumeration is a **minimal kind baseline**. **Domain-specific species are open-world** and non-exhaustive; they bind to one of these kinds. Adding a **new kind** uses an explicit E.TGA update. `StructuralReinterpretation` nodes are **projection-preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and carry CV/GF obligations per `A.20`, `A.21`, `A.6.4`, and E.TGA. The enumeration is **not** a TGA-local taxonomy: `Signature -> A.6.0`, `Mechanism -> A.6.1`, `Work -> A.15`, `Check -> A.21 OperationalGate`, and `StructuralReinterpretation -> A.6.4 plus E.TGA/A.20` where CV is live. | Type registry shows at least the listed kinds; additional species map to one of them; checks realized as `OperationalGate` (see CC-TGA-06-EX/11). **Lint:** registry/table exposes `{species -> {kind, KindDefinition}}`; missing or mismatched `KindDefinition` fails. |
 | **CC‑TGA‑03 — Identity, composition, functorial faces** | Identities exist; path composition associative; publication is functorial: `Emit_s(t₂∘t₁)=Emit_s(t₂)∘Emit_s(t₁)`. | Pick two‑step path; MVPK faces commute (Square witness). |
 | **CC‑TGA‑04 — Graph spec** | Spec declares `τ_V, τ_E`, `Γ_time`, Transport/Bridge registries. | Spec file shows typed registries and Γ policy. |
 | **CC‑TGA‑05 — CtxState pins** | `CtxState=⟨L,P,E⃗,D⟩` is pinned on ports/tokens; raw `U.Transfer` does **not** write/update it. | Along a raw transfer, ⟨L,P,E⃗,D⟩ is preserved. |
 | **CC‑TGA‑06 — Operational gates only** | Any write/update to any member of ⟨L,P,E⃗,D⟩ or entry into `U.WorkEnactment` is mediated by `OperationalGate(profile)` with aggregated `DecisionLog`. | Diff CtxState across edges; if any member differs, exactly one gate exists with DecisionLog. |
-| **CC‑TGA‑06‑EX (strictly limited) — Projection retargeting without gate** | A node of kind **`StructuralReinterpretation`** MAY retarget the **published projection** without invoking `OperationalGate` **only if all hold**: **(a)** `⟨L,P,E⃗,D⟩` is preserved; **(b)** any **describedEntity** change has a **KindBridge** (`CL^k`) entry on MVPK/**UTS**; **(c)** a **SquareLaw‑retargeting witness** is present (on UTS); **(d)** the operation is **PathSlice‑local** (`PathSliceId` pinned); **(e)** **no plane/unit change** occurs (plane/unit changes remain gated); **(f)** **CV.ReinterpretationEquivalence** (A.20) is `pass`; **(g)** **NoHiddenScalarization** — if the step concerns a comparable return shape, set/partial‑order semantics are preserved and comparators remain ref‑only (current comparator and set-return loci). | UTS row includes `bridgeChannel=Kind` and `CL^k`; SquareLaw‑retargeting witness present; PathSliceId pinned; CV status recorded; no scalarization detected. |
+| **CC‑TGA‑06‑EX (strictly limited) — Projection retargeting without gate** | A node of kind **`StructuralReinterpretation`** retargets the **published projection** without invoking `OperationalGate` **only if all hold**: **(a)** `⟨L,P,E⃗,D⟩` is preserved; **(b)** any **describedEntity** change has a **KindBridge** (`CL^k`) entry on MVPK/**UTS**; **(c)** a **SquareLaw‑retargeting witness** is present (on UTS); **(d)** the operation is **PathSlice‑local** (`PathSliceId` pinned); **(e)** **no plane/unit change** occurs (plane/unit changes remain gated); **(f)** **CV.ReinterpretationEquivalence** (A.20) is `pass`; **(g)** **NoHiddenScalarization** — if the step concerns a comparable return shape, set/partial‑order semantics are preserved and comparators remain ref‑only (current comparator and set-return loci). | UTS row includes `bridgeChannel=Kind` and `CL^k`; SquareLaw‑retargeting witness present; PathSliceId pinned; CV status recorded; no scalarization detected. |
 | **CC‑TGA‑07 — CV⇒GF activation predicate** | Until **aggregated `ConstraintValidity` = `pass`**, all **GateFit** checks return `abstain`. | Simulate CV failure ⇒ GateFit `abstain`. |
 | **CC‑TGA‑08 — LaunchGate discipline (incl. pre‑run barrier)** | Each `U.WorkEnactment` has exactly one `LaunchGate` assigned as the aggregator for `USM.LaunchGuard`; **mandatory** checks: `FreshnessUpToDate`, `DesignRunTagConsistency`. If preceding step’s CV ≠ `pass`, LaunchGate decision is `block` (cause logged). | Aggregation assignment `GuardOwnerGateId = LaunchGateId(U.WorkEnactment)`; CV≠pass ⇒ `block` with log. |
 | **CC‑TGA‑09 — MVPK publication discipline** | Every published node uses MVPK; faces carry `PublicationScopeId`, presence‑pins, **edition ids**, Γ pins; **no I/O duplication** or arithmetic; faces add no new numeric claims. | Cards show `PublicationScopeId`; pins present; no “signature”/math on faces. |
-| **CC‑TGA‑10 — Normalize→Compare (CSLC)** | Any comparison cites **UNM/CG‑Spec** editions and **ComparatorSetRef**; ordinal claims are compare‑only; partial orders return sets; edition‑aware set/archive publication records (QD/archives) pin `{DescriptorMapRef, DistanceDefRef, CharacteristicSpaceRef?}.edition`; **any face citing editions includes `BridgeCard + UTS row`**. **NoHiddenScalarization — detection criteria:** (1) return shape is **set/poset**, not scalar; (2) `ComparatorSetRef` is present and edition‑pinned; (3) MVPK faces add **no new numeric claims**; (4) any summarisation is **order‑preserving & set‑valued**; otherwise conformance fails. | Faces show comparator pins; archive pins present; linter rejects edition cites without UTS; scalarisation checks pass.
+| **CC‑TGA‑10 — Normalize→Compare (CSLC)** | Any comparison cites **UNM/CG‑Spec** editions and **ComparatorSetRef**; ordinal claims are compare‑only; partial orders return sets; edition‑aware set/archive publication records (QD/archives) pin `{DescriptorMapRef, DistanceDefRef, CharacteristicSpaceRef?}.edition`; **any face citing editions includes `BridgeCard + UTS row`**. **NoHiddenScalarization — detection criteria:** (1) return shape is **set/poset**, not scalar; (2) `ComparatorSetRef` is present and edition‑pinned; (3) MVPK faces add **no new numeric claims**; (4) any summarisation is **order‑preserving & set‑valued**; otherwise conformance fails. | Faces show comparator pins; archive pins present; linter rejects edition cites without UTS; scalarisation checks pass. |
 | **CC‑TGA‑11 — Crossings gated** | Cross-Context or cross-plane crossings publish **BridgeId + UTS + CL/CL^plane** and are mediated by `OperationalGate(profile)`; **Φ/Φ_plane penalties appear in R-lane only**; describedEntity change publishes **KindBridge (CL^k)**. **Exception (StructuralReinterpretation):** a **projection‑only** describedEntity retargeting is recorded **without** a gate **iff** **CC‑TGA‑06‑EX** holds; then the UTS row includes `bridgeChannel=Kind`, `CL^k`, and a **retargeting witness**; any plane/unit change falls back to a gated crossing; `PathSliceId` is pinned; UNM reuse cross‑context continues via `Transport`. | The crossing record shows Bridge/UTS/CL pins; penalty placement audited. |
 | **CC‑TGA‑12 — Set‑returning selection** | `U.SelectionAndTuning` returns sets/archives under declared comparators (`ParetoOnly` by default) — no covert scalarization. | Selector output is a set/archive; policy id present if escalated. |
 | **CC‑TGA‑13 — Budgeted Selection↔Planning loop** | The loop declares **budget / max_iter**; on expiry selector publishes partial‑optimal set + `MethodTuning`; next **PathSlice** scheduled. | Logs show budget stop and slice rollover. |
-| **CC‑TGA‑14 — UNM before loop and FreshnessTicket state change** | UNM runs before selection; stale/missing inputs produce **FreshnessTicket/FreshnessRequest** planned in `WorkPlanning` and executed in `WorkEnactment`; calibrations appear as `CalibrateTo(map|standard)` with Φ pins. | Ticket state machine Issued→Planned→Executed→Closed; calibrations pinned. |
+| **CC‑TGA‑14 — UNM before loop and FreshnessTicket state change** | UNM runs before selection; stale/missing inputs produce **FreshnessTicket/FreshnessRequest** planned in `WorkPlanning` and executed in `WorkEnactment`; calibrations appear as `CalibrateTo(calibrationReference)` with Φ pins. | Ticket state machine Issued→Planned→Executed→Closed; calibrations pinned. |
 | **CC‑TGA‑15 — FinalizeLaunchValues only in WorkEnactment** | Only `U.WorkEnactment` performs `FinalizeLaunchValues` and fills launch‑value slots. | Any earlier attempt blocks at LaunchGate; a `FinalizeLaunchValues` witness is present in Work. |
 | **CC‑TGA‑16 — Guard aggregation assignment & semantics** | `USM.CompareGuard`/`USM.LaunchGuard` publish the gate assigned to aggregate guard failures; guards are **events**, not GateChecks; failures are aggregated by that gate per profile. | Guard pins show the assigned gate; GuardFail recorded in that gate's DecisionLog. |
 | **CC‑TGA‑17 — Assurance ops on Transfer** | On `U.Transfer` only `ConstrainTo/CalibrateTo/CiteEvidence/AttributeTo`; none write/update `⟨L,P,E⃗,D⟩`. | Edge audit shows ops; CtxState unchanged across the edge. |
-| **CC-TGA-17a — Assurance operation specifications (normative)** | **ConstrainTo(region|policy)**: tightens declared region/policy; **pre**: region subset current; **post**: `⟨L,P,E⃗,D⟩` unchanged; **idem.** and **monotone** under composition. **CalibrateTo(map|standard)**: attaches **editioned** calibration map/standard with Phi-policy id; admissible per cited `CG-Spec`; **post**: `⟨L,P,E⃗,D⟩` unchanged; **idem.** on same edition; penalties appear **in R only**. **CiteEvidence(anchor)**: binds carriers via **SCR/RSCR**; adds no numeric claims; **idem.**; missing carriers => **abstain**. **AttributeTo(role|source)**: provenance only; decision algebra unaffected; **idem.** Hidden GateChecks, plane/unit changes, or edition writes on edges are **forbidden**. | Operation specifications visible on edge audit; violations fail lint. |
+| **CC-TGA-17a — Assurance operation specifications (normative)** | **ConstrainTo(region/policy)**: tightens declared region/policy; **pre**: region subset current; **post**: `⟨L,P,E⃗,D⟩` unchanged; **idem.** and **monotone** under composition. **CalibrateTo(calibrationReference)**: attaches an **editioned** calibration reference, such as a map or standard, with Phi-policy id; admissible per cited `CG-Spec`; **post**: `⟨L,P,E⃗,D⟩` unchanged; **idem.** on same edition; penalties appear **in R only**. **CiteEvidence(anchor)**: binds carriers via **SCR/RSCR**; adds no numeric claims; **idem.**; missing carriers => **abstain**. **AttributeTo(provenanceReference)**: provenance only; decision algebra unaffected; **idem.** Hidden GateChecks, plane/unit changes, or edition writes on edges are **forbidden**. | Operation specifications visible on edge audit; violations fail lint. |
 | **CC-TGA-18 — Flow = valuation & slice-local refresh** | A flow declares valuation `ν` over `U.Transfer` plus `PublicationScopeId` and `PathSliceId`; refresh is bounded to the addressed slice; re-emit on edition change or selected refresh rule. | Flow publication shows `ν`; refresh trigger causes slice-local recompute. |
 | **CC‑TGA‑19 — Γ_time on compare/launch** | All compare/launch faces pin `Γ_time`; no implicit *latest*. | Face audit shows Γ pins; LaunchGate blocks on stale. |
 | **CC‑TGA‑19a — Γ_time pin shape (normative)** | The `Γ_time` pin is one of: `snapshot(t)`, `interval[t1,t2]` (closed), or `policy(Γ_timeRuleId)` that resolves to either; CV computations record the **resolved time basis** in `DecisionLog` and do not widen Γ at publication time. | DecisionLog shows basis; linter rejects missing/implicit Γ. |
 | **CC‑TGA‑20 — Lean publish‑mode ≠ weaken** | `AssuranceLane‑Lite` changes publication faces only; required GateChecks for the active profile remain intact. | Gate in Lean/Core shows minimal pins; GateChecks list unchanged. |
-| **CC-TGA-21 — Decision stability & idempotency witness** | Gate decisions are stable under the equivalence relation recorded by `A.21`; a **witness of equivalence** is present on the DecisionLog record; any change that breaks equivalence requires re-aggregation. **Minimum lexeme (CV-relevant witness):** `EquivalenceWitness := { keys, E⃗, Γ_time(basis), PathSliceId?, ReturnShapeClass, ComparatorSetRef?, profile }`. | Modify any input outside the declared equivalence => re-aggregation; DecisionLog records the witness; lexeme present.
-| **CC‑TGA‑21a — Decision join (publication algebra)** | Aggregation over GateChecks is the **idempotent, commutative, associative join** on the lattice `abstain ≤ pass ≤ degrade ≤ block` with **neutral = `abstain`** and **absorbing = `block`**. The algebra is conceptual; publications carry only (i) the aggregated **GateDecision** and (ii) its **GateDecisionRationale** recorded in the **DecisionLog**. A **GateDecisionExplanation** is an optional human‑readable narrative derived from the GateDecisionRationale; it is **not** a decision and MUST NOT be used as one. If aggregated `ConstraintValidity ≠ pass` or the active profile suppresses narratives, any GateFit‑oriented GateDecisionExplanation **does not apply**. | Review a gate with multiple GateChecks: the aggregated decision matches the lattice join; no per‑check arithmetic is introduced on faces. |
-| **CC‑TGA‑22 — Errors/unknowns fold by profile** | Errors/timeouts fold to `degrade` under `Lean|Core` and to `block` under `SafetyCritical|RegulatedX`; `unknown` folds per GateCheck policy (safety‑default: `degrade`). | DecisionLog shows folds; profile switch changes fold behavior accordingly. |
-| **CC‑TGA‑23 — SquareLaw on crossings** | For every GateCrossing, `gate_out ∘ transfer = transfer' ∘ gate_in`; LaunchGate case is mandatory. | MVPK shows commuting square; inconsistency yields `block|degrade` per profile. |
+| **CC-TGA-21 — Decision stability & idempotency witness** | Gate decisions are stable under the equivalence relation recorded by `A.21`; a **witness of equivalence** is present on the DecisionLog record; any change that breaks equivalence triggers re-aggregation. **Minimum lexeme (CV-relevant witness):** `EquivalenceWitness := { keys, E⃗, Γ_time(basis), PathSliceId?, ReturnShapeClass, ComparatorSetRef?, profile }`. | Modify any input outside the declared equivalence => re-aggregation; DecisionLog records the witness; lexeme present. |
+| **CC‑TGA‑21a — Decision join (publication algebra)** | Aggregation over GateChecks is the **idempotent, commutative, associative join** on the lattice `abstain ≤ pass ≤ degrade ≤ block` with **neutral = `abstain`** and **absorbing = `block`**. The algebra is conceptual; publications carry only (i) the aggregated **GateDecision** and (ii) its **GateDecisionRationale** recorded in the **DecisionLog**. A **GateDecisionExplanation** is an optional human‑readable narrative derived from the GateDecisionRationale; it is **not** a decision and is not used as one. If aggregated `ConstraintValidity ≠ pass` or the active profile suppresses narratives, any GateFit‑oriented GateDecisionExplanation **does not apply**. | Review a gate with multiple GateChecks: the aggregated decision matches the lattice join; no per‑check arithmetic is introduced on faces. |
+| **CC‑TGA‑22 — Errors/unknowns fold by profile** | Errors/timeouts fold to `degrade` under `Lean/Core` and to `block` under `SafetyCritical/RegulatedX`; `unknown` folds per GateCheck policy (safety‑default: `degrade`). | DecisionLog shows folds; profile switch changes fold behavior accordingly. |
+| **CC‑TGA‑23 — SquareLaw on crossings** | For every GateCrossing, `gate_out ∘ transfer = transfer' ∘ gate_in`; LaunchGate case is mandatory. | MVPK shows commuting square; inconsistency yields `block/degrade` per profile. |
 | **CC‑TGA‑24 — UNM declaration locus** | `CG‑Spec`, `ComparatorSet`, `UNM.TransportRegistryΦ` editions are declared only through the UNM governing locus (others ref‑only). | Declaration records show UNM as the governing locus; others have refs only. |
 | **CC‑TGA‑25 — Evidence lanes & DecisionLogs** | AssuranceLane carries GateProfile, GateCheckRef list, edition pins, aggregated decision, `DecisionLogRef`; **evidence pins follow a two-part scheme**: **carriers** are pinned via **`SCR/RSCR`**, and **value annotations** are carried under **`VALATA (VA/LA/TA)`**. | Gate publication faces include these pins; logs retrievable. |
-
 > **Coupling note.** `CC‑TGA‑07 (CV⇒GF)` and `CC‑TGA‑21a (Decision join)` together ensure that any GateFit‑scoped GateCheckRef **returns `abstain`** until the aggregated CV status equals `pass`; CV/GF separation remains intact.
 > **Scope note (E.TGA vs neighbor patterns):** Detailed mechanism-scoped checks and publication obligations are governed by the current neighbor patterns named in this pattern's Relations. E.TGA fixes only graph-architecture obligations: single transfer edge, gate crossings, valuation, publication pins, CV/GF boundary, and slice-local refresh.
 
@@ -60022,7 +62732,7 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 * **GateCheckKind boundary.** `GateCheckKind` is a publication/check lexeme used inside `GateCheckRef`, not a TGA node kind. No `GateCheckKind` becomes `U.Transduction(kind=Check)` unless an `OperationalGate(profile)` node is actually present.
 
 * **GateCheckRef shape (publication lexeme received from A.21).** Where graph faces carry GateChecks, a **GateCheckRef** is a record
-  received from `A.21`; E.TGA constrains only where graph faces must carry such refs along TGA paths.
+  received from `A.21`; E.TGA constrains only where graph faces carry such refs along TGA paths.
 
 `GateCheckRef := { aspect, kind, edition, scope }` with:
   `aspect ∈ {ConstraintValidity, GateFit}`, `kind ∈ GateCheckKind`, `edition ∈ Editions`, and `scope ∈ {lane | locus | subflow | profile}`.
@@ -60045,13 +62755,13 @@ This table is an architectural coverage table for E.TGA graph crossings and path
 
 > Gating is expressed as **publication‑gating** per E.17 profiles. The graph model aligns with the **CC items** listed for the chosen profile; broader obligation profiles include all narrower-profile items.
 
-| Profile                          | Required CC‑items                                         | Additional notes                                                                               |                                                                  |
-| -------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Profile                          | Required CC‑items                                         | Additional notes                                                                               |
+| -------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **Lean**                         | 01–06, 08–09, 11–12, 15, 19–21, 25                                                                                                           | Minimal MVPK presence; LaunchGate keeps `FreshnessUpToDate` & `DesignRunTagConsistency`. |
 | **Core**                         | **Lean** + 07, 10, 13–14, 16–18, 22–23, 24                                                                                                  | Adds CV⇒GF order, CSLC pins, budgeted loop, guards, valuation/sentinel refresh, error folds, SquareLaw, and the UNM declaration locus. |
 | **Safety‑Critical / RegulatedX** | **Core** + profile‑specific GateChecks (safety envelope, regulator id/editions) with stricter folds per **CC‑TGA‑22**; SquareLaw audits tightened | — |
 
-**Recommended defaults (non-normative, tie-in to `A.21` and `G.11`).** Profiles inherit along a `PathSlice`; local overrides may only **add** GateChecks; weakening requires a new `PathSlice` and refresh wiring through the current `G.11` locus when live.
+**Recommended defaults (non-normative, tie-in to `A.21` and `G.11`).** Profiles inherit along a `PathSlice`; local overrides only **add** GateChecks; weakening uses a new `PathSlice` and refresh wiring through the current `G.11` locus when live.
 
 ### E.18:9 - TGA LEX discipline (registration)
 Register Tech tokens (ASCII) used by this architecture with twin‑labels: `U.TransductionGraph`, `U.TransductionFlow`, `StructuralReinterpretation`, `OperationalGate`, `GateProfile`, `GateCheckRef`, **`GateCheckKind`**, `DecisionLog`, `USM.CompareGuard`, `USM.LaunchGuard`, `KindBridge`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `FinalizeLaunchValues`, `VALATA`. Add an ASCII alias **`CLKind`** ↔ Plain `CL^k` (cf. `CLPlane` ↔ `CL^plane`). Reference MVPK E.17 naming for faces.
@@ -60061,7 +62771,7 @@ Register Tech tokens (ASCII) used by this architecture with twin‑labels: `U.Tr
 
 **Benefits.**
 
-1. **Universality with discipline:** one edge kind and explicit gates eliminate second hidden process orders and make cross-domain flows (ML, supply-chain, TAMP and MPC, scientific work graphs) uniformly analyzable and auditable.
+1. **Universality with discipline:** one edge kind and explicit gates eliminate second hidden work/method orders and make cross-domain flows (ML, supply-chain, TAMP and MPC, scientific work graphs) uniformly analyzable and auditable.
 2. **Comparability & replayability:** CSLC and edition‑pinned comparators prevent covert scalarization and enable declared set returns and reproducible decisions.
 3. **Locality of change:** sentinel subflows restrict refresh to affected `PathSlice`s; large graphs remain stable under frequent edition bumps.
 4. **Clean DesignRunTag fold:** LaunchGate and `DesignRunTagConsistency` stop premature launch‑value slot filling; acceptance and telemetry live where they occur (`U.Work`).
@@ -60070,14 +62780,14 @@ Register Tech tokens (ASCII) used by this architecture with twin‑labels: `U.Tr
 **Trade‑offs.**
 a) **Higher upfront modeling cost:** explicit Bridge/UTS pins and GateProfiles demand care; mitigated by Lean profile and templates.
 b) **Longer edge face sets:** MVPK faces are verbose by design; lean face sets can be used for low‑risk segments.
-c) **Tooling alignment:** some incumbent DAG‑only orchestrators conflict with budgeted cycles and set‑return semantics; adapters SHALL project E.TGA semantics to their interop boundary (never the other way round).
+c) **Tooling alignment:** some incumbent DAG‑only orchestrators conflict with budgeted cycles and set‑return semantics; adapters project E.TGA semantics to their interop boundary (never the other way round).
 
 ### E.18:11 - Rationale
 
 E.TGA states **strict separation of concerns** (graph-architecture scope only); **specialized semantics are governed by the current neighboring patterns named below**:
 
-* **What the graph is:** typed intensional morphisms and a single transport edge `U.Transfer`.
-* **Where/when it may cross contexts:** **only** at `OperationalGate(profile)`, with Bridge+UTS, CL/CL^plane, and Φ published in R-lane.
+* **What the graph is:** typed intensional morphisms and the single graph edge kind `U.Transfer`.
+* **Where/when it crosses contexts:** **only** at `OperationalGate(profile)`, with Bridge+UTS, CL/CL^plane, and Φ published in R-lane.
 * **How comparability works:** UNM is the single governing locus for unit, plane, and transport declarations, and selectors operate **only** on normalized, edition-pinned comparators, returning sets or archives rather than totals. Edition-aware pins and archive semantics are checked through `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` when live.
 * **How change propagates:** sentinel‑bounded `PathSlice` refresh; editions are monotone; LaunchGate is the only binder of launch‑values.
 
@@ -60085,25 +62795,25 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 
 ### E.18:12 - SoTA‑Echoing (post‑2015, multi‑Tradition)
 
-> Each row states the source idea, the FPF invariant E.TGA adopts, the reader move it changes, and the shortcut it rejects. Vendor, tool, and literature tokens are informative; the invariant and reader move carry the pattern explanatory work.
+> Each row states the source idea, the FPF invariant E.TGA adopts, the practitioner move it changes, and the shortcut it rejects. Vendor, tool, and literature tokens are informative; the invariant and practitioner move carry the pattern explanatory work.
 
-| SoTA source idea | FPF invariant | Reader move | Rejected shortcut |
+| SoTA source idea | FPF invariant | Practitioner move | Rejected shortcut |
 |---|---|---|---|
-| **Applied category theory / compositional open systems** (Fong & Spivak, *Seven Sketches in Compositionality*, 2019) | Use one `TransductionGraph` whose nodes are typed morphism/transduction bindings and whose edges use the single graph edge kind `U.Transfer`; publication faces preserve composition rather than inventing a second publication meaning. | Name the graph object, node kinds, one `U.Transfer`, and any live path or crossing before drawing a process order. | Treating category-theory prestige, tool pipelines, lineage packages, or process narratives as graph semantics. |
+| **Applied category theory / compositional open systems** (Fong & Spivak, *Seven Sketches in Compositionality*, 2019) | Use one `TransductionGraph` whose nodes are typed morphism/transduction bindings and whose edges use the single graph edge kind `U.Transfer`; publication faces preserve composition rather than inventing a second publication meaning. | Name the graph object, node kinds, one `U.Transfer`, and any live path or crossing before drawing an ordered work/method sequence. | Treating category-theory prestige, tool pipelines, lineage packages, or work/method narratives as graph semantics. |
 | **Operads, wiring diagrams, and hypergraph categories** (Spivak, *Operads of Wiring Diagrams*, 2021; Baez & Fong, *A Compositional Framework for Passive Linear Circuits*, 2015) | Typed ports and interface junctions motivate Bridge/CL/Phi pins at crossings; E.TGA adapts the math by requiring publication pins that the math alone does not supply. | When an interface or boundary crossing matters, publish the Bridge, UTS row, CL/CL^plane, and R-lane penalty placement instead of leaving an unpinned junction. | Reading an interface diagram, wiring diagram, or decorated cospan as sufficient crossing evidence. |
 | **Open-graph and string-diagram rewriting** (Bonchi et al., *Graphical Linear Algebra*, 2019; Kissinger survey lineage) | Rewrites and subflow refactors are admissible only with edition bumps, sentinel scopes, and `PathSlice` locality sufficient for replay. | Localize the rewrite to the affected subflow or slice, pin editions, and re-emit the affected faces. | Treating a global rewrite as replay-safe because the diagram still looks equivalent. |
-| **Research-package portability / RO-Crate-style research packaging** (RO-Crate 1.2 as current long-term release; Soiland-Reyes et al., *Packaging research artefacts with RO-Crate*, 2022, as lineage) | Portable package descriptions belong in MVPK faces and InteropCards; packages and lineage metadata do not define graph semantics. | Publish package, provenance, and source refs as publication support while keeping graph meaning in the node/gate definitions. | Treating a crate, package, file bundle, or lineage record as the semantic authority for the graph. |
+| **Research-package portability / RO-Crate-style research packaging** (RO-Crate 1.2; Soiland-Reyes et al., *Packaging research artefacts with RO-Crate*, 2022, as lineage) | Portable package descriptions belong in MVPK faces and InteropCards; packages and lineage metadata do not define graph semantics. | Publish package, provenance, and source refs as publication support while keeping graph meaning in the node/gate definitions. | Treating a crate, package, file bundle, or lineage record as the semantic authority for the graph. |
 | **Reproducibility and content addressability** (Di Cosmo et al., *Referencing Source Code Artifacts: a Separate Concern in Software Citation*, 2020) | Stable identifiers become edition pins and entries in `E⃗`; they make references checkable but do not decide node, gate, or mechanism meaning. | Pin the exact editions of code, comparator, transport registry, descriptor map, or distance definition used by a face or path. | Treating an identifier, hash, or content-addressed source ref as semantic authority. |
-| **TAMP and MPC planning and control practice** (Garrett, Lozano-Perez, Kaelbling 2021 as lineage; Zhao et al., *A Survey of Optimization-based Task and Motion Planning*, 2024, as current TAMP survey anchor; named MPC survey or pack ref required when MPC is the live claim) | Iteration is allowed only as a budgeted Selection-Planning loop with freshness checks and launch values bound in `U.WorkEnactment`. | Declare the loop budget, freshness/request boundary, next `PathSlice`, and Work-only launch-value filling. | Turning E.TGA into an ordered procedure narrative, an unbounded loop, or pre-Work launch-value filling. |
-| **Quality-Diversity / illumination search** (MAP-Elites and CMA-ME as lineage; QDax JMLR 2024 for current QD library support; QDHF 2023/ICML 2024 or QDAIF 2023 refs only when feedback-guided QD is live) | Set and archive returns must stay visible; E.TGA treats covert scalarization to one winner as non-conformant while leaving selector, archive, dominance, and comparator semantics to neighboring loci. | Return the set/archive, pin comparator and descriptor/distance editions, and cite the selector/comparator loci when live. | Collapsing a partially ordered or archive-like result into a single best score. |
+| **TAMP and MPC planning and control practice** (Garrett, Lozano-Perez, Kaelbling 2021 as lineage; Zhao et al., *A Survey of Optimization-based Task and Motion Planning*, 2024, as a TAMP survey anchor; named MPC survey or named reference used when MPC is the live claim) | Iteration is allowed only as a budgeted Selection-Planning loop with freshness checks and launch values bound in `U.WorkEnactment`. | Declare the loop budget, freshness/request boundary, next `PathSlice`, and Work-only launch-value filling. | Turning E.TGA into an ordered work-method narrative, an unbounded loop, or pre-Work launch-value filling. |
+| **Quality-Diversity / illumination search** (MAP-Elites and CMA-ME as lineage; QDax JMLR 2024 for QD library support; QDHF 2023/ICML 2024 or QDAIF 2023 refs only when feedback-guided QD is live) | Set and archive returns stay visible; E.TGA treats covert scalarization to one winner as non-conformant while leaving selector, archive, dominance, and comparator semantics to neighboring loci. | Return the set/archive, pin comparator and descriptor/distance editions, and cite the selector/comparator loci when live. | Collapsing a partially ordered or archive-like result into a single best score. |
 | **Profunctor optics / modular projection practice** (Pickering, Gibbons, Wu, *Profunctor Optics*, 2019) | MVPK faces are projections of graph/morphism information; they carry views without adding new numeric or mechanism claims. | Publish views as MVPK faces with correspondence refs and pins, while leaving transformations and checks in their governing patterns. | Treating a view, projection, screen, or explanation as a transformation, evidence result, or gate decision. |
 
-*Cross-tradition note.* Rows 1-3 (compositional graph practice), rows 4-5 (publication and reproducibility practice), row 6 (controls/robotics), row 7 (evolutionary search), and row 8 (PL/semantics) jointly anchor E.TGA across multiple traditions per E.8, but each row is retained only because it changes a reader move or rejected overread.
+*Cross-tradition note.* Rows 1-3 (compositional graph practice), rows 4-5 (publication and reproducibility practice), row 6 (controls/robotics), row 7 (evolutionary search), and row 8 (PL/semantics) jointly anchor E.TGA across multiple traditions per E.8, but each row is retained only because it changes a practitioner move or rejected overread.
 
 ### E.18:13 - Bias‑Annotation (per E.8 SG‑bias slot)
 
 * **Acyclic‑bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops; E.TGA explicitly permits loops with budget/sentinel controls (CC‑TGA‑13,‑18).
-* **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto/QD sets; E.TGA requires declared order relations and return sets (CC-TGA-10, CC-TGA-12).
+* **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto/QD sets; E.TGA keeps declared order relations and return sets visible (CC-TGA-10, CC-TGA-12).
 * **Interop‑dominance risk.** File/format ecosystems (CWL/RO‑Crate/lineage) can be mistaken for semantic sources; E.TGA places them in **InteropCard** and keeps intensional semantics in nodes/gates.
 * **Over‑formalization risk.** Category‑theoretic formalisms can obscure operational guard‑rails; E.TGA grounds crossings in Bridge/UTS/CL/Φ pins and SquareLaw audits (CC‑TGA‑11,‑17).
 * **Retrospective rewrite risk.** Global rewrites break replay; E.TGA confines them to edition bumps and slice‑local refresh (CC‑TGA‑16).
@@ -60117,10 +62827,10 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 **Foundations**
 * **E.TGA →builds_on→ E.17 MVPK (for Morphisms).** Faces, pins, lanes, functorial publication, Lean/Core/Regulated profiles.
 * **E.TGA →builds_on→ A.6.0 U.Signature / A.6.1 U.Mechanism.** Node kinds and intensional content boundaries.
-* **E.TGA →builds_on→ A.7 Strict Distinction (I/D/S vs Surface).** No new claims on faces; faces project morphisms.
+* **E.TGA →builds_on→ A.7 Strict Distinction (described-entity, description, and carrier separation).** No new claims on faces; publication faces project morphisms.
 
 **Flow semantics & checks**
-* **E.TGA →coordinates→ A.20 U.Flow (ConstraintValidity scope).** CV checks live inside transformations; no declaration/translation of planes/units in CV; **error/timeout/unknown folds** follow **CC‑TGA‑22** as the **minimum default** (profiles may be stricter).
+* **E.TGA →coordinates→ A.20 U.Flow (ConstraintValidity scope).** CV checks live inside transformations; no declaration/translation of planes/units in CV; **error/timeout/unknown folds** follow **CC‑TGA‑22** as the **minimum default** (profiles can be stricter).
   **Terminology discipline (A.20 boundary).** In CV scope, publications use **status/witness** language; **GateDecisionRationale/GateDecisionExplanation** are reserved for gating and do not apply to CV.
 * **E.TGA →coordinates→ A.21 GateProfilization (GateFit scope).** **GateFit-scoped GateChecks** are aggregated by `OperationalGate(profile)` with CV⇒GF activation; the **enumeration and publication shape** of GateChecks live in **A.21**. **Equivalently:** a GateFit decision different from `abstain` appears only when aggregated `ConstraintValidity = pass`; otherwise the **GateDecisionExplanation (GateFit‑oriented)** does not apply.
 * **E.TGA →uses→ USM.CompareGuard and USM.LaunchGuard.** Guards publish scope and responsible gate; guard failures are handled by the declared gate.
@@ -60137,6 +62847,7 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 
 **Structure & reuse**
 * **E.TGA →specializes→ U.TransductionFlow (and its family).** The graph architecture is the common substrate on which flow patterns (e.g., P2W, EvaluatingAndRefreshing) are defined; E.TGA provides coherence checks for their crossings, guards, and MVPK faces.
+* **E.TGA -> coordinates with -> C.30.TGA-FLOW-REL.** When a TGA graph is used as architecture-description support, `C.30.TGA-FLOW-REL` records the relation between flow/transduction structure and `ArchitectureOf@Context`; E.TGA keeps graph, crossing, and flow-valuation discipline.
 * **E.TGA →publishes_on→ E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) for every edge/node where publication occurs; Lean mode allowed only as per profile.
 
 ### E.18:15 - Conformance evidence (how to show you comply)
@@ -60147,6 +62858,8 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 4. **StructuralReinterpretation probe:** construct a minimal reinterpretation step; confirm `CL^k` with `bridgeChannel=Kind` on UTS, a SquareLaw‑retargeting witness on UTS, `PathSliceId` pinned, **CV.ReinterpretationEquivalence=pass**, and absence of hidden scalarization.
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
+
+Does not replace: `A.20` constraint-validity checks, `A.21` gate decisions and GateProfile semantics, `E.20` mechanism-meaning placement, `E.17` MVPK publication faces and viewpoint bundles, `A.15` work plans or work enactments, `G.5` selector and set-return semantics, `G.11` refresh orchestration, `A.10`/`G.6` evidence support, `C.30` architecture-description adequacy, `C.30.ASV` structural-view adequacy, or `C.30.TGA-FLOW-REL` architecture-flow relation support.
 
 ### E.18:End
 ## E.19 - Pattern Quality Gates: Review & Refresh Profiles
@@ -61218,6 +63931,964 @@ Governing-definition-directed authoring is a pragmatic compromise: it does not d
 * Any change set that introduces or revises mechanisms, suites, planned baselines, or wiring in a way that changes citeable loci.
 
 ### E.20:End
+
+## E.21 - FPF Pattern Quality Characteristic Space
+
+> **Type:** Definitional pattern
+> **Status:** Stable
+> **Normativity:** Normative
+
+### E.21:1 - Problem frame
+
+Use `E.21` when you are evaluating one FPF pattern version and need to know whether improvement can stop without relying on taste, a single quality score, or template compliance alone. The governed object is the scoped pattern-quality claim; the target text being read is one authored FPF pattern body in one declared use and reader scope.
+
+Use it especially when a pattern already has the `E.8` skeleton and may even pass an `E.19` review, but authors still disagree about whether the pattern is recognisable, action-guiding, ontologically precise, SoTA-bearing, proportionate in apparatus, and safe to compose with neighbours.
+
+**Not this pattern when.** Use `E.8` to write the pattern body. Use `E.19` to run admission or refresh review profiles. Use `C.16`, `A.17`, `A.18`, and `A.19` when the live problem is measurement legality, Characteristic/Scale discipline, or declaring a general `CharacteristicSpace`. Use `C.25` when the live problem is an arbitrary engineering quality family rather than FPF pattern quality. Use `F.18` when the live problem is durable naming. Not this pattern when the live question is whether a user correctly applied an FPF pattern in a project case. `E.21` reads the quality of the pattern text for a declared reader/use/scope. Pattern-application quality belongs to the receiving project-side or publication-side pattern that governs the actual case: evidence, assurance, gate, work, decision, publication, action invitation, method, or bridge use as applicable.
+
+**First useful move.** The architectural first move of `E.21` is not "run quality control". It is to recover the target pattern's first admissible action-guiding move for the declared reader/use/window. Start with the ordinary first-pass slice of `PatternQualityQBundle`: name `PatternVersionRef`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow`, then inspect the target pattern's `Problem frame` and `Solution` for one first admissible action-guiding move for that working reader.
+
+If that first move is absent, unrecoverable, or only present in the Conformance Checklist, close the first-pass read as `repairBeforeUse` for the declared use, or as `admissibleWithNarrowerUse` when the pattern can still serve an expert-only or support-only scope. Do not require a full coordinate comparison before this result.
+
+Create the fuller `PatternQualityQBundle` only when the first-pass slice survives, when several candidate edits are being compared, or when admission, refresh, high-assurance reuse, or contested neighbour authority is live.
+
+**What goes wrong if missed.** Pattern improvement collapses into a single "quality score", a reviewer preference, or a heading checklist. That hides hard blockers such as undefined vocabulary, shadow authority, decorative SoTA, ordinal arithmetic, missing first move, or neighbour breakage.
+
+**What this buys.** `E.21` gives authors one typed quality space for FPF patterns: hard eligibility filters first, multi-characteristic coordinates second, Pareto/front reasoning for candidate improvements, and an explicit stop condition that does not scalarize.
+
+`E.21` is the quality-characteristic receiving pattern for claims of the form "this pattern version is sufficiently good for this use, readership, and scope." It normalizes such claims into a scoped bundle; it does not run the review process or take over authoring, measurement, naming, project evidence, assurance, gate, release, or work authority from neighbouring FPF patterns.
+
+**Governed object in plain terms.** The governed object is the pattern-quality claim for one FPF pattern version under one declared use and reader scope.
+
+**Primary working reader.** The first reader is an FPF author, reviewer, or steward deciding whether to keep improving a pattern version. The downstream reader is the practitioner or manager who must use the pattern as action guidance.
+
+### E.21:2 - Problem
+
+FPF needs a way to evaluate pattern quality without creating a fake scalar. A single score is attractive because it is easy to compare, but it is false for this object. A pattern can be excellent in SoTA support and still unreadable; precise in ontology and still too heavy for ordinary use; concise and still wrong about neighbours.
+
+The recurring failures are:
+
+1. **Hidden scalarization.** Different coordinates such as recognition, ontology, SoTA, evidence, and reader cost are averaged or ranked as if they had one common unit.
+2. **Template-only maturity.** Canonical headings are present, but the first working situation, first admissible move, boundary, and practical payoff remain missing.
+3. **Checklist substitution.** The conformance checklist replaces the `Solution` instead of testing it.
+4. **Ontology-light review.** Wording is polished while kind, relation, support, evidence, measurement, assurance, and neighbouring-pattern authority remain unstable.
+5. **Decorative SoTA.** Sources are cited, but they do not change the `Solution`, conformance checks, boundaries, examples, or relations.
+6. **Apparatus bloat.** A draft accumulates fields, manifests, gates, and companion files that increase author and reader cost without improving admissible use.
+7. **Coordinate Goodharting.** A draft is optimized for the declared coordinates until it becomes harder to use, costlier to maintain, or less faithful to the practical value the coordinates were meant to protect.
+8. **Endless improvement.** Authors keep polishing because there is no declared stop condition and no visible distinction between material improvement and cosmetic movement.
+
+### E.21:3 - Forces
+
+| Force | Tension |
+|---|---|
+| **Comparability vs hidden scalarization** | Authors need to compare pattern versions, but ordinal qualities do not admit a single arithmetic score. |
+| **Hard blockers vs optimization** | Undefined vocabulary or false neighbour authority must be repaired before any front comparison matters. |
+| **Optimization pressure vs unmeasured value loss** | Once coordinates become the target, authors may improve measured properties while degrading affordability, repair-impact predictability, entry/projection integrity, corpus ecology, or direct pattern-use value. |
+| **Didactic usability vs ontological precision** | A pattern must be readable by a cold working reader and still preserve exact FPF kinds, relations, and admissible uses. |
+| **Open-ended evolution vs stop discipline** | FPF assumes indefinite improvement, but one pattern version still needs an admissible stopping point for the declared use. |
+| **SoTA breadth vs local payoff** | Current practice must discipline the pattern, but citations should not become a decorative literature shelf. |
+| **Parsimony vs assurance** | Quality evaluation should catch real defects without turning every pattern into a heavy review harness. |
+| **Pattern autonomy vs neighbour fit** | A pattern needs a stable local governed object while evidence, assurance, measurement, naming, causality, publication, work, and release claims remain assigned to their governing neighbours. |
+
+### E.21:4 - Solution - Pattern quality as a scoped Q-Bundle over declared characteristics
+
+State the scoped FPF pattern-quality read as a `PatternQualityQBundle`, not as one score.
+
+#### E.21:4.0 - Architectural position
+
+`E.21` is a local receiving pattern for scoped FPF pattern-quality claims. It specialises existing FPF architecture; it does not create a new quality-governance subsystem.
+
+It defines how to read whether one authored FPF pattern version is good enough for one declared reader, use, and scope, why improvement may stop, and which weaknesses remain bounded.
+
+`E.21` owns only these questions:
+
+1. Which exact FPF pattern version is being read?
+2. For which reader, use, scope, and currentness window?
+3. Which hard blockers make comparison meaningless?
+4. Which ordinal pattern-quality coordinates are active?
+5. Which content evidence supports the coordinate readings?
+6. Which `PatternQualityStatus` follows?
+7. Why may improvement stop, or why must the claim narrow, repair, hold for architecture, or refresh?
+
+`E.21` does not own:
+
+* authoring the pattern body (`E.8`);
+* running admission or refresh review profiles (`E.19`);
+* general measurement legality (`C.16`, `A.17`, `A.18`, `A.19`);
+* arbitrary engineering quality-family bundling (`C.25`);
+* durable naming and local-first unification (`F.18`, `E.10`, `A.6.P`);
+* project evidence, assurance, gate, work, release, safety, security, or compliance claims (`A.10`, `B.3`, `A.20`, `A.21`, `A.15`, or the exact receiving pattern).
+
+A conforming `E.21` read may cite neighbouring patterns, but it may not absorb their governed objects.
+
+`E.21` protects these seam surfaces as part of the pattern-quality read: self-application, first-entry/discoverability, publication/projection, bounded non-use, no forced winner, falsifiability/lowering evidence, reviewer-power misuse, AI/RAG/thin-echo summaries, and corpus ecology. A read that crosses one of these surfaces must keep the pattern-quality claim scoped, replayable, falsifiable, and routed to the exact neighbouring pattern instead of becoming control apparatus.
+
+#### E.21:4.0a - Mint/reuse and kind settlement
+
+`E.21` mints no new Kernel kind, no project-side evidence kind, no assurance kind, no work kind, no gate kind, no release kind, and no general maturity kind.
+
+Its durable heads are local specialisations, fields, value sets, or scoped support constructs over existing FPF kinds:
+
+| E.21 head | Kind settlement | Existing governing pattern kept intact |
+|---|---|---|
+| `PatternQualityQBundle` | Local `C.25` Q-Bundle specialisation for one scoped FPF pattern-quality claim. | `C.25` remains the general Q-Bundle normal form. |
+| `PatternQualityCharacteristicSpace` | Local `A.19` CharacteristicSpace specialisation for ordinal pattern-quality content readings. | `A.17`, `A.18`, `A.19`, and `C.16` keep general Characteristic/Scale/Coordinate and measurement legality. |
+| `PatternQualityStatus` | Local value set inside a `PatternQualityQBundle`; an admissible-use posture for the pattern-quality claim. | Not a role state, release state, gate decision, assurance level, or project status. |
+| `EligibilitySet` | Set-valued hard-filter field inside `PatternQualityQBundle`. | Not an `A.21` gate, not an `E.19` review profile, and not a soft score region. |
+| `DominanceSet` | Set-valued coordinate-selection field for Pareto comparison after eligibility passes. | Not a hidden scoring method, not `G.5` selection policy, not `C.11` choice result. |
+| `TieBreakerSet` | Set-valued secondary preference field among non-dominated candidates. | Not a secret dominance coordinate or hard blocker override. |
+| `TelemetrySet` | Set-valued reopen/calibration signal field for the pattern-quality claim. | Not project telemetry, not certification evidence, not replacement for content evidence. |
+| `CoordinateEvidenceRef` | Local evidence-reference record for one coordinate reading. | It may cite `A.10` or `B.3` only when evidence/assurance claims are actually live. |
+| `CoordinateEvidenceRefs` | Set-valued field of `CoordinateEvidenceRef` records. | Not a support archive, review verdict, or proof of project-world truth. |
+| `PatternQualityFront` | Scoped non-dominated set over candidate pattern versions or candidate edits under the active `E.21` relation. | Not a `C.18` NQD archive, not a `G.5` shortlist, not a project backlog. |
+| `PatternImprovementArchive` | Bounded trade-off support archive for candidate pattern edits/variants. | Not process history, chat memory, permanent backlog, or mandatory appendix. |
+
+Coordinate heads in `E.21:4.3` are local pattern-quality characteristic heads inside `PatternQualityCharacteristicSpace`. They do not become general FPF characteristics, metrics, maturity dimensions, or measurement templates unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration makes that live.
+
+A conforming `E.21` read treats these heads as exact local constructs. When a head is reused outside `E.21`, the receiving text must either cite `E.21` by value or rerun the exact governing pattern for the new use.
+
+#### E.21:4.0b - Layered use architecture
+
+`E.21` has four activation layers.
+
+Layer 0 and Layer 1 are ordinary; Layer 2 and Layer 3 are live-claim only.
+
+**Layer 0 - first-pass slice.**
+Used for one first read of one pattern version. It names `PatternVersionRef`, `WorkingReaderScope`, `IntendedUse`, `QualificationWindow`, first admissible move evidence, activated blockers, minimal active coordinates, status, and next admissible repair or bounded non-use.
+
+**Layer 1 - content-evidence coordinate read.**
+Used when the first-pass slice survives or when a substantive quality claim is being made. It checks activated `EligibilitySet` rows, active ordinal coordinates, and local `CoordinateEvidenceRefs`.
+
+**Layer 2 - comparison and stop.**
+Used when several candidate edits or variants are live, or when a stop decision is being claimed. It activates `DominanceSet`, floors, `TieBreakerSet`, `PatternQualityStatus`, and `StopCondition`.
+
+**Layer 3 - optional refresh and trade-off support.**
+Used only when live reuse, repeated findings, retrieval failure, high-use patterns, high-assurance reuse, contested neighbour authority, or variant-history retention makes support necessary. It may activate `TelemetrySet`, `PatternQualityFront`, `PatternImprovementArchive`, and full support cards.
+
+A higher layer SHALL NOT be required merely because a lower-layer read exists.
+
+Every activated layer must state what admissible use it buys.
+
+If a field, card, telemetry signal, archive entry, or support record does not change first-pass usability, coordinate evidence, variant comparison, stop/reopen condition, or bounded non-use, it is apparatus bloat for the current claim.
+
+#### E.21:4.0c - Self-application and recursion boundary
+
+`E.21` may be applied to itself only through the same lowest sufficient activation layer used for any other FPF pattern.
+
+The ordinary self-application read closes when the current `E.21` text exposes:
+
+1. one first admissible action-guiding move for an author or reviewer;
+2. the governed object of the quality read;
+3. the no-single-score and no-administrative-proxy boundary;
+4. the neighbour-authority boundary to `E.8`, `E.19`, `C.25`, `C.16`/`A.17`/`A.18`/`A.19`, `F.18`, `E.10`, `A.6.P`, `E.17`, `A.10`, `B.3`, `A.20`, `A.21`, and `A.15`;
+5. one explicit stop or repair condition for the declared self-read scope.
+
+Self-application SHALL NOT require an additional `PatternQualityQBundle` evaluating the previous `PatternQualityQBundle`. If the first self-read exposes a content defect, repair that defect in the pattern text or narrow the declared use. If the defect is architectural, use `holdForArchitectureDecision`.
+
+#### E.21:4.1 - PatternQualityQBundle
+
+`PatternQualityQBundle := <PatternVersionRef, ClaimScope, WorkingReaderScope, IntendedUse, QualificationWindow, EligibilitySet, DominanceSet, CoordinateEvidenceRefs?, TieBreakerSet?, TelemetrySet?, EvidenceRefs, PatternQualityStatus, StopCondition>`
+
+
+`PatternQualityQBundle` is the publication unit for a scoped pattern-quality claim.
+
+`PatternQualityQBundle` is replayable when another reader can recover the same target version, declared scope, active eligibility rows, active coordinates, coordinate evidence refs, status payload, and stop/non-stop reason without chat memory, steward memory, or administrative placement state.
+
+Its first-pass slice may contain only the fields needed to decide whether one working reader can recover the governed object and first admissible move.
+
+The full bundle is used when coordinate evidence, variant comparison, admission/refresh closure, high-assurance reuse, or contested neighbour authority is live.
+
+The fields below are slots in that publication unit; they are not independent governed objects. The governed object remains the scoped pattern-quality claim for one pattern version.
+
+| Field | Role |
+|---|---|
+| `PatternVersionRef` | The exact pattern version being assessed. A title alone is not enough when several extracted hosts or monolith editions exist. |
+| `ClaimScope` | The declared pattern-quality claim boundary: ordinary authoring support quality read, admission-support quality read, refresh-support quality read, landing-support quality read, release-support quality read, canonization-support quality read, external-review-support quality read, high-assurance-reuse support quality read, or another named support scope. The administrative action is not the quality scope; it is the neighbouring action that this quality read may support. Do not name the administrative action itself as a coordinate-bearing quality scope. |
+| `WorkingReaderScope` | The primary reader role and first-use situation the pattern must serve. |
+| `IntendedUse` | What the quality result is allowed to support: continue drafting, admit for declared use, narrow use, repair before use, or refresh. |
+| `QualificationWindow` | The time, edition, SoTA, neighbouring-pattern, or release window in which the quality read is current. |
+| `EligibilitySet` | Hard filters that must pass before coordinate comparison is meaningful. |
+| `DominanceSet` | The selected quality coordinates used for Pareto comparison of candidate versions or candidate edits. |
+| `CoordinateEvidenceRefs?` | Text sections, worked cases, SoTA rows, relation checks, or findings that support coordinate values. Review, landing, release, or monolith state alone is not coordinate evidence. |
+| `TieBreakerSet?` | Secondary preferences used only among non-dominated candidates. |
+| `TelemetrySet?` | Observed return, retrieval, review, and drift signals used to reopen or calibrate the quality read. |
+| `EvidenceRefs` | Evidence, worked cases, review findings, SoTA rows, or source references that support the read. |
+| `PatternQualityStatus` | The resulting admissible-use posture. |
+| `StopCondition` | The explicit condition under which improvement can stop for this scope. |
+
+`PatternQualityStatus` has this value set:
+
+| Value | Meaning |
+|---|---|
+| `admissibleForDeclaredUse` | Eligibility passes and the selected coordinates meet the declared floors for the current `ClaimScope`. |
+| `admissibleWithNarrowerUse` | The pattern can be used only after the `ClaimScope`, `WorkingReaderScope`, or supported use is narrowed by value. |
+| `repairBeforeUse` | One or more hard eligibility filters or live quality floors fail, and the pattern should not be relied on for the intended use. |
+| `holdForArchitectureDecision` | The defect is not local prose; the governed object, neighbour authority, pattern split, or placement must be decided before quality evaluation can close. |
+| `refreshNeeded` | The pattern was previously admissible, but a SoTA, neighbour, terminology, retrieval, telemetry, or use-scope change invalidates the old read. |
+
+A `PatternQualityStatus` is an admissible-use posture for the pattern-quality claim. It is not a gate decision, release state, assurance level, compliance verdict, safety certificate, work authority, publication truth, or project-side refusal/approval.
+
+A status without payload is not checkable. Every `PatternQualityStatus` SHALL carry the minimal status payload:
+
+* `admissibleForDeclaredUse`: declared use, active floors, and remaining bounded non-use, if any.
+* `admissibleWithNarrowerUse`: the exact narrowed `ClaimScope`, `WorkingReaderScope`, or `IntendedUse`.
+* `repairBeforeUse`: the activated blocker and the first admissible repair target.
+* `holdForArchitectureDecision`: the exact unresolved governed-object, neighbour-authority, split, or placement question.
+* `refreshNeeded`: the exact SoTA, neighbour, terminology, retrieval, telemetry, or use-scope change that invalidated the previous read.
+
+A bounded non-use result is a valid pattern-quality outcome.
+
+When a pattern is not admissible for the declared ordinary use but remains useful as expert-only support, source-basis support, high-assurance support, historical rationale, narrow worked-case support, or neighbour-handoff support, the `PatternQualityStatus` SHALL be `admissibleWithNarrowerUse`, not `repairBeforeUse`.
+
+The narrowed use must name:
+
+* the exact narrowed reader/use/scope;
+* the prohibited broader use;
+* the first admissible next pattern or repair if broader use is still desired.
+
+#### E.21:4.1a - Coordinate readings are content readings, not administrative-state readings
+
+`PatternQualityCharacteristicSpace` coordinates measure the current pattern version and the content evidence available for that version: its recognition text, governed object, ontology, names, Solution, checklist, worked cases, SoTA rows, relations, and support boundaries. They do not measure whether the pattern has already been externally reviewed, merged into a monolith, included in a release branch, or accepted by one steward process.
+
+Administrative state can change a `PatternQualityQBundle` only in these ways:
+
+| Administrative-state effect | Admissible role |
+|---|---|
+| Review, landing, release, or monolith state | May constrain `ClaimScope`, `IntendedUse`, `QualificationWindow`, or confidence in `EvidenceRefs`. It does not raise or lower a coordinate by itself. |
+| External review finding | May change a coordinate only when the finding identifies a content defect or content strength in the pattern version. The coordinate changes because of the defect or strength, not because a review event occurred. |
+| Landing or publication move | May change which pattern version is referenced by `PatternVersionRef`, and may change discoverability or authority claims handled by other patterns. It does not make the same text more or less mathematically adequate, ontologically precise, or action-guiding by placement alone. |
+| Missing administrative action | May block a release, review, or canonization claim. It is not evidence that `FormalClaimLegalityAndLensFit`, `CaseCountercaseAndTransferCoverage`, `ActionPathGuidance`, or another active coordinate is low. |
+
+If a quality read says "low because this has not been externally reviewed" or "high because this is already in the monolith", it is using administrative state as a proxy. The repair is to state the substantive coordinate evidence directly and keep administrative state in `ClaimScope`, `QualificationWindow`, or receiving release/review patterns.
+
+
+#### E.21:4.2 - EligibilitySet: hard conditions before quality comparison
+
+The `EligibilitySet` is not a low-scoring region. It is the precondition for meaningful comparison.
+
+Eligibility rows have activation. A first-pass pattern-quality read always checks only the rows needed to decide whether one working reader can recognise the situation, recover the governed object, find the first admissible move, and avoid immediate neighbour-authority or apparatus overread.
+
+Rows whose condition depends on a live source, live formal lens, live measurement claim, live accepted basis, live release/review state, live mission/pillar conflict, or live durable-name change activate only when that load is present in the target pattern or in the declared `ClaimScope`.
+
+Failure of an activated eligibility row is a content blocker. A non-activated row is not a pass, not a waiver, and not a hidden todo; it is outside the current pattern-quality claim.
+
+| Eligibility condition | Pass condition |
+|---|---|
+| `canonicalFrameConformance` | The pattern has the `E.8` canonical frame, header block, required sections, and footer marker, or the missing piece is explicitly treated as a mechanical repair before use. |
+| `governedObjectClarity` | The early text says which object, relation, move, boundary, or support claim the pattern governs. |
+| `firstMoveRecoverability` | The target pattern's `Problem frame` and `Solution` expose one first admissible action-guiding move for the declared `WorkingReaderScope`, or a named neighbouring-pattern handoff now carries the live claim. |
+| `missionOrPillarConflict` | Activated when the pattern claims FPF-wide mission support, changes a pillar interpretation, imports external domain scope, or creates a possible pillar conflict. Absence of pillar recitation is not a defect. Pass condition: no live mission/pillar conflict is hidden, and any live constitutional payoff is carried by the exact coordinate or neighbouring pattern that owns it. |
+| `noProcessLeakage` | Live pattern prose contains no campaign, review, history, planning, landing, or "what changed" residue. |
+| `normativityAdmissibilitySplit` | RFC keywords state agent obligations only; definitions, invariants, typing rules, and admissibility predicates are not written as duties. |
+| `terminologyAdmissibility` | Minted and load-bearing names pass the `F.18 -> A.6.P -> E.10` chain: kind, relation, qualification, governed object, governed move, and non-admissible neighbouring use are recoverable. |
+| `solutionChecklistCoherence` | `Problem`, `Forces`, `Solution`, `Conformance Checklist`, anti-patterns, and relations test the same action guidance. |
+| `neighborRelationClosure` | The pattern does not create shadow authority; relations and downstream hooks cite the exact neighbouring FPF patterns by value. |
+| `SoTABindingMinimum` | SoTA rows are non-decorative: at least one `Solution`, checklist, boundary, worked case, or relation changes because of the adopted/adapted/rejected source stance. |
+| `measurementAndScaleLegality` | Any value, score, coordinate, scale, threshold, comparison, or quality coordinate is typed through `C.16`, `A.17`, `A.18`, and applicable `A.19`/`C.25` discipline. |
+| `coordinateAdministrativeIndependence` | Coordinate values are assigned from pattern content and content evidence, not from review completion, landing state, monolith placement, release state, or steward acceptance. |
+| `noProxyForValueSubstitution` | The quality read asks what became worse when coordinates improved: first-use cost, author cost, maintenance cost, neighbour ripple, entry/projection cost, corpus cost, practical payoff, and bounded non-use are not hidden outside the active comparison. |
+| `formalClaimLegalityAndLensFit` | If a measurement, score, comparison, threshold, aggregation, mathematical lens, causal lens, QL lens, simulation, representation, or learned-lens claim is load-bearing, the scale/comparability basis, preserved structure, lost structure, visible payoff, admissible use, non-admissible use, and stop condition are named. |
+| `acceptedBasisCarryThrough` | Accepted intake, DRR, returned findings, or architecture-basis obligations that govern the pattern are expressed, intentionally absent, or assigned to a named receiving FPF pattern or support document. |
+
+If an eligibility condition fails, the status is `repairBeforeUse` or `holdForArchitectureDecision`. Do not average the failure into better coordinates. A missing first move is not a weak coordinate. For an ordinary-use pattern-quality read, failed activated `firstMoveRecoverability` is a blocker unless the claim is explicitly narrowed to expert-only support, reference-only support, or architecture-decision support.
+
+#### E.21:4.3 - PatternQualityCharacteristicSpace
+
+`PatternQualityCharacteristicSpace` is the declared characteristic space for FPF pattern-quality reads. It uses ordinal coordinates. The default scale is a zero-based six-level scale:
+
+A `PatternQualityCharacteristicSpace` is not a general FPF quality ontology. Its coordinate heads remain local pattern-quality characteristic heads unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration makes a broader characteristic or measurement claim live.
+
+A coordinate value in `PatternQualityCharacteristicSpace` is an ordinal pattern-quality reading, not a `U.Measure` by default. It becomes a measurement claim only when the pattern explicitly declares a `C.16` measurement template, scale, unit, or admissible coordinate construction. Otherwise the value is an evidence-backed ordinal judgement over pattern content for the declared scope.
+
+| Value | Label | Meaning |
+|---:|---|---|
+| 0 | `absent` | The characteristic is not expressed in the pattern text for the declared scope. |
+| 1 | `namedOnly` | The characteristic is named or implied, but the reader cannot use it as pattern-quality evidence. |
+| 2 | `partiallyExpressedForDeclaredUse` | The characteristic is expressed in one or more local loci, but the expression is incomplete, fragile, or too narrow for the declared use. |
+| 3 | `sufficientlyExpressedForDeclaredUse` | The characteristic is expressed enough to support the declared use, with known limits kept visible. |
+| 4 | `wellExpressedForDeclaredUse` | The characteristic is clearly and repeatedly expressed across the pattern body, with direct evidence and boundary protection. |
+| 5 | `exceptionallyExpressedForDeclaredUse` | The characteristic is expressed at an exceptional level for the declared use, across multiple reinforcing loci and cases, without hiding cost or neighbouring-pattern loss. |
+
+The scale is zero-based because true absence is not a weak positive value. It uses six levels rather than ten because the read is ordinal: six levels distinguish absence, mere naming, partial expression, sufficiency, strong expression, and exceptional expression without pretending to have decimal-grade precision. The labels are intentionally domain-neutral. They describe degree of expression of whichever characteristic is being read; they do not import a substantive property such as robustness, stability, safety, maturity, completeness, usability, affordability, or evidence strength into every coordinate.
+
+Authors may use a coordinate-specific named scale when needed, but they must keep the scale ordinal unless a stronger `C.16` measurement basis is declared. No arithmetic mean, percentage score, or hidden normalization is admissible.
+
+The ordinal value of a coordinate is a content reading. `FormalClaimLegalityAndLensFit = 3` means the formal or lens claim is sufficiently expressed for the declared use; it does not mean "not yet reviewed". `FormalClaimLegalityAndLensFit = 5` means the same coordinate is exceptionally expressed in the current pattern text; it does not mean "already landed". The same pattern text in an extracted host and in a monolith should receive the same coordinate value unless the move changes the text, exposes a new content defect, changes the version under `PatternVersionRef`, or changes the declared use being evaluated.
+
+Coordinate names in this section are local characteristic heads inside `PatternQualityCharacteristicSpace`. They are not `U.Measure`s and not general-purpose CHR patterns by name alone.
+
+A coordinate value is an ordinal content reading over the target pattern text for the declared `ClaimScope`. It becomes a measurement claim only when a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration explicitly supplies the measurement basis, scale, unit, comparability mode, and evidence support.
+
+Coordinate values in `PatternQualityCharacteristicSpace` are ordinal content readings unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration makes a measurement claim live. `DominanceSet` compares these readings without scalarizing them.
+
+#### E.21:4.3a - Coordinate value evidence test
+
+A coordinate value is justified by content evidence, not by the label alone. The ordinary `4 wellExpressedForDeclaredUse` test is:
+
+1. the coordinate names the exact property being read;
+2. the pattern text contains direct evidence for that property;
+3. at least one positive case and one boundary or anti-case exercise the property;
+4. neighbouring-pattern relations or non-use boundaries protect the property from overread;
+5. SoTA or internal FPF architecture changes at least one `Solution`, checklist, relation, or worked-case line when the coordinate depends on a source or modeling lens;
+6. the coordinate evidence does not depend on review completion, landing state, monolith placement, release state, or steward acceptance.
+
+A `5 exceptionallyExpressedForDeclaredUse` value requires the `4` test plus stronger content evidence: multiple reinforcing loci, heterogeneous cases or anti-cases where the characteristic changes the result, explicit non-use boundary, and no hidden affordability, maintenance, neighbour-ripple, corpus, entry/projection, or proxy-for-value loss.
+
+`3 sufficientlyExpressedForDeclaredUse` means the coordinate is usable for the declared scope but lacks one or more supports required for `4` or `5`. Coordinate value and evidence support remain distinct: a value says how strongly the characteristic is expressed; `CoordinateEvidenceRefs` say why that reading is justified.
+
+The coordinates below are not one flat always-on audit grid. `PatternQualityCharacteristicSpace` is an activation-normalized characteristic menu for scoped FPF pattern-quality reads.
+
+A coordinate is admissible only when it reads a content property of the target pattern version under the declared `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow`.
+
+Hard blockers stay in `EligibilitySet`. Evidence kinds justify coordinate readings but are not coordinates by themselves. Telemetry reopens or calibrates a read but does not replace content evidence. Fronts and archives preserve candidate trade-offs but do not add ordinary drafting obligations. `PatternQualityStatus` and `StopCondition` are results of the read, not coordinates. Project-side evidence, assurance, gate, release, work, safety, security, or compliance claims route to exact neighbouring patterns.
+
+Each coordinate has an activation class:
+
+- `first-pass core`: ordinarily active for the first ordinary read of one pattern version;
+- `ordinary stop core`: active when the read claims admission, stop, repair-before-use, or narrowed-use closure;
+- `claim-support`: active when evidence, currentness, SoTA, case breadth, measurement, formal lens, replay, or high-value claim support is live;
+- `corpus/publication`: active when the edit changes entry cues, ToC/J.4/Preface, summaries, cards, dashboards, retrieval, durable names, relations, projections, or neighbouring authority;
+- `front/refresh`: active when variants, non-dominated fronts, archives, refresh, repeated findings, or no-forced-winner cases are live.
+
+Inactive coordinates are not passes, waivers, or hidden failures. They are outside the current pattern-quality claim.
+
+| Characteristic | Activation class | What it reads | Good state |
+|---|---|---|---|
+| `WorkingSituationAndUseBoundaryRecognizability` | first-pass core | Whether the working reader recognises the situation, ordinary use, non-use, harm if missed, and first boundary early. | The reader can say "this is / is not my situation" without reading support apparatus. |
+| `ActionPathGuidance` | first-pass core | Whether, after the first admissible move is recoverable, the reader can continue the admissible action path. | The `Solution` carries the action path; the checklist tests it rather than replacing it. |
+| `ClosureAndBoundedNonUseRecoverability` | ordinary stop core | Whether stop, repair, narrower use, and neighbour handoff are recoverable. | The reader can tell when the governed move is enough, when to narrow, and where remaining live claims go. |
+| `GovernedObjectAndClaimScopeStability` | first-pass core | Whether the governed object and quality-claim scope stay stable across title, problem frame, solution, checklist, cases, relations, and status. | The pattern does not drift between pattern, record, bundle, suite, profile, review-profile result, method, work, support document, or broader/narrower use claim. |
+| `SemanticKindAndNameRecoverability` | ordinary stop core; first-pass when names are load-bearing | Whether heads, kinds, relations, qualifiers, support roles, evidence roles, and Tech/Plain names recover the same FPF reading. | Names are usable because they preserve kind, relation, and load, not because prose is polished. |
+| `NeighborAuthorityAndBoundedUseFit` | first-pass core | Whether neighbouring claims stay with exact receiving patterns and residual weakness is bounded. | Evidence, assurance, measurement, naming, work, gate, decision, publication, causal, release, bridge, and refresh claims do not become `E.21` authority. |
+| `PracticalUseDeltaAndHarmPrevention` | first-pass core | Whether the pattern changes a real reader move, prevents a named misuse, reduces named cost or ambiguity, or preserves a named boundary. | The reader can state what action, decision, repair, non-use, or handoff becomes better because the pattern exists. |
+| `UseAffordabilityAndApparatusProportionality` | first-pass core | Whether first use is affordable and the apparatus is proportionate to the live claim. Subreadings: first-use cost and apparatus proportionality. | Ordinary use stays light; heavier fields, cards, telemetry, front/archive, support, or evidence apparatus appear only when their live claim buys admissible use. A weak live subreading limits the coordinate value; do not average the subreadings. |
+| `RepairLocalityAndChangeImpactPredictability` | ordinary stop core | Whether repairs stay local and downstream impact is predictable. | The repair has the smallest live locus, known impact radius, and no unnecessary changes to names, relations, supports, evidence refs, or entry surfaces. |
+| `ProxyForValueSubstitutionResistance` | ordinary stop core | Whether the quality read prevents Goodhart substitution of rubric satisfaction for pattern-use value. | The read asks what got worse and treats usability, affordability, maintainability, neighbour costs, and bounded non-use as quality evidence rather than afterthoughts. |
+| `ClaimSupportTraceabilityCurrentnessAndReplayability` | claim-support | Whether another reader can replay the claim from pinned text, scope, evidence refs, currentness basis, limitations, status, and stop reason. | The claim is traceable and replayable without chat memory, steward memory, or administrative placement state; project assurance is routed out. |
+| `CaseCountercaseAndTransferCoverage` | claim-support | Whether positive cases, near-misses, anti-cases, and transfer cases match claimed breadth. | Cases test the main misuse paths and boundary transfers; broad claims have heterogeneous support or explicit narrowing. |
+| `SoTABindingAndCurrentness` | claim-support | Whether SoTA, lineage, rejected practice, and refresh triggers are separated and load-bearing. | Adopt/adapt/reject stances mutate `Solution`, checklist, boundary, relation, worked case, stop, or reopen condition. |
+| `FormalClaimLegalityAndLensFit` | claim-support | Whether measurement, score, comparison, scale, threshold, formal model, or lens claim is legal and bounded. | Scale/comparability basis and preserved/lost structure are visible; non-admissible formal use is named. |
+| `FalsifiabilityAndLoweringCondition` | claim-support | Whether high values, status claims, and stop claims say what would lower or reopen the read. | Values `4`/`5`, `admissibleForDeclaredUse`, and stop decisions carry concrete lowering conditions unless the declared use is only first-pass repair triage. |
+| `ExternalEntryAndProjectionIntegrity` | corpus/publication | Whether ToC/J.4/Preface cues, cards, summaries, dashboards, generated explanations, retrieval snippets, or thin echoes preserve the governed read. | External projections guide entry by value and scope; they do not become approval badges, authority faces, project evidence, or second semantic tracks. |
+| `PatternLanguageEcologyFit` | corpus/publication | Whether the pattern preserves FPF corpus health: relation fanout, name collision risk, entry-map clarity, support-role parity, stale echoes, and neighbouring-authority distribution. | Local improvement does not create corpus-level confusion, relation explosion, entry pollution, stale echoes, or shadow authority. |
+| `EvolutionFrontAndRefreshDiscipline` | front/refresh | Whether variants, fronts, archives, refresh windows, no-forced-winner cases, and smallest-live-reopen rules preserve open-ended evolution without endless polishing. | Non-dominated candidates can remain visible until a declared receiving action requires one selected candidate; refresh reopens the smallest live locus. |
+
+**Activated overlays.** These overlays are not ordinary coordinates. They become active only when the target pattern or declared `ClaimScope` makes the issue live.
+
+| Overlay | Activation | Good state |
+|---|---|---|
+| `ConstraintAndHarmBoundaryFit` | Active when the target pattern contains safety, security, ethics, compliance, deontic, harm-prevention, prohibited-use, non-negotiable constraint, or project-risk claims. | Constraint and harm boundaries are visible, exact receiving patterns are named, and no pattern-quality result is overread as safety, security, compliance, ethics, or project approval. |
+| `SelfApplicationAndRecursionBoundary` | Active for meta-patterns that govern pattern authoring, review, quality, naming, publication, SoTA, semantic repair, or characteristic spaces. | The pattern can be applied to itself at the lowest sufficient layer without recursive bundles, infinite review, or self-certifying authority. |
+
+#### E.21:4.4 - DominanceSet, TieBreakerSet, TelemetrySet
+
+`DominanceSet` names the subset of activated characteristics selected for the current `ClaimScope`. The coordinate menu in `E.21:4.3` is not one always-on grid.
+
+For one first ordinary read of one target pattern version, the minimal active coordinates are:
+
+- `WorkingSituationAndUseBoundaryRecognizability`;
+- `ActionPathGuidance`;
+- `GovernedObjectAndClaimScopeStability`;
+- `NeighborAuthorityAndBoundedUseFit`;
+- `PracticalUseDeltaAndHarmPrevention`;
+- `UseAffordabilityAndApparatusProportionality`.
+
+For admission, stop, repair-before-use, or narrowed-use closure, add the ordinary stop core coordinates:
+
+- `ClosureAndBoundedNonUseRecoverability`;
+- `SemanticKindAndNameRecoverability` when names/kinds are load-bearing beyond eligibility minimum;
+- `RepairLocalityAndChangeImpactPredictability` when an edit or repair is being judged;
+- `ProxyForValueSubstitutionResistance` before any stop or comparison claim.
+
+Activate claim-support, corpus/publication, front/refresh coordinates, and activated overlays only when the target pattern, candidate edit, or declared `ClaimScope` makes their load live.
+
+Inactive coordinates are outside the current pattern-quality claim. They are not passes, waivers, or hidden failures.
+
+A candidate pattern version `A` dominates candidate `B` only when:
+
+1. both pass the active `EligibilitySet`;
+2. `A` is no worse than `B` on every active dominance coordinate;
+3. `A` is better on at least one active dominance coordinate; and
+4. `A` does not create a new hard blocker, an unacceptable drop in `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, or `ProxyForValueSubstitutionResistance`, or an unacceptable unscored increase in reader, author, maintainer, migration, evidence, entry/projection, corpus, or neighbour-integration cost.
+
+`TieBreakerSet` is used only among non-dominated candidates. Default tie-breakers are:
+
+| Tie-breaker | Preference |
+|---|---|
+| `ExistingPatternReuse` | Reuse existing FPF patterns and fields when precision is equal. |
+| `MintedNameParsimony` | Mint fewer durable names when semantic fidelity is equal. |
+| `ReaderCost` | Lower first-use cost when action guidance and ontology precision are equal. |
+| `AuthorCost` | Fewer required declarations when safety and reviewability are equal. |
+| `MaintainerCost` | Lower refresh and relation-maintenance cost when quality is equal. |
+| `EntryDiscoverability` | Better practical first-entry cues when local precision is equal. |
+
+Cost tie-breakers are not a hiding place for live quality loss. If reader, author, reviewer, maintainer, migration, evidence, entry/projection, corpus, or neighbour-integration cost can change admissible use, represent it through `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, `ExternalEntryAndProjectionIntegrity`, `PatternLanguageEcologyFit`, `ProxyForValueSubstitutionResistance`, or another active coordinate before using tie-breakers.
+
+**Support material retention test.** A support card, telemetry fixture, archive row, worked slice, proof sketch, or companion note remains attached to the pattern-quality read only when the read states what real quality breakage would return if it were absent.
+
+If no breakage is named, fold the useful content into the pattern body, keep it as accepted basis only, or remove it from the active quality read.
+
+**High-assurance separation rule.** When high-assurance reuse needs stronger evidence, proof sketches, telemetry, or support cards, preserve the ordinary pattern body's first admissible move unless the ordinary use itself changes.
+
+High-assurance material should normally live in a named support card, worked slice, or neighbouring evidence/assurance pattern. It should not be inserted into the ordinary `Solution` if doing so makes first use harder for the declared ordinary reader.
+
+`TelemetrySet` is optional for early drafts and useful for mature or high-use patterns. Telemetry is an activation signal for reopening or calibration, not a standing requirement for every pattern-quality read. Typical telemetry includes:
+
+| Telemetry | Reopen signal |
+|---|---|
+| `reviewReturnDensity` | P1/P2/P3 findings per pattern or per 1k lines are not falling. |
+| `repeatFindingRate` | The same defect class returns after repair. |
+| `coldReaderMisentryRate` | Readers choose the wrong first pattern or wrong neighbouring exit. |
+| `retrievalHitQuality` | Search or RAG finds the wrong pattern, wrong section, or unsupported summary. |
+| `neighborBreakageCount` | A pattern change repeatedly forces downstream repairs. |
+| `patternUseAvoidanceSignal` | Readers avoid the pattern, copy only fragments, or return to informal shortcuts because the quality apparatus is too costly. |
+| `maintenanceRippleSignal` | Small pattern repairs repeatedly force unrelated name, relation, evidence, or support edits. |
+| `proxyOptimizationSignal` | Edits improve checklist or coordinate wording while first-use failures, return findings, or practical-payoff complaints persist. |
+| `workedCaseCoverageDelta` | Edits polish wording without adding or preserving live case coverage. |
+| `terminologyCollisionCount` | New names collide with existing FPF heads or kinds. |
+| `SoTAStalenessSignals` | Current-practice claims now depend on stale or superseded anchors. |
+
+Refresh opens the smallest live locus: the affected source stance, neighbour relation, coordinate reading, worked case, name, eligibility row, or status payload. It reopens the whole pattern-quality read only when that local change can change `PatternQualityStatus` or `StopCondition`.
+
+#### E.21:4.5 - StopCondition
+
+Improvement can stop for the declared scope only when the `PatternQualityQBundle` satisfies:
+
+```text
+StopCondition :=
+  EligibilitySet passes
+  AND the target text is an action-guiding FPF pattern under E.8 for the declared use
+  AND the first move is recoverable from Problem frame and Solution, or the claim is narrowed to support-only use
+  AND no open P1/P2 pattern-quality findings for the declared ClaimScope
+  AND all active DominanceSet coordinates meet the declared floor
+  AND no active coordinate is 0 or 1 for a use the pattern claims to support
+  AND the current candidate is non-dominated on the active DominanceSet
+  AND the next proposed edits are TieBreaker-only or cosmetic for this scope
+  AND no active improvement creates unmeasured usability, affordability, repair-impact, entry/projection, corpus-ecology, or neighbour-ripple loss outside the DominanceSet
+  AND remaining weaknesses are expressed as bounded non-use or a named receiving pattern
+  AND TelemetrySet, when active, shows no recurring blocker class
+```
+
+No stop condition may close while a visible coordinate improvement creates unmeasured loss in first-use cost, reader comprehension, maintainer locality, neighbour stability, bounded non-use clarity, or practical payoff.
+
+The ordinary floor for an admission-ready pattern is `3 sufficientlyExpressedForDeclaredUse` on every active coordinate. A lower coordinate may remain only by narrowing `ClaimScope`, `WorkingReaderScope`, or `IntendedUse`; it is not hidden in an average.
+
+#### E.21:4.6 - PatternQualityFront and PatternImprovementArchive
+
+A `PatternQualityFront` is live only when at least two candidate versions or candidate edits are being compared.
+
+A `PatternImprovementArchive` is live only when preserving rejected or near-miss variants changes future repair, refresh, or selection.
+
+Do not create either construct for a single ordinary repair unless a candidate comparison or contested stop decision is already live.
+
+When these constructs are live, keep:
+
+| Construct | Meaning |
+|---|---|
+| `PatternQualityFront` | The current non-dominated set of pattern candidates under the active `EligibilitySet`, `DominanceSet`, and cost coordinates. |
+| `PatternImprovementArchive` | A bounded archive of candidate edits, rejected variants, near-miss versions, and trade-off notes that explain why one candidate was not selected. |
+
+This is the pattern-quality analogue of NQD/front discipline. It prevents "one winner" thinking while still allowing one candidate to be selected for the current `ClaimScope`.
+
+The archive is not required for every small edit. It becomes useful when several plausible versions trade off `SemanticKindAndNameRecoverability`, reader cost, `SoTABindingAndCurrentness`, `CaseCountercaseAndTransferCoverage`, `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, or `ProxyForValueSubstitutionResistance`.
+
+`PatternImprovementArchive` records candidate-edit trade-off evidence only. It is not chat memory, process chronology, review history, backlog, or permanent appendix.
+
+#### E.21:4.6a - No forced winner
+
+When several candidates are non-dominated under the active `EligibilitySet`, `DominanceSet`, and cost coordinates, `E.21` SHALL NOT force one winner unless the declared `IntendedUse` requires one selected candidate.
+
+If ordinary drafting, exploration, or architecture discussion remains live, the admissible output may be a scoped `PatternQualityFront` with each candidate's bounded use and known trade-off. A single selected version is required only when admission, landing-support, release-support, high-assurance reuse, or another receiving action requires one candidate by value.
+
+Choosing one candidate from a non-dominated front requires either:
+
+* a declared `TieBreakerSet` that does not override hard blockers or live quality loss;
+* a narrowed `ClaimScope` or `WorkingReaderScope`;
+* a named neighbouring decision pattern when the choice is no longer a pattern-quality read.
+
+#### E.21:4.7 - Relationship to E.19
+
+`E.21` supplies the characteristic space and stop condition for pattern-quality claims. `E.19` supplies the review profile, findings-first run record, and admission/refresh outcome.
+
+Use them together this way:
+
+1. Use `E.8` to author the pattern.
+2. Use `E.21` to state the quality bundle and non-scalar stop condition.
+3. Use `E.19` to run the selected review profiles and record findings.
+4. If an `E.19` finding changes the quality read, update the `PatternQualityQBundle`; do not turn the `E.19` verdict into a scalar score.
+
+An `E.19` pass, return, or absence is not itself a coordinate value. It may supply evidence about the pattern text, expose a content defect, support a confidence judgement, or constrain the admissible `ClaimScope`; it does not make the same `FormalClaimLegalityAndLensFit`, `SemanticKindAndNameRecoverability`, `ActionPathGuidance`, or `ClosureAndBoundedNonUseRecoverability` stronger or weaker by administrative state alone.
+
+Do not call an `E.21` `EligibilitySet`, `PatternQualityStatus`, `StopCondition`, or coordinate floor a gate. `E.21` states a scoped pattern-quality read. `E.19` runs pattern-quality review profiles. `A.21` governs operational gate decisions. These three uses do not collapse by metaphor.
+
+
+An `E.21` result is still a pattern-quality result. It is not project evidence, safety certification, gate passage, assurance acceptance, work authority, release approval, or publication truth unless the exact receiving pattern opens that project-side relation.
+
+#### E.21:4.8 - Minimal PatternQualityQBundle card
+**Ordinary first-pass slice.** This is not a new kind. It is the smallest admissible slice of `PatternQualityQBundle` for one first read of one target pattern version.
+
+```text
+PatternQualityQBundle / first-pass slice:
+  PatternVersionRef:
+  WorkingReaderScope:
+  IntendedUse:
+  QualificationWindow:
+  FirstMoveEvidenceRef: <Problem frame / Solution / named neighbouring handoff>
+  EntryBlockers: <none | first move absent | governed object drift | checklist-as-solution | apparatus overreach | neighbour overread | other activated blocker>
+  MinimalDominanceSet: <default six coordinates, plus activated coordinates if live>
+  PatternQualityStatus:
+  Next admissible repair or bounded non-use:
+```
+
+The full one-screen card is used when the first-pass slice survives or when the declared use requires coordinate evidence, variant comparison, admission, refresh, high-assurance reuse, or contested stop.
+
+The fuller card remains one screen when Layer 1, comparison, admission, refresh, high-assurance reuse, or contested stop makes it live:
+
+```text
+PatternQualityQBundle:
+  PatternVersionRef: <pattern id + edition or host path>
+  ClaimScope: <ordinary authoring support quality read | admission-support quality read | refresh-support quality read | landing-support quality read | external-review-support quality read | high-assurance-reuse support quality read | ...>
+  WorkingReaderScope: <primary reader + first-use situation>
+  IntendedUse: <what this quality read may support>
+  QualificationWindow: <edition / SoTA / neighbour / release window>
+  EligibilitySet: <pass/fail rows with blockers>
+  DominanceSet: <selected coordinates + floor>
+  CoordinateEvidenceRefs: <text sections, worked cases, SoTA rows, relation checks, or findings that support coordinate values; not placement/review state alone>
+  PatternQualityStatus: <value set from E.21:4.1>
+  StopCondition: <satisfied | not satisfied, with exact reason>
+  EvidenceRefs: <worked cases, SoTA rows, review refs, source refs>
+```
+
+#### E.21:4.8a - Publication and projection boundary for quality cards
+
+A rendered `PatternQualityQBundle`, first-pass slice, quality table, status badge, or dashboard tile is a publication or projection of the pattern-quality read. It is not the target pattern, not the authority source, not project evidence, not release approval, not gate passage, and not assurance acceptance.
+
+When the rendered card is used as a bounded publication unit, the card SHALL keep visible:
+
+1. the exact `PatternVersionRef`;
+2. the carried move: scoped pattern-quality read, first-pass slice, variant comparison, stop/non-stop reason, or bounded non-use;
+3. the outside boundary to project evidence, assurance, gate, release, work, and publication truth;
+4. the exact receiving pattern when a downstream claim is live.
+
+A ToC row, `J.4` row, README note, dashboard tile, or generated summary may echo an `E.21` result only as a thin orientation cue unless it cites the full governed quality read by value.
+
+Generated summaries, retrieval snippets, README lines, ToC reminders, and `J.4` entries may expose an `E.21` result only as `thin echo` or controlled coarsening.
+
+A thin echo may say:
+
+* `<PatternVersionRef> has PatternQualityStatus = repairBeforeUse for ordinary use because first move is absent. See <quality read ref>.`
+
+A thin echo SHALL NOT say:
+
+* `approved pattern`;
+* `safe pattern`;
+* `compliant pattern`;
+* `quality passed`;
+* `do not use this pattern` without scope;
+* `E.21 certified this pattern`.
+
+If a generated or coarsened rendering is used for reliance beyond orientation, route to `A.6.3.CSC`, `E.17.EFP`, `E.17.AUD`, `A.10`, or `B.3` as live.
+
+#### E.21:4.9 - Reader move loop
+
+The fast entry loop for one target pattern version is:
+
+1. write the target line: `<PatternVersionRef> for <WorkingReaderScope> under <IntendedUse> within <QualificationWindow>`;
+2. read only the target pattern's `Problem frame` and `Solution` until one first admissible action-guiding move is recoverable;
+3. if no first move is recoverable, or if the move lives only in the Conformance Checklist, assign `PatternQualityStatus = repairBeforeUse` for the declared use unless a narrower support-only use is explicitly named;
+4. if the first move is recoverable, check the default six first-pass coordinates and any activated coordinates;
+5. expand to the full comparison and stop loop only when a stop decision, variant comparison, admission, refresh, high-assurance reuse, or contested neighbour claim is live.
+
+The full comparison and stop loop is:
+
+1. name the exact `PatternVersionRef`;
+2. declare `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow`;
+3. check activated `EligibilitySet` rows before comparing coordinates;
+4. read each active coordinate from `CoordinateEvidenceRefs`, not from administrative state;
+5. ask what became worse when the visible coordinates improved: first-use affordability, author/reviewer effort, repair-impact predictability, entry/projection integrity, corpus ecology, neighbour ripple, and proxy-for-value substitution;
+6. compare candidates through `DominanceSet` only after eligibility passes and Goodhart-risk questions are visible;
+7. use `TieBreakerSet` only among non-dominated candidates;
+8. assign one `PatternQualityStatus`;
+9. state whether `StopCondition` is satisfied or which bounded non-use, receiving pattern, or content repair remains.
+
+If the reader cannot recover the fast-entry result for one pattern version, activated `firstMoveRecoverability` fails for ordinary use even when the prose is polished. If the first move is recoverable but the reader cannot continue the admissible action path, `ActionPathGuidance` is below `4 wellExpressedForDeclaredUse` for ordinary use. If the reader cannot perform the closure and bounded non-use loop when that loop is live, `ClosureAndBoundedNonUseRecoverability` cannot support stop closure for that declared scope.
+
+#### E.21:4.10 - CoordinateEvidenceRefs support card
+
+`CoordinateEvidenceRefs` may be inline section references, short claims, review findings, worked slices, or full support cards. Full support cards are required only when the coordinate value is contested, reused for high-assurance closure, used across several candidate variants, or cited outside the local pattern-quality read.
+
+`CoordinateEvidenceRefs` is the local evidence list for coordinate values. It is support for coordinate readings, not a coordinate family by itself.
+
+`CoordinateEvidenceRef := <Coordinate, EvidenceKind, HostSectionRef, Claim, Limitation, LoweringCondition?>`
+
+`LoweringCondition?` is required only when a coordinate value is `4` or `5`, or when the coordinate supports `admissibleForDeclaredUse` or `StopCondition`.
+
+It states one concrete content discovery, reader failure, neighbour conflict, SoTA change, worked-case counterexample, cost increase, entry/projection overread, corpus-ecology conflict, or affordability loss that would lower the coordinate or reopen the read.
+
+A lowering condition is not a test suite and not a review plan. It is a falsifiability hook for the current pattern-quality claim.
+
+Default evidence kinds:
+
+| EvidenceKind | Use |
+|---|---|
+| `recognitionTextEvidence` | Shows why a working reader can recognise the situation, boundary, and first move. |
+| `namePrecisionCardEvidence` | Shows why a minted or load-bearing token has a recoverable kind, relation load, admissible use, and non-admissible use. |
+| `relationClosureEvidence` | Shows that neighbouring-pattern claims stay with their governing patterns. |
+| `workedCaseEvidence` | Shows the coordinate in a positive case, near-miss, anti-case, countercase, transfer case, or heterogeneous application case. |
+| `sotaImplicationEvidence` | Shows how a source changes `Solution`, checklist, relation, boundary, worked case, stop condition, or reopen condition. |
+| `measurementScaleEvidence` | Shows Characteristic/Scale/Coordinate discipline and blocks illegal arithmetic. |
+| `costAndUseEvidence` | Shows first-use, author, reviewer, maintainer, migration, entry/projection, corpus, or ordinary-use cost under the declared scope. |
+| `maintenanceRippleEvidence` | Shows whether one pattern repair creates unnecessary cross-FPF relation, naming, support, evidence, entry, or projection churn. |
+| `proxySubstitutionEvidence` | Shows whether a coordinate increase preserves the practical value the coordinate was meant to protect. |
+| `supportBoundaryEvidence` | Shows the difference between pattern-quality evidence and project-side evidence, assurance, work, gate, release, or publication truth. |
+| `entryProjectionEvidence` | Shows how ToC/J.4/Preface/search/RAG/summary/card/dashboard cues preserve the governed pattern-quality read without replacing it. |
+| `corpusEcologyEvidence` | Shows whether the edit changes relation fanout, name collisions, support-role parity, entry-map clarity, stale echoes, or neighbouring authority. |
+| `loweringConditionEvidence` | Shows what discovery, failure, countercase, conflict, stale source, or cost increase would lower a high coordinate or reopen the status/stop claim. |
+
+`entryProjectionEvidence` and `corpusEcologyEvidence` are active only when the candidate edit changes durable names, relations, ToC/J.4/Preface entry support, retrieval-facing cues, support projections, summaries, cards, dashboards, or neighbouring-pattern authority. They are not required for local wording repair.
+
+Example support card:
+
+```text
+CoordinateEvidenceRef:
+  Coordinate: FormalClaimLegalityAndLensFit
+  EvidenceKind: measurementScaleEvidence + workedCaseEvidence + sotaImplicationEvidence
+  HostSectionRef: E.21:4.3, E.21:4.12, E.21:11
+  Claim: Q-Bundle + ordinal characteristic space + Pareto/front lens preserve the comparisons needed for pattern improvement while rejecting scalar averages.
+  Limitation: Not a statistical estimator, project assurance result, or tool mandate.
+  LoweringCondition: If an E.21 edit permits arithmetic averaging of ordinal coordinate values, lower this coordinate to <=2 for ordinary use.
+```
+
+#### E.21:4.10a - Pattern-quality finding sentence grammar
+
+A pattern-quality finding is admissible only when it has this shape:
+
+```text
+Pattern-quality finding:
+  Target: <PatternVersionRef>
+  ClaimScope / reader / use / window:
+  Finding kind: <eligibility blocker | coordinate reading | status payload | stop-condition failure | bounded non-use | neighbour-handoff>
+  Exact E.21 locus: <EligibilitySet row | coordinate | status | stop clause>
+  Content evidence: <HostSectionRef / worked case / SoTA row / relation check / review finding>
+  Result: <PatternQualityStatus effect or coordinate value effect>
+  First admissible repair or bounded non-use:
+```
+
+Forbidden finding shapes:
+
+* `weak pattern`;
+* `not FPF enough`;
+* `quality low`;
+* `review failed`;
+* `needs more evidence`;
+* `not safe/compliant`;
+* `too complex`;
+* `not ready`.
+
+These are admissible only after rewriting into the exact `E.21` locus, content evidence, status effect, and first admissible repair or bounded non-use.
+
+#### E.21:4.11 - Local name-precision cards for E.21 heads
+
+These cards are local name-precision evidence for `E.21`; they are not a separate glossary. Coordinate names are defined in `E.21:4.3` and are not repeated here unless the token also names a local construct.
+
+The `E.21:4.11` local name-precision cards are the local `F.18`-compatible settlement for `E.21` heads. They do not require separate full `Name Card` artifacts for ordinary use.
+
+A full `F.18` Name Card is required only when an `E.21` head is reused outside `E.21`, collides with an existing FPF head, enters a UTS/Concept-Set row, or becomes a durable cross-pattern naming decision rather than a local field/value-set name.
+
+| Token | Kind named | Relation load | Admissible use | Non-admissible use |
+|---|---|---|---|---|
+| `PatternQualityQBundle` | Q-Bundle specialization for one pattern-quality claim. | Binds pattern version, scope, coordinates, evidence, status, and stop condition. | State a scoped non-scalar quality read. | Universal maturity score, review verdict, release approval, or project certification. |
+| `PatternQualityCharacteristicSpace` | CharacteristicSpace specialization for FPF pattern-quality coordinates. | Holds ordinal pattern-quality coordinates and their scale discipline. | Compare content properties of pattern versions. | Geometric space, administrative state map, or popularity ranking. |
+| `EligibilitySet` | Set-valued hard-filter field inside `PatternQualityQBundle`. | Filters candidate versions before coordinate comparison. | Block hard defects before front reasoning. | Low-score region, soft preference list, review profile, or gate profile. |
+| `DominanceSet` | Set-valued coordinate-selection field inside `PatternQualityQBundle`. | Defines the active Pareto comparison relation after eligibility passes. | Compare candidates without scalarization. | Total order, average, hidden priority stack, or selector policy. |
+| `CoordinateEvidenceRef` | Local evidence-reference record for one coordinate value. | Connects one coordinate value to text, cases, SoTA, relation checks, or findings. | Justify one coordinate reading by content. | Administrative placement, review state, or project evidence by itself. |
+| `CoordinateEvidenceRefs` | Set-valued field of `CoordinateEvidenceRef` records. | Holds the evidence refs for active coordinate readings. | Keep coordinate values inspectable. | Support archive, review verdict, or proof package. |
+| `TieBreakerSet` | Set-valued secondary-preference field inside `PatternQualityQBundle`. | Breaks ties only after dominance cannot choose. | Prefer lower reader/author/maintainer cost when quality is equal. | Secret dominance coordinate or override for hard blockers. |
+| `TelemetrySet` | Set-valued reopen/calibration signal field inside `PatternQualityQBundle`. | Connects return, retrieval, drift, and repeat-finding signals to refresh. | Reopen or calibrate the pattern-quality read. | Project certificate, popularity count, or replacement for content evidence. |
+| `PatternQualityStatus` | Local admissible-use value set inside `PatternQualityQBundle`. | Names admissible use, narrowed use, repair, architecture decision, or refresh for the scoped pattern-quality claim. | Express the outcome of the bundle. | Gate passage, release state, role state, assurance acceptance, or project approval. |
+| `PatternQualityFront` | Non-dominated candidate set under the active quality relation. | Preserves multiple viable candidates without one scalar winner. | Select among pattern versions or candidate edits. | Permanent backlog, generic archive, or mandatory tool artifact. |
+| `PatternImprovementArchive` | Bounded archive of candidate edits and rejected variants. | Keeps trade-off evidence for selected/non-selected candidates. | Explain why one candidate was selected for a scope. | Process log, chat transcript, or mandatory historical appendix. |
+
+**Plain twins for ordinary reading.** These Plain twins are reader aids only; the Tech head remains authoritative.
+
+| Tech head | Plain twin | Guard |
+|---|---|---|
+| `PatternQualityQBundle` | pattern-quality read bundle | Not a review packet, score sheet, or gate file. |
+| `PatternQualityCharacteristicSpace` | pattern-quality coordinate space | Not a metric dashboard or maturity model. |
+| `PatternQualityStatus` | pattern-quality use posture | Not release status, gate decision, or assurance level. |
+| `EligibilitySet` | hard blockers | Not low-score items. |
+| `DominanceSet` | active quality coordinates | Not weighted criteria. |
+| `CoordinateEvidenceRef` | coordinate support reference | Not project evidence by itself. |
+| `PatternQualityFront` | non-dominated pattern-edit set | Not backlog or shortlist by itself. |
+| `PatternImprovementArchive` | bounded pattern-edit trade-off archive | Not process log or permanent appendix. |
+
+#### E.21:4.12 - Mathematical lens adequacy proof sketch
+
+The mathematical lens in `E.21` is a finite ordinal characteristic-space lens plus a Pareto/front comparison over candidate pattern versions.
+
+| Lens component | Preserved structure | Lost or rejected structure | Practical payoff |
+|---|---|---|---|
+| Q-Bundle tuple | Keeps pattern version, scope, evidence, coordinates, status, and stop condition together. | Rejects unscoped quality adjectives. | A quality claim can be inspected without reading chat memory. |
+| Ordinal characteristic coordinate | Keeps coordinate identity and ordered levels. | Rejects cardinal distance, averages, percentages, and hidden normalization. | `3` and `4` mean content states, not arithmetic quantities. |
+| Eligibility predicate | Keeps hard preconditions outside optimization. | Rejects averaging hard blockers into good coordinates. | Undefined vocabulary, shadow authority, or scale illegality blocks comparison. |
+| Pareto dominance relation | Keeps non-dominated alternatives visible. | Rejects one universal total order. | Shorter, more exact, and more SoTA-rich variants can coexist until a scope chooses. |
+| Tie-breaker preference | Keeps secondary preferences after non-domination. | Rejects secret reweighting of the main coordinates. | Reader cost or continuity can choose only when quality comparison does not. |
+| Goodhart-risk check | Keeps the relation between coordinate improvement and intended pattern-use value explicit. | Rejects "all visible coordinates improved" as sufficient when use, affordability, repair locality, entry/projection integrity, corpus ecology, or neighbour fit got worse. | A quality read must ask what became worse before it can stop. |
+| Front/archive pair | Keeps selected and non-selected candidate evidence bounded. | Rejects endless polishing and permanent process history. | Improvement can stop without losing important trade-off evidence. |
+
+The lens is admissible because pattern quality is multi-characteristic, ordinal, and scope-dependent. It is not admissible for estimating user adoption, certifying project safety, proving product compliance, or assigning a universal quality number. The stop condition closes the lens: once eligibility passes, floors are met, the candidate is non-dominated, remaining weaknesses are bounded, no active coordinate improvement hides affordability, repair-impact, entry/projection, corpus-ecology, or neighbour loss, and live telemetry shows no recurring blocker class, additional edits must show a real front movement rather than a cosmetic preference.
+
+### E.21:5 - Archetypal Grounding
+
+**Tell.** A good FPF pattern is not merely complete, attractive, or formally strict. It is an action-guiding method description whose quality is a scoped bundle: it helps the right reader recognise the right situation, make the next admissible move, avoid the wrong neighbour, and trust the result for the declared use.
+
+**Recognition matrix.**
+
+| Working situation | First honest `E.21` move | Likely wrong substitute | Coordinate tested |
+|---|---|---|---|
+| A system-architecture pattern has precise vocabulary and strong sources, but the opening never says what an engineer-manager does first. | Check activated `firstMoveRecoverability`; if it passes, read `WorkingSituationAndUseBoundaryRecognizability` and `ActionPathGuidance` from the opening and `Solution`. | Treat SoTA strength as enough for admission. | `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, `ActionPathGuidance`, `SoTABindingAndCurrentness`. |
+| A publication or evidence pattern reads beautifully, but `PatternQualityStatus = admissibleForDeclaredUse` is being cited as product assurance. | Keep the quality result as pattern-quality evidence and cite `A.10`/`B.3` only when the project-side claim is live. If a card, summary, or status line is visible, check whether the projection stays a scoped echo. | Treat review approval as project certification. | `NeighborAuthorityAndBoundedUseFit`, `ClaimSupportTraceabilityCurrentnessAndReplayability`, `ExternalEntryAndProjectionIntegrity`. |
+| A mathematical-lens pattern has the right formula vocabulary, but no preserved/lost structure or non-use boundary. | Require the formal/lens proof sketch: preserved structure, rejected structure, payoff, admissible use, non-admissible use, and stop condition. | Count formal notation as sufficient lens fit. | `FormalClaimLegalityAndLensFit`. |
+| A naming-heavy pattern has better prose after editing, but the kind and relation load are still ambiguous. | Fill local name-precision cards or use the full `F.18 -> A.6.P -> E.10` chain. | Treat lexical polish as ontology repair. | `SemanticKindAndNameRecoverability`. |
+| Two variants both pass eligibility: one is shorter; the other has stronger examples and relation closure. | Compare through `DominanceSet`, then use `TieBreakerSet` only if neither dominates. | Average scores or choose the version that feels cleaner. | `UseAffordabilityAndApparatusProportionality`, `CaseCountercaseAndTransferCoverage`, `EvolutionFrontAndRefreshDiscipline`. |
+| A pattern-quality read raises every visible coordinate to `4` or `5`, but the pattern becomes longer, harder to enter, and more expensive to maintain. | Activate `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `ProxyForValueSubstitutionResistance`; ask what became worse before accepting the stop condition. | Treat "all coordinates are high" as enough by itself. | `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, `ProxyForValueSubstitutionResistance`. |
+
+**Show - System pattern.** A system-architecture pattern has precise structure vocabulary and a strong SoTA row, but its opening never says what an engineer-manager should do first. Activated `firstMoveRecoverability` fails for ordinary use. The admissible result is not "quality 78/100"; it is `repairBeforeUse` for admission, or `admissibleWithNarrowerUse` if it is kept as expert-only support.
+
+**Show - First-pass target read.** An author opens a candidate FPF pattern and writes: `PatternVersionRef = C.xx@draft-3; WorkingReaderScope = engineer-manager using the pattern for first ordinary application; IntendedUse = continue drafting or repair before use; QualificationWindow = current FPF edition`.
+
+The author reads only `Problem frame` and `Solution`. If the pattern says which object it governs but gives no first admissible action-guiding move, the first-pass read closes: activated `firstMoveRecoverability` fails and `PatternQualityStatus = repairBeforeUse` for ordinary use. No `PatternQualityFront`, `TelemetrySet`, or full coordinate table is needed.
+
+If the first move exists but the continuation path or apparatus required to apply it is heavier than the ordinary case can justify, activate `ActionPathGuidance` and `UseAffordabilityAndApparatusProportionality`. The repair is to keep the ordinary first move light and move heavier support to a named neighbouring pattern or high-assurance support card.
+
+**Show - Episteme pattern.** A publication or evidence pattern reads beautifully and has many examples, but it treats an `E.19` pattern-quality result as project assurance. `NeighborAuthorityAndBoundedUseFit` and `ClaimSupportTraceabilityCurrentnessAndReplayability` fail because assurance belongs in `B.3` and evidence/currentness belongs in `A.10`. If a dashboard tile or generated summary repeats the result without scope and status payload, `ExternalEntryAndProjectionIntegrity` also fails. The repair is to keep the pattern-quality result as pattern-quality evidence and open the exact project-side receiving relation only when needed.
+
+**Show - Mathematical lens pattern.** A pattern says that it uses a characteristic space, but then compares variants by "overall quality". `FormalClaimLegalityAndLensFit` fails because the ordinal coordinates are being collapsed and the preserved and rejected structures are not named. The repair is to state the finite ordinal coordinate set, eligibility predicate, dominance relation, tie-breaker boundary, and non-admissible scalar uses.
+
+**Show - New pattern candidate.** Two drafts of the same pattern both pass eligibility. Draft A is shorter and easier to read; Draft B has better SoTA, case/countercase breadth, and neighbour closure but adds a heavier bundle card. Neither dominates if Draft B's extra apparatus is live only for high-assurance reuse. The correct output may be one ordinary draft plus a support card for high-assurance use, not one averaged winner.
+
+**Show - Goodhart trade-off.** An author raises visible E.21 coordinates to high values by adding proof sketches, support cards, and SoTA rows. The pattern now reads better on the visible table, but a cold author needs more time to find the first move and a maintainer must update more named sections or support records after each small repair. The quality read cannot stop until `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `ProxyForValueSubstitutionResistance` are read by content evidence. If those coordinates fall, the candidate is not an improvement for the declared ordinary-use scope; it may become a high-assurance variant instead.
+
+**Show - Self-application support card.**
+
+```text
+CoordinateEvidenceRef:
+  Coordinate: ActionPathGuidance
+  EvidenceKind: recognitionTextEvidence + workedCaseEvidence
+  HostSectionRef: E.21:1, E.21:4.9, E.21:5
+  Claim: The reader has a first move, a continuation loop, and heterogeneous examples that show when the loop changes the quality result.
+  Limitation: This is pattern-quality guidance, not project-side work authorization.
+```
+
+### E.21:6 - Bias-Annotation
+
+`E.21` intentionally biases evaluation away from single scores, reviewer taste, and flat audit grids and toward activation-normalized characteristic spaces. This supports `P-1 Cognitive Elegance`, `P-2 Didactic Primacy`, `P-7 Pragmatic Utility`, `P-10 Open-Ended Evolution`, and `P-11 SoTA Alignment`.
+
+Lens cautions:
+
+| Lens | Bias to watch | Counter-move |
+|---|---|---|
+| Governance | A quality result may be overread as approval, release, or certification. | Keep `PatternQualityStatus` scoped to FPF pattern quality and name receiving project-side patterns separately. |
+| Architecture | The pattern may centralize all quality concerns and steal authority from `E.8`, `E.19`, `C.16`, `C.25`, or `F.18`. | State exact relations and keep each neighbour's governing object intact. |
+| Activation | The declared coordinate menu may become a hidden checklist. | Use activation classes and inactive-coordinate non-reading: inactive coordinates are outside the claim, not passes, waivers, or hidden failures. |
+| Formal and corpus/publication | Formal and corpus/publication coordinates may become bureaucracy. | Activate them only when the target pattern or candidate edit changes those claims, entry/projection surfaces, names, relations, retrieval behavior, or corpus ecology. |
+| Merged coordinates | A merged coordinate may hide a weak subreading. | A weak live subreading limits the coordinate value; do not average subreadings. |
+| Onto/Epist | Quality terms may become generic umbrellas. | Use declared Characteristics, scales, kind-specific coordinates, and exact status values. |
+| Pragmatic | The bundle may become too heavy for ordinary pattern drafts. | Keep the one-screen card as default and add telemetry/front/archive only when live. |
+| Goodhart | The declared coordinates may become targets and displace the pattern-use value they were meant to protect. | Activate affordability/apparatus, change-impact, corpus/projection, and proxy-substitution coordinates when their cost changes admissible use; ask what got worse before stopping. |
+| Didactic | Pareto/front language may obscure the reader's first move. | Pair every technical construct with the practical question it answers. |
+
+#### E.21:6a - Architectural characteristics preserved by this pattern
+
+| Architectural characteristic | How `E.21` preserves it | Failure to prevent |
+|---|---|---|
+| Auditability & traceability | `PatternQualityQBundle` pins version, scope, evidence, status, and stop condition; `ClaimSupportTraceabilityCurrentnessAndReplayability` keeps support replayable when claim support is live. | Quality claims depending on chat memory, reviewer taste, or placement state. |
+| Evolvability | `QualificationWindow`, `refreshNeeded`, bounded non-use, optional telemetry, and `EvolutionFrontAndRefreshDiscipline` reopen only the live locus. | Whole-pattern churn after small source, neighbour, or wording changes. |
+| Modularity | `E.21` routes authoring, review, measurement, naming, evidence, assurance, gate, work, and release claims to exact neighbours. | Central quality subsystem or shadow authority. |
+| Composability | `NeighborAuthorityAndBoundedUseFit` and relation closure keep pattern-quality claims safe to compose with neighbouring patterns. | One pattern-quality read stealing another pattern's governed object. |
+| Usability | First-pass slice checks `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, and `ActionPathGuidance` before heavy apparatus. | Type-correct but inert pattern-quality control. |
+| Affordability | `UseAffordabilityAndApparatusProportionality` and activation layers keep ordinary reads light. | Review bureaucracy masquerading as quality. |
+| Measurement integrity | Ordinal coordinate readings reject averages, percentages, and hidden normalization; `FormalClaimLegalityAndLensFit` activates only when formal load is live. | Illegal scalarization of pattern quality. |
+| Goodhart resistance | Proxy-substitution checks ask what got worse when visible coordinates improved. | Rubric satisfaction replacing practical pattern-use value. |
+| Corpus ecology | `ExternalEntryAndProjectionIntegrity` and `PatternLanguageEcologyFit` activate only when entry/projection/retrieval/name/relation/corpus surfaces are changed or overread. | Local quality win that creates entry noise, stale echoes, name collisions, relation fanout, or shadow authority. |
+| Scope safety | `PatternQualityStatus` remains a pattern-quality posture only. | Overread as project assurance, safety/compliance certification, gate, release, or work authority. |
+| Checkability | Status payload, `FalsifiabilityAndLoweringCondition`, and `StopCondition` make closure falsifiable for the declared use. | "Looks good enough" without inspectable stop reason. |
+
+This table states which architectural characteristics `E.21` protects; it does not create a separate review process.
+
+### E.21:7 - Conformance Checklist
+
+| ID | Requirement | Purpose |
+|---|---|---|
+| **CC-E21-1 (No single score).** | A pattern-quality read **SHALL NOT** collapse the active characteristics into one arithmetic score, percentage, average, or hidden total order. | Preserves multi-characteristic truth and scale legality. |
+| **CC-E21-2 (Bundle scope declared).** | A `PatternQualityQBundle` **SHALL** declare `PatternVersionRef`, `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow`. | Prevents unscoped quality claims. |
+| **CC-E21-3 (Eligibility before dominance).** | The active `EligibilitySet` **SHALL** be checked before dominance, tie-breaker, or front comparison. | Prevents hard blockers from being averaged away. |
+| **CC-E21-4 (Status value set).** | The result **SHALL** use one `PatternQualityStatus` value from `E.21:4.1` or explicitly define a local extension with a narrower meaning. | Keeps outcomes portable and non-vague. |
+| **CC-E21-5 (Declared coordinates).** | The active `DominanceSet` **SHALL** name the selected characteristics and their ordinal floors. | Makes the quality space inspectable. |
+| **CC-E21-6 (Measurement legality).** | Any comparison, coordinate, threshold, or telemetry reading **SHALL** follow `C.16`, `A.17`, `A.18`, and applicable `A.19`/`C.25` discipline. | Blocks illegal scalarization and ordinal arithmetic. |
+| **CC-E21-6a (Coordinate/state separation).** | A pattern-quality read **SHALL NOT** assign coordinate values from review completion, landing state, monolith placement, release state, steward acceptance, or other administrative state. | Prevents administrative proxies from replacing content measurement. |
+| **CC-E21-7 (Neighbour authority).** | A pattern-quality read **SHALL** cite exact neighbouring FPF patterns for evidence, assurance, measurement, naming, work, gate, decision, publication, causal, bridge, release, and refresh claims when those claims are live. | Prevents shadow authority. |
+| **CC-E21-8 (SoTA load-bearingness).** | SoTA support **SHALL** state what the pattern adopts, adapts, or rejects and which `Solution`, checklist, relation, boundary, or worked case changes because of that stance. | Blocks decorative citation. |
+| **CC-E21-9 (Action guidance survives).** | If semantic or lexical repair improves type precision, the read **SHALL** check that a remaining admissible reader move still exists or that a named neighbouring pattern now carries the live claim. | Prevents type-correct but inert patterns. |
+| **CC-E21-10 (Bounded non-use).** | Remaining weaknesses **SHALL** narrow use or name a receiving pattern; they **MUST NOT** be hidden behind "later", "deferred", or vague future research language inside the pattern-quality claim. | Makes stopping honest. |
+| **CC-E21-11 (Front discipline).** | When several variants are live, the selected version **SHOULD** be on the `PatternQualityFront`; choosing a dominated variant requires an explicit reason such as legacy, regulation, or reader-continuity cost. | Preserves open-ended search without endless perfectionism. |
+| **CC-E21-12 (Apparatus fit).** | A pattern-quality read **SHALL** add front/archive/telemetry/support fields only when the live claim requires them. | Prevents bureaucracy from masquerading as quality. |
+| **CC-E21-13 (Telemetry boundaries).** | Telemetry signals **SHALL** reopen or calibrate the quality read only for the claim they can support; retrieval or review telemetry is not project certification. | Keeps evidence use scoped. |
+| **CC-E21-14 (Accepted-basis carry-through).** | Accepted basis obligations governing the pattern **SHALL** be expressed, intentionally absent, inherited, or assigned by value to a named receiving pattern or support document before claiming `admissibleForDeclaredUse`. | Prevents source loss across drafting. |
+| **CC-E21-15 (Stop condition explicit).** | A stop decision **SHALL** cite the active `StopCondition` and state whether it is satisfied for the declared scope. | Replaces "looks good enough" with an inspectable end condition. |
+| **CC-E21-16 (Cost coordinates not hidden).** | Reader, author, reviewer, maintainer, migration, evidence, neighbour-integration, entry/projection, retrieval, durable-name, relation, and corpus-ecology cost **SHALL** be active coordinates when they can change admissible use; they **SHALL NOT** be hidden as tie-breakers while live. | Prevents affordability, maintainability, entry, and corpus-ecology loss from being optimized away. |
+| **CC-E21-17 (Proxy-for-value check).** | Before a stop decision, the read **SHALL** ask what became worse after coordinate improvement; if rubric satisfaction displaces practical pattern-use value, the `DominanceSet`, status, or scope **MUST** be revised. | Blocks Goodhart substitution. |
+| **CC-E21-18 (First-pass affordability).** | A first-pass pattern-quality read **SHALL NOT** require `PatternQualityFront`, `PatternImprovementArchive`, `TelemetrySet`, full `CoordinateEvidenceRef` cards, or a complete coordinate-menu read unless the declared `ClaimScope` makes them live. | Keeps ordinary pattern evaluation usable and prevents review apparatus from becoming the first action. |
+| **CC-E21-19 (First action before control).** | A pattern-quality read **SHALL** recover the target pattern's first admissible action-guiding move from `Problem frame` and `Solution` before adding checklist, telemetry, archive, or high-assurance support. If the first move is absent or only appears in the checklist, the read may close as `repairBeforeUse` or `admissibleWithNarrowerUse`. | Prevents conformance checks and control apparatus from replacing pattern guidance. |
+| **CC-E21-20 (SoTA mutation test).** | Every live SoTA row **SHALL** state which `E.21` field, eligibility condition, coordinate, worked slice, relation, conformance item, non-use boundary, or stop/reopen condition changes because of the adopted/adapted/rejected stance. A source that changes no load-bearing text is rationale support, not SoTA binding. | Prevents decorative SoTA and keeps `SoTABindingAndCurrentness` content-bearing. |
+| **CC-E21-21 (SoTA currentness and lineage split).** | A foundational or lineage source **MAY** remain in `E.21:11`, but a current-practice claim **SHALL** either cite a current SoTA source or explicitly mark the older source as lineage only. | Prevents old standards and classic papers from masquerading as present SoTA. |
+| **CC-E21-22 (Evaluation non-certification).** | A pattern-quality evaluation **SHALL NOT** be used as safety, security, compliance, release, project assurance, or gate certification. When such a claim is live, the read **SHALL** open the exact receiving FPF pattern and state the supported and unsupported use. | Blocks audit-theatre and compliance-by-checklist overread. |
+| **CC-E21-23 (Activated retrieval evidence only).** | Retrieval, RAG, search, or misentry telemetry **SHALL** be used only when retrieval-facing pattern entry or observed misretrieval is live; it **SHALL NOT** become a universal benchmark requirement for ordinary pattern drafts. | Keeps modern retrieval evaluation useful without adding review bureaucracy. |
+| **CC-E21-24 (First-pass content slice).** | A conforming first-pass pattern-quality read **SHALL** be able to close on the smallest slice that identifies target version, reader/use/window, first admissible move evidence, activated blockers, minimal dominance coordinates, status, and next admissible repair or bounded non-use. | Keeps `E.21` usable as content guidance rather than review bureaucracy. |
+| **CC-E21-25 (Status payload).** | Every `PatternQualityStatus` **SHALL** state the exact use, scope, reader boundary, blocker, reopen trigger, or architecture-decision question that makes the status true. | Prevents status labels from becoming vague maturity tags. |
+| **CC-E21-26 (Ordinal-reading boundary).** | A coordinate value **SHALL** be treated as an ordinal content reading unless a `C.16` measurement basis is explicitly declared. | Prevents accidental pseudo-measurement. |
+| **CC-E21-27 (Claim-triggered activation).** | Coordinates and eligibility rows **SHALL** be activated by the live load of the target pattern or quality claim; inactive rows **SHALL NOT** be treated as hidden failures or waived passes. | Keeps the complete characteristic space from becoming a universal audit grid. |
+| **CC-E21-28 (Kind settlement).** | Every durable or load-bearing `E.21` head **SHALL** be classified as an existing FPF kind specialisation, local field, value set, local evidence-reference record, or scoped support construct. A head with no recovered kind **SHALL NOT** be used in a stop decision. | Prevents `E.21` from minting a parallel quality ontology. |
+| **CC-E21-29 (No gate/status overread).** | `PatternQualityStatus`, `EligibilitySet`, coordinate floors, and `StopCondition` **SHALL NOT** be described as gate passage, release status, role state, assurance level, work authority, or project approval. | Keeps `E.21`, `E.19`, `A.21`, `B.3`, and release/work patterns distinct. |
+| **CC-E21-30 (Local name-card sufficiency).** | `E.21:4.11` local name-precision cards are sufficient for ordinary `E.21` use. A full `F.18` Name Card is required only when a head is reused outside `E.21`, collides with an existing head, enters durable cross-pattern vocabulary, or changes naming authority. | Preserves naming discipline without turning ordinary pattern-quality reading into naming bureaucracy. |
+| **CC-E21-31 (Coordinate-head scope).** | Coordinate heads in `PatternQualityCharacteristicSpace` **SHALL** remain local ordinal characteristic heads for pattern-quality reads unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration promotes a specific coordinate into a measurement or broader characteristic claim. | Prevents accidental metrics, maturity dimensions, and pseudo-measurement. |
+| **CC-E21-32 (Architectural owner map).** | A conforming `E.21` read **SHALL** state or preserve the owner boundary between `E.21` and live neighbouring patterns when authoring, review, measurement, naming, evidence, assurance, gate, release, work, or project-side claims are involved. | Prevents `E.21` from becoming a central quality-governance subsystem. |
+| **CC-E21-33 (Layer activation).** | A conforming `E.21` read **SHALL** use the lowest activation layer sufficient for the declared claim. Front, archive, telemetry, and full support-card apparatus **SHALL NOT** be required for a first-pass read unless the claim makes them live. | Preserves affordability and prevents bureaucracy. |
+| **CC-E21-34 (Replayable quality read).** | A `PatternQualityQBundle` **SHALL** be replayable from its pinned pattern version, reader/use/scope/window, active eligibility rows, active coordinates, evidence refs, status payload, and stop/non-stop reason, without relying on chat memory or administrative placement state. | Preserves auditability without requiring a process log. |
+| **CC-E21-35 (No neighbour substitution).** | `E.21` **SHALL NOT** absorb the governed object of `E.8`, `E.19`, `C.25`, `C.16`/`A.17`/`A.18`/`A.19`, `F.18`/`E.10`/`A.6.P`, or project-side evidence, assurance, gate, work, and release patterns. When such a claim is live, `E.21` **SHALL** route it by value. | Preserves modularity and composability. |
+| **CC-E21-36 (Smallest live reopen).** | A refresh or telemetry signal **SHALL** reopen the smallest affected locus: source stance, neighbour relation, coordinate reading, worked case, name, eligibility row, status payload, or stop condition. The whole quality read reopens only when that local change can change status or stop. | Preserves evolvability without whole-pattern churn. |
+| **CC-E21-37 (Status is not authority).** | `PatternQualityStatus` **SHALL** remain an admissible-use posture for the pattern-quality claim and **SHALL NOT** be used as project approval/refusal, gate decision, release state, assurance level, compliance verdict, safety certificate, or work authority. | Preserves scope safety and trust calibration. |
+| **CC-E21-38 (No quality veto without content locus).** | A blocking pattern-quality finding **SHALL** name the exact activated eligibility row, coordinate, status payload, or stop-condition clause, plus content evidence and the first admissible repair or bounded non-use. | Prevents pattern-quality review from becoming reviewer authority theatre. |
+| **CC-E21-39 (Self-application closure).** | `E.21` self-application **SHALL** use the lowest sufficient activation layer and **SHALL NOT** require recursive quality bundles evaluating quality bundles. | Prevents infinite regress and keeps `E.21` usable. |
+| **CC-E21-40 (Thin echo boundary).** | ToC rows, `J.4` rows, README notes, dashboards, generated summaries, and retrieval snippets **SHALL NOT** replace the governed `PatternQualityQBundle`; they may only echo it by value and scope. | Prevents projection authority and RAG/snippet overread. |
+| **CC-E21-41 (No forced winner).** | When multiple candidates are non-dominated and no receiving action requires one selected candidate, a conforming read **SHALL NOT** force a single winner. | Preserves NQD/front discipline and blocks hidden scalarization. |
+| **CC-E21-42 (Bounded non-use as valid outcome).** | `admissibleWithNarrowerUse` **SHALL** be used when a pattern is not ordinary-use admissible but remains useful for a named narrower reader/use/scope. | Prevents unnecessary rewrite churn and preserves useful legacy/support material. |
+| **CC-E21-43 (High-value falsifiability hook).** | Coordinate values `4` or `5`, and any coordinate supporting `admissibleForDeclaredUse` or `StopCondition`, **SHALL** state a lowering condition or content discovery that would reopen or lower the read. | Makes high quality claims falsifiable without adding a full harness. |
+| **CC-E21-44 (Support retention test).** | Support material **SHALL** remain active only when the read states what quality breakage would return if that material were absent. | Prevents support material from becoming folklore, hidden authority, or permanent reader cost. |
+| **CC-E21-45 (Pattern text vs pattern application).** | `E.21` **SHALL NOT** be used to certify that a project correctly applied a pattern. It reads the quality of the pattern version; project/application claims route to exact receiving patterns. | Preserves FPF-side and project-side boundaries. |
+| **CC-E21-46 (High-assurance separation).** | High-assurance support **SHALL NOT** make the ordinary pattern body harder to use unless the ordinary use itself changes. | Keeps ordinary action guidance alive while allowing stronger support where live. |
+| **CC-E21-47 (Activation-normalized coordinates).** | `PatternQualityCharacteristicSpace` **SHALL NOT** be used as one flat always-on audit grid. Each coordinate **SHALL** state its activation class, and inactive coordinates **SHALL NOT** count as pass, waiver, or hidden failure. | Prevents characteristic bloat and hidden checklist control. |
+| **CC-E21-48 (Hard blockers stay out of dominance).** | `firstMoveRecoverability`, hard measurement illegality, shadow neighbour authority, administrative proxy use, and live mission/pillar conflict **SHALL** be treated as eligibility blockers when activated, not weak coordinate values. | Prevents hard failures from being averaged or front-compared away. |
+| **CC-E21-49 (No evidence-as-coordinate substitution).** | `CoordinateEvidenceRefs`, evidence kinds, support cards, review findings, and telemetry signals **SHALL** justify, reopen, or calibrate coordinate readings; they **SHALL NOT** become coordinates by themselves. | Keeps the quality space about pattern properties, not support artefact volume. |
+| **CC-E21-50 (No hidden double weighting).** | When two quality concerns are strongly coupled, the pattern **SHALL** either merge them into one coordinate with explicit subreadings or explain why the two coordinates can fail independently and require different repairs. | Prevents the number of coordinate rows from acting like a hidden weighting scheme. |
+| **CC-E21-51 (Formal-claim activation).** | Measurement, score, comparison, threshold, aggregation, mathematical-lens, causal-lens, QL-lens, simulation, representation, or learned-lens checks **SHALL** activate `FormalClaimLegalityAndLensFit`; absence of such a claim **SHALL NOT** create an ordinary coordinate obligation. | Prevents ordinary pattern reads from becoming formal-method bureaucracy. |
+| **CC-E21-52 (Projection and corpus activation).** | External entry, publication projection, retrieval, RAG, dashboard, durable-name, relation, or corpus-ecology coordinates **SHALL** activate only when the target pattern or candidate edit changes those surfaces or is known to be misentered or overread through them. | Keeps corpus safety without universal projection bureaucracy. |
+| **CC-E21-53 (High-value lowering condition).** | Coordinate values `4` or `5`, `admissibleForDeclaredUse`, and stop claims **SHALL** state a concrete lowering or reopen condition unless the declared use is only first-pass repair triage. | Makes strong pattern-quality claims falsifiable without requiring a test harness. |
+
+### E.21:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Why it fails | Repair |
+|---|---|---|---|
+| **Quality score illusion** | `Pattern quality = 87/100`. | Hides ordinal scale differences, hard blockers, and trade-offs. | Publish a `PatternQualityQBundle` with eligibility, coordinates, status, and stop condition. |
+| **Administrative proxy quality** | `FormalClaimLegalityAndLensFit = 3 because not yet externally reviewed` or `CaseCountercaseAndTransferCoverage = 4 because already landed`. | Measures process state instead of the pattern property being claimed. | Score the coordinate from the pattern text and content evidence; put review, landing, release, or monolith state in `ClaimScope`, `QualificationWindow`, or the receiving review/release pattern. |
+| **Template-complete but inert** | All sections exist, but the reader cannot tell what to do first. | E.8 form is being mistaken for action guidance. | Repair `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, and `ActionPathGuidance`; repair Problem frame and Solution. |
+| **Checklist-as-solution** | The conformance checklist carries the main method. | The checklist tests guidance; it does not replace guidance. | Move action guidance into `Solution`; make CC items test it. |
+| **Decorative SoTA shelf** | Sources are listed but the pattern would read the same without them. | SoTA has no load-bearing effect. | State adopt/adapt/reject and change a live boundary, example, relation, or checklist. |
+| **Lexical polishing without kind recovery** | Terms sound cleaner but kind/relation/support load remains ambiguous. | The repair is lexical, not ontological. | Repair `SemanticKindAndNameRecoverability`; run `F.18 -> A.6.P -> E.10` when durable or cross-pattern names are live. |
+| **Apparatus maximalism** | Every draft gets telemetry, archive, review cards, and support files. | Reader and maintainer cost rises without added admissible use. | Use the one-screen card unless consequence or reuse makes heavier support live. |
+| **All-high-values Goodharting** | Every visible coordinate is marked `4` or `5`, but the pattern is harder to read, costlier to maintain, or less useful in the declared ordinary case. | The coordinate set became a proxy target and stopped measuring full pattern-use value. | Activate `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `ProxyForValueSubstitutionResistance`; narrow to high-assurance use if the extra apparatus is only justified there. |
+| **Cost-hidden tie-breaker** | Reader, author, maintainer, entry/projection, retrieval, relation, or corpus-ecology cost is treated only as a tie-breaker while it changes admissible use. | A live quality loss is being kept outside the dominance relation. | Promote the cost question into `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, `ExternalEntryAndProjectionIntegrity`, `PatternLanguageEcologyFit`, `ProxyForValueSubstitutionResistance`, or another active coordinate. |
+| **One-domain breadth claim** | The pattern claims transdisciplinary reach with only IT or ML examples. | Example breadth does not support claim breadth. | Repair `CaseCountercaseAndTransferCoverage` or narrow the claim. |
+| **Endless perfection loop** | Authors keep improving because a better wording is always imaginable. | Open-ended evolution lacks a local stop condition. | Stop when eligibility passes, the candidate is non-dominated for scope, floors are met, and remaining issues are bounded non-use or a named receiving pattern; use `EvolutionFrontAndRefreshDiscipline` plus `ClosureAndBoundedNonUseRecoverability` to keep the stop local. |
+| **Quality veto theatre** | A reviewer blocks use with phrases such as "not ready", "low quality", "not FPF enough", or "needs more review", but does not name an activated eligibility row, coordinate, content evidence, status payload, and first admissible repair or bounded non-use. | The quality read is being used as authority pressure rather than content guidance. | Rewrite the veto as a pattern-quality finding using `E.21:4.10a`, or remove it from the quality read. |
+| **Reviewer preference laundering** | A stylistic, political, ownership, or process preference is encoded as low `ActionPathGuidance`, `SoTABindingAndCurrentness`, `SemanticKindAndNameRecoverability`, or another coordinate without content evidence. | A preference is being laundered into a pattern-quality defect. | Move the preference to the correct neighbouring decision/process locus, or state the actual content defect. |
+| **Projection-quality shadow track** | A ToC row, J.4 cue, dashboard tile, status badge, generated summary, or retrieval snippet restates the quality result without scope, status payload, non-use boundary, or source read ref. | A projection is becoming a second semantic track or authority face. | Activate `ExternalEntryAndProjectionIntegrity`; make the projection a thin echo by value and scope, or route to the exact publication/projection pattern. |
+| **Corpus-local win, pattern-language loss** | A local pattern edit improves wording or evidence but increases relation fanout, name collision, entry noise, stale echoes, or neighbouring authority confusion. | Local quality improved while FPF corpus ecology degraded. | Activate `PatternLanguageEcologyFit`; narrow the edit, route the receiving claim, or repair the entry/name/relation surface. |
+| **Quality result as project certificate** | A clean pattern-quality read is cited as product safety, compliance, release, or assurance evidence. | Pattern quality is not project-world truth. | Open `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, or another exact receiving pattern for the project-side claim. |
+| **Evidence theatre** | The pattern adds evidence refs, review findings, telemetry, or support cards, but none of them changes a coordinate value, boundary, worked case, or stop condition. | Support material is being used as authority decoration. | Remove it or state the exact coordinate/status/stop effect it supports. |
+| **Legacy flattening** | An older pattern that remains useful as source-basis, historical rationale, or expert-only support is forced into ordinary-use repair instead of narrowing its use honestly. | The quality read treats "not ordinary-use admissible" as "worthless". | Use `admissibleWithNarrowerUse`, state the support-only or historical use, and route broader use to repair or replacement. |
+| **Narrow-use hiding** | A pattern cannot serve ordinary use, but the quality read still claims broad `admissibleForDeclaredUse`. | A real scope narrowing is hidden to preserve a stronger status label. | Change status to `admissibleWithNarrowerUse` and state the narrowed reader, use, or scope. |
+
+### E.21:9 - Consequences
+
+| Benefits | Trade-offs / mitigations |
+|---|---|
+| Pattern quality becomes inspectable without fake precision. | Authors must name scope and active coordinates; the one-screen card keeps ordinary cost low. |
+| Review findings can distinguish hard blockers from optimization trade-offs. | Some drafts will receive `holdForArchitectureDecision`; this is useful when prose repair would hide architecture debt. |
+| Stop decisions become less taste-based and less perfectionist. | Pareto/front reasoning is heavier than a score; use it only when several candidates or trade-offs are live. |
+| SoTA, examples, and neighbour relations become quality-bearing loci. | Reviewers must read beyond headings; `E.19` already selects depth where risk is live. |
+| Pattern improvement aligns with NQD/OEE without forcing one winner prematurely. | The selected front/archive should remain small and scoped to the pattern-quality question. |
+| Activation-normalized coordinates make it harder to raise visible values by adding bureaucracy. | Authors must keep blockers, overlays, evidence/support mechanisms, and coordinates separate; the benefit is that a higher coordinate value cannot silently mean a harder first-use path, stale projection, or corpus-local win with pattern-language loss. |
+| Merged coordinates reduce hidden double weighting. | A weak live subreading limits the coordinate value; do not average subreadings to hide a missing first-use, support, affordability, formal-legality, or corpus-ecology concern. |
+
+### E.21:10 - Rationale
+
+FPF patterns are not essays, APIs, step lists, or generic best-practice notes. They are action-guiding method descriptions for recurring working situations. Their quality therefore cannot be read from style, section count, one score, or one flat audit grid.
+
+`C.25` already shows why composite quality claims need bundles. `C.16`, `A.17`, and `A.18` show why measured values require declared characteristics and scales. `A.19` shows why multi-coordinate reasoning needs a declared characteristic space. `F.18` and NQD/front discipline show why several viable candidates can remain non-dominated. `E.12` and `E.13` show why usability, cognitive ergonomics, practical utility, and proxy-for-value substitution must remain quality-bearing rather than administrative afterthoughts. `E.19` shows why review should use triggered profiles rather than one giant checklist.
+
+The characteristic space is activation-normalized because FPF pattern quality is read from the live claim made by the pattern version. A first-pass ordinary-use read needs entry, first move, action path, bounded non-use, and a small support surface; a formal-claim read also needs legality of measurement, comparison, mathematical lens, causal lens, quantum-like lens, simulation, representation, or learned model; a publication or retrieval-facing read also needs entry/projection integrity and corpus-ecology fit. Treating every coordinate as always active would turn `E.21` into hidden checklist control.
+
+The coordinate set also avoids hidden double weighting. Concerns that usually fail and repair together are merged with explicit subreadings; a weak live subreading limits the coordinate value instead of being averaged away. Concerns that fail independently remain separate because their repair moves differ: action path is not closure, semantic/name recovery is not neighbour authority, claim support is not project assurance, and local pattern quality is not corpus ecology.
+
+`E.21` applies existing FPF architecture to pattern quality. It gives authors a way to say: this version is admissible for this use, under these active coordinates, with these hard blockers cleared, and these remaining weaknesses bounded. That is stronger than "good enough" and lighter than pretending every pattern needs a universal maturity score.
+
+### E.21:11 - SoTA-Echoing
+
+`E.21:11` is a SoTA-binding table, not a bibliography. A row is live only when it changes at least one `E.21` field, eligibility condition, coordinate, worked slice, relation, conformance item, non-use boundary, or stop/reopen condition.
+
+If a `SoTA Synthesis Pack@CG-Frame` exists for pattern-quality evaluation, this section cites its claim IDs and does not fork an untracked SoTA narrative. If no pack exists, this section is a provisional seed and must still state `adopt | adapt | reject`, the concrete `E.21` effect, and the boundary of non-overread.
+
+A source that only supports lineage, popularity, or familiar terminology is not a SoTA row. It may remain as rationale support, but it does not satisfy `SoTABindingMinimum`.
+
+| Claim | Source stance | Adopted/adapted content | Concrete E.21 effect | Boundary of non-overread |
+|---|---|---|---|---|
+| Pattern-quality evidence must show applicability and generality without making ordinary reading heavy. | Riehle et al. (2021) are adopted for explicit pattern validation methods; Zarras (2023) is adopted for applicability/generality evidence; Iba (2021) is retained only as writing-style support. | Pattern claims need explicit discovery or validation support rather than informal consensus, and examples must show how use is done in practice without turning every description into a tiring dossier. | `CaseCountercaseAndTransferCoverage`, `CoordinateEvidenceRefs`, and the first-pass slice require at least one usable application slice and, where broad scope is claimed, heterogeneous or known-use support. | This does not require controlled studies, long empirical packages, or known-use sections for every small FPF edit; ordinary first-pass remains lightweight. |
+| Living pattern-quality reads need currentness windows and section-level reopen triggers, not whole-pattern churn. | Akl et al. (2017) living guidelines are adopted and adapted; Page et al. (2021) PRISMA 2020 is used only for transparent reporting of review/update basis. | The currentness unit is the live claim, coordinate, source stance, relation, or worked case, not automatically the whole pattern. | `QualificationWindow`, `refreshNeeded`, `SoTAStalenessSignals`, `CoordinateEvidenceRefs`, `ClaimSupportTraceabilityCurrentnessAndReplayability`, and `EvolutionFrontAndRefreshDiscipline` state what makes the read current and what can reopen it. | This does not import systematic-review or clinical-guideline workflow as mandatory apparatus for ordinary FPF pattern drafts. |
+| Multi-characteristic improvement should preserve non-dominated alternatives and useful diversity instead of forcing one winner. | MAP-Elites and the 2016 QD survey are retained as lineage; CMA-ME/CMA-MAE, differentiable QD, and QDax-class accelerated QD practice are adopted only for the set-valued/front/archive idea. | Quality-diversity practice keeps diverse high-performing alternatives rather than collapsing to one scalar winner. | `PatternQualityFront`, `PatternImprovementArchive`, and `TieBreakerSet` keep viable candidate edits visible under a declared scope, while ordinary use remains first-pass and non-algorithmic. | No QD algorithm, grid, emitter policy, hardware stack, or library workflow becomes mandatory for pattern review. |
+| Coordinate improvement can destroy the value the coordinates were meant to protect. | Manheim and Garrabrant (2018) are adopted for distinguishing Goodhart/proxy-overoptimization failure modes; internal `E.12` and `E.13` remain the FPF receiving support. | Overoptimization by a metric or proxy can become ineffective or harmful, and mixed Goodhart mechanisms need exact naming rather than broad "metric failure" prose. | `ProxyForValueSubstitutionResistance` becomes a load-bearing coordinate; before stop, the read asks what got worse in first-use cost, repair-impact predictability, neighbour ripple, bounded non-use, practical payoff, entry/projection integrity, or corpus ecology. | This does not make `E.21` an adoption forecast, economics model, or project-value estimator. |
+| Pattern-quality evaluation must not become safety, security, compliance, or release certification. | AI evaluation-limit literature, UK AI Safety Institute evaluation guidance, and related governance work are adopted only for the non-overread boundary: evaluations can support claims but do not prove absence of risk or certify the project world. | Evaluations are useful, but evaluation alone is not sufficient for effective governance, real-world safety, or absence-of-risk claims. | `NeighborAuthorityAndBoundedUseFit`, `ClaimSupportTraceabilityCurrentnessAndReplayability`, `supportBoundaryEvidence`, and `PatternQualityStatus` route project-side evidence, assurance, gate, release, work, safety, security, and compliance claims to exact receiving patterns. | This rejects compliance-by-checklist, audit theatre, and "review passed therefore safe/compliant" readings. It does not import AI-safety governance machinery into ordinary pattern-quality reading. |
+| Pattern-quality stop decisions must keep perspective, resource cost, feasibility, acceptability, and equity or differential impact visible when they change admissible use. | GRADE Evidence-to-Decision practice is adapted for explicit decision perspective and resource/feasibility/acceptability/equity-impact criteria. | Resource use, cost, feasibility, acceptability, equity, and differential impact can legitimately change a recommendation or admissible use. | `WorkingReaderScope`, `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `StopCondition` treat cost and differential reader/practice impact as quality evidence when they change ordinary use. | This does not import clinical guideline panels, medical evidence grading, population-health policy machinery, or project-side impact assessment into FPF pattern review. |
+| Retrieval-facing pattern quality needs component-level evidence, not one search-success score. | RAGAS and ARES are adopted only for the multi-dimensional retrieval-facing evaluation stance: context relevance, support/faithfulness, answer relevance, and component evidence. | Retrieval/RAG evidence distinguishes whether the right context is found, whether the answer is faithful to support, and whether the answer is relevant. | `retrievalHitQuality`, `coldReaderMisentryRate`, `ExternalEntryAndProjectionIntegrity`, `PatternLanguageEcologyFit`, and `CoordinateEvidenceRefs` may use tiny retrieval fixtures only when retrieval-facing entry, projection, or observed misretrieval is live. | This does not require universal RAG benchmarks or LLM evaluation harnesses for ordinary pattern drafts. |
+| Measurement and bundle discipline should be internal to FPF rather than imported as a rival framework. | Current FPF `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `E.8`, `E.19`, and `F.18` are adopted internally. | Existing FPF already has Characteristic/Scale, Q-Bundle, review, and naming machinery. | `E.21` composes those patterns and adds the missing pattern-quality receiving locus. | `E.21` does not replace the neighbouring patterns it cites. |
+
+### E.21:12 - Relations
+
+| Neighbour | Neighbour owns | `E.21` may use | `E.21` shall not do |
+|---|---|---|---|
+| `E.8` | Pattern authoring body and action-guiding structure. | Read whether the body supports declared pattern-quality use. | Add mandatory authoring sections or move Solution guidance into the quality bundle. |
+| `E.19` | Review profiles, findings, admission/refresh outcome. | Use findings as content evidence when they identify pattern-content defects or strengths. | Treat review pass, return, or absence as a coordinate value or project certificate. |
+| `C.25` | General Q-Bundle normal form. | Specialise Q-Bundle for FPF pattern quality. | Replace arbitrary engineering quality-family bundling. |
+| `A.17`/`A.18`/`A.19`/`C.16` | Characteristic, scale, coordinate, measurement legality. | Use ordinal content readings and cite measurement law when live. | Convert ordinal readings into metrics, scores, percentages, or averages. |
+| `F.18`/`E.10`/`A.6.P`/`E.10.SEMIO` | Naming, lexical, relation, semantic recovery. | Require recoverable kind, relation, and admissible use for load-bearing heads. | Mint durable cross-pattern names by convenience. |
+| `A.10`/`B.3`/`A.20`/`A.21`/`A.15` | Project evidence, assurance, local CV status, gates, work. | Route project-side reuse to exact receiving patterns. | Certify project safety, compliance, gate passage, release, work authority, or publication truth. |
+
+**Coordinates with `E.11` and `J.4`.**
+`E.21` is the governing pattern when the live question is: "Is this FPF pattern version good enough for this declared reader/use/scope, and may improvement stop?"
+
+`E.21` is not the first entry when the live question is only:
+
+* how to write the pattern body (`E.8`);
+* which admission/refresh review profile to run (`E.19`);
+* how to repair entry discoverability or wrong-pattern selection (`E.11`);
+* how to route overloaded quality language generally (`A.6.Q` / `C.25`).
+
+If `E.21` changes `Preface`, `J.4`, ToC query rows, local Problem-frame recognition cues, or retrieval-facing entry support, the entry-facing effect remains governed by `E.11`; `E.21` only supplies the pattern-quality claim.
+
+**Builds on:**
+
+* `E.1` and `E.2` for mission and pillar fit.
+* `E.8` for pattern authoring structure, recognition text, action guidance, and SoTA-Echoing obligations.
+* `E.19` for review and refresh profiles.
+* `C.25` for Q-Bundle normal form.
+* `C.16`, `A.17`, `A.18`, and `A.19` for characteristic, scale, coordinate, measurement, and characteristic-space discipline.
+* `F.18`, `E.10`, and `A.6.P` for naming, lexical, and kind-explicit precision.
+
+**Coordinates with:**
+
+* `E.10.SEMIO` when semantic repair touches load-bearing Problem frames, recognition text, examples, or worked slices; an `E.21` quality read treats semantic repair as incomplete when no remaining admissible reader move or exact neighbouring-pattern handoff survives.
+* `E.12`, `E.13`, and `E.14` for cognitive ergonomics, pragmatic utility, Goodhart/proxy checks, and human-centric working-model checks.
+* `C.18`, `C.19`, and related NQD/OEE patterns when candidate fronts or search/archive constructs are live.
+* `G.11` when telemetry-driven refresh or decay is live.
+* `A.10`, `B.3`, `A.20`, `A.21`, and `A.15` when a pattern-quality result is reused as evidence, assurance, local CV status, gate decision support, or work authority.
+
+**Constrains:**
+
+* Any FPF pattern-quality read that would otherwise use a single score, unscoped maturity label, or reviewer-taste verdict.
+* Any pattern drafting or review stop decision that claims the current version is good enough for a declared use.
+
+### E.21:End
+
 # **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 
 # Cluster F.I — Context of Meaning and Lexical Inputs
@@ -75181,54 +78852,57 @@ Each worked entry reading keeps recoverable:
 ## J.4 - First Practical Entry Neighborhood Index
 
 This index is informative navigation only.
-It helps one reader compare plausible first pattern entries under one live
-entry load. It is not one route table, not one workflow, not one learning syllabus,
-and not one pattern-local recognition role. It is one compact comparison of
-nearby starting points.
+It helps one practitioner compare plausible first pattern entries under one live
+entry question. It is not one universal lookup table, not one required sequence, not one
+learning syllabus, and not one pattern-local recognition role. It is one
+compact comparison of nearby starting points.
 
 Plain reading: choose by what you are really trying to decide, not by document
 order. A row names first patterns to inspect, plausible wrong first stops, and
-where entry can stop without pretending there is a required workflow.
+where entry can stop without pretending there is a required ordered sequence.
 
 Plain column key: entry neighborhood = nearby starting-point cluster; first
-honest entry load = what you are really trying to decide or stabilize; candidate
-patterns = first patterns to inspect; admissible entry stop = enough to proceed
-without pretending there is a workflow.
+honest entry question = what you are really trying to decide or stabilize; first patterns
+to inspect = patterns to inspect first; admissible entry stop = enough to proceed
+without pretending there is a required ordered sequence.
 
-| Entry neighborhood | First honest entry load or case signal | Candidate patterns | Nearby patterns and entry-load reclassifications | First admissible entry stop | Not this entry when | Worked reading and lexical-query support |
+This table helps recover the governing pattern or verify the preceding guidance. It does not replace the pattern's Solution and does not create a required sequence.
+
+| Entry neighborhood | First honest entry question or case signal | First patterns to inspect | Nearby patterns and entry-question reclassifications | First admissible entry stop | Not this entry when | Worked reading and lexical-query support |
 | --- | --- | --- | --- | --- | --- | --- |
-| Project alignment | "We keep mixing responsibilities, working method, plans, and what actually happened." | `A.1.1`; `A.15`; `A.15.2`; `A.15.3`; `B.5.1` | `F.11` when method vocabulary or work vocabulary is itself unstable; `F.9` when bridge discipline is live; `F.17` as a typical vocabulary-stabilizing output | the right alignment pattern is opened, or a first shared work/term form is stable enough to proceed | not when the live entry load is already comparison, boundary claim routing, or SoTA/generator scaffold design | `I.2.1` gives compact-index-only posture; ToC cues stay sparse |
-| Partly-said cue and language-state discovery | "Something important is there, but it is too early to publish as a settled claim, requirement, or work record." | `C.2.LS`; `A.16`; `A.16.1`; `A.16.2`; `B.4.1`; `B.5.2.0` | endpoint claim, action, or quality patterns become candidates only after the cue is mature enough | cue preserved, language-state cue typed, or entry plurality opened without endpoint hardening | not when the claim is already stable enough for a L/A/D/E-classified boundary claim set or endpoint record | `I.2.2` worked reading; lexical cues may mention "vague cue", "not yet a claim" |
-| Boundary unpacking and claim decomposition | "A contract, API, protocol, SLA, acceptance, or compliance sentence mixes law, gate, duty, evidence, or action." | `A.6`; `A.6.B`; `A.6.C` | `A.6.RSIG` if first-contact recognition of the boundary description is still live; `A.6.P`, `A.6.Q`, `A.6.A` when relation, quality, or action wording is live | boundary claim pattern opened, or an L/A/D/E-classified atomic claim set or Claim Register is ready for the next governing FPF pattern | not when the phrase is only a partly-said cue, or when a full L/A/D/E-classified claim set already exists | `I.2.3` worked reading; ToC cues should not turn API wording into generic contract authority |
-| Admissible comparison, candidate-pool policy, selection, and selected-set publication | "We need comparison, a shortlist, a live pool, a call-planning distinction, or a selected set without forcing one winner too early." | `A.19:0`; `A.17-A.19`; `A.19.CN`; `C.18`; `C.19`; `G.0`; `G.5` | `C.11` when the entry load narrows to one local decision doctrine; `C.24` when the next honest C.24 object is `CallPlan` or `CheckpointReturn`; `A.19.CPM` and `A.19.SelectorMechanism` when comparator/selector structure is live | candidate-pool policy, comparison substrate, local choice, call-plan, or selected-set publication pattern identified honestly | not when a selector mechanism or selected-set publication pattern is already settled elsewhere | `I.2.4` worked reading; lexical cues may include "shortlist not winner" and "acceptable option set" |
-| Generator, SoTA, or portfolio kit | "The work is to publish a reusable search, harvest, generator, selector, or portfolio scaffold, not one recommendation." | `A.0`; `G.0`; `G.1`; `G.2`; `G.5` | `B.5.2.1` and `C.17-C.19` when creative search, novelty, or explore/exploit policy is already central; `G.10` or `G.11` when shipping or refresh is live | kit or scaffold entry load opened, or portfolio or set publication pattern identified | not when the entry load is only one local comparison or one one-off recommendation | `I.2.5` gives compact-index-only posture unless repeated misclassification makes depth necessary |
-| Same-entity rewrite, explanation, and comparative reading | "We need to restate, explain, render, repair, or compare the same claim-bearing `PublicationUnit` without quietly changing what it is about." | `A.6.3.CR`; `A.6.3.RT`; `E.17.EFP`; `E.17.ID.CR` | `E.17.AUD.LHR` and `E.17.AUD.OOTD` when pressured-head repair or `PublicationUnit` stability is live | same-entity rewrite, representation transition, explanation-facing rendering, or bounded comparative reading opened | not when the entry load is one new `U.Episteme`, new rule track, or independent `PublicationUnit` | `I.2.6` worked reading; ToC cues should include "same unit, different audience" |
-| Temporal claim adequacy under effort, window, and resistance | "This should speed up, slow down, recover sooner, stabilize, keep cadence, or improve throughput under a changed effort, tool-use, rollout, or policy." | `C.27`; `C.16` when only measurement is live; `A.3.3` when reusable transition law or formal model is live | `B.1.4`, `B.1.6`, `C.18.1`, `C.19`, `C.22.1`, `C.24`, `C.25`, `C.26`, `C.26.3`, or `G.9` as the other question requires | ordinary prose, Dyn0, Dyn1 with `C.16` when measurement construction or comparability is live, `Dyn2TemporalClaimAdequacyCard`, `Dyn2TemporalClaimProfile`, or a named neighboring FPF pattern relation | not when the phrase is only a speed metaphor, one state reading or snapshot, one measured rate, a service promise, a benchmark harness, or a residual QL cue without an intervention-sensitive temporal claim | `I.2.7` state-to-rate-to-Dyn2 worked reading; lexical cues: speed, velocity, rhythm, cadence, throughput, recovery, braking, stabilization |
-| Causal-use and counterfactual-support repair | "We want to say this caused that, this intervention would work, this policy would have prevented harm, this fairness result is causal, or this method is better on a counterfactual benchmark." | `C.28`; `A.10`; `B.3`; `D.5`; `G.5`; `G.9` | `C.16` when only a metric, score, or reading is live; `C.27` when only state, rate, or intervention-sensitive temporal adequacy is live; `C.26` when the phrase is only a residual quantum-like modeling cue; `A.15` or `A.3.2` when the question is only method, work-plan, or work-occurrence structure; `A.6` when a mixed causal/deontic boundary sentence must be split | causal-use triage/card names rung, claim kind, estimand, support basis, support verdict, supported use, and unsupported use; or the wording is downgraded to association, metric, temporal, simulation-only, QL, method, work-plan, work-occurrence, or boundary-claim support | not when the sentence only records observed association, one measured metric, one process execution, one schedule, one boundary duty, or one simulation trace with no causal-use claim | `I.2.8` worked reading; lexical cues: caused, would have prevented, effect, intervention, counterfactual, target trial, policy optimality, causal fairness, causal evidence, counterfactual data, method improves |
+| Project alignment | "We keep mixing responsibilities, working method, plans, and what actually happened." | `A.1.1`; `A.15`; `A.15.2`; `A.15.3`; `B.5.1` | `F.11` when method vocabulary or work vocabulary is itself unstable; `F.9` when bridge discipline is live; `F.17` as a typical vocabulary-stabilizing output | the right alignment pattern is opened, or a first shared work/term form is stable enough to proceed | not when the live entry question is already comparison, boundary-claim placement, or SoTA/generator scaffold design | `I.2.1` gives compact-index-only posture; ToC cues stay sparse |
+| Partly-said cue and language-state discovery | "Something important is there, but it is too early to publish as a settled claim, requirement, or work record." | `C.2.LS`; `A.16`; `A.16.1`; `A.16.2`; `B.4.1`; `B.5.2.0` | endpoint claim, action, or quality patterns become first patterns to inspect only after the cue is mature enough | cue preserved, language-state cue typed, or entry plurality opened without endpoint hardening | not when the claim is already stable enough for a L/A/D/E-classified boundary claim set or endpoint record | `I.2.2` worked reading; lexical cues may mention "vague cue", "not yet a claim" |
+| Boundary unpacking and claim decomposition | "An agreement, API, protocol, SLA, acceptance, or compliance sentence mixes law, gate, duty, evidence, or action." | `A.6`; `A.6.B`; `A.6.C` | `A.6.RSIG` if first-contact recognition of the boundary description is still live; `A.6.P`, `A.6.Q`, `A.6.A` when relation, quality, or action wording is live | boundary claim pattern opened, or an L/A/D/E-classified atomic claim set or Claim Register is ready for the next governing FPF pattern | not when the phrase is only a partly-said cue, or when a full L/A/D/E-classified claim set already exists | `I.2.3` worked reading; ToC cues stay claim-bound and do not turn API wording into promise content, commitment, duty, evidence relation, or gate authority |
+| Architecture vs diagram/module/model | "We have an architecture, module diagram, ports, functional architecture, TGA graph, LCA stack, or cross-scope architecture conflict, but we are not sure what object the description is about." | `C.30` for general architecture-artifact confusion or a first architecture claim | `C.30.ASV` when a structural view is live; `C.30.TGA-FLOW-REL` and `E.18` when flow graph support is live; `C.30.LCA` when control structure is live; `A.6.F` when function wording is live; `C.30.ILC` when cross-scope residual is live | architecture question card, then the one nearby note, repair, relation, view, or triage record whose trigger is live | not a required sequence, not a list of all structure kinds, and not when the phrase is only an ordinary label or only evidence/assurance/gate support | Worked cues: "we have architecture"; "ports line up"; "the graph showed clusters"; "LCA proves safety"; "optimization at component scope breaks the wider system" |
+| Admissible comparison, candidate-pool policy, selection, and selected-set publication | "We need comparison, a shortlist, a live pool, a call-planning distinction, or a selected set without forcing one winner too early." | `A.19:0`; `A.17-A.19`; `A.19.CN`; `C.18`; `C.19`; `G.0`; `G.5` | `C.11` when the entry question narrows to one local decision doctrine; `C.24` when the next honest C.24 object is `CallPlan` or `CheckpointReturn`; `A.19.CPM` and `A.19.SelectorMechanism` when comparator/selector structure is live | candidate-pool policy, comparison substrate, local choice, call-plan, or selected-set publication pattern identified honestly | not when a selector mechanism or selected-set publication pattern is already settled elsewhere | `I.2.4` worked reading; lexical cues may include "shortlist not winner" and "acceptable option set" |
+| Generator, SoTA, or portfolio scaffold | "The work is to publish a reusable search, harvest, generator, selector, or portfolio scaffold, not one recommendation." | `A.0`; `G.0`; `G.1`; `G.2`; `G.5` | `B.5.2.1` and `C.17-C.19` when creative search, novelty, or explore/exploit policy is already central; `G.10` or `G.11` when shipping or refresh is live | generator or scaffold entry question opened, or portfolio or set publication pattern identified | not when the entry question is only one local comparison or one one-off recommendation | `I.2.5` gives compact-index-only posture unless repeated misclassification makes depth necessary |
+| Same-entity rewrite, explanation, and comparative reading | "We need to restate, explain, render, repair, or compare the same claim-bearing `PublicationUnit` without quietly changing what it is about." | `A.6.3.CR`; `A.6.3.RT`; `E.17.EFP`; `E.17.ID.CR` | `E.17.AUD.LHR` and `E.17.AUD.OOTD` when pressured-head repair or `PublicationUnit` stability is live | same-entity rewrite, representation transition, explanation-facing rendering, or bounded comparative reading opened | not when the entry question is one new `U.Episteme`, new rule track, or independent `PublicationUnit` | `I.2.6` worked reading; ToC cues include "same unit, different audience" |
+| Temporal claim adequacy under effort, window, and resistance | "This should speed up, slow down, recover sooner, stabilize, keep cadence, or improve throughput under a changed effort, tool-use, rollout, or policy." | `C.27`; `C.16` when only measurement is live; `A.3.3` when reusable transition law or formal model is live | `B.1.4`, `B.1.6`, `C.18.1`, `C.19`, `C.22.1`, `C.24`, `C.25`, `C.26`, `C.26.3`, or `G.9` as the other question requires | ordinary prose, Dyn0, Dyn1 with `C.16` when measurement construction or comparability is live, `Dyn2TemporalClaimAdequacyCard`, `Dyn2TemporalClaimProfile`, or a named neighboring FPF pattern relation | not when the phrase is only a speed metaphor, one state reading or snapshot, one measured rate, an external promise, a benchmark harness, or a residual QL cue without an intervention-sensitive temporal claim | `I.2.7` state-to-rate-to-Dyn2 worked reading; lexical cues: speed, velocity, rhythm, cadence, throughput, recovery, braking, stabilization |
+| Causal-use and counterfactual-support repair | "We want to say this caused that, this intervention would work, this policy would have prevented harm, this fairness result is causal, or this method is better on a counterfactual benchmark." | `C.28`; `A.10`; `B.3`; `D.5`; `G.5`; `G.9` | `C.16` when only a measurement result, score, or reading is live; `C.27` when only state, rate, or intervention-sensitive temporal adequacy is live; `C.26` when the phrase is only a residual quantum-like modeling cue; `A.15` or `A.3.2` when the question is only method, work-plan, or work-occurrence structure; `A.6` when a mixed causal/deontic boundary sentence is split | causal-use triage/card names causal-use position, claim kind, estimand, support basis, support verdict, supported use, and unsupported use; or the wording is downgraded to association, measurement result, temporal, simulation-only, QL, method, work-plan, work-occurrence, or boundary-claim support | not when the sentence only records observed association, one measurement result, one work occurrence, one schedule, one boundary duty, or one simulation trace with no causal-use claim | `I.2.8` worked reading; lexical cues: caused, would have prevented, effect, intervention, counterfactual, target trial, policy optimality, causal fairness, causal evidence, counterfactual data, method improves |
+| Pattern-quality stop, repair, and non-scalar improvement | "We have a pattern draft or update, but we are arguing whether it is good enough, what still blocks use, or whether improvement can stop without turning quality into one score." | `E.21`; `E.19`; `E.8`; `C.25`; `A.6.Q` | `C.16`/`A.17-A.19` when measurement or characteristic legality is live; `F.18` when durable naming is live; `E.10.SEMIO` when semantic repair changes recognition or action guidance; `E.17.AUD` when publication/projection stability is live; project-side evidence, assurance, gate, work, or release patterns when pattern quality is being overread as project approval | scoped `PatternQualityQBundle` names pattern version, reader/use/window, activated blockers/coordinates, status, stop or first repair; or the wording is downgraded to authoring, review, naming, measurement, publication, or project-side support | not when the live question is only how to author an `E.8` body, run an `E.19` review profile, declare a generic measurement/characteristic space, or certify a project/application result | Worked cues: "quality 87/100"; "good enough to land"; "first move missing"; "review passed therefore safe"; lexical cues: pattern quality, stop condition, quality score, Goodhart, administrative proxy quality, first admissible move |
+
 
 Rows are for likely first practical entries, common wrong first guesses, or
 public/retrieval-facing entry points. A pattern does not need a `J.4` row merely
-because it exists.
-Index maintainers update a row when the pattern becomes a practical entry point
-or its first-pattern choice changes; ordinary pattern authors only need the
-pattern's own `Problem frame` and any live wrong-pattern boundary to be clear.
-
-A `J.4` row usually stays bounded: `3-6` candidate patterns, `1-3` nearby or
+because it exists. A row belongs here only when the pattern is a practical entry
+point or when its first-pattern choice commonly changes. The pattern text itself
+still needs its own `Problem frame` and any live wrong-pattern boundary to be clear.
+A `J.4` row usually stays bounded: `3-6` first patterns to inspect, `1-3` nearby or
 reclassification cues, one short not-this-entry sentence, and one short admissible
 entry-stop phrase. The row remains compact enough to read in one pass and
-specific enough not to smuggle workflow.
+specific enough not to smuggle a required ordered sequence.
 
 `J.4` remains the compact projection role for these rows. It does
-not become the applicable governing pattern body for the entry loads or relations it points to. If a
+not become the applicable governing pattern body for the entry questions or relations it points to. If a
 referenced pattern's own `Problem frame` does not expose its use situation, the
-pattern itself remains under-authored. If a row cannot stay compact, the depth
+pattern itself remains under-specified. If a row cannot stay compact, the depth
 belongs in `I.2`.
 
 ### J.4:End
-
 # **Part K  – Lexical debt**
 
 ## Mandatory replacement map for measurement terms
+
 
 > **Rule:** In all **normative** content (specifications, data schemas, etc.), the deprecated terms **“axis”** and **“dimension”** (and their plural or compound forms) **MUST NOT** be used to denote a measurable aspect. Use **Characteristic** in the Tech register instead. Other colloquial terms should be mapped to canonical terms as listed below. In **Plain** narrative, deprecated aliases may appear _only on first use_ and only if paired with their canonical equivalent for clarity.
 

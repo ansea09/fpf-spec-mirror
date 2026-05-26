@@ -6,12 +6,12 @@ section_id: "A.3.1:15"
 section_title: "Didactic quick cards (reuse in specs and onboarding)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__016_didactic-quick-cards-reuse-in-specs-and-onboarding.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:15 — Didactic quick cards (reuse in specs and onboarding)"
-line_start: 6047
-line_end: 6054
+line_start: 6056
+line_end: 6063
 dependencies:
   - "A.1"
   - "A.1.1"

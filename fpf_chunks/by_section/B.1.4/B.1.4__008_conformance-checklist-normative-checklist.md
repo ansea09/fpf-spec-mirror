@@ -6,12 +6,12 @@ section_id: "B.1.4:7"
 section_title: "Conformance Checklist (normative checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__008_conformance-checklist-normative-checklist.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:7 — Conformance Checklist (normative checklist)"
-line_start: 29060
-line_end: 29073
+line_start: 29763
+line_end: 29776
 dependencies:
   - "A.12"
   - "A.14"

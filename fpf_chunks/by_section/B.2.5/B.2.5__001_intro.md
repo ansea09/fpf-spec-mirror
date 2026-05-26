@@ -1,21 +1,26 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.5"
-pattern_title: "Supervisor–Subholon Feedback Loop"
+pattern_title: "Supervisor-Subholon Feedback Loop"
 section_id: "B.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__001_intro.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
-  - "B.2.5 — Supervisor–Subholon Feedback Loop"
+  - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:intro — Intro"
-line_start: 30405
-line_end: 30406
+line_start: 31108
+line_end: 31112
 dependencies:
   - "A.1"
+  - "A.12"
+  - "A.15"
+  - "A.2"
+  - "A.3"
+  - "A.7"
   - "B.2"
-  - "U.Method"
+  - "C.30.LCA"
 keywords:
   - "control architecture"
   - "feedback loop"
@@ -24,5 +29,8 @@ keywords:
   - "supervisor"
 ---
 
-## B.2.5 — Supervisor–Subholon Feedback Loop
+## B.2.5 - Supervisor-Subholon Feedback Loop
 
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative for FPF use that claims a supervisor-subholon feedback-loop relation.

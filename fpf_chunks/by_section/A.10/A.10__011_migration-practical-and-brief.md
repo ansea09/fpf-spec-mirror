@@ -6,12 +6,12 @@ section_id: "A.10:10"
 section_title: "Migration (practical and brief)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__011_migration-practical-and-brief.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:10 — Migration (practical and brief)"
-line_start: 18766
-line_end: 18783
+line_start: 19094
+line_end: 19111
 dependencies:
   - "A.1"
   - "A.10"

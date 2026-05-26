@@ -6,12 +6,12 @@ section_id: "A.1:4"
 section_title: "Solution - A three-part root (Entity -> Holon -> {System, Episteme})"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__005_solution-a-three-part-root-entity-holon-system-episteme.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:4 — Solution - A three-part root (Entity -> Holon -> {System, Episteme})"
-line_start: 1140
-line_end: 1195
+line_start: 1149
+line_end: 1204
 dependencies:
   - "A.1"
   - "A.1.1"

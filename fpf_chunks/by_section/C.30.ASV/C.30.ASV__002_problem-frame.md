@@ -1,0 +1,88 @@
+---
+chunk_kind: "child"
+pattern_id: "C.30.ASV"
+pattern_title: "Architecture Structural View Adequacy (ASV)"
+section_id: "C.30.ASV:1"
+section_title: "Problem frame"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+heading_path:
+  - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
+  - "C.30.ASV:1 — Problem frame"
+line_start: 50698
+line_end: 50731
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
+  - "A.22"
+  - "A.6.3"
+  - "A.6.F"
+  - "A.7"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.25"
+  - "C.28"
+  - "C.29"
+  - "C.30"
+  - "C.30.ILC"
+  - "C.30.LCA"
+  - "C.30.TGA-FLOW-REL"
+  - "E.10"
+  - "E.10.D2"
+  - "E.10.SEMIO"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.1"
+  - "E.17.2"
+  - "E.18"
+  - "F.18"
+  - "G.6"
+keywords:
+  - "ArchitectureStructureKindRef"
+  - "VF.ARCH.STRUCTURE"
+  - "architecture structural view"
+  - "correspondence"
+  - "hidden/lost structure"
+  - "source return"
+  - "structure kind"
+  - "viewpoint bundle"
+---
+
+### C.30.ASV:1 - Problem frame
+
+Use this pattern when an architecture discussion needs to say which selected structure is being viewed, not merely that there is a diagram, model, table, dashboard, ADR, generated relation graph, or generic "view".
+
+The first useful move is `ArchitectureStructureKindTriage@Project`:
+
+```text
+ArchitectureStructureKindTriage@Project:
+architectureClaimRef?:
+describedHolonRef?:
+boundedContextRef?:
+
+live architecture concern:
+suspected wrong collapse:
+practitioner prompt label:
+candidate structure kinds:
+smallest useful structure-kind set:
+primaryPatternExitRef:
+admissibleArchitectureMove:
+neighboringPatternExitRefs:
+stop condition:
+```
+
+Ordinary minimum: name the live architecture object or the described holon and bounded context, the one structure kind or structure-kind set that changes action, one non-admissible overread, and the next admissible architecture move or stop. All other fields are conditional and may be `not live`.
+
+Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a view over selected architecture-relevant structure changes the next architecture move. Use the triage record when it names the live structure kind and the next admissible architecture move. Open a full `ArchitectureStructuralView@Context` only when the view changes action, support, correspondence, source return, publication, comparison, evidence, assurance, gate, decision, or neighboring-pattern use.
+
+
+What goes wrong if C.30.ASV is missed: "architecture" silently means "module diagram"; a view becomes a publication face; a viewpoint becomes a structure kind; TEVB is stretched into a full architecture ontology; a Transduction Graph Architecture (TGA) graph, Layered Control Architecture (LCA)/control sketch, code-agent relation graph, or neural-network block diagram becomes the architecture by appearance.
+
+What C.30.ASV buys in practice: the practitioner can name the architecture claim, selected structures, structure kind, viewpoint, selected relation kinds, selected constraints, selected invariants, live operation or dynamics descriptions, hidden or lost structure, correspondence, support relation, source-return condition, admissible use, and non-admissible use before relying on a view.
+
+Not this pattern when the live question is only the general architecture claim. Use `C.30`. If the live question is structure as such, use A.22. If the view is a TGA graph/path/crossing relation, use `E.18` and `C.30.TGA-FLOW-REL` when architecture-flow description is live. If the view is used as evidence, assurance, causal proof, gate result, work record, release permission, or decision authority, use the exact neighboring pattern and keep C.30.ASV only to the view portion.
+

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CHR.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
-line_start: 24385
-line_end: 25067
+line_start: 24713
+line_end: 25395
 dependencies:
   - "A.15.3"
   - "A.19"

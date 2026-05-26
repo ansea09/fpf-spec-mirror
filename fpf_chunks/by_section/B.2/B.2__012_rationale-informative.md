@@ -6,12 +6,12 @@ section_id: "B.2:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__012_rationale-informative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:10 — Rationale (informative)"
-line_start: 30027
-line_end: 30034
+line_start: 30730
+line_end: 30737
 dependencies:
   - "A.1"
   - "A.12"

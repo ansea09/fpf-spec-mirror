@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.4.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism"
-line_start: 11487
-line_end: 11999
+line_start: 11496
+line_end: 12008
 dependencies:
   - "A.1"
   - "A.6.2"

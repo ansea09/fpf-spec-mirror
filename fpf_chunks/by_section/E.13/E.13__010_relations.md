@@ -6,12 +6,12 @@ section_id: "E.13:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__010_relations.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.13 — Pragmatic Utility & Value Alignment"
   - "E.13:9 — Relations"
-line_start: 54806
-line_end: 54811
+line_start: 57518
+line_end: 57523
 dependencies:
   - "E.12"
   - "E.2"

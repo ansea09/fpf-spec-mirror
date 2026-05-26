@@ -6,12 +6,12 @@ section_id: "I.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__001_intro.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2:intro — Intro"
-line_start: 74965
-line_end: 74993
+line_start: 78636
+line_end: 78664
 dependencies:
 keywords:
 ---

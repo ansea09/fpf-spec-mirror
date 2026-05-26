@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — same-described-entity representation-scheme transition under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-same-described-entity-representation-scheme-transition-under-a-6-3.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — same-described-entity representation-scheme transition"
   - "A.6.3.RT:4 — Solution — same-described-entity representation-scheme transition under A.6.3"
-line_start: 11056
-line_end: 11279
+line_start: 11065
+line_end: 11288
 dependencies:
   - "A.10"
   - "A.15"

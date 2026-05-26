@@ -6,12 +6,12 @@ section_id: "F.9:21"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__023_consequences.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:21 — Consequences"
-line_start: 64620
-line_end: 64628
+line_start: 68291
+line_end: 68299
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

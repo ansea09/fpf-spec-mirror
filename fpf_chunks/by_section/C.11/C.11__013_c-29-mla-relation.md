@@ -6,12 +6,12 @@ section_id: "C.11:12b"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__013_c-29-mla-relation.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:12b — C.29 MLA relation"
-line_start: 39099
-line_end: 39102
+line_start: 39842
+line_end: 39845
 dependencies:
   - "A.13"
   - "A.18"

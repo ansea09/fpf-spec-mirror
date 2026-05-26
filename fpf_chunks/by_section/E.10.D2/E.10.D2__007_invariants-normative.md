@@ -6,12 +6,12 @@ section_id: "E.10.D2:6"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__007_invariants-normative.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:6 — Invariants (normative)"
-line_start: 53696
-line_end: 53734
+line_start: 56408
+line_end: 56446
 dependencies:
   - "A.7"
   - "C.2.1"

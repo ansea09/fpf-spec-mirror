@@ -6,12 +6,12 @@ section_id: "A.7:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_consequences.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:10 — Consequences"
-line_start: 18120
-line_end: 18134
+line_start: 18448
+line_end: 18462
 dependencies:
   - "A.1"
   - "A.10"

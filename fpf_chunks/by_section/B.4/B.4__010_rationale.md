@@ -6,12 +6,12 @@ section_id: "B.4:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__010_rationale.md"
-commit_sha: "04dd733fb18b66d3a640d11758e0af22ea253fd8"
+commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:9 — Rationale"
-line_start: 31707
-line_end: 31712
+line_start: 32450
+line_end: 32455
 dependencies:
   - "A.12"
   - "A.4"
