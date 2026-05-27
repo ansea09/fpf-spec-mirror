@@ -6,12 +6,12 @@ section_id: "A.6.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 15757
-line_end: 15770
+line_start: 15826
+line_end: 15840
 dependencies:
   - "A.10"
   - "A.14"
@@ -19,8 +19,10 @@ dependencies:
   - "A.2.6"
   - "A.6.0"
   - "A.6.3"
+  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "C.3.3"
@@ -41,6 +43,7 @@ keywords:
   - "rescope"
   - "retime"
   - "scope"
+  - "support-as-basedness"
   - "witnesses"
   - "Γ_time"
 ---
@@ -49,6 +52,7 @@ keywords:
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
+| **Generic support bucket** | Hides whether support means base-dependence, evidence polarity, assurance input, causal-use basis, mathematical-lens adequacy, work enablement, source-description, publication companion, or ordinary help | Apply the support wording selection test; use SWBD only for genuine basedness and apply every other reading's exact governing pattern ontology |
 | **Umbrella “anchored/attached/grounded” with no baseRelation** | Hides relation kind; cannot state invariants | Introduce a declared baseRelation token and rewrite prose to use it |
 | **Perspective flip without role names** | Directionality and typing become ambiguous | Use `dependent/base` roles consistently; declare polarity in baseRelation declaration |
 | **Treating evidence as “the base”** | Confuses base with witnesses | Make evidence/pins witnesses unless the relation kind’s base is explicitly an evidence carrier |

@@ -6,15 +6,15 @@ section_id: "G.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__004_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:3 — Forces"
-line_start: 73314
-line_end: 73321
+line_start: 73524
+line_end: 73531
 dependencies:
   - "A.10"
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
   - "B.3"
   - "C.18"
@@ -36,7 +36,7 @@ dependencies:
   - "G.Core"
 keywords:
   - "BridgeMatrix"
-  - "CrossSurfaceAtlasView"
+  - "DeclaredSubstrateAtlasView"
   - "FlowRecord"
   - "GammaEpistSynthId"
   - "SoTA Synthesis Pack@CG-Frame"

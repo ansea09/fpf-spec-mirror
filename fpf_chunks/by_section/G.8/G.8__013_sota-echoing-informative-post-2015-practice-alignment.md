@@ -6,12 +6,12 @@ section_id: "G.8:12"
 section_title: "SoTA‑Echoing (informative; post‑2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__013_sota-echoing-informative-post-2015-practice-alignment.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:12 — SoTA‑Echoing (informative; post‑2015 practice alignment)"
-line_start: 76539
-line_end: 76549
+line_start: 76749
+line_end: 76759
 dependencies:
   - "A.10"
   - "A.21"

@@ -6,12 +6,12 @@ section_id: "A.15.2:End"
 section_title: "A.15.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__009_a-15-2-end.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:End — A.15.2:End"
-line_start: 20750
-line_end: 20751
+line_start: 20821
+line_end: 20822
 dependencies:
   - "A.15"
   - "U.Work"

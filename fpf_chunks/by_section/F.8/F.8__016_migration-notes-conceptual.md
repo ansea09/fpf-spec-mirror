@@ -6,12 +6,12 @@ section_id: "F.8:14"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__016_migration-notes-conceptual.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:14 — Migration notes (conceptual)"
-line_start: 67741
-line_end: 67749
+line_start: 67946
+line_end: 67954
 dependencies:
   - "A.11"
   - "A.7"

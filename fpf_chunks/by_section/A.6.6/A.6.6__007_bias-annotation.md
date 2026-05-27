@@ -6,12 +6,12 @@ section_id: "A.6.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__007_bias-annotation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:6 — Bias-Annotation"
-line_start: 15696
-line_end: 15704
+line_start: 15762
+line_end: 15770
 dependencies:
   - "A.10"
   - "A.14"
@@ -19,8 +19,10 @@ dependencies:
   - "A.2.6"
   - "A.6.0"
   - "A.6.3"
+  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "C.3.3"
@@ -41,6 +43,7 @@ keywords:
   - "rescope"
   - "retime"
   - "scope"
+  - "support-as-basedness"
   - "witnesses"
   - "Γ_time"
 ---

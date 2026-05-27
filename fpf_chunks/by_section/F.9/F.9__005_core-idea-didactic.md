@@ -6,12 +6,12 @@ section_id: "F.9:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__005_core-idea-didactic.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:4 — Core idea (didactic)"
-line_start: 67827
-line_end: 67832
+line_start: 68032
+line_end: 68037
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

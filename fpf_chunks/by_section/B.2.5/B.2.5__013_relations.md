@@ -6,12 +6,12 @@ section_id: "B.2.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__013_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:12 — Relations"
-line_start: 31240
-line_end: 31247
+line_start: 31296
+line_end: 31303
 dependencies:
   - "A.1"
   - "A.12"
@@ -33,7 +33,7 @@ keywords:
 
 * Builds on `B.2`, `A.1`, `A.2`, `A.3`, `A.7`, `A.12`, and `A.15`.
 * Coordinates with `C.30.LCA` for control-structure view adequacy.
-* Exits to `A.3.3` for reusable dynamics or stability claims, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence support, `B.3` for assurance, `A.20`/`A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` for mathematical-lens transfer.
+* Applies `A.3.3` for reusable dynamics or stability claims, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence claim, `B.3` for assurance, `A.20`/`A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` for mathematical-lens transfer.
 
-Does not replace: `C.30.LCA` control-structure view adequacy, `A.3.3` dynamics support, `C.27` temporal/rate adequacy, `C.28` causal-use support, `A.10`/`G.6` evidence support, `B.3` assurance, `A.20`/`A.21` gate and constraint-validity records, `A.15` work authority, module/interface patterns, or `C.29` mathematical-lens adequacy.
+Does not replace: `C.30.LCA` control-structure view adequacy, `A.3.3` dynamics claim, `C.27` temporal/rate adequacy, `C.28` causal-use claim, `A.10`/`G.6` evidence claim, `B.3` assurance, `A.20`/`A.21` gate and constraint-validity records, `A.15` work authority, module/interface patterns, or `C.29` mathematical-lens adequacy.
 

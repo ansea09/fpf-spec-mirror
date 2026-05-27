@@ -6,12 +6,12 @@ section_id: "A.6.A:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__010_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:9 — Consequences"
-line_start: 14183
-line_end: 14194
+line_start: 14210
+line_end: 14221
 dependencies:
   - "A.15"
   - "A.16"

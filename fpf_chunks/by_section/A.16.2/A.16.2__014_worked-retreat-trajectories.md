@@ -6,12 +6,12 @@ section_id: "A.16.2:13"
 section_title: "Worked Retreat Trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__014_worked-retreat-trajectories.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:13 — Worked Retreat Trajectories"
-line_start: 22420
-line_end: 22437
+line_start: 22490
+line_end: 22507
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,7 +46,7 @@ An over-specified `A.6.A`-governed invitation may later prove premature. The adm
 with explicit withdrawal of route authority that no longer holds.
 
 #### A.16.2:13.3 - Respecify without repair-pattern drift
-A route-bearing publication may keep the same broad family but replace one framing scaffold or route specification with another. That is `respecify`, not silent editing, and not slot-explicit semantic repair.
+A route-bearing publication may keep the same broad family but replace one framing scaffold or route specification with another. That is `respecify`, not silent editing, and not slot-explicit epistemic precision repair.
 
 #### A.16.2:13.4 - Retire an obsolete branch
 A route-bearing branch may later become obsolete because another branch now carries the governing pattern and witness support for the current use. The admissible continuation is explicit `retire`, not silent disappearance.

@@ -6,12 +6,12 @@ section_id: "G.Core:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__010_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:9 — Consequences"
-line_start: 72449
-line_end: 72456
+line_start: 72660
+line_end: 72667
 dependencies:
   - "A.15.3"
   - "A.19"

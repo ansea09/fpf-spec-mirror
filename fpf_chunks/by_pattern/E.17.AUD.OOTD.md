@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.OOTD.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
-line_start: 62017
-line_end: 62334
+line_start: 62229
+line_end: 62545
 dependencies:
   - "A.10"
   - "A.15"
@@ -25,8 +25,8 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.2.2a"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17.AUD.LHR"
   - "E.17.EFP"
@@ -81,7 +81,7 @@ Typical moments include:
 - an architecture note that starts about a system boundary and ends about rollout work;
 - an operations review note that starts about an incident episode and ends about action approval;
 - a requirements or policy note that starts about a described entity and ends about its carrier or document status;
-- a semio-heavy note that starts about one pattern section or publication form and ends about wider architecture strategy;
+- an episteme-publication-heavy note that starts about one pattern section or publication form and ends about wider architecture strategy;
 - a comparison sheet that starts about one governed object and quietly shifts into engineering-process, approval, work, or reliance pressure.
 
 That reading instability is usually not caused by one bad sentence alone.
@@ -149,7 +149,7 @@ If that lens cannot stay stable after local repair, do not patch over the readin
 - one publication unit with unstable reading across multiple described entities;
 - one unit mixing move and outside work;
 - one unit quietly shifting between described entity, description, carrier, publication unit, process, or downstream decision use;
-- semio-heavy texts where repair disposition, governing pattern, governed object, carried move, and outside work must stay explicit across one publication unit.
+- episteme-publication-heavy texts where repair disposition, governing pattern, governed object, carried move, and outside work must stay explicit across one publication unit.
 
 **Out of scope**
 - local lexical-head repair only;
@@ -215,7 +215,7 @@ The practical summary is:
 
 ### E.17.AUD.OOTD:5 - Archetypal grounding
 
-**Worked-slice status.** Read the architecture, operations, semio-heavy, comparison-return-to, and changed-described-entity cases as a heterogeneous example bank, not as one recommended progression.
+**Worked-slice status.** Read the architecture, operations, episteme-publication-heavy, comparison-return-to, and changed-described-entity cases as a heterogeneous example bank, not as one recommended progression.
 
 #### E.17.AUD.OOTD:5.1 - Architecture note shifting into rollout work
 
@@ -353,4 +353,3 @@ Heavier declaration comes only after the ordinary card already holds.
 - `A.20` and `A.21` when approval, gate, or adjudication becomes primary.
 
 ### E.17.AUD.OOTD:End
-

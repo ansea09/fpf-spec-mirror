@@ -6,12 +6,12 @@ section_id: "G.5:End"
 section_title: "G.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__019_g-5-end.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:End — G.5:End"
-line_start: 75338
-line_end: 75340
+line_start: 75548
+line_end: 75550
 dependencies:
   - "C.11"
   - "C.18"
@@ -43,7 +43,7 @@ keywords:
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
   - "selected-set publication"
-  - "set-surface outcome"
+  - "set-result outcome"
   - "tool choices are outside the core"
 ---
 

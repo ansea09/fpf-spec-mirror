@@ -6,12 +6,12 @@ section_id: "A.17:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:4 — Solution"
-line_start: 22592
-line_end: 22625
+line_start: 22660
+line_end: 22693
 dependencies:
   - "A.17"
   - "A.18"

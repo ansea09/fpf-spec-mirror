@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:intro — Intro"
-line_start: 61652
-line_end: 61706
+line_start: 61865
+line_end: 61919
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,8 +24,8 @@ dependencies:
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17.AUD"
   - "E.17.AUD.OOTD"
@@ -49,7 +49,7 @@ keywords:
 
 **Governed object in plain terms.** The governed object here is one local lexical head inside one publication unit: the load-bearing word or phrase whose kind is no longer recoverable from the sentence. The governed move is to restore the lexical-head kind, active local reading, governed object when one is active, carried move or live question, and nearest outside-work boundary before the rest of the publication unit inherits ambiguity.
 
-**Use this when.** Use this section when one note, memo, review unit, table, or semio-heavy paragraph starts leaning on one broad familiar word and you can no longer tell which FPF kind or locally declared head that word names here. Use it when the local lexical head has become the overload point, but the publication unit has not yet proved that it needs full described-entity stabilization.
+**Use this when.** Use this section when one note, memo, review unit, table, or episteme-publication-heavy paragraph starts leaning on one broad familiar word and you can no longer tell which FPF kind or locally declared head that word names here. Use it when the local lexical head has become the overload point, but the publication unit has not yet proved that it needs full described-entity stabilization.
 
 **First-minute working moment.** A draft says `this review`, `this text`, `this document`, `this publication`, or `this interpretation`, and everyone in the room keeps reading a different FPF kind or locally declared head into the same local lexical head. You do not yet need a whole new publication-unit rule check. You need the local lexical-head repaired before the rest of the unit can be trusted.
 
@@ -71,7 +71,7 @@ keywords:
 
 **Primary working reader.** The first working reader is an author, reviewer, architect, or manager who needs one quick way to repair an overloaded local lexical head before the whole text overclaims.
 
-**Problem-owning practice reading.** In ordinary practice, this pattern helps teams editing review notes, status notes, decision memos, architecture notes, and semio-heavy paragraphs where one familiar local lexical head has become the overload point. The job is not to redesign the whole text. It is to make one local sentence honest enough that reviewers stop arguing past each other about what the local lexical head names here.
+**Problem-owning practice reading.** In ordinary practice, this pattern helps teams editing review notes, status notes, decision memos, architecture notes, and episteme-publication-heavy paragraphs where one familiar local lexical head has become the overload point. The job is not to redesign the whole text. It is to make one local sentence honest enough that reviewers stop arguing past each other about what the local lexical head names here.
 
 **Quick recovery entry.** If the recognition surface fits, recover the local repair through the five-row ordinary card in `E.17.AUD.LHR:3.2` and the nearest worked slices in `E.17.AUD.LHR:5.1` through `E.17.AUD.LHR:5.6`. Use the quick worked-slice starter only while one overloaded local lexical head still stays primary; if that recovery already makes bounded comparison or publication-unit stabilization primary, name the governing FPF pattern or exact project-side FPF kind and reference before you open the heavier extension.
 

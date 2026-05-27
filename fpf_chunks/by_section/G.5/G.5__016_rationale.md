@@ -6,12 +6,12 @@ section_id: "G.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__016_rationale.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:10 — Rationale"
-line_start: 75296
-line_end: 75303
+line_start: 75506
+line_end: 75513
 dependencies:
   - "C.11"
   - "C.18"
@@ -43,7 +43,7 @@ keywords:
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
   - "selected-set publication"
-  - "set-surface outcome"
+  - "set-result outcome"
   - "tool choices are outside the core"
 ---
 

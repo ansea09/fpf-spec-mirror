@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.6.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
-line_start: 30172
-line_end: 30451
+line_start: 30228
+line_end: 30507
 dependencies:
   - "A.12"
   - "A.14"

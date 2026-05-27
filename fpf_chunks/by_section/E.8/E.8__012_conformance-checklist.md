@@ -6,19 +6,21 @@ section_id: "E.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:7 — Conformance Checklist"
-line_start: 53655
-line_end: 53688
+line_start: 54337
+line_end: 54370
 dependencies:
   - "E.10"
   - "E.19"
+  - "E.21"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
   - "E.7"
+  - "E.8"
   - "E.9"
   - "F.18"
 keywords:
@@ -73,7 +75,7 @@ Conformance Checklist items are authoring checks: they test whether the pattern 
 | **CC-SG.16a (Referent-index discipline in live prose).** | Live pattern sections **MUST** keep run-time/domain referents, standard-plane referents, and design-time/control-plane referents distinct. In ordinary live prose, sentence truth **MUST** depend on the governed run-time/domain object or on the pattern's declared normative claim set, not on the current draft state, author action, reviewer action, or control-plane posture. If a sentence is true only because of the current writing/review pass or text arrangement, it is design-time residue and belongs in carriers or companion notes, not in the live pattern body. | Prevents Conway/process leakage and reduces late cleanup before review or landing. |
 | **CC-SG.17 (Recognition text and assurance text).** | Admission or substantial revision runs **MUST** check that a canonical pattern exposes a recognition text early enough for the intended working reader and an assurance text that carries declaration, guidance/check, modeling, and review load without silently shifting the recognition-text claim. The recognition text **MUST** expose a recognisable working situation, what goes wrong if the pattern is missed, what the pattern buys, and a clear ordinary `not this pattern when` boundary. Any load-bearing typed declaration or modeling lens **MUST** be exposed by a short user-facing statement of the governed object, early load-bearing technical terms **MUST** receive nearby pairwise plain glosses, and any `SoTA-Echoing` used as live explanatory support **MUST** state a short practitioner or manager implication plus visible linkage to the worked cases or boundary slices it disciplines. If the pattern claims universal or transdisciplinary reach, the recognition text **MUST** demonstrate that claim through at least three heterogeneous reader or domain situations, preferably using an `F.16`-style example matrix or an equally explicit alternative. | Prevents text-clean but reader-opaque patterns and keeps broad claims visible where cold readers actually enter the text. |
 | **CC-SG.17a (Problem-frame recognition signature and E.11 boundary).** | Authors **SHOULD** express a pattern's concrete working situation through the pattern's `Problem frame`, not through a separate navigation block. The `Problem frame` should make recoverable the governed object or stabilized concern, what goes wrong if the pattern is missed or misread, the ordinary not-this-pattern boundary, the first admissible action-guiding move, and the result that move buys. Only when an `E.11` pattern-entry discoverability problem is live should the same recognition text add candidate-pattern, tempting-wrong-pattern, entry-load reclassification, or first admissible entry-stop cues. Cross-pattern comparison belongs in `J.4`; expanded case reading belongs in `I.2`; lexical-query support belongs under the lexical/naming patterns and support companions that already govern it. Pattern-local `Start here when`, `First output`, neighboring-pattern lists, and `Common wrong escalations and boundary transfers` blocks **SHOULD NOT** replace the action-guiding `Problem frame` and `Solution`. | Keeps working-use recognition inside the canonical pattern frame while preventing navigation/workflow language from becoming local pattern structure. |
-| **CC-SG.17b (Semantic repair preserves action guidance).** | When authors edit pattern prose under `E.10.SEMIO`, the repaired recognition text **MUST** preserve or restore the first admissible action-guiding move as a remaining admissible reader move, or explicitly name the neighboring FPF pattern that now carries the live claim. When both Tech and Plain registers are live, any Plain or didactic wording **MUST** map back to the recovered Tech reading under `E.10:6.2` when it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility load. More engaging recognition wording remains admissible as ordinary Plain prose only when it does not carry such load, or as a recognition aid whose load is recoverable through the recovered Tech reading or named handoff. Type-correct but inert wording is not mature pattern prose. | Prevents semio cleanup from leaving pattern guidance inert while also preventing expressive prose from reintroducing overread. |
+| **CC-SG.17b (Epistemic precision repair preserves action guidance).** | When authors edit pattern prose under `C.2.P`, the repaired recognition text **MUST** preserve or restore the first admissible action-guiding move as a remaining admissible reader move, or explicitly name the neighboring FPF pattern that now carries the live claim. When both Tech and Plain registers are live, any Plain or didactic wording **MUST** map back to the recovered Tech reading under `E.10:6.2` when it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility load. More engaging recognition wording remains admissible as ordinary Plain prose only when it does not carry such load, or as a recognition aid whose load is recoverable through the recovered Tech reading or named exact FPF pattern application. Type-correct but inert wording is not mature pattern prose. | Prevents epistemic precision cleanup from leaving pattern guidance inert while also preventing expressive prose from reintroducing overread. |
 
 | **CC-SG.18 (Precision before relaxation).** | In load-bearing prose, authors **MUST NOT** leave a generic head noun or load-bearing qualifier uninterpreted when that phrase carries semantic, boundary, or authority load. A narrowing qualifier by itself does **not** restore the head kind. Authors **MUST** restore head kind first, then qualifier load, then any comparison/escalation basis before downstream claim or effect. If a later Plain, didactic, or coarsened rendering is kept, the more precise upstream reading **MUST** remain recoverable. | Prevents ambiguity from being hidden inside ordinary-looking phrases and keeps softened prose subordinate to an explicit authoritative reading. |
 

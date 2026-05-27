@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 77123
-line_end: 77407
+line_start: 77333
+line_end: 77617
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -179,14 +179,14 @@ PortfolioRoster@Context :=
   dominanceRegime?,
   ε?,
 
-  // Published selector outcome and set-surface declaration (metadata fields, not local semantics)
+  // Published selector outcome and set-result declaration (metadata fields, not local semantics)
   selectorOutcomeKind?,
-  setSurfaceKind?,
+  setResultFamily?,
   handoffKind?,
   subjectKind?,
-  sourceSurfaceKind?,
+  sourceSetFamily?,
   derivedViewKind?,
-  sourceSurfaceComposition?,
+  sourceSetComposition?,
   basePaletteRef?,
   lensId?,
   shortlistId?,
@@ -208,7 +208,7 @@ PortfolioRoster@Context :=
 *Presence rule:* `PortfolioRosterId` MAY be omitted only when the shipped pack is *inputs‑only*
 (e.g., shipping CHR/CAL/evidence without any selector‑consumable selected-set/shortlist output).
 
-The `selectorOutcomeKind`, `setSurfaceKind`, `handoffKind`, `sourceSurfaceKind`, `sourceSurfaceComposition`, `derivedViewKind`, `basePaletteRef`, `lensId`, and `shortlistId` fields in this roster are payload metadata fields or refs inside the shipped publication surface. They do not define new Part-E `SurfaceKind` values and they do not let `G.10` re-govern `G.5`, `C.18`, `C.19`, or `G.2` semantics.
+The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, `sourceSetComposition`, `derivedViewKind`, `basePaletteRef`, `lensId`, and `shortlistId` fields in this roster are payload metadata fields or refs inside the shipped publication surface. They do not define new Part-E `SurfaceKind` values and they do not let `G.10` re-govern `G.5`, `C.18`, `C.19`, or `G.2` semantics.
 
 **Interpretation constraints (normative by delegation).** Any universal invariants governing (i) CN/CG spec-ref governing-definition assignment, (ii) crossing visibility and penalty routing, (iii) tri‑state guards, (iv) set‑return semantics, (v) P2W split, (vi) defaults, and (vii) RSCR trigger typing are **not restated here** and are enforced via `G.Core` conformance (see `CC‑G10‑CoreRef`).
 
@@ -314,26 +314,26 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 
 #### G.10:4.7 - Published surfaces must ship kind, source, derivation, lens, and shortlist token
 
-- Published surfaces should carry the selector outcome kind and, when applicable, the set-surface kind or handoff kind, plus the subject kind, source surface kind, and relevant declared surface pins.
+- Published surfaces should carry the selector outcome kind and, when applicable, the set-result kind or handoff kind, plus the subject kind, source set kind, and relevant declared surface pins.
 - These are publication payload metadata fields inside `SoTA-Pack(Core)`, not new Part-E `SurfaceKind` values.
-- Good publication fields include `selectorOutcomeKind`, `setSurfaceKind`, `handoffKind`, `subjectKind`, `sourceSurfaceKind`, `sourceSurfaceComposition`, `dominanceRegime`, `lensId`, `shortlistId`, and any declared archive or promotion-policy ids that the reader needs to interpret the visible set.
+- Good publication fields include `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `subjectKind`, `sourceSetFamily`, `sourceSetComposition`, `dominanceRegime`, `lensId`, `shortlistId`, and any declared archive or promotion-policy ids that the reader needs to interpret the visible set.
 - Those payload fields should use controlled tokens, cited ids, or already-declared head labels rather than shipping-local prose values.
 - When the visible surface or the shortlisted source is one derived tradition view, also publish the derivation explicitly.
 - Useful additional fields there include `derivedViewKind`, `basePaletteRef`, and the declared `qId` or reachability rule id that disciplined that derivation.
 - `portfolioMode` may remain as one support field about selector operation, but it should not stand in for the public set label.
 - A published surface should mirror semantics that are already declared in the governing palette, front, archive, or shortlist language.
 - It should not redefine that semantics locally.
-- When one shipped surface still needs a plain-language label, use the declared set-surface kind and source surface rather than falling back to `portfolioMode`.
+- When one shipped surface still needs a plain-language label, use the declared set-result kind and source set rather than falling back to `portfolioMode`.
 
 #### G.10:4.7.1 - Worked publication slice
 
-- If the visible surface is one tradition front under the declared `Q`, publish `selectorOutcomeKind=SetSurfaceOutcome`, `setSurfaceKind=Front`, `sourceSurfaceKind=Front`, `derivedViewKind=TraditionFront`, and keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable instead of pretending that the palette itself already was that front.
-- If one shortlist is emitted from that derived tradition front, publish `selectorOutcomeKind=SetSurfaceOutcome`, `setSurfaceKind=Shortlist`, `sourceSurfaceKind=Front`, `derivedViewKind=TraditionFront`, `basePaletteRef=SoTAPaletteDescriptionId`, and the named `lensId` together.
+- If the visible surface is one tradition front under the declared `Q`, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Front`, `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, and keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable instead of pretending that the palette itself already was that front.
+- If one shortlist is emitted from that derived tradition front, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Shortlist`, `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, `basePaletteRef=SoTAPaletteDescriptionId`, and the named `lensId` together.
 - If that same shortlisted surface is emitted as one stable public object, also publish `shortlistId=<...>` and keep it recoverable that the token names that shortlist rather than replacing it.
-- If one retained tradition archive view is shown, publish `selectorOutcomeKind=SetSurfaceOutcome`, `setSurfaceKind=Archive`, `sourceSurfaceKind=Archive`, `derivedViewKind=TraditionArchive`, and keep the same `basePaletteRef` recoverable.
-- If the shortlist is later ordered, publish `setSurfaceKind=RankedShortlist` and keep the declared source surface visible.
-- Do not publish `setSurfaceKind=ChoiceSet` unless the shipped object is explicitly one mathematical analysis artifact rather than the public selected surface.
-- Do not publish `sourceSurfaceKind=TraditionPalette` alone when the visible object is already one derived tradition view; readers need to know which view is on the surface and which base palette it depends on.
+- If one retained tradition archive view is shown, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Archive`, `sourceSetFamily=Archive`, `derivedViewKind=TraditionArchive`, and keep the same `basePaletteRef` recoverable.
+- If the shortlist is later ordered, publish `setResultFamily=RankedShortlist` and keep the declared source set visible.
+- Do not publish `setResultFamily=ChoiceSet` unless the shipped object is explicitly one mathematical analysis artifact rather than the public selected set.
+- Do not publish `sourceSetFamily=TraditionPalette` alone when the visible object is already one derived tradition view; readers need to know which view is on the surface and which base palette it depends on.
 - Do not publish `TraditionFront` or `TraditionArchive` as if they were the default meaning of `Tradition`.
 - Do not ask `portfolioMode` to tell the reader whether they are seeing one palette, one front, one archive, or one shortlist.
 

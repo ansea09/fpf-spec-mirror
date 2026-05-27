@@ -6,7 +6,7 @@ section_id: "A.2.5:1"
 section_title: "Purpose & scope (why this exists)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__002_purpose-scope-why-this-exists.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:1 — Purpose & scope (why this exists)"

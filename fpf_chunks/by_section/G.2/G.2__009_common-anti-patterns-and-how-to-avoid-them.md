@@ -6,15 +6,15 @@ section_id: "G.2:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 73688
-line_end: 73709
+line_start: 73898
+line_end: 73919
 dependencies:
   - "A.10"
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
   - "B.3"
   - "C.18"
@@ -36,7 +36,7 @@ dependencies:
   - "G.Core"
 keywords:
   - "BridgeMatrix"
-  - "CrossSurfaceAtlasView"
+  - "DeclaredSubstrateAtlasView"
   - "FlowRecord"
   - "GammaEpistSynthId"
   - "SoTA Synthesis Pack@CG-Frame"
@@ -69,5 +69,5 @@ keywords:
 
 * **AP‑G2‑5: Atlas by default.**
   **Avoid:** writing as if every tradition comparison or NQD/OEE note needs `TraditionAtlasView`, or as if atlas wording renames the palette itself.
-  **Do instead:** keep the base palette and derived front, archive, or shortlist explicit; use atlas form only when several declared views or support qualifiers must be held together, and prefer thinner `CrossSurfaceSupportView` when that is enough.
+  **Do instead:** keep the base palette and derived front, archive, or shortlist explicit; use atlas form only when several declared views or interpretive qualifiers must be held together, and prefer thinner `DeclaredSubstrateInterpretiveView` when that is enough.
 

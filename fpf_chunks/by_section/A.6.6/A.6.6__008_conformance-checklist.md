@@ -6,12 +6,12 @@ section_id: "A.6.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__008_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:7 — Conformance Checklist"
-line_start: 15705
-line_end: 15756
+line_start: 15771
+line_end: 15825
 dependencies:
   - "A.10"
   - "A.14"
@@ -19,8 +19,10 @@ dependencies:
   - "A.2.6"
   - "A.6.0"
   - "A.6.3"
+  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "C.3.3"
@@ -41,6 +43,7 @@ keywords:
   - "rescope"
   - "retime"
   - "scope"
+  - "support-as-basedness"
   - "witnesses"
   - "Γ_time"
 ---
@@ -96,4 +99,7 @@ A carrier (pattern, spec, schema, code carrier, or publication) conforms to A.6.
 
 16. **CC‑BD‑16 — Reserved “bind” discipline.**
     `bind/binding` SHALL be reserved for **name binding** (LEX discipline) and SHALL NOT be used as a synonym for declaring/refreshing/changing a base declaration. Authors SHALL use the base‑change lexicon (`declareBase`, `rebase`, `rescope`, `retime`, `refreshWitnesses`, …) and explicit continuity/withdrawal relations instead.
+
+17. **CC‑BD‑17 — Support wording is classified before base declaration.**
+    A support-looking statement SHALL pass the support wording selection test before it is modeled as SWBD. If the reading is not base-dependence, the text SHALL name the exact governing pattern ontology or keep the phrase as ordinary help/orientation; it SHALL NOT mint a support-headed baseRelation or record as a generic container.
 

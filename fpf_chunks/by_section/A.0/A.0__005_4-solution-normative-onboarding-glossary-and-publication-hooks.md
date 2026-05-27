@@ -6,15 +6,15 @@ section_id: "A.0:section-004"
 section_title: "4) Solution — Normative onboarding glossary and publication hooks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__005_4-solution-normative-onboarding-glossary-and-publication-hooks.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-004 — 4) Solution — Normative onboarding glossary and publication hooks"
 line_start: 903
 line_end: 934
 dependencies:
-  - "A.19.SUPPORT-VIEW"
-  - "A.19.SURF-SPACE"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.5"
   - "B.5"
   - "B.5.2.1"
@@ -34,14 +34,14 @@ keywords:
   - "& queries. novelty"
   - "BLP"
   - "CL^plane"
-  - "CrossSurfaceSupportView"
+  - "DeclaredSubstrateInterpretiveView"
   - "OutcomeSpaceRef"
   - "ParetoOnly default"
   - "ReferencePlane"
   - "SearchSpaceRef"
   - "TypedSetViews"
   - "comparability"
-  - "declared set surface"
+  - "declared set result"
   - "explore/exploit (E/E-LOG)"
   - "explore/exploit (E/E‑LOG)"
   - "illumination map (report‑only telemetry)"
@@ -82,6 +82,6 @@ keywords:
 1) Declare **CG‑Frame** (what “quality” means; admissible units and scales) and **ReferencePlane**.
 2) Pick 2–4 **Q components** + a simple **DescriptorMap** (≥2 dims) for N/D; publish **editions**.
 3) Choose an **E/E‑LOG policy** (explore↔exploit budget); record **policy‑id**.
-4) Apply **G.5** selection/dispatch with parity pins; **return a declared set surface** (`Front`, `Archive`, `Shortlist`, or `RankedShortlist` as appropriate), not a single score or an unnamed "portfolio".
+4) Apply **G.5** selection/dispatch with parity pins; **return a declared set result** (`Front`, `Archive`, `Shortlist`, or `RankedShortlist` as appropriate), not a single score or an unnamed "portfolio".
 5) **Publish to UTS** + **PathIds/PathSliceId**; **Illumination Map** is **report‑only telemetry** by default.
 

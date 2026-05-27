@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.1.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
-line_start: 41316
-line_end: 41416
+line_start: 42002
+line_end: 42102
 dependencies:
   - "C.16"
   - "C.17"

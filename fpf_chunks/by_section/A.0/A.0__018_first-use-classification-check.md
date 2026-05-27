@@ -6,15 +6,15 @@ section_id: "A.0:QF.2c"
 section_title: "First-use classification check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__018_first-use-classification-check.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2c — First-use classification check"
 line_start: 1105
 line_end: 1115
 dependencies:
-  - "A.19.SUPPORT-VIEW"
-  - "A.19.SURF-SPACE"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.5"
   - "B.5"
   - "B.5.2.1"
@@ -34,14 +34,14 @@ keywords:
   - "& queries. novelty"
   - "BLP"
   - "CL^plane"
-  - "CrossSurfaceSupportView"
+  - "DeclaredSubstrateInterpretiveView"
   - "OutcomeSpaceRef"
   - "ParetoOnly default"
   - "ReferencePlane"
   - "SearchSpaceRef"
   - "TypedSetViews"
   - "comparability"
-  - "declared set surface"
+  - "declared set result"
   - "explore/exploit (E/E-LOG)"
   - "explore/exploit (E/E‑LOG)"
   - "illumination map (report‑only telemetry)"
@@ -55,12 +55,12 @@ keywords:
 
 ### A.0:QF.2c - First-use classification check
 
-- Start with `CrossSurfaceSupportView` when the NQD/OEE task is simply to keep one declared palette, front, shortlist, or archive readable while comparing candidate material.
-- Start with it only when any cited `SearchSpaceRef`, `OutcomeSpaceRef`, mappings, or qualifiers are already declared elsewhere and remain recoverable through the base substrate, source surface, or set surface.
-- Escalate to `CrossSurfaceAtlasView` only when the reading must hold several declared views, spaces, mappings, or qualifiers together to explain why one specialization, evaluation, or boundary judgement stays admissible, and state why thinner support is insufficient.
+- Start with `DeclaredSubstrateInterpretiveView` when the NQD/OEE task is simply to keep one declared palette, front, shortlist, or archive readable while comparing candidate material.
+- Start with it only when any cited `SearchSpaceRef`, `OutcomeSpaceRef`, mappings, or qualifiers are already declared elsewhere and remain recoverable through the base substrate, source set, or set result.
+- Escalate to `DeclaredSubstrateAtlasView` only when the reading must hold several declared views, spaces, mappings, or qualifiers together to explain why one specialization, evaluation, or boundary judgement stays admissible, and state why thinner interpretation is insufficient.
 - If the reading keeps several declared set views together, name `TypedSetViews` explicitly instead of letting atlas wording hide that view-set choice.
 - If the reading depends on one source-to-outcome map, name `OutcomeMapRef` explicitly instead of letting the overlay silently stand in for that map.
 - If the reading depends on one metric or neighborhood discipline, name `SpaceMetricRef` explicitly instead of letting the space name stand in for that metric.
-- If the reading depends on one transition, cross-scale state-change, or dynamic-coupling basis, name `TransitionSupportRef` explicitly instead of letting the overlay silently absorb that transition-support requirement.
-- Not this glossary-side support stack when the real move is to invent one new search doctrine, one new outcome metric family, or one new publication surface. Those decisions stay with the governing patterns for the object itself.
+- If the reading depends on one transition, cross-scale state-change, or dynamic-coupling basis, name `TransitionRelationRef` explicitly instead of letting the overlay silently absorb that transition-support requirement.
+- Not this glossary-side interpretive-view stack when the real move is to invent one new search doctrine, one new outcome metric family, or one new publication surface. Those decisions stay with the governing patterns for the object itself.
 

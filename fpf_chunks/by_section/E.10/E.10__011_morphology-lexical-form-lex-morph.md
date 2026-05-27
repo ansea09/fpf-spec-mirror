@@ -6,20 +6,21 @@ section_id: "E.10:8"
 section_title: "Morphology & Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-lexical-form-lex-morph.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:8 — Morphology & Lexical Form (LEX.Morph)"
-line_start: 54430
-line_end: 54670
+line_start: 55774
+line_end: 56014
 dependencies:
   - "A.10"
   - "A.15"
   - "A.2"
+  - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
-  - "E.10.SEMIO"
+  - "C.2.P"
   - "E.5"
   - "F.18"
   - "F.5"
@@ -98,9 +99,9 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 * Name `U.View` and MVPK face separately from the publication form. A `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` is an episteme-level view or publication face, not the source claim, not the publication form itself, and not the SCR or RSCR carrier.
 * Name the carrier or rendering lane separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and not the governing pattern.
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, role assignment, status assertion, work occurrence, or permission.
-* Use `governingPatternRef` for a named FPF pattern that governs admissible interpretation or use. Use `authoritySourceRef` when a non-pattern `authoritySourceRef` target such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. Do not use generic semio wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
+* Use `governingPatternRef` for a named FPF pattern that governs admissible interpretation or use. Use `authoritySourceRef` when a non-pattern `authoritySourceRef` target such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. Do not use generic sign/episteme-publication wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 * When a published episteme is used for work, name the live P2W chain element: intended method family, selected method/method of work, `U.WorkPlanning` baseline, planned work, actual `U.Work` or `U.WorkEnactment`, work result, result measurement, or non-work reliance on a claim or effect. Do not let generic `action`, `use`, or `material` hide that distinction.
-* Use `E.10.SEMIO` when semio-heavy wording carries episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or FPF-pattern-application load. This parent pattern keeps the lexical and naming discipline; `E.10.SEMIO` supplies the semantic-rewrite profile that recovers the exact FPF kind, relation record, relation phrase, tuple-like record, exact project-side FPF kind and reference, or not-triggered disposition before final wording is accepted.
+* Use `C.2.P` when episteme-publication-heavy wording carries episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or FPF-pattern-application load. This parent pattern keeps the lexical and naming discipline; `C.2.P` supplies the epistemic precision-restoration profile that recovers the exact FPF kind, relation record, relation phrase, tuple-like record, exact project-side FPF kind and reference, or not-triggered disposition before final wording is accepted.
 
 **L‑SURF — disciplined use of *Surface* **
 * **Definition.** *Surface* is reserved for `PublicationSurface` and `InteropSurface`: UTS, shipping, and interop publication surfaces that present admissible, plane-aware summaries for a stated audience and purpose. A Surface is a conceptual bundle of views in the ISO 42010 sense, with declared viewpoint. Serialisations live in Annex and Interop. Surfaces package D and S projections produced via `Describe_ID` and `Specify_DS` in `A.7` and do not change object ontology.

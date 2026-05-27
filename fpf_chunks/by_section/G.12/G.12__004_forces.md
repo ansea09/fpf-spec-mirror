@@ -6,12 +6,12 @@ section_id: "G.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__004_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:3 — Forces"
-line_start: 77899
-line_end: 77906
+line_start: 78109
+line_end: 78116
 dependencies:
   - "A.19"
   - "C.18"
@@ -47,7 +47,7 @@ keywords:
 
 * **Legality and comparability are governed by CN-Spec and CG-Spec.** Dashboards must not invent local legality/acceptance/normalization “mini‑specs”; they pin and cite **CN‑Spec** and **CG‑Spec** surfaces as required by **G.Core** conformance.
 * **Ordinal discipline is non‑negotiable.** The most common dashboard failure mode is illicit arithmetic on ranks/categories; the kit must make “compare‑only” enforceable.
-* **Set‑returning discipline survives into views.** Dashboards must not silently scalarize partial orders or selector selected-set surfaces; any scalarization/promotion is an explicit governing-pattern policy cited through **G.Core** conformance; semantics are governed by the relevant pattern or policy.
+* **Set‑returning discipline survives into views.** Dashboards must not silently scalarize partial orders or selector selected-set results; any scalarization/promotion is an explicit governing-pattern policy cited through **G.Core** conformance; semantics are governed by the relevant pattern or policy.
 * **Edition‑awareness is the difference between “trend” and “drift”.** If the method definition changes, the dashboard must either (i) fork series edition, or (ii) emit telemetry and refresh slices under pinned conditions.
 * **RSCR must be actionable.** Causes are emitted as **canonical ids** (typed trigger kinds + id‑valued pins), not prose.
 

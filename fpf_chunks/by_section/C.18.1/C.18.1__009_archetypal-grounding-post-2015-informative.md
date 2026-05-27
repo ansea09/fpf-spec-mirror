@@ -6,12 +6,12 @@ section_id: "C.18.1:8"
 section_title: "Archetypal grounding (post‑2015; informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__009_archetypal-grounding-post-2015-informative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:8 — Archetypal grounding (post‑2015; informative)"
-line_start: 41385
-line_end: 41390
+line_start: 42071
+line_end: 42076
 dependencies:
   - "C.16"
   - "C.17"

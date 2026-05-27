@@ -6,12 +6,12 @@ section_id: "C.30.ILC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:4 — Solution"
-line_start: 51902
-line_end: 51986
+line_start: 52340
+line_end: 52424
 dependencies:
   - "A.10"
   - "A.22"
@@ -77,10 +77,10 @@ CrossScopeArchitectureResidualTriage@Context ::= {
     splitDeclaredSystemLevel | mergeDeclaredSystemLevel | addMediator |
     addInterfaceGrammar | addControlLayer | addEvidenceScope |
     addWorkMethodScope | changeAllocation | exposeHiddenCoupling |
-    acceptBoundedException | exitToD3D4 | exitToC28 |
+    acceptBoundedException | applyD3D4 | applyC28 |
     noArchitectureMove,
 
-  triggeredSupportRefs?,
+  triggeredGoverningPatternRefs?,
   admissibleNextMove,
   stopCondition,
   sourceReturnCondition?
@@ -91,13 +91,13 @@ CrossScopeArchitectureResidualTriage@Context ::= {
 
 `crossScopeResidualDescription` is not enough by itself. A residual becomes architecture-shaping only when its carrier is declared: hidden coupling, interface exception, control-rate conflict, scale-window loss, evidence-reuse failure, regulatory bespoke residue, work-method exception, data-semantics drift, placement or jurisdiction conflict, security trust-boundary break, or another declared carrier.
 
-Anti-collapse rule: no generic frustration score, no risk-matrix residual, and no stakeholder-mediation takeover. A frustration or risk label is only a cue until declared scopes, structure kinds, residual carrier, and first architecture move are recoverable; stakeholder mediation exits to `D.3`/`D.4` only when values, ethical conflict, or negotiation is live.
+Anti-collapse rule: no generic frustration score, no risk-matrix residual, and no stakeholder-mediation takeover. A frustration or risk label is only a cue until declared scopes, structure kinds, residual carrier, and first architecture move are recoverable; stakeholder mediation applies `D.3`/`D.4` only when values, ethical conflict, or negotiation is live.
 
-**Stop condition.** Stop after `CrossScopeArchitectureResidualTriage@Context` when it names the residual and the first admissible architecture move. It does not measure scale preference, generate candidate architectures, mediate stakeholder conflict, or select a decision. Open a neighboring pattern only when a live claim kind exists:
+**Stop condition.** Stop after `CrossScopeArchitectureResidualTriage@Context` when it names the residual and the first admissible architecture move. It does not measure scale preference, generate candidate architectures, mediate stakeholder conflict, or select a decision. Apply an exact governing pattern only when a live claim kind exists:
 
-| Live claim kind | Neighboring pattern |
+| Live claim kind | Governing pattern to apply |
 |---|---|
-| measurement or characteristic claim | `C.16` or an admitted characteristic-support receiving pattern |
+| measurement or characteristic claim | `C.16` or an admitted characteristic/measurement receiving pattern |
 | scale or coarse-graining claim | `C.29` or an admitted scale/coarse-graining receiving pattern when the scale lens is live |
 | candidate generation | `G.5` or an admitted candidate-generation receiving pattern |
 | final local choice | `C.11` |
@@ -114,13 +114,13 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, and n
 |---|---|---|
 | Component optimization breaks integration | expose hidden coupling; add interface grammar; change allocation | Treat local performance as system adequacy. |
 | Modularity reduces local work and increases exceptions | accept bounded exception; revise module boundary; add work/evidence scope | Average exceptions into a modularity score without declared basis. |
-| Local autonomy conflicts with control scope | add control layer; change allocation; exit to `C.30.LCA` | Treat autonomy label as causal or safety proof. |
-| Evidence reuse hides source loss | add evidence scope; add source-return condition; exit to `A.10`/`G.6` | Treat reused evidence as automatically valid in the wider scope. |
-| A scale window changes the residual | exit to `C.29` or an admitted scale/coarse-graining receiving pattern if the scale lens is live | Treat two observations as a universal scale law. |
+| Local autonomy conflicts with control scope | add control layer; change allocation; apply `C.30.LCA` | Treat autonomy label as causal or safety proof. |
+| Evidence reuse hides source loss | add evidence scope; add source-return condition; apply `A.10`/`G.6` | Treat reused evidence as automatically valid in the wider scope. |
+| A scale window changes the residual | apply `C.29` or an admitted scale/coarse-graining receiving pattern if the scale lens is live | Treat two observations as a universal scale law. |
 
 **Worked slice A - clean module layout, bad flow.** A product team redraws modules so each component has an explicit responsibility/enactor relation, but order-to-cash flow now crosses more work transfers and exceptions rise. `C.30.ILC` names the module structure, flow/transduction structure, affected work scope, cross-scope residual, and first move: expose hidden coupling or open `C.30.TGA-FLOW-REL`. It does not turn the exception count into a modularity measure until `C.16` or an admitted characterization-support receiving pattern is live.
 
-**Worked slice B - AI agent control conflict.** A local agent optimizes its local objective and violates a supervisor's allowed-mode constraint. `C.30.ILC` names the agent scope, supervisor/control scope, control relation, and local repair attempted. The first move may be add control layer, change allocation, or open `C.30.LCA`. Safety, causality, and gate claims exit to their governing patterns.
+**Worked slice B - AI agent control conflict.** A local agent optimizes its local objective and violates a supervisor's allowed-mode constraint. `C.30.ILC` names the agent scope, supervisor/control scope, control relation, and local repair attempted. The first move may be add control layer, change allocation, or open `C.30.LCA`. Safety, causality, and gate claims use their exact governing patterns.
 
-**Worked slice C - evidence scope residue.** A reusable certification evidence set removes repeated evidence work for several product variants, but one variant has a hidden environment difference. `C.30.ILC` names the work/evidence scope and source-return condition. It exits to `A.10` or `G.6` when evidence validity becomes live.
+**Worked slice C - evidence scope residue.** A reusable certification evidence set removes repeated evidence work for several product variants, but one variant has a hidden environment difference. `C.30.ILC` names the work/evidence scope and source-return condition. It applies `A.10` or `G.6` when evidence validity becomes live.
 

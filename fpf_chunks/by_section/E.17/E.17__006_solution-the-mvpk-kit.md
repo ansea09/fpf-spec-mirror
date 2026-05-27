@@ -6,20 +6,20 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 59469
-line_end: 59825
+line_start: 59684
+line_end: 60040
 dependencies:
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "C.2.P"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
@@ -163,7 +163,7 @@ When a publication-facing item, publication face, rendering, narrower-use render
 
 **Mixed-case precedence.** When several publication-use patterns appear possible, repair the smallest unstable reading that changes the current admissible use before applying a neighboring pattern whose claim or effect is live:
 
-1. If one local head is the only unstable part, apply `E.17.AUD.LHR` or `E.10.SEMIO` and stop when the repaired sentence names the local kind, relation, and admissible use.
+1. If one local head is the only unstable part, apply `E.17.AUD.LHR` or `C.2.P` and stop when the repaired sentence names the local kind, relation, and admissible use.
 2. If the bounded `PublicationUnit` or its primary described-entity reading is unstable, apply `E.17.AUD` or `E.17.AUD.OOTD` before using `E.17.ID.CR` or `E.17.EFP`.
 3. If the unit is stable and the live problem is comparison overread, apply `E.17.ID.CR`; use `F.9`, `C.11`, `A.20`, or `A.21` only when equivalence, recommendation, selection, decision, gate, or release claim is actually live.
 4. If the unit is stable and the live problem is explanation overread, apply `E.17.EFP`; use `A.10`, `B.3`, `A.20`, `A.21`, or `A.15.4` only when evidence, engineering-justification, gate, release, work, or reliance claim is actually live.
@@ -198,7 +198,7 @@ Use the exact FPF pattern that governs the live claim or effect. Keep any local 
 
 **Source-relation minimality.** Name the smallest exact FPF source relation sufficient for the live use. A source pointer, source-exposure relation, evidence path, engineering-justification record, gate decision, and release decision are different FPF relations; choosing one does not license another. Do not apply `A.10`, `B.3`, `A.20`, or `A.21` when the live use only needs source finding, orientation, or inspection of an existing source `U.Episteme`, source `U.EpistemePublication`, or status-register entry.
 
-**Local repair vs publication redesign.** A local semantic repair is enough only when it can preserve the current publication face or `PublicationUnit` while fixing one head, boundary, source relation, admissible use, explanation class, or unsupported downstream claim. If layout, grouping, visual emphasis, comparison arrangement, generated explanation, hidden source limitation, or mixed described-entity packaging still induces overread after the local relation is repaired, create a redesigned publication face or `PublicationUnit` instead of adding warning text around the misleading form.
+**Local repair vs publication redesign.** A local epistemic precision repair is enough only when it can preserve the current publication face or `PublicationUnit` while fixing one head, boundary, source relation, admissible use, explanation class, or unsupported downstream claim. If layout, grouping, visual emphasis, comparison arrangement, generated explanation, hidden source limitation, or mixed described-entity packaging still induces overread after the local relation is repaired, create a redesigned publication face or `PublicationUnit` instead of adding warning text around the misleading form.
 
 **Most-likely careful reading constraint.** Design and word a publication-facing item so its most likely careful reading does not exceed its named source relation, admissible use, and governing FPF pattern. A visible head such as `Approved` needs a visible `GateDecision` or a different head; a sorted comparison needs its comparator or sorting basis visible if no recommendation claim is intended; a generated explanation separates inferred links from pinned source claims by wording, label, or source anchor.
 
@@ -255,9 +255,9 @@ This preservation rule also applies across extraction, translation, screenshotti
 - **Green dashboard tile.** A tile says `Model ready`. Treat the tile as the `PublicationUnit` when that tile carries the live release overread. The useful action is source-finding and status orientation unless an exact `GateDecisionRef`, gate profile, source relation, and evidence or currentness support are recoverable. Without those, the tile is not release permission or gate passage by green color or placement.
 - **Generated explanation with source links.** A generated text explains a method and cites sources. The explanation rendering is not source replacement. Source links support only the pinned operative claims they actually carry. If work or reliance is live, use `A.10` for the exact evidence path or keep the rendering as reader help; if the rendering is deliberately reduced-use, use `A.6.3.CSC`.
 - **Comparison table.** A table compares two methods and places one first. Ordering is not selection. The comparison basis, source anchors, shared review frame, and unsupported downstream claim remain visible. Choice or decision needs `C.11`; equivalence or bridge support needs `F.9` or `F.9.1`.
-- **Unrecovered source wording.** A draft uses source-object wording, support-view shorthand, or generic unit wording without naming the FPF kind. Recover the FPF kind stack instead of minting support-object or support-view pseudo-kinds. Use `PublicationUnit` only when a bounded reader-inspected unit inside a publication is live; otherwise use the exact episteme, view, publication, carrier relation, section of a named non-pattern FPF publication form whose support function and reference are recoverable, `A.6.P` relation claim, or exact typed project-side value and reference.
+- **Unrecovered source wording.** A draft uses source-object wording, undeclared interpretive-view shorthand, or generic unit wording without naming the FPF kind. Recover the FPF kind stack instead of minting support-object pseudo-kinds or undeclared interpretive-view pseudo-kinds. Use `PublicationUnit` only when a bounded reader-inspected unit inside a publication is live; otherwise use the exact episteme, view, publication, carrier relation, section of a named non-pattern FPF publication form whose support function and reference are recoverable, `A.6.P` relation claim, or exact typed project-side value and reference.
 
-- **Translated tutorial.** A translated tutorial may improve reader access to an FPF pattern. It is a derivative rendering, not the original source. Operative claims need source mapping for reliance, translated heads may need `E.17.AUD.LHR` or `E.10.SEMIO`, and `F.18` is live only when durable naming, UTS, Core-facing, or cross-context naming work is intended.
+- **Translated tutorial.** A translated tutorial may improve reader access to an FPF pattern. It is a derivative rendering, not the original source. Operative claims need source mapping for reliance, translated heads may need `E.17.AUD.LHR` or `C.2.P`, and `F.18` is live only when durable naming, UTS, Core-facing, or cross-context naming work is intended.
 
 **Practical harm prevented by neighboring pattern.** Use this map when the reader asks what the discipline buys in practice:
 
@@ -268,7 +268,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 - A generated explanation appears to prove a causal relation. Block the evidence or assurance reading when source pins and evidence path are absent or insufficient. Useful action remains: use the explanation as reader help or source-finding, then apply `A.10` or `B.3` only for the exact evidence or engineering-justification claim they govern.
 
 
-- `E.10.SEMIO` prevents the wrong object from being treated as source, the wrong relation from being treated as support, and a loose phrase from being treated as an FPF kind.
+- `C.2.P` prevents the wrong object from being treated as source, the wrong relation from being treated as support, and a loose phrase from being treated as an FPF kind.
 - `E.17.AUD` and `E.17.AUD.OOTD` prevent action on a publication unit whose primary described entity, carried publication move, or outside boundary shifted silently.
 - `E.17.ID.CR` prevents a comparison unit from being used as decision, equivalence, bridge, evidence, or release basis.
 - `E.17.EFP` prevents fluent explanation from laundering unsupported claims into reliance, assurance, gate, or evidence use.

@@ -6,12 +6,12 @@ section_id: "G.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:4 — Solution"
-line_start: 72900
-line_end: 73182
+line_start: 73110
+line_end: 73392
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -40,13 +40,13 @@ keywords:
   - "SoTA_SetId"
   - "UTS/Name Cards"
   - "VariantPoolId"
-  - "and set-surface scaffold"
+  - "and set-result scaffold"
   - "edition pins"
   - "generator"
   - "generator chassis"
   - "selector"
+  - "set-result outcome"
   - "set-return selection"
-  - "set-surface outcome"
   - "shipping and refresh boundaries"
   - "six-card kit (M1-M6)"
 ---
@@ -197,7 +197,7 @@ M6 prepares *refresh‑readiness metadata* and wiring stubs; it does not define 
 | M1     | CG‑Frame brief + `describedEntity` + `CNSpecRef/CGSpecRef` (edition‑pinned) | `CG‑FrameContext` + context pins                                                       |
 | M2     | discovery inputs + inclusion criteria *(via G.2)*                           | `SoTA_SetId` (+ provenance anchors; optional UTS stubs/rows)                           |
 | M3     | `SoTA_SetId` + local constraints + emitter policy pins *(via Extensions)*   | `VariantPoolId` (+ candidate trace/provenance; optional method payload via Extensions) |
-| M4     | `VariantPoolId` + acceptance/eligibility surfaces *(via G.4/G.5)*           | `ShortlistId` (selected set / set-surface) + rationale refs                                         |
+| M4     | `VariantPoolId` + acceptance/eligibility surfaces *(via G.4/G.5)*           | `ShortlistId` (selected set / set-result) + rationale refs                                         |
 | M5     | `ShortlistId` + CHR/CAL/LOG bundle refs + UTS/Name refs                     | `CGFrameLibraryId` (library index; publish‑ready bindings)                             |
 | M6     | telemetry inputs + freshness/decay policy pins + RSCR tests                 | `CGKitId` + `RefreshReadinessCardId` (wiring to `G.11`; no orchestration governance)    |
 

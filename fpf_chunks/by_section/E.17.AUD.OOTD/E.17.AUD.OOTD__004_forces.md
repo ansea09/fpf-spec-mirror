@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__004_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
   - "E.17.AUD.OOTD:3 — Forces"
-line_start: 62077
-line_end: 62086
+line_start: 62289
+line_end: 62298
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,8 +26,8 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.2.2a"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17.AUD.LHR"
   - "E.17.EFP"

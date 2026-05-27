@@ -6,7 +6,7 @@ section_id: "A.3.3:13"
 section_title: "Didactic quick cards (engineer‑manager ready)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__014_didactic-quick-cards-engineer-manager-ready.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:13 — Didactic quick cards (engineer‑manager ready)"

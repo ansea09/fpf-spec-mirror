@@ -6,12 +6,12 @@ section_id: "C.29:8"
 section_title: "Consequences and validation harness"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__010_consequences-and-validation-harness.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:8 — Consequences and validation harness"
-line_start: 49688
-line_end: 49775
+line_start: 50373
+line_end: 50460
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,12 +28,12 @@ dependencies:
   - "C.16"
   - "C.18.1"
   - "C.19.1"
+  - "C.2.P"
   - "C.26"
   - "C.27"
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
@@ -69,7 +69,7 @@ keywords:
 | Existing specialized lenses such as `C.26` become easier to explain as special cases. | `C.26` needs only relation wording, not a rewrite of its core. |
 | Authors get a small checklist before using terms such as field, quantum, category, RG, manifold, graph, or information geometry. | Some quick analogies will be downgraded to local prose; this is intended. |
 | Vanchurin-like speculative work can enter as candidate-lens stress tests. | Requires strict Adapt-not-Adopt marking. |
-| Cross-domain transfer becomes auditable through preserved/lost structure and stop conditions. | More upfront statement effort; reduces downstream semantic repair. |
+| Cross-domain transfer becomes auditable through preserved/lost structure and stop conditions. | More upfront statement effort; reduces downstream epistemic precision repair. |
 | `C.29` can stay readable rather than becoming a dry ontology form. | Requires a Plain/Tech discipline: Plain metaphors can guide reading, but Tech fields govern claim-bearing uses. |
 
 #### C.29:8.1 - Validation harness for Stable admission and material refresh

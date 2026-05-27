@@ -6,12 +6,12 @@ section_id: "G.12:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__010_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:9 — Relations"
-line_start: 78241
-line_end: 78246
+line_start: 78451
+line_end: 78456
 dependencies:
   - "A.19"
   - "C.18"
@@ -46,6 +46,6 @@ keywords:
 ### G.12:9 — Relations
 
 **Builds on:** `G.Core`, `C.21`, `G.6`, `G.11`, `A.19`, `G.0`, `F.17/F.18`, `E.5.2`, `E.10`.
-**Coordinates with:** `G.5` *(when selector set-surface outputs are consumed)*, `G.7` *(when crossings/plane routing or `CL/Φ/Ψ/Φ_plane` policy pins are used)*, `G.8` *(when maturity ladder view is included)*, `G.10` *(when dashboard slices are shipped)*.
+**Coordinates with:** `G.5` *(when selector set-result outputs are consumed)*, `G.7` *(when crossings/plane routing or `CL/Φ/Ψ/Φ_plane` policy pins are used)*, `G.8` *(when maturity ladder view is included)*, `G.10` *(when dashboard slices are shipped)*.
 **Constrains:** dashboard consumers: dashboards are projections over pinned, evidence‑citable rows; they do not mint new governing-spec semantics.
 

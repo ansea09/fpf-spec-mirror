@@ -6,12 +6,12 @@ section_id: "C.2.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__013_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:12 — Relations"
-line_start: 34943
-line_end: 34949
+line_start: 35629
+line_end: 35635
 dependencies:
   - "A.2.6"
   - "A.21"

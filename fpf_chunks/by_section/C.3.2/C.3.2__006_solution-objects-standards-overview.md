@@ -6,12 +6,12 @@ section_id: "C.3.2:5"
 section_title: "Solution — Objects & Standards (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__006_solution-objects-standards-overview.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:5 — Solution — Objects & Standards (overview)"
-line_start: 37558
-line_end: 37571
+line_start: 38244
+line_end: 38257
 dependencies:
   - "C.3.1"
   - "C.3.3"

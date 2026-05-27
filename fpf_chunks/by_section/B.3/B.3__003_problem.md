@@ -6,12 +6,12 @@ section_id: "B.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__003_problem.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:2 — Problem"
-line_start: 31282
-line_end: 31290
+line_start: 31338
+line_end: 31346
 dependencies:
   - "A.10"
   - "A.12"

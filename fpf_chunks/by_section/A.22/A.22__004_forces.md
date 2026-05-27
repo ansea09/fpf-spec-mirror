@@ -6,12 +6,12 @@ section_id: "A.22:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__004_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:3 — Forces"
-line_start: 28258
-line_end: 28268
+line_start: 28325
+line_end: 28335
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -38,7 +39,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -47,7 +47,7 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture support"
+  - "architecture-description claim"
   - "preserved/lost structure"
   - "selected structure"
   - "source return"
@@ -61,9 +61,9 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | First-principles carrier vs ontology inflation | FPF needs a reusable carrier for relations, constraints, invariants, variation classes, and preserved/lost organization, but adding one carrier can accidentally invite many false root kinds. |
-| Useful compression vs source return | Structure makes work easier by compressing cases, but source return opens when compression, extraction, coarsening, or support reuse hides a distinction needed for action. |
+| Useful compression vs source return | Structure makes work easier by compressing cases, but source return opens when compression, extraction, coarsening, or source/base/evidence/lens reuse hides a distinction needed for action. |
 | D/S usability vs object confusion | Descriptions and views make structure inspectable, but a useful view can be mistaken for the structure itself. |
-| Mathematical support vs mathematical overread | C.29 lenses can expose structure, but lens output does not become the structure and does not license evidence, causal, assurance, or decision claims by itself. |
+| Mathematical-lens application vs mathematical overread | C.29 lenses can expose structure, but lens output does not become the structure and does not license evidence, causal, assurance, or decision claims by itself. |
 | Architecture dependency vs architecture takeover | Architecture uses selected structure through `C.30`; A.22 does not import architecture as its parent or make every structure an architecture. |
-| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, and stack can remain in Plain prose, but load-bearing use needs recoverable Tech fields and neighboring-pattern exits. |
+| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, and stack can remain in Plain prose, but load-bearing use needs recoverable Tech fields and exact FPF pattern applications. |
 

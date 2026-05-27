@@ -6,12 +6,12 @@ section_id: "G.7:4"
 section_title: "Solution — Bridge calibration kit (BCT + BridgeCards + RegressionSet/Sentinels)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__005_solution-bridge-calibration-kit-bct-bridgecards-regressionset-sentinels.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:4 — Solution — Bridge calibration kit (BCT + BridgeCards + RegressionSet/Sentinels)"
-line_start: 75756
-line_end: 76027
+line_start: 75966
+line_end: 76237
 dependencies:
   - "A.21"
   - "B.3"

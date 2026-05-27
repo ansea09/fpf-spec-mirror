@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.2.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
-line_start: 45245
-line_end: 45590
+line_start: 45930
+line_end: 46275
 dependencies:
   - "A.10"
   - "A.15"
@@ -338,7 +338,7 @@ It also biases authors to keep primary grounding in distributed cognition, team 
 | --- | --- | --- |
 | Group mind claim | The text says the team, market, service, or organization knows or wants something. | Rewrite as an evidence-bound state reading over a collective bearer during a window. |
 | Survey-as-state | A survey answer is treated as the distributed state. | Treat the survey as probe result, emitted output, or evidence carrier and ask what it lost or changed. |
-| Tacit skill overreach | A craft skill or team vibe is called distributed state. | Require coordinated work, carriers, time window, and rival explanations. |
+| Tacit skill overreach | A tacit skill or team vibe is called distributed state. | Require coordinated work, carriers, time window, and rival explanations. |
 | Routine mistaken for state | A playbook explains the action, but the text claims latent alignment. | Name the routine and keep the claim requiring additional evidence out. |
 | Timeless culture | A momentary observation becomes a durable culture claim. | State window, persistence support, decay, and reprobe condition. |
 

@@ -6,17 +6,17 @@ section_id: "F.18:13"
 section_title: "Anti‑Patterns & Failure Modes (what to avoid)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__014_anti-patterns-failure-modes-what-to-avoid.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:13 — Anti‑Patterns & Failure Modes (what to avoid)"
-line_start: 71714
-line_end: 71735
+line_start: 71926
+line_end: 71947
 dependencies:
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "F.0.1"
   - "F.1-F.17"
   - "G.10"
@@ -46,4 +46,4 @@ Defining a name by appealing to another Draft at the same dependency stratum or 
 Letting a Plain label or alias accumulate extra meanings absent in the underlying row. **Fix:** periodic label review; prune metaphors that start bending sense; respect the alias budget.
 
 **13.7 “Atlas label does substrate work.”**
-Letting atlas or support-view language quietly replace the base candidate set or family or decide substrate stewardship or publication policy. **Fix:** keep the base palette, front, archive, or shortlist recoverable, use atlas wording only when several declared views or qualifiers are jointly load-bearing for the naming explanation, and move substrate questions and publication questions to the pattern sections that govern those objects.
+Letting atlas or interpretive-view language quietly replace the base candidate set or family or decide substrate stewardship or publication policy. **Fix:** keep the base palette, front, archive, or shortlist recoverable, use atlas wording only when several declared views or qualifiers are jointly load-bearing for the naming explanation, and move substrate questions and publication questions to the pattern sections that govern those objects.

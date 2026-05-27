@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:4"
 section_title: "Solution - stabilize one publication unit, one described entity, one move, and one outside-work boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__005_solution-stabilize-one-publication-unit-one-described-entity-one-move-and-one-outside-work-boundary.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
   - "E.17.AUD.OOTD:4 — Solution - stabilize one publication unit, one described entity, one move, and one outside-work boundary"
-line_start: 62087
-line_end: 62193
+line_start: 62299
+line_end: 62405
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,8 +26,8 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.2.2a"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17.AUD.LHR"
   - "E.17.EFP"
@@ -80,7 +80,7 @@ If that lens cannot stay stable after local repair, do not patch over the readin
 - one publication unit with unstable reading across multiple described entities;
 - one unit mixing move and outside work;
 - one unit quietly shifting between described entity, description, carrier, publication unit, process, or downstream decision use;
-- semio-heavy texts where repair disposition, governing pattern, governed object, carried move, and outside work must stay explicit across one publication unit.
+- episteme-publication-heavy texts where repair disposition, governing pattern, governed object, carried move, and outside work must stay explicit across one publication unit.
 
 **Out of scope**
 - local lexical-head repair only;

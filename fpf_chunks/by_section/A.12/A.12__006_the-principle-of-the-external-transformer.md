@@ -6,12 +6,12 @@ section_id: "A.12:4.1"
 section_title: "The Principle of the External Transformer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__006_the-principle-of-the-external-transformer.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:4.1 — The Principle of the External Transformer"
-line_start: 19293
-line_end: 19312
+line_start: 19364
+line_end: 19383
 dependencies:
   - "A.3"
   - "B.2.5"

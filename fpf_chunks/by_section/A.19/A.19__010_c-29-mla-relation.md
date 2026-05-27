@@ -6,19 +6,19 @@ section_id: "A.19:12a"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__010_c-29-mla-relation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:12a — C.29 MLA relation"
-line_start: 23286
-line_end: 23289
+line_start: 23354
+line_end: 23357
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
-  - "A.19.SUPPORT-VIEW"
-  - "A.19.SURF-SPACE"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.2.5"
   - "A.3.3"
   - "C.16"

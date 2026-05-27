@@ -6,12 +6,12 @@ section_id: "F.6:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__003_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:2 — Problem frame"
-line_start: 66893
-line_end: 66902
+line_start: 67098
+line_end: 67107
 dependencies:
   - "A.15"
   - "A.2.1"

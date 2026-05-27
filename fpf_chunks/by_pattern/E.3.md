@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.3.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
-line_start: 52427
-line_end: 52579
+line_start: 53109
+line_end: 53261
 dependencies:
   - "E.2"
 keywords:

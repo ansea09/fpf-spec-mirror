@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Micro‑examples (didactic triad)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__008_micro-examples-didactic-triad.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:7 — Micro‑examples (didactic triad)"
-line_start: 67546
-line_end: 67571
+line_start: 67751
+line_end: 67776
 dependencies:
   - "A.11"
   - "A.7"

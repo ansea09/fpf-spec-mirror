@@ -6,12 +6,12 @@ section_id: "C.3.1:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_context.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:2 — Context"
-line_start: 37403
-line_end: 37407
+line_start: 38089
+line_end: 38093
 dependencies:
   - "A.1"
   - "A.2.6"

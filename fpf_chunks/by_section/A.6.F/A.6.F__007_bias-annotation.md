@@ -6,12 +6,12 @@ section_id: "A.6.F:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__007_bias-annotation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:6 — Bias-Annotation"
-line_start: 14500
-line_end: 14513
+line_start: 14527
+line_end: 14540
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,13 +32,13 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -65,7 +65,7 @@ Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: func
 | Functional-architecture exception bias | Functional architecture is normalized as `FunctionalStructure`, not a peer ontology. |
 | Module bias | Function/module allocation uses correspondence or module/interface repair; function and module remain distinct. |
 | Mathematical bias | Mathematical function wording is assigned to C.29 when used as a lens. |
-| Check-only bias | Every conformance item carries a repair move or neighboring exit. |
+| Check-only bias | Every conformance item carries a repair move or exact governing pattern application. |
 
 This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 

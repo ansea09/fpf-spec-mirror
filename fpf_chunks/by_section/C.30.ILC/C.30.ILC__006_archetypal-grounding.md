@@ -6,12 +6,12 @@ section_id: "C.30.ILC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__006_archetypal-grounding.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:5 — Archetypal Grounding"
-line_start: 51987
-line_end: 51993
+line_start: 52425
+line_end: 52431
 dependencies:
   - "A.10"
   - "A.22"
@@ -44,5 +44,5 @@ keywords:
 | Archetype | Without C.30.ILC | With C.30.ILC |
 |---|---|---|
 | System | A residual across component, system, control, or environment scopes is called generic complexity. | The affected declared scopes and structure kinds are named, and the first architecture move is bounded. |
-| Episteme | A diagram, measurement note, or conflict memo is read as if it already selected a repair. | The record preserves the cue, separates support from decision, and exits to the governing pattern when evidence, measurement, selection, or mediation is live. |
+| Episteme | A diagram, measurement note, or conflict memo is read as if it already selected a repair. | The record preserves the cue, separates support from decision, and applies the exact governing pattern when evidence, measurement, selection, or mediation is live. |
 

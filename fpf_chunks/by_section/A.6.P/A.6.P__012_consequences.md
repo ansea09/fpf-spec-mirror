@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P"
-pattern_title: "U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+pattern_title: "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
 section_id: "A.6.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__012_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
-  - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+  - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:9 — Consequences"
-line_start: 12686
-line_end: 12701
+line_start: 12713
+line_end: 12728
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -49,6 +49,8 @@ keywords:
   - "measurement"
   - "probe"
   - "relation precision restoration"
+  - "selected support reading"
+  - "support/support-headed wording"
   - "under-specified relational language"
 ---
 

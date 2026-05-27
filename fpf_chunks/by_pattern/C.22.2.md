@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.2.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
-line_start: 42549
-line_end: 43371
+line_start: 43235
+line_end: 44056
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.P"
   - "C.22"
   - "C.22.1"
   - "C.24"
@@ -34,7 +35,6 @@ dependencies:
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.16"
   - "E.17"
   - "E.17.ID.CR"
@@ -74,7 +74,7 @@ keywords:
 
 **Do not use this when.** Do not use this pattern as a work plan, method selection, evidence pack, gate decision, autonomy permission, archive, portfolio, selected set, parity report, mathematical adequacy record, or general discussion note. Use the neighboring pattern that carries the live relation.
 
-**Builds on.** `E.2`, `E.9`, `E.10`, `E.10.SEMIO`, `A.6.P`, `A.6.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
+**Builds on.** `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `A.6.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
 
 **Coordinates with.** `C.11`, `C.18`, `C.19`, `C.22.1`, `C.24`, `C.27`, `C.28`, `A.15`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, and `E.18`.
 
@@ -201,9 +201,9 @@ Use profiles:
 
 - Thin profile: signal, context grounding and scope cut, not-wish, not-slogan, not-ticket, or not-preselected-work reason, provisional improvement check or acceptance probe, and one honest next move.
 - Standard profile: the Thin profile plus live fields needed when P2W or selector-facing use is likely: comparison-and-acceptance cue or acceptance-basis reference, mandatory constraints, risk posture, support posture, validation boundary, freshness or expiry, unknown handling, and named neighboring exits.
-- High-load profile: conditional for public, disputed, high-risk, set-derived, cross-context, semio-transformed, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, or Part-G-facing cases. It adds references and exits such as `setContextRef`, characterization, parity, support, evidence, gate, autonomy, work, temporal, causal, agentic call-planning, semio relation, and refresh references; it does not locally certify those relations.
+- High-load profile: conditional for public, disputed, high-risk, set-derived, cross-context, source-transfer-transformed, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, or Part-G-facing cases. It adds references and exits such as `setContextRef`, characterization, parity, support, evidence, gate, autonomy, work, temporal, causal, agentic call-planning, episteme/publication/source-transfer relation, and refresh references; it does not locally certify those relations.
 
-Thin is not an immature profile. When it gives the honest next move, Thin is a final conforming result for the current use. High-load is not a higher maturity claim; it is a conditional profile required when public, disputed, high-risk, set-derived, cross-context, semio-transformed, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, or Part-G-facing relations are live in the case.
+Thin is not an immature profile. When it gives the honest next move, Thin is a final conforming result for the current use. High-load is not a higher maturity claim; it is a conditional profile required when public, disputed, high-risk, set-derived, cross-context, source-transfer-transformed, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, or Part-G-facing relations are live in the case.
 
 The profile order is a reading aid, not a required transition sequence. Thin is the default entry; Standard and High-load add only liveness-triggered fields; neighboring exits are consulted after the Thin next move exposes a live relation.
 
@@ -520,7 +520,7 @@ Reliance-disposition rule for P2W receiving use:
 
 Use this rule when support posture or validation boundary may enter P2W as evidence-like, confidence-like, conformance-like, proxy-like, safety-looking, redress-bearing, or currentness-bearing support. The first C.22.2 move is to keep the result problem-side: name the P2W receiving use, unsupported use, and any live receiving-pattern exit. This rule does not add a default field family to `ProblemCard@Context`. If the Thin card already gives an honest next move and live exits, no additional reliance record is required.
 
-Support role: the disposition table below is a local P2W-reliance recognition and minimum local record aid, and the worked P2W reliance slices are regression/review slices. They are not card field lists, project checklists, or hidden SEMIO state machines. Use them only to state the supported P2W receiving use, unsupported use, and receiving-pattern exit when support posture or validation boundary is actually being relied on. This local section returns the attempted P2W use to the C.22.2 problem-side relation and named receiving-pattern exits; it does not create an extra SEMIO authority or shared relation family.
+Support role: the disposition table below is a local P2W-reliance recognition and minimum local record aid, and the worked P2W reliance slices are regression/review slices. They are not card field lists, project checklists, or hidden SEMIO state machines. Use them only to state the supported P2W receiving use, unsupported use, and receiving-pattern exit when support posture or validation boundary is actually being relied on. This local section returns the attempted P2W use to the C.22.2 problem-side relation and named receiving-pattern exits; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
 
 Affordability card: orientation, discussion, or source-finding can remain an ordinary problem-side cue; bounded P2W reliance states the supported receiving use, unsupported use, window, and exit; threshold reliance names the receiving evidence, assurance, gate, autonomy, control, work, temporal, or representation relation instead of making the card larger. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 
@@ -878,8 +878,7 @@ P2W export from `ProblemCard@Context` does not include:
 
 ### C.22.2:25 - Relations
 
-- Builds on: `E.2`, `E.9`, `E.10`, `E.10.SEMIO`, `A.6.P`, `A.6.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
+- Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `A.6.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
 - Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, and `E.18`.
 
 ### C.22.2:End
-

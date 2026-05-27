@@ -6,19 +6,21 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 53323
-line_end: 53640
+line_start: 54005
+line_end: 54322
 dependencies:
   - "E.10"
   - "E.19"
+  - "E.21"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
   - "E.7"
+  - "E.8"
   - "E.9"
   - "F.18"
 keywords:
@@ -147,7 +149,7 @@ The Alexandrian pattern canon historically calls *Problem frame* “Context”. 
 | S-10 | Punchy Blocks | <= 5 sentences per paragraph; lists for clarity. |
 | S-11 | Narrative Flow | Ensure sections read as a continuous story, not bullet soup. |
 | S-12 | Full sentences over tags | Avoid “keyword soup”. Each list item SHOULD contain a subject and a verb; prefer 2-4 sentence micro-paragraphs to bare tag lists. |
-| S-13 | SoTA-Echo craft | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt/adapt/reject)**; cite Bridges & CL when crossing Contexts/planes. |
+| S-13 | SoTA-Echo structure | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt/adapt/reject)**; cite Bridges & CL when crossing Contexts/planes. |
 | S-14 | Support-content sufficiency | New and substantially revised patterns carry enough supporting content to be teachable without nearby project notes. |
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice; scenario names alone are not enough. |
 | S-16 | Ordinary vs load-bearing realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
@@ -267,7 +269,7 @@ Human-facing fit is also subject-domain fit. A recognition text that starts from
 A pattern can already be role-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
 That failure usually appears when the text is admissible but does not yet make the working situation, practical payoff, governed object, non-use boundary, or first action-guiding move visible enough.
 
-**P-2 semantic cleanup check.** When `E.10.SEMIO` is used to repair pattern prose, the first admissible action-guiding move must survive as a remaining admissible reader move or be replaced by a named neighboring-pattern handoff that now carries the live claim. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their load maps back to Tech under `E.10:6.2`. A semantically corrected rewrite that leaves the recognition text inert is still under-authored.
+**P-2 epistemic precision check.** When `E.10` selects epistemic precision restoration for pattern prose, the first admissible action-guiding move must survive as a remaining admissible reader move or be replaced by an exact neighboring FPF pattern application that now carries the live claim. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their load maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
 
 
 For canonical patterns, the first reading text should behave as a **recognition text** and the heavier review load should remain in an **assurance text**.

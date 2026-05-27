@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
-line_start: 41417
-line_end: 41772
+line_start: 42103
+line_end: 42458
 dependencies:
   - "B.3"
   - "C.11"
@@ -289,23 +289,23 @@ changeTrigger = G5 publishes one selector-facing Shortlist or RankedShortlist no
 whyNotLocalChoice = pool governance is already complete
 ```
 
-#### C.19:4.4 - Bounded shortlist from declared source surfaces
+#### C.19:4.4 - Bounded shortlist from declared source sets
 
-- Treat `Shortlist` as the set emitted by one named lens from one declared source surface, not as a synonym for `Front`.
+- Treat `Shortlist` as the set emitted by one named lens from one declared source set, not as a synonym for `Front`.
 - If the mathematical set object must be named, treat it as the choice set underlying that shortlist rather than as one second public head.
 - When the current Context consumes the ordinary default `DefaultId.DominanceRegime`, keep `DominanceSet` equal to the declared current `Q` tuple and cite that consumed default rather than re-governing it here.
 - `Novelty@context`, `DeltaDiversity_P`, `Surprise`, and `IlluminationSummary` stay outside default dominance unless one declared `PromotionPolicy` promotes them.
 - If `Use-Value` belongs in `Q`, declare it there; do not let it drift between core objective and side note.
 - `ExplorationArchive` is the exploration-specific specialization of `Archive`; use `Archive` as the wider family head only when that exploration-specific subtype does not matter.
 - Resource bounds govern how much probing, comparison, or retention is warranted, but they do not by themselves redefine the front.
-- Decision under budget may draw from the front, from the archive, or from both, but the source surface and the decision lens must be explicit.
+- Decision under budget may draw from the front, from the archive, or from both, but the source set and the decision lens must be explicit.
 - The selected-set kernel floor here is:
   - one set-return comes first
   - one named lens acts over that declared return
-  - one `Shortlist` is emitted from that lens-declared source surface
+  - one `Shortlist` is emitted from that lens-declared source set
   - one `ShortlistId` may later name that shortlist when it must be carried as one stable public token
   - one `RankedShortlist` may appear later when the shortlist is explicitly ordered
-- `PortfolioMode` may state how the selector operated, but it does not rename the emitted set surface.
+- `PortfolioMode` may state how the selector operated, but it does not rename the emitted set result.
 - When the comparison question becomes load-bearing, the minimum mathematical substrate should stay visible:
   - the compared candidates live in one declared outcome or characteristic space
   - the archive may depend on one declared search, niche, or reachability space
@@ -319,13 +319,13 @@ whyNotLocalChoice = pool governance is already complete
 - If the shortlist later acquires order, say `RankedShortlist` and keep the prior shortlisted surface recoverable.
 - Reserve `choice set underlying that shortlist` for mathematical discussion, proofs, or object-level set operations.
 
-#### C.19:4.4.2 - Choice doctrine stays source-surface explicit
+#### C.19:4.4.2 - Choice doctrine stays source-set explicit
 
-- State the declared source surface and the declared decision lens in the same place as the shortlisted-choice rule.
-- `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may appear here when they justify choice from one declared source surface.
+- State the declared source set and the declared decision lens in the same place as the shortlisted-choice rule.
+- `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may appear here when they justify choice from one declared source set.
 - Those terms explain why another probe, defer, or stop decision is warranted; they do not rename `Front`, `Archive`, or `Shortlist`.
 - When teams need a fuller account of budgeted probing or sequencing, add that as one separate resource-aware choice explanation rather than overloading the shortlist doctrine itself.
-- Selector-facing surfaces should keep speaking about the emitted set and its source surface rather than trying to explain the whole budgeted-choice rationale there.
+- Selector-facing surfaces should keep speaking about the emitted set and its source set rather than trying to explain the whole budgeted-choice rationale there.
 
 ### C.19:5.1 - System grounding
 

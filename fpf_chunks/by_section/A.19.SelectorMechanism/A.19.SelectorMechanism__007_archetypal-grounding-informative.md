@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__007_archetypal-grounding-informative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:5 — Archetypal Grounding — informative"
-line_start: 27262
-line_end: 27308
+line_start: 27330
+line_end: 27376
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -47,7 +47,7 @@ When comparisons are partial or set‑valued, selection must not pretend there i
 
 * `SelectEligibility` returns `degrade` (or `abstain`, depending on the declared failure behavior) **because** `OptionC` fails evidence gating; selection excludes `OptionC` under an explicit policy route rather than coercing unknowns.
 * `SelectionSlot` returns `{OptionA, OptionB}` as a selected set, rather than forcing a single winner.
-* `Audit` records `CGSpecRef.edition`, the effective evidence policy, and the stable identity of the selected set surface.
+* `Audit` records `CGSpecRef.edition`, the effective evidence policy, and the stable identity of the selected set result.
 
 #### A.19.SelectorMechanism:5.3 - Show, U.Episteme example
 

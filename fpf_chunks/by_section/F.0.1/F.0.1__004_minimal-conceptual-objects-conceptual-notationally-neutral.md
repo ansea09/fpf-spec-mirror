@@ -6,12 +6,12 @@ section_id: "F.0.1:3"
 section_title: "Minimal Conceptual Objects (conceptual, notationally neutral)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__004_minimal-conceptual-objects-conceptual-notationally-neutral.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:3 — Minimal Conceptual Objects (conceptual, notationally neutral)"
-line_start: 64976
-line_end: 65005
+line_start: 65183
+line_end: 65212
 dependencies:
   - "A.1.1"
   - "A.11"

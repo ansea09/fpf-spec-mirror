@@ -6,12 +6,12 @@ section_id: "A.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__013_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:12 — Relations"
-line_start: 28565
-line_end: 28572
+line_start: 28621
+line_end: 28628
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -38,7 +39,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -47,7 +47,7 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture support"
+  - "architecture-description claim"
   - "preserved/lost structure"
   - "selected structure"
   - "source return"
@@ -58,7 +58,7 @@ keywords:
 
 ### A.22:12 - Relations
 
-Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `E.10.SEMIO`, `E.17.0`, `E.17.1`, and `F.18`.
+Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, and `F.18`.
 
 Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and named receiving patterns for structure-information, equivalence, and synthesis claims when those claim kinds are live.
 

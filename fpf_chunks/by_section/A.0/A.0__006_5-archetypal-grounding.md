@@ -6,15 +6,15 @@ section_id: "A.0:section-005"
 section_title: "5) Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__006_5-archetypal-grounding.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-005 — 5) Archetypal Grounding"
 line_start: 935
 line_end: 953
 dependencies:
-  - "A.19.SUPPORT-VIEW"
-  - "A.19.SURF-SPACE"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.5"
   - "B.5"
   - "B.5.2.1"
@@ -34,14 +34,14 @@ keywords:
   - "& queries. novelty"
   - "BLP"
   - "CL^plane"
-  - "CrossSurfaceSupportView"
+  - "DeclaredSubstrateInterpretiveView"
   - "OutcomeSpaceRef"
   - "ParetoOnly default"
   - "ReferencePlane"
   - "SearchSpaceRef"
   - "TypedSetViews"
   - "comparability"
-  - "declared set surface"
+  - "declared set result"
   - "explore/exploit (E/E-LOG)"
   - "explore/exploit (E/E‑LOG)"
   - "illumination map (report‑only telemetry)"
@@ -70,5 +70,5 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 
 **Show‑Epi - Evidence synthesis (U.Episteme).**
 *Frame.* A living review compares rival **causal identification** methods (e.g., IV vs. DiD vs. RCT‑adjacent surrogates) across policy domains.
-*Glossary in action.* `U = external‑validity gain @ F/G‑declared lanes`, `C = ethics & data‑licence constraints`, `N = dissimilarity in **ClaimGraph** transformations`, `D_P = coverage of identification niches in the archive`. `ReferencePlane = episteme`. Illumination/coverage stays **report‑only telemetry**; selection returns a declared retained-set surface or portfolio-publication view of methods per niche. *(Publish UTS rows; cite Bridges + CL for cross‑domain reuse; edition‑pin Descriptor/Distance defs where QD applies.)*
+*Glossary in action.* `U = external‑validity gain @ F/G‑declared lanes`, `C = ethics & data‑licence constraints`, `N = dissimilarity in **ClaimGraph** transformations`, `D_P = coverage of identification niches in the archive`. `ReferencePlane = episteme`. Illumination/coverage stays **report‑only telemetry**; selection returns a declared retained-set result or portfolio-publication view of methods per niche. *(Publish UTS rows; cite Bridges + CL for cross‑domain reuse; edition‑pin Descriptor/Distance defs where QD applies.)*
 

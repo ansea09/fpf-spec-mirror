@@ -6,20 +6,21 @@ section_id: "E.10:9.1"
 section_title: "Guarded-head cross-reference (normative lexical caution)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_guarded-head-cross-reference-normative-lexical-caution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:9.1 — Guarded-head cross-reference (normative lexical caution)"
-line_start: 54789
-line_end: 54797
+line_start: 56133
+line_end: 56141
 dependencies:
   - "A.10"
   - "A.15"
   - "A.2"
+  - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
-  - "E.10.SEMIO"
+  - "C.2.P"
   - "E.5"
   - "F.18"
   - "F.5"

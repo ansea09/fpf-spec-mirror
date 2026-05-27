@@ -6,12 +6,12 @@ section_id: "C.2.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__004_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:3 — Forces"
-line_start: 33837
-line_end: 33847
+line_start: 33893
+line_end: 33903
 dependencies:
   - "A.1"
   - "A.6.2"

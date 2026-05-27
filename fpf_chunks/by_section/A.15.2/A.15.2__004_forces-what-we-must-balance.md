@@ -6,12 +6,12 @@ section_id: "A.15.2:3"
 section_title: "Forces (what we must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__004_forces-what-we-must-balance.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:3 — Forces (what we must balance)"
-line_start: 20616
-line_end: 20626
+line_start: 20687
+line_end: 20697
 dependencies:
   - "A.15"
   - "U.Work"

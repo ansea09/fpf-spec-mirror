@@ -6,12 +6,12 @@ section_id: "C.30.ASV:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 51303
-line_end: 51316
+line_start: 51986
+line_end: 51999
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,6 +24,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -33,7 +34,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -62,7 +62,7 @@ keywords:
 | **Publication-face collapse** | A diagram, model, table, dashboard, generated relation graph, ADR, or C4 view is treated as the ASV record. | Recover source episteme/view and publication relation; open an ASV record only if the view changes action. |
 | **Single-view decision** | A decision uses one architecture view as if it covered all affected structures. | Name affected structures and view refs, or narrow the decision to the single view's admissible use. |
 | **Lost-structure silence** | Extracted, generated, coarsened, or compressed views hide distinctions but still support action. | Add hidden/lost structure and source-return condition, or narrow admissible use. |
-| **Proof overread** | The structural view is used as evidence sufficiency, safety proof, causal proof, gate decision, or work record. | Assign the live claim to the governing neighboring pattern and keep ASV only to view adequacy. |
-| **Risk color as security architecture** | A red, yellow, or green risk cell, risk matrix, maturity score, or compliance color stands in for `SecurityTrustBoundaryStructure` or resource-allocation priority. | Recover protected asset or effect, trust boundary, untrusted input, privilege or authority relation, data/control flow, abuse or misuse path, and the neighboring evidence, assurance, measurement, causal, gate, selection, or allocation claim kind if it is live; do not treat ordinal risk color as security architecture adequacy, resource-allocation support, or gate passage. |
+| **Proof overread** | The structural view is used as evidence sufficiency, safety proof, causal proof, gate decision, or work record. | Assign the live claim to the governing exact governing pattern and keep ASV only to view adequacy. |
+| **Risk color as security architecture** | A red, yellow, or green risk cell, risk matrix, maturity score, or compliance color stands in for `SecurityTrustBoundaryStructure` or resource-allocation priority. | Recover protected asset or effect, trust boundary, untrusted input, privilege or authority relation, data/control flow, abuse or misuse path, and the exact evidence, assurance, measurement, causal, gate, selection, or allocation claim kind if it is live; do not treat ordinal risk color as security architecture adequacy, resource-allocation priority, or gate passage. |
 | **Taxonomy without action** | The text classifies a view but does not say what changes in practice. | Add `admissibleArchitectureMove` or stop at Plain recognition wording. |
 

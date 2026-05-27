@@ -6,12 +6,12 @@ section_id: "C.3:section-011"
 section_title: "10 - Review & integration guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__012_10-review-integration-guidance.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:section-011 — 10 - Review & integration guidance"
-line_start: 37037
-line_end: 37075
+line_start: 37723
+line_end: 37761
 dependencies:
   - "A.1"
   - "A.2.6"

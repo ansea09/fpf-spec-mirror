@@ -6,19 +6,19 @@ section_id: "E.21:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.21 — FPF Pattern Quality Characteristic Space"
   - "E.21:7 — Conformance Checklist"
-line_start: 64719
-line_end: 64777
+line_start: 64930
+line_end: 64988
 dependencies:
   - "A.17-A.19"
   - "A.6.P"
   - "A.6.Q"
   - "C.16"
+  - "C.2.P"
   - "C.25"
-  - "E.10.SEMIO"
   - "E.11"
   - "E.17.AUD"
   - "E.19"
@@ -83,7 +83,7 @@ keywords:
 | **CC-E21-32 (Architectural owner map).** | A conforming `E.21` read **SHALL** state or preserve the owner boundary between `E.21` and live neighbouring patterns when authoring, review, measurement, naming, evidence, assurance, gate, release, work, or project-side claims are involved. | Prevents `E.21` from becoming a central quality-governance subsystem. |
 | **CC-E21-33 (Layer activation).** | A conforming `E.21` read **SHALL** use the lowest activation layer sufficient for the declared claim. Front, archive, telemetry, and full support-card apparatus **SHALL NOT** be required for a first-pass read unless the claim makes them live. | Preserves affordability and prevents bureaucracy. |
 | **CC-E21-34 (Replayable quality read).** | A `PatternQualityQBundle` **SHALL** be replayable from its pinned pattern version, reader/use/scope/window, active eligibility rows, active coordinates, evidence refs, status payload, and stop/non-stop reason, without relying on chat memory or administrative placement state. | Preserves auditability without requiring a process log. |
-| **CC-E21-35 (No neighbour substitution).** | `E.21` **SHALL NOT** absorb the governed object of `E.8`, `E.19`, `C.25`, `C.16`/`A.17`/`A.18`/`A.19`, `F.18`/`E.10`/`A.6.P`, or project-side evidence, assurance, gate, work, and release patterns. When such a claim is live, `E.21` **SHALL** route it by value. | Preserves modularity and composability. |
+| **CC-E21-35 (No neighbour substitution).** | `E.21` **SHALL NOT** absorb the governed object of `E.8`, `E.19`, `C.25`, `C.16`/`A.17`/`A.18`/`A.19`, `F.18`/`E.10`/`A.6.P`, or project-side evidence, assurance, gate, work, and release patterns. When such a claim is live, `E.21` **SHALL** name the exact receiving pattern application by value. | Preserves modularity and composability. |
 | **CC-E21-36 (Smallest live reopen).** | A refresh or telemetry signal **SHALL** reopen the smallest affected locus: source stance, neighbour relation, coordinate reading, worked case, name, eligibility row, status payload, or stop condition. The whole quality read reopens only when that local change can change status or stop. | Preserves evolvability without whole-pattern churn. |
 | **CC-E21-37 (Status is not authority).** | `PatternQualityStatus` **SHALL** remain an admissible-use posture for the pattern-quality claim and **SHALL NOT** be used as project approval/refusal, gate decision, release state, assurance level, compliance verdict, safety certificate, or work authority. | Preserves scope safety and trust calibration. |
 | **CC-E21-38 (No quality veto without content locus).** | A blocking pattern-quality finding **SHALL** name the exact activated eligibility row, coordinate, status payload, or stop-condition clause, plus content evidence and the first admissible repair or bounded non-use. | Prevents pattern-quality review from becoming reviewer authority theatre. |
@@ -93,7 +93,7 @@ keywords:
 | **CC-E21-42 (Bounded non-use as valid outcome).** | `admissibleWithNarrowerUse` **SHALL** be used when a pattern is not ordinary-use admissible but remains useful for a named narrower reader/use/scope. | Prevents unnecessary rewrite churn and preserves useful legacy/support material. |
 | **CC-E21-43 (High-value falsifiability hook).** | Coordinate values `4` or `5`, and any coordinate supporting `admissibleForDeclaredUse` or `StopCondition`, **SHALL** state a lowering condition or content discovery that would reopen or lower the read. | Makes high quality claims falsifiable without adding a full harness. |
 | **CC-E21-44 (Support retention test).** | Support material **SHALL** remain active only when the read states what quality breakage would return if that material were absent. | Prevents support material from becoming folklore, hidden authority, or permanent reader cost. |
-| **CC-E21-45 (Pattern text vs pattern application).** | `E.21` **SHALL NOT** be used to certify that a project correctly applied a pattern. It reads the quality of the pattern version; project/application claims route to exact receiving patterns. | Preserves FPF-side and project-side boundaries. |
+| **CC-E21-45 (Pattern text vs pattern application).** | `E.21` **SHALL NOT** be used to certify that a project correctly applied a pattern. It reads the quality of the pattern version; project/application claims remain under exact receiving patterns. | Preserves FPF-side and project-side boundaries. |
 | **CC-E21-46 (High-assurance separation).** | High-assurance support **SHALL NOT** make the ordinary pattern body harder to use unless the ordinary use itself changes. | Keeps ordinary action guidance alive while allowing stronger support where live. |
 | **CC-E21-47 (Activation-normalized coordinates).** | `PatternQualityCharacteristicSpace` **SHALL NOT** be used as one flat always-on audit grid. Each coordinate **SHALL** state its activation class, and inactive coordinates **SHALL NOT** count as pass, waiver, or hidden failure. | Prevents characteristic bloat and hidden checklist control. |
 | **CC-E21-48 (Hard blockers stay out of dominance).** | `firstMoveRecoverability`, hard measurement illegality, shadow neighbour authority, administrative proxy use, and live mission/pillar conflict **SHALL** be treated as eligibility blockers when activated, not weak coordinate values. | Prevents hard failures from being averaged or front-compared away. |

@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `ae1ff1c7a231a2ec78d244b40d7805a5538c6608`
+Commit SHA: `562813fb466950d9c49bc6d2e76ec2626f4df697`
 
 Chunking method: `pattern-aware`
 
@@ -41,7 +41,7 @@ Patterns: `219`
 - [A.6.3.CR — ConservativeRetextualization — same-described-entity textual re-expression](by_pattern/A.6.3.CR.md)
 - [A.6.3.RT — RepresentationTransduction — same-described-entity representation-scheme transition](by_pattern/A.6.3.RT.md)
 - [A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism](by_pattern/A.6.4.md)
-- [A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
+- [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
 - [A.6.Q — U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)](by_pattern/A.6.Q.md)
 - [A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
 - [A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)](by_pattern/A.6.F.md)
@@ -72,8 +72,8 @@ Patterns: `219`
 - [A.17 — Canonical “Characteristic” (A.CHR‑NORM)](by_pattern/A.17.md)
 - [A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)](by_pattern/A.18.md)
 - [A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)](by_pattern/A.19.md)
-- [A.19.SURF-SPACE — Cross-Surface and Cross-Space Substrate](by_pattern/A.19.SURF-SPACE.md)
-- [A.19.SUPPORT-VIEW — Cross-Surface Support View](by_pattern/A.19.SUPPORT-VIEW.md)
+- [A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate](by_pattern/A.19.SOURCE-SET-SPACE-SUBSTRATE.md)
+- [A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View](by_pattern/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW.md)
 - [A.19.CN — CN‑frame (comparability & normalization)](by_pattern/A.19.CN.md)
 - [A.19.CHR — CHRMechanismSuite](by_pattern/A.19.CHR.md)
 - [A.19.UNM — Unified Normalization Mechanism (UNM)](by_pattern/A.19.UNM.md)
@@ -111,6 +111,7 @@ Patterns: `219`
 - [B.5.3 — Role-Projection Bridge](by_pattern/B.5.3.md)
 - [C.2 — Epistemic holon composition (KD-CAL)](by_pattern/C.2.md)
 - [C.2.1 — U.Episteme — Epistemes and their slot graph](by_pattern/C.2.1.md)
+- [C.2.P — Epistemic Precision Restoration](by_pattern/C.2.P.md)
 - [C.2.2 — Reliability R in the F–G–R triad](by_pattern/C.2.2.md)
 - [C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace](by_pattern/C.2.2a.md)
 - [C.2.3 — Unified Formality Characteristic F](by_pattern/C.2.3.md)
@@ -151,9 +152,9 @@ Patterns: `219`
 - [C.29 — Mathematical Lens Adequacy (MLA)](by_pattern/C.29.md)
 - [C.30 — Architecture Description Adequacy (ADA)](by_pattern/C.30.md)
 - [C.30.ASV — Architecture Structural View Adequacy (ASV)](by_pattern/C.30.ASV.md)
-- [C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
 - [C.30.LCA — Control Structure View Adequacy (LCA)](by_pattern/C.30.LCA.md)
 - [C.30.ILC — Cross-Scope Architecture Residual Triage](by_pattern/C.30.ILC.md)
+- [C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
 - [D.5 — Bias-Audit & Ethical Assurance](by_pattern/D.5.md)
 - [E.1 — Vision & Mission: “Operating System for Thought”](by_pattern/E.1.md)
 - [E.2 — The Eleven Pillars](by_pattern/E.2.md)
@@ -169,7 +170,6 @@ Patterns: `219`
 - [E.8 — FPF Authoring Conventions & Style Guide](by_pattern/E.8.md)
 - [E.9 — Design‑Rationale Record (DRR) Method](by_pattern/E.9.md)
 - [E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)](by_pattern/E.10.md)
-- [E.10.SEMIO — Episteme-Publication Semantic Rewrite Discipline](by_pattern/E.10.SEMIO.md)
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
 - [E.10.D2 — Intension–Description–Specification Discipline (I/D/S)](by_pattern/E.10.D2.md)

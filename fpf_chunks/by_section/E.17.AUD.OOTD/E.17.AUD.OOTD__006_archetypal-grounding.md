@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__006_archetypal-grounding.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
   - "E.17.AUD.OOTD:5 — Archetypal grounding"
-line_start: 62194
-line_end: 62248
+line_start: 62406
+line_end: 62460
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,8 +26,8 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.2.2a"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17.AUD.LHR"
   - "E.17.EFP"
@@ -39,7 +39,7 @@ keywords:
 
 ### E.17.AUD.OOTD:5 - Archetypal grounding
 
-**Worked-slice status.** Read the architecture, operations, semio-heavy, comparison-return-to, and changed-described-entity cases as a heterogeneous example bank, not as one recommended progression.
+**Worked-slice status.** Read the architecture, operations, episteme-publication-heavy, comparison-return-to, and changed-described-entity cases as a heterogeneous example bank, not as one recommended progression.
 
 #### E.17.AUD.OOTD:5.1 - Architecture note shifting into rollout work
 

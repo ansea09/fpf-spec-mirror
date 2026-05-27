@@ -6,12 +6,12 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
   - "C.18:4 — Solution"
-line_start: 41228
-line_end: 41276
+line_start: 41914
+line_end: 41962
 dependencies:
   - "A.1"
   - "A.15"

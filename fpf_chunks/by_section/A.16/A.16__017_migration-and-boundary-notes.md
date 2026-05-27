@@ -6,12 +6,12 @@ section_id: "A.16:16"
 section_title: "Migration and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__017_migration-and-boundary-notes.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:16 — Migration and Boundary Notes"
-line_start: 21667
-line_end: 21674
+line_start: 21738
+line_end: 21745
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -48,5 +48,5 @@ keywords:
 Older prose that narrates a cue as moving from "informal to formal" should be unpacked into the relevant `A.16` move plus the relevant facet, route-state, and authority changes. A single-factor maturity story is not enough.
 
 #### A.16:16.2 - Boundary reminder
-If authors find themselves using `A.16` to justify measurement admissibility, bridge substitution, endpoint ontology, or slot-explicit semantic repair, they have crossed out of this governing pattern's scope.
+If authors find themselves using `A.16` to justify measurement admissibility, bridge substitution, endpoint ontology, or slot-explicit epistemic precision repair, they have crossed out of this governing pattern's scope.
 

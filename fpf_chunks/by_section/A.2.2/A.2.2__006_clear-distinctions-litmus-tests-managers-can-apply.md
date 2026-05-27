@@ -6,7 +6,7 @@ section_id: "A.2.2:5"
 section_title: "Clear distinctions (litmus tests managers can apply)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__006_clear-distinctions-litmus-tests-managers-can-apply.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:5 — Clear distinctions (litmus tests managers can apply)"

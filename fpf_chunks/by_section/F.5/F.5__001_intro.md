@@ -6,12 +6,12 @@ section_id: "F.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:intro — Intro"
-line_start: 66569
-line_end: 66576
+line_start: 66774
+line_end: 66781
 dependencies:
   - "A.11"
   - "A.7"

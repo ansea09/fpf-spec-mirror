@@ -6,12 +6,12 @@ section_id: "E.18:13"
 section_title: "Bias‑Annotation (per E.8 SG‑bias slot)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__014_bias-annotation-per-e-8-sg-bias-slot.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:13 — Bias‑Annotation (per E.8 SG‑bias slot)"
-line_start: 62813
-line_end: 62822
+line_start: 63024
+line_end: 63033
 dependencies:
   - "A.2.6"
   - "A.20"

@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__007_bias-annotation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:6 — Bias-Annotation"
-line_start: 51523
-line_end: 51536
+line_start: 52668
+line_end: 52681
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,12 +22,12 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.16"
+  - "C.2.P"
   - "C.28"
   - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.18"

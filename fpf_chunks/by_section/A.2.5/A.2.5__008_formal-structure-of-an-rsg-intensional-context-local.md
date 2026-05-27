@@ -6,7 +6,7 @@ section_id: "A.2.5:7"
 section_title: "Formal structure of an RSG (intensional, context‑local)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__008_formal-structure-of-an-rsg-intensional-context-local.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:7 — Formal structure of an RSG (intensional, context‑local)"

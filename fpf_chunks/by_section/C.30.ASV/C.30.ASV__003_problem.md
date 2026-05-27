@@ -6,12 +6,12 @@ section_id: "C.30.ASV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__003_problem.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:2 — Problem"
-line_start: 50732
-line_end: 50746
+line_start: 51415
+line_end: 51429
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,6 +24,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -33,7 +34,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -54,7 +54,7 @@ keywords:
 
 ### C.30.ASV:2 - Problem
 
-An architecture structural view is not a generic view. It is a D/S view over one or more `candidate:U.Structure` references selected by an `ArchitectureOf@Context` claim record. A conforming architecture structural view keeps the D/S relation, described entity, bounded context, structure references, structure kind, viewpoint, hidden or lost structure, correspondence, support relation, source return, and admissible use recoverable.
+An architecture structural view is not a generic view. It is a D/S view over one or more `candidate:U.Structure` references selected by an `ArchitectureOf@Context` claim record. A conforming architecture structural view keeps the D/S relation, described entity, bounded context, structure references, structure kind, viewpoint, hidden or lost structure, correspondence, source or reliance relation, source return, and admissible use recoverable.
 
 Without this pattern:
 

@@ -6,12 +6,12 @@ section_id: "C.29:11"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__013_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:11 — Conformance checklist"
-line_start: 49819
-line_end: 49855
+line_start: 50504
+line_end: 50540
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,12 +28,12 @@ dependencies:
   - "C.16"
   - "C.18.1"
   - "C.19.1"
+  - "C.2.P"
   - "C.26"
   - "C.27"
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
@@ -92,7 +92,7 @@ keywords:
 | `CC-MLA-14 Bridge discipline` | Cross-context mathematical transfer cites `F.9`; Bridge and MLA fields agree without duplicate writing. | Keeps semantics bounded. |
 | `CC-MLA-15 Causal-use discipline` | Causal-use claims apply `C.28`; MLA cannot make causal use admissible by itself. | Blocks causal laundering. |
 | `CC-MLA-16 Assurance discipline` | Assurance, release, reliability, and engineering-justification claims apply `A.10`, `B.3`, and relevant G patterns. | Prevents elegance from raising assurance directly. |
-| `CC-MLA-17 E.10.SEMIO recovery` | Broad heads, source/target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to exact FPF kinds, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
+| `CC-MLA-17 C.2.P recovery` | Broad heads, source/target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to exact FPF kinds, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
 | `CC-MLA-18 Plain/Tech balance` | A Plain sentence can remain when it aids recognition; if it carries ontology, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim force, that claim force is recovered through the Tech fields or neighboring pattern. | Preserves didactic force without shadow semantics. |
 | `CC-MLA-19 Non-use and false-positive bank` | The pattern includes non-use examples for ordinary local domain equations, local graph data structures, A.19 overlays, local category proofs, and one-off metaphors. | Prevents MLA-everywhere. |
 | `CC-MLA-20 Repair matrix` | Failed checks map to repair outputs: downgrade, narrow, add loss, add evidence, choose rival lens, apply neighbor, or block overread. | Keeps MLA as repair pattern. |

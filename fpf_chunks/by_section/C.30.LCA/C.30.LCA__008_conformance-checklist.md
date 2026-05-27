@@ -6,12 +6,12 @@ section_id: "C.30.LCA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__008_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:7 — Conformance Checklist"
-line_start: 51795
-line_end: 51809
+line_start: 52233
+line_end: 52247
 dependencies:
   - "A.10"
   - "A.20"
@@ -47,9 +47,9 @@ keywords:
 | CC-LCA-2 | A conforming use records control roles and relations: planner, regulator/controller, observer/estimator, plant or controlled system, supervisor, or the local subset actually present. | Keeps the view action-guiding. |
 | CC-LCA-3 | A conforming use distinguishes control layer, declared system level, aggregation scope, rate band, organization level, work/evidence scope, and scale window when any of those labels carry a live claim. | Prevents pseudo-level or pseudo-layer overread. |
 | CC-LCA-4 | A conforming use records observation, actuation, feedback, and externality boundaries when they are live in the view. | Makes the control relation inspectable. |
-| CC-LCA-5 | Stability, safety, dynamics, temporal adequacy, causal use, evidence, gate, and assurance claims are assigned to their governing neighboring patterns. | Prevents LCA-as-proof. |
-| CC-LCA-6 | `B.2.5` is used only as a supervisor-subholon feedback-loop relation or check pattern, not as proof of stability, safety, evidence, gate validity, or assurance. | Keeps existing FPF control support bounded. |
-| CC-LCA-7 | A TGA path slice used by the control view remains a flow/transduction description or support relation, not the control structure itself. | Keeps TGA and LCA relations distinct. |
+| CC-LCA-5 | Stability, safety, dynamics, temporal adequacy, causal use, evidence, gate, and assurance claims are assigned to their governing exact governing patterns. | Prevents LCA-as-proof. |
+| CC-LCA-6 | `B.2.5` is used only as a supervisor-subholon feedback-loop relation or check pattern, not as proof of stability, safety, evidence, gate validity, or assurance. | Keeps existing FPF control relation bounded. |
+| CC-LCA-7 | A TGA path slice used by the control view remains a flow/transduction description or relation to E.18, not the control structure itself. | Keeps TGA and LCA relations distinct. |
 | CC-LCA-8 | A C.29 or mathematical-lens use is opened when LCA is transferred across domains or used for prediction, reusable explanation, or assurance input. | Preserves mathematical-lens adequacy. |
 | CC-LCA-9 | The record states admissible use, non-admissible use, and source-return condition. | Prevents narrowed recognition from becoming unchecked reliance. |
 

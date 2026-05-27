@@ -6,12 +6,12 @@ section_id: "E.17.AUD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:intro — Intro"
-line_start: 61355
-line_end: 61416
+line_start: 61570
+line_end: 61631
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,15 +27,17 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17"
+  - "E.17.AUD"
   - "E.17.AUD.LHR"
   - "E.17.AUD.OOTD"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
+  - "E.21"
   - "F.18"
 keywords:
 ---
@@ -95,7 +97,7 @@ When any of those roles is load-bearing, record the selected role in the working
 
 | Situation | What is really happening | Honest next reading |
 | --- | --- | --- |
-| A semio-heavy note keeps using vague lexical heads such as `review`, `reading`, or `interpretation` | the whole unit is mostly stable, but one overloaded local lexical head is doing too much semantic work | stay local with `Local Head Restoration` |
+| An episteme-publication-heavy note keeps using vague lexical heads such as `review`, `reading`, or `interpretation` | the whole unit is mostly stable, but one overloaded local lexical head is doing too much semantic work | stay local with `Local Head Restoration` |
 | An architecture or status memo starts about one bounded question, then quietly starts sounding like rollout, approval, go or no-go, or assignment publication | the publication unit now carries a quiet shift in primary described entity or carried publication move | apply `PublicationUnit Primary Described-Entity Discipline` |
 | A comparison sheet already keeps one stable primary described entity and one clear boundary, but reviewers keep treating it as if it needed whole-unit rescue | the unit is stable enough; the active problem situation is bounded contrast over already available source publications | apply `ComparativeReading` |
 | An onboarding explainer, dashboard card, or review note starts to act as if cleaner prose alone licensed an unsupported policy claim, assurance claim, work claim, or reliance claim | the problem situation has left publication-unit stability and entered a neighboring explanation problem or downstream claim or effect | apply the neighboring governing pattern instead of keeping the case inside publication-unit stability |

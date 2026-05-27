@@ -6,12 +6,12 @@ section_id: "A.6.F:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__011_rationale.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:10 — Rationale"
-line_start: 14552
-line_end: 14559
+line_start: 14579
+line_end: 14586
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,13 +32,13 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -59,7 +59,7 @@ keywords:
 
 Function-like wording is too useful to ban and too overloaded to leave ungoverned. The smallest useful repair is not a new ontology. It is carrier assignment: say what kind of thing the phrase is about, what it is not about, and what move remains admissible.
 
-This design follows A.6.P: trigger phrase, carrier recovery, explicit relation or support fields, and lexical guardrails. It also follows C.30: functional architecture is selected structure for a described holon, not a peer of architecture and not a TGA graph by itself.
+This design follows A.6.P: trigger phrase, carrier recovery, explicit relation fields and exact governing pattern fields, and lexical guardrails. It also follows C.30: functional architecture is selected structure for a described holon, not a peer of architecture and not a TGA graph by itself.
 
-The pattern keeps ordinary language alive. A phrase can remain Plain when it carries no live FPF claim. When it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind, the carrier and neighboring-pattern exit are recoverable.
+The pattern keeps ordinary language alive. A phrase can remain Plain when it carries no live FPF claim. When it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind, the carrier and exact governing pattern application are recoverable.
 

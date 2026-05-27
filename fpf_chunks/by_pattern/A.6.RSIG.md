@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RSIG.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
 line_start: 7357
@@ -236,7 +236,7 @@ This pattern does not mint:
 - one standalone `U.Discoverability`;
 - one new `U.Signature`, Signature Stack object, `U.Characteristic`, `CHR`, or
   local `Q-Bundle`;
-- one `SurfaceKind`, `DescriptionKind`, relation kind, graph ontology, route-publication
+- one `SurfaceKind`, `DescriptionKind`, relation kind, graph ontology, pattern-reference publication
   graph, or process-family claim;
 - one universal reader-orientation role.
 
@@ -423,7 +423,7 @@ This pattern is an `FPF`-local synthesis, not an established external term. It
 carries the modern practice concern only where that concern sharpens one
 description-facing recognition question: can the reader recover the right
 description, its carrier or projection, its exclusions, its defining `U.Episteme`,
-and its tempting false neighbor before relation-precision or semantic-rewrite work begins?
+and its tempting false neighbor before relation precision or epistemic precision-restoration work begins?
 
 | Pattern claim carried here | Source-bearing SoTA support (post-2015) | Alignment with `A.6.RSIG` | Adoption status and worked-slice implication |
 | --- | --- | --- | --- |

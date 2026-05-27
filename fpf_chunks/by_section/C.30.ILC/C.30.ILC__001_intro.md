@@ -6,12 +6,12 @@ section_id: "C.30.ILC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:intro — Intro"
-line_start: 51853
-line_end: 51858
+line_start: 52291
+line_end: 52296
 dependencies:
   - "A.10"
   - "A.22"

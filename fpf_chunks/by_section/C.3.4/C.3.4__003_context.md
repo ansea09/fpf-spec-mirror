@@ -6,12 +6,12 @@ section_id: "C.3.4:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__003_context.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:2 — Context"
-line_start: 37996
-line_end: 38000
+line_start: 38682
+line_end: 38686
 dependencies:
   - "C.3.1"
   - "C.3.2"

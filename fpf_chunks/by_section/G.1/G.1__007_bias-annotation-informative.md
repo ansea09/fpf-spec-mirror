@@ -6,12 +6,12 @@ section_id: "G.1:6"
 section_title: "Bias‑Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__007_bias-annotation-informative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:6 — Bias‑Annotation (informative)"
-line_start: 73204
-line_end: 73211
+line_start: 73414
+line_end: 73421
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -40,13 +40,13 @@ keywords:
   - "SoTA_SetId"
   - "UTS/Name Cards"
   - "VariantPoolId"
-  - "and set-surface scaffold"
+  - "and set-result scaffold"
   - "edition pins"
   - "generator"
   - "generator chassis"
   - "selector"
+  - "set-result outcome"
   - "set-return selection"
-  - "set-surface outcome"
   - "shipping and refresh boundaries"
   - "six-card kit (M1-M6)"
 ---

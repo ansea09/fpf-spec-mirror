@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.H.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
-line_start: 17679
-line_end: 18044
+line_start: 17751
+line_end: 18116
 dependencies:
   - "A.14"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 > **Normativity:** Normative
 
 **Placement.** A.6 precision-restoration cluster; a lexical front-end to mereology and Γ selection.
-**Specialises.** A.6.P Relational Precision Restoration Suite.
+**Specialises.** A.6.P Relational Precision Restoration (RPR).
 **Works alongside.** A.14 (mereology extension), B.1.1 (edge selection), B.1.4 (Γ_ctx/Γ_time), A.15 (role–method–work).
 **Template discipline.** Canonical section order and headings follow E.8.
 
@@ -369,7 +369,7 @@ The result is not pedantry; it is a mechanism for preventing downstream refactor
 
 SoTA-Pack: Viewpoint discipline + relation typing + boundary-aware responsibility (lexically enforced).
 
-This section follows the required craft: claim → practice → source → alignment → adoption status.
+This section follows the required structure: claim → practice → source → alignment → adoption status.
 
 | Tradition                                     | SoTA practice (post‑2015)                                                                                                                                                              | Primary source (post‑2015)                       | Alignment with this pattern                                                                                                                                                                           | Adoption status                                                                                                       |
 | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -384,7 +384,7 @@ Scale legality note: whenever “fraction/percentage/share” appears in wholene
 
 ### A.6.H:12 - Relations
 
-* **Specialises:** A.6.P Relational Precision Restoration Suite.
+* **Specialises:** A.6.P Relational Precision Restoration (RPR).
 * **Front-ends:** A.14 Advanced Mereology; B.1.1 edge selection guide — by turning prose triggers into typed edge choices.
 * **Coordinates with:** B.1.4 Γ_ctx/Γ_time — to route order/time away from structure; A.15 Role–Method–Work Alignment — for “completeness/end-to-end” coverage language (capability/spec/evidence).
 * **Informs examples:** F.18 vocabulary pitfalls (module/component, batch/lot) as recurring wholeness-word traps.

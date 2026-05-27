@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__009_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:7 — Conformance Checklist"
-line_start: 27321
-line_end: 27340
+line_start: 27389
+line_end: 27408
 dependencies:
 keywords:
   - "SelectEligibility"

@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 61833
-line_end: 61951
+line_start: 62046
+line_end: 62164
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,8 +24,8 @@ dependencies:
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17.AUD"
   - "E.17.AUD.OOTD"
@@ -37,9 +37,9 @@ keywords:
 
 ### E.17.AUD.LHR:5 - Worked slices
 
-**Worked-slice status.** Read the release-boundary, publication-face, semio-heavy, bounded-comparison, publication-unit stabilization move, and outside-observation cases as a heterogeneous example bank, not as one recommended repair sequence. They show different admissible repair dispositions for this local lexical-head repair pattern: some cases stabilize after one honest lexical-head repair and stop here, some apply `E.17.ID.CR`, some apply `E.17.AUD.OOTD`, and some stop and reopen when outside observation changes what the same local sentence can honestly carry. For quickest recovery of the three main repair dispositions, read `E.17.AUD.LHR:5.2` as ordinary stay-local repair, `E.17.AUD.LHR:5.4` as admissible return to `E.17.ID.CR`, and `E.17.AUD.LHR:5.5` as admissible publication-unit apply `E.17.AUD.OOTD`. Then read `E.17.AUD.LHR:5.6` as the separate stop-and-reopen or neighboring governing-pattern move case after outside observation changes what the same local unit can honestly carry.
+**Worked-slice status.** Read the release-boundary, publication-face, episteme-publication-heavy, bounded-comparison, publication-unit stabilization move, and outside-observation cases as a heterogeneous example bank, not as one recommended repair sequence. They show different admissible repair dispositions for this local lexical-head repair pattern: some cases stabilize after one honest lexical-head repair and stop here, some apply `E.17.ID.CR`, some apply `E.17.AUD.OOTD`, and some stop and reopen when outside observation changes what the same local sentence can honestly carry. For quickest recovery of the three main repair dispositions, read `E.17.AUD.LHR:5.2` as ordinary stay-local repair, `E.17.AUD.LHR:5.4` as admissible return to `E.17.ID.CR`, and `E.17.AUD.LHR:5.5` as admissible publication-unit apply `E.17.AUD.OOTD`. Then read `E.17.AUD.LHR:5.6` as the separate stop-and-reopen or neighboring governing-pattern move case after outside observation changes what the same local unit can honestly carry.
 
-**Worked-slice mini-schema.** When a case turns semio-heavy or boundary-heavy, recover the same compact output in this order: `overloaded local lexical head | lexical-head kind | active local reading | governed object | carried move or live question | outside work | repair disposition`.
+**Worked-slice mini-schema.** When a case turns episteme-publication-heavy or boundary-heavy, recover the same compact output in this order: `overloaded local lexical head | lexical-head kind | active local reading | governed object | carried move or live question | outside work | repair disposition`.
 
 #### E.17.AUD.LHR:5.1 - `review` is really carrying two jobs
 
@@ -87,7 +87,7 @@ But the same paragraph is really about one bounded comparative-reading move over
 
 Local repair:
 - overloaded local lexical head = `interpretation`;
-- restored lexical-head kind = comparative review unit anchor inside one semio-heavy paragraph;
+- restored lexical-head kind = comparative review unit anchor inside one episteme-publication-heavy paragraph;
 - active local reading = bounded comparative reading, not wider-family package explanation;
 - governed object = comparative review unit;
 - stack restored = family `InterpretationDiscipline`, governing pattern `ComparativeReading`;

@@ -6,12 +6,12 @@ section_id: "A.19.USCM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__011_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:9 — Consequences"
-line_start: 26364
-line_end: 26377
+line_start: 26432
+line_end: 26445
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

@@ -6,12 +6,12 @@ section_id: "A.13:End"
 section_title: "A.13:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__011_a-13-end.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:End — A.13:End"
-line_start: 19541
-line_end: 19542
+line_start: 19612
+line_end: 19613
 dependencies:
   - "A.12"
   - "A.2"

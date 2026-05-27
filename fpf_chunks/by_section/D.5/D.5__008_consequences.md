@@ -6,12 +6,12 @@ section_id: "D.5:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__008_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
   - "D.5:7 — Consequences"
-line_start: 52212
-line_end: 52220
+line_start: 52894
+line_end: 52902
 dependencies:
   - "B.3"
   - "B.3.3"

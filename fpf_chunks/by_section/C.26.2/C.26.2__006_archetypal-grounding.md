@@ -6,12 +6,12 @@ section_id: "C.26.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__006_archetypal-grounding.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:5 — Archetypal Grounding"
-line_start: 45508
-line_end: 45516
+line_start: 46193
+line_end: 46201
 dependencies:
   - "A.10"
   - "A.15"

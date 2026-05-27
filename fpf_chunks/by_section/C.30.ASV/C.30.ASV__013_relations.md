@@ -6,12 +6,12 @@ section_id: "C.30.ASV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__013_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:12 — Relations"
-line_start: 51345
-line_end: 51352
+line_start: 52028
+line_end: 52035
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,6 +24,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -33,7 +34,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -54,7 +54,7 @@ keywords:
 
 ### C.30.ASV:12 - Relations
 
-Builds on: `C.30`, `A.22`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `E.10.SEMIO`, and `F.18`.
+Builds on: `C.30`, `A.22`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `C.2.P`, and `F.18`.
 
 Coordinates with: `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, the exact module/interface repair pattern when the module/interface claim kind is live, and named receiving patterns for architecture decision and candidate-set claims.
 

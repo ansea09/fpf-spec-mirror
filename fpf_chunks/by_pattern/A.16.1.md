@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
-line_start: 22048
-line_end: 22332
+line_start: 22119
+line_end: 22402
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -319,4 +319,3 @@ A reviewer can test a cue pack with four questions:
 
 Migration from legacy signal language should therefore reconstruct not just a vague "signal", but the preserved cue nucleus, its primary witness or anchor, and any directional hints that are already honestly visible.
 ### A.16.1:End
-

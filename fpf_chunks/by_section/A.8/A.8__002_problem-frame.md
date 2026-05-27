@@ -6,12 +6,12 @@ section_id: "A.8:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__002_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:1 — Problem Frame"
-line_start: 18512
-line_end: 18516
+line_start: 18584
+line_end: 18588
 dependencies:
   - "A.8"
   - "U.Types"

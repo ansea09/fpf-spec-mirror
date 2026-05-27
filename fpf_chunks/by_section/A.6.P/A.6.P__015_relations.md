@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P"
-pattern_title: "U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+pattern_title: "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
 section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__015_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
-  - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+  - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12 — Relations"
-line_start: 12727
-line_end: 12750
+line_start: 12754
+line_end: 12777
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -49,6 +49,8 @@ keywords:
   - "measurement"
   - "probe"
   - "relation precision restoration"
+  - "selected support reading"
+  - "support/support-headed wording"
   - "under-specified relational language"
 ---
 
@@ -60,19 +62,19 @@ keywords:
 * **A.6.6 `U.BaseDeclarationDiscipline`** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags).
 * **A.6.8 (RPR‑SERV)** — service polysemy unpacking as a relation/facet precision restoration discipline (serviceSituation lens + canonical rewrites + service‑specific tests and change narration).
 * **A.6.9 (RPR‑XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align / map” via explicit Bridges
-* **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole/part/integrity/complete”) into boundary, typed parthood, explicit Γ selection, order/time routing, and A.15 completeness/coverage claims.
+* **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole/part/integrity/complete”) into boundary, typed parthood, explicit Γ selection, order/time classification, and A.15 completeness/coverage claims.
 
 **Coordinates with**
 
-* **A.6.S `U.SignatureEngineeringPair`** — RPR rewrite operations can be packaged as a ConstructorSignature for engineered relation families; must preserve canonical verb mapping and effect‑free constructor semantics.
-* **A.19 `U.CharacteristicSpace` + `A.19.SUPPORT-VIEW`** — for declared characteristic spaces, guarded role references, and support-view and atlas-view discipline when one relation repair needs those layers explicit.
+* **A.6.S `U.SignatureEngineeringPair`** — RPR rewrite operations can be packaged as a ConstructorSignature for engineered relation specialisations; must preserve canonical verb mapping and effect‑free constructor semantics.
+* **A.19 `U.CharacteristicSpace` + `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`** — for declared characteristic spaces, guarded role references, and interpretive-view and atlas-view discipline when one relation repair needs those layers explicit.
 * **G.2** — for palette, front, archive, or tradition-atlas specialization when the repaired passage is SoTA-harvest or synthesis prose.
 * **F.18** — when the remaining issue is naming-side choice among candidate labels rather than relation typing or publication-lane repair.
 * **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0 + C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** - relation publication enters only after admissible language-state chart positioning, articulation, and closure support exist; earlier cue-pack material stays on the language-state seam, prompt-shaped continuations stay with `B.5.2.0`, retreat/reopen moves remain governed by `A.16.2`, and `A.16.0` is used only when lineage, branch, loss, or handoff history must itself be published.
 
 **Intended future A.6.x specialisations (illustrative)**
 
-* Cross‑Context equivalence / “sameness” discipline (Bridge + loss notes families)
-* Correspondence/consistency + repair discipline (sync/alignment families)
-* Transfer/hand‑off discipline (multi‑party “give/assign/accountability” families)
+* Cross‑Context equivalence / “sameness” discipline (Bridge + loss-note relation patterns)
+* Correspondence/consistency + repair discipline (sync/alignment relation patterns)
+* Transfer/hand‑off discipline (multi‑party “give/assign/accountability” relation patterns)
 

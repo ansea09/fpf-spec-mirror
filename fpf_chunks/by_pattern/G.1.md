@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.1.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
-line_start: 72842
-line_end: 73275
+line_start: 73052
+line_end: 73485
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -39,13 +39,13 @@ keywords:
   - "SoTA_SetId"
   - "UTS/Name Cards"
   - "VariantPoolId"
-  - "and set-surface scaffold"
+  - "and set-result scaffold"
   - "edition pins"
   - "generator"
   - "generator chassis"
   - "selector"
+  - "set-result outcome"
   - "set-return selection"
-  - "set-surface outcome"
   - "shipping and refresh boundaries"
   - "six-card kit (M1-M6)"
 ---
@@ -61,7 +61,7 @@ keywords:
 **Working‑model first (informative).** prefer working models and didactic micro‑examples; escalate to formal harnesses only when risk warrants (per E.8).
 **Non‑duplication note.** Universal Part‑G invariants (tri‑state guard, set-return, penalties→`R_eff`‑only, crossing visibility, typed RSCR triggers, Default Governing Definition Index, P2W split, linkage discipline, shipping boundary) are governed in `G.Core` and are **only cited** here.
 
-**Start here when.** You are authoring a reusable generator, selector, or set-surface scaffold rather than a one-off plan, one-off comparison, or tool-specific method recipe.
+**Start here when.** You are authoring a reusable generator, selector, or set-result scaffold rather than a one-off plan, one-off comparison, or tool-specific method recipe.
 
 **First output.** The six-card chassis `M1…M6` published as a reusable `CGKitId`-bound kit with a scope anchor, local SoTA set, variant pool, shortlist surface, and refresh-ready wiring.
 
@@ -76,7 +76,7 @@ You are authoring a **CG‑Frame** and want a **repeatable scaffold** that conne
 * a declared **scope anchor** (`CG‑FrameContext`, `describedEntity`, governing spec refs),
 * a **local SoTA set** (scoped and provenance‑anchored),
 * a **variant pool** (candidate ideas / decision options / method variants),
-* a **shortlist** (a set-surface outcome, not a forced singleton),
+* a **shortlist** (a set-result outcome, not a forced singleton),
 * **publication‑ready bindings** into Part‑F artefacts (UTS rows, Name Cards, RSCR tests, worked examples),
 * and **refresh readiness** (telemetry hooks + RSCR wiring) without redefining refresh or shipping.
 
@@ -254,7 +254,7 @@ M6 prepares *refresh‑readiness metadata* and wiring stubs; it does not define 
 | M1     | CG‑Frame brief + `describedEntity` + `CNSpecRef/CGSpecRef` (edition‑pinned) | `CG‑FrameContext` + context pins                                                       |
 | M2     | discovery inputs + inclusion criteria *(via G.2)*                           | `SoTA_SetId` (+ provenance anchors; optional UTS stubs/rows)                           |
 | M3     | `SoTA_SetId` + local constraints + emitter policy pins *(via Extensions)*   | `VariantPoolId` (+ candidate trace/provenance; optional method payload via Extensions) |
-| M4     | `VariantPoolId` + acceptance/eligibility surfaces *(via G.4/G.5)*           | `ShortlistId` (selected set / set-surface) + rationale refs                                         |
+| M4     | `VariantPoolId` + acceptance/eligibility surfaces *(via G.4/G.5)*           | `ShortlistId` (selected set / set-result) + rationale refs                                         |
 | M5     | `ShortlistId` + CHR/CAL/LOG bundle refs + UTS/Name refs                     | `CGFrameLibraryId` (library index; publish‑ready bindings)                             |
 | M6     | telemetry inputs + freshness/decay policy pins + RSCR tests                 | `CGKitId` + `RefreshReadinessCardId` (wiring to `G.11`; no orchestration governance)    |
 
@@ -429,7 +429,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 | CC‑G1‑02          | `M1` MUST bind the kit to a single `CG‑FrameContext` and MUST expose the required pins from `GCorePinSetId.PartG.AuthoringMinimal` (including `describedEntity` and `CNSpecRef/CGSpecRef` editions). `M1` MUST also expose (or explicitly cite) a `ReferenceMap` surface and MUST NOT restate its semantics (cite `G.0:CG‑Spec.ReferenceMap`).  |
 | CC‑G1‑03          | `M2` MUST be wired to `G.2` (or explicitly cite the `G.2` artefacts governed by cited patterns) and MUST be reconstructible as a scoped set, including `SoTAPaletteDescriptionId` + `SoTA_SetId` (not free‑floating prose). Provenance MUST be anchored via `A.10` for the emitted set.  |
 | CC‑G1‑04          | `M3` MUST record emitter provenance as a wiring surface, including `EmitterPolicyRef` (policy‑id/ref), edition pins, and provenance anchors (via `A.10`). Any method‑specific fields MUST be introduced only via `GPatternExtension` blocks.   |
-| CC‑G1‑05          | `M4` MUST be wired to `G.5` (or explicitly cite `G.5` artefacts governed by cited patterns) and MUST preserve set-surface outcomes. `SCRId` MUST be present (or explicitly cited to the governing definition surface) so assurance is id‑addressable; `DRRId` SHOULD be present when a decision‑rationale artefact is minted.   |
+| CC‑G1‑05          | `M4` MUST be wired to `G.5` (or explicitly cite `G.5` artefacts governed by cited patterns) and MUST preserve set-result outcomes. `SCRId` MUST be present (or explicitly cited to the governing definition surface) so assurance is id‑addressable; `DRRId` SHOULD be present when a decision‑rationale artefact is minted.   |
 | CC‑G1‑06          | `M5` MUST publish a library/index surface that points to referenced CHR/CAL/LOG artefacts and to any minted public ids (`UTSRowId[]`, Name Cards) via the canonical governing definitions (Part F), without introducing shadow specs (delegation target: `CC‑GCORE‑CN‑CG‑1` via `CC‑G1‑CoreRef`).    |
 | CC‑G1‑07          | `M6` MUST publish `CGKitId` and expose refresh‑readiness wiring: canonical `RSCRTriggerKindId[]` applicability + minimal payload pins (including `SlotFillingsPlanItemRef[]` when applicable) and RSCR test ids; orchestration semantics MUST be cited to `G.11`.  |
 | CC‑G1‑08          | Any method/discipline/generator specificity in `G.1` MUST be located in `G.1:4.4` as `GPatternExtension` blocks with `PatternScopeId`, `GPatternExtensionKind`, and `GoverningPatternId` (or `governing pattern not yet selected` only for Phase-3 seeds). If QD/illumination or Open‑Ended generator families are declared, the corresponding extension blocks MUST be present and MUST carry the edition and policy pins required by the governing pattern. |

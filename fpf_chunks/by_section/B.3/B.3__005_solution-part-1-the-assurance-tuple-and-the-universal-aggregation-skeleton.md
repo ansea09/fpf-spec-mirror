@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution-part-1-the-assurance-tuple-and-the-universal-aggregation-skeleton.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:4 — Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
-line_start: 31300
-line_end: 31584
+line_start: 31356
+line_end: 31640
 dependencies:
   - "A.10"
   - "A.12"
@@ -199,7 +199,7 @@ Use this B.3 section when the B.3 material-reliance threshold is live: reliance 
 
 `RelianceSafetyCase` is the local Tech label for this B.3 support-record role. The plain phrase is **minimum reliance safety support record**. The label is not a new FPF pattern, Core kind, safety authority, gate, policy source, approval, certificate, compliance method, or general safety-case ontology.
 
-Support role: the trigger and non-trigger table is a B.3 recognition aid, the minimum support record table is a minimum local record aid, and the worked reliance-threshold slices are regression/review slices. They are not a universal project checklist, sign-off sequence, status family, or replacement for `Assurance(H, C | K, S)`; use them only when the named material reliance trigger is live. This local section returns the attempted reliance to the B.3 assurance relation; it does not create an extra SEMIO authority or shared relation family.
+Support role: the trigger and non-trigger table is a B.3 recognition aid, the minimum support record table is a minimum local record aid, and the worked reliance-threshold slices are regression/review slices. They are not a universal project checklist, sign-off sequence, untyped status vocabulary, or replacement for `Assurance(H, C | K, S)`; use them only when the named material reliance trigger is live. This local section returns the attempted reliance to the B.3 assurance relation; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
 
 Affordability card: orientation or source-finding stays outside B.3; bounded local reliance stays with the local evidence, explanation, CV, gate, or pattern-quality relation unless assurance is live; threshold reliance opens the minimum reliance safety support record only when the B.3 material-reliance threshold is live. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 

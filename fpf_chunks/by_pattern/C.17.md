@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.17.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
-line_start: 40465
-line_end: 41204
+line_start: 41151
+line_end: 41890
 dependencies:
   - "A.1"
   - "A.10"
@@ -83,7 +83,7 @@ This pattern exports **Characteristics** and measurement templates **only**. It 
   * **`EffortCost`** *(advisory)* — resource outlay to achieve the outcome; from WorkLedger (Resrc‑CAL). *(For normalization and planning; not itself “creativity.”)*
 
 * **Operators (first tranche):** `composeProfiles` (set → declared retained-set profile), `dominates` (partial order in space), `frontier` (Pareto set), `normaliseByEffort`. *(Formal laws introduced in Quarter 2.)*
-* **Relations (informative; not exported):** dominance relation (partial order in the space), frontier predicate (Pareto set), retained-set composition view. *C.17 exports no operators and does not mint public set-surface heads; these are mathematical relations only.*
+* **Relations (informative; not exported):** dominance relation (partial order in the space), frontier predicate (Pareto set), retained-set composition view. *C.17 exports no operators and does not mint public set-result family heads; these are mathematical relations only.*
 *
 > **Scope note.** This pattern **does not** define who is “a creative person.” It characterises **creative outcomes and episodes** as **observed in Work** and **expressed as Epistemes**. Agency (capacity to originate) is measured in **Agency‑CHR (C.9)**; here we measure **what came out** and **how it scores** against stated goals and references.  A **Context publishes** the measurement space and admissible policies; later choice is attributed to a declared `DecisionSubject` at explicit `DecisionSubjectGranularity`, using a named lens within that space. CHR exports **no Γ‑operators** and **no team workflow rules**.
 
@@ -289,7 +289,7 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 1. **Name the Context** *(context + edition)*.
 2. **Pick measurement defaults** *(kernel, prior, objective, constraints)* from the Context’s handbook.
 3. **Score outcome** → `Novelty@context`, `Use‑Value`, `Surprise`, `ConstraintFit`.
-4. **Decide by declared set surface**: identify the non-dominated `Front`; emit a `Shortlist` only through one named lens or policy when selector-facing publication is needed; use **ConstraintFit** as a gate; apply **policy** if a scalar is approved.
+4. **Decide by declared set result**: identify the non-dominated `Front`; emit a `Shortlist` only through one named lens or policy when selector-facing publication is needed; use **ConstraintFit** as a gate; apply **policy** if a scalar is approved.
 5. **Record a CreativeEvaluation** with evidence; if crossing Contexts, attach the **Bridge id**.
 
 > **Mental check.** *New to our base? Helpful to our objective? Unexpected under our model? Safe & licenced?*
@@ -621,7 +621,7 @@ Novelty↑ (institutional), Use‑Value↑ (measurable social/operational effect
 - `BridgeDistortionNote` is the explicit warning that one bridge, aggregation, or projection changes what can be compared directly.
 - A distortion note does not cancel the declared `Front`, `Archive`, or `Shortlist`; it says how far one cross-scale reading can be trusted without further qualification.
 - When one retained set, frontier view, or transition path is projected into one atlas-like reading, keep the distortion note near that projection instead of leaving the loss to implication.
-- If that projection also depends on one declared `OutcomeMapRef` or `TransitionSupportRef`, cite that support next to the distortion note so the reader can see both why the projection is useful and where it stops being faithful.
+- If that projection also depends on one declared `OutcomeMapRef` or `TransitionRelationRef`, cite that support next to the distortion note so the reader can see both why the projection is useful and where it stops being faithful.
 - Different atlas-like projections over the same retained set or frontier may preserve different characteristics; keep those differences visible instead of treating one cross-scale view as information-preserving by default.
 - This lets the line say both `the bridge is useful` and `the bridge is not information-preserving in every respect`.
 
@@ -657,7 +657,7 @@ Each CS dimension **SHALL** be a named **Characteristic** per **MM‑CHR**, with
 A **Profile** is a *state description over characteristics* (what the option *is* in CS); a **Plan** or **Method** is *how you will act*. Never encode choices or schedules into the profile.
 
 **CC‑C17‑4 (Portfolio / retained-set view = set + rule).**
-A **Portfolio** or retained-set view is a declared set of candidate profiles **plus** a selection or retention rule (objective + constraints) declared *in the same Context*. It is not a synonym for `Palette`, `Front`, `Archive`, `Shortlist`, or `RankedShortlist`; use the specific set-surface head when that head is recoverable. Presenting only a scatterplot is non‑conformant.
+A **Portfolio** or retained-set view is a declared set of candidate profiles **plus** a selection or retention rule (objective + constraints) declared *in the same Context*. It is not a synonym for `Palette`, `Front`, `Archive`, `Shortlist`, or `RankedShortlist`; use the specific set-result family head when that head is recoverable. Presenting only a scatterplot is non‑conformant.
 
 **CC‑C17‑5 (Dominance operator well‑typed).**
 A dominance claim **MUST** name the **characteristic subset and polarity** under which it is evaluated. Dominance on incomparable scales (or mixed polarities without explicit transformation) is invalid.

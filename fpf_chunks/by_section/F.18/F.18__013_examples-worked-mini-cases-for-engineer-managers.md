@@ -6,17 +6,17 @@ section_id: "F.18:12"
 section_title: "Examples (worked mini‑cases for engineer‑managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__013_examples-worked-mini-cases-for-engineer-managers.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:12 — Examples (worked mini‑cases for engineer‑managers)"
-line_start: 71681
-line_end: 71713
+line_start: 71893
+line_end: 71925
 dependencies:
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "F.0.1"
   - "F.1-F.17"
   - "G.10"
@@ -53,8 +53,8 @@ keywords:
 * *Stewardship Context H (Quality)* mints **Lot**: “An integrated whole packaged and tracked as one item.” **Structural whole**.
 * **Unification:** Bridge notes: “A **Lot** may originate from a single **Batch** or a slice of a Batch; not every Batch yields a single Lot.” Relation mapping: **MemberOf** (Batch membership) vs **ComponentOf**/**Whole** (Lot integration). *Loss note:* membership evidence does **not** imply part‑whole structure; part‑whole structure does **not** imply shared production conditions.
 
-**12.5 “Palette label” vs “Atlas label” (NQD/OEE naming support).**
+**12.5 “Palette label” vs “Atlas label” (NQD/OEE naming-side interpretation).**
 
-* A naming pass compares candidate labels over one active palette and shortlist. The card keeps the active palette recoverable and uses thinner support-view wording, because the question is only which label best fits the current candidate spread.
-* Later, the same naming discussion must explain why one label misleads unless the reader can see the palette together with a derived archive, an `OutcomeMapRef`, and one `BridgeDistortionNote`. In that case atlas wording is allowed, but the card still names the base palette and records that the atlas is only optional support for the naming explanation.
+* A naming pass compares candidate labels over one active palette and shortlist. The card keeps the active palette recoverable and uses thinner interpretive-view wording, because the question is only which label best fits the current candidate spread.
+* Later, the same naming discussion must explain why one label misleads unless the reader can see the palette together with a derived archive, an `OutcomeMapRef`, and one `BridgeDistortionNote`. In that case atlas wording is allowed, but the card still names the base palette and records that the atlas is only optional interpretive help for the naming explanation.
 * In both cases, guarded-head notes stay on the naming side: they explain alias risk or mismatch patterns, not who stewards the substrate or which publication face is authoritative.

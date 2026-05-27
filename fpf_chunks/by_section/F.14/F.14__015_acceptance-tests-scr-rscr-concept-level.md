@@ -6,12 +6,12 @@ section_id: "F.14:14"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__015_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:14 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 70194
-line_end: 70212
+line_start: 70399
+line_end: 70417
 dependencies:
   - "F.1"
   - "F.10"

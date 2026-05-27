@@ -6,7 +6,7 @@ section_id: "A.2.5:2"
 section_title: "Problem frame (what goes wrong without an RSG)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__003_problem-frame-what-goes-wrong-without-an-rsg.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:2 — Problem frame (what goes wrong without an RSG)"

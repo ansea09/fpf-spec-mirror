@@ -6,12 +6,12 @@ section_id: "C.30.ASV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__011_rationale.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:10 — Rationale"
-line_start: 51326
-line_end: 51333
+line_start: 52009
+line_end: 52016
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,6 +24,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -33,7 +34,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -56,7 +56,7 @@ keywords:
 
 C.30.ASV exists because architecture descriptions are multi-view by nature, but FPF cannot let "view" absorb every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is being described; a viewpoint says how an episteme or view is oriented toward a concern. They may be bound, but they are not interchangeable.
 
-The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the live structure kind and the next admissible architecture move, no full view record is needed. The full record opens when a view changes action, correspondence, publication, source return, support use, or neighboring-pattern claim kind.
+The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the live structure kind and the next admissible architecture move, no full view record is needed. The full record opens when a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
 
 The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and view-record bindings live beside TEVB rather than mutating TEVB.
 

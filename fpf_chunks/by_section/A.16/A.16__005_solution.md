@@ -6,12 +6,12 @@ section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:4 — Solution"
-line_start: 21489
-line_end: 21542
+line_start: 21560
+line_end: 21613
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -67,7 +67,7 @@ Observation itself is a precursor condition typically published through `B.4.1`.
 
 Here `projection` remains the move name, but its reading is tightened: it is route-bounded partialization. The resulting publication must be a **typed publication form** rendered on an existing MVPK face. Naming only the face is insufficient; naming only an untyped placeholder is insufficient.
 
-`respecify` is intentionally narrower than semantic repair. In `A.16`, it may change framing scaffold, route specification, or facet-profile reading while preserving the broad family. Slot-explicit semantic rewrite and endpoint-local lexical repair remain with receiving governing patterns such as `A.6.P`, `A.6.Q`, and `A.6.A`.
+`respecify` is intentionally narrower than epistemic precision repair. In `A.16`, it may change framing scaffold, route specification, or facet-profile reading while preserving the broad family. Slot-explicit epistemic precision restoration and endpoint-local lexical repair remain with receiving governing patterns such as `A.6.P`, `A.6.Q`, and `A.6.A`.
 
 #### A.16:4.2 - Guard discipline
 Move guards are stated over named facets from `C.2.LS`, together with witnesses, scope, and `GammaTime` selectors where needed. In practice this means explicit reference to `AE` (`C.2.4`), `CD` (`C.2.5`), `LanguageStateAnchoringMode` (`C.2.6`), and `LanguageStateRepresentationFactorBundle` (`C.2.7`), either facetwise or through one published facet profile. No move may be justified by vague prose such as "the idea matured" without naming what changed in articulation, closure, anchoring, representation, or route state.

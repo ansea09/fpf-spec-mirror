@@ -6,12 +6,12 @@ section_id: "A.6.S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__011_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:9 — Consequences"
-line_start: 17596
-line_end: 17606
+line_start: 17668
+line_end: 17678
 dependencies:
   - "A.12"
   - "A.3"

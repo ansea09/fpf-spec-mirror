@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:4 — Solution"
-line_start: 27890
-line_end: 28078
+line_start: 27957
+line_end: 28145
 dependencies:
   - "A.19"
   - "A.2.6"

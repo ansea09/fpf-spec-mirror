@@ -6,12 +6,12 @@ section_id: "G.1:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__008_conformance-checklist-normative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:7 — Conformance Checklist (normative)"
-line_start: 73212
-line_end: 73226
+line_start: 73422
+line_end: 73436
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -40,13 +40,13 @@ keywords:
   - "SoTA_SetId"
   - "UTS/Name Cards"
   - "VariantPoolId"
-  - "and set-surface scaffold"
+  - "and set-result scaffold"
   - "edition pins"
   - "generator"
   - "generator chassis"
   - "selector"
+  - "set-result outcome"
   - "set-return selection"
-  - "set-surface outcome"
   - "shipping and refresh boundaries"
   - "six-card kit (M1-M6)"
 ---
@@ -60,7 +60,7 @@ keywords:
 | CC‑G1‑02          | `M1` MUST bind the kit to a single `CG‑FrameContext` and MUST expose the required pins from `GCorePinSetId.PartG.AuthoringMinimal` (including `describedEntity` and `CNSpecRef/CGSpecRef` editions). `M1` MUST also expose (or explicitly cite) a `ReferenceMap` surface and MUST NOT restate its semantics (cite `G.0:CG‑Spec.ReferenceMap`).  |
 | CC‑G1‑03          | `M2` MUST be wired to `G.2` (or explicitly cite the `G.2` artefacts governed by cited patterns) and MUST be reconstructible as a scoped set, including `SoTAPaletteDescriptionId` + `SoTA_SetId` (not free‑floating prose). Provenance MUST be anchored via `A.10` for the emitted set.  |
 | CC‑G1‑04          | `M3` MUST record emitter provenance as a wiring surface, including `EmitterPolicyRef` (policy‑id/ref), edition pins, and provenance anchors (via `A.10`). Any method‑specific fields MUST be introduced only via `GPatternExtension` blocks.   |
-| CC‑G1‑05          | `M4` MUST be wired to `G.5` (or explicitly cite `G.5` artefacts governed by cited patterns) and MUST preserve set-surface outcomes. `SCRId` MUST be present (or explicitly cited to the governing definition surface) so assurance is id‑addressable; `DRRId` SHOULD be present when a decision‑rationale artefact is minted.   |
+| CC‑G1‑05          | `M4` MUST be wired to `G.5` (or explicitly cite `G.5` artefacts governed by cited patterns) and MUST preserve set-result outcomes. `SCRId` MUST be present (or explicitly cited to the governing definition surface) so assurance is id‑addressable; `DRRId` SHOULD be present when a decision‑rationale artefact is minted.   |
 | CC‑G1‑06          | `M5` MUST publish a library/index surface that points to referenced CHR/CAL/LOG artefacts and to any minted public ids (`UTSRowId[]`, Name Cards) via the canonical governing definitions (Part F), without introducing shadow specs (delegation target: `CC‑GCORE‑CN‑CG‑1` via `CC‑G1‑CoreRef`).    |
 | CC‑G1‑07          | `M6` MUST publish `CGKitId` and expose refresh‑readiness wiring: canonical `RSCRTriggerKindId[]` applicability + minimal payload pins (including `SlotFillingsPlanItemRef[]` when applicable) and RSCR test ids; orchestration semantics MUST be cited to `G.11`.  |
 | CC‑G1‑08          | Any method/discipline/generator specificity in `G.1` MUST be located in `G.1:4.4` as `GPatternExtension` blocks with `PatternScopeId`, `GPatternExtensionKind`, and `GoverningPatternId` (or `governing pattern not yet selected` only for Phase-3 seeds). If QD/illumination or Open‑Ended generator families are declared, the corresponding extension blocks MUST be present and MUST carry the edition and policy pins required by the governing pattern. |

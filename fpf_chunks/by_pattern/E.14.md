@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.14.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
-line_start: 57527
-line_end: 57830
+line_start: 57744
+line_end: 58045
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -77,26 +77,26 @@ This pattern dovetails with the framework’s unification stance (**small Workin
 ### E.14:4 - Solution
 
 #### E.14:4.1 - Human-Centric principles
-##### E.14:4.1.1 - Recognition text and assurance text
-Human-facing patterns also need governed-object stability across recognition text and assurance text. The working reader should not meet one object in the recognition text and a different ontological kind in the assurance text. If the pattern distinguishes a governed object, the interpretive or operational move applied to that object, and the wider review or work process around it, those distinctions should be made explicit rather than hidden behind stylistic noun-swapping.
+##### E.14:4.1.1 - Recognition surface and assurance surface
+Human-facing patterns also need governed-object stability across the two surfaces. The working reader should not meet one object in the recognition surface and a different ontological kind in the assurance surface. If the pattern distinguishes a governed object, the interpretive or operational move applied to that object, and the wider review or work process around it, those distinctions should be made explicit rather than hidden behind stylistic noun-swapping.
 
-Working-Model-first drafting therefore also means subject-domain-first drafting. If a pattern is meant to help with a real review, design, cultural, research, or operational problem, the recognition text should open from that problem-owning moment before internal taxonomy or package architecture. If a broader umbrella head and a narrower operative branch are both live, the pattern should state that stack plainly enough that a cold reader can tell what the umbrella names, what branch is current, what object is governed, what move is being carried, and what wider work remains outside.
+Working-Model-first drafting therefore also means subject-domain-first drafting. If a pattern is meant to help with a real review, design, cultural, research, or operational problem, the recognition surface should open from that problem-owning moment before internal taxonomy or package architecture. If a broader umbrella head and a narrower operative branch are both live, the pattern should state that stack plainly enough that a cold reader can tell what the umbrella names, what branch is current, what object is governed, what move is being carried, and what wider work remains outside.
 
-Under `F.18` local-first naming, the canonical pair here is **recognition text** and **assurance text**.
+Under `F.18` local-first naming, the canonical pair here is **recognition surface** and **assurance surface**.
 The earlier provisional `...shell` wording is retired.
 These names refer to two reading-order surfaces inside one pattern, not to new publication-surface kinds or owner kinds.
 
 For human-facing canonical patterns, Working-Model-first discipline should appear in a two-surface reading order.
-The **recognition text** is the working text that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.
-The **assurance text** is the heavier text that carries declaration, object discipline, modeling lens, law, reroute conditions, and other review work.
+The **recognition surface** is the working surface that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.
+The **assurance surface** is the heavier surface that carries declaration, object discipline, modeling lens, law, reroute conditions, and other review work.
 
-The assurance text may justify, tighten, or audit the working text, but it must not silently replace or strengthen the recognition-text claim.
-Where semio-heavy or transform-heavy patterns need a compact ontological account, the assurance text should make three things explicit:
+The assurance surface may justify, tighten, or audit the working surface, but it must not silently replace or strengthen the recognition-surface claim.
+Where episteme-publication-heavy or transform-heavy patterns need a compact ontological account, the assurance surface should expose three things explicitly:
 - the ontic target or governed object;
 - the modeling substrate or mathematical lens when one is load-bearing;
 - the publication or working surface by which the claim is presented.
 
-This is a reading-order rule rather than a demand that every reader read the assurance text first.
+This is a reading-order rule rather than a demand that every reader consume the assurance surface first.
 The point is to keep the human-facing Working-Model surface primary while preserving a recoverable, auditable second surface beneath it.
 > **E.14‑P.1 – Working‑Model first, stance explicit.**  **
 > Operate one **Working‑Model** for all human‑facing discussion. For **each** assertion, the author **SHALL declare** a justification stance (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** (term↔kind alignment via **Lang‑CHR** / D‑Projection), **Logical** (CT2R alias semantics, scope/constraints), **Constructive** (Γₘ generative trace), and **Empirical Validation** (evidence via `U.EvidenceRole` in a declared `U.BoundedContext`).
@@ -240,7 +240,7 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 | **CC‑E14‑11 (Empirical bindings).**        | When `validationMode=postulate` (or when adding real‑world confirmation), authors **SHALL** bind evidence via `U.EvidenceRole` in a declared `U.BoundedContext` with an explicit **timespan** and provenance anchors. | Aligns with Evidence Graph Referring and empirical ageing policies. |
 | **CC-E14-12 (F-declaration).**             | Normative Working-Model publications **SHALL** declare `U.Formality = Fk` per **C.2.3** (**recommended F ≥ F3** for readable surfaces). Assurance publications or records **MAY** carry higher F; **min-F** applies to composites. | Aligns E.14 with the unified Formality characteristic; avoids legacy “tiers/modes”. |
 | **CC‑E14‑13 (Light records, not thin prose).** | Authors **SHALL NOT** use the Working‑Model-first stance as a reason to strip problem framing, rationale, or worked slices out of the pattern text. Ordinary use may stay light, but readers **MUST** still be able to understand the pattern without nearby project notes. | Keeps human-facing economy from collapsing into under-explained prose. |
-| **CC‑E14‑14 (Recognition text before assurance text).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep recognition-first working text distinct from the heavier assurance text. The assurance text **MAY** refine and justify the working text, but it **SHALL NOT** silently change the recognition-text claim. If the pattern claims broad or transdisciplinary reach, the working text **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |
+| **CC‑E14‑14 (Working surface before assurance surface).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep a recognition-first working surface distinct from the heavier assurance surface. The assurance surface **MAY** refine and justify the working surface, but it **SHALL NOT** silently change the recognition-surface claim. If the pattern claims broad or transdisciplinary reach, the working surface **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |
 
 *All obligations above are **conceptual** and apply to thought and prose; they introduce no notational or data‑processing requirements.*
 
@@ -328,5 +328,3 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 * Part F unification practices (context of meaning, bridges, fit levels) by reinforcing the preference for human‑readable labels with explicit alignment notes rather than silent formal substitutions.
 
 ### E.14:End
-
-

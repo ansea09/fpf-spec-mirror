@@ -6,12 +6,12 @@ section_id: "A.10:8"
 section_title: "Rationale (SoTA alignment, reader‑friendly)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__009_rationale-sota-alignment-reader-friendly.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:8 — Rationale (SoTA alignment, reader‑friendly)"
-line_start: 19075
-line_end: 19085
+line_start: 19147
+line_end: 19157
 dependencies:
   - "A.1"
   - "A.10"

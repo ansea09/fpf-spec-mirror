@@ -6,12 +6,12 @@ section_id: "C.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__002_use-this-when.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:0 — Use this when"
-line_start: 41433
-line_end: 41438
+line_start: 42119
+line_end: 42124
 dependencies:
   - "B.3"
   - "C.11"

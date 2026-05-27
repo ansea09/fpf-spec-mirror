@@ -6,7 +6,7 @@ section_id: "A.6.1:End"
 section_title: "A.6.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__014_a-6-1-end.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:End — A.6.1:End"

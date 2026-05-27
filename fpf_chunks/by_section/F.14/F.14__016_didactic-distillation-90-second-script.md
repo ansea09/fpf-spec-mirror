@@ -6,12 +6,12 @@ section_id: "F.14:15"
 section_title: "Didactic distillation (90‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__016_didactic-distillation-90-second-script.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:15 — Didactic distillation (90‑second script)"
-line_start: 70213
-line_end: 70221
+line_start: 70418
+line_end: 70426
 dependencies:
   - "F.1"
   - "F.10"

@@ -6,15 +6,15 @@ section_id: "A.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:intro — Intro"
 line_start: 872
 line_end: 878
 dependencies:
-  - "A.19.SUPPORT-VIEW"
-  - "A.19.SURF-SPACE"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.5"
   - "B.5"
   - "B.5.2.1"
@@ -34,14 +34,14 @@ keywords:
   - "& queries. novelty"
   - "BLP"
   - "CL^plane"
-  - "CrossSurfaceSupportView"
+  - "DeclaredSubstrateInterpretiveView"
   - "OutcomeSpaceRef"
   - "ParetoOnly default"
   - "ReferencePlane"
   - "SearchSpaceRef"
   - "TypedSetViews"
   - "comparability"
-  - "declared set surface"
+  - "declared set result"
   - "explore/exploit (E/E-LOG)"
   - "explore/exploit (E/E‑LOG)"
   - "illumination map (report‑only telemetry)"
@@ -54,9 +54,9 @@ keywords:
 ---
 
 ## A.0 - Onboarding Glossary (NQD & E/E‑LOG)
-**One‑screen purpose (manager‑first).** This pattern gives newcomers a plain‑language starter kit for FPF’s *generative* engine so they can run an admissible **problem-solving or search loop** on day one. It explains the few terms you must publish when you **generate, select, and ship declared set surfaces or typed portfolio publications** (not single “winners”), and points to the formal anchors you’ll use later. *(OEE is a Pillar; NQD/E/E‑LOG are the engine parts.)*
+**One‑screen purpose (manager‑first).** This pattern gives newcomers a plain‑language starter kit for FPF’s *generative* engine so they can run an admissible **problem-solving or search loop** on day one. It explains the few terms you must publish when you **generate, select, and ship declared set results or typed portfolio publications** (not single “winners”), and points to the formal anchors you’ll use later. *(OEE is a Pillar; NQD/E/E‑LOG are the engine parts.)*
 
 **Builds on.** E.2 (**P‑10 Open‑Ended Evolution; P‑2 Didactic Primacy**), A.5, C.17–C.19 - **Coordinates with.** E.7, E.8, E.10; F.17 (UTS); G.5, G.9–G.12 - **Constrains.** Any pattern/UTS row that **describes a generator, selector, typed portfolio publication, or set-return publication surface**.
 
-**Keywords & queries.** *novelty, quality‑diversity (NQD), explore/exploit (E/E‑LOG), **declared set surface**, **typed portfolio publication**, illumination map *(report‑only telemetry)*, parity run, comparability, ReferencePlane, CL^plane, **ParetoOnly** default*
+**Keywords & queries.** *novelty, quality‑diversity (NQD), explore/exploit (E/E‑LOG), **declared set result**, **typed portfolio publication**, illumination map *(report‑only telemetry)*, parity run, comparability, ReferencePlane, CL^plane, **ParetoOnly** default*
 

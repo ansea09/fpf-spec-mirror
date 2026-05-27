@@ -6,12 +6,12 @@ section_id: "C.3:5"
 section_title: "Solution — Architectural Decisions (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_solution-architectural-decisions-overview.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:5 — Solution — Architectural Decisions (overview)"
-line_start: 36531
-line_end: 36560
+line_start: 37217
+line_end: 37246
 dependencies:
   - "A.1"
   - "A.2.6"

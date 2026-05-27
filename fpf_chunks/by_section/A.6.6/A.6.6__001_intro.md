@@ -6,12 +6,12 @@ section_id: "A.6.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:intro — Intro"
-line_start: 15343
-line_end: 15380
+line_start: 15370
+line_end: 15408
 dependencies:
   - "A.10"
   - "A.14"
@@ -19,8 +19,10 @@ dependencies:
   - "A.2.6"
   - "A.6.0"
   - "A.6.3"
+  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "C.3.3"
@@ -41,6 +43,7 @@ keywords:
   - "rescope"
   - "retime"
   - "scope"
+  - "support-as-basedness"
   - "witnesses"
   - "Γ_time"
 ---
@@ -77,6 +80,7 @@ keywords:
 **Aliases (informative; discouraged for normative prose).**
 – “anchoring / anchor” (legacy umbrella colloquial; a red‑flag token for *under-described dependence*). **Prohibited in Tech register** as a meaning‑surrogate; treat it as a defect to be rewritten into an explicit `baseRelation(dependent, base)` form. Allowed only when referring to a **pattern-defined primitive** that already reserves the word (e.g., E.10 MG‑DA *Domain Anchoring*; evidence/pin “anchors” where the term is explicitly reserved), or inside quoted legacy text that is immediately followed by a conformant rewrite.
 – “Qualified statement / attributed edge” (knowledge-graph colloquial).
+– “support / supported by / support basis / support relation” (ordinary umbrella support wording). Diagnostic for possible basedness only when the phrase asserts that a dependent content is admissible, usable, interpretable, comparable, publishable, or actionable relative to an explicit base. Otherwise classify the live reading and apply the exact governing ontology: source-description, evidence, assurance, causal-use, mathematical-lens, work/resource, publication/navigation, or ordinary help.
 – “Pinning” (when witnesses are edition pins).
 
 **Mint‑or‑Reuse note (informative).**

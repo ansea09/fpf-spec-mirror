@@ -6,17 +6,17 @@ section_id: "F.18:4"
 section_title: "Solution — The Local‑First Naming Protocol"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution-the-local-first-naming-protocol.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:4 — Solution — The Local‑First Naming Protocol"
-line_start: 71266
-line_end: 71449
+line_start: 71471
+line_end: 71654
 dependencies:
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "F.0.1"
   - "F.1-F.17"
   - "G.10"
@@ -126,14 +126,14 @@ This is especially useful when one head already appears in more than one admissi
 When naming work touches the discoverability amendment, `PCP-TERM` plus `F.18`
 and `A.6.P` must settle the durable heads used here, including
 `pattern-entry discoverability`, `description recognition signature`,
-`entry orientation`, `entry lexeme support`, `worked entry reading`,
+`entry orientation`, `entry lexeme retrieval aid`, `worked entry reading`,
 `Problem-frame recognition signature`, and `thin-echo discipline`, as part of
 the amendment itself.
 
 The amendment should therefore assign each effect to one named FPF pattern,
 pattern section, field, relation, or section of a named non-pattern FPF publication
 form with a support function. When such a non-pattern publication form is used,
-its publication form, support function, and reference must be named by value,
+its publication form, companion function, and reference must be named by value,
 and the referenced section must carry that effect. Do not let the single trigger
 word `discoverability` become one semantic swamp.
 
@@ -146,9 +146,9 @@ The canonical settlement table for this amendment is:
 | `description recognition signature` | first-contact cue structure of one description-bearing unit | `A.6.RSIG` | `discoverability of descriptions` |
 | `recognition text` | existing first reading text inside one pattern | `E.8` | invented `discoverability surface` |
 | `entry neighborhood` | entry-load-oriented grouping of plausible patterns, tempting wrong patterns, entry-load reclassifications, and admissible stops | `E.11`; `J.4` only when the entry grouping is a pattern-language map | `route` |
-| `entry lexeme support` | lexical and query support without alias minting | `F.17`, `F.18`, and `E.10`, coordinated by `E.11` | `lexical discoverability`, bare `search support` |
+| `entry lexeme retrieval aid` | lexical and query retrieval aid without alias minting | `F.17`, `F.18`, and `E.10`, coordinated by `E.11` | `lexical discoverability`, bare `search support` |
 | `worked entry reading` | bounded interpretive case reading | `I.2` | `workflow`, `scenario script`, `route` |
-| `thin echo` | low-detail projection pointer to the cited pattern, cited pattern section, field, relation, or section of a named non-pattern FPF publication form; the pointer makes the publication form, support function, and reference recoverable, and the referenced section carries the claim | `E.11` | duplicated guidance, parallel blurbs |
+| `thin echo` | low-detail projection pointer to the cited pattern, cited pattern section, field, relation, or section of a named non-pattern FPF publication form; the pointer makes the publication form, companion function, and reference recoverable, and the referenced section carries the claim | `E.11` | duplicated guidance, parallel blurbs |
 
 One canonical term per job is the settled target of this amendment.
 Deprecated wording may remain only as plain search cues or explicit deprecated-alias guards while the wording is being repaired by value.
@@ -185,7 +185,7 @@ To prevent “post-hoc justification” of intuitively chosen labels, every **Na
 For all **Core-facing naming of U.Types and other canonical FPF concepts**, **MintNew** is the **default** CardMode; using
 DocumentLegacy for such names requires an explicit justification on the Card.
 
-For one-off local phrase repair, no Name Card mode is live. Use `E.10`, `E.10.SEMIO`, or `E.17.AUD.LHR`, and record the repaired phrase only where the local repair pattern requires it. Open a Name Card only when the repair mints or changes one durable reusable name, UTS row, Core-facing term, or cross-context naming relation.
+For one-off local phrase repair, no Name Card mode is live. Use `E.10`, `C.2.P`, or `E.17.AUD.LHR`, and record the repaired phrase only where the local repair pattern requires it. Open a Name Card only when the repair mints or changes one durable reusable name, UTS row, Core-facing term, or cross-context naming relation.
 
 A **Name Card** is the authoritative, human‑readable record of a name inside its Context. It has these fields; teams may add local notes.
 

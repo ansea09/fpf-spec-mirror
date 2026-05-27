@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".2 - Partly-said cue and language-state discovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__003_2-partly-said-cue-and-language-state-discovery.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .2 - Partly-said cue and language-state discovery"
-line_start: 78686
-line_end: 78712
+line_start: 78896
+line_end: 78922
 dependencies:
 keywords:
 ---

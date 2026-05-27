@@ -6,12 +6,12 @@ section_id: "A.10:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__008_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:7 — Consequences"
-line_start: 19064
-line_end: 19074
+line_start: 19136
+line_end: 19146
 dependencies:
   - "A.1"
   - "A.10"

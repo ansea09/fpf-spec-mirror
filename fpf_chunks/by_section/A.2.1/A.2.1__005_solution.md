@@ -6,7 +6,7 @@ section_id: "A.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
   - "A.2.1:4 — Solution"

@@ -6,12 +6,12 @@ section_id: "A.9:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__002_context.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:1 — Context"
-line_start: 18637
-line_end: 18641
+line_start: 18709
+line_end: 18713
 dependencies:
   - "A.1"
   - "A.8"

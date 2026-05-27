@@ -6,12 +6,12 @@ section_id: "F.9:20"
 section_title: "Conformance Checklist (CC-F.9)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__022_conformance-checklist-cc-f-9.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:20 — Conformance Checklist (CC-F.9)"
-line_start: 68269
-line_end: 68290
+line_start: 68474
+line_end: 68495
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

@@ -6,12 +6,12 @@ section_id: "G.Core:11"
 section_title: "SoTA alignment (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__012_sota-alignment-informative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:11 — SoTA alignment (informative)"
-line_start: 72461
-line_end: 72470
+line_start: 72672
+line_end: 72681
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -38,7 +38,7 @@ Although FPF is conceptual (not a data governance framework), `G.Core` aligns Pa
 
 * **Selective prediction / abstention** informs tri‑state guard discipline: abstaining or degrading is a first-class outcome, not an error coerced into a scalar.
 * **Set-valued / conformal methods** motivate set-return semantics: when comparability is partial or uncertainty is structural, returning sets/regions is often the SoTA-friendly representation.
-* **Multiobjective optimization and quality-diversity** reinforce declared set-surface and `Archive` semantics instead of forced “best single scalar”.
+* **Multiobjective optimization and quality-diversity** reinforce declared set-result and `Archive` semantics instead of forced “best single scalar”.
 * **Monotone constrained modelling** (where used) supports “legality-first” scoring/aggregation: constraints and admissibility precede optimization, mirroring CG‑Spec gate discipline.
 * **Schema evolution and contract testing** motivate id-stable conformance points and typed trigger catalogues: stable identifiers + regression hooks are the practical mechanism for safe refactoring.
 

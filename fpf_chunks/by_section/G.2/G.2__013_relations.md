@@ -6,15 +6,15 @@ section_id: "G.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__013_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:12 — Relations"
-line_start: 73745
-line_end: 73775
+line_start: 73955
+line_end: 73985
 dependencies:
   - "A.10"
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
   - "B.3"
   - "C.18"
@@ -36,7 +36,7 @@ dependencies:
   - "G.Core"
 keywords:
   - "BridgeMatrix"
-  - "CrossSurfaceAtlasView"
+  - "DeclaredSubstrateAtlasView"
   - "FlowRecord"
   - "GammaEpistSynthId"
   - "SoTA Synthesis Pack@CG-Frame"
@@ -58,7 +58,7 @@ keywords:
   * `E.10` (lexical/ontological rules; strict distinction; kind‑suffix discipline)
   * `E.19` (conformance discipline)
   * `A.10` (provenance anchors / carriers)
-  * `A.19.SUPPORT-VIEW` (generic support-view and atlas discipline when `TraditionAtlasView` is used)
+  * `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` (generic interpretive-view and atlas discipline when `TraditionAtlasView` is used)
   * `A.6.P` (space/view/publication precision restoration when palette/support claims collapse)
   * `B.3` (trust, freshness/decay as cited governing patterns)
   * `F.9` (bridges and CL as cited governing patterns)

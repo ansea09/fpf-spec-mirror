@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
-line_start: 48868
-line_end: 50090
+line_start: 49553
+line_end: 50774
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -27,12 +27,12 @@ dependencies:
   - "C.16"
   - "C.18.1"
   - "C.19.1"
+  - "C.2.P"
   - "C.26"
   - "C.27"
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
@@ -559,7 +559,7 @@ Boundary transfer rule: when the live claim is a choice result, work plan, evide
 |---|---|---|
 | mathematical-lens adequacy | `C.29` | Names the MLA discipline: candidate mathematical object, lens mapping mode, preserved/lost structure, invariant or distinction, `LensSupportPosture`, admissible use, non-admissible use, and stop condition. |
 | durable reusable names beyond pattern-local fields | `F.18` | Cite when `MLA` names become durable beyond C.29-local use. |
-| broad wording and semantic recovery | `E.10`, `E.10.SEMIO` | Obey head-kind, register, and semio repair discipline. |
+| broad wording and epistemic precision restoration | `E.10`, `C.2.P` | Obey head-kind, register, and epistemic precision-restoration discipline. |
 | relation precision, arity, polarity, and slot structure | `A.6.P`, `A.6.5` | Apply only if relation substrate becomes representation affecting the stated use. |
 | object, description, and carrier distinction | `A.7` | Do not identify the phenomenon directly with the mathematical object. |
 | dynamics state space and transition law | `A.3.3` | Assess imported or contested lens adequacy; do not govern dynamics semantics. |
@@ -777,7 +777,7 @@ Neighboring patterns remain necessary and are not displaced. A retained neighbor
 
 Use the C.29 discipline when the live question is: **Is this mathematical lens adequate for this declared use, and where does it stop?**
 
-### C.29:6 - Naming, ontology, and semantic-rewrite account
+### C.29:6 - Naming, ontology, and epistemic precision-restoration account
 
 #### C.29:6.1 - Name
 
@@ -809,7 +809,7 @@ When one `C.29` application needs a mathematical-lens name to become reusable ou
 
 > A physical, organizational, or epistemic phenomenon is not directly identified with a mathematical object; it is represented through a mathematical object by an explicitly declared mapping that preserves some structures and loses others.
 
-#### C.29:6.4 - E.10.SEMIO recoveries applied
+#### C.29:6.4 - C.2.P recoveries applied
 
 | Earlier wording risk | Recovered wording in `C.29` |
 |---|---|
@@ -888,7 +888,7 @@ The compact Plain line remains useful because it points to a real heuristic: goo
 | Existing specialized lenses such as `C.26` become easier to explain as special cases. | `C.26` needs only relation wording, not a rewrite of its core. |
 | Authors get a small checklist before using terms such as field, quantum, category, RG, manifold, graph, or information geometry. | Some quick analogies will be downgraded to local prose; this is intended. |
 | Vanchurin-like speculative work can enter as candidate-lens stress tests. | Requires strict Adapt-not-Adopt marking. |
-| Cross-domain transfer becomes auditable through preserved/lost structure and stop conditions. | More upfront statement effort; reduces downstream semantic repair. |
+| Cross-domain transfer becomes auditable through preserved/lost structure and stop conditions. | More upfront statement effort; reduces downstream epistemic precision repair. |
 | `C.29` can stay readable rather than becoming a dry ontology form. | Requires a Plain/Tech discipline: Plain metaphors can guide reading, but Tech fields govern claim-bearing uses. |
 
 #### C.29:8.1 - Validation harness for Stable admission and material refresh
@@ -1042,7 +1042,7 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 | `CC-MLA-14 Bridge discipline` | Cross-context mathematical transfer cites `F.9`; Bridge and MLA fields agree without duplicate writing. | Keeps semantics bounded. |
 | `CC-MLA-15 Causal-use discipline` | Causal-use claims apply `C.28`; MLA cannot make causal use admissible by itself. | Blocks causal laundering. |
 | `CC-MLA-16 Assurance discipline` | Assurance, release, reliability, and engineering-justification claims apply `A.10`, `B.3`, and relevant G patterns. | Prevents elegance from raising assurance directly. |
-| `CC-MLA-17 E.10.SEMIO recovery` | Broad heads, source/target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to exact FPF kinds, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
+| `CC-MLA-17 C.2.P recovery` | Broad heads, source/target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to exact FPF kinds, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
 | `CC-MLA-18 Plain/Tech balance` | A Plain sentence can remain when it aids recognition; if it carries ontology, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim force, that claim force is recovered through the Tech fields or neighboring pattern. | Preserves didactic force without shadow semantics. |
 | `CC-MLA-19 Non-use and false-positive bank` | The pattern includes non-use examples for ordinary local domain equations, local graph data structures, A.19 overlays, local category proofs, and one-off metaphors. | Prevents MLA-everywhere. |
 | `CC-MLA-20 Repair matrix` | Failed checks map to repair outputs: downgrade, narrow, add loss, add evidence, choose rival lens, apply neighbor, or block overread. | Keeps MLA as repair pattern. |
@@ -1073,7 +1073,7 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 | **RivalLensSet as literature review** | The C.29 application produces a survey instead of naming the live rival. | Use `PrincipalRivalLens?` by default; add `RivalLensRelation?` when disagreement changes the next move; broaden to `RivalLensSet?` only when publication, selection, or claim-bearing comparison is live. |
 | **StopCondition boilerplate** | The card says “does not prove everything.” | State the most tempting nearby overread the lens does not license. |
 | **Neighbor absorption** | MLA repeats `F.9`, `C.28`, `A.3.3`, `A.19`, `C.11`, `A.15`, `A.10`, `B.3`, `C.16`, `C.27`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, or assurance semantics. | Apply the governing-locus table and cite the neighboring pattern. |
-| **Plain metaphor carrying law** | “What survives transfer” becomes an unstated Tech claim. | Recover the claim force through `E.10.SEMIO` fields or keep it as ordinary Plain recognition only. |
+| **Plain metaphor carrying law** | “What survives transfer” becomes an unstated Tech claim. | Recover the claim force through `C.2.P` fields or keep it as ordinary Plain recognition only. |
 | **MLA-kind inflation** | `MLA.Card` is treated as a universal `U.*` object or durable FPF record. | Keep it pattern-local; durable cross-pattern records require explicit mint/reuse, naming, kind, and design-rationale support through `F.8`, `F.18`, `C.3`, and `E.9`. |
 
 ### C.29:13 - SoTA-echoing account
@@ -1178,7 +1178,7 @@ SoTA materials are not nameless background. Exact substantive basis and governin
 
 | Basis id | Basis item | What it contributes | Use posture in `C.29` |
 |---|---|---|---|
-| `FPF-CORE-2026` | Current FPF Core Specification, especially `E.9`, `E.10`, `E.10.SEMIO`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `A.15.1`, `A.15.4`, `B.3`, `C.11`, `C.16`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `G.5`, `G.9`. | Governs `C.29` adequacy, lexical/semantic repair, pattern placement, bridge discipline, decision/work/evidence/assurance/explanation/comparison/representation boundaries, state/measurement/dynamics/temporal boundaries, causal-use boundary, and evidence/assurance escalation. | **Governing inheritance.** `C.29` applications satisfy E.9 and phrase-local semio material through E.10.SEMIO. |
+| `FPF-CORE-2026` | Current FPF Core Specification, especially `E.9`, `E.10`, `C.2.P`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `A.15.1`, `A.15.4`, `B.3`, `C.11`, `C.16`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `G.5`, `G.9`. | Governs `C.29` adequacy, lexical/epistemic precision repair, pattern placement, bridge discipline, decision/work/evidence/assurance/explanation/comparison/representation boundaries, state/measurement/dynamics/temporal boundaries, causal-use boundary, and evidence/assurance escalation. | **Governing inheritance.** `C.29` applications satisfy E.9 and phrase-local episteme/publication/source-transfer material through C.2.P. |
 | `SAND-THREAD-MATH-LINKS-2026-05-12` | Accessible mirror of Sandberg thread, lines headed “Math,” linking to the original X post. | Recognition examples of structural sameness: generalized Stokes, CLT/RG/fixed-point reading, Lawvere-style diagonal family, Noether, Legendre transforms. | **Adopt as recognition cue and examples, not proof authority.** Direct X content was not treated as a formal source. |
 | `VAN-SELF-LEARNING-2026` | Vitaly Vanchurin, **The Self-Learning Universe**, ResearchGate preprint page, May 2026, DOI `10.13140/RG.2.2.17023.16808`. | Candidate lens family: resource-constrained distributed learning → coarse-graining → effective geometry, gauge fields, metric-tensor fields, or distance-like structure → thermodynamic/variational optimality. | **Adapt, not adopt.** Use as SoTA-echo / candidate lens; do not accept the physical claims as FPF law. |
 | `RODIN-2023` | Andrei Rodin, **One Mathematic(s) or Many? Foundations of Mathematics in Today's Mathematical Practice**, arXiv:2301.08131. | Supports plural-foundations stance and mutual-interpretability caution. | **Adopt** as support for multiple structural families checked through local adequacy, declared mapping, and recoverable loss. |
@@ -1272,7 +1272,7 @@ Use this recognition menu only to identify a possible lens family and likely nei
 ### C.29:15 - Relations
 
 - **Builds on:** `A.1.1`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `B.3`, `C.16`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`.
-- **Constrained by:** `E.8`, `E.10`, `E.10.SEMIO`, `E.19`.
+- **Constrained by:** `E.8`, `E.10`, `C.2.P`, `E.19`.
 - **Decision basis:** `E.9` design-rationale discipline and the source-basis rows in `C.29:13a`.
 - **Supports:** `E.2` pillar-impact analysis when a pillar argument relies on mathematical first-principles structure; only lens adequacy is in scope, with no amendment to pillar content, priority, or constitutional authority.
 
@@ -1282,4 +1282,3 @@ Use this recognition menu only to identify a possible lens family and likely nei
 
 
 ### C.29:End
-

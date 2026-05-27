@@ -6,12 +6,12 @@ section_id: "A.6.S:End"
 section_title: "A.6.S:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__015_a-6-s-end.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:End — A.6.S:End"
-line_start: 17677
-line_end: 17678
+line_start: 17749
+line_end: 17750
 dependencies:
   - "A.12"
   - "A.3"

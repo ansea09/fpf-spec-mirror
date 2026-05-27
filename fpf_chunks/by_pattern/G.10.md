@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.10.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
-line_start: 77083
-line_end: 77486
+line_start: 77293
+line_end: 77696
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -218,14 +218,14 @@ PortfolioRoster@Context :=
   dominanceRegime?,
   ε?,
 
-  // Published selector outcome and set-surface declaration (metadata fields, not local semantics)
+  // Published selector outcome and set-result declaration (metadata fields, not local semantics)
   selectorOutcomeKind?,
-  setSurfaceKind?,
+  setResultFamily?,
   handoffKind?,
   subjectKind?,
-  sourceSurfaceKind?,
+  sourceSetFamily?,
   derivedViewKind?,
-  sourceSurfaceComposition?,
+  sourceSetComposition?,
   basePaletteRef?,
   lensId?,
   shortlistId?,
@@ -247,7 +247,7 @@ PortfolioRoster@Context :=
 *Presence rule:* `PortfolioRosterId` MAY be omitted only when the shipped pack is *inputs‑only*
 (e.g., shipping CHR/CAL/evidence without any selector‑consumable selected-set/shortlist output).
 
-The `selectorOutcomeKind`, `setSurfaceKind`, `handoffKind`, `sourceSurfaceKind`, `sourceSurfaceComposition`, `derivedViewKind`, `basePaletteRef`, `lensId`, and `shortlistId` fields in this roster are payload metadata fields or refs inside the shipped publication surface. They do not define new Part-E `SurfaceKind` values and they do not let `G.10` re-govern `G.5`, `C.18`, `C.19`, or `G.2` semantics.
+The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, `sourceSetComposition`, `derivedViewKind`, `basePaletteRef`, `lensId`, and `shortlistId` fields in this roster are payload metadata fields or refs inside the shipped publication surface. They do not define new Part-E `SurfaceKind` values and they do not let `G.10` re-govern `G.5`, `C.18`, `C.19`, or `G.2` semantics.
 
 **Interpretation constraints (normative by delegation).** Any universal invariants governing (i) CN/CG spec-ref governing-definition assignment, (ii) crossing visibility and penalty routing, (iii) tri‑state guards, (iv) set‑return semantics, (v) P2W split, (vi) defaults, and (vii) RSCR trigger typing are **not restated here** and are enforced via `G.Core` conformance (see `CC‑G10‑CoreRef`).
 
@@ -353,26 +353,26 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 
 #### G.10:4.7 - Published surfaces must ship kind, source, derivation, lens, and shortlist token
 
-- Published surfaces should carry the selector outcome kind and, when applicable, the set-surface kind or handoff kind, plus the subject kind, source surface kind, and relevant declared surface pins.
+- Published surfaces should carry the selector outcome kind and, when applicable, the set-result kind or handoff kind, plus the subject kind, source set kind, and relevant declared surface pins.
 - These are publication payload metadata fields inside `SoTA-Pack(Core)`, not new Part-E `SurfaceKind` values.
-- Good publication fields include `selectorOutcomeKind`, `setSurfaceKind`, `handoffKind`, `subjectKind`, `sourceSurfaceKind`, `sourceSurfaceComposition`, `dominanceRegime`, `lensId`, `shortlistId`, and any declared archive or promotion-policy ids that the reader needs to interpret the visible set.
+- Good publication fields include `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `subjectKind`, `sourceSetFamily`, `sourceSetComposition`, `dominanceRegime`, `lensId`, `shortlistId`, and any declared archive or promotion-policy ids that the reader needs to interpret the visible set.
 - Those payload fields should use controlled tokens, cited ids, or already-declared head labels rather than shipping-local prose values.
 - When the visible surface or the shortlisted source is one derived tradition view, also publish the derivation explicitly.
 - Useful additional fields there include `derivedViewKind`, `basePaletteRef`, and the declared `qId` or reachability rule id that disciplined that derivation.
 - `portfolioMode` may remain as one support field about selector operation, but it should not stand in for the public set label.
 - A published surface should mirror semantics that are already declared in the governing palette, front, archive, or shortlist language.
 - It should not redefine that semantics locally.
-- When one shipped surface still needs a plain-language label, use the declared set-surface kind and source surface rather than falling back to `portfolioMode`.
+- When one shipped surface still needs a plain-language label, use the declared set-result kind and source set rather than falling back to `portfolioMode`.
 
 #### G.10:4.7.1 - Worked publication slice
 
-- If the visible surface is one tradition front under the declared `Q`, publish `selectorOutcomeKind=SetSurfaceOutcome`, `setSurfaceKind=Front`, `sourceSurfaceKind=Front`, `derivedViewKind=TraditionFront`, and keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable instead of pretending that the palette itself already was that front.
-- If one shortlist is emitted from that derived tradition front, publish `selectorOutcomeKind=SetSurfaceOutcome`, `setSurfaceKind=Shortlist`, `sourceSurfaceKind=Front`, `derivedViewKind=TraditionFront`, `basePaletteRef=SoTAPaletteDescriptionId`, and the named `lensId` together.
+- If the visible surface is one tradition front under the declared `Q`, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Front`, `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, and keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable instead of pretending that the palette itself already was that front.
+- If one shortlist is emitted from that derived tradition front, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Shortlist`, `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, `basePaletteRef=SoTAPaletteDescriptionId`, and the named `lensId` together.
 - If that same shortlisted surface is emitted as one stable public object, also publish `shortlistId=<...>` and keep it recoverable that the token names that shortlist rather than replacing it.
-- If one retained tradition archive view is shown, publish `selectorOutcomeKind=SetSurfaceOutcome`, `setSurfaceKind=Archive`, `sourceSurfaceKind=Archive`, `derivedViewKind=TraditionArchive`, and keep the same `basePaletteRef` recoverable.
-- If the shortlist is later ordered, publish `setSurfaceKind=RankedShortlist` and keep the declared source surface visible.
-- Do not publish `setSurfaceKind=ChoiceSet` unless the shipped object is explicitly one mathematical analysis artifact rather than the public selected surface.
-- Do not publish `sourceSurfaceKind=TraditionPalette` alone when the visible object is already one derived tradition view; readers need to know which view is on the surface and which base palette it depends on.
+- If one retained tradition archive view is shown, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Archive`, `sourceSetFamily=Archive`, `derivedViewKind=TraditionArchive`, and keep the same `basePaletteRef` recoverable.
+- If the shortlist is later ordered, publish `setResultFamily=RankedShortlist` and keep the declared source set visible.
+- Do not publish `setResultFamily=ChoiceSet` unless the shipped object is explicitly one mathematical analysis artifact rather than the public selected set.
+- Do not publish `sourceSetFamily=TraditionPalette` alone when the visible object is already one derived tradition view; readers need to know which view is on the surface and which base palette it depends on.
 - Do not publish `TraditionFront` or `TraditionArchive` as if they were the default meaning of `Tradition`.
 - Do not ask `portfolioMode` to tell the reader whether they are seeing one palette, one front, one archive, or one shortlist.
 
@@ -421,12 +421,12 @@ This pattern inherits order/illumination, evidence, and bridge/penalty legality 
 | **CC‑G10.2 (Pack parity pins).** | If QD/OEE fields are present, pin `DescriptorMapRef.edition`, `DistanceDefRef.edition`, (optional) `DHCMethodRef.edition` / `DHCMethodSpecRef.edition` when used, and (OEE) `TransferRulesRef.edition`; include `CharacteristicSpaceRef` (+ `CharacteristicSpaceRef.edition` when it affects partitioning reproducibility); for QD archive semantics also pin `EmitterPolicyRef` and `InsertionPolicyRef`. | Verify the corresponding `G.10:Ext.*` block is present and the pins appear in AuditPins and (when relevant) in telemetry pins. |
 | **CC‑G10.3 (Telemetry discipline).** | Any illumination increase or archive edit SHALL log `PathSliceId`, the active `policy‑id`, the active editions of the pinned `…Ref` fields (incl. OEE `TransferRulesRef.edition`), and the active `EmitterPolicyRef`/`InsertionPolicyRef` when applicable. | Verify emitted telemetry is PathSlice‑keyed and carries the required pins; ensure causes are recorded using canonical trigger kinds (alias labels optional only). |
 | **CC‑G10.4 (UTS publication & twins).** | All shipped heads appear on UTS with Tech/Plain twins **per delegated UTS discipline**; cross‑Context identity (when present) is routed via Bridges with CL and loss notes **per delegated crossing discipline**. | Verify UTS rows exist and that any cross‑Context identity is routed via Bridge artefacts with visible CL/loss notes. |
-| **CC‑G10.5 (MOO surfaced in shipping).** | For every declared selector set-surface or archive published, the pack SHALL list the applicable generation/parity mechanism ids (e.g., QD `EmitterPolicyRef`/`InsertionPolicyRef`, parity harness ids, method refs where the method definition is generative) and the active policy‑id(s) in SCR‑visible bindings and telemetry pins (ids only; governing-definition delegating). | Verify `MOOManifestId` is present when outcomes are intended for downstream use and does not redefine semantics. |
+| **CC‑G10.5 (MOO surfaced in shipping).** | For every declared selector set-result or archive published, the pack SHALL list the applicable generation/parity mechanism ids (e.g., QD `EmitterPolicyRef`/`InsertionPolicyRef`, parity harness ids, method refs where the method definition is generative) and the active policy‑id(s) in SCR‑visible bindings and telemetry pins (ids only; governing-definition delegating). | Verify `MOOManifestId` is present when outcomes are intended for downstream use and does not redefine semantics. |
 | **CC‑G10.6 (Pack completeness as a citation surface).** | The pack cites all included upstream artefacts by id/ref and exposes the required pins (`AuditPins`, UTS/Path pins, CrossingBundleIds when required). | Verify all present payload artefacts have ids and the pins needed to cite/replay them. |
 | **CC‑G10.7 (CrossingBundle exposure).** | For each GateCrossing relevant to shipped artefacts, the pack exposes the relevant `CrossingBundleIds` (or records that no such crossings exist) **per delegated crossing visibility discipline**, and shipping fails fast on missing/non‑conformant crossing bundles when required. | Verify crossing bundle presence/absence is honest and aligned with the shipped artefacts’ declared crossings. |
 | **CC‑G10.8 (Baseline binding is explicit when used).** | If the shipped pack claims a planned baseline, `PlanItemRefs := SlotFillingsPlanItemRef[]` are present (WorkPlanning plan items, cited; no execution logs). | Verify plan items are cited by id and the pack does not treat decision records or execution logs as authoritative plan items. |
 | **CC‑G10.9 (Extension‑scoped pin declaration).** | If QD/OEE/interop fields are present, the corresponding `GPatternExtension` block is present and its required pins/editions/policies are recorded in AuditPins and in emitted telemetry pins when those pins affect refreshability. | Verify conditional extension pins are not silently omitted when the mode is used. |
-| **CC‑G10.10 (Derived tradition-view shipping).** | If the visible shipped surface or shortlisted source is one derived tradition view such as `TraditionFront` or `TraditionArchive`, the pack **MUST** publish the declared `sourceSurfaceKind`, keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable, and carry the derivation basis (`derivedViewKind`, declared `Q`, or reachability/coverage rule id) with enough explicitness that the visible surface cannot be mistaken for the default palette semantics. | Verify derived tradition views are shipped as derived views, not as silent redefinitions of the base palette. |
+| **CC‑G10.10 (Derived tradition-view shipping).** | If the visible shipped surface or shortlisted source is one derived tradition view such as `TraditionFront` or `TraditionArchive`, the pack **MUST** publish the declared `sourceSetFamily`, keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable, and carry the derivation basis (`derivedViewKind`, declared `Q`, or reachability/coverage rule id) with enough explicitness that the visible surface cannot be mistaken for the default palette semantics. | Verify derived tradition views are shipped as derived views, not as silent redefinitions of the base palette. |
 
 ### G.10:8.1 - Anti‑patterns and remedies
 
@@ -437,7 +437,7 @@ This pattern inherits order/illumination, evidence, and bridge/penalty legality 
 * **AP‑5 No PathSlice key → refresh becomes global.** Remedy: enforce PathSlice‑keyed telemetry and path citations (`G.10‑4`, `G.10‑5`).
 * **AP‑6 Cross‑Context reuse without visible crossing pins.** Remedy: require `CrossingBundleIds` + Bridge/CL policy pins; fail fast on missing/non‑conformant bundles (`CC‑G10.7`).
 * **AP‑7 Interop ingestion rewrites semantics.** Remedy: ingest interop as cited notes only; semantics remain in `G.13` (`G.10‑6`, `G.10:Ext.InteropCitation`).
-* **AP‑8 Derived-view collapse.** Remedy: ship `sourceSurfaceKind`, `derivedViewKind`, `basePaletteRef`, and the declared `Q` or reachability basis with enough explicitness that one derived tradition view cannot masquerade as the default palette meaning.
+* **AP‑8 Derived-view collapse.** Remedy: ship `sourceSetFamily`, `derivedViewKind`, `basePaletteRef`, and the declared `Q` or reachability basis with enough explicitness that one derived tradition view cannot masquerade as the default palette meaning.
 
 ### G.10:8.2 - SoTA‑Echoing (post‑2015, for orientation)
 

@@ -6,12 +6,12 @@ section_id: "C.30.ILC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__010_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:9 — Consequences"
-line_start: 52029
-line_end: 52034
+line_start: 52467
+line_end: 52472
 dependencies:
   - "A.10"
   - "A.22"
@@ -43,5 +43,5 @@ keywords:
 
 The gain is an early architecture move that is small and precise. The practitioner can preserve useful problem language such as conflict, frustration, level, layer, or local optimization while recovering the FPF fields that keep the claim reviewable.
 
-The cost is that `C.30.ILC` often refuses to solve the whole problem. It identifies the first architecture move or neighbor exit. Measurement, mathematical lens use, stakeholder mediation, candidate generation, evidence, assurance, and final choice remain outside until they are live.
+The cost is that `C.30.ILC` often refuses to solve the whole problem. It identifies the first architecture move or exact governing pattern application. Measurement, mathematical lens use, stakeholder mediation, candidate generation, evidence, assurance, and final choice remain outside until they are live.
 

@@ -6,12 +6,12 @@ section_id: "G.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__002_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:1 — Problem frame"
-line_start: 72861
-line_end: 72879
+line_start: 73071
+line_end: 73089
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -40,13 +40,13 @@ keywords:
   - "SoTA_SetId"
   - "UTS/Name Cards"
   - "VariantPoolId"
-  - "and set-surface scaffold"
+  - "and set-result scaffold"
   - "edition pins"
   - "generator"
   - "generator chassis"
   - "selector"
+  - "set-result outcome"
   - "set-return selection"
-  - "set-surface outcome"
   - "shipping and refresh boundaries"
   - "six-card kit (M1-M6)"
 ---
@@ -58,7 +58,7 @@ You are authoring a **CG‑Frame** and want a **repeatable scaffold** that conne
 * a declared **scope anchor** (`CG‑FrameContext`, `describedEntity`, governing spec refs),
 * a **local SoTA set** (scoped and provenance‑anchored),
 * a **variant pool** (candidate ideas / decision options / method variants),
-* a **shortlist** (a set-surface outcome, not a forced singleton),
+* a **shortlist** (a set-result outcome, not a forced singleton),
 * **publication‑ready bindings** into Part‑F artefacts (UTS rows, Name Cards, RSCR tests, worked examples),
 * and **refresh readiness** (telemetry hooks + RSCR wiring) without redefining refresh or shipping.
 

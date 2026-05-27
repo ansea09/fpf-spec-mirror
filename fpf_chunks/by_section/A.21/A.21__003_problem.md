@@ -6,12 +6,12 @@ section_id: "A.21:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__003_problem.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:2 — Problem"
-line_start: 27872
-line_end: 27880
+line_start: 27939
+line_end: 27947
 dependencies:
   - "A.19"
   - "A.2.6"

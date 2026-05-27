@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D2.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
-line_start: 56287
-line_end: 56790
+line_start: 56504
+line_end: 57007
 dependencies:
   - "A.7"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "C.30.ILC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__004_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:3 — Forces"
-line_start: 51893
-line_end: 51901
+line_start: 52331
+line_end: 52339
 dependencies:
   - "A.10"
   - "A.22"

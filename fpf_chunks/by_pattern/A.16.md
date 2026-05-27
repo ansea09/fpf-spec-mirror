@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
-line_start: 21457
-line_end: 21803
+line_start: 21528
+line_end: 21874
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -55,7 +55,7 @@ keywords:
 
 **Typical next governing patterns.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, receiving endpoint governing patterns such as `A.6.P`, `A.6.A`, and `A.6.Q`, and `A.16.2` when the right move is reopen/backoff/respecify/retire.
 
-**Common neighboring-pattern mistakes.** If history itself must be published as an accountable trajectory, use `A.16.0`; if you are already doing slot-explicit semantic repair, apply `A.6.P`, `A.6.Q`, or `A.6.A`; if the publication target is a graph publication in itself, use `E.18`.
+**Common neighboring-pattern mistakes.** If history itself must be published as an accountable trajectory, use `A.16.0`; if you are already doing slot-explicit epistemic precision repair, apply `A.6.P`, `A.6.Q`, or `A.6.A`; if the publication target is a graph publication in itself, use `E.18`.
 
 ### A.16:1 - Problem frame
 Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for how governed `U.Episteme` publications change, narrow, reopen, or hand off across that chart. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or an invisible sequence of governing pattern replacements.
@@ -98,7 +98,7 @@ Observation itself is a precursor condition typically published through `B.4.1`.
 
 Here `projection` remains the move name, but its reading is tightened: it is route-bounded partialization. The resulting publication must be a **typed publication form** rendered on an existing MVPK face. Naming only the face is insufficient; naming only an untyped placeholder is insufficient.
 
-`respecify` is intentionally narrower than semantic repair. In `A.16`, it may change framing scaffold, route specification, or facet-profile reading while preserving the broad family. Slot-explicit semantic rewrite and endpoint-local lexical repair remain with receiving governing patterns such as `A.6.P`, `A.6.Q`, and `A.6.A`.
+`respecify` is intentionally narrower than epistemic precision repair. In `A.16`, it may change framing scaffold, route specification, or facet-profile reading while preserving the broad family. Slot-explicit epistemic precision restoration and endpoint-local lexical repair remain with receiving governing patterns such as `A.6.P`, `A.6.Q`, and `A.6.A`.
 
 #### A.16:4.2 - Guard discipline
 Move guards are stated over named facets from `C.2.LS`, together with witnesses, scope, and `GammaTime` selectors where needed. In practice this means explicit reference to `AE` (`C.2.4`), `CD` (`C.2.5`), `LanguageStateAnchoringMode` (`C.2.6`), and `LanguageStateRepresentationFactorBundle` (`C.2.7`), either facetwise or through one published facet profile. No move may be justified by vague prose such as "the idea matured" without naming what changed in articulation, closure, anchoring, representation, or route state.
@@ -143,7 +143,7 @@ The pattern biases authors toward explicit move-typing and away from folk storie
 - `CC-A.16-3` Every move kind **SHALL** name its preconditions and postconditions over explicit language-state facets, route state, or authority state.
 - `CC-A.16-4` Publication form, governing pattern, and MVPK face **SHALL NOT** be collapsed into one unnamed target.
 - `CC-A.16-5` Multi-route state inside one governed member **SHALL NOT** be confused with lineage fork across several successor members.
-- `CC-A.16-6` `respecify` **SHALL NOT** be used to hide slot-explicit semantic repair that belongs to later repair governing patterns.
+- `CC-A.16-6` `respecify` **SHALL NOT** be used to hide slot-explicit epistemic precision repair that belongs to later repair governing patterns.
 - `CC-A.16-7` Retreat or retirement **SHALL** preserve, withdraw, or discard prior witnesses and authority explicitly.
 - `CC-A.16-8` Published path structures **SHOULD** reuse `E.18` when a graph publication is needed.
 - `CC-A.16-9` `AuthorityState` and `EndpointAdmissionProfile` reuse **SHALL NOT** be treated as new governing patterns, new route-bearing forms, or substitutes for gate or work state.
@@ -257,7 +257,7 @@ When path publication becomes important as a graph publication in itself, move s
 Older prose that narrates a cue as moving from "informal to formal" should be unpacked into the relevant `A.16` move plus the relevant facet, route-state, and authority changes. A single-factor maturity story is not enough.
 
 #### A.16:16.2 - Boundary reminder
-If authors find themselves using `A.16` to justify measurement admissibility, bridge substitution, endpoint ontology, or slot-explicit semantic repair, they have crossed out of this governing pattern's scope.
+If authors find themselves using `A.16` to justify measurement admissibility, bridge substitution, endpoint ontology, or slot-explicit epistemic precision repair, they have crossed out of this governing pattern's scope.
 
 ### A.16:17 - Move Package Discipline
 

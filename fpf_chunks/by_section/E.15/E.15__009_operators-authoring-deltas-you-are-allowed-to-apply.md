@@ -6,12 +6,12 @@ section_id: "E.15:8"
 section_title: "Operators (authoring deltas you are allowed to apply)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__009_operators-authoring-deltas-you-are-allowed-to-apply.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:8 — Operators (authoring deltas you are allowed to apply)"
-line_start: 57993
-line_end: 58001
+line_start: 58208
+line_end: 58216
 dependencies:
   - "A.10"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and quantum-like reading note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-quantum-like-reading-note.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12a — Coordinated-work evidence and quantum-like reading note"
-line_start: 20188
-line_end: 20218
+line_start: 20259
+line_end: 20289
 dependencies:
   - "A.10"
   - "A.12"

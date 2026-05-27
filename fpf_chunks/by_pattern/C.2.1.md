@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
-line_start: 33745
-line_end: 34576
+line_start: 33801
+line_end: 34631
 dependencies:
   - "A.1"
   - "A.6.2"
@@ -870,4 +870,3 @@ When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane 
 Together, these relations make `U.EpistemeSlotGraph` the **single normative core** for thinking about epistemes, their DescribedEntity mapping, their representations, and their transformations across FPF.
 
 ### C.2.1:End
-

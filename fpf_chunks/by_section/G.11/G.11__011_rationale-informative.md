@@ -6,12 +6,12 @@ section_id: "G.11:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__011_rationale-informative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh & Decay Orchestrator"
   - "G.11:10 — Rationale (informative)"
-line_start: 77813
-line_end: 77820
+line_start: 78023
+line_end: 78030
 dependencies:
   - "B.3.4"
   - "C.18"

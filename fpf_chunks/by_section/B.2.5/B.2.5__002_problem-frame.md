@@ -6,12 +6,12 @@ section_id: "B.2.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:1 — Problem frame"
-line_start: 31113
-line_end: 31125
+line_start: 31169
+line_end: 31181
 dependencies:
   - "A.1"
   - "A.12"
@@ -37,8 +37,8 @@ The first-minute working situation is familiar: a fleet controller supervises dr
 
 What goes wrong if B.2.5 is missed: a drawn loop, layer label, publication channel, or supervisor word is read as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance.
 
-What B.2.5 buys in practice: the practitioner can keep useful supervisor/subholon language while naming the acting role, medium, returned influence, and neighboring pattern that carries any proof or support claim.
-Not this pattern when the live issue is only a control-structure view, a reusable dynamics law, a rate/timing claim, a causal intervention claim, an evidence claim, an assurance claim, a gate decision, or a module-interface relation. Use `C.30.LCA` for control-structure view adequacy, `A.3.3` for dynamics, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence support, `B.3` for assurance, `A.20`/`A.21` for constraint validity or gate decisions, and module/interface patterns for interface commitments.
+What B.2.5 buys in practice: the practitioner can keep useful supervisor/subholon language while naming the acting role, medium, returned influence, and exact governing pattern that carries any proof or exact claim.
+Not this pattern when the live issue is only a control-structure view, a reusable dynamics law, a rate/timing claim, a causal intervention claim, an evidence claim, an assurance claim, a gate decision, or a module-interface relation. Use `C.30.LCA` for control-structure view adequacy, `A.3.3` for dynamics, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence claim, `B.3` for assurance, `A.20`/`A.21` for constraint validity or gate decisions, and module/interface patterns for interface commitments.
 
 The governed object is one supervisor-subholon feedback-loop relation. It is not proof that the loop is stable, safe, evidence-sufficient, gate-ready, causally valid, or assured.
 

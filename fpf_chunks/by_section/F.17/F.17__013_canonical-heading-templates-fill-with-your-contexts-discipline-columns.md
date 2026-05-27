@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Canonical Heading Templates (fill with your Contexts/Discipline columns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__013_canonical-heading-templates-fill-with-your-contexts-discipline-columns.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:12 — Canonical Heading Templates (fill with your Contexts/Discipline columns)"
-line_start: 71140
-line_end: 71166
+line_start: 71345
+line_end: 71371
 dependencies:
   - "A.1.1"
   - "A.11"

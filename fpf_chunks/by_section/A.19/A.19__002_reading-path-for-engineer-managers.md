@@ -6,19 +6,19 @@ section_id: "A.19:0"
 section_title: "Reading path for engineer-managers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_reading-path-for-engineer-managers.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — Reading path for engineer-managers"
-line_start: 22858
-line_end: 22932
+line_start: 22926
+line_end: 23000
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
-  - "A.19.SUPPORT-VIEW"
-  - "A.19.SURF-SPACE"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.2.5"
   - "A.3.3"
   - "C.16"
@@ -105,7 +105,7 @@ This pattern is intentionally **not** a second governing pattern for CHR mechani
 
 **Terminology pointer (informative; do not duplicate).** When A.19 uses normalization or indicatorization terms below, it uses them *by reference* to **A.19.UNM** and **A.19.UINDM** and **C.16**. This pattern only constrains how such normalization method instances or declarations are **cited** when doing state‑space comparability, embeddings, and certification.
 
-**Reader map (informative).**
+**Reader guide (informative).**
 * If you need the **meaning** of `UNM`, `NCV`, `≡_UNM`, or `NormalizationFix` or `NormalizationFixSpec`: see **A.19.UNM**.
 * If you need the **meaning** of `IndicatorChoicePolicy` / indicatorization: see **A.19.UINDM**.
 * If you need the **CN‑Spec field/ref bindings** (`CN_Spec.normalization`, `CN_Spec.comparability.*`): see **A.19.CN**.

@@ -6,12 +6,12 @@ section_id: "F.4:15"
 section_title: "Didactic distillation (60‑second close)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__017_didactic-distillation-60-second-close.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:15 — Didactic distillation (60‑second close)"
-line_start: 66558
-line_end: 66566
+line_start: 66763
+line_end: 66771
 dependencies:
   - "A.11"
   - "A.2.1"

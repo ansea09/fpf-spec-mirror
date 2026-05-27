@@ -1,0 +1,92 @@
+---
+chunk_kind: "child"
+pattern_id: "C.2.P"
+pattern_title: "Epistemic Precision Restoration"
+section_id: "C.2.P:9"
+section_title: "Consequences"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.2.P/C.2.P__013_consequences.md"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+heading_path:
+  - "C.2.P — Epistemic Precision Restoration"
+  - "C.2.P:9 — Consequences"
+line_start: 35157
+line_end: 35189
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.15.4"
+  - "A.20"
+  - "A.21"
+  - "A.6.3.CR"
+  - "A.6.3.CSC"
+  - "A.6.3.RT"
+  - "A.6.A"
+  - "A.6.P"
+  - "A.6.Q"
+  - "A.7"
+  - "B.3"
+  - "C.11"
+  - "C.2.1"
+  - "E.10"
+  - "E.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.AUD"
+  - "E.17.EFP"
+  - "E.17.ID.CR"
+  - "E.19"
+  - "E.2"
+  - "E.6"
+  - "E.7"
+  - "E.8"
+  - "E.9"
+  - "F.18"
+keywords:
+  - "PublicationUnit"
+  - "carrier"
+  - "claim-bearing episteme"
+  - "described entity"
+  - "epistemic precision restoration"
+  - "grounding relation"
+  - "publication face"
+  - "remaining admissible reader move"
+  - "source wording"
+  - "source-expression unpacking"
+  - "source-to-FPF transfer"
+  - "transfer disposition"
+---
+
+### C.2.P:9 - Consequences
+
+| Benefit | Trade-off and mitigation |
+| --- | --- |
+| Prevents parallel episteme/publication ontology from entering FPF prose. | Adds a small recovery step before apparently simple rewrites; mitigate by using the smallest sufficient mode. |
+| Preserves accepted glossary and rules without turning source-basis status lines into accidental pattern authority. | Requires a clear separation between pattern guidance and source-basis status. |
+| Makes unclear meaning fail closed. | Some attractive phrases will not be accepted until their kind or relation is actually recovered. |
+| Improves DRR and pattern drafting discipline. | Authors must resist convenient lists and umbrellas when one exact kind or relation is needed. |
+
+#### C.2.P:9.1 - Operating Consequence
+For new episteme-publication precision prose:
+- start from FPF kinds and relations, not from familiar publication nouns and document nouns;
+- use `PublicationUnit` for bounded publication units;
+- use `describedEntity` only when the episteme slot is live;
+- keep publication form, generic publication face, governed MVPK face, view, carrier, document with named source-basis, evidence-basis, architecture-basis, or review-basis role, review target, and exact project-side FPF kind and reference separate;
+- name `relationLoad`, `admissibleUse`, and `projectSourceLoad` separately when more than one is live;
+- classify heterogeneous kind lists before writing a sentence that depends on them;
+- say that FPF patterns are applied in problem situations, not called or routed as procedures;
+- leave accepted FPF names untouched unless a separate accepted naming decision authorizes a rename.
+
+Operationally, each rewrite should:
+- separate FPF-side episteme and publication context from project-side episteme and publication context whenever both are present;
+- name `relationLoad`, `admissibleUse`, and `projectSourceLoad` separately when a publication, display, cue, or explanation is read as evidence, gate, constraint, adjudication, decision support, work permission, assurance, or engineering justification;
+- classify heterogeneous lists before naming them: one live kind, relation stack, tuple-like record, alternative cases, not-triggered alternatives, or failed ontology;
+- say that FPF patterns are applied in problem situations, while project records, publications, views, carriers, and actions are worked with in project practice;
+- avoid strength metaphors unless the characteristic, scale, threshold, evidence class, or admissibility relation is named.
+
+For cleanup of existing conformant texts:
+- do not do a global string replacement;
+- classify each unclear term occurrence by the smallest sufficient rewrite mode;
+- use the full epistemic precision-restoration check only when ontology, reusable naming, FPF pattern text, or source-bearing project text is live;
+- do not rename accepted FPF patterns from this pattern alone.
+

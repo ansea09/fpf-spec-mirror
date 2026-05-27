@@ -6,17 +6,17 @@ section_id: "F.18:11"
 section_title: "Application Guidance (how to apply, step by step)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__012_application-guidance-how-to-apply-step-by-step.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:11 — Application Guidance (how to apply, step by step)"
-line_start: 71631
-line_end: 71680
+line_start: 71836
+line_end: 71892
 dependencies:
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "F.0.1"
   - "F.1-F.17"
   - "G.10"
@@ -55,13 +55,20 @@ keywords:
 * Where overlap exists with another context, propose an **alignment bridge**.
 * Keep your stewardship Context; record the mapping and any known divergence in reading.
 
-**11.5a Keep support-view labels subordinate to the base candidate set or family.**
+**11.5a Test the replacement candidate against umbrella drift.**
+
+* Before replacing an overloaded head, apply the `E.10:0.2` replacement-candidate anti-umbrella rule. Then run the candidate head through the same local-first naming test: governed object, FPF kind or local field, relation/function if live, admissible use, neighboring exclusions, and example fit.
+* Do not approve a candidate merely because it avoids the old bad word. The replacement is acceptable only when the exact FPF kind or local field is defined by value and the current use names its boundaries.
+* If the candidate still hides several possible kinds, keep a candidate-set note and do not mint, rename, or land the term yet.
+
+**11.5b Keep interpretive-view labels subordinate to the base candidate set or family.**
 
 * When a naming pass talks about one palette, front, archive, shortlist, or candidate set, keep that base candidate set or family recoverable on the Name Card.
-* Use thinner support-view wording when the pressure is local comparison across candidate labels, sense-seeds, rejected candidates, or guarded-head notes.
+* Use thinner interpretive-view wording when the pressure is local comparison across candidate labels, sense-seeds, rejected candidates, or guarded-head notes.
 * Use atlas wording only when the naming explanation truly depends on several declared views, spaces, mappings, or distortion qualifiers being visible together, for example one cited `OutcomeMapRef` plus a `BridgeDistortionNote`.
-* Those cited spaces or qualifiers stay naming-side reuse of already-declared substrate support; they do not let naming passages mint one new source-to-outcome relation or one new publication posture locally.
+* Those cited spaces or qualifiers stay naming-side reuse of already-declared substrate qualifiers; they do not let naming passages mint one new source-to-outcome relation or one new publication posture locally.
 * A guarded-head note remains naming governance: it can explain why one head word misleads across admissible readings, but it does not decide substrate stewardship or publication policy.
+
 **11.6 Publish and steward.**
 
 * Publish the name with MDS, subtitle, dependency stratum, stewardship contact, examples.

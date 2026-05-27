@@ -6,12 +6,12 @@ section_id: "C.19.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:intro — Intro"
-line_start: 41773
-line_end: 41781
+line_start: 42459
+line_end: 42467
 dependencies:
   - "A.0"
   - "B.3"
@@ -44,7 +44,7 @@ keywords:
 ## C.19.1 - Bitter‑Lesson Preference (BLP)
 
 **One‑screen purpose (manager‑first).**
-Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable methods**—those that improve with **more data/compute/capacity and greater freedom‑of‑action**—over narrow hand‑crafted heuristics **when safety and legality are equal**. Exceptions require a transparent **Scale‑Audit** under the parity harness.
+Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable methods**—those that improve with **more data/compute/capacity and greater freedom‑of‑action**—over bespoke narrow heuristics **when safety and legality are equal**. Exceptions require a transparent **Scale‑Audit** under the parity harness.
 
 **Builds on.** C.19 (E/E‑LOG), C.24 (Agent‑Tools‑CAL; **ATC‑2**), B.3 (Assurance), E.3 (Precedence), E.5 (Guard‑Rails).
 **Coordinates with.** G.5 (Selector), G.8 (SoS‑LOG Bundles), G.9 (Parity), G.11 (Refresh‑Telemetry), A.0 (On‑Ramp).

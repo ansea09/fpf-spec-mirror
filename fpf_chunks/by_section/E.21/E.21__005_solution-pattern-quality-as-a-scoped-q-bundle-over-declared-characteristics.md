@@ -6,19 +6,19 @@ section_id: "E.21:4"
 section_title: "Solution - Pattern quality as a scoped Q-Bundle over declared characteristics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution-pattern-quality-as-a-scoped-q-bundle-over-declared-characteristics.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.21 — FPF Pattern Quality Characteristic Space"
   - "E.21:4 — Solution - Pattern quality as a scoped Q-Bundle over declared characteristics"
-line_start: 63993
-line_end: 64640
+line_start: 64204
+line_end: 64851
 dependencies:
   - "A.17-A.19"
   - "A.6.P"
   - "A.6.Q"
   - "C.16"
+  - "C.2.P"
   - "C.25"
-  - "E.10.SEMIO"
   - "E.11"
   - "E.17.AUD"
   - "E.19"
@@ -75,7 +75,7 @@ It defines how to read whether one authored FPF pattern version is good enough f
 
 A conforming `E.21` read may cite neighbouring patterns, but it may not absorb their governed objects.
 
-`E.21` protects these seam surfaces as part of the pattern-quality read: self-application, first-entry/discoverability, publication/projection, bounded non-use, no forced winner, falsifiability/lowering evidence, reviewer-power misuse, AI/RAG/thin-echo summaries, and corpus ecology. A read that crosses one of these surfaces must keep the pattern-quality claim scoped, replayable, falsifiable, and routed to the exact neighbouring pattern instead of becoming control apparatus.
+`E.21` protects these seam surfaces as part of the pattern-quality read: self-application, first-entry/discoverability, publication/projection, bounded non-use, no forced winner, falsifiability/lowering evidence, reviewer-power misuse, AI/RAG/thin-echo summaries, and corpus ecology. A read that crosses one of these surfaces must keep the pattern-quality claim scoped, replayable, falsifiable, and kept under the exact neighbouring pattern application instead of becoming control apparatus.
 
 #### E.21:4.0a - Mint/reuse and kind settlement
 
@@ -192,7 +192,7 @@ A status without payload is not checkable. Every `PatternQualityStatus` SHALL ca
 
 A bounded non-use result is a valid pattern-quality outcome.
 
-When a pattern is not admissible for the declared ordinary use but remains useful as expert-only support, source-basis support, high-assurance support, historical rationale, narrow worked-case support, or neighbour-handoff support, the `PatternQualityStatus` SHALL be `admissibleWithNarrowerUse`, not `repairBeforeUse`.
+When a pattern is not admissible for the declared ordinary use but remains useful as expert-only support, source-basis support, high-assurance support, historical rationale, narrow worked-case support, or neighbouring-pattern support, the `PatternQualityStatus` SHALL be `admissibleWithNarrowerUse`, not `repairBeforeUse`.
 
 The narrowed use must name:
 
@@ -230,7 +230,7 @@ Failure of an activated eligibility row is a content blocker. A non-activated ro
 |---|---|
 | `canonicalFrameConformance` | The pattern has the `E.8` canonical frame, header block, required sections, and footer marker, or the missing piece is explicitly treated as a mechanical repair before use. |
 | `governedObjectClarity` | The early text says which object, relation, move, boundary, or support claim the pattern governs. |
-| `firstMoveRecoverability` | The target pattern's `Problem frame` and `Solution` expose one first admissible action-guiding move for the declared `WorkingReaderScope`, or a named neighbouring-pattern handoff now carries the live claim. |
+| `firstMoveRecoverability` | The target pattern's `Problem frame` and `Solution` expose one first admissible action-guiding move for the declared `WorkingReaderScope`, or a named neighbouring-pattern application now carries the live claim. |
 | `missionOrPillarConflict` | Activated when the pattern claims FPF-wide mission support, changes a pillar interpretation, imports external domain scope, or creates a possible pillar conflict. Absence of pillar recitation is not a defect. Pass condition: no live mission/pillar conflict is hidden, and any live constitutional payoff is carried by the exact coordinate or neighbouring pattern that owns it. |
 | `noProcessLeakage` | Live pattern prose contains no campaign, review, history, planning, landing, or "what changed" residue. |
 | `normativityAdmissibilitySplit` | RFC keywords state agent obligations only; definitions, invariants, typing rules, and admissibility predicates are not written as duties. |
@@ -294,7 +294,7 @@ The coordinates below are not one flat always-on audit grid. `PatternQualityChar
 
 A coordinate is admissible only when it reads a content property of the target pattern version under the declared `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow`.
 
-Hard blockers stay in `EligibilitySet`. Evidence kinds justify coordinate readings but are not coordinates by themselves. Telemetry reopens or calibrates a read but does not replace content evidence. Fronts and archives preserve candidate trade-offs but do not add ordinary drafting obligations. `PatternQualityStatus` and `StopCondition` are results of the read, not coordinates. Project-side evidence, assurance, gate, release, work, safety, security, or compliance claims route to exact neighbouring patterns.
+Hard blockers stay in `EligibilitySet`. Evidence kinds justify coordinate readings but are not coordinates by themselves. Telemetry reopens or calibrates a read but does not replace content evidence. Fronts and archives preserve candidate trade-offs but do not add ordinary drafting obligations. `PatternQualityStatus` and `StopCondition` are results of the read, not coordinates. Project-side evidence, assurance, gate, release, work, safety, security, or compliance claims stay under exact neighbouring patterns.
 
 Each coordinate has an activation class:
 
@@ -310,15 +310,15 @@ Inactive coordinates are not passes, waivers, or hidden failures. They are outsi
 |---|---|---|---|
 | `WorkingSituationAndUseBoundaryRecognizability` | first-pass core | Whether the working reader recognises the situation, ordinary use, non-use, harm if missed, and first boundary early. | The reader can say "this is / is not my situation" without reading support apparatus. |
 | `ActionPathGuidance` | first-pass core | Whether, after the first admissible move is recoverable, the reader can continue the admissible action path. | The `Solution` carries the action path; the checklist tests it rather than replacing it. |
-| `ClosureAndBoundedNonUseRecoverability` | ordinary stop core | Whether stop, repair, narrower use, and neighbour handoff are recoverable. | The reader can tell when the governed move is enough, when to narrow, and where remaining live claims go. |
+| `ClosureAndBoundedNonUseRecoverability` | ordinary stop core | Whether stop, repair, narrower use, and neighbouring-pattern application are recoverable. | The reader can tell when the governed move is enough, when to narrow, and where remaining live claims go. |
 | `GovernedObjectAndClaimScopeStability` | first-pass core | Whether the governed object and quality-claim scope stay stable across title, problem frame, solution, checklist, cases, relations, and status. | The pattern does not drift between pattern, record, bundle, suite, profile, review-profile result, method, work, support document, or broader/narrower use claim. |
 | `SemanticKindAndNameRecoverability` | ordinary stop core; first-pass when names are load-bearing | Whether heads, kinds, relations, qualifiers, support roles, evidence roles, and Tech/Plain names recover the same FPF reading. | Names are usable because they preserve kind, relation, and load, not because prose is polished. |
 | `NeighborAuthorityAndBoundedUseFit` | first-pass core | Whether neighbouring claims stay with exact receiving patterns and residual weakness is bounded. | Evidence, assurance, measurement, naming, work, gate, decision, publication, causal, release, bridge, and refresh claims do not become `E.21` authority. |
-| `PracticalUseDeltaAndHarmPrevention` | first-pass core | Whether the pattern changes a real reader move, prevents a named misuse, reduces named cost or ambiguity, or preserves a named boundary. | The reader can state what action, decision, repair, non-use, or handoff becomes better because the pattern exists. |
+| `PracticalUseDeltaAndHarmPrevention` | first-pass core | Whether the pattern changes a real reader move, prevents a named misuse, reduces named cost or ambiguity, or preserves a named boundary. | The reader can state what action, decision, repair, non-use, or neighbouring-pattern use becomes better because the pattern exists. |
 | `UseAffordabilityAndApparatusProportionality` | first-pass core | Whether first use is affordable and the apparatus is proportionate to the live claim. Subreadings: first-use cost and apparatus proportionality. | Ordinary use stays light; heavier fields, cards, telemetry, front/archive, support, or evidence apparatus appear only when their live claim buys admissible use. A weak live subreading limits the coordinate value; do not average the subreadings. |
 | `RepairLocalityAndChangeImpactPredictability` | ordinary stop core | Whether repairs stay local and downstream impact is predictable. | The repair has the smallest live locus, known impact radius, and no unnecessary changes to names, relations, supports, evidence refs, or entry surfaces. |
 | `ProxyForValueSubstitutionResistance` | ordinary stop core | Whether the quality read prevents Goodhart substitution of rubric satisfaction for pattern-use value. | The read asks what got worse and treats usability, affordability, maintainability, neighbour costs, and bounded non-use as quality evidence rather than afterthoughts. |
-| `ClaimSupportTraceabilityCurrentnessAndReplayability` | claim-support | Whether another reader can replay the claim from pinned text, scope, evidence refs, currentness basis, limitations, status, and stop reason. | The claim is traceable and replayable without chat memory, steward memory, or administrative placement state; project assurance is routed out. |
+| `ClaimSupportTraceabilityCurrentnessAndReplayability` | claim-support | Whether another reader can replay the claim from pinned text, scope, evidence refs, currentness basis, limitations, status, and stop reason. | The claim is traceable and replayable without chat memory, steward memory, or administrative placement state; project assurance stays outside `E.21` and under exact receiving patterns. |
 | `CaseCountercaseAndTransferCoverage` | claim-support | Whether positive cases, near-misses, anti-cases, and transfer cases match claimed breadth. | Cases test the main misuse paths and boundary transfers; broad claims have heterogeneous support or explicit narrowing. |
 | `SoTABindingAndCurrentness` | claim-support | Whether SoTA, lineage, rejected practice, and refresh triggers are separated and load-bearing. | Adopt/adapt/reject stances mutate `Solution`, checklist, boundary, relation, worked case, stop, or reopen condition. |
 | `FormalClaimLegalityAndLensFit` | claim-support | Whether measurement, score, comparison, scale, threshold, formal model, or lens claim is legal and bounded. | Scale/comparability basis and preserved/lost structure are visible; non-admissible formal use is named. |
@@ -332,7 +332,7 @@ Inactive coordinates are not passes, waivers, or hidden failures. They are outsi
 | Overlay | Activation | Good state |
 |---|---|---|
 | `ConstraintAndHarmBoundaryFit` | Active when the target pattern contains safety, security, ethics, compliance, deontic, harm-prevention, prohibited-use, non-negotiable constraint, or project-risk claims. | Constraint and harm boundaries are visible, exact receiving patterns are named, and no pattern-quality result is overread as safety, security, compliance, ethics, or project approval. |
-| `SelfApplicationAndRecursionBoundary` | Active for meta-patterns that govern pattern authoring, review, quality, naming, publication, SoTA, semantic repair, or characteristic spaces. | The pattern can be applied to itself at the lowest sufficient layer without recursive bundles, infinite review, or self-certifying authority. |
+| `SelfApplicationAndRecursionBoundary` | Active for meta-patterns that govern pattern authoring, review, quality, naming, publication, SoTA, epistemic precision repair, or characteristic spaces. | The pattern can be applied to itself at the lowest sufficient layer without recursive bundles, infinite review, or self-certifying authority. |
 
 #### E.21:4.4 - DominanceSet, TieBreakerSet, TelemetrySet
 
@@ -487,7 +487,7 @@ PatternQualityQBundle / first-pass slice:
   WorkingReaderScope:
   IntendedUse:
   QualificationWindow:
-  FirstMoveEvidenceRef: <Problem frame / Solution / named neighbouring handoff>
+  FirstMoveEvidenceRef: <Problem frame / Solution / named neighbouring-pattern application>
   EntryBlockers: <none | first move absent | governed object drift | checklist-as-solution | apparatus overreach | neighbour overread | other activated blocker>
   MinimalDominanceSet: <default six coordinates, plus activated coordinates if live>
   PatternQualityStatus:
@@ -541,7 +541,7 @@ A thin echo SHALL NOT say:
 * `do not use this pattern` without scope;
 * `E.21 certified this pattern`.
 
-If a generated or coarsened rendering is used for reliance beyond orientation, route to `A.6.3.CSC`, `E.17.EFP`, `E.17.AUD`, `A.10`, or `B.3` as live.
+If a generated or coarsened rendering is used for reliance beyond orientation, apply the exact receiving pattern live: `A.6.3.CSC`, `E.17.EFP`, `E.17.AUD`, `A.10`, or `B.3`, as applicable.
 
 #### E.21:4.9 - Reader move loop
 
@@ -621,7 +621,7 @@ A pattern-quality finding is admissible only when it has this shape:
 Pattern-quality finding:
   Target: <PatternVersionRef>
   ClaimScope / reader / use / window:
-  Finding kind: <eligibility blocker | coordinate reading | status payload | stop-condition failure | bounded non-use | neighbour-handoff>
+  Finding kind: <eligibility blocker | coordinate reading | status payload | stop-condition failure | bounded non-use | neighbouring-pattern application>
   Exact E.21 locus: <EligibilitySet row | coordinate | status | stop clause>
   Content evidence: <HostSectionRef / worked case / SoTA row / relation check / review finding>
   Result: <PatternQualityStatus effect or coordinate value effect>

@@ -6,12 +6,12 @@ section_id: "A.6.F:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__002_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:1 — Problem frame"
-line_start: 14266
-line_end: 14289
+line_start: 14293
+line_end: 14316
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,13 +32,13 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -75,7 +75,7 @@ Stop when the recovered carrier kind, any needed carrier ref, false carrier kind
 
 What goes wrong if A.6.F is missed: a function becomes a root kind; functional architecture becomes a peer ontology beside architecture; a capability becomes a function; a method or work occurrence becomes a function; a mathematical function becomes design ontology; a module allocation becomes functional truth; or a quality claim hides behind "functionality".
 
-What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the exact carrier and the neighboring pattern that carries any remaining claim kind.
+What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the exact carrier and the exact governing pattern that carries any remaining claim kind.
 
 Not this pattern when the phrase is ordinary prose and carries no live FPF claim. If the live issue is a general relation word rather than function-like wording, use A.6.P. If the live issue is evaluative language, use A.6.Q. If the live issue is architecture-description adequacy, use C.30. If the live issue is an architecture structural view, use C.30.ASV.
 

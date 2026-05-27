@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution — Signature & Realization"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_solution-signature-realization.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.24 — Agentic Tool‑Use & Call‑Planning (C.Agent‑Tools‑CAL)"
   - "C.24:4 — Solution — Signature & Realization"
-line_start: 43655
-line_end: 43867
+line_start: 44340
+line_end: 44552
 dependencies:
   - "A.1"
   - "A.15"
@@ -134,8 +134,8 @@ What changes in practice: a call plan that probes, intervenes, samples, simulate
 What this does not authorize: `C.24` does not estimate effects, prove identification, certify fairness, or turn simulation output into realized counterfactual-rung evidence; it governs admissible call planning and redirects causal-use support to `C.28`.
 
 
-- Planning should reuse the declared source surface, decision lens, probe budget, and stopping posture rather than creating one planning-only choice semantics.
-- Budgeted sequencing may mix exploitation and exploration, but the declared source surface and the declared reason for the next probe must stay recoverable.
+- Planning should reuse the declared source set, decision lens, probe budget, and stopping posture rather than creating one planning-only choice semantics.
+- Budgeted sequencing may mix exploitation and exploration, but the declared source set and the declared reason for the next probe must stay recoverable.
 - Use planning language such as `probe next`, `hold as archive`, `apply G.5 for shortlist publication`, or `stop for now` only when the relevant lens-side reason is stated directly.
 - `explore_share`, `backstop_confidence`, probe budgets, and replan triggers are planning harmonization terms for that same declared choice doctrine.
 - They may regulate sequence and stopping; they do not redefine `Front`, `Archive`, `Shortlist`, or `SelectionSlot`.

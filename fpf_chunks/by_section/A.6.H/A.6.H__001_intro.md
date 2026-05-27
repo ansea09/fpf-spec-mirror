@@ -6,12 +6,12 @@ section_id: "A.6.H:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:intro — Intro"
-line_start: 17679
-line_end: 17692
+line_start: 17751
+line_end: 17764
 dependencies:
   - "A.14"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 > **Normativity:** Normative
 
 **Placement.** A.6 precision-restoration cluster; a lexical front-end to mereology and Γ selection.
-**Specialises.** A.6.P Relational Precision Restoration Suite.
+**Specialises.** A.6.P Relational Precision Restoration (RPR).
 **Works alongside.** A.14 (mereology extension), B.1.1 (edge selection), B.1.4 (Γ_ctx/Γ_time), A.15 (role–method–work).
 **Template discipline.** Canonical section order and headings follow E.8.
 

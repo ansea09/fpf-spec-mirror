@@ -6,12 +6,12 @@ section_id: "E.10.D2:10"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__011_relations-with-other-patterns.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:10 — Relations (with other patterns)"
-line_start: 56626
-line_end: 56646
+line_start: 56843
+line_end: 56863
 dependencies:
   - "A.7"
   - "C.2.1"

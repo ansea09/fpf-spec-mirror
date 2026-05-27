@@ -6,12 +6,12 @@ section_id: "E.17.AUD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__002_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:1 — Problem frame"
-line_start: 61417
-line_end: 61433
+line_start: 61632
+line_end: 61648
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,15 +27,17 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17"
+  - "E.17.AUD"
   - "E.17.AUD.LHR"
   - "E.17.AUD.OOTD"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
+  - "E.21"
   - "F.18"
 keywords:
 ---
@@ -52,7 +54,7 @@ The recurring defect family is simple:
 - the surrounding team starts repairing different defect families at once because nobody first named the active publication-unit problem situation.
 
 Typical moments include:
-- a semio-heavy note where one broad local lexical head starts carrying more load than the sentence restored;
+- an episteme-publication-heavy note where one broad local lexical head starts carrying more load than the sentence restored;
 - an architecture or status memo that starts about one bounded described entity or question and ends by sounding like rollout or approval work;
 - a comparison sheet that is already stable enough locally, but is still being overworked as if it needed full publication-unit stabilization;
 - an onboarding aid, dashboard card, or review note that quietly shifts into explanation, policy, or decision language while still sounding like one unchanged unit.

@@ -6,12 +6,12 @@ section_id: "C.30:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30 — Architecture Description Adequacy (ADA)"
   - "C.30:intro — Intro"
-line_start: 50091
-line_end: 50096
+line_start: 50775
+line_end: 50780
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -35,7 +36,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"

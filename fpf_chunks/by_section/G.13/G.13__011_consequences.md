@@ -6,12 +6,12 @@ section_id: "G.13:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__011_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:10 — Consequences"
-line_start: 78574
-line_end: 78580
+line_start: 78784
+line_end: 78790
 dependencies:
   - "A.18"
   - "A.19"
@@ -47,7 +47,7 @@ keywords:
 ### G.13:10 - Consequences
 
 * **Interop becomes refresh‑ready.** External source drift produces typed RSCR causes with scopes/payload pins; refresh becomes slice‑scoped rather than global guesswork.
-* **Generation‑first authoring becomes cheaper.** External sources become controlled inputs into SoTA synthesis and declared set-surface exploration, not ad‑hoc audit decoration.
+* **Generation‑first authoring becomes cheaper.** External sources become controlled inputs into SoTA synthesis and declared set-result exploration, not ad‑hoc audit decoration.
 * **Conceptual hygiene improves.** Explicit cards + edition pins reduce semantic leakage from tools/formats/providers.
 * **Cross‑tradition reuse becomes auditable.** Plane/context reuse is surfaced as crossings rather than embedded assumptions.
 

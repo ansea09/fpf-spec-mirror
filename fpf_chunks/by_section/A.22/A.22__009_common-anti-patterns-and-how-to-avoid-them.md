@@ -6,12 +6,12 @@ section_id: "A.22:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 28526
-line_end: 28536
+line_start: 28582
+line_end: 28592
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -38,7 +39,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -47,7 +47,7 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture support"
+  - "architecture-description claim"
   - "preserved/lost structure"
   - "selected structure"
   - "source return"
@@ -61,9 +61,9 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | **Structure-as-document** | A diagram, table, dashboard, relation graph, or prose section is called the structure. | Recover publication, carrier, description, or view relation; name the structure separately only when selected organization is live. |
-| **Support-as-structure** | A source trace, benchmark, lens output, model, or simulation is treated as the structure. | Add `StructureClaimSupport@Context` and state support posture, validation boundary, and non-admissible use. |
+| **Reliance-reading-as-structure** | A source trace, benchmark, lens output, model, or simulation is treated as the structure. | Name the exact A.6.6/source-description/evidence/lens ontology and state relation kind where live, validation boundary, and non-admissible use. |
 | **Loss-free extraction** | Extracted or coarsened structure is used without lost structure or source return. | Add `preservedStructure`, `lostStructure`, `validationBoundary`, and `sourceReturnCondition`. |
 | **Architecture root-kind rebound** | Structure work reintroduces `U.Architecture` or treats architecture as parallel to structure. | Use `ArchitectureOf@Context` and C.30; keep A.22 as the upstream structure carrier. |
-| **Lens ontology import** | A mathematical lens output becomes the target ontology. | Use C.29 for the lens, cite it as support, and state stop condition. |
-| **Sterile precision rewrite** | The text removes overread but no longer tells the practitioner what to do. | Restore the surviving action: structure card, support record, D/S view, source return, or neighboring-pattern exit. |
+| **Lens ontology import** | A mathematical lens output becomes the target ontology. | Use C.29 for the lens, cite it through C.29 lens adequacy, preserved/lost structure, and stop-condition discipline. |
+| **Sterile precision rewrite** | The text removes overread but no longer tells the practitioner what to do. | Restore the surviving action: structure card, structure-claim reliance reading, D/S view, source return, or exact FPF pattern application. |
 

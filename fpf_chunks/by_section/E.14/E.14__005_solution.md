@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:4 — Solution"
-line_start: 57575
-line_end: 57623
+line_start: 57792
+line_end: 57840
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -30,26 +30,26 @@ keywords:
 ### E.14:4 - Solution
 
 #### E.14:4.1 - Human-Centric principles
-##### E.14:4.1.1 - Recognition text and assurance text
-Human-facing patterns also need governed-object stability across recognition text and assurance text. The working reader should not meet one object in the recognition text and a different ontological kind in the assurance text. If the pattern distinguishes a governed object, the interpretive or operational move applied to that object, and the wider review or work process around it, those distinctions should be made explicit rather than hidden behind stylistic noun-swapping.
+##### E.14:4.1.1 - Recognition surface and assurance surface
+Human-facing patterns also need governed-object stability across the two surfaces. The working reader should not meet one object in the recognition surface and a different ontological kind in the assurance surface. If the pattern distinguishes a governed object, the interpretive or operational move applied to that object, and the wider review or work process around it, those distinctions should be made explicit rather than hidden behind stylistic noun-swapping.
 
-Working-Model-first drafting therefore also means subject-domain-first drafting. If a pattern is meant to help with a real review, design, cultural, research, or operational problem, the recognition text should open from that problem-owning moment before internal taxonomy or package architecture. If a broader umbrella head and a narrower operative branch are both live, the pattern should state that stack plainly enough that a cold reader can tell what the umbrella names, what branch is current, what object is governed, what move is being carried, and what wider work remains outside.
+Working-Model-first drafting therefore also means subject-domain-first drafting. If a pattern is meant to help with a real review, design, cultural, research, or operational problem, the recognition surface should open from that problem-owning moment before internal taxonomy or package architecture. If a broader umbrella head and a narrower operative branch are both live, the pattern should state that stack plainly enough that a cold reader can tell what the umbrella names, what branch is current, what object is governed, what move is being carried, and what wider work remains outside.
 
-Under `F.18` local-first naming, the canonical pair here is **recognition text** and **assurance text**.
+Under `F.18` local-first naming, the canonical pair here is **recognition surface** and **assurance surface**.
 The earlier provisional `...shell` wording is retired.
 These names refer to two reading-order surfaces inside one pattern, not to new publication-surface kinds or owner kinds.
 
 For human-facing canonical patterns, Working-Model-first discipline should appear in a two-surface reading order.
-The **recognition text** is the working text that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.
-The **assurance text** is the heavier text that carries declaration, object discipline, modeling lens, law, reroute conditions, and other review work.
+The **recognition surface** is the working surface that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.
+The **assurance surface** is the heavier surface that carries declaration, object discipline, modeling lens, law, reroute conditions, and other review work.
 
-The assurance text may justify, tighten, or audit the working text, but it must not silently replace or strengthen the recognition-text claim.
-Where semio-heavy or transform-heavy patterns need a compact ontological account, the assurance text should make three things explicit:
+The assurance surface may justify, tighten, or audit the working surface, but it must not silently replace or strengthen the recognition-surface claim.
+Where episteme-publication-heavy or transform-heavy patterns need a compact ontological account, the assurance surface should expose three things explicitly:
 - the ontic target or governed object;
 - the modeling substrate or mathematical lens when one is load-bearing;
 - the publication or working surface by which the claim is presented.
 
-This is a reading-order rule rather than a demand that every reader read the assurance text first.
+This is a reading-order rule rather than a demand that every reader consume the assurance surface first.
 The point is to keep the human-facing Working-Model surface primary while preserving a recoverable, auditable second surface beneath it.
 > **E.14‑P.1 – Working‑Model first, stance explicit.**  **
 > Operate one **Working‑Model** for all human‑facing discussion. For **each** assertion, the author **SHALL declare** a justification stance (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** (term↔kind alignment via **Lang‑CHR** / D‑Projection), **Logical** (CT2R alias semantics, scope/constraints), **Constructive** (Γₘ generative trace), and **Empirical Validation** (evidence via `U.EvidenceRole` in a declared `U.BoundedContext`).

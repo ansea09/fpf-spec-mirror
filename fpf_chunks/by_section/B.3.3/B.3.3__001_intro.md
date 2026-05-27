@@ -6,12 +6,12 @@ section_id: "B.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:intro — Intro"
-line_start: 31836
-line_end: 31837
+line_start: 31892
+line_end: 31893
 dependencies:
   - "A.10"
   - "A.4"

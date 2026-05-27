@@ -6,12 +6,12 @@ section_id: "G.5:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_first-output.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:0.4 — First output"
-line_start: 74729
-line_end: 74740
+line_start: 74939
+line_end: 74950
 dependencies:
   - "C.11"
   - "C.18"
@@ -43,13 +43,13 @@ keywords:
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
   - "selected-set publication"
-  - "set-surface outcome"
+  - "set-result outcome"
   - "tool choices are outside the core"
 ---
 
 ### G.5:0.4 - First output
 
-The first useful output from this dispatcher/registry question is one published selector outcome: one set-surface outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff plan, or one abstain/escalation result, with the outcome kind, any public selected-set label, retained members or handoff content, ordering status when relevant, and basis pins stated in one place.
+The first useful output from this dispatcher/registry question is one published selector outcome: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff plan, or one abstain/escalation result, with the outcome kind, any public selected-set label, retained members or handoff content, ordering status when relevant, and basis pins stated in one place.
 
 If that first output still cannot be written honestly, the current publication result is not finished `G.5` publication yet.
 

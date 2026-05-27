@@ -6,16 +6,16 @@ section_id: "E.19:11"
 section_title: "SoTA-Echoing — post-2015 review and validation practice alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__015_sota-echoing-post-2015-review-and-validation-practice-alignment.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
   - "E.19:11 — SoTA-Echoing — post-2015 review and validation practice alignment"
-line_start: 63485
-line_end: 63498
+line_start: 63696
+line_end: 63709
 dependencies:
   - "A.6.P"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.8"
   - "E.9"
   - "F.18"
@@ -43,5 +43,5 @@ keywords:
 | “Living” guidance needs refresh discipline.                            | Reporting and review guidance is updated and versioned; reviewers track changes and report deltas clearly. | Page et al. (2021), PRISMA 2020 statement and explanation papers.                           | Runs require explicit decisions and deltas in SoTA‑Echoing. | **Adapt.** Use the “versioned guidance + explicit deltas” principle without importing implementation or process mandates. |
 | Retrieval-facing entry changes need selected evidence dimensions, not universal benchmarks. | RAG evaluation practice separates context relevance, answer faithfulness, answer relevance, and support quality. | Es et al. (2023), `RAGAS`; Saad-Falcon et al. (2023), `ARES`. | `PCP-ENTRY-E4` and related evidence modes select tiny retrieval fixtures only when retrieval-facing behavior or observed misretrieval is live; the row does not authorize a universal benchmark for every pattern entry. | **Adopt lightly.** Keep hit, support, authority, and faithfulness dimensions only when retrieval-facing behavior is live; ordinary entry prose remains prose-only. |
 
-Action result from the pattern-review and validation practice basis: an `E.19` pass, caution, return-for-repair result, narrower-use result, clean checklist, or clean retrieval-entry check does not become project certification, project evidence, safety support, gate input, release justification, compliance support, assurance material, work authority, publication truth, or project refusal/approval. The local E.19 result is a pattern-quality review or refresh claim over the named target pattern, selected profile, defects found or cleared, admission, refresh, narrower-use, repair-return, or selected pattern-quality boundary. Reopen the pattern-quality result when the reviewed text, accepted-basis decision, SoTA support, neighboring pattern, support relation, profile trigger, target boundary, or attempted project-side reuse changes.
+Action result from the pattern-review and validation practice basis: an `E.19` pass, caution, return-for-repair result, narrower-use result, clean checklist, or clean retrieval-entry check does not become project certification, project evidence, safety support, gate input, release justification, compliance support, assurance material, work authority, publication truth, or project refusal/approval. The local E.19 result is a pattern-quality review or refresh claim over the named target pattern, selected profile, defects found or cleared, admission, refresh, narrower-use, repair-return, or selected pattern-quality boundary. Reopen the pattern-quality result when the reviewed text, accepted-basis decision, SoTA support, related exact pattern, selected support reading, profile trigger, target boundary, or attempted project-side reuse changes.
 

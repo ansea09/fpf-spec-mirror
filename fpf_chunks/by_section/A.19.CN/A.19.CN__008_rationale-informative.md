@@ -6,12 +6,12 @@ section_id: "A.19.CN:7"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__008_rationale-informative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:7 — Rationale (informative)"
-line_start: 24484
-line_end: 24488
+line_start: 24552
+line_end: 24556
 dependencies:
   - "A.19"
   - "A.6.1"

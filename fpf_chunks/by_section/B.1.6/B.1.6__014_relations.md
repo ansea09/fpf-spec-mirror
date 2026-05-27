@@ -6,12 +6,12 @@ section_id: "B.1.6:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__014_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:13 — Relations"
-line_start: 30431
-line_end: 30450
+line_start: 30487
+line_end: 30506
 dependencies:
   - "A.12"
   - "A.14"

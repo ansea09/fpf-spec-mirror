@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.4.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
-line_start: 66220
-line_end: 66568
+line_start: 66425
+line_end: 66773
 dependencies:
   - "A.11"
   - "A.2.1"

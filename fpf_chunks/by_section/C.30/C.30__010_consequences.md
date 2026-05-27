@@ -6,12 +6,12 @@ section_id: "C.30:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__010_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30 — Architecture Description Adequacy (ADA)"
   - "C.30:9 — Consequences"
-line_start: 50651
-line_end: 50659
+line_start: 51335
+line_end: 51343
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -35,7 +36,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -57,7 +57,7 @@ keywords:
 | Benefit | Cost or trade-off |
 | --- | --- |
 | Architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use names described holon, context, selected structure, and artifact role when the use is load-bearing. |
-| The pattern supports first-principles architecture reasoning without forcing full measurement, synthesis, assurance, or decision machinery. | Some familiar architecture phrases become triggers for quick recovery rather than accepted claims. |
+| The pattern enables first-principles architecture reasoning without forcing full measurement, synthesis, assurance, or decision machinery. | Some familiar architecture phrases become triggers for quick recovery rather than accepted claims. |
 | Functional, flow, control, module/interface, information, placement, scale, work/evidence, and declared logical structures can coexist without one structure kind swallowing the rest. | Structural-view adequacy moves to `C.30.ASV`, so practitioners may need an explicit view application. |
-| C.29, E.18, LCA, module/interface, evidence, assurance, and gate patterns can support architecture work without becoming architecture ontology. | Neighboring exits are named whenever a support source is used beyond description adequacy. |
+| C.29, E.18, LCA, module/interface, evidence, assurance, and gate patterns can supply source or reliance relations for architecture work without becoming architecture ontology. | Exact governing pattern applications are named whenever a source or reliance relation is used beyond description adequacy. |
 

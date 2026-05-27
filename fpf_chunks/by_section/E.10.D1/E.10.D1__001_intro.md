@@ -6,12 +6,12 @@ section_id: "E.10.D1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:intro — Intro"
-line_start: 56095
-line_end: 56104
+line_start: 56312
+line_end: 56321
 dependencies:
   - "A.4"
   - "A.7"

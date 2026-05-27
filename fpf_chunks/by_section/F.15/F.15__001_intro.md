@@ -6,12 +6,12 @@ section_id: "F.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:intro — Intro"
-line_start: 70224
-line_end: 70231
+line_start: 70429
+line_end: 70436
 dependencies:
   - "B.3"
   - "D.CTX"

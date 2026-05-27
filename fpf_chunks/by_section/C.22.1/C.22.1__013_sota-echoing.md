@@ -6,12 +6,12 @@ section_id: "C.22.1:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__013_sota-echoing.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:12 — SoTA-Echoing"
-line_start: 42497
-line_end: 42518
+line_start: 43183
+line_end: 43204
 dependencies:
   - "A.15"
   - "C.19.1"

@@ -6,12 +6,12 @@ section_id: "C.19.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__002_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:1 — Problem frame"
-line_start: 41782
-line_end: 41785
+line_start: 42468
+line_end: 42471
 dependencies:
   - "A.0"
   - "B.3"
@@ -43,5 +43,5 @@ keywords:
 
 ### C.19.1:1 - Problem frame
 
-Bespoke heuristics can win locally but **do not scale**; general methods (search/learning/planning) **improve with scale** and transfer across bridges/planes. Without a standing policy, selectors drift toward hand‑craft and single‑winner leaderboards, violating parity and admissible order relations.
+Bespoke heuristics can win locally but **do not scale**; general methods (search/learning/planning) **improve with scale** and transfer across bridges/planes. Without a standing policy, selectors drift toward bespoke local heuristics and single-winner leaderboards, violating parity and admissible order relations.
 

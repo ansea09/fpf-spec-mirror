@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
-line_start: 61355
-line_end: 61651
+line_start: 61570
+line_end: 61864
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,15 +26,17 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.14"
   - "E.17"
+  - "E.17.AUD"
   - "E.17.AUD.LHR"
   - "E.17.AUD.OOTD"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
+  - "E.21"
   - "F.18"
 keywords:
 ---
@@ -94,7 +96,7 @@ When any of those roles is load-bearing, record the selected role in the working
 
 | Situation | What is really happening | Honest next reading |
 | --- | --- | --- |
-| A semio-heavy note keeps using vague lexical heads such as `review`, `reading`, or `interpretation` | the whole unit is mostly stable, but one overloaded local lexical head is doing too much semantic work | stay local with `Local Head Restoration` |
+| An episteme-publication-heavy note keeps using vague lexical heads such as `review`, `reading`, or `interpretation` | the whole unit is mostly stable, but one overloaded local lexical head is doing too much semantic work | stay local with `Local Head Restoration` |
 | An architecture or status memo starts about one bounded question, then quietly starts sounding like rollout, approval, go or no-go, or assignment publication | the publication unit now carries a quiet shift in primary described entity or carried publication move | apply `PublicationUnit Primary Described-Entity Discipline` |
 | A comparison sheet already keeps one stable primary described entity and one clear boundary, but reviewers keep treating it as if it needed whole-unit rescue | the unit is stable enough; the active problem situation is bounded contrast over already available source publications | apply `ComparativeReading` |
 | An onboarding explainer, dashboard card, or review note starts to act as if cleaner prose alone licensed an unsupported policy claim, assurance claim, work claim, or reliance claim | the problem situation has left publication-unit stability and entered a neighboring explanation problem or downstream claim or effect | apply the neighboring governing pattern instead of keeping the case inside publication-unit stability |
@@ -113,7 +115,7 @@ The recurring defect family is simple:
 - the surrounding team starts repairing different defect families at once because nobody first named the active publication-unit problem situation.
 
 Typical moments include:
-- a semio-heavy note where one broad local lexical head starts carrying more load than the sentence restored;
+- an episteme-publication-heavy note where one broad local lexical head starts carrying more load than the sentence restored;
 - an architecture or status memo that starts about one bounded described entity or question and ends by sounding like rollout or approval work;
 - a comparison sheet that is already stable enough locally, but is still being overworked as if it needed full publication-unit stabilization;
 - an onboarding aid, dashboard card, or review note that quietly shifts into explanation, policy, or decision language while still sounding like one unchanged unit.
@@ -330,9 +332,7 @@ The pattern stays intentionally narrow. It does not turn every publication-unit 
 ### E.17.AUD:11 - Relations
 
 - **Builds on:** `A.7`, `E.10`, `F.18`, `E.14`, `E.19`, `E.17`, and `C.2.1`.
-- **Coordinates with:** `E.17.AUD.LHR Local Head Restoration`, `E.17.AUD.OOTD PublicationUnit Primary Described-Entity Discipline`, `E.17.ID.CR ComparativeReading`, `E.17.EFP ExplanationFaithfulnessProfile`, and project-side FPF patterns such as `C.11`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, and `A.21` when decision, evidence, gate, assurance, engineering-justification, work, or reliance claims become primary.
+- **Coordinates with:** `E.17.AUD.LHR Local Head Restoration`, `E.17.AUD.OOTD PublicationUnit Primary Described-Entity Discipline`, `E.17.ID.CR ComparativeReading`, `E.17.EFP ExplanationFaithfulnessProfile`, and `E.21` when a pattern-quality card, table, status line, or generated summary is published as a bounded publication unit. `E.17.AUD` governs publication-unit honesty; `E.21` governs the underlying pattern-quality claim. Also coordinates with project-side FPF patterns such as `C.11`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, and `A.21` when decision, evidence, gate, assurance, engineering-justification, work, or reliance claims become primary.
 - **Boundary consequence:** when the publication unit can no longer stay honest inside this publication-unit stability pattern, apply the neighboring FPF pattern or name the exact project-side FPF kind and reference instead of treating publication-unit stability as a general explanation, comparison, decision, gate, work, or reliance discipline.
 
 ### E.17.AUD:End
-
-

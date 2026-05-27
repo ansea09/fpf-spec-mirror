@@ -6,12 +6,12 @@ section_id: "E.17.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__010_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:9 — Consequences"
-line_start: 58749
-line_end: 58757
+line_start: 58964
+line_end: 58972
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"

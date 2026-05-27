@@ -6,12 +6,12 @@ section_id: "C.20:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__007_bias-annotation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:6 — Bias‑Annotation"
-line_start: 41939
-line_end: 41941
+line_start: 42625
+line_end: 42627
 dependencies:
   - "A.19"
   - "C.2"

@@ -6,12 +6,12 @@ section_id: "C.22.2:10"
 section_title: "Structure Cue That Improves Formulation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__011_structure-cue-that-improves-formulation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:10 — Structure Cue That Improves Formulation"
-line_start: 42962
-line_end: 42983
+line_start: 43648
+line_end: 43669
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,6 +27,7 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.P"
   - "C.22"
   - "C.22.1"
   - "C.24"
@@ -35,7 +36,6 @@ dependencies:
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.16"
   - "E.17"
   - "E.17.ID.CR"

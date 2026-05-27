@@ -6,12 +6,12 @@ section_id: "A.21:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:8 — Consequences"
-line_start: 28148
-line_end: 28162
+line_start: 28215
+line_end: 28229
 dependencies:
   - "A.19"
   - "A.2.6"

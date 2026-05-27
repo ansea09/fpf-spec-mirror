@@ -6,7 +6,7 @@ section_id: "A.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.5 — Open‑Ended Kernel & Extension Layering"
   - "A.5:4 — Solution"

@@ -6,12 +6,12 @@ section_id: "E.18:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__004_problem.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:3 — Problem"
-line_start: 62398
-line_end: 62404
+line_start: 62609
+line_end: 62615
 dependencies:
   - "A.2.6"
   - "A.20"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
-line_start: 29832
-line_end: 30171
+line_start: 29888
+line_end: 30227
 dependencies:
   - "A.12"
   - "A.14"

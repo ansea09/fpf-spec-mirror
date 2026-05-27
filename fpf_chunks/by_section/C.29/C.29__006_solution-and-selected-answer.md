@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution and selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-and-selected-answer.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:4 — Solution and selected answer"
-line_start: 48984
-line_end: 49566
+line_start: 49669
+line_end: 50251
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,12 +28,12 @@ dependencies:
   - "C.16"
   - "C.18.1"
   - "C.19.1"
+  - "C.2.P"
   - "C.26"
   - "C.27"
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
@@ -444,7 +444,7 @@ Boundary transfer rule: when the live claim is a choice result, work plan, evide
 |---|---|---|
 | mathematical-lens adequacy | `C.29` | Names the MLA discipline: candidate mathematical object, lens mapping mode, preserved/lost structure, invariant or distinction, `LensSupportPosture`, admissible use, non-admissible use, and stop condition. |
 | durable reusable names beyond pattern-local fields | `F.18` | Cite when `MLA` names become durable beyond C.29-local use. |
-| broad wording and semantic recovery | `E.10`, `E.10.SEMIO` | Obey head-kind, register, and semio repair discipline. |
+| broad wording and epistemic precision restoration | `E.10`, `C.2.P` | Obey head-kind, register, and epistemic precision-restoration discipline. |
 | relation precision, arity, polarity, and slot structure | `A.6.P`, `A.6.5` | Apply only if relation substrate becomes representation affecting the stated use. |
 | object, description, and carrier distinction | `A.7` | Do not identify the phenomenon directly with the mathematical object. |
 | dynamics state space and transition law | `A.3.3` | Assess imported or contested lens adequacy; do not govern dynamics semantics. |

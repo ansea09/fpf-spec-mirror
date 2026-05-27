@@ -6,12 +6,12 @@ section_id: "A.22:End"
 section_title: "A.22:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__014_a-22-end.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:End — A.22:End"
-line_start: 28573
-line_end: 28573
+line_start: 28629
+line_end: 28629
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -38,7 +39,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -47,7 +47,7 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture support"
+  - "architecture-description claim"
   - "preserved/lost structure"
   - "selected structure"
   - "source return"

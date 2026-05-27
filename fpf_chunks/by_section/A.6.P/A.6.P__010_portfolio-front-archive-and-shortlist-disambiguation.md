@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P"
-pattern_title: "U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+pattern_title: "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
 section_id: "A.6.P:7a"
 section_title: "Portfolio, front, archive, and shortlist disambiguation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__010_portfolio-front-archive-and-shortlist-disambiguation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
-  - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+  - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:7a — Portfolio, front, archive, and shortlist disambiguation"
-line_start: 12612
-line_end: 12648
+line_start: 12638
+line_end: 12674
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -49,14 +49,16 @@ keywords:
   - "measurement"
   - "probe"
   - "relation precision restoration"
+  - "selected support reading"
+  - "support/support-headed wording"
   - "under-specified relational language"
 ---
 
 ### A.6.P:7a - Portfolio, front, archive, and shortlist disambiguation
 
 - Treat bare uses of `portfolio`, `front`, `archive`, `Pareto`, `shortlist`, `space`, `reachability`, and `stepping stone` as repair triggers whenever they carry live explanatory load.
-- Use the helper declarations from A.0:QF.1a when repairing the sentence: do not let `SetSurfaceKind`, `SourceSurfaceKind`, `SourceSurfaceComposition`, `SubjectKind`, `DerivedViewKind`, `BasePaletteRef`, `SelectorOutcomeKind`, `HandoffKind`, `PromotionPolicy`, `RetentionIntent=steppingStone`, `EligibilitySet`, `DominanceSet`, `TieBreakerSet`, or `TelemetrySet` read as public set-outcome heads.
-- The minimum repair is to state the `SubjectKind`, the declared comparison bundle, and, when selection or publication outcomes are involved, the declared `SelectorOutcomeKind`, the applicable `SetSurfaceKind` or `HandoffKind`, the declared `SourceSurfaceKind`, `SourceSurfaceComposition` when several sources are actually composed, `DerivedViewKind` or `BasePaletteRef` when a derived palette view matters, `LensId`, and which member of the shortlist family is meant.
+- Use the helper declarations from A.0:QF.1a when repairing the sentence: do not let `SetResultFamily`, `SourceSetFamily`, `SourceSetComposition`, `SubjectKind`, `DerivedViewKind`, `BasePaletteRef`, `SelectorOutcomeKind`, `HandoffKind`, `PromotionPolicy`, `RetentionIntent=steppingStone`, `EligibilitySet`, `DominanceSet`, `TieBreakerSet`, or `TelemetrySet` read as public set-outcome heads.
+- The minimum repair is to state the `SubjectKind`, the declared comparison bundle, and, when selection or publication outcomes are involved, the declared `SelectorOutcomeKind`, the applicable `SetResultFamily` or `HandoffKind`, the declared `SourceSetFamily`, `SourceSetComposition` when several sources are actually composed, `DerivedViewKind` or `BasePaletteRef` when a derived palette view matters, `LensId`, and which member of the shortlist family is meant.
 - The declared comparison bundle is:
   - `EligibilitySet`
   - `DominanceSet`
@@ -80,7 +82,7 @@ keywords:
 - Canonical rewrites for load-bearing Q-Front / NQD prose:
   - `portfolio by Q` -> `Front over the declared Q components` when the sentence is about non-domination.
   - `portfolio by NQD` -> `Front over the declared DominanceSet plus ExplorationArchive under the declared retention policy` when both current front and retained exploration outcome are meant.
-  - `Pareto shortlist` -> `Shortlist from <SourceSurfaceKind> under <LensId>` when the sentence is about publication or selection.
+  - `Pareto shortlist` -> `Shortlist from <SourceSetFamily> under <LensId>` when the sentence is about publication or selection.
   - `Pareto archive` -> `ExplorationArchive under <RetentionPolicy>` when the sentence is about retained exploration rather than current non-domination.
   - `space of traditions/methods/hypotheses` -> `Palette + SubjectKind` first; add `TraditionPalette` only for `SubjectKind=Tradition`.
 - Discriminating tests:

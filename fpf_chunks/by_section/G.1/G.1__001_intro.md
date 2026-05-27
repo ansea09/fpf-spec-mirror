@@ -6,12 +6,12 @@ section_id: "G.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:intro — Intro"
-line_start: 72842
-line_end: 72860
+line_start: 73052
+line_end: 73070
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -40,13 +40,13 @@ keywords:
   - "SoTA_SetId"
   - "UTS/Name Cards"
   - "VariantPoolId"
-  - "and set-surface scaffold"
+  - "and set-result scaffold"
   - "edition pins"
   - "generator"
   - "generator chassis"
   - "selector"
+  - "set-result outcome"
   - "set-return selection"
-  - "set-surface outcome"
   - "shipping and refresh boundaries"
   - "six-card kit (M1-M6)"
 ---
@@ -62,7 +62,7 @@ keywords:
 **Working‑model first (informative).** prefer working models and didactic micro‑examples; escalate to formal harnesses only when risk warrants (per E.8).
 **Non‑duplication note.** Universal Part‑G invariants (tri‑state guard, set-return, penalties→`R_eff`‑only, crossing visibility, typed RSCR triggers, Default Governing Definition Index, P2W split, linkage discipline, shipping boundary) are governed in `G.Core` and are **only cited** here.
 
-**Start here when.** You are authoring a reusable generator, selector, or set-surface scaffold rather than a one-off plan, one-off comparison, or tool-specific method recipe.
+**Start here when.** You are authoring a reusable generator, selector, or set-result scaffold rather than a one-off plan, one-off comparison, or tool-specific method recipe.
 
 **First output.** The six-card chassis `M1…M6` published as a reusable `CGKitId`-bound kit with a scope anchor, local SoTA set, variant pool, shortlist surface, and refresh-ready wiring.
 

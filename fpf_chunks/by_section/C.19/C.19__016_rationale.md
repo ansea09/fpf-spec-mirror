@@ -6,12 +6,12 @@ section_id: "C.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__016_rationale.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:10 — Rationale"
-line_start: 41751
-line_end: 41758
+line_start: 42437
+line_end: 42444
 dependencies:
   - "B.3"
   - "C.11"

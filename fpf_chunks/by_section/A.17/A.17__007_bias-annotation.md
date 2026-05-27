@@ -6,12 +6,12 @@ section_id: "A.17:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__007_bias-annotation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:6 — Bias-Annotation"
-line_start: 22632
-line_end: 22635
+line_start: 22700
+line_end: 22703
 dependencies:
   - "A.17"
   - "A.18"

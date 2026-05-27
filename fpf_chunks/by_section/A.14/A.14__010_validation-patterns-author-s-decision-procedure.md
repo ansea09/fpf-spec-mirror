@@ -6,12 +6,12 @@ section_id: "A.14:9"
 section_title: "Validation patterns (author’s decision procedure)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__010_validation-patterns-author-s-decision-procedure.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:9 — Validation patterns (author’s decision procedure)"
-line_start: 19730
-line_end: 19756
+line_start: 19801
+line_end: 19827
 dependencies:
   - "A.1"
   - "B.1.1"

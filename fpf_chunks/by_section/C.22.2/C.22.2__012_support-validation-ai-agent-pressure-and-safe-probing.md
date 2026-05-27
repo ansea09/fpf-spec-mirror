@@ -6,12 +6,12 @@ section_id: "C.22.2:11"
 section_title: "Support, Validation, AI-Agent Pressure, and Safe Probing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__012_support-validation-ai-agent-pressure-and-safe-probing.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:11 — Support, Validation, AI-Agent Pressure, and Safe Probing"
-line_start: 42984
-line_end: 43054
+line_start: 43670
+line_end: 43740
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,6 +27,7 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.P"
   - "C.22"
   - "C.22.1"
   - "C.24"
@@ -35,7 +36,6 @@ dependencies:
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.16"
   - "E.17"
   - "E.17.ID.CR"
@@ -86,7 +86,7 @@ Reliance-disposition rule for P2W receiving use:
 
 Use this rule when support posture or validation boundary may enter P2W as evidence-like, confidence-like, conformance-like, proxy-like, safety-looking, redress-bearing, or currentness-bearing support. The first C.22.2 move is to keep the result problem-side: name the P2W receiving use, unsupported use, and any live receiving-pattern exit. This rule does not add a default field family to `ProblemCard@Context`. If the Thin card already gives an honest next move and live exits, no additional reliance record is required.
 
-Support role: the disposition table below is a local P2W-reliance recognition and minimum local record aid, and the worked P2W reliance slices are regression/review slices. They are not card field lists, project checklists, or hidden SEMIO state machines. Use them only to state the supported P2W receiving use, unsupported use, and receiving-pattern exit when support posture or validation boundary is actually being relied on. This local section returns the attempted P2W use to the C.22.2 problem-side relation and named receiving-pattern exits; it does not create an extra SEMIO authority or shared relation family.
+Support role: the disposition table below is a local P2W-reliance recognition and minimum local record aid, and the worked P2W reliance slices are regression/review slices. They are not card field lists, project checklists, or hidden SEMIO state machines. Use them only to state the supported P2W receiving use, unsupported use, and receiving-pattern exit when support posture or validation boundary is actually being relied on. This local section returns the attempted P2W use to the C.22.2 problem-side relation and named receiving-pattern exits; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
 
 Affordability card: orientation, discussion, or source-finding can remain an ordinary problem-side cue; bounded P2W reliance states the supported receiving use, unsupported use, window, and exit; threshold reliance names the receiving evidence, assurance, gate, autonomy, control, work, temporal, or representation relation instead of making the card larger. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 

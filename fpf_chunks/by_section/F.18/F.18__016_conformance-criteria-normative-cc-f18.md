@@ -6,17 +6,17 @@ section_id: "F.18:15"
 section_title: "Conformance Criteria (normative “CC‑F18”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__016_conformance-criteria-normative-cc-f18.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:15 — Conformance Criteria (normative “CC‑F18”)"
-line_start: 71770
-line_end: 71815
+line_start: 71982
+line_end: 72027
 dependencies:
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "F.0.1"
   - "F.1-F.17"
   - "G.10"
@@ -69,5 +69,5 @@ Every Name Card **SHALL** declare its `CardMode ∈ {MintNew, DocumentLegacy}`. 
 **CC-F18-17 (Procedure is not optional in MintNew mode).**
 A **MintNew** Name Card is **non-conformant** if it records only the chosen label, Kind, and a short rationale while omitting the seed candidate set, the NQD-front, the sense-seed read-through, or the mismatch patterns that justify the final choice. A card filled in after an intuition-first label pick does **not** satisfy F.18.
 
-**CC-F18-18 (Support-view labels keep their base candidate set or family).**
-When a Name Card or worked naming note uses support-view or atlas wording, it **SHALL** keep the base palette, front, archive, shortlist, or candidate set recoverable, **SHALL** use atlas wording only when several declared views, spaces, mappings, or qualifiers are jointly load-bearing for the naming explanation, and **SHALL NOT** let guarded-head notes stand in for substrate stewardship or publication policy decisions.
+**CC-F18-18 (Interpretive-view labels keep their base candidate set or family).**
+When a Name Card or worked naming note uses interpretive-view or atlas wording, it **SHALL** keep the base palette, front, archive, shortlist, or candidate set recoverable, **SHALL** use atlas wording only when several declared views, spaces, mappings, or qualifiers are jointly load-bearing for the naming explanation, and **SHALL NOT** let guarded-head notes stand in for substrate stewardship or publication policy decisions.

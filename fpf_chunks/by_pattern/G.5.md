@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.5.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
-line_start: 74690
-line_end: 75340
+line_start: 74900
+line_end: 75550
 dependencies:
   - "C.11"
   - "C.18"
@@ -42,7 +42,7 @@ keywords:
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
   - "selected-set publication"
-  - "set-surface outcome"
+  - "set-result outcome"
   - "tool choices are outside the core"
 ---
 
@@ -80,14 +80,14 @@ Registry and dispatch remain the primary governed question here; selected-set pu
 
 ### G.5:0.3 - First-minute questions
 
-- What selector outcome kind is this result actually emitting: one set-surface outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff, or one abstain outcome?
+- What selector outcome kind is this result actually emitting: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff, or one abstain outcome?
 - Which members are being retained or excluded now?
 - Does order materially belong to the published result?
 - Which basis pins or policy pins must the published result carry?
 
 ### G.5:0.4 - First output
 
-The first useful output from this dispatcher/registry question is one published selector outcome: one set-surface outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff plan, or one abstain/escalation result, with the outcome kind, any public selected-set label, retained members or handoff content, ordering status when relevant, and basis pins stated in one place.
+The first useful output from this dispatcher/registry question is one published selector outcome: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff plan, or one abstain/escalation result, with the outcome kind, any public selected-set label, retained members or handoff content, ordering status when relevant, and basis pins stated in one place.
 
 If that first output still cannot be written honestly, the current publication result is not finished `G.5` publication yet.
 
@@ -238,7 +238,7 @@ A notation‑independent selector that:
 * consumes `TaskSignatureRef` + registry entries + pinned spec refs,
 * applies eligibility/assurance gating (tri‑state),
 * computes an admissible (possibly partial) order,
-* returns one declared selector outcome: most often one set-surface outcome such as `Shortlist` or `RankedShortlist`, but sometimes one `SpecialistHandoff`, one other narrowed handoff, one abstain outcome, or one escalation outcome (per `DefaultId.PortfolioMode` and explicit overrides),
+* returns one declared selector outcome: most often one set-result outcome such as `Shortlist` or `RankedShortlist`, but sometimes one `SpecialistHandoff`, one other narrowed handoff, one abstain outcome, or one escalation outcome (per `DefaultId.PortfolioMode` and explicit overrides),
 * emits audit records (DRR/SCR‑addressable pins).
 
 **S3.A — `TaskFamilySpecializationProfile@Context` (run‑time; conditional).**
@@ -287,7 +287,7 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 - The shared profile pins one work-measure threshold target, one freshness window, one prior-exposure declaration, and one adaptation budget. One family reaches threshold quickly but carries high downside on adjacent tasks. One family is slower but transfers cleanly. One family never clears `MinimalEvidence` and must abstain.
 - An admissible `G.5` result therefore publishes a set-return shortlist or a narrowed handoff plan, with `DRR/SCR` citing why the third family was excluded and why the first two remain non-dominated. The selector does not invent one scalar winner and does not hide the specialization profile in auxiliary side notes.
 - When one upstream `C.19` pass has already narrowed the live pool to one internal retained subset over registered families, `G.5` may publish that result as one `Shortlist` with one `ShortlistId` and explicit basis pins only when selector-facing publication is now the question. Until that emission occurs, the internal retained subset is not yet one public shortlist result.
-- When one upstream `C.11` pass has already fixed one local choice over one declared source surface, or one `C.24` pass has already produced one enactment-facing narrowed handoff, `G.5` may publish the selected-set or narrowed-handoff result only when selector-facing publication is now the question. Until this `G.5` emission occurs, the `ChoiceResult`, `CallPlan`, or `CheckpointReturn` is not itself one public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing result.
+- When one upstream `C.11` pass has already fixed one local choice over one declared source set, or one `C.24` pass has already produced one enactment-facing narrowed handoff, `G.5` may publish the selected-set or narrowed-handoff result only when selector-facing publication is now the question. Until this `G.5` emission occurs, the `ChoiceResult`, `CallPlan`, or `CheckpointReturn` is not itself one public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing result.
 
 #### G.5:4.4b - Published selected-set result and closure rule
 
@@ -297,17 +297,17 @@ Publication here is the closure record for selector work over registered familie
 
 The admissible selector outcome families here are:
 
-- `SelectorOutcomeKind = SetSurfaceOutcome`, with `SetSurfaceKind = Shortlist` when one retained set is published without one material internal order and `SetSurfaceKind = RankedShortlist` when ordering materially belongs to the result;
+- `SelectorOutcomeKind = SetResultOutcome`, with `SetResultFamily = Shortlist` when one retained set is published without one material internal order and `SetResultFamily = RankedShortlist` when ordering materially belongs to the result;
 - `SelectorOutcomeKind = HandoffOutcome`, with `HandoffKind = SpecialistHandoff` or one other narrowed handoff plan when heterogeneity is the truthful downstream result;
 - `SelectorOutcomeKind = AbstainOutcome` when no admissible candidate exists and the truthful result is one abstain;
 - `SelectorOutcomeKind = EscalationOutcome` when no admissible candidate exists and the truthful result is one escalation.
 
-`SetSurfaceKind` belongs only inside `SetSurfaceOutcome`. `Shortlist` and `RankedShortlist` are public selector results over registered rows. They are not merely one upstream internal retained subset copied forward under one prettier label. `G.5` is the governing pattern that turns selector state into one public result with one explicit outcome kind, one explicit selected-set label when applicable, one explicit member set or handoff content, and one explicit basis-pin set.
+`SetResultFamily` belongs only inside `SetResultOutcome`. `Shortlist` and `RankedShortlist` are public selector results over registered rows. They are not merely one upstream internal retained subset copied forward under one prettier label. `G.5` is the governing pattern that turns selector state into one public result with one explicit outcome kind, one explicit selected-set label when applicable, one explicit member set or handoff content, and one explicit basis-pin set.
 
 A publication result should state at least these fields:
 
 - the selector outcome kind being emitted;
-- the public selected-set label when the outcome is one set-surface outcome;
+- the public selected-set label when the outcome is one set-result outcome;
 - retained members, or the narrowed handoff content, or the abstain/escalation condition;
 - ordering status when ordering matters;
 - basis pins and policy pins sufficient to justify the result;
@@ -317,8 +317,8 @@ A compact result may therefore look like:
 
 ```text
 SelectorOutcome(
-  selectorOutcomeKind = SetSurfaceOutcome,
-  setSurfaceKind = Shortlist,
+  selectorOutcomeKind = SetResultOutcome,
+  setResultFamily = Shortlist,
   members = [family_A, family_C],
   shortlistId = shortlist_17,
   ordering = unordered,
@@ -331,8 +331,8 @@ or:
 
 ```text
 SelectorOutcome(
-  selectorOutcomeKind = SetSurfaceOutcome,
-  setSurfaceKind = RankedShortlist,
+  selectorOutcomeKind = SetResultOutcome,
+  setResultFamily = RankedShortlist,
   members = [family_B, family_A],
   shortlistId = shortlist_23,
   ordering = ranked,
@@ -341,7 +341,7 @@ SelectorOutcome(
 )
 ```
 
-Close as `SelectorOutcomeKind = SetSurfaceOutcome` with `SetSurfaceKind = Shortlist` when several retained members survive admissibly but no public internal order belongs to the result. Close as `SelectorOutcomeKind = SetSurfaceOutcome` with `SetSurfaceKind = RankedShortlist` when order materially belongs to the published result. Close as `SelectorOutcomeKind = HandoffOutcome` with `HandoffKind = SpecialistHandoff` or one other narrowed handoff when heterogeneity itself is the truthful downstream result. Close as `SelectorOutcomeKind = AbstainOutcome` or `EscalationOutcome` when no admissible candidate exists under the pinned constraints.
+Close as `SelectorOutcomeKind = SetResultOutcome` with `SetResultFamily = Shortlist` when several retained members survive admissibly but no public internal order belongs to the result. Close as `SelectorOutcomeKind = SetResultOutcome` with `SetResultFamily = RankedShortlist` when order materially belongs to the published result. Close as `SelectorOutcomeKind = HandoffOutcome` with `HandoffKind = SpecialistHandoff` or one other narrowed handoff when heterogeneity itself is the truthful downstream result. Close as `SelectorOutcomeKind = AbstainOutcome` or `EscalationOutcome` when no admissible candidate exists under the pinned constraints.
 
 If the publication still does not state what public result was emitted, who remained in it, whether order belongs to it, and which pins justify it, then the selector has not yet published one finished `G.5` result.
 
@@ -349,8 +349,8 @@ If the publication still does not state what public result was emitted, who rema
 
 The smallest useful `G.5` publication card usually states:
 
-- `selectorOutcomeKind = SetSurfaceOutcome | HandoffOutcome | AbstainOutcome | EscalationOutcome`
-- `setSurfaceKind = Shortlist | RankedShortlist` when `selectorOutcomeKind = SetSurfaceOutcome`
+- `selectorOutcomeKind = SetResultOutcome | HandoffOutcome | AbstainOutcome | EscalationOutcome`
+- `setResultFamily = Shortlist | RankedShortlist` when `selectorOutcomeKind = SetResultOutcome`
 - `handoffKind = SpecialistHandoff | NarrowedHandoff` when `selectorOutcomeKind = HandoffOutcome`
 - `membersOrHandoff = ...`
 - `ordering = ranked | unordered | n/a`
@@ -361,8 +361,8 @@ The smallest useful `G.5` publication card usually states:
 A short conforming card may therefore read:
 
 ```text
-selectorOutcomeKind = SetSurfaceOutcome
-setSurfaceKind = Shortlist
+selectorOutcomeKind = SetResultOutcome
+setResultFamily = Shortlist
 members = [family_A, family_C]
 ordering = unordered
 shortlistId = shortlist_17
@@ -374,9 +374,9 @@ If the card does not already state what was published, who survived, whether ord
 
 #### G.5:4.4ca - Derived tradition-view publication stays derived over one declared palette
 
-- If selector work consumes one declared source surface such as `Front`, `Archive`, or one source-surface composition through one derived tradition view such as `TraditionFront` or `TraditionArchive`, treat that derived view as one interpretation view over one declared `SoTAPaletteDescription`, not as the default meaning of `Tradition` or of the palette itself.
-- When `SelectorOutcomeKind = SetSurfaceOutcome`, the public selected-set label still closes as `Shortlist` or `RankedShortlist`; when `SelectorOutcomeKind = HandoffOutcome`, the result closes as one `SpecialistHandoff` or one other narrowed handoff. The derived tradition view disciplines the source, not the emitted outcome family.
-- When such a derived tradition view is active, publish `SourceSurfaceKind`, use `DerivedViewKind` when the distinction matters to interpretation or later shipping, use `SourceSurfaceComposition` only when several source-surface families were genuinely composed, and keep `BasePaletteRef=SoTAPaletteDescriptionId` recoverable alongside the emitted result.
+- If selector work consumes one declared source set such as `Front`, `Archive`, or one source-set composition through one derived tradition view such as `TraditionFront` or `TraditionArchive`, treat that derived view as one interpretation view over one declared `SoTAPaletteDescription`, not as the default meaning of `Tradition` or of the palette itself.
+- When `SelectorOutcomeKind = SetResultOutcome`, the public selected-set label still closes as `Shortlist` or `RankedShortlist`; when `SelectorOutcomeKind = HandoffOutcome`, the result closes as one `SpecialistHandoff` or one other narrowed handoff. The derived tradition view disciplines the source, not the emitted outcome family.
+- When such a derived tradition view is active, publish `SourceSetFamily`, use `DerivedViewKind` when the distinction matters to interpretation or later shipping, use `SourceSetComposition` only when several source-set families were genuinely composed, and keep `BasePaletteRef=SoTAPaletteDescriptionId` recoverable alongside the emitted result.
 - If the derivation depends on one declared `Q` or one reachability/coverage rule, cite that declared basis directly in `DRR/SCR` or equivalent basis pins rather than leaving the derivation implicit.
 - If no derived tradition view is active, stay with the declared palette, front, archive, or shortlist families already named by the selector record.
 
@@ -513,30 +513,30 @@ All blocks below are extension declarations: they declare `Uses` and required pi
 
 - `SelectionSlot` returns one selector outcome, not one forced single winner.
 - The emitted result should declare its `SelectorOutcomeKind`.
-- `SetSurfaceKind` is required only when `SelectorOutcomeKind = SetSurfaceOutcome`.
-- `HandoffKind` is required only when `SelectorOutcomeKind = HandoffOutcome`; `SpecialistHandoff` is one handoff kind, not one set-surface head.
-- `Front` names the non-dominated source surface under the declared `DominanceSet`.
+- `SetResultFamily` is required only when `SelectorOutcomeKind = SetResultOutcome`.
+- `HandoffKind` is required only when `SelectorOutcomeKind = HandoffOutcome`; `SpecialistHandoff` is one handoff kind, not one set-result family head.
+- `Front` names the non-dominated source set under the declared `DominanceSet`.
 - `Archive` names the retained exploration surface under the declared retention policy.
-- `Shortlist` names the lens-declared selected surface emitted from `SelectionSlot`.
+- `Shortlist` names the lens-declared selected set emitted from `SelectionSlot`.
 - `RankedShortlist` names one ordered specialization of that shortlisted surface.
 - `ShortlistId` is the emitted public token when the shortlist publication must be carried or cited.
 - `ChoiceSet` may be used only as the mathematical set gloss for that shortlist when the set object itself is under analysis; it does not replace the public shortlist head.
-- `PortfolioMode` states how the selector operated; it does not rename the emitted set surface.
-- The default `PortfolioMode=Archive` means that an unspecified selector/generator posture must preserve retained exploration evidence rather than pretending one current front or selected shortlist has already been emitted. It does not make every returned object an `Archive`, does not override `SetSurfaceKind`, and does not change the declared `DominanceSet`.
+- `PortfolioMode` states how the selector operated; it does not rename the emitted set result.
+- The default `PortfolioMode=Archive` means that an unspecified selector/generator posture must preserve retained exploration evidence rather than pretending one current front or selected shortlist has already been emitted. It does not make every returned object an `Archive`, does not override `SetResultFamily`, and does not change the declared `DominanceSet`.
 - If one selector consumes both a front and an archive, say so explicitly rather than blurring them into one generic portfolio.
 - If one selector consumes one derived tradition view, keep that derived view explicit rather than silently treating it as the default meaning of `Tradition`.
-- `SetSurfaceKind`, `SourceSurfaceKind`, `SourceSurfaceComposition`, `SubjectKind`, `DerivedViewKind`, `BasePaletteRef`, `PromotionPolicy`, and `RetentionIntent=steppingStone` are declaration fields, refs, or policy pins around the returned outcome; they are not additional emitted set surfaces.
-- `SourceSurfaceKind` names the immediate declared source-surface family.
-- `SourceSurfaceComposition` is used only when the selector genuinely consumed more than one source-surface family such as `Front+Archive`.
-- If that source surface is one derived tradition view, keep the base palette recoverable alongside it.
+- `SetResultFamily`, `SourceSetFamily`, `SourceSetComposition`, `SubjectKind`, `DerivedViewKind`, `BasePaletteRef`, `PromotionPolicy`, and `RetentionIntent=steppingStone` are declaration fields, refs, or policy pins around the returned outcome; they are not additional emitted set results.
+- `SourceSetFamily` names the immediate declared source-set family.
+- `SourceSetComposition` is used only when the selector genuinely consumed more than one source-set family such as `Front+Archive`.
+- If that source set is one derived tradition view, keep the base palette recoverable alongside it.
 - `DerivedViewKind` may name which derived tradition view is active when that distinction matters to interpretation or later publication.
-- `DerivedViewKind` does not replace `SourceSurfaceKind`, `SetSurfaceKind`, or `Shortlist`.
+- `DerivedViewKind` does not replace `SourceSetFamily`, `SetResultFamily`, or `Shortlist`.
 - `BasePaletteRef` is one cited ref/id, not one kind.
-- If one selected result comes from one declared source surface, publish that `SourceSurfaceKind` rather than asking the reader to infer it from one mode flag.
+- If one selected result comes from one declared source set, publish that `SourceSetFamily` rather than asking the reader to infer it from one mode flag.
 - `PromotionPolicy` is required when tie-break or telemetry signals are promoted into dominance.
-- The selector may consume one declared source surface and one declared choice lens without trying to explain the whole reason why another probe was worth its cost.
-- When `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, `backstop_confidence`, or sequencing pressures matter, keep them explicit in the surrounding choice doctrine instead of smuggling them into set-surface declaration fields.
-- Selector-facing results should name the set-surface kind, source-surface kind, derived-view declaration when needed, the emitted shortlist family, and promotion/default routing.
+- The selector may consume one declared source set and one declared choice lens without trying to explain the whole reason why another probe was worth its cost.
+- When `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, `backstop_confidence`, or sequencing pressures matter, keep them explicit in the surrounding choice doctrine instead of smuggling them into set-result declaration fields.
+- Selector-facing results should name the set-result kind, source-set kind, derived-view declaration when needed, the emitted shortlist family, and promotion/default declaration.
 - Those selector-facing field values should use controlled tokens, cited ids, or already-declared head labels rather than selector-local prose values.
 
 ### G.5:5 - Archetypal Grounding
@@ -580,7 +580,7 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.6`       | Method and generator family identities **SHALL** be published to UTS with the required naming discipline (twin labels where applicable; deprecations follow lexical continuity rules). *(Core conformance applies; `G.5` adds the registry‑specific publication obligation.)* |
 | `CC‑G5.7`       | **Conditional.** If `G.5:Ext.EELog` is present, exploration **MUST** be budgeted under the pinned E/E‑LOG policy; probe outcomes **MUST** feed refresh via canonical RSCR trigger kinds. |
 | `CC‑G5.8`       | **CG‑Frame gate enforced.** Selection rejects or abstains from candidates that do not meet the pinned `CG‑Spec.MinimalEvidence` requirements for the characteristics they cite. |
-| `CC‑G5.9`       | **Delegated (ID‑continuity).** Set‑return semantics are pinned through `G.Core`. **Delegation target:** `CC‑GCORE‑SET‑1`. Candidate ordering **MUST** be admissible over typed traits and legality constraints. If only a partial order is available, selection **MUST** return one declared selector outcome (for example one `SetSurfaceOutcome` with `Shortlist`/`RankedShortlist`, one `HandoffOutcome` with `SpecialistHandoff`, or another pinned outcome result), with no forced totalisation via illegal scalarisation. |
+| `CC‑G5.9`       | **Delegated (ID‑continuity).** Set‑return semantics are pinned through `G.Core`. **Delegation target:** `CC‑GCORE‑SET‑1`. Candidate ordering **MUST** be admissible over typed traits and legality constraints. If only a partial order is available, selection **MUST** return one declared selector outcome (for example one `SetResultOutcome` with `Shortlist`/`RankedShortlist`, one `HandoffOutcome` with `SpecialistHandoff`, or another pinned outcome result), with no forced totalisation via illegal scalarisation. |
 | `CC‑G5.10`      | **SCR completeness.** SCR **MUST** enumerate Γ‑fold contributors (when used), referenced constraint-bearing spec editions, the evidence citations (`PathId/PathSliceId`) used in gating/rationale, and `MinimalEvidence` gating verdicts *(by lane & carrier, when such gating is relied upon).* |
 | `CC‑G5.11`      | **Delegated (ID‑continuity).** Tri‑state eligibility/acceptance semantics and unknown handling are pinned through `G.Core`. **Delegation target:** `CC‑GCORE‑GUARD‑1`. *(Includes the rule that `degrade(...)` is expressed via a pinned FailureBehavior/SoS‑LOG branch id — not as a fourth status.)* |
 | `CC‑G5.12`      | **No “universal” cross‑Tradition scoring.** Cross‑Tradition selection **MUST NOT** rely on a single numeric formula not justified by pinned CHR/CAL constraints and the constraint-bearing spec refs. If a triad or selected set **claims universality**, it **MUST** satisfy **explicit, pinned** heterogeneity gates (ids/pins), e.g., `FamilyCoverage ≥ k` and `MinInterFamilyDistance ≥ δ_family`, where `k` and `δ_family` are declared by the pinned policy/TaskSignature/SoTA pack, and cite the relevant **Context Card id (F.1)** in DRR/SCR; otherwise treat the outcome as Context‑local.  |
@@ -594,7 +594,7 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.20`      | **Conditional (QD).** QD/illumination summaries are treated as telemetry unless explicitly promoted by a pinned acceptance/policy record; the selector must record the promoting policy id in audit pins. |
 | `CC‑G5.21`      | **Conditional (Archive/QD).** Any use of archives **MUST** declare `InsertionPolicyRef` and pin the required editions for reproducibility (e.g., descriptor/distance definitions and any method editions they depend on).  |
 | `CC‑G5.22`      | **Conditional (QD).** Twin‑naming discipline for descriptor vs plain space (if used) must be respected (distinct objects; no aliasing).  |
-| `CC‑G5.23`      | **Default rule for** `DefaultId.PortfolioMode`. The selector **MUST** expose `PortfolioMode ∈ {Pareto, Archive}` with **default = `Archive`**, and echo it in DRR/SCR and declared selector results when not explicitly overridden by pinned policy/TaskSignature. The default is a retention/evidence-preservation posture, not a public selected-set label, not a dominance default, and not a substitute for `SetSurfaceKind`. `ε`‑fronts are allowed as *local* decision aids under `CG‑Spec` when explicitly pinned.  |
+| `CC‑G5.23`      | **Default rule for** `DefaultId.PortfolioMode`. The selector **MUST** expose `PortfolioMode ∈ {Pareto, Archive}` with **default = `Archive`**, and echo it in DRR/SCR and declared selector results when not explicitly overridden by pinned policy/TaskSignature. The default is a retention/evidence-preservation posture, not a public selected-set label, not a dominance default, and not a substitute for `SetResultFamily`. `ε`‑fronts are allowed as *local* decision aids under `CG‑Spec` when explicitly pinned.  |
 | `CC‑G5.23a`     | **Parity‑run publication.** If parity harness is in use, a selector/generator **MUST** publish a parity run and `ParityCard` to **UTS** (see `G.9`). This obligation remains mandatory irrespective of dominance/`PortfolioMode` policy. |
 | `CC‑G5.24`      | **Conditional (Open‑Ended).** If `G.5:Ext.OpenEndedFamilyWiring` is present, the selector **MUST** support declared sets of `{Environment, MethodFamily}` pairs as set‑valued outcomes under explicit pins. |
 | `CC‑G5.25`      | **Conditional (Open‑Ended).** In Open‑Ended mode, `TransferRulesRef.edition` is mandatory and **MUST** be visible to telemetry and RSCR triggers.  |
@@ -606,11 +606,11 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.31`      | **Strategy hint on non‑admissible sets.** If selection yields `CandidateSet = ∅`, the selector **SHALL** emit an explicit escalation hint (`ActionHint`) that is **DRR/SCR‑compatible** and auditable: include (at minimum) the top‑3 blocking constraints as cited ids/pins, and (where applicable) the relevant edition pins (e.g., `TransferRulesRef.edition` in Open‑Ended mode) to guide exploration under explicitly pinned lenses (e.g., E/E‑LOG). |
 | `CC‑G5.32`      | **Parity‑run publication + admissible roll‑ups.** If parity harness is in use, parity publication is required per `CC‑G5.23a` (ID‑continuity). Any scalar roll‑up or summary view **MUST** be admissible under **CG‑Spec** (no mixed‑scale sums), and published views must preserve set‑return semantics (no single‑score leaderboards as authoritative outputs without an explicit, admissible comparator publication). |
 | `CC‑G5.33`      | **Conditional (bounded specialization).** When the selection question is acquisition of usable specialization on a declared `TaskFamilyRef` or `TaskSignature`, selector outputs **SHALL** either publish `TaskFamilySpecializationProfile@Context` or cite equivalent pins carrying the `C.22.1` adaptation-signature fields needed for comparison: work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, and any declared transfer, retention, downside, or specialization-entry notes. |
-| `CC‑G5.34`      | **Selected-set publication label.** When `SelectorOutcomeKind = SetSurfaceOutcome`, the published selected-set label **MUST** be explicit. Use `Shortlist` as the public selected-set label, `RankedShortlist` only when ordering materially belongs to the result, publish `ShortlistId` when one public identifier is emitted, and do not silently let `ChoiceSet` replace that public label. |
-| `CC‑G5.34a`     | **Selector outcome typing.** Published selector results **MUST** declare `SelectorOutcomeKind`. `SetSurfaceKind` is required only when `SelectorOutcomeKind = SetSurfaceOutcome`; `HandoffKind` is required only when `SelectorOutcomeKind = HandoffOutcome`. Non-set outcomes **MUST NOT** masquerade as one public selected-set label. |
+| `CC‑G5.34`      | **Selected-set publication label.** When `SelectorOutcomeKind = SetResultOutcome`, the published selected-set label **MUST** be explicit. Use `Shortlist` as the public selected-set label, `RankedShortlist` only when ordering materially belongs to the result, publish `ShortlistId` when one public identifier is emitted, and do not silently let `ChoiceSet` replace that public label. |
+| `CC‑G5.34a`     | **Selector outcome typing.** Published selector results **MUST** declare `SelectorOutcomeKind`. `SetResultFamily` is required only when `SelectorOutcomeKind = SetResultOutcome`; `HandoffKind` is required only when `SelectorOutcomeKind = HandoffOutcome`. Non-set outcomes **MUST NOT** masquerade as one public selected-set label. |
 | `CC‑G5.35`      | **Publication closure.** Any published selector result **MUST** state the declared `SelectorOutcomeKind`, any applicable public selected-set label, retained members or narrowed handoff content, ordering status (when applicable), and basis pins directly in the emitted result rather than relying on upstream `C.11`, `C.19`, or `C.24` notes. |
 | `CC‑G5.36`      | **Neighboring-pattern boundary.** If the current question is still local choice among already-available options, pool policy over still-live candidate lines, or enactment planning after choice, `G.5` **MUST** consume the published result from `C.11`, `C.19`, or `C.24` rather than restating those patterns as if publication itself decided the matter. |
-| `CC‑G5.37`      | **Derived tradition-view publication discipline.** If the selector publishes one result through a derived tradition view such as `TraditionFront` or `TraditionArchive`, it **MUST** keep the declared base `SourceSurfaceKind` explicit, keep `SoTAPaletteDescription` recoverable through `BasePaletteRef`, and **MUST NOT** let the derived view become the default meaning of `Tradition`, `TraditionPalette`, or the base palette. |
+| `CC‑G5.37`      | **Derived tradition-view publication discipline.** If the selector publishes one result through a derived tradition view such as `TraditionFront` or `TraditionArchive`, it **MUST** keep the declared base `SourceSetFamily` explicit, keep `SoTAPaletteDescription` recoverable through `BasePaletteRef`, and **MUST NOT** let the derived view become the default meaning of `Tradition`, `TraditionPalette`, or the base palette. |
 | `CC‑G5.38`      | **Causal method dispatch declarations.** If method selection involves causal methods, each compared method **MUST** declare `causalMethodComparisonPosture` as observational predictor, intervention optimizer, counterfactual strategy, causal fairness estimator, causal-RL policy, or simulation-only method, and **MUST** carry `causalUseSupportRecordRef` and `causalUseSupportVerdict` when it consumes `C.28` causal-use support rather than treating method dispatch as causal certification. |
 
 

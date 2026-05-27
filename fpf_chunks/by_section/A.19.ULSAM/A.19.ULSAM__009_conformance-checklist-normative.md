@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__009_conformance-checklist-normative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:7 — Conformance Checklist (normative)"
-line_start: 26639
-line_end: 26655
+line_start: 26707
+line_end: 26723
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__013_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:12 — Relations"
-line_start: 61332
-line_end: 61348
+line_start: 61547
+line_end: 61563
 dependencies:
   - "A.15"
   - "A.15.4"

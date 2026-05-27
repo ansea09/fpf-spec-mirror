@@ -6,12 +6,12 @@ section_id: "J.4:End"
 section_title: "J.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__002_j-4-end.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:End — J.4:End"
-line_start: 78901
-line_end: 78934
+line_start: 79111
+line_end: 79144
 dependencies:
 keywords:
 ---

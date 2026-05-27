@@ -6,12 +6,12 @@ section_id: "G.5:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__005_first-minute-questions.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:0.3 — First-minute questions"
-line_start: 74722
-line_end: 74728
+line_start: 74932
+line_end: 74938
 dependencies:
   - "C.11"
   - "C.18"
@@ -43,13 +43,13 @@ keywords:
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
   - "selected-set publication"
-  - "set-surface outcome"
+  - "set-result outcome"
   - "tool choices are outside the core"
 ---
 
 ### G.5:0.3 - First-minute questions
 
-- What selector outcome kind is this result actually emitting: one set-surface outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff, or one abstain outcome?
+- What selector outcome kind is this result actually emitting: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff, or one abstain outcome?
 - Which members are being retained or excluded now?
 - Does order materially belong to the published result?
 - Which basis pins or policy pins must the published result carry?

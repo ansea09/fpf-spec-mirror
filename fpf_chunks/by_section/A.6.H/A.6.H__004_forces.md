@@ -6,12 +6,12 @@ section_id: "A.6.H:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__004_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:3 — Forces"
-line_start: 17716
-line_end: 17725
+line_start: 17788
+line_end: 17797
 dependencies:
   - "A.14"
   - "A.15"

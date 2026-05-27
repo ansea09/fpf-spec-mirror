@@ -6,12 +6,12 @@ section_id: "A.6.Q:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.Q/A.6.Q__010_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.Q — U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)"
   - "A.6.Q:9 — Consequences"
-line_start: 13428
-line_end: 13437
+line_start: 13455
+line_end: 13464
 dependencies:
   - "A.16"
   - "A.16.0"

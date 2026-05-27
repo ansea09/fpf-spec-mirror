@@ -6,20 +6,21 @@ section_id: "E.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:intro — Intro"
-line_start: 54114
-line_end: 54121
+line_start: 54795
+line_end: 54802
 dependencies:
   - "A.10"
   - "A.15"
   - "A.2"
+  - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
-  - "E.10.SEMIO"
+  - "C.2.P"
   - "E.5"
   - "F.18"
   - "F.5"
@@ -30,7 +31,7 @@ keywords:
 ## E.10 - Unified Lexical Rules for FPF (LEX‑BUNDLE)
 *Definitional pattern; normative for all FPF pattern text and for any Context that claims FPF conformance.*
 
-**Status & placement.** Part E.10 (“Lexical Discipline & Stratification”); complements **E.10.D1 (D.CTX)**, **E.10.D2 (I/D/S)**, and the **DesignRunTag / CtxState boundary discipline** (**A.15**; **E.18**), and is referenced by F‑cluster naming practices (F.4–F.8). This bundle consolidates all lexical constraints in one place so authors can cite **“LEX‑BUNDLE”** instead of listing rules scattered across documents.
+**Status & placement.** Part E.10 (“Lexical Discipline & Stratification”); complements **E.10.D1 (D.CTX)**, **E.10.D2 (I/D/S)**, the **DesignRunTag / CtxState boundary discipline** (**A.15**; **E.18**), `A.6.P` relation precision restoration, `C.2.P` epistemic precision restoration, and `F.18` local-first naming. `E.10:0.2` is the shared lexical trigger scan. The detailed LEX sections below supply register, naming, morphology, and local rewrite checks only for the selected live problem; they are not a second trigger registry and do not replace `A.6.P`, `C.2.P`, or `F.18`.
 
 **Builds on:** A.7 **Strict Distinction (Clarity Lattice)**; E.5 Guard‑Rails (DevOps Lexical Firewall; Notational Independence; Unidirectional Dependency); F.5 **Naming Discipline for U.Types & Roles**.
 **Coordinates with.** A.2/A.15 (Role–Method–Work alignment), A.10 (Evidence Graph Referring), B.1/B.3 (Γ‑algebras & assurance), F‑cluster (context of meaning; Bridges).

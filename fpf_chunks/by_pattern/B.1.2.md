@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.2.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.1.2 — System‑specific Aggregation Γ\\_sys"
-line_start: 29088
-line_end: 29233
+line_start: 29144
+line_end: 29289
 dependencies:
   - "A.1"
   - "A.3"

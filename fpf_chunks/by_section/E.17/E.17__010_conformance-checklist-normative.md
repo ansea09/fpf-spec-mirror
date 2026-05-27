@@ -6,20 +6,20 @@ section_id: "E.17:9"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__010_conformance-checklist-normative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance checklist (normative)"
-line_start: 59910
-line_end: 59949
+line_start: 60125
+line_end: 60164
 dependencies:
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "C.2.P"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"

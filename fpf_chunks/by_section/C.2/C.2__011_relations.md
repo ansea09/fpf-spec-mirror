@@ -6,12 +6,12 @@ section_id: "C.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__011_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:10 — Relations"
-line_start: 33729
-line_end: 33734
+line_start: 33785
+line_end: 33790
 dependencies:
   - "A.1"
   - "A.10"

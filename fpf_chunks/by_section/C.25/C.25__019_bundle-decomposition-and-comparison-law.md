@@ -6,12 +6,12 @@ section_id: "C.25:18"
 section_title: "Bundle Decomposition and Comparison Law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__019_bundle-decomposition-and-comparison-law.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:18 — Bundle Decomposition and Comparison Law"
-line_start: 44263
-line_end: 44273
+line_start: 44948
+line_end: 44958
 dependencies:
   - "A.15"
   - "A.16.0"

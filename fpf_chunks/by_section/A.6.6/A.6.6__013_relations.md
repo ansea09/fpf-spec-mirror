@@ -6,12 +6,12 @@ section_id: "A.6.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__013_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:12 — Relations"
-line_start: 15829
-line_end: 15858
+line_start: 15899
+line_end: 15931
 dependencies:
   - "A.10"
   - "A.14"
@@ -19,8 +19,10 @@ dependencies:
   - "A.2.6"
   - "A.6.0"
   - "A.6.3"
+  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "C.3.3"
@@ -41,13 +43,14 @@ keywords:
   - "rescope"
   - "retime"
   - "scope"
+  - "support-as-basedness"
   - "witnesses"
   - "Γ_time"
 ---
 
 ### A.6.6:12 - Relations
 
-**Specialises A.6.P `U.RelationalPrecisionRestorationSuite`.**
+**Specialises A.6.P Relational Precision Restoration (RPR).**
 A.6.6 is the RPR specialisation for “basedness / relative‑to” claims: it makes the relation kind explicit via `baseRelation`, qualifies it with scope/`Γ_time`/witnesses, and standardises evolution via a base‑change lexicon plus lexical red‑flags (`anchor*`).
 
 
@@ -61,10 +64,10 @@ SWBD introduces a structured record with slots; those slots must be SlotKind/Val
 Decision-relevant witness sets should be representable as EvidenceRoles with explicit timespans and provenance discipline, not as ad‑hoc prose references.
 
 **Aligns with A.14 constructive grounding (`tv:groundedBy`).**
-Constructive grounding is one specific baseRelation family: dependent is a model edge, base is a constructor trace; witnesses pin the trace and `U.Work` records.
+Constructive grounding is one specific declared `baseRelation` reading: dependent is a model edge, base is a constructor trace; witnesses pin the trace and `U.Work` records.
 
 **Coordinates with C.2.1 grounding holons.**
-Situational/empirical grounding via `GroundingHolonSlot` is treated as a distinct baseRelation family; it must not be collapsed with `tv:groundedBy` or with semantic meaning assignment.
+Situational/empirical grounding via `GroundingHolonSlot` is treated as a distinct declared `baseRelation` reading; it must not be collapsed with `tv:groundedBy` or with semantic meaning assignment.
 
 **Coordinates with A.6.3–A.6.4 viewing/retargeting.**
 Viewing and retargeting are specialised “relative-to-base” moves (preserve describedEntity vs change it along a declared bridge). They should reuse SWBD vocabulary where an explicit base declaration is required (scope/time/witness), without collapsing into generic “anchoring” prose.
@@ -74,4 +77,7 @@ Base declarations inherit the rule that time-dependent assumptions require expli
 
 **Feeds E.10 / F.18 lexical governance.**
 Umbrella metaphors are disallowed as substitutes for baseRelation tokens; prose must name explicit relation kinds and keep the meaning lane separate (SenseCell/ConceptSet).
+
+**Constrains support wording in A.6.P/E.10.**
+Support-looking phrases that mean base-dependence are governed here: select a declared `baseRelation`, name `dependent` and `base`, add scope/time/witnesses as live, and preserve polarity. Support-looking phrases that do not mean base-dependence use the exact governing pattern ontology rather than becoming `SupportRelation`, `SupportBasis`, or `SupportRecord` buckets.
 

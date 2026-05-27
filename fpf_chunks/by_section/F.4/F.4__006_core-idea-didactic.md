@@ -6,12 +6,12 @@ section_id: "F.4:5"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_core-idea-didactic.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:5 — Core idea (didactic)"
-line_start: 66269
-line_end: 66277
+line_start: 66474
+line_end: 66482
 dependencies:
   - "A.11"
   - "A.2.1"

@@ -6,19 +6,19 @@ section_id: "A.19:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__007_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:5 — Solution"
-line_start: 22987
-line_end: 23205
+line_start: 23055
+line_end: 23273
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
-  - "A.19.SUPPORT-VIEW"
-  - "A.19.SURF-SPACE"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.2.5"
   - "A.3.3"
   - "C.16"
@@ -77,7 +77,7 @@ To ensure consistency and comparability, a CharacteristicSpace must obey the fol
 
  - **A19-CS-6 (Slot meta completeness).** Where applicable, each slot **SHALL** declare `admissible_domain` and **missingness semantics** (e.g., codes for *missing*, *censored*, *not-applicable*), consistent with the Characteristic’s Scale and with MM‑CHR. This prevents silent domain drift and clarifies how absent values participate in predicates and comparisons.
 
- - **A19-CS-7 (Space-vs-consumer boundary).** A `CharacteristicSpace` publishes only its own slot basis, optional overlays, and typing hooks. Ref-typed consumer fields that point to a declared space, explicit relation kinds between such refs, source-surface wiring, support-view organization, and publication metadata are **outside** the space object and **MUST** be declared in the pattern or surface that uses the space. This prevents `CharacteristicSpace` from being silently widened into ref-position semantics, selector semantics, source-surface semantics, publication-form semantics, or support-view semantics.
+ - **A19-CS-7 (Space-vs-consumer boundary).** A `CharacteristicSpace` publishes only its own slot basis, optional overlays, and typing hooks. Ref-typed consumer fields that point to a declared space, explicit relation kinds between such refs, source-set wiring, interpretive-view organization, and publication metadata are **outside** the space object and **MUST** be declared in the consumer pattern or consumer declaration that uses the space. This prevents `CharacteristicSpace` from being silently widened into ref-position semantics, selector semantics, source-set semantics, publication-form semantics, or interpretive-view semantics.
 
 ##### A.19:5.1.3 - Minimal structure hooks (optional overlays)
 
@@ -243,16 +243,16 @@ Canonical evaluation chain (notation‑neutral):
 
 **OP‑1 (Normative).** If `Align_B` is used in **gating**, the **Bridge used** and its **CL** **MUST** be declared in the assurance argument; the corresponding Φ(CL) penalty is applied per B.3. Silent cross‑context reuse is forbidden. (A.19 does not mandate any storage/ID scheme.)
 
-#### A.19:5.4 - Typed set views and optional neighboring transition-sensitive selection support
+#### A.19:5.4 - Typed set views and optional neighboring transition-sensitive selection interpretation
 
-- `TypedSetViews` name declared views over already declared set surfaces such as one palette, one front, one archive, or one shortlist.
-- A typed set view is one optional neighboring support for interpretation or shipping; it does not become a new public head for the set and it does not redefine the current minimal core question by itself.
-- `SelectionSlot` still returns one selected set surface, and `Shortlist` remains the public head when a selected surface is emitted.
-- If one atlas-like reading uses several typed set views over the same source surface, each view should keep its active source surface and typed question recoverable instead of speaking as though one default view already settles the whole family.
-- In cross-surface support prose, `SearchSpaceRef` and `OutcomeSpaceRef` are role-specific refinements of the older `SpaceRef` idiom. Do not let umbrella `SpaceRef` wording hide which support role the current typed-set-view reading depends on.
+- `TypedSetViews` name declared views over already declared set results such as one palette, one front, one archive, or one shortlist.
+- A typed set view is one optional neighboring interpretive qualifier for interpretation or shipping; it does not become a new public head for the set and it does not redefine the current minimal core question by itself.
+- `SelectionSlot` still returns one selected set result, and `Shortlist` remains the public head when a selected set is emitted.
+- If one atlas-like reading uses several typed set views over the same source set, each view should keep its active source set and typed question recoverable instead of speaking as though one default view already settles the whole family.
+- In source-set and space-role interpretive prose, `SearchSpaceRef` and `OutcomeSpaceRef` are role-specific refinements of the older `SpaceRef` idiom. Do not let umbrella `SpaceRef` wording hide which space-ref role the current typed-set-view reading depends on.
 - Use one `SpaceMetricRef` only when a comparison, neighborhood, spread, or crowding claim truly depends on one declared space metric or comparison rule.
-- Use one `TransitionSupportRef` only when the text must say how transition or trajectory relations behave across one declared level shift, normalization choice, or aggregation step. One covariance-style model is one admissible subtype of `TransitionSupportRef`, not the only one.
-- If one typed set view also cites one such role-specific space ref or `OutcomeMapRef`, keep those refs as declared support for that view rather than as one new public set head.
-- If one selector or comparison reads one derived tradition view through one typed set view, keep the underlying declared source surface recoverable at the same time.
-- Different typed set views may coexist for the same source surface; keep that plurality visible rather than pretending one metric or transition formalism already settles every neighboring comparison.
+- Use one `TransitionRelationRef` only when the text must say how transition or trajectory relations behave across one declared level shift, normalization choice, or aggregation step. One covariance-style model is one admissible subtype of `TransitionRelationRef`, not the only one.
+- If one typed set view also cites one such role-specific space ref or `OutcomeMapRef`, keep those refs as declared qualifiers for that view rather than as one new public set head.
+- If one selector or comparison reads one derived tradition view through one typed set view, keep the underlying declared source set recoverable at the same time.
+- Different typed set views may coexist for the same source set; keep that plurality visible rather than pretending one metric or transition formalism already settles every neighboring comparison.
 

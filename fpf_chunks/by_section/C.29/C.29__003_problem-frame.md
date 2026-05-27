@@ -6,12 +6,12 @@ section_id: "C.29:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__003_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:1 — Problem frame"
-line_start: 48899
-line_end: 48951
+line_start: 49584
+line_end: 49636
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,12 +28,12 @@ dependencies:
   - "C.16"
   - "C.18.1"
   - "C.19.1"
+  - "C.2.P"
   - "C.26"
   - "C.27"
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"

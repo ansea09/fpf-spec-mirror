@@ -6,12 +6,12 @@ section_id: "C.18.1:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__011_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:10 — Relations"
-line_start: 41399
-line_end: 41411
+line_start: 42085
+line_end: 42097
 dependencies:
   - "C.16"
   - "C.17"

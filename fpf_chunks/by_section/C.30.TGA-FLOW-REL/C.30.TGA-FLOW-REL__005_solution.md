@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:4 — Solution"
-line_start: 51412
-line_end: 51514
+line_start: 52557
+line_end: 52659
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,12 +22,12 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.16"
+  - "C.2.P"
   - "C.28"
   - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.18"
@@ -43,7 +43,7 @@ keywords:
 
 ### C.30.TGA-FLOW-REL:4 - Solution
 
-C.30.TGA-FLOW-REL is the C.30 entry relation to E.18 when an architecture description or architecture structural view uses E.TGA graph/path/crossing/flow-valuation objects as flow/transduction structure support.
+C.30.TGA-FLOW-REL is the C.30 entry relation to E.18 when an architecture description or architecture structural view uses E.TGA graph/path/crossing/flow-valuation objects as flow/transduction structure relation.
 
 It imports E.18; it does not redefine E.TGA. It supplies only the architecture-description relation:
 
@@ -75,13 +75,13 @@ Open this pattern only when a live architecture claim depends on one or more E.1
 - edition, plane, or context pin;
 - no-hidden-scalarization or set-return discipline;
 - correspondence between functional structure and flow/transduction structure;
-- generated or extracted relation graph used as architecture-flow support.
+- generated or extracted relation graph used as architecture-flow reliance.
 
-If the sentence only says that work occurred, use A.15 or the governing work pattern. If the sentence only says that a graph exists, use E.18. If the sentence uses the graph as mathematical lens support, use C.29.
+If the sentence only says that work occurred, use A.15 or the governing work pattern. If the sentence only says that a graph exists, use E.18. If the sentence uses the graph as mathematical-lens reliance, use C.29.
 
 #### C.30.TGA-FLOW-REL:4.2 - Relation to functional structure
 
-`FunctionalStructureView@Context` under C.30.ASV may cite `ArchitectureFlowStructureRelation@TGA` when flow is live. That relation does not make the TGA graph a functional element. It says that a functional structure view is supported by or corresponded with one E.18 graph/path/crossing relation.
+`FunctionalStructureView@Context` under C.30.ASV may cite `ArchitectureFlowStructureRelation@TGA` when flow is live. That relation does not make the TGA graph a functional element. It says that a functional structure view corresponds to or is declared relative to one E.18 graph/path/crossing relation.
 
 ```text
 FunctionFlowRelationNote:
@@ -97,16 +97,16 @@ admissibleUse:
 nonAdmissibleUse:
 ```
 
-Use this note when the practitioner needs to see whether the function-flow relation changes inspection, split, relation-making, downgrade, neighboring-pattern assignment, candidate generation, or stop.
+Use this note when the practitioner needs to see whether the function-flow relation changes inspection, split, relation-making, downgrade, exact governing pattern application, candidate generation, or stop.
 
-#### C.30.TGA-FLOW-REL:4.3 - Neighboring exits
+#### C.30.TGA-FLOW-REL:4.3 - Exact claim-kind applications
 
-| Live claim kind | Exit |
+| Live claim kind | Governing pattern to apply |
 | --- | --- |
 | Work occurrence or work result | `A.15` and the governing work-result or P2W relation |
 | Gate decision | `A.21` |
-| Evidence support | `A.10` or `G.6` |
-| Assurance support | `B.3` |
+| Evidence claim | `A.10` or `G.6` |
+| Assurance claim | `B.3` |
 | Causal flow or intervention claim | `C.28` |
 | Mathematical-lens adequacy | `C.29` |
 | Architecture description or view adequacy | `C.30` or `C.30.ASV` |
@@ -140,7 +140,7 @@ nonAdmissibleUse:
   graph as project decision
 ```
 
-**Neural-network dataflow change.** Replacing attention, SSM, convolution, memory/cache, MoE expert-selection, or another block changes architecture only when the changed structure kind and flow/transduction relation are named. A benchmark, ablation, or pruning result may support a neighboring claim, but it does not make the flow relation an architecture decision or evidence sufficiency by itself.
+**Neural-network dataflow change.** Replacing attention, SSM, convolution, memory/cache, MoE expert-selection, or another block changes architecture only when the changed structure kind and flow/transduction relation are named. A benchmark, ablation, or pruning result may bear on an exact non-architecture claim, but it does not make the flow relation an architecture decision or evidence sufficiency by itself.
 
-**Code-agent relation graph.** A code-agent relation graph with `IMPORTS`, `CALLS_API`, `REGISTRY_WIRES`, or `DATA_FLOWS_TO` edges can support an architecture-flow relation only with source edition, observed/inferred/unknown status, typed relation semantics, unexplored regions, and source-return condition when subsequent action relies on hidden distinctions.
+**Code-agent relation graph.** A code-agent relation graph with `IMPORTS`, `CALLS_API`, `REGISTRY_WIRES`, or `DATA_FLOWS_TO` edges can be used for an architecture-flow relation only with source edition, observed/inferred/unknown status, typed relation semantics, unexplored regions, and source-return condition when subsequent action relies on hidden distinctions.
 

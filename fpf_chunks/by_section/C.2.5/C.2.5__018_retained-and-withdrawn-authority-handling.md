@@ -6,12 +6,12 @@ section_id: "C.2.5:17"
 section_title: "Retained and Withdrawn Authority Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__018_retained-and-withdrawn-authority-handling.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:17 — Retained and Withdrawn Authority Handling"
-line_start: 36092
-line_end: 36109
+line_start: 36778
+line_end: 36795
 dependencies:
   - "A.16"
   - "A.16.0"

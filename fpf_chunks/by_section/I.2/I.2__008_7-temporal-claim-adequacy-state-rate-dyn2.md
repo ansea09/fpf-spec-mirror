@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".7 - Temporal claim adequacy: state -> rate -> Dyn2"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__008_7-temporal-claim-adequacy-state-rate-dyn2.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .7 - Temporal claim adequacy: state -> rate -> Dyn2"
-line_start: 78817
-line_end: 78828
+line_start: 79027
+line_end: 79038
 dependencies:
 keywords:
 ---

@@ -6,12 +6,12 @@ section_id: "F.10:6"
 section_title: "The spine: three local ladders (Context‑native, small and renameable)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__007_the-spine-three-local-ladders-context-native-small-and-renameable.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:6 — The spine: three local ladders (Context‑native, small and renameable)"
-line_start: 68631
-line_end: 68698
+line_start: 68836
+line_end: 68903
 dependencies:
   - "B.3"
   - "D.CTX"

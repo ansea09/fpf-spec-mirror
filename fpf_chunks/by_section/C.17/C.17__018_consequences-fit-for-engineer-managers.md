@@ -6,12 +6,12 @@ section_id: "C.17:17"
 section_title: "Consequences & fit (for engineer‑managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__018_consequences-fit-for-engineer-managers.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:17 — Consequences & fit (for engineer‑managers)"
-line_start: 41026
-line_end: 41031
+line_start: 41712
+line_end: 41717
 dependencies:
   - "A.1"
   - "A.10"

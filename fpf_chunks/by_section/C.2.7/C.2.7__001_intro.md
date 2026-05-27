@@ -6,12 +6,12 @@ section_id: "C.2.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:intro — Intro"
-line_start: 36295
-line_end: 36303
+line_start: 36981
+line_end: 36989
 dependencies:
   - "A.16"
   - "A.16.0"

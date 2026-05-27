@@ -6,7 +6,7 @@ section_id: "A.6:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:8 — Common Anti‑Patterns and How to Avoid Them"

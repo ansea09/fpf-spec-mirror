@@ -6,12 +6,12 @@ section_id: "A.6.F:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__003_problem.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:2 — Problem"
-line_start: 14290
-line_end: 14305
+line_start: 14317
+line_end: 14332
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,13 +32,13 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -69,5 +69,5 @@ FPF texts repeatedly use function-like wording for different carriers:
 - module allocation or interface relation;
 - functional architecture shorthand.
 
-These uses are all legitimate in ordinary engineering speech. They are not the same FPF kind. If the text does not recover the carrier, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision support.
+These uses are all legitimate in ordinary engineering speech. They are not the same FPF kind. If the text does not recover the carrier, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision claim.
 

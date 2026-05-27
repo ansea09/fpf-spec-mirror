@@ -6,12 +6,12 @@ section_id: "A.13:1"
 section_title: "Intent & Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__002_intent-context.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:1 — Intent & Context"
-line_start: 19397
-line_end: 19407
+line_start: 19468
+line_end: 19478
 dependencies:
   - "A.12"
   - "A.2"

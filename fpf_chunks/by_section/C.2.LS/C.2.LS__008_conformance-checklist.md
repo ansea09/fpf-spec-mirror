@@ -6,12 +6,12 @@ section_id: "C.2.LS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__008_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:7 — Conformance Checklist"
-line_start: 35614
-line_end: 35622
+line_start: 36300
+line_end: 36308
 dependencies:
   - "A.16"
   - "A.16.0"

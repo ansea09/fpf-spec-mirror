@@ -6,12 +6,12 @@ section_id: "A.6.H:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__013_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:12 — Relations"
-line_start: 18028
-line_end: 18040
+line_start: 18100
+line_end: 18112
 dependencies:
   - "A.14"
   - "A.15"
@@ -36,7 +36,7 @@ keywords:
 
 ### A.6.H:12 - Relations
 
-* **Specialises:** A.6.P Relational Precision Restoration Suite.
+* **Specialises:** A.6.P Relational Precision Restoration (RPR).
 * **Front-ends:** A.14 Advanced Mereology; B.1.1 edge selection guide — by turning prose triggers into typed edge choices.
 * **Coordinates with:** B.1.4 Γ_ctx/Γ_time — to route order/time away from structure; A.15 Role–Method–Work Alignment — for “completeness/end-to-end” coverage language (capability/spec/evidence).
 * **Informs examples:** F.18 vocabulary pitfalls (module/component, batch/lot) as recurring wholeness-word traps.

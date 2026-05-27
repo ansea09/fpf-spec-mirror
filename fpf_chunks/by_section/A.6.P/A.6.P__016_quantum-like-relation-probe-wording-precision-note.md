@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P"
-pattern_title: "U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+pattern_title: "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
 section_id: "A.6.P:12a"
 section_title: "Quantum-like relation/probe wording precision note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__016_quantum-like-relation-probe-wording-precision-note.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
-  - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+  - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12a — Quantum-like relation/probe wording precision note"
-line_start: 12751
-line_end: 12782
+line_start: 12778
+line_end: 12809
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -49,6 +49,8 @@ keywords:
   - "measurement"
   - "probe"
   - "relation precision restoration"
+  - "selected support reading"
+  - "support/support-headed wording"
   - "under-specified relational language"
 ---
 
@@ -80,7 +82,7 @@ Minimum repair for load-bearing quantum-like relation wording:
 
 Useful outputs:
 
-- an ordinary `F.9`, `A.6.8`, `A.6.9`, `C.16`, `A.15`, or `C.25` receiving pattern when the repaired slots reduce to one existing support load;
+- an ordinary `F.9`, `A.6.8`, `A.6.9`, `C.16`, `A.15`, or `C.25` exact governing pattern when the repaired slots reduce to one existing support load;
 - a local explanatory phrase when no reusable relation token is justified;
 - an `A.6.P` repair plus `F.18` naming pass when a reusable relation token is actually needed;
-- a `C.26` handoff only for the remaining state, probe, export, frame, or coarsening support load.
+- a `C.26` application only for the remaining state, probe, export, frame, or coarsening support load.

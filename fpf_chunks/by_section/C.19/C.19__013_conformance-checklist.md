@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:7 — Conformance Checklist"
-line_start: 41723
-line_end: 41737
+line_start: 42409
+line_end: 42423
 dependencies:
   - "B.3"
   - "C.11"

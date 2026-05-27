@@ -6,15 +6,15 @@ section_id: "G.2:7"
 section_title: "Conformance Checklist (normative) — CC‑G2"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__008_conformance-checklist-normative-cc-g2.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:7 — Conformance Checklist (normative) — CC‑G2"
-line_start: 73657
-line_end: 73687
+line_start: 73867
+line_end: 73897
 dependencies:
   - "A.10"
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
   - "B.3"
   - "C.18"
@@ -36,7 +36,7 @@ dependencies:
   - "G.Core"
 keywords:
   - "BridgeMatrix"
-  - "CrossSurfaceAtlasView"
+  - "DeclaredSubstrateAtlasView"
   - "FlowRecord"
   - "GammaEpistSynthId"
   - "SoTA Synthesis Pack@CG-Frame"
@@ -60,7 +60,7 @@ keywords:
 | **CC‑G2‑ClaimSheets‑1**   | For each included `Tradition`, a conforming pack **MUST** include a `ClaimSheetId` that declares `U.BoundedContext`, `describedEntity`, evidence anchors, and freshness notes; it **MUST NOT** fuse cross‑`Tradition` claims by default.                                                                                                                 | Keeps plurality explicit and prevents hidden crossings.                             |
 | **CC‑G2‑Palette‑1**       | A conforming pack **MUST** export `SoTA_Set@CG‑Frame` and `SoTAPaletteDescription` as citable views (via `SoTA_SetId`, `SoTAPaletteDescriptionId`) and ensure both are reconstructible from pack components by id (no hidden extra structure).                                                                                                      | Prevents downstream scraping of prose; keeps “M2 output” explicit.                  |
 | **CC‑G2‑Palette‑2**       | If the pack exports one derived tradition view such as `TraditionFront` or `TraditionArchive`, it **MUST** keep `SoTAPaletteDescription` explicit as the default base palette, keep that derivation recoverable, and cite the declared `Q` or reachability/coverage rule that disciplined that view. Derived tradition views **MUST NOT** silently replace the palette's default meaning. | Keeps non-default tradition views recoverable without redefining palette-first semantics. |
-| **CC‑G2‑AtlasSupport‑1**  | If the pack exports `TraditionAtlasView`, it **MUST** satisfy the same support view declaration required by `A.19.SUPPORT-VIEW`: keep the base palette and active source surface or active set surface recoverable, name `TypedSetViews` when several declared set views are held together, cite any active `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs, cite any active `OutcomeMapRef`, `SpaceMetricRef`, `TransitionSupportRef`, or `BridgeDistortionNote` only when they do real explanatory work, state why thinner `CrossSurfaceSupportView` is insufficient here, and **MUST NOT** use atlas form when palette-first or thinner `CrossSurfaceSupportView` is sufficient. | Keeps the `G.2` specialization at least as constraining as the general `CrossSurfaceAtlasView` declaration and preserves space-role recoverability. |
+| **CC‑G2‑AtlasInterpretation‑1**  | If the pack exports `TraditionAtlasView`, it **MUST** satisfy the same interpretive-view declaration required by `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`: keep the base palette and active source set or active set result recoverable, name `TypedSetViews` when several declared set views are held together, cite any active `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs, cite any active `OutcomeMapRef`, `SpaceMetricRef`, `TransitionRelationRef`, or `BridgeDistortionNote` only when they do real explanatory work, state why thinner `DeclaredSubstrateInterpretiveView` is insufficient here, and **MUST NOT** use atlas form when palette-first or thinner `DeclaredSubstrateInterpretiveView` is sufficient. | Keeps the `G.2` specialization at least as constraining as the general `DeclaredSubstrateAtlasView` declaration and preserves space-role recoverability. |
 | **CC‑G2‑describedEntityMap‑1** | A conforming pack **MUST** include `G.2g describedEntity Map`, mapping (at minimum) each load‑bearing claim family and each minted/evolved public id to `describedEntity := ⟨GroundingHolon, ReferencePlane⟩`, and citing the relevant `ClaimSheetId` and evidence anchors (A.10 and/or G.6 paths when used).                                         | Keeps plane/holon boundaries explicit and citable.                                  |
 | **CC‑G2‑Alignment‑1**     | Any cross‑`Tradition` consolidation **SHALL** be presented as either (i) disjoint parallel claims with explicit divergence, or (ii) an explicitly justified alignment proof; any reuse across `Tradition` boundaries **MUST** use explicit crossing bundles per `CC‑GCORE‑CROSS‑1` (delegation).                                                  | Prevents silent semantic leakage.                                                   |
 | **CC‑G2‑GammaSynth‑1**    | If the pack asserts **fusion or substitution** across sources or across `Tradition` records (not merely “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records satisfying `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit alignment refs + assurance tuple refs). If no fusion or substitution is asserted, the pack **SHALL** state so explicitly. | Restores the load‑bearing synthesis artefact (alias: `G.2‑F`) without shadow specs. |

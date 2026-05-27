@@ -6,12 +6,12 @@ section_id: "F.5:6"
 section_title: "Normative rules — U.Types (Cross‑context labels)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__007_normative-rules-u-types-cross-context-labels.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:6 — Normative rules — U.Types (Cross‑context labels)"
-line_start: 66642
-line_end: 66666
+line_start: 66847
+line_end: 66871
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".6 - Same-entity rewrite, explanation, and comparative reading"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__007_6-same-entity-rewrite-explanation-and-comparative-reading.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .6 - Same-entity rewrite, explanation, and comparative reading"
-line_start: 78793
-line_end: 78816
+line_start: 79003
+line_end: 79026
 dependencies:
 keywords:
 ---

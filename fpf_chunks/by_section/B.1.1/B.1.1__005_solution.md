@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:4 — Solution"
-line_start: 28783
-line_end: 28920
+line_start: 28839
+line_end: 28976
 dependencies:
   - "A.1"
   - "A.12"

@@ -6,15 +6,15 @@ section_id: "A.0:section-008"
 section_title: "8) Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__009_8-consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-008 — 8) Consequences"
 line_start: 979
 line_end: 989
 dependencies:
-  - "A.19.SUPPORT-VIEW"
-  - "A.19.SURF-SPACE"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.5"
   - "B.5"
   - "B.5.2.1"
@@ -34,14 +34,14 @@ keywords:
   - "& queries. novelty"
   - "BLP"
   - "CL^plane"
-  - "CrossSurfaceSupportView"
+  - "DeclaredSubstrateInterpretiveView"
   - "OutcomeSpaceRef"
   - "ParetoOnly default"
   - "ReferencePlane"
   - "SearchSpaceRef"
   - "TypedSetViews"
   - "comparability"
-  - "declared set surface"
+  - "declared set result"
   - "explore/exploit (E/E-LOG)"
   - "explore/exploit (E/E‑LOG)"
   - "illumination map (report‑only telemetry)"
@@ -57,7 +57,7 @@ keywords:
 
 **Benefits.**
 • **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
-• **Declared-set-first / typed portfolio-publication** culture (typed set surfaces & illumination) instead of brittle leaderboards.
+• **Declared-set-first / typed portfolio-publication** culture (typed set results & illumination) instead of brittle leaderboards.
 • **Edition‑aware comparability**; parity/refresh is routine, not ad‑hoc.
 
 **Trade‑offs & mitigations.**

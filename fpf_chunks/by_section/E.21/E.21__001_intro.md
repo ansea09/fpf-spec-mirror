@@ -6,19 +6,19 @@ section_id: "E.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.21 — FPF Pattern Quality Characteristic Space"
   - "E.21:intro — Intro"
-line_start: 63935
-line_end: 63940
+line_start: 64146
+line_end: 64151
 dependencies:
   - "A.17-A.19"
   - "A.6.P"
   - "A.6.Q"
   - "C.16"
+  - "C.2.P"
   - "C.25"
-  - "E.10.SEMIO"
   - "E.11"
   - "E.17.AUD"
   - "E.19"

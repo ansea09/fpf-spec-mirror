@@ -6,7 +6,7 @@ section_id: "A.2:11"
 section_title: "Rationale (post‑2015 cross‑domain corroboration)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__012_rationale-post-2015-cross-domain-corroboration.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:11 — Rationale (post‑2015 cross‑domain corroboration)"

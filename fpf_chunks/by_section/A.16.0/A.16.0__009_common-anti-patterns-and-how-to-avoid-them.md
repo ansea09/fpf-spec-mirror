@@ -6,12 +6,12 @@ section_id: "A.16.0:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21971
-line_end: 21978
+line_start: 22042
+line_end: 22049
 dependencies:
   - "A.16"
   - "A.16.1"

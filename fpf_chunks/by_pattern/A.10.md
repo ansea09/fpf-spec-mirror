@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.10.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
-line_start: 18757
-line_end: 19151
+line_start: 18829
+line_end: 19222
 dependencies:
   - "A.1"
   - "A.10"
@@ -229,7 +229,7 @@ Use this subsection when a visible source is being treated as evidence for a cla
 
 This subsection uses a local reliance-use classifier, not a Core evidence-kind ontology. Its practical gain is a smaller next move: recover the evidence relation, name the supported and unsupported use, then stop or exit to the exact receiving pattern. It is not a required project review step and does not ask the practitioner to inspect every source-looking item.
 
-Support role: the first table is an A.10 recognition aid, the `RelianceDisposition` table is a minimum local record aid, and the worked source-overread slices are regression/review slices. They are not project checklists, a required sequence, a new evidence ontology, or a general source classifier. Use only the row that answers the live attempted evidence use, then stop when the bounded evidence relation, supported use, unsupported use, and reopen condition are clear. This local section returns the attempted use to A.10 evidence relation; it does not create an extra SEMIO authority or shared relation family.
+Support role: the first table is an A.10 recognition aid, the `RelianceDisposition` table is a minimum local record aid, and the worked source-overread slices are regression/review slices. They are not project checklists, a required sequence, a new evidence ontology, or a general source classifier. Use only the row that answers the live attempted evidence use, then stop when the bounded evidence relation, supported use, unsupported use, and reopen condition are clear. This local section returns the attempted use to A.10 evidence relation; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
 
 Affordability card: orientation or source-finding remains a cue and stops here; bounded reliance states one supported use, unsupported use, window, and reopen condition; threshold reliance exits to the minimum receiving pattern only when the B.3 material-reliance threshold is live: behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people/team status, operational action, or controlled-object regulation would materially change. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 
@@ -444,4 +444,3 @@ Do not let the label `quantum-like` carry evidence weight by itself. The evidenc
 > If a mathematical lens needs evidence support, write the evidence path, source currentness, provenance, and any model-card or datasheet evidence use in `A.10`. A `C.29` output may state only `LensSupportPosture` for the mathematical-lens adequacy claim; it is not an evidence path, currentness proof, provenance record, or evidence-carrier substitute. Assurance or release confidence goes to `B.3`; measurement construction or comparability goes to `C.16`.
 
 ### A.10:End
-

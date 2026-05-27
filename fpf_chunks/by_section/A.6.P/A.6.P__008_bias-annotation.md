@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P"
-pattern_title: "U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+pattern_title: "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
 section_id: "A.6.P:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__008_bias-annotation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
-  - "A.6.P — U.RelationalPrecisionRestorationSuite — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
+  - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:6 — Bias‑Annotation"
-line_start: 12544
-line_end: 12553
+line_start: 12570
+line_end: 12579
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -49,6 +49,8 @@ keywords:
   - "measurement"
   - "probe"
   - "relation precision restoration"
+  - "selected support reading"
+  - "support/support-headed wording"
   - "under-specified relational language"
 ---
 
@@ -56,7 +58,7 @@ keywords:
 
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for RPR‑style precision restoration in the A.6 cluster.
 
-* **Gov bias:** prefers explicit admissibility and evidence routing; increases auditability but raises authoring cost.
+* **Gov bias:** prefers explicit admissibility and evidence-role explicitness; increases auditability but raises authoring cost.
 * **Arch bias:** favours reusable structural lenses (records/hyperedges) over narrative prose.
 * **Onto/Epist bias:** pushes kind‑explicit relations and polarity discipline; discourages metaphor-first modeling.
 * **Prag bias:** reduces rework and cross-team misinterpretation; may feel heavy in exploratory notes.

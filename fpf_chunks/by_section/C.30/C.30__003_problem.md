@@ -6,12 +6,12 @@ section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30 — Architecture Description Adequacy (ADA)"
   - "C.30:2 — Problem"
-line_start: 50170
-line_end: 50193
+line_start: 50854
+line_end: 50877
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -35,7 +36,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -66,7 +66,7 @@ Engineering teams use "architecture" for several different things:
 
 These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: the architecture-relevant selected structure, the architecture claim over that structure, the D/S description or view of that claim, the publication of that description or view, and the project decision about changing architecture are different records.
 
-The first-minute practitioner can ask: Are we choosing an architecture, or just naming a module layout? Which structure is being described: function, flow, control, module/interface, work, role/enactor, evidence/assurance, information/data, placement/deployment, scale, or declared logical structure? What artifact are we looking at: architecture claim, description, view, carrier, publication, decision, support, or mathematical lens?
+The first-minute practitioner can ask: Are we choosing an architecture, or just naming a module layout? Which structure is being described: function, flow, control, module/interface, work, role/enactor, evidence/assurance, information/data, placement/deployment, scale, or declared logical structure? What artifact are we looking at: architecture claim, description, view, carrier, publication, decision, source-relation object, or mathematical lens?
 
 How can FPF describe architecture without:
 

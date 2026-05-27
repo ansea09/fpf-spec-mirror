@@ -6,12 +6,12 @@ section_id: "E.18:6"
 section_title: "Archetypal Grounding (Tell–Show–Show; concise)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__007_archetypal-grounding-tell-show-show-concise.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:6 — Archetypal Grounding (Tell–Show–Show; concise)"
-line_start: 62673
-line_end: 62684
+line_start: 62884
+line_end: 62895
 dependencies:
   - "A.2.6"
   - "A.20"

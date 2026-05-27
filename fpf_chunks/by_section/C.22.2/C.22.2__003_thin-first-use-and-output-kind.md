@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 42581
-line_end: 42795
+line_start: 43267
+line_end: 43481
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,6 +27,7 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.P"
   - "C.22"
   - "C.22.1"
   - "C.24"
@@ -35,7 +36,6 @@ dependencies:
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.16"
   - "E.17"
   - "E.17.ID.CR"
@@ -170,9 +170,9 @@ Use profiles:
 
 - Thin profile: signal, context grounding and scope cut, not-wish, not-slogan, not-ticket, or not-preselected-work reason, provisional improvement check or acceptance probe, and one honest next move.
 - Standard profile: the Thin profile plus live fields needed when P2W or selector-facing use is likely: comparison-and-acceptance cue or acceptance-basis reference, mandatory constraints, risk posture, support posture, validation boundary, freshness or expiry, unknown handling, and named neighboring exits.
-- High-load profile: conditional for public, disputed, high-risk, set-derived, cross-context, semio-transformed, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, or Part-G-facing cases. It adds references and exits such as `setContextRef`, characterization, parity, support, evidence, gate, autonomy, work, temporal, causal, agentic call-planning, semio relation, and refresh references; it does not locally certify those relations.
+- High-load profile: conditional for public, disputed, high-risk, set-derived, cross-context, source-transfer-transformed, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, or Part-G-facing cases. It adds references and exits such as `setContextRef`, characterization, parity, support, evidence, gate, autonomy, work, temporal, causal, agentic call-planning, episteme/publication/source-transfer relation, and refresh references; it does not locally certify those relations.
 
-Thin is not an immature profile. When it gives the honest next move, Thin is a final conforming result for the current use. High-load is not a higher maturity claim; it is a conditional profile required when public, disputed, high-risk, set-derived, cross-context, semio-transformed, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, or Part-G-facing relations are live in the case.
+Thin is not an immature profile. When it gives the honest next move, Thin is a final conforming result for the current use. High-load is not a higher maturity claim; it is a conditional profile required when public, disputed, high-risk, set-derived, cross-context, source-transfer-transformed, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, or Part-G-facing relations are live in the case.
 
 The profile order is a reading aid, not a required transition sequence. Thin is the default entry; Standard and High-load add only liveness-triggered fields; neighboring exits are consulted after the Thin next move exposes a live relation.
 

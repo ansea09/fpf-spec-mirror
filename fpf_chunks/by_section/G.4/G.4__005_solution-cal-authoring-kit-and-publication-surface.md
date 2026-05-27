@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — CAL authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-cal-authoring-kit-and-publication-surface.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — CAL authoring kit and publication surface"
-line_start: 74269
-line_end: 74568
+line_start: 74479
+line_end: 74778
 dependencies:
   - "A.10"
   - "A.18"
@@ -117,7 +117,7 @@ Notes (normative intent, delegated semantics):
   * exposes unknown handling and failure behavior via policy pins.
 * `CAL.Flow[]` — legality‑checked compositions of operator cards:
 
-  * declares result kind (scalar only when lawful; selected-set / set-surface when partial orders remain partial orders),
+  * declares result kind (scalar only when lawful; selected-set / set-result when partial orders remain partial orders),
   * records which acceptance clauses gate which flows.
 * `CAL.EvidenceProfiles` — evidence wiring surface:
 
@@ -213,7 +213,7 @@ Each `CAL.Acceptance` is a UTS‑published predicate with:
 
 * which acceptance clauses gate the flow,
 * which operator outputs are decision‑relevant vs report‑only,
-* what the **result kind** is (scalar only where lawful; otherwise selected-set / set-surface).
+* what the **result kind** is (scalar only where lawful; otherwise selected-set / set-result).
 * any thinning/decision‑aid policy (e.g., ε‑front selection) as an explicit policy pin that **does not** silently replace the declared result kind.
 
 **C5 — Evidence wiring surface.**

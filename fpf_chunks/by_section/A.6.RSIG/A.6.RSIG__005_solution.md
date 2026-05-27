@@ -6,7 +6,7 @@ section_id: "A.6.RSIG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:4 — Solution"
@@ -156,7 +156,7 @@ This pattern does not mint:
 - one standalone `U.Discoverability`;
 - one new `U.Signature`, Signature Stack object, `U.Characteristic`, `CHR`, or
   local `Q-Bundle`;
-- one `SurfaceKind`, `DescriptionKind`, relation kind, graph ontology, route-publication
+- one `SurfaceKind`, `DescriptionKind`, relation kind, graph ontology, pattern-reference publication
   graph, or process-family claim;
 - one universal reader-orientation role.
 

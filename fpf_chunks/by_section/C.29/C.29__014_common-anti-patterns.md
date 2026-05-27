@@ -6,12 +6,12 @@ section_id: "C.29:12"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__014_common-anti-patterns.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:12 — Common anti-patterns"
-line_start: 49856
-line_end: 49883
+line_start: 50541
+line_end: 50568
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,12 +28,12 @@ dependencies:
   - "C.16"
   - "C.18.1"
   - "C.19.1"
+  - "C.2.P"
   - "C.26"
   - "C.27"
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
@@ -86,6 +86,6 @@ keywords:
 | **RivalLensSet as literature review** | The C.29 application produces a survey instead of naming the live rival. | Use `PrincipalRivalLens?` by default; add `RivalLensRelation?` when disagreement changes the next move; broaden to `RivalLensSet?` only when publication, selection, or claim-bearing comparison is live. |
 | **StopCondition boilerplate** | The card says “does not prove everything.” | State the most tempting nearby overread the lens does not license. |
 | **Neighbor absorption** | MLA repeats `F.9`, `C.28`, `A.3.3`, `A.19`, `C.11`, `A.15`, `A.10`, `B.3`, `C.16`, `C.27`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, or assurance semantics. | Apply the governing-locus table and cite the neighboring pattern. |
-| **Plain metaphor carrying law** | “What survives transfer” becomes an unstated Tech claim. | Recover the claim force through `E.10.SEMIO` fields or keep it as ordinary Plain recognition only. |
+| **Plain metaphor carrying law** | “What survives transfer” becomes an unstated Tech claim. | Recover the claim force through `C.2.P` fields or keep it as ordinary Plain recognition only. |
 | **MLA-kind inflation** | `MLA.Card` is treated as a universal `U.*` object or durable FPF record. | Keep it pattern-local; durable cross-pattern records require explicit mint/reuse, naming, kind, and design-rationale support through `F.8`, `F.18`, `C.3`, and `E.9`. |
 

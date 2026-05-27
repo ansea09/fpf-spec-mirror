@@ -6,12 +6,12 @@ section_id: "C.30.ASV:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__006_archetypal-grounding.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:5 — Archetypal Grounding"
-line_start: 51262
-line_end: 51269
+line_start: 51945
+line_end: 51952
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,6 +24,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -33,7 +34,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -58,5 +58,5 @@ keywords:
 | --- | --- |
 | Tell | A practitioner looks at an architecture "view" and asks whether it is functional, flow, control, module/interface, information/data, placement, scale, work/evidence, or declared logical structure. C.30.ASV turns that question into structure-kind triage or a full structural view record. |
 | Show: `U.System` | A plant, vehicle, software system, product platform, AI-agent system, or neural-network model may need several structural views over the same architecture claim. One module view does not exhaust the system architecture, and one flow graph does not prove work, evidence, safety, or release. |
-| Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram is an episteme, view, or publication face. It can publish an architecture structural view only when the architecture claim, structure refs, structure kind, viewpoint, hidden/lost structure, correspondence, support, and admissible use are recoverable. |
+| Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram is an episteme, view, or publication face. It can publish an architecture structural view only when the architecture claim, structure refs, structure kind, viewpoint, hidden/lost structure, correspondence, source or reliance relation, and admissible use are recoverable. |
 

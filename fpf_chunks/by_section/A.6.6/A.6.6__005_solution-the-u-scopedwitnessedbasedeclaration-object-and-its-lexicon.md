@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-the-u-scopedwitnessedbasedeclaration-object-and-its-lexicon.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:4 — Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
-line_start: 15462
-line_end: 15631
+line_start: 15494
+line_end: 15697
 dependencies:
   - "A.10"
   - "A.14"
@@ -19,8 +19,10 @@ dependencies:
   - "A.2.6"
   - "A.6.0"
   - "A.6.3"
+  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "C.3.3"
@@ -41,6 +43,7 @@ keywords:
   - "rescope"
   - "retime"
   - "scope"
+  - "support-as-basedness"
   - "witnesses"
   - "Γ_time"
 ---
@@ -72,7 +75,7 @@ Where:
 
 **Notation.** `SlotContent(VK, refMode)` is a compact shorthand for “a slot whose SlotSpec declares `ValueKind=VK` and `refMode ∈ {ByValue | RefKind}` (A.6.5)”.
 
-**SlotSpec note.** `VK_*` / `RK_*` / `refMode_*` above are **not** “anything goes”: they are fixed by the chosen `BaseRelationSlot` vocabulary entry and must be declared as SlotSpecs (A.6.5). In other words, SWBD is a reusable *shape*, but each Context’s baseRelation family makes it a concrete, typed signature.
+**SlotSpec note.** `VK_*` / `RK_*` / `refMode_*` above are **not** “anything goes”: they are fixed by the chosen `BaseRelationSlot` vocabulary entry and must be declared as SlotSpecs (A.6.5). In other words, SWBD is a reusable *shape*, but each Context’s declared `baseRelation` vocabulary entry makes it a concrete, typed signature.
 
 **Instance/prose notation note (convention).** In the prose and examples below, the *occupants* are written as `dependent`, `base`, `baseRelation`, `scope`, `Γ_time`, `witnesses` (no `*Slot` suffix). The `*Slot` suffix is reserved for SlotKinds/positions only (A.6.5 / E.10).
 
@@ -135,7 +138,7 @@ A `baseRelation` token is not “just a label”. For each baseRelation declared
 * **Time discipline.** Whether `Γ_time` is required, optional, or forbidden for this relation kind.
 * **Witness discipline.** Whether witnesses are always required vs required only for decision use, and what witness classes are admissible (`U.EvidenceRole`, edition pins, calibration cert pins, proof carriers, policy pins).
 * **Admissible change classes.** Which base-change operations are permitted (below) and what continuity requirements apply.
-* **Cross-context / cross-plane policy.** Whether this baseRelation family may cross Contexts/planes at all; if yes, what Bridge ids/CL thresholds must be cited and what loss notes are required (F.9 / C.3.3).
+* **Cross-context / cross-plane policy.** Whether this declared `baseRelation` may cross Contexts/planes at all; if yes, what Bridge ids/CL thresholds must be cited and what loss notes are required (F.9 / C.3.3).
 
 This mirrors A.6.5: a SlotKind without ValueKind/RefMode is underspecified; a baseRelation without its vocabulary entry is equally underspecified.
 
@@ -160,7 +163,7 @@ Authors SHALL NOT use passive/umbrella voice (“X is anchored/grounded/attached
 
 **Carve-outs (pattern-defined primitives).** This red-flag rule does **not** ban uses where “anchoring” is already a *pattern-defined primitive* elsewhere in the spec, such as E.10 MG-DA token-to-described-entity anchoring or A.10 evidence anchors. It still acts as a review trigger: confirm you are using the reserved sense, not smuggling a basedness meaning.
 
-**Naming guard for baseRelation tokens.** Do not mint new baseRelation tokens whose head noun is a metaphor (`Anchor*`, `Ground*`, `Attach*`). If you are tempted to do so, you either (i) have not named the relation kind yet, or (ii) are introducing a legacy alias that must map onto an existing, more specific relation family.
+**Naming guard for baseRelation tokens.** Do not mint new baseRelation tokens whose head noun is a metaphor (`Anchor*`, `Ground*`, `Attach*`). If you are tempted to do so, you either (i) have not named the relation kind yet, or (ii) are introducing a legacy alias that must map onto an existing, more specific relation token.
 
 Instead:
 1) Name the **BaseRelation token** (declared vocabulary element), and
@@ -194,13 +197,13 @@ These names denote **semantic change classes**. In decision/publication lanes, i
 
 **Relation to A.6.5 slot operations (non-normative mapping).** These are *semantic change classes*; an implementation may realise them using A.6.5 slot operations on the SWBD record fields. Example: a **rebase** may be implemented as a `retarget` of `baseRef` on a *new* SWBD edition. The point of A.6.6 is that “we retargeted a ref” is not the semantic story; “we rebased the declaration” is.
 
-**Relation to E.18 assurance ops (informative).** On `U.Transfer`, the allowed ops (`ConstrainTo/CalibrateTo/CiteEvidence/AttributeTo`) can be viewed as Context-approved specialisations of `declareBase/rescope/rebase/refreshWitnesses` for specific baseRelation families, with stricter declared constraints and lintability.
+**Relation to E.18 assurance ops (informative).** On `U.Transfer`, the allowed ops (`ConstrainTo/CalibrateTo/CiteEvidence/AttributeTo`) can be viewed as Context-approved specialisations of `declareBase/rescope/rebase/refreshWitnesses` for specific declared `baseRelation` readings, with stricter declared constraints and lintability.
 
 #### A.6.6:4.7 - Disambiguation guide for selecting a baseRelation
 
-When a draft uses an umbrella phrase (“anchored”, “attached”, “grounded”), replace it by selecting a baseRelation family:
+When a draft uses an umbrella phrase (“anchored”, “attached”, “grounded”), replace it by selecting a declared `baseRelation` reading:
 
-| Colloquial intent | BaseRelation family (illustrative) | Dependent | Base | Typical witnesses |
+| Colloquial intent | Declared `baseRelation` reading (illustrative) | Dependent | Base | Typical witnesses |
 | --- | --- | --- | --- | --- |
 | “This ID refers to that thing” | **Identification / indexing** (`identifies`, `indexedBy`, `registeredIn`) | entity-ref / slot-content | identifier / registry entry | issuance record, registry pin |
 | “Make measurements comparable” | **Calibration and datum** (`calibratedTo`, `datumOf`, `normalisedTo`) | instrument, model, or output | standard or datum | calibration work plus certificate pin |
@@ -213,5 +216,39 @@ When a draft uses an umbrella phrase (“anchored”, “attached”, “grounde
 
 This table is illustrative; the discipline requirement is that the chosen baseRelation be explicit, declared, and relation-specific. The “Meaning lane” row is included only as a **do-not-model-with-SWBD** reminder.
 
-*Note.* The `viewedVia` / `retargetedAlong` families are defined by the A.6.3/A.6.4 viewing/retargeting operators; this table only classifies them as “relative-to-base” cases.
+*Note.* The `viewedVia` / `retargetedAlong` operators are defined by the A.6.3/A.6.4 viewing/retargeting patterns; this table only classifies them as “relative-to-base” cases.
+
+#### A.6.6:4.7a - Support wording selection test
+
+When a draft uses `support`, `supported by`, `supporting`, `support basis`, `support relation`, or a support-headed compound, do not first choose a nicer synonym. First decide whether the phrase is a based declaration.
+
+A support phrase is governed by A.6.6 only when all of the following can be stated:
+
+```text
+dependent:
+base:
+baseRelation:
+scope:
+Γ_time?, if time matters:
+witnesses?, if decision/publication/admissibility use is live:
+admissibleUse:
+nonAdmissibleUse:
+```
+
+If these fields can be stated, rewrite the phrase as `baseRelation(dependent, base)` or `dependent --baseRelation--> base` and use an SWBD or a Context-local SWBD specialization. Examples include `validatedBy(claim, evidenceCarrier)`, `calibratedTo(measurementOutput, standard)`, `normalisedTo(metric, datum)`, `attributedTo(propertyClaim, describedObject)`, `aboutEntity(description, describedEntity)`, and `permittedUnder(workStep, policy)`.
+
+If these fields cannot be stated, do not create a `SupportRelation`, `SupportBasis`, `SupportRecord`, or local support-headed type. Classify by reading and apply the matching ontology:
+
+| Support wording means... | Governing ontology to apply |
+| --- | --- |
+| a source, model, diagram, publication, or view describes or exposes something | source-description / D/S / publication patterns (`A.7`, `A.6.3`, `E.17`, local source rules) |
+| an observation, test, proof, role, or carrier bears on a claim | evidence patterns (`A.10`, `A.2.4`, `G.6`) |
+| a claim is acceptable in an assurance or trust calculus | assurance patterns (`B.3`) plus exact evidence ontology when evidence is live |
+| a causal, intervention, counterfactual, off-policy, or simulation-only use is admissible | causal-use pattern (`C.28`) |
+| a mathematical lens, mapping, or model makes a use admissible or exposes preserved/lost structure | mathematical-lens patterns (`C.29`, `C.26`, `F.9`) |
+| a metric, score, threshold, benchmark, or characteristic warrants a comparison | measurement/characteristic/comparison patterns (`C.16`, `C.25`, `G.9`) |
+| one thing helps work, enables an action, supplies a resource, or makes operation easier | work/resource/action patterns (`A.15`, `A.15.4`, `A.6.A`, `C.11`) or ordinary Plain help |
+| one file, section, index, packet, or companion helps a reader find or inspect another item | publication/navigation patterns (`E.17`, `J.4`) or ordinary orientation |
+
+This test prevents support wording from becoming either a source-relation bucket or a basis bucket. A.6.6 governs only the support cases that are genuinely base-relative.
 

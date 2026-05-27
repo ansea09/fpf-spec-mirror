@@ -6,12 +6,12 @@ section_id: "C.29:13a"
 section_title: "Source locators and source-basis guard"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__016_source-locators-and-source-basis-guard.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:13a — Source locators and source-basis guard"
-line_start: 49978
-line_end: 50048
+line_start: 50663
+line_end: 50733
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,12 +28,12 @@ dependencies:
   - "C.16"
   - "C.18.1"
   - "C.19.1"
+  - "C.2.P"
   - "C.26"
   - "C.27"
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
@@ -69,7 +69,7 @@ SoTA materials are not nameless background. Exact substantive basis and governin
 
 | Basis id | Basis item | What it contributes | Use posture in `C.29` |
 |---|---|---|---|
-| `FPF-CORE-2026` | Current FPF Core Specification, especially `E.9`, `E.10`, `E.10.SEMIO`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `A.15.1`, `A.15.4`, `B.3`, `C.11`, `C.16`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `G.5`, `G.9`. | Governs `C.29` adequacy, lexical/semantic repair, pattern placement, bridge discipline, decision/work/evidence/assurance/explanation/comparison/representation boundaries, state/measurement/dynamics/temporal boundaries, causal-use boundary, and evidence/assurance escalation. | **Governing inheritance.** `C.29` applications satisfy E.9 and phrase-local semio material through E.10.SEMIO. |
+| `FPF-CORE-2026` | Current FPF Core Specification, especially `E.9`, `E.10`, `C.2.P`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `A.15.1`, `A.15.4`, `B.3`, `C.11`, `C.16`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `G.5`, `G.9`. | Governs `C.29` adequacy, lexical/epistemic precision repair, pattern placement, bridge discipline, decision/work/evidence/assurance/explanation/comparison/representation boundaries, state/measurement/dynamics/temporal boundaries, causal-use boundary, and evidence/assurance escalation. | **Governing inheritance.** `C.29` applications satisfy E.9 and phrase-local episteme/publication/source-transfer material through C.2.P. |
 | `SAND-THREAD-MATH-LINKS-2026-05-12` | Accessible mirror of Sandberg thread, lines headed “Math,” linking to the original X post. | Recognition examples of structural sameness: generalized Stokes, CLT/RG/fixed-point reading, Lawvere-style diagonal family, Noether, Legendre transforms. | **Adopt as recognition cue and examples, not proof authority.** Direct X content was not treated as a formal source. |
 | `VAN-SELF-LEARNING-2026` | Vitaly Vanchurin, **The Self-Learning Universe**, ResearchGate preprint page, May 2026, DOI `10.13140/RG.2.2.17023.16808`. | Candidate lens family: resource-constrained distributed learning → coarse-graining → effective geometry, gauge fields, metric-tensor fields, or distance-like structure → thermodynamic/variational optimality. | **Adapt, not adopt.** Use as SoTA-echo / candidate lens; do not accept the physical claims as FPF law. |
 | `RODIN-2023` | Andrei Rodin, **One Mathematic(s) or Many? Foundations of Mathematics in Today's Mathematical Practice**, arXiv:2301.08131. | Supports plural-foundations stance and mutual-interpretability caution. | **Adopt** as support for multiple structural families checked through local adequacy, declared mapping, and recoverable loss. |

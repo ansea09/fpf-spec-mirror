@@ -6,12 +6,12 @@ section_id: "C.3.5:10"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__011_conformance-checklist-normative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:10 — Conformance Checklist (normative)"
-line_start: 38356
-line_end: 38365
+line_start: 39042
+line_end: 39051
 dependencies:
   - "C.3.1"
 keywords:

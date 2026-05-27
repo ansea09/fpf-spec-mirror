@@ -6,7 +6,7 @@ section_id: "A.2.5:9"
 section_title: "Interaction with role algebra (≤, ⊥, ⊗) and refinement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__010_interaction-with-role-algebra-and-refinement.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:9 — Interaction with role algebra (≤, ⊥, ⊗) and refinement"

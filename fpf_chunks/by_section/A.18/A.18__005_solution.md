@@ -6,12 +6,12 @@ section_id: "A.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:4 — Solution"
-line_start: 22737
-line_end: 22768
+line_start: 22805
+line_end: 22836
 dependencies:
   - "A.17"
   - "A.18"
@@ -67,7 +67,7 @@ Finally, the solution ensures **tier optionality**: If a domain uses named Level
 - One declared space does not imply that every neighboring line must use the same space.
 - Different declared spaces may coexist for the same family when they answer different comparison questions, but the active one must stay recoverable.
 - If one atlas-like reading uses several declared spaces over the same palette, front, archive, or shortlist family, say which `SpaceRef` is active in the current reading rather than letting the atlas label hide that choice.
-- If one outcome surface is materially different from one representation or search surface, keep that difference explicit rather than calling both simply `space`.
-- `OutcomeMapRef` is warranted only when the text needs one declared map from the current set surface into one outcome or effect surface.
-- When `OutcomeMapRef` is cited for one atlas-like or cross-scale reading, keep the source set surface and the projected outcome surface visible together so the map stays support for the view rather than a replacement default.
+- If one outcome-side declared space/ref is materially different from one representation-side or search-side declared space/ref, keep that difference explicit rather than calling both simply `space`.
+- `OutcomeMapRef` is warranted only when the text needs one declared map from the current set result into one outcome-side or effect-side declared space/ref.
+- When `OutcomeMapRef` is cited for one atlas-like or cross-scale reading, keep the source set result and the projected outcome-side declared space/ref visible together so the map stays support for the view rather than a replacement default.
 

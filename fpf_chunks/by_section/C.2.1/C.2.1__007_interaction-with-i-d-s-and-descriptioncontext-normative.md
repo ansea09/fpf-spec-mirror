@@ -6,12 +6,12 @@ section_id: "C.2.1:6"
 section_title: "Interaction with I/D/S and DescriptionContext  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__007_interaction-with-i-d-s-and-descriptioncontext-normative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:6 — Interaction with I/D/S and DescriptionContext  (normative)"
-line_start: 34265
-line_end: 34311
+line_start: 34321
+line_end: 34367
 dependencies:
   - "A.1"
   - "A.6.2"

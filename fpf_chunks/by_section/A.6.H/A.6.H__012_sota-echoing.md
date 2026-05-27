@@ -6,12 +6,12 @@ section_id: "A.6.H:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__012_sota-echoing.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:11 — SoTA-Echoing"
-line_start: 18011
-line_end: 18027
+line_start: 18083
+line_end: 18099
 dependencies:
   - "A.14"
   - "A.15"
@@ -38,7 +38,7 @@ keywords:
 
 SoTA-Pack: Viewpoint discipline + relation typing + boundary-aware responsibility (lexically enforced).
 
-This section follows the required craft: claim → practice → source → alignment → adoption status.
+This section follows the required structure: claim → practice → source → alignment → adoption status.
 
 | Tradition                                     | SoTA practice (post‑2015)                                                                                                                                                              | Primary source (post‑2015)                       | Alignment with this pattern                                                                                                                                                                           | Adoption status                                                                                                       |
 | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |

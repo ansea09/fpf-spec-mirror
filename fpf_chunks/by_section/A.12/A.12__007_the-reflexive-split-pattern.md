@@ -6,12 +6,12 @@ section_id: "A.12:4.2"
 section_title: "The Reflexive Split Pattern"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__007_the-reflexive-split-pattern.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:4.2 — The Reflexive Split Pattern"
-line_start: 19313
-line_end: 19333
+line_start: 19384
+line_end: 19404
 dependencies:
   - "A.3"
   - "B.2.5"

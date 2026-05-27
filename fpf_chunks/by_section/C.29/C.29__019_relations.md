@@ -6,12 +6,12 @@ section_id: "C.29:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__019_relations.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:15 — Relations"
-line_start: 50077
-line_end: 50088
+line_start: 50762
+line_end: 50773
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,12 +28,12 @@ dependencies:
   - "C.16"
   - "C.18.1"
   - "C.19.1"
+  - "C.2.P"
   - "C.26"
   - "C.27"
   - "C.28"
   - "C.29"
   - "E.10"
-  - "E.10.SEMIO"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
@@ -64,7 +64,7 @@ keywords:
 ### C.29:15 - Relations
 
 - **Builds on:** `A.1.1`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `B.3`, `C.16`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`.
-- **Constrained by:** `E.8`, `E.10`, `E.10.SEMIO`, `E.19`.
+- **Constrained by:** `E.8`, `E.10`, `C.2.P`, `E.19`.
 - **Decision basis:** `E.9` design-rationale discipline and the source-basis rows in `C.29:13a`.
 - **Supports:** `E.2` pillar-impact analysis when a pillar argument relies on mathematical first-principles structure; only lens adequacy is in scope, with no amendment to pillar content, priority, or constitutional authority.
 

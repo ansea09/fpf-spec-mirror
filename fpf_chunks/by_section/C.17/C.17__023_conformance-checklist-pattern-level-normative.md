@@ -6,12 +6,12 @@ section_id: "C.17:20"
 section_title: "Conformance Checklist (pattern‑level, normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__023_conformance-checklist-pattern-level-normative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:20 — Conformance Checklist (pattern‑level, normative)"
-line_start: 41060
-line_end: 41100
+line_start: 41746
+line_end: 41786
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,7 +63,7 @@ Each CS dimension **SHALL** be a named **Characteristic** per **MM‑CHR**, with
 A **Profile** is a *state description over characteristics* (what the option *is* in CS); a **Plan** or **Method** is *how you will act*. Never encode choices or schedules into the profile.
 
 **CC‑C17‑4 (Portfolio / retained-set view = set + rule).**
-A **Portfolio** or retained-set view is a declared set of candidate profiles **plus** a selection or retention rule (objective + constraints) declared *in the same Context*. It is not a synonym for `Palette`, `Front`, `Archive`, `Shortlist`, or `RankedShortlist`; use the specific set-surface head when that head is recoverable. Presenting only a scatterplot is non‑conformant.
+A **Portfolio** or retained-set view is a declared set of candidate profiles **plus** a selection or retention rule (objective + constraints) declared *in the same Context*. It is not a synonym for `Palette`, `Front`, `Archive`, `Shortlist`, or `RankedShortlist`; use the specific set-result family head when that head is recoverable. Presenting only a scatterplot is non‑conformant.
 
 **CC‑C17‑5 (Dominance operator well‑typed).**
 A dominance claim **MUST** name the **characteristic subset and polarity** under which it is evaluated. Dominance on incomparable scales (or mixed polarities without explicit transformation) is invalid.

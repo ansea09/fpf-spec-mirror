@@ -6,12 +6,12 @@ section_id: "A.22:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__011_rationale.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:10 — Rationale"
-line_start: 28546
-line_end: 28553
+line_start: 28602
+line_end: 28609
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -38,7 +39,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -47,7 +47,7 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture support"
+  - "architecture-description claim"
   - "preserved/lost structure"
   - "selected structure"
   - "source return"
@@ -58,9 +58,9 @@ keywords:
 
 ### A.22:10 - Rationale
 
-FPF needs one general structure carrier because many useful project claims depend on organization before they depend on a specific architecture, mathematical, measurement, or publication pattern. The carrier has to be intensional, dependent, and non-agentive: it can be described, supported, compared, coarsened, extracted, or used by architecture, but it does not act or certify.
+FPF needs one general structure carrier because many useful project claims depend on organization before they depend on a specific architecture, mathematical, measurement, or publication pattern. The carrier has to be intensional, dependent, and non-agentive: it can be described, sourced, compared, coarsened, extracted, or used by architecture, but it does not act or certify.
 
-The selected design keeps A.22 small enough for first use. A practitioner can write one `StructureQuestionCard@Project` and stop. Heavier D/S, support, extraction, and source-return records open only when the next use would otherwise hide loss, source dependence, or neighboring-pattern claim kind.
+The selected design keeps A.22 small enough for first use. A practitioner can write one `StructureQuestionCard@Project` and stop. Heavier D/S, A.6.6 base-dependence, extraction, lens, evidence, and source-return records open only when the next use would otherwise hide loss, source dependence, or non-structure claim kind.
 
 The reason to keep C.30 separate is architectural clarity. Architecture is selected structure for a described holon under context and concern; architecture descriptions are D/S publications over that claim. A.22 supplies the structure substrate, not the architecture ontology.
 

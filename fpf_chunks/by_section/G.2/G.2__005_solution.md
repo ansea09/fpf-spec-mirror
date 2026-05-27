@@ -6,15 +6,15 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:4 — Solution"
-line_start: 73322
-line_end: 73632
+line_start: 73532
+line_end: 73842
 dependencies:
   - "A.10"
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
   - "B.3"
   - "C.18"
@@ -36,7 +36,7 @@ dependencies:
   - "G.Core"
 keywords:
   - "BridgeMatrix"
-  - "CrossSurfaceAtlasView"
+  - "DeclaredSubstrateAtlasView"
   - "FlowRecord"
   - "GammaEpistSynthId"
   - "SoTA Synthesis Pack@CG-Frame"
@@ -340,23 +340,23 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 - When comparison or retention needs richer geometry or atlas language, treat that as support for the derivation rather than as the default meaning of the palette.
 - A reader should be able to say both `this is the palette` and `this is the derived tradition view currently being shown` without collapsing those two objects.
 
-#### G.2:4.7 - Atlas views stay optional neighboring support over one declared palette and declared set surfaces
+#### G.2:4.7 - Atlas views stay optional neighboring interpretation over one declared palette and declared set results
 
-- `TraditionAtlasView` is one declared optional neighboring support view over one palette and any declared front, archive, or shortlist surfaces drawn from it, while the cited substrate-bearing line, the active source surface or active set surface, and any cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs remain recoverable.
-- `TraditionAtlasView` is the `G.2` use-site specialization of `CrossSurfaceAtlasView`; keep the generic support view declaration in `A.19.SUPPORT-VIEW`.
+- `TraditionAtlasView` is one declared optional neighboring interpretive view over one palette and any declared front, archive, or shortlist surfaces drawn from it, while the cited substrate-bearing line, the active source set or active set result, and any cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs remain recoverable.
+- `TraditionAtlasView` is the `G.2` use-site specialization of `DeclaredSubstrateAtlasView`; keep the generic interpretive-view declaration in `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`.
 - It is not the default meaning of `Tradition` or `SoTAPaletteDescription`.
 - Stay palette-first when the harvest or synthesis question can already be judged from the declared palette together with ordinary front, archive, or shortlist surfaces.
-- Use `TraditionAtlasView` only when the reader must hold several declared derived views or support qualifiers together to see why one tradition grouping, omission risk, or comparison boundary matters.
-- A conforming `TraditionAtlasView` must keep the same atlas-support declaration that `A.19.SUPPORT-VIEW` requires by value: recoverable base palette, active source surface or active set surface, `TypedSetViews` when several declared set views are held together, cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs, cited mappings such as `OutcomeMapRef`, cited qualifiers such as `SpaceMetricRef`, `TransitionSupportRef`, and `BridgeDistortionNote`, and one explicit reason why thinner `CrossSurfaceSupportView` is insufficient here.
+- Use `TraditionAtlasView` only when the reader must hold several declared derived views or interpretive qualifiers together to see why one tradition grouping, omission risk, or comparison boundary matters.
+- A conforming `TraditionAtlasView` must keep the same atlas-form interpretation declaration that `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` requires by value: recoverable base palette, active source set or active set result, `TypedSetViews` when several declared set views are held together, cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs, cited declared map refs such as `OutcomeMapRef`, cited qualifiers such as `SpaceMetricRef`, `TransitionRelationRef`, and `BridgeDistortionNote`, and one explicit reason why thinner `DeclaredSubstrateInterpretiveView` is insufficient here.
 - It may help explain where one tradition, method family, or retained line sits relative to another, but it should not silently redefine the base palette or one derived front view or archive view.
-- If one atlas view uses several typed views over the same source surface, keep the active set surface, any cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space ref, and any `BridgeDistortionNote` recoverable instead of letting `TraditionAtlasView` hide those choices.
-- Treat the atlas layer as optional neighboring support, not as ordinary palette-first core. Use `SpaceMetricRef` or `TransitionSupportRef` only when one declared comparison, reachability, transition, or cross-scale state-change claim actually depends on that formal support; otherwise leave them unstated.
-- Use `OutcomeMapRef` only when the atlas must show how one declared set surface maps into one outcome or effect surface; it does not turn the palette, front, archive, or shortlist into that outcome surface.
+- If one atlas view uses several typed views over the same source set, keep the active set result, any cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space ref, and any `BridgeDistortionNote` recoverable instead of letting `TraditionAtlasView` hide those choices.
+- Treat the atlas layer as optional neighboring interpretation, not as ordinary palette-first core. Use `SpaceMetricRef` or `TransitionRelationRef` only when one declared comparison, reachability, transition, or cross-scale state-change claim actually depends on that formal support; otherwise leave them unstated.
+- Use `OutcomeMapRef` only when the atlas must show how one declared set result maps into one outcome-side or effect-side declared space/ref; it does not turn the palette, front, archive, or shortlist into that outcome-side declared space/ref.
 - If one atlas reading would materially change the base source-to-outcome relation or distortion posture, reopen the substrate declaration instead of treating that change as one local `G.2` convenience.
-- If one thinner `CrossSurfaceSupportView` already keeps the question legible, prefer that thinner support form and leave atlas specialization unused.
+- If one thinner `DeclaredSubstrateInterpretiveView` already keeps the question legible, prefer that thinner interpretation form and leave atlas specialization unused.
 - `SearchSpaceRef` and `OutcomeSpaceRef` doctrine, transition-aware novelty, metric-transfer loss, and cross-scale geometry belong to a heavier formal layer: keep them outside ordinary palette-first use unless the current comparison, reachability, transition, or multilevel claim explicitly needs them, and do not pull them in merely because one richer comparative reading is mathematically available.
 - If no declared atlas view is needed, stay with the simpler palette-first and declared-derived-view surfaces.
 - Different atlas views may rely on different declared spaces, metrics, bridges, or transition supports; keep that plurality visible rather than forcing one geometry monoculture across every neighboring view.
 - If several mathematical traditions remain plausible, keep that plurality visible rather than pretending the atlas already fixes one final formalism.
-- If the question is naming-side only, use `F.18` for that wording choice rather than letting atlas support language carry the naming decision by itself.
+- If the question is naming-side only, use `F.18` for that wording choice rather than letting atlas-form interpretation language carry the naming decision by itself.
 

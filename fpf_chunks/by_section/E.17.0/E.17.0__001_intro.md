@@ -6,12 +6,12 @@ section_id: "E.17.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:intro — Intro"
-line_start: 58225
-line_end: 58242
+line_start: 58440
+line_end: 58457
 dependencies:
   - "A.6.2"
   - "A.6.3"

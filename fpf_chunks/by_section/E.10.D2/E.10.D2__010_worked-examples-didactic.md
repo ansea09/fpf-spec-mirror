@@ -6,12 +6,12 @@ section_id: "E.10.D2:9"
 section_title: "Worked examples (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__010_worked-examples-didactic.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:9 — Worked examples (didactic)"
-line_start: 56534
-line_end: 56625
+line_start: 56751
+line_end: 56842
 dependencies:
   - "A.7"
   - "C.2.1"

@@ -6,16 +6,16 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.18.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
-line_start: 71219
-line_end: 72054
+line_start: 71424
+line_end: 72265
 dependencies:
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "F.0.1"
   - "F.1-F.17"
   - "G.10"
@@ -31,7 +31,7 @@ keywords:
 
 Use `F.18` when a name must become stable and reusable across one local context, a concept set, a bridge, or a durable FPF/publication vocabulary. Use it when the issue is not merely one overloaded local phrase, but a name that must carry context, kind, local sense, use-domain, bridge posture, and lineage without smuggling global sameness.
 
-**First useful move.** Ask whether the live work is durable naming. If yes, make the name local-first by naming its context, kind, purpose/use-domain, local sense, and bridge posture. If no, use the lighter exact pattern: local phrase repair under `E.10` or `E.10.SEMIO`, relation precision under `A.6.P`, or the domain pattern that governs the named object.
+**First useful move.** Ask whether the live work is durable naming. If yes, make the name local-first by naming its context, kind, purpose/use-domain, local sense, and bridge posture. If no, use the lighter exact pattern: local phrase repair under `E.10` or `C.2.P`, relation precision under `A.6.P`, or the domain pattern that governs the named object.
 
 **Cheap stop.** If the wording is one-off local repair and does not create a reusable name, stop after the exact local repair. Do not open a full Name Card, mint a new head, or create lineage entries just because a phrase was clarified.
 
@@ -172,14 +172,14 @@ This is especially useful when one head already appears in more than one admissi
 When naming work touches the discoverability amendment, `PCP-TERM` plus `F.18`
 and `A.6.P` must settle the durable heads used here, including
 `pattern-entry discoverability`, `description recognition signature`,
-`entry orientation`, `entry lexeme support`, `worked entry reading`,
+`entry orientation`, `entry lexeme retrieval aid`, `worked entry reading`,
 `Problem-frame recognition signature`, and `thin-echo discipline`, as part of
 the amendment itself.
 
 The amendment should therefore assign each effect to one named FPF pattern,
 pattern section, field, relation, or section of a named non-pattern FPF publication
 form with a support function. When such a non-pattern publication form is used,
-its publication form, support function, and reference must be named by value,
+its publication form, companion function, and reference must be named by value,
 and the referenced section must carry that effect. Do not let the single trigger
 word `discoverability` become one semantic swamp.
 
@@ -192,9 +192,9 @@ The canonical settlement table for this amendment is:
 | `description recognition signature` | first-contact cue structure of one description-bearing unit | `A.6.RSIG` | `discoverability of descriptions` |
 | `recognition text` | existing first reading text inside one pattern | `E.8` | invented `discoverability surface` |
 | `entry neighborhood` | entry-load-oriented grouping of plausible patterns, tempting wrong patterns, entry-load reclassifications, and admissible stops | `E.11`; `J.4` only when the entry grouping is a pattern-language map | `route` |
-| `entry lexeme support` | lexical and query support without alias minting | `F.17`, `F.18`, and `E.10`, coordinated by `E.11` | `lexical discoverability`, bare `search support` |
+| `entry lexeme retrieval aid` | lexical and query retrieval aid without alias minting | `F.17`, `F.18`, and `E.10`, coordinated by `E.11` | `lexical discoverability`, bare `search support` |
 | `worked entry reading` | bounded interpretive case reading | `I.2` | `workflow`, `scenario script`, `route` |
-| `thin echo` | low-detail projection pointer to the cited pattern, cited pattern section, field, relation, or section of a named non-pattern FPF publication form; the pointer makes the publication form, support function, and reference recoverable, and the referenced section carries the claim | `E.11` | duplicated guidance, parallel blurbs |
+| `thin echo` | low-detail projection pointer to the cited pattern, cited pattern section, field, relation, or section of a named non-pattern FPF publication form; the pointer makes the publication form, companion function, and reference recoverable, and the referenced section carries the claim | `E.11` | duplicated guidance, parallel blurbs |
 
 One canonical term per job is the settled target of this amendment.
 Deprecated wording may remain only as plain search cues or explicit deprecated-alias guards while the wording is being repaired by value.
@@ -231,7 +231,7 @@ To prevent “post-hoc justification” of intuitively chosen labels, every **Na
 For all **Core-facing naming of U.Types and other canonical FPF concepts**, **MintNew** is the **default** CardMode; using
 DocumentLegacy for such names requires an explicit justification on the Card.
 
-For one-off local phrase repair, no Name Card mode is live. Use `E.10`, `E.10.SEMIO`, or `E.17.AUD.LHR`, and record the repaired phrase only where the local repair pattern requires it. Open a Name Card only when the repair mints or changes one durable reusable name, UTS row, Core-facing term, or cross-context naming relation.
+For one-off local phrase repair, no Name Card mode is live. Use `E.10`, `C.2.P`, or `E.17.AUD.LHR`, and record the repaired phrase only where the local repair pattern requires it. Open a Name Card only when the repair mints or changes one durable reusable name, UTS row, Core-facing term, or cross-context naming relation.
 
 A **Name Card** is the authoritative, human‑readable record of a name inside its Context. It has these fields; teams may add local notes.
 
@@ -466,13 +466,20 @@ Disputes often orbit the string (“we hate that word”). By separating **sense
 * Where overlap exists with another context, propose an **alignment bridge**.
 * Keep your stewardship Context; record the mapping and any known divergence in reading.
 
-**11.5a Keep support-view labels subordinate to the base candidate set or family.**
+**11.5a Test the replacement candidate against umbrella drift.**
+
+* Before replacing an overloaded head, apply the `E.10:0.2` replacement-candidate anti-umbrella rule. Then run the candidate head through the same local-first naming test: governed object, FPF kind or local field, relation/function if live, admissible use, neighboring exclusions, and example fit.
+* Do not approve a candidate merely because it avoids the old bad word. The replacement is acceptable only when the exact FPF kind or local field is defined by value and the current use names its boundaries.
+* If the candidate still hides several possible kinds, keep a candidate-set note and do not mint, rename, or land the term yet.
+
+**11.5b Keep interpretive-view labels subordinate to the base candidate set or family.**
 
 * When a naming pass talks about one palette, front, archive, shortlist, or candidate set, keep that base candidate set or family recoverable on the Name Card.
-* Use thinner support-view wording when the pressure is local comparison across candidate labels, sense-seeds, rejected candidates, or guarded-head notes.
+* Use thinner interpretive-view wording when the pressure is local comparison across candidate labels, sense-seeds, rejected candidates, or guarded-head notes.
 * Use atlas wording only when the naming explanation truly depends on several declared views, spaces, mappings, or distortion qualifiers being visible together, for example one cited `OutcomeMapRef` plus a `BridgeDistortionNote`.
-* Those cited spaces or qualifiers stay naming-side reuse of already-declared substrate support; they do not let naming passages mint one new source-to-outcome relation or one new publication posture locally.
+* Those cited spaces or qualifiers stay naming-side reuse of already-declared substrate qualifiers; they do not let naming passages mint one new source-to-outcome relation or one new publication posture locally.
 * A guarded-head note remains naming governance: it can explain why one head word misleads across admissible readings, but it does not decide substrate stewardship or publication policy.
+
 **11.6 Publish and steward.**
 
 * Publish the name with MDS, subtitle, dependency stratum, stewardship contact, examples.
@@ -514,10 +521,10 @@ Disputes often orbit the string (“we hate that word”). By separating **sense
 * *Stewardship Context H (Quality)* mints **Lot**: “An integrated whole packaged and tracked as one item.” **Structural whole**.
 * **Unification:** Bridge notes: “A **Lot** may originate from a single **Batch** or a slice of a Batch; not every Batch yields a single Lot.” Relation mapping: **MemberOf** (Batch membership) vs **ComponentOf**/**Whole** (Lot integration). *Loss note:* membership evidence does **not** imply part‑whole structure; part‑whole structure does **not** imply shared production conditions.
 
-**12.5 “Palette label” vs “Atlas label” (NQD/OEE naming support).**
+**12.5 “Palette label” vs “Atlas label” (NQD/OEE naming-side interpretation).**
 
-* A naming pass compares candidate labels over one active palette and shortlist. The card keeps the active palette recoverable and uses thinner support-view wording, because the question is only which label best fits the current candidate spread.
-* Later, the same naming discussion must explain why one label misleads unless the reader can see the palette together with a derived archive, an `OutcomeMapRef`, and one `BridgeDistortionNote`. In that case atlas wording is allowed, but the card still names the base palette and records that the atlas is only optional support for the naming explanation.
+* A naming pass compares candidate labels over one active palette and shortlist. The card keeps the active palette recoverable and uses thinner interpretive-view wording, because the question is only which label best fits the current candidate spread.
+* Later, the same naming discussion must explain why one label misleads unless the reader can see the palette together with a derived archive, an `OutcomeMapRef`, and one `BridgeDistortionNote`. In that case atlas wording is allowed, but the card still names the base palette and records that the atlas is only optional interpretive help for the naming explanation.
 * In both cases, guarded-head notes stay on the naming side: they explain alias risk or mismatch patterns, not who stewards the substrate or which publication face is authoritative.
 ### F.18:13 - Anti‑Patterns & Failure Modes (what to avoid)
 
@@ -540,7 +547,7 @@ Defining a name by appealing to another Draft at the same dependency stratum or 
 Letting a Plain label or alias accumulate extra meanings absent in the underlying row. **Fix:** periodic label review; prune metaphors that start bending sense; respect the alias budget.
 
 **13.7 “Atlas label does substrate work.”**
-Letting atlas or support-view language quietly replace the base candidate set or family or decide substrate stewardship or publication policy. **Fix:** keep the base palette, front, archive, or shortlist recoverable, use atlas wording only when several declared views or qualifiers are jointly load-bearing for the naming explanation, and move substrate questions and publication questions to the pattern sections that govern those objects.
+Letting atlas or interpretive-view language quietly replace the base candidate set or family or decide substrate stewardship or publication policy. **Fix:** keep the base palette, front, archive, or shortlist recoverable, use atlas wording only when several declared views or qualifiers are jointly load-bearing for the naming explanation, and move substrate questions and publication questions to the pattern sections that govern those objects.
 ### F.18:14 - Assurance & Conformance (human‑only checks)
 
 #### F.18:14.1 - Author checklist (before requesting review).
@@ -552,7 +559,7 @@ Letting atlas or support-view language quietly replace the base candidate set or
 * [ ] I surveyed near‑neighbors and recorded my decision to align, merge, or keep separate.
 * [ ] I produced both **Unified Tech** and **Plain** labels (per E.10), with the same sense and pointing to the same **Row ID**.
 * [ ] Dependencies point **only downward**; no sideways or upward pulls.
-* [ ] If I used support-view or atlas wording, the Name Card still names the base palette, front, archive, shortlist, or candidate set and states why thinner support wording did or did not suffice.
+* [ ] If I used interpretive-view or atlas wording, the Name Card still names the base palette, front, archive, shortlist, or candidate set and states why thinner interpretive wording did or did not suffice.
 * [ ] I scheduled a **refresh date** and listed 2–3 usage examples.
 
 #### F.18:14.2 - Reviewer checklist (at the gate).**
@@ -564,7 +571,7 @@ Letting atlas or support-view language quietly replace the base candidate set or
 * [ ] Alignment bridges are proposed where overlap exists, with explicit reading of convergence/divergence.
 * [ ] The dependency-stratum discipline holds: acyclic, downward-only dependencies.
 * [ ] The **Plain** label does not smuggle extra commitments; **Unified Tech** and **Plain** remain co‑referential and point to the same **Row ID**.
-* [ ] Support-view or atlas wording, if present, leaves the base candidate set or family recoverable and does not smuggle substrate or publication decisions into a naming note.
+* [ ] Interpretive-view or atlas wording, if present, leaves the base candidate set or family recoverable and does not smuggle substrate or publication decisions into a naming note.
 * [ ] Name-lineage state is accurate (Idea, Draft, Pilot, Ratified, or Deprecated) and dated.
 
 #### F.18:14.3 - Lightweight outcomes.**
@@ -619,8 +626,8 @@ Every Name Card **SHALL** declare its `CardMode ∈ {MintNew, DocumentLegacy}`. 
 **CC-F18-17 (Procedure is not optional in MintNew mode).**
 A **MintNew** Name Card is **non-conformant** if it records only the chosen label, Kind, and a short rationale while omitting the seed candidate set, the NQD-front, the sense-seed read-through, or the mismatch patterns that justify the final choice. A card filled in after an intuition-first label pick does **not** satisfy F.18.
 
-**CC-F18-18 (Support-view labels keep their base candidate set or family).**
-When a Name Card or worked naming note uses support-view or atlas wording, it **SHALL** keep the base palette, front, archive, shortlist, or candidate set recoverable, **SHALL** use atlas wording only when several declared views, spaces, mappings, or qualifiers are jointly load-bearing for the naming explanation, and **SHALL NOT** let guarded-head notes stand in for substrate stewardship or publication policy decisions.
+**CC-F18-18 (Interpretive-view labels keep their base candidate set or family).**
+When a Name Card or worked naming note uses interpretive-view or atlas wording, it **SHALL** keep the base palette, front, archive, shortlist, or candidate set recoverable, **SHALL** use atlas wording only when several declared views, spaces, mappings, or qualifiers are jointly load-bearing for the naming explanation, and **SHALL NOT** let guarded-head notes stand in for substrate stewardship or publication policy decisions.
 ### F.18:16 - Anti‑patterns & safe rewrites (normative)
 
 > Each item names a **speaking error** and a **local‑first repair**. Use this as an author’s lint pass before proposing a unified name.
@@ -840,7 +847,7 @@ Example 2 (§F.18:18.2) shows one naming instantiation of this unpacking.
 
 F.18 is local-first, kind-bound, and context-bound naming discipline. Its SoTA support must not make ordinary naming look mathematically certified. Mathematical and search traditions are admitted only when they make the Name Card more reviewable for the current naming problem.
 
-* **Terminology work, especially ISO 704:2022 and ISO 1087:2019.** This is the direct practice support for term formation, designation, definition, and concept discipline. F.18 adopts the requirement that a reusable name must keep its kind, context, intended use, and definition recoverable, while rejecting dictionary substitution and global vocabulary rows as sufficient naming work.
+* **Terminology work, especially ISO 704:2022 and ISO 1087:2019.** This is the direct practice basis for term formation, designation, definition, and concept discipline. F.18 adopts the requirement that a reusable name must keep its kind, context, intended use, and definition recoverable, while rejecting dictionary substitution and global vocabulary rows as sufficient naming work.
 * **Word-sense disambiguation and sense evaluation.** P2's sense-seed read-through is a human-scale analogy: test a candidate name against several intended-use situations and record error patterns. WSD does not prove that a Name Card must use `theta_P`, sense-seed thresholds, or any particular numeric cut-off. Those remain FPF authoring choices that are admissible only when they improve local reviewability.
 * **Quality-diversity and multi-objective search, including MAP-Elites and NSGA-II families.** P1's NQD-front and **CC-F18-13** adapt the design-space lesson: keep several diverse good candidates visible instead of collapsing too early to one scalar winner. This does not validate lexical candidate selection by itself. Pareto or frontier wording is admissible only when the lexical Q-components are explicit, inspectable, and used under the ordinal discipline of C.16.
 * **Design-space exploration and idea ranking in mechanical and industrial design.** Name-Card candidate tables may borrow the habit of comparing alternatives on several visible criteria. The practical gain is auditability of rejected candidates, not a claim that naming has become an engineering optimization problem.
@@ -858,5 +865,4 @@ All patterns that propose or consume unified names and rows in Part F; any Part 
 **A.17/A.18** for measurement lexicon when rows concern measurable notions (Characteristic/Scale/Level/Coordinate vocabulary), ensuring neutral naming aligns with canonical terms and eases external alignment via Bridges.
 
 ### F.18:End
-# Part G – Discipline SoTA Patterns Kit
 

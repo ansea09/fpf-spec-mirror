@@ -6,12 +6,12 @@ section_id: "G.12:4"
 section_title: "Solution — Compute and publish DHC series admissibly, with RSCR-ready telemetry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__005_solution-compute-and-publish-dhc-series-admissibly-with-rscr-ready-telemetry.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:4 — Solution — Compute and publish DHC series admissibly, with RSCR-ready telemetry"
-line_start: 77907
-line_end: 78199
+line_start: 78117
+line_end: 78409
 dependencies:
   - "A.19"
   - "C.18"
@@ -167,7 +167,7 @@ A3. **Pin computation methods (governed by C.21).**
 For each slot/method used to compute a time series value, record `DHCMethodSpecRef.edition` and `DHCMethodRef.edition` (table‑backed, per C.21). The dashboard series is edition‑aware: if a method spec changes, the dashboard either forks the series edition or emits telemetry and refreshes under explicit pins.
 
 A4. **Declare optional panels via Extensions only.**
-If the dashboard depends on (i) selector set-surface outputs, (ii) QD illumination / archive telemetry, (iii) open‑endedness telemetry, (iv) maturity ladder views, or (v) pack inclusion, then the relevant `GPatternExtension` block(s) in `G.12:4.9` MUST be present and their pins MUST be satisfied.
+If the dashboard depends on (i) selector set-result outputs, (ii) QD illumination / archive telemetry, (iii) open‑endedness telemetry, (iv) maturity ladder views, or (v) pack inclusion, then the relevant `GPatternExtension` block(s) in `G.12:4.9` MUST be present and their pins MUST be satisfied.
 
 **Stage B — Compute rows (run‑time; Work/Audit)**
 
@@ -213,7 +213,7 @@ Dashboards emit pins; refresh orchestration remains governed by **G.11**.
 
 **RSCRTriggerKindIds (delta):** `∅`
 
-##### `G.12:Ext.PortfolioTelemetry` — selector set-surface integration panel
+##### `G.12:Ext.PortfolioTelemetry` — selector set-result integration panel
 
 **PatternScopeId:** `G.12:Ext.PortfolioTelemetry`
 **GPatternExtensionId:** `PortfolioTelemetry`

@@ -6,12 +6,12 @@ section_id: "B.1.5:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__011_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:10 — Consequences"
-line_start: 30136
-line_end: 30150
+line_start: 30192
+line_end: 30206
 dependencies:
   - "A.12"
   - "A.14"

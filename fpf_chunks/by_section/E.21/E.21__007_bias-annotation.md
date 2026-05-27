@@ -6,19 +6,19 @@ section_id: "E.21:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__007_bias-annotation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.21 — FPF Pattern Quality Characteristic Space"
   - "E.21:6 — Bias-Annotation"
-line_start: 64683
-line_end: 64718
+line_start: 64894
+line_end: 64929
 dependencies:
   - "A.17-A.19"
   - "A.6.P"
   - "A.6.Q"
   - "C.16"
+  - "C.2.P"
   - "C.25"
-  - "E.10.SEMIO"
   - "E.11"
   - "E.17.AUD"
   - "E.19"
@@ -68,7 +68,7 @@ Lens cautions:
 |---|---|---|
 | Auditability & traceability | `PatternQualityQBundle` pins version, scope, evidence, status, and stop condition; `ClaimSupportTraceabilityCurrentnessAndReplayability` keeps support replayable when claim support is live. | Quality claims depending on chat memory, reviewer taste, or placement state. |
 | Evolvability | `QualificationWindow`, `refreshNeeded`, bounded non-use, optional telemetry, and `EvolutionFrontAndRefreshDiscipline` reopen only the live locus. | Whole-pattern churn after small source, neighbour, or wording changes. |
-| Modularity | `E.21` routes authoring, review, measurement, naming, evidence, assurance, gate, work, and release claims to exact neighbours. | Central quality subsystem or shadow authority. |
+| Modularity | `E.21` keeps authoring, review, measurement, naming, evidence, assurance, gate, work, and release claims under exact neighbouring patterns. | Central quality subsystem or shadow authority. |
 | Composability | `NeighborAuthorityAndBoundedUseFit` and relation closure keep pattern-quality claims safe to compose with neighbouring patterns. | One pattern-quality read stealing another pattern's governed object. |
 | Usability | First-pass slice checks `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, and `ActionPathGuidance` before heavy apparatus. | Type-correct but inert pattern-quality control. |
 | Affordability | `UseAffordabilityAndApparatusProportionality` and activation layers keep ordinary reads light. | Review bureaucracy masquerading as quality. |

@@ -6,12 +6,12 @@ section_id: "G.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__008_conformance-checklist-normative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:7 — Conformance Checklist (normative)"
-line_start: 74154
-line_end: 74178
+line_start: 74364
+line_end: 74388
 dependencies:
   - "A.10"
   - "A.15.3"

@@ -6,12 +6,12 @@ section_id: "C.30.ILC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__007_bias-annotation.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:6 — Bias-Annotation"
-line_start: 51994
-line_end: 52003
+line_start: 52432
+line_end: 52441
 dependencies:
   - "A.10"
   - "A.22"
@@ -43,7 +43,7 @@ keywords:
 
 * **Local-success bias.** A local improvement is treated as whole-architecture improvement. Repair by naming the wider scope and the residual.
 * **Pseudo-level bias.** `Level`, `layer`, or `scope` sounds precise but no declared scope exists. Repair through `declaredScopeRefs`.
-* **Measurement-first bias.** A residual is measured before its structure-kind and scope basis are declared. Repair by opening `C.16` or an admitted characteristic-support receiving pattern only after triage names the affected characteristic or measurement basis.
+* **Measurement-first bias.** A residual is measured before its structure-kind and scope basis are declared. Repair by opening `C.16` or an admitted characteristic/measurement receiving pattern only after triage names the affected characteristic or measurement basis.
 * **Mediation-default bias.** Every conflict is treated as stakeholder conflict. Repair by checking whether the live object is architecture structure, allocation, interface grammar, control, work/evidence scope, or source-return.
 * **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before opening `G.5` or an admitted candidate-generation receiving pattern.
 

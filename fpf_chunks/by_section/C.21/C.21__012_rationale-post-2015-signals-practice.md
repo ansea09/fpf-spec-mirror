@@ -6,12 +6,12 @@ section_id: "C.21:11"
 section_title: "Rationale (post-2015 signals & practice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__012_rationale-post-2015-signals-practice.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:11 — Rationale (post-2015 signals & practice)"
-line_start: 42150
-line_end: 42158
+line_start: 42836
+line_end: 42844
 dependencies:
   - "A.17"
   - "A.18"

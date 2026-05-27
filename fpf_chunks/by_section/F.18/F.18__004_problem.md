@@ -6,17 +6,17 @@ section_id: "F.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__004_problem.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:2 — Problem"
-line_start: 71243
-line_end: 71255
+line_start: 71448
+line_end: 71460
 dependencies:
-  - "A.19.SUPPORT-VIEW"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "C.2.P"
   - "E.10"
-  - "E.10.SEMIO"
   - "F.0.1"
   - "F.1-F.17"
   - "G.10"

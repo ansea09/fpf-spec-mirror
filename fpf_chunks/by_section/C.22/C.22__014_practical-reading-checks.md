@@ -6,12 +6,12 @@ section_id: "C.22:13"
 section_title: "Practical reading checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__014_practical-reading-checks.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:13 — Practical reading checks"
-line_start: 42389
-line_end: 42395
+line_start: 43075
+line_end: 43081
 dependencies:
   - "C.16"
   - "C.18"

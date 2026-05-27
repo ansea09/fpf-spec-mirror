@@ -6,18 +6,18 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.21.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.21 — FPF Pattern Quality Characteristic Space"
-line_start: 63935
-line_end: 64895
+line_start: 64146
+line_end: 65102
 dependencies:
   - "A.17-A.19"
   - "A.6.P"
   - "A.6.Q"
   - "C.16"
+  - "C.2.P"
   - "C.25"
-  - "E.10.SEMIO"
   - "E.11"
   - "E.17.AUD"
   - "E.19"
@@ -132,7 +132,7 @@ It defines how to read whether one authored FPF pattern version is good enough f
 
 A conforming `E.21` read may cite neighbouring patterns, but it may not absorb their governed objects.
 
-`E.21` protects these seam surfaces as part of the pattern-quality read: self-application, first-entry/discoverability, publication/projection, bounded non-use, no forced winner, falsifiability/lowering evidence, reviewer-power misuse, AI/RAG/thin-echo summaries, and corpus ecology. A read that crosses one of these surfaces must keep the pattern-quality claim scoped, replayable, falsifiable, and routed to the exact neighbouring pattern instead of becoming control apparatus.
+`E.21` protects these seam surfaces as part of the pattern-quality read: self-application, first-entry/discoverability, publication/projection, bounded non-use, no forced winner, falsifiability/lowering evidence, reviewer-power misuse, AI/RAG/thin-echo summaries, and corpus ecology. A read that crosses one of these surfaces must keep the pattern-quality claim scoped, replayable, falsifiable, and kept under the exact neighbouring pattern application instead of becoming control apparatus.
 
 #### E.21:4.0a - Mint/reuse and kind settlement
 
@@ -249,7 +249,7 @@ A status without payload is not checkable. Every `PatternQualityStatus` SHALL ca
 
 A bounded non-use result is a valid pattern-quality outcome.
 
-When a pattern is not admissible for the declared ordinary use but remains useful as expert-only support, source-basis support, high-assurance support, historical rationale, narrow worked-case support, or neighbour-handoff support, the `PatternQualityStatus` SHALL be `admissibleWithNarrowerUse`, not `repairBeforeUse`.
+When a pattern is not admissible for the declared ordinary use but remains useful as expert-only support, source-basis support, high-assurance support, historical rationale, narrow worked-case support, or neighbouring-pattern support, the `PatternQualityStatus` SHALL be `admissibleWithNarrowerUse`, not `repairBeforeUse`.
 
 The narrowed use must name:
 
@@ -287,7 +287,7 @@ Failure of an activated eligibility row is a content blocker. A non-activated ro
 |---|---|
 | `canonicalFrameConformance` | The pattern has the `E.8` canonical frame, header block, required sections, and footer marker, or the missing piece is explicitly treated as a mechanical repair before use. |
 | `governedObjectClarity` | The early text says which object, relation, move, boundary, or support claim the pattern governs. |
-| `firstMoveRecoverability` | The target pattern's `Problem frame` and `Solution` expose one first admissible action-guiding move for the declared `WorkingReaderScope`, or a named neighbouring-pattern handoff now carries the live claim. |
+| `firstMoveRecoverability` | The target pattern's `Problem frame` and `Solution` expose one first admissible action-guiding move for the declared `WorkingReaderScope`, or a named neighbouring-pattern application now carries the live claim. |
 | `missionOrPillarConflict` | Activated when the pattern claims FPF-wide mission support, changes a pillar interpretation, imports external domain scope, or creates a possible pillar conflict. Absence of pillar recitation is not a defect. Pass condition: no live mission/pillar conflict is hidden, and any live constitutional payoff is carried by the exact coordinate or neighbouring pattern that owns it. |
 | `noProcessLeakage` | Live pattern prose contains no campaign, review, history, planning, landing, or "what changed" residue. |
 | `normativityAdmissibilitySplit` | RFC keywords state agent obligations only; definitions, invariants, typing rules, and admissibility predicates are not written as duties. |
@@ -351,7 +351,7 @@ The coordinates below are not one flat always-on audit grid. `PatternQualityChar
 
 A coordinate is admissible only when it reads a content property of the target pattern version under the declared `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow`.
 
-Hard blockers stay in `EligibilitySet`. Evidence kinds justify coordinate readings but are not coordinates by themselves. Telemetry reopens or calibrates a read but does not replace content evidence. Fronts and archives preserve candidate trade-offs but do not add ordinary drafting obligations. `PatternQualityStatus` and `StopCondition` are results of the read, not coordinates. Project-side evidence, assurance, gate, release, work, safety, security, or compliance claims route to exact neighbouring patterns.
+Hard blockers stay in `EligibilitySet`. Evidence kinds justify coordinate readings but are not coordinates by themselves. Telemetry reopens or calibrates a read but does not replace content evidence. Fronts and archives preserve candidate trade-offs but do not add ordinary drafting obligations. `PatternQualityStatus` and `StopCondition` are results of the read, not coordinates. Project-side evidence, assurance, gate, release, work, safety, security, or compliance claims stay under exact neighbouring patterns.
 
 Each coordinate has an activation class:
 
@@ -367,15 +367,15 @@ Inactive coordinates are not passes, waivers, or hidden failures. They are outsi
 |---|---|---|---|
 | `WorkingSituationAndUseBoundaryRecognizability` | first-pass core | Whether the working reader recognises the situation, ordinary use, non-use, harm if missed, and first boundary early. | The reader can say "this is / is not my situation" without reading support apparatus. |
 | `ActionPathGuidance` | first-pass core | Whether, after the first admissible move is recoverable, the reader can continue the admissible action path. | The `Solution` carries the action path; the checklist tests it rather than replacing it. |
-| `ClosureAndBoundedNonUseRecoverability` | ordinary stop core | Whether stop, repair, narrower use, and neighbour handoff are recoverable. | The reader can tell when the governed move is enough, when to narrow, and where remaining live claims go. |
+| `ClosureAndBoundedNonUseRecoverability` | ordinary stop core | Whether stop, repair, narrower use, and neighbouring-pattern application are recoverable. | The reader can tell when the governed move is enough, when to narrow, and where remaining live claims go. |
 | `GovernedObjectAndClaimScopeStability` | first-pass core | Whether the governed object and quality-claim scope stay stable across title, problem frame, solution, checklist, cases, relations, and status. | The pattern does not drift between pattern, record, bundle, suite, profile, review-profile result, method, work, support document, or broader/narrower use claim. |
 | `SemanticKindAndNameRecoverability` | ordinary stop core; first-pass when names are load-bearing | Whether heads, kinds, relations, qualifiers, support roles, evidence roles, and Tech/Plain names recover the same FPF reading. | Names are usable because they preserve kind, relation, and load, not because prose is polished. |
 | `NeighborAuthorityAndBoundedUseFit` | first-pass core | Whether neighbouring claims stay with exact receiving patterns and residual weakness is bounded. | Evidence, assurance, measurement, naming, work, gate, decision, publication, causal, release, bridge, and refresh claims do not become `E.21` authority. |
-| `PracticalUseDeltaAndHarmPrevention` | first-pass core | Whether the pattern changes a real reader move, prevents a named misuse, reduces named cost or ambiguity, or preserves a named boundary. | The reader can state what action, decision, repair, non-use, or handoff becomes better because the pattern exists. |
+| `PracticalUseDeltaAndHarmPrevention` | first-pass core | Whether the pattern changes a real reader move, prevents a named misuse, reduces named cost or ambiguity, or preserves a named boundary. | The reader can state what action, decision, repair, non-use, or neighbouring-pattern use becomes better because the pattern exists. |
 | `UseAffordabilityAndApparatusProportionality` | first-pass core | Whether first use is affordable and the apparatus is proportionate to the live claim. Subreadings: first-use cost and apparatus proportionality. | Ordinary use stays light; heavier fields, cards, telemetry, front/archive, support, or evidence apparatus appear only when their live claim buys admissible use. A weak live subreading limits the coordinate value; do not average the subreadings. |
 | `RepairLocalityAndChangeImpactPredictability` | ordinary stop core | Whether repairs stay local and downstream impact is predictable. | The repair has the smallest live locus, known impact radius, and no unnecessary changes to names, relations, supports, evidence refs, or entry surfaces. |
 | `ProxyForValueSubstitutionResistance` | ordinary stop core | Whether the quality read prevents Goodhart substitution of rubric satisfaction for pattern-use value. | The read asks what got worse and treats usability, affordability, maintainability, neighbour costs, and bounded non-use as quality evidence rather than afterthoughts. |
-| `ClaimSupportTraceabilityCurrentnessAndReplayability` | claim-support | Whether another reader can replay the claim from pinned text, scope, evidence refs, currentness basis, limitations, status, and stop reason. | The claim is traceable and replayable without chat memory, steward memory, or administrative placement state; project assurance is routed out. |
+| `ClaimSupportTraceabilityCurrentnessAndReplayability` | claim-support | Whether another reader can replay the claim from pinned text, scope, evidence refs, currentness basis, limitations, status, and stop reason. | The claim is traceable and replayable without chat memory, steward memory, or administrative placement state; project assurance stays outside `E.21` and under exact receiving patterns. |
 | `CaseCountercaseAndTransferCoverage` | claim-support | Whether positive cases, near-misses, anti-cases, and transfer cases match claimed breadth. | Cases test the main misuse paths and boundary transfers; broad claims have heterogeneous support or explicit narrowing. |
 | `SoTABindingAndCurrentness` | claim-support | Whether SoTA, lineage, rejected practice, and refresh triggers are separated and load-bearing. | Adopt/adapt/reject stances mutate `Solution`, checklist, boundary, relation, worked case, stop, or reopen condition. |
 | `FormalClaimLegalityAndLensFit` | claim-support | Whether measurement, score, comparison, scale, threshold, formal model, or lens claim is legal and bounded. | Scale/comparability basis and preserved/lost structure are visible; non-admissible formal use is named. |
@@ -389,7 +389,7 @@ Inactive coordinates are not passes, waivers, or hidden failures. They are outsi
 | Overlay | Activation | Good state |
 |---|---|---|
 | `ConstraintAndHarmBoundaryFit` | Active when the target pattern contains safety, security, ethics, compliance, deontic, harm-prevention, prohibited-use, non-negotiable constraint, or project-risk claims. | Constraint and harm boundaries are visible, exact receiving patterns are named, and no pattern-quality result is overread as safety, security, compliance, ethics, or project approval. |
-| `SelfApplicationAndRecursionBoundary` | Active for meta-patterns that govern pattern authoring, review, quality, naming, publication, SoTA, semantic repair, or characteristic spaces. | The pattern can be applied to itself at the lowest sufficient layer without recursive bundles, infinite review, or self-certifying authority. |
+| `SelfApplicationAndRecursionBoundary` | Active for meta-patterns that govern pattern authoring, review, quality, naming, publication, SoTA, epistemic precision repair, or characteristic spaces. | The pattern can be applied to itself at the lowest sufficient layer without recursive bundles, infinite review, or self-certifying authority. |
 
 #### E.21:4.4 - DominanceSet, TieBreakerSet, TelemetrySet
 
@@ -544,7 +544,7 @@ PatternQualityQBundle / first-pass slice:
   WorkingReaderScope:
   IntendedUse:
   QualificationWindow:
-  FirstMoveEvidenceRef: <Problem frame / Solution / named neighbouring handoff>
+  FirstMoveEvidenceRef: <Problem frame / Solution / named neighbouring-pattern application>
   EntryBlockers: <none | first move absent | governed object drift | checklist-as-solution | apparatus overreach | neighbour overread | other activated blocker>
   MinimalDominanceSet: <default six coordinates, plus activated coordinates if live>
   PatternQualityStatus:
@@ -598,7 +598,7 @@ A thin echo SHALL NOT say:
 * `do not use this pattern` without scope;
 * `E.21 certified this pattern`.
 
-If a generated or coarsened rendering is used for reliance beyond orientation, route to `A.6.3.CSC`, `E.17.EFP`, `E.17.AUD`, `A.10`, or `B.3` as live.
+If a generated or coarsened rendering is used for reliance beyond orientation, apply the exact receiving pattern live: `A.6.3.CSC`, `E.17.EFP`, `E.17.AUD`, `A.10`, or `B.3`, as applicable.
 
 #### E.21:4.9 - Reader move loop
 
@@ -678,7 +678,7 @@ A pattern-quality finding is admissible only when it has this shape:
 Pattern-quality finding:
   Target: <PatternVersionRef>
   ClaimScope / reader / use / window:
-  Finding kind: <eligibility blocker | coordinate reading | status payload | stop-condition failure | bounded non-use | neighbour-handoff>
+  Finding kind: <eligibility blocker | coordinate reading | status payload | stop-condition failure | bounded non-use | neighbouring-pattern application>
   Exact E.21 locus: <EligibilitySet row | coordinate | status | stop clause>
   Content evidence: <HostSectionRef / worked case / SoTA row / relation check / review finding>
   Result: <PatternQualityStatus effect or coordinate value effect>
@@ -815,7 +815,7 @@ Lens cautions:
 |---|---|---|
 | Auditability & traceability | `PatternQualityQBundle` pins version, scope, evidence, status, and stop condition; `ClaimSupportTraceabilityCurrentnessAndReplayability` keeps support replayable when claim support is live. | Quality claims depending on chat memory, reviewer taste, or placement state. |
 | Evolvability | `QualificationWindow`, `refreshNeeded`, bounded non-use, optional telemetry, and `EvolutionFrontAndRefreshDiscipline` reopen only the live locus. | Whole-pattern churn after small source, neighbour, or wording changes. |
-| Modularity | `E.21` routes authoring, review, measurement, naming, evidence, assurance, gate, work, and release claims to exact neighbours. | Central quality subsystem or shadow authority. |
+| Modularity | `E.21` keeps authoring, review, measurement, naming, evidence, assurance, gate, work, and release claims under exact neighbouring patterns. | Central quality subsystem or shadow authority. |
 | Composability | `NeighborAuthorityAndBoundedUseFit` and relation closure keep pattern-quality claims safe to compose with neighbouring patterns. | One pattern-quality read stealing another pattern's governed object. |
 | Usability | First-pass slice checks `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, and `ActionPathGuidance` before heavy apparatus. | Type-correct but inert pattern-quality control. |
 | Affordability | `UseAffordabilityAndApparatusProportionality` and activation layers keep ordinary reads light. | Review bureaucracy masquerading as quality. |
@@ -866,7 +866,7 @@ This table states which architectural characteristics `E.21` protects; it does n
 | **CC-E21-32 (Architectural owner map).** | A conforming `E.21` read **SHALL** state or preserve the owner boundary between `E.21` and live neighbouring patterns when authoring, review, measurement, naming, evidence, assurance, gate, release, work, or project-side claims are involved. | Prevents `E.21` from becoming a central quality-governance subsystem. |
 | **CC-E21-33 (Layer activation).** | A conforming `E.21` read **SHALL** use the lowest activation layer sufficient for the declared claim. Front, archive, telemetry, and full support-card apparatus **SHALL NOT** be required for a first-pass read unless the claim makes them live. | Preserves affordability and prevents bureaucracy. |
 | **CC-E21-34 (Replayable quality read).** | A `PatternQualityQBundle` **SHALL** be replayable from its pinned pattern version, reader/use/scope/window, active eligibility rows, active coordinates, evidence refs, status payload, and stop/non-stop reason, without relying on chat memory or administrative placement state. | Preserves auditability without requiring a process log. |
-| **CC-E21-35 (No neighbour substitution).** | `E.21` **SHALL NOT** absorb the governed object of `E.8`, `E.19`, `C.25`, `C.16`/`A.17`/`A.18`/`A.19`, `F.18`/`E.10`/`A.6.P`, or project-side evidence, assurance, gate, work, and release patterns. When such a claim is live, `E.21` **SHALL** route it by value. | Preserves modularity and composability. |
+| **CC-E21-35 (No neighbour substitution).** | `E.21` **SHALL NOT** absorb the governed object of `E.8`, `E.19`, `C.25`, `C.16`/`A.17`/`A.18`/`A.19`, `F.18`/`E.10`/`A.6.P`, or project-side evidence, assurance, gate, work, and release patterns. When such a claim is live, `E.21` **SHALL** name the exact receiving pattern application by value. | Preserves modularity and composability. |
 | **CC-E21-36 (Smallest live reopen).** | A refresh or telemetry signal **SHALL** reopen the smallest affected locus: source stance, neighbour relation, coordinate reading, worked case, name, eligibility row, status payload, or stop condition. The whole quality read reopens only when that local change can change status or stop. | Preserves evolvability without whole-pattern churn. |
 | **CC-E21-37 (Status is not authority).** | `PatternQualityStatus` **SHALL** remain an admissible-use posture for the pattern-quality claim and **SHALL NOT** be used as project approval/refusal, gate decision, release state, assurance level, compliance verdict, safety certificate, or work authority. | Preserves scope safety and trust calibration. |
 | **CC-E21-38 (No quality veto without content locus).** | A blocking pattern-quality finding **SHALL** name the exact activated eligibility row, coordinate, status payload, or stop-condition clause, plus content evidence and the first admissible repair or bounded non-use. | Prevents pattern-quality review from becoming reviewer authority theatre. |
@@ -876,7 +876,7 @@ This table states which architectural characteristics `E.21` protects; it does n
 | **CC-E21-42 (Bounded non-use as valid outcome).** | `admissibleWithNarrowerUse` **SHALL** be used when a pattern is not ordinary-use admissible but remains useful for a named narrower reader/use/scope. | Prevents unnecessary rewrite churn and preserves useful legacy/support material. |
 | **CC-E21-43 (High-value falsifiability hook).** | Coordinate values `4` or `5`, and any coordinate supporting `admissibleForDeclaredUse` or `StopCondition`, **SHALL** state a lowering condition or content discovery that would reopen or lower the read. | Makes high quality claims falsifiable without adding a full harness. |
 | **CC-E21-44 (Support retention test).** | Support material **SHALL** remain active only when the read states what quality breakage would return if that material were absent. | Prevents support material from becoming folklore, hidden authority, or permanent reader cost. |
-| **CC-E21-45 (Pattern text vs pattern application).** | `E.21` **SHALL NOT** be used to certify that a project correctly applied a pattern. It reads the quality of the pattern version; project/application claims route to exact receiving patterns. | Preserves FPF-side and project-side boundaries. |
+| **CC-E21-45 (Pattern text vs pattern application).** | `E.21` **SHALL NOT** be used to certify that a project correctly applied a pattern. It reads the quality of the pattern version; project/application claims remain under exact receiving patterns. | Preserves FPF-side and project-side boundaries. |
 | **CC-E21-46 (High-assurance separation).** | High-assurance support **SHALL NOT** make the ordinary pattern body harder to use unless the ordinary use itself changes. | Keeps ordinary action guidance alive while allowing stronger support where live. |
 | **CC-E21-47 (Activation-normalized coordinates).** | `PatternQualityCharacteristicSpace` **SHALL NOT** be used as one flat always-on audit grid. Each coordinate **SHALL** state its activation class, and inactive coordinates **SHALL NOT** count as pass, waiver, or hidden failure. | Prevents characteristic bloat and hidden checklist control. |
 | **CC-E21-48 (Hard blockers stay out of dominance).** | `firstMoveRecoverability`, hard measurement illegality, shadow neighbour authority, administrative proxy use, and live mission/pillar conflict **SHALL** be treated as eligibility blockers when activated, not weak coordinate values. | Prevents hard failures from being averaged or front-compared away. |
@@ -896,18 +896,18 @@ This table states which architectural characteristics `E.21` protects; it does n
 | **Checklist-as-solution** | The conformance checklist carries the main method. | The checklist tests guidance; it does not replace guidance. | Move action guidance into `Solution`; make CC items test it. |
 | **Decorative SoTA shelf** | Sources are listed but the pattern would read the same without them. | SoTA has no load-bearing effect. | State adopt/adapt/reject and change a live boundary, example, relation, or checklist. |
 | **Lexical polishing without kind recovery** | Terms sound cleaner but kind/relation/support load remains ambiguous. | The repair is lexical, not ontological. | Repair `SemanticKindAndNameRecoverability`; run `F.18 -> A.6.P -> E.10` when durable or cross-pattern names are live. |
-| **Apparatus maximalism** | Every draft gets telemetry, archive, review cards, and support files. | Reader and maintainer cost rises without added admissible use. | Use the one-screen card unless consequence or reuse makes heavier support live. |
+| **Apparatus maximalism** | Every draft gets telemetry, archive, review cards, and extra companion files. | Reader and maintainer cost rises without added admissible use. | Use the one-screen card unless consequence or reuse makes heavier evidence or companion apparatus live. |
 | **All-high-values Goodharting** | Every visible coordinate is marked `4` or `5`, but the pattern is harder to read, costlier to maintain, or less useful in the declared ordinary case. | The coordinate set became a proxy target and stopped measuring full pattern-use value. | Activate `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `ProxyForValueSubstitutionResistance`; narrow to high-assurance use if the extra apparatus is only justified there. |
 | **Cost-hidden tie-breaker** | Reader, author, maintainer, entry/projection, retrieval, relation, or corpus-ecology cost is treated only as a tie-breaker while it changes admissible use. | A live quality loss is being kept outside the dominance relation. | Promote the cost question into `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, `ExternalEntryAndProjectionIntegrity`, `PatternLanguageEcologyFit`, `ProxyForValueSubstitutionResistance`, or another active coordinate. |
 | **One-domain breadth claim** | The pattern claims transdisciplinary reach with only IT or ML examples. | Example breadth does not support claim breadth. | Repair `CaseCountercaseAndTransferCoverage` or narrow the claim. |
 | **Endless perfection loop** | Authors keep improving because a better wording is always imaginable. | Open-ended evolution lacks a local stop condition. | Stop when eligibility passes, the candidate is non-dominated for scope, floors are met, and remaining issues are bounded non-use or a named receiving pattern; use `EvolutionFrontAndRefreshDiscipline` plus `ClosureAndBoundedNonUseRecoverability` to keep the stop local. |
 | **Quality veto theatre** | A reviewer blocks use with phrases such as "not ready", "low quality", "not FPF enough", or "needs more review", but does not name an activated eligibility row, coordinate, content evidence, status payload, and first admissible repair or bounded non-use. | The quality read is being used as authority pressure rather than content guidance. | Rewrite the veto as a pattern-quality finding using `E.21:4.10a`, or remove it from the quality read. |
 | **Reviewer preference laundering** | A stylistic, political, ownership, or process preference is encoded as low `ActionPathGuidance`, `SoTABindingAndCurrentness`, `SemanticKindAndNameRecoverability`, or another coordinate without content evidence. | A preference is being laundered into a pattern-quality defect. | Move the preference to the correct neighbouring decision/process locus, or state the actual content defect. |
-| **Projection-quality shadow track** | A ToC row, J.4 cue, dashboard tile, status badge, generated summary, or retrieval snippet restates the quality result without scope, status payload, non-use boundary, or source read ref. | A projection is becoming a second semantic track or authority face. | Activate `ExternalEntryAndProjectionIntegrity`; make the projection a thin echo by value and scope, or route to the exact publication/projection pattern. |
-| **Corpus-local win, pattern-language loss** | A local pattern edit improves wording or evidence but increases relation fanout, name collision, entry noise, stale echoes, or neighbouring authority confusion. | Local quality improved while FPF corpus ecology degraded. | Activate `PatternLanguageEcologyFit`; narrow the edit, route the receiving claim, or repair the entry/name/relation surface. |
+| **Projection-quality shadow track** | A ToC row, J.4 cue, dashboard tile, status badge, generated summary, or retrieval snippet restates the quality result without scope, status payload, non-use boundary, or source read ref. | A projection is becoming a second semantic track or authority face. | Activate `ExternalEntryAndProjectionIntegrity`; make the projection a thin echo by value and scope, or name the exact publication/projection pattern application. |
+| **Corpus-local win, pattern-language loss** | A local pattern edit improves wording or evidence but increases relation fanout, name collision, entry noise, stale echoes, or neighbouring authority confusion. | Local quality improved while FPF corpus ecology degraded. | Activate `PatternLanguageEcologyFit`; narrow the edit, name the exact receiving pattern for the claim, or repair the entry/name/relation surface. |
 | **Quality result as project certificate** | A clean pattern-quality read is cited as product safety, compliance, release, or assurance evidence. | Pattern quality is not project-world truth. | Open `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, or another exact receiving pattern for the project-side claim. |
 | **Evidence theatre** | The pattern adds evidence refs, review findings, telemetry, or support cards, but none of them changes a coordinate value, boundary, worked case, or stop condition. | Support material is being used as authority decoration. | Remove it or state the exact coordinate/status/stop effect it supports. |
-| **Legacy flattening** | An older pattern that remains useful as source-basis, historical rationale, or expert-only support is forced into ordinary-use repair instead of narrowing its use honestly. | The quality read treats "not ordinary-use admissible" as "worthless". | Use `admissibleWithNarrowerUse`, state the support-only or historical use, and route broader use to repair or replacement. |
+| **Legacy flattening** | An older pattern that remains useful as source-basis, historical rationale, or expert-only support is forced into ordinary-use repair instead of narrowing its use honestly. | The quality read treats "not ordinary-use admissible" as "worthless". | Use `admissibleWithNarrowerUse`, state the support-only or historical use, and assign broader use to repair or replacement under the exact receiving pattern. |
 | **Narrow-use hiding** | A pattern cannot serve ordinary use, but the quality read still claims broad `admissibleForDeclaredUse`. | A real scope narrowing is hidden to preserve a stronger status label. | Change status to `admissibleWithNarrowerUse` and state the narrowed reader, use, or scope. |
 
 ### E.21:9 - Consequences
@@ -928,7 +928,7 @@ FPF patterns are not essays, APIs, step lists, or generic best-practice notes. T
 
 `C.25` already shows why composite quality claims need bundles. `C.16`, `A.17`, and `A.18` show why measured values require declared characteristics and scales. `A.19` shows why multi-coordinate reasoning needs a declared characteristic space. `F.18` and NQD/front discipline show why several viable candidates can remain non-dominated. `E.12` and `E.13` show why usability, cognitive ergonomics, practical utility, and proxy-for-value substitution must remain quality-bearing rather than administrative afterthoughts. `E.19` shows why review should use triggered profiles rather than one giant checklist.
 
-The characteristic space is activation-normalized because FPF pattern quality is read from the live claim made by the pattern version. A first-pass ordinary-use read needs entry, first move, action path, bounded non-use, and a small support surface; a formal-claim read also needs legality of measurement, comparison, mathematical lens, causal lens, quantum-like lens, simulation, representation, or learned model; a publication or retrieval-facing read also needs entry/projection integrity and corpus-ecology fit. Treating every coordinate as always active would turn `E.21` into hidden checklist control.
+The characteristic space is activation-normalized because FPF pattern quality is read from the live claim made by the pattern version. A first-pass ordinary-use read needs entry, first move, action path, bounded non-use, and a small evidence slice for the active quality claim; a formal-claim read also needs legality of measurement, comparison, mathematical lens, causal lens, quantum-like lens, simulation, representation, or learned model; a publication or retrieval-facing read also needs entry/projection integrity and corpus-ecology fit. Treating every coordinate as always active would turn `E.21` into hidden checklist control.
 
 The coordinate set also avoids hidden double weighting. Concerns that usually fail and repair together are merged with explicit subreadings; a weak live subreading limits the coordinate value instead of being averaged away. Concerns that fail independently remain separate because their repair moves differ: action path is not closure, semantic/name recovery is not neighbour authority, claim support is not project assurance, and local pattern quality is not corpus ecology.
 
@@ -948,7 +948,7 @@ A source that only supports lineage, popularity, or familiar terminology is not 
 | Living pattern-quality reads need currentness windows and section-level reopen triggers, not whole-pattern churn. | Akl et al. (2017) living guidelines are adopted and adapted; Page et al. (2021) PRISMA 2020 is used only for transparent reporting of review/update basis. | The currentness unit is the live claim, coordinate, source stance, relation, or worked case, not automatically the whole pattern. | `QualificationWindow`, `refreshNeeded`, `SoTAStalenessSignals`, `CoordinateEvidenceRefs`, `ClaimSupportTraceabilityCurrentnessAndReplayability`, and `EvolutionFrontAndRefreshDiscipline` state what makes the read current and what can reopen it. | This does not import systematic-review or clinical-guideline workflow as mandatory apparatus for ordinary FPF pattern drafts. |
 | Multi-characteristic improvement should preserve non-dominated alternatives and useful diversity instead of forcing one winner. | MAP-Elites and the 2016 QD survey are retained as lineage; CMA-ME/CMA-MAE, differentiable QD, and QDax-class accelerated QD practice are adopted only for the set-valued/front/archive idea. | Quality-diversity practice keeps diverse high-performing alternatives rather than collapsing to one scalar winner. | `PatternQualityFront`, `PatternImprovementArchive`, and `TieBreakerSet` keep viable candidate edits visible under a declared scope, while ordinary use remains first-pass and non-algorithmic. | No QD algorithm, grid, emitter policy, hardware stack, or library workflow becomes mandatory for pattern review. |
 | Coordinate improvement can destroy the value the coordinates were meant to protect. | Manheim and Garrabrant (2018) are adopted for distinguishing Goodhart/proxy-overoptimization failure modes; internal `E.12` and `E.13` remain the FPF receiving support. | Overoptimization by a metric or proxy can become ineffective or harmful, and mixed Goodhart mechanisms need exact naming rather than broad "metric failure" prose. | `ProxyForValueSubstitutionResistance` becomes a load-bearing coordinate; before stop, the read asks what got worse in first-use cost, repair-impact predictability, neighbour ripple, bounded non-use, practical payoff, entry/projection integrity, or corpus ecology. | This does not make `E.21` an adoption forecast, economics model, or project-value estimator. |
-| Pattern-quality evaluation must not become safety, security, compliance, or release certification. | AI evaluation-limit literature, UK AI Safety Institute evaluation guidance, and related governance work are adopted only for the non-overread boundary: evaluations can support claims but do not prove absence of risk or certify the project world. | Evaluations are useful, but evaluation alone is not sufficient for effective governance, real-world safety, or absence-of-risk claims. | `NeighborAuthorityAndBoundedUseFit`, `ClaimSupportTraceabilityCurrentnessAndReplayability`, `supportBoundaryEvidence`, and `PatternQualityStatus` route project-side evidence, assurance, gate, release, work, safety, security, and compliance claims to exact receiving patterns. | This rejects compliance-by-checklist, audit theatre, and "review passed therefore safe/compliant" readings. It does not import AI-safety governance machinery into ordinary pattern-quality reading. |
+| Pattern-quality evaluation must not become safety, security, compliance, or release certification. | AI evaluation-limit literature, UK AI Safety Institute evaluation guidance, and related governance work are adopted only for the non-overread boundary: evaluations can support claims but do not prove absence of risk or certify the project world. | Evaluations are useful, but evaluation alone is not sufficient for effective governance, real-world safety, or absence-of-risk claims. | `NeighborAuthorityAndBoundedUseFit`, `ClaimSupportTraceabilityCurrentnessAndReplayability`, `supportBoundaryEvidence`, and `PatternQualityStatus` keep project-side evidence, assurance, gate, release, work, safety, security, and compliance claims under exact receiving patterns. | This rejects compliance-by-checklist, audit theatre, and "review passed therefore safe/compliant" readings. It does not import AI-safety governance machinery into ordinary pattern-quality reading. |
 | Pattern-quality stop decisions must keep perspective, resource cost, feasibility, acceptability, and equity or differential impact visible when they change admissible use. | GRADE Evidence-to-Decision practice is adapted for explicit decision perspective and resource/feasibility/acceptability/equity-impact criteria. | Resource use, cost, feasibility, acceptability, equity, and differential impact can legitimately change a recommendation or admissible use. | `WorkingReaderScope`, `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `StopCondition` treat cost and differential reader/practice impact as quality evidence when they change ordinary use. | This does not import clinical guideline panels, medical evidence grading, population-health policy machinery, or project-side impact assessment into FPF pattern review. |
 | Retrieval-facing pattern quality needs component-level evidence, not one search-success score. | RAGAS and ARES are adopted only for the multi-dimensional retrieval-facing evaluation stance: context relevance, support/faithfulness, answer relevance, and component evidence. | Retrieval/RAG evidence distinguishes whether the right context is found, whether the answer is faithful to support, and whether the answer is relevant. | `retrievalHitQuality`, `coldReaderMisentryRate`, `ExternalEntryAndProjectionIntegrity`, `PatternLanguageEcologyFit`, and `CoordinateEvidenceRefs` may use tiny retrieval fixtures only when retrieval-facing entry, projection, or observed misretrieval is live. | This does not require universal RAG benchmarks or LLM evaluation harnesses for ordinary pattern drafts. |
 | Measurement and bundle discipline should be internal to FPF rather than imported as a rival framework. | Current FPF `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `E.8`, `E.19`, and `F.18` are adopted internally. | Existing FPF already has Characteristic/Scale, Q-Bundle, review, and naming machinery. | `E.21` composes those patterns and adds the missing pattern-quality receiving locus. | `E.21` does not replace the neighbouring patterns it cites. |
@@ -961,8 +961,8 @@ A source that only supports lineage, popularity, or familiar terminology is not 
 | `E.19` | Review profiles, findings, admission/refresh outcome. | Use findings as content evidence when they identify pattern-content defects or strengths. | Treat review pass, return, or absence as a coordinate value or project certificate. |
 | `C.25` | General Q-Bundle normal form. | Specialise Q-Bundle for FPF pattern quality. | Replace arbitrary engineering quality-family bundling. |
 | `A.17`/`A.18`/`A.19`/`C.16` | Characteristic, scale, coordinate, measurement legality. | Use ordinal content readings and cite measurement law when live. | Convert ordinal readings into metrics, scores, percentages, or averages. |
-| `F.18`/`E.10`/`A.6.P`/`E.10.SEMIO` | Naming, lexical, relation, semantic recovery. | Require recoverable kind, relation, and admissible use for load-bearing heads. | Mint durable cross-pattern names by convenience. |
-| `A.10`/`B.3`/`A.20`/`A.21`/`A.15` | Project evidence, assurance, local CV status, gates, work. | Route project-side reuse to exact receiving patterns. | Certify project safety, compliance, gate passage, release, work authority, or publication truth. |
+| `F.18`/`E.10`/`A.6.P`/`C.2.P` | Naming, lexical, relation, epistemic precision restoration. | Require recoverable kind, relation, and admissible use for load-bearing heads. | Mint durable cross-pattern names by convenience. |
+| `A.10`/`B.3`/`A.20`/`A.21`/`A.15` | Project evidence, assurance, local CV status, gates, work. | Keep project-side reuse under exact receiving patterns. | Certify project safety, compliance, gate passage, release, work authority, or publication truth. |
 
 **Coordinates with `E.11` and `J.4`.**
 `E.21` is the governing pattern when the live question is: "Is this FPF pattern version good enough for this declared reader/use/scope, and may improvement stop?"
@@ -972,7 +972,7 @@ A source that only supports lineage, popularity, or familiar terminology is not 
 * how to write the pattern body (`E.8`);
 * which admission/refresh review profile to run (`E.19`);
 * how to repair entry discoverability or wrong-pattern selection (`E.11`);
-* how to route overloaded quality language generally (`A.6.Q` / `C.25`).
+* how to recover overloaded quality language generally (`A.6.Q` / `C.25`).
 
 If `E.21` changes `Preface`, `J.4`, ToC query rows, local Problem-frame recognition cues, or retrieval-facing entry support, the entry-facing effect remains governed by `E.11`; `E.21` only supplies the pattern-quality claim.
 
@@ -987,7 +987,7 @@ If `E.21` changes `Preface`, `J.4`, ToC query rows, local Problem-frame recognit
 
 **Coordinates with:**
 
-* `E.10.SEMIO` when semantic repair touches load-bearing Problem frames, recognition text, examples, or worked slices; an `E.21` quality read treats semantic repair as incomplete when no remaining admissible reader move or exact neighbouring-pattern handoff survives.
+* `C.2.P` when epistemic precision repair touches load-bearing Problem frames, recognition text, examples, or worked slices; an `E.21` quality read treats epistemic precision repair as incomplete when no remaining admissible reader move or exact neighbouring-pattern application survives.
 * `E.12`, `E.13`, and `E.14` for cognitive ergonomics, pragmatic utility, Goodhart/proxy checks, and human-centric working-model checks.
 * `C.18`, `C.19`, and related NQD/OEE patterns when candidate fronts or search/archive constructs are live.
 * `G.11` when telemetry-driven refresh or decay is live.
@@ -999,8 +999,4 @@ If `E.21` changes `Preface`, `J.4`, ToC query rows, local Problem-frame recognit
 * Any pattern drafting or review stop decision that claims the current version is good enough for a declared use.
 
 ### E.21:End
-
-# **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
-
-# Cluster F.I — Context of Meaning and Lexical Inputs
 

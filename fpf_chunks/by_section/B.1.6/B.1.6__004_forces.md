@@ -6,12 +6,12 @@ section_id: "B.1.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__004_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:3 — Forces"
-line_start: 30201
-line_end: 30210
+line_start: 30257
+line_end: 30266
 dependencies:
   - "A.12"
   - "A.14"

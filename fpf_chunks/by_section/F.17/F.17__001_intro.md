@@ -6,12 +6,12 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:intro — Intro"
-line_start: 70922
-line_end: 70929
+line_start: 71127
+line_end: 71134
 dependencies:
   - "A.1.1"
   - "A.11"

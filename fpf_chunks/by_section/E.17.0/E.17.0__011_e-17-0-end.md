@@ -6,12 +6,12 @@ section_id: "E.17.0:End"
 section_title: "E.17.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__011_e-17-0-end.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:End — E.17.0:End"
-line_start: 58610
-line_end: 58611
+line_start: 58825
+line_end: 58826
 dependencies:
   - "A.6.2"
   - "A.6.3"

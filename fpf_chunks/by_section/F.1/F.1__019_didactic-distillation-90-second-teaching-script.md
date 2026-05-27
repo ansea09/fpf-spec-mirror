@@ -6,12 +6,12 @@ section_id: "F.1:18"
 section_title: "Didactic distillation (90‑second teaching script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__019_didactic-distillation-90-second-teaching-script.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:18 — Didactic distillation (90‑second teaching script)"
-line_start: 65559
-line_end: 65562
+line_start: 65764
+line_end: 65767
 dependencies:
   - "A.11"
   - "A.7"

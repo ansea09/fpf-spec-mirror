@@ -6,12 +6,12 @@ section_id: "A.22:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__010_consequences.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:9 — Consequences"
-line_start: 28537
-line_end: 28545
+line_start: 28593
+line_end: 28601
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -38,7 +39,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -47,7 +47,7 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture support"
+  - "architecture-description claim"
   - "preserved/lost structure"
   - "selected structure"
   - "source return"
@@ -60,8 +60,8 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| FPF gains a reusable carrier for structure without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use states context, support, preserved/lost structure, and non-admissible use when the claim is load-bearing. |
-| Structural views become usable without confusing the view, carrier, publication, support source, and described object. | Existing loose prose that says "the structure is the diagram" needs repair. |
-| C.29 mathematical lenses and E.18 TGA graphs can support structure claims without becoming structure ontology. | Neighboring-pattern exits are named when evidence, assurance, causality, gate, work, or decision claims are live. |
+| FPF gains a reusable carrier for structure without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use states context, declared substrate or source/base/evidence/lens reading, preserved/lost structure, and non-admissible use when the claim is load-bearing. |
+| Structural views become usable without confusing the view, carrier, publication, source object, grounding object, and described object. | Existing loose prose that says "the structure is the diagram" needs repair. |
+| C.29 mathematical lenses and E.18 TGA graphs can supply governed reliance readings for structure claims without becoming structure ontology. | Exact FPF pattern applications are named when evidence, assurance, causality, gate, work, or decision claims are live. |
 | Architecture work can start from selected structure through C.30 instead of forcing architecture to be either a document or a module diagram. | Architecture-specific conformance stays outside A.22, so practitioners may need one extra C.30 application when the architecture-description claim kind is live. |
 

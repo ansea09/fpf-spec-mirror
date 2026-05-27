@@ -6,12 +6,12 @@ section_id: "A.19.CN:10"
 section_title: "Didactic quick cards (one‑liners teams reuse)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__011_didactic-quick-cards-one-liners-teams-reuse.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:10 — Didactic quick cards (one‑liners teams reuse)"
-line_start: 24623
-line_end: 24636
+line_start: 24691
+line_end: 24704
 dependencies:
   - "A.19"
   - "A.6.1"

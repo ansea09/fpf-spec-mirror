@@ -6,12 +6,12 @@ section_id: "A.13:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__007_conformance-checklist.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:6 — Conformance Checklist"
-line_start: 19496
-line_end: 19508
+line_start: 19567
+line_end: 19579
 dependencies:
   - "A.12"
   - "A.2"

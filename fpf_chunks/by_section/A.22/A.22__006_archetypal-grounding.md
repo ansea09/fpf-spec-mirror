@@ -6,12 +6,12 @@ section_id: "A.22:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__006_archetypal-grounding.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:5 — Archetypal Grounding"
-line_start: 28488
-line_end: 28495
+line_start: 28544
+line_end: 28551
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.2.1"
+  - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
@@ -38,7 +39,6 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
-  - "E.10.SEMIO"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -47,7 +47,7 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture support"
+  - "architecture-description claim"
   - "preserved/lost structure"
   - "selected structure"
   - "source return"
@@ -60,7 +60,7 @@ keywords:
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a support source, or a decision. A.22 asks first: what organization is being selected, over what support, under what context, and with what loss? |
+| Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a source, base, evidence, lens, or decision. A.22 asks first: what organization is being selected, over what declared substrate and with what source/base/evidence/lens reading, under what context, and with what loss? |
 | Show: `U.System` | In a plant, vehicle, software system, or neural-network model, the selected structure may be flow/transduction, control, module/interface, placement, information, scale, or declared logical structure. The structure record does not become the system and does not prove that the system is safe, maintainable, or ready. |
-| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output can describe or support selected structure. The episteme, view, or publication is not the structure itself; it carries a description, view, or support relation with validation and source-return boundaries. |
+| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output can describe selected structure or serve as a source-description or A.6.6 base-dependence relation for a selected-structure claim. The episteme, view, or publication is not the structure itself; it carries a description, view, or source/base/evidence/lens reliance relation with validation and source-return boundaries. |
 

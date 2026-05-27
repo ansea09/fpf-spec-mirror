@@ -6,12 +6,12 @@ section_id: "F.17:13"
 section_title: "Didactic Aids"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_didactic-aids.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:13 — Didactic Aids"
-line_start: 71167
-line_end: 71171
+line_start: 71372
+line_end: 71376
 dependencies:
   - "A.1.1"
   - "A.11"

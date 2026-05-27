@@ -6,12 +6,12 @@ section_id: "A.6.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__002_problem-frame.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:1 — Problem frame"
-line_start: 15381
-line_end: 15416
+line_start: 15409
+line_end: 15446
 dependencies:
   - "A.10"
   - "A.14"
@@ -19,8 +19,10 @@ dependencies:
   - "A.2.6"
   - "A.6.0"
   - "A.6.3"
+  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "C.3.3"
@@ -41,6 +43,7 @@ keywords:
   - "rescope"
   - "retime"
   - "scope"
+  - "support-as-basedness"
   - "witnesses"
   - "Γ_time"
 ---
@@ -64,6 +67,8 @@ In drafts, authors often reach for a single umbrella metaphor (frequently “anc
 > **Deconfliction note (lexical).** This pattern is about *base-dependence in content* (“X is usable relative to B”). It is not about E.10’s **Domain Anchoring** (MG-DA), where “anchoring” is a *lexical* primitive for binding token morphology to the term’s described entity. When you see `anchor*` in a basedness sentence, treat it as a defect unless an explicit baseRelation token is present.
 >
 > **Deconfliction note (context/meaning).** This pattern is also not a license to reintroduce “anchor” as a surrogate for **Context**, **SenseCell**, or “where meaning lives”. Any such use is an *anchor‑relapse* and SHALL be rewritten into explicit Context/SenseCell/ConceptSet lane constructs (E.10 D.CTX), not into SWBD.
+>
+> **Deconfliction note (support wording).** This pattern governs support wording only when the live claim is base-dependence: `dependent` is usable, admissible, interpretable, comparable, publishable, or actionable relative to `base` via a declared `baseRelation`. It does not govern support as ordinary help, source discovery, reader navigation, work enablement, evidence-role polarity, assurance calculus, causal-use support basis, mathematical-lens adequacy, or publication companion use. Those readings use their exact governing pattern ontology: source-description, evidence, assurance, causal-use, mathematical-lens, work/resource, publication/navigation, or publication-companion patterns as live. A support phrase that cannot select one support reading remains a cue, not a base declaration.
 
 Like A.6.5, this family also triggers **typing conflicts across viewpoints**: an endpoint may be spoken about in its self-kind while the baseRelation declaration expects a different ValueKind (or a different `refMode`). If that mismatch is not made explicit (SlotSpec + relation-specific constraints), authors “solve” it by renaming ends or flipping direction, and the ontological obligation (bridge / narrowing / retargeting) is lost.
 

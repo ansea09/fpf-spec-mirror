@@ -6,12 +6,12 @@ section_id: "A.6.5:11"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__012_relations-with-other-patterns.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:11 — Relations (with other patterns)"
-line_start: 15304
-line_end: 15340
+line_start: 15331
+line_end: 15367
 dependencies:
   - "A.1"
   - "A.19"
@@ -42,7 +42,7 @@ keywords:
 
 ### A.6.5:11 - Relations (with other patterns)
 
-**Specialises A.6.P `U.RelationalPrecisionRestorationSuite`.**
+**Specialises A.6.P Relational Precision Restoration (RPR).**
 A.6.5 is the RPR specialisation for “n‑ary relation as slots”: it restores hidden arity by making participant positions explicit as SlotKinds, and stabilises change semantics via the slot‑operation lexicon + lexical guards.
 
 

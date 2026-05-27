@@ -6,12 +6,12 @@ section_id: "G.7:11"
 section_title: "SoTA‑Echoing (post‑2015, for orientation; non‑normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__012_sota-echoing-post-2015-for-orientation-non-normative.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:11 — SoTA‑Echoing (post‑2015, for orientation; non‑normative)"
-line_start: 76088
-line_end: 76094
+line_start: 76298
+line_end: 76304
 dependencies:
   - "A.21"
   - "B.3"

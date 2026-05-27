@@ -6,12 +6,12 @@ section_id: "C.28:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__005_forces.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:3 — Forces"
-line_start: 48152
-line_end: 48162
+line_start: 48837
+line_end: 48847
 dependencies:
   - "A.10"
   - "A.15"

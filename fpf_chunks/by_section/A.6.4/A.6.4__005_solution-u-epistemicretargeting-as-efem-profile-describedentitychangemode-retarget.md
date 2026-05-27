@@ -6,7 +6,7 @@ section_id: "A.6.4:4"
 section_title: "Solution — U.EpistemicRetargeting as EFEM profile (describedEntityChangeMode = retarget)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-u-epistemicretargeting-as-efem-profile-describedentitychangemode-retarget.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism"
   - "A.6.4:4 — Solution — U.EpistemicRetargeting as EFEM profile (describedEntityChangeMode = retarget)"

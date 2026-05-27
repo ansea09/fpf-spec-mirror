@@ -6,12 +6,12 @@ section_id: "F.9.1:15"
 section_title: "Legacy-note repair and boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__016_legacy-note-repair-and-boundary.md"
-commit_sha: "ae1ff1c7a231a2ec78d244b40d7805a5538c6608"
+commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:15 — Legacy-note repair and boundary"
-line_start: 68508
-line_end: 68511
+line_start: 68713
+line_end: 68716
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"
