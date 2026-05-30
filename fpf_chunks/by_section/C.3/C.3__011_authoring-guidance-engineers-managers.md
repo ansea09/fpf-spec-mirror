@@ -6,12 +6,12 @@ section_id: "C.3:9"
 section_title: "Authoring guidance (engineers‑managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__011_authoring-guidance-engineers-managers.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:9 — Authoring guidance (engineers‑managers)"
-line_start: 37662
-line_end: 37722
+line_start: 37891
+line_end: 37951
 dependencies:
   - "A.1"
   - "A.2.6"

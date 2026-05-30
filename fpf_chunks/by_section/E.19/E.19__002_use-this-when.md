@@ -1,21 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.19"
-pattern_title: "Pattern Quality Gates: Review & Refresh Profiles"
+pattern_title: "Pattern Quality Gates: Review and Refresh Profiles"
 section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
+  - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 63082
-line_end: 63089
+line_start: 64433
+line_end: 64440
 dependencies:
   - "A.6.P"
   - "C.2.P"
   - "E.10"
+  - "E.21"
+  - "E.22"
+  - "E.23"
   - "E.8"
   - "E.9"
   - "F.18"
@@ -37,5 +40,5 @@ Use `E.19` when you need to decide whether one new, substantially revised, or ag
 
 Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, governed-object stability, terminology, SoTA support, related-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
 
-**Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use local patterns for the domain rule or constraint being reviewed. Use project gate or release patterns when the question is whether a project publication, work-result record, or release candidate passes a delivery gate rather than whether an FPF pattern is mature. `E.19` reviews whether an FPF pattern remains useful action guidance; it does not certify the world, the project, the publication, or the release.
+**Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use `E.9.DA` when the live question is whether one concrete `DRR` is adequate for a declared downstream authoring use before drafting or host amendment. Use `E.23` when the aim is repeated quality improvement against an object-under-improvement evaluation rather than one admission or refresh review profile. Use local patterns for the domain rule or constraint being reviewed. Use project gate or release patterns when the question is whether a project publication, work-result record, or release candidate passes a delivery gate rather than whether an FPF pattern is mature. `E.19` reviews whether an FPF pattern remains useful action guidance; it does not certify the world, the project, the publication, or the release.
 

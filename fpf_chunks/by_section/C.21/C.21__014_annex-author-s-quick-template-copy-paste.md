@@ -6,12 +6,12 @@ section_id: "C.21:13"
 section_title: "Annex — Author’s quick template (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__014_annex-author-s-quick-template-copy-paste.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:13 — Annex — Author’s quick template (copy-paste)"
-line_start: 42851
-line_end: 42870
+line_start: 43083
+line_end: 43102
 dependencies:
   - "A.17"
   - "A.18"

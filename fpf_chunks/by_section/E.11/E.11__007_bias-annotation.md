@@ -6,12 +6,12 @@ section_id: "E.11:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__007_bias-annotation.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:6 — Bias-Annotation"
-line_start: 57443
-line_end: 57453
+line_start: 58794
+line_end: 58804
 dependencies:
   - "A.6.RSIG"
   - "E.19"

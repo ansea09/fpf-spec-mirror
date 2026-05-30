@@ -6,12 +6,12 @@ section_id: "C.2.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__004_forces.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:3 — Forces"
-line_start: 36649
-line_end: 36655
+line_start: 36878
+line_end: 36884
 dependencies:
   - "A.16"
   - "A.16.0"

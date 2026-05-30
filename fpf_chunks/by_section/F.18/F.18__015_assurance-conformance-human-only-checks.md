@@ -6,12 +6,12 @@ section_id: "F.18:14"
 section_title: "Assurance & Conformance (human‑only checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__015_assurance-conformance-human-only-checks.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:14 — Assurance & Conformance (human‑only checks)"
-line_start: 71948
-line_end: 71981
+line_start: 74196
+line_end: 74229
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

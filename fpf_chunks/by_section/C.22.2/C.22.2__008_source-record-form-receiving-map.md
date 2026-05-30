@@ -6,12 +6,12 @@ section_id: "C.22.2:7"
 section_title: "Source Record-Form Receiving Map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__008_source-record-form-receiving-map.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:7 — Source Record-Form Receiving Map"
-line_start: 43548
-line_end: 43597
+line_start: 43781
+line_end: 43830
 dependencies:
   - "A.10"
   - "A.15"

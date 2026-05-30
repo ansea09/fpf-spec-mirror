@@ -6,12 +6,12 @@ section_id: "A.2.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__002_problem-frame.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.2.7 — U.RoleAlgebra: In‑Context Role Relations"
   - "A.2.7:1 — Problem frame"
-line_start: 4912
-line_end: 4930
+line_start: 4918
+line_end: 4936
 dependencies:
   - "A.1.1"
   - "A.15"

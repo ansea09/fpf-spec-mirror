@@ -6,12 +6,12 @@ section_id: "A.10:10a"
 section_title: "Evidence carriers for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__012_evidence-carriers-for-quantum-like-readings.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:10a — Evidence carriers for quantum-like readings"
-line_start: 19184
-line_end: 19217
+line_start: 19190
+line_end: 19223
 dependencies:
   - "A.1"
   - "A.10"

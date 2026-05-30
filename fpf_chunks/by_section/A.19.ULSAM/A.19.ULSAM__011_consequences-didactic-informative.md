@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:9"
 section_title: "Consequences (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__011_consequences-didactic-informative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:9 — Consequences (didactic, informative)"
-line_start: 26735
-line_end: 26743
+line_start: 26964
+line_end: 26972
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

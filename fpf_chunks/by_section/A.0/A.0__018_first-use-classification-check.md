@@ -6,12 +6,12 @@ section_id: "A.0:QF.2c"
 section_title: "First-use classification check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__018_first-use-classification-check.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2c — First-use classification check"
-line_start: 1105
-line_end: 1115
+line_start: 1111
+line_end: 1121
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

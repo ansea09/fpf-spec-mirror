@@ -6,18 +6,22 @@ section_id: "E.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54730
-line_end: 54742
+line_start: 55518
+line_end: 55530
 dependencies:
   - "E.10"
   - "E.19"
   - "E.2"
+  - "E.22"
+  - "E.23"
   - "E.5.4"
   - "E.8"
+  - "E.9"
+  - "E.9.DA"
 keywords:
 ---
 
@@ -33,4 +37,4 @@ keywords:
 | **Free paraphrase import** | The DRR restates a source-borne method, architecture claim, accepted basis, or reusable source passage in smoother prose but does not say whether it quoted, narrowed, instantiated, used as a decision basis, turned into draft guidance, kept example-only, or retired the source use. | The paraphrase can widen, weaken, or redirect the source while appearing to preserve it. | State the source-use result and loss and addition account, or keep the passage as an exact quote or example-only support. |
 
 
-| **Decorative SoTA appendix** | Sources are listed after the fact but do not shape the selected answer, boundary, or validation evidence obligation. | The record looks researched while the decision remains unchallenged by current practice. | State what each load-bearing source makes the DRR adopt, adapt, or reject, and which uncertainty would materially change the answer. |
+| **Decorative SoTA appendix** | Sources are listed after the fact or treated as SoTA because they are official, recent, popular, or famous, but they do not change the selected answer, boundary, or validation evidence obligation. | The record looks researched while the decision remains unchallenged by current best-known practice. | State what each load-bearing source makes the DRR adopt, adapt, or reject, why that source family is current for the governed problem under E.8, and which uncertainty would materially change the answer. |

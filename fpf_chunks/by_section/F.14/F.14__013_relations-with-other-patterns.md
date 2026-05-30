@@ -6,12 +6,12 @@ section_id: "F.14:12"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__013_relations-with-other-patterns.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:12 — Relations (with other patterns)"
-line_start: 70375
-line_end: 70387
+line_start: 72623
+line_end: 72635
 dependencies:
   - "F.1"
   - "F.10"

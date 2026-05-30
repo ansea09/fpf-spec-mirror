@@ -6,12 +6,12 @@ section_id: "A.0:QF.1a"
 section_title: "Helper declarations for set-result language"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__014_helper-declarations-for-set-result-language.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1a — Helper declarations for set-result language"
-line_start: 1034
-line_end: 1052
+line_start: 1040
+line_end: 1058
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

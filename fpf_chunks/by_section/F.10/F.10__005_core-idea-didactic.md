@@ -6,12 +6,12 @@ section_id: "F.10:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_core-idea-didactic.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:4 — Core idea (didactic)"
-line_start: 68816
-line_end: 68822
+line_start: 71064
+line_end: 71070
 dependencies:
   - "B.3"
   - "D.CTX"

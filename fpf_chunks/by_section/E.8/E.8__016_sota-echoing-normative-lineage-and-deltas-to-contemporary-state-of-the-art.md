@@ -6,22 +6,25 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-lineage-and-deltas-to-contemporary-state-of-the-art.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
-line_start: 54415
-line_end: 54446
+line_start: 55027
+line_end: 55062
 dependencies:
   - "E.10"
   - "E.19"
   - "E.21"
+  - "E.23"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
   - "E.7"
   - "E.8"
+  - "E.8.ECSPF"
   - "E.9"
+  - "E.9.DA"
   - "F.18"
 keywords:
   - "). The key words MUST"
@@ -47,14 +50,18 @@ keywords:
 
 ### E.8:11 - SoTA-Echoing  *(normative; lineage and deltas to contemporary State-of-the-Art)*
 
-**Purpose.** Make each pattern's relationship to contemporary best-known practice explicit and comparable without importing tooling or data governance. This section is prose-first and notation-independent. It does not mint an independent second rule source, but it is a load-bearing alignment section: the Solution, Conformance Checklist, Relations, worked cases, and other load-bearing sections must reflect the stance stated here or explicitly justify divergence.
+**Purpose.** Make each pattern's relationship to contemporary best-known problem-solving practice explicit and comparable without importing tooling or data governance. This section is prose-first and notation-independent. It does not mint an independent second rule source, but it is a load-bearing alignment section: the Solution, Conformance Checklist, Relations, worked cases, and other load-bearing sections must reflect the stance stated here or explicitly justify divergence.
 
-**Action-guidance test.** A SoTA row is accepted only when it changes what the pattern lets a working user do, what the pattern forbids them to over-read, which neighboring FPF pattern must apply, which evidence or validation obligation remains live, or how the Solution is written. A citation that only decorates the pattern or proves that the author has read a tradition does not carry E.8.
+**SoTA definition.** In FPF, `SoTA` names the best-known currently defensible problem-solving practice for the governed problem in the relevant domain or practice tradition. It is not official status, a recent edition, broad popularity, citation volume, institutional adoption, reputation, or familiar terminology. A standard, book, paper, benchmark, or practice report carries SoTA only when it states or justifies the current best-known answer for the governed problem; otherwise it is lineage, current-standard reference, rationale-only material, or rejected-popular-practice material.
+
+**Two-part SoTA test.** A row must pass both tests. First, the source family must be SoTA-bearing: it must represent the current best-known answer for the governed problem or a clearly named current branch of that answer. Second, the pattern must incorporate that answer by value: the adopted, adapted, or rejected stance must change `Solution`, boundary, anti-pattern, rationale, checklist, relation, worked case, evidence obligation, stop/reopen condition, or another load-bearing pattern locus. A current best-known source that changes no FPF locus is uncaptured SoTA; a citation that changes wording without being current best-known practice is not SoTA.
+
+**Incorporation test.** A SoTA row is accepted as live pattern grounding only when it changes what the pattern lets a working user do, what the pattern forbids them to over-read, which neighbouring FPF pattern must apply, which evidence or validation obligation remains live, or how the Solution and neighbouring load-bearing sections are written. A citation that only decorates the pattern or proves that the author has read a tradition does not carry E.8.
 
 **Minimum contents (obligations).**
 1) **Evidence binding (no duplicate SoTA).** If a **SoTA Synthesis Pack** exists (G.2), this section **SHALL cite** its **ClaimSheet IDs, CorpusLedger entries, and BridgeMatrix rows** as the governing evidence source for claims and report `adopt`, `adapt`, or `reject` **consistent with those IDs**. Avoid forking an untracked SoTA narrative.
 1a) **Accepted basis set, not DRR-only narrowing.** When a pattern is drafted under an accepted `DRR` and other accepted basis materials also exist by value, the `DRR` remains the decision and placement anchor, but `SoTA-Echoing`, neighboring-pattern relations, and any minimal modeling or mathematical lens **MAY** and **SHOULD** inherit non-conflicting material from that accepted basis set.
-2) **Sources (post-2015, or current-practice anchor).** For **Architectural patterns**, cite at least 3 primary SoTA sources such as standards, papers, or books, with at least **two independent Traditions**. For **Definitional patterns**, cite at least 1 current source or practice anchor for the reduced issue being governed: terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. If the best source is older but still current, mark it as current practice rather than treating SoTA as not applicable.
+2) **Sources (current problem-solving anchors, not prestige anchors).** For **Architectural patterns**, cite at least 3 primary SoTA anchors that carry current best-known answers for the governed problem, with at least **two independent Traditions** when more than one serious tradition is live. For **Definitional patterns**, cite at least 1 current source or practice anchor for the reduced issue being governed: terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. If the best source is older but still current, mark why it still answers the governed problem rather than treating source age, standard status, or popularity as SoTA by itself.
 3) **Best-known, not merely popular.** Authors **SHALL** distinguish best-known currently defensible practice from merely widespread or fashionable defaults. If the pattern adopts, adapts, or rejects a popular but less defensible practice, that divergence **MUST** be stated explicitly.
 3a) **Currentness and lineage status.** Older standards, early papers, and historically important examples may be cited as lineage only when later practice has materially changed the answer. They may carry a live SoTA row only when the pattern states why the anchor is still current for the governed problem or pairs it with a current source that supplies the live practice.
 3b) **Problem-domain and practice answerability.** The selected SoTA source family **MUST** answer the governed working problem and the relevant domain or practice tradition. It **MUST NOT** be selected only because it makes package placement, naming neatness, or pattern clustering easier to justify.

@@ -6,12 +6,12 @@ section_id: "C.13:5"
 section_title: "Archetypal Grounding (System / Episteme duo)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__006_archetypal-grounding-system-episteme-duo.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:5 — Archetypal Grounding (System / Episteme duo)"
-line_start: 40604
-line_end: 40632
+line_start: 40833
+line_end: 40861
 dependencies:
   - "A.14"
   - "B.3.5"

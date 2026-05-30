@@ -6,22 +6,25 @@ section_id: "E.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__017_relations.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:12 — Relations"
-line_start: 54447
-line_end: 54452
+line_start: 55063
+line_end: 55071
 dependencies:
   - "E.10"
   - "E.19"
   - "E.21"
+  - "E.23"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
   - "E.7"
   - "E.8"
+  - "E.8.ECSPF"
   - "E.9"
+  - "E.9.DA"
   - "F.18"
 keywords:
   - "). The key words MUST"
@@ -46,8 +49,11 @@ keywords:
 ---
 
 ### E.8:12 - Relations
+* **Coordinates with:** `E.9.DA` when an authored pattern body is drafted from a concrete `DRR` and the live blocker is whether the `DRR` selected, distributed, carried source use, carried accepted decisions, or supplied a first drafting move sufficiently for that authoring use. `E.8` still governs the pattern body; `E.9.DA` is not a mandatory authoring section, review card, or substitute for writing the Solution.
 
 * **Builds on:** E.6, E.7
 * **Constrained by:** Guard‑Rails E.5.1–E.5.4 (lexical firewall, notation independence, etc.)
 * **Coordinates with:** `E.21` when one authored FPF pattern version is read as a scoped pattern-quality claim. `E.8` governs authoring shape, recognition text, action guidance, worked cases, SoTA support, and conformance material; `E.21` governs the quality read, active characteristics, `PatternQualityStatus`, and stop condition. Do not import `E.21` as a mandatory authoring section or full review card.
+* **Coordinates with:** `E.23` when an authored FPF pattern body is being improved through repeated passes. `E.8` still governs the authored pattern body; `E.23` governs the repeated quality-improvement method; the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings.
+
 * **Constrains:** All patterns; the DRR template references the same section order.

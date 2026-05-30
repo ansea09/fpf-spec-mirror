@@ -6,12 +6,12 @@ section_id: "G.8:9"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:9 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 76720
-line_end: 76736
+line_start: 78968
+line_end: 78984
 dependencies:
   - "A.10"
   - "A.21"

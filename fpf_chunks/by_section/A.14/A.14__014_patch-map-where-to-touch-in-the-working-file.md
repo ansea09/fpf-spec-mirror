@@ -6,12 +6,12 @@ section_id: "A.14:13"
 section_title: "Patch map (where to touch in the working file)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__014_patch-map-where-to-touch-in-the-working-file.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:13 — Patch map (where to touch in the working file)"
-line_start: 19862
-line_end: 19879
+line_start: 19868
+line_end: 19885
 dependencies:
   - "A.1"
   - "B.1.1"

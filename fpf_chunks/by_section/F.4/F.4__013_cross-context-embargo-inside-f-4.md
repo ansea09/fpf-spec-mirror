@@ -6,12 +6,12 @@ section_id: "F.4:11.7"
 section_title: "Cross‑context embargo (inside F.4)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__013_cross-context-embargo-inside-f-4.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:11.7 — Cross‑context embargo (inside F.4)"
-line_start: 66712
-line_end: 66718
+line_start: 68960
+line_end: 68966
 dependencies:
   - "A.11"
   - "A.2.1"

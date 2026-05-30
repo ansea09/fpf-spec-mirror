@@ -6,21 +6,24 @@ section_id: "E.10:8"
 section_title: "Morphology & Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-lexical-form-lex-morph.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:8 — Morphology & Lexical Form (LEX.Morph)"
-line_start: 55774
-line_end: 56014
+line_start: 57125
+line_end: 57365
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.19.ECS"
   - "A.2"
   - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
   - "C.2.P"
+  - "E.22"
+  - "E.23"
   - "E.5"
   - "F.18"
   - "F.5"
@@ -78,7 +81,7 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 | **MapRef** | Pointer | Registry reference to a **Map** | Data fields / UTS | `DescriptorMapRef`. Pin the method phase via **`DescriptorMapRef.edition`**. |
 | **Def** | S‑layer alias (CG‑Spec family) | A **definition/specification publication** that fixes a **formula** or **distance** over a space; *synonym of …Spec* **within CG‑Spec registries only** | Part G (CG‑Spec family) | `DistanceDef` ≍ `DistanceSpec`. Prefer **…Spec** in new normative prose; **…Def** retained where already published. |
 | **DefRef** | Pointer | Registry reference to a **…Spec/…Def** | Data fields / UTS | `DistanceDefRef`. Use **`DistanceDefRef.edition`** to pin the exact formula edition. |
-| **Spec** | S‑layer | Testable invariants bound to acceptance harnesses | E.10 & A.21 | For stable, testable definitions; **normative** by default; S‑layer, Spec‑gated | Use for normative calculi and scoring/normalization specifications. |
+| **Spec** | S‑layer | Testable invariants bound to acceptance harnesses | E.10 and A.21 | Stable, testable definitions; **normative** by default; S‑layer, Spec‑gated. Use for normative calculi and scoring/normalization specifications. |
 | **Slot** | Structural position | Named **argument position** in a relation/morphism signature (SlotKind in A.6.5) | Kernel A.6.0/A.6.5 | `DescribedEntitySlot`, `GroundingHolonSlot`. Always names a *position*; never used for ValueKinds or episteme fields. |
 | **Ref** | Pointer | **Reference/identifier** to a registry item of some ValueKind (RefKind in A.6.5), not the thing itself | Data fields / UTS; RefKind types | `U.EntityRef`, `U.HolonRef`; episteme fields `…Ref : U.EntityRef`. Reserved for **RefKinds** and episteme fields typed as them; `…Ref` **never** carries content and is never used for ValueKinds or SlotKinds. |
 | **Series** | Governance object | A **PhaseOf chain** (“editions”) for an episteme | Edition governance | `U.EditionSeries`. Holds immutability and provenance rules. |

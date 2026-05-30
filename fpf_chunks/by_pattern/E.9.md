@@ -6,23 +6,27 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
-line_start: 54454
-line_end: 54794
+line_start: 55239
+line_end: 55588
 dependencies:
   - "E.10"
   - "E.19"
   - "E.2"
+  - "E.22"
+  - "E.23"
   - "E.5.4"
   - "E.8"
+  - "E.9"
+  - "E.9.DA"
 keywords:
 ---
 
 ## E.9 - Design‑Rationale Record (DRR) Method
 
-> **Type:** Governance / authoring pattern
+> **Type:** Governance and authoring pattern
 > **Status:** Stable
 > **Normativity:** Normative
 
@@ -33,7 +37,7 @@ keywords:
 - one bounded content decision question would otherwise force authors to decide the same load-bearing answer separately across several patterns or selected non-pattern FPF kind-reference pairs
 - one deprecation, narrowing, or cross-pattern amendment must stay reviewable without reconstructing intent from patch history, chat memory, or scattered notes
 
-**Not this pattern when.** Do not use `E.9` as the permanent location of normative Core law, as a campaign/process brief, or as the main vehicle for purely editorial `Δ‑0/Δ‑1` cleanup that fits the lightweight variant in `CC‑DRR.5`.
+**Not this pattern when.** Do not use `E.9` as the permanent location of normative Core law, as a campaign or process brief, or as the main vehicle for purely editorial `Delta-0` or `Delta-1` cleanup that fits the lightweight variant in `CC-DRR.5`. Use `E.9.DA` when one concrete `DRR` already exists and the live question is whether its selected answer, receiving-locus obligations, source use, lexical closure, and drafting actionability are adequate for a declared downstream authoring use.
 
 ### E.9:0.1 - What goes wrong if missed
 
@@ -50,9 +54,9 @@ keywords:
 
 **First useful move.** State the bounded FPF content decision question, the selected answer, the rationale for that answer, and the selected distribution across patterns or selected non-pattern FPF kind-reference pairs before drafting or landing the Core text.
 
-**Cheap stop.** If the live change is ordinary local wording repair, application of an already accepted pattern, or editorial cleanup that does not change FPF semantics, obligations, boundaries, names, admissible uses, or normative force, do not open a full DRR. Use the lighter governing pattern for the local repair: `E.17.AUD.LHR` for one overloaded local lexical head inside one publication unit, `C.2.P` for one episteme/publication/source-transfer phrase requiring local epistemic precision restoration, `E.10` for general lexical repair, `F.18` only when a durable reusable name is being minted, and `E.8` for authoring-form correction. Leave `E.9` for bounded content decisions that need rationale by value.
+**Cheap stop.** If the live change is ordinary local wording repair, application of an already accepted pattern, or editorial cleanup that does not change FPF semantics, obligations, boundaries, names, admissible uses, or normative force, do not open a full DRR. Use the lighter governing pattern for the local repair: `E.17.AUD.LHR` for one overloaded local lexical head inside one publication unit, `C.2.P` for one episteme, publication, or source-transfer phrase requiring local epistemic precision restoration, `E.10` for general lexical repair, `F.18` only when a durable reusable name is being minted, and `E.8` for authoring-form correction. Leave `E.9` for bounded content decisions that need rationale by value.
 
-**Governed object in plain terms.** The governed object here is one external decision-rationale record for one bounded FPF content decision or one bounded coordinated change set. The minimal lens is simple: the record must keep the problem frame, decision, rationale, consequences, and impact/boundary account recoverable enough that accepted content can be distributed into the selected Core patterns and selected non-pattern FPF kind-reference pairs without semantic invention.
+**Governed object in plain terms.** The governed object here is one external decision-rationale record for one bounded FPF content decision or one bounded coordinated change set. The minimal lens is simple: the record must keep the problem frame, decision, rationale, consequences, and impact and boundary account recoverable enough that accepted content can be distributed into the selected Core patterns and selected non-pattern FPF kind-reference pairs without semantic invention.
 
 **Primary working reader.** The first working reader is an FPF author, reviewer, or steward who must evaluate, challenge, or land one bounded content decision. Downstream pattern readers benefit from the landed Core text; they are not the primary reader of the DRR itself.
 
@@ -136,7 +140,7 @@ substantive DRR adequacy rather than later review-only hardening.
 | **Convergence and overlap account when several content-decision branches touch the same carrier set** | Whether overlap is valid convergence or one reopened architecture smell, what agreement across selected patterns and selected non-pattern FPF kind-reference pairs must hold, and whether a new pattern or selected non-pattern FPF kind-reference pair is actually selected or refused now. | Decision and Consequences. |
 | **Selected-answer stability boundary** | Which elements of the selected answer are fixed now for later FPF drafting, and which later elaborations may strengthen wording, examples, or support without reopening the selected answer. | Decision and Consequences. |
 | **Impact, practical gains, and remaining validation evidence obligation** | Affected patterns and selected non-pattern FPF kind-reference pairs, practical gains/costs, authority or release consequences when they follow from the content decision, and the remaining validation evidence obligation that still constrains later authoring or landing. | Consequences. |
-| **SoTA and competitive-positioning account when load-bearing** | Current anchors that discipline the decision, what problem-owning domain or practice they answer to, and what unresolved uncertainty would materially change the selected answer. | Problem frame, Rationale, and Consequences. |
+| **SoTA and competitive-positioning account when load-bearing** | Current best-known problem-solving anchors under E.8 that discipline the decision, what problem-owning domain or practice they answer to, which official/popular/legacy alternatives they reject or bound when live, and what unresolved uncertainty would materially change the selected answer. | Problem frame, Rationale, and Consequences. |
 
 These decision-support content blocks are not separate process paperwork. A DRR that keeps
 only the four labels while leaving basis, first-minute use question, naming,
@@ -213,6 +217,9 @@ SoTA‑Echoing, recognition surfaces, local wording inside the selected patterns
 declared loss/recoverability regime. Any such revision **SHALL** be handled
 through one successor DRR or other named successor decision record.
 
+A `DRR` may itself be improved through `E.23`, but the `DRR` remains the selected decision record, not a full pattern draft. When SoTA is load-bearing in that improvement, it must mutate the selected answer, receiving-locus obligation, boundary, example, validation obligation, or reopen condition; otherwise it is rationale-only or lineage-only for the DRR.
+
+
 To preserve **P‑2 Didactic Primacy** without duplicating meta‑text,
 authors landing an accepted DRR **SHOULD** distill stable and reusable
 parts of its *Rationale*, *Consequences*, and other valid convergence
@@ -244,10 +251,10 @@ The `DRR` names:
 - the source-use result for that passage or basis: exact quote, narrowed scope, instantiated case, decision-bearing use, draft-guidance source, example-only use, or retired source use;
 - any meaning loss or addition created by that source-use result: changed scope, relation, evidence basis, admissible use, non-admissible use, reader move, or recoverability condition;
 - the first improved FPF use that the admitted method gives to an author, reviewer, or downstream FPF user;
-- the current disposition: selected now, inherited sufficient, rejected now, or outside the current decision with the named receiving pattern, accepted `DRR`, or accepted basis named by value.
+- the current disposition: selected now, inherited sufficient, rejected now, or outside the current decision with the named evaluation pattern, accepted `DRR`, or accepted basis named by value.
 
 
-Reusable process-source method is not limited to semio wording or pattern-authoring language. It may enter FPF only when it is separable from local process mechanics, improves FPF use, and has one exact receiving pattern. After the method lands in FPF, process documents should cite the receiving FPF pattern instead of keeping a parallel long-form rule.
+Reusable process-source method is not limited to semio wording or pattern-authoring language. It may enter FPF only when it is separable from local process mechanics, improves FPF use, and has one exact evaluation pattern. After the method lands in FPF, process documents should cite the receiving FPF pattern instead of keeping a parallel long-form rule.
 ### E.9:5 - Archetypal Grounding (System / Episteme)
 
 | Holon flavour | DRR analogue | Minimum kernel illustrated |
@@ -287,14 +294,14 @@ Scope: this bias annotation is universal for FPF semantic changes governed by `E
 | **CC‑DRR.2** | A conforming DRR **MUST** include a rationale account that compares the materially live alternatives and assesses the selected proposal against **all Eleven Pillars** and the five Principle‑Taxonomy lenses (`Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`). | Keeps evolution aligned, comparative, and cross‑disciplinary. |
 | **CC‑DRR.3** | The DRR **SHALL** list every pattern, selected non-pattern FPF kind-reference pair, or neighboring pattern or selected non-pattern FPF kind-reference pair that it supersedes, amends, excludes from the current decision, assigns to a neighboring pattern or selected non-pattern FPF kind-reference pair, or risks impacting, together with any agreement across selected patterns and selected non-pattern FPF kind-reference pairs the selected patterns and selected non-pattern FPF kind-reference pairs must preserve. It **MUST** also make clear why the selected patterns and selected non-pattern FPF kind-reference pairs carry the content, which tempting patterns or selected non-pattern FPF kind-reference pairs stay outside, and, when several content-decision branches touch the same carrier set, whether that overlap is valid convergence or one reopened architecture smell. | Maintains an explicit impact/boundary graph for coordinated changes. |
 | **CC‑DRR.3a (practical and validation consequences are explicit)** | The Consequences account **MUST** expose the practical change in use, practical gains/costs, affected patterns and selected non-pattern FPF kind-reference pairs, and any remaining content-scope validation evidence obligation or authority/release consequence that still constrains the selected decision by value. | Prevents consequences from collapsing into generic optimism or process-order prose. |
-| **CC‑DRR.3b (SoTA shapes the decision when load-bearing)** | When SoTA or competitive positioning is load-bearing, the DRR **MUST** make the current SoTA basis and any uncertainty that would materially change the decision recoverable by value. A literature overview that does not shape the selected answer, boundary, or validation evidence obligation is non-conforming. | Keeps SoTA from becoming decorative appendix material. |
+| **CC‑DRR.3b (SoTA shapes the decision when load-bearing)** | When SoTA or competitive positioning is load-bearing, the DRR **MUST** make the current SoTA basis recoverable under E.8, state why it is current best-known problem-solving practice for the governed problem rather than merely official, recent, popular, or familiar, and state any uncertainty that would materially change the decision. A literature overview that does not shape the selected answer, boundary, or validation evidence obligation is non-conforming. | Keeps SoTA from becoming decorative appendix material or prestige-source substitution. |
 | **CC‑DRR.4** | An accepted DRR **SHALL** have its Decision account landed in the Core as the normative change. When that DRR temporarily carries richer convergence content, authors landing it **SHOULD** distribute any part that stabilizes into enduring FPF content into the relevant Core patterns and selected non-pattern FPF kind-reference pairs. Authors **MAY** distill other DRR sections into **informative** pattern sections (Rationale/Consequences/SoTA‑Echoing/Grounding), but they **SHALL NOT** introduce new normative constraints except via explicit `NORM`/`A`/`D`/`GOV` text. | Preserves Core authority while allowing a richer temporary convergence record. |
 | **CC‑DRR.4a (separate-law content proliferation is blocked)** | If the DRR needs compact law/check content, it **SHOULD** keep that content as one decision-law section or as obligations on selected existing amendment targets. It **MUST NOT** mint a separate `law sheet`, `profile`, selected non-pattern FPF kind-reference pair, or checklist unless that separate selected non-pattern FPF kind-reference pair is selected by value and shown not to duplicate the DRR or the selected amendment targets. | Prevents unnecessary separate-support proliferation and shadow-law duplication. |
 | **CC‑DRR.4b (current decision object remains singular)** | A conforming DRR **MUST** remain one current content decision object. It **MUST NOT** carry process-order/gate/handoff/process posture, mutable status, or hidden same-decision future-planning language; any undecided remainder **MUST** be marked outside the current decision with named pattern, selected non-pattern FPF kind-reference pair, or decision record. | Keeps the DRR ontologically about the FPF decision rather than about the development container. |
 | **CC‑DRR.4c (downstream authoring stays inside the accepted decision)** | Authors drafting from an accepted DRR **MAY** elaborate examples, SoTA‑Echoing, recognition surfaces, local wording inside the selected patterns and selected non-pattern FPF kind-reference pairs, and neighboring fit, but they **SHALL NOT** silently revise the selected answer, selected patterns and selected non-pattern FPF kind-reference pairs, outside-current-decision boundary, reusable-support disposition, or declared loss/recoverability regime. Any such revision **SHALL** be handled through one successor DRR or other named successor decision record. | Keeps later pattern drafting from re-deciding bounded content by drift. |
 | **CC‑DRR.4d (major decision gaps are not left to drafting-time invention)** | A conforming DRR **MUST NOT** leave materially live selected-answer branch choices about the governed object, selected patterns and selected non-pattern FPF kind-reference pairs, outside-current-decision boundary, reusable-support disposition, or loss/recoverability regime to be discovered case-by-case during later pattern drafting or drafting for one selected non-pattern FPF kind-reference pair. Those choices **MUST** already be selected, rejected, inherited unchanged, or placed outside the current decision with named pattern, selected non-pattern FPF kind-reference pair, or decision record. | Ensures the DRR actually coordinates one bounded change set rather than serving as a thin preface to later rediscovery. |
 | **CC‑DRR.5** | A DRR for minor, non‑substantive edits (Δ‑0/Δ‑1; e.g., typos, wording clarity, didactic rearrangements) **MAY** use a lightweight variant containing Problem‑frame (Context) + Decision only (“no semantic change”), provided it does not alter semantics. | Avoids bureaucratic drag on editorial work. |
-| **CC‑DRR.6 (evidence boundary)** | For Δ‑2/Δ‑3 lexical or authoring-sensitive changes, the DRR **SHALL** state the content-scope evidence or validation evidence obligation that bears on the decision, and it **MAY** summarize already-available decisive evidence by value when that evidence materially shapes the chosen content. The DRR **SHALL NOT** need a LAT id, run-manifest id, gate id, packet id, or other authoring-evidence citation in order to count as complete; those remain in the relevant evidence or authoring record. If later LAT or refresh evidence motivates reopening or revising the decision, that later evidence belongs in a successor DRR or other named successor decision record rather than being retrofitted into the accepted DRR. | Keeps the DRR a design-rationale record while preserving re-runnable evidence in its own evidence or authoring record. |
+| **CC‑DRR.6 (evidence boundary)** | For Δ‑2/Δ‑3 lexical or authoring-sensitive changes, the DRR **SHALL** state the content-scope evidence or validation evidence obligation that bears on the decision, and it **MAY** summarize already-available decisive evidence by value when that evidence materially shapes the chosen content. The DRR **SHALL NOT** need a LAT id, run-manifest id, gate id, packet id, or other authoring-evidence citation in order to count as complete; those remain in the relevant evidence or authoring record. If later LAT or refresh evidence motivates reopening or revising the decision, that later evidence belongs in a successor DRR or other named successor decision record rather than being retrofitted into the accepted DRR. | Keeps the DRR a design-rationale record while preserving re-runnable evidence in the relevant evidence or authoring record. |
 
 ### E.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -308,7 +315,7 @@ Scope: this bias annotation is universal for FPF semantic changes governed by `E
 | **Free paraphrase import** | The DRR restates a source-borne method, architecture claim, accepted basis, or reusable source passage in smoother prose but does not say whether it quoted, narrowed, instantiated, used as a decision basis, turned into draft guidance, kept example-only, or retired the source use. | The paraphrase can widen, weaken, or redirect the source while appearing to preserve it. | State the source-use result and loss and addition account, or keep the passage as an exact quote or example-only support. |
 
 
-| **Decorative SoTA appendix** | Sources are listed after the fact but do not shape the selected answer, boundary, or validation evidence obligation. | The record looks researched while the decision remains unchallenged by current practice. | State what each load-bearing source makes the DRR adopt, adapt, or reject, and which uncertainty would materially change the answer. |
+| **Decorative SoTA appendix** | Sources are listed after the fact or treated as SoTA because they are official, recent, popular, or famous, but they do not change the selected answer, boundary, or validation evidence obligation. | The record looks researched while the decision remains unchallenged by current best-known practice. | State what each load-bearing source makes the DRR adopt, adapt, or reject, why that source family is current for the governed problem under E.8, and which uncertainty would materially change the answer. |
 ### E.9:9 - Consequences
 
 | Benefits | Trade‑offs / Mitigations |
@@ -351,13 +358,19 @@ content answer that FPF is selecting.
 | **Continuous and evolutionary architecture decision-record practice** | Decision records are revisitable support for evolving systems. FPF keeps mutable process state out of the DRR and handles reopened content with a successor decision record. | Reject turning the DRR into a live status log, gate diary, or permanent shadow law. |
 | **Research and design-rationale traditions around alternatives and trade-off capture** | Rejected alternatives and trade-offs must remain recoverable enough that future authors do not re-litigate or silently reverse the selected answer. FPF adapts this through the Eleven Pillars and Principle-Taxonomy lenses. | Reject recording only the selected answer while leaving why-this-not-that implicit. |
 
-The practical gain is content-selection quality under semantic load: the DRR decides the selected answer, alternatives, losses, boundary, and distribution target before pattern drafting begins. Any durable rule, example, or support obligation that remains useful after acceptance belongs in the selected FPF pattern or selected non-pattern FPF kind-reference pair, not in the DRR as a permanent shadow canon.
+The practical gain is content-selection quality under semantic load: the DRR decides the selected answer, alternatives, losses, boundary, and receiving loci before pattern drafting begins. Any durable rule, example, or content obligation that remains useful after acceptance belongs in the selected FPF pattern or selected non-pattern FPF kind-reference pair, not in the DRR as a permanent shadow canon.
+
+When a DRR relies on a source document, workstream plan, campaign queue, external review packet, standard, article, ADR-like note, or prior accepted decision, it states the source posture and carries the selected payload by value: adopt, adapt, reject, lineage-only, rationale-only, selected payload, rejected or non-carried payload, source loss, receiving locus, non-use boundary, and reopen condition. A cited source is not FPF doctrine, child DRR, review result, gate, evidence sufficiency, or monolith landing source by citation alone.
 
 ### E.9:12 - Relations
 
 * **Instantiates:** P‑10 Open‑Ended Evolution, P‑2 Didactic Primacy
 * **Template governed by:** `pat:authoring/pattern‑template` (E.8)
 * **Interacts with:** `pat:guard/bias‑audit` (E.5.4) via lens check
-* **Complemented by:** `pat:authoring/code‑of‑conduct` (E.12) – etiquette for DRR debate
+* **Complemented by:** `E.9.DA` when one concrete `DRR` follows E.9 form but its adequacy for downstream drafting, host amendment, accepted-decision carry-through, source-use carry-through, or receiving-locus distribution is disputed or materially live. `E.9.DA` reads the `DRR` decision-adequacy claim; it is not a second DRR form, review gate, or mandatory ordinary editorial step. Also complemented by `pat:authoring/code-of-conduct` (E.12) for etiquette in DRR debate.
+
+* **Coordinates with:** `E.23` when one `DRR` is being improved through repeated quality-improvement passes. `E.9` keeps the `DRR` kind and decision-record form; `E.9.DA` supplies the decision-adequacy object-under-improvement evaluation when adequacy is live; `E.23` governs the repeated method rather than turning the DRR into final pattern prose.
+
 
 ### E.9:End
+

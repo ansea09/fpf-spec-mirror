@@ -6,12 +6,12 @@ section_id: "A.19:7"
 section_title: "Anti‑patterns → safe rewrites"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__009_anti-patterns-safe-rewrites.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:7 — Anti‑patterns → safe rewrites"
-line_start: 23326
-line_end: 23353
+line_start: 23332
+line_end: 23359
 dependencies:
   - "A.17"
   - "A.18"

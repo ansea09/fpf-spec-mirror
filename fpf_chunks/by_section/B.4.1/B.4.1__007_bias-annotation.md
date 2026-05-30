@@ -6,12 +6,12 @@ section_id: "B.4.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__007_bias-annotation.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:6 — Bias-Annotation"
-line_start: 32617
-line_end: 32619
+line_start: 32846
+line_end: 32848
 dependencies:
   - "A.15"
   - "A.16"

@@ -6,19 +6,22 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.1.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
-line_start: 43088
-line_end: 43234
+line_start: 43320
+line_end: 43467
 dependencies:
   - "A.15"
   - "C.19.1"
   - "C.22"
+  - "C.22.1"
   - "C.24"
   - "E.10"
   - "E.16"
   - "E.19"
+  - "E.22"
+  - "E.23"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -123,35 +126,34 @@ FPF needs one compact way to publish a bounded specialization claim on the same 
 ### C.22.1:10 - Consequences
 
 - Threshold speed, budget burn, prior exposure, and post-threshold efficiency become part of the same reviewable object instead of one after-the-fact prose explanation.
-- Selector and parity surfaces can consume a stable upstream specialization object without minting shadow vocabularies.
+- Selector and parity pattern applications can consume a stable upstream specialization object without minting shadow vocabularies.
 - Corridor-entry and downside fields stay visible in the same claim that celebrates the specialization gain, reducing romanticized novelty talk.
 
 ### C.22.1:11 - Rationale
 
-The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit. `A.15`, `C.24`, and `E.16` may generate the probe, checkpoint, and budget evidence. `G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those surfaces by making threshold timing, reuse, downside, and corridor-entry field recoverable in one short read instead of forcing the reader to reconstruct it from scattered notes.
+The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit. `A.15`, `C.24`, and `E.16` may generate the probe, checkpoint, and budget evidence. `G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those neighbouring pattern applications by making threshold timing, reuse, downside, and corridor-entry field recoverable in one short read instead of forcing the reader to reconstruct it from scattered notes.
 
 ### C.22.1:12 - SoTA-Echoing
 
 **Claim 1.** Current frontier adaptation work judges usable specialization by threshold-crossing under bounded resources, not by terminal score alone.
 
-**Practice source, local alignment, and adoption decision.** Contemporary frontier lines in refinement-heavy `QD`, self-play/task-discovery, and agentic adaptation repeatedly separate threshold target, budget burn, transfer evidence, and reuse evidence from one final benchmark score. This pattern **adopts** that practical field set, **adapts** it through one `TaskFamilyRef` or `TaskSignature`-bound adaptation signature, and **rejects** generic `got better` narratives that leave threshold and budget semantics implicit.
+**Practice source, local alignment, and adoption decision.** Current QD and agentic-adaptation sources such as `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, Swarm and Evolutionary Computation 100:102240 (2026), FactorMiner `arXiv:2602.14670v1` (2026-02-16), and SkillOpt `arXiv:2605.23904v2` (2026-05-25) repeatedly separate threshold target, budget burn, transfer evidence, reuse evidence, and changed object/version from one final benchmark score. This pattern **adopts** that practical field set, **adapts** it through one `TaskFamilyRef` or `TaskSignature`-bound adaptation signature, and **rejects** generic `got better` narratives that leave threshold and budget semantics implicit.
 
 **Claim 2.** Current open-ended exploration work treats corridor entry and stepping stones as evidence-bearing novelty signals rather than decorative commentary.
 
-**Practice source, local alignment, and adoption decision.** Contemporary `QD`/`OEE` and nonhuman-domain exploration lines distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline or evidence basis.
+**Practice source, local alignment, and adoption decision.** Current `QD`/`OEE` source posture plus current FPF `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` neighbours distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline, evidence source, or evidence locus.
 
 **Claim 3.** Current selector and parity practice needs one stable shared field set for specialization claims.
 
-**Practice source, local alignment, and adoption decision.** Current selector and parity surfaces stay reviewable only when compared candidates reuse the same published field set for threshold, prior exposure, transfer, retention, downside, and corridor-entry field. This pattern **adopts** that reuse discipline, **adapts** it by publishing one stable adaptation-signature field set here, and **rejects** silent downstream field redefinition in `G.5` or `G.9`.
+**Practice source, local alignment, and adoption decision.** Current FPF selector and parity neighbours keep compared candidates reviewable only when candidates reuse the same published field set for threshold, prior exposure, transfer, retention, downside, and corridor-entry field. This pattern **adopts** that reuse discipline, **adapts** it by publishing one stable adaptation-signature field set here, and **rejects** silent downstream field redefinition in `G.5` or `G.9`.
 
-**Evidence-source note.** Peer-reviewed frontier anchors carry the most direct support for threshold, budget, and parity claims, while fast-moving frontier lines remain explicit support for corridor-entry and open-ended exploration pressure rather than a flattened single evidence-support status.
+**Evidence-source note.** Peer-reviewed or archived frontier anchors carry the most direct evidence for threshold, budget, and parity claims. Fast-moving frontier lines remain explicit evidence for corridor-entry and open-ended exploration pressure only when the row names their local contribution; they are not a flattened single evidence status.
 
-| Source-bound anchor family | What it disciplines in this pattern |
-| --- | --- |
-| `QD` / `OEE` corridor-entry work | Corridor baseline, descriptor shift, stepping-stone evidence, and whether novelty is reproducible rather than one exotic sample. |
-| Agentic adaptation benchmarks | Threshold target, time-to-threshold, budget-to-threshold, prior exposure, and post-threshold efficiency under a declared task-family anchor. |
-| Transfer / retention evaluation | Transfer target, retention window, downside, and reuse evidence so specialization speed is not confused with one isolated threshold crossing. |
-
+| Source-bound anchor family | Source posture | What it disciplines in this pattern |
+| --- | --- | --- |
+| `QD` / `OEE` corridor-entry work | Current QD overview plus current FPF OEE/NQD neighbours. | Corridor baseline, descriptor shift, stepping-stone evidence, and whether novelty is reproducible rather than one exotic sample. |
+| Agentic adaptation benchmarks | Current narrow source lines such as FactorMiner and SkillOpt when the task family is comparable. | Threshold target, time-to-threshold, budget-to-threshold, prior exposure, and post-threshold efficiency under a declared task-family anchor. |
+| Transfer / retention evaluation | Source posture supplied by the applying benchmark or neighbour pattern. | Transfer target, retention window, downside, and reuse evidence so specialization speed is not confused with one isolated threshold crossing. |
 ### C.22.1:13 - Relations
 
 **C.27 temporal-claim relation.**
@@ -164,21 +166,23 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 **Builds on:** `C.22` TaskSignature anchoring, `C.19.1` `BLP` compatibility, `A.15` role, method, work-plan, and work-occurrence separation, `C.24` scout/probe and `CheckpointReturn` semantics, `E.16` budget enforcement.
 **Coordinates with:** `G.5` selector specialization profiles, `G.9` adaptation parity, `G.11` later telemetry/refresh reuse.
+
+**Coordinates with:** `E.23` when a quality-improvement loop claims durable task-family specialization. `C.22.1` carries the adaptation-signature fields for threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, and corridor entry; it does not restate the `E.23` loop method, `E.22` review framing, or pattern-quality or DRR-adequacy object-under-improvement evaluations.
+
 **Constrained by:** `E.10` lexical discipline and `E.19` pattern-quality review when this child section is newly landed or materially revised.
 
 ### C.22.1:14 - Not this pattern when
 
 - the claim only needs to name the task family and work-measure threshold target, with no adaptation-speed or transfer claim at all; ordinary `C.22` anchoring is enough
 - the live question is already selector or parity law across candidate selected sets; that belongs to `G.5 / G.9`
-- the text cannot yet declare one work-measure threshold target, one prior-exposure stance, or one evidence basis for corridor entry
+- the text cannot yet declare one work-measure threshold target, one prior-exposure stance, or one evidence source or evidence locus for corridor entry
 
 ### C.22.1:15 - Conformance checklist
 
 - `CC-C22.1-1` An adaptation signature **SHALL** bind to one declared `TaskFamily` or `TaskSignature`, one work target, and one work-measure threshold target rather than one generic improvement story.
 - `CC-C22.1-2` An adaptation signature **SHALL** publish `timeToThreshold`, `budgetToThreshold`, and `priorExposureDeclaration`; if threshold was not reached, the signature **SHALL** say so explicitly instead of implying success.
-- `CC-C22.1-3` Any declared transfer, retention, post-threshold-efficiency, downside, corridor-entry, or stepping-stone claim **SHALL** be explicit by value with the target, baseline, or evidence basis named, not left as narrative garnish.
+- `CC-C22.1-3` Any declared transfer, retention, post-threshold-efficiency, downside, corridor-entry, or stepping-stone claim **SHALL** be explicit by value with the target, baseline, evidence source, or evidence locus named, not left as narrative garnish.
 - `CC-C22.1-4` This pattern may refine specialization timing and reuse claims over the declared `C.22` anchor, but it **SHALL NOT** redefine acceptance-gate thresholds, task-family attachment, or selector/parity law governed by another FPF pattern.
-- `CC-C22.1-5` Downstream selector/parity surfaces **SHALL** cite or consume the same published adaptation-signature field set rather than silently redefining threshold, prior-exposure, transfer, retention, downside, or corridor-entry terms.
+- `CC-C22.1-5` Downstream selector/parity pattern applications **SHALL** cite or consume the same published adaptation-signature field set rather than silently redefining threshold, prior-exposure, transfer, retention, downside, or corridor-entry terms.
 
 ### C.22.1:End
-

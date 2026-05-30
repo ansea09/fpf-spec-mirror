@@ -1,21 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.19"
-pattern_title: "Pattern Quality Gates: Review & Refresh Profiles"
+pattern_title: "Pattern Quality Gates: Review and Refresh Profiles"
 section_id: "E.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__004_what-this-buys.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
+  - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.2 — What this buys"
-line_start: 63094
-line_end: 63104
+line_start: 64445
+line_end: 64455
 dependencies:
   - "A.6.P"
   - "C.2.P"
   - "E.10"
+  - "E.21"
+  - "E.22"
+  - "E.23"
   - "E.8"
   - "E.9"
   - "F.18"

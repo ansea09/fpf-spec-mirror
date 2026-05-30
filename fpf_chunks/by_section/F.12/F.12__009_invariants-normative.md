@@ -6,12 +6,12 @@ section_id: "F.12:8"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__009_invariants-normative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:8 — Invariants (normative)"
-line_start: 69611
-line_end: 69623
+line_start: 71859
+line_end: 71871
 dependencies:
   - "A.2.3"
   - "F.1"

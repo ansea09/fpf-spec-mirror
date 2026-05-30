@@ -6,12 +6,12 @@ section_id: "F.18:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__003_context.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:1 — Context"
-line_start: 71436
-line_end: 71447
+line_start: 73684
+line_end: 73695
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

@@ -1,21 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.19"
-pattern_title: "Pattern Quality Gates: Review & Refresh Profiles"
+pattern_title: "Pattern Quality Gates: Review and Refresh Profiles"
 section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
+  - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 63710
-line_end: 63731
+line_start: 65066
+line_end: 65091
 dependencies:
   - "A.6.P"
   - "C.2.P"
   - "E.10"
+  - "E.21"
+  - "E.22"
+  - "E.23"
   - "E.8"
   - "E.9"
   - "F.18"
@@ -38,6 +41,10 @@ keywords:
   * `E.8` (authoring conventions; canonical section order; SoTA‑Echoing obligations)
   * `E.10` (lexical discipline and reserved vocabulary)
   * `E.9` (design rationale records for changes that affect semantics)
+  * `E.9.DA` (scoped DRR decision-adequacy reads before pattern drafting or host amendment; an `E.19` finding may expose that an upstream `DRR` did not decide enough, but `E.19` keeps the pattern-review finding while `E.9.DA` reads only the upstream `DRR` decision-adequacy claim. An `E.19` pass, return, or absence is not `E.9.DA` coordinate evidence.)
+  * `E.22` (improvement-oriented quality-read question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before the `E.19` review result is formed.)
+  * `E.23` (repeated quality-improvement method; an `E.19` profile can supply findings inside such a loop, but `E.23` governs repeated absorption, object-under-improvement evaluation re-read, method-family selection, and stop, narrow, continue, switch method, or hold decisions.)
+
   * `E.15` (authoring/evolution protocol; harness mindset; refresh planning)
   * `A.6.5` (slot discipline; SlotKind/ValueKind/refMode invariants)
 * **Coordinates with:**

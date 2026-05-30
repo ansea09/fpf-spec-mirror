@@ -6,12 +6,12 @@ section_id: "C.19.1:2"
 section_title: "Policy clauses (normative; synchronized with Core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__003_policy-clauses-normative-synchronized-with-core.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:2 — Policy clauses (normative; synchronized with Core)"
-line_start: 42472
-line_end: 42512
+line_start: 42701
+line_end: 42741
 dependencies:
   - "A.0"
   - "B.3"
@@ -19,6 +19,7 @@ dependencies:
   - "C.19"
   - "C.24"
   - "C.5"
+  - "E.23"
   - "E.3"
   - "E.5"
   - "F.7"
@@ -28,16 +29,12 @@ dependencies:
   - "G.8"
   - "G.9"
 keywords:
-  - "BLP-waiver"
   - "BLP‑waiver"
-  - "Bitter Lesson"
   - "Scale‑Audit"
   - "general‑method preference"
   - "iso‑scale parity"
-  - "scale-audit"
   - "scale‑amenability"
   - "slope vector"
-  - "task-family specialization"
   - "α/δ tolerances"
 ---
 
@@ -64,9 +61,9 @@ Among admissible options with comparable assurance (within **δ**) and budget (w
 > All overrides record a **BLP‑waiver** with rationale, responsible role, and expiry/review in the DRR.
 
 **BLP‑2.2 — Task-family specialization compatibility.**
-A bounded task-family specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, when it acts as a complementary bias that does not block scale, or when it survives the ordinary **BLP** comparison discipline on the same declared task family and work target. If the user is not claiming scale advantage or overriding a general method, a bounded task-family specialization may be used with explicit task family, work target, budget guard rails, and evidence basis. Full **Scale-Audit** is triggered by scale-advantage, override, selector-facing publication, publication-facing superiority, or durable reusable-method claim, not by the mere existence of specialization. `BLP` therefore governs whether the narrower current method was generated, compared, audited, waived, and overridden admissibly; it does **not** require the final local behavior at every moment to look maximally generic.
+A bounded task-family specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, when it acts as a complementary bias that does not block scale, or when it survives the ordinary **BLP** comparison discipline on the same declared task family and work target. If the user is not claiming scale advantage or overriding a general method, a bounded task-family specialization may be used with explicit task family, work target, budget guard rails, and evidence source or evidence locus. Full **Scale-Audit** is triggered by scale-advantage, override, selector-facing publication, publication-facing superiority, or durable reusable-method claim, not by the mere existence of specialization. `BLP` therefore governs whether the narrower current method was generated, compared, audited, waived, and overridden admissibly; it does **not** require the final local behavior at every moment to look maximally generic.
 
-Low-human-overlap or newly discovered approaches remain admissible when the task family, budget guard rails, and evidence basis are explicit by value and the same `Scale‑Audit`, `α/δ`, waiver, and override discipline is preserved.
+Low-human-overlap or newly discovered approaches remain admissible when the task family, budget guard rails, and evidence source or evidence locus are explicit by value and the same `Scale‑Audit`, `α/δ`, waiver, and override discipline is preserved.
 **BLP‑3 — Minimal‑prescription default.**
 Author **rules‑as‑prohibitions** (negative constraints) instead of stepwise scripts; encode limits in **Φ policy tables** (and **Φ_plane**) and allow agents to **sequence autonomously** within those constraints. Scripts are permissible only when mandated by safety/regulation or with compelling DRR evidence reviewed under E.3/E.5.
 

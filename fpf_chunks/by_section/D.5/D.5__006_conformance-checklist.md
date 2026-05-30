@@ -6,12 +6,12 @@ section_id: "D.5:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__006_conformance-checklist.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
   - "D.5:5 — Conformance Checklist"
-line_start: 52873
-line_end: 52885
+line_start: 53107
+line_end: 53119
 dependencies:
   - "B.3"
   - "B.3.3"

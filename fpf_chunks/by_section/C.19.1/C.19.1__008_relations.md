@@ -6,12 +6,12 @@ section_id: "C.19.1:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__008_relations.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:7 — Relations"
-line_start: 42547
-line_end: 42558
+line_start: 42777
+line_end: 42790
 dependencies:
   - "A.0"
   - "B.3"
@@ -19,6 +19,7 @@ dependencies:
   - "C.19"
   - "C.24"
   - "C.5"
+  - "E.23"
   - "E.3"
   - "E.5"
   - "F.7"
@@ -28,16 +29,12 @@ dependencies:
   - "G.8"
   - "G.9"
 keywords:
-  - "BLP-waiver"
   - "BLP‑waiver"
-  - "Bitter Lesson"
   - "Scale‑Audit"
   - "general‑method preference"
   - "iso‑scale parity"
-  - "scale-audit"
   - "scale‑amenability"
   - "slope vector"
-  - "task-family specialization"
   - "α/δ tolerances"
 ---
 
@@ -52,4 +49,6 @@ When a mathematical lens is chosen over a general, scale-amenable method because
 If scale advantage is live, cite a `Scale-Audit` or `BLP-waiver`. If scale advantage is not live, keep the mathematical lens local and bounded by its `C.29` stop condition.
 
 > *Memory hook.* **Prefer what scales; explain when you don’t.**
+
+When `E.23` selects between a Ralph-like general adaptive loop, a specialized object-family cycle, or a mixed operation-family set, `C.19.1` governs the BLP comparison and waiver discipline. The local `E.23` cost and risk prompt `token_or_compute_cost + tool_cost + adaptation_attempt_cost + human_supervision_cost + rework_cost - avoided_loss_value` is not a scalar quality score; it is a practical accepted-work cost account for deciding whether the next pass, added operation, or method-family switch is BLP-compatible. Repeated automation alone does not satisfy BLP; the record must still name the object under improvement, object-under-improvement evaluation, protected trade-offs, bounded cost and risk posture, and stop or switch condition.
 

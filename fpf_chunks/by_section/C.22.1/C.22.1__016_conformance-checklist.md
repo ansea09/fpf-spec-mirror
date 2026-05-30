@@ -6,20 +6,23 @@ section_id: "C.22.1:15"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__016_conformance-checklist.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:15 — Conformance checklist"
-line_start: 43225
-line_end: 43232
+line_start: 43459
+line_end: 43466
 dependencies:
   - "A.15"
   - "C.19.1"
   - "C.22"
+  - "C.22.1"
   - "C.24"
   - "E.10"
   - "E.16"
   - "E.19"
+  - "E.22"
+  - "E.23"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -40,7 +43,7 @@ keywords:
 
 - `CC-C22.1-1` An adaptation signature **SHALL** bind to one declared `TaskFamily` or `TaskSignature`, one work target, and one work-measure threshold target rather than one generic improvement story.
 - `CC-C22.1-2` An adaptation signature **SHALL** publish `timeToThreshold`, `budgetToThreshold`, and `priorExposureDeclaration`; if threshold was not reached, the signature **SHALL** say so explicitly instead of implying success.
-- `CC-C22.1-3` Any declared transfer, retention, post-threshold-efficiency, downside, corridor-entry, or stepping-stone claim **SHALL** be explicit by value with the target, baseline, or evidence basis named, not left as narrative garnish.
+- `CC-C22.1-3` Any declared transfer, retention, post-threshold-efficiency, downside, corridor-entry, or stepping-stone claim **SHALL** be explicit by value with the target, baseline, evidence source, or evidence locus named, not left as narrative garnish.
 - `CC-C22.1-4` This pattern may refine specialization timing and reuse claims over the declared `C.22` anchor, but it **SHALL NOT** redefine acceptance-gate thresholds, task-family attachment, or selector/parity law governed by another FPF pattern.
-- `CC-C22.1-5` Downstream selector/parity surfaces **SHALL** cite or consume the same published adaptation-signature field set rather than silently redefining threshold, prior-exposure, transfer, retention, downside, or corridor-entry terms.
+- `CC-C22.1-5` Downstream selector/parity pattern applications **SHALL** cite or consume the same published adaptation-signature field set rather than silently redefining threshold, prior-exposure, transfer, retention, downside, or corridor-entry terms.
 

@@ -1,59 +1,56 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.21"
-pattern_title: "FPF Pattern Quality Characteristic Space"
+pattern_title: "FPF Pattern-Quality Evaluation CharacteristicSpace"
 section_id: "E.21:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__013_relations.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.21 — FPF Pattern Quality Characteristic Space"
+  - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:12 — Relations"
-line_start: 65056
-line_end: 65100
+line_start: 66443
+line_end: 66492
 dependencies:
   - "A.17-A.19"
+  - "A.19.ECS"
   - "A.6.P"
-  - "A.6.Q"
   - "C.16"
   - "C.2.P"
   - "C.25"
+  - "E.10"
   - "E.11"
-  - "E.17.AUD"
   - "E.19"
+  - "E.2.DA"
+  - "E.22"
+  - "E.23"
   - "E.8"
+  - "E.9.DA"
   - "F.18"
   - "J.4"
 keywords:
-  - "Goodhart/proxy substitution"
-  - "Pareto/front comparison"
-  - "PatternQualityCharacteristicSpace"
-  - "PatternQualityQBundle"
-  - "activation-normalized coordinates"
   - "and admissibility predicates are not written as duties"
-  - "bounded non-use"
-  - "coordinate evidence"
   - "definitions"
-  - "eligibility filters"
-  - "first move"
   - "invariants"
-  - "pattern quality"
   - "state agent obligations only"
-  - "stop condition"
   - "typing rules"
 ---
 
 ### E.21:12 - Relations
 
-| Neighbour | Neighbour owns | `E.21` may use | `E.21` shall not do |
+| Neighbour | Neighbour governs | `E.21` may use | `E.21` shall not do |
 |---|---|---|---|
 | `E.8` | Pattern authoring body and action-guiding structure. | Read whether the body supports declared pattern-quality use. | Add mandatory authoring sections or move Solution guidance into the quality bundle. |
 | `E.19` | Review profiles, findings, admission/refresh outcome. | Use findings as content evidence when they identify pattern-content defects or strengths. | Treat review pass, return, or absence as a coordinate value or project certificate. |
+| `E.22` | Quality-read question framing before a quality read, review, improvement request, open-question discovery, or absorption pass. | Use `QualityReadQuestionFrame` to distinguish `floorRead`, `exceptionalImprovementRead`, `paretoTradeoffRead`, `openQuestionDiscoveryRead`, and `absorptionRead` before an `E.21` result shape is chosen. | Treat the question frame as coordinate evidence, pattern-quality status, review result, or project-side approval. |
+| `E.23` | Repeated quality-improvement method. | Improve one pattern version through repeated `E.22`-framed reads and `E.21` re-reads when exceptional improvement, absorption impact, or trade-off inspection remains live. | Define pattern-quality coordinates, replace `PatternQualityQBundle`, or treat loop continuation, discharge, landing, or praise as a coordinate value. |
+
+| `E.9.DA` | DRR decision-adequacy reads before downstream authoring use. | Open only when a pattern-quality defect traces to an upstream `DRR` whose selected answer, receiving-locus disposition, source-use carry-through, accepted-decision carry-through, or architecture selection is missing, vague, unassigned, source-theatre-like, or architecture-by-addressing. | Treat upstream `DRR` adequacy as a pattern-quality coordinate, require `E.9.DA` before ordinary `E.21` first-pass reads, or reuse pattern-quality coordinates to judge the `DRR` as if it were an authored pattern body. |
 | `C.25` | General Q-Bundle normal form. | Specialise Q-Bundle for FPF pattern quality. | Replace arbitrary engineering quality-family bundling. |
-| `A.17`/`A.18`/`A.19`/`C.16` | Characteristic, scale, coordinate, measurement legality. | Use ordinal content readings and cite measurement law when live. | Convert ordinal readings into metrics, scores, percentages, or averages. |
-| `F.18`/`E.10`/`A.6.P`/`C.2.P` | Naming, lexical, relation, epistemic precision restoration. | Require recoverable kind, relation, and admissible use for load-bearing heads. | Mint durable cross-pattern names by convenience. |
-| `A.10`/`B.3`/`A.20`/`A.21`/`A.15` | Project evidence, assurance, local CV status, gates, work. | Keep project-side reuse under exact receiving patterns. | Certify project safety, compliance, gate passage, release, work authority, or publication truth. |
+| `A.17`, `A.18`, `A.19`, `C.16` | Characteristic, scale, coordinate, measurement legality. | Use ordinal content readings and cite measurement law when live. | Convert ordinal readings into numeric measures, scores, percentages, or averages. |
+| `F.18`, `E.10`, `A.6.P`, `C.2.P` | Naming, lexical, relation, epistemic precision restoration. | Require recoverable kind, relation, and admissible use for load-bearing heads. | Mint durable cross-pattern names by convenience. |
+| `A.10`, `B.3`, `A.20`, `A.21`, `A.15` | Project evidence, assurance, local CV status, gates, work. | Keep project-side reuse under exact receiving patterns. | Certify project safety, compliance, gate passage, release, work authority, or publication truth. |
 
 **Coordinates with `E.11` and `J.4`.**
 `E.21` is the governing pattern when the live question is: "Is this FPF pattern version good enough for this declared reader/use/scope, and may improvement stop?"
@@ -62,8 +59,9 @@ keywords:
 
 * how to write the pattern body (`E.8`);
 * which admission/refresh review profile to run (`E.19`);
+* how to frame the quality-read purpose before the pattern-quality read (`E.22`);
 * how to repair entry discoverability or wrong-pattern selection (`E.11`);
-* how to recover overloaded quality language generally (`A.6.Q` / `C.25`).
+* how to recover overloaded quality language generally (`A.6.Q` or `C.25`).
 
 If `E.21` changes `Preface`, `J.4`, ToC query rows, local Problem-frame recognition cues, or retrieval-facing entry support, the entry-facing effect remains governed by `E.11`; `E.21` only supplies the pattern-quality claim.
 
@@ -82,7 +80,7 @@ If `E.21` changes `Preface`, `J.4`, ToC query rows, local Problem-frame recognit
 * `E.12`, `E.13`, and `E.14` for cognitive ergonomics, pragmatic utility, Goodhart/proxy checks, and human-centric working-model checks.
 * `C.18`, `C.19`, and related NQD/OEE patterns when candidate fronts or search/archive constructs are live.
 * `G.11` when telemetry-driven refresh or decay is live.
-* `A.10`, `B.3`, `A.20`, `A.21`, and `A.15` when a pattern-quality result is reused as evidence, assurance, local CV status, gate decision support, or work authority.
+* `A.10`, `B.3`, `A.20`, `A.21`, and `A.15` when a pattern-quality result is reused as evidence, assurance, local CV status, gate-decision material, or work authority.
 
 **Constrains:**
 

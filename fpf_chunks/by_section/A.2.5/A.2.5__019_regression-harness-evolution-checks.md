@@ -6,12 +6,12 @@ section_id: "A.2.5:18"
 section_title: "Regression harness (evolution checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__019_regression-harness-evolution-checks.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:18 — Regression harness (evolution checks)"
-line_start: 3971
-line_end: 3983
+line_start: 3977
+line_end: 3989
 dependencies:
   - "A.15"
   - "A.2.1"

@@ -6,18 +6,22 @@ section_id: "E.9:4"
 section_title: "Solution — the DRR as a structured argument and temporary convergence record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__008_solution-the-drr-as-a-structured-argument-and-temporary-convergence-record.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:4 — Solution — the DRR as a structured argument and temporary convergence record"
-line_start: 54516
-line_end: 54681
+line_start: 55301
+line_end: 55469
 dependencies:
   - "E.10"
   - "E.19"
   - "E.2"
+  - "E.22"
+  - "E.23"
   - "E.5.4"
   - "E.8"
+  - "E.9"
+  - "E.9.DA"
 keywords:
 ---
 
@@ -75,7 +79,7 @@ substantive DRR adequacy rather than later review-only hardening.
 | **Convergence and overlap account when several content-decision branches touch the same carrier set** | Whether overlap is valid convergence or one reopened architecture smell, what agreement across selected patterns and selected non-pattern FPF kind-reference pairs must hold, and whether a new pattern or selected non-pattern FPF kind-reference pair is actually selected or refused now. | Decision and Consequences. |
 | **Selected-answer stability boundary** | Which elements of the selected answer are fixed now for later FPF drafting, and which later elaborations may strengthen wording, examples, or support without reopening the selected answer. | Decision and Consequences. |
 | **Impact, practical gains, and remaining validation evidence obligation** | Affected patterns and selected non-pattern FPF kind-reference pairs, practical gains/costs, authority or release consequences when they follow from the content decision, and the remaining validation evidence obligation that still constrains later authoring or landing. | Consequences. |
-| **SoTA and competitive-positioning account when load-bearing** | Current anchors that discipline the decision, what problem-owning domain or practice they answer to, and what unresolved uncertainty would materially change the selected answer. | Problem frame, Rationale, and Consequences. |
+| **SoTA and competitive-positioning account when load-bearing** | Current best-known problem-solving anchors under E.8 that discipline the decision, what problem-owning domain or practice they answer to, which official/popular/legacy alternatives they reject or bound when live, and what unresolved uncertainty would materially change the selected answer. | Problem frame, Rationale, and Consequences. |
 
 These decision-support content blocks are not separate process paperwork. A DRR that keeps
 only the four labels while leaving basis, first-minute use question, naming,
@@ -152,6 +156,9 @@ SoTA‑Echoing, recognition surfaces, local wording inside the selected patterns
 declared loss/recoverability regime. Any such revision **SHALL** be handled
 through one successor DRR or other named successor decision record.
 
+A `DRR` may itself be improved through `E.23`, but the `DRR` remains the selected decision record, not a full pattern draft. When SoTA is load-bearing in that improvement, it must mutate the selected answer, receiving-locus obligation, boundary, example, validation obligation, or reopen condition; otherwise it is rationale-only or lineage-only for the DRR.
+
+
 To preserve **P‑2 Didactic Primacy** without duplicating meta‑text,
 authors landing an accepted DRR **SHOULD** distill stable and reusable
 parts of its *Rationale*, *Consequences*, and other valid convergence
@@ -183,7 +190,7 @@ The `DRR` names:
 - the source-use result for that passage or basis: exact quote, narrowed scope, instantiated case, decision-bearing use, draft-guidance source, example-only use, or retired source use;
 - any meaning loss or addition created by that source-use result: changed scope, relation, evidence basis, admissible use, non-admissible use, reader move, or recoverability condition;
 - the first improved FPF use that the admitted method gives to an author, reviewer, or downstream FPF user;
-- the current disposition: selected now, inherited sufficient, rejected now, or outside the current decision with the named receiving pattern, accepted `DRR`, or accepted basis named by value.
+- the current disposition: selected now, inherited sufficient, rejected now, or outside the current decision with the named evaluation pattern, accepted `DRR`, or accepted basis named by value.
 
 
-Reusable process-source method is not limited to semio wording or pattern-authoring language. It may enter FPF only when it is separable from local process mechanics, improves FPF use, and has one exact receiving pattern. After the method lands in FPF, process documents should cite the receiving FPF pattern instead of keeping a parallel long-form rule.
+Reusable process-source method is not limited to semio wording or pattern-authoring language. It may enter FPF only when it is separable from local process mechanics, improves FPF use, and has one exact evaluation pattern. After the method lands in FPF, process documents should cite the receiving FPF pattern instead of keeping a parallel long-form rule.

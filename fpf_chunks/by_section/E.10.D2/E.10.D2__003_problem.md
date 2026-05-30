@@ -6,12 +6,12 @@ section_id: "E.10.D2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__003_problem.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:2 — Problem"
-line_start: 56525
-line_end: 56531
+line_start: 57876
+line_end: 57882
 dependencies:
   - "A.7"
   - "C.2.1"

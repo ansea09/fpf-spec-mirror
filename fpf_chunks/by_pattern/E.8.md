@@ -6,21 +6,24 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 53937
-line_end: 54453
+line_start: 54546
+line_end: 55073
 dependencies:
   - "E.10"
   - "E.19"
   - "E.21"
+  - "E.23"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
   - "E.7"
   - "E.8"
+  - "E.8.ECSPF"
   - "E.9"
+  - "E.9.DA"
   - "F.18"
 keywords:
   - "). The key words MUST"
@@ -71,6 +74,9 @@ A pattern can satisfy a checklist and still be practically unreadable. It may op
 **Cheap stop.** If the draft already gives a cold reader the working situation, first useful move, practical payoff, ordinary boundary, and nearest heavier support condition, do not add more authoring apparatus just to look mature. Use conformance material to verify that guidance; do not let it replace the guidance.
 
 **Load-bearing authoring extension.** Add heavier assurance, conformance, SoTA, or relation-support material only when the light recognition text would leave a live false claim, unstable governed object, hidden neighbouring-pattern boundary, unsupported practical payoff, or misleading admissible use.
+
+When an authoring pass claims quality improvement rather than ordinary drafting, keep these roles distinct: `E.22` frames the improvement-oriented quality-read question, the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings, `A.6.Q` repairs overloaded load-bearing `quality` wording, `C.25` carries engineering quality-family endpoints when live, and `E.23` governs any repeated quality-improvement method. Closing checklist rows or satisfying a review profile is not by itself quality improvement.
+
 
 **Maturity rule.** Section completeness is not pattern maturity. A pattern matures when its `Problem frame`, `Solution`, worked cases, boundaries, and conformance checks all point to the same usable action guidance.
 
@@ -145,7 +151,7 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 12. **Relations**
 13. **Footer marker**
 
-**Footer marker.** End each pattern with a single visible sentinel heading line on its own: `### <PatternId>:End`. This makes truncation detectable even when HTML comments are stripped or surfaced by editors. The footer marker is intentionally content‑free: **do not** place prose under it.
+**Footer marker.** End each pattern with a single visible sentinel heading line by itself: `### <PatternId>:End`. This makes truncation detectable even when HTML comments are stripped or surfaced by editors. The footer marker is intentionally content‑free: **do not** place prose under it.
 
 *Note.* Pattern boundaries are still parseable by scanning for the next pattern heading (`## …`), but an explicit `:End` marker helps retrieval pipelines (and LLM prompts) distinguish “this chunk is the whole pattern” from “this chunk was cut mid‑pattern”.
 
@@ -438,7 +444,7 @@ If a pattern or example claims **autonomy** for any Role/Method/Service:
 | S‑1 Density w/o Jargon | “The pump boundary is the sealing plane.” | “This episteme raises **F (Formality)** by making falsifiers testable.” |
 | Hook‑Weave‑Anchor | Opens with field anecdote → weaves in Γ‑core → anchors to motor torque. | Opens with historical paradox → weaves in **A.10** anchors → anchors to peer‑review data. |
 
-*Note:* Prefer examples that reuse FPF’s own characteristics vocabulary (e.g., **F (Formality)** rather than “F‑score”) unless you explicitly mean an external metric and name it as such.
+*Note:* Prefer examples that reuse FPF characteristics vocabulary (e.g., **F (Formality)** rather than “F‑score”) unless you explicitly mean an external metric and name it as such.
 
 ### E.8:6 - Bias‑Annotation
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for the authoring conventions in this pattern.
@@ -524,14 +530,18 @@ International and industry standards often speak in terms of *conformance criter
 
 ### E.8:11 - SoTA-Echoing  *(normative; lineage and deltas to contemporary State-of-the-Art)*
 
-**Purpose.** Make each pattern's relationship to contemporary best-known practice explicit and comparable without importing tooling or data governance. This section is prose-first and notation-independent. It does not mint an independent second rule source, but it is a load-bearing alignment section: the Solution, Conformance Checklist, Relations, worked cases, and other load-bearing sections must reflect the stance stated here or explicitly justify divergence.
+**Purpose.** Make each pattern's relationship to contemporary best-known problem-solving practice explicit and comparable without importing tooling or data governance. This section is prose-first and notation-independent. It does not mint an independent second rule source, but it is a load-bearing alignment section: the Solution, Conformance Checklist, Relations, worked cases, and other load-bearing sections must reflect the stance stated here or explicitly justify divergence.
 
-**Action-guidance test.** A SoTA row is accepted only when it changes what the pattern lets a working user do, what the pattern forbids them to over-read, which neighboring FPF pattern must apply, which evidence or validation obligation remains live, or how the Solution is written. A citation that only decorates the pattern or proves that the author has read a tradition does not carry E.8.
+**SoTA definition.** In FPF, `SoTA` names the best-known currently defensible problem-solving practice for the governed problem in the relevant domain or practice tradition. It is not official status, a recent edition, broad popularity, citation volume, institutional adoption, reputation, or familiar terminology. A standard, book, paper, benchmark, or practice report carries SoTA only when it states or justifies the current best-known answer for the governed problem; otherwise it is lineage, current-standard reference, rationale-only material, or rejected-popular-practice material.
+
+**Two-part SoTA test.** A row must pass both tests. First, the source family must be SoTA-bearing: it must represent the current best-known answer for the governed problem or a clearly named current branch of that answer. Second, the pattern must incorporate that answer by value: the adopted, adapted, or rejected stance must change `Solution`, boundary, anti-pattern, rationale, checklist, relation, worked case, evidence obligation, stop/reopen condition, or another load-bearing pattern locus. A current best-known source that changes no FPF locus is uncaptured SoTA; a citation that changes wording without being current best-known practice is not SoTA.
+
+**Incorporation test.** A SoTA row is accepted as live pattern grounding only when it changes what the pattern lets a working user do, what the pattern forbids them to over-read, which neighbouring FPF pattern must apply, which evidence or validation obligation remains live, or how the Solution and neighbouring load-bearing sections are written. A citation that only decorates the pattern or proves that the author has read a tradition does not carry E.8.
 
 **Minimum contents (obligations).**
 1) **Evidence binding (no duplicate SoTA).** If a **SoTA Synthesis Pack** exists (G.2), this section **SHALL cite** its **ClaimSheet IDs, CorpusLedger entries, and BridgeMatrix rows** as the governing evidence source for claims and report `adopt`, `adapt`, or `reject` **consistent with those IDs**. Avoid forking an untracked SoTA narrative.
 1a) **Accepted basis set, not DRR-only narrowing.** When a pattern is drafted under an accepted `DRR` and other accepted basis materials also exist by value, the `DRR` remains the decision and placement anchor, but `SoTA-Echoing`, neighboring-pattern relations, and any minimal modeling or mathematical lens **MAY** and **SHOULD** inherit non-conflicting material from that accepted basis set.
-2) **Sources (post-2015, or current-practice anchor).** For **Architectural patterns**, cite at least 3 primary SoTA sources such as standards, papers, or books, with at least **two independent Traditions**. For **Definitional patterns**, cite at least 1 current source or practice anchor for the reduced issue being governed: terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. If the best source is older but still current, mark it as current practice rather than treating SoTA as not applicable.
+2) **Sources (current problem-solving anchors, not prestige anchors).** For **Architectural patterns**, cite at least 3 primary SoTA anchors that carry current best-known answers for the governed problem, with at least **two independent Traditions** when more than one serious tradition is live. For **Definitional patterns**, cite at least 1 current source or practice anchor for the reduced issue being governed: terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. If the best source is older but still current, mark why it still answers the governed problem rather than treating source age, standard status, or popularity as SoTA by itself.
 3) **Best-known, not merely popular.** Authors **SHALL** distinguish best-known currently defensible practice from merely widespread or fashionable defaults. If the pattern adopts, adapts, or rejects a popular but less defensible practice, that divergence **MUST** be stated explicitly.
 3a) **Currentness and lineage status.** Older standards, early papers, and historically important examples may be cited as lineage only when later practice has materially changed the answer. They may carry a live SoTA row only when the pattern states why the anchor is still current for the governed problem or pairs it with a current source that supplies the live practice.
 3b) **Problem-domain and practice answerability.** The selected SoTA source family **MUST** answer the governed working problem and the relevant domain or practice tradition. It **MUST NOT** be selected only because it makes package placement, naming neatness, or pattern clustering easier to justify.
@@ -555,9 +565,13 @@ International and industry standards often speak in terms of *conformance criter
 | Pattern languages are networks; visuals often mislead. | Systematic surveys report low consensus on what to visualise and ambiguous or inexpressive visuals; relations need clear definition in text. | Quirino, Barcellos, Falbo (2018), survey of visual notations for software pattern languages. | E.8 requires a Relations section and keeps diagrams optional, placing primacy on textual structure and explicit links. | **Adapt.** Use the finding as rationale for text-first, relation-explicit authoring. |
 
 ### E.8:12 - Relations
+* **Coordinates with:** `E.9.DA` when an authored pattern body is drafted from a concrete `DRR` and the live blocker is whether the `DRR` selected, distributed, carried source use, carried accepted decisions, or supplied a first drafting move sufficiently for that authoring use. `E.8` still governs the pattern body; `E.9.DA` is not a mandatory authoring section, review card, or substitute for writing the Solution.
 
 * **Builds on:** E.6, E.7
 * **Constrained by:** Guard‑Rails E.5.1–E.5.4 (lexical firewall, notation independence, etc.)
 * **Coordinates with:** `E.21` when one authored FPF pattern version is read as a scoped pattern-quality claim. `E.8` governs authoring shape, recognition text, action guidance, worked cases, SoTA support, and conformance material; `E.21` governs the quality read, active characteristics, `PatternQualityStatus`, and stop condition. Do not import `E.21` as a mandatory authoring section or full review card.
+* **Coordinates with:** `E.23` when an authored FPF pattern body is being improved through repeated passes. `E.8` still governs the authored pattern body; `E.23` governs the repeated quality-improvement method; the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings.
+
 * **Constrains:** All patterns; the DRR template references the same section order.
 ### E.8:End
+

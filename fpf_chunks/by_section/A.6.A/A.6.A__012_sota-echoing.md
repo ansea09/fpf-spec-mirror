@@ -6,12 +6,12 @@ section_id: "A.6.A:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__012_sota-echoing.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:11 — SoTA-Echoing"
-line_start: 14249
-line_end: 14261
+line_start: 14255
+line_end: 14267
 dependencies:
   - "A.15"
   - "A.16"

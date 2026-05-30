@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".8 - Causal-use and counterfactual-support repair"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__009_8-causal-use-and-counterfactual-support-repair.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .8 - Causal-use and counterfactual-support repair"
-line_start: 79039
-line_end: 79050
+line_start: 81287
+line_end: 81298
 dependencies:
 keywords:
 ---

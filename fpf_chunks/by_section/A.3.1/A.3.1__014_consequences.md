@@ -6,12 +6,12 @@ section_id: "A.3.1:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__014_consequences.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:13 — Consequences"
-line_start: 6039
-line_end: 6048
+line_start: 6045
+line_end: 6054
 dependencies:
   - "A.1"
   - "A.1.1"

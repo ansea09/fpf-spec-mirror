@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
-line_start: 21528
-line_end: 21874
+line_start: 21534
+line_end: 21880
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"

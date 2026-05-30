@@ -1,46 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.21"
-pattern_title: "FPF Pattern Quality Characteristic Space"
+pattern_title: "FPF Pattern-Quality Evaluation CharacteristicSpace"
 section_id: "E.21:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__011_rationale.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.21 — FPF Pattern Quality Characteristic Space"
+  - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:10 — Rationale"
-line_start: 65025
-line_end: 65036
+line_start: 66413
+line_end: 66424
 dependencies:
   - "A.17-A.19"
+  - "A.19.ECS"
   - "A.6.P"
-  - "A.6.Q"
   - "C.16"
   - "C.2.P"
   - "C.25"
+  - "E.10"
   - "E.11"
-  - "E.17.AUD"
   - "E.19"
+  - "E.2.DA"
+  - "E.22"
+  - "E.23"
   - "E.8"
+  - "E.9.DA"
   - "F.18"
   - "J.4"
 keywords:
-  - "Goodhart/proxy substitution"
-  - "Pareto/front comparison"
-  - "PatternQualityCharacteristicSpace"
-  - "PatternQualityQBundle"
-  - "activation-normalized coordinates"
   - "and admissibility predicates are not written as duties"
-  - "bounded non-use"
-  - "coordinate evidence"
   - "definitions"
-  - "eligibility filters"
-  - "first move"
   - "invariants"
-  - "pattern quality"
   - "state agent obligations only"
-  - "stop condition"
   - "typing rules"
 ---
 
@@ -54,5 +47,5 @@ The characteristic space is activation-normalized because FPF pattern quality is
 
 The coordinate set also avoids hidden double weighting. Concerns that usually fail and repair together are merged with explicit subreadings; a weak live subreading limits the coordinate value instead of being averaged away. Concerns that fail independently remain separate because their repair moves differ: action path is not closure, semantic/name recovery is not neighbour authority, claim support is not project assurance, and local pattern quality is not corpus ecology.
 
-`E.21` applies existing FPF architecture to pattern quality. It gives authors a way to say: this version is admissible for this use, under these active coordinates, with these hard blockers cleared, and these remaining weaknesses bounded. That is stronger than "good enough" and lighter than pretending every pattern needs a universal maturity score.
+`E.21` applies existing FPF architecture to pattern quality. It gives authors a way to say: this version is admissible for this use, under these active coordinates, with these hard blockers cleared, and these remaining weaknesses bounded. That is more reviewable than "good enough" and lighter than pretending every pattern needs a universal maturity score.
 

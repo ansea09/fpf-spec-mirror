@@ -6,12 +6,12 @@ section_id: "C.30.LCA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__013_relations.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:12 — Relations"
-line_start: 52279
-line_end: 52288
+line_start: 52513
+line_end: 52522
 dependencies:
   - "A.10"
   - "A.20"

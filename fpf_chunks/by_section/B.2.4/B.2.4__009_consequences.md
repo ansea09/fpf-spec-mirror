@@ -6,12 +6,12 @@ section_id: "B.2.4:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__009_consequences.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.2.4 — Meta-Functional Transition (MFT)"
   - "B.2.4:8 — Consequences"
-line_start: 31139
-line_end: 31147
+line_start: 31368
+line_end: 31376
 dependencies:
   - "A.3.1"
   - "B.2"

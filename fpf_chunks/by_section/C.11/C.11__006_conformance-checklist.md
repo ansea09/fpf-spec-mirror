@@ -6,12 +6,12 @@ section_id: "C.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__006_conformance-checklist.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:7 — Conformance Checklist"
-line_start: 40391
-line_end: 40410
+line_start: 40620
+line_end: 40639
 dependencies:
   - "A.13"
   - "A.18"

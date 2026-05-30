@@ -6,12 +6,12 @@ section_id: "C.19.1:End"
 section_title: "C.19.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__009_c-19-1-end.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:End — C.19.1:End"
-line_start: 42559
-line_end: 42559
+line_start: 42791
+line_end: 42791
 dependencies:
   - "A.0"
   - "B.3"
@@ -19,6 +19,7 @@ dependencies:
   - "C.19"
   - "C.24"
   - "C.5"
+  - "E.23"
   - "E.3"
   - "E.5"
   - "F.7"
@@ -28,16 +29,12 @@ dependencies:
   - "G.8"
   - "G.9"
 keywords:
-  - "BLP-waiver"
   - "BLP‑waiver"
-  - "Bitter Lesson"
   - "Scale‑Audit"
   - "general‑method preference"
   - "iso‑scale parity"
-  - "scale-audit"
   - "scale‑amenability"
   - "slope vector"
-  - "task-family specialization"
   - "α/δ tolerances"
 ---
 

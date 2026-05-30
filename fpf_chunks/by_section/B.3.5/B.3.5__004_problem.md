@@ -6,12 +6,12 @@ section_id: "B.3.5:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__004_problem.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:3 — Problem"
-line_start: 32121
-line_end: 32127
+line_start: 32350
+line_end: 32356
 dependencies:
   - "B.3"
   - "C.13"

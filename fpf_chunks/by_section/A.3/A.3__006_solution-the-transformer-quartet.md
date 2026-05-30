@@ -6,12 +6,12 @@ section_id: "A.3:5"
 section_title: "Solution — The Transformer Quartet"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__006_solution-the-transformer-quartet.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:5 — Solution — The Transformer Quartet"
-line_start: 5622
-line_end: 5677
+line_start: 5628
+line_end: 5683
 dependencies:
   - "A.15"
   - "A.2"

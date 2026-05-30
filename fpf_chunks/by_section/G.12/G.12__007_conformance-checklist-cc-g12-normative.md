@@ -6,12 +6,12 @@ section_id: "G.12:6"
 section_title: "Conformance checklist (CC‑G12, normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__007_conformance-checklist-cc-g12-normative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:6 — Conformance checklist (CC‑G12, normative)"
-line_start: 78424
-line_end: 78437
+line_start: 80672
+line_end: 80685
 dependencies:
   - "A.19"
   - "C.18"

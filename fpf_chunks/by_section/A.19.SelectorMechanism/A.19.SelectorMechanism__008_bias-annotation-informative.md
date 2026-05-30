@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:6"
 section_title: "Bias-Annotation — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__008_bias-annotation-informative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:6 — Bias-Annotation — informative"
-line_start: 27377
-line_end: 27388
+line_start: 27606
+line_end: 27617
 dependencies:
 keywords:
   - "SelectEligibility"

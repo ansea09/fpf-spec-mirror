@@ -6,12 +6,12 @@ section_id: "A.3.2:4"
 section_title: "Solution — the specification as an episteme describing a Method"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__005_solution-the-specification-as-an-episteme-describing-a-method.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:4 — Solution — the specification as an episteme describing a Method"
-line_start: 6102
-line_end: 6166
+line_start: 6108
+line_end: 6172
 dependencies:
   - "A.1.1"
   - "A.15"

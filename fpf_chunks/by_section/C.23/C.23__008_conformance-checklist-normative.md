@@ -6,12 +6,12 @@ section_id: "C.23:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__008_conformance-checklist-normative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:7 — Conformance Checklist (normative)"
-line_start: 44222
-line_end: 44241
+line_start: 44455
+line_end: 44474
 dependencies:
   - "A.10"
   - "B.3"

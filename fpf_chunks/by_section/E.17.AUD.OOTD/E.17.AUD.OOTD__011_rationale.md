@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__011_rationale.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
   - "E.17.AUD.OOTD:10 — Rationale"
-line_start: 62503
-line_end: 62514
+line_start: 63854
+line_end: 63865
 dependencies:
   - "A.10"
   - "A.15"

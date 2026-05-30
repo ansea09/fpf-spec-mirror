@@ -6,18 +6,22 @@ section_id: "E.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__015_sota-echoing.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:11 — SoTA-Echoing"
-line_start: 54774
-line_end: 54786
+line_start: 55562
+line_end: 55576
 dependencies:
   - "E.10"
   - "E.19"
   - "E.2"
+  - "E.22"
+  - "E.23"
   - "E.5.4"
   - "E.8"
+  - "E.9"
+  - "E.9.DA"
 keywords:
 ---
 
@@ -32,5 +36,7 @@ keywords:
 | **Continuous and evolutionary architecture decision-record practice** | Decision records are revisitable support for evolving systems. FPF keeps mutable process state out of the DRR and handles reopened content with a successor decision record. | Reject turning the DRR into a live status log, gate diary, or permanent shadow law. |
 | **Research and design-rationale traditions around alternatives and trade-off capture** | Rejected alternatives and trade-offs must remain recoverable enough that future authors do not re-litigate or silently reverse the selected answer. FPF adapts this through the Eleven Pillars and Principle-Taxonomy lenses. | Reject recording only the selected answer while leaving why-this-not-that implicit. |
 
-The practical gain is content-selection quality under semantic load: the DRR decides the selected answer, alternatives, losses, boundary, and distribution target before pattern drafting begins. Any durable rule, example, or support obligation that remains useful after acceptance belongs in the selected FPF pattern or selected non-pattern FPF kind-reference pair, not in the DRR as a permanent shadow canon.
+The practical gain is content-selection quality under semantic load: the DRR decides the selected answer, alternatives, losses, boundary, and receiving loci before pattern drafting begins. Any durable rule, example, or content obligation that remains useful after acceptance belongs in the selected FPF pattern or selected non-pattern FPF kind-reference pair, not in the DRR as a permanent shadow canon.
+
+When a DRR relies on a source document, workstream plan, campaign queue, external review packet, standard, article, ADR-like note, or prior accepted decision, it states the source posture and carries the selected payload by value: adopt, adapt, reject, lineage-only, rationale-only, selected payload, rejected or non-carried payload, source loss, receiving locus, non-use boundary, and reopen condition. A cited source is not FPF doctrine, child DRR, review result, gate, evidence sufficiency, or monolith landing source by citation alone.
 

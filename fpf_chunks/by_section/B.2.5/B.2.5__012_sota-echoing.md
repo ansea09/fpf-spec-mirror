@@ -6,12 +6,12 @@ section_id: "B.2.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__012_sota-echoing.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:11 — SoTA-Echoing"
-line_start: 31287
-line_end: 31295
+line_start: 31516
+line_end: 31524
 dependencies:
   - "A.1"
   - "A.12"

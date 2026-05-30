@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `562813fb466950d9c49bc6d2e76ec2626f4df697`
+Commit SHA: `2e112078bb209e5e3a511c3bd1aa6b1b2e299efe`
 
 Chunking method: `pattern-aware`
 
-Patterns: `219`
+Patterns: `225`
 
 ## Patterns
 
@@ -72,6 +72,7 @@ Patterns: `219`
 - [A.17 — Canonical “Characteristic” (A.CHR‑NORM)](by_pattern/A.17.md)
 - [A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)](by_pattern/A.18.md)
 - [A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)](by_pattern/A.19.md)
+- [A.19.ECS — Evaluation CharacteristicSpace Construction](by_pattern/A.19.ECS.md)
 - [A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate](by_pattern/A.19.SOURCE-SET-SPACE-SUBSTRATE.md)
 - [A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View](by_pattern/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW.md)
 - [A.19.CN — CN‑frame (comparability & normalization)](by_pattern/A.19.CN.md)
@@ -141,7 +142,7 @@ Patterns: `219`
 - [C.22.1 — Task-family adaptation signature](by_pattern/C.22.1.md)
 - [C.22.2 — ProblemCard@Context](by_pattern/C.22.2.md)
 - [C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)](by_pattern/C.23.md)
-- [C.24 — Agentic Tool‑Use & Call‑Planning (C.Agent‑Tools‑CAL)](by_pattern/C.24.md)
+- [C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)](by_pattern/C.24.md)
 - [C.25 — Q-Bundle: Authoring "-ilities" as Structured Quality Bundles](by_pattern/C.25.md)
 - [C.26 — Quantum-Like Modeling Lens](by_pattern/C.26.md)
 - [C.26.1 — Probe-Coupled Boundary Interaction](by_pattern/C.26.1.md)
@@ -158,6 +159,7 @@ Patterns: `219`
 - [D.5 — Bias-Audit & Ethical Assurance](by_pattern/D.5.md)
 - [E.1 — Vision & Mission: “Operating System for Thought”](by_pattern/E.1.md)
 - [E.2 — The Eleven Pillars](by_pattern/E.2.md)
+- [E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace](by_pattern/E.2.DA.md)
 - [E.3 — Principle Taxonomy & Precedence Model](by_pattern/E.3.md)
 - [E.4 — FPF Ecosystem Family Architecture](by_pattern/E.4.md)
 - [E.5 — Four Guard‑Rails of FPF](by_pattern/E.5.md)
@@ -168,7 +170,9 @@ Patterns: `219`
 - [E.6 — Didactic Architecture of the Specification](by_pattern/E.6.md)
 - [E.7 — Archetypal Grounding Principle](by_pattern/E.7.md)
 - [E.8 — FPF Authoring Conventions & Style Guide](by_pattern/E.8.md)
+- [E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form](by_pattern/E.8.ECSPF.md)
 - [E.9 — Design‑Rationale Record (DRR) Method](by_pattern/E.9.md)
+- [E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace](by_pattern/E.9.DA.md)
 - [E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)](by_pattern/E.10.md)
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
@@ -189,9 +193,11 @@ Patterns: `219`
 - [E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it](by_pattern/E.17.AUD.LHR.md)
 - [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity](by_pattern/E.17.AUD.OOTD.md)
 - [E.18 — Transduction Graph Architecture (E.TGA)](by_pattern/E.18.md)
-- [E.19 — Pattern Quality Gates: Review & Refresh Profiles](by_pattern/E.19.md)
+- [E.19 — Pattern Quality Gates: Review and Refresh Profiles](by_pattern/E.19.md)
 - [E.20 — Mechanism Introduction Protocol](by_pattern/E.20.md)
-- [E.21 — FPF Pattern Quality Characteristic Space](by_pattern/E.21.md)
+- [E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace](by_pattern/E.21.md)
+- [E.22 — Improvement-Oriented Quality-Read Question Framing](by_pattern/E.22.md)
+- [E.23 — Quality Improvement Loop Method](by_pattern/E.23.md)
 - [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)
 - [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)

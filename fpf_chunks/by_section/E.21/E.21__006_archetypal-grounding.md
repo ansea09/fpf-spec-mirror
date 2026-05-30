@@ -1,46 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.21"
-pattern_title: "FPF Pattern Quality Characteristic Space"
+pattern_title: "FPF Pattern-Quality Evaluation CharacteristicSpace"
 section_id: "E.21:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_archetypal-grounding.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.21 — FPF Pattern Quality Characteristic Space"
+  - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Archetypal Grounding"
-line_start: 64852
-line_end: 64893
+line_start: 66235
+line_end: 66276
 dependencies:
   - "A.17-A.19"
+  - "A.19.ECS"
   - "A.6.P"
-  - "A.6.Q"
   - "C.16"
   - "C.2.P"
   - "C.25"
+  - "E.10"
   - "E.11"
-  - "E.17.AUD"
   - "E.19"
+  - "E.2.DA"
+  - "E.22"
+  - "E.23"
   - "E.8"
+  - "E.9.DA"
   - "F.18"
   - "J.4"
 keywords:
-  - "Goodhart/proxy substitution"
-  - "Pareto/front comparison"
-  - "PatternQualityCharacteristicSpace"
-  - "PatternQualityQBundle"
-  - "activation-normalized coordinates"
   - "and admissibility predicates are not written as duties"
-  - "bounded non-use"
-  - "coordinate evidence"
   - "definitions"
-  - "eligibility filters"
-  - "first move"
   - "invariants"
-  - "pattern quality"
   - "state agent obligations only"
-  - "stop condition"
   - "typing rules"
 ---
 
@@ -52,16 +45,16 @@ keywords:
 
 | Working situation | First honest `E.21` move | Likely wrong substitute | Coordinate tested |
 |---|---|---|---|
-| A system-architecture pattern has precise vocabulary and strong sources, but the opening never says what an engineer-manager does first. | Check activated `firstMoveRecoverability`; if it passes, read `WorkingSituationAndUseBoundaryRecognizability` and `ActionPathGuidance` from the opening and `Solution`. | Treat SoTA strength as enough for admission. | `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, `ActionPathGuidance`, `SoTABindingAndCurrentness`. |
+| A system-architecture pattern has precise vocabulary and current, exact sources, but the opening never says what an engineer-manager does first. | Check activated `firstMoveRecoverability`; if it passes, read `WorkingSituationAndUseBoundaryRecognizability` and `ActionPathGuidance` from the opening and `Solution`. | Treat source currentness and fit as enough for admission. | `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, `ActionPathGuidance`, `SoTABindingAndCurrentness`. |
 | A publication or evidence pattern reads beautifully, but `PatternQualityStatus = admissibleForDeclaredUse` is being cited as product assurance. | Keep the quality result as pattern-quality evidence and cite `A.10`/`B.3` only when the project-side claim is live. If a card, summary, or status line is visible, check whether the projection stays a scoped echo. | Treat review approval as project certification. | `NeighborAuthorityAndBoundedUseFit`, `ClaimSupportTraceabilityCurrentnessAndReplayability`, `ExternalEntryAndProjectionIntegrity`. |
 | A mathematical-lens pattern has the right formula vocabulary, but no preserved/lost structure or non-use boundary. | Require the formal/lens proof sketch: preserved structure, rejected structure, payoff, admissible use, non-admissible use, and stop condition. | Count formal notation as sufficient lens fit. | `FormalClaimLegalityAndLensFit`. |
 | A naming-heavy pattern has better prose after editing, but the kind and relation load are still ambiguous. | Fill local name-precision cards or use the full `F.18 -> A.6.P -> E.10` chain. | Treat lexical polish as ontology repair. | `SemanticKindAndNameRecoverability`. |
-| Two variants both pass eligibility: one is shorter; the other has stronger examples and relation closure. | Compare through `DominanceSet`, then use `TieBreakerSet` only if neither dominates. | Average scores or choose the version that feels cleaner. | `UseAffordabilityAndApparatusProportionality`, `CaseCountercaseAndTransferCoverage`, `EvolutionFrontAndRefreshDiscipline`. |
+| Two variants both pass eligibility: one is shorter; the other has more informative examples and relation closure. | Compare through `DominanceSet`, then use `TieBreakerSet` only if neither dominates. | Average scores or choose the version that feels cleaner. | `UseAffordabilityAndApparatusProportionality`, `CaseCountercaseAndTransferCoverage`, `EvolutionFrontAndRefreshDiscipline`. |
 | A pattern-quality read raises every visible coordinate to `4` or `5`, but the pattern becomes longer, harder to enter, and more expensive to maintain. | Activate `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `ProxyForValueSubstitutionResistance`; ask what became worse before accepting the stop condition. | Treat "all coordinates are high" as enough by itself. | `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, `ProxyForValueSubstitutionResistance`. |
 
-**Show - System pattern.** A system-architecture pattern has precise structure vocabulary and a strong SoTA row, but its opening never says what an engineer-manager should do first. Activated `firstMoveRecoverability` fails for ordinary use. The admissible result is not "quality 78/100"; it is `repairBeforeUse` for admission, or `admissibleWithNarrowerUse` if it is kept as expert-only support.
+**Show - System pattern.** A system-architecture pattern has precise structure vocabulary and a current, exact SoTA row, but its opening never says what an engineer-manager should do first. Activated `firstMoveRecoverability` fails for ordinary use. The admissible result is not "quality 78/100"; it is `repairBeforeUse` for admission, or `admissibleWithNarrowerUse` if it is kept as expert-only support.
 
-**Show - First-pass target read.** An author opens a candidate FPF pattern and writes: `PatternVersionRef = C.xx@draft-3; WorkingReaderScope = engineer-manager using the pattern for first ordinary application; IntendedUse = continue drafting or repair before use; QualificationWindow = current FPF edition`.
+**Show - First-pass pattern-version read.** An author opens a candidate FPF pattern and writes: `PatternVersionRef = C.xx@draft-3; WorkingReaderScope = engineer-manager using the pattern for first ordinary application; IntendedUse = continue drafting or repair before use; QualificationWindow = current FPF edition`.
 
 The author reads only `Problem frame` and `Solution`. If the pattern says which object it governs but gives no first admissible action-guiding move, the first-pass read closes: activated `firstMoveRecoverability` fails and `PatternQualityStatus = repairBeforeUse` for ordinary use. No `PatternQualityFront`, `TelemetrySet`, or full coordinate table is needed.
 
@@ -73,7 +66,7 @@ If the first move exists but the continuation path or apparatus required to appl
 
 **Show - New pattern candidate.** Two drafts of the same pattern both pass eligibility. Draft A is shorter and easier to read; Draft B has better SoTA, case/countercase breadth, and neighbour closure but adds a heavier bundle card. Neither dominates if Draft B's extra apparatus is live only for high-assurance reuse. The correct output may be one ordinary draft plus a support card for high-assurance use, not one averaged winner.
 
-**Show - Goodhart trade-off.** An author raises visible E.21 coordinates to high values by adding proof sketches, support cards, and SoTA rows. The pattern now reads better on the visible table, but a cold author needs more time to find the first move and a maintainer must update more named sections or support records after each small repair. The quality read cannot stop until `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `ProxyForValueSubstitutionResistance` are read by content evidence. If those coordinates fall, the candidate is not an improvement for the declared ordinary-use scope; it may become a high-assurance variant instead.
+**Show - Goodhart trade-off.** An author raises visible E.21 coordinates to high values by adding proof sketches, support cards, and SoTA rows. The pattern now reads better on the visible table, but a cold author needs more time to find the first move and a maintainer must update more named sections or evidence records after each small repair. The quality read cannot stop until `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `ProxyForValueSubstitutionResistance` are read by content evidence. If those coordinates fall, the candidate is not an improvement for the declared ordinary-use scope; it may become a high-assurance variant instead.
 
 **Show - Self-application support card.**
 

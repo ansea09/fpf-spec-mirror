@@ -6,12 +6,12 @@ section_id: "F.16:4"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__005_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:4 — Minimal vocabulary (this pattern only)"
-line_start: 70865
-line_end: 70876
+line_start: 73113
+line_end: 73124
 dependencies:
   - "B.3"
   - "D.CTX"

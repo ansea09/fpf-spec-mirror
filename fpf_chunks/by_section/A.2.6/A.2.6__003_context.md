@@ -6,12 +6,12 @@ section_id: "A.2.6:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__003_context.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:2 — Context"
-line_start: 4051
-line_end: 4076
+line_start: 4057
+line_end: 4082
 dependencies:
   - "A.1.1"
   - "A.2.2"

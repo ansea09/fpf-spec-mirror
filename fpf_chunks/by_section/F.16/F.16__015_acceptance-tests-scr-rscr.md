@@ -6,12 +6,12 @@ section_id: "F.16:14"
 section_title: "Acceptance tests (SCR/RSCR)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__015_acceptance-tests-scr-rscr.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:14 — Acceptance tests (SCR/RSCR)"
-line_start: 71068
-line_end: 71088
+line_start: 73316
+line_end: 73336
 dependencies:
   - "B.3"
   - "D.CTX"

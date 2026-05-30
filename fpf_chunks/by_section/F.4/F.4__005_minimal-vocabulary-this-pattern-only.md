@@ -6,12 +6,12 @@ section_id: "F.4:4"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__005_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:4 — Minimal vocabulary (this pattern only)"
-line_start: 66465
-line_end: 66473
+line_start: 68713
+line_end: 68721
 dependencies:
   - "A.11"
   - "A.2.1"

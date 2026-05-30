@@ -6,12 +6,12 @@ section_id: "B.2.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__005_solution.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.2.3 — Meta-Epistemic Transition (MET)"
   - "B.2.3:4 — Solution"
-line_start: 30934
-line_end: 30978
+line_start: 31163
+line_end: 31207
 dependencies:
   - "A.1"
   - "B.2"

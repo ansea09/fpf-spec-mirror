@@ -6,12 +6,12 @@ section_id: "E.10.D1:8"
 section_title: "Anti‑patterns & Remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__009_anti-patterns-remedies.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:8 — Anti‑patterns & Remedies"
-line_start: 56407
-line_end: 56418
+line_start: 57758
+line_end: 57769
 dependencies:
   - "A.4"
   - "A.7"

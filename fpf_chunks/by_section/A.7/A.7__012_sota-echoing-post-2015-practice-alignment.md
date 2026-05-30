@@ -6,12 +6,12 @@ section_id: "A.7:11"
 section_title: "SoTA‑Echoing (post‑2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__012_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:11 — SoTA‑Echoing (post‑2015 practice alignment)"
-line_start: 18535
-line_end: 18543
+line_start: 18541
+line_end: 18549
 dependencies:
   - "A.1"
   - "A.10"

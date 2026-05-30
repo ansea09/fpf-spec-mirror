@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.24"
-pattern_title: "Agentic Tool‑Use & Call‑Planning (C.Agent‑Tools‑CAL)"
+pattern_title: "Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
 section_id: "C.24:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__012_conformance-checklist.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "C.24 — Agentic Tool‑Use & Call‑Planning (C.Agent‑Tools‑CAL)"
+  - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:7 — Conformance Checklist"
-line_start: 44557
-line_end: 44573
+line_start: 44791
+line_end: 44808
 dependencies:
   - "A.1"
   - "A.15"
@@ -19,9 +19,10 @@ dependencies:
   - "C.11"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "C.28"
   - "C.5"
-  - "E.2"
+  - "E.23"
   - "E.3"
   - "E.5"
   - "G.5"
@@ -30,23 +31,12 @@ dependencies:
   - "U.PromiseContent"
   - "U.WorkPlan"
 keywords:
-  - "BLP tolerances"
-  - "CallGraph"
-  - "CallPlan"
-  - "CallRouteDescription"
-  - "CheckpointReturn"
-  - "agential tool use"
-  - "budget and harm gates"
-  - "enactment budget"
-  - "route-vs-plan-vs-work distinction"
-  - "stop/replan condition"
-  - "tool-call budget"
 ---
 
 ### C.24:7 - Conformance Checklist
 
-1. **CC-ATC-1 - Declared separation.** `ATC.CallRouteDescription` is a `MethodDescription`; `ATC.CallPlan` is a `U.WorkPlan` that cites route descriptions; execution is `Work`; acceptance is via `U.PromiseContent`. No method-side route logic or actual burn is smuggled into the `U.WorkPlan` surface.
-2. **CC-ATC-2 - Budgets on record.** `time/compute/cost/risk` ceilings exist ex ante; stop conditions listed.
+1. **CC-ATC-1 - Declared separation.** `ATC.CallRouteDescription` is a `MethodDescription`; `ATC.CallPlan` is a `U.WorkPlan` that cites route descriptions; execution is `Work`; acceptance is via `U.PromiseContent`. No method-side route logic or actual burn is smuggled into the `U.WorkPlan` field set.
+2. **CC-ATC-2 - Budgets on record.** Time budget, compute budget, cost ceiling, and risk limit exist ex ante; stop conditions are listed.
 3. **CC-ATC-3 - E/E policy.** `EmitterPolicyRef` (or equivalent) and `explore_share` are editioned and logged.
 4. **CC-ATC-4 - Assurance tuple.** Publish the typed claim `Plan admissible under K,S` with `<F,G,R>` and CL penalties traceable in the `CallGraph` SCR. Design-time and run-time never merged.
 5. **CC-ATC-5 - BLP waiver discipline.** Any heuristic override against a general method includes expiry and re-evaluation date.
@@ -58,5 +48,6 @@ keywords:
 11. **CC-ATC-11 - Neighboring-pattern boundary.** If the live question is still fixed-option choice, pool policy over several live lines, or selector-facing publication, `C.24` SHALL apply `C.11`, `C.19`, or `G.5` rather than restating those patterns.
 12. **CC-ATC-12 - Role discipline.** User-facing prose and emitted artifacts SHALL speak about systems in agential roles or equivalent typed performers, not one generic `agent` head, when that generic head would blur the holder kind.
 13. **CC-ATC-13 - Causal action-use spec.** If one `CallPlan` selects observation, intervention, counterfactual-rung evidence collection, counterfactual policy conditioning, or off-policy causal evaluation for a causal purpose, it SHALL carry `CallPlan.causalActionUseSpec?` with `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, supported use, unsupported use, and a `C.28` causal-use support reference rather than letting call-planning vocabulary certify the causal claim.
+
 
 

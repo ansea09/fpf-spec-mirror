@@ -6,12 +6,12 @@ section_id: "A.2:End"
 section_title: "A.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__015_a-2-end.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:End — A.2:End"
-line_start: 1714
-line_end: 1715
+line_start: 1720
+line_end: 1721
 dependencies:
   - "A.1"
   - "A.1.1"

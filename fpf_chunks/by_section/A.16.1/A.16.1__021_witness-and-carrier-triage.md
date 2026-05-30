@@ -6,12 +6,12 @@ section_id: "A.16.1:20"
 section_title: "Witness and Carrier Triage"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__021_witness-and-carrier-triage.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:20 — Witness and Carrier Triage"
-line_start: 22381
-line_end: 22391
+line_start: 22387
+line_end: 22397
 dependencies:
   - "A.16"
   - "A.16.0"

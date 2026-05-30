@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.24"
-pattern_title: "Agentic Tool‑Use & Call‑Planning (C.Agent‑Tools‑CAL)"
+pattern_title: "Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
 section_id: "C.24:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__007_problem-frame.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "C.24 — Agentic Tool‑Use & Call‑Planning (C.Agent‑Tools‑CAL)"
+  - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:1 — Problem frame"
-line_start: 44308
-line_end: 44327
+line_start: 44541
+line_end: 44560
 dependencies:
   - "A.1"
   - "A.15"
@@ -19,9 +19,10 @@ dependencies:
   - "C.11"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "C.28"
   - "C.5"
-  - "E.2"
+  - "E.23"
   - "E.3"
   - "E.5"
   - "G.5"
@@ -30,17 +31,6 @@ dependencies:
   - "U.PromiseContent"
   - "U.WorkPlan"
 keywords:
-  - "BLP tolerances"
-  - "CallGraph"
-  - "CallPlan"
-  - "CallRouteDescription"
-  - "CheckpointReturn"
-  - "agential tool use"
-  - "budget and harm gates"
-  - "enactment budget"
-  - "route-vs-plan-vs-work distinction"
-  - "stop/replan condition"
-  - "tool-call budget"
 ---
 
 ### C.24:1 - Problem frame
@@ -59,7 +49,7 @@ Immediate failure indicators for this pattern:
 * the current planning result cannot say whether one choice posture already exists,
 * the current text cannot distinguish route description, call plan, and executed call work,
 * the budget being burned is still only probing-before-choice budget rather than enactment or tool-call budget, or
-* the next lawful artifact is still undefined as one enactment-facing plan, one `CheckpointReturn`, or one reroute.
+* the next admissible output is still undefined as one enactment-facing plan, one `CheckpointReturn`, or one neighbouring-pattern exit.
 
 If the live question is still which fixed option should survive now, apply `C.11`. If it is still pool policy over several still-live candidate lines, apply `C.19`. If it is already public selected-set publication, apply `G.5`.
 

@@ -6,12 +6,12 @@ section_id: "A.6.Q:7"
 section_title: "Conformance Checklist (CC-A.6.Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.Q/A.6.Q__008_conformance-checklist-cc-a-6-q.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.6.Q — U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)"
   - "A.6.Q:7 — Conformance Checklist (CC-A.6.Q)"
-line_start: 13382
-line_end: 13441
+line_start: 13388
+line_end: 13447
 dependencies:
   - "A.16"
   - "A.16.0"

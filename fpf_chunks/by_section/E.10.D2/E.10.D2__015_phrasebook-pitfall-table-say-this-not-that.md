@@ -6,12 +6,12 @@ section_id: "E.10.D2:14"
 section_title: "Phrasebook & pitfall table (say this, not that)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__015_phrasebook-pitfall-table-say-this-not-that.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:14 — Phrasebook & pitfall table (say this, not that)"
-line_start: 56915
-line_end: 56928
+line_start: 58266
+line_end: 58279
 dependencies:
   - "A.7"
   - "C.2.1"

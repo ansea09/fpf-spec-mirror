@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.2.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.2 — The Eleven Pillars"
-line_start: 52979
-line_end: 53108
+line_start: 53213
+line_end: 53341
 dependencies:
   - "C.18"
   - "C.19"
@@ -161,5 +161,4 @@ The pillars are distilled from systems engineering, philosophy of science, softw
 *These pillars are not a cage but the load‑bearing columns of a workshop where ideas can be safely built, dismantled, and evolved.*
 
 ### E.2:End
-
 

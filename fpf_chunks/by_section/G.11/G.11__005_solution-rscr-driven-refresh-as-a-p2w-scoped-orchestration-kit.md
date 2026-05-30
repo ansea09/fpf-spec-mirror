@@ -6,12 +6,12 @@ section_id: "G.11:4"
 section_title: "Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__005_solution-rscr-driven-refresh-as-a-p2w-scoped-orchestration-kit.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh & Decay Orchestrator"
   - "G.11:4 — Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
-line_start: 77747
-line_end: 77970
+line_start: 79995
+line_end: 80218
 dependencies:
   - "B.3.4"
   - "C.18"

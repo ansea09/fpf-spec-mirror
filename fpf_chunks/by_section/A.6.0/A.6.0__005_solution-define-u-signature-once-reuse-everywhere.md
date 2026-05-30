@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution — Define U.Signature once, reuse everywhere"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution-define-u-signature-once-reuse-everywhere.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:4 — Solution — Define U.Signature once, reuse everywhere"
-line_start: 8814
-line_end: 8976
+line_start: 8820
+line_end: 8982
 dependencies:
   - "A.2.6"
   - "A.6.1"

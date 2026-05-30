@@ -6,22 +6,25 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 53943
-line_end: 53950
+line_start: 54552
+line_end: 54559
 dependencies:
   - "E.10"
   - "E.19"
   - "E.21"
+  - "E.23"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
   - "E.7"
   - "E.8"
+  - "E.8.ECSPF"
   - "E.9"
+  - "E.9.DA"
   - "F.18"
 keywords:
   - "). The key words MUST"

@@ -6,12 +6,12 @@ section_id: "E.10.D2:13"
 section_title: "Author’s pocket guide (carry‑in‑mind rules)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__014_author-s-pocket-guide-carry-in-mind-rules.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:13 — Author’s pocket guide (carry‑in‑mind rules)"
-line_start: 56900
-line_end: 56914
+line_start: 58251
+line_end: 58265
 dependencies:
   - "A.7"
   - "C.2.1"

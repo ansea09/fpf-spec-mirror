@@ -6,12 +6,12 @@ section_id: "C.2.1:10"
 section_title: "Conformance checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__011_conformance-checklist-normative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:10 — Conformance checklist  (normative)"
-line_start: 34512
-line_end: 34578
+line_start: 34741
+line_end: 34807
 dependencies:
   - "A.1"
   - "A.6.2"

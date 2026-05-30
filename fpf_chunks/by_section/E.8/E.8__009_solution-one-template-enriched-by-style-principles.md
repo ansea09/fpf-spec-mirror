@@ -6,22 +6,25 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 54005
-line_end: 54322
+line_start: 54617
+line_end: 54934
 dependencies:
   - "E.10"
   - "E.19"
   - "E.21"
+  - "E.23"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
   - "E.7"
   - "E.8"
+  - "E.8.ECSPF"
   - "E.9"
+  - "E.9.DA"
   - "F.18"
 keywords:
   - "). The key words MUST"
@@ -78,7 +81,7 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 12. **Relations**
 13. **Footer marker**
 
-**Footer marker.** End each pattern with a single visible sentinel heading line on its own: `### <PatternId>:End`. This makes truncation detectable even when HTML comments are stripped or surfaced by editors. The footer marker is intentionally content‑free: **do not** place prose under it.
+**Footer marker.** End each pattern with a single visible sentinel heading line by itself: `### <PatternId>:End`. This makes truncation detectable even when HTML comments are stripped or surfaced by editors. The footer marker is intentionally content‑free: **do not** place prose under it.
 
 *Note.* Pattern boundaries are still parseable by scanning for the next pattern heading (`## …`), but an explicit `:End` marker helps retrieval pipelines (and LLM prompts) distinguish “this chunk is the whole pattern” from “this chunk was cut mid‑pattern”.
 

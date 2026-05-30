@@ -6,12 +6,12 @@ section_id: "C.2.LS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__013_relations.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:12 — Relations"
-line_start: 36340
-line_end: 36343
+line_start: 36569
+line_end: 36572
 dependencies:
   - "A.16"
   - "A.16.0"

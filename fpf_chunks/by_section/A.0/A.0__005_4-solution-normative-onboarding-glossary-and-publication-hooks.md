@@ -6,12 +6,12 @@ section_id: "A.0:section-004"
 section_title: "4) Solution — Normative onboarding glossary and publication hooks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__005_4-solution-normative-onboarding-glossary-and-publication-hooks.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-004 — 4) Solution — Normative onboarding glossary and publication hooks"
-line_start: 903
-line_end: 934
+line_start: 909
+line_end: 940
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

@@ -6,12 +6,12 @@ section_id: "B.1.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__001_intro.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:intro — Intro"
-line_start: 29888
-line_end: 29894
+line_start: 30117
+line_end: 30123
 dependencies:
   - "A.12"
   - "A.14"

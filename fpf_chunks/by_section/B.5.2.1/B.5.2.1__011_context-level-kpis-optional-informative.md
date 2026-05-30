@@ -6,12 +6,12 @@ section_id: "B.5.2.1:9"
 section_title: "Context‑Level KPIs (optional, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__011_context-level-kpis-optional-informative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:9 — Context‑Level KPIs (optional, informative)"
-line_start: 33519
-line_end: 33528
+line_start: 33748
+line_end: 33757
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "G.1:6"
 section_title: "Bias‑Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__007_bias-annotation-informative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:6 — Bias‑Annotation (informative)"
-line_start: 73414
-line_end: 73421
+line_start: 75662
+line_end: 75669
 dependencies:
   - "A.10"
   - "A.15.3"

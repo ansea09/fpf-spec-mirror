@@ -6,12 +6,12 @@ section_id: "A.3.3:9"
 section_title: "Evidence and operators (traces, prediction, conformance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__010_evidence-and-operators-traces-prediction-conformance.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:9 — Evidence and operators (traces, prediction, conformance)"
-line_start: 6516
-line_end: 6560
+line_start: 6522
+line_end: 6566
 dependencies:
   - "A.19"
   - "B.4"

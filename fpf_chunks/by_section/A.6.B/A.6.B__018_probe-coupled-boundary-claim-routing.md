@@ -6,12 +6,12 @@ section_id: "A.6.B:15a"
 section_title: "Probe-coupled boundary claim routing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__018_probe-coupled-boundary-claim-routing.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15a — Probe-coupled boundary claim routing"
-line_start: 8423
-line_end: 8454
+line_start: 8429
+line_end: 8460
 dependencies:
   - "A.10"
   - "A.6"

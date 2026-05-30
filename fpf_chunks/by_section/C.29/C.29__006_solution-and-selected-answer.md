@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution and selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-and-selected-answer.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
   - "C.29:4 — Solution and selected answer"
-line_start: 49669
-line_end: 50251
+line_start: 49903
+line_end: 50485
 dependencies:
   - "A.1.1"
   - "A.10"

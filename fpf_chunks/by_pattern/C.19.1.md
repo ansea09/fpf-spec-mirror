@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.1.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
-line_start: 42459
-line_end: 42559
+line_start: 42688
+line_end: 42791
 dependencies:
   - "A.0"
   - "B.3"
@@ -18,6 +18,7 @@ dependencies:
   - "C.19"
   - "C.24"
   - "C.5"
+  - "E.23"
   - "E.3"
   - "E.5"
   - "F.7"
@@ -27,16 +28,12 @@ dependencies:
   - "G.8"
   - "G.9"
 keywords:
-  - "BLP-waiver"
   - "BLP‑waiver"
-  - "Bitter Lesson"
   - "Scale‑Audit"
   - "general‑method preference"
   - "iso‑scale parity"
-  - "scale-audit"
   - "scale‑amenability"
   - "slope vector"
-  - "task-family specialization"
   - "α/δ tolerances"
 ---
 
@@ -76,9 +73,9 @@ Among admissible options with comparable assurance (within **δ**) and budget (w
 > All overrides record a **BLP‑waiver** with rationale, responsible role, and expiry/review in the DRR.
 
 **BLP‑2.2 — Task-family specialization compatibility.**
-A bounded task-family specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, when it acts as a complementary bias that does not block scale, or when it survives the ordinary **BLP** comparison discipline on the same declared task family and work target. If the user is not claiming scale advantage or overriding a general method, a bounded task-family specialization may be used with explicit task family, work target, budget guard rails, and evidence basis. Full **Scale-Audit** is triggered by scale-advantage, override, selector-facing publication, publication-facing superiority, or durable reusable-method claim, not by the mere existence of specialization. `BLP` therefore governs whether the narrower current method was generated, compared, audited, waived, and overridden admissibly; it does **not** require the final local behavior at every moment to look maximally generic.
+A bounded task-family specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, when it acts as a complementary bias that does not block scale, or when it survives the ordinary **BLP** comparison discipline on the same declared task family and work target. If the user is not claiming scale advantage or overriding a general method, a bounded task-family specialization may be used with explicit task family, work target, budget guard rails, and evidence source or evidence locus. Full **Scale-Audit** is triggered by scale-advantage, override, selector-facing publication, publication-facing superiority, or durable reusable-method claim, not by the mere existence of specialization. `BLP` therefore governs whether the narrower current method was generated, compared, audited, waived, and overridden admissibly; it does **not** require the final local behavior at every moment to look maximally generic.
 
-Low-human-overlap or newly discovered approaches remain admissible when the task family, budget guard rails, and evidence basis are explicit by value and the same `Scale‑Audit`, `α/δ`, waiver, and override discipline is preserved.
+Low-human-overlap or newly discovered approaches remain admissible when the task family, budget guard rails, and evidence source or evidence locus are explicit by value and the same `Scale‑Audit`, `α/δ`, waiver, and override discipline is preserved.
 **BLP‑3 — Minimal‑prescription default.**
 Author **rules‑as‑prohibitions** (negative constraints) instead of stepwise scripts; encode limits in **Φ policy tables** (and **Φ_plane**) and allow agents to **sequence autonomously** within those constraints. Scripts are permissible only when mandated by safety/regulation or with compelling DRR evidence reviewed under E.3/E.5.
 
@@ -113,13 +110,14 @@ Single‑winner leaderboards; hidden budget mixing; promoting illumination into 
 
 **Elegant-math override.** A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while scale advantage is live. Remedy: use BLP scale-audit when the claim is scale advantage; otherwise mark the lens as local and bounded by `C.29` stop condition.
 
-### C.19.1:5 - Archetypal grounding (post‑2015; informative)
+### C.19.1:5 - Archetypal grounding (post-2015; informative)
 
-* **LLMs:** prompt‑programs, **retrieval‑augmented** and **MoE** policies vs narrow task‑specific pipelines; set-returning selection across editions/budgets.
-* **RL & planning:** model‑based optimization/general agents vs hand‑coded controllers (subject to α/δ and safety).
-* **Preference learning:** **RLHF ↔ DPO** families.
-* **QD/OEE:** MAP‑Elites/**CMA‑ME**/**DQD**/**QDax**; **POET/Enhanced‑POET**; illumination remains **report‑only telemetry** unless policy promotes it.
+Source posture: this section is informative grounding for scale-amenable method comparison, not a current SoTA table. A concrete BLP claim still needs the local context, comparator set, alpha/delta tolerances, budget, assurance boundary, and source-currentness row named by the applying pattern or parity harness.
 
+* **LLMs:** prompt-programs, **retrieval-augmented** and **MoE** policies vs narrow task-specific pipelines; set-returning selection across editions/budgets.
+* **RL & planning:** model-based optimization/general agents vs hand-coded controllers (subject to alpha/delta and safety).
+* **Preference learning:** **RLHF <-> DPO** families.
+* **QD/OEE:** MAP-Elites/**CMA-ME**/**DQD**/**QDax**; **POET/Enhanced-POET**; illumination remains **report-only telemetry** unless policy promotes it.
 ### C.19.1:6 - Payload — exports
 
 `BLP.Policy@Context` (UTS row; editioned):
@@ -139,5 +137,7 @@ When a mathematical lens is chosen over a general, scale-amenable method because
 If scale advantage is live, cite a `Scale-Audit` or `BLP-waiver`. If scale advantage is not live, keep the mathematical lens local and bounded by its `C.29` stop condition.
 
 > *Memory hook.* **Prefer what scales; explain when you don’t.**
+
+When `E.23` selects between a Ralph-like general adaptive loop, a specialized object-family cycle, or a mixed operation-family set, `C.19.1` governs the BLP comparison and waiver discipline. The local `E.23` cost and risk prompt `token_or_compute_cost + tool_cost + adaptation_attempt_cost + human_supervision_cost + rework_cost - avoided_loss_value` is not a scalar quality score; it is a practical accepted-work cost account for deciding whether the next pass, added operation, or method-family switch is BLP-compatible. Repeated automation alone does not satisfy BLP; the record must still name the object under improvement, object-under-improvement evaluation, protected trade-offs, bounded cost and risk posture, and stop or switch condition.
 
 ### C.19.1:End

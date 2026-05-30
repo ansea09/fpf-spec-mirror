@@ -6,12 +6,12 @@ section_id: "B.5.2.1:10"
 section_title: "Worked micro‑example (abbreviated)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__012_worked-micro-example-abbreviated.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:10 — Worked micro‑example (abbreviated)"
-line_start: 33529
-line_end: 33549
+line_start: 33758
+line_end: 33778
 dependencies:
   - "A.17"
   - "A.18"

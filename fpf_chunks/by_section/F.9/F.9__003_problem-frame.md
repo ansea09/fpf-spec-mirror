@@ -6,12 +6,12 @@ section_id: "F.9:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__003_problem-frame.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:2 — Problem frame"
-line_start: 68009
-line_end: 68021
+line_start: 70257
+line_end: 70269
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

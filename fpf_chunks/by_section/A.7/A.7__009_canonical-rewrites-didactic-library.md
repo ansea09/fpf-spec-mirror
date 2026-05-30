@@ -6,12 +6,12 @@ section_id: "A.7:8"
 section_title: "Canonical rewrites (didactic library)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__009_canonical-rewrites-didactic-library.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:8 — Canonical rewrites (didactic library)"
-line_start: 18472
-line_end: 18484
+line_start: 18478
+line_end: 18490
 dependencies:
   - "A.1"
   - "A.10"

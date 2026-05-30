@@ -6,12 +6,12 @@ section_id: "C.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__004_what-this-buys.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:0.2 — What this buys"
-line_start: 42131
-line_end: 42136
+line_start: 42360
+line_end: 42365
 dependencies:
   - "B.3"
   - "C.11"

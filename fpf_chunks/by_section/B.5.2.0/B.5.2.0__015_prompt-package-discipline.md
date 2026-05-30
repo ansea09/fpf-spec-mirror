@@ -6,12 +6,12 @@ section_id: "B.5.2.0:14"
 section_title: "Prompt package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__015_prompt-package-discipline.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:14 — Prompt package discipline"
-line_start: 33320
-line_end: 33349
+line_start: 33549
+line_end: 33578
 dependencies:
   - "A.16"
   - "A.16.0"

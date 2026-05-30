@@ -1,21 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.19"
-pattern_title: "Pattern Quality Gates: Review & Refresh Profiles"
+pattern_title: "Pattern Quality Gates: Review and Refresh Profiles"
 section_id: "E.19:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__003_what-goes-wrong-if-missed.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
+  - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.1 — What goes wrong if missed"
-line_start: 63090
-line_end: 63093
+line_start: 64441
+line_end: 64444
 dependencies:
   - "A.6.P"
   - "C.2.P"
   - "E.10"
+  - "E.21"
+  - "E.22"
+  - "E.23"
   - "E.8"
   - "E.9"
   - "F.18"

@@ -6,12 +6,12 @@ section_id: "A.6.S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__012_rationale.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:10 — Rationale"
-line_start: 17679
-line_end: 17694
+line_start: 17685
+line_end: 17700
 dependencies:
   - "A.12"
   - "A.3"

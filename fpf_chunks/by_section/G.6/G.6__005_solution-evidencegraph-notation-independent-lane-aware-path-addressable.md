@@ -6,12 +6,12 @@ section_id: "G.6:4"
 section_title: "Solution — EvidenceGraph (notation‑independent; lane‑aware; path‑addressable)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__005_solution-evidencegraph-notation-independent-lane-aware-path-addressable.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
   - "G.6:4 — Solution — EvidenceGraph (notation‑independent; lane‑aware; path‑addressable)"
-line_start: 75589
-line_end: 75755
+line_start: 77837
+line_end: 78003
 dependencies:
   - "A.10"
   - "A.21"

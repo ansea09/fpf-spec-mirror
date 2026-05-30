@@ -6,12 +6,12 @@ section_id: "A.2.2:9"
 section_title: "Capability thresholds on steps (how A.15 uses this concept)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__010_capability-thresholds-on-steps-how-a-15-uses-this-concept.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:9 — Capability thresholds on steps (how A.15 uses this concept)"
-line_start: 2444
-line_end: 2460
+line_start: 2450
+line_end: 2466
 dependencies:
   - "A.1"
   - "A.1.1"

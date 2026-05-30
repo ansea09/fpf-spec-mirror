@@ -6,12 +6,12 @@ section_id: "B.5.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__008_conformance-checklist.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:7 — Conformance Checklist"
-line_start: 33002
-line_end: 33010
+line_start: 33231
+line_end: 33239
 dependencies:
   - "A.10"
   - "A.16"

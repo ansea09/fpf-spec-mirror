@@ -1,46 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.21"
-pattern_title: "FPF Pattern Quality Characteristic Space"
+pattern_title: "FPF Pattern-Quality Evaluation CharacteristicSpace"
 section_id: "E.21:4"
 section_title: "Solution - Pattern quality as a scoped Q-Bundle over declared characteristics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution-pattern-quality-as-a-scoped-q-bundle-over-declared-characteristics.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.21 — FPF Pattern Quality Characteristic Space"
+  - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution - Pattern quality as a scoped Q-Bundle over declared characteristics"
-line_start: 64204
-line_end: 64851
+line_start: 65564
+line_end: 66234
 dependencies:
   - "A.17-A.19"
+  - "A.19.ECS"
   - "A.6.P"
-  - "A.6.Q"
   - "C.16"
   - "C.2.P"
   - "C.25"
+  - "E.10"
   - "E.11"
-  - "E.17.AUD"
   - "E.19"
+  - "E.2.DA"
+  - "E.22"
+  - "E.23"
   - "E.8"
+  - "E.9.DA"
   - "F.18"
   - "J.4"
 keywords:
-  - "Goodhart/proxy substitution"
-  - "Pareto/front comparison"
-  - "PatternQualityCharacteristicSpace"
-  - "PatternQualityQBundle"
-  - "activation-normalized coordinates"
   - "and admissibility predicates are not written as duties"
-  - "bounded non-use"
-  - "coordinate evidence"
   - "definitions"
-  - "eligibility filters"
-  - "first move"
   - "invariants"
-  - "pattern quality"
   - "state agent obligations only"
-  - "stop condition"
   - "typing rules"
 ---
 
@@ -54,7 +47,7 @@ State the scoped FPF pattern-quality read as a `PatternQualityQBundle`, not as o
 
 It defines how to read whether one authored FPF pattern version is good enough for one declared reader, use, and scope, why improvement may stop, and which weaknesses remain bounded.
 
-`E.21` owns only these questions:
+`E.21` governs only these questions:
 
 1. Which exact FPF pattern version is being read?
 2. For which reader, use, scope, and currentness window?
@@ -64,7 +57,7 @@ It defines how to read whether one authored FPF pattern version is good enough f
 6. Which `PatternQualityStatus` follows?
 7. Why may improvement stop, or why must the claim narrow, repair, hold for architecture, or refresh?
 
-`E.21` does not own:
+`E.21` does not govern:
 
 * authoring the pattern body (`E.8`);
 * running admission or refresh review profiles (`E.19`);
@@ -75,7 +68,7 @@ It defines how to read whether one authored FPF pattern version is good enough f
 
 A conforming `E.21` read may cite neighbouring patterns, but it may not absorb their governed objects.
 
-`E.21` protects these seam surfaces as part of the pattern-quality read: self-application, first-entry/discoverability, publication/projection, bounded non-use, no forced winner, falsifiability/lowering evidence, reviewer-power misuse, AI/RAG/thin-echo summaries, and corpus ecology. A read that crosses one of these surfaces must keep the pattern-quality claim scoped, replayable, falsifiable, and kept under the exact neighbouring pattern application instead of becoming control apparatus.
+`E.21` protects these pattern-quality boundary loci as part of the pattern-quality read: self-application, first-entry discoverability, publication and projection, bounded non-use, no forced winner, falsifiability and lowering evidence, reviewer-power misuse, AI, RAG, thin-echo summaries, and corpus ecology. A read that crosses one of these loci must keep the pattern-quality claim scoped, replayable, falsifiable, and kept under the exact neighbouring pattern application instead of becoming control apparatus.
 
 #### E.21:4.0a - Mint/reuse and kind settlement
 
@@ -86,18 +79,18 @@ Its durable heads are local specialisations, fields, value sets, or scoped suppo
 | E.21 head | Kind settlement | Existing governing pattern kept intact |
 |---|---|---|
 | `PatternQualityQBundle` | Local `C.25` Q-Bundle specialisation for one scoped FPF pattern-quality claim. | `C.25` remains the general Q-Bundle normal form. |
-| `PatternQualityCharacteristicSpace` | Local `A.19` CharacteristicSpace specialisation for ordinal pattern-quality content readings. | `A.17`, `A.18`, `A.19`, and `C.16` keep general Characteristic/Scale/Coordinate and measurement legality. |
+| `PatternQualityEvaluationCharacteristicSpace` | Local `A.19` CharacteristicSpace specialisation for ordinal pattern-quality content readings. | `A.17`, `A.18`, `A.19`, and `C.16` keep general Characteristic, Scale, Coordinate, and measurement legality. |
 | `PatternQualityStatus` | Local value set inside a `PatternQualityQBundle`; an admissible-use posture for the pattern-quality claim. | Not a role state, release state, gate decision, assurance level, or project status. |
 | `EligibilitySet` | Set-valued hard-filter field inside `PatternQualityQBundle`. | Not an `A.21` gate, not an `E.19` review profile, and not a soft score region. |
 | `DominanceSet` | Set-valued coordinate-selection field for Pareto comparison after eligibility passes. | Not a hidden scoring method, not `G.5` selection policy, not `C.11` choice result. |
 | `TieBreakerSet` | Set-valued secondary preference field among non-dominated candidates. | Not a secret dominance coordinate or hard blocker override. |
 | `TelemetrySet` | Set-valued reopen/calibration signal field for the pattern-quality claim. | Not project telemetry, not certification evidence, not replacement for content evidence. |
-| `CoordinateEvidenceRef` | Local evidence-reference record for one coordinate reading. | It may cite `A.10` or `B.3` only when evidence/assurance claims are actually live. |
-| `CoordinateEvidenceRefs` | Set-valued field of `CoordinateEvidenceRef` records. | Not a support archive, review verdict, or proof of project-world truth. |
+| `CoordinateEvidenceRef` | Local evidence-reference record for one coordinate reading. | It may cite `A.10` or `B.3` only when evidence or assurance claims are actually live. |
+| `CoordinateEvidenceRefs` | Set-valued field of `CoordinateEvidenceRef` records. | Not an evidence archive, review verdict, or proof of project-world truth. |
 | `PatternQualityFront` | Scoped non-dominated set over candidate pattern versions or candidate edits under the active `E.21` relation. | Not a `C.18` NQD archive, not a `G.5` shortlist, not a project backlog. |
-| `PatternImprovementArchive` | Bounded trade-off support archive for candidate pattern edits/variants. | Not process history, chat memory, permanent backlog, or mandatory appendix. |
+| `PatternImprovementArchive` | Bounded trade-off evidence archive for candidate pattern edits or variants. | Not process history, chat memory, permanent backlog, or mandatory appendix. |
 
-Coordinate heads in `E.21:4.3` are local pattern-quality characteristic heads inside `PatternQualityCharacteristicSpace`. They do not become general FPF characteristics, metrics, maturity dimensions, or measurement templates unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration makes that live.
+Coordinate heads in `E.21:4.3` are local pattern-quality characteristic heads inside `PatternQualityEvaluationCharacteristicSpace`. They do not become general FPF characteristics, numeric measures, maturity dimensions, or measurement templates unless a neighbouring `C.16`, `A.17`, `A.18`, or `A.19` declaration makes that live.
 
 A conforming `E.21` read treats these heads as exact local constructs. When a head is reused outside `E.21`, the receiving text must either cite `E.21` by value or rerun the exact governing pattern for the new use.
 
@@ -123,7 +116,7 @@ A higher layer SHALL NOT be required merely because a lower-layer read exists.
 
 Every activated layer must state what admissible use it buys.
 
-If a field, card, telemetry signal, archive entry, or support record does not change first-pass usability, coordinate evidence, variant comparison, stop/reopen condition, or bounded non-use, it is apparatus bloat for the current claim.
+If a field, card, telemetry signal, archive entry, or evidence record does not change first-pass usability, coordinate evidence, variant comparison, stop or reopen condition, or bounded non-use, it is apparatus bloat for the current claim.
 
 #### E.21:4.0c - Self-application and recursion boundary
 
@@ -134,19 +127,32 @@ The ordinary self-application read closes when the current `E.21` text exposes:
 1. one first admissible action-guiding move for an author or reviewer;
 2. the governed object of the quality read;
 3. the no-single-score and no-administrative-proxy boundary;
-4. the neighbour-authority boundary to `E.8`, `E.19`, `C.25`, `C.16`/`A.17`/`A.18`/`A.19`, `F.18`, `E.10`, `A.6.P`, `E.17`, `A.10`, `B.3`, `A.20`, `A.21`, and `A.15`;
+4. the neighbour-authority boundary to `E.8`, `E.19`, `C.25`, `C.16`, `A.17`, `A.18`, `A.19`, `F.18`, `E.10`, `A.6.P`, `E.17`, `A.10`, `B.3`, `A.20`, `A.21`, and `A.15`;
 5. one explicit stop or repair condition for the declared self-read scope.
 
 Self-application SHALL NOT require an additional `PatternQualityQBundle` evaluating the previous `PatternQualityQBundle`. If the first self-read exposes a content defect, repair that defect in the pattern text or narrow the declared use. If the defect is architectural, use `holdForArchitectureDecision`.
 
+#### E.21:4.0d - Pattern-quality question framing
+
+A pattern-quality read does not begin from an implicit request such as "review this", "evaluate this", or "improve this". For a nontrivial read, use `E.22` to declare the quality-read purpose before `E.21` assigns pattern-quality coordinates or stop result.
+
+The question frame states the `QualityReadPurposeSelection`, declared floor, desired improvement aim, protected trade-offs, and open-question classification rule. If no purpose is declared, the default is `floorRead` under the declared or receiving-pattern floor, not `exceptionalImprovementRead`.
+
+`exceptionalImprovementRead` asks for non-dominated edits that could move active coordinates toward `5` where feasible. `paretoTradeoffRead` asks whether that movement damages usability, affordability, repair locality, corpus ecology, neighbour fit, entry and projection integrity, or another protected quality. `openQuestionDiscoveryRead` classifies important unasked questions as an existing `E.21` coordinate issue, candidate coordinate or overlay, or outside `E.21` under another exact FPF pattern. `absorptionRead` maps returned findings to coordinate movement, floor-only closure, unchanged already-satisfied content, trade-offs, quality loss, or outside-pattern disposition.
+
+The question frame is not pattern-quality evidence by itself. It only states which `E.21` question is being asked, so the resulting `PatternQualityQBundle` can answer the intended question rather than a reviewer-selected default.
+
+When the same pattern version is being improved through repeated passes, use `E.23` for the repeated quality-improvement method. `E.21` supplies the pattern-quality coordinates, values, protected trade-offs, status, and stop meanings; it does not govern row-atomic absorption across passes, method-family selection, or stop, narrow, continue, switch method, or hold decisions.
+
+
 #### E.21:4.1 - PatternQualityQBundle
 
-`PatternQualityQBundle := <PatternVersionRef, ClaimScope, WorkingReaderScope, IntendedUse, QualificationWindow, EligibilitySet, DominanceSet, CoordinateEvidenceRefs?, TieBreakerSet?, TelemetrySet?, EvidenceRefs, PatternQualityStatus, StopCondition>`
-
-
+`PatternQualityQBundle := <PatternVersionRef, ClaimScope, WorkingReaderScope, IntendedUse, QualificationWindow, QualityReadQuestionFrameRef?, EligibilitySet, DominanceSet, CoordinateEvidenceRefs?, TieBreakerSet?, TelemetrySet?, EvidenceRefs, PatternQualityStatus, StopCondition>`
 `PatternQualityQBundle` is the publication unit for a scoped pattern-quality claim.
 
-`PatternQualityQBundle` is replayable when another reader can recover the same target version, declared scope, active eligibility rows, active coordinates, coordinate evidence refs, status payload, and stop/non-stop reason without chat memory, steward memory, or administrative placement state.
+`PatternQualityQBundle` is replayable when another reader can recover the same pattern version, declared scope, active eligibility rows, active coordinates, coordinate evidence refs, status payload, and stop/non-stop reason without chat memory, steward memory, or administrative placement state.
+
+`QualityReadQuestionFrameRef?` is optional. When present, it cites an `E.22` question frame that states whether this is a floor, exceptional-improvement, Pareto trade-off, open-question discovery, absorption, or combined read. The frame does not supply coordinate evidence; it constrains which `E.21` result shape is expected.
 
 Its first-pass slice may contain only the fields needed to decide whether one working reader can recover the governed object and first admissible move.
 
@@ -186,7 +192,7 @@ A status without payload is not checkable. Every `PatternQualityStatus` SHALL ca
 
 * `admissibleForDeclaredUse`: declared use, active floors, and remaining bounded non-use, if any.
 * `admissibleWithNarrowerUse`: the exact narrowed `ClaimScope`, `WorkingReaderScope`, or `IntendedUse`.
-* `repairBeforeUse`: the activated blocker and the first admissible repair target.
+* `repairBeforeUse`: the activated blocker and the first admissible repair move.
 * `holdForArchitectureDecision`: the exact unresolved governed-object, neighbour-authority, split, or placement question.
 * `refreshNeeded`: the exact SoTA, neighbour, terminology, retrieval, telemetry, or use-scope change that invalidated the previous read.
 
@@ -202,7 +208,7 @@ The narrowed use must name:
 
 #### E.21:4.1a - Coordinate readings are content readings, not administrative-state readings
 
-`PatternQualityCharacteristicSpace` coordinates measure the current pattern version and the content evidence available for that version: its recognition text, governed object, ontology, names, Solution, checklist, worked cases, SoTA rows, relations, and support boundaries. They do not measure whether the pattern has already been externally reviewed, merged into a monolith, included in a release branch, or accepted by one steward process.
+`PatternQualityEvaluationCharacteristicSpace` coordinates measure the current pattern version and the content evidence available for that version: its recognition text, governed object, ontology, names, Solution, checklist, worked cases, SoTA rows, relations, and support boundaries. They do not measure whether the pattern has already been externally reviewed, merged into a monolith, included in a release branch, or accepted by one steward process.
 
 Administrative state can change a `PatternQualityQBundle` only in these ways:
 
@@ -215,6 +221,14 @@ Administrative state can change a `PatternQualityQBundle` only in these ways:
 
 If a quality read says "low because this has not been externally reviewed" or "high because this is already in the monolith", it is using administrative state as a proxy. The repair is to state the substantive coordinate evidence directly and keep administrative state in `ClaimScope`, `QualificationWindow`, or receiving release/review patterns.
 
+#### E.21:4.1b - Pattern property evidence vs reputation signals
+
+Coordinate values read properties of the pattern version for the declared reader, use, scope, and qualification window. Popularity, adoption, award, steward praise, reviewer praise, external-review completion, number of reviews, monolith placement, release inclusion, or prior use is not a coordinate value and does not raise or lower a coordinate by itself.
+
+Such signals may only serve as pointers to inspect content evidence. A replayable observation such as "three first-time readers could not recover the first admissible move from this Problem frame" may lower `ActionPathGuidance` because it names the pattern text, reader scope, use situation, observed failure, and coordinate affected. A signal such as "widely used", "not yet used", "reviewer-clean", "not externally reviewed", "popular", or "already accepted" remains outside the coordinate value unless it is rewritten into exact pattern-content evidence.
+
+Absence of prior use, external review, landing, release, or steward acceptance is not evidence against `4` or `5`. Only missing or weak pattern-content evidence for the declared use can lower the coordinate. The same pattern text under the same `PatternVersionRef`, `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow` should receive the same coordinate value whether it is still in a host file, already in the monolith, praised by reviewers, ignored by readers, or newly written.
+
 
 #### E.21:4.2 - EligibilitySet: hard conditions before quality comparison
 
@@ -222,7 +236,7 @@ The `EligibilitySet` is not a low-scoring region. It is the precondition for mea
 
 Eligibility rows have activation. A first-pass pattern-quality read always checks only the rows needed to decide whether one working reader can recognise the situation, recover the governed object, find the first admissible move, and avoid immediate neighbour-authority or apparatus overread.
 
-Rows whose condition depends on a live source, live formal lens, live measurement claim, live accepted basis, live release/review state, live mission/pillar conflict, or live durable-name change activate only when that load is present in the target pattern or in the declared `ClaimScope`.
+Rows whose condition depends on a live source, live formal lens, live measurement claim, live accepted basis, live release/review state, live mission/pillar conflict, or live durable-name change activate only when that load is present in the pattern version or in the declared `ClaimScope`.
 
 Failure of an activated eligibility row is a content blocker. A non-activated row is not a pass, not a waiver, and not a hidden todo; it is outside the current pattern-quality claim.
 
@@ -230,8 +244,8 @@ Failure of an activated eligibility row is a content blocker. A non-activated ro
 |---|---|
 | `canonicalFrameConformance` | The pattern has the `E.8` canonical frame, header block, required sections, and footer marker, or the missing piece is explicitly treated as a mechanical repair before use. |
 | `governedObjectClarity` | The early text says which object, relation, move, boundary, or support claim the pattern governs. |
-| `firstMoveRecoverability` | The target pattern's `Problem frame` and `Solution` expose one first admissible action-guiding move for the declared `WorkingReaderScope`, or a named neighbouring-pattern application now carries the live claim. |
-| `missionOrPillarConflict` | Activated when the pattern claims FPF-wide mission support, changes a pillar interpretation, imports external domain scope, or creates a possible pillar conflict. Absence of pillar recitation is not a defect. Pass condition: no live mission/pillar conflict is hidden, and any live constitutional payoff is carried by the exact coordinate or neighbouring pattern that owns it. |
+| `firstMoveRecoverability` | The pattern version's `Problem frame` and `Solution` expose one first admissible action-guiding move for the declared `WorkingReaderScope`, or a named neighbouring-pattern application now carries the live claim. |
+| `missionOrPillarConflict` | Activated when the pattern claims FPF-wide mission support, changes a pillar interpretation, imports external domain scope, or creates a possible pillar conflict. Absence of pillar recitation is not a defect. Pass condition: no live mission/pillar conflict is hidden, and any live constitutional payoff is carried by the exact coordinate or neighbouring pattern that governs it. |
 | `noProcessLeakage` | Live pattern prose contains no campaign, review, history, planning, landing, or "what changed" residue. |
 | `normativityAdmissibilitySplit` | RFC keywords state agent obligations only; definitions, invariants, typing rules, and admissibility predicates are not written as duties. |
 | `terminologyAdmissibility` | Minted and load-bearing names pass the `F.18 -> A.6.P -> E.10` chain: kind, relation, qualification, governed object, governed move, and non-admissible neighbouring use are recoverable. |
@@ -244,15 +258,15 @@ Failure of an activated eligibility row is a content blocker. A non-activated ro
 | `formalClaimLegalityAndLensFit` | If a measurement, score, comparison, threshold, aggregation, mathematical lens, causal lens, QL lens, simulation, representation, or learned-lens claim is load-bearing, the scale/comparability basis, preserved structure, lost structure, visible payoff, admissible use, non-admissible use, and stop condition are named. |
 | `acceptedBasisCarryThrough` | Accepted intake, DRR, returned findings, or architecture-basis obligations that govern the pattern are expressed, intentionally absent, or assigned to a named receiving FPF pattern or support document. |
 
-If an eligibility condition fails, the status is `repairBeforeUse` or `holdForArchitectureDecision`. Do not average the failure into better coordinates. A missing first move is not a weak coordinate. For an ordinary-use pattern-quality read, failed activated `firstMoveRecoverability` is a blocker unless the claim is explicitly narrowed to expert-only support, reference-only support, or architecture-decision support.
+If an eligibility condition fails, the status is `repairBeforeUse` or `holdForArchitectureDecision`. Do not average the failure into better coordinates. A missing first move is not a weak coordinate. For an ordinary-use pattern-quality read, failed activated `firstMoveRecoverability` is a blocker unless the claim is explicitly narrowed to expert-only use, reference-only use, or architecture-decision use.
 
-#### E.21:4.3 - PatternQualityCharacteristicSpace
+#### E.21:4.3 - PatternQualityEvaluationCharacteristicSpace
 
-`PatternQualityCharacteristicSpace` is the declared characteristic space for FPF pattern-quality reads. It uses ordinal coordinates. The default scale is a zero-based six-level scale:
+`PatternQualityEvaluationCharacteristicSpace` is the declared characteristic space for FPF pattern-quality reads. It uses ordinal coordinates. The default scale is a zero-based six-level scale:
 
-A `PatternQualityCharacteristicSpace` is not a general FPF quality ontology. Its coordinate heads remain local pattern-quality characteristic heads unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration makes a broader characteristic or measurement claim live.
+A `PatternQualityEvaluationCharacteristicSpace` is not a general FPF quality ontology. Its coordinate heads remain local pattern-quality characteristic heads unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration makes a broader characteristic or measurement claim live.
 
-A coordinate value in `PatternQualityCharacteristicSpace` is an ordinal pattern-quality reading, not a `U.Measure` by default. It becomes a measurement claim only when the pattern explicitly declares a `C.16` measurement template, scale, unit, or admissible coordinate construction. Otherwise the value is an evidence-backed ordinal judgement over pattern content for the declared scope.
+A coordinate value in `PatternQualityEvaluationCharacteristicSpace` is an ordinal pattern-quality reading, not a `U.Measure` by default. It becomes a measurement claim only when the pattern explicitly declares a `C.16` measurement template, scale, unit, or admissible coordinate construction. Otherwise the value is an evidence-backed ordinal judgement over pattern content for the declared scope.
 
 | Value | Label | Meaning |
 |---:|---|---|
@@ -265,15 +279,15 @@ A coordinate value in `PatternQualityCharacteristicSpace` is an ordinal pattern-
 
 The scale is zero-based because true absence is not a weak positive value. It uses six levels rather than ten because the read is ordinal: six levels distinguish absence, mere naming, partial expression, sufficiency, strong expression, and exceptional expression without pretending to have decimal-grade precision. The labels are intentionally domain-neutral. They describe degree of expression of whichever characteristic is being read; they do not import a substantive property such as robustness, stability, safety, maturity, completeness, usability, affordability, or evidence strength into every coordinate.
 
-Authors may use a coordinate-specific named scale when needed, but they must keep the scale ordinal unless a stronger `C.16` measurement basis is declared. No arithmetic mean, percentage score, or hidden normalization is admissible.
+Authors may use a coordinate-specific named scale when needed, but they must keep the scale ordinal unless a `C.16` measurement basis with the needed measurement semantics is declared. No arithmetic mean, percentage score, or hidden normalization is admissible.
 
 The ordinal value of a coordinate is a content reading. `FormalClaimLegalityAndLensFit = 3` means the formal or lens claim is sufficiently expressed for the declared use; it does not mean "not yet reviewed". `FormalClaimLegalityAndLensFit = 5` means the same coordinate is exceptionally expressed in the current pattern text; it does not mean "already landed". The same pattern text in an extracted host and in a monolith should receive the same coordinate value unless the move changes the text, exposes a new content defect, changes the version under `PatternVersionRef`, or changes the declared use being evaluated.
 
-Coordinate names in this section are local characteristic heads inside `PatternQualityCharacteristicSpace`. They are not `U.Measure`s and not general-purpose CHR patterns by name alone.
+Coordinate names in this section are local characteristic heads inside `PatternQualityEvaluationCharacteristicSpace`. They are not `U.Measure`s and not general-purpose CHR patterns by name alone.
 
-A coordinate value is an ordinal content reading over the target pattern text for the declared `ClaimScope`. It becomes a measurement claim only when a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration explicitly supplies the measurement basis, scale, unit, comparability mode, and evidence support.
+A coordinate value is an ordinal content reading over the pattern version text for the declared `ClaimScope`. It becomes a measurement claim only when a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration explicitly supplies the measurement basis, scale, unit, comparability mode, and evidence support.
 
-Coordinate values in `PatternQualityCharacteristicSpace` are ordinal content readings unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration makes a measurement claim live. `DominanceSet` compares these readings without scalarizing them.
+Coordinate values in `PatternQualityEvaluationCharacteristicSpace` are ordinal content readings unless a neighbouring `C.16`/`A.17`/`A.18`/`A.19` declaration makes a measurement claim live. `DominanceSet` compares these readings without scalarizing them.
 
 #### E.21:4.3a - Coordinate value evidence test
 
@@ -286,13 +300,13 @@ A coordinate value is justified by content evidence, not by the label alone. The
 5. SoTA or internal FPF architecture changes at least one `Solution`, checklist, relation, or worked-case line when the coordinate depends on a source or modeling lens;
 6. the coordinate evidence does not depend on review completion, landing state, monolith placement, release state, or steward acceptance.
 
-A `5 exceptionallyExpressedForDeclaredUse` value requires the `4` test plus stronger content evidence: multiple reinforcing loci, heterogeneous cases or anti-cases where the characteristic changes the result, explicit non-use boundary, and no hidden affordability, maintenance, neighbour-ripple, corpus, entry/projection, or proxy-for-value loss.
+A `5 exceptionallyExpressedForDeclaredUse` value requires the `4` test plus additional content evidence: multiple reinforcing loci, heterogeneous cases or anti-cases where the characteristic changes the result, explicit non-use boundary, and no hidden affordability, maintenance, neighbour-ripple, corpus, entry/projection, or proxy-for-value loss.
 
-`3 sufficientlyExpressedForDeclaredUse` means the coordinate is usable for the declared scope but lacks one or more supports required for `4` or `5`. Coordinate value and evidence support remain distinct: a value says how strongly the characteristic is expressed; `CoordinateEvidenceRefs` say why that reading is justified.
+`3 sufficientlyExpressedForDeclaredUse` means the coordinate is usable for the declared scope but lacks one or more evidence references, cases, anti-cases, or boundary statements required for `4` or `5`. Coordinate value and `CoordinateEvidenceRefs` remain distinct: a value says the declared expression degree for the characteristic; `CoordinateEvidenceRefs` say why that reading is justified.
 
-The coordinates below are not one flat always-on audit grid. `PatternQualityCharacteristicSpace` is an activation-normalized characteristic menu for scoped FPF pattern-quality reads.
+The coordinates below are not one flat always-on audit grid. `PatternQualityEvaluationCharacteristicSpace` is an activation-normalized characteristic menu for scoped FPF pattern-quality reads.
 
-A coordinate is admissible only when it reads a content property of the target pattern version under the declared `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow`.
+A coordinate is admissible only when it reads a content property of the pattern version under quality read under the declared `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, and `QualificationWindow`.
 
 Hard blockers stay in `EligibilitySet`. Evidence kinds justify coordinate readings but are not coordinates by themselves. Telemetry reopens or calibrates a read but does not replace content evidence. Fronts and archives preserve candidate trade-offs but do not add ordinary drafting obligations. `PatternQualityStatus` and `StopCondition` are results of the read, not coordinates. Project-side evidence, assurance, gate, release, work, safety, security, or compliance claims stay under exact neighbouring patterns.
 
@@ -316,7 +330,7 @@ Inactive coordinates are not passes, waivers, or hidden failures. They are outsi
 | `NeighborAuthorityAndBoundedUseFit` | first-pass core | Whether neighbouring claims stay with exact receiving patterns and residual weakness is bounded. | Evidence, assurance, measurement, naming, work, gate, decision, publication, causal, release, bridge, and refresh claims do not become `E.21` authority. |
 | `PracticalUseDeltaAndHarmPrevention` | first-pass core | Whether the pattern changes a real reader move, prevents a named misuse, reduces named cost or ambiguity, or preserves a named boundary. | The reader can state what action, decision, repair, non-use, or neighbouring-pattern use becomes better because the pattern exists. |
 | `UseAffordabilityAndApparatusProportionality` | first-pass core | Whether first use is affordable and the apparatus is proportionate to the live claim. Subreadings: first-use cost and apparatus proportionality. | Ordinary use stays light; heavier fields, cards, telemetry, front/archive, support, or evidence apparatus appear only when their live claim buys admissible use. A weak live subreading limits the coordinate value; do not average the subreadings. |
-| `RepairLocalityAndChangeImpactPredictability` | ordinary stop core | Whether repairs stay local and downstream impact is predictable. | The repair has the smallest live locus, known impact radius, and no unnecessary changes to names, relations, supports, evidence refs, or entry surfaces. |
+| `RepairLocalityAndChangeImpactPredictability` | ordinary stop core | Whether repairs stay local and downstream impact is predictable. | The repair has the smallest live locus, known impact radius, and no unnecessary changes to names, relations, support records, evidence refs, or entry/projection loci. |
 | `ProxyForValueSubstitutionResistance` | ordinary stop core | Whether the quality read prevents Goodhart substitution of rubric satisfaction for pattern-use value. | The read asks what got worse and treats usability, affordability, maintainability, neighbour costs, and bounded non-use as quality evidence rather than afterthoughts. |
 | `ClaimSupportTraceabilityCurrentnessAndReplayability` | claim-support | Whether another reader can replay the claim from pinned text, scope, evidence refs, currentness basis, limitations, status, and stop reason. | The claim is traceable and replayable without chat memory, steward memory, or administrative placement state; project assurance stays outside `E.21` and under exact receiving patterns. |
 | `CaseCountercaseAndTransferCoverage` | claim-support | Whether positive cases, near-misses, anti-cases, and transfer cases match claimed breadth. | Cases test the main misuse paths and boundary transfers; broad claims have heterogeneous support or explicit narrowing. |
@@ -327,18 +341,18 @@ Inactive coordinates are not passes, waivers, or hidden failures. They are outsi
 | `PatternLanguageEcologyFit` | corpus/publication | Whether the pattern preserves FPF corpus health: relation fanout, name collision risk, entry-map clarity, support-role parity, stale echoes, and neighbouring-authority distribution. | Local improvement does not create corpus-level confusion, relation explosion, entry pollution, stale echoes, or shadow authority. |
 | `EvolutionFrontAndRefreshDiscipline` | front/refresh | Whether variants, fronts, archives, refresh windows, no-forced-winner cases, and smallest-live-reopen rules preserve open-ended evolution without endless polishing. | Non-dominated candidates can remain visible until a declared receiving action requires one selected candidate; refresh reopens the smallest live locus. |
 
-**Activated overlays.** These overlays are not ordinary coordinates. They become active only when the target pattern or declared `ClaimScope` makes the issue live.
+**Activated overlays.** These overlays are not ordinary coordinates. They become active only when the pattern version or declared `ClaimScope` makes the issue live.
 
 | Overlay | Activation | Good state |
 |---|---|---|
-| `ConstraintAndHarmBoundaryFit` | Active when the target pattern contains safety, security, ethics, compliance, deontic, harm-prevention, prohibited-use, non-negotiable constraint, or project-risk claims. | Constraint and harm boundaries are visible, exact receiving patterns are named, and no pattern-quality result is overread as safety, security, compliance, ethics, or project approval. |
+| `ConstraintAndHarmBoundaryFit` | Active when the pattern version contains safety, security, ethics, compliance, deontic, harm-prevention, prohibited-use, non-negotiable constraint, or project-risk claims. | Constraint and harm boundaries are visible, exact receiving patterns are named, and no pattern-quality result is overread as safety, security, compliance, ethics, or project approval. |
 | `SelfApplicationAndRecursionBoundary` | Active for meta-patterns that govern pattern authoring, review, quality, naming, publication, SoTA, epistemic precision repair, or characteristic spaces. | The pattern can be applied to itself at the lowest sufficient layer without recursive bundles, infinite review, or self-certifying authority. |
 
 #### E.21:4.4 - DominanceSet, TieBreakerSet, TelemetrySet
 
 `DominanceSet` names the subset of activated characteristics selected for the current `ClaimScope`. The coordinate menu in `E.21:4.3` is not one always-on grid.
 
-For one first ordinary read of one target pattern version, the minimal active coordinates are:
+For one first ordinary read of one pattern version under quality read, the minimal active coordinates are:
 
 - `WorkingSituationAndUseBoundaryRecognizability`;
 - `ActionPathGuidance`;
@@ -354,7 +368,7 @@ For admission, stop, repair-before-use, or narrowed-use closure, add the ordinar
 - `RepairLocalityAndChangeImpactPredictability` when an edit or repair is being judged;
 - `ProxyForValueSubstitutionResistance` before any stop or comparison claim.
 
-Activate claim-support, corpus/publication, front/refresh coordinates, and activated overlays only when the target pattern, candidate edit, or declared `ClaimScope` makes their load live.
+Activate claim-support, corpus/publication, front/refresh coordinates, and activated overlays only when the pattern version, candidate edit, or declared `ClaimScope` makes their load live.
 
 Inactive coordinates are outside the current pattern-quality claim. They are not passes, waivers, or hidden failures.
 
@@ -382,7 +396,7 @@ Cost tie-breakers are not a hiding place for live quality loss. If reader, autho
 
 If no breakage is named, fold the useful content into the pattern body, keep it as accepted basis only, or remove it from the active quality read.
 
-**High-assurance separation rule.** When high-assurance reuse needs stronger evidence, proof sketches, telemetry, or support cards, preserve the ordinary pattern body's first admissible move unless the ordinary use itself changes.
+**High-assurance separation rule.** When high-assurance reuse needs additional evidence, proof sketches, telemetry, or support cards, preserve the ordinary pattern body's first admissible move unless the ordinary use itself changes.
 
 High-assurance material should normally live in a named support card, worked slice, or neighbouring evidence/assurance pattern. It should not be inserted into the ordinary `Solution` if doing so makes first use harder for the declared ordinary reader.
 
@@ -411,7 +425,7 @@ Improvement can stop for the declared scope only when the `PatternQualityQBundle
 ```text
 StopCondition :=
   EligibilitySet passes
-  AND the target text is an action-guiding FPF pattern under E.8 for the declared use
+  AND the pattern text is an action-guiding FPF pattern under E.8 for the declared use
   AND the first move is recoverable from Problem frame and Solution, or the claim is narrowed to support-only use
   AND no open P1/P2 pattern-quality findings for the declared ClaimScope
   AND all active DominanceSet coordinates meet the declared floor
@@ -470,8 +484,10 @@ Use them together this way:
 2. Use `E.21` to state the quality bundle and non-scalar stop condition.
 3. Use `E.19` to run the selected review profiles and record findings.
 4. If an `E.19` finding changes the quality read, update the `PatternQualityQBundle`; do not turn the `E.19` verdict into a scalar score.
+5. If the pattern version is being improved through repeated passes, use `E.23` for the repeated method while `E.21` continues to supply the pattern-quality values and stop meanings.
 
-An `E.19` pass, return, or absence is not itself a coordinate value. It may supply evidence about the pattern text, expose a content defect, support a confidence judgement, or constrain the admissible `ClaimScope`; it does not make the same `FormalClaimLegalityAndLensFit`, `SemanticKindAndNameRecoverability`, `ActionPathGuidance`, or `ClosureAndBoundedNonUseRecoverability` stronger or weaker by administrative state alone.
+
+An `E.19` pass, return, or absence is not itself a coordinate value. It may supply evidence about the pattern text, expose a content defect, justify a confidence judgement, or constrain the admissible `ClaimScope`; it does not change the same `FormalClaimLegalityAndLensFit`, `SemanticKindAndNameRecoverability`, `ActionPathGuidance`, or `ClosureAndBoundedNonUseRecoverability` coordinate reading by administrative state alone.
 
 Do not call an `E.21` `EligibilitySet`, `PatternQualityStatus`, `StopCondition`, or coordinate floor a gate. `E.21` states a scoped pattern-quality read. `E.19` runs pattern-quality review profiles. `A.21` governs operational gate decisions. These three uses do not collapse by metaphor.
 
@@ -479,7 +495,7 @@ Do not call an `E.21` `EligibilitySet`, `PatternQualityStatus`, `StopCondition`,
 An `E.21` result is still a pattern-quality result. It is not project evidence, safety certification, gate passage, assurance acceptance, work authority, release approval, or publication truth unless the exact receiving pattern opens that project-side relation.
 
 #### E.21:4.8 - Minimal PatternQualityQBundle card
-**Ordinary first-pass slice.** This is not a new kind. It is the smallest admissible slice of `PatternQualityQBundle` for one first read of one target pattern version.
+**Ordinary first-pass slice.** This is not a new kind. It is the smallest admissible slice of `PatternQualityQBundle` for one first read of one pattern version under quality read.
 
 ```text
 PatternQualityQBundle / first-pass slice:
@@ -515,7 +531,7 @@ PatternQualityQBundle:
 
 #### E.21:4.8a - Publication and projection boundary for quality cards
 
-A rendered `PatternQualityQBundle`, first-pass slice, quality table, status badge, or dashboard tile is a publication or projection of the pattern-quality read. It is not the target pattern, not the authority source, not project evidence, not release approval, not gate passage, and not assurance acceptance.
+A rendered `PatternQualityQBundle`, first-pass slice, quality table, status badge, or dashboard tile is a publication or projection of the pattern-quality read. It is not the pattern version, not the authority source, not project evidence, not release approval, not gate passage, and not assurance acceptance.
 
 When the rendered card is used as a bounded publication unit, the card SHALL keep visible:
 
@@ -545,10 +561,10 @@ If a generated or coarsened rendering is used for reliance beyond orientation, a
 
 #### E.21:4.9 - Reader move loop
 
-The fast entry loop for one target pattern version is:
+The fast entry loop for one pattern version under quality read is:
 
-1. write the target line: `<PatternVersionRef> for <WorkingReaderScope> under <IntendedUse> within <QualificationWindow>`;
-2. read only the target pattern's `Problem frame` and `Solution` until one first admissible action-guiding move is recoverable;
+1. write the pattern-version line: `<PatternVersionRef> for <WorkingReaderScope> under <IntendedUse> within <QualificationWindow>`;
+2. read only the pattern version's `Problem frame` and `Solution` until one first admissible action-guiding move is recoverable;
 3. if no first move is recoverable, or if the move lives only in the Conformance Checklist, assign `PatternQualityStatus = repairBeforeUse` for the declared use unless a narrower support-only use is explicitly named;
 4. if the first move is recoverable, check the default six first-pass coordinates and any activated coordinates;
 5. expand to the full comparison and stop loop only when a stop decision, variant comparison, admission, refresh, high-assurance reuse, or contested neighbour claim is live.
@@ -619,7 +635,7 @@ A pattern-quality finding is admissible only when it has this shape:
 
 ```text
 Pattern-quality finding:
-  Target: <PatternVersionRef>
+  PatternVersionRef: <PatternVersionRef>
   ClaimScope / reader / use / window:
   Finding kind: <eligibility blocker | coordinate reading | status payload | stop-condition failure | bounded non-use | neighbouring-pattern application>
   Exact E.21 locus: <EligibilitySet row | coordinate | status | stop clause>
@@ -652,7 +668,7 @@ A full `F.18` Name Card is required only when an `E.21` head is reused outside `
 | Token | Kind named | Relation load | Admissible use | Non-admissible use |
 |---|---|---|---|---|
 | `PatternQualityQBundle` | Q-Bundle specialization for one pattern-quality claim. | Binds pattern version, scope, coordinates, evidence, status, and stop condition. | State a scoped non-scalar quality read. | Universal maturity score, review verdict, release approval, or project certification. |
-| `PatternQualityCharacteristicSpace` | CharacteristicSpace specialization for FPF pattern-quality coordinates. | Holds ordinal pattern-quality coordinates and their scale discipline. | Compare content properties of pattern versions. | Geometric space, administrative state map, or popularity ranking. |
+| `PatternQualityEvaluationCharacteristicSpace` | CharacteristicSpace specialization for FPF pattern-quality coordinates. | Holds ordinal pattern-quality coordinates and their scale discipline. | Compare content properties of pattern versions. | Geometric space, administrative state map, or popularity ranking. |
 | `EligibilitySet` | Set-valued hard-filter field inside `PatternQualityQBundle`. | Filters candidate versions before coordinate comparison. | Block hard defects before front reasoning. | Low-score region, soft preference list, review profile, or gate profile. |
 | `DominanceSet` | Set-valued coordinate-selection field inside `PatternQualityQBundle`. | Defines the active Pareto comparison relation after eligibility passes. | Compare candidates without scalarization. | Total order, average, hidden priority stack, or selector policy. |
 | `CoordinateEvidenceRef` | Local evidence-reference record for one coordinate value. | Connects one coordinate value to text, cases, SoTA, relation checks, or findings. | Justify one coordinate reading by content. | Administrative placement, review state, or project evidence by itself. |
@@ -668,7 +684,7 @@ A full `F.18` Name Card is required only when an `E.21` head is reused outside `
 | Tech head | Plain twin | Guard |
 |---|---|---|
 | `PatternQualityQBundle` | pattern-quality read bundle | Not a review packet, score sheet, or gate file. |
-| `PatternQualityCharacteristicSpace` | pattern-quality coordinate space | Not a metric dashboard or maturity model. |
+| `PatternQualityEvaluationCharacteristicSpace` | pattern-quality coordinate space | Not a metric dashboard or maturity model. |
 | `PatternQualityStatus` | pattern-quality use posture | Not release status, gate decision, or assurance level. |
 | `EligibilitySet` | hard blockers | Not low-score items. |
 | `DominanceSet` | active quality coordinates | Not weighted criteria. |

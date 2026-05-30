@@ -6,21 +6,24 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:0 — Use this when"
-line_start: 54803
-line_end: 55476
+line_start: 56069
+line_end: 56827
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.19.ECS"
   - "A.2"
   - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
   - "C.2.P"
+  - "E.22"
+  - "E.23"
   - "E.5"
   - "F.18"
   - "F.5"
@@ -42,6 +45,25 @@ Use `E.10` when a word, head, or local phrase in conformant FPF text is starting
 
 **Not this pattern when.** Do not use `E.10` as the ontology that governs the recovered claim. If the live load is evidence, assurance, work, gate, decision, causal use, publication, relation precision, or epistemic precision, the accepted text must make the exact receiving FPF pattern application explicit; `E.10` contributes only the wording-problem classification. For non-FPF source prose, use `C.2.P` source-expression unpacking mode and borrow `E.10` only as a repair test, not as a conformance verdict.
 
+#### E.10:0.0a - One-screen ordinary-use path
+
+Ordinary `E.10` use is one bounded FPF-facing wording repair, not a full lexical audit. The minimum accepted result is:
+
+1. `BoundedTextObject`: the exact sentence, row, section, pattern version, `DRR` slice, or FPF-facing project text under repair.
+2. `TriggerSpan`: the word or phrase that carries possible FPF load.
+3. `SelectedReading`: ordinary no-load, local head/register/morphology repair, relation-like precision restoration, episteme/publication/source-transfer restoration, durable naming, or not-triggered false positive.
+4. `FinalWordingOrBlocker`: the accepted local wording, the exact receiving-pattern result, or the blocker that remains.
+5. `StopBackToSubstance`: after final wording or blocker is present, stop lexical work and return to the governed object, relation, source-use, mathematical-lens, architecture, project-action, evidence, assurance, gate, decision, or work problem that made the wording matter.
+
+The detailed tables below are reference material for triggered cases. They are not a mandatory reading sequence. For a modest repair, one sentence, one trigger span, one selected reading, and one final wording or blocker is enough.
+
+When `E.10` is applied beyond one sentence, add a bounded-object line: exact text object, trigger spans or grouped loci, selected reading, repair boundary, and expected non-use boundary. This prevents accidental whole-corpus sweeps and makes change impact inspectable.
+
+Formal fields from the older LEX substrate are live only when the selected wording problem needs them: `triggerSpan`, `boundedTextObject`, `structuralRole`, `selectedReading`, `LEX.TokenClass?`, `register`, `USM.Scope?`, `I/D/S lane?`, `receivingPattern`, and `finalWordingOrBlocker`.
+
+Local patterns may cite the relevant `E.10` trigger row, but they should not reproduce large trigger lists or create local lexical registries unless a named local application profile has its own governed object. New trigger families enter `E.10` only when they recur across FPF-facing texts and cannot be handled by one local pattern; specialized patterns receive the detailed ontology when the problem is no longer lexical. Stale or overly broad trigger rows are narrowed or retired.
+
+Self-application is bounded. When `E.10` is under improvement, use `E.10` only for its own wording-trigger repairs; use `E.21` for pattern-quality reading, `E.22` for improvement-oriented quality-read framing, `E.23` for the improvement loop, `E.2.DA` for FPF-level Pillar effect, and exact neighbours for relation, episteme, publication, source-transfer, naming, or quality-word issues.
 #### E.10:0.1 - Scope split
 
 `E.10` governs lexical conformance for FPF pattern text, extracted pattern hosts, `FPF-Spec` monolith text, FPF governing documents, accepted `DRR` text, and FPF-facing project text that explicitly claims FPF conformance or is being promoted into FPF current content.
@@ -59,6 +81,8 @@ For ordinary source text, intake notes, seminar transcripts, external reviews, p
 
 Other exact FPF patterns are not `E.10` table outcomes. They are named only after `A.6.P` or `C.2.P` has recovered the live object, relation, admissible use, project-side reference, or non-transfer disposition. Stable reusable naming is likewise not a third table outcome: if the repaired wording becomes a durable reusable head, apply `F.18` after the live repair branch has recovered the kind and use.
 
+Classification is not a closure disposition. A result such as `relational precision restoration required`, `epistemic precision restoration required`, or `combined precision restoration required` is an obligation-producing result: the text is not conforming until the required receiving pattern has been applied and its recovered wording, relation record, source-transfer disposition, naming decision, false-positive reason, quote-only/non-transfer disposition, or blocker is present by value. Do not treat "this belongs under A.6.P" or "this belongs under C.2.P" as the completed result.
+
 | Language problem in the sentence | `E.10` result | Required closure |
 | --- | --- | --- |
 | Ordinary word with no FPF-kind, relation, authority, evidence, admissibility, work, gate, decision, bridge, publication, naming, or project-side load | local wording accepted/rewrite | Leave ordinary wording ordinary, or make only a small local rewrite under `E.10` when the current phrase invites a false FPF reading. |
@@ -70,6 +94,8 @@ Other exact FPF patterns are not `E.10` table outcomes. They are named only afte
 #### E.10:0.2a - Precision-Restoration Obligation
 
 `E.10` does not make every difficult word into a new pattern and does not turn a local wording problem into a domain decision. When the wording is small and local, repair it locally. When the wording carries relation-like load, conforming text MUST apply `A.6.P`. When the wording carries episteme/publication/source-transfer load, conforming text MUST apply `C.2.P`. This is non-procedural deontics for admissible FPF wording: the text may be accepted only after the applicable restoration obligation is satisfied or rejected as not triggered by value.
+
+**Classification-to-repair consequence.** `E.10` classification is a gate, not a completed repair. A pass that identifies `A.6.P`, `C.2.P`, or `F.18` as required must either integrate that receiving pattern's result into the text, record the false-positive/quote-only/non-transfer disposition by value, or leave the issue as still blocking. A pass that only classifies the phrase and leaves the final wording unchanged has failed `E.10`, even if the classification itself is correct.
 
 | `E.10` classification question | Local closure if no load remains | Required precision-restoration pattern when load remains |
 | --- | --- | --- |
@@ -204,6 +230,19 @@ These are relation words, not final kinds.
 Split `source` into source `U.Episteme`, source `U.EpistemePublication`, `U.View` over a source `U.Episteme`, document with named source-basis, evidence-basis, architecture-basis, or review-basis role, `A.10` evidence path, authority-reference relation, named FPF pattern cited as source, file carrier, source frame, source context, relation slot on the source side of a named relation, or exact project-side FPF kind and reference.
 
 Split `target` into described entity, target `U.Episteme`, review target, receiving FPF pattern, project target, work target, target publication form, exact project-side FPF kind and reference, target frame, target context, or relation slot on the target side of a named relation.
+
+Generic `object` and `target` are not final recovered kinds. Keep them only when the sentence is explicitly declaring a variable slot, such as `ObjectKindUnderImprovement`, `ObjectVersionUnderImprovement`, `ObjectVersionUnderQualityRead`, `review target`, or one named relation endpoint whose exact endpoint kind is supplied nearby. When the exact kind is known, write the exact kind: FPF pattern version, `DRR`, FPF corpus slice, publication form, `PublicationUnit`, file carrier, system carrier, declared transduction result, candidate proposal, evidence path, gate decision, work plan, method description, object-under-improvement evaluation, or another named FPF kind.
+
+Do not recover an FPF pattern, publication form, `PublicationUnit`, pattern body, or view as a `carrier`. Use `carrier` only for the system, medium, file, rendering, or transport object that bears or renders a publication or symbol. If the text means the FPF pattern publication form, write `FPF pattern publication form`; if it means the file or rendered medium, write file carrier, system carrier, rendering, or another exact carrier kind.
+
+Common repair examples:
+
+| Problem wording | Required recovery |
+|---|---|
+| `target version` in improvement prose | `ObjectVersionUnderImprovement` or `ObjectVersionUnderQualityRead`, unless `target` is a source-side quote |
+| `pattern carrier` | `FPF pattern publication form` when the pattern is the publication form; file carrier or rendering only when the system-side bearer is live |
+| `object evaluation` when the object kind is known | exact object-under-improvement evaluation name, such as `PatternQualityQBundle`, `DRRDecisionAdequacyEvaluationCharacteristicSpace`, `FPFPillarAdequacyEvaluationCharacteristicSpace`, or declared local evaluation |
+| `thing`, `object`, `target`, `artifact`, or `material` as final head | exact FPF kind, exact project-side FPF kind, or blocker |
 
 Do not publish "source and target" if the selected relation needs the actual FPF kind.
 
@@ -406,6 +445,8 @@ For load-bearing `support`, first choose the support reading:
 - publication companion, entry, navigation, or reader help: a file, section, index, map, review packet, support document, or companion helps readers find, inspect, compare, or review another item.
 
 Support-headed names such as `SupportRecord`, `SupportSource`, `SupportLine`, `SupportForm`, `SupportPosture`, `SupportSection`, `SupportMaterial`, `support basis`, `support relation`, `support view`, and `supported use` are diagnostic triggers; they are conformant only when rewritten to an exact governing FPF record, field, publication function, posture, relation, admissible-use boundary, or, for the A.19 case, `DeclaredSubstrateInterpretiveView` under `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`. If the phrase is base-dependence, A.6.6 is the governing pattern and the text must expose `dependent`, `base`, `baseRelation`, `scope`, live `Γ_time`, live witnesses, `admissibleUse`, and `nonAdmissibleUse`. Otherwise rewrite the head to the selected reading: source-description relation, described-entity grounding, grounding-holon relation, evidence path, source-support posture, relation record, admissible-use boundary, assurance claim, causal-use support basis/verdict, lens-adequacy card, characteristic or measurement basis, bridge/comparison card, work enablement relation, publication companion, or ordinary reader help.
+
+A support-headed phrase selected by an accepted `DRR`, pattern draft, table heading, schema field, coordinate name, or future drafting vocabulary is already durable enough to trigger `F.18` unless the text explicitly marks it as source-only, quote-only, or rejected. Do not accept `subject to F.18 later` as `E.10` closure when the phrase is already being used to guide authoring, review, landing, or reusable FPF wording. Either complete the naming decision now, replace the head with the selected exact reading, or leave the naming issue blocking by value.
 
 If the sentence cannot name the scale, evidence class, threshold, relation, source-loss mode, grounding object, described entity, grounding holon, base relation, admissible-use target, or exact support reading, it is not ready for architecture or pattern prose. `A.6.3.CSC` governs load-bearing source-loss-mode governance; `A.6.P` governs support reading discrimination and relation precision restoration; `C.2.P` only forces the wording to recover the exact governing pattern and mode.
 ##### E.10:0.2c.19 - Applying patterns versus procedural calls
@@ -682,6 +723,46 @@ High-risk residue classes:
 - project-side umbrellas: `artifact`, `material`, `output`, `screen`, `dashboard`, `credential`, `badge`, and `explanation` must be unpacked into one exact recovered value, such as publication, generic publication face, governed MVPK face, publication form, carrier relation, front-end relation, exact project-side FPF kind and reference, `A.10` evidence path, typed evidence record, `A.20` constraint or adjudication decision record, `A.21` `GateDecision`, `A.21` `DecisionLogRef`, `B.3` assurance or engineering-justification record, typed status record whose FPF status pattern is named, `C.11` `ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, `A.15` `U.WorkPlan`, `A.15.1` dated `U.Work` occurrence, `U.Method`, `U.MethodDescription`, work-result record, or result-measurement record;
 - admissibility phrases: `supported use`, stronger or adjacent use not carried by the current pattern, insufficient evidence-support posture, and similar formulas must name the exact `admissibleUse` target and non-admissible stronger or adjacent use, `relationLoad` when a relation claim is live, and `projectSourceLoad` when an exact project-side FPF kind and reference is live;
 - pattern-control metaphors: `route`, `call`, `invoke`, `exit`, `path`, `branch`, `chooser`, and `workflow` must be checked for declarative pattern application versus real movement, control, and temporal claims.
+
+#### E.10:0.2e - Trigger Concordance And Closure Mechanism
+
+`E.10` is applied to a bounded FPF-facing text object, not only to one remembered example sentence. Before claiming `E.10` closure over an accepted `DRR`, FPF pattern, extracted pattern host, monolith section, review-facing packet, or FPF-facing guidance, run trigger concordance when a high-pressure trigger is load-bearing across the bounded object.
+
+Do not build a heavy concordance for every ordinary word. Trigger concordance is live when one trigger word or trigger-headed phrase:
+
+- appears in a selected name, durable reusable name, heading, table column, schema field, coordinate name, status value, or future drafting vocabulary;
+- recurs across the problem frame, decision, selected names, validation, and handoff-like obligations often enough to carry the local architecture;
+- acts as a replacement head for another broad head;
+- appears in a returned finding or accepted basis as a term whose meaning must survive into FPF wording;
+- or remains the only word that lets the sentence appear precise.
+
+The mechanism is:
+
+1. Inventory the trigger spans inside the bounded object, with loci or grouped loci and count. Mark structural role: ordinary prose, selected name, heading, table column, field, example, quote/source-only wording, relation phrase, or publication/source-transfer phrase.
+2. Group occurrences by reading, not by surface word alone: ordinary no-load wording, local lexical repair, relation-like load, episteme/publication/source-transfer load, durable naming load, quote-only or source-only wording, false positive, or blocker.
+3. For each reading, choose and complete the repair consequence. Local repair may close under `E.10`. Relation-like load applies `A.6.P` or its retained specialization. Episteme/publication/source-transfer load applies `C.2.P`. Durable reusable naming applies `F.18` after the live kind/use recovery. Quote-only or source-only wording needs a non-transfer disposition. Classification labels are not closure endpoints.
+4. Rewrite the bounded object, or leave a blocker. A note saying `apply A.6.P where live`, `apply C.2.P where live`, `subject to F.18 later`, `classified under A.6.P`, `classified under C.2.P`, or `boundaries are stated nearby` is not closure unless the recovered result is already present in the final wording or the obligation is explicitly blocking. The `Final wording or blocker` cell must not be empty for any load-bearing trigger.
+5. Reread saturation. If one trigger word still carries several different readings after repair, or dominates the selected names of the bounded object, the text has likely preserved an umbrella rather than repaired it. Split the readings into exact names or exact governing-pattern exits before accepting the wording.
+
+Use this compact closure table when trigger concordance is live:
+
+| Trigger span or name | Loci/count and structural role | Selected reading | Required recovery | Final wording or blocker | Closure disposition |
+| --- | --- | --- | --- | --- | --- |
+|  |  | ordinary no-load / local repair / relation-like / episteme-publication-source-transfer / durable naming / quote-only / false positive / blocker | `E.10` / `A.6.P` / `C.2.P` / `F.18` / not triggered |  | closed locally / recovered and integrated / quote-only / not triggered by value / still blocking |
+
+Allowed closure dispositions are only:
+
+- ordinary no-load wording accepted;
+- local lexical repair closed under `E.10`;
+- `A.6.P` recovery completed and integrated into the text;
+- `C.2.P` recovery completed and integrated into the text;
+- `F.18` naming decision completed after kind/use recovery and integrated into the text;
+- quote-only, source-only, or non-transfer disposition stated by value;
+- false positive stated by value;
+- still blocking.
+
+Do not close trigger concordance with a summary statement that `E.10 was run`, with a citation to `A.6.P` or `C.2.P` alone, with a correct classification but no receiving-pattern repair product, with a later-work promise, or with a table that covers only representative examples while the remaining load-bearing occurrences keep the same unresolved head.
+
 #### E.10:0.3 - Recovery and disposition table
 
 `E.10` gives only a small local recovery/disposition form. It does not unpack relation-like or episteme-publication-heavy source meaning by itself.
@@ -693,12 +774,19 @@ High-risk residue classes:
 | relational precision restoration required | Trigger span plus the relation-like load: endpoint, qualifier, slot, scope, time, viewpoint, support-reading, basedness, service, bridge wording, whole/part, mapping, comparison, or dependency. | Apply `A.6.P` or its retained specialization before accepting current FPF wording; if the trigger is a false positive, state that reason by value. |
 | epistemic precision restoration required | Trigger span plus the live episteme/publication/source-transfer object or transfer relation. | Apply `C.2.P` before accepting current FPF wording; if the trigger is a false positive, state that reason by value. |
 | combined precision restoration required | Trigger span plus both relation-like load and episteme/publication/source-transfer load. | Apply `C.2.P` for source/current transfer and the claim-bearing/publication stack; apply `A.6.P` for the relation-bearing slice. |
+
 #### E.10:0.4 - Closure rules
 
 | Closure question | Conforming answer |
 | --- | --- |
-| Can `E.10` alone close the case? | Yes only for `not-triggered` and local lexical-repair outcomes. |
-| Can `E.10` close episteme-publication object or source-transfer wording by itself? | No. If the live problem is source wording, episteme, publication, view, face, carrier, publication unit, described entity, grounding, or FPF-transfer disposition, the conforming text also applies `C.2.P` epistemic precision restoration or states the false-positive reason by value. |
-| Can a replacement term close the case because it sounds more precise? | No. A repair is not conforming merely because the old overloaded word was replaced. |
-| Where do trigger words and examples live? | In this shared `E.10` scan architecture or in a named local application profile tied to its own governed object. Do not copy growing word lists into `F.18`, `A.6.P`, `C.2.P`, `E.19`, or campaign-local checklists. |
+| Can `E.10` alone close the case? | Yes only for `not-triggered`, false-positive by value, ordinary no-load wording, and local lexical-repair outcomes. |
+| What counts as `closed by value`? | The final wording or the recorded disposition names the recovered exact kind, relation phrase, relation record, admissible use, non-admissible stronger or adjacent use, source-transfer disposition, publication construction, durable naming decision, or false-positive reason. The reader must not need chat memory or a future pass to recover what the trigger meant. |
+| What counts as `A.6.P` or `C.2.P` application? | A receiving-pattern application is not the classification label. It is the completed recovery product: selected relation reading, exact relation phrase or record, endpoint/qualifier/scope/admissible-use repair, source-transfer disposition, exact episteme/publication construction, project-side reference, false-positive reason, quote-only/non-transfer disposition, or named blocker integrated by value into the text or closure account. |
+| Can `E.10` close relation-like wording by itself? | No. If the live problem is endpoint, qualifier, slot, scope, time, viewpoint, support-reading, basedness, service, bridge wording, whole/part, mapping, comparison, or dependency, the conforming text applies `A.6.P` or a retained specialization, or states the false-positive reason by value. |
+| Can `E.10` close episteme-publication object or source-transfer wording by itself? | No. If the live problem is source wording, episteme, publication, view, face, carrier, publication unit, described entity, grounding, FPF transfer, project-side load, or pattern-application wording, the conforming text applies `C.2.P` or states the false-positive reason by value. |
+| Can a replacement term close the case because it sounds more precise? | No. A repair is not conforming merely because the old overloaded word was replaced. The replacement candidate must pass the same trigger scan and anti-umbrella test. |
+| Can a trigger-headed selected name close with `F.18 later`? | No, not when the name is already selected by an accepted `DRR`, table heading, schema field, coordinate, pattern draft, or future drafting vocabulary. Complete `F.18` now after kind/use recovery, replace the head with exact wording, or leave the naming issue blocking by value. |
+| Can a correct classification close the case without changing the text? | No. Correct classification only starts the consequence. If the trigger is load-bearing, the final wording must change, the receiving-pattern result must be recorded by value, or the issue must remain blocking. |
+| Can a high-frequency trigger close through representative examples? | No. When trigger concordance is live, representative examples may guide grouping, but the closure account must cover all load-bearing occurrences or exact grouped loci/counts and must say what remains ordinary, repaired, quote-only, rejected, or blocking. |
+| Where do trigger words and examples live? | In this shared `E.10` scan architecture or in a named local application profile tied to its own governed object. Do not copy growing word lists into `F.18`, `A.6.P`, `C.2.P`, `E.19`, or local checklists. |
 

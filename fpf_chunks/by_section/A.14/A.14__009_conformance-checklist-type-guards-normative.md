@@ -6,12 +6,12 @@ section_id: "A.14:8"
 section_title: "Conformance Checklist & type guards (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__009_conformance-checklist-type-guards-normative.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:8 — Conformance Checklist & type guards (normative)"
-line_start: 19744
-line_end: 19800
+line_start: 19750
+line_end: 19806
 dependencies:
   - "A.1"
   - "B.1.1"

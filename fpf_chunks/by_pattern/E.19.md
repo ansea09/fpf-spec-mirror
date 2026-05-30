@@ -1,20 +1,23 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.19"
-pattern_title: "Pattern Quality Gates: Review & Refresh Profiles"
+pattern_title: "Pattern Quality Gates: Review and Refresh Profiles"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "562813fb466950d9c49bc6d2e76ec2626f4df697"
+commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
 heading_path:
-  - "E.19 — Pattern Quality Gates: Review & Refresh Profiles"
-line_start: 63076
-line_end: 63732
+  - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
+line_start: 64427
+line_end: 65092
 dependencies:
   - "A.6.P"
   - "C.2.P"
   - "E.10"
+  - "E.21"
+  - "E.22"
+  - "E.23"
   - "E.8"
   - "E.9"
   - "F.18"
@@ -30,7 +33,7 @@ keywords:
   - "“holon”) — express those as Invariant: / Well‑formedness constraint: predicates instead"
 ---
 
-## E.19 - Pattern Quality Gates: Review & Refresh Profiles
+## E.19 - Pattern Quality Gates: Review and Refresh Profiles
 
 > **Type:** Architectural pattern
 > **Status:** Stable
@@ -42,7 +45,7 @@ Use `E.19` when you need to decide whether one new, substantially revised, or ag
 
 Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, governed-object stability, terminology, SoTA support, related-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
 
-**Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use local patterns for the domain rule or constraint being reviewed. Use project gate or release patterns when the question is whether a project publication, work-result record, or release candidate passes a delivery gate rather than whether an FPF pattern is mature. `E.19` reviews whether an FPF pattern remains useful action guidance; it does not certify the world, the project, the publication, or the release.
+**Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use `E.9.DA` when the live question is whether one concrete `DRR` is adequate for a declared downstream authoring use before drafting or host amendment. Use `E.23` when the aim is repeated quality improvement against an object-under-improvement evaluation rather than one admission or refresh review profile. Use local patterns for the domain rule or constraint being reviewed. Use project gate or release patterns when the question is whether a project publication, work-result record, or release candidate passes a delivery gate rather than whether an FPF pattern is mature. `E.19` reviews whether an FPF pattern remains useful action guidance; it does not certify the world, the project, the publication, or the release.
 
 ### E.19:0.1 - What goes wrong if missed
 
@@ -103,13 +106,18 @@ A **Pattern Check Profile (PCP)** is a named bundle of check families. Profiles 
 
 A review **SHOULD** leave one findings-first run record against a named target pattern or landing subset. The run MAY propose didactic restructuring or compact repair direction, but its primary obligation is to leave an independent review record that improves downstream usage and interoperability without relying on chat memory or reviewer taste.
 
+A nontrivial pattern-quality review SHOULD state its quality-read purpose before depth is selected. Use `E.22` or an equivalent compact question frame to say whether this run is a `floorRead`, `exceptionalImprovementRead`, `paretoTradeoffRead`, `openQuestionDiscoveryRead`, `absorptionRead`, or a declared combination. If the purpose is absent, `E.19` treats the run as a floor read or admission-refresh blocker read, not as a request to raise every active coordinate toward exceptional expression.
+
+If the aim is repeated improvement against an object-under-improvement evaluation, use `E.23` for the repeated method. `E.19` may supply a review profile and findings inside that loop, but the profile is not the loop method and the review result is not a quality value until the object-under-improvement evaluation reads the changed pattern version.
+
+
 `E.19` reviewer and review-target wording is FPF pattern-quality wording. It governs FPF pattern-quality review or refresh claims, not project-side publication reading, explanation reading, comparative review-unit use, or participation in a named project-side review relation. When those project-side relations are live, use the publication or project-side pattern that names the object being read or reviewed.
 
 **Project-side reuse boundary.** Use this boundary when an `E.19` pattern-quality result is being reused as project certification, project evidence, safety support, gate input, release justification, compliance support, assurance material, work authority, or publication truth. The first E.19 move is to return the result to the exact FPF pattern-quality claim it reviews: admission, refresh, narrower use, repair return, or selected pattern-quality boundary. If that result is cited for a project-side claim, the receiving relation must be opened for that exact claim: `A.10` for evidence/currentness, `B.3` for assurance, `A.20` for local CV status, `A.21` for gate decision, `A.15` for work, or another exact governing pattern when live. The review result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or exact FPF pattern application.
 
 **Common wrong first reading.** Pattern review passed means the project, release, publication, safety claim, or compliance claim is certified. First honest entry: E.19 returns only a pattern-quality result; any project-side reuse must name the receiving project relation and its evidence or assurance source.
 
-**Misuse guard.** A pattern-quality caution, return-for-repair result, or narrower-use result cannot be reused as project refusal or project approval unless a project-side receiving relation is live and states its own supported and unsupported use.
+**Misuse guard.** A pattern-quality caution, return-for-repair result, or narrower-use result cannot be reused as project refusal or project approval unless a project-side receiving relation is live and states supported and unsupported use for that relation.
 
 Formal/template defects (e.g. non-compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic/ontological defects or non-SoTA Solutions, but they also **MUST** be recorded with the active repair boundary named.
 
@@ -130,7 +138,7 @@ prioritize the load-bearing sections and obligations in E.19:4.2.1.
 2. **Lexical discipline & reserved vocabulary**
    Terms and registers follow lexical rules; ambiguous "everyday" synonyms do not silently replace kernel vocabulary.
 3. **SoTA-Echoing minimum compliance (E.8)**
-   SoTA-Echoing satisfies the E.8 obligations applicable to the pattern kind (Architectural vs Definitional), including post-2015 sourcing and explicit adopt/adapt/reject stances. If a SoTA Synthesis Pack exists for the topic, SoTA-Echoing binds to it rather than forking an untracked narrative; any divergence of pattern norms from contemporary practice is explicitly stated as such. SoTA-Echoing **MUST** be non-decorative and **MUST** reflect best-known current practice rather than merely popular defaults for the declared problem. It does not create a second rule source, but it **MUST** govern the Solution and other load-bearing sections, or those sections **MUST** justify divergence explicitly.
+   SoTA-Echoing satisfies the E.8 obligations applicable to the pattern kind (Architectural vs Definitional), including explicit adopt/adapt/reject stances and the E.8 two-part SoTA test: current best-known problem-solving practice for the governed problem, and by-value incorporation into load-bearing pattern loci. If a SoTA Synthesis Pack exists for the topic, SoTA-Echoing binds to it rather than forking an untracked narrative; any divergence of pattern norms from contemporary practice is explicitly stated as such. SoTA-Echoing **MUST** be non-decorative, **MUST** reflect best-known current practice rather than official status, source recency, institutional adoption, or merely popular defaults for the declared problem, and **MUST** govern the Solution and other load-bearing sections, or those sections **MUST** justify divergence explicitly.
 4. **Cross-pattern compatibility & impact radius**
    Relations are consistent with declared dependencies and dependents; declared scope/impact is compatible or explicitly limited.
 5. **Didactic grounding**
@@ -563,7 +571,7 @@ A PQG run **MUST** end with (a) one compact list of blocking findings and (b) on
 
 | Scenario | U.System grounding | U.Episteme grounding |
 |---|---|---|
-| **Tell** | A safety-critical engineering team proposes a new pattern describing how to gate a subsystem before deployment. The draft looks polished, but it quietly imports domain terms, assumes cross-team equivalences, and introduces obligations that are not listed in its own checklist. | A research group refreshes an older pattern that summarizes how to evaluate evidence-support class. The pattern still reads well, but its SoTA references and terminology no longer match current practice, and its Relations point to patterns that were renamed or superseded. |
+| **Tell** | A safety-critical engineering team proposes a new pattern describing how to gate a subsystem before deployment. The draft looks polished, but it quietly imports domain terms, assumes cross-team equivalences, and introduces obligations that are not listed in the pattern checklist. | A research group refreshes an older pattern that summarizes how to evaluate evidence-support class. The pattern still reads well, but its SoTA references and terminology no longer match current practice, and its Relations point to patterns that were renamed or superseded. |
 | **Show (failure without PQG)** | Reviewers focus on whether the idea is good and whether the template exists. The pattern is admitted, but later users disagree on what it requires because the Conformance Checklist is incomplete and key constraints are only in prose. | The pattern remains unchanged because “nothing looks broken”. Over time, it becomes a conceptual fossil: newcomers treat it as current guidance, but it encodes an outdated stance and stale vocabulary. |
 | **Show (repair with PQG profiles)** | PCP‑BASE finds missing internal coherence (requirements in prose not reflected in CC). PCP‑TERM finds naming drift and scope-smuggling in new terms. PCP‑BRIDGE finds implicit cross-context identity claims without explicit alignment. The findings-first run record then names one repair pass before admission, and the final CC becomes the canonical conformance body. | The run record leaves one explicit decision: update SoTA‑Echoing with post‑2015 guidance and appropriate Solution changes, limit the scope to “historical lineage” where appropriate, and update Relations to current dependencies. The refreshed pattern becomes trustworthy again, and any remaining historical content is clearly labeled as such. |
 
@@ -671,6 +679,10 @@ Action result from the pattern-review and validation practice basis: an `E.19` p
   * `E.8` (authoring conventions; canonical section order; SoTA‑Echoing obligations)
   * `E.10` (lexical discipline and reserved vocabulary)
   * `E.9` (design rationale records for changes that affect semantics)
+  * `E.9.DA` (scoped DRR decision-adequacy reads before pattern drafting or host amendment; an `E.19` finding may expose that an upstream `DRR` did not decide enough, but `E.19` keeps the pattern-review finding while `E.9.DA` reads only the upstream `DRR` decision-adequacy claim. An `E.19` pass, return, or absence is not `E.9.DA` coordinate evidence.)
+  * `E.22` (improvement-oriented quality-read question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before the `E.19` review result is formed.)
+  * `E.23` (repeated quality-improvement method; an `E.19` profile can supply findings inside such a loop, but `E.23` governs repeated absorption, object-under-improvement evaluation re-read, method-family selection, and stop, narrow, continue, switch method, or hold decisions.)
+
   * `E.15` (authoring/evolution protocol; harness mindset; refresh planning)
   * `A.6.5` (slot discipline; SlotKind/ValueKind/refMode invariants)
 * **Coordinates with:**
