@@ -6,12 +6,12 @@ section_id: "E.21:4"
 section_title: "Solution - Pattern quality as a scoped Q-Bundle over declared characteristics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution-pattern-quality-as-a-scoped-q-bundle-over-declared-characteristics.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution - Pattern quality as a scoped Q-Bundle over declared characteristics"
-line_start: 65564
-line_end: 66234
+line_start: 66379
+line_end: 67049
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -236,7 +236,7 @@ The `EligibilitySet` is not a low-scoring region. It is the precondition for mea
 
 Eligibility rows have activation. A first-pass pattern-quality read always checks only the rows needed to decide whether one working reader can recognise the situation, recover the governed object, find the first admissible move, and avoid immediate neighbour-authority or apparatus overread.
 
-Rows whose condition depends on a live source, live formal lens, live measurement claim, live accepted basis, live release/review state, live mission/pillar conflict, or live durable-name change activate only when that load is present in the pattern version or in the declared `ClaimScope`.
+Rows whose condition depends on a live source, live formal lens, live measurement claim, live accepted basis, live release/review state, live mission/pillar conflict, or live durable-name change activate only when that claim force is present in the pattern version or in the declared `ClaimScope`.
 
 Failure of an activated eligibility row is a content blocker. A non-activated row is not a pass, not a waiver, and not a hidden todo; it is outside the current pattern-quality claim.
 
@@ -248,14 +248,14 @@ Failure of an activated eligibility row is a content blocker. A non-activated ro
 | `missionOrPillarConflict` | Activated when the pattern claims FPF-wide mission support, changes a pillar interpretation, imports external domain scope, or creates a possible pillar conflict. Absence of pillar recitation is not a defect. Pass condition: no live mission/pillar conflict is hidden, and any live constitutional payoff is carried by the exact coordinate or neighbouring pattern that governs it. |
 | `noProcessLeakage` | Live pattern prose contains no campaign, review, history, planning, landing, or "what changed" residue. |
 | `normativityAdmissibilitySplit` | RFC keywords state agent obligations only; definitions, invariants, typing rules, and admissibility predicates are not written as duties. |
-| `terminologyAdmissibility` | Minted and load-bearing names pass the `F.18 -> A.6.P -> E.10` chain: kind, relation, qualification, governed object, governed move, and non-admissible neighbouring use are recoverable. |
+| `terminologyAdmissibility` | Minted and FPF-force-bearing names pass the `F.18 -> A.6.P -> E.10` chain: kind, relation, qualification, governed object, governed move, and non-admissible neighbouring use are recoverable. |
 | `solutionChecklistCoherence` | `Problem`, `Forces`, `Solution`, `Conformance Checklist`, anti-patterns, and relations test the same action guidance. |
 | `neighborRelationClosure` | The pattern does not create shadow authority; relations and downstream hooks cite the exact neighbouring FPF patterns by value. |
 | `SoTABindingMinimum` | SoTA rows are non-decorative: at least one `Solution`, checklist, boundary, worked case, or relation changes because of the adopted/adapted/rejected source stance. |
 | `measurementAndScaleLegality` | Any value, score, coordinate, scale, threshold, comparison, or quality coordinate is typed through `C.16`, `A.17`, `A.18`, and applicable `A.19`/`C.25` discipline. |
 | `coordinateAdministrativeIndependence` | Coordinate values are assigned from pattern content and content evidence, not from review completion, landing state, monolith placement, release state, or steward acceptance. |
 | `noProxyForValueSubstitution` | The quality read asks what became worse when coordinates improved: first-use cost, author cost, maintenance cost, neighbour ripple, entry/projection cost, corpus cost, practical payoff, and bounded non-use are not hidden outside the active comparison. |
-| `formalClaimLegalityAndLensFit` | If a measurement, score, comparison, threshold, aggregation, mathematical lens, causal lens, QL lens, simulation, representation, or learned-lens claim is load-bearing, the scale/comparability basis, preserved structure, lost structure, visible payoff, admissible use, non-admissible use, and stop condition are named. |
+| `formalClaimLegalityAndLensFit` | If a measurement, score, comparison, threshold, aggregation, mathematical lens, causal lens, QL lens, simulation, representation, or learned-lens claim carries FPF force, the scale/comparability basis, preserved structure, lost structure, visible payoff, admissible use, non-admissible use, and stop condition are named. |
 | `acceptedBasisCarryThrough` | Accepted intake, DRR, returned findings, or architecture-basis obligations that govern the pattern are expressed, intentionally absent, or assigned to a named receiving FPF pattern or support document. |
 
 If an eligibility condition fails, the status is `repairBeforeUse` or `holdForArchitectureDecision`. Do not average the failure into better coordinates. A missing first move is not a weak coordinate. For an ordinary-use pattern-quality read, failed activated `firstMoveRecoverability` is a blocker unless the claim is explicitly narrowed to expert-only use, reference-only use, or architecture-decision use.
@@ -326,7 +326,7 @@ Inactive coordinates are not passes, waivers, or hidden failures. They are outsi
 | `ActionPathGuidance` | first-pass core | Whether, after the first admissible move is recoverable, the reader can continue the admissible action path. | The `Solution` carries the action path; the checklist tests it rather than replacing it. |
 | `ClosureAndBoundedNonUseRecoverability` | ordinary stop core | Whether stop, repair, narrower use, and neighbouring-pattern application are recoverable. | The reader can tell when the governed move is enough, when to narrow, and where remaining live claims go. |
 | `GovernedObjectAndClaimScopeStability` | first-pass core | Whether the governed object and quality-claim scope stay stable across title, problem frame, solution, checklist, cases, relations, and status. | The pattern does not drift between pattern, record, bundle, suite, profile, review-profile result, method, work, support document, or broader/narrower use claim. |
-| `SemanticKindAndNameRecoverability` | ordinary stop core; first-pass when names are load-bearing | Whether heads, kinds, relations, qualifiers, support roles, evidence roles, and Tech/Plain names recover the same FPF reading. | Names are usable because they preserve kind, relation, and load, not because prose is polished. |
+| `SemanticKindAndNameRecoverability` | ordinary stop core; first-pass when names carry FPF force | Whether heads, kinds, relations, qualifiers, support roles, evidence roles, and Tech/Plain names recover the same FPF reading. | Names are usable because they preserve kind, relation, and admissible claim force, not because prose is polished. |
 | `NeighborAuthorityAndBoundedUseFit` | first-pass core | Whether neighbouring claims stay with exact receiving patterns and residual weakness is bounded. | Evidence, assurance, measurement, naming, work, gate, decision, publication, causal, release, bridge, and refresh claims do not become `E.21` authority. |
 | `PracticalUseDeltaAndHarmPrevention` | first-pass core | Whether the pattern changes a real reader move, prevents a named misuse, reduces named cost or ambiguity, or preserves a named boundary. | The reader can state what action, decision, repair, non-use, or neighbouring-pattern use becomes better because the pattern exists. |
 | `UseAffordabilityAndApparatusProportionality` | first-pass core | Whether first use is affordable and the apparatus is proportionate to the live claim. Subreadings: first-use cost and apparatus proportionality. | Ordinary use stays light; heavier fields, cards, telemetry, front/archive, support, or evidence apparatus appear only when their live claim buys admissible use. A weak live subreading limits the coordinate value; do not average the subreadings. |
@@ -334,7 +334,7 @@ Inactive coordinates are not passes, waivers, or hidden failures. They are outsi
 | `ProxyForValueSubstitutionResistance` | ordinary stop core | Whether the quality read prevents Goodhart substitution of rubric satisfaction for pattern-use value. | The read asks what got worse and treats usability, affordability, maintainability, neighbour costs, and bounded non-use as quality evidence rather than afterthoughts. |
 | `ClaimSupportTraceabilityCurrentnessAndReplayability` | claim-support | Whether another reader can replay the claim from pinned text, scope, evidence refs, currentness basis, limitations, status, and stop reason. | The claim is traceable and replayable without chat memory, steward memory, or administrative placement state; project assurance stays outside `E.21` and under exact receiving patterns. |
 | `CaseCountercaseAndTransferCoverage` | claim-support | Whether positive cases, near-misses, anti-cases, and transfer cases match claimed breadth. | Cases test the main misuse paths and boundary transfers; broad claims have heterogeneous support or explicit narrowing. |
-| `SoTABindingAndCurrentness` | claim-support | Whether SoTA, lineage, rejected practice, and refresh triggers are separated and load-bearing. | Adopt/adapt/reject stances mutate `Solution`, checklist, boundary, relation, worked case, stop, or reopen condition. |
+| `SoTABindingAndCurrentness` | claim-support | Whether SoTA, lineage, rejected practice, and refresh triggers are separated and tied to a live pattern-quality claim. | Adopt/adapt/reject stances mutate `Solution`, checklist, boundary, relation, worked case, stop, or reopen condition. |
 | `FormalClaimLegalityAndLensFit` | claim-support | Whether measurement, score, comparison, scale, threshold, formal model, or lens claim is legal and bounded. | Scale/comparability basis and preserved/lost structure are visible; non-admissible formal use is named. |
 | `FalsifiabilityAndLoweringCondition` | claim-support | Whether high values, status claims, and stop claims say what would lower or reopen the read. | Values `4`/`5`, `admissibleForDeclaredUse`, and stop decisions carry concrete lowering conditions unless the declared use is only first-pass repair triage. |
 | `ExternalEntryAndProjectionIntegrity` | corpus/publication | Whether ToC/J.4/Preface cues, cards, summaries, dashboards, generated explanations, retrieval snippets, or thin echoes preserve the governed read. | External projections guide entry by value and scope; they do not become approval badges, authority faces, project evidence, or second semantic tracks. |
@@ -364,11 +364,11 @@ For one first ordinary read of one pattern version under quality read, the minim
 For admission, stop, repair-before-use, or narrowed-use closure, add the ordinary stop core coordinates:
 
 - `ClosureAndBoundedNonUseRecoverability`;
-- `SemanticKindAndNameRecoverability` when names/kinds are load-bearing beyond eligibility minimum;
+- `SemanticKindAndNameRecoverability` when names/kinds carry FPF force beyond eligibility minimum;
 - `RepairLocalityAndChangeImpactPredictability` when an edit or repair is being judged;
 - `ProxyForValueSubstitutionResistance` before any stop or comparison claim.
 
-Activate claim-support, corpus/publication, front/refresh coordinates, and activated overlays only when the pattern version, candidate edit, or declared `ClaimScope` makes their load live.
+Activate claim-support, corpus/publication, front/refresh coordinates, and activated overlays only when the pattern version, candidate edit, or declared `ClaimScope` makes their claim force live.
 
 Inactive coordinates are outside the current pattern-quality claim. They are not passes, waivers, or hidden failures.
 
@@ -602,7 +602,7 @@ Default evidence kinds:
 | EvidenceKind | Use |
 |---|---|
 | `recognitionTextEvidence` | Shows why a working reader can recognise the situation, boundary, and first move. |
-| `namePrecisionCardEvidence` | Shows why a minted or load-bearing token has a recoverable kind, relation load, admissible use, and non-admissible use. |
+| `namePrecisionCardEvidence` | Shows why a minted or FPF-force-bearing token has a recoverable kind, relation claim force, admissible use, and non-admissible use. |
 | `relationClosureEvidence` | Shows that neighbouring-pattern claims stay with their governing patterns. |
 | `workedCaseEvidence` | Shows the coordinate in a positive case, near-miss, anti-case, countercase, transfer case, or heterogeneous application case. |
 | `sotaImplicationEvidence` | Shows how a source changes `Solution`, checklist, relation, boundary, worked case, stop condition, or reopen condition. |
@@ -665,7 +665,7 @@ The `E.21:4.11` local name-precision cards are the local `F.18`-compatible settl
 
 A full `F.18` Name Card is required only when an `E.21` head is reused outside `E.21`, collides with an existing FPF head, enters a UTS/Concept-Set row, or becomes a durable cross-pattern naming decision rather than a local field/value-set name.
 
-| Token | Kind named | Relation load | Admissible use | Non-admissible use |
+| Token | Kind named | Relation claim force | Admissible use | Non-admissible use |
 |---|---|---|---|---|
 | `PatternQualityQBundle` | Q-Bundle specialization for one pattern-quality claim. | Binds pattern version, scope, coordinates, evidence, status, and stop condition. | State a scoped non-scalar quality read. | Universal maturity score, review verdict, release approval, or project certification. |
 | `PatternQualityEvaluationCharacteristicSpace` | CharacteristicSpace specialization for FPF pattern-quality coordinates. | Holds ordinal pattern-quality coordinates and their scale discipline. | Compare content properties of pattern versions. | Geometric space, administrative state map, or popularity ranking. |

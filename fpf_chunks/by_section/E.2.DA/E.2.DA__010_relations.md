@@ -6,12 +6,12 @@ section_id: "E.2.DA:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__010_relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:9 — Relations"
-line_start: 53670
-line_end: 53686
+line_start: 54214
+line_end: 54230
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -39,7 +39,7 @@ keywords:
 | `E.21` | Reads one pattern version; may supply evidence loci but does not read FPF-level Pillar adequacy. |
 | `E.9.DA` | Reads one `DRR`; may supply evidence loci but does not read FPF-level Pillar adequacy. |
 | `E.11`, `J.4`, `E.17`, `I.2` | Govern pattern-entry discoverability, index rows, projection roles, and publication or description role partition. `E.2.DA` reads whether those roles contribute to active Pillar coordinates across the FPF object under improvement. |
-| `E.10`, `A.6.P`, `C.2.P`, `A.6.Q`, `F.18` | Govern exact precision and naming repairs; `E.2.DA` reads their FPF-level Pillar effects. |
+| `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` | Govern exact precision and naming repairs; `E.2.DA` reads their FPF-level Pillar effects. |
 | `E.8`, `E.19` | Authoring form and admission or refresh review remain separate from FPF-level Pillar adequacy values. |
 | `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD archive, pool, selected-set, parity, and refresh semantics when front-like vocabulary crosses into those claims. |
 

@@ -6,12 +6,12 @@ section_id: "A.19:12a"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__010_c-29-mla-relation.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:12a — C.29 MLA relation"
-line_start: 23360
-line_end: 23363
+line_start: 22653
+line_end: 22657
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,6 +38,7 @@ keywords:
 ---
 
 ### A.19:12a - C.29 MLA relation
+
 
 > If topology, order, distance, product, subspace, embedding, or metric is only a `CharacteristicSpace` overlay, stay in `A.19` and write the space, coordinate, normalization, and comparability declaration there. If the overlay is used as a mathematical lens to explain, predict, bridge, assure, publish, compare across contexts, or support reusable explanation beyond local declaration, add the applicable `C.29` output for lens adequacy. Do not move the space declaration out of `A.19`; `C.29` names only what the mathematical lens preserves, loses, makes visible, and cannot license.
 

@@ -6,12 +6,12 @@ section_id: "E.21:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66376
-line_end: 66400
+line_start: 67191
+line_end: 67215
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -46,8 +46,8 @@ keywords:
 | **Reputation medal quality** | `ActionPathGuidance = 5 because many people use it`, `SoTABindingAndCurrentness = 4 because reviewers liked it`, or `UseAffordabilityAndApparatusProportionality = 3 because nobody has tried it yet`. | Measures social uptake or absence of uptake instead of the pattern property being evaluated. | Convert any observation into exact pattern-content evidence or ignore it for the coordinate value: name the pattern version, reader/use/scope/window, observed property, coordinate affected, and lowering or raising condition. |
 | **Template-complete but inert** | All sections exist, but the reader cannot tell what to do first. | E.8 form is being mistaken for action guidance. | Repair `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, and `ActionPathGuidance`; repair Problem frame and Solution. |
 | **Checklist-as-solution** | The conformance checklist carries the main method. | The checklist tests guidance; it does not replace guidance. | Move action guidance into `Solution`; make CC items test it. |
-| **Decorative SoTA shelf** | Sources are listed but the pattern would read the same without them. | SoTA has no load-bearing effect. | State adopt/adapt/reject and change a live boundary, example, relation, or checklist. |
-| **Lexical polishing without kind recovery** | Terms sound cleaner but kind/relation/support load remains ambiguous. | The repair is lexical, not ontological. | Repair `SemanticKindAndNameRecoverability`; run `F.18 -> A.6.P -> E.10` when durable or cross-pattern names are live. |
+| **Decorative SoTA shelf** | Sources are listed but the pattern would read the same without them. | SoTA has no content-bearing effect. | State adopt/adapt/reject and change a live boundary, example, relation, or checklist. |
+| **Lexical polishing without kind recovery** | Terms sound cleaner but kind, relation, or support claim force remains ambiguous. | The repair is lexical, not ontological. | Repair `SemanticKindAndNameRecoverability`; run `F.18 -> A.6.P -> E.10` when durable or cross-pattern names are live. |
 | **Apparatus maximalism** | Every draft gets telemetry, archive, review cards, and extra companion files. | Reader and maintainer cost rises without added admissible use. | Use the one-screen card unless consequence or reuse makes heavier evidence or companion apparatus live. |
 | **All-high-values Goodharting** | Every visible coordinate is marked `4` or `5`, but the pattern is harder to read, costlier to maintain, or less useful in the declared ordinary case. | The coordinate set became a proxy for value and stopped measuring full pattern-use value. | Activate `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, and `ProxyForValueSubstitutionResistance`; narrow to high-assurance use if the extra apparatus is only justified there. |
 | **Cost-hidden tie-breaker** | Reader, author, maintainer, entry/projection, retrieval, relation, or corpus-ecology cost is treated only as a tie-breaker while it changes admissible use. | A live quality loss is being kept outside the dominance relation. | Promote the cost question into `UseAffordabilityAndApparatusProportionality`, `RepairLocalityAndChangeImpactPredictability`, `ExternalEntryAndProjectionIntegrity`, `PatternLanguageEcologyFit`, `ProxyForValueSubstitutionResistance`, or another active coordinate. |

@@ -6,12 +6,12 @@ section_id: "G.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__011_rationale.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:10 — Rationale"
-line_start: 75273
-line_end: 75281
+line_start: 76088
+line_end: 76096
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "A.2.3:10"
 section_title: "Migration notes (quick wins)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_migration-notes-quick-wins.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10 — Migration notes (quick wins)"
-line_start: 2954
-line_end: 2964
+line_start: 2957
+line_end: 2967
 dependencies:
   - "A.1.1"
   - "A.15.1"

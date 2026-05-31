@@ -6,12 +6,12 @@ section_id: "F.4:8"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__009_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:8 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 68778
-line_end: 68809
+line_start: 69593
+line_end: 69624
 dependencies:
   - "A.11"
   - "A.2.1"

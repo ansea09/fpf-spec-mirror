@@ -6,12 +6,12 @@ section_id: "C.30.ASV:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52220
-line_end: 52233
+line_start: 52764
+line_end: 52777
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -61,7 +62,7 @@ keywords:
 | **Structure kind as viewpoint** | `FunctionalStructure` or `ControlStructure` is added to TEVB as a new viewpoint. | Keep TEVB core unchanged; use `VF.ARCH.STRUCTURE` and binding rows. |
 | **Publication-face collapse** | A diagram, model, table, dashboard, generated relation graph, ADR, or C4 view is treated as the ASV record. | Recover source episteme/view and publication relation; open an ASV record only if the view changes action. |
 | **Single-view decision** | A decision uses one architecture view as if it covered all affected structures. | Name affected structures and view refs, or narrow the decision to the single view's admissible use. |
-| **Lost-structure silence** | Extracted, generated, coarsened, or compressed views hide distinctions but still support action. | Add hidden/lost structure and source-return condition, or narrow admissible use. |
+| **Lost-structure silence** | Extracted, generated, coarsened, or compressed views hide distinctions but still justify action. | Add hidden/lost structure and source-return condition, or narrow admissible use. |
 | **Proof overread** | The structural view is used as evidence sufficiency, safety proof, causal proof, gate decision, or work record. | Assign the live claim to the governing exact governing pattern and keep ASV only to view adequacy. |
 | **Risk color as security architecture** | A red, yellow, or green risk cell, risk matrix, maturity score, or compliance color stands in for `SecurityTrustBoundaryStructure` or resource-allocation priority. | Recover protected asset or effect, trust boundary, untrusted input, privilege or authority relation, data/control flow, abuse or misuse path, and the exact evidence, assurance, measurement, causal, gate, selection, or allocation claim kind if it is live; do not treat ordinal risk color as security architecture adequacy, resource-allocation priority, or gate passage. |
 | **Taxonomy without action** | The text classifies a view but does not say what changes in practice. | Add `admissibleArchitectureMove` or stop at Plain recognition wording. |

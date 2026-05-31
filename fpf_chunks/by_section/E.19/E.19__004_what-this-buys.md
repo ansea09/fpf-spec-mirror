@@ -6,12 +6,12 @@ section_id: "E.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__004_what-this-buys.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.2 — What this buys"
-line_start: 64445
-line_end: 64455
+line_start: 65257
+line_end: 65268
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -45,3 +45,4 @@ keywords:
 **Governed object in plain terms.** The governed object is one FPF pattern-quality review or refresh claim: the reviewed pattern text, the selected profile, the defects found or cleared, and the boundary of the admission or refresh decision.
 
 **Primary working reader.** The first reader is an FPF reviewer, with the pattern author close behind. The review must still be answerable to the eventual practitioner or manager who will rely on the admitted pattern.
+

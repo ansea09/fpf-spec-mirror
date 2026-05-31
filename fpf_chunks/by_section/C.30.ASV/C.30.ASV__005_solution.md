@@ -6,12 +6,12 @@ section_id: "C.30.ASV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__005_solution.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:4 — Solution"
-line_start: 51675
-line_end: 52178
+line_start: 52219
+line_end: 52722
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -98,7 +99,7 @@ ArchitectureStructuralView@Context ::= {
 
 `viewpointRef` is a recovery label for `descriptionContext.ViewpointRef`, not a second independent viewpoint slot. If the implementation stores only `DescriptionContext`, the viewpoint remains recoverable there.
 
-`structureKnowledgePosture?` states how the selected structure is known when partial knowledge matters: declared, observed, inferred, generated, simulated, extracted, hypothesized, or with an unknown region present. Unknown or inferred structure may guide inspection or source return; it cannot by itself support assurance, gate, release, causal proof, or architecture decision.
+`structureKnowledgePosture?` states how the selected structure is known when partial knowledge matters: declared, observed, inferred, generated, simulated, extracted, hypothesized, or with an unknown region present. Unknown or inferred structure may guide inspection or source return; it cannot by itself supply assurance, gate, release, causal proof, or architecture decision.
 
 #### C.30.ASV:4.2 - Architecture structure-kind classifier
 
@@ -173,7 +174,7 @@ ArchitectureStructureKindTriage@Project ::= {
 When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the live structure kind before opening a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
 
 
-Practitioner prompt labels are first-entry cues, not `ArchitectureStructureKindRef` values. Load-bearing records use the Tech values below:
+Practitioner prompt labels are first-entry cues, not `ArchitectureStructureKindRef` values. FPF-force-bearing records use the Tech values below:
 
 
 ```text
@@ -238,7 +239,7 @@ The initial set is a seed for first architecture moves, not an atlas. Use the ta
 | Seed structure kind | Structural view | Minimum record fields beyond common ASV fields | First boundary |
 | --- | --- | --- | --- |
 | `FunctionalStructure` | `FunctionalStructureView@Context` | function/effect refs, capability refs, dependency refs, allocation refs | Use `A.6.F`, capability, work, or requirement patterns when those claims are live. |
-| `FlowTransductionStructure` | `FlowTransductionStructureView@Context` | `transductionGraphRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs` | Use `E.18` and `C.30.TGA-FLOW-REL` for graph/path/crossing support; use `C.28` for causal claims. |
+| `FlowTransductionStructure` | `FlowTransductionStructureView@Context` | `transductionGraphRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs` | Use `E.18` and `C.30.TGA-FLOW-REL` for graph/path/crossing structure input; use `C.28` for causal claims. |
 | `RuntimeInteractionStructure` | `RuntimeInteractionStructureView@Context` | runtime elements, connectors/protocols, event/message topology, failure/latency boundaries | Use temporal, failure, evidence, or assurance patterns when runtime claims exceed structure. |
 | `ModuleInterfaceStructure` | `ModuleInterfaceStructureView@Context` | module relation refs, interface specs, admissibility conditions, substitutability/change policy | Use the exact module/interface repair pattern and conformance evidence when those claims are live. |
 | `PlacementDeploymentStructure` | `PlacementDeploymentStructureView@Context` | allocation-to-site/environment refs, network/physical locality, jurisdiction/safety constraints | Use temporal, evidence, legal/regulatory, or safety patterns for those stronger claims. |
@@ -297,7 +298,7 @@ SecurityTrustBoundaryStructureView@Context ::= {
 
 `SecurityTrustBoundaryStructure` carries adversarial-boundary reading: which protected assets or effects are live, who or what is trusted, where untrusted input crosses, what authority or privilege is exposed, which adversarial paths and attack exposures matter, which data-flow or control-flow security boundaries matter, and where secure defaults, hardening, update or supply-chain channels, detection, or response boundaries change the next architecture move.
 
-Do not open evidence, assurance, gate, or compliance support only because the topic is safety, security, or regulation. Open it when the architecture move relies on evidence sufficiency, assurance verdict, gate passage, regulatory acceptance, or release authority. If the live move is structural, first recover the structure: trust boundary, loss-control relation, control relation, evidence reuse structure, or affected structure/view.
+Do not open evidence, assurance, gate, or compliance pattern use only because the topic is safety, security, or regulation. Open it when the architecture move relies on evidence sufficiency, assurance verdict, gate passage, regulatory acceptance, or release authority. If the live move is structural, first recover the structure: trust boundary, loss-control relation, control relation, evidence reuse structure, or affected structure/view.
 
 Use a `SafetyLossControlStructureNote` when a safety-architecture concern first needs the architecture-side loss-control structure rather than a safety-case verdict:
 
@@ -324,7 +325,7 @@ SafetyLossControlStructureNote:
     not safety proof, not safety-case verdict, not regulatory acceptance
 ```
 
-The note gives a positive first architecture move: find the loss-control structure, controlled process or plant, constraint, foreseeable misuse, operational design scope, and action-relevant boundary. It does not replace evidence, assurance, gate, causal, dynamics, or temporal support.
+The note gives a positive first architecture move: find the loss-control structure, controlled process or plant, constraint, foreseeable misuse, operational design scope, and action-relevant boundary. It does not replace evidence, assurance, gate, causal, dynamics, or temporal claims.
 
 #### C.30.ASV:4.6 - Functional structure view boundary
 
@@ -362,7 +363,7 @@ Non-admissible:
   successful assembly is not quality propagation
 ```
 
-Compositional formalisms may support explicit composition structures and view/model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
+Compositional formalisms may express explicit composition structures and view/model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
 
 #### C.30.ASV:4.7 - Correspondence and source return
 
@@ -403,7 +404,7 @@ SourceReturnAction:
 ```
 
 
-Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. Do not omit source return when a hidden distinction carries support, assurance, legal, comparison, causal, gate, or decision load. The condition is live only when the repaired text still relies on the hidden source-side distinction.
+Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. Do not omit source return when a hidden distinction carries a selected support reading, assurance, legal, comparison, causal, gate, or decision claim force. The condition is live only when the repaired text still relies on the hidden source-side distinction.
 
 Model cards, system cards, and evaluation harness reports may publish or substantiate an architecture structural view only when the structural-view claim is recoverable. The view must name the relevant structure kind, such as `RuntimeInteractionStructure`, `InformationDataStructure`, `SecurityTrustBoundaryStructure`, `EvidenceAssuranceStructure`, `ModuleInterfaceStructure`, or another declared structure kind; it must also state intended-use scope, evaluation scope and known loss when evaluation is used, deployment-context mismatch when live, and the evidence or assurance governing pattern when the publication is used beyond transparency. A card or harness is not architecture adequacy, safety proof, or release/gate claim by publication alone.
 

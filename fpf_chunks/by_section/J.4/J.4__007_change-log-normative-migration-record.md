@@ -6,12 +6,12 @@ section_id: "J.4:section-006"
 section_title: "Change Log (normative migration record)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__007_change-log-normative-migration-record.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:section-006 — Change Log (normative migration record)"
-line_start: 81459
-line_end: 81464
+line_start: 82276
+line_end: 82281
 dependencies:
 keywords:
 ---

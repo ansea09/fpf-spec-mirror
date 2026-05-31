@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.ECS.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
-line_start: 23366
-line_end: 23587
+line_start: 22660
+line_end: 22881
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -39,7 +39,7 @@ Use `A.19.ECS` when an object version is to be improved or judged, but the evalu
 
 The ordinary output is an evaluation characteristic-space specification: a grouped set of characteristics, scales, value meanings, evidence rules, missingness rules, protected trade-offs, status meanings, and stop or reopen conditions for one evaluated object kind and use scope.
 
-**Not this pattern when.** If a suitable evaluation already exists, cite it and use `E.22` for question framing or `E.23` for repeated improvement. Use `A.17`, `A.18`, and `C.16` when the live problem is one characteristic, one scale, or measurement legality. Use `A.19` when the live problem is the structure of `CharacteristicSpace` itself. Use `C.25` when the evaluated object is a composite engineering quality family that already fits Q-Bundle form. Use `F.18` when the live problem is durable naming. Use `E.21`, `E.9.DA`, or `E.2.DA` when the object is respectively one FPF pattern version, one `DRR`, or one FPF-level Pillar-adequacy evaluated object.
+**Not this pattern when.** If a suitable evaluation already exists, cite it and use `E.22` for question framing or `E.23` for repeated improvement. Use `A.17`, `A.18`, and `C.16` when the live problem is one characteristic, one scale, or measurement legality. Use `C.16.P` first when candidate coordinate wording still hides whether the live object is a characteristic, scale, coordinate, score, metric label, quality-term repair, or another receiving object. Use `A.19` when the live problem is the structure of `CharacteristicSpace` itself. Use `C.25` when the evaluated object is a composite engineering quality family that already fits Q-Bundle form. Use `F.18` when the live problem is durable naming. Use `E.21`, `E.9.DA`, or `E.2.DA` when the object is respectively one FPF pattern version, one `DRR`, or one FPF-level Pillar-adequacy evaluated object.
 
 **First useful move.** State the sentence: "good as what kind of object, for which use, against which contrast cases?" Then name the evaluated object kind, the use scope, and at least three contrast cases: one admissible evaluated object, one below-floor evaluated object, and one not-applicable object.
 
@@ -220,7 +220,7 @@ Do not improve an evaluated object by silently changing its evaluation. If the e
 | `E.9.DA` | Existing evaluation for one `DRR` decision-adequacy claim. `A.19.ECS` does not replace it. |
 | `E.2.DA` | Existing evaluation for FPF-level Pillar adequacy. `A.19.ECS` explains why it must publish evaluated object, coordinates, values, evidence loci, status, and stop meanings. |
 | `F.18` | Existing naming discipline with a grouped lexical quality vector. Use `F.18` for durable term and name improvement. |
-| `A.6.Q`, `E.10`, `A.6.P`, `C.2.P` | Repair overloaded quality, lexical, relation, and source-transfer wording before it becomes a coordinate or status value. |
+| `C.16.P`, `C.16.Q`, `E.10`, `A.6.P`, `C.2.P` | Repair overloaded characteristic/scale/score, quality, lexical, relation, and source-transfer wording before it becomes a coordinate or status value. |
 | `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD novelty, diversity, archive, pool, selected-set, parity, and refresh semantics. An evaluation may supply `Q` readings, but it does not govern the rest of OEE/NQD. |
 | `C.29` | Governs mathematical lens adequacy when a mathematical structure is used to define or justify coordinates. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `A.15` | Govern evidence, assurance, local CV, gates, and work when an evaluation result is reused for those claims. |

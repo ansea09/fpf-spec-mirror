@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".3 - Boundary unpacking and claim decomposition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__004_3-boundary-unpacking-and-claim-decomposition.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .3 - Boundary unpacking and claim decomposition"
-line_start: 81171
-line_end: 81196
+line_start: 81986
+line_end: 82011
 dependencies:
 keywords:
 ---
@@ -24,7 +24,7 @@ keywords:
   interface/access note.
 - **Plausible candidate patterns:** `A.6`, `A.6.B`, `A.6.C`.
 - **Nearby patterns:** `A.6.RSIG` if first-contact recognition is still live;
-  `A.6.P` for relation wording; `A.6.Q` for quality wording; `A.6.A` for
+  `A.6.P` for relation wording; `C.16.Q` for quality wording; `A.6.A` for
   action invitation wording; `E.17` for publication or view question.
 - **Tempting wrong pattern:** treat an API/access phrase as a promise of
   downstream effect, or treat one boundary phrase as a complete Contract Bundle.

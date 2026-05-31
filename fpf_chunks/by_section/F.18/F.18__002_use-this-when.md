@@ -6,12 +6,12 @@ section_id: "F.18:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__002_use-this-when.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:0 — Use this when"
-line_start: 73675
-line_end: 73683
+line_start: 74490
+line_end: 74498
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

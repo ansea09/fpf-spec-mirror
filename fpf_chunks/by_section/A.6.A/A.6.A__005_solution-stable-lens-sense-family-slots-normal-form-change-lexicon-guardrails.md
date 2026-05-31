@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-stable-lens-sense-family-slots-normal-form-change-lexicon-guardrails.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
-line_start: 13667
-line_end: 14037
+line_start: 12949
+line_end: 13319
 dependencies:
   - "A.15"
   - "A.16"
@@ -21,10 +21,10 @@ dependencies:
   - "A.3"
   - "A.6.B"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
@@ -217,7 +217,7 @@ A Context MAY add local senses, but the following starter set is normative as th
 * In **interface / alarm / operator-panel** contexts, bare action-first phrasing SHALL rewrite to **`AIS.InterfaceAffordance`** and/or **`AIS.ControlOpportunity`**.
 * In **epistemic exploration** contexts, “this suggests probing / formalizing / reframing” SHALL rewrite to **`AIS.EpistemicProbe`** and/or **`AIS.ClosureAdvance`**.
 * In **learned world-model / active-inference / policy** contexts, bare “the model wants / the state suggests” SHALL rewrite to **`AIS.LatentPolicyCue`** and/or **`AIS.ControlOpportunity`**, with the distinction made explicit.
-* If the sentence is chiefly about **better / worse / fit / merit**, use **A.6.Q** instead of A.6.A.
+* If the sentence is chiefly about **better / worse / fit / merit**, use **C.16.Q** instead of A.6.A.
 
 #### A.6.A:4.4 - Required slots for a conforming `actionInvitation`
 
@@ -311,7 +311,7 @@ A conforming `PolicyHook` publishes:
 
 A.6.A SHALL prevent the collapse of action invitation language into neighbouring families.
 
-* A statement about **better / worse / fit / merit** belongs to **A.6.Q**.
+* A statement about **better / worse / fit / merit** belongs to **C.16.Q**.
 * A statement about **what a system can do in general** belongs to capability / method description.
 * A statement about **what must be done** belongs to **A.6.B** (`A-*` / `D-*`).
 * A statement about **what was actually done** belongs to **A.15 / U.Work**.
@@ -388,7 +388,7 @@ Do not let bare action-first language carry L/A/D/E force by itself.
 In **Tech / normative prose**:
 
 * bare **affords / invites / calls for / actionable / ready for / ripe for / natural next step / the model wants / the interface tells** MUST NOT appear without immediate repair;
-* **actionable insight** MUST be rewritten to `ActionOption` / `OptionSet` / `PolicyHook`, or to **A.6.Q** if the use is primarily evaluative;
+* **actionable insight** MUST be rewritten to `ActionOption` / `OptionSet` / `PolicyHook`, or to **C.16.Q** if the use is primarily evaluative;
 * **affordance** MUST NOT be treated as a monadic property of an object without actor, site, and frame;
 * an invitation MUST NOT be presented as if it were already a duty, gate, or work occurrence;
 * a latent policy cue MUST NOT be presented as if it were already an explanation;
@@ -405,7 +405,7 @@ A.6.A supports monotone elaboration:
 2. Declare site, would-be enactor, action, frame, and site-facet docking.
 3. Choose an admissible normal form and a local `articulationHint` when omission would hide articulation state.
 4. Add guards, method/policy hooks, and witness bindings.
-5. If a `CuePack` or `ActionOption` is projected into `OptionSet` or `PolicyHook`, or docked to **A.6.Q**, **A.6.B**, or the relevant **A.15** pattern or lane, publish an explicit projection or operationalization note rather than silently upgrading the invitation.
+5. If a `CuePack` or `ActionOption` is projected into `OptionSet` or `PolicyHook`, or docked to **C.16.Q**, **A.6.B**, or the relevant **A.15** pattern or lane, publish an explicit projection or operationalization note rather than silently upgrading the invitation.
 6. Add bridges and loss notes if traditions are compared.
 7. If the invitation becomes boundary-bearing, emit the relevant L, A, D, and E decomposition hooks and, where enactment is implied, apply the relevant A.15 pattern or lane.
 8. Never move from invitation into capability, commitment, or work silently.

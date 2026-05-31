@@ -6,12 +6,12 @@ section_id: "A.6.P:0"
 section_title: "TERM/LEX token guards (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__002_term-lex-token-guards-local-first.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:0 — TERM/LEX token guards (local-first)"
-line_start: 12065
-line_end: 12085
+line_start: 12088
+line_end: 12108
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,9 +25,9 @@ dependencies:
   - "A.6.A"
   - "A.6.B"
   - "A.6.H"
-  - "A.6.Q"
   - "A.6.S"
   - "A.7"
+  - "C.16.Q"
   - "C.2.1"
   - "C.2.2a"
   - "C.26"
@@ -73,5 +73,5 @@ Rename-guards (common collisions):
 
 * **agreement-like boundary wording** — Plain shorthand for a published boundary-interface description; a conforming text MUST NOT treat such wording as itself establishing a promise/obligation. Promises, duties, and gates are classified under `A.6.B`.
 * **bind/binding** — reserved for **name binding** (Identifier → SlotKind/slot-instance) and MUST NOT be used as a synonym for relation instance edits.
-* **same/synced/linked/connected/anchored/grounded/supported/supporting** — treated as umbrella tokens; allowed as Plain gloss only when immediately mapped to an explicit RelationKind token (Tech) or to an exact FPF governing load via rewrite rules.
+* **same/synced/linked/connected/anchored/grounded/supported/supporting** — treated as umbrella tokens; allowed as Plain gloss only when immediately mapped to an explicit RelationKind token (Tech) or to an exact FPF governing claim force via rewrite rules.
 

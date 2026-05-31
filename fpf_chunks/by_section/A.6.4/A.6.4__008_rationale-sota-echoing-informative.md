@@ -6,12 +6,12 @@ section_id: "A.6.4:7"
 section_title: "Rationale & SoTA‑echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__008_rationale-sota-echoing-informative.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism"
   - "A.6.4:7 — Rationale & SoTA‑echoing  (informative)"
-line_start: 11910
-line_end: 11925
+line_start: 11924
+line_end: 11939
 dependencies:
   - "A.1"
   - "A.6.2"

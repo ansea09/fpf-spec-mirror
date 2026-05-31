@@ -6,12 +6,12 @@ section_id: "F.5:End"
 section_title: "F.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__017_f-5-end.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:End — F.5:End"
-line_start: 69328
-line_end: 69329
+line_start: 70143
+line_end: 70144
 dependencies:
   - "A.11"
   - "A.7"

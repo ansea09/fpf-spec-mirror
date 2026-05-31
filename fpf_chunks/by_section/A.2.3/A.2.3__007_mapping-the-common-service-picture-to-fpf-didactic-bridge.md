@@ -6,12 +6,12 @@ section_id: "A.2.3:6"
 section_title: "Mapping the common “service” picture to FPF (didactic bridge)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__007_mapping-the-common-service-picture-to-fpf-didactic-bridge.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:6 — Mapping the common “service” picture to FPF (didactic bridge)"
-line_start: 2811
-line_end: 2827
+line_start: 2814
+line_end: 2830
 dependencies:
   - "A.1.1"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.3.3:7"
 section_title: "Archetypal grounding (engineer‑manager friendly)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__008_archetypal-grounding-engineer-manager-friendly.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:7 — Archetypal grounding (engineer‑manager friendly)"
-line_start: 6471
-line_end: 6481
+line_start: 6474
+line_end: 6484
 dependencies:
   - "A.19"
   - "B.4"

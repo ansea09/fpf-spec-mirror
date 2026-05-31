@@ -6,12 +6,12 @@ section_id: "C.28:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:intro — Intro"
-line_start: 48908
-line_end: 48922
+line_start: 49215
+line_end: 49229
 dependencies:
   - "A.10"
   - "A.15"

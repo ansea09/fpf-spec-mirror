@@ -6,12 +6,12 @@ section_id: "E.2.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__011_rationale.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:10 — Rationale"
-line_start: 53687
-line_end: 53694
+line_start: 54231
+line_end: 54238
 dependencies:
   - "A.19.ECS"
   - "E.10"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.29 — Mathematical Lens Adequacy (MLA)"
-line_start: 49787
-line_end: 51008
+line_start: 50094
+line_end: 51316
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.P"
   - "C.18.1"
   - "C.19.1"
   - "C.2.P"
@@ -215,7 +216,7 @@ Plain/Tech bridge:
 | What can the reader now do? | `AdmissibleNextMove` or `admissibleUse`. |
 | What remains blocked? | `StopCondition` and `nonAdmissibleUse`. |
 
-State, scale, and dynamics trigger: if the lens carries state, transition, forecast, rate, temporal window, scale window, observation, measurement, comparison, or causal implication, the cheapest honest output either names the minimal relevant field or names the receiving FPF locus. State and transition semantics stay with `A.3.3`; characteristic spaces and overlays stay with `A.19`; measurement construction and direct comparability stay with `C.16`; temporal-use adequacy stays with `C.27`; scale-law and scale-preference claims stay with `C.18.1` and `C.19.1`; causal-use support stays with `C.28`.
+State, scale, and dynamics trigger: if the lens carries state, transition, forecast, rate, temporal window, scale window, observation, measurement, comparison, score, strong/weak wording, or causal implication, the cheapest honest output either names the minimal relevant field or names the receiving FPF locus. If characteristic, scale, coordinate, score, metric, indicator, or comparison wording is itself hidden, use `C.16.P` before relying on C.29; if a valid measurement relation is already recoverable, measurement construction and direct comparability stay with `C.16`. State and transition semantics stay with `A.3.3`; characteristic spaces and overlays stay with `A.19`; temporal-use adequacy stays with `C.27`; scale-law and scale-preference claims stay with `C.18.1` and `C.19.1`; causal-use support stays with `C.28`.
 
 
 #### C.29:4.2a - Mathematicalization Utility Principle
@@ -1271,7 +1272,7 @@ Use this recognition menu only to identify a possible lens family and likely nei
 
 ### C.29:15 - Relations
 
-- **Builds on:** `A.1.1`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `B.3`, `C.16`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`.
+- **Builds on:** `A.1.1`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `B.3`, `C.16.P`, `C.16`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`.
 - **Constrained by:** `E.8`, `E.10`, `C.2.P`, `E.19`.
 - **Decision basis:** `E.9` design-rationale discipline and the source-basis rows in `C.29:13a`.
 - **Supports:** `E.2` pillar-impact analysis when a pillar argument relies on mathematical first-principles structure; only lens adequacy is in scope, with no amendment to pillar content, priority, or constitutional authority.
@@ -1282,3 +1283,4 @@ Use this recognition menu only to identify a possible lens family and likely nei
 
 
 ### C.29:End
+

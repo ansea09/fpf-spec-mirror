@@ -6,12 +6,12 @@ section_id: "C.3:16"
 section_title: "Quick reference for managers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__019_quick-reference-for-managers.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:16 — Quick reference for managers"
-line_start: 38249
-line_end: 38266
+line_start: 37548
+line_end: 37565
 dependencies:
   - "A.1"
   - "A.2.6"

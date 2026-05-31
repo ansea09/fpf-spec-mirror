@@ -6,12 +6,12 @@ section_id: "C.27:12a"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__014_c-29-mla-relation.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:12a — C.29 MLA relation"
-line_start: 48903
-line_end: 48906
+line_start: 49209
+line_end: 49212
 dependencies:
   - "A.3.3"
   - "B.1.4"

@@ -6,20 +6,20 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
-line_start: 22125
-line_end: 22408
+line_start: 21409
+line_end: 21693
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.2"
   - "A.6.A"
-  - "A.6.Q"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
@@ -47,7 +47,7 @@ keywords:
 
 **First output.** One `U.PreArticulationCuePack` with an explicit cue nucleus, preservation rationale, primary witness or anchor when one is load-bearing, and any early lane candidates or route-candidate hints that are already visible.
 
-**Typical next governing patterns.** `B.4.1` when route plurality or route authority becomes publishable, `B.5.2.0` for cue-derived abductive prompting, `A.6.P`, `A.6.A`, or `A.6.Q` once endpoint articulation threshold is actually met, and `A.16.2` when reopening or retirement becomes the truthful move.
+**Typical next governing patterns.** `B.4.1` when route plurality or route authority becomes publishable, `B.5.2.0` for cue-derived abductive prompting, `A.6.P`, `A.6.A`, or `C.16.Q` once endpoint articulation threshold is actually met, and `A.16.2` when reopening or retirement becomes the truthful move.
 
 **Common neighboring-pattern mistakes.** Do not publish a cue pack as a selected-route decision, anomaly statement, evaluative ascription, `A.6.A`-governed invitation, or work record; if route authority is already explicit, use `B.4.1`; if endpoint semantics are already stable, apply the receiving governing pattern and its named publication form; if backoff or retirement is the active problem pressure, use `A.16.2`.
 
@@ -170,7 +170,7 @@ The pattern fits early cue capture in design, embodied cognition, incident triag
 
 ### A.16.1:12 - Relations
 - Builds on: `C.2.2a`, `A.16`, `C.2.LS`, `A.7`.
-- Coordinates with: `A.16.0`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `B.4.1`, `B.5.2.0`, `A.6.A`, `A.6.Q`, `A.16.2`.
+- Coordinates with: `A.16.0`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `B.4.1`, `B.5.2.0`, `A.6.A`, `C.16.Q`, `A.16.2`.
 - Constrains: publication of pre-threshold cues.
 
 ### A.16.1:13 - Worked Examples and Invalid Publications
@@ -319,3 +319,4 @@ A reviewer can test a cue pack with four questions:
 
 Migration from legacy signal language should therefore reconstruct not just a vague "signal", but the preserved cue nucleus, its primary witness or anchor, and any directional hints that are already honestly visible.
 ### A.16.1:End
+

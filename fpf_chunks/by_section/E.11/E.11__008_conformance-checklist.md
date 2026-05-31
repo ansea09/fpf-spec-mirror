@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance checklist"
-line_start: 58805
-line_end: 58844
+line_start: 59617
+line_end: 59656
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -48,7 +48,7 @@ keywords:
   remains in the pattern's `Problem frame`; `J.4`, `I.2`, lexical support, and
   `README` do not become competing local recognition pattern bodies.
 - **CC-E11-6 Quality boundary.** Formal quality claims about discoverability or
-  recognition apply `C.25` or `A.6.Q` as applicable; `E.11` coordinates
+  recognition apply `C.25` or `C.16.Q` as applicable; `E.11` coordinates
   pattern-entry use, not quality authority.
 - **CC-E11-7 Semantic parity.** Multi-role changes keep entry load, authority,
   boundary, and projection-only status compatible without requiring identical

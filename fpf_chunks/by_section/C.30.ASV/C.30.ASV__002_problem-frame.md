@@ -6,12 +6,12 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 51615
-line_end: 51648
+line_start: 52158
+line_end: 52192
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -77,7 +78,7 @@ stop condition:
 
 Ordinary minimum: name the live architecture object or the described holon and bounded context, the one structure kind or structure-kind set that changes action, one non-admissible overread, and the next admissible architecture move or stop. All other fields are conditional and may be `not live`.
 
-Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a view over selected architecture-relevant structure changes the next architecture move. Use the triage record when it names the live structure kind and the next admissible architecture move. Open a full `ArchitectureStructuralView@Context` only when the view changes action, support, correspondence, source return, publication, comparison, evidence, assurance, gate, decision, or exact governing pattern use.
+Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a view over selected architecture-relevant structure changes the next architecture move. Use the triage record when it names the live structure kind and the next admissible architecture move. Open a full `ArchitectureStructuralView@Context` only when the view changes action, selected support reading, correspondence, source return, publication, comparison, evidence, assurance, gate, decision, or exact governing pattern use.
 
 
 What goes wrong if C.30.ASV is missed: "architecture" silently means "module diagram"; a view becomes a publication face; a viewpoint becomes a structure kind; TEVB is stretched into a full architecture ontology; a Transduction Graph Architecture (TGA) graph, Layered Control Architecture (LCA)/control sketch, code-agent relation graph, or neural-network block diagram becomes the architecture by appearance.
@@ -86,3 +87,4 @@ What C.30.ASV buys in practice: the practitioner can name the architecture claim
 
 Not this pattern when the live question is only the general architecture claim. Use `C.30`. If the live question is structure as such, use A.22. If the view is a TGA graph/path/crossing relation, use `E.18` and `C.30.TGA-FLOW-REL` when architecture-flow description is live. If the view is used as evidence, assurance, causal proof, gate result, work record, release permission, or decision authority, use the exact governing pattern and keep C.30.ASV only to the view portion.
 
+Thin precision-restoration pointer: if the live issue is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural view, an architecture description, a publication face, a carrier, a source relation, or another receiving object, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; C.30.ASV resumes only after the architecture structural-view object or exact non-ASV exit is recoverable.

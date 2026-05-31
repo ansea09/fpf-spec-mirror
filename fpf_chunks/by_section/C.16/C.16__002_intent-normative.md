@@ -6,12 +6,12 @@ section_id: "C.16:1"
 section_title: "Intent (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__002_intent-normative.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:1 — Intent (Normative)"
-line_start: 40965
-line_end: 40985
+line_start: 40264
+line_end: 40285
 dependencies:
   - "A.10"
   - "A.17"
@@ -48,6 +48,7 @@ keywords:
 
 Use this when a value, score, rating, metric label, QL probe output, dashboard reading, or comparison is being treated as meaningful without a visible characteristic, scale, unit, polarity, comparability basis, or evidence pointer. The action is to rebuild the measurement claim as a typed reading: name the subject, bind one characteristic to one scale, state the coordinate or level, declare unit and polarity when they matter, attach the evidence stub, and keep comparison or scoring claims with broader scope, higher evidence requirement, or release/admission use with the exact pattern or specification record that governs that comparison or scoring claim.
 
+Thin precision-restoration pointer: if the live issue is still whether wording such as *metric*, *measure*, *score*, *axis*, *dimension*, *level*, *coordinate*, *quality*, or *stronger/weaker value* names a characteristic, scale, coordinate, score, unit, scoring method, quality-term repair, or another receiving object, use `C.16.P` first. Do not copy the `C.16.P` trigger table here; C.16 resumes after the measurement or characteristic construction is recoverable.
 Useful output: a measurement claim that a reader can interpret and compare only within its declared measurement basis, without turning a convenient number into a free-floating fact.
 
 Metric legality does not make causal use admissible. If a measured value, score, dashboard reading, or metric disparity reaches `CausalUseActivation` by being used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, or causal method superiority, keep the measurement repair in `C.16` and carry the causal-use question, causal-ladder rung, estimand, support basis, support verdict, admissible causal use, and inadmissible causal use in `C.28`.

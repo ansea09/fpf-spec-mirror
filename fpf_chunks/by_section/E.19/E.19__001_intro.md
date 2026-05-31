@@ -6,12 +6,12 @@ section_id: "E.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:intro — Intro"
-line_start: 64427
-line_end: 64432
+line_start: 65239
+line_end: 65244
 dependencies:
   - "A.6.P"
   - "C.2.P"

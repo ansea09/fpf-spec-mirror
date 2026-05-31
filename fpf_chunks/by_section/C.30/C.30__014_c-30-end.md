@@ -6,12 +6,12 @@ section_id: "C.30:End"
 section_title: "C.30:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__014_c-30-end.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30 — Architecture Description Adequacy (ADA)"
   - "C.30:End — C.30:End"
-line_start: 51608
-line_end: 51608
+line_start: 51917
+line_end: 51918
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,6 +33,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -53,3 +54,4 @@ keywords:
 ---
 
 ### C.30:End
+

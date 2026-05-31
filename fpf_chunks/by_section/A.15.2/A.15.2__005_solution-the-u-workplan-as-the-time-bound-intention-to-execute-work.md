@@ -6,12 +6,12 @@ section_id: "A.15.2:4"
 section_title: "Solution — the U.WorkPlan as the time‑bound intention to execute Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-the-u-workplan-as-the-time-bound-intention-to-execute-work.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:4 — Solution — the U.WorkPlan as the time‑bound intention to execute Work"
-line_start: 20704
-line_end: 20780
+line_start: 19988
+line_end: 20064
 dependencies:
   - "A.15"
   - "U.Work"

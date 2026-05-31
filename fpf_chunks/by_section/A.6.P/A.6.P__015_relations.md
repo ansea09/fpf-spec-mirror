@@ -6,12 +6,12 @@ section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__015_relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12 — Relations"
-line_start: 12760
-line_end: 12783
+line_start: 12789
+line_end: 12814
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,9 +25,9 @@ dependencies:
   - "A.6.A"
   - "A.6.B"
   - "A.6.H"
-  - "A.6.Q"
   - "A.6.S"
   - "A.7"
+  - "C.16.Q"
   - "C.2.1"
   - "C.2.2a"
   - "C.26"
@@ -70,9 +70,11 @@ keywords:
 * **A.19 `U.CharacteristicSpace` + `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`** — for declared characteristic spaces, guarded role references, and interpretive-view and atlas-view discipline when one relation repair needs those layers explicit.
 * **G.2** — for palette, front, archive, or tradition-atlas specialization when the repaired passage is SoTA-harvest or synthesis prose.
 * **F.18** — when the remaining issue is naming-side choice among candidate labels rather than relation typing or publication-lane repair.
-* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0 + C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** - relation publication enters only after admissible language-state chart positioning, articulation, and closure support exist; earlier cue-pack material stays on the language-state seam, prompt-shaped continuations stay with `B.5.2.0`, retreat/reopen moves remain governed by `A.16.2`, and `A.16.0` is used only when lineage, branch, loss, or handoff history must itself be published.
+* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0 + C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** - relation publication enters only after admissible language-state chart positioning, articulation, and closure record exist; earlier cue-pack material stays on the language-state seam, prompt-shaped continuations stay with `B.5.2.0`, retreat/reopen moves remain governed by `A.16.2`, and `A.16.0` is used only when lineage, branch, loss, or handoff history must itself be published.
 
-**Intended future A.6.x specialisations (illustrative)**
+**Candidate extraction signals (informative; not queued specialisations)**
+
+These recurring relation-force families are signals for applying the `E.10.ARCH` extraction criterion. They do not by themselves create a new A.6.x pattern.
 
 * Cross‑Context equivalence / “sameness” discipline (Bridge + loss-note relation patterns)
 * Correspondence/consistency + repair discipline (sync/alignment relation patterns)

@@ -6,21 +6,21 @@ section_id: "A.16.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__011_rationale.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:10 — Rationale"
-line_start: 22252
-line_end: 22254
+line_start: 21536
+line_end: 21538
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.2"
   - "A.6.A"
-  - "A.6.Q"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"

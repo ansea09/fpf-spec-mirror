@@ -6,12 +6,12 @@ section_id: "F.4:7"
 section_title: "Normative invariants (template discipline)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__008_normative-invariants-template-discipline.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:7 — Normative invariants (template discipline)"
-line_start: 68765
-line_end: 68777
+line_start: 69580
+line_end: 69592
 dependencies:
   - "A.11"
   - "A.2.1"

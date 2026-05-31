@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution"
-line_start: 58429
-line_end: 58706
+line_start: 59241
+line_end: 59518
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -55,7 +55,7 @@ preserve the semantic-name settlement and support-role partition.
 - workflows, process routes, control-flow graphs, prescribed method sequences,
   work handoffs, or runtime execution stops;
 - the governing semantics of referenced patterns;
-- formal quality treatment, which belongs to `C.25` / `A.6.Q` when the claim
+- formal quality treatment, which belongs to `C.25` / `C.16.Q` when the claim
   becomes evaluative;
 - graph ontology in `E.18`.
 

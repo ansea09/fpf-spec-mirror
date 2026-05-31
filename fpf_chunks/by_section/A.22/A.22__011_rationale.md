@@ -6,12 +6,12 @@ section_id: "A.22:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__011_rationale.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:10 — Rationale"
-line_start: 28831
-line_end: 28838
+line_start: 28126
+line_end: 28133
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,6 +36,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"

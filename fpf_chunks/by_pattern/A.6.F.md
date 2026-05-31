@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.F.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
-line_start: 14293
-line_end: 14612
+line_start: 13576
+line_end: 13896
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,11 +26,11 @@ dependencies:
   - "A.6.B"
   - "A.6.C"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.2.P"
   - "C.25"
   - "C.29"
@@ -82,7 +82,7 @@ What goes wrong if A.6.F is missed: a function becomes a root kind; functional a
 
 What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the exact carrier and the exact governing pattern that carries any remaining claim kind.
 
-Not this pattern when the phrase is ordinary prose and carries no live FPF claim. If the live issue is a general relation word rather than function-like wording, use A.6.P. If the live issue is evaluative language, use A.6.Q. If the live issue is architecture-description adequacy, use C.30. If the live issue is an architecture structural view, use C.30.ASV.
+Not this pattern when the phrase is ordinary prose and carries no live FPF claim. If the live issue is a general relation word rather than function-like wording, use A.6.P. If the live issue is evaluative language, use C.16.Q. If the live issue is architecture-description adequacy, use C.30. If the live issue is an architecture structural view, use C.30.ASV.
 
 ### A.6.F:2 - Problem
 
@@ -107,7 +107,7 @@ These uses are all legitimate in ordinary engineering speech. They are not the s
 | Familiar engineering speech vs kind precision | Engineers naturally say "function", "functional", and "functionality"; FPF needs the carrier and non-function claim kind recoverable when the phrase carries a live FPF claim. |
 | Functional architecture vs peer ontology | Functional architecture is useful, but it is the `FunctionalStructure` case of `ArchitectureOf@Context`, not a separate root architecture kind. |
 | Capability/effect vs work/method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are different FPF carriers. |
-| Mathematical function vs design relation | Mathematical functions and relations can support reasoning, but C.29 governs their lens use and stop condition. |
+| Mathematical function vs design relation | Mathematical functions and relations can be used for reasoning, but C.29 governs their lens use and stop condition. |
 | Module allocation vs functional relation | Functional dependencies may be allocated to modules, but function and module/interface structure do not become one object. |
 | Small repair vs unneeded evidence, quality, decision, or assurance apparatus | Most cases need carrier recovery and a stop condition, not a full architecture, evidence, quality, or decision claim apparatus. |
 
@@ -180,12 +180,12 @@ The repair is complete when a practitioner can say which carrier kind the functi
 | Function wording use | First carrier | Boundary |
 | --- | --- | --- |
 | required transformation or effect | `VP.Functional`, `FunctionalStructureView@Context`, or locally declared capability/effect record | Does not imply physical module, work occurrence, or evidence. |
-| capability of a holon | `U.Capability` or the current capability-support locus | Does not imply that a method, module, or work occurrence exists. |
+| capability of a holon | `U.Capability` or the exact capability-governing pattern or project record named by the live claim | Does not imply that a method, module, or work occurrence exists. |
 | method wording | `U.Method`, `MethodDescription`, `VP.Procedural`, or A.15 design/run boundary as triggered | Does not imply execution. |
 | work occurrence or work result | `U.Work`, Work record, or P2W relation under the governing TGA work-result pattern | Does not imply reusable function ontology. |
 | responsibility or role expectation | `VP.RoleEnactor` and the relevant role/enactor relation | Does not imply the role-holder performed the work. |
 | mathematical function or relation | C.29 mathematical-lens use with domain, codomain or relation domain, preserved/lost structure, lens-use posture, and stop condition | Does not become architecture, evidence, causal proof, assurance, or decision claim by itself. |
-| quality or fitness expression | `C.25`, `C.16`, `A.6.Q`, `A.17`, `A.18`, or an admitted characteristic/measurement receiving pattern according to the live claim | Does not let "functionality" carry a quality claim without bearer and exact governing pattern. |
+| quality or fitness expression | `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, or an admitted characteristic/measurement receiving pattern according to the live claim | Does not let "functionality" carry a quality claim without bearer and exact governing pattern. |
 | module allocation | `FunctionalStructureView@Context` plus declared correspondence, allocation, retargeting, or module/interface repair as live | Does not make function and module one object. |
 | interface or signature relation | `InterfaceSignatureBoundaryNote`, A.6.0, A.6.5, A.6.B, A.6.C, A.6.8, or the exact module/interface repair pattern when live | Does not turn a functional link, port label, API name, or signature into implemented compatibility. |
 | functional architecture | `ArchitectureOf@Context` with `structureKindRef = FunctionalStructure` and `FunctionalStructureView@Context` under C.30.ASV | Not a peer architecture ontology and not a TGA graph by itself. |
@@ -238,7 +238,7 @@ The note is a boundary and source-finding aid. It is not the functional architec
 | function = role | Role/enactor structure uses `VP.RoleEnactor` and role records; function-like responsibility wording needs role carrier recovery. |
 | mathematical function = system purpose | Use C.29 for mathematical function or relation; recover domain/codomain, preserved/lost structure, lens-use posture, and stop condition. |
 | functional diagram = evidence | Diagram is a view or publication; evidence claim uses `A.10` or `G.6`. |
-| functionality = quality | Recover the quality bearer and exact governing pattern through `C.25`, `C.16`, or A.6.Q before using the wording as adequacy claim. |
+| functionality = quality | Recover the quality bearer and exact governing pattern through `C.25`, `C.16`, or C.16.Q before using the wording as an adequacy claim. |
 
 #### A.6.F:4.7 - Composability and compositionality
 
@@ -255,7 +255,7 @@ Non-admissible:
   successful assembly is not quality propagation
 ```
 
-Compositional formalisms may support explicit composition structures and view/model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
+Compositional formalisms may express explicit composition structures and view/model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
 
 ```text
 CompositionalityClaim@Quality ::= {
@@ -282,7 +282,7 @@ falseCarrierKindRefs: user journey publication, work log, TGA graph, module diag
 nextAdmissibleMove: open C.30.ASV only if the selected functional structure changes action
 stopCondition: ordinary phrase remains Plain if no architecture claim is live
 ```
-**Functionality as quality.** A product note says, "new functionality improves adequacy." The repair separates added capability or effect from quality claim. Capability/effect wording may stay as recognition, but adequacy claim goes to `C.25`, `C.16`, A.6.Q, or an admitted characteristic/measurement receiving pattern when the claim is live. A.6.F stops after carrier recovery when no quality claim remains.
+**Functionality as quality.** A product note says, "new functionality improves adequacy." The repair separates added capability or effect from quality claim. Capability/effect wording may stay as recognition, but adequacy claim goes to `C.25`, `C.16`, C.16.Q, or an admitted characteristic/measurement receiving pattern when the claim is live. A.6.F stops after carrier recovery when no quality claim remains.
 
 **Mathematical function or loss.** A model note says, "the loss function explains the system purpose." The repair keeps the mathematical function under C.29 lens discipline: domain, codomain or relation domain, preserved/lost structure, lens-use posture, and stop condition. The loss may inform a reasoning move; it does not become system purpose, evidence sufficiency, causal proof, assurance, or project decision by itself.
 
@@ -316,11 +316,11 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **CC-A6F-1 Carrier-kind recovery.** | Every function-like phrase that carries a live FPF claim names the recovered carrier kind and, when the claim points to a specific object, the recovered carrier ref. | Add `FunctionUseRepair` or demote the phrase to Plain prose. |
 | **CC-A6F-2 No `U.Function`.** | The use does not mint or rely on `U.Function` as a new root kind. | Assign the use to functional view, capability, method, work, role, mathematical lens, quality/characteristic, module allocation, or exact governing pattern. |
 | **CC-A6F-3 Functional architecture expansion.** | Functional architecture expands to `ArchitectureOf@Context` with `structureKindRef = FunctionalStructure` and C.30.ASV when it carries a live architecture claim. | Add the expansion or keep the phrase as ordinary recognition wording. |
-| **CC-A6F-4 Function/capability split.** | Capability claims and function/effect claims remain distinct. | Assign capability claims to the current capability-support locus and keep function/effect wording in the functional view or effect record. |
+| **CC-A6F-4 Function/capability split.** | Capability claims and function/effect claims remain distinct. | Assign capability claims to the exact capability-governing pattern or project record named by the live claim and keep function/effect wording in the functional view or effect record. |
 | **CC-A6F-5 Function/work/method split.** | Method, work occurrence, and work result claims do not hide inside function wording. | Assign the claim to `U.Method`, `MethodDescription`, `U.Work`, Work record, or A.15/P2W as live. |
 | **CC-A6F-6 Function/role split.** | Responsibility or role expectation wording uses `VP.RoleEnactor` and role/enactor relations when live. | Add the role carrier or remove the role claim from the function phrase. |
 | **CC-A6F-7 Mathematical function boundary.** | Mathematical function or relation wording used to justify reasoning names C.29 lens fields and stop condition. | Add C.29 lens-use posture, preserved/lost structure, and stop condition, or mark mathematical use as ordinary. |
-| **CC-A6F-8 Quality/functionality boundary.** | Quality, fitness, characteristic, score, or "functionality" wording recovers bearer and exact governing pattern. | Assign the claim to `C.25`, `C.16`, A.6.Q, `A.17`, `A.18`, or an admitted characteristic/measurement receiving pattern as live. |
+| **CC-A6F-8 Quality/functionality boundary.** | Quality, fitness, characteristic, score, or "functionality" wording recovers bearer and exact governing pattern. | Assign the claim to `C.25`, `C.16`, C.16.Q, `A.17`, `A.18`, or an admitted characteristic/measurement receiving pattern as live. |
 | **CC-A6F-9 Module/interface boundary.** | Functional relation, module allocation, interface, signature, port, API, protocol, flow, and mechanism wording remain separated. | Add `FunctionFlowModuleAlignmentNote`, `InterfaceSignatureBoundaryNote`, declared correspondence/allocation, or exact module/interface repair. |
 | **CC-A6F-10 Useful action.** | The repair leaves a surviving admissible move: assign carrier, open functional view, add alignment note, assign the live claim to C.29/C.30/C.30.ASV/A.15/C.25/C.16/A.10/B.3/A.20/A.21/C.11, or stop. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 
@@ -334,7 +334,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **Work collapse** | Work occurrence or result is described as a function. | Assign occurrence/result claims to A.15/P2W and keep functional wording design-side unless work evidence is live. |
 | **Mathematical-function import** | A mathematical function, loss, objective, or value functional becomes design ontology. | Use C.29 and state preserved/lost structure plus stop condition. |
 | **Module allocation shortcut** | A function is considered implemented because a module is named. | Add correspondence, allocation, interface/signature boundary, or module/interface repair. |
-| **Functionality as quality proxy** | "Functionality" carries adequacy or quality claim without bearer and exact governing pattern. | Recover bearer and exact governing pattern through `C.25`, `C.16`, A.6.Q, or an admitted characteristic/measurement receiving pattern. |
+| **Functionality as quality proxy** | "Functionality" carries adequacy or quality claim without bearer and exact governing pattern. | Recover bearer and exact governing pattern through `C.25`, `C.16`, C.16.Q, or an admitted characteristic/measurement receiving pattern. |
 | **Sterile carrier repair** | The wording is typed but no useful move remains. | Restore the carrier assignment, functional view, alignment note, or exact governing pattern application. |
 
 ### A.6.F:9 - Consequences
@@ -361,7 +361,7 @@ The pattern keeps ordinary language alive. A phrase can remain Plain when it car
 | ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adapt view/concern discipline to functional architecture as a structure-kind view over an architecture claim. | Functional architecture expands through C.30 and C.30.ASV rather than becoming a separate ontology. | ISO terminology does not mint `U.Function` or turn diagrams into architecture. |
 | OMG SysML v2 and KerML behavior/view practice | Adapt function/behavior/model-view separation as practice basis for functional-view recovery. | Functional views name selected functional structure and keep flow, module, and work relations separate. | SysML/KerML model elements do not override FPF carriers or import tool ontology. |
 | INCOSE systems-engineering and MBSE functional-analysis practice | Adopt the practical need to separate function, requirement, behavior, physical allocation, and verification claim kinds. | A function-like phrase can guide architecture work only after capability/effect, allocation, evidence, and verification claim kinds are separated. | Functional analysis practice is not evidence sufficiency, assurance, gate passage, or project decision by itself. |
-| ISO/IEC 25010 quality-model practice | Treat functionality/functional suitability as quality wording when it evaluates a product or service. | Assign quality-like uses to C.25/C.16/A.6.Q before they carry adequacy claims. | "Functionality" is not a free adequacy score and not a functional architecture record. |
+| ISO/IEC 25010 quality-model practice | Treat functionality/functional suitability as quality wording when it evaluates a product or service. | Assign quality-like uses to C.25/C.16/C.16.Q before they carry adequacy claims. | "Functionality" is not a free adequacy score and not a functional architecture record. |
 | C.29 mathematical-lens discipline | Adopt domain/codomain or relation-domain, preserved/lost structure, lens-use posture, and stop condition for mathematical function use. | Mathematical function wording becomes lens-governed only when C.29 fields are recoverable. | Mathematical functions, objectives, and value functionals do not become system purpose, evidence, causal proof, assurance, or decision claim by themselves. |
 | GonzoML neural-network architecture discussions | Adapt practitioner operation language involving blocks, activations, path-selection, memory/cache, loss functions, pruning, ablation, and architecture search as recognition material. | Function-like neural-network claims require carrier recovery: mathematical function, flow relation, module/interface claim kind, capability/effect, quality characteristic, or decision/evidence governing pattern. | Neural-network labels and benchmark results do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, or assurance by themselves. |
 
@@ -369,8 +369,9 @@ The pattern keeps ordinary language alive. A phrase can remain Plain when it car
 
 Builds on: `A.6.P`, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `A.6.9`, `A.7`, `E.10`, `C.2.P`, `F.18`, and `E.8`.
 
-Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `E.18`, `A.15`, `A.2`, `C.29`, `C.25`, `C.16`, `A.6.Q`, `A.17`, `A.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.11`, and the exact module/interface repair pattern when module or interface claim kind is live.
+Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `E.18`, `A.15`, `A.2`, `C.29`, `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.11`, and the exact module/interface repair pattern when module or interface claim kind is live.
 
 Does not replace: C.30 architecture-description adequacy, C.30.ASV architecture structural-view adequacy, E.TGA graph/path/crossing discipline, C.29 mathematical-lens adequacy, C.25 Q-Bundles, C.16 characterization, A.15 work/method discipline, A.10/G.6 evidence, B.3 assurance, A.20/A.21 gate/release records, or C.11 decisions.
 
 ### A.6.F:End
+

@@ -6,12 +6,12 @@ section_id: "F.15:14"
 section_title: "Anti‑patterns the harness catches (and the fix)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_anti-patterns-the-harness-catches-and-the-fix.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:14 — Anti‑patterns the harness catches (and the fix)"
-line_start: 72980
-line_end: 72993
+line_start: 73795
+line_end: 73808
 dependencies:
   - "B.3"
   - "D.CTX"

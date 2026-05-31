@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:5 — Archetypal Grounding"
-line_start: 48046
-line_end: 48358
+line_start: 48352
+line_end: 48664
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -79,7 +79,7 @@ only project-velocity prose.
 | Teaching case | Example | Expected classification |
 | --- | --- | --- |
 | Snapshot | "Backlog is 120 items today." | Dyn0; no C.27 record unless use changes. |
-| Trend | "Backlog fell by 20 items/week." | Dyn1 with C.16 measurement basis if load-bearing. |
+| Trend | "Backlog fell by 20 items/week." | Dyn1 with C.16 measurement basis if FPF-force-bearing. |
 | Intervention | "Adding review capacity for two sprints will double backlog reduction rate." | `Dyn2TemporalClaimAdequacyCard`; full `Dyn2TemporalClaimProfile` usually overkill unless the authored temporal claim is used beyond local pilot or plan use. |
 | Benchmark or publication | "Method A improves faster than Method B and should be published as superior." | `Dyn2TemporalClaimProfile` or pattern reference is justified: G.9 benchmark parity, C.16 measurement, possible `C.28` causal-use relation, and C.27 dynamic-claim relation declaration. |
 | Dynamic anti-leaderboard | "Both methods reached the same final score, so they are equivalent." | Not enough if adaptation window, effort parity, hidden rework, validity window, or recovery profile differs; G.9 carries parity and C.27 names the temporal parity question. |
@@ -339,7 +339,7 @@ real process change, and residual probe, frame, or export cue.
 
 Minimum useful note:
 - metric measure: the published velocity/throughput reading, with C.16 relation if
-  measurement legality or comparability is load-bearing;
+  measurement legality or comparability is FPF-force-bearing;
 - target or incentive use: quarterly target, gate, dashboard, budget signal, or
   public comparison;
 - possible behavior change: smaller tickets, hidden work, quality reduction,

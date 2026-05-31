@@ -6,21 +6,22 @@ section_id: "C.25:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:1 — Problem frame"
-line_start: 44859
-line_end: 44862
+line_start: 45161
+line_end: 45164
 dependencies:
   - "A.15"
   - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
-  - "A.6.Q"
   - "B.3"
   - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -43,5 +44,5 @@ keywords:
 
 ### C.25:1 - Problem frame
 
-Engineering quality language repeatedly drifts into one of two invalid simplifications: either every `-ility` is treated as one scalar characteristic, or every engineering-quality statement is left as loose evaluative prose. A conforming engineering corpus therefore needs a uniform discipline that keeps lawful measurements, scope declarations, mechanisms, statuses, and evidence visibly separated without inventing a new kernel ontology.
+Engineering quality language repeatedly drifts into one of two invalid simplifications: either every `-ility` is treated as one scalar characteristic, or every engineering-quality statement is left as loose evaluative prose. A conforming engineering corpus therefore needs a uniform discipline that keeps admissible measurements, scope declarations, mechanisms, statuses, and evidence visibly separated without inventing a new kernel ontology.
 

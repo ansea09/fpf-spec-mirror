@@ -6,12 +6,12 @@ section_id: "E.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:1 — Problem frame"
-line_start: 66961
-line_end: 66989
+line_start: 67776
+line_end: 67804
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -43,7 +43,7 @@ Use it especially when the work is more than a cheap admissibility read:
 - an agentic or tool-using loop is being considered and its cost, supervision, retry, memory, verification, or stop posture matters;
 - a specialized improvement cycle, such as throughput, variation, learning, stabilization, or orientation under uncertainty, is being selected for one declared characteristic space.
 
-**Not this pattern when.** Use `E.22` alone for one framed `floorRead` or other single quality review when no repeated improvement method is needed. Use the object-under-improvement evaluation itself when the question is already scoped and the work is a direct value read. Use `A.19.ECS` when the live problem is constructing or repairing the object-under-improvement evaluation `CharacteristicSpace` for the object under improvement. Use `A.6.Q` when the live problem is overloaded `quality` wording. Use `C.25` when the live problem is a composite engineering quality-family endpoint. Use project-side evidence, assurance, gate, work, release, safety, or compliance patterns when the result is being reused for those exact claims.
+**Not this pattern when.** Use `E.22` alone for one framed `floorRead` or other single quality review when no repeated improvement method is needed. Use the object-under-improvement evaluation itself when the question is already scoped and the work is a direct value read. Use `A.19.ECS` when the live problem is constructing or repairing the object-under-improvement evaluation `CharacteristicSpace` for the object under improvement. Use `C.16.Q` when the live problem is overloaded `quality` wording. Use `C.25` when the live problem is a composite engineering quality-family endpoint. Use project-side evidence, assurance, gate, work, release, safety, or compliance patterns when the result is being reused for those exact claims.
 
 **First useful move.** Name the exact object version under improvement and the object-under-improvement evaluation before changing anything. If the evaluation is missing or not adequate for the object kind and use, construct or repair it through `A.19.ECS` first. Then state the improvement aim, floor, protected trade-offs, selected quality-read purpose, and the condition under which the next pass would stop, narrow, continue, switch method, or hold.
 

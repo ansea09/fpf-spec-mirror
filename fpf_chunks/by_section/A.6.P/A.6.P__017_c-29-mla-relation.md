@@ -6,12 +6,12 @@ section_id: "A.6.P:12b"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__017_c-29-mla-relation.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12b — C.29 MLA relation"
-line_start: 12816
-line_end: 12819
+line_start: 12847
+line_end: 12850
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,9 +25,9 @@ dependencies:
   - "A.6.A"
   - "A.6.B"
   - "A.6.H"
-  - "A.6.Q"
   - "A.6.S"
   - "A.7"
+  - "C.16.Q"
   - "C.2.1"
   - "C.2.2a"
   - "C.26"
@@ -56,5 +56,5 @@ keywords:
 
 ### A.6.P:12b - C.29 MLA relation
 
-> **MLA relation.** `A.6.P` may select a stable mathematical substrate for relation precision restoration: arity, polarity, endpoint discipline, slot structure, and relation-kind repair. This does not by itself apply `C.29`. `C.29 Mathematical Lens Adequacy` applies only when that substrate is used as a load-bearing mathematical representation of a target phenomenon beyond relation repair. `A.6.P` does not by itself license source-domain ontology transfer.
+> **MLA relation.** `A.6.P` may select a stable mathematical substrate for relation precision restoration: arity, polarity, endpoint discipline, slot structure, and relation-kind repair. This does not by itself apply `C.29`. `C.29 Mathematical Lens Adequacy` applies only when that substrate is used as a FPF-force-bearing mathematical representation of a governed phenomenon beyond relation repair. `A.6.P` does not by itself license source-domain ontology transfer.
 

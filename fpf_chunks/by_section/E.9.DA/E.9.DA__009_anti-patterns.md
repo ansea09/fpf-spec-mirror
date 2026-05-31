@@ -6,12 +6,12 @@ section_id: "E.9.DA:8"
 section_title: "Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__009_anti-patterns.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:8 — Anti-Patterns"
-line_start: 55991
-line_end: 56009
+line_start: 56550
+line_end: 56568
 dependencies:
   - "A.19.ECS"
   - "E.10"

@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — same-described-entity textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-same-described-entity-textual-re-expression-under-a-6-3.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization — same-described-entity textual re-expression"
   - "A.6.3.CR:4 — Solution — same-described-entity textual re-expression under A.6.3"
-line_start: 10689
-line_end: 10835
+line_start: 10703
+line_end: 10849
 dependencies:
   - "A.15"
   - "A.6.2"

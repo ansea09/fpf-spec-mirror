@@ -6,12 +6,12 @@ section_id: "A.6.F:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__013_relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:12 — Relations"
-line_start: 14604
-line_end: 14611
+line_start: 13887
+line_end: 13894
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,11 +27,11 @@ dependencies:
   - "A.6.B"
   - "A.6.C"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.2.P"
   - "C.25"
   - "C.29"
@@ -59,7 +59,7 @@ keywords:
 
 Builds on: `A.6.P`, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `A.6.9`, `A.7`, `E.10`, `C.2.P`, `F.18`, and `E.8`.
 
-Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `E.18`, `A.15`, `A.2`, `C.29`, `C.25`, `C.16`, `A.6.Q`, `A.17`, `A.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.11`, and the exact module/interface repair pattern when module or interface claim kind is live.
+Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `E.18`, `A.15`, `A.2`, `C.29`, `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.11`, and the exact module/interface repair pattern when module or interface claim kind is live.
 
 Does not replace: C.30 architecture-description adequacy, C.30.ASV architecture structural-view adequacy, E.TGA graph/path/crossing discipline, C.29 mathematical-lens adequacy, C.25 Q-Bundles, C.16 characterization, A.15 work/method discipline, A.10/G.6 evidence, B.3 assurance, A.20/A.21 gate/release records, or C.11 decisions.
 

@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__012_sota-echoing.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:11 — SoTA-Echoing"
-line_start: 55215
-line_end: 55221
+line_start: 55771
+line_end: 55780
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -27,8 +27,11 @@ keywords:
 
 ### E.8.ECSPF:11 - SoTA-Echoing
 
-| Claim | Current practice line | Adoption in E.8.ECSPF | Boundary |
-|---|---|---|---|
-| Evaluation rubrics are useful only when criteria, value meanings, and use context are explicit. | Current reporting anchors: BenchmarkCards/EvalCards practice for evaluation-card structure, HELM/VHELM/AHELM-style suite reporting for scenario, metric, and raw-result transparency, and model-card lineage for intended-use and performance-characteristic reporting. | The publication form must publish evaluated object kind, use, coordinate meanings, missingness, and worked cases before checklist closure. | `E.8.ECSPF` is not a benchmark harness or automated evaluator. |
-| Multicriteria evaluation needs non-scalar comparison and trade-off visibility. | Current QD overview: `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, Swarm and Evolutionary Computation 100:102240 (2026); retained design lineage: MCDA and quality-diversity practice for dimensions, dominance, and trade-offs when one total score would hide important loss. | The publication form keeps coordinate values, protected trade-offs, and status meanings distinct. | Scalarization belongs only to an exact neighbouring pattern or explicitly declared local method. |
-| Pattern publication must remain action-guiding. | Pattern-language practice is retained as lineage/problem pressure for practical guidance in recurring situations; current FPF `E.8` supplies the governing publication-form rules. | The publication form keeps recognition text and first read before coordinate tables. | `E.8.ECSPF` does not replace `E.8`; it specializes it for evaluation-characteristic-space patterns. |
+**Source posture convention.** This section uses source rows only where they change the publication form: evaluated object and use before checklist, coordinate meanings and missingness, worked cases, non-scalar comparison, protected trade-offs, or action-guiding recognition text. Reporting frameworks and standards are reference support unless they solve the exact publication-form problem.
+
+| Claim | Current practice line | Source posture and representative anchors | Adoption in E.8.ECSPF | Boundary |
+|---|---|---|---|---|
+| Evaluation rubrics are useful only when criteria, value meanings, and use context are explicit. | Current reporting practice makes evaluation cards, scenario descriptions, metric meanings, raw-result visibility, intended use, and performance-characteristic reporting explicit. | **Current practice and reference support.** BenchmarkCards and EvalCards are current evaluation-card reporting anchors; HELM, VHELM, and AHELM are current suite-reporting anchors for scenarios, metrics, inference settings, prompts, raw outputs, and comparable reporting; model cards are retained lineage for intended-use and performance-characteristic reporting. | The publication form must publish evaluated object kind, use, coordinate meanings, missingness, and worked cases before checklist closure. | `E.8.ECSPF` is not a benchmark harness, model-card schema, automated evaluator, or reporting standard. |
+| Multicriteria evaluation needs non-scalar comparison and trade-off visibility. | Current QD and multicriteria practice keeps dimensions, dominance, trade-offs, objective heads, and diversity or descriptor choices visible when one total score would hide important loss. | **Current-best support for QD overview in this narrow use, plus retained lineage.** `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), supplies the current QD overview used here. MCDA and older QD practice are retained lineage for dimensions, dominance, and trade-offs. | The publication form keeps coordinate values, protected trade-offs, and status meanings distinct. | Scalarization belongs only to an exact neighbouring pattern or explicitly declared local method. |
+| Pattern publication must remain action-guiding. | Pattern-language practice treats a pattern as reusable action guidance for recurring situations, not as a static rubric table. | **Lineage and current FPF reference support.** Pattern-language practice is retained as lineage and problem pressure; current FPF `E.8` supplies the governing publication-form rules for recognition text, first useful move, worked cases, and relations. | The publication form keeps recognition text and first evaluation use before coordinate tables. | `E.8.ECSPF` does not replace `E.8`; it specializes it for evaluation-characteristic-space patterns. |
+

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.1.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
-line_start: 32751
-line_end: 32980
+line_start: 32047
+line_end: 32275
 dependencies:
   - "A.15"
   - "A.16"
@@ -18,10 +18,10 @@ dependencies:
   - "A.16.1"
   - "A.6.A"
   - "A.6.P"
-  - "A.6.Q"
   - "B.4"
   - "B.5.2"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
@@ -121,7 +121,7 @@ Here `projection` names route-bounded partialization, not a rival governing patt
 A routed cue set may therefore lead to:
 
 - `U.AbductivePrompt` under `B.5.2.0`,
-- a later typed endpoint-entry publication under `A.6.P`, `A.6.A`, or `A.6.Q`,
+- a later typed endpoint-entry publication under `A.6.P`, `A.6.A`, or `C.16.Q`,
 - or another explicitly typed upstream projection publication.
 
 If no typed downstream publication form can yet be named honestly, stay in `RoutedCueSet` rather than hiding a pseudo-form behind face language.
@@ -161,7 +161,7 @@ This matches practice in incident triage, exploratory design, model probing, and
 
 ### B.4.1:12 - Relations
 - Builds on: `B.4`, `C.2.2a`, `A.16`, `A.16.1`, `C.2.LS`.
-- Coordinates with: `A.16.0`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `B.5.2.0`, `B.5.2`, `A.6.P`, `A.6.A`, `A.6.Q`, `A.15`, `F.9.1`.
+- Coordinates with: `A.16.0`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `B.5.2.0`, `B.5.2`, `A.6.P`, `A.6.A`, `C.16.Q`, `A.15`, `F.9.1`.
 - Constrains: pre-abductive route publication.
 
 ### B.4.1:13 - Worked Route Sets
@@ -241,7 +241,7 @@ A route set that includes `RequirementCommitmentRoute` should not be read as if 
 #### B.4.1:15.4 - Leaving the seam
 The routed cue set should leave this pattern only when one later publication is already explicit enough to own the next move, for example:
 
-- explicit evaluative family selection for `A.6.Q`,
+- explicit evaluative family selection for `C.16.Q`,
 - explicit `A.6.A` family selection,
 - explicit prompt question for `B.5.2.0`,
 - explicit requirement or commitment head for requirement-facing governing patterns,
@@ -266,5 +266,4 @@ A typed downstream projection publication or prompt may be shown as one admissib
 #### B.4.1:20.5 - Review test for false single-route certainty
 Ask: if the selected route were denied, would the publication still contain enough information to explain the other live routes and the discriminator that would separate them? If not, the route set is under-published and has collapsed too early into one favored continuation.
 ### B.4.1:End
-
 

@@ -6,12 +6,12 @@ section_id: "E.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__010_bias-annotation.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:6 — Bias-Annotation"
-line_start: 64969
-line_end: 64983
+line_start: 65782
+line_end: 65796
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -47,5 +47,5 @@ Bias risks and mitigations:
 * **Pragmatic bias (Prag):** a pattern can be “correct” yet unusable.
   *Mitigation:* consequences and anti-patterns remain mandatory sections, surfacing trade-offs and misuse paths.
 * **Didactic bias (Did):** narrative quality can be mistaken for truth.
-  *Mitigation:* conformance and SoTA‑Echoing sections bind claims to explicit obligations and lineage.
+  *Mitigation:* conformance and SoTA‑Echoing sections bind claims to explicit requirements and lineage.
 

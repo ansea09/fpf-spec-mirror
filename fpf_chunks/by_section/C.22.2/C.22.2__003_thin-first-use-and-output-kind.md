@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 43500
-line_end: 43714
+line_start: 43801
+line_end: 44015
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,10 +21,10 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
-  - "A.6.Q"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.18"
   - "C.19"
   - "C.2.P"
@@ -141,7 +141,7 @@ Repair: return to the Thin problem-side action. State the signal, context and sc
 | Characteristics, indicators, scale, unit, or polarity | `A.19` | Characteristic or indicator cue, indicator role, and needed scale or polarity reference. | Indicator admission, scale repair, unit discipline, or characteristic ontology. |
 | Q-bundle or multi-characteristic acceptance basis | `C.25` | Q-bundle cue, acceptance-basis cue, or need for multi-characteristic treatment. | Local Q-bundle definition, acceptance settlement, or quality scalarization. |
 | Parity, comparability, comparator, budget, or window | `G.9` | Parity basis reference, comparator or window cue, or explicit reason parity is not live. | Fair-comparison claim or parity result. |
-| Selected set, shortlist, archive, pool, front, or set-return | `G.5`, `C.18`, `C.19`, `G.11`, `A.6.P:7a`, `A.6.Q` | `setContextRef`, source set kind, selection or retention basis, and non-scalar next move. | Portfolio or archive governance, selected-set authority, single winner, or one readiness score. |
+| Selected set, shortlist, archive, pool, front, or set-return | `G.5`, `C.18`, `C.19`, `G.11`, `A.6.P:7a`, `C.16.Q` | `setContextRef`, source set kind, selection or retention basis, and non-scalar next move. | Portfolio or archive governance, selected-set authority, single winner, or one readiness score. |
 | Local choice among explicit options | `C.11` | Local choice cue and option-set reference when the live issue is choice rather than problem-card completion. | Choice record, chooser authority, or option evaluation. |
 | Method-family selection or method cue | `G.5`, `E.18`, `A.15` | Method-family cue and reason method selection is not yet local work. | Method selection, method description, or selected method authority. |
 | Work planning, performed work, or result record | `A.15`, `A.10`, `G.6`, `B.3` | Work need, performed-work cue, result-record cue, or work-authority exit. | Work plan, work authorization, performed-work record, or result certification. |

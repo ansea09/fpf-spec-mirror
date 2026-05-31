@@ -6,12 +6,12 @@ section_id: "C.2.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:1 — Problem frame"
-line_start: 36699
-line_end: 36701
+line_start: 35998
+line_end: 36000
 dependencies:
   - "A.16"
   - "A.16.0"

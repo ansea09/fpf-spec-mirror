@@ -6,12 +6,12 @@ section_id: "B.2.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_archetypal-grounding.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:5 — Archetypal Grounding"
-line_start: 31466
-line_end: 31472
+line_start: 30762
+line_end: 30768
 dependencies:
   - "A.1"
   - "A.12"

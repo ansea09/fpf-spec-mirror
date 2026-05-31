@@ -6,12 +6,12 @@ section_id: "E.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:intro — Intro"
-line_start: 58359
-line_end: 58364
+line_start: 59171
+line_end: 59176
 dependencies:
   - "A.6.RSIG"
   - "E.19"

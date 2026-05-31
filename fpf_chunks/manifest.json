@@ -1,14 +1,14 @@
 {
   "source_path": "FPF-Spec.md",
-  "commit_sha": "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe",
+  "commit_sha": "16cd31387cff04ab6b0feef22717f82ac54efa8f",
   "chunking_method": "pattern-aware",
-  "pattern_count": 225,
+  "pattern_count": 228,
   "patterns": [
     {
       "pattern_id": "A.0",
       "pattern_title": "Onboarding Glossary (NQD & E/E‑LOG)",
-      "line_start": 878,
-      "line_end": 1125,
+      "line_start": 881,
+      "line_end": 1128,
       "parent_chunk": "by_pattern/A.0.md",
       "child_chunks": [
         "by_section/A.0/A.0__001_intro.md",
@@ -76,8 +76,8 @@
     {
       "pattern_id": "A.1",
       "pattern_title": "Holonic Foundation: Entity → Holon",
-      "line_start": 1126,
-      "line_end": 1310,
+      "line_start": 1129,
+      "line_end": 1313,
       "parent_chunk": "by_pattern/A.1.md",
       "child_chunks": [
         "by_section/A.1/A.1__001_intro.md",
@@ -118,8 +118,8 @@
     {
       "pattern_id": "A.1.1",
       "pattern_title": "U.BoundedContext: The Semantic Frame",
-      "line_start": 1311,
-      "line_end": 1511,
+      "line_start": 1314,
+      "line_end": 1514,
       "parent_chunk": "by_pattern/A.1.1.md",
       "child_chunks": [
         "by_section/A.1.1/A.1.1__001_intro.md",
@@ -161,8 +161,8 @@
     {
       "pattern_id": "A.2",
       "pattern_title": "Role Taxonomy",
-      "line_start": 1512,
-      "line_end": 1721,
+      "line_start": 1515,
+      "line_end": 1724,
       "parent_chunk": "by_pattern/A.2.md",
       "child_chunks": [
         "by_section/A.2/A.2__001_intro.md",
@@ -201,8 +201,8 @@
     {
       "pattern_id": "A.2.1",
       "pattern_title": "U.RoleAssignment: Contextual Role Assignment",
-      "line_start": 1722,
-      "line_end": 2292,
+      "line_start": 1725,
+      "line_end": 2295,
       "parent_chunk": "by_pattern/A.2.1.md",
       "child_chunks": [
         "by_section/A.2.1/A.2.1__001_intro.md",
@@ -243,8 +243,8 @@
     {
       "pattern_id": "A.2.2",
       "pattern_title": "U.Capability",
-      "line_start": 2293,
-      "line_end": 2553,
+      "line_start": 2296,
+      "line_end": 2556,
       "parent_chunk": "by_pattern/A.2.2.md",
       "child_chunks": [
         "by_section/A.2.2/A.2.2__001_intro.md",
@@ -293,8 +293,8 @@
     {
       "pattern_id": "A.2.3",
       "pattern_title": "U.PromiseContent (Promise Content)",
-      "line_start": 2554,
-      "line_end": 2983,
+      "line_start": 2557,
+      "line_end": 2986,
       "parent_chunk": "by_pattern/A.2.3.md",
       "child_chunks": [
         "by_section/A.2.3/A.2.3__001_intro.md",
@@ -353,8 +353,8 @@
     {
       "pattern_id": "A.2.4",
       "pattern_title": "U.EvidenceRole",
-      "line_start": 2984,
-      "line_end": 3409,
+      "line_start": 2987,
+      "line_end": 3412,
       "parent_chunk": "by_pattern/A.2.4.md",
       "child_chunks": [
         "by_section/A.2.4/A.2.4__001_intro.md",
@@ -394,8 +394,8 @@
     {
       "pattern_id": "A.2.5",
       "pattern_title": "U.RoleStateGraph: The Named State Space of a Role",
-      "line_start": 3410,
-      "line_end": 4021,
+      "line_start": 3413,
+      "line_end": 4024,
       "parent_chunk": "by_pattern/A.2.5.md",
       "child_chunks": [
         "by_section/A.2.5/A.2.5__001_intro.md",
@@ -443,8 +443,8 @@
     {
       "pattern_id": "A.2.6",
       "pattern_title": "Unified Scope Mechanism (USM): Context Slices & Scopes",
-      "line_start": 4022,
-      "line_end": 4906,
+      "line_start": 4025,
+      "line_end": 4909,
       "parent_chunk": "by_pattern/A.2.6.md",
       "child_chunks": [
         "by_section/A.2.6/A.2.6__001_intro.md",
@@ -486,8 +486,8 @@
     {
       "pattern_id": "A.2.7",
       "pattern_title": "U.RoleAlgebra: In‑Context Role Relations",
-      "line_start": 4907,
-      "line_end": 4979,
+      "line_start": 4910,
+      "line_end": 4982,
       "parent_chunk": "by_pattern/A.2.7.md",
       "child_chunks": [
         "by_section/A.2.7/A.2.7__001_intro.md",
@@ -517,8 +517,8 @@
     {
       "pattern_id": "A.2.8",
       "pattern_title": "U.Commitment (Deontic Commitment Object)",
-      "line_start": 4980,
-      "line_end": 5300,
+      "line_start": 4983,
+      "line_end": 5303,
       "parent_chunk": "by_pattern/A.2.8.md",
       "child_chunks": [
         "by_section/A.2.8/A.2.8__001_intro.md",
@@ -567,8 +567,8 @@
     {
       "pattern_id": "A.2.9",
       "pattern_title": "U.SpeechAct (Communicative Work Object)",
-      "line_start": 5301,
-      "line_end": 5593,
+      "line_start": 5304,
+      "line_end": 5596,
       "parent_chunk": "by_pattern/A.2.9.md",
       "child_chunks": [
         "by_section/A.2.9/A.2.9__001_intro.md",
@@ -611,8 +611,8 @@
     {
       "pattern_id": "A.3",
       "pattern_title": "Transformer Constitution (Quartet)",
-      "line_start": 5594,
-      "line_end": 5806,
+      "line_start": 5597,
+      "line_end": 5809,
       "parent_chunk": "by_pattern/A.3.md",
       "child_chunks": [
         "by_section/A.3/A.3__001_intro.md",
@@ -647,8 +647,8 @@
     {
       "pattern_id": "A.3.1",
       "pattern_title": "U.Method",
-      "line_start": 5807,
-      "line_end": 6071,
+      "line_start": 5810,
+      "line_end": 6074,
       "parent_chunk": "by_pattern/A.3.1.md",
       "child_chunks": [
         "by_section/A.3.1/A.3.1__001_intro.md",
@@ -696,8 +696,8 @@
     {
       "pattern_id": "A.3.2",
       "pattern_title": "U.MethodDescription",
-      "line_start": 6072,
-      "line_end": 6367,
+      "line_start": 6075,
+      "line_end": 6370,
       "parent_chunk": "by_pattern/A.3.2.md",
       "child_chunks": [
         "by_section/A.3.2/A.3.2__001_intro.md",
@@ -748,8 +748,8 @@
     {
       "pattern_id": "A.3.3",
       "pattern_title": "U.Dynamics",
-      "line_start": 6368,
-      "line_end": 6638,
+      "line_start": 6371,
+      "line_end": 6641,
       "parent_chunk": "by_pattern/A.3.3.md",
       "child_chunks": [
         "by_section/A.3.3/A.3.3__001_intro.md",
@@ -783,8 +783,8 @@
     {
       "pattern_id": "A.4",
       "pattern_title": "Temporal Duality & Open‑Ended Evolution Principle",
-      "line_start": 6639,
-      "line_end": 6769,
+      "line_start": 6642,
+      "line_end": 6772,
       "parent_chunk": "by_pattern/A.4.md",
       "child_chunks": [
         "by_section/A.4/A.4__001_intro.md",
@@ -813,8 +813,8 @@
     {
       "pattern_id": "A.5",
       "pattern_title": "Open‑Ended Kernel & Extension Layering",
-      "line_start": 6770,
-      "line_end": 6820,
+      "line_start": 6773,
+      "line_end": 6823,
       "parent_chunk": "by_pattern/A.5.md",
       "child_chunks": [
         "by_section/A.5/A.5__001_intro.md",
@@ -835,8 +835,8 @@
     {
       "pattern_id": "A.6",
       "pattern_title": "Signature Stack & Boundary Discipline",
-      "line_start": 6821,
-      "line_end": 7362,
+      "line_start": 6824,
+      "line_end": 7376,
       "parent_chunk": "by_pattern/A.6.md",
       "child_chunks": [
         "by_section/A.6/A.6__001_intro.md",
@@ -909,8 +909,8 @@
     {
       "pattern_id": "A.6.RSIG",
       "pattern_title": "Recognition Signatures for Descriptions",
-      "line_start": 7363,
-      "line_end": 7786,
+      "line_start": 7377,
+      "line_end": 7800,
       "parent_chunk": "by_pattern/A.6.RSIG.md",
       "child_chunks": [
         "by_section/A.6.RSIG/A.6.RSIG__001_intro.md",
@@ -939,8 +939,8 @@
     {
       "pattern_id": "A.6.B",
       "pattern_title": "Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)",
-      "line_start": 7787,
-      "line_end": 8461,
+      "line_start": 7801,
+      "line_end": 8475,
       "parent_chunk": "by_pattern/A.6.B.md",
       "child_chunks": [
         "by_section/A.6.B/A.6.B__001_intro.md",
@@ -1020,8 +1020,8 @@
     {
       "pattern_id": "A.6.C",
       "pattern_title": "Contract Unpacking for Boundaries",
-      "line_start": 8462,
-      "line_end": 8782,
+      "line_start": 8476,
+      "line_end": 8796,
       "parent_chunk": "by_pattern/A.6.C.md",
       "child_chunks": [
         "by_section/A.6.C/A.6.C__001_intro.md",
@@ -1087,8 +1087,8 @@
     {
       "pattern_id": "A.6.0",
       "pattern_title": "U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType",
-      "line_start": 8783,
-      "line_end": 9061,
+      "line_start": 8797,
+      "line_end": 9075,
       "parent_chunk": "by_pattern/A.6.0.md",
       "child_chunks": [
         "by_section/A.6.0/A.6.0__001_intro.md",
@@ -1128,8 +1128,8 @@
     {
       "pattern_id": "A.6.1",
       "pattern_title": "U.Mechanism - Law‑governed application to a SubjectKind over a BaseType",
-      "line_start": 9062,
-      "line_end": 9354,
+      "line_start": 9076,
+      "line_end": 9368,
       "parent_chunk": "by_pattern/A.6.1.md",
       "child_chunks": [
         "by_section/A.6.1/A.6.1__001_intro.md",
@@ -1168,8 +1168,8 @@
     {
       "pattern_id": "A.6.2",
       "pattern_title": "U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes",
-      "line_start": 9355,
-      "line_end": 9780,
+      "line_start": 9369,
+      "line_end": 9794,
       "parent_chunk": "by_pattern/A.6.2.md",
       "child_chunks": [
         "by_section/A.6.2/A.6.2__001_intro.md",
@@ -1221,8 +1221,8 @@
     {
       "pattern_id": "A.6.3",
       "pattern_title": "U.EpistemicViewing — describedEntity‑preserving morphism",
-      "line_start": 9781,
-      "line_end": 10254,
+      "line_start": 9795,
+      "line_end": 10268,
       "parent_chunk": "by_pattern/A.6.3.md",
       "child_chunks": [
         "by_section/A.6.3/A.6.3__001_intro.md",
@@ -1275,8 +1275,8 @@
     {
       "pattern_id": "A.6.3.CSC",
       "pattern_title": "Controlled Semantic Coarsening",
-      "line_start": 10255,
-      "line_end": 10619,
+      "line_start": 10269,
+      "line_end": 10633,
       "parent_chunk": "by_pattern/A.6.3.CSC.md",
       "child_chunks": [
         "by_section/A.6.3.CSC/A.6.3.CSC__001_intro.md",
@@ -1332,8 +1332,8 @@
     {
       "pattern_id": "A.6.3.CR",
       "pattern_title": "ConservativeRetextualization — same-described-entity textual re-expression",
-      "line_start": 10620,
-      "line_end": 10992,
+      "line_start": 10634,
+      "line_end": 11006,
       "parent_chunk": "by_pattern/A.6.3.CR.md",
       "child_chunks": [
         "by_section/A.6.3.CR/A.6.3.CR__001_intro.md",
@@ -1384,8 +1384,8 @@
     {
       "pattern_id": "A.6.3.RT",
       "pattern_title": "RepresentationTransduction — same-described-entity representation-scheme transition",
-      "line_start": 10993,
-      "line_end": 11501,
+      "line_start": 11007,
+      "line_end": 11515,
       "parent_chunk": "by_pattern/A.6.3.RT.md",
       "child_chunks": [
         "by_section/A.6.3.RT/A.6.3.RT__001_intro.md",
@@ -1448,8 +1448,8 @@
     {
       "pattern_id": "A.6.4",
       "pattern_title": "U.EpistemicRetargeting — describedEntity‑retargeting morphism",
-      "line_start": 11502,
-      "line_end": 12014,
+      "line_start": 11516,
+      "line_end": 12028,
       "parent_chunk": "by_pattern/A.6.4.md",
       "child_chunks": [
         "by_section/A.6.4/A.6.4__001_intro.md",
@@ -1488,8 +1488,8 @@
     {
       "pattern_id": "A.6.P",
       "pattern_title": "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline",
-      "line_start": 12015,
-      "line_end": 12820,
+      "line_start": 12029,
+      "line_end": 12852,
       "parent_chunk": "by_pattern/A.6.P.md",
       "child_chunks": [
         "by_section/A.6.P/A.6.P__001_intro.md",
@@ -1524,9 +1524,9 @@
         "A.6.A",
         "A.6.B",
         "A.6.H",
-        "A.6.Q",
         "A.6.S",
         "A.7",
+        "C.16.Q",
         "C.2.1",
         "C.2.2a",
         "C.26",
@@ -1555,70 +1555,10 @@
       ]
     },
     {
-      "pattern_id": "A.6.Q",
-      "pattern_title": "U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)",
-      "line_start": 12821,
-      "line_end": 13570,
-      "parent_chunk": "by_pattern/A.6.Q.md",
-      "child_chunks": [
-        "by_section/A.6.Q/A.6.Q__001_intro.md",
-        "by_section/A.6.Q/A.6.Q__002_problem-frame.md",
-        "by_section/A.6.Q/A.6.Q__003_problem.md",
-        "by_section/A.6.Q/A.6.Q__004_forces.md",
-        "by_section/A.6.Q/A.6.Q__005_solution.md",
-        "by_section/A.6.Q/A.6.Q__006_archetypal-grounding.md",
-        "by_section/A.6.Q/A.6.Q__007_bias-annotation.md",
-        "by_section/A.6.Q/A.6.Q__008_conformance-checklist-cc-a-6-q.md",
-        "by_section/A.6.Q/A.6.Q__009_common-anti-patterns-and-how-to-avoid-them.md",
-        "by_section/A.6.Q/A.6.Q__010_consequences.md",
-        "by_section/A.6.Q/A.6.Q__011_rationale.md",
-        "by_section/A.6.Q/A.6.Q__012_sota-echoing.md",
-        "by_section/A.6.Q/A.6.Q__013_relations.md",
-        "by_section/A.6.Q/A.6.Q__014_a-6-q-end.md"
-      ],
-      "dependencies": [
-        "A.16",
-        "A.16.0",
-        "A.16.1",
-        "A.16.2",
-        "A.17",
-        "A.18",
-        "A.2.6",
-        "A.6.A",
-        "A.6.B",
-        "A.6.P",
-        "B.4.1",
-        "B.5.2.0",
-        "C.16",
-        "C.17",
-        "C.18",
-        "C.19",
-        "C.2.2a",
-        "C.2.4",
-        "C.2.5",
-        "C.2.6",
-        "C.2.7",
-        "C.2.LS",
-        "C.25",
-        "E.17.0",
-        "E.17.2",
-        "F.9",
-        "F.9.1"
-      ],
-      "keywords": [
-        "bridge reading",
-        "endpoint classification",
-        "evaluative ascription",
-        "language-state seam",
-        "quality senses",
-        "quality-term precision restoration"
-      ]
-    },
-    {
       "pattern_id": "A.6.A",
       "pattern_title": "U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)",
-      "line_start": 13571,
-      "line_end": 14292,
+      "line_start": 12853,
+      "line_end": 13575,
       "parent_chunk": "by_pattern/A.6.A.md",
       "child_chunks": [
         "by_section/A.6.A/A.6.A__001_intro.md",
@@ -1645,10 +1585,10 @@
         "A.3",
         "A.6.B",
         "A.6.P",
-        "A.6.Q",
         "A.7",
         "B.4.1",
         "B.5.2.0",
+        "C.16.Q",
         "C.2.2a",
         "C.2.4",
         "C.2.5",
@@ -1671,8 +1611,8 @@
     {
       "pattern_id": "A.6.F",
       "pattern_title": "Function and Functional Precision Restoration (RPR-FUNCTION)",
-      "line_start": 14293,
-      "line_end": 14612,
+      "line_start": 13576,
+      "line_end": 13896,
       "parent_chunk": "by_pattern/A.6.F.md",
       "child_chunks": [
         "by_section/A.6.F/A.6.F__001_intro.md",
@@ -1705,11 +1645,11 @@
         "A.6.B",
         "A.6.C",
         "A.6.P",
-        "A.6.Q",
         "A.7",
         "B.3",
         "C.11",
         "C.16",
+        "C.16.Q",
         "C.2.P",
         "C.25",
         "C.29",
@@ -1737,8 +1677,8 @@
     {
       "pattern_id": "A.6.5",
       "pattern_title": "U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)",
-      "line_start": 14613,
-      "line_end": 15375,
+      "line_start": 13897,
+      "line_end": 14659,
       "parent_chunk": "by_pattern/A.6.5.md",
       "child_chunks": [
         "by_section/A.6.5/A.6.5__001_intro.md",
@@ -1787,8 +1727,8 @@
     {
       "pattern_id": "A.6.6",
       "pattern_title": "U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)",
-      "line_start": 15376,
-      "line_end": 15938,
+      "line_start": 14660,
+      "line_end": 15222,
       "parent_chunk": "by_pattern/A.6.6.md",
       "child_chunks": [
         "by_section/A.6.6/A.6.6__001_intro.md",
@@ -1846,8 +1786,8 @@
     {
       "pattern_id": "A.6.7",
       "pattern_title": "MechSuiteDescription — Description of a set of distinct mechanisms",
-      "line_start": 15939,
-      "line_end": 16379,
+      "line_start": 15223,
+      "line_end": 15663,
       "parent_chunk": "by_pattern/A.6.7.md",
       "child_chunks": [
         "by_section/A.6.7/A.6.7__001_intro.md",
@@ -1893,8 +1833,8 @@
     {
       "pattern_id": "A.6.8",
       "pattern_title": "Service Polysemy Unpacking (RPR‑SERV)",
-      "line_start": 16380,
-      "line_end": 16902,
+      "line_start": 15664,
+      "line_end": 16186,
       "parent_chunk": "by_pattern/A.6.8.md",
       "child_chunks": [
         "by_section/A.6.8/A.6.8__001_intro.md",
@@ -1950,8 +1890,8 @@
     {
       "pattern_id": "A.6.9",
       "pattern_title": "U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align” via explicit Bridges (RPR‑XCTX)",
-      "line_start": 16903,
-      "line_end": 17324,
+      "line_start": 16187,
+      "line_end": 16608,
       "parent_chunk": "by_pattern/A.6.9.md",
       "child_chunks": [
         "by_section/A.6.9/A.6.9__001_intro.md",
@@ -2002,8 +1942,8 @@
     {
       "pattern_id": "A.6.S",
       "pattern_title": "U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature",
-      "line_start": 17325,
-      "line_end": 17756,
+      "line_start": 16609,
+      "line_end": 17040,
       "parent_chunk": "by_pattern/A.6.S.md",
       "child_chunks": [
         "by_section/A.6.S/A.6.S__001_intro.md",
@@ -2058,8 +1998,8 @@
     {
       "pattern_id": "A.6.H",
       "pattern_title": "Wholeness Language Unpacking — RPR-WHOLE",
-      "line_start": 17757,
-      "line_end": 18122,
+      "line_start": 17041,
+      "line_end": 17406,
       "parent_chunk": "by_pattern/A.6.H.md",
       "child_chunks": [
         "by_section/A.6.H/A.6.H__001_intro.md",
@@ -2103,8 +2043,8 @@
     {
       "pattern_id": "A.7",
       "pattern_title": "Strict Distinction (Clarity Lattice)",
-      "line_start": 18123,
-      "line_end": 18585,
+      "line_start": 17407,
+      "line_end": 17869,
       "parent_chunk": "by_pattern/A.7.md",
       "child_chunks": [
         "by_section/A.7/A.7__001_intro.md",
@@ -2151,8 +2091,8 @@
     {
       "pattern_id": "A.8",
       "pattern_title": "Universal Core Principle (C‑1)",
-      "line_start": 18586,
-      "line_end": 18710,
+      "line_start": 17870,
+      "line_end": 17994,
       "parent_chunk": "by_pattern/A.8.md",
       "child_chunks": [
         "by_section/A.8/A.8__001_intro.md",
@@ -2183,8 +2123,8 @@
     {
       "pattern_id": "A.9",
       "pattern_title": "Cross‑Scale Consistency (C‑3)",
-      "line_start": 18711,
-      "line_end": 18834,
+      "line_start": 17995,
+      "line_end": 18118,
       "parent_chunk": "by_pattern/A.9.md",
       "child_chunks": [
         "by_section/A.9/A.9__001_intro.md",
@@ -2218,8 +2158,8 @@
     {
       "pattern_id": "A.10",
       "pattern_title": "Evidence Graph Referring (C‑4)",
-      "line_start": 18835,
-      "line_end": 19228,
+      "line_start": 18119,
+      "line_end": 18512,
       "parent_chunk": "by_pattern/A.10.md",
       "child_chunks": [
         "by_section/A.10/A.10__001_intro.md",
@@ -2280,8 +2220,8 @@
     {
       "pattern_id": "A.11",
       "pattern_title": "Ontological Parsimony (C‑5)",
-      "line_start": 19229,
-      "line_end": 19335,
+      "line_start": 18513,
+      "line_end": 18619,
       "parent_chunk": "by_pattern/A.11.md",
       "child_chunks": [
         "by_section/A.11/A.11__001_intro.md",
@@ -2312,8 +2252,8 @@
     {
       "pattern_id": "A.12",
       "pattern_title": "External Transformer & Reflexive Split",
-      "line_start": 19336,
-      "line_end": 19469,
+      "line_start": 18620,
+      "line_end": 18753,
       "parent_chunk": "by_pattern/A.12.md",
       "child_chunks": [
         "by_section/A.12/A.12__001_intro.md",
@@ -2346,8 +2286,8 @@
     {
       "pattern_id": "A.13",
       "pattern_title": "The Agential Role & Agency Spectrum",
-      "line_start": 19470,
-      "line_end": 19619,
+      "line_start": 18754,
+      "line_end": 18903,
       "parent_chunk": "by_pattern/A.13.md",
       "child_chunks": [
         "by_section/A.13/A.13__001_intro.md",
@@ -2380,8 +2320,8 @@
     {
       "pattern_id": "A.14",
       "pattern_title": "Advanced Mereology: Components, Portions, Aspects & Phases",
-      "line_start": 19620,
-      "line_end": 19895,
+      "line_start": 18904,
+      "line_end": 19179,
       "parent_chunk": "by_pattern/A.14.md",
       "child_chunks": [
         "by_section/A.14/A.14__001_intro.md",
@@ -2417,8 +2357,8 @@
     {
       "pattern_id": "A.15",
       "pattern_title": "Role–Method–Work Alignment (Contextual Enactment)",
-      "line_start": 19896,
-      "line_end": 20300,
+      "line_start": 19180,
+      "line_end": 19584,
       "parent_chunk": "by_pattern/A.15.md",
       "child_chunks": [
         "by_section/A.15/A.15__001_intro.md",
@@ -2474,8 +2414,8 @@
     {
       "pattern_id": "A.15.1",
       "pattern_title": "U.Work",
-      "line_start": 20301,
-      "line_end": 20669,
+      "line_start": 19585,
+      "line_end": 19953,
       "parent_chunk": "by_pattern/A.15.1.md",
       "child_chunks": [
         "by_section/A.15.1/A.15.1__001_intro.md",
@@ -2529,8 +2469,8 @@
     {
       "pattern_id": "A.15.2",
       "pattern_title": "U.WorkPlan",
-      "line_start": 20670,
-      "line_end": 20828,
+      "line_start": 19954,
+      "line_end": 20112,
       "parent_chunk": "by_pattern/A.15.2.md",
       "child_chunks": [
         "by_section/A.15.2/A.15.2__001_intro.md",
@@ -2557,8 +2497,8 @@
     {
       "pattern_id": "A.15.3",
       "pattern_title": "SlotFillingsPlanItem",
-      "line_start": 20829,
-      "line_end": 21234,
+      "line_start": 20113,
+      "line_end": 20518,
       "parent_chunk": "by_pattern/A.15.3.md",
       "child_chunks": [
         "by_section/A.15.3/A.15.3__001_intro.md",
@@ -2603,8 +2543,8 @@
     {
       "pattern_id": "A.15.4",
       "pattern_title": "Work-Relevant Source Restoration",
-      "line_start": 21235,
-      "line_end": 21533,
+      "line_start": 20519,
+      "line_end": 20817,
       "parent_chunk": "by_pattern/A.15.4.md",
       "child_chunks": [
         "by_section/A.15.4/A.15.4__001_intro.md",
@@ -2653,8 +2593,8 @@
     {
       "pattern_id": "A.16",
       "pattern_title": "Language-State Transduction Coordination",
-      "line_start": 21534,
-      "line_end": 21880,
+      "line_start": 20818,
+      "line_end": 21164,
       "parent_chunk": "by_pattern/A.16.md",
       "child_chunks": [
         "by_section/A.16/A.16__001_intro.md",
@@ -2691,9 +2631,9 @@
         "A.19",
         "A.6.A",
         "A.6.P",
-        "A.6.Q",
         "B.4.1",
         "B.5.2.0",
+        "C.16.Q",
         "C.2.2a",
         "C.2.4",
         "C.2.5",
@@ -2716,8 +2656,8 @@
     {
       "pattern_id": "A.16.0",
       "pattern_title": "U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace",
-      "line_start": 21881,
-      "line_end": 22124,
+      "line_start": 21165,
+      "line_end": 21408,
       "parent_chunk": "by_pattern/A.16.0.md",
       "child_chunks": [
         "by_section/A.16.0/A.16.0__001_intro.md",
@@ -2746,10 +2686,10 @@
         "A.19",
         "A.6.A",
         "A.6.P",
-        "A.6.Q",
         "B.4.1",
         "B.5.2",
         "B.5.2.0",
+        "C.16.Q",
         "C.2.2a",
         "C.2.LS",
         "E.17",
@@ -2771,8 +2711,8 @@
     {
       "pattern_id": "A.16.1",
       "pattern_title": "U.PreArticulationCuePack",
-      "line_start": 22125,
-      "line_end": 22408,
+      "line_start": 21409,
+      "line_end": 21693,
       "parent_chunk": "by_pattern/A.16.1.md",
       "child_chunks": [
         "by_section/A.16.1/A.16.1__001_intro.md",
@@ -2804,10 +2744,10 @@
         "A.16.0",
         "A.16.2",
         "A.6.A",
-        "A.6.Q",
         "A.7",
         "B.4.1",
         "B.5.2.0",
+        "C.16.Q",
         "C.2.2a",
         "C.2.4",
         "C.2.5",
@@ -2827,8 +2767,8 @@
     {
       "pattern_id": "A.16.2",
       "pattern_title": "Reopen / SketchBackoff / Respecify",
-      "line_start": 22409,
-      "line_end": 22632,
+      "line_start": 21694,
+      "line_end": 21918,
       "parent_chunk": "by_pattern/A.16.2.md",
       "child_chunks": [
         "by_section/A.16.2/A.16.2__001_intro.md",
@@ -2862,9 +2802,9 @@
         "A.16.1",
         "A.6.A",
         "A.6.P",
-        "A.6.Q",
         "B.4.1",
         "B.5.2",
+        "C.16.Q",
         "C.2.2a",
         "C.2.5"
       ],
@@ -2881,8 +2821,8 @@
     {
       "pattern_id": "A.17",
       "pattern_title": "Canonical “Characteristic” (A.CHR‑NORM)",
-      "line_start": 22633,
-      "line_end": 22770,
+      "line_start": 21919,
+      "line_end": 22056,
       "parent_chunk": "by_pattern/A.17.md",
       "child_chunks": [
         "by_section/A.17/A.17__001_intro.md",
@@ -2926,8 +2866,8 @@
     {
       "pattern_id": "A.18",
       "pattern_title": "Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)",
-      "line_start": 22771,
-      "line_end": 22927,
+      "line_start": 22057,
+      "line_end": 22213,
       "parent_chunk": "by_pattern/A.18.md",
       "child_chunks": [
         "by_section/A.18/A.18__001_intro.md",
@@ -2974,8 +2914,8 @@
     {
       "pattern_id": "A.19",
       "pattern_title": "CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)",
-      "line_start": 22928,
-      "line_end": 23365,
+      "line_start": 22214,
+      "line_end": 22659,
       "parent_chunk": "by_pattern/A.19.md",
       "child_chunks": [
         "by_section/A.19/A.19__001_intro.md",
@@ -3019,8 +2959,8 @@
     {
       "pattern_id": "A.19.ECS",
       "pattern_title": "Evaluation CharacteristicSpace Construction",
-      "line_start": 23366,
-      "line_end": 23587,
+      "line_start": 22660,
+      "line_end": 22881,
       "parent_chunk": "by_pattern/A.19.ECS.md",
       "child_chunks": [
         "by_section/A.19.ECS/A.19.ECS__001_intro.md",
@@ -3054,8 +2994,8 @@
     {
       "pattern_id": "A.19.SOURCE-SET-SPACE-SUBSTRATE",
       "pattern_title": "Source-Set and Search/Outcome-Space Substrate",
-      "line_start": 23588,
-      "line_end": 24128,
+      "line_start": 22882,
+      "line_end": 23422,
       "parent_chunk": "by_pattern/A.19.SOURCE-SET-SPACE-SUBSTRATE.md",
       "child_chunks": [
         "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__001_intro.md",
@@ -3106,8 +3046,8 @@
     {
       "pattern_id": "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW",
       "pattern_title": "Declared-Substrate Interpretive View",
-      "line_start": 24129,
-      "line_end": 24627,
+      "line_start": 23423,
+      "line_end": 23921,
       "parent_chunk": "by_pattern/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW.md",
       "child_chunks": [
         "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__001_intro.md",
@@ -3159,8 +3099,8 @@
     {
       "pattern_id": "A.19.CN",
       "pattern_title": "CN‑frame (comparability & normalization)",
-      "line_start": 24628,
-      "line_end": 25009,
+      "line_start": 23922,
+      "line_end": 24303,
       "parent_chunk": "by_pattern/A.19.CN.md",
       "child_chunks": [
         "by_section/A.19.CN/A.19.CN__001_intro.md",
@@ -3207,8 +3147,8 @@
     {
       "pattern_id": "A.19.CHR",
       "pattern_title": "CHRMechanismSuite",
-      "line_start": 25010,
-      "line_end": 25692,
+      "line_start": 24304,
+      "line_end": 24986,
       "parent_chunk": "by_pattern/A.19.CHR.md",
       "child_chunks": [
         "by_section/A.19.CHR/A.19.CHR__001_intro.md",
@@ -3264,8 +3204,8 @@
     {
       "pattern_id": "A.19.UNM",
       "pattern_title": "Unified Normalization Mechanism (UNM)",
-      "line_start": 25693,
-      "line_end": 26115,
+      "line_start": 24987,
+      "line_end": 25409,
       "parent_chunk": "by_pattern/A.19.UNM.md",
       "child_chunks": [
         "by_section/A.19.UNM/A.19.UNM__001_intro.md",
@@ -3300,8 +3240,8 @@
     {
       "pattern_id": "A.19.UINDM",
       "pattern_title": "Unified Indicatorization Mechanism (UINDM)",
-      "line_start": 26116,
-      "line_end": 26404,
+      "line_start": 25410,
+      "line_end": 25698,
       "parent_chunk": "by_pattern/A.19.UINDM.md",
       "child_chunks": [
         "by_section/A.19.UINDM/A.19.UINDM__001_intro.md",
@@ -3333,8 +3273,8 @@
     {
       "pattern_id": "A.19.USCM",
       "pattern_title": "Unified Scoring Mechanism, USCM",
-      "line_start": 26405,
-      "line_end": 26732,
+      "line_start": 25699,
+      "line_end": 26026,
       "parent_chunk": "by_pattern/A.19.USCM.md",
       "child_chunks": [
         "by_section/A.19.USCM/A.19.USCM__001_intro.md",
@@ -3367,8 +3307,8 @@
     {
       "pattern_id": "A.19.ULSAM",
       "pattern_title": "Unified Lawful Scale Aggregation Mechanism (ULSAM)",
-      "line_start": 26733,
-      "line_end": 27027,
+      "line_start": 26027,
+      "line_end": 26321,
       "parent_chunk": "by_pattern/A.19.ULSAM.md",
       "child_chunks": [
         "by_section/A.19.ULSAM/A.19.ULSAM__001_intro.md",
@@ -3409,8 +3349,8 @@
     {
       "pattern_id": "A.19.CPM",
       "pattern_title": "Unified Comparison Mechanism (CPM)",
-      "line_start": 27028,
-      "line_end": 27358,
+      "line_start": 26322,
+      "line_end": 26652,
       "parent_chunk": "by_pattern/A.19.CPM.md",
       "child_chunks": [
         "by_section/A.19.CPM/A.19.CPM__001_intro.md",
@@ -3443,8 +3383,8 @@
     {
       "pattern_id": "A.19.SelectorMechanism",
       "pattern_title": "Unified Selection Kernel, SelectorMechanism",
-      "line_start": 27359,
-      "line_end": 27727,
+      "line_start": 26653,
+      "line_end": 27021,
       "parent_chunk": "by_pattern/A.19.SelectorMechanism.md",
       "child_chunks": [
         "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__001_intro.md",
@@ -3475,8 +3415,8 @@
     {
       "pattern_id": "A.20",
       "pattern_title": "U.Flow.ConstraintValidity — Eulerian",
-      "line_start": 27728,
-      "line_end": 28074,
+      "line_start": 27022,
+      "line_end": 27368,
       "parent_chunk": "by_pattern/A.20.md",
       "child_chunks": [
         "by_section/A.20/A.20__001_intro.md",
@@ -3524,8 +3464,8 @@
     {
       "pattern_id": "A.21",
       "pattern_title": "GateProfilization: OperationalGate(profile) (GateFit core)",
-      "line_start": 28075,
-      "line_end": 28494,
+      "line_start": 27369,
+      "line_end": 27788,
       "parent_chunk": "by_pattern/A.21.md",
       "child_chunks": [
         "by_section/A.21/A.21__001_intro.md",
@@ -3576,8 +3516,8 @@
     {
       "pattern_id": "A.22",
       "pattern_title": "Structure and Structural Views (STRUCT-CAL)",
-      "line_start": 28495,
-      "line_end": 28858,
+      "line_start": 27789,
+      "line_end": 28154,
       "parent_chunk": "by_pattern/A.22.md",
       "child_chunks": [
         "by_section/A.22/A.22__001_intro.md",
@@ -3619,6 +3559,7 @@
         "C.30.ASV",
         "C.30.ILC",
         "C.30.LCA",
+        "C.30.P",
         "C.30.TGA-FLOW-REL",
         "E.10",
         "E.10.D2",
@@ -3643,8 +3584,8 @@
     {
       "pattern_id": "B.1",
       "pattern_title": "Universal Algebra of Aggregation (Γ)",
-      "line_start": 28859,
-      "line_end": 29032,
+      "line_start": 28155,
+      "line_end": 28328,
       "parent_chunk": "by_pattern/B.1.md",
       "child_chunks": [
         "by_section/B.1/B.1__001_intro.md",
@@ -3683,8 +3624,8 @@
     {
       "pattern_id": "B.1.1",
       "pattern_title": "Dependency Graph & Proofs",
-      "line_start": 29033,
-      "line_end": 29372,
+      "line_start": 28329,
+      "line_end": 28668,
       "parent_chunk": "by_pattern/B.1.1.md",
       "child_chunks": [
         "by_section/B.1.1/B.1.1__001_intro.md",
@@ -3726,8 +3667,8 @@
     {
       "pattern_id": "B.1.2",
       "pattern_title": "System‑specific Aggregation Γ\\_sys",
-      "line_start": 29373,
-      "line_end": 29518,
+      "line_start": 28669,
+      "line_end": 28814,
       "parent_chunk": "by_pattern/B.1.2.md",
       "child_chunks": [
         "by_section/B.1.2/B.1.2__001_intro.md",
@@ -3751,8 +3692,8 @@
     {
       "pattern_id": "B.1.3",
       "pattern_title": "Γ_epist - Knowledge‑Specific Aggregation",
-      "line_start": 29519,
-      "line_end": 29817,
+      "line_start": 28815,
+      "line_end": 29113,
       "parent_chunk": "by_pattern/B.1.3.md",
       "child_chunks": [
         "by_section/B.1.3/B.1.3__001_intro.md",
@@ -3791,8 +3732,8 @@
     {
       "pattern_id": "B.1.4",
       "pattern_title": "Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)",
-      "line_start": 29818,
-      "line_end": 30116,
+      "line_start": 29114,
+      "line_end": 29412,
       "parent_chunk": "by_pattern/B.1.4.md",
       "child_chunks": [
         "by_section/B.1.4/B.1.4__001_intro.md",
@@ -3826,8 +3767,8 @@
     {
       "pattern_id": "B.1.5",
       "pattern_title": "Γ_method — Order‑Sensitive Method Composition & Work Enactment",
-      "line_start": 30117,
-      "line_end": 30456,
+      "line_start": 29413,
+      "line_end": 29752,
       "parent_chunk": "by_pattern/B.1.5.md",
       "child_chunks": [
         "by_section/B.1.5/B.1.5__001_intro.md",
@@ -3867,8 +3808,8 @@
     {
       "pattern_id": "B.1.6",
       "pattern_title": "Γ\\_work — Work as Spent Resource",
-      "line_start": 30457,
-      "line_end": 30736,
+      "line_start": 29753,
+      "line_end": 30032,
       "parent_chunk": "by_pattern/B.1.6.md",
       "child_chunks": [
         "by_section/B.1.6/B.1.6__001_intro.md",
@@ -3909,8 +3850,8 @@
     {
       "pattern_id": "B.2",
       "pattern_title": "Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes",
-      "line_start": 30737,
-      "line_end": 31035,
+      "line_start": 30033,
+      "line_end": 30331,
       "parent_chunk": "by_pattern/B.2.md",
       "child_chunks": [
         "by_section/B.2/B.2__001_intro.md",
@@ -3952,8 +3893,8 @@
     {
       "pattern_id": "B.2.2",
       "pattern_title": "Meta-System Transition (MST)",
-      "line_start": 31036,
-      "line_end": 31130,
+      "line_start": 30332,
+      "line_end": 30426,
       "parent_chunk": "by_pattern/B.2.2.md",
       "child_chunks": [
         "by_section/B.2.2/B.2.2__001_intro.md",
@@ -3983,8 +3924,8 @@
     {
       "pattern_id": "B.2.3",
       "pattern_title": "Meta-Epistemic Transition (MET)",
-      "line_start": 31131,
-      "line_end": 31282,
+      "line_start": 30427,
+      "line_end": 30578,
       "parent_chunk": "by_pattern/B.2.3.md",
       "child_chunks": [
         "by_section/B.2.3/B.2.3__001_intro.md",
@@ -4016,8 +3957,8 @@
     {
       "pattern_id": "B.2.4",
       "pattern_title": "Meta-Functional Transition (MFT)",
-      "line_start": 31283,
-      "line_end": 31392,
+      "line_start": 30579,
+      "line_end": 30688,
       "parent_chunk": "by_pattern/B.2.4.md",
       "child_chunks": [
         "by_section/B.2.4/B.2.4__001_intro.md",
@@ -4048,8 +3989,8 @@
     {
       "pattern_id": "B.2.5",
       "pattern_title": "Supervisor-Subholon Feedback Loop",
-      "line_start": 31393,
-      "line_end": 31533,
+      "line_start": 30689,
+      "line_end": 30829,
       "parent_chunk": "by_pattern/B.2.5.md",
       "child_chunks": [
         "by_section/B.2.5/B.2.5__001_intro.md",
@@ -4088,8 +4029,8 @@
     {
       "pattern_id": "B.3",
       "pattern_title": "Trust & Assurance Calculus (F–G–R with Congruence)",
-      "line_start": 31534,
-      "line_end": 32120,
+      "line_start": 30830,
+      "line_end": 31416,
       "parent_chunk": "by_pattern/B.3.md",
       "child_chunks": [
         "by_section/B.3/B.3__001_intro.md",
@@ -4158,8 +4099,8 @@
     {
       "pattern_id": "B.3.3",
       "pattern_title": "Assurance Subtypes & Levels",
-      "line_start": 32121,
-      "line_end": 32204,
+      "line_start": 31417,
+      "line_end": 31500,
       "parent_chunk": "by_pattern/B.3.3.md",
       "child_chunks": [
         "by_section/B.3.3/B.3.3__001_intro.md",
@@ -4195,8 +4136,8 @@
     {
       "pattern_id": "B.3.4",
       "pattern_title": "Evidence Decay & Epistemic Debt",
-      "line_start": 32205,
-      "line_end": 32322,
+      "line_start": 31501,
+      "line_end": 31618,
       "parent_chunk": "by_pattern/B.3.4.md",
       "child_chunks": [
         "by_section/B.3.4/B.3.4__001_intro.md",
@@ -4228,8 +4169,8 @@
     {
       "pattern_id": "B.3.5",
       "pattern_title": "Working-Model Relations & Grounding (CT2R-LOG)",
-      "line_start": 32323,
-      "line_end": 32628,
+      "line_start": 31619,
+      "line_end": 31924,
       "parent_chunk": "by_pattern/B.3.5.md",
       "child_chunks": [
         "by_section/B.3.5/B.3.5__001_intro.md",
@@ -4266,8 +4207,8 @@
     {
       "pattern_id": "B.4",
       "pattern_title": "Canonical Evolution Loop",
-      "line_start": 32629,
-      "line_end": 32750,
+      "line_start": 31925,
+      "line_end": 32046,
       "parent_chunk": "by_pattern/B.4.md",
       "child_chunks": [
         "by_section/B.4/B.4__001_intro.md",
@@ -4299,8 +4240,8 @@
     {
       "pattern_id": "B.4.1",
       "pattern_title": "Observe -> Notice -> Stabilize -> Route",
-      "line_start": 32751,
-      "line_end": 32980,
+      "line_start": 32047,
+      "line_end": 32275,
       "parent_chunk": "by_pattern/B.4.1.md",
       "child_chunks": [
         "by_section/B.4.1/B.4.1__001_intro.md",
@@ -4329,10 +4270,10 @@
         "A.16.1",
         "A.6.A",
         "A.6.P",
-        "A.6.Q",
         "B.4",
         "B.5.2",
         "B.5.2.0",
+        "C.16.Q",
         "C.2.2a",
         "C.2.4",
         "C.2.5",
@@ -4353,8 +4294,8 @@
     {
       "pattern_id": "B.5",
       "pattern_title": "Canonical Reasoning Cycle",
-      "line_start": 32981,
-      "line_end": 33080,
+      "line_start": 32276,
+      "line_end": 32375,
       "parent_chunk": "by_pattern/B.5.md",
       "child_chunks": [
         "by_section/B.5/B.5__001_intro.md",
@@ -4383,8 +4324,8 @@
     {
       "pattern_id": "B.5.1",
       "pattern_title": "Explore → Shape → Evidence → Operate",
-      "line_start": 33081,
-      "line_end": 33140,
+      "line_start": 32376,
+      "line_end": 32435,
       "parent_chunk": "by_pattern/B.5.1.md",
       "child_chunks": [
         "by_section/B.5.1/B.5.1__001_intro.md",
@@ -4413,8 +4354,8 @@
     {
       "pattern_id": "B.5.2",
       "pattern_title": "Abductive Loop",
-      "line_start": 33141,
-      "line_end": 33439,
+      "line_start": 32436,
+      "line_end": 32734,
       "parent_chunk": "by_pattern/B.5.2.md",
       "child_chunks": [
         "by_section/B.5.2/B.5.2__001_intro.md",
@@ -4458,8 +4399,8 @@
     {
       "pattern_id": "B.5.2.0",
       "pattern_title": "U.AbductivePrompt",
-      "line_start": 33440,
-      "line_end": 33622,
+      "line_start": 32735,
+      "line_end": 32916,
       "parent_chunk": "by_pattern/B.5.2.0.md",
       "child_chunks": [
         "by_section/B.5.2.0/B.5.2.0__001_intro.md",
@@ -4489,9 +4430,9 @@
         "A.16.2",
         "A.6.A",
         "A.6.P",
-        "A.6.Q",
         "B.4.1",
         "B.5.2",
+        "C.16.Q",
         "C.2.2a",
         "C.2.4",
         "C.2.5",
@@ -4511,8 +4452,8 @@
     {
       "pattern_id": "B.5.2.1",
       "pattern_title": "Creative Abduction with NQD",
-      "line_start": 33623,
-      "line_end": 33796,
+      "line_start": 32917,
+      "line_end": 33090,
       "parent_chunk": "by_pattern/B.5.2.1.md",
       "child_chunks": [
         "by_section/B.5.2.1/B.5.2.1__001_intro.md",
@@ -4560,8 +4501,8 @@
     {
       "pattern_id": "B.5.3",
       "pattern_title": "Role-Projection Bridge",
-      "line_start": 33797,
-      "line_end": 33912,
+      "line_start": 33091,
+      "line_end": 33206,
       "parent_chunk": "by_pattern/B.5.3.md",
       "child_chunks": [
         "by_section/B.5.3/B.5.3__001_intro.md",
@@ -4589,8 +4530,8 @@
     {
       "pattern_id": "C.2",
       "pattern_title": "Epistemic holon composition (KD-CAL)",
-      "line_start": 33913,
-      "line_end": 34029,
+      "line_start": 33207,
+      "line_end": 33323,
       "parent_chunk": "by_pattern/C.2.md",
       "child_chunks": [
         "by_section/C.2/C.2__001_intro.md",
@@ -4630,8 +4571,8 @@
     {
       "pattern_id": "C.2.1",
       "pattern_title": "U.Episteme — Epistemes and their slot graph",
-      "line_start": 34030,
-      "line_end": 34860,
+      "line_start": 33324,
+      "line_end": 34154,
       "parent_chunk": "by_pattern/C.2.1.md",
       "child_chunks": [
         "by_section/C.2.1/C.2.1__001_intro.md",
@@ -4680,8 +4621,8 @@
     {
       "pattern_id": "C.2.P",
       "pattern_title": "Epistemic Precision Restoration",
-      "line_start": 34861,
-      "line_end": 35491,
+      "line_start": 34155,
+      "line_end": 34790,
       "parent_chunk": "by_pattern/C.2.P.md",
       "child_chunks": [
         "by_section/C.2.P/C.2.P__001_intro.md",
@@ -4712,13 +4653,17 @@
         "A.6.3.CSC",
         "A.6.3.RT",
         "A.6.A",
+        "A.6.F",
         "A.6.P",
-        "A.6.Q",
         "A.7",
         "B.3",
         "C.11",
+        "C.16.P",
+        "C.16.Q",
         "C.2.1",
+        "C.30.P",
         "E.10",
+        "E.10.ARCH",
         "E.12",
         "E.17",
         "E.17.0",
@@ -4751,8 +4696,8 @@
     {
       "pattern_id": "C.2.2",
       "pattern_title": "Reliability R in the F–G–R triad",
-      "line_start": 35492,
-      "line_end": 35866,
+      "line_start": 34791,
+      "line_end": 35165,
       "parent_chunk": "by_pattern/C.2.2.md",
       "child_chunks": [
         "by_section/C.2.2/C.2.2__001_intro.md",
@@ -4810,8 +4755,8 @@
     {
       "pattern_id": "C.2.2a",
       "pattern_title": "U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace",
-      "line_start": 35867,
-      "line_end": 36134,
+      "line_start": 35166,
+      "line_end": 35433,
       "parent_chunk": "by_pattern/C.2.2a.md",
       "child_chunks": [
         "by_section/C.2.2a/C.2.2a__001_intro.md",
@@ -4838,8 +4783,8 @@
         "A.16.0",
         "A.19",
         "A.6.A",
-        "A.6.Q",
         "B.4.1",
+        "C.16.Q",
         "C.2.3",
         "C.2.4",
         "C.2.5",
@@ -4864,8 +4809,8 @@
     {
       "pattern_id": "C.2.3",
       "pattern_title": "Unified Formality Characteristic F",
-      "line_start": 36135,
-      "line_end": 36446,
+      "line_start": 35434,
+      "line_end": 35745,
       "parent_chunk": "by_pattern/C.2.3.md",
       "child_chunks": [
         "by_section/C.2.3/C.2.3__001_intro.md",
@@ -4917,8 +4862,8 @@
     {
       "pattern_id": "C.2.LS",
       "pattern_title": "U.LanguageStateFacetProfile - Thin profile bundle for language-state facets",
-      "line_start": 36447,
-      "line_end": 36689,
+      "line_start": 35746,
+      "line_end": 35988,
       "parent_chunk": "by_pattern/C.2.LS.md",
       "child_chunks": [
         "by_section/C.2.LS/C.2.LS__001_intro.md",
@@ -4973,8 +4918,8 @@
     {
       "pattern_id": "C.2.4",
       "pattern_title": "U.ArticulationExplicitness",
-      "line_start": 36690,
-      "line_end": 36862,
+      "line_start": 35989,
+      "line_end": 36161,
       "parent_chunk": "by_pattern/C.2.4.md",
       "child_chunks": [
         "by_section/C.2.4/C.2.4__001_intro.md",
@@ -5022,8 +4967,8 @@
     {
       "pattern_id": "C.2.5",
       "pattern_title": "U.LanguageStateClosureDegree",
-      "line_start": 36863,
-      "line_end": 37046,
+      "line_start": 36162,
+      "line_end": 36345,
       "parent_chunk": "by_pattern/C.2.5.md",
       "child_chunks": [
         "by_section/C.2.5/C.2.5__001_intro.md",
@@ -5070,8 +5015,8 @@
     {
       "pattern_id": "C.2.6",
       "pattern_title": "U.LanguageStateAnchoringMode",
-      "line_start": 37047,
-      "line_end": 37209,
+      "line_start": 36346,
+      "line_end": 36508,
       "parent_chunk": "by_pattern/C.2.6.md",
       "child_chunks": [
         "by_section/C.2.6/C.2.6__001_intro.md",
@@ -5120,8 +5065,8 @@
     {
       "pattern_id": "C.2.7",
       "pattern_title": "U.LanguageStateRepresentationFactorBundle",
-      "line_start": 37210,
-      "line_end": 37375,
+      "line_start": 36509,
+      "line_end": 36674,
       "parent_chunk": "by_pattern/C.2.7.md",
       "child_chunks": [
         "by_section/C.2.7/C.2.7__001_intro.md",
@@ -5169,8 +5114,8 @@
     {
       "pattern_id": "C.3",
       "pattern_title": "Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)",
-      "line_start": 37376,
-      "line_end": 38286,
+      "line_start": 36675,
+      "line_end": 37585,
       "parent_chunk": "by_pattern/C.3.md",
       "child_chunks": [
         "by_section/C.3/C.3__001_intro.md",
@@ -5213,8 +5158,8 @@
     {
       "pattern_id": "C.3.1",
       "pattern_title": "U.Kind & SubkindOf (Core)",
-      "line_start": 38287,
-      "line_end": 38419,
+      "line_start": 37586,
+      "line_end": 37718,
       "parent_chunk": "by_pattern/C.3.1.md",
       "child_chunks": [
         "by_section/C.3.1/C.3.1__001_intro.md",
@@ -5247,8 +5192,8 @@
     {
       "pattern_id": "C.3.2",
       "pattern_title": "KindSignature (+F) & Extension/MemberOf",
-      "line_start": 38420,
-      "line_end": 38630,
+      "line_start": 37719,
+      "line_end": 37929,
       "parent_chunk": "by_pattern/C.3.2.md",
       "child_chunks": [
         "by_section/C.3.2/C.3.2__001_intro.md",
@@ -5283,8 +5228,8 @@
     {
       "pattern_id": "C.3.3",
       "pattern_title": "KindBridge & CL^k — Cross‑context Mapping of Kinds",
-      "line_start": 38631,
-      "line_end": 38877,
+      "line_start": 37930,
+      "line_end": 38176,
       "parent_chunk": "by_pattern/C.3.3.md",
       "child_chunks": [
         "by_section/C.3.3/C.3.3__001_intro.md",
@@ -5318,8 +5263,8 @@
     {
       "pattern_id": "C.3.4",
       "pattern_title": "RoleMask — Contextual Adaptation of Kinds (without cloning)",
-      "line_start": 38878,
-      "line_end": 39111,
+      "line_start": 38177,
+      "line_end": 38410,
       "parent_chunk": "by_pattern/C.3.4.md",
       "child_chunks": [
         "by_section/C.3.4/C.3.4__001_intro.md",
@@ -5351,8 +5296,8 @@
     {
       "pattern_id": "C.3.5",
       "pattern_title": "KindAT — Intentional Abstraction Facet for Kinds (K0…K3)",
-      "line_start": 39112,
-      "line_end": 39282,
+      "line_start": 38411,
+      "line_end": 38581,
       "parent_chunk": "by_pattern/C.3.5.md",
       "child_chunks": [
         "by_section/C.3.5/C.3.5__001_intro.md",
@@ -5382,8 +5327,8 @@
     {
       "pattern_id": "C.3.A",
       "pattern_title": "Typed Guard Macros for Kinds + USM (Annex)",
-      "line_start": 39283,
-      "line_end": 40046,
+      "line_start": 38582,
+      "line_end": 39345,
       "parent_chunk": "by_pattern/C.3.A.md",
       "child_chunks": [
         "by_section/C.3.A/C.3.A__001_intro.md",
@@ -5415,8 +5360,8 @@
     {
       "pattern_id": "C.11",
       "pattern_title": "Decision Theory (Decsn-CAL)",
-      "line_start": 40047,
-      "line_end": 40761,
+      "line_start": 39346,
+      "line_end": 40060,
       "parent_chunk": "by_pattern/C.11.md",
       "child_chunks": [
         "by_section/C.11/C.11__001_intro.md",
@@ -5468,8 +5413,8 @@
     {
       "pattern_id": "C.13",
       "pattern_title": "Constructional Mereology (Compose‑CAL)",
-      "line_start": 40762,
-      "line_end": 40960,
+      "line_start": 40061,
+      "line_end": 40259,
       "parent_chunk": "by_pattern/C.13.md",
       "child_chunks": [
         "by_section/C.13/C.13__001_intro.md",
@@ -5502,8 +5447,8 @@
     {
       "pattern_id": "C.16",
       "pattern_title": "Measurement & Metrics Characterization (MM‑CHR)",
-      "line_start": 40961,
-      "line_end": 41379,
+      "line_start": 40260,
+      "line_end": 40681,
       "parent_chunk": "by_pattern/C.16.md",
       "child_chunks": [
         "by_section/C.16/C.16__001_intro.md",
@@ -5547,10 +5492,126 @@
       ]
     },
     {
+      "pattern_id": "C.16.P",
+      "pattern_title": "Characteristic and Scale Precision Restoration",
+      "line_start": 40682,
+      "line_end": 40911,
+      "parent_chunk": "by_pattern/C.16.P.md",
+      "child_chunks": [
+        "by_section/C.16.P/C.16.P__001_intro.md",
+        "by_section/C.16.P/C.16.P__002_use-this-when.md",
+        "by_section/C.16.P/C.16.P__003_problem-frame.md",
+        "by_section/C.16.P/C.16.P__004_problem.md",
+        "by_section/C.16.P/C.16.P__005_forces.md",
+        "by_section/C.16.P/C.16.P__006_solution.md",
+        "by_section/C.16.P/C.16.P__007_trigger-split.md",
+        "by_section/C.16.P/C.16.P__008_exact-receiving-pattern-exits.md",
+        "by_section/C.16.P/C.16.P__009_refresh-and-reopen-conditions.md",
+        "by_section/C.16.P/C.16.P__010_worked-cases.md",
+        "by_section/C.16.P/C.16.P__011_reduced-sota-row.md",
+        "by_section/C.16.P/C.16.P__012_conformance-checklist.md",
+        "by_section/C.16.P/C.16.P__013_common-anti-patterns.md",
+        "by_section/C.16.P/C.16.P__014_related-patterns.md",
+        "by_section/C.16.P/C.16.P__015_c-16-p-end.md"
+      ],
+      "dependencies": [
+        "A.10",
+        "A.15",
+        "A.17",
+        "A.18",
+        "A.19",
+        "A.19.ECS",
+        "A.20",
+        "A.21",
+        "A.6.P",
+        "B.3",
+        "C.11",
+        "C.16",
+        "C.16.Q",
+        "C.25",
+        "C.28",
+        "C.29",
+        "E.10",
+        "E.10.ARCH",
+        "E.21",
+        "F.18",
+        "G.0",
+        "G.5",
+        "G.9"
+      ],
+      "keywords": []
+    },
+    {
+      "pattern_id": "C.16.Q",
+      "pattern_title": "Quality-Term Precision Restoration",
+      "line_start": 40912,
+      "line_end": 41680,
+      "parent_chunk": "by_pattern/C.16.Q.md",
+      "child_chunks": [
+        "by_section/C.16.Q/C.16.Q__001_intro.md",
+        "by_section/C.16.Q/C.16.Q__002_use-this-when.md",
+        "by_section/C.16.Q/C.16.Q__003_problem-frame.md",
+        "by_section/C.16.Q/C.16.Q__004_problem.md",
+        "by_section/C.16.Q/C.16.Q__005_forces.md",
+        "by_section/C.16.Q/C.16.Q__006_solution.md",
+        "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md",
+        "by_section/C.16.Q/C.16.Q__008_bias-annotation.md",
+        "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md",
+        "by_section/C.16.Q/C.16.Q__010_common-anti-patterns-and-how-to-avoid-them.md",
+        "by_section/C.16.Q/C.16.Q__011_consequences.md",
+        "by_section/C.16.Q/C.16.Q__012_rationale.md",
+        "by_section/C.16.Q/C.16.Q__013_sota-echoing.md",
+        "by_section/C.16.Q/C.16.Q__014_refresh-and-reopen-conditions.md",
+        "by_section/C.16.Q/C.16.Q__015_relations.md",
+        "by_section/C.16.Q/C.16.Q__016_c-16-q-end.md"
+      ],
+      "dependencies": [
+        "A.10",
+        "A.16",
+        "A.16.0",
+        "A.16.1",
+        "A.16.2",
+        "A.17",
+        "A.18",
+        "A.19",
+        "A.2.6",
+        "A.6.A",
+        "A.6.B",
+        "A.6.P",
+        "A.7",
+        "B.3",
+        "B.4.1",
+        "B.5.2.0",
+        "C.16",
+        "C.16.P",
+        "C.17",
+        "C.18",
+        "C.19",
+        "C.2.1",
+        "C.2.2a",
+        "C.2.4",
+        "C.2.5",
+        "C.2.6",
+        "C.2.7",
+        "C.2.LS",
+        "C.25",
+        "E.10",
+        "E.10.ARCH",
+        "E.17.0",
+        "E.17.2",
+        "E.21",
+        "E.8",
+        "F.18",
+        "F.9",
+        "F.9.1"
+      ],
+      "keywords": []
+    },
+    {
       "pattern_id": "C.17",
       "pattern_title": "Characterising Generative Novelty & Value (Creativity‑CHR)",
-      "line_start": 41380,
-      "line_end": 42119,
+      "line_start": 41681,
+      "line_end": 42420,
       "parent_chunk": "by_pattern/C.17.md",
       "child_chunks": [
         "by_section/C.17/C.17__001_intro.md",
@@ -5625,8 +5686,8 @@
     {
       "pattern_id": "C.18",
       "pattern_title": "Open‑Ended Search Calculus (NQD‑CAL)",
-      "line_start": 42120,
-      "line_end": 42230,
+      "line_start": 42421,
+      "line_end": 42531,
       "parent_chunk": "by_pattern/C.18.md",
       "child_chunks": [
         "by_section/C.18/C.18__001_intro.md",
@@ -5675,8 +5736,8 @@
     {
       "pattern_id": "C.18.1",
       "pattern_title": "Scaling‑Law Lens Binding (SLL)",
-      "line_start": 42231,
-      "line_end": 42331,
+      "line_start": 42532,
+      "line_end": 42632,
       "parent_chunk": "by_pattern/C.18.1.md",
       "child_chunks": [
         "by_section/C.18.1/C.18.1__001_intro.md",
@@ -5727,8 +5788,8 @@
     {
       "pattern_id": "C.19",
       "pattern_title": "Explore–Exploit Governor (E/E‑LOG)",
-      "line_start": 42332,
-      "line_end": 42687,
+      "line_start": 42633,
+      "line_end": 42988,
       "parent_chunk": "by_pattern/C.19.md",
       "child_chunks": [
         "by_section/C.19/C.19__001_intro.md",
@@ -5779,8 +5840,8 @@
     {
       "pattern_id": "C.19.1",
       "pattern_title": "Bitter‑Lesson Preference (BLP)",
-      "line_start": 42688,
-      "line_end": 42791,
+      "line_start": 42989,
+      "line_end": 43092,
       "parent_chunk": "by_pattern/C.19.1.md",
       "child_chunks": [
         "by_section/C.19.1/C.19.1__001_intro.md",
@@ -5823,8 +5884,8 @@
     {
       "pattern_id": "C.20",
       "pattern_title": "Composition of U.Discipline (Discipline‑CAL)",
-      "line_start": 42792,
-      "line_end": 42891,
+      "line_start": 43093,
+      "line_end": 43192,
       "parent_chunk": "by_pattern/C.20.md",
       "child_chunks": [
         "by_section/C.20/C.20__001_intro.md",
@@ -5868,8 +5929,8 @@
     {
       "pattern_id": "C.21",
       "pattern_title": "Field Health & Structure (Discipline-CHR)",
-      "line_start": 42892,
-      "line_end": 43104,
+      "line_start": 43193,
+      "line_end": 43405,
       "parent_chunk": "by_pattern/C.21.md",
       "child_chunks": [
         "by_section/C.21/C.21__001_intro.md",
@@ -5919,8 +5980,8 @@
     {
       "pattern_id": "C.22",
       "pattern_title": "Problem Typing & TaskSignature Assignment (Problem-CHR)",
-      "line_start": 43105,
-      "line_end": 43319,
+      "line_start": 43406,
+      "line_end": 43620,
       "parent_chunk": "by_pattern/C.22.md",
       "child_chunks": [
         "by_section/C.22/C.22__001_intro.md",
@@ -5964,8 +6025,8 @@
     {
       "pattern_id": "C.22.1",
       "pattern_title": "Task-family adaptation signature",
-      "line_start": 43320,
-      "line_end": 43467,
+      "line_start": 43621,
+      "line_end": 43768,
       "parent_chunk": "by_pattern/C.22.1.md",
       "child_chunks": [
         "by_section/C.22.1/C.22.1__001_intro.md",
@@ -6017,8 +6078,8 @@
     {
       "pattern_id": "C.22.2",
       "pattern_title": "ProblemCard@Context",
-      "line_start": 43468,
-      "line_end": 44289,
+      "line_start": 43769,
+      "line_end": 44591,
       "parent_chunk": "by_pattern/C.22.2.md",
       "child_chunks": [
         "by_section/C.22.2/C.22.2__001_intro.md",
@@ -6058,10 +6119,10 @@
         "A.6.3.RT",
         "A.6.4",
         "A.6.P",
-        "A.6.Q",
         "B.3",
         "C.11",
         "C.16",
+        "C.16.Q",
         "C.18",
         "C.19",
         "C.2.P",
@@ -6102,8 +6163,8 @@
     {
       "pattern_id": "C.23",
       "pattern_title": "MethodFamily Evidence & Maturity (Method‑SoS‑LOG)",
-      "line_start": 44290,
-      "line_end": 44493,
+      "line_start": 44592,
+      "line_end": 44795,
       "parent_chunk": "by_pattern/C.23.md",
       "child_chunks": [
         "by_section/C.23/C.23__001_intro.md",
@@ -6148,8 +6209,8 @@
     {
       "pattern_id": "C.24",
       "pattern_title": "Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)",
-      "line_start": 44494,
-      "line_end": 44844,
+      "line_start": 44796,
+      "line_end": 45146,
       "parent_chunk": "by_pattern/C.24.md",
       "child_chunks": [
         "by_section/C.24/C.24__001_intro.md",
@@ -6194,8 +6255,8 @@
     {
       "pattern_id": "C.25",
       "pattern_title": "Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles",
-      "line_start": 44845,
-      "line_end": 45252,
+      "line_start": 45147,
+      "line_end": 45558,
       "parent_chunk": "by_pattern/C.25.md",
       "child_chunks": [
         "by_section/C.25/C.25__001_intro.md",
@@ -6228,9 +6289,10 @@
         "A.18",
         "A.2.6",
         "A.6.1",
-        "A.6.Q",
         "B.3",
         "C.16",
+        "C.16.P",
+        "C.16.Q",
         "C.17",
         "C.18",
         "C.19",
@@ -6255,8 +6317,8 @@
     {
       "pattern_id": "C.26",
       "pattern_title": "Quantum-Like Modeling Lens",
-      "line_start": 45253,
-      "line_end": 45859,
+      "line_start": 45559,
+      "line_end": 46165,
       "parent_chunk": "by_pattern/C.26.md",
       "child_chunks": [
         "by_section/C.26/C.26__001_intro.md",
@@ -6314,8 +6376,8 @@
     {
       "pattern_id": "C.26.1",
       "pattern_title": "Probe-Coupled Boundary Interaction",
-      "line_start": 45860,
-      "line_end": 46163,
+      "line_start": 46166,
+      "line_end": 46469,
       "parent_chunk": "by_pattern/C.26.1.md",
       "child_chunks": [
         "by_section/C.26.1/C.26.1__001_intro.md",
@@ -6364,8 +6426,8 @@
     {
       "pattern_id": "C.26.2",
       "pattern_title": "Enacted Distributed State Evidence",
-      "line_start": 46164,
-      "line_end": 46509,
+      "line_start": 46470,
+      "line_end": 46815,
       "parent_chunk": "by_pattern/C.26.2.md",
       "child_chunks": [
         "by_section/C.26.2/C.26.2__001_intro.md",
@@ -6410,8 +6472,8 @@
     {
       "pattern_id": "C.26.3",
       "pattern_title": "Viability-Envelope Boundary Regulation",
-      "line_start": 46510,
-      "line_end": 46839,
+      "line_start": 46816,
+      "line_end": 47145,
       "parent_chunk": "by_pattern/C.26.3.md",
       "child_chunks": [
         "by_section/C.26.3/C.26.3__001_intro.md",
@@ -6460,8 +6522,8 @@
     {
       "pattern_id": "C.27",
       "pattern_title": "Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change",
-      "line_start": 46840,
-      "line_end": 48907,
+      "line_start": 47146,
+      "line_end": 49214,
       "parent_chunk": "by_pattern/C.27.md",
       "child_chunks": [
         "by_section/C.27/C.27__001_intro.md",
@@ -6519,8 +6581,8 @@
     {
       "pattern_id": "C.28",
       "pattern_title": "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability",
-      "line_start": 48908,
-      "line_end": 49786,
+      "line_start": 49215,
+      "line_end": 50093,
       "parent_chunk": "by_pattern/C.28.md",
       "child_chunks": [
         "by_section/C.28/C.28__001_intro.md",
@@ -6581,8 +6643,8 @@
     {
       "pattern_id": "C.29",
       "pattern_title": "Mathematical Lens Adequacy (MLA)",
-      "line_start": 49787,
-      "line_end": 51008,
+      "line_start": 50094,
+      "line_end": 51316,
       "parent_chunk": "by_pattern/C.29.md",
       "child_chunks": [
         "by_section/C.29/C.29__001_intro.md",
@@ -6620,6 +6682,7 @@
         "B.3",
         "C.11",
         "C.16",
+        "C.16.P",
         "C.18.1",
         "C.19.1",
         "C.2.P",
@@ -6659,8 +6722,8 @@
     {
       "pattern_id": "C.30",
       "pattern_title": "Architecture Description Adequacy (ADA)",
-      "line_start": 51009,
-      "line_end": 51608,
+      "line_start": 51317,
+      "line_end": 51918,
       "parent_chunk": "by_pattern/C.30.md",
       "child_chunks": [
         "by_section/C.30/C.30__001_intro.md",
@@ -6699,6 +6762,7 @@
         "C.30.ASV",
         "C.30.ILC",
         "C.30.LCA",
+        "C.30.P",
         "C.30.TGA-FLOW-REL",
         "E.10",
         "E.10.D2",
@@ -6720,10 +6784,61 @@
       ]
     },
     {
+      "pattern_id": "C.30.P",
+      "pattern_title": "Architecture and Structure Precision Restoration",
+      "line_start": 51919,
+      "line_end": 52151,
+      "parent_chunk": "by_pattern/C.30.P.md",
+      "child_chunks": [
+        "by_section/C.30.P/C.30.P__001_intro.md",
+        "by_section/C.30.P/C.30.P__002_use-this-when.md",
+        "by_section/C.30.P/C.30.P__003_problem-frame.md",
+        "by_section/C.30.P/C.30.P__004_problem.md",
+        "by_section/C.30.P/C.30.P__005_forces.md",
+        "by_section/C.30.P/C.30.P__006_solution.md",
+        "by_section/C.30.P/C.30.P__007_direct-receiving-pattern-exits.md",
+        "by_section/C.30.P/C.30.P__008_refresh-and-reopen-conditions.md",
+        "by_section/C.30.P/C.30.P__009_worked-cases.md",
+        "by_section/C.30.P/C.30.P__010_reduced-sota-row.md",
+        "by_section/C.30.P/C.30.P__011_conformance-checklist.md",
+        "by_section/C.30.P/C.30.P__012_common-anti-patterns.md",
+        "by_section/C.30.P/C.30.P__013_related-patterns.md",
+        "by_section/C.30.P/C.30.P__014_c-30-p-end.md"
+      ],
+      "dependencies": [
+        "A.10",
+        "A.15",
+        "A.20",
+        "A.21",
+        "A.22",
+        "A.6.F",
+        "A.6.P",
+        "B.3",
+        "C.11",
+        "C.16",
+        "C.16.P",
+        "C.2.P",
+        "C.25",
+        "C.28",
+        "C.29",
+        "C.30",
+        "C.30.ASV",
+        "C.30.ILC",
+        "C.30.LCA",
+        "C.30.TGA-FLOW-REL",
+        "E.10",
+        "E.10.ARCH",
+        "E.17",
+        "E.8",
+        "J.4"
+      ],
+      "keywords": []
+    },
+    {
       "pattern_id": "C.30.ASV",
       "pattern_title": "Architecture Structural View Adequacy (ASV)",
-      "line_start": 51609,
-      "line_end": 52271,
+      "line_start": 52152,
+      "line_end": 52815,
       "parent_chunk": "by_pattern/C.30.ASV.md",
       "child_chunks": [
         "by_section/C.30.ASV/C.30.ASV__001_intro.md",
@@ -6760,6 +6875,7 @@
         "C.30",
         "C.30.ILC",
         "C.30.LCA",
+        "C.30.P",
         "C.30.TGA-FLOW-REL",
         "E.10",
         "E.10.D2",
@@ -6785,8 +6901,8 @@
     {
       "pattern_id": "C.30.LCA",
       "pattern_title": "Control Structure View Adequacy (LCA)",
-      "line_start": 52272,
-      "line_end": 52524,
+      "line_start": 52816,
+      "line_end": 53068,
       "parent_chunk": "by_pattern/C.30.LCA.md",
       "child_chunks": [
         "by_section/C.30.LCA/C.30.LCA__001_intro.md",
@@ -6834,8 +6950,8 @@
     {
       "pattern_id": "C.30.ILC",
       "pattern_title": "Cross-Scope Architecture Residual Triage",
-      "line_start": 52525,
-      "line_end": 52733,
+      "line_start": 53069,
+      "line_end": 53277,
       "parent_chunk": "by_pattern/C.30.ILC.md",
       "child_chunks": [
         "by_section/C.30.ILC/C.30.ILC__001_intro.md",
@@ -6884,8 +7000,8 @@
     {
       "pattern_id": "C.30.TGA-FLOW-REL",
       "pattern_title": "Architecture/TGA Flow-Structure Relation",
-      "line_start": 52734,
-      "line_end": 52977,
+      "line_start": 53278,
+      "line_end": 53521,
       "parent_chunk": "by_pattern/C.30.TGA-FLOW-REL.md",
       "child_chunks": [
         "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__001_intro.md",
@@ -6936,8 +7052,8 @@
     {
       "pattern_id": "D.5",
       "pattern_title": "Bias-Audit & Ethical Assurance",
-      "line_start": 52978,
-      "line_end": 53152,
+      "line_start": 53522,
+      "line_end": 53696,
       "parent_chunk": "by_pattern/D.5.md",
       "child_chunks": [
         "by_section/D.5/D.5__001_intro.md",
@@ -6973,8 +7089,8 @@
     {
       "pattern_id": "E.1",
       "pattern_title": "Vision & Mission: “Operating System for Thought”",
-      "line_start": 53153,
-      "line_end": 53212,
+      "line_start": 53697,
+      "line_end": 53756,
       "parent_chunk": "by_pattern/E.1.md",
       "child_chunks": [
         "by_section/E.1/E.1__001_intro.md",
@@ -7003,8 +7119,8 @@
     {
       "pattern_id": "E.2",
       "pattern_title": "The Eleven Pillars",
-      "line_start": 53213,
-      "line_end": 53341,
+      "line_start": 53757,
+      "line_end": 53885,
       "parent_chunk": "by_pattern/E.2.md",
       "child_chunks": [
         "by_section/E.2/E.2__001_intro.md",
@@ -7048,8 +7164,8 @@
     {
       "pattern_id": "E.2.DA",
       "pattern_title": "FPF Pillar-Adequacy Evaluation CharacteristicSpace",
-      "line_start": 53342,
-      "line_end": 53717,
+      "line_start": 53886,
+      "line_end": 54261,
       "parent_chunk": "by_pattern/E.2.DA.md",
       "child_chunks": [
         "by_section/E.2.DA/E.2.DA__001_intro.md",
@@ -7084,8 +7200,8 @@
     {
       "pattern_id": "E.3",
       "pattern_title": "Principle Taxonomy & Precedence Model",
-      "line_start": 53718,
-      "line_end": 53870,
+      "line_start": 54262,
+      "line_end": 54414,
       "parent_chunk": "by_pattern/E.3.md",
       "child_chunks": [
         "by_section/E.3/E.3__001_intro.md",
@@ -7121,8 +7237,8 @@
     {
       "pattern_id": "E.4",
       "pattern_title": "FPF Ecosystem Family Architecture",
-      "line_start": 53871,
-      "line_end": 53940,
+      "line_start": 54415,
+      "line_end": 54484,
       "parent_chunk": "by_pattern/E.4.md",
       "child_chunks": [
         "by_section/E.4/E.4__001_intro.md",
@@ -7154,8 +7270,8 @@
     {
       "pattern_id": "E.5",
       "pattern_title": "Four Guard‑Rails of FPF",
-      "line_start": 53941,
-      "line_end": 54042,
+      "line_start": 54485,
+      "line_end": 54586,
       "parent_chunk": "by_pattern/E.5.md",
       "child_chunks": [
         "by_section/E.5/E.5__001_intro.md",
@@ -7190,8 +7306,8 @@
     {
       "pattern_id": "E.5.1",
       "pattern_title": "DevOps Lexical Firewall",
-      "line_start": 54043,
-      "line_end": 54117,
+      "line_start": 54587,
+      "line_end": 54661,
       "parent_chunk": "by_pattern/E.5.1.md",
       "child_chunks": [
         "by_section/E.5.1/E.5.1__001_intro.md",
@@ -7224,8 +7340,8 @@
     {
       "pattern_id": "E.5.2",
       "pattern_title": "Notational Independence",
-      "line_start": 54118,
-      "line_end": 54196,
+      "line_start": 54662,
+      "line_end": 54740,
       "parent_chunk": "by_pattern/E.5.2.md",
       "child_chunks": [
         "by_section/E.5.2/E.5.2__001_intro.md",
@@ -7256,8 +7372,8 @@
     {
       "pattern_id": "E.5.3",
       "pattern_title": "Unidirectional Dependency",
-      "line_start": 54197,
-      "line_end": 54276,
+      "line_start": 54741,
+      "line_end": 54820,
       "parent_chunk": "by_pattern/E.5.3.md",
       "child_chunks": [
         "by_section/E.5.3/E.5.3__001_intro.md",
@@ -7290,8 +7406,8 @@
     {
       "pattern_id": "E.5.4",
       "pattern_title": "Cross‑Disciplinary Bias Audit",
-      "line_start": 54277,
-      "line_end": 54361,
+      "line_start": 54821,
+      "line_end": 54905,
       "parent_chunk": "by_pattern/E.5.4.md",
       "child_chunks": [
         "by_section/E.5.4/E.5.4__001_intro.md",
@@ -7323,8 +7439,8 @@
     {
       "pattern_id": "E.6",
       "pattern_title": "Didactic Architecture of the Specification",
-      "line_start": 54362,
-      "line_end": 54461,
+      "line_start": 54906,
+      "line_end": 55005,
       "parent_chunk": "by_pattern/E.6.md",
       "child_chunks": [
         "by_section/E.6/E.6__001_intro.md",
@@ -7354,8 +7470,8 @@
     {
       "pattern_id": "E.7",
       "pattern_title": "Archetypal Grounding Principle",
-      "line_start": 54462,
-      "line_end": 54545,
+      "line_start": 55006,
+      "line_end": 55089,
       "parent_chunk": "by_pattern/E.7.md",
       "child_chunks": [
         "by_section/E.7/E.7__001_intro.md",
@@ -7387,8 +7503,8 @@
     {
       "pattern_id": "E.8",
       "pattern_title": "FPF Authoring Conventions & Style Guide",
-      "line_start": 54546,
-      "line_end": 55073,
+      "line_start": 55090,
+      "line_end": 55629,
       "parent_chunk": "by_pattern/E.8.md",
       "child_chunks": [
         "by_section/E.8/E.8__001_intro.md",
@@ -7450,8 +7566,8 @@
     {
       "pattern_id": "E.8.ECSPF",
       "pattern_title": "Evaluation CharacteristicSpace FPF Pattern Publication Form",
-      "line_start": 55074,
-      "line_end": 55238,
+      "line_start": 55630,
+      "line_end": 55797,
       "parent_chunk": "by_pattern/E.8.ECSPF.md",
       "child_chunks": [
         "by_section/E.8.ECSPF/E.8.ECSPF__001_intro.md",
@@ -7485,8 +7601,8 @@
     {
       "pattern_id": "E.9",
       "pattern_title": "Design‑Rationale Record (DRR) Method",
-      "line_start": 55239,
-      "line_end": 55588,
+      "line_start": 55798,
+      "line_end": 56147,
       "parent_chunk": "by_pattern/E.9.md",
       "child_chunks": [
         "by_section/E.9/E.9__001_intro.md",
@@ -7523,8 +7639,8 @@
     {
       "pattern_id": "E.9.DA",
       "pattern_title": "DRR Decision-Adequacy Evaluation CharacteristicSpace",
-      "line_start": 55589,
-      "line_end": 56060,
+      "line_start": 56148,
+      "line_end": 56619,
       "parent_chunk": "by_pattern/E.9.DA.md",
       "child_chunks": [
         "by_section/E.9.DA/E.9.DA__001_intro.md",
@@ -7557,8 +7673,8 @@
     {
       "pattern_id": "E.10",
       "pattern_title": "Unified Lexical Rules for FPF (LEX‑BUNDLE)",
-      "line_start": 56061,
-      "line_end": 57632,
+      "line_start": 56620,
+      "line_end": 58218,
       "parent_chunk": "by_pattern/E.10.md",
       "child_chunks": [
         "by_section/E.10/E.10__001_intro.md",
@@ -7603,10 +7719,62 @@
       "keywords": []
     },
     {
+      "pattern_id": "E.10.ARCH",
+      "pattern_title": "Wording-Use Ontological Precision Restoration Architecture",
+      "line_start": 58219,
+      "line_end": 58444,
+      "parent_chunk": "by_pattern/E.10.ARCH.md",
+      "child_chunks": [
+        "by_section/E.10.ARCH/E.10.ARCH__001_intro.md",
+        "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md",
+        "by_section/E.10.ARCH/E.10.ARCH__003_governed-object.md",
+        "by_section/E.10.ARCH/E.10.ARCH__004_distribution-architecture.md",
+        "by_section/E.10.ARCH/E.10.ARCH__005_rationale-and-source-posture.md",
+        "by_section/E.10.ARCH/E.10.ARCH__006_shared-recovery-algorithm.md",
+        "by_section/E.10.ARCH/E.10.ARCH__007_applicability-table.md",
+        "by_section/E.10.ARCH/E.10.ARCH__008_direct-known-target-rule.md",
+        "by_section/E.10.ARCH/E.10.ARCH__009_admission-and-extraction-criterion.md",
+        "by_section/E.10.ARCH/E.10.ARCH__010_receiving-pattern-thin-pointer-rule.md",
+        "by_section/E.10.ARCH/E.10.ARCH__011_name-and-placement-discipline.md",
+        "by_section/E.10.ARCH/E.10.ARCH__012_examples-and-near-misses.md",
+        "by_section/E.10.ARCH/E.10.ARCH__013_conformance-checklist.md",
+        "by_section/E.10.ARCH/E.10.ARCH__014_common-anti-patterns.md",
+        "by_section/E.10.ARCH/E.10.ARCH__015_related-patterns.md",
+        "by_section/E.10.ARCH/E.10.ARCH__016_e-10-arch-end.md"
+      ],
+      "dependencies": [
+        "A.17",
+        "A.18",
+        "A.19",
+        "A.22",
+        "A.6.3.CSC",
+        "A.6.F",
+        "A.6.P",
+        "C.16",
+        "C.16.P",
+        "C.16.Q",
+        "C.2.P",
+        "C.25",
+        "C.27",
+        "C.29",
+        "C.30",
+        "C.30.ASV",
+        "C.30.P",
+        "E.10",
+        "E.19",
+        "E.2",
+        "E.21",
+        "E.8",
+        "F.18",
+        "J.4"
+      ],
+      "keywords": []
+    },
+    {
       "pattern_id": "E.10.P",
       "pattern_title": "Conceptual Prefixes policy & registry",
-      "line_start": 57633,
-      "line_end": 57662,
+      "line_start": 58445,
+      "line_end": 58474,
       "parent_chunk": "by_pattern/E.10.P.md",
       "child_chunks": [
         "by_section/E.10.P/E.10.P__001_intro.md",
@@ -7630,8 +7798,8 @@
     {
       "pattern_id": "E.10.D1",
       "pattern_title": "Lexical Discipline for “Context” (D.CTX)",
-      "line_start": 57663,
-      "line_end": 57854,
+      "line_start": 58475,
+      "line_end": 58666,
       "parent_chunk": "by_pattern/E.10.D1.md",
       "child_chunks": [
         "by_section/E.10.D1/E.10.D1__001_intro.md",
@@ -7675,8 +7843,8 @@
     {
       "pattern_id": "E.10.D2",
       "pattern_title": "Intension–Description–Specification Discipline (I/D/S)",
-      "line_start": 57855,
-      "line_end": 58358,
+      "line_start": 58667,
+      "line_end": 59170,
       "parent_chunk": "by_pattern/E.10.D2.md",
       "child_chunks": [
         "by_section/E.10.D2/E.10.D2__001_intro.md",
@@ -7726,8 +7894,8 @@
     {
       "pattern_id": "E.11",
       "pattern_title": "First-Practical Entry and Pattern-Use Discoverability Discipline",
-      "line_start": 58359,
-      "line_end": 58912,
+      "line_start": 59171,
+      "line_end": 59724,
       "parent_chunk": "by_pattern/E.11.md",
       "child_chunks": [
         "by_section/E.11/E.11__001_intro.md",
@@ -7761,8 +7929,8 @@
     {
       "pattern_id": "E.12",
       "pattern_title": "Didactic Primacy & Cognitive Ergonomics",
-      "line_start": 58913,
-      "line_end": 59001,
+      "line_start": 59725,
+      "line_end": 59813,
       "parent_chunk": "by_pattern/E.12.md",
       "child_chunks": [
         "by_section/E.12/E.12__001_intro.md",
@@ -7788,8 +7956,8 @@
     {
       "pattern_id": "E.13",
       "pattern_title": "Pragmatic Utility & Value Alignment",
-      "line_start": 59002,
-      "line_end": 59094,
+      "line_start": 59814,
+      "line_end": 59906,
       "parent_chunk": "by_pattern/E.13.md",
       "child_chunks": [
         "by_section/E.13/E.13__001_intro.md",
@@ -7820,8 +7988,8 @@
     {
       "pattern_id": "E.14",
       "pattern_title": "Human‑Centric Working‑Model",
-      "line_start": 59095,
-      "line_end": 59396,
+      "line_start": 59907,
+      "line_end": 60208,
       "parent_chunk": "by_pattern/E.14.md",
       "child_chunks": [
         "by_section/E.14/E.14__001_intro.md",
@@ -7857,8 +8025,8 @@
     {
       "pattern_id": "E.15",
       "pattern_title": "Lexical Authoring & Evolution Protocol  (LEX‑AUTH)",
-      "line_start": 59397,
-      "line_end": 59583,
+      "line_start": 60209,
+      "line_end": 60395,
       "parent_chunk": "by_pattern/E.15.md",
       "child_chunks": [
         "by_section/E.15/E.15__001_intro.md",
@@ -7893,8 +8061,8 @@
     {
       "pattern_id": "E.16",
       "pattern_title": "RoC‑Autonomy Budget & Enforcement",
-      "line_start": 59584,
-      "line_end": 59790,
+      "line_start": 60396,
+      "line_end": 60602,
       "parent_chunk": "by_pattern/E.16.md",
       "child_chunks": [
         "by_section/E.16/E.16__001_intro.md",
@@ -7945,8 +8113,8 @@
     {
       "pattern_id": "E.17.0",
       "pattern_title": "U.MultiViewDescribing — Viewpoints, Views & Correspondences",
-      "line_start": 59791,
-      "line_end": 60177,
+      "line_start": 60603,
+      "line_end": 60989,
       "parent_chunk": "by_pattern/E.17.0.md",
       "child_chunks": [
         "by_section/E.17.0/E.17.0__001_intro.md",
@@ -7997,8 +8165,8 @@
     {
       "pattern_id": "E.17.1",
       "pattern_title": "U.ViewpointBundleLibrary - Reusable Viewpoint Bundles",
-      "line_start": 60178,
-      "line_end": 60548,
+      "line_start": 60990,
+      "line_end": 61360,
       "parent_chunk": "by_pattern/E.17.1.md",
       "child_chunks": [
         "by_section/E.17.1/E.17.1__001_intro.md",
@@ -8052,8 +8220,8 @@
     {
       "pattern_id": "E.17.2",
       "pattern_title": "TEVB — Typical Engineering Viewpoints Bundle",
-      "line_start": 60549,
-      "line_end": 60959,
+      "line_start": 61361,
+      "line_end": 61771,
       "parent_chunk": "by_pattern/E.17.2.md",
       "child_chunks": [
         "by_section/E.17.2/E.17.2__001_intro.md",
@@ -8098,8 +8266,8 @@
     {
       "pattern_id": "E.17",
       "pattern_title": "Multi‑View Publication Kit",
-      "line_start": 60960,
-      "line_end": 61569,
+      "line_start": 61772,
+      "line_end": 62381,
       "parent_chunk": "by_pattern/E.17.md",
       "child_chunks": [
         "by_section/E.17/E.17__001_intro.md",
@@ -8146,8 +8314,8 @@
     {
       "pattern_id": "E.17.EFP",
       "pattern_title": "ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces",
-      "line_start": 61570,
-      "line_end": 62078,
+      "line_start": 62382,
+      "line_end": 62890,
       "parent_chunk": "by_pattern/E.17.EFP.md",
       "child_chunks": [
         "by_section/E.17.EFP/E.17.EFP__001_intro.md",
@@ -8190,8 +8358,8 @@
     {
       "pattern_id": "E.17.ID.CR",
       "pattern_title": "ComparativeReading — bounded comparative reading over comparative review units",
-      "line_start": 62079,
-      "line_end": 62920,
+      "line_start": 62891,
+      "line_end": 63732,
       "parent_chunk": "by_pattern/E.17.ID.CR.md",
       "child_chunks": [
         "by_section/E.17.ID.CR/E.17.ID.CR__001_intro.md",
@@ -8239,8 +8407,8 @@
     {
       "pattern_id": "E.17.AUD",
       "pattern_title": "PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly",
-      "line_start": 62921,
-      "line_end": 63215,
+      "line_start": 63733,
+      "line_end": 64027,
       "parent_chunk": "by_pattern/E.17.AUD.md",
       "child_chunks": [
         "by_section/E.17.AUD/E.17.AUD__001_intro.md",
@@ -8290,8 +8458,8 @@
     {
       "pattern_id": "E.17.AUD.LHR",
       "pattern_title": "PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it",
-      "line_start": 63216,
-      "line_end": 63579,
+      "line_start": 64028,
+      "line_end": 64391,
       "parent_chunk": "by_pattern/E.17.AUD.LHR.md",
       "child_chunks": [
         "by_section/E.17.AUD.LHR/E.17.AUD.LHR__001_intro.md",
@@ -8332,8 +8500,8 @@
     {
       "pattern_id": "E.17.AUD.OOTD",
       "pattern_title": "PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity",
-      "line_start": 63580,
-      "line_end": 63896,
+      "line_start": 64392,
+      "line_end": 64708,
       "parent_chunk": "by_pattern/E.17.AUD.OOTD.md",
       "child_chunks": [
         "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__001_intro.md",
@@ -8379,8 +8547,8 @@
     {
       "pattern_id": "E.18",
       "pattern_title": "Transduction Graph Architecture (E.TGA)",
-      "line_start": 63897,
-      "line_end": 64426,
+      "line_start": 64709,
+      "line_end": 65238,
       "parent_chunk": "by_pattern/E.18.md",
       "child_chunks": [
         "by_section/E.18/E.18__001_intro.md",
@@ -8433,8 +8601,8 @@
     {
       "pattern_id": "E.19",
       "pattern_title": "Pattern Quality Gates: Review and Refresh Profiles",
-      "line_start": 64427,
-      "line_end": 65092,
+      "line_start": 65239,
+      "line_end": 65907,
       "parent_chunk": "by_pattern/E.19.md",
       "child_chunks": [
         "by_section/E.19/E.19__001_intro.md",
@@ -8481,8 +8649,8 @@
     {
       "pattern_id": "E.20",
       "pattern_title": "Mechanism Introduction Protocol",
-      "line_start": 65093,
-      "line_end": 65505,
+      "line_start": 65908,
+      "line_end": 66320,
       "parent_chunk": "by_pattern/E.20.md",
       "child_chunks": [
         "by_section/E.20/E.20__001_intro.md",
@@ -8534,8 +8702,8 @@
     {
       "pattern_id": "E.21",
       "pattern_title": "FPF Pattern-Quality Evaluation CharacteristicSpace",
-      "line_start": 65506,
-      "line_end": 66494,
+      "line_start": 66321,
+      "line_end": 67309,
       "parent_chunk": "by_pattern/E.21.md",
       "child_chunks": [
         "by_section/E.21/E.21__001_intro.md",
@@ -8582,8 +8750,8 @@
     {
       "pattern_id": "E.22",
       "pattern_title": "Improvement-Oriented Quality-Read Question Framing",
-      "line_start": 66495,
-      "line_end": 66954,
+      "line_start": 67310,
+      "line_end": 67769,
       "parent_chunk": "by_pattern/E.22.md",
       "child_chunks": [
         "by_section/E.22/E.22__001_intro.md",
@@ -8620,8 +8788,8 @@
     {
       "pattern_id": "E.23",
       "pattern_title": "Quality Improvement Loop Method",
-      "line_start": 66955,
-      "line_end": 67350,
+      "line_start": 67770,
+      "line_end": 68165,
       "parent_chunk": "by_pattern/E.23.md",
       "child_chunks": [
         "by_section/E.23/E.23__001_intro.md",
@@ -8658,8 +8826,8 @@
     {
       "pattern_id": "F.0.1",
       "pattern_title": "Contextual Lexicon Principles",
-      "line_start": 67351,
-      "line_end": 67683,
+      "line_start": 68166,
+      "line_end": 68498,
       "parent_chunk": "by_pattern/F.0.1.md",
       "child_chunks": [
         "by_section/F.0.1/F.0.1__001_intro.md",
@@ -8706,8 +8874,8 @@
     {
       "pattern_id": "F.1",
       "pattern_title": "Domain‑Family Landscape Survey",
-      "line_start": 67684,
-      "line_end": 68017,
+      "line_start": 68499,
+      "line_end": 68832,
       "parent_chunk": "by_pattern/F.1.md",
       "child_chunks": [
         "by_section/F.1/F.1__001_intro.md",
@@ -8756,8 +8924,8 @@
     {
       "pattern_id": "F.2",
       "pattern_title": "Term Harvesting & Normalisation",
-      "line_start": 68018,
-      "line_end": 68333,
+      "line_start": 68833,
+      "line_end": 69148,
       "parent_chunk": "by_pattern/F.2.md",
       "child_chunks": [
         "by_section/F.2/F.2__001_intro.md",
@@ -8801,8 +8969,8 @@
     {
       "pattern_id": "F.3",
       "pattern_title": "Intra‑Context Sense Clustering",
-      "line_start": 68334,
-      "line_end": 68672,
+      "line_start": 69149,
+      "line_end": 69487,
       "parent_chunk": "by_pattern/F.3.md",
       "child_chunks": [
         "by_section/F.3/F.3__001_intro.md",
@@ -8848,8 +9016,8 @@
     {
       "pattern_id": "F.4",
       "pattern_title": "Role Description (RCS + RoleStateGraph + Checklists)",
-      "line_start": 68673,
-      "line_end": 69021,
+      "line_start": 69488,
+      "line_end": 69836,
       "parent_chunk": "by_pattern/F.4.md",
       "child_chunks": [
         "by_section/F.4/F.4__001_intro.md",
@@ -8901,8 +9069,8 @@
     {
       "pattern_id": "F.5",
       "pattern_title": "Naming Discipline for U.Types & Roles",
-      "line_start": 69022,
-      "line_end": 69329,
+      "line_start": 69837,
+      "line_end": 70144,
       "parent_chunk": "by_pattern/F.5.md",
       "child_chunks": [
         "by_section/F.5/F.5__001_intro.md",
@@ -8951,8 +9119,8 @@
     {
       "pattern_id": "F.6",
       "pattern_title": "Role Assignment & Enactment Cycle (Six-Step)",
-      "line_start": 69330,
-      "line_end": 69586,
+      "line_start": 70145,
+      "line_end": 70401,
       "parent_chunk": "by_pattern/F.6.md",
       "child_chunks": [
         "by_section/F.6/F.6__001_intro.md",
@@ -8998,8 +9166,8 @@
     {
       "pattern_id": "F.7",
       "pattern_title": "Concept‑Set Table",
-      "line_start": 69587,
-      "line_end": 69882,
+      "line_start": 70402,
+      "line_end": 70697,
       "parent_chunk": "by_pattern/F.7.md",
       "child_chunks": [
         "by_section/F.7/F.7__001_intro.md",
@@ -9047,8 +9215,8 @@
     {
       "pattern_id": "F.8",
       "pattern_title": "Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)",
-      "line_start": 69883,
-      "line_end": 70226,
+      "line_start": 70698,
+      "line_end": 71041,
       "parent_chunk": "by_pattern/F.8.md",
       "child_chunks": [
         "by_section/F.8/F.8__001_intro.md",
@@ -9097,8 +9265,8 @@
     {
       "pattern_id": "F.9",
       "pattern_title": "Alignment & Bridge across Contexts",
-      "line_start": 70227,
-      "line_end": 70825,
+      "line_start": 71042,
+      "line_end": 71641,
       "parent_chunk": "by_pattern/F.9.md",
       "child_chunks": [
         "by_section/F.9/F.9__001_intro.md",
@@ -9136,8 +9304,8 @@
         "A.6.1",
         "A.6.3.CSC",
         "A.6.9",
-        "A.6.Q",
         "B.3",
+        "C.16.Q",
         "C.25",
         "C.26",
         "C.26.1",
@@ -9170,8 +9338,8 @@
     {
       "pattern_id": "F.9.1",
       "pattern_title": "Bridge Stance Overlay",
-      "line_start": 70826,
-      "line_end": 71020,
+      "line_start": 71642,
+      "line_end": 71835,
       "parent_chunk": "by_pattern/F.9.1.md",
       "child_chunks": [
         "by_section/F.9.1/F.9.1__001_intro.md",
@@ -9201,8 +9369,8 @@
         "A.6.3.CSC",
         "A.6.A",
         "A.6.P",
-        "A.6.Q",
         "B.4.1",
+        "C.16.Q",
         "C.2.2a",
         "C.25",
         "E.17.1",
@@ -9222,8 +9390,8 @@
     {
       "pattern_id": "F.10",
       "pattern_title": "Status Families Mapping (Evidence • Standard • Requirement)",
-      "line_start": 71021,
-      "line_end": 71392,
+      "line_start": 71836,
+      "line_end": 72207,
       "parent_chunk": "by_pattern/F.10.md",
       "child_chunks": [
         "by_section/F.10/F.10__001_intro.md",
@@ -9268,8 +9436,8 @@
     {
       "pattern_id": "F.11",
       "pattern_title": "Method Quartet Harmonisation",
-      "line_start": 71393,
-      "line_end": 71732,
+      "line_start": 72208,
+      "line_end": 72547,
       "parent_chunk": "by_pattern/F.11.md",
       "child_chunks": [
         "by_section/F.11/F.11__001_intro.md",
@@ -9322,8 +9490,8 @@
     {
       "pattern_id": "F.12",
       "pattern_title": "Service Acceptance–Work Evidence Link",
-      "line_start": 71733,
-      "line_end": 72069,
+      "line_start": 72548,
+      "line_end": 72884,
       "parent_chunk": "by_pattern/F.12.md",
       "child_chunks": [
         "by_section/F.12/F.12__001_intro.md",
@@ -9368,8 +9536,8 @@
     {
       "pattern_id": "F.13",
       "pattern_title": "Lexical Continuity & Deprecation",
-      "line_start": 72070,
-      "line_end": 72382,
+      "line_start": 72885,
+      "line_end": 73197,
       "parent_chunk": "by_pattern/F.13.md",
       "child_chunks": [
         "by_section/F.13/F.13__001_intro.md",
@@ -9412,8 +9580,8 @@
     {
       "pattern_id": "F.14",
       "pattern_title": "Anti‑Explosion Control (Roles & Statuses)",
-      "line_start": 72383,
-      "line_end": 72676,
+      "line_start": 73198,
+      "line_end": 73491,
       "parent_chunk": "by_pattern/F.14.md",
       "child_chunks": [
         "by_section/F.14/F.14__001_intro.md",
@@ -9458,8 +9626,8 @@
     {
       "pattern_id": "F.15",
       "pattern_title": "SCR/RSCR Harness for Unification",
-      "line_start": 72677,
-      "line_end": 73069,
+      "line_start": 73492,
+      "line_end": 73884,
       "parent_chunk": "by_pattern/F.15.md",
       "child_chunks": [
         "by_section/F.15/F.15__001_intro.md",
@@ -9503,8 +9671,8 @@
     {
       "pattern_id": "F.16",
       "pattern_title": "Worked‑Example Template (Cross‑Domain)",
-      "line_start": 73070,
-      "line_end": 73374,
+      "line_start": 73885,
+      "line_end": 74189,
       "parent_chunk": "by_pattern/F.16.md",
       "child_chunks": [
         "by_section/F.16/F.16__001_intro.md",
@@ -9546,8 +9714,8 @@
     {
       "pattern_id": "F.17",
       "pattern_title": "Unified Term Sheet (UTS)",
-      "line_start": 73375,
-      "line_end": 73671,
+      "line_start": 74190,
+      "line_end": 74486,
       "parent_chunk": "by_pattern/F.17.md",
       "child_chunks": [
         "by_section/F.17/F.17__001_intro.md",
@@ -9605,8 +9773,8 @@
     {
       "pattern_id": "F.18",
       "pattern_title": "Local‑First Unification Naming Protocol",
-      "line_start": 73672,
-      "line_end": 74513,
+      "line_start": 74487,
+      "line_end": 75328,
       "parent_chunk": "by_pattern/F.18.md",
       "child_chunks": [
         "by_section/F.18/F.18__001_intro.md",
@@ -9655,8 +9823,8 @@
     {
       "pattern_id": "G.Core",
       "pattern_title": "Part G Core Invariants",
-      "line_start": 74514,
-      "line_end": 74955,
+      "line_start": 75329,
+      "line_end": 75770,
       "parent_chunk": "by_pattern/G.Core.md",
       "child_chunks": [
         "by_section/G.Core/G.Core__001_intro.md",
@@ -9698,8 +9866,8 @@
     {
       "pattern_id": "G.0",
       "pattern_title": "Frame Standard and Comparability Governance — CG‑Spec",
-      "line_start": 74956,
-      "line_end": 75299,
+      "line_start": 75771,
+      "line_end": 76114,
       "parent_chunk": "by_pattern/G.0.md",
       "child_chunks": [
         "by_section/G.0/G.0__001_intro.md",
@@ -9759,8 +9927,8 @@
     {
       "pattern_id": "G.1",
       "pattern_title": "CG‑Frame‑Ready Generator",
-      "line_start": 75300,
-      "line_end": 75733,
+      "line_start": 76115,
+      "line_end": 76548,
       "parent_chunk": "by_pattern/G.1.md",
       "child_chunks": [
         "by_section/G.1/G.1__001_intro.md",
@@ -9821,8 +9989,8 @@
     {
       "pattern_id": "G.2",
       "pattern_title": "SoTA Harvester & Synthesis",
-      "line_start": 75734,
-      "line_end": 76237,
+      "line_start": 76549,
+      "line_end": 77052,
       "parent_chunk": "by_pattern/G.2.md",
       "child_chunks": [
         "by_section/G.2/G.2__001_intro.md",
@@ -9881,8 +10049,8 @@
     {
       "pattern_id": "G.3",
       "pattern_title": "CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates",
-      "line_start": 76238,
-      "line_end": 76676,
+      "line_start": 77053,
+      "line_end": 77491,
       "parent_chunk": "by_pattern/G.3.md",
       "child_chunks": [
         "by_section/G.3/G.3__001_intro.md",
@@ -9946,8 +10114,8 @@
     {
       "pattern_id": "G.4",
       "pattern_title": "CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring",
-      "line_start": 76677,
-      "line_end": 77147,
+      "line_start": 77492,
+      "line_end": 77962,
       "parent_chunk": "by_pattern/G.4.md",
       "child_chunks": [
         "by_section/G.4/G.4__001_intro.md",
@@ -10008,8 +10176,8 @@
     {
       "pattern_id": "G.5",
       "pattern_title": "Multi‑Method Dispatcher & MethodFamily Registry",
-      "line_start": 77148,
-      "line_end": 77798,
+      "line_start": 77963,
+      "line_end": 78613,
       "parent_chunk": "by_pattern/G.5.md",
       "child_chunks": [
         "by_section/G.5/G.5__001_intro.md",
@@ -10071,8 +10239,8 @@
     {
       "pattern_id": "G.6",
       "pattern_title": "Evidence Graph & Provenance Ledger",
-      "line_start": 77799,
-      "line_end": 78175,
+      "line_start": 78614,
+      "line_end": 78990,
       "parent_chunk": "by_pattern/G.6.md",
       "child_chunks": [
         "by_section/G.6/G.6__001_intro.md",
@@ -10132,8 +10300,8 @@
     {
       "pattern_id": "G.7",
       "pattern_title": "Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)",
-      "line_start": 78176,
-      "line_end": 78562,
+      "line_start": 78991,
+      "line_end": 79377,
       "parent_chunk": "by_pattern/G.7.md",
       "child_chunks": [
         "by_section/G.7/G.7__001_intro.md",
@@ -10194,8 +10362,8 @@
     {
       "pattern_id": "G.8",
       "pattern_title": "SoS‑LOG Bundles & Maturity Ladders",
-      "line_start": 78563,
-      "line_end": 79031,
+      "line_start": 79378,
+      "line_end": 79846,
       "parent_chunk": "by_pattern/G.8.md",
       "child_chunks": [
         "by_section/G.8/G.8__001_intro.md",
@@ -10247,8 +10415,8 @@
     {
       "pattern_id": "G.9",
       "pattern_title": "Parity / Benchmark Harness",
-      "line_start": 79032,
-      "line_end": 79540,
+      "line_start": 79847,
+      "line_end": 80355,
       "parent_chunk": "by_pattern/G.9.md",
       "child_chunks": [
         "by_section/G.9/G.9__001_intro.md",
@@ -10304,8 +10472,8 @@
     {
       "pattern_id": "G.10",
       "pattern_title": "SoTA Pack Shipping",
-      "line_start": 79541,
-      "line_end": 79944,
+      "line_start": 80356,
+      "line_end": 80759,
       "parent_chunk": "by_pattern/G.10.md",
       "child_chunks": [
         "by_section/G.10/G.10__001_intro.md",
@@ -10366,8 +10534,8 @@
     {
       "pattern_id": "G.11",
       "pattern_title": "Telemetry-Driven Refresh & Decay Orchestrator",
-      "line_start": 79945,
-      "line_end": 80321,
+      "line_start": 80760,
+      "line_end": 81136,
       "parent_chunk": "by_pattern/G.11.md",
       "child_chunks": [
         "by_section/G.11/G.11__001_intro.md",
@@ -10421,8 +10589,8 @@
     {
       "pattern_id": "G.12",
       "pattern_title": "DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)",
-      "line_start": 80322,
-      "line_end": 80732,
+      "line_start": 81137,
+      "line_end": 81547,
       "parent_chunk": "by_pattern/G.12.md",
       "child_chunks": [
         "by_section/G.12/G.12__001_intro.md",
@@ -10474,8 +10642,8 @@
     {
       "pattern_id": "G.13",
       "pattern_title": "External Interop Hooks for SoTA Discipline Packs (conceptual)",
-      "line_start": 80733,
-      "line_end": 81093,
+      "line_start": 81548,
+      "line_end": 81908,
       "parent_chunk": "by_pattern/G.13.md",
       "child_chunks": [
         "by_section/G.13/G.13__001_intro.md",
@@ -10531,8 +10699,8 @@
     {
       "pattern_id": "I.2",
       "pattern_title": "Detailed Walk-throughs",
-      "line_start": 81094,
-      "line_end": 81309,
+      "line_start": 81909,
+      "line_end": 82124,
       "parent_chunk": "by_pattern/I.2.md",
       "child_chunks": [
         "by_section/I.2/I.2__001_intro.md",
@@ -10552,8 +10720,8 @@
     {
       "pattern_id": "J.4",
       "pattern_title": "First Practical Entry Neighborhood Index",
-      "line_start": 81310,
-      "line_end": 81464,
+      "line_start": 82125,
+      "line_end": 82281,
       "parent_chunk": "by_pattern/J.4.md",
       "child_chunks": [
         "by_section/J.4/J.4__001_intro.md",

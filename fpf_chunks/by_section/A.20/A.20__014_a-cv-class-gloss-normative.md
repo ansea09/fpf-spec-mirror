@@ -6,12 +6,12 @@ section_id: "A.20:Appendix"
 section_title: "A — CV Class Gloss (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__014_a-cv-class-gloss-normative.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:Appendix — A — CV Class Gloss (normative)"
-line_start: 28048
-line_end: 28073
+line_start: 27342
+line_end: 27367
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

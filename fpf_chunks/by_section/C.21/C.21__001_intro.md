@@ -6,12 +6,12 @@ section_id: "C.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:intro — Intro"
-line_start: 42892
-line_end: 42901
+line_start: 43193
+line_end: 43202
 dependencies:
   - "A.17"
   - "A.18"

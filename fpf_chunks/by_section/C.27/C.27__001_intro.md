@@ -6,12 +6,12 @@ section_id: "C.27:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:intro — Intro"
-line_start: 46840
-line_end: 46878
+line_start: 47146
+line_end: 47184
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -76,11 +76,11 @@ Bare "support" should not do hidden ontology work in C.27. Use `supportedUse` an
 2. the difference between state, rate, and rate-change changes admissible use;
 3. the text can name at least target, intervention, window, resistance or cost, basis, supported use, and unsupported use or reopen trigger.
 
-Otherwise stop at ordinary prose, a Dyn0 state reading, a Dyn1 rate reading or trend reading, C.16 measurement discipline, `U.Dynamics` model discipline, or the existing FPF pattern that governs the other question.
+Otherwise stop at ordinary prose, a Dyn0 state reading, a Dyn1 rate reading or trend reading, `C.16.P` when characteristic, scale, score, metric, or proxy wording is hidden, C.16 measurement discipline when the measurement construction is already recoverable, `C.16.Q` or `C.25` when overloaded quality wording or a quality-family endpoint is the live issue, `U.Dynamics` model discipline, or the existing FPF pattern that governs the other question.
 
-For local diagnosis or planning, C.27 usually ends with one `Dyn2TemporalClaimAdequacyCard`. Plain references are enough while the use stays local. A local card should normally fit in 5-9 short lines; if it does not, clarify the claim, narrow it, or cite the existing FPF pattern that governs the other question. `RouteRef`, `C16RouteRef`, `G9ParityPlanRef`, and similar references appear only when the use is load-bearing beyond the local note.
+For local diagnosis or planning, C.27 usually ends with one `Dyn2TemporalClaimAdequacyCard`. Plain references are enough while the use stays local. A local card should normally fit in 5-9 short lines; if it does not, clarify the claim, narrow it, or cite the existing FPF pattern that governs the other question. `RouteRef`, `C16RouteRef`, `G9ParityPlanRef`, and similar references appear only when the use is FPF-force-bearing beyond the local note.
 
-**Quick refusals.** "Backlog is 120" is Dyn0; no C.27 record. "Backlog fell 20/week" is Dyn1, with C.16 if the measure is load-bearing; no C.27 record unless a rate-change use appears. "This section accelerates orientation" is ordinary prose unless the `PublicationUnit` carries that acceleration claim as method-effectiveness evidence.
+**Quick refusals.** "Backlog is 120" is Dyn0; no C.27 record. "Backlog fell 20/week" is Dyn1, with C.16 if the measure is FPF-force-bearing; no C.27 record unless a rate-change use appears. "This section accelerates orientation" is ordinary prose unless the `PublicationUnit` carries that acceleration claim as method-effectiveness evidence.
 
 **Dyn2 is not maturity.** Dyn2 classifies the use made of an authored temporal claim, not the system, team, method, or service being described. Higher `DynOrder` is not better; it only says what the authored temporal claim treats as sufficient for supported use.
 

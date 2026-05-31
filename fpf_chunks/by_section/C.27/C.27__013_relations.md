@@ -6,12 +6,12 @@ section_id: "C.27:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__013_relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:12 — Relations"
-line_start: 48748
-line_end: 48902
+line_start: 49054
+line_end: 49208
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -62,7 +62,7 @@ governs that concern and let C.27 state only the temporal-claim adequacy questio
 
 | --- | --- | --- |
 | C.27 itself | First-use entry and exit rule; Dyn0, Dyn1, and Dyn2 distinction; least-demand admissible output sequence; `Dyn2TemporalClaimAdequacyCard`; `Dyn2TemporalClaimProfile` for boundary-crossing claim use; anti-patterns; refresh and reopen triggers. | Nothing outside C.27 is needed when the claim remains only a local temporal-claim adequacy question. |
-| `C.16` | Naming the rate, rate-change, rhythm, recovery, or intervention-effect requirement that the measure is being asked to carry. | Measurement construction, evidence, comparability, units, sampling windows, and admissible metric use. |
+| `C.16.P` / `C.16` | Use `C.16.P` when rate, measure, metric, score, proxy, or base-characteristic wording is not yet recoverable; use `C.16` when the measurement relation is already explicit and the temporal question remains live. | Characteristic, scale, score, unit, comparability, measurement construction, evidence, sampling window, and admissible metric use. C.27 only names the temporal-claim adequacy question. |
 | `C.26` | Keeping ordinary dynamics, measurement, work-effort, rhythm, braking, coasting, and intervention-timing questions outside QL before any residual QL cue is considered. | Residual probe, frame, order, export, or coarsening cue after ordinary C.27, C.16, work, benchmark, and proxy pattern relations. |
 | `A.3.3 U.Dynamics` | Deciding that an authored temporal claim is being used with enough commitment to need a reusable transition-law, simulation, prediction, formal model, or calibrated control relation. | State space, transition law, observation/model constraints, validity discipline, simulation, prediction, and calibrated control model semantics. |
 | `A.19` and `C.16` together | Showing that derivative-like wording needs base characteristic, scale/unit, time base or sampling window, construction method, evidence, and admissible use. | Characteristic-space legality and measurement construction. C.27 does not create a parallel coordinate system. |
@@ -127,7 +127,7 @@ C.27 use does not fill it as a separate form.
 | A.7 strict distinction | C.27 records are authored descriptions of temporal-claim adequacy. | Card/profile content is confused with the described entity, work, dynamics law, or carrier. | Keep described entity, temporal-claim description, and carrier distinct in C.27 and in any neighboring C.27 relation text. |
 | E.10 / F.5 / F.8 naming discipline | C.27 uses local labels and Plain/Tech mapping. | Dyn2, rhythm, force, inertia, speed, or acceleration become new FPF kinds. | Use pattern-local dynamic-claim labels; introduce no new `U.*` kind and no pattern-number-prefixed term. |
 | A.3.3 `U.Dynamics` | C.27 types the authored temporal-claim adequacy question before a formal-model relation is needed. | C.27 steals transition law, simulation, prediction, or reusable control model work. | Keep formal laws, simulations, predictions, and calibrated control models with `U.Dynamics` and evidence/assurance patterns. |
-| A.19 `CharacteristicSpace` | C.27 may point to base characteristic, state reading, rate reading, or rate-change reading. | C.27 informally creates derivative coordinates or spaces. | Use A.19 and C.16 for characteristic-space and measure construction when the reading is load-bearing. |
+| A.19 `CharacteristicSpace` | C.27 may point to base characteristic, state reading, rate reading, or rate-change reading. | C.27 informally creates derivative coordinates or spaces. | Use A.19 and C.16 for characteristic-space and measure construction when the reading is FPF-force-bearing. |
 | C.16 MM-CHR | C.27 cites measures, rate readings, rate-change readings, and evidence. | C.27 invents measurement legality or comparability. | C.16 carries measurement construction; C.27 only names the temporal-claim question and cites the measurement relation. |
 | A.15 / `U.Work` / WorkPlan / MethodDescription | C.27 relates effort timing, intervention, resource envelope, and work trace to a temporal claim. | C.27 stores actual work, assigns plan authority, or treats planned effort as performed work. | Planning/method description carries planned effort; work evidence carries actuals; C.27 records only the temporal-claim adequacy question. |
 | B.1.5 / B.2.4 | C.27 can type the temporal adequacy question when method-composition or capability-emergence prose also claims rate, rhythm, recovery, stabilization, braking, or redirection. | C.27 becomes a method-composition, work-enactment, or emergence pattern. | B.1.5 carries order-sensitive method composition and work enactment; B.2.4 carries meta-functional transition. |

@@ -6,21 +6,22 @@ section_id: "C.25:17"
 section_title: "Migration and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__018_migration-and-boundary-notes.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:17 — Migration and Boundary Notes"
-line_start: 45144
-line_end: 45181
+line_start: 45449
+line_end: 45486
 dependencies:
   - "A.15"
   - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
-  - "A.6.Q"
   - "B.3"
   - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -50,7 +51,7 @@ Legacy phrases such as *quality requirement*, *security requirement*, or *availa
 - choose the endpoint shape first,
 - then bind the requirement or commitment to that explicit head.
 
-`A.6.Q` may still be the entry repair, but `C.25` is the resting place once the engineering quality family has been made explicit.
+`C.16.Q` may still be the entry repair for overloaded quality wording, and `C.16.P` may repair characteristic, scale, score, metric, or proxy wording inside the same statement; `C.25` is the resting place only after the engineering quality family has been made explicit.
 
 #### C.25:17.2 - Boundary to assurance penalties
 
@@ -62,7 +63,7 @@ A report, summary surface, or executive summary may expose only one slice of a Q
 
 #### C.25:15.5 - Serviceability and supportability
 
-Serviceability, supportability, and adjacent family labels often look simple in prose but become composite as soon as operational use is declared. A lawful bundle for this family may need:
+Serviceability, supportability, and adjacent family labels often look simple in prose but become composite as soon as operational use is declared. An admissible bundle for this family may need:
 
 - support-scope slices,
 - measured restoration or service intervals,
@@ -78,4 +79,4 @@ The lesson is the same as elsewhere in `C.25`: once the truth of the family clai
 - viewpoint-fit or architecture-description adequacy claims, which may belong in viewpoint or evaluative-ascription patterns,
 - or selector/objective heads where *quality* means use-value under a search or portfolio frame.
 
-This boundary matters because the same word *quality* appears across those zones. `A.6.Q` may be the common repair entry, but the resting endpoint depends on what is actually being evaluated.
+This boundary matters because the same word *quality* appears across those zones. `C.16.Q` repairs overloaded quality wording, `C.16.P` repairs characteristic, scale, score, metric, or proxy wording when that is the hidden object, and the resting endpoint depends on what is actually being evaluated.

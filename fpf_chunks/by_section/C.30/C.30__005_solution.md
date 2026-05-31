@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30 — Architecture Description Adequacy (ADA)"
   - "C.30:4 — Solution"
-line_start: 51123
-line_end: 51515
+line_start: 51432
+line_end: 51824
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,6 +33,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -177,7 +178,7 @@ The word `architecture` is shorthand only after the described holon, bounded con
 ```text
 ArchitectureNameFormationRule:
 
-If a text says "<X> architecture", then the load-bearing use is conforming only with:
+If a text says "<X> architecture", then the FPF-force-bearing use is conforming only with:
   describedHolonRef,
   boundedContextRef,
   structureKindRef = <X>StructureKind or declared local relation,
@@ -219,7 +220,7 @@ B. ArchitectureStructuralCharacteristic
 
 C. ArchitectureDescriptionAdequacy
    Bearer: ArchitectureDescription@Context / architecture structural view / correspondence model
-   Governing pattern: C.30 / E.17 / A.6.Q / C.16
+   Governing pattern: C.30 / E.17 / C.16.Q / C.16
    Examples: viewpoint coverage, correspondence adequacy, source-return adequacy, description modularity
 ```
 

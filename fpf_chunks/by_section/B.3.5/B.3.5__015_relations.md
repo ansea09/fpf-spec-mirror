@@ -6,12 +6,12 @@ section_id: "B.3.5:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__015_relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:14 — Relations"
-line_start: 32604
-line_end: 32626
+line_start: 31900
+line_end: 31922
 dependencies:
   - "B.3"
   - "C.13"

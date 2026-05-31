@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 67018
-line_end: 67194
+line_start: 67833
+line_end: 68009
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -81,7 +81,7 @@ If no adequate object-under-improvement evaluation exists for the object under i
 
 For NQD/OEE use, the object-under-improvement evaluation can be the declared `Q` side of `C.18` or a governing OEE/NQD neighbour. `E.23` then asks whether object changes produce expected `Q` movement relative to the current comparison set, external candidate set, current non-dominated front, competing candidate set, accepted `SoTA` line, or selected set named by that object-under-improvement evaluation. `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` still govern candidate characteristics, novelty and diversity treatment, descriptor and distance definitions, archive and front semantics, pool policy, selected-set publication, parity, and refresh.
 
-`E.23` does not define the coordinates, floors, values, dominance rules, or measuring instruments. If no object-under-improvement evaluation is declared, the loop cannot start as a quality-improvement loop. First repair the question through `E.22`, repair overloaded quality wording through `A.6.Q`, construct or repair the object-under-improvement evaluation `CharacteristicSpace` through `A.19.ECS`, or select an existing exact object-under-improvement evaluation.
+`E.23` does not define the coordinates, floors, values, dominance rules, or measuring instruments. If no object-under-improvement evaluation is declared, the loop cannot start as a quality-improvement loop. First repair the question through `E.22`, repair overloaded quality wording through `C.16.Q`, construct or repair the object-under-improvement evaluation `CharacteristicSpace` through `A.19.ECS`, or select an existing exact object-under-improvement evaluation.
 
 #### E.23:4.3 - Work order for using this pattern
 

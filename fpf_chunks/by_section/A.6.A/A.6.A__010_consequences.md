@@ -6,12 +6,12 @@ section_id: "A.6.A:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__010_consequences.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:9 — Consequences"
-line_start: 14216
-line_end: 14227
+line_start: 13498
+line_end: 13509
 dependencies:
   - "A.15"
   - "A.16"
@@ -21,10 +21,10 @@ dependencies:
   - "A.3"
   - "A.6.B"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
@@ -48,7 +48,7 @@ keywords:
 **Benefits.**
 This pattern gives FPF an admissible **post-threshold repair record family** for **action-first** discourse. It lets embodied, ecological, latent, interface, and control cues be published without pretending they are already commitments, capabilities, metrics, or work.
 
-It also complements A.6.Q cleanly: A.6.Q repairs **evaluative** ambiguity, while A.6.A repairs **action-inviting** ambiguity.
+It also complements C.16.Q cleanly: C.16.Q repairs **evaluative** ambiguity, while A.6.A repairs **action-inviting** ambiguity.
 
 **Trade-offs / mitigations.**
 The pattern adds authoring overhead and can feel heavy in early exploration.

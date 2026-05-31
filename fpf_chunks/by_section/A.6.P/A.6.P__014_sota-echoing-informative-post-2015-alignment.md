@@ -6,12 +6,12 @@ section_id: "A.6.P:11"
 section_title: "SoTA‑Echoing (informative; post‑2015 alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__014_sota-echoing-informative-post-2015-alignment.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:11 — SoTA‑Echoing (informative; post‑2015 alignment)"
-line_start: 12744
-line_end: 12759
+line_start: 12776
+line_end: 12788
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,9 +25,9 @@ dependencies:
   - "A.6.A"
   - "A.6.B"
   - "A.6.H"
-  - "A.6.Q"
   - "A.6.S"
   - "A.7"
+  - "C.16.Q"
   - "C.2.1"
   - "C.2.2a"
   - "C.26"
@@ -56,17 +56,14 @@ keywords:
 
 ### A.6.P:11 — SoTA‑Echoing (informative; post‑2015 alignment)
 
-**Evidence binding note.** If your Context maintains a SoTA Synthesis Pack for relation-specification authoring or “qualified relations”, cite it here and keep this section consistent. Otherwise, treat the table below as a seed list (informative only).
+A.6.P echoes contemporary practice across independent traditions, while remaining notation-neutral and Context-local. A row is retained only when it changes the A.6.P solution, checklist, boundary, worked case, or reopen condition.
 
-A.6.P echoes contemporary practice across independent traditions, while remaining notation‑neutral and Context-local:
-
-| SoTA practice (post‑2015) | Primary source (post‑2015) | Echo | What A.6.P adds | Adoption stance |
+| Practice basis | Source posture | Echo | What A.6.P adopts or adapts | What A.6.P rejects |
 | --- | --- | --- | --- | --- |
-| Constraint/shape validation over graph assertions | W3C **SHACL** Recommendation (2017) | Separates “assertions” from “constraints” | Couples structural specifications with **lexical guardrails** to prevent prose regression | **Adopt/Adapt** — adopt explicit structural specifications, adapt by binding to Tech↔Plain and rewrite discipline |
-| Qualified statements / reification patterns | **RDF‑star / SPARQL‑star** (2017+) practice family | Reification/qualification when hidden arity appears | Requires explicit **RelationKind** + change‑class lexicon (not just representational qualification) | **Adapt** — representation is not enough without kind selection + change semantics |
-| Architecture views & correspondences | ISO/IEC/IEEE **42010:2022** | Viewpoints and correspondences as first-class concerns | Forces viewpoint discipline inside relation qualification + prohibits silent polarity flips | **Adopt/Adapt** — adopt viewpoint accountability, adapt by embedding it into relation records |
-| Bidirectional transformations / optics | Pickering et al., **Profunctor Optics** (ICFP 2017) and successors | “Pairs of projections + invariants” as stable lenses | Uses optics as conceptual stabilisers for multi‑view relations while keeping Core notation‑neutral | **Adapt** — use as a stabilising lens, not as mandated notation |
-| Compositional modelling (applied category theory) | Fong & Spivak, **Seven Sketches in Compositionality** (2019) | Stable abstract lenses reusable across domains | Embeds lens choice into an authoring discipline with explicit slots + guardrails | **Adapt** — keep the categorical lens didactic; operationalise via SlotSpecs + change lexicon |
+| W3C SHACL Recommendation (2017) for shape validation over RDF graph assertions. | Current-standard/reference support for assertion/constraint separation; not a complete current-best answer for FPF relation precision restoration. | Separates graph assertions from constraints over node/value shapes. | Adopts explicit structural constraint thinking for relation records and mutates `CC-A.6.P-2`: relation claims need explicit SlotSpecs, qualifiers, witness expectations, and admissible use, not only prose assertions. | Rejects treating validation shape notation as the required FPF notation or as a substitute for relation-kind selection and lexical guardrails. |
+| RDF-star / SPARQL-star W3C Community Group Report (2021) and RDF/SPARQL WG current line for quoted triples and statement qualification. | Current practice and working-standardization signal for qualified statements; not stable ontology authority for FPF. | Shows why hidden arity and qualification need explicit representation when statements carry statement-about-statement force. | Adapts the qualification pressure into `RelationKind` plus qualifier slots and change-class lexicon; mutates the hidden-arity and candidate-set examples. | Rejects "reification solves the relation" when kind selection, endpoints, admissible use, and change semantics remain hidden. |
+| ISO/IEC/IEEE 42010:2022 architecture-description practice on viewpoints, model kinds, and correspondences. | Current-standard/reference support for viewpoint accountability and correspondence discipline. | Treats viewpoints and correspondences as first-class description concerns. | Adopts viewpoint accountability for relation qualification and mutates boundary cases involving views, viewpoints, correspondences, and silent polarity flips. | Rejects importing architecture-description ontology as the general relation ontology; architecture-specific cases still go to `C.30`, `C.30.ASV`, or `C.30.P`. |
+| Pickering, Gibbons, and Wu, "Profunctor Optics: Modular Data Accessors" (ICFP 2017) and successor optics practice. | Current formal-lens support for bidirectional view/update intuition; used as a stabilizing lens, not as mandatory notation. | "Pairs of projections plus invariants" makes multi-view relation discipline teachable. | Adapts optics as a didactic stabilizer for multi-view relation repair and mutates the rationale for stable lens -> explicit slots -> change classes. | Rejects requiring profunctor notation or treating formal elegance as proof of admissible relation use. |
+| Fong and Spivak, "Seven Sketches in Compositionality" (2019), as applied-category-theory lineage for compositional modeling. | Lineage and didactic support for compositional lens choice; not by itself current-best support for FPF wording repair. | Shows why stable abstract lenses can be reused across domains. | Adapts compositionality as a reason to keep A.6.P notation-neutral while requiring relation slots and change lexicon; mutates the rationale and teaching examples. | Rejects adding a global category-theory ontology to FPF relation repair. |
 
-These echoes justify why A.6.P is structured as: **stable lens → explicit slots → explicit change classes → lexical guardrails**, rather than “just define the verb”.
-
+These echoes justify why A.6.P is structured as: **stable lens -> explicit slots -> explicit change classes -> lexical guardrails**, rather than "just define the verb". A source row that does not change A.6.P fields, examples, checklist rows, boundaries, or reopen conditions is decorative and should be removed or demoted to lineage outside the SoTA echo.

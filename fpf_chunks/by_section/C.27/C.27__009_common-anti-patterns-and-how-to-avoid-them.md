@@ -6,12 +6,12 @@ section_id: "C.27:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48444
-line_end: 48492
+line_start: 48750
+line_end: 48798
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -69,7 +69,7 @@ Use the negative cases to make non-use easy. They are not profile triggers.
 | Negative case | Correct C.27 outcome |
 | --- | --- |
 | "This section accelerates orientation." | No C.27 record unless the `PublicationUnit` carries that acceleration claim as the basis for a decision, promise, intervention, or comparison. |
-| "The chart shows throughput rising." | Dyn1; C.16 only if the measurement construction is load-bearing. No C.27 record unless a rate-change intervention claim appears. |
+| "The chart shows throughput rising." | Dyn1; C.16 only if the measurement construction is FPF-force-bearing. No C.27 record unless a rate-change intervention claim appears. |
 | "The team has a strong rhythm." | No C.27 record unless rhythm carries a decision-use; then name bearer, anchor, window, evidence proxy, and admissible use. |
 | "We use a dashboard of velocity." | C.16/E.13/C.26.1 when the live issue is measurement, proxy distortion, or probe/publication effect; C.27 only when the dashboard is claimed to change a temporal outcome. |
 | "The model is dynamic." | `U.Dynamics` when a state-space or transition law is being described; no C.27 record unless authored prose makes a rate-change adequacy claim. |
@@ -93,6 +93,6 @@ that trap.
 | Tool-call acceleration theater | More calls or more context are treated as faster reasoning. | Name the target rate-change and stop/replan trigger. |
 | Harmful acceleration | Work is accelerated while safety, ethics, legality, operational-support load, or human wellbeing becomes worse. | Use pattern-reference-only `dyn2HighStakesTemporalMoveRoute?` to name the high-stakes temporal move, window, and unsupported use and cite the assurance, ethics, legal, safety, quality, or wellbeing pattern that governs the other question. |
 | Coasting claim without basis | Continued motion after effort stops is treated as free evidence of success. | Name coasting basis: habit, automation, stored work, learned capability, social norm, commitment momentum, physical inertia, queue pressure, or unknown. |
-| Reversibility fantasy | Effort is removed and the system is assumed to return cleanly. | Include `dyn2DebtHysteresisBlock?` only when supported use depends on residue/reversibility; record `unknown` if needed and bound supported use, with brake/recovery relation when load-bearing. |
+| Reversibility fantasy | Effort is removed and the system is assumed to return cleanly. | Include `dyn2DebtHysteresisBlock?` only when supported use depends on residue/reversibility; record `unknown` if needed and bound supported use, with brake/recovery relation when FPF-force-bearing. |
 
 

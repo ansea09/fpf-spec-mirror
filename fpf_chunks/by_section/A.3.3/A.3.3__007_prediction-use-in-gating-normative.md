@@ -6,12 +6,12 @@ section_id: "A.3.3:6"
 section_title: "Prediction Use In Gating (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__007_prediction-use-in-gating-normative.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:6 — Prediction Use In Gating (normative)"
-line_start: 6463
-line_end: 6470
+line_start: 6466
+line_end: 6473
 dependencies:
   - "A.19"
   - "B.4"

@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52931
-line_end: 52943
+line_start: 53475
+line_end: 53487
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.27:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__012_sota-echoing.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:11 — SoTA-Echoing"
-line_start: 48593
-line_end: 48747
+line_start: 48899
+line_end: 49053
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -75,7 +75,7 @@ SoTA lesson -> FPF obligation map:
 | OPE/safe RL separates behavior policy, evaluation policy, policy overlap, and unsafe-exploration risk. | Do not transfer evidence from policy A to policy B without behavior-policy, evaluation-policy, and `offPolicyRisk`. | `dyn2ControlPolicyRoute?` plus evaluation/control relations. |
 | Causal inference separates intervention timing, comparator/counterfactual, estimand, follow-up, assumptions, and rival causes. | Keep planning/diagnostic Dyn2 distinct from `C.28`-governed causal-use claim. | `C.28` and evidence patterns. |
 | Performative prediction and Goodhart variants show that published targets can change behavior. | Split metric-as-measure, target or incentive use, temporal intervention, and proxy distortion. | C.16, E.13 or an assurance pattern, C.26 only for residual probe or frame cue. |
-| Object-centric process mining shows scalar throughput can hide multi-object interaction. | Recover object types, event trace, interaction note, and aggregation basis when process speed is load-bearing. | Local process evidence/OCPM discipline plus C.27 object-centric trace block. |
+| Object-centric process mining shows scalar throughput can hide multi-object interaction. | Recover object types, event trace, interaction note, and aggregation basis when process speed is FPF-force-bearing. | Local process evidence/OCPM discipline plus C.27 object-centric trace block. |
 | Rhythm research treats rhythm as bearer/anchor/window/proxy/coupling-if-live. | Keep cadence/rhythm claims tied to bearer, anchor, evidence, supported use, and optional coupling only when cross-bearer relation matters. | C.27 rhythm card plus C.16/evidence when measured. |
 | Scaling-law practice separates scale variable, scale window, probe, and elasticity. | Do not infer linear improvement from more data, tokens, calls, reviewers, or capacity. | C.18.1 and G.9 when compared. |
 | Benchmark practice needs parity pins, baselines, freshness, budgets, and comparator editions. | Do not read faster improvement as benchmark superiority without parity plan/report. | G.9. |
@@ -193,7 +193,7 @@ The following lines connect common failures to C.27 action, not to a literature 
 | Popular failure | Modern correction | C.27 action |
 | --- | --- | --- |
 | Past slope is treated as a future control law. | Control/policy claims need horizon, update rule, constraints, and evidence/model relation. | If local, make a `Dyn2TemporalClaimAdequacyCard`; if reusable/control-bearing, include `dyn2ControlPolicyRoute?` and cite `U.Dynamics`, C.16, and assurance patterns as the patterns governing the other question. |
-| Data from one policy/regime is used to justify another. | OPE/RL practice asks behavior policy, evaluation policy, policy-overlap, uncertainty, and unsafe-exploration risk. | Keep ordinary `Dyn2TemporalClaimAdequacyCard` cheap; include `dyn2ControlPolicyRoute?` only when policy transfer is load-bearing. |
+| Data from one policy/regime is used to justify another. | OPE/RL practice asks behavior policy, evaluation policy, policy-overlap, uncertainty, and unsafe-exploration risk. | Keep ordinary `Dyn2TemporalClaimAdequacyCard` cheap; include `dyn2ControlPolicyRoute?` only when policy transfer is FPF-force-bearing. |
 | One effort impulse is treated as the whole dynamic regime. | Dynamic-treatment/regime practice treats some interventions as sequences of decision rules. | Record policy/regime only in active block; do not make every Dyn2 a policy model. |
 | Rate changed after effort, so effort caused it. | Causal inference needs contrast/counterfactual, estimand, timing, outcome, assumptions, rival causes, and design. | Mark planning/diagnostic posture or include `dyn2CausalUseRoute?`; `C.28` causal-use discipline carries the causal-use claim. |
 | Metric improves after publication, so process improved. | Performative or Goodhart cases split measurement, target use, incentive use, proxy distortion, temporal intervention, and residual probe, frame, or export effects. | Include `dyn2MetricTargetEffectBlock?` only for temporal intervention and supported-use change; C.16 carries measurement, E.13 or an assurance pattern carries proxy distortion, and C.26 carries residual probe, frame, or export cue. |

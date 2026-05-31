@@ -6,12 +6,12 @@ section_id: "A.2.5:8"
 section_title: "Enactability & Checklist semantics (how a state is known, now)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__009_enactability-checklist-semantics-how-a-state-is-known-now.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:8 — Enactability & Checklist semantics (how a state is known, now)"
-line_start: 3501
-line_end: 3557
+line_start: 3504
+line_end: 3560
 dependencies:
   - "A.15"
   - "A.2.1"

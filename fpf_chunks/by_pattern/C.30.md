@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30 — Architecture Description Adequacy (ADA)"
-line_start: 51009
-line_end: 51608
+line_start: 51317
+line_end: 51918
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -130,6 +131,7 @@ What C.30 buys in practice: a practitioner can separate architecture claim, sele
 
 Not this pattern when the live question is only structure as such. Use A.22. If it is an architecture structural view, use `C.30.ASV`. If it is a TGA graph, path, or crossing relation, use `E.18` and `C.30.TGA-FLOW-REL` when architecture-flow description is live. If it is evidence, assurance, causal use, gate, work, decision, publication authority, mathematical-lens adequacy, measurement, structural information, structural equivalence, morphism, or discovery aid, use the exact governing pattern or an admitted receiving pattern and keep C.30 only to the architecture-description portion.
 
+Thin precision-restoration pointer: if the live issue is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *layer*, or *functional architecture* names an architecture claim, description, view, carrier, source, structure, or non-architecture receiving object, use `C.30.P` first. Do not copy the `C.30.P` trigger table into C.30; C.30 resumes after the architecture-description claim or exact non-architecture exit is recoverable.
 ### C.30:2 - Problem
 
 Engineering teams use "architecture" for several different things:
@@ -158,7 +160,7 @@ How can FPF describe architecture without:
 
 | Force | Tension |
 | --- | --- |
-| Everyday architecture speech vs FPF kind precision | Engineers need familiar phrases such as functional architecture, physical architecture, and control architecture; load-bearing use recovers described holon, bounded context, selected structure, structure kind, artifact role, and admissible use. |
+| Everyday architecture speech vs FPF kind precision | Engineers need familiar phrases such as functional architecture, physical architecture, and control architecture; FPF-force-bearing use recovers described holon, bounded context, selected structure, structure kind, artifact role, and admissible use. |
 | Architecture claim vs architecture description | A useful architecture description can be mistaken for the architecture claim or for the selected structure. |
 | Multi-view adequacy vs module reduction | Architecture includes functional, flow, control, module/interface, work, role, evidence, information, placement, scale, and declared logical structures; module diagrams are only one structure kind. |
 | Small first move vs full record | The practitioner often needs one architecture question card, not a complete architecture description record set. |
@@ -290,7 +292,7 @@ The word `architecture` is shorthand only after the described holon, bounded con
 ```text
 ArchitectureNameFormationRule:
 
-If a text says "<X> architecture", then the load-bearing use is conforming only with:
+If a text says "<X> architecture", then the FPF-force-bearing use is conforming only with:
   describedHolonRef,
   boundedContextRef,
   structureKindRef = <X>StructureKind or declared local relation,
@@ -332,7 +334,7 @@ B. ArchitectureStructuralCharacteristic
 
 C. ArchitectureDescriptionAdequacy
    Bearer: ArchitectureDescription@Context / architecture structural view / correspondence model
-   Governing pattern: C.30 / E.17 / A.6.Q / C.16
+   Governing pattern: C.30 / E.17 / C.16.Q / C.16
    Examples: viewpoint coverage, correspondence adequacy, source-return adequacy, description modularity
 ```
 
@@ -585,14 +587,14 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
-| **CC-C30-1 Grounded architecture name.** | A load-bearing architecture claim names the described holon, bounded context, selected structures, structure kinds, artifact role, admissible use, and non-admissible use. | Rewrite the phrase through `ArchitectureQuestionCard@Project` or demote it to Plain recognition wording. |
+| **CC-C30-1 Grounded architecture name.** | An FPF-force-bearing architecture claim names the described holon, bounded context, selected structures, structure kinds, artifact role, admissible use, and non-admissible use. | Rewrite the phrase through `ArchitectureQuestionCard@Project` or demote it to Plain recognition wording. |
 | **CC-C30-2 No `U.Architecture`.** | The pattern use does not mint or rely on a root `U.Architecture`. | Use `ArchitectureOf@Context` over selected A.22 structures, or assign the claim to another existing kind. |
 | **CC-C30-3 I/D/S separation.** | Architecture claim, structure, description, view, publication face, carrier, decision, evidence, and work stay distinct. | Downgrade the artifact or carrier to its D/S or publication role and name the claim or non-architecture claim kind separately. |
 | **CC-C30-4 ArchitectureOf record.** | Architecture descriptions and views point through `ArchitectureOf@Context`; the described holon is recovered through `architectureClaimRef.describedHolonRef`. | Add `ArchitectureOf@Context` or split direct holon description from architecture-claim description. |
 | **CC-C30-5 DescriptionContext reuse.** | `ArchitectureDescription@Context` reuses `DescriptionContext` and existing D/S machinery; it does not redefine viewpoint or publication ontology. | Replace local fields with imported D/S fields or assign the publication/view claim to E.17/A.6.3/E.17.0. |
 | **CC-C30-6 Small output before heavy record.** | Ordinary use may stop at `ArchitectureQuestionCard@Project` when one next architecture move and exact governing pattern application is clear. | Remove needless full-record expansion or explain which full-mode trigger is live. |
 | **CC-C30-7 Structure-kind boundary.** | Structural-view claims apply `C.30.ASV`; module, function, flow, control, work, evidence, scale, and decision claims do not collapse into C.30. | Name the structure kind, open the structural view if needed, or assign the claim to the exact governing pattern. |
-| **CC-C30-8 Characteristic assignment.** | Quality, measure, score, metric, modularity, and `ility` wording recovers its bearer and governing pattern before use. | Add `ArchitectureCharacteristicAssignment`, or narrow the sentence to ordinary non-load-bearing recognition. |
+| **CC-C30-8 Characteristic assignment.** | Quality, measure, score, metric, modularity, and `ility` wording recovers its bearer and governing pattern before use. | Add `ArchitectureCharacteristicAssignment`, or narrow the sentence to ordinary non-FPF-force-bearing recognition. |
 | **CC-C30-9 Non-architecture claim kind.** | Evidence, assurance, causal, gate, work, decision, publication-authority, mathematical-lens, measurement, and release claims are assigned to their governing patterns. | Name the exact governing FPF pattern and the live claim kind; do not add fields to C.30 to absorb it. |
 | **CC-C30-10 Useful action.** | The repaired wording leaves a surviving admissible action: name the architecture claim, downgrade an artifact, open an architecture structural view, add a source or reliance relation, return to source, or apply the exact governing pattern that carries the live claim kind. | Restore that action, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 
@@ -615,7 +617,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| Architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use names described holon, context, selected structure, and artifact role when the use is load-bearing. |
+| Architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use names described holon, context, selected structure, and artifact role when the use carries FPF force. |
 | The pattern enables first-principles architecture reasoning without forcing full measurement, synthesis, assurance, or decision machinery. | Some familiar architecture phrases become triggers for quick recovery rather than accepted claims. |
 | Functional, flow, control, module/interface, information, placement, scale, work/evidence, and declared logical structures can coexist without one structure kind swallowing the rest. | Structural-view adequacy moves to `C.30.ASV`, so practitioners may need an explicit view application. |
 | C.29, E.18, LCA, module/interface, evidence, assurance, and gate patterns can supply source or reliance relations for architecture work without becoming architecture ontology. | Exact governing pattern applications are named whenever a source or reliance relation is used beyond description adequacy. |
@@ -635,7 +637,7 @@ The D/S split also preserves plurality. The same architecture claim may have sev
 | Practice or source line | C.30 adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
 | ISO/IEC/IEEE 42010:2022 view, viewpoint, concern, and correspondence discipline | Adopt view/viewpoint/correspondence discipline for architecture descriptions. | Ask for architecture claim, `DescriptionContext`, viewpoint/correspondence posture, and next architecture move before notation-specific records. | Reject tool, notation, or method-description lock-in; FPF holon, episteme, view, and publication split stays governing. |
-| OMG SysML v2 and current MBSE traceability/model-consistency practice | Adapt model-view consistency and traceability as source-return and relation pressure when architecture description or traceability wording is load-bearing. | Use correspondence, source pins, description-reliance relations, and source-return conditions. | Reject model-as-architecture overread and tool dependence. |
+| OMG SysML v2 and current MBSE traceability/model-consistency practice | Adapt model-view consistency and traceability as source-return and relation pressure when architecture description or traceability wording carries FPF force. | Use correspondence, source pins, description-reliance relations, and source-return conditions. | Reject model-as-architecture overread and tool dependence. |
 | SEI views-and-beyond lineage plus current multi-view practice | Keep module, component/connector, runtime interaction, allocation, and placement as separate view pressures. | Do not reduce architecture to module/interface structure; assign structural-view claims to `C.30.ASV`. | Older view taxonomies are lineage and comparison basis, not a second FPF ontology. |
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-agent architecture probing benchmarks | Adapt partial-observability probing, typed edge rules, component-boundary rules, invariant-field semantics, uncertainty or unexplored-region reporting, and probe-as-intervention warning. | A generated code relation graph can supply a source relation for an architecture description or structural view only with claim, source, uncertainty, relation semantics, and source return. | Do not mint `U.CodeSpace`; do not treat probe or benchmark output as architecture adequacy, evidence sufficiency, assurance, or release. |
 | GonzoML neural-network architecture corpus as practitioner operation-language intake | Adopt practitioner architecture-operation language as general architecture material: structural substitution, relation retargeting, dataflow change, path-selection and gating, memory and cache placement, block and layer substitutions, MoE expert-selection, pruning, distillation, NAS, ablation, and compute/memory/latency tradeoffs. | Use the language for architecture-description and architecture-view recognition, TGA flow-structure source relation, module/interface repair, scale characterization, candidate move guidance, and decision-context fields. | Neural-network labels, benchmarks, ablations, pruning masks, search outputs, or distillation success do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
@@ -644,10 +646,11 @@ The D/S split also preserves plurality. The same architecture claim may have sev
 
 ### C.30:12 - Relations
 
-Builds on: `A.22`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D2`, `E.17.0`, `E.17.1`, `E.17`, `E.17.2`, `A.6.P`, `F.18`, `E.10`, and `C.2.P`.
+Builds on: `A.22`, `C.30.P`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D2`, `E.17.0`, `E.17.1`, `E.17`, `E.17.2`, `A.6.P`, `F.18`, `E.10`, and `C.2.P`.
 
 Coordinates with: `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named receiving patterns for architecture decision and candidate-set claims when those claim kinds are live.
 
 Does not replace: A.22 structure carrier, C.30.ASV structural-view adequacy, E.TGA graph/path/crossing discipline, C.29 mathematical-lens adequacy, C.16 characterization, C.25 Q-Bundles, C.28 causal-use support, A.10/G.6 evidence, B.3 assurance, A.20/A.21 gate/release records, A.15 work, C.11 decisions, or E.17 publication.
 
 ### C.30:End
+

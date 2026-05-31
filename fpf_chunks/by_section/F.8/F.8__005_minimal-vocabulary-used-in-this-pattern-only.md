@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Minimal vocabulary (used in this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__005_minimal-vocabulary-used-in-this-pattern-only.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:4 — Minimal vocabulary (used in this pattern only)"
-line_start: 69925
-line_end: 69935
+line_start: 70740
+line_end: 70750
 dependencies:
   - "A.11"
   - "A.7"

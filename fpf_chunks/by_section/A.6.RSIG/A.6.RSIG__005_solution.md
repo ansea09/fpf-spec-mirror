@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__005_solution.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:4 — Solution"
-line_start: 7444
-line_end: 7588
+line_start: 7458
+line_end: 7602
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -135,7 +135,7 @@ Neighbor boundaries remain explicit:
   same recognition entry load is carried through published views;
 - `E.10.D2` and the `E.10 / F.18 / A.6.P` lane govern lexical repair,
   collision checks, and naming survival;
-- `C.25 / A.6.Q` govern formal quality treatment when the discoverability or
+- `C.25 / C.16.Q` govern formal quality treatment when the discoverability or
   recognition claim becomes explicitly evaluative;
 - the relevant authoritative pattern body governs pattern semantics when the
   encountered description is one pattern-local opening.

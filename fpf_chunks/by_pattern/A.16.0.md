@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.0.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
-line_start: 21881
-line_end: 22124
+line_start: 21165
+line_end: 21408
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -18,10 +18,10 @@ dependencies:
   - "A.19"
   - "A.6.A"
   - "A.6.P"
-  - "A.6.Q"
   - "B.4.1"
   - "B.5.2"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.LS"
   - "E.17"
@@ -51,7 +51,7 @@ keywords:
 `C.2.2a`, `A.16`, `A.19`, `E.17`, `E.18`, `E.10`, `F.18`.
 
 **Used by.**
-`A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.Q`, `A.6.A`, `F.9.1`, `E.17.1`.
+`A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9.1`, `E.17.1`.
 
 ### A.16.0:1 - Problem frame
 In engineering, inquiry, operator, and management practice, teams sometimes need more than a local move note. When branch structure, supersession, retirement, handoff, bridge-sensitive loss, or multi-step governing pattern change matters, readers need one place where the history of successive governed `U.Episteme` publications is made explicit.
@@ -152,7 +152,7 @@ Typical docking governing patterns include:
 
 - `A.6.P` for relation repair forms;
 - `A.6.A` for invitation forms;
-- `A.6.Q` for evaluative repair forms;
+- `C.16.Q` for evaluative repair forms;
 - `B.5.2` for later abductive work;
 - `A.15` for method-facing or work-facing forms;
 - `C.25` for endpoint bundle structures.
@@ -225,7 +225,7 @@ The pattern matches contemporary practice in exploratory inquiry, operator-cente
 
 ### A.16.0:12 - Relations
 - Builds on: `C.2.2a`, `A.16`, `A.19`, `E.17`, `E.18`.
-- Coordinates with: `C.2.LS`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `B.5.2`, `A.6.P`, `A.6.Q`, `A.6.A`, `F.9`, `F.9.1`, `E.17.1`.
+- Coordinates with: `C.2.LS`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `B.5.2`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9`, `F.9.1`, `E.17.1`.
 - Constrains: trajectory-account publication, branch visibility, seam publication reading, docking visibility, and anti-pipeline language across the cluster.
 
 ### A.16.0:13 - Worked trajectories

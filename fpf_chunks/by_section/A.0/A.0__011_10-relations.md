@@ -6,12 +6,12 @@ section_id: "A.0:section-010"
 section_title: "10) Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__011_10-relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-010 — 10) Relations"
-line_start: 1000
-line_end: 1007
+line_start: 1003
+line_end: 1010
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

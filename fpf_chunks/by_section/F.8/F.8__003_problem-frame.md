@@ -6,12 +6,12 @@ section_id: "F.8:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__003_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:2 — Problem frame"
-line_start: 69906
-line_end: 69915
+line_start: 70721
+line_end: 70730
 dependencies:
   - "A.11"
   - "A.7"

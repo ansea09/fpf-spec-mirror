@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "ULR regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__017_ulr-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:12 — ULR regression cues (concept-only “diff” triggers)"
-line_start: 57564
-line_end: 57578
+line_start: 58148
+line_end: 58162
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ Re-review your prose when any of these happen:
 * **A “service” statement broadens scope** → check that **acceptance** terms cover the new target; else split the Service.
 * **Recipes gain/lose steps** → update **`MethodDescription`**, not `Service` or `Role` names.
 * **Evidence verbs creep into actor sentences** → re-apply L-rules (documents do not act).
-* **A generic head or support-headed compound acquires load-bearing force** (`comparative`, `safe`, `interactive`, `reliable`, `support`, `supported`, `supporting`, `support-looking`, and similar modifiers or heads) → restore the head kind first, then unpack qualifier or support load before broader publication.
+* **A generic head or support-headed compound acquires FPF-force-bearing force** (`comparative`, `safe`, `interactive`, `reliable`, `support`, `supported`, `supporting`, `support-looking`, and similar modifiers or heads) → restore the head kind first, then unpack qualifier or support force before broader publication.
 * **New token minted** → ensure `LEX.TokenClass` declared; run collision checks; add CharacteristicSpace if enum.
 * **Suffix drift** (e.g., `…Work` on a plan) → fix via **LEX.Morph**.
 * **Cross-Context reuse by label** appears → require a **Bridge** (F.9) or split senses.

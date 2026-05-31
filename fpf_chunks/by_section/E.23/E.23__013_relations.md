@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 67323
-line_end: 67348
+line_start: 68138
+line_end: 68163
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -39,7 +39,7 @@ keywords:
 | `E.2.DA` | Receives whole-FPF or FPF-corpus Pillar-adequacy reads. `E.23` can improve that FPF object under improvement under `E.2.DA`, but `E.2.DA` supplies Pillar coordinates, values, and stop meanings. |
 | `F.18` | Receives durable-name and term-improvement reads through its local lexical quality vector. `E.23` can improve naming candidates under `F.18`, but `F.18` supplies naming coordinates, candidate-front discipline, and name-card meanings. |
 | `C.25` | May supply the Q-Bundle endpoint for engineering quality-family objects under improvement. `E.23` does not create one universal quality score. |
-| `A.6.Q` | Repairs load-bearing ambiguous `quality` wording before a loop can rely on it. `A.6.Q` is not the loop method. |
+| `C.16.Q` | Repairs load-bearing ambiguous `quality` wording before a loop can rely on it. `C.16.Q` is not the loop method. |
 | `C.19.1` | Governs BLP method preference and waiver discipline for general adaptive versus specialized method families. |
 | `C.22.1` | Carries durable task-family adaptation-signature claims produced through an `E.23` loop when threshold, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, or corridor-entry claims are live. |
 | `C.24` | Governs call plans, checkpoint returns, tool-call budgets, stop or replan conditions, and separation between call plan and executed work when an `E.23` loop is enacted through tool-using agents. |

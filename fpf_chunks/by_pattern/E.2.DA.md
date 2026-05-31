@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.2.DA.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
-line_start: 53342
-line_end: 53717
+line_start: 53886
+line_end: 54261
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -41,7 +41,7 @@ Use it when an improvement loop is trying to make FPF easier to enter, search, r
 
 **FPF-local scope.** `E.2.DA` is not a generic quality pattern for any pattern language. It refines `E.2` for FPF. External pattern-language traditions may supply source stance or comparison pressure, but they do not create an intermediate "any pattern language" object-under-improvement evaluation. A non-FPF corpus can use this pattern only after a bounded decision declares that the corpus is being read as an FPF-conformant corpus under `E.2`; otherwise it needs a separate object-under-improvement evaluation.
 
-**Not this pattern when.** Use `E.2` for the Pillars themselves. Use `E.21` for one authored FPF pattern version. Use `E.9.DA` for one `DRR` decision-adequacy claim. Use `E.22` to frame one improvement-oriented quality read. Use `E.23` for the repeated improvement-loop method. Use `E.11` for first-practical entry and pattern-use discoverability. Use `E.10`, `A.6.P`, `C.2.P`, `A.6.Q`, or `F.18` when the live defect is one local wording, relation, source-transfer, quality-term, or durable-name repair. Use `E.8` when the live defect is the authoring form of one pattern body.
+**Not this pattern when.** Use `E.2` for the Pillars themselves. Use `E.21` for one authored FPF pattern version. Use `E.9.DA` for one `DRR` decision-adequacy claim. Use `E.22` to frame one improvement-oriented quality read. Use `E.23` for the repeated improvement-loop method. Use `E.11` for first-practical entry and pattern-use discoverability. Use `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, or `F.18` when the live defect is one local wording, relation, source-transfer, quality-term, or durable-name repair. Use `E.8` when the live defect is the authoring form of one pattern body.
 
 **First useful move.** Name the FPF object under improvement, the working reader and use, the qualification window, and the first Pillar whose realized adequacy may be below the declared floor.
 
@@ -114,7 +114,7 @@ State the FPF-level read as a `FPFPillarAdequacyQBundle`, not as one score and n
 - reading one `DRR`, which stays with `E.9.DA`;
 - framing one read, which stays with `E.22`;
 - running the repeated loop, which stays with `E.23`;
-- local lexical, relation, source-transfer, quality-term, or durable-name repair, which stays with `E.10`, `A.6.P`, `C.2.P`, `A.6.Q`, and `F.18`;
+- local lexical, relation, source-transfer, quality-term, or durable-name repair, which stays with `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, and `F.18`;
 - first-practical entry coordination, which stays with `E.11`;
 - evidence, assurance, gate, work, release, safety, compliance, or project-world claims.
 
@@ -153,7 +153,7 @@ Check these hard filters when live:
 | `useScopeRecoverable` | The use, reader, and qualification window are declared. | `repairBeforeFPFUse` or `admissibleWithNarrowerFPFUse`. |
 | `pillarMeaningPreserved` | Pillar names and meanings are taken from `E.2`, not locally redefined. | Return to `E.2` or hold for Pillar amendment decision. |
 | `localPatternBoundaryPreserved` | The read does not replace `E.21` for one pattern version or `E.9.DA` for one `DRR`. | Return to exact object-under-improvement evaluation. |
-| `precisionRepairDistributed` | Local wording, relation, source-transfer, quality-term, and naming repairs are assigned to exact precision patterns. | Return to `E.10`, `A.6.P`, `C.2.P`, `A.6.Q`, or `F.18`. |
+| `precisionRepairDistributed` | Local wording, relation, source-transfer, quality-term, and naming repairs are assigned to exact precision patterns. | Return to `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, or `F.18`. |
 | `entryAuthoritySeparated` | Entry projections and thin echoes do not define governing pattern semantics. | `repairBeforeFPFUse`. |
 | `firstUsefulMoveSurvives` | Pillar-oriented precision still leaves an admissible reader move, recognition reason, or neighbour exit. | `repairBeforeFPFUse`. |
 | `noSecondOntology` | No entry projection, publication companion, table, review packet, or campaign note carries semantics beside the governing pattern. | `holdForArchitectureDecision` or return to exact pattern. |
@@ -220,7 +220,7 @@ Some corpus-level defects affect several Pillars at once. Use these evidence org
 |---|---|---|
 | `EntryLexiconAndDiscoverabilityCoherence` | `P-1`, `P-2`, `P-5`, `P-6`, `P-7` | `E.11`, `J.4`, `E.8`, `F.18`, `E.10` |
 | `FrontLikeVocabularyGoverningPatternAssignment` | `P-1`, `P-5`, `P-6`, `P-7`, `P-10`, `P-11` | `E.21`, `E.9.DA`, `E.2.DA`, `C.18`, `G.5`, `G.9`, `G.11` |
-| `PrecisionRepairDistribution` | `P-1`, `P-2`, `P-5`, `P-6`, `P-7` | `E.10`, `A.6.P`, `C.2.P`, `A.6.Q`, `F.18` |
+| `PrecisionRepairDistribution` | `P-1`, `P-2`, `P-5`, `P-6`, `P-7` | `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` |
 | `ProjectionAndThinEchoIntegrity` | `P-1`, `P-2`, `P-5`, `P-6`, `P-9` | `E.11`, `E.17`, `J.4`, `I.2` |
 | `SourceContributionAndSoTAPostureClarity` | `P-7`, `P-10`, `P-11` | `E.8`, `E.19`, `E.21`, `E.22`, `E.23`, `A.10` when evidence is live |
 | `MathematicalFirstPrinciplesLensAssignment` | `P-1`, `P-3`, `P-7`, `P-8`, `P-10`, `P-11` | `C.29`, plus exact measurement, causal, bridge, assurance, work, decision, or publication patterns when live |
@@ -366,7 +366,7 @@ This is the same `E.23` method used for pattern versions, `DRR`s, OEE/NQD candid
 | `E.21` | Reads one pattern version; may supply evidence loci but does not read FPF-level Pillar adequacy. |
 | `E.9.DA` | Reads one `DRR`; may supply evidence loci but does not read FPF-level Pillar adequacy. |
 | `E.11`, `J.4`, `E.17`, `I.2` | Govern pattern-entry discoverability, index rows, projection roles, and publication or description role partition. `E.2.DA` reads whether those roles contribute to active Pillar coordinates across the FPF object under improvement. |
-| `E.10`, `A.6.P`, `C.2.P`, `A.6.Q`, `F.18` | Govern exact precision and naming repairs; `E.2.DA` reads their FPF-level Pillar effects. |
+| `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` | Govern exact precision and naming repairs; `E.2.DA` reads their FPF-level Pillar effects. |
 | `E.8`, `E.19` | Authoring form and admission or refresh review remain separate from FPF-level Pillar adequacy values. |
 | `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD archive, pool, selected-set, parity, and refresh semantics when front-like vocabulary crosses into those claims. |
 
@@ -389,7 +389,7 @@ A general "any pattern language" layer would be a weak umbrella unless that lang
 | Current inherited entry and projection source lines | `E.11:11`, plus `J.4` only as thin entry projection | Information-architecture, documentation-mode, taxonomy, human/AI-facing, retrieval, and pattern-validation source lines discipline entry and projection roles. | Supports `EntryLexiconAndDiscoverabilityCoherence`, `ProjectionAndThinEchoIntegrity`, `entryAuthoritySeparated`, and `noSecondOntology` reads for `P1`, `P2`, `P7`, `P9`, and `P10`. | `E.2.DA` does not govern entry rows or projection content; it reads their Pillar effect across the named FPF object under improvement. |
 | Current inherited pattern-quality source lines | `E.21:11` | Multi-coordinate, non-scalar comparison, hidden-loss checks, retrieval-facing evidence, Goodhart/proxy resistance, and QD-style front discipline for one pattern version. | Lets local pattern-quality reads contribute evidence through `ContributionToPillarAdequacy` without averaging local values into FPF adequacy. | `E.2.DA` does not replace `E.21` for one authored pattern version. |
 | Current inherited `DRR` adequacy source lines | `E.9.DA:11` | Decision boundedness, receiving-locus obligation, source-use carry-through, and authoring-history separation for one `DRR`. | Lets `DRR` adequacy reads affect `P1`, `P2`, `P5`, `P8`, `P9`, and `P11` only when the decision result changes the FPF object under improvement. | `E.2.DA` does not replace `E.9.DA` and does not turn campaign process state into Pillar evidence. |
-| Current inherited precision and naming source lines | `E.10:11a`, `A.6.P`, `C.2.P`, `A.6.Q`, `F.18` | Concept, kind, context, local-first naming, precision restoration, and quality-term discipline. | Supports `PrecisionRepairDistribution`, `FrontLikeVocabularyGoverningPatternAssignment`, and `P6LexicalStratificationAdequacy` reads. | Local wording repair remains with the exact lexical, naming, relation, quality-word, or precision pattern. |
+| Current inherited precision and naming source lines | `E.10:11a`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` | Concept, kind, context, local-first naming, precision restoration, and quality-term discipline. | Supports `PrecisionRepairDistribution`, `FrontLikeVocabularyGoverningPatternAssignment`, and `P6LexicalStratificationAdequacy` reads. | Local wording repair remains with the exact lexical, naming, relation, quality-word, or precision pattern. |
 | Current inherited evaluation-space and measurement source lines | `A.19.ECS`, `A.19`, `A.17`, `A.18`, `C.16` | Evaluation characteristic-space construction, `CharacteristicSpace` structure, characteristic and scale discipline, and measurement or metric characterization legality. | Keeps `FPFPillarAdequacyEvaluationCharacteristicSpace`, ordinal value meanings, and non-dominated comparison from becoming hidden measurement, scalar score, or maturity ladder claims. | `E.2.DA` does not invent measurement units, arithmetic, comparability law, or a decision-composition algebra. |
 | Current inherited quality-read and improvement-loop source lines | `E.22:11`, `E.23:11` | Improvement-oriented quality-read purpose framing, proposal portfolios, object-under-improvement evaluation re-read, local stop conditions, and the SkillOpt `arXiv:2605.23904v2` fixed-performer object-version-under-improvement optimization line. | Supplies the framing and repeated-loop neighbours when the object under improvement is FPF-level Pillar adequacy, especially for `P7`, `P10`, and `P11`. | `E.2.DA` does not govern the loop method, candidate generation, selected-set publication, or OEE/NQD archive/front semantics. |
 | Current inherited OEE/NQD and selected-set source lines | `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Archive/front, candidate-pool policy, selected-set publication, parity, and refresh semantics. | Keeps "Pareto", "front", "NQD", "shortlist", "all `5`s", and "exceptional" discoverable without making them synonyms. | Front-like vocabulary is assigned to exact governing patterns before it becomes a claim. |

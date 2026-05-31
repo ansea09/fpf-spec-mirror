@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_archetypal-grounding.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Archetypal grounding"
-line_start: 67195
-line_end: 67222
+line_start: 68010
+line_end: 68037
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -50,7 +50,7 @@ keywords:
 
 **Show, SoTA reach and maintenance.** A pattern draft has ten accepted source or practice lines. A conforming `E.23` loop does not paste ten citations into rationale and call the result `SoTA`. It assigns each line a contribution, keeps contribution strata distinguishable, composes those contributions into one named `SourceComposedResultClaim`, checks whether the object-under-improvement evaluation reads movement toward the externally assigned current front, and records what protected qualities did not get worse. Later source change can reopen the loop to maintain that front.
 
-**Show, overloaded quality wording.** The object under improvement text uses `quality` in a load-bearing way without a recoverable endpoint. `A.6.Q` opens before the loop proceeds. The term is repaired to one exact endpoint or transitional evaluative-ascription form, then `E.23` may use the repaired object-under-improvement evaluation.
+**Show, overloaded quality wording.** The object under improvement text uses `quality` in a load-bearing way without a recoverable endpoint. `C.16.Q` opens before the loop proceeds. The term is repaired to one exact endpoint or transitional evaluative-ascription form, then `E.23` may use the repaired object-under-improvement evaluation.
 
 **Near miss, agent retries until praise.** A tool-using agent keeps trying until the reviewer says the text is better. This is not an `E.23` closure. The loop must name the object under improvement, object-under-improvement evaluation, expected movement, protected trade-offs, cost and risk posture, and re-read result.
 

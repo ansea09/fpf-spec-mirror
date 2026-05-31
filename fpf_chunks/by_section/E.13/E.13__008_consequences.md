@@ -6,12 +6,12 @@ section_id: "E.13:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__008_consequences.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.13 — Pragmatic Utility & Value Alignment"
   - "E.13:7 — Consequences"
-line_start: 59071
-line_end: 59079
+line_start: 59883
+line_end: 59891
 dependencies:
   - "E.12"
   - "E.2"

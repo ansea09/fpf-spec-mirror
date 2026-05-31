@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.2.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
-line_start: 43468
-line_end: 44289
+line_start: 43769
+line_end: 44591
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,10 +20,10 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
-  - "A.6.Q"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.18"
   - "C.19"
   - "C.2.P"
@@ -74,7 +74,7 @@ keywords:
 
 **Do not use this when.** Do not use this pattern as a work plan, method selection, evidence pack, gate decision, autonomy permission, archive, portfolio, selected set, parity report, mathematical adequacy record, or general discussion note. Use the neighboring pattern that carries the live relation.
 
-**Builds on.** `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `A.6.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
+**Builds on.** `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
 
 **Coordinates with.** `C.11`, `C.18`, `C.19`, `C.22.1`, `C.24`, `C.27`, `C.28`, `A.15`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, and `E.18`.
 
@@ -172,7 +172,7 @@ Repair: return to the Thin problem-side action. State the signal, context and sc
 | Characteristics, indicators, scale, unit, or polarity | `A.19` | Characteristic or indicator cue, indicator role, and needed scale or polarity reference. | Indicator admission, scale repair, unit discipline, or characteristic ontology. |
 | Q-bundle or multi-characteristic acceptance basis | `C.25` | Q-bundle cue, acceptance-basis cue, or need for multi-characteristic treatment. | Local Q-bundle definition, acceptance settlement, or quality scalarization. |
 | Parity, comparability, comparator, budget, or window | `G.9` | Parity basis reference, comparator or window cue, or explicit reason parity is not live. | Fair-comparison claim or parity result. |
-| Selected set, shortlist, archive, pool, front, or set-return | `G.5`, `C.18`, `C.19`, `G.11`, `A.6.P:7a`, `A.6.Q` | `setContextRef`, source set kind, selection or retention basis, and non-scalar next move. | Portfolio or archive governance, selected-set authority, single winner, or one readiness score. |
+| Selected set, shortlist, archive, pool, front, or set-return | `G.5`, `C.18`, `C.19`, `G.11`, `A.6.P:7a`, `C.16.Q` | `setContextRef`, source set kind, selection or retention basis, and non-scalar next move. | Portfolio or archive governance, selected-set authority, single winner, or one readiness score. |
 | Local choice among explicit options | `C.11` | Local choice cue and option-set reference when the live issue is choice rather than problem-card completion. | Choice record, chooser authority, or option evaluation. |
 | Method-family selection or method cue | `G.5`, `E.18`, `A.15` | Method-family cue and reason method selection is not yet local work. | Method selection, method description, or selected method authority. |
 | Work planning, performed work, or result record | `A.15`, `A.10`, `G.6`, `B.3` | Work need, performed-work cue, result-record cue, or work-authority exit. | Work plan, work authorization, performed-work record, or result certification. |
@@ -317,7 +317,7 @@ For this decision, `problem` remains an ordinary word in non-load-bearing prose.
 | Problematic situation | Context-bound situation under a viewpoint, domain, constraints, risks, and candidate described entity | Captured only through fields that make the situation reviewable. |
 | Framed problem representation | Problem-side representation of a described entity under context and acceptance constraints | Center of `ProblemCard@Context`; representation-change claims exit to `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, or `E.18` when live. |
 | Candidate problem in archive or live pool | Member of a retained candidate set, pool, archive, or front | Must preserve source set or reference, declared set relation when that exact FPF relation is live, retention basis, budget or window, and review cadence when live. |
-| Selected problem from a set-return treatment | Selected set member or emitted problem-side record under selection basis | `ProblemCard@Context` may carry the selected problem, but selected-set semantics remain with `G.5`, `C.18`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q`. |
+| Selected problem from a set-return treatment | Selected set member or emitted problem-side record under selection basis | `ProblemCard@Context` may carry the selected problem, but selected-set semantics remain with `G.5`, `C.18`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. |
 | Problem ready for selector-facing use | Problem-side record sufficient to emit or bind `TaskSignature` or `TaskKind` | `C.22` use reads the typed anchor; `C.22.2` does not expand `TaskSignature` into a problem-card dump. |
 | Downstream task or execution target | Method known enough for task typing, method-family selection, planning, or performed work | Exits to `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, gates, or evidence patterns as applicable. |
 | E.8 pattern `Problem frame` | Practitioner-recognition section inside a pattern | Not the C.22 problem-side representation. |
@@ -439,7 +439,7 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, l
 | Ranked shortlist | `G.5` only when an admissible order is declared | Preserve ranking basis or narrow to selected set with tie notes. |
 | Selected set | `G.5` | Preserve selected-set output, basis pins, and unknown handling. |
 | Live pool | `C.19` | Preserve pool policy, current treatment, and change trigger. |
-| Set-return | `G.5`, `C.18`, `A.6.Q`, declared comparison records | Preserve set-valued result when total order is not admissible. |
+| Set-return | `G.5`, `C.18`, `C.16.Q`, declared comparison records | Preserve set-valued result when total order is not admissible. |
 
 A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `setContextRef`: the lightweight reference to the source set kind, source reference, selection or retention basis, budget or window, review cadence, and receiving pattern when live. `setContextRef` is a reference field, not a new `SetContext` kind, and is not evidence, gate passage, approval, portfolio object, or work authority.
 
@@ -471,7 +471,7 @@ The local `solvability band` label means a context-bound, non-scalar reading of 
 
 If the band is not supported by a characteristic, Q-bundle, comparison, retention, or capability-context cue, treat Goldilocks wording as informal recognition only and send any selection, set-return, or parity claim to the receiving pattern.
 
-The current receiving family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q`. The relation to `C.22:14` is a role and timing relation inside the same family: `C.22.2` uses the family before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
+The current receiving family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. The relation to `C.22:14` is a role and timing relation inside the same family: `C.22.2` uses the family before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
 
 ### C.22.2:10 - Structure Cue That Improves Formulation
 
@@ -615,7 +615,7 @@ Framing is not wording repair. A framing change is live when described entity, c
 | `G.5` | Selected set, shortlist, method-family or selected-set output. | Selection over transformed representations must preserve the declared object of selection. | Inherited unchanged; cite as receiving pattern. |
 | `G.9` | Parity and comparability. | Comparators and windows must not silently compare different described entities. | Inherited unchanged; cite as receiving pattern. |
 | `G.11` | Freshness, decay, refresh, retirement. | Refresh may preserve, update, or retarget the represented problem under context. | Inherited unchanged; cite as receiving pattern. |
-| `A.6.P` and `A.6.Q` | Restore broad source wording and quality wording. | Semio-heavy source terms require kind and relation recovery before use. | Inherited unchanged; cite as receiving pattern. |
+| `A.6.P` and `C.16.Q` | Restore broad source wording and quality wording. | Semio-heavy source terms require kind and relation recovery before use. | Inherited unchanged; cite as receiving pattern. |
 | `E.17`, `F.9`, `E.18` | Multi-view, bridge, and structural reinterpretation exits. | They carry the relation work when same-entity continuity, bridge, or reinterpretation is live. | Inherited unchanged; cite as receiving pattern. |
 | `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, `A.15` | Evidence, provenance, assurance, gate, autonomy, method, and work exits. | Transformed evidence or work records need the correct relation witness before support is inherited. | Inherited unchanged; cite as receiving patterns. |
 
@@ -632,7 +632,7 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Problem factory, solution factory, and factory-of-factories | Source exposition for three related work families, not FPF process kinds | `C.22.2` covers only the problem-side output. Solution and P2W work exits to `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, and `G.11`; organizational-development or platform-capability questions are outside this pattern. |
 | Characterization protocol: context or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` receiving patterns | `ProblemCard@Context` must cite characterization and comparability basis when live; it must not treat available measurement as admitted indicator. |
 | Indicator roles: admission constraints, optimization objectives for the current cycle, and risk signals | Characteristic and Q-bundle use under selected comparison or acceptance | `C.22.2` must preserve whether an indicator is a mandatory constraint, an optimization objective, or a monitored risk signal when that distinction affects acceptance. |
-| Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q` | `ProblemCard@Context` must preserve source set or reference, selection or retention basis, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is live. |
+| Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` | `ProblemCard@Context` must preserve source set or reference, selection or retention basis, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is live. |
 | Goldilocks as zone-of-growth selection calibrated to current capability and context | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` must not turn Goldilocks into one global difficulty scale or scalar readiness score. |
 | Stepping stones as option value: new actions, tools, data, interfaces, environments, or experiment modes that may expand downstream search | Retained archive, front, or pool member, or selected-set reason | `C.22.2` may record stepping-stone value only with a receiving set-return, archive, or pool pattern and a retention or tie-break basis. |
 | P2W chain: signatures and principles help select formalism, ontology, characterization, and method-family material | `A.6.0`, `A.6.1`, `C.16`, `A.19`, `C.29`, `G.5`, and `E.18` | `C.22.2` supplies problem-side cues and exits; it does not select the formalism, ontology, mechanism, or method family by itself. |
@@ -653,7 +653,7 @@ The following external anchors are adopted or adapted only where they change thi
 |---|---|---|---|
 | Problem framing turns an ill-structured situation into a solvable design problem and requires care because "framing" is ambiguous. | 2025 CEEA paper "Towards a Theoretical Framework of Framing in Engineering Design", `https://doi.org/10.24908/pceea.2025.19713` | Supports deconfliction of symptom, situation, framed problem representation, and task. | Adopted as field and kind-recovery pressure; wording is expressed in current FPF terms. |
 | Strategic problem framing distinguishes symptoms and attention allocation from causal problem formulation. | 2025 Organization Science article "Looking at the Trees to See the Forest: Construal Level Shift in Strategic Problem Framing and Formulation", DOI suffix `2024.19134`, `https://doi.org/10.1287/orsc.2024.19134` | Supports the fields for problem signal, problem hypothesis/cause-theory cue, and improvement check. | Adapted; causal claims still exit to `C.28` plus evidence and support patterns when live. |
-| QD and OEE work supports collections, fronts, archive retention, set-return, and non-single-winner treatment. | 2026 survey "A survey on Quality-Diversity optimization: Approaches, applications, and challenges", `https://www.sciencedirect.com/science/article/pii/S2210650225003979`; QD-as-MOO anchor `https://arxiv.org/abs/2602.00478` checked 2026-05-20 | Supports set-source-reference and Goldilocks docking into current `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q`. | Adopted as field and exit pressure; no local QD or OEE vocabulary or scalar readiness score is introduced. |
+| QD and OEE work supports collections, fronts, archive retention, set-return, and non-single-winner treatment. | 2026 survey "A survey on Quality-Diversity optimization: Approaches, applications, and challenges", `https://www.sciencedirect.com/science/article/pii/S2210650225003979`; QD-as-MOO anchor `https://arxiv.org/abs/2602.00478` checked 2026-05-20 | Supports set-source-reference and Goldilocks docking into current `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. | Adopted as field and exit pressure; no local QD or OEE vocabulary or scalar readiness score is introduced. |
 | Open-ended coding agents use archives, self-improvement, problem variants, evaluator feedback, and stepping-stone retention. | Darwin Godel Machine `https://arxiv.org/abs/2505.22954`, FrontierSmith `https://arxiv.org/abs/2605.14445`, and AlphaEvolve `https://arxiv.org/abs/2506.13131`, all checked 2026-05-20 | Supports record-form, set-source reference, Goldilocks, safe-probe, and freshness fields and exits for archive, problem generation, safe probes, evaluator feedback, no-change and abstain dispositions, and autonomy and evidence boundaries. | Adapted as recent stress/trend pressure; `C.22.2` is not turned into AI-agent doctrine or an AI-agent management pattern. |
 | External AI-agent and autonomy practice increases pressure for evidence, logs, gates, autonomy budgets, and update discipline. | Source presentation plus current FPF autonomy, evidence, and gate patterns | Supports receiving-pattern assignment for support, validation, AI-agent pressure, and safe probing. | Non-load-bearing for the center of `C.22.2`; load-bearing content remains with `E.16`, `A.21`, `A.10`, `G.6`, `B.3`, `A.15`, and `G.11`. |
 
@@ -748,7 +748,7 @@ Next move and tempting wrong-pattern check:
 |---|---|---|
 | AI and human task transfer rework | Stabilize the problem-side record; if agentic call planning or world-affecting action is live, exit to `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` before action. | Treat repeated rework as a work item, a prompt retry instruction, or permission to delegate again. |
 | Musical mastery tempo drift | Name the temporal claim and exit to `C.27` when tempo, rhythm, recovery, lead time, or learning rate changes the next move. | Treat drift or a trend line as an intervention model, method success, or evidence of mastery. |
-| Problem set or Goldilocks selection | Preserve `setContextRef`; send set, parity, refresh, or set-return questions to `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `A.6.Q` when live. | Treat Goldilocks as one readiness score, priority rank, or local selected-set authority. |
+| Problem set or Goldilocks selection | Preserve `setContextRef`; send set, parity, refresh, or set-return questions to `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `C.16.Q` when live. | Treat Goldilocks as one readiness score, priority rank, or local selected-set authority. |
 | Customer-support escalation after a policy or interface change | Stabilize the problem-side record; characterize the signal through `C.16` and `A.19`, and exit to `C.28` if the card claims causal use. | Treat escalation volume as an automatic fix request, staffing plan, release rollback, or evidence that the policy was wrong. |
 | Literature-synthesis anomaly before method selection | Preserve `rivalProblemFormulationRef` when rival frames remain live; exit to `A.10`, `B.3`, `F.9`, `E.18`, or `C.29` when evidence, assurance, bridge, representation, or mathematical structure is live. | Treat the anomaly as proof for a new theory, an accepted research task, or a selected method. |
 
@@ -878,7 +878,8 @@ P2W export from `ProblemCard@Context` does not include:
 
 ### C.22.2:25 - Relations
 
-- Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `A.6.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
+- Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
 - Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, and `E.18`.
 
 ### C.22.2:End
+

@@ -6,12 +6,12 @@ section_id: "A.3.2:10"
 section_title: "Parameterization & variability (templates, defaults, configs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__011_parameterization-variability-templates-defaults-configs.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:10 — Parameterization & variability (templates, defaults, configs)"
-line_start: 6280
-line_end: 6300
+line_start: 6283
+line_end: 6303
 dependencies:
   - "A.1.1"
   - "A.15"

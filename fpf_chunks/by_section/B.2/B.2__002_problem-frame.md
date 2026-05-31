@@ -6,12 +6,12 @@ section_id: "B.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:1 — Problem frame"
-line_start: 30742
-line_end: 30756
+line_start: 30038
+line_end: 30052
 dependencies:
   - "A.1"
   - "A.12"

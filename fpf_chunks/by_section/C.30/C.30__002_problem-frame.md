@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30 — Architecture Description Adequacy (ADA)"
   - "C.30:1 — Problem frame"
-line_start: 51015
-line_end: 51087
+line_start: 51323
+line_end: 51396
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,6 +33,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -125,3 +126,4 @@ What C.30 buys in practice: a practitioner can separate architecture claim, sele
 
 Not this pattern when the live question is only structure as such. Use A.22. If it is an architecture structural view, use `C.30.ASV`. If it is a TGA graph, path, or crossing relation, use `E.18` and `C.30.TGA-FLOW-REL` when architecture-flow description is live. If it is evidence, assurance, causal use, gate, work, decision, publication authority, mathematical-lens adequacy, measurement, structural information, structural equivalence, morphism, or discovery aid, use the exact governing pattern or an admitted receiving pattern and keep C.30 only to the architecture-description portion.
 
+Thin precision-restoration pointer: if the live issue is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *layer*, or *functional architecture* names an architecture claim, description, view, carrier, source, structure, or non-architecture receiving object, use `C.30.P` first. Do not copy the `C.30.P` trigger table into C.30; C.30 resumes after the architecture-description claim or exact non-architecture exit is recoverable.

@@ -6,12 +6,12 @@ section_id: "F.10:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__011_anti-patterns-remedies.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:10 — Anti‑patterns & remedies"
-line_start: 71196
-line_end: 71212
+line_start: 72011
+line_end: 72027
 dependencies:
   - "B.3"
   - "D.CTX"

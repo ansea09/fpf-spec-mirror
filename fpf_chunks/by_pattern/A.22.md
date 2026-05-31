@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
-line_start: 28495
-line_end: 28858
+line_start: 27789
+line_end: 28154
 dependencies:
   - "A.1"
   - "A.10"
@@ -35,6 +35,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -94,6 +95,7 @@ What A.22 buys in practice: a practitioner can name selected structure, name the
 
 Not this pattern when the live question is architecture-description adequacy. Use `C.30`. If the live question is an architecture structural view, use `C.30.ASV`. If it is mathematical-lens adequacy, use `C.29`. If it is evidence, assurance, gate, decision, work, release, or project authority, use the exact governing FPF pattern and keep A.22 only to the structure carrier or structure-view portion.
 
+Thin precision-restoration pointer: if the live issue is still whether wording such as *architecture*, *structure*, *diagram*, *module*, *model*, *view*, *layer*, *stack*, or *functional architecture* is naming a structure, a structure description, an architecture description, a view, a carrier, or another receiving object, use `C.30.P` before applying A.22. Do not copy the `C.30.P` trigger table here; A.22 resumes only after the selected-structure object or structure-view portion is recoverable.
 ### A.22:2 - Problem
 
 FPF needs a carrier for structure that is useful before any one domain ontology, mathematical formalism, architecture notation, or publication form takes over. Working projects often notice that "the structure" is doing real work:
@@ -123,7 +125,7 @@ How can FPF let a practitioner name structure as an intensional object while pre
 | D/S usability vs object confusion | Descriptions and views make structure inspectable, but a useful view can be mistaken for the structure itself. |
 | Mathematical-lens application vs mathematical overread | C.29 lenses can expose structure, but lens output does not become the structure and does not license evidence, causal, assurance, or decision claims by itself. |
 | Architecture dependency vs architecture takeover | Architecture uses selected structure through `C.30`; A.22 does not import architecture as its parent or make every structure an architecture. |
-| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, and stack can remain in Plain prose, but load-bearing use needs recoverable Tech fields and exact FPF pattern applications. |
+| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, and stack can remain in Plain prose, but FPF-force-bearing use needs recoverable Tech fields and exact FPF pattern applications. |
 
 ### A.22:4 - Solution
 
@@ -360,15 +362,15 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
-| **CC-A22-1 Structure carrier.** | A load-bearing structure claim names `candidate:U.Structure` or an existing existing exact FPF carrier; it does not mint an unapproved root kind. | Replace the broad noun with `candidate:U.Structure` or assign the claim to the existing exact FPF carrier. |
-| **CC-A22-2 Non-agentive structure.** | Structure wording does not make the structure act, optimize, prove, decide, warrant, sense, plan, or adapt. | Move agency, proof, decision, or work load to the governing pattern and keep A.22 to selected organization. |
+| **CC-A22-1 Structure carrier.** | An FPF-force-bearing structure claim names `candidate:U.Structure` or an existing existing exact FPF carrier; it does not mint an unapproved root kind. | Replace the broad noun with `candidate:U.Structure` or assign the claim to the existing exact FPF carrier. |
+| **CC-A22-2 Non-agentive structure.** | Structure wording does not make the structure act, optimize, prove, decide, warrant, sense, plan, or adapt. | Move agency, proof, decision, or work claim force to the governing pattern and keep A.22 to selected organization. |
 | **CC-A22-3 Structure-claim reliance reading boundary.** | When source, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is live, the exact A.6.6, source-description, evidence, lens, assurance, causal, gate, decision, or publication ontology is named. | Add the exact governing pattern, relation kind where live, validation boundary, admissible use, and non-admissible use, or mark the reliance phrase as carrying no admissible reliance. |
 | **CC-A22-4 D/S separation.** | A structural description, structural view, extracted view, diagram, table, graph, dashboard, or publication face is not treated as the structure itself. | Downgrade the artifact to description, view, source-description relation, A.6.6 base declaration, carrier, or publication and name the selected structure separately only if it is live. |
 | **CC-A22-5 DescriptionContext reuse.** | D/S records reuse `DescriptionContext`, `U.Episteme`, `U.View`, `A.6.3`, and `E.17` machinery; no second architecture-local description/view ontology is introduced. | Replace local description/view fields with the imported D/S fields or assign the claim to the exact existing pattern. |
 | **CC-A22-6 Source return.** | `SourceReturnCondition` is present when hidden source-side distinctions are used for action, assurance, causal use, legal or regulatory review, comparison, or decision reopening. | Add one source-return condition or narrow the record's admissible use so the hidden distinction is not relied on. |
 | **CC-A22-7 Non-structure claim kind.** | Evidence, assurance, gate, release, causal, dynamics, measurement, work, decision, publication, bridge, and mathematical-lens claims are assigned to their governing patterns. | Name the exact governing FPF locus and the live claim kind; do not add fields to A.22 to absorb it. |
 | **CC-A22-8 Architecture pattern application.** | Architecture claims use `C.30` and `ArchitectureOf@Context`; A.22 does not treat architecture as a root kind or define C.30-specific records. | Open C.30 or a C.30 subpattern and keep A.22 only as the selected-structure carrier and structure-claim reliance reading. |
-| **CC-A22-9 Plain/Tech recovery.** | Plain structure phrases may remain, but if they carry ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility load, the relevant Tech fields and exact FPF pattern applications are recoverable. | Add the missing Tech fields or demote the Plain phrase to ordinary recognition wording. |
+| **CC-A22-9 Plain/Tech recovery.** | Plain structure phrases may remain, but if they carry ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim force, the relevant Tech fields and exact FPF pattern applications are recoverable. | Add the missing Tech fields or demote the Plain phrase to ordinary recognition wording. |
 | **CC-A22-10 Useful action.** | The repair leaves a surviving admissible practitioner move: name the structure, name the exact structure-claim reliance reading, open a structural view, return to source, or apply the exact FPF pattern that carries the live claim kind. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 
 ### A.22:8 - Common Anti-Patterns and How to Avoid Them
@@ -386,7 +388,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| FPF gains a reusable carrier for structure without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use states context, declared substrate or source/base/evidence/lens reading, preserved/lost structure, and non-admissible use when the claim is load-bearing. |
+| FPF gains a reusable carrier for structure without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use states context, declared substrate or source/base/evidence/lens reading, preserved/lost structure, and non-admissible use when the claim carries FPF force. |
 | Structural views become usable without confusing the view, carrier, publication, source object, grounding object, and described object. | Existing loose prose that says "the structure is the diagram" needs repair. |
 | C.29 mathematical lenses and E.18 TGA graphs can supply governed reliance readings for structure claims without becoming structure ontology. | Exact FPF pattern applications are named when evidence, assurance, causality, gate, work, or decision claims are live. |
 | Architecture work can start from selected structure through C.30 instead of forcing architecture to be either a document or a module diagram. | Architecture-specific conformance stays outside A.22, so practitioners may need one extra C.30 application when the architecture-description claim kind is live. |
@@ -414,8 +416,9 @@ The reason to keep C.30 separate is architectural clarity. Architecture is selec
 
 Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, and `F.18`.
 
-Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and named receiving patterns for structure-information, equivalence, and synthesis claims when those claim kinds are live.
+Coordinates with: `C.30.P`, `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and named receiving patterns for structure-information, equivalence, and synthesis claims when those claim kinds are live.
 
 Does not replace: `C.30` for architecture description, `C.29` for mathematical-lens adequacy, `C.16` for measurement and characterization, `C.28` for causal-use support, `B.3` for assurance, `A.10` and `G.6` for evidence, `A.20` and `A.21` for gates and release, `A.15` for work, `C.11` for decisions, or `E.17` for publication.
 
 ### A.22:End
+

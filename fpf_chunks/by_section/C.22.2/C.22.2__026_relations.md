@@ -6,12 +6,12 @@ section_id: "C.22.2:25"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__026_relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:25 — Relations"
-line_start: 44284
-line_end: 44288
+line_start: 44585
+line_end: 44589
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,10 +21,10 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
-  - "A.6.Q"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.18"
   - "C.19"
   - "C.2.P"
@@ -63,6 +63,6 @@ keywords:
 
 ### C.22.2:25 - Relations
 
-- Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `A.6.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
+- Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
 - Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, and `E.18`.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:intro — Intro"
-line_start: 51609
-line_end: 51614
+line_start: 52152
+line_end: 52157
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"

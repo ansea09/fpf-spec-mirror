@@ -6,12 +6,12 @@ section_id: "C.17:17.1"
 section_title: "Cross-scale characteristics need one visible distortion account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__019_cross-scale-characteristics-need-one-visible-distortion-account.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:17.1 — Cross-scale characteristics need one visible distortion account"
-line_start: 41947
-line_end: 41956
+line_start: 42248
+line_end: 42257
 dependencies:
   - "A.1"
   - "A.10"

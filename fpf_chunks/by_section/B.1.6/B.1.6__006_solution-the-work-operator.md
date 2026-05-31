@@ -6,12 +6,12 @@ section_id: "B.1.6:5"
 section_title: "Solution — The Γ\\_work Operator"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__006_solution-the-work-operator.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:5 — Solution — The Γ\\_work Operator"
-line_start: 30506
-line_end: 30569
+line_start: 29802
+line_end: 29865
 dependencies:
   - "A.12"
   - "A.14"

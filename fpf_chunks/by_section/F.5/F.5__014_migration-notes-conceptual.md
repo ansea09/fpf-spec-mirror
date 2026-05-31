@@ -6,12 +6,12 @@ section_id: "F.5:13"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__014_migration-notes-conceptual.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:13 — Migration notes (conceptual)"
-line_start: 69281
-line_end: 69298
+line_start: 70096
+line_end: 70113
 dependencies:
   - "A.11"
   - "A.7"

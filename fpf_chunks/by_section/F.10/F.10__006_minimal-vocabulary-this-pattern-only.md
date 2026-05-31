@@ -6,12 +6,12 @@ section_id: "F.10:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:5 — Minimal vocabulary (this pattern only)"
-line_start: 71071
-line_end: 71083
+line_start: 71886
+line_end: 71898
 dependencies:
   - "B.3"
   - "D.CTX"

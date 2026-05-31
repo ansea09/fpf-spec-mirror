@@ -6,12 +6,12 @@ section_id: "F.17:5"
 section_title: "Minimal Vocabulary (for this pattern)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__006_minimal-vocabulary-for-this-pattern.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:5 — Minimal Vocabulary (for this pattern)"
-line_start: 73431
-line_end: 73445
+line_start: 74246
+line_end: 74260
 dependencies:
   - "A.1.1"
   - "A.11"

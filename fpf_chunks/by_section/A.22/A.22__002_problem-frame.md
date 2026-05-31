@@ -6,12 +6,12 @@ section_id: "A.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:1 — Problem frame"
-line_start: 28501
-line_end: 28533
+line_start: 27795
+line_end: 27828
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,6 +36,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -89,3 +90,4 @@ What A.22 buys in practice: a practitioner can name selected structure, name the
 
 Not this pattern when the live question is architecture-description adequacy. Use `C.30`. If the live question is an architecture structural view, use `C.30.ASV`. If it is mathematical-lens adequacy, use `C.29`. If it is evidence, assurance, gate, decision, work, release, or project authority, use the exact governing FPF pattern and keep A.22 only to the structure carrier or structure-view portion.
 
+Thin precision-restoration pointer: if the live issue is still whether wording such as *architecture*, *structure*, *diagram*, *module*, *model*, *view*, *layer*, *stack*, or *functional architecture* is naming a structure, a structure description, an architecture description, a view, a carrier, or another receiving object, use `C.30.P` before applying A.22. Do not copy the `C.30.P` trigger table here; A.22 resumes only after the selected-structure object or structure-view portion is recoverable.

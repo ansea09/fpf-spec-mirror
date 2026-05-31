@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-line_start: 40961
-line_end: 41379
+line_start: 40260
+line_end: 40681
 dependencies:
   - "A.10"
   - "A.17"
@@ -51,6 +51,7 @@ keywords:
 
 Use this when a value, score, rating, metric label, QL probe output, dashboard reading, or comparison is being treated as meaningful without a visible characteristic, scale, unit, polarity, comparability basis, or evidence pointer. The action is to rebuild the measurement claim as a typed reading: name the subject, bind one characteristic to one scale, state the coordinate or level, declare unit and polarity when they matter, attach the evidence stub, and keep comparison or scoring claims with broader scope, higher evidence requirement, or release/admission use with the exact pattern or specification record that governs that comparison or scoring claim.
 
+Thin precision-restoration pointer: if the live issue is still whether wording such as *metric*, *measure*, *score*, *axis*, *dimension*, *level*, *coordinate*, *quality*, or *stronger/weaker value* names a characteristic, scale, coordinate, score, unit, scoring method, quality-term repair, or another receiving object, use `C.16.P` first. Do not copy the `C.16.P` trigger table here; C.16 resumes after the measurement or characteristic construction is recoverable.
 Useful output: a measurement claim that a reader can interpret and compare only within its declared measurement basis, without turning a convenient number into a free-floating fact.
 
 Metric legality does not make causal use admissible. If a measured value, score, dashboard reading, or metric disparity reaches `CausalUseActivation` by being used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, or causal method superiority, keep the measurement repair in `C.16` and carry the causal-use question, causal-ladder rung, estimand, support basis, support verdict, admissible causal use, and inadmissible causal use in `C.28`.
@@ -400,6 +401,7 @@ Reading: model M on cohort C shows **3.2 pp**; evidence points conceptually to t
 
 ### C.16:12 - Relations & Placement *(Informative)*
 
+**Precision-restoration relation.** `C.16.P` is the first-stage wording-use restoration pattern for characteristic, scale, coordinate, score, metric, axis, dimension, and related characterization wording when the measurement or characteristic object is not yet recoverable. C.16 keeps the measurement substrate and resumes after the bearer, characteristic, scale, coordinate/value, unit, evidence stub, or exact non-C.16 receiving pattern has been recovered.
 **C.27 temporal-claim relation.**
 
 - C.27 may flag: a rate/rate-change reading whose admissible use depends on admissible measurement construction, evidence, sampling window, or finite-difference method.
@@ -452,3 +454,4 @@ Useful outputs:
 > If a mathematical lens depends on measurement construction, scale, unit, polarity, direct comparability, or evidence-stub adequacy, write that support in `C.16` before treating the lens as usable for those measurement-dependent claims. A `C.29` output may state only the measurement-dependent `LensSupportPosture` for the mathematical-lens adequacy claim; it does not construct the measure, make values comparable, or supply an evidence stub. Evidence paths remain `A.10`; assurance remains `B.3`.
 
 ### C.16:End
+

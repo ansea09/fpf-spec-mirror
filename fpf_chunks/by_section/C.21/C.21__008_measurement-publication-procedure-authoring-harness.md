@@ -6,12 +6,12 @@ section_id: "C.21:7"
 section_title: "Measurement & Publication Procedure (authoring harness)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__008_measurement-publication-procedure-authoring-harness.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:7 — Measurement & Publication Procedure (authoring harness)"
-line_start: 43027
-line_end: 43035
+line_start: 43328
+line_end: 43336
 dependencies:
   - "A.17"
   - "A.18"

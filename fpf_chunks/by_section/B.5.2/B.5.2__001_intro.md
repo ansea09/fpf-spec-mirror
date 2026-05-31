@@ -6,12 +6,12 @@ section_id: "B.5.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:intro — Intro"
-line_start: 33141
-line_end: 33154
+line_start: 32436
+line_end: 32449
 dependencies:
   - "A.10"
   - "A.16"
@@ -41,5 +41,5 @@ keywords:
 `B.5 Canonical Reasoning Cycle`, `B.5.1 Exploration`, `B.5.2.0 U.AbductivePrompt`, `A.10`, `B.3.3`.
 
 **Coordinates with.**
-`B.4.1 Observe-Notice-Stabilize-Route` for pre-abductive routing, `A.16` for admissible language-state moves, `A.6.P` for lexical repair before hypothesis publication, and `A.6.Q` / `A.6.A` when the initiating publication face or cue is evaluative or action-inviting rather than explanatory.
+`B.4.1 Observe-Notice-Stabilize-Route` for pre-abductive routing, `A.16` for admissible language-state moves, `A.6.P` for lexical repair before hypothesis publication, and `C.16.Q` / `A.6.A` when the initiating publication face or cue is evaluative or action-inviting rather than explanatory.
 

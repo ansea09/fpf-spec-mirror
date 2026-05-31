@@ -6,12 +6,12 @@ section_id: "F.18:9"
 section_title: "Normative Standard (what must be true)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__010_normative-standard-what-must-be-true.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:9 — Normative Standard (what must be true)"
-line_start: 74017
-line_end: 74062
+line_start: 74832
+line_end: 74877
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

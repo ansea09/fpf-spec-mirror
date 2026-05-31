@@ -6,12 +6,12 @@ section_id: "A.19.CPM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__003_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:1 — Problem frame"
-line_start: 27071
-line_end: 27080
+line_start: 26365
+line_end: 26374
 dependencies:
 keywords:
   - "ComparatorSet"

@@ -6,12 +6,12 @@ section_id: "C.3:12"
 section_title: "Anti‑patterns & how to fix them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__014_anti-patterns-how-to-fix-them.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:12 — Anti‑patterns & how to fix them"
-line_start: 38071
-line_end: 38088
+line_start: 37370
+line_end: 37387
 dependencies:
   - "A.1"
   - "A.2.6"

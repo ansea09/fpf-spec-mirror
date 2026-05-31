@@ -6,12 +6,12 @@ section_id: "F.8:11"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:11 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 70085
-line_end: 70125
+line_start: 70900
+line_end: 70940
 dependencies:
   - "A.11"
   - "A.7"

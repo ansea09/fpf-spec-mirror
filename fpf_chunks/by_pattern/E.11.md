@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 58359
-line_end: 58912
+line_start: 59171
+line_end: 59724
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -72,7 +72,7 @@ Ordinary not-this-pattern boundary:
 - not when the authoritative pattern is already known and the remaining job is
   only didactic order or lexical repair;
 - not when a formal quality claim about discoverability is being made; route
-  that quality claim through `C.25` / `A.6.Q` as applicable.
+  that quality claim through `C.25` / `C.16.Q` as applicable.
 
 ### E.11:2 - Problem
 
@@ -124,7 +124,7 @@ preserve the semantic-name settlement and support-role partition.
 - workflows, process routes, control-flow graphs, prescribed method sequences,
   work handoffs, or runtime execution stops;
 - the governing semantics of referenced patterns;
-- formal quality treatment, which belongs to `C.25` / `A.6.Q` when the claim
+- formal quality treatment, which belongs to `C.25` / `C.16.Q` when the claim
   becomes evaluative;
 - graph ontology in `E.18`.
 
@@ -412,7 +412,7 @@ Live reader phrase:
 
 Plausible but wrong first reading:
 
-- the reader jumps straight to `A.6.P`, `A.6.Q`, `A.6.A`, or `C.25` because
+- the reader jumps straight to `A.6.P`, `C.16.Q`, `A.6.A`, or `C.25` because
   the phrase sounds conceptually important.
 
 Entry repair:
@@ -493,7 +493,7 @@ This pattern counters:
   remains in the pattern's `Problem frame`; `J.4`, `I.2`, lexical support, and
   `README` do not become competing local recognition pattern bodies.
 - **CC-E11-6 Quality boundary.** Formal quality claims about discoverability or
-  recognition apply `C.25` or `A.6.Q` as applicable; `E.11` coordinates
+  recognition apply `C.25` or `C.16.Q` as applicable; `E.11` coordinates
   pattern-entry use, not quality authority.
 - **CC-E11-7 Semantic parity.** Multi-role changes keep entry load, authority,
   boundary, and projection-only status compatible without requiring identical
@@ -571,7 +571,7 @@ retrieval-tooling ontology.
 
 - **Builds on:** `A.6.RSIG`, `E.8`
 - **Coordinates with:** `E.19 / PCP-ENTRY`, `J.4`, `I.2`, `F.17`, `F.18`,
-  `E.10`, `E.6`, `E.7`, `E.12`, `F.16`, `C.25`, `A.6.Q`
+  `E.10`, `E.6`, `E.7`, `E.12`, `F.16`, `C.25`, `C.16.Q`
 - **Constrains:** reader-facing entry support roles for `FPF` and
   `FPF`-conformant pattern languages
 

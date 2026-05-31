@@ -6,12 +6,12 @@ section_id: "E.17.1:15"
 section_title: "Worked Bundle Families"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__016_worked-bundle-families.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:15 — Worked Bundle Families"
-line_start: 60419
-line_end: 60458
+line_start: 61231
+line_end: 61270
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"

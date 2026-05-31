@@ -6,12 +6,12 @@ section_id: "E.17.0:9"
 section_title: "Relations  (informative summary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__010_relations-informative-summary.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:9 — Relations  (informative summary)"
-line_start: 60156
-line_end: 60175
+line_start: 60968
+line_end: 60987
 dependencies:
   - "A.6.2"
   - "A.6.3"

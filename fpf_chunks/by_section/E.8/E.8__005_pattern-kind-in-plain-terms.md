@@ -6,12 +6,12 @@ section_id: "E.8:0.3"
 section_title: "Pattern Kind In Plain Terms"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__005_pattern-kind-in-plain-terms.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.3 — Pattern Kind In Plain Terms"
-line_start: 54584
-line_end: 54592
+line_start: 55128
+line_end: 55136
 dependencies:
   - "E.10"
   - "E.19"
@@ -54,6 +54,6 @@ An FPF pattern is an action-guiding method description for a recurring working s
 
 A pattern is not a procedure, function, API, workflow engine, parameterized call, or checklist bundle. Its `Problem frame`, `Problem`, `Forces`, `Solution`, `Consequences`, worked slices, and anti-patterns carry the guidance. Its `Conformance Checklist` checks whether that guidance has been applied and authored correctly; it must not replace the `Solution` or turn the pattern into a control form.
 
-The primary load-bearing job is constructive method guidance: the pattern must say what the user should do so the recurring error does not arise. Error prevention, auditability, and conformance checks are evidence that the guidance is usable; they are not the pattern's center.
+The primary content-bearing job is constructive method guidance: the pattern must say what the user should do so the recurring error does not arise. Error prevention, auditability, and conformance checks are evidence that the guidance is usable; they are not the pattern's center.
 
 When an action-adjacent pattern classifies wording, a name, a publication face, an explanation class, a comparison unit, or another semio-facing object, that classification is only useful if it returns to action guidance. The pattern must say what use or action is admissible now, what neighboring use or action is not admissible under the current pattern, and which exact neighboring FPF pattern governs the case when the live claim has become work, evidence, gate, decision, assurance, engineering justification, release, or reliance.

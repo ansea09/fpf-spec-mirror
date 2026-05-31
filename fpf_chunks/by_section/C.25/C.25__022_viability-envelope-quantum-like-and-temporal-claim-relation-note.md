@@ -6,21 +6,22 @@ section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 45216
-line_end: 45251
+line_start: 45521
+line_end: 45556
 dependencies:
   - "A.15"
   - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
-  - "A.6.Q"
   - "B.3"
   - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -47,7 +48,7 @@ Use `C.25` when the live question is a quality bundle, "-ility" decomposition, p
 
 Practical reading:
 
-1. Decide whether the quality claim is one lawful Characteristic or a Q-Bundle.
+1. Decide whether the quality claim is one admissible Characteristic or a Q-Bundle.
 2. If it is a bundle, name bearer, scope, measures, qualification window, mechanisms/status, and evidence.
 3. Ask whether the claim is really viability-envelope work: protected promise/function, viable region/bounds, several variables, disturbance, sensors/probes, actuators, boundary conditions, adaptation cost, and failure mode.
 4. If one proxy or bundle is enough, stay in `C.25`.
@@ -73,7 +74,7 @@ Minimum viability-envelope note:
 Useful outputs:
 
 - a Q-Bundle when the issue is quality decomposition;
-- a `C.26.3` envelope-regulation note when probes/actuators/boundary conditions change the lawful viability reading;
+- a `C.26.3` envelope-regulation note when probes/actuators/boundary conditions change the admissible viability reading;
 - a `C.27` temporal-claim adequacy card when rate-change, effort, window, resistance, or cadence changes the admissible use;
 - no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
 

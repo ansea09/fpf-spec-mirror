@@ -6,21 +6,22 @@ section_id: "C.25:14"
 section_title: "Slot Interaction Law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__015_slot-interaction-law.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:14 — Slot Interaction Law"
-line_start: 45030
-line_end: 45057
+line_start: 45335
+line_end: 45362
 dependencies:
   - "A.15"
   - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
-  - "A.6.Q"
   - "B.3"
   - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -61,7 +62,7 @@ A quality claim that depends on rolling windows, observation periods, maintenanc
 
 #### C.25:14.4 - Report-only summary proxies
 
-A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary-surface value or an oversight-facing composite score. Such a proxy is lawful only if:
+A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary-surface value or an oversight-facing composite score. Such a proxy is admissible only if:
 
 - it is explicitly declared as a **report-only proxy**,
 - the underlying bundle slots remain visible,

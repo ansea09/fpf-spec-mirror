@@ -6,12 +6,12 @@ section_id: "A.6.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__003_problem.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism"
   - "A.6.4:2 — Problem"
-line_start: 11550
-line_end: 11576
+line_start: 11564
+line_end: 11590
 dependencies:
   - "A.1"
   - "A.6.2"

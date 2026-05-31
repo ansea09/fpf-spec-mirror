@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.4.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.2.4 — Meta-Functional Transition (MFT)"
-line_start: 31283
-line_end: 31392
+line_start: 30579
+line_end: 30688
 dependencies:
   - "A.3.1"
   - "B.2"

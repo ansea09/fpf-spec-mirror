@@ -1,0 +1,52 @@
+---
+chunk_kind: "child"
+pattern_id: "E.10.ARCH"
+pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+section_id: "E.10.ARCH:8"
+section_title: "Name and placement discipline"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.10.ARCH/E.10.ARCH__011_name-and-placement-discipline.md"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+heading_path:
+  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH:8 — Name and placement discipline"
+line_start: 58380
+line_end: 58389
+dependencies:
+  - "A.17"
+  - "A.18"
+  - "A.19"
+  - "A.22"
+  - "A.6.3.CSC"
+  - "A.6.F"
+  - "A.6.P"
+  - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
+  - "C.2.P"
+  - "C.25"
+  - "C.27"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.30.P"
+  - "E.10"
+  - "E.19"
+  - "E.2"
+  - "E.21"
+  - "E.8"
+  - "F.18"
+  - "J.4"
+keywords:
+---
+
+### E.10.ARCH:8 - Name and placement discipline
+
+`semantic area`, `meaning area`, `pattern area`, `pattern cluster`, `workstream`, `campaign`, `module`, and `branch` are not selected as Tech architecture terms for this distribution.
+
+Plain speech may use "meaning area" or "theme" to help a reader notice that relation, episteme/publication, architecture/structure, characteristic/scale, or quality wording is handled by different patterns. Tech prose must resolve that cue into exact `ontologicalNeighborhood`, `governedObjectKindUseFields`, exact `receivingPattern`, and realization pattern.
+
+`pattern nest` is allowed for ID and placement grouping such as `A.6.*`, `C.16.*`, or `C.30.*`. It is not a semantic parent relation and not an authority relation.
+
+`ReceivingLocusObligationClosure` may appear only as the exact current `E.9.DA` coordinate name. It is not a general obligation kind, locus kind, or restoration vocabulary.
+

@@ -6,17 +6,17 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
-line_start: 70227
-line_end: 70825
+line_start: 71042
+line_end: 71641
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.9"
-  - "A.6.Q"
   - "B.3"
+  - "C.16.Q"
   - "C.25"
   - "C.26"
   - "C.26.1"
@@ -459,7 +459,7 @@ CL penalties feed assurance (R) per **B.3**; safety-critical policies may requir
 
 **Builds on:** E.10.D1 (Context discipline: Context = U.BoundedContext); **F.0.1 (senseFamily guard; Bridge-only crossing)**; F.1 (Contexts fixed); F.2/F.3 (Cells exist); F.7 (rows depend on Bridges); F.8 (thresholds and reuse choice).
 
-**Coordinates with:** `F.9.1` for stance overlays that remain subordinate to bridge cards; `E.17.1` when viewpoint bundles need explicit cross-family correspondence; `A.6.Q` / `C.25` when evaluative endpoints or bundle-shaped quality families cite bridge cards without absorbing bridge semantics.
+**Coordinates with:** `F.9.1` for stance overlays that remain subordinate to bridge cards; `E.17.1` when viewpoint bundles need explicit cross-family correspondence; `C.16.Q` / `C.25` when evaluative endpoints or bundle-shaped quality families cite bridge cards without absorbing bridge semantics.
 
 **Constrains:**
 
@@ -644,3 +644,4 @@ Migration from legacy "same/equivalent/align/map" prose should therefore recover
 > When meaning, substitution, sense cells, direction, `CL`, or Bridge-supported use crosses context, write the `F.9` Bridge Card first. Add the applicable `C.29` output only for mathematical-lens adequacy: candidate mathematical object, lens-mapping posture, preserved and lost structure, exposed invariants or distinctions, support posture, use-rights, and stop condition. Do not duplicate Bridge semantics inside MLA. A Bridge may make a mathematical lens interpretable across contexts without making it substitution-safe.
 
 ### F.9:End
+

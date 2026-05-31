@@ -6,12 +6,12 @@ section_id: "A.2:12"
 section_title: "SoTA-Echoing (post‑2015 alignment, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__013_sota-echoing-post-2015-alignment-informative.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:12 — SoTA-Echoing (post‑2015 alignment, informative)"
-line_start: 1696
-line_end: 1706
+line_start: 1699
+line_end: 1709
 dependencies:
   - "A.1"
   - "A.1.1"

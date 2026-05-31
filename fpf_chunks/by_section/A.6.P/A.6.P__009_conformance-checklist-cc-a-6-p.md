@@ -6,12 +6,12 @@ section_id: "A.6.P:7"
 section_title: "Conformance Checklist (CC‑A.6.P)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__009_conformance-checklist-cc-a-6-p.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:7 — Conformance Checklist (CC‑A.6.P)"
-line_start: 12586
-line_end: 12643
+line_start: 12618
+line_end: 12675
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,9 +25,9 @@ dependencies:
   - "A.6.A"
   - "A.6.B"
   - "A.6.H"
-  - "A.6.Q"
   - "A.6.S"
   - "A.7"
+  - "C.16.Q"
   - "C.2.1"
   - "C.2.2a"
   - "C.26"
@@ -58,14 +58,14 @@ keywords:
 
 A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
 
- > **Note.** This checklist defines conformance for **RPR specialisations** (e.g., A.6.5, A.6.6, A.6.8, A.6.9, A.6.C and future A.6.x patterns). A.6.P itself is the **governing RPR pattern**.
+ > **Note.** This checklist defines conformance for **RPR specialisations** (e.g., A.6.5, A.6.6, A.6.8, A.6.9, A.6.C, and additional admitted A.6.x patterns). A.6.P itself is the **governing RPR pattern**.
 
 1. **CC‑A.6.P‑1 — Lens is explicit.**
    P SHALL name the stable lens used to stabilise the ambiguity cluster and justify its fit.
 
 2. **CC‑A.6.P‑2 — RelationKind is explicit and named through admissible mint-or-reuse.**
    Every in‑scope relation claim SHALL name an explicit RelationKind token, and that token SHALL resolve to a vocabulary entry whose relation specification skeleton publishes (at minimum): polarity (and explicit inverses if needed), participant SlotSpecs `⟨SlotKind, ValueKind, refMode⟩`, qualifier requirements, witness expectations for decision/publication lanes, admissible semantic change classes, and (when applicable) cross-Context or cross-plane policy (Bridge + CL + loss notes). Claims classified under A.6.B SHALL respect A.6.B.
-   When a suitable token does not already exist, authors SHALL mint or document it through **F.18** rather than inventing a one-off label by intuition: **MintNew** is the default, the seed candidate set and NQD-front SHALL be shown, and the final token SHALL be selected from that non-dominated front unless an explicit legacy exception is recorded.
+   When a suitable token does not already exist, authors SHALL mint or document it through **F.18** rather than inventing a one-off label by intuition: **MintNew** is the default, the seed candidate set and NQD-front SHALL be shown, and the final token SHALL be selected from that non-dominated front unless an explicit continuity exception is recorded.
    The relation specification skeleton SHALL also declare admissible **repair options for endpoint kind mismatches** (KindBridge / explicit narrowing / explicit retargeting) and enforce **qualifier placement discipline** (no adjective smuggling).
 
 3. **CC‑A.6.P‑3 — Slot‑explicit instances.**
@@ -86,7 +86,7 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
    `bind/rebind` SHALL be reserved for name binding (Identifier → SlotKind/slot‑instance) and SHALL NOT be used as a synonym for relation edits.
 
 8. **CC‑A.6.P‑8 — Lexical firewall is normative.**
-   P SHALL list red-flag umbrella tokens for the relation pattern and provide rewrite rules; umbrella tokens SHALL NOT function as meaning‑surrogates in Tech/normative prose. If legacy/Plain umbrella wording appears, it SHALL be immediately mapped to an explicit Tech form (`relationKind(…)` or `--relationKind-->`).
+   P SHALL list red-flag umbrella tokens for the relation pattern and provide rewrite rules; umbrella tokens SHALL NOT function as meaning‑surrogates in Tech/normative prose. If retained Plain umbrella wording appears, it SHALL be immediately mapped to an explicit Tech form (`relationKind(…)` or `--relationKind-->`).
 
 9. **CC‑A.6.P‑9 — A.6.B atomicity, classification, and explicit references are respected.**
    Normative text SHALL be decomposed into atomic claims routable to exactly one quadrant (L/A/D/E). Dependencies SHALL be expressed by explicit references (IDs or canonical locations), not paraphrase. No‑upward‑dependency constraints SHALL be preserved.
@@ -101,8 +101,8 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
     If a relation instance crosses Contexts/planes (or requires translation), the carrier SHALL cite Bridge ids + CL policy (and loss notes, when applicable). Label identity or “same anyway” prose SHALL NOT substitute.
 
 13. **CC‑A.6.P‑13 — Disambiguation guide is actionable.**
-    P SHALL include an explicit rewrite/selection guide that maps each red-flag umbrella cluster or generic load-bearing head phrase to candidate head kinds, candidate `RelationKind` tokens, and (when the ambiguity is endpoint-side) candidate endpoint facets/kinds, plus required qualifiers and canonical rewrite forms.
-    The guide SHOULD follow the RPR‑Disambiguation format: **trigger → candidates → discriminating questions/tests → canonical rewrite → L/A/D/E L/A/D/E hooks**.
+    P SHALL include an explicit rewrite/selection guide that maps each red-flag umbrella cluster or generic FPF-force-bearing head phrase to candidate head kinds, candidate `RelationKind` tokens, and (when the ambiguity is endpoint-side) candidate endpoint facets/kinds, plus required qualifiers and canonical rewrite forms.
+    The guide SHOULD follow the RPR‑Disambiguation format: **trigger → candidates → discriminating questions/tests → canonical rewrite → L/A/D/E hooks**.
 
     Where endpoint referential compression is a primary risk, the guide SHOULD also include (or point to) the **Candidate‑Set Note** template (A.6.P:4.0b) so instance‑level reviews have an auditable trail: candidates → selected facet/kind → why.
 
@@ -110,5 +110,5 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
     P SHALL include at least one Tell–Show–Show vignette in a **System** lane and at least one in an **Episteme** lane (per E.8), demonstrating a real ambiguity repair and a relation‑change narration using the change‑class lexicon.
 
 15. **CC‑A.6.P‑15 — Trigger rule is explicit.**
-    P SHALL include an explicit trigger rule (or selection heuristic) stating when the repair load applies and what counts as “in-scope” umbrella relational prose.
+    P SHALL include an explicit trigger rule (or selection heuristic) stating when the repair force applies and what counts as “in-scope” umbrella relational prose.
 

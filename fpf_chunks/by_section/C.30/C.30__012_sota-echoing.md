@@ -6,12 +6,12 @@ section_id: "C.30:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__012_sota-echoing.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30 — Architecture Description Adequacy (ADA)"
   - "C.30:11 — SoTA-Echoing"
-line_start: 51588
-line_end: 51599
+line_start: 51897
+line_end: 51908
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,6 +33,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -57,7 +58,7 @@ keywords:
 | Practice or source line | C.30 adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
 | ISO/IEC/IEEE 42010:2022 view, viewpoint, concern, and correspondence discipline | Adopt view/viewpoint/correspondence discipline for architecture descriptions. | Ask for architecture claim, `DescriptionContext`, viewpoint/correspondence posture, and next architecture move before notation-specific records. | Reject tool, notation, or method-description lock-in; FPF holon, episteme, view, and publication split stays governing. |
-| OMG SysML v2 and current MBSE traceability/model-consistency practice | Adapt model-view consistency and traceability as source-return and relation pressure when architecture description or traceability wording is load-bearing. | Use correspondence, source pins, description-reliance relations, and source-return conditions. | Reject model-as-architecture overread and tool dependence. |
+| OMG SysML v2 and current MBSE traceability/model-consistency practice | Adapt model-view consistency and traceability as source-return and relation pressure when architecture description or traceability wording carries FPF force. | Use correspondence, source pins, description-reliance relations, and source-return conditions. | Reject model-as-architecture overread and tool dependence. |
 | SEI views-and-beyond lineage plus current multi-view practice | Keep module, component/connector, runtime interaction, allocation, and placement as separate view pressures. | Do not reduce architecture to module/interface structure; assign structural-view claims to `C.30.ASV`. | Older view taxonomies are lineage and comparison basis, not a second FPF ontology. |
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-agent architecture probing benchmarks | Adapt partial-observability probing, typed edge rules, component-boundary rules, invariant-field semantics, uncertainty or unexplored-region reporting, and probe-as-intervention warning. | A generated code relation graph can supply a source relation for an architecture description or structural view only with claim, source, uncertainty, relation semantics, and source return. | Do not mint `U.CodeSpace`; do not treat probe or benchmark output as architecture adequacy, evidence sufficiency, assurance, or release. |
 | GonzoML neural-network architecture corpus as practitioner operation-language intake | Adopt practitioner architecture-operation language as general architecture material: structural substitution, relation retargeting, dataflow change, path-selection and gating, memory and cache placement, block and layer substitutions, MoE expert-selection, pruning, distillation, NAS, ablation, and compute/memory/latency tradeoffs. | Use the language for architecture-description and architecture-view recognition, TGA flow-structure source relation, module/interface repair, scale characterization, candidate move guidance, and decision-context fields. | Neural-network labels, benchmarks, ablations, pruning masks, search outputs, or distillation success do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |

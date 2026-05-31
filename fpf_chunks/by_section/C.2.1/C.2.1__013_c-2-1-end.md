@@ -6,12 +6,12 @@ section_id: "C.2.1:End"
 section_title: "C.2.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__013_c-2-1-end.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:End — C.2.1:End"
-line_start: 34860
-line_end: 34860
+line_start: 34154
+line_end: 34154
 dependencies:
   - "A.1"
   - "A.6.2"

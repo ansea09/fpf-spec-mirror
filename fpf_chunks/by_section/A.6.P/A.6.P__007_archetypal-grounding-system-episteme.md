@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__007_archetypal-grounding-system-episteme.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:5 — Archetypal Grounding (System / Episteme)"
-line_start: 12486
-line_end: 12575
+line_start: 12518
+line_end: 12607
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,9 +25,9 @@ dependencies:
   - "A.6.A"
   - "A.6.B"
   - "A.6.H"
-  - "A.6.Q"
   - "A.6.S"
   - "A.7"
+  - "C.16.Q"
   - "C.2.1"
   - "C.2.2a"
   - "C.26"
@@ -88,7 +88,7 @@ sameDeliverySystemUnder(
 
 aggregationAdmissibleIff(
   relationRef  = RelationRef(sameDeliverySystemUnder, SystemRef(staging_delivery_system), SystemRef(prod_delivery_system), ed=…),
-  target       = deliveryWorkMetrics,                   // actuals
+  aggregatedActuals = deliveryWorkMetrics,              // actuals
   Γ_time       = interval[2025-12-01, 2026-01-31],
   witnesses    = {metricCarrierPins, incidentLogPins}   // evidence carriers for the actuals
 )

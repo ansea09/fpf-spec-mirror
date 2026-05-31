@@ -6,12 +6,12 @@ section_id: "A.6.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__011_rationale.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:10 — Rationale"
-line_start: 14228
-line_end: 14254
+line_start: 13510
+line_end: 13536
 dependencies:
   - "A.15"
   - "A.16"
@@ -21,10 +21,10 @@ dependencies:
   - "A.3"
   - "A.6.B"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
@@ -63,7 +63,7 @@ without forcing them into one false universal vocabulary.
 
 It also keeps the larger architecture clean:
 
-* **A.6.Q** governs evaluative repairs,
+* **C.16.Q** governs evaluative repairs,
 * **A.6.A** governs action-invitation repairs,
 * **A.6.B** governs boundary routing,
 * **A.15** governs enactment and work,

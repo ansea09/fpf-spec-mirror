@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance checklist"
-line_start: 67229
-line_end: 67253
+line_start: 68044
+line_end: 68068
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -41,7 +41,7 @@ keywords:
 | `CC-E23-7` | Every operation family selected for a loop SHALL name expected object-under-improvement evaluation movement, failure mode, cost and risk reason, protected trade-offs, and stop or removal condition. | Blocks automatic bureaucracy and optional-operation drift. |
 | `CC-E23-8` | A method-family selection SHALL state the characteristic-space fit and BLP cost boundary for the object under improvement. | Prevents importing PDCA or PDSA, POOGI, OODA, Ralph-like, or specialized cycles as universal sequences. |
 | `CC-E23-9` | A loop SHALL record protected trade-offs and what got worse whenever visible coordinates improve. | Prevents Goodhart-style improvement. |
-| `CC-E23-10` | A loop SHALL keep `A.19.ECS`, `E.21`, `E.9.DA`, `E.2.DA`, `F.18`, `C.25`, `A.6.Q`, `C.19.1`, `C.22.1`, and `C.24` in their governed roles when those roles are live. | Prevents neighbour theft. |
+| `CC-E23-10` | A loop SHALL keep `A.19.ECS`, `E.21`, `E.9.DA`, `E.2.DA`, `F.18`, `C.25`, `C.16.Q`, `C.19.1`, `C.22.1`, and `C.24` in their governed roles when those roles are live. | Prevents neighbour theft. |
 | `CC-E23-11` | A loop result SHALL NOT be reused as evidence, assurance, gate, release, safety, compliance, or work authority without opening the exact neighbouring FPF pattern for that claim. | Keeps project-side claims out of the improvement method. |
 | `CC-E23-12` | A clean `floorRead` SHALL be allowed to stop through `E.22` plus the object-under-improvement evaluation without opening this method. | Keeps ordinary quality reads affordable. |
 | `CC-E23-13` | An all-exceptional or all-`5` result SHALL carry an explicit object-under-improvement evaluation coordinate-value table over the changed object version. | Prevents floor pass, landing, or praise from becoming exceptional-value evidence. |

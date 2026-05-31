@@ -6,12 +6,12 @@ section_id: "E.10.D2:15"
 section_title: "Naming & alias policy (normative, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__016_naming-alias-policy-normative-notation-free.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:15 — Naming & alias policy (normative, notation‑free)"
-line_start: 58280
-line_end: 58315
+line_start: 59092
+line_end: 59127
 dependencies:
   - "A.7"
   - "C.2.1"

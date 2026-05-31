@@ -6,12 +6,12 @@ section_id: "B.4.1:15"
 section_title: "Migration and worked continuation boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__016_migration-and-worked-continuation-boundaries.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:15 — Migration and worked continuation boundaries"
-line_start: 32933
-line_end: 32961
+line_start: 32229
+line_end: 32257
 dependencies:
   - "A.15"
   - "A.16"
@@ -19,10 +19,10 @@ dependencies:
   - "A.16.1"
   - "A.6.A"
   - "A.6.P"
-  - "A.6.Q"
   - "B.4"
   - "B.5.2"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
@@ -60,7 +60,7 @@ A route set that includes `RequirementCommitmentRoute` should not be read as if 
 #### B.4.1:15.4 - Leaving the seam
 The routed cue set should leave this pattern only when one later publication is already explicit enough to own the next move, for example:
 
-- explicit evaluative family selection for `A.6.Q`,
+- explicit evaluative family selection for `C.16.Q`,
 - explicit `A.6.A` family selection,
 - explicit prompt question for `B.5.2.0`,
 - explicit requirement or commitment head for requirement-facing governing patterns,

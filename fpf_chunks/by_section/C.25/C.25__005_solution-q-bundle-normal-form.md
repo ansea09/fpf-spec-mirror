@@ -6,21 +6,22 @@ section_id: "C.25:4"
 section_title: "Solution - Q-Bundle normal form"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__005_solution-q-bundle-normal-form.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:4 — Solution - Q-Bundle normal form"
-line_start: 44887
-line_end: 44929
+line_start: 45189
+line_end: 45231
 dependencies:
   - "A.15"
   - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
-  - "A.6.Q"
   - "B.3"
   - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -45,7 +46,7 @@ keywords:
 
 `C.25` defines a lightweight authoring normal form for engineering quality families. A publisher facing a quality term first decides whether the intended endpoint is:
 
-- **one lawful CHR characteristic**, or
+- **one admissible CHR characteristic**, or
 - **one structured quality bundle** whose measurable slots, scope slots, mechanisms, statuses, and evidence remain explicit.
 
 #### C.25:4.1 - Endpoint split
@@ -71,7 +72,7 @@ The pattern adds no new Kernel kind for these slots. It reuses existing kinds an
 - **Name.** The engineering quality family label, such as `Availability`, `Resilience`, or `Security`.
 - **Carrier.** The bearer of the quality claim: typically `U.System`, `U.PromiseContent`, or `U.Episteme`.
 - **ClaimScope / WorkScope.** USM sets over `U.ContextSlice` describing where the claim holds or where the capability can deliver. These are **set-valued scope objects**, not characteristics.
-- **Measures[CHR].** One or more lawful CHR characteristics, each bound to one declared scale.
+- **Measures[CHR].** One or more admissible CHR characteristics, each bound to one declared scale.
 - **QualificationWindow.** The temporal policy under which the quality claim is judged.
 - **Mechanisms / Status.** References to `U.Mechanism` realizations, control presences, certification states, or similar gating structures. They are not measurements.
 - **Evidence.** Anchors that justify the measures, mechanisms, or scope claims.

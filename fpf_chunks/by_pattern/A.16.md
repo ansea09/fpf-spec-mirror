@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
-line_start: 21534
-line_end: 21880
+line_start: 20818
+line_end: 21164
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -20,9 +20,9 @@ dependencies:
   - "A.19"
   - "A.6.A"
   - "A.6.P"
-  - "A.6.Q"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
@@ -53,9 +53,9 @@ keywords:
 
 **First output.** A small typed move note or early preservation-to-routing note that names the source publication form, target publication form, target governing pattern, and MVPK face where that face matters.
 
-**Typical next governing patterns.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, receiving endpoint governing patterns such as `A.6.P`, `A.6.A`, and `A.6.Q`, and `A.16.2` when the right move is reopen/backoff/respecify/retire.
+**Typical next governing patterns.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, receiving endpoint governing patterns such as `A.6.P`, `A.6.A`, and `C.16.Q`, and `A.16.2` when the right move is reopen/backoff/respecify/retire.
 
-**Common neighboring-pattern mistakes.** If history itself must be published as an accountable trajectory, use `A.16.0`; if you are already doing slot-explicit epistemic precision repair, apply `A.6.P`, `A.6.Q`, or `A.6.A`; if the publication target is a graph publication in itself, use `E.18`.
+**Common neighboring-pattern mistakes.** If history itself must be published as an accountable trajectory, use `A.16.0`; if you are already doing slot-explicit epistemic precision repair, apply `A.6.P`, `C.16.Q`, or `A.6.A`; if the publication target is a graph publication in itself, use `E.18`.
 
 ### A.16:1 - Problem frame
 Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for how governed `U.Episteme` publications change, narrow, reopen, or hand off across that chart. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or an invisible sequence of governing pattern replacements.
@@ -98,7 +98,7 @@ Observation itself is a precursor condition typically published through `B.4.1`.
 
 Here `projection` remains the move name, but its reading is tightened: it is route-bounded partialization. The resulting publication must be a **typed publication form** rendered on an existing MVPK face. Naming only the face is insufficient; naming only an untyped placeholder is insufficient.
 
-`respecify` is intentionally narrower than epistemic precision repair. In `A.16`, it may change framing scaffold, route specification, or facet-profile reading while preserving the broad family. Slot-explicit epistemic precision restoration and endpoint-local lexical repair remain with receiving governing patterns such as `A.6.P`, `A.6.Q`, and `A.6.A`.
+`respecify` is intentionally narrower than epistemic precision repair. In `A.16`, it may change framing scaffold, route specification, or facet-profile reading while preserving the broad family. Slot-explicit epistemic precision restoration and endpoint-local lexical repair remain with receiving governing patterns such as `A.6.P`, `C.16.Q`, and `A.6.A`.
 
 #### A.16:4.2 - Guard discipline
 Move guards are stated over named facets from `C.2.LS`, together with witnesses, scope, and `GammaTime` selectors where needed. In practice this means explicit reference to `AE` (`C.2.4`), `CD` (`C.2.5`), `LanguageStateAnchoringMode` (`C.2.6`), and `LanguageStateRepresentationFactorBundle` (`C.2.7`), either facetwise or through one published facet profile. No move may be justified by vague prose such as "the idea matured" without naming what changed in articulation, closure, anchoring, representation, or route state.
@@ -107,7 +107,7 @@ Move guards are stated over named facets from `C.2.LS`, together with witnesses,
 After `route`, `projection`, `formalize`, or `operationalize`, the next admissible publication shall keep three layers distinct:
 
 - the **publication form** now being issued (for example `U.PreArticulationCuePack`, `RoutedCueSet`, `U.AbductivePrompt`, or a named `U.EpistemePublication` form governed by a receiving endpoint pattern);
-- the **governing pattern** that governs that form (`A.16.1`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.A`, `A.6.Q`, `B.5.2`, `A.15`, `C.25`, or another named governing pattern);
+- the **governing pattern** that governs that form (`A.16.1`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.A`, `C.16.Q`, `B.5.2`, `A.15`, `C.25`, or another named governing pattern);
 - the **MVPK face**, when rendering matters, that carries that publication.
 
 Naming only the governing pattern is insufficient because governing patterns are not forms. Naming only the face is insufficient because faces are not forms. An admissible move note states the pattern-governed publication form first, then the governing pattern, then the face if the face matters.
@@ -176,7 +176,7 @@ This separation keeps `C.2.3` as the sole governing pattern of formality while `
 
 ### A.16:12 - Relations
 - Builds on: `C.2.2a`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.18`, `A.19`.
-- Coordinates with: `A.16.0`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.A`, `A.6.Q`, `E.18`.
+- Coordinates with: `A.16.0`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.A`, `C.16.Q`, `E.18`.
 - Constrains: language-state move publication and docking.
 
 ### A.16:13 - Admissible Move Matrix
@@ -306,7 +306,7 @@ Confusing these states is one of the main causes of premature endpoint language.
 #### A.16:18.3 - `AuthorityState` extraction note
 The four states above may be reused as `AuthorityState`, an extracted shared profile for corridor coordination and review.
 
-That extraction does **not** create a new governing pattern. It reuses the state vocabulary already pattern-governed here for later cross-references in `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.Q`, `A.6.A`, and `A.15`.
+That extraction does **not** create a new governing pattern. It reuses the state vocabulary already pattern-governed here for later cross-references in `B.4.1`, `B.5.2.0`, `A.6.P`, `C.16.Q`, `A.6.A`, and `A.15`.
 
 `AuthorityState` names authority posture after route work. It does not replace `routeDecision`, `selectedRoute`, `routeAuthorityState`, route-bearing publication governance, gate state, or work-execution state. Any `endpoint-pattern-publication-issued` state still names the downstream governing pattern and governed `U.EpistemePublication` form explicitly.
 
@@ -328,7 +328,7 @@ The corridor can reuse an `EndpointAdmissionProfile` as a declarative pattern-de
 
 That profile is stated over already pattern-governed conditions: declared language-state positions in `C.2.2a`, facet readings in `C.2.LS` and `C.2.4`-`C.2.7`, explicit route state in `B.4.1`, prompt-readiness in `B.5.2.0`, and witness or grounding conditions that are already visible in the publication chain.
 
-`EndpointAdmissionProfile` decides whether handoff is admissible; it does not govern the downstream publication form itself. A relation-like skeleton may therefore be admitted toward `A.6.P`; an explicit open question with rival-set may be admitted toward `B.5.2.0`; evaluative or `A.6.A`-inviting publication content may be admitted toward `A.6.Q` or `A.6.A`; executable docking may be admitted toward `A.15`.
+`EndpointAdmissionProfile` decides whether handoff is admissible; it does not govern the downstream publication form itself. A relation-like skeleton may therefore be admitted toward `A.6.P`; an explicit open question with rival-set may be admitted toward `B.5.2.0`; evaluative or `A.6.A`-inviting publication content may be admitted toward `C.16.Q` or `A.6.A`; executable docking may be admitted toward `A.15`.
 
 No admission result makes a receiving governing pattern optional. Tone, style, or mere apparent explicitness is never sufficient by itself; the relevant governing pattern conditions still have to be named and met.
 

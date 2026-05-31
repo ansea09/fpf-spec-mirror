@@ -6,12 +6,12 @@ section_id: "A.2.5:19"
 section_title: "Common failure modes (and quick remedies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__020_common-failure-modes-and-quick-remedies.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:19 — Common failure modes (and quick remedies)"
-line_start: 3990
-line_end: 4000
+line_start: 3993
+line_end: 4003
 dependencies:
   - "A.15"
   - "A.2.1"

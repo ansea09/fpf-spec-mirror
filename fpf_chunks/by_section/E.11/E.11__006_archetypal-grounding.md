@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal grounding"
-line_start: 58707
-line_end: 58793
+line_start: 59519
+line_end: 59605
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -65,7 +65,7 @@ Live reader phrase:
 
 Plausible but wrong first reading:
 
-- the reader jumps straight to `A.6.P`, `A.6.Q`, `A.6.A`, or `C.25` because
+- the reader jumps straight to `A.6.P`, `C.16.Q`, `A.6.A`, or `C.25` because
   the phrase sounds conceptually important.
 
 Entry repair:

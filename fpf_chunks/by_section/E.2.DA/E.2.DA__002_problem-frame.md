@@ -6,12 +6,12 @@ section_id: "E.2.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:1 — Problem frame"
-line_start: 53348
-line_end: 53371
+line_start: 53892
+line_end: 53915
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -36,7 +36,7 @@ Use it when an improvement loop is trying to make FPF easier to enter, search, r
 
 **FPF-local scope.** `E.2.DA` is not a generic quality pattern for any pattern language. It refines `E.2` for FPF. External pattern-language traditions may supply source stance or comparison pressure, but they do not create an intermediate "any pattern language" object-under-improvement evaluation. A non-FPF corpus can use this pattern only after a bounded decision declares that the corpus is being read as an FPF-conformant corpus under `E.2`; otherwise it needs a separate object-under-improvement evaluation.
 
-**Not this pattern when.** Use `E.2` for the Pillars themselves. Use `E.21` for one authored FPF pattern version. Use `E.9.DA` for one `DRR` decision-adequacy claim. Use `E.22` to frame one improvement-oriented quality read. Use `E.23` for the repeated improvement-loop method. Use `E.11` for first-practical entry and pattern-use discoverability. Use `E.10`, `A.6.P`, `C.2.P`, `A.6.Q`, or `F.18` when the live defect is one local wording, relation, source-transfer, quality-term, or durable-name repair. Use `E.8` when the live defect is the authoring form of one pattern body.
+**Not this pattern when.** Use `E.2` for the Pillars themselves. Use `E.21` for one authored FPF pattern version. Use `E.9.DA` for one `DRR` decision-adequacy claim. Use `E.22` to frame one improvement-oriented quality read. Use `E.23` for the repeated improvement-loop method. Use `E.11` for first-practical entry and pattern-use discoverability. Use `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, or `F.18` when the live defect is one local wording, relation, source-transfer, quality-term, or durable-name repair. Use `E.8` when the live defect is the authoring form of one pattern body.
 
 **First useful move.** Name the FPF object under improvement, the working reader and use, the qualification window, and the first Pillar whose realized adequacy may be below the declared floor.
 

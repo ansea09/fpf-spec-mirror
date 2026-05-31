@@ -6,12 +6,12 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 54552
-line_end: 54559
+line_start: 55096
+line_end: 55103
 dependencies:
   - "E.10"
   - "E.19"
@@ -50,9 +50,9 @@ keywords:
 
 ### E.8:0 - Use this when
 
-Use `E.8` when you are writing, revising, or reviewing one FPF pattern and need to know what shape, voice, reader-recognition role, and assurance support the pattern must carry before it can be treated as mature FPF text.
+Use `E.8` when you are writing, revising, or reviewing one FPF pattern and need to know what shape, voice, reader-recognition role, and assurance material the pattern must carry before it can be treated as mature FPF text.
 
-Use it especially when a draft is technically correct but hard to use: the cold reader cannot tell when to apply it, what action to take, what mistake that action prevents, where neighbouring patterns take over, or which assurance material is informative support rather than the first user-facing guidance.
+Use it especially when a draft is technically correct but hard to use: the cold reader cannot tell when to apply it, what action to take, what mistake that action prevents, where neighbouring patterns take over, or which assurance material is informative rather than the first user-facing guidance.
 
 **Not this pattern when.** Use `E.9` when the main work is deciding why FPF should change and how that decision is distributed across patterns. Use `E.19` when the main work is an admission or refresh review. Use the local domain pattern when the question is what FPF says inside that domain rather than how a pattern should be authored.
 

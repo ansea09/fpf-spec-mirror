@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__008_conformance-checklist.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:7 — Conformance checklist"
-line_start: 7696
-line_end: 7717
+line_start: 7710
+line_end: 7731
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -30,7 +30,7 @@ keywords:
   load-bearing. The encountered carrier or projection may help recognition,
   but it does not become authoritative merely by being encountered.
 - **CC-RSIG-3 Neighbor boundaries explicit.** The text states when entry loads go
-  to `A.6.B`, `E.17`, `E.10 / F.18 / A.6.P`, `C.25 / A.6.Q`, or the relevant
+  to `A.6.B`, `E.17`, `E.10 / F.18 / A.6.P`, `C.25 / C.16.Q`, or the relevant
   authoritative pattern body.
 - **CC-RSIG-4 No kind inflation.** Recognition signatures are not silently
   promoted into `U.Signature`, Signature Stack objects, `SurfaceKind`s,

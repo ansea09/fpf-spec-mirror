@@ -6,12 +6,12 @@ section_id: "E.10:11a"
 section_title: "SoTA-Echoing for lexical governance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_sota-echoing-for-lexical-governance.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:11a — SoTA-Echoing for lexical governance"
-line_start: 57552
-line_end: 57563
+line_start: 58136
+line_end: 58147
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,13 +33,13 @@ keywords:
 
 ### E.10:11a - SoTA-Echoing for lexical governance
 
-E.10 lexical governance is not a private FPF style preference. It is a compact authoring discipline for communication, comprehension, term formation, and error prevention. These external practice rows are admitted only where they change what an author or reviewer does in a live wording repair.
+E.10 lexical governance is not a private FPF style preference. It is a compact authoring discipline for communication, comprehension, term formation, discoverability, and error prevention. These external practice rows are admitted only where they change what an author or reviewer does in a live wording repair.
 
 | Practice basis | Source posture | What E.10 adopts | What E.10 rejects |
 | --- | --- | --- | --- |
-| ISO 704:2022 and ISO 1087:2019 terminology work on concepts, definitions, designations, and term formation. | Current-standard/reference-only for terminology work; official status does not make it complete SoTA for FPF semantic repair. | Use explicit designation and definition discipline when a term is minted, repaired, or made reusable. Keep the head kind, context, and intended use recoverable. | Do not solve FPF wording by dictionary substitution, synonym stuffing, or global alias registry. Do not turn every term into a class hierarchy. |
-| Human-readable identifier and label clarity practice in software and HCI work. | Current practice signal for comprehension and error prevention; accepted only where it changes local naming or replacement wording. | Treat names as comprehension and error-prevention aids, not as cosmetic polish. Use clear local names only when they preserve the same FPF kind and relation. | Do not let a nicer label change kind, scope, authority, or downstream use. Do not accept readability as proof that the term is semantically safe. |
-| Ontology and controlled-vocabulary practice. | Rationale and exact-neighbour source posture; specialized ontology work belongs in the receiving ontology, naming, relation, or domain pattern when live. | Use exact modeling only when the current problem really needs it, and then make the modeled kind and relation explicit. | Do not make OWL-style term-to-class modeling the default answer to every vague term. E.10 repairs wording first and applies `F.18`, `A.6.P`, or a domain pattern only when that heavier modeling move is live. |
-| Documentation-search and entry vocabulary practice. | Current source-use pressure for retrieval/discoverability, carried locally through `J.4`, `E.11`, and entry/projection neighbours rather than by a separate E.10 search ontology. | Keep lexical triggers discoverable enough for the first repair, but make final wording and receiving-pattern application govern the result. | Do not turn trigger lists into local lexical registries, front-door taxonomies, or accepted replacement vocabulary. |
+| ISO 704:2022 and ISO 1087:2019 terminology work on concepts, definitions, designations, and term formation. | Current-standard/reference-only for terminology work; official status does not make it complete SoTA for FPF semantic repair. | Mutates `E.10:0.2`, `E.10:0.2a`, and `E.10:11`: use explicit designation and definition discipline when a term is minted, repaired, or made reusable; keep head kind, context, and intended use recoverable. | Do not solve FPF wording by dictionary substitution, synonym stuffing, or global alias registry. Do not turn every term into a class hierarchy. |
+| ISO 9241-110:2020 interaction principles and W3C WCAG 2.2 Understanding SC 2.4.6, 3.2.4, and 3.3.2 on descriptive headings/labels, consistent identification, and visible labels/instructions. | Current-standard/reference and current practice anchor for comprehension, task suitability, predictable identification, and error prevention. | Mutates `E.10:0.2a`, `E.10:0.2c.15`, `E.10:0.2c.28`, and `E.10:11`: require a repair to preserve the remaining reader move, usable local label, and predictable repeated label; treat label clarity as a usability constraint after kind recovery. | Do not accept readability, friendliness, or a nicer label as proof that the term is semantically safe. Do not let a label change kind, scope, authority, or downstream use. |
+| W3C SKOS Reference for controlled structured vocabularies and lexical labels, with heavier OWL/RDF ontology practice used only by exact ontology-bearing neighbours. | Current reference support for controlled-vocabulary publication and label relations; not current-best support for every FPF wording repair. | Mutates `E.10:0.2b`, `E.10:0.2c.18`, and `E.10:0.2c.28`: keep vocabulary labels, concept-like heads, registries, maps, and reusable names recoverable as exact publication or naming objects before reuse; send durable naming to `F.18` and relation/source/domain ontology to exact neighbours. | Do not make OWL-style term-to-class modeling the default answer to every vague term. Do not let a controlled vocabulary become a second FPF ontology or replacement trigger registry. |
+| W3C WCAG 2.2 headings/labels and consistent-identification guidance, plus FPF-internal `J.4` / `E.11` entry-neighbour practice. | Current discoverability/reference support; FPF entry projection remains the governing local architecture. | Mutates `E.10:0.2b`, `E.10:0.2c.29`, `E.10:12`, and `J.4` coordination: keep trigger wording discoverable enough for first repair, but make final wording, exact receiving-pattern application, and entry projection govern the result. | Do not turn trigger lists into local lexical registries, front-door taxonomies, or accepted replacement vocabulary. Do not let search convenience select ontology. |
 
-The practical result is simple: lexical governance must improve action guidance and semantic composability, not become language-police work. A SoTA row that does not change a rewrite, a forbidden shortcut, an exact governing-pattern application, or a conformance check remains decorative and does not carry E.10.
+The practical result is simple: lexical governance must improve action guidance and semantic composability, not become language-police work. A SoTA row that does not change a rewrite, a forbidden shortcut, an exact governing-pattern application, a conformance prompt, or a reopen cue remains decorative and does not carry E.10.

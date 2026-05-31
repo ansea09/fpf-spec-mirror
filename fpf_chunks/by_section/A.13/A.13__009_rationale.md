@@ -6,12 +6,12 @@ section_id: "A.13:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__009_rationale.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:8 — Rationale"
-line_start: 19595
-line_end: 19604
+line_start: 18879
+line_end: 18888
 dependencies:
   - "A.12"
   - "A.2"

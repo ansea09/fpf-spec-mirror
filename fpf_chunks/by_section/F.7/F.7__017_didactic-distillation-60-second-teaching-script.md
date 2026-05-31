@@ -6,12 +6,12 @@ section_id: "F.7:16"
 section_title: "Didactic distillation (60‑second teaching script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__017_didactic-distillation-60-second-teaching-script.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:16 — Didactic distillation (60‑second teaching script)"
-line_start: 69877
-line_end: 69880
+line_start: 70692
+line_end: 70695
 dependencies:
   - "A.6.9"
   - "E.10.D1"

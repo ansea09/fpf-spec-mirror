@@ -6,12 +6,12 @@ section_id: "C.21:6"
 section_title: "Archetypal Grounding (three fields)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__007_archetypal-grounding-three-fields.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:6 — Archetypal Grounding (three fields)"
-line_start: 42994
-line_end: 43026
+line_start: 43295
+line_end: 43327
 dependencies:
   - "A.17"
   - "A.18"

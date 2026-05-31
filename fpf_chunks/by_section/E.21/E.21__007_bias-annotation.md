@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__007_bias-annotation.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Bias-Annotation"
-line_start: 66277
-line_end: 66312
+line_start: 67092
+line_end: 67127
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -65,7 +65,7 @@ Lens cautions:
 | Composability | `NeighborAuthorityAndBoundedUseFit` and relation closure keep pattern-quality claims safe to compose with neighbouring patterns. | One pattern-quality read stealing another pattern's governed object. |
 | Usability | First-pass slice checks `firstMoveRecoverability`, `WorkingSituationAndUseBoundaryRecognizability`, and `ActionPathGuidance` before heavy apparatus. | Type-correct but inert pattern-quality control. |
 | Affordability | `UseAffordabilityAndApparatusProportionality` and activation layers keep ordinary reads light. | Review bureaucracy masquerading as quality. |
-| Measurement integrity | Ordinal coordinate readings reject averages, percentages, and hidden normalization; `FormalClaimLegalityAndLensFit` activates only when formal load is live. | Illegal scalarization of pattern quality. |
+| Measurement integrity | Ordinal coordinate readings reject averages, percentages, and hidden normalization; `FormalClaimLegalityAndLensFit` activates only when formal claim force is live. | Illegal scalarization of pattern quality. |
 | Goodhart resistance | Proxy-substitution checks ask what got worse when visible coordinates improved. | Rubric satisfaction replacing practical pattern-use value. |
 | Corpus ecology | `ExternalEntryAndProjectionIntegrity` and `PatternLanguageEcologyFit` activate only when entry/projection/retrieval/name/relation/corpus loci are changed or overread. | Local quality win that creates entry noise, stale echoes, name collisions, relation fanout, or shadow authority. |
 | Scope safety | `PatternQualityStatus` remains a pattern-quality posture only. | Overread as project assurance, safety/compliance certification, gate, release, or work authority. |

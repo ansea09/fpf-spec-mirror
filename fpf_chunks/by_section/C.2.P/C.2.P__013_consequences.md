@@ -6,12 +6,12 @@ section_id: "C.2.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_consequences.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:9 — Consequences"
-line_start: 35386
-line_end: 35418
+line_start: 34684
+line_end: 34716
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,13 +22,17 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.A"
+  - "A.6.F"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.2.1"
+  - "C.30.P"
   - "E.10"
+  - "E.10.ARCH"
   - "E.12"
   - "E.17"
   - "E.17.0"
@@ -71,15 +75,15 @@ For new episteme-publication precision prose:
 - start from FPF kinds and relations, not from familiar publication nouns and document nouns;
 - use `PublicationUnit` for bounded publication units;
 - use `describedEntity` only when the episteme slot is live;
-- keep publication form, generic publication face, governed MVPK face, view, carrier, document with named source-basis, evidence-basis, architecture-basis, or review-basis role, review target, and exact project-side FPF kind and reference separate;
-- name `relationLoad`, `admissibleUse`, and `projectSourceLoad` separately when more than one is live;
+- keep publication form, generic publication face, governed MVPK face, view, carrier, document with named source-basis, evidence-basis, architecture-basis, or review-basis role, review object, and exact project-side FPF kind and reference separate;
+- name `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef` separately when more than one is live;
 - classify heterogeneous kind lists before writing a sentence that depends on them;
 - say that FPF patterns are applied in problem situations, not called or routed as procedures;
 - leave accepted FPF names untouched unless a separate accepted naming decision authorizes a rename.
 
 Operationally, each rewrite should:
 - separate FPF-side episteme and publication context from project-side episteme and publication context whenever both are present;
-- name `relationLoad`, `admissibleUse`, and `projectSourceLoad` separately when a publication, display, cue, or explanation is read as evidence, gate, constraint, adjudication, decision support, work permission, assurance, or engineering justification;
+- name `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef` separately when a publication, display, cue, or explanation is treated as evidence, gate, constraint, adjudication, decision support, work permission, assurance, or engineering justification;
 - classify heterogeneous lists before naming them: one live kind, relation stack, tuple-like record, alternative cases, not-triggered alternatives, or failed ontology;
 - say that FPF patterns are applied in problem situations, while project records, publications, views, carriers, and actions are worked with in project practice;
 - avoid strength metaphors unless the characteristic, scale, threshold, evidence class, or admissibility relation is named.

@@ -6,12 +6,12 @@ section_id: "C.3.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:intro — Intro"
-line_start: 38287
-line_end: 38308
+line_start: 37586
+line_end: 37607
 dependencies:
   - "A.1"
   - "A.2.6"

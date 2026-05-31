@@ -6,21 +6,22 @@ section_id: "C.25:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__013_relations.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:12 — Relations"
-line_start: 44977
-line_end: 44992
+line_start: 45279
+line_end: 45297
 dependencies:
   - "A.15"
   - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
-  - "A.6.Q"
   - "B.3"
   - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -42,6 +43,9 @@ keywords:
 ---
 
 ### C.25:12 - Relations
+
+`E.21` specialises the Q-Bundle normal form for FPF pattern-quality claims. `C.25` remains the general endpoint for engineering quality families; `E.21` is the receiving endpoint when the quality claim evaluates one FPF pattern version as action-guiding FPF text.
+
 **C.27 temporal-claim relation.**
 
 - C.27 may flag: a quality-family statement where agility, resilience, adaptability, recovery, or robustness depends on braking, redirection, stabilization, recovery rate, or rhythm under effort.
@@ -50,10 +54,10 @@ keywords:
 - Exit: use C.27 to state the dynamic slot only when it changes admissible use; do not make every quality bundle carry dynamic slots.
 
 - **Builds on:** `A.2.6` for scope algebra, `A.6.1` for mechanism references, and `C.16 / A.18` for CHR legality.
-- **Coordinates with:** `C.2.2a`, `A.16.0`, `B.3` for assurance penalties, `A.15` for gate use, `A.6.Q` for evaluative classification, `C.17, C.18, and C.19` for adjacent quality-family measures, and `F.9 / F.9.1` when cross-context bundle comparison or bridge stance annotation is required.
+- **Coordinates with:** `C.2.2a`, `A.16.0`, `B.3` for assurance penalties, `A.15` for gate use, `C.16.P` for unresolved characteristic, scale, score, metric, or proxy wording inside a quality-family statement, `C.16.Q` for overloaded quality or evaluative-characterization wording, `C.17, C.18, and C.19` for adjacent quality-family measures, and `F.9 / F.9.1` when cross-context bundle comparison or bridge stance annotation is required.
 - **Constrains:** engineering quality authoring whenever a quality term would otherwise drift between single-CHR and composite-bundle readings.
 #### C.25:12.1 - Endpoint role in evaluative classification
 
-Within language-state trajectories and their endpoint docks, `C.25` is the system-side endpoint pattern for engineering quality families after evaluative classification from `A.6.Q`. `evaluativeAscription(...)` may remain a transitional repair record, but it is **not** the universal resting place when the admissible endpoint is a single `Characteristic`, a `Q-Bundle`, or an explicit objective-oriented quality bundle.
+Within language-state trajectories and their endpoint docks, `C.25` is the system-side endpoint pattern for engineering quality families after overloaded quality wording has been repaired by `C.16.Q` and any hidden characteristic, scale, score, metric, or proxy wording has been repaired by `C.16.P`. `qualityTermAscription(...)` may remain a transitional repair record, but it is **not** the universal resting place when the admissible endpoint is a single `Characteristic`, a `Q-Bundle`, or an explicit objective-oriented quality bundle.
 
 

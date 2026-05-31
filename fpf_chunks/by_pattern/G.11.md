@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.11.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh & Decay Orchestrator"
-line_start: 79945
-line_end: 80321
+line_start: 80760
+line_end: 81136
 dependencies:
   - "B.3.4"
   - "C.18"

@@ -6,12 +6,12 @@ section_id: "B.1:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__010_rationale.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:9 — Rationale"
-line_start: 29003
-line_end: 29012
+line_start: 28299
+line_end: 28308
 dependencies:
   - "A.1"
   - "A.9"

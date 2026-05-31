@@ -6,12 +6,12 @@ section_id: "C.16:12"
 section_title: "Relations & Placement (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__013_relations-placement-informative.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:12 — Relations & Placement (Informative)"
-line_start: 41326
-line_end: 41342
+line_start: 40626
+line_end: 40643
 dependencies:
   - "A.10"
   - "A.17"
@@ -36,6 +36,7 @@ keywords:
 
 ### C.16:12 - Relations & Placement *(Informative)*
 
+**Precision-restoration relation.** `C.16.P` is the first-stage wording-use restoration pattern for characteristic, scale, coordinate, score, metric, axis, dimension, and related characterization wording when the measurement or characteristic object is not yet recoverable. C.16 keeps the measurement substrate and resumes after the bearer, characteristic, scale, coordinate/value, unit, evidence stub, or exact non-C.16 receiving pattern has been recovered.
 **C.27 temporal-claim relation.**
 
 - C.27 may flag: a rate/rate-change reading whose admissible use depends on admissible measurement construction, evidence, sampling window, or finite-difference method.

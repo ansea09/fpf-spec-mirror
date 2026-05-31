@@ -6,12 +6,12 @@ section_id: "C.22.2:13"
 section_title: "SEMIO Relation and Representation Continuity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__014_semio-relation-and-representation-continuity.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:13 — SEMIO Relation and Representation Continuity"
-line_start: 44004
-line_end: 44028
+line_start: 44305
+line_end: 44329
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,10 +21,10 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
-  - "A.6.Q"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.18"
   - "C.19"
   - "C.2.P"
@@ -80,7 +80,7 @@ Framing is not wording repair. A framing change is live when described entity, c
 | `G.5` | Selected set, shortlist, method-family or selected-set output. | Selection over transformed representations must preserve the declared object of selection. | Inherited unchanged; cite as receiving pattern. |
 | `G.9` | Parity and comparability. | Comparators and windows must not silently compare different described entities. | Inherited unchanged; cite as receiving pattern. |
 | `G.11` | Freshness, decay, refresh, retirement. | Refresh may preserve, update, or retarget the represented problem under context. | Inherited unchanged; cite as receiving pattern. |
-| `A.6.P` and `A.6.Q` | Restore broad source wording and quality wording. | Semio-heavy source terms require kind and relation recovery before use. | Inherited unchanged; cite as receiving pattern. |
+| `A.6.P` and `C.16.Q` | Restore broad source wording and quality wording. | Semio-heavy source terms require kind and relation recovery before use. | Inherited unchanged; cite as receiving pattern. |
 | `E.17`, `F.9`, `E.18` | Multi-view, bridge, and structural reinterpretation exits. | They carry the relation work when same-entity continuity, bridge, or reinterpretation is live. | Inherited unchanged; cite as receiving pattern. |
 | `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, `A.15` | Evidence, provenance, assurance, gate, autonomy, method, and work exits. | Transformed evidence or work records need the correct relation witness before support is inherited. | Inherited unchanged; cite as receiving patterns. |
 

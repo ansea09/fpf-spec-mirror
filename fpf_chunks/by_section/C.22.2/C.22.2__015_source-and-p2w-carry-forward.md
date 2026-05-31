@@ -6,12 +6,12 @@ section_id: "C.22.2:14"
 section_title: "Source and P2W Carry-Forward"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__015_source-and-p2w-carry-forward.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:14 — Source and P2W Carry-Forward"
-line_start: 44029
-line_end: 44052
+line_start: 44330
+line_end: 44353
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,10 +21,10 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
-  - "A.6.Q"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.18"
   - "C.19"
   - "C.2.P"
@@ -72,7 +72,7 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Problem factory, solution factory, and factory-of-factories | Source exposition for three related work families, not FPF process kinds | `C.22.2` covers only the problem-side output. Solution and P2W work exits to `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, and `G.11`; organizational-development or platform-capability questions are outside this pattern. |
 | Characterization protocol: context or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` receiving patterns | `ProblemCard@Context` must cite characterization and comparability basis when live; it must not treat available measurement as admitted indicator. |
 | Indicator roles: admission constraints, optimization objectives for the current cycle, and risk signals | Characteristic and Q-bundle use under selected comparison or acceptance | `C.22.2` must preserve whether an indicator is a mandatory constraint, an optimization objective, or a monitored risk signal when that distinction affects acceptance. |
-| Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q` | `ProblemCard@Context` must preserve source set or reference, selection or retention basis, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is live. |
+| Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` | `ProblemCard@Context` must preserve source set or reference, selection or retention basis, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is live. |
 | Goldilocks as zone-of-growth selection calibrated to current capability and context | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` must not turn Goldilocks into one global difficulty scale or scalar readiness score. |
 | Stepping stones as option value: new actions, tools, data, interfaces, environments, or experiment modes that may expand downstream search | Retained archive, front, or pool member, or selected-set reason | `C.22.2` may record stepping-stone value only with a receiving set-return, archive, or pool pattern and a retention or tie-break basis. |
 | P2W chain: signatures and principles help select formalism, ontology, characterization, and method-family material | `A.6.0`, `A.6.1`, `C.16`, `A.19`, `C.29`, `G.5`, and `E.18` | `C.22.2` supplies problem-side cues and exits; it does not select the formalism, ontology, mechanism, or method family by itself. |

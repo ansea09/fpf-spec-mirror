@@ -6,12 +6,12 @@ section_id: "C.22.2:3"
 section_title: "Problem Reading and Kind Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__004_problem-reading-and-kind-recovery.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:3 — Problem Reading and Kind Recovery"
-line_start: 43715
-line_end: 43732
+line_start: 44016
+line_end: 44033
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,10 +21,10 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
-  - "A.6.Q"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.18"
   - "C.19"
   - "C.2.P"
@@ -71,7 +71,7 @@ For this decision, `problem` remains an ordinary word in non-load-bearing prose.
 | Problematic situation | Context-bound situation under a viewpoint, domain, constraints, risks, and candidate described entity | Captured only through fields that make the situation reviewable. |
 | Framed problem representation | Problem-side representation of a described entity under context and acceptance constraints | Center of `ProblemCard@Context`; representation-change claims exit to `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, or `E.18` when live. |
 | Candidate problem in archive or live pool | Member of a retained candidate set, pool, archive, or front | Must preserve source set or reference, declared set relation when that exact FPF relation is live, retention basis, budget or window, and review cadence when live. |
-| Selected problem from a set-return treatment | Selected set member or emitted problem-side record under selection basis | `ProblemCard@Context` may carry the selected problem, but selected-set semantics remain with `G.5`, `C.18`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `A.6.Q`. |
+| Selected problem from a set-return treatment | Selected set member or emitted problem-side record under selection basis | `ProblemCard@Context` may carry the selected problem, but selected-set semantics remain with `G.5`, `C.18`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. |
 | Problem ready for selector-facing use | Problem-side record sufficient to emit or bind `TaskSignature` or `TaskKind` | `C.22` use reads the typed anchor; `C.22.2` does not expand `TaskSignature` into a problem-card dump. |
 | Downstream task or execution target | Method known enough for task typing, method-family selection, planning, or performed work | Exits to `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, gates, or evidence patterns as applicable. |
 | E.8 pattern `Problem frame` | Practitioner-recognition section inside a pattern | Not the C.22 problem-side representation. |

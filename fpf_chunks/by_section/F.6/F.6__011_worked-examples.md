@@ -6,12 +6,12 @@ section_id: "F.6:10"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__011_worked-examples.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:10 — Worked examples"
-line_start: 69480
-line_end: 69534
+line_start: 70295
+line_end: 70349
 dependencies:
   - "A.15"
   - "A.2.1"

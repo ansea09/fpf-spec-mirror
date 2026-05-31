@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `2e112078bb209e5e3a511c3bd1aa6b1b2e299efe`
+Commit SHA: `16cd31387cff04ab6b0feef22717f82ac54efa8f`
 
 Chunking method: `pattern-aware`
 
-Patterns: `225`
+Patterns: `228`
 
 ## Patterns
 
@@ -42,7 +42,6 @@ Patterns: `225`
 - [A.6.3.RT — RepresentationTransduction — same-described-entity representation-scheme transition](by_pattern/A.6.3.RT.md)
 - [A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
-- [A.6.Q — U.QualityTermPrecisionRestoration — Quality Term Precision Restoration (Q-TERM)](by_pattern/A.6.Q.md)
 - [A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
 - [A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)](by_pattern/A.6.F.md)
 - [A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)](by_pattern/A.6.5.md)
@@ -131,6 +130,8 @@ Patterns: `225`
 - [C.11 — Decision Theory (Decsn-CAL)](by_pattern/C.11.md)
 - [C.13 — Constructional Mereology (Compose‑CAL)](by_pattern/C.13.md)
 - [C.16 — Measurement & Metrics Characterization (MM‑CHR)](by_pattern/C.16.md)
+- [C.16.P — Characteristic and Scale Precision Restoration](by_pattern/C.16.P.md)
+- [C.16.Q — Quality-Term Precision Restoration](by_pattern/C.16.Q.md)
 - [C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)](by_pattern/C.17.md)
 - [C.18 — Open‑Ended Search Calculus (NQD‑CAL)](by_pattern/C.18.md)
 - [C.18.1 — Scaling‑Law Lens Binding (SLL)](by_pattern/C.18.1.md)
@@ -152,6 +153,7 @@ Patterns: `225`
 - [C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability](by_pattern/C.28.md)
 - [C.29 — Mathematical Lens Adequacy (MLA)](by_pattern/C.29.md)
 - [C.30 — Architecture Description Adequacy (ADA)](by_pattern/C.30.md)
+- [C.30.P — Architecture and Structure Precision Restoration](by_pattern/C.30.P.md)
 - [C.30.ASV — Architecture Structural View Adequacy (ASV)](by_pattern/C.30.ASV.md)
 - [C.30.LCA — Control Structure View Adequacy (LCA)](by_pattern/C.30.LCA.md)
 - [C.30.ILC — Cross-Scope Architecture Residual Triage](by_pattern/C.30.ILC.md)
@@ -174,6 +176,7 @@ Patterns: `225`
 - [E.9 — Design‑Rationale Record (DRR) Method](by_pattern/E.9.md)
 - [E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace](by_pattern/E.9.DA.md)
 - [E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)](by_pattern/E.10.md)
+- [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
 - [E.10.D2 — Intension–Description–Specification Discipline (I/D/S)](by_pattern/E.10.D2.md)

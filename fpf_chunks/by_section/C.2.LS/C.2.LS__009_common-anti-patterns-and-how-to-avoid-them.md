@@ -6,12 +6,12 @@ section_id: "C.2.LS:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 36538
-line_end: 36544
+line_start: 35837
+line_end: 35843
 dependencies:
   - "A.16"
   - "A.16.0"

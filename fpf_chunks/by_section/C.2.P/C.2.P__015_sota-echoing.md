@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__015_sota-echoing.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 35429
-line_end: 35485
+line_start: 34727
+line_end: 34783
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,13 +22,17 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.A"
+  - "A.6.F"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.2.1"
+  - "C.30.P"
   - "E.10"
+  - "E.10.ARCH"
   - "E.12"
   - "E.17"
   - "E.17.0"
@@ -84,7 +88,7 @@ The current FPF corpus already has explicit governing patterns for this discipli
 - `E.17.0`, `E.17` distinguish views, viewpoints, MVPK faces, publication forms, and publication projections.
 - `A.15.4` is a good current pattern example of keeping encountered publication, display, or cue items distinct from the exact project-side FPF kind and reference that makes work or reliance admissible.
 - `A.16`, `A.16.0`, `A.19`, `B.2.5`, `C.27`, and `A.3.3` provide the movement, control, temporal stack used when episteme-publication prose talks about route, trajectory, movement, cadence, or dynamics.
-- `E.19` already treats terminology and sentence-level precision restoration as real review obligations, not editorial polish.
+- `E.19` already treats terminology and sentence-level precision restoration as required review checks, not editorial polish.
 - `A.6.A` carries action-invitation discipline when a publication, representation, or cue invites an action without itself becoming authority, evidence, gate passage, or work completion.
 - `C.11` carries decision-making and decision-record discipline when the live question is a decision rather than generic action.
 - `A.15` and `A.15.4` split role, method, work-plan, and actual-work alignment from work-relevant source restoration, so episteme-publication prose must not let `A.15` become a universal episteme-publication governing pattern.
@@ -96,10 +100,10 @@ The internal FPF governing patterns remain primary:
 | --- | --- | --- | --- |
 | Head-kind discipline | `E.10` | Use head-kind recovery before accepting a phrase. | Adopt. |
 | Stable naming | `F.18` | Run a name card when a reusable head is being minted. | Adopt. |
-| Relation precision | `A.6.P` | Recover relation kind, endpoints, slots, qualifiers, and scope when relation or admissibility load is live. | Adopt. |
-| Carrier and object-description humility | `A.7` | Keep object, description, and carrier apart before reading a publication as evidence, work, gate, or authority. | Adopt. |
+| Relation precision | `A.6.P` | Recover relation kind, endpoints, slots, qualifiers, and scope when relation or admissibility force is live. | Adopt. |
+| Carrier and object-description humility | `A.7` | Keep object, description, and carrier apart before treating a publication as evidence, work, gate, or authority. | Adopt. |
 | Episteme and publication ontology | `C.2.1`, `E.17.0`, `E.17`, MVPK | Separate episteme, publication, view, generic publication face, governed MVPK face, publication unit, carrier, and rendering. | Adopt. |
-| Project-side downstream use | `A.6.A`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`, `C.11` | When a publication, display, cue, or explanation is read as evidence, gate, decision, work permission, method, assurance, or engineering justification, name the exact FPF governing pattern and the exact project-side FPF kind and reference. | Adopt. |
+| Project-side downstream use | `A.6.A`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`, `C.11` | When a publication, display, cue, or explanation is treated as evidence, gate, decision, work permission, method, assurance, or engineering justification, name the exact FPF governing pattern and the exact project-side FPF kind and reference. | Adopt. |
 
 This reduced external-practice set changes the Solution in one practical way: an epistemic precision restoration cannot close merely because the replacement wording sounds cleaner. It closes only when the FPF kind, relation, admissible use, and any exact governing-pattern application is recoverable by value; otherwise the wording is blocked, quote-only, or becomes a candidate for a separate FPF-kind decision.
 

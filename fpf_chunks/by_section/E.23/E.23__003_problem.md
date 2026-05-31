@@ -6,12 +6,12 @@ section_id: "E.23:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__003_problem.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:2 — Problem"
-line_start: 66990
-line_end: 67005
+line_start: 67805
+line_end: 67820
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -40,7 +40,7 @@ The recurring failures are:
 4. **Cheap-read overloading.** A simple floor check becomes a heavy improvement apparatus.
 5. **Goodharted improvement.** Visible coordinates rise while protected trade-offs get worse.
 6. **Method-family mismatch.** A PDCA or PDSA, POOGI, OODA, Ralph-like, variation-reduction, NQD quality-side improvement, or other specialized cycle is applied outside the characteristic space it was built to improve.
-7. **Neighbour theft.** The loop silently absorbs `E.22` question framing, `E.21` pattern-quality values, `E.9.DA` `DRR` adequacy values, `C.25` Q-Bundle endpoints, `A.6.Q` term repair, `C.19.1` method-preference discipline, `C.22.1` adaptation signatures, or `C.24` call planning.
+7. **Neighbour theft.** The loop silently absorbs `E.22` question framing, `E.21` pattern-quality values, `E.9.DA` `DRR` adequacy values, `C.25` Q-Bundle endpoints, `C.16.Q` term repair, `C.19.1` method-preference discipline, `C.22.1` adaptation signatures, or `C.24` call planning.
 8. **NQD quality-side capture.** The loop uses the `Q` side of NQD to improve one candidate, then silently starts governing novelty, diversity, descriptor or distance definitions, archive or front insertion, pool policy, selected-set publication, parity, or refresh.
 9. **Administrative-state quality.** Landing, review praise, external-review completion, popularity, adoption, or absence of blockers is used as evidence of improved quality by itself.
 

@@ -6,12 +6,12 @@ section_id: "A.6.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__001_intro.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:intro — Intro"
-line_start: 12015
-line_end: 12064
+line_start: 12029
+line_end: 12087
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,9 +25,9 @@ dependencies:
   - "A.6.A"
   - "A.6.B"
   - "A.6.H"
-  - "A.6.Q"
   - "A.6.S"
   - "A.7"
+  - "C.16.Q"
   - "C.2.1"
   - "C.2.2a"
   - "C.26"
@@ -65,7 +65,16 @@ keywords:
 **Intent.** Provide a reusable governing discipline for repairing a recurring defect in FPF texts: **under‑specified relational language** (often phrased as a seemingly binary verb) that actually hides **(i)** higher arity (missing participant positions), **(ii)** multiple semantic change classes, **(iii)** asymmetry between `U.Viewpoint` specifications and `U.View` instances, **(iv)** boundary requirements (signature invariants vs admissibility vs deontics vs evidence/work), and **(v)** endpoint referential compression (pronominal/metonymic stand‑ins and over‑broad kinds).
 RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explicit, qualified relation records** with an explicit **change-class lexicon** and **lexical guardrails**, while respecting the **A.6 Signature Stack** and **A.6.B Boundary Norm Square** separation.
 
-**Placement.** Part A → cluster **A.6 Signature Stack & Boundary Discipline** → governing pattern for **RPR specialisations** (A.6.5, A.6.6, A.6.8, A.6.9, A.6.H, and future A.6.x patterns).
+**Use this when.** Use `A.6.P` when wording hides relation force: sameness, linkage, grounding, support, basedness, mapping, comparison, dependency, whole/part, service, cross-context bridge wording, endpoint compression, qualifier force, or another relation-bearing phrase that must be used for FPF guidance, publication, comparison, gating, assurance, decision, or reuse.
+
+**What this buys.** The relation becomes reviewable: head kind, endpoints, slots, qualifiers, scope, time, viewpoint, admissible use, non-admissible overread, and relation record are made explicit enough for the exact neighboring FPF pattern to compose with it.
+
+**First useful move.** Restore the head kind and the relation or comparison force separately. If the problem is only source-expression, publication, architecture or structure, characteristic or scale, quality/evaluative characterization, or function-like carrier recovery, use the exact receiving pattern named below instead of forcing relation repair.
+
+**Not this pattern when.** Do not use `A.6.P` as a universal wording-repair pattern, evidence pattern, assurance pattern, quality pattern, source-transfer pattern, or architecture pattern. If `E.10` already recovered the exact receiving object, use that receiving pattern directly.
+
+
+**Placement.** Part A → cluster **A.6 Signature Stack & Boundary Discipline** → governing pattern for **RPR specialisations** (A.6.5, A.6.6, A.6.8, A.6.9, A.6.H, and any additional A.6.x pattern that declares this RPR relation).
 
 **Builds on.**
 
@@ -75,7 +84,7 @@ RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explic
 * **A.6.0 `U.Signature`** (SlotSpec requirement for argument positions).
 * **A.6.5 `U.RelationSlotDiscipline`** (SlotKind/ValueKind/RefKind stratification + canonical slot verbs; `bind` reserved for name binding).
 * **E.8** (pattern authoring discipline; Tell–Show–Show; SoTA echoing hygiene).
-* **F.18** (promise vs utterance vs commitment; avoids “interface‑as‑promiser” category errors).
+* **F.18** (local-first reusable naming after relation kind/use recovery: mint/reuse/document-legacy decisions, collision checks, lineage notes, and durable-name discipline).
 * **E.10** (LEX‑BUNDLE discipline; I/D/S versus publication-form and carrier lanes; L‑SURF token discipline; reserved primitives; Tech↔Plain pairing). *(Referenced conceptually; no extra authoring apparatus implied.)*
 
 **Coordinates with.**
@@ -95,7 +104,7 @@ RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explic
 * **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance: articulation explicitness, closure degree, language-state anchoring mode, and the language-state representation-factor bundle may be cited by RPR patterns but are not governed here.
 
 **Specialisations already in Core.**
-These retained specialisations are current because they each carry one stable recurring repair load. Their mnemonic heads remain admissible entry points, but generic `A.6.P` does **not** treat token recurrence alone as sufficient to mint one new specialisation per overloaded trigger word.
+These retained specialisations are current because they each carry one stable recurring repair force. Their mnemonic heads remain admissible entry points, but generic `A.6.P` does **not** treat token recurrence alone as sufficient to mint one new specialisation per overloaded trigger word.
 
 * **A.6.5**: RPR for n‑ary relations and slot discipline (archetype: “putting something into a place”; explicit SlotKinds + ValueKind/RefKind + slot‑operation lexicon).
 * **A.6.6**: RPR for “relative‑to / basedness” claims (explicit `baseRelation` token + scoped, witnessed base declarations + base‑change lexicon; lexical red‑flags for `anchor*`; support-as-basedness selection test for `support`, `supported by`, `support basis`, and `support relation` wording).

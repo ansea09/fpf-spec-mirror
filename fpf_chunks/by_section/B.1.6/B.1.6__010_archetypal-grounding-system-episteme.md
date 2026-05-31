@@ -6,12 +6,12 @@ section_id: "B.1.6:9"
 section_title: "Archetypal grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__010_archetypal-grounding-system-episteme.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:9 — Archetypal grounding (System / Episteme)"
-line_start: 30668
-line_end: 30679
+line_start: 29964
+line_end: 29975
 dependencies:
   - "A.12"
   - "A.14"

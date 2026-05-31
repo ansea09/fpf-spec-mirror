@@ -6,12 +6,12 @@ section_id: "C.30.ASV:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__010_consequences.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:9 — Consequences"
-line_start: 52234
-line_end: 52242
+line_start: 52778
+line_end: 52786
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ILC"
   - "C.30.LCA"
+  - "C.30.P"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -56,7 +57,7 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| Architecture views become D/S records over selected structures, not diagrams by appearance. | A conforming use states architecture claim, structure refs, structure kind, viewpoint, and use when the view is load-bearing. |
+| Architecture views become D/S records over selected structures, not diagrams by appearance. | A conforming use states architecture claim, structure refs, structure kind, viewpoint, and use when the view carries FPF force. |
 | TEVB remains stable while architecture gets broader structure-kind coverage. | Structure-kind bindings add one explicit record when architecture-specific coverage matters. |
 | Functional, flow, control, module/interface, placement, information, runtime, work, evidence, scale, material, and logical structures can be separated. | Some familiar names require triage before they can carry FPF claim kinds. |
 | Failed checks produce repair moves rather than only classification objections. | The checklist is longer than a pure taxonomy, but it is more useful for action. |

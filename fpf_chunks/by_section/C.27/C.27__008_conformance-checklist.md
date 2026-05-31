@@ -6,12 +6,12 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__008_conformance-checklist.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:7 — Conformance Checklist"
-line_start: 48394
-line_end: 48443
+line_start: 48700
+line_end: 48749
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -68,7 +68,7 @@ is sufficiently supported for the use it is making. Ordinary local use can stay 
 
 **Value and harm boundary.** A temporally adequate claim is not automatically a
 valuable claim. A valuable claim is not automatically temporally adequate. If
-value, harm, safety, legal, ethics, quality, or promise impact is load-bearing,
+value, harm, safety, legal, ethics, quality, or promise impact is FPF-force-bearing,
 C.27 states only the temporal move, window, supported use, unsupported
 downstream claim, effect, or use, and pattern relation. The value, harm, safety, legal, ethics, quality, or
 promise pattern governs the other question.

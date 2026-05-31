@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".2 - Partly-said cue and language-state discovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__003_2-partly-said-cue-and-language-state-discovery.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .2 - Partly-said cue and language-state discovery"
-line_start: 81144
-line_end: 81170
+line_start: 81959
+line_end: 81985
 dependencies:
 keywords:
 ---
@@ -23,7 +23,7 @@ keywords:
   language-state requirement, one publication seam, or one L/A/D/E-classified claim family.
 - **Plausible candidate patterns:** `C.2.LS`, `A.16`, `A.16.1`, `A.16.2`,
   `B.4.1`, `B.5.2.0`.
-- **Tempting wrong pattern:** harden the cue into `A.6.P`, `A.6.Q`, `A.6.A`,
+- **Tempting wrong pattern:** harden the cue into `A.6.P`, `C.16.Q`, `A.6.A`,
   or `C.25` before it is stable enough to be a claim, action, or quality
   object.
 - **Disambiguating fact:** the phrase still needs preservation and entry-load
@@ -31,7 +31,7 @@ keywords:
 - **Decision movement:** if the phrase is still a cue, stay in `C.2.LS` /
   `A.16`; if it must be preserved across a seam, inspect `A.16.1` / `B.4.1`;
   if it is already a boundary claim, inspect `A.6.B` / `A.6.C`; if it is being
-  forced into a quality endpoint or action-invitation endpoint too early, reject `A.6.Q`, `A.6.A`, and
+  forced into a quality endpoint or action-invitation endpoint too early, reject `C.16.Q`, `A.6.A`, and
   `C.25` for now.
 
 - **Actual governing FPF pattern body or projection role:** `C.2.LS`, `A.16*`, and

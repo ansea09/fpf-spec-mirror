@@ -6,12 +6,12 @@ section_id: "E.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem frame"
-line_start: 58365
-line_end: 58409
+line_start: 59177
+line_end: 59221
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -67,5 +67,5 @@ Ordinary not-this-pattern boundary:
 - not when the authoritative pattern is already known and the remaining job is
   only didactic order or lexical repair;
 - not when a formal quality claim about discoverability is being made; route
-  that quality claim through `C.25` / `A.6.Q` as applicable.
+  that quality claim through `C.25` / `C.16.Q` as applicable.
 

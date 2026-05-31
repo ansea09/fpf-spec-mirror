@@ -6,21 +6,22 @@ section_id: "C.25:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__003_problem.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:2 — Problem"
-line_start: 44863
-line_end: 44877
+line_start: 45165
+line_end: 45179
 dependencies:
   - "A.15"
   - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
-  - "A.6.Q"
   - "B.3"
   - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -54,5 +55,5 @@ Without a normal form for engineering quality families:
 4. **Guards become unstable.**
    Admission checks silently mix scope coverage, numerical thresholds, mechanism presence, and evidence freshness in one phrase.
 5. **Evaluative routing remains underspecified.**
-   After `A.6.Q` repairs a bare quality term, the admissible endpoint is unclear unless FPF distinguishes single-CHR cases from bundle-shaped quality families.
+   After `C.16.Q` repairs a bare quality term, or `C.16.P` repairs characteristic, scale, score, metric, or proxy wording inside that term, the admissible endpoint is unclear unless FPF distinguishes single-CHR cases from bundle-shaped quality families.
 

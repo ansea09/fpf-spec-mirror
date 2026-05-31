@@ -6,12 +6,12 @@ section_id: "E.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__007_problem.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:2 — Problem"
-line_start: 54599
-line_end: 54608
+line_start: 55143
+line_end: 55152
 dependencies:
   - "E.10"
   - "E.19"
@@ -55,6 +55,6 @@ keywords:
    headings.
 2. **Narrative cohesion** – prose swings from dry jargon to informal
    blog style.
-3. **Reviewability after guidance** – missing sections hide boundary and support checks
+3. **Reviewability after guidance** – missing sections hide boundary and assurance checks
    (Archetypal Grounding, Bias‑Annotation) that let reviewers verify the action guidance without replacing it.
 

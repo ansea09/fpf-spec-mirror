@@ -6,12 +6,12 @@ section_id: "C.3.2:10"
 section_title: "Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__011_anti-patterns-remedies-informative.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:10 — Anti‑patterns & Remedies (informative)"
-line_start: 38587
-line_end: 38597
+line_start: 37886
+line_end: 37896
 dependencies:
   - "C.3.1"
   - "C.3.3"

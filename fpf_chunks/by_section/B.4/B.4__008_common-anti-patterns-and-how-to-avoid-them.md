@@ -6,12 +6,12 @@ section_id: "B.4:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__008_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 32719
-line_end: 32726
+line_start: 32015
+line_end: 32022
 dependencies:
   - "A.12"
   - "A.4"

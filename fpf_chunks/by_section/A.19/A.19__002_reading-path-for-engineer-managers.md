@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "Reading path for engineer-managers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_reading-path-for-engineer-managers.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — Reading path for engineer-managers"
-line_start: 22932
-line_end: 23006
+line_start: 22218
+line_end: 22293
 dependencies:
   - "A.17"
   - "A.18"
@@ -46,8 +46,8 @@ keywords:
 **Step 1 — Measurement vocabulary: what is measured, and what “comparable” can mean.**
 
 * **A.17** — canonizes the technical anchor **Characteristic** (and retires near-synonyms such as “axis/dimension/feature/property/metric” from normative Tech register).
-* **A.18** — CSLC discipline (**Characteristic / Scale / Level / Coordinate**) as the metrology of interpretability, comparability, and lawful aggregation.
-* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms.
+* **A.18** — CSLC discipline (**Characteristic / Scale / Level / Coordinate**) as the metrology of interpretability, comparability, and admissible aggregation.
+* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms. Use `C.16.P` first when the wording itself still hides whether the live object is a characteristic, scale, coordinate, score, metric label, quality-term repair, or another receiving object.
 
 **Step 2 — Ontology and governing spec refs the CHR suite operates on.**
 
@@ -73,16 +73,17 @@ keywords:
 
 **Step 5 — The six CHR mechanism-governing patterns (read one at a time).**
 
-Each mechanism-governing pattern below publishes its `U.Mechanism.Intension` card and assumes the measurement-lawfulness base from **A.17/A.18** and **C.16**.
+Each mechanism-governing pattern below publishes its `U.Mechanism.Intension` card and assumes the measurement-admissibility base from **A.17/A.18** and **C.16**.
 
 1. **A.19.UNM** — normalization (CV→NCV, `≡_UNM`, `TransportRegistryΦ`).
 2. **A.19.UINDM** — indicatorization (policy-bound indicator selection; no “NCV ⇒ indicator” shortcut).
 3. **A.19.USCM** — scoring (SCP-first; no implicit UNM).
-4. **A.19.ULSAM** — lawful aggregation (explicit `Γ_fold`; ordinals are not averaged).
+4. **A.19.ULSAM** — admissible aggregation (explicit `Γ_fold`; ordinals are not averaged).
 5. **A.19.CPM** — comparison (set-valued outcomes; no silent scalarisation/totalisation).
 6. **A.19.SelectorMechanism** — selection kernel (set-returning; dominance/`PortfolioMode` defaults are policy-bound).
 
 **Step 6 — Specialization and reuse.**
+* **A.19.ECS** — how to construct an object-under-improvement evaluation `CharacteristicSpace` for the object being improved: `A.19` says how the space is structured; `A.19.ECS` says how to make one useful for a declared object kind under improvement, use, contrast cases, scale set, value meanings, trade-offs, and stop or reopen condition.
 
 * **E.20** — how to use specializations of mechanisms (`⊑` / `⊑⁺`) without breaking SlotKind meaning or introducing hidden inputs; consult this whenever you see project‑ or domain‑specific variants of the CHR mechanisms.
 

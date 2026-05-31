@@ -6,18 +6,18 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.1.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
-line_start: 70826
-line_end: 71020
+line_start: 71642
+line_end: 71835
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"
   - "A.6.A"
   - "A.6.P"
-  - "A.6.Q"
   - "B.4.1"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.25"
   - "E.17.1"
@@ -137,7 +137,7 @@ The practical gain is narrow but real: teams already use short stance glosses in
 ### F.9.1:12 - Relations
 - Builds on: `F.9`, `C.2.2a`.
 - Primary boundary: `F.9` governs Bridge Card discipline; `F.9.1` governs only stance overlays attached to existing Bridge Cards.
-- Coordinates with: `A.16.0`, `E.17.1`, `A.6.P`, `A.6.A`, `A.6.Q`, `C.25`, and `B.4.1`.
+- Coordinates with: `A.16.0`, `E.17.1`, `A.6.P`, `A.6.A`, `C.16.Q`, `C.25`, and `B.4.1`.
 - Constrains: local stance annotations on bridge cards used in comparative and tradition bundles.
 ### F.9.1:13 - Worked Bridge-Card Examples
 
@@ -226,5 +226,4 @@ A reviewer can test stance-overlay integrity with five questions:
 
 Legacy prose about things being "really the same", "only a projection", or "just an operational version" should therefore be migrated by recovering bridge kind, direction, `CL`, and loss first, then adding an overlay only if it still adds disciplined interpretive value.
 ### F.9.1:End
-
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/I.2.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
-line_start: 81094
-line_end: 81309
+line_start: 81909
+line_end: 82124
 dependencies:
 keywords:
 ---
@@ -72,7 +72,7 @@ Each worked entry reading keeps recoverable:
   language-state requirement, one publication seam, or one L/A/D/E-classified claim family.
 - **Plausible candidate patterns:** `C.2.LS`, `A.16`, `A.16.1`, `A.16.2`,
   `B.4.1`, `B.5.2.0`.
-- **Tempting wrong pattern:** harden the cue into `A.6.P`, `A.6.Q`, `A.6.A`,
+- **Tempting wrong pattern:** harden the cue into `A.6.P`, `C.16.Q`, `A.6.A`,
   or `C.25` before it is stable enough to be a claim, action, or quality
   object.
 - **Disambiguating fact:** the phrase still needs preservation and entry-load
@@ -80,7 +80,7 @@ Each worked entry reading keeps recoverable:
 - **Decision movement:** if the phrase is still a cue, stay in `C.2.LS` /
   `A.16`; if it must be preserved across a seam, inspect `A.16.1` / `B.4.1`;
   if it is already a boundary claim, inspect `A.6.B` / `A.6.C`; if it is being
-  forced into a quality endpoint or action-invitation endpoint too early, reject `A.6.Q`, `A.6.A`, and
+  forced into a quality endpoint or action-invitation endpoint too early, reject `C.16.Q`, `A.6.A`, and
   `C.25` for now.
 
 - **Actual governing FPF pattern body or projection role:** `C.2.LS`, `A.16*`, and
@@ -100,7 +100,7 @@ Each worked entry reading keeps recoverable:
   interface/access note.
 - **Plausible candidate patterns:** `A.6`, `A.6.B`, `A.6.C`.
 - **Nearby patterns:** `A.6.RSIG` if first-contact recognition is still live;
-  `A.6.P` for relation wording; `A.6.Q` for quality wording; `A.6.A` for
+  `A.6.P` for relation wording; `C.16.Q` for quality wording; `A.6.A` for
   action invitation wording; `E.17` for publication or view question.
 - **Tempting wrong pattern:** treat an API/access phrase as a promise of
   downstream effect, or treat one boundary phrase as a complete Contract Bundle.

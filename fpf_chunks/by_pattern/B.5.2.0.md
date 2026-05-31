@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.0.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
-line_start: 33440
-line_end: 33622
+line_start: 32735
+line_end: 32916
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -18,9 +18,9 @@ dependencies:
   - "A.16.2"
   - "A.6.A"
   - "A.6.P"
-  - "A.6.Q"
   - "B.4.1"
   - "B.5.2"
+  - "C.16.Q"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
@@ -129,7 +129,7 @@ The pattern reflects real abductive practice, where opportunities, probe prompts
 
 ### B.5.2.0:12 - Relations
 - Builds on: `C.2.2a`, `A.16`, `A.16.1`, `B.4.1`, `C.2.LS`, `C.2.4`, `C.2.5`.
-- Coordinates with: `A.16.0`, `A.16.2`, `C.2.6`, `C.2.7`, `B.5.2`, `A.6.P`, `A.6.Q`, `A.6.A`, `F.9.1`.
+- Coordinates with: `A.16.0`, `A.16.2`, `C.2.6`, `C.2.7`, `B.5.2`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9.1`.
 - Constrains: lawful prompt entry into abduction.
 ### B.5.2.0:13 - Worked Prompt Species
 
@@ -217,5 +217,4 @@ Add three follow-up checks:
 - **Is there an imaginable rival-set, even if not yet fully written?**
 - **Is the narrowing still a question rather than a disguised answer?**
 ### B.5.2.0:End
-
 

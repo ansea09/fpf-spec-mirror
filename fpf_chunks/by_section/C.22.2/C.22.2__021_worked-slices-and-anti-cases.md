@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 44132
-line_end: 44182
+line_start: 44433
+line_end: 44483
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,10 +21,10 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
-  - "A.6.Q"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.18"
   - "C.19"
   - "C.2.P"
@@ -85,7 +85,7 @@ Next move and tempting wrong-pattern check:
 |---|---|---|
 | AI and human task transfer rework | Stabilize the problem-side record; if agentic call planning or world-affecting action is live, exit to `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` before action. | Treat repeated rework as a work item, a prompt retry instruction, or permission to delegate again. |
 | Musical mastery tempo drift | Name the temporal claim and exit to `C.27` when tempo, rhythm, recovery, lead time, or learning rate changes the next move. | Treat drift or a trend line as an intervention model, method success, or evidence of mastery. |
-| Problem set or Goldilocks selection | Preserve `setContextRef`; send set, parity, refresh, or set-return questions to `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `A.6.Q` when live. | Treat Goldilocks as one readiness score, priority rank, or local selected-set authority. |
+| Problem set or Goldilocks selection | Preserve `setContextRef`; send set, parity, refresh, or set-return questions to `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `C.16.Q` when live. | Treat Goldilocks as one readiness score, priority rank, or local selected-set authority. |
 | Customer-support escalation after a policy or interface change | Stabilize the problem-side record; characterize the signal through `C.16` and `A.19`, and exit to `C.28` if the card claims causal use. | Treat escalation volume as an automatic fix request, staffing plan, release rollback, or evidence that the policy was wrong. |
 | Literature-synthesis anomaly before method selection | Preserve `rivalProblemFormulationRef` when rival frames remain live; exit to `A.10`, `B.3`, `F.9`, `E.18`, or `C.29` when evidence, assurance, bridge, representation, or mathematical structure is live. | Treat the anomaly as proof for a new theory, an accepted research task, or a selected method. |
 

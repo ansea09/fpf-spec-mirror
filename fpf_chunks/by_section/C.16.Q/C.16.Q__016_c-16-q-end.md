@@ -1,0 +1,58 @@
+---
+chunk_kind: "child"
+pattern_id: "C.16.Q"
+pattern_title: "Quality-Term Precision Restoration"
+section_id: "C.16.Q:End"
+section_title: "C.16.Q:End"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.16.Q/C.16.Q__016_c-16-q-end.md"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+heading_path:
+  - "C.16.Q — Quality-Term Precision Restoration"
+  - "C.16.Q:End — C.16.Q:End"
+line_start: 41679
+line_end: 41680
+dependencies:
+  - "A.10"
+  - "A.16"
+  - "A.16.0"
+  - "A.16.1"
+  - "A.16.2"
+  - "A.17"
+  - "A.18"
+  - "A.19"
+  - "A.2.6"
+  - "A.6.A"
+  - "A.6.B"
+  - "A.6.P"
+  - "A.7"
+  - "B.3"
+  - "B.4.1"
+  - "B.5.2.0"
+  - "C.16"
+  - "C.16.P"
+  - "C.17"
+  - "C.18"
+  - "C.19"
+  - "C.2.1"
+  - "C.2.2a"
+  - "C.2.4"
+  - "C.2.5"
+  - "C.2.6"
+  - "C.2.7"
+  - "C.2.LS"
+  - "C.25"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.17.0"
+  - "E.17.2"
+  - "E.21"
+  - "E.8"
+  - "F.18"
+  - "F.9"
+  - "F.9.1"
+keywords:
+---
+
+### C.16.Q:End
+

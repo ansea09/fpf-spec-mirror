@@ -6,12 +6,12 @@ section_id: "A.2.5:16"
 section_title: "Extended grounding across four disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__017_extended-grounding-across-four-disciplines.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:16 — Extended grounding across four disciplines"
-line_start: 3876
-line_end: 3960
+line_start: 3879
+line_end: 3963
 dependencies:
   - "A.15"
   - "A.2.1"

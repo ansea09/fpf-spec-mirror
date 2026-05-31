@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology & Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-lexical-form-lex-morph.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:8 — Morphology & Lexical Form (LEX.Morph)"
-line_start: 57125
-line_end: 57365
+line_start: 57707
+line_end: 57947
 dependencies:
   - "A.10"
   - "A.15"
@@ -104,7 +104,7 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, role assignment, status assertion, work occurrence, or permission.
 * Use `governingPatternRef` for a named FPF pattern that governs admissible interpretation or use. Use `authoritySourceRef` when a non-pattern `authoritySourceRef` target such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. Do not use generic sign/episteme-publication wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 * When a published episteme is used for work, name the live P2W chain element: intended method family, selected method/method of work, `U.WorkPlanning` baseline, planned work, actual `U.Work` or `U.WorkEnactment`, work result, result measurement, or non-work reliance on a claim or effect. Do not let generic `action`, `use`, or `material` hide that distinction.
-* Use `C.2.P` when episteme-publication-heavy wording carries episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or FPF-pattern-application load. This parent pattern keeps the lexical and naming discipline; `C.2.P` supplies the epistemic precision-restoration profile that recovers the exact FPF kind, relation record, relation phrase, tuple-like record, exact project-side FPF kind and reference, or not-triggered disposition before final wording is accepted.
+* Use `C.2.P` when episteme-publication-heavy wording carries episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or FPF-pattern-application force. This parent pattern keeps the lexical and naming discipline; `C.2.P` supplies the epistemic precision-restoration profile that recovers the exact FPF kind, relation record, relation phrase, tuple-like record, exact project-side FPF kind and reference, or not-triggered disposition before final wording is accepted.
 
 **L‑SURF — disciplined use of *Surface* **
 * **Definition.** *Surface* is reserved for `PublicationSurface` and `InteropSurface`: UTS, shipping, and interop publication surfaces that present admissible, plane-aware summaries for a stated audience and purpose. A Surface is a conceptual bundle of views in the ISO 42010 sense, with declared viewpoint. Serialisations live in Annex and Interop. Surfaces package D and S projections produced via `Describe_ID` and `Specify_DS` in `A.7` and do not change object ontology.
@@ -164,7 +164,7 @@ Aliases live **only** inside a **Context Glossary** and map to **one** technical
 #### E.10:8.5a - Entry lexeme support and lexical-query discipline
 
 Canonical entry-neighborhoods may use one compact **entry lexeme support**
-block when the lexical load is real.
+block when the lexical force is real.
 That support should not live in every pattern body by default.
 Keep it instead in:
 
@@ -201,7 +201,7 @@ Ordinary lexical-query support should stay compact:
 * ordinary `J.4` neighborhoods: keep only the most discriminating domain phrases and
   false friends;
 * fuller lexical sets belong under `F.17, F.18, and E.10` only when one real
-  naming, alias, bridge, or collision load exists.
+  naming, alias, bridge, or collision force exists.
 
 Lexical support should increase entry precision, not maximize keyword recall.
 The same boundary should be kept explicit in lexical support:

@@ -6,12 +6,12 @@ section_id: "A.6.F:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__005_solution.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:4 — Solution"
-line_start: 14350
-line_end: 14524
+line_start: 13633
+line_end: 13807
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,11 +27,11 @@ dependencies:
   - "A.6.B"
   - "A.6.C"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.2.P"
   - "C.25"
   - "C.29"
@@ -124,12 +124,12 @@ The repair is complete when a practitioner can say which carrier kind the functi
 | Function wording use | First carrier | Boundary |
 | --- | --- | --- |
 | required transformation or effect | `VP.Functional`, `FunctionalStructureView@Context`, or locally declared capability/effect record | Does not imply physical module, work occurrence, or evidence. |
-| capability of a holon | `U.Capability` or the current capability-support locus | Does not imply that a method, module, or work occurrence exists. |
+| capability of a holon | `U.Capability` or the exact capability-governing pattern or project record named by the live claim | Does not imply that a method, module, or work occurrence exists. |
 | method wording | `U.Method`, `MethodDescription`, `VP.Procedural`, or A.15 design/run boundary as triggered | Does not imply execution. |
 | work occurrence or work result | `U.Work`, Work record, or P2W relation under the governing TGA work-result pattern | Does not imply reusable function ontology. |
 | responsibility or role expectation | `VP.RoleEnactor` and the relevant role/enactor relation | Does not imply the role-holder performed the work. |
 | mathematical function or relation | C.29 mathematical-lens use with domain, codomain or relation domain, preserved/lost structure, lens-use posture, and stop condition | Does not become architecture, evidence, causal proof, assurance, or decision claim by itself. |
-| quality or fitness expression | `C.25`, `C.16`, `A.6.Q`, `A.17`, `A.18`, or an admitted characteristic/measurement receiving pattern according to the live claim | Does not let "functionality" carry a quality claim without bearer and exact governing pattern. |
+| quality or fitness expression | `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, or an admitted characteristic/measurement receiving pattern according to the live claim | Does not let "functionality" carry a quality claim without bearer and exact governing pattern. |
 | module allocation | `FunctionalStructureView@Context` plus declared correspondence, allocation, retargeting, or module/interface repair as live | Does not make function and module one object. |
 | interface or signature relation | `InterfaceSignatureBoundaryNote`, A.6.0, A.6.5, A.6.B, A.6.C, A.6.8, or the exact module/interface repair pattern when live | Does not turn a functional link, port label, API name, or signature into implemented compatibility. |
 | functional architecture | `ArchitectureOf@Context` with `structureKindRef = FunctionalStructure` and `FunctionalStructureView@Context` under C.30.ASV | Not a peer architecture ontology and not a TGA graph by itself. |
@@ -182,7 +182,7 @@ The note is a boundary and source-finding aid. It is not the functional architec
 | function = role | Role/enactor structure uses `VP.RoleEnactor` and role records; function-like responsibility wording needs role carrier recovery. |
 | mathematical function = system purpose | Use C.29 for mathematical function or relation; recover domain/codomain, preserved/lost structure, lens-use posture, and stop condition. |
 | functional diagram = evidence | Diagram is a view or publication; evidence claim uses `A.10` or `G.6`. |
-| functionality = quality | Recover the quality bearer and exact governing pattern through `C.25`, `C.16`, or A.6.Q before using the wording as adequacy claim. |
+| functionality = quality | Recover the quality bearer and exact governing pattern through `C.25`, `C.16`, or C.16.Q before using the wording as an adequacy claim. |
 
 #### A.6.F:4.7 - Composability and compositionality
 
@@ -199,7 +199,7 @@ Non-admissible:
   successful assembly is not quality propagation
 ```
 
-Compositional formalisms may support explicit composition structures and view/model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
+Compositional formalisms may express explicit composition structures and view/model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
 
 ```text
 CompositionalityClaim@Quality ::= {
@@ -226,7 +226,7 @@ falseCarrierKindRefs: user journey publication, work log, TGA graph, module diag
 nextAdmissibleMove: open C.30.ASV only if the selected functional structure changes action
 stopCondition: ordinary phrase remains Plain if no architecture claim is live
 ```
-**Functionality as quality.** A product note says, "new functionality improves adequacy." The repair separates added capability or effect from quality claim. Capability/effect wording may stay as recognition, but adequacy claim goes to `C.25`, `C.16`, A.6.Q, or an admitted characteristic/measurement receiving pattern when the claim is live. A.6.F stops after carrier recovery when no quality claim remains.
+**Functionality as quality.** A product note says, "new functionality improves adequacy." The repair separates added capability or effect from quality claim. Capability/effect wording may stay as recognition, but adequacy claim goes to `C.25`, `C.16`, C.16.Q, or an admitted characteristic/measurement receiving pattern when the claim is live. A.6.F stops after carrier recovery when no quality claim remains.
 
 **Mathematical function or loss.** A model note says, "the loss function explains the system purpose." The repair keeps the mathematical function under C.29 lens discipline: domain, codomain or relation domain, preserved/lost structure, lens-use posture, and stop condition. The loss may inform a reasoning move; it does not become system purpose, evidence sufficiency, causal proof, assurance, or project decision by itself.
 

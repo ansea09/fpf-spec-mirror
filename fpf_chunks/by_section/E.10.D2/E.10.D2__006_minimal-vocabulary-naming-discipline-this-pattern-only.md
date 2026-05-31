@@ -6,12 +6,12 @@ section_id: "E.10.D2:5"
 section_title: "Minimal vocabulary & naming discipline (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__006_minimal-vocabulary-naming-discipline-this-pattern-only.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:5 — Minimal vocabulary & naming discipline (this pattern only)"
-line_start: 57941
-line_end: 57975
+line_start: 58753
+line_end: 58787
 dependencies:
   - "A.7"
   - "C.2.1"

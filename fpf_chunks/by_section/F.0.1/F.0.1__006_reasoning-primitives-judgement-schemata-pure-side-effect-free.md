@@ -6,12 +6,12 @@ section_id: "F.0.1:5"
 section_title: "Reasoning Primitives (judgement schemata; pure, side‑effect‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__006_reasoning-primitives-judgement-schemata-pure-side-effect-free.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:5 — Reasoning Primitives (judgement schemata; pure, side‑effect‑free)"
-line_start: 67471
-line_end: 67491
+line_start: 68286
+line_end: 68306
 dependencies:
   - "A.1.1"
   - "A.11"

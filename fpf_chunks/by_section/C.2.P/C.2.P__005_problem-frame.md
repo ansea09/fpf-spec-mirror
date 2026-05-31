@@ -6,12 +6,12 @@ section_id: "C.2.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__005_problem-frame.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:1 — Problem frame"
-line_start: 34914
-line_end: 34932
+line_start: 34208
+line_end: 34226
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,13 +22,17 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.A"
+  - "A.6.F"
   - "A.6.P"
-  - "A.6.Q"
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.2.1"
+  - "C.30.P"
   - "E.10"
+  - "E.10.ARCH"
   - "E.12"
   - "E.17"
   - "E.17.0"
@@ -72,7 +76,7 @@ It exists because episteme-publication-heavy texts can use locally convenient he
 The rewrite discipline here is semantic, not lexical; in this pattern the semantic work is bounded to episteme-publication/source-transfer precision:
 - do not replace one broad token with one new broad token by string substitution;
 - first recover the FPF kind stack, the claim-bearing status, the publication, view, carrier, or relation construction, and any work, action, or authority crossing;
-- then choose the smallest exact wording that preserves the load-bearing distinction without creating a second ontology.
+- then choose the smallest exact wording that preserves the FPF-force-bearing distinction without creating a second ontology.
 
 This pattern uses the `E.10` trigger result as its entry condition, then works in the `C.2.1`/`E.17` epistemic-publication ontology rather than in a lexical registry.
 

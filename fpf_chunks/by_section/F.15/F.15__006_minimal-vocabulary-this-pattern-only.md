@@ -6,12 +6,12 @@ section_id: "F.15:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:5 — Minimal vocabulary (this pattern only)"
-line_start: 72725
-line_end: 72732
+line_start: 73540
+line_end: 73547
 dependencies:
   - "B.3"
   - "D.CTX"

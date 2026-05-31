@@ -6,12 +6,12 @@ section_id: "E.10.D2:12"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__013_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
   - "E.10.D2:12 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 58228
-line_end: 58250
+line_start: 59040
+line_end: 59062
 dependencies:
   - "A.7"
   - "C.2.1"

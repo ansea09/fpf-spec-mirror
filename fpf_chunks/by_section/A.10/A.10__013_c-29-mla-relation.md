@@ -6,12 +6,12 @@ section_id: "A.10:10b"
 section_title: "C.29 MLA relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__013_c-29-mla-relation.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:10b — C.29 MLA relation"
-line_start: 19224
-line_end: 19227
+line_start: 18508
+line_end: 18511
 dependencies:
   - "A.1"
   - "A.10"

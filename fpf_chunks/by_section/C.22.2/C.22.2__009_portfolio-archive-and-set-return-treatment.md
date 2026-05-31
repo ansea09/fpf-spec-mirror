@@ -6,12 +6,12 @@ section_id: "C.22.2:8"
 section_title: "Portfolio, Archive, and Set-Return Treatment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__009_portfolio-archive-and-set-return-treatment.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:8 — Portfolio, Archive, and Set-Return Treatment"
-line_start: 43831
-line_end: 43855
+line_start: 44132
+line_end: 44156
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,10 +21,10 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
-  - "A.6.Q"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.16.Q"
   - "C.18"
   - "C.19"
   - "C.2.P"
@@ -77,7 +77,7 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, l
 | Ranked shortlist | `G.5` only when an admissible order is declared | Preserve ranking basis or narrow to selected set with tie notes. |
 | Selected set | `G.5` | Preserve selected-set output, basis pins, and unknown handling. |
 | Live pool | `C.19` | Preserve pool policy, current treatment, and change trigger. |
-| Set-return | `G.5`, `C.18`, `A.6.Q`, declared comparison records | Preserve set-valued result when total order is not admissible. |
+| Set-return | `G.5`, `C.18`, `C.16.Q`, declared comparison records | Preserve set-valued result when total order is not admissible. |
 
 A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `setContextRef`: the lightweight reference to the source set kind, source reference, selection or retention basis, budget or window, review cadence, and receiving pattern when live. `setContextRef` is a reference field, not a new `SetContext` kind, and is not evidence, gate passage, approval, portfolio object, or work authority.
 

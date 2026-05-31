@@ -6,20 +6,21 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.25.md"
-commit_sha: "2e112078bb209e5e3a511c3bd1aa6b1b2e299efe"
+commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
-line_start: 44845
-line_end: 45252
+line_start: 45147
+line_end: 45558
 dependencies:
   - "A.15"
   - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
-  - "A.6.Q"
   - "B.3"
   - "C.16"
+  - "C.16.P"
+  - "C.16.Q"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -52,11 +53,11 @@ keywords:
 `A.2.6` (USM scope algebra), `A.6.1 U.Mechanism`, `C.16 MM-CHR`, `A.18 CSLC`, `B.3 Trust & Assurance Calculus`.
 
 **Coordinates with.**
-`C.17-C.19` for quality-related measurement families, `A.15` for method, work-plan, or work-occurrence gating, and `A.6.Q` for evaluative classification into explicit quality endpoints.
+`C.17-C.19` for quality-related measurement families, `C.16.P` when characteristic/scale/score wording is not yet recoverable, `A.15` for method, work-plan, or work-occurrence gating, and `C.16.Q` for quality/evaluative-characterization wording before the endpoint is one explicit characteristic, Q-Bundle, objective, or another receiving pattern.
 
 ### C.25:1 - Problem frame
 
-Engineering quality language repeatedly drifts into one of two invalid simplifications: either every `-ility` is treated as one scalar characteristic, or every engineering-quality statement is left as loose evaluative prose. A conforming engineering corpus therefore needs a uniform discipline that keeps lawful measurements, scope declarations, mechanisms, statuses, and evidence visibly separated without inventing a new kernel ontology.
+Engineering quality language repeatedly drifts into one of two invalid simplifications: either every `-ility` is treated as one scalar characteristic, or every engineering-quality statement is left as loose evaluative prose. A conforming engineering corpus therefore needs a uniform discipline that keeps admissible measurements, scope declarations, mechanisms, statuses, and evidence visibly separated without inventing a new kernel ontology.
 
 ### C.25:2 - Problem
 
@@ -71,7 +72,7 @@ Without a normal form for engineering quality families:
 4. **Guards become unstable.**
    Admission checks silently mix scope coverage, numerical thresholds, mechanism presence, and evidence freshness in one phrase.
 5. **Evaluative routing remains underspecified.**
-   After `A.6.Q` repairs a bare quality term, the admissible endpoint is unclear unless FPF distinguishes single-CHR cases from bundle-shaped quality families.
+   After `C.16.Q` repairs a bare quality term, or `C.16.P` repairs characteristic, scale, score, metric, or proxy wording inside that term, the admissible endpoint is unclear unless FPF distinguishes single-CHR cases from bundle-shaped quality families.
 
 ### C.25:3 - Forces
 
@@ -86,7 +87,7 @@ Without a normal form for engineering quality families:
 
 `C.25` defines a lightweight authoring normal form for engineering quality families. A publisher facing a quality term first decides whether the intended endpoint is:
 
-- **one lawful CHR characteristic**, or
+- **one admissible CHR characteristic**, or
 - **one structured quality bundle** whose measurable slots, scope slots, mechanisms, statuses, and evidence remain explicit.
 
 #### C.25:4.1 - Endpoint split
@@ -112,7 +113,7 @@ The pattern adds no new Kernel kind for these slots. It reuses existing kinds an
 - **Name.** The engineering quality family label, such as `Availability`, `Resilience`, or `Security`.
 - **Carrier.** The bearer of the quality claim: typically `U.System`, `U.PromiseContent`, or `U.Episteme`.
 - **ClaimScope / WorkScope.** USM sets over `U.ContextSlice` describing where the claim holds or where the capability can deliver. These are **set-valued scope objects**, not characteristics.
-- **Measures[CHR].** One or more lawful CHR characteristics, each bound to one declared scale.
+- **Measures[CHR].** One or more admissible CHR characteristics, each bound to one declared scale.
 - **QualificationWindow.** The temporal policy under which the quality claim is judged.
 - **Mechanisms / Status.** References to `U.Mechanism` realizations, control presences, certification states, or similar gating structures. They are not measurements.
 - **Evidence.** Anchors that justify the measures, mechanisms, or scope claims.
@@ -162,7 +163,7 @@ The pattern biases authors toward explicit decomposition. That bias is intention
 | **Category hygiene.** Scope, measurement, mechanism, and status no longer collapse into one term. | Slightly heavier authoring surface; mitigation: only composite cases need the full bundle. |
 | **Portable comparison.** CHR measures compare legally, while scope remains governed by USM set algebra. | Authors must declare scales and scope explicitly. |
 | **Cleaner gating.** Method/work guards can read the same structure without hidden semantics. | Requires discipline in separating guard factors. |
-| **Better endpoint classification.** `A.6.Q` can terminate in either one characteristic or one Q-Bundle with a clear endpoint pattern. | Requires a first-pass endpoint decision during authoring. |
+| **Better endpoint classification.** `C.16.Q` can terminate in either one characteristic or one Q-Bundle with a clear endpoint pattern. | Requires a first-pass endpoint decision during authoring. |
 
 ### C.25:10 - Rationale
 
@@ -173,6 +174,9 @@ Engineering quality language is useful precisely because it groups recurring con
 Contemporary engineering quality practice routinely mixes service-level measures, capability windows, scenario envelopes, mechanism presence, certification state, and evidence traces. `C.25` adopts that practical richness but refuses the common shortcut of compressing the whole family into one undefined score.
 
 ### C.25:12 - Relations
+
+`E.21` specialises the Q-Bundle normal form for FPF pattern-quality claims. `C.25` remains the general endpoint for engineering quality families; `E.21` is the receiving endpoint when the quality claim evaluates one FPF pattern version as action-guiding FPF text.
+
 **C.27 temporal-claim relation.**
 
 - C.27 may flag: a quality-family statement where agility, resilience, adaptability, recovery, or robustness depends on braking, redirection, stabilization, recovery rate, or rhythm under effort.
@@ -181,11 +185,11 @@ Contemporary engineering quality practice routinely mixes service-level measures
 - Exit: use C.27 to state the dynamic slot only when it changes admissible use; do not make every quality bundle carry dynamic slots.
 
 - **Builds on:** `A.2.6` for scope algebra, `A.6.1` for mechanism references, and `C.16 / A.18` for CHR legality.
-- **Coordinates with:** `C.2.2a`, `A.16.0`, `B.3` for assurance penalties, `A.15` for gate use, `A.6.Q` for evaluative classification, `C.17, C.18, and C.19` for adjacent quality-family measures, and `F.9 / F.9.1` when cross-context bundle comparison or bridge stance annotation is required.
+- **Coordinates with:** `C.2.2a`, `A.16.0`, `B.3` for assurance penalties, `A.15` for gate use, `C.16.P` for unresolved characteristic, scale, score, metric, or proxy wording inside a quality-family statement, `C.16.Q` for overloaded quality or evaluative-characterization wording, `C.17, C.18, and C.19` for adjacent quality-family measures, and `F.9 / F.9.1` when cross-context bundle comparison or bridge stance annotation is required.
 - **Constrains:** engineering quality authoring whenever a quality term would otherwise drift between single-CHR and composite-bundle readings.
 #### C.25:12.1 - Endpoint role in evaluative classification
 
-Within language-state trajectories and their endpoint docks, `C.25` is the system-side endpoint pattern for engineering quality families after evaluative classification from `A.6.Q`. `evaluativeAscription(...)` may remain a transitional repair record, but it is **not** the universal resting place when the admissible endpoint is a single `Characteristic`, a `Q-Bundle`, or an explicit objective-oriented quality bundle.
+Within language-state trajectories and their endpoint docks, `C.25` is the system-side endpoint pattern for engineering quality families after overloaded quality wording has been repaired by `C.16.Q` and any hidden characteristic, scale, score, metric, or proxy wording has been repaired by `C.16.P`. `qualityTermAscription(...)` may remain a transitional repair record, but it is **not** the universal resting place when the admissible endpoint is a single `Characteristic`, a `Q-Bundle`, or an explicit objective-oriented quality bundle.
 
 
 ### C.25:13 - Decision Test: Single Characteristic or Bundle?
@@ -194,7 +198,7 @@ The most common authoring failure is not in the bundle syntax itself; it is in c
 
 #### C.25:13.1 - Use one `U.Characteristic` when
 
-A quality claim should terminate in one lawful CHR characteristic only when all of the following hold together:
+A quality claim should terminate in one admissible CHR characteristic only when all of the following hold together:
 
 - one measurable aspect is actually doing the evaluative work,
 - one declared scale is enough to compare relevant cases,
@@ -245,7 +249,7 @@ A quality claim that depends on rolling windows, observation periods, maintenanc
 
 #### C.25:14.4 - Report-only summary proxies
 
-A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary-surface value or an oversight-facing composite score. Such a proxy is lawful only if:
+A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary-surface value or an oversight-facing composite score. Such a proxy is admissible only if:
 
 - it is explicitly declared as a **report-only proxy**,
 - the underlying bundle slots remain visible,
@@ -320,7 +324,7 @@ A useful authoring order is:
 
 A checking reader should ask:
 
-- whether the chosen endpoint shape is lawful,
+- whether the chosen endpoint shape is admissible,
 - whether any scope slot has been smuggled into scalar language,
 - whether mechanism presence has been mistaken for a metric,
 - whether the window is truly optional or actually load-bearing,
@@ -348,7 +352,7 @@ Legacy phrases such as *quality requirement*, *security requirement*, or *availa
 - choose the endpoint shape first,
 - then bind the requirement or commitment to that explicit head.
 
-`A.6.Q` may still be the entry repair, but `C.25` is the resting place once the engineering quality family has been made explicit.
+`C.16.Q` may still be the entry repair for overloaded quality wording, and `C.16.P` may repair characteristic, scale, score, metric, or proxy wording inside the same statement; `C.25` is the resting place only after the engineering quality family has been made explicit.
 
 #### C.25:17.2 - Boundary to assurance penalties
 
@@ -360,7 +364,7 @@ A report, summary surface, or executive summary may expose only one slice of a Q
 
 #### C.25:15.5 - Serviceability and supportability
 
-Serviceability, supportability, and adjacent family labels often look simple in prose but become composite as soon as operational use is declared. A lawful bundle for this family may need:
+Serviceability, supportability, and adjacent family labels often look simple in prose but become composite as soon as operational use is declared. An admissible bundle for this family may need:
 
 - support-scope slices,
 - measured restoration or service intervals,
@@ -376,7 +380,7 @@ The lesson is the same as elsewhere in `C.25`: once the truth of the family clai
 - viewpoint-fit or architecture-description adequacy claims, which may belong in viewpoint or evaluative-ascription patterns,
 - or selector/objective heads where *quality* means use-value under a search or portfolio frame.
 
-This boundary matters because the same word *quality* appears across those zones. `A.6.Q` may be the common repair entry, but the resting endpoint depends on what is actually being evaluated.
+This boundary matters because the same word *quality* appears across those zones. `C.16.Q` repairs overloaded quality wording, `C.16.P` repairs characteristic, scale, score, metric, or proxy wording when that is the hidden object, and the resting endpoint depends on what is actually being evaluated.
 ### C.25:18 - Bundle Decomposition and Comparison Law
 
 #### C.25:18.1 - Local decomposition rule
@@ -417,7 +421,7 @@ Use `C.25` when the live question is a quality bundle, "-ility" decomposition, p
 
 Practical reading:
 
-1. Decide whether the quality claim is one lawful Characteristic or a Q-Bundle.
+1. Decide whether the quality claim is one admissible Characteristic or a Q-Bundle.
 2. If it is a bundle, name bearer, scope, measures, qualification window, mechanisms/status, and evidence.
 3. Ask whether the claim is really viability-envelope work: protected promise/function, viable region/bounds, several variables, disturbance, sensors/probes, actuators, boundary conditions, adaptation cost, and failure mode.
 4. If one proxy or bundle is enough, stay in `C.25`.
@@ -443,8 +447,9 @@ Minimum viability-envelope note:
 Useful outputs:
 
 - a Q-Bundle when the issue is quality decomposition;
-- a `C.26.3` envelope-regulation note when probes/actuators/boundary conditions change the lawful viability reading;
+- a `C.26.3` envelope-regulation note when probes/actuators/boundary conditions change the admissible viability reading;
 - a `C.27` temporal-claim adequacy card when rate-change, effort, window, resistance, or cadence changes the admissible use;
 - no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
 
 ### C.25:End
+
