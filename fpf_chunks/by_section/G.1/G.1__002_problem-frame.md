@@ -6,12 +6,12 @@ section_id: "G.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:1 — Problem frame"
-line_start: 76134
-line_end: 76152
+line_start: 76730
+line_end: 76748
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -55,7 +55,7 @@ keywords:
 
 You are authoring a **CG‑Frame** and want a **repeatable scaffold** that connects:
 
-* a declared **scope anchor** (`CG‑FrameContext`, `describedEntity`, governing spec refs),
+* a declared **scope anchor** (`CG‑FrameContext`, `entityOfConcern`, governing spec refs),
 * a **local SoTA set** (scoped and provenance‑anchored),
 * a **variant pool** (candidate ideas / decision options / method variants),
 * a **shortlist** (a set-result outcome, not a forced singleton),

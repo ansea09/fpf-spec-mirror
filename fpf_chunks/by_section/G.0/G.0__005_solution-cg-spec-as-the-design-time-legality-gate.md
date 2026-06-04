@@ -6,12 +6,12 @@ section_id: "G.0:4"
 section_title: "Solution — CG‑Spec as the design-time legality gate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__005_solution-cg-spec-as-the-design-time-legality-gate.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:4 — Solution — CG‑Spec as the design-time legality gate"
-line_start: 75809
-line_end: 76013
+line_start: 76405
+line_end: 76609
 dependencies:
   - "A.10"
   - "A.17"
@@ -116,7 +116,7 @@ CG‑Spec :=
 
   Scope := USM.ScopeSlice(G) ⊕ Boundary{TaskKinds, ObjectKinds},
 
-  describedEntity := ⟨GroundingHolon, ReferencePlane ∈ {world|concept|episteme}⟩,
+  entityOfConcern := ⟨GroundingHolon, ReferencePlane ∈ {world|concept|episteme}⟩,
   WorldRegime? ∈ {prep|live},          // only refines ReferencePlane=world; introduces no new planes
 
   ReferenceMap := minimal map{term/id → UTS|CHR|SoTA-pack refs},
@@ -171,7 +171,7 @@ CG‑Spec :=
 
 | Interface          | Consumes                             | Produces / constrains                                                      |
 | ------------------ | ------------------------------------ | -------------------------------------------------------------------------- |
-| **G.0‑1 Charter**  | CG‑Frame brief, USM scope signals    | `CG‑Spec.Scope`, `describedEntity`, `ReferenceMap`                         |
+| **G.0‑1 Charter**  | CG‑Frame brief, USM scope signals    | `CG‑Spec.Scope`, `entityOfConcern`, `ReferenceMap`                         |
 | **G.0‑2 SCP**      | CHR pack refs (G.3), legality proofs | `CG‑Spec.SCP` + bindings to lawful operators/aggregators                   |
 | **G.0‑3 Evidence** | SoTA inputs (G.2), carriers (A.10)   | `CG‑Spec.MinimalEvidence`, `Γ‑fold` segment pins, `CL‑Routing`, `Φ` ids    |
 | **G.0‑4 Publish**  | All above                            | Versioned `CG‑Spec@UTS` plus Name Cards, public-id continuity records, and RSCR tests and trigger kinds  |
@@ -185,7 +185,7 @@ CG‑Spec :=
 
 #### G.0:4.5 - CG‑Spec authoring chassis (informative)
 
-1. **Charter the frame.** Declare `Context`, `Scope`, `describedEntity`, boundary examples/non-examples, and `ReferenceMap`.
+1. **Charter the frame.** Declare `Context`, `Scope`, `entityOfConcern`, boundary examples/non-examples, and `ReferenceMap`.
 2. **Draft ComparatorSet and SCP.** Enumerate permitted comparator forms and bind each to CHR characteristics and legality constraints (scale/unit/polarity discipline). Attach guard bindings as explicit references/pins.
 3. **Bind Characteristics.** Ensure every compared quantity is a CHR characteristic id (reuse/mint via UTS discipline).
 4. **Declare MinimalEvidence.** For each characteristic: required lanes/carriers, freshness window, crossing allowances (if any), and explicit failure behavior wiring (tri-state semantics delegated to `G.Core`).

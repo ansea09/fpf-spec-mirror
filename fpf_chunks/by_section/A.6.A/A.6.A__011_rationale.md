@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:10 — Rationale"
-line_start: 13510
-line_end: 13536
+line_start: 13353
+line_end: 13379
 dependencies:
   - "A.15"
   - "A.16"
@@ -47,15 +47,15 @@ keywords:
 
 A.6.A makes one strategic move:
 
-> **Affordance / action-first language is not treated as a monadic property and not treated as a hidden duty. It is treated as a family of action invitations whose members differ by site, actor, candidate action, coupling frame, substrate, and admissible publication form.**
+> **Affordance-like and action-first language is not treated as a monadic property and not treated as a hidden duty. It is treated as a family of action invitations whose members differ by site, enactor, candidate action, coupling frame, substrate, and admissible publication form.**
 
-This bridge reading is intentionally neutral: in ecological settings the site is **not** treated as a literal speaker or norm-giver. “Invitation” is the stable publishable FPF lens for situated opportunity-to-act talk, not a claim that all source traditions use that word or share one ontology.
+This bridge interpretation is intentionally neutral: in ecological settings the site is **not** treated as a literal speaker or norm-giver. "Invitation" is the stable publishable FPF lens for situated opportunity-to-act talk, not a claim that all source traditions use that word or share one ontology.
 
 This gives FPF an admissible path for:
 
 * ecological and embodied affordances,
 * interface and operator prompts,
-* epistemic “probe this / formalize this / reframe this” moves,
+* epistemic "probe this", "formalize this", and "reframe this" moves,
 * latent policy cues in learned systems,
 * control opportunities in closed loops,
 
@@ -67,6 +67,6 @@ It also keeps the larger architecture clean:
 * **A.6.A** governs action-invitation repairs,
 * **A.6.B** governs boundary routing,
 * **A.15** governs enactment and work,
-* **A.16** governs articulation / closure progression and admissible moves,
+* **A.16** governs articulation and closure progression and admissible moves,
 * **C.2.3** remains the sole governing pattern for formality characteristic **F**.
 

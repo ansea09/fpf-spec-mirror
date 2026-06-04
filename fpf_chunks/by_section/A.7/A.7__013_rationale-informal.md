@@ -6,12 +6,12 @@ section_id: "A.7:12"
 section_title: "Rationale (informal)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__013_rationale-informal.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:12 — Rationale (informal)"
-line_start: 17834
-line_end: 17840
+line_start: 17931
+line_end: 17937
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,7 +29,7 @@ dependencies:
   - "F.17"
   - "F.9"
 keywords:
-  - "Object ≠ Description"
+  - "EntityOfConcern ≠ Description episteme"
   - "Role ≠ Work"
   - "category error"
   - "ontology"
@@ -39,6 +39,6 @@ keywords:
 
 * **Engineering cognition:** Large programmes fail less from equations than from category slips (“process vs procedure vs execution”). A.7 eliminates these slips by a small, repeatable grammar.
 * **Compatible with ISO/BORO practice:** Distinguishing specifications as descriptions, procedures as capabilities, and operations as occurrences mirrors established systems-engineering discipline while keeping FPF’s holonic rigor.
-* **Didactic primacy:** Managers can approve sentences by spotting five tokens: **system bearing TransformerRole** / **Role** / **Method** / **Work** / **SCR**.
-* **Why bring “PublicationSurface” into A.7?** Strict Distinction already guards **what a thing is (I)** from **how we describe/specify it (D/S)**. In practice, **misreadings happen at the publication face**: cards and tables are mistaken for objects; governance words leak where physics/logic should stand. By making **PublicationSurface** *explicit and orthogonal*, A.7 closes that gap without entangling semantics with any tool or notation. This preserves **C‑1 universality** and **P‑1 Cognitive Elegance**, while giving E.8 a crisp governing source for multi‑face presentation rules.
+* **Didactic primacy:** Practitioners can approve sentences by spotting the quartet in context: **system bearing TransformerRole**, **Role**, **MethodDescription**, **Method**, **Capability**, **Work**, and **SCR** where evidence is claimed.
+* **Why name publication faces and forms in A.7?** Strict Distinction already guards the `EntityOfConcern` value from the Description episteme that makes claims about it. In practice, misreadings happen at the publication face: cards and tables are mistaken for EntityOfConcern values; governance words leak where physics or logic should stand. Naming publication face, form, unit, carrier, and rendering uses as orthogonal closes that gap without entangling semantics with any tool or notation. Specification use or refinement is also named only to keep it orthogonal to `EntityOfConcern`, Description, and publication expression. This preserves **C-1 universality** and **P-1 Cognitive Elegance**, while giving E.8 a crisp governing source for multi-face presentation rules.
 

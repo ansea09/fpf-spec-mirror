@@ -6,12 +6,12 @@ section_id: "A.15.1:10"
 section_title: "Cross‑context checks (MethodDescription ↔ RoleAssigning ↔ Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_cross-context-checks-methoddescription-roleassigning-work.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:10 — Cross‑context checks (MethodDescription ↔ RoleAssigning ↔ Work)"
-line_start: 19884
-line_end: 19902
+line_start: 19938
+line_end: 19955
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -58,5 +58,4 @@ When a Work is recorded, perform these **three quick checks**:
    * If **no**, the Work **fails** or is “conditionally accepted” per context policy.
 
 > **Manager’s mnemonic:** Context, assignment, Standard → **CAC**. Fail any → the Work is not acceptable *here* (perhaps acceptable elsewhere).
-
 

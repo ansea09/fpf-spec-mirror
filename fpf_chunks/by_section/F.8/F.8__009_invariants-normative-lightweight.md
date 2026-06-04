@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Invariants (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_invariants-normative-lightweight.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:8 — Invariants (normative, lightweight)"
-line_start: 70840
-line_end: 70849
+line_start: 71599
+line_end: 71607
 dependencies:
   - "A.11"
   - "A.7"
@@ -42,5 +42,4 @@ keywords:
 4. **Role Description anchoring.** Role Descriptions are **single-Context**, **single-cell** anchors (F.4).
 5. **Alias modesty.** Aliases **never** change semantics and live under F.5.
 6. **Kernel restraint.** New **U.Types** are **rare**; A.8 **(≥ 3 families)** is mandatory, and duplication with existing U.Types must be ruled out.
-
 

@@ -6,12 +6,12 @@ section_id: "C.30.ILC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:10 — Rationale"
-line_start: 53251
-line_end: 53258
+line_start: 53687
+line_end: 53694
 dependencies:
   - "A.10"
   - "A.22"
@@ -41,9 +41,9 @@ keywords:
 
 ### C.30.ILC:10 - Rationale
 
-Interlevel conflict and frustration are useful Plain source cues because they point to a recurrent architecture failure: local repair in one scope leaves a residual in another. They are dangerous as generic labels because they can hide which scope, structure kind, relation, or source-return condition is actually responsible.
+Interlevel conflict and frustration are useful Plain entry labels because they point to a recurrent architecture failure: local repair in one declared holon level or declared scope leaves a residual in another. They are dangerous as generic labels because they can hide which level, scope, level-bearing structure, relation, conflict carrier, or source-return condition bears the residual.
 
-A local optimum or successful local repair is therefore not treated as whole-architecture adequacy. It becomes architecture-relevant only when the cross-scope residual carrier is recoverable and the next move can be named.
+A local optimum or successful local repair is therefore not treated as whole-architecture adequacy. It becomes architecture-relevant only when the residual-bearing locus is recoverable and the next move can be named.
 
-`C.30.ILC` keeps the cue but recovers the object. It treats conflict/frustration as architecture-shaping only when declared scopes and architecture structure kinds are named. This lets FPF support the practical intuition without introducing a second ontology of levels, a hidden measurement pattern, or a prescribed architecture work order.
+`C.30.ILC` keeps the entry label but recovers the architecture relation or structure claim. It treats conflict or frustration as architecture-shaping only when declared holon levels or declared scopes, the level-bearing structure, conflict carriers, and residual-bearing loci are named. This lets FPF preserve the practical intuition without introducing a second ontology of levels, a hidden measurement pattern, a physics or biology transfer, a global optimizer proof, or a prescribed architecture work order.
 

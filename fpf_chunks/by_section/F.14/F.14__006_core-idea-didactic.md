@@ -6,12 +6,12 @@ section_id: "F.14:5"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__006_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:5 — Core idea (didactic)"
-line_start: 73249
-line_end: 73258
+line_start: 73898
+line_end: 73906
 dependencies:
   - "F.1"
   - "F.10"
@@ -40,5 +40,4 @@ keywords:
 2. **Bundle, don’t blur.** When two Roles must travel together, **name the Bundle**, not a new hybrid Role.
 3. **Declare SoD, don’t fuse.** When Roles must stay apart, **state the SoD** instead of minting a “super‑role.”
 4. **Window, don’t multiply.** When a Status looks different across time/scale, keep **one Status** with **explicit windows**.
-
 

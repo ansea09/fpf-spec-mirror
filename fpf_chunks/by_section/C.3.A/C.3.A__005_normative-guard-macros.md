@@ -6,12 +6,12 @@ section_id: "C.3.A:4"
 section_title: "Normative Guard Macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:4 — Normative Guard Macros"
-line_start: 38638
-line_end: 38732
+line_start: 38616
+line_end: 38705
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -27,7 +27,6 @@ keywords:
 ### C.3.A:4 - Normative Guard Macros
 
 > **Notation.** “**SHALL**” clauses are normative obligations. “Notes” are informative reminders. Names like `Guard_TypedClaim` are editorial handles; Contexts may alias them, but **MUST** preserve semantics. Macro names (e.g., `Guard_TypedClaim`) are editorial handles; Contexts may alias them provided the logical obligations are preserved.
-
 
 #### C.3.A:4.1 - **Guard\_TypedClaim** — admit a claim quantified over a kind
 
@@ -49,7 +48,6 @@ keywords:
 — **AT forbidden.** KindAT **MUST NOT** appear in this guard. *(C.3.5 AT‑01/02)*
 — **No “domain” placeholders.** Guards **SHALL** name an addressable **TargetSlice**, not a fuzzy “domain”.
 
-
 #### C.3.A:4.2 - **Guard\_TypedJoin** — compose two typed claims/specs (A → B)
 
 **Intent.** Permit composition where **A** produces facts over `k_A` and **B** consumes `k_B`.
@@ -65,7 +63,6 @@ keywords:
 5. **No type‑by‑scope.** The guard **MUST NOT** widen Scope to “fix” a type mismatch; remedies are subkind introduction, adapter, or bridge.
 
 **Mask awareness.** If B expects a **RoleMask(k\_B)**: either show A’s outputs already satisfy mask constraints, or add a documented **mask adapter** (see 4.3) and treat any **contextual** constraints as part of **ScopeSerial**.
-
 
 #### C.3.A:4.3 - **Guard\_MaskedUse** — use a RoleMask with a kind
 
@@ -96,10 +93,9 @@ keywords:
 2. **Independence justification.** Publisher **SHALL** include a partition or certificate showing that essential components of `Lᵢ` are **disjoint** from `Lⱼ` (no shared weakest link). *(A.2.6 §7.3)*
 3. **Published scope.** `Scope_published = SpanUnion({Sᵢ})`, where each `Sᵢ` is the serial scope for line `Lᵢ`.
 4. **No overreach.** The union **MUST NOT** include slices not covered by any `Sᵢ`.
-5. **Typed consistency.** The **describedEntity** (kind **k**) is **the same** across lines; if not, normalize via subkinds or adapters before union.
+5. **Typed consistency.** The **entityOfConcern** (kind **k**) is **the same** across lines; if not, normalize via subkinds or adapters before union.
 
 **Note.** Independence and union rules are USM‑native; this macro ties them to typed claims without adding new algebra.
-
 
 #### C.3.A:4.5 - **Guard\_XContext\_Typed** — Cross‑context typed reuse (both bridges)
 
@@ -117,5 +113,4 @@ keywords:
 **Prohibitions.**
 — **Do not** “merge” bridges; Scope and Kind are orthogonal channels.
 — **Do not** alter **F** or **G** due to `CL`/`CL^k`; penalties land in **R** only.
-
 

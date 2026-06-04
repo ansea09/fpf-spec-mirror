@@ -6,12 +6,12 @@ section_id: "F.8:6"
 section_title: "Scope thresholds (default τ) — how much sameness you’re allowed to claim"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__007_scope-thresholds-default-how-much-sameness-you-re-allowed-to-claim.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:6 — Scope thresholds (default τ) — how much sameness you’re allowed to claim"
-line_start: 70802
-line_end: 70813
+line_start: 71563
+line_end: 71573
 dependencies:
   - "A.11"
   - "A.7"
@@ -44,5 +44,4 @@ keywords:
 | **Type‑structure**  | Treat cells as the **same structural relation** (e.g., subtyping) with inheritance semantics. |                  **3** | Kind-CAL pages, structural proofs.        |
 
 > **Guard.** You may **tighten** scope (e.g., from Naming-only → Assignment-eligibility) **only** if the **Row CL(min)** meets the **higher τ**.
-
 

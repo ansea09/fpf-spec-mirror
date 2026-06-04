@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
-line_start: 5597
-line_end: 5809
+line_start: 5516
+line_end: 5725
 dependencies:
   - "A.15"
   - "A.2"
@@ -164,7 +164,6 @@ Conflicts among roles (including `TransformerRole`) are only **within the same b
 **CC‑A3‑10 - Γ‑compatibility.**
 Descriptions MUST be sufficient for the relevant Γ‑aggregations to run: Γ\_method for recipe composition, Γ\_work for resource deltas, Γ\_sys for boundary integration, Γ\_time for ordering. Each Γ flavour declares its A.14 hooks (Portion/Phase) and inherits B‑invariants.
 
-
 ### A.3:8 - Consequences
 
 **Benefits**
@@ -179,7 +178,6 @@ Descriptions MUST be sufficient for the relevant Γ‑aggregations to run: Γ\_m
 * **More declarations up‑front.**  `U.RoleAssignment` + units + policy/plan/action feels verbose, but yields deterministic Γ‑runs and reproducible audits.
 * **Discipline for “self‑modifiers.”** Modellers must split controller vs plant or dual‑role the same carrier; this adds one line but avoids hidden identity conflations.
 
-
 ### A.3:9 - Rationale (post‑2015 cross‑domain support)
 
 **Constructor theory (post‑2015).**
@@ -193,12 +191,11 @@ Provenance minima in CC-A3-7 reflect **FAIR** principles (machine-actionable reu
 
 Together, these lines of work argue for **explicit role‑bearing transformers**, **recipe/run separation**, **boundary‑grounded deltas**, and **traceable contexts** — the four pillars that CC‑A3 enforces.
 
-
 ### A.3:10 - Relations
 
 **A.7 Strict Distinction.**
-A.3 operationalises A.7 by keeping **object ≠ description ≠ observation**:
-*object* = target holon; *description* = `MethodDescription`; *observation/log* = `Work`. Violations (e.g., treating a recipe as a part) are non‑conformant and usually show up as Γ failures.
+A.3 operationalises A.7 by keeping **target EntityOfConcern ≠ MethodDescription ≠ observation/log Work**:
+*target EntityOfConcern* = target holon; *MethodDescription* = design description; *observation/log Work* = `Work` evidence or record. Violations (e.g., treating a recipe as a part) are non‑conformant and usually show up as Γ failures.
 
 **A.12 Agent Externalization & External Transformer.**
 A.3’s CC‑A3‑1 is the mechanical guard‑rail for A.12: even in self‑modification, the *modelling split* keeps the agent (transformer bearer) distinct from the object‑under‑change.

@@ -6,12 +6,12 @@ section_id: "C.26.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:4 — Solution"
-line_start: 46515
-line_end: 46732
+line_start: 46411
+line_end: 46628
 dependencies:
   - "A.10"
   - "A.15"
@@ -143,11 +143,11 @@ When the distributed-state reading is load-bearing, state the decomposition expl
 | Minimal supported claim | What evidence-bound claim survives for the declared time window and carrier set? |
 | Supported action or use | Which planning, communication, incident, routing, bridge, evidence, or decision move may now be taken without exceeding that minimal claim? |
 
-#### C.26.2:4.6 - Governed object and claim floor
+#### C.26.2:4.6 - Evidence-bound state reading and claim floor
 
-The governed object is an evidence-bound `U.Episteme` reading over coordinated work, behavior, or trace patterns by a declared collective `U.System`. The pattern does not govern an inner group entity, a culture substance, a market mind, a hidden service intelligence, or a reusable kernel state kind.
+The evidence-bound state reading is an evidence-bound `U.Episteme` reading over coordinated work, behavior, or trace patterns by a declared collective `U.System`. The pattern does not govern an inner group entity, a culture substance, a market mind, a hidden service intelligence, or a reusable kernel state kind.
 
-The governed move is to turn coordinated work, behavior, or trace patterns into the minimal useful state reading while keeping the reading bound to:
+The minimal state-reading move is to turn coordinated work, behavior, or trace patterns into the minimal useful state reading while keeping the reading bound to:
 
 - the collective bearer and its boundary;
 - the observed work and evidence carriers;

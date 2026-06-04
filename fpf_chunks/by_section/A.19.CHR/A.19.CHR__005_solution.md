@@ -6,12 +6,12 @@ section_id: "A.19.CHR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:4 — Solution"
-line_start: 24368
-line_end: 24776
+line_start: 24579
+line_end: 24987
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -62,7 +62,7 @@ Core idea:
 
 **Tell.** CHR mechanisms are implementable only when each described CHR mechanism, suite obligation, protocol, extension block, or decision record names the FPF pattern, section, extension block, or DRR that governs it. The governing definition is citable and patchable by its `PatternId`, `PatternId:SectionPath`, `PatternScopeId = G.x:Ext.*`, or `DRRId` (E.9).
 
-**Where each governed item is defined (cite, don’t duplicate):**
+**Where each defined CHR pattern-definition locus is defined (cite, don’t duplicate):**
 
 * **see `A.19.CHR:4.2.2` for canonical targets**.
 * **CHR suite boundary (membership + obligations + protocols):** `A.19.CHR` (`mechanisms[]` declares `…IntensionRef`; `suite_protocols` declares order/optionality).
@@ -209,8 +209,8 @@ CHRMechanismSuiteDescription.mechanisms :=
 ##### A.19.CHR:4.3.1 - Crossings, visibility, and penalties
 
 * **`bridge_only_crossings`:** all cross-context and cross-plane reuse is Bridge-only (no implicit crossings).
-* **`two_bridge_rule_for_described_entity_change`:** any described-entity (kind/identity) change (`CL^k`) is explicit and satisfies the two-bridge rule.
-* **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane tables and does not introduce transfer edges; it requires only refs/pins/anchors whose realization is mediated by E.TGA / gate surfaces.
+* **`two_bridge_rule_for_described_entity_change`:** any EntityOfConcern (kind/identity) change (`CL^k`) is explicit and satisfies the two-bridge rule.
+* **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane tables and does not introduce any additional graph edge kind beyond E.TGA `U.Transfer`; it requires only refs/pins/anchors whose realization is mediated by E.TGA / gate surfaces.
 * **`penalties_route_to_r_eff_only`:** CL/Φ/Ψ/Φ_plane penalties route to `R/R_eff` only; `F/G` are invariant under penalty routing.
 * **`crossing_visibility_required`:** any GateCrossing relevant to suite use publishes a `CrossingBundle` (E.18) and can be cited as an audit anchor (including LaunchGate and `edition_key` changes of pinned `editions{…}` vectors).
 

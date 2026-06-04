@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Worked examples (context‑local only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_worked-examples-context-local-only.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:11 — Worked examples (context‑local only)"
-line_start: 68990
-line_end: 69053
+line_start: 69822
+line_end: 69882
 dependencies:
   - "A.11"
   - "A.7"
@@ -55,7 +55,6 @@ keywords:
 
 *Thinking pay‑off:* you can phrase “compare **observation** to **service‑level‑objective**” without importing workflow or provenance semantics.
 
-
 #### F.2:11.2 Sys‑CAL / LCA‑CAL + services
 
 * **Context:** *State‑space control texts* — **LNF:** `actuation`
@@ -71,7 +70,6 @@ keywords:
   **Gloss:** “Unplanned interruption or reduction in the quality of a service.”
 
 *Thinking pay‑off:* avoids calling a plant fault an “incident” unless you **cross Contexts later** with an explicit bridge.
-
 
 #### F.2:11.3 Kind-CAL + Method‑CAL + KD‑CAL
 
@@ -92,5 +90,4 @@ keywords:
   **Gloss:** “Specification guiding how an observation is produced.”
 
 *Thinking pay‑off:* discourages treating an FCA “concept” as a `U.Type`, or a **procedure** as a **method** without later proof.
-
 

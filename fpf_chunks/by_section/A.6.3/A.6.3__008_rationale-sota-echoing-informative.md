@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing — describedEntity‑preserving morphism"
+pattern_title: "U.EpistemicViewing — EntityOfConcern-preserving morphism"
 section_id: "A.6.3:7"
 section_title: "Rationale & SoTA‑echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__008_rationale-sota-echoing-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism"
+  - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:7 — Rationale & SoTA‑echoing  (informative)"
-line_start: 10181
-line_end: 10202
+line_start: 10041
+line_end: 10062
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -26,38 +26,21 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
-  - "U.MultiViewDescribing"
-  - "U.RelationSlotDiscipline"
-  - "U.Signature"
 keywords:
-  - "ClaimGraph"
-  - "CorrespondenceModel"
-  - "Direct vs Correspondence Viewing"
-  - "EpistemicViewing"
-  - "RepresentationScheme"
-  - "Viewpoint"
-  - "describedEntity preservation"
-  - "displayed fibration"
-  - "episteme"
-  - "optics"
-  - "view"
 ---
 
 ### A.6.3:7 - Rationale & SoTA‑echoing  *(informative)*
 
 * **Optics and displayed categories.**
-  In categorical terms, epistemes form a category `Ep` fibred over a category of described entities `Ref` via `α : Ep → Ref`. EpistemicViewing corresponds to **vertical morphisms** that preserve α. Their behaviour closely tracks **profunctor optics**: the DescribedEntitySlot plays the role of the “focus index”, while ClaimGraphs and representation schemes act as the data being transformed. Recent work on optics (2018‑onwards) provides compositional invariants that FPF leverages without committing to a specific optic calculus.
+  In categorical terms, epistemes form a category `Ep` fibred over a category of EntityOfConcern references `Ref` via `α : Ep → Ref`. EpistemicViewing corresponds to **vertical morphisms** that preserve α. Their behaviour closely tracks **profunctor optics**: the EntityOfConcernSlot plays the role of the “focus index”, while ClaimGraphs and representation schemes act as the data being transformed. Recent work on optics (2018‑onwards) provides compositional invariants that FPF leverages without committing to a specific optic calculus.
 
 * **Multi‑view modelling and viewpoint libraries.**
   ISO 42010 and its successors, as well as MBSE practice from ~2015 onwards, have refined the separation between **viewpoints** (families of concerns, stakeholders, and notations) and **views** (instances under those viewpoints). `U.EpistemicViewing` gives FPF a substrate‑agnostic notion of “view” that can be instantiated for architecture descriptions, safety cases, or even research epistemes/publications, while TEVB and E.17.0 specialise it to engineering holons.
 
 * **Bidirectional transformations and consistency management.**
   Modern BX research treats views and consistency restoration as structured transformations between models, with consistency relations acting as correspondences. `U.CorrespondenceEpistemicViewing` echoes this practice but insists that:
-  * viewing is **non‑creative** in intensional terms (no new commitments),
-  * any strengthening or change of described entity is explicitly modelled as retargeting or Intension change.
+  * viewing is **non-creative** for EntityOfConcern commitments,
+  * any strengthening or change of EntityOfConcern is explicitly modelled as retargeting or EntityOfConcern-claim change.
 
 * **Hybrid symbolic/latent representations.**
   Contemporary work on LLMs and neurosymbolic systems often toggles between:

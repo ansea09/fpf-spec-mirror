@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:1 — Problem frame"
-line_start: 64083
-line_end: 64107
+line_start: 64955
+line_end: 64979
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.17.AUD.LHR:1 - Problem frame
 
-**Anti-single-sequence note.** The quick checks, ordinary card, worked slices, and governing-pattern and project-side-reference boundary rules in this section are local aids for one publication unit under review. They are not a canonical transduction sequence, not a mandatory sequence, and not a promise that admissible cases move through one fixed sequence. One case may stabilize after one lexical-head repair, another may reopen when outside observation changes the honest question, and another may apply `E.17.AUD.OOTD` when the publication unit still has unstable described-entity or carried-move reading.
+**Anti-single-sequence note.** The quick checks, ordinary card, worked slices, and governing-pattern and project-side-reference boundary rules in this section are local aids for one publication unit under review. They are not a canonical transduction sequence, not a mandatory sequence, and not a promise that admissible cases move through one fixed sequence. One case may stabilize after one lexical-head repair, another may reopen when outside observation changes the honest question, and another may apply `E.17.AUD.OOTD` when the publication unit still has unstable EntityOfConcern or carried-move reading.
 
 The recurring defect is small but expensive:
 - one broad familiar word enters early;
@@ -58,5 +58,5 @@ Typical load-bearing local heads include:
 - `interpretation`
 - `reading`
 
-These words are not uniformly wrong. They become risky when one of them starts carrying governed-object load, lane load, move load, or governing-boundary load without being restored first.
+These words are not uniformly wrong. They become risky when one of them starts carrying primary-entity/relation load, lane load, move load, or receiving-pattern boundary load without being restored first.
 

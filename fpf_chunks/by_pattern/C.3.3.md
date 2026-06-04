@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
-line_start: 37930
-line_end: 38176
+line_start: 37940
+line_end: 38175
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -26,14 +26,14 @@ keywords:
 
 ## C.3.3 - KindBridge & CL^k — Cross‑context Mapping of Kinds
 
-> **One‑line summary.** Defines **`KindBridge`** as the normative mechanism for moving **kinds** (their **intent** and selected **subkind‑of** links) between bounded contexts (“Contexts”). A bridge declares **how a source kind maps to a target kind**, which parts of the **`⊑`** order are preserved or collapsed, and publishes a **type‑congruence level `CL^k`** with **loss notes** and a **definedness area**. **`CL^k` penalties apply only to Reliability (R)** when a claim depends on Cross‑context classification; **F** (formality) and **G** (Claim scope) remain unchanged. Scope translation continues to use the **USM Bridge + CL** channel; **KindBridge** is a **separate, parallel channel** for describedEntity.
+> **One‑line summary.** Defines **`KindBridge`** as the normative mechanism for moving **kinds** (their **intent** and selected **subkind‑of** links) between bounded contexts (“Contexts”). A bridge declares **how a source kind maps to a target kind**, which parts of the **`⊑`** order are preserved or collapsed, and publishes a **type‑congruence level `CL^k`** with **loss notes** and a **definedness area**. **`CL^k` penalties apply only to Reliability (R)** when a claim depends on Cross‑context classification; **F** (formality) and **G** (Claim scope) remain unchanged. Scope translation continues to use the **USM Bridge + CL** channel; **KindBridge** is a **separate, parallel channel** for EntityOfConcern.
 
 **Status.** Normative in **Part C**. Identifier **C.3.3**.
 **Audience.** Engineering managers, architects, assurance leads, editors.
 
 **Depends on.**
 
-* **C.3.1 — U.Kind & SubkindOf (Core):** kinds are context‑local intensional objects; `⊑` is a partial order; kinds **do not carry Scope**.
+* **C.3.1 — U.Kind & SubkindOf (Core):** kinds are context-local `U.Kind` records; `⊑` is a partial order; kinds **do not carry Scope**.
 * **C.3.2 — KindSignature (+F) & Extension/MemberOf:** signature declares its own **F**; membership `MemberOf(e,k,slice)` is **deterministic** per `U.ContextSlice`.
 * **A.2.6 — USM (Context slices & Scopes):** Claim scope (**G**) and Work scope live on claims/capabilities; scope bridging and **CL** penalties are defined there.
 * **C.2.2 — F–G–R:** weakest‑link; penalties land in **R**, not **F/G**.
@@ -49,15 +49,13 @@ keywords:
 Cross‑context reuse fails in two **orthogonal** ways:
 
 1. **Applicability** (G): *where* the claim holds (handled by USM Scope Bridge).
-2. **describedEntity** (Kind): *what* the claim quantifies over (handled by **KindBridge**).
+2. **entityOfConcern** (Kind): *what* the claim quantifies over (handled by **KindBridge**).
 
 **C.3.3** gives managers an explicit, auditable channel for **(2)**, so a team can say, with evidence: *“`Vehicle` in Lab maps to `TransportUnit` in Plant with `CL^k=2`; the EV subkind collapses; here’s what we lost.”* Guards stay deterministic; assurance math stays clean (penalties in **R** only).
 
-
 ### C.3.3:2 - Context
 
-Contexts use different **classifications**: ontology classes vs shape Standards, regulatory cohorts vs app types, etc. Informal “same‑name” reuse silently mutates describedEntity. USM already made scope moves explicit. **KindBridge** does the same for kinds: **declare the mapping**, rate its **congruence**, and capture known **losses**.
-
+Contexts use different **classifications**: ontology classes vs shape Standards, regulatory cohorts vs app types, etc. Informal “same‑name” reuse silently mutates entityOfConcern. USM already made scope moves explicit. **KindBridge** does the same for kinds: **declare the mapping**, rate its **congruence**, and capture known **losses**.
 
 ### C.3.3:3 - Problem
 
@@ -65,7 +63,6 @@ Contexts use different **classifications**: ontology classes vs shape Standards,
 2. **Hidden order breaks.** Subkind relationships invert or vanish; downstream proofs/tests are misapplied.
 3. **Entangled channels.** Teams conflate “scope mapping” with “kind mapping,” making it impossible to assign penalties coherently.
 4. **Incomputable guards.** “We map it somehow” yields non‑deterministic classification at guard time.
-
 
 ### C.3.3:4 - Forces
 
@@ -75,7 +72,6 @@ Contexts use different **classifications**: ontology classes vs shape Standards,
 | **Local autonomy vs global reuse**       | Each target‑context keeps its vocabulary; reuse requires explicit, reviewable mappings.                   |
 | **Typed safety vs agility**              | We need typed compatibility checks without blocking exploratory reuse.                          |
 | **Separate channels vs operator workload** | Two channels (Scope & Kind) must be explicit, but guard writers shouldn’t drown in boilerplate. |
-
 
 ### C.3.3:5 - Solution — The **KindBridge** object (overview)
 
@@ -89,7 +85,6 @@ A **KindBridge** connects **source** Context **A** and **target** Context **B** 
 6. **Determinism**: fixed versions + mapping rules ⇒ deterministic result (no “latest”).
 
 **Effect on assurance.** When a **claim** in B depends on classification that goes through this bridge, **reduce R** by a monotone penalty **Ψ(`CL^k`)**. **Do not** change **F** or **G**.
-
 
 ### C.3.3:6 - Norms & Invariants (normative)
 
@@ -105,7 +100,6 @@ A **KindBridge** connects **source** Context **A** and **target** Context **B** 
 **KB‑02 (No Scope).** A KindBridge **MUST NOT** map Claim/Work scope (**G**). Scope translation uses the **USM Bridge + CL** channel (A.2.6, Part B).
 
 **No blended score.** Congruence for Scope (**CL**) and for Kind (**CL^k**) **MUST NOT** be aggregated into a single “interoperability” score in guards; each channel is assessed and penalized **separately**. See **Annex C.3.A §5 (E‑06)**.
-
 
 #### C.3.3:6.2 - Declaration & Shape
 
@@ -136,7 +130,6 @@ A **KindBridge** connects **source** Context **A** and **target** Context **B** 
 
 **KB‑11 (Loss notes).** Bridges **SHALL** publish human‑readable **loss notes**: which invariants of `KindSignature` are **not preserved**, which subkinds are **collapsed**, and any **higher‑equality** caveats (e.g., up‑to‑iso only).
 **KB‑12 (Definedness & guard use).** The bridge’s **definedness area** **SHALL** be stated. Guards **MUST fail closed** outside it (i.e., if a classification relies on the bridge where it is not defined, the guard denies use).
-
 
 ### C.3.3:7 - Interactions (informative)
 
@@ -171,7 +164,6 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 * find KindBridge (`CL^k≥threshold`), translate **kind**, check **membership definedness**;
 * apply **Φ(CL)** and **Ψ(`CL^k`)** to **R**; keep **F/G** untouched.
 
-
 ### C.3.3:8 - Authoring, Review & Rating Guidance (informative)
 
 #### C.3.3:8.1 - Authoring a KindBridge
@@ -196,7 +188,6 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 * **High `CL^k`**: signature equivalence or **up‑to‑iso**; `⊑` fragment preserved; only cosmetic losses.
 * **Medium `CL^k`**: some invariants relaxed or lost; selected subkinds collapsed; order preserved on critical path.
 * **Low `CL^k`**: name‑only correspondences; properties diverge; order not preserved. Expect significant **R** penalty and/or adapters.
-
 
 ### C.3.3:9 - Worked Examples (informative)
 
@@ -232,7 +223,6 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 **Loss notes:** “Boundary 18 vs 21; map narrows to ≥ 21”.
 **Guard:** Require **mask adapter** or **narrow Scope** to cohorts where DOB is known and ≥ 21. **R** penalty strong; **F/G** remain as declared.
 
-
 ### C.3.3:10 - Anti‑patterns & Remedies (informative)
 
 | Anti‑pattern                                 | Why it’s wrong                         | Remedy                                                                              |
@@ -241,9 +231,8 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 | Claiming preserved `⊑` while inverting order | Makes typed reasoning unsound          | Mark as **not preserved**; add **loss note**; consider adapter or subkind redesign  |
 | Hiding collapses                             | Overstates coverage                    | List collapsed subkinds explicitly; plan extra **R** for lost granularity           |
 | “Latest mapping”                             | Non‑deterministic; non‑auditable       | Version bridges; bind to Standards/versions; **fail closed** outside definedness    |
-| Using KindBridge to widen G                  | Conflates describedEntity with applicability | Keep Scope edits in **USM** (ΔG±); KindBridge never widens Scope                    |
+| Using KindBridge to widen G                  | Conflates entityOfConcern with applicability | Keep Scope edits in **USM** (ΔG±); KindBridge never widens Scope                    |
 | Adjusting F/G for poor `CL^k`                 | Violates F–G–R & USM separation             | Route consequences to **R** only; consider narrowing Scope or adding adapters       |
-
 
 ### C.3.3:11 - Conformance Checklist (normative)
 

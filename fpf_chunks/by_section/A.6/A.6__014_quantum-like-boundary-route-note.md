@@ -6,12 +6,12 @@ section_id: "A.6:12a"
 section_title: "Quantum-like boundary-route note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__014_quantum-like-boundary-route-note.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:12a — Quantum-like boundary-route note"
-line_start: 7341
-line_end: 7374
+line_start: 7202
+line_end: 7234
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,7 +77,6 @@ Action path:
 7. If no, keep the text in the ordinary boundary, bridge, work, measurement, or quality pattern and remove QL wording.
 
 Minimum boundary discipline before a quantum-like boundary reading:
-
 
 | Field | What the author names |
 | --- | --- |

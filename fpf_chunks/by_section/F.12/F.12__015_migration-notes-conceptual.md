@@ -6,12 +6,12 @@ section_id: "F.12:14"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__015_migration-notes-conceptual.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:14 — Migration notes (conceptual)"
-line_start: 72846
-line_end: 72855
+line_start: 73517
+line_end: 73525
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -40,5 +40,4 @@ keywords:
 4. **Unit harmonisation.** When scales/units change, apply **KD‑CAL** conversions inside the Measure’s Context; if Cross‑context mapping is needed, declare a **Bridge**.
 5. **Population refinement.** If a Clause’s quantifier is refined (e.g., per‑region → per‑AZ), treat each as a new ClauseCell or a new Window partition; avoid hidden re‑baselining.
 6. **Proxy retirement.** When direct Observations become available, prefer them; keep earlier proxy‑based verdicts with their CL/Loss notes.
-
 

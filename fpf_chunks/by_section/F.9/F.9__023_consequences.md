@@ -6,12 +6,12 @@ section_id: "F.9:21"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__023_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:21 — Consequences"
-line_start: 71559
-line_end: 71567
+line_start: 72279
+line_end: 72286
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -47,7 +47,6 @@ keywords:
 ---
 
 ### F.9:21 - Consequences
-
 
 **Benefits.**
 F.9 lets FPF compare, translate, and partially reuse ideas across Contexts without collapsing them into one vocabulary. It gives downstream rows, claims, and assurance reasoning an explicit Bridge Card record instead of relying on prose intuition.

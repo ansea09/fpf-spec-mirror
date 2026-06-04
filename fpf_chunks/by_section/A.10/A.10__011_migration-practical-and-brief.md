@@ -6,12 +6,12 @@ section_id: "A.10:10"
 section_title: "Migration (practical and brief)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__011_migration-practical-and-brief.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:10 — Migration (practical and brief)"
-line_start: 18456
-line_end: 18473
+line_start: 18530
+line_end: 18547
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,8 +64,8 @@ Apply these text edits:
 
 3. **Boilerplate inserts**
 
-   * In **A.10** (this pattern): retain definitions of **EPV‑DAG**, **SCR/RSCR**, and the flavour‑specific anchors.
+   * In **A.10** (this pattern): retain definitions of **EPV‑DAG**, **SCR/RSCR**, and the flavour-specific evidence relations.
    * In **B.1.3 (`Γ_epist`)**: add the **Obligations — SCR/RSCR** block (“`Γ_epist^synth` SHALL output SCR… `Γ_epist^compile` SHALL output RSCR…”).
    * In **B.1.5 (`Γ_method`)**: ensure **MIC** is referenced (Precedes/Choice/Join, guards, exceptions) and run‑time traces reference the **MethodDescription** they instantiate.
-   * In **B.1.6 (`Γ_work`)**: say “resource rosters are not SCR/RSCR; anchor meter/log readings via EPV‑DAG.”
+   * In **B.1.6 (`Γ_work`)**: say “resource rosters are not SCR/RSCR; cite meter/log readings via EPV-DAG.”
 

@@ -6,12 +6,12 @@ section_id: "C.3.2:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__005_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:4 — Forces"
-line_start: 37762
-line_end: 37771
+line_start: 37780
+line_end: 37788
 dependencies:
   - "C.3.1"
   - "C.3.3"
@@ -33,5 +33,4 @@ keywords:
 | **Expressivity vs determinism**    | Rich intent is welcome, but membership must be deterministic given `slice`.                          |
 | **Intent vs applicability**        | Define “what counts” (intent/extent) without encoding “where valid” (G).                             |
 | **Rigor vs cost**                  | Raising signature F has cost; the framework must support low‑F drafts and high‑F safety cores alike. |
-
 

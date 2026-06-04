@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality-Read Question Framing"
   - "E.22:4 — Solution"
-line_start: 67382
-line_end: 67646
+line_start: 68251
+line_end: 68515
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -90,7 +90,7 @@ When the declared object-under-improvement evaluation is also the `Q` side of an
 
 `E.22` then selects the read purpose: `floorRead`, `exceptionalImprovementRead`, `paretoTradeoffRead`, `openQuestionDiscoveryRead`, `absorptionRead`, or a declared combination. It may ask whether the selected governing pattern has enough information to run, whether the read found a blocker, whether one candidate or set result can improve under the declared evaluation, whether a candidate-change proposal is worth generating, or whether a returned finding changed the object-under-improvement evaluation's result.
 
-The same portfolio rule applies to the ordinary FPF self-use cases. When `E.21` or `E.9.DA` is the object-under-improvement evaluation and the requested purpose is exceptional improvement, the read should not stop at the first defect. It may return a bounded portfolio of non-dominated proposal rows across active coordinates: for example first-use usability, source-content preservation, relation precision, examples, decision-bearing content, and protected trade-offs. The external comparison may be current FPF neighbour practice, accepted `SoTA`, competing pattern candidates, prior front members, or an explicit declared use frontier supplied by the object-under-improvement evaluation. In this use, `SoTA` is the working external front assigned by the object-under-improvement evaluation or accepted source posture. An exceptional proposal may try to reach, maintain, or improve that externally assigned front, but the read itself does not assign `SoTA` to the object. `E.23` governs any repeated application and re-read of those rows.
+The same portfolio rule applies to the ordinary FPF self-use cases. When `E.21` or `E.9.DA` is the object-under-improvement evaluation and the requested purpose is exceptional improvement, the read should not stop at the first defect. It may return a bounded portfolio of non-dominated proposal rows across active coordinates: for example first-use usability, source-content preservation, relation precision, examples, decision-bearing content, and protected trade-offs. The external comparison may be current FPF neighbour practice, accepted `SoTA`, competing pattern candidates, prior front members, or an explicit declared use frontier supplied by the object-under-improvement evaluation. In this use, `SoTA` is the working external front assigned by the object-under-improvement evaluation or by the accepted use of a cited source plus a source adoption/adaptation/rejection decision. An exceptional proposal may try to reach, maintain, or improve that externally assigned front, but the read itself does not assign `SoTA` to the object. `E.23` governs any repeated application and re-read of those rows.
 
 This is the entry point that keeps OEE/NQD candidate changes from becoming unguided candidate changes. The read proposes candidate changes from object-under-improvement evaluation pressure: what quality movement is expected, what trade-off must be protected, what closure test would make the proposal worth retaining, and which neighbouring pattern must govern generation, pool policy, set-result publication, parity, or refresh.
 
@@ -103,7 +103,7 @@ Different practices arrive with different words for nearly the same working ques
 | Incoming vocabulary | First `E.22` question | Governing pattern or object-under-improvement evaluation |
 |---|---|---|
 | all `5`s, exceptional, high-coordinate quality | Which object-under-improvement evaluation supplies the coordinates and value meanings? | `E.21`, `E.9.DA`, `C.25`, or another exact quality evaluation |
-| `SoTA`, current best, frontier practice | Who assigns the current external front, and what source posture makes it admissible? | object-under-improvement evaluation plus `E.8` source posture and exact `SoTA` rows |
+| `SoTA`, current best, frontier practice | Who assigns the current external front, how is the cited source used, and what source adoption/adaptation/rejection decision makes that use admissible? | object-under-improvement evaluation plus `E.8` source row and exact `SoTA` rows |
 | Pareto front, non-dominated option, no forced winner | Which dominance relation and comparison set are declared? | `E.21`, `E.9.DA`, `C.18`, `G.5`, or exact local characteristic-space pattern |
 | NQD, Q-front, archive, open-ended search | Is the live claim candidate quality, novelty, diversity, archive/front semantics, pool policy, or refresh? | `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` |
 | improvement portfolio, proposal portfolio | Is this only proposal rows, or a selected set publication? | `E.22` for proposal rows; `E.23` for repeated application; `G.5` for selected-set publication |
@@ -197,7 +197,7 @@ When a quality read or quality review returns actionable findings, each actionab
 
 `QualityReviewFindingRow := <QualityReviewFindingRowId, ReviewFindingLocus, ObjectLocusUnderRepair, QualityReadPurposeEffect, ObjectUnderImprovementEvaluationEffect, ExpectedQualityMovement, CandidateImprovementProposalSet?, NextAdmissibleMoveHypothesis?, CorrectionDirection, ClosureTest, RowDisposition, DischargeEvidenceRef?>`
 
-The row shape is active for any returned blocker, repair, narrowing, trade-off warning, open question assigned to the object version under quality read, or absorption item that requires executor action. It is not required for a clean `floorRead` that returns only an admissible-stop statement.
+The row shape is active for any returned blocker, repair, narrowing, trade-off warning, open question assigned to the object version under quality read, or absorption item that requires a repair action. It is not required for a clean `floorRead` that returns only an admissible-stop statement.
 
 | Field | Meaning |
 |---|---|
@@ -212,7 +212,7 @@ The row shape is active for any returned blocker, repair, narrowing, trade-off w
 | `CorrectionDirection` | The concrete repair, narrowing, non-use statement, or object-under-improvement evaluation assignment requested. |
 | `ClosureTest` | What must be true in the changed object for the row to close. |
 | `RowDisposition` | `open`, `applied`, `alreadySatisfied`, `notAdmissibleForDeclaredUse`, `movedToObjectUnderImprovementEvaluation`, or another local disposition with narrower meaning. |
-| `DischargeEvidenceRef?` | Optional exact changed locus or unchanged-by-value locus used by the executor to show what was done. |
+| `DischargeEvidenceRef?` | Optional exact changed locus or unchanged-by-value locus used to show the row disposition. |
 
 "Closed in general", "handled overall", "all rows done", and range closure are nonconforming. If one edit closes several rows, each row still keeps a separate `QualityReviewFindingRowId`, object-under-improvement evaluation effect, closure test, disposition, and discharge evidence.
 
@@ -222,10 +222,10 @@ A quality review keeps four records distinct:
 
 1. `QualityReadQuestionFrame` states the question being asked.
 2. The reviewer quality result states the object-under-improvement evaluation reading, returned findings, coordinate and value effects, protected-quality trade-offs, bounded non-use, and outside-evaluation assignments.
-3. Executor discharge evidence states what changed, which row disposition was selected, and which changed or unchanged object locus is cited for each `QualityReviewFindingRow`.
+3. Row-discharge evidence states what changed, which row disposition was selected, and which changed or unchanged object locus is cited for each `QualityReviewFindingRow`.
 4. The next reviewer re-read states whether the changed object now satisfies the object-under-improvement evaluation for the declared purpose.
 
-Executor discharge evidence is not the reviewer quality result and is not quality closure by itself. An impact account may show intended or observed movement, but closure comes only from re-running the object-under-improvement evaluation on the changed object or from a reviewer statement that a row was already satisfied by value.
+Row-discharge evidence is not the reviewer quality result and is not quality closure by itself. An impact account may show intended or observed movement, but closure comes only from re-running the object-under-improvement evaluation on the changed object or from a reviewer statement that a row was already satisfied by value.
 
 #### E.22:4.6 - Work order for using this pattern
 
@@ -247,7 +247,7 @@ For one quality review:
 
 When the goal is repeated improvement of the object beyond this one read, use `E.23`. `E.23` invokes `E.22` for each review pass and governs row-atomic absorption across passes, object-under-improvement evaluation re-read of the changed object version, method-family or operation-family selection, and the stop, narrow, continue, switch method, or hold decision. `E.22` does not govern the repeated method.
 
-`QualityReviewFindingRow` remains the row shape for returned actionable findings. Executor discharge evidence is not a quality value until the object-under-improvement evaluation re-reads the changed object or states that the row was already satisfied by value.
+`QualityReviewFindingRow` remains the row shape for returned actionable findings. Row-discharge evidence is not a quality value until the object-under-improvement evaluation re-reads the changed object or states that the row was already satisfied by value.
 
 An all-`5` claim requires an explicit coordinate-value table over the changed object. It cannot be inferred from a floor-pass capsule, a clean discharge table, an external-review absorption pass, landing, popularity, adoption, or the absence of blockers.
 

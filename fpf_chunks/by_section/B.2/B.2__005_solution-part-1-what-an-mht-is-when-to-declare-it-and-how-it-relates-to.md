@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution — Part 1: What an MHT is, when to declare it, and how it relates to Γ"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__005_solution-part-1-what-an-mht-is-when-to-declare-it-and-how-it-relates-to.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:4 — Solution — Part 1: What an MHT is, when to declare it, and how it relates to Γ"
-line_start: 30073
-line_end: 30166
+line_start: 30213
+line_end: 30301
 dependencies:
   - "A.1"
   - "A.12"
@@ -47,7 +47,6 @@ After MHT, the Γ‑invariants apply **afresh** to `H⁺` and its parts. Prior a
 > **Didactic guard‑rail.**
 > If a perceived “synergy” is fully explainable **within the current Γ‑flavour**—e.g., by raising congruence **CL**, improving parts (MONO), or fixing order (Γ\_ctx)—**do not** declare MHT. MHT is reserved for **new closure** or **new supervision** that changes what counts as “the whole”.
 
-
 #### B.2:4.2 - Triggers for declaring MHT (BOSC‑A‑T‑X)
 
 Declare MHT when one or more of the following **observable triggers** occur (measurements are recorded in the promotion record):
@@ -62,7 +61,6 @@ Declare MHT when one or more of the following **observable triggers** occur (mea
 
 > **Rule of thumb.**
 > BOSC touches **what the holon is**; A/T/X touch **how and where it lives** (agency, time, context). Any **two** of these together almost always warrant MHT.
-
 
 #### B.2:4.3 - Identity stance: 4D vs. 3D+1 (FPF’s ecumenical Standard)
 
@@ -82,7 +80,6 @@ FPF permits both readings **provided** you make **identity and event claims expl
 
 **Normative bridge:** Regardless of stance, you **must** (i) state whether identity **continues** (PhaseOf) or a **new identity** is created, and (ii) record the **Transformer** that performs the MHT.
 
-
 #### B.2:4.4 - Event taxonomy for MHT (small, reusable set)
 
 To avoid ad‑hoc naming, choose one **event type** (or a pair) and fill its parameters:
@@ -94,7 +91,6 @@ To avoid ad‑hoc naming, choose one **event type** (or a pair) and fill its par
 5. **Context Reframe** — the holon’s bounded context shifts (terminology/units/policy), establishing `H⁺` in the **new context**; mappings to the prior context are recorded.
 
 These are **Transformer events** (A.12). They do **not** imply toolchains or storage; they are conceptual commitments with audit fields.
-
 
 #### B.2:4.5 - How MHT relates to Γ‑flavours and bounded contexts
 
@@ -117,7 +113,6 @@ These are **Transformer events** (A.12). They do **not** imply toolchains or sto
 
   * A **bounded context** is a **modelling Standard** (vocabulary/units/policy). Crossing it without re‑baselining **CL** causes **trust inflation**.
   * Use **Context Reframe** MHT to re‑anchor `H⁺` in the new context and declare the mappings; B.3’s congruence penalty `Φ(CL)` now refers to the **new** baseline.
-
 
 #### B.2:4.6 - What MHT is *not* (didactic contrasts)
 

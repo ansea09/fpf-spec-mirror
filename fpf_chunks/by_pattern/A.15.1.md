@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.1 — U.Work"
-line_start: 19585
-line_end: 19953
+line_start: 19641
+line_end: 20002
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,7 +41,6 @@ keywords:
 ---
 
 ## A.15.1 - U.Work
-
 
 ### A.15.1:1 - Problem Frame
 
@@ -207,7 +206,6 @@ For any Work with parts, the **effect of the whole** must be the **rules‑decla
 * **Work identity:** the **path in state‑space** traced during the interval; outputs: heat/work tallies.
 * **Γ\_time:** straightforward interval; **Γ\_work:** integrates energy exchange; no “steps” required.
 
-
 ### A.15.1:7 - Bias‑Annotation (as in E‑cluster)
 
 * **Lenses tested:** `Prag`, `Arch`, `Did`, `Epist`.
@@ -357,7 +355,6 @@ When a Work is recorded, perform these **three quick checks**:
 
 > **Manager’s mnemonic:** Context, assignment, Standard → **CAC**. Fail any → the Work is not acceptable *here* (perhaps acceptable elsewhere).
 
-
 ### A.15.1:11 - Anti‑patterns (and the right move)
 
 * **“The log is the process.”** Dumping telemetry without binding (spec, performer, context) → **Not Work**. Create a Work, link the log as evidence.
@@ -369,7 +366,6 @@ When a Work is recorded, perform these **three quick checks**:
 * **Union/hull confusion.** Changing KPI coverage silently between reports → Declare `Γ_time` policy per KPI.
 * **Double‑count in overlaps.** Summing child and parent resource ledgers → Declare and apply an overlap policy.
 
-
 ### A.15.1:12 - Migration notes (quick wins)
 
 1. **Backfill links.** For existing logs, create Work records and attach `isExecutionOf` and `performedBy`.
@@ -380,7 +376,6 @@ When a Work is recorded, perform these **three quick checks**:
 6. **Pull plans out.** Move calendars to `U.WorkPlan`; let Work record actuals.
 7. **Parameter blocks.** Make parameters explicit and bind them at start; your root‑cause analyses will get 10× easier.
 
-
 ### A.15.1:13 - Consequences
 
 | Benefits                                                                                                                 | Trade‑offs / mitigations                                                                   |
@@ -390,13 +385,11 @@ When a Work is recorded, perform these **three quick checks**:
 | **Cross‑context clarity.** CAC checks prevent silent model drift; bridges make acceptance explicit.                      | **Bridge upkeep.** Keep mappings short and focused; review at releases.                    |
 | **4D extensional coherence.** Parts/overlaps/retries stop double‑counting and identity confusion.                        | **Learning curve.** Teach episode vs retry; include examples in onboarding.                |
 
-
 ### A.15.1:14 - Relations
 
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; **U.System**; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`; A.3.1 `U.Method`; A.3.2 `U.MethodDescription`.
 * **Coordinates with:** A.15 Role–Method–Work Alignment (the “four‑slot grammar”); B.1 Γ (aggregation) for resource/time operators; E‑cluster lexical rules (L‑PROC/L‑FUNC).
 * **Informs:** Reporting/KPI patterns; Assurance/evidence patterns (Work as the anchor for audits); Scheduling patterns (`U.WorkPlan` ↔ `U.Work` deltas).
-
 
 ### A.15.1:15 - Didactic quick cards
 

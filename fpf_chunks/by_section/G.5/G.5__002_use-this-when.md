@@ -6,12 +6,12 @@ section_id: "G.5:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__002_use-this-when.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:0 — Use this when"
-line_start: 77973
-line_end: 77978
+line_start: 78567
+line_end: 78572
 dependencies:
   - "C.11"
   - "C.18"
@@ -51,5 +51,5 @@ keywords:
 
 - several method families or generator families can admissibly act on the same declared task family or work target
 - you need one selector to return a `Shortlist`, `RankedShortlist`, one `SpecialistHandoff`, one other narrowed handoff plan, or one abstain outcome without pretending that there is always one scalar winner
-- the published result must carry enough basis pins to support later comparison, handoff, or escalation without changing its declared outcome kind or any applicable public selected-set label
+- the published result must carry enough basis pins for later comparison, handoff, or escalation without changing its declared outcome kind or any applicable public selected-set label
 

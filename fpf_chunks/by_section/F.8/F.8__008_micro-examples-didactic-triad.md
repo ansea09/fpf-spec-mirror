@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Micro‑examples (didactic triad)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__008_micro-examples-didactic-triad.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:7 — Micro‑examples (didactic triad)"
-line_start: 70814
-line_end: 70839
+line_start: 71574
+line_end: 71598
 dependencies:
   - "A.11"
   - "A.7"
@@ -58,5 +58,4 @@ keywords:
 * **Test A.8.** Appears in **control** (reachable sets), **services** (operating envelope), **measurement** (confidence bands): **≥ 3 families?**
 * **Reduction test.** Can it be expressed as a **row** + existing `U.Relation` + KD‑CAL constructs?
 * **Decision.** If **not reducible** and **cross‑family stable**, propose **new U.Type** with minimal definition; otherwise, prefer a **row** or a **pattern**.
-
 

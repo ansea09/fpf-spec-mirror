@@ -6,12 +6,12 @@ section_id: "F.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:2 — Problem frame"
-line_start: 70420
-line_end: 70429
+line_start: 71209
+line_end: 71217
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -42,5 +42,4 @@ Without a disciplined Cross‑context view:
 2. **Loss denial.** Mappings hide what is dropped (DesignRunTag, units, agency).
 3. **Name inflation.** New U.Types are coined to avoid facing heterogeneity.
 4. **Cognitive scatter.** Concepts drift across documents without one compact, teachable “where‑what‑how‑same” view.
-
 

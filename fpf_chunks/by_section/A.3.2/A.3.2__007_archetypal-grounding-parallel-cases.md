@@ -6,12 +6,12 @@ section_id: "A.3.2:6"
 section_title: "Archetypal grounding (parallel cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__007_archetypal-grounding-parallel-cases.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:6 — Archetypal grounding (parallel cases)"
-line_start: 6190
-line_end: 6211
+line_start: 6090
+line_end: 6110
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -57,5 +57,4 @@ keywords:
 * **Method:** `AcuteAppendicitis_Triage`.
 * **MethodDescription:** clinical decision rule set; **Epistemic Role**: `RegulatedProcedureRole:Hospital_Context`.
 * **Execution:** `ER_Team#TransformerRole:ER_Shift` enacts the spec on a case → **Work** visit V‑8842.
-
 

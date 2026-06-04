@@ -6,12 +6,12 @@ section_id: "F.13:11"
 section_title: "Extended examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__012_extended-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:11 — Extended examples"
-line_start: 73048
-line_end: 73088
+line_start: 73707
+line_end: 73746
 dependencies:
   - "F.1"
   - "F.10"
@@ -68,5 +68,4 @@ keywords:
 * **F.3 + F.9 outcome:** High CL; evidence of same Cross‑context alignment.
 * **Move:** `merges({"DBaaS","Database‑Service"} ⇒ "Database‑Service")` at **row level**. Both legacy labels become row‑local aliases with epoch notes.
 * **Pay‑off:** One clearer row label; old articles still understandable.
-
 

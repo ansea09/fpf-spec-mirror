@@ -6,12 +6,12 @@ section_id: "E.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:3 — Forces"
-line_start: 66366
-line_end: 66378
+line_start: 67235
+line_end: 67247
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -48,5 +48,5 @@ keywords:
 | **Open-ended evolution vs stop discipline** | FPF assumes indefinite improvement, but one pattern version still needs an admissible stopping point for the declared use. |
 | **SoTA breadth vs local payoff** | Current practice must discipline the pattern, but citations should not become a decorative literature shelf. |
 | **Parsimony vs assurance** | Quality evaluation should catch real defects without turning every pattern into a heavy review harness. |
-| **Pattern autonomy vs neighbour fit** | A pattern needs a stable local governed object while evidence, assurance, measurement, naming, causality, publication, work, and release claims remain assigned to their governing neighbours. |
+| **Pattern autonomy vs neighbour fit** | A pattern needs a stable primary `EntityOfConcern`, exact relation, or claim record while evidence, assurance, measurement, naming, causality, publication, work, and release claims remain assigned to their exact neighbours. |
 

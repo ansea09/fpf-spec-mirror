@@ -6,12 +6,12 @@ section_id: "A.6.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:intro — Intro"
-line_start: 15223
-line_end: 15253
+line_start: 15377
+line_end: 15407
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -64,6 +64,6 @@ keywords:
 * `LEX.TokenClass(SuiteProtocol) = KernelToken.`
 * `LEX.TokenClass(SuiteAuditObligations) = KernelToken.`
 
-**I/D/S.** Description (D); Tech name ends with `…Description`.
+**EntityOfConcern / Description / specification-use.** Description (D); Tech name ends with `…Description`.
 Lexical note: do **not** prefix this token with `U.` — `U.*` is reserved for Kernel **types**, while `MechSuiteDescription` is a Kernel **descriptor** (Description token).
 

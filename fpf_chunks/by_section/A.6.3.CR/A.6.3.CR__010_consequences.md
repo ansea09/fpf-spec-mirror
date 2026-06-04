@@ -1,22 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.CR"
-pattern_title: "ConservativeRetextualization — same-described-entity textual re-expression"
+pattern_title: "ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
 section_id: "A.6.3.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__010_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3.CR — ConservativeRetextualization — same-described-entity textual re-expression"
+  - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
   - "A.6.3.CR:9 — Consequences"
-line_start: 10966
-line_end: 10973
+line_start: 10821
+line_end: 10828
 dependencies:
   - "A.15"
   - "A.6.2"
   - "A.6.3"
   - "A.6.3.CSC"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.7"
   - "B.5.2"
@@ -24,6 +25,7 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
+  - "E.17.EFP"
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
@@ -31,14 +33,6 @@ dependencies:
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
 keywords:
-  - "direct vs correspondence-mediated rewrite"
-  - "filtering"
-  - "report rewrite"
-  - "retextualization"
-  - "same-described-entity textual re-expression"
-  - "source tether"
-  - "summary"
-  - "translation"
 ---
 
 ### A.6.3.CR:9 - Consequences
@@ -46,6 +40,6 @@ keywords:
 - Textual same-entity rewrites get an admissible place without inventing a new heavy governing pattern.
 - Direct and correspondence-mediated variants stay visibly separated.
 - Loss, provenance, and reliability transport become explicit instead of implicit editorial judgement.
-- Ordinary working-model use stays lightweight, while load-bearing cases get a load-bearing review record when risk warrants it.
+- Ordinary working-model use stays lightweight, while claim-bearing cases get a claim-bearing review record when risk warrants it.
 - The pattern remains safely bounded by `A.6.3`, `A.6.4`, explanation-facing work, and representation-shift work.
 

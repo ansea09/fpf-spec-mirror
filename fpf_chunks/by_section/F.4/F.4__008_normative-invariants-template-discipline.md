@@ -6,12 +6,12 @@ section_id: "F.4:7"
 section_title: "Normative invariants (template discipline)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__008_normative-invariants-template-discipline.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:7 — Normative invariants (template discipline)"
-line_start: 69580
-line_end: 69592
+line_start: 70384
+line_end: 70396
 dependencies:
   - "A.11"
   - "A.2.1"
@@ -41,7 +41,7 @@ keywords:
 ### F.4:7 - Normative invariants (template discipline)
 
 1. **context‑local grounding.** Every Role Description **MUST** cite exactly one **SenseCell** as its semantic anchor.
-2. **I/D/S layer separation.**
+2. **EntityOfConcern / Description / specification-use separation.**
    * A **Role Template** **MUST NOT** encode deontic, access, or measurement rules.
    * A **Status Template** **MUST NOT** encode behaviour or control flow.
 3. **Time honesty.** The card’s stance (**DesignRunTag**) **MUST** match the Context’s stance (F.1).

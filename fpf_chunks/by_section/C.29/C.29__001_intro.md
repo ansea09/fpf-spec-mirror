@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.29"
-pattern_title: "Mathematical Lens Adequacy (MLA)"
+pattern_title: "Mathematical Lens Use"
 section_id: "C.29:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.29 — Mathematical Lens Adequacy (MLA)"
+  - "C.29 — Mathematical Lens Use"
   - "C.29:intro — Intro"
-line_start: 50094
-line_end: 50108
+line_start: 49932
+line_end: 49945
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensSupportPosture"
+  - "LensUseAdmissibilityValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -59,21 +59,20 @@ keywords:
   - "scale window"
   - "stop condition"
   - "structure-preserving representation"
-  - "validation posture"
+  - "validation boundary"
 ---
 
-## C.29 - Mathematical Lens Adequacy (MLA)
+## C.29 - Mathematical Lens Use
 
 > **Type:** Architectural pattern
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
-**Plain-name.** Mathematical lens adequacy.
+**Plain-name.** Mathematical lens use.
 
-**Governed object.** C.29 governs only mathematical-lens adequacy claims carried by FPF prose, pattern examples, method notes, review records, `PublicationUnit`s, decision-facing text, comparison-facing text, bridge-facing text, or assurance-input text that use a mathematical object, formalism, learned representation, simulation substrate, or mathematical family as a lens for a stated use. It does not govern those objects themselves: `PublicationUnit`s, decision records, comparative review units, bridges, work records, evidence paths, and assurance inputs remain with their own FPF loci; C.29 contributes only the bounded adequacy of the mathematical lens used inside them.
+**Primary EntityOfConcern.** C.29 concerns a declared mathematical-lens use for a stated phenomenon, EntityOfConcern, relation, claim, or structure-bearing situation. The use names the mathematical object, formalism, learned representation, simulation substrate, or mathematical family; the mapping mode; the preserved structure; the lost structure; the visible payoff or obstruction; the admissible use; the non-admissible use; and the stop condition. FPF-governed wording, pattern examples, method notes, review records, `PublicationUnit`s, decision-facing text, comparison-facing text, bridge-facing text, and assurance-input text can contain or cite that use, but they are not the primary EntityOfConcern of C.29.
 
-**Output posture.** C.29 outputs are claim-supporting notes, not actors, approvals, gates, work records, or release decisions. They state what the mathematical lens can support for one declared use and which neighboring FPF locus carries any live claim outside lens adequacy.
+**Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-locus notes. They are not actors, approvals, gates, work records, evidence records, assurance results, decisions, or release records. They state which declared mathematical-lens use is admissible, what remains blocked, and which neighboring FPF locus carries any live non-lens claim.
 
-**No new `U.*` from MLA.** `MLA.OneLine`, `MLA.MiniCard`, `MLA.FullCard`, `MLA.Card@Context`, `MLAOutputRef`, and `CC-MLA-*` are C.29-local instruments. They do not mint `U.MathematicalLens`, `U.MLARecord`, `LensKind`, `MLACompliance`, or a durable record family. Durable names, kinds, or records require explicit FPF support through `F.18`, `C.3`, `F.8`, and `E.9`.
-
+**No new `U.*` from C.29 local lens-use outputs.** `MathLensUse.OneLine`, `MathLensUse.MiniCard`, `MathLensUse.FullCard`, `MathLensUse.Card@Context`, `MathLensUseOutputRef`, and `CC-C29-*` are C.29-local instruments. They do not mint `U.MathLens`, `U.MathLensUseRecord`, `LensKind`, `MathLensUseCompliance`, or a durable record family. Durable names, kinds, or records require explicit FPF admission through `F.18`, `C.3`, `F.8`, and `E.9`.
 

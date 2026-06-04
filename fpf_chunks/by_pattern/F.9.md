@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
-line_start: 71042
-line_end: 71641
+line_start: 71790
+line_end: 72360
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -62,9 +62,9 @@ keywords:
 
 **Applicability.** Use **whenever** an author needs to **read across Contexts**—to reuse a familiar label, to connect design-time and run-time notions, to compare two standards’ terms, or to justify a row in the Concept-Set table. This pattern is **not** storage, enactment protocol, or governance; it codifies **thinking moves**.
 
-**Non-goals.** No global meaning; no `PublicationSurface` semantics; no editor roles. Bridges are **semantic relations between local senses**, not transport chains, not processes.
-**Governed object in plain terms.** One bridge card relating two `SenseCells` across different `U.BoundedContext`s; not a transport chain, not a workflow, and not one global meaning layer.
-**Governing move in plain terms.** Declare relation kind, direction, `CL`, and loss between local senses so cross-context reading stays inspectable without collapsing them into silent equivalence.
+**Non-goals.** No global meaning; no `publication face/form` semantics; no editor roles. Bridges are **semantic relations between local senses**, not transport chains, not processes.
+**Primary EntityOfConcern in plain terms.** One bridge card relating two `SenseCells` across different `U.BoundedContext`s; not a transport chain, not a workflow, and not one global meaning layer.
+**Admissible move in plain terms.** Declare relation kind, direction, `CL`, and loss between local senses so cross-context reading stays inspectable without collapsing them into silent equivalence.
 **Primary working reader.** The primary working reader is an author, checker, or practitioner preparing one bridge card, one comparative mapping note, or one concept-set row that depends on cross-context reading without pretending the contexts have already collapsed.
 **Use this when.** Use this pattern when two local senses from different contexts need one explicit bridge card before a team can admissibly reuse a label, justify a row, or compare the cases without pretending the senses are equivalent or substitutable.
 **Start here when.** The same term, role, quality, or status label appears in more than one context and the team is about to treat that overlap as if it were already equivalence, safe substitution, or structure-preserving reuse.
@@ -72,7 +72,7 @@ keywords:
 **What this buys.** One explicit bridge discipline that lets a team reuse names, compare contexts, and publish bounded cross-context support without losing track of direction, loss, and the limits of admissible substitution.
 **Not this pattern when.** Not this pattern when the case is still only a coarsened source-pinned rendering with no bridge claim yet, or when the real job is storage, enactment, governance, or one single local context rather than explicit cross-context alignment.
 
-**Boundary to controlled coarsening.** This pattern is also the explicit boundary pattern when a simplified or coarsened cross-context rendering starts to imply equivalence, substitution, projection, or interoperability scope. If the case is still only a coarsened source-pinned rendering for narrower use, keep it with that rendering's own source tether, non-admissible-use line, and reopen condition, using `A.6.3.CSC Controlled Semantic Coarsening` when that narrower-use card is primary. A lighter cross-context note may support informal orientation talk, but that is not a formal `F.9` `Naming-only` row. Any bridge, substitution, row, or interoperability claim must reopen the source-bearing episteme or source publication needed for bridge support before a Bridge Card may be published under `F.9`.
+**Boundary to controlled coarsening.** This pattern is also the explicit boundary pattern when a simplified or coarsened cross-context rendering starts to imply equivalence, substitution, projection, or interoperability scope. If the case is still only a coarsened source-pinned rendering for narrower use, keep it with that rendering's own source tether, non-admissible-use line, and reopen condition, using `A.6.3.CSC Controlled Semantic Coarsening` when that narrower-use card is primary. A lighter cross-context note may provide informal orientation, but that is not a formal `F.9` `Naming-only` row. Any bridge, substitution, row, or interoperability claim must reopen the source-bearing episteme or source publication needed for the Bridge Card before the Bridge Card may be published under `F.9`.
 **Recognition vs assurance note.** Read **Intent**, **Applicability**, **Non-goals**, and the `A.6.3.CSC` neighbor boundary above as the ordinary recognition block. Read Bridge kinds, `CL`, conformance, and Relations below as assurance blocks that tighten the same bridge-card claim; they do not widen the pattern into transport, workflow, or one global meaning layer.
 
 ### F.9:2 - Problem frame
@@ -87,7 +87,6 @@ Cross-context work fails in predictable ways:
 
 Bridges cure these by **making relation, direction, loss, and `CL` explicit**.
 
-
 ### F.9:3 - Forces
 
 | Force                           | Tension to resolve                                                                       |
@@ -97,12 +96,10 @@ Bridges cure these by **making relation, direction, loss, and `CL` explicit**.
 | **Safety vs utility**           | Support bounded substitution when the bridge kind and `CL` license it; leave substitution unsupported when loss is unbounded. |
 | **senseFamily purity vs explanation** | Substitution must preserve **senseFamily**; explanation may span **senseFamilies** without implying sameness. |
 
-
 ### F.9:4 - Core idea (didactic)
 
 **A Bridge is a declared translator between two local senses.**
 It always names **(a)** the two **SenseCells**, **(b)** a **Bridge kind** (what relation), **(c)** a **direction** (if non-symmetric), **(d)** a **CL** value, and **(e)** **Loss Notes** (what fails to carry). Some Bridges **support substitution** in limited scopes; others **support only explanation**.
-
 
 ### F.9:5 - Minimal vocabulary (this pattern only)
 
@@ -116,7 +113,6 @@ It always names **(a)** the two **SenseCells**, **(b)** a **Bridge kind** (what 
 * **Role Assignment & Enactment-eligibility** (assignable constraints/roles/status reuse),
 * **Type-structure** (safe structural inference).
 * **senseFamily** — the semantic category (Role, Status, Measurement, Type-structure, Method, Execution…) per F.0.1 (normative Part F guard).
-
 
 ### F.9:6 - Bridge kinds (senseFamily-aware)
 
@@ -161,7 +157,6 @@ These **do not support substitution** but **explain connections** across senseFa
 
 > **Rule of thumb.** If you want **rows** or **substitution**, you need a **Substitution Bridge** on the **same senseFamily**. If you want to **explain** why artefacts relate without claiming sameness, use **Interpretation Bridges**.
 
-
 ### F.9:7 - CL scale and scope thresholds
 
 CL expresses how safely meaning carries over.
@@ -181,7 +176,6 @@ CL expresses how safely meaning carries over.
 
 * **Penalty use (informative):** B.3 may convert **CL** into an assurance penalty when a cross-context claim is made.
 
-
 ### F.9:8 - The Bridge Card (compact sketch)
 
 > A **thought-format** (not a form). Every bullet can be said in a sentence.
@@ -200,7 +194,6 @@ CL expresses how safely meaning carries over.
 
 **Registry-reference note (normative).** `BridgeId` and any policy/edition identifiers cited by a Bridge Card are **registry references** (keys into registries), not semantic symbols exported by signatures. Therefore they MUST NOT be demanded via `SignatureManifest.provides` (or "satisfied" via `imports` closure); conformance is checked by validating that the referenced registry entries exist and, where required, are edition-pinned (see F.15).
 
-
 ### F.9:8a - State export and quantum-like boundary note
 
 Use F.9 first when meaning, label, relation, field, record, model output, report, or representation crosses a bounded context or publication plane. A bridge does not become quantum-like because it is lossy, approximate, contextual, or hard to translate. It becomes quantum-like only when the bridge/export claim still depends on order sensitivity, incompatible frames, a probe that changes the represented state, or no faithful-enough export supports the intended use.
@@ -217,7 +210,6 @@ Action path:
 8. State Bridge-supported use and return-to-source trigger before the bridge result is reused.
 
 Add this row to the Bridge Card only when the bridge result will be reused for decision, comparison, assurance, release, audit, or cross-context action. For a local orientation note, state the export loss and return-to-source trigger in prose without treating the note as a Bridge Card extension.
-
 
 | Field | Question |
 | --- | --- |
@@ -237,7 +229,6 @@ Useful outputs:
 
 ### F.9:9 - Invariants (normative)
 
-
 1. **Locality first.** A Bridge relates **SenseCells**, never Contexts or strings.
 2. **senseFamily discipline.** **Substitution Bridges must be senseFamily-preserving**. **Interpretation Bridges** may cross senseFamilies but **never** support substitution.
 3. **Direction clarity.** If the kind is directional, state direction explicitly.
@@ -248,8 +239,7 @@ Useful outputs:
 8. **Time DesignRunTag honesty.** If a Context fixes **DesignRunTag**, the Bridge must respect that distinction or explicitly declare a bridge such as `Design-spec -> Run-trace`.
 9. **Kernel restraint.** Bridges **cannot** be used to promote ad-hoc sameness into a new **U.Type**; A.11 applies.
 10. **Non-inheritance of Contexts.** Bridges **do not** imply -is-a- between Contexts (E.10.D1).
-11. **Coarsened-note restraint.** A lighter cross-context note, comparative aid, redacted view, or surrogate **SHALL NOT** be treated as a Bridge Card or as bridge or substitution support by convenience. If bridge-bearing use is still wanted, the source-bearing episteme or source publication needed for bridge support must be reopened and the bridge must be declared explicitly with kind, direction, `CL`, and loss notes.
-
+11. **Coarsened-note restraint.** A lighter cross-context note, comparative aid, redacted view, or surrogate **SHALL NOT** be treated as a Bridge Card or as bridge-bearing or substitution-bearing evidence by convenience. If bridge-bearing use is still wanted, the source-bearing episteme or source publication needed for the Bridge Card must be reopened and the bridge must be declared explicitly with kind, direction, `CL`, and loss notes.
 
 ### F.9:10 - Micro-examples (illustrative, one-liners)
 
@@ -282,8 +272,7 @@ Useful outputs:
 | **AP-8** | **Row outruns Bridge** | A Concept-Set row claims Role Assignment & Enactment-eligibility where some participating Bridges are `CL = 1`. | Row scope exceeds the weakest link. | Apply the **weakest-link rule** (F.7/F.8): row scope <= `min(CL)`; otherwise split the row. |
 | **AP-9** | **Bridge as new U.Type** | Using a Bridge to justify minting a new universal Type. | Re-globalises meaning; breaks A.11 parsimony. | Keep Types context-local; where reuse is needed, use **rows** + Bridges, not new primitives. |
 | **AP-10** | **Silent unit-and-scale mismatch** | Transporting measurements without unit and scale notes. | Hidden dimensional error. | Record units and scales in **Loss Notes**; if units cannot be related, use **Disjoint** or **Partial-overlap** with **Naming-only** scope. |
-| **AP-11** | **Coarsened note treated as bridge support** | A summary, redacted comparison, or partner-facing simplification is used as if it already supported substitution or interoperability claims. | A bridge claim is being smuggled through a coarsened rendering that only made lighter review or orientation admissible. | Reopen the source-bearing episteme or source publication needed for bridge support and publish the actual Bridge Card before any bridge-bearing or substitution use. |
-
+| **AP-11** | **Coarsened note treated as Bridge Card evidence** | A summary, redacted comparison, or partner-facing simplification is used as if it already made substitution or interoperability claims admissible. | A bridge claim is being smuggled through a coarsened rendering that only made lighter review or orientation admissible. | Reopen the source-bearing episteme or source publication needed for the Bridge Card and publish the actual Bridge Card before any bridge-bearing or substitution use. |
 
 ### F.9:12 - Worked examples (didactic)
 
@@ -300,7 +289,6 @@ Useful outputs:
 * **Supported use**
   Explanation-only; Concept-Set rows may be **Naming-only** ("availability") with **CL >= 1** label coherence across Contexts.
 
-
 #### F.9:12.2 - Behavioural role vs access role
 
 * **Cells & Contexts**
@@ -312,7 +300,6 @@ Useful outputs:
 * **Supported use**
 * **Naming-only** row “actor”; **no Role Assignment & Enactment reuse** across senseFamilies.
 
-
 #### F.9:12.3 - Equivalence of subtype notions for structural rows
 
 * **Cells & Contexts**
@@ -322,7 +309,6 @@ Useful outputs:
 * **Supported use**
   **Type-structure** rows supported (`CL = 3`); Loss: OWL profile limitations (RL/EL/QO).
 
-
 #### F.9:12.4 - Accuracy (metrology) vs accuracy (data-quality)
 
 * **Cells & Contexts**
@@ -331,7 +317,6 @@ Useful outputs:
   **Kind:** overlap, **CL=2**; Loss: “true value” notion differs (instrument vs dataset), scale transformations.
 * **Supported use**
   **Naming-only** row “accuracy” used for reports; no shared methods.
-
 
 #### F.9:12.5 - Setpoint (control) vs target (service)
 
@@ -398,13 +383,11 @@ CL penalties feed assurance (R) per **B.3**; safety-critical policies may requir
 
 *Reading:* There exists a declared Bridge between SenseCells `A` and `B` with stated attributes.
 
-
 #### F.9:13.2 - Substitution scope (senseFamily-preserving)
 
 `Bridge(A,B): same senseFamily f, kind in {Equivalence, Narrower-than, Broader-than}, dir A->B, CL>=2, Loss L -> A may stand in for B at senseFamily f (Role-Assignment/Enactment-eligible)`
 
 *Reading:* A **Substitution Bridge** on the same senseFamily with **CL >= 2** supports **Role-Assignment/Enactment-level** substitution **in the stated direction**. (`Type-structure` requires **CL = 3**.)
-
 
 #### F.9:13.3 - Naming-only scope
 
@@ -412,13 +395,11 @@ CL penalties feed assurance (R) per **B.3**; safety-critical policies may requir
 
 *Reading:* A Bridge with **CL >= 1** supports using a shared label in prose or Concept-Set **Naming-only** rows, without structural or Role Assignment & Enactment commitments.
 
-
 #### F.9:13.4 - Prohibition by kind
 
 `Bridge(A,B): kind=Disjoint -> no substitution and no shared row`
 
 *Reading:* **Disjoint** supports neither substitution nor rows; only contrastive teaching remains supported.
-
 
 #### F.9:13.5 - Interpretation embargo
 
@@ -426,13 +407,11 @@ CL penalties feed assurance (R) per **B.3**; safety-critical policies may requir
 
 *Reading:* **Interpretation Bridges** never support substitution or rows.
 
-
 #### F.9:13.6 - Weakest-link rule for rows
 
 `row R uses {Bridge_i} -> scope(R) = min_i(scopeSupported(Bridge_i)) and CL(R) = min_i(CL_i)`
 
 *Reading:* The **row scope** and **row CL** are bounded by the weakest participating Bridge.
-
 
 #### F.9:13.7 - Direction guard
 
@@ -440,20 +419,17 @@ CL penalties feed assurance (R) per **B.3**; safety-critical policies may requir
 
 *Reading:* Narrower>Broader does **not** invert; only A may substitute into B under the stated scope.
 
-
 #### F.9:13.8 - SenseFamily purity
 
 `Bridge scope=Role Assignment & Enactment-eligible -> same senseFamily(A,B) and same stance(A,B)`
 
 *Reading:* Role Assignment & Enactment-level substitution requires **same senseFamily** and same stance (run-time or design time).
 
-
 #### F.9:13.9 - Loss accumulation
 
 `A->B with Loss L1 and B->C with Loss L2 -> A->C is supported only if the same senseFamily is preserved, CL=min(CL1,CL2), and Loss accumulates as L1 union L2`
 
 *Reading:* Chained substitution is rarer; if used, **accumulate Loss** and respect the **minimum CL**. When in doubt, avoid chaining across Contexts.
-
 
 ### F.9:14 - Relations
 
@@ -468,7 +444,6 @@ CL penalties feed assurance (R) per **B.3**; safety-critical policies may requir
 * **Part C patterns:** formal claims that span Contexts cite Bridges and respect senseFamily/StatusModality & CL constraints.
 * **B.3 Trust & Assurance Calculus:** may interpret **CL** as a penalty factor in Cross-context reasoning.
 
-
 ### F.9:15 - Migration notes (conceptual)
 
 1. **Edition shift in a Context.** Re-read affected **Cells**; if sense moved, split the Bridge or **lower CL**; keep the older Bridge for historical claims.
@@ -477,7 +452,6 @@ CL penalties feed assurance (R) per **B.3**; safety-critical policies may requir
 4. **senseFamily refactor.** If a Cell’s senseFamily was mis-typed, fix the senseFamily first in F.3, then revisit Bridges; **Interpretation** is safer than forced substitution.
 5. **Row under-protected.** If a row’s scope exceeds the weakest Bridge, either **split the row** by Context or **downgrade scope** to Naming-only.
 6. **Bridge sprawl.** Consolidate near-duplicates into one Bridge with richer **Loss Notes**; retire the rest.
-
 
 ### F.9:16 - Acceptance tests (SCR/RSCR — concept-level)
 
@@ -495,7 +469,6 @@ CL penalties feed assurance (R) per **B.3**; safety-critical policies may requir
 * **RSCR-F9-E02 (Counter-example drift).** New counter-examples lower **CL**; deletions do not automatically raise **CL**.
 * **RSCR-F9-E03 (senseFamily drift).** If a Cell's `senseFamily` is corrected, all Bridges crossing that Cell are re-typed; any substitution that would now cross senseFamilies is invalidated.
 * **RSCR-F9-E04 (Weakest-link enforcement).** Adding a low-CL Bridge to a row reduces the row's scope; if the row's published scope would exceed the new minimum, split or downgrade the row.
-
 
 ### F.9:17 - Didactic distillation (90-second script)
 
@@ -522,10 +495,9 @@ A comparative bundle may say that two traditions both discuss *readiness* or *ca
 
 A service or review bundle may circulate a short cross-context note such as `the vendor bulletin is basically the same readiness signal as our rollback worksheet`. That note may be useful as informal orientation talk, but it is not yet an admissible Bridge Card and not yet a formal `F.9` `Naming-only` row.
 
-Before any substitution, equivalence, `Naming-only` row, or interoperability claim is made, the source-bearing episteme or source publication needed for bridge support must be reopened and an explicit Bridge Card must publish the two SenseCells, bridge kind, direction, `CL`, Loss Notes, and admissible use. Friendly summary prose does not carry bridge support by itself.
+Before any substitution, equivalence, `Naming-only` row, or interoperability claim is made, the source-bearing episteme or source publication needed for the Bridge Card must be reopened and an explicit Bridge Card must publish the two SenseCells, bridge kind, direction, `CL`, Loss Notes, and admissible use. Friendly summary prose does not carry bridge-bearing use by itself.
 
 ### F.9:19 - Bias-Annotation
-
 
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for cross-context correspondence and reuse.
 
@@ -560,10 +532,9 @@ A Bridge publication conforms to F.9 iff:
    `BridgeId` and cited policy pins are treated as registry references, not as signature-exported semantic symbols.
 
 8. **CC-F.9-8 - Coarsened cross-context note is not treated as a Bridge Card.**
-   If bridge-bearing reuse begins from a lighter note, summary, or comparison aid, the source-bearing episteme or source publication needed for bridge support is reopened and a full Bridge Card is published before any equivalence, substitution, `Naming-only` row, interoperability, or other row support is claimed.
+   If bridge-bearing reuse begins from a lighter note, summary, or comparison aid, the source-bearing episteme or source publication needed for the Bridge Card is reopened and a full Bridge Card is published before any equivalence, substitution, `Naming-only` row, interoperability, or other row admissibility is claimed.
 
 ### F.9:21 - Consequences
-
 
 **Benefits.**
 F.9 lets FPF compare, translate, and partially reuse ideas across Contexts without collapsing them into one vocabulary. It gives downstream rows, claims, and assurance reasoning an explicit Bridge Card record instead of relying on prose intuition.
@@ -591,7 +562,7 @@ Without that discipline, every shared label becomes a hidden ontology merger. Wi
 | Data/catalog/validation practice separates metadata, validation conditions, and exchange support from substitution authority. | Web-data and semantic-web standards make metadata, provenance, structural constraints, validation, and catalog federation explicit without turning metadata into the data itself. | W3C Data on the Web Best Practices (2017); W3C SHACL (2017); W3C DCAT v3 (2024). | `F.9` separates explanatory/interpretive bridges from substitution bridges and keeps bridge publication distinct from coarsened notes or catalog-style discovery aids. | **Adapt/Reject.** Adapt explicit metadata and validation practice; reject treating discovery, gloss, or validation support as substitution support. |
 | Model-based engineering uses traceable model elements and formal semantics, but tool interoperability is not itself semantic identity. | Current MBSE practice improves precision, traceability, and interoperability through explicit model elements, libraries, APIs, and formal semantics. | OMG SysML v2.0 Language Specification (2025); OMG KerML v1.0 Specification (2025). | `F.9` uses Bridge Cards as human-readable, reviewable relations whose `CL` and loss fields remain narrower than and do not replace any hidden tool or model interchange claim. | **Adapt.** Adopt traceable relation discipline; reject tool or interchange success as proof of same meaning. |
 
-**Worked-slice docking.** The nearest practical recovery anchors here are the micro-examples in `F.9:10`, the worked examples in `F.9:12`, the revision law in `F.9:14`, and the review matrix in `F.9:26`. If the SoTA claim cannot be recovered through those explicit bridge-card anchors, do not let the alignment rationale stand in for live bridge law.
+**Worked-slice docking.** The nearest practical recovery loci here are the micro-examples in `F.9:10`, the worked examples in `F.9:12`, the revision law in `F.9:14`, and the review matrix in `F.9:26`. If the SoTA claim cannot be recovered through those explicit bridge-card loci, do not let the alignment rationale stand in for live bridge law.
 
 **Local stance.** Best-known current practice supports a narrow rule: cross-context reuse is admissible only when correspondence is typed, directional where needed, explicit about loss, and narrower than silent lexical identity or convenience equivalence.
 
@@ -639,9 +610,9 @@ A reader can test bridge integrity with six questions:
 6. **If a stance overlay exists, does it stay within the bridge card's kind, direction, `CL`, and Loss Notes?**
 
 Migration from legacy "same/equivalent/align/map" prose should therefore recover the Bridge Card first, then any row support, then any optional stance overlay. Doing it in the opposite order recreates silent equivalence under new vocabulary.
-### F.9:14a - C.29 MLA relation
+### F.9:14a - C.29 mathematical-lens use relation
 
-> When meaning, substitution, sense cells, direction, `CL`, or Bridge-supported use crosses context, write the `F.9` Bridge Card first. Add the applicable `C.29` output only for mathematical-lens adequacy: candidate mathematical object, lens-mapping posture, preserved and lost structure, exposed invariants or distinctions, support posture, use-rights, and stop condition. Do not duplicate Bridge semantics inside MLA. A Bridge may make a mathematical lens interpretable across contexts without making it substitution-safe.
+> When meaning, substitution, sense cells, direction, `CL`, or Bridge-supported use crosses context, write the `F.9` Bridge Card first. Add the applicable `C.29` output only for mathematical-lens use: candidate mathematical object, `LensMappingMode`, preserved and lost structure, exposed invariants or distinctions, lens-use admissibility value, admissible and non-admissible use, and stop condition. Do not duplicate Bridge semantics inside MathLensUse. A Bridge may make a mathematical lens interpretable across contexts without making it substitution-safe.
 
 ### F.9:End
 

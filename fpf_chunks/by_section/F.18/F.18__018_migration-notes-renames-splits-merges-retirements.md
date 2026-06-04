@@ -6,12 +6,12 @@ section_id: "F.18:17"
 section_title: "Migration notes (renames, splits, merges, retirements)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__018_migration-notes-renames-splits-merges-retirements.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:17 — Migration notes (renames, splits, merges, retirements)"
-line_start: 75125
-line_end: 75137
+line_start: 75721
+line_end: 75732
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -36,5 +36,4 @@ keywords:
 **M4 — Keep identifiers stable; move rows between blocks.** When the **Block Plan** evolves, move rows rather than renumbering; record the move in the row’s **Notes** field. (F.17 §16.)
 
 **M5 — Upgrade rationale quality with worked examples.** Every rename or split should be accompanied by a **one‑page example** that shows the new row in action across at least **two Contexts**. (F.16; “tell‑show‑show”.)
-
 

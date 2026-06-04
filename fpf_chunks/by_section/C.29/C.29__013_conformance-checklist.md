@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.29"
-pattern_title: "Mathematical Lens Adequacy (MLA)"
+pattern_title: "Mathematical Lens Use"
 section_id: "C.29:11"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__013_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.29 — Mathematical Lens Adequacy (MLA)"
+  - "C.29 — Mathematical Lens Use"
   - "C.29:11 — Conformance checklist"
-line_start: 51045
-line_end: 51081
+line_start: 50880
+line_end: 50915
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensSupportPosture"
+  - "LensUseAdmissibilityValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -59,7 +59,7 @@ keywords:
   - "scale window"
   - "stop condition"
   - "structure-preserving representation"
-  - "validation posture"
+  - "validation boundary"
 ---
 
 ### C.29:11 - Conformance checklist
@@ -68,34 +68,33 @@ keywords:
 
 | ID | Requirement | Purpose |
 |---|---|---|
-| `CC-MLA-0 Use condition` | Use MLA only when a mathematical object, formalism, family, learned representation, or simulation substrate is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer. | Keeps local analogies lightweight. |
-| `CC-MLA-1 Output class selected before full card` | Select no-MLA-needed, one-line, mini-card, full-card, or `NeighborGoverningLocusNote` output before presenting full-card fields. | Prevents card-before-problem bureaucracy. |
-| `CC-MLA-2 Named substrate` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
-| `CC-MLA-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is live, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use support. | Prevents causal abstraction laundering. |
-| `CC-MLA-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and do not use it as `F.9` BridgeKind, `A.6.P` `RelationKind`, or domain ontology. If bridge semantics are live, cite or open `F.9`. | Prevents hidden bridge, relation-kind, or ontology conversions. |
-| `CC-MLA-4 Preserved structure` | State what structure the lens preserves. | Makes transfer testable. |
-| `CC-MLA-5 Lost structure` | State what does not transfer; if nothing is lost, support an equivalence or isomorphism claim. | Prevents map-territory collapse. |
-| `CC-MLA-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
-| `CC-MLA-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` carries claim-bearing use, recover the concrete substrate, preserved structure, lost structure, visible payoff, support posture, and stop condition or neighboring exit for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, or information from replacing actual MLA recovery. |
-| `CC-MLA-7 Lens-supported prediction or distinction` | When decision, prediction, model selection, or publication-as-model is live, state at least one lens-supported prediction, distinction, obstruction, or diagnostic boundary, or downgrade to analogy-only prompt. | Prevents decorative formalism. |
-| `CC-MLA-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is live, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
-| `CC-MLA-8a Neighboring claim distribution` | If the live output is a choice result, method or work record, evidence path, assurance claim, explanation rendering, comparative review unit, representation shift, coarsened rendering, temporal claim, selector, benchmark, or publication-facing use, name the governing FPF locus and exact project-side record. | Prevents C.29 from absorbing neighboring claims. |
-| `CC-MLA-9 Scale window` | If scale, universality, knees, exponents, or coarse-graining are live, declare the scale range and coordinate with `C.18.1` and `C.19.1`. | Prevents universalization. |
-| `CC-MLA-9a Temporal use boundary` | If the live claim is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for a use, cite `C.27` or state that temporal adequacy is not live. | Prevents mathematical prediction cues from replacing temporal-claim adequacy. |
-| `CC-MLA-10 Rival lens discipline` | Use a principal rival or default ordinary lens by default; require a broader rival set only for selection, publication, or claim-bearing comparison. When a rival relation is live, name the declared relation value and any evaluation criterion, cost, reader, scale window, or neighboring pattern that makes the comparison admissible. | Prevents unnecessary literature-review work and unnamed lens-superiority claims. |
-
-| `CC-MLA-10a Validation posture` | If the lens supports prediction, publication, assurance input, benchmark, model selection, or scientific/model claim, add validation regime, evaluation slice, uncertainty or approximation note, failure case, domain of applicability, and output-change condition when needed. | Keeps prediction-bearing and model-bearing uses SoTA-aligned. |
-| `CC-MLA-10b Source-basis role` | If a source carries C.29 force, name its `SourceBasisRole`; do not let source prestige silently become evidence, causal support, bridge semantics, assurance, release, selector, benchmark, or accepted law. | Separates source use from adoption posture. |
-
-| `CC-MLA-11 LensSupportPosture` | Label `LensSupportPosture` as analogy-only prompt, diagnosticOnly, formal derivation, simulation, empirical fit, accepted domain theory, SoTA-echo candidate, or mechanized proof, with matching use-rights. | Prevents evidence laundering. |
-| `CC-MLA-12 No ontology smuggling` | Do not import source-domain ontology without separate proof/evidence and receiving pattern. | Protects FPF from metaphysical collapse. |
-| `CC-MLA-13 Stop condition` | State the most tempting nearby claim the lens does not license. | Makes misuse locally visible. |
-| `CC-MLA-14 Bridge discipline` | Cross-context mathematical transfer cites `F.9`; Bridge and MLA fields agree without duplicate writing. | Keeps semantics bounded. |
-| `CC-MLA-15 Causal-use discipline` | Causal-use claims apply `C.28`; MLA cannot make causal use admissible by itself. | Blocks causal laundering. |
-| `CC-MLA-16 Assurance discipline` | Assurance, release, reliability, and engineering-justification claims apply `A.10`, `B.3`, and relevant G patterns. | Prevents elegance from raising assurance directly. |
-| `CC-MLA-17 C.2.P recovery` | Broad heads, source/target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to exact FPF kinds, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
-| `CC-MLA-18 Plain/Tech balance` | A Plain sentence can remain when it aids recognition; if it carries ontology, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim force, that claim force is recovered through the Tech fields or neighboring pattern. | Preserves didactic force without shadow semantics. |
-| `CC-MLA-19 Non-use and false-positive bank` | The pattern includes non-use examples for ordinary local domain equations, local graph data structures, A.19 overlays, local category proofs, and one-off metaphors. | Prevents MLA-everywhere. |
-| `CC-MLA-20 Repair matrix` | Failed checks map to repair outputs: downgrade, narrow, add loss, add evidence, choose rival lens, apply neighbor, or block overread. | Keeps MLA as repair pattern. |
-| `CC-MLA-21 Validation harness` | Stable admission requires the small harness cases in §8.1 or an admitted equivalent validation carrier. | Makes repeatable readiness visible. |
+| `CC-C29-0 Use condition` | Use C.29 only when a mathematical object, formalism, family, learned representation, or simulation substrate is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer. | Keeps local analogies lightweight. |
+| `CC-C29-1 Output class selected before full card` | Select no-C.29-output-needed, one-line, mini-card, full-card, or `NeighborGoverningLocusNote` output before presenting full-card fields. | Prevents card-before-problem bureaucracy. |
+| `CC-C29-2 Named substrate` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
+| `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is live, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
+| `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and do not use it as `F.9` BridgeKind, `A.6.P` `RelationKind`, or domain ontology. If bridge semantics are live, cite or open `F.9`. | Prevents hidden bridge, relation-kind, or ontology conversions. |
+| `CC-C29-4 Preserved structure` | State what structure the lens preserves. | Makes transfer testable. |
+| `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the exact governing pattern. | Prevents map-territory collapse. |
+| `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
+| `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` carries claim-bearing use, recover the concrete substrate, preserved structure, lost structure, visible payoff, use-admissibility value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
+| `CC-C29-6b Bounded-observer structural-information lens` | When MDL, epiplexity, compression, graph information, or description-recoverability changes the next move, recover `TargetPhenomenon`, source episteme or trace, bounded observer, candidate measure or code, mapping mode, preserved and lost selected structure, visible payoff, observation or postulate boundary, source-return condition, use-admissibility value, and stop condition. | Prevents C.29 from turning recoverable-structure estimates into architecture ontology, quality, selector, evidence, assurance, OOD, or causal claims. |
+| `CC-C29-7 Lens-admissible prediction or distinction` | When decision, prediction, model selection, or publication-as-model is live, state at least one lens-admissible prediction, distinction, obstruction, or diagnostic boundary, or downgrade to analogy-only prompt. | Prevents decorative formalism. |
+| `CC-C29-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is live, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
+| `CC-C29-8a Neighboring claim distribution` | If the live output is a choice result, method or work record, evidence path, assurance claim, explanation rendering, comparative review unit, representation shift, coarsened rendering, temporal claim, selector, benchmark, or publication-facing use, name the governing FPF locus and exact project-side record. | Prevents C.29 from absorbing neighboring claims. |
+| `CC-C29-9 Scale window` | If scale, universality, knees, exponents, or coarse-graining are live, declare the scale range and coordinate with `C.18.1` and `C.19.1`. | Prevents universalization. |
+| `CC-C29-9a Temporal use boundary` | If the live claim is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for a use, cite `C.27` or state that temporal adequacy is not live. | Prevents mathematical prediction cues from replacing temporal-claim adequacy. |
+| `CC-C29-10 Rival lens discipline` | Use a principal rival or default ordinary lens by default; require a broader rival set only for selection, publication, or claim-bearing comparison. When a rival relation is live, name the declared relation value and any evaluation criterion, cost, reader, scale window, or neighboring pattern that makes the comparison admissible. | Prevents unnecessary literature-review work and unnamed lens-superiority claims. |
+| `CC-C29-10a Validation regime` | If the lens is used for prediction, publication, assurance input, benchmark, model selection, or scientific claim or model claim, add validation regime, evaluation slice, uncertainty or approximation note, failure case, domain of applicability, and output-change condition when needed. | Keeps prediction-bearing and model-bearing uses SoTA-aligned. |
+| `CC-C29-10b Source-use role` | If a source changes C.29 admissible use, name its `SourceUseRole`; do not let source prestige silently become evidence, causal-use verdict, bridge semantics, assurance, release, selector, benchmark, or accepted law. | Separates the source-use role from source-use disposition. |
+| `CC-C29-11 LensUseAdmissibilityValue` | Label `LensUseAdmissibilityValue` as analogy-only prompt, diagnosticOnly, formal derivation, simulation, empirical fit, accepted domain theory, SoTA-echo candidate, or mechanized proof, with matching use-rights. | Prevents evidence laundering. |
+| `CC-C29-12 No ontology smuggling` | Do not import source-domain ontology without separate proof or evidence and receiving pattern. | Protects FPF from metaphysical collapse. |
+| `CC-C29-13 Stop condition` | State the most tempting nearby claim the lens does not license. | Makes misuse locally visible. |
+| `CC-C29-14 Bridge discipline` | Cross-context mathematical transfer cites `F.9`; Bridge and C.29 fields agree without duplicate writing. | Keeps semantics bounded. |
+| `CC-C29-15 Causal-use discipline` | Causal-use claims apply `C.28`; C.29 cannot make causal use admissible by itself. | Blocks causal laundering. |
+| `CC-C29-16 Assurance discipline` | Assurance, release, reliability, and engineering-justification claims apply `A.10`, `B.3`, and relevant G patterns. | Prevents elegance from raising assurance directly. |
+| `CC-C29-17 C.2.P recovery` | Broad heads, source wording or target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to exact FPF kinds, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
+| `CC-C29-18 Plain and Tech balance` | A Plain sentence can remain when it aids recognition; if it carries ontology, evidence, causal, assurance, bridge, gate, work, decision, or admissibility commitment, that commitment is recovered through the Tech fields or neighboring pattern. | Preserves didactic usefulness without shadow semantics. |
+| `CC-C29-19 Non-use and false-positive bank` | The pattern includes non-use examples for ordinary local domain equations, local graph data structures, A.19 overlays, local category proofs, and one-off metaphors. | Prevents C.29-everywhere. |
+| `CC-C29-20 Repair matrix` | Failed checks map to repair outputs: downgrade, narrow, add loss, add evidence, choose rival lens, apply neighbor, or block overread. | Keeps C.29 as a repair pattern. |
+| `CC-C29-21 Validation harness` | Stable admission requires the small harness cases in §8.1 or an admitted equivalent validation carrier. | Makes repeatable readiness visible. |
 

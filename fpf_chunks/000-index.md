@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `16cd31387cff04ab6b0feef22717f82ac54efa8f`
+Commit SHA: `a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e`
 
 Chunking method: `pattern-aware`
 
-Patterns: `228`
+Patterns: `234`
 
 ## Patterns
 
@@ -36,14 +36,15 @@ Patterns: `228`
 - [A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType](by_pattern/A.6.0.md)
 - [A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType](by_pattern/A.6.1.md)
 - [A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes](by_pattern/A.6.2.md)
-- [A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism](by_pattern/A.6.3.md)
+- [A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism](by_pattern/A.6.3.md)
 - [A.6.3.CSC — Controlled Semantic Coarsening](by_pattern/A.6.3.CSC.md)
-- [A.6.3.CR — ConservativeRetextualization — same-described-entity textual re-expression](by_pattern/A.6.3.CR.md)
-- [A.6.3.RT — RepresentationTransduction — same-described-entity representation-scheme transition](by_pattern/A.6.3.RT.md)
-- [A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism](by_pattern/A.6.4.md)
+- [A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression](by_pattern/A.6.3.CR.md)
+- [A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition](by_pattern/A.6.3.RT.md)
+- [A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
-- [A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
+- [A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
 - [A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)](by_pattern/A.6.F.md)
+- [A.6.M — Module Relation Repair](by_pattern/A.6.M.md)
 - [A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)](by_pattern/A.6.5.md)
 - [A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)](by_pattern/A.6.6.md)
 - [A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms](by_pattern/A.6.7.md)
@@ -72,6 +73,7 @@ Patterns: `228`
 - [A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)](by_pattern/A.18.md)
 - [A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)](by_pattern/A.19.md)
 - [A.19.ECS — Evaluation CharacteristicSpace Construction](by_pattern/A.19.ECS.md)
+- [A.19.SPR — State-Family Precision Restoration](by_pattern/A.19.SPR.md)
 - [A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate](by_pattern/A.19.SOURCE-SET-SPACE-SUBSTRATE.md)
 - [A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View](by_pattern/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW.md)
 - [A.19.CN — CN‑frame (comparability & normalization)](by_pattern/A.19.CN.md)
@@ -151,13 +153,17 @@ Patterns: `228`
 - [C.26.3 — Viability-Envelope Boundary Regulation](by_pattern/C.26.3.md)
 - [C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change](by_pattern/C.27.md)
 - [C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability](by_pattern/C.28.md)
-- [C.29 — Mathematical Lens Adequacy (MLA)](by_pattern/C.29.md)
-- [C.30 — Architecture Description Adequacy (ADA)](by_pattern/C.30.md)
+- [C.29 — Mathematical Lens Use](by_pattern/C.29.md)
+- [C.30 — Grounded Architecture and Selected-Structure Adequacy](by_pattern/C.30.md)
+- [C.30.AD — Architecture Description Adequacy](by_pattern/C.30.AD.md)
 - [C.30.P — Architecture and Structure Precision Restoration](by_pattern/C.30.P.md)
+- [C.30.STRAT — Stratification Wording Precision Restoration](by_pattern/C.30.STRAT.md)
 - [C.30.ASV — Architecture Structural View Adequacy (ASV)](by_pattern/C.30.ASV.md)
 - [C.30.LCA — Control Structure View Adequacy (LCA)](by_pattern/C.30.LCA.md)
 - [C.30.ILC — Cross-Scope Architecture Residual Triage](by_pattern/C.30.ILC.md)
-- [C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
+- [C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
+- [C.31 — Modularity and Reusable Structure Characteristics](by_pattern/C.31.md)
+- [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [D.5 — Bias-Audit & Ethical Assurance](by_pattern/D.5.md)
 - [E.1 — Vision & Mission: “Operating System for Thought”](by_pattern/E.1.md)
 - [E.2 — The Eleven Pillars](by_pattern/E.2.md)
@@ -179,7 +185,7 @@ Patterns: `228`
 - [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
-- [E.10.D2 — Intension–Description–Specification Discipline (I/D/S)](by_pattern/E.10.D2.md)
+- [E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline](by_pattern/E.10.D2.md)
 - [E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline](by_pattern/E.11.md)
 - [E.12 — Didactic Primacy & Cognitive Ergonomics](by_pattern/E.12.md)
 - [E.13 — Pragmatic Utility & Value Alignment](by_pattern/E.13.md)
@@ -194,7 +200,7 @@ Patterns: `228`
 - [E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units](by_pattern/E.17.ID.CR.md)
 - [E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly](by_pattern/E.17.AUD.md)
 - [E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it](by_pattern/E.17.AUD.LHR.md)
-- [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity](by_pattern/E.17.AUD.OOTD.md)
+- [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern](by_pattern/E.17.AUD.OOTD.md)
 - [E.18 — Transduction Graph Architecture (E.TGA)](by_pattern/E.18.md)
 - [E.19 — Pattern Quality Gates: Review and Refresh Profiles](by_pattern/E.19.md)
 - [E.20 — Mechanism Introduction Protocol](by_pattern/E.20.md)
@@ -231,7 +237,7 @@ Patterns: `228`
 - [G.6 — Evidence Graph & Provenance Ledger](by_pattern/G.6.md)
 - [G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)](by_pattern/G.7.md)
 - [G.8 — SoS‑LOG Bundles & Maturity Ladders](by_pattern/G.8.md)
-- [G.9 — Parity / Benchmark Harness](by_pattern/G.9.md)
+- [G.9 — Parity and Benchmark Harness](by_pattern/G.9.md)
 - [G.10 — SoTA Pack Shipping](by_pattern/G.10.md)
 - [G.11 — Telemetry-Driven Refresh & Decay Orchestrator](by_pattern/G.11.md)
 - [G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)](by_pattern/G.12.md)

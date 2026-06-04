@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
-line_start: 20818
-line_end: 21164
+line_start: 20849
+line_end: 21195
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -80,7 +80,7 @@ A conforming move may be published as a local move note without any `U.LanguageS
 
 Observation itself is a precursor condition typically published through `B.4.1`. `A.16` move kinds begin once a cue is deliberately noticed, stabilized, route-published, reopened, formalized, operationalized, respecified, or retired under explicit move discipline.
 
-#### A.16:4.1 - Governed move family
+#### A.16:4.1 - Language-state move family family
 | Move | What it does | Typical source condition | Typical publication effect |
 |---|---|---|---|
 | `notice` | marks that a low-articulation cue is being deliberately preserved | low or unstable articulation | cue preservation becomes explicit enough for early publication work |

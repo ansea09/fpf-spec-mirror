@@ -6,12 +6,12 @@ section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:intro — Intro"
-line_start: 42633
-line_end: 42648
+line_start: 42539
+line_end: 42554
 dependencies:
   - "B.3"
   - "C.11"
@@ -45,9 +45,9 @@ keywords:
 
 **Plain-name.** Explore-exploit governor.
 
-**Intent.** Govern exploration/exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset posture stay explicit, auditable, and stated as one pool-policy result without taking over local choice, enactment, or publication questions.
+**Intent.** Govern exploration/exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit, auditable, and stated as one pool-policy result without taking over local choice, enactment, or publication questions.
 
-**Export posture.** No `Γ` operators are exported; policies parameterize calls in `C.18 NQD-CAL`.
+**Export relation.** No `Γ` operators are exported; policies parameterize calls in `C.18 NQD-CAL`.
 
 **Depends on.** `C.18 NQD-CAL` (generators), `C.17 Creativity-CHR` (measurements), `Decsn-CAL` (objectives/constraints and scalarization lenses), `B.3` (trust adjustments), and `Compose-CAL` (set aggregation; advisory).
 

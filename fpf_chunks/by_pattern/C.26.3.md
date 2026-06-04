@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
-line_start: 46816
-line_end: 47145
+line_start: 46708
+line_end: 47032
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,12 +50,11 @@ Use this pattern when architecture work is maintaining, recovering, or changing 
 
 Most envelope work covered by this pattern is ordinary control, quality, SRE, causal, or work discipline, not QL. FEP, allostasis, and active inference are source analogies for envelope discipline, sensor and action coupling, and partial observability; ordinary control, SRE, quality-bundle, causal, and work patterns remain primary unless probe, order, export, or coarsening cue remains load-bearing after ordinary viability, quality, dynamics, measurement, boundary, and work patterns have carried their part.
 
-
-| Working surface | Value |
+| Working card | Value |
 | --- | --- |
 | Primary reader | Architect, platform lead, reliability lead, product manager, or operations lead preserving viability under changing conditions. |
-| Governed object | A viability-envelope claim or plan over a declared viability bearer, with protected promise/function named separately. |
-| Governed move | Name the bearer, envelope variables, disturbance, sensors/probes, actuators, boundary condition, adaptation cost, and failure mode. |
+| Primary EntityOfConcern | A viability-envelope claim or plan over a declared viability bearer, with protected promise/function named separately. |
+| Admissible move | Name the bearer, envelope variables, disturbance, sensors/probes, actuators, boundary condition, adaptation cost, and failure mode. |
 | Outside work | One-metric quality tuning, generic control theory, biological proof, full FEP doctrine, and ordinary feedback without an envelope/boundary claim. |
 | What changes in practice | The team stops treating one dashboard value as viability and designs the actual envelope-regulation move. |
 
@@ -117,7 +116,7 @@ Full envelope-regulation record:
 | Sensors / probes | Which metric, dashboard, alert, health check, review, trace query, observation setup, or probe reads the envelope, and can it change behavior or hide unmeasured dimensions? |
 | Available actuators | What work, method, boundary action, staffing change, cache, throttle, bridge, access, protocol, or routine can change the situation? |
 | Boundary condition preserved / changed | Which access, ownership, context, interface, promise, or environment condition matters? |
-| Trade-off posture | Which envelope dimension is protected, relaxed, delayed, made more expensive, or deliberately held constant? |
+| Trade-off condition | Which envelope dimension is protected, relaxed, delayed, made more expensive, or deliberately held constant? |
 | Adaptation cost | What is spent, delayed, damaged, risked, or made harder by the adaptation? |
 | Failure mode | What breakdown, drift, unsafe persistence, or loss of viability shows that the move failed? |
 
@@ -133,7 +132,7 @@ This pattern emits one of these results:
 
 | Result | Meaning |
 | --- | --- |
-| Envelope-regulation claim | State bearer, protected promise/function, envelope variables, viable region/bounds, disturbance, sensors/probes, actuators, boundary condition, trade-off posture, authority, latency, adaptation cost, and failure mode. |
+| Envelope-regulation claim | State bearer, protected promise/function, envelope variables, viable region/bounds, disturbance, sensors/probes, actuators, boundary condition, trade-off condition, authority, latency, adaptation cost, and failure mode. |
 | Actuator redesign | Change cache, throttle, routing, staffing, protocol, access, bridge, escalation, measurement, or context split because the existing actuator cannot keep the envelope viable. |
 | Measurement/probe redesign | Redesign a dashboard, alert, health check, readiness score, or review process because it distorts the envelope it reports. |
 | Ordinary neighboring-pattern application | Use `C.25`, `C.16`, `A.6`, `A.15`, `U.Dynamics`, `C.18`, `C.19`, or `A.19` when the QL cue is not load-bearing. |
@@ -147,7 +146,7 @@ Treat sensors, probes, dashboards, alerts, and metrics as possible participants 
 | --- | --- | --- |
 | Metric-as-envelope | A proxy is treated as the whole envelope. | Recover bearer, protected promise, full envelope, unmeasured dimensions, and admissible use. |
 | Goodharted viability | Actors optimize measured slots while damaging unmeasured survivor relations or future adaptability. | Route probe-caused behavior through `C.26.1`; add evidence for unmeasured envelope dimensions. |
-| Actuator overfit | An action preserves one parameter while pushing another cost, latency, boundary relation, or promise outside bounds. | Add trade-off posture, actuator authority, latency, adaptation cost, and failure mode. |
+| Actuator overfit | An action preserves one parameter while pushing another cost, latency, boundary relation, or promise outside bounds. | Add trade-off condition, actuator authority, latency, adaptation cost, and failure mode. |
 
 #### C.26.3:4.4 - Conditional dynamics detail
 
@@ -158,15 +157,15 @@ When rate, acceleration, second-order change, inertia, damping, resistance, effo
 - whether the rate of change itself is changing, rebounding, overshooting, or damping out;
 - which inertia is useful and which is harmful;
 - which actuator can actually change the envelope fast enough;
-- which evidence shows the dynamic posture.
+- which evidence shows the dynamic state.
 
 If those variables are not load-bearing, do not force dynamics machinery into the case. The short recognition note or the full envelope-regulation record is enough.
 
-#### C.26.3:4.5 - Governed object and operational sequence
+#### C.26.3:4.5 - Primary EntityOfConcern and operational sequence
 
-The governed object is a viability-envelope claim or plan. It is not a generic quality score, not a control-theory survey, and not a biological analogy. The claim says that some bearer can keep a promise, function, or operating regime viable only if a set of variables remains inside a usable region under declared disturbances, probes, sensors, actuators, boundary conditions, and adaptation costs.
+The primary EntityOfConcern is a viability-envelope claim or plan. It is not a generic quality score, not a control-theory survey, and not a biological analogy. The claim says that some bearer can keep a promise, function, or operating regime viable only if a set of variables remains inside a usable region under declared disturbances, probes, sensors, actuators, boundary conditions, and adaptation costs.
 
-The governed move is to turn a one-scalar stability story into an inspectable envelope-regulation decision.
+The first useful move is to turn a one-scalar stability story into an inspectable envelope-regulation decision.
 
 Action path:
 
@@ -176,11 +175,11 @@ Action path:
 4. Name sensors/probes and say whether they only report, also frame, or also change behavior.
 5. Name available actuators and who or what can enact them in time.
 6. State the boundary condition being preserved or changed.
-7. State the trade-off posture and adaptation cost.
+7. State the trade-off condition and adaptation cost.
 8. State the failure mode and re-probe/destabilization condition.
 9. Add dynamics detail only if rate, inertia, damping, latency, resistance, or acceleration changes the decision.
 
-Ordinary output: produce a viability-envelope record with envelope variables and viable region, a disturbance/sensor/actuator map, and a trade-off, adaptation, and failure posture that tells the practitioner what changes in the work.
+Ordinary output: produce a viability-envelope record with envelope variables and viable region, a disturbance/sensor/actuator map, and a trade-off, adaptation, and failure condition that tells the practitioner what changes in the work.
 
 The output should tell a practitioner what changes in the work: redesign the metric, change cache policy, adjust staffing, reroute traffic, split or merge a context, add a bridge note, change an escalation promise, or drop the envelope claim.
 
@@ -198,7 +197,7 @@ sensors or probes: ...
 available actuators: ...
 actuator authority and latency: ...
 boundary condition: ...
-trade-off posture: ...
+trade-off condition: ...
 adaptation cost: ...
 failure mode: ...
 re-probe or destabilization condition: ...
@@ -275,7 +274,6 @@ This translation keeps the pattern practical for architects. The reader should b
 
 ### C.26.3:5 - Archetypal Grounding
 
-
 Tell: A platform team tries to preserve checkout latency during a traffic spike. The first move is to increase cache aggressiveness. Latency improves, but support load rises because stale payment-failure status causes confused customer contacts.
 
 Show, System side: the viability bearer is the checkout/payment service situation. Envelope variables include latency, payment correctness, support load, customer-promise reliability, and operator attention. Actuators include cache policy, retry policy, routing, dashboard query, escalation promises, and context bridge changes.
@@ -300,7 +298,7 @@ The pattern may feel too broad if it is applied to every quality concern. It is 
 | CC-C26.3.4 | Disturbance class and scenario/window are named. |
 | CC-C26.3.5 | Sensors/probes and their possible behavior-changing or dimension-hiding effects are named when measurement carries the envelope claim. |
 | CC-C26.3.6 | Available actuators and actuator authority/latency are named. |
-| CC-C26.3.7 | Boundary condition, trade-off posture, and adaptation cost are stated. |
+| CC-C26.3.7 | Boundary condition, trade-off condition, and adaptation cost are stated. |
 | CC-C26.3.8 | Failure mode and re-probe/destabilization condition are stated. |
 | CC-C26.3.9 | Metrics or dashboards are not treated as the envelope itself. |
 | CC-C26.3.10 | The QL cue / formal cue is named if QL wording is retained. |
@@ -310,7 +308,6 @@ The pattern may feel too broad if it is applied to every quality concern. It is 
 | CC-C26.3.14 | The pattern does not mint `ViabilityParameter`, `HomeostasisOntology`, or a new control ontology. |
 
 ### C.26.3:8 - Common Anti-Patterns and How to Avoid Them
-
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
@@ -343,11 +340,10 @@ The QL lens is secondary. It matters when the way viability is probed, exported,
 | Excess Bayesian / active-embodied inference shows the cost of moving sensor, body, instrument, or access point to obtain a discriminating observation. | [Connecting the free energy principle with quantum cognition](https://www.frontiersin.org/articles/10.3389/fnbot.2022.910161/full). | Treat probe placement, access placement, and observation cost as part of viability-envelope work when they change the decision. | Adapt for probe/action cost, not as a replacement for ordinary Bayesian or active-inference routes. |
 | Platform and software engineering already treats many quality concerns as trade-off bundles. | Reliability, incident, platform, compliance, energy, support, operator-load practice, and [Google SRE SLO / error-budget practice](https://sre.google/workbook/implementing-slos/), coordinated with `C.25`. | Make the quality bundle explicit and state actuator authority, latency, adaptation cost, and failure mode. | Adopt through FPF quality-bundle routes. |
 
-
 Worked-slice discipline from these rows:
 
 - state the envelope before importing source terminology;
-- translate source terms into FPF architecture objects;
+- translate source terms into selected structures, `ArchitectureOf@Context` relations, architecture descriptions, structural views, or exact C.30 subcases;
 - keep sensors, probes, actuators, and metrics distinct;
 - state adaptation cost and failure mode;
 - apply ordinary quality and measurement patterns to one-scalar quality concerns.
@@ -361,10 +357,9 @@ Worked-slice discipline from these rows:
 - Non-admissible use: stabilization wording is not a viability envelope, and C.27 is not the pattern for all stability-through-change claims.
 - Exit: if the live claim is only better quality, healthier team, or more resilient service without a declared viability envelope, use C.25, E.13, or the relevant quality/proxy/value pattern rather than C.26.3 or a C.27 profile.
 
-
 - Builds on: `C.26`, `C.25`, `U.Dynamics`, `A.6`, `A.15`, `C.16`, `A.10`, `B.3`, `A.3`, `A.19`, `C.18`, `C.19`.
 - Coordinates with: `C.26.1` when sensors, probes, dashboards, or metrics change represented state; `C.26.2` when coordinated work evidences the envelope state.
 - Does not replace: ordinary quality-bundle patterns, generic control theory, full FEP doctrine, or biological homeostasis claims outside FPF bridge and loss discipline.
-- Name posture: `Viability-Envelope Boundary Regulation` names architecture work over a viability envelope and boundary/action conditions, not `Homeostasis Pattern`, `Allostasis Doctrine`, `Control Ontology`, `Quality Optimization Pattern`, or `Viability Substance`.
+- Name boundary: `Viability-Envelope Boundary Regulation` names architecture work over a viability envelope and boundary/action conditions, not `Homeostasis Pattern`, `Allostasis Doctrine`, `Control Ontology`, `Quality Optimization Pattern`, or `Viability Substance`.
 
 ### C.26.3:End

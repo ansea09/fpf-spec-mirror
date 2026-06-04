@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:2 — Problem"
-line_start: 47307
-line_end: 47457
+line_start: 47189
+line_end: 47338
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -55,7 +55,7 @@ C.27 does not govern:
 
 - transition laws or reusable dynamics models, which `A.3.3 U.Dynamics` carries;
 - state-space or coordinate construction, which `A.19` and `C.16` carry;
-- measurement legality, evidence construction, provenance, assurance posture,
+- measurement legality, evidence construction, provenance, assurance claim,
   or evidence decay, which `C.16`, `A.10`, `B.3`, `B.3.4`, and `G.6` carry as
   applicable;
 - work actuals and resource burn, which `U.Work` and `Gamma_work` carry;
@@ -77,7 +77,7 @@ C.27 does not govern:
 - selector publication roles, which `G.5` carries only when a concrete
   selector-publication case consumes a dynamic benchmark result;
 - quantum-like probe, frame, export, or coarsening residues, which `C.26` carries;
-- publication roles, MVPK faces, governed objects of related FPF patterns, or Kernel `U.*` kinds.
+- publication roles, MVPK faces, primary EntityOfConcern values of related FPF patterns, or Kernel `U.*` kinds.
 
 Dynamic-order labels are pattern-local claim classifications, not FPF kinds.
 C.27 does not mint `U.Force`, `U.Mass`, `U.Acceleration`,
@@ -136,7 +136,7 @@ Do not make C.27 the governing pattern when:
 - a word such as speed, rhythm, acceleration, agility, or inertia is only a
   teaching metaphor or casual Plain wording;
 - the live issue is publication-unit stability: one overloaded local head,
-  drifting primary described entity, bounded comparison, explanation faithfulness, or
+  drifting publication-unit primary entity of concern, bounded comparison, explanation faithfulness, or
   approval/action wording should use E.17.AUD, E.17.ID.CR, E.17.EFP, or the
   pattern that governs the downstream claim, effect, or use before C.27;
 - the live question is whether a measure is legal, comparable, or interpretable:
@@ -146,10 +146,10 @@ Do not make C.27 the governing pattern when:
   `A.3.3 U.Dynamics` and formal/evidence patterns carry the formal dynamics,
   with C.27 only naming the admissible-use limit of the authored claim;
 - the live question is work/resource actuals: `U.Work` and `Gamma_work` carry the
-  evidence, with C.27 only using it as effort basis for a Dyn2 claim;
+  evidence, with C.27 only using it as effort evidence or planning assumption for a Dyn2 claim;
 - the live question is scaling-law or elasticity adequacy: C.18.1 carries scale
-  variables, scale window, scale probes, and elasticity posture, with C.27
-  only naming the temporal-claim adequacy question if scale change is used as the basis for
+  variables, scale window, scale probes, and scale-elasticity value, with C.27
+  only naming the temporal-claim adequacy question if scale change is used as the scale-variable relation for
   rate-change, learning, recovery, throughput, or stabilization;
 - the live question is a work plan, call plan, method description, or authorized
   intervention actor/role assignment: the planning pattern carries the plan, with C.27 only active
@@ -196,5 +196,4 @@ C.27 does not introduce:
 - default C.27 profiling for every temporal word;
 - thin C.27 echo records when a local C.27 card or profile can cite the FPF
   FPF pattern that governs the other question.
-
 

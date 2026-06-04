@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:7"
 section_title: "Conformance Checklist (CC-A.6.A)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__008_conformance-checklist-cc-a-6-a.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:7 — Conformance Checklist (CC-A.6.A)"
-line_start: 13420
-line_end: 13485
+line_start: 13263
+line_end: 13328
 dependencies:
   - "A.15"
   - "A.16"
@@ -50,7 +50,7 @@ A text or pattern conforms to A.6.A iff:
 1. **CC-A.6.A-1 — Explicit post-threshold relation family and explicit sense.**
    Every in-scope post-threshold action-first use resolves to one declared `actionInvitation(...)` instance and one declared `ActionInvitationSense`; earlier cue-like content stays under `A.16.1` or `B.4.1` instead of being forced into A.6.A prematurely.
 2. **CC-A.6.A-2 — Explicit site and site-facet docking.**
-   The site tuple is explicit; when ambiguous or mixed, the A.7 lane map (`Object | Description | Carrier`) is explicit.
+   The site tuple is explicit; when ambiguous or mixed, the site classification over the EntityOfConcern and Description-episteme boundary is explicit, and publication or carrier participation is stated separately when live.
 
 3. **CC-A.6.A-3 — Explicit invited enactor.**
    The invited enactor tuple is explicit.
@@ -64,7 +64,7 @@ A text or pattern conforms to A.6.A iff:
 6. **CC-A.6.A-6 — Explicit coupling frame.**
    The coupling frame is explicit.
 
-7. **CC-A.6.A-7 — Detector/viewpoint separation.**
+7. **CC-A.6.A-7 — Detector and viewpoint separation.**
    When both matter, `detector` and `viewpoint` are not silently collapsed.
 
 8. **CC-A.6.A-8 — Lawful normal form.**
@@ -82,11 +82,11 @@ A text or pattern conforms to A.6.A iff:
 12. **CC-A.6.A-12 — No capability collapse.**
     A situated invitation is not silently rewritten as a general capability claim.
 
-13. **CC-A.6.A-13 — No object-property collapse.**
-    Affordance language is not published as a monadic object property when actor/site/frame matter.
+13. **CC-A.6.A-13 — No site-participant-property collapse.**
+    Affordance language is not published as a monadic site-participant property when enactor, site, and coupling frame matter.
 
 14. **CC-A.6.A-14 — No hidden scalarisation.**
-    `OptionSet` publication does not introduce a hidden total score or ranking without an explicit comparator / policy.
+    `OptionSet` publication does not introduce a hidden comparator value or ranking without an explicit comparator or policy.
 
 15. **CC-A.6.A-15 — No silent sense rewrite.**
     Sense changes use the declared change lexicon.
@@ -98,14 +98,14 @@ A text or pattern conforms to A.6.A iff:
     Cross-tradition parallels publish bridge stance and loss notes.
 
 18. **CC-A.6.A-18 — Boundary-claim hook when needed.**
-    If the repaired invitation is used for admissibility, commitments, publication, or automation, downstream `L/A/D/E` hooks are explicit.
+    If the repaired invitation is used for admissibility, commitments, publication, or automation, downstream L-, A-, D-, or E-classified hooks are explicit.
 
 19. **CC-A.6.A-19 — Lexical firewall.**
-    Bare action-first trigger tokens are absent from Tech / normative prose except as quoted metalinguistic discussion.
+    Bare action-first trigger tokens are absent from Tech prose and normative prose except as quoted metalinguistic discussion.
 
 20. **CC-A.6.A-20 — `actionInvitation` relation specification skeleton is published.**
-    The family-specific `RelationKind` token resolves to a relation specification skeleton with SlotSpecs, enactor/site discipline, qualifier expectations, repair paths, witness discipline, admissible change classes, and cross-context policy.
+    The family-specific `RelationKind` token resolves to a relation specification skeleton with SlotSpecs, enactor and site discipline, qualifier expectations, repair paths, witness discipline, admissible change classes, and cross-context policy.
 
 21. **CC-A.6.A-21 — Candidate-Set Note is used when ambiguity is live.**
-    If the site lane map, enactor lane, relation family, or sense selection is non-obvious, the text records a short Candidate-Set Note before decision-bearing use.
+    If the site classification, publication or carrier participation, enactor lane, relation family, or sense selection is non-obvious, the text records a short Candidate-Set Note before decision-bearing use.
 

@@ -6,12 +6,12 @@ section_id: "F.3:13"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__014_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:13 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 69391
-line_end: 69435
+line_start: 70200
+line_end: 70243
 dependencies:
   - "A.11"
   - "A.7"
@@ -74,5 +74,4 @@ keywords:
 10. **Completeness ping (optional)**
     `frequent head w in C ∧ no Local‑Sense on w ⇒ consider(sense for w)`
     *Reading:* If a common head lacks a sense, you may be missing a useful consolidation (within C).
-
 

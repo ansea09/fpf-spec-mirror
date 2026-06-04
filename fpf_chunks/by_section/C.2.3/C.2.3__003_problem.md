@@ -6,12 +6,12 @@ section_id: "C.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:2 — Problem"
-line_start: 35450
-line_end: 35464
+line_start: 35539
+line_end: 35553
 dependencies:
   - "A.16"
   - "A.18"

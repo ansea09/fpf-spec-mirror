@@ -6,12 +6,12 @@ section_id: "F.18:8"
 section_title: "Conformance Checklist (editor aid) — Part I: naming & cards (non‑normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_conformance-checklist-editor-aid-part-i-naming-cards-non-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:8 — Conformance Checklist (editor aid) — Part I: naming & cards (non‑normative)"
-line_start: 74791
-line_end: 74831
+line_start: 75390
+line_end: 75430
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -36,7 +36,7 @@ Every Name Card **must** state the **kind** (System, Episteme, Role, Service, Me
 **CCE‑F18.2a (Purpose declared).**
 Every Name Card **must** state the **Purpose / use‑domain** (families of contexts where the concept is expected to be used). Omitting Purpose is non‑conformant.
 
-**CCE‑F18.3 (Sense anchoring).**
+**CCE-F18.3 (Sense reference).**
 A minted name **must** resolve to a **Local‑Sense** in its Context. If a sense cannot be stated, label minting is deferred.
 
 **CCE‑F18.4 (Twin registers).**

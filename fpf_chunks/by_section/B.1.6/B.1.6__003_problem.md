@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:2 — Problem"
-line_start: 29772
-line_end: 29781
+line_start: 29922
+line_end: 29930
 dependencies:
   - "A.12"
   - "A.14"
@@ -38,5 +38,4 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 2. **Conservation violations:** Totals appear that exceed inputs or create “free” resource, contradicting physical and informational conservation.
 3. **Boundary blindness:** Spending is reported without specifying the boundary across which it is measured, making numbers non‑comparable.
 4. **Category errors in mereology:** Collection membership (MemberOf) is misused as if it were parthood for resource stocks, polluting Γ proofs (B.1).
-
 

@@ -6,12 +6,12 @@ section_id: "B.1.4:4"
 section_title: "Solution — Part 1: What these flavours are, and when to use them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__005_solution-part-1-what-these-flavours-are-and-when-to-use-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:4 — Solution — Part 1: What these flavours are, and when to use them"
-line_start: 29156
-line_end: 29252
+line_start: 29327
+line_end: 29418
 dependencies:
   - "A.12"
   - "A.14"
@@ -41,7 +41,6 @@ keywords:
 > • Resource spending → **Γ\_work**.
 > • Mappings / representations → value‑level links or `U.Interaction`, not parthood.
 
-
 #### B.1.4:4.2 - Operator signatures (normative)
 
 **Γ\_ctx — Contextual / Order‑Sensitive Aggregation**
@@ -66,7 +65,6 @@ keywords:
 * **T:** the transformer that composes the timeline (A.12).
 * **Output H′:** the holon reconstructed over τ (system history, theory revision history, dataset growth, etc.).
 
-
 #### B.1.4:4.3 - Adapted invariants (what replaces COMM/LOC)
 
 Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by discipline specific to order and time.
@@ -86,7 +84,6 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 > **Why we keep WLNK and MONO.**
 > Even with order/time, the whole cannot be safer or more reliable than the bottleneck step/phase (WLNK), and improving a step/phase on declared monotone characteristics cannot make the whole worse (MONO).
 
-
 #### B.1.4:4.4 - Guards that make the folds provable
 
 **For Γ\_ctx**
@@ -104,7 +101,6 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 3. **Scope:** single `DesignRunTag`; design‑time hypothetical timelines and run‑time actual logs are kept separate.
 4. **Boundary note:** if Work across boundaries is reported for phases, route resource statements to **Γ\_work**; Γ\_time itself does not invent costs.
 
-
 #### B.1.4:4.5 - Selection checklist (didactic quick guide)
 
 * **Does swapping two steps change meaning or safety?** → **Γ\_ctx**.
@@ -113,7 +109,6 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 * **Is it a “who belongs to this collective” question?** → **MemberOf** + (future) **Γ\_collective**.
 * **Do you need durations, critical paths, and joins?** → **Γ\_method** (specialisation of **Γ\_ctx**).
 * **Do you need resource spending across a boundary?** → **Γ\_work** (orthogonal; can be used together with Γ\_ctx/Γ\_time).
-
 
 #### B.1.4:4.6 - Didactic contrasts (one‑liners)
 

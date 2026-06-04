@@ -6,12 +6,12 @@ section_id: "B.1.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:2 — Problem"
-line_start: 28344
-line_end: 28353
+line_start: 28555
+line_end: 28563
 dependencies:
   - "A.1"
   - "A.12"
@@ -40,5 +40,4 @@ Without a disciplined `DependencyGraph`, four pathologies recur:
 2. **Boundary blindness:** Cross‑holon influences are drawn as parts, bypassing explicit `U.Boundary` and `U.Interaction`. This corrupts locality (LOC) and defeats reproducible folding.
 3. **Temporal conflation:** `design‑time` and `run‑time` holons appear in one graph; simulations then “prove” facts about a blueprint using live telemetry.
 4. **Hidden cycles:** Self‑dependence enters through aliasing (e.g., a team is a member of itself via “units of units”). Γ cannot topologically fold such graphs.
-
 

@@ -6,12 +6,12 @@ section_id: "F.9:12"
 section_title: "Worked examples (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__014_worked-examples-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:12 — Worked examples (didactic)"
-line_start: 71282
-line_end: 71384
+line_start: 72019
+line_end: 72117
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -61,7 +61,6 @@ keywords:
 * **Supported use**
   Explanation-only; Concept-Set rows may be **Naming-only** ("availability") with **CL >= 1** label coherence across Contexts.
 
-
 #### F.9:12.2 - Behavioural role vs access role
 
 * **Cells & Contexts**
@@ -73,7 +72,6 @@ keywords:
 * **Supported use**
 * **Naming-only** row “actor”; **no Role Assignment & Enactment reuse** across senseFamilies.
 
-
 #### F.9:12.3 - Equivalence of subtype notions for structural rows
 
 * **Cells & Contexts**
@@ -83,7 +81,6 @@ keywords:
 * **Supported use**
   **Type-structure** rows supported (`CL = 3`); Loss: OWL profile limitations (RL/EL/QO).
 
-
 #### F.9:12.4 - Accuracy (metrology) vs accuracy (data-quality)
 
 * **Cells & Contexts**
@@ -92,7 +89,6 @@ keywords:
   **Kind:** overlap, **CL=2**; Loss: “true value” notion differs (instrument vs dataset), scale transformations.
 * **Supported use**
   **Naming-only** row “accuracy” used for reports; no shared methods.
-
 
 #### F.9:12.5 - Setpoint (control) vs target (service)
 

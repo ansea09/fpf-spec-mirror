@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.25.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
-line_start: 45147
-line_end: 45558
+line_start: 45065
+line_end: 45474
 dependencies:
   - "A.15"
   - "A.16.0"
@@ -106,7 +106,7 @@ Use a **Q-Bundle** when the quality family depends on more than one of the follo
 
 `Q-Bundle := <Name, Carrier, ClaimScope?, WorkScope?, Measures[CHR], QualificationWindow?, Mechanisms?, Status?, Evidence?>`
 
-The pattern adds no new Kernel kind for these slots. It reuses existing kinds and keeps them in one disciplined authoring surface.
+The pattern adds no new Kernel kind for these slots. It reuses existing kinds and keeps them in one disciplined authoring structure.
 
 #### C.25:4.3 - Field roles
 
@@ -160,7 +160,7 @@ The pattern biases authors toward explicit decomposition. That bias is intention
 
 | Benefit | Trade-off / Mitigation |
 |---|---|
-| **Category hygiene.** Scope, measurement, mechanism, and status no longer collapse into one term. | Slightly heavier authoring surface; mitigation: only composite cases need the full bundle. |
+| **Category hygiene.** Scope, measurement, mechanism, and status no longer collapse into one term. | Slightly heavier authoring structure; mitigation: only composite cases need the full bundle. |
 | **Portable comparison.** CHR measures compare legally, while scope remains governed by USM set algebra. | Authors must declare scales and scope explicitly. |
 | **Cleaner gating.** Method/work guards can read the same structure without hidden semantics. | Requires discipline in separating guard factors. |
 | **Better endpoint classification.** `C.16.Q` can terminate in either one characteristic or one Q-Bundle with a clear endpoint pattern. | Requires a first-pass endpoint decision during authoring. |
@@ -190,7 +190,6 @@ Contemporary engineering quality practice routinely mixes service-level measures
 #### C.25:12.1 - Endpoint role in evaluative classification
 
 Within language-state trajectories and their endpoint docks, `C.25` is the system-side endpoint pattern for engineering quality families after overloaded quality wording has been repaired by `C.16.Q` and any hidden characteristic, scale, score, metric, or proxy wording has been repaired by `C.16.P`. `qualityTermAscription(...)` may remain a transitional repair record, but it is **not** the universal resting place when the admissible endpoint is a single `Characteristic`, a `Q-Bundle`, or an explicit objective-oriented quality bundle.
-
 
 ### C.25:13 - Decision Test: Single Characteristic or Bundle?
 
@@ -249,7 +248,7 @@ A quality claim that depends on rolling windows, observation periods, maintenanc
 
 #### C.25:14.4 - Report-only summary proxies
 
-A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary-surface value or an oversight-facing composite score. Such a proxy is admissible only if:
+A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary proxy value or an oversight-facing composite score. Such a proxy is admissible only if:
 
 - it is explicitly declared as a **report-only proxy**,
 - the underlying bundle slots remain visible,
@@ -360,7 +359,7 @@ Cross-context transport, bridge loss, or plane mismatch do not change whether th
 
 #### C.25:17.3 - Boundary to publication convenience
 
-A report, summary surface, or executive summary may expose only one slice of a Q-Bundle, but the underlying authoring structure remains the bundle. Publication convenience is not a reason to collapse the ontology at the source.
+A report, summary publication, or executive summary may expose only one slice of a Q-Bundle, but the underlying authoring structure remains the bundle. Publication convenience is not a reason to collapse the ontology at the source.
 
 #### C.25:15.5 - Serviceability and supportability
 
@@ -377,7 +376,7 @@ The lesson is the same as elsewhere in `C.25`: once the truth of the family clai
 
 `C.25` is for engineering quality families whose bearer is a system-side, promise-side, or explicit quality-bearing artifact. It does **not** automatically cover:
 
-- viewpoint-fit or architecture-description adequacy claims, which may belong in viewpoint or evaluative-ascription patterns,
+- viewpoint-fit or grounded architecture adequacy claims, which may belong in viewpoint or evaluative-ascription patterns,
 - or selector/objective heads where *quality* means use-value under a search or portfolio frame.
 
 This boundary matters because the same word *quality* appears across those zones. `C.16.Q` repairs overloaded quality wording, `C.16.P` repairs characteristic, scale, score, metric, or proxy wording when that is the hidden object, and the resting endpoint depends on what is actually being evaluated.
@@ -452,4 +451,3 @@ Useful outputs:
 - no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
 
 ### C.25:End
-

@@ -6,12 +6,12 @@ section_id: "B.1.4:8"
 section_title: "Anti‑patterns and their fixes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__009_anti-patterns-and-their-fixes.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:8 — Anti‑patterns and their fixes"
-line_start: 29358
-line_end: 29369
+line_start: 29521
+line_end: 29531
 dependencies:
   - "A.12"
   - "A.14"
@@ -35,5 +35,4 @@ keywords:
 | **Overlapping phases**               | Two `PhaseOf` intervals for the same carrier overlap        | Split the intervals or justify overlap as measurement resolution; otherwise fold is invalid.                            |
 | **DesignRunTag chimera**               | Mixing run logs with design plan in one Γ\_ctx/Γ\_time fold | Split into two graphs by scope; relate through a Transformer or mapping at value level.                                 |
 | **Cost in Γ\_time**                  | Trying to sum energy in Γ\_time                             | Route costs to Γ\_work per phase; Γ\_time composes history, not expenditure.                                            |
-
 

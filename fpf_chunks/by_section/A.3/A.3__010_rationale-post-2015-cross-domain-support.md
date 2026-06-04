@@ -6,12 +6,12 @@ section_id: "A.3:9"
 section_title: "Rationale (post‑2015 cross‑domain support)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__010_rationale-post-2015-cross-domain-support.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:9 — Rationale (post‑2015 cross‑domain support)"
-line_start: 5751
-line_end: 5764
+line_start: 5668
+line_end: 5680
 dependencies:
   - "A.15"
   - "A.2"
@@ -39,5 +39,4 @@ Where transformers are *agentic*, A.3’s policy–plan–action split and bound
 Provenance minima in CC-A3-7 reflect **FAIR** principles (machine-actionable reuse), **RO-Crate** (methods, data, and context packaged together), and operational lineage standards such as **OpenLineage** and **ML Metadata (TFX)** that treat research objects, runs, and jobs as first-class, with typed facets and versioning - exactly what enactment + Γ\_work need. ([Nature][7], [researchobject.org][8], [SAGE Journals][9], [openlineage.io][10], [GitHub][11], [arXiv][12])
 
 Together, these lines of work argue for **explicit role‑bearing transformers**, **recipe/run separation**, **boundary‑grounded deltas**, and **traceable contexts** — the four pillars that CC‑A3 enforces.
-
 

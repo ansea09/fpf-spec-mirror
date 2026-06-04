@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
 section_id: "E.17.AUD.OOTD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:10 — Rationale"
-line_start: 64666
-line_end: 64677
+line_start: 65539
+line_end: 65550
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,7 +26,6 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17.AUD.LHR"
@@ -43,7 +42,7 @@ The point of this pattern is not to create a second architecture of views, faces
 It is narrower: one publication unit can become misleading even when every single sentence looks locally acceptable.
 
 `A.6.P`, `A.7`, `E.10`, and `F.18` already keep kinds, distinctions, and naming precise.
-This pattern adds the missing publication-unit discipline that asks whether the same publication unit is still honestly about one primary described entity, carrying one move, with one explicit outside-work boundary.
+This pattern adds the missing publication-unit discipline that asks whether the same publication unit is still honestly about one primary EntityOfConcern, carrying one move, with one explicit outside-work boundary.
 
 The pattern also stays intentionally close to `E.14` and `E.19`.
 Recognition comes first through a manager-usable entry block and the ordinary six-row card.

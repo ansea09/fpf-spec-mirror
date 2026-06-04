@@ -6,12 +6,12 @@ section_id: "C.22.1:3"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__004_use-this-when.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:3 — Use this when"
-line_start: 43640
-line_end: 43645
+line_start: 43564
+line_end: 43569
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -41,7 +41,7 @@ keywords:
 
 ### C.22.1:3 - Use this when
 
-- the governed claim is not only that a holder or dyad solved a task, but how fast it acquired usable specialization on a declared task family
+- the adaptation-signature claim is not only that a holder or dyad solved a task, but how fast it acquired usable specialization on a declared task family
 - comparison must stay honest about the work-measure threshold target, prior exposure, adaptation budget, transfer field, and reuse window
 - movement into a new solution corridor or stepping-stone family is part of the real novelty claim
 

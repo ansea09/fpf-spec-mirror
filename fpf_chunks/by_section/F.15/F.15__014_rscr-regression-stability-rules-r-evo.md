@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "RSCR — Regression & Stability Rules (R‑Evo)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_rscr-regression-stability-rules-r-evo.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:13 — RSCR — Regression & Stability Rules (R‑Evo)"
-line_start: 73721
-line_end: 73794
+line_start: 74347
+line_end: 74413
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -35,7 +35,6 @@ keywords:
 **Notation.**
 `X@t0` — object X before change • `X@t1` — after change • `Δ(X)=⟨…⟩` — described difference • `same(…) / new(…) / retired(…)` — conceptual status.
 
-
 #### F.15:13.1 - Contexts & editions
 
 **RSCR‑F15‑E1 (No silent replacement).**
@@ -45,7 +44,6 @@ keywords:
 **RSCR‑F15‑E2 (Trip‑wire carry‑over).**
 `C@t1 derives from C@t0 ⊢ tripWires(C@t1) ⊇ review(tripWires(C@t0))`
 *Reading:* Known confusions are re‑checked and re‑stated (or explicitly dropped with a sentence why).
-
 
 #### F.15:13.2 - Local‑Senses & SenseCells
 
@@ -57,7 +55,6 @@ keywords:
 `SenseCell ⟨C,λ⟩@t0 → @t1 ⊢ context(λ@t1)=C`
 *Reading:* A SenseCell never migrates across Contexts through edits.
 
-
 #### F.15:13.3 - Concept‑Set rows
 
 **RSCR‑F15‑E5 (Row identity).**
@@ -67,7 +64,6 @@ keywords:
 **RSCR‑F15‑E6 (Row shrink‑before‑split).**
 `ρ@t1 loses a cell due to edition split ⊢ prefer keep ρ@t0 + add new row ρ' rather than mutating ρ silently`
 *Reading:* When a Context splits meaning, preserve history: **add** instead of rewriting.
-
 
 #### F.15:13.4 - Role Descriptions (Role and Status)
 
@@ -79,7 +75,6 @@ keywords:
 `name(τ@t0) → name(τ@t1) ⊢ create alias(name@t0→name@t1) unless semantics changed`
 *Reading:* If only the **name** improves, create an **Alias** (F.13). If semantics change, **mint a new Role Description** instead.
 
-
 #### F.15:13.5 - Bridges
 
 **RSCR‑F15‑E9 (Re‑validate on movement).**
@@ -90,7 +85,6 @@ keywords:
 `series of edits turns β(kind≠≡) → β(kind=≡) ⊢ require new witness set`
 *Reading:* Equivalence (≡) is special: it needs a **fresh witness**; you cannot slide into ≡ by minor edits.
 
-
 #### F.15:13.6 - Status windows & SoD
 
 **RSCR‑F15‑E11 (Window stability).**
@@ -100,5 +94,4 @@ keywords:
 **RSCR‑F15‑E12 (SoD invariance).**
 `SoD(τᵢ ⟂ τⱼ) @t0 → @t1 ⊢ SoD preserved; no new Role Description conflates τᵢ,τⱼ`
 *Reading:* Separation‑of‑Duties remains in force through changes (F.14).
-
 

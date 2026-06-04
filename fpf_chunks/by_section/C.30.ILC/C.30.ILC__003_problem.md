@@ -6,12 +6,12 @@ section_id: "C.30.ILC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:2 — Problem"
-line_start: 53101
-line_end: 53108
+line_start: 53510
+line_end: 53519
 dependencies:
   - "A.10"
   - "A.22"
@@ -41,9 +41,11 @@ keywords:
 
 ### C.30.ILC:2 - Problem
 
-Architecture work often starts from a residual: a local fix works in one scope and fails in another. Component optimization increases system integration cost. A new module boundary reduces local complexity and increases exceptions at the product-line scope. A control layer improves local safety and creates accountability or latency claims elsewhere. A reusable evidence set reduces repeated work and hides a new source-return obligation.
+Architecture work often starts from a residual: a local fix works in one declared holon level or declared scope and fails in another. Component optimization increases whole-holon or product-line integration cost. A new module boundary reduces local complexity and increases exceptions at the product-line scope. A control layer improves local safety and creates accountability or latency claims elsewhere. A reusable evidence set reduces repeated work and hides a new source-return obligation.
 
-Without a pattern, teams either discuss the residual as vague `complexity`, treat it as ordinary stakeholder conflict, jump into measurement, or open a new architecture synthesis effort too early. `C.30.ILC` keeps the first move small: identify whether the residual is architecture-shaping and name the first admissible architecture move or exact exact governing pattern application.
+The useful architecture intuition is narrower than a new `Frustration` kind: local optimization at one declared holon level or declared scope can create a persistent residual in another declared holon level, declared scope, or level-bearing structure relation. Depending on the live claim, that residual exits to `C.29` only when a recoverable multilevel mapping, scale mapping, or coarse-graining mapping is live; to an admitted scale, RG, or coarse-graining receiving pattern when preserved structure and lost structure across such mapping are live; or to `G.5` or an admitted architecture synthesis receiving pattern for candidate architecture moves. An ordinary conflict between structures is not enough for the RG lens or frustration mathematical lens, but a conflict between structures assigned to different declared holon levels or scale windows may be enough when the mapping, preserved-structure line, and lost-structure line are recoverable. The first C.30.ILC output is only the grounded triage record.
 
-The practical work is often not to draw another view. It is to distribute the residual across the carrier that can actually bear it: declared scope, structure kind, constraint, characteristic or Q-bundle, evidence-reuse boundary, source-return condition, or non-architecture claim kind.
+Without a pattern, teams either discuss the residual as vague `complexity`, treat it as ordinary stakeholder conflict, jump into measurement, use mathematical frustration language as proof, or open a new architecture synthesis effort too early. `C.30.ILC` keeps the first move small: identify whether the residual is architecture-shaping and name the first admissible architecture move or exact governing pattern application.
+
+The practical work is often not to draw another view. It is to assign the residual to the exact locus that can bear it: declared holon level, declared scope, level-bearing selected structure, structure kind, constraint, characteristic or Q-bundle, evidence-reuse boundary, source-return condition, or non-architecture claim kind.
 

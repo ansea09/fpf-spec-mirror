@@ -6,12 +6,12 @@ section_id: "C.30.P:9"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__012_common-anti-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:9 — Common anti-patterns"
-line_start: 52126
-line_end: 52136
+line_start: 52283
+line_end: 52293
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -45,10 +46,10 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Diagram-as-architecture | A diagram, graph, dashboard, ADR, or generated view is said to be the architecture. | Recover publication/carrier/view/source role and then apply `C.30` or `C.30.ASV` only if the architecture claim or structural view is live. |
+| Diagram-as-architecture | A diagram, graph, dashboard, ADR, or generated view is said to be the architecture. | Recover publication, carrier, view, or source role and then apply `C.30` or `C.30.ASV` only if the architecture claim or structural view is live. |
 | Architecture-as-proof | Architecture wording carries evidence, assurance, causal proof, gate passage, release permission, or decision authority. | Exit to `A.10`, `B.3`, `C.28`, `A.20`, `A.21`, `C.11`, release, or exact pattern. |
-| Function-as-default-architecture | Any function, functional block, interface, or module behavior is treated as architecture. | Use `A.6.F` and `C.30.ASV` functional-structure, TGA-flow, `A.6.M` module/interface, or exact quality pattern. |
+| Function-as-default-architecture | Any function, interface, module behavior, or source label such as block is treated as architecture. | Use `C.30.STRAT` for source-label recovery where needed, then `A.6.F`, `C.30.ASV` functional-structure, TGA-flow, `A.6.M` module-relation repair, or exact quality pattern. |
 | Score-as-architecture | A score, metric, benchmark, or quality coordinate is used as architecture adequacy. | Apply `C.16.P` and the exact measurement, characteristic-space, Q-bundle, pattern-quality, gate, or benchmark pattern. |
 | Viewpoint-as-structure-kind | A viewpoint label is used as if it selected structure kind. | Use `C.30.ASV`; recover structure kind and viewpoint separately. |
-| Repair registry duplication | `A.22`, `C.30`, `C.30.ASV`, or an exact `C.30.*` host copies architecture/structure first-stage repair lists. | Keep the subject invariant there and use one thin pointer to `C.30.P`. |
+| Repair registry duplication | `A.22`, `C.30`, `C.30.ASV`, or an exact `C.30.*` host copies architecture or structure first-stage repair lists. | Keep the subject invariant there and use one thin pointer to `C.30.P`. |
 

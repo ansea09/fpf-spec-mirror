@@ -6,12 +6,12 @@ section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 20081
-line_end: 20104
+line_start: 20125
+line_end: 20147
 dependencies:
   - "A.15"
   - "U.Work"
@@ -44,5 +44,4 @@ keywords:
 * **Bridges:** Ops context ↔ Security Audit context (different acceptance targets).
 * **Plan Items:** `Deploy Service A`, `Pen‑test A`; dependencies across contexts.
 * **Fulfilment:** Deployment Work passes ops targets; audit Work passes later—variance reported per context.
-
 

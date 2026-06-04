@@ -6,12 +6,12 @@ section_id: "C.3.5:2"
 section_title: "Context & Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__003_context-rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:2 — Context & Rationale"
-line_start: 38441
-line_end: 38467
+line_start: 38429
+line_end: 38454
 dependencies:
   - "C.3.1"
 keywords:
@@ -47,5 +47,4 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 * Making AT a Characteristic would **duplicate** G’s role and encourage gating.
 * As a **facet**, AT remains a **catalog/navigation and planning device**, not an assurance dimension.
-
 

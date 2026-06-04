@@ -6,12 +6,12 @@ section_id: "C.17:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:2 — Forces"
-line_start: 41735
-line_end: 41747
+line_start: 41660
+line_end: 41671
 dependencies:
   - "A.1"
   - "A.10"
@@ -60,5 +60,4 @@ keywords:
 | **Randomness vs. intention**         | Random noise looks “novel” yet useless; planned recombination can be highly creative.                                                   |
 
 **Design answer.** A **context‑local CreativitySpace** with a **small set of characteristics**, each with **clear measurement templates** and **Evidence Graph Ref**; composition uses **frontiers and partial orders**, not forced scalarisation.
-
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
 section_id: "E.17.AUD.OOTD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:6 — Bias-Annotation"
-line_start: 64624
-line_end: 64629
+line_start: 65497
+line_end: 65502
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,7 +26,6 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17.AUD.LHR"
@@ -41,5 +40,5 @@ keywords:
 
 Lenses tested: **Arch**, **Onto and Epist**, **Prag**, **Did**.
 This section intentionally biases toward explicit publication-unit stability and against quietly letting one unit absorb wider work or decision pressure by habit.
-The main mitigation is explicit described-entity, move, and outside-work surfacing, early return to `E.17.ID.CR` when publication-unit stability is already solved, and explicit governing-pattern boundary dispositions once a downstream claim becomes primary.
+The main mitigation is explicit primary EntityOfConcern, move, and outside-work surfacing, early return to `E.17.ID.CR` when publication-unit stability is already solved, and explicit governing-pattern boundary dispositions once a downstream claim becomes primary.
 

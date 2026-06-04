@@ -6,12 +6,12 @@ section_id: "A.2.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
   - "A.2.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 2201
-line_end: 2212
+line_start: 2193
+line_end: 2204
 dependencies:
   - "A.1"
   - "A.1.1"

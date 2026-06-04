@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
-line_start: 30033
-line_end: 30331
+line_start: 30176
+line_end: 30460
 dependencies:
   - "A.1"
   - "A.12"
@@ -50,7 +50,6 @@ FPF’s stance on **identity across time** is **ecumenical**: both **4D extensio
 
 FPF does **not** force a metaphysical choice; it requires **clear declarations** so Γ‑proofs and B.3‑assurance remain unambiguous.
 
-
 ### B.2:2 - Problem
 
 Without an explicit MHT pattern, four pathologies recur:
@@ -60,7 +59,6 @@ Without an explicit MHT pattern, four pathologies recur:
 3. **Context leakage:** A composite crosses a **bounded context** (new vocabulary, units, policy), but the model keeps scoring in the old context, inflating **R\_eff** by ignoring **congruence penalties**.
 4. **Order/time confusion:** Genuinely **order‑dependent synergies** (Γ\_ctx/Γ\_method) or **phase consolidations** (Γ\_time) are misrepresented as simple structural sums (Γ\_sys), losing causal and temporal meaning.
 
-
 ### B.2:3 - Forces
 
 | Force                                       | Tension                                                                                                                                                     |
@@ -69,7 +67,6 @@ Without an explicit MHT pattern, four pathologies recur:
 | **Continuity vs. Re‑identification**        | Preserve identity across phases where warranted ↔ Re‑identify when boundary/objective/capability qualitatively change.                                      |
 | **Local vs. Systemic**                      | Local improvements should stay inside MONO ↔ System‑level novelties must **restart** invariants at a new level.                                             |
 | **DDD familiarity vs. Ontological clarity** | Reuse intuitions from **bounded contexts** and **events** ↔ Keep them mapped to FPF’s holons, boundaries, and transformers without tool‑specific semantics. |
-
 
 ### B.2:4 - Solution — **Part 1: What an MHT is, when to declare it, and how it relates to Γ**
 
@@ -86,7 +83,6 @@ After MHT, the Γ‑invariants apply **afresh** to `H⁺` and its parts. Prior a
 > **Didactic guard‑rail.**
 > If a perceived “synergy” is fully explainable **within the current Γ‑flavour**—e.g., by raising congruence **CL**, improving parts (MONO), or fixing order (Γ\_ctx)—**do not** declare MHT. MHT is reserved for **new closure** or **new supervision** that changes what counts as “the whole”.
 
-
 #### B.2:4.2 - Triggers for declaring MHT (BOSC‑A‑T‑X)
 
 Declare MHT when one or more of the following **observable triggers** occur (measurements are recorded in the promotion record):
@@ -101,7 +97,6 @@ Declare MHT when one or more of the following **observable triggers** occur (mea
 
 > **Rule of thumb.**
 > BOSC touches **what the holon is**; A/T/X touch **how and where it lives** (agency, time, context). Any **two** of these together almost always warrant MHT.
-
 
 #### B.2:4.3 - Identity stance: 4D vs. 3D+1 (FPF’s ecumenical Standard)
 
@@ -121,7 +116,6 @@ FPF permits both readings **provided** you make **identity and event claims expl
 
 **Normative bridge:** Regardless of stance, you **must** (i) state whether identity **continues** (PhaseOf) or a **new identity** is created, and (ii) record the **Transformer** that performs the MHT.
 
-
 #### B.2:4.4 - Event taxonomy for MHT (small, reusable set)
 
 To avoid ad‑hoc naming, choose one **event type** (or a pair) and fill its parameters:
@@ -133,7 +127,6 @@ To avoid ad‑hoc naming, choose one **event type** (or a pair) and fill its par
 5. **Context Reframe** — the holon’s bounded context shifts (terminology/units/policy), establishing `H⁺` in the **new context**; mappings to the prior context are recorded.
 
 These are **Transformer events** (A.12). They do **not** imply toolchains or storage; they are conceptual commitments with audit fields.
-
 
 #### B.2:4.5 - How MHT relates to Γ‑flavours and bounded contexts
 
@@ -156,7 +149,6 @@ These are **Transformer events** (A.12). They do **not** imply toolchains or sto
 
   * A **bounded context** is a **modelling Standard** (vocabulary/units/policy). Crossing it without re‑baselining **CL** causes **trust inflation**.
   * Use **Context Reframe** MHT to re‑anchor `H⁺` in the new context and declare the mappings; B.3’s congruence penalty `Φ(CL)` now refers to the **new** baseline.
-
 
 #### B.2:4.6 - What MHT is *not* (didactic contrasts)
 
@@ -216,7 +208,6 @@ MHT.PromotionRecord
 
 * **MHT‑CTX‑MAP.** For **ContextReframe**, list the concept/unit/terminology mappings and their CL levels; record the **new CL baseline** for future aggregations.
 
-
 ### B.2:6 - Archetypal cases (worked, didactic)
 
 #### B.2:6.1 - System — **Closed‑loop regulation emerges from components** (Fusion / Role‑Lift)
@@ -257,7 +248,6 @@ MHT.PromotionRecord
 
 * **MHT:** **ContextReframe** to `H⁺ = CertifiedProduct`; new **BIC** and regulatory vocabulary become the baseline; earlier lab claims are not silently “ported”.
 
-
 ### B.2:6.5 - Certification Interface Example *(Informative)*
 
 Conceptual signature (notation‑neutral):
@@ -281,7 +271,6 @@ certify(role, context, window, snapshot, options) → StateAssertion
 | **CC‑B2.6** | **PhasePromotion** MUST state whether identity continues (4D: new tube start; 3D+1: new enduring holon) and justify the choice. | Keep temporal semantics clear.                     |
 | **CC‑B2.7** | **Role‑Lift** MUST reference Agency‑CHR but MUST NOT use agency to bypass WLNK or CL penalties.                                 | Preserve safety invariants.                        |
 
-
 ### B.2:8 - Anti‑patterns & repairs
 
 | Anti‑pattern               | Symptom                                                 | Repair                                                                              |
@@ -292,7 +281,6 @@ certify(role, context, window, snapshot, options) → StateAssertion
 | **Agency as type**         | Introduce `U.Agent` and claim new identity              | Keep agency as role (A.13); MHT only if supervision/closure changes the whole.      |
 | **Boundary amnesia**       | Interfaces changed but not recorded                     | Update BIC; if external commitments change materially, declare MHT.                 |
 | **Order magic**            | Reordering steps treated as emergence                   | If order fixes correctness (Γ\_ctx), no MHT; only closed loops/supervision qualify. |
-
 
 ### B.2:9 - Consequences
 
@@ -308,14 +296,12 @@ certify(role, context, window, snapshot, options) → StateAssertion
 * **Extra documentation at the right time.** Declaring MHT is deliberate; it requires a Promotion Record and evidence.
 * **Identity bookkeeping.** Teams must choose an identity stance and be consistent; this cost buys cross‑scale coherence.
 
-
 ### B.2:10 - Rationale (informative)
 
 * **Systems & control:** Closing feedback creates **new closed‑loop properties** not attributable to parts alone; treating this as an MHT avoids “synergy by arithmetic” and aligns with classical supervisory control and contemporary active‑inference views (A.13).
 * **Mereology & identity:** By remaining **ecumenical** (4D or 3D+1) but **Standardual** about identity declarations, FPF stays compatible with traditions akin to **BORO** (4D‑leaning) and **CCO** (endurantist uses), while keeping proofs unambiguous.
 * **DDD/Event‑centric modelling:** Popular practices (bounded contexts, event storming) pivot on **events** and **context boundaries**. MHT makes such events **first‑class** in FPF, turns context hops into explicit **ContextReframe** transitions, and ties them to assurance via **CL baselines**.
 * **Assurance discipline:** Re‑baselining **F/G/R** and **CL** at MHT points prevents cross‑context overconfidence and enables principled improvement plans.
-
 
 ### B.2:11 - Relations
 

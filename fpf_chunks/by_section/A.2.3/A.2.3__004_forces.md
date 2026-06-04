@@ -6,12 +6,12 @@ section_id: "A.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:3 — Forces"
-line_start: 2594
-line_end: 2604
+line_start: 2571
+line_end: 2580
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -58,5 +58,4 @@ keywords:
 | **Universality vs domain richness**         | One kernel meaning must cover IT, utilities, healthcare, public services—without absorbing domain taxonomies. |
 | **Measurability vs privacy**                | Consumers need SLO/SLA and outcomes; providers want implementation freedom (Method autonomy).                 |
 | **Stability vs evolution**                  | Services version and change without invalidating prior Work evidence.                                         |
-
 

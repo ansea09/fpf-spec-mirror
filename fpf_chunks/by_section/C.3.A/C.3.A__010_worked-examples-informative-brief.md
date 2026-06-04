@@ -6,12 +6,12 @@ section_id: "C.3.A:9"
 section_title: "Worked Examples (informative, brief)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__010_worked-examples-informative-brief.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:9 — Worked Examples (informative, brief)"
-line_start: 38812
-line_end: 38828
+line_start: 38781
+line_end: 38796
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -39,5 +39,4 @@ Use **Guard\_TypedJoin**: producer `Request` → consumer expects `Authenticated
 
 **E4 — Masked clinic cohort across jurisdiction.**
 Use **Guard\_MaskedUse** + **Guard\_XContext\_Typed**: registered mask, deterministic DOB constraint; KindBridge `CL^k=1`; Scope bridge CL depends on coding; penalties to **R**; Scope narrowed to overlap.
-
 

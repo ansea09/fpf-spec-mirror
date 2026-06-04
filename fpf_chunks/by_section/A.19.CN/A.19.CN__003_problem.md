@@ -6,12 +6,12 @@ section_id: "A.19.CN:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:2 — Problem"
-line_start: 23949
-line_end: 23957
+line_start: 24164
+line_end: 24172
 dependencies:
   - "A.19"
   - "A.6.1"

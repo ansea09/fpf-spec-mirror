@@ -6,12 +6,12 @@ section_id: "F.10:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:4 — Core idea (didactic)"
-line_start: 71879
-line_end: 71885
+line_start: 72593
+line_end: 72599
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -36,5 +36,5 @@ keywords:
 **Three families, two modalities, one habit.**
 Treat every status word as a **SenseCell with a declared StatusModality** and **inside one Context**. When you must relate statuses across Contexts, **declare a Bridge** (F.9) that says *what kind of relation*, *which CL value applies*, *which way (if narrower/broader)*, and *what is lost*. Prefer **explanation** Bridges; permit **substitution** only when kind/CL allow it.
 
-**Reading an Episteme.** For every `U.Episteme`, read the `DescribedEntitySlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot`, `ViewpointSlot`, and carrier references under A.7 and MVPK. **Statuses classify the Episteme;** enactment remains with `U.System` and `U.Work`. (Formal identity rules: see **KD‑CAL**.)
+**Reading an Episteme.** For every `U.Episteme`, read the `EntityOfConcernSlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot`, `ViewpointSlot`, and carrier references under A.7 and MVPK. **Statuses classify the Episteme;** enactment remains with `U.System` and `U.Work`. (Formal identity rules: see **KD‑CAL**.)
 

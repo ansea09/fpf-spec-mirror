@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.15.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
-line_start: 73492
-line_end: 73884
+line_start: 74128
+line_end: 74496
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -34,13 +34,11 @@ keywords:
 **Builds on:** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; F.0.1 **Foundational Principles**; F.1–F.14.
 **Coordinates with.** B.3 **Trust & Assurance Calculus** (for CL use on Bridges).
 
-
 ### F.15:1 - Intent & applicability
 
 **Intent.** Provide a **minimal, notation‑free harness of conceptual checks** that tells you whether a unification slice is **sound**: Contexts are fixed and diverse (F.1), terms are harvested and clustered **inside** Contexts (F.2–F.3), Role Descriptions **point to one SenseCell** (F.4), names obey discipline (F.5), rows are reused instead of multiplied (F.7–F.8), bridges are **explicit and penalised** (F.9), statuses vary by **windows** not type proliferation (F.10), and cross‑line bindings (F.11–F.12) respect locality.
 **Applicability.** Use whenever you declare or revise any of: Context cards, Local‑Senses, SenseCells, Concept‑Set rows, Role Descriptions, Bridges, Status windows.
 **Non‑goals.** No registries, workflows, or storage formats. No team roles. No metrics dashboards. This is **thinking discipline**, not governance.
-
 
 ### F.15:2 - Problem frame
 
@@ -52,7 +50,6 @@ Without a unification harness:
 4. **Silent rewrites.** New editions overwrite old meanings without a trace.
 5. **Unstable bridges.** Cross‑context relations harden into dogma without CL or loss statements.
 
-
 ### F.15:3 - Forces
 
 | Force                      | Tension to resolve                                                    |
@@ -61,7 +58,6 @@ Without a unification harness:
 | **Locality vs reuse**      | Preserve context‑local meaning while enabling Cross‑context comparison.     |
 | **Stability vs evolution** | Allow new editions and rows without erasing prior sense.              |
 | **Clarity vs formality**   | Checks must be teachable in minutes yet specific enough to catch drift. |
-
 
 ### F.15:4 - Core idea (didactic)
 
@@ -74,14 +70,12 @@ The harness is a **two-part net of assertions**:
 
 All checks are expressed as **judgement schemas** (premises ⊢ conclusion). They **never** prescribe artefact formats, roles, or workflows.
 
-
 ### F.15:5 - Minimal vocabulary (this pattern only)
 
 * **Unification line (L).** The thematic cut you are pursuing (e.g., Enactment + Sensing + Execution).
 * **Check.** A content‑level assertion about Contexts, senses, rows, Role Descriptions, bridges, or windows.
 * **Witness.** A **thoughtful minimal example** that makes a check concrete (e.g., one seed, one bridge pair).
 * **Slice.** The small set of objects under scrutiny together (Contexts in view, the row you’re adding, the Role Description that uses it, and any bridge it needs).
-
 
 ### F.15:6 - Objects under check
 
@@ -94,7 +88,6 @@ All checks are expressed as **judgement schemas** (premises ⊢ conclusion). The
 7. **Windows** — temporal/scale views for a Status family (F.10).
 8. **Aliases** — name continuity commitments (F.13).
 9. **Bundles & SoD** — reuse levers that replace hybrid roles (F.14).
-
 
 ### F.15:7 - Solution overview — the harness as a lattice of checks
 
@@ -131,7 +124,6 @@ The harness arranges checks in three clusters:
 **SCR‑F15‑S6 (Context‑local normal form).**
 `normalize_C(surface)=n ⊢ n used only within C`
 *Reading:* No global normal form at this stage (F.2).
-
 
 ### F.15:9 - SCR — Static conformance rules (S‑Cross)
 
@@ -236,7 +228,6 @@ The harness arranges checks in three clusters:
 7. **SoD guard**
   `SoD(τᵢ ⟂ τⱼ) ⊢ ¬exists Role Description υ that conflates {τᵢ,τⱼ}`  *(S15)*
 
-
 ### F.15:11 - Micro‑witnesses (illustrative)
 
 **11.1 Activity vs Task (PROV‑O ↔ IEC 61131‑3).**
@@ -248,7 +239,6 @@ Local‑Senses: *activity(prov)*, *task(iec)*.
 Contexts: `ITIL 4 (design)`, `SOSA/SSN (run)`.
 Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA\:observation of uptime⟩.
 *Fire:* S9 (row spans ≥2 Contexts), S12 (Bridge kind: *measure-for-target*, CL=3, loss: *sampling bias*), S16 (binding coherence), **S-RoleDesc-SingleCell**.
-
 
 ### F.15:12 - Relations (with other patterns)
 
@@ -263,7 +253,6 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 **Notation.**
 `X@t0` — object X before change • `X@t1` — after change • `Δ(X)=⟨…⟩` — described difference • `same(…) / new(…) / retired(…)` — conceptual status.
 
-
 #### F.15:13.1 - Contexts & editions
 
 **RSCR‑F15‑E1 (No silent replacement).**
@@ -273,7 +262,6 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 **RSCR‑F15‑E2 (Trip‑wire carry‑over).**
 `C@t1 derives from C@t0 ⊢ tripWires(C@t1) ⊇ review(tripWires(C@t0))`
 *Reading:* Known confusions are re‑checked and re‑stated (or explicitly dropped with a sentence why).
-
 
 #### F.15:13.2 - Local‑Senses & SenseCells
 
@@ -285,7 +273,6 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 `SenseCell ⟨C,λ⟩@t0 → @t1 ⊢ context(λ@t1)=C`
 *Reading:* A SenseCell never migrates across Contexts through edits.
 
-
 #### F.15:13.3 - Concept‑Set rows
 
 **RSCR‑F15‑E5 (Row identity).**
@@ -295,7 +282,6 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 **RSCR‑F15‑E6 (Row shrink‑before‑split).**
 `ρ@t1 loses a cell due to edition split ⊢ prefer keep ρ@t0 + add new row ρ' rather than mutating ρ silently`
 *Reading:* When a Context splits meaning, preserve history: **add** instead of rewriting.
-
 
 #### F.15:13.4 - Role Descriptions (Role and Status)
 
@@ -307,7 +293,6 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 `name(τ@t0) → name(τ@t1) ⊢ create alias(name@t0→name@t1) unless semantics changed`
 *Reading:* If only the **name** improves, create an **Alias** (F.13). If semantics change, **mint a new Role Description** instead.
 
-
 #### F.15:13.5 - Bridges
 
 **RSCR‑F15‑E9 (Re‑validate on movement).**
@@ -318,7 +303,6 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 `series of edits turns β(kind≠≡) → β(kind=≡) ⊢ require new witness set`
 *Reading:* Equivalence (≡) is special: it needs a **fresh witness**; you cannot slide into ≡ by minor edits.
 
-
 #### F.15:13.6 - Status windows & SoD
 
 **RSCR‑F15‑E11 (Window stability).**
@@ -328,7 +312,6 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 **RSCR‑F15‑E12 (SoD invariance).**
 `SoD(τᵢ ⟂ τⱼ) @t0 → @t1 ⊢ SoD preserved; no new Role Description conflates τᵢ,τⱼ`
 *Reading:* Separation‑of‑Duties remains in force through changes (F.14).
-
 
 ### F.15:14 - Anti‑patterns the harness catches (and the fix)
 
@@ -342,7 +325,6 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 | **H6** | **SoD bypass**          | Bundle fuses mutually exclusive roles    | Hidden duty conflict                  | **S15/E12** fail → keep roles separate; use Bundle only as reuse map                             |
 | **H7** | **Alias-as-merge**      | Alias used to smuggle semantic change    | Loses history; misleads readers       | **E8** fails → if semantics changed, mint new Role Description; keep old with alias note only for pure rename |
 | **H8** | **CL optimism**         | Most Bridges set to high CL by default   | Over‑trust; brittle reuse             | **E9/E10** → demand witnesses; prefer conservative CL                                            |
-
 
 ### F.15:15 - Worked “dry‑runs” (composite slices)
 
@@ -360,7 +342,6 @@ E7 (**single-cell Role Description**): `AvailabilityStatus` still points to exac
 
 **Pay‑off.** History is preserved; reuse remains safe; acceptance bindings (F.12) still compare anchored things.
 
-
 #### F.15:15.2 - Rename a Role Description without changing meaning
 
 **Slice.** **Role Description** `IncidentStatus`@t0 → `ServiceIncidentStatus`@t1; same SenseCell.
@@ -370,7 +351,6 @@ E8 (**alias‑then‑rename**): create **Alias** `IncidentStatus → ServiceInci
 S8 (**name discipline**): new name fits the suffix rules (F.5).
 
 **Pay‑off.** Readers find both names; semantics untouched.
-
 
 #### F.15:15.3 - Tighten a Bridge (low-CL overlap → equivalence)
 
@@ -382,7 +362,6 @@ S12 (**bridge explicit**): update β(kind=≡, CL=3) with precise scope/loss (�
 
 **Pay‑off.** Equivalence is **scoped and auditable**, not hand‑waved.
 
-
 #### F.15:15.4 - Window misuse detected
 
 **Slice.** Team proposes *PeakHoursAvailabilityStatus* as a new Status type.
@@ -391,7 +370,6 @@ S12 (**bridge explicit**): update β(kind=≡, CL=3) with precise scope/loss (�
 S14/E11 (**window honesty**): reject new type; define a **window** for *peak hours* on `AvailabilityStatus`.
 
 **Pay‑off.** No type explosion; the evaluation logic in F.12 stays uniform.
-
 
 ### F.15:16 - Migration cues (conceptual)
 
@@ -403,7 +381,6 @@ S14/E11 (**window honesty**): reject new type; define a **window** for *peak hou
 6. **Guard SoD early.** When binding composite responsibilities (F.14), check SoD before naming.
 7. **Teach the delta.** When things evolve, write one‑breath deltas (“what changed, why it matters”) as part of the example narrative—no registries implied.
 
-
 ### F.15:17 - Acceptance summary (“Harness green”)
 
 A unification slice is **publish‑ready** when:
@@ -412,7 +389,6 @@ A unification slice is **publish‑ready** when:
 2. **All RSCR (R‑Evo) hold** against the previous snapshot: no silent replacements; rows either unchanged or retired+reborn; Bridges re‑validated with CL non‑inflated without witnesses; windows adjusted only for real variance; SoD intact.
 3. **One micro‑witness per moving part** exists in the text (tiny example showing the check in action).
 4. **Memory rule still holds**: the active Context set for the line fits in a careful mind without external aids (F.1).
-
 
 ### F.15:18 - Didactic distillation (90‑second teaching script)
 

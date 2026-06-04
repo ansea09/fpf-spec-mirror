@@ -6,12 +6,12 @@ section_id: "E.23:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:2 — Problem"
-line_start: 67805
-line_end: 67820
+line_start: 68674
+line_end: 68689
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.23:2 - Problem
 
-Improvement work often borrows loop language without saying what is being improved, which evaluation supplies the values, or what would make another pass worth its cost.
+Improvement work often borrows loop language without saying what is being improved, which evaluation supplies the values, what must not get worse, or what would make another pass worth its cost and risk.
 
 The recurring failures are:
 

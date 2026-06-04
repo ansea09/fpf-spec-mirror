@@ -6,12 +6,12 @@ section_id: "A.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:intro — Intro"
-line_start: 6371
-line_end: 6374
+line_start: 6261
+line_end: 6264
 dependencies:
   - "A.19"
   - "B.4"

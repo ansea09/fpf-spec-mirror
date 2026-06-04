@@ -6,12 +6,12 @@ section_id: "E.23:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__010_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:9 — Consequences"
-line_start: 68088
-line_end: 68101
+line_start: 68956
+line_end: 68969
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -32,10 +32,10 @@ keywords:
 
 | Consequence | Benefit | Cost or guard |
 |---|---|---|
-| Repeated improvement has one FPF method locus. | Process references and local campaign habits no longer carry hidden doctrine. | The loop must not duplicate object-under-improvement evaluation values. |
+| Repeated improvement has one FPF method locus. | Process references and local authoring habits no longer carry hidden doctrine. | The loop must not duplicate object-under-improvement evaluation values. |
 | One-read quality framing stays cheap. | A floor read can close without full-loop apparatus. | Requesters must say when exceptional improvement or repeated absorption is live. |
 | Agentic and classical loop traditions become selectable method families. | Useful practice is available without importing one universal sequence. | Each family needs characteristic-space fit and cost and risk justification. |
-| Row-atomic discharge is separated from quality movement. | Executors can show what changed while reviewers keep value authority. | A re-read is required before coordinate movement is claimed. |
+| Row-atomic discharge is separated from quality movement. | The record can show what changed while the object-under-improvement evaluation keeps value authority. | A re-read is required before coordinate movement is claimed. |
 | Goodhart checks become part of improvement. | Protected trade-offs stay visible when values rise. | Some attractive edits will be rejected or narrowed. |
 | Proposal portfolios can feed improvement without becoming decisions. | Reviews can return many non-dominated improvement rows, including pattern and `DRR` rows, without pretending one row is the only next move. | Selection, generation, selected-set publication, parity, and refresh need exact neighbour exits when those claims become live. |
 | `Q`-side NQD movement is expressible. | A loop can improve a candidate, object version under improvement, or declared transduction result relative to an externally declared comparison set, `SoTA` line, or current front. | `E.23` must not redefine `N`, `D`, archive, front, pool, selected-set, parity, or refresh semantics. |

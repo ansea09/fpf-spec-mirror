@@ -6,12 +6,12 @@ section_id: "B.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:2 — Problem"
-line_start: 30053
-line_end: 30062
+line_start: 30195
+line_end: 30203
 dependencies:
   - "A.1"
   - "A.12"
@@ -40,5 +40,4 @@ Without an explicit MHT pattern, four pathologies recur:
 2. **Identity drift:** A system changes boundary, objective, or supervisory structure, yet the model silently treats it as the “same holon,” corrupting histories (**Γ\_time**) and claims (**B.3**).
 3. **Context leakage:** A composite crosses a **bounded context** (new vocabulary, units, policy), but the model keeps scoring in the old context, inflating **R\_eff** by ignoring **congruence penalties**.
 4. **Order/time confusion:** Genuinely **order‑dependent synergies** (Γ\_ctx/Γ\_method) or **phase consolidations** (Γ\_time) are misrepresented as simple structural sums (Γ\_sys), losing causal and temporal meaning.
-
 

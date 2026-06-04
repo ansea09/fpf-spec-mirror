@@ -6,12 +6,12 @@ section_id: "F.10:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__014_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:13 — Relations"
-line_start: 72155
-line_end: 72169
+line_start: 72859
+line_end: 72872
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -44,5 +44,4 @@ E.10.D1 **D.CTX** (Context discipline); F.1 (Contexts in view); F.2–F.3 (Seeds
 
 **Used by.**
 Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain conformance narrative.
-
 

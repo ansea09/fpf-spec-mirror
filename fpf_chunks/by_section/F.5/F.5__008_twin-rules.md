@@ -6,12 +6,12 @@ section_id: "F.5:7"
 section_title: "Twin rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__008_twin-rules.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:7 — Twin rules"
-line_start: 69935
-line_end: 69942
+line_start: 70732
+line_end: 70738
 dependencies:
   - "A.11"
   - "A.7"
@@ -42,5 +42,4 @@ keywords:
 **Role suffix invariant.** Role Tech names **MUST** end with `Role`; plain twin **MUST** keep “(role)” on first use.
 **No head elision.** Head terms **MUST NOT** be dropped in a way that changes expected Kind (e.g., _“Approval”_ ≠ _“Approver (role)”_).
 **One twin, one context.** At most one plain twin per Context; register in **E.10.P**.
-
 

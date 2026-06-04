@@ -6,12 +6,12 @@ section_id: "A.2.5:14"
 section_title: "Cross‑context adjustments (via Bridges, not imports)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__015_cross-context-adjustments-via-bridges-not-imports.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:14 — Cross‑context adjustments (via Bridges, not imports)"
-line_start: 3824
-line_end: 3854
+line_start: 3776
+line_end: 3805
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -58,5 +58,4 @@ Losses: Metro’s 'Robustness' has no direct Lab counterpart (explicit loss reco
 * `Authorized(AgentialRole@ITIL)` ↔ `Permitted(TransformerRole@IEC)` with **CL=1** and a note: *operational interlock ≠ managerial approval; both required to lift to Ready under our policy.*
 
 > **Payoff.** Bridges keep **local honesty** while enabling **Cross‑context reasoning** with explicit penalties (B.3).
-
 

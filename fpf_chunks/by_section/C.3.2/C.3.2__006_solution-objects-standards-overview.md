@@ -6,12 +6,12 @@ section_id: "C.3.2:5"
 section_title: "Solution — Objects & Standards (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__006_solution-objects-standards-overview.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:5 — Solution — Objects & Standards (overview)"
-line_start: 37772
-line_end: 37785
+line_start: 37789
+line_end: 37801
 dependencies:
   - "C.3.1"
   - "C.3.3"
@@ -37,5 +37,4 @@ keywords:
 * **Intent** lives in **`KindSignature`** (with F).
 * **Extent** is **computed per `slice`** via `MemberOf`.
 * **Applicability** (where a **claim** holds) remains a **Scope** on the claim (USM) and **MUST NOT** be encoded into `KindSignature`.
-
 

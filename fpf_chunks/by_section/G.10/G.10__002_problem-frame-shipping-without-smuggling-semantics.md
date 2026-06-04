@@ -6,12 +6,12 @@ section_id: "G.10:1"
 section_title: "Problem frame — Shipping without smuggling semantics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__002_problem-frame-shipping-without-smuggling-semantics.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:1 — Problem frame — Shipping without smuggling semantics"
-line_start: 80364
-line_end: 80373
+line_start: 80954
+line_end: 80963
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -57,7 +57,7 @@ keywords:
 Part G produces many **kit-governed** and **suite-governed** publications or records (harvest packs, CHR/CAL packs, evidence graphs, bridge calibration records, log bundles, parity reports). Without an explicit **pack-boundary governing definition**, “shipping” tends to become:
 
 * an ad‑hoc folder/export ritual (tool‑locked, not citable), or
-* a silent re‑specification layer (shipping accidentally redefines legality, defaults, or selection semantics), or
+* a silent re-specification step (shipping accidentally redefines legality, defaults, or selection semantics), or
 * a brittle hand‑off that cannot support RSCR/refresh (no actionable pins/editions/policies attached).
 
 `G.10` fixes the pack boundary: it defines the **single, normative shipping surface** for Part‑G outputs — **`SoTA‑Pack(Core)`** — and a minimal choreography for making shipped artefacts **selector‑ready** and **audit‑citable**, while delegating all Part‑G‑wide invariants to `G.Core` (citation/delegation, not restatement).

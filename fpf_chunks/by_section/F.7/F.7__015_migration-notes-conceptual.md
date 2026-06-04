@@ -6,12 +6,12 @@ section_id: "F.7:14"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__015_migration-notes-conceptual.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:14 — Migration notes (conceptual)"
-line_start: 70663
-line_end: 70672
+line_start: 71432
+line_end: 71440
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -42,5 +42,4 @@ keywords:
 4. **Scope promotion.** To use a row for a higher-scope purpose (e.g., from **Naming-only** to **assignment/enactment-eligibility**), first ensure **Row CL(min) ≥ τ(new scope)**; otherwise construct **new Bridges** or **decline** promotion.
 5. **Deprecation.** If a row no longer meets its invariant, mark its FPF label as **retired** in F.5 and point to successor rows (if any).
 6. **Edition churn.** When a Context is superseded (F.1), either keep the cell (if semantics stable) or treat the successor as a **new Context** and re‑evaluate licensability.
-
 

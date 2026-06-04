@@ -6,12 +6,12 @@ section_id: "E.21:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__010_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:9 — Consequences"
-line_start: 67216
-line_end: 67227
+line_start: 68086
+line_end: 68097
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -46,6 +46,6 @@ keywords:
 | Stop decisions become less taste-based and less perfectionist. | Pareto/front reasoning is heavier than a score; use it only when several candidates or trade-offs are live. |
 | SoTA, examples, and neighbour relations become quality-bearing loci. | Reviewers must read beyond headings; `E.19` already selects depth where risk is live. |
 | Pattern improvement aligns with NQD/OEE without forcing one winner prematurely. | The selected front/archive should remain small and scoped to the pattern-quality question. |
-| Activation-normalized coordinates make it harder to raise visible values by adding bureaucracy. | Authors must keep blockers, overlays, evidence/support mechanisms, and coordinates separate; the benefit is that a higher coordinate value cannot silently mean a harder first-use path, stale projection, or corpus-local win with pattern-language loss. |
-| Merged coordinates reduce hidden double weighting. | A weak live subreading limits the coordinate value; do not average subreadings to hide a missing first-use, support, affordability, formal-legality, or corpus-ecology concern. |
+| Activation-normalized coordinates make it harder to raise visible values by adding bureaucracy. | Authors must keep blockers, overlays, coordinate-evidence and project-evidence mechanisms, and coordinates separate; the benefit is that a higher coordinate value cannot silently mean a harder first-use path, stale projection, or corpus-local win with pattern-language loss. |
+| Merged coordinates reduce hidden double weighting. | A weak live subreading limits the coordinate value; do not average subreadings to hide a missing first-use, claim-justification, affordability, formal-legality, or corpus-ecology concern. |
 

@@ -6,12 +6,12 @@ section_id: "B.1.6:7"
 section_title: "Embodiment and dissipation (reporting scheme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__008_embodiment-and-dissipation-reporting-scheme.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:7 — Embodiment and dissipation (reporting scheme)"
-line_start: 29912
-line_end: 29927
+line_start: 30060
+line_end: 30074
 dependencies:
   - "A.12"
   - "A.14"
@@ -44,5 +44,4 @@ Work_B(q) = Embodied_B(q) + Dissipated_B(q)
 ```
 
 This split is **informative**, not a second algebra: Γ\_work always folds the **total** Work; the split is attached in the **Boundary Ledger** for transparency.
-
 

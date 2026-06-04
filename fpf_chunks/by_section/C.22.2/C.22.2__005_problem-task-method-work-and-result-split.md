@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 44034
-line_end: 44055
+line_start: 43958
+line_end: 43979
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,16 +63,16 @@ keywords:
 
 ### C.22.2:4 - Problem, Task, Method, Work, and Result Split
 
-`ProblemCard@Context` is admissible while the method is unknown, contested, not yet selected, or not yet specific enough for downstream work. A known method does not by itself make the problem ready: if the proposed method is known but the problem signal, scope, acceptance probe, or described entity remains unstable, `C.22.2` remains live. If both the problem representation and the method are already accepted and the remaining question is planned execution, exit to `A.15`. The card may carry method-search exits and method-family cues, but it must not present downstream work as already known task execution.
+`ProblemCard@Context` is admissible while the method is unknown, contested, not yet selected, or not yet specific enough for downstream work. A known method does not by itself make the problem ready: if the proposed method is known but the problem signal, scope, acceptance probe, or EntityOfConcern remains unstable, `C.22.2` remains live. If both the problem representation and the method are already accepted and the remaining question is planned execution, exit to `A.15`. The card may carry method-search exits and method-family cues, but it must not present downstream work as already known task execution.
 
 Use this split:
 
-| Term or object | Current FPF reading | Local disposition |
+| Term or object | Current FPF recovery | Local disposition |
 |---|---|---|
-| `Problem` | Problem-side representation of the described entity of concern under context | Center of `C.22.2` only after problem-kind recovery. |
+| `Problem` | Problem-side representation of the selected EntityOfConcern under context | Center of `C.22.2` only after problem-kind recovery. |
 | ProblemCard@Context | Compact problem-side record before P2W | `C.22.2`-governed record shape under `C.22`; stabilizes a problem-side representation under declared context. |
-| ProblemProfile | C.22-facing profile prepared or bound from a problem-side representation when sufficient | Downstream profile anchor; not the card itself and not a work item. |
-| `TaskKind` | Selector-facing task kind in `C.22` | Downstream typed anchor; not a plan item. |
+| ProblemProfile | C.22-facing profile prepared or bound from a problem-side representation when sufficient | Downstream profile reference; not the card itself and not a work item. |
+| `TaskKind` | Selector-facing task kind in `C.22` | Downstream typed selector reference; not a plan item. |
 | `TaskFamilyRef` | Reference to a family of task kinds or method-consumption classes | Used only when current `C.22` selector logic requires it. |
 | `TaskSignature` | Minimal selector-facing signature read for eligibility, acceptance, and selection | May be emitted or bound from `ProblemCard@Context`; must stay minimal. |
 | Method-family selection object | Comparison or selection among method families | Receiving pattern `G.5`; not a problem-card field. |

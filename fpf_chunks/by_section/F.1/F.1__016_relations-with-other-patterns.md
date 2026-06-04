@@ -6,12 +6,12 @@ section_id: "F.1:15"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__016_relations-with-other-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:15 — Relations (with other patterns)"
-line_start: 68778
-line_end: 68794
+line_start: 69625
+line_end: 69640
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,7 +37,7 @@ keywords:
 
 **Builds on:**
 E.10.D1 **Lexical Discipline for “Context” (D.CTX)** — ensures *Context* ≡ *U.BoundedContext* and reserves “Problem Frame” for narrative use.
-A.7 **Strict Distinction** — guards object/description/carrier and DesignRunTag splits while you cut Contexts.
+A.7 **Strict Distinction** — guards EntityOfConcern/Description-episteme/publication-carrier and DesignRunTag splits while you cut Contexts.
 A.11 **Ontological Parsimony** — motivates the small cut.
 
 **Constrains:**
@@ -48,5 +48,4 @@ A.11 **Ontological Parsimony** — motivates the small cut.
 
 **Used by.**
 Extention patterns in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CAL) as the *lexical starting grid* for their examples and definitions.
-
 

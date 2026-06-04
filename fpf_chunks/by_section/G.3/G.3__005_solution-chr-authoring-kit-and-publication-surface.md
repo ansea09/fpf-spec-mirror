@@ -6,12 +6,12 @@ section_id: "G.3:4"
 section_title: "Solution — CHR authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__005_solution-chr-authoring-kit-and-publication-surface.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:4 — Solution — CHR authoring kit and publication surface"
-line_start: 77093
-line_end: 77388
+line_start: 77688
+line_end: 77983
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -75,7 +75,7 @@ GCorePinSetId.PartG.CrossingVisibilityPins
 
 // Pins strengthened for CHR authoring (delta over PinSets)
 CorePinsRequired := {
-// NOTE: `CG-FrameContext`, `describedEntity`, `CNSpecRef.edition`, `CGSpecRef.edition` are already required
+// NOTE: `CG-FrameContext`, `entityOfConcern`, `CNSpecRef.edition`, `CGSpecRef.edition` are already required
 // by `GCorePinSetId.PartG.AuthoringMinimal` (cite, don’t restate here).
 UTSRowId[],                      // required: CHR terms are public ids (Name Cards plus public-id continuity records)
 PathId[]/PathSliceId[],          // required: worked examples/tests and refresh anchoring cite paths
@@ -132,7 +132,7 @@ RSCRTriggerKindId.BaselineBindingEdit
 #### G.3:4.3 - CHR authoring chassis (S1–S8)
 
 **S1 — Charter the measurement scope (scope anchor).**
-Declare the CHR `U.BoundedContext` and scope for the CG‑Frame, including: `describedEntity` boundaries, `ReferencePlane`, freshness/decay expectations, and the list of contested terms likely to require bridging. Output a design‑time `MeasurementCharter` and `KindMap@Context`.
+Declare the CHR `U.BoundedContext` and scope for the CG‑Frame, including: `entityOfConcern` boundaries, `ReferencePlane`, freshness/decay expectations, and the list of contested terms likely to require bridging. Output a design‑time `MeasurementCharter` and `KindMap@Context`.
 If freshness/decay expectations are anything beyond an explicit “non‑decaying” declaration, wire them via
 `G.3:Ext.DecayWiring` (governing pattern: `B.3.4`) rather than encoding decay semantics in CHR prose.
 If assurance‑subtype lane tags are used (e.g., TA/VA/LA), declare the lane regime here so downstream evidence discipline can remain lane‑pure (taxonomy/semantics governed by `B.3`; evidence‑path representation & audit governed by `G.6`; this pattern only records wiring).

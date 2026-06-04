@@ -6,12 +6,12 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__010_anti-patterns-with-fixes.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 17775
-line_end: 17809
+line_start: 17870
+line_end: 17904
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,7 +29,7 @@ dependencies:
   - "F.17"
   - "F.9"
 keywords:
-  - "Object ≠ Description"
+  - "EntityOfConcern ≠ Description episteme"
   - "Role ≠ Work"
   - "category error"
   - "ontology"
@@ -38,7 +38,7 @@ keywords:
 ### A.7:9 - Anti‑patterns (with fixes)
 
 1. **Role‑as‑behaviour** — calling the **role** “the function”.
-   **Fix:** Name the **role** + **Method/Work** pair explicitly.
+   **Fix:** Name the **role**, **Method**, and **Work** explicitly.
 
 2. **Episteme‑as‑system** — “the model routed traffic”.
    **Fix:** Name the **system** (or Transformer as a system bearing AgentialRole) that used the model; list **carriers** touched.
@@ -52,21 +52,21 @@ keywords:
 5. **Set‑as‑collective** — a MemberOf set “decides”.
    **Fix:** Model a **collective system** with coordination Method.
 
-6. **Unanchored evidence** — citing ideas without carriers.
+6. **Evidence without carrier references** — citing ideas without carriers.
    **Fix:** Add **SCR/RSCR** ids; tie claims to carriers.
 
 7. **Holon/system drift** — “holon maintains temperature”.
    **Fix:** Say **system**; reserve “holon” for neutral mereology.
 
-8. **Function/role swap in tables** — columns labelled “Function” but entries are roles.
-   **Fix:** Rename column to **Role**; add a separate **Behaviour (Method/Work)** column.
+8. **Function and role swap in tables** — columns labelled “Function” but entries are roles.
+   **Fix:** Rename column to **Role**; add a separate **Behaviour (Method and Work)** column.
 
 9. **Process‑word leakage** — domain “process” used as FPF operator.
-   **Fix:** Add parenthetical mapping at first use (Method/Work).
+   **Fix:** Add parenthetical mapping at first use (Method and Work).
 
-10. **Carrier/episteme swap** — “we versioned the model” meaning a file was renamed.
+10. **Carrier and episteme swap** — “we versioned the model” meaning a file was renamed.
    **Fix:** State whether the **episteme content** changed; if only a carrier was renamed, say so.
 
-11. **Publication‑as‑mechanism** — modelling “publication” as if it were a Method/Mechanism.
-   **Fix:** Separate **describing/formalising** (`Describe_ID`/`Specify_DS`) from **publication** (MVPK D/S→Surface). If there is operational toil (build, render, upload), model it as **Work** by a **system** on **carriers**; do not change the described entity, the D/S episteme, or the publication relation being surfaced.
+11. **Publication-as-mechanism** — modelling “publication” as if it were a Method or Mechanism.
+   **Fix:** Separate **describing** (`Describe_EoC_DescEp`), specification-use refinement, and **publication** (MVPK Description-episteme-to-publication face, form, unit, carrier, and rendering availability). If there is operational toil (build, render, upload), model it as **Work** by a **system** on **carriers**; do not change the `EntityOfConcern` value, the Description episteme, specification-use gate/refinement, or the publication relation being presented.
 

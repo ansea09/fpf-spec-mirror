@@ -6,12 +6,12 @@ section_id: "A.3.2:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__016_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:15 — Relations"
-line_start: 6352
-line_end: 6359
+line_start: 6244
+line_end: 6250
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -43,5 +43,4 @@ keywords:
 * **Coordinates with:** A.2 `U.Role`, A.2.1 `U.RoleAssignment` (who enacts it); A.2.2 `U.Capability` (ability thresholds); A.15 Role–Method–Work (linking `isExecutionOf` to runs); `C.28` when intervention, target-trial, counterfactual-sampling, simulation, or causal-evidence work is used to support a causal-use claim.
 * **Informs:** `U.WorkPlan` (plans reference MethodDescriptions); `U.Dynamics` (models that specs may assume); Epistemic Role patterns (status of specs RoleStateGraph + State Assertion).
 * **Lexical guards:** E.10.y **L‑PROC** (do not call MethodDescription “process” when you mean Work/WorkPlan); E.10.x **L‑FUNC** (avoid “function/functionality” confusion).
-
 

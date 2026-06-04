@@ -6,12 +6,12 @@ section_id: "C.25:4"
 section_title: "Solution - Q-Bundle normal form"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__005_solution-q-bundle-normal-form.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:4 — Solution - Q-Bundle normal form"
-line_start: 45189
-line_end: 45231
+line_start: 45107
+line_end: 45149
 dependencies:
   - "A.15"
   - "A.16.0"
@@ -65,7 +65,7 @@ Use a **Q-Bundle** when the quality family depends on more than one of the follo
 
 `Q-Bundle := <Name, Carrier, ClaimScope?, WorkScope?, Measures[CHR], QualificationWindow?, Mechanisms?, Status?, Evidence?>`
 
-The pattern adds no new Kernel kind for these slots. It reuses existing kinds and keeps them in one disciplined authoring surface.
+The pattern adds no new Kernel kind for these slots. It reuses existing kinds and keeps them in one disciplined authoring structure.
 
 #### C.25:4.3 - Field roles
 

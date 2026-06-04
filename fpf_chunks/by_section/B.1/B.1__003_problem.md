@@ -6,12 +6,12 @@ section_id: "B.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:2 — Problem"
-line_start: 28162
-line_end: 28173
+line_start: 28379
+line_end: 28389
 dependencies:
   - "A.1"
   - "A.9"
@@ -40,5 +40,4 @@ If each discipline (or project team) invents its own way of “adding things up�
 4. **Emergence as Magic** — genuine synergy (“whole > sum parts”) is indistinguishable from a modelling error.
 
 All four are witnessed in post‑2015 incidents, from micro‑service outages to meta‑analysis retractions.
-
 

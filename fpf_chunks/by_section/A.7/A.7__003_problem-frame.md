@@ -6,12 +6,12 @@ section_id: "A.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:2 — Problem frame"
-line_start: 17420
-line_end: 17428
+line_start: 17569
+line_end: 17579
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,7 +29,7 @@ dependencies:
   - "F.17"
   - "F.9"
 keywords:
-  - "Object ≠ Description"
+  - "EntityOfConcern ≠ Description episteme"
   - "Role ≠ Work"
   - "category error"
   - "ontology"
@@ -37,10 +37,12 @@ keywords:
 
 ### A.7:2 - Problem frame
 
-* **Holons (A.1) and systems.** All holons are part/whole units; **only systems** can enact behaviour.
+* **Holons (A.1) and systems.** All holons are part-whole units; **only systems** can enact behaviour.
 * **Externalization (A.12).** Every change is performed by a **system bearing TransformerRole** across a boundary; there is no “self‑magic”.
-* **Quartet backbone (A.3, A.15).** We separate **MethodDescription** (description), **Method** (**capability under a role**), and **Work** (run‑time occurrence), with the **system bearing TransformerRole** as the acting side.
-* **Evidence (A.10).** Knowledge claims are anchored via **Symbol‑Carrier Register (SCR)**; epistemes never “act”; systems inspect, revise, publish, store, or rely on the carriers, publication forms, and project records that make an episteme available.
+* **Quartet backbone (A.3, A.15).** We separate **MethodDescription** (description), **Method** (abstract way-of-doing), **Capability** (a system's ability or envelope to enact a Method under conditions), and **Work** (run‑time occurrence), with the **system bearing TransformerRole** as the acting side.
+* **Evidence (A.10).** Knowledge claims cite **Symbol-Carrier Register (SCR)** carriers; epistemes never “act”; systems inspect, revise, publish, store, or rely on the carriers, publication forms, and project records that make an episteme available.
 
-Manager’s reading: if a sentence could be read as “the document decided” or “the process executed itself”, it violates A.7.
+Practitioner check: if a sentence could be read as “the document decided” or “the process executed itself”, it violates A.7.
+
+Boundary for use from other patterns: A.7 restores the `EntityOfConcern`, the admissible describing relation, and the publication boundary, then returns the work to the subject pattern. Do not let A.7 turn an architecture, structure, work, method, evidence, characterization, or decision question into a general discussion of descriptions. If the `EntityOfConcern` is itself a Description episteme or view, keep the pattern centered on that episteme as the item under concern; description-of-description or publication-force issues open only when they are the exact live claim.
 

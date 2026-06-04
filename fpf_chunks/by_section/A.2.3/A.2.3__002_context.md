@@ -6,12 +6,12 @@ section_id: "A.2.3:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__002_context.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:1 — Context"
-line_start: 2559
-line_end: 2582
+line_start: 2538
+line_end: 2560
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -68,8 +68,7 @@ In the Role–Method–Work alignment, the **promise content** must say somethin
 
 The lexical forms *service/service‑level/service use/service access* (and the adjacent cluster *service provider*, *server*) are **ambiguous** across domains. In the kernel, **`U.PromiseContent`** is reserved for promise content only and is written in prose as a **promise content**.
 
-Normative prose therefore SHALL treat the bare head noun **service** as **always‑unpack** (PTG=Guarded): every head‑noun occurrence MUST be rewritten to a facet head phrase (promise content, service provider principal, service access point, service delivery system, and so on) or to the correct underlying described entity or project-side FPF kind (team, ticket, endpoint host, procedure, work item), per **A.6.8 (RPR‑SERV)**.
+Normative prose therefore SHALL treat the bare head noun **service** as **always‑unpack** (PTG=Guarded): every head‑noun occurrence MUST be rewritten to a facet head phrase (promise content, service provider principal, service access point, service delivery system, and so on) or to the correct underlying EntityOfConcern or project-side FPF kind (team, ticket, endpoint host, procedure, work item), per **A.6.8 (RPR‑SERV)**.
 
 E.10’s lexical anchor **L‑SERV** SHOULD be implemented as “pointer + lint rule” to A.6.8: the short rule names the hazard, while A.6.8 provides the full rewrite recipe and the facet head phrase set.
-
 

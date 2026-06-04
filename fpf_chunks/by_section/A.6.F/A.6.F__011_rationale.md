@@ -6,12 +6,12 @@ section_id: "A.6.F:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:10 — Rationale"
-line_start: 13868
-line_end: 13875
+line_start: 13709
+line_end: 13716
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "A.6.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.M"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -39,6 +40,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
+  - "E.10.ARCH"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -57,9 +59,9 @@ keywords:
 
 ### A.6.F:10 - Rationale
 
-Function-like wording is too useful to ban and too overloaded to leave ungoverned. The smallest useful repair is not a new ontology. It is carrier assignment: say what kind of thing the phrase is about, what it is not about, and what move remains admissible.
+Function-like wording is too useful to ban and too overloaded to leave ungoverned. The smallest useful repair is not a new ontology. It is exact-kind or relation assignment: say what FPF kind, relation, claim record, view, or receiving-pattern application the phrase is about, what it is not about, and what move remains admissible.
 
-This design follows A.6.P: trigger phrase, carrier recovery, explicit relation fields and exact governing pattern fields, and lexical guardrails. It also follows C.30: functional architecture is selected structure for a described holon, not a peer of architecture and not a TGA graph by itself.
+This design follows A.6.P: trigger phrase, exact-kind or relation recovery, explicit relation fields and exact governing pattern fields, and lexical guardrails. It also follows C.30: functional architecture is selected structure for a described holon, not a peer of architecture and not a TGA graph by itself.
 
-The pattern keeps ordinary language alive. A phrase can remain Plain when it carries no live FPF claim. When it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind, the carrier and exact governing pattern application are recoverable.
+The pattern keeps ordinary language alive. A phrase can remain Plain when it carries no live FPF claim. When it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind, the exact FPF kind, relation, claim record, view, or receiving-pattern application and exact governing pattern application are recoverable.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:4"
 section_title: "Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-stable-lens-sense-family-slots-normal-form-change-lexicon-guardrails.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
-line_start: 12949
-line_end: 13319
+line_start: 12791
+line_end: 13161
 dependencies:
   - "A.15"
   - "A.16"
@@ -47,7 +47,7 @@ keywords:
 
 #### A.6.A:4.0 - Trigger rule
 
-A use of affordance / action-first language is in scope for A.6.A when any of the following holds:
+A use of affordance-like or action-first language is in scope for A.6.A when any of the following holds:
 
 * the prose uses tokens such as **affords**, **invites**, **calls for**, **actionable**, **ready for**, **ripe for**, **natural next step**, **the model wants**, **the interface tells**, **this problem asks for**;
 * a boundary, gate, incident note, design note, or review note uses such language for admission, selection, triage, or action guidance;
@@ -66,7 +66,7 @@ When the trigger fires, authors SHOULD follow the A.6.P repair path:
    Enumerate plausible candidate interpretations, including:
 
    * candidate **relation families** (`actionInvitation` vs `evaluativeAscription` vs capability claim vs commitment vs work occurrence),
-   * candidate **site lane maps** over A.7 (`Object | Description | Carrier`),
+   * candidate **site classification over the EntityOfConcern and Description-episteme boundary**, with publication or carrier participation stated separately when live,
    * candidate **would-be enactor lanes**,
    * candidate **action tuples**.
 
@@ -76,35 +76,34 @@ When the trigger fires, authors SHOULD follow the A.6.P repair path:
    Pick one `ActionInvitationSense` token and state why rivals were rejected in this local context.
 
 4. **Emit a slot-explicit rewrite.**
-   Rewrite the sentence into one explicit `actionInvitation(...)` record with site, would-be enactor, candidate action, coupling frame, detector/viewpoint, normal form, and qualifiers.
+   Rewrite the sentence into one explicit `actionInvitation(...)` record with site, would-be enactor, candidate action, coupling frame, detector and viewpoint when live, normal form, and qualifiers.
 
 5. **Route boundary-bearing consequences.**
-   If the repaired statement is used for admissibility, commitments, publication, automation, or evidence-bearing decisions, route the downstream hooks through **A.6.B** and, where enactment is implied, through **A.15**, instead of letting the vague action-first phrase carry the required support by itself.
+   If the repaired statement is used for admissibility, commitments, publication, automation, or evidence-bearing decisions, route the downstream hooks through **A.6.B** and, where enactment is implied, through **A.15**, instead of letting the vague action-first phrase carry evidence, admissibility, gate, or decision consequences by itself.
 
 #### A.6.A:4.1 - Post-threshold lens: action-invitation classification anchored by `actionInvitation(...)`
 
-A.6.A stabilises the ambiguity cluster by treating in-scope post-threshold affordance/action-first statements as **qualified action-oriented content that must publish an explicit action-invitation normal form and declared downstream classification**, not as bare adjectives or rhetorical verbs.
-Early action-guiding cue content may remain in `A.16.1` / `B.4.1` as cue-pack content, a `RoutedCueSet`, or another typed route-bounded upstream publication before this pattern is entered.
-`A.6.A` is therefore entered only once local `AE` is high enough to name site / enactor / action structure explicitly and local `CD` is high enough that one invitation reading is worth publishing as a relation record rather than remaining cue-pack or route-candidate content. If the admissible publication is still a cue pack, routed cue, or open abductive prompt, stay in `A.16.1` / `B.4.1` / `B.5.2.0`.
-If a published `actionInvitation(...)` later loses that minimal articulation/closure support, retreat via `A.16.2` rather than leaving a stale invitation record in force.
+A.6.A stabilises the ambiguity cluster by treating in-scope post-threshold affordance-like or action-first statements as **qualified action-oriented content that must publish an explicit action-invitation normal form and declared downstream classification**, not as bare adjectives or rhetorical verbs.
+Early action-guiding cue content may remain in `A.16.1` or `B.4.1` as cue-pack content, a `RoutedCueSet`, or another typed route-bounded upstream publication before this pattern is entered.
+`A.6.A` is therefore entered only once local `AE` is high enough to name site, enactor, and action structure explicitly and local `CD` is high enough that one invitation interpretation is worth publishing as a relation record rather than remaining cue-pack or route-candidate content. If the admissible publication is still a cue pack, routed cue, or open abductive prompt, stay in `A.16.1`, `B.4.1`, or `B.5.2.0`.
+If a published `actionInvitation(...)` later loses those minimal articulation and closure conditions, retreat via `A.16.2` rather than leaving a stale invitation record live.
 
 In A.6.P terms, this pattern fixes one post-threshold relation family and one downstream classification discipline:
-* **`actionInvitation`** — the explicit post-threshold relation kind for affordance, invitation, control-opportunity, probe-move, and closure-advance rewrites once the cue/content is articulated enough to publish a relation record.
+* **`actionInvitation`** — the explicit post-threshold relation kind for affordance, invitation, control-opportunity, probe-move, and closure-advance rewrites once the cue or content is articulated enough to publish a relation record.
 
 #### A.6.A:4.1a - RelationKind specification skeleton for `actionInvitation`
-
 
 The family-specific `RelationKind` token is **`actionInvitation`**.
 Its relation specification publication SHALL declare, at minimum:
 
 * **(L)** applicability in the local Context or plane set;
-* **(L)** site-centred polarity: the relation is about a **site/situation** inviting a candidate action **for** an enactor; it SHALL NOT be silently rewritten as a monadic property of an object alone;
+* **(L)** site-centred polarity: the relation is about a **site or situation** inviting a candidate action **for** an enactor; it SHALL NOT be silently rewritten as a monadic property of a site participant alone;
 * **(L)** participant SlotSpecs for site, invited enactor, candidate action, sense, coupling frame, and normal-form positions;
-* **(A)** repair paths for site-kind and enactor-kind mismatches: explicit narrowing, `KindBridge`, and/or `retargetSite(...)` / `retargetInvitedEnactor(...)`;
+* **(A)** repair paths for site-kind and enactor-kind mismatches: explicit narrowing, `KindBridge`, `retargetSite(...)`, `retargetInvitedEnactor(...)`, or a stated combination of these repairs when several mismatch conditions are live;
 * **(L)** qualifier expectations for `scope`, `Γ_time`, `viewpoint`, `view`, `representationSubstrate`, `bridgeRef`, and (when relevant) `articulationHint`;
-* **(D)** detector/enactor separation discipline: the perceiver or detector SHALL NOT be silently collapsed into the invited enactor when they differ;
+* **(D)** detector and invited-enactor separation discipline: the perceiver or detector SHALL NOT be silently collapsed into the invited enactor when they differ;
 * **(D)** obligation barrier: invitation language SHALL NOT be silently rewritten as duty language;
-* **(A/E)** witness discipline for decision/publication/automation lanes;
+* **(A/E)** witness discipline for decision, publication, and automation lanes;
 * **(L/A)** admissible semantic change classes and edition-fence expectations;
 * **(A/E)** cross-context and cross-plane policy when reuse is claimed.
 
@@ -114,7 +113,8 @@ Each in-scope occurrence SHALL be representable as a pattern-specific **Qualifie
 `⟨`
 `  relationKind             : actionInvitation,`
 `  siteTuple                : …,`
-`  siteFacetMap?            : tuple-member ↦ (Object | Description | Carrier),`
+`  siteClassification?      : tuple-member -> EntityOfConcern ref, Description episteme ref, or non-claim-bearing site kind,`
+`  publicationOrCarrierParticipation? : publication face, publication form, carrier, rendering, or none,`
 `  invitedEnactorTuple      : …,`
 `  candidateActionTuple     : …,`
 `  actionInvitationSense    : ActionInvitationSense,`
@@ -139,11 +139,11 @@ Within the scope of A.6.A it must be rewritten into an explicit `actionInvitatio
 The stable intermediate lens is the `actionInvitation(...)` relation; the sense token refines **what kind of invitation** is being published.
 
 **P2W docking note.**
-`candidateActionTuple` names the invited move as relation content. It is not an actual `U.Work` occurrence, not a `U.WorkPlan`, not a `U.MethodDescription`, and not a selected method. When the publication needs intended work, planned work, actual work, method selection, work result, or result measurement, it docks to `A.15` / `A.15.1` / `A.15.2` instead of stretching `actionInvitation(...)`.
+`candidateActionTuple` names the invited move as relation content. It is not an actual `U.Work` occurrence, not a `U.WorkPlan`, not a `U.MethodDescription`, and not a selected method. When the publication needs intended work, planned work, actual work, method selection, work result, or result measurement, it docks to `A.15`, `A.15.1`, or `A.15.2` instead of stretching `actionInvitation(...)`.
 
-**A.7 lane note.**
-`siteFacetMap` uses only the A.7 lane distinction `Object | Description | Carrier`.
-If a `PublicationSurface` / `InteropSurface` participates, declare it separately under **A.7 / L-SURF** rather than widening the lane set with a generic `Surface` token.
+**A.7 boundary note.**
+`siteClassification` uses the EntityOfConcern and Description-episteme boundary: the site member is either an EntityOfConcern-side participant, a Description episteme participant, or a non-claim-bearing site kind named directly.
+If a publication face, publication form, interop publication form, carrier, or rendering participates, declare it in `publicationOrCarrierParticipation` under A.7 and publication-face and publication-form discipline rather than widening the site classification with a generic quoted `Surface` token.
 
 **Separation note.**
 `detector` and `invitedEnactor` are not synonyms.
@@ -153,7 +153,7 @@ When both matter, they SHALL be published separately.
 When `invitedEnactorTuple` is published as an actual would-be enactor, it SHALL resolve to a `U.System` or to a role assignment whose holder is a `U.System`. An episteme, description, publication face, or carrier may participate in the **site**, but not as the acting bearer.
 
 **Episteme non-agency note.**
-If the site is a Description/Episteme, any later enactment still occurs on carriers and/or target systems; the description itself never acts.
+If the site is a Description episteme, any later enactment still occurs through carriers, acted-on systems, or both; the description itself never acts.
 
 #### A.6.A:4.2 - Core construct: `ActionInvitationSense`
 
@@ -193,9 +193,9 @@ Where:
 
 A.6.A carries `articulationHint` only as a **local alias field**.
 
-This field is deliberately **not** a new formality progression, **not** a maturity scale, and **not** a surrogate for **F**. Its only job is to preserve local articulation / closure cues until they are docked to `A.16` move logic and the explicit `C.2.4` / `C.2.5` governing facets.
+This field is deliberately **not** a new formality progression, **not** a maturity scale, and **not** a surrogate for **F**. Its only job is to preserve local articulation and closure cues until they are docked to `A.16` move logic and the explicit `C.2.4` and `C.2.5` governing facets.
 
-Local `articulationHint` tokens SHALL dock to `A.16` move logic and to the explicit `C.2.4` / `C.2.5` governing facets one-for-one, and A.6.A SHALL treat them as aliases or publication conveniences only.
+Local `articulationHint` tokens SHALL dock to `A.16` move logic and to the explicit `C.2.4` and `C.2.5` governing facets one-for-one, and A.6.A SHALL treat them as aliases or publication conveniences only.
 Until then, local hints SHALL NOT be thresholded, aggregated, or compared across Contexts.
 
 #### A.6.A:4.3 - Normative starter set of sense families
@@ -203,31 +203,31 @@ A Context MAY add local senses, but the following starter set is normative as th
 
 | `ActionInvitationSense` token | Use when the action-first phrase means…                                                     |            Default normal form | Typical substrate                                    | Must **not** be silently collapsed into                  |
 | ----------------------------- | ------------------------------------------------------------------------------------------- | -----------------------------: | ---------------------------------------------------- | -------------------------------------------------------- |
-| `AIS.PhysicalAffordance`      | a physical/environmental configuration offers a bodily action to an embodied agent          |    `CuePack` or `ActionOption` | `ecological-world-coupled` or `embodied-kinesthetic` | object property alone, generic capability, executed work |
-| `AIS.InterfaceAffordance`     | an interface face, operator panel, alarm, or publication face presents an operator move | `ActionOption` or `PolicyHook` | `symbolic-local` or `hybrid`                         | duty/commitment, execution log                           |
+| `AIS.PhysicalAffordance`      | a physical or environmental configuration offers a bodily action to an embodied agent       |    `CuePack` or `ActionOption` | `ecological-world-coupled` or `embodied-kinesthetic` | site-participant property alone, generic capability, executed work |
+| `AIS.InterfaceAffordance`     | an interface face, operator panel, alarm, or publication face presents an operator move | `ActionOption` or `PolicyHook` | `symbolic-local` or `hybrid`                         | duty or commitment, execution log                           |
 | `AIS.SocialAffordance`        | another agent or social situation invites a response or coordination move                   |    `CuePack` or `ActionOption` | `embodied-kinesthetic` or `hybrid`                   | role assignment itself, deontic commitment               |
 | `AIS.EpistemicProbe`          | a problem situation invites asking, contrasting, measuring, testing, or instrumenting       |  `ActionOption` or `OptionSet` | `hybrid`                                             | explanatory merit, evidence claim, finished method       |
 | `AIS.ClosureAdvance`          | a situation invites naming, rescoping, proxy declaration, or formalization toward closure   |                 `ActionOption` | `symbolic-local` or `hybrid`                         | Formality **F**, acceptance status, quality ascription   |
-| `AIS.LatentPolicyCue`         | a learned/distributed state carries an action-oriented tendency not yet locally articulated |       `CuePack` or `OptionSet` | `latent-distributed` or `hybrid`                     | explicit rationale, control adequacy, quality score      |
-| `AIS.ControlOpportunity`      | a closed-loop state invites brake / rollback / replan / isolate / escalate / override       |    `OptionSet` or `PolicyHook` | `hybrid`                                             | bare “model wants”, obligation, work occurrence          |
+| `AIS.LatentPolicyCue`         | a learned or distributed state carries an action-oriented tendency not yet locally articulated |       `CuePack` or `OptionSet` | `latent-distributed` or `hybrid`                     | explicit rationale, control adequacy, quality claim      |
+| `AIS.ControlOpportunity`      | a closed-loop state invites braking, rollback, replanning, isolation, escalation, or override |    `OptionSet` or `PolicyHook` | `hybrid`                                             | bare “model wants”, obligation, work occurrence          |
 
 **Normative rewrite note.**
 
-* In **ecological / embodied** contexts, bare *affords* SHALL rewrite to **`AIS.PhysicalAffordance`** unless another sense is explicitly declared.
-* In **interface / alarm / operator-panel** contexts, bare action-first phrasing SHALL rewrite to **`AIS.InterfaceAffordance`** and/or **`AIS.ControlOpportunity`**.
-* In **epistemic exploration** contexts, “this suggests probing / formalizing / reframing” SHALL rewrite to **`AIS.EpistemicProbe`** and/or **`AIS.ClosureAdvance`**.
-* In **learned world-model / active-inference / policy** contexts, bare “the model wants / the state suggests” SHALL rewrite to **`AIS.LatentPolicyCue`** and/or **`AIS.ControlOpportunity`**, with the distinction made explicit.
-* If the sentence is chiefly about **better / worse / fit / merit**, use **C.16.Q** instead of A.6.A.
+* In **ecological and embodied** contexts, bare *affords* SHALL rewrite to **`AIS.PhysicalAffordance`** unless another sense is explicitly declared.
+* In **interface, alarm, or operator-panel** contexts, bare action-first phrasing SHALL rewrite to **`AIS.InterfaceAffordance`**, **`AIS.ControlOpportunity`**, or both when both senses are live.
+* In **epistemic exploration** contexts, "this suggests probing, formalizing, or reframing" SHALL rewrite to **`AIS.EpistemicProbe`**, **`AIS.ClosureAdvance`**, or both when both senses are live.
+* In **learned world-model, active-inference, or policy** contexts, bare "the model wants" or "the state suggests" SHALL rewrite to **`AIS.LatentPolicyCue`**, **`AIS.ControlOpportunity`**, or both when both senses are live, with the distinction made explicit.
+* If the sentence is chiefly about **better, worse, fit, or merit**, use **C.16.Q** instead of A.6.A.
 
 #### A.6.A:4.4 - Required slots for a conforming `actionInvitation`
 
 A conforming `actionInvitation` SHALL make explicit:
 
-1. **Site tuple and site-facet docking.**
-   Site tuple members: entity, scene, interface element or front-end element, description episteme, carrier, episode, or control state - with per-member A.7 lane annotations when the tuple is mixed.
+1. **Site tuple and site classification.**
+   Site tuple members: named EntityOfConcern, scene, interface element or front-end element, Description episteme, episode, control state, or non-claim-bearing site kind - with publication or carrier participation stated separately when live.
 
 2. **Invited enactor tuple.**
-   Which system / collective system / role-holder is invited to act.
+   Which `U.System`, collective system, or role assignment whose holder is a `U.System` is invited to act.
 
 3. **Candidate action tuple.**
    What action is being invited.
@@ -236,10 +236,10 @@ A conforming `actionInvitation` SHALL make explicit:
    Which action-oriented family is intended.
 
 5. **Coupling frame.**
-   The relation-basis under which the invitation is published.
+   The live coupling relation and admissible-use boundary under which the invitation is published.
    Examples: reach envelope, interface state, incident horizon, control horizon, probe pack, open issue set.
 
-6. **Detector and/or viewpoint.**
+6. **Detector, viewpoint, or both.**
    Who or what detected the cue, and under which viewpoint it is published.
 
 7. **Normal form and `articulationHint`.**
@@ -251,7 +251,7 @@ A conforming `actionInvitation` SHALL make explicit:
 9. **Representation substrate when relevant.**
    Especially when comparing ecological, embodied, latent-distributed, and symbolic-local treatments.
 
-10. **Witness / evidence mode.**
+10. **Witness mode and evidence references.**
     Exemplars, sensory traces, probe notes, kinematic data, interface events, controller traces, run logs, or review notes.
 
 #### A.6.A:4.5 - Normal-form discipline
@@ -268,7 +268,7 @@ A conforming `CuePack` publishes:
 
 * exemplar or contrast episodes, sensory traces, or probe cues,
 * site conditions,
-* enactor profile or enactor constraints,
+* enactor descriptor or enactor constraints,
 * a small gloss set of candidate actions,
 * optional ordinal urgency or salience summaries,
 * explicit warning that the cue is **not yet** a commitment, a selected method, a gate, or work,
@@ -280,10 +280,10 @@ Use when one candidate action tuple is explicit.
 A conforming `ActionOption` publishes:
 
 * one candidate action tuple,
-* invited enactor / role,
+* invited enactor and role assignment when live,
 * local guard sketch,
 * expected near-field effect,
-* optional `U.Method` / `U.MethodDescription` / `U.WorkPlan` refs when those already exist in-context,
+* optional `U.Method`, `U.MethodDescription`, or `U.WorkPlan` refs when those already exist in-context,
 * explicit note that the option is **not yet selected**, **not yet obligatory**, and **not yet executed**.
 
 **ANF-3 — `OptionSet`.**
@@ -301,9 +301,9 @@ Use when the invitation is explicitly bound to an existing controller, gate, pla
 
 A conforming `PolicyHook` publishes:
 
-* referenced policy, method, gate, and protocol ids (pre-existing governing FPF patterns or `authoritySourceRef` targets only),
+* referenced policy, method, gate, and protocol ids (pre-existing governing FPF patterns or `authoritySourceRef` named sources only),
 * applicable guard or trigger conditions,
-* accountable role or `authoritySourceRef` target,
+* accountable role or `authoritySourceRef` named source,
 * escalation or override references when relevant,
 * explicit note that the hook is a **binding publication** over existing semantics, not itself a commitment, an admissibility rule, or a work occurrence.
 
@@ -311,11 +311,11 @@ A conforming `PolicyHook` publishes:
 
 A.6.A SHALL prevent the collapse of action invitation language into neighbouring families.
 
-* A statement about **better / worse / fit / merit** belongs to **C.16.Q**.
-* A statement about **what a system can do in general** belongs to capability / method description.
-* A statement about **what must be done** belongs to **A.6.B** (`A-*` / `D-*`).
-* A statement about **what was actually done** belongs to **A.15 / U.Work**.
-* If an invitation targets a description/episteme, any later enactment still occurs on symbol carriers and/or target systems; the description itself never acts.
+* A statement about **better, worse, fit, or merit** belongs to **C.16.Q**.
+* A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the exact receiving kind.
+* A statement about **what must be done** belongs to **A.6.B** with A-classified or D-classified claims as live.
+* A statement about **what was actually done** belongs to **A.15** and `U.Work`.
+* If an invitation points to a Description episteme, any later enactment still occurs through symbol carriers, acted-on systems, or both; the description itself never acts.
 * Mixed sentences that carry both evaluative and invitational content SHALL be split into `evaluativeAscription(...)` and `actionInvitation(...)` records, with explicit cross-references when the co-occurrence matters.
 
 Mixed sentences SHALL be split.
@@ -324,7 +324,7 @@ Examples:
 
 * “This scene is good for grasping” may require **both** `evaluativeAscription(...)` and `actionInvitation(...)`.
 * “This alarm requires rollback” is **not** an admissible final affordance record; it needs explicit gate or duty classification.
-* “The robot can grasp this handle” is a capability claim unless the situated site/actor/frame and invitation are made explicit.
+* “The robot can grasp this handle” is a capability claim unless the situated site, enactor, coupling frame, and invitation are made explicit.
 * “The operator clicked rollback” is work, not invitation.
 
 #### A.6.A:4.7 - Bridge discipline across traditions
@@ -376,35 +376,35 @@ A silent move from invitation to commitment, capability, or work is a breaking s
 
 When an action invitation becomes boundary-bearing, classify it explicitly:
 
-* **L** — `actionInvitation` relation specification skeleton, `ActionInvitationSense` semantics, normal-form admissibility, actor/site discipline, bridge stances.
+* **L** — `actionInvitation` relation specification skeleton, `ActionInvitationSense` semantics, normal-form admissibility, enactor and site discipline, bridge stances.
 * **A** — admissibility conditions for using the invitation in selector, triage, automation, or publication lanes.
-* **D** — duties on authors, operators, or stewards of the named source with authority-reference relation: lexical firewall, naming the invited actor, naming the hook `authoritySourceRef` target, naming override paths where required.
+* **D** — duties on authors, operators, or stewards of the named source with authority-reference relation: lexical firewall, naming the invited actor, naming the hook `authoritySourceRef` source, naming override paths where required.
 * **E** — carrier-anchored witnesses: sensory traces, interface events, probe notes, controller logs, run traces, incident records.
 
-Do not let bare action-first language carry L/A/D/E force by itself.
+Do not let bare action-first language carry L-, A-, D-, or E-classified claims, admissible-use consequences, or evidence consequences by itself.
 
 #### A.6.A:4.9 - Lexical guardrails
 
-In **Tech / normative prose**:
+In **Tech prose and normative prose**:
 
-* bare **affords / invites / calls for / actionable / ready for / ripe for / natural next step / the model wants / the interface tells** MUST NOT appear without immediate repair;
-* **actionable insight** MUST be rewritten to `ActionOption` / `OptionSet` / `PolicyHook`, or to **C.16.Q** if the use is primarily evaluative;
-* **affordance** MUST NOT be treated as a monadic property of an object without actor, site, and frame;
+* bare **affords, invites, calls for, actionable, ready for, ripe for, natural next step, the model wants, or the interface tells** MUST NOT appear without immediate repair;
+* **actionable insight** MUST be rewritten to `ActionOption`, `OptionSet`, or `PolicyHook`, or to **C.16.Q** if the use is primarily evaluative;
+* **affordance** MUST NOT be treated as a monadic property of a site participant without enactor, site, and coupling frame;
 * an invitation MUST NOT be presented as if it were already a duty, gate, or work occurrence;
 * a latent policy cue MUST NOT be presented as if it were already an explanation;
-* `articulationHint` MUST NOT be read as **F**, as acceptance status, or as a replacement for `A.16` anchors;
-* generic `Surface` facet tokens MUST NOT be introduced inside A.6.A; `PublicationSurface`/`InteropSurface` participation must be declared under **A.7 / L-SURF**, not by widening the A.7 lane set;
+* `articulationHint` MUST NOT be treated as **F**, as acceptance status, or as a replacement for `A.16` anchors;
+* generic `Surface` facet tokens MUST NOT be introduced inside A.6.A; publication face, publication form, interop publication form, carrier, or rendering participation must be declared under A.7 and publication-face and publication-form discipline, not by widening the site classification;
 * hidden enactor language inside adjectives such as *graspable*, *deployable*, *actionable*, *ready* SHALL be unpacked;
 * quoted metalinguistic uses are allowed, but SHALL be marked as token-under-discussion.
 
 #### A.6.A:4.10 - Progressive elaboration
 
-A.6.A supports monotone elaboration:
+A.6.A allows monotone elaboration:
 
 1. Start by selecting an `ActionInvitationSense` and recording rival candidates when ambiguity is live.
 2. Declare site, would-be enactor, action, frame, and site-facet docking.
 3. Choose an admissible normal form and a local `articulationHint` when omission would hide articulation state.
-4. Add guards, method/policy hooks, and witness bindings.
+4. Add guards, method hooks, policy hooks, and witness bindings.
 5. If a `CuePack` or `ActionOption` is projected into `OptionSet` or `PolicyHook`, or docked to **C.16.Q**, **A.6.B**, or the relevant **A.15** pattern or lane, publish an explicit projection or operationalization note rather than silently upgrading the invitation.
 6. Add bridges and loss notes if traditions are compared.
 7. If the invitation becomes boundary-bearing, emit the relevant L, A, D, and E decomposition hooks and, where enactment is implied, apply the relevant A.15 pattern or lane.
@@ -412,5 +412,5 @@ A.6.A supports monotone elaboration:
 
 #### A.6.A:4.10a - Endpoint-first downstream discipline
 
-If a repaired phrase already names an admissible downstream `authoritySourceRef`, `governingPatternRef`, or P2W lane such as a gate hook, method reference, `U.WorkPlan` / `U.WorkPlanning` plan record, or `U.Work` occurrence, authors SHOULD publish that downstream reference or P2W lane directly and keep `actionInvitation(...)` only as the preceding repair record when the invitation semantics themselves still matter. `actionInvitation(...)` is therefore a post-threshold invitation record, not a shadow substitute for `A.6.B`, `A.15`, or gate-governing patterns.
+If a repaired phrase already names an admissible downstream `authoritySourceRef`, `governingPatternRef`, or P2W lane such as a gate hook, method reference, `U.WorkPlan`, `U.WorkPlanning` plan record, or `U.Work` occurrence, authors SHOULD publish that downstream reference or P2W lane directly and keep `actionInvitation(...)` only as the preceding repair record when the invitation semantics themselves still matter. `actionInvitation(...)` is therefore a post-threshold invitation record, not a shadow substitute for `A.6.B`, `A.15`, or gate-governing patterns.
 

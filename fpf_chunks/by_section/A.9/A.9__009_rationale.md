@@ -6,12 +6,12 @@ section_id: "A.9:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__009_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:8 — Rationale"
-line_start: 18080
-line_end: 18091
+line_start: 18161
+line_end: 18171
 dependencies:
   - "A.1"
   - "A.8"
@@ -35,5 +35,4 @@ keywords:
 * **Lean improvement** ‑ MONO underpins Kaizen: fix a bottleneck, never worsen the plant.
 
 Packaging these insights as one memorisable quintet → **Cognitive Elegance** with formal bite.
-
 

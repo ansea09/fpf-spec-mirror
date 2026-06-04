@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.4.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
-line_start: 38177
-line_end: 38410
+line_start: 38176
+line_end: 38399
 dependencies:
   - "C.3.1"
   - "C.3.2"
@@ -24,7 +24,6 @@ keywords:
 ## C.3.4 - RoleMask — Contextual Adaptation of Kinds (without cloning)
 
 > **One‑line summary.** Defines **`U.RoleMask(kind, Context)`** as a **context‑local adaptation** of a `U.Kind` that (a) adds **constraints** and/or **vocabulary bindings**, and (b) may **narrow** membership **deterministically** within a `U.ContextSlice`, **without creating a new kind**. RoleMasks are catalogued, versioned, and guard‑addressable; frequent, stable constraint masks **SHOULD be promoted** to explicit **subkinds**. Cross‑context use of a RoleMask requires a **KindBridge** (for kinds) and, when needed, a **MaskAdapter** (for mask constraints). All penalties route to **R**; **F/G** remain unchanged.
-
 
 **Status.** Normative in **Part C**. Identifier **C.3.4**.
 **Audience.** Engineering managers, architects, reviewers, editors.
@@ -53,11 +52,9 @@ If each team clones a fresh kind, catalogs fragment and bridges multiply. **Role
 
 **Benefits:** fewer near‑duplicates, cleaner Cross‑context reuse, deterministic guards, and auditable narrowing instead of hand‑wavy “this is the version we mean.”
 
-
 ### C.3.4:2 - Context
 
-Kinds (C.3.1/3.2) name **what** claims quantify over; USM (A.2.6) governs **where** claims hold. In practice, procedures need **local tailoring** of kinds for a role/process (compliance profile, product line, cohort). RoleMask gives that tailoring **without** mutating describedEntity (Kind) or applicability (Scope).
-
+Kinds (C.3.1/3.2) name **what** claims quantify over; USM (A.2.6) governs **where** claims hold. In practice, procedures need **local tailoring** of kinds for a role/process (compliance profile, product line, cohort). RoleMask gives that tailoring **without** mutating entityOfConcern (Kind) or applicability (Scope).
 
 ### C.3.4:3 - Problem
 
@@ -65,7 +62,6 @@ Kinds (C.3.1/3.2) name **what** claims quantify over; USM (A.2.6) governs **wher
 2. **Hidden constraints.** Informal “we only accept …” statements leak into prose; guards can’t check them deterministically.
 3. **Scope conflation.** Contextual requirements (jurisdiction, API version) get smuggled into “type” talk, blurring Scope vs Kind.
 4. **Cross‑context fragility.** Masks don’t travel unless their constraints are mapped; teams reuse names and hope.
-
 
 ### C.3.4:4 - Forces
 
@@ -75,7 +71,6 @@ Kinds (C.3.1/3.2) name **what** claims quantify over; USM (A.2.6) governs **wher
 | **Expressivity vs determinism**         | Masks must express real constraints **and** be **deterministically checkable** at guard time.                |
 | **Context vs entity constraints**       | Conditions over **ContextSlice** (Scope) vs conditions over **entities** (membership) must be split cleanly. |
 | **Reuse vs proliferation**              | Encourage reuse and promotion to subkind when stable; avoid a mask zoo.                                      |
-
 
 ### C.3.4:5 - Solution — **RoleMask** (overview)
 
@@ -99,7 +94,6 @@ A **RoleMask** is a **named, versioned binding** `U.RoleMask(kind, Context)` tha
 * **Entity‑level predicates** (e.g., “hasABS(x)”) → **mask membership** (narrowing).
 * **Context conditions** (e.g., “jurisdiction=EU”, “API=v2.3”) → **USM Scope** guards (intersection), **not** mask membership.
   Masks **may carry both kinds** of information, but guards must route them into the **right channel**.
-
 
 ### C.3.4:6 - Norms & Invariants (normative)
 
@@ -148,11 +142,10 @@ Penalties **MUST** route to **R**: `Ψ(CLᵏ)` for kind, plus any **Φ(CL)** for
 
 **RM‑10 (Definedness & fail‑closed).** Mask evaluation **SHALL** state its definedness area; outside it, guards **fail closed**.
 
-
 ### C.3.4:7 - Invariants & Non‑goals (normative)
 
 * **No Scope leakage.** RoleMasks **cannot** widen/narrow **Claim scope (G)**; any context conditions are enforced by USM guards.
-* **Identity preservation.** The carrier kind remains `k`; RoleMask does not change describedEntity.
+* **Identity preservation.** The carrier kind remains `k`; RoleMask does not change entityOfConcern.
 * **Weakest‑link unaffected.** RoleMasks do not alter weakest‑link rules on **F/R**; guards **route entity predicates to membership** and **context predicates to USM Scope**.
 
 ### C.3.4:8 - Interactions (informative)
@@ -190,7 +183,6 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 | Mask proliferation (ten masks that mean the same) | Catalog entropy; inconsistent behavior | Consolidate; promote frequently used constraints to **subkinds**.                     |
 | Treating mask name as kind synonym                | Hides constraints; invites misuse      | In prose, say “`RoleMask(k, name)`”; in guards, reference mask fields explicitly.     |
 
-
 ### C.3.4:10 - Worked Examples (informative)
 
 #### C.3.4:10.1 - `Vehicle@ABSOnly` (constraint mask)
@@ -215,7 +207,6 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 **Guards.** Scope bridge (coding system) + KindBridge + MaskAdapter; penalties **Ψ(1)** (kind) + **Φ(CL)** (scope) to **R**.
 **Outcome.** Allowed with reduced R; consider target‑side subkind `AdultPerson_Y`.
 
-
 ### C.3.4:11 - Authoring & Review Guidance (informative)
 
 #### C.3.4:11.1 - Authoring a RoleMask card
@@ -236,7 +227,6 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 5. Guard **routes** context to **USM** and entity to **membership**?
 6. Any Cross‑context use has **KindBridge** + **MaskAdapter** with penalties **to R**?
 7. **Promotion** warranted (stable, reused) or consolidation needed?
-
 
 ### C.3.4:12 - Conformance Checklist (normative)
 

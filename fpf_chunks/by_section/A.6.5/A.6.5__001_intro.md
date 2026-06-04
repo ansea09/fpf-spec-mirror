@@ -6,12 +6,12 @@ section_id: "A.6.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:intro — Intro"
-line_start: 13897
-line_end: 13914
+line_start: 14053
+line_end: 14070
 dependencies:
   - "A.1"
   - "A.19"
@@ -49,12 +49,12 @@ keywords:
 **Depends on.**
 – A.1 `U.Holon` (holonic carrier model).
 – A.6.0 `U.Signature` (universal morphism/relationship signatures).
-– A.7 (Strict Distinction; I/D/S vs Surface).
+– A.7 (Strict Distinction; EntityOfConcern / Description / specification-use vs Surface).
 – E.8 (pattern authoring order & SoTA discipline).
 – E.10 (LEX‑BUNDLE: Tech/Plain registers, naming guards).
 
 **Coordinates with.**
-– C.2.1 `U.EpistemeSlotGraph` (episteme slots: DescribedEntity, GroundingHolon, ClaimGraph, Viewpoint, View, ReferenceScheme).
+– C.2.1 `U.EpistemeSlotGraph` (episteme slots: EntityOfConcern, GroundingHolon, ClaimGraph, Viewpoint, View, ReferenceScheme).
 – C.3.* Kind‑CAL (Kinds, KindSignature, KindBridge).
 – F.18 (name governance; twin‑register discipline).
 

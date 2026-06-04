@@ -6,12 +6,12 @@ section_id: "A.2.6:17."
 section_title: "4 Rationale - F‑Cluster Unification for A.2.6 (F.17 and F.18)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__019_4-rationale-f-cluster-unification-for-a-2-6-f-17-and-f-18.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:17. — 4 Rationale - F‑Cluster Unification for A.2.6 (F.17 and F.18)"
-line_start: 4817
-line_end: 4907
+line_start: 4743
+line_end: 4830
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -49,7 +49,6 @@ keywords:
 
 **Survey focus (terms we align):** `U.ContextSlice`, generic **Scope** and set algebra, **Claim scope (G)**, **Work scope**, **Bridge & CL**, **Γ\_time**, **widen/narrow/refit/translate**, **SpanUnion / serial intersection**, separation from **F** and **R**, avoidance of overloaded **validity/operation** terms.
 
-
 #### A.2.6:17.4.2 - UTS Table (F.17) — Cross‑context term mapping
 
 |  # | Context / Source      | Local label(s) (native)                                                     | Closest USM concept                                                                      | Notes on fit & deltas                                                                                                                                                                         |
@@ -69,7 +68,6 @@ keywords:
 
 **Summary.** Across all Contexts, two stable notions recur: (1) **evaluate in a concrete context** (→ `U.ContextSlice`), and (2) **declare where something holds/is deliverable** (→ set‑valued **Scope**). “Context of use,” “operating modes,” “targets,” “class extension,” and “OSED” are all Context‑flavored presentations of **Claim scope** or **Work scope**. Terms like *validity* and *operation* are semantically close but collide with **LA** and FPF’s **Work/Run** lexicon; we therefore **do not** adopt them as characteristic names.
 
-
 #### A.2.6:17.4.3 - F.18 Term Selection — Unified Tech & Plain names
 
 ##### A.2.6:17.4.3.1 - Selected names (normative)
@@ -79,7 +77,7 @@ keywords:
 | Addressable evaluation context  | **`U.ContextSlice`**                            | **Context slice**                    | *Slice* (when local) | “domain” (as guard input), “latest” time                              |
 | Abstract mechanism (set‑valued) | **`U.Scope`**                                   | **Scope**                            | —                    | “applicability”, “envelope”, “validity” (as characteristic names)     |
 | Episteme applicability          | **`U.ClaimScope`** (*nick **G**)               | **Claim scope**                      | **G**                | “generality”, “applicability/envelope (of claim)”                     |
-| Capability applicability        | **`U.WorkScope`**                               | **Work scope**                       | “capability envelope”, “operational applicability”, “operation scope” |
+| Capability applicability        | **`U.WorkScope`**                               | **Work scope**                       | —                    | “capability envelope”, “operational applicability”, “operation scope” |
 | Time selector                   | **`Γ_time`**                                    | **Time selector**                    | —                    | implicit “latest”                                                     |
 | Cross‑context mapping              | **Bridge + CL**                                 | **Bridge + congruence level**        | **CL**               | silent reuse across Contexts                                             |
 | Parallel coverage               | **SpanUnion**                                   | **Union of supported areas**         | —                    | unqualified “union” without independence                              |
@@ -113,7 +111,6 @@ keywords:
 | “Architecture view context” (42010)        | **Context slice** + **Scope** checks inside the view        |
 | “Capability envelope” (legacy safety docs) | **Work scope**                                              |
 | “Domain” (informal)                        | **Context slice** elements; not acceptable as a guard input |
-
 
 **Outcome.** The UTS shows clear convergence across SoTA Contexts on **addressable context** and **set‑valued applicability**. F.18 therefore fixes: **Context slice**, **Scope**, **Claim scope (G)**, **Work scope**, **Publication scope** with the algebra and guard clauses mandated in A.2.6. This closes synonym drift while remaining readable for engineering managers and precise for assurance tooling.
 

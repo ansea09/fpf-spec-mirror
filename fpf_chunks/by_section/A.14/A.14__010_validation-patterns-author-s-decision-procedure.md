@@ -6,12 +6,12 @@ section_id: "A.14:9"
 section_title: "Validation patterns (author’s decision procedure)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__010_validation-patterns-author-s-decision-procedure.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:9 — Validation patterns (author’s decision procedure)"
-line_start: 19091
-line_end: 19117
+line_start: 19152
+line_end: 19177
 dependencies:
   - "A.1"
   - "B.1.1"
@@ -49,5 +49,4 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 | “Chapter 2 is 15% of the book” | Mixing measures and constituents  | Use **ConstituentOf**; the 15% is **length‑of‑text** as a separate statement.                                                |
 | “Spec v2 overlaps v1”          | Overlapping phases on same aspect | Use `PhaseOf(Spec_v2, Spec)` with non‑overlap; represent drafting as **Work** episodes (A.15) rather than overlapping specs. |
 | “Team is part of the project”  | Member vs part confusion          | Use **MemberOf(Team, ProjectCollective)**, not partOf.                                                                       |
-
 

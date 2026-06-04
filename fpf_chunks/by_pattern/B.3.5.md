@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
-line_start: 31619
-line_end: 31924
+line_start: 31747
+line_end: 32042
 dependencies:
   - "B.3"
   - "C.13"
@@ -50,13 +50,11 @@ This is the **alias‑plus‑grounding** split: **Compose‑CAL** builds the tra
 * **Parsimony constraint.** The Kernel stays minimal; construction is **outside** the Kernel.
 * **Unification inside FPF.** We already unify external vocabularies; the same discipline is applied **internally** so *every* pattern that needs mereology rides on **one generative basis** and **one alias façade**.
 
-
 ### B.3.5:3 - Problem
 
 Declared sub‑relations of `ut:PartOf` (e.g., **ComponentOf**, **MemberOf**) are easy to use but **not self‑justifying**: nothing in their declaration shows *why* a given edge should be trusted, or how to **re‑derive** it if challenged. Conversely, exposing constructor traces everywhere makes the graph unreadable to non‑specialists.
 
 **We need**: a stable **publication surface** for relations *and* a mandatory, **reconstructible** **grounding channel**—plus a visible **validation intent** that downstream assurance can reason about.
-
 
 ### B.3.5:4 - Solution (thumbnail)
 
@@ -132,7 +130,6 @@ When you add or import a relation edge:
 > **What managers see:** nothing new in the graph picture.
 > **What auditors get:** a reliable trail from every published edge back to a principled constructor or an evidence pack.
 
-
 ### B.3.5:8 - Compatibility & cross‑references
 
 * **B.3.2 (LOG‑use).** CT2R‑LOG supplies the **places to hang proofs/evidence** that B.3.2 formalizes.
@@ -168,7 +165,6 @@ When you add or import a relation edge:
   *axiomatic* — a constructively grounded identity (mereological extensionality is exhibited). (Modes align with the B.3 cluster’s trust model.)
 
 > **Authoring note.** This pattern defines *meanings*, not formats. The words above SHALL be used consistently and without reference to any specific notations or execution environments (Guard‑Rails: Notational Independence).
-
 
 #### B.3.5:9.2 - Normative rules (MUST/SHALL clauses for thinking‑and‑writing)
 
@@ -206,7 +202,6 @@ When naming principles in `tv:AliasOf`, authors **SHOULD** use Tech/Plain *twin 
 **S‑8 (No tool talk).**
 Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑oriented notations in place of concepts. If examples are needed, they **MAY** be plain‑language narratives or domain vignettes. (This pattern is conceptual by Standard.)
 
-
 #### B.3.5:9.3 - Scope & Non‑Goals (to keep the plane clean)
 
 * **In scope.**
@@ -217,7 +212,6 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 
 * **Edge placements.**
   When a claim is chiefly about *naming fit* across Contexts, prefer **Mapping** grounding (Kind-CAL/Lang‑CHR stance). When it is chiefly about *why* it follows, prefer **Logical** grounding. When it is about *what the whole is, from its parts*, prefer **Constructive** grounding. (Authors MAY combine them.)
-
 
 #### B.3.5:9.4 - Author’s working moves (micro‑playbook, notation‑free)
 
@@ -248,7 +242,6 @@ The purpose of this section is to make **typical cognitive slips** visible and n
 
 > **Reviewer reminder.** Bias audit is a **reading aid**. It never licenses tooling talk in Core; use the guard‑rails in Part E to keep semantics primacy and unidirectional dependence of layers.
 
-
 ### B.3.5:11 - Conformance Checklist (normative, author‑facing)
 
 The following obligations regulate **how to think and write** CT2R content. They are **notation‑agnostic** and purely conceptual.
@@ -264,7 +257,6 @@ The following obligations regulate **how to think and write** CT2R content. They
 | **CC‑CT2R‑7 (Notational independence).**        | Core meaning **MUST NOT** hinge on any specific diagram or syntax; illustrative renderings, if present, are labelled *informative*.                                                                                                           | Ensure longevity and cross‑discipline portability.                        |
 | **CC‑CT2R‑8 (Layer direction).**                | Grounding flows **downwards** from Working‑Model to Assurance layers (Mapping/Logical/Constructive). Authors **SHALL** avoid back‑defining the canonical relation by its Mapping, Logical, Constructive, or Empirical grounding.                                                  | Preserve unidirectional dependence of layers.                             |
 | **CC‑CT2R‑9 (Scope split).**                    | When assurance is discussed, authors **SHALL** state the **typed claim** and **scope** `S ∈ {design, run}` and keep them distinct in reasoning.                                                                                               | Prevent DesignRunTag chimeras.                                              |
-
 
 ### B.3.5:12 - Consequences (benefits, trade‑offs, mitigations)
 
@@ -283,7 +275,6 @@ The following obligations regulate **how to think and write** CT2R content. They
 
 > **One‑line takeaway for managers.**
 > CT2R lets you **talk in natural, domain‑meaningful relations** while preserving a clear, optional path to formal grounding and empirical checking—so confidence can grow deliberately without dragging your model into tooling or syntax.
-
 
 ### B.3.5:13 - Rationale (informative)
 
@@ -323,7 +314,6 @@ Part E requires that patterns govern **thinking** and **authoring**; enforcement
 
 **Specialises / feeds**
 • **B.3.1–B.3.4** — supplies the publication discipline (Working-Model relations, declared **relation kind** and **validationMode**; **F** per C.2.3 where relevant) that B.3’s trust calculus expects; interacts with ageing and assurance-level assessments without changing the relations themselves.
-
 
 **Non‑relations**
 **No introduction of order/time** — CT2R‑LOG does **not** define `SerialStepOf` / `ParallelFactorOf` / temporal **phases**; those belong to **Method‑CAL** and **Sys‑CAL (TemporalPart)** respectively.

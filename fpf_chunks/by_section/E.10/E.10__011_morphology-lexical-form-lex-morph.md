@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology & Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-lexical-form-lex-morph.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:8 — Morphology & Lexical Form (LEX.Morph)"
-line_start: 57707
-line_end: 57947
+line_start: 58830
+line_end: 59070
 dependencies:
   - "A.10"
   - "A.15"
@@ -35,7 +35,7 @@ keywords:
 
 > **Principle.** Form follows the **FPF kind being named**. A token’s morphology (suffix/prefix/casing) must (a) express **what kind of thing** it names, (b) respect **MG-DA** (Minimal Generality & Domain Anchoring), and (c) pass **LEX.TokenClass** gates:
 > `LEX.TokenClass(token) ∈ {KernelToken | ContextToken | DiscriminatorToken}`.
-> Morphological choices never override **I/D/S layers** or **CHR\:ReferencePlane** semantics.
+> Morphological choices never override **EntityOfConcern, Description episteme, specification use, and publication lanes** or **CHR\:ReferencePlane** semantics.
 
 #### E.10:8.0 - Casing & basic forms
 
@@ -45,44 +45,45 @@ Relations/verbs: **lowerCamelCase** (`performedBy`, `isExecutionOf`, `bindsMetho
 IDs/instances: **flat with delimiters** (context‑defined) but never collide with type forms (e.g., `W#Seam134`, `ctx:Hospital.OR_2025`).
 **Register discipline:** normative tokens use the Technical register; Plain synonyms are allowed in prose only, never in constraints.
 
+#### E.10:8.1 - Reserved suffixes (gated by LEX.TokenClass, EntityOfConcern and Description-episteme boundary, and specification use)
 
-#### E.10:8.1 - Reserved suffixes (gated by LEX.TokenClass and I/D/S)
+> **Use tables as a whitelist.** Rows indicate **when** a suffix is permitted and **what it means**. The EntityOfConcern and Description-episteme boundary and specification-use gate prevents EntityOfConcern, Description episteme, specification use, and publication-lane confusion; “Examples” are illustrative.
 
-> **Use tables as a whitelist.** Rows indicate **when** a suffix is permitted and **what it means**. “Layer gate” prevents I/D/S confusion; “Examples” are illustrative.
-
-| **Suffix**              | **Kind named by suffix**                   | **Layer gate**                       | **LEX.TokenClass gate**         | **Examples**                                      | **Forbidden misuses (typical)**                                       |
+| **Suffix**              | **Kind named by suffix**                   | **EntityOfConcern and Description-episteme boundary and specification-use gate**                       | **LEX.TokenClass gate**         | **Examples**                                      | **Forbidden misuses (typical)**                                       |
 | ----------------------- | ------------------------------------------ | ------------------------------------ | ------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
-| **`Role`**              | **Role kind** (intensional)                | I‑layer                              | KernelToken/ContextToken        | `TransformerRole`, `ApproverRole`                 | Appearing in BoM/mereology; mixing with run logs.                     |
-| **`Method`**            | **Abstract way of doing** (recipe type)    | I‑layer                              | KernelToken/ContextToken        | `SteriliseInstrumentMethod`                       | Versioning on `Method` (version the `MethodDescription` instead).     |
-| **`MethodDescription`** | **Recipe/description** (notation‑agnostic) | D‑layer                              | KernelToken/ContextToken        | `JS_Schedule_v4_MethodDescription`                | Calling it “process”; encoding runtime actuals here.                  |
-| **`…Spec`**             | **Testable specification** (acceptance‑bound) | S‑layer                              | KernelToken/ContextToken        | `MethodSpec`, `FlowSpec`, `SystemSpec`            | Using “Spec” without acceptance tests/harness; putting runtime actuals here. |
-| **`Work`**              | **Execution** (runs or kinds of runs)      | (run record; not I/D/S)            | KernelToken/ContextToken        | `SpeechActWork`, `W#Seam134`                      | Plans/schedules; design‑time recipes.                                 |
-| **`WorkPlan`**          | **Schedule of intent**                     | D‑layer (plan record)              | ContextToken                    | `MaintenanceWorkPlan_Q3`                          | Logging actuals; claiming execution.                                  |
-| **`Service`**           | **External promise object**                | I‑layer (Standarded intension)       | KernelToken/ContextToken        | `ObjectStorageService`, `PassportIssuanceService` | Naming teams/APIs as “Service”.                                       |
-| **`Capability`**        | **System ability**                         | I‑layer                              | KernelToken/ContextToken        | `ScheduleGenerationCapability`                    | Mislabeling roles or methods as capabilities.                         |
-| **`Dynamics`**          | **Law/model of change**                    | I‑layer                              | KernelToken/ContextToken        | `LotkaVolterraDynamics`                           | Using for abilities (`Capability`) or recipes (`Method`).             |
-| **`Observation`**       | **Observation record/kind**                | (run record; not I/D/S)            | ContextToken/DiscriminatorToken | `VibrationObservation`                            | Mixing with `MethodDescription` or `Evaluation`.                      |
-| **`Evaluation`**        | **Evaluation episteme or evaluation record**        | D/S‑layer (epistemic episteme)              | ContextToken/DiscriminatorToken | `CalibrationEvaluation`                           | Using to name roles or methods.                                       |
-| **`EvidenceRole`**      | **Role in evidence assembly**              | I‑layer (role kind)                  | KernelToken/ContextToken        | `WitnessStatementEvidenceRole`                    | Using as a generic “evidence”.                                        |
-| **`Episteme`**          | **Epistemic knowledge unit** (structural)  | D/S‑layer                            | KernelToken/ContextToken        | `TraceabilityEpisteme`                            | Colliding with CHR **ReferencePlane** (never suffix “Plane”).         |
-| **`System`/`Holon`**    | **Substantial entity**                     | I‑layer                              | KernelToken/ContextToken        | `AnesthesiaSystem`, `OrderFulfillmentHolon`       | Using to denote Context or run record.                              |
-| **`Boundary`**          | **System boundary**                        | I‑layer                              | KernelToken/ContextToken        | `SterileFieldBoundary`                            | Using as a role or method.                                            |
-| **`Objective`**         | **Target state**                           | I/D‑layer (depends on formalization) | KernelToken/ContextToken        | `HemostasisObjective`                             | Encoding acceptance tests here (put tests in Spec/MethodDescription). |
-| **`Requirement`**       | **Obligation at acceptance**               | D/S‑layer                            | KernelToken/ContextToken        | `LatencyRequirement`                              | Using as a role or capability.                                        |
-| **`BoundedContext`**    | **Context card**                           | (meta‑structural; not I/D/S)         | ContextToken                    | `ITIL_2020_BoundedContext`                        | Treating Context as domain; minting `U.*` inside a Context.           |
-| **`Surface`**              | `PublicationSurface` or `InteropSurface` over an episteme   | D and S layer (publication)     | ContextToken                     | PublicationSurface, InteropSurface       | StructureSurface, MechanismSurface, PortfolioSurface |
-| **`Card`**                 | UTS/record unit (episteme)               | D-layer (publication)       | ContextToken                     | MethodCard, ExternalIndexCard            | Encoding runtime actuals; using as a ‘Service’  |
+| **`Role`**              | **Role kind** (EntityOfConcern-side)                | EntityOfConcern side                              | KernelToken/ContextToken        | `TransformerRole`, `ApproverRole`                 | Appearing in BoM/mereology; mixing with run logs.                     |
+| **`Method`**            | **Abstract way of doing** (recipe type)    | EntityOfConcern side                              | KernelToken/ContextToken        | `SteriliseInstrumentMethod`                       | Versioning on `Method` (version the `MethodDescription` instead).     |
+| **`MethodDescription`** | **Recipe/description** (notation‑agnostic) | Description episteme                              | KernelToken/ContextToken        | `JS_Schedule_v4_MethodDescription`                | Calling it “process”; encoding runtime actuals here.                  |
+| **`...Spec`**             | **Testable specification** (acceptance-bound) | Description episteme admitted for specification use                              | KernelToken/ContextToken        | `MethodSpec`, `FlowSpec`, `SystemSpec`            | Using “Spec” without acceptance tests/harness; treating formal notation alone as specification; putting runtime actuals here. |
+| **`Work`**              | **Execution** (runs or kinds of runs)      | (run record; not EntityOfConcern and Description-episteme or specification use)            | KernelToken/ContextToken        | `SpeechActWork`, `W#Seam134`                      | Plans/schedules; design‑time recipes.                                 |
+| **`WorkPlan`**          | **Schedule of intent**                     | Description episteme (plan record)              | ContextToken                    | `MaintenanceWorkPlan_Q3`                          | Logging actuals; claiming execution.                                  |
+| **`Service`**           | **External promise object**                | EntityOfConcern side (promise/commitment use)       | KernelToken/ContextToken        | `ObjectStorageService`, `PassportIssuanceService` | Naming teams/APIs as “Service”.                                       |
+| **`Capability`**        | **System ability**                         | EntityOfConcern side                              | KernelToken/ContextToken        | `ScheduleGenerationCapability`                    | Mislabeling roles or methods as capabilities.                         |
+| **`Dynamics`**          | **Law/model of change**                    | EntityOfConcern side                              | KernelToken/ContextToken        | `LotkaVolterraDynamics`                           | Using for abilities (`Capability`) or recipes (`Method`).             |
+| **`Observation`**       | **Observation record/kind**                | (run record; not EntityOfConcern and Description-episteme or specification use)            | ContextToken/DiscriminatorToken | `VibrationObservation`                            | Mixing with `MethodDescription` or `Evaluation`.                      |
+| **`Evaluation`**        | **Evaluation episteme or evaluation record**        | Description episteme or Description episteme admitted for specification use              | ContextToken/DiscriminatorToken | `CalibrationEvaluation`                           | Using to name roles or methods.                                       |
+| **`EvidenceRole`**      | **Role in evidence assembly**              | EntityOfConcern side (role kind)                  | KernelToken/ContextToken        | `WitnessStatementEvidenceRole`                    | Using as a generic “evidence”.                                        |
+| **`Episteme`**          | **Epistemic knowledge unit** (structural)  | Description episteme or Description episteme admitted for specification use                            | KernelToken/ContextToken        | `TraceabilityEpisteme`                            | Colliding with CHR **ReferencePlane** (never suffix “Plane”).         |
+| **`System`/`Holon`**    | **Substantial entity**                     | EntityOfConcern side                              | KernelToken/ContextToken        | `AnesthesiaSystem`, `OrderFulfillmentHolon`       | Using to denote Context or run record.                              |
+| **`Boundary`**          | **System boundary**                        | EntityOfConcern side                              | KernelToken/ContextToken        | `SterileFieldBoundary`                            | Using as a role or method.                                            |
+| **`Objective`**         | **Target state**                           | EntityOfConcern/Description side (depends on formalization) | KernelToken/ContextToken        | `HemostasisObjective`                             | Encoding acceptance tests here (put tests in Spec/MethodDescription). |
+| **`Requirement`**       | **Acceptance condition, requirement claim, or commitment record where binding condition is live**               | Description episteme or Description episteme admitted for specification use                            | KernelToken/ContextToken        | `LatencyRequirement`                              | Using as a role or capability.                                        |
+| **`BoundedContext`**    | **Context card**                           | (meta-structural; not EntityOfConcern and Description-episteme or specification use)         | ContextToken                    | `ITIL_2020_BoundedContext`                        | Treating Context as domain; minting `U.*` inside a Context.           |
+| **`surface`** (trigger only) | Not a durable Tech head by itself; recover publication face, form, unit, carrier, rendering, UI face, physical/geometric surface, or the exact neighboring FPF object. | publication availability or ordinary source wording | Trigger wording | publication face, interop publication form, carrier relation | StructureSurface, MechanismSurface, PortfolioSurface |
+| **`Card`**                 | UTS/record unit (episteme)               | Description episteme, Description episteme admitted for specification use, or publication-unit use, depending on exact FPF kind       | ContextToken                     | MethodCard, ExternalIndexCard            | Encoding runtime actuals; using as a ‘Service’  |
+
+#### E.10:8.1.1 - Legacy suffix conventions
 
 | **Suffix** | **Lexical class** | **Meaning / Ontology** | **Where it lives** | **Examples / Notes** |
 |--- |--- |--- |--- |--- |
-| **Space** | Intensional kind | A typed **state space** (finite product of Characteristic×Scale slots); no procedures | Kernel A.19; CHR/space consumers | `CharacteristicSpace`, `CreativitySpace`. Edition of a Space is a **phase** of the episteme that defines it. |
+| **Space** | EntityOfConcern-side kind | A typed **state space** (finite product of Characteristic×Scale slots); no procedures | Kernel A.19; CHR/space consumers | `CharacteristicSpace`, `CreativitySpace`. Edition of a Space is a **phase** of the episteme that defines it. |
 | **SpaceRef** | Pointer | Registry reference to a Space | Data fields / UTS | `CharacteristicSpaceRef`. Use **`.edition`** on the **Ref** when pinning a historical phase. |
-| **Map** | Intensional kind (method) | A **mapping method** from subjects to coordinates in a declared Space (encoder/featurizer) | Kernel/Method family (I‑layer), described/spec’d via I/D/S | `DescriptorMap` (declares invariances, corpus typing). Not a record or file. |
+| **Map** | EntityOfConcern-side kind (method) | A **mapping method** from subjects to coordinates in a declared Space (encoder/featurizer) | Kernel/Method family (EntityOfConcern side), described through Description epistemes and admitted for specification use only when exact gates grant specification use | `DescriptorMap` (declares invariances, corpus typing). Not a record or file. |
 | **MapRef** | Pointer | Registry reference to a **Map** | Data fields / UTS | `DescriptorMapRef`. Pin the method phase via **`DescriptorMapRef.edition`**. |
-| **Def** | S‑layer alias (CG‑Spec family) | A **definition/specification publication** that fixes a **formula** or **distance** over a space; *synonym of …Spec* **within CG‑Spec registries only** | Part G (CG‑Spec family) | `DistanceDef` ≍ `DistanceSpec`. Prefer **…Spec** in new normative prose; **…Def** retained where already published. |
+| **Def** | Spec-family alternate token (CG-Spec family) | A **definition/specification publication** that fixes a **formula** or **distance** over a space; *synonym of …Spec* **within CG-Spec registries only** | Part G (CG‑Spec family) | `DistanceDef` ≍ `DistanceSpec`. Prefer **…Spec** in new normative prose; **…Def** retained where already published. |
 | **DefRef** | Pointer | Registry reference to a **…Spec/…Def** | Data fields / UTS | `DistanceDefRef`. Use **`DistanceDefRef.edition`** to pin the exact formula edition. |
-| **Spec** | S‑layer | Testable invariants bound to acceptance harnesses | E.10 and A.21 | Stable, testable definitions; **normative** by default; S‑layer, Spec‑gated. Use for normative calculi and scoring/normalization specifications. |
-| **Slot** | Structural position | Named **argument position** in a relation/morphism signature (SlotKind in A.6.5) | Kernel A.6.0/A.6.5 | `DescribedEntitySlot`, `GroundingHolonSlot`. Always names a *position*; never used for ValueKinds or episteme fields. |
+| **Spec** | Description episteme admitted for specification use | Testable invariants bound to acceptance harnesses | E.10 and A.21 | Stable, testable definitions; **normative** by default; admitted for specification use. Use for normative calculi and scoring/normalization specifications. |
+| **Slot** | Structural position | Named **argument position** in a relation/morphism signature (SlotKind in A.6.5) | Kernel A.6.0/A.6.5 | `EntityOfConcernSlot`, `GroundingHolonSlot`. Always names a *position*; never used for ValueKinds or episteme fields. |
 | **Ref** | Pointer | **Reference/identifier** to a registry item of some ValueKind (RefKind in A.6.5), not the thing itself | Data fields / UTS; RefKind types | `U.EntityRef`, `U.HolonRef`; episteme fields `…Ref : U.EntityRef`. Reserved for **RefKinds** and episteme fields typed as them; `…Ref` **never** carries content and is never used for ValueKinds or SlotKinds. |
 | **Series** | Governance object | A **PhaseOf chain** (“editions”) for an episteme | Edition governance | `U.EditionSeries`. Holds immutability and provenance rules. |
 | **.edition** | Attribute (on **Ref**) | The **phase id** of the **referenced record**; attaches to `…Ref`, not to the record name | Data fields / UTS | Use `XRef.edition`, **not** bare `XEdition` fields. Lower camelCase for keys. |
@@ -97,20 +98,20 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 * Other morphemes (not only suffixes) also **must** respect kinds. For example, **Space is a geometric concept** — **never** use it as a suffix (`…Space…`) or other morpheme in beginning or in the middle of a term to name non‑geometric entities (e.g. prefer **Set/Kid/Kit** instead of **Space** where membership is intended).
 
 **L-EPI-PUB — episteme, publication, view, carrier, and authority-reference lane discipline**
-* Use `U.Episteme` for the claim-bearing unit. Use `U.EpistemePublication` or governed `U.Episteme` publication only when that episteme is available as a published episteme under C.2.1/E.17 discipline.
+* Use `U.Episteme` for the claim-bearing unit. Use `U.EpistemePublication` or governed `U.Episteme` publication only when that episteme is available as a published episteme under C.2.1 and E.17 discipline.
 * Name the exact publication form separately from the episteme: for example `U.PreArticulationCuePack`, `RoutedCueSet`, `U.AbductivePrompt`, typed route-bounded projection, partial normal form, endpoint-pattern-governed publication, or another declared form. A publication form is not itself the governing FPF source.
 * Name `U.View` and MVPK face separately from the publication form. A `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` is an episteme-level view or publication face, not the source claim, not the publication form itself, and not the SCR or RSCR carrier.
 * Name the carrier or rendering lane separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and not the governing pattern.
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, role assignment, status assertion, work occurrence, or permission.
 * Use `governingPatternRef` for a named FPF pattern that governs admissible interpretation or use. Use `authoritySourceRef` when a non-pattern `authoritySourceRef` target such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. Do not use generic sign/episteme-publication wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 * When a published episteme is used for work, name the live P2W chain element: intended method family, selected method/method of work, `U.WorkPlanning` baseline, planned work, actual `U.Work` or `U.WorkEnactment`, work result, result measurement, or non-work reliance on a claim or effect. Do not let generic `action`, `use`, or `material` hide that distinction.
-* Use `C.2.P` when episteme-publication-heavy wording carries episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or FPF-pattern-application force. This parent pattern keeps the lexical and naming discipline; `C.2.P` supplies the epistemic precision-restoration profile that recovers the exact FPF kind, relation record, relation phrase, tuple-like record, exact project-side FPF kind and reference, or not-triggered disposition before final wording is accepted.
+* Use `C.2.P` when episteme-publication-heavy wording carries episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or FPF-pattern-application claim. This parent pattern keeps the lexical and naming discipline; `C.2.P` supplies the epistemic precision-restoration profile that recovers the exact FPF kind, relation record, relation phrase, tuple-like record, exact project-side FPF kind and reference, or not-triggered disposition before final wording is accepted.
 
-**L‑SURF — disciplined use of *Surface* **
-* **Definition.** *Surface* is reserved for `PublicationSurface` and `InteropSurface`: UTS, shipping, and interop publication surfaces that present admissible, plane-aware summaries for a stated audience and purpose. A Surface is a conceptual bundle of views in the ISO 42010 sense, with declared viewpoint. Serialisations live in Annex and Interop. Surfaces package D and S projections produced via `Describe_ID` and `Specify_DS` in `A.7` and do not change object ontology.
-* **Allowed:** `PublicationSurface`, `InteropSurface` (G.10/G.13).
-* **Forbidden:** `StructureSurface`, `MechanismSurface`, `PortfolioSurface`, and any `…Surface` that denotes a structural, mechanistic, measurement, review, assurance, explanation, comparison, or publication-unit object.
-* **Preferred alternatives:** use `…Boundary` (structural border), `…View` (publication view), or `…Card` (UTS record).
+**Publication face, form, unit, and carrier discipline - `surface` as trigger wording**
+* **Definition.** `surface` is trigger wording, not a durable FPF Tech head by itself. When it has FPF-governed use, recover whether the sentence means publication face, publication form, publication unit, carrier, rendering, UI/front-end face, physical/geometric surface, companion publication, projection material, carrier relation, or another exact FPF kind or relation.
+* **Allowed final heads:** exact publication or carrier terms, or deliberately ordinary physical/geometric `surface` when no FPF-governed use is carried.
+* **Forbidden final heads:** `StructureSurface`, `MechanismSurface`, `PortfolioSurface`, and any `...Surface` that hides a structural, mechanistic, measurement, review, assurance, explanation, comparison, or publication-unit object.
+* **Preferred alternatives:** name publication face, form, unit, carrier, and rendering; use `...Boundary` for structural borders, `...View` for episteme/view relations, and `...Card` only for a UTS or record unit when that is exact.
 
 **L‑SPACE — disciplined use of *Space* **
 * Use *Space* only for **CHR‑grounded measurement and state constructs** such as `CharacteristicSpace` per A.19. Do **not** coin generic `…Space` for sets, portfolios, or publication forms. Publish portfolios and archives as **sets** via admissible selectors; publish them on UTS as **views** or **cards**, not as spaces.
@@ -129,7 +130,7 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 
 #### E.10:8.3 - Prefix discipline
 
-**M‑P1 (Reserved prefixes).** `U.` reserved for **Kernel types**; `Γ_` for algebraic operators; `CAL/LOG/CHR` for **pattern packages**. Never mint `U.*` inside a Context.
+**M‑P1 (Reserved prefixes).** `U.` reserved for **Kernel types**; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. Never mint `U.*` inside a Context.
 
 **M‑P2 (Edition markers).** Apply explicit edition/version markers to **Contexts** and to `MethodDescription` / `Service`—**not** to `Method` (e.g., `BPMN_2.0_BoundedContext`, `JS_Schedule_v4_MethodDescription`, `PassportIssuanceService_v2025`).  Authors MAY annotate Context or Service names for didactics.
 **Norms (edition vs release vs version).**
@@ -141,9 +142,9 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 
 #### E.10:8.4 - Morphology tests (apply with § 7 MG-DA)
 
-**M‑1 (Slot test).** The candidate fits **one** slot in the Strict Distinction lattice (Object ≠ Description ≠ Carrier; Role ≠ Method ≠ Work). If not, **rename** or split.
+**M‑1 (Slot test).** The candidate fits **one** slot or side in the Strict Distinction lattice (EntityOfConcern ≠ Description episteme ≠ publication carrier; Role ≠ Method ≠ Work). If not, **rename** or split.
 
-**M‑2 (Object‑of‑talk anchoring).** The head noun names the **object being classified** (Role/Method/Service/Work/Context/Characteristic). No free‑floating metaphors.
+**M‑2 (Classified-kind anchoring).** The head noun names the classified FPF kind or reference (Role/Method/Service/Work/Context/Characteristic). No free‑floating metaphors.
 
 **M‑3 (Family congruence).** Where eligibility clarity is needed, add a **Context‑specific characteristic** (RCS) as a qualifier (e.g., `NormativeStandardRole`). Do **not** fake families with bare metaphors (no `RowPlane`, `senseFamily`, `…Lane`).
 
@@ -153,7 +154,7 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 
 **M‑6 (Vacuity ban).** Avoid vacuous heads (*Thing, Event, Process, Resource*). Use established kernel heads (`U.Holon`, `U.Work`, `U.Method`, `U.Resrc`, …).
 
-**M‑7 (Notation independence).** Intensional meaning survives notation/tool swaps.
+**M-7 (Notation independence).** The EntityOfConcern-side meaning survives notation/tool swaps.
 
 **M‑8 (Collision & uniqueness).** Before merge, run **full‑text** + **Reserved‑Names** checks; the token must not collide with any other meaning anywhere in FPF (cf. § 7 MG-DA‑T5).
 
@@ -164,7 +165,7 @@ Aliases live **only** inside a **Context Glossary** and map to **one** technical
 #### E.10:8.5a - Entry lexeme support and lexical-query discipline
 
 Canonical entry-neighborhoods may use one compact **entry lexeme support**
-block when the lexical force is real.
+block when the lexical issue is live.
 That support should not live in every pattern body by default.
 Keep it instead in:
 
@@ -201,7 +202,7 @@ Ordinary lexical-query support should stay compact:
 * ordinary `J.4` neighborhoods: keep only the most discriminating domain phrases and
   false friends;
 * fuller lexical sets belong under `F.17, F.18, and E.10` only when one real
-  naming, alias, bridge, or collision force exists.
+  naming, alias, bridge, or collision claim exists.
 
 Lexical support should increase entry precision, not maximize keyword recall.
 The same boundary should be kept explicit in lexical support:
@@ -227,7 +228,7 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 
 #### E.10:8.7 - Acceptance & regression checks (LEX/USM)
 
-* **SCR‑MOR‑S01 (Suffix whitelist).** Every normative token with a reserved suffix matches § 8.1 row semantics and passes Layer gates.
+* **SCR‑MOR‑S01 (Suffix whitelist).** Every normative token with a reserved suffix matches § 8.1 row semantics and passes EntityOfConcern and Description-episteme boundary and specification-use gates.
 * **SCR‑MOR‑S02 (Kernel bans).** KernelToken names contain none of the forbidden suffixes (§ 8.2).
 * **SCR‑MOR‑S03 (Prefixes).** Reserved prefixes obey § 8.3; no `U.*` minted in Context.
 * **SCR‑MOR‑S04 (Run/design gate).** `Work` appears only for executions; `MethodDescription` has no runtime actuals.
@@ -270,5 +271,4 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 — Otherwise **publish a Q‑Bundle** (see **C.25**) that includes **Measures (CHR)** (the measurable slots) and, where relevant, **Scope** (USM set over `U.ContextSlice`) and windows/mechanism/status fields.
 
 **Rationale.** Scope is **set‑valued** (USM) and **not** a CHR measurement; mechanisms/statuses are governance records. Keeping them outside the CHR CSLC avoids illegal scalarisation and preserves set‑algebra semantics for scope. (A.2.6 § 6.2; A.6.1; C.16/A.18).
-
 

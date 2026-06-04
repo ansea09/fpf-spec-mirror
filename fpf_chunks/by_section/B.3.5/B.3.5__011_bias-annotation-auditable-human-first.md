@@ -6,12 +6,12 @@ section_id: "B.3.5:10"
 section_title: "Bias‑Annotation (auditable, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__011_bias-annotation-auditable-human-first.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:10 — Bias‑Annotation (auditable, human‑first)"
-line_start: 31827
-line_end: 31843
+line_start: 31949
+line_end: 31964
 dependencies:
   - "B.3"
   - "C.13"
@@ -40,5 +40,4 @@ The purpose of this section is to make **typical cognitive slips** visible and n
 | **DesignRunTag chimera**          | Mixing design‑time and run‑time evidence into one “assurance” line.                                                           | Split the **scope** of the claim: `S ∈ {design, run}`; compare side‑by‑side rather than merging.                                                                                                                  | B.3 typed claim tuple & anti‑pattern “DesignRunTag chimera”.           |
 
 > **Reviewer reminder.** Bias audit is a **reading aid**. It never licenses tooling talk in Core; use the guard‑rails in Part E to keep semantics primacy and unidirectional dependence of layers.
-
 

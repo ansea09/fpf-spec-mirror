@@ -6,12 +6,12 @@ section_id: "A.2.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__008_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:7 — Conformance Checklist (normative)"
-line_start: 2831
-line_end: 2904
+line_start: 2805
+line_end: 2877
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -97,7 +97,6 @@ Deprecated labels *applicability/envelope/generality/validity* **MUST NOT** appe
 
 **CC-A2.3-14 (Bridges & CL).**
 Cross-context mappings via Bridges keep **F/G** stable; **CL** penalties apply to **R**. A mapping **MAY** recommend **narrowing** the mapped **Claim scope (G)** as best practice (A.2.6/B-line).
-
 
 **CC-A2.3-15 (OutcomeSpec typing).**
 `promisedOutcomeSpecRef` MUST resolve to `U.OutcomeSpec` (A.7:5.10). It MUST NOT be used to point at a concrete `U.Work` episode or at an extensional delivered-result referent.

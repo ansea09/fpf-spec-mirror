@@ -6,12 +6,12 @@ section_id: "F.15:11"
 section_title: "Micro‑witnesses (illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__012_micro-witnesses-illustrative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:11 — Micro‑witnesses (illustrative)"
-line_start: 73702
-line_end: 73714
+line_start: 74329
+line_end: 74340
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -39,5 +39,4 @@ Local‑Senses: *activity(prov)*, *task(iec)*.
 Contexts: `ITIL 4 (design)`, `SOSA/SSN (run)`.
 Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA\:observation of uptime⟩.
 *Fire:* S9 (row spans ≥2 Contexts), S12 (Bridge kind: *measure-for-target*, CL=3, loss: *sampling bias*), S16 (binding coherence), **S-RoleDesc-SingleCell**.
-
 

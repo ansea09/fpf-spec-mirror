@@ -6,12 +6,12 @@ section_id: "F.5:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__005_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:4 — Core idea (didactic)"
-line_start: 69876
-line_end: 69883
+line_start: 70676
+line_end: 70682
 dependencies:
   - "A.11"
   - "A.7"
@@ -42,5 +42,4 @@ keywords:
 >
 > For Role Descriptions, **speak like the Context** (Tech), then **teach it** (Plain).
 > For U.Types, **speak like nobody’s Context**: pick the **neutral, minimal‑generality** label that best fits the **intersection** shown by your Concept‑Set row.
-
 

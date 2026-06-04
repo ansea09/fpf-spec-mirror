@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:4 — Solution"
-line_start: 55681
-line_end: 55720
+line_start: 56788
+line_end: 56827
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -29,7 +29,7 @@ keywords:
 
 When an `A.19.ECS` specification is selected for durable FPF publication, author the evaluation as an `E.8` pattern with these additional placement rules:
 
-1. **Keep the intensional object separate from the publication form.** The pattern publishes an evaluation `CharacteristicSpace`; it is not itself the evaluated object, the evaluation result, the improvement loop, or the evidence record.
+1. **Keep the evaluation characteristic-space specification separate from the publication form.** The pattern publishes an evaluation `CharacteristicSpace`; it is not itself the evaluated object, the evaluation result, the improvement loop, or the evidence record.
 2. **Put recognition before coordinates.** The opening text names evaluated object kind, declared use, first evaluation use, cheap stop, what goes wrong, and what the pattern buys before any dense table.
 3. **Place the `A.19.ECS` specification by value.** The `Solution` carries the record shape, local names, eligibility rule, coordinate set, value meanings, missingness rule, protected trade-offs, status meanings, and stop or reopen condition.
 4. **Use worked slices as the discriminating-case test.** Archetypal Grounding and worked cases include a passing evaluated object, a below-floor evaluated object, and a not-applicable object.

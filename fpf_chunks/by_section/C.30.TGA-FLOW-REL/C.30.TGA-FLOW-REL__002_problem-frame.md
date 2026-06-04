@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.TGA-FLOW-REL"
-pattern_title: "Architecture/TGA Flow-Structure Relation"
+pattern_title: "Architecture-TGA Flow-Structure Relation"
 section_id: "C.30.TGA-FLOW-REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation"
+  - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:1 — Problem frame"
-line_start: 53284
-line_end: 53317
+line_start: 53723
+line_end: 53757
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,6 +27,7 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.30.STRAT"
   - "E.10"
   - "E.17"
   - "E.17.0"
@@ -36,21 +37,23 @@ dependencies:
 keywords:
   - "ArchitectureFlowStructureRelation@TGA"
   - "FlowTransductionStructure"
-  - "TGA graph support"
+  - "TGA graph relation"
   - "architecture flow relation"
   - "graph/path/crossing"
 ---
 
 ### C.30.TGA-FLOW-REL:1 - Problem frame
 
-Use this pattern when an architecture discussion depends on a Transduction Graph Architecture (TGA) graph, path, path slice, crossing, flow valuation, edition pin, plane/context pin, or no-hidden-scalarization claim.
+Use this pattern when an architecture discussion depends on a Transduction Graph Architecture (TGA) graph, path, path slice, crossing, flow valuation, edition pin, plane pin, context pin, or no-hidden-scalarization claim.
 
-The first useful move is small. `ArchitectureFlowStructureRelation@TGA` is a C.30-side relation record that links an architecture description or architecture structural view to E.18 graph, path, crossing, or flow-valuation relation; it is not the graph, not the architecture, not an architecture decision, and not a complete architecture view by itself.
+The first useful move is small. `ArchitectureFlowStructureRelation@TGA` is a C.30-side relation record for a live relation between `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use and the E.18 graph, path, crossing, or flow-valuation relation being used for flow or transduction structure. It names the architecture locus, selected structure or view reference when live, conditional description reference when durable description use is live, the E.18 object, correspondence or source-return condition when live, and the admissible architecture use.
 
 ```text
 ArchitectureFlowStructureRelation@TGA:
-architectureDescriptionRef:
-architectureStructuralViewRef:
+architectureClaimRef:
+selectedArchitectureStructureRefs:
+architectureStructuralViewRef?:
+architectureDescriptionRef?:
 functionalStructureViewRef:
 flowTransductionStructureViewRef:
 transductionGraphRef:
@@ -64,14 +67,13 @@ nonAdmissibleUse:
 governingPatternApplicationRefs:
 ```
 
-Ordinary minimum: name either `architectureStructuralViewRef` or `architectureDescriptionRef`, one E.18 graph or path-slice reference, the architecture-flow `FlowTransductionStructure`, one blocked overread, and stop or exact governing pattern application. Use crossing, flow-valuation, correspondence, and source-return fields only when they change the next architecture move. All other fields are conditional and may be `not live`.
+Ordinary minimum: name one of `architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, or `architectureDescriptionRef` when durable description use is live, one E.18 graph or path-slice reference, the architecture-flow `FlowTransductionStructure`, one blocked overread, and stop or exact governing pattern application. Use crossing, flow-valuation, correspondence, and source-return fields only when they change the next architecture move. All other fields are conditional and may be `not live`.
 
-Use this relation only when a functional-architecture or flow-structure claim uses E.18 graph/path/crossing/valuation relation. Stop when the architecture flow relation and non-admissible uses are clear. Do not open work, evidence, assurance, gate, causal, mathematical-lens, P2W, or architecture-decision claim unless that claim kind is live.
+Use this relation only when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, functional-architecture view, flow-structure claim, or conditional architecture-description use depends on an E.18 graph, path, crossing, or valuation relation. Stop when the architecture flow relation and non-admissible uses are clear. Open a neighboring pattern only when that neighboring claim kind is live.
 
+What goes wrong if this pattern is missed: a TGA graph becomes functional architecture, whole architecture ontology, work sequence, proof, or project decision by appearance.
 
-What goes wrong if this pattern is missed: a TGA graph becomes functional architecture, whole architecture ontology, work sequence, evidence path, gate result, causal flow proof, assurance claim, or project decision by appearance.
+What this buys in practice: the practitioner can use E.18 for flow or transduction structure while C.30 remains the grounded architecture and selected-structure adequacy locus and C.30.ASV remains the architecture-structural-view locus.
 
-What this buys in practice: the practitioner can use E.18 for flow/transduction structure while C.30 remains the governing architecture-description locus and C.30.ASV remains the architecture-structural-view locus.
-
-Not this pattern when the live question is a graph, path, crossing, or flow valuation without architecture-description claim kind. Use E.18 directly. If the live question is architecture description without E.TGA graph/path/crossing claim kind, use C.30. If it is a functional view without flow/TGA claim kind, use C.30.ASV and A.6.F. If it is work, evidence, assurance, gate, causal use, mathematical-lens adequacy, P2W, or decision claim, use the exact governing pattern and keep C.30.TGA-FLOW-REL only to the architecture-flow relation.
+Not this pattern when the live question is a graph, path, crossing, or flow valuation without a live relation to grounded architecture adequacy, conditional architecture-description use, or an architecture structural view. Use E.18 directly. If the live question is an architecture claim or durable architecture description without an E.TGA graph claim, path claim, or crossing claim kind, use C.30. If it is a functional view without flow relation or TGA claim kind, use C.30.ASV and A.6.F. If another live claim is present, use the exact governing pattern and keep C.30.TGA-FLOW-REL only to the architecture-flow relation.
 

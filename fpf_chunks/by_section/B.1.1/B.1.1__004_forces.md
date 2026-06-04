@@ -6,12 +6,12 @@ section_id: "B.1.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:3 — Forces"
-line_start: 28354
-line_end: 28363
+line_start: 28564
+line_end: 28572
 dependencies:
   - "A.1"
   - "A.12"
@@ -40,5 +40,4 @@ keywords:
 | **Parsimony vs. Expressiveness**   | Keep the vocabulary small (A.11) ↔ include the minimal extra relations that engineers actually use (A.14).                          |
 | **Locality vs. Connectivity**      | Preserve boundary‑local reasoning (LOC) ↔ still allow explicit external influences via interactions, not parthood.                  |
 | **Static clarity vs. Dynamic use** | Graphs must be easy to read and verify ↔ also feed Γ\_ctx, Γ\_time, Γ\_method, Γ\_work without duplications or mismatches.            |
-
 

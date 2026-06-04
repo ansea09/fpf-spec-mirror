@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/I.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
-line_start: 81909
-line_end: 82124
+line_start: 82493
+line_end: 82708
 dependencies:
 keywords:
 ---
@@ -174,17 +174,17 @@ Each worked entry reading keeps recoverable:
 
 ### I.2.6 - Same-entity rewrite, explanation, and comparative reading
 
-- **Case signal:** "We need to explain the same described entity for another audience."
+- **Case signal:** "We need to explain the same EntityOfConcern for another audience."
 - **Initial uncertainty:** explanation, rendering, repair, representation
   transition, and comparison are all nearby, and the reader can accidentally
-  mint one second described entity.
+  mint one second EntityOfConcern.
 - **Plausible candidate patterns:** `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`,
   `E.17.ID.CR`.
 - **Nearby patterns:** `E.17.AUD.LHR` for pressured-head local repair;
   `E.17.AUD.OOTD` for `PublicationUnit` stability.
 - **Tempting wrong pattern:** explanation-as-new-object or repair-as-second-rule
   track.
-- **Disambiguating fact:** the governed object stays the same; only rendering,
+- **Disambiguating fact:** the same-EntityOfConcern rewrite/comparative-reading case stays the same; only rendering,
   reading posture, or explanatory framing changes.
 - **Recognition repair or entry-load reclassification:** move toward same-entity
   rewrite or explanation-facing rendering while rejecting second-object drift.

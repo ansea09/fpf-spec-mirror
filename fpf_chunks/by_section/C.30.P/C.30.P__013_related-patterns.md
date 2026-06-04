@@ -6,12 +6,12 @@ section_id: "C.30.P:10"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__013_related-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:10 — Related patterns"
-line_start: 52137
-line_end: 52149
+line_start: 52294
+line_end: 52308
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -43,14 +44,16 @@ keywords:
 
 ### C.30.P:10 - Related patterns
 
-- `E.10` catches architecture/structure wording and selects this pattern only when the live object is hidden.
+- `E.10` catches architecture or structure wording and selects this pattern only when the selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or exact C.30 subcase is hidden.
 - `E.10.ARCH` defines the shared wording-use recovery order and applicability row.
 - `A.22` governs selected structure and structural views as structure.
-- `C.30` governs architecture descriptions and `ArchitectureOf@Context`.
+- `C.30` governs grounded `ArchitectureOf@Context` adequacy and thin conditional `ArchitectureDescription@Context` bridge use.
+- `C.30.AD` governs the full architecture-description mechanism when `ArchitectureDescription@Context` is the live EntityOfConcern.
 - `C.30.ASV` governs architecture structural views.
-- Exact `C.30.*` patterns govern their own structure/view adequacy questions.
-- `C.2.P` recovers source, publication, view, face, `PublicationUnit`, carrier, and source-transfer use.
-- `A.6.P` repairs relation construction; `A.6.F` repairs function-like carrier wording; `A.6.M` repairs module/interface relation wording.
-- `C.16.P` and `C.16.Q` repair characteristic/scale and quality/evaluative characterization wording before score or quality use.
-- `C.29` governs mathematical-lens adequacy and does not become architecture by analogy.
+- `C.30.STRAT` receives stratification wording or source-label wording before C.30.P assigns any recovered architecture or structure portion.
+- Exact `C.30.*` patterns govern their own structure adequacy or view adequacy questions.
+- `C.2.P` recovers source, publication, view, face, `PublicationUnit`, carrier, and source-use disposition.
+- `A.6.P` repairs relation construction; `A.6.F` repairs function and functionality wording; `A.6.M` repairs module-relation and interface-specification wording.
+- `C.16.P` repairs characteristic-and-scale wording, and `C.16.Q` repairs quality-term or evaluative characterization wording before score or quality use.
+- `C.29` governs mathematical-lens use and does not become architecture by analogy.
 

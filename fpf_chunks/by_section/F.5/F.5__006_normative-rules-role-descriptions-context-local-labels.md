@@ -6,12 +6,12 @@ section_id: "F.5:5"
 section_title: "Normative rules — Role Descriptions (context‑local labels)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_normative-rules-role-descriptions-context-local-labels.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:5 — Normative rules — Role Descriptions (context‑local labels)"
-line_start: 69884
-line_end: 69909
+line_start: 70683
+line_end: 70707
 dependencies:
   - "A.11"
   - "A.7"
@@ -60,5 +60,4 @@ Let **T** be a Role Description in Context **C** with SenseCell `sense(T)=⟨C,�
 **R‑RD‑7 (Edition‑neutral labels).** Do **not** bake edition/profile into labels. Edition lives in the **Context**; the card binds to a SenseCell that already encodes edition where needed.
 
 **R‑RD‑8 (Short and stable).** Favour **1–3 words**. Avoid rhetorical adjectives (*“robust, optimal, best‑practice”*).
-
 

@@ -6,16 +6,17 @@ section_id: "E.10.ARCH:12"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_related-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Related patterns"
-line_start: 58429
-line_end: 58442
+line_start: 59569
+line_end: 59583
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.SPR"
   - "A.22"
   - "A.6.3.CSC"
   - "A.6.F"
@@ -30,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ASV"
   - "C.30.P"
+  - "C.30.STRAT"
   - "E.10"
   - "E.19"
   - "E.2"
@@ -44,13 +46,14 @@ keywords:
 
 - `E.10` catches and closes local wording issues or selects the applicable row.
 - `A.6.P` realizes the shared algorithm for relation construction and retained relation specializations.
-- `A.6.F` realizes function-like carrier recovery.
-- `C.2.P` realizes source-expression, episteme/publication, and FPF-transfer/conformance recovery.
-- `C.30.P` realizes architecture/structure wording recovery.
-- `C.16.P` realizes characteristic/scale wording recovery.
-- `C.16.Q` realizes quality/evaluative characterization wording recovery.
-- `F.18` governs durable reusable naming after the live object is known.
+- `A.6.F` realizes function-like exact-kind and relation recovery.
+- `C.2.P` realizes source-expression, episteme, publication, and FPF-governed-use recovery.
+- `C.30.P` realizes architecture and structure wording recovery.
+- `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before exact receiving-pattern return.
+- `C.16.P` realizes characteristic and scale wording recovery.
+- `C.16.Q` realizes quality characterization and evaluative characterization wording recovery.
+- `A.19.SPR` realizes state-family wording recovery when bearer, state frame, value set, admissible use, or exact receiving pattern is hidden.
+- `F.18` governs durable reusable naming after the live kind or relation is known.
 - `E.8` governs pattern-form and placement wording.
 - `E.19` checks distribution preservation during review and refresh.
 - `J.4` helps readers enter the correct pattern from broad or old terms.
-

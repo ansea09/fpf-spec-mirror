@@ -6,12 +6,12 @@ section_id: "F.17:8"
 section_title: "Column Families (two canonical layouts)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__009_column-families-two-canonical-layouts.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:8 — Column Families (two canonical layouts)"
-line_start: 74321
-line_end: 74353
+line_start: 74911
+line_end: 74943
 dependencies:
   - "A.1.1"
   - "A.11"

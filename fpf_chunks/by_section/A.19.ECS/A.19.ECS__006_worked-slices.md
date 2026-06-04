@@ -6,12 +6,12 @@ section_id: "A.19.ECS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__006_worked-slices.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:5 — Worked slices"
-line_start: 22801
-line_end: 22812
+line_start: 22818
+line_end: 22829
 dependencies:
   - "A.17-A.19"
   - "C.16"

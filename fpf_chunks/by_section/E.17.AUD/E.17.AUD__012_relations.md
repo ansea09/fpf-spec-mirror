@@ -6,12 +6,12 @@ section_id: "E.17.AUD:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__012_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:11 — Relations"
-line_start: 64021
-line_end: 64026
+line_start: 64893
+line_end: 64898
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,7 +27,6 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17"
@@ -45,6 +44,6 @@ keywords:
 ### E.17.AUD:11 - Relations
 
 - **Builds on:** `A.7`, `E.10`, `F.18`, `E.14`, `E.19`, `E.17`, and `C.2.1`.
-- **Coordinates with:** `E.17.AUD.LHR Local Head Restoration`, `E.17.AUD.OOTD PublicationUnit Primary Described-Entity Discipline`, `E.17.ID.CR ComparativeReading`, `E.17.EFP ExplanationFaithfulnessProfile`, and `E.21` when a pattern-quality card, table, status line, or generated summary is published as a bounded publication unit. `E.17.AUD` governs publication-unit honesty; `E.21` governs the underlying pattern-quality claim. Also coordinates with project-side FPF patterns such as `C.11`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, and `A.21` when decision, evidence, gate, assurance, engineering-justification, work, or reliance claims become primary.
+- **Coordinates with:** `E.17.AUD.LHR Local Head Restoration`, `E.17.AUD.OOTD PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, `E.17.EFP ExplanationFaithfulnessProfile`, and `E.21` when a pattern-quality card, table, status line, or generated summary is published as a bounded publication unit. `E.17.AUD` governs publication-unit honesty; `E.21` governs the underlying pattern-quality claim. Also coordinates with project-side FPF patterns such as `C.11`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, and `A.21` when decision, evidence, gate, assurance, engineering-justification, work, or reliance claims become primary.
 - **Boundary consequence:** when the publication unit can no longer stay honest inside this publication-unit stability pattern, apply the neighboring FPF pattern or name the exact project-side FPF kind and reference instead of treating publication-unit stability as a general explanation, comparison, decision, gate, work, or reliance discipline.
 

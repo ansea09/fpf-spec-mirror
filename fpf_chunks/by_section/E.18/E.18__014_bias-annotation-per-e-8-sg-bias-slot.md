@@ -6,12 +6,12 @@ section_id: "E.18:13"
 section_title: "Bias‑Annotation (per E.8 SG‑bias slot)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__014_bias-annotation-per-e-8-sg-bias-slot.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:13 — Bias‑Annotation (per E.8 SG‑bias slot)"
-line_start: 65187
-line_end: 65196
+line_start: 66060
+line_end: 66069
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -44,7 +44,7 @@ keywords:
 
 * **Acyclic‑bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops; E.TGA explicitly permits loops with budget/sentinel controls (CC‑TGA‑13,‑18).
 * **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto/QD sets; E.TGA keeps declared order relations and return sets visible (CC-TGA-10, CC-TGA-12).
-* **Interop‑dominance risk.** File/format ecosystems (CWL/RO‑Crate/lineage) can be mistaken for semantic sources; E.TGA places them in **InteropCard** and keeps intensional semantics in nodes/gates.
+* **Interop‑dominance risk.** File/format ecosystems (CWL/RO‑Crate/lineage) can be mistaken for semantic sources; E.TGA places them in **InteropCard** and keeps governing semantics in nodes/gates.
 * **Over‑formalization risk.** Category‑theoretic formalisms can obscure operational guard‑rails; E.TGA grounds crossings in Bridge/UTS/CL/Φ pins and SquareLaw audits (CC‑TGA‑11,‑17).
 * **Retrospective rewrite risk.** Global rewrites break replay; E.TGA confines them to edition bumps and slice‑local refresh (CC‑TGA‑16).
 

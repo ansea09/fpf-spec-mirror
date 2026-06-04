@@ -6,12 +6,12 @@ section_id: "E.18:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__011_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:10 — Consequences"
-line_start: 65144
-line_end: 65158
+line_start: 66017
+line_end: 66031
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -44,7 +44,7 @@ keywords:
 
 **Benefits.**
 
-1. **Universality with discipline:** one edge kind and explicit gates eliminate second hidden work/method orders and make cross-domain flows (ML, supply-chain, TAMP and MPC, scientific work graphs) uniformly analyzable and auditable.
+1. **Universality with discipline:** one edge kind and explicit gates eliminate second hidden work and method orders and make cross-domain flows (ML, supply-chain, TAMP and MPC, scientific work graphs) uniformly analyzable and auditable.
 2. **Comparability & replayability:** CSLC and edition‑pinned comparators prevent covert scalarization and enable declared set returns and reproducible decisions.
 3. **Locality of change:** sentinel subflows restrict refresh to affected `PathSlice`s; large graphs remain stable under frequent edition bumps.
 4. **Clean DesignRunTag fold:** LaunchGate and `DesignRunTagConsistency` stop premature launch‑value slot filling; acceptance and telemetry live where they occur (`U.Work`).

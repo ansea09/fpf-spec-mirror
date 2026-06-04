@@ -6,12 +6,12 @@ section_id: "B.1.4:7"
 section_title: "Conformance Checklist (normative checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__008_conformance-checklist-normative-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:7 — Conformance Checklist (normative checklist)"
-line_start: 29344
-line_end: 29357
+line_start: 29508
+line_end: 29520
 dependencies:
   - "A.12"
   - "A.14"
@@ -37,5 +37,4 @@ keywords:
 | **CC‑B1.4.6** | All nodes SHALL share the same `DesignRunTag` (`design` or `run`) in a single fold.                                                                                            | Ban DesignRunTag chimeras.                      |
 | **CC‑B1.4.7** | Structural inclusion, mappings, and resource spending SHALL NOT be encoded as order/time edges; route to **Γ\_sys and Γ\_epist**, value-level links, or **Γ\_work** respectively. | Enforce A.15 Strict Distinction.              |
 | **CC‑B1.4.8** | If coverage breaks or identity changes, the modeller SHALL refactor the graph or declare a **Meta‑Holon Transition** (B.2).                                                     | Make emergence explicit.                      |
-
 

@@ -6,12 +6,12 @@ section_id: "C.30.P:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__004_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:2 — Problem"
-line_start: 51983
-line_end: 51993
+line_start: 52137
+line_end: 52147
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -48,7 +49,7 @@ How can FPF repair architecture or structure wording without:
 - creating `U.Architecture`;
 - treating architecture and structure as one fused kind;
 - treating a description, view, diagram, graph, dashboard, source, ADR, model, or publication as the architecture itself;
-- assigning all function, flow, module/interface, signature, control, evidence, assurance, gate, decision, work, quality, mathematical-lens, or source claims to architecture;
+- assigning all function, flow, module-interface, signature, control, evidence, assurance, gate, decision, work, quality, mathematical-lens, or source claims to architecture;
 
 - duplicating first-stage repair lists inside `A.22`, `C.30`, `C.30.ASV`, and every exact `C.30.*` subpattern?
 

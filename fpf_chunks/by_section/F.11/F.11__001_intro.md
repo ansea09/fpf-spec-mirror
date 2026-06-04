@@ -6,12 +6,12 @@ section_id: "F.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:intro — Intro"
-line_start: 72208
-line_end: 72217
+line_start: 72909
+line_end: 72917
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,5 +47,4 @@ keywords:
 **Builds on:** E.10.D1 **D.CTX** (Context discipline); A.3/**A.3.1**/**A.3.2** (Transformer Constitution; `U.Method`, `U.MethodDescription`); A.15/**A.15.1** (`U.Work` as record of occurrence); Sys‑CAL (control/actuation semantics); KD‑CAL (observation).
 **Coordinates with.** F.1–F.3 (Contexts, Seeds → SenseCells), F.4 (Role Description), F.5 (Naming), F.6 (Role Assignment & Enactment Cycle (Six-Step)), F.7/F.9 (Bridges), F.10 (Status families & Windows).
 **Aliases (informative).** *Method/Spec/Work or Actuation split*; *DesignRunTag harmonisation*.
-
 

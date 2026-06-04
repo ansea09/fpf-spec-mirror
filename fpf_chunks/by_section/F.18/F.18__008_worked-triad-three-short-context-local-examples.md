@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked triad (three short, context‑local examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__008_worked-triad-three-short-context-local-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:7 — Worked triad (three short, context‑local examples)"
-line_start: 74736
-line_end: 74790
+line_start: 75336
+line_end: 75389
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -35,7 +35,7 @@ keywords:
 * **Purpose / use‑domain:** industrial thermal utilities; line‑level planning and operations
 * **Unified Tech label:** Cooling Supply
 * **Plain label:** Chilled water for line B
-* **Sense anchor:** supply of water at defined temperature/flow to boundary B
+* **Sense reference:** supply of water at defined temperature/flow to boundary B
 * **Concept‑Set:** “Utility service” row; local variant recorded
 * **Alignment note:** Bridge to “Plant Utilities - 2026” notes that “Cooling Supply” there bundles filtration; *loss:* filtration is not guaranteed in this Context
 * **Version:** 20 Feb 2024
@@ -49,7 +49,7 @@ keywords:
 * **Purpose / use‑domain:** OR governance and staffing; credentialing and checklists
 * **Unified Tech label:** Surgeon Role
 * **Plain label:** Operating surgeon
-* **Sense anchor:** person who is authorised to perform surgical steps under defined checks
+* **Sense reference:** person who is authorised to perform surgical steps under defined checks
 * **Concept‑Set:** “Clinical roles” row
 * **Alignment note:** Bridge to “Training & Credentialing - 2026” shows partial overlap; *loss:* that Context’s “Senior Surgeon” carries teaching duties that do not apply here
 * **Version:** Feb 2025; renamed‑from “Lead Surgeon” (2025) with rationale: avoided “lead” vs “operating” ambiguity
@@ -71,12 +71,11 @@ keywords:
 * **Purpose / use‑domain:** service performance management; public service SLAs
 * **Unified Tech label:** Passport Lead‑Time
 * **Plain label:** Time to issue a passport
-* **Sense anchor:** elapsed time from complete application to issuance
+* **Sense reference:** elapsed time from complete application to issuance
 * **Concept‑Set:** “Service quality requirements” row
 * **Alignment note:** Bridge to “Legal Framework - 2026” records that legal “deadline” has different remedies; *loss:* legal exemptions not carried into this Context
 * **Version:** current
 * **NQD‑front (seed candidates):** *Passport Lead‑Time*, *Issuance Time*, *Service Turnaround*, *Time to Issue Passport*. **Chosen:** *Passport Lead‑Time* (neutral; Plain remains didactic).
 
 **Why it’s good.** Target values (e.g., ≤ 20 days) are not in the label; they live in acceptance clauses.
-
 

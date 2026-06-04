@@ -6,12 +6,12 @@ section_id: "A.15:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:6 — Bias-Annotation"
-line_start: 19430
-line_end: 19446
+line_start: 19487
+line_end: 19503
 dependencies:
   - "A.10"
   - "A.12"
@@ -56,8 +56,8 @@ Bias risks and mitigations:
   *Mitigation:* preserve role and capability as contextual-functional entities, not parts.
 * **Epistemic bias (Onto/Epist):** a documented recipe or schedule can be mistaken for proof of execution.
   *Mitigation:* require the traceability chain from `U.RoleAssignment` and `U.MethodDescription` to dated `U.Work`.
-* **Pragmatic bias (Prag):** teams may keep using one overloaded "process" word because it feels faster.
-  *Mitigation:* resolve "workflow", "schedule", and "what happened" through `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`.
+* **Pragmatic bias (Prag):** teams may keep using one overloaded source-side "process" word because it feels faster.
+  *Mitigation:* resolve "workflow", "schedule", and "what happened" source cues through `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`.
 * **Didactic bias (Did):** the chef analogy can make the pattern seem intuitive while hiding the need for explicit model links.
   *Mitigation:* pair the analogy with the canonical relations and checklist.
 

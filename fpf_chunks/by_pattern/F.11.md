@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.11.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
-line_start: 72208
-line_end: 72547
+line_start: 72909
+line_end: 73230
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,6 @@ keywords:
 **Coordinates with.** F.1–F.3 (Contexts, Seeds → SenseCells), F.4 (Role Description), F.5 (Naming), F.6 (Role Assignment & Enactment Cycle (Six-Step)), F.7/F.9 (Bridges), F.10 (Status families & Windows).
 **Aliases (informative).** *Method/Spec/Work or Actuation split*; *DesignRunTag harmonisation*.
 
-
 ### F.11:1 - Intent & applicability
 
 **Intent.** Provide a **notation‑free, Context‑aware map** that keeps four notions distinct and connectable:
@@ -63,7 +62,6 @@ The pattern makes the split **usable across FPF patterns** (Role Assignment & En
 
 **Non‑goals.** No team workflow, no editors, no tools. No prescriptive file formats. **Only** conceptual distinctions and safe reasoning moves.
 
-
 ### F.11:2 - Problem frame
 
 When Method, MethodDescription, Work, and Actuation **collapse into one another**, models drift:
@@ -73,7 +71,6 @@ When Method, MethodDescription, Work, and Actuation **collapse into one another*
 3. **Execution ≟ control.** PLC *task execution* logs are conflated with *control outputs* (actuation), hiding stability issues.
 4. **Cross‑context homonymy.** *Activity, task, execution, process, command* change sense across Contexts; inferences quietly break.
 
-
 ### F.11:3 - Forces
 
 | Force                        | Tension to resolve                                                                                             |
@@ -82,7 +79,6 @@ When Method, MethodDescription, Work, and Actuation **collapse into one another*
 | **Universality vs locality** | Quartet must be reusable across FPF patterns, while meanings stay **context‑local**.                             |
 | **Evidence vs approval**     | Evidence (run‑time) should support decisions, but must **not** be mistaken for deontic approval (design‑time). |
 | **Action vs signal**         | Executing a method is not the same as emitting a control signal; both can co‑occur in one scenario.            |
-
 
 ### F.11:4 - Core idea (didactic)
 
@@ -102,7 +98,6 @@ When Method, MethodDescription, Work, and Actuation **collapse into one another*
 
 Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑context relations use Bridges** (F.7/F.9) with CL/Loss.
 
-
 ### F.11:5 - Minimal vocabulary (this pattern only)
 
 * **Context** = `U.BoundedContext` (per D.CTX).
@@ -110,7 +105,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 * **Concept‑Set** (F.7/F.8): row aligning multiple SenseCells as “what we regard as the same” (after Bridges & losses are declared).
 * **Window** (F.10): temporal/conditional envelope (e.g., *July*, *during test run T42*, *under load ≥ 70%*).
 * **StatusCell** (F.10): laddered status **about** methods/specs/works (e.g., *Approved (spec)*; *Observed/Measured (work)*).
-
 
 ### F.11:6 - Solution — the quartet lens (notation‑free)
 
@@ -139,7 +133,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 * **Roles** (F.4) bind **who enacts** the Method at run‑time (behavioural masks), **not** what permissions they hold (RBAC is a different Context).
 * **Statuses** (F.10) bind to the right box: *Approved* → MethodDescription; *Measured/Observed* → Work; *Satisfied/Violated* → Requirement clause about the Work’s outcomes within a **Window**.
 
-
 ### F.11:7 - Harmonisation map (Context‑first)
 
 > Examples of **local SenseCells** and **safe Bridges**. *You may keep the exact Contexts from your F.1 cut.*
@@ -163,7 +156,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 * `Actuation (IEC)` **⋂** `Activity (PROV)` (intersection: the *sub‑intervals* where outputs are emitted).
 * `SOSA:Observation` **interprets** `Requirement clause` (F.10) about **Work outcomes** (**cross‑StatusModality: epistemic→deontic; never substitution**; declare **Bridge(kind=Interpretation, CL, Loss)**).
 
-
 ### F.11:8 - Invariants (normative)
 
 1. **DesignRunTag honesty.** Statements about **Method or MethodDescription** (design) **MUST NOT** be used as if they were statements about **Work or Actuation** (run) without an explicit Bridge and Window.
@@ -173,7 +165,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 5. **Actuation as Work‑part.** Actuation **MUST** be modelled as **occurring within** (or as a specialised form of) Work on the run stance; it does **not** replace Work.
 6. **Naming clarity.** Technical/Plain labels for the quartet **SHOULD** be distinct (F.5); avoid homonymous single‑word labels when Contexts collide.
 7. **Bridge guard.** Cross‑context moves **MUST** declare **kind** (≈, ⊑, ⊒, ⋂, ⊥, Interpretation), **CL**, and **Loss** (F.7/F.9).
-
 
 ### F.11:9 - Micro‑examples (didactic)
 
@@ -206,7 +197,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 | **A11** | **Recipe‑as‑Type**             | Treating a MethodDescription vocabulary as a type taxonomy.                  | Category error; misuses Kind-CAL.                                           | If a stable hierarchy of **kinds** of Methods is needed, mint **U.Type** nodes in Kind-CAL; keep MethodDescription as *description* only.                                                                                   |
 | **A12** | **Actuation Outside Work**     | Commands modeled without enclosing Work.                              | Severs signal from enactment context; breaks traceability.                  | Embed **Actuation** **within** **Work** intervals; relate to the enacting Role and Method or MethodDescription references.                                                                                                     |
 
-
 ### F.11:11 - Worked examples (extended)
 
 > Each scenario names Contexts (from your F.1 cut), identifies the quartet boxes, and shows safe Cross‑context moves.
@@ -225,7 +215,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 **Pay‑off:** No one infers SLO satisfaction from a plan. Evidence is about **Work**; the plan stays design‑time.
 
-
 #### F.11:11.2 - Industrial furnace control (control + sensing + services)
 
 * **Contexts:** *State‑space control texts* (design), *IEC 61131‑3* (run), *PROV‑O* (run), *SOSA/SSN* (sensing), *ITIL 4* (services).
@@ -239,7 +228,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 * **Bridge(s):** `IEC:Task` ⊑ `PROV:Activity` (CL=2, **Loss:** scan‑cycle semantics). `SOSA:Observation` **interprets** requirement clause (CL=3).
 
 **Pay‑off:** Separates **doing** from **pushing**, and both from **measuring**; compliance judged where it belongs.
-
 
 #### F.11:11.3 - Clinical assay
 
@@ -255,7 +243,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 **Pay‑off:** A clean line from recipe → run → measurement → decision, without role-assignment and status-assertion conflation.
 
-
 #### F.11:11.4 Incident response (services + enactment)
 
 * **Contexts:** *ITIL 4* (services/design), *BPMN 2.0* (design), *PROV‑O* (run).
@@ -269,7 +256,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 * **Bridge(s):** BPMN (design) → PROV (run) **Interpretation**, CL=2, **Loss:** gateways vs real‑time branching.
 
 **Pay‑off:** MTTR claims are tied to **Work**, not to the playbook.
-
 
 ### F.11:12 - Reasoning primitives (judgement schemas)
 
@@ -323,7 +309,6 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
     `SLO clause about service outcome ⊢ attachesTo(Work-window), not MethodDescription`
     *Reading:* Service obligations concern **what happened** within a Window, not the existence of a plan.
 
-
 ### F.11:13 - Relations
 
 **Builds on:**
@@ -338,7 +323,6 @@ E.10.D1 **D.CTX** (Context ≡ `U.BoundedContext`); A.3/**A.3.1**/**A.3.2**/**A.
 **Used by.**
 Part C patterns (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) when describing examples, proofs, and cross‑disciplinary mappings.
 
-
 ### F.11:14 - Migration notes (conceptual)
 
 1. **Split conflated “process”.** Where a single “process” node stands for both plan and run, refactor into **MethodDescription** (design) and **Work** (run); add a Bridge if the prose relied on identity.
@@ -347,7 +331,6 @@ Part C patterns (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) when de
 4. **Version fences.** Past Works keep references to the **version** of MethodDescription they attempted to follow; don’t update those links retroactively.
 5. **Name collisions.** Where *task/activity/process* appear with mixed meanings, prefix with Contexts and relabel per **F.5** (Tech/Plain).
 6. **Backfill Bridges.** If earlier text implied Cross‑context equivalence, add explicit Bridges (F.7/F.9) declaring **kind/CL/Loss**.
-
 
 ### F.11:15 - Acceptance tests (SCR/RSCR — concept level)
 
@@ -365,7 +348,6 @@ Part C patterns (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) when de
 * **RSCR‑F11‑E02 (Bridge drift).** If a Context updates, revisit Bridges that touch quartet terms; adjust **CL/Loss** only via F.7/F.9.
 * **RSCR‑F11‑E03 (Status drift).** Adding new statuses does not move them across boxes (e.g., no new “Work‑Approved”).
 * **RSCR‑F11‑E04 (Signal creep).** Introducing new Actuation details does not erase or replace Work context.
-
 
 ### F.11:16 - Didactic distillation (90‑second script)
 

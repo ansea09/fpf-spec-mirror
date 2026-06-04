@@ -6,12 +6,12 @@ section_id: "C.21:4"
 section_title: "Solution — Discipline Health Characterisation (DHC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__005_solution-discipline-health-characterisation-dhc.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:4 — Solution — Discipline Health Characterisation (DHC)"
-line_start: 43224
-line_end: 43288
+line_start: 43128
+line_end: 43204
 dependencies:
   - "A.17"
   - "A.18"
@@ -42,19 +42,19 @@ keywords:
 ### C.21:4 - Solution — **Discipline Health Characterisation (DHC)**
 
 #### C.21:4.0 - Ontology quick sheet (normative, clarifying)
-**What “DHC” is.** DHC is a **CHR vocabulary pack** (intensional) that defines **Characteristics** + **Scales/Units/Polarity** for discipline health; it is not a document or a run.
+**What “DHC” is.** DHC is a **CHR vocabulary pack** that defines **Characteristics** + **Scales/Units/Polarity** for discipline health; it is not a document or a run.
 **Artifacts.**
-• **`U.DHCPack`** (I‑layer name; published as an episteme): the **slot set** (Characteristic/Scale declarations) for a Context.
-• **`U.DHCMethodSpec`** (S‑layer): the **computational specification(s)** for deriving each DHC slot (e.g., replication‑window definition, CD‑index class), table‑backed; multiple per slot allowed, editioned separately.
+• **`U.DHCPack`** (I-lane name; published as an episteme): the **slot set** (Characteristic/Scale declarations) for a Context.
+• **`U.DHCMethodSpec`** (S-lane): the **computational specification(s)** for deriving each DHC slot (e.g., replication‑window definition, CD‑index class), table‑backed; multiple per slot allowed, editioned separately.
 • **`U.DHCSeries`** (episteme w/ `EditionSeries`): a **time‑indexed publication** of computed DHC readings for a Discipline×Context, each value bound to `…Ref.edition` for every referenced method/metric/distance.
 **Edition subjects.**
 (i) **DHCPack.edition** — when the **slot semantics** (Characteristic/Scale) change.
 (ii) **DHCMethodSpecRef.edition** — when a **computation method** (formula/class/policy) changes.
 (iii) **DHCSeries.edition** — when the **published series** changes its content (not carriers).
 **Publication.** Releases are **Work** on Carriers; **no** edition change unless content changes per `U.EditionSeries`.
-**Ref discipline.** All bindings to packs/methods/distances **SHALL** use `…Ref.edition` (dot on the Ref).
+**Ref discipline.** All bindings to packs/methods/distances use `...Ref.edition` (dot on the Ref).
 
-Define a **portable minimal set** of CHR **slots**. Each slot is **CHR-typed** (Characteristic, Scale/Unit/Polarity per **A.17–A.18**), **Context-local**, and guarded by **USM** (Claim scope **G**), **freshness windows**, and **evidence lanes** (TA/VA/LA).  Contexts MAY extend the set; MUST NOT alter scale types illegally.
+Define a **portable minimal set** of CHR **slots**. Each slot is **CHR-typed** (Characteristic, Scale/Unit/Polarity per **A.17–A.18**), **Context-local**, and guarded by **USM** (Claim scope **G**), **freshness windows**, and **evidence lanes** (TA/VA/LA).  Contexts may extend the set; conforming extensions do not alter scale types illegally.
 
 **“Health” is a vector** of CHR‑typed coordinates; **no single scalar** is implied. Lawful scalarization lives in **Acceptance** (G.4) under an explicit **CG‑Spec ScaleComplianceProfile (SCP)** and **Γ‑fold** rules, and is never embedded in CHR.
 
@@ -80,7 +80,19 @@ Define a **portable minimal set** of CHR **slots**. Each slot is **CHR-typed** (
   Use entropy/HHI **over MethodFamily/Tradition shares** (method edition id in UTS); publish **guard‑band** as **Acceptance** binding; cross‑ordinal scalarisation is forbidden.
   Entropy/Herfindahl-type dispersion across `U.Tradition`s, method families, or data regimes, bounded by a **Context-declared guard-band** (too low ⇒ monoculture; too high ⇒ incoherence).
 
-> **Typing & legality.** Each slot **MUST** declare **Scale/Unit/Polarity**; illegal ops (e.g., mean on ordinals; unit mixing) are **fail-fast** per **A.18/MM-CHR**.
+> **Typing & legality.** Each slot declares **Scale/Unit/Polarity**; illegal ops (e.g., mean on ordinals; unit mixing) are **fail-fast** per **A.18/MM-CHR**.
+
+#### C.21:4.1a - Engineering-grade and semio-substitution extension slots
+
+Contexts MAY add these DHC slots when the discipline-health question includes engineering-grade reasoning, architecturing, optimization, prediction, comparison, assurance input, decision input, first-principles justification, mathematical-lens use, or source-publication overread. These slots remain discipline-health characteristics. They do not become evidence relations, assurance relations, gate decisions, mathematical-lens use, measurement legality, release permission, or project authority.
+
+7. **EngineeringClaimJustificationRecoverability** *(ordinal; polarity ↑; ReferencePlane=episteme|world by declared claim; CG-Spec-bound when aggregated)*
+   Degree to which engineering-grade claims in the discipline or Context expose the exact justification that carries their force for the declared use. The justification may be a named construction, source, model, lens, evidence relation, characteristic relation, assurance relation, gate relation, method relation, or heuristic triage boundary, but it must cite the exact neighbouring FPF pattern when that force is live (`A.10`, `B.3`, `A.15`, `A.20`, `A.21`, `C.16`, `C.29`, or another exact pattern). Heuristic examples may carry recognition and triage only; prediction, comparison, optimization, falsification, assurance-input, decision-input, or architecture-readiness force requires the recoverable justification.
+
+8. **SemioSubstitutionPressure** *(ordinal or ratio; polarity ↓ to band; ReferencePlane=episteme; CG-Spec-bound when aggregated)*
+   Degree to which discipline texts, patterns, dashboards, views, publications, source chains, or review artifacts substitute wording, publication form, record appearance, source appearance, or explanation fluency for the operative engineering entity, relation, work, evidence, assurance, gate, decision, method, or mathematical-lens claim. Lower pressure is healthier when the discipline keeps EntityOfConcern, episteme, publication, source, carrier, and project-side claim kind or admissible-use boundary separable and names the exact receiving pattern for any live claim or admissible-use boundary.
+
+**Extension guard.** Activating either extension slot requires a local `EngineeringClaimJustification` note or semio-substitution note that names the live claim kind or admissible-use boundary, exact neighbouring FPF pattern, admissible use, non-admissible overread, and stop or reopen condition. The note is a DHC value explanation, not a new evidence source, assurance case, gate, release record, or work authority.
 
 #### C.21:4.2 - Guard Macros (normative)
 

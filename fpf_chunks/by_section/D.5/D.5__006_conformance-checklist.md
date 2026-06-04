@@ -6,12 +6,12 @@ section_id: "D.5:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__006_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
   - "D.5:5 — Conformance Checklist"
-line_start: 53651
-line_end: 53663
+line_start: 54763
+line_end: 54774
 dependencies:
   - "B.3"
   - "B.3.3"
@@ -40,5 +40,4 @@ keywords:
 *   **CC-D5-CF-3:** If a counterfactual fairness estimand is claimed actionable, it MUST cite `CausalIdentificationProfile` or `CounterfactualSamplingRealizabilityProfile`.
 *   **CC-D5-CF-4:** A causal fairness audit MUST cite `C.28` for causal-use question, causality-ladder rung, causal estimand, causal evidence support basis, identification, realizability, evidence design, `causalUseSupportRecordRef` when one is consumed, and `CausalUseSupportVerdict`; `D.5` keeps ethical audit and fairness assurance.
 *   **CC-D5-CF-5:** A local causal-fairness wording repair or support-reference repair does not trigger the full Bias-Audit Cycle unless `D.5` project, release, assurance, or human/group-impact audit conditions are live.
-
 

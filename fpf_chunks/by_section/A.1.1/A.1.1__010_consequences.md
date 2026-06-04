@@ -6,12 +6,12 @@ section_id: "A.1.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__010_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.1.1 — U.BoundedContext: The Semantic Frame"
   - "A.1.1:9 — Consequences"
-line_start: 1457
-line_end: 1465
+line_start: 1459
+line_end: 1467
 dependencies:
   - "A.1"
   - "A.2.1"

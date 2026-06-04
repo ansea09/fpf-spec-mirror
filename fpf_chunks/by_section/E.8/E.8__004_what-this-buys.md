@@ -6,12 +6,12 @@ section_id: "E.8:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__004_what-this-buys.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.2 — What this buys"
-line_start: 55108
-line_end: 55127
+line_start: 56214
+line_end: 56231
 dependencies:
   - "E.10"
   - "E.19"
@@ -56,15 +56,13 @@ keywords:
 
 **Cheap stop.** If the draft already gives a cold reader the working situation, first useful move, practical payoff, ordinary boundary, and nearest heavier assurance condition, do not add more authoring apparatus just to look mature. Use conformance material to verify that guidance; do not let it replace the guidance.
 
-**FPF-force-bearing authoring extension.** Add heavier assurance, conformance, SoTA grounding, relation material, or neighboring-pattern material only when the light recognition text would leave a live false claim, unstable governed object, hidden neighbouring-pattern boundary, unbacked practical payoff, or misleading admissible use.
+**FPF-governed wording extension.** Add heavier assurance, conformance, SoTA grounding, relation material, or neighboring-pattern material only when the light recognition text would leave a live false claim, unstable primary `EntityOfConcern`, hidden neighbouring-pattern boundary, unbacked practical payoff, or misleading admissible use.
 
 When an authoring pass claims quality improvement rather than ordinary drafting, keep these roles distinct: `E.22` frames the improvement-oriented quality-read question, the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings, `C.16.Q` repairs overloaded quality and evaluative-characterization wording, `C.25` carries engineering quality-family endpoints when live, and `E.23` governs any repeated quality-improvement method. Closing checklist rows or satisfying a review profile is not by itself quality improvement.
 
-
 **Maturity rule.** Section completeness is not pattern maturity. A pattern matures when its `Problem frame`, `Solution`, worked cases, boundaries, and conformance checks all point to the same usable action guidance.
 
-
-**Governed object in plain terms.** The governed object is the authored FPF pattern body: its canonical sections, reader-recognition role, wording discipline, examples, rationale, anti-patterns, SoTA-Echoing, and relations.
+**Primary EntityOfConcern in plain terms.** The primary `EntityOfConcern` is the authored FPF pattern body: its canonical sections, reader-recognition role, wording discipline, examples, rationale, anti-patterns, SoTA-Echoing, and relations.
 
 **Primary working reader.** The first reader is an FPF author or reviewer shaping pattern prose for later practitioners and managers. The downstream practitioner is the reader the pattern must ultimately serve, so the authoring guide must model the same recognition discipline it requires.
 

@@ -6,12 +6,12 @@ section_id: "B.3.5:9"
 section_title: "Rule‑set — CT2R‑LOG (conceptual, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__010_rule-set-ct2r-log-conceptual-human-first.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:9 — Rule‑set — CT2R‑LOG (conceptual, human‑first)"
-line_start: 31734
-line_end: 31826
+line_start: 31859
+line_end: 31948
 dependencies:
   - "B.3"
   - "C.13"
@@ -55,7 +55,6 @@ keywords:
 
 > **Authoring note.** This pattern defines *meanings*, not formats. The words above SHALL be used consistently and without reference to any specific notations or execution environments (Guard‑Rails: Notational Independence).
 
-
 #### B.3.5:9.2 - Normative rules (MUST/SHALL clauses for thinking‑and‑writing)
 
 **S‑1 (Working-Model first).**
@@ -92,7 +91,6 @@ When naming principles in `tv:AliasOf`, authors **SHOULD** use Tech/Plain *twin 
 **S‑8 (No tool talk).**
 Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑oriented notations in place of concepts. If examples are needed, they **MAY** be plain‑language narratives or domain vignettes. (This pattern is conceptual by Standard.)
 
-
 #### B.3.5:9.3 - Scope & Non‑Goals (to keep the plane clean)
 
 * **In scope.**
@@ -103,7 +101,6 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 
 * **Edge placements.**
   When a claim is chiefly about *naming fit* across Contexts, prefer **Mapping** grounding (Kind-CAL/Lang‑CHR stance). When it is chiefly about *why* it follows, prefer **Logical** grounding. When it is about *what the whole is, from its parts*, prefer **Constructive** grounding. (Authors MAY combine them.)
-
 
 #### B.3.5:9.4 - Author’s working moves (micro‑playbook, notation‑free)
 

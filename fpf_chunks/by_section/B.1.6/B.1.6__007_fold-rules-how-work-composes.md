@@ -6,12 +6,12 @@ section_id: "B.1.6:6"
 section_title: "Fold rules (how Γ\\_work composes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__007_fold-rules-how-work-composes.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:6 — Fold rules (how Γ\\_work composes)"
-line_start: 29866
-line_end: 29911
+line_start: 30014
+line_end: 30059
 dependencies:
   - "A.12"
   - "A.14"

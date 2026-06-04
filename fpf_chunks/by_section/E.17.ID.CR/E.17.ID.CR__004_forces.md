@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:3 — Forces"
-line_start: 63011
-line_end: 63025
+line_start: 63888
+line_end: 63902
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -45,11 +45,11 @@ keywords:
 | **Engineer-manager usability vs governance precision** | The pattern must start from a recognisable review situation without hiding its neighboring patterns. |
 | **Middle-band reality** | Some comparative readings are more committed than a bridge-stance overlay over an existing Bridge Card but still below full action selection. |
 | **Source tether vs interpretive lift** | The case must add a bounded interpretive lift without pretending to create a new free-floating semantics. |
-| **Governed object vs surrounding work** | The pattern must keep the comparative review unit, the bounded comparative reading, and the larger review process distinct rather than sliding between them by style. |
+| **Comparison unit vs surrounding work** | The pattern must keep the comparative review unit, the bounded comparative reading, and the larger review process distinct rather than sliding between them by style. |
 | **Viewing restraint** | Interpretation must not absorb same-entity viewing, conservative rewriting, or representation transduction whose main question is not comparative reading. |
 | **Bridge restraint** | Interpretation must not become a second bridge taxonomy. |
 | **Explanation restraint** | Interpretation must not become a shadow face-use discipline system next to `E.17.EFP`. |
 | **Abductive restraint** | Interpretation must stop before abductive-prompt or action-selection claim becomes live. |
-| **Ontology restraint** | Interpretation must not hide same-referent pressure, new-intension pressure, or changed `DescribedEntityRef`. |
+| **Ontology restraint** | Interpretation must not hide same-referent pressure, retargeted-EntityOfConcernRef pressure, or changed `EntityOfConcernRef`. |
 | **Interpretant-side boundedness** | Reader-fit may matter, but it must remain explicit and bounded rather than silently rewriting authority. |
 

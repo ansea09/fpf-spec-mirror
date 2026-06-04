@@ -6,12 +6,12 @@ section_id: "E.22:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__012_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality-Read Question Framing"
   - "E.22:11 — SoTA-Echoing"
-line_start: 67742
-line_end: 67753
+line_start: 68611
+line_end: 68622
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.22:11 - SoTA-Echoing
 
-`E.22:11` uses `SoTA` in the E.8 sense: current best-known problem-solving practice for the governed problem. A row may mention older lineage only to name the inherited invariant that current practice still uses; lineage does not carry SoTA by itself. Current references are used only for the local read-framing problem named in the row.
+`E.22:11` uses `SoTA` in the E.8 sense: current best-known problem-solving practice for the local read-framing question. A row may mention older lineage only to name the inherited invariant that current practice still uses; lineage does not carry SoTA by itself. Current references are used only for the local read-framing problem named in the row.
 
 | Claim | Current SoTA anchor and retained lineage | Local adoption | Non-use boundary |
 |---|---|---|---|

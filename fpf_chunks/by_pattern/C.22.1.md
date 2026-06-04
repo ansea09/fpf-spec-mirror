@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
-line_start: 43621
-line_end: 43768
+line_start: 43545
+line_end: 43692
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -59,7 +59,7 @@ FPF needs one compact way to publish a bounded specialization claim on the same 
 
 ### C.22.1:3 - Use this when
 
-- the governed claim is not only that a holder or dyad solved a task, but how fast it acquired usable specialization on a declared task family
+- the adaptation-signature claim is not only that a holder or dyad solved a task, but how fast it acquired usable specialization on a declared task family
 - comparison must stay honest about the work-measure threshold target, prior exposure, adaptation budget, transfer field, and reuse window
 - movement into a new solution corridor or stepping-stone family is part of the real novelty claim
 
@@ -87,7 +87,7 @@ FPF needs one compact way to publish a bounded specialization claim on the same 
 ### C.22.1:7 - Solution — one adaptation signature over the `C.22` anchor
 
 - Use one shared adaptation-signature field set for this question. `G.5`, `G.9`, and later notes may cite or consume it, but they should not silently rename threshold, prior-exposure, transfer, downside, or corridor-entry terms.
-- When specialization is the governed question, publish one adaptation signature bound to the declared `TaskFamilyRef` or `TaskSignature`, not one generic improvement claim.
+- When specialization is the adaptation-signature question, publish one adaptation signature bound to the declared `TaskFamilyRef` or `TaskSignature`, not one generic improvement claim.
 - The signature should expose at least:
   - `thresholdTarget`
   - `timeToThreshold`
@@ -162,7 +162,7 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 - This pattern keeps: threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, corridor-entry evidence, and adaptation-signature fields.
 - Non-admissible use: generic "learns faster" wording without task-family anchors does not create a C.27 profile or a complete adaptation signature; faster threshold crossing is not durable specialization unless transfer, retention, downside, and corridor-entry evidence are stated when claimed.
 
-- Exit: downgrade to Dyn1 trend when only a trend is live; use C.24 when the question is only tool-use planning; use C.22.1 when specialization is the governed question.
+- Exit: downgrade to Dyn1 trend when only a trend is live; use C.24 when the question is only tool-use planning; use C.22.1 when specialization is the adaptation-signature question.
 
 **Builds on:** `C.22` TaskSignature anchoring, `C.19.1` `BLP` compatibility, `A.15` role, method, work-plan, and work-occurrence separation, `C.24` scout/probe and `CheckpointReturn` semantics, `E.16` budget enforcement.
 **Coordinates with:** `G.5` selector specialization profiles, `G.9` adaptation parity, `G.11` later telemetry/refresh reuse.

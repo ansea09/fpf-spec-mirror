@@ -6,12 +6,12 @@ section_id: "F.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:3 — Forces"
-line_start: 72244
-line_end: 72253
+line_start: 72942
+line_end: 72950
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,5 +47,4 @@ keywords:
 | **Universality vs locality** | Quartet must be reusable across FPF patterns, while meanings stay **context‑local**.                             |
 | **Evidence vs approval**     | Evidence (run‑time) should support decisions, but must **not** be mistaken for deontic approval (design‑time). |
 | **Action vs signal**         | Executing a method is not the same as emitting a control signal; both can co‑occur in one scenario.            |
-
 

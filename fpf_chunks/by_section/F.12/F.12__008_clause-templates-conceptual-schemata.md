@@ -6,12 +6,12 @@ section_id: "F.12:7"
 section_title: "Clause templates (conceptual schemata)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__008_clause-templates-conceptual-schemata.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:7 — Clause templates (conceptual schemata)"
-line_start: 72637
-line_end: 72673
+line_start: 73313
+line_end: 73348
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -67,5 +67,4 @@ keywords:
 * **Predicate:** `restore_time − start_fix ≤ 60 min`.
 * **Window:** each incident’s **Work** interval.
 * **Bridge:** BPMN design steps → PROV Work **Interpretation** (CL=2; **Loss:** gateways ≠ real branching).
-
 

@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:4 — Solution"
-line_start: 76595
-line_end: 76905
+line_start: 77190
+line_end: 77500
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -70,7 +70,7 @@ keywords:
     // Scope pins (G.2‑specific)
     CG-FrameContext,
     Tradition[],
-    describedEntity := ⟨GroundingHolon, ReferencePlane⟩,
+    entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩,
     SoTA_SetId,
     SoTAPaletteDescriptionId,
 
@@ -116,7 +116,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
 2. **`G.2b ClaimSheets[Tradition]`**
    Typed Claim Sheets per `Tradition`, each with:
 
-* explicit `U.BoundedContext` and `describedEntity`,
+* explicit `U.BoundedContext` and `entityOfConcern`,
 * explicit evidence anchors/citations (A.10 and/or EvidenceGraph refs when available),
 * explicit freshness window notes and risk/trust cues *(cite `B.3` governing definitions when using trust/decay language)*.
 
@@ -128,12 +128,12 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
    If any row asserts substitution or fusion across sources or across `Tradition` records, the pack **MUST** attach a `GammaEpistSynthId` record (alias: **`G.2‑F`**) per `G.2:Ext.GammaEpistSynthesis` (no silent fusion).
 
 5. **`G.2e MicroExamples`**
-   Worked micro‑examples for load‑bearing claims, each citing A.10 carriers, declaring context + `describedEntity`, and annotating assurance type(s) (`TA`/`VA`/`LA`, where applicable).
+   Worked micro‑examples for load‑bearing claims, each citing A.10 carriers, declaring context + `entityOfConcern`, and annotating assurance type(s) (`TA`/`VA`/`LA`, where applicable).
 
 6. **`G.2f UTSProposals`**
    Draft Name Cards + Minimal Definitional Sheets (MDS) + alias proposals (incl. concept‑set linkage where applicable), with the required publication pins.
 
-7. **`G.2g describedEntity Map`**
+7. **`G.2g entityOfConcern Map`**
    Map from key terms/claims/public ids to `GroundingHolon`, `ReferencePlane`, and minimal reference cues for later CHR/CAL authoring.
 
 8. **`G.2h PRISMA Flow Record`**
@@ -160,7 +160,7 @@ A view‑friendly description object (pack‑local `SoTAPaletteDescriptionId`) t
 * `SoSIndicatorFamilies` (with variant/branch structure),
 * `MethodFamilyCards` / `GeneratorFamilyCards?`,
 * `MicroExamples`, `UTSProposals`,
-* and the `describedEntity Map` for citation and later CHR/CAL authoring.
+* and the `entityOfConcern Map` for citation and later CHR/CAL authoring.
 **Note (normative intent):** this is the primary “consumable surface” for `G.3/G.4/G.5`; it prevents downstream patterns from scraping free prose.
 
 **Editorial template: 1‑page “SoTA Sheet” per Tradition (informative).**
@@ -171,7 +171,7 @@ When authoring `ClaimSheets[Tradition]`, teams often benefit from a single‑pag
 A conforming `G.2` pack publication is built by iterating the following conceptual loop until the declared gates are satisfied:
 
 1. **Declare scope and plurality.**
-   Declare `CG-FrameContext`, the initial `Tradition` set, and the `describedEntity` surface for each intended claim region. Record these declarations in the pack pins (not as implicit assumptions).
+   Declare `CG-FrameContext`, the initial `Tradition` set, and the `entityOfConcern` surface for each intended claim region. Record these declarations in the pack pins (not as implicit assumptions).
 
 2. **Discover and triage sources (ledger‑first).**
    Populate `CorpusLedger` via:
@@ -193,7 +193,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
    If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** keep penalties routed to `R_eff` only by delegation (`CC‑GCORE‑PEN‑1`).
 
 7. **Publish teachable micro‑groundings.**
-   Attach worked micro‑examples to load‑bearing claims, each tied to A.10 carriers and declaring context + `describedEntity`.
+   Attach worked micro‑examples to load‑bearing claims, each tied to A.10 carriers and declaring context + `entityOfConcern`.
 
 8. **Apply gates and record repairs.**
    Enforce `FamilyCoverageFloorK` (and any optional diversity‑by‑distance gate). If a gate fails, the pack **MUST**:

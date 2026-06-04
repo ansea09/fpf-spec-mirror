@@ -6,12 +6,12 @@ section_id: "F.10:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__012_worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:11 — Worked examples"
-line_start: 72028
-line_end: 72098
+line_start: 72736
+line_end: 72802
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -52,7 +52,6 @@ keywords:
 
 **Result.** We may **explain** the **Satisfied** conclusion for *SLO‑99.9\@July*; we **do not** assert StandardStatus⇒RequirementStatus. If logs later show outages, a **Violated\@July** replaces **Satisfied\@July** (mutual exclusivity + Window discipline).
 
-
 #### F.10:11.2 - Safety controller: design approval vs run‑time duty
 
 **Contexts.** *State‑space control texts* — design; *IEC 61131‑3* — run; *Norm‑CAL profile (safety layer)* — deontics.
@@ -68,7 +67,6 @@ keywords:
 * **Interpretation**: `Corroborated(response@Q3)` **→** `Duty` check (kind = ⊑, CL = 2, Loss: sensor latency).
 
 **Result.** The **duty** may be **Satisfied\@Q3** with explanation. *Approved spec* **alone** never yields *Satisfied*; it authorises deployment but does not prove compliance.
-
 
 #### F.10:11.3 - ML model: validation vs fairness requirement
 
@@ -86,7 +84,6 @@ keywords:
 
 **Result.** **Satisfied\@Aug** (if Δ≤ 0.1 in production Window) is justifiable. Cross‑val AUC does **not** decide fairness; only **production Δ** does.
 
-
 #### F.10:11.4 - Medical device log: refutation
 
 **Contexts.** *SOSA/clinical observations*; *Regulatory profile*.
@@ -100,5 +97,4 @@ keywords:
 
 * Observation **→ Interpretation Bridge** to clause check (**kind: Interpretation**, **CL=3**).
 * **Violated\@Week 34** overrides any earlier **Satisfied\@Week 34** (Weakest‑link; same Window).
-
 

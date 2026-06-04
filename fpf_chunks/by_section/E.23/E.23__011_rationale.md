@@ -6,12 +6,12 @@ section_id: "E.23:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:10 — Rationale"
-line_start: 68102
-line_end: 68119
+line_start: 68970
+line_end: 68987
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -32,7 +32,7 @@ keywords:
 
 Quality improvement is not the same problem as quality review. A review can answer one framed question about one object version under improvement. Improvement changes the object under improvement and then asks whether the changed object version is better under the declared object-under-improvement evaluation.
 
-The separation keeps the first pass affordable. `A.19.ECS` constructs or repairs a missing object-under-improvement evaluation `CharacteristicSpace`; `E.22` frames the read; `E.21`, `E.9.DA`, `E.2.DA`, `F.18`, `C.25`, or another evaluation supplies values; `E.23` governs repetition, absorption, re-read, cost and risk posture, method-family selection, and stopping.
+The separation keeps the first pass affordable. `A.19.ECS` constructs or repairs a missing object-under-improvement evaluation `CharacteristicSpace`; `E.22` frames the read; `E.21`, `E.9.DA`, `E.2.DA`, `F.18`, `C.25`, or another evaluation supplies values; `E.23` governs repetition, absorption, re-read, cost and risk account, method-family selection, and stopping.
 
 Classical cycles and agentic loops become useful when treated as candidate method families rather than as universal law. POOGI optimizes throughput and constraint selection; PDCA and PDSA optimize learning and stabilization against declared measures; OODA optimizes orientation quality under changing conditions; Ralph-like loops approximate a broad adaptive agent repeatedly working from specification, feedback, verification, and memory. `E.23` asks whether the method family fits the object-under-improvement evaluation and whether the next pass is still worth its cost.
 

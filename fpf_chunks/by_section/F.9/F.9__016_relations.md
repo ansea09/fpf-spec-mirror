@@ -6,12 +6,12 @@ section_id: "F.9:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__016_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:14 — Relations"
-line_start: 71452
-line_end: 71465
+line_start: 72176
+line_end: 72188
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -58,5 +58,4 @@ keywords:
 * **F.8 Mint or Reuse:** reuse choices reference **CL** and **kind**; no reuse without a Bridge.
 * **Part C patterns:** formal claims that span Contexts cite Bridges and respect senseFamily/StatusModality & CL constraints.
 * **B.3 Trust & Assurance Calculus:** may interpret **CL** as a penalty factor in Cross-context reasoning.
-
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:6 — Bias-Annotation"
-line_start: 10489
-line_end: 10494
+line_start: 10349
+line_end: 10354
 dependencies:
   - "A.15"
   - "A.20"
@@ -48,5 +48,5 @@ keywords:
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: **Universal** for source-to-rendering relations that claim controlled semantic coarsening inside FPF.
 
-This pattern favors **Prag** and **Did** by allowing useful coarsened renderings to remain cheap and readable. It also favors **Gov** and **Arch** by requiring non-admissible downstream use, source reopen, and neighboring-pattern application when release, policy, assurance, adjudication, bridge, work, evidence, or gate use is attempted. The mitigation for over-governance is the ordinary mini-card: ordinary cases stay light, and only dispute, citation, external reliance, policy, bridge, work, gate, privacy, assurance, release, or adjudication use adds load-bearing fields.
+This pattern favors **Prag** and **Did** by allowing useful coarsened renderings to remain cheap and readable. It also favors **Gov** and **Arch** by requiring non-admissible downstream use, source reopen, and neighboring-pattern application when release, policy, assurance, adjudication, bridge, work, evidence, or gate use is attempted. The mitigation for over-governance is the ordinary mini-card: ordinary cases stay light, and only dispute, citation, external reliance, policy, bridge, work, gate, privacy, assurance, release, or adjudication use adds claim-bearing fields.
 

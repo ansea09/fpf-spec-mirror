@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.EFP.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
-line_start: 62382
-line_end: 62890
+line_start: 63263
+line_end: 63771
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,9 +40,9 @@ keywords:
 
 **One-line summary.** `ExplanationFaithfulnessProfile` states how explanation-facing renderings over already available claims, traces, and pins on existing MVPK faces may be used. It helps a publication-side reviewer or explanation reader distinguish source-pinned rendering, source-linked reconstruction, didactic retelling, and speculative retelling without creating a second face family or a second semantic rule track.
 
-**Governed object in plain terms.** One explanation-facing rendering on an existing MVPK face; not the whole face family, not the whole source `U.Episteme` or source `U.EpistemePublication`, and not a second semantic track.
+**Explanation-facing rendering in plain terms.** One explanation-facing rendering on an existing MVPK face; not the whole face family, not the whole source `U.Episteme` or source `U.EpistemePublication`, and not a second semantic track.
 
-**Governing move in plain terms.** State how that rendering relates to already available source `U.Episteme` or source `U.EpistemePublication`, source pins, traces, and provenance anchors, which explanation-use class it belongs to, and what downstream claim or effect still stays outside the profile.
+**Explanation-use relation in plain terms.** State how that rendering relates to already available source `U.Episteme` or source `U.EpistemePublication`, source pins, traces, and provenance references, which explanation-use class it belongs to, and what downstream claim or effect still stays outside the profile.
 
 **Use this when.** Use this profile when one note, memo, sheet, screen, table, or short section is trying to help a reader understand an already available source `U.Episteme` or source `U.EpistemePublication` on an existing face and you need to say what kind of explanation it is without turning that help into a second semantic rule track.
 
@@ -50,43 +50,43 @@ keywords:
 
 **What goes wrong if missed.** Helpful explanation quietly turns into a second semantic rule track, hidden bridge-comparison load, or unsupported downstream guidance because the rendering is read as if it were canonical content.
 
-**What this buys.** One honest explanation class on an existing face with visible source anchors, admissible-use boundary, and explicit neighboring-pattern boundaries when the rendering has stopped being merely explanatory help.
+**What this buys.** One honest explanation class on an existing face with visible source references, admissible-use boundary, and explicit neighboring-pattern boundaries when the rendering has stopped being merely explanatory help.
 
-**Not this pattern when.** Not this profile when the real job is same-entity rewrite (`A.6.3.CR`), representation change (`A.6.3.RT`), bounded comparative reading (`E.17.ID.CR`), changed described entity (`A.6.4`), deliberately coarsened rendering that now needs narrower admissible claim or effect, non-admissible downstream claim or effect, and reopen to the source `U.Episteme` or source `U.EpistemePublication` (`A.6.3.CSC`), downstream work or reliance (`A.15`, `A.15.4`), assurance or engineering justification (`B.3`), or gate-bearing content (`A.20`, `A.21`).
+**Not this pattern when.** Not this profile when the real job is same-entity rewrite (`A.6.3.CR`), representation change (`A.6.3.RT`), bounded comparative reading (`E.17.ID.CR`), changed EntityOfConcern (`A.6.4`), deliberately coarsened rendering that now needs narrower admissible claim or effect, non-admissible downstream claim or effect, and reopen to the source `U.Episteme` or source `U.EpistemePublication` (`A.6.3.CSC`), downstream work or reliance (`A.15`, `A.15.4`), assurance or engineering justification (`B.3`), or gate-bearing content (`A.20`, `A.21`).
 
-**First output.** One compact explanation-use note: explanation class, source anchor, admissible explanation-reader use, non-admissible downstream use, and reopen or boundary condition. MVPK face, pins, provenance, and source fields are inherited by reference unless ambiguity or a load-bearing source-relation question makes them live.
+**First output.** One compact explanation-use note: explanation class, source reference, admissible explanation-reader use, non-admissible downstream use, and reopen or boundary condition. MVPK face, pins, provenance, and source fields are inherited by reference unless ambiguity or a load-bearing source-relation question makes them live.
 
-**Ordinary-output claim inventory.** After `ExplanationFaithfulnessProfile`, the author has claimed only that this explanation-facing rendering has this explanation class, this source relation, this source anchor posture, and this admissible use. The author has not claimed model truth, evidence path, assurance, safe reliance, gate passage, work occurrence, release support, or source replacement unless the exact neighboring FPF pattern and exact project-side FPF kind and reference are named.
+**Ordinary-output claim inventory.** After `ExplanationFaithfulnessProfile`, the author has claimed only that this explanation-facing rendering has this explanation class, this source relation, this source-reference state, and this admissible use. The author has not claimed model truth, evidence path, assurance, safe reliance, gate passage, work occurrence, release reliance, or source replacement unless the exact neighboring FPF pattern and exact project-side FPF kind and reference are named.
 
 **Working action spine.** One explanation-facing rendering is helping a reader -> separate source-pinned rendering, bounded reconstruction, didactic retelling, and speculative retelling -> use the explanation for understanding, source navigation, bounded restatement, teaching, or exploration according to class -> output one class plus safe next action -> apply the neighboring FPF pattern if reliance, evidence, work, gate, engineering justification, comparison, narrower-use rendering, or new-claim load appears. Use `E.17:5.1c` for `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary live question may be same-entity rewrite, representation change, coarsening, comparison, bridge or substitution, work or reliance, gate, evidence, assurance, retargeting, or carrier work or front-end work instead of explanation-facing rendering.
 
-**Ordinary use.** If the explanation only helps reading, source-finding, review, comparison, or planning preparation, one compact review note naming the explanation class, source anchor, and non-admissible downstream claim or effect is enough. Plain wording remains ordinary unless it changes admissible use, support, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
+**Ordinary use.** If the explanation only helps reading, source-finding, review, comparison, or planning preparation, one compact review note naming the explanation class, source reference, and non-admissible downstream claim or effect is enough. Plain wording remains ordinary unless it changes admissible use, source relation, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 
-**Load-bearing use.** Open the fuller explanation review only when the rendering will guide work or reliance, be externally relied on, be disputed, cross context, affect person or team status, or be cited as evidence, approval, engineering justification, gate, or release support.
+**Load-bearing use.** Open the fuller explanation review only when the rendering will guide work or reliance, be externally relied on, be disputed, cross context, affect person or team status, or be cited as evidence, approval, engineering justification, gate, or release reliance.
 
-**Stop condition.** Stop once the explanation class changes no next reading, review, source-finding, comparison, or planning-preparation move and blocks no concrete overclaim about source support, work or reliance, evidence, approval, gate, or release.
+**Stop condition.** Stop once the explanation class changes no next reading, review, source-finding, comparison, or planning-preparation move and blocks no concrete overclaim about source relation, work or reliance, evidence, approval, gate, or release.
 
 **Admissible explanation-use examples.**
 
 | Admissible explanation use | Source-finding check with no downstream claim or effect | Non-admissible explanation use |
 | --- | --- | --- |
-| A `SourcePinnedExplanation` or `SourceLinkedExplanationReconstruction` helps navigation, bounded restatement, or source inspection with pins and trace visible. | A didactic explanation helps onboarding or helps the team find the source, while operative claims still return to the source-pinned face or `A.10` evidence path. | A fluent explanation is used as assurance, evidence, approval, gate passage, release permission, or work-occurrence support. |
+| A `SourcePinnedExplanation` or `SourceLinkedExplanationReconstruction` helps navigation, bounded restatement, or source inspection with pins and trace visible. | A didactic explanation helps onboarding or helps the team find the source, while operative claims still return to the source-pinned face or `A.10` evidence path. | A fluent explanation is used as assurance, evidence, approval, gate passage, release permission, or work-occurrence evidence. |
 
-**Neighboring project records and governing patterns.** `E.17.ID.CR` governs bounded comparative reading; `A.6.3.CR` or `A.6.3.RT` govern same-entity rewrite or representation change; `A.6.3.CSC` governs a rendering that stays honest only through narrower admissible claim or effect, non-admissible downstream claim or effect, and reopen to the source `U.Episteme` or source `U.EpistemePublication`; `A.6.4` or `OntologicalReframing` govern changed described entity; `A.15` and `A.15.4` govern downstream work or reliance, `B.3` governs assurance and engineering justification, and `A.20` or `A.21` govern gate-bearing claim or effect.
+**Neighboring project records and governing patterns.** `E.17.ID.CR` governs bounded comparative reading; `A.6.3.CR` or `A.6.3.RT` govern same-entity rewrite or representation change; `A.6.3.CSC` governs a rendering that stays honest only through narrower admissible claim or effect, non-admissible downstream claim or effect, and reopen to the source `U.Episteme` or source `U.EpistemePublication`; `A.6.4` or `OntologicalReframing` govern changed EntityOfConcern; `A.15` and `A.15.4` govern downstream work or reliance, `B.3` governs assurance and engineering justification, and `A.20` or `A.21` govern gate-bearing claim or effect.
 
 **Common wrong escalations and boundary transfers.** Do not use this profile to hide new claims, bridge-comparison load, action-selection pressure, or gate-bearing guidance inside helpful prose. If the rendering is really a bounded comparison, apply `E.17.ID.CR`; if it is only same-entity rewriting or representation shift, apply `A.6.3.CR` or `A.6.3.RT`; if it is a deliberately coarsened rendering whose narrower admissible claim or effect, non-admissible downstream claim or effect, and source-bearing reopen now govern the case, apply `A.6.3.CSC`; if it is already making world, work or reliance, assurance, or gate-bearing claims, leave `E.17.EFP` for the more exact downstream FPF pattern or project-side record.
 
-**Generated-explanation repaired case.** Use this case when a generated explanation is being relied on beyond reading help. The first E.17.EFP move is to classify the rendering as source-pinned rendering, source-linked reconstruction, didactic retelling, or speculative retelling. The profile only states the explanation relation, source-finding posture, source anchors, admissible explanation-reader use, non-admissible downstream use, and reopen condition for the current rendering. The explanation becomes usable for an operative claim only when an `A.10`-governed evidence path maps that claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it in the relying context. If the operative claim would raise assurance, release confidence, safety, trust, gate passage, work occurrence, work authorization, or approval, the receiving pattern must be opened for that exact claim: `B.3` for assurance, `A.21` for gate decision, `A.15`/`A.15.1` for work, `A.2.8`/`A.2.9` for commitments or speech acts, or another exact source when live. If the map or exact project-side FPF kind and reference is missing, keep only a prospective repair request, source-gap note, or narrower explanation-use note; if operative reliance is still attempted, the receiving `A.10`, `B.3`, `A.21`, or other exact relation may return evidence-needed, abstain, or no-supported-current-use for that attempted reliance. Do not open an `A.10` path for ordinary reader help; otherwise the generated explanation remains reader help, not approval, authorization, evidence, assurance, gate passage, release support, or work-occurrence support.
+**Generated-explanation repaired case.** Use this case when a generated explanation is being relied on beyond reading help. The first E.17.EFP move is to classify the rendering as source-pinned rendering, source-linked reconstruction, didactic retelling, or speculative retelling. The profile only states the explanation relation, source-finding state, source references, admissible explanation-reader use, non-admissible downstream use, and reopen condition for the current rendering. The explanation becomes usable for an operative claim only when an `A.10`-governed evidence path maps that claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that evidences it in the relying context. If the operative claim would raise assurance, release confidence, safety, trust, gate passage, work occurrence, work authorization, or approval, the receiving pattern must be opened for that exact claim: `B.3` for assurance, `A.21` for gate decision, `A.15`/`A.15.1` for work, `A.2.8`/`A.2.9` for commitments or speech acts, or another exact source when live. If the map or exact project-side FPF kind and reference is missing, keep only a prospective repair request, source-gap note, or narrower explanation-use note; if operative reliance is still attempted, the receiving `A.10`, `B.3`, `A.21`, or other exact relation may return evidence-needed, abstain, or no-admissible-current-use for that attempted reliance. Do not open an `A.10` path for ordinary reader help; otherwise the generated explanation remains reader help, not approval, authorization, evidence, assurance, gate passage, release reliance, or work-occurrence evidence.
 
-**Common wrong first reading.** A fluent, confident, source-linked, or reliable-looking explanation is evidence. First honest entry: classify the explanation rendering and use it for reading or source-finding; only an operative claim with an A.10 evidence path or another exact receiving source can support downstream reliance.
+**Common wrong first reading.** A fluent, confident, source-linked, or reliable-looking explanation is evidence. First honest entry: classify the explanation rendering and use it for reading or source-finding; only an operative claim with an A.10 evidence path or another exact receiving source can carry downstream reliance.
 
-Negative result: if a generated explanation says "reliable" but no operative claim maps to source support, the E.17.EFP result is source-finding only or reader help only. If an attempted downstream reliance is still raised, the receiving `A.10`, `B.3`, `A.21`, or other exact relation may return evidence-needed or no-supported-current-use for that attempted reliance. It is not weak evidence by style, confidence, fluency, or citation-like wording.
+Negative result: if a generated explanation says "reliable" but no operative claim maps to a source relation, the E.17.EFP result is source-finding only or reader help only. If an attempted downstream reliance is still raised, the receiving `A.10`, `B.3`, `A.21`, or other exact relation may return evidence-needed or no-admissible-current-use for that attempted reliance. It is not weak evidence by style, confidence, fluency, or citation-like wording.
 
 **Generated-retelling survival.** A generated retelling preserves only the reader help, source-finding cue, quoted source pins, explicitly repeated source relation, and explicitly repeated admissible-use boundary that remain inspectable in that retelling. It does not become or preserve the source `U.Episteme`, source `U.EpistemePublication`, evidence path, assurance, gate passage, decision status, permission, or source replacement merely by fluency, completeness-looking wording, or citation-like links. If the generated retelling compresses, omits, strengthens, or changes source claims, treat the result as a new explanation-use case, a narrower-use rendering under `A.6.3.CSC`, or reader help only.
 
-**Derivative rendering and adaptation source-link rule.** A fork, adaptation, abridged guide, translated rendering, generated explanation, tutorial, access-format conversion, or other derivative rendering of a source `U.Episteme` or source `U.EpistemePublication` may improve access or teaching, but it is not equivalent to the source by usefulness, fluency, or local adoption. It may expose or cite an exact project-side FPF kind and reference, but the support belongs to the exposed value and source relation, not to the explanation rendering as a face. If the derivative rendering will guide work or reliance, `A.10` must map every operative claim being relied on to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it; if the map or exact value is absent, only a prospective repair request, explicit source-gap note, or prospective evidence-work plan may be created. If simplification or format change narrows allowed use, forbids downstream use, or requires return to the source-bearing side, use `A.6.3.CSC` rather than treating the derivative as ordinary explanation.
+**Derivative rendering and adaptation source-link rule.** A fork, adaptation, abridged guide, translated rendering, generated explanation, tutorial, access-format conversion, or other derivative rendering of a source `U.Episteme` or source `U.EpistemePublication` may improve access or teaching, but it is not equivalent to the source by usefulness, fluency, or local adoption. It may expose or cite an exact project-side FPF kind and reference, but the admissible source relation belongs to the exposed value and source relation, not to the explanation rendering as a face. If the derivative rendering will guide work or reliance, `A.10` must map every operative claim being relied on to the exact source passage, carrier path, or exact project-side FPF kind and reference that evidences it; if the map or exact value is absent, only a prospective repair request, explicit source-gap note, or prospective evidence-work plan may be created. If simplification or format change narrows allowed use, forbids downstream use, or requires return to the source-bearing side, use `A.6.3.CSC` rather than treating the derivative as ordinary explanation.
 
-**Explanation-rendering identity over revision and regeneration.** A generated, translated, revised, or regenerated explanation-facing rendering is not the same explanation rendering merely because it uses the same source face, prompt, template, carrier, or title. For use beyond ordinary reader help, the rendering must name the preserved source anchors, changed claims, generation or production basis when live, and admissible use for this rendering. A translation or adaptation preserves admissible use only when the operative claims and source links survive the change; otherwise it becomes a new explanation-use case, a narrower-use rendering under `A.6.3.CSC`, or reader help only.
+**Explanation-rendering identity over revision and regeneration.** A generated, translated, revised, or regenerated explanation-facing rendering is not the same explanation rendering merely because it uses the same source face, prompt, template, carrier, or title. For use beyond ordinary reader help, the rendering must name the preserved source references, changed claims, generation or production basis when live, and admissible use for this rendering. A translation or adaptation preserves admissible use only when the operative claims and source links survive the change; otherwise it becomes a new explanation-use case, a narrower-use rendering under `A.6.3.CSC`, or reader help only.
 
 **Placement.** Profile governed by `E.17.0` and `E.17` review.
 **Builds on.** `E.17.0 U.MultiViewDescribing`; `E.17` MVPK; `A.7`; `E.10.D2`; `A.6.B`; `F.9`; `F.18`.
@@ -129,13 +129,13 @@ Without a dedicated profile:
 
 #### E.17.EFP:4.1.a - Profile, case, and published rendering distinction
 
-`ExplanationFaithfulnessProfile` is an **intensional review profile** governed by `E.17.0` and `E.17`. Concrete explanation-facing renderings are passive published renderings or reviewed cases classified under this profile; the profile itself does not act, decide, or publish.
+`ExplanationFaithfulnessProfile` is a **review profile** governed by `E.17.0` and `E.17`. Concrete explanation-facing renderings are passive published renderings or reviewed cases classified under this profile; the profile itself does not act, decide, or publish.
 
 This distinction matters because the profile governs **how** a rendering is related to its source and reviewed. It does not turn every explanatory paragraph into a giant standalone record, and it does not replace MVPK face governance with a second semantic track.
 
 #### E.17.EFP:4.1.b - How to read this profile
 
-This profile does not decide whether a claim is true. It says how an explanation rendering relates to already available source `U.Episteme` or source `U.EpistemePublication`, source pins, traces, and provenance anchors, and where that rendering may admissibly appear.
+This profile does not decide whether a claim is true. It says how an explanation rendering relates to already available source `U.Episteme` or source `U.EpistemePublication`, source pins, traces, and provenance references, and where that rendering may admissibly appear.
 - `Faithfulness` names the review question for the rendering, not a pass verdict for every class.
 - Class names are source-relation and admissible-use labels, not merit labels or proof that all classes are faithful in the same sense.
 - Faces stay governed by `E.17`; the profile only constrains what sort of explanation is admissible on them.
@@ -145,7 +145,7 @@ This profile does not decide whether a claim is true. It says how an explanation
 #### E.17.EFP:4.1.c - Local working vocabulary
 
 This profile uses a small local vocabulary for review.
-- **Source `U.Episteme` or source `U.EpistemePublication`** = the already pinned source `U.Episteme` or source `U.EpistemePublication`, source claims, traces, notes, pins, or provenance anchors that the explanation rendering depends on. This is not the MVPK face, not the SCR/RSCR carrier, and not an arbitrary carrier or physical item.
+- **Source `U.Episteme` or source `U.EpistemePublication`** = the already pinned source `U.Episteme` or source `U.EpistemePublication`, source claims, traces, notes, pins, or provenance references that the explanation rendering depends on. This is not the MVPK face, not the SCR/RSCR carrier, and not an arbitrary carrier or physical item.
 - **Rendering** = one published explanation-facing text on one existing face.
 - **Class assignment** = the explanation-class assigned to that rendering on that face.
 - **Bundle-local class difference** = a case where two renderings in one bundle admissibly carry different explanation classes.
@@ -159,10 +159,10 @@ Most renderings reviewed under this profile need only the compact review note:
 | Core field | Question |
 | --- | --- |
 | `explanationClass` | Which local profile value is assigned to this one rendering? |
-| source anchor | Which already available source `U.Episteme` or source `U.EpistemePublication`, pins, trace, or provenance anchor does the rendering depend on? |
+| source reference | Which already available source `U.Episteme` or source `U.EpistemePublication`, pins, trace, or provenance reference does the rendering depend on? |
 | admissible explanation-reader use | What may the explanation reader do with this explanation now: understand, navigate, inspect, teach, or prepare review? |
-| non-admissible downstream use | What wider claim or effect is not supported by the explanation? |
-| reopen or boundary condition | What source change, dispute, use escalation, missing support, or neighboring-pattern boundary condition ends this profile use? |
+| non-admissible downstream use | What wider claim or effect is not carried by the explanation? |
+| reopen or boundary condition | What source change, dispute, use escalation, missing source relation, or neighboring-pattern boundary condition ends this profile use? |
 
 The fuller field vocabulary below opens only when ambiguity or load-bearing use is live: different classes across faces, source linkage dispute, connective reconstruction, reader-fit dispute, interaction or statefulness, derivative rendering, cross-context reuse, cited reliance, work or reliance, evidence, gate, engineering justification, bridge, or coarsening boundary.
 
@@ -171,7 +171,7 @@ The fuller field vocabulary below opens only when ambiguity or load-bearing use 
 - `sourcePublicationOrRecordForm`;
 - `targetPublicationOrRecordForm`;
 - `changeTargetRef`;
-- `describedEntityPolicy = preserve` for explanation renderings over the same underlying source `U.Episteme` or source `U.EpistemePublication`;
+- `entityOfConcernPolicy = preserve` for explanation renderings over the same underlying source `U.Episteme` or source `U.EpistemePublication`;
 - `boundedContextPolicy`;
 - `viewpointPolicy`;
 - `referenceSchemePolicy`;
@@ -195,10 +195,10 @@ The fuller field vocabulary below opens only when ambiguity or load-bearing use 
 - `workCrossing`;
 - `upstreamGoverningPatternRef?`, `upstreamAuthoritySourceRef?`, `downstreamGoverningPatternRef?`, and `downstreamAuthoritySourceRef?`;
 - `admissibleFaces`;
-- `SurfaceKind value` when `PublicationSurface` or `InteropSurface` discipline is live;
+- `publication-face kind value` when `publication face/form` or `interop publication form` discipline is live;
 - `publicNamePolicy`;
-- `explanationSourcePosture` using the shared `E.17:5.1b` vocabulary when source pointer, source availability or retrieval, source use, source faithfulness, claim support, contradiction, omission, claim widening, added linkage, independent verification, admissible use, forbidden downstream use, or reopen trigger could diverge;
-- no generic source-relation field; source support is recorded through `explanationSourcePosture`;
+- `explanationSourceRelationClass` using the shared `E.17:5.1b` vocabulary when source pointer, source availability or retrieval, source use, source faithfulness, claim-source relation, contradiction, omission, claim widening, added linkage, independent verification, admissible use, forbidden downstream use, or reopen trigger could diverge;
+- no generic source-relation field; source relation is recorded through `explanationSourceRelationClass`;
 - `augmentationRelation`;
 - `addedLinkPolicy` when `SourceLinkedExplanationReconstruction` adds bounded connective prose;
 - `targetUserModel?` when reader-fit materially shapes the rendering;
@@ -211,13 +211,13 @@ The fuller field vocabulary below opens only when ambiguity or load-bearing use 
 - `compositionRule`;
 - `reopenCondition`.
 
-These fields inherit the `E.17:5.1e` local-field rule. They classify one explanation-facing rendering for review; they do not create `U.Kind`, `SurfaceKind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, authority reference, publication face, or exact project-side FPF kind and reference unless another governing FPF pattern explicitly instantiates that object. The `explanationClass` value is a local source-relation and admissible-use profile value, not `ExplanationKind`, not `U.Kind`, not `EvidenceKind`, not `FaceKind`, and not a truth certificate.
+These fields inherit the `E.17:5.1e` local-field rule. They classify one explanation-facing rendering for review; they do not create `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, authority reference, publication face, or exact project-side FPF kind and reference unless another governing FPF pattern explicitly instantiates that object. The `explanationClass` value is a local source-relation and admissible-use profile value, not `ExplanationKind`, not `U.Kind`, not `EvidenceKind`, not `FaceKind`, and not a truth certificate.
 
 Where explanation crosses from source rendering into new claim production, hidden bridge work, gate-bearing semantics, world-changing claim or effect, or a source relation with declared source-loss mode, the profile no longer suffices and the case must leave this profile.
 
 #### E.17.EFP:4.2.a - Working-model first
 
-Ordinary reviewed renderings do not need to restate every field from scratch. When the governing MVPK face, pinned source `U.Episteme` or source `U.EpistemePublication`, and already published provenance anchors already fix a field honestly, the rendering may inherit that condition by explicit reference.
+Ordinary reviewed renderings do not need to restate every field from scratch. When the governing MVPK face, pinned source `U.Episteme` or source `U.EpistemePublication`, and already published provenance references already fix a field honestly, the rendering may inherit that condition by explicit reference.
 
 A source-bearing review record becomes necessary when:
 - explanation class differs across faces in the same publication bundle;
@@ -233,7 +233,7 @@ When one rendering needs its own narrower admissible claim or effect line, non-a
 A publication-side reviewer usually starts with four questions:
 1. What exactly is the source `U.Episteme` or source `U.EpistemePublication` for this rendering?
 2. Which explanation class is being claimed for this rendering on this face?
-3. Are the pins, provenance anchors, and evidence relation visible enough for that class?
+3. Are the pins, provenance references, and evidence relation visible enough for that class?
 4. Has the rendering quietly begun to add new semantic commitments, new face-like behaviour, derivative-source replacement, or a deliberately coarsened source rendering that needs `A.6.3.CSC`?
 
 If these questions are answered clearly, the rendering often remains lightweight. If they are not, a fuller face-by-face review record is usually warranted.
@@ -249,7 +249,7 @@ However, when reader-help, onboarding, or contrastive explanation is doing real 
 - what interpretation or use remains admissible (`allowedUse`);
 - and what downstream claim or effect would be wrongful (`misuseRisk`).
 
-These fields do not create a new governing source relation. Their current role is narrower: stop explanation prose from pretending that every rendering is audience-neutral, and make misuse boundaries explicit when reader-fit is part of the explanation case. `allowedUse` is a local reader-fit field under `admissibleUse`; it is not permission, evidence support, or authority.
+These fields do not create a new governing source relation. Their current role is narrower: stop explanation prose from pretending that every rendering is audience-neutral, and make misuse boundaries explicit when reader-fit is part of the explanation case. `allowedUse` is a local reader-fit field under `admissibleUse`; it is not permission, evidence relation, or authority.
 
 #### E.17.EFP:4.3 - Explanation class set
 
@@ -261,7 +261,7 @@ The explanation-class set used in this profile is:
 
 In field form, the local assignment is `explanationClass = SourcePinnedExplanation | SourceLinkedExplanationReconstruction | DidacticRetelling | SpeculativeRetelling`.
 
-Class assignment is a source-relation and admissible-use classification. `SourcePinnedExplanation` is source-bound rendering, `SourceLinkedExplanationReconstruction` is bounded reconstruction with explicit added-link policy, `DidacticRetelling` is teaching and onboarding support, and `SpeculativeRetelling` is exploratory support. The last two classes do not assert the same kind of source faithfulness as `SourcePinnedExplanation`; they state the limits under which reader help remains admissible.
+Class assignment is a source-relation and admissible-use classification. `SourcePinnedExplanation` is source-bound rendering, `SourceLinkedExplanationReconstruction` is bounded reconstruction with explicit added-link policy, `DidacticRetelling` is teaching and onboarding help, and `SpeculativeRetelling` is exploratory help. The last two classes do not assert the same kind of source faithfulness as `SourcePinnedExplanation`; they state the limits under which reader help remains admissible.
 
 Safe next action by class:
 
@@ -294,38 +294,38 @@ When a rendering claims `SourceLinkedExplanationReconstruction`, it should publi
 
 Minimum reading load:
 - `addedLinkKind` — what bounded connective move is being added;
-- `sourceAnchorSet` — which pinned claims, traces, or notes support that move;
+- `sourceReferenceSet` — which pinned claims, traces, or notes carry that move;
 - `boundednessReason` — why the added link does not become an unsupported relation theory, modality lift, causal claim, bridge-comparison load, or policy-bearing reading;
 - `forbiddenLinkClass` — which unsupported connective move is explicitly excluded;
 - `reopenTrigger` — what would force downgrade, source-bearing return, or source-bearing review.
 
 Working rule:
-- if `addedLinkPolicy` cannot be stated plainly, the rendering should drop to a more restricted explanation class, use a more restricted MVPK face or named `SurfaceKind` value, or leave `E.17.EFP`;
+- if `addedLinkPolicy` cannot be stated plainly, the rendering should drop to a more restricted explanation class, use a more restricted MVPK face or named `publication-face kind` value, or leave `E.17.EFP`;
 - `SourceLinkedExplanationReconstruction` may not hide new relation theory, bridge equivalence, design-scope generalization, or policy-bearing guidance inside "bounded" connective prose.
 
 #### E.17.EFP:4.4 - Working admissibility matrix
 
-| Class | Source relation | Augmentation relation | Evidence relation | Usually admissible faces | Usually admissible `PublicationSurface` or `InteropSurface` use | Usually forbidden uses |
+| Class | Source relation | Augmentation relation | Evidence relation | Usually admissible faces | Usually admissible `publication face/form` or `interop publication form` use | Usually forbidden uses |
 |---|---|---|---|---|---|---|
-| `SourcePinnedExplanation` | rendering | omission-only | trace-bound | `PlainView`, `TechCard` | `PublicationSurface`; `InteropSurface` only when the governing face source explicitly permits source-pinned, structure-preserving export without added semantics | `AssuranceLane` or gate-bearing claim or effect if required pins or evidence are absent |
-| `SourceLinkedExplanationReconstruction` | reconstruction | bounded link-addition | trace-supported | `PlainView`, `TechCard` | `PublicationSurface` on bounded explanatory use | `InteropCard` or `AssuranceLane` unless governing face policy explicitly allows it with source linkage kept visible |
-| `DidacticRetelling` | reconstruction | omission + didactic addition | trace-supported for domain facts; trace-free only for analogy, scaffolding, or reader orientation | `PlainView` | `PublicationSurface` on didactic or onboarding use only | `TechCard`, `InteropCard`, `AssuranceLane`, or policy-bearing use when it could be mistaken for canonical semantics |
-| `SpeculativeRetelling` | speculation | link-addition or counterfactual augmentation | trace-free or low-trace-support | `PlainView` | `PublicationSurface` on clearly marked exploratory or didactic use only | `TechCard`, `InteropCard`, `AssuranceLane`, gate-adjacent, or policy-bearing use |
+| `SourcePinnedExplanation` | rendering | omission-only | trace-bound | `PlainView`, `TechCard` | `publication face/form`; `interop publication form` only when the governing face source explicitly permits source-pinned, structure-preserving export without added semantics | `AssuranceLane` or gate-bearing claim or effect if required pins or evidence are absent |
+| `SourceLinkedExplanationReconstruction` | reconstruction | bounded link-addition | trace-backed | `PlainView`, `TechCard` | `publication face/form` on bounded explanatory use | `InteropCard` or `AssuranceLane` unless governing face policy explicitly allows it with source linkage kept visible |
+| `DidacticRetelling` | reconstruction | omission + didactic addition | trace-backed for domain facts; trace-free only for analogy, scaffolding, or reader orientation | `PlainView` | `publication face/form` on didactic or onboarding use only | `TechCard`, `InteropCard`, `AssuranceLane`, or policy-bearing use when it could be mistaken for canonical semantics |
+| `SpeculativeRetelling` | speculation | link-addition or counterfactual augmentation | trace-free or low trace backing | `PlainView` | `publication face/form` on clearly marked exploratory or didactic use only | `TechCard`, `InteropCard`, `AssuranceLane`, gate-adjacent, or policy-bearing use |
 
-`ExplanationFaithfulnessProfile` ordinarily stays on `PublicationSurface`. Any appearance on `InteropSurface` must remain source-pinned and structure-preserving, and must never smuggle explanation-specific semantics into interop publication. Didactic or speculative restrictions are use-profile restrictions over existing faces, not new face kinds.
+`ExplanationFaithfulnessProfile` ordinarily stays on `publication face/form`. Any appearance on `interop publication form` must remain source-pinned and structure-preserving, and must never smuggle explanation-specific semantics into interop publication. Didactic or speculative restrictions are use-profile restrictions over existing faces, not new face kinds.
 
 Source-pinned explanation on `AssuranceLane`-facing publication is exceptional rather than ordinary. Unless the governing face source explicitly permits that use with visible evidence carriers, source pins, and no added semantics, reviewers should treat `AssuranceLane`-facing explanation rendering as non-admissible.
 
 `DidacticRetelling` and trace-free reader help are illustrative or analogical scaffolding only. Trace-free didactic material may carry analogy, scaffolding, or reader orientation, but any domain fact inside didactic prose must either be source-pinned or explicitly downgraded to non-canonical reader aid. It may not carry causal claims, policy claims, reliability claims, or canonical `TechCard` semantics. If didactic content appears near technical content, mark it as a boxed or otherwise clearly separated non-canonical reader aid rather than letting it merge into the technical source.
 
-Every concrete explanation rendering must also publish the source claim IDs, pins, trace refs, or equivalent provenance anchors that justify its class on that face. If those anchors cannot be made visible on the chosen MVPK face or named `SurfaceKind` value, the rendering must drop to a more restricted explanation class, use a more restricted use profile, or leave the face.
+Every concrete explanation rendering must also publish the source claim IDs, pins, trace refs, or equivalent provenance references that justify its class on that face. If those anchors cannot be made visible on the chosen MVPK face or named `publication-face kind` value, the rendering must drop to a more restricted explanation class, use a more restricted use profile, or leave the face.
 
 When reader-help, onboarding, or contrastive explanation is part of the case, the rendering should also publish or inherit its `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` so that user-fit does not quietly become policy guidance, assurance guidance, or gate-bearing guidance.
 
 #### E.17.EFP:4.5 - Shared explanation rule set
 
 ##### E.17.EFP:4.5.a. Preservation rule
-Explanation-facing renderings under this profile preserve the same underlying described-entity line, bounded context, and source-pinned `U.Episteme` or source `U.EpistemePublication`. Viewpoint, reference scheme, representation scheme, grounding, and reference-plane handling must stay explicit rather than being left to prose. `SourcePinnedExplanation` and `SourceLinkedExplanationReconstruction` are expected to remain claim-conservative; `DidacticRetelling` may omit or simplify source claims but must stay source-linked; `SpeculativeRetelling` may widen explanatory language only when kept clearly off canonical faces and off gate-bearing claim or effect.
+Explanation-facing renderings under this profile preserve the same underlying EntityOfConcern line, bounded context, and source-pinned `U.Episteme` or source `U.EpistemePublication`. Viewpoint, reference scheme, representation scheme, grounding, and reference-plane handling must stay explicit rather than being left to prose. `SourcePinnedExplanation` and `SourceLinkedExplanationReconstruction` are expected to remain claim-conservative; `DidacticRetelling` may omit or simplify source claims but must stay source-linked; `SpeculativeRetelling` may widen explanatory language only when kept clearly off canonical faces and off gate-bearing claim or effect.
 
 ##### E.17.EFP:4.5.b. Loss and reliability rule
 A rendering assigned to one of these explanation classes declares what is omitted, reordered, simplified, or newly connected. Reliability transport may stay source-bounded or be explicitly downgraded, but it must never be silently widened by more persuasive prose. Didactic and speculative renderings also state forbidden downstream uses whenever omissions, declared source-loss modes, or trace-free additions occur.
@@ -349,7 +349,7 @@ A rendering reviewed under this profile keeps the following explicit:
 - it does **not** turn faces into a second semantic rule track;
 - it does **not** license new A.6.B boundary claims on explanation faces: law claims, admissibility claims, deontic or commitment claims, and effect or evidence claims;
 - it does **not** replace bridge discipline, retargeting discipline, or world or gate boundary discipline;
-- it does **not** let `PublicationSurface` and `InteropSurface` collapse into one undifferentiated explanation channel.
+- it does **not** let `publication face/form` and `interop publication form` collapse into one undifferentiated explanation channel.
 
 If explanation text starts carrying new semantic commitments instead of rendering or licensed explanation over existing ones, the case must leave this profile.
 
@@ -373,7 +373,7 @@ This stays within `SourceLinkedExplanationReconstruction` if the connective pros
 
 A minimal `addedLinkPolicy` for this slice would say:
 - `addedLinkKind = relation-explication only`;
-- `sourceAnchorSet = {D-14, D-18}`;
+- `sourceReferenceSet = {D-14, D-18}`;
 - `boundednessReason = makes an already implied joint constraint explicit without adding a new mechanism, policy conclusion, or unsupported modality lift`;
 - `forbiddenLinkClass = design-scope robustness or gate-sufficiency claim`.
 
@@ -383,14 +383,14 @@ A minimal `addedLinkPolicy` for this slice would say:
 
 **Published explanation.** `Method M-2 is selected here because the material condition and resource window match the declared method family. Use WP-17 for planning and RM-4 for result measurement.`
 
-This may stay within `SourceLinkedExplanationReconstruction` when the explanation keeps its source anchors visible and only makes the already source-supported selection relation easier to inspect. It supports interpretation, source-finding, and selected-method inspection. It is not evidence that work occurred, not a gate decision, and not engineering justification. Evidence or provenance use requires a project evidence path governed by `A.10`; engineering-justification use requires an engineering-justification record governed by `B.3`; method-selection use requires project `U.Method`, work-plan use requires `U.WorkPlan` under `A.15`, and work-occurrence use requires a dated `U.Work` occurrence under `A.15.1`; gate use requires the project gate or constraint decision governed by `A.20` or `A.21`.
+This may stay within `SourceLinkedExplanationReconstruction` when the explanation keeps its source references visible and only makes the already source-recoverable selection relation easier to inspect. It is admissible for interpretation, source-finding, and selected-method inspection. It is not evidence that work occurred, not a gate decision, and not engineering justification. Evidence or provenance use requires a project evidence path governed by `A.10`; engineering-justification use requires an engineering-justification record governed by `B.3`; method-selection use requires project `U.Method`, work-plan use requires `U.WorkPlan` under `A.15`, and work-occurrence use requires a dated `U.Work` occurrence under `A.15.1`; gate use requires the project gate or constraint decision governed by `A.20` or `A.21`.
 
 #### E.17.EFP:5.2.a - Mixed-face bundle with different explanation classes
 **Source slice.** `Claim D-31 and trace set T-8 jointly show that the reserve path remains available during the short overload interval.`
 
 **`PlainView` rendering.** `The reserve path stays available during the short overload interval. Source pins: D-31, T-8.`
 
-**`TechCard` rendering.** `D-31 and T-8 jointly support availability of the reserve path during the short overload interval; this rendering adds bounded connective prose to make the support relation explicit.`
+**`TechCard` rendering.** `D-31 and T-8 jointly evidence availability of the reserve path during the short overload interval; this rendering adds bounded connective prose to make the source relation explicit.`
 
 The `PlainView` rendering may stay `SourcePinnedExplanation` while the `TechCard` rendering is `SourceLinkedExplanationReconstruction`. The bundle is admissible only if that class difference is stated rather than hidden under one blanket label.
 
@@ -441,11 +441,11 @@ If the rendering starts generating one bounded comparative review case, rival in
 ### E.17.EFP:6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: **Universal** for explanation-facing renderings that claim `ExplanationFaithfulnessProfile` on existing MVPK faces inside FPF.
-This profile intentionally biases toward explanation restraint on existing faces and against face inflation, second semantic tracks, and reader-help authority overread. The main mitigation is explicit admissibility by face, explicit no-new-A.6.B-boundary-claims discipline, `A.6.3.CSC` use when narrowed-claim source support becomes primary, and clear boundaries to interpretation, retargeting, work, and world or gate governing patterns or exact project-side FPF kinds and references when explanation stops being only explanation.
+This profile intentionally biases toward explanation restraint on existing faces and against face inflation, second semantic tracks, and reader-help authority overread. The main mitigation is explicit admissibility by face, explicit no-new-A.6.B-boundary-claims discipline, `A.6.3.CSC` use when narrowed-claim source relation becomes primary, and clear boundaries to interpretation, retargeting, work, and world or gate governing patterns or exact project-side FPF kinds and references when explanation stops being only explanation.
 
 ### E.17.EFP:7 - Conformance Checklist
 
-A conformance check is retained only if it changes the next admissible use of the explanation rendering, blocks a concrete overclaim, or preserves a source anchor or reopen condition needed for the declared safe next action.
+A conformance check is retained only if it changes the next admissible use of the explanation rendering, blocks a concrete overclaim, or preserves a source reference or reopen condition needed for the declared safe next action.
 
 Use core ordinary checks first. Conditional rows open only when reader-fit, bundle-local class difference, bounded explanation class, connective reconstruction, derivative rendering, or downstream reliance use is live.
 
@@ -453,8 +453,8 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 
 1. **CC-EF-1 — Explanation class is explicit.**
    The explanation class is explicitly named.
-2. **CC-EF-3 — Source anchor and non-admissible downstream use are explicit.**
-   The compact note states source anchor, admissible explanation-reader use, non-admissible downstream use, and reopen or boundary condition.
+2. **CC-EF-3 — Source reference and non-admissible downstream use are explicit.**
+   The compact note states source reference, admissible explanation-reader use, non-admissible downstream use, and reopen or boundary condition.
 4. **CC-EF-5 — No new A.6.B boundary claims on explanation faces.**
    The no-new-boundary-claims rule is explicit on explanation faces; the blocked claims are A.6.B-governed law claims, admissibility claims, deontic or commitment claims, and effect or evidence claims.
 5. **CC-EF-7 — No second face family.**
@@ -464,8 +464,8 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 
 1. **CC-EF-4 — Interpretant-side block is explicit when reader-fit does real work.**
    When onboarding, contrastive explanation, or other reader-fit shaping matters, `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` are visible enough to review.
-2. **CC-EF-2 — Face and `SurfaceKind` boundary is explicit when live.**
-   When face placement, `PublicationSurface`, `InteropSurface`, pinning, provenance, or reliability transport is not already inherited by visible source reference, the rendering states the admissible MVPK face, `SurfaceKind` value, and required pinning or provenance boundary explicitly.
+2. **CC-EF-2 — Face and `publication-face kind` boundary is explicit when live.**
+   When face placement, `publication face/form`, `interop publication form`, pinning, provenance, or reliability transport is not already inherited by visible source reference, the rendering states the admissible MVPK face, `publication-face kind` value, and required pinning or provenance boundary explicitly.
 3. **CC-EF-6 — Boundary to interpretation, retargeting, coarsening, and world or gate use is explicit.**
    The boundary is explicit, including `A.6.3.CSC Controlled Semantic Coarsening` when a narrower admissible claim or effect, non-admissible downstream claim or effect, or source-bearing reopen condition becomes primary.
 4. **CC-EF-8 — Bundle-local class differences are explicit.**
@@ -477,9 +477,9 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 7. **CC-EF-11 — `SourceLinkedExplanationReconstruction` publishes `addedLinkPolicy` when needed.**
    When bounded connective prose is doing real review work, the rendering states what link is added, why it remains bounded, and which unsupported link class is explicitly forbidden.
 8. **CC-EF-12 — Derivative renderings keep source links operative.**
-   A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work or reliance maps each operative claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that supports it, or else downgrades to reader help or applies `A.6.3.CSC` as appropriate.
+   A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work or reliance maps each operative claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that evidences it, or else downgrades to reader help or applies `A.6.3.CSC` as appropriate.
 9. **CC-EF-13 — Generated explanation reliance boundary is explicit.**
-   A generated explanation used beyond ordinary reader help states its explanation class, source-finding posture, operative claims, receiving pattern for each relied-on claim, and non-admissible downstream use. The explanation itself is not evidence, assurance, approval, gate passage, release support, or work authority.
+   A generated explanation used beyond ordinary reader help states its explanation class, source-finding state, operative claims, receiving pattern for each relied-on claim, and non-admissible downstream use. The explanation itself is not evidence, assurance, approval, gate passage, release reliance, or work authority.
 
 ### E.17.EFP:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -488,11 +488,11 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 | Treating every explanatory prose block as equally faithful | rendering, reconstruction, didactic work, and speculation have different review loads | publish the explanation-class set and admissibility matrix |
 | Letting reader-fit stay implicit when explanation is clearly tailored | a didactic or contrastive rendering can be over-read as general or policy-bearing guidance | publish the interpretant-side block whenever user model, allowed use, or misuse boundaries are load-bearing |
 | Using explanation faces as a second rule track | new semantic commitments hide behind reader-friendly prose | keep explanation faces tied to existing claim IDs, pins, and provenance |
-| Calling connective reconstruction "bounded" without naming the added link | source-linked explanation quietly imports unsupported relation theory or bridge-comparison load | require `addedLinkPolicy` with source anchors, boundedness reason, and forbidden link class |
+| Calling connective reconstruction "bounded" without naming the added link | source-linked explanation quietly imports unsupported relation theory or bridge-comparison load | require `addedLinkPolicy` with source references, boundedness reason, and forbidden link class |
 | Letting speculative prose enter technical or assurance use | speculative retelling starts to look canonical | restrict speculative retelling to clearly marked exploratory or didactic use on existing faces |
-| Collapsing MVPK face and `PublicationSurface` or `InteropSurface` discipline | explanation appears to create a new publication family | stay on existing MVPK faces and keep named `PublicationSurface` or `InteropSurface` and carrier policy explicit |
+| Collapsing MVPK face and `publication face/form` or `interop publication form` discipline | explanation appears to create a new publication family | stay on existing MVPK faces and keep named `publication face/form` or `interop publication form` and carrier policy explicit |
 | Derivative rendering as source replacement | a fork, adaptation, generated explanation, tutorial, or access-format conversion is treated as the original source because it is easier to read or access | keep it as a derivative rendering, publish source links for operative claims, and use `A.10` or `A.6.3.CSC` when reliance or narrowed-use discipline is live |
-| Explanation as evidence or assurance | a fluent or source-linked explanation is cited as proof, approval, gate passage, release support, work authority, or assurance | classify the rendering, keep ordinary reader help inside E.17.EFP, and open `A.10`, `B.3`, `A.21`, `A.15`, or another exact receiving source only for the operative claim being relied on |
+| Explanation as evidence or assurance | a fluent or source-linked explanation is cited as proof, approval, gate passage, release reliance, work authority, or assurance | classify the rendering, keep ordinary reader help inside E.17.EFP, and open `A.10`, `B.3`, `A.21`, `A.15`, or another exact receiving source only for the operative claim being relied on |
 
 ### E.17.EFP:9 - Consequences
 
@@ -503,7 +503,7 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 
 ### E.17.EFP:10 - Rationale
 
-Explanation help already appears on existing faces, and the nearest failure mode is to let helpful prose shift into hidden source claims, bridge-comparison load, or gate-bearing guidance. `E.17.EFP` gives the reader one practical benefit: they can tell whether a rendering is source-pinned, reconstructive, didactic, or speculative, and therefore whether it may stay as explanation help, must downgrade use, or must leave this profile because the rendering has stopped being only explanation-facing support.
+Explanation help already appears on existing faces, and the nearest failure mode is to let helpful prose shift into hidden source claims, bridge-comparison load, or gate-bearing guidance. `E.17.EFP` gives the reader one practical benefit: they can tell whether a rendering is source-pinned, reconstructive, didactic, or speculative, and therefore whether it may stay as explanation help, must downgrade use, or must leave this profile because the rendering has stopped being only explanation-facing help.
 
 ### E.17.EFP:11 - SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts
 
@@ -513,20 +513,20 @@ Explanation help already appears on existing faces, and the nearest failure mode
 
 | Claim need | Source idea and current source | Current source section or reference | Local FPF invariant and practical local test | Adopted, adapted, or rejected shortcut |
 |---|---|---|---|---|
-| Explanation renderings must remain subordinate to governed views, source `U.Episteme` or source `U.EpistemePublication`, source pins, and provenance anchors rather than quietly becoming a second semantic track. | Architecture-description practice keeps views, viewpoints, correspondences, and architecture descriptions explicit instead of letting reader-help prose replace governed source. | Joint ISO, IEC, and IEEE 42010:2022; source maturity = mature standard | `E.17.EFP` adopts this by keeping explanation on existing MVPK faces, tying class assignment to the source `U.Episteme` or source `U.EpistemePublication`, and rejecting a second face family or second semantic rule track. | **Adopt.** |
+| Explanation renderings must remain subordinate to governed views, source `U.Episteme` or source `U.EpistemePublication`, source pins, and provenance references rather than quietly becoming a second semantic track. | Architecture-description practice keeps views, viewpoints, correspondences, and architecture descriptions explicit instead of letting reader-help prose replace governed source. | Joint ISO, IEC, and IEEE 42010:2022; source maturity = mature standard | `E.17.EFP` adopts this by keeping explanation on existing MVPK faces, tying class assignment to the source `U.Episteme` or source `U.EpistemePublication`, and rejecting a second face family or second semantic rule track. | **Adopt.** |
 | Explanation quality is use- and audience-sensitive and must make knowledge limits visible rather than collapse all explanations into one generic mode. | Explainable-AI guidance distinguishes explanation obligations by user, purpose, and stated limits instead of one universal explanation class. | Phillips et al. (2021), *Four Principles of Explainable Artificial Intelligence*; source maturity = current government guidance | `E.17.EFP` adapts this into explicit explanation classes, admissible faces, and forbidden downstream uses, while keeping the `E.17` face system unchanged. | **Adopt and adapt.** |
-| Faithfulness is not the same as plausibility; explanation evaluation must stay tethered to the underlying source or decision basis. | Faithfulness work in interpretable NLP treats explanation as source-sensitive and warns against equating persuasive prose with faithful interpretation. | Jacovi & Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*; source maturity = research paper supporting evaluation posture | `E.17.EFP` adopts this by requiring source relation, `E.17:5.1b` source-support posture, evidence relation, pins, provenance, and class-per-rendering review rather than fluency alone. | **Adopt.** |
-| Natural-language explanation needs explicit checking for faithfulness or self-consistency rather than trust in stylistic coherence. | Recent evaluation work treats natural-language explanation as a review problem with explicit faithfulness or self-consistency checks, not just readability. | Parcalabescu & Frank (2024), *On Measuring Faithfulness or Self-consistency of Natural Language Explanations*; source maturity = research paper supporting evaluation posture | `E.17.EFP` adapts this into admissibility review, class downgrade, and reopen duties when source anchoring, evidence relation, or face assumptions no longer hold. | **Adapt.** |
-| Retrieval-augmented generated explanations and source-linked generated explanations need separate checks for retrieved context, answer faithfulness, answer relevance, and support quality. | RAG evaluation practice distinguishes context relevance for retrieval, answer faithfulness, answer relevance, and support dimensions instead of treating a retrieved context or citation-like link as reliability by itself. | Es et al. (2023), `RAGAS`; Saad-Falcon et al. (2023), `ARES`; source maturity = evaluation-method support, conditional on retrieval-facing explanation use. | `E.17.EFP` adapts this through `E.17:5.1b` distinctions such as `source-retrieved`, `source-used`, `source-faithful`, `claim-supported`, and `claim-plausible-only`; the practical test is that retrieved support, source-use relation, and operative claim support remain separate before any explanation guides reliance. | **Adapt conditionally.** Use only when retrieval-facing explanation behavior or source-link behavior is live; reject making RAG metrics an FPF ontology or `authoritySourceRef` target. |
-| Interactive explanations create extra support demands: repeated queries, changing models and data, traceability, responsiveness, and reader-action boundaries. | Interactive-explanation work treats explanation as an information-systems architecture problem connecting reader interaction demands with system capabilities; source maturity = emerging arXiv preprint, not settled standard. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3. | `E.17.EFP` adapts this narrowly through `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` when reader interaction is live, while full interactive explanation systems remain outside this profile. | **Adapt with maturity label.** Use as emerging support for interaction-sensitive fields; reject treating it as a normative standard or as authority that static explanation prose is enough. |
+| Faithfulness is not the same as plausibility; explanation evaluation must stay tethered to the underlying source or decision basis. | Faithfulness work in interpretable NLP treats explanation as source-sensitive and warns against equating persuasive prose with faithful interpretation. | Jacovi & Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*; source maturity = research paper as source for evaluation use | `E.17.EFP` adopts this by requiring source relation, `E.17:5.1b` source-relation class, evidence relation, pins, provenance, and class-per-rendering review rather than fluency alone. | **Adopt.** |
+| Natural-language explanation needs explicit checking for faithfulness or self-consistency rather than trust in stylistic coherence. | Recent evaluation work treats natural-language explanation as a review problem with explicit faithfulness or self-consistency checks, not just readability. | Parcalabescu & Frank (2024), *On Measuring Faithfulness or Self-consistency of Natural Language Explanations*; source maturity = research paper as source for evaluation use | `E.17.EFP` adapts this into admissibility review, class downgrade, and reopen duties when source relation, evidence relation, or face assumptions no longer hold. | **Adapt.** |
+| Retrieval-augmented generated explanations and source-linked generated explanations need separate checks for retrieved context, answer faithfulness, answer relevance, and source-relation quality. | RAG evaluation practice distinguishes context relevance for retrieval, answer faithfulness, answer relevance, and source-use dimensions instead of treating a retrieved context or citation-like link as reliability by itself. | Es et al. (2023), `RAGAS`; Saad-Falcon et al. (2023), `ARES`; source maturity = evaluation-method input, conditional on retrieval-facing explanation use. | `E.17.EFP` adapts this through `E.17:5.1b` distinctions such as `source-retrieved`, `source-used`, `source-faithful`, `claim-recoverable-from-source`, and `claim-plausible-only`; the practical test is that retrieved source, source-use relation, and operative claim recoverability remain separate before any explanation guides reliance. | **Adapt conditionally.** Use only when retrieval-facing explanation behavior or source-link behavior is live; reject making RAG metrics an FPF ontology or `authoritySourceRef` target. |
+| Interactive explanations create extra interaction and source-relation demands: repeated queries, changing models and data, traceability, responsiveness, and reader-action boundaries. | Interactive-explanation work treats explanation as an information-systems architecture problem connecting reader interaction demands with system capabilities; source maturity = emerging arXiv preprint, not settled standard. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3. | `E.17.EFP` adapts this narrowly through `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` when reader interaction is live, while full interactive explanation systems remain outside this profile. | **Adapt with maturity label.** Use as emerging source material for interaction-sensitive fields; reject treating it as a normative standard or as authority that static explanation prose is enough. |
 
-**Architecture-description governance tradition.** `E.17.EFP` adopts the rule that reader-helpful renderings stay subordinate to the already governed source `U.Episteme` or source `U.EpistemePublication` rather than replacing it. Explanation therefore remains on existing faces and is judged against source claims, pins, and provenance anchors.
+**Architecture-description governance tradition.** `E.17.EFP` adopts the rule that reader-helpful renderings stay subordinate to the already governed source `U.Episteme` or source `U.EpistemePublication` rather than replacing it. Explanation therefore remains on existing faces and is judged against source claims, pins, and provenance references.
 
 **Explainability and reliability traditions.** `E.17.EFP` adopts the distinction between source-bound explanation and merely plausible explanation prose. It rejects the still-popular shortcut in which fluent or pedagogically useful language is treated as sufficient evidence of explanation faithfulness.
 
-**Local stance.** Best-known current practice supports a narrow rule: explanation renderings are admissible only when their class, source anchoring, evidence relation, admissible faces, and forbidden downstream uses remain visible enough that reader help does not become a second semantic rule track.
+**Local stance.** Best-known current practice points to a narrow rule: explanation renderings are admissible only when their class, source relation, evidence relation, admissible faces, and forbidden downstream uses remain visible enough that reader help does not become a second semantic rule track.
 
-Action result from the explanation-faithfulness and retrieval-evaluation practice basis: fluent, source-linked, generated, retrieved, didactic, or pedagogically useful explanations do not become evidence, assurance, approval, gate passage, release support, work authority, or operative-claim support by fluency, plausibility, citation-like wording, or retrieved context. The local E.17.EFP result is explanation class, source anchor, admissible explanation use or source-finding posture, non-admissible downstream use, and operative-claim mapping to `A.10` or another exact receiving pattern only when reliance is live. Reopen the explanation-use result when the source claim set, pins, provenance, retrieved context, generated rendering, admissible face, use escalation, or support for an operative claim changes.
+Action result from the explanation-faithfulness and retrieval-evaluation practice basis: fluent, source-linked, generated, retrieved, didactic, or pedagogically useful explanations do not become evidence, assurance, approval, gate passage, release reliance, work authority, or operative-claim-source relation by fluency, plausibility, citation-like wording, or retrieved context. The local E.17.EFP result is explanation class, source reference, admissible explanation use or source-finding state, non-admissible downstream use, and operative-claim mapping to `A.10` or another exact receiving pattern only when reliance is live. Reopen the explanation-use result when the source claim set, pins, provenance, retrieved context, generated rendering, admissible face, use escalation, or source relation for an operative claim changes.
 
 ### E.17.EFP:12 - Relations
 
@@ -535,9 +535,9 @@ Action result from the explanation-faithfulness and retrieval-evaluation practic
 - **Primary governing-pattern relation and main neighboring-pattern boundaries:** this profile stays governed by `E.17.0` and `E.17`; any shift toward new semantics, coarsened narrowed-claim rendering, or gate-bearing claim or effect leaves the profile.
 - **Boundary notes:** comparative-interpretation cases apply `E.17.ID.CR ComparativeReading`; explanation-like renderings with declared source-loss mode whose narrower admissible claim or effect, non-admissible downstream claim or effect, and source-bearing reopen are primary apply `A.6.3.CSC Controlled Semantic Coarsening`; retargeting applies `A.6.4`; work and reliance consequences apply `A.15` and `A.15.4`; assurance and engineering-justification consequences apply `B.3`; gate-bearing consequences apply `A.20` or `A.21`.
 
-### E.17.EFP:12a - C.29 MLA relation
+### E.17.EFP:12a - C.29 mathematical-lens use relation
 
-> When an explanation-facing rendering uses a mathematical lens as part of an explanation, `E.17.EFP` still governs rendering class, source anchoring, evidence relation, admissible faces, and forbidden downstream uses. The applicable `C.29` output for the stated use (`MLA.LensCandidateNote`, `MLA.OneLine`, `MLA.MiniCard`, or `MLA.FullCard` when required) may be cited only for the mathematical-lens adequacy part: candidate mathematical object, lens mapping mode, preserved and lost structure, exposed invariant or distinction, `LensSupportPosture`, admissible use, non-admissible use, and stop condition. It does not make the explanation faithful, evidence-bearing, or admissible for downstream use by itself.
+> When an explanation-facing rendering uses a mathematical lens as part of an explanation, `E.17.EFP` still governs rendering class, source relation, evidence relation, admissible faces, and forbidden downstream uses. The applicable `C.29` output for the stated use (`MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` when required) may be cited only for the mathematical-lens use part: candidate mathematical object, lens mapping mode, preserved and lost structure, exposed invariant or distinction, lens-use admissibility value, admissible use, non-admissible use, and stop condition. It does not make the explanation faithful, evidence-bearing, or admissible for downstream use by itself.
 
 ### E.17.EFP:End
 

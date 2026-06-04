@@ -6,12 +6,12 @@ section_id: "B.3:8"
 section_title: "Anti‑patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__011_anti-patterns-and-repairs.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:8 — Anti‑patterns and repairs"
-line_start: 31330
-line_end: 31343
+line_start: 31458
+line_end: 31471
 dependencies:
   - "A.10"
   - "A.12"
@@ -21,6 +21,7 @@ dependencies:
   - "A.20"
   - "A.21"
   - "A.6"
+  - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.1.2"
@@ -67,6 +68,6 @@ keywords:
 | **DesignRunTag chimera**   | “One score” mixing blueprint and telemetry                 | Split into `S=design` and `S=run` tuples; compare explicitly.                                                  |
 | **Agency override**      | Claiming higher assurance because a controller is “clever” | Agency may justify *how* improvements are achieved; it cannot remove WLNK or `Φ`.                              |
 | **MemberOf as stock**    | Using `MemberOf` to sum reliabilities                      | Keep `MemberOf` for collections; reliability comes from the relevant **Γ** composition (e.g., Γ\_sys cutset). |
-| **False assurance support** | Badge, dashboard color, credential display, compliance mark, provenance label, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase is used as an assurance claim. | Keep it as orientation or source pointer unless a typed assurance claim and `A.10` evidence path support the intended assurance use. |
-| **Minimum reliance safety support record inflation** | Ordinary evidence, source-finding explanation, local CV, documentation, or reversible local calibration use is forced into a safety support record; or the support record is used as approval, release permission, gate passage, safety acceptance, or compliance proof. | State the trigger that makes B.3 live. If the trigger is absent, return to `A.10`, `E.17.EFP`, `A.20`, `A.21`, `E.19`, or the local relation. If the trigger is live, write only the minimum support record and contest/redress path needed for the named reliance use. |
+| **False assurance relation** | Badge, dashboard color, credential display, compliance mark, provenance label, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase is used as an assurance claim. | Keep it as orientation or source pointer unless a typed assurance claim and `A.10` evidence path make the intended assurance use admissible. |
+| **Minimum reliance safety assurance record inflation** | Ordinary evidence, source-finding explanation, local CV, documentation, or reversible local calibration use is forced into a safety assurance record; or the assurance record is used as approval, release permission, gate passage, safety acceptance, or compliance proof. | State the trigger that makes B.3 live. If the trigger is absent, return to `A.10`, `E.17.EFP`, `A.20`, `A.21`, `E.19`, or the local relation. If the trigger is live, write only the minimum assurance record and contest/redress path needed for the named reliance use. |
 

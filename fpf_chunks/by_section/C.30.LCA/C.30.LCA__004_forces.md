@@ -6,12 +6,12 @@ section_id: "C.30.LCA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:3 — Forces"
-line_start: 52883
-line_end: 52891
+line_start: 53243
+line_end: 53251
 dependencies:
   - "A.10"
   - "A.20"
@@ -25,6 +25,8 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.30.LCA"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.18"
   - "G.6"
@@ -41,7 +43,7 @@ keywords:
 ### C.30.LCA:3 - Forces
 
 * Control talk is useful and current engineering practice uses it, so deleting it would make architecture prose less usable.
-* The same labels can name different things: a control layer, a declared system level, a scale window, an organizational level, a work/evidence scope, or a publication grouping.
+* The same source labels can name different things. C.30.LCA receives only recovered control-layer, rate-band, control-relation, bounded-context, and `B.2.5` supervisor-subholon uses; other `layer`, `level`, `tier`, or `stack` uses go through `C.30.STRAT` to their exact neighboring patterns.
 * Layered and multi-rate control descriptions often need timing and dynamics claim before they can carry stability or safety claims.
 * `B.2.5` already gives FPF a supervisor-subholon feedback-loop pattern, but it does not turn every loop diagram into proof.
 * TGA graphs can describe flow and transduction relations that participate in control, but the TGA graph is still a description or view, not the control structure itself.

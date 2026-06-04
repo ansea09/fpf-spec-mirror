@@ -6,12 +6,12 @@ section_id: "C.26.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:4 — Solution"
-line_start: 46864
-line_end: 47050
+line_start: 46755
+line_end: 46941
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ Full envelope-regulation record:
 | Sensors / probes | Which metric, dashboard, alert, health check, review, trace query, observation setup, or probe reads the envelope, and can it change behavior or hide unmeasured dimensions? |
 | Available actuators | What work, method, boundary action, staffing change, cache, throttle, bridge, access, protocol, or routine can change the situation? |
 | Boundary condition preserved / changed | Which access, ownership, context, interface, promise, or environment condition matters? |
-| Trade-off posture | Which envelope dimension is protected, relaxed, delayed, made more expensive, or deliberately held constant? |
+| Trade-off condition | Which envelope dimension is protected, relaxed, delayed, made more expensive, or deliberately held constant? |
 | Adaptation cost | What is spent, delayed, damaged, risked, or made harder by the adaptation? |
 | Failure mode | What breakdown, drift, unsafe persistence, or loss of viability shows that the move failed? |
 
@@ -86,7 +86,7 @@ This pattern emits one of these results:
 
 | Result | Meaning |
 | --- | --- |
-| Envelope-regulation claim | State bearer, protected promise/function, envelope variables, viable region/bounds, disturbance, sensors/probes, actuators, boundary condition, trade-off posture, authority, latency, adaptation cost, and failure mode. |
+| Envelope-regulation claim | State bearer, protected promise/function, envelope variables, viable region/bounds, disturbance, sensors/probes, actuators, boundary condition, trade-off condition, authority, latency, adaptation cost, and failure mode. |
 | Actuator redesign | Change cache, throttle, routing, staffing, protocol, access, bridge, escalation, measurement, or context split because the existing actuator cannot keep the envelope viable. |
 | Measurement/probe redesign | Redesign a dashboard, alert, health check, readiness score, or review process because it distorts the envelope it reports. |
 | Ordinary neighboring-pattern application | Use `C.25`, `C.16`, `A.6`, `A.15`, `U.Dynamics`, `C.18`, `C.19`, or `A.19` when the QL cue is not load-bearing. |
@@ -100,7 +100,7 @@ Treat sensors, probes, dashboards, alerts, and metrics as possible participants 
 | --- | --- | --- |
 | Metric-as-envelope | A proxy is treated as the whole envelope. | Recover bearer, protected promise, full envelope, unmeasured dimensions, and admissible use. |
 | Goodharted viability | Actors optimize measured slots while damaging unmeasured survivor relations or future adaptability. | Route probe-caused behavior through `C.26.1`; add evidence for unmeasured envelope dimensions. |
-| Actuator overfit | An action preserves one parameter while pushing another cost, latency, boundary relation, or promise outside bounds. | Add trade-off posture, actuator authority, latency, adaptation cost, and failure mode. |
+| Actuator overfit | An action preserves one parameter while pushing another cost, latency, boundary relation, or promise outside bounds. | Add trade-off condition, actuator authority, latency, adaptation cost, and failure mode. |
 
 #### C.26.3:4.4 - Conditional dynamics detail
 
@@ -111,15 +111,15 @@ When rate, acceleration, second-order change, inertia, damping, resistance, effo
 - whether the rate of change itself is changing, rebounding, overshooting, or damping out;
 - which inertia is useful and which is harmful;
 - which actuator can actually change the envelope fast enough;
-- which evidence shows the dynamic posture.
+- which evidence shows the dynamic state.
 
 If those variables are not load-bearing, do not force dynamics machinery into the case. The short recognition note or the full envelope-regulation record is enough.
 
-#### C.26.3:4.5 - Governed object and operational sequence
+#### C.26.3:4.5 - Primary EntityOfConcern and operational sequence
 
-The governed object is a viability-envelope claim or plan. It is not a generic quality score, not a control-theory survey, and not a biological analogy. The claim says that some bearer can keep a promise, function, or operating regime viable only if a set of variables remains inside a usable region under declared disturbances, probes, sensors, actuators, boundary conditions, and adaptation costs.
+The primary EntityOfConcern is a viability-envelope claim or plan. It is not a generic quality score, not a control-theory survey, and not a biological analogy. The claim says that some bearer can keep a promise, function, or operating regime viable only if a set of variables remains inside a usable region under declared disturbances, probes, sensors, actuators, boundary conditions, and adaptation costs.
 
-The governed move is to turn a one-scalar stability story into an inspectable envelope-regulation decision.
+The first useful move is to turn a one-scalar stability story into an inspectable envelope-regulation decision.
 
 Action path:
 
@@ -129,11 +129,11 @@ Action path:
 4. Name sensors/probes and say whether they only report, also frame, or also change behavior.
 5. Name available actuators and who or what can enact them in time.
 6. State the boundary condition being preserved or changed.
-7. State the trade-off posture and adaptation cost.
+7. State the trade-off condition and adaptation cost.
 8. State the failure mode and re-probe/destabilization condition.
 9. Add dynamics detail only if rate, inertia, damping, latency, resistance, or acceleration changes the decision.
 
-Ordinary output: produce a viability-envelope record with envelope variables and viable region, a disturbance/sensor/actuator map, and a trade-off, adaptation, and failure posture that tells the practitioner what changes in the work.
+Ordinary output: produce a viability-envelope record with envelope variables and viable region, a disturbance/sensor/actuator map, and a trade-off, adaptation, and failure condition that tells the practitioner what changes in the work.
 
 The output should tell a practitioner what changes in the work: redesign the metric, change cache policy, adjust staffing, reroute traffic, split or merge a context, add a bridge note, change an escalation promise, or drop the envelope claim.
 
@@ -151,7 +151,7 @@ sensors or probes: ...
 available actuators: ...
 actuator authority and latency: ...
 boundary condition: ...
-trade-off posture: ...
+trade-off condition: ...
 adaptation cost: ...
 failure mode: ...
 re-probe or destabilization condition: ...

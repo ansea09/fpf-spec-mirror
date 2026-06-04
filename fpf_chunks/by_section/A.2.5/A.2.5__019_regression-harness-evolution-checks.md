@@ -6,12 +6,12 @@ section_id: "A.2.5:18"
 section_title: "Regression harness (evolution checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__019_regression-harness-evolution-checks.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:18 — Regression harness (evolution checks)"
-line_start: 3980
-line_end: 3992
+line_start: 3926
+line_end: 3937
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -40,5 +40,4 @@ Use when **adding/removing states**, **changing criteria**, or **bridging** acro
 **RSCR‑A.2.5‑R05 - Bridge congruence drift.** If a Bridge maps states with `CL=k`, and either side’s checklist changes, revisit the mapping; **do not** keep `CL` unchanged by default—raise or lower with a short rationale.
 **RSCR‑A.2.5‑R06 - Status/behaviour split.** Verify behavioural roles still require `U.System` holders (A.2.1); status‑only roles still have `S_en=∅`.
 **RSCR‑A.2.5‑R07 - One‑screen rule.** If cumulative edits push the RSG beyond one screen, split states or tighten criteria; record a one‑line teaching rationale if you must exceed.
-
 

@@ -6,12 +6,12 @@ section_id: "G.5:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__004_what-this-buys.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:0.2 — What this buys"
-line_start: 77986
-line_end: 77994
+line_start: 78580
+line_end: 78588
 dependencies:
   - "C.11"
   - "C.18"
@@ -54,5 +54,5 @@ keywords:
 - one `DRR/SCR`-addressable trace with explicit basis pins instead of one hidden selector rationale
 - one explicit publication closure so the declared outcome kind, any applicable public selected-set label, retained members or handoff content, ordering status, and basis pins are stated directly in the emitted result
 
-Registry and dispatch remain the primary governed question here; selected-set publication is the explicit closure record for that selector question, not a replacement for it.
+Registry and dispatch remain the primary registry/dispatch selector question here; selected-set publication is the explicit closure record for that selector question, not a replacement for it.
 

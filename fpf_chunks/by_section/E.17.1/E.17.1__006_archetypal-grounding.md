@@ -6,12 +6,12 @@ section_id: "E.17.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:5 — Archetypal Grounding"
-line_start: 61096
-line_end: 61103
+line_start: 61990
+line_end: 61997
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -42,5 +42,5 @@ keywords:
 
 **Show (System).** A TEVB engineering bundle can define a reusable family such as `VP.Functional`, `VP.Procedural`, `VP.RoleEnactor`, and `VP.ModuleInterface` for holon descriptions. Later `U.MultiViewDescribing` families import that bundle rather than redefining the same engineering viewpoints each time.
 
-**Show (Episteme).** A governance-oriented bundle can package `VP.Risk`, `VP.Control`, `VP.Compliance`, and `VP.Operations` as one reusable family for service or program descriptions. Publication surfaces may later expose that family, but the bundle itself remains an intensional catalogue object, not the report surface.
+**Show (Episteme).** A governance-oriented bundle can package `VP.Risk`, `VP.Control`, `VP.Compliance`, and `VP.Operations` as one reusable family for service or program descriptions. Publication faces/forms may later expose that family, but the bundle itself remains a value inside a viewpoint-family catalogue `U.Episteme`, not the report publication face.
 

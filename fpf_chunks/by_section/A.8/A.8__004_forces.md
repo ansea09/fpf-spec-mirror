@@ -6,12 +6,12 @@ section_id: "A.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:3 — Forces"
-line_start: 17888
-line_end: 17897
+line_start: 17982
+line_end: 17990
 dependencies:
   - "A.8"
   - "U.Types"
@@ -30,5 +30,4 @@ keywords:
 | **Rigor vs Pragmatism**         | Proof of universality must be checkable, not philosophical hand‑waving.              |
 | **Inclusivity vs Coherence**    | Welcoming new ideas should not swamp the kernel with domain jargon.                  |
 | **Cognitive Load vs Grounding** | Examples help readers, but too many examples obscure the essence.                    |
-
 

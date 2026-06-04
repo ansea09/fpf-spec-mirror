@@ -6,12 +6,12 @@ section_id: "C.30.P:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__009_worked-cases.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:6 — Worked cases"
-line_start: 52087
-line_end: 52099
+line_start: 52245
+line_end: 52256
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -43,14 +44,13 @@ keywords:
 
 ### C.30.P:6 - Worked cases
 
-
 | Wording | Repair |
 | --- | --- |
-| "The architecture is the diagram." | The diagram is a publication, carrier, source cue, architecture description rendering, or structural view. It is not the architecture itself. Apply `C.2.P` if source/publication stack is live, then `C.30` or `C.30.ASV` only if the architecture claim or structural view is recovered. |
-| "`ArchitectureOf@PlantOps` is defined over structures S1/S2 under context C." | Direct `C.30`; no `C.30.P` unless another hidden object remains. |
-| "This ADR changed the architecture." | Recover whether the ADR is a publication, decision record, document with named source-basis role, architecture-description update, work plan, or ordinary source. Use `C.2.P`, `C.11`, `A.15`, or `C.30` as live. |
-| "The TGA graph proves the architecture is safe." | TGA graph and architecture-flow relation are not proof or safety assurance. Use `E.18` / `C.30.TGA-FLOW-REL` for flow relation, `B.3` or evidence patterns for assurance, and `C.30` only for architecture-description claim. |
-| "The architecture score improved." | Recover whether the sentence means architecture-description adequacy, characteristic/scale score, pattern-quality coordinate, Q-bundle, benchmark result, gate threshold, or ordinary comparison. Apply `C.16.P` before any score-based use. |
-| "Functional architecture improved maintainability." | Recover function-like carrier via `A.6.F` when hidden, then architecture structural view via `C.30.ASV` or quality/maintainability via `C.16.P`, `C.16.Q`, `C.25`, or exact quality pattern. |
-| "The module layer supports the architecture." | Recover whether layer is structure kind, `A.6.M` module/interface relation, publication view, A.6.6 basedness relation, evidence support, or ordinary help. Use `C.30.P` only to assign the architecture/structure wording, then `A.6.P`, `A.6.M`, or the retained exact A.6 specialization for the non-architecture claim. |
+| "The architecture is the diagram." | The diagram is a publication, carrier, source cue, architecture description rendering, or structural view. It is not the architecture itself. Apply `C.2.P` if a source-publication relation set is live, then `C.30` or `C.30.ASV` only if the architecture claim or structural view is recovered. |
+| "`ArchitectureOf@PlantOps` is defined over structures S1 and S2 under context C." | Direct `C.30`; no `C.30.P` unless another selected structure, architecture-description use, structural-view use, source-return relation, or exact C.30 subcase remains hidden. |
+| "This ADR changed the architecture." | Recover whether the ADR is a publication, decision record, document with named source-use role, architecture-description update, work plan, or ordinary source. Use `C.2.P`, `C.11`, `A.15`, or `C.30` as live. |
+| "The TGA graph proves the architecture is safe." | TGA graph and architecture-flow relation are not proof or safety assurance. Use `E.18` and `C.30.TGA-FLOW-REL` for flow relation, `B.3` or evidence patterns for assurance, `C.30` only for the grounded architecture claim or thin conditional architecture-description bridge, and `C.30.AD` when the full architecture-description mechanism is live. |
+| "The architecture score improved." | Recover whether the sentence means grounded architecture adequacy, selected-structure characteristic and scale score, pattern-quality coordinate, Q-bundle, benchmark result, gate threshold, or ordinary comparison. Apply `C.16.P` before any score-based use. |
+| "Functional architecture improved maintainability." | Recover function or functionality use via `A.6.F` when hidden, then architecture structural view via `C.30.ASV` or quality or maintainability via `C.16.P`, `C.16.Q`, `C.25`, or exact quality pattern. |
+| "The module layer supports the architecture." | Treat `layer` first as a source label and apply `C.30.STRAT`. Return to C.30.P only for the architecture or structure portion after recovery; return to `A.6.M` only if a module-interface relation is recovered, to `C.30.LCA` only if a control-layer relation is recovered, to `C.2.P` if this is a publication label or view label, to `A.6.P` if a basedness, source-use, evidence, or reliance relation is live, or to ordinary source-label disposition. |
 

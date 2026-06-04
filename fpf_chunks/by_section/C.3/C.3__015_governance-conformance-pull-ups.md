@@ -6,12 +6,12 @@ section_id: "C.3:13"
 section_title: "Governance & conformance pull‑ups"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__015_governance-conformance-pull-ups.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:13 — Governance & conformance pull‑ups"
-line_start: 37388
-line_end: 37432
+line_start: 37423
+line_end: 37466
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -69,5 +69,4 @@ keywords:
 * **USM‑Typed‑Guarded.** All typed claims use **C.3.A** guard shapes; **Γ\_time** explicit; two‑bridge rule enforced.
 * **USM‑Typed‑Auditable.** Decision records capture **TargetSlice**, typed checks, bridges, penalties, freshness.
 * **USM‑Typed‑Composed.** Compositions use typed pre‑check before Scope algebra; independence justified for **SpanUnion**.
-
 

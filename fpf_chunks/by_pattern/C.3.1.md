@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
-line_start: 37586
-line_end: 37718
+line_start: 37616
+line_end: 37738
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -47,24 +47,21 @@ keywords:
 
 ### C.3.1:1 - Purpose & Audience
 
-This pattern gives **one small, stable vocabulary** to say *what* a claim ranges over (its **describedEntity**) without entangling that with *where it applies* (Scope) or *how well it is supported* (R). For managers:
+This pattern gives **one small, stable vocabulary** to say *what* a claim ranges over (its **entityOfConcern**) without entangling that with *where it applies* (Scope) or *how well it is supported* (R). For managers:
 
 * It prevents the costly mistake “more abstract wording ⇒ wider scope.”
 * It enables **typed composition** (you cannot combine claims about incompatible “things”).
 * It keeps **Scope** and **Assurance** math unchanged and predictable.
 
-
 ### C.3.1:2 - Context
 
 across Contexts, “type” means OWL class, SHACL shape, code type, BORO category, etc. A **neutral, minimal** object is needed to name *the kind of entities* a claim quantifies over **without** importing a full type system or altering USM. **`U.Kind`** fills that role; **ordering** between kinds captures “is‑a/refines” relationships a Context relies on.
-
 
 ### C.3.1:3 - Problem
 
 1. **Scope–Type conflation.** Teams broaden G by “abstracting” prose, not by adding supported slices.
 2. **Unsafe composition.** Claims are joined though they talk about different “things.”
-3. **Cross‑context drift.** Without an explicit core notion of kind, bridges blur describedEntity vs applicability.
-
+3. **Cross‑context drift.** Without an explicit core notion of kind, bridges blur entityOfConcern vs applicability.
 
 ### C.3.1:4 - Forces
 
@@ -72,17 +69,15 @@ across Contexts, “type” means OWL class, SHACL shape, code type, BORO catego
 | ------------------------------ | ------------------------------------------------------------------------- |
 | **Minimality vs utility**      | Keep the core tiny yet sufficient for composition and governance.         |
 | **Locality vs reuse**          | Kinds are context‑local, but projects reuse claims across Contexts via bridges. |
-| **describedEntity vs applicability** | Ordering should not leak into Scope; kinds must not carry G.              |
+| **entityOfConcern vs applicability** | Ordering should not leak into Scope; kinds must not carry G.              |
 | **Neutrality vs specificity**  | Avoid committing to any particular type/ontology stack or notation.       |
-
 
 ### C.3.1:5 - Solution — Core Objects (overview)
 
 * **`U.Kind`** — a **context‑local intensional** object naming a “kind of thing” claims may quantify over.
 * **`U.SubkindOf (⊑)`** — a **partial order** on kinds (reflexive, transitive, antisymmetric). `k₁ ⊑ k₂` reads “`k₁` refines `k₂`.”
 
-> **No Scope on kinds.** Scope is for **claims/capabilities** (USM). Kinds supply **describedEntity only**; **membership** and **signature** live in **C.3.2**.
-
+> **No Scope on kinds.** Scope is for **claims/capabilities** (USM). Kinds supply **entityOfConcern only**; **membership** and **signature** live in **C.3.2**.
 
 ### C.3.1:6 - Norms & Invariants (normative)
 
@@ -97,15 +92,13 @@ across Contexts, “type” means OWL class, SHACL shape, code type, BORO catego
 
 **C3.1‑K‑05 (Separation of concerns).** This core **does not** define kind intent or membership; those are specified in **C.3.2** (`KindSignature` with its own F; `Extension/MemberOf` and determinism).
 
-
 ### C.3.1:7 - Interactions (informative)
 
 * **With USM (A.2.6).** Guards that quantify over a kind use **two** predicates: “Scope covers TargetSlice” (USM) **and** whatever **membership** predicate is defined for the kind (see **C.3.2**). Kinds themselves carry **no Scope**.
 * **With F–G–R (C.2.2).** This pattern does not alter the triple; typed checks happen **before** scope algebra, preventing invalid compositions.
 * **Order of checks reference.** See **Annex C.3.A §5 (E‑01)** for the normative evaluation order: typed compatibility first, then Scope coverage, then penalties to **R** and freshness.
 * **With Formality (C.2.3).** A **KindSignature** (C.3.2) declares its **F**; claims retain their own F via weakest‑link.
-* **With Bridges (Part B).** Use **KindBridge** (C.3.3) for describedEntity; use **Scope Bridge** (Part B) for applicability. Penalties land in **R** via different channels.
-
+* **With Bridges (Part B).** Use **KindBridge** (C.3.3) for entityOfConcern; use **Scope Bridge** (Part B) for applicability. Penalties land in **R** via different channels.
 
 ### C.3.1:8 - Authoring & Review (informative)
 
@@ -117,10 +110,9 @@ If a local constraint is temporary or purely procedural, prefer a **RoleMask** (
 
 **Review prompts.**
 
-1. Does the draft introduce a new *describedEntity* concept? → consider a kind.
+1. Does the draft introduce a new *entityOfConcern* concept? → consider a kind.
 2. Does prose hint at “is‑a” relationships? → capture as `⊑`, not as scope widening.
 3. Are authors trying to widen scope by abstracting wording? → stop; widen **G** only via **ΔG** (USM) with support.
-
 
 ### C.3.1:9 - Examples (informative, technology‑neutral)
 
@@ -129,7 +121,6 @@ If a local constraint is temporary or purely procedural, prefer a **RoleMask** (
 
 2. **Request/AuthenticatedRequest.**
    If multiple policies speak about “authenticated requests,” declare `AuthenticatedRequest ⊑ Request`. Do **not** widen G to compensate for missing authentication; either change the producer’s kind or insert an adapter (C.3.2/C.3.4) while keeping G honest.
-
 
 ### C.3.1:10 - Conformance checklist (normative)
 
@@ -140,7 +131,6 @@ If a local constraint is temporary or purely procedural, prefer a **RoleMask** (
 | **C3.1‑K‑03** | Kinds are **context‑local**; Cross‑context mapping uses **KindBridge** (C.3.3), not Scope bridges.            |
 | **C3.1‑K‑04** | Kinds have **stable ids**; synonyms redirect; Contexts catalog `⊑` links.                                  |
 | **C3.1‑K‑05** | **No intent/membership** in this core; refer to **C.3.2** for `KindSignature` and `Extension/MemberOf`. |
-
 
 ### C.3.1:11 - Rationale (informative)
 

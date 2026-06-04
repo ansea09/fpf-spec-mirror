@@ -6,12 +6,12 @@ section_id: "A.6.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:4 — Solution"
-line_start: 9116
-line_end: 9252
+line_start: 8974
+line_end: 9110
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -125,7 +125,7 @@ Many families need a **generic** mechanism at the top (e.g., “select anything�
 
 #### A.6.1:4.3 - U.MechAuthoring - Instantiation template
 
-**MechanismDescription (E.8 Tell–Show–Show; I/D/S‑compliant):**
+**MechanismDescription (E.8 Tell–Show–Show; strict-distinction-compliant):**
 `Mechanism: U.<Name>`  *(Kernel conceptual description; no tooling fields)*
 `Imports: <Signatures / U.Types>` - `SubjectBlock: <SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?>` - `SlotSpecs: <SlotIndex (A.6.5)>` - `OperationAlgebra: <operators with SlotKinds>` - `LawSet: <equations/invariants>` - `AdmissibilityConditions: <admission predicates with SlotKinds; Γ_time>` - `Transport: <Bridge channels; CL/CL^k/CL^plane named; ReferencePlane(src,tgt)>` - `PlaneRegime: <world|concept|episteme rules>`
 

@@ -6,12 +6,12 @@ section_id: "C.2.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:9 — Consequences"
-line_start: 34684
-line_end: 34716
+line_start: 34774
+line_end: 34806
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,25 +47,13 @@ dependencies:
   - "E.9"
   - "F.18"
 keywords:
-  - "PublicationUnit"
-  - "carrier"
-  - "claim-bearing episteme"
-  - "described entity"
-  - "epistemic precision restoration"
-  - "grounding relation"
-  - "publication face"
-  - "remaining admissible reader move"
-  - "source wording"
-  - "source-expression unpacking"
-  - "source-to-FPF transfer"
-  - "transfer disposition"
 ---
 
 ### C.2.P:9 - Consequences
 
 | Benefit | Trade-off and mitigation |
 | --- | --- |
-| Prevents parallel episteme/publication ontology from entering FPF prose. | Adds a small recovery step before apparently simple rewrites; mitigate by using the smallest sufficient mode. |
+| Prevents parallel episteme and publication ontology from entering FPF-governed wording. | Adds a small recovery step before apparently simple rewrites; mitigate by using the smallest sufficient mode. |
 | Preserves accepted glossary and rules without turning source-basis status lines into accidental pattern authority. | Requires a clear separation between pattern guidance and source-basis status. |
 | Makes unclear meaning fail closed. | Some attractive phrases will not be accepted until their kind or relation is actually recovered. |
 | Improves DRR and pattern drafting discipline. | Authors must resist convenient lists and umbrellas when one exact kind or relation is needed. |
@@ -74,8 +62,8 @@ keywords:
 For new episteme-publication precision prose:
 - start from FPF kinds and relations, not from familiar publication nouns and document nouns;
 - use `PublicationUnit` for bounded publication units;
-- use `describedEntity` only when the episteme slot is live;
-- keep publication form, generic publication face, governed MVPK face, view, carrier, document with named source-basis, evidence-basis, architecture-basis, or review-basis role, review object, and exact project-side FPF kind and reference separate;
+- use `EntityOfConcern` and `EntityOfConcernRef` when the episteme slot is live, and translate `describedEntity` source wording to the adopted EntityOfConcern family before FPF-governed use closure;
+- keep publication form, generic publication face, MVPK face under E.17 constraints, view, carrier, document with named source, evidence, architecture, reviewed publication, review packet, review record, or review state, and exact project-side FPF kind and reference separate;
 - name `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef` separately when more than one is live;
 - classify heterogeneous kind lists before writing a sentence that depends on them;
 - say that FPF patterns are applied in problem situations, not called or routed as procedures;
@@ -83,8 +71,8 @@ For new episteme-publication precision prose:
 
 Operationally, each rewrite should:
 - separate FPF-side episteme and publication context from project-side episteme and publication context whenever both are present;
-- name `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef` separately when a publication, display, cue, or explanation is treated as evidence, gate, constraint, adjudication, decision support, work permission, assurance, or engineering justification;
-- classify heterogeneous lists before naming them: one live kind, relation stack, tuple-like record, alternative cases, not-triggered alternatives, or failed ontology;
+- name `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef` separately when a publication, display, cue, or explanation is treated as evidence, gate, constraint, adjudication, decision-making reliance, work permission, assurance, or engineering justification;
+- classify heterogeneous lists before naming them: one live kind, relation set, tuple-like record, alternative cases, not-triggered alternatives, or failed ontology;
 - say that FPF patterns are applied in problem situations, while project records, publications, views, carriers, and actions are worked with in project practice;
 - avoid strength metaphors unless the characteristic, scale, threshold, evidence class, or admissibility relation is named.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
-line_start: 29413
-line_end: 29752
+line_start: 29573
+line_end: 29902
 dependencies:
   - "A.12"
   - "A.14"
@@ -83,7 +83,6 @@ Without a dedicated, order‑aware method operator:
 > **Separation reminder.**
 > Method composition ≠ resource spending. Keep **resource budgets, yields, dissipation** in **Γ\_work**; **Γ\_method** only checks and composes **order and capability**.
 
-
 #### B.1.5:4.2 - The operator family (two companion flavours)
 
 To respect the DesignRunTag split, **Γ\_method** is presented as two companion operators sharing the same intent but acting at different `DesignRunTag` positions (spec vs run).
@@ -115,7 +114,6 @@ To respect the DesignRunTag split, **Γ\_method** is presented as two companion 
 **Relationship to Γ\_ctx.**
 Both flavours **reuse Γ\_ctx** invariants for order (non‑commutative composition with **NC‑1..3** reproducibility). **Γ\_method** specialises the **typing and boundary rules** for methods and introduces **MIC**.
 
-
 #### B.1.5:4.3 - Core aggregation rules (design‑time composition)
 
 When computing **Γ\_method^plan(D\_spec, σ)**:
@@ -138,7 +136,6 @@ When computing **Γ\_method^plan(D\_spec, σ)**:
 
 5. **No costs here.**
    If a step lists resources/yields, **do not** aggregate them here. Instead, add a pointer to the corresponding **Γ\_work** composition to be executed with the same order/joins at run‑time.
-
 
 #### B.1.5:4.4 - Core aggregation rules (run‑time enactment)
 
@@ -168,7 +165,6 @@ When executing **Γ\_method^run(M\_spec, RA, Fill)**:
 > * **COMM/LOC:** replaced by Γ\_ctx **NC‑1..3** (determinism given `σ`, context hash of `σ`, and partial‑order soundness).
 > * **WLNK:** quality/throughput of the composite is bounded by the **critical path** steps (identified for later B.3 assurance).
 > * **MONO:** strengthening a step (better pre/post, stronger type, improved adapter) **cannot** make the composite worse.
-
 
 #### B.1.5:4.5 - Didactic contrasts (to prevent common confusions)
 
@@ -229,7 +225,6 @@ When executing **Γ\_method^run(M\_spec, RA, Fill)**:
   The same order executes as `U.Work`; **Γ\_work** accounts for compute/storage spend.
   Assurance hooks: cutset at `CrossValidate`; integration **CL** for schema mappings; post‑condition for `DraftManuscript` includes provenance SCR.
 
-
 ### B.1.5:6 - Method Interface Standard (MIC) — template & examples
 
 #### B.1.5:6.1 - MIC template (normative content)
@@ -285,7 +280,6 @@ Method Interface Standard (MIC)
     - Report.metrics computed on held-out data only
   ```
 
-
 ### B.1.5:7 - Proof obligations (normative)
 
 **At planning time (Γ\_method^plan):**
@@ -304,7 +298,6 @@ Method Interface Standard (MIC)
 4. **PO‑RUN‑WORK.** Attach the **Γ\_work** result (spent resources, yields, dissipation) aligned with the same order/join structure.
 5. **PO‑RUN‑ASSURANCE.** Provide the observed values for the cutset steps and the actual **CL** of integration mappings to feed B.3 assurance.
 
-
 ### B.1.5:8 - Conformance Checklist (normative)
 
 | ID            | Requirement                                                                                                                                                   | Purpose                             |
@@ -316,7 +309,6 @@ Method Interface Standard (MIC)
 | **CC‑B1.5.5** | Resource spending/yields **SHALL** be computed via **Γ\_work** and MUST NOT be inlined into Γ\_method aggregation.                                            | Maintain separation of concerns.    |
 | **CC‑B1.5.6** | Γ\_ctx **NC‑1..3** invariants **SHALL** hold for both flavours (determinism under σ, hash, partial‑order soundness).                                          | Guard non‑commutative correctness.  |
 | **CC‑B1.5.7** | If joining branches produces apparent super‑additivity beyond WLNK not explainable within Γ\_method, an **MHT** **SHALL** be considered and recorded per B.2. | Prevent “synergy by arithmetic”.    |
-
 
 ### B.1.5:9 - Anti‑patterns & repairs
 
@@ -332,7 +324,6 @@ Method Interface Standard (MIC)
 | **Boundary Fog**       | External calls occur ad‑hoc                                   | Define/Update **MIC**; Promote/Forward/Encapsulate explicitly.                     |
 | **Emergence by Join**  | Throughput leaps past WLNK with no story                      | Either (i) prove within Γ\_method (cutset/CL/order) or (ii) declare **MHT** (B.2). |
 
-
 ### B.1.5:10 - Consequences
 
 **Benefits**
@@ -346,7 +337,6 @@ Method Interface Standard (MIC)
 
 * **More explicitness up‑front.** Capability typing and MIC authorship require care; in return, later integration is safer.
 * **Adapter discipline.** Modellers must create adapters rather than assuming conversions—this avoids hidden brittleness.
-
 
 ### B.1.5:11 - Rationale (informative)
 

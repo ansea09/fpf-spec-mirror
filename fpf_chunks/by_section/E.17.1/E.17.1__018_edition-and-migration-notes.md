@@ -6,12 +6,12 @@ section_id: "E.17.1:17"
 section_title: "Edition and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__018_edition-and-migration-notes.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:17 — Edition and Migration Notes"
-line_start: 61303
-line_end: 61325
+line_start: 62196
+line_end: 62218
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -52,7 +52,7 @@ Legacy `U.MultiViewDescribing` families often publish only one local list of vie
 
 This sequence preserves provenance and avoids pretending that the reusable family had always existed.
 
-#### E.17.1:17.3 - Migration from surface-bound naming
+#### E.17.1:17.3 - Migration from publication-face/form-bound naming
 
 If a legacy practice uses one label interchangeably for a viewpoint family, a report section, and a publication face, migration should separate those roles explicitly. `ViewFamilyId` remains at the bundle layer; `U.Viewpoint` ids remain at the viewpoint layer; publication-face names remain publication-layer vocabulary.
 

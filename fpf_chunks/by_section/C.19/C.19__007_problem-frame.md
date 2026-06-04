@@ -6,12 +6,12 @@ section_id: "C.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__007_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:1 — Problem frame"
-line_start: 42682
-line_end: 42693
+line_start: 42588
+line_end: 42599
 dependencies:
   - "B.3"
   - "C.11"
@@ -44,7 +44,7 @@ When `C.11` has already made local choice among one fixed `OptionSet` explicit, 
 
 Immediate failure indicators for this pattern:
 - the current pool-policy result cannot name the still-live candidate pool it is governing
-- the governing lens or policy posture is missing
+- the governing lens or policy state is missing
 - the next pool-side treatment exists only as one vague promise to continue exploration later
 
 If the question is still which single option should survive now, apply `C.11`. If the next artifact must already be one enactment-facing plan, apply `C.24`. If the retained set must be published for downstream consumption, apply `G.5`.

@@ -6,12 +6,12 @@ section_id: "F.2:End"
 section_title: "F.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__018_f-2-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:End — F.2:End"
-line_start: 69147
-line_end: 69148
+line_start: 69972
+line_end: 69973
 dependencies:
   - "A.11"
   - "A.7"

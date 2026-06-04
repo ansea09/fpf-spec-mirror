@@ -6,12 +6,12 @@ section_id: "C.22:8"
 section_title: "Anti‑patterns (normative):"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__009_anti-patterns-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:8 — Anti‑patterns (normative):"
-line_start: 43557
-line_end: 43567
+line_start: 43481
+line_end: 43491
 dependencies:
   - "C.16"
   - "C.18"
@@ -39,7 +39,7 @@ keywords:
 * **AP‑4** **DesignRunTag chimera** signatures (mixing stances).
 * **AP‑5** **Domain** treated as governance (attach governance to **U.Discipline** and **CG‑Spec**, not Domain).
 * **AP‑6** Implicit handling of data‑shift (assume iid); **Remedy:** declare `ShiftClass` (or `unknown`) and gate via Acceptance.
-* **AP‑7** Tool or vendor tokens in normative text; **Remedy:** move to Plain‑register note; keep Tech anchors on CHR and CAL ids (LEX V‑4).
+* **AP‑7** Tool or vendor tokens in normative text; **Remedy:** move to Plain‑register note; keep Tech references on CHR and CAL ids (LEX V‑4).
 
 **Remedies:** tri‑state predicates; admissible order relations (lexi, Pareto, median, or medoid); explicit **GateCrossing** visibility through **CrossingBundle** (BridgeCard + UTS row + `CL/Φ` policy‑ids; **E.18**, **F.9**, **F.17**, **E.17**, and **A.21** where live); Domain stitched to **D.CTX + UTS** only.
 

@@ -6,12 +6,12 @@ section_id: "F.8:13"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__015_relations-with-other-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:13 — Relations (with other patterns)"
-line_start: 70997
-line_end: 71008
+line_start: 71748
+line_end: 71758
 dependencies:
   - "A.11"
   - "A.7"
@@ -44,5 +44,4 @@ keywords:
   * **F.7 Concept‑Set:** rows must declare **Scope** & **Row CL(min)** and carry **loss notes**.
   * **F.9 Bridges:** any row proposal presupposes Bridges at or above τ(scope).
 * **Used by.** All patterns (Part C) whenever new labels are contemplated.
-
 

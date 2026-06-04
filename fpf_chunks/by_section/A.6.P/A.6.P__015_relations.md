@@ -6,12 +6,12 @@ section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__015_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12 — Relations"
-line_start: 12789
-line_end: 12814
+line_start: 12629
+line_end: 12654
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -61,7 +61,7 @@ keywords:
 * **A.6.5 `U.RelationSlotDiscipline`** — slot precision restoration for n‑ary relations.
 * **A.6.6 `U.BaseDeclarationDiscipline`** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags).
 * **A.6.8 (RPR‑SERV)** — service polysemy unpacking as a relation/facet precision restoration discipline (serviceSituation lens + canonical rewrites + service‑specific tests and change narration).
-* **A.6.9 (RPR‑XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align / map” via explicit Bridges
+* **A.6.9 (RPR-XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context "same", "equivalent", "align", or "map" via explicit Bridges
 * **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole/part/integrity/complete”) into boundary, typed parthood, explicit Γ selection, order/time classification, and A.15 completeness/coverage claims.
 
 **Coordinates with**
@@ -74,7 +74,7 @@ keywords:
 
 **Candidate extraction signals (informative; not queued specialisations)**
 
-These recurring relation-force families are signals for applying the `E.10.ARCH` extraction criterion. They do not by themselves create a new A.6.x pattern.
+These recurring relation-repair families are signals for applying the `E.10.ARCH` extraction criterion. They do not by themselves create a new A.6.x pattern.
 
 * Cross‑Context equivalence / “sameness” discipline (Bridge + loss-note relation patterns)
 * Correspondence/consistency + repair discipline (sync/alignment relation patterns)

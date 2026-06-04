@@ -6,12 +6,12 @@ section_id: "G.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__008_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:2 — Problem"
-line_start: 78027
-line_end: 78040
+line_start: 78621
+line_end: 78634
 dependencies:
   - "C.11"
   - "C.18"
@@ -51,7 +51,7 @@ keywords:
 
 How to design a **general, auditable dispatcher** that:
 
-* supports **pluralism** (families from competing Traditions stay disjoint) while remaining **dispatchable** (selection is possible and explainable);
+* preserves **pluralism** (families from competing Traditions stay disjoint) while remaining **dispatchable** (selection is possible and explainable);
 * does **not embed algorithmic dogma** in the core selector kernel;
 * respects Context boundaries and crossing discipline (Bridge‑only; explicit pins);
 * produces **set‑valued outcomes** when only partial orders are admissible;

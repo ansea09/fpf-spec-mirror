@@ -6,12 +6,12 @@ section_id: "D.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
   - "D.5:1 — Problem Frame"
-line_start: 53531
-line_end: 53536
+line_start: 54645
+line_end: 54650
 dependencies:
   - "B.3"
   - "B.3.3"
@@ -33,5 +33,5 @@ keywords:
 
 FPF is designed to produce reliable, objective, and trustworthy holons. However, formal correctness (`FV` score) and empirical validation (`EV` score) are not sufficient on their own. Any record, model, metric, policy, or decision system designed by humans or trained on human-generated data is susceptible to hidden cognitive, cultural, and algorithmic biases. A perfectly verified control system can still be unsafe if its requirements were based on a biased assumption about operator behavior. A highly accurate machine learning model can be deeply unfair if its training data was not representative.
 
-A fairness claim can also be unsafe by causal overclaim. "This policy is fair because a metric improved" is not the same claim as causal fairness, counterfactual fairness, or path-specific fairness. `D.5` therefore brings causal fairness into the audit entry surface: the audit must distinguish metric disparity, associative fairness evidence, interventional fairness proxy, and counterfactual fairness claim before the ethical assurance record is treated as supported.
+A fairness claim can also be unsafe by causal overclaim. "This policy is fair because a metric improved" is not the same claim as causal fairness, counterfactual fairness, or path-specific fairness. `D.5` therefore brings causal fairness into the audit entry section: the audit must distinguish metric disparity, associative fairness evidence, interventional fairness proxy, and counterfactual fairness claim before the ethical assurance record is treated as supported.
 

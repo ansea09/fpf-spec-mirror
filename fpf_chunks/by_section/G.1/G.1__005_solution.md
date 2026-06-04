@@ -6,12 +6,12 @@ section_id: "G.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:4 — Solution"
-line_start: 76173
-line_end: 76455
+line_start: 76769
+line_end: 77051
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -119,7 +119,7 @@ The chassis is *view‑friendly*: it is an inventory of “what exists and how i
 
 * `CG‑FrameContext` and its **binding pins**:
 
-  * `describedEntity := ⟨GroundingHolon, ReferencePlane⟩` *(pin set: `PartG.AuthoringMinimal`)*
+  * `entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩` *(pin set: `PartG.AuthoringMinimal`)*
   * `CNSpecRef.edition`, `CGSpecRef.edition` *(pin set: `PartG.AuthoringMinimal`)*
   * `ReferenceMap` *(cite `G.0:CG‑Spec.ReferenceMap`; do not duplicate semantics)*
   * any declared crossing/policy pins *(pin set: `PartG.CrossingVisibilityPins`)*
@@ -194,7 +194,7 @@ M6 prepares *refresh‑readiness metadata* and wiring stubs; it does not define 
 
 | Module | Consumes                                                                    | Produces                                                                               |
 | ------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| M1     | CG‑Frame brief + `describedEntity` + `CNSpecRef/CGSpecRef` (edition‑pinned) | `CG‑FrameContext` + context pins                                                       |
+| M1     | CG‑Frame brief + `entityOfConcern` + `CNSpecRef/CGSpecRef` (edition‑pinned) | `CG‑FrameContext` + context pins                                                       |
 | M2     | discovery inputs + inclusion criteria *(via G.2)*                           | `SoTA_SetId` (+ provenance anchors; optional UTS stubs/rows)                           |
 | M3     | `SoTA_SetId` + local constraints + emitter policy pins *(via Extensions)*   | `VariantPoolId` (+ candidate trace/provenance; optional method payload via Extensions) |
 | M4     | `VariantPoolId` + acceptance/eligibility surfaces *(via G.4/G.5)*           | `ShortlistId` (selected set / set-result) + rationale refs                                         |

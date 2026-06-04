@@ -6,16 +6,17 @@ section_id: "E.10.ARCH:8"
 section_title: "Name and placement discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__011_name-and-placement-discipline.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:8 — Name and placement discipline"
-line_start: 58380
-line_end: 58389
+line_start: 59518
+line_end: 59527
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.SPR"
   - "A.22"
   - "A.6.3.CSC"
   - "A.6.F"
@@ -30,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ASV"
   - "C.30.P"
+  - "C.30.STRAT"
   - "E.10"
   - "E.19"
   - "E.2"
@@ -42,9 +44,9 @@ keywords:
 
 ### E.10.ARCH:8 - Name and placement discipline
 
-`semantic area`, `meaning area`, `pattern area`, `pattern cluster`, `workstream`, `campaign`, `module`, and `branch` are not selected as Tech architecture terms for this distribution.
+`semanticArea` is the selected Part-F Tech term for the semantic unit used by a wording-use restoration row. Plain speech may say "semantic area" or "meaning area" only as a gloss for that declared Part-F row or bounded row-set.
 
-Plain speech may use "meaning area" or "theme" to help a reader notice that relation, episteme/publication, architecture/structure, characteristic/scale, or quality wording is handled by different patterns. Tech prose must resolve that cue into exact `ontologicalNeighborhood`, `governedObjectKindUseFields`, exact `receivingPattern`, and realization pattern.
+`meaning area`, `theme`, `pattern area`, `pattern cluster`, `workstream`, `campaign`, `module`, and `branch` are not selected as Tech architecture terms for this distribution. Tech prose must resolve those cues into `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `entityOfConcernUseFields`, `ontologicalNeighborhood`, exact `receivingPattern`, and realization pattern.
 
 `pattern nest` is allowed for ID and placement grouping such as `A.6.*`, `C.16.*`, or `C.30.*`. It is not a semantic parent relation and not an authority relation.
 

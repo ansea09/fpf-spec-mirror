@@ -6,12 +6,12 @@ section_id: "F.9:9"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__011_invariants-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:9 — Invariants (normative)"
-line_start: 71232
-line_end: 71247
+line_start: 71972
+line_end: 71985
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -48,7 +48,6 @@ keywords:
 
 ### F.9:9 - Invariants (normative)
 
-
 1. **Locality first.** A Bridge relates **SenseCells**, never Contexts or strings.
 2. **senseFamily discipline.** **Substitution Bridges must be senseFamily-preserving**. **Interpretation Bridges** may cross senseFamilies but **never** support substitution.
 3. **Direction clarity.** If the kind is directional, state direction explicitly.
@@ -59,6 +58,5 @@ keywords:
 8. **Time DesignRunTag honesty.** If a Context fixes **DesignRunTag**, the Bridge must respect that distinction or explicitly declare a bridge such as `Design-spec -> Run-trace`.
 9. **Kernel restraint.** Bridges **cannot** be used to promote ad-hoc sameness into a new **U.Type**; A.11 applies.
 10. **Non-inheritance of Contexts.** Bridges **do not** imply -is-a- between Contexts (E.10.D1).
-11. **Coarsened-note restraint.** A lighter cross-context note, comparative aid, redacted view, or surrogate **SHALL NOT** be treated as a Bridge Card or as bridge or substitution support by convenience. If bridge-bearing use is still wanted, the source-bearing episteme or source publication needed for bridge support must be reopened and the bridge must be declared explicitly with kind, direction, `CL`, and loss notes.
-
+11. **Coarsened-note restraint.** A lighter cross-context note, comparative aid, redacted view, or surrogate **SHALL NOT** be treated as a Bridge Card or as bridge-bearing or substitution-bearing evidence by convenience. If bridge-bearing use is still wanted, the source-bearing episteme or source publication needed for the Bridge Card must be reopened and the bridge must be declared explicitly with kind, direction, `CL`, and loss notes.
 

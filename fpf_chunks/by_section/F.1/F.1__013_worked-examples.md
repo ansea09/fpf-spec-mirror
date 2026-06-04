@@ -6,12 +6,12 @@ section_id: "F.1:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__013_worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:12 — Worked examples"
-line_start: 68668
-line_end: 68727
+line_start: 69518
+line_end: 69574
 dependencies:
   - "A.11"
   - "A.7"
@@ -56,7 +56,6 @@ keywords:
 * You mark a trip‑wire: **RBAC role** (not in this cut) is *not* a **behavioural role (BPMN participant)**.
 * You resist equating **PROV Activity** with **BPMN workflow**; later **F.9** may relate them with explicit loss.
 
-
 #### F.1:12.2 Method quartet with types & measurement (model state graph)
 
 **Unification line.** Method‑CAL + Kind-CAL + KD‑CAL.
@@ -74,7 +73,6 @@ keywords:
 * You keep **Method** (abstract how‑to) separate from **MethodDescription** (epistemic recipe) and **Execution** (run) because the Contexts already split design vs run.
 * You avoid treating **FCA “concept”** as a **U.Type**; later F.9 can bridge OWL classes to FCA concepts with cautions.
 
-
 #### F.1:12.3 Control & actuation with services (operational SLOs in plants)
 
 **Unification line.** Sys‑CAL + LCA‑CAL (planned) + services/deontics.
@@ -91,5 +89,4 @@ keywords:
 
 * “**Actuation**” is recognised as **control output** (Sys‑CAL), not a *service promise*.
 * “**Incident**” (ITIL) is not a plant *fault* (Sys‑CAL); Contexts deter category errors.
-
 

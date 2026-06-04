@@ -6,12 +6,12 @@ section_id: "E.17:8"
 section_title: "Examples (SoTA-aligned Local Tests)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__009_examples-sota-aligned-local-tests.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:8 — Examples (SoTA-aligned Local Tests)"
-line_start: 62271
-line_end: 62287
+line_start: 63155
+line_end: 63169
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -39,7 +39,6 @@ keywords:
 
 Read these examples as local tests for MVPK invariants, not as source citations by reputation.
 
-
 1. **Composite service pipeline (`InteropCard` + `AssuranceLane`).**
     `f: Parse → Normalize`, `g: Normalize → Score`.
     `InteropCard(g∘f)` is an interoperability **view** whose path set equals the **relational composition** of the two cards; `AssuranceLane(g∘f)` cites test records as evidence **carriers** with edition pins. (Carriers, not semantics; concrete envelope formats are outside Part E.)
@@ -50,5 +49,4 @@ Read these examples as local tests for MVPK invariants, not as source citations 
 
 4. **Functional-description publication (`PlainView` + `TechCard`).**
     A principle scheme or functional diagram can publish a readable relation from signature or principle episteme content to method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, and result measurement. The MVPK faces may help a team inspect that relation and prepare a work plan, but they do not turn the diagram, table, screen, or export into work occurrence, gate passage, evidence, engineering justification, or supervisory or control architecture. For those uses, the team first recovers the existing exact typed project-side value and reference that carries the claim when available: work-relevant source restoration under `A.15.4`, project `U.Method`, `U.WorkPlan`, and dated `U.Work` occurrence under `A.15` and `A.15.1`, evidence or provenance path under `A.10`, engineering-justification record under `B.3`, gate or constraint decision under `A.20` or `A.21`, or supervisory or control architecture record under `B.2.5`. If no existing source carries the needed claim, create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note; do not backdate evidence, gate passage, work occurrence, release permission, engineering justification, or assurance for the earlier claim.
-
 

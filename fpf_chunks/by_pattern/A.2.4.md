@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.4.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
-line_start: 2987
-line_end: 3412
+line_start: 2957
+line_end: 3375
 dependencies:
   - "A.10"
   - "A.2"
@@ -92,7 +92,6 @@ The **normative properties** of the role (e.g., `claimRef`, `claimScope`, `polar
   Binding:
   `Lemma-12.proof#AxiomaticProofRole:Theory_T`.
 
-
 ### A.2.4:5 - Role family and specialisations
 #### A.2.4:5.3 - Causal evidence-role specialisations
 
@@ -112,7 +111,6 @@ What changes in practice: an episteme holding `SimulationOnlyCounterfactualOutpu
 The corresponding `CausalEvidenceSupportBasis` values are governed by `C.28`: `observationalAssociationSupportBasis`, `interventionalActionSupportBasis`, `realizedCounterfactualSampleSupportBasis`, `identifiedCounterfactualEstimateSupportBasis`, and `simulationOnlyCounterfactualOutputBasis`. `A.2.4` only classifies evidence roles held by epistemes; it does not mint a second causal support-basis value set.
 
 What this does not authorize: `A.2.4` does not decide the causal-use question, estimand, identification, or counterfactual sampling realizability; it preserves the evidence-role assignment and the authority-reference boundary so `C.28` and `B.3` can judge the causal-use claim without vocabulary laundering.
-
 
 `U.EvidenceRole` is a **role kind** refined by **specialisation** (no mereology of roles). The recommended, substrate‑neutral specialisations are:
 
@@ -337,7 +335,6 @@ Every binding **SHALL** declare `assuranceUse ∈ {TA | VA | LA}` and, for **emp
 | **Service proves itself**   | Service KPI logged as evidence.                        | KPIs come from `U.Work`; service evaluation can be bound as evidence.   |
 | **Scope blur**              | Mixing design-time and run-time provenance in one EPV. | Split into separate bindings; relate via claim graph or bridge.         |
 
-
 ### A.2.4:12 - Operators (conceptual, tooling-agnostic)
 
 These operators extend E.6.1 citation graph capabilities for evidence analysis inside a `U.BoundedContext`:
@@ -374,7 +371,6 @@ A.3.2 `U.MethodDescription` (protocols, proof obligations), E.6.1 Epistemic Role
 **Informs:**
 KD-CAL (knowledge dynamics, assurance cases), Norm-CAL (policy claims with evidence), planned `U.PromiseFulfillmentEvaluation` (services judged from work and reported as epistemes with evidence bindings).
 
-
 ### A.2.4:14 - Migration notes (quick wins)
 
 1. **Enumerate claims**: For each evidence collection, identify claims and create explicit bindings with polarity.
@@ -392,7 +388,6 @@ These are short reminders for non-specialist readers to apply `U.EvidenceRole` c
 * **Two lines of trust** — Formal line: proof carriers checked in a declared theory version. Empirical line: observations from Work under a declared method. Both are epistemes wearing `U.EvidenceRole`.
 * **Services are promises; Work proves** — KPIs are measured from Work; service evaluations can be bound as evidence for policy claims.
 * **Specialise, don’t stack** — Use specialisations of `U.EvidenceRole` to refine meaning; never chain behavioural roles into evidence.
-
 
 ### A.2.4:16 - SCR/RSCR audit stubs (assurance scaffolding)
 
@@ -412,7 +407,6 @@ When `claimRef` or holder episteme versions change, ensure **new** bindings are 
 
 **RSCR-A2.4-R2 (Decay check)**
 Bindings past `timespan.to` or with expired `decayClass` are flagged for review per context policy.
-
 
 ### A.2.4:17 - Minimal evidence-role assignment schema (informative)
 
@@ -447,5 +441,4 @@ EvidenceRoleAssigning:
 10. **No role-of-role**: Is this role bound directly to an episteme without chaining behavioural roles?
 
 ### A.2.4:End
-
 

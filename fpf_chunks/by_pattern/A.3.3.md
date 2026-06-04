@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.3 — U.Dynamics"
-line_start: 6371
-line_end: 6641
+line_start: 6261
+line_end: 6524
 dependencies:
   - "A.19"
   - "B.4"
@@ -64,7 +64,6 @@ Without a first‑class `U.Dynamics`, models suffer predictable failures:
 | **Open vs. closed systems**            | Exogenous inputs (control/disturbances) may be explicit or implicit.                                                    |
 | **Predictive use vs. diagnostic use**  | The same dynamics can guide planning or explain incidents; interfaces must support both.                                |
 
-
 ### A.3.3:4 - Solution — The unified concept `U.Dynamics`
 
 **Definition (normative).**
@@ -101,7 +100,6 @@ U.Dynamics {
 * **Not Work:** no timestamps/resources attached; evidence lives on `U.Work`.
 * **Not a Service:** no consumer promise; dynamics may underpin service SLOs but does not define the promise.
 * **Not PBS/SBS:** do not place dynamics inside structural BoMs.
-
 
 ### A.3.3:5 - Where `U.Dynamics` sits in enactment
 
@@ -174,7 +172,6 @@ Ambiguous uses of *process/processual* (laws vs. runs vs. recipes) **MUST** be r
 **CC‑A3.3‑11 (Link to Services—optional).**
 If service SLOs are derived from a dynamics model, the service promise clause (`U.PromiseContent`) **SHOULD** reference that `U.Dynamics` (A.2.3), but the promise clause remains the promise, not the law.
 
-
 ### A.3.3:9 - Evidence and operators (traces, prediction, conformance)
 
 Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records produced under `C`. Let `obs_D(-)` be the declared observation map for `D`.
@@ -219,7 +216,6 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 
 > **Didactic hook:** *Dynamics predicts; Work reveals; Conformance compares.*
 
-
 ### A.3.3:10 - Anti‑patterns (and the right move)
 
 * **“Dynamics = procedure.”**
@@ -240,7 +236,6 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 * **“One size fits all time base.”**
   If parts of the system evolve on different clocks, declare `hybrid` and separate update rules.
 
-
 ### A.3.3:11 - Migration notes (quick path to value)
 
 1. **Name the changing things.** Pick 3–7 **characteristics** that matter (physical or architectural). Declare `stateSpace` with units and ranges.
@@ -250,7 +245,6 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 5. **Start conformance.** Define a simple `tol` and compute `fits(D, trace, tol)` weekly. Raise issues on drift; version the model when calibrating.
 6. **Link to promises (optional).** If SLOs depend on the law, reference `U.Dynamics` from `U.PromiseContent` and derive targets transparently.
 7. **For KD‑CAL.** Treat belief/support as characteristics; declare a Bayesian/likelihood update in `transitionLaw`; evaluate conformance against evidence arrivals.
-
 
 ### A.3.3:12 - Relations
 
@@ -275,7 +269,6 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 * **Constrained by lexical rules:**
   **E.10 L‑PROC** (process disambiguation), **L‑ACT** (activity/action), **L‑FUNC** (function).
 
-
 ### A.3.3:13 - Didactic quick cards (engineer‑manager ready)
 
 * **Dynamics = Law of Change.** A design‑time model of how states evolve.
@@ -287,8 +280,8 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 
 **Memory hook:** **Method decides - Dynamics predicts - Work reveals.**
 
-### A.3.3:12a - C.29 MLA relation
+### A.3.3:12a - C.29 mathematical-lens use relation
 
-> If `transitionLaw` or `observation` uses accepted local dynamics, Markov kernels, ODEs, simulations, or accepted domain theory, stay in `A.3.3`; no MLA output is needed unless a separate lens-transfer, publication, assurance, bridge, prediction, or reusable-explanation use is being claimed. If `transitionLaw` or `observation` depends on a contested, cross-domain, learned, or speculative mathematical lens, add the applicable `C.29` output for that stated use. That output states preserved dynamic structure, lost structure, validity or scale window, rival lens when live, `LensSupportPosture`, and stop condition; then return to `A.3.3` for state space, transition law, observation, constraints, and calibration semantics.
+> If `transitionLaw` or `observation` uses accepted local dynamics, Markov kernels, ODEs, simulations, or accepted domain theory, stay in `A.3.3`; no MathLensUse output is needed unless a separate lens-transfer, publication, assurance, bridge, prediction, or reusable-explanation use is being claimed. If `transitionLaw` or `observation` depends on a contested, cross-domain, learned, or speculative mathematical lens, add the applicable `C.29` output for that stated use. That output states preserved dynamic structure, lost structure, validity or scale window, rival lens when live, `LensUseAdmissibilityValue`, and stop condition; then return to `A.3.3` for state space, transition law, observation, constraints, and calibration semantics.
 
 ### A.3.3:End

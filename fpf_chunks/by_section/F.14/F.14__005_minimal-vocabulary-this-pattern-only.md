@@ -6,12 +6,12 @@ section_id: "F.14:4"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__005_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:4 — Minimal vocabulary (this pattern only)"
-line_start: 73240
-line_end: 73248
+line_start: 73890
+line_end: 73897
 dependencies:
   - "F.1"
   - "F.10"
@@ -39,5 +39,4 @@ keywords:
 * **Bundle** (this pattern): a **named composition** of Role Descriptions that are meant to be used together by design (e.g., {Requester, Approver} for change control). A Bundle is a **concept**, not a package.
 * **SoD Constraint** (this pattern): a **conceptual rule** stating that two Roles **must not** be played by the same Holder in the **same window**.
 * **Window** (F.10): an **claim scope** (time stance, holon level, run segment) that delimits when a Role or Status holds.
-
 

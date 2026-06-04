@@ -6,12 +6,12 @@ section_id: "C.17:13"
 section_title: "Novelty & transfer are context‑local (Bridges mandatory)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__014_novelty-transfer-are-context-local-bridges-mandatory.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:13 — Novelty & transfer are context‑local (Bridges mandatory)"
-line_start: 42116
-line_end: 42126
+line_start: 42029
+line_end: 42038
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,5 +58,4 @@ keywords:
 **Rule N‑3 (Penalty to R, not to G).** Cross‑context novelty **does not** change scope **G**; it **reduces R** (reliability) by the **CL penalty** (B.3), unless validated by pilot Work in the target Context.
 
 **Practical pattern.** Publish novelty **with its Context tag** and—when reused—attach the **Bridge id** and target‑context **pilot** outcomes.
-
 

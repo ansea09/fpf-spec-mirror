@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
-line_start: 60209
-line_end: 60395
+line_start: 61105
+line_end: 61289
 dependencies:
   - "A.10"
   - "B.3"
@@ -106,7 +106,6 @@ A LAT is **not** “we ran a script.” It is a **structured episteme** that let
 *Reproducibility* (re‑run B‑stages as SoTA changes), *assurance* (explicit impact on F/G/R), *portfolio health* (diversity/coverage), *teaching* (didactic before/after), and *cross‑context safety* (no silent imports).
 Publish the pattern with its **DRR**, and publish the **LAT** as the separate authoring/evidence record for the change. The LAT carries the reproducible authoring trace and cites the DRR as the governing decision record. The DRR remains complete without LAT citations; it may summarize already-available decisive evidence by value when that evidence materially shaped the content choice. If later LAT or refresh evidence motivates a reopened or revised choice, carry that evidence into the successor DRR or other admissible decision record rather than retrofitting the accepted DRR.
 
-
 **Example of a LAT‑stub**
 ```
 LAT:
@@ -125,7 +124,6 @@ LAT:
 #### E.15:4.3 - What counts as “changed the pattern as a whole” — **Delta‑Classes & versioning**
 
 Classify the intended change **before** work starts (declare it in the DRR framing; echo it in the LAT or evidence record when one is used):
-
 
 * **Δ‑0 Lexical polish** — wording/ordering only; **no** change to CC or semantics. → *Patch* (x.y.**z**+1).
 * **Δ‑1 Didactic restructure** — narrative/layout; **unchanged** Conformance Checklist (CC). → *Minor* (**x.y**+1.0).

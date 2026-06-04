@@ -6,12 +6,12 @@ section_id: "C.3.1:6"
 section_title: "Norms & Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__007_norms-invariants-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:6 — Norms & Invariants (normative)"
-line_start: 37647
-line_end: 37660
+line_start: 37672
+line_end: 37684
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -36,5 +36,4 @@ keywords:
 **C3.1‑K‑04 (Naming).** A Context **SHALL** assign stable identifiers to kinds and **SHOULD** catalog parent/child `⊑` links. Synonyms/aliases **SHALL** point to the canonical kind id.
 
 **C3.1‑K‑05 (Separation of concerns).** This core **does not** define kind intent or membership; those are specified in **C.3.2** (`KindSignature` with its own F; `Extension/MemberOf` and determinism).
-
 

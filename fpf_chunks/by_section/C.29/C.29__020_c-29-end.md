@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.29"
-pattern_title: "Mathematical Lens Adequacy (MLA)"
+pattern_title: "Mathematical Lens Use"
 section_id: "C.29:End"
 section_title: "C.29:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__020_c-29-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.29 — Mathematical Lens Adequacy (MLA)"
+  - "C.29 — Mathematical Lens Use"
   - "C.29:End — C.29:End"
-line_start: 51315
-line_end: 51316
+line_start: 51146
+line_end: 51146
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensSupportPosture"
+  - "LensUseAdmissibilityValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -59,8 +59,7 @@ keywords:
   - "scale window"
   - "stop condition"
   - "structure-preserving representation"
-  - "validation posture"
+  - "validation boundary"
 ---
 
 ### C.29:End
-

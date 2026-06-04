@@ -6,12 +6,12 @@ section_id: "G.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:1 — Problem frame"
-line_start: 77508
-line_end: 77523
+line_start: 78102
+line_end: 78117
 dependencies:
   - "A.10"
   - "A.18"
@@ -55,7 +55,7 @@ keywords:
 
 A CG‑Frame has:
 
-* a declared `CG-FrameContext` (scope, described entity, plane),
+* a declared `CG-FrameContext` (scope, EntityOfConcern, plane),
 * a plurality of method traditions and claims (SoTA inputs), and
 * CHR‑typed measurement constructs (`Characteristic/Scale/Coordinate` + legality guard macros).
 

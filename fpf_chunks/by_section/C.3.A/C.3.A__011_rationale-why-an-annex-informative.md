@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale (why an Annex) (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale-why-an-annex-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale (why an Annex) (informative)"
-line_start: 38829
-line_end: 39343
+line_start: 38797
+line_end: 39288
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -35,7 +35,6 @@ keywords:
 
 > **For managers.** This section shows how to make **regulatory adoption and reuse** precise, auditable, and portable using **Kinds**, **KindBridges** (with a kind‑bridge congruence level, noted as **CL^k** for editors), and **USM Scope**. It cleanly separates *what the law is about* from *where and when it applies*, and routes any cross‑jurisdiction uncertainty to **R** (assurance). It never changes **F** (form) or **G** (scope) to hide mismatches.
 
-
 ##### C.3.A:A.1 Purpose & fit
 
 **What this solves.** Regulations and standards name classes of things (“**Adult person**,” “**Class II medical device**,” “**Personal data**,” “**Lease**”). In one context they are native; in another they are foreign. Without typed reasoning, teams either (a) hand‑translate terms (silently changing meaning), or (b) reduce everything to Context labels (“domain = EU”), which cannot be checked by guards.
@@ -46,7 +45,6 @@ keywords:
 2. map them across Contexts with **KindBridges** and **type‑congruence `CL^k`**,
 3. express **Claim scope (G)** over **Context slices** that explicitly list *jurisdiction, version, and a time selector (Γ_time)*, and
 4. apply **R‑penalties** (`Ψ(CL^k)`and, if scope is bridged,`Φ(CL)`) while **keeping F and G unchanged**.
-
 
 ##### C.3.A:A.2 Normative obligations
 
@@ -67,7 +65,6 @@ keywords:
 **C‑REG‑7 (Editioning).** Changes in law/regulator guidance that alter membership or applicability **SHALL** be recorded as content changes: update `KindSignature` (kinds) and/or update **Claim scope** (ΔG±). Guards **MUST** name a time selector (Γ_time) and **MUST NOT** rely on an implicit “latest” time.
 
 **C‑REG‑8 (Masks, not clones).** Local process nuances (e.g., clinic‑specific cohort definitions) **SHALL** be captured with **RoleMasks** over the adopted kind; editors **MUST NOT** clone a new kind unless a stable **subkind** is warranted.
-
 
 ##### C.3.A:A.3 Guard macros (ready to use)
 
@@ -109,7 +106,6 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
   4. Penalties→R:       apply the **scope‑bridge** and **kind‑bridge** penalties to **R**
   5. Loss-guided narrow: optionally narrow Scope' where known losses are material (best practice)
 ```
-
 
 ##### C.3.A:A.4 Worked examples  \[I]
 
@@ -160,7 +156,6 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 * **Scope.** `{jurisdiction=IFRS, Γ_time=financial period, ledger=v7}`.
 * **Evidence.** LA plans cover subkinds (operating vs finance) per your classification; the kind‑bridge congruence level (CL^k) drives extra testing near boundary cases.
 
-
 ##### C.3.A:A.5 Design guidance & pitfalls  \[I]
 
 **Do this.**
@@ -178,7 +173,6 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 * **Hiding time.** Never rely on “current law”; always fix **Γ\_time** (point/window/policy).
 * **Widening G to compensate for type gaps.** If kinds don’t line up, introduce a **subkind**, add a **mask/adapter**, or **narrow**; don’t “make the scope bigger”.
 
-
 ##### C.3.A:A.6 Migration checklist  \[I]
 
 1. **Inventory** regulatory references in policies/specs.
@@ -188,7 +182,6 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 5. **Wire penalties**: `Ψ(CL^k)` and `Φ(CL)` lower **R**; refresh evidence windows.
 6. **Catalog RoleMasks** for local nuances; promote frequently reused masks to **subkinds**.
 
-
 ##### C.3.A:A.7 Manager’s one‑page pattern  \[I]
 
 * **Question 1 — Where does the rule apply?** → **Scope (G)** over **Context slices** (jurisdiction, plant, Standard, and a **time selector (Γ_time)**).
@@ -196,7 +189,6 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 * **Gate recipe.** **Scope covers the TargetSlice** and **membership for the mapped kind is defined**, and **both bridges are present where needed**; then **apply bridge penalties to R** and decide.
 * **Change handling.** New law edition? Update `KindSignature`/Bridge (kinds) and/or **Scope** (ΔG); never rely on “latest.”
 * **Accountability.** Keep **loss notes**, **CL/CL^k**, and **Γ\_time** in the decision record.
-
 
 #### C.3.A:Annex B - How typed reasoning plugs into **Assurance Lanes (VA/LA/TA) & Evidence design**  \[A/I]
 
@@ -217,7 +209,6 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 * **Subkind‑aware test plans (LA).** Test matrices are indexed by **subkinds** (and RoleMasks) × **context slices**; coverage stops being accidental.
 * **Deterministic guards.** A test/proof either **applies** to the TargetSlice and Kind (`Scope covers & MemberOf defined`) or it doesn’t. No “latest,” no silent widening.
 * **Clean tool boundaries (TA).** You qualify the **prover/model‑checker/classifier** once and route **tool confidence** to TA, not to “broadened” claims.
-
 
 ##### C.3.A:B.2 Normative obligations for evidence design
 
@@ -244,13 +235,11 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 
 **EA‑7 (TA separation).** Tool qualification (TA) **SHALL** be tracked independently. VA/LA guards **MUST NOT** substitute “tool is trusted” for content proof/coverage.
 
-
 ##### C.3.A:B.3 Designing the **evidence matrix**  \[I]
 
 A practical way to plan LA/VA is a **matrix**:
 
 | Row set                       | Column set                                                   | Cell content                                                                                                           |
-
 | ----------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | **Kinds** (subkinds or masks) | **Context slices** (Standard versions, env ranges, `Γ_time`) | **Evidence unit** (proof fragment, test batch, monitoring window), with **Scope** and **MemberOf** predicates attached |
 
@@ -259,7 +248,6 @@ A practical way to plan LA/VA is a **matrix**:
 * **Fill cells.** Attach one or more **evidence units** per cell (proof obligations for VA; test campaigns/monitoring windows for LA). Mark **bridged** cells and their **CL/CL^k** penalties to **R**.
 
 > **Tip.** For formal kinds and “up‑to‑iso” kinds (AT K2/K3), expect **more rows** (more variants to cover). For instance‑like kinds (AT K0), expect **fewer rows** and **tighter columns** (narrow slices, stricter freshness).
-
 
 ##### C.3.A:B.4 VA lane — proofs that match the kind  \[A/I]
 
@@ -283,7 +271,6 @@ Policy P: “∀ x: PassengerCar. stoppingDistance(x) ≤ 50 m on dry at speed�
 — **Scope**: `{surface=dry, speed≤50, rig=v3, Γ_time=rolling 180 d}`.
 — **Proof**: a proof assistant lemma over `PassengerCar` (tool choice is context‑local).
 — **Reuse** to Plant‑B: a Scope Bridge with **CL=2** (rig bias) and a KindBridge with **CL^k=3** (same classification). Apply the **scope‑bridge penalty** for CL=2 and the **kind‑bridge penalty** for CL^k=3 to **R**.
-
 
 ##### C.3.A:B.5 LA lane — tests & monitoring that cover the right variants  \[A/I]
 
@@ -310,7 +297,6 @@ Claim: “For all `x ∈ Vehicle`: brakeDistance ≤ 50 m on dry, ≤ 40 m on we
 — **Cells**: PC/dry covered by track tests; LT/wet by simulation + surrogate tests (independent lines → SpanUnion allowed).
 — **Bridge** to jurisdiction Y collapses EV vs ICE ⇒ `CL^k=2`. Apply **Ψ(2)** to **R**; add extra wet tests to compensate.
 
-
 ##### C.3.A:B.6 TA lane — tool qualification where it belongs  \[A/I]
 
 **What TA contributes.** Confidence in **provers, checkers, model‑checkers, data classifiers** and pipelines. TA is about the **machinery**, not the **claim** or **kind** semantics.
@@ -325,7 +311,6 @@ Claim: “For all `x ∈ Vehicle`: brakeDistance ≤ 50 m on dry, ≤ 40 m on we
 
 * **TA‑1.** Tools critical to VA/LA **SHALL** declare their qualification status and version; guards **SHALL** reference these declarations when they matter.
 **TA‑2.** Lower tool qualification **MUST NOT** be hidden by relaxing **F** or widening **G**. target‑contexts may offset it by demanding **more evidence** in **R** (for example, extra tests), per policy.
-
 
 ##### C.3.A:B.7 Guard macros for evidence planning & attachment
 
@@ -355,7 +340,6 @@ Claim: “For all `x ∈ Vehicle`: brakeDistance ≤ 50 m on dry, ≤ 40 m on we
 5. VA/LA Mix:         If VA present, verify it matches the quantified Kind; if LA fills gaps, show matrix deltas
 6. TAConsistent:      Tool versions match TA declarations used at planning time
 ```
-
 
 ##### C.3.A:B.8 Anti‑patterns & remedies
 
@@ -422,14 +406,12 @@ If the Claim’s scope originates in another target‑context, a **Scope Bridge*
 * Do **not** treat a **mask name** as a kind—masks must be **registered** and **deterministic**.
 * Do **not** infer G from the size of a kind’s **Extension**; **Scope ≠ Extension**.
 
-
 ##### C.3.A:C.2 - **Method–Work** guard obligations (normative)
 
 To admit a **capability** for a specific **Work** step at **JobSlice**, the guard **SHALL**:
 
 1. **Work scope coverage (USM).**
    The capability’s **Work scope** covers the **JobSlice**, and the **JobSlice** includes an explicit **time selector (Γ_time)**.
-
 
 2. **Measures & qualification.**
    **All** required `U.WorkMeasures` hold at JobSlice and the `U.QualificationWindow` is **valid at `Γ_time`**.
@@ -449,7 +431,6 @@ To admit a **capability** for a specific **Work** step at **JobSlice**, the guar
 
 4. **No substitution by G.**
    Do not “fix” a typed mismatch by widening the **Work scope**. Use an **adapter** or a **RoleMask**, or reject.
-
 
 ##### C.3.A:C.3 - Guard macros (ready‑to‑use)
 
@@ -503,7 +484,6 @@ To admit a **capability** for a specific **Work** step at **JobSlice**, the guar
 6. **Freshness:** evidence ≤ 180 days ✓.
    **Result:** Transition allowed. F/R apply weakest‑link on support paths; G remains the set declared.
 
-
 **(B) Method–Work — Admit “RiskScore” step with typed input.**
 *Capability.* `ComputeRiskScore` expects `AuthenticatedRequest`; promises SLOs (latency ≤ 50 ms, error ≤ 0.5 %).
 *JobSlice.* `{api=v2.3, region=eu‑west, Γ_time=now, traffic_class=gold}`
@@ -516,7 +496,6 @@ To admit a **capability** for a specific **Work** step at **JobSlice**, the guar
 4. **No Cross‑context** → no bridges.
    **Result:** Admitted **with adapter**; Scope unchanged; R relies on adapter evidence. Widening Work scope is **not** acceptable to bypass typed mismatch.
 
-
 **(C) Cross‑context ESG — Adopt policy across plants.**
 *Claim Context.* `SafetyLab@2026`. *target Context.* `PlantB@EU`.
 *Kinds.* `Vehicle ↦ TransportUnit` via **KindBridge** with **`CL^k=2`** (EV/ICE collapsed); **Scope Bridge** from lab to plant with **CL=2** (rig bias ±2 %).
@@ -527,15 +506,13 @@ To admit a **capability** for a specific **Work** step at **JobSlice**, the guar
 3. Apply the **scope‑bridge penalty (level 2)** and the **kind‑bridge penalty (level 2)** to **R**; publish loss notes.
    **Result:** Transition allowed with reduced **R**; G is the **mapped** set; F unchanged.
 
-
 ##### C.3.A:C5 - Anti‑patterns & remedies (normative where noted)
 
 | Anti‑pattern                                      | Why it’s wrong                                 | Remedy                                                                              |
 | ------------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------- |
-| Widening **G** to “make kinds match”              | Conflates **describedEntity** with **applicability** | Introduce **subkind**, **RoleMask**, or **KindBridge**; keep G honest.              |
+| Widening **G** to “make kinds match”              | Conflates **entityOfConcern** with **applicability** | Introduce **subkind**, **RoleMask**, or **KindBridge**; keep G honest.              |
 | Using a **mask name** as a kind                   | Hides constraints; breaks determinism          | Register mask; ensure constraints are observable; promote to **subkind** if reused. |
 | Ignoring **`CL^k`** when classifying across Contexts | Under‑counts risk                              | Require **KindBridge**; apply **Ψ(`CL^k`)** to **R**; record loss notes.            |
 | Inferring **Scope** from the size of the **Extension** | Scope is not the same as Extension            | Keep **Scope** (where it applies) distinct from **Extension** (which items count in the slice). |
 | Implicit “**latest**” time                        | Non‑deterministic guard                        | Require explicit **`Γ_time`** (point/window/policy).                                |
-
 

@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Solution — the LEX‑BUNDLE rule‑set (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_solution-the-lex-bundle-rule-set-overview.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:4 — Solution — the LEX‑BUNDLE rule‑set (overview)"
-line_start: 57444
-line_end: 57456
+line_start: 58567
+line_end: 58579
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,7 +33,7 @@ keywords:
 
 ### E.10:4 - Solution — the **LEX‑BUNDLE** rule‑set (overview)
 
-**LEX-BUNDLE** aka **ULR (Unified Lexical Rules)** names the retained reference apparatus for register, naming, morphology, and rewrite checks inside the current `E.10` pattern. Use it only after the `E.10:0.2` scan has selected a lexical/register/naming problem that actually needs those details.
+**LEX-BUNDLE** aka **ULR (Unified Lexical Rules)** names the retained reference apparatus for register, naming, morphology, and rewrite checks inside the current `E.10` pattern. Use it only after the `E.10:0.2` scan has selected a lexical or register or naming problem that actually needs those details.
 
 1. **Vertical Stratification** (E.10 -> four strata);
 2. **Twin‑Register Discipline** (Tech/Plain pairs);

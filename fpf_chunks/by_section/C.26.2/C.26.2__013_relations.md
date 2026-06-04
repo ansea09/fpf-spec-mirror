@@ -6,12 +6,12 @@ section_id: "C.26.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:12 — Relations"
-line_start: 46807
-line_end: 46814
+line_start: 46700
+line_end: 46706
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,6 @@ keywords:
 ---
 
 ### C.26.2:12 - Relations
-
 
 - Builds on: `C.26`, `A.15`, `A.10`, `B.3`, `F.9`, `C.16`, `E.17.EFP`, `C.11`.
 - Coordinates with: `C.26.1` when the probe changes the state being evidenced; `C.26.3` when the coordinated state is part of viability-envelope regulation.

@@ -6,12 +6,12 @@ section_id: "C.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:3 — Forces"
-line_start: 33222
-line_end: 33229
+line_start: 33337
+line_end: 33343
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,5 +37,4 @@ keywords:
 * **Meaning vs materiality.** Meaning must be independent of carrier, yet accountable to it historically.
 * **Deductive vs empirical.** Axiomatic certainty and empirical trust have different evidence-continuity profiles; both must compose.
 * **Abstraction vs enactment.** Epistemes constrain action; **systems** act. The calculus must keep the roles distinct.
-
 

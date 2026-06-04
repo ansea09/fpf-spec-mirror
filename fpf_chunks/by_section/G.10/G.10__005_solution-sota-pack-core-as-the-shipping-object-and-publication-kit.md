@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 80396
-line_end: 80680
+line_start: 80986
+line_end: 81270
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -118,7 +118,7 @@ SoTA‑Pack(Core) :=
   publicationScopeId,
   contextSliceId?,
   CG-FrameContext,
-  describedEntity := ⟨GroundingHolon, ReferencePlane⟩,
+  entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩,
 
   // Governing spec refs (refs + edition pins; semantics governed by their patterns)
   CNSpecRef := ⟨A.19 ref, CNSpecRef.edition⟩,
@@ -162,7 +162,7 @@ SoTA‑Pack(Core) :=
 
 #### G.10:4.2.1 - Portfolio roster (normative; pack-governed; governing-definition delegating)
 
-`PortfolioRosterId` identifies the **selector‑facing** pack roster token. The corresponding `PortfolioRoster@Context` is one citation-and-binding roster record inside the shipped publication surface, not a `Surface` or `SurfaceKind` value:
+`PortfolioRosterId` identifies the **selector‑facing** pack roster token. The corresponding `PortfolioRoster@Context` is one citation-and-binding roster record inside the shipped publication form, not a publication face kind, publication form kind, interop publication form kind, or carrier kind:
 it MUST NOT redefine selection / selected-set semantics (governed by `G.5`) or parity semantics (governed by `G.9`).
 Mode‑specific definition pins (QD/OEE/interop) are introduced only via `G.10:Ext.*` blocks.
 
@@ -172,7 +172,7 @@ PortfolioRoster@Context :=
   PortfolioRosterId,
   PackId(UTS),
   CG-FrameContext,
-  describedEntity,
+  entityOfConcern,
 
   // Selector operation and default-resolution support
   portfolioMode?,
@@ -208,7 +208,7 @@ PortfolioRoster@Context :=
 *Presence rule:* `PortfolioRosterId` MAY be omitted only when the shipped pack is *inputs‑only*
 (e.g., shipping CHR/CAL/evidence without any selector‑consumable selected-set/shortlist output).
 
-The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, `sourceSetComposition`, `derivedViewKind`, `basePaletteRef`, `lensId`, and `shortlistId` fields in this roster are payload metadata fields or refs inside the shipped publication surface. They do not define new Part-E `SurfaceKind` values and they do not let `G.10` re-govern `G.5`, `C.18`, `C.19`, or `G.2` semantics.
+The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, `sourceSetComposition`, `derivedViewKind`, `basePaletteRef`, `lensId`, and `shortlistId` fields in this roster are payload metadata fields or refs inside the shipped publication form. They do not define publication face kinds, publication form kinds, interop publication form kinds, or carrier kinds, and they do not let `G.10` re-govern `G.5`, `C.18`, `C.19`, or `G.2` semantics.
 
 **Interpretation constraints (normative by delegation).** Any universal invariants governing (i) CN/CG spec-ref governing-definition assignment, (ii) crossing visibility and penalty routing, (iii) tri‑state guards, (iv) set‑return semantics, (v) P2W split, (vi) defaults, and (vii) RSCR trigger typing are **not restated here** and are enforced via `G.Core` conformance (see `CC‑G10‑CoreRef`).
 
@@ -315,7 +315,7 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 #### G.10:4.7 - Published surfaces must ship kind, source, derivation, lens, and shortlist token
 
 - Published surfaces should carry the selector outcome kind and, when applicable, the set-result kind or handoff kind, plus the subject kind, source set kind, and relevant declared surface pins.
-- These are publication payload metadata fields inside `SoTA-Pack(Core)`, not new Part-E `SurfaceKind` values.
+- These are publication payload metadata fields inside `SoTA-Pack(Core)`, not publication face kinds, publication form kinds, interop publication form kinds, or carrier kinds.
 - Good publication fields include `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `subjectKind`, `sourceSetFamily`, `sourceSetComposition`, `dominanceRegime`, `lensId`, `shortlistId`, and any declared archive or promotion-policy ids that the reader needs to interpret the visible set.
 - Those payload fields should use controlled tokens, cited ids, or already-declared head labels rather than shipping-local prose values.
 - When the visible surface or the shortlisted source is one derived tradition view, also publish the derivation explicitly.

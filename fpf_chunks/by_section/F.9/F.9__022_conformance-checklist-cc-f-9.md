@@ -6,12 +6,12 @@ section_id: "F.9:20"
 section_title: "Conformance Checklist (CC-F.9)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__022_conformance-checklist-cc-f-9.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:20 — Conformance Checklist (CC-F.9)"
-line_start: 71537
-line_end: 71558
+line_start: 72257
+line_end: 72278
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -66,5 +66,5 @@ A Bridge publication conforms to F.9 iff:
    `BridgeId` and cited policy pins are treated as registry references, not as signature-exported semantic symbols.
 
 8. **CC-F.9-8 - Coarsened cross-context note is not treated as a Bridge Card.**
-   If bridge-bearing reuse begins from a lighter note, summary, or comparison aid, the source-bearing episteme or source publication needed for bridge support is reopened and a full Bridge Card is published before any equivalence, substitution, `Naming-only` row, interoperability, or other row support is claimed.
+   If bridge-bearing reuse begins from a lighter note, summary, or comparison aid, the source-bearing episteme or source publication needed for the Bridge Card is reopened and a full Bridge Card is published before any equivalence, substitution, `Naming-only` row, interoperability, or other row admissibility is claimed.
 

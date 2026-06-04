@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.6.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
-line_start: 36346
-line_end: 36508
+line_start: 36431
+line_end: 36592
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,6 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state anchoring mode.
-
 
 ### C.2.6:1 - Problem frame
 Published position claims in the declared language-state chart over `U.CharacteristicSpace` differ not only by articulation and closure, but by how the governed `U.Episteme` in that claim is anchored to bodies, traces, model states, documents, or operator loops.

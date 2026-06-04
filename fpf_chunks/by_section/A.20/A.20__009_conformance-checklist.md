@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Conformance Checklist  ✱"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:7 — Conformance Checklist  ✱"
-line_start: 27273
-line_end: 27305
+line_start: 27481
+line_end: 27513
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.20:7 - Conformance Checklist  ✱
 
-**Conformance use.** This checklist is evidence for the internal-step CV guidance already stated in the Solution. It is not the first entry text for ordinary use and not a full audit regime by default; an item is applied only when its corresponding CV class, witness, publication face, or neighboring relation is live. Before applying any item, name the Solution move it tests; if no such reader move is live, treat the item as support-only or not applicable rather than expanding the applied assurance or conformance material.
+**Conformance use.** This checklist is evidence for the internal-step CV guidance already stated in the Solution. It is not the first entry text for ordinary use and not a full audit regime by default; an item is applied only when its corresponding CV class, witness, publication face, or neighboring relation is live. Before applying any item, name the Solution move it tests; if no such reader move is live, treat the item as orientation-only or not applicable rather than expanding the applied assurance or conformance material.
 
 **Conformance groups.** Ordinary CV use starts with step, applicable CV class, `CV.Status`, and witness or refusal. Crossing/launch items apply only when a CV-checked step is adjacent to a live gate, crossing, or launch boundary. Publication/assurance items apply only when the CV result is carried on MVPK faces or consumed by downstream replay/audit. Extension/change items apply only when species binding, valuation/refresh, or neighboring selector/comparator loci are being changed or consumed.
 
@@ -54,7 +54,7 @@ keywords:
  * CV classes present exactly as {UnitsCoherence, LawSetInvariants, Admissibility, LipschitzBounds, TypeDomainRange}; **plus** `ReinterpretationEquivalence` when the node kind is `StructuralReinterpretation`. None declare/translate planes/comparators.
  * **Open‑world species.** Any node **species** binds to one of the minimal kinds; adding a new **kind** is out of scope for A.20 and belongs in an E.TGA update.
 * Aggregated **CV.Status** computed; errors/timeouts imply `CV.Status != pass`.
-* Any support-looking use beyond the local step names the receiving relation. `CV.Status` is not gate passage, release confidence, assurance, safety acceptance, work occurrence, or work authorization.
+* Any wider use beyond the local step names the receiving relation. `CV.Status` is not gate passage, release confidence, assurance, safety acceptance, work occurrence, or work authorization.
 
 **Gate coupling**
 

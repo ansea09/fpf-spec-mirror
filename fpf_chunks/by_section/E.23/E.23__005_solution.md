@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 67833
-line_end: 68009
+line_start: 68702
+line_end: 68877
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -32,7 +32,7 @@ keywords:
 
 Run a `QualityImprovementLoopMethod` only after naming the exact `ObjectVersionUnderImprovement` and the `ObjectUnderImprovementEvaluationRef` that supplies values and stop meanings.
 
-`QualityImprovementLoopMethod := <ObjectUnderImprovementRef, ObjectUnderImprovementEvaluationRef, ImprovementAim, DeclaredFloor?, TradeoffProtectionSet, QualityReadQuestionFrameRef, MethodFamilySelection, OperationFamilySelectionSet?, QualityReviewFindingRows?, ChangedObjectVersionRef?, ObjectUnderImprovementEvaluationReRead, CostAndRiskPosture, StopNarrowContinueSwitchHoldDecision>`
+`QualityImprovementLoopMethod := <ObjectUnderImprovementRef, ObjectUnderImprovementEvaluationRef, ImprovementAim, DeclaredFloor?, TradeoffProtectionSet, QualityReadQuestionFrameRef, MethodFamilySelection, OperationFamilySelectionSet?, QualityReviewFindingRows?, ChangedObjectVersionRef?, ObjectUnderImprovementEvaluationReRead, CostAndRiskAccount, StopNarrowContinueSwitchHoldDecision>`
 
 `ObjectUnderImprovementRef` is a local field for the exact object kind and exact version under the object-under-improvement evaluation. It does not mint a broad new kernel kind.
 
@@ -52,14 +52,13 @@ When the object-under-improvement evaluation also supplies the `Q` side of an NQ
 | `ImprovementAim` | Declared desired movement under the object-under-improvement evaluation: floor repair, exceptional improvement, trade-off inspection, absorption impact, open-question discovery, or another exact object-under-improvement evaluation aim. | Not permission to optimize visible values while damaging protected qualities. |
 | `MethodFamilySelection` | Selected method family for the current object under improvement: general adaptive loop, specialized cycle, or mixed operation-family set. | Not a universal ladder, maturity level, or new kernel kind. |
 | `OperationFamilySelectionSet` | Optional operation families selected because they can move the object-under-improvement evaluation enough to justify their cost and risk. | Not mandatory apparatus for every loop. |
-| `ObjectUnderImprovementEvaluationReRead` | Re-run or cited result from the object-under-improvement evaluation on the changed object version under improvement. | Not executor self-assessment, reviewer praise, discharge count, or absence of blockers. |
-| `CostAndRiskPosture` | Declared cost and risk account used to judge whether the next pass or added operation is worth doing. | Not a scalar quality value and not resource ontology. |
+| `ObjectUnderImprovementEvaluationReRead` | Re-run or cited result from the object-under-improvement evaluation on the changed object version under improvement. | Not repair self-assessment, reviewer praise, discharge count, or absence of blockers. |
+| `CostAndRiskAccount` | Declared cost and risk account used to judge whether the next pass or added operation is worth doing. | Not a scalar quality value and not resource ontology. |
 | `StopNarrowContinueSwitchHoldDecision` | The local decision after a re-read: stop, narrow the aim, continue, switch method family, or hold for more exact information. | Not a release gate, work authority, safety acceptance, or evidence claim by itself. |
-| `QualityImprovementLoopRecord` | Local record of one loop pass or pass sequence: object version under improvement, object-under-improvement evaluation, applied rows, re-read result, trade-offs, cost and risk posture, and stop decision. | Not proof of quality by itself and not a project release, gate, evidence, assurance, safety, compliance, or work-authority record. |
+| `QualityImprovementLoopRecord` | Local record of one loop pass or pass sequence: object version under improvement, object-under-improvement evaluation, applied rows, re-read result, trade-offs, cost and risk account, and stop decision. | Not proof of quality by itself and not a project release, gate, evidence, assurance, safety, compliance, or work-authority record. |
 | `QualitySideMovementClaim` | Local claim that the changed object version moved on declared `Q` components under one NQD/OEE comparison. | Not an `N` or `D` claim, not archive or front insertion, not candidate-pool policy, not selected-set publication, not parity, and not refresh. |
 | `SourceContributionStratum` | One distinguishable contribution type made by an accepted source or practice line inside a source-bearing improvement: value semantics, operation family, boundary, comparison discipline, failure mode, protected trade-off, or stop discipline. | Not a maturity level, not an architecture layer, not evidence rank, and not permission to cite a source without saying what it contributes. |
 | `SourceComposedResultClaim` | The changed object version capability, move, explanation, method result, or other object-under-improvement evaluation-readable result produced by composing accepted source or practice lines. | Not a mathematical function, not a TGA morphism, not a module function, not source volume, and not a novelty claim without object-under-improvement evaluation re-read. |
-
 
 The words `loop`, `method family`, and `operation family` are local method words. They do not create a sequence that every project must run. They name repeated use of an object-under-improvement evaluation-controlled improvement method.
 
@@ -92,11 +91,11 @@ For one quality-improvement loop:
 3. Frame the first quality review through `E.22`.
 4. Run the object-under-improvement evaluation and produce row-atomic findings when work is returned.
 5. Apply repairs or variants to the object under improvement, or hand proposal generation and selection to an exact neighbour, without silently damaging protected trade-offs.
-6. Record executor discharge as changed-object evidence, not as the quality value.
-7. Re-read the changed object version through the object-under-improvement evaluation rather than accepting executor self-assessment. When `Q`-side NQD comparison is live, read the changed object version against the declared comparison set or front named in the loop record.
+6. Record row discharge as changed-object evidence, not as the quality value.
+7. Re-read the changed object version through the object-under-improvement evaluation rather than accepting repair self-assessment. When `Q`-side NQD comparison is live, read the changed object version against the declared comparison set or front named in the loop record.
 8. Record what got worse, including reader cost, authoring cost, maintainer cost, neighbour-pattern cost, source-loss risk, corpus-ecology cost, supervision cost, or rework cost when those can change admissible use.
 9. Decide `stop`, `narrow`, `continue`, `switchMethodFamily`, or `holdForExactInformation`.
-10. Leave one `QualityImprovementLoopRecord` that lets a later reader recover the object version under improvement, object-under-improvement evaluation, applied rows, re-read result, changed trade-offs, cost and risk posture, and stop decision without reconstructing chat memory.
+10. Leave one `QualityImprovementLoopRecord` that lets a later reader recover the object version under improvement, object-under-improvement evaluation, applied rows, re-read result, changed trade-offs, cost and risk account, and stop decision without reconstructing chat memory.
 
 If the next pass has no live findings, feasible non-dominated improvement, required trade-off inspection, or unresolved open question under the declared object-under-improvement evaluation, stop or narrow. Do not continue merely because more attempts are possible.
 
@@ -106,7 +105,7 @@ An all-`5`, all-exceptional, current-front-reaching, or current-front-improving 
 
 When the object-under-improvement evaluation uses an ordinal scale, the declared floor is the local viable-for-use threshold under the named use claim; it is not always the same ordinal value. The object-under-improvement evaluation supplies the floor rules for that evaluation. A highest value means exceptional expression for the declared use and can serve as current-front reach or front improvement for this loop only when the object-under-improvement evaluation names the comparison basis: accepted `SoTA`, competing candidates, prior front members, current practice, or another explicit declared use frontier. It is not an upper bound on future development and not self-assigned praise.
 
-For source-bearing improvement work, accepted `SoTA` is treated as the working external front: it shows what currently works for the governed problem at the time of the read. `SoTA` is assigned from outside the loop by the object-under-improvement evaluation, accepted source posture, or declared comparison set. `E.23` can govern a loop that reaches that front, holds the object under improvement near that front as sources change, or tests a front-improving proposal, but it does not assign `SoTA` to itself or to the object under improvement.
+For source-bearing improvement work, accepted `SoTA` is treated as the working external front: it shows what currently works for the improvement question at the time of the read. `SoTA` is assigned from outside the loop by the object-under-improvement evaluation, by an accepted use of a cited source plus a source adoption/adaptation/rejection decision, or by a declared comparison set. `E.23` can govern a loop that reaches that front, holds the object under improvement near that front as sources change, or tests a front-improving proposal, but it does not assign `SoTA` to itself or to the object under improvement.
 
 Source-bearing improvement is compositional. PDSA or PDCA, POOGI, OODA, Ralph-like loops, SkillOpt-like fixed-performer optimization, MCDA, Goodhart, and NQD/OEE lines are not a citation shelf. Each line contributes one operation family, boundary, value semantic, stop discipline, or comparison discipline. A conforming loop keeps those contribution strata distinguishable enough that an object-under-improvement evaluation read can recover which contribution caused which useful movement and which neighbouring pattern still governs each boundary.
 
@@ -143,7 +142,7 @@ If those fields are absent, the operation family stays unselected for that loop.
 
 | Operation family | Use when | Boundary |
 |---|---|---|
-| `SpecificationArticulation` | The object under improvement is not clear enough for repeated attempts. | `E.22` frames the improvement-oriented quality read; `E.9` and the governing object-side pattern name the decision or specification content when live. |
+| `SpecificationArticulation` | The object under improvement is not clear enough for repeated attempts. | `E.22` frames the improvement-oriented quality read; `E.9` and the exact pattern for the object under improvement name the decision or specification content when live. |
 | `TaskDecomposition` | A large object under improvement would otherwise produce blind retries. | Use only when the object-under-improvement evaluation can preserve protected trade-offs across the split. |
 | `ContextRefreshWithCarryForwardEvidence` | A fresh context is useful but previous pass evidence must not be lost. | Carried-forward evidence is material for the next pass, not a quality value by itself. |
 | `FailureContextRetry` | A failed attempt contains useful error, tool, reviewer, or object-version-under-improvement feedback. | Retrying is inadmissible when the failure shows wrong object under improvement, wrong evaluation, or missing authority. |
@@ -193,13 +192,13 @@ The re-read names:
 
 Use `continue` only when another pass has a recoverable expected object-under-improvement evaluation movement. Use `switchMethodFamily` when the current method family is not moving the object under improvement, has become too costly, or no longer fits the characteristic space. Use `holdForExactInformation` when the object under improvement, evaluation, authority, evidence, or source condition is too under-specified for the next pass to be meaningful.
 
-A loop record is sufficient when it lets the next reader tell what changed, what the object-under-improvement evaluation read after the change, what became worse, what remains bounded non-use, and why the chosen stop, narrow, continue, switch, or hold decision follows. A record that lists applied findings without the object-under-improvement evaluation re-read is executor discharge evidence, not quality-improvement closure.
+A loop record is sufficient when it lets the next reader tell what changed, what the object-under-improvement evaluation read after the change, what became worse, what remains bounded non-use, and why the chosen stop, narrow, continue, switch, or hold decision follows. A record that lists applied findings without the object-under-improvement evaluation re-read is row-discharge evidence, not quality-improvement closure.
 
 #### E.23:4.8 - Non-use boundaries
 
 A quality-improvement-loop result is not project evidence, assurance, gate passage, release approval, safety acceptance, compliance evidence, or work authority unless the exact neighbouring FPF pattern is opened for that claim.
 
-Repeated agentic attempts are not BLP-compatible merely because they are automated. They need declared object under improvement, object-under-improvement evaluation, protected trade-offs, bounded cost and risk posture, and stop or switch conditions.
+Repeated agentic attempts are not BLP-compatible merely because they are automated. They need declared object under improvement, object-under-improvement evaluation, protected trade-offs, bounded cost and risk account, and stop or switch conditions.
 
 External review, landing, monolith placement, praise, popularity, adoption, or absence of blockers does not raise quality values by itself. Such signals may point to content evidence only after the object-under-improvement evaluation says how they matter.
 

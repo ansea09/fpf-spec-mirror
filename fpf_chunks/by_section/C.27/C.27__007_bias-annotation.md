@@ -6,12 +6,12 @@ section_id: "C.27:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:6 — Bias-Annotation"
-line_start: 48665
-line_end: 48699
+line_start: 48526
+line_end: 48560
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -78,7 +78,7 @@ misread as a general theory of change.
 
 **Arch.** C.27 is biased against stealing work from neighbouring patterns. It types authored temporal-claim adequacy question while measurement, formal dynamics, work, search, benchmark, promise, causality, quality, value, viability, scale, adaptation, and QL relations remain with the patterns that govern those concerns.
 
-**Onto/Epist.** C.27 is biased toward described system, description, and carrier separation and toward explicit claim posture. It treats Dyn0, Dyn1, and Dyn2 as readings of authored temporal claims, not as kinds of systems.
+**Onto/Epist.** C.27 is biased toward described system, description, and carrier separation and toward explicit temporal-claim-use classification. It treats Dyn0, Dyn1, and Dyn2 as readings of authored temporal claims, not as kinds of systems.
 
 **Prag/Did.** C.27 is biased toward cheap stopping, card-first use, and teaching through cases before field machinery. The first lesson is: a trend is not yet an intervention model.
 

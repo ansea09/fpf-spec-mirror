@@ -6,12 +6,12 @@ section_id: "C.17:12"
 section_title: "CSLC recap and the Creativity CharacteristicSpace"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_cslc-recap-and-the-creativity-characteristicspace.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:12 — CSLC recap and the Creativity CharacteristicSpace"
-line_start: 41989
-line_end: 42115
+line_start: 41903
+line_end: 42028
 dependencies:
   - "A.1"
   - "A.10"
@@ -96,7 +96,6 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
   `Pass` iff **acceptanceSpec** (from `U.PromiseContent` or Decision KPI) is met from **Work** evidence; else `Partial`/`Fail`. For scalar KPIs, publish mean ± CI and the acceptance threshold; predicted values carry error bars and are updated post‑run.
 * *ConstraintFit.*
   Ratio = satisfied / declared **must** constraints. Constraints are `Norm‑CAL` rules; **count only declared** ones (no unspoken “norms”).
-
 
 #### C.17:12.4 - Metric templates (normative kernels + manager‑ready variants)
 

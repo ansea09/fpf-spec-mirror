@@ -6,12 +6,12 @@ section_id: "A.2.5:19"
 section_title: "Common failure modes (and quick remedies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__020_common-failure-modes-and-quick-remedies.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:19 — Common failure modes (and quick remedies)"
-line_start: 3993
-line_end: 4003
+line_start: 3938
+line_end: 3947
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -38,5 +38,4 @@ keywords:
 | **Global states**  | “Ready” reused across contexts        | Meaning leakage                    | Qualify by `(Role, Context)`; use Bridges for Cross‑context talk             |
 | **Over‑broad ⊥**   | Many false conflicts                  | Blocks delivery                    | Make ⊥ **state‑aware**; restrict to enactable pairs                       |
 | **Missing π‑map**  | Specialisation with no entailment     | Unsafe substitutions               | Add `π` and entailment notes; otherwise drop `≤`                          |
-
 

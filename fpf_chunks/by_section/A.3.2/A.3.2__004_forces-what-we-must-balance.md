@@ -6,12 +6,12 @@ section_id: "A.3.2:3"
 section_title: "Forces (what we must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__004_forces-what-we-must-balance.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:3 — Forces (what we must balance)"
-line_start: 6100
-line_end: 6110
+line_start: 6003
+line_end: 6012
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -46,5 +46,4 @@ keywords:
 | **Timelessness vs. operability**   | Specs are timeless, but must be precise enough to drive execution and audit.                        |
 | **Reusability vs. constraints**    | Specs should declare role kinds, capabilities, safety bounds—without baking in people or calendars. |
 | **Evolvability vs. identity**      | Specs change; we need a way to evolve them without losing the method’s identity or history.         |
-
 

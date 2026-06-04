@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.D2"
-pattern_title: "Intension–Description–Specification Discipline (I/D/S)"
+pattern_title: "EntityOfConcern, Description Episteme, and Specification-Use Discipline"
 section_id: "E.10.D2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "E.10.D2 — Intension–Description–Specification Discipline (I/D/S)"
+  - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:2 — Problem"
-line_start: 58688
-line_end: 58694
+line_start: 59833
+line_end: 59840
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -19,26 +19,29 @@ dependencies:
   - "D.CTX"
   - "E.10.D1"
   - "F.10"
+  - "F.12"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
+  - "F.9.1"
   - "U.BoundedContext"
   - "U.EpistemeSlotGraph"
 keywords:
-  - "I/D/S"
-  - "description"
-  - "intension"
-  - "specification"
+  - "Description episteme"
+  - "DescriptionContext"
+  - "EntityOfConcern"
+  - "specification use"
   - "testable"
   - "verifiable"
 ---
 
 ### E.10.D2:2 - Problem
 
-1. **Plane/layer mixing.** Intensions are routinely conflated with their documents and with runtime facts.
-2. **Name drift.** “Spec” gets used for any write‑up; “status” drifts between states of a role and epistemic/deontic statuses over knowledge units.
-3. **Didactic friction.** Inconsistent naming raises cognitive load and impedes reuse across FPF patterns.
-4. **Unverifiable claims.** Without a clear gate to **–Spec**, normative wording appears without testability.
+1. **Entity-description collapse.** A text treats the `EntityOfConcern` as if it were identical to the Description episteme, the diagram, the card, the file, or the work record.
+2. **Specification inflation.** A text calls any detailed write-up a `...Spec` although no checkability, acceptance condition, or harness relation is present.
+3. **Publication or carrier substitution.** A publication face, document, dashboard, schema file, or generated view is treated as the described entity or as the authority for work.
+4. **Context and viewpoint loss.** A Description episteme is read as global even though FPF descriptions are bounded by `DescriptionContext = <EntityOfConcernRef, BoundedContextRef, ViewpointRef>`.
+5. **Status and state leakage.** Epistemic or deontic statuses over epistemes are used as if they were role states, system states, or runtime facts about the EntityOfConcern.
 

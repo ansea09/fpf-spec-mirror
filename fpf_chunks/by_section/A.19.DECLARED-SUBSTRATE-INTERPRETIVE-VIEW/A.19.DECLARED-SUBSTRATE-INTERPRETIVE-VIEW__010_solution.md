@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__010_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4 — Solution"
-line_start: 23557
-line_end: 23794
+line_start: 23775
+line_end: 24012
 dependencies:
   - "A.0"
   - "A.19"
@@ -41,7 +41,7 @@ keywords:
 
 Declare interpretive views as substrate-side only readings over one already-declared substrate-bearing basis, keep them explicitly under existing view law, and reserve atlas form for the cases that truly need it.
 
-#### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.1 - Governed object and outside work
+#### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.1 - Declared-substrate interpretive-view record and outside work
 
 Use this pattern to declare:
 
@@ -89,8 +89,8 @@ The minimum ordinary interpretive view declaration is therefore:
 **IV-0 - View-law docking is explicit.**
 Every conforming interpretive view is one domain-specific use-site under existing `A.6.3` / `E.17.0` law. It does not introduce one autonomous new theory of views.
 
-**IV-1 - The described entity is preserved.**
-The interpretive view preserves the described entity already carried by the base line. If the current prose would change that described entity, the line is no longer one interpretive view over the same substrate.
+**IV-1 - The EntityOfConcern is preserved.**
+The interpretive view preserves the EntityOfConcern already carried by the base line. If the current prose would change that EntityOfConcern, the line is no longer one interpretive view over the same substrate.
 
 **IV-2 - The base substrate remains the semantic center.**
 The interpretive view may foreground aspects of the base line, but it does not replace or repair the base substrate declaration. Substrate repair belongs back in `A.19.SOURCE-SET-SPACE-SUBSTRATE`.
@@ -111,7 +111,7 @@ If atlas form is active, the view must keep the base substrate, the active sourc
 If `TraditionAtlasView` is used, it remains one `G.2` specialization of `DeclaredSubstrateAtlasView`; it does not become the common head of the family.
 
 **IV-8 - Admission is fail-closed.**
-If the current line would change the described entity, add new generic view law, repair the substrate, decide publication, or decide policy, it is not a conforming interpretive view here. Apply the pattern that governs that question instead of stretching the family.
+If the current line would change the EntityOfConcern, add new generic view law, repair the substrate, decide publication, or decide policy, it is not a conforming interpretive view here. Apply the pattern that governs that question instead of stretching the family.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.4 - Profiles
 
@@ -136,7 +136,7 @@ When declaring one interpretive view, proceed in this order:
 5. **Recover derived-view and palette structure when it matters.** If the view depends on one derived tradition or palette reading, state `DerivedViewKind` and `BasePaletteRef`.
 6. **Add the actual qualifiers.** Add `TypedSetViews`, cited spaces, declared map refs, metrics, transition qualifiers, or distortion notes only when the current reading truly depends on them.
 7. **Run the preservation check.** If the interpretive prose would materially change the base source-to-outcome relation or the base distortion/uncertainty/error posture, stop and reopen the substrate declaration.
-8. **Run the boundary check.** If the prose starts changing the described entity, minting new generic view law, publishing selected sets, shipping outputs, or deciding policy, apply the pattern that governs that question.
+8. **Run the boundary check.** If the prose starts changing the EntityOfConcern, minting new generic view law, publishing selected sets, shipping outputs, or deciding policy, apply the pattern that governs that question.
 
 **Fail-closed rule.** Do not treat the line as a interpretive view if steps 2-7 cannot be completed honestly. Missing base-line recovery or hidden posture change is a real defect here.
 
@@ -177,12 +177,12 @@ If atlas form cannot state that composite interpretation view without invention,
 
 Read the docking to `A.6.3` / `E.17.0` strictly:
 
-- the interpretive view preserves the described entity already carried by the base line;
-- it does not silently mint new intensional commitments about that same described entity;
+- the interpretive view preserves the EntityOfConcern already carried by the base line;
+- it does not silently mint new intensional commitments about that same EntityOfConcern;
 - it does not replace one viewpoint bundle or one publication-view family with one new local invention;
 - and it does not collapse viewpoint, view, and publication face into one word.
 
-If a case would need a different described entity, a different generic view law, or one new viewpoint family, this pattern is no longer the governing pattern.
+If a case would need a different EntityOfConcern, a different generic view law, or one new viewpoint family, this pattern is no longer the governing pattern.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.9 - Qualifier refs stay substrate-side
 
@@ -238,7 +238,7 @@ Use this compact kit whenever you need one interpretive view that can actually b
 | `2. What inspection question is this view answering?` | State the question directly in one sentence. | The reader can tell what this view helps inspect. | The view mostly repeats theory without naming the practical inspection load. |
 | `3. Do I need thin interpretation or atlas interpretation?` | Choose ordinary `DeclaredSubstrateInterpretiveView` unless several views, spaces, declared map refs, or qualifiers must be held together at once. | The interpretive head is chosen honestly. | Atlas language appears by reflex, or thin interpretation would already solve the reading problem. |
 | `4. Which source/result refs and qualifiers must stay recoverable?` | Keep the active source set, active set result, derived view, base palette, and cited qualifiers visible only when they truly do work. | Recoverability stays proportional to the inspection question. | The base palette or base source/result disappears behind the fullest visible overlay. |
-| `5. Is the line still substrate-side only?` | Check whether the prose preserves the base substrate and its described entity. | The view remains one reading, not one rewrite of the underlying line. | The prose is really changing the substrate, publishing outputs, or deciding policy. |
+| `5. Is the line still substrate-side only?` | Check whether the prose preserves the base substrate and its EntityOfConcern. | The view remains one reading, not one rewrite of the underlying line. | The prose is really changing the substrate, publishing outputs, or deciding policy. |
 
 Use this compact interpretive view declaration when drafting or repairing the line:
 
@@ -273,5 +273,5 @@ Read neighboring patterns in this order once the interpretive view declaration i
 - Use `A.0` when cold-reader glossing is what the current line lacks. Glosses help recognition; they do not replace the base interpretive view declaration.
 - Use `G.5`, `G.10`, `C.19`, or `C.24` when the passage starts deciding outputs, survivor sets, or planning posture.
 
-If a neighboring passage would change the described entity or the base substrate posture, this pattern is no longer the governing pattern for that sentence. Reopen the base line or apply the pattern that governs the new question.
+If a neighboring passage would change the EntityOfConcern or the base substrate posture, this pattern is no longer the governing pattern for that sentence. Reopen the base line or apply the pattern that governs the new question.
 

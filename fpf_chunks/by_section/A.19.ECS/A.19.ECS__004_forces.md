@@ -6,12 +6,12 @@ section_id: "A.19.ECS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:3 — Forces"
-line_start: 22704
-line_end: 22715
+line_start: 22721
+line_end: 22732
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -35,6 +35,6 @@ keywords:
 | **Measurement legality vs ordinal judgment** | Some coordinates are measured through `C.16`; others are evidence-backed ordinal content readings. The evaluation must say which is which. |
 | **Improvement direction vs trade-off protection** | Preferred movement must be visible without turning every coordinate into an optimization command. |
 | **Contrast cases vs overfitting** | Contrast cases are needed to test the scale set, but the evaluation must not become a list of examples only. |
-| **Reusable specification vs local use** | A reusable evaluation must make the same intensional objects recoverable across uses. A local project can use a smaller specification when the use is bounded and non-reusable. |
+| **Reusable specification vs local use** | A reusable evaluation must make the same evaluation characteristic-space elements recoverable across uses. A local project can use a smaller specification when the use is bounded and non-reusable. |
 | **Local stop vs open-ended improvement** | A loop may stop for the declared use while the object and the scale set remain improvable under new use, source, or comparison pressure. |
 

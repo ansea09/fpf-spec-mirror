@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:2 — Problem"
-line_start: 12927
-line_end: 12937
+line_start: 12769
+line_end: 12779
 dependencies:
   - "A.15"
   - "A.16"
@@ -45,12 +45,12 @@ keywords:
 
 ### A.6.A:2 - Problem
 
-How can FPF let authors use the communicative convenience of **affordance / action-first** language while preventing category errors when the language crosses:
+How can FPF let authors use the communicative convenience of **affordance-like and action-first** language while preventing category errors when the language crosses:
 
-* ecological / phenomenological discourse,
+* ecological and phenomenological discourse,
 * interface and operator-facing discourse,
-* active-inference / world-model discourse,
-* control / monitoring / incident-response discourse,
-* robotics / embodied-AI discourse,
+* active-inference and world-model discourse,
+* control, monitoring, and incident-response discourse,
+* robotics and embodied-AI discourse,
 * epistemic exploration and problem-framing discourse?
 

@@ -6,12 +6,12 @@ section_id: "E.17:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__004_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:3 — Problem"
-line_start: 61831
-line_end: 61837
+line_start: 62727
+line_end: 62733
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.17:3 - Problem
 
-1. **Semantic drift in publication.** Unchecked “presentations” introduce claims not present in the D-side or S-side epistemes about the arrow (epistemes with `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩` in the sense of E.10.D2 and E.17.0).
+1. **Semantic drift in publication.** Unchecked “presentations” introduce claims not present in the Description epistemes about the arrow, including Description epistemes admitted for specification use (epistemes with `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` in the sense of E.10.D2 and E.17.0).
 2. **Non‑compositionality.** Publishing `g∘f` yields faces that do not match composing the faces of `f` and `g`.
 3. **View vs viewpoint confusion.** A single template is treated as “the view”, with no declared concerns or conformance rules.
 4. **Unpinned numbers.** Numeric claims lack unit, scale, reference‑plane, and **edition pins** from Part F or Part G, undermining auditability.

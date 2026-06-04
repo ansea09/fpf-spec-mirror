@@ -6,12 +6,12 @@ section_id: "D.5:End"
 section_title: "D.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__011_d-5-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
   - "D.5:End — D.5:End"
-line_start: 53694
-line_end: 53696
+line_start: 54805
+line_end: 54808
 dependencies:
   - "B.3"
   - "B.3.3"
@@ -31,4 +31,5 @@ keywords:
 
 ### D.5:End
 
+# **Part E – The FPF Constitution and Authoring Guides**
 

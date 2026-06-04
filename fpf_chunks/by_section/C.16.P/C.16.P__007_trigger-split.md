@@ -6,12 +6,12 @@ section_id: "C.16.P:5"
 section_title: "Trigger split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__007_trigger-split.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:5 — Trigger split"
-line_start: 40802
-line_end: 40816
+line_start: 40730
+line_end: 40744
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,12 +45,12 @@ keywords:
 | --- | --- | --- |
 | `metric` | Is there a declared `Characteristic`, `Scale`, measure, unit, scoring method, and admissible use? | Saying "metric" as a synonym for evidence, quality, performance, or success. |
 | `score` | What value on which scale, computed how, and used for what comparison or threshold? | Score as proof, gate passage, readiness, or release. |
-| `axis` / `dimension` | Is this a `Characteristic`, coordinate in a characteristic space, mathematical factor, latent coordinate, structural aspect, or ordinary explanatory direction? | Axis/dimension as self-evident ontology. |
-| `feature` / `property` | Is this an observed feature, characteristic, model feature, object property, relation property, or ordinary prose? | Feature/property as automatic characteristic. |
-| `strong` / `weak` | Strong or weak on which scale, for which characteristic, under which comparison basis? | Strength without scale. |
-| `robust` | Robust to what perturbation, under which scale, comparison, loss, or preserved/lost structure? | Robust as general praise. |
+| `axis` or `dimension` | Is this a `Characteristic`, coordinate in a characteristic space, mathematical factor, latent coordinate, structural aspect, or ordinary explanatory direction? | `Axis` or `dimension` as self-evident ontology. |
+| `feature` or `property` | Is this an observed feature, characteristic, model feature, entity property, relation property, or ordinary prose? | `Feature` or `property` as automatic characteristic. |
+| `strong` or `weak` | `Strong` or `weak` on which scale, for which characteristic, under which comparison reference or comparator set? | Strength without scale. |
+| `robust` | Robust to what perturbation, under which scale, comparison, loss, or preserved-structure and lost-structure? | Robust as general praise. |
 | `level` | Level on which declared scale or abstraction, not a free hierarchy. | Level as undefined scale or maturity status. |
 | `indicator` | Indicator of what characteristic or claim, with what proxy relation and distortion risk? | Indicator as the indicated property. |
-| `threshold` | Threshold on which scale, with what comparison basis, gate relation, and non-use boundary? | Threshold as decision by itself. |
+| `threshold` | Threshold on which scale, with what comparison reference or comparator set, gate relation, and non-use boundary? | Threshold as decision by itself. |
 | `benchmark` | Benchmark for which characteristic, comparison set, front, archive, or harness? | Benchmark result as proof or release. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.22.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality-Read Question Framing"
-line_start: 67310
-line_end: 67769
+line_start: 68179
+line_end: 68638
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -56,7 +56,7 @@ Use it especially when the request could mean several different things:
 
 **Not this pattern when.** Use `E.23` when the work is a repeated improvement method across passes rather than one framed read. Use the object-under-improvement evaluation itself when the question is already declared and scoped: `E.21` for one authored FPF pattern version, `E.9.DA` for one `DRR` decision-adequacy claim, `E.19` for one admission or refresh review profile, `C.16`, `A.17`, `A.18`, or `A.19` for characteristic and measurement legality, `C.25` for an engineering quality bundle, `C.17` for novelty, value, surprise, constraint-fit, diversity, originality, or resource-efficiency characterization, `C.18` for NQD generation and archive/front semantics, `C.19` for live candidate-pool policy, `G.5` for selected-set publication, `G.9` for parity, `G.11` for refresh, or another exact rubric, review profile, or quality pattern when it governs the object. Use `C.11`, `C.24`, `A.15`, `A.20`, `A.21`, `A.10`, or `B.3` when the live claim has already become decision, call planning, work, gate, release, evidence, or assurance. Use `E.10`, `A.6.P`, or `C.2.P` when the live problem is precision restoration of wording rather than framing a quality-read question.
 
-**First useful move.** Before saying "review this", "improve this", or "what should we do next", name the object version under quality read, the object-under-improvement evaluation that supplies the quality values, the requested read purpose, the declared floor, the desired improvement aim, protected trade-offs, the open-question classification rule, and the kinds of candidate improvement proposals or next-admissible-move hypotheses that the read may return.
+**First useful move.** Before saying "review this", "improve this", or "what should we do next", name the object version under quality read, the object-under-improvement evaluation that supplies the quality values, the requested read purpose, the declared floor, the desired improvement aim, protected trade-offs, the open-question classification rule, and the kinds of candidate improvement proposals or next-admissible-move hypotheses that the read may return. If the read is meant to feed repeated improvement, also name what kind of next-pass cost or risk must be reported to `E.23`; a closed checklist or discharged row is not an improvement result until the changed object version is re-read by the object-under-improvement evaluation.
 
 **Cheap stop.** If the requester only needs a blocker check for admissible use, declare `floorRead` and the floor. Do not ask for exceptional improvement, Pareto trade-off analysis, open-question discovery, absorption impact, candidate improvement proposals, or next-move alternatives unless those purposes are live.
 
@@ -64,13 +64,13 @@ Use it especially when the request could mean several different things:
 
 **What this buys.** `E.22` makes the improvement-oriented quality-read question explicit before the read starts. It separates admissibility, exceptional improvement, trade-off inspection, open-question discovery, absorption impact, candidate improvement proposals, and next-admissible-move hypotheses, so the object-under-improvement evaluation can answer the right question instead of silently defaulting to a floor check.
 
-**Governed object in plain terms.** The governed object is the quality-read question frame: a compact declaration of which improvement-oriented evaluative read purpose is being requested for which object and under which object-under-improvement evaluation, including which candidate improvement proposals or next-admissible-move hypotheses the read may return.
+**Primary EntityOfConcern in plain terms.** The primary EntityOfConcern is the quality-read question frame: a compact declaration of which improvement-oriented evaluative read purpose is being requested for which object and under which object-under-improvement evaluation, including which candidate improvement proposals or next-admissible-move hypotheses the read may return.
 
 **Primary working reader.** The first reader is the person asking for or running the quality read. The downstream reader is the author who must use the result to repair, narrow, improve, or stop.
 
 ### E.22:2 - Problem
 
-Quality reads often begin with an underspecified request such as "review this", "evaluate quality", "improve this", or "tell me what is wrong." Those phrases hide different governed questions.
+Quality reads often begin with an underspecified request such as "review this", "evaluate quality", "improve this", or "tell me what is wrong." Those phrases hide different evaluation and improvement questions.
 
 The first failure is the fantasy of "just reading." A useful quality read always has a purpose: read for admissibility, read for exceptional improvement, read for trade-off exposure, read for open-question discovery, read for absorption impact, or read for candidate improvement proposals and the next admissible move. If the purpose is not declared, the reviewer supplies one implicitly, and the resulting proposal or next move may be too weak, too broad, or assigned to the wrong governing pattern.
 
@@ -161,7 +161,7 @@ When the declared object-under-improvement evaluation is also the `Q` side of an
 
 `E.22` then selects the read purpose: `floorRead`, `exceptionalImprovementRead`, `paretoTradeoffRead`, `openQuestionDiscoveryRead`, `absorptionRead`, or a declared combination. It may ask whether the selected governing pattern has enough information to run, whether the read found a blocker, whether one candidate or set result can improve under the declared evaluation, whether a candidate-change proposal is worth generating, or whether a returned finding changed the object-under-improvement evaluation's result.
 
-The same portfolio rule applies to the ordinary FPF self-use cases. When `E.21` or `E.9.DA` is the object-under-improvement evaluation and the requested purpose is exceptional improvement, the read should not stop at the first defect. It may return a bounded portfolio of non-dominated proposal rows across active coordinates: for example first-use usability, source-content preservation, relation precision, examples, decision-bearing content, and protected trade-offs. The external comparison may be current FPF neighbour practice, accepted `SoTA`, competing pattern candidates, prior front members, or an explicit declared use frontier supplied by the object-under-improvement evaluation. In this use, `SoTA` is the working external front assigned by the object-under-improvement evaluation or accepted source posture. An exceptional proposal may try to reach, maintain, or improve that externally assigned front, but the read itself does not assign `SoTA` to the object. `E.23` governs any repeated application and re-read of those rows.
+The same portfolio rule applies to the ordinary FPF self-use cases. When `E.21` or `E.9.DA` is the object-under-improvement evaluation and the requested purpose is exceptional improvement, the read should not stop at the first defect. It may return a bounded portfolio of non-dominated proposal rows across active coordinates: for example first-use usability, source-content preservation, relation precision, examples, decision-bearing content, and protected trade-offs. The external comparison may be current FPF neighbour practice, accepted `SoTA`, competing pattern candidates, prior front members, or an explicit declared use frontier supplied by the object-under-improvement evaluation. In this use, `SoTA` is the working external front assigned by the object-under-improvement evaluation or by the accepted use of a cited source plus a source adoption/adaptation/rejection decision. An exceptional proposal may try to reach, maintain, or improve that externally assigned front, but the read itself does not assign `SoTA` to the object. `E.23` governs any repeated application and re-read of those rows.
 
 This is the entry point that keeps OEE/NQD candidate changes from becoming unguided candidate changes. The read proposes candidate changes from object-under-improvement evaluation pressure: what quality movement is expected, what trade-off must be protected, what closure test would make the proposal worth retaining, and which neighbouring pattern must govern generation, pool policy, set-result publication, parity, or refresh.
 
@@ -174,7 +174,7 @@ Different practices arrive with different words for nearly the same working ques
 | Incoming vocabulary | First `E.22` question | Governing pattern or object-under-improvement evaluation |
 |---|---|---|
 | all `5`s, exceptional, high-coordinate quality | Which object-under-improvement evaluation supplies the coordinates and value meanings? | `E.21`, `E.9.DA`, `C.25`, or another exact quality evaluation |
-| `SoTA`, current best, frontier practice | Who assigns the current external front, and what source posture makes it admissible? | object-under-improvement evaluation plus `E.8` source posture and exact `SoTA` rows |
+| `SoTA`, current best, frontier practice | Who assigns the current external front, how is the cited source used, and what source adoption/adaptation/rejection decision makes that use admissible? | object-under-improvement evaluation plus `E.8` source row and exact `SoTA` rows |
 | Pareto front, non-dominated option, no forced winner | Which dominance relation and comparison set are declared? | `E.21`, `E.9.DA`, `C.18`, `G.5`, or exact local characteristic-space pattern |
 | NQD, Q-front, archive, open-ended search | Is the live claim candidate quality, novelty, diversity, archive/front semantics, pool policy, or refresh? | `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` |
 | improvement portfolio, proposal portfolio | Is this only proposal rows, or a selected set publication? | `E.22` for proposal rows; `E.23` for repeated application; `G.5` for selected-set publication |
@@ -268,7 +268,7 @@ When a quality read or quality review returns actionable findings, each actionab
 
 `QualityReviewFindingRow := <QualityReviewFindingRowId, ReviewFindingLocus, ObjectLocusUnderRepair, QualityReadPurposeEffect, ObjectUnderImprovementEvaluationEffect, ExpectedQualityMovement, CandidateImprovementProposalSet?, NextAdmissibleMoveHypothesis?, CorrectionDirection, ClosureTest, RowDisposition, DischargeEvidenceRef?>`
 
-The row shape is active for any returned blocker, repair, narrowing, trade-off warning, open question assigned to the object version under quality read, or absorption item that requires executor action. It is not required for a clean `floorRead` that returns only an admissible-stop statement.
+The row shape is active for any returned blocker, repair, narrowing, trade-off warning, open question assigned to the object version under quality read, or absorption item that requires a repair action. It is not required for a clean `floorRead` that returns only an admissible-stop statement.
 
 | Field | Meaning |
 |---|---|
@@ -283,7 +283,7 @@ The row shape is active for any returned blocker, repair, narrowing, trade-off w
 | `CorrectionDirection` | The concrete repair, narrowing, non-use statement, or object-under-improvement evaluation assignment requested. |
 | `ClosureTest` | What must be true in the changed object for the row to close. |
 | `RowDisposition` | `open`, `applied`, `alreadySatisfied`, `notAdmissibleForDeclaredUse`, `movedToObjectUnderImprovementEvaluation`, or another local disposition with narrower meaning. |
-| `DischargeEvidenceRef?` | Optional exact changed locus or unchanged-by-value locus used by the executor to show what was done. |
+| `DischargeEvidenceRef?` | Optional exact changed locus or unchanged-by-value locus used to show the row disposition. |
 
 "Closed in general", "handled overall", "all rows done", and range closure are nonconforming. If one edit closes several rows, each row still keeps a separate `QualityReviewFindingRowId`, object-under-improvement evaluation effect, closure test, disposition, and discharge evidence.
 
@@ -293,10 +293,10 @@ A quality review keeps four records distinct:
 
 1. `QualityReadQuestionFrame` states the question being asked.
 2. The reviewer quality result states the object-under-improvement evaluation reading, returned findings, coordinate and value effects, protected-quality trade-offs, bounded non-use, and outside-evaluation assignments.
-3. Executor discharge evidence states what changed, which row disposition was selected, and which changed or unchanged object locus is cited for each `QualityReviewFindingRow`.
+3. Row-discharge evidence states what changed, which row disposition was selected, and which changed or unchanged object locus is cited for each `QualityReviewFindingRow`.
 4. The next reviewer re-read states whether the changed object now satisfies the object-under-improvement evaluation for the declared purpose.
 
-Executor discharge evidence is not the reviewer quality result and is not quality closure by itself. An impact account may show intended or observed movement, but closure comes only from re-running the object-under-improvement evaluation on the changed object or from a reviewer statement that a row was already satisfied by value.
+Row-discharge evidence is not the reviewer quality result and is not quality closure by itself. An impact account may show intended or observed movement, but closure comes only from re-running the object-under-improvement evaluation on the changed object or from a reviewer statement that a row was already satisfied by value.
 
 #### E.22:4.6 - Work order for using this pattern
 
@@ -318,7 +318,7 @@ For one quality review:
 
 When the goal is repeated improvement of the object beyond this one read, use `E.23`. `E.23` invokes `E.22` for each review pass and governs row-atomic absorption across passes, object-under-improvement evaluation re-read of the changed object version, method-family or operation-family selection, and the stop, narrow, continue, switch method, or hold decision. `E.22` does not govern the repeated method.
 
-`QualityReviewFindingRow` remains the row shape for returned actionable findings. Executor discharge evidence is not a quality value until the object-under-improvement evaluation re-reads the changed object or states that the row was already satisfied by value.
+`QualityReviewFindingRow` remains the row shape for returned actionable findings. Row-discharge evidence is not a quality value until the object-under-improvement evaluation re-reads the changed object or states that the row was already satisfied by value.
 
 An all-`5` claim requires an explicit coordinate-value table over the changed object. It cannot be inferred from a floor-pass capsule, a clean discharge table, an external-review absorption pass, landing, popularity, adoption, or the absence of blockers.
 
@@ -407,7 +407,7 @@ The bias is useful because underspecified prompts repeatedly produce the wrong q
 | `CC-E22-13` | A quality-read frame SHALL be repaired before the object-under-improvement evaluation runs when it lacks object version, object-under-improvement evaluation, purpose or default, required protected trade-offs, required classification rule, or non-use boundary for an overread-prone result. | Makes frame sufficiency and lowering conditions testable. |
 | `CC-E22-14` | A quality-read frame SHALL keep object kind and object-under-improvement evaluation distinct. Pattern reads use `E.21`; `DRR` reads use `E.9.DA`; other objects use their declared characteristic space, quality bundle, rubric, scale set, review profile, or exact FPF evaluation pattern. | Prevents unnecessary specialization while blocking unbounded "review anything" overread. |
 | `CC-E22-15` | A quality-read frame SHALL NOT ask the reviewer to raise or lower values from popularity, adoption, prior use, absence of use, review count, reviewer praise, external-review completion, landing, release, or award-like signals. If such a signal matters, the frame SHALL require the object-under-improvement evaluation to rewrite it into object-content evidence or leave it outside the value read. | Prevents reputation medals from entering the question before the object-under-improvement evaluation runs. |
-| `CC-E22-16` | Any actionable returned quality-review finding SHALL be represented as a stable `QualityReviewFindingRow` with row id, review locus, object locus, object-under-improvement evaluation effect, expected quality movement, correction direction, closure test, disposition, and discharge evidence when applied. | Prevents narrative findings from becoming uncheckable executor work. |
+| `CC-E22-16` | Any actionable returned quality-review finding SHALL be represented as a stable `QualityReviewFindingRow` with row id, review locus, object locus, object-under-improvement evaluation effect, expected quality movement, correction direction, closure test, disposition, and discharge evidence when applied. | Prevents narrative findings from becoming uncheckable repair work. |
 | `CC-E22-17` | Actionable quality-review findings SHALL be discharged row by row. One edit MAY close several rows, but each affected row SHALL still be revisited with a separate disposition, changed or unchanged object locus, and closure-test evidence. | Catches "I handled the group" and range-closure failures. |
 | `CC-E22-18` | If a quality-read result becomes part of repeated improvement, the repeated method SHALL be governed by `E.23` rather than by extra loop doctrine inside `E.22`. | Keeps one-read question framing distinct from the quality-improvement method. |
 | `CC-E22-19` | When the object version under quality read is OEE/NQD material, the quality-read frame SHALL name the exact candidate, front, archive, shortlist, parity report, refresh report, or declared transduction result; the governing pattern that carries its semantics; the read purpose; and the non-use boundary that keeps candidate quality, archive/front semantics, selected-set publication, parity, and refresh distinct. | Lets quality reads plug into OEE/NQD without turning `E.22` into generator, selector, archive, parity, or refresh doctrine. |
@@ -425,7 +425,7 @@ The bias is useful because underspecified prompts repeatedly produce the wrong q
 | **All-to-five Goodharting.** | Visible values rise while ordinary use, affordability, locality, or corpus ecology falls. | Add `paretoTradeoffRead` and protected trade-offs. |
 | **Open-question silence.** | The reviewer answers the given checklist but misses a missing governing question. | Add `openQuestionDiscoveryRead` and a classification rule. |
 | **Applied-count absorption.** | Absorption reports how many suggestions were applied but not what quality changed. | Add `absorptionRead` and impact classification. |
-| **Checklist-count quality closure.** | A discharge table says every row is closed, and that count is treated as the quality result. | Run or cite the object-under-improvement evaluation on the changed object; keep row discharge as executor evidence, not quality closure. |
+| **Checklist-count quality closure.** | A discharge table says every row is closed, and that count is treated as the quality result. | Run or cite the object-under-improvement evaluation on the changed object; keep row discharge as changed-locus evidence, not quality closure. |
 | **Full-loop capture.** | `E.22` starts governing repeated improvement, method-family selection, or stop or switch decisions across passes. | Use `E.22` only to frame each quality read; use `E.23` for the repeated quality-improvement method. |
 | **Object-under-improvement evaluation theft.** | The frame starts defining coordinates that belong to `E.21`, `E.9.DA`, `C.16`, `C.25`, a local rubric, or another object-under-improvement evaluation. | Keep `E.22` to purpose declaration; run the exact object-under-improvement evaluation for the read. |
 | **Portfolio-quality blur.** | A request asks whether "the portfolio is good" while mixing candidate quality, front/archive semantics, selected-set publication, parity, and refresh. | Name the exact object version under quality read and the governing pattern: `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, or `G.11`; keep `E.22` to the read purpose and non-use boundary. |
@@ -461,7 +461,7 @@ Multi-coordinate and multi-scale evaluations also need trade-off control. Raisin
 
 ### E.22:11 - SoTA-Echoing
 
-`E.22:11` uses `SoTA` in the E.8 sense: current best-known problem-solving practice for the governed problem. A row may mention older lineage only to name the inherited invariant that current practice still uses; lineage does not carry SoTA by itself. Current references are used only for the local read-framing problem named in the row.
+`E.22:11` uses `SoTA` in the E.8 sense: current best-known problem-solving practice for the local read-framing question. A row may mention older lineage only to name the inherited invariant that current practice still uses; lineage does not carry SoTA by itself. Current references are used only for the local read-framing problem named in the row.
 
 | Claim | Current SoTA anchor and retained lineage | Local adoption | Non-use boundary |
 |---|---|---|---|

@@ -6,12 +6,12 @@ section_id: "E.9.DA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:5 — Archetypal Grounding"
-line_start: 56486
-line_end: 56503
+line_start: 57580
+line_end: 57597
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -26,13 +26,13 @@ keywords:
 
 ### E.9.DA:5 - Archetypal Grounding
 
-**Tell.** A `DRR` is not good enough because it has headings. It is good enough for drafting when a pattern author can rely on its selected answer, receiving-locus obligations, boundaries, source-use posture, architecture choice, and examples without inventing a missing decision.
+**Tell.** A `DRR` is not good enough because it has headings. It is good enough for drafting when a pattern author can rely on its selected answer, receiving-locus requirements, boundaries, source-use role and status, architecture choice, and examples without inventing a missing decision.
 
 **Show, weak DRR.** A `DRR` about precision restoration says that `E.10`, `A.6.P`, and `C.2.P` are relevant, and notes that architecture terms may need repair. It does not decide whether there is a new architecture-structure branch, what name it has, which existing patterns lose repeated repair prose, or which regression cases test the split. `E.9.DA` returns `repairBeforeDrafting` because `SelectedAnswerDecisiveness`, `ReceivingLocusObligationClosure`, and `DraftingActionability` are below the floor.
 
 **Show, adequate DRR.** The same `DRR` selects `C.30.P - Architecture-Structure Precision Restoration`, assigns `E.10` the shared recovery sequence, assigns branch ontology to `A.6.P`, `C.2.P`, `C.30.P`, and `C.16.P`, states which evaluation patterns are slimmed, rejects a separate `LanguagePrecisionRestoration` pattern, and gives regression cases. `E.9.DA` can return `admissibleForDeclaredAuthoringUse` for pattern-host drafting.
 
-**Show, system-facing and episteme-facing paired grounding.** A system-facing `DRR` says that an architecture diagram, graph, or ADR-like note will guide a structure amendment. `E.9.DA` requires the `DRR` to state the architecture claim or structure claim, described or grounding object when live, structural view relation, preserved and lost structure, selected receiving loci, non-use boundary, and first drafting move. An episteme-facing `DRR` says that a source, seminar, review, standard, or SoTA article will shape a pattern. `E.9.DA` requires source posture, selected payload, rejected payload, non-use boundary, and receiving-locus disposition. In both cases, the description or source locates material; it is not itself the FPF decision.
+**Show, system-facing and episteme-facing paired grounding.** A system-facing `DRR` says that an architecture diagram, graph, or ADR-like note will guide a structure amendment. `E.9.DA` requires the `DRR` to state the architecture claim or structure claim, described or grounding object when live, structural view relation, preserved and lost structure, selected receiving loci, non-use boundary, and first drafting move. An episteme-facing `DRR` says that a source, seminar, review, standard, or SoTA article will shape a pattern. `E.9.DA` requires source-use role, source-currentness status, selected payload, rejected payload, non-use boundary, and receiving-locus disposition. In both cases, the description or source locates material; it is not itself the FPF decision.
 
 **Show, SoTA-heavy DRR.** A `DRR` for a quantum-like modeling lens carries literature, seminar material, reviewer findings, and FPF neighbour decisions. It is not adequate merely because the sources are numerous. It becomes adequate when the selected answer states which mathematical-lens claims enter the new pattern, which claims remain non-use, which terms require `E.10`, `A.6.P`, or `C.2.P` repair, which evaluation patterns get concrete SoTA, examples, and conformance obligations, and why the selected pattern split is the right FPF content architecture. `SoTAAndEvidenceUseInDecision`, `SourceUseAndDecisionInheritanceCarryThrough`, `ReceivingLocusObligationClosure`, and `FPFContentArchitectureSelectionAdequacy` are active.
 

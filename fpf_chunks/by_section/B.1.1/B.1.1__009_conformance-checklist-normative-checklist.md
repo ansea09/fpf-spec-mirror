@@ -6,12 +6,12 @@ section_id: "B.1.1:8"
 section_title: "Conformance Checklist (normative checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__009_conformance-checklist-normative-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:8 — Conformance Checklist (normative checklist)"
-line_start: 28602
-line_end: 28619
+line_start: 28803
+line_end: 28819
 dependencies:
   - "A.1"
   - "A.12"
@@ -48,5 +48,4 @@ keywords:
 | **CC‑B1.1.10** | Order/time/resource **SHALL NOT** be encoded via structural edges; they must be routed to Γ\_ctx/Γ\_method, Γ\_time, Γ\_work respectively.                   | Maintain A.15 Strict Distinction.   |
 | **CC‑B1.1.11** | If a cycle or a locality violation persists, the modeller **SHALL** either refactor or declare a **Meta‑Holon Transition (B.2)**.                          | Make emergence explicit.            |
 | **CC‑B1.1.12** | Any mapping edges (`RepresentationOf`, `Implements`, etc.) **SHALL** be kept outside `E` (value‑level), or recast as `U.Interaction` if cross‑boundary.    | Eliminate category errors.          |
-
 

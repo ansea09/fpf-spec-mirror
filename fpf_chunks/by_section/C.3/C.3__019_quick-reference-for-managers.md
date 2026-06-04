@@ -6,12 +6,12 @@ section_id: "C.3:16"
 section_title: "Quick reference for managers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__019_quick-reference-for-managers.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:16 — Quick reference for managers"
-line_start: 37548
-line_end: 37565
+line_start: 37580
+line_end: 37596
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -42,5 +42,4 @@ Week 1: Inventory & name Kinds (K1); adopt guard macros.
 Week 2: Draft **KindSignature** for the top 5 Kinds (aim **F4**); register masks.
 Week 3: Wire **two‑bridge rule** into ESG; add CL/`CL^k` lines to decision templates.
 Week 4: Promote repeated masks to subkinds; publish first **KindBridge** records with loss notes.
-
 

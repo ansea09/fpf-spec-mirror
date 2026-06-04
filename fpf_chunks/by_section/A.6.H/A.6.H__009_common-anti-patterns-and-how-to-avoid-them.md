@@ -6,12 +6,12 @@ section_id: "A.6.H:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 17341
-line_end: 17353
+line_start: 17491
+line_end: 17503
 dependencies:
   - "A.14"
   - "A.15"
@@ -29,14 +29,14 @@ keywords:
   - "mereology"
   - "order/time"
   - "part-of"
-  - "publication-carrier and describedEntity distinction"
+  - "publication-carrier and EntityOfConcern/Description distinction"
   - "role-method-work"
   - "wholeness"
 ---
 
 ### A.6.H:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern                 | Symptom                                                                | Why it fails (force violated)                                        | How to avoid / repair                                                                             |
+| Anti-pattern                 | Symptom                                                                | Why it fails                                        | How to avoid / repair                                                                             |
 | ---------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | **Holistic-as-evasion**      | “We took a holistic view” replaces boundary/scope detail               | Sacrifices auditability for conversational economy                   | State the boundary, environment, and scope (G); use wholeness facets explicitly                   |
 | **Universal part-of**        | Everything is “part of” everything                                     | Breaks portability; different readers infer different relations      | Replace with ComponentOf/ConstituentOf/PortionOf/PhaseOf/MemberOf                                 |

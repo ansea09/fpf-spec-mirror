@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
-line_start: 28815
-line_end: 29113
+line_start: 29002
+line_end: 29288
 dependencies:
   - "A.1"
   - "A.12"
@@ -47,7 +47,6 @@ keywords:
 * **Assurance (B.3).** Knowledge carries **F**, **G**, **R** (Formality, ClaimScope, Reliability). Integration edges carry **CL** (congruence level) that penalizes poor fit. Γ\_epist **must** preserve provenance and apply **conservative** bounds: no “truth averaging,” no silent context hops. **Obligations here are mode/assurance‑gated per C.2.1.**  # [M‑0]
 * **Order/time flavours.** Argument sequences may need **Γ\_ctx** (non‑commutative ordering of premises to conclusion). Knowledge evolution uses **Γ\_time** (versioning, deprecation, update). When composition produces **new closure or supervision** (e.g., explanatory theory emerges), we declare **MHT** (B.2).
 
-
 ### B.1.3:2 - Problem
 
 Naive aggregation of knowledge holons causes recurring failures:
@@ -59,7 +58,6 @@ Naive aggregation of knowledge holons causes recurring failures:
 5. **Context chimeras.** Combining items across **bounded contexts** (different vocabularies/units/policies) without a **Context Reframe** (B.2) silently corrupts claims and inflates **R**.
 6. **Category errors.** Importing **Γ\_sys** rules (e.g., “sum truth,” “avg formality”) into knowledge composition produces physically sounding but epistemically nonsensical models.
 
-
 ### B.1.3:3 - Forces
 
 | Force                                      | Tension                                                                                                                      |
@@ -70,12 +68,11 @@ Naive aggregation of knowledge holons causes recurring failures:
 | **Order/time discipline vs. Flow**         | Respect argument **order** and version **time** ↔ keep composition usable for day‑to‑day synthesis.                          |
 | **Parsimony vs. Fit**                      | Small rule set (A.11) ↔ explicit **congruence** penalties and **context** rebasing when needed.                              |
 
-
 ### B.1.3:4 - Solution — **Terms, operator family, invariant Standard, core rules**
 
 #### B.1.3:4.1 - Terms (didactic recap)
 
-* **U.Episteme** — a knowledge holon. Internally read it as an `EpistemeSlotGraph`: `DescribedEntitySlot` for what it is about, `ClaimGraphSlot` or theory/model structure for what it claims, `GroundingHolonSlot` where grounding is live, and SCR/RSCR carrier references for text, code, figures, or datasets.
+* **U.Episteme** — a knowledge holon. Internally read it as an `EpistemeSlotGraph`: `EntityOfConcernSlot` for what it is about, `ClaimGraphSlot` or theory/model structure for what it claims, `GroundingHolonSlot` where grounding is live, and SCR/RSCR carrier references for text, code, figures, or datasets.
 * **Evidence/Provenance Graph** — edges like **evidences**, **derivesFrom**, **usesMethod**, **isMeasuredBy** with anchors (A.10).
 * **Mapping edge** — a typed relation between conceptual vocabularies (e.g., ontology alignment, unit conversion) with a **CL** score (0…3/4 per A.15/B.3 convention).
 * **SCR** — a `U.SCR` that lists all symbol carriers included in the aggregate; **never dropped**.
@@ -85,7 +82,6 @@ Naive aggregation of knowledge holons causes recurring failures:
 > • Knowledge does **not** “act.” Transformers (A.12) **use** knowledge.
 > • **MemberOf** creates **collections**; it is not a semantic argument link. Use **ConstituentOf** for logical/evidential composition.
 > • **PhaseOf** is for **versions** of the same episteme; if identity, boundary, or context re‑anchor, declare **MHT**.
-
 
 #### B.1.3:4.2 - The operator family (companion flavours)
 
@@ -114,7 +110,6 @@ To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours tha
 
 **Relationship to Γ\_ctx / Γ\_time.**
 If the knowledge fold explicitly depends on **argument order** (e.g., derivation), the internal fold uses **Γ\_ctx** for the sequence. If a **temporal storyline** (updates, retractions) is important, use **Γ\_time** to slice versions; **Γ\_epist** then composes the **current slice**. If composition yields **new explanatory closure** beyond WLNK/CL, declare **MHT** (B.2).
-
 
 #### B.1.3:4.3 - Invariant Standard (how the Quintet applies; **math by level**)
 
@@ -219,7 +214,6 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 * **Why not averaging?**
   Averaging would inflate `R` and hide low‑CL outcome mappings; Γ\_epist enforces pathwise **min** + **CL** penalty.
 
-
 #### B.1.3:5.2 - Episteme — **Safety case from heterogeneous evidence**
 
 * **Inputs:** requirement spec (F=3, R=0.7), hazard analysis (F=2, R=0.6), test logs (F=1, R=0.8), formal proof of controller property (F=3, R=0.9).
@@ -233,7 +227,6 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 * **Γ\_epist^compile (certification context):**
   Context re‑base to regulatory vocabulary; if the re‑base changes objective/boundary (e.g., from internal assurance to public certification), consider **MHT (Context Reframe)** per B.2.
 
-
 #### B.1.3:5.3 - Contrast (didactic)
 
 | Aspect          | **Γ\_epist (Knowledge)**                                         | **Γ\_sys (Physical)**                       |
@@ -243,7 +236,6 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 | Fit             | **Mappings** with declared **CL**                                | **Interfaces/BIC** compatibility             |
 | Order/time      | Optional **Γ\_ctx** for argument order; **Γ\_time** for versions | Γ\_ctx for workflows; Γ\_time for phases     |
 | Work/cost       | External in **Γ\_work** (compute, curation)                      | External in **Γ\_work** (energy, labour)     |
-
 
 ### B.1.3:6 - Proof obligations (normative)
 
@@ -264,7 +256,6 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 3. **PO‑COMP‑REL.** A **release‑grade SCR** (hashes, versions, dates) MUST be produced.
 4. **PO‑COMP‑MHT.** If the compilation re‑anchors **boundary**, **objective**, or **identity** (e.g., from compendium to explanatory theory), an **MHT (Context Reframe)** MUST be declared with a Promotion Record (B.2).
 5. **PO‑COMP‑ORDER/TIME.** If derivational order or a specific time slice is essential, the **OrderSpec** and the **Γ\_time** slice MUST be referenced.
-
 
 ### B.1.3:7 - Conformance Checklist (normative)
 
@@ -292,7 +283,6 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 | **Orderless proof**      | Derivation steps treated as a set                 | Add **OrderSpec**; compose with Γ\_ctx inside Γ\_epist.                                    |
 | **Synergy by narrative** | “New theory” claimed without BOSC evidence        | If closure/supervision actually emerges, declare **MHT**; otherwise lower claims.          |
 
-
 ### B.1.3:9 - Consequences
 
 **Benefits**
@@ -307,14 +297,12 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 * **Mapping overhead.** Declaring mappings and **CL** costs time; it prevents silent incoherence.
 * **Conservative stance.** Results may look pessimistic; this is deliberate (WLNK). Use **MHT** only for genuine explanatory closure.
 
-
 ### B.1.3:10 - Rationale (informative)
 
 * **Epistemic composition is not physical addition.** Reliability must be bounded by the **weakest justified path**, not averaged; conceptual misalignment must **reduce** confidence, not be ignored.
 * **Provenance is part of meaning.** Dropping sources/methods changes what the episteme **is**; Γ\_epist treats provenance and **SCR** as first‑class.
 * **Context matters.** Bounded contexts structure practice; formal **Context Reframe (MHT)** prevents quiet re‑interpretations of claims.
 * **Parsimony with power.** A small set of rules (provenance preservation, CL‑penalized pathwise min, order/time hooks, context discipline) is enough to model scientific and engineering knowledge without importing domain‑specific tool jargon.
-
 
 ### B.1.3:11 - Relations
 

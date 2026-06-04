@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing — describedEntity‑preserving morphism"
+pattern_title: "U.EpistemicViewing — EntityOfConcern-preserving morphism"
 section_id: "A.6.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__007_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism"
+  - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:6 — Consequences"
-line_start: 10156
-line_end: 10180
+line_start: 10016
+line_end: 10040
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -26,24 +26,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
-  - "U.MultiViewDescribing"
-  - "U.RelationSlotDiscipline"
-  - "U.Signature"
 keywords:
-  - "ClaimGraph"
-  - "CorrespondenceModel"
-  - "Direct vs Correspondence Viewing"
-  - "EpistemicViewing"
-  - "RepresentationScheme"
-  - "Viewpoint"
-  - "describedEntity preservation"
-  - "displayed fibration"
-  - "episteme"
-  - "optics"
-  - "view"
 ---
 
 ### A.6.3:6 - Consequences
@@ -51,23 +34,23 @@ keywords:
 * **Clear separation of viewing vs retargeting.**
   `U.EpistemicViewing` and `U.EpistemicRetargeting` (A.6.4) now **cleanly separate**:
 
-  * “view of the same entity” vs “description of a different entity under a bridge”, and
+  * “view of the same EntityOfConcern” vs “description of a different entity under a bridge”, and
   * vertical morphisms (`α` fixed) vs retargeting morphisms (α changes under KindBridge).
 
 * **Stable backbone for multi‑view patterns.**
-  Multi‑view description (E.17.0), viewpoint bundle libraries (E.17.1/E.17.2), and MVPK publication now share a **single notion of view morphism**, aligned with C.2.1 slots and the I/D/S discipline.
+  Multi‑view description (E.17.0), viewpoint bundle libraries (E.17.1/E.17.2), and MVPK publication now share a **single notion of view morphism**, aligned with C.2.1 slots and the EntityOfConcern and Description-episteme boundary and specification use/refinement discipline.
 
 * **SlotKind-specific discipline for tools.**
   Tools implementing views (queries, projections, report generators, LLM‑based summarisation) must declare:
 
   * which SlotKinds they read,
   * which SlotKinds they may write,
-  * and that `DescribedEntitySlot` is preserved.
-    This removes ambiguity around subject/described-entity changes and supports robust static checking.
+  * and that `EntityOfConcernSlot` is preserved.
+    This removes ambiguity around subject/EntityOfConcern changes and enables robust static checking.
 
 * **Alignment with modern view/query practices.**
   The pattern aligns with:
-  * ISO 42010:2011/2022 and its focus on **viewpoints**, **views**, and **correspondences** over an entity‑of‑interest;
+  * ISO 42010:2011/2022 and its focus on **viewpoints**, **views**, and **correspondences** over an entity of concern;
   * SysML v2 “views‑as‑queries” paradigm, where views are queries over a stable model, not new models;
   * post‑2015 work on **optics** and **displayed categories**, treating views as structured projections over a fibred category of epistemes.
 

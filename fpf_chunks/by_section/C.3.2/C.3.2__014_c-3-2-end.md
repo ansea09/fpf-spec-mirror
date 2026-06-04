@@ -6,12 +6,12 @@ section_id: "C.3.2:End"
 section_title: "C.3.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__014_c-3-2-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:End — C.3.2:End"
-line_start: 37928
-line_end: 37929
+line_start: 37938
+line_end: 37939
 dependencies:
   - "C.3.1"
   - "C.3.3"

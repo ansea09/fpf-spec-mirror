@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-line_start: 40260
-line_end: 40681
+line_start: 40197
+line_end: 40608
 dependencies:
   - "A.10"
   - "A.17"
@@ -40,24 +40,24 @@ keywords:
 ### C.16:1 - Intent (Normative)
 
 **Name.** *Measurement & Metrics Characterization (MM‑CHR).* This is a user‑oriented name: in user‑facing narrative we may say *metrics*; in **Tech** register we speak **Characteristic, Scale, Level, Coordinate, Value, Score, Unit, and ScoringMethod**; in **Formal** register we use `U.DHCMethod(Ref)`, `U.Measure`, `U.Unit`, and `U.EvidenceStub`.
-**Intent.** Provide a **transdisciplinary substrate for measurement** that any FPF pattern can rely on: a small, stable set of intensional constructs and relations—**`U.DHCMethodRef`**, **`U.Measure`**, **`U.Unit`**, **`U.EvidenceStub`**—disciplined by **CSLC** (*Characteristic, Scale, Level, Coordinate*) so that every recorded value is **interpretable**, and any claim of “comparability” is **auditable** (physics lab time‑of‑flight, figure‑skating judging, architectural modularity, etc.). **C.16** does **not** re‑define **Characteristic** (A.17) nor the CSLC kernel Standard (A.18); instead, it **exports** the measurement substrate that *binds* an FPF pattern’s measurable notions to **one Characteristic and one Scale** and frames a **conceptual link to evidence**. This characterization is **notation‑neutral**, **tool‑agnostic**, and **open‑ended** (no “lifecycle” narrative; evolution proceeds via **RSG** moves with checklists).
+**Intent.** Provide a **transdisciplinary substrate for measurement** that any FPF pattern can rely on: a small, stable set of measurement-definition constructs and relations—**`U.DHCMethodRef`**, **`U.Measure`**, **`U.Unit`**, **`U.EvidenceStub`**—disciplined by **CSLC** (*Characteristic, Scale, Level, Coordinate*) so that every recorded value is **interpretable**, and any claim of “comparability” is **auditable** (physics lab time‑of‑flight, figure‑skating judging, architectural modularity, etc.). **C.16** does **not** re‑define **Characteristic** (A.17) nor the CSLC kernel Standard (A.18); instead, it **exports** the measurement substrate that *binds* an FPF pattern’s measurable notions to **one Characteristic and one Scale** and frames a **conceptual link to evidence**. This characterization is **notation‑neutral**, **tool‑agnostic**, and **open‑ended** (no “lifecycle” narrative; evolution proceeds via **RSG** moves with checklists).
 
 **One‑minute mental model (didactic; non‑normative).**
 * **Template** (`U.DHCMethod`) says what a value *means*: the **Characteristic**, **Scale** (and **Unit** when applicable), plus **polarity** and applicability.
-* **Reading** (`U.Measure`) says what was claimed about a **subject**: a value on that Scale, with a **time stance** and (when required) an **EvidenceStub**.
+* **Measure claim** (`U.Measure`) says what was claimed about a **subject**: a value on that Scale, with a **time stance** and (when required) an **EvidenceStub**.
 * **Direct comparability** is conservative: *same template*; everything else requires a **named and cited** comparability basis governed by the relevant FPF pattern, Bridge, method description, or specification record.
 
 **Boundary to neighboring governing patterns and specification records.** C.16 governs measurement templates, readings, score meanings, scale legality, direct comparability, and evidence-stub adequacy. It does **not** govern (i) characterization mechanisms such as normalization, indicatorization, scoring, comparison, or selection, (ii) normalization and equivalence notions such as method tokens, invariant-value notions, or equivalence relations, (iii) claim-use policies such as comparability modes and legality gates, or (iv) suite protocol obligations. Those meanings are governed by their exact FPF patterns or specification records, such as CN-Spec, CG-Spec, and the CHR mechanism-governing patterns. C.16 may **cite** those patterns or records when motivating evidence or interpretability, but MUST NOT introduce or restate their terminology or laws.
 
-Use this when a value, score, rating, metric label, QL probe output, dashboard reading, or comparison is being treated as meaningful without a visible characteristic, scale, unit, polarity, comparability basis, or evidence pointer. The action is to rebuild the measurement claim as a typed reading: name the subject, bind one characteristic to one scale, state the coordinate or level, declare unit and polarity when they matter, attach the evidence stub, and keep comparison or scoring claims with broader scope, higher evidence requirement, or release/admission use with the exact pattern or specification record that governs that comparison or scoring claim.
+Use this when a value, score, rating, metric label, QL probe output, dashboard reading, or comparison is being treated as meaningful without a visible characteristic, scale, unit, polarity, comparability basis, or evidence pointer. The action is to rebuild the measurement claim as a typed reading: name the subject, bind one characteristic to one scale, state the coordinate or level, declare unit and polarity when they matter, attach the evidence stub, and keep comparison or scoring claims with broader scope, higher evidence requirement, or release or admission use with the exact pattern or specification record that governs that comparison or scoring claim.
 
-Thin precision-restoration pointer: if the live issue is still whether wording such as *metric*, *measure*, *score*, *axis*, *dimension*, *level*, *coordinate*, *quality*, or *stronger/weaker value* names a characteristic, scale, coordinate, score, unit, scoring method, quality-term repair, or another receiving object, use `C.16.P` first. Do not copy the `C.16.P` trigger table here; C.16 resumes after the measurement or characteristic construction is recoverable.
+Thin precision-restoration pointer: if the live issue is still whether wording such as *metric*, *measure*, *score*, *axis*, *dimension*, *level*, *coordinate*, *quality*, or *stronger/weaker value* names a characteristic, scale, coordinate, score, unit, scoring method, quality-term repair, or exact receiving-pattern exit, use `C.16.P` first. Do not copy the `C.16.P` trigger table here; C.16 resumes after the measurement or characteristic construction is recoverable.
 Useful output: a measurement claim that a reader can interpret and compare only within its declared measurement basis, without turning a convenient number into a free-floating fact.
 
 Metric legality does not make causal use admissible. If a measured value, score, dashboard reading, or metric disparity reaches `CausalUseActivation` by being used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, or causal method superiority, keep the measurement repair in `C.16` and carry the causal-use question, causal-ladder rung, estimand, support basis, support verdict, admissible causal use, and inadmissible causal use in `C.28`.
 
 **Outcomes.**
-(1) A uniform way for FPF patterns to *declare* what is measured and *read* what has been measured; (2) explicit **Characteristic anchoring** and **Scale typing** per CSLC; (3) principled **comparability** and **polarity** (declared at the template level); (4) **traceability** via conceptual evidence stubs; (5) seamless alignment with cross‑domain quantity notions (ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN, Verspoor) through Unification rows (Part F).
+(1) A uniform way for FPF patterns to *declare* what is measured and *read* what has been measured; (2) explicit **Characteristic binding** and **Scale typing** per CSLC; (3) principled **comparability** and **polarity** (declared at the template level); (4) **traceability** via conceptual evidence stubs; (5) seamless alignment with cross‑domain quantity notions (ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN, Verspoor) through Unification rows (Part F).
 
 ### C.16:2 - Scope & Status (Normative)
 
@@ -65,37 +65,34 @@ Metric legality does not make causal use admissible. If a measured value, score,
 
 **Status.** **Normative** C.16 **depends on** A.17 (canonical **Characteristic**) and A.18 (minimal **CSLC** in Kernel). Where C.16 cites external CG‑frames, the stance is through **Part F** rows and **Bridges** (with CL and loss notes), not by vocabulary import.
 
-**Out of scope.** No computational recipes, no workflow prescriptions, no governance or process guidance. No definitions of normalization, indicatorization, scoring, comparison, or selection mechanisms, no comparability policy specifications, and no legality gate specifications. C.16 concerns **objects of thought** (intensions) and their **validity conditions** for measurement claims, not records or tooling. (Implementation guidance, if any, belongs outside Part C.)
-
+**Out of scope.** No computational recipes, no workflow prescriptions, no governance or process guidance. No definitions of normalization, indicatorization, scoring, comparison, or selection mechanisms, no comparability policy specifications, and no legality gate specifications. C.16 concerns **measurement-definition constructs** and their **validity conditions** for measurement claims, not records or tooling. (Implementation guidance, if any, belongs outside Part C.)
 
 ### C.16:3 - Problem & Context (Informative)
 
 #### C.16:3.1 - The problem C.16 solves
 
-Across FPF patterns, people say “score”, “metric”, “rating”, “property”. Without a shared substrate, numbers drift: *42 of what? on which scale? comparable to whom?* C.16 eliminates drift by requiring every metric notion to **bind** to **one** Characteristic and **one** Scale, and by **separating** intensional anchors from descriptions and ScoringMethods. The result is **portable meaning**: a measure is always readable as a **Coordinate on a declared Scale of a named Characteristic**, with a principled path to evidence.
+Across FPF patterns, people say “score”, “metric”, “rating”, “property”. Without a shared substrate, numbers drift: *42 of what? on which scale? comparable to whom?* C.16 eliminates drift by requiring every metric notion to **bind** to **one** Characteristic and **one** Scale, and by **separating** Characteristic/template bindings from descriptions and ScoringMethods. The result is **portable meaning**: a measure is always readable as a **Coordinate on a declared Scale of a named Characteristic**, with a principled path to evidence.
 
 #### C.16:3.2 - Context and prior art
 
-* **Kernel canon.** A.17 makes **Characteristic** the sole canonical anchor for measurability; A.18 fixes **CSLC** as the minimal sufficiency for interpretability. C.16 relies on both.
+* **Kernel canon.** A.17 makes **Characteristic** the sole canonical head for measurability; A.18 fixes **CSLC** as the minimal sufficiency for interpretability. C.16 relies on both.
 * **Cross‑domain alignment.** The MM‑CHR family already maps FPF U.Types to **ISO 80000‑1 (Quantity)**, **ISO/IEC 25024 (Data‑quality Characteristic)**, **QUDT (QuantityKind and QuantityValue)**, **W3C SOSA/SSN (Observable, Observed, and Result)**, and domain “feature/metric” usage (Verspoor, TF Metrics). C.16 uses these rows **as Bridges** (Part F), preserving local senses and documenting losses.
 * **Open‑ended evolution.** FPF replaces “lifecycle” with **Role‑State Graph (RSG)** style state checklists (A.2.5): movement is along **certified states** with checklists; re-entry is valid when distinctions change. C.16 uses this device only to frame **readiness** and **revision** of metric notions conceptually (no processes implied).
-
 
 ### C.16:4 - Forces (Informative)
 
 **F1 — Interpretability first.** A value detached from its Characteristic and Scale is meaningless; CSLC supplies minimum context.
 **F2 — Transdisciplinarity.** Physics, architecture, curation, sport judging—*one* substrate must cover all while respecting scale types and polarity.
-**F3 — Intension vs description.** Confusing the **Characteristic** (intensional object) with its rubric or exemplar text (descriptions) corrupts claims; C.16 keeps them distinct.
+**F3 — Characteristic/template vs description.** Confusing the **`U.Characteristic`** or measurement template with its rubric or exemplar text (descriptions) corrupts claims; C.16 keeps them distinct.
 **F4 — Comparability without coercion.** Ordinal ≠ interval; ratio admits unit change, ordinal does not; polarity matters for “better/worse”. C.16 encodes these **as conceptual constraints**, not formulas.
 **F5 — Evidence sufficiency.** A measure should be *checkable in principle*; evidence is a **conceptual link** (not storage advice).
 **F6 — Lexical discipline.** One canon in normative register; narrative labels are didactic only (Part E). C.16 reuses E.10’s **register mapping**.
 
-
 ### C.16:5 - Solution Outline (Normative)
 
-**S1 — Exported objects.** C.16 **exports** four intensional constructs to be used by any FPF pattern:
+**S1 — Exported objects.** C.16 **exports** four measurement constructs to be used by any FPF pattern:
 
-1. **`U.DHCMethod`** — a *measurement template* (a Definition) that binds **one `U.Characteristic`** to **one Scale form**, with declared **polarity** and (optionally) a **citation point** to the governing FPF pattern, method description, Bridge, or specification record for any non-trivial equivalence or comparability claim that is relied upon elsewhere. **References** to this template use `U.DHCMethodRef`. It is an *intensional specification*, not a record layout.
+1. **`U.DHCMethod`** — a *measurement template* (a Definition) that binds **one `U.Characteristic`** to **one Scale form**, with declared **polarity** and (optionally) a **citation point** to the governing FPF pattern, method description, Bridge, or specification record for any non-trivial equivalence or comparability claim that is relied upon elsewhere. **References** to this template use `U.DHCMethodRef`. It is a *measurement-definition specification*, not a record layout.
 2. **`U.Measure`** — an *assertion* that a **subject** occupies a **Coordinate** (or **Level**, if discrete) on that Scale; the measure **references** its template and carries a **conceptual pointer to evidence** (`U.EvidenceStub`).
 3. **`U.Unit`** — the *unit kind* associated with the Scale where applicable (physical quantities, normalized “points”, “stars”, “%”); unit coherence is part of comparability conditions.
 4. **`U.EvidenceStub`** — a *conceptual locator* of grounds for the asserted value (type, identifier, brief summary, optional integrity notion); sufficiency criteria are **conceptual** (see §9 below).
@@ -104,14 +101,13 @@ Across FPF patterns, people say “score”, “metric”, “rating”, “prop
 
 **S3 — Evidence stance.** A measure that, by its template, **requires** evidence, is **inadmissible** without a meaningful `U.EvidenceStub`. C.16 defines **what it means conceptually** for evidence to “connect” the subject, the Characteristic, and its symbolic description; mechanisms are out of scope. (Details: §9 below.)
 
-**S4 — RSG framing (open‑endedness).** Readiness, calibration, and revision of metric notions are expressed as **RSG node moves with checklists** (e.g., “characteristic anchored”, “Scale typed”, “Unit coherent”, “ScoringMethod declared”), allowing **re‑entry** when distinctions change; there is no terminal “lifecycle”. (Details: §10 below.)
-
+**S4 — RSG framing (open‑endedness).** Readiness, calibration, and revision of metric notions are expressed as **RSG node moves with checklists** (e.g., “characteristic bound”, “Scale typed”, “Unit coherent”, “ScoringMethod declared”), allowing **re‑entry** when distinctions change; there is no terminal “lifecycle”. (Details: §10 below.)
 
 #### C.16:5.1 - Lexical Discipline & Registers (Normative)
 
 **L1 — Canon.** Use **Characteristic, Scale, Level, Coordinate, Value, Score, Unit, and ScoringMethod** in **Tech** register; their `U.*` counterparts in **Formal**. Narrative labels (e.g., *axis*, *points*, *stars*) are **didactic only**, and are mapped at first mention to the Tech canon (E.10).
 **L1‑bis — “metric”.** The noun *metric* is **not** a Tech‑register canonical token for measurables; use **Characteristic, Scale, Coordinate, Score, and ScoringMethod**. It **may** appear in the pattern title and in the Formal names `U.DHCMethodRef` and `U.Measure`. Do not use *metric* as a synonym for **Characteristic** or **Score** in normative prose.
-**L2 — Intension vs Description.** Keep **intensional objects** (`U.DHCMethodRef`, `U.Characteristic`) distinct from **descriptions** (rubrics, exemplars) and from **claims** (`U.Measure`). No collapsing of names across these layers.
+**L2 — Characteristic/template vs Description.** Keep C.16 measurement-definition objects (`U.DHCMethodRef`, `U.Characteristic`) distinct from **descriptions** (rubrics, exemplars) and from **claims** (`U.Measure`). No collapsing of names across these positions.
 **L3 — No synonym sprawl.** In normative clauses do **not** substitute *dimension*, *axis*, *property*, or *feature* for **Characteristic**; A.17 governs canonicalization. (C.16 inherits A.17’s rename policy.)
 **L4 — Bridge‑only unification.** Cross‑vocabulary sameness appears only via **F.9 Bridges** with **CL** and **loss notes**; C.16’s lexicon is the *source* side for measurement rows.
 **L5 — Plain‑register shorthand.** In **Plain** register *metric* MAY be used as shorthand for “template + readings”, but on first use it MUST be mapped to **`U.DHCMethod` (template)** and **`U.Measure` (reading)**, and to the Tech canon terms that matter for meaning.
@@ -135,9 +131,9 @@ Across FPF patterns, people say “score”, “metric”, “rating”, “prop
 
 ##### C.16:5.3.1 - `U.DHCMethod` — the measurement template (normative)
 
-**Role.** An intensional **Standard** that fixes *what is measured* and *how values must be read*—without producing any values itself. It is a *Definition*, not a Measure. **References** to this template use `U.DHCMethodRef`. *(Didactic: think “the meaning declaration for a reading”.)*
+**Role.** A measurement-template **Standard** that fixes *what is measured* and *how values must be read*—without producing any values itself. It is a *Definition*, not a Measure. **References** to this template use `U.DHCMethodRef`. *(Didactic: think “the meaning declaration for a reading”.)*
 
-**R‑MT‑1 (CSLC anchor).** A DHCMethod **SHALL** bind to **exactly one** `U.Characteristic` and **exactly one** **Scale‑form** admissible for that Characteristic (cf. A.18). Level is **optional** (used when the scale is enumerated); otherwise values are given directly as Coordinates.
+**R-MT-1 (CSLC binding).** A DHCMethod **SHALL** bind to **exactly one** `U.Characteristic` and **exactly one** **Scale‑form** admissible for that Characteristic (cf. A.18). Level is **optional** (used when the scale is enumerated); otherwise values are given directly as Coordinates.
 
 **R‑MT‑2 (Unit).** If the scale carries units (interval or ratio), the template **SHALL** designate a **Unit** of presentation. For ordinal or nominal scales, unit may be absent or a nominal label (e.g., “stars”). (Old MM‑CHR Annex A already listed these structural elements; here we fix the conceptual obligation. )
 
@@ -145,14 +141,13 @@ Across FPF patterns, people say “score”, “metric”, “rating”, “prop
 
 **R‑MT‑4 (Applicability).** A template **SHALL** state the **applicability frame** (what kinds of subjects it meaningfully applies to) in conceptual terms; this is a property of the definition, not of any measure.
 
-**R‑MT‑5 (Intension vs description).** The template is an **intensional object**. Any rubric, checklist, or prose that explains it is a **Description**; they are related but not identical (E.10 discipline).
+**R‑MT‑5 (Template vs description).** The template is a **measurement template**. Any rubric, checklist, or prose that explains it is a **Description**; they are related but not identical (E.10 discipline).
 
 **R‑MT‑6 (Cardinality hint).** A Template **MAY** declare its intended **cardinality semantics** for a subject within a **time stance** (e.g., *latest‑only*, *at‑most‑one‑per‑day*, *time series*).
 Where declared, claims outside that semantics are **inadmissible conceptually** (they must be reframed or versioned). *Purpose:* prevent silent duplicates and mixed regimes without imposing storage logic.
 
 **R‑MT‑7 (MAY).** `UncertaintyPolicy` — optional conceptual guidance on how uncertainty is expressed or read (e.g., band, confidence interval, or quantile), without prescribing methods/tools.
 *(Informative examples: calibrated probability with a confidence band; a prediction interval; a set‑valued reading such as a prediction set.)*
-
 
 ##### C.16:5.3.2 - `U.Measure` — the recorded reading (normative)
 
@@ -170,7 +165,7 @@ Where declared, claims outside that semantics are **inadmissible conceptually** 
 
 **R‑ME‑6 (MAY).** `UncertaintyStub` — optional conceptual pointer to the adopted uncertainty estimation for this Measure, **if** required by the template.
 
-> *Informative anchor.* The old Annex B example “Article Completeness” illustrates the split template/measure/evidence; **C.16** keeps the split but keeps storage-level talk out of scope.
+> *Informative source reference.* The old Annex B example “Article Completeness” illustrates the split template/measure/evidence; **C.16** keeps the split but keeps storage-level talk out of scope.
 
 ##### C.16:5.3.3 - `U.Unit` — semantics of quantities (normative)
 
@@ -195,7 +190,7 @@ Where declared, claims outside that semantics are **inadmissible conceptually** 
 **R‑EV‑3 (Soundness axiom).** A Measure is **MM‑CHR‑admissible** only if at least one **auditable chain of grounds** can be stated from the bearer to the Characteristic via an appropriate description episteme that carries the measured subject, characteristic, and evidence relation. *(Note:* mechanism‑level admissibility gates (e.g., legality thresholds or evidence thresholds in CG‑frames or CHR mechanisms) are governed by their exact FPF patterns or specification records; C.16 defines only the conceptual “has grounds” link.)
 **R‑EV‑3 (Soundness axiom).** A Measure is **MM‑CHR‑admissible** only if at least one **auditable chain of grounds** can be stated that connects:
 `bearer (subject) -> grounds -> Characteristic -> Coordinate or Level on the declared Scale`,
-in the appropriate Context of meaning. *(Informative: this is the measurement-claim anchoring chain.)*
+in the appropriate Context of meaning. *(Informative: this is the measurement-claim binding chain.)*
 *(Boundary note:* mechanism‑level admissibility gates (e.g., legality thresholds or evidence thresholds in CG‑frames or CHR mechanisms) are governed by their exact FPF patterns or specification records; C.16 defines only the conceptual “has grounds” link.)
 
 #### C.16:5.4 - Polarity, Comparability, and ScoringMethods (normative)
@@ -217,7 +212,6 @@ C.16 does not define scoring methods; it only requires that a score be interpret
 
 **R‑G𝒢‑2 (Ordinal respect).** For ordinal inputs, any cited scoring method must be **order‑preserving**; interval assumptions **MUST NOT** be smuggled in. *(Normative source for scale legality remains A.18; C.16 only enforces “no silent semantics upgrade”.)*
 
-
 #### C.16:5.5 - Entity vs Relation bindings (normative clarifications)
 
 **R‑ER‑1 (Arity preservation).** If the Characteristic is `U.EntityCharacteristic`, the subject is **one** bearer; if `U.RelationCharacteristic`, the subject is a **k‑tuple** (k ≥ 2). The Measure’s claim text **SHALL** reflect this arity.
@@ -225,7 +219,6 @@ C.16 does not define scoring methods; it only requires that a score be interpret
 **R‑ER‑2 (Relation scale).** Relation‑valued scales **SHALL** fix their symmetry/antisymmetry and directionality (e.g., distance symmetric; influence directional), at the **template** level.
 
 **R‑ER‑3 (Bridge to CG‑frames).** In architectural CG‑frames, **Coupling/Cohesion** are Characteristics over **modules** (structure) or **roles** (function). Their measures are relational (**Coupling**) or unary (**Cohesion** within an element), but both live in the same MM‑CHR substrate. (Alignment hinted in the old mapping rows across contexts. )
-
 
 #### C.16:5.6 - Acceptance (conceptual, RSG‑aware)
 
@@ -247,8 +240,7 @@ C.16 does not define scoring methods; it only requires that a score be interpret
 
 **SCR‑C16‑D (Evidence adequacy).** For any required EvidenceStub, you can sketch at least one **auditable chain of grounds** from the subject to the Characteristic via a Description in the right Context.
 
-
-#### C.16:5.7 Cross‑references & anchors
+#### C.16:5.7 Cross-references & source references
 
 * **A.17 (CHR‑NORM).** Canonical **Characteristic** and Entity/Relation split; lexical rules and alias sunset.
 * **A.18 (CSLC‑KERNEL).** One Characteristic + one Scale per template; Level optional; operation guard by scale type.
@@ -279,21 +271,20 @@ G‑5 (Target polarity). If polarity is targeted, comparisons use distance‑fro
 
 #### C.16:7.1 - What an Evidence Stub is (and is not)
 
-**Definition.** `U.EvidenceStub` is a **conceptual pointer** that ties a **measure** to the **grounds** sufficient for independent checking (observations, arguments, admissible transformations). It is not the run log, not the carrier, and not the intensional characteristic itself. This keeps **intension–description–specification** distinct per E.10.D2 and the Clarity Lattice.
+**Definition.** `U.EvidenceStub` is a **conceptual pointer** that ties a **measure** to the **grounds** sufficient for independent checking (observations, arguments, admissible transformations). It is not the run log, not the evidence carrier, and not the characteristic itself. This keeps **EntityOfConcern and Description-episteme boundary and specification use** distinct per E.10.D2 and the Clarity Lattice.
 
 **Rule Σ‑1.** Whether evidence is **required** is a **property of the metric template**; if required, each `U.Measure` **SHALL** include an `U.EvidenceStub`.
 **Rule Σ‑2.** Evidence composition is **commutative, associative, idempotent** at the concept level (sets/multisets of grounds); combining grounds can never *reduce* what is knowable about the measure’s warrant.
 **Rule Σ‑3.** *Soundness minimum:* there exists a conceptual chain linking **bearer → Characteristic → Scale and Unit → admissible method or episteme**. (No “free‑floating numbers”.)
 **Rule Σ‑4.** Any declared *agreement* construct used as evidence (e.g., dual readings, panels) **SHALL** respect the template’s scale type (per A.18) (e.g., order‑based concordance for ordinal; tolerance‑based agreement for interval or ratio).
 **Note (boundary).** CG‑frame evidence thresholds (e.g., “minimal evidence” gates used by selection, scoring, or comparison mechanisms) are governed by their exact FPF patterns or specification records. C.16 defines only the EvidenceStub semantics that such gates may cite.
-*Anchors:* MM‑CHR units and evidence notion; Strict Distinction and the separation of objects from their descriptions and specifications.
-
+*Source references:* MM‑CHR units and evidence notion; Strict Distinction and the separation of objects from their descriptions and specifications.
 
 ### C.16:8 - Integration with RSG & Dynamics (Normative and Clarifying)
 
 #### C.16:8.1 - RSG (Role‑State Graph) touch‑points
 
-MM‑CHR **supplies recognisers** used in **State Checklists**. A checklist criterion **may** refer to a measure (e.g., “Cohesion ≥ T on ordinal ladder”), but the **state itself remains intensional**; the checklist is its **description**, and a **StateAssertion** is an evidence‑backed verdict over a Window. No lifecycle language is implied; RSGs are open‑ended graphs with re‑entry edges.
+MM‑CHR **supplies recognisers** used in **State Checklists**. A checklist criterion **may** refer to a measure (e.g., “Cohesion ≥ T on ordinal ladder”), but the **state itself remains the EntityOfConcern of the checklist**; the checklist is its **description**, and a **StateAssertion** is an evidence‑backed verdict over a Window. No lifecycle language is implied; RSGs are open‑ended graphs with re‑entry edges.
 
 **Rule RSG‑M1.** When a checklist cites a measure, it **SHALL** do so by **Characteristic + Scale semantics** (and unit if applicable), not by colloquial aliases; Tech and Formal registers apply. **Rule RSG‑M2.** Thresholds in checklists **MUST** respect the scale type (no ratio talk on interval scales; no arithmetic on ordinal ladders).
 
@@ -305,12 +296,12 @@ MM‑CHR **supplies recognisers** used in **State Checklists**. A checklist crit
 
 > *Thought‑level acceptance conditions for authors and assessors; they constrain meaning, not tooling.*
 
-**CC‑MCHR‑1 - CSLC anchoring.** Each `U.DHCMethodRef` binds **exactly one** `U.Characteristic` and **exactly one** scale; each `U.Measure` carries a value valid for that scale (cf. A.18).
+**CC-MCHR-1 - CSLC binding.** Each `U.DHCMethodRef` binds **exactly one** `U.Characteristic` and **exactly one** scale; each `U.Measure` carries a value valid for that scale (cf. A.18).
 **CC‑MCHR‑2 - Polarity declared.** Every **ordered** scale in a template declares **polarity**; any **Score** via 𝒢 is monotone w.r.t. that polarity.
 **CC‑MCHR‑3 - Unit coherence.** Claims that compare or combine values are **grounded in unit coherence** (or declared conversions for interval or ratio).
 **CC‑MCHR‑4 - Comparability honesty.** Ordered comparisons are asserted **only** when **R‑CMP‑1** holds (same‑template direct comparability) or when a **named and cited** transformation basis is provided per **R‑CMP‑2**; otherwise authors use qualitative/set‑level language.
 **CC‑MCHR‑5 - Evidence sufficiency.** Where evidence is required by the template, the measure’s grounds are **conceptually sufficient** to retrace the claim; composition respects **Σ‑1…Σ‑4**.
-**CC‑MCHR‑6 - RSG alignment.** If a measure gates a **state** in an RSG, the checklist criteria **respect scale semantics** and the **intensional vs description** split. No lifecycle phrasing; use RSG open‑ended moves.
+**CC‑MCHR‑6 - RSG alignment.** If a measure gates a **state** in an RSG, the checklist criteria **respect scale semantics** and the **EntityOfConcern vs Description-episteme** split. No lifecycle phrasing; use RSG open‑ended moves.
 **CC‑MCHR‑7 - Dynamics awareness.** Where discussions involve change, the **CharacteristicSpace** is **named** (characteristics, units, topology) and separated from the **transition law**.
 **CC‑MCHR‑8 - Lexical guard‑rails.** Tech identifiers and headings use **Characteristic, Scale, Level, Value, Score, Unit, and ScoringMethod**; aliases (axis, dimension, points, or stars) appear **only** in explanatory Plain register with a first‑mention mapping to the Tech canon.
 **CC‑MCHR‑9 - Causal-use metric boundary.** A measurement, metric disparity, score, dashboard reading, or benchmark value that reaches `CausalUseActivation` SHALL keep measurement construction, scale legality, comparability, and evidence-stub repair in `C.16`, and SHALL carry causal-use question, causal-ladder rung, causal estimand, support basis, support verdict, admissible causal use, and inadmissible causal use in `C.28`.
@@ -335,7 +326,7 @@ Within one template there is one *primary* **Unit** of expression (or an explici
 **N‑5 — Comparability guard.**
 Two Measures are comparable *iff* they share the same template (hence, the same Characteristic, Scale, and Unit) **or** stand in an explicit comparability relation whose governing FPF pattern or specification record is cited (e.g., an F‑cluster Bridge, or a cited characterization mechanism’s declared equivalence). Otherwise, comparability is not presumed.
 
-**N‑6 — Evidence as conceptual anchoring.**
+**N-6 - Evidence as conceptual relation.**
 If a template requires it, each Measure includes an **EvidenceStub** that conceptually links the Value to its grounds; absence where required makes the Measure inadmissible for use. *(This is a conceptual obligation; no process mechanics are implied.)*
 
 **N‑7 — Arity clarity.**
@@ -343,7 +334,6 @@ If the Characteristic is relational (applies to a pair or tuple), the subject of
 
 **N‑8 — Open‑ended evolution; graph, not lifecycle.**
 When MM‑CHR is used in change reasoning, movement happens in a **CharacteristicSpace** and along a **Role‑State Graph (RSG)**. There is no lifecycle terminal; revisions may re‑enter earlier framing nodes as per A.17. *(Conceptual control structure only.)*
-
 
 #### C.16:10.2 - Anti‑Patterns (A‑rules) — with cures
 
@@ -449,9 +439,9 @@ Useful outputs:
 - a C.26.1 route when the probe changes the state it reports;
 - no QL wording when noise, uncertainty, discreteness, or metric gaming is the whole issue.
 
-### C.16:12b - C.29 MLA relation
+### C.16:12b - C.29 mathematical-lens use relation
 
-> If a mathematical lens depends on measurement construction, scale, unit, polarity, direct comparability, or evidence-stub adequacy, write that support in `C.16` before treating the lens as usable for those measurement-dependent claims. A `C.29` output may state only the measurement-dependent `LensSupportPosture` for the mathematical-lens adequacy claim; it does not construct the measure, make values comparable, or supply an evidence stub. Evidence paths remain `A.10`; assurance remains `B.3`.
+> If a mathematical lens depends on measurement construction, scale, unit, polarity, direct comparability, or evidence-stub adequacy, write that measurement-dependent relation in `C.16` before treating the lens as usable for those measurement-dependent claims. A `C.29` output may state only the measurement-dependent `LensUseAdmissibilityValue` for the mathematical-lens use claim; it does not construct the measure, make values comparable, or supply an evidence stub. Evidence paths remain `A.10`; assurance remains `B.3`.
 
 ### C.16:End
 

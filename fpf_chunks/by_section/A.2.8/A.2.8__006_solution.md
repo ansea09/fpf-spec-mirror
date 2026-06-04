@@ -6,12 +6,12 @@ section_id: "A.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__006_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:4 — Solution"
-line_start: 5041
-line_end: 5176
+line_start: 4964
+line_end: 5097
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -150,7 +150,6 @@ CommitmentSource ::=
 1. **`U.PromiseContent` is promise content; `U.Commitment` is the governance relation.**
    A service promise clause (what is promised) is not, by itself, an accountable commitment. A `U.Commitment` makes an accountable subject responsible for providing/satisfying the service promise (or for satisfying other governance clauses).
 
-
 2. **`U.Commitment` is not `U.Work`.**
    Work is execution; commitment is governance. A commitment may reference evidence targets, but it does not “contain” evidence.
 
@@ -172,5 +171,4 @@ When using the A.6 stack, represent each **D-quadrant** atomic claim as a `U.Com
 * `modality = DeonticModalityToken` (normalized from RFC-keyword family usage),
 * `referents = {PromiseContentRef, MethodDescriptionRef, L-*, A-* … as needed}` (content/targets),
 * `adjudication.evidenceRefs = {E-* …}` when the commitment is meant to be checkable.
-
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
 line_start: 1725
-line_end: 2295
+line_end: 2286
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -58,7 +58,6 @@ keywords:
 
 **Non‑goals.** No storage models, no workflows, no org charts. This is a **thinking Standard**; all semantics are notation‑free.
 
-
 ### A.2.1:2 - Problem
 
 1. **Type explosion.** Baking transient function into rigid types (“CoolingPump”, “AuditDeveloper”) violates parsimony and makes change brittle.
@@ -66,7 +65,6 @@ keywords:
 3. **Actor vagueness.** Work logs state that things happened but not **who, in what capacity**, under which **local rules**.
 4. **Category leaks.** Documents “do” tasks; deontic statuses are treated like run‑time states; capabilities are confused with permissions.
 5. **Role chains.** Attempting “System ↦ TransformerRole ↦ AgentRole” hides intent and smuggles taxonomy into the data plane.
-
 
 ### A.2.1:3 - Forces
 
@@ -77,7 +75,6 @@ keywords:
 | **Clarity vs brevity**           | Full definition + the mnemonic shorthand `Holder#Role:Context@Window`.                                                            |
 | **Behavior vs status**           | **Only systems enact behavior**; epistemes **hold statuses**. Keep role taxonomies explicit; never chain assignments.             |
 | **Specification vs description** | Role **RCS/RSG** are recorded in **RoleDescription**; upgrade to **RoleSpec** only after a test harness exists (E.10.D2).         |
-
 
 ### A.2.1:4 - Solution
 
@@ -149,7 +146,6 @@ These are **intensional facets** of a **Role**, not containers “inside” the 
 
 **Discipline.** Prefer the phrasing *“Role is **characterised by** RCS/RSG recorded in RoleDescription”*; avoid “Role **contains** its states.”
 
-
 #### A.2.1:4.4 - Shorthand & reading
 
 The canonical compact form used in prose and diagrams is:
@@ -164,7 +160,6 @@ Examples:
 * `ISO_26262v2018#NormativeStandard:AutoSafetyCase` *(status role on an Episteme; no enactment)*
 
 *The shorthand is didactic; the semantics are those of §§4.1–4.3.*
-
 
 #### A.2.1:4.5 - No role chains (use algebra, not badge‑of‑badge)
 
@@ -207,7 +202,6 @@ A Role’s **family** constrains **who can wear its badge**. Eligibility is part
 * **CC‑ELIG‑1.** If `role.family ∈ {Agential, Transformer, Observer, Speech}`, then `holder : U.System`.
 * **CC‑ELIG‑2.** If `role.family ∈ {Epistemic‑Status, Normative‑Status, Service‑Governance}`, then `holder : U.Episteme`.
 * **CC‑ELIG‑3.** No “role of a role”: `role` is bound to a **holder**, not to another role or assignment.
-
 
 #### A.2.1:4.7 - Role algebra within a single Context (meaning relations)
 
@@ -359,7 +353,6 @@ Natural systems note. Spontaneous physical phenomena (e.g., Moon orbiting Earth)
 **Enactment (gated by RSG).**
 A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderRole:AssemblyLine_2025` and an **Active** `StateAssertion` covers the timestamp. If the torch‑health checklist fails, RSG transitions `Active → Suspended`; further seams are blocked by **RE‑5**.
 
-
 #### A.2.1:5.2 - Software & cloud operations (continuous delivery / SRE)
 
 **Roles (families).**
@@ -391,7 +384,6 @@ A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderR
 
 * A deployment `Work` is valid only with `performedBy: sCG‑Spec_ci_bot#DeployerRole:CD_Pipeline_v7` **and** `Active` state asserted for the moment of start.
 * Declaring `Incident SEV‑1` is a **SpeechAct Work** performed by `Alex#IncidentCommanderRole:SRE_Prod` in **Engaged** state; it changes deontic conditions (e.g., elevates `RollbackAuthority`).
-
 
 #### A.2.1:5.3 - Knowledge governance (standards & requirements)
 
@@ -599,5 +591,4 @@ If a team claims to “use A.2.1”, a random audit sample should pass all of th
 * **Service & Deontics (Part D/E)** — obligations and acceptance evaluated against role‑gated Work.
 
 ### A.2.1:End
-
 

@@ -6,12 +6,12 @@ section_id: "A.2.6:14"
 section_title: "Governance Hooks & Audits"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__015_governance-hooks-audits.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:14 — Governance Hooks & Audits"
-line_start: 4683
-line_end: 4716
+line_start: 4612
+line_end: 4644
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -58,5 +58,4 @@ Contexts that adopt USM SHALL record, per scope‑aware decision:
 * **Silent widening.** Require ΔG+ review; flag any scope increase without new support/Bridge.
 * **Opaque slices.** Disallow “domain” placeholders; enforce addressable selectors.
 * **Time drift.** Require `Γ_time` policies (rolling windows) for time‑sensitive scopes.
-
 

@@ -1,0 +1,177 @@
+---
+chunk_kind: "child"
+pattern_id: "C.31.RSA"
+pattern_title: "Reusable Structure Accounting"
+section_id: "C.31.RSA:4"
+section_title: "Solution"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.31.RSA/C.31.RSA__005_solution.md"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+heading_path:
+  - "C.31.RSA — Reusable Structure Accounting"
+  - "C.31.RSA:4 — Solution"
+line_start: 54319
+line_end: 54456
+dependencies:
+  - "A.10"
+  - "A.19"
+  - "A.6.M"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.27"
+  - "C.28"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.31"
+  - "G.5"
+  - "G.6"
+keywords:
+  - "accounting basis"
+  - "bespoke residue"
+  - "refactoring opportunity"
+  - "report-only share"
+  - "reusable share"
+  - "reusable-structure accounting"
+  - "source return"
+---
+
+### C.31.RSA:4 - Solution
+
+C.31.RSA governs reusable-structure accounting as a typed description over declared structures and structural aspects. It starts with `ReusableStructureTriage`; it opens `ReusableStructureAccountingDescription@Context` only when the accounting basis is declared.
+
+#### C.31.RSA:4.1 - Typed accounting description
+
+```text
+ReusableStructureAccountingDescription@Context:
+  accountingBasisRef:
+  structureRefs: FinSet(U.StructureRef)
+  structuralAspectRefs: FinSet(StructuralAspectDescriptionRef)
+  reusableStructureSlots:
+  bespokeResidueSlots:
+  hiddenOrResidualUncertaintySlots:
+  slotBasisRefs?:
+  admissibleAggregationRuleRef?:
+  reportOnlyShares?:
+  sourceReturnCondition?:
+  admissibleUse:
+  nonAdmissibleUse:
+```
+
+`accountingBasisRef` states the accounting rule being used: description length, dependency edges, work items, evidence package count, cost share, template instances, interface variants, regulatory case sections, or another declared accounting rule. The accounting rule is not implied by the word "reuse".
+
+Well-formedness: every slot is over declared `structureRefs`, declared `structuralAspectRefs`, and one declared accounting basis. Slot labels are explanatory; they are not root kinds and are not automatically commensurable.
+
+#### C.31.RSA:4.2 - Explanatory slot labels
+
+A local accounting description may use explanatory slot labels such as:
+
+```text
+S_function
+S_flow
+S_control
+S_type
+S_interface
+S_scale
+S_work
+S_evidence
+S_changePolicy
+S_unique
+S_crossScopeUnique
+H_residual
+```
+
+These labels are local slots, not FPF ontology. `H_residual` is residual uncertainty or unmodelled variance under the accounting basis. It is not obviously the same unit as interface grammar, work template, evidence package, or regulatory argument.
+
+#### C.31.RSA:4.3 - Report-only shares
+
+```text
+ReusableStructureShare:
+  report-only share over declared structureRefs and structuralAspectRefs
+  under accountingBasisRef; not an architecture amount
+
+BespokeResidueShare:
+  report-only share under accountingBasisRef
+
+HiddenOrResidualShare:
+  report-only uncertainty or residue interpretation under accountingBasisRef
+```
+
+Numeric shares require a declared `accountingBasisRef`, declared scale or unitless-value rule, unit when relevant, polarity when relevant, admissible comparability relation, and exact comparator admission such as `CG-Spec`, `ComparatorSetRef`, or an exact neighboring comparator reference before they can guide comparison, ranking, selection, gate use, or decision use. Without that, the share remains local report-only guidance.
+
+#### C.31.RSA:4.4 - Pseudo-sum boundary
+
+An explanatory decomposition may be useful:
+
+```text
+total-described-structure under accountingBasisRef:
+  reusable slots
+  bespoke residue slots
+  hidden or residual uncertainty slots
+```
+
+This is not `ReusableStructureEquation`, not an architecture amount, and not a hidden `StructureAmount` kind. It is a readable decomposition of one declared accounting description. If the slots do not share a declared accounting basis and comparability rule, they cannot be summed or ranked.
+
+#### C.31.RSA:4.5 - Structure-relocation moves
+
+RSA is useful because it points to relocation and repair moves:
+
+| Situation | Repair direction |
+| --- | --- |
+| Repeated delivery work carries structure that is not explicit. | Move repeated structure into `MethodDescription`, work structure, or reusable work relation. |
+| Repeated interface exceptions are handled one by one. | Add or revise interface grammar, variability slots, or substitution policy under A.6.M. |
+| An undocumented dependency crosses module or view boundaries. | Expose the dependency, revise boundary, add correspondence, or add source-return condition. |
+| Evidence is recreated for each instance. | Move repeatable evidence into an evidence package, assurance argument record, or validity-context note. |
+| Regulatory or safety-case residue remains one-off. | Split reusable argument structure from context-specific exception; apply B.3 or G.6 for assurance or safety-case reliance. |
+| Compression hides needed distinctions. | Reduce compression, add source-return condition, or apply C.29 for lens-governed compression or reduction claims. |
+| Bespoke residue protects necessary local variation. | Keep it as a bounded exception with admissible use and non-admissible use. |
+
+High reusable structure is not always good. The architecture question is where structure lives and what action follows: reusable templates, interfaces, flows, control relations, work methods, evidence packages, or unique exception networks and hidden coupling.
+
+After a relocation or reuse move, ask what got worse:
+
+| Reuse move may improve | Check what may worsen |
+| --- | --- |
+| Template reuse | Loss of needed variation, hidden local exception, or stale source-return condition. |
+| Interface grammar | Interface relation cost, conformance work, change cost, migration cost, or substitution constraint. |
+| Work-method reuse | Context mismatch, extra handoff cost, slower local response, or hidden work exception. |
+| Evidence-package reuse | Evidence decay, validity-window mismatch, missing context witness, or assurance overread. |
+| Assurance-argument reuse | Weakest-link dependency, certification-window mismatch, or unexamined regulatory exception. |
+| Compression or lens-backed accounting | Lost source distinction, observer-budget dependency, or C.29 stop-condition breach. |
+| Bespoke-residue reduction | Reduced resilience, local-fit loss, or new hidden coupling. |
+
+The result is not "more reuse is better." A conforming RSA move states the reusable locus, the bespoke or residual locus, the accounting basis, the first repair direction, and the first cost, loss, or source-return condition that can make the move inadmissible.
+
+#### C.31.RSA:4.6 - Activation boundary
+
+Use only `ReusableStructureTriage` when:
+
+- there is one local case;
+- no comparison, publication, assurance, decision, or scale preference is live;
+- the practitioner only needs a repair direction;
+- no numeric share is being relied on.
+
+Use `ReusableStructureAccountingDescription@Context` when:
+
+- the accounting basis is declared;
+- a report-only share is useful;
+- structure refs or structural aspects need to be compared inside one declared `accountingBasisRef`;
+- source-return conditions matter;
+- reusable structure or bespoke residue is used for a decision, publication, assurance, scale, or cross-case report.
+
+#### C.31.RSA:4.7 - Reopen and lowering conditions
+
+An RSA result remains valid only inside its declared accounting basis, structure edition, source-return condition, and comparator admission. Reopen the triage or lower the admissible use when any of the following changes:
+
+- a hidden source distinction becomes action-relevant;
+- the accounting basis changes or proves heterogeneous;
+- the selected structure, structural aspect, interface grammar, evidence package, work method, or assurance argument changes edition;
+- a comparator set, CG-Spec, gate, or decision use is added after a report-only share was recorded;
+- downstream reliance uses the RSA result for evidence, assurance, gate, causal, scale, or decision work that the RSA note did not admit;
+- evidence validity, assurance window, or source-return condition decays;
+- a local bounded exception becomes repeated enough to require refactoring;
+- a reuse move improves one locus while worsening interface cost, variation loss, evidence decay, assurance work, source-return cost, or hidden bespoke residue.
+
+Lower the result to report-only when comparison, ranking, selection, gate use, or decision use lacks exact comparator admission. Lower it to quote-only or source cue when the accounting basis cannot be recovered. Mark it blocked when the reusable locus and bespoke-residue locus cannot be separated.
+

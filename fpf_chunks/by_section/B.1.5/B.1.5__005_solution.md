@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 29453
-line_end: 29573
+line_start: 29613
+line_end: 29729
 dependencies:
   - "A.12"
   - "A.14"
@@ -44,7 +44,6 @@ keywords:
 > **Separation reminder.**
 > Method composition ≠ resource spending. Keep **resource budgets, yields, dissipation** in **Γ\_work**; **Γ\_method** only checks and composes **order and capability**.
 
-
 #### B.1.5:4.2 - The operator family (two companion flavours)
 
 To respect the DesignRunTag split, **Γ\_method** is presented as two companion operators sharing the same intent but acting at different `DesignRunTag` positions (spec vs run).
@@ -76,7 +75,6 @@ To respect the DesignRunTag split, **Γ\_method** is presented as two companion 
 **Relationship to Γ\_ctx.**
 Both flavours **reuse Γ\_ctx** invariants for order (non‑commutative composition with **NC‑1..3** reproducibility). **Γ\_method** specialises the **typing and boundary rules** for methods and introduces **MIC**.
 
-
 #### B.1.5:4.3 - Core aggregation rules (design‑time composition)
 
 When computing **Γ\_method^plan(D\_spec, σ)**:
@@ -99,7 +97,6 @@ When computing **Γ\_method^plan(D\_spec, σ)**:
 
 5. **No costs here.**
    If a step lists resources/yields, **do not** aggregate them here. Instead, add a pointer to the corresponding **Γ\_work** composition to be executed with the same order/joins at run‑time.
-
 
 #### B.1.5:4.4 - Core aggregation rules (run‑time enactment)
 
@@ -129,7 +126,6 @@ When executing **Γ\_method^run(M\_spec, RA, Fill)**:
 > * **COMM/LOC:** replaced by Γ\_ctx **NC‑1..3** (determinism given `σ`, context hash of `σ`, and partial‑order soundness).
 > * **WLNK:** quality/throughput of the composite is bounded by the **critical path** steps (identified for later B.3 assurance).
 > * **MONO:** strengthening a step (better pre/post, stronger type, improved adapter) **cannot** make the composite worse.
-
 
 #### B.1.5:4.5 - Didactic contrasts (to prevent common confusions)
 

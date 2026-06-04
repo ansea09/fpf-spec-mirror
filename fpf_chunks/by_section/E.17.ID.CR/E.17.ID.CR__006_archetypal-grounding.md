@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 63365
-line_end: 63601
+line_start: 64241
+line_end: 64476
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -45,20 +45,20 @@ They show different admissible outcomes for the same governing pattern: some cas
 
 #### E.17.ID.CR:5.1 - Tell
 
-`ComparativeReading` names the bounded middle band where a team needs to prepare one explicit comparative reading over already anchored source epistemes or source publications without yet opening prompt-selection work, action-selection work, ontology-facing reframing, gate, approval, rollout, release, policy, assurance, adjudication, or source-reliance use.
-The governed object is the comparative review unit.
-That review unit must stay modest enough that a reviewer can still see the same `DescribedEntityRef`, the declared comparison basis, the unsupported downstream claim or effect, and the boundary trigger that would end interpretation.
+`ComparativeReading` names the bounded middle band where a team needs to prepare one explicit comparative reading over source epistemes or source publications with already declared references without yet opening prompt-selection work, action-selection work, ontology-facing reframing, gate, approval, rollout, release, policy, assurance, adjudication, or source-reliance use.
+The comparison unit is the bounded comparative review unit.
+That review unit must stay modest enough that a reviewer can still see the same `EntityOfConcernRef`, the declared comparison basis, the unsupported downstream claim or effect, and the boundary trigger that would end interpretation.
 
 #### E.17.ID.CR:5.2 - Show (System)
 
 **Source slice.** Two pinned operating notes describe the same service episode from different operational responsibilities.
-One note is anchored in the maintenance log, the other in the continuity dashboard for the same declared episode and the same `DescribedEntityRef`.
+One note has its source reference in the maintenance log, the other in the continuity dashboard for the same declared episode and the same `EntityOfConcernRef`.
 
 **Comparative review unit.** `Under the declared comparison basis, the maintenance note foregrounds operator-induced variance, while the continuity note foregrounds buffer-sensitive drift; each view exposes a blind spot in the other without granting direct substitution.`
 
 **Why this stays here.**
-- source relation and source anchors are explicit;
-- the same `DescribedEntityRef` remains preserved;
+- source relation and source references are explicit;
+- the same `EntityOfConcernRef` remains preserved;
 - one bounded comparative lift is added;
 - no substitution licence is added;
 - no rival action-selection question is yet being asked.
@@ -130,9 +130,9 @@ One note foregrounds coupling and rollback pressure; the other foregrounds deliv
 **Working-boundary reading.** This is the ordinary stay-here case: one honest local repair and one publication-unit stability check would already leave the review unit stable enough that the bounded comparative review move itself stays primary.
 
 Why it stays here:
-- the same planned release remains the `DescribedEntityRef`;
+- the same planned release remains the `EntityOfConcernRef`;
 - one bounded comparative lift is made explicit for a declared review task;
-- the unit supports design discussion without quietly becoming action selection or approval.
+- the unit helps design discussion without quietly becoming action selection or approval.
 
 ##### E.17.ID.CR:5.4.6 - Compliance and release-review comparison case
 
@@ -144,7 +144,7 @@ Why it stays here:
 
 Why it stays here:
 - the comparison basis is explicit and bounded to one review task;
-- the source anchors remain visible and the same release candidate stays in view;
+- the source references remain visible and the same release candidate stays in view;
 - the review unit helps an engineer-manager see a review asymmetry without laundering gate authority.
 
 ##### E.17.ID.CR:5.4.6.a - Research-review comparison case
@@ -152,12 +152,12 @@ Why it stays here:
 **Source slice.** Two already available research syntheses discuss the same measured phenomenon and the same declared evidence slice.
 One synthesis foregrounds variance decomposition limits more; the other foregrounds protocol repeatability more.
 
-**Comparative review unit.** `For method review, the first synthesis foregrounds uncertainty-handling limits more than the second, while the second foregrounds repeatability support more than the first; this asymmetry helps frame the discussion, but it is not yet a method choice or a claim that one synthesis is globally better.`
+**Comparative review unit.** `For method review, the first synthesis foregrounds uncertainty-handling limits more than the second, while the second foregrounds repeatability evidence more than the first; this asymmetry helps frame the discussion, but it is not yet a method choice or a claim that one synthesis is globally better.`
 
 Why it stays here:
-- the same measured phenomenon remains the `DescribedEntityRef`;
+- the same measured phenomenon remains the `EntityOfConcernRef`;
 - the comparative lift is bounded to one review task;
-- the unit supports research discussion without quietly becoming action selection or ontological reframing.
+- the unit helps research discussion without quietly becoming action selection or ontological reframing.
 
 ##### E.17.ID.CR:5.4.6.b - Program and cultural-review comparison case
 
@@ -167,9 +167,9 @@ One foregrounds continuity of community engagement more; the other foregrounds s
 **Comparative review unit.** `For programme review, the first brief foregrounds participation continuity more than the second, while the second foregrounds short-term visibility more than the first; this comparison helps frame the discussion, but it is not yet a funding, curation, or programme-direction decision.`
 
 Why it stays here:
-- the same initiative remains the `DescribedEntityRef`;
+- the same initiative remains the `EntityOfConcernRef`;
 - the comparison basis is explicit for one declared review task;
-- the unit supports programme discussion without laundering decision authority.
+- the unit helps programme discussion without laundering decision authority.
 
 ##### E.17.ID.CR:5.4.6.c - Exogenous-change stop-and-reopen case
 
@@ -192,19 +192,19 @@ Mid-review, an external incident bulletin arrives and changes the live rollback 
 **Comparative review unit.** `For today's review, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal rollback worksheet foregrounds rollback evidence more than protocol conformance; this short note is only a review aid over the same release candidate, and the full source episteme or source publication set remains primary for any bridge, release, coarsening, or work or reliance reading.`
 
 Why it still stays here:
-- the governed object is still one bounded comparative review unit, not a replacement for the source episteme or source publication set;
+- the comparison unit is still one bounded comparative review unit, not a replacement for the source episteme or source publication set;
 - the note remains source-pinned through the already available source episteme or source publication set and openly forbids bridge, gate, or work or reliance use that it does not carry;
 - any attempt to treat the short note as enough for equivalence, release approval, execution claim or effect, or a reduced-use source substitute requires source-bearing return, `A.6.3.CSC Controlled Semantic Coarsening`, or another neighboring pattern.
 
 ##### E.17.ID.CR:5.4.6.e - Functional versus constructive-description comparison
 
-**Source slice.** A functional-description publication and a constructive publication or product-description publication describe the same pumping skid. The functional description foregrounds flow relation and method-selection support; the constructive description foregrounds module composition and installed equipment.
+**Source slice.** A functional-description publication and a constructive publication or product-description publication describe the same pumping skid. The functional description foregrounds flow relation and method-selection relation; the constructive description foregrounds module composition and installed equipment.
 
 **Comparative review unit.** `For design review, the functional description foregrounds what the skid is supposed to do in the declared flow relation, while the constructive description foregrounds what parts are present. This contrast helps the engineer keep function and construction separate, but it is not a module-equivalence claim, a performed-work record, or a gate decision.`
 
 Why it stays here:
-- both source publications remain anchored and inspectable;
-- the same pumping skid remains the `DescribedEntityRef`;
+- both source publications keep source references and remain inspectable;
+- the same pumping skid remains the `EntityOfConcernRef`;
 - the bounded comparative lift is the function-versus-construction contrast for one review task;
 - module equivalence, work occurrence, evidence, and gate claims remain non-admissible downstream uses.
 
@@ -221,7 +221,6 @@ Why it stays here:
 - if the team chooses a method or prepares a work plan, record the selected method as project `U.Method`, record the work plan as `U.WorkPlan` under `A.15`, and use `A.15.1` only when a dated `U.Work` occurrence is live.
 
 **Nearest neighboring-work examples.** The next four cases are the nearest worked boundaries for prompt pressure, same-entity viewing, ontology shift, and gate or authority misuse. Use them when the near-top negative-boundary rows fit and you need one worked cue for keeping the comparison unit from carrying outside work.
-
 
 ##### E.17.ID.CR:5.4.7 - Upper-boundary prompt-bearing case
 
@@ -246,13 +245,13 @@ Why it does not enter interpretation:
 **Ontology-pressuring review unit.** `The older maintenance note and the new field-observation note are best read as two observational cuts over the same latent failure mode, so we should recast both under a new operational kind and treat the source labels as legacy labels.`
 
 Why `ComparativeReading` no longer governs:
-- the case is now asking for a same-referent reading with continuity-witness demand or new-intension reading;
+- the case is now asking for a same-referent interpretation with continuity-witness demand or retargeted-EntityOfConcernRef interpretation;
 - continuity witnesses would now be needed;
-- bounded comparative reading is no longer enough, so the case applies `OntologicalReframing`.
+- bounded comparative interpretation is no longer enough, so the case applies `OntologicalReframing`.
 
 ##### E.17.ID.CR:5.4.10 - Authority and gate misuse anti-case
 
-**Authority-pressuring review unit.** `Because this comparison consistently foregrounds the safer operating posture, reviewers may use the review unit directly as a release gate and do not need the underlying source episteme or source publication during triage.`
+**Authority-pressuring review unit.** `Because this comparison consistently foregrounds the safer operating condition, reviewers may use the review unit directly as a release gate and do not need the underlying source episteme or source publication during triage.`
 
 Why `ComparativeReading` no longer governs:
 - the review unit is being over-read as gate-facing authority;
@@ -264,14 +263,14 @@ Why `ComparativeReading` no longer governs:
 **Invalid review unit.** `These two views describe the same entity for current operations, so the team can use whichever wording is easier.`
 
 Why it is invalid here:
-- no source anchors are visible;
+- no source references are visible;
 - bridge-mediated comparison is being implied without explicit bridge declaration;
 - unsupported substitution and authority claims are being smuggled in through soft phrasing.
 
 **Minimal repair.** `Under bridge card BC-12 and the stated comparison basis, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme or source publication set remains primary.`
 
 What the repair does:
-- restores the source and bridge anchors;
+- restores the source references and bridgeCardRef;
 - narrows the claim back to bounded comparative reading;
 - reasserts the unsupported downstream claim or effect.
 

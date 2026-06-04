@@ -6,12 +6,12 @@ section_id: "G.12:11"
 section_title: "Worked micro‑examples (informative; SoTA‑oriented)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__012_worked-micro-examples-informative-sota-oriented.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:11 — Worked micro‑examples (informative; SoTA‑oriented)"
-line_start: 81530
-line_end: 81545
+line_start: 82116
+line_end: 82131
 dependencies:
   - "A.19"
   - "C.18"

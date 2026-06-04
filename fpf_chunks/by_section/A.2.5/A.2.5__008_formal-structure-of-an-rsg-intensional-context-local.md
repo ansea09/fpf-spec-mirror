@@ -6,12 +6,12 @@ section_id: "A.2.5:7"
 section_title: "Formal structure of an RSG (intensional, context‑local)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__008_formal-structure-of-an-rsg-intensional-context-local.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:7 — Formal structure of an RSG (intensional, context‑local)"
-line_start: 3483
-line_end: 3503
+line_start: 3441
+line_end: 3460
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -48,5 +48,4 @@ keywords:
 1. **RSG‑N1 (Minimal set).** `|S| ≥ 1`. At least **one** state must exist; if **no** state is enactable, the role is **status‑only** in this Context.
 2. **RSG‑N2 (Disjoint labels).** State names are **unique** within `(Role, Context)`; reusing global labels (e.g., “Ready”) across contexts is allowed **only** via Bridges (F.9).
 3. **RSG‑N3 (Human scale).** For didactics, **≤ 7 states** is the default target; exceeding it requires a one‑sentence rationale (“distinct gate we will actually use”).
-
 

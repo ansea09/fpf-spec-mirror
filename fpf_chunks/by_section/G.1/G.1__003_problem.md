@@ -6,12 +6,12 @@ section_id: "G.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:2 — Problem"
-line_start: 76153
-line_end: 76163
+line_start: 76749
+line_end: 76759
 dependencies:
   - "A.10"
   - "A.15.3"

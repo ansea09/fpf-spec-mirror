@@ -6,12 +6,12 @@ section_id: "F.13:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:2 — Problem frame"
-line_start: 72905
-line_end: 72914
+line_start: 73572
+line_end: 73580
 dependencies:
   - "F.1"
   - "F.10"
@@ -37,5 +37,4 @@ Unification efforts rot when names drift faster than senses or, worse, when sens
 * **Alias bloat.** Synonyms accumulate without discipline; reading becomes guesswork.
 * **Cross‑context aliasing.** A single alias is made to stand for different Contexts (“global slang”), defeating locality.
 * **Retroactive edits.** Old texts are silently rewritten to today’s names, corrupting provenance.
-
 

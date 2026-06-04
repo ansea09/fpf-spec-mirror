@@ -6,12 +6,12 @@ section_id: "B.2.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:10 — Rationale"
-line_start: 30806
-line_end: 30811
+line_start: 30934
+line_end: 30939
 dependencies:
   - "A.1"
   - "A.12"
@@ -31,7 +31,7 @@ keywords:
 
 ### B.2.5:10 - Rationale
 
-Supervisor-subholon feedback loops are a recurring architecture form. The form is most useful when it is separated from structural mereology and from proof. That separation preserves the engineering insight from layered control architecture while keeping FPF's I/D/S and role/transformer distinctions intact.
+Supervisor-subholon feedback loops are a recurring architecture form. The form is most useful when it is separated from structural mereology and from proof. That separation preserves the engineering insight from layered control architecture while keeping FPF's EntityOfConcern and Description-episteme boundary and specification use and role/transformer distinctions intact.
 
-The same separation also keeps the epistemic case precise. Scientific theories, documents, models, and other epistemes can participate in feedback loops as reviewed or revised objects and as publications or source/reliance objects, but acting systems and practices carry the transformer role. This lets the same pattern cover systems and epistemes without agentive overread.
+The same separation also keeps the epistemic case precise. Scientific theories, documents, models, and other epistemes can participate in feedback loops as reviewed or revised objects and as publications or source or reliance objects, but acting systems and practices carry the transformer role. This lets the same pattern cover systems and epistemes without agentive overread.
 

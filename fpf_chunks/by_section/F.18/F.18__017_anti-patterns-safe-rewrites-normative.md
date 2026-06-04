@@ -6,12 +6,12 @@ section_id: "F.18:16"
 section_title: "Anti‑patterns & safe rewrites (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__017_anti-patterns-safe-rewrites-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:16 — Anti‑patterns & safe rewrites (normative)"
-line_start: 75091
-line_end: 75124
+line_start: 75689
+line_end: 75720
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -38,8 +38,6 @@ keywords:
 | A5 | “Contextless glossary.”                                 | Violates local‑first; readers re‑globalise.                     | “Publish a **UTS** per thread; each row lists **Contexts** (Contexts+editions).” (F.17)                                |
 | A6 | “We’ll fix synonyms later.”                             | Synonym sprawl grows costs.                                     | “Apply **E.10** rules now: one Tech, one Plain; retire extras via **F.13**.”                                        |
 | A7 | “One mega‑row for everything service‑like.”             | Bundles distinct concepts; harms teachability.                  | “One **Concept‑Set per idea**; group with a **Block Plan** for pedagogy.” (F.17 §7)                                 |
-
-
 
 #### F.18:16.1 - Canonical semantic unpacking for “contract” language (normative; used across FPF)
 

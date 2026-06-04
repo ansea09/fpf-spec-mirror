@@ -6,12 +6,12 @@ section_id: "C.17:5"
 section_title: "The Core Characteristics (kernel nucleus)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__006_the-core-characteristics-kernel-nucleus.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:5 — The Core Characteristics (kernel nucleus)"
-line_start: 41790
-line_end: 41902
+line_start: 41712
+line_end: 41821
 dependencies:
   - "A.1"
   - "A.10"
@@ -134,10 +134,8 @@ Each characteristic is specified per **MM‑CHR (C.16)** with: **name**, **inten
 * MinInterFamilyDistance (polarity ↑) — min distance between selected families in DescriptorMap for that declared retained set, portfolio, or triad; unit: per DistanceDef; window: declared.
 * AliasRisk (polarity ↓) — collinearity/near‑duplicate risk indicator for contextual signatures; unit: score (0–1) with policy id.
 
-
 **Lexical special case (F.18 naming).**
 For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be computed over head-term families, not over raw strings**. Variants that share the same lexical head (e.g., “Reference plane”, “Plane of reference”, “Planar reference”) **MUST** be treated as one family for coverage and distance; only candidates with distinct heads contribute to lexical Diversity_P. This aligns lexical use of Diversity_P with `FamilyCoverage` / `AliasRisk` and prevents inflating diversity by near-synonyms of a single head.
-
 
 #### C.17:5.6 - `AttributionIntegrity` — “Did we credit sources and licences correctly?”
 
@@ -160,5 +158,4 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 * **Template.** Sum cost categories over Work that produced the outcome.
 * **Evidence.** Time/resource logs; BOM deltas.
 * **Didactic cue.** Use **`CreativityPerCost := f(Novelty@context, ValueGain, Surprise)/EffortCost`** for operations planning, not for excellence awards.
-
 

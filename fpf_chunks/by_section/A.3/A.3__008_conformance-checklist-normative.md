@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 5698
-line_end: 5735
+line_start: 5617
+line_end: 5653
 dependencies:
   - "A.15"
   - "A.2"
@@ -63,5 +63,4 @@ Conflicts among roles (including `TransformerRole`) are only **within the same b
 
 **CC‑A3‑10 - Γ‑compatibility.**
 Descriptions MUST be sufficient for the relevant Γ‑aggregations to run: Γ\_method for recipe composition, Γ\_work for resource deltas, Γ\_sys for boundary integration, Γ\_time for ordering. Each Γ flavour declares its A.14 hooks (Portion/Phase) and inherits B‑invariants.
-
 

@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:12 — Relations"
-line_start: 16999
-line_end: 17038
+line_start: 17149
+line_end: 17188
 dependencies:
   - "A.12"
   - "A.3"
@@ -54,7 +54,7 @@ keywords:
   * A.6.0 — `U.Signature`
   * A.6.2 — `U.EffectFreeEpistemicMorphing` (constructor ops are EFEM species)
   * A.12 — Transformer role (enactment is by Systems, not epistemes)
-  * C.2.1 — Episteme slots (`DescribedEntitySlot`, `ViewpointSlot`, `ViewSlot`) and naming deconfliction
+  * C.2.1 — Episteme slots (`EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot`) and naming deconfliction
   * (optional) E.18 — E.TGA, if the constructor flow is represented as a transduction graph fragment
   * E.10 / LEX discipline — if the Context uses Plain twins (“SoI”) or shorthands, they must be registered and kept off normative surfaces
   * A.6.3 — `U.EpistemicViewing`

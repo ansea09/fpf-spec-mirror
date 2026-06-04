@@ -6,12 +6,12 @@ section_id: "G.8:4"
 section_title: "Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__005_solution-publish-sos-log-bundles-and-maturity-cards-as-uts-citable-kit.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:4 — Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
-line_start: 79413
-line_end: 79607
+line_start: 80003
+line_end: 80197
 dependencies:
   - "A.10"
   - "A.21"
@@ -141,7 +141,7 @@ SoS-LOGBundle@Context :=
 
   // Scope + spec pins (from GCorePinSetId.PartG.AuthoringMinimal)
   CG-FrameContext,
-  describedEntity := ⟨GroundingHolon, ReferencePlane⟩,
+  entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩,
   CNSpecRef.edition,
   CGSpecRef.edition,
 

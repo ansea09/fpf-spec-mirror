@@ -6,12 +6,12 @@ section_id: "C.3.1:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_context.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:2 — Context"
-line_start: 37617
-line_end: 37621
+line_start: 37646
+line_end: 37649
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -27,5 +27,4 @@ keywords:
 ### C.3.1:2 - Context
 
 across Contexts, “type” means OWL class, SHACL shape, code type, BORO category, etc. A **neutral, minimal** object is needed to name *the kind of entities* a claim quantifies over **without** importing a full type system or altering USM. **`U.Kind`** fills that role; **ordering** between kinds captures “is‑a/refines” relationships a Context relies on.
-
 

@@ -6,12 +6,12 @@ section_id: "C.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__010_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:9 — Rationale"
-line_start: 33303
-line_end: 33307
+line_start: 33412
+line_end: 33415
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,5 +34,4 @@ keywords:
 ### C.2:9 - Rationale
 
 KD‑CAL turns the coarse legacy semiotic picture into **holonic composition** over `U.EpistemeSlotGraph`, where formal structure and claim scope (**F,G**), evidence (**R**), and cross‑mapping congruence (**CL**) are visible and composable. The explicit C.2.1 slot graph prevents carrier confusion; the characteristics provide a **manager‑readable** yet **formalisation‑ready** scale (with **G** grounded in **scope/envelope**, not part‑count); the CL scale replaces overloaded “alignment” with a typed sameness relation.
-
 

@@ -6,12 +6,12 @@ section_id: "E.23:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__009_common-anti-patterns-and-repairs.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:8 — Common anti-patterns and repairs"
-line_start: 68069
-line_end: 68087
+line_start: 68937
+line_end: 68955
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -34,7 +34,7 @@ keywords:
 |---|---|---|
 | **Loop invents quality.** | The method says the object under improvement improved without an object-under-improvement evaluation. | Name an existing object-under-improvement evaluation, construct or repair one through `A.19.ECS`, or stop before claiming quality movement. |
 | **Checklist closed, quality improved.** | Row count replaces coordinate movement. | Re-read the changed object version through the object-under-improvement evaluation. |
-| **Agentic retry as method law.** | A broad agent repeats attempts without stop or switch conditions. | Add object under improvement, evaluation, expected movement, cost and risk posture, protected trade-offs, and stop or switch conditions. |
+| **Agentic retry as method law.** | A broad agent repeats attempts without stop or switch conditions. | Add object under improvement, evaluation, expected movement, cost and risk account, protected trade-offs, and stop or switch conditions. |
 | **Full loop for a small floor check.** | A cheap readiness question becomes expensive ceremony. | Use `E.22` short-form `floorRead` and stop if the object-under-improvement evaluation gives admissible stop. |
 | **Specialized-cycle cargo cult.** | PDCA or PDSA, POOGI, OODA, or another named cycle is used because it is familiar. | State the characteristic-space fit; otherwise select another method family or use a direct repair. |
 | **Ralph name as authority.** | The loop is treated as good because it resembles a current tool technique. | Use the selected operation-family semantics only when object-under-improvement evaluation payoff and `C.19.1` cost and risk comparison justify them. |

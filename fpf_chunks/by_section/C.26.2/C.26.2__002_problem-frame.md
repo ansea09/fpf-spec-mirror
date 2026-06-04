@@ -6,12 +6,12 @@ section_id: "C.26.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:1 — Problem frame"
-line_start: 46476
-line_end: 46496
+line_start: 46372
+line_end: 46392
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,8 +44,8 @@ The pattern supports only a minimal evidence-bound claim. It lets an author say 
 | Working surface | Value |
 | --- | --- |
 | Primary reader | Architect, incident lead, organizational analyst, or manager judging whether coordinated work, behavior, or trace patterns evidence a minimal collective-state reading. |
-| Governed object | An evidence-bound state reading over a declared collective `U.System`. |
-| Governed move | Infer only the minimal carrier-bound and window-bound state claim, name rivals, and state export and probe limits. |
+| Evidence-bound state reading | An evidence-bound state reading over a declared collective `U.System`. |
+| Minimal state-reading move | Infer only the minimal carrier-bound and window-bound state claim, name rivals, and state export and probe limits. |
 | Outside work | Group-mind ontology, survey-as-state, timeless culture claims, ordinary routine claims, and formal measurement not governed by `C.16`. |
 | What changes in practice | The team can use coordinated work, behavior, or trace patterns as evidence without pretending one report faithfully exports the whole state. |
 

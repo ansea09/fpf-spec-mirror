@@ -6,12 +6,12 @@ section_id: "E.22:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality-Read Question Framing"
   - "E.22:7 — Conformance checklist"
-line_start: 67671
-line_end: 67697
+line_start: 68540
+line_end: 68566
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -47,7 +47,7 @@ keywords:
 | `CC-E22-13` | A quality-read frame SHALL be repaired before the object-under-improvement evaluation runs when it lacks object version, object-under-improvement evaluation, purpose or default, required protected trade-offs, required classification rule, or non-use boundary for an overread-prone result. | Makes frame sufficiency and lowering conditions testable. |
 | `CC-E22-14` | A quality-read frame SHALL keep object kind and object-under-improvement evaluation distinct. Pattern reads use `E.21`; `DRR` reads use `E.9.DA`; other objects use their declared characteristic space, quality bundle, rubric, scale set, review profile, or exact FPF evaluation pattern. | Prevents unnecessary specialization while blocking unbounded "review anything" overread. |
 | `CC-E22-15` | A quality-read frame SHALL NOT ask the reviewer to raise or lower values from popularity, adoption, prior use, absence of use, review count, reviewer praise, external-review completion, landing, release, or award-like signals. If such a signal matters, the frame SHALL require the object-under-improvement evaluation to rewrite it into object-content evidence or leave it outside the value read. | Prevents reputation medals from entering the question before the object-under-improvement evaluation runs. |
-| `CC-E22-16` | Any actionable returned quality-review finding SHALL be represented as a stable `QualityReviewFindingRow` with row id, review locus, object locus, object-under-improvement evaluation effect, expected quality movement, correction direction, closure test, disposition, and discharge evidence when applied. | Prevents narrative findings from becoming uncheckable executor work. |
+| `CC-E22-16` | Any actionable returned quality-review finding SHALL be represented as a stable `QualityReviewFindingRow` with row id, review locus, object locus, object-under-improvement evaluation effect, expected quality movement, correction direction, closure test, disposition, and discharge evidence when applied. | Prevents narrative findings from becoming uncheckable repair work. |
 | `CC-E22-17` | Actionable quality-review findings SHALL be discharged row by row. One edit MAY close several rows, but each affected row SHALL still be revisited with a separate disposition, changed or unchanged object locus, and closure-test evidence. | Catches "I handled the group" and range-closure failures. |
 | `CC-E22-18` | If a quality-read result becomes part of repeated improvement, the repeated method SHALL be governed by `E.23` rather than by extra loop doctrine inside `E.22`. | Keeps one-read question framing distinct from the quality-improvement method. |
 | `CC-E22-19` | When the object version under quality read is OEE/NQD material, the quality-read frame SHALL name the exact candidate, front, archive, shortlist, parity report, refresh report, or declared transduction result; the governing pattern that carries its semantics; the read purpose; and the non-use boundary that keeps candidate quality, archive/front semantics, selected-set publication, parity, and refresh distinct. | Lets quality reads plug into OEE/NQD without turning `E.22` into generator, selector, archive, parity, or refresh doctrine. |

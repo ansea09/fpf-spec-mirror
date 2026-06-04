@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.4.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
-line_start: 6642
-line_end: 6772
+line_start: 6525
+line_end: 6651
 dependencies:
   - "B.4"
 keywords:
@@ -54,7 +54,6 @@ unanticipated load.  FPF therefore requires a temporal framework that:
 | **Prediction vs Evidence** | Plan with intended specs ↔ respond to real telemetry. |
 | **Parsimony vs Expressiveness** | Keep the model lean ↔ respect the full state and evolution complexity. |
 
-
 ### A.4:4 - Solution - Temporal Duality Model
 
 FPF assigns every holon state to one—and only one—of two **temporal
@@ -87,7 +86,6 @@ executes a **measurement method** whose *output* is an epistemic holon
 containing observations.  Thus the traditional “External Observer Pattern” collapses into
 the universal external Transformer pattern.
 
-
 ### A.4:5 - Archetypal Grounding
 
 | Phase                 | Pump‑v2 (`U.System`)                                                                         | Proof‑v2 (`U.Episteme`)                                                                 |
@@ -109,7 +107,6 @@ the universal external Transformer pattern.
 | **CC‑A.4.4** | `Tᴰ ∩ Tᴿ = ∅` and the concatenated intervals **MUST** equal the holon’s worldline. | Guards against illicit overlap. |
 | **CC‑A.4.5** | Each new design version **MUST** reference (`refinesVersion`) exactly one predecessor or declare `firstVersion = true`. | Enforces monotonic lineage for auditability. |
 
-
 ### A.4:7 - Consequences
 
 | Benefits | Trade‑offs / Mitigations |
@@ -117,7 +114,6 @@ the universal external Transformer pattern.
 | **Audit‑Ready engineering workflow** – Every state and change is explicitly typed, timed, and causally linked to a physical system/Tramsformer. | Additional metadata tagging; mitigated by templates in Authoring Guide (E 8). |
 | **Unified View of Build & Measure** – Observation, test, simulation, maintenance, and fabrication all share one mechanism. | Requires modelers to think in terms of Transformers even for “passive” sensing; mitigated by role libraries (`transformerRole`, `CalibratorRole`, etc.). |
 | **Foundation for Learning Loops** – Enables higher patterns (e.g., B 4 Canonical Evolution Loop, D 3 Trust Calculus) to reason over evidence accrual and version fitness, including self-modification. | None significant—temporal scoping is already needed for safety‑critical provenance. |
-
 
 ### A.4:8 - Rationale (extended)
 

@@ -6,12 +6,12 @@ section_id: "C.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:intro — Intro"
-line_start: 43193
-line_end: 43202
+line_start: 43097
+line_end: 43106
 dependencies:
   - "A.17"
   - "A.18"
@@ -41,9 +41,9 @@ keywords:
 
 ## C.21 - Field Health & Structure (Discipline-CHR)
 
-> *Purpose.* Give FPF a **typed, auditable** way to speak about the *health, maturity, and structure* of a scientific/engineering **discipline**, without collapsing into taste, anecdotes, or single-number scores. The pattern defines a **portable set of Characteristics** and guards (legality, freshness, scope) that any Context can specialize.
+> *Purpose.* Give FPF a **typed, reviewable** way to characterize the *health, maturity, and structure* of a scientific or engineering **discipline**, without collapsing into taste, anecdotes, dashboard views, audit labels, or single-number scores. The pattern defines a **portable set of Characteristics** and guards (legality, freshness, scope) that any Context can specialize.
 
-*This pattern supplies the CHR “vocabulary of health” for disciplines. C.20 composes the discipline; C.21 measures its health; Part G (G.2, G.12) harvests SoTA and operationalizes dashboards; Bridges keep meaning honest; penalties touch **R** only.*
+*This pattern supplies the CHR vocabulary of health for disciplines. C.20 composes the discipline; C.21 declares discipline-health characteristics and admissible readings; Part G may publish SoTA palettes or time-series views; Bridges keep cross-context meaning honest; penalties touch **R** only.*
 
  **Status & placement.** Part C (Kernel Extention Specifications) → Cluster C.I (Core CHRs/CALs).
   **Depends on:** **MM-CHR** (C.16), **KD-CAL** (C.2), **USM/Scope** (A.2.6), **Trust & Assurance** (B.3), **E.10 (LEX‑BUNDLE)**.

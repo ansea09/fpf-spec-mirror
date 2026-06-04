@@ -6,12 +6,12 @@ section_id: "A.22:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:5 — Archetypal Grounding"
-line_start: 28068
-line_end: 28075
+line_start: 28288
+line_end: 28295
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,10 +33,12 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -48,8 +50,8 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture-description claim"
-  - "preserved/lost structure"
+  - "architecture-description boundary"
+  - "preserved and lost structure"
   - "selected structure"
   - "source return"
   - "structural description"
@@ -61,7 +63,7 @@ keywords:
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a source, base, evidence, lens, or decision. A.22 asks first: what organization is being selected, over what declared substrate and with what source/base/evidence/lens reading, under what context, and with what loss? |
-| Show: `U.System` | In a plant, vehicle, software system, or neural-network model, the selected structure may be flow/transduction, control, module/interface, placement, information, scale, or declared logical structure. The structure record does not become the system and does not prove that the system is safe, maintainable, or ready. |
-| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output can describe selected structure or serve as a source-description or A.6.6 base-dependence relation for a selected-structure claim. The episteme, view, or publication is not the structure itself; it carries a description, view, or source/base/evidence/lens reliance relation with validation and source-return boundaries. |
+| Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a source description, base-dependence relation, evidence relation, lens relation, or decision. A.22 asks first: what organization is being selected, over what declared substrate and with what reliance relation, under what context, and with what loss? |
+| Show: `U.System` | In a plant, vehicle, software system, or neural-network model, the selected structure may be flow or transduction, control, module-interface structure, placement, information, scale, or declared logical structure. The structure record does not become the system and does not prove that the system is safe, maintainable, or ready. |
+| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output can describe selected structure or serve as a source-description or A.6.6 base-dependence relation for a selected-structure claim. The episteme, view, or publication is not the structure itself; it carries a description, view, or exact reliance relation with validation and source-return boundaries. |
 

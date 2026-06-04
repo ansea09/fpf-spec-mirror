@@ -6,12 +6,12 @@ section_id: "C.26.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:12 — Relations"
-line_start: 46460
-line_end: 46468
+line_start: 46357
+line_end: 46364
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,7 +40,6 @@ keywords:
 ---
 
 ### C.26.1:12 - Relations
-
 
 - Builds on: `C.26`, `A.6`, `A.6.B`, `A.6.P`, `F.9`, `A.15`, `C.16`, `A.10`, `B.3`, `C.25`, `A.1.1`.
 - Coordinates with: `C.26.2` when coordinated work evidences a non-exportable distributed state; `C.26.3` when the boundary interaction changes a viability envelope.

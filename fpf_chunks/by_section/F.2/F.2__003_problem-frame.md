@@ -6,12 +6,12 @@ section_id: "F.2:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:2 — Problem Frame"
-line_start: 68851
-line_end: 68861
+line_start: 69693
+line_end: 69702
 dependencies:
   - "A.11"
   - "A.7"
@@ -39,5 +39,4 @@ Even with Contexts fixed (F.1), three mistakes recur:
 3. **Premature structure.** Smuggling behaviour, deontics, or type structures into what should remain **lexical**.
 
 F.2 prevents these by **localising** meaning and **naming** strictly **inside** each Context.
-
 

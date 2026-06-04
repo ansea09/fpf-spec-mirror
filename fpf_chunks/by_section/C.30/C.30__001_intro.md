@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Architecture Description Adequacy (ADA)"
+pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
 section_id: "C.30:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.30 — Architecture Description Adequacy (ADA)"
+  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:intro — Intro"
-line_start: 51317
-line_end: 51322
+line_start: 51147
+line_end: 51152
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,10 +30,12 @@ dependencies:
   - "C.25"
   - "C.28"
   - "C.29"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -47,13 +49,14 @@ dependencies:
 keywords:
   - "ArchitectureOf@Context"
   - "architecture claim"
-  - "architecture description"
   - "architecture question card"
+  - "architecture-description boundary"
   - "artifact-as-architecture guard"
+  - "grounded architecture"
   - "selected structure"
 ---
 
-## C.30 - Architecture Description Adequacy (ADA)
+## C.30 - Grounded Architecture and Selected-Structure Adequacy
 
 > **Type:** Architectural pattern
 > **Status:** Stable

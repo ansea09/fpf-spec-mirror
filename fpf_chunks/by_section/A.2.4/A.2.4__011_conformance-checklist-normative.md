@@ -6,12 +6,12 @@ section_id: "A.2.4:10"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__011_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:10 — Conformance checklist (normative)"
-line_start: 3248
-line_end: 3288
+line_start: 3216
+line_end: 3256
 dependencies:
   - "A.10"
   - "A.2"

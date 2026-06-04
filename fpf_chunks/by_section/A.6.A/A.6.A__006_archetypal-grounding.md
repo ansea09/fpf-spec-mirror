@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:5 — Archetypal Grounding"
-line_start: 13320
-line_end: 13404
+line_start: 13162
+line_end: 13247
 dependencies:
   - "A.15"
   - "A.16"
@@ -49,18 +49,19 @@ keywords:
 
 If a draft says *affords*, *calls for*, *invites*, or *actionable*, the author has not yet named the action-oriented family.
 
-A conforming post-threshold rewrite publishes one explicit `actionInvitation(...)` with one `ActionInvitationSense`, one site tuple, one invited enactor tuple, one candidate action tuple, one coupling frame, one normal form, and explicit articulation / scope / time / substrate qualifiers when they matter. Earlier action-guiding cue content may still remain outside A.6.A as cue-pack content, a `RoutedCueSet`, or another typed route-bounded upstream publication until threshold conditions are met.
+A conforming post-threshold rewrite publishes one explicit `actionInvitation(...)` with one `ActionInvitationSense`, one site tuple, one invited enactor tuple, one candidate action tuple, one coupling frame, one normal form, and explicit articulation, scope, time, and substrate qualifiers when they matter. Earlier action-guiding cue content may still remain outside A.6.A as cue-pack content, a `RoutedCueSet`, or another typed route-bounded upstream publication until threshold conditions are met.
 #### A.6.A:5.2 - Show (System lane)
 
 **Draft:** “The alarm calls for rollback.”
 
-**Repair A — control / incident line**
+**Repair A — control and incident line**
 
 `actionInvitation(`
 `  site = AlarmBundle_AB9 × ServiceState_S7,`
-`  siteFacetMap = { AlarmBundle_AB9: Carrier, ServiceState_S7: Object },`
+`  siteClassification = { AlarmBundle_AB9: non-claim-bearing carrier site, ServiceState_S7: EntityOfConcern },`
+`  publicationOrCarrierParticipation = { AlarmBundle_AB9: carrier exposing cue },`
 `  invitedEnactor = OpsTeam_Phoenix,`
-`  candidateAction = Enact(MethodDescriptionRef = RollbackRunbook_R41, target = Release_R41),`
+`  candidateAction = Enact(MethodDescriptionRef = RollbackRunbook_R41, actedOn = Release_R41),`
 `  actionInvitationSense = AIS.ControlOpportunity,`
 `  couplingFrame = IncidentPolicy_IP2 × Horizon_H15m,`
 `  detector = AnomalyPolicy_AP7,`
@@ -72,13 +73,13 @@ A conforming post-threshold rewrite publishes one explicit `actionInvitation(...
 `  witnesses = {AlertTrace_91, ErrorBudgetSeries_4}`
 `)`
 
-**Repair B — ecological / robot line**
+**Repair B — ecological and robot line**
 
 **Draft:** “This handle affords pulling.”
 
 `actionInvitation(`
 `  site = DoorHandle_17 × DoorState_Closed × ReachEnvelope_RE2,`
-`  siteFacetMap = { DoorHandle_17: Object, DoorState_Closed: Object, ReachEnvelope_RE2: Description },`
+`  siteClassification = { DoorHandle_17: EntityOfConcern, DoorState_Closed: EntityOfConcern, ReachEnvelope_RE2: Description episteme },`
 `  invitedEnactor = ServiceRobot_R2,`
 `  candidateAction = PullAlong(Axis_A1),`
 `  actionInvitationSense = AIS.PhysicalAffordance,`
@@ -98,7 +99,7 @@ A conforming post-threshold rewrite publishes one explicit `actionInvitation(...
 
 `actionInvitation(`
 `  site = ProblemFramingEpisode_PF3,`
-`  siteFacetMap = { ProblemFramingEpisode_PF3: Description },`
+`  siteClassification = { ProblemFramingEpisode_PF3: Description episteme },`
 `  invitedEnactor = ResearchTeam_A,`
 `  candidateAction = Enact(MethodDescriptionRef = ContrastiveQuestioning_Q2),`
 `  actionInvitationSense = AIS.EpistemicProbe,`
@@ -116,9 +117,9 @@ A conforming post-threshold rewrite publishes one explicit `actionInvitation(...
 
 `actionInvitation(`
 `  site = DraftHypothesis_H7,`
-`  siteFacetMap = { DraftHypothesis_H7: Description },`
+`  siteClassification = { DraftHypothesis_H7: Description episteme },`
 `  invitedEnactor = AuthorCollective_C1,`
-`  candidateAction = Formalize_DS(TypedInvariantSet_V1),`
+`  candidateAction = Formalize_DescEp_SpecDesc(TypedInvariantSet_V1),`
 `  actionInvitationSense = AIS.ClosureAdvance,`
 `  couplingFrame = AmbiguityMemo_8 × ClaimScope_G1,`
 `  detector = ReviewPanel_R4,`

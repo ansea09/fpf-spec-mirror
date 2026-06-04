@@ -6,12 +6,12 @@ section_id: "F.11:15"
 section_title: "Acceptance tests (SCR/RSCR — concept level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:15 — Acceptance tests (SCR/RSCR — concept level)"
-line_start: 72519
-line_end: 72536
+line_start: 73203
+line_end: 73219
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -55,5 +55,4 @@ keywords:
 * **RSCR‑F11‑E02 (Bridge drift).** If a Context updates, revisit Bridges that touch quartet terms; adjust **CL/Loss** only via F.7/F.9.
 * **RSCR‑F11‑E03 (Status drift).** Adding new statuses does not move them across boxes (e.g., no new “Work‑Approved”).
 * **RSCR‑F11‑E04 (Signal creep).** Introducing new Actuation details does not erase or replace Work context.
-
 

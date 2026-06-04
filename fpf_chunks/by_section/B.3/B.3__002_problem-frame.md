@@ -6,12 +6,12 @@ section_id: "B.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:1 — Problem frame"
-line_start: 30843
-line_end: 30862
+line_start: 30972
+line_end: 30991
 dependencies:
   - "A.10"
   - "A.12"
@@ -21,6 +21,7 @@ dependencies:
   - "A.20"
   - "A.21"
   - "A.6"
+  - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.1.2"
@@ -61,7 +62,7 @@ keywords:
 Every non‑trivial result in FPF—*a composed system is safe*, *a model is credible*, *a conclusion holds*—is a **claim** that rests on **composed evidence**.
 
 * For **U.System** holons (Γ\_sys), assurance is about *capabilities and constraints* under stated conditions.
-* For **U.Episteme** holons (Γ\_epist), assurance is about the *quality of support* for a statement or model.
+* For **U.Episteme** holons (Γ\_epist), assurance is about the *quality of evidence relation* for a statement or model.
 
 To make such claims comparable and auditable across domains, B.3 introduces a **Trust & Assurance Calculus** that:
 

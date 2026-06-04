@@ -6,12 +6,12 @@ section_id: "F.15:14"
 section_title: "Anti‑patterns the harness catches (and the fix)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_anti-patterns-the-harness-catches-and-the-fix.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:14 — Anti‑patterns the harness catches (and the fix)"
-line_start: 73795
-line_end: 73808
+line_start: 74414
+line_end: 74426
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -40,5 +40,4 @@ keywords:
 | **H6** | **SoD bypass**          | Bundle fuses mutually exclusive roles    | Hidden duty conflict                  | **S15/E12** fail → keep roles separate; use Bundle only as reuse map                             |
 | **H7** | **Alias-as-merge**      | Alias used to smuggle semantic change    | Loses history; misleads readers       | **E8** fails → if semantics changed, mint new Role Description; keep old with alias note only for pure rename |
 | **H8** | **CL optimism**         | Most Bridges set to high CL by default   | Over‑trust; brittle reuse             | **E9/E10** → demand witnesses; prefer conservative CL                                            |
-
 

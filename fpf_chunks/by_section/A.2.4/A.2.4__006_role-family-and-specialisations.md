@@ -6,12 +6,12 @@ section_id: "A.2.4:5"
 section_title: "Role family and specialisations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__006_role-family-and-specialisations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:5 — Role family and specialisations"
-line_start: 3057
-line_end: 3101
+line_start: 3026
+line_end: 3069
 dependencies:
   - "A.10"
   - "A.2"
@@ -43,7 +43,6 @@ What changes in practice: an episteme holding `SimulationOnlyCounterfactualOutpu
 The corresponding `CausalEvidenceSupportBasis` values are governed by `C.28`: `observationalAssociationSupportBasis`, `interventionalActionSupportBasis`, `realizedCounterfactualSampleSupportBasis`, `identifiedCounterfactualEstimateSupportBasis`, and `simulationOnlyCounterfactualOutputBasis`. `A.2.4` only classifies evidence roles held by epistemes; it does not mint a second causal support-basis value set.
 
 What this does not authorize: `A.2.4` does not decide the causal-use question, estimand, identification, or counterfactual sampling realizability; it preserves the evidence-role assignment and the authority-reference boundary so `C.28` and `B.3` can judge the causal-use claim without vocabulary laundering.
-
 
 `U.EvidenceRole` is a **role kind** refined by **specialisation** (no mereology of roles). The recommended, substrate‑neutral specialisations are:
 

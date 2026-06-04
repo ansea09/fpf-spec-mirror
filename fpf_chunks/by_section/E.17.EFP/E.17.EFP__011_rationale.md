@@ -6,12 +6,12 @@ section_id: "E.17.EFP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:10 — Rationale"
-line_start: 62851
-line_end: 62854
+line_start: 63732
+line_end: 63735
 dependencies:
   - "A.10"
   - "A.15"
@@ -35,5 +35,5 @@ keywords:
 
 ### E.17.EFP:10 - Rationale
 
-Explanation help already appears on existing faces, and the nearest failure mode is to let helpful prose shift into hidden source claims, bridge-comparison load, or gate-bearing guidance. `E.17.EFP` gives the reader one practical benefit: they can tell whether a rendering is source-pinned, reconstructive, didactic, or speculative, and therefore whether it may stay as explanation help, must downgrade use, or must leave this profile because the rendering has stopped being only explanation-facing support.
+Explanation help already appears on existing faces, and the nearest failure mode is to let helpful prose shift into hidden source claims, bridge-comparison load, or gate-bearing guidance. `E.17.EFP` gives the reader one practical benefit: they can tell whether a rendering is source-pinned, reconstructive, didactic, or speculative, and therefore whether it may stay as explanation help, must downgrade use, or must leave this profile because the rendering has stopped being only explanation-facing help.
 

@@ -6,12 +6,12 @@ section_id: "A.3.2:9"
 section_title: "MethodDescription mereology (epistemic composition; not method composition)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__010_methoddescription-mereology-epistemic-composition-not-method-composition.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:9 — MethodDescription mereology (epistemic composition; not method composition)"
-line_start: 6266
-line_end: 6282
+line_start: 6164
+line_end: 6179
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -52,5 +52,4 @@ Keep two worlds separate:
 * **`RepresentationOf`** — this visual diagram is a representation of the textual rule set.
 
 **Didactic rule:** Do not infer that a spec with two modules **means** a Method with “two steps.” Modules are **parts of the description**, not necessarily steps of the Method.
-
 

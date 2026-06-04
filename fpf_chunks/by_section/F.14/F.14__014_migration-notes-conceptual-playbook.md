@@ -6,12 +6,12 @@ section_id: "F.14:13"
 section_title: "Migration notes (conceptual playbook)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__014_migration-notes-conceptual-playbook.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:13 — Migration notes (conceptual playbook)"
-line_start: 73451
-line_end: 73461
+line_start: 74089
+line_end: 74098
 dependencies:
   - "F.1"
   - "F.10"
@@ -41,5 +41,4 @@ keywords:
 5. **Re‑use before minting.** When encountering a gap, scan rows for a near‑match; only if intent genuinely differs, open a **new row** (F.8).
 6. **Preserve continuity.** Keep historic labels as **aliases** under the consolidated template (F.13); do not rewrite past texts.
 7. **Rehearse the cut.** After consolidation, you should be able to recite the entire Role and Status vocabulary **from memory**; if not, reduce again.
-
 

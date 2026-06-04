@@ -6,12 +6,12 @@ section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and quantum-like reading note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-quantum-like-reading-note.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12a — Coordinated-work evidence and quantum-like reading note"
-line_start: 19549
-line_end: 19579
+line_start: 19604
+line_end: 19634
 dependencies:
   - "A.10"
   - "A.12"
@@ -53,18 +53,18 @@ Action path:
 1. Name the role, method, and work result before naming any distributed state.
 2. State which work traces, records, events, observations, reports, metrics, or role enactments make the coordination visible.
 3. Ask whether role-method-work alignment alone explains the case. If yes, stay in A.15.
-4. If no participant statement, local component report, single carrier, dashboard, or exported representation carries the inferred state faithfully enough for the supported state use, add a `C.26.2` distributed-state reading.
+4. If no participant statement, local component report, single carrier, dashboard, or exported representation carries the inferred state faithfully enough for the claimed state use, add a `C.26.2` distributed-state reading.
 5. State the weakest claim, time window, rival explanations, and export loss.
-6. Carry evidence support through `A.10` and assurance claims through `B.3` when the claim supports work, reliance, audit, readiness, release, or compliance.
+6. Carry evidence force through `A.10` and assurance claims through `B.3` when the claim will guide work, reliance, audit, readiness, release, or compliance.
 
-Add a `C.26.2` distributed-state reading only when coordinated work is being used as evidence for a state that no participant statement, local component report, single carrier, dashboard, or exported representation carries faithfully enough for the supported state use. That evidence-bound claim states:
+Add a `C.26.2` distributed-state reading only when coordinated work is being used as evidence for a state that no participant statement, local component report, single carrier, dashboard, or exported representation carries faithfully enough for the claimed state use. That evidence-bound claim states:
 
 | Field | Required content |
 | --- | --- |
 | Carrier | Work trace, record, event, observation, report, metric, or role enactment that bears the evidence |
 | Time window | When the reading holds and when it decays or must be refreshed |
 | Probe or occasion | What question, task, workshop, incident, handover, dashboard, or coordination situation made the state readable |
-| Weakest claim | The minimal distributed-state reading supported by the carriers |
+| Weakest claim | The minimal distributed-state reading carried by the evidence carriers |
 | Rival explanations | Routine compliance, policy, command, coincidence, incentive, documentation record, or local skill that could explain the same work |
 | Export loss | What is lost when the state is summarized into one report, score, or statement |
 
@@ -72,6 +72,6 @@ Useful outputs:
 
 - an A.15 work-alignment claim when work roles explain the case;
 - a C.26.2 low-recoverability distributed-state reading when coordination evidence survives ordinary rivals;
-- an `A.10` evidence path or `B.3` assurance support path when the reading will support a work claim or reliance claim;
+- an `A.10` evidence path or `B.3` assurance claim path when the reading will carry evidence or assurance force for a work claim or reliance claim;
 - no distributed-state claim when carriers, rivals, or time window cannot be named.
 

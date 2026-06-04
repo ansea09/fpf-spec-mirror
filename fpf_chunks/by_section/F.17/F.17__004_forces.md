@@ -6,12 +6,12 @@ section_id: "F.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:3 — Forces"
-line_start: 74223
-line_end: 74232
+line_start: 74814
+line_end: 74822
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -50,5 +50,4 @@ keywords:
 | **Parsimony vs. recall**          | Each row is one concept; the UTS as a whole demonstrates heterogeneity across ≥ 3 domain families (A.8). Rows may cite fewer Contexts when the concept truly appears in fewer.                   |
 | **Locality vs. comparability**    | Senses are **Context‑scoped** (E.10.D1). Cross‑context relations are shown only as **explicit bridges** (F.9) with **CL**. |
 | **General usability**             | Sheet must be **legible on paper** and **memorisable** (block structure, stable row order).                         |
-
 

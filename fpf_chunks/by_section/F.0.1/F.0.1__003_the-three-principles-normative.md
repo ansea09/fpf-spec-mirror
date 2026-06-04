@@ -6,12 +6,12 @@ section_id: "F.0.1:2"
 section_title: "The Three Principles (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__003_the-three-principles-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:2 — The Three Principles (normative)"
-line_start: 68192
-line_end: 68245
+line_start: 69062
+line_end: 69112
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -55,7 +55,6 @@ keywords:
 **Illustration (Enactment line).**
 `activity @ PROV‑O (run)` vs `task @ IEC 61131‑3 (run)` vs `process @ BPMN 2.0 (design)`.
 
-
 #### F.0.1:2.2 - P‑L - **Local Meaning Principle** — *Meaning lives inside the Context.*
 
 **Rule.** The **intended sense** of a term is established **inside its Context** as a **SenseCell**: a small, reconstructible unit of local meaning with **Tech/Plain labels** and a concise gloss. SenseCells are **lexical only** (C‑6): no behaviours, no deontics, no equations.
@@ -71,7 +70,6 @@ keywords:
 
 **Illustration (KD‑CAL).**
 `observation @ SOSA/SSN`: Tech “observation”, Plain “measurement act”; gloss “Result‑bearing act applying a Procedure…”.
-
 
 #### F.0.1:2.3 - P‑B - **Explicit Bridge Principle** — *across Contexts, only with a bridge.*
 
@@ -89,5 +87,4 @@ keywords:
 
 **Illustration (Sys‑CAL × Enactment).**
 `actuation @ CTRL‑Text` ↔⟨near‑equiv, CL=2⟩ `control‑output @ IEC 61131‑3`.
-
 

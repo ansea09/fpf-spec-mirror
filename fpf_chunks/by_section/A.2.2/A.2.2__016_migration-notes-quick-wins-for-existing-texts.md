@@ -6,12 +6,12 @@ section_id: "A.2.2:15"
 section_title: "Migration notes (quick wins for existing texts)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__016_migration-notes-quick-wins-for-existing-texts.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:15 — Migration notes (quick wins for existing texts)"
-line_start: 2521
-line_end: 2529
+line_start: 2503
+line_end: 2510
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -40,5 +40,4 @@ keywords:
 3. **Pin contexts.** Add the bounded context name to each capability table (“Capability Sheet — AssemblyLine\_2025”).
 4. **Snapshot validity.** Add a “valid through” column (software version or calibration horizon).
 5. **Separate recipe/execution.** Move flowcharts under **MethodDescription**, runs under **Work**; link the capability to the **holder** with references to those specs.
-
 

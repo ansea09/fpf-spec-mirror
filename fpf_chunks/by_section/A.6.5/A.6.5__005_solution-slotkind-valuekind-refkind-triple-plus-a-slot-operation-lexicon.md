@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution — SlotKind / ValueKind / RefKind triple (plus a slot‑operation lexicon)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution-slotkind-valuekind-refkind-triple-plus-a-slot-operation-lexicon.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:4 — Solution — SlotKind / ValueKind / RefKind triple (plus a slot‑operation lexicon)"
-line_start: 14063
-line_end: 14309
+line_start: 14219
+line_end: 14465
 dependencies:
   - "A.1"
   - "A.19"
@@ -49,7 +49,7 @@ In **normative** text, the canonical word is **slot**, and the canonical carrier
 
 1. **SlotKind (place in signature).**
    *How this position is denoted in the Signature and what is fixed about it by the signature’s definition.*
-   – Examples: `DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ServiceEndpointSlot`, `CallerHolonSlot`, `MetricSlot`.
+   – Examples: `EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ServiceEndpointSlot`, `CallerHolonSlot`, `MetricSlot`.
    – SlotKind is **structural**: it picks out **one distinguished place** in the argument/port/field list of a given relation, operator, record, or other signatured bundle; it does **not** name a “role” played by whatever fills the slot.
    – For an n‑ary relation/operator declared in a `U.Signature`, the pair *(Signature id, SlotKind)* identifies a **slot**; positional indices are merely a presentation‑level enumeration of these slots.
    – What a filler “does” in that place (its contribution to laws, constraints, effects) is governed by the **laws over the Signature** and by the corresponding ValueKind, not by SlotKind‑as‑“role”.
@@ -71,7 +71,7 @@ In **normative** text, the canonical word is **slot**, and the canonical carrier
   * a SlotKind (name and documentation),
   * a ValueKind (type of permissible fillers),
   * and either a RefKind or an explicit declaration “**by‑value**” (no RefKind; the value is embedded).
-* SlotKind and ValueKind are **intensional**; RefKind is **representational**. This mirrors I/D/S: *slot* describes structure, *value* describes what can sit there, *ref* describes how we point to concrete instances.
+* SlotKind and ValueKind are **intensional**; RefKind is **representational**. This mirrors the EntityOfConcern / Description / specification-use distinction: *slot* describes structure, *value* describes what can sit there, *ref* describes how we point to concrete instances.
 
 #### A.6.5:4.2 - Naming discipline: `*Slot` and `*Ref`
 
@@ -81,17 +81,17 @@ This pattern introduces the following **lexical constraints**, aligned with E.10
 
    * Any Tech name ending with `…Slot` **MUST** denote a SlotKind: a named place in a relation/morphism signature.
    * Examples:
-     – `DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`.
+     – `EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`.
    * `*Slot` **MUST NOT** appear in names of:
      – ValueKind (e.g. `U.Entity`, `U.Holon`, `U.Method`),
      – RefKind (e.g. `U.EntityRef`),
-     – concrete episteme fields (they may be named e.g. `describedEntityRef`, but not `describedEntitySlotField`).
+     – concrete episteme fields (they may be named e.g. `entityOfConcernRef`, but not `entityOfConcernSlotField`).
 
 2. **`*Ref` reserved for RefKind and reference fields.**
 
    * Any Tech name ending with `…Ref` **MUST** denote either:
      – a **RefKind** (type of references/identifiers), or
-     – a **field** whose type is a RefKind (`describedEntityRef : U.EntityRef`).
+     – a **field** whose type is a RefKind (`entityOfConcernRef : U.EntityRef`).
    * `*Ref` **MUST NOT** appear in names of:
      – ValueKinds (e.g. `U.EntityRef` **cannot** mean “an entity”; it is a reference type),
      – SlotKinds,
@@ -147,13 +147,13 @@ Given a relation or morphism `R` with signature Σ and SlotSpecs `{SlotSpec_i}`:
    – “We switch the grounding holon in `GroundingHolonSlot`.”
 
 2. **ValueKind compatibility.**
-   The new content **MUST** be of the same ValueKind (or a declared subkind) as `SlotSpec_i.value`; Kind‑CAL governs this (`⊑` in C.3.1–C.3.2). If a Context uses EoIClass species constraints (C.3.2), those act as additional guards but do **not** change the SlotKind.
+   The new content **MUST** be of the same ValueKind (or a declared subkind) as `SlotSpec_i.value`; Kind‑CAL governs this (`⊑` in C.3.1–C.3.2). If a Context uses EntityOfConcernClass species constraints (C.3.2), those act as additional guards but do **not** change the SlotKind.
 
 3. **RefKind correctness.**
    If `refMode=RefKind`, the stored field is of that RefKind; substitutions operate on references, not on underlying values. Edition pinning is handled as usual by `.edition` fields in F‑patterns (F.15, etc.).
 
 4. **By‑value vs by‑ref awareness.**
-   Substitutions at by‑value slots (e.g. `ClaimGraphSlot`) are **content edits** to the episteme or relation instance; they may affect formality F or assurance lanes. Substitutions at ref slots are **retargetings** of describedEntity or context, and their legality is governed by A.6.2–A.6.4 and Bridge/CL rules. Tooling SHOULD surface this difference explicitly in authoring surfaces (e.g. separate “Ref” vs “embedded content” columns).
+   Substitutions at by‑value slots (e.g. `ClaimGraphSlot`) are **content edits** to the episteme or relation instance; they may affect formality F or assurance lanes. Substitutions at ref slots are **retargetings** of entityOfConcern or context, and their legality is governed by A.6.2–A.6.4 and Bridge/CL rules. Tooling SHOULD surface this difference explicitly in authoring surfaces (e.g. separate “Ref” vs “embedded content” columns).
 
 These rules give a uniform way to say:
 
@@ -215,7 +215,7 @@ When a pattern, bridge, or operator description discusses a change or action “
 
 5. **retarget** (Ref slot update, same SlotKind/ValueKind).
    *Use only for `refMode=RefKind` slots, when the operation replaces one reference handle with another, thereby changing the referent while preserving SlotKind and ValueKind.*
-   – “Retarget `DescribedEntitySlot` from `UserService#staging` to `UserService#prod`.”
+   – “Retarget `EntityOfConcernSlot` from `UserService#staging` to `UserService#prod`.”
    Retargeting is the canonical FPF verb for “swap the referenced thing in this slot”.
 
 6. **substitute** (typed replacement with explicit compatibility claim).
@@ -253,7 +253,7 @@ When naming an operator/morphism/bridge whose primary effect is a slot change, t
 
 Recommended patterns (examples only; Contexts may adopt their own naming style via F.18):
 
-* `Retarget<SlotQualifier>` for ref‑slot retargeting (e.g. `RetargetDescribedEntity`, `RetargetGroundingHolon`).
+* `Retarget<SlotQualifier>` for ref‑slot retargeting (e.g. `RetargetEntityOfConcern`, `RetargetGroundingHolon`).
 * `Edit<SlotQualifier>` / `Update<SlotQualifier>` for by‑value content edits (e.g. `EditClaimGraph`).
 * `Substitute<SlotQualifier>` when the operator exists to enforce/declare ValueKind compatibility (e.g. `SubstituteDataset`).
 * `Resolve<SlotQualifier>` when the operator is about resolving a Ref to a referent (e.g. `ResolveServiceEndpoint`).

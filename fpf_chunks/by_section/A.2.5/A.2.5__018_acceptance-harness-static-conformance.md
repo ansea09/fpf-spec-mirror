@@ -6,12 +6,12 @@ section_id: "A.2.5:17"
 section_title: "Acceptance harness (static conformance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__018_acceptance-harness-static-conformance.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:17 — Acceptance harness (static conformance)"
-line_start: 3964
-line_end: 3979
+line_start: 3911
+line_end: 3925
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -43,5 +43,4 @@ Author‑facing checks; **notation‑free**, **concept‑level**. Use them when 
 **SCR‑A.2.5‑S08 - Human scale.** `|S| ≤ 7` unless a one‑line didactic rationale is recorded.
 **SCR‑A.2.5‑S09 - Status‑only roles.** If `S_en=∅`, the Role is explicitly tagged **status‑only**; it cannot open the Green‑Gate.
 **SCR‑A.2.5‑S10 - Bridge discipline.** Any cross‑context reuse is via an Alignment Bridge (F.9) with recorded `CL` and losses; no silent imports.
-
 

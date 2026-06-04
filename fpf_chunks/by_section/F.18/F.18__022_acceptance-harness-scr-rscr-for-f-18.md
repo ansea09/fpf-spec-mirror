@@ -6,12 +6,12 @@ section_id: "F.18:21"
 section_title: "Acceptance Harness (SCR/RSCR) for F.18"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__022_acceptance-harness-scr-rscr-for-f-18.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:21 — Acceptance Harness (SCR/RSCR) for F.18"
-line_start: 75226
-line_end: 75255
+line_start: 75820
+line_end: 75849
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -50,7 +50,7 @@ keywords:
 | ID                                                                                                                                                                       | Regression duty across editions                                        | Effect |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ------ |
 | **RSCR‑U‑E01 (Edition drift).** When a source Context updates, re‑validate the row: stable sense ⇒ **rename/alias**; changed sense ⇒ **split/merge** rows; never overwrite. | Preserves truthfulness without erasing history. **F.13** RSCR.         |        |
-| **RSCR‑U‑E02 (CL honesty).** Bridges **SHALL NOT** increase their CL (claiming higher-CL sameness) without new witnesses; **SHOULD** reduce CL when editions diverge.     | Guards against optimism bias in equivalence. **F.17** migration cues.  |        |
+| **RSCR‑U‑E02 (CL honesty).** Bridges **SHALL NOT** increase their CL (claiming higher-CL sameness) without new witnesses; **SHOULD** reduce CL when editions diverge.     | Guards against optimism bias in equivalence. **F.17** old wording.  |        |
 | **RSCR‑U‑E03 (Alias creep).** Periodically prune aliases to the **≤ 1** budget per register.                                                                             | Maintains narratively crisp UTS. **F.13** RSCR‑Alias.                  |        |
 | **RSCR‑U‑E04 (Name neutrality check).** If the Unified Tech label is traceable to one context’s idiom, re‑justify neutrality or retitle the row.                            | Keeps the name “ours,” not “theirs.” **F.17** 9.7–9.8.                 |        |
 | **RSCR‑U‑E05 (Window misuse).** Reject newly proposed types that are really **windows** on an existing Status/Role.                                                      | Prevents explosion by adjectives. **F.14** S14/E11 patterns.           |        |

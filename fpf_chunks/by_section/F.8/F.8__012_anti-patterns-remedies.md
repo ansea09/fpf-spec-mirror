@@ -6,12 +6,12 @@ section_id: "F.8:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__012_anti-patterns-remedies.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:10 — Anti‑patterns & remedies"
-line_start: 70884
-line_end: 70899
+line_start: 71641
+line_end: 71655
 dependencies:
   - "A.11"
   - "A.7"
@@ -48,5 +48,4 @@ keywords:
 | **AP‑8**  | **Row without loss notes** | Publishing a row where Bridges indicate mismatches, but row text is silent.        | Readers assume full equivalence.                   | Include **counter‑example** and **loss sketch** in the row’s narrative (F.7).                                                                    |
 | **AP‑9**  | **CL laundering**          | Citing a high-scope row based on old high `CL` while the relevant Bridge `CL` has since dropped.    | Invalidates downstream claims.                     | When `CL` falls below `τ(scope)`, **downgrade row scope** (e.g., to Naming-only) or **split row**.                                                   |
 | **AP‑10** | **Global normal form**     | Seeking one canonical wording across all Contexts **as if** meaning were global.      | Erases locality; fuels hidden merges.              | Keep normalisation **per Context** (F.2/F.3). Cross‑context sameness lives in **rows** with scope.                                                     |
-
 

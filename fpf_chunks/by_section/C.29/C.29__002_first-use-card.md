@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.29"
-pattern_title: "Mathematical Lens Adequacy (MLA)"
+pattern_title: "Mathematical Lens Use"
 section_id: "C.29:0"
 section_title: "First-use card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__002_first-use-card.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.29 — Mathematical Lens Adequacy (MLA)"
+  - "C.29 — Mathematical Lens Use"
   - "C.29:0 — First-use card"
-line_start: 50109
-line_end: 50124
+line_start: 49946
+line_end: 49960
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensSupportPosture"
+  - "LensUseAdmissibilityValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -59,22 +59,21 @@ keywords:
   - "scale window"
   - "stop condition"
   - "structure-preserving representation"
-  - "validation posture"
+  - "validation boundary"
 ---
 
 ### C.29:0 - First-use card
 
-Use this card before the full card. It is enough for the first reading unless publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is live.
+Use this card before the full card. It is enough for the first use pass unless publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is live.
 
-| First question | Required answer before the lens carries claim force |
+| First question | Required answer before the lens carries claim-bearing use |
 |---|---|
-| Is the mathematical phrase changing the next admissible move, or only helping recognition? | If no move changes, keep ordinary prose or write `NoMLANeededNote`. |
+| Is the mathematical phrase changing the next admissible move, or only helping recognition? | If no move changes, keep ordinary prose or write `NoMathLensUseNeededNote`. |
 | What phenomenon is being seen through the lens? | Name `TargetPhenomenon` in problem-owning language. |
 | What concrete mathematical object, formal role, learned representation, simulation substrate, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
 | What structure is preserved? | Name `PreservedStructure`. |
-| What structure is lost or deliberately ignored? | Name `LostStructure`; empty loss needs equivalence or isomorphism support. |
+| What structure is lost or deliberately ignored? | Name `LostStructure`; empty loss needs equivalence or isomorphism justification. |
 | What tempting inference does this lens not license? | Name `StopCondition`; no stop condition means no admissible C.29 result. |
 
-Non-use comes first. Do not open C.29 merely because mathematics appears. Open it only when the mathematical structure changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next admissible repair. If state, transition, measurement, causal use, bridge semantics, temporal adequacy, assurance, selector, benchmark, or release is the live claim, name the neighboring FPF locus and keep C.29 to the mathematical-lens adequacy part.
-
+Non-use comes first. Do not open C.29 merely because mathematics appears. Open it only when the mathematical structure changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next admissible repair. If state, transition, measurement, causal use, bridge semantics, temporal adequacy, assurance, selector, benchmark, or release is the live claim, name the neighboring FPF locus and keep C.29 to the mathematical-lens use part.
 

@@ -6,12 +6,12 @@ section_id: "C.3.5:8"
 section_title: "Integration Notes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__009_integration-notes-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:8 — Integration Notes (informative)"
-line_start: 38553
-line_end: 38561
+line_start: 38536
+line_end: 38543
 dependencies:
   - "C.3.1"
 keywords:
@@ -29,5 +29,4 @@ keywords:
 * **With C.3.4 (RoleMask).** Persistent K1‑style masks often warrant **promotion to K2 subkinds**.
 * **With A.2.6 (USM).** All scope decisions remain under **G**. AT text should never be used to infer coverage.
 * **With C.2.3 (F).** AT does not raise/lower **F**; it **suggests** where raising F is cost‑effective.
-
 

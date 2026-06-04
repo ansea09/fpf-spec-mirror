@@ -6,12 +6,12 @@ section_id: "C.22.2:10"
 section_title: "Structure Cue That Improves Formulation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__011_structure-cue-that-improves-formulation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:10 — Structure Cue That Improves Formulation"
-line_start: 44182
-line_end: 44203
+line_start: 44106
+line_end: 44127
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,15 +63,15 @@ keywords:
 
 ### C.22.2:10 - Structure Cue That Improves Formulation
 
-`C.29` carries the neighboring adequacy check for first-principles or mathematical structure cues used by `ProblemCard@Context`.
+`C.29` carries the neighboring mathematical-lens use check for first-principles or mathematical structure cues used by `ProblemCard@Context`.
 
-`firstPrinciplesCue` is a local cue label for a formulation-changing structure and an exit to `C.29`; it is not a local mathematical-lens kind or a substitute for `C.29` lens adequacy.
+`firstPrinciplesCue` is a local cue label for a formulation-changing structure and an exit to `C.29`; it is not a local mathematical-lens kind or a substitute for a `C.29` lens-use result.
 
 The problem card may ask whether a first-principles or mathematical structure helps find or improve the problem formulation, not only whether an already-mentioned mathematical object is admissible. Useful cues include state space, graph, boundary, topology, symmetry, invariant, variational or constrained-optimization structure, probability or information structure, resource bound, obstruction, scale window, composition, or coarse-graining choice.
 
 The admissible practitioner move is:
 
-> State the structure that improves the problem formulation, the preserved structure, the lost structure, the practical payoff, the support posture, and the stop condition.
+> State the structure that improves the problem formulation, the preserved structure, the lost structure, the practical payoff, the problem-formulation next-move reason, and the stop condition.
 
 Distribution by principles:
 

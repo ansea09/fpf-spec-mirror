@@ -6,12 +6,12 @@ section_id: "E.10.D1:4"
 section_title: "Solution — Name one thing “Context” can mean"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__005_solution-name-one-thing-context-can-mean.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:4 — Solution — Name one thing “Context” can mean"
-line_start: 58512
-line_end: 58537
+line_start: 59648
+line_end: 59672
 dependencies:
   - "A.4"
   - "A.7"
@@ -57,5 +57,4 @@ keywords:
 * **`ContextId:LocalLabel`** (e.g., `BPMN_2_0:process`), or
 * **`SenseCell(ContextId, Local‑SenseId)`**, or
 * **ConceptSet(RowId).Column(ContextId)** (E.10.U7).
-
 

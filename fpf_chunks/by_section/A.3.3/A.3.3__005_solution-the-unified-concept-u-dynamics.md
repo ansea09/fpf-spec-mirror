@@ -6,12 +6,12 @@ section_id: "A.3.3:4"
 section_title: "Solution — The unified concept U.Dynamics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__005_solution-the-unified-concept-u-dynamics.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:4 — Solution — The unified concept U.Dynamics"
-line_start: 6415
-line_end: 6452
+line_start: 6304
+line_end: 6340
 dependencies:
   - "A.19"
   - "B.4"
@@ -58,5 +58,4 @@ U.Dynamics {
 * **Not Work:** no timestamps/resources attached; evidence lives on `U.Work`.
 * **Not a Service:** no consumer promise; dynamics may underpin service SLOs but does not define the promise.
 * **Not PBS/SBS:** do not place dynamics inside structural BoMs.
-
 

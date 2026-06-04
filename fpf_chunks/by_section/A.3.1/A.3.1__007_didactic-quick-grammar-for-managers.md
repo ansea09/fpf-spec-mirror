@@ -6,12 +6,12 @@ section_id: "A.3.1:6"
 section_title: "Didactic quick grammar (for managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__007_didactic-quick-grammar-for-managers.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:6 — Didactic quick grammar (for managers)"
-line_start: 5944
-line_end: 5953
+line_start: 5856
+line_end: 5864
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,5 +43,4 @@ keywords:
 * **Did?** **`Work`** (execution), linked by `performedBy → RoleAssigning` and `isExecutionOf → MethodDescription`
 
 > *Keep the four words apart and plans become dependable.*
-
 

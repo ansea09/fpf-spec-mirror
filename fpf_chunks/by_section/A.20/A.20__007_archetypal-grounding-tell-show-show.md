@@ -6,12 +6,12 @@ section_id: "A.20:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)  ✱"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:5 — Archetypal Grounding (Tell–Show–Show)  ✱"
-line_start: 27252
-line_end: 27268
+line_start: 27460
+line_end: 27476
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -52,5 +52,5 @@ A typed module `M` exposes `f : State_d → BuildOutput_d` under a declared `Law
 **Show‑2 (selection archive in QD/AutoML).**
 A mechanism emits a **set** (`Front`, `Archive`, or another declared set publication). **CV** checks only: valid descriptor ranges, declared continuity bounds over named metric spaces, and archive invariants (idempotent insert). No ranking or acceptance thresholds are introduced at CV; comparators and acceptance policies bind at gates via `A.21` plus the current comparator and set-publication loci (`A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11`) where live. Edition-aware pins on faces carry `DescriptorMapRef.edition` only with `Bridge+UTS`.
 
-**Anchors.** Algebraic effects & handlers separate signatures from handlers (Koka/Effekt, 2015+); reproducible pipelines isolate mechanism constraints from deployment **profiles** (Bazel/Nix); optics/profunctors and open/hypergraph categories motivate composition on open graphs without adding facts on faces; QD/MAP-Elites/CMA-ME/DQD motivate **set-return and declared order relations** (2015-2022).
+**Practice references.** Algebraic effects & handlers separate signatures from handlers (Koka/Effekt, 2015+); reproducible pipelines isolate mechanism constraints from deployment **profiles** (Bazel/Nix); optics/profunctors and open/hypergraph categories motivate composition on open graphs without adding facts on faces; QD/MAP-Elites/CMA-ME/DQD motivate **set-return and declared order relations** (2015-2022).
 

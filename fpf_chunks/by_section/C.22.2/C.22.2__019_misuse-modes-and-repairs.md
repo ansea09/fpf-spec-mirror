@@ -6,12 +6,12 @@ section_id: "C.22.2:18"
 section_title: "Misuse Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__019_misuse-modes-and-repairs.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:18 — Misuse Modes and Repairs"
-line_start: 44403
-line_end: 44414
+line_start: 44327
+line_end: 44338
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,13 +63,13 @@ keywords:
 
 ### C.22.2:18 - Misuse Modes and Repairs
 
-| Misuse mode | Non-conforming reading | Repair |
+| Misuse mode | Non-conforming recovery | Repair |
 |---|---|---|
 | Content creep | The card starts carrying evidence, gate, work, autonomy, or portfolio state instead of cue, reference, and exit relations. | Return the live relation to the receiving pattern and leave only the local cue, reference, or exit in the card. |
-| Selector leakage | `ProblemCard@Context` becomes a pre-`TaskSignature`, selects a method family, selects a formalism, creates a work plan, or copies card fields into `C.22` `TaskSignature` by default. | Return to the problem-side record. If downstream readiness is declared, name only a candidate `ProblemProfile`, `TaskKind`, or `TaskSignature` basis and the relation to `C.22`; selector-facing anchor authority stays with `C.22`. |
-| Hidden scalarization | Goldilocks or readiness becomes one score instead of a declared set-return, partial-order, descriptor, characteristic, or retention basis. | Preserve `setContextRef`, source-set kind, selection or retention basis, and non-scalar next move; exit to the receiving set, parity, archive, pool, or refresh pattern when live. |
-| Silent retargeting | A changed problem formulation changes the described entity, representation scheme, diagram, functional description, or TGA path reading without naming the required relation exit. | Name the representation-transition, retargeting, bridge, structural reinterpretation, or SEMIO relation before inheriting support or readiness. |
-| Support overread | Support posture is read as evidence proof, provenance, assurance, gate passage, or safety acceptance. | Treat support posture as the local reason to keep, review, discriminate, or move the formulation onward; evidence, provenance, assurance, gate, and safety reliance exit to their receiving patterns. |
+| Selector leakage | `ProblemCard@Context` becomes a pre-`TaskSignature`, selects a method family, selects a formalism, creates a work plan, or copies card fields into `C.22` `TaskSignature` by default. | Return to the problem-side record. If downstream readiness is declared, name only a candidate `ProblemProfile`, `TaskKind`, or `TaskSignature` relation to `C.22`; selector-facing authority stays with `C.22`. |
+| Hidden scalarization | Goldilocks or readiness becomes one score instead of a declared set-return, partial-order, descriptor, characteristic, or retention criterion. | Preserve `setContextRef`, source-set kind, selection or retention criterion, and non-scalar next move; exit to the receiving set, parity, archive, pool, or refresh pattern when live. |
+| Silent retargeting | A changed problem formulation changes the EntityOfConcern, representation scheme, diagram, functional description, or TGA path interpretation without naming the required relation exit. | Name the representation-transition, retargeting, bridge, structural reinterpretation, or SEMIO relation before inheriting readiness or admissibility. |
+| Problem-formulation reason overread | The problem-formulation next-move reason is read as evidence proof, provenance, assurance, gate passage, or safety acceptance. | Treat problem-formulation next-move reason as the local reason to keep, review, discriminate, or move the formulation onward; evidence, provenance, assurance, gate, and safety reliance exit to their receiving patterns. |
 | Refresh dead end | Expiry or unknown handling is recorded, but no current disposition is made. | State refresh, retirement, bounded use, `abstain/no-change`, or the named neighboring exit before claiming `P2W-ready`. |
 | Cognitive overload | Every field is treated as mandatory and the card becomes form-compliance work. | Return to Thin use: signal, context and scope, reason the record is not a wish, ticket, slogan, or preselected work item, improvement check or acceptance probe, and honest next move. |
 

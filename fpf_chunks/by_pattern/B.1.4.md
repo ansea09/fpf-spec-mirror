@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.4.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
-line_start: 29114
-line_end: 29412
+line_start: 29289
+line_end: 29572
 dependencies:
   - "A.12"
   - "A.14"
@@ -39,12 +39,10 @@ keywords:
 
 The universal algebra **Γ** (B.1) assumes local commutativity and locality for most structures. But many real‑world compositions are **not** order‑indifferent (recipes, proofs that unfold by steps, manufacturing routes), and many composites are **nothing but** a history (asset history, model revisions, experiment runs). For these cases FPF offers two universal flavours:
 
-
 * **Γ\_ctx** — **procedural composition** (where SerialStepOf / ParallelFactorOf edges are present; see B.1.5 Γ_method for typing and joins; A.14 governs only mereological edges such as PortionOf/PhaseOf).
 **Γ\_time** — *temporal* aggregation for **phase composition of the same carrier** (where `PhaseOf` edges from **A.14** are present).
 
 Both flavours **inherit WLNK and MONO** from the Quintet (B.1) and remain compatible with **A.12** (Transformer Principle) and **A.15** (Strict Distinction): they do *order* and *time*, not structure, mapping, or cost.
-
 
 ### B.1.4:2 - Problem
 
@@ -55,7 +53,6 @@ Forcing sequential or temporal phenomena through the default, order‑indifferen
 3. **Locality violations:** Hidden shared state between “parallel” branches breaks reproducibility; independent branches were not actually independent.
 4. **DesignRunTag conflation:** Mixing design‑time plans and run‑time histories in one fold produces “chimeras” that neither simulate nor audit reality.
 
-
 ### B.1.4:3 - Forces
 
 | Force                                 | Tension                                                                                                          |
@@ -64,7 +61,6 @@ Forcing sequential or temporal phenomena through the default, order‑indifferen
 | **Temporal coverage vs. Flexibility** | Ensure gap/overlap discipline across phases ↔ Allow rolling windows and partial histories.                       |
 | **Locality vs. Concurrency**          | Keep branches deterministic and independent ↔ Exploit parallelism where it is safe.                              |
 | **Universality vs. Fit**              | One pattern for systems and epistemes ↔ Different edge types (`SerialStepOf`, `PhaseOf`) and different carriers. |
-
 
 ### B.1.4:4 - Solution — **Part 1: What these flavours are, and when to use them**
 
@@ -81,7 +77,6 @@ Forcing sequential or temporal phenomena through the default, order‑indifferen
 > • History of the same carrier identity → **Γ\_time** (PhaseOf).
 > • Resource spending → **Γ\_work**.
 > • Mappings / representations → value‑level links or `U.Interaction`, not parthood.
-
 
 #### B.1.4:4.2 - Operator signatures (normative)
 
@@ -107,7 +102,6 @@ Forcing sequential or temporal phenomena through the default, order‑indifferen
 * **T:** the transformer that composes the timeline (A.12).
 * **Output H′:** the holon reconstructed over τ (system history, theory revision history, dataset growth, etc.).
 
-
 #### B.1.4:4.3 - Adapted invariants (what replaces COMM/LOC)
 
 Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by discipline specific to order and time.
@@ -127,7 +121,6 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 > **Why we keep WLNK and MONO.**
 > Even with order/time, the whole cannot be safer or more reliable than the bottleneck step/phase (WLNK), and improving a step/phase on declared monotone characteristics cannot make the whole worse (MONO).
 
-
 #### B.1.4:4.4 - Guards that make the folds provable
 
 **For Γ\_ctx**
@@ -145,7 +138,6 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 3. **Scope:** single `DesignRunTag`; design‑time hypothetical timelines and run‑time actual logs are kept separate.
 4. **Boundary note:** if Work across boundaries is reported for phases, route resource statements to **Γ\_work**; Γ\_time itself does not invent costs.
 
-
 #### B.1.4:4.5 - Selection checklist (didactic quick guide)
 
 * **Does swapping two steps change meaning or safety?** → **Γ\_ctx**.
@@ -154,7 +146,6 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 * **Is it a “who belongs to this collective” question?** → **MemberOf** + (future) **Γ\_collective**.
 * **Do you need durations, critical paths, and joins?** → **Γ\_method** (specialisation of **Γ\_ctx**).
 * **Do you need resource spending across a boundary?** → **Γ\_work** (orthogonal; can be used together with Γ\_ctx/Γ\_time).
-
 
 #### B.1.4:4.6 - Didactic contrasts (one‑liners)
 
@@ -216,7 +207,6 @@ This Proof Kit instantiates the generic obligations from **B.1.1 §6** for the o
 * **TIME‑SCOPE/BOUND.**
   Keep design‑time hypothetical timelines and run‑time actual logs separate; route resource statements for phases to **Γ\_work** (not Γ\_time).
 
-
 ### B.1.4:6 - Archetypal grounding (worked micro‑examples)
 
 Use these as templates; each fits on a page and references the obligations above.
@@ -253,7 +243,6 @@ Use these as templates; each fits on a page and references the obligations above
 * **TIME‑WLNK:** If v2 violated a key citation, overall reliability over `[v1,v3]` is capped by that epoch unless the violation is explicitly retracted and corrected in v3 (documented change).
 * **Routing:** Γ\_epist aggregates the conceptual whole at each version; Γ\_time composes the revision history.
 
-
 ### B.1.4:7 - Conformance Checklist (normative checklist)
 
 | ID            | Requirement                                                                                                                                                                     | Purpose                                       |
@@ -267,7 +256,6 @@ Use these as templates; each fits on a page and references the obligations above
 | **CC‑B1.4.7** | Structural inclusion, mappings, and resource spending SHALL NOT be encoded as order/time edges; route to **Γ\_sys and Γ\_epist**, value-level links, or **Γ\_work** respectively. | Enforce A.15 Strict Distinction.              |
 | **CC‑B1.4.8** | If coverage breaks or identity changes, the modeller SHALL refactor the graph or declare a **Meta‑Holon Transition** (B.2).                                                     | Make emergence explicit.                      |
 
-
 ### B.1.4:8 - Anti‑patterns and their fixes
 
 | Anti‑pattern                         | Symptom                                                     | Fix                                                                                                                     |
@@ -278,7 +266,6 @@ Use these as templates; each fits on a page and references the obligations above
 | **Overlapping phases**               | Two `PhaseOf` intervals for the same carrier overlap        | Split the intervals or justify overlap as measurement resolution; otherwise fold is invalid.                            |
 | **DesignRunTag chimera**               | Mixing run logs with design plan in one Γ\_ctx/Γ\_time fold | Split into two graphs by scope; relate through a Transformer or mapping at value level.                                 |
 | **Cost in Γ\_time**                  | Trying to sum energy in Γ\_time                             | Route costs to Γ\_work per phase; Γ\_time composes history, not expenditure.                                            |
-
 
 ### B.1.4:9 - Consequences
 
@@ -296,11 +283,9 @@ Use these as templates; each fits on a page and references the obligations above
 * **Limited parallelism:** Where branches are not independent, concurrency must be curtailed.
   *Mitigation:* regroup steps; elevate shared state to explicit interfaces.
 
-
 ### B.1.4:10 - Rationale (informative)
 
 This pattern implements **A.15’s ordered relations** (`SerialStepOf`, `ParallelFactorOf`) and leverages **A.14’s `PhaseOf`** for timeline; consistent with **Strict Distinction**: order and time are not structure, and costs are not history. The adapted invariants (NC‑1..3 and T‑1..3) give precise replacements for COMM/LOC where these do not hold, while retaining WLNK and MONO. The result is a small, stable interface that matches how engineers and researchers already argue about procedures and histories, without importing domain‑specific notations into the kernel.
-
 
 ### B.1.4:11 - Relations
 

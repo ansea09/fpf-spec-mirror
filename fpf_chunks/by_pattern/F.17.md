@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.17.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
-line_start: 74190
-line_end: 74486
+line_start: 74782
+line_end: 75075
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -73,7 +73,6 @@ Without a single sheet:
 
 **UTS** fixes this by putting the **unification decision** and the **cross‑context evidence** on **one line** per concept.
 
-
 ### F.17:3 - Forces
 
 | Force                             | Constraint in UTS                                                                                                   |
@@ -82,7 +81,6 @@ Without a single sheet:
 | **Parsimony vs. recall**          | Each row is one concept; the UTS as a whole demonstrates heterogeneity across ≥ 3 domain families (A.8). Rows may cite fewer Contexts when the concept truly appears in fewer.                   |
 | **Locality vs. comparability**    | Senses are **Context‑scoped** (E.10.D1). Cross‑context relations are shown only as **explicit bridges** (F.9) with **CL**. |
 | **General usability**             | Sheet must be **legible on paper** and **memorisable** (block structure, stable row order).                         |
-
 
 ### F.17:4 - Core Idea
 
@@ -215,7 +213,7 @@ Do not mix **Discipline Columns (DC)** in Layout A. Columns here are only **Boun
    * **Π (Conjunctive/Compositional):** concept composes by required conjunction (all‑of), not by averaging.
    * **μ (Micro/Atomic):** concept is inherently micro‑level (per single execution/holder).
      *(Tags aid teaching; they do not change semantics.)*
-5. **Strict Distinction.** Use `U.Method` vs `U.MethodDescription`, `U.Work` vs `U.WorkDescription`, `U.Role` vs `U.RoleCharacterisation` correctly; do **not** collapse intensional objects with their descriptions.
+5. **Strict Distinction.** Use `U.Method` vs `U.MethodDescription`, `U.Work` vs `U.WorkDescription`, `U.Role` vs `U.RoleCharacterisation` correctly; do **not** collapse entities of concern with their Description epistemes.
 6. **Dual register.** Every row has **Tech** and **Plain** labels per F.5.
 7. **One‑breath rationale.** The `Unification Rationale` is a **single sentence** explaining the conceptual sameness despite local wording.
 8. **Unified naming neutrality.** The **Unified Tech name** is the neutral FPF choice per F.5; it is **not** lifted wholesale from any single Context unless the Concept‑Set justification (F.7) shows identity.
@@ -316,7 +314,6 @@ _(Choose 3–5 that fit the thread; do not place Contexts here.)_
 * **Re‑blocking.** If the Block Plan changes, keep row ids stable; move rows between blocks rather than renumbering.
 * **Context growth.** When adding a new Context, populate SenseCells progressively; do not claim coverage until ≥ 1 row per block cites it.
 * **Name evolution.** Update **Plain** labels freely for pedagogy; change **Tech** labels only via F.5 with clear S‑rules.
-
 
 ### F.17:17 - FAQ (authoring hygiene)
 

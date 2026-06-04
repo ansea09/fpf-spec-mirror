@@ -6,12 +6,12 @@ section_id: "A.1.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.1.1 — U.BoundedContext: The Semantic Frame"
   - "A.1.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 1445
-line_end: 1456
+line_start: 1447
+line_end: 1458
 dependencies:
   - "A.1"
   - "A.2.1"
@@ -36,7 +36,7 @@ keywords:
 
 These failure modes recur when applying `U.BoundedContext` in real programs and knowledge work.
 
-| Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
+| Anti-pattern | Symptom | Why it fails | How to avoid / repair |
 | :--- | :--- | :--- | :--- |
 | **Domain-as-Context** | “Healthcare” or “Physics” is used where a specific context is required. | Violates Domain-family convenience vs precision; meaning stays ambiguous. | Use a specific context id (edition- and source-scoped), and keep the domain label as informative family metadata only. |
 | **Implicit equivalence across contexts** | The same string in two contexts is treated as “obviously the same”. | Violates local coherence; creates silent semantic overwrites. | Publish an explicit Bridge with relation kind and loss/fit note (F.9 / E.10.U9). |

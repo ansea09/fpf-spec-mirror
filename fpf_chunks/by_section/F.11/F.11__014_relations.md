@@ -6,12 +6,12 @@ section_id: "F.11:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__014_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:13 — Relations"
-line_start: 72494
-line_end: 72508
+line_start: 73180
+line_end: 73193
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -52,5 +52,4 @@ E.10.D1 **D.CTX** (Context ≡ `U.BoundedContext`); A.3/**A.3.1**/**A.3.2**/**A.
 
 **Used by.**
 Part C patterns (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) when describing examples, proofs, and cross‑disciplinary mappings.
-
 

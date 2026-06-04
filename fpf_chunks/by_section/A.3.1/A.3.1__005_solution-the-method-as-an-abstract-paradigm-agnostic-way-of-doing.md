@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution — the method as an abstract, paradigm‑agnostic “way of doing”"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution-the-method-as-an-abstract-paradigm-agnostic-way-of-doing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:4 — Solution — the method as an abstract, paradigm‑agnostic “way of doing”"
-line_start: 5846
-line_end: 5919
+line_start: 5761
+line_end: 5832
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,7 +62,6 @@ Typical **MethodDescription forms** include:
 
 **Semantic identity criterion (context‑local).** Two MethodDescriptions **describe the same `U.Method`** in a given `U.BoundedContext` iff, for all admissible inputs and conditions recognized by that context, they entail the **same preconditions**, **guarantee the same postconditions/effects**, and satisfy the **same non‑functional bounds** (allowing permitted non‑determinism). Internal control‑flow/search details may differ.
 
-
 #### A.3.1:4.3 - Method vs MethodDescription vs Work (quick litmus)
 
 | You have in your hand…           | In FPF it is…                 | Why                                                                             |
@@ -107,5 +106,4 @@ Thus, welding, milling, reagent mixing, and proof construction are all **Methods
 #### A.3.1:4.7 - Context anchoring
 
 `U.Method` is **local to a `U.BoundedContext`**: terminology, admissible pre/postconditions, and non‑functional constraints are interpreted **inside that context**. If two teams or theories use the same name for different “ways of doing,” they are different Methods in different contexts unless bridged explicitly.
-
 

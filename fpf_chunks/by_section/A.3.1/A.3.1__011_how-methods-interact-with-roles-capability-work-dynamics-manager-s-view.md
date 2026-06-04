@@ -6,12 +6,12 @@ section_id: "A.3.1:10"
 section_title: "How Methods interact with Roles, Capability, Work, Dynamics (manager’s view)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__011_how-methods-interact-with-roles-capability-work-dynamics-manager-s-view.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:10 — How Methods interact with Roles, Capability, Work, Dynamics (manager’s view)"
-line_start: 6020
-line_end: 6027
+line_start: 5930
+line_end: 5936
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,5 +41,4 @@ keywords:
 * **Capability (ability).** Steps may require **thresholds** (e.g., “precision ≤ 0.2 mm”). They are checked against the **holder’s `U.Capability`** in the context/envelope.
 * **Work (execution).** Each run records `isExecutionOf → MethodDescription` (the spec used) and `performedBy → RoleAssigning`. Logs, resources, and timestamps live here.
 * **Dynamics (laws/models).** Methods may cite or assume a Dynamics model; runs may attach traces that are explained by that model. Do not label the model itself as the Method.
-
 

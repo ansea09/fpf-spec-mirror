@@ -6,12 +6,12 @@ section_id: "F.0.1:5"
 section_title: "Reasoning Primitives (judgement schemata; pure, side‑effect‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__006_reasoning-primitives-judgement-schemata-pure-side-effect-free.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:5 — Reasoning Primitives (judgement schemata; pure, side‑effect‑free)"
-line_start: 68286
-line_end: 68306
+line_start: 69151
+line_end: 69170
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -56,5 +56,4 @@ keywords:
 * **Bridge‑to‑Concept‑Set hint** *(for F.7)*
   `Bridge(x@A, y@B, rel≈equiv, CL≥k) ⊢ candidate_same_row(x, y)`
   *Reading:* High-CL, near‑equivalence bridges can *nominate* cells for one Concept‑Set row (final decision in F.7).
-
 

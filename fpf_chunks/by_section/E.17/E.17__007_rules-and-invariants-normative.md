@@ -6,12 +6,12 @@ section_id: "E.17:6"
 section_title: "Rules and Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__007_rules-and-invariants-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:6 — Rules and Invariants (normative)"
-line_start: 62204
-line_end: 62253
+line_start: 63090
+line_end: 63137
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -41,11 +41,9 @@ keywords:
 
 1. `identity`: `Emit_s(id_X)` is the identity view for `ViewObj_s(X)`.
 2. `composition witness`: the published face for `g∘f` matches the composition of the published faces for `f` and `g`, or the face is marked non-compositional or explanatory-only.
-3. `no-new-claim diff`: red-line against the governing D-side or S-side episteme shows formatting, indexing, pinning, or view-refinement work only.
+3. `no-new-claim diff`: red-line against the governing Description episteme, including any Description episteme admitted for specification use, shows formatting, indexing, pinning, or view-refinement work only.
 4. `monotone promotion`: promotion from a plainer face to a richer face adds fields, pins, or typing without retracting or strengthening the source claim.
 5. `scope non-widening`: `PublicationScope` stays within the relevant `ClaimScope` or `WorkScope`, and promotion does not widen it.
-
-
 
 For any composable arrows `X —f→ Y —g→ Z` in `U`, and any `s, t ∈ Σ_viewpoints`:
 
@@ -62,10 +60,10 @@ For any composable arrows `X —f→ Y —g→ Z` in `U`, and any `s, t ∈ Σ_v
     * (c) **Coherence:** `PromoteView[s→s]_X = id_{ViewObj_s(X)}`, and if `s ⪯ t ⪯ u` then `PromoteView[s→u]_X = PromoteView[t→u]_X ∘ PromoteView[s→t]_X` for all `X`.
     * *Defaults:* `PlainView ⪯ TechCard ⪯ InteropCard`.
     * *Note:* `AssuranceLane` is independent of the formality chain; it binds **evidence‑about‑claims** and MUST NOT introduce new claims **of** the morphism.
-3. **D-side and S-side sourcing and EpistemicViewing compatibility (A.7 and E.10.D2, A.6.2–A.6.3, E.17.0).**
-    * (a) Inputs to `Emit_s(-)` are **existing D-side or S-side epistemes** about the same arrow (for example, `MethodDescription`, `MethodSpec`) produced by `Describe_ID` and `Specify_DS` or `Formalize_DS` in A.7 and E.10.D2. MVPK does **not** redefine or collapse these I→D→S morphisms.
-    * (b) Each `Emit_s(-)` SHALL be realised as a species of `U.EpistemicViewing` (A.6.3) over those D-side or S-side epistemes: describedEntity‑preserving, effect‑free and conservative in the sense of A.6.2 and A.6.3. Publication adds no new commitments beyond what is present in the referenced D-side or S-side epistemes.
-    * (c) Edition governance respects `U.EditionSeries` and UTS; rows remain the identity anchors for names; MVPK faces MUST be (re‑)emitted when the underlying D-side or S-side editions change.
+3. **Description-source and specification-use sourcing and EpistemicViewing compatibility (A.7 and E.10.D2, A.6.2–A.6.3, E.17.0).**
+    * (a) Inputs to `Emit_s(-)` are **existing Description epistemes** about the same arrow (for example, `MethodDescription`, `MethodSpec` when specification use has been granted by exact neighbouring gates). MVPK does **not** redefine, collapse, or create EntityOfConcern-to-Description or specification-use mechanisms.
+    * (b) Each `Emit_s(-)` SHALL be realised as a species of `U.EpistemicViewing` (A.6.3) over those Description epistemes: entityOfConcern‑preserving, effect‑free and conservative in the sense of A.6.2 and A.6.3. Publication adds no new commitments beyond what is present in the referenced Description episteme.
+    * (c) Edition governance respects `U.EditionSeries` and UTS; rows remain the row identity handles for names; MVPK faces MUST be (re‑)emitted when the underlying Description-episteme or specification-use editions change.
 4. **Pin discipline (Part F and Part G).**
      * Any numeric or comparable content in a view SHALL pin {UnitType, ScaleKind, ReferencePlane}. **EditionId MAY be coarse at Lean profiles**; if units and scale are unknown, **declare ordinal compare-only** and **forbid arithmetic** until CHR pins are available.  Pins upgrade monotonically with profile and risk.
 5. **No Γ‑leakage (publication independence).**

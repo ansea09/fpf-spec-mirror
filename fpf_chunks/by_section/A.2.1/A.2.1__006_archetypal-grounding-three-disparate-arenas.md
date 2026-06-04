@@ -6,12 +6,12 @@ section_id: "A.2.1:5"
 section_title: "Archetypal Grounding (three disparate arenas)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__006_archetypal-grounding-three-disparate-arenas.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
   - "A.2.1:5 — Archetypal Grounding (three disparate arenas)"
-line_start: 2021
-line_end: 2114
+line_start: 2015
+line_end: 2106
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -64,7 +64,6 @@ Natural systems note. Spontaneous physical phenomena (e.g., Moon orbiting Earth)
 **Enactment (gated by RSG).**
 A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderRole:AssemblyLine_2025` and an **Active** `StateAssertion` covers the timestamp. If the torch‑health checklist fails, RSG transitions `Active → Suspended`; further seams are blocked by **RE‑5**.
 
-
 #### A.2.1:5.2 - Software & cloud operations (continuous delivery / SRE)
 
 **Roles (families).**
@@ -96,7 +95,6 @@ A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderR
 
 * A deployment `Work` is valid only with `performedBy: sCG‑Spec_ci_bot#DeployerRole:CD_Pipeline_v7` **and** `Active` state asserted for the moment of start.
 * Declaring `Incident SEV‑1` is a **SpeechAct Work** performed by `Alex#IncidentCommanderRole:SRE_Prod` in **Engaged** state; it changes deontic conditions (e.g., elevates `RollbackAuthority`).
-
 
 #### A.2.1:5.3 - Knowledge governance (standards & requirements)
 

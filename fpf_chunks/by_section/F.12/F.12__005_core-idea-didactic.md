@@ -6,12 +6,12 @@ section_id: "F.12:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__005_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:4 — Core idea (didactic)"
-line_start: 72583
-line_end: 72596
+line_start: 73262
+line_end: 73274
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -44,5 +44,4 @@ Acceptance is a **quadruple of anchors** (all context‑local):
 
 A **Predicate** compares the **Measure** against the **Clause** within the **Window**.
 The **Status** (Satisfied/Violated/Inconclusive) attaches to **ClauseCell\@Window about WorkCell**, never to a plan.
-
 

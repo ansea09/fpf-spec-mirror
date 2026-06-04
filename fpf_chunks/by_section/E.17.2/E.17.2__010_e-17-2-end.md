@@ -6,16 +6,15 @@ section_id: "E.17.2:End"
 section_title: "E.17.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_e-17-2-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:End — E.17.2:End"
-line_start: 61770
-line_end: 61771
+line_start: 62668
+line_end: 62669
 dependencies:
   - "A.1"
-  - "A.6.2"
-  - "A.6.4"
+  - "A.6.2-A.6.4"
   - "A.7"
   - "C.2.1"
   - "E.10.D2"
@@ -25,18 +24,9 @@ dependencies:
   - "E.18"
   - "E.TGA"
   - "F.18"
-  - "U.Episteme"
-  - "U.EpistemeSlotGraph"
   - "U.MultiViewDescribing"
-  - "U.System"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "E.TGA bindings"
-  - "EoIClass = U.Holon"
-  - "Functional/Procedural/Role-Enactor/Module-Interface views"
-  - "ISO 42010 mapping"
-  - "engineering viewpoints"
-  - "holon"
 ---
 
 ### E.17.2:End

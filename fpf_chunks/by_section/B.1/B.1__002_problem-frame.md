@@ -6,12 +6,12 @@ section_id: "B.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:1 — Problem Frame"
-line_start: 28157
-line_end: 28161
+line_start: 28375
+line_end: 28378
 dependencies:
   - "A.1"
   - "A.9"
@@ -33,5 +33,4 @@ keywords:
 ### B.1:1 - Problem Frame
 
 FPF views reality as a **nested holarchy**: parts -> assemblies -> systems -> ecosystems; axioms -> lemmas -> theories -> paradigms (this is only example; the exact holarchy of holons is project-dependent). Each level is a **`U.Holon`** that becomes part of a wider holon only **after** an explicit act of construction has glued the parts together. That act is performed by a physical *Transformer* playing `TransformerRole` executing a method over an explicit **Dependency Graph**. Without a domain-neutral *law of composition* binding these moves, the logical relation between scales would break, violating the core rule **Cross-Scale Consistency**.
-
 

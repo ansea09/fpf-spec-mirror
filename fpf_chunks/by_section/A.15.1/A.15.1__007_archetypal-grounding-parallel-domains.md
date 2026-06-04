@@ -6,12 +6,12 @@ section_id: "A.15.1:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:6 — Archetypal grounding (parallel domains)"
-line_start: 19722
-line_end: 19752
+line_start: 19777
+line_end: 19806
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -70,5 +70,4 @@ keywords:
 * **Performer:** `LabRig_7#TransformerRole:ThermoLab`.
 * **Work identity:** the **path in state‑space** traced during the interval; outputs: heat/work tallies.
 * **Γ\_time:** straightforward interval; **Γ\_work:** integrates energy exchange; no “steps” required.
-
 

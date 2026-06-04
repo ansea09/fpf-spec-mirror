@@ -6,12 +6,12 @@ section_id: "A.11:4"
 section_title: "Solution — Four‑Gate Minimal‑Sufficiency Protocol"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__005_solution-four-gate-minimal-sufficiency-protocol.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:4 — Solution — Four‑Gate Minimal‑Sufficiency Protocol"
-line_start: 18543
-line_end: 18559
+line_start: 18614
+line_end: 18629
 dependencies:
   - "A.11"
   - "U.Type"
@@ -37,5 +37,4 @@ A proposal to add a `U.Type` or core relation **MUST** clear **all four gates** 
 A cleared type enters the kernel **provisionally** with a timer (default = 4 quarters). If usage count remains zero at expiry, the type faces *Sunset Review*: delete, demote to Extention Pattern, or renew with fresh evidence.
 
 > *Manager’s mnemonic:* **“Compose, Unique, Functional, Crisp — or sunset.”**
-
 

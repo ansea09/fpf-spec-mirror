@@ -6,12 +6,12 @@ section_id: "A.11:11"
 section_title: "Open Questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__012_open-questions.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:11 — Open Questions"
-line_start: 18612
-line_end: 18617
+line_start: 18678
+line_end: 18683
 dependencies:
   - "A.11"
   - "U.Type"
@@ -24,7 +24,7 @@ keywords:
 
 ### A.11:11 - Open Questions
 
-1. **Hard size cap** — should the kernel enforce an absolute limit (e.g., 64 live types) beyond which any new entry forces retirement of an old one?
+1. **Hard size cap** — should the kernel enforce an absolute limit (e.g., 64 live types) beyond which any new entry-selection effects retirement of an old one?
 2. **Semantic similarity tooling** — can embedding models automate Gate G‑2 overlap detection reliably across domains?
 3. **Gate calibration** — is default Sunset Timer (4 quarters) optimal for research‑oriented patterns with slower adoption and evidence accumulation?
 

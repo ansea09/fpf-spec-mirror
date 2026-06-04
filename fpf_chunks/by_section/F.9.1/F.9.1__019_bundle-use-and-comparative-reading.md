@@ -6,12 +6,12 @@ section_id: "F.9.1:18"
 section_title: "Bundle Use and Comparative Reading"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__019_bundle-use-and-comparative-reading.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:18 — Bundle Use and Comparative Reading"
-line_start: 71812
-line_end: 71822
+line_start: 72530
+line_end: 72540
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

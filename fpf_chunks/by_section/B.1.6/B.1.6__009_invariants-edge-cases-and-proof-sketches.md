@@ -6,12 +6,12 @@ section_id: "B.1.6:8"
 section_title: "Invariants — edge cases and proof sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__009_invariants-edge-cases-and-proof-sketches.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:8 — Invariants — edge cases and proof sketches"
-line_start: 29928
-line_end: 29963
+line_start: 30075
+line_end: 30110
 dependencies:
   - "A.12"
   - "A.14"

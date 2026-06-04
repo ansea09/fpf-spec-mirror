@@ -6,12 +6,12 @@ section_id: "F.9:15"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__017_migration-notes-conceptual.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:15 — Migration notes (conceptual)"
-line_start: 71466
-line_end: 71475
+line_start: 72189
+line_end: 72197
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -54,5 +54,4 @@ keywords:
 4. **senseFamily refactor.** If a Cell’s senseFamily was mis-typed, fix the senseFamily first in F.3, then revisit Bridges; **Interpretation** is safer than forced substitution.
 5. **Row under-protected.** If a row’s scope exceeds the weakest Bridge, either **split the row** by Context or **downgrade scope** to Naming-only.
 6. **Bridge sprawl.** Consolidate near-duplicates into one Bridge with richer **Loss Notes**; retire the rest.
-
 

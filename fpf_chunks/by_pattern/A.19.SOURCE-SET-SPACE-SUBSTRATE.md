@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SOURCE-SET-SPACE-SUBSTRATE.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
-line_start: 22882
-line_end: 23422
+line_start: 23105
+line_end: 23641
 dependencies:
   - "A.0"
   - "A.17"
@@ -43,7 +43,7 @@ keywords:
 
 **Plain-name.** Source-set / search-outcome-space substrate.
 
-**Governed object.** The declared relation-and-ref-position stack that links one recoverable source set to search-side and outcome-side references over `A.19` `CharacteristicSpace`, states how those two refs relate, and makes the source-to-outcome relation plus its distortion, uncertainty, or error posture explicit enough to guide use.
+**Declared relation-and-ref-position stack.** The declared relation-and-ref-position stack that links one recoverable source set to search-side and outcome-side references over `A.19` `CharacteristicSpace`, states how those two refs relate, and makes the source-to-outcome relation plus its distortion, uncertainty, or error posture explicit enough to guide use.
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:0 - Use this when
 
@@ -125,7 +125,6 @@ Common confusion to kill early: `DescriptorMapRef`, distance definitions, and `O
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:1 - Problem frame
 
-
 In many search, synthesis, and source-set/space-substrate lines, the live substrate-bearing line is not just one `CharacteristicSpace` and not just one published shortlist or archive either. The line actually depends on a stack such as:
 
 - one declared source set, for example one front, archive, palette, or another declared source-set family;
@@ -165,7 +164,7 @@ How should one declare a source-set and search/outcome-space line so that:
 
 Declare the source-set or search/outcome-space line through one explicit substrate stack, keep only the load-bearing core mandatory, and place every heavier requirement in conditional fields, interpretive qualifiers, or companion declarations.
 
-#### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.1 - Governed object and outside work
+#### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.1 - Declared relation-and-ref-position stack and outside work
 
 Use this pattern to declare only the substrate stack below:
 
@@ -421,7 +420,6 @@ If a neighboring passage would change the source-to-outcome relation or the dist
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:5 - Archetypal Grounding
 
-
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.1 - System
 
 **Tell.** One QD line keeps saying that one archive is both the search-side role and the evaluation basis. Downstream readers need to see that the same declared `CharacteristicSpace` can still occupy two different role positions without turning the archive or the descriptor layer into the space itself.
@@ -490,7 +488,6 @@ Use the pattern this way across different working situations:
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:6 - Bias-Annotation
 
-
 - **Gov bias.** The pattern prefers explicit declaration over convenient shorthand.
 - **Arch bias.** The pattern keeps substrate, interpretive view, and publication consumers separated even when one merged story would read more smoothly.
 - **Prag bias.** The pattern prefers a short explicit substrate declaration that can be reused across search, synthesis, and publication-adjacent lines.
@@ -516,7 +513,6 @@ Treat a line as conforming only if every gate below passes.
 | `CC-A19SS-12` | Does the current use claim only the breadth its declared posture and qualifiers actually license? | The prose implies universal geometric closure or one universal heavy-qualification story, but the declared posture or qualifiers stay narrower, uncertain, learned/adaptive, or case-bound. | Narrow the claim explicitly or add the missing posture/interpretive qualifiers that make the broader claim honest. |
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:8 - Common Anti-Patterns and How to Avoid Them
-
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |

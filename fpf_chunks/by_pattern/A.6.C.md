@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.C.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
-line_start: 8476
-line_end: 8796
+line_start: 8335
+line_end: 8655
 dependencies:
   - "A.15.1"
   - "A.2.3"
@@ -61,7 +61,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → **A.6 Signature Stack & Boundary Discipline**
-> **Builds on:** A.6 (stack + routing intent), **A.6.B** (L/A/D/E), **A.6.8 (RPR‑SERV)** (service‑cluster polysemy unpacking), **A.7** (Object≠Description≠Carrier), **A.2.3** (`U.PromiseContent` / promise content), **A.2.4** (`U.EvidenceRole`), **A.2.8** (`U.Commitment`), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), E.10 (L‑SERV / LEX‑BUNDLE), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance/evidence discipline)
+> **Builds on:** A.6 (stack + routing intent), **A.6.B** (L/A/D/E), **A.6.8 (RPR‑SERV)** (service‑cluster polysemy unpacking), **A.7** (EntityOfConcern / Description episteme / carrier), **A.2.3** (`U.PromiseContent` / promise content), **A.2.4** (`U.EvidenceRole`), **A.2.8** (`U.Commitment`), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), E.10 (L‑SERV / LEX‑BUNDLE), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance/evidence discipline)
 > **Lexical anchor:** **F.18** (NQD front for the *service (promise) / utterance / commitment* triad; naming, not ontology)
 > **Mint/reuse (terminology):** Reuses “contract / SLA / guarantee” as Plain-level boundary shorthand; mints **Contract Bundle** as an unpacking lens (not a new entity kind), plus optional register columns (`bundleId` / `bundlePart` / `faceRefs`). **NQD-front seeds (informative):** contract packet, agreement bundle, boundary bundle (chosen: *Contract Bundle* for low collision with existing “bundle” terms).
 > **Purpose (one line):** Prevent “contract soup” and agency misattribution by unpacking contract-language into distinct promise‑content, utterance package, commitment, and work+evidence (adjudication substrate) parts and routing each part into the Boundary Norm Square.
@@ -286,7 +286,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 
 * **Gov bias:** prefers explicit accountability and adjudication hooks; increases clarity but adds authoring overhead.
 * **Arch bias:** optimises evolvability by preventing hidden coupling (contract soup) across stack layers.
-* **Onto/Epist bias:** enforces Object≠Description≠Carrier separation; discourages “interface-as-agent” metaphors in Tech prose.
+* **Onto/Epist bias:** enforces EntityOfConcern / Description episteme / carrier separation; discourages “interface-as-agent” metaphors in Tech prose.
 * **Prag bias:** accepts that “contract” is common vocabulary; offers a disciplined rewrite rather than prohibition.
 * **Did bias:** aims to be teachable via repeated unpacking examples across boundary types.
 
@@ -327,7 +327,7 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
 | **Guarantee-without-substrate**                     | “Guarantee” is empty unless it is L, D, or E                   | Decide: semantic law (L), deontic commitment (D), or evidenced property (E)                 |
 | **SLA smuggled into laws**                          | Mixes governance with semantics; breaks substitution reasoning | Put SLA targets as D claims referencing L-defined metrics and E evidence                    |
 | **Gate written as obligation**                      | Confuses admissibility predicates with duties                  | Write predicate as A; write duty-to-gate as D→A reference                                   |
-| **Evidence as prose property** (“document proves…”) | Violates Object≠Description≠Carrier                            | State evidence as E claims about carriers produced/observed in work                         |
+| **Evidence as prose property** (“document proves…”) | Violates EntityOfConcern / Description episteme / carrier                            | State evidence as E claims about carriers produced/observed in work                         |
 | **Face-level paraphrase drift**                     | Creates multiple incompatible contracts                        | Faces should reference canonical claims; keep commitments centralized                       |
 | **Cross‑scale contract collapse**                   | Different agents claim incompatible “contracts” at different scales or contexts | Represent each as separate, scoped `D-*` claims (with accountable roles + Context); apply conflict or mediation patterns rather than collapsing them into one “contract”. |
 
@@ -370,7 +370,7 @@ F.18 provides the **naming** intuition (service/promise vs utterance vs commitme
 
 * **Coordinates with**
 
-  * **A.7** (Object≠Description≠Carrier) for correct placement of evidence claims.
+  * **A.7** (EntityOfConcern / Description episteme / carrier) for correct placement of evidence claims.
   * **F.12** (service acceptance) for structuring how promise-level commitments connect to evidence and acceptance windows.
   * **E.17** MVPK “no new semantics” rule to prevent publication faces from becoming new contracts.
 

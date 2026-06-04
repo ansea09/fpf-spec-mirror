@@ -6,42 +6,28 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
-line_start: 33324
-line_end: 34154
+line_start: 33432
+line_end: 34253
 dependencies:
   - "A.1"
-  - "A.6.2"
-  - "A.6.4"
+  - "A.6.2-A.6.4"
   - "A.6.5"
+  - "A.7"
   - "B.1.3"
   - "C.2"
   - "E.10.D2"
   - "E.17"
-  - "E.17.0"
-  - "E.17.2"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
-  - "U.MultiViewDescribing"
-  - "U.RelationSlotDiscipline"
+  - "E.17.0-E.17.2"
+  - "E.18"
 keywords:
-  - "ClaimGraphSlot"
-  - "DescribedEntitySlot"
-  - "EpistemeSlotGraph"
-  - "GroundingHolonSlot"
-  - "ReferenceScheme"
-  - "RepresentationScheme"
-  - "Viewpoint and View"
-  - "ViewpointSlot"
-  - "episteme"
 ---
 
 ## C.2.1 - U.Episteme — Epistemes and their slot graph
 
-> **One-line summary.** `U.Episteme` is the holon type for epistemes; its internal ontology is given by `U.EpistemeSlotGraph`, which replaces the legacy **semantic triangle** with a typed graph n-ary relation over `DescribedEntity`, `GroundingHolon`, `ClaimGraph`, `Viewpoint`, `View`, and `ReferenceScheme`, aligned with `U.RelationSlotDiscipline` and ready for both symbolic and distributed representations.
+> **One-line summary.** `U.Episteme` is the holon type for epistemes; its internal ontology is given by `U.EpistemeSlotGraph`, a typed graph n-ary relation over `EntityOfConcern`, `GroundingHolon`, `ClaimGraph`, `Viewpoint`, `View`, and `ReferenceScheme`, aligned with `U.RelationSlotDiscipline` and ready for both symbolic and distributed representations. A coarse Symbol-Concept-Object triangle may be used only as a didactic projection of this graph, not as the normative ontology.
 
 ### C.2.1:1 - Context
 
@@ -56,42 +42,44 @@ KD‑CAL (C.2) needs a precise notion of **what an episteme is** and **how it me
 * the representational machinery (notations, carriers, operations) we use to work with it.
 
 Contemporary work on **formal languages as cognitive artifacts** (Dutilh Novaes), **operational iconicity** of notations (Krӓmer), **material engagement** (Malafouris), **distributed representations** and **latent‑space communication** in ML, and **tool‑augmented reasoning** (ReAct‑style agent loops) shows that:
-* the relation between an episteme and its **DescribedEntitySlot** is not a single “Object-vertex”: it involves explicit **slots and morphisms** (described-entity mapping, grounding, evaluation) typed by SlotKinds and contexts;
-* **representations** come in heterogeneous forms (symbolic, diagrammatic, latent, interactive), with very different **supported operations**;
+* the relation between an episteme and its **EntityOfConcernSlot** is not a single undifferentiated “Object” vertex: it involves explicit **slots and morphisms** (EntityOfConcern-reference mapping, grounding, evaluation) typed by SlotKinds and contexts;
+* **representations** come in heterogeneous forms (symbolic, diagrammatic, latent, interactive), with very different **admissible operations**;
 * **inference** is often **mixed‑mode**: symbolic reasoning plus calls to tools, solvers, and learned models.
 
 FPF therefore needs a **more modular, graph‑shaped ontology** for epistemes which:
-* keeps **KD‑CAL** and I/D/S discipline intact,
+* keeps **KD-CAL** and `EntityOfConcern` / Description-episteme boundary plus specification use/refinement discipline intact,
 * is compatible with **A.6.0/A.6.5** signatures (`SlotKind`/`ValueKind`/`RefKind`),
 * can be used uniformly by A.6.2–A.6.4 (epistemic morphisms) and E.17.* (views & publication),
-* and demotes the old non-SoTA **semantic triangle** to a **didactic projection**, not the normative ontology.
+* and keeps the coarse **semantic triangle** only as a **didactic projection**, not the normative ontology.
 
 In this pattern:
 * `U.Episteme` is the **holon genus** for epistemes (C.2), with components and identity governed by A.1/A.6.0/A.7.
-* `U.EpistemeSlotGraph` names the **internal ontology graph** of `U.Episteme`: the small, typed n-ary relation over episteme positions (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) on which KD-CAL, A.6.2–A.6.4 and E.17.* rely.
+* `U.EpistemeSlotGraph` names the **internal ontology graph** of `U.Episteme`: the small, typed n-ary relation over episteme positions (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) on which KD-CAL, A.6.2–A.6.4 and E.17.* rely.
 * Species such as `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` are holonic realisations of `U.Episteme` whose component structure is constrained to be compatible with `U.EpistemeSlotGraph`.
+
+**Adopted EntityOfConcern family.** C.2.1 uses `EntityOfConcernSlot`, `entityOfConcernRef`, `EntityOfConcernRef`, `EntityOfConcernChangeMode`, and `EntityOfConcernClass` as the adopted slot/ref/class family. These names are the current C.2.1 vocabulary and must not be shadowed by a second episteme ontology.
 
 ### C.2.1:2 - Problem
 
 Without a shared **episteme constitution**, teams fall into recurring failure modes:
 
-1. **Object–Description–Carrier soup.** Diagrams and files are treated as *the theory itself*. Changes to a PDF are confused with theoretical change.
-2. **DescribedEntity blur.** A spec seems to describe “everything in general”. The **DescribedEntitySlot** - what exactly this knowledge describes - is implicit and drifts, while the **GroundingHolonSlot** that would say where the claim is grounded is also missing.
+1. **EntityOfConcern-Description episteme-publication carrier soup.** Diagrams and files are treated as *the theory itself*. Changes to a PDF are confused with theoretical change.
+2. **EntityOfConcern blur.** A spec seems to describe “everything in general”. The **EntityOfConcernSlot** - what exactly this knowledge describes - is implicit and drifts, while the **GroundingHolonSlot** that would say where the claim is grounded is also missing.
 3. **Proof vs program confusion.** Algorithms, specifications, and proofs are mixed: a “proof” is used as if it were a tested routine; a “program” is cited as if it entailed a theorem (Curry–Howard misunderstood).
-4. **Unanchored trust.** Claims accumulate with no explicit **justification graph** or **evidence freshness**, so assurance degrades invisibly.
+4. **Trust without evidence path.** Claims accumulate with no explicit **justification graph** or **evidence freshness**, so assurance degrades invisibly.
 5. **Category errors at execution.** Epistemes appear as *actors* (“the standard enforces…”) instead of **systems** acting *with* or *on* epistemes such as data sets or algorithms.
 
-The legacy non-SoTA “Semantic Triangle” treated an episteme as a holon with three components: **Concept** (ClaimGraph), **Object** (Reference Map), and **Symbol** (notation).
+The coarse Symbol-Concept-Object semantic triangle is useful only as a didactic projection over the richer slot graph: **Concept** approximates `ClaimGraph`, **Object** approximates `EntityOfConcern` plus `ReferenceScheme`, and **Symbol** approximates notation or representation tokens.
 
-This worked well for:
+This projection can still help with:
 * separating **meaning** (Concept) from **carriers**, and
 * integrating KD‑CAL’s **F–G–R** characteristics (Formality, ClaimScope, Reliability).
 
-But for current use‑cases it has structural blind spots:
+But the projection has structural blind spots when used as ontology:
 
-1. **No explicit DescribedEntity slot.**
-   The “Object vertex” bundles together *what the episteme is about* with *how we interpret and test it*. There is no explicit **slot** for the entity‑of‑interest (`U.Entity`) and no clear separation between:
-   * the **described entity**, and
+1. **No explicit EntityOfConcern slot.**
+   The “Object vertex” bundles together *what the episteme is about* with *how we interpret and test it*. There is no explicit **slot** for the entity of concern (`U.Entity`) and no clear separation between:
+   * the **EntityOfConcern value**, and
    * the **ReferenceScheme** used to read claims as statements about that thing.
 
 2. **Grounding collapses into Object.**
@@ -100,7 +88,7 @@ But for current use‑cases it has structural blind spots:
 3. **Viewpoints are not first‑class.**
    ISO‑style **viewpoints** (families of stakeholders, concerns, conformance rules) and their induced **views** appear only indirectly, via KD‑CAL or MVPK. There is no explicit `U.Viewpoint` / `U.View` pair at the episteme core, which makes it hard to:
 
-   * connect to I/D/S **DescriptionContext**,
+   * connect to **DescriptionContext** for Description epistemes, including Description epistemes admitted for specification use,
    * organize multi‑view descriptions (E.17.0), or
    * align publication viewpoints with engineering viewpoints.
 
@@ -115,15 +103,15 @@ But for current use‑cases it has structural blind spots:
 
 5. **No explicit signature discipline.**
    The triangle speaks of “Object/Concept/Symbol” but not of **slots** and **references** in the sense of A.6.5 `U.RelationSlotDiscipline`. In episteme this leads to:
-   * names where **slot, value and ref** are conflated (`DescribedEntityRef` used as if it were a slot),
-   * ambiguity between the **described entity** (what the episteme describes) and the **episteme** (the description),
+   * names where **slot, value and ref** are conflated (`EntityOfConcernRef` used as if it were a slot),
+   * ambiguity between the **EntityOfConcern value** (what the episteme describes) and the **episteme** (the description),
    * fragile interoperability with signatures for roles, methods, services.
 
 Thus we have problems of:
-* **DescribedEntity drift.**
- Specifications and models accumulate without a stable notion of **which DescribedEntitySlot value they carry**; fields like `SubjectRef` are overloaded and resist safe refactoring.
+* **EntityOfConcern drift.**
+ Specifications and models accumulate without a stable notion of **which EntityOfConcernSlot value they carry**; fields like `SubjectRef` are overloaded and resist safe refactoring.
 * **Viewpoint confusion.**
-  Engineering, publication and governance views are mixed, making it hard to maintain consistency across surfaces or to reason about conformity of descriptions under different viewpoints.
+  Engineering, publication and governance views are mixed, making it hard to maintain consistency across publication faces/forms or to reason about conformity of descriptions under different viewpoints.
 * **Representation mismatches.**
   Trade‑offs between neural vs symbolic, diagrammatic vs textual, or interactive vs batch representations cannot be expressed at the episteme level; they leak into ad‑hoc tool descriptions.
 * **Broken modularity.**
@@ -137,22 +125,22 @@ We need a replacement for the triangle that keeps its **didactic clarity** but m
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **Geometry vs. operations**                    | Simple geometric pictures (triangles) are memorable; real epistemic work is **operational and graph‑shaped** (many nodes, many edges). |
 | **Universality vs. representation regimes**    | One ontology must accommodate symbolic calculi, diagrams, DSLs, interactive notebooks, and latent vectors.                             |
-| **Intension vs. description vs. spec (I/D/S)** | Intensional objects (I) are not epistemes; descriptions (D) and specifications (S) are. The core must honour Strict Distinction.       |
+| **EntityOfConcern vs. Description episteme and specification use/refinement** | The `EntityOfConcern` value is not the Description episteme produced by this describing, viewing, or morphing use; however, the EntityOfConcern value may itself be a `U.Episteme` when an episteme is the current `EntityOfConcern`. Specification is not a third peer class in C.2.1; it is a gated use or refinement of a Description episteme selected by neighbouring formality plus checkable constraint, harness, acceptance, C.16 measurement criterion, suffix, verification, or publication-expression discipline for an already admitted specification use. |
 | **Viewpoint locality vs. reuse**               | Viewpoints should be **local** to families of descriptions, yet we want reusable **viewpoint bundles** across domains (E.17.1/E.17.2). |
 | **Slot discipline vs. usability**              | A clean `SlotKind`/`ValueKind`/`RefKind` discipline is vital for reasoning, but must not render engineering episteme unreadable.             |
 | **Stability vs. SoTA evolution**               | The core must remain stable while integrating evolving practices: LLM tool‑use, ReAct‑style loops, structured cospans, optics, etc.    |
 
-### C.2.1:4 - Solution — from outdated semantic triangle to `U.EpistemeSlotGraph`
+### C.2.1:4 - Solution — `U.EpistemeSlotGraph` as the normative episteme ontology
 
 #### C.2.1:4.0 - Overview
 
-For `U.Episteme`, the legacy semantic triangle is replaced by `U.EpistemeSlotGraph` that is a **small, typed ontology graph** and an **n-ary relation view** over the core episteme positions:
+For `U.Episteme`, `U.EpistemeSlotGraph` is the normative **small, typed ontology graph** and **n-ary relation view** over the core episteme positions:
 
  **Nodes / positions / slots.**
   Minimal **kernel SlotKinds** (with their ValueKinds) that every episteme can refer to, following A.6.5:
-  * `DescribedEntitySlot`  (ValueKind `U.Entity` or a declared subkind) → *“what this episteme is about”*;
+  * `EntityOfConcernSlot`  (ValueKind `U.Entity` or a declared subkind) → *“what this episteme is about”*;
   * `GroundingHolonSlot`   (ValueKind `U.Holon`) → *“where/how this is grounded”*;
-  * `ClaimGraphSlot`       (ValueKind `U.ClaimGraph`) → *“what is being said (intensional content)”*;
+  * `ClaimGraphSlot`       (ValueKind `U.ClaimGraph`) → *“what is being said (claim content)”*;
   * `ReferenceSchemeSlot`  (ValueKind `U.ReferenceScheme`) → *“how we read claims as statements about entities”*;
   * `ViewpointSlot`        (ValueKind `U.Viewpoint`) → *“under which viewpoint we read/validate this episteme”*;
   * `ViewSlot`             (ValueKind `U.View`) → *“a view‑episteme produced under a viewpoint”*.
@@ -169,14 +157,14 @@ For `U.Episteme`, the legacy semantic triangle is replaced by `U.EpistemeSlotGra
 `U.Episteme` is thus the holon type whose components are *disciplined* by the `U.EpistemeSlotGraph`; C.2.1 fixes that discipline.
 
 * **Morphisms.**
-  Simple **epistemic morphisms** (described-entity mapping, grounding, encoding, evaluation) are expressed as ordinary relations/functions between these positions. A.6.2–A.6.4 then specify general laws for effect-free morphisms over `U.Episteme`.
+  Simple **epistemic morphisms** (EntityOfConcern-reference mapping, grounding, encoding, evaluation) are expressed as ordinary relations/functions between these positions. A.6.2–A.6.4 then specify general laws for effect-free morphisms over `U.Episteme`.
 
-* **Legacy triangle as didactic projection.**
+* **Symbol-Concept-Object triangle as didactic projection.**
   The classic Symbol–Concept–Object triangle becomes a **didactic view** of this graph, not the normative ontology; it is simply the projection to:
 
   * `Symbol` ≈ a subset of `U.RepresentationScheme`/`U.RepresentationToken`,
   * `Concept` ≈ `U.ClaimGraph`,
-  * `Object` ≈ `{DescribedEntity, ReferenceScheme}`.
+  * `Object` ≈ `{EntityOfConcern, ReferenceScheme}`.
 
 The rest of this pattern fixes the **minimal core** needed by KD‑CAL, A.6.2–A.6.4 and E.17.\*. The representational nodes (`U.RepresentationScheme`, `U.RepresentationToken`, `U.PresentationCarrier`, `U.RepresentationOperation`) are introduced as an **extension C.2.1+**, preserving the interface defined here.
 
@@ -184,24 +172,24 @@ The rest of this pattern fixes the **minimal core** needed by KD‑CAL, A.6.2–
 
 This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the associated **SlotKinds**. These are the positions that A.6.2–A.6.4 and E.17.* can rely on.
 
-##### C.2.1:4.1.1 - `DescribedEntitySlot` — “what this episteme is about”
+##### C.2.1:4.1.1 - `EntityOfConcernSlot` — “what this episteme is about”
 
-**Tech:** `DescribedEntitySlot` (SlotKind), `describedEntityRef : U.EntityRef` (Ref slot in tuples/cards).
-**Plain:** *described entity*, *entity of interest*.
+**Tech:** `EntityOfConcernSlot` (SlotKind), `entityOfConcernRef : U.EntityRef` (Ref slot in tuples/cards).
+**Plain:** *EntityOfConcern value*, *entity of concern*. Older *entity of concern* wording is source-standard or source-migration wording, not a live Tech head.
 
 **Intent.** Provide a **single, explicit slot** for the entity (or entities) that an episteme is about, avoiding the former conflation of Object/Reference/Context.
 
 **Normative definition.**
 
-1. `DescribedEntitySlot` is a **SlotKind** in the sense of A.6.5 `U.RelationSlotDiscipline`.
+1. `EntityOfConcernSlot` is a **SlotKind** in the sense of A.6.5 `U.RelationSlotDiscipline`.
 
    * Its **ValueKind** is `U.Entity`.
-   * Its **RefKind** is `U.EntityRef` (or a species thereof) and **MUST** be realised in data as a field named `describedEntityRef : U.EntityRef` (E.10 discipline).
-1. Species of `U.EpistemeKind` **MAY** constrain the ValueKind to a subtype `EoIClass ⊑ U.Entity` (for example, “EoI is always a `U.Holon` and, more specifically, a `U.System` or `U.Episteme`”). The subtype **MUST NOT** be named `U.DescribedEntity`; “described entity” remains a **role name**, not a kernel type.
-2. Wherever episteme previously used `U.EpistemicObject` as a separate type, it is re‑interpreted as **“`U.Entity` in the role of filling `DescribedEntitySlot`”** and is marked as **legacy alias** in LEX‑BUNDLE.
+   * Its **RefKind** is `U.EntityRef` (or a species thereof) and **MUST** be realised in data as a field named `entityOfConcernRef : U.EntityRef` (E.10 discipline).
+1. Species of `U.EpistemeKind` **MAY** constrain the ValueKind to a subtype `EntityOfConcernClass ⊑ U.Entity` (for example, “the entity of concern is always a `U.Holon` and, more specifically, a `U.System` or `U.Episteme`”). The subtype **MUST NOT** be named `U.EntityOfConcern`; “EntityOfConcern value” is a local slot-use phrase, not a kernel type.
+2. Wherever episteme previously used `U.EpistemicObject` as a separate type, it is re-interpreted as **“`U.Entity` filling `EntityOfConcernSlot`”** and is retained only as source-migration wording governed by E.10/F.18.
 
 **Didactic cue.**
-“Ask: *What, exactly, is this description about?* That is the DescribedEntity.”
+“Ask: *What, exactly, is this description about?* That is the EntityOfConcern.”
 
 ##### C.2.1:4.1.2 - `GroundingHolonSlot` — “where / in what holon this is grounded”
 
@@ -226,12 +214,12 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
 **Didactic cue.**
 “Ask: *In which lab/organisation/world‑slice do we test or observe this?* That is the GroundingHolon.”
 
-##### C.2.1:4.1.3 - `U.ClaimGraph` and `ClaimGraphSlot` — intensional content
+##### C.2.1:4.1.3 - `U.ClaimGraph` and `ClaimGraphSlot` — claim content
 
 **Tech:** `U.ClaimGraph` (kernel type), `ClaimGraphSlot` (SlotKind).
-**Plain:** *claim graph*, *intensional content*.
+**Plain:** *claim graph*, *claim content*.
 
-**Intent.** Reuse the existing KD‑CAL notion of **ClaimGraph** as the episteme’s **intensional body**, but make its role as a **slot value** explicit.
+**Intent.** Reuse the existing KD‑CAL notion of **ClaimGraph** as the episteme’s **claim body**, but make its slot value use explicit.
 
 **Normative definition.**
 
@@ -257,11 +245,11 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
 
 **Normative definition.**
 
-1. `U.Viewpoint` is the type of **intensional viewpoint specifications**:
+1. `U.Viewpoint` is the type of **viewpoint specifications**:
 
-   * families of **RoleEnactors/stakeholder groups** the viewpoint speaks for,
+   * role-bearing system families and stakeholder groups the viewpoint speaks for,
    * their **concerns**,
-   * allowed **kinds of descriptions/specifications**,
+   * allowed **kinds of Description epistemes and Description epistemes admitted for specification use**,
    * and **conformance rules** for views under this viewpoint.
      (The internal structure of `U.Viewpoint` is fixed in E.17.0, not here.)
 2. `ViewpointSlot` is a **SlotKind** with:
@@ -269,7 +257,7 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
    * **ValueKind** `U.Viewpoint`,
    * **RefKind** `U.ViewpointRef`,
    * normative field name `viewpointRef? : U.ViewpointRef` on episteme cards/views.
-3. For **I/D/S descriptions/specs** (E.10.D2), `viewpointRef` is a **mandatory part of `DescriptionContext`**; C.2.1 treats that as a **species‑level constraint**, not as a universal requirement for all epistemes.
+3. For Description epistemes, including Description epistemes admitted for specification use, under E.10.D2, `viewpointRef` is a **mandatory part of `DescriptionContext`**; C.2.1 treats that as a **species-level constraint**, not as a universal requirement for all epistemes.
 4. `ViewpointSlot` may be unset in purely internal, pre‑viewpoint epistemes (e.g., raw formal developments), but any episteme that participates in **MultiViewDescribing** (E.17.0) **MUST** set it or be deterministically associated to it via a `ViewpointBundle`.
 
 **Didactic cue.**
@@ -280,18 +268,17 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
 **Tech:** `U.EpistemeView` (kernel species of `U.Episteme`), alias `U.View`; `ViewSlot` (SlotKind); `viewRef : U.ViewRef`.
 **Plain:** *view*, *epistemic view*.
 
-**Intent.** Distinguish **view‑epistemes** (views **of** descriptions/specifications) from both:
+**Intent.** Distinguish **view‑epistemes** (views **of** Description epistemes or Description epistemes admitted for specification use) from both:
 
-* the underlying descriptions/specifications themselves, and
-* the MVPK `PublicationSurface`/`InteropSurface` `SurfaceKind` values and the external carriers/renderings on which views are made available (E.17, L-SURF, SCR/RSCR).
-
+* the underlying Description epistemes or Description epistemes admitted for specification use themselves, and
+* the MVPK `publication face/form`/`interop publication form` `publication-face kind` values and the external carriers/renderings on which views are made available (E.17, publication-face/form discipline, SCR/RSCR).
 
 **Normative definition.**
 
 1. `U.EpistemeView` is a **species of `U.Episteme`** whose episteme kind includes, at minimum:
 
    * one `ClaimGraphSlot` (typically a **sliced or projected ClaimGraph**),
-   * one `DescribedEntitySlot`,
+   * one `EntityOfConcernSlot`,
    * one `ViewpointSlot`,
    * and appropriate `ReferenceSchemeSlot`.
 2. `U.View` is an **alias** for `U.EpistemeView` in E‑cluster patterns (especially E.17.\*), used where the word “view” is conventional.
@@ -300,13 +287,12 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
    * **ValueKind** is `U.View`,
    * **RefKind** is `U.ViewRef` (or `U.EpistemeViewRef` species),
    * intended usage is **in meta‑structures** such as `U.MultiViewDescribing` families and MVPK.
-4. `ViewSlot` **MUST NOT** be confused with publication-face labels, `SurfaceKind` declarations, or carrier slots: a concrete MVPK face that is a view is represented as `U.View` or `U.EpistemeView`, while the face label or profile, `PublicationSurface` kind or `InteropSurface` kind, and carrier or rendering remain separate lanes.
-
+4. `ViewSlot` **MUST NOT** be confused with publication-face labels, `publication-face kind` declarations, or carrier slots: a concrete MVPK face that is a view is represented as `U.View` or `U.EpistemeView`, while the face label or publication-form profile, `publication face/form` kind or `interop publication form` kind, and carrier or rendering remain separate lanes.
 
 **Didactic cue.**
 “Ask: *Which particular slice of the description under this viewpoint are we talking about?* That is the View.”
 
-##### C.2.1:4.1.6 - `U.ReferenceScheme` and `ReferenceSchemeSlot` — reading ClaimGraph as claims about entities
+##### C.2.1:4.1.6 - `U.ReferenceScheme` and `ReferenceSchemeSlot` — interpreting ClaimGraph as claims about entities
 
 **Tech:** `U.ReferenceScheme` (kernel type), `ReferenceSchemeSlot` (SlotKind); `referenceScheme? : U.ReferenceScheme`.
 **Plain:** *reference scheme*, *interpretation scheme*, *description scheme*.
@@ -315,9 +301,9 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
 
 **Normative definition.**
 
-1. `U.ReferenceScheme` is a **component type of epistemes**, not an external object:
+1. `U.ReferenceScheme` is a **component type of epistemes**, not an external entity:
 
-   * it determines how nodes of `U.ClaimGraph` are mapped to **properties/relations** over values of `DescribedEntitySlot`,
+   * it determines how nodes of `U.ClaimGraph` are mapped to **properties/relations** over values of `EntityOfConcernSlot`,
    * it specifies **measurement/evaluation templates** (how to test claims on `GroundingHolon`),
    * it fixes **claim-scope predicates / admissible regions** over declared `U.ContextSlice` selectors (and, where needed, references to domain spaces used inside those selectors).
 2. `ReferenceSchemeSlot` is a **SlotKind** with:
@@ -325,9 +311,9 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
    * **ValueKind** `U.ReferenceScheme`,
    * **no RefKind in the minimal core** (ReferenceSchemes are stored by value as `referenceScheme? : U.ReferenceScheme` fields on episteme cards/views).
      Discipline packs **may** introduce `U.ReferenceSchemeRef` as a **RefKind**, but **must not** repurpose it as a new ValueKind.
-3. `ReferenceScheme` is the place where the legacy “Object‑vertex” semantics now live:
+3. `ReferenceScheme` is the place where Object-vertex concerns are split into explicit claim-to-EntityOfConcern and claim-to-grounding rules:
 
-   * it does **not** “contain” the described entity or grounding referent,
+   * it does **not** “contain” the EntityOfConcern value or grounding referent,
    * it carries the **rules** that tie claims to entities and groundings.
 
 **Didactic cue.**
@@ -336,7 +322,7 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
 ##### C.2.1:4.1.7 - Minimal node set and extension C.2.1+
 
 The **minimal `U.EpistemeSlotGraph` core** for C.2.1 consists of positions (the episteme core SlotKinds of A.6.5 CC‑A.6.5‑5):
-* `DescribedEntitySlot` (ValueKind `U.Entity`),
+* `EntityOfConcernSlot` (ValueKind `U.Entity`),
 * `GroundingHolonSlot` (ValueKind `U.Holon`),
 * `ClaimGraphSlot` (ValueKind `U.ClaimGraph`),
 * `ViewpointSlot` (ValueKind `U.Viewpoint`),
@@ -355,8 +341,8 @@ without changing:
 * the minimal `U.EpistemeCard` interface,
 * or the assumptions A.6.2–A.6.4 / E.17.* make about episteme components.
 
-In C.2.1+ `U.PresentationCarrier`, `U.Surface`, MVPK face, carrier, and rendering relations remain **publication-side carriers, surfaces, faces, or rendering relations**, not semantic parts of the episteme:
-`U.PresentationCarrier` values are linked to `U.Episteme` and `U.View` via MVPK and L-SURF relations, such as `isCarriedBy` and MVPK face relations, and **MUST NOT** be counted as components when reasoning about episteme identity, DescribedEntitySlot occupancy, GroundingHolonSlot occupancy, or KD-CAL morphisms. Changing carriers or surfaces alone **never** changes the `U.Episteme` instance determined by C.2.1; it only produces `U.Work` occurrences that publish or republish the same `U.Episteme`.
+In C.2.1+ `U.PresentationCarrier`, publication face/form values, MVPK face, carrier, and rendering relations remain **publication-side carriers, faces, forms, units, or rendering relations**, not semantic parts of the episteme:
+`U.PresentationCarrier` values are linked to `U.Episteme` and `U.View` via MVPK and publication-face/form discipline relations, such as `isCarriedBy` and MVPK face relations, and **MUST NOT** be counted as components when reasoning about episteme identity, EntityOfConcernSlot filling, GroundingHolonSlot filling, or KD-CAL morphisms. Changing carriers, publication faces/forms, units, or renderings alone **never** changes the `U.Episteme` instance determined by C.2.1; it only produces `U.Work` occurrences that publish or republish the same `U.Episteme`.
 
 ##### C.2.1:4.1.8 - Attached epistemic structures (non-slot components)
 
@@ -364,13 +350,13 @@ In C.2.1+ `U.PresentationCarrier`, `U.Surface`, MVPK face, carrier, and renderin
 * **`JustificationGraph`** — the argument/evidence graph for nodes of `U.ClaimGraph` (A.10/B.3).
 * **`EvidenceBindings`** — per-claim `U.EvidenceRole` assignments that connect claims to external `U.Work` and carriers.
 * **`EditionSeries`** — the `PhaseOf` chain of episteme editions (A.14) with change-class annotations (symbol-only vs ClaimGraph vs ReferenceScheme changes).
-* **`ScopeCard` and `U.ClaimScope`** — USM scope objects (A.2.6) describing where the episteme's claims hold.
+* **`ScopeCard` and `U.ClaimScope`** — USM scope values (A.2.6) describing where the episteme's claims hold.
 
 These attached structures are **not extra positions** of `U.EpistemeSlotGraph`; they hang off the `U.ClaimGraph` and `U.ReferenceScheme` pair and are governed by KD-CAL (C.2), A.10, and B.3. C.2.1 only requires that an episteme which participates in KD-CAL exposes them in a way that keeps **ClaimGraph, ReferenceScheme, Evidence, EditionSeries, and `ClaimScope`** clearly distinguishable.
 
 #### C.2.1:4.2 - Episteme as n‑ary relation and as holon
 
-To prevent confusion between **described entities**, their **descriptions**, and the **slots they occupy in an episteme**, C.2.1 explicitly treats epistemes both as:
+To prevent confusion between **EntityOfConcern values**, their **descriptions**, and the **slots they fill in an episteme**, C.2.1 explicitly treats epistemes both as:
 
 1. **n‑ary relations with a signature** (slots & values), and
 2. **holons with components** (fields & parts).
@@ -386,15 +372,15 @@ To prevent confusion between **described entities**, their **descriptions**, and
 1. Every episteme that participates in KD‑CAL **belongs to some `U.EpistemeKind`**.
    The kind determines:
 
-   * which **SlotKinds** appear (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`, …),
+   * which **SlotKinds** appear (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`, …),
    * the **ValueKind** for each slot (always a subtype of `U.Type`),
    * the **RefKind** used to store it in episteme (when applicable).
 1. `U.EpistemeKind` is a **special case** of `U.Signature` (A.6.0), with its slots governed by `U.RelationSlotDiscipline` (A.6.5). C.2.1 **MUST NOT** define an alternative slot discipline.
 2. For the minimal core, every `U.EpistemeKind` **MUST** include:
    * exactly one `ClaimGraphSlot`,
-   * at least one `DescribedEntitySlot`,
+   * at least one `EntityOfConcernSlot`,
    * and at least one `ReferenceSchemeSlot`.
-     Inclusion of `GroundingHolonSlot`, `ViewpointSlot`, `ViewSlot` **MAY** be species‑level constraints (mandatory for D/S‑epistemes, optional for others).
+     Inclusion of `GroundingHolonSlot`, `ViewpointSlot`, `ViewSlot` **MAY** be species-level constraints (mandatory for Description epistemes, including Description epistemes admitted for specification use, optional for others).
 
 **Didactic cue.**
 “An `EpistemeKind` is the *type* of episteme: which positions it has and what can go into them.”
@@ -409,7 +395,7 @@ To prevent confusion between **described entities**, their **descriptions**, and
 
 1. `U.EpistemeTuple` is a species whose instances are **pure value tuples**:
    * for each SlotKind in the associated `U.EpistemeKind`, a value of the slot’s **ValueKind** (or a reference value of **RefKind**, if the kind is configured as such).
-2. `U.EpistemeTuple` is **notation‑agnostic** and **carrier‑agnostic**: it does not know about files, formats, or surfaces.
+2. `U.EpistemeTuple` is **notation‑agnostic** and **carrier‑agnostic**: it does not know about files, formats, publication faces/forms, or carriers.
    It exists to give A.6.2–A.6.4 a minimal notion of “episteme as a point in Ep”.
 3. In episteme, `U.EpistemeTuple` rarely appears directly; it is typically **induced** by `U.EpistemeCard` and `U.EpistemeView` (which add component structure and meta‑information).
 
@@ -427,26 +413,24 @@ To prevent confusion between **described entities**, their **descriptions**, and
 1. **`U.EpistemeCard`.**
    A species of `U.Episteme` whose components correspond one‑to‑one to slots of some `U.EpistemeKind`:
    * `content : U.ClaimGraph` (for `ClaimGraphSlot`),
-   * `describedEntityRef : U.EntityRef` (for `DescribedEntitySlot`),
+   * `entityOfConcernRef : U.EntityRef` (for `EntityOfConcernSlot`),
    * `groundingHolonRef? : U.HolonRef` (for `GroundingHolonSlot`),
    * `viewpointRef? : U.ViewpointRef` (for `ViewpointSlot`),
    * `referenceScheme? : U.ReferenceScheme` (for `ReferenceSchemeSlot`),
    * optionally `representationSchemeRef? : U.RepresentationSchemeRef` (C.2.1+),
    * `meta : Edition/Provenance/Status…`.
-     Minimal episteme identity is the pair `⟨content, describedEntityRef⟩` within a `U.BoundedContext`; all other fields are optional at the genus level but may be mandatory in species. Changes that alter `content` or the effective `referenceScheme` (or that intentionally re-identify `describedEntityRef`) **SHALL** be realised as new phases in an `U.EditionSeries` (PhaseOf chain) under A.14 and A.7. Changes confined to `U.PresentationCarrier`, `U.Surface`, MVPK face, carrier, or rendering relations **do not** create a new episteme; they are captured as publication work over the same `U.Episteme`.
+     Minimal episteme identity is the pair `⟨content, entityOfConcernRef⟩` within a `U.BoundedContext`; all other fields are optional at the genus level but may be mandatory in species. Changes that alter `content` or the effective `referenceScheme` (or that intentionally re-identify `entityOfConcernRef`) **SHALL** be realised as new phases in an `U.EditionSeries` (PhaseOf chain) under A.14 and A.7. Changes confined to `U.PresentationCarrier`, publication-side values, MVPK face, carrier, or rendering relations **do not** create a new episteme; they are captured as publication work over the same `U.Episteme`.
 2. **`U.EpistemePublication`.**
-   A species representing **epistemes that have been published** onto surfaces (MVPK). It:
+   A species representing **epistemes that have been published** through publication faces/forms or MVPK relations. It:
    * has at least the components of `U.EpistemeCard`,
-   * plus references to MVPK `U.View`, face identity, `PublicationSurface` and `InteropSurface` `SurfaceKind` values, publication-scope fields, profile fields, and external carrier or rendering refs as required by E.17 and L-SURF,
+   * plus references to MVPK `U.View`, face identity, `publication face/form` and `interop publication form` `publication-face kind` values, publication-scope fields, profile fields, and external carrier or rendering refs as required by E.17 and publication-face/form discipline,
 
-
-   * but **does not** re-interpret face labels, `SurfaceKind` values, or carriers/renderings as parts of the episteme; carriers remain external.
-
+   * but **does not** re-interpret face labels, `publication-face kind` values, or carriers/renderings as parts of the episteme; carriers remain external.
 
 3. **`U.EpistemeView`.**
    As defined in §4.1.5, a species of `U.Episteme` representing a **view** under a specific `U.Viewpoint`.
    Its components are a specialisation of `U.EpistemeCard`:
-   * ClaimGraph often restricted/projection of a base description/specification,
+   * ClaimGraph often restricted/projection of a base description and specification-useification,
    * Viewpoint fixed,
    * ReferenceScheme tailored to that viewpoint.
 
@@ -456,12 +440,12 @@ For any of these species, the pattern **MUST** state explicitly:
 * how each component maps to a SlotKind/RefKind under `U.RelationSlotDiscipline`.
 
 This ensures that A.6.2–A.6.4 can treat any `U.Episteme*` uniformly as both:
-* an object in the category **Ep**, and
+* a category-theory object in the category **Ep**, and
 * a structured holon with components.
 
 ##### C.2.1:4.2.3a - Episteme, publication, view, carrier, cue, and authority-reference lanes  *(normative)*
 
-C.2.1 is the default FPF pattern for claim-bearing units. Do not mint a generic `U.SemioObject`, `U.SemioticObject`, `U.SignObject`, `U.WorkingObject`, or `U.SourceMaterial` when the object in question is a claim-bearing unit. Use `U.Episteme` or a declared species of `U.Episteme`.
+C.2.1 is the default FPF pattern for claim-bearing units. Do not mint a generic `U.SemioObject`, `U.SemioticObject`, `U.SignObject`, `U.WorkingObject`, or `U.SourceMaterial` when the claim-bearing unit in question should be modeled as an episteme. Use `U.Episteme` or a declared species of `U.Episteme`.
 
 When the same claim-bearing unit is available to readers, tools, or downstream work as a published episteme, name that lane as `U.EpistemePublication` or as a governed `U.Episteme` publication. Then keep the adjacent lanes separate:
 
@@ -469,47 +453,46 @@ When the same claim-bearing unit is available to readers, tools, or downstream w
 * **view, including MVPK face** — `U.View` or `U.EpistemeView` under a declared `U.Viewpoint`, including MVPK faces such as `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane`;
 * **carrier or rendering** — the SCR/RSCR, document, dashboard, generated screen, trace file, transport envelope, or display that bears or renders a publication;
 * **source-finding cue** — a badge, tile, heading, signature-looking mark, credential display, generated explanation, or other cue that helps find a source but does not by itself create an authority-reference relation;
-* **governing pattern reference and authority-reference field** — `governingPatternRef` when one FPF pattern governs admissible interpretation or use; `authoritySourceRef` when a non-pattern `authoritySourceRef` target such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. The publication records this reference; it does not become the referenced authority.
+* **governing pattern reference and authority-reference field** — `governingPatternRef` when one FPF pattern governs admissible interpretation or use; `authoritySourceRef` when a non-pattern authority-source referent such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. The publication records this reference; it does not become the referenced authority.
 
 No publication form, view, face, carrier, rendering, source-finding cue, dashboard signal, credential display, generated explanation, FPF pattern file, or FPF pattern section is itself a substitute for a governed `U.Episteme`, an evidence relation, an assurance claim, a gate decision, a permission, a role claim, a status claim, or a `U.Work` occurrence. If the next move concerns work, keep candidate reliance, `U.WorkPlanning`, planned work, actual `U.Work`, work result, and work-result measurement in their own P2W lanes rather than storing them inside the episteme or its carrier.
 
-##### C.2.1:4.2.4 - SlotKind / ValueKind / RefKind discipline for DescribedEntity & GroundingHolon
-
+##### C.2.1:4.2.4 - SlotKind / ValueKind / RefKind discipline for EntityOfConcern & GroundingHolon
 
 C.2.1 adopts **A.6.5 `U.RelationSlotDiscipline`** wholesale. For the two key positions:
-1. **DescribedEntitySlot.**
-   * `SlotKind = DescribedEntitySlot`;
-   * `ValueKind = U.Entity` (species may constrain to `EoIClass ⊑ U.Entity`);
+1. **EntityOfConcernSlot.**
+   * `SlotKind = EntityOfConcernSlot`;
+   * `ValueKind = U.Entity` (species may constrain to `EntityOfConcernClass ⊑ U.Entity`);
    * `RefKind = U.EntityRef` (or a species thereof);
-   * normative field name in episteme cards: `describedEntityRef : U.EntityRef`.
-     No kernel type named `U.DescribedEntity` is introduced; the phrase “described entity” always means “an instance of `U.Entity` in the role filling `DescribedEntitySlot`”.
+   * normative field name in episteme cards: `entityOfConcernRef : U.EntityRef`.
+     No kernel type named `U.EntityOfConcern` is introduced; the phrase “EntityOfConcern value” always means “an instance of `U.Entity` filling `EntityOfConcernSlot`”.
 1. **GroundingHolonSlot.**
    * `SlotKind = GroundingHolonSlot`;
    * `ValueKind = U.Holon`;
    * `RefKind = U.HolonRef`;
    * normative field name: `groundingHolonRef? : U.HolonRef`.
-     There is no kernel type `U.GroundingHolon`; “grounding holon” is a **slot occupant name**.
-Any episteme that previously mixed slot/value/ref concepts (e.g., using `DescribedEntityRef` as if it were a type) **MUST** be migrated to this discipline over time; C.2.1 provides the normative anchor, and F.18 / discipline packs provide the migration guide.
+     There is no kernel type `U.GroundingHolon`; “grounding holon” is a **slot-filler phrase**.
+Any episteme that previously mixed slot/value/ref concepts (e.g., using `EntityOfConcernRef` as if it were a type) **MUST** be migrated to this discipline over time; C.2.1 provides the normative reference, and F.18 / discipline packs provide the migration guide.
 
 #### C.2.1:4.3 - Minimal epistemic morphisms (informal schema)
 
-> **Note.** The full mathematical treatment (categories Ep and Ref, describedEntity functor `α : Ep → Ref`, and effect‑free morphisms) lives in A.6.2–A.6.4. Here we fix only the **episteme-slot relations** that C.2.1 expects to exist between its positions.
+> **Note.** The full mathematical treatment (categories Ep and Ref, entityOfConcern functor `α : Ep → Ref`, and effect‑free morphisms) lives in A.6.2–A.6.4. Here we fix only the **episteme-slot relations** that C.2.1 expects to exist between its positions.
 
 At the level of `U.EpistemeCard` components and SlotKinds, we assume the following **primitive relations** (not all are functions):
 
-1. **`describedEntitySet : U.Episteme → P(U.Entity)`**
-   *derivable from `DescribedEntitySlot` and `ReferenceScheme`*
-   * For an episteme `E`, `describedEntitySet(E)` is (at least) the singleton containing the entity referenced by `describedEntityRef(E)`; in more complex cases, it may be a finite set or bundle of entities, determined by `ReferenceScheme`.
-   * The **functorial DescribedEntity mapping** `δ_E : Ep → Ref` used in A.6.2–A.6.4 is the categorical lift of this relation: it forgets episteme internals and keeps only the described entity in the ReferencePlane determined by the pair `<DescribedEntitySlot, GroundingHolonSlot>`.
+1. **`entityOfConcernSet : U.Episteme → P(U.Entity)`**
+   *derivable from `EntityOfConcernSlot` and `ReferenceScheme`*
+   * For an episteme `E`, `entityOfConcernSet(E)` is (at least) the singleton containing the entity referenced by `entityOfConcernRef(E)`; in more complex cases, it may be a finite set or bundle of entities, determined by `ReferenceScheme`.
+   * The **functorial EntityOfConcern mapping** `δ_E : Ep → Ref` used in A.6.2–A.6.4 is the categorical lift of this relation: it forgets episteme internals and keeps only the EntityOfConcern value in the ReferencePlane determined by the pair `<EntityOfConcernSlot, GroundingHolonSlot>`.
 
 2. **`grounds : (U.Entity, U.Holon) ⇝ GroundingRelation`**
-   *relates described entities to grounding holons*
-   * Captures how values of `DescribedEntitySlot` are **situated** in holons that make evaluation possible (labs, infrastructures, organisations).
+   *relates EntityOfConcern values to grounding holons*
+   * Captures how values of `EntityOfConcernSlot` are **situated** in holons that make evaluation possible (labs, infrastructures, organisations).
    * Need not be total or functional; an entity may admit multiple grounding holons, or none.
 
 3. **`designates : (U.ReferenceScheme, U.ClaimGraph, U.Entity, U.Holon) ⇝ DesignationProfile`**
    *how claims are read as statements about entities in contexts*
-   * Specifies, for each claim in `content` and each `<describedEntityRef, groundingHolonRef>`, what property/relation it purports to state, and under what conditions.
+   * Specifies, for each claim in `content` and each `<entityOfConcernRef, groundingHolonRef>`, what property/relation it purports to state, and under what conditions.
 
 4. **`satisfies / evaluatesTo : (U.ClaimGraph, U.ReferenceScheme, U.Holon) → TruthProfile/SuccessProfile`**
    *evaluation of claims under a reference scheme and grounding*
@@ -517,30 +500,30 @@ At the level of `U.EpistemeCard` components and SlotKinds, we assume the followi
 
 5. **View-related morphisms** (to be connected with A.6.3):
    * `viewProject : (U.Episteme, U.Viewpoint) → U.View`
-     — effect-free, **DescribedEntity-preserving** projection that slices `ClaimGraph` and specialises `ReferenceScheme` under a given viewpoint.
+     — effect-free, **EntityOfConcern-preserving** projection that slices `ClaimGraph` and specialises `ReferenceScheme` under a given viewpoint.
    * `viewEmbed : U.View → U.Episteme`
      — embedding of a view back into the wider episteme, typically as a reference with correspondence proofs.
 
-5. **Reflexive describedEntity guard.**
-   When `DescribedEntitySlot` or `ReferenceScheme` picks out an episteme or claim that includes the referring claim itself (**ReferencePlane = episteme**), publishers **SHALL** ensure that the induced justification/evaluation structure is **acyclic per evaluation chain**: reflexive describedEntities may exist as literature handles, but they MUST NOT form a minimal support cycle for acceptance or KD‑CAL assurance. Self‑reference is allowed as a citation pattern, not as a way to close justification loops.
+5. **Reflexive entityOfConcern guard.**
+   When `EntityOfConcernSlot` or `ReferenceScheme` picks out an episteme or claim that includes the referring claim itself (**ReferencePlane = episteme**), publishers **SHALL** ensure that the induced justification/evaluation structure is **acyclic per evaluation chain**: reflexive describe/citation handles may exist as literature handles, but they MUST NOT form a minimal justification cycle for acceptance or KD-CAL assurance. Self‑reference is allowed as a citation pattern, not as a way to close justification loops.
 
 These are **not yet laws**; they are the **hooks** that A.6.2–A.6.4 will formalise into:
 * `U.EffectFreeEpistemicMorphing` (Ep→Ep morphisms over this structure),
-* `U.EpistemicViewing` (describedEntity‑preserving Ep→Ep),
-* `U.EpistemicRetargeting` (describedEntity‑retargeting Ep→Ep).
+* `U.EpistemicViewing` (entityOfConcern‑preserving Ep→Ep),
+* `U.EpistemicRetargeting` (entityOfConcern‑retargeting Ep→Ep).
 
 ### C.2.1:5 - Legacy semantic triangle as didactic view  *(informative)*
 
 **Position.** The classical semiotic or semantic triangle (“Symbol–Concept–Object”, Ogden–Richards/Frege–Carnap style) is **not** the normative ontology for epistemes in FPF. For `U.Episteme`, it is treated as a **didactic projection** of the richer hypergraph `U.EpistemeSlotGraph`:
 * **“Symbol” corner** ≈ {`U.RepresentationToken`, `U.RepresentationScheme`, `U.PresentationCarrier`} when C.2.1+ is in use; in the minimal core this is collapsed into whichever external carrier bears the `U.ClaimGraph` publication.
-* **“Concept” corner** ≈ `U.ClaimGraph` + `U.ReferenceScheme` under a chosen `U.Viewpoint`. This is the intensional content plus its interpretation recipe.
-* **“Object” corner** ≈ the occupant of `DescribedEntitySlot` (ValueKind `U.Entity`) plus the occupant of `GroundingHolonSlot` (ValueKind `U.Holon`) and the grounding relation between them.
+* **“Concept” corner** ≈ `U.ClaimGraph` + `U.ReferenceScheme` under a chosen `U.Viewpoint`. This is the claim content plus its interpretation recipe.
+* **“Object” corner** ≈ the slot filler of `EntityOfConcernSlot` (ValueKind `U.Entity`) plus the slot filler of `GroundingHolonSlot` (ValueKind `U.Holon`) and the grounding relation between them.
 
-Under this reading the triangle is a **three‑node quotient** of the `U.EpistemeSlotGraph`:
+Under this didactic projection the triangle is a **three-node quotient** of the `U.EpistemeSlotGraph`:
 ```
 (Symbol)      = RepresentationToken + Scheme + Carrier
 (Concept)     = ClaimGraph + ReferenceScheme (+ Viewpoint)
-(Object)      = DescribedEntity + GroundingHolon
+(Object)      = EntityOfConcern + GroundingHolon
 ```
 
 All **viewpoints, operations, carriers and reference planes** are suppressed in the classical diagram. The cost of this suppression is precisely the confusion that motivates C.2.1:
@@ -551,130 +534,124 @@ All **viewpoints, operations, carriers and reference planes** are suppressed in 
 **Didactic use.** C.2.1 allows the triangle **only** in the following cases:
 1. As an **introductory picture** in guidance material (“this is the coarse triangle; the actual pattern is the episteme slot graph”).
 2. As a **quotient diagram**: an explicit note that “this figure ignores viewpoint, grounding, carrier, and operationality; see C.2.1 for the full structure”.
-3. As a **legacy alignment aid** when mapping to standards or literature that speak only in triangle terms.
+3. As an **external-triangle alignment aid** when mapping to standards or literature that speak only in triangle terms.
 
 **Guard.** Any pattern or documentation page that uses a “semantic triangle” diagram **MUST** either:
 * explicitly state “this is a didactic projection of C.2.1 `U.EpistemeSlotGraph`”, or
-* treat it as a legacy reference when aligning with external standards.
+* treat it as an external-triangle reference when aligning with external standards.
 
-The triangle **MUST NOT** be used as a kernel‑level ontology or as a basis for morphism laws. All normative reasoning about epistemes proceeds via the slots and components of `U.EpistemeSlotGraph`.
+The triangle **MUST NOT** be used as a kernel-level ontology or as a source for morphism laws. All normative reasoning about epistemes proceeds via the slots and components of `U.EpistemeSlotGraph`.
 
-### C.2.1:6 - Interaction with I/D/S and DescriptionContext  *(normative)*
+### C.2.1:6 - Interaction with EntityOfConcern and Description-episteme boundary, specification use/refinement, and DescriptionContext  *(normative)*
 
-C.2.1 is the **episteme‑layer carrier** that I/D/S discipline (A.7, E.10.D2) relies on. The link is made via `DescriptionContext`.
+C.2.1 is the **episteme-side slot schema** that `EntityOfConcern` / Description-episteme discipline (A.7, E.10.D2) relies on. The link is made via `DescriptionContext`, not by treating EntityOfConcern value, Description epistemes, and specification use/refinement as layers, carriers, or peer ontology classes.
 
 #### C.2.1:6.1 - DescriptionContext over C.2.1 components
 
-For any episteme that is a **Description** or a **Specification** in the sense of E.10.D2, the field `subjectRef : U.SubjectRef` is interpreted as a **DescriptionContext triple**:
+For any episteme that is a **Description** in the sense of E.10.D2, including a Description episteme admitted for specification use, the field `subjectRef : U.SubjectRef` is interpreted as a **DescriptionContext triple**:
 ```
-DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩
+DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩
 ```
 
 where:
-* `DescribedEntityRef : U.EntityRef` — occupies `DescribedEntitySlot` (ValueKind `U.Entity`, species often constrained via EoIClass ⊑ `U.Entity`).
+* `EntityOfConcernRef : U.EntityRef` — fills `EntityOfConcernSlot` (ValueKind `U.Entity`, species often constrained via EntityOfConcernClass ⊑ `U.Entity`).
 * `BoundedContextRef : U.BoundedContextRef` — points to the context that fixes vocabulary, units, and legal inferences for this description (E.10.D1).
-* `ViewpointRef : U.ViewpointRef` — occupies `ViewpointSlot` (ValueKind `U.Viewpoint`) and determines which concerns, role‑enactor families, and conformance rules apply.
+* `ViewpointRef : U.ViewpointRef` — fills `ViewpointSlot` (ValueKind `U.Viewpoint`) and determines which concerns, role-bearing system families, stakeholder groups, and conformance rules apply.
 
-**Normative requirement (IDS‑13).**
-For every `…Description` / `…Spec` episteme:
+**Normative requirement (DESCCTX-13).**
+For every `…Description` episteme, and every `…Spec` use admitted by neighbouring specification use/refinement gates:
 1. `subjectRef` **SHALL** be decodable to a well‑formed DescriptionContext triple.
-2. `DescribedEntityRef` from that triple **SHALL** be identical to the field `describedEntityRef` that fills `DescribedEntitySlot` in the corresponding `U.EpistemeCard`/`U.EpistemeView`.
+2. `EntityOfConcernRef` from that triple **SHALL** be identical to the field `entityOfConcernRef` that fills `EntityOfConcernSlot` in the corresponding `U.EpistemeCard`/`U.EpistemeView`.
 3. `ViewpointRef` in DescriptionContext **SHALL** agree with `viewpointRef` in the episteme card or be uniquely derivable from a `U.ViewpointBundle` in E.17.1 (with the derivation rule documented).
 
-Intensions (I‑layer) such as `U.System`, `U.Method`, `U.Role` **do not** inhabit C.2.1 directly; they are the *targets* of I→D operations (`Describe_ID`) and appear as values of `DescribedEntitySlot` in resulting descriptions/specs.
+EntityOfConcern values such as `U.System`, `U.Method`, `U.Role`, or `U.Episteme` appear in C.2.1 as values of `EntityOfConcernSlot` when an episteme describes, views, or retargets them. They are not the Description episteme produced by that use. The `EntityOfConcern` / Description-episteme boundary separates the EntityOfConcern value from the Description episteme; specification use/refinement is a separate gated use or refinement of that Description episteme, not a third peer ontology class. This boundary does not ban epistemes from being EntityOfConcern values.
 
-#### C.2.1:6.2 - I→D and D→S morphisms over C.2.1
+**Example.** A formal postulate theorem in physics can be a Description episteme about the behaviour of a physical grounding holon. Its `EntityOfConcernSlot` points to the physical grounding holon, or to the exact behavior, method, or work entity only when a receiving pattern has selected that entity under concern; its claim graph carries the theorem, postulates, and derivation; its formal language belongs to formality and publication-expression discipline. It becomes a specification only if a bounded use assigns specification force, such as acceptance criteria, harness checks, normative invariants, C.16 measurement criteria, or verification use. Formal notation alone does not change the slot graph into a third `Specification` ontology class.
+#### C.2.1:6.2 - EntityOfConcern-to-Description morphism and specification-use exit over C.2.1
 
-* **Describing (`Describe_ID : I → D`).**
+* **Describing (`Describe_EoC_DescEp : EntityOfConcern -> DescriptionEpisteme`).**
   Produces an episteme whose:
-  * `content : U.ClaimGraph` encodes the descriptive claims about the intension,
-  * `describedEntityRef` points to the intension’s entity,
+  * `content : U.ClaimGraph` encodes the descriptive claims about the `EntityOfConcern` value,
+  * `entityOfConcernRef` points to the EntityOfConcern value,
   * `groundingHolonRef` (if present) fixes where the description is evaluated or tested,
   * `viewpointRef` selects the describing viewpoint.
 
-  `Describe_ID` is **conformant** to A.6.2 but not an Ep→Ep morphism (domain is Intension, codomain is Episteme). C.2.1 provides the **codomain schema** and ensures that the resulting Description has a valid DescriptionContext.
+  `Describe_EoC_DescEp` is **conformant** to A.6.2 but not an Ep→Ep morphism (domain is the `EntityOfConcern` value, codomain is a Description-side `U.Episteme`). C.2.1 provides the **codomain schema** and ensures that the resulting Description has a valid DescriptionContext.
 
-* **Specifying/Formalising (`Specify_DS/Formalize_DS : D → S`).**
-  Takes a Description episteme and returns a Specification episteme with:
-  * the same `describedEntityRef`,
-  * the same `BoundedContextRef` and `ViewpointRef` (hence same DescriptionContext),
-  * a `content : U.ClaimGraph` that raises formality F (F≥4) and adds test harness hooks, but is conservative with respect to the underlying intension.
+C.2.1 does not decide that a Description episteme has become a Specification. If a bounded use formalises, constrains, test-harnesses, accepts, or publishes a Description episteme as a specification, the receiving pattern must name the exact specification-use gate: A.6.2 for effect-free episteme refinement, C.2.3 for formality and checkability, A.21 or the relevant gate/acceptance pattern for harness and acceptance force, C.16 for measurement criteria, E.17 for publication expression, and E.10 for suffix discipline. The C.2.1 requirement is only that the Description episteme keeps the same `entityOfConcernRef`, `BoundedContextRef`, and `ViewpointRef` unless an exact retargeting or viewing pattern declares otherwise.
 
-  As an Ep→Ep morphism, `Specify_DS` is a **species of A.6.2** and must obey the invariants over the C.2.1 slots (DescribedEntityChangeMode = preserve; no change to DescribedEntity; ClaimGraph refinement only).
-
-C.2.1 does **not** define I/D/S; it only insists that any `…Description`/`…Spec` species that claims to respect I/D/S discipline must:
-* implement `U.EpistemeCard` or `U.EpistemeView` **with** `content`, `describedEntityRef`, `groundingHolonRef?`, `viewpointRef?`, and `referenceScheme?` fields, and
+C.2.1 does **not** define the full `EntityOfConcern` / Description-episteme boundary or the specification-use gates; it only insists that any `...Description` episteme, and any `...Spec` use admitted by neighbouring gates, must:
+* implement `U.EpistemeCard` or `U.EpistemeView` **with** `content`, `entityOfConcernRef`, `groundingHolonRef?`, `viewpointRef?`, and `referenceScheme?` fields, and
 * wire these fields into `subjectRef` as DescriptionContext.
 
 ### C.2.1:7 - Alignment with A.6.2–A.6.4 (episteme morphisms)  *(normative)*
-`U.EpistemeSlotGraph` is the **object‑level substrate** for the episteme morphism patterns:
+`U.EpistemeSlotGraph` is the **slot-level substrate** for the episteme morphism patterns:
 * A.6.2 `U.EffectFreeEpistemicMorphing`
 * A.6.3 `U.EpistemicViewing`
 * A.6.4 `U.EpistemicRetargeting`
 
 #### C.2.1:7.1 - Effect‑free episteme morphisms (A.6.2) over C.2.1
 For any `f : X → Y` that is an instance of `U.EffectFreeEpistemicMorphing`:
-* **Typed objects.**
+* **Typed episteme values.**
   X and Y are `U.Episteme` instances realised as `U.EpistemeCard` / `U.EpistemeView` with at least the minimal core components:
 
   ```
   content            : U.ClaimGraph
-  describedEntityRef : U.EntityRef      // DescribedEntitySlot
+  entityOfConcernRef : U.EntityRef      // EntityOfConcernSlot
   groundingHolonRef? : U.HolonRef       // GroundingHolonSlot
   viewpointRef?      : U.ViewpointRef   // ViewpointSlot
   referenceScheme?   : U.ReferenceScheme// ReferenceSchemeSlot (ByValue)
   ```
 
   Any additional C.2.1+ components (RepresentationScheme, Tokens, Carriers, Operations) are visible to A.6.2 only through their declared SlotKinds (A.6.5).
-* **DescribedEntityChangeMode characteristic.**
-  `f` **MUST** declare a **`describedEntityChangeMode ∈ {preserve, retarget}`**:
-  * `preserve` — `describedEntityRef(Y) = describedEntityRef(X)` and any change to `groundingHolonRef`/`viewpointRef` must be justified by Bridges/CorrespondenceModel, without changing the DescribedEntitySlot value;
-  * `retarget` — permitted only for A.6.4 species; see below; in this case the characteristic records an intentional change in the pair `<describedEntityRef, groundingHolonRef>` under a declared `KindBridge` in the appropriate ReferencePlane.
+* **EntityOfConcernChangeMode characteristic.**
+  `f` **MUST** declare a **`entityOfConcernChangeMode ∈ {preserve, retarget}`**:
+  * `preserve` — `entityOfConcernRef(Y) = entityOfConcernRef(X)` and any change to `groundingHolonRef`/`viewpointRef` must be justified by Bridges/CorrespondenceModel, without changing the EntityOfConcernSlot value;
+  * `retarget` — permitted only for A.6.4 species; see below; in this case the characteristic records an intentional change in the pair `<entityOfConcernRef, groundingHolonRef>` under a declared `KindBridge` in the appropriate ReferencePlane.
 
-  This **DescribedEntityChangeMode** is a CHR-style *characteristic* (A.17) on episteme morphisms, which points directly to `DescribedEntitySlot`. Avoid introducing a separate “describedEntity” term alongside `DescribedEntity`.
+  This **EntityOfConcernChangeMode** is a CHR-style *characteristic* (A.17) on episteme morphisms, which points directly to `EntityOfConcernSlot`. Avoid introducing a separate “entityOfConcern” term alongside `EntityOfConcern`.
 
 * **Component discipline.**
   P0–P5 from A.6.2 are read **directly** in terms of C.2.1 components:
   * purity ⇒ only C.2.1 components of Y may change; no Work/Mechanism side‑effects;
-  * conservativity ⇒ claims in `content_Y` read via `referenceScheme_Y` about the new `<DescribedEntity, GroundingHolon>` do not go beyond what already follows from `content_X` via `referenceScheme_X` under the declared DescribedEntityChangeMode and Bridges;
+  * conservativity ⇒ claims in `content_Y` read via `referenceScheme_Y` about the new `<EntityOfConcern, GroundingHolon>` do not go beyond what already follows from `content_X` via `referenceScheme_X` under the declared EntityOfConcernChangeMode and Bridges;
   * functoriality ⇒ composition of such transformations respects the slot structure and ReferenceSchemes.
 
 Any Ep→Ep pattern that operates on `U.Episteme` **MUST** state which C.2.1 slots it reads and which it may write, in terms of SlotKinds/ValueKinds/RefKinds (A.6.5), and then declare itself a species of A.6.2/3/4 as appropriate.
 
-#### C.2.1:7.2 - EpistemicViewing (A.6.3) as describedEntity‑preserving projections
+#### C.2.1:7.2 - EpistemicViewing (A.6.3) as entityOfConcern‑preserving projections
 
-`U.EpistemicViewing` is the **DescribedEntity-preserving** species of A.6.2. Over C.2.1 this means:
-* `describedEntityRef(Y) = describedEntityRef(X)` — the same value in `DescribedEntitySlot`.
+`U.EpistemicViewing` is the **EntityOfConcern-preserving** species of A.6.2. Over C.2.1 this means:
+* `entityOfConcernRef(Y) = entityOfConcernRef(X)` — the same value in `EntityOfConcernSlot`.
 * `groundingHolonRef` is preserved, or changed only within a fixed grounding context (e.g. normalising identifiers for the same lab or runtime).
 * `viewpointRef` is either:
   * preserved (internal normalisation under the same viewpoint), or
   * replaced by another `U.ViewpointRef` *within* a `U.MultiViewDescribing` family (E.17.0), with invariants enforced by a CorrespondenceModel.
-* `content` and `referenceScheme` are transformed **conservatively**: no new intensional claims about the same DescribedEntity are introduced.
+* `content` and `referenceScheme` are transformed **conservatively**: no new claim content about the same `EntityOfConcern` is introduced.
 
 Typical examples:
 * filtering or aggregating `U.ClaimGraph` to a view relevant for a stakeholder group;
 * rendering a behavioural specification into a tabular or diagrammatic episteme under a publication viewpoint;
-* normalising a logic‑heavy episteme into a more operational one, while keeping the same described system and context.
+* normalising a logic‑heavy episteme into a more operational one, while keeping the same system EntityOfConcern and context.
 
-In terms of SoTA, EpistemicViewing behaves like a **lens** or **optic** over C.2.1: a focus (SlotKinds for content/representation) is manipulated while the DescribedEntity is fixed.
+In terms of SoTA, EpistemicViewing behaves like a **lens** or **optic** over C.2.1: a focus (SlotKinds for content/representation) is manipulated while the EntityOfConcern is fixed.
 
-#### C.2.1:7.3 - EpistemicRetargeting (A.6.4) as DescribedEntity-bundle retargeting on episteme morphisms
+#### C.2.1:7.3 - EpistemicRetargeting (A.6.4) as EntityOfConcern-bundle retargeting on episteme morphisms
 
-`U.EpistemicRetargeting` is the species of A.6.2 where **`describedEntityChangeMode = retarget`**.
-It is always a **morphism between epistemes** (`f : X → Y` in `U.Episteme`), but the adjective “retargeting” refers **not** to the fact that an episteme is mapped to another episteme (this is true for all A.6.2 species), and **not** to a separate describedEntity, but specifically to the **change in the DescribedEntity-bundle** selected by C.2.1:
-* `describedEntityRef(Y) ≠ describedEntityRef(X)` — the value stored for `DescribedEntitySlot` changes;
-* a `KindBridge` must relate `Kind(describedEntityRef(X))` and `Kind(describedEntityRef(Y))`;
+`U.EpistemicRetargeting` is the species of A.6.2 where **`entityOfConcernChangeMode = retarget`**.
+It is always a **morphism between epistemes** (`f : X → Y` in `U.Episteme`), but the adjective “retargeting” refers **not** to the fact that an episteme is mapped to another episteme (this is true for all A.6.2 species), and **not** to a separate entityOfConcern, but specifically to the **change in the EntityOfConcern-bundle** classified by C.2.1:
+* `entityOfConcernRef(Y) ≠ entityOfConcernRef(X)` — the value stored for `EntityOfConcernSlot` changes;
+* a `KindBridge` must relate `Kind(entityOfConcernRef(X))` and `Kind(entityOfConcernRef(Y))`;
 * `groundingHolonRef` may remain the same (e.g. same plant, different subsystem) or be transformed along a Bridge in the same ReferencePlane.
 
-In practice, many retargetings operate on the **target bundle** `<DescribedEntitySlot, GroundingHolonSlot>` (for example, when an episteme about a physical module is re-interpreted as an episteme about a function-holon realised in a different environment). The characteristic `describedEntityChangeMode` still classifies such morphisms by whether this bundle is preserved or intentionally re-identified under a `KindBridge` and reference-plane policy; the episteme on the codomain side is just the usual A.6.2 target episteme.
-
+In practice, many retargetings operate on the **receiving bundle** `<EntityOfConcernSlot, GroundingHolonSlot>` (for example, when an episteme about a physical module is re-interpreted as an episteme about a function-holon realised in a different environment). The characteristic `entityOfConcernChangeMode` still classifies such morphisms by whether this bundle is preserved or intentionally re-identified under a `KindBridge` and reference-plane policy; the episteme on the codomain side is just the usual A.6.2 codomain episteme.
 
 Over C.2.1 this is used for:
 * **functional vs structural reinterpretation** (e.g. an episteme about a physical module retargeted to an episteme about the function it realises; StructuralReinterpretation in E.TGA becomes a species of A.6.4);
-* **signal vs spectrum** transitions (Fourier-style moves where the `DescribedEntitySlot` value changes from time-domain signal to frequency-domain representation but an invariant, such as energy, is preserved);
+* **signal vs spectrum** transitions (Fourier-style moves where the `EntityOfConcernSlot` value changes from time-domain signal to frequency-domain representation but an invariant, such as energy, is preserved);
 * **data vs model** transitions (e.g. retargeting an episteme about raw observations to an episteme about a learnt model, with an invariant such as likelihood or sufficient statistics).
 
-C.2.1 ensures that these retargetings have a **clear source `DescribedEntitySlot` value and target `DescribedEntitySlot` value** and that any such move is expressed as a morphism over well‑typed slots, not as an unstructured rewrite of “subject” or “object” labels.
+C.2.1 ensures that these retargetings have a **clear domain `EntityOfConcernSlot` value and codomain `EntityOfConcernSlot` value** and that any such move is expressed as a morphism over well-typed slots, not as an unstructured rewrite of “subject” or “object” labels.
 
 ### C.2.1:8 - Alignment with E.17.* (Multi‑View Describing & Publication)  *(normative)*
 
@@ -686,10 +663,10 @@ C.2.1 ensures that these retargetings have a **clear source `DescribedEntitySlot
 
 #### C.2.1:8.1 - Multi‑View Describing (E.17.0)
 
-`U.MultiViewDescribing` organises **families of descriptions/specifications** over a shared entity‑of‑interest:
-* The **EoIClass** parameter of E.17.0 is a species constraint on the ValueKind of `DescribedEntitySlot` (`EoIClass ⊑ U.Entity`).
+`U.MultiViewDescribing` organises **families of Description epistemes and Description epistemes admitted for specification use** over a shared entity of concern:
+* The **EntityOfConcernClass** parameter of E.17.0 is a species constraint on the ValueKind of `EntityOfConcernSlot` (`EntityOfConcernClass ⊑ U.Entity`).
 * Each member of a multi‑view family is a `…Description`/`…Spec` episteme with:
-  * `describedEntityRef` into that EoIClass,
+  * `entityOfConcernRef` into that EntityOfConcernClass,
   * `viewpointRef` drawn from a `U.ViewpointBundle`,
   * `subjectRef` decoding to DescriptionContext.
 
@@ -702,41 +679,41 @@ C.2.1 thus supplies the **per‑episteme** structure that E.17.0 rearranges into
 #### C.2.1:8.2 - Viewpoint bundles (E.17.1/E.17.2)
 
 `U.ViewpointBundleLibrary` and TEVB specialise the `U.Viewpoint` node:
-* A ViewpointBundle is a **set of `U.Viewpoint` instances** tailored to a class of DescribedEntities (e.g., holons in engineering contexts).
-* TEVB fixes `EoIClass = U.Holon` (typically `U.System` or `U.Episteme`) and provides canonical engineering viewpoints: functional, structural, role‑enactor, interface‑oriented, etc.
+* A ViewpointBundle is a **set of `U.Viewpoint` instances** tailored to a class of entities of concern (e.g., holons in engineering contexts).
+* TEVB fixes `EntityOfConcernClass = U.Holon` (typically `U.System` or `U.Episteme`) and provides canonical engineering viewpoints: functional, structural, role‑enactor, interface‑oriented, etc.
 
 From the C.2.1 perspective:
 
 * these bundles populate the ValueKind of `ViewpointSlot`;
-* engineering episteme species that want to be “TEVB‑aligned” must restrict `viewpointRef` to TEVB’s `EngineeringVPId` set, while keeping the same DescribedEntitySlot discipline.
+* engineering episteme species that want to be “TEVB‑aligned” must restrict `viewpointRef` to TEVB’s `EngineeringVPId` set, while keeping the same EntityOfConcernSlot discipline.
 
 #### C.2.1:8.3 - MVPK (E.17) as publication over C.2.1 views
 
 MVPK treats `U.View` (i.e. `U.EpistemeView`) as its primary input:
 * it uses `U.EpistemicViewing` species (A.6.3) to generate publication‑oriented views from engineering or logical views;
-* it then publishes these `U.View` epistemes as `U.Surface` values with declared publication viewpoints and faces.
+* it then publishes these `U.View` epistemes through publication face/form values with declared publication viewpoints and faces.
 
 C.2.1’s distinction between:
 
-* `U.Viewpoint` (intensional, epistemic perspective) and
-* `U.PresentationCarrier` (carrier in C.2.1+ and L-SURF)
+* `U.Viewpoint` (epistemic perspective specification) and
+* `U.PresentationCarrier` (carrier in C.2.1+ and publication-face/form discipline)
 
 keeps **epistemic perspective and physical medium separate**:
 * MVPK operates on `U.View` epistemes and then on carriers;
-* the same View can be realised on multiple carriers without changing its describedEntity or ClaimGraph.
+* the same View can be realised on multiple carriers without changing its entityOfConcern or ClaimGraph.
 
 Any MVPK species that claims to be C.2.1‑conformant **MUST**:
 * treat `U.View` as a `U.EpistemeView` with a valid C.2.1 core,
-* document which C.2.1 slots it reads/writes (typically only representation/carrier‑related ones, leaving `DescribedEntitySlot` and `GroundingHolonSlot` untouched),
-* refrain from introducing new claims about the described entity beyond what is in the source `U.View`’s ClaimGraph.
+* document which C.2.1 slots it reads/writes (typically only representation/carrier‑related ones, leaving `EntityOfConcernSlot` and `GroundingHolonSlot` untouched),
+* refrain from introducing new claims about the EntityOfConcern value beyond what is in the source `U.View`’s ClaimGraph.
 
 ### C.2.1:9 - Bias‑annotation  *(informative)*
 
 **Episteme‑first and pragmatics‑first.**
-The pattern assumes that *nothing is a meaningful episteme* unless it is **about something for someone under some perspective**. This follows the pragmatic turn in semantics: describedEntity and concerns are not afterthoughts but part of the core structure. The graph is therefore built around slots for DescribedEntity, GroundingHolon, Viewpoint and ClaimGraph, not around abstract “propositions in the void”.
+The pattern assumes that a claim-bearing episteme is meaningful only when it is **about something for someone under some perspective**. This follows the pragmatic turn in semantics: entityOfConcern and concerns are not afterthoughts but part of the core structure. The graph is therefore built around slots for EntityOfConcern, GroundingHolon, Viewpoint and ClaimGraph, not around abstract “propositions in the void”.
 
 **Operational/representational bias.**
-C.2.1+ anticipates that certain RepresentationSchemes are **operational** in Novaes’ sense (supporting direct syntactic inference, like pen‑and‑paper arithmetic or proof states) while others are **purely notational**. The pattern remains neutral on which schemes are used but bakes in a place for operations and carriers so that:
+C.2.1+ anticipates that certain RepresentationSchemes are **operational** in Novaes’ sense (admitting direct syntactic inference, like pen-and-paper arithmetic or proof states) while others are **purely notational**. The pattern remains neutral on which schemes are used but bakes in a place for operations and carriers so that:
 
 * symbol‑manipulating tools (SAT/SMT, proof assistants, classical programming languages),
 * distributed/latent representations (LLM embeddings, latent protocols like “DroidSpeak”, “Coconut”‑style communication),
@@ -745,7 +722,7 @@ C.2.1+ anticipates that certain RepresentationSchemes are **operational** in Nov
 can all be treated as different species operating over the same `U.EpistemeSlotGraph`. There is a bias towards making these operational differences **explicit** instead of hiding them behind “the model”.
 
 **Viewpoint and stakeholder bias.**
-The pattern leans on the ISO‑style idea that viewpoints encode **stakeholder concerns and role‑families**, but it generalises this beyond architecture. `U.Viewpoint` is intentionally intensional and not bound to any single discipline; still, the examples are skewed toward engineering and epistemic use‑cases.
+The pattern leans on the ISO‑style idea that viewpoints encode **stakeholder concerns and role‑families**, but it generalises this beyond architecture. `U.Viewpoint` is intentionally context-local and not bound to any single discipline; still, the examples are skewed toward engineering and epistemic use‑cases.
 
 **Didactic bias.**
 The pattern is written to be teachable: semantic triangles are kept as didactic projections; examples like stools on lab rigs, services and SLAs, and model‑evaluation epistemes are deliberately simple. This may under‑represent more exotic epistemes (e.g. artistic, legal, or socio‑technical ones), but the intention is that these use the same slots with different species‑level constraints.
@@ -753,28 +730,28 @@ The pattern is written to be teachable: semantic triangles are kept as didactic 
 ### C.2.1:10 - Conformance checklist  *(normative)*
 
 **CC‑C.2.1‑1 - Minimal core components for episteme species.**
-Any species of `U.Episteme` that participates in I/D/S discipline or in E.17 multi‑view/publishing **MUST** be representable as `U.EpistemeCard`/`U.EpistemeView` with at least:
+Any species of `U.Episteme` that participates in `EntityOfConcern` / Description-episteme boundary discipline, specification use/refinement, or E.17 multi-view/publishing **MUST** be representable as `U.EpistemeCard`/`U.EpistemeView` with at least:
 
 ```
 content            : U.ClaimGraph
-describedEntityRef : U.EntityRef
+entityOfConcernRef : U.EntityRef
 groundingHolonRef? : U.HolonRef
 viewpointRef?      : U.ViewpointRef
 referenceScheme?   : U.ReferenceScheme      // ByValue
 meta               : …                      // edition, provenance, status (A.7/F.15)
 ```
 
-and corresponding SlotSpecs consistent with A.6.5 (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`).
+and corresponding SlotSpecs consistent with A.6.5 (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`).
 
-**CC‑C.2.1‑2 - No kernel type for “DescribedEntity” or “GroundingHolon”.**
-Patterns **MUST NOT** introduce kernel types `U.DescribedEntity` or `U.GroundingHolon`:
-* DescribedEntitySlot has ValueKind `U.Entity` ( species‑constrained via EoIClass if needed),
+**CC‑C.2.1‑2 - No kernel type for “EntityOfConcern” or “GroundingHolon”.**
+Patterns **MUST NOT** introduce kernel types `U.EntityOfConcern` or `U.GroundingHolon`:
+* EntityOfConcernSlot has ValueKind `U.Entity` ( species‑constrained via EntityOfConcernClass if needed),
 * GroundingHolonSlot has ValueKind `U.Holon`.
 
-Plain terms “described entity” and “grounding holon” are allowed only as **role descriptions** of slot occupants.
+Plain terms “EntityOfConcern value” and “grounding holon” are allowed only as **slot-filler descriptions** under the declared SlotKind/ValueKind/RefKind discipline.
 
 **CC‑C.2.1‑3 - SlotKind/ValueKind/RefKind discipline.**
-All episteme‑related slots, including `DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot` (and any extensions in C.2.1+), **MUST**:
+All episteme‑related slots, including `EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot` (and any extensions in C.2.1+), **MUST**:
 * follow the naming discipline of A.6.5 (`*Slot` for SlotKinds, `*Ref` only for RefKinds/fields),
 * declare a ValueKind and refMode (`ByValue` or a RefKind),
 * be used consistently across patterns that refer to the same conceptual position.
@@ -782,22 +759,21 @@ All episteme‑related slots, including `DescribedEntitySlot`, `GroundingHolonSl
 **CC‑C.2.1‑4 - DescriptionContext wiring.**
 Any episteme species whose name or pattern claims to be a `…Description` or `…Spec` in the sense of E.10.D2 **MUST**:
 * expose `subjectRef : U.SubjectRef`,
-* provide a decoding to `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`,
-* ensure that `DescribedEntityRef` matches `describedEntityRef` (DescribedEntitySlot), and
+* provide a decoding to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`,
+* ensure that `EntityOfConcernRef` matches `entityOfConcernRef` (EntityOfConcernSlot), and
 * ensure that `ViewpointRef` matches `viewpointRef` or is derivable from a `U.ViewpointBundle` under documented rules.
 
 **CC‑C.2.1‑5 - Morphism declarations over slots.**
 Any pattern in A.6.2–A.6.4, E.17, E.TGA, or discipline packs that defines morphisms between epistemes **SHALL**:
 * state whether it is a species of `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, or `U.EpistemicRetargeting`,
-* declare its `describedEntityChangeMode` (preserve/retarget),
+* declare its `entityOfConcernChangeMode` (preserve/retarget),
 * name which SlotKinds it reads and writes,
-* state its behaviour on `describedEntityRef`, `groundingHolonRef`, `viewpointRef`, and `referenceScheme`.
+* state its behaviour on `entityOfConcernRef`, `groundingHolonRef`, `viewpointRef`, and `referenceScheme`.
 
 **CC-C.2.1-5a - Episteme/publication lane split for semio-facing terms.**
-Any pattern, profile, support note, or FPF-facing term that uses pre-FPF sign vocabulary, explanation, publication, source cues, authority-looking cases, or reader reliance **MUST** name the claim-bearing value as `U.Episteme`, `U.EpistemePublication`, or a declared species of `U.Episteme`. When publication is live, it **MUST** separately name the publication form, `U.View` or MVPK face, carrier or rendering, source-finding cue, and either `governingPatternRef` or `authoritySourceRef` when interpretation or use depends on a named authority reference. It **MUST NOT** use generic semio wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
+Any pattern, publication-form profile, evidence-use note, or FPF-facing term that uses pre-FPF sign vocabulary, explanation, publication, source cues, authority-looking cases, or reader reliance **MUST** name the claim-bearing value as `U.Episteme`, `U.EpistemePublication`, or a declared species of `U.Episteme`. When publication is live, it **MUST** separately name the publication form, `U.View` or MVPK face, carrier or rendering, source-finding cue, and either `governingPatternRef` or `authoritySourceRef` when interpretation or use depends on a named authority reference. It **MUST NOT** use generic semio wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 
 **CC‑C.2.1‑6 - Semantic‑triangle usage guard.**
-
 
 If a semantic triangle or parallelogram diagram appears in a pattern or tutorial, there must be an explicit note that:
 * it is a didactic projection of `U.EpistemeSlotGraph`, and
@@ -812,18 +788,18 @@ Any pattern that evaluates or compares epistemes (KD‑CAL/LOG‑CAL, CHR, CG‑
 Any `U.Episteme` species that is consumed by KD‑CAL / LOG‑CAL / CHR‑based patterns **SHALL** declare a `U.BoundedContextRef`; all F–G–R computations and C.2.1 slot interpretations are **context‑local**.  Cross‑context use **MUST** proceed via an explicit Bridge with CL / Φ‑policy (F.9/B.3), with penalties routed to R‑lanes only; F and the slot structure from C.2.1 remain unchanged.
 
 **CC‑C.2.1‑9 - Carriers and Work outside episteme content.**
-C.2.1 **inherits** A.7 and A.12 separation obligations: `U.PresentationCarrier` values, `U.Surface` values, and `U.Work` occurrences **MUST NOT** be treated as parts of `U.Episteme` or as values of any SlotKind in `U.EpistemeSlotGraph`. Episteme content stays in `U.ClaimGraph` and `U.ReferenceScheme`; evidence enters only via `U.EvidenceRole` bindings that point to external `U.Work` occurrences and carriers (A.10 and B.3). Changing carriers or re-publishing work alone does **not** change the episteme determined by ⟨content, describedEntityRef, referenceScheme⟩ in its `U.BoundedContext`.
+C.2.1 **inherits** A.7 and A.12 separation obligations: `U.PresentationCarrier` values, publication-side values, and `U.Work` occurrences **MUST NOT** be treated as parts of `U.Episteme` or as values of any SlotKind in `U.EpistemeSlotGraph`. Episteme content stays in `U.ClaimGraph` and `U.ReferenceScheme`; evidence enters only via `U.EvidenceRole` bindings that point to external `U.Work` occurrences and carriers (A.10 and B.3). Changing carriers or re-publishing work alone does **not** change the episteme determined by ⟨content, entityOfConcernRef, referenceScheme⟩ in its `U.BoundedContext`.
 
-**CC‑C.2.1‑10 - Reflexive describedEntity guard.**
-When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane = episteme), or about itself (self‑describing or meta‑specification cases), patterns **SHALL** ensure that the resulting JustificationGraph / evaluation chains are **acyclic** along support paths. Reflexive `describe` / citation edges may exist as literature anchors, but they MUST NOT form minimal support cycles for acceptance or KD‑CAL assurance decisions; the trust calculus MUST always bottom out in external evidence (`U.Work` with `U.EvidenceRole`) rather than in purely self‑referential claims.
+**CC‑C.2.1‑10 - Reflexive entityOfConcern guard.**
+When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane = episteme), or about itself (self-describing or meta-specification cases), patterns **SHALL** ensure that the resulting JustificationGraph / evaluation chains are **acyclic** along justification paths. Reflexive `describe` / citation edges may exist as literature references, but they MUST NOT form minimal justification cycles for acceptance or KD-CAL assurance decisions; the trust calculus MUST always bottom out in external evidence (`U.Work` with `U.EvidenceRole`) rather than in purely self-referential claims.
 
 ### C.2.1:11 - Consequences  *(informative)*
 
 **Benefits**
 * **Single, extensible episteme core.**
-  C.2.1 gives a small, stable set of positions (DescribedEntity, GroundingHolon, ClaimGraph, Viewpoint, View, ReferenceScheme) and components (`U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication`) on which all higher‑level patterns depend. This avoids the proliferation of “epistemic objects” and “facets” with overlapping semantics.
-**Transparent DescribedEntity & grounding discipline.**
-  The pair (`DescribedEntitySlot`, `GroundingHolonSlot`) is no longer hidden inside ad-hoc “SubjectRef” fields or semantic triangles: both are explicit, typed slots. This makes retargeting, viewing and correspondence laws (A.6.2–A.6.4, E.17.0) easier to state and check.
+  C.2.1 gives a small, stable set of positions (EntityOfConcern, GroundingHolon, ClaimGraph, Viewpoint, View, ReferenceScheme) and components (`U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication`) on which all higher‑level patterns depend. This avoids the proliferation of “epistemic objects” and “facets” with overlapping semantics.
+**Transparent EntityOfConcern & grounding discipline.**
+  The pair (`EntityOfConcernSlot`, `GroundingHolonSlot`) is no longer hidden inside ad-hoc “SubjectRef” fields or semantic triangles: both are explicit, typed slots. This makes retargeting, viewing and correspondence laws (A.6.2–A.6.4, E.17.0) easier to state and check.
 * **Better fit for contemporary representation practice.**
   By distinguishing ClaimGraph, RepresentationScheme, Tokens, Carriers and Operations (in C.2.1+), the pattern matches contemporary SoTA views of notation and formalism:
   * formal languages as cognitive tools and de-semanticisation techniques (Novaes),
@@ -837,9 +813,9 @@ When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane 
 
 **Trade‑offs / costs**
 * **More explicit structure.**
-  Authors must declare slots, ValueKinds and references explicitly, and keep DescriptionContext consistent. This is more upfront work than writing ad‑hoc “Subject/Object” fields, but it pays off in substitution safety and cross‑pattern reuse.
+  Pattern users and authors must declare slots, ValueKinds and references explicitly, and keep DescriptionContext consistent. This is more upfront work than writing ad‑hoc “Subject/Object” fields, but it pays off in substitution safety and cross‑pattern reuse.
 * **Migration effort.**
-  Legacy uses of “EpistemicObject”, “Facet”, “Subject”/“Object”, and raw `…Ref` fields will need refactoring into C.2.1 slots + A.6.5 SlotSpecs. Migration notes and aliasing can ease the transition, but mechanical cleanup will still be required.
+  Legacy uses of “EpistemicObject”, “Facet”, “Subject”/“Object”, and raw `…Ref` fields will need refactoring into C.2.1 slots + A.6.5 SlotSpecs. Current prose uses the selected C.2.1 slots and A.6.5 SlotSpecs directly; old wording is source/input material for repair, not a live alternate vocabulary.
 * **Exposure of representation biases.**
   Being explicit about RepresentationSchemes and Operations may surface disagreements about which representations are “primary” in a team or discipline. C.2.1 does not resolve these disagreements; it only makes them visible and therefore debatable.
 
@@ -849,24 +825,25 @@ When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane 
 * A.1 `U.Holon` — for treating episteme as a holon with components.
 * A.6.0 `U.Signature` — for interpreting episteme kinds as n‑ary relations over slots.
 * A.6.5 `U.RelationSlotDiscipline` — for SlotKind/ValueKind/RefKind discipline over episteme slots.
-* A.7, E.10.D2 — for I/D/S discipline and the Interpretation of `subjectRef` as DescriptionContext.
+* A.7, E.10.D2 — for `EntityOfConcern` / Description-episteme boundary discipline, specification use/refinement gates, and the interpretation of `subjectRef` as DescriptionContext.
 * C.2 (KD‑CAL, LOG‑CAL) — for ClaimGraph semantics, ReferencePlanes, and Bridges.
 * E.8, E.10 — for pattern authoring discipline and lexical guards.
 
 * **Constrains**
-* A.6.2–A.6.4 — by fixing the minimal episteme component set those morphisms operate on and by requiring an explicit **DescribedEntityChangeMode characteristic** (`describedEntityChangeMode ∈ {preserve, retarget}`) over `DescribedEntitySlot`/`GroundingHolonSlot`.
-* E.17.0–E.17.2 — by specifying how `DescribedEntity`, `Viewpoint`, `View` and ReferenceSchemes are represented at episteme level.
-* E.17 (MVPK) — by separating `U.View` (episteme) from `U.PresentationCarrier` (surface), and by requiring that publication morphisms be `U.EpistemicViewing` species over C.2.1‑conformant views.
-* F.18 (LEX‑BUNDLE) — by providing the episteme‑specific name cards and guards for DescribedEntity/GroundingHolon/Viewpoint/View/ReferenceScheme and their SlotKinds.
+* A.6.2–A.6.4 — by fixing the minimal episteme component set those morphisms operate on and by requiring an explicit **EntityOfConcernChangeMode characteristic** (`entityOfConcernChangeMode ∈ {preserve, retarget}`) over `EntityOfConcernSlot`/`GroundingHolonSlot`.
+* E.17.0–E.17.2 — by specifying how `EntityOfConcern`, `Viewpoint`, `View` and ReferenceSchemes are represented at episteme level.
+* E.17 (MVPK) — by separating `U.View` (episteme) from `U.PresentationCarrier` (publication carrier), and by requiring that publication morphisms be `U.EpistemicViewing` species over C.2.1‑conformant views.
+* F.18 (LEX‑BUNDLE) — by providing the episteme‑specific name cards and guards for EntityOfConcern/GroundingHolon/Viewpoint/View/ReferenceScheme and their SlotKinds.
 
 **Used by**
-* A.6.2 `U.EffectFreeEpistemicMorphing` — as the default episteme object structure for episteme‑to‑episteme transforms.
-* A.6.3 `U.EpistemicViewing` — as the substrate for describedEntity‑preserving projections (views).
-* A.6.4 `U.EpistemicRetargeting` — as the substrate for DescribedEntity-bundle retargeting transforms between epistemes (Ep→Ep with `describedEntityChangeMode = retarget`).
-* E.17.0 `U.MultiViewDescribing`, E.17.1, E.17.2 — to organise families of D/S‑epistemes under Viewpoints and EoI classes.
-* E.17 (MVPK) — to publish episteme views as surfaces.
+* A.6.2 `U.EffectFreeEpistemicMorphing` — as the default episteme slot/value structure for episteme-to-episteme transforms.
+* A.6.3 `U.EpistemicViewing` — as the substrate for entityOfConcern‑preserving projections (views).
+* A.6.4 `U.EpistemicRetargeting` — as the substrate for EntityOfConcern-bundle retargeting transforms between epistemes (Ep→Ep with `entityOfConcernChangeMode = retarget`).
+* E.17.0 `U.MultiViewDescribing`, E.17.1, E.17.2 — to organise families of Description epistemes, including Description epistemes admitted for specification use, under Viewpoints and `EntityOfConcernClass` constraints.
+* E.17 (MVPK) — to publish episteme views through publication faces/forms and carriers.
 * E.TGA — to interpret StructuralReinterpretation and other engineering projections as episteme morphisms over a well‑typed `U.EpistemeSlotGraph`.
 
-Together, these relations make `U.EpistemeSlotGraph` the **single normative core** for thinking about epistemes, their DescribedEntity mapping, their representations, and their transformations across FPF.
+Together, these relations make `U.EpistemeSlotGraph` the **single normative core** for thinking about epistemes, their EntityOfConcern mapping, their representations, and their transformations across FPF.
 
 ### C.2.1:End
+

@@ -6,12 +6,12 @@ section_id: "F.5:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__013_worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:12 — Worked examples"
-line_start: 70032
-line_end: 70095
+line_start: 70825
+line_end: 70886
 dependencies:
   - "A.11"
   - "A.7"
@@ -89,7 +89,6 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 * **Decision.** Two U.Types: **Assurance Level**, **Readiness Level** (family‑coherent), plus **Requirement Status** (for normative clauses)
 * **Why.** Separates families; preserves level vs status distinction. (R‑UT‑7, R‑UT‑3)
 
-
 #### F.5:12.3 - Mixed scenario (service acceptance over execution traces)
 
 **Contexts in play.** IEC 61131‑3 (run), SOSA/SSN (sensing), ITIL 4 (services).
@@ -98,5 +97,4 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 2. **U.Type (from R₁)** — Tech: **Result** (to carry measured values).
 3. **Role Description (IEC)** — Tech: **Completed** / **Failed** (Status on a run).
 4. **Name discipline payoff.** The sentence “*Compare IEC run **Results** against the ITIL **Service‑Level Objective***” is Context‑true without tags, because each label encodes its **senseFamily** and neutrality.
-
 

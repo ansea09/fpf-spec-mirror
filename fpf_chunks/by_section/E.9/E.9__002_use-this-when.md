@@ -6,12 +6,12 @@ section_id: "E.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__002_use-this-when.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:0 — Use this when"
-line_start: 55804
-line_end: 55812
+line_start: 56911
+line_end: 56919
 dependencies:
   - "E.10"
   - "E.19"

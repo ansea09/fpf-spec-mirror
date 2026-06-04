@@ -6,12 +6,12 @@ section_id: "E.2.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__012_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:11 — SoTA-Echoing"
-line_start: 54239
-line_end: 54253
+line_start: 55347
+line_end: 55361
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -28,9 +28,9 @@ keywords:
 
 ### E.2.DA:11 - SoTA-Echoing
 
-`E.2.DA` does not import source authority directly. It reuses source stance already carried by exact neighbouring patterns and reads only the FPF-level Pillar effect:
+`E.2.DA` does not import source authority directly. It reuses source-use decisions already carried by exact neighbouring patterns and reads only the FPF-level Pillar effect:
 
-| Source stance | Exact FPF locus | Adopted or adapted content | `E.2.DA` effect | Non-overread boundary |
+| Source-use decision | Exact FPF locus | Adopted or adapted content | `E.2.DA` effect | Non-overread boundary |
 |---|---|---|---|---|
 | Constitutional source | `E.2` | The Pillars and their meanings. | Supplies the coordinate heads and keeps Pillar meaning outside this evaluation pattern. | Do not amend, rank, or redefine Pillars inside `E.2.DA`. |
 | Lineage and problem pressure | `E.11:11` where pattern-language entry, wrong-pattern, and projection discipline are carried; `E.2` for FPF constitution | Alexander-style pattern-language tradition pressures FPF to be a usable language rather than isolated patterns; it is not current SoTA by itself. | Activates `P1`, `P2`, `P5`, `P7`, and `P10` when entry, composition, or piecemeal improvement is harmed. | Do not infer generic pattern-language adequacy or non-FPF corpus adequacy without a separate object-under-improvement evaluation. |

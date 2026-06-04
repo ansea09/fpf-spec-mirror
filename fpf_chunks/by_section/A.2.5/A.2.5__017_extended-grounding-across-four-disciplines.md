@@ -6,12 +6,12 @@ section_id: "A.2.5:16"
 section_title: "Extended grounding across four disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__017_extended-grounding-across-four-disciplines.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:16 — Extended grounding across four disciplines"
-line_start: 3879
-line_end: 3963
+line_start: 3830
+line_end: 3910
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -54,7 +54,6 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 **Work gating.**
 `performedBy = Dr.Kim#SurgeonRole:Hospital.OR_2026` is **valid** for step *“Incision”* only when `Ready(Dr.Kim, SurgeonRole, OR_2026, W)` holds (checklist items: approval id, fatigue score, SoD against *AuditorRole*).
 
-
 #### A.2.5:16.2 - Software operations (SRE)
 
 **Context.** `SRE_Prod_Cluster_EU_2026`
@@ -75,7 +74,6 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 
 **Work gating.**
 `performedBy = Dana#IncidentCommanderRole:SRE_Prod_Cluster_EU_2026` is **invalid** for “Declare SEV‑1” if `ConflictSoD(ChangeAuthorRole)` holds or `PageFreshness>5 min`.
-
 
 #### A.2.5:16.3 - Laboratory metrology
 
@@ -98,7 +96,6 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 **Work gating.**
 `performedBy = SensorT‑17#ThermometerObserverRole:Metrology_Thermo_2026` is **rejected** if `CalibrationAge>180 d` or `ControlSampleBias>δ`.
 
-
 #### A.2.5:16.4 - Governance / compliance
 
 **Context.** `Finance_Audit_2026`
@@ -112,5 +109,4 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 
 **Work gating.**
 `performedBy = Alice#IndependentAuditorRole:Finance_Audit_2026` **fails** if Alice holds any overlapping `DeveloperRole` binding in the same context.
-
 

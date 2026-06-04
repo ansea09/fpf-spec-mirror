@@ -6,12 +6,12 @@ section_id: "F.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:3 — Forces"
-line_start: 71869
-line_end: 71878
+line_start: 72584
+line_end: 72592
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -39,5 +39,4 @@ keywords:
 | **Didactic simplicity vs status variety** | Many status schemes exist; we need a **small spine** that admits Context synonyms.                |
 | **Design vs run**                         | Standards speak design; evidence speaks run; requirements span both; do not swap them.         |
 | **Safety vs utility**                     | Substitution is powerful but risky; explanation carries less substitution authority. Make the choice explicit. |
-
 

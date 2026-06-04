@@ -6,12 +6,12 @@ section_id: "F.12:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:5 — Minimal vocabulary (this pattern only)"
-line_start: 72597
-line_end: 72608
+line_start: 73275
+line_end: 73285
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -42,5 +42,4 @@ keywords:
 * **Bridge.** An explicit Cross‑context relation with **kind/CL/Loss** (F.7/F.9).
 
 > **Context discipline.** Terms like *availability*, *activity*, *task*, *observation* are always read as **context‑local**. Cross‑use requires a **Bridge**.
-
 

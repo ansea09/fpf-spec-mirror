@@ -6,12 +6,12 @@ section_id: "A.3.3:10"
 section_title: "Anti‑patterns (and the right move)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__011_anti-patterns-and-the-right-move.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:10 — Anti‑patterns (and the right move)"
-line_start: 6570
-line_end: 6590
+line_start: 6456
+line_end: 6475
 dependencies:
   - "A.19"
   - "B.4"
@@ -41,5 +41,4 @@ keywords:
 
 * **“One size fits all time base.”**
   If parts of the system evolve on different clocks, declare `hybrid` and separate update rules.
-
 

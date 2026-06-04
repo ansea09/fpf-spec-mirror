@@ -6,12 +6,12 @@ section_id: "A.6.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:intro — Intro"
-line_start: 12029
-line_end: 12087
+line_start: 11875
+line_end: 11931
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -62,54 +62,52 @@ keywords:
 
 **Plain-name.** Relational precision restoration.
 
-**Intent.** Provide a reusable governing discipline for repairing a recurring defect in FPF texts: **under‑specified relational language** (often phrased as a seemingly binary verb) that actually hides **(i)** higher arity (missing participant positions), **(ii)** multiple semantic change classes, **(iii)** asymmetry between `U.Viewpoint` specifications and `U.View` instances, **(iv)** boundary requirements (signature invariants vs admissibility vs deontics vs evidence/work), and **(v)** endpoint referential compression (pronominal/metonymic stand‑ins and over‑broad kinds).
+**Intent.** Provide a reusable governing discipline for repairing a recurring defect in FPF texts: **under-specified relational language** (often phrased as a seemingly binary verb) that actually hides **(i)** higher arity (missing participant positions), **(ii)** multiple semantic change classes, **(iii)** asymmetry between `U.Viewpoint` specifications and `U.View` instances, **(iv)** boundary requirements such as signature invariants, admissibility, deontics, evidence, or work, and **(v)** endpoint referential compression through pronominal stand-ins, metonymic stand-ins, or over-broad kinds.
 RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explicit, qualified relation records** with an explicit **change-class lexicon** and **lexical guardrails**, while respecting the **A.6 Signature Stack** and **A.6.B Boundary Norm Square** separation.
 
-**Use this when.** Use `A.6.P` when wording hides relation force: sameness, linkage, grounding, support, basedness, mapping, comparison, dependency, whole/part, service, cross-context bridge wording, endpoint compression, qualifier force, or another relation-bearing phrase that must be used for FPF guidance, publication, comparison, gating, assurance, decision, or reuse.
+**Use this when.** Use `A.6.P` when wording hides a relation-bearing use: sameness, linkage, grounding, support, basedness, mapping, comparison, dependency, whole or part, service, cross-context bridge wording, endpoint compression, qualifier-carried claim, or another relation-bearing phrase that must be used for FPF guidance, publication, comparison, gating, assurance, decision, or reuse.
 
 **What this buys.** The relation becomes reviewable: head kind, endpoints, slots, qualifiers, scope, time, viewpoint, admissible use, non-admissible overread, and relation record are made explicit enough for the exact neighboring FPF pattern to compose with it.
 
-**First useful move.** Restore the head kind and the relation or comparison force separately. If the problem is only source-expression, publication, architecture or structure, characteristic or scale, quality/evaluative characterization, or function-like carrier recovery, use the exact receiving pattern named below instead of forcing relation repair.
+**First useful move.** Restore the head kind and the relation or comparison use separately. If the problem is only source-expression, publication, architecture or structure, characteristic or scale, quality characterization, evaluative characterization, or function-like exact-kind recovery, use the exact receiving pattern named below instead of forcing relation repair.
 
-**Not this pattern when.** Do not use `A.6.P` as a universal wording-repair pattern, evidence pattern, assurance pattern, quality pattern, source-transfer pattern, or architecture pattern. If `E.10` already recovered the exact receiving object, use that receiving pattern directly.
-
+**Not this pattern when.** Do not use `A.6.P` as a universal wording-repair pattern, evidence pattern, assurance pattern, quality pattern, source-use pattern, or architecture pattern. If `E.10` already recovered the exact receiving pattern, kind, or relation, use that receiving pattern directly.
 
 **Placement.** Part A → cluster **A.6 Signature Stack & Boundary Discipline** → governing pattern for **RPR specialisations** (A.6.5, A.6.6, A.6.8, A.6.9, A.6.H, and any additional A.6.x pattern that declares this RPR relation).
 
 **Builds on.**
 
 * **A.6** (stack layering + boundary discipline requirements).
-* **A.6.B `U.BoundaryNormSquare`** (L/A/D/E classification; claim atomicity; cross‑quadrant references).
+* **A.6.B `U.BoundaryNormSquare`** (L, A, D, and E classification; claim atomicity; cross-quadrant references).
 * **A.6.S `U.SignatureEngineeringPair`** (TargetSignature vs ConstructorSignature; canonical constructor verb mapping; effect‑free constructor ops).
 * **A.6.0 `U.Signature`** (SlotSpec requirement for argument positions).
 * **A.6.5 `U.RelationSlotDiscipline`** (SlotKind/ValueKind/RefKind stratification + canonical slot verbs; `bind` reserved for name binding).
 * **E.8** (pattern authoring discipline; Tell–Show–Show; SoTA echoing hygiene).
-* **F.18** (local-first reusable naming after relation kind/use recovery: mint/reuse/document-legacy decisions, collision checks, lineage notes, and durable-name discipline).
-* **E.10** (LEX‑BUNDLE discipline; I/D/S versus publication-form and carrier lanes; L‑SURF token discipline; reserved primitives; Tech↔Plain pairing). *(Referenced conceptually; no extra authoring apparatus implied.)*
+* **F.18** (local-first reusable naming after relation kind and use recovery: minting decisions, reuse decisions, legacy-name documentation decisions, collision checks, lineage notes, and durable-name discipline).
+* **E.10** (LEX‑BUNDLE discipline; EntityOfConcern versus Description epistemes and specification-use cases plus publication face, form, unit, carrier, and rendering lanes; publication-face or publication-form token discipline; reserved primitives; Tech↔Plain pairing). *(Referenced conceptually; no extra authoring apparatus implied.)*
 
 **Coordinates with.**
 
-* **A.2.4 `U.EvidenceRole`** (witness semantics: role/timespan/freshness metadata for decision‑relevant witness sets).
+* **A.2.4 `U.EvidenceRole`** (witness semantics: role, timespan, and freshness metadata for decision-relevant witness sets).
 * **A.2.6 scope + `Γ_time` discipline** (avoid implicit “current/latest”; make time selectors explicit when time matters).
-* **A.7 Strict Distinction** (Object≠Description≠Carrier; avoid treating evidence/logs as properties of prose).
+* **A.7 Strict Distinction** (EntityOfConcern, Description episteme, specification use, publication face, form, unit, carrier, and rendering; avoid treating evidence or logs as properties of prose).
 * **A.6.2–A.6.4** (effect‑free episteme morphisms, epistemic viewing/retargeting as disciplined slot writes).
 * **A.10 evidence discipline** (witnesses are carrier‑anchored; freshness is adjudicated in work/evidence lanes).
 * **C.2.1 `U.EpistemeSlotGraph`** (slot read/write profiles for constructor operators, when declared).
 * **C.3.3 `U.KindBridge` + `CL^k` discipline** (repairing endpoint kind mismatches; kind-level congruence + loss notes).
-* **E.17 MVPK / multi‑view publication** (faces are views; “no new semantics”; viewpoint accountability).
+* **E.17 MVPK and multi-view publication** (faces are views; "no new semantics"; viewpoint accountability).
 * **E.19 pattern quality gates** (review/refresh discipline for guardrails and conformance lists).
-* **F.17 `UTS`** (when ambiguity clusters become recurring vocabulary: publish stable `RelationKind` tokens and facet head phrases as UTS/LEX‑governed term assets, so rewrites don’t live only inside A‑patterns).
+* **F.17 `UTS`** (when ambiguity clusters become recurring vocabulary: publish stable `RelationKind` tokens and facet head phrases as UTS and LEX-UTS term assets, so rewrites do not live only inside A-patterns).
 * **F.9 Bridges + CL** for cross-Context or cross-plane reuse (no silent sameness).
-* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for the language-state seam: language-state chart positions, admissible moves, pre-threshold cue preservation, route publication, admissible retreat/reopen, and prompt-shaped continuations that are not yet stable relation publication; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account.
+* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for the language-state seam: language-state chart positions, admissible moves, pre-threshold cue preservation, next-pattern publication, admissible retreat or reopen, and prompt-shaped continuations that are not yet stable relation publication; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account.
 * **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance: articulation explicitness, closure degree, language-state anchoring mode, and the language-state representation-factor bundle may be cited by RPR patterns but are not governed here.
 
 **Specialisations already in Core.**
-These retained specialisations are current because they each carry one stable recurring repair force. Their mnemonic heads remain admissible entry points, but generic `A.6.P` does **not** treat token recurrence alone as sufficient to mint one new specialisation per overloaded trigger word.
+These retained specialisations are current because they each carry one stable recurring repair case. Their mnemonic heads remain admissible entry points, but generic `A.6.P` does **not** treat token recurrence alone as sufficient to mint one new specialisation per overloaded trigger word.
 
-* **A.6.5**: RPR for n‑ary relations and slot discipline (archetype: “putting something into a place”; explicit SlotKinds + ValueKind/RefKind + slot‑operation lexicon).
-* **A.6.6**: RPR for “relative‑to / basedness” claims (explicit `baseRelation` token + scoped, witnessed base declarations + base‑change lexicon; lexical red‑flags for `anchor*`; support-as-basedness selection test for `support`, `supported by`, `support basis`, and `support relation` wording).
-* **A.6.8 (RPR‑SERV)**: RPR for the “service” cluster polysemy (facet‑explicit `serviceSituation` lens; canonical rewrites for `service`/`server`/`service provider`; classification tests for clause vs access point vs provider commitment vs work+evidence).
-* **A.6.9 (RPR‑XCTX)**: RPR for cross‑Context “same / equivalent / align / map” talk (explicit Bridges with direction, endpoint refinement, substitution licence, CL and loss notes; blocks silent inversion and “alignment” umbrella verbs).
-* **A.6.H (RPR‑WHOLE)**: RPR for “whole/part/integrity/complete” polysemy (WHOL triggers + Boundary–Parthood–Fold–Order/Time–Completeness lens; maps turnkey/end-to-end wording into A.15 coverage; includes publication-form↔referent↔work level test).
-
+* **A.6.5**: RPR for n-ary relations and slot discipline (archetype: "putting something into a place"; explicit SlotKinds, ValueKind, RefKind, and slot-operation lexicon).
+* **A.6.6**: RPR for relative-to and basedness claims (explicit `baseRelation` token, scoped witnessed base declarations, and base-change lexicon; lexical red-flags for `anchor*`; support-as-basedness selection test for `support`, `supported by`, `support basis`, and `support relation` wording).
+* **A.6.8 (RPR-SERV)**: RPR for the "service" cluster polysemy (facet-explicit `serviceSituation` lens; canonical rewrites for `service`, `server`, and `service provider`; classification tests for clause, access point, provider commitment, work, and evidence).
+* **A.6.9 (RPR-XCTX)**: RPR for cross-Context "same", "equivalent", "align", or "map" talk (explicit Bridges with direction, endpoint refinement, substitution licence, CL, and loss notes; blocks silent inversion and "alignment" umbrella verbs).
+* **A.6.H (RPR-WHOLE)**: RPR for "whole", "part", "integrity", and "complete" polysemy (WHOL triggers plus Boundary-Parthood-Fold-Order-Time-Completeness lens; maps turnkey and end-to-end wording into A.15 coverage; includes publication-form, referent, and work-level tests).
 

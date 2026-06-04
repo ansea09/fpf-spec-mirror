@@ -6,12 +6,12 @@ section_id: "B.1:7"
 section_title: "Conformance Checklist (for pattern adopters)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__008_conformance-checklist-for-pattern-adopters.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:7 — Conformance Checklist (for pattern adopters)"
-line_start: 28276
-line_end: 28288
+line_start: 28490
+line_end: 28501
 dependencies:
   - "A.1"
   - "A.9"
@@ -41,5 +41,4 @@ keywords:
 | **CL‑5** | **Emergence pathway**                        | State MHT trigger criteria                                      | Flowchart, decision table                   |
 
 A proposal that skips any line of the checklist **fails** pattern B.1 and must iterate before peer review.
-
 

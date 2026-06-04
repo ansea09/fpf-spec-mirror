@@ -6,12 +6,12 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__011_guard-patterns-esg-method-work.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 4418
-line_end: 4547
+line_start: 4352
+line_end: 4477
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -46,7 +46,6 @@ Where:
 * **BridgePolicy**: required if the Scope and TargetSlice are in **different Contexts**; declares Bridge, CL, loss notes (§7.4).
 
 The guard **fails closed** (no membership ⇒ denial), and evaluation is **deterministic** given the slice tuple (§8.4).
-
 
 #### A.2.6:10.2 - ESG guard families (epistemes)
 
@@ -91,7 +90,6 @@ When the episteme declares a **SpanUnion** across independent lines, the guard M
 
 *(Informative note.)* Managers often combine EG‑1 (coverage) + EG‑2 (F threshold) + EG‑3 (freshness) for “Effective” or “Approved” states, and EG‑4 when adopting claims across Contexts.
 
-
 #### A.2.6:10.3 - Method–Work guard families (capabilities)
 
 **WG‑1 - WorkScopeCoverage (mandatory).**
@@ -127,7 +125,6 @@ CL penalties affect **R** (confidence in deliverability), **not** Work scope; ho
 **WG‑5 - Δ(WorkScope).**
 When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). Refit (e.g., new units/parametrization) requires no new evidence.
 
-
 #### A.2.6:10.4 - Bridge‑aware guard macro (reusable)
 
 A reusable macro for Cross‑context guards:
@@ -154,5 +151,4 @@ All ESG and Method–Work guards MUST spell out **`Γ_time`**:
 * **Policy** (“last lab calibration within 90 days”).
 
 Implicit “latest” is not allowed. If multiple contributors declare different policies, **serial intersection** computes the overlap (§8.2).
-
 

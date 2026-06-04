@@ -6,12 +6,12 @@ section_id: "E.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__014_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:10 — Rationale"
-line_start: 56099
-line_end: 56120
+line_start: 57196
+line_end: 57217
 dependencies:
   - "E.10"
   - "E.19"
@@ -33,9 +33,9 @@ Cognitive Elegance** and **P‑2 Didactic Primacy**.
 E.9 sets a **floor, not a ceiling**: every conforming DRR must make
 Problem‑frame / Decision / Rationale / Consequences recoverable, but it
 may carry richer substantive coordination content when that prevents
-shadow documents or semantic invention during distribution into Core patterns and selected non-pattern FPF kind-reference pairs. The same floor also requires the decision-support content that
-later authoring and review otherwise reconstruct manually: exact basis,
-use-value, first-minute working situation, scenario basis, alternatives,
+shadow documents or semantic invention during distribution into Core patterns and selected non-pattern FPF kind-reference pairs. The same floor also requires the decision-inspection content that
+later authoring and review otherwise reconstruct manually: exact decision grounds,
+use-value, first-minute working situation, scenario grounding, alternatives,
 current disposition map, naming/ontology obligation, selected content distribution,
 existing-pattern sufficiency/new-pattern necessity, overlap classification,
 selected-answer stability, impact/boundary graph, practical payoff, and

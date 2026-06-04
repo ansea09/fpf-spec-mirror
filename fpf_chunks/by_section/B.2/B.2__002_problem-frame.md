@@ -6,12 +6,12 @@ section_id: "B.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:1 — Problem frame"
-line_start: 30038
-line_end: 30052
+line_start: 30181
+line_end: 30194
 dependencies:
   - "A.1"
   - "A.12"
@@ -45,5 +45,4 @@ FPF’s stance on **identity across time** is **ecumenical**: both **4D extensio
 * In **3D+1**, a holon endures; **events** are state transitions; `PhaseOf` are time‑indexed **states**; an MHT marks **creation** of a **new enduring entity** and its relations to predecessors.
 
 FPF does **not** force a metaphysical choice; it requires **clear declarations** so Γ‑proofs and B.3‑assurance remain unambiguous.
-
 

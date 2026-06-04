@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.9"
-pattern_title: "Parity / Benchmark Harness"
+pattern_title: "Parity and Benchmark Harness"
 section_id: "G.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__002_use-this-when.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "G.9 — Parity / Benchmark Harness"
+  - "G.9 — Parity and Benchmark Harness"
   - "G.9:0 — Use this when"
-line_start: 79851
-line_end: 79856
+line_start: 80441
+line_end: 80446
 dependencies:
   - "A.19"
   - "A.21"

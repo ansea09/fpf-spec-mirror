@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.0.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
-line_start: 32735
-line_end: 32916
+line_start: 32852
+line_end: 33032
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,7 +43,6 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Abductive prompt.
-
 
 ### B.5.2.0:1 - Problem frame
 `B.5.2` needs an entry form that can accept lawful language-state trajectories after cue preservation and routing, without pretending that anomaly is the only admissible starting form.

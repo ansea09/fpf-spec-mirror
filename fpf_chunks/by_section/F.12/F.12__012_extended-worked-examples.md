@@ -6,12 +6,12 @@ section_id: "F.12:11"
 section_title: "Extended worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__012_extended-worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:11 — Extended worked examples"
-line_start: 72735
-line_end: 72779
+line_start: 73409
+line_end: 73452
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -75,5 +75,4 @@ keywords:
 * **MeasureCell.** **Observations** of start‑fix and restore timestamps.
 * **Predicate.** `(restore − start_fix) ≤ 60 min`.
 * **Verdict.** Per incident; a quarter’s report is an explicit aggregation of incident‑scoped verdicts.
-
 

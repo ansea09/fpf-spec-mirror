@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 39346
-line_end: 40060
+line_start: 39291
+line_end: 40001
 dependencies:
   - "A.13"
   - "A.18"
@@ -96,7 +96,6 @@ A second distortion appears when decision theory is reduced to one thin slogan a
 
 Without one explicit place for choice calculus, search, candidate-pool policy, and planning rush into the same question, while the actual doctrine of choosing among live options disappears behind generic talk about rationality.
 
-
 | Force | Tension |
 | --- | --- |
 | Choice doctrine versus option generation | `C.11` must govern choice among already-available options without swallowing `C.18` search and candidate-generation work. |
@@ -109,7 +108,6 @@ Without one explicit place for choice calculus, search, candidate-pool policy, a
 #### C.11:4.1a - Causal-use hook for choice records
 
 When the admissible choice among an existing `OptionSet` depends on an effect claim, intervention claim, counterfactual comparison, causal policy claim, or off-policy causal evaluation, the `ChoiceResult` keeps the decision-theory question local and cites `C.28` for the causal-use question and support basis.
-
 
 Optional `ChoiceResult.causalUseSpec?`:
 
@@ -136,12 +134,11 @@ What changes in practice: a decision record that says "choose this because it im
 
 What this does not authorize: `C.11` does not identify causal effects, certify target-trial emulation, validate off-policy causal evaluation, or decide counterfactual sampling realizability; it emits one `ChoiceResult` and redirects the causal-use question to `C.28`.
 
+#### C.11:4.1 - OptionSet choice locus and move
 
-#### C.11:4.1 - Governed object and move
+`C.11` governs theory-side choice among already-available options. Its OptionSet choice move is deciding what should be chosen from the current `OptionSet`, including whether further probing, information gathering, or computation is rational before the choice is fixed.
 
-`C.11` governs theory-side choice among already-available options. Its governed move is deciding what should be chosen from the current `OptionSet`, including whether further probing, information gathering, or computation is rational before the choice is fixed.
-
-The governed question begins only after an option set already exists. It does not govern open-ended generation of options, and it does not govern the execution order of a plan after a choice has already been made.
+The OptionSet choice question begins only after an option set already exists. It does not govern open-ended generation of options, and it does not govern the execution order of a plan after a choice has already been made.
 
 #### C.11:4.2 - Decision discipline over a live option set
 
@@ -300,7 +297,7 @@ The comparison should close as `probe again` only when all of the following are 
 - that probe is expected to repair one named comparison defect;
 - that repaired defect could still change which option survives, whether the current set should be rejected, or whether the question should reroute.
 
-The comparison should close as `reroute` when the record has already learned that the governed move changed:
+The comparison should close as `reroute` when the record has already learned that the OptionSet choice move changed:
 
 - to `C.18` when the option set itself is still under invention or reframing;
 - to `C.19` when the question is now how broadly to keep exploring or exploiting one candidate pool;
@@ -369,7 +366,7 @@ Typical practical cash-outs are:
 
 - `choose now` because the current shared `BeliefState` and `OutcomeModel` already make one option or tie-set survive, and no still-feasible probe is worth its cost;
 - `probe again` because one further observation, measurement, or comparison pass could still change the ranking without requiring a heavier causal, subjunctive, or context-order repair;
-- `reroute` because the governed move is no longer really comparing one fixed `OptionSet`, but has become search, pool policy, publication, or enactment work.
+- `reroute` because the OptionSet choice move is no longer really comparing one fixed `OptionSet`, but has become search, pool policy, publication, or enactment work.
 
 The baseline is still unfinished when the current comparison invokes it but cannot keep one shared `BeliefState` and `OutcomeModel` across the compared options, or when one heavier defect is already live and the current comparison still pretends one plain evidential comparison is enough.
 
@@ -397,7 +394,7 @@ Typical practical cash-outs are:
 
 - `choose now` because, under the declared counterfactual or subjunctive structure, one option survives once the predictor-coupled comparison is made explicit;
 - `probe again` because one further model clarification, predictor assumption check, or decision-procedure comparison could still reverse the current survivor relation;
-- `reroute` because the governed move is no longer settling local choice doctrine but has become one wider characterization, negotiation, or enactment question that only borrowed predictor-coupling language.
+- `reroute` because the OptionSet choice move is no longer settling local choice doctrine but has become one wider characterization, negotiation, or enactment question that only borrowed predictor-coupling language.
 
 If that coupled structure is not live, do not activate this branch. If a predictor-coupled or success-first repair is named but the linked structure that changes the comparison is still unspecified, the branch is not yet load-bearing in the current decision.
 
@@ -431,7 +428,7 @@ Typical practical cash-outs are:
 
 - `choose now` under one declared order or framing because rival orders no longer change which option survives;
 - `probe again` because one framing-sensitive comparison pass, one further question order, one response-replicability check, or one explicit measurement-class clarification could still reverse the survivor relation;
-- `reroute` when the governed move is no longer deciding among live options but has become one publication or enactment problem that only borrowed order-effect language rhetorically.
+- `reroute` when the OptionSet choice move is no longer deciding among live options but has become one publication or enactment problem that only borrowed order-effect language rhetorically.
 
 Do not promote this line to the unmarked default unless those exact repaired limitations are live in the case.
 
@@ -608,7 +605,7 @@ If those conditions are still missing, the pattern has not yet answered the choi
 
 This pattern is intentionally biased toward `Prag` and `Onto/Epist` discipline.
 
-It prefers one clear governed object, one explicit neighboring-question split, and one minimal mathematical floor over one looser but more rhetorically flexible notion of rationality.
+It prefers one clear OptionSet choice locus, one explicit neighboring-question split, and one minimal mathematical floor over one looser but more rhetorically flexible notion of rationality.
 
 That bias can feel too strict in cases where the chooser, option set, or dependence structure is still genuinely moving. The mitigation is not to weaken the pattern back into one general rationality account. The mitigation is to keep the unfinished state explicit: hold one tie-set, hold one `probe again` result, or state the neighboring governing pattern that now truly governs the question.
 
@@ -640,7 +637,7 @@ One quick usability test helps here: if the closing line does not state one lawf
 
 | Anti-pattern | Symptom | Why it fails | How to avoid / repair |
 | --- | --- | --- | --- |
-| Search takeover | The text starts treating option generation as if it were already part of decision doctrine. | `C.11` loses its governed object and silently absorbs `C.18`. | The option set is stated as already existing, and search questions are handled by `C.18`. |
+| Search takeover | The text starts treating option generation as if it were already part of decision doctrine. | `C.11` loses its OptionSet choice locus and silently absorbs `C.18`. | The option set is stated as already existing, and search questions are handled by `C.18`. |
 | Policy collapse | Exploration or exploitation governance over a candidate pool is written as if it were identical with choosing among current options. | Choice doctrine and candidate-pool policy become indistinguishable. | `C.19` remains explicit as the neighboring pattern for selection policy and exploration governance. |
 | Planning collapse | Sequencing, replanning, and enactment budgeting are written as if they were already part of the choice calculus. | Planning-side question moves out of `C.24` by accident. | Execution order and operational budgeting remain in `C.24`, even when `C.11` says more probing is rational. |
 | Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes one cleaned-up survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, probe-worthiness test, one explicit doctrine, and one emitted result. |
@@ -688,8 +685,7 @@ At the same time, this pattern should not pretend that one full quantum-like or 
 | Decision under bounds cannot leave probing and deliberation cost as one slogan. | Current metareasoning and optimal-experimental-design lines treat information acquisition, probing, and computation allocation as first-class theoretical questions rather than free background steps. | [Metareasoning: Theoretical and Methodological Developments](https://pmc.ncbi.nlm.nih.gov/articles/PMC11765846/) | `C.11` therefore keeps `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation` inside the doctrine rather than hiding them in planning-only prose; the current closure rule is intentionally local or myopic over the next feasible probe, with richer sequential or non-myopic `OED` left as later strengthening. | **Adapt.** |
 | Decision and update can be embodied, online, and socially coupled. | Active-inference work treats decision as tightly coupled to action, inference, and expectation regimes rather than one disembodied one-shot selection. | [Embodied decisions as active inference](https://pmc.ncbi.nlm.nih.gov/articles/PMC12201680/) | `C.11` carries this as one neighboring repair of the chooser picture, makes social-expectation pressure explicit enough for use-time reroute or probe logic, and states honestly that full `ROE` or social-expectation object modeling remains outside this local choice body. | **Adapt.** |
 | Some decision cases exhibit context effects, order effects, response-replicability tension, and incompatible-question structure. | Current quantum-like decision and cognition work treats those cases as one measurement-sensitive research program rather than one discarded curiosity or one automatic physics transfer. | [Measurement-theory decision/cognition anchor (2025)](https://arxiv.org/abs/2503.05859) | `C.11` carries this as one named neighboring branch where those repaired limitations are real, while leaving heavier branch-specific formalism outside this body. | **Adapt.** |
-| Incompatible question/context structures need a cleaner cue than "context matters." | [Contextuality-by-Default](https://www.sciencedirect.com/science/article/abs/pii/S0022249616300207) treats same-content-looking measurements in different contexts as distinct random variables unless an admissible joint treatment is supplied. | Use CbD as the clean formal cue when question/context structure changes variable identity, joint availability, or admissible comparison inside the current option set. | **Adopt/Adapt.** |
-
+| Incompatible question/context structures need a cleaner cue than "context matters." | Same-content-looking measurements in different contexts are not automatically the same variable. | [Contextuality-by-Default](https://www.sciencedirect.com/science/article/abs/pii/S0022249616300207) treats same-content-looking measurements in different contexts as distinct random variables unless an admissible joint treatment is supplied. | Use CbD as the clean formal cue when question/context structure changes variable identity, joint availability, or admissible comparison inside the current option set. | **Adopt/Adapt.** |
 | Some quantum-like lines also claim one practical representational gain from linear state dynamics over harder nonlinear underlying processes. | Quantum-like modeling in biology presents linear Hilbert-space dynamics as one simplifying and potentially faster information-processing lens over nonlinear classical biophysical dynamics, while treating this as representational modeling rather than proof that the modeled system is physically quantum. | [Quantum-like modeling in biology with open quantum systems and instruments](https://www.sciencedirect.com/science/article/pii/S0303264720301994) | `C.11` takes this only as one possible practical reason to keep the quantum-like branch available when measurement-sensitive effects are real; it does not treat quantum-like choice as one claim of physical quantumness. | **Adapt cautiously.** |
 | Broader contextual and multilevel lines pressure decision texts to keep one typed substrate rather than pure verbal drift. | Current multilevel-learning and evolution-as-inference work argues for one shared formal lens across levels even when the heavier final geometry is still unsettled. | [Multilevel selection as Bayesian inference, major transitions in individuality as structure learning](https://royalsocietypublishing.org/doi/10.1098/rsos.190202) | `C.11` therefore keeps one minimal typed floor and one wider chooser-bearing scope while stating by value that full aggregation doctrine, cross-scale or cross-collective conflict doctrine, and heavier multilevel mathematics remain outside this local choice body. | **Adapt.** |
 
@@ -751,7 +747,7 @@ Useful outputs:
 
 C.11 may cite `C.26` as the common quantum-like modeling lens only for the residual question after the local-choice split is applied. It is not the whole-cluster pattern for boundary, bridge/export, distributed-evidence, viability, or state-representation coarsening claims.
 
-### C.11:12b - C.29 MLA relation
+### C.11:12b - C.29 mathematical-lens use relation
 
 > `C.29` may supply a lens-supported prediction, distinction, obstruction, diagnostic boundary, or rival-lens note that a decision record can cite. If the output is a `ChoiceResult`, local choice record, selected-set publication, or selected option set, `C.11` governs the decision discipline and any `G.5`/`G.9` selector or benchmark publication remains separate. `C.29` does not select the option by mathematical elegance.
 

@@ -6,12 +6,12 @@ section_id: "B.1:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__009_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:8 — Consequences"
-line_start: 28289
-line_end: 28298
+line_start: 28502
+line_end: 28510
 dependencies:
   - "A.1"
   - "A.9"
@@ -38,5 +38,4 @@ keywords:
 | **Parallel engineering** without merge hell (COMM + LOC) | Shorter critical path | Requires origin hash discipline | Provide reference script templates    |
 | **Continuous improvement** strategies justified by MONO  | Lean upgrade budgets  | Cannot model negative synergies | Attach incentive to detect MHT events |
 | **Audit trail** readable by non‑experts                  | Easier certification  | Extra documentation overhead    | Auto‑generate provenance footers      |
-
 

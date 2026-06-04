@@ -6,12 +6,12 @@ section_id: "G.11:11"
 section_title: "SoTA-Echoing — Post‑2015 practices aligned (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__012_sota-echoing-post-2015-practices-aligned-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh & Decay Orchestrator"
   - "G.11:11 — SoTA-Echoing — Post‑2015 practices aligned (informative)"
-line_start: 81094
-line_end: 81127
+line_start: 81681
+line_end: 81714
 dependencies:
   - "B.3.4"
   - "C.18"
@@ -21,7 +21,6 @@ dependencies:
   - "E.18"
   - "F.15"
   - "G.10"
-  - "G.11"
   - "G.12"
   - "G.5"
   - "G.6"
@@ -75,6 +74,6 @@ Each entry follows: **claim → practice → source → alignment → adoption s
 5. **Efficient orchestration benefits from bandit/early-stopping scheduling—but it must not become semantics.**
    Practice: modern hyperparameter/experiment scheduling uses bandit-style resource allocation and asynchronous early stopping.
    Source: Async Hyperband / BOHB-style work (2018+) as representative post‑2015 scheduling practice.
-   Alignment: scheduling lives as policy-bound extension (`G.11:Ext.SchedulingHeuristics`) so core semantics remain stable.
+   Alignment: scheduling is expressed as `G.11` queue/plan policy pins (`RefreshPriorityPolicyIdRef`, `BudgetDeclRef`) so core semantics remain stable and WorkPlanning stays separate from executed Work.
    Adoption: **Adapt** (useful practice, but quarantined outside core norms).
 

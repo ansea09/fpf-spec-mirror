@@ -6,12 +6,12 @@ section_id: "E.17.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__012_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:11 — SoTA-Echoing"
-line_start: 61140
-line_end: 61143
+line_start: 62034
+line_end: 62037
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -38,5 +38,5 @@ keywords:
 
 ### E.17.1:11 - SoTA-Echoing
 
-The pattern aligns with post-2015 multi-view practice: ISO 42010 viewpoint libraries, model-based systems engineering viewpoint catalogues, assurance-oriented viewpoint families, and reusable concern bundles in architecture and governance work. FPF adopts the reusable-library idea, but keeps the ontology stricter by separating bundle ids, viewpoint ids, views, and publication surfaces.
+The pattern aligns with post-2015 multi-view practice: ISO 42010 viewpoint libraries, model-based systems engineering viewpoint catalogues, assurance-oriented viewpoint families, and reusable concern bundles in architecture and governance work. FPF adopts the reusable-library idea, but keeps the ontology stricter by separating bundle ids, viewpoint ids, views, and publication faces/forms.
 

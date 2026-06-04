@@ -6,12 +6,12 @@ section_id: "A.2.6:6"
 section_title: "Normative Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__007_normative-definitions.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:6 — Normative Definitions"
-line_start: 4122
-line_end: 4281
+line_start: 4062
+line_end: 4220
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -143,7 +143,6 @@ These SlotKinds are stable names for signatures, substitution laws, and guard te
 
 **Orthogonality.** Changes in **F** (form of expression) or **D/AT** (detail/abstraction tiers) do not change **G** unless the declared area of validity changes.
 
-
 #### A.2.6:6.4 - `U.WorkScope` — scope of doing Work (capability)
 
 **Carrier.** `U.Capability` (a system’s ability to deliver specified `U.Work`).
@@ -166,8 +165,8 @@ The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND*
 * **`U.QualificationWindow` (mandatory for operational use).** A time policy (point/window/rolling) stating when the capability is considered qualified; evaluated at `Γ_time`.
 These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (assurance). They MUST be referenced in Method–Work guards (see §10.3 WG‑2/WG‑3).
 
-#### A.2.6:6.5 - `U.PublicationScope` — scope of a publication view or surface
-**Carrier.** Publication carriers (e.g., **PublicationSurface or InteropSurface** views, cards, and lanes in Part E; MVPK faces).
+#### A.2.6:6.5 - `U.PublicationScope` — scope of a publication view or publication form
+**Carrier.** Publication faces, publication forms, interop publication forms, cards, lanes, and MVPK faces are publication-lane objects whose renderings live on carriers; the carrier remains separate from the publication view or form.
 **Meaning.** The set of `U.ContextSlice` where a **publication** (a view, card, or lane about some object or morphism) is **admissible for use** without introducing claims beyond its underlying carrier.
 
 **Relation to other scopes (normative).**

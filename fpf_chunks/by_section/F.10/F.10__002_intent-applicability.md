@@ -6,12 +6,12 @@ section_id: "F.10:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__002_intent-applicability.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:1 — Intent & applicability"
-line_start: 71844
-line_end: 71858
+line_start: 72561
+line_end: 72574
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -44,5 +44,4 @@ Each status meaning is **local to a Context** (`U.BoundedContext`). Cross‑cont
 **Applicability.** Whenever models mix observations, standards, and obligations: service acceptance from uptime measurements; safety proofs against normative checklists; ML model “validated” vs “approved for use”.
 
 **Non‑goals.** No workflows, no tool states, no editorial lifecycles. This pattern defines **conceptual meaning and safe reasoning moves**, not procedures.
-
 

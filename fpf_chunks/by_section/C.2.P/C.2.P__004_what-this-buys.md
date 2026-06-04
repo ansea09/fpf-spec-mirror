@@ -6,12 +6,12 @@ section_id: "C.2.P:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__004_what-this-buys.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0.2 — What this buys"
-line_start: 34196
-line_end: 34207
+line_start: 34295
+line_end: 34306
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,27 +47,15 @@ dependencies:
   - "E.9"
   - "F.18"
 keywords:
-  - "PublicationUnit"
-  - "carrier"
-  - "claim-bearing episteme"
-  - "described entity"
-  - "epistemic precision restoration"
-  - "grounding relation"
-  - "publication face"
-  - "remaining admissible reader move"
-  - "source wording"
-  - "source-expression unpacking"
-  - "source-to-FPF transfer"
-  - "transfer disposition"
 ---
 
 ### C.2.P:0.2 - What this buys
 
-`C.2.P` gives authors and reviewers one small epistemic precision-restoration action: recover the FPF kind stack first, then write exact wording that preserves the needed distinction without adding another claim. It prevents string-replacement cleanup, keeps FPF-side and project-side episteme and publication work separate, and blocks unclear text from becoming current FPF content by author guesswork.
+`C.2.P` gives one small epistemic precision-restoration move: recover the FPF kind and relation set first, then write exact wording that preserves the needed distinction without adding another claim. It prevents string-replacement cleanup, keeps FPF-side and project-side episteme and publication work separate, and blocks unclear wording from having FPF-governed use by guesswork.
 
-**Successful repair condition.** Epistemic precision restoration is not closed by type-correct wording alone. It is governed by `E.2` Pillars, especially `P-2 Didactic Primacy`, together with `E.12` and the register rule in `E.10:6.2`. It closes only when the repaired text preserves or restores one remaining admissible reader move: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named exact FPF pattern application that carries the live claim. When both Tech and Plain registers are live, the Tech reading must remain recoverable and any Plain or didactic line must map back to that Tech reading. A Plain, more expressive line, or intentional didactic metaphor may stay ordinary when it carries no FPF force; when it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility force, that claim force must be recoverable through the Tech fields, exact FPF kind, recovered relation, project-side source reference, or disposition named by the repair. If a repair in a FPF-force-bearing Problem frame, Problem section, recognition text, example, or worked slice makes the text more exact but less able to show the working situation, why it matters, or what action remains, the repair is incomplete unless the exact governing FPF pattern is named for that live claim. Overread removal is only half of epistemic precision restoration; the other half is surviving admissible action under the Pillars.
+**Successful repair condition.** Epistemic precision restoration is not closed by type-correct wording alone. It is governed by `E.2` Pillars, especially `P-2 Didactic Primacy`, together with `E.12` and the register rule in `E.10:6.2`. It closes only when the repaired text preserves or restores one remaining admissible reader move: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named exact FPF pattern application that carries the live claim. When both Tech and Plain registers are live, the Tech interpretation must remain recoverable and any Plain or didactic line must map back to that Tech interpretation. A Plain, more expressive line, or intentional didactic metaphor may stay ordinary when it carries no FPF-governed use; when it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim, that live claim must be recoverable through the Tech fields, exact FPF kind, recovered relation, project-side source reference, or disposition named by the repair. If a repair in a FPF-governed Problem frame, Problem section, recognition text, example, or worked slice makes the text more exact but less able to show the working situation, why it matters, or what action remains, the repair is incomplete unless the exact governing FPF pattern is named for that live claim. Overread removal is only half of epistemic precision restoration; the other half is surviving admissible action under the Pillars.
 
-**Governed object in plain terms.** The governed object is one episteme-publication-heavy wording use inside conformant text: the word or phrase, the sentence function it carries, the FPF kind or relation it must recover, and the admissible remaining use after recovery.
+**Recovery focus in plain terms.** The live use is one episteme-publication-heavy wording use inside conformant text: the word or phrase, the sentence function it carries, the FPF kind or relation it must recover, and the admissible remaining use after recovery.
 
 **Primary working reader.** The first reader is an author or reviewer of conformant FPF-style text who must repair wording without losing ontology. The downstream reader is the engineer-manager using the resulting pattern or project text in a working situation.
 

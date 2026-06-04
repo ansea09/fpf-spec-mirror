@@ -6,12 +6,12 @@ section_id: "B.1.1:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__011_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:10 — Consequences"
-line_start: 28632
-line_end: 28648
+line_start: 28831
+line_end: 28846
 dependencies:
   - "A.1"
   - "A.12"
@@ -47,5 +47,4 @@ keywords:
   *Mitigation:* reuse the Proof Kit templates; keep small, local graphs and compose.
 * **Refactoring legacy edges:** Replacing “generic part‑of” with precise relations can be noisy.
   *Mitigation:* use the decision guide (4.4) and anti‑pattern table (9) as a script.
-
 

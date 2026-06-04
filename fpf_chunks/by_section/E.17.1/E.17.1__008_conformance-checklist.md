@@ -6,12 +6,12 @@ section_id: "E.17.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:7 — Conformance Checklist"
-line_start: 61108
-line_end: 61117
+line_start: 62002
+line_end: 62011
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -39,9 +39,9 @@ keywords:
 ### E.17.1:7 - Conformance Checklist
 
 - `CC-VBL-0` Within one library edition, each `ViewFamilyId` **SHALL** identify exactly one `U.ViewpointBundle`.
-- `CC-VBL-1` Every viewpoint in a bundle **SHALL** have `EoIClassSpec` compatible with the bundle's declared `EoIClassSpec`.
+- `CC-VBL-1` Every viewpoint in a bundle **SHALL** have `EntityOfConcernClassSpec` compatible with the bundle's declared `EntityOfConcernClassSpec`.
 - `CC-VBL-2` A `U.MultiViewDescribing` family that declares a `ViewFamilyId` **SHALL** import only viewpoints from the referenced bundle.
-- `CC-VBL-3` `ViewFamilyId` **MUST NOT** be used as a `SurfaceKind`, publication-face kind, or carrier kind.
+- `CC-VBL-3` `ViewFamilyId` **MUST NOT** be used as a `publication-face kind`, publication-face kind, or carrier kind.
 - `CC-VBL-4` Bundles intended for non-expert reuse **SHOULD** provide archetypal grounding coverage for their viewpoints.
 - `CC-VBL-5` Changes to bundle membership or meaning **SHALL** be editioned rather than silently mutating an existing family id.
 - `CC-VBL-6` If a family combines several bundles, the contributing `ViewFamilyId` values **SHALL** remain explicit.

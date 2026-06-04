@@ -6,12 +6,12 @@ section_id: "F.9:18"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__020_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:18 — Archetypal Grounding"
-line_start: 71501
-line_end: 71520
+line_start: 72222
+line_end: 72241
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -64,5 +64,5 @@ A comparative bundle may say that two traditions both discuss *readiness* or *ca
 
 A service or review bundle may circulate a short cross-context note such as `the vendor bulletin is basically the same readiness signal as our rollback worksheet`. That note may be useful as informal orientation talk, but it is not yet an admissible Bridge Card and not yet a formal `F.9` `Naming-only` row.
 
-Before any substitution, equivalence, `Naming-only` row, or interoperability claim is made, the source-bearing episteme or source publication needed for bridge support must be reopened and an explicit Bridge Card must publish the two SenseCells, bridge kind, direction, `CL`, Loss Notes, and admissible use. Friendly summary prose does not carry bridge support by itself.
+Before any substitution, equivalence, `Naming-only` row, or interoperability claim is made, the source-bearing episteme or source publication needed for the Bridge Card must be reopened and an explicit Bridge Card must publish the two SenseCells, bridge kind, direction, `CL`, Loss Notes, and admissible use. Friendly summary prose does not carry bridge-bearing use by itself.
 

@@ -6,12 +6,12 @@ section_id: "E.17.AUD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:2 — Problem"
-line_start: 63812
-line_end: 63820
+line_start: 64685
+line_end: 64693
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,7 +27,6 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17"
@@ -45,9 +44,9 @@ keywords:
 ### E.17.AUD:2 - Problem
 
 Without a named publication-unit stability discipline:
-1. teams repair local wording when the real defect is whole-unit reading instability;
+1. teams repair local wording when the real defect is whole-unit interpretation instability;
 2. teams open whole-unit stabilization when the real defect is still one overloaded local lexical head;
 3. teams keep thickening a publication-unit repair when the active problem situation is already bounded comparison;
-4. teams mistake note, sheet, table, or screen language for different governed unit kinds when the real governed unit is still one publication unit in different presentation forms;
+4. teams mistake note, sheet, table, or screen language for different publication unit under review kinds when the real publication unit under review is still one publication unit in different presentation forms;
 5. teams over-attribute engineering-process, approval, or rollout claim or effect to a text that never honestly became that kind of unit.
 

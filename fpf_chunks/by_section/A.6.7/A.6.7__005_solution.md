@@ -6,12 +6,12 @@ section_id: "A.6.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:4 — Solution"
-line_start: 15298
-line_end: 15548
+line_start: 15452
+line_end: 15702
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -148,10 +148,10 @@ SuiteObligations := {
 
 1.1. **`two_bridge_rule_for_described_entity_change`.**
 
- * If a suite member's admissible use requires changing the described entity (kind or identity change, `CL^k`), the crossing MUST be explicit and MUST satisfy the two-bridge rule: plane transfer or context transfer and kind transfer are distinct, both are Bridge-mediated, and both remain penalty-routed to `R/R_eff` only.
+ * If a suite member's admissible use requires changing the EntityOfConcern (kind or identity change, `CL^k`), the crossing MUST be explicit and MUST satisfy the two-bridge rule: plane transfer or context transfer and kind transfer are distinct, both are Bridge-mediated, and both remain penalty-routed to `R/R_eff` only.
 
 1.2. **`transport_declarative_only`.**
- * Well-formedness constraint: suite obligations do not add transfer edges or embed CL/Φ/Ψ/Φ_plane tables. Any transport-related obligation is expressed only as referenced pins/anchors whose realization is mediated by E.TGA / gate surfaces.
+ * Well-formedness constraint: suite obligations do not introduce any additional graph edge kind beyond E.TGA `U.Transfer` and do not embed CL/Φ/Ψ/Φ_plane tables. Any transport-related obligation is expressed only as referenced pins/anchors whose realization is mediated by E.TGA / gate surfaces.
 
 2. **`penalties_route_to_r_eff_only`.**
    Well-formedness constraint: CL/Φ/Ψ/Φ_plane penalties associated with crossing discipline route to `R/R_eff` only; suites do not define transport penalties that alter `F/G`.
@@ -176,7 +176,7 @@ SuiteObligations := {
 
 9. **`crossing_visibility_required`.**
    Well-formedness constraint: any GateCrossing relevant to suite use publishes a `CrossingBundle` (E.18) and can be cited as an audit anchor.
-   GateCrossing includes (at minimum) cross-context, cross-plane, and cross-kind/described-entity changes, entry into `U.WorkEnactment` (LaunchGate), and any `edition_key` change of pinned `editions{…}` vectors.
+   GateCrossing includes (at minimum) cross-context, cross-plane, and cross-kind/EntityOfConcern changes, entry into `U.WorkEnactment` (LaunchGate), and any `edition_key` change of pinned `editions{…}` vectors.
    Suites may require `CrossingBundleRef` / UTS / Path pins and policy-id pins as anchors, and MUST NOT embed CL/Φ/Ψ/Φ_plane tables.
 
 10. **`planned_slot_filling_in_work_planning_only`.**
@@ -283,7 +283,7 @@ This is a level error: `MechFamilyDescription` is reserved for realizations of a
 
 * The suite declares `GateDecision` values or embeds a `DecisionLog`.
 * The suite defines acceptance thresholds (“pass score ≥ 0.7”) as part of suite obligations.
-* The suite embeds Φ/CL tables or invents ad-hoc “transfer edges”.
+* The suite embeds Φ/CL tables or invents an additional graph edge kind beyond E.TGA `U.Transfer`.
 
 All violate the separation between mechanism/suite descriptions and gate-level operational control.
 

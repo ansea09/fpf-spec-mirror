@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations (attach these when producing an Assurance tuple)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__008_proof-obligations-attach-these-when-producing-an-assurance-tuple.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:5 — Proof obligations (attach these when producing an Assurance tuple)"
-line_start: 31195
-line_end: 31248
+line_start: 31323
+line_end: 31376
 dependencies:
   - "A.10"
   - "A.12"
@@ -21,6 +21,7 @@ dependencies:
   - "A.20"
   - "A.21"
   - "A.6"
+  - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.1.2"
@@ -78,7 +79,7 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
   Produce a **SCR** listing all contributing nodes and edges with `(F, G, R)` and `CL` values, their **DesignRunTag**, and Evidence Graph Ref (A.10). If order or time affect the claim, include the **OrderSpec** or **TimeWindow** identifiers from **B.1.4**.
 
 * **ASS‑MONO (Declared monotone characteristics).**
-  List the characteristics along which local improvement cannot reduce the aggregate (this supports future evolution, B.4).
+  List the characteristics along which local improvement cannot reduce the aggregate (this is used by future evolution, B.4).
 
 #### B.3:5.2 - Γ\_sys (systems) — additional obligations
 
@@ -86,7 +87,7 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
   Reference the **Boundary‑Inheritance Standard** (BIC) from **B.1.2** and record any interface mismatches; these contribute to `CL_min`.
 
 * **CORE‑ENV (Operating envelope).**
-  Specify the domain used for **G** (e.g., load–temperature region) and how coverage is computed (set union constrained by support).
+  Specify the domain used for **G** (e.g., load–temperature region) and how coverage is computed (set union constrained by evidence relation).
 
 #### B.3:5.3 - Γ\_epist (epistemes) — additional obligations
 

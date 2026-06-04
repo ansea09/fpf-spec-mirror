@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.P.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.P — Conceptual Prefixes policy & registry"
-line_start: 58445
-line_end: 58474
+line_start: 59585
+line_end: 59614
 dependencies:
   - "E.5.1"
   - "E.5.2"

@@ -6,12 +6,12 @@ section_id: "C.26.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:7 — Conformance Checklist"
-line_start: 47068
-line_end: 47086
+line_start: 46958
+line_end: 46976
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 | CC-C26.3.4 | Disturbance class and scenario/window are named. |
 | CC-C26.3.5 | Sensors/probes and their possible behavior-changing or dimension-hiding effects are named when measurement carries the envelope claim. |
 | CC-C26.3.6 | Available actuators and actuator authority/latency are named. |
-| CC-C26.3.7 | Boundary condition, trade-off posture, and adaptation cost are stated. |
+| CC-C26.3.7 | Boundary condition, trade-off condition, and adaptation cost are stated. |
 | CC-C26.3.8 | Failure mode and re-probe/destabilization condition are stated. |
 | CC-C26.3.9 | Metrics or dashboards are not treated as the envelope itself. |
 | CC-C26.3.10 | The QL cue / formal cue is named if QL wording is retained. |

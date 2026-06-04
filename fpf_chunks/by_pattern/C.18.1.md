@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
-line_start: 42532
-line_end: 42632
+line_start: 42438
+line_end: 42538
 dependencies:
   - "C.16"
   - "C.17"
@@ -137,7 +137,7 @@ Hidden budget mismatches; averaging ordinals across families; **illumination in 
 
 > *Pedagogical cue.* **Say what you would scale, probe it twice, and use the slope‑class to steer.**
 
-### C.18.1:12a - C.29 MLA relation
+### C.18.1:12a - C.29 mathematical-lens use relation
 
 > `C.18.1` supplies scale-window and scaling-law evidence for `C.29` when a mathematical lens claims scale behavior, universality, knees, exponents, coarse-graining validity, or diminishing returns. `C.29` cannot treat mathematical compression as scalable without an SLL or BLP-compatible scale-window account where scale is load-bearing. If no scale claim is live, `C.29` uses a local stop condition rather than opening scale-law work.
 

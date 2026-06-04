@@ -6,12 +6,12 @@ section_id: "F.7:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__012_worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:11 — Worked examples"
-line_start: 70551
-line_end: 70597
+line_start: 71332
+line_end: 71373
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -46,7 +46,6 @@ keywords:
 
 **Reading.** The row licenses a **glossary‑level sameness** for didactic prose (“the actor”). It does **not** license modelling **identity** or inference across Contexts.
 
-
 #### F.7:11.2 - Execution occurrence (assignment/enactment-eligibility)
 
 | FPF Label                                       | Row Scope       | Row CL(min) | PROV‑O                                                           | IEC 61131‑3                                          | Rationale                                                                       | Counter‑examples                                                   |
@@ -54,7 +53,6 @@ keywords:
 | **execution-occurrence** / *a run that happens* | assignment/enactment-eligibility | CL = 2      | **Activity** (time-bounded occurrence using/generating entities) | **Task execution** (cyclic/event-driven program run) | Both are **run-time** occurrences that can be referenced by `U.RoleEnactment` to ground **Work performed under an assignment**. | BPMN **Process** is a **design** graph; not an occurrence—exclude. |
 
 **Reading.** Safe to use as the **run-time occurrence that `U.RoleEnactment` points to** when we say “this Work was performed under an assignment”. Not safe to equate **all** PROV Activities with **all** PLC task runs for analytics.
-
 
 #### F.7:11.3 - Result value as KD‑metric (measurement)
 
@@ -64,13 +62,11 @@ keywords:
 
 **Reading.** Licences **metric tables** that join observations to service targets; warns that composite KPIs may violate unit fidelity.
 
-
 #### F.7:11.4 - Subtype relation (type‑structure)
 
 | FPF Label                   | Row Scope      | Row CL(min) | OWL 2             | Kind-CAL            | Rationale                                     | Counter‑examples                                                                 |
 | --------------------------- | -------------- | ----------- | ----------------- | ------------------- | --------------------------------------------- | -------------------------------------------------------------------------------- |
 | **is‑a** / *type hierarchy* | Type‑structure | CL = 3      | `rdfs:subClassOf` | `U.SubtypeRelation` | Both are partial orders used for inheritance. | FCA **concept order** is not a class subsumption—exclude or publish another row. |
-
 
 #### F.7:11.5 - Contrast: “role” (access vs behaviour)
 
@@ -79,5 +75,4 @@ keywords:
 | **role** (contrast) | —         | —           | **Role** (permission set) | **Participant/Actor** (behavioural mask) | Same surface; **different senseFamilys** (Status vs Role/behaviour). | Any attempt to unify collapses deontics into behaviour; stance and effects differ. |
 
 **Reading.** This row **teaches difference**; it deliberately **does not** license sameness.
-
 

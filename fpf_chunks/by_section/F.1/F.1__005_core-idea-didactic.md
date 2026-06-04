@@ -6,12 +6,12 @@ section_id: "F.1:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__005_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:4 — Core idea (didactic)"
-line_start: 68537
-line_end: 68542
+line_start: 69390
+line_end: 69394
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,5 +37,4 @@ keywords:
 
 **Think in Contexts, not in words.**
 A *Context of meaning* is a **U.BoundedContext** (per D.CTX) that encloses a coherent vocabulary and its rules from a **specific, citable canon** (standard, BoK, seminal paper, textbook tradition). You **name and reason** *inside the Context*. When you must step between Contexts, you will **declare a bridge later** (F.9) with explicit losses or mismatches.
-
 

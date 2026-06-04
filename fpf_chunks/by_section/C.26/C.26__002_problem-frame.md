@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 45565
-line_end: 45635
+line_start: 45481
+line_end: 45551
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,8 +60,8 @@ Unifying principle: use QL to cheapen the first correct move, not to make the fi
 | Working view | Value |
 | --- | --- |
 | Primary reader | Architect, method author, steward, or manager deciding whether QL wording improves a concrete FPF representation. |
-| Governed object | A local use of quantum-like mathematical language in pattern prose or work guidance. |
-| Governed move | Admit, select another applicable pattern body, narrow, or escalate the QL wording by ordinary FPF pattern, QL cue, payoff, minimal admissible output, and local stop. |
+| Primary EntityOfConcern | A local use of quantum-like mathematical language in pattern prose or work guidance. |
+| Admissible move | Admit, select another applicable pattern body, narrow, or escalate the QL wording by ordinary FPF pattern, QL cue, payoff, minimal admissible output, and local stop. |
 | Outside work | Physical quantum claims, general ontology, ordinary uncertainty/complexity, ordinary DDD locality, ordinary compression, and search/regime generation. |
 | What changes in practice | The writer stops asking "does quantum-like help here?" and asks "what representational mistake does this lens prevent here?" |
 

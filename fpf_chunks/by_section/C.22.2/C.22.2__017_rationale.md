@@ -6,12 +6,12 @@ section_id: "C.22.2:16"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__017_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:16 — Rationale"
-line_start: 44382
-line_end: 44389
+line_start: 44306
+line_end: 44313
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,9 +63,9 @@ keywords:
 
 ### C.22.2:16 - Rationale
 
-`ProblemCard@Context` gives the practitioner one compact problem-side record between vague problem talk and downstream P2W. The card is useful because it is light enough for ordinary use and exact enough to show when comparison, characterization, evidence, selection, mathematical support, method, work, gate, autonomy, bridge, representation transition, or refresh must exit to another FPF pattern.
+`ProblemCard@Context` gives the practitioner one compact problem-side record between vague problem talk and downstream P2W. The card is useful because it is light enough for ordinary use and exact enough to show when comparison, characterization, evidence, selection, mathematical-lens use, method, work, gate, autonomy, bridge, representation transition, or refresh must exit to another FPF pattern.
 
 The card gives the practitioner one thing to write, inspect, and challenge. A practitioner can see whether a problem is ready without first assembling the problem-side record from `TaskSignature`, Q-bundle, parity report, evidence note, selected-set output, and refresh record. At the same time, the card stays outside archive, portfolio, decision, autonomy, work, gate, evidence, bridge, and assurance authority.
 
-The archive and portfolio distinctions remain live when they matter because the card preserves `setContextRef` and exits to the current receiving patterns. Changed problem formulations, diagrams, functional descriptions, or TGA path readings require the accepted representation or retargeting exits before support is inherited. Current SoTA and first-principles cues matter only when they change fields, exits, boundaries, or the problem formulation itself.
+The archive and portfolio distinctions remain live when they matter because the card preserves `setContextRef` and exits to the current receiving patterns. Changed problem formulations, diagrams, functional descriptions, or TGA path interpretations require the accepted representation or retargeting exits before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, exits, boundaries, or the problem formulation itself.
 

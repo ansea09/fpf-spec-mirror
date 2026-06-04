@@ -6,12 +6,12 @@ section_id: "E.23:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__012_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:11 — SoTA-Echoing"
-line_start: 68120
-line_end: 68137
+line_start: 68988
+line_end: 69005
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.23:11 - SoTA-Echoing
 
-`E.23:11` uses `SoTA` in the `E.8` sense: current best-known problem-solving practice for the governed problem. A row that carries a fast-moving current-practice claim is admissible only when it has current-source posture or is explicitly narrowed to lineage, example-only, or rationale-only use.
+`E.23:11` uses `SoTA` in the `E.8` sense: current best-known problem-solving practice for the improvement question. A row that carries a fast-moving current-practice claim is admissible only when the row says how the cited source is used and gives source-currentness evidence, or is explicitly narrowed to lineage, example-only, or rationale-only use.
 
 | Claim | Practice or source line | Local adoption | Non-use boundary |
 |---|---|---|---|

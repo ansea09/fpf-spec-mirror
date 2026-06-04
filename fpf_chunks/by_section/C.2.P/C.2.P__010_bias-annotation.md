@@ -6,12 +6,12 @@ section_id: "C.2.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__010_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:6 — Bias-Annotation"
-line_start: 34640
-line_end: 34648
+line_start: 34730
+line_end: 34738
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,18 +47,6 @@ dependencies:
   - "E.9"
   - "F.18"
 keywords:
-  - "PublicationUnit"
-  - "carrier"
-  - "claim-bearing episteme"
-  - "described entity"
-  - "epistemic precision restoration"
-  - "grounding relation"
-  - "publication face"
-  - "remaining admissible reader move"
-  - "source wording"
-  - "source-expression unpacking"
-  - "source-to-FPF transfer"
-  - "transfer disposition"
 ---
 
 ### C.2.P:6 - Bias-Annotation
@@ -66,7 +54,7 @@ keywords:
 | Lens | Risk | Mitigation |
 | --- | --- | --- |
 | Ontology | Exact-sounding words become a new parallel ontology. | Require recovery to current FPF kinds and relations before reuse. |
-| Usability | The rule becomes too heavy for ordinary edits. | Use the smallest sufficient rewrite mode; reserve the full check for FPF-force-bearing wording. |
+| Usability | The rule becomes too heavy for ordinary edits. | Use the smallest sufficient rewrite mode; reserve the full check for FPF-governed wording. |
 | Preservation | Source-basis text is mistaken for direct pattern authority. | Keep source-basis status separate from the ordinary pattern guidance. |
-| Checklist ritual | The rule becomes a form to satisfy rather than a wording action to perform. | Put the action in `Solution`; use row evidence only when wording carries FPF force. |
+| Checklist ritual | The rule becomes a form to satisfy rather than a wording action to perform. | Put the action in `Solution`; use row evidence only when wording has FPF-governed use. |
 

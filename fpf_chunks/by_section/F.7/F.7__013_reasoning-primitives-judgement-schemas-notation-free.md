@@ -6,12 +6,12 @@ section_id: "F.7:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 70598
-line_end: 70649
+line_start: 71374
+line_end: 71419
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -45,14 +45,12 @@ keywords:
 
 **Reading.** A set of cells **licenses** a row of scope `s` iff every pair is bridged at or above the **required CL** for that scope, all cells sit in the **same senseFamily**, and **DesignRunTag** is compatible.
 
-
 #### F.7:12.2 - Bottleneck CL for a row
 
 **Form.**
 `RowCL(S) = min_{i<j} CL(SC(Cᵢ)↔SC(Cⱼ))`
 
 **Reading.** The row’s CL is the **minimum** congruence level across all pairs (the weakest link).
-
 
 #### F.7:12.3 - Scope guard
 
@@ -61,14 +59,12 @@ keywords:
 
 **Reading.** You may **tighten scope** (use the row for a higher-scope purpose) only if the row’s `CL` meets the **higher threshold** for that scope.
 
-
 #### F.7:12.4 - Contrast decision
 
 **Form.**
 `(∃ i<j: CL(SC(Cᵢ)↔SC(Cⱼ)) < τ(Naming‑only)) ⊢ publish‑contrast(S)`
 
 **Reading.** If even **Naming‑only** cannot be licensed, publish a **contrast row** instead of forcing sameness.
-
 
 #### F.7:12.5 - Row extension guard
 
@@ -77,12 +73,10 @@ keywords:
 
 **Reading.** You may add a new cell only if it bridges to **every existing cell** at the row’s scope.
 
-
 #### F.7:12.6 - Loss disclosure obligation
 
 **Form.**
 `licensable(S,s) ∧ (∃ i<j: lossNote on Bridge(SC(Cᵢ),SC(Cⱼ))) ⊢ row must carry ≥1 counter‑example`
 
 **Reading.** Any loss note on any supporting Bridge obliges the row to include a **counter‑example one‑liner**.
-
 

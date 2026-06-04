@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
-line_start: 35434
-line_end: 35745
+line_start: 35523
+line_end: 35833
 dependencies:
   - "A.16"
   - "A.18"
@@ -97,7 +97,7 @@ Without one unified `F` characteristic:
 - `F` is **not** `G`; scope remains governed by `U.ClaimScope` and other USM structures.
 - `F` is **not** `R`; evidence, warrant strength, and decay remain assurance concerns.
 - `CL` and bridge losses affect **`R`**, not `F`.
-- Changes in notation or carrier surface do not change `F` if the formal content is preserved.
+- Changes in notation, carrier, or rendering form do not change `F` if the formal content is preserved.
 
 #### C.2.3:4.3 - Extensibility and local anchors
 
@@ -344,5 +344,4 @@ When refreshing legacy material, assign an initial `F` from observable content, 
 For the language-space extension, `F` does **not** govern `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, `U.LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`. Contexts **MUST NOT** hide thresholds for those facets as pseudo-levels or submodes of `F`; those facets remain explicitly governed by `C.2.LS` and its subordinate patterns.
 
 ### C.2.3:End
-
 

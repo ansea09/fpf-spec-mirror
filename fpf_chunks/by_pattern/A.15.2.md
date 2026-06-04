@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.2 — U.WorkPlan"
-line_start: 19954
-line_end: 20112
+line_start: 20003
+line_end: 20155
 dependencies:
   - "A.15"
   - "U.Work"
@@ -34,7 +34,6 @@ Operations live on **time**. Even with perfect roles, abilities, and methods, no
 
 `U.WorkPlan` is that missing anchor.
 
-
 ### A.15.2:2 - Problem (what breaks without `WorkPlan`)
 
 1. **“Workflow = schedule” conflation.** Flowcharts or code are used as calendars; resource clashes and SLA misses follow.
@@ -42,7 +41,6 @@ Operations live on **time**. Even with perfect roles, abilities, and methods, no
 3. **Spec/time leakage.** People and calendars creep into MethodDescriptions; reuse and staffing agility collapse.
 4. **No variance model.** Without planned baselines, deviations in time, cost, and quality cannot be explained or improved.
 5. **Structure entanglement.** BoM and org charts get baked into “process” views; plans become brittle and unmaintainable.
-
 
 ### A.15.2:3 - Forces (what we must balance)
 
@@ -53,7 +51,6 @@ Operations live on **time**. Even with perfect roles, abilities, and methods, no
 | **Assignment vs. assignment**     | Plans may name intended performers; the actual assignment must still be checked at run time.           |
 | **Budgets vs. actuals**            | Plans carry targets and reservations; only Work carries actual spend.                                   |
 | **Decomposition vs. mapping**      | Plan tasks decompose conveniently; they do not force a shape on actual Work runs.                       |
-
 
 ### A.15.2:4 - Solution — the `U.WorkPlan` as the time‑bound intention to execute Work
 
@@ -131,7 +128,6 @@ When reality happens, each `U.Work` may:
 
 > **Manager’s view:** A plan that cannot report variance is a calendar picture, not a management tool.
 
-
 ### A.15.2:5 - What a good `WorkPlan` states (review checklist)
 
 Use this as a human‑readable checklist (not a rigid schema):
@@ -146,7 +142,6 @@ Use this as a human‑readable checklist (not a rigid schema):
 8. **Baseline/version** and **change notes** (so variance is attributable).
 9. **Policy pointers** (episode policy, overlap policy for Work roll‑ups if needed for KPIs).
 10. **Exceptions path** (how ad‑hoc/emergency work is planned post‑factum).
-
 
 ### A.15.2:6 - Archetypal grounding (parallel domains)
 
@@ -170,7 +165,6 @@ Use this as a human‑readable checklist (not a rigid schema):
 * **Bridges:** Ops context ↔ Security Audit context (different acceptance targets).
 * **Plan Items:** `Deploy Service A`, `Pen‑test A`; dependencies across contexts.
 * **Fulfilment:** Deployment Work passes ops targets; audit Work passes later—variance reported per context.
-
 
 ### A.15.2:7 - Bias‑Annotation (as in E‑cluster)
 

@@ -6,12 +6,12 @@ section_id: "A.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:3 — Forces"
-line_start: 19267
-line_end: 19275
+line_start: 19326
+line_end: 19334
 dependencies:
   - "A.10"
   - "A.12"
@@ -50,6 +50,6 @@ keywords:
 | :--- | :--- |
 | **Structure vs. Function** | The need to model the stable, physical structure of a system (`mereology`) vs. the need to model its dynamic, functional behavior (`roles`, methods, plans, and work occurrences). |
 | **Design vs. Run** | The need for a timeless, reusable description of a capability (`design-time`) vs. the need for a specific, dated record of its execution (`run-time`). |
-| **Clarity vs. Jargon** | The need for a precise, formal vocabulary to prevent ambiguity vs. the reality that teams use informal, domain-specific jargon like "process" or "workflow." |
-| **Accountability vs. Complexity** | The need for a complete, end-to-end audit trail for every load-bearing work occurrence vs. the desire to keep models simple and avoid excessive documentation. |
+| **Clarity vs. Jargon** | The need for a precise, formal vocabulary to prevent ambiguity vs. the reality that teams use informal, domain-specific source cues like "process" or "workflow." |
+| **Accountability vs. Complexity** | The need for a complete, end-to-end audit trail for every decision-relevant work occurrence vs. the desire to keep models simple and avoid excessive documentation. |
 

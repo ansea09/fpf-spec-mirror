@@ -6,12 +6,12 @@ section_id: "F.9.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__012_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:11 — SoTA-Echoing"
-line_start: 71727
-line_end: 71742
+line_start: 72445
+line_end: 72460
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"
@@ -37,7 +37,7 @@ keywords:
 ### F.9.1:11 - SoTA-Echoing
 **SoTA note.** This section does not mint an independent second bridge rule track. It stays truthful only when the boundary rule, conformance checklist, worked bridge-card examples, and legacy-note repair below still tell the same story about the stance staying subordinate to the bridge card.
 
-**Traditions covered.** This overlay binds itself to comparative-theory glossing, design-translation annotation, operator documentation, and other practices that add short interpretive stance labels on top of already governed relation cards.
+**Traditions covered.** This overlay binds itself to comparative-theory glossing, design-translation annotation, operator documentation, and other practices that add short interpretive stance labels on top of already bridge-stance overlay relation cards.
 
 | Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `F.9.1` | Adoption status |
 | --- | --- | --- | --- | --- |

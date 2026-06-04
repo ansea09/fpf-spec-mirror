@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.13.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.13 — Pragmatic Utility & Value Alignment"
-line_start: 59814
-line_end: 59906
+line_start: 60715
+line_end: 60806
 dependencies:
   - "E.12"
   - "E.2"
@@ -114,5 +114,4 @@ The **MVE Mandate** ensures that every journey starts with a destination in sigh
 *   **Provides context for:** The definition of `U.Objective` and `U.Characteristic` by establishing a formal link between them.
 
 ### E.13:End
-
 

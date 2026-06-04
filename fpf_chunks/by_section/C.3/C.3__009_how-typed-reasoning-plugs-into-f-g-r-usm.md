@@ -6,12 +6,12 @@ section_id: "C.3:7.1"
 section_title: "How typed reasoning plugs into F–G–R & USM"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__009_how-typed-reasoning-plugs-into-f-g-r-usm.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:7.1 — How typed reasoning plugs into F–G–R & USM"
-line_start: 36870
-line_end: 37147
+line_start: 36937
+line_end: 37199
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -32,7 +32,7 @@ keywords:
 
 A typed claim has two independent parts:
 
-1. **describedEntity (Kind).** *Which things the statement talks about.*
+1. **entityOfConcern (Kind).** *Which things the statement talks about.*
    “For every item of kind **k** in the **target context** (the selected **TargetSlice**) …”.
    — The **definition** of kind **k** lives in **KindSignature(k)** (with its **F**, C.3.2).
    — **Which items count as “k”** is evaluated in the **TargetSlice** (C.3.2) by a deterministic membership check.
@@ -41,7 +41,6 @@ A typed claim has two independent parts:
    `U.ClaimScope(Claim)` is the **collection of contexts** where the claim is valid (USM A.2.6). Guards test: “Scope **covers** the TargetSlice”.
 
 **Discipline.** The guard first checks **typed compatibility** (in the same Context: “is‑a / subkind‑of”; across Contexts: a **KindBridge**, C.3.3), then **Scope coverage** (USM), then **R** freshness and any bridge congruence penalties. See **C.3.A Guard\_TypedClaim**.
-
 
 #### C.3:7.1.2 - Composition of typed claims
 
@@ -57,10 +56,9 @@ A typed claim has two independent parts:
 * **Serial path:** take the **intersection** of the contributors’ claim scopes.
 * **Parallel independent lines:** use **SpanUnion** of the serial scopes (only if independence is justified).
 
-**Rule C‑T‑3 (no type‑by‑scope).** A kind mismatch **MUST NOT** be “fixed” by widening **G**. Changes in describedEntity require **subkind introduction**, **signature edits**, or a **KindBridge**—not a scope change.
+**Rule C‑T‑3 (no type‑by‑scope).** A kind mismatch **MUST NOT** be “fixed” by widening **G**. Changes in entityOfConcern require **subkind introduction**, **signature edits**, or a **KindBridge**—not a scope change.
 
 **Manager hint.** First confirm the **port shape** matches (kinds line up), then check the **operating area** (scope), and finally look at **confidence** (evidence freshness plus any bridge congruence penalties).
-
 
 #### C.3:7.1.3 - F–G–R with typed claims (what changes, what doesn’t)
 
@@ -82,7 +80,6 @@ A typed claim has two independent parts:
 Start with the reliability from your support; then **apply the scope‑bridge penalty**; then **apply the kind‑bridge penalty**. Each step can only reduce reliability.
 You never add or average **F/G**: you **compose scope** per USM rules and apply **weakest‑link** for F/R along support paths.
 
-
 #### C.3:7.1.4 - ESG gating with typed claims
 
 * **Gate on F**, if your Context requires rigor before use (e.g., `U.Formality(Claim) ≥ F4`).
@@ -95,7 +92,6 @@ You never add or average **F/G**: you **compose scope** per USM rules and apply 
 
 > **Intent.** Show a clear, end‑to‑end path a manager can follow to take a typed claim from words to safe reuse across Contexts—without any tool or data‑governance assumptions. Each stage says **what it supplies**, **what it needs**, and **what it hands off** to the next stage.
 
-
 ##### C.3:7.2.1 - **Lang‑CHR** — stable words first
 
 **What it supplies.** A disciplined vocabulary and controlled phrasing so that terms like *Vehicle*, *AuthenticatedRequest*, *AdultPatient* have **one meaning** in the Context.
@@ -106,8 +102,7 @@ You never add or average **F/G**: you **compose scope** per USM rules and apply 
 
 > *Manager hint.* If two teams cannot agree on the noun, you are not ready to type the claim. Resolve the noun in Lang‑CHR before introducing a Kind.
 
-
-##### C.3:7.2.2 - **Kind‑CAL** (this Part) — name the *describedEntity*
+##### C.3:7.2.2 - **Kind‑CAL** (this Part) — name the *entityOfConcern*
 
 **What it supplies.**
 • **`U.Kind`** objects for those nouns; a partial order **`⊑`** (subkind‑of).
@@ -124,7 +119,6 @@ You never add or average **F/G**: you **compose scope** per USM rules and apply 
 **Hand‑off.** Typed quantifier sites for claims: “∀ x ∈ **Extension(k, slice)** …”, plus a visible **`⊑`** lattice for compatibility checks down the line. Typed claim sites written in Plain language: “for every item of kind **k** in the **target context** …”, plus a visible **subkind‑of** lattice for compatibility checks down the line.
 
 > *Manager hint.* Decide early whether your Kind is K0 (instance‑ish) or K2 (formal class). It sets your **ΔF/ΔR** budget expectations.
-
 
 ##### C.3:7.2.3 - **Structure‑CAL** — give Kinds usable shape
 
@@ -145,7 +139,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 
 **Note (informative).** If a Context declares structural constructors on kinds (e.g., product/sum/record/function), editors SHOULD document the corresponding **Extension** inclusion laws for those constructors. Keep Scope in USM; do not hide it in structure.
 
-
 ##### C.3:7.2.4 - **Compose‑CAL** — compose with typed pre‑checks
 
 **What it supplies.** The **order of checks** you must follow for safe composition:
@@ -159,7 +152,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 **Hand‑off.** A typed, scope‑checked composition that survives audit because each risk is accounted for in **R**.
 
 > *Manager hint.* Run the **typed pre‑check** first. It is the cheapest failure to catch and prevents “scope gymnastics” that mask a type mismatch.
-
 
 ##### C.3:7.2.5 - **CT2R‑LOG** — speak the logic, keep the math honest
 
@@ -176,7 +168,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 
 > *Manager hint.* If your proof keeps failing when you move between Contexts, add a **bridge at the Kind level**; do not try to “fix” it by changing scope.
 
-
 ##### C.3:7.2.6 - **Role‑CAL** — adapt without cloning
 
 **What it supplies.** **RoleMask(kind, Context)**: a named, registered adaptation (extra constraints or local aliases, with optional narrowing) that reuses the **same** kind instead of creating a new one.
@@ -188,7 +179,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 **Hand‑off.** Context‑specific views that keep identity intact and make typed guards practical (“use `PaymentAccount@PCI` mask in these steps”).
 
 > *Manager hint.* If the same mask appears in several guards, **promote** it to a subkind. This reduces future bridge and audit effort.
-
 
 ##### C.3:7.2.7 - Mini end‑to‑end example (manager‑oriented)
 
@@ -218,7 +208,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 • **Typed guard** approves only when: (i) the type pre‑check passes (same‑Context subkind‑of or a KindBridge with an acceptable congruence level), (ii) **Scope** covers the target context (API v2.3, explicit time selector), and (iii) **R** reflects the **scope‑bridge** and **kind‑bridge** penalties and evidence is fresh.
 • No one widened Scope to hide a type mismatch; the adapter + bridge made the semantics explicit and auditable.
 
-
 > **Takeaway.** If you keep these six hand‑offs in view—words → kinds → structure → composition → logic → roles—you get **predictable reviews**, **clean risk accounting**, and **reusable claims** that travel across Contexts without silent meaning drift.
 
 #### C.3:7.3 - Compliance & Regulatory Alignment — profile
@@ -226,7 +215,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 Treat regulatory categories as **Kinds**, carry their **intent** in `KindSignature` with declared **F**, move them across Contexts with a **KindBridge** (type‑congruence **`CL^k`** + loss notes), and express applicability as **Claim scope** over `U.ContextSlice` (with explicit **Γ_time**). Any Cross‑context uncertainty is routed to **R** via **Ψ(`CL^k`)** (kind) and **Φ(CL)** (scope); **F** and **G** remain unchanged.
 
 > **Authoritative obligations and guard macros** (C‑REG‑1…8, Guard_RegAdopt / Guard_RegChange / Guard_RegXContextUse) and worked scenarios live in **C.3.A, Annex A (Regulatory adoption profile)**.
-
 
 #### C.3:7.4 - How typed reasoning plugs into **Assurance Lanes (VA/LA/TA) & Evidence design**
 
@@ -245,7 +233,6 @@ Treat regulatory categories as **Kinds**, carry their **intent** in `KindSignatu
 #### C.3:7.5 - How typed reasoning plugs into **ESG and Method–Work gating**
 
 > Intent. Make state changes and work admissions deterministic, auditable, and safe by separating (1) **typed compatibility** (what the statement or capability is about) from (2) **scope coverage** (where it holds or can run). Any Cross‑context uncertainty is routed to **R** (reliability) only—never to **F** (form) or **G** (scope).
-
 
 ##### C.3:7.5.1 - Scope & fit
 
@@ -281,7 +268,6 @@ It reuses:
   * Evidence **freshness windows** (R‑lane).
 * **Evidence bundle** (if the transition implies trust): references, dates, windows.
 
-
 ##### C.3:7.5.3 - Manager’s 7‑step checklist (operational)
 
 1. **Name the slice.** Write the full `TargetSlice`/`JobSlice` tuple including **`Γ_time`**.
@@ -293,7 +279,6 @@ It reuses:
 7. **(If gated) Check F.** Enforce `Formality ≥ F_k` for the transition.
 
 > **Remember:** **F** and **G** never change because of bridges; only **R** is penalized. AT (K0…K3) is informative and **not** used in guards.
-
 
 ##### C.3:7.5.4 - Cross‑references
 

@@ -6,12 +6,12 @@ section_id: "C.3.4:7"
 section_title: "Invariants & Non‑goals (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__008_invariants-non-goals-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:7 — Invariants & Non‑goals (normative)"
-line_start: 38305
-line_end: 38310
+line_start: 38297
+line_end: 38302
 dependencies:
   - "C.3.1"
   - "C.3.2"
@@ -25,6 +25,6 @@ keywords:
 ### C.3.4:7 - Invariants & Non‑goals (normative)
 
 * **No Scope leakage.** RoleMasks **cannot** widen/narrow **Claim scope (G)**; any context conditions are enforced by USM guards.
-* **Identity preservation.** The carrier kind remains `k`; RoleMask does not change describedEntity.
+* **Identity preservation.** The carrier kind remains `k`; RoleMask does not change entityOfConcern.
 * **Weakest‑link unaffected.** RoleMasks do not alter weakest‑link rules on **F/R**; guards **route entity predicates to membership** and **context predicates to USM Scope**.
 

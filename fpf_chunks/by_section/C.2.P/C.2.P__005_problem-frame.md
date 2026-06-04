@@ -6,12 +6,12 @@ section_id: "C.2.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__005_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:1 — Problem frame"
-line_start: 34208
-line_end: 34226
+line_start: 34307
+line_end: 34325
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,36 +47,24 @@ dependencies:
   - "E.9"
   - "F.18"
 keywords:
-  - "PublicationUnit"
-  - "carrier"
-  - "claim-bearing episteme"
-  - "described entity"
-  - "epistemic precision restoration"
-  - "grounding relation"
-  - "publication face"
-  - "remaining admissible reader move"
-  - "source wording"
-  - "source-expression unpacking"
-  - "source-to-FPF transfer"
-  - "transfer disposition"
 ---
 
 ### C.2.P:1 - Problem frame
 
-FPF already has episteme, publication, view, carrier, presentation, relation, naming, and pattern-application concepts. FPF-facing source, review, and draft prose can still introduce convenient intermediate words that survive into final pattern or architecture prose without their kind stack recovered.
+FPF already has episteme, publication, view, carrier, presentation, relation, naming, and pattern-application concepts. FPF-governed project, review, draft, pattern, and architecture prose, plus source prose being unpacked for possible FPF use, can still introduce convenient intermediate words that survive into final guidance without their kind and relation set recovered.
 
 The recurring situation is simple: a sentence is understandable enough to feel worth keeping, but its head kind is not recovered. If it is repaired by replacing one broad word with another broad word, the ontology gets worse while the text looks cleaner.
 
 #### C.2.P:1.1 - Purpose and Scope
 
-This pattern gives the current glossary and rewrite rules for terms around epistemes, publications, views, publication forms, generic publication faces, governed MVPK faces, carriers, records, and bounded publication units.
+This pattern gives the current glossary and rewrite rules for terms around epistemes, publications, views, publication forms, generic publication faces, MVPK faces under E.17 constraints, carriers, records, and bounded publication units.
 
-It exists because episteme-publication-heavy texts can use locally convenient heads that collapse described entity, publication unit, publication face, carrier, record, source relation, and project-side value. Those words may be useful recognition handles, but they are not safe FPF heads when they carry ontology, authority, or authority-changing meaning.
+It exists because episteme-publication-heavy texts can use locally convenient heads that collapse EntityOfConcern, publication unit, publication face, carrier, record, source relation, and project-side value. Those words may be useful recognition handles, but they are not safe FPF heads when they carry ontology, authority, or authority-changing meaning.
 
-The rewrite discipline here is semantic, not lexical; in this pattern the semantic work is bounded to episteme-publication/source-transfer precision:
+The rewrite discipline here is ontological and use-facing, not lexical; in this pattern the repair is bounded to episteme, publication, and source-use precision:
 - do not replace one broad token with one new broad token by string substitution;
-- first recover the FPF kind stack, the claim-bearing status, the publication, view, carrier, or relation construction, and any work, action, or authority crossing;
-- then choose the smallest exact wording that preserves the FPF-force-bearing distinction without creating a second ontology.
+- first recover the FPF kind and relation set, the claim-bearing status, the publication, view, carrier, or relation construction, and any work, action, or authority crossing;
+- then choose the smallest exact wording that preserves the FPF-governed distinction without creating a second ontology.
 
-This pattern uses the `E.10` trigger result as its entry condition, then works in the `C.2.1`/`E.17` epistemic-publication ontology rather than in a lexical registry.
+This pattern uses the `E.10` trigger result as its entry condition, then works in the `C.2.1` and `E.17` epistemic-publication ontology rather than in a lexical registry.
 

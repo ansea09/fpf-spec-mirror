@@ -6,12 +6,12 @@ section_id: "C.28:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__008_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:6 — Bias-Annotation"
-line_start: 49967
-line_end: 49981
+line_start: 49809
+line_end: 49822
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.28:6 - Bias-Annotation
 
-`C.28` is mainly a causal-discipline and anti-overclaim pattern for decision-bearing causal use. One part of that work is catching language laundering, but the larger job is to keep causal reasoning, evidence design, realizability, policy evaluation, fairness use, and benchmark parity from silently borrowing a `C.28` support basis, support verdict, or admissible-use posture they do not actually have.
+`C.28` is mainly a causal-discipline and anti-overclaim pattern for decision-bearing causal use. One part of that work is catching language laundering, but the larger job is to keep causal reasoning, evidence design, realizability, policy evaluation, fairness use, and benchmark parity from silently borrowing a `C.28` support basis, support verdict, or admissible-use value they do not actually have.
 
 Common biases:
 
@@ -61,5 +61,4 @@ Common biases:
 - **Graph sufficiency bias.** A named graph is treated as enough without assumptions, data regime, calculus, and admissible use.
 
 The repair is not to ban causal language. The repair is to recover the live causal question, choose the least-committing admissible causal use supported by the available evidence, and then either downgrade, bound, design a causal-evidence plan with the required `C.28` support basis, open identification or realizability work, or abstain.
-
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.4.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
-line_start: 77492
-line_end: 77962
+line_start: 78086
+line_end: 78556
 dependencies:
   - "A.10"
   - "A.18"
@@ -70,7 +70,7 @@ RSCR tests, Worked‑Examples, and a `TaskMap@Context` (`TaskMap`; handoff recor
 
 A CG‑Frame has:
 
-* a declared `CG-FrameContext` (scope, described entity, plane),
+* a declared `CG-FrameContext` (scope, EntityOfConcern, plane),
 * a plurality of method traditions and claims (SoTA inputs), and
 * CHR‑typed measurement constructs (`Characteristic/Scale/Coordinate` + legality guard macros).
 
@@ -151,7 +151,7 @@ Notes (normative intent, delegated semantics):
 
 * `CAL.Charter@Context` — scope anchor for this CAL pack:
 
-  * cites `CG-FrameContext`, `describedEntity`, `ReferencePlane`,
+  * cites `CG-FrameContext`, `entityOfConcern`, `ReferencePlane`,
   * cites the governance card and legality gate (`CNSpecRef`, `CGSpecRef`) by edition pins,
   * records the “assumption envelope” that acceptance predicates rely on (without minting a new governance card or legality gate).
   * emits `TaskMap@Context` (`TaskMap`) as the canonical handoff record to `G.5` (task→gates/flows/evidence pins).
@@ -223,7 +223,7 @@ CAL.EvidenceProfile :=
 **C1 — CAL Charter (scope anchor).**
 Authors declare a `CAL.Charter@Context` that:
 
-* anchors CAL to the CG‑Frame scope (`CG-FrameContext`, `describedEntity`, `ReferencePlane`),
+* anchors CAL to the CG‑Frame scope (`CG-FrameContext`, `entityOfConcern`, `ReferencePlane`),
 * pins the relevant governance card and legality gate refs (`CNSpecRef.edition`, `CGSpecRef.edition`),
 * records the local assumption envelope used by acceptance predicates (as explicit statements to be audited, not as hidden algorithmic assumptions),
 * declares which CAL artifacts are intended to be cited downstream (UTS ids).
@@ -438,7 +438,7 @@ The pattern mitigates these by requiring typed acceptance clauses, explicit poli
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CC‑G4‑CoreRef** | Conformance with `G.4` requires satisfying the effective `G.Core` obligations referenced by the `GCoreLinkageManifest` in **G.4:4.1** (profiles, pin sets, consumed defaults, and trigger kinds).                                                                                                              |
 | **CC‑G4‑01**      | `CAL Pack@CG-Frame` is published as a notation-independent object with stable UTS ids (Name Cards with twin labels) for `CAL.Charter`, `TaskMap`, all operator, acceptance, flow, and evidence carriers, Worked-Examples, and public-id continuity notes, including deprecations and lexical-continuity notes. Tooling/vendor details remain non-normative. |
-| **CC‑G4‑02**      | `CAL.Charter@Context` pins `CG-FrameContext`, `describedEntity` (incl. `ReferencePlane`), and the relevant governing spec references by edition pins (`CNSpecRef.edition`, `CGSpecRef.edition`).                                                                                                                     |
+| **CC‑G4‑02**      | `CAL.Charter@Context` pins `CG-FrameContext`, `entityOfConcern` (incl. `ReferencePlane`), and the relevant governing spec references by edition pins (`CNSpecRef.edition`, `CGSpecRef.edition`).                                                                                                                     |
 | **CC‑G4‑03**      | Every `CAL.Operator` has an explicit CHR‑typed signature and explicit preconditions; any legality guard macros referenced are cited by id (no “implicit legality”).                                                                                                                                             |
 | **CC‑G4‑04**      | Every `CAL.Acceptance` binds to CHR ids (`CharacteristicRefs`) and declares unknown handling and failure behavior via pins/refs; thresholds and cutoffs appear only here (not inside CHR artifacts and not inside operator prose). If the clause depends on cross-context, cross-plane, or cross-edition imports, it cites `GateCrossingId[]/CrossingBundleId[]`. |
 | **CC‑G4‑05**      | If an acceptance clause, operator, or flow induces numeric comparison/aggregation, it cites the relevant `CG‑Spec.characteristic` ids and links to legality proof refs (CSLC) in the ProofLedger; otherwise it must be authored so that downstream can degrade/abstain rather than perform illegal operations. |

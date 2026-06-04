@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
 section_id: "E.17.AUD.OOTD:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__009_common-anti-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:8 — Common Anti-Patterns"
-line_start: 64649
-line_end: 64655
+line_start: 65522
+line_end: 65528
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,7 +26,6 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17.AUD.LHR"
@@ -41,6 +40,6 @@ keywords:
 
 - **Local-repair inflation.** Opening publication-unit discipline when one overloaded local lexical head or qualifier is still the real defect.
 - **Work-process smuggling.** Letting a note begin as architecture, incident review, or comparison work and end as rollout, approval, or execution guidance without naming the transition.
-- **Support-pattern replacement.** Treating this pattern as if it replaced view, face, or carrier architecture, same-entity transform rules, explanation governance, bridge rules, or downstream decision texts.
-- **Overgrowth by declaration.** Stacking heavier fields onto a unit that still cannot keep one stable primary described entity, one move, and one outside-work boundary in place.
+- **Admissibility-pattern replacement.** Treating this pattern as if it replaced view, face, or carrier architecture, entityOfConcernRef-preserving transform rules, explanation governance, bridge rules, or downstream decision texts.
+- **Overgrowth by declaration.** Stacking heavier fields onto a unit that still cannot keep one stable primary EntityOfConcern, one move, and one outside-work boundary in place.
 

@@ -6,10 +6,10 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2 — Role Taxonomy"
-line_start: 1515
+line_start: 1516
 line_end: 1724
 dependencies:
   - "A.1"
@@ -187,7 +187,6 @@ Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal**
 5. **“Method = workflow (step list) by default.”**
    ✗ *“The method is the ordered list of steps 1..n.”*
    ✓ A **Method** is a design‑time capability; “steps” (or their absence) are a property of a **MethodDescription viewpoint**. A Work executes a specific MethodDescription; use a workflow/script view when step semantics matter, and use other views (dynamics/solver/circuit/channel) when steps are not meaningful.
-
 
 ### A.2:10 - Consequences
 

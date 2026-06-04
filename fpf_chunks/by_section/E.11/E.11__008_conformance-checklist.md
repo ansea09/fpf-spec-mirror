@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance checklist"
-line_start: 59617
-line_end: 59656
+line_start: 60519
+line_end: 60558
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -43,7 +43,7 @@ keywords:
 - **CC-E11-4a Editorial labels only.** Entry labels in `E.11` are editorial
   projection labels over existing patterns, sections, rows, or publication
   faces. They do not create `PatternKind`, `RelationKind`, `StatusKind`,
-  `SurfaceKind`, `Role`, `U.Type`, graph node, or workflow state.
+  publication face kind, publication form kind, carrier kind, `Role`, `U.Type`, graph node, or workflow state.
 - **CC-E11-5 Problem-frame first-reading role.** Local problem-frame recognition
   remains in the pattern's `Problem frame`; `J.4`, `I.2`, lexical support, and
   `README` do not become competing local recognition pattern bodies.

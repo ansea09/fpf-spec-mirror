@@ -6,12 +6,12 @@ section_id: "E.17.AUD:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__008_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:7 — Consequences"
-line_start: 63972
-line_end: 63979
+line_start: 64844
+line_end: 64851
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,7 +27,6 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17"
@@ -46,7 +45,7 @@ keywords:
 
 - You slow down long enough to name the active publication-unit problem situation before patching the draft.
 - You reduce pointless escalation from one overloaded local lexical head into a whole-unit rewrite.
-- You reduce the opposite failure too: trying to solve whole-unit reading instability with one more qualifier on the same local lexical head.
+- You reduce the opposite failure too: trying to solve whole-unit interpretation instability with one more qualifier on the same local lexical head.
 - You keep neighboring publication-unit repair patterns and neighboring non-publication-unit patterns explicit instead of letting one broad stability name quietly absorb them.
 - You make it harder for clearer prose, official-looking formatting, or wider circulation to masquerade as downstream claim or effect.
 

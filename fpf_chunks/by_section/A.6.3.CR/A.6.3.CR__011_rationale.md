@@ -1,22 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.CR"
-pattern_title: "ConservativeRetextualization — same-described-entity textual re-expression"
+pattern_title: "ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
 section_id: "A.6.3.CR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3.CR — ConservativeRetextualization — same-described-entity textual re-expression"
+  - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
   - "A.6.3.CR:10 — Rationale"
-line_start: 10974
-line_end: 10977
+line_start: 10829
+line_end: 10832
 dependencies:
   - "A.15"
   - "A.6.2"
   - "A.6.3"
   - "A.6.3.CSC"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.7"
   - "B.5.2"
@@ -24,6 +25,7 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
+  - "E.17.EFP"
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
@@ -31,14 +33,6 @@ dependencies:
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
 keywords:
-  - "direct vs correspondence-mediated rewrite"
-  - "filtering"
-  - "report rewrite"
-  - "retextualization"
-  - "same-described-entity textual re-expression"
-  - "source tether"
-  - "summary"
-  - "translation"
 ---
 
 ### A.6.3.CR:10 - Rationale

@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 55161
-line_end: 55490
+line_start: 56268
+line_end: 56597
 dependencies:
   - "E.10"
   - "E.19"
@@ -143,7 +143,7 @@ The Alexandrian pattern canon historically calls *Problem frame* “Context”. 
 | S-1 | Density without Jargon | Short declarative sentences; tool names belong in Pedagogy/Tooling. |
 | S-2 | Internal Cohesion | Inline references to Pillars and related patterns. |
 | S-3 | Embedded Mini-Definitions | Gloss a new term in parentheses on first appearance. |
-| S-4 | Contextualisation | Brief historical or disciplinary lineage anchors. |
+| S-4 | Contextualisation | Brief historical or disciplinary lineage references. |
 | S-5 | Prophylactic Clarification | Pre-empt common misreadings inside the prose. |
 | S-6 | Quotable Closers | Finish Solution or Consequences with a memorable aphorism. |
 | S-7 | Generative over Prescriptive | Present rules as enabling constraints, not bureaucracy. |
@@ -155,37 +155,37 @@ The Alexandrian pattern canon historically calls *Problem frame* “Context”. 
 | S-13 | SoTA-Echo structure | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt/adapt/reject)**; cite Bridges & CL when crossing Contexts/planes. |
 | S-14 | Didactic-content sufficiency | New and substantially revised patterns carry enough didactic content to be teachable without nearby project notes. |
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice; scenario names alone are not enough. |
-| S-16 | Ordinary vs FPF-force-bearing realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
+| S-16 | Ordinary vs FPF-governed wording realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
 | S-17 | Self-contained monolith prose | A merged pattern must explain itself inside the monolith; planning shorthand and review-context dependencies are not admissible in live prose. |
 | S-18 | Reader-role discipline | Keep live pattern prose addressed to the intended FPF user; move package-development and architecture-placement rationale to separate companion notes or clearly marked informative placement notes. |
-| S-19 | Precision before relaxation | In FPF-force-bearing prose, restore the head kind named by a generic phrase before treating any qualifier as trustworthy claim guidance; then restore the claim force hidden in the qualifier before allowing any later plain, didactic, or coarsened restatement. |
+| S-19 | Precision before relaxation | In FPF-governed prose, restore the head kind named by a generic phrase before treating any qualifier as trustworthy claim guidance; then restore the claim kind or admissible-use boundary hidden in the qualifier before allowing any later plain, didactic, or coarsened restatement. |
 
 Authors use the principles as a *scaffold*, not a straitjacket: the goal
-is coherent, engaging insight. Engagement remains subordinate to semantic discipline: hooks, quotable lines, Plain restatements, and didactic images may improve recognition, but any ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim force they carry must be recoverable through the governed Tech reading or named neighboring pattern. Ordinary Plain prose without that claim force stays ordinary prose.
+is coherent, engaging insight. Engagement remains subordinate to semantic discipline: hooks, quotable lines, Plain restatements, and didactic images may improve recognition, but any ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind or admissible-use boundary they carry must be recoverable through the governed Tech reading or named neighboring pattern. Ordinary Plain prose without that claim kind or admissible-use boundary stays ordinary prose.
 
 **S-0 (Narrative Flow Seven-Step Heuristic) — explanation**
-Narrative flow is recommended to follow these steps: **Hook -> Frame -> Weave -> Anchor -> Bridge -> Flow -> Close**.
+Narrative flow is recommended to follow these steps: **Hook -> Frame -> Weave -> Ground -> Bridge -> Flow -> Close**.
 
 Brief explanations:
 | Step       | Purpose in a paragraph/section                             |
 | ---------- | ---------------------------------------------------------- |
-| **Hook**   | Open attention with a vivid but bounded image or paradox that maps back to the governed object and claim. |
+| **Hook**   | Open attention with a vivid but bounded image or paradox that maps back to the primary `EntityOfConcern` and claim. |
 | **Frame**  | State the specific question or problem space.              |
 | **Weave**  | Connect to earlier patterns or Pillars.                    |
-| **Anchor** | Tie to a concrete System/Episteme or physical process.     |
+| **Ground** | Tie to a concrete System/Episteme or physical process.     |
 | **Bridge** | Show the implication for the upcoming claim or rule.       |
 | **Flow**   | Deliver the formal content or argument.                    |
 | **Close**  | End with a quotable line or payoff that reinforces memory. |
 
 Narrative Flow Heuristic also operationalises S-1 (Density w/o Jargon), S-2 (Internal Cohesion), S-4 (Contextualisation), and S-6 (Quotable Closers).
 #### E.8:4.2.1 - Recognition text and assurance text
-Every canonical pattern SHALL stabilise one governed object early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one governed object and which would instead name a different act, process, work-result record, or governing companion. Recognition and assurance texts may refine that object differently, but they must not silently swap the central object kind.
+Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, exact relation, or claim record early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one primary selected EntityOfConcern, relation, or claim and which would instead name a different act, process, work-result record, or governing companion. Recognition and assurance texts may refine that selected item differently, but they must not silently swap the central kind.
 
-If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what governed object is actually in play, what move is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
+If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what primary `EntityOfConcern`, exact relation, or claim record is actually in play, what move is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
 
 Under `F.18` local-first naming, the canonical pair here is **recognition text** and **assurance text**.
 The earlier provisional `recognition shell / assurance shell` wording is retired.
-These names refer to two reading-order roles carried by existing sections or projections inside one pattern; they do **not** mint new `authoritySourceRef` targets, governing-pattern relations, publication-form/face kinds, `SurfaceKind`s, or a second face family.
+These names refer to two reading-order roles carried by existing sections or projections inside one pattern; they do **not** mint new `authoritySourceRef` targets, governing-pattern relations, publication-form/face kinds, `publication-face kind`s, or a second face family.
 A third didactic-content role remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
 
 The **recognition text** is the first-reading text.
@@ -197,16 +197,16 @@ Its job is to make visible:
 - what goes wrong if the pattern is missed;
 - what the pattern buys the reader in practice;
 - when this is not the right pattern;
-- what governed object is actually being kept stable;
-- and, when technical terms must appear early, a pairwise plain gloss for each early FPF-force-bearing term.
+- what primary `EntityOfConcern`, exact relation, or claim record is actually being kept stable;
+- and, when technical terms must appear early, a pairwise plain gloss for each early FPF-governed technical term.
 
 The **assurance text** is the second-reading text.
-It carries the heavier FPF-force-bearing material that makes the pattern reviewable and auditable:
+It carries the heavier FPF-governed material that makes the pattern reviewable and auditable:
 - declaration blocks and typed fields when those are part of the pattern's declared conformance or boundary claim;
-- representation ontology, described-entity discipline, or governed-object discipline;
-- any minimal modeling or mathematical lens that keeps the governed object stable;
+- representation ontology, EntityOfConcern discipline, or primary-EntityOfConcern discipline;
+- any minimal modeling or mathematical lens that keeps the primary `EntityOfConcern`, exact relation, or claim record stable;
 - guidance/check, invariants, admissibility, and exit or neighbouring-pattern conditions;
-- `SoTA-Echoing` when it is carrying live explanatory force;
+- `SoTA-Echoing` when it is carrying live explanatory work;
 - and the review hooks that let a broader or more consequential interpretation or use be checked explicitly.
 
 The assurance text may sharpen, justify, and discipline the recognition text.
@@ -217,7 +217,7 @@ If a pattern claims **universal** or **transdisciplinary** status, that claim mu
 It is not enough for universality to appear only later in a guidance/check sheet, declaration block, or `SoTA-Echoing` rationale.
 A broad claim should therefore be demonstrated in the recognition text through at least **three heterogeneous reader or domain situations**.
 When a compact matrix helps, `F.16` is the preferred template for showing that breadth.
-If `SoTA-Echoing` carries live FPF force, the practical implication of those rows should be recoverable from the recognition text and case bank rather than remaining a late-only justification layer.
+If `SoTA-Echoing` has live FPF-governed use, the practical implication of those rows should be recoverable from the recognition text and case bank rather than remaining a late-only justification layer.
 
 A **third didactic-content role** means enough didactic and operational content that the pattern survives without nearby project documents. Typical indicators include:
 - at least one concrete source and resulting-publication slice in Archetypal Grounding when the pattern governs transforms or publication change;
@@ -233,7 +233,7 @@ FPF pattern prose is not free-form descriptive English. When authors name a *pac
 Use the following distinctions explicitly:
 
 This is a cross-cutting review discipline, not a replacement for local pattern lexica. For example, `A.6.7` / `A.19.CHR` already carry the suite/kit/pack distinction, and `E.17.1` already carries the viewpoint bundle/family/library distinction.
-- **governing pattern** = the pattern that carries the primary guidance/check force of the family;
+- **governing pattern** = the pattern that carries the primary guidance/check authority of the family;
 - **specialization** = a named refinement under an existing governing pattern;
 - **overlay** = a cross-cutting governance role or reading-order projection over existing governing patterns;
 - **profile** = a declarative review/use role derived from a governing pattern rather than a replacement pattern;
@@ -254,25 +254,26 @@ A pattern may reuse a pattern-native role word when that role is already defined
 
 When a pattern or companion text is drafted from `E.10` or `E.10.ARCH`, distinguish two authoring objects:
 
-* **`ontologicalNeighborhood`** is the set of nearby governed-object kinds, relation kinds, and exact FPF patterns that can carry the recovered meaning after the wording is repaired.
+* **`semanticArea`** is the Part-F semantic unit for a wording-use restoration row: one Concept-Set row, one UTS row, or an explicitly bounded row-set. It is declared with `semanticAreaBaseConcept` and `semanticAreaSenseFamily`.
+* **`ontologicalNeighborhood`** is the applicability neighborhood around that named `semanticArea`: nearby primary `EntityOfConcern` kinds, relation kinds, claim records, exact FPF patterns, non-use boundaries, and remaining reader move that can carry the recovered meaning after the wording is repaired.
 * **`pattern nest`** is the publication and specialization placement of a pattern under its governing pattern family.
 
-These are not synonyms. A precision-restoration pattern is placed in the pattern nest whose governed object it repairs, while its `ontologicalNeighborhood` may name several exact exits. For example, quality-term repair lives in the `C.16` characterization nest, even though its exits can include relation construction, action invitation, evidence, assurance, source transfer, engineering quality bundles, pattern-quality evaluation, or mathematical-lens adequacy.
+These are not synonyms. A precision-restoration pattern is placed in the pattern nest whose primary `EntityOfConcern`, exact relation, or claim record it repairs. Its `semanticArea` states the Part-F semantic unit it repairs, while its `ontologicalNeighborhood` may name several exact exits. For example, quality-term repair lives in the `C.16` characterization nest, even though its exits can include relation construction, action invitation, evidence, assurance, source-use assignment, engineering quality bundles, pattern-quality evaluation, or mathematical-lens use.
 
 Receiving patterns should use a thin pointer when the first-stage wording repair belongs elsewhere. The pointer names the exact restoration pattern and the condition that triggers it; it does not copy the trigger registry, the full `E.10.ARCH` recovery algorithm, or a second local architecture for the same repair. The receiving pattern then keeps its own subject matter: the characteristic, structure, view, episteme, relation, evidence, assurance, gate, work, decision, or adequacy question it already governs.
 
-If a draft proposes a new precision-restoration pattern, the authoring claim must show the repeated wording failure, the recovered governed-object kind, the intended pattern nest, the exact neighboring exits, and the admissible action left after repair. A new pattern is not justified merely because a word appears often, because a local checklist wants a bucket, or because a campaign needs a tidy grouping.
+If a draft proposes a new precision-restoration pattern, the authoring claim must show the repeated wording failure, `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, the recovered primary `EntityOfConcern` kind or relation/claim record, the intended pattern nest, the exact neighboring exits, and the admissible action left after repair. A new pattern is not justified merely because a word appears often, because a local checklist wants a bucket, or because a campaign needs a tidy grouping.
 #### E.8:4.2.3 - Reader-role discipline for live pattern prose
 
 A live pattern is written for its intended FPF user: the person who will use the pattern to organise thought, inspect a case, publish a note, or review a result under that pattern.
-Its FPF-force-bearing sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms. When neighbouring patterns or other governing companion roles are named, the prose should answer one user question such as `which neighboring FPF pattern applies`, `which exact project-side FPF kind and reference is live`, `which nearby pattern is easy to confuse`, or `what must stay coordinated here`; it should not read as one explanatory aside about why the package architecture was split that way.
-`E.8` reader and reviewer wording is FPF pattern-authoring wording. Project-side publication readers, explanation readers, comparative review units, and participants in named project-side review relations are governed by the publication or project-side patterns that name those live objects, such as `E.17`, `E.17.ID.CR`, `E.17.EFP`, `A.10`, `A.15.4`, `A.20`, or `A.21`.
+Its FPF-governed sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms. When neighbouring patterns or other governing companion roles are named, the prose should answer one user question such as `which neighboring FPF pattern applies`, `which exact project-side FPF kind and reference is live`, `which nearby pattern is easy to confuse`, or `what must stay coordinated here`; it should not read as one explanatory aside about why the package architecture was split that way.
+`E.8` reader and reviewer wording is FPF pattern-authoring wording. Project-side publication readers, explanation readers, comparative review units, and participants in named project-side review relations are governed by the publication or project-side patterns that name those live publication units, explanation-use relations, comparative review units, evidence paths, work records, or gate records, such as `E.17`, `E.17.ID.CR`, `E.17.EFP`, `A.10`, `A.15.4`, `A.20`, or `A.21`.
 
 Authors must keep FPF-development or package-architecture material separate from that user-facing body.
-In particular, `Problem`, `Solution`, `Consequences`, `Rationale`, worked slices, and ordinary-vs-FPF-force-bearing guidance must not do the work of:
+In particular, `Problem`, `Solution`, `Consequences`, `Rationale`, worked slices, and ordinary-vs-FPF-governed wording guidance must not do the work of:
 - arguing that the material is worth isolating;
 - justifying overlay/profile/governing-pattern or authority-reference choice as a package decision;
-- discussing authority-reference freeze, naming freeze, merge posture, blast radius, or safest landing form;
+- discussing authority-reference freeze, naming freeze, merge state, blast radius, or safest landing form;
 - or narrating future package promotion or defer decisions.
 
 If architecture-placement commentary is still helpful, the default place is a separate companion note or ADR-like architecture note.
@@ -282,10 +283,9 @@ A live pattern may include a short optional informative subsection such as `Arch
 Human-facing fit is also subject-domain fit. A recognition text that starts from internal taxonomy, pattern-placement convenience, or package-architecture wording before the problem-domain moment is still under-authored even if its later guidance/check text is correct. When a broader umbrella name and a narrower operative branch are both live, the recognition text should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
 
 A pattern can already be role-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
-That failure usually appears when the text is admissible but does not yet make the working situation, practical payoff, governed object, non-use boundary, or first action-guiding move visible enough.
+That failure usually appears when the text is admissible but does not yet make the working situation, practical payoff, primary `EntityOfConcern`, non-use boundary, or first action-guiding move visible enough.
 
-**P-2 epistemic precision check.** When `E.10` selects epistemic precision restoration for pattern prose, the first admissible action-guiding move must survive as a remaining admissible reader move or be replaced by an exact neighboring FPF pattern application that now carries the live claim. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their claim force maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
-
+**P-2 epistemic precision check.** When `E.10` selects epistemic precision restoration for pattern prose, the first admissible action-guiding move must survive as a remaining admissible reader move or be replaced by an exact neighboring FPF pattern application that now carries the live claim. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their claim kind or admissible-use boundary maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
 
 For canonical patterns, the first-reading text should behave as a **recognition text** and the heavier review/check scope should remain in an **assurance text**.
 
@@ -297,9 +297,9 @@ When a pattern claims practice guidance or is meant to be used by engineers, man
 - the first admissible action-guiding move the user should take in that situation;
 - a short `Not this pattern when` boundary for ordinary nearby non-use cases;
 - one minimally viable worked case or use slice that shows what changes in practice;
-- when a typed declaration block, formal lens, or other compact modeling material is FPF-force-bearing, a short user-facing statement of what kind of object the pattern is governing and what minimal lens keeps that object reviewable;
-- pairwise plain glosses for any FPF-force-bearing technical terms that must appear before the heavier declaration role arrives;
-- when `SoTA-Echoing` is carrying live explanatory force, a short working-reader implication for each row or cluster of rows and a visible link back to the case bank or worked slices that those rows discipline;
+- when a typed declaration block, formal lens, or other compact modeling material is FPF-governed, a short user-facing statement of what kind of object the pattern is governing and what minimal lens keeps that object reviewable;
+- pairwise plain glosses for any FPF-governed technical terms that must appear before the heavier declaration role arrives;
+- when `SoTA-Echoing` is carrying live explanatory work, a short working-reader implication for each row or cluster of rows and a visible link back to the case bank or worked slices that those rows discipline;
 - a visible split between the recognition text and the heavier assurance text or companion material;
 - and, if the draft implicitly serves several working-reader situations, an explicit primary working reader, primary concern, or primary viewpoint.
 
@@ -313,7 +313,7 @@ rather than becoming a local catalogue row.
 The local recognition signature should make recoverable:
 
 - the concrete working situation;
-- the governed object or stabilized concern;
+- the primary `EntityOfConcern`, exact relation, claim record, or stabilized concern;
 - what goes wrong if the pattern is missed or misread;
 - the first admissible action-guiding move and what that move buys;
 - the ordinary not-this-pattern boundary;
@@ -334,7 +334,7 @@ At minimum the recognition text should show at least three heterogeneous reader 
 When a compact matrix helps, `F.16` is the preferred template for making that breadth legible.
 
 This is not a request to flatten the pattern into plain language only.
-It is a rule about ordering, layering, and text consistency: the recognition text must help a working reader recognise the pattern early, while the assurance text continues to carry the full claim force.
+It is a rule about ordering, assurance depth, and text consistency: the recognition text must help a working reader recognise the pattern early, while the assurance text continues to carry the full claim kind or admissible-use boundary.
 If the pattern uses technical lexicon, ontological distinctions, or a mathematical lens, those structures must remain recoverable, but the first-reading text should not require the reader to decode that full stack before recognising the working situation.
 The assurance text may tighten or discipline the recognition text; it must not silently shift what the recognition text claimed.
 
@@ -376,5 +376,5 @@ If a pattern or example claims **autonomy** for any Role/Method/Service:
    * pointer to where **Green‑Gate** applies in the Method steps,
    * where **AutonomyLedgerEntry** is recorded on `U.Work`.
 2) Include one **Tell‑Show‑Show** vignette that demonstrates **depletion** and **override** handling.
-3) Use **LEX‑BUNDLE** terms (Scope (G), Γ_time, Role/Method/Work). Avoid “validity”, “process”, “actor”, “system”, “mechanism” unless mapped to kernel types.
+3) Use **LEX‑BUNDLE** terms (Scope (G), Γ_time, Role, Method, and Work). Avoid “validity”, “process”, “actor”, “system”, “mechanism” unless mapped to kernel types.
 

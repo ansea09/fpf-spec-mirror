@@ -6,12 +6,12 @@ section_id: "F.16:16"
 section_title: "Teaching variants (all obey §6 invariants)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__017_teaching-variants-all-obey-6-invariants.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:16 — Teaching variants (all obey §6 invariants)"
-line_start: 74162
-line_end: 74169
+line_start: 74757
+line_end: 74763
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -32,5 +32,4 @@ keywords:
 * **Triangulation.** 1 row, 3 Contexts; typical for *measurement ↔ service ↔ execution*.
 * **Disjointness lesson.** No row; one **β (disjoint)** plus a short SoD story.
 * **Window primer.** Same sense across Contexts but different default windows; the page is about the **window choice**, not the term.
-
 

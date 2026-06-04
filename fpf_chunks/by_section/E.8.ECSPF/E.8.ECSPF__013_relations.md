@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:12 — Relations"
-line_start: 55781
-line_end: 55795
+line_start: 56888
+line_end: 56902
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -38,5 +38,5 @@ keywords:
 | `E.9.DA`, `E.2.DA`, `F.18`, `C.25` | Existing or candidate evaluations that may use this authoring specialization when their publication-form is being written or refreshed. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `A.15` | Govern evidence, assurance, gate, decision, and work claims when an evaluation result is reused for those purposes. |
 | `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD archive, novelty, diversity, pool, selected-set, parity, and refresh claims. |
-| `C.29` | Governs mathematical-lens adequacy when a mathematical structure defines or justifies coordinate choice. |
+| `C.29` | Governs mathematical-lens use when a mathematical structure defines or justifies coordinate choice. |
 

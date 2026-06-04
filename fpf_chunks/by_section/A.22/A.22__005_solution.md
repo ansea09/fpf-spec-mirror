@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 27860
-line_end: 28067
+line_start: 28068
+line_end: 28287
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,10 +33,12 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -48,8 +50,8 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture-description claim"
-  - "preserved/lost structure"
+  - "architecture-description boundary"
+  - "preserved and lost structure"
   - "selected structure"
   - "source return"
   - "structural description"
@@ -59,18 +61,30 @@ keywords:
 
 ### A.22:4 - Solution
 
-Select `candidate:U.Structure` as a dependent, non-agentive intensional object:
+Select `U.Structure` as a dependent, non-agentive EntityOfConcern:
 
-> `candidate:U.Structure` is the organization of typed relations, constraints, invariants, variation classes, and admissible references to operation or dynamics descriptions over a declared substrate, or declared A.6.6 base declaration when base-dependence is live, inside a bounded context and admissible-use frame.
+> `U.Structure` is the organization of typed relations, constraints, invariants, variation classes, and admissible references to operation or dynamics descriptions over a declared substrate, or declared A.6.6 base declaration when base-dependence is live, inside a bounded context and admissible-use frame.
 
-`candidate:U.Structure` is not the described entity, grounding holon, source, evidence path, lens output, simulation, generated representation, or declared substrate itself, not a `U.Holon` by default, not Work, not Evidence, not Gate, not Decision, not Architecture, and not a mathematical lens. It does not act, optimize, prove, warrant, or decide. Claims about a structure are carried by `U.Episteme`, `U.View`, evidence, publication, decision, or exact evidence, assurance, causal, gate, decision, publication, base-declaration, source-description, or lens records. Descriptions and views of structure are D/S epistemes under I/D/S, not the structure itself.
+The first useful A.22 move is about the selected structure itself: name the bounded context, selected structure, relation, constraint, invariant, variation class, operation or dynamics reference that matters, preserved or lost organization, and the source-return condition or neighboring-pattern exit needed for work. Description records, views, publications, diagrams, and carriers open only as aids that make that structure move inspectable, reusable, comparable, or safe to rely on; they do not share the center of the Solution.
 
-A.22 governs `candidate:U.Structure` as a dependent, non-agentive intensional object and the D/S descriptions and views that describe selected structure in one bounded context. It governs structure carriers, structure-claim reliance readings, structural descriptions, structural views, extracted structural views, structural-aspect descriptions, structural-coarsening descriptions, and structure-general source-return conditions. It does not govern architecture descriptions directly; `C.30` and its subpatterns govern architecture as a use of selected structure over a described holon.
+`U.Structure` may fill `EntityOfConcern` for a structure description, view, or structure-claim relation. Generic description and publication-use guards belong in the boundary section below, not in the selected-structure definition.
 
-#### A.22:4.1 - Structure carrier
+**EntityOfConcern bridge.** In A.22, "EntityOfConcern" names the mode in which selected structure is treated: dependent, non-agentive, claim-bearing through descriptions or views when those are live, and not reducible to one physical part or one publication. It is not a second EntityOfConcern head beside `EntityOfConcern`. When a structure description or view is live, `DescriptionContext.EntityOfConcernRef` names the selected structure, structure claim, or exact receiving-pattern relation for that use; publication faces, forms, units, carriers, and renderings only make the episteme or view available.
+
+A.22 governs `U.Structure` as a dependent, non-agentive EntityOfConcern. It works first over selected-structure EntityOfConcern records and structure-claim reliance relations. Structural descriptions, structural views, extracted structural views, structural-aspect descriptions, structural-coarsening descriptions, and structure-general source-return conditions are subordinate record forms used only when they preserve the selected-structure move, expose loss, enable comparison, or state a reliance boundary. A.22 does not govern architecture descriptions directly; `C.30` and its subpatterns govern architecture as a use of selected structure over a described holon.
+
+#### A.22:4.A - Auxiliary description and publication-use boundary
+
+This subsection is the A.22 auxiliary description and publication-use boundary. It protects the selected structure from description, publication, and source overread without turning A.22 into a general pattern about descriptions.
+
+`U.Structure` is not the grounding holon, source, evidence path, lens output, simulation, generated representation, declared substrate itself, `U.Holon` by default, `U.Work`, evidence record, gate decision, project decision, architecture claim, or mathematical lens. It does not act, optimize, prove, warrant, authorize, promise, prescribe, decide, or release. When one of those publication-use or project-side claims is live, the A.22 text names the exact receiving pattern: evidence, assurance, causal, gate, decision, publication, work, base-declaration, source-description, lens, architecture-description, or mathematical-lens use. A.22 keeps only the structure portion and the source-return condition that protects the structure use.
+
+Descriptions and views of structure are Description epistemes and specification-use cases under the EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline, not the structure itself. A publication, diagram, graph, table, dashboard, file, carrier, model card, or generated representation can make a structural description or view available, but it does not become the selected structure or supply evidence, assurance, gate, decision, work, release, or authority claim by appearance.
+
+#### A.22:4.1 - Selected Structure Object
 
 ```text
-candidate:U.Structure ::= {
+U.Structure ::= {
   structureId,
   declaredStructureSubstrateRef:
     U.EntityRef | U.HolonRef | U.EpistemeRef | DeclaredSubstrateRef,
@@ -105,32 +119,32 @@ The field list is a recovery aid, not a demand to fill every field. The ordinary
 
 A.22 `generalStructureAspectKindRefs` are general structure-aspect cues. C.30.ASV `ArchitectureStructureKindRef` values are architecture-local structure-kind classifiers for structures selected by `ArchitectureOf@Context`. A matching label does not imply identity. Use a declared mapping when an A.22 aspect is used as an architecture structure kind.
 
-#### A.22:4.2 - Structure claim reliance readings
+#### A.22:4.2 - Structure claim reliance relation selection
 
-A.22 does not mint a local support-headed or basis-headed relation record. When a structure claim relies on something beyond the selected structure itself, choose the exact reliance reading and governing pattern:
+A.22 does not mint a local support-headed or basis-headed relation record. When a structure claim relies on something beyond the selected structure itself, choose the exact reliance relation kind and governing pattern:
 
-| Live reliance reading | What is named | Governing ontology to apply |
+| Live reliance relation kind | What is named | Governing ontology to apply |
 | --- | --- | --- |
-| Source-description relation | source episteme, source view, publication or carrier where relevant, described structure or structure claim, source pins or source-return condition, admissible and non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source/publication rules |
-| Base-dependence / basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, live `Γ_time`, live witnesses, admissible and non-admissible use | `A.6.6` SWBD or Context-local SWBD specialization |
-| Described-entity or grounding-holon grounding | described entity, `GroundingHolonSlot` when live, bounded context, viewpoint, reference plane, observation or witness condition if live | `C.2.1`, `A.6.4`, `A.6.3.RT`, `A.6.6` only if it is a base-dependence claim |
-| Evidence or witness reliance | evidence path, evidence role, claim ref, witness carrier, timespan/freshness | `A.10`, `A.2.4`, `G.6` |
-| Mathematical-lens reliance | lens candidate/card/profile, governed object, preserved/lost structure, stop condition, lens adequacy or lens-use posture | `C.29`, `C.26`, `F.9`, named mathematical-lens pattern |
-| Simulation, generated representation, model, or extracted trace | source or representation publication, extraction method, validation boundary, preserved/lost structure, source-return condition | source-description/D/S patterns plus `C.29`, `A.10`, or exact governing pattern when their claim kind is live |
+| Source-description relation | source episteme, source view, publication or carrier where relevant, described structure or structure claim, source pins or source-return condition, admissible and non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source-publication rules |
+| Base-dependence or basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, live `Γ_time`, live witnesses, admissible and non-admissible use | `A.6.6` SWBD or Context-local SWBD specialization |
+| EntityOfConcern or grounding-holon grounding | selected EntityOfConcern, `GroundingHolonSlot` when live, bounded context, viewpoint, reference plane, observation or witness condition if live | `C.2.1`, `A.6.4`, `A.6.3.RT`, `A.6.6` only if it is a base-dependence claim |
+| Evidence or witness reliance | evidence path, evidence role, claim ref, witness carrier, timespan and freshness | `A.10`, `A.2.4`, `G.6` |
+| Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; exact relation record or claim record when live; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseAdmissibilityValue` | `C.29`, `C.26`, `F.9`, named mathematical-lens pattern |
+| Simulation, generated representation, model, or extracted trace | source or representation publication, extraction method, validation boundary, preserved structure, lost structure, source-return condition | source-description and Description-context patterns plus `C.29`, `A.10`, or exact governing pattern when their claim kind is live |
 
-If no reading can be selected, keep the material as source-finding, recognition, ordinary help, quote-only wording, or reduced-use cue. Do not create a support-headed or basis-headed record to make the claim look governed.
+If no reliance relation kind can be selected, keep the material as source-finding, recognition, ordinary help, quote-only wording, or reduced-use cue. Do not create a support-headed or basis-headed record to make the claim look governed.
 
-`candidate:U.Structure` does not carry description, representation, extraction, mathematical-lens, simulation, support, or basis postures as internal structure postures. Those are source-description, base-dependence, evidence, lens, extraction, simulation, or publication relations about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence path, SWBD, or lens output.
-#### A.22:4.3 - D/S structural descriptions and views
+`U.Structure` does not carry description, representation, extraction, mathematical-lens, simulation, support, or basis-headed state as an internal structure field. Those are source-description, base-dependence, evidence, lens, extraction, simulation, or publication relations about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence path, SWBD, or lens output.
+#### A.22:4.3 - Structural descriptions and views
 
 Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, carriers, or source-pin sets. Every record whose name ends in `Description@Context` here is a specialization of existing `U.Episteme` governed by `C.2.1` and `E.10.D2`. Every record whose name ends in `View@Context` here is a specialization of existing `U.View` or `U.EpistemicViewing` governed by `A.6.3` and `E.17.0`. `DescriptionContext` is imported, not locally redefined.
 
 ```text
 StructuralDescription@Context ::= {
   descriptionId,
-  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
-  structureRefs: FinSet(candidate:U.StructureRef),
-  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidencePathRef | C29LensOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  structureRefs: FinSet(U.StructureRef),
+  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidencePathRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
   describingEpistemeRef,
   admissibleUse,
   nonAdmissibleUse
@@ -138,8 +152,8 @@ StructuralDescription@Context ::= {
 
 StructuralView@Context ::= {
   viewId,
-  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
-  structureRefs: FinSet(candidate:U.StructureRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  structureRefs: FinSet(U.StructureRef),
   structuralAspectDescriptionRefs?,
   selectedRelationsOrOperations,
   hiddenOrLostStructure,
@@ -152,14 +166,14 @@ StructuralView@Context ::= {
 
 #### A.22:4.4 - Extracted and transformed structural views
 
-Use extracted or transformed structure records when a corpus, trace, model, lens, simulation, generated representation, coarsening pass, or observer/budget boundary produces a view of structure that may hide distinctions.
+Use extracted or transformed structure records when a corpus, trace, model, lens, simulation, generated representation, coarsening pass, observer boundary, or budget boundary produces a view of structure that may hide distinctions.
 
 ```text
 ExtractedStructuralView@Context ::= {
   extractedViewId,
-  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
   sourceCorpusOrTraceRefs,
-  structureRefs: FinSet(candidate:U.StructureRef),
+  structureRefs: FinSet(U.StructureRef),
   extractionDescriptionRef,
   preservedStructure,
   lostStructure,
@@ -171,7 +185,7 @@ ExtractedStructuralView@Context ::= {
 
 StructureExtractionDescription@Context ::= {
   extractionDescriptionId,
-  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
   sourceInputKind,
   lensOrMethodRef,
   budgetOrObserverBoundary?,
@@ -185,19 +199,19 @@ StructureExtractionDescription@Context ::= {
 
 StructuralAspectDescription@Context ::= {
   aspectDescriptionId,
-  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
   aspectKindRef,
-  structureRefs: FinSet(candidate:U.StructureRef),
-  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidencePathRef | C29LensOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
+  structureRefs: FinSet(U.StructureRef),
+  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidencePathRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
   admissibleUse,
   nonAdmissibleUse
 }
 
 StructuralCoarseningDescription@Context ::= {
   coarseningDescriptionId,
-  descriptionContext: DescriptionContext(DescribedEntityRef, BoundedContextRef, ViewpointRef),
-  sourceStructureRefs: FinSet(candidate:U.StructureRef),
-  targetStructureRefs: FinSet(candidate:U.StructureRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  sourceStructureRefs: FinSet(U.StructureRef),
+  resultStructureRefs: FinSet(U.StructureRef),
   preservedUnder,
   brokenBy,
   lostStructure,
@@ -226,14 +240,14 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 
 | Tempting collapse | A.22 repair |
 | --- | --- |
-| The reliance reading is treated as the structure. | Name `declaredStructureSubstrateRef` and, when source, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is live, name the exact governing ontology or exact FPF pattern application; keep structure as selected organization over the declared substrate and do not turn that reliance reading into structure. |
-| The diagram, graph, table, dashboard, or carrier is the structure. | Treat it as publication, description, view, carrier, or source/base/evidence/lens reading only when its relation is explicit. |
+| The reliance relation is treated as the structure. | Name `declaredStructureSubstrateRef` and, when source, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is live, name the exact governing ontology or exact FPF pattern application; keep structure as selected organization over the declared substrate and do not turn that reliance relation into structure. |
+| The diagram, graph, table, dashboard, or carrier is the structure. | Treat it as publication, description, view, carrier, source-description relation, base-dependence relation, grounding relation, evidence relation, lens relation, simulation relation, extraction relation, or representation relation only when its relation is explicit. |
 | A TGA graph is the structure in every sense. | Use `E.18` for graph, path, crossing, and flow valuation; use A.22 only for the selected structure claim; use `C.30.TGA-FLOW-REL` when architecture-flow description is live. |
-| A mathematical lens output is the structure. | Use `C.29` for lens adequacy and cite `C29LensOutputRef` only through C.29 lens adequacy, preserved/lost structure, and stop-condition discipline. |
+| A mathematical lens output is the structure. | Use `C.29` for lens-use result and admissibility, and cite `MathLensUseOutputRef` only through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
 | A structure proves evidence, assurance, safety, causality, or gate passage. | Assign those claims to `A.10`, `G.6`, `B.3`, `C.28`, `A.20`, or `A.21`. |
 | A structure is a decision or work record. | Use `C.11`, `A.20`, `A.21`, `A.15`, or the project-side decision pattern that governs the live claim. |
 | Architecture is a root kind beside structure. | Use `C.30`: architecture is selected structure for a described holon through `ArchitectureOf@Context`. |
-| Function, module, interface, platform, layer, or stack becomes a root kind by appearing in structure prose. | Use `A.6.F`, the exact module/interface repair pattern when that claim kind is live, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `E.18`, `C.30.ASV`, and exact governing patterns as triggered. |
+| Function, module, interface, platform, layer, stack, block, expert, cache, router, or gate becomes a root kind by appearing in structure prose. | Use `C.30.STRAT` for source-label recovery, then `A.6.F`, `A.6.M` module-relation repair when a module-interface claim is live, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `E.18`, `C.30.ASV`, and exact governing patterns as triggered. |
 
 #### A.22:4.8 - Worked slices
 
@@ -241,18 +255,18 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 
 ```text
 declaredStructureSubstrateRef: TransductionGraphRef under E.18
-candidate structure: selected flow/transduction structure
-structure-claim reliance reading: exact governing ontology as live(
-  sourceDescriptionOrPatternApplicationRef = SourceViewRef or E18 graph/path/crossing record,
-  governingPatternRef = E.18 or A.6.6/A.10/C.29 as live,
-  relationReading = source-description | base-dependence | evidence | lens, as live,
-  validationBoundary = path/slice/crossing currentness boundary
+candidate structure: selected flow structure or selected transduction structure
+structure-claim reliance relation: exact governing ontology as live(
+  sourceDescriptionOrPatternApplicationRef = SourceViewRef or E.18 graph, path, or crossing record,
+  governingPatternRef = E.18, A.6.6, A.10, or C.29 as live,
+  relationKind = source-description | base-dependence | evidence | lens, as live,
+  validationBoundary = path currentness boundary, slice currentness boundary, or crossing currentness boundary
 )
 next exact FPF pattern application: C.30.TGA-FLOW-REL when this selected structure is used in an architecture-flow description
 non-admissible use: graph as whole architecture, work, evidence, gate, or decision
 ```
 
-The useful move survives: the practitioner can use the graph as a governed reliance reading for selected flow structure without turning it into architecture ontology.
+The useful move survives: the practitioner can use the graph as a governed reliance relation for selected flow structure without turning it into architecture ontology.
 
 **Extracted code structure slice.** A code-agent relation graph or probe JSON reports imports, calls, registry wiring, and data-flow links. A.22 treats it as an extracted structural view only when the source, extraction method, preserved structure, lost structure, validation boundary, and source-return condition are named. The relation graph or probe output is not the codebase architecture itself and is not proof of internal agent belief, assurance, or release readiness.
 

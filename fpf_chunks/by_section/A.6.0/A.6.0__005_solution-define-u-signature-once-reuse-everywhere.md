@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution — Define U.Signature once, reuse everywhere"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution-define-u-signature-once-reuse-everywhere.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:4 — Solution — Define U.Signature once, reuse everywhere"
-line_start: 8834
-line_end: 8996
+line_start: 8692
+line_end: 8854
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -64,7 +64,7 @@ Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names a
    **Editorial split (allowed).** Authors **MAY** render the **SubjectBlock** as two adjacent lines — **Subject** *(SubjectKind, BaseType)* and **Quantification** *(SliceSet, ExtentRule, ResultKind?)* — **without changing semantics**. Even when visually split, SubjectBlock counts as **one** conceptual row.
 
    **Semantic roles of the SubjectBlock kinds (informative)**
-   * **SubjectKind (intent).** The intensional “describedEntity” of the signature (C.3.1), ordered by `⊑`. It carries no Scope.
+   * **SubjectKind (intent).** The intensional “entityOfConcern” of the signature (C.3.1), ordered by `⊑`. It carries no Scope.
    * **BaseType (carrier).** The `U.Type` over which values/objects are ranged. In CHR regimes this may be a `U.CharacteristicSpace` **type**; elsewhere it is a set‑typed `U.Type`.
    * **SliceSet (addressability).** The addressable set of `U.ContextSlice`s (USM). It identifies where **extent** is computed; it is not a “space” unless CHR.
    * **ExtentRule (extent).** A rule yielding `Extension(SubjectKind, slice)` (C.3.2); this is the quantifier’s domain, computed per slice.
@@ -101,7 +101,7 @@ where:
 Full discipline and lexical rules for **SlotKind/ValueKind/RefKind** are given in A.6.5 `U.RelationSlotDiscipline` and E.10 (§8.1). A.6.0 requires that every vocabulary‑level relation or operator that takes arguments **declare** these SlotSpecs; downstream patterns MAY provide templates for common shapes (e.g., episteme slots in C.2.1).
 
 **Mini‑example (informative).** For an episteme kind `ModelEvaluationResultKind`, a simplified episteme might expose:
-* `describedEntityRef : U.MethodRef`
+* `entityOfConcernRef : U.MethodRef`
 * `datasetRef : U.EntityRef`
 * `metricRef : U.CharacteristicRef`
 * `groundingHolonRef : U.HolonRef`
@@ -111,13 +111,13 @@ An authorial SlotSpec table then reads:
 
 | Parameter (episteme field)   | SlotKind              | ValueKind          | refMode                |
 | ---------------------- | --------------------- | ------------------ | ---------------------- |
-| `describedEntityRef`   | `DescribedEntitySlot` | `U.Method`         | `U.MethodRef`          |
+| `entityOfConcernRef`   | `EntityOfConcernSlot` | `U.Method`         | `U.MethodRef`          |
 | `datasetRef`           | `DatasetSlot`         | `U.Entity`         | `U.EntityRef`          |
 | `metricRef`            | `MetricSlot`          | `U.Characteristic` | `U.CharacteristicRef`  |
 | `groundingHolonRef`    | `GroundingHolonSlot`  | `U.Holon`          | `U.HolonRef`           |
 | `claimGraph`           | `ClaimGraphSlot`      | `U.ClaimGraph`     | `ByValue`              |
 
-This example illustrates the intended reading: **parameters are typed twice**—once by their **ValueKind** (what sort of thing occupies the position) and once by **refMode** (by‑value or which RefKind). SlotKinds (with `…Slot` suffix) give stable names for substitution laws and describedEntity statements across patterns.
+This example illustrates the intended reading: **parameters are typed twice**—once by their **ValueKind** (what sort of thing occupies the position) and once by **refMode** (by‑value or which RefKind). SlotKinds (with `…Slot` suffix) give stable names for substitution laws and entityOfConcern statements across patterns.
 
 #### A.6.0:4.2 - Profile specialisations (normative; structure‑preserving)
 To enable first‑principles layers without minting new Kernel kinds, apply **profiles** to `U.Signature`:
@@ -141,9 +141,9 @@ To enable first‑principles layers without minting new Kernel kinds, apply **pr
 
 If a Signature’s **Vocabulary** includes an **EffectDiscipline** (operation/effect signatures), the Signature **SHALL NOT** declare **handler semantics** or any **EffectRealization**. Such realizations are authored only under **A.6.1 `U.Mechanism`** and cited by **ref‑id** on faces where needed. This mirrors the modern algebraic‑effects separation between *operation signatures* and *handlers* while keeping A.6.0 purely conceptual.
 
-#### A.6.0:4.4 - Authoring rules (I/D/S‑aware; lexically disciplined)
+#### A.6.0:4.4 - Authoring rules (strict-distinction-aware; lexically disciplined)
 
-* **I/D/S separation.** A signature **states intension and laws**; Realizations (if any) carry **specifications**. Do not mix tutorial text or operational recipes into the Block. Do **not** include **AdmissibilityConditions** or run‑time admissions here.
+* **EntityOfConcern / Description / specification-use separation.** A signature states the subject kind and laws; Realizations (if any) carry specification-use constraints. Do not mix tutorial text or operational recipes into the Block. Do **not** include **AdmissibilityConditions** or run‑time admissions here.
 * **Context discipline.** Bind Applicability to a **`U.BoundedContext`**. If cross‑context use is intended, **name** the crossing and **reference** the Bridge (Part F/B); A.6.0 does **not** prescribe **compatibility/loss tables (CL, including `CL^plane`)** or penalty formulas.
 * **Stratification.** Use LEX‑BUNDLE registers and strata; do not redefine Kernel names in lower strata (no cross‑bleed).
 * **Signature manifest.** If the signature is intended to be imported/reused, publish a `SignatureManifest` immediately above the Block with explicit `id`, `imports`, and `provides` lists (§4.4.1). Keep the universal four‑row Block free of dependency/export metadata.

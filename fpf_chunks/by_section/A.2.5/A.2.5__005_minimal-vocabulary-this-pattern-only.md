@@ -6,12 +6,12 @@ section_id: "A.2.5:4"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__005_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:4 — Minimal vocabulary (this pattern only)"
-line_start: 3447
-line_end: 3465
+line_start: 3407
+line_end: 3424
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -31,7 +31,7 @@ keywords:
 
 ### A.2.5:4 - Minimal vocabulary (this pattern only)
 
-* **`U.RoleStateGraph` (RSG).** Intensional object *owned by* `(Role, Context)`. Finite set of named **States** and typed **Transitions** with guards.
+* **`U.RoleStateGraph` (RSG).** `U.RoleStateGraph` owned by `(Role, Context)`. Finite set of named **States** and typed **Transitions** with guards.
 * **RSG.State.** Intensional **named place**. Properties:
 
   * `enactable ∈ {true,false}` — whether being in this state authorizes enactment of steps that require this role.
@@ -46,5 +46,4 @@ keywords:
 >
 > * **RSG** and its **States** are **intensionals** (what the role *is allowed to be*).
 > * **Checklists** and **StateAssertions** are **descriptions/evaluations** (how we *know* a specific holder *is* in that state now).
-
 

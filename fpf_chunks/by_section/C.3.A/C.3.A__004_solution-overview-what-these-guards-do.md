@@ -6,12 +6,12 @@ section_id: "C.3.A:3"
 section_title: "Solution Overview (what these guards do)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__004_solution-overview-what-these-guards-do.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:3 — Solution Overview (what these guards do)"
-line_start: 38626
-line_end: 38637
+line_start: 38605
+line_end: 38615
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -34,5 +34,4 @@ All guards in this Annex share three invariants:
    *Typed compatibility* (same‑Context `⊑` or **KindBridge**) is **not** Scope.
    *Scope coverage* is a USM set‑membership judgment over **Context slices**.
    *Assurance penalties* (**Φ(CL)** for scope bridges; **Ψ(`CL^k`)** for kind bridges) reduce **R** only.
-
 

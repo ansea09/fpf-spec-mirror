@@ -6,12 +6,12 @@ section_id: "A.4:4"
 section_title: "Solution - Temporal Duality Model"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__005_solution-temporal-duality-model.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:4 — Solution - Temporal Duality Model"
-line_start: 6675
-line_end: 6707
+line_start: 6557
+line_end: 6588
 dependencies:
   - "B.4"
 keywords:
@@ -54,5 +54,4 @@ An **External Transformer** (`U.System` playing `transformerRole ⊑ Transformer
 executes a **measurement method** whose *output* is an epistemic holon
 containing observations.  Thus the traditional “External Observer Pattern” collapses into
 the universal external Transformer pattern.
-
 

@@ -6,12 +6,12 @@ section_id: "A.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:2 — Problem"
-line_start: 18139
-line_end: 18150
+line_start: 18217
+line_end: 18228
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,7 +53,7 @@ keywords:
 
 ### A.10:2 - Problem
 
-Without a uniform anchor, models drift into five failure modes:
+Without a uniform evidence path, models drift into five failure modes:
 
 1. **Weightless claims.** Metrics or arguments appear in the model with no link to their **symbol carriers** (files, datasets, lab notebooks, figures).
 2. **Collapsed scopes.** Design‑time method specs are silently mixed with run‑time traces; results cannot be reproduced because “what was planned” and “what actually ran” are conflated.

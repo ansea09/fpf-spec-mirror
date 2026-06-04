@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.1.1 — U.BoundedContext: The Semantic Frame"
-line_start: 1314
-line_end: 1514
+line_start: 1316
+line_end: 1515
 dependencies:
   - "A.1"
   - "A.2.1"
@@ -166,7 +166,7 @@ To ensure `U.BoundedContext` is used consistently and rigorously, the following 
 
 These failure modes recur when applying `U.BoundedContext` in real programs and knowledge work.
 
-| Anti-pattern | Symptom | Why it fails (force violated) | How to avoid / repair |
+| Anti-pattern | Symptom | Why it fails | How to avoid / repair |
 | :--- | :--- | :--- | :--- |
 | **Domain-as-Context** | “Healthcare” or “Physics” is used where a specific context is required. | Violates Domain-family convenience vs precision; meaning stays ambiguous. | Use a specific context id (edition- and source-scoped), and keep the domain label as informative family metadata only. |
 | **Implicit equivalence across contexts** | The same string in two contexts is treated as “obviously the same”. | Violates local coherence; creates silent semantic overwrites. | Publish an explicit Bridge with relation kind and loss/fit note (F.9 / E.10.U9). |
@@ -230,5 +230,4 @@ The `U.BoundedContext` concept aligns well with contemporary (post‑2015) pract
 *   **Enables:** The resolution of conflicts as modeled in `D.3 Holonic Conflict Topology`, by showing that many conflicts are context-dependent.
 
 ### A.1.1:End
-
 

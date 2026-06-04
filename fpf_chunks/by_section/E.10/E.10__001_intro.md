@@ -6,12 +6,12 @@ section_id: "E.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:intro — Intro"
-line_start: 56620
-line_end: 56627
+line_start: 57712
+line_end: 57719
 dependencies:
   - "A.10"
   - "A.15"
@@ -34,8 +34,8 @@ keywords:
 ## E.10 - Unified Lexical Rules for FPF (LEX‑BUNDLE)
 *Definitional pattern; normative for all FPF pattern text and for any Context that claims FPF conformance.*
 
-**Status & placement.** Part E.10 (“Lexical Discipline & Stratification”); complements **E.10.D1 (D.CTX)**, **E.10.D2 (I/D/S)**, the **DesignRunTag / CtxState boundary discipline** (**A.15**; **E.18**), `E.10.ARCH` wording-use restoration architecture, `A.6.P` relation precision restoration, `C.2.P` epistemic precision restoration, and `F.18` local-first naming. `E.10:0.2` is the shared lexical trigger scan. The detailed LEX sections below supply register, naming, morphology, and local rewrite checks only for the selected live problem; they are not a second trigger registry and do not replace `E.10.ARCH`, the selected precision-restoration realization patterns, exact receiving patterns, or `F.18`.
+**Status & placement.** Part E.10 (“Lexical Discipline & Stratification”); complements **E.10.D1 (D.CTX)**, **E.10.D2 (EntityOfConcern and Description-episteme boundary and specification-use gates)**, the **DesignRunTag and CtxState boundary discipline** (**A.15**; **E.18**), `E.10.ARCH` wording-use restoration architecture, `A.6.P` relation precision restoration, `C.2.P` epistemic precision restoration, `A.19.SPR` state-family precision restoration, and `F.18` local-first naming. `E.10:0.2` is the shared lexical trigger scan. The detailed LEX sections below supply register, naming, morphology, and local rewrite checks only for the selected live problem; they are not a second trigger registry and do not replace `E.10.ARCH`, the selected precision-restoration realization patterns, exact receiving patterns, or `F.18`.
 
 **Builds on:** A.7 **Strict Distinction (Clarity Lattice)**; E.5 Guard‑Rails (DevOps Lexical Firewall; Notational Independence; Unidirectional Dependency); F.5 **Naming Discipline for U.Types & Roles**.
-**Coordinates with.** A.2/A.15 (Role–Method–Work alignment), A.10 (Evidence Graph Referring), B.1/B.3 (Γ‑algebras & assurance), F‑cluster (context of meaning; Bridges).
+**Coordinates with.** A.2 and A.15 (Role–Method–Work alignment), A.10 (Evidence Graph Referring), B.1 and B.3 (Γ‑algebras & assurance), F‑cluster (context of meaning; Bridges).
 

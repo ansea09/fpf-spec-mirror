@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:6 — Bias-Annotation"
-line_start: 63602
-line_end: 63610
+line_start: 64477
+line_end: 64485
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -44,6 +44,6 @@ Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
 Scope: **bounded comparative review units governed under the `ComparativeReading` governing pattern inside `InterpretationDiscipline`**, not a universal claim about all review or publication forms.
 
 This pattern intentionally biases toward bounded comparative reading and away from hidden bridge inflation, explanation laundering, ontology shift, action-selection pressure, and hidden policy, assurance, gate, release, or adjudication claims.
-The main mitigations are explicit primary-governing-pattern naming, visible source anchors, explicit interpretant-side boundedness, explicit unsupported downstream claim or effect, explicit governed-object surfacing, and hard boundaries to bridge, abductive-prompt, ontology-reframing, retargeting, policy, assurance, gate, release, action-selection, and adjudication patterns.
+The main mitigations are explicit primary-governing-pattern naming, visible source references, explicit interpretant-side boundedness, explicit unsupported downstream claim or effect, explicit comparison-unit surfacing, and hard boundaries to bridge, abductive-prompt, ontology-reframing, retargeting, policy, assurance, gate, release, action-selection, and adjudication patterns.
 Under the governance lens, the pattern is deliberately conservative: it helps a user prepare or review a bounded comparative review unit without letting that unit quietly become policy, assurance, gate, or action authority.
 

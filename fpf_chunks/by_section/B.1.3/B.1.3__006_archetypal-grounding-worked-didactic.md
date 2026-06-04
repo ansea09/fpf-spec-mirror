@@ -6,12 +6,12 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:5 — Archetypal grounding (worked, didactic)"
-line_start: 28983
-line_end: 29030
+line_start: 29165
+line_end: 29209
 dependencies:
   - "A.1"
   - "A.12"
@@ -52,7 +52,6 @@ keywords:
 * **Why not averaging?**
   Averaging would inflate `R` and hide low‑CL outcome mappings; Γ\_epist enforces pathwise **min** + **CL** penalty.
 
-
 #### B.1.3:5.2 - Episteme — **Safety case from heterogeneous evidence**
 
 * **Inputs:** requirement spec (F=3, R=0.7), hazard analysis (F=2, R=0.6), test logs (F=1, R=0.8), formal proof of controller property (F=3, R=0.9).
@@ -66,7 +65,6 @@ keywords:
 * **Γ\_epist^compile (certification context):**
   Context re‑base to regulatory vocabulary; if the re‑base changes objective/boundary (e.g., from internal assurance to public certification), consider **MHT (Context Reframe)** per B.2.
 
-
 #### B.1.3:5.3 - Contrast (didactic)
 
 | Aspect          | **Γ\_epist (Knowledge)**                                         | **Γ\_sys (Physical)**                       |
@@ -76,5 +74,4 @@ keywords:
 | Fit             | **Mappings** with declared **CL**                                | **Interfaces/BIC** compatibility             |
 | Order/time      | Optional **Γ\_ctx** for argument order; **Γ\_time** for versions | Γ\_ctx for workflows; Γ\_time for phases     |
 | Work/cost       | External in **Γ\_work** (compute, curation)                      | External in **Γ\_work** (energy, labour)     |
-
 

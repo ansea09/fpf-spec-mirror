@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
-line_start: 28155
-line_end: 28328
+line_start: 28373
+line_end: 28540
 dependencies:
   - "A.1"
   - "A.9"
@@ -35,7 +35,6 @@ keywords:
 
 FPF views reality as a **nested holarchy**: parts -> assemblies -> systems -> ecosystems; axioms -> lemmas -> theories -> paradigms (this is only example; the exact holarchy of holons is project-dependent). Each level is a **`U.Holon`** that becomes part of a wider holon only **after** an explicit act of construction has glued the parts together. That act is performed by a physical *Transformer* playing `TransformerRole` executing a method over an explicit **Dependency Graph**. Without a domain-neutral *law of composition* binding these moves, the logical relation between scales would break, violating the core rule **Cross-Scale Consistency**.
 
-
 ### B.1:2 - Problem
 
 If each discipline (or project team) invents its own way of “adding things up”, four lethal pathologies appear:
@@ -47,7 +46,6 @@ If each discipline (or project team) invents its own way of “adding things up�
 
 All four are witnessed in post‑2015 incidents, from micro‑service outages to meta‑analysis retractions.
 
-
 ### B.1:3 -  Forces
 
 | Force                           | Tension                                                                                    |   |
@@ -57,7 +55,6 @@ All four are witnessed in post‑2015 incidents, from micro‑service outages to
 | **Safety vs Synergy**           | Conservative *Weakest‑Link* bound ↔ modelling genuine redundancy wins.                     |   |
 | **Simplicity vs Fidelity**      | Five rules managers can remember ↔ enough depth for formal proof.                          |   |
 | **Auditability vs Overhead**    | Machine‑checkable Standard ↔ authors must show their invariants.                           |   |
-
 
 ### B.1:4 - Solution — **The Invariant Quintet Standard**
 
@@ -149,7 +146,6 @@ The core signature of Γ never changes, but each discipline supplies a **flavour
 
 *COMM* holds only across non‑overlapping windows; *LOC* is waived because regional sensors differ in latency.  Additional TS‑1/TS‑2 rules ensure gaps are filled before aggregation.  Engineers iterate locally yet obtain one coherent five‑year projection.
 
-
 ### B.1:7 - Conformance Checklist (for pattern adopters)
 
 | ID       | Check                                        | How to demonstrate (engineer‑manager view)                      | Typical evidence carrier                    |
@@ -162,7 +158,6 @@ The core signature of Γ never changes, but each discipline supplies a **flavour
 
 A proposal that skips any line of the checklist **fails** pattern B.1 and must iterate before peer review.
 
-
 ### B.1:8 - Consequences
 
 | Benefit (managerial)                                     | Pay‑off path          | Trade‑off                       | Mitigation                            |
@@ -171,7 +166,6 @@ A proposal that skips any line of the checklist **fails** pattern B.1 and must i
 | **Parallel engineering** without merge hell (COMM + LOC) | Shorter critical path | Requires origin hash discipline | Provide reference script templates    |
 | **Continuous improvement** strategies justified by MONO  | Lean upgrade budgets  | Cannot model negative synergies | Attach incentive to detect MHT events |
 | **Audit trail** readable by non‑experts                  | Easier certification  | Extra documentation overhead    | Auto‑generate provenance footers      |
-
 
 ### B.1:9 - Rationale
 

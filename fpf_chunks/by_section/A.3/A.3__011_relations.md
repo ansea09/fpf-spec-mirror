@@ -6,12 +6,12 @@ section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:10 — Relations"
-line_start: 5765
-line_end: 5807
+line_start: 5681
+line_end: 5723
 dependencies:
   - "A.15"
   - "A.2"
@@ -30,8 +30,8 @@ keywords:
 ### A.3:10 - Relations
 
 **A.7 Strict Distinction.**
-A.3 operationalises A.7 by keeping **object ≠ description ≠ observation**:
-*object* = target holon; *description* = `MethodDescription`; *observation/log* = `Work`. Violations (e.g., treating a recipe as a part) are non‑conformant and usually show up as Γ failures.
+A.3 operationalises A.7 by keeping **target EntityOfConcern ≠ MethodDescription ≠ observation/log Work**:
+*target EntityOfConcern* = target holon; *MethodDescription* = design description; *observation/log Work* = `Work` evidence or record. Violations (e.g., treating a recipe as a part) are non‑conformant and usually show up as Γ failures.
 
 **A.12 Agent Externalization & External Transformer.**
 A.3’s CC‑A3‑1 is the mechanical guard‑rail for A.12: even in self‑modification, the *modelling split* keeps the agent (transformer bearer) distinct from the object‑under‑change.

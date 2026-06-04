@@ -6,12 +6,12 @@ section_id: "E.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__016_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:12 — Relations"
-line_start: 56136
-line_end: 56145
+line_start: 57233
+line_end: 57241
 dependencies:
   - "E.10"
   - "E.19"
@@ -33,5 +33,4 @@ keywords:
 * **Complemented by:** `E.9.DA` when one concrete `DRR` follows E.9 form but its adequacy for downstream drafting, host amendment, accepted-decision carry-through, source-use carry-through, or receiving-locus distribution is disputed or materially live. `E.9.DA` reads the `DRR` decision-adequacy claim; it is not a second DRR form, review gate, or mandatory ordinary editorial step. Also complemented by `pat:authoring/code-of-conduct` (E.12) for etiquette in DRR debate.
 
 * **Coordinates with:** `E.23` when one `DRR` is being improved through repeated quality-improvement passes. `E.9` keeps the `DRR` kind and decision-record form; `E.9.DA` supplies the decision-adequacy object-under-improvement evaluation when adequacy is live; `E.23` governs the repeated method rather than turning the DRR into final pattern prose.
-
 

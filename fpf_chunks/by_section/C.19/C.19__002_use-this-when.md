@@ -6,12 +6,12 @@ section_id: "C.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__002_use-this-when.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:0 — Use this when"
-line_start: 42649
-line_end: 42654
+line_start: 42555
+line_end: 42560
 dependencies:
   - "B.3"
   - "C.11"
@@ -39,7 +39,7 @@ keywords:
 
 ### C.19:0 - Use this when
 
-- several candidate lines, family regions, or frontier segments remain live under one declared exploration/exploitation posture and the question is now policy over that pool rather than one more local choice result
+- several candidate lines, family regions, or frontier segments remain live under one declared exploration/exploitation policy and the question is now policy over that pool rather than one more local choice result
 - the next result should say how the pool will be treated next: `widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`
-- the governing lens or policy posture must be explicit rather than inferred from vague exploration language
+- the governing lens or policy state must be explicit rather than inferred from vague exploration language
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.13.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
-line_start: 72885
-line_end: 73197
+line_start: 73554
+line_end: 73851
 dependencies:
   - "F.1"
   - "F.10"
@@ -36,7 +36,6 @@ keywords:
 **Coordinates with.** Part C CALs when canon editions change (Sys/KD/Type/Method/LCA).
 **Non‑goals.** No registries, workflows, editors, or storage formats. No by‑name Cross‑context equivalence. No silent rewrites of old texts.
 
-
 ### F.13:1 - Intent & applicability
 
 **Intent.** Provide a **conceptual discipline** for evolving labels (for **SenseCells**, **Concept‑Set rows**, and **Role Description names**) so that:
@@ -47,7 +46,6 @@ keywords:
 
 **Applicability.** Whenever you consider **renaming**, **aliasing**, **deprecating**, or **retiring** any label in FPF: a SenseCell label in a Context, a Concept‑Set row label, or a Role Description name.
 
-
 ### F.13:2 - Problem frame
 
 Unification efforts rot when names drift faster than senses or, worse, when senses change under a constant name.
@@ -56,7 +54,6 @@ Unification efforts rot when names drift faster than senses or, worse, when sens
 * **Alias bloat.** Synonyms accumulate without discipline; reading becomes guesswork.
 * **Cross‑context aliasing.** A single alias is made to stand for different Contexts (“global slang”), defeating locality.
 * **Retroactive edits.** Old texts are silently rewritten to today’s names, corrupting provenance.
-
 
 ### F.13:3 - Forces
 
@@ -67,7 +64,6 @@ Unification efforts rot when names drift faster than senses or, worse, when sens
 | **Simplicity vs coverage**     | Avoid giant synonym lists while still catching the one or two legacy names people will meet. |
 | **Didactics vs formality**     | Make the mapping teachable without inventing new low‑level artefacts or processes.           |
 
-
 ### F.13:4 - Core idea (didactic)
 
 **Treat names as lenses, not objects.**
@@ -76,7 +72,6 @@ The **thing that persists** is the *sense* (a **SenseCell** inside a Context, or
 > **Contexts keep names local.**
 > A label (including aliases) always belongs to **one context** or to **one Concept‑Set row**. Cross‑context similarity is handled by **Bridges** (F.9), never by shared names.
 
-
 ### F.13:5 - Minimal vocabulary (this pattern only)
 
 * **Legacy label** — a previously used label in the same Context (or same Concept‑Set row / Role Description).
@@ -84,7 +79,6 @@ The **thing that persists** is the *sense* (a **SenseCell** inside a Context, or
 * **Alias** *(context‑local)* — a **read‑path** from a legacy label to the preferred one **inside the same Context** (or the same row/template). For writing, prefer the current label.
 * **Continuity relation** — a small set of **relations over labels** (below) that capture whether a change is *just wording* or a *real sense change*.
 * **Epoch note** — an **informative** time marker (“used before 2024‑07”) attached to a legacy label to help readers of old texts. (No storage format implied.)
-
 
 ### F.13:6 - Solution — Continuity, not “registries”
 
@@ -114,7 +108,6 @@ Rather than maintain a tool or workflow, **think with five continuity relations*
 
 > **Important:** All five relations are **context‑local** (SenseCell level) or **row‑local** (Concept‑Set). **Never** use them to “alias” across Contexts. If a change crosses Contexts, it is not a rename; it requires a **Bridge** (F.9) and often a **split/merge of rows** (F.7).
 
-
 ### F.13:7 - Invariants (normative)
 
 1. **Locality of alias.** `aliases(-)` and `renames(-)` operate **within one context** (SenseCell) or **within one Concept‑Set row / Role Description**.
@@ -125,7 +118,6 @@ Rather than maintain a tool or workflow, **think with five continuity relations*
 6. **Bridge discipline.** If a label shift would require crossing Contexts to “explain”, it is **not a rename**; use **F.9 Bridge** and, if needed, refactor the **Concept‑Set row(s)**.
 7. **Epoch honesty.** When declaring continuity, attach a **succinct epoch note** (“pre‑2023 usage”) if it aids readers.
 
-
 ### F.13:8 - Self‑checks (mental, not procedural)
 
 * **Same‑sense test.** Can you point to the **same SenseCell** (or same row) before and after? If yes → `renames`/`aliases`. If no → `splits`/`merges`.
@@ -133,7 +125,6 @@ Rather than maintain a tool or workflow, **think with five continuity relations*
 * **Reader test.** What two legacy strings would a newcomer actually meet in old texts? Keep **those two** as aliases; drop the rest.
 * **History test.** Does your “continuity” require editing old claims? If yes, you’re attempting a **retroactive rewrite**—stop.
 * **Didactic test.** Can you explain the continuity relation in **one sentence**? If not, you are hiding a sense change.
-
 
 ### F.13:9 - Micro‑examples (illustrative)
 
@@ -190,7 +181,6 @@ Temptation: “Let’s rename *process* to *activity*.”
 | **A11** | **Temporal fudge**         | Rename used to imply design↔run shift (“execution ≈ process”).        | Conflates time stances; erases important dualities.            | Keep **DesignRunTag** explicit on labels or glosses; if mapping is needed, do so in **F.9**.                                       |
 | **A12** | **Over‑canonicalisation**  | Forcing a single “perfect” label across all rows/Contexts.               | Centralises language; breaks heterogeneity guard.              | Let each Context/row keep its **own preferred label**; put unification pressure only into **rows** and **Bridges**.                 |
 
-
 ### F.13:11 - Extended examples
 
 #### F.13:11.1 - KD‑CAL × Services — *metric target* labels over time
@@ -230,7 +220,6 @@ Temptation: “Let’s rename *process* to *activity*.”
 * **F.3 + F.9 outcome:** High CL; evidence of same Cross‑context alignment.
 * **Move:** `merges({"DBaaS","Database‑Service"} ⇒ "Database‑Service")` at **row level**. Both legacy labels become row‑local aliases with epoch notes.
 * **Pay‑off:** One clearer row label; old articles still understandable.
-
 
 ### F.13:12 - Reasoning primitives (judgement schemas, notation‑free)
 
@@ -288,7 +277,6 @@ Let **`ContextOf(ℓ)`** be the Context of label **ℓ** (when ℓ names a Sense
 `rowOf(ℓA)=rowOf(ℓB)=R ∧ intension(R) stable ⊢ mayRenameRow(R,ℓB)`
 *Reading:* A row label can change if the **row’s membership/intension** did not change; otherwise refactor rows first (F.7).
 
-
 ### F.13:13 - Relations
 
 **Builds on:**
@@ -303,7 +291,6 @@ F.1 **context of meaning** (keeps locality), F.2 **Harvesting** (provides attest
 **Used by.**
 All Part C patterns when editions shift; all examples and tutorials when teaching with legacy terminology.
 
-
 ### F.13:14 - Migration notes (conceptual playbook)
 
 1. **Ask the same‑sense question first.** If the underlying **SenseCell/row** is unchanged, prefer `renames`; else reach for `splits/merges`.
@@ -314,7 +301,6 @@ All Part C patterns when editions shift; all examples and tutorials when teachin
 6. **Rows before names.** If a rename request coincides with a shift in what the row covers, **refactor rows** (F.7) first, then choose labels.
 7. **Edition bumps.** When a canon updates, check labels used in that Context: if definitions shift, it’s a **split/merge**; if not, you may `renames` for style/uniformity.
 8. **Teach the delta.** In primers, show a **mini table** with legacy → preferred pairs only where readers will encounter both.
-
 
 ### F.13:15 - Acceptance tests (SCR/RSCR — concept‑level)
 
@@ -333,7 +319,6 @@ All Part C patterns when editions shift; all examples and tutorials when teachin
 * **RSCR‑F13‑E02 (Alias creep check).** Periodically ensure alias budgets remain within **≤ 1 per register**; surplus aliases are pruned.
 * **RSCR‑F13‑E03 (Bridge leak check).** Scan continuity notes for Cross‑context hints; any such case is converted into a **Bridge** or deleted.
 * **RSCR‑F13‑E04 (Didactic continuity).** Sampling of examples shows that readers can **resolve** legacy labels to current ones without confusion (via the continuity notes).
-
 
 ### F.13:16 - Didactic distillation (60‑second script)
 

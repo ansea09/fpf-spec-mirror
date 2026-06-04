@@ -6,12 +6,12 @@ section_id: "C.16.P:11"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__014_related-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:11 — Related patterns"
-line_start: 40897
-line_end: 40908
+line_start: 40824
+line_end: 40835
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,13 +41,13 @@ keywords:
 
 ### C.16.P:11 - Related patterns
 
-- `E.10` catches hidden characteristic/scale wording and selects this pattern only when construction is hidden.
+- `E.10` catches hidden characteristic and scale wording and selects this pattern only when construction is hidden.
 - `E.10.ARCH` defines the shared wording-use recovery order and applicability row.
 - `A.17`, `A.18`, and `C.16` govern characteristics, scales, values, measures, and measurement use.
 - `A.19` governs characteristic-space construction.
 - `C.25` governs Q-bundles.
-- `C.16.Q` governs quality/evaluative characterization wording.
+- `C.16.Q` governs quality-term or evaluative characterization wording.
 - `E.21` governs pattern-quality evaluation characteristic spaces.
-- `C.29` governs mathematical-lens adequacy.
+- `C.29` governs mathematical-lens use.
 - Exact evidence, assurance, gate, work, decision, causal-use, release, benchmark, and publication patterns govern their own claims.
 

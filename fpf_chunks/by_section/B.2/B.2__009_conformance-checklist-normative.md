@@ -6,12 +6,12 @@ section_id: "B.2:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__009_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:7 — Conformance Checklist (normative)"
-line_start: 30271
-line_end: 30283
+line_start: 30404
+line_end: 30415
 dependencies:
   - "A.1"
   - "A.12"
@@ -43,5 +43,4 @@ keywords:
 | **CC‑B2.5** | **ContextReframe** MHT MUST include the mapping set and CL levels; **R\_eff** thereafter uses the **new CL baseline**.          | Make context explicit; reset penalties coherently. |
 | **CC‑B2.6** | **PhasePromotion** MUST state whether identity continues (4D: new tube start; 3D+1: new enduring holon) and justify the choice. | Keep temporal semantics clear.                     |
 | **CC‑B2.7** | **Role‑Lift** MUST reference Agency‑CHR but MUST NOT use agency to bypass WLNK or CL penalties.                                 | Preserve safety invariants.                        |
-
 

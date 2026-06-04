@@ -6,12 +6,12 @@ section_id: "C.16:7"
 section_title: "Evidence Semantics (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__008_evidence-semantics-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:7 — Evidence Semantics (Normative)"
-line_start: 40502
-line_end: 40515
+line_start: 40431
+line_end: 40443
 dependencies:
   - "A.10"
   - "A.17"
@@ -38,13 +38,12 @@ keywords:
 
 #### C.16:7.1 - What an Evidence Stub is (and is not)
 
-**Definition.** `U.EvidenceStub` is a **conceptual pointer** that ties a **measure** to the **grounds** sufficient for independent checking (observations, arguments, admissible transformations). It is not the run log, not the carrier, and not the intensional characteristic itself. This keeps **intension–description–specification** distinct per E.10.D2 and the Clarity Lattice.
+**Definition.** `U.EvidenceStub` is a **conceptual pointer** that ties a **measure** to the **grounds** sufficient for independent checking (observations, arguments, admissible transformations). It is not the run log, not the evidence carrier, and not the characteristic itself. This keeps **EntityOfConcern and Description-episteme boundary and specification use** distinct per E.10.D2 and the Clarity Lattice.
 
 **Rule Σ‑1.** Whether evidence is **required** is a **property of the metric template**; if required, each `U.Measure` **SHALL** include an `U.EvidenceStub`.
 **Rule Σ‑2.** Evidence composition is **commutative, associative, idempotent** at the concept level (sets/multisets of grounds); combining grounds can never *reduce* what is knowable about the measure’s warrant.
 **Rule Σ‑3.** *Soundness minimum:* there exists a conceptual chain linking **bearer → Characteristic → Scale and Unit → admissible method or episteme**. (No “free‑floating numbers”.)
 **Rule Σ‑4.** Any declared *agreement* construct used as evidence (e.g., dual readings, panels) **SHALL** respect the template’s scale type (per A.18) (e.g., order‑based concordance for ordinal; tolerance‑based agreement for interval or ratio).
 **Note (boundary).** CG‑frame evidence thresholds (e.g., “minimal evidence” gates used by selection, scoring, or comparison mechanisms) are governed by their exact FPF patterns or specification records. C.16 defines only the EvidenceStub semantics that such gates may cite.
-*Anchors:* MM‑CHR units and evidence notion; Strict Distinction and the separation of objects from their descriptions and specifications.
-
+*Source references:* MM‑CHR units and evidence notion; Strict Distinction and the separation of objects from their descriptions and specifications.
 

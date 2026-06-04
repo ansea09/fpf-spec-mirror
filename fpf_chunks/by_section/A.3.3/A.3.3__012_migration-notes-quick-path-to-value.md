@@ -6,12 +6,12 @@ section_id: "A.3.3:11"
 section_title: "Migration notes (quick path to value)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__012_migration-notes-quick-path-to-value.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:11 — Migration notes (quick path to value)"
-line_start: 6591
-line_end: 6601
+line_start: 6476
+line_end: 6485
 dependencies:
   - "A.19"
   - "B.4"
@@ -31,5 +31,4 @@ keywords:
 5. **Start conformance.** Define a simple `tol` and compute `fits(D, trace, tol)` weekly. Raise issues on drift; version the model when calibrating.
 6. **Link to promises (optional).** If SLOs depend on the law, reference `U.Dynamics` from `U.PromiseContent` and derive targets transparently.
 7. **For KD‑CAL.** Treat belief/support as characteristics; declare a Bayesian/likelihood update in `transitionLaw`; evaluate conformance against evidence arrivals.
-
 

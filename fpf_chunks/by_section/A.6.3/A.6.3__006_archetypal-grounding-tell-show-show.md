@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing — describedEntity‑preserving morphism"
+pattern_title: "U.EpistemicViewing — EntityOfConcern-preserving morphism"
 section_id: "A.6.3:5"
 section_title: "Archetypal grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism"
+  - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:5 — Archetypal grounding (Tell–Show–Show)"
-line_start: 10077
-line_end: 10155
+line_start: 9937
+line_end: 10015
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -26,24 +26,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
-  - "U.MultiViewDescribing"
-  - "U.RelationSlotDiscipline"
-  - "U.Signature"
 keywords:
-  - "ClaimGraph"
-  - "CorrespondenceModel"
-  - "Direct vs Correspondence Viewing"
-  - "EpistemicViewing"
-  - "RepresentationScheme"
-  - "Viewpoint"
-  - "describedEntity preservation"
-  - "displayed fibration"
-  - "episteme"
-  - "optics"
-  - "view"
 ---
 
 ### A.6.3:5 - Archetypal grounding (Tell–Show–Show)
@@ -57,19 +40,19 @@ A system team maintains a rich `SystemDescription` episteme for a plant holon `S
 
 * **Domain `X`.**
   `X : U.SystemDescription` with:
-  * `describedEntityRef(X) : U.SystemRef` (the plant `S`),
+  * `entityOfConcernRef(X) : U.SystemRef` (the plant `S`),
   * `groundingHolonRef(X) : U.HolonRef` (runtime environment),
   * `viewpointRef(X) : U.ViewpointRef` (engineering TEVB viewpoint),
   * `content(X) : U.ClaimGraph` (full behavioural & structural claims).
 * **Codomain `Y`.**
   `Y : U.EpistemeView` with:
-  * `describedEntityRef(Y) = describedEntityRef(X)`,
+  * `entityOfConcernRef(Y) = entityOfConcernRef(X)`,
   * `groundingHolonRef(Y) = groundingHolonRef(X)`,
   * `viewpointRef(Y)` either equal to or a refinement of the original engineering viewpoint (TEVB safety sub‑viewpoint),
   * `content(Y)` containing only safety‑relevant claims, plus explicit aggregation nodes (e.g. hazard summaries).
 
 `SafetyView : X→Y` is a **DirectEpistemicViewing**:
-* `describedEntityChangeMode = preserve`,
+* `entityOfConcernChangeMode = preserve`,
 * only `content`, `viewpointRef` (within TEVB) and `meta` change,
 * KD‑CAL/LOG‑CAL checks show that every hazard/mitigation claim in `Y` is entailed by `X`,
 * view is idempotent and deterministic given `X` and the selected safety profile.
@@ -87,7 +70,7 @@ MVPK emits a `TechCard` view `V_raw` for an arrow `f` in a morphism class (e.g. 
 *Shape.*
 
 * `X = V_raw`, `Y = V_norm`, both `U.EpistemeView` instances with:
-  * same `describedEntityRef` (the morphism’s arrow or capability),
+  * same `entityOfConcernRef` (the morphism’s arrow or capability),
   * same `groundingHolonRef` (runtime/plant),
   * same `viewpointRef` (publication viewpoint),
   * same `representationSchemeRef` (TechCard schema).
@@ -106,7 +89,7 @@ A system has:
 * a requirements episteme `R` (“what the system should do”), and
 * a design episteme `D` (“how the system does it”),
 
-both with `describedEntityRef` pointing to the same system holon `S`, but living in different notations and contexts. A systems engineer wants a view that shows **only those requirements that currently have design coverage**.
+both with `entityOfConcernRef` pointing to the same system holon `S`, but living in different notations and contexts. A systems engineer wants a view that shows **only those requirements that currently have design coverage**.
 
 *Shape.*
 
@@ -114,7 +97,7 @@ both with `describedEntityRef` pointing to the same system holon `S`, but living
 * `D : U.SystemDesignDescription` with ClaimGraph `C_D`.
 * `CM : U.CorrespondenceModel` relating requirements to design elements.
 * `Y : U.EpistemeView` with:
-  * `describedEntityRef(Y) = describedEntityRef(R) = describedEntityRef(D) = S`,
+  * `entityOfConcernRef(Y) = entityOfConcernRef(R) = entityOfConcernRef(D) = S`,
   * `groundingHolonRef(Y)` inherited from `R`/`D` or declared via a Bridge,
   * `content(Y)` aggregating only those requirements in `C_R` for which `CM` records coverage in `C_D`.
 

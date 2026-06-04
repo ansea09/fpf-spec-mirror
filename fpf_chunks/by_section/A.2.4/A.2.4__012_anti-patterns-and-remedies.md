@@ -6,12 +6,12 @@ section_id: "A.2.4:11"
 section_title: "Anti-patterns and remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__012_anti-patterns-and-remedies.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:11 — Anti-patterns and remedies"
-line_start: 3289
-line_end: 3301
+line_start: 3257
+line_end: 3268
 dependencies:
   - "A.10"
   - "A.2"
@@ -35,5 +35,4 @@ keywords:
 | **Ad-hoc weight**           | Number assigned with no declared model.                | Use context-declared model; supply required inputs.                     |
 | **Service proves itself**   | Service KPI logged as evidence.                        | KPIs come from `U.Work`; service evaluation can be bound as evidence.   |
 | **Scope blur**              | Mixing design-time and run-time provenance in one EPV. | Split into separate bindings; relate via claim graph or bridge.         |
-
 

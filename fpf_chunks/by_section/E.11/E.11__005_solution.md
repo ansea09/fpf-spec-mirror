@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution"
-line_start: 59241
-line_end: 59518
+line_start: 60144
+line_end: 60421
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -26,7 +26,7 @@ keywords:
 
 ### E.11:4 - Solution
 
-#### E.11:4.1 - Governed object, non-goals, and non-minting boundary
+#### E.11:4.1 - Entry-discoverability object, non-goals, and non-minting boundary
 
 `E.11` governs pattern-entry discoverability for `FPF` and
 `FPF`-conformant pattern-language support roles: the coordination discipline by which one
@@ -35,7 +35,7 @@ reject tempting wrong patterns and wrong governing pattern bodies, use admissibl
 projection/support roles, and reach one admissible entry stop or entry-load
 reclassification without reading the pattern language as workflow.
 
-In `E.11`, the live governed case is pattern-entry discoverability. Description
+In `E.11`, the live entry-discoverability case is pattern-entry discoverability. Description
 discoverability remains governed by `A.6.RSIG`; `E.11` mentions it only to
 preserve the semantic-name settlement and support-role partition.
 
@@ -60,7 +60,7 @@ preserve the semantic-name settlement and support-role partition.
 - graph ontology in `E.18`.
 
 This pattern does not mint one new `U.Discoverability`, `RelationKind`,
-`PatternKind`, `StatusKind`, `SurfaceKind`, graph node, or workflow state.
+`PatternKind`, `StatusKind`, publication face kind, publication form kind, carrier kind, graph node, or workflow state.
 
 #### E.11:4.2 - Pattern-entry discoverability claim and FPF strata
 
@@ -157,11 +157,11 @@ claim or wording repair is being placed:
 | choosing among patterns, candidate patterns, nearby patterns, wrong governing pattern bodies, or entry-load reclassifications inside the pattern language | `E.11` |
 | the admissible local `Problem frame` first-reading role, reading order, or recognition/assurance relation | `E.8` |
 | review trigger, evidence-mode selection, or cross-role parity checks for one pattern-entry discoverability-bearing change | `E.19 / PCP-ENTRY` |
-| one compact or worked projection of already-governed pattern-entry discoverability content | `J.4`, `I.2`, `Preface`, the pattern `Problem frame`, or lexical support according to the governing-role map |
+| one compact or worked projection of already-authoritative pattern meaning-entry discoverability content | `J.4`, `I.2`, `Preface`, the pattern `Problem frame`, or lexical support according to the governing-role map |
 | the order in which one already-identified area is learned or taught | `E.6`, `E.7`, `E.12`, `F.16`, and the appropriate tutorial views or walkthroughs |
 | cue preservation, route-bearing publication, or endpoint publication | `A.16`, `A.16.1`, `B.4.1`, or the relevant publication pattern |
 | one actual work sequence, method, plan, episteme publication, work-result record, or execution stop | the relevant pattern for method description, work planning, or work occurrence rather than `E.11` |
-| the meaning of the actual pattern, method, boundary description, or other governed object | the relevant authoritative pattern or governing pattern/source rather than the entry support role |
+| the meaning of the actual pattern, method, boundary description, or other entry-discoverability object | the relevant authoritative pattern or governing pattern/source rather than the entry support role |
 
 `E.11` uses only lower-case editorial labels when reviewers need a compact
 diagnostic vocabulary:
@@ -298,7 +298,7 @@ Everything else is triggered:
   high;
 - ToC lexical cues: only if search/query support is material;
 - README/Preface echo: only if public entry changes materially;
-- pattern-local note: only for material entry-force changes;
+- pattern-local note: only for material entry-selection changes;
 - evidence mode: only for high-risk, disputed, retrieval-facing,
   repeated-failure, or measured-improvement claims.
 

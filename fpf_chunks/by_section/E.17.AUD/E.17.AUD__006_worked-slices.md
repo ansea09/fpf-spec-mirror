@@ -6,12 +6,12 @@ section_id: "E.17.AUD:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__006_worked-slices.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:5 — Worked slices"
-line_start: 63928
-line_end: 63961
+line_start: 64800
+line_end: 64833
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,7 +27,6 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17"
@@ -46,15 +45,15 @@ keywords:
 
 #### E.17.AUD:5.1 - Local-head case
 
-A semio note keeps saying `this review` and `this interpretation`, but nobody can tell which FPF kind or locally declared head those lexical heads name here. The rest of the governed unit is still locally stable once the local lexical head is repaired. The honest move is not broad publication-unit stabilization. It is `Local Head Restoration`.
+A semio note keeps saying `this review` and `this interpretation`, but nobody can tell which FPF kind or locally declared head those lexical heads name here. The rest of the publication unit under review is still locally stable once the local lexical head is repaired. The honest move is not broad publication-unit stabilization. It is `Local Head Restoration`.
 
-#### E.17.AUD:5.2 - Whole-unit reading-shift case
+#### E.17.AUD:5.2 - Whole-unit interpretation-shift case
 
-A memo starts about one bounded architecture question over an inherited lineage or move, then shifts into wider rollout or approval language without declaring the transition. Repairing one sentence does not stabilize the governed unit because the primary described entity and the carried publication move have both widened. The honest move is `PublicationUnit Primary Described-Entity Discipline`.
+A memo starts about one bounded architecture question over an inherited lineage or move, then shifts into wider rollout or approval language without declaring the transition. Repairing one sentence does not stabilize the publication unit under review because the primary EntityOfConcern and the carried publication move have both widened. The honest move is `PublicationUnit Primary EntityOfConcern Discipline`.
 
 #### E.17.AUD:5.3 - Stable-unit comparison case
 
-A comparison sheet already keeps one stable primary described entity and one clear outside boundary to work, work planning, decision, gate, or reliance claim, but the team is using publication-unit instability language because the comparison is contentious. The honest move is not more publication-unit stabilization. It is `ComparativeReading`.
+A comparison sheet already keeps one stable primary EntityOfConcern and one clear outside boundary to work, work planning, decision, gate, or reliance claim, but the team is using publication-unit instability language because the comparison is contentious. The honest move is not more publication-unit stabilization. It is `E.17.ID.CR ComparativeReading`.
 
 #### E.17.AUD:5.4 - Explanation-laundering case
 
@@ -66,13 +65,13 @@ A status card starts as one bounded summary of progress, then quietly becomes th
 
 #### E.17.AUD:5.6 - Compact scenario and anti-case pack
 
-Use this quick contrast set when the first reading is still foggy:
+Use this quick contrast set when the first interpretation is still foggy:
 
 | Near-miss case | What to look for | Honest governing pattern or project-side-reference boundary |
 | --- | --- | --- |
-| `LHR-only` | one overloaded local lexical head is doing most of the semantic work while the governed unit otherwise stays stable | apply `Local Head Restoration` |
-| `whole-unit reading shift` | the governed unit quietly changes primary described entity or carried publication move | apply `PublicationUnit Primary Described-Entity Discipline` |
-| `stable comparison -> CR` | the unit is already stable and the live problem situation is bounded comparison over pinned source publications | apply `ComparativeReading` |
+| `LHR-only` | one overloaded local lexical head is doing most of the semantic work while the publication unit under review otherwise stays stable | apply `Local Head Restoration` |
+| `whole-unit interpretation shift` | the publication unit under review quietly changes primary EntityOfConcern or carried publication move | apply `PublicationUnit Primary EntityOfConcern Discipline` |
+| `stable comparison -> CR` | the unit is already stable and the live problem situation is bounded comparison over pinned source publications | apply `E.17.ID.CR ComparativeReading` |
 | `downstream claim or effect overread` | readers are inferring approval, assignment, or go or no-go claim or effect from the publication unit | leave the publication-unit stability family for the more honest downstream decision, gate, work, or reliance publication |
-| `modeling-lens hidden` | the unit only makes sense because of one unpublished model or formal basis | publish that basis briefly or use a heavier publication form or neighboring pattern |
+| `modeling-lens hidden` | the unit only makes sense because of one unpublished model, formal substrate, or rationale | publish that substrate or rationale briefly or use a heavier publication form or neighboring pattern |
 

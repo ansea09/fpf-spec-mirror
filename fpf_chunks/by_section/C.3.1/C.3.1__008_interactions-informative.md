@@ -6,12 +6,12 @@ section_id: "C.3.1:7"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__008_interactions-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:7 — Interactions (informative)"
-line_start: 37661
-line_end: 37669
+line_start: 37685
+line_end: 37692
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -30,6 +30,5 @@ keywords:
 * **With F–G–R (C.2.2).** This pattern does not alter the triple; typed checks happen **before** scope algebra, preventing invalid compositions.
 * **Order of checks reference.** See **Annex C.3.A §5 (E‑01)** for the normative evaluation order: typed compatibility first, then Scope coverage, then penalties to **R** and freshness.
 * **With Formality (C.2.3).** A **KindSignature** (C.3.2) declares its **F**; claims retain their own F via weakest‑link.
-* **With Bridges (Part B).** Use **KindBridge** (C.3.3) for describedEntity; use **Scope Bridge** (Part B) for applicability. Penalties land in **R** via different channels.
-
+* **With Bridges (Part B).** Use **KindBridge** (C.3.3) for entityOfConcern; use **Scope Bridge** (Part B) for applicability. Penalties land in **R** via different channels.
 

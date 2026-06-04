@@ -6,12 +6,12 @@ section_id: "C.30.ASV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:6 — Bias-Annotation"
-line_start: 52731
-line_end: 52744
+line_start: 53123
+line_end: 53136
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.22"
   - "A.6.3"
   - "A.6.F"
+  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.11"
@@ -55,11 +56,11 @@ keywords:
 
 ### C.30.ASV:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: architecture structural-view claims over holons.
+Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture structural-view claims over holons.
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Module-view bias | Make module/interface one structure kind, not the default meaning of architecture. |
+| Module-view bias | Make module-interface one structure kind, not the default meaning of architecture. |
 | Viewpoint-kind conflation | Keep structure kind, viewpoint, view record, and viewpoint bundle separate. |
 | TEVB mutation bias | Import TEVB where useful; do not expand `VF.TEVB.ENG` by implication. |
 | Check-only bias | Every failed conformance check gives a repair move or exact governing pattern application. |

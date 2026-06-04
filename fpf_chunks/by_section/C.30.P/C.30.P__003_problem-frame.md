@@ -6,12 +6,12 @@ section_id: "C.30.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:1 — Problem frame"
-line_start: 51961
-line_end: 51982
+line_start: 52115
+line_end: 52136
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -43,23 +44,23 @@ keywords:
 
 ### C.30.P:1 - Problem frame
 
-Working engineers often say "architecture" or "structure" while pointing at a useful artifact: a diagram, model, graph, table, dashboard, ADR, code-agent relation graph, neural-network block diagram, benchmark result, or source document. Ordinary speech is acceptable; FPF-force-bearing prose is not.
+Working engineers often say "architecture" or "structure" while pointing at a useful artifact: a diagram, model, graph, table, dashboard, ADR, code-agent relation graph, neural-network architecture-operation diagram, benchmark result, or source document. Ordinary speech is acceptable; FPF-governed prose is not. If the artifact is named by a source label such as `block`, `layer`, `expert`, `cache`, `router`, or `gate`, use `C.30.STRAT` before assigning the recovered use locally.
 
 The repair question is:
 
-> What live object does the architecture or structure wording name, and which exact FPF pattern now carries the claim?
+> Which selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or neighboring claim does the wording name, and which exact FPF pattern now carries the claim?
 
-The live object may be:
+The live architecture or structure use may be:
 
 - selected structure under `A.22`;
-- an `ArchitectureOf@Context` claim or `ArchitectureDescription@Context` under `C.30`;
+- an `ArchitectureOf@Context` claim under `C.30`, a thin architecture-description bridge under `C.30`, or the full architecture-description mechanism under `C.30.AD`;
 - an `ArchitectureStructuralView@Context` or exact `C.30.*` subcase;
-- a publication, view, face, `PublicationUnit`, carrier, dashboard, ADR, source document, or source-return relation under `C.2.P` / `E.17`;
+- a publication, view, face, `PublicationUnit`, carrier, dashboard, ADR, source document, or source-return relation under `C.2.P` or `E.17`;
 - a relation construction under `A.6.P`;
-- a function-like carrier under `A.6.F`;
-- a mathematical-lens adequacy claim under `C.29`;
+- a function or functionality-kind use under `A.6.F`;
+- a mathematical-lens use claim under `C.29`;
 - a characteristic, scale, score, coordinate, threshold, or quality-coordinate claim under `C.16.P` or `C.16`;
 - a Q-bundle or quality-characterization claim under `C.16.Q`, `C.25`, or `E.21`;
 - an evidence, assurance, gate, work, decision, causal-use, release, or method claim under its exact pattern;
-- ordinary prose with no current FPF force.
+- ordinary prose with no current FPF-governed use.
 

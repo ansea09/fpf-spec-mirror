@@ -6,12 +6,12 @@ section_id: "F.16:5"
 section_title: "The one‑page Worked‑Example Canvas"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__006_the-one-page-worked-example-canvas.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:5 — The one‑page Worked‑Example Canvas"
-line_start: 73940
-line_end: 73977
+line_start: 74547
+line_end: 74583
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -62,5 +62,4 @@ keywords:
     *Example:* *S‑Row‑Cross*, *S‑RoleDescription‑SingleCell*, *E‑NoSilentEdition*.
 
 > **Memory rule.** If your Canvas cannot fit on a single page (or one slide), the example is teaching the wrong thing.
-
 

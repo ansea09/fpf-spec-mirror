@@ -6,12 +6,12 @@ section_id: "A.14:8"
 section_title: "Conformance Checklist & type guards (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__009_conformance-checklist-type-guards-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:8 — Conformance Checklist & type guards (normative)"
-line_start: 19034
-line_end: 19090
+line_start: 19096
+line_end: 19151
 dependencies:
   - "A.1"
   - "B.1.1"
@@ -72,7 +72,6 @@ keywords:
 | **CC‑MEM‑1** | `MemberOf` domain/range are open: any `U.Holon` may be a member of a collection/collective holon. | Allows mixed collections when needed. |
 | **CC‑MEM‑2** | From `MemberOf(x,C)` it is **forbidden** to infer any property of C to x via parthood rules.      | Prevents “set‑as‑whole” errors.       |
 | **CC‑MEM‑3** | **Constructive aggregation of collections** is provided by **C.13 Compose‑CAL** (`Γ_m.set`); **agency of collectives** is specified outside A.14 (see **A.15 Role–Method–Work**). | Keeps A.14 narrow and clean.          |
-
 
 #### A.14:8.5 - CT2R‑LOG handshake (Working‑Model → Assurance)
 

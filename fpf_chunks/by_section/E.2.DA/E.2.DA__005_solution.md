@@ -6,12 +6,12 @@ section_id: "E.2.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:4 — Solution"
-line_start: 53946
-line_end: 54151
+line_start: 55054
+line_end: 55259
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -38,7 +38,7 @@ State the FPF-level read as a `FPFPillarAdequacyQBundle`, not as one score and n
 
 `E.2.DA` governs only these questions:
 
-1. Which exact FPF object under improvement and exact version is being evaluated for Pillar adequacy?
+1. Which exact FPF EntityOfConcern under improvement and exact version is being evaluated for Pillar adequacy?
 2. For which reader, use, object-under-improvement role, and qualification window?
 3. Which `E.2` Pillars are active, and which are not live for this read?
 4. Which eligibility blockers make Pillar-coordinate comparison meaningless?
@@ -55,7 +55,7 @@ State the FPF-level read as a `FPFPillarAdequacyQBundle`, not as one score and n
 - reading one `DRR`, which stays with `E.9.DA`;
 - framing one read, which stays with `E.22`;
 - running the repeated loop, which stays with `E.23`;
-- local lexical, relation, source-transfer, quality-term, or durable-name repair, which stays with `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, and `F.18`;
+- local lexical, relation, source-use, quality-term, or durable-name repair, which stays with `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, and `F.18`;
 - first-practical entry coordination, which stays with `E.11`;
 - evidence, assurance, gate, work, release, safety, compliance, or project-world claims.
 
@@ -71,7 +71,7 @@ State the FPF-level read as a `FPFPillarAdequacyQBundle`, not as one score and n
 | `PillarAdequacyEligibilitySet` | Hard FPF-level filters checked before coordinate comparison. | Not an `E.19` gate and not a maturity level. |
 | `PillarAdequacyDominanceSet` | Active Pillar coordinates used for non-dominated comparison of FPF variants or candidate edits. | Not a hidden scalar score or selected-set publication. |
 | `PillarAdequacyEvidenceRefs` | Exact loci in patterns, projections, source rows, entry rows, relation rows, or review findings that justify Pillar readings. | Not project evidence or assurance. |
-| `FPFPillarAdequacyStatus` | Admissible-use posture for the scoped FPF Pillar adequacy claim. | Not release approval, monolith parity, or steward praise. |
+| `FPFPillarAdequacyStatus` | Admissible-use result for the scoped FPF Pillar adequacy claim. | Not release approval, monolith parity, or steward praise. |
 | `FPFPillarAdequacyFront` | Scoped non-dominated set of FPF variants or candidate edit packages under this read. | Not an OEE/NQD archive, not a `G.5` shortlist, and not a project backlog. |
 
 These names are local to `E.2.DA`. They do not mint a new kernel kind, ordered process state, pattern kind, entry kind, evidence kind, assurance kind, or release kind.
@@ -94,7 +94,7 @@ Check these hard filters when live:
 | `useScopeRecoverable` | The use, reader, and qualification window are declared. | `repairBeforeFPFUse` or `admissibleWithNarrowerFPFUse`. |
 | `pillarMeaningPreserved` | Pillar names and meanings are taken from `E.2`, not locally redefined. | Return to `E.2` or hold for Pillar amendment decision. |
 | `localPatternBoundaryPreserved` | The read does not replace `E.21` for one pattern version or `E.9.DA` for one `DRR`. | Return to exact object-under-improvement evaluation. |
-| `precisionRepairDistributed` | Local wording, relation, source-transfer, quality-term, and naming repairs are assigned to exact precision patterns. | Return to `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, or `F.18`. |
+| `precisionRepairDistributed` | Local wording, relation, source-use, quality-term, and naming repairs are assigned to exact precision patterns. | Return to `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, or `F.18`. |
 | `entryAuthoritySeparated` | Entry projections and thin echoes do not define governing pattern semantics. | `repairBeforeFPFUse`. |
 | `firstUsefulMoveSurvives` | Pillar-oriented precision still leaves an admissible reader move, recognition reason, or neighbour exit. | `repairBeforeFPFUse`. |
 | `noSecondOntology` | No entry projection, publication companion, table, review packet, or campaign note carries semantics beside the governing pattern. | `holdForArchitectureDecision` or return to exact pattern. |
@@ -130,7 +130,7 @@ The eleven Pillars are not independent in ordinary language. `E.2.DA` orthogonal
 | `P6LexicalStratificationAdequacy` | Whether Plain, Tech, Formal, and mathematical registers are recoverable when live. | Plain wording remains usable, and load-bearing wording maps back to exact Tech, Formal, mathematical-register, or mathematical-lens fields. |
 | `P7PragmaticUtilityAdequacy` | Whether proofs, measures, models, and reviews change real admissible action. | the object under improvement changes prediction, decision, diagnosis, design, repair, stop, or project-side neighbour assignment rather than adding ceremonial precision. |
 | `P8CrossScaleConsistencyAdequacy` | Whether composition, aggregation, boundary, emergence, and method structure stay consistent across scales. | Cross-scale claims name the algebra, preserved structure, lost structure, and non-use boundary. |
-| `P9StateExplicitnessAdequacy` | Whether states, transitions, currentness, edition, design/run posture, and qualification windows are explicit when live. | Readers can tell what version/state is being used and what transition or refresh condition changes the claim. |
+| `P9StateExplicitnessAdequacy` | Whether states, transitions, currentness, edition, design/run state, and qualification windows are explicit when live. | Readers can tell what version/state is being used and what transition or refresh condition changes the claim. |
 | `P10OpenEndedEvolutionAdequacy` | Whether improvement remains cheap, safe, and cognitively rewarding without pretending development ends forever. | the object under improvement has local stop conditions plus reopen paths for new use, new source, new comparison, or new failure evidence. |
 | `P11SoTAAlignmentAdequacy` | Whether contemporary knowledge disciplines the object under improvement without citation theatre or self-praise. | Current sources change moves, boundaries, examples, checks, or stop rules, and `SoTA` is externally assigned. |
 
@@ -146,7 +146,7 @@ Use these guards when two Pillars both look live:
 | `P-3` vs `P-6` | `P-3` reads the maturation path; `P-6` reads the register mapping at the current articulation. |
 | `P-4` vs `P-5` | `P-4` protects the kernel from domain doctrine; `P-5` protects pattern layering and neighbouring-pattern authority. |
 | `P-5` vs `P-7` | `P-5` asks whether authority is assigned to the right pattern; `P-7` asks whether the assignment changes useful action. |
-| `P-7` vs `P-11` | `P-7` reads practical payoff; `P-11` reads current external knowledge posture. A source can satisfy `P-11` and still fail `P-7` if it changes no move. |
+| `P-7` vs `P-11` | `P-7` reads practical payoff; `P-11` reads current external knowledge use and currentness. A source can satisfy `P-11` and still fail `P-7` if it changes no move. |
 | `P-8` vs `P-9` | `P-8` reads cross-scale invariants; `P-9` reads explicit state, transition, edition, and currentness declarations. |
 | `P-10` vs `E.23` | `P-10` reads open-ended evolvability of the FPF object under improvement; `E.23` governs the repeated improvement method used when improvement is active. |
 | `P-10` vs `P-11` | `P-10` reads capacity to keep evolving; `P-11` reads whether current source or practice lines discipline the present FPF object. |
@@ -163,7 +163,7 @@ Some corpus-level defects affect several Pillars at once. Use these evidence org
 | `FrontLikeVocabularyGoverningPatternAssignment` | `P-1`, `P-5`, `P-6`, `P-7`, `P-10`, `P-11` | `E.21`, `E.9.DA`, `E.2.DA`, `C.18`, `G.5`, `G.9`, `G.11` |
 | `PrecisionRepairDistribution` | `P-1`, `P-2`, `P-5`, `P-6`, `P-7` | `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` |
 | `ProjectionAndThinEchoIntegrity` | `P-1`, `P-2`, `P-5`, `P-6`, `P-9` | `E.11`, `E.17`, `J.4`, `I.2` |
-| `SourceContributionAndSoTAPostureClarity` | `P-7`, `P-10`, `P-11` | `E.8`, `E.19`, `E.21`, `E.22`, `E.23`, `A.10` when evidence is live |
+| `SourceContributionAndSoTACurrentnessClarity` | `P-7`, `P-10`, `P-11` | `E.8`, `E.19`, `E.21`, `E.22`, `E.23`, `A.10` when evidence is live |
 | `MathematicalFirstPrinciplesLensAssignment` | `P-1`, `P-3`, `P-7`, `P-8`, `P-10`, `P-11` | `C.29`, plus exact measurement, causal, bridge, assurance, work, decision, or publication patterns when live |
 | `TalkForWorkSubstitutionResistance` | `P-2`, `P-5`, `P-7`, `P-9` | `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, `C.11`, `C.24`, or the exact evaluation pattern for the claimed work, evidence, assurance, gate, decision, or call-planning effect |
 

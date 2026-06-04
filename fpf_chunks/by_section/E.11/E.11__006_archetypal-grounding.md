@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal grounding"
-line_start: 59519
-line_end: 59605
+line_start: 60422
+line_end: 60507
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -56,7 +56,6 @@ Entry repair:
    `G.5` if selected-set publication is already live; inspect `C.11` or `C.24`
    only after that narrower entry load is actually live.
 
-
 #### E.11:5.2 - Episteme-side anti-case: partly-said cue is not yet a claim
 
 Live reader phrase:
@@ -84,7 +83,7 @@ Entry repair:
 
 Live reader phrase:
 
-> "We need to explain the same described entity for another audience."
+> "We need to explain the same EntityOfConcern for another audience."
 
 Entry repair:
 

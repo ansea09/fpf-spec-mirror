@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:4 — Solution"
-line_start: 28364
-line_end: 28501
+line_start: 28573
+line_end: 28705
 dependencies:
   - "A.1"
   - "A.12"
@@ -55,11 +55,9 @@ DependencyGraph D = (V, E, scope, notes)
 > **Strict distinction (A.15).**
 > `DependencyGraph` encodes **part–whole** only. Order goes to Γ\_ctx/Γ\_method. Time evolution goes to Γ\_time. Resource spending goes to Γ\_work. Cross‑boundary influence goes to `U.Interaction` (not parthood).
 
-
 #### B.1.1:4.2 - Normative edge vocabulary `V_rel` (A.14 compliant)
 
 Only the following **four** **mereological** relations are allowed in `E` (A.14):
-
 
 | Family               | Relation             | Short intent                                            | Where it belongs                   |
 | -------------------- | -------------------- | ------------------------------------------------------- | ---------------------------------- |
@@ -75,7 +73,6 @@ Only the following **four** **mereological** relations are allowed in `E` (A.14)
 * `RoleBearerOf` — links a `U.System` to a `U.Role`; **not** parthood (see A.12, A.15).
 * Any “is‑a” (`subClassOf`) taxonomic relation — orthogonal to parthood.
 
-
 #### B.1.1:4.3 - Minimal axioms & type guards per relation
 
 | Relation             | Axioms (informal)                                                 | Guards / When to use                                                                                               |
@@ -87,7 +84,6 @@ Only the following **four** **mereological** relations are allowed in `E` (A.14)
 | **PhaseOf**          | anti‑symmetric; covers a timeline; acyclic                        | Time‑slices of the *same* carrier identity. Use only with explicit carrier and non‑overlapping intervals.          |
 
 > **Carrier identity for `PhaseOf`.** The same carrier identity across phases must be explicit (e.g., *this* frame across heat/dwell/quench; *this* theory across revisions). If identity changes, you are modelling a **Transformer** creating a **new** holon (A.12) — not a phase.
-
 
 #### B.1.1:4.4 - Selection guide (didactic, normative in spirit)
 
@@ -135,7 +131,6 @@ Use this **one‑page decision** to pick the edge correctly:
 
 Γ_m.slice(ent : U.Entity, facet : U.Facet) → S : U.Holon
   // assert internal U.KernelPartOf(S, ent) and record facet label
-
 
 **Trace (conceptual, notation‑independent).**
 `Trace = ⟨ op ∈ {sum, set, slice}, inputs, output, notes ⟩`

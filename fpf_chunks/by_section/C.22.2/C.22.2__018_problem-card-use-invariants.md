@@ -6,12 +6,12 @@ section_id: "C.22.2:17"
 section_title: "Problem-Card Use Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__018_problem-card-use-invariants.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:17 — Problem-Card Use Invariants"
-line_start: 44390
-line_end: 44402
+line_start: 44314
+line_end: 44326
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,12 +65,12 @@ keywords:
 
 These invariants govern use of one `ProblemCard@Context`; they do not add card fields.
 
-| Invariant | Required reading |
+| Invariant | Required recovery |
 |---|---|
 | One card, one current problem-side representation | One `ProblemCard@Context` instance carries one problem-side representation under one declared context. If the represented problem changes, the card states the changed representation or exits to the representation pattern that carries the change. |
-| No hidden companion records | A card may mature, but it does not fork into hidden `TaskSignature`, `WorkPlan`, evidence, gate, autonomy, archive, portfolio, selected-set, or mathematical adequacy records. |
-| Heavy relations exit | Evidence, provenance, assurance, gate, autonomy, work, archive, selected-set, comparison, acceptance, representation-transition, temporal, causal, and mathematical adequacy authority stays with the receiving pattern that owns the live relation. |
+| No hidden companion records | A card may mature, but it does not fork into hidden `TaskSignature`, `WorkPlan`, evidence, gate, autonomy, archive, portfolio, selected-set, or mathematical-lens use records. |
+| Heavy relations exit | Evidence, provenance, assurance, gate, autonomy, work, archive, selected-set, comparison, acceptance, representation-transition, temporal, causal, and C.29 authority for mathematical-lens use stays with the receiving pattern that carries the live relation. |
 | `P2W-ready` is problem-side readiness | `P2W-ready` means problem-side input ready, not work ready, not gate-passed, not method-selected, and not evidence-proved. |
-| Stale or blocked cards need a disposition | A stale, unknown-blocked, changed-representation, or missing-basis card cannot silently remain `P2W-ready`; it states refresh, retirement, bounded use, `abstain/no-change`, or a named neighboring exit. |
+| Stale or blocked cards need a disposition | A stale, unknown-blocked, changed-representation, or missing required reason, criterion, or source-reference card cannot silently remain `P2W-ready`; it states refresh, retirement, bounded use, `abstain/no-change`, or a named neighboring exit. |
 | Smallest truthful card wins | The smallest card that gives an honest next move is sufficient. Full field completion is not required when a Thin card already gives the truthful next move. |
 

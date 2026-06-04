@@ -6,12 +6,12 @@ section_id: "C.3.A:2"
 section_title: "Context & Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__003_context-problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:2 — Context & Problem"
-line_start: 38610
-line_end: 38625
+line_start: 38590
+line_end: 38604
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -29,7 +29,7 @@ keywords:
 Projects often:
 
 * treat **“more abstract wording”** as wider **G**,
-* glue claims with incompatible **describedEntity** (kinds),
+* glue claims with incompatible **entityOfConcern** (kinds),
 * move typed content across Contexts without **declared bridges**,
 * or bake **AT** (abstraction vibe) into decision logic.
 
@@ -38,5 +38,4 @@ Projects often:
 — require **both** bridges where needed,
 — push congruence penalties to **R** only, and
 — forbid **AT** in guards.
-
 

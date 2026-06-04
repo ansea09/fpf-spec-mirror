@@ -6,12 +6,12 @@ section_id: "F.0.1:3"
 section_title: "Minimal Conceptual Objects (conceptual, notationally neutral)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__004_minimal-conceptual-objects-conceptual-notationally-neutral.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:3 — Minimal Conceptual Objects (conceptual, notationally neutral)"
-line_start: 68246
-line_end: 68275
+line_start: 69113
+line_end: 69141
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -65,5 +65,4 @@ A terse descriptor used in the **Context Map** (F.1):
 * `relation` (e.g., *equivalent‑under‑assumptions*, *overlaps*, *broader‑than*)
 * `CL` (Congruence Level; feeds B.3 Trust & Assurance)
 * `loss/fit` (explicit statement of what is lost or assumed)
-
 

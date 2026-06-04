@@ -6,12 +6,12 @@ section_id: "F.1:8"
 section_title: "Invariants (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__009_invariants-normative-lightweight.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:8 — Invariants (normative, lightweight)"
-line_start: 68605
-line_end: 68618
+line_start: 69456
+line_end: 69469
 dependencies:
   - "A.11"
   - "A.7"
@@ -43,7 +43,7 @@ keywords:
 6. **DesignRunTag honesty.** If a canon fixes a DesignRunTag, note it. Do not reinterpret.
 7. **Didactic primacy.** Each Context Card must be readable by a thoughtful engineer in **under two minutes**.
 8. **Domain‑family neutrality.** Domain families **carry no semantics**; they SHALL NOT be used for inheritance, inference, or bridge implication.
-9. **Scope naming separation.** `Scope gist` on Cards is **didactic only**; formal *Scope/describedEntity* (=`USM.ScopeSlice(G)` ⊕ `describedEntity(GroundingHolon, ReferencePlane)`) is declared **in G.0–G.1**, not in F.1.
+9. **Scope naming separation.** `Scope gist` on Cards is **didactic only**; formal *Scope/entityOfConcern* (=`USM.ScopeSlice(G)` ⊕ `entityOfConcern(GroundingHolon, ReferencePlane)`) is declared **in G.0–G.1**, not in F.1.
 10. **Diversity signature present.** Each Context Card PUBLISHES a `dSig` in the 5‑characteristics form.
 11. **Collision rule.** If any pair of Cards has `dSig` matching on ≥3 characteristics, mark **Near‑Duplicate** and either merge  into one slot or replace one by a Context from a different domain‑family. Record action in SCR.
 

@@ -6,12 +6,12 @@ section_id: "E.10.D1:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__008_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:7 — Conformance Checklist (normative)"
-line_start: 58559
-line_end: 58569
+line_start: 59692
+line_end: 59701
 dependencies:
   - "A.4"
   - "A.7"
@@ -42,5 +42,4 @@ keywords:
 * **CC‑LCTX‑5.** No file defines “domain context”; Domain appears only as an **informative family**.
 * **CC‑LCTX‑6.** No is‑a edges between contexts; any cross‑context relation is located in **E.10.U9**.
 * **CC‑LCTX‑7.** Language/edition handling matches **D‑CTX‑7** (separate Contexts when semantics can diverge).
-
 

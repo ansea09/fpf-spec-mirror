@@ -6,12 +6,12 @@ section_id: "F.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:3 — Forces"
-line_start: 73518
-line_end: 73527
+line_start: 74151
+line_end: 74159
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -36,5 +36,4 @@ keywords:
 | **Locality vs reuse**      | Preserve context‑local meaning while enabling Cross‑context comparison.     |
 | **Stability vs evolution** | Allow new editions and rows without erasing prior sense.              |
 | **Clarity vs formality**   | Checks must be teachable in minutes yet specific enough to catch drift. |
-
 

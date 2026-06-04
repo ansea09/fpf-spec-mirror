@@ -6,12 +6,12 @@ section_id: "A.2.5:15"
 section_title: "Author conformance (write good RSGs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__016_author-conformance-write-good-rsgs.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:15 — Author conformance (write good RSGs)"
-line_start: 3855
-line_end: 3878
+line_start: 3806
+line_end: 3829
 dependencies:
   - "A.15"
   - "A.2.1"

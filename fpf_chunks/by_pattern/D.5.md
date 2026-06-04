@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
-line_start: 53522
-line_end: 53696
+line_start: 54636
+line_end: 54808
 dependencies:
   - "B.3"
   - "B.3.3"
@@ -30,10 +30,10 @@ keywords:
 
 ## D.5 - Bias-Audit & Ethical Assurance
 
+
 **Use this when.** Use this pattern when a holon, model, metric, decision system, policy, or authored FPF claim may create unfair, biased, or ethically unsafe effects for people or groups. If the fairness claim is causal — for example "this intervention is fair", "this policy would have prevented harm", "this model is counterfactually fair", or "this practice causally reduces disparity" — keep the ethical audit in `D.5` and cite `C.28` for causal-use question, causality-ladder rung, estimand, causal evidence support basis, identification, realizability, evidence design, support record, and support verdict.
 
-**Not this pattern when.** If the live question is only measurement construction, use `C.16`; if it is only causal-use support without fairness or ethical audit, use `C.28`; if it is only an assurance claim or assurance support posture, use `B.3`. Metric disparity alone is not yet causal fairness.
-
+**Not this pattern when.** If the live question is only measurement construction, use `C.16`; if it is only causal-use support without fairness or ethical audit, use `C.28`; if it is only an assurance claim or assurance input/result, use `B.3`. Metric disparity alone is not yet causal fairness.
 
 **Causal-fairness boundary.** A local `C.28` causal-fairness repair, such as adding a causal-use question, estimand, support basis, support record, or supported-fairness-use and unsupported-fairness-use pair, is not by itself the Bias-Audit Cycle. It remains a local support repair until the claim, model, metric, policy, or decision system is in a `D.5` project, release, assurance, or human/group-impact audit condition.
 
@@ -41,7 +41,7 @@ keywords:
 
 FPF is designed to produce reliable, objective, and trustworthy holons. However, formal correctness (`FV` score) and empirical validation (`EV` score) are not sufficient on their own. Any record, model, metric, policy, or decision system designed by humans or trained on human-generated data is susceptible to hidden cognitive, cultural, and algorithmic biases. A perfectly verified control system can still be unsafe if its requirements were based on a biased assumption about operator behavior. A highly accurate machine learning model can be deeply unfair if its training data was not representative.
 
-A fairness claim can also be unsafe by causal overclaim. "This policy is fair because a metric improved" is not the same claim as causal fairness, counterfactual fairness, or path-specific fairness. `D.5` therefore brings causal fairness into the audit entry surface: the audit must distinguish metric disparity, associative fairness evidence, interventional fairness proxy, and counterfactual fairness claim before the ethical assurance record is treated as supported.
+A fairness claim can also be unsafe by causal overclaim. "This policy is fair because a metric improved" is not the same claim as causal fairness, counterfactual fairness, or path-specific fairness. `D.5` therefore brings causal fairness into the audit entry section: the audit must distinguish metric disparity, associative fairness evidence, interventional fairness proxy, and counterfactual fairness claim before the ethical assurance record is treated as supported.
 
 ### D.5:2 - **Problem**
 
@@ -118,7 +118,6 @@ The Bias-Audit Cycle produces two key records that serve as the auditable record
 
 When a fairness claim is causal rather than metric-only, `D.5` records the ethical-audit question and cites `C.28` for causal-use support:
 
-
 ```text
 CausalFairnessUseAuditCard {
   causalUseQuestionRef: U.CausalUseQuestion
@@ -156,7 +155,6 @@ What changes in practice: a fairness audit must say whether the claim is associa
 
 What this does not authorize: `D.5` does not replace `C.28` for causal-use question, causality-ladder rung, estimand, identification, realizability, or `CausalUseSupportVerdict`; it keeps ethical audit and fairness assurance, while `B.3` keeps assurance claim support and non-admissible-use consequences.
 
-
 ### D.5:5 - **Conformance Checklist**
 
 *   **CC-D5.1 (Cycle Mandate):** Any project developing a holon that interacts with or makes decisions about humans **MUST** conduct the Bias-Audit Cycle.
@@ -168,7 +166,6 @@ What this does not authorize: `D.5` does not replace `C.28` for causal-use quest
 *   **CC-D5-CF-3:** If a counterfactual fairness estimand is claimed actionable, it MUST cite `CausalIdentificationProfile` or `CounterfactualSamplingRealizabilityProfile`.
 *   **CC-D5-CF-4:** A causal fairness audit MUST cite `C.28` for causal-use question, causality-ladder rung, causal estimand, causal evidence support basis, identification, realizability, evidence design, `causalUseSupportRecordRef` when one is consumed, and `CausalUseSupportVerdict`; `D.5` keeps ethical audit and fairness assurance.
 *   **CC-D5-CF-5:** A local causal-fairness wording repair or support-reference repair does not trigger the full Bias-Audit Cycle unless `D.5` project, release, assurance, or human/group-impact audit conditions are live.
-
 
 ### D.5:6 - **Common Anti-Patterns and How to Avoid Them**
 
@@ -202,4 +199,5 @@ By integrating this cycle into the core engineering work cycle, FPF moves ethica
 
 ### D.5:End
 
+# **Part E – The FPF Constitution and Authoring Guides**
 

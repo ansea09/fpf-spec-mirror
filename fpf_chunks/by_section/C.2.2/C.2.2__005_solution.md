@@ -6,12 +6,12 @@ section_id: "C.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:4 — Solution"
-line_start: 34839
-line_end: 35047
+line_start: 34928
+line_end: 35136
 dependencies:
   - "A.2.6"
   - "A.21"
@@ -230,7 +230,7 @@ This constraint prevents “type-by-scope” anti-patterns where scope manipulat
 
 A minimal, conforming KD‑CAL authoring flow for reliability is:
 
-1. **Fix the typed claim.** State the claim as a typed proposition about a described entity (Kind‑CAL, C.3).
+1. **Fix the typed claim.** State the claim as a typed proposition about a EntityOfConcern (Kind‑CAL, C.3).
 2. **Declare claim scope.** Write `G` explicitly using A.2.6 operators; avoid scope-by-wording.
 3. **Declare stance carriers.** Declare `K=U.BoundedContext`, `S ∈ {design, run}`, and (where relevant on Working‑Model surfaces) `validationMode ∈ {postulate, inferential, axiomatic}`; declare `ReferencePlane` if crossings are in play.
 4. **Bind evidence.** Attach evidence stubs and lane tags (TA/VA/LA) and validity windows / decay policy where applicable (B.3.3, B.3.4).

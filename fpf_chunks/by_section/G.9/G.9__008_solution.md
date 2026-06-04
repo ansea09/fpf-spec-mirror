@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.9"
-pattern_title: "Parity / Benchmark Harness"
+pattern_title: "Parity and Benchmark Harness"
 section_id: "G.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__008_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "G.9 — Parity / Benchmark Harness"
+  - "G.9 — Parity and Benchmark Harness"
   - "G.9:4 — Solution"
-line_start: 79902
-line_end: 80223
+line_start: 80492
+line_end: 80815
 dependencies:
   - "A.19"
   - "A.21"
@@ -63,7 +63,7 @@ Effective obligations/pins/triggers are computed as **union(expand(sets), explic
   `GCoreTriggerSetId.CGSpecGate`
   }
 * `RSCRTriggerKindIds` := {
-  `RSCRTriggerKindId.EvidenceSurfaceEdit`,
+  `RSCRTriggerKindId.EvidencePathOrSourceRelationEdit`,
   `RSCRTriggerKindId.PenaltyPolicyEdit`,
   `RSCRTriggerKindId.BaselineBindingEdit`,
   `RSCRTriggerKindId.TelemetryDelta`
@@ -109,8 +109,10 @@ Minimal fields (conceptual; ids/pins only):
 
 `ParityPlan@Context := ⟨
   ParityPlanId(UTS),
-  CGFrameId?,                              // or CG-FrameContext id/scope anchor cited by the referenced frame records
-  describedEntity := ⟨GroundingHolon, ReferencePlane⟩,
+  CGFrameId?,                              // or CG-FrameContext id/scope reference cited by the referenced frame records
+  entityOfConcernRef := EntityOfConcernRef,
+  groundingHolonRef := GroundingHolonRef,
+  referencePlaneRef := ReferencePlane,
   UNM_id?, NormalizationMethodId[]?, NormalizationMethodInstanceId[]?, // when “normalize, then compare” is required (ids only; semantics come from CN‑Spec / UNM)
   EpsilonDominance?,                       // optional ε-front thinning (ε≥0; id/param; pinned when used)
   PortfolioMode?, DominanceRegime?,         // may be explicit or inherited via DefaultGoverningDefinition (semantics follow G.5)
@@ -162,7 +164,7 @@ A UTS-publishable parity publication record produced by running a `ParityPlan@Co
 Planning is the act of making the parity run *reproducible by construction*:
 
 1. **Fix the baseline set.** Choose the `BaselineSet` (MethodFamilies, and optionally GeneratorFamilies) to compare; where parity context matters, cite `SoS‑LOGBundleId?` and source-maturity ids by reference (acceptance-gate thresholds remain in `G.4` Acceptance).
-2. **Bind scope.** Fix `describedEntity := ⟨GroundingHolon, ReferencePlane⟩` and record it in the plan (no silent widening/narrowing).
+2. **Bind scope.** Fix `entityOfConcernRef`, `groundingHolonRef`, and `referencePlaneRef = ReferencePlane` and record all three in the plan (no silent widening/narrowing or EoC/grounding-holon collapse).
 3. **Define baseline-set reference.** Declare what counts as “baseline set” and how it is cited (e.g., `BaselineBindingRef`, the evidence-backed baseline-set reference, pointing to an EvidenceGraph path slice or an upstream shipped package or publication-record id).
 4. **Equalise window (and budget, if pinned).** Declare a single `FreshnessWindows` and apply it across all baselines; if `Budgeting` is used/pinned, it MUST be shared/pinned across baselines as well.
 
@@ -269,13 +271,13 @@ Parity reports comparing causal methods fill this record so the "same" claims ar
 - declaredCausalityLadderBridgeOrLossRef where causality-ladder rungs differ;
 - causalTransportabilityProfileRef where source population, target population, domain, context, or evidence regime differs;
 - causalParameterEstimationProfileRef where estimation validity, uncertainty, nuisance handling, or sensitivity differs;
-- degraded or abstain posture where parity cannot be established.
+- degraded parity or abstain result where parity cannot be established.
 
 Causality-ladder parity is a degrade/abstain condition, not a universal comparison ban. Cross-rung method comparisons must name `declaredCausalityLadderBridgeOrLossRef` and cannot become superiority claims by default.
 
 What changes in practice: one benchmark cannot compare a predictive model, an interventional action/effect question optimizer, and a counterfactual comparison question strategy as one undifferentiated "method improvement" set.
 
-What this does not authorize: `G.9` does not decide causal identification, causal fairness, or counterfactual sampling realizability; it keeps parity/benchmark harness authority and sends causal-use support to `C.28`.
+What this does not authorize: `G.9` does not decide causal identification, causal fairness, or counterfactual sampling realizability; it keeps parity and benchmark harness authority and sends causal-use support to `C.28`.
 
 #### G.9:4.9 — Extensions (pattern‑scoped; non‑core)
 
@@ -316,7 +318,7 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
   * `FailureBehaviorPolicyId/SoSLogBranchId`
   * `EvidenceTrace.PathId[]` / `PathSliceId?`
   * `AcceptanceClauseId[]` *(when referenced)*
-* **RSCRTriggerKindIds:** `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.TelemetryDelta}`
+* **RSCRTriggerKindIds:** `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.EvidencePathOrSourceRelationEdit, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.TelemetryDelta}`
 * **Notes (wiring-only):** Explains **why** a parity run degraded/abstained by citing SoS‑LOG ids and evidence paths; does not redefine guard semantics.
 
 **GPatternExtension block: `G.9:Ext.DHCParityPins`**
@@ -330,7 +332,7 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
 * **RequiredPins/EditionPins/PolicyPins (minimum; conditional on use):**
   * `DHCMethodRef.edition`
   * `DHCMethodSpecRef.edition?` *(when the cited DHC method spec distinguishes method vs method-spec editions)*
-* **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.EvidenceSurfaceEdit}`
+* **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.EvidencePathOrSourceRelationEdit}`
 * **Notes (wiring-only):** Declares the pins required to make DHC‑based parity reproducible and RSCR‑refreshable; semantics of DHC lives in `C.21`.
 
 **GPatternExtension block: `G.9:Ext.QDArchiveParity`**

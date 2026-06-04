@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Architecture Description Adequacy (ADA)"
+pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
 section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.30 — Architecture Description Adequacy (ADA)"
+  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 51397
-line_end: 51420
+line_start: 51224
+line_end: 51247
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,10 +30,12 @@ dependencies:
   - "C.25"
   - "C.28"
   - "C.29"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -47,9 +49,10 @@ dependencies:
 keywords:
   - "ArchitectureOf@Context"
   - "architecture claim"
-  - "architecture description"
   - "architecture question card"
+  - "architecture-description boundary"
   - "artifact-as-architecture guard"
+  - "grounded architecture"
   - "selected structure"
 ---
 
@@ -63,17 +66,17 @@ Engineering teams use "architecture" for several different things:
 - a TGA graph or flow description;
 - a functional, control, information, deployment, logical, or physical structure view;
 - an ADR-like publication;
-- a decision, gate, evidence path, assurance case, or release claim.
+- a project-side claim carried by another exact FPF pattern.
 
-These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: the architecture-relevant selected structure, the architecture claim over that structure, the D/S description or view of that claim, the publication of that description or view, and the project decision about changing architecture are different records.
+These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: the architecture-relevant selected structure, the architecture claim over that structure, the Description episteme or view of that claim, the publication of that description or view, and the project decision about changing architecture are different records.
 
-The first-minute practitioner can ask: Are we choosing an architecture, or just naming a module layout? Which structure is being described: function, flow, control, module/interface, work, role/enactor, evidence/assurance, information/data, placement/deployment, scale, or declared logical structure? What artifact are we looking at: architecture claim, description, view, carrier, publication, decision, source-relation object, or mathematical lens?
+The first-minute practitioner can ask: Are we choosing an architecture, or just naming a module layout? Which structure is being described: function, flow, control, module structure, interface relation, work, role relation, enactor structure, evidence relation, assurance relation, information structure, data structure, placement structure, deployment structure, scale structure, or declared logical structure? What artifact are we looking at: architecture claim, description, view, carrier, publication, decision, source relation, or mathematical lens?
 
 How can FPF describe architecture without:
 
 - creating `U.Architecture` as a new root kind;
 - treating a description, view, diagram, graph, ADR, dashboard, or generated relation graph as the architecture;
-- reducing architecture to module/interface structure;
+- reducing architecture to module structure or interface relation;
 - letting TGA, LCA, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
 - making architecture descriptions so heavy that ordinary practitioners cannot get a first useful move.
 

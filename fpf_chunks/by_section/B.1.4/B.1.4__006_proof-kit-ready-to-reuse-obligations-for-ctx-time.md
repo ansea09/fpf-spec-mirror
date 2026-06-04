@@ -6,12 +6,12 @@ section_id: "B.1.4:5"
 section_title: "Proof Kit (ready‑to‑reuse obligations for Γ\\_ctx / Γ\\_time)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__006_proof-kit-ready-to-reuse-obligations-for-ctx-time.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:5 — Proof Kit (ready‑to‑reuse obligations for Γ\\_ctx / Γ\\_time)"
-line_start: 29253
-line_end: 29306
+line_start: 29419
+line_end: 29471
 dependencies:
   - "A.12"
   - "A.14"
@@ -77,5 +77,4 @@ This Proof Kit instantiates the generic obligations from **B.1.1 §6** for the o
 
 * **TIME‑SCOPE/BOUND.**
   Keep design‑time hypothetical timelines and run‑time actual logs separate; route resource statements for phases to **Γ\_work** (not Γ\_time).
-
 

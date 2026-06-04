@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.9"
-pattern_title: "Parity / Benchmark Harness"
+pattern_title: "Parity and Benchmark Harness"
 section_id: "G.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__007_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "G.9 — Parity / Benchmark Harness"
+  - "G.9 — Parity and Benchmark Harness"
   - "G.9:3 — Forces"
-line_start: 79892
-line_end: 79901
+line_start: 80482
+line_end: 80491
 dependencies:
   - "A.19"
   - "A.21"
@@ -51,6 +51,6 @@ keywords:
 * **Edition sensitivity.** Parity must be robust to silent drift in measurement/comparator definitions. When DHC/QD/OEE modes are used, the required definition pins are introduced only via the corresponding `Extensions` blocks (nil‑elision when unused).
 * **Telemetry vs objectives.** IlluminationSummary and coverage/regret are telemetry: **report‑only by default**; dominance changes require explicit CAL policy ids (recorded in audit pins).
 * **GateCrossing visibility.** Any crossings/gates used by parity must be visible and auditable via CrossingBundle + GateCrossing checks; failures block parity publication/consumption.
-* **Cross‑Context reuse.** Any reuse across contexts or reference planes must carry explicit crossing pins, audit support, and R-channel penalty placement.
+* **Cross‑Context reuse.** Any reuse across contexts or reference planes must carry explicit crossing pins, audit evidence relation, and R-channel penalty placement.
 * **Refreshability.** Parity must emit RSCR‑relevant causes as canonical ids, with enough pins to re‑run.
 

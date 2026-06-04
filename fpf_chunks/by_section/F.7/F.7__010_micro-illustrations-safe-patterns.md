@@ -6,12 +6,12 @@ section_id: "F.7:9"
 section_title: "Micro‑illustrations (safe patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__010_micro-illustrations-safe-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:9 — Micro‑illustrations (safe patterns)"
-line_start: 70512
-line_end: 70534
+line_start: 71295
+line_end: 71316
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -55,5 +55,4 @@ keywords:
 | FPF Label              | Row Scope | Row CL(min) | BPMN 2.0              | PROV‑O                  | Thermodynamics           | Rationale                                                 | Counter‑examples                                                                   |
 | ---------------------- | --------- | ----------- | --------------------- | ----------------------- | ------------------------ | --------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | **process** (contrast) | —         | —           | *graph of flow nodes* | *time‑bounded activity* | *state‑space trajectory* | Same surface, **different** senses; no licensed sameness. | Any attempt to equate design‑graph with run‑occurrence fails stance compatibility. |
-
 

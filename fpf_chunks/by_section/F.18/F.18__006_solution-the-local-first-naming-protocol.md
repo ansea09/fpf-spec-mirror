@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution — The Local‑First Naming Protocol"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution-the-local-first-naming-protocol.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:4 — Solution — The Local‑First Naming Protocol"
-line_start: 74534
-line_end: 74717
+line_start: 75122
+line_end: 75317
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -84,12 +84,12 @@ When P1 uses **NQD-CAL (C.18)**, treat the **Quality vector** over candidates as
   *Scale (ordinal; ↑ better).* `{Alienating, Jargon, Acceptable, Natural}` with `Natural ≻ Acceptable ≻ Jargon ≻ Alienating`. Prefer labels **≥ Acceptable** in the stewardship Context.
 
 * **MorphologicalActionFit (O — Morphological/action alignment).**
-  *Question.* Does the morphology of the label hint at its role in **methods/morphisms** (object vs process vs result) and support the required derivational family (noun/verb/participial forms)?
+  *Question.* Does the morphology of the label hint at its role in **methods/morphisms** (object vs process vs result) and preserve the required derivational family (noun/verb/participial forms)?
   *Scale (ordinal; ↑ better).* `{Opaque, Role‑hinting, Action‑aligned}`. Action‑aligned labels make it obvious whether we are naming an **actor**, an **activity**, or a **publication result** (e.g., *ReviewerRole* vs *Reviewing* vs *ReviewRecord*).
   *Kind-sensitive cues.* When the **Kind** on the Card is a **Role**, prefer agentive/holder morphology (*…Role*, *…er*, *…or* or local equivalents); when the Kind is **Method or MethodDescription**, prefer verbal or gerundive forms; when the Kind is **Holon**, prefer result nouns, when **Work**, prefer verb. Misaligned morphology (e.g., a Role named with a pure process noun) should be treated as a **penalty on MorphologicalActionFit** and, if retained for legacy or regulatory reasons, called out explicitly in **Card notes**. See F.5/F.11/F.12 and **LEX-BUNDLE §8**.
 
 * **AliasRisk (A — Lexical overload).**
-  *Question.* How likely is a careful reader to import a **wrong sense** from neighbouring FPF records/publications or external canons when they see this string?
+  *Question.* How likely is a careful reader to import a **wrong sense** from neighbouring FPF records and publications or external canons when they see this string?
   *Scale (ordinal; ↓ better).* `{Safe, Context‑dependent, High‑Risk, Overloaded}` with `Safe ≻ Context‑dependent ≻ High‑Risk ≻ Overloaded`. Avoid adopting **Overloaded** labels unless required by legacy and called out explicitly in notes. When C.18’s **DomainDiversitySignature** is available, AliasRisk MAY be refined into a CHR‑typed characteristic with the same polarity.
 
 Use these components for **Pareto comparison only** (per **C.16** ordinal discipline). Do **not** collapse them into a single scalar score; the NQD-front is computed over the **vector of lexical Q-components** together with **Novelty** and **Diversity_P**.
@@ -108,11 +108,10 @@ Before minting, search your Context’s **Concept‑Set table**. If a row alread
 Every Name Card **must** indicate its Concept‑Set row (or record “not applicable” for intentionally Context‑unique names). This is the handle for alignment and anti‑explosion control.
 
 **P5 — UTS registration (F.17).**
-Publish each Name Card to the **Unified Term Sheet** with Context, kind, twin labels, sense anchor, edition, and lineage status. Keep the UTS the single, human-readable table of record.
+Publish each Name Card to the **Unified Term Sheet** with Context, kind, twin labels, sense reference, edition, and lineage status. Keep the UTS the single, human-readable table of record.
 
 **P6 — Lexical-continuity hygiene (F.13).**
 Apply the same discipline to renames, splits, merges, and retirements; leave forward and backward pointers so readers can trace lexical continuity at a glance.
-
 
 #### F.18:4.3 - Guarded-head note for locally risky labels
 Some locally useful heads remain risky because they already carry different load-bearing readings in different admissible local texts. In such cases, authors may publish a **guarded-head note** as a thin naming-governance companion.
@@ -132,11 +131,10 @@ the amendment itself.
 
 The amendment should therefore assign each effect to one named FPF pattern,
 pattern section, field, relation, or section of a named non-pattern FPF publication
-form with a support function. When such a non-pattern publication form is used,
+form with an entry or retrieval-aid function. When such a non-pattern publication form is used,
 its publication form, companion function, and reference must be named by value,
 and the referenced section must carry that effect. Do not let the single trigger
 word `discoverability` become one semantic swamp.
-
 
 The canonical settlement table for this amendment is:
 
@@ -146,14 +144,28 @@ The canonical settlement table for this amendment is:
 | `description recognition signature` | first-contact cue structure of one description-bearing unit | `A.6.RSIG` | `discoverability of descriptions` |
 | `recognition text` | existing first reading text inside one pattern | `E.8` | invented `discoverability surface` |
 | `entry neighborhood` | entry-load-oriented grouping of plausible patterns, tempting wrong patterns, entry-load reclassifications, and admissible stops | `E.11`; `J.4` only when the entry grouping is a pattern-language map | `route` |
-| `entry lexeme retrieval aid` | lexical and query retrieval aid without alias minting | `F.17`, `F.18`, and `E.10`, coordinated by `E.11` | `lexical discoverability`, bare `search support` |
+| `entry lexeme retrieval aid` | lexical and query retrieval aid without alias minting | `F.17`, `F.18`, and `E.10`, coordinated by `E.11` | `lexical discoverability`, bare search-help wording |
 | `worked entry reading` | bounded interpretive case reading | `I.2` | `workflow`, `scenario script`, `route` |
 | `thin echo` | low-detail projection pointer to the cited pattern, cited pattern section, field, relation, or section of a named non-pattern FPF publication form; the pointer makes the publication form, companion function, and reference recoverable, and the referenced section carries the claim | `E.11` | duplicated guidance, parallel blurbs |
 
 One canonical term per job is the settled target of this amendment.
-Deprecated wording may remain only as plain search cues or explicit deprecated-alias guards while the wording is being repaired by value.
+Rejected or superseded wording is not live Plain or Tech vocabulary; the row uses the selected name.
 
+#### F.18:4.3b - EntityOfConcern family naming settlement
 
+When naming work touches the C.2.1 EntityOfConcern family, use these rows as the local-first settlement. They are Name Card settlements for field and head names; they do not create a new `U.*` kind, relation kind, evidence kind, publication kind, or universal entity ontology.
+
+`EntityOfConcern` is the selected Tech head for the Russian idea "интересуемая сущность" in the episteme slot/ref and same-EntityOfConcern alignment family. It means the entity, relation, claim record, or exact kind/reference pair selected for the declared use by role-method-interest selection, construction/reference trace, episteme trace when a Description episteme or Description episteme admitted for specification use is live, publication-unit trace when a bounded unit is live, bridge or retargeting trace when sameness crosses context, and witness trace when work, action, or reliance is live. If that trace is missing, the result is a candidate set, blocked use, or non-use, not a stronger claim under a nicer name.
+
+| Name or source wording | F.18 settlement | Must not mean |
+| --- | --- | --- |
+| `EntityOfConcern` | Preferred Tech head for the EntityOfConcern, relation, claim record, or exact kind/reference pair that a claim-bearing episteme, pattern body, or bounded publication unit treats as primary for the declared use. | A universal `object`, a topic by interest alone, the publication unit itself, or a new kernel kind. |
+| `EntityOfConcernSlot` | Entity-valued C.2.1 slot. Relation, claim-record, and exact kind/reference cases enter only through the declared relation/claim/reference discriminator and the exact receiving pattern. | A relation-valued bucket, a generic claim-use bucket, or a way to avoid the exact relation, evidence, gate, work, decision, assurance, or architecture pattern. |
+| `entityOfConcernRef`, `EntityOfConcernRef` | Reference handle for the EntityOfConcern under the slot/ref discipline of C.2.1. Same-EntityOfConcern cases preserve this reference; retargeting changes it only through A.6.4 and its invariant/loss boundary. | A free publication-unit field, title, topic, carrier reference, authoring-work reference, or review-object reference. |
+| `EntityOfConcernClass` | Constraint on admissible EntityOfConcern values only where an episteme slot or same-EntityOfConcern law is live. | A topic taxonomy, audience category, object-quality class, or default pattern-family partition. |
+| `publicationUnitPrimaryEntityOfConcern` | Technical head for the primary entity of concern, exact non-claim-bearing kind, topic, or subject that one bounded `PublicationUnit` is mainly about while carrying one move and one outside-work boundary. When a claim-bearing episteme or episteme-lane `U.View` is live, recover it through `EntityOfConcernRef`. | A C.2.1 slot by itself, a second EntityOfConcern ontology, a carrier identity, a title, or project-side authority by readable form. |
+| `EntityOfInterest`, `EoIClass`, `DescribedEntity*`, `describedEntityRef`, `primary described entity` | Use `EntityOfConcern`, `EntityOfConcernRef`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, or the exact local FPF kind. | Live technical vocabulary, second C.2.1 slot family, alias permission, or permission to keep old semantics beside the selected family. |
+| `EntityOfConcernAlignmentCase` | Local table head for the exact-same, retarget, bridge, relation-record, distinct-entity, and blocked-use split. | A new kernel kind or a substitute for A.6.4, F.9/F.17/F.18, A.6.P, or the exact receiving relation pattern. |
 #### F.18:5.1 - Card purpose & mode guard (normative)
 
 To prevent “post-hoc justification” of intuitively chosen labels, every **Name Card** SHALL declare its
@@ -189,7 +201,7 @@ For one-off local phrase repair, no Name Card mode is live. Use `E.10`, `C.2.P`,
 
 A **Name Card** is the authoritative, human‑readable record of a name inside its Context. It has these fields; teams may add local notes.
 
-1. **Row ID** — the stable, opaque **UTS row identifier** (the identity anchor).
+1. **Row ID** — the stable, opaque **UTS row identifier** (the row identity handle).
 2. **Twin labels** — **Unified Tech** and **Plain** (per E.10).
 3. **Context of meaning** — the Bounded Context and, if relevant, its edition.
 4. **Kind** — what sort of thing this is (System, Episteme, Role, Service, Method, Work, Objective, Requirement, Decision, Characteristic, etc.). This is an **ontological category**, not a spelling prefix.
@@ -207,5 +219,5 @@ A **Name Card** is the authoritative, human‑readable record of a name inside i
 16. **Version**  — current status and history of editions.
 17. **Card notes** — optional free text with comments about the name (e.g., recommended translations, etymology, pronunciation).
 
-**Manager’s reading habit.** When two names collide in a meeting, ask for their **Context**, **Kind**, **Purpose/use‑domain**, and **Sense anchor**. If any of those differ, you are comparing different things; switch to **Bridge** talk, not label talk.
+**Manager’s reading habit.** When two names collide in a meeting, ask for their **Context**, **Kind**, **Purpose/use-domain**, and **Sense reference**. If any of those differ, you are comparing different things; switch to **Bridge** talk, not label talk.
 

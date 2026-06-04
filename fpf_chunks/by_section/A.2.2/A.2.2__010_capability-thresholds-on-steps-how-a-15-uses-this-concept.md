@@ -6,12 +6,12 @@ section_id: "A.2.2:9"
 section_title: "Capability thresholds on steps (how A.15 uses this concept)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__010_capability-thresholds-on-steps-how-a-15-uses-this-concept.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:9 — Capability thresholds on steps (how A.15 uses this concept)"
-line_start: 2453
-line_end: 2469
+line_start: 2440
+line_end: 2455
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -48,5 +48,4 @@ A step in a **Method** may define **required roles** (assignment) and **capabili
 **What to avoid:**
 
 * Putting “Precision ≤ 0.2 mm” into the Role name. Keep thresholds attached to the **step**; keep **ability** on the **holder**.
-
 

@@ -6,12 +6,12 @@ section_id: "F.15:15"
 section_title: "Worked “dry‑runs” (composite slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__016_worked-dry-runs-composite-slices.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:15 — Worked “dry‑runs” (composite slices)"
-line_start: 73809
-line_end: 73857
+line_start: 74427
+line_end: 74471
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -44,7 +44,6 @@ E7 (**single-cell Role Description**): `AvailabilityStatus` still points to exac
 
 **Pay‑off.** History is preserved; reuse remains safe; acceptance bindings (F.12) still compare anchored things.
 
-
 #### F.15:15.2 - Rename a Role Description without changing meaning
 
 **Slice.** **Role Description** `IncidentStatus`@t0 → `ServiceIncidentStatus`@t1; same SenseCell.
@@ -54,7 +53,6 @@ E8 (**alias‑then‑rename**): create **Alias** `IncidentStatus → ServiceInci
 S8 (**name discipline**): new name fits the suffix rules (F.5).
 
 **Pay‑off.** Readers find both names; semantics untouched.
-
 
 #### F.15:15.3 - Tighten a Bridge (low-CL overlap → equivalence)
 
@@ -66,7 +64,6 @@ S12 (**bridge explicit**): update β(kind=≡, CL=3) with precise scope/loss (�
 
 **Pay‑off.** Equivalence is **scoped and auditable**, not hand‑waved.
 
-
 #### F.15:15.4 - Window misuse detected
 
 **Slice.** Team proposes *PeakHoursAvailabilityStatus* as a new Status type.
@@ -75,5 +72,4 @@ S12 (**bridge explicit**): update β(kind=≡, CL=3) with precise scope/loss (�
 S14/E11 (**window honesty**): reject new type; define a **window** for *peak hours* on `AvailabilityStatus`.
 
 **Pay‑off.** No type explosion; the evaluation logic in F.12 stays uniform.
-
 

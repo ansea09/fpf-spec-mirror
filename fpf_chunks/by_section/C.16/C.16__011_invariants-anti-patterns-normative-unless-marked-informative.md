@@ -6,12 +6,12 @@ section_id: "C.16:10"
 section_title: "Invariants & Anti‑Patterns (Normative unless marked “Informative”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__011_invariants-anti-patterns-normative-unless-marked-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:10 — Invariants & Anti‑Patterns (Normative unless marked “Informative”)"
-line_start: 40542
-line_end: 40605
+line_start: 40470
+line_end: 40532
 dependencies:
   - "A.10"
   - "A.17"
@@ -54,7 +54,7 @@ Within one template there is one *primary* **Unit** of expression (or an explici
 **N‑5 — Comparability guard.**
 Two Measures are comparable *iff* they share the same template (hence, the same Characteristic, Scale, and Unit) **or** stand in an explicit comparability relation whose governing FPF pattern or specification record is cited (e.g., an F‑cluster Bridge, or a cited characterization mechanism’s declared equivalence). Otherwise, comparability is not presumed.
 
-**N‑6 — Evidence as conceptual anchoring.**
+**N-6 - Evidence as conceptual relation.**
 If a template requires it, each Measure includes an **EvidenceStub** that conceptually links the Value to its grounds; absence where required makes the Measure inadmissible for use. *(This is a conceptual obligation; no process mechanics are implied.)*
 
 **N‑7 — Arity clarity.**
@@ -62,7 +62,6 @@ If the Characteristic is relational (applies to a pair or tuple), the subject of
 
 **N‑8 — Open‑ended evolution; graph, not lifecycle.**
 When MM‑CHR is used in change reasoning, movement happens in a **CharacteristicSpace** and along a **Role‑State Graph (RSG)**. There is no lifecycle terminal; revisions may re‑enter earlier framing nodes as per A.17. *(Conceptual control structure only.)*
-
 
 #### C.16:10.2 - Anti‑Patterns (A‑rules) — with cures
 

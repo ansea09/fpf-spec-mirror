@@ -6,12 +6,12 @@ section_id: "A.8:4"
 section_title: "Solution — The Three‑Domain Falsification Test"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__005_solution-the-three-domain-falsification-test.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:4 — Solution — The Three‑Domain Falsification Test"
-line_start: 17898
-line_end: 17928
+line_start: 17991
+line_end: 18020
 dependencies:
   - "A.8"
   - "U.Types"
@@ -51,5 +51,4 @@ Implementation steps (Domain Families):
    as a health signal; target ≤ 0.05 (not a bureaucratic gate).
 
 *Rule of thumb for busy managers:* “**One idea, three worlds.** If you can’t point to the trio, park it in a Extention Pattern.”
-
 

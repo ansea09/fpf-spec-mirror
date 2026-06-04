@@ -6,12 +6,12 @@ section_id: "C.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__007_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 39939
-line_end: 39957
+line_start: 39881
+line_end: 39899
 dependencies:
   - "A.13"
   - "A.18"
@@ -48,7 +48,7 @@ One quick usability test helps here: if the closing line does not state one lawf
 
 | Anti-pattern | Symptom | Why it fails | How to avoid / repair |
 | --- | --- | --- | --- |
-| Search takeover | The text starts treating option generation as if it were already part of decision doctrine. | `C.11` loses its governed object and silently absorbs `C.18`. | The option set is stated as already existing, and search questions are handled by `C.18`. |
+| Search takeover | The text starts treating option generation as if it were already part of decision doctrine. | `C.11` loses its OptionSet choice locus and silently absorbs `C.18`. | The option set is stated as already existing, and search questions are handled by `C.18`. |
 | Policy collapse | Exploration or exploitation governance over a candidate pool is written as if it were identical with choosing among current options. | Choice doctrine and candidate-pool policy become indistinguishable. | `C.19` remains explicit as the neighboring pattern for selection policy and exploration governance. |
 | Planning collapse | Sequencing, replanning, and enactment budgeting are written as if they were already part of the choice calculus. | Planning-side question moves out of `C.24` by accident. | Execution order and operational budgeting remain in `C.24`, even when `C.11` says more probing is rational. |
 | Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes one cleaned-up survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, probe-worthiness test, one explicit doctrine, and one emitted result. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.6.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
-line_start: 4025
-line_end: 4909
+line_start: 3968
+line_end: 4832
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -85,7 +85,6 @@ In **F–G–R**:
 
 When **G** is a **set‑valued scope**, composition becomes precise: serial dependencies **intersect** scopes; parallel, independently supported lines can publish a **SpanUnion**—but only where each line is supported.
 
-
 ### A.2.6:3 - Problem
 
 1. **Synonym soup.** *Applicability, envelope, generality, capability envelope*—different labels for the **same mechanism** led to mismatches in gating, review, and reuse.
@@ -93,7 +92,6 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 3. **Split mechanics.** Episteme vs system text used different algebra and guard language, though **the same set operations** were meant.
 4. **Cross‑context opacity.** Transfers between Contexts lacked a shared carrier and a rule for what changes (trust) vs what stays (scope).
 5. **Overloaded words.** *Validity* clashed with **Validation Assurance (LA)**; *operation/operational* clashed with **Work/Run** in A.15, producing governance ambiguity.
-
 
 ### A.2.6:4 - Forces
 
@@ -104,7 +102,6 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 | **Expressivity vs minimal vocabulary**            | Teams need to capture rich conditions (time windows, environment, versions) but not explode the lexicon into “envelope/applicability/…” variants.                |
 | **Static content vs operational change**          | Claims may hold broadly while current operations are narrow (or vice versa). The mechanism must keep “what is true” and “what can be done” aligned yet distinct. |
 | **Open‑world exploration vs closed‑world gating** | Exploration benefits from permissive drafts; **gates** require crisp, observable checks. The same scope object must support both.                                |
-
 
 ### A.2.6:5 - Solution — Overview (preview; full definitions in Part 2)
 
@@ -239,7 +236,6 @@ These SlotKinds are stable names for signatures, substitution laws, and guard te
 
 **Orthogonality.** Changes in **F** (form of expression) or **D/AT** (detail/abstraction tiers) do not change **G** unless the declared area of validity changes.
 
-
 #### A.2.6:6.4 - `U.WorkScope` — scope of doing Work (capability)
 
 **Carrier.** `U.Capability` (a system’s ability to deliver specified `U.Work`).
@@ -262,8 +258,8 @@ The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND*
 * **`U.QualificationWindow` (mandatory for operational use).** A time policy (point/window/rolling) stating when the capability is considered qualified; evaluated at `Γ_time`.
 These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (assurance). They MUST be referenced in Method–Work guards (see §10.3 WG‑2/WG‑3).
 
-#### A.2.6:6.5 - `U.PublicationScope` — scope of a publication view or surface
-**Carrier.** Publication carriers (e.g., **PublicationSurface or InteropSurface** views, cards, and lanes in Part E; MVPK faces).
+#### A.2.6:6.5 - `U.PublicationScope` — scope of a publication view or publication form
+**Carrier.** Publication faces, publication forms, interop publication forms, cards, lanes, and MVPK faces are publication-lane objects whose renderings live on carriers; the carrier remains separate from the publication view or form.
 **Meaning.** The set of `U.ContextSlice` where a **publication** (a view, card, or lane about some object or morphism) is **admissible for use** without introducing claims beyond its underlying carrier.
 
 **Relation to other scopes (normative).**
@@ -310,7 +306,6 @@ If `Scope_serial = ∅`, the chain is **inapplicable** and MUST NOT contribute t
 
 **Monotonicity.** Adding a new essential dependency can only narrow (or leave unchanged) the serial scope.
 
-
 #### A.2.6:7.3 - Parallel Support (SpanUnion)
 
 **Rule P‑UNION (parallel).** If there exist **independent** support lines `L₁,…,Lₙ` for the **same** claim/capability, each with serial scope `S_i`, the publisher MAY declare:
@@ -356,7 +351,6 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 
 **Effect.** The mapped scope is `T(Scope)` in the target Context. **CL penalties apply to R** (the trust in support and evidence), **not to F or G**. If mapping is coarse, the publisher SHOULD also narrow the mapped scope to the area where losses are negligible (best practice, not a requirement).
 
-
 #### A.2.6:7.6 - Δ‑Operations (Widen, Narrow, Refit)
 
 * **ΔG+ (widen).** Monotone expansion: `S ⊂ S′`. Requires new support or Bridges with sufficient declared `CL`.
@@ -376,12 +370,10 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 * **I‑IDS.** Idempotence: Intersecting or unioning a set with itself does not change it.
 * **I‑EMPTY.** Empty scope is a first‑class value; guards MUST treat it as “not applicable”.
 
-
 #### A.2.6:7.8 - Empty & Partial Scopes
 
 * **Empty scope (`∅`).** The claim/capability is **currently not usable anywhere** in the Context; guards MUST fail.
 * **Partial scope.** Publishers SHOULD avoid “global” language when actual scope is thin; instead, publish explicit slices and (informatively) coverage hints to guide R assessment.
-
 
 ### A.2.6:8 - Locality, Time & Version Semantics
 
@@ -404,7 +396,6 @@ Given fixed inputs (slice tuple, declared scope), the membership judgement MUST 
 #### A.2.6:8.5 - Interaction with R (freshness & decay)
 
 For empirical claims and operational capabilities, **R** typically binds evidence freshness windows. Scope does not decay with time; **trust in the support** does. Guards MAY combine “Scope covers” with “Evidence freshness holds” as separate predicates.
-
 
 ### A.2.6:9 - Lexical Discipline (Part E compliance)
 
@@ -438,7 +429,6 @@ Where:
 * **BridgePolicy**: required if the Scope and TargetSlice are in **different Contexts**; declares Bridge, CL, loss notes (§7.4).
 
 The guard **fails closed** (no membership ⇒ denial), and evaluation is **deterministic** given the slice tuple (§8.4).
-
 
 #### A.2.6:10.2 - ESG guard families (epistemes)
 
@@ -483,7 +473,6 @@ When the episteme declares a **SpanUnion** across independent lines, the guard M
 
 *(Informative note.)* Managers often combine EG‑1 (coverage) + EG‑2 (F threshold) + EG‑3 (freshness) for “Effective” or “Approved” states, and EG‑4 when adopting claims across Contexts.
 
-
 #### A.2.6:10.3 - Method–Work guard families (capabilities)
 
 **WG‑1 - WorkScopeCoverage (mandatory).**
@@ -519,7 +508,6 @@ CL penalties affect **R** (confidence in deliverability), **not** Work scope; ho
 **WG‑5 - Δ(WorkScope).**
 When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). Refit (e.g., new units/parametrization) requires no new evidence.
 
-
 #### A.2.6:10.4 - Bridge‑aware guard macro (reusable)
 
 A reusable macro for Cross‑context guards:
@@ -546,7 +534,6 @@ All ESG and Method–Work guards MUST spell out **`Γ_time`**:
 * **Policy** (“last lab calibration within 90 days”).
 
 Implicit “latest” is not allowed. If multiple contributors declare different policies, **serial intersection** computes the overlap (§8.2).
-
 
 ### A.2.6:11 - Conformance Checklist (USM)
 
@@ -621,7 +608,6 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 * **Bridge:** declared mapping `F→F’`, `P→P’`, **CL=1** (notably lossy).
 * **Guard:** Bridge present; `translate(G)` covers a **strict subset**; CL=1 penalizes **R** strongly; ESG requires **F≥F5** (executable semantics) and **freshness < 90 d**.
 * **Outcome:** allowed only for the covered subset; adoption flagged with reduced **R**.
-
 
 ### A.2.6:13 - Playbooks (Informative)
 
@@ -716,7 +702,6 @@ Contexts that adopt USM SHALL record, per scope‑aware decision:
 * **Opaque slices.** Disallow “domain” placeholders; enforce addressable selectors.
 * **Time drift.** Require `Γ_time` policies (rolling windows) for time‑sensitive scopes.
 
-
 ### A.2.6:15 - Cross‑Pattern Coordination
 
 #### A.2.6:15.1 - With F–G–R (C.2.2)
@@ -744,7 +729,6 @@ Contexts that adopt USM SHALL record, per scope‑aware decision:
 
 * Capabilities MUST declare **Work scope**, **measures**, **qualification windows**; gates MUST verify all three.
 * Capability refits that preserve the set (unit changes) are **Refit**, not Δ(WorkScope).
-
 
 ### A.2.6:16 - Extended FAQ (informative)
 
@@ -777,7 +761,6 @@ They are on different carriers. In a serial dependency, the **effective** scope 
 
 **Q10. When does an empty scope make sense?**
 It indicates “not usable anywhere (here, now)”. Guards MUST fail. This is common during early drafting or after a refutation.
-
 
 ### A.2.6:17 - Annexes (informative)
 
@@ -840,7 +823,6 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 
 **Survey focus (terms we align):** `U.ContextSlice`, generic **Scope** and set algebra, **Claim scope (G)**, **Work scope**, **Bridge & CL**, **Γ\_time**, **widen/narrow/refit/translate**, **SpanUnion / serial intersection**, separation from **F** and **R**, avoidance of overloaded **validity/operation** terms.
 
-
 #### A.2.6:17.4.2 - UTS Table (F.17) — Cross‑context term mapping
 
 |  # | Context / Source      | Local label(s) (native)                                                     | Closest USM concept                                                                      | Notes on fit & deltas                                                                                                                                                                         |
@@ -860,7 +842,6 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 
 **Summary.** Across all Contexts, two stable notions recur: (1) **evaluate in a concrete context** (→ `U.ContextSlice`), and (2) **declare where something holds/is deliverable** (→ set‑valued **Scope**). “Context of use,” “operating modes,” “targets,” “class extension,” and “OSED” are all Context‑flavored presentations of **Claim scope** or **Work scope**. Terms like *validity* and *operation* are semantically close but collide with **LA** and FPF’s **Work/Run** lexicon; we therefore **do not** adopt them as characteristic names.
 
-
 #### A.2.6:17.4.3 - F.18 Term Selection — Unified Tech & Plain names
 
 ##### A.2.6:17.4.3.1 - Selected names (normative)
@@ -870,7 +851,7 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 | Addressable evaluation context  | **`U.ContextSlice`**                            | **Context slice**                    | *Slice* (when local) | “domain” (as guard input), “latest” time                              |
 | Abstract mechanism (set‑valued) | **`U.Scope`**                                   | **Scope**                            | —                    | “applicability”, “envelope”, “validity” (as characteristic names)     |
 | Episteme applicability          | **`U.ClaimScope`** (*nick **G**)               | **Claim scope**                      | **G**                | “generality”, “applicability/envelope (of claim)”                     |
-| Capability applicability        | **`U.WorkScope`**                               | **Work scope**                       | “capability envelope”, “operational applicability”, “operation scope” |
+| Capability applicability        | **`U.WorkScope`**                               | **Work scope**                       | —                    | “capability envelope”, “operational applicability”, “operation scope” |
 | Time selector                   | **`Γ_time`**                                    | **Time selector**                    | —                    | implicit “latest”                                                     |
 | Cross‑context mapping              | **Bridge + CL**                                 | **Bridge + congruence level**        | **CL**               | silent reuse across Contexts                                             |
 | Parallel coverage               | **SpanUnion**                                   | **Union of supported areas**         | —                    | unqualified “union” without independence                              |
@@ -904,7 +885,6 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 | “Architecture view context” (42010)        | **Context slice** + **Scope** checks inside the view        |
 | “Capability envelope” (legacy safety docs) | **Work scope**                                              |
 | “Domain” (informal)                        | **Context slice** elements; not acceptable as a guard input |
-
 
 **Outcome.** The UTS shows clear convergence across SoTA Contexts on **addressable context** and **set‑valued applicability**. F.18 therefore fixes: **Context slice**, **Scope**, **Claim scope (G)**, **Work scope**, **Publication scope** with the algebra and guard clauses mandated in A.2.6. This closes synonym drift while remaining readable for engineering managers and precise for assurance tooling.
 

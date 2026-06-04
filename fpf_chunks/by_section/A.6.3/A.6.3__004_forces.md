@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing — describedEntity‑preserving morphism"
+pattern_title: "U.EpistemicViewing — EntityOfConcern-preserving morphism"
 section_id: "A.6.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism"
+  - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:3 — Forces"
-line_start: 9851
-line_end: 9871
+line_start: 9712
+line_end: 9732
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -26,43 +26,26 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
-  - "U.MultiViewDescribing"
-  - "U.RelationSlotDiscipline"
-  - "U.Signature"
 keywords:
-  - "ClaimGraph"
-  - "CorrespondenceModel"
-  - "Direct vs Correspondence Viewing"
-  - "EpistemicViewing"
-  - "RepresentationScheme"
-  - "Viewpoint"
-  - "describedEntity preservation"
-  - "displayed fibration"
-  - "episteme"
-  - "optics"
-  - "view"
 ---
 
 ### A.6.3:3 - Forces
 
-* **Same entity, different concerns.**
-  Stakeholders want different slices of the same description/specification, sometimes under different viewpoints, without re‑identifying the entity (system, method, role, service) being described.
+* **Same EntityOfConcern, different concerns.**
+  Stakeholders want different slices of the same description and specification-useification, sometimes under different viewpoints, without re-identifying the system, method, service, or other entity that fills `EntityOfConcernSlot`.
 
 * **Internal vs cross‑episteme views.**
-  Some views depend only on a single episteme (direct viewing); others depend on a **CorrespondenceModel** (e.g. aligning requirements and design models). Both must be supported, but with **different required supports**.
+  Some views depend only on a single episteme (direct viewing); others depend on a **CorrespondenceModel** (e.g. aligning requirements and design models). Both are admissible, but they require **different witnesses**.
 
 * **Conservativity vs expressivity.**
-  A view must not introduce new commitments about the described entity, but it may:
+  A view must not introduce new commitments about the EntityOfConcern, but it may:
 
   * aggregate or factor claims,
   * change representation regime (diagrammatic vs symbolic vs latent),
   * or shift to a different inference regime, **as long as this is conservative**.
 
-* **I/D/S strictness.**
-  `…Description` and `…Spec` are epistemes with `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`. Viewing must work over these **DescriptionContexts** without collapsing Intension (`I`) into episteme or confusing D/S with publication faces or carriers.
+* **EntityOfConcern and Description-episteme boundary and specification-use strictness.**
+  `…Description` names a Description episteme, and `…Spec` names a Description episteme admitted for specification use whose `subjectRef` decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` when the declared checkability/formality gate is present. Viewing works over these `DescriptionContext` triples without collapsing the EntityOfConcern into the Description episteme or Description episteme admitted for specification use produced by the use, while still allowing that EntityOfConcern to be a `U.Episteme` when an episteme is under concern; it also must not confuse those epistemes with publication faces or carriers.
 
 * **Slot discipline and modularity.**
   With C.2.1 and A.6.5, epistemes now have explicit `SlotKind`/`ValueKind`/`RefKind` triples. Viewing invariants must be stated **per SlotKind**, not in terms of ad‑hoc “fields”, so they can be reused across engineering, publication, and discipline packs.

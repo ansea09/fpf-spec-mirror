@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
-line_start: 4983
-line_end: 5303
+line_start: 4906
+line_end: 5223
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -44,7 +44,7 @@ keywords:
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → **A.2 Roles & Agency Kernel**
 > **Refines:** A.2 (Role Taxonomy)
-> **Builds on:** E.8 (authoring template), A.2.1 (RoleAssignment), A.2.6 (Scope & `Γ_time`), A.7 (Object≠Description≠Carrier), A.2.3 (`U.PromiseContent` as promise), A.15.1 (`U.Work`)
+> **Builds on:** E.8 (authoring template), A.2.1 (RoleAssignment), A.2.6 (Scope & `Γ_time`), A.7 (EntityOfConcern / Description episteme / carrier), A.2.3 (`U.PromiseContent` as promise), A.15.1 (`U.Work`)
 > **Purpose (one line):** Provide a minimal, reusable kernel object for deontic commitments (who is accountable, under what modality, in what scope/window, with respect to which referents, with which adjudication hooks), **explicitly separating the commitment object from its utterance descriptions** (A.7), so deontics stop “living” in naming patterns and become stable across A.6 and later governance patterns.
 
 ### A.2.8:0 - Terminology: “binding” is overloaded (normative)
@@ -207,7 +207,6 @@ CommitmentSource ::=
 1. **`U.PromiseContent` is promise content; `U.Commitment` is the governance relation.**
    A service promise clause (what is promised) is not, by itself, an accountable commitment. A `U.Commitment` makes an accountable subject responsible for providing/satisfying the service promise (or for satisfying other governance clauses).
 
-
 2. **`U.Commitment` is not `U.Work`.**
    Work is execution; commitment is governance. A commitment may reference evidence targets, but it does not “contain” evidence.
 
@@ -229,7 +228,6 @@ When using the A.6 stack, represent each **D-quadrant** atomic claim as a `U.Com
 * `modality = DeonticModalityToken` (normalized from RFC-keyword family usage),
 * `referents = {PromiseContentRef, MethodDescriptionRef, L-*, A-* … as needed}` (content/targets),
 * `adjudication.evidenceRefs = {E-* …}` when the commitment is meant to be checkable.
-
 
 ### A.2.8:5 - Archetypal Grounding (Tell–Show–Show)
 
@@ -356,5 +354,4 @@ The triad “promise / utterance / commitment” is useful for language discipli
 * A.15.1 (`U.Work`) and evidence patterns: adjudication hooks refer to evidence in work, not to text.
 
 ### A.2.8:End
-
 

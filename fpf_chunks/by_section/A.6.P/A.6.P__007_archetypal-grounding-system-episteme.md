@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__007_archetypal-grounding-system-episteme.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:5 — Archetypal Grounding (System / Episteme)"
-line_start: 12518
-line_end: 12607
+line_start: 12361
+line_end: 12449
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -98,7 +98,6 @@ aggregationAdmissibleIff(
 Now the relation is auditable: aggregation is admissible only if the relation kind’s admissibility
 claims say it preserves the needed characteristics under the declared scope/time, and if witnesses exist.
 Cross-Context reuse is explicit and cannot piggyback on label identity.
-
 
 #### A.6.P:5.2 — Episteme archetype: “the models are synced”
 

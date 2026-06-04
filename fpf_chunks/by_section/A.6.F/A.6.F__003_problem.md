@@ -6,12 +6,12 @@ section_id: "A.6.F:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:2 — Problem"
-line_start: 13606
-line_end: 13621
+line_start: 13448
+line_end: 13463
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "A.6.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.M"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -39,6 +40,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
+  - "E.10.ARCH"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -57,7 +59,7 @@ keywords:
 
 ### A.6.F:2 - Problem
 
-FPF texts repeatedly use function-like wording for different carriers:
+FPF texts repeatedly use function-like wording for different FPF kinds and relations:
 
 - required transformation or effect in an architecture view;
 - capability of a holon;
@@ -69,5 +71,5 @@ FPF texts repeatedly use function-like wording for different carriers:
 - module allocation or interface relation;
 - functional architecture shorthand.
 
-These uses are all legitimate in ordinary engineering speech. They are not the same FPF kind. If the text does not recover the carrier, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision claim.
+These uses are all legitimate in ordinary engineering speech. They are not the same FPF kind. If the text does not recover the exact FPF kind or relation, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision claim.
 

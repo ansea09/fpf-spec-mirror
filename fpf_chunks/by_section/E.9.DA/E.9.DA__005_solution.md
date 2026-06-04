@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:4 — Solution"
-line_start: 56211
-line_end: 56485
+line_start: 57307
+line_end: 57579
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -72,11 +72,11 @@ It does not govern:
 | Derived projection | `DRRReceivingLocusSet` | Convenience projection equal to the keys of `DRRReceivingLocusDispositionMap`. | Orientation only; not adequacy-bearing by itself. |
 | Eligibility predicates | `DRRDecisionAdequacyEligibilitySet` rows such as `boundedDecisionQuestionRecoverable` and `downstreamActionRecoverable` | Hard filters checked before coordinate comparison. | Not soft scores, not gates, not review profiles. |
 | Coordinate heads | `BoundedDecisionQuestionRecoverability`, `SelectedAnswerDecisiveness`, `FPFContentArchitectureSelectionAdequacy`, and the other `E.9.DA:4.5` heads | Local decision-adequacy characteristic heads inside the local characteristic space. | Not general FPF numeric measures, maturity dimensions, or measurement templates unless a neighboring measurement declaration is live. |
-| Status values | `admissibleForDeclaredAuthoringUse`, `admissibleForNarrowedAuthoringUse`, `repairBeforeDrafting`, `splitDecisionRequired`, `holdForArchitectureDecision` | Local admissible-use posture for the `DRR` decision-adequacy claim. | Not project status, release state, gate decision, assurance level, or pattern-quality result. |
+| Status values | `admissibleForDeclaredAuthoringUse`, `admissibleForNarrowedAuthoringUse`, `repairBeforeDrafting`, `splitDecisionRequired`, `holdForArchitectureDecision` | Local admissible-use status for the `DRR` decision-adequacy claim. | Not project status, release state, gate decision, assurance level, or pattern-quality result. |
 
-Local names may be reused outside `E.9.DA` only as thin echoes pointing back to this pattern. A name that becomes durable across several patterns needs an `F.18` card, a glossary or UTS posture when applicable, and a new decision record that states the cross-pattern kind.
+Local names may be reused outside `E.9.DA` only as thin echoes pointing back to this pattern. A name that becomes durable across several patterns needs an `F.18` card, a glossary or UTS admission when applicable, and a new decision record that states the cross-pattern kind.
 
-The names above survive the `E.10` replacement-candidate anti-umbrella rule because each one names a local field, local authored adequacy-read record, local characteristic-space specialization, or local value set with an explicit governed object and non-use boundary. A replacement candidate that would reintroduce `basis`, `support`, `route`, `kind`, `record`, `quality`, `source`, `view`, `mapping`, or another context-free head is not accepted unless the same ontology is recoverable by value.
+The names above survive the `E.10` replacement-candidate anti-umbrella rule because each one names a local field, local authored adequacy-read record, local characteristic-space specialization, or local value set with an explicit decision EntityOfConcern and non-use boundary. A replacement candidate that would reintroduce `basis`, `support`, `route`, `kind`, `record`, `quality`, `source`, `view`, `mapping`, or another context-free head is not accepted unless the same ontology is recoverable by value.
 
 #### E.9.DA:4.1b - Architectural relation and governing-neighbour boundary
 
@@ -88,10 +88,10 @@ The names above survive the `E.10` replacement-candidate anti-umbrella rule beca
 | Authored pattern body | `E.8` | Reads whether the upstream decision is authoring-bearing enough; does not write the body. |
 | Pattern-quality claim over one pattern version | `E.21` | Opens only when a pattern-quality blocker traces to a missing, vague, unassigned, source-theatre, or architecture-by-addressing upstream DRR decision. |
 | Pattern admission or refresh review | `E.19` | Uses returned findings only when they identify upstream DRR decision defects; does not turn review pass, return, or absence into coordinate evidence. |
-| Lexical, relation, epistemic, or characteristic-scale precision repair | `E.10`, `A.6.P`, `C.2.P`, `C.16.P`, `F.18` | Requires the exact repair pattern when a live name, relation, source-transfer, episteme, or scale construction needs it. |
+| Lexical, relation, epistemic, or characteristic-scale precision repair | `E.10`, `A.6.P`, `C.2.P`, `C.16.P`, `F.18` | Requires the exact repair pattern when a live name, relation, source-use, episteme, or scale construction needs it. |
 | Measurement, characteristic, scale, quality-family, or formal-lens legality | `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.16.Q` | Names the neighbouring pattern and limited reliance; does not make ordinal adequacy readings into measurements. |
 | Evidence, assurance, gate, work, release, safety, security, compliance, or project certification | `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, and the exact evaluation pattern when live | Blocks the overread that a DRR adequacy result is project-world proof, assurance, gate passage, release authority, safety acceptance, or compliance certification. |
-| Architecture-facing source, structural view, graph, diagram, ADR-like note, dashboard, or publication face | The exact architecture, publication, graph, view, or source-use pattern when live | Reads whether the `DRR` states source-use posture, affected structures, structure kinds, architecture structural views, view losses, source-return conditions, splits among architecture decision, architecture description, and publication, and graph, view, or ADR non-use boundaries. |
+| Architecture-facing source, structural view, graph, diagram, ADR-like note, dashboard, or publication face | The exact architecture, publication, graph, view, or source-use pattern when live | Reads whether the `DRR` states source-use role and status, affected structures, structure kinds, architecture structural views, view losses, source-return conditions, splits among architecture decision, architecture description, and publication, and graph, view, or ADR non-use boundaries. |
 
 #### E.9.DA:4.2 - DRRDecisionAdequacyRead
 
@@ -109,13 +109,13 @@ Field roles:
 | `DRRDecisionAdequacyEligibilitySet` | Hard filters that must pass before coordinate comparison is meaningful. |
 | `ActiveDecisionAdequacyCoordinates` | The selected decision-adequacy coordinates used for the scoped read. |
 | `DRRCoordinateLocusRefs` | Exact `DRR` sections, rows, alternatives, source-use rows, accepted-decision rows, validation rows, examples, anti-cases, or other `DRR` loci used to justify coordinate readings. It is not an `A.10` evidence record, assurance path, project evidence, or administrative proof. |
-| `DRRSourceUseDischargeMap?` | Optional field active when a source, workstream plan, campaign queue, review packet, external standard, article, ADR-like note, benchmark, expert claim, or prior accepted decision is load-bearing. It states source posture, selected payload, rejected or non-carried payload, still-live uncertainty, blocked authority overread, and receiving locus. |
-| `DRRDecisionAdequacyStatus` | The resulting admissible-use posture for the `DRR` decision-adequacy claim. |
+| `DRRSourceUseDischargeMap?` | Optional field active when a source, workstream plan, campaign queue, review packet, external standard, article, ADR-like note, benchmark, expert claim, or prior accepted decision is load-bearing. It states source-use role, source-currentness status, selected payload, rejected or non-carried payload, still-live uncertainty, blocked authority overread, and receiving locus. |
+| `DRRDecisionAdequacyStatus` | The resulting admissible-use status for the `DRR` decision-adequacy claim. |
 | `StopOrRepairCondition` | The explicit reason improvement may stop, or the first repair, narrowing, split, or architecture decision required. |
 
 `DRRReceivingLocusDispositionMap` rows use these dispositions: `amended`, `receivesContentObligation`, `governsOnly`, `outsideCurrentDecision`, `siblingDecision`, and `intentionallyUnamended`. Each row states at least one exact locus reference and either a selected content obligation or an explicit non-obligation and outside-current-decision boundary.
 
-`DRRSourceUseDischargeMap?` rows use content-role source postures: `landedCoreAuthority`, `acceptedDecisionSource`, `acceptedPlanningSource`, `reviewReturnSource`, `sourcePublication`, `externalSource`, `lineageOnly`, `rationaleOnly`, `livingOrRefreshableNonSoTASource`, and `rejectedSource`. Process provenance such as workstream, campaign queue, review packet, or architecture queue belongs in exact source references or process files, not in FPF-level source-posture names. A source, plan, review packet, architecture queue, ADR-like note, standard, benchmark, or article does not become FPF doctrine merely by being cited.
+`DRRSourceUseDischargeMap?` rows use content-role source-use values: `landedCoreAuthority`, `acceptedDecisionSource`, `acceptedPlanningSource`, `reviewReturnSource`, `sourcePublication`, `externalSource`, `lineageOnly`, `rationaleOnly`, `livingOrRefreshableNonSoTASource`, and `rejectedSource`. Process provenance such as workstream, campaign queue, review packet, or architecture queue belongs in exact source references or process files, not in FPF-level source-use names. A source, plan, review packet, architecture queue, ADR-like note, standard, benchmark, or article does not become FPF doctrine merely by being cited.
 
 #### E.9.DA:4.3 - DRRDecisionAdequacyEligibilitySet
 
@@ -125,7 +125,7 @@ A first-pass `E.9.DA` read always checks these hard filters when the correspondi
 |---|---|---|
 | `boundedDecisionQuestionRecoverable` | The `DRR` states the bounded FPF content decision question and does not leave the same question to drafting. | `repairBeforeDrafting` or `splitDecisionRequired`. |
 | `selectedAnswerPresent` | The selected answer says what FPF will do, which loci it changes, and what is not selected. | `repairBeforeDrafting`. |
-| `sourceUseAndDecisionInheritanceRecoverable` | Exact source use, accepted decision records, workstream, queue, and source posture, governing inheritance, selected payload, rejected payload, still-live uncertainty, and blocked authority overread are named by value. A source, plan, review packet, architecture queue, ADR-like note, or external standard does not become FPF doctrine merely by being cited. | `repairBeforeDrafting`, or `splitDecisionRequired` when several source payloads require separate decisions. |
+| `sourceUseAndDecisionInheritanceRecoverable` | Exact source use, accepted decision records, workstream, queue, source-use role, source-currentness status, governing inheritance, selected payload, rejected payload, still-live uncertainty, and blocked authority overread are named by value. A source, plan, review packet, architecture queue, ADR-like note, or external standard does not become FPF doctrine merely by being cited. | `repairBeforeDrafting`, or `splitDecisionRequired` when several source payloads require separate decisions. |
 | `receivingLocusDispositionPresent` | Selected patterns and selected non-pattern FPF kind-reference pairs have content obligations and non-obligations in `DRRReceivingLocusDispositionMap`. | `repairBeforeDrafting` or `holdForArchitectureDecision`. |
 | `lexicalTriggerClosurePresent` | Load-bearing high-pressure wording is repaired by `E.10`, `A.6.P`, `C.2.P`, `F.18`, or the exact evaluation pattern, or is marked ordinary use or non-use. | `repairBeforeDrafting`. |
 | `downstreamActionRecoverable` | A pattern author can recover the first drafting move without inventing a missing decision. | `repairBeforeDrafting`. |
@@ -183,15 +183,14 @@ Absence of review, use, landing, release, or steward acceptance is not evidence 
 When `SoTAAndEvidenceUseInDecision`, `SourceUseAndDecisionInheritanceCarryThrough`, or `DRRSourceUseDischargeMap?` is active, a source, standard, review, audit, benchmark, expert claim, or prior accepted decision is decision-bearing only if the `DRR` states:
 
 1. exact source or accepted-decision reference;
-2. currentness posture: `currentSoTA`, `livingOrRefreshableNonSoTASource`, `lineageOnly`, `localAcceptedDecision`, `rationaleOnly`, or `rejectedPopularPractice`;
-3. stance: `adopt`, `adapt`, `reject`, or `lineageOnly`;
+2. source-currentness status: `currentSoTA`, `livingOrRefreshableNonSoTASource`, `lineageOnly`, `localAcceptedDecision`, `rationaleOnly`, or `rejectedPopularPractice`;
+3. source-use disposition: `adopt`, `adapt`, `reject`, or `lineageOnly`;
 4. exact `DRR` payload changed: selected answer, receiving-locus obligation, rejected alternative, non-use boundary, worked case, conformance item, validation obligation, architecture split or merge choice, `StopOrRepairCondition`, or reopen condition;
 5. most expansive unsupported overread blocked.
 
-Here `currentSoTA` has the E.8 meaning: current best-known problem-solving practice for the governed problem. A source, standard, benchmark, review, or expert claim is not `currentSoTA` merely because it is official, recent, popular, widely adopted, highly cited, or familiar; if it does not carry the current best-known answer, the posture is lineage-only, living or refreshable but not SoTA-bearing, local accepted decision, rejected popular practice, or rationale-only for this read.
+Here `currentSoTA` has the E.8 meaning: current best-known problem-solving practice for the DRR-decision adequacy question. A source, standard, benchmark, review, or expert claim is not `currentSoTA` merely because it is official, recent, popular, widely adopted, highly cited, or familiar; if it does not carry the current best-known answer, the source-currentness status is lineage-only, living or refreshable but not SoTA-bearing, local accepted decision, rejected popular practice, or rationale-only for this read.
 
 If no payload changes, the material is rationale-only or lineage-only for this read. It must not raise a coordinate value, justify `admissibleForDeclaredAuthoringUse`, or become an unstated FPF decision.
-
 
 #### E.9.DA:4.5 - Decision-adequacy coordinates
 
@@ -206,7 +205,7 @@ Coordinate heads in `E.9.DA:4.5` are local decision-adequacy characteristic head
 | `SourceUseAndDecisionInheritanceCarryThrough` | Active when source, intake, audit, review, SoTA, standard, benchmark, expert claim, or accepted decision inheritance governs the decision. | Does the `DRR` carry the needed source use or accepted decision inheritance by value and state how it changes the selected answer, boundary, receiving-locus obligation, validation obligation, worked case, architecture choice, stop condition, or reopen condition? |
 | `AlternativeDispositionCompleteness` | Active when alternatives, reviewer proposals, neighbouring patterns, rejected practices, or rejected names are materially live. | Are selected, rejected, inherited, lineage-only, rationale-only, and outside-decision options closed with exact dispositions? |
 | `ReceivingLocusObligationClosure` | Active when more than one pattern or selected non-pattern FPF kind-reference pair is touched. | Does `DRRReceivingLocusDispositionMap` assign obligations and non-obligations to exact loci without stealing neighbour authority or leaving an unclassified receiving locus? |
-| `FPFContentArchitectureSelectionAdequacy` | Active when the `DRR` selects a new pattern, existing pattern, split, merge, governed object, branch, receiving-locus disposition map, selected companion publication, or selected non-pattern FPF kind-reference pair. | Is the selected FPF content architecture adequate, not merely explicit: does it preserve the governed object, avoid false split or merge, avoid overloading neighbours, justify rejected architecture choices, prevent shadow-spec and companion-publication authority, and keep durable content in the right FPF loci? |
+| `FPFContentArchitectureSelectionAdequacy` | Active when the `DRR` selects a new pattern, existing pattern, split, merge, selected content object, branch, receiving-locus disposition map, selected companion publication, or selected non-pattern FPF kind-reference pair. | Is the selected FPF content architecture adequate, not merely explicit: does it preserve the selected content object, avoid false split or merge, avoid overloading neighbours, justify rejected architecture choices, prevent shadow-spec and companion-publication authority, and keep durable content in the right FPF loci? |
 | `ArchitectureSourceAndViewLossClosure` | Active when architecture-facing source, structural view, diagram, graph, dashboard, ADR-like note, architecture description, or source plan is load-bearing. | Does the `DRR` state affected structures, structure kinds, architecture structural views, view losses, source-return conditions, splits among architecture decision, architecture description, and publication, and graph, view, or ADR non-use boundaries? |
 | `DraftingActionability` | Always active when pattern drafting or host amendment follows. | Can a pattern author recover the first drafting move and the content obligations to write in affected sections, names, examples, conformance items, and Relations rows, without requiring the `DRR` to contain final pattern prose? |
 | `LexicalAndNamingClosure` | Active when the `DRR` mints names, rejects names, or uses high-pressure terms load-bearing. | Are durable names, trigger words, and relation-like heads closed through `E.10`, `F.18`, `A.6.P`, `C.2.P`, or exact evaluation patterns? |
@@ -214,14 +213,14 @@ Coordinate heads in `E.9.DA:4.5` are local decision-adequacy characteristic head
 | `ScopeBoundaryAndNonOverread` | Always active for substantive `DRR`s; especially active when the `DRR` relies on compression, extraction, coarsening, evidence reuse, many-to-many allocation, graph clustering, generated relation graphs, dashboards, summaries, source packets, or architecture views that can hide action-relevant distinctions. | Are outside-decision items, non-admissible overreads, source-return path, lost distinctions, and claims above the current decision blocked without hidden undecided content claims? |
 | `ConsequencesAndRegressionCoverage` | Active when the decision changes patterns, names, examples, checks, user action, source use, or architecture-facing views. | Are consequences, costs, validation obligations, source-loss regressions, regression cases, and near-misses enough to protect downstream drafting? |
 | `SiblingDecisionCoordination` | Active when another `DRR`, accepted decision record, or evaluation pattern governs a neighbouring issue. | Does the `DRR` state the coordination relation without duplicating or weakening the sibling decision? |
-| `AdministrativeStateAndAuthoringHistorySeparation` | Active when sources, reviews, process handoff files, release posture, transport files, landing state, monolith placement, chat history, or authoring history are near the content decision. | Does the `DRR` keep review logistics, handoff state, packet state, landing state, monolith placement, release posture, chat history, authoring history, and other administrative state from serving as selected answer, coordinate locus, source-use proof, gate result, review result, or adequacy evidence? |
+| `AdministrativeStateAndAuthoringHistorySeparation` | Active when sources, reviews, process transfer files, release state, transport files, landing state, monolith placement, chat history, or authoring history are near the content decision. | Does the `DRR` keep review logistics, transfer state, packet state, landing state, monolith placement, release state, chat history, authoring history, and other administrative state from serving as selected answer, coordinate locus, source-use proof, gate result, review result, or adequacy evidence? |
 | `CorpusEcologyAndShadowSpecResistance` | Active when the accepted read can create duplicate trigger lists, shadow specs, repeated restoration doctrine, retrieval confusion, migration cost, neighbouring-pattern ambiguity, or durable-name fanout. | Does the `DRR` protect corpus ecology by assigning repeated doctrine to the governing pattern, preventing duplicate local variants, and naming the smallest receiving locus for each live content obligation? |
 
 The coordinate set is orthogonalized by repair question, not by distinct vocabulary alone. `ReceivingLocusObligationClosure` reads whether exact loci and obligations are assigned. `FPFContentArchitectureSelectionAdequacy` reads whether those selected loci and split or merge choices are architecturally adequate. `DraftingActionability` reads whether a pattern author can turn the accepted decision into sections, names, examples, checks, and relations. The same `DRR` section may be cited by several coordinates, but a value cannot be raised in one coordinate by evidence that only repairs another coordinate. When two proposed coordinates always fail and repair together, merge them or state the subreadings; when they fail independently and require different repairs, keep them separate.
 
 #### E.9.DA:4.6 - DRRDecisionAdequacyStatus
 
-`DRRDecisionAdequacyStatus` is an admissible-use posture for the `DRR` decision-adequacy claim. It is not a project gate, release state, assurance level, or pattern-quality result.
+`DRRDecisionAdequacyStatus` is an admissible-use status for the `DRR` decision-adequacy claim. It is not a project gate, release state, assurance level, or pattern-quality result.
 
 | Status | Meaning | Required payload |
 |---|---|---|
@@ -229,7 +228,7 @@ The coordinate set is orthogonalized by repair question, not by distinct vocabul
 | `admissibleForNarrowedAuthoringUse` | The `DRR` can be used only after narrowing the decision, authoring use, receiving loci, source-use claim, accepted-decision inheritance, or receiving-locus disposition map by value. | Exact narrowed scope, declared floor if changed, and prohibited broader use. |
 | `repairBeforeDrafting` | One or more eligibility rows or active coordinate floors fail. | First repair locus and downstream use whose drafting would fail. |
 | `splitDecisionRequired` | The `DRR` contains several coupled but not-yet-decided questions that need separate decision records or explicit convergence. | Split boundary and which decision can proceed, if any. |
-| `holdForArchitectureDecision` | The defect is not local wording; the governed object, branch, neighbour-governance boundary, receiving locus, structural view relation, source-return condition, or split among architecture decision, architecture description, and publication must be decided before adequacy can close. | Exact unresolved architecture question and candidate evaluation patterns. |
+| `holdForArchitectureDecision` | The defect is not local wording; the selected content object, branch, neighbour-governance boundary, receiving locus, structural view relation, source-return condition, or split among architecture decision, architecture description, and publication must be decided before adequacy can close. | Exact unresolved architecture question and candidate evaluation patterns. |
 
 #### E.9.DA:4.6a - Ordinary-cost first pass
 
@@ -250,7 +249,7 @@ For ordinary authoring use, the first pass is intentionally smaller than the ful
 5. Check coordinate orthogonalization: each active coordinate must have a distinct failure mode, distinct repair question, or explicit subreading.
 6. Assign each active coordinate an ordinal value using only `DRR` text and content evidence, not administrative state.
 7. Repair active coordinates below the declared floor, narrow the use, or set a non-ready status.
-8. Run `E.10` only over load-bearing new or repaired names, status values, coordinate heads, examples, stop conditions, and finding or result wording introduced or changed by the read. If wording is ordinary and no relation-like, epistemic, publication, source-transfer, naming, evidence, work, gate, or decision load remains, stop at local rewrite.
+8. Run `E.10` only over load-bearing new or repaired names, status values, coordinate heads, examples, stop conditions, and finding or result wording introduced or changed by the read. If wording is ordinary and no relation-like, epistemic, publication, source-use, naming, evidence, work, gate, or decision load remains, stop at local rewrite.
 9. If the read claims `admissibleForDeclaredAuthoringUse`, state the first drafting move and the most expansive non-admissible overread.
 
 Reopen the smallest live locus when later source use, accepted-decision inheritance, receiving-locus obligation, lexical closure, source-return condition, architecture decision, architecture description, publication split, or first drafting move changes enough to alter an active coordinate, an eligibility row, or `DRRDecisionAdequacyStatus`. Do not reopen the whole adequacy read only because review, landing, or chat state changed.
@@ -259,12 +258,11 @@ Before declaring a stop, ask what became worse while the visible coordinates imp
 
 When the same `DRR` version is being improved through repeated passes, use `E.23` for the repeated quality-improvement method. `E.9.DA` supplies the `DRR` decision-adequacy coordinates, values, source-use mutation checks, receiving-locus obligations, status, and stop or repair meanings; it does not govern row-atomic absorption across passes, method-family selection, or stop, narrow, continue, switch method, or hold decisions.
 
-
 Self-application is bounded. `E.9.DA` may be used to read a `DRR` about `E.9.DA`, but that read still evaluates the `DRR` decision-adequacy claim, not the pattern text. A pattern-quality read of the `E.9.DA` pattern text remains a separate `E.21` use. If `E.9.DA` self-application exposes a content defect, repair the pattern text or narrow the declared authoring use; if it exposes an architecture defect, use `holdForArchitectureDecision`.
 
 #### E.9.DA:4.7a - Replayable adequacy read
 
-A carrier, review packet, monolith position, chat, release note, or steward acceptance can locate material. It cannot change an `E.9.DA` read unless the `DRR` text, declared authoring use, receiving-locus disposition map, read qualification window, source-use stance, accepted-decision carry-through, or active content loci change.
+A carrier, review packet, monolith position, chat, release note, or steward acceptance can locate material. It cannot change an `E.9.DA` read unless the `DRR` text, declared authoring use, receiving-locus disposition map, read qualification window, source-use disposition, accepted-decision carry-through, or active content loci change.
 
 #### E.9.DA:4.7b - Finding sentence grammar
 
@@ -274,7 +272,7 @@ A conforming `E.9.DA` finding has this grammar:
 E.9.DA finding:
   DRR version being evaluated: <DRRVersionRef>
   Declared authoring use: <DRRDeclaredAuthoringUse>
-  Finding category: <eligibility blocker | coordinate reading | status payload | stop-condition failure | architecture-neighbour conflict | bounded non-use | neighbouring-pattern handoff>
+  Finding category: <eligibility blocker | coordinate reading | status payload | stop-condition failure | architecture-neighbour conflict | bounded non-use | neighbouring-pattern assignment>
   Exact E.9.DA locus: <EligibilitySet row | coordinate | status | stop clause | boundary row>
   Exact DRR loci: <DRRCoordinateLocusRefs>
   Effect: <status, coordinate, floor, or stop impact>

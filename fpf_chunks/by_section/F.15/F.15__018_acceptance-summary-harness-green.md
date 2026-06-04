@@ -6,12 +6,12 @@ section_id: "F.15:17"
 section_title: "Acceptance summary (“Harness green”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__018_acceptance-summary-harness-green.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:17 — Acceptance summary (“Harness green”)"
-line_start: 73869
-line_end: 73878
+line_start: 74482
+line_end: 74490
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -36,5 +36,4 @@ A unification slice is **publish‑ready** when:
 2. **All RSCR (R‑Evo) hold** against the previous snapshot: no silent replacements; rows either unchanged or retired+reborn; Bridges re‑validated with CL non‑inflated without witnesses; windows adjusted only for real variance; SoD intact.
 3. **One micro‑witness per moving part** exists in the text (tiny example showing the check in action).
 4. **Memory rule still holds**: the active Context set for the line fits in a careful mind without external aids (F.1).
-
 

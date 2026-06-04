@@ -6,12 +6,12 @@ section_id: "F.18:15"
 section_title: "Conformance Criteria (normative “CC‑F18”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__016_conformance-criteria-normative-cc-f18.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:15 — Conformance Criteria (normative “CC‑F18”)"
-line_start: 75045
-line_end: 75090
+line_start: 75643
+line_end: 75688
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -47,7 +47,7 @@ keywords:
 
 **CC‑F18‑9 (Didactic primacy).** A unified name **SHALL** be teachable on **one page**: its **UTS row** + a short narrative that a careful reader can replay (F.16 template). If it cannot be taught concisely, the naming attempt is premature.
 
-**CC-F18-10 (No process-phase connotations).** Names **SHALL NOT** encode imagined “maturity stages” or time-ordering unless those are part of the concept’s intension. Stages belong in **state-space** and dynamics narratives, not in names. (See A-series CHR patterns.)
+**CC-F18-10 (No process-phase connotations).** Names **SHALL NOT** encode imagined “maturity stages” or time-ordering unless those are part of the concept meaning. Stages belong in **state-space** and dynamics narratives, not in names. (See A-series CHR patterns.)
 
 **CC‑F18‑11 (Strict distinction guard).** Names **SHALL** respect **A.7 Strict Distinction**: do not collapse **Role ↔ Method ↔ Work** or **Status ↔ Description** into one word. Align with F.11/F.12 where relevant.
 

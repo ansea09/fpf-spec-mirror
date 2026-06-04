@@ -6,12 +6,12 @@ section_id: "B.2:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__012_rationale-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:10 — Rationale (informative)"
-line_start: 30311
-line_end: 30318
+line_start: 30441
+line_end: 30447
 dependencies:
   - "A.1"
   - "A.12"
@@ -38,5 +38,4 @@ keywords:
 * **Mereology & identity:** By remaining **ecumenical** (4D or 3D+1) but **Standardual** about identity declarations, FPF stays compatible with traditions akin to **BORO** (4D‑leaning) and **CCO** (endurantist uses), while keeping proofs unambiguous.
 * **DDD/Event‑centric modelling:** Popular practices (bounded contexts, event storming) pivot on **events** and **context boundaries**. MHT makes such events **first‑class** in FPF, turns context hops into explicit **ContextReframe** transitions, and ties them to assurance via **CL baselines**.
 * **Assurance discipline:** Re‑baselining **F/G/R** and **CL** at MHT points prevents cross‑context overconfidence and enables principled improvement plans.
-
 

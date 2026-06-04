@@ -6,12 +6,12 @@ section_id: "C.28:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:intro — Intro"
-line_start: 49215
-line_end: 49229
+line_start: 49065
+line_end: 49078
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,8 +58,7 @@ keywords:
 
 **Intent.** Govern live causal questions and decision-bearing causal use: improvement, intervention effect, causal fairness, counterfactual comparison, causal policy optimality, realized counterfactual-rung evidence, identified counterfactual estimate, or simulation-only counterfactual output.
 
-**Governed object.** A causal-use question or claim together with the support basis and follow-on records needed to use it admissibly: causality-ladder rung, estimand or contrast, evidence support basis, identification posture, counterfactual sampling realizability posture, supported use, unsupported use, and next move.
+**Primary EntityOfConcern.** A causal-use question or claim together with the causal-use basis and follow-on records needed to use it admissibly: causality-ladder rung, estimand or contrast, evidence basis, identification status, counterfactual sampling realizability status, supported use, unsupported use, and next move.
 
 **Not a physical ontology.** `C.28` governs how FPF authors, reviewers, and operators use causal models, evidence, and counterfactual reasoning in records, policy claims, fairness claims, method comparisons, and work plans. It does not define physical causality in general and does not replace local domain science.
-
 

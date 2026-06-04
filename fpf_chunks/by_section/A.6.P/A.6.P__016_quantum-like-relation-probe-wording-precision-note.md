@@ -6,12 +6,12 @@ section_id: "A.6.P:12a"
 section_title: "Quantum-like relation/probe wording precision note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__016_quantum-like-relation-probe-wording-precision-note.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12a — Quantum-like relation/probe wording precision note"
-line_start: 12815
-line_end: 12846
+line_start: 12655
+line_end: 12686
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -56,7 +56,7 @@ keywords:
 
 ### A.6.P:12a - Quantum-like relation/probe wording precision note
 
-Treat quantum-like FPF-force-bearing wording such as `coupled`, `interaction`, `probe`, `measurement`, `export`, `collapse-like`, `field-like`, `state update`, or `non-copyable` as ordinary RPR triggers when they carry live explanatory force. These words are not reusable FPF relation predicates merely because they appear in a quantum-like source or example.
+Treat quantum-like FPF-governed wording such as `coupled`, `interaction`, `probe`, `measurement`, `export`, `collapse-like`, `field-like`, `state update`, or `non-copyable` as ordinary RPR triggers when they carry live explanatory work. These words are not reusable FPF relation predicates merely because they appear in a quantum-like source or example.
 
 Action path:
 
@@ -66,23 +66,23 @@ Action path:
 4. Select the relation kind or hand off to an existing governing pattern.
 5. Fill slots: participants, polarity, channel/mediator, time window, witness, and change class.
 6. Rewrite the sentence into explicit local prose or a relation form only after the ontology is clear.
-7. Move to `C.26` only when ordinary relation repair still leaves order-sensitive, probe-frame-sensitive, incompatible-probe, no faithful-enough export, or state-representation coarsening claim force.
+7. Move to `C.26` only when ordinary relation repair still leaves order-sensitive, probe-frame-sensitive, incompatible-probe, no faithful-enough export, or state-representation coarsening claim kind or admissible-use boundary.
 
-Minimum repair for FPF-force-bearing quantum-like relation wording:
+Minimum repair for FPF-governed quantum-like relation wording:
 
 | Relation slot | Required recovery |
 | --- | --- |
 | Participants | Which endpoints, carriers, contexts, roles, views, or systems participate |
 | Relation kind | Whether the prose means bridge/export, evidence, measurement, work enactment, boundary interaction, viability regulation, or local decision comparison |
 | Direction / polarity | Whether the relation is one-way, mutual, symmetric, asymmetric, reversible, lossy, or only observer-relative |
-| Channel / mediator | Message, API read, workshop, metric, dashboard, carrier, bridge, instrument, or other interaction medium |
+| Channel or mediator | Message, API read, workshop, metric, dashboard, carrier, bridge, instrument, or other interaction medium |
 | Time / window | `Γ_time`, persistence, decay, refresh, or reprobe condition when state interpretation depends on time |
 | Witness | Evidence carrier or observation that makes the relation readable |
 | Change class | Whether the relation is a retarget, rescope, reframe, update, export-loss, state-interpretation change, or ordinary relation refinement |
 
 Useful outputs:
 
-- an ordinary `F.9`, `A.6.8`, `A.6.9`, `C.16`, `A.15`, or `C.25` exact governing pattern when the repaired slots reduce to one existing governing claim force;
+- an ordinary `F.9`, `A.6.8`, `A.6.9`, `C.16`, `A.15`, or `C.25` exact governing pattern when the repaired slots reduce to one existing governing claim kind or admissible-use boundary;
 - a local explanatory phrase when no reusable relation token is justified;
 - an `A.6.P` repair plus `F.18` naming pass when a reusable relation token is actually needed;
-- a `C.26` application only for the remaining state, probe, export, frame, or coarsening claim force.
+- a `C.26` application only for the remaining state, probe, export, frame, or coarsening claim kind or admissible-use boundary.

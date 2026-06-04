@@ -6,12 +6,12 @@ section_id: "C.19:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_first-output.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:0.4 — First output"
-line_start: 42674
-line_end: 42681
+line_start: 42580
+line_end: 42587
 dependencies:
   - "B.3"
   - "C.11"
@@ -39,9 +39,9 @@ keywords:
 
 ### C.19:0.4 - First output
 
-The first useful output is one explicit pool-policy result that names the live pool, the governing lens or policy posture, the current treatment (`widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`), and the exact event that would justify changing that treatment next.
+The first useful output is one explicit pool-policy result that names the live pool, the governing lens or policy state, the current treatment (`widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`), and the exact event that would justify changing that treatment next.
 
-That result records how the pool will be treated next under the current exploration/exploitation posture; it does not replace one local `C.11` choice record, one `C.24` enactment plan, or one `G.5` published selector result.
+That result records how the pool will be treated next under the current exploration/exploitation policy; it does not replace one local `C.11` choice record, one `C.24` enactment plan, or one `G.5` published selector result.
 
 If that first output still cannot be written honestly, the current pool-policy result is not finished `C.19` policy yet.
 

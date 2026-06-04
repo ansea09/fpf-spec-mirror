@@ -6,12 +6,12 @@ section_id: "F.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:intro — Intro"
-line_start: 70698
-line_end: 70707
+line_start: 71465
+line_end: 71473
 dependencies:
   - "A.11"
   - "A.7"
@@ -42,5 +42,4 @@ keywords:
 **Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**; A.8 **Universal Core**.
 **Coordinates with.** F.1 **Contexts (Contexts)**; F.2 **Harvest**; F.3 **SenseCells**; F.4 **Role Description**; F.5 **Naming Discipline**; F.7 **Concept‑Set Table**; F.9 **Alignment & Bridge**.
 **Aliases (informative).** *Mint‑vs‑Reuse gate*; *Naming governor*.
-
 

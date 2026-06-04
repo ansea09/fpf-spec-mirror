@@ -6,12 +6,12 @@ section_id: "G.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:12 — Relations"
-line_start: 76541
-line_end: 76546
+line_start: 77136
+line_end: 77141
 dependencies:
   - "A.10"
   - "A.15.3"

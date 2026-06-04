@@ -6,12 +6,12 @@ section_id: "A.2.2:3"
 section_title: "Forces (what we must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__004_forces-what-we-must-balance.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:3 — Forces (what we must balance)"
-line_start: 2315
-line_end: 2324
+line_start: 2305
+line_end: 2313
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,5 +41,4 @@ keywords:
 | **Universality vs. domain‑specificity** | One universal notion must serve robots, teams, and software services, while letting each domain keep its own performance vocabulary. |
 | **Evidence vs. simplicity**             | We want an ability claim to be evidence‑backed, but the core idea must stay simple enough for planning conversations.                |
 | **Local conditions vs. reusability**    | Ability depends on conditions (inputs, environment); still, the concept must be reusable across contexts via explicit scoping.       |
-
 

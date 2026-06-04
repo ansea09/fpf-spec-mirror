@@ -6,12 +6,12 @@ section_id: "C.16.P:6a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__009_refresh-and-reopen-conditions.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:6a — Refresh and reopen conditions"
-line_start: 40838
-line_end: 40849
+line_start: 40766
+line_end: 40777
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,12 +41,12 @@ keywords:
 
 ### C.16.P:6a - Refresh and reopen conditions
 
-Reopen or narrow `C.16.P` when current pattern-language ecology changes the first characteristic/scale entry:
+Reopen or narrow `C.16.P` when current pattern-language ecology changes the first characteristic and scale entry:
 
-- a new exact characteristic, scale, evaluation, benchmark, proxy/indicator, gate/decision, mathematical-lens, quality, OEE/NQD, or publication pattern can receive one row directly;
+- a new exact characteristic, scale, evaluation, benchmark, proxy or indicator, gate or decision, mathematical-lens, quality, OEE, NQD, or publication pattern can receive one row directly;
 - current best-known practice changes comparability, proxy-risk, threshold, measurement, scoring-method, or benchmark-harness discipline adopted in `C.16.P:8`;
-- `J.4` entry projection changes the first practical entry for hidden characteristic/scale wording;
-- a receiving pattern starts copying first-stage metric/score/axis/strong/indicator trigger lists that belong here;
+- `J.4` entry projection changes the first practical entry for hidden characteristic and scale wording;
+- a receiving pattern starts copying first-stage `metric`, `score`, `axis`, `strong`, or `indicator` trigger lists that belong here;
 - `C.16.P` begins to act as a metrics catalog, maturity scheme, or CHR super-pattern rather than a wording-use repair pattern for hidden construction.
 
 The refresh action is to remove, narrow, or redirect the first-stage row. It is not to preserve old exits as history.

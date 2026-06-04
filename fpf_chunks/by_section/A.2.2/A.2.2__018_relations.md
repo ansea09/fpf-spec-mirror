@@ -6,12 +6,12 @@ section_id: "A.2.2:17"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__018_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:17 — Relations"
-line_start: 2540
-line_end: 2548
+line_start: 2520
+line_end: 2527
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -40,5 +40,4 @@ keywords:
 * **Constrains:** Step design: thresholds belong on steps; BoM/PBS must stay structural.
 * **Informs:** `U.PromiseContent` definitional pattern (external promises derive from capabilities); `U.Dynamics` definitional pattern (models used as evidence or predictors); Γ/aggregation (capability of composites is stated at the whole).
 * **Lexical guards:** E.10.x **L‑FUNC** (do not call capability “function”); E.10.y **L‑PROC** (do not call capability “process”).
-
 

@@ -6,12 +6,12 @@ section_id: "A.2.6:12"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__013_worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:12 — Worked Examples"
-line_start: 4568
-line_end: 4622
+line_start: 4498
+line_end: 4551
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -79,5 +79,4 @@ keywords:
 * **Bridge:** declared mapping `F→F’`, `P→P’`, **CL=1** (notably lossy).
 * **Guard:** Bridge present; `translate(G)` covers a **strict subset**; CL=1 penalizes **R** strongly; ESG requires **F≥F5** (executable semantics) and **freshness < 90 d**.
 * **Outcome:** allowed only for the covered subset; adoption flagged with reduced **R**.
-
 

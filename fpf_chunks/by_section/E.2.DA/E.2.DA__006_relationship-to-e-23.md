@@ -6,12 +6,12 @@ section_id: "E.2.DA:5"
 section_title: "Relationship to E.23"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__006_relationship-to-e-23.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:5 — Relationship to E.23"
-line_start: 54152
-line_end: 54166
+line_start: 55260
+line_end: 55274
 dependencies:
   - "A.19.ECS"
   - "E.10"

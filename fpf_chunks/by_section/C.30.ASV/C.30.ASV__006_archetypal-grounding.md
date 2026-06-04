@@ -6,12 +6,12 @@ section_id: "C.30.ASV:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:5 — Archetypal Grounding"
-line_start: 52723
-line_end: 52730
+line_start: 53115
+line_end: 53122
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.22"
   - "A.6.3"
   - "A.6.F"
+  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.11"
@@ -57,7 +58,7 @@ keywords:
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner looks at an architecture "view" and asks whether it is functional, flow, control, module/interface, information/data, placement, scale, work/evidence, or declared logical structure. C.30.ASV turns that question into structure-kind triage or a full structural view record. |
+| Tell | A practitioner looks at an architecture "view" and asks whether it is functional, flow, control, module-interface, information or data, placement, scale, work, evidence, or declared logical structure. C.30.ASV turns that question into structure-kind triage or a full structural view record. |
 | Show: `U.System` | A plant, vehicle, software system, product platform, AI-agent system, or neural-network model may need several structural views over the same architecture claim. One module view does not exhaust the system architecture, and one flow graph does not prove work, evidence, safety, or release. |
-| Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram is an episteme, view, or publication face. It can publish an architecture structural view only when the architecture claim, structure refs, structure kind, viewpoint, hidden/lost structure, correspondence, source or reliance relation, and admissible use are recoverable. |
+| Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram is an episteme, view, or publication face. It can publish an architecture structural view only when the architecture claim, structure refs, structure kind, viewpoint, hidden structure and lost structure, correspondence, source or reliance relation, and admissible use are recoverable. |
 

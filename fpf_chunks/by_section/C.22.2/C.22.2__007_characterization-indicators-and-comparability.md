@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 44064
-line_end: 44081
+line_start: 43988
+line_end: 44005
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 
 ### C.22.2:6 - Characterization, Indicators, and Comparability
 
-`ProblemCard@Context` must state either a recoverable `characterization basis` and `comparability or parity basis`, or an explicit current reason why the problem can proceed without one.
+`ProblemCard@Context` must state either a recoverable `characterization relation` and `comparability or parity relation`, or an explicit current reason why the problem can proceed without one.
 
 The heavy content stays with existing FPF patterns:
 
@@ -75,7 +75,7 @@ The heavy content stays with existing FPF patterns:
 - `G.4` carries acceptance clauses and threshold predicates;
 - `G.5` governs selected-set publication when the problem enters a selected set.
 
-Missing characterization or parity basis is a current disposition. The record exits to characterization, parity, or search or pool work under the receiving pattern instead of pretending the problem is ready for P2W.
+Missing characterization or parity relation is a current disposition. The record exits to characterization, parity, or search or pool work under the receiving pattern instead of pretending the problem is ready for P2W.
 
-The `C.22.2` candidate acceptance basis must distinguish functional check, constraint compliance, risk or safety boundary, parity or comparison basis, and freshness window when those relations are live. Comparison frame, CG-Spec, or comparability governance exits to `G.0`. Acceptance clauses and acceptance threshold predicates exit to `G.4`; `C.22.2` may name only the need, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself admissible acceptance for P2W.
+The `C.22.2` candidate acceptance criterion must distinguish functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are live. Comparison frame, CG-Spec, or comparability governance exits to `G.0`. Acceptance clauses and acceptance threshold predicates exit to `G.4`; `C.22.2` may name only the need, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself admissible acceptance for P2W.
 

@@ -6,12 +6,12 @@ section_id: "A.11:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__010_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:9 — Relations"
-line_start: 18595
-line_end: 18604
+line_start: 18663
+line_end: 18671
 dependencies:
   - "A.11"
   - "U.Type"
@@ -30,5 +30,4 @@ keywords:
 | **Supports**      | A 7 Strict Distinction  | Prevents near‑duplicate roles that blur layer boundaries. |
 | **Feeds**         | B 5 Kernel Change‑Log   | Records admissions, renames, sunsets.                     |
 | **Complementary** | A 10 Evidence Graph Referring | Proposals cite evidence of irreducibility.                |
-
 

@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance checklist"
-line_start: 68044
-line_end: 68068
+line_start: 68912
+line_end: 68936
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -36,7 +36,7 @@ keywords:
 | `CC-E23-2` | A quality-improvement loop SHALL name the exact `ObjectUnderImprovementEvaluationRef` before values, floors, or stop meanings are used; if none exists, the object-under-improvement evaluation `CharacteristicSpace` SHALL be constructed or repaired through `A.19.ECS` before the loop opens. | Prevents `E.23` from inventing quality values. |
 | `CC-E23-3` | The first quality review in the loop SHALL be framed through `E.22` or an explicitly equivalent object-under-improvement evaluation question frame. | Keeps one-read question framing distinct from the repeated method. |
 | `CC-E23-4` | Returned actionable findings SHALL be row-atomic, with expected object-under-improvement evaluation movement and closure test recoverable. | Prevents "handled overall" improvement claims. |
-| `CC-E23-5` | Executor discharge SHALL NOT be treated as coordinate improvement until the changed object version is re-read by the object-under-improvement evaluation. | Blocks checklist-count and discharge-count substitution. |
+| `CC-E23-5` | Row-discharge evidence SHALL NOT be treated as coordinate improvement until the changed object version is re-read by the object-under-improvement evaluation. | Blocks checklist-count and discharge-count substitution. |
 | `CC-E23-6` | Every continue decision SHALL state the expected object-under-improvement evaluation movement for the next pass. | Prevents unbounded retry. |
 | `CC-E23-7` | Every operation family selected for a loop SHALL name expected object-under-improvement evaluation movement, failure mode, cost and risk reason, protected trade-offs, and stop or removal condition. | Blocks automatic bureaucracy and optional-operation drift. |
 | `CC-E23-8` | A method-family selection SHALL state the characteristic-space fit and BLP cost boundary for the object under improvement. | Prevents importing PDCA or PDSA, POOGI, OODA, Ralph-like, or specialized cycles as universal sequences. |
@@ -46,8 +46,8 @@ keywords:
 | `CC-E23-12` | A clean `floorRead` SHALL be allowed to stop through `E.22` plus the object-under-improvement evaluation without opening this method. | Keeps ordinary quality reads affordable. |
 | `CC-E23-13` | An all-exceptional or all-`5` result SHALL carry an explicit object-under-improvement evaluation coordinate-value table over the changed object version. | Prevents floor pass, landing, or praise from becoming exceptional-value evidence. |
 | `CC-E23-14` | Load-bearing source, authority, basis, support, record, and view wording SHALL recover exact kind or relation under `E.10`. | Keeps loop prose from reintroducing umbrella language. |
-| `CC-E23-15` | A closed loop pass SHALL leave a `QualityImprovementLoopRecord` with object version under improvement, object-under-improvement evaluation, applied rows, object-under-improvement evaluation re-read, trade-offs, cost and risk posture, and stop decision recoverable by value. | Prevents quality closure from being reconstructed from chat memory, praise, or checklist closure. |
-| `CC-E23-16` | If `E.22` returns a proposal portfolio, the loop SHALL keep proposal rows, selected object changes, rejected proposals, object-under-improvement evaluation re-read, and neighbour exits distinct. | Prevents a review portfolio from becoming a hidden selector result. |
+| `CC-E23-15` | A closed loop pass SHALL leave a `QualityImprovementLoopRecord` with object version under improvement, object-under-improvement evaluation, applied rows, object-under-improvement evaluation re-read, trade-offs, cost and risk account, and stop decision recoverable by value. | Prevents quality closure from being reconstructed from chat memory, praise, or checklist closure. |
+| `CC-E23-16` | If `E.22` returns a proposal portfolio, the loop SHALL keep proposal rows, selected changes to the object version under improvement, rejected proposals, object-under-improvement evaluation re-read, and neighbour exits distinct. | Prevents a review portfolio from becoming a hidden selector result. |
 | `CC-E23-17` | If the object-under-improvement evaluation is the `Q` side of NQD/OEE, the loop SHALL name the `Q` components, external comparison basis, comparison set or current front, expected `Q` movement, protected trade-offs, and neighbour exits for generation, archive or front handling, selected-set publication, parity, and refresh. | Lets improvement move candidates in NQD without stealing OEE/NQD semantics or self-assigning exceptional status. |
 | `CC-E23-18` | An all-`5`, all-exceptional, current-front-reaching, or current-front-improving result SHALL be treated as a local stop condition for this object-under-improvement evaluation and comparison set, not as proof that further development is impossible. | Prevents maturity-ceiling stagnation while still allowing this loop to close. |
 | `CC-E23-19` | A source-bearing loop that claims `SoTA` reach, `SoTA` maintenance, or front improvement SHALL name the external source of that front and SHALL state the source or practice lines composed, object-under-improvement evaluation coordinates affected, and protected characteristics preserved. | Prevents "we cited SoTA" from becoming a self-assigned `SoTA` claim. |

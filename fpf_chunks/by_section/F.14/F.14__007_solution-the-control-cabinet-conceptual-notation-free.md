@@ -6,12 +6,12 @@ section_id: "F.14:6"
 section_title: "Solution — the control cabinet (conceptual, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__007_solution-the-control-cabinet-conceptual-notation-free.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:6 — Solution — the control cabinet (conceptual, notation‑free)"
-line_start: 73259
-line_end: 73304
+line_start: 73907
+line_end: 73947
 dependencies:
   - "F.1"
   - "F.10"
@@ -41,7 +41,6 @@ keywords:
 
 **Example (services).** *Service‑availability‑compliance* already exists as a row. New labels *SLO‑Met* / *Uptime‑OK* **reuse** that row; SOSA/SSN Observations later feed it (F.12).
 
-
 #### F.14:6.2 - Bundle instead of hybrid (second lever)
 
 * **Move.** When practice always pairs two Roles, define a **Bundle** `{RoleA, RoleB}`.
@@ -49,14 +48,12 @@ keywords:
 
 **Example (enactment).** `{Requester, Approver}` is a Bundle. *Request‑Approver* (one Role) is **not** allowed; it contradicts intended checks.
 
-
 #### F.14:6.3 - Separate by SoD, don’t evade (third lever)
 
 * **Move.** Record **SoD constraints** where separation matters (“Requester ⟂ Approver in run window”).
 * **Why here.** SoD belongs to **semantics**, not org policy; it protects structure across Contexts and times.
 
 **Example (methods).** `{Author ⟂ Reviewer}` in the **review window**. A proposal *Senior‑Reviewer* to “do both” is rejected; the **Bundle** remains `{Author, Reviewer}` with SoD.
-
 
 #### F.14:6.4 - Window the Status (fourth lever)
 
@@ -70,11 +67,9 @@ keywords:
 * *grace window:* “temporarily tolerated breach”.
   One Status; clear windows.
 
-
 #### F.14:6.5 - Factor modifiers as facets, not names
 
 * **Move.** Treat qualifiers (shift, locality, domain) as **facets** of the same Role or Status or as **windows**, not new types.
 
 **Example (operations).** *Operator* with **window facet** `timeOfDay = night`—not a new Role *Night‑Operator*.
-
 

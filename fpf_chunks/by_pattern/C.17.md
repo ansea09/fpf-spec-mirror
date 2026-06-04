@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.17.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
-line_start: 41681
-line_end: 42420
+line_start: 41607
+line_end: 42326
 dependencies:
   - "A.1"
   - "A.10"
@@ -101,7 +101,6 @@ This pattern exports **Characteristics** and measurement templates **only**. It 
 4. **Track** the declared retained set’s **Diversity_P** to avoid local maxima and groupthink.
 5. **Defend** decisions with an auditable **CreativeEvaluation** that cites **what was new relative to which base**, **how value was measured**, and **why this counts here**.
 
-
 ### C.17:2 - Forces
 
 | Force                                | Tension we must resolve                                                                                                                 |
@@ -113,7 +112,6 @@ This pattern exports **Characteristics** and measurement templates **only**. It 
 | **Randomness vs. intention**         | Random noise looks “novel” yet useless; planned recombination can be highly creative.                                                   |
 
 **Design answer.** A **context‑local CreativitySpace** with a **small set of characteristics**, each with **clear measurement templates** and **Evidence Graph Ref**; composition uses **frontiers and partial orders**, not forced scalarisation.
-
 
 ### C.17:3 - Solution Overview — The context‑local CreativitySpace
 
@@ -133,7 +131,6 @@ with **scale**/**unit** metadata from **MM‑CHR** (C.16), and Context‑specifi
 
 * **Design‑time**: score **concepts** or **specs** against **surrogate value models** and **priors**; record **assumptions** (USM scopes; A.2.6).
 * **Run‑time**: recompute **ValueGain** and **ConstraintFit** from Work evidence (service acceptance, KPIs) and refresh **Surprise** if priors update.
-
 
 ### C.17:4 - Vocabulary (CHR terms & D‑stubs)
 
@@ -155,7 +152,6 @@ with **scale**/**unit** metadata from **MM‑CHR** (C.16), and Context‑specifi
 
 6. **`U.CreativityProfile`** *(D).* The **coordinate tuple** in `U.CreativitySpace` with provenance to the above inputs and **USM scopes**.
    **Conformance (CP‑1):** profile **must** include **scales/units**, **scopes**, **confidence bands** (B.3), and the **edition** of space definitions.
-
 
 ### C.17:5 - The Core Characteristics (kernel nucleus)
 
@@ -242,10 +238,8 @@ Each characteristic is specified per **MM‑CHR (C.16)** with: **name**, **inten
 * MinInterFamilyDistance (polarity ↑) — min distance between selected families in DescriptorMap for that declared retained set, portfolio, or triad; unit: per DistanceDef; window: declared.
 * AliasRisk (polarity ↓) — collinearity/near‑duplicate risk indicator for contextual signatures; unit: score (0–1) with policy id.
 
-
 **Lexical special case (F.18 naming).**
 For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be computed over head-term families, not over raw strings**. Variants that share the same lexical head (e.g., “Reference plane”, “Plane of reference”, “Planar reference”) **MUST** be treated as one family for coverage and distance; only candidates with distinct heads contribute to lexical Diversity_P. This aligns lexical use of Diversity_P with `FamilyCoverage` / `AliasRisk` and prevents inflating diversity by near-synonyms of a single head.
-
 
 #### C.17:5.6 - `AttributionIntegrity` — “Did we credit sources and licences correctly?”
 
@@ -269,7 +263,6 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 * **Evidence.** Time/resource logs; BOM deltas.
 * **Didactic cue.** Use **`CreativityPerCost := f(Novelty@context, ValueGain, Surprise)/EffortCost`** for operations planning, not for excellence awards.
 
-
 ### C.17:6 - Conformance Checklist (first tranche)
 
 | ID                                        | Requirement (normative)                                                                                                                                                                  | Purpose / audit hint                                          |
@@ -283,7 +276,6 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 | **CC‑CR‑7 (No scalarisation by default)** | The pattern **SHALL NOT** force a single scalar “creativity score.” If a Context defines one, it **MUST** publish the weighting and its drift policy.                                   | Keeps decisions on a Pareto frontier unless a policy opts‑in. |
 | **CC‑CR‑8 (Bridge discipline)**           | Cross‑context comparisons **MUST** use a **Bridge** with **CL** and recorded **losses**; any mapped coordinate **MUST** note penalties in the **R** lane, not silently alter the value.     | Honest portability.                                           |
 
-
 ### C.17:7 - Manager’s Quick‑Start (apply in 5 steps)
 
 1. **Name the Context** *(context + edition)*.
@@ -294,7 +286,6 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 
 > **Mental check.** *New to our base? Helpful to our objective? Unexpected under our model? Safe & licenced?*
 > If any answer is “unknown,” you are **not done measuring**.
-
 
 ### C.17:8 - Archetypal Grounding (three domains)
 
@@ -325,7 +316,6 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 *ConstraintFit.* 1.0 (ethics N/A; evidence roles bound with decay windows).
 *Decision.* Fund **replication Work**; track **R** decay per policy.
 
-
 ### C.17:9 - Anti‑Patterns (fast fixes)
 
 | Anti‑pattern                   | Why it fails                                                                  | Fix with this FPF pattern                                                        |
@@ -336,7 +326,6 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 | **Hand‑wavy value.**           | No objective → no audit.                                                      | Tie to **Service/KPI** or **utility**; state **counterfactual**.                 |
 | **Silent borrowing.**          | Legal/ethical risk; reputational damage.                                      | Track **AttributionIntegrity**; licence scans in evidence.                       |
 
-
 ### C.17:10 - Relations
 
 * **A.2 Role & A.15 Run‑alignment.** Creative **Work** is performed by **systems in roles**; outcomes are **epistemes**. Creativity is **measured by `U.Evaluation`**, not “done by a document.”
@@ -344,7 +333,6 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 * **C.9 Agency‑CHR.** Agency measures **capacity to originate**; a high‑agency system may still output low‑creativity outcomes (and vice versa with strong scaffolding).
 * **A.2.6 USM (Scope).** All measurements sit on **ContextSlices**; `G‑ladder` is explicitly **not** used (C.17 follows A.2.6’s set‑valued scopes).
 * **D‑cluster ethics.** **ConstraintFit** is where **must** constraints, ethics, and safety bind the evaluation; waivers are explicit **SpeechActs**.
-
 
 ### C.17:11 - Authoring Aids (didactic cards)
 
@@ -403,7 +391,6 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
   `Pass` iff **acceptanceSpec** (from `U.PromiseContent` or Decision KPI) is met from **Work** evidence; else `Partial`/`Fail`. For scalar KPIs, publish mean ± CI and the acceptance threshold; predicted values carry error bars and are updated post‑run.
 * *ConstraintFit.*
   Ratio = satisfied / declared **must** constraints. Constraints are `Norm‑CAL` rules; **count only declared** ones (no unspoken “norms”).
-
 
 #### C.17:12.4 - Metric templates (normative kernels + manager‑ready variants)
 
@@ -493,7 +480,6 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 
 **Practical pattern.** Publish novelty **with its Context tag** and—when reused—attach the **Bridge id** and target‑context **pilot** outcomes.
 
-
 ### C.17:14 - Anti‑Goodhart guard (use creativity metrics safely)
 
 > **Goodhart’s Law:** “When a measure becomes a target, it ceases to be a good measure.” — We bake in **guards** so creativity scoring **improves** outcomes instead of gaming them.
@@ -516,7 +502,6 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 | **CC‑C17‑M.4** | Ordinal metrics **MUST** be summarised with medians/distributions, not means, unless a declared model justifies numeric treatment.     | Reports using a mean on ordinal without model → **fail**.                   |
 | **CC‑C17‑M.5** | Metric templates **MUST** be versioned; changing encoder, reference set, or acceptanceSpec **creates a new edition**.                  | Diff shows changed hooks without edition bump → **fail**.                   |
 
-
 ### C.17:15 - Worked mini‑cases (engineer‑manager focus)
 
 > **All names are context‑local; bridges and editions are explicit.**
@@ -535,7 +520,6 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 
 **Manager’s read.** “We didn’t just produce ‘novel’ shapes; 4 passed the sim and respected constraints, within the day.”
 
-
 #### C.17:15.2 - Case B — Data‑science hypothesis generation (health analytics)
 
 * **Context.** `Cardio_2026`.
@@ -547,7 +531,6 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * **Evidence.** Episteme bundle: model cards, hold‑out plots, Bridge note.
 
 **Manager’s read.** “One candidate works **here**; plan a pilot at Hospital B (we recorded CL=2).”
-
 
 #### C.17:15.3 - Case C — Product squad reframing (software UX)
 
@@ -561,13 +544,11 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 
 **Manager’s read.** “We changed the problem frame and proved the value drop—within risk limits.”
 
-
 #### C.17:15.4 What these cases illustrate (tie‑backs)
 
 * **Locality.** All novelty/usefulness claims are **Context‑tagged**; Cross‑context steps use **Bridges** with **CL**.
 * **Dual‑gate.** Novelty never acts alone; usefulness/constraints co‑gate decisions.
 * **SoD & Evidence.** Observers are **separate** from performers; metrics live on **epistemes** with **frozen hooks**; Work proves fulfillment.
-
 
 ### C.17:16 - Working examples
 
@@ -682,7 +663,6 @@ If a composite “creativity index” is used, its **aggregation algebra** (weig
 
 **CC‑C17‑12 (Work stays on Work).**
 Resource/time actuals and run logs live on `U.Work`; CS never carries actuals. We reason **about** profiles / retained sets; we do not audit operations here.
-
 
 ### C.17:21 - Worked‑Context Handbooks (concept cards, not runbooks)
 

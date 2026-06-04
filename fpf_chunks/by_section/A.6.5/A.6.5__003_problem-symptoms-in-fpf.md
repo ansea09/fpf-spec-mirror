@@ -6,12 +6,12 @@ section_id: "A.6.5:2"
 section_title: "Problem (symptoms in FPF)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__003_problem-symptoms-in-fpf.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:2 — Problem (symptoms in FPF)"
-line_start: 13950
-line_end: 14006
+line_start: 14106
+line_end: 14162
 dependencies:
   - "A.1"
   - "A.19"
@@ -45,13 +45,13 @@ keywords:
 Typical failure modes the pattern is designed to eliminate:
 
 1. **Slot vs value vs ref confusion.**
-   Episteme fields such as `DescribedEntityRef` are sometimes treated as:
+   Episteme fields such as `EntityOfConcernRef` are sometimes treated as:
 
-   * the **slot** (“the described entity position”),
-   * the **value kind** (“the described entity type”), and
+   * the **slot** (“the EntityOfConcern position”),
+   * the **value kind** (“the EntityOfConcern type”), and
    * a **reference field** (“this is the pointer we store”).
 
-   Reasoning about substitution (“can I swap one described entity for another?”) then mixes three levels at once.
+   Reasoning about substitution (“can I swap one EntityOfConcern for another?”) then mixes three levels at once.
 
 2. **Kernel types misused as slot names.**
    Kernel concepts like `U.Entity` or `U.Holon` are used directly as slot names (“the `U.Entity` of this episteme”), hiding the difference between:
@@ -69,8 +69,8 @@ Typical failure modes the pattern is designed to eliminate:
    In the absence of a discipline, the suffix `…Ref` is attached to:
 
    * entity kinds (`U.EntityRef` interpreted as “the entity itself”),
-   * episteme fields (`describedEntityRef`),
-   * sometimes even to slots (“DescribedEntityRefSlot”).
+   * episteme fields (`entityOfConcernRef`),
+   * sometimes even to slots (“EntityOfConcernRefSlot”).
 
    That makes it impossible to read signatures and know whether we talk about:
 

@@ -6,12 +6,12 @@ section_id: "A.2.6:15"
 section_title: "Cross‑Pattern Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__016_cross-pattern-coordination.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:15 — Cross‑Pattern Coordination"
-line_start: 4717
-line_end: 4745
+line_start: 4645
+line_end: 4672
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -53,5 +53,4 @@ keywords:
 
 * Capabilities MUST declare **Work scope**, **measures**, **qualification windows**; gates MUST verify all three.
 * Capability refits that preserve the set (unit changes) are **Refit**, not Δ(WorkScope).
-
 

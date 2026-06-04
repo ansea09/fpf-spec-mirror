@@ -6,12 +6,12 @@ section_id: "A.6.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:1 — Problem frame"
-line_start: 9381
-line_end: 9397
+line_start: 9241
+line_end: 9257
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -19,28 +19,17 @@ dependencies:
   - "A.6.3"
   - "A.6.4"
   - "A.6.5"
-  - "A.7"
   - "C.2.1"
+  - "C.3"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.18"
-  - "E.TGA"
-  - "U.EpistemeSlotGraph"
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
   - "U.Mechanism"
-  - "U.MultiViewDescribing"
-  - "U.RelationSlotDiscipline"
   - "U.Signature"
 keywords:
-  - "describedEntity"
-  - "effect-free"
-  - "episteme"
-  - "functoriality"
-  - "lenses"
-  - "morphism"
-  - "reproducibility"
 ---
 
 ### A.6.2:1 - Problem frame
@@ -57,6 +46,6 @@ All of these are **episteme→episteme** transforms: they change what is written
 Without a universal pattern for such morphisms:
 
 * every family (KD‑CAL, E.TGA, MVPK, discipline packs) reinvent their own notion of “projection”, “reinterpretation”, or “refinement”;
-* laws about what may change in an episteme (content vs described entity vs grounding holon vs reference plane) fragment across the spec;
+* laws about what may change in an episteme (content vs EntityOfConcern vs grounding holon vs reference plane) fragment across the spec;
 * cross‑family reasoning (e.g. “this E.TGA StructuralReinterpretation is a retargeting, not a view”) becomes brittle and ad‑hoc.
 

@@ -6,12 +6,12 @@ section_id: "A.15.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:4 — Solution"
-line_start: 20180
-line_end: 20379
+line_start: 20223
+line_end: 20422
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -47,7 +47,7 @@ It is a **WorkPlanning baseline**, intended to be:
 * **cited** by downstream Work enactment (as planned baseline),
 * compared against actual fillings (variance recorded in Work, not by rewriting the plan).
 
-**Normative note (I/D/Spec vs views):** A `SlotFillingsPlanItem` is a Description-level planning episteme (a PlanItem). It MAY be projected into `U.View` (e.g., `TechCard(SlotFillingsPlanItemRef)`), but any view is strictly a projection and MUST NOT introduce additional claims or “shadow defaults”.
+**Normative note (EntityOfConcern / Description episteme / specification use vs views):** A `SlotFillingsPlanItem` is a Description episteme for planning (a PlanItem). It MAY be projected into `U.View` (e.g., `TechCard(SlotFillingsPlanItemRef)`), but any view is strictly a projection and MUST NOT introduce additional claims or “shadow defaults”.
 
 #### A.15.3:4.2 Core conceptual descriptors (not a data schema)
 
@@ -65,13 +65,13 @@ A conformant `SlotFillingsPlanItem` SHALL provide the following description (nam
      A `MechSuiteDescription` MAY serve as a slot-bearing description for this purpose.
      If the slot-bearing description’s SlotKind interface is edition-sensitive (or expected to evolve), the reference MUST be edition-pinned (e.g., `target_slot_bearing_description_ref.edition`) whenever the PlanItem is used as a reproducibility baseline.
 
-3. **Described entity and grounding (for “whose measurements/choices?”)**
+3. **EntityOfConcern and grounding (for “whose measurements/choices?”)**
 
    * `described_entity_ref : <concrete RefKind>` (required)
-     The referent is the *described entity* (C.2.3 role): the thing the planned baseline is **about**.
+     The referent is the *EntityOfConcern* (C.2.3 role): the thing the planned baseline is **about**.
      It MUST NOT be silently conflated with a holon. (Example: a baseline can be about a width/measure while the grounding holon is a stool with that width.)
-     Use a concrete RefKind of the described entity (e.g., `U.HolonRef`, `U.MeasureRef`, …). Do **not** mint a new generic `EntityRef` token inside this pattern.
-   * `grounding_holon_ref? : U.HolonRef` (optional; required when the described entity is not itself a holon and a grounding holon is needed for plane/frame anchoring)
+     Use a concrete RefKind of the EntityOfConcern (e.g., `U.HolonRef`, `U.MeasureRef`, …). Do **not** mint a new generic `EntityRef` token inside this pattern.
+   * `grounding_holon_ref? : U.HolonRef` (optional; required when the EntityOfConcern is not itself a holon and a grounding holon is needed for plane/frame anchoring)
    * `reference_plane? : ReferencePlane` (optional; required when not unambiguously derivable from cited context publications or records such as CG-frame/spec pins)
 
 4. **Explicit planning context** (no hidden context)
@@ -158,8 +158,8 @@ The following compact pseudo-record illustrates the intended *canonical minimum*
 SlotFillingsPlanItem := ⟨
   kind = SlotFillingsPlanItem,
   target_slot_bearing_description_ref = CHRMechanismSuiteDescriptionRef@edition(E_suite),
-  described_entity_ref = U.HolonRef(H:described-entity), // or another concrete RefKind per C.2.3
-  grounding_holon_ref = U.HolonRef(H:grounding-holon)?,  // when the described entity is not itself a holon
+  described_entity_ref = U.HolonRef(H:EntityOfConcern), // or another concrete RefKind per C.2.3
+  grounding_holon_ref = U.HolonRef(H:grounding-holon)?,  // when the EntityOfConcern is not itself a holon
   bounded_context_ref = U.BoundedContextRef(BC:context),
   cg_frame_ref = CGFrameRef(CG:frame),              // optional but typical for G.* legality/selection
   path_slice_id = PathSliceId(P2W:slice),           // optional but typical for reproducibility

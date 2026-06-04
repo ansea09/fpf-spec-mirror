@@ -6,12 +6,12 @@ section_id: "A.2.6:8"
 section_title: "Locality, Time & Version Semantics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__009_locality-time-version-semantics.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:8 — Locality, Time & Version Semantics"
-line_start: 4383
-line_end: 4405
+line_start: 4318
+line_end: 4339
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -47,5 +47,4 @@ Given fixed inputs (slice tuple, declared scope), the membership judgement MUST 
 #### A.2.6:8.5 - Interaction with R (freshness & decay)
 
 For empirical claims and operational capabilities, **R** typically binds evidence freshness windows. Scope does not decay with time; **trust in the support** does. Guards MAY combine “Scope covers” with “Evidence freshness holds” as separate predicates.
-
 

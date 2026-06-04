@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.4.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
-line_start: 69488
-line_end: 69836
+line_start: 70293
+line_end: 70640
 dependencies:
   - "A.11"
   - "A.2.1"
@@ -41,7 +41,7 @@ keywords:
 
 **“Name the mask or the badge — and say what it commits to — but only inside a Context.”**
 **Status.** Architectural pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **E.10.D2 Intension–Description–Specification Discipline**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting**; F.3 **Intra‑Context Sense Clustering**; A.2.1 **`U.RoleAssignment`**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
+**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **E.10.D2 EntityOfConcern, Description Episteme, and Specification-Use Discipline**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting**; F.3 **Intra‑Context Sense Clustering**; A.2.1 **`U.RoleAssignment`**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
 **Coordinates with.** F.5 **Naming Discipline for U.Types & Roles**; F.7 **Concept‑Set Table**; F.9 **Alignment & Bridge Across Contexts**; B.3 **Trust & Assurance Calculus** (for later status evaluation).
 **Aliases (informative).** *Mask/Badge card*; *role card* (plain only).
 
@@ -71,11 +71,10 @@ Without explicit Role Descriptions:
 
 | Force                         | Tension to resolve                                                                                                           |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **Behaviour vs knowledge**    | A role changes how the holder **acts**; a status changes how the holder is **treated/assessed**. Keep **I/D/S layers** separate (E.10.D2; A.7). |
+| **Behaviour vs knowledge**    | A role changes how the holder **acts**; a status changes how the holder is **treated/assessed**. Keep **EntityOfConcern, Description episteme, and specification-use positions** distinct (E.10.D2; A.7). |
 | **Locality vs reuse**         | We want reusable templates, yet meanings are **context‑local** (E.10.D1, F.1).                                                   |
 | **Minimality vs sufficiency** | Invariants must be **few** and **decisive**; too many become pseudo‑procedures.                                              |
 | **Didactics vs fidelity**     | A one‑screen card must be **teachable** without betraying the canon.                                                         |
-
 
 ### F.4:4 - Minimal vocabulary (this pattern only)
 
@@ -132,7 +131,7 @@ It is **not** a definition by prose alone; it is a **pledge of invariants** — 
 ### F.4:7 - Normative invariants (template discipline)
 
 1. **context‑local grounding.** Every Role Description **MUST** cite exactly one **SenseCell** as its semantic anchor.
-2. **I/D/S layer separation.**
+2. **EntityOfConcern / Description / specification-use separation.**
    * A **Role Template** **MUST NOT** encode deontic, access, or measurement rules.
    * A **Status Template** **MUST NOT** encode behaviour or control flow.
 3. **Time honesty.** The card’s stance (**DesignRunTag**) **MUST** match the Context’s stance (F.1).
@@ -379,7 +378,7 @@ A.15 family (Role–Method–Work alignment) to interpret **System‑in‑Role**
 
 > A Role Description card is a **Context-true** way to speak about an assignable: a **Role** (behavioural mask) or a **Status** (epistemic/deontic badge).
 > Each card names **one SenseCell**, gives a **Tech/Plain** label, states **minimal invariants**, and declares what it **does not** imply.
-> Cards never mix **Role and Status senseFamilies** and never cross **I/D/S layers**, never flip time stance, and never import other Contexts.
+> Cards never mix **Role and Status senseFamilies** and never cross **EntityOfConcern, Description episteme, and specification-use positions**, never flip time stance, and never import other Contexts.
 > Inside one context, you can compare cards by **equivalence** (≡), **refinement** (⪯), **incompatibility**, and **co‑wearability**.
 > across Contexts, say nothing in the card; use a **Bridge** later.
 > Keep cards **one‑screen simple**: enough to decide assignments; nothing procedural; no tools; just clear thought.

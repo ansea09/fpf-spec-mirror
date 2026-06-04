@@ -6,12 +6,12 @@ section_id: "B.2.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:2 — Problem"
-line_start: 30707
-line_end: 30716
+line_start: 30835
+line_end: 30844
 dependencies:
   - "A.1"
   - "A.12"
@@ -33,7 +33,7 @@ keywords:
 
 Layered supervision is useful across engineered, biological, organizational, and epistemic cases, but it is easy to model incorrectly. The common error is to collapse three different structures into one drawing:
 
-1. Structural composition: part-whole or carrier composition of a holon.
+1. Structural composition: part-whole or structural composition of a holon.
 2. Supervisory relation: a `Transformer` or transformer-bearing system playing a supervisor role over one or more subordinate holons.
 3. Interaction or publication network: observation, signal, command, constraint, report, review, or publication channels through which the loop is enacted or supported.
 

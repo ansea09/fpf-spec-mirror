@@ -6,12 +6,12 @@ section_id: "C.28:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:1 — Problem Frame"
-line_start: 49345
-line_end: 49365
+line_start: 49193
+line_end: 49212
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,5 +67,4 @@ FPF already has dedicated neighboring patterns for measurement, evidence, assura
 - or a causal-use claim governed here.
 
 The first pattern task is therefore not to classify wording for its own sake. It is to recover the live causal question, the target causality-ladder rung, the support basis currently available, and the cheapest truthful next move. Sometimes that move is to downgrade the claim to association, temporal change, metric-only fairness, or simulation-only use. Sometimes it is to open identification, realizability, evidence-design, fairness, policy-evaluation, or benchmark-parity work. `C.28` exists to keep those moves distinct and to stop teams from acting as if an identification, realizability, or intervention-support basis had already been earned.
-
 

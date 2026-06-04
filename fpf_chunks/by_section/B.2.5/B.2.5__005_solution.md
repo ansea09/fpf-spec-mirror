@@ -6,12 +6,12 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:4 — Solution"
-line_start: 30725
-line_end: 30761
+line_start: 30853
+line_end: 30889
 dependencies:
   - "A.1"
   - "A.12"
@@ -60,9 +60,9 @@ SupervisorSubholonFeedbackLoop@Context ::= {
 
 **Episteme case boundary.** In an episteme case, the acting and revising work is performed by systems or practices bearing `Transformer` roles. The `U.Episteme` is the knowledge-bearing object being reviewed, revised, stabilized, cited, or published. It does not itself sense, judge, plan, or act.
 
-**Worked slice A - robotic swarm.** A drone fleet has individual drones, a shared communication medium, and a fleet-scope controller or distributed consensus method. `B.2.5` records each drone as supervised holon, the controller or consensus system as supervisor transformer, telemetry as observation side, and waypoint or mode commands as influence side. Claims about exponential convergence, delay tolerance, or disturbance damping use `A.3.3`, `C.27`, and evidence/assurance claim as live.
+**Worked slice A - robotic swarm.** A drone fleet has individual drones, a shared communication medium, and a fleet-scope controller or distributed consensus method. `B.2.5` records each drone as supervised holon, the controller or consensus system as supervisor transformer, telemetry as observation side, and waypoint or mode commands as influence side. Claims about exponential convergence, delay tolerance, or disturbance damping use `A.3.3`, `C.27`, and the exact evidence or assurance pattern whose claim is live.
 
 **Worked slice B - scientific theory.** A scientific theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions. `B.2.5` records the theory or its constituent epistemes as supervised objects and the community/review practice as transformer-bearing supervisor. Journals, conferences, datasets, and review records are publication or interaction channels. The theory does not perform the sensing or judging; the acting systems and practices do.
 
-**Worked slice C - product supervisor loop.** A product platform constrains component teams through published interface rules and release gates. `B.2.5` records the supervising platform policy role, component/subproduct holons, report channels, and constraint returns. Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use module/interface patterns.
+**Worked slice C - product supervisor loop.** A product platform constrains component teams through published interface rules and release gates. `B.2.5` records the supervising platform policy role, component/subproduct holons, report channels, and constraint returns. Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use `A.6.M`.
 

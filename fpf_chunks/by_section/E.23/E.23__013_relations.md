@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 68138
-line_end: 68163
+line_start: 69006
+line_end: 69031
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -47,7 +47,7 @@ keywords:
 | `C.17` | Governs candidate novelty, use-value, surprise, constraint fit, diversity, originality, and resource-efficiency characterization when those are live for OEE/NQD improvement. |
 | `C.18` | Governs NQD generation, descriptor and distance pins, archive and front semantics, and illumination telemetry. `E.23` may improve `Q` movement for one object under improvement but does not govern `C.18` semantics. |
 | `C.19` | Governs live candidate-pool policy. `E.23` does not decide whether to widen, keep frontier, narrow, sunset, or reroute the pool. |
-| `G.5` | Governs selected-set publication, including `Shortlist`, `RankedShortlist`, narrowed handoff, abstain, and escalation results. |
+| `G.5` | Governs selected-set publication, including `Shortlist`, `RankedShortlist`, narrowed transfer result, abstain, and escalation results. |
 | `G.9` | Governs parity and benchmark comparison over selected sets, archives, fronts, or method families when those claims are live. |
 | `G.11` | Governs refresh of shipped set results, archive telemetry, parity reports, or OEE/NQD pins. |
 | `C.11` | Governs local decision value when proposal rows become an explicit choice among alternatives rather than a loop-internal object-version change. |

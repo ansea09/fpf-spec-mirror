@@ -6,12 +6,12 @@ section_id: "C.3:6"
 section_title: "Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__007_core-concepts-informative-summary-authoritative-norms-live-in-c-3-1-c-3-5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:6 — Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)"
-line_start: 36775
-line_end: 36867
+line_start: 36851
+line_end: 36934
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -28,15 +28,13 @@ keywords:
 
 ### C.3:6 - Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)
 
-
 > This section fixes the **Standard** of terms used in C.3 and points to the sub‑patterns for complete mechanics. All “**SHALL/MUST**” statements here are normative.
 
 **Editorial note.** This section is **informative**. It restates manager-level takeaways and **points to** the canonical, normative rules in **C.3.1-C.3.5**. Where this section summarizes a rule, treat the cited sub-pattern and rule ID as the governing source.
 
-
 #### C.3:6.1 - `U.Kind` & `U.SubkindOf (⊑)`
 
-**Definition.** `U.Kind` is a **context‑local intensional object** naming a “kind of thing” that claims may quantify over.
+**Definition.** `U.Kind` is a **context-local kind record** naming a “kind of thing” that claims may quantify over.
 **Order.** `U.SubkindOf (⊑)` is a **partial order** (reflexive, transitive, antisymmetric). We write `k₁ ⊑ k₂`.
 
 **Summary of norms** *(authoritative text: **C.3.1 K‑01–K‑02**)*.
@@ -44,7 +42,6 @@ keywords:
 — Kinds do not carry Scope; Scope remains on claims/capabilities (USM).
 
 > *Full treatment:* **C.3.1** (definitions, invariants, examples).
-
 
 #### C.3:6.2 - **KindSignature** (intent) & **F**
 
@@ -55,7 +52,6 @@ keywords:
 — If a signature change alters membership, treat it as a content change (Contexts may version kinds).
 
 > *Full treatment:* **C.3.2** (signature/intent with F; relation to claims).
-
 
 #### C.3:6.3 - **Extension** & **MemberOf** (extent in a slice)
 
@@ -69,7 +65,6 @@ keywords:
 
 > *Full treatment:* **C.3.2** (extent semantics, examples, authoring hints).
 
-
 #### C.3:6.4 - **KindBridge** & **`CL^k`** (type‑congruence)
 
 **Summary of norms** *(authoritative text: **C.3.3 KB‑01–KB‑12**)*.
@@ -80,7 +75,6 @@ keywords:
 
 > *Full treatment:* **C.3.3** (bridge shape, anchors, examples).
 
-
 #### C.3:6.5 - **RoleMask** (adaptation without cloning)
 
 **Definition.** `U.RoleMask(kind, Context)` is a **named binding** that carries constraints (optional **narrowing** of membership), vocabulary/notation aliases, and intended use for local procedures—**without** creating a new Kind.
@@ -89,9 +83,7 @@ keywords:
 — Masks are registered/versioned; constraints are observable/deterministic at guard time.
 — Do not treat masks as kind synonyms; promote frequently reused constraint masks to explicit subkinds (`⊑`).
 
-
 > *Full treatment:* **C.3.4** (mask taxonomy, guard discipline, promotion rule).
-
 
 #### C.3:6.6 - **KindAT (K0…K3)** — *informative facet*
 
@@ -104,12 +96,11 @@ keywords:
 
 > *Full treatment:* **C.3.5** (manager heuristics, anti‑misuse).
 
-
 #### C.3:6.7 - Quick examples (two‑characteristic awareness)
 
 **E‑Sketch 1 — Policy over `Vehicle`.**
 Claim: “For all `x ∈ Vehicle`: brakeDistance(x) ≤ 50 m (dry), ≤ 40 m (wet).”
-– **describedEntity:** `Vehicle` (Kind, typically K2) — *what* we quantify over.
+– **entityOfConcern:** `Vehicle` (Kind, typically K2) — *what* we quantify over.
 – **Scope (G):** `{surface∈{dry,wet}, speed≤50, rig=v3, Γ_time=rolling 180d}` — *where* the claim holds.
 – **Extent in slice:** which instances the lab currently classifies as `Vehicle` (via `MemberOf`).
 Typed checks happen **before** Scope intersection; **G** is not widened by “abstract wording.”

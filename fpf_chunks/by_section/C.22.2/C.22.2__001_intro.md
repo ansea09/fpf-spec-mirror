@@ -6,12 +6,12 @@ section_id: "C.22.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:intro — Intro"
-line_start: 43769
-line_end: 43788
+line_start: 43693
+line_end: 43712
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,7 +73,7 @@ keywords:
 
 **Use this when.** Use this pattern when a signal, anomaly, drift, risk, hypothesis, stakeholder pressure, set-derived candidate, underused capability, new constraint, new environment, opportunity-like cue, or solution-shaped request must become reviewable before task typing, method-family selection, work planning, evidence use, gate passage, autonomy control, or P2W. Also use it when P2W would otherwise receive a slogan, wish, ticket-shaped task, preselected work item, or solution-shaped task.
 
-**Do not use this when.** Do not use this pattern as a work plan, method selection, evidence pack, gate decision, autonomy permission, archive, portfolio, selected set, parity report, mathematical adequacy record, or general discussion note. Use the neighboring pattern that carries the live relation.
+**Do not use this when.** Do not use this pattern as a work plan, method selection, evidence pack, gate decision, autonomy permission, archive, portfolio, selected set, parity report, mathematical-lens use record, or general discussion note. Use the neighboring pattern that carries the live relation.
 
 **Builds on.** `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
 

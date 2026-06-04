@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.TGA-FLOW-REL"
-pattern_title: "Architecture/TGA Flow-Structure Relation"
+pattern_title: "Architecture-TGA Flow-Structure Relation"
 section_id: "C.30.TGA-FLOW-REL:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture/TGA Flow-Structure Relation"
+  - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:5 — Archetypal Grounding"
-line_start: 53438
-line_end: 53445
+line_start: 53879
+line_end: 53886
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,6 +27,7 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.30.STRAT"
   - "E.10"
   - "E.17"
   - "E.17.0"
@@ -36,7 +37,7 @@ dependencies:
 keywords:
   - "ArchitectureFlowStructureRelation@TGA"
   - "FlowTransductionStructure"
-  - "TGA graph support"
+  - "TGA graph relation"
   - "architecture flow relation"
   - "graph/path/crossing"
 ---
@@ -45,7 +46,7 @@ keywords:
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner sees a graph or path and wants to use it in an architecture description. C.30.TGA-FLOW-REL asks whether the graph is E.18-governed flow/transduction relation for an architecture structural view, and names its non-admissible uses. |
-| Show: `U.System` | A software system, plant, AI agent, neural network, vehicle, or supply chain may have flow/transduction structure. The graph can inform architecture reasoning about that structure without proving work, safety, evidence, gate, or decision claims. |
-| Show: `U.Episteme` | A TGA graph, generated relation graph, code-agent probe, neural-network diagram, dashboard, or architecture note is an episteme/view/publication. It can publish or substantiate the flow relation only when its E.18 object, context pins, correspondence, source-return condition, and admissible use are recoverable. |
+| Tell | A practitioner sees a graph or path and wants to use it for a grounded architecture claim, selected architecture-relevant structure, architecture structural view, or conditional architecture description. C.30.TGA-FLOW-REL asks whether the graph is E.18-governed flow or transduction relation for the selected architecture locus, and names its non-admissible uses. |
+| Show: `U.System` | A software system, plant, AI agent, neural network, vehicle, or supply chain may have flow or transduction structure. The graph can inform architecture reasoning about that structure without proving work, safety, evidence, gate, or decision claims. |
+| Show: `U.Episteme` | A TGA graph, generated relation graph, code-agent probe, neural-network diagram, dashboard, or architecture note is an episteme, view, or publication. It can publish or substantiate the flow relation only when its E.18 object, context pins, correspondence, source-return condition, and admissible use are recoverable. |
 

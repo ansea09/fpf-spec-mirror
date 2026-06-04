@@ -6,12 +6,12 @@ section_id: "E.17.0:5"
 section_title: "Archetypal grounding  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__006_archetypal-grounding-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:5 — Archetypal grounding  (informative)"
-line_start: 60884
-line_end: 60905
+line_start: 61776
+line_end: 61797
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -33,34 +33,25 @@ dependencies:
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "ISO 42010 alignment"
-  - "correspondence model"
-  - "description families"
-  - "engineering vs publication viewpoints"
-  - "entity-of-interest"
-  - "multi-view describing"
-  - "view"
-  - "view vs viewpoint"
-  - "viewpoint"
 ---
 
 ### E.17.0:5 - Archetypal grounding  *(informative)*
 
 1. **Engineering holon (TEVB).**
-   * `EoIClass = U.Holon` (restricted to `U.System`/`U.Episteme`).
+   * `EntityOfConcernClass = U.Holon` (restricted to `U.System`/`U.Episteme`).
    * TEVB (E.17.2) supplies a viewpoint bundle with canonical engineering viewpoints: Functional, Structural, Role‑Enactor, Module‑Interface, etc.
-   * For a particular system `S` in context `C`, D/S epistemes include functional descriptions, structural designs, role‑enactment models, and interface specs.
+   * For a particular system `S` in context `C`, Description epistemes, including Description epistemes admitted for specification use include functional descriptions, structural designs, role‑enactment models, and interface specs.
    * Views derived via EpistemicViewing include sliced safety views, performance‑focused views, and minimal runbooks.
    * `CorrespondenceModel` records how functional elements are realised structurally, where hazards map to components, etc.
 
 2. **Morphism publication (MVPK).**
-   * `EoIClass = U.Morphism`.
-   * D/S epistemes capture the semantic characterisation of morphisms (pre‑/post‑conditions, CG‑Specs, CHR pins).
+   * `EntityOfConcernClass = U.Morphism`.
+   * Description epistemes, including Description epistemes admitted for specification use capture the semantic characterisation of morphisms (pre‑/post‑conditions, CG‑Specs, CHR pins).
    * Viewpoints are publication‑oriented (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`); views are MVPK faces over those morphisms.
    * CorrespondenceModel states how the same morphism appears as a simple narrative, a typed card with units, an interoperability card, and an assurance lane with evidence bindings — all without new claims.
 
 3. **Safety case vs architecture vs operations.**
-   * `EoIClass = U.Holon`.
+   * `EntityOfConcernClass = U.Holon`.
    * Viewpoints: SafetyCase, Architecture, Operations.
    * Families tie together safety requirements, architectural structures, and operational procedures for the same plant `P` in context `C`.
    * Views: a safety‑focused slice of the architecture description, an operational runbook annotated with safety invariants, etc.

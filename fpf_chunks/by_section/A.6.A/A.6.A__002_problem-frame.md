@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:1 — Problem frame"
-line_start: 12891
-line_end: 12926
+line_start: 12733
+line_end: 12768
 dependencies:
   - "A.15"
   - "A.16"
@@ -45,7 +45,7 @@ keywords:
 
 ### A.6.A:1 - Problem frame
 
-FPF repeatedly encounters a predictable precision failure mode around **affordance / action-first** language.
+FPF repeatedly encounters a predictable precision failure mode around **affordance-like and action-first** language.
 
 Authors say:
 
@@ -59,18 +59,18 @@ Authors say:
 
 …but the intended meaning is actually one of several different **action-oriented families**, for example:
 
-1. **Physical affordance** — a physical/environmental configuration offers a bodily action to an embodied agent.
+1. **Physical affordance** — a physical or environmental configuration offers a bodily action to an embodied agent.
 2. **Interface affordance** — an interface face, operator panel, alarm, or publication face presents an operator move.
 3. **Social affordance** — another agent or interactional setting invites a response or coordination move.
 4. **Epistemic probe move** — a problem situation invites asking, comparing, measuring, testing, or instrumenting.
 5. **Closure-advance move** — a situation invites naming, rescoping, proxy declaration, or formalization.
-6. **Latent policy cue** — a learned/distributed state carries an action-oriented tendency not yet locally articulated.
+6. **Latent policy cue** — a learned or distributed state carries an action-oriented tendency not yet locally articulated.
 7. **Control opportunity** — a closed-loop state invites braking, rollback, replan, isolate, escalate, or override.
 
 The recurrent failure modes are:
 
-* **Site confusion.** The invitation-bearing site is unclear: object, scene, interface object, description, carrier, policy state, or problem episode.
-* **Enactor confusion.** It is unclear **which system / collective system / role-holder** is invited to act: human operator, robot controller, research team, review service, or some unnamed “system”.
+* **Site confusion.** The invitation-bearing site is unclear: physical entity, scene, interface entity, description episteme, carrier, policy state, or problem episode.
+* **Enactor confusion.** It is unclear **which `U.System`, collective system, or role assignment whose holder is a `U.System`** is invited to act: human operator, robot controller, research team, review service, or named automation system.
 * **Action confusion.** The candidate action is hidden behind vague language like *actionable*, *calls for*, *ready for*, *natural next step*.
 * **Invitation vs obligation collapse.** A situation that merely invites an action is rewritten as if it already created a duty.
 * **Invitation vs capability collapse.** A local, situated action opportunity is rewritten as if it were a general capability claim.

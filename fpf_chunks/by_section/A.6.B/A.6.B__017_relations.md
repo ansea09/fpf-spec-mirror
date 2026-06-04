@@ -6,12 +6,12 @@ section_id: "A.6.B:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__017_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15 — Relations"
-line_start: 8435
-line_end: 8442
+line_start: 8294
+line_end: 8301
 dependencies:
   - "A.10"
   - "A.6"
@@ -70,6 +70,6 @@ keywords:
 * **Used by A.6:** supplies the canonical matrix and cross‑quadrant link discipline that A.6 references as “Boundary Discipline Matrix”.
 * **Constrains A.6.0 (`U.Signature`):** enforces that `L-*` laws are truth‑conditional and do not include admissibility predicates.
 * **Constrains A.6.1 (`U.Mechanism`):** enforces that admissibility lives in `AdmissibilityConditions` (`A-*`) and that evidence semantics are routed as `E-*` with carrier anchors.
-* **Requires A.7:** anchors quadrants to Object/Description/Carrier so agency and evidence are not misattributed.
+* **Requires A.7:** anchors quadrants to `EntityOfConcern`, Description episteme, or publication carrier so agency and evidence are not misattributed.
 * **Interacts with MVPK/E.17:** faces are projections that cite L/A/D/E-classified claims; faces must not mint new semantic commitments.
 

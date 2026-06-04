@@ -6,12 +6,12 @@ section_id: "J.4:section-005"
 section_title: "Alias and body-prose continuity (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__006_alias-and-body-prose-continuity-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:section-005 — Alias and body-prose continuity (informative)"
-line_start: 82272
-line_end: 82275
+line_start: 82854
+line_end: 82857
 dependencies:
 keywords:
 ---

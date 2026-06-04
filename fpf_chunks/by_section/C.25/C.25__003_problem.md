@@ -6,12 +6,12 @@ section_id: "C.25:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:2 — Problem"
-line_start: 45165
-line_end: 45179
+line_start: 45083
+line_end: 45097
 dependencies:
   - "A.15"
   - "A.16.0"

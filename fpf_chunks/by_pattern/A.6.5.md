@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
-line_start: 13897
-line_end: 14659
+line_start: 14053
+line_end: 14814
 dependencies:
   - "A.1"
   - "A.19"
@@ -48,12 +48,12 @@ keywords:
 **Depends on.**
 – A.1 `U.Holon` (holonic carrier model).
 – A.6.0 `U.Signature` (universal morphism/relationship signatures).
-– A.7 (Strict Distinction; I/D/S vs Surface).
+– A.7 (Strict Distinction; EntityOfConcern / Description / specification-use vs Surface).
 – E.8 (pattern authoring order & SoTA discipline).
 – E.10 (LEX‑BUNDLE: Tech/Plain registers, naming guards).
 
 **Coordinates with.**
-– C.2.1 `U.EpistemeSlotGraph` (episteme slots: DescribedEntity, GroundingHolon, ClaimGraph, Viewpoint, View, ReferenceScheme).
+– C.2.1 `U.EpistemeSlotGraph` (episteme slots: EntityOfConcern, GroundingHolon, ClaimGraph, Viewpoint, View, ReferenceScheme).
 – C.3.* Kind‑CAL (Kinds, KindSignature, KindBridge).
 – F.18 (name governance; twin‑register discipline).
 
@@ -97,13 +97,13 @@ This pattern makes slot discipline explicit and shareable across **epistemes, ro
 Typical failure modes the pattern is designed to eliminate:
 
 1. **Slot vs value vs ref confusion.**
-   Episteme fields such as `DescribedEntityRef` are sometimes treated as:
+   Episteme fields such as `EntityOfConcernRef` are sometimes treated as:
 
-   * the **slot** (“the described entity position”),
-   * the **value kind** (“the described entity type”), and
+   * the **slot** (“the EntityOfConcern position”),
+   * the **value kind** (“the EntityOfConcern type”), and
    * a **reference field** (“this is the pointer we store”).
 
-   Reasoning about substitution (“can I swap one described entity for another?”) then mixes three levels at once.
+   Reasoning about substitution (“can I swap one EntityOfConcern for another?”) then mixes three levels at once.
 
 2. **Kernel types misused as slot names.**
    Kernel concepts like `U.Entity` or `U.Holon` are used directly as slot names (“the `U.Entity` of this episteme”), hiding the difference between:
@@ -121,8 +121,8 @@ Typical failure modes the pattern is designed to eliminate:
    In the absence of a discipline, the suffix `…Ref` is attached to:
 
    * entity kinds (`U.EntityRef` interpreted as “the entity itself”),
-   * episteme fields (`describedEntityRef`),
-   * sometimes even to slots (“DescribedEntityRefSlot”).
+   * episteme fields (`entityOfConcernRef`),
+   * sometimes even to slots (“EntityOfConcernRefSlot”).
 
    That makes it impossible to read signatures and know whether we talk about:
 
@@ -182,12 +182,12 @@ The result: **local convenience, global incoherence** — exactly what A.6.0 and
 
   FPF must line up with this practice enough that signatures can be implemented without inventing a parallel type system.
 
-* **F4 - I/D/S discipline.**
-  Strict distinction (A.7, E.10.D2) already separates **intensional objects**, their **descriptions**, and **specifications**. The same discipline is needed inside relations:
+* **F4 - EntityOfConcern / Description / specification-use discipline.**
+  Strict distinction (A.7, E.10.D2) already separates **entities of concern**, their **Description epistemes**, and **specification uses**. The same discipline is needed inside relations:
 
   * slot ≠ value ≠ reference,
   * system role ≠ slot name,
-  * describedEntity ≠ guard,
+  * entityOfConcern ≠ guard,
   * and “change the reference” ≠ “change the thing referred to”.
 
 * **F5 - Didactic primacy and naming discipline.**
@@ -214,7 +214,7 @@ In **normative** text, the canonical word is **slot**, and the canonical carrier
 
 1. **SlotKind (place in signature).**
    *How this position is denoted in the Signature and what is fixed about it by the signature’s definition.*
-   – Examples: `DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ServiceEndpointSlot`, `CallerHolonSlot`, `MetricSlot`.
+   – Examples: `EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ServiceEndpointSlot`, `CallerHolonSlot`, `MetricSlot`.
    – SlotKind is **structural**: it picks out **one distinguished place** in the argument/port/field list of a given relation, operator, record, or other signatured bundle; it does **not** name a “role” played by whatever fills the slot.
    – For an n‑ary relation/operator declared in a `U.Signature`, the pair *(Signature id, SlotKind)* identifies a **slot**; positional indices are merely a presentation‑level enumeration of these slots.
    – What a filler “does” in that place (its contribution to laws, constraints, effects) is governed by the **laws over the Signature** and by the corresponding ValueKind, not by SlotKind‑as‑“role”.
@@ -236,7 +236,7 @@ In **normative** text, the canonical word is **slot**, and the canonical carrier
   * a SlotKind (name and documentation),
   * a ValueKind (type of permissible fillers),
   * and either a RefKind or an explicit declaration “**by‑value**” (no RefKind; the value is embedded).
-* SlotKind and ValueKind are **intensional**; RefKind is **representational**. This mirrors I/D/S: *slot* describes structure, *value* describes what can sit there, *ref* describes how we point to concrete instances.
+* SlotKind and ValueKind are **intensional**; RefKind is **representational**. This mirrors the EntityOfConcern / Description / specification-use distinction: *slot* describes structure, *value* describes what can sit there, *ref* describes how we point to concrete instances.
 
 #### A.6.5:4.2 - Naming discipline: `*Slot` and `*Ref`
 
@@ -246,17 +246,17 @@ This pattern introduces the following **lexical constraints**, aligned with E.10
 
    * Any Tech name ending with `…Slot` **MUST** denote a SlotKind: a named place in a relation/morphism signature.
    * Examples:
-     – `DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`.
+     – `EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`.
    * `*Slot` **MUST NOT** appear in names of:
      – ValueKind (e.g. `U.Entity`, `U.Holon`, `U.Method`),
      – RefKind (e.g. `U.EntityRef`),
-     – concrete episteme fields (they may be named e.g. `describedEntityRef`, but not `describedEntitySlotField`).
+     – concrete episteme fields (they may be named e.g. `entityOfConcernRef`, but not `entityOfConcernSlotField`).
 
 2. **`*Ref` reserved for RefKind and reference fields.**
 
    * Any Tech name ending with `…Ref` **MUST** denote either:
      – a **RefKind** (type of references/identifiers), or
-     – a **field** whose type is a RefKind (`describedEntityRef : U.EntityRef`).
+     – a **field** whose type is a RefKind (`entityOfConcernRef : U.EntityRef`).
    * `*Ref` **MUST NOT** appear in names of:
      – ValueKinds (e.g. `U.EntityRef` **cannot** mean “an entity”; it is a reference type),
      – SlotKinds,
@@ -312,13 +312,13 @@ Given a relation or morphism `R` with signature Σ and SlotSpecs `{SlotSpec_i}`:
    – “We switch the grounding holon in `GroundingHolonSlot`.”
 
 2. **ValueKind compatibility.**
-   The new content **MUST** be of the same ValueKind (or a declared subkind) as `SlotSpec_i.value`; Kind‑CAL governs this (`⊑` in C.3.1–C.3.2). If a Context uses EoIClass species constraints (C.3.2), those act as additional guards but do **not** change the SlotKind.
+   The new content **MUST** be of the same ValueKind (or a declared subkind) as `SlotSpec_i.value`; Kind‑CAL governs this (`⊑` in C.3.1–C.3.2). If a Context uses EntityOfConcernClass species constraints (C.3.2), those act as additional guards but do **not** change the SlotKind.
 
 3. **RefKind correctness.**
    If `refMode=RefKind`, the stored field is of that RefKind; substitutions operate on references, not on underlying values. Edition pinning is handled as usual by `.edition` fields in F‑patterns (F.15, etc.).
 
 4. **By‑value vs by‑ref awareness.**
-   Substitutions at by‑value slots (e.g. `ClaimGraphSlot`) are **content edits** to the episteme or relation instance; they may affect formality F or assurance lanes. Substitutions at ref slots are **retargetings** of describedEntity or context, and their legality is governed by A.6.2–A.6.4 and Bridge/CL rules. Tooling SHOULD surface this difference explicitly in authoring surfaces (e.g. separate “Ref” vs “embedded content” columns).
+   Substitutions at by‑value slots (e.g. `ClaimGraphSlot`) are **content edits** to the episteme or relation instance; they may affect formality F or assurance lanes. Substitutions at ref slots are **retargetings** of entityOfConcern or context, and their legality is governed by A.6.2–A.6.4 and Bridge/CL rules. Tooling SHOULD surface this difference explicitly in authoring surfaces (e.g. separate “Ref” vs “embedded content” columns).
 
 These rules give a uniform way to say:
 
@@ -380,7 +380,7 @@ When a pattern, bridge, or operator description discusses a change or action “
 
 5. **retarget** (Ref slot update, same SlotKind/ValueKind).
    *Use only for `refMode=RefKind` slots, when the operation replaces one reference handle with another, thereby changing the referent while preserving SlotKind and ValueKind.*
-   – “Retarget `DescribedEntitySlot` from `UserService#staging` to `UserService#prod`.”
+   – “Retarget `EntityOfConcernSlot` from `UserService#staging` to `UserService#prod`.”
    Retargeting is the canonical FPF verb for “swap the referenced thing in this slot”.
 
 6. **substitute** (typed replacement with explicit compatibility claim).
@@ -418,7 +418,7 @@ When naming an operator/morphism/bridge whose primary effect is a slot change, t
 
 Recommended patterns (examples only; Contexts may adopt their own naming style via F.18):
 
-* `Retarget<SlotQualifier>` for ref‑slot retargeting (e.g. `RetargetDescribedEntity`, `RetargetGroundingHolon`).
+* `Retarget<SlotQualifier>` for ref‑slot retargeting (e.g. `RetargetEntityOfConcern`, `RetargetGroundingHolon`).
 * `Edit<SlotQualifier>` / `Update<SlotQualifier>` for by‑value content edits (e.g. `EditClaimGraph`).
 * `Substitute<SlotQualifier>` when the operator exists to enforce/declare ValueKind compatibility (e.g. `SubstituteDataset`).
 * `Resolve<SlotQualifier>` when the operator is about resolving a Ref to a referent (e.g. `ResolveServiceEndpoint`).
@@ -460,12 +460,12 @@ Following E.7, we ground the pattern in a **System** example and an **Episteme**
 
 Consider an `AuthPipelineSpecKind` (system‑level episteme describing an authentication pipeline for a microservice). Its key slots might be:
 
-* `DescribedEntitySlot` — “which holon the pipeline is about”
-  – ValueKind: `U.Holon` (EoIClass = “UserService system”).
+* `EntityOfConcernSlot` — “which holon the pipeline is about”
+  – ValueKind: `U.Holon` (EntityOfConcernClass = “UserService system”).
   – RefKind: `U.HolonRef` (e.g. `UserService#prod`).
 
 * `AuthProviderComponentSlot` — “which authentication provider component is selected”
-  – ValueKind: `U.Holon` (EoIClass = “AuthProviderSystem”).
+  – ValueKind: `U.Holon` (EntityOfConcernClass = “AuthProviderSystem”).
   – RefKind: `U.HolonRef` (e.g. `Auth_OIDC`, `Auth_LDAP`).
 
 * `ClaimGraphSlot` — “what is asserted about the pipeline”
@@ -480,7 +480,7 @@ Substitutions / retargetings:
   – RefKind unchanged (`U.HolonRef`).
   – Semantically: “retarget the ref that fills the same slot”.
 
-* **Retargeting** `DescribedEntitySlot` from `UserService#staging` to `UserService#prod`:
+* **Retargeting** `EntityOfConcernSlot` from `UserService#staging` to `UserService#prod`:
   – Same SlotKind and ValueKind.
   – Different `U.HolonRef` slot‑content.
   – May require different grounding and assurance episteme, but the slot discipline is identical.
@@ -489,12 +489,12 @@ Substitutions / retargetings:
 
 Consider `ModelEvaluationResultKind` as an episteme kind:
 
-* `DescribedEntitySlot` — the model being evaluated
+* `EntityOfConcernSlot` — the model being evaluated
   – ValueKind: `U.Method` (intensional ML model).
   – RefKind: `U.MethodRef` (id of `Model_v3`).
 
 * `DatasetSlot` — the dataset on which it is evaluated
-  – ValueKind: `U.Entity` (EoIClass = “Dataset”).
+  – ValueKind: `U.Entity` (EntityOfConcernClass = “Dataset”).
   – RefKind: `U.EntityRef` (e.g. `Dataset_A`, `Dataset_B`).
 
 * `TargetCharacteristicSlot` — the characteristic being measured
@@ -534,15 +534,15 @@ Example names like `FurnitureSafetyDescriptionKind`, `AuthPipelineSpecKind`, `Mo
 
 *SlotKind / ValueKind / RefKind:*
 
-* `DescribedEntitySlot` — SlotKind “what this description is about”; ValueKind `U.Entity` with EoIClass ⊑ `U.Holon` (stool as a furniture holon); RefKind `U.EntityRef` (identifier of a concrete stool `S_i`).
+* `EntityOfConcernSlot` — SlotKind “what this description is about”; ValueKind `U.Entity` with EntityOfConcernClass ⊑ `U.Holon` (stool as a furniture holon); RefKind `U.EntityRef` (identifier of a concrete stool `S_i`).
 * `GroundingHolonSlot` — SlotKind “where the test happens”; ValueKind `U.Holon` (test rig `LabRig_j`); RefKind `U.HolonRef`.
 * `ClaimGraphSlot` — SlotKind for the internal content; ValueKind `U.ClaimGraph`; refMode `ByValue` (graph embedded in the episteme).
 
 *Substitutions (all under the **same** SlotKinds):*
 
-* Episteme `E₁`: `describedEntityRef = S_1`, `groundingHolonRef = LabRig_A`.
-* Episteme `E₂`: `describedEntityRef = S_2`, `groundingHolonRef = LabRig_A` — **substitute another stool in the same `DescribedEntitySlot`** (different `U.EntityRef` slot‑content).
-* Episteme `E₃`: `describedEntityRef = S_1`, `groundingHolonRef = LabRig_B` — **substitute another test rig in `GroundingHolonSlot`** while keeping the same `DescribedEntitySlot` occupant.
+* Episteme `E₁`: `entityOfConcernRef = S_1`, `groundingHolonRef = LabRig_A`.
+* Episteme `E₂`: `entityOfConcernRef = S_2`, `groundingHolonRef = LabRig_A` — **substitute another stool in the same `EntityOfConcernSlot`** (different `U.EntityRef` slot‑content).
+* Episteme `E₃`: `entityOfConcernRef = S_1`, `groundingHolonRef = LabRig_B` — **substitute another test rig in `GroundingHolonSlot`** while keeping the same `EntityOfConcernSlot` occupant.
 
 In all three cases the SlotKinds (and ValueKinds) are stable; only the **Refs that fill those slots** change. This matches the engineering idiom “drop another module into the same slot”.
 
@@ -552,14 +552,14 @@ In all three cases the SlotKinds (and ValueKinds) are stable; only the **Refs th
 
 *SlotKind / ValueKind / RefKind:*
 
-* `DescribedEntitySlot` — ValueKind `U.Holon` with EoIClass = “`UserService` holon”; RefKind `U.HolonRef` (e.g. `UserService#prod`).
-* `AuthProviderComponentSlot` — SlotKind “which auth provider component is used in this pipeline”; ValueKind `U.Holon` with EoIClass = “`AuthProviderSystem` holon”; RefKind `U.HolonRef` (e.g. `Auth_OIDC`, `Auth_LDAP`).
+* `EntityOfConcernSlot` — ValueKind `U.Holon` with EntityOfConcernClass = “`UserService` holon”; RefKind `U.HolonRef` (e.g. `UserService#prod`).
+* `AuthProviderComponentSlot` — SlotKind “which auth provider component is used in this pipeline”; ValueKind `U.Holon` with EntityOfConcernClass = “`AuthProviderSystem` holon”; RefKind `U.HolonRef` (e.g. `Auth_OIDC`, `Auth_LDAP`).
 * `ClaimGraphSlot` — ValueKind `U.ClaimGraph`; refMode `ByValue` (pipeline invariants and flow logic).
 
 *Substitutions / retargetings:*
 
-* Episteme `Spec_OIDC`: `describedEntityRef = UserService#prod`, `authProviderComponentRef = Auth_OIDC`.
-* Episteme `Spec_LDAP`: same `describedEntityRef = UserService#prod`, but `authProviderComponentRef = Auth_LDAP`.
+* Episteme `Spec_OIDC`: `entityOfConcernRef = UserService#prod`, `authProviderComponentRef = Auth_OIDC`.
+* Episteme `Spec_LDAP`: same `entityOfConcernRef = UserService#prod`, but `authProviderComponentRef = Auth_LDAP`.
 
 Here SlotKind is identical (`AuthProviderComponentSlot`); ValueKind is “any auth‑provider holon”; the episteme change is purely a **retargeting** of the `U.HolonRef` slot‑content.
 
@@ -569,15 +569,15 @@ Here SlotKind is identical (`AuthProviderComponentSlot`); ValueKind is “any au
 
 *SlotKind / ValueKind / RefKind:*
 
-* `DescribedEntitySlot` — ValueKind `U.Method`; RefKind `U.MethodRef` (e.g. `Model_v3`).
-* `DatasetSlot` — ValueKind `U.Entity` with EoIClass = “dataset”; RefKind `U.EntityRef` (`Dataset_A`, `Dataset_B`, …).
+* `EntityOfConcernSlot` — ValueKind `U.Method`; RefKind `U.MethodRef` (e.g. `Model_v3`).
+* `DatasetSlot` — ValueKind `U.Entity` with EntityOfConcernClass = “dataset”; RefKind `U.EntityRef` (`Dataset_A`, `Dataset_B`, …).
 * `TargetCharacteristicSlot` — ValueKind `U.Characteristic`; RefKind `U.CharacteristicRef`.
 * `GroundingHolonSlot` — ValueKind `U.Holon`; RefKind `U.HolonRef`.
 * `ClaimGraphSlot` — ValueKind `U.ClaimGraph`; refMode `ByValue`.
 
 *Substitutions / retargetings:*
 
-* `Eval_1`: `describedEntityRef = Model_v3`, `datasetRef = Dataset_A`, `targetCharacteristicRef = Accuracy`, `groundingHolonRef = EvalCluster#1`.
+* `Eval_1`: `entityOfConcernRef = Model_v3`, `datasetRef = Dataset_A`, `targetCharacteristicRef = Accuracy`, `groundingHolonRef = EvalCluster#1`.
 * `Eval_2`: same model / characteristic / cluster, but `datasetRef = Dataset_B` — **substitute another dataset in `DatasetSlot`** (retarget the dataset ref).
 * `Eval_3`: same model and dataset, but `targetCharacteristicRef = F1` — **substitute another characteristic in `TargetCharacteristicSlot`**.
 
@@ -587,14 +587,14 @@ Here SlotKind is identical (`AuthProviderComponentSlot`); ValueKind is “any au
 
 *SlotKind / ValueKind / RefKind:*
 
-* `DescribedEntitySlot` — ValueKind `U.Method`; RefKind `U.MethodRef`.
+* `EntityOfConcernSlot` — ValueKind `U.Method`; RefKind `U.MethodRef`.
 * `GroundingHolonSlot` — ValueKind `U.Holon`; RefKind `U.HolonRef`.
 * `ClaimGraphSlot` — ValueKind `U.ClaimGraph`; refMode `ByValue`.
 
 *Substitutions / retargetings:*
 
-* `Runbook_DC1`: `describedEntityRef = MajorIncidentRunbook`, `groundingHolonRef = DC1_NOC`.
-* `Runbook_DC2`: same `describedEntityRef`, but `groundingHolonRef = DC2_NOC`.
+* `Runbook_DC1`: `entityOfConcernRef = MajorIncidentRunbook`, `groundingHolonRef = DC1_NOC`.
+* `Runbook_DC2`: same `entityOfConcernRef`, but `groundingHolonRef = DC2_NOC`.
 
 This is “one and the same method is specified and validated in two different operational environments”: SlotKind and ValueKind are stable; only the `U.HolonRef` slot‑content differs.
 
@@ -604,15 +604,15 @@ This is “one and the same method is specified and validated in two different o
 
 *SlotKind / ValueKind / RefKind:*
 
-* `DescribedEntitySlot` — ValueKind `U.Holon`; RefKind `U.HolonRef` (e.g. `CheckoutService#prod`).
+* `EntityOfConcernSlot` — ValueKind `U.Holon`; RefKind `U.HolonRef` (e.g. `CheckoutService#prod`).
 * `TargetCharacteristicSlot` — ValueKind `U.Characteristic`; RefKind `U.CharacteristicRef`.
 * `ClaimGraphSlot` — ValueKind `U.ClaimGraph`; refMode `ByValue`. Numeric thresholds live **inside the ClaimGraph as literals**, not as RefKinds.
 
 *Moves:*
 
-* `SLA_latency_200`: `describedEntityRef = CheckoutService#prod`, `targetCharacteristicRef = P95Latency`; ClaimGraph contains `P95Latency ≤ 200 ms`.
+* `SLA_latency_200`: `entityOfConcernRef = CheckoutService#prod`, `targetCharacteristicRef = P95Latency`; ClaimGraph contains `P95Latency ≤ 200 ms`.
 * `SLA_latency_150`: same refs, but ClaimGraph threshold is `P95Latency ≤ 150 ms`. This is a **by‑value edit** of `ClaimGraphSlot`.
-* `SLA_availability_99_9`: same `describedEntityRef`, but `targetCharacteristicRef = Availability`; ClaimGraph states `Availability ≥ 99.9%`. This is a **retargeting** of `TargetCharacteristicSlot`.
+* `SLA_availability_99_9`: same `entityOfConcernRef`, but `targetCharacteristicRef = Availability`; ClaimGraph states `Availability ≥ 99.9%`. This is a **retargeting** of `TargetCharacteristicSlot`.
 
 ### A.6.5:6 - Bias‑Annotation
 
@@ -627,13 +627,13 @@ This is “one and the same method is specified and validated in two different o
   * We treat *slot* as the primary abstraction and discourage role‑style or object‑style naming for argument positions. This favours structural clarity over conversational metaphors (“subject/object/role”) and keeps `U.Role` free for RoleEnactment rather than param‑slots.
 
 * **By‑value/by‑ref honesty.**
-  We explicitly separate ValueKind and RefKind instead of hiding “by‑reference” behind the type system. This increases verbosity but makes reasoning about edition pinning, caching, and re‑targeting more robust, and keeps I/D/S distinctions visible inside signatures.
+  We explicitly separate ValueKind and RefKind instead of hiding “by‑reference” behind the type system. This increases verbosity but makes reasoning about edition pinning, caching, and re‑targeting more robust, and keeps EntityOfConcern / Description / specification-use distinctions visible inside signatures.
 
 * **Lexicon bias (precision over metaphor).**
   We standardise the slot‑operation lexicon (bind/fill/initialize/assign/retarget/resolve/mutate) and discourage metaphors that smuggle role semantics back into SlotKinds. This increases didactic load, but directly reduces cross‑pattern ambiguity, especially in “binding time” discussions.
 
-* **Episteme‑first describedEntity.**
-  The examples and cross‑references prioritise episteme use‑cases (C.2.1, A.6.2–A.6.4) where describedEntity and retargeting are subtle. System‑only usages (e.g. method signatures) are absolutely allowed but not the driving case; they inherit the same discipline without additional obligations.
+* **Episteme‑first entityOfConcern.**
+  The examples and cross‑references prioritise episteme use‑cases (C.2.1, A.6.2–A.6.4) where entityOfConcern and retargeting are subtle. System‑only usages (e.g. method signatures) are absolutely allowed but not the driving case; they inherit the same discipline without additional obligations.
 
 ### A.6.5:7 - Conformance Checklist (normative)
 
@@ -655,7 +655,7 @@ ValueKinds **MUST** be declared without `*Slot`/`*Ref` suffixes and **MUST** be 
 **CC‑A.6.5‑5 - Episteme core SlotKinds.**
 For episteme kinds (`U.EpistemeKind`), the following SlotKinds **SHALL** be used (or their documented refinements) in C.2.1 / C.2.x:
 
-* `DescribedEntitySlot` with ValueKind `U.Entity` **or a declared subkind** (e.g. `U.Method`, `U.Holon`) via Kind‑CAL (EoIClass ⊑ `U.Entity` at species level);
+* `EntityOfConcernSlot` with ValueKind `U.Entity` **or a declared subkind** (e.g. `U.Method`, `U.Holon`) via Kind‑CAL (EntityOfConcernClass ⊑ `U.Entity` at species level);
 * `GroundingHolonSlot` with ValueKind `U.Holon`;
 * `ClaimGraphSlot` with ValueKind `U.ClaimGraph` and `ByValue` mode in the minimal core;
 * `ViewpointSlot` with ValueKind `U.Viewpoint`;
@@ -669,7 +669,7 @@ SlotKinds **MUST NOT** use “Role” as their head noun; use “Slot” with a 
 Any pattern that describes substitution or replacement of arguments **MUST** phrase its rules in terms of SlotKinds and ValueKinds (and, where relevant, RefKinds), not in terms of unstructured parameter indices or ad‑hoc labels.
 
 **CC‑A.6.5‑8 - Cross‑pattern consistency.**
-When the same conceptual position is used across patterns (e.g. “describedEntity target”, “grounding holon”, “caller system”), the **same SlotKind name** and ValueKind **SHALL** be reused, unless a documented Bridge declares a different discipline or the pattern explicitly scopes itself to a distinct calculus.
+When the same conceptual position is used across patterns (e.g. “entityOfConcern target”, “grounding holon”, “caller system”), the **same SlotKind name** and ValueKind **SHALL** be reused, unless a documented Bridge declares a different discipline or the pattern explicitly scopes itself to a distinct calculus.
 
 **CC‑A.6.5‑9 - Migration of legacy `…Ref`/`…Slot` usage.**
 Contexts adopting this pattern **MUST** maintain a migration table for legacy types/fields whose names contain `Ref` or `Slot` but do not comply with the new discipline. Each entry shall state:
@@ -727,13 +727,13 @@ Any use of “early binding / late binding” (or equivalent) **MUST** specify w
 In FPF this pattern makes `U.Signature` behave like a lightweight dependently‑typed record discipline: SlotKind plays the role of an index or label, ValueKind is the family of admissible fillers at that position, and RefKind captures the representation choice (by‑value or via a handle). This mirrors the way post‑2015 work on row‑polymorphic data and effect rows treats labels and field kinds as first‑class, while keeping the Core notation‑neutral.
 
 **Why separate ValueKind from RefKind.**
-In practice, “Ref” types tend to be quietly used as if they were values, eroding the I/D/S split and making edition discipline invisible. By insisting that ValueKind is always the conceptual kind (“what sort of thing is this about?”) and RefKind is always the reference/identifier kind (“how do we point at it in Episteme?”), the pattern aligns with E.10.D2’s intension/description/specification discipline and with modern resource‑aware logics that keep values and resources distinct.
+In practice, “Ref” types tend to be quietly used as if they were values, eroding the EntityOfConcern / Description / specification-use split and making edition discipline invisible. By insisting that ValueKind is always the conceptual kind (“what sort of thing is this about?”) and RefKind is always the reference/identifier kind (“how do we point at it in Episteme?”), the pattern aligns with E.10.D2’s intension/description/specification discipline and with modern resource‑aware logics that keep values and resources distinct.
 
 **Why add a slot‑operation lexicon.**
 The triple only buys safety if authors and tools can see it at a glance **and** can narrate changes without collapsing layers. A.6.5:4.5 makes the common “put something in a slot” moves explicit: initialization vs assignment vs retargeting vs by‑value editing vs resolution. This directly reduces ambiguity in episteme morphism descriptions (A.6.2–A.6.4) and prevents accidental imports from a specific PL’s terminology.
 
 **Why standardise episteme SlotKinds.**
-describedEntity and grounding recur across epistemes; standard SlotKinds (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, etc.) let A.6.2–A.6.4 and C.2.1 talk about substitutions and retargetings once, instead of re‑defining “what this is about” in every pattern.
+entityOfConcern and grounding recur across epistemes; standard SlotKinds (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, etc.) let A.6.2–A.6.4 and C.2.1 talk about substitutions and retargetings once, instead of re‑defining “what this is about” in every pattern.
 
 **Why lexical rules (`*Slot`, `*Ref`, operation verbs, no “Role” heads).**
 The discipline must be cheap to apply. Reserving `*Slot` for SlotKinds and `*Ref` for RefKinds/fields gives a syntax‑level guard against conflating places, kinds, and handles. Standardising operation verbs (initialize/retarget/resolve) prevents prose from re‑introducing the same conflation by different words.
@@ -768,15 +768,14 @@ The discipline must be cheap to apply. Reserving `*Slot` for SlotKinds and `*Ref
 **Specialises A.6.P Relational Precision Restoration (RPR).**
 A.6.5 is the RPR specialisation for “n‑ary relation as slots”: it restores hidden arity by making participant positions explicit as SlotKinds, and stabilises change semantics via the slot‑operation lexicon + lexical guards.
 
-
 **Builds on A.6.0 `U.Signature`.**
 Refines parameter declarations with SlotSpec triples `⟨SlotKind, ValueKind, refMode⟩` while leaving the rest of the signature structure (SubjectKind, BaseType, Quantification, ResultKind, Laws) unchanged. SlotKinds become the canonical labels for argument positions.
 
 **Constrains C.2.1 `U.EpistemeSlotGraph`.**
-Fixes core episteme SlotKinds (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) and their ValueKinds/`ByValue` vs Ref discipline. C.2.1 and its extensions SHALL use these SlotKinds (or documented refinements) so that episteme morphisms can be expressed uniformly over slots.
+Fixes core episteme SlotKinds (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) and their ValueKinds/`ByValue` vs Ref discipline. C.2.1 and its extensions SHALL use these SlotKinds (or documented refinements) so that episteme morphisms can be expressed uniformly over slots.
 
 **Supports A.6.2–A.6.4 (episteme morphisms and viewing).**
-DescribedEntity‑preserving vs describedEntity‑retargeting morphisms can now be stated as constraints on which SlotKinds’ ValueKinds/RefKinds they may change. Retargeting becomes “retargeting at `DescribedEntitySlot` under a Kind‑Bridge” rather than an ad‑hoc parameter tweak. The operation lexicon in A.6.5:4.5 makes “retarget vs edit vs resolve” explicit in these morphism descriptions.
+EntityOfConcern‑preserving vs entityOfConcern‑retargeting morphisms can now be stated as constraints on which SlotKinds’ ValueKinds/RefKinds they may change. Retargeting becomes “retargeting at `EntityOfConcernSlot` under a Kind‑Bridge” rather than an ad‑hoc parameter tweak. The operation lexicon in A.6.5:4.5 makes “retarget vs edit vs resolve” explicit in these morphism descriptions.
 
 **Coordinates with B.5.* (RoleEnactment).**
 Role/assignment relations may declare SlotKinds such as `HolderHolonSlot`, `RoleSlot`, `ContextSlot`, `WindowSlot` with clear ValueKinds/RefKinds, instead of overloading “role” for both holonic roles and relation positions. This keeps `U.Role` semantics (A.2, F.6) separate from slot discipline.

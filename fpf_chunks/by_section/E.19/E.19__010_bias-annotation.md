@@ -6,12 +6,12 @@ section_id: "E.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__010_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:6 — Bias-Annotation"
-line_start: 65782
-line_end: 65796
+line_start: 66656
+line_end: 66670
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -40,7 +40,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 
 Bias risks and mitigations:
 
-* **Governance bias (Gov):** reviewers may over-prioritize “compliance posture” and under-prioritize teaching value.
+* **Governance bias (Gov):** reviewers may over-prioritize compliance signals and under-prioritize teaching value.
   *Mitigation:* PCP‑BASE includes didactic grounding and internal coherence checks and priority for ontology and semantics, not to form.
 * **Epistemic monoculture (Onto/Epist):** SoTA‑Echoing can become single-tradition name-dropping.
   *Mitigation:* require explicit multi-tradition coverage and usage of F.18 for neutral naming.

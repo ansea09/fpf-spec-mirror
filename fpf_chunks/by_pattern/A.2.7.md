@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.7.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.7 — U.RoleAlgebra: In‑Context Role Relations"
-line_start: 4910
-line_end: 4982
+line_start: 4833
+line_end: 4905
 dependencies:
   - "A.1.1"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.3.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:3 — Forces"
-line_start: 6404
-line_end: 6414
+line_start: 6294
+line_end: 6303
 dependencies:
   - "A.19"
   - "B.4"
@@ -31,5 +31,4 @@ keywords:
 | **Continuous vs. discrete vs. hybrid** | Different time bases and update rules must coexist.                                                                     |
 | **Open vs. closed systems**            | Exogenous inputs (control/disturbances) may be explicit or implicit.                                                    |
 | **Predictive use vs. diagnostic use**  | The same dynamics can guide planning or explain incidents; interfaces must support both.                                |
-
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
-line_start: 30689
-line_end: 30829
+line_start: 30817
+line_end: 30958
 dependencies:
   - "A.1"
   - "A.12"
@@ -39,18 +39,18 @@ Use this pattern when a holon is described as being supervised, regulated, steer
 
 The first-minute working situation is familiar: a fleet controller supervises drones, a plant supervisor changes allowed operating modes, a policy role constrains teams, or a scientific community reviews and revises a theory. The useful first move is to recover the feedback-loop relation: who or what is the supervised holon, which `Transformer` or transformer-bearing system plays the supervisor role, what signal or publication channel carries state or observations, what influence or constraint returns, and what objective or constraint the loop is trying to maintain.
 
-What goes wrong if B.2.5 is missed: a drawn loop, layer label, publication channel, or supervisor word is read as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance.
+What goes wrong if B.2.5 is missed: the supervised holon, supervisor transformer, shared medium, returned influence, and loop-closure condition remain unnamed; then layer labels, diagrams, publication channels, or supervisor words start carrying claims that belong elsewhere.
 
-What B.2.5 buys in practice: the practitioner can keep useful supervisor/subholon language while naming the acting role, medium, returned influence, and exact governing pattern that carries any proof or exact claim.
-Not this pattern when the live issue is only a control-structure view, a reusable dynamics law, a rate/timing claim, a causal intervention claim, an evidence claim, an assurance claim, a gate decision, or a module-interface relation. Use `C.30.LCA` for control-structure view adequacy, `A.3.3` for dynamics, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence claim, `B.3` for assurance, `A.20`/`A.21` for constraint validity or gate decisions, and module/interface patterns for interface commitments.
+What B.2.5 buys in practice: the practitioner can keep useful supervisor/subholon language while naming the acting role, medium, returned influence, and exact governing pattern that carries any stronger live claim.
+Not this pattern when the live issue is only a control-structure view, reusable dynamics law, rate/timing claim, causal intervention claim, evidence or assurance claim, gate decision, or module-interface relation. Use `C.30.LCA`, `A.3.3`, `C.27`, `C.28`, `A.10`/`G.6`, `B.3`, `A.20`/`A.21`, or `A.6.M` as appropriate.
 
-The governed object is one supervisor-subholon feedback-loop relation. It is not proof that the loop is stable, safe, evidence-sufficient, gate-ready, causally valid, or assured.
+The primary EntityOfConcern is one supervisor-subholon feedback-loop relation. Stability, safety, evidence sufficiency, gate readiness, causal validity, or assurance claims remain neighboring claims under their exact patterns when they are live.
 
 ### B.2.5:2 - Problem
 
 Layered supervision is useful across engineered, biological, organizational, and epistemic cases, but it is easy to model incorrectly. The common error is to collapse three different structures into one drawing:
 
-1. Structural composition: part-whole or carrier composition of a holon.
+1. Structural composition: part-whole or structural composition of a holon.
 2. Supervisory relation: a `Transformer` or transformer-bearing system playing a supervisor role over one or more subordinate holons.
 3. Interaction or publication network: observation, signal, command, constraint, report, review, or publication channels through which the loop is enacted or supported.
 
@@ -95,11 +95,11 @@ SupervisorSubholonFeedbackLoop@Context ::= {
 
 **Episteme case boundary.** In an episteme case, the acting and revising work is performed by systems or practices bearing `Transformer` roles. The `U.Episteme` is the knowledge-bearing object being reviewed, revised, stabilized, cited, or published. It does not itself sense, judge, plan, or act.
 
-**Worked slice A - robotic swarm.** A drone fleet has individual drones, a shared communication medium, and a fleet-scope controller or distributed consensus method. `B.2.5` records each drone as supervised holon, the controller or consensus system as supervisor transformer, telemetry as observation side, and waypoint or mode commands as influence side. Claims about exponential convergence, delay tolerance, or disturbance damping use `A.3.3`, `C.27`, and evidence/assurance claim as live.
+**Worked slice A - robotic swarm.** A drone fleet has individual drones, a shared communication medium, and a fleet-scope controller or distributed consensus method. `B.2.5` records each drone as supervised holon, the controller or consensus system as supervisor transformer, telemetry as observation side, and waypoint or mode commands as influence side. Claims about exponential convergence, delay tolerance, or disturbance damping use `A.3.3`, `C.27`, and the exact evidence or assurance pattern whose claim is live.
 
 **Worked slice B - scientific theory.** A scientific theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions. `B.2.5` records the theory or its constituent epistemes as supervised objects and the community/review practice as transformer-bearing supervisor. Journals, conferences, datasets, and review records are publication or interaction channels. The theory does not perform the sensing or judging; the acting systems and practices do.
 
-**Worked slice C - product supervisor loop.** A product platform constrains component teams through published interface rules and release gates. `B.2.5` records the supervising platform policy role, component/subproduct holons, report channels, and constraint returns. Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use module/interface patterns.
+**Worked slice C - product supervisor loop.** A product platform constrains component teams through published interface rules and release gates. `B.2.5` records the supervising platform policy role, component/subproduct holons, report channels, and constraint returns. Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use `A.6.M`.
 
 ### B.2.5:5 - Archetypal Grounding
 
@@ -112,8 +112,8 @@ SupervisorSubholonFeedbackLoop@Context ::= {
 
 * **Diagram closure bias.** A loop drawn on a diagram is read as a closed feedback loop. Repair by naming both observation/report and influence/constraint sides.
 * **Layer/level bias.** Layered diagrams hide whether the label names control role, declared system level, aggregation scope, rate band, or publication grouping. Repair by recovering the declared kind.
-* **Episteme-agent bias.** Knowledge-bearing objects are described as acting agents. Repair by naming the acting `Transformer`, publication or revision practice, and source/reliance relation.
-* **Proof-by-loop bias.** A loop relation is read as stability, safety, or assurance proof. Repair by assigning the live claim kind to the governing exact governing pattern.
+* **Episteme-agent bias.** Knowledge-bearing objects are described as acting agents. Repair by naming the acting `Transformer`, publication or revision practice, and source or reliance relation.
+* **Proof-by-loop bias.** A loop relation is read as stability, safety, or assurance proof. Repair by assigning the live claim kind to the exact governing pattern.
 
 This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 
@@ -125,7 +125,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | CC-B2.5-2 | A conforming use names the shared medium or publication/interaction channel that carries observations, reports, signals, constraints, or influence. | Makes the loop inspectable. |
 | CC-B2.5-3 | A conforming use names both observation/report and influence/constraint sides or explicitly says the loop is not closed. | Separates closed feedback loops from one-way commands. |
 | CC-B2.5-4 | A conforming use keeps structural composition, supervisory relation, and interaction/publication network distinct. | Prevents layer/part category errors. |
-| CC-B2.5-5 | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims are assigned to their governing exact governing patterns. | Prevents loop-as-proof overread. |
+| CC-B2.5-5 | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims are assigned to their exact governing patterns. | Prevents loop-as-proof overread. |
 | CC-B2.5-6 | Episteme examples name the acting systems or practices that perform review, revision, publication, or use. | Prevents episteme-agent overread. |
 | CC-B2.5-7 | If a control-structure view is live, the use cites or opens `C.30.LCA`. | Keeps relation-level feedback claims and view-level architecture claims aligned. |
 
@@ -147,9 +147,9 @@ The cost is that `B.2.5` no longer lets a layered-control diagram carry proof cl
 
 ### B.2.5:10 - Rationale
 
-Supervisor-subholon feedback loops are a recurring architecture form. The form is most useful when it is separated from structural mereology and from proof. That separation preserves the engineering insight from layered control architecture while keeping FPF's I/D/S and role/transformer distinctions intact.
+Supervisor-subholon feedback loops are a recurring architecture form. The form is most useful when it is separated from structural mereology and from proof. That separation preserves the engineering insight from layered control architecture while keeping FPF's EntityOfConcern and Description-episteme boundary and specification use and role/transformer distinctions intact.
 
-The same separation also keeps the epistemic case precise. Scientific theories, documents, models, and other epistemes can participate in feedback loops as reviewed or revised objects and as publications or source/reliance objects, but acting systems and practices carry the transformer role. This lets the same pattern cover systems and epistemes without agentive overread.
+The same separation also keeps the epistemic case precise. Scientific theories, documents, models, and other epistemes can participate in feedback loops as reviewed or revised objects and as publications or source or reliance objects, but acting systems and practices carry the transformer role. This lets the same pattern cover systems and epistemes without agentive overread.
 
 ### B.2.5:11 - SoTA-Echoing
 
@@ -157,7 +157,7 @@ The same separation also keeps the epistemic case precise. Scientific theories, 
 |---|---|---|---|
 | Layered and multi-rate control architecture practice, with Matni/Ames/Doyle used here as lineage and practice lineage for layered multi-rate control rather than as current proof by itself. | Supervisor, plant, controller, planner, observer, feedback, and rate separation are useful relation cues for supervisor-subholon loop recovery. | Adopt and adapt: keep supervisor-subholon loop recognition, then assign stability, timing, safety, evidence, assurance, and gate claims to their governing patterns. | A loop diagram starts the relation record; dynamics, timing, and safety claims still need their own pattern. |
 | Cyber-physical systems and feedback-control practice. | Shared medium limits, observation channels, actuation, delay, disturbance, and plant dynamics affect whether a loop is adequate. | Adopt: require loop closure and medium visibility; assign reusable dynamics claims to `A.3.3`. | If communication delay matters, it is not solved by the B.2.5 label. |
-| Organizational policy and review practice. | Supervisory relations can be enacted through policies, review boards, reports, and publication channels. | Adapt: model the acting systems/practices and publication/source/reliance relations explicitly. | A committee or review practice may supervise; a published note does not act by itself. |
+| Organizational policy and review practice. | Supervisory relations can be enacted through policies, review boards, reports, and publication channels. | Adapt: model the acting systems/practices and publication/source or reliance relations explicitly. | A committee or review practice may supervise; a published note does not act by itself. |
 | FPF architecture-description discipline under `C.30` and `C.30.LCA`. | A supervisor loop can be one relation inside a control-structure view. | Reuse: `B.2.5` supplies relation recovery; `C.30.LCA` supplies view recovery. | Use the smallest pattern that carries the live claim kind, then open the neighbor when needed. |
 
 ### B.2.5:12 - Relations
@@ -166,6 +166,7 @@ The same separation also keeps the epistemic case precise. Scientific theories, 
 * Coordinates with `C.30.LCA` for control-structure view adequacy.
 * Applies `A.3.3` for reusable dynamics or stability claims, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence claim, `B.3` for assurance, `A.20`/`A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` for mathematical-lens transfer.
 
-Does not replace: `C.30.LCA` control-structure view adequacy, `A.3.3` dynamics claim, `C.27` temporal/rate adequacy, `C.28` causal-use claim, `A.10`/`G.6` evidence claim, `B.3` assurance, `A.20`/`A.21` gate and constraint-validity records, `A.15` work authority, module/interface patterns, or `C.29` mathematical-lens adequacy.
+Does not replace: `C.30.LCA` control-structure view adequacy, `A.3.3` dynamics claim, `C.27` temporal/rate adequacy, `C.28` causal-use claim, `A.10` or `G.6` evidence claim, `B.3` assurance, `A.20` or `A.21` gate and constraint-validity records, `A.15` work authority, `A.6.M`, or `C.29` mathematical-lens use.
 
 ### B.2.5:End
+

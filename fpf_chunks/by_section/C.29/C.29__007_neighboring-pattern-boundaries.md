@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.29"
-pattern_title: "Mathematical Lens Adequacy (MLA)"
+pattern_title: "Mathematical Lens Use"
 section_id: "C.29:5"
 section_title: "Neighboring-pattern boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_neighboring-pattern-boundaries.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.29 — Mathematical Lens Adequacy (MLA)"
+  - "C.29 — Mathematical Lens Use"
   - "C.29:5 — Neighboring-pattern boundaries"
-line_start: 50793
-line_end: 50810
+line_start: 50635
+line_end: 50652
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensSupportPosture"
+  - "LensUseAdmissibilityValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -59,7 +59,7 @@ keywords:
   - "scale window"
   - "stop condition"
   - "structure-preserving representation"
-  - "validation posture"
+  - "validation boundary"
 ---
 
 ### C.29:5 - Neighboring-pattern boundaries
@@ -74,8 +74,8 @@ Neighboring patterns remain necessary and are not displaced. A retained neighbor
 - `C.26` handles one specific quantum-like lens family.
 - `C.28` handles causal-use admissibility.
 - `A.10` and `B.3` handle evidence and assurance.
-- `C.11`, `A.15`, `A.15.1`, and `A.15.4` handle choice results, method/work separation, work plans, performed work, and work-relevant source restoration.
-- `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, and `A.6.3.CSC` handle explanation-facing renderings, bounded comparative review units, same-described-entity representation-scheme transitions, and controlled semantic coarsening.
+- `C.11`, `A.15`, `A.15.1`, and `A.15.4` handle choice results, method and work separation, work plans, performed work, and work-relevant source restoration.
+- `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, and `A.6.3.CSC` handle explanation-facing renderings, bounded comparative review units, same-EntityOfConcern representation-scheme transitions, and controlled semantic coarsening.
 - `C.27` handles temporal-claim adequacy.
 
 Use the C.29 discipline when the live question is: **Is this mathematical lens adequate for this declared use, and where does it stop?**

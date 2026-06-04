@@ -6,12 +6,12 @@ section_id: "F.3:15"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__016_migration-notes-conceptual.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:15 — Migration notes (conceptual)"
-line_start: 69452
-line_end: 69461
+line_start: 70259
+line_end: 70267
 dependencies:
   - "A.11"
   - "A.7"
@@ -39,5 +39,4 @@ keywords:
 4. **Label upkeep.** If the Plain label tempts broadening, tighten it; if the Tech label drifts from idiom, restore the canon term.
 5. **Dormant sense.** If a Local‑Sense ceases to matter for any active line, leave it listed but mark it **low‑use** in your own notes; do not fold it into another unless rule 1 holds.
 6. **Bridge temptation.** Record tensions to bridge **elsewhere**; F.3 never resolves Cross‑context relations.
-
 

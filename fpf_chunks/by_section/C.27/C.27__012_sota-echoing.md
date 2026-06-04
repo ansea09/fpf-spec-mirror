@@ -6,12 +6,12 @@ section_id: "C.27:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__012_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:11 — SoTA-Echoing"
-line_start: 48899
-line_end: 49053
+line_start: 48755
+line_end: 48908
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -50,13 +50,13 @@ keywords:
 ### C.27:11 - SoTA-Echoing
 
 C.27 should be shaped by current modeling practice without becoming a survey
-paper. The C.27 SoTA posture is: C.27 is intervention-sensitive temporal
-claim adequacy with explicit epistemic/claim posture, not literal second
+paper. The C.27 SoTA claim is: C.27 is intervention-sensitive temporal
+claim adequacy with explicit evidence relation and temporal-claim-use classification, not literal second
 derivative everywhere and not universal control theory.
 
 Source binding used by this section:
 
-| Source line | C.27 use | Adopt / adapt / reject posture |
+| Source line | C.27 use | Source adoption/adaptation/rejection decision |
 | --- | --- | --- |
 | `D2-SRC-1` - the source article on state, first-derivative dynamics, second-derivative dynamics, effort intervals, and rhythm practice. | Sets the working question: are we only reading speed/rhythm, or claiming that effort over time changes speed/rhythm? | Adopt the question shift and dance/practice usability examples; adapt physical vocabulary into authored temporal-claim adequacy; reject new Kernel `force`, `mass`, `acceleration`, or `rhythm` kinds. |
 | `D2-SRC-2` - learning-based MPC and engineering MPC practice. | Disciplines control-style temporal claims with horizon, constraints, uncertainty, feedback update, and stability only when control language is live. | Adapt into optional `dyn2ControlPolicyRoute?`; reject making every Dyn2 card a control model. |
@@ -65,18 +65,18 @@ Source binding used by this section:
 | `D2-SRC-5` - performative prediction and Goodhart variants. | Shows that metric publication, target use, incentives, or gates may change behavior rather than merely report it. | Adapt into `dyn2MetricTargetEffectBlock?`; C.16 carries measurement, E.13 or an assurance pattern carries proxy distortion, and C.26 carries residual probe, frame, or export cues; reject a generic Goodhart catch-all. |
 | `D2-SRC-6` - object-centric process mining and object-centric event logs. | Shows why scalar throughput often hides multiple object bearers, event traces, interactions, and aggregation risks. | Adapt into `dyn2ObjectCentricTraceBlock?` and object-centric trace requirements; reject one scalar rate as whole work-cycle truth when multi-object interaction is live. |
 | `D2-SRC-7` - active inference / active sensing practice. | Reminds C.27 that measurement can be action, while ordinary FPF pattern relations remain primary. | Adapt as a local relation test for measurement, state-space, planning, evidence, control, causal, or process-log basis; reject automatic QL relevance from planned measurement or typed states. |
-| `D2-SRC-8` - rhythm, beat synchronization, groove, entrainment, and compliant-system timing work. | Disciplines rhythm claims with bearer, anchor, window, proxy/evidence, and admissible use; coupling/phase/entrainment appear only for cross-bearer claims with explicit coupling, phase, or entrainment commitments. | Adapt into rhythm fields on `Dyn2TemporalClaimAdequacyCard`; reject a standalone `U.Rhythm` kind or decorative rhythm vocabulary. |
+| `D2-SRC-8` - rhythm, beat synchronization, groove, entrainment, and compliant-system timing work. | Disciplines rhythm claims with bearer, timing reference, window, proxy/evidence, and admissible use; coupling/phase/entrainment appear only for cross-bearer claims with explicit coupling, phase, or entrainment commitments. | Adapt into rhythm fields on `Dyn2TemporalClaimAdequacyCard`; reject a standalone `U.Rhythm` kind or decorative rhythm vocabulary. |
 
 SoTA lesson -> FPF obligation map:
 
 | Modern lesson | C.27 obligation | Pattern that governs the other question |
 | --- | --- | --- |
-| MPC/control practice separates horizon, constraints, uncertainty, and feedback update. | Name control horizon/update only when the temporal claim is control-style. | `A.3.3 U.Dynamics`, C.16, C.19/C.24, evidence/assurance patterns. |
+| MPC/control practice separates horizon, constraints, uncertainty, and feedback update. | Name control horizon/update only when the temporal claim is control-style. | `A.3.3 U.Dynamics`, C.16, C.19/C.24, evidence and assurance patterns. |
 | OPE/safe RL separates behavior policy, evaluation policy, policy overlap, and unsafe-exploration risk. | Do not transfer evidence from policy A to policy B without behavior-policy, evaluation-policy, and `offPolicyRisk`. | `dyn2ControlPolicyRoute?` plus evaluation/control relations. |
 | Causal inference separates intervention timing, comparator/counterfactual, estimand, follow-up, assumptions, and rival causes. | Keep planning/diagnostic Dyn2 distinct from `C.28`-governed causal-use claim. | `C.28` and evidence patterns. |
 | Performative prediction and Goodhart variants show that published targets can change behavior. | Split metric-as-measure, target or incentive use, temporal intervention, and proxy distortion. | C.16, E.13 or an assurance pattern, C.26 only for residual probe or frame cue. |
-| Object-centric process mining shows scalar throughput can hide multi-object interaction. | Recover object types, event trace, interaction note, and aggregation basis when process speed is FPF-force-bearing. | Local process evidence/OCPM discipline plus C.27 object-centric trace block. |
-| Rhythm research treats rhythm as bearer/anchor/window/proxy/coupling-if-live. | Keep cadence/rhythm claims tied to bearer, anchor, evidence, supported use, and optional coupling only when cross-bearer relation matters. | C.27 rhythm card plus C.16/evidence when measured. |
+| Object-centric process mining shows scalar throughput can hide multi-object interaction. | Recover object types, event trace, interaction note, and aggregation basis when process speed is FPF-governed. | Local process evidence/OCPM discipline plus C.27 object-centric trace block. |
+| Rhythm research treats rhythm as bearer/timing-reference/window/proxy/coupling-if-live. | Keep cadence/rhythm claims tied to bearer, timing reference, evidence, supported use, and optional coupling only when cross-bearer relation matters. | C.27 rhythm card plus C.16/evidence when measured. |
 | Scaling-law practice separates scale variable, scale window, probe, and elasticity. | Do not infer linear improvement from more data, tokens, calls, reviewers, or capacity. | C.18.1 and G.9 when compared. |
 | Benchmark practice needs parity pins, baselines, freshness, budgets, and comparator editions. | Do not read faster improvement as benchmark superiority without parity plan/report. | G.9. |
 
@@ -161,7 +161,7 @@ measurement. C.27 may notice dynamic or probe pressure, but it must not promote
 active inference, quantum cognition, or QL mathematics unless C.26 remains
 relevant after ordinary-pattern exit tests.
 
-Rhythm and embodied dynamics. Load-bearing rhythm claims need bearer, anchor,
+Rhythm and embodied dynamics. Load-bearing rhythm claims need bearer, timing reference,
 window, basis, and admissible use. Coupling, phase relation, entrainment-like
 relation, perturbation response, tempo drift, or synchronization evidence are
 downstream claim, effect, or use fields only when the claim depends on coordination between bearers.
@@ -176,7 +176,7 @@ the existing FPF pattern that carries them:
 | Claim question noticed by C.27 | Existing FPF pattern relation |
 | --- | --- |
 | admissible measurement or comparable rate/rate-change reading | `C.16` |
-| transition law, reusable dynamics model, prediction, simulation, or control model | `A.3.3 U.Dynamics` plus evidence/assurance patterns |
+| transition law, reusable dynamics model, prediction, simulation, or control model | `A.3.3 U.Dynamics` plus evidence and assurance patterns |
 | actual work/effort trace or resource burn | `U.Work` / `Gamma_work` |
 | scale-variable or elasticity claim | `C.18.1` scaling-law lens |
 | search policy, exploration/exploitation, premature narrowing, convergence health | `C.19` |
@@ -193,12 +193,11 @@ The following lines connect common failures to C.27 action, not to a literature 
 | Popular failure | Modern correction | C.27 action |
 | --- | --- | --- |
 | Past slope is treated as a future control law. | Control/policy claims need horizon, update rule, constraints, and evidence/model relation. | If local, make a `Dyn2TemporalClaimAdequacyCard`; if reusable/control-bearing, include `dyn2ControlPolicyRoute?` and cite `U.Dynamics`, C.16, and assurance patterns as the patterns governing the other question. |
-| Data from one policy/regime is used to justify another. | OPE/RL practice asks behavior policy, evaluation policy, policy-overlap, uncertainty, and unsafe-exploration risk. | Keep ordinary `Dyn2TemporalClaimAdequacyCard` cheap; include `dyn2ControlPolicyRoute?` only when policy transfer is FPF-force-bearing. |
+| Data from one policy/regime is used to justify another. | OPE/RL practice asks behavior policy, evaluation policy, policy-overlap, uncertainty, and unsafe-exploration risk. | Keep ordinary `Dyn2TemporalClaimAdequacyCard` cheap; include `dyn2ControlPolicyRoute?` only when policy transfer is FPF-governed. |
 | One effort impulse is treated as the whole dynamic regime. | Dynamic-treatment/regime practice treats some interventions as sequences of decision rules. | Record policy/regime only in active block; do not make every Dyn2 a policy model. |
-| Rate changed after effort, so effort caused it. | Causal inference needs contrast/counterfactual, estimand, timing, outcome, assumptions, rival causes, and design. | Mark planning/diagnostic posture or include `dyn2CausalUseRoute?`; `C.28` causal-use discipline carries the causal-use claim. |
+| Rate changed after effort, so effort caused it. | Causal inference needs contrast/counterfactual, estimand, timing, outcome, assumptions, rival causes, and design. | Keep it as a planning assumption or diagnostic reading, or include `dyn2CausalUseRoute?`; `C.28` causal-use discipline carries the causal-use claim. |
 | Metric improves after publication, so process improved. | Performative or Goodhart cases split measurement, target use, incentive use, proxy distortion, temporal intervention, and residual probe, frame, or export effects. | Include `dyn2MetricTargetEffectBlock?` only for temporal intervention and supported-use change; C.16 carries measurement, E.13 or an assurance pattern carries proxy distortion, and C.26 carries residual probe, frame, or export cue. |
 | Scalar throughput is read as whole work-cycle truth. | OCPM/process mining separates object bearers, event traces, interactions, and aggregation. | Include `dyn2ObjectCentricTraceBlock?` / `dyn2CrossScaleTransferBlock?` only when scalar rate is insufficient. |
 | Measurement-as-action triggers QL too early. | Active sensing may matter, but ordinary FPF pattern relations come first. | Keep C.27 ordinary; treat QL as C.26 content only after ordinary-pattern exits. |
-| Rhythm is decorative cadence/vibe. | Rhythm work needs bearer, anchor, window, basis/proxy, and admissible use; coupling belongs only in downstream claim, effect, or use fields. | Use `Dyn2TemporalClaimAdequacyCard`; include coupling, phase, or entrainment only when the claim depends on cross-bearer relation. |
-
+| Rhythm is decorative cadence/vibe. | Rhythm work needs bearer, timing reference, window, basis/proxy, and admissible use; coupling belongs only in downstream claim, effect, or use fields. | Use `Dyn2TemporalClaimAdequacyCard`; include coupling, phase, or entrainment only when the claim depends on cross-bearer relation. |
 

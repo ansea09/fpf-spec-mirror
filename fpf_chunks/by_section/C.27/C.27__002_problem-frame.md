@@ -6,12 +6,12 @@ section_id: "C.27:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:1 — Problem frame"
-line_start: 47185
-line_end: 47306
+line_start: 47071
+line_end: 47188
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -50,18 +50,16 @@ keywords:
 ### C.27:1 - Problem frame
 #### C.27:1.1 - Causal-use boundary
 
-`C.27` can say that a temporal claim is dynamic, intervention-sensitive, rate-sensitive, inertia-sensitive, braking-sensitive, coasting-sensitive, or rhythm-sensitive. When the temporal claim already depends on causal-use question, `causalInterventionSpecRef`, comparator/counterfactual, estimand, assignment or intervention window, causal follow-up window, outcome measure, `causalAssumptionSetRef`, `rivalCauseSetRef`, identification strategy, realizability posture, `CausalUseEvidenceDesignRecord`, supported causal use, or unsupported causal use, cite `C.28` as the governing causal-use source.
-
+`C.27` can say that a temporal claim is dynamic, intervention-sensitive, rate-sensitive, inertia-sensitive, braking-sensitive, coasting-sensitive, or rhythm-sensitive. When the temporal claim already depends on causal-use question, `causalInterventionSpecRef`, comparator/counterfactual, estimand, assignment or intervention window, causal follow-up window, outcome measure, `causalAssumptionSetRef`, `rivalCauseSetRef`, identification strategy, counterfactual-sampling realizability claim, `CausalUseEvidenceDesignRecord`, supported causal use, or unsupported causal use, cite `C.28` as the governing causal-use source.
 
 What changes in practice: a sentence such as "this effort changes adoption speed" may remain a `Dyn2` temporal claim, but "this intervention causes adoption speed to improve" must also declare its `C.28` causal-use class and causal-use support.
 
 What this does not authorize: `C.27` does not estimate causal effects, certify counterfactual comparisons, or judge counterfactual sampling realizability; it keeps temporal claim adequacy, rate-change, effort, inertia, rhythm, braking, coasting, and intervention-sensitive temporal wording.
 
-
 FPF already has established constructs and patterns for time, work, resources, measurement,
 CharacteristicSpace, dynamics laws, planning, publication, and quantum-like
 probe and frame issues. What is missing is a cheap claim-adequacy lens for authored
-temporal claims when a state/rate reading is used as if it supplied the basis for a
+temporal claims when a state/rate reading is used as if it supplied the evidence path, assumption, or pattern relation for a
 rate-change, rhythm-change, regime-change, braking, coasting, redirection,
 recovery, or stabilization claim.
 
@@ -94,8 +92,8 @@ The intended use is to stop a small set of expensive mistakes:
 - visible throughput improves while hidden queues, rework, quality loss, or
   burnout worsen;
 - a past slope is treated as a future control model;
-- a local rate-change is projected across scale without aggregation basis or evidence;
-- rhythm or cadence is used as a vibe label with no bearer, anchor, window,
+- a local rate-change is projected across scale without aggregation relation or evidence;
+- rhythm or cadence is used as a vibe label with no bearer, timing reference, window,
   proxy/evidence, or supported use;
 - a planning note becomes a `C.28`-governed causal-use claim, benchmark result, service promise, or
   assurance claim;
@@ -118,7 +116,7 @@ The positive reader use compact is short:
    `Dyn2TemporalClaimAdequacyCard`.
 
 This is the central anti-bureaucracy invariant: no C.27 record unless the
-Dyn0, Dyn1, and Dyn2 distinction changes interpretation, decision-use, evidence posture,
+Dyn0, Dyn1, and Dyn2 distinction changes interpretation, decision-use, evidence path,
 resource allocation, benchmark reading, supported use, or reopen trigger.
 
 Dyn2-Affordability: a correct C.27 use leaves less work behind than the ambiguity
@@ -134,7 +132,7 @@ record, recover:
   to change the temporal behavior;
 - what resists, delays, stores momentum, introduces lag, or makes reversal
   costly;
-- what evidence, trace, assumption, model, or posture supplies the basis for the reading;
+- what evidence, trace, assumption, model, or diagnostic judgement supplies the reason for the reading;
 - what use the claim can carry and what downstream claim, effect, or use remains unsupported;
 - when the simplified reading should reopen, downgrade, or cite the fuller
   FPF pattern that governs the other question.
@@ -144,7 +142,6 @@ the check as: "A trend is not yet an intervention model; show the effort,
 window, resistance, use, and reopen condition, or keep the claim narrower."
 
 Some useful temporal observations arrive before they are claim-ready:
-
 
 - the team may not only be slow; it may be unable to brake;
 - the problem may not be throughput but rhythm mismatch;
@@ -156,8 +153,8 @@ Some useful temporal observations arrive before they are claim-ready:
   or repair.
 
 These are temporal-claim adequacy cues, not C.27 records. C.27 should preserve
-their cue-only posture. When the reader suspects a hidden Dyn2 claim question but cannot yet
-state target, intervention, window, resistance or cost basis, evidence or
+their cue-only disposition. When the reader suspects a hidden Dyn2 claim question but cannot yet
+state target, intervention, window, resistance/cost evidence or assumption, evidence or
 assumption, and supported use, the correct output is a partly-said material cue held through A.16, A.16.1, B.4.1, or B.5.2.0, with possible later C.27 record.
 
 The cue may become a `Dyn2TemporalClaimAdequacyCard` only when a rate-change,
@@ -167,5 +164,4 @@ not temporal-claim adequacy, use the pattern that carries that question: C.16
 for measurement, C.26 for residual QL cue, E.17.AUD for publication-unit stability, or
 viability/assurance patterns when the observation has insufficient evidence, witness,
 or currentness support for staying inside a viability or assurance boundary.
-
 

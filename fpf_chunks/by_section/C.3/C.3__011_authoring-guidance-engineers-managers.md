@@ -6,12 +6,12 @@ section_id: "C.3:9"
 section_title: "Authoring guidance (engineers‑managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__011_authoring-guidance-engineers-managers.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:9 — Authoring guidance (engineers‑managers)"
-line_start: 37190
-line_end: 37250
+line_start: 37238
+line_end: 37293
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -32,13 +32,12 @@ keywords:
 
 Create a Kind when:
 
-* multiple claims refer to the **same “describedEntity”** using unstable labels;
+* multiple claims refer to the **same “entityOfConcern”** using unstable labels;
 * you need **subkinds** (refinement) or repeated **RoleMasks**;
-* different Contexts must **map** this “describedEntity” via bridges;
+* different Contexts must **map** this “entityOfConcern” via bridges;
 * you need to **quantify** over a population (and plan variant coverage) instead of over a single exemplar.
 
 Avoid creating a Kind for **one‑off** instance references—prefer a clear **K0** facet or just a literal exemplar in the claim.
-
 
 #### C.3:9.2 - Writing a **KindSignature** (and picking **F**)
 
@@ -52,7 +51,6 @@ Avoid creating a Kind for **one‑off** instance references—prefer a clear **K
 > Subkind: `PassengerCar ⊑ Vehicle`.
 > RoleMask: `Vehicle@ABSRequired` for processes that demand ABS (deterministic constraints; candidates for promotion to subkind if widely reused).
 
-
 #### C.3:9.3 - Setting the **AT** facet (K0…K3)
 
 Use **AT** to **aim effort**, not to gate:
@@ -63,7 +61,6 @@ Use **AT** to **aim effort**, not to gate:
 * **K3**: up‑to‑iso — expect high‑quality bridges; consider F7–F9 for critical invariants.
 
 Never treat **AT** as “wider/narrower” **G**.
-
 
 #### C.3:9.4 - Writing a typed claim (with USM blocks)
 
@@ -76,7 +73,6 @@ Never treat **AT** as “wider/narrower” **G**.
 
 **Tip.** Keep **Scope**, **MemberOf definedness**, **F thresholds**, and **freshness** as **separate** guard predicates—the auditor should be able to tick each box independently.
 
-
 #### C.3:9.5 - Minimal “Kind card” contents (Context catalog)
 
 * **Name** and **intent summary** (KindSignature snippet + **F**).
@@ -85,5 +81,4 @@ Never treat **AT** as “wider/narrower” **G**.
 * **Known RoleMasks** (type, constraints, determinism).
 * **Known KindBridges** (source Contexts, target Contexts, **`CL^k`**, loss notes, definedness).
 * *(Optional)* **AT** facet with one‑line rationale.
-
 

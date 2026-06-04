@@ -6,12 +6,12 @@ section_id: "B.5.3:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__008_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:7 — Rationale"
-line_start: 33186
-line_end: 33191
+line_start: 33302
+line_end: 33307
 dependencies:
   - "A.2"
   - "C.3"

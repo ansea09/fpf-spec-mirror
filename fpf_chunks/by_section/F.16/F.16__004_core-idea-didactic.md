@@ -6,12 +6,12 @@ section_id: "F.16:3"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__004_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:3 — Core idea (didactic)"
-line_start: 73914
-line_end: 73927
+line_start: 74523
+line_end: 74535
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -38,5 +38,4 @@ A robust worked example is a **compact theatre**:
 * **Cross‑talk** = **Bridges** across Contexts (with kind, CL, and loss).
 * **Timing** = **Windows** (if status varies across time/scale) and **SoD** (if duties must remain separate).
 * **Moral** = a handful of **harness checks** (F.15) that the reader can verify mentally.
-
 

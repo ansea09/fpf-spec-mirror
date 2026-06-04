@@ -6,12 +6,12 @@ section_id: "C.26.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:1 — Problem frame"
-line_start: 46822
-line_end: 46845
+line_start: 46714
+line_end: 46736
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,12 +45,11 @@ Use this pattern when architecture work is maintaining, recovering, or changing 
 
 Most envelope work covered by this pattern is ordinary control, quality, SRE, causal, or work discipline, not QL. FEP, allostasis, and active inference are source analogies for envelope discipline, sensor and action coupling, and partial observability; ordinary control, SRE, quality-bundle, causal, and work patterns remain primary unless probe, order, export, or coarsening cue remains load-bearing after ordinary viability, quality, dynamics, measurement, boundary, and work patterns have carried their part.
 
-
-| Working surface | Value |
+| Working card | Value |
 | --- | --- |
 | Primary reader | Architect, platform lead, reliability lead, product manager, or operations lead preserving viability under changing conditions. |
-| Governed object | A viability-envelope claim or plan over a declared viability bearer, with protected promise/function named separately. |
-| Governed move | Name the bearer, envelope variables, disturbance, sensors/probes, actuators, boundary condition, adaptation cost, and failure mode. |
+| Primary EntityOfConcern | A viability-envelope claim or plan over a declared viability bearer, with protected promise/function named separately. |
+| Admissible move | Name the bearer, envelope variables, disturbance, sensors/probes, actuators, boundary condition, adaptation cost, and failure mode. |
 | Outside work | One-metric quality tuning, generic control theory, biological proof, full FEP doctrine, and ordinary feedback without an envelope/boundary claim. |
 | What changes in practice | The team stops treating one dashboard value as viability and designs the actual envelope-regulation move. |
 

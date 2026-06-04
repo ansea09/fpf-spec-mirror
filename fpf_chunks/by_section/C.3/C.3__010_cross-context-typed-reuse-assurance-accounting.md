@@ -6,12 +6,12 @@ section_id: "C.3:8"
 section_title: "Cross‑context typed reuse & assurance accounting"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__010_cross-context-typed-reuse-assurance-accounting.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:8 — Cross‑context typed reuse & assurance accounting"
-line_start: 37148
-line_end: 37189
+line_start: 37200
+line_end: 37237
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -37,7 +37,6 @@ When any part of the use crosses Contexts:
 
 Both bridges carry **loss notes**; neither changes **F** or **G**. See **C.3.A Guard\_XContext\_Typed**.
 
-
 #### C.3:8.2 - Narrowing after mapping (best practice)
 
 If a bridge’s loss notes indicate material mismatch (dropped invariants, collapsed subkinds):
@@ -45,7 +44,6 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 * **Narrow the mapped Scope** to areas where those losses are benign.
 * **Or** introduce an **adapter** (plus evidence) that restores the needed properties in the target Context.
 * Document the decision; the penalties still land in **R**.
-
 
 #### C.3:8.3 - Typical Cross‑context patterns (manager’s catalog)
 
@@ -58,7 +56,6 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 * **Mask‑to‑subkind evolution.**
   If receivers repeatedly use the same **RoleMask** to make a transfer safe, promote it to an explicit **subkind** and update the bridge to preserve that link.
 
-
 #### C.3:8.4 - Decision pattern (fast path)
 
 1. **Typed pre‑check:** `k_A ⊑ k_B` (same Context) **or** `KindBridge(k_A → k′_B)` with acceptable **`CL^k`**.
@@ -66,5 +63,4 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 3. **Apply penalties:** **Φ(CL\_scope)** and **Ψ(`CL^k`)** to **R**.
 4. **Freshness:** windows/decay for all bound evidence.
 5. **Publish:** a short “Bridge and Loss Notes” box; include any **narrowing** or **adapters** used.
-
 

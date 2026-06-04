@@ -1,34 +1,29 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "U.EpistemicRetargeting — describedEntity‑retargeting morphism"
+pattern_title: "U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
 section_id: "A.6.4:End"
 section_title: "A.6.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__012_a-6-4-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism"
+  - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:End — A.6.4:End"
-line_start: 12027
-line_end: 12028
+line_start: 11873
+line_end: 11874
 dependencies:
-  - "A.1"
   - "A.6.2"
+  - "A.6.3"
+  - "A.6.5"
+  - "A.7"
   - "C.2"
   - "C.2.1"
+  - "C.3"
+  - "E.10.D2"
   - "E.18"
-  - "E.TGA"
   - "F.9"
-  - "U.EpistemeSlotGraph"
-  - "U.EpistemicRetargeting"
 keywords:
-  - "KindBridge"
-  - "SquareLaw-retargeting"
-  - "StructuralReinterpretation"
-  - "describedEntity shift"
-  - "retargeting"
-  - "subject retargeting"
 ---
 
 ### A.6.4:End

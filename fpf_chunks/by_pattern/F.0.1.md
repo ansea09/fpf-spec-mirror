@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
-line_start: 68166
-line_end: 68498
+line_start: 69036
+line_end: 69353
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -38,6 +38,7 @@ keywords:
 
 ## F.0.1 - Contextual Lexicon Principles
 
+
 > **One‑sentence summary.** All meanings in FPF are **local to a `U.BoundedContext`** (“Context of meaning”); terms are **spoken with their Context**, and any relation **across Contexts** exists **only** as an explicit **Alignment Bridge** with stated loss/fit.
 
 **Status.** Architectural pattern.
@@ -48,7 +49,7 @@ keywords:
 
 > **Didactic note.** In the Tech register, **Context ≡ `U.BoundedContext`** (per E.10.D1). We use “Context of meaning” as a **metaphor only**; *Context* remains the normative short form for `U.BoundedContext`. The word **anchor** is not used in FPF. The word *plane* is reserved to **CHR:ReferencePlane** only.
 
-**Terminology guard (normative, Part F).** The **row classifier** is **senseFamily**: {Role | Status | Measurement | Type‑structure | Method | Execution}. **Characteristic** (MM‑CHR) names measurable aspects only (A.17–A.19) and MUST NOT be used for row typing in Part F. Avoid the generic word **facet** in Part F; when unavoidable, reference **C.3.5 KindAT (informative facet)** or **Compose‑CAL `U.Facet`** explicitly. Only **CHR:ReferencePlane** is permitted (no bare “plane”); use **I/D/S layer** for intension/description/specification; use **stance** for design vs run.
+**Terminology guard (normative, Part F).** The **row classifier** is **senseFamily**: {Role | Status | Measurement | Type‑structure | Method | Execution}. **Characteristic** (MM‑CHR) names measurable aspects only (A.17–A.19) and MUST NOT be used for row typing in Part F. Avoid the generic word **facet** in Part F; when unavoidable, reference **C.3.5 KindAT (informative facet)** or **Compose‑CAL `U.Facet`** explicitly. Only **CHR:ReferencePlane** is permitted (no bare “plane”); use **EntityOfConcern / Description episteme / specification-use boundary** for entity-description-specification-use discipline; use **stance** for design vs run.
 
 ### F.0.1:1 - Problem Frame
 
@@ -60,7 +61,6 @@ Trans‑disciplinary modelling fails without an explicit discipline for **where 
 * **Implicit globalism.** Meaning is treated as universal; integration silently re‑writes models.
 
 FPF resolves this by **localising** meaning first, then **explicitly translating** across locales.
-
 
 ### F.0.1:2 - The Three Principles (normative)
 
@@ -80,7 +80,6 @@ FPF resolves this by **localising** meaning first, then **explicitly translating
 **Illustration (Enactment line).**
 `activity @ PROV‑O (run)` vs `task @ IEC 61131‑3 (run)` vs `process @ BPMN 2.0 (design)`.
 
-
 #### F.0.1:2.2 - P‑L - **Local Meaning Principle** — *Meaning lives inside the Context.*
 
 **Rule.** The **intended sense** of a term is established **inside its Context** as a **SenseCell**: a small, reconstructible unit of local meaning with **Tech/Plain labels** and a concise gloss. SenseCells are **lexical only** (C‑6): no behaviours, no deontics, no equations.
@@ -96,7 +95,6 @@ FPF resolves this by **localising** meaning first, then **explicitly translating
 
 **Illustration (KD‑CAL).**
 `observation @ SOSA/SSN`: Tech “observation”, Plain “measurement act”; gloss “Result‑bearing act applying a Procedure…”.
-
 
 #### F.0.1:2.3 - P‑B - **Explicit Bridge Principle** — *across Contexts, only with a bridge.*
 
@@ -114,7 +112,6 @@ FPF resolves this by **localising** meaning first, then **explicitly translating
 
 **Illustration (Sys‑CAL × Enactment).**
 `actuation @ CTRL‑Text` ↔⟨near‑equiv, CL=2⟩ `control‑output @ IEC 61131‑3`.
-
 
 ### F.0.1:3 - Minimal Conceptual Objects (conceptual, notationally neutral)
 
@@ -145,7 +142,6 @@ A terse descriptor used in the **Context Map** (F.1):
 * `CL` (Congruence Level; feeds B.3 Trust & Assurance)
 * `loss/fit` (explicit statement of what is lost or assumed)
 
-
 ### F.0.1:4 - Invariants (normative)
 
 1. **I‑1 - Context‑qualified usage.** Every normative use of a term is **Context‑qualified** (directly or via table/section headers).
@@ -154,7 +150,6 @@ A terse descriptor used in the **Context Map** (F.1):
 4. **I‑4 - Time stance fidelity.** If a source fixes a `DesignRunTag`, the Context Card **carries** it and SenseCells **inherit** it.
 5. **I‑5 - No implicit Cross‑context identity.** Cross‑context relations exist **only** as F.9 Bridges with `relation` and `CL`.
 6. **I‑6 - Parsimony & heterogeneity hook.** The Context Map is **finite**, **heterogeneous** (≥ 3 families per unification line), and **parsimonious** (F.1).
-
 
 ### F.0.1:5 - Reasoning Primitives (judgement schemata; pure, side‑effect‑free)
 
@@ -176,7 +171,6 @@ A terse descriptor used in the **Context Map** (F.1):
   `Bridge(x@A, y@B, rel≈equiv, CL≥k) ⊢ candidate_same_row(x, y)`
   *Reading:* High-CL, near‑equivalence bridges can *nominate* cells for one Concept‑Set row (final decision in F.7).
 
-
 ### F.0.1:6 - Didactic Metaphor (informative)
 
 * **Contexts.** Each `U.BoundedContext` is a **Context**; its **Context Card** is a published boundary marker (name, edition, time stance, trip‑wires).
@@ -184,7 +178,6 @@ A terse descriptor used in the **Context Map** (F.1):
 * **Door‑to‑door links.** An **Alignment Bridge** is a labelled passage connecting two Contexts; a **CL** placard says how trustworthy that passage is.
 
 > *We first speak inside Contexts; only then decide which doors to connect—and with what warnings.*
-
 
 ### F.0.1:7 - Placement & Flow
 
@@ -206,7 +199,6 @@ A terse descriptor used in the **Context Map** (F.1):
 | **A9**  | **Domain ≡ Context**                | “Domain” name used as if it were a `U.BoundedContext`      | Domain families are informal; Contexts are formal      | Keep **Domain family** informative on Context Cards; meanings bind to **Contexts** only         |
 | **A10** | **Time‑stance confusion**        | Treating `design` and `run` senses as identical            | Crosses senseFamilies; erases execution/spec split         | Carry **time stance** on Context Cards; prefer `design‑spec‑of` / `run‑trace‑of` Bridges     |
 
-
 ### F.0.1:9 - Compact worked examples
 
 > *Each vignette shows (1) two Context Cards (abridged), (2) SenseCells inside Contexts, (3) the Bridge with relation & CL, and (4) a Concept‑Set hint (if any).*
@@ -223,7 +215,6 @@ A terse descriptor used in the **Context Map** (F.1):
 
 * **Concept‑Set hint**: *No* same‑row nomination (relation ≠ near‑equiv); instead, record a **design↔run** linkage.
 
-
 #### F.0.1:9.2 - Control × PLC runtime — *actuation* vs *control output*
 
 * **Context A**: `CTRL_Text_Classic` - *control theory primers* - *design*
@@ -235,7 +226,6 @@ A terse descriptor used in the **Context Map** (F.1):
 * **Bridge**: ⟨actuation\@CTRL⟩ ↔⟨`near‑equivalent`, **CL=2**, loss: “hardware/scan‑cycle specifics absent in CTRL”; fit: “semantics align under linear regime”⟩ ⟨q‑output\@IEC⟩
 
 * **Concept‑Set hint**: *Candidate same‑row* (F.7) with note: “merge permitted at **CL≥2** threshold.”
-
 
 #### F.0.1:9.3 Measurement × Service — *observation* vs *service metric*
 
@@ -249,7 +239,6 @@ A terse descriptor used in the **Context Map** (F.1):
 
 * **Concept‑Set hint**: Not a same‑row case; this is a **role‑in‑use** relation (measurement feeds status evaluation).
 
-
 #### F.0.1:9.4 Type reasoning — *subclass‑of* (OWL) vs *is‑a (plain)*
 
 * **Context A**: `OWL2_Profiles` - *description logics*
@@ -262,7 +251,6 @@ A terse descriptor used in the **Context Map** (F.1):
 
 * **Concept‑Set hint**: Keep separate rows unless the consuming artefact demands **formal** semantics.
 
-
 #### F.0.1:9.5 Deontics × Access — *permission* vs *role (RBAC)*
 
 * **Context A**: `ODRL_2_2` - *policy/deontics*
@@ -274,7 +262,6 @@ A terse descriptor used in the **Context Map** (F.1):
 * **Bridge**: ⟨permission\@ODRL⟩ ↔⟨`member‑of‑set‑in`, **CL=2**, loss: “contextual obligations not preserved”; fit: “RBAC roles aggregate permissions.”⟩ ⟨role\@RBAC⟩
 
 * **Concept‑Set hint**: Not same row (different **kinds**); useful linkage for Enactment when binding duties to sessions.
-
 
 ### F.0.1:10 - Extended reasoning moves (pure judgement schemata)
 
@@ -328,7 +315,6 @@ A terse descriptor used in the **Context Map** (F.1):
 `name(x) = name(y) ∧ A≠B ⊢ ¬Bridge(x@A, y@B, _, _)`
 *String equality across Contexts never implies a Bridge.*
 
-
 ### F.0.1:11 - SCR/RSCR acceptance checks (conceptual)
 
 > *These checks are **content‑oriented**; they validate that a manuscript/model respects Part F principles. No process/tool assumptions are implied.*
@@ -357,7 +343,6 @@ An artefact is **ready** with respect to F.0.1 when:
 1. **SCR‑F01…F07** hold for all terms, cells, rows, and bridges it presents;
 2. **RSCR‑F01…F04** hold under simulated edition/stance changes;
 3. Every Cross-context statement can be read as a **Bridge** or as a composition of Bridges with stated `CL` and relation loss.
-
 
 ### F.0.1:12 - Quick reference (didactic)
 

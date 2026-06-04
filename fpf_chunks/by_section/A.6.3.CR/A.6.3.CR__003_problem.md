@@ -1,22 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.CR"
-pattern_title: "ConservativeRetextualization — same-described-entity textual re-expression"
+pattern_title: "ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
 section_id: "A.6.3.CR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3.CR — ConservativeRetextualization — same-described-entity textual re-expression"
+  - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
   - "A.6.3.CR:2 — Problem"
-line_start: 10686
-line_end: 10694
+line_start: 10543
+line_end: 10551
 dependencies:
   - "A.15"
   - "A.6.2"
   - "A.6.3"
   - "A.6.3.CSC"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.7"
   - "B.5.2"
@@ -24,6 +25,7 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
+  - "E.17.EFP"
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
@@ -31,14 +33,6 @@ dependencies:
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
 keywords:
-  - "direct vs correspondence-mediated rewrite"
-  - "filtering"
-  - "report rewrite"
-  - "retextualization"
-  - "same-described-entity textual re-expression"
-  - "source tether"
-  - "summary"
-  - "translation"
 ---
 
 ### A.6.3.CR:2 - Problem
@@ -48,5 +42,5 @@ Without a dedicated pattern for conservative textual re-expression:
 2. authors treat textual simplification as if it were automatically conservative;
 3. the boundary to explanation-facing renderings stays blurry;
 4. correspondence-mediated rewrites are not distinguished from direct rewrites;
-5. later reviewers cannot tell whether the result is still a view of the same described entity or a new interpretive publication.
+5. later reviewers cannot tell whether the result is still a view of the same EntityOfConcern or a new interpretive publication.
 

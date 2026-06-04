@@ -6,12 +6,12 @@ section_id: "G.Core:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:intro — Intro"
-line_start: 75329
-line_end: 75344
+line_start: 75925
+line_end: 75941
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -33,6 +33,7 @@ keywords:
 ---
 
 ## G.Core - Part G Core Invariants
+
 
 **Tag.** Architectural pattern (Part‑G core invariants hub; refactoring/deduplication)
 **Stage.** *design‑time* (authoring discipline + ID‑stable citation discipline; no run‑time mechanism)

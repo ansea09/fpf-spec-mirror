@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.ECSPF.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
-line_start: 55630
-line_end: 55797
+line_start: 56737
+line_end: 56904
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -34,7 +34,7 @@ keywords:
 
 Use `E.8.ECSPF` when an evaluation `CharacteristicSpace` constructed or repaired under `A.19.ECS` must be published as an FPF pattern. The live question is not "what values should this evaluated object be judged by?" but "how do we write the FPF pattern publication form so those values remain usable, reviewable, and bounded?"
 
-`A.19.ECS` governs the intensional object: evaluated object kind, use scope, contrast cases, coordinate set, value meanings, missingness, protected trade-offs, status meanings, and stop or reopen conditions. `E.8` governs ordinary FPF authoring form. `E.8.ECSPF` governs their intersection: an FPF pattern whose main payload is a reusable evaluation.
+`A.19.ECS` governs the evaluation characteristic-space specification: evaluated object kind, use scope, contrast cases, coordinate set, value meanings, missingness, protected trade-offs, status meanings, and stop or reopen conditions. `E.8` governs ordinary FPF authoring form. `E.8.ECSPF` governs their intersection: an FPF pattern whose main payload is a reusable evaluation.
 
 **Not this pattern when.** Use `A.19.ECS` when the characteristic-space specification itself is missing or inadequate. Use `E.8` when the pattern is not an evaluation-characteristic-space pattern. Use `E.21`, `E.9.DA`, `E.2.DA`, `F.18`, `C.25`, or a project-local evaluation when one already supplies the value meanings for the evaluated object and use. Use `E.22` to frame one quality read and `E.23` to run repeated improvement. Use a local rubric, table, or project rule instead of an FPF pattern when the evaluation is not intended for durable FPF reuse.
 
@@ -46,7 +46,7 @@ Use `E.8.ECSPF` when an evaluation `CharacteristicSpace` constructed or repaired
 
 **What this buys.** `E.8.ECSPF` lets FPF publish evaluations as real patterns: practitioner-readable first, exact enough for review, and bounded enough that `E.22` and `E.23` can consume them without stealing their values.
 
-**Governed object in plain terms.** The governed object is the authored FPF pattern publication form for one evaluation `CharacteristicSpace`.
+**Primary EntityOfConcern in plain terms.** The primary EntityOfConcern is the authored FPF pattern publication form for one evaluation `CharacteristicSpace`.
 
 **Primary working reader.** The first reader is an FPF author or reviewer turning an accepted evaluation characteristic-space specification into a reusable FPF pattern for later practitioners, managers, and stewards.
 
@@ -56,7 +56,7 @@ Use `E.8.ECSPF` when an evaluation `CharacteristicSpace` constructed or repaired
 
 Recurring failures:
 
-1. **Publication-form/content collapse.** The FPF pattern is treated as the evaluation itself, instead of a publication form for an intensional object specification.
+1. **Publication-form/content collapse.** The FPF pattern is treated as the evaluation itself, instead of a publication form for an evaluation characteristic-space specification.
 2. **Table-first pattern.** Coordinate rows arrive before evaluated object kind, use, first move, cheap stop, and not-applicable boundary.
 3. **Checklist substitution.** Conformance rows replace the `Solution` instead of checking a readable evaluation method.
 4. **Underpublished values.** Coordinate names are present, but value meanings, missingness, polarity, protected trade-offs, status meanings, or stop conditions are missing.
@@ -79,7 +79,7 @@ Recurring failures:
 
 When an `A.19.ECS` specification is selected for durable FPF publication, author the evaluation as an `E.8` pattern with these additional placement rules:
 
-1. **Keep the intensional object separate from the publication form.** The pattern publishes an evaluation `CharacteristicSpace`; it is not itself the evaluated object, the evaluation result, the improvement loop, or the evidence record.
+1. **Keep the evaluation characteristic-space specification separate from the publication form.** The pattern publishes an evaluation `CharacteristicSpace`; it is not itself the evaluated object, the evaluation result, the improvement loop, or the evidence record.
 2. **Put recognition before coordinates.** The opening text names evaluated object kind, declared use, first evaluation use, cheap stop, what goes wrong, and what the pattern buys before any dense table.
 3. **Place the `A.19.ECS` specification by value.** The `Solution` carries the record shape, local names, eligibility rule, coordinate set, value meanings, missingness rule, protected trade-offs, status meanings, and stop or reopen condition.
 4. **Use worked slices as the discriminating-case test.** Archetypal Grounding and worked cases include a passing evaluated object, a below-floor evaluated object, and a not-applicable object.
@@ -137,11 +137,11 @@ Evaluation-characteristic-space patterns are vulnerable to domain-example bias: 
 | `CC-E8ECSPF-2` | Recognition text SHALL state evaluated object kind, declared use, first evaluation use, cheap stop, and not-applicable boundary before dense coordinate tables. | Keeps the pattern usable before it becomes reviewable. |
 | `CC-E8ECSPF-3` | The `Solution` SHALL carry the ECS payload rather than leaving it only in conformance rows, SoTA rows, or examples. | Prevents checklist substitution. |
 | `CC-E8ECSPF-4` | Worked cases SHALL include passing, below-floor, and not-applicable outcomes. | Tests evaluated-object-kind discrimination. |
-| `CC-E8ECSPF-5` | Each coordinate SHALL state value meanings, polarity or no-simple-direction posture, missingness rule, and protected trade-off when live. | Makes evaluation uses repeatable and bounded. |
+| `CC-E8ECSPF-5` | Each coordinate SHALL state value meanings, polarity or no-simple-direction value rule, missingness rule, and protected trade-off when live. | Makes evaluation uses repeatable and bounded. |
 | `CC-E8ECSPF-6` | Relations SHALL name exact neighbouring governing patterns for evidence, assurance, gate, work, decision, naming, measurement, OEE/NQD, mathematical-lens, `E.22` quality-read, and improvement-loop claims when those claims are live. | Prevents a second ontology. |
 | `CC-E8ECSPF-7` | If the authored publication form is under improvement, `E.21` SHALL evaluate FPF pattern-version quality separately from the evaluation's evaluated object result. | Keeps pattern quality distinct from evaluated object quality. |
 | `CC-E8ECSPF-8` | The pattern SHALL not publish a local, temporary, or one-project evaluation as FPF unless reuse scope and neighbouring-pattern claim assignment justify FPF publication. | Blocks needless pattern growth. |
-| `CC-E8ECSPF-9` | The publication form SHALL state what would lower, reopen, or retire the published evaluation: changed object kind, changed use, changed source posture, missing contrast case, coordinate-value drift, missingness-rule change, or corrected neighbouring-pattern claim assignment. | Makes maintenance of the evaluation pattern testable. |
+| `CC-E8ECSPF-9` | The publication form SHALL state what would lower, reopen, or retire the published evaluation: changed object kind, changed use, changed use of a cited source, changed source adoption/adaptation/rejection decision, missing contrast case, coordinate-value drift, missingness-rule change, or corrected neighbouring-pattern claim assignment. | Makes maintenance of the evaluation pattern testable. |
 
 ### E.8.ECSPF:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -153,7 +153,7 @@ Evaluation-characteristic-space patterns are vulnerable to domain-example bias: 
 | **Positive-only case bank.** | Every example passes. | Add below-floor and not-applicable cases. |
 | **Neighbour theft.** | The pattern claims evidence, assurance, gate, release, measurement, naming, or improvement authority. | Return each claim to the exact neighbouring pattern and keep only the evaluation claim here. |
 | **Rubric promotion.** | A local rubric becomes an FPF pattern because it was useful once. | Keep it local unless durable FPF reuse, evaluated object scope, and neighbouring-pattern claim assignment are declared. |
-| **Frozen evaluation publication form.** | The evaluated object kind, use, source posture, or coordinate meanings change, but the pattern keeps the old values as if still current. | Reopen `A.19.ECS` for the evaluation object and state whether earlier evaluation results remain comparable, need a bridge, or must be retired. |
+| **Frozen evaluation publication form.** | The evaluated EntityOfConcern kind, use, use of a cited source, source adoption/adaptation/rejection decision, or coordinate meanings change, but the pattern keeps the old values as if still current. | Reopen `A.19.ECS` for the evaluation EntityOfConcern and state whether earlier evaluation results remain comparable, need a bridge, or must be retired. |
 
 ### E.8.ECSPF:9 - Consequences
 
@@ -163,17 +163,17 @@ The pattern publication form does not certify the evaluated object, approve a re
 
 ### E.8.ECSPF:10 - Rationale
 
-The split between `A.19.ECS` and `E.8.ECSPF` preserves the FPF distinction between intensional object and publication form. `A.19.ECS` says what must exist for an evaluation to be adequate. `E.8.ECSPF` says how that adequate evaluation is authored as an FPF pattern when FPF publication is selected. This prevents two symmetric mistakes: stuffing FPF pattern-format requirements into a general characteristic-space construction method, and publishing an evaluation-characteristic-space pattern whose coordinate set is not recoverable by value.
+The split between `A.19.ECS` and `E.8.ECSPF` preserves the FPF distinction between an evaluation characteristic-space specification and its publication form. `A.19.ECS` says what must exist for an evaluation to be adequate. `E.8.ECSPF` says how that adequate evaluation is authored as an FPF pattern when FPF publication is selected. This prevents two symmetric mistakes: stuffing FPF pattern-format requirements into a general characteristic-space construction method, and publishing an evaluation-characteristic-space pattern whose coordinate set is not recoverable by value.
 
 ### E.8.ECSPF:11 - SoTA-Echoing
 
-**Source posture convention.** This section uses source rows only where they change the publication form: evaluated object and use before checklist, coordinate meanings and missingness, worked cases, non-scalar comparison, protected trade-offs, or action-guiding recognition text. Reporting frameworks and standards are reference support unless they solve the exact publication-form problem.
+**Source-use convention.** This section uses source rows only where they change the publication form: evaluated object and use before checklist, coordinate meanings and missingness, worked cases, non-scalar comparison, protected trade-offs, or action-guiding recognition text. Reporting frameworks and standards are reference-only use unless they solve the exact publication-form problem.
 
-| Claim | Current practice line | Source posture and representative anchors | Adoption in E.8.ECSPF | Boundary |
+| Claim | Current practice line | Use of source and representative sources | Adoption in E.8.ECSPF | Boundary |
 |---|---|---|---|---|
-| Evaluation rubrics are useful only when criteria, value meanings, and use context are explicit. | Current reporting practice makes evaluation cards, scenario descriptions, metric meanings, raw-result visibility, intended use, and performance-characteristic reporting explicit. | **Current practice and reference support.** BenchmarkCards and EvalCards are current evaluation-card reporting anchors; HELM, VHELM, and AHELM are current suite-reporting anchors for scenarios, metrics, inference settings, prompts, raw outputs, and comparable reporting; model cards are retained lineage for intended-use and performance-characteristic reporting. | The publication form must publish evaluated object kind, use, coordinate meanings, missingness, and worked cases before checklist closure. | `E.8.ECSPF` is not a benchmark harness, model-card schema, automated evaluator, or reporting standard. |
-| Multicriteria evaluation needs non-scalar comparison and trade-off visibility. | Current QD and multicriteria practice keeps dimensions, dominance, trade-offs, objective heads, and diversity or descriptor choices visible when one total score would hide important loss. | **Current-best support for QD overview in this narrow use, plus retained lineage.** `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), supplies the current QD overview used here. MCDA and older QD practice are retained lineage for dimensions, dominance, and trade-offs. | The publication form keeps coordinate values, protected trade-offs, and status meanings distinct. | Scalarization belongs only to an exact neighbouring pattern or explicitly declared local method. |
-| Pattern publication must remain action-guiding. | Pattern-language practice treats a pattern as reusable action guidance for recurring situations, not as a static rubric table. | **Lineage and current FPF reference support.** Pattern-language practice is retained as lineage and problem pressure; current FPF `E.8` supplies the governing publication-form rules for recognition text, first useful move, worked cases, and relations. | The publication form keeps recognition text and first evaluation use before coordinate tables. | `E.8.ECSPF` does not replace `E.8`; it specializes it for evaluation-characteristic-space patterns. |
+| Evaluation rubrics are useful only when criteria, value meanings, and use context are explicit. | Current reporting practice makes evaluation cards, scenario descriptions, metric meanings, raw-result visibility, intended use, and performance-characteristic reporting explicit. | **Current-practice and reference use.** BenchmarkCards and EvalCards are current evaluation-card reporting sources; HELM, VHELM, and AHELM are current suite-reporting sources for scenarios, metrics, inference settings, prompts, raw outputs, and comparable reporting; model cards are retained lineage for intended-use and performance-characteristic reporting. | The publication form must publish evaluated object kind, use, coordinate meanings, missingness, and worked cases before checklist closure. | `E.8.ECSPF` is not a benchmark harness, model-card schema, automated evaluator, or reporting standard. |
+| Multicriteria evaluation needs non-scalar comparison and trade-off visibility. | Current QD and multicriteria practice keeps dimensions, dominance, trade-offs, objective heads, and diversity or descriptor choices visible when one total score would hide important loss. | **Current-best source use for QD overview in this narrow use, plus retained lineage.** `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), supplies the current QD overview used here. MCDA and older QD practice are retained lineage for dimensions, dominance, and trade-offs. | The publication form keeps coordinate values, protected trade-offs, and status meanings distinct. | Scalarization belongs only to an exact neighbouring pattern or explicitly declared local method. |
+| Pattern publication must remain action-guiding. | Pattern-language practice treats a pattern as reusable action guidance for recurring situations, not as a static rubric table. | **Lineage and current FPF reference use.** Pattern-language practice is retained as lineage and problem pressure; current FPF `E.8` supplies the governing publication-form rules for recognition text, first useful move, worked cases, and relations. | The publication form keeps recognition text and first evaluation use before coordinate tables. | `E.8.ECSPF` does not replace `E.8`; it specializes it for evaluation-characteristic-space patterns. |
 
 ### E.8.ECSPF:12 - Relations
 
@@ -188,7 +188,7 @@ The split between `A.19.ECS` and `E.8.ECSPF` preserves the FPF distinction betwe
 | `E.9.DA`, `E.2.DA`, `F.18`, `C.25` | Existing or candidate evaluations that may use this authoring specialization when their publication-form is being written or refreshed. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `A.15` | Govern evidence, assurance, gate, decision, and work claims when an evaluation result is reused for those purposes. |
 | `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD archive, novelty, diversity, pool, selected-set, parity, and refresh claims. |
-| `C.29` | Governs mathematical-lens adequacy when a mathematical structure defines or justifies coordinate choice. |
+| `C.29` | Governs mathematical-lens use when a mathematical structure defines or justifies coordinate choice. |
 
 ### E.8.ECSPF:End
 

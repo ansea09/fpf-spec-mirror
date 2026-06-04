@@ -6,12 +6,12 @@ section_id: "A.2.2:5"
 section_title: "Clear distinctions (litmus tests managers can apply)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__006_clear-distinctions-litmus-tests-managers-can-apply.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:5 — Clear distinctions (litmus tests managers can apply)"
-line_start: 2367
-line_end: 2383
+line_start: 2356
+line_end: 2371
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -48,5 +48,4 @@ keywords:
 
 * A step in a Method may **require** a Role; **optionally** it may also stipulate a **capability threshold** (e.g., precision ≤ 0.2 mm). assignment and ability are checked separately.
 * A promise content clause depends on **having** the needed capabilities **and** being **assigned/committed** to deliver under the clause’s context (bind as `U.Commitment` when it is an obligation).
-
 

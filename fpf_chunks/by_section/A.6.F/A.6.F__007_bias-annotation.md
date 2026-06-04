@@ -6,12 +6,12 @@ section_id: "A.6.F:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:6 — Bias-Annotation"
-line_start: 13816
-line_end: 13829
+line_start: 13658
+line_end: 13671
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "A.6.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.M"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -39,6 +40,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
+  - "E.10.ARCH"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -57,13 +59,13 @@ keywords:
 
 ### A.6.F:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: function-like wording that carries a live FPF claim across FPF.
+Lenses tested: **Arch**, **Ontology and episteme**, **Prag**, **Did**, **Gov**. Scope: function-like wording that carries a live FPF claim across FPF.
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Function-root bias | The pattern explicitly does not mint `U.Function`; it assigns wording to existing carriers. |
+| Function-root bias | The pattern explicitly does not mint `U.Function`; it assigns wording to existing FPF kinds, relations, or receiving patterns. |
 | Functional-architecture exception bias | Functional architecture is normalized as `FunctionalStructure`, not a peer ontology. |
-| Module bias | Function/module allocation uses correspondence or module/interface repair; function and module remain distinct. |
+| Module bias | Function-to-module allocation uses correspondence or `A.6.M` module-relation repair; function and module remain distinct. |
 | Mathematical bias | Mathematical function wording is assigned to C.29 when used as a lens. |
 | Check-only bias | Every conformance item carries a repair move or exact governing pattern application. |
 

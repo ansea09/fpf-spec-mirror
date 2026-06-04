@@ -6,12 +6,12 @@ section_id: "E.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:12 — Relations"
-line_start: 53874
-line_end: 53883
+line_start: 54983
+line_end: 54991
 dependencies:
   - "C.18"
   - "C.19"
@@ -40,7 +40,6 @@ keywords:
 * **Refined by:** All subsequent patterns in the Core Specification.
 * **Mathematical support path:** `C.29` supports pillar-impact arguments only for adequacy of mathematical lenses used to express first-principles structure. It does not amend pillar content, priority, or conformance.
 * **Governs:** Every DRR, tool, and pedagogical artefact linked to FPF.
-
 
 *These pillars are not a cage but the load‑bearing columns of a workshop where ideas can be safely built, dismantled, and evolved.*
 

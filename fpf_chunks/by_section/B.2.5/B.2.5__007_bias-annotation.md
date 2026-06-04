@@ -6,12 +6,12 @@ section_id: "B.2.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:6 — Bias-Annotation"
-line_start: 30769
-line_end: 30777
+line_start: 30897
+line_end: 30905
 dependencies:
   - "A.1"
   - "A.12"
@@ -33,8 +33,8 @@ keywords:
 
 * **Diagram closure bias.** A loop drawn on a diagram is read as a closed feedback loop. Repair by naming both observation/report and influence/constraint sides.
 * **Layer/level bias.** Layered diagrams hide whether the label names control role, declared system level, aggregation scope, rate band, or publication grouping. Repair by recovering the declared kind.
-* **Episteme-agent bias.** Knowledge-bearing objects are described as acting agents. Repair by naming the acting `Transformer`, publication or revision practice, and source/reliance relation.
-* **Proof-by-loop bias.** A loop relation is read as stability, safety, or assurance proof. Repair by assigning the live claim kind to the governing exact governing pattern.
+* **Episteme-agent bias.** Knowledge-bearing objects are described as acting agents. Repair by naming the acting `Transformer`, publication or revision practice, and source or reliance relation.
+* **Proof-by-loop bias.** A loop relation is read as stability, safety, or assurance proof. Repair by assigning the live claim kind to the exact governing pattern.
 
 This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 

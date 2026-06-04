@@ -6,12 +6,12 @@ section_id: "F.0.1:10"
 section_title: "Extended reasoning moves (pure judgement schemata)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__011_extended-reasoning-moves-pure-judgement-schemata.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:10 — Extended reasoning moves (pure judgement schemata)"
-line_start: 68406
-line_end: 68458
+line_start: 69263
+line_end: 69314
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -88,5 +88,4 @@ keywords:
 
 `name(x) = name(y) ∧ A≠B ⊢ ¬Bridge(x@A, y@B, _, _)`
 *String equality across Contexts never implies a Bridge.*
-
 

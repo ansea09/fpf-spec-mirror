@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.8.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
-line_start: 70698
-line_end: 71041
+line_start: 71465
+line_end: 71789
 dependencies:
   - "A.11"
   - "A.7"
@@ -42,7 +42,6 @@ keywords:
 **Coordinates with.** F.1 **Contexts (Contexts)**; F.2 **Harvest**; F.3 **SenseCells**; F.4 **Role Description**; F.5 **Naming Discipline**; F.7 **Concept‑Set Table**; F.9 **Alignment & Bridge**.
 **Aliases (informative).** *Mint‑vs‑Reuse gate*; *Naming governor*.
 
-
 ### F.8:1 - Intent & applicability
 
 **Intent.** Provide a **minimal, conceptual decision lattice** that answers, for any modelling need:
@@ -55,7 +54,6 @@ The lattice enforces **locality of meaning** (Contexts), **senseFamily separatio
 
 **Non‑goals.** No workflows, no roles, no storage. This is **thinking discipline**, not process guidance.
 
-
 ### F.8:2 - Problem frame
 
 Modellers tend to **mint names** when they actually need **reuse**, **aliasing**, or **explicit Cross‑context reading**. Consequences:
@@ -65,7 +63,6 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 3. **Hidden bridges.** Cross‑context sameness is implied by look‑alike words rather than declared (F.9).
 4. **Kernel sprawl.** New **U.Types** appear to plaster over local vocabulary gaps.
 
-
 ### F.8:3 - Forces
 
 | Force                       | Tension to resolve                                                                            |
@@ -73,7 +70,6 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 | **Parsimony vs coverage**   | Avoid new names unless necessary, yet cover recurring Cross‑context readings.                    |
 | **Locality vs unification** | Keep senses **in‑Context**; when reading across, do it **explicitly** and only as far as needed. |
 | **Didactics vs fidelity**   | Give readers one label to hold, but never over‑state sameness (respect CL and scope).         |
-
 
 ### F.8:4 - Minimal vocabulary (used in this pattern only)
 
@@ -84,7 +80,6 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 * **Role Description** — a **Role or Status** template anchored to a **single SenseCell** (F.4).
 * **Alias** — an **additional label** for an existing FPF label (within F.5), no new semantics.
 * **CL threshold τ(scope)** — the **minimum congruence level** needed for a row’s scope (e.g., τ(Naming-only) < τ(Assignment-eligibility) < τ(Type-structure)).
-
 
 ### F.8:5 - The decision lattice (conceptual, notation‑free)
 
@@ -136,7 +131,6 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 > *Example (researcher).* You think we need **U.InfluenceEdge** (causal tendency). If it appears as a stable, **senseFamily‑specific** notion across **control**, **epistemic inference**, and **methods** (≥ 3 families), and cannot be formed from existing `U.Relation` subtypes, it **may** qualify. Otherwise, treat it as a **pattern** or a **row**.
 
-
 ### F.8:6 - Scope thresholds (default τ) — **how much sameness** you’re allowed to claim
 
 | Row / Use Scope     | What it licenses                                                                              | Default τ (minimum CL) | Typical consumers                         |
@@ -147,7 +141,6 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 | **Type‑structure**  | Treat cells as the **same structural relation** (e.g., subtyping) with inheritance semantics. |                  **3** | Kind-CAL pages, structural proofs.        |
 
 > **Guard.** You may **tighten** scope (e.g., from Naming-only → Assignment-eligibility) **only** if the **Row CL(min)** meets the **higher τ**.
-
 
 ### F.8:7 - Micro‑examples (didactic triad)
 
@@ -174,7 +167,6 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 * **Reduction test.** Can it be expressed as a **row** + existing `U.Relation` + KD‑CAL constructs?
 * **Decision.** If **not reducible** and **cross‑family stable**, propose **new U.Type** with minimal definition; otherwise, prefer a **row** or a **pattern**.
 
-
 ### F.8:8 - Invariants (normative, lightweight)
 
 1. **Context‑first.** Every decision cites at least one **Context**; no global senses.
@@ -183,7 +175,6 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 4. **Role Description anchoring.** Role Descriptions are **single-Context**, **single-cell** anchors (F.4).
 5. **Alias modesty.** Aliases **never** change semantics and live under F.5.
 6. **Kernel restraint.** New **U.Types** are **rare**; A.8 **(≥ 3 families)** is mandatory, and duplication with existing U.Types must be ruled out.
-
 
 ### F.8:8.1 - Mint/Reuse discipline for **policy-ids** (normative addendum)
 
@@ -206,7 +197,6 @@ FPF treats **policy-ids** (e.g., `Φ(CL)`, `Φ_plane`, `Ψ(CL^k)`, `Aut-Guard`, 
 2. **Reuse is reference-only.** If a publication **reuses** an existing policy-id, it **MUST** surface a `PolicySpecRef` (and **SHOULD** preserve the prior mint decision link where available). It **MUST NOT** restate policy semantics *as if* minting a new policy-id.
 3. **GateCrossing checkability.** Any GateCrossing/CrossingBundle that surfaces policy-ids **MUST** include `PolicyIdRef` (or an equivalent “policy-id + resolvable refs” structure) so GateChecks can verify resolvability and pin consistency (E.18/A.21/G.6:7.5.8).
 4. **Authority is policy, not tiers.** “Who may mint” vs “who may reuse” is expressed by the referenced **policy specs** and **mint decisions** (and enforced by the active GateProfile/GateChecks), not by fixed tier labels.
-
 
 ### F.8:9 - Quick reference (one‑glance map)
 
@@ -233,7 +223,6 @@ FPF treats **policy-ids** (e.g., `Φ(CL)`, `Φ_plane`, `Ψ(CL^k)`, `Aut-Guard`, 
 | **AP‑8**  | **Row without loss notes** | Publishing a row where Bridges indicate mismatches, but row text is silent.        | Readers assume full equivalence.                   | Include **counter‑example** and **loss sketch** in the row’s narrative (F.7).                                                                    |
 | **AP‑9**  | **CL laundering**          | Citing a high-scope row based on old high `CL` while the relevant Bridge `CL` has since dropped.    | Invalidates downstream claims.                     | When `CL` falls below `τ(scope)`, **downgrade row scope** (e.g., to Naming-only) or **split row**.                                                   |
 | **AP‑10** | **Global normal form**     | Seeking one canonical wording across all Contexts **as if** meaning were global.      | Erases locality; fuels hidden merges.              | Keep normalisation **per Context** (F.2/F.3). Cross‑context sameness lives in **rows** with scope.                                                     |
-
 
 ### F.8:11 - Reasoning primitives (judgement schemas, notation‑free)
 
@@ -275,7 +264,6 @@ FPF treats **policy-ids** (e.g., `Φ(CL)`, `Φ_plane`, `Ψ(CL^k)`, `Aut-Guard`, 
    `conflictEvidence(rowCells) ∧ lossUnbounded ⊢ rejectRow`
    *If bridges show open‑ended loss, do not publish a row; teach the contrast.*
 
-
 ### F.8:12 - Extended worked examples
 
 #### F.8:12.1 - **Execution, observation, and acceptance** (engineers)
@@ -294,7 +282,6 @@ FPF treats **policy-ids** (e.g., `Φ(CL)`, `Φ_plane`, `Ψ(CL^k)`, `Aut-Guard`, 
 
 **Outcome.** Prose may say: “This **execution-occurrence** (row\@assignment/enactment-eligibility) was **observed** (SOSA cell) and **evaluated against the SLO** (ITIL cell).” No new U.Type; no hidden merges.
 
-
 #### F.8:12.2 - **Actor across workflow and provenance** (managers)
 
 **Need.** A single everyday label for “the responsible party” in diagrams.
@@ -307,7 +294,6 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 **Outcome.** Diagrams show “actor”; formal sections reference `Participant` or `Agent` as appropriate.
 
-
 #### F.8:12.3 - **Accuracy across metrology and data quality** (researchers)
 
 **Need.** Treat “accuracy” consistently across ISO 80000 (metrology) and ISO/IEC 25024 (data quality).
@@ -318,7 +304,6 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 **Reasoning.** Bridges indicate **related but not identical** definitions; procedures differ. Existing **KD‑metric** row “accuracy” has CL = 2 with **loss note**: *population vs instrument focus*. **Reuse row** at KD‑metric scope for dashboards; **do not** use the row to justify interchange of procedures.
 
 **Outcome.** One label in reports; method sections still cite the context‑local procedure.
-
 
 #### F.8:12.4 **Subtype relation across OWL and a curated taxonomy** (formalists)
 
@@ -331,7 +316,6 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 **Outcome.** When CL≥3, you may **reuse row** for structural proofs; else teach differences.
 
-
 ### F.8:13 - Relations (with other patterns)
 
 * **Builds on:** E.10.D1 (D.CTX) **Context ≡ U.BoundedContext**; F.1 Contexts; F.2 Harvest; F.3 SenseCells.
@@ -343,7 +327,6 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
   * **F.9 Bridges:** any row proposal presupposes Bridges at or above τ(scope).
 * **Used by.** All patterns (Part C) whenever new labels are contemplated.
 
-
 ### F.8:14 - Migration notes (conceptual)
 
 1. **Old “anchor” language.** Replace legacy “anchor” with: **SenseCell** (local sense) + **Role Description** (assignable Standard) + (optionally) **Concept‑Set row** (Cross‑context reading).
@@ -351,7 +334,6 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 3. **Split rows.** If one row covers cells whose Bridges diverge, **split** into two narrower rows with explicit loss notes.
 4. **Alias proliferation.** Collapse redundant Aliases under a single F.5 entry; keep both registers (Tech/Plain).
 5. **Proto‑types.** Suspect kernel inflation? Attempt **reduction**: SenseCell + row + existing U.Type. Only if irreducible across ≥ 3 families, reopen as a U.Type candidate.
-
 
 ### F.8:15 - Acceptance tests (SCR/RSCR — concept‑level)
 
@@ -369,7 +351,6 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 * **RSCR-F8-E02 (Row overuse).** Scan examples: no case uses **Naming-only** rows to justify **Assignment-eligibility** or **Type-structure** claims.
 * **RSCR‑F8‑E03 (Alias creep).** Ensure no Alias has accreted senseFamily‑specific semantics; if it has, migrate to a **row** or **Role Description**.
 * **RSCR‑F8‑E04 (Kernel hygiene).** New U.Type proposals are rejected if a **SenseCell + row** construction suffices.
-
 
 ### F.8:16 - Didactic distillation (90‑second teaching script)
 

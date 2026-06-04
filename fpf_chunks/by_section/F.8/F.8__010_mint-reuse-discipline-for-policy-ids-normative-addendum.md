@@ -6,12 +6,12 @@ section_id: "F.8:8.1"
 section_title: "Mint/Reuse discipline for policy-ids (normative addendum)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__010_mint-reuse-discipline-for-policy-ids-normative-addendum.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:8.1 — Mint/Reuse discipline for policy-ids (normative addendum)"
-line_start: 70850
-line_end: 70872
+line_start: 71608
+line_end: 71629
 dependencies:
   - "A.11"
   - "A.7"
@@ -55,5 +55,4 @@ FPF treats **policy-ids** (e.g., `Φ(CL)`, `Φ_plane`, `Ψ(CL^k)`, `Aut-Guard`, 
 2. **Reuse is reference-only.** If a publication **reuses** an existing policy-id, it **MUST** surface a `PolicySpecRef` (and **SHOULD** preserve the prior mint decision link where available). It **MUST NOT** restate policy semantics *as if* minting a new policy-id.
 3. **GateCrossing checkability.** Any GateCrossing/CrossingBundle that surfaces policy-ids **MUST** include `PolicyIdRef` (or an equivalent “policy-id + resolvable refs” structure) so GateChecks can verify resolvability and pin consistency (E.18/A.21/G.6:7.5.8).
 4. **Authority is policy, not tiers.** “Who may mint” vs “who may reuse” is expressed by the referenced **policy specs** and **mint decisions** (and enforced by the active GateProfile/GateChecks), not by fixed tier labels.
-
 

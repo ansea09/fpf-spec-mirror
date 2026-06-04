@@ -6,12 +6,12 @@ section_id: "A.8:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__009_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:8 — Rationale"
-line_start: 17959
-line_end: 17968
+line_start: 18050
+line_end: 18058
 dependencies:
   - "A.8"
   - "U.Types"
@@ -30,5 +30,4 @@ Deep research over the last decade shows *structural homologies* across domains:
 * Conservation laws in physics mirror budget balancing in economics (Rayo 2024).
 
 By demanding three independent manifestations, FPF captures these convergences *without privileging* any single vocabulary.  The principle operationalises **Popperian falsifiability** for universality: a concept that cannot survive a three‑domain cross‑examination is, by definition, not a first principle.  This guards Pillars **P‑1 (Cognitive Elegance)** and **P‑4 (Open‑Ended Kernel)** simultaneously.
-
 

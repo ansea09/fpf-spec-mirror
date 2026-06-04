@@ -6,12 +6,12 @@ section_id: "F.9:6"
 section_title: "Bridge kinds (senseFamily-aware)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__007_bridge-kinds-sensefamily-aware.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:6 — Bridge kinds (senseFamily-aware)"
-line_start: 71115
-line_end: 71158
+line_start: 71859
+line_end: 71901
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -88,5 +88,4 @@ These **do not support substitution** but **explain connections** across senseFa
    *Use:* Explain constraint propagation.
 
 > **Rule of thumb.** If you want **rows** or **substitution**, you need a **Substitution Bridge** on the **same senseFamily**. If you want to **explain** why artefacts relate without claiming sameness, use **Interpretation Bridges**.
-
 

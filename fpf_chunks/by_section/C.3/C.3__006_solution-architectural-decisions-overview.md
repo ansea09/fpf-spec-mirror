@@ -6,12 +6,12 @@ section_id: "C.3:5"
 section_title: "Solution — Architectural Decisions (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_solution-architectural-decisions-overview.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:5 — Solution — Architectural Decisions (overview)"
-line_start: 36745
-line_end: 36774
+line_start: 36822
+line_end: 36850
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -54,5 +54,4 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 > – **characteristic 1 (USM, G):** *Where* the claim holds → set of **Context slices**; composed by ∈ (membership) / ∩ (intersection) / **SpanUnion** (union across independent lines) / translate (scope mapping).
 > – **characteristic 2 (Kind extent):** *Which instances* in a **given slice** belong to the kind → `MemberOf(e, k, slice)`.
 > **Never “widen G” by abstract wording; widen only by ΔG with support.**
-
 

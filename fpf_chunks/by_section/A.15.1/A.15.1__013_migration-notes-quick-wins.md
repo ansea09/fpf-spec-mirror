@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Migration notes (quick wins)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__013_migration-notes-quick-wins.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Migration notes (quick wins)"
-line_start: 19915
-line_end: 19925
+line_start: 19967
+line_end: 19976
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -50,5 +50,4 @@ keywords:
 5. **Set an overlap policy.** Write one sentence on how shared costs are allocated; apply consistently.
 6. **Pull plans out.** Move calendars to `U.WorkPlan`; let Work record actuals.
 7. **Parameter blocks.** Make parameters explicit and bind them at start; your root‑cause analyses will get 10× easier.
-
 

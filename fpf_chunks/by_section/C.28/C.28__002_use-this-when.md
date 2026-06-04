@@ -6,12 +6,12 @@ section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:0 — Use This When"
-line_start: 49230
-line_end: 49344
+line_start: 49079
+line_end: 49192
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,7 +73,7 @@ Use `C.28` especially when the claim must distinguish:
 - causal fairness use;
 - causality-ladder parity in method comparison.
 
-**Not this pattern when.** If no causal use is claimed, keep the work in the neighboring pattern: `C.16` for measurement, `C.27` for temporal trend or rate-change adequacy, `B.3` for assurance posture, `A.10` for evidence graph reference, `G.9` for ordinary parity, `C.11` for local choice, `C.19` for pool policy, `C.24` for call planning, or `C.26` for a surviving quantum-like modeling cue after ordinary causal explanations have been tried.
+**Not this pattern when.** If no causal use is claimed, keep the work in the neighboring pattern: `C.16` for measurement, `C.27` for temporal trend or rate-change adequacy, `B.3` for assurance result, `A.10` for evidence graph reference, `G.9` for ordinary parity, `C.11` for local choice, `C.19` for pool policy, `C.24` for call planning, or `C.26` for a surviving quantum-like modeling cue after ordinary causal explanations have been tried.
 
 **Activation boundary.** `C.28` activates at `CausalUseActivation`: causal wording changes what the claim makes admissible for publication, choice, deployment, assurance, audit, benchmark, or support treatment. The trigger is admissible downstream use, not the presence of a causal-looking word. If the wording is only exploratory prose and no causal use governed by `C.28` is made, rewrite to association, trend, measurement, or simulation-only wording and stop.
 
@@ -91,7 +91,7 @@ The practical error is laundering: the reader sees causal language but cannot re
 
 `C.28` gives FPF one cheap first stop for causal use.
 
-The first useful result is not a heavy record. It is one small causal-use triage that says whether causal use is present, which causality-ladder rung is being used, what comparator or counterfactual is in play, what evidence posture supports it, and what the next move is.
+The first useful result is not a heavy record. It is one small causal-use triage that says whether causal use is present, which causality-ladder rung is being used, what comparator or counterfactual is in play, what causal evidence-use class supports it, and what the next move is.
 
 Durable cards and profiles appear only when the claim needs them. The pattern buys explicit causal discipline without turning every causal word into a paperwork exercise.
 
@@ -101,7 +101,7 @@ Durable cards and profiles appear only when the claim needs them. The pattern bu
 
 1. Detect whether the claim reaches `CausalUseActivation`: it changes what publication, choice, deployment, assurance, audit, benchmark, or support treatment is admissible.
 2. Stop with `nextMove.cheapStop` if the claim only reports association, trend, description, measurement, or simulation-only output.
-3. If causal use is live, fill `targetCausalityLadderRung`, `comparatorOrCounterfactualRef`, and `evidencePosture`.
+3. If causal use is live, fill `targetCausalityLadderRung`, `comparatorOrCounterfactualRef`, and `causalEvidenceUseClass`.
 4. Fill `supportedUse: CausalUseSupportStatement` and `unsupportedUse: CausalUseUnsupportedStatement` as one action pair.
 5. Fill `nextMove: CausalUseNextMove`: choose `cheapStop` or escalate only when the claim is decision-bearing, publication-bearing, assurance-bearing, fairness-bearing, benchmark-bearing, or reusable.
 
@@ -114,7 +114,7 @@ CausalUseTriageRecord:
   causalUse: yes | no | unclear
   targetCausalityLadderRung?: CausalityLadderRung
   comparatorOrCounterfactualRef?
-  evidencePosture: CausalEvidencePostureTriageValue
+  causalEvidenceUseClass: CausalEvidenceUseTriageValue
   supportedUse?: CausalUseSupportStatement
   unsupportedUse?: CausalUseUnsupportedStatement
   nextMove: CausalUseNextMove
@@ -141,7 +141,7 @@ CausalUseNextMove:
 ```
 
 ```text
-CausalEvidencePostureTriageValue =
+CausalEvidenceUseTriageValue =
   observationalAssociationSupportBasis |
   interventionalActionSupportBasis |
   realizedCounterfactualSampleSupportBasis |
@@ -152,7 +152,6 @@ CausalEvidencePostureTriageValue =
 
 `cheapStop` values are terminal or downgrade actions. They close the local causal-use question for now by saying what narrower use remains admissible, which neighboring pattern governs the remaining non-causal question, or that causal use is declined. `escalateOnlyIfLoadBearing` values are record-opening actions. They are admissible only when the supported-use and unsupported-use boundary cannot safely carry the reader's next action by itself.
 
-
 If this first output cannot be written honestly, the causal-use claim is not ready.
 
 `CausalUseSupportStatement` is one concrete causal-use action the current support makes admissible, such as publish association-only wording, use a bounded interventional estimate for a named decision, deploy only under a named policy constraint, run a fairness audit under a named causal estimand, or compare methods only inside one declared causality-ladder rung. It is not a confidence label, graph name, method name, or generic "evidence exists" phrase.
@@ -161,5 +160,5 @@ If this first output cannot be written honestly, the causal-use claim is not rea
 
 The triage record may be the final causal-use carrier. Triage lines are enough when they block the overclaim and tell the reader what narrower use remains admissible. Do not open a local card merely because the word "cause", "effect", or "counterfactual" appears.
 
-The triage `evidencePosture` field is the first-pass alias for `CausalEvidenceSupportBasis | missing`. If a claim escalates beyond triage, the value must dock to `CausalEvidenceSupportBasis`; `missing` becomes `unsupportedUse`, `CausalUseSupportVerdict = unsupported`, or `abstain`.
+The triage `causalEvidenceUseClass` field is the first-pass alias for `CausalEvidenceSupportBasis | missing`. If a claim escalates beyond triage, the value must dock to `CausalEvidenceSupportBasis`; `missing` becomes `unsupportedUse`, `CausalUseSupportVerdict = unsupported`, or `abstain`.
 

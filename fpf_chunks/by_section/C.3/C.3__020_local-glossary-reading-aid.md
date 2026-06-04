@@ -6,12 +6,12 @@ section_id: "C.3:17"
 section_title: "Local glossary (reading aid)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__020_local-glossary-reading-aid.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:17 — Local glossary (reading aid)"
-line_start: 37566
-line_end: 37582
+line_start: 37597
+line_end: 37613
 dependencies:
   - "A.1"
   - "A.2.6"

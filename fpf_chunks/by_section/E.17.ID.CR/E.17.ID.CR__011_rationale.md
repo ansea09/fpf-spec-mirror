@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:10 — Rationale"
-line_start: 63676
-line_end: 63684
+line_start: 64550
+line_end: 64558
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -44,6 +44,6 @@ Teams already write small comparative review units, often as comparison notes or
 What they usually lack is a disciplined way to keep that unit useful without letting it silently become an equivalence claim, a hidden hypothesis, a redesign push, or a release decision.
 
 This pattern exists to protect that everyday bounded-comparison use.
-It keeps a comparative review unit usable by making five entries visible enough to inspect: the governed object, the source anchors, the bounded comparative lift, the unsupported downstream claim or effect, and the boundary trigger that would end interpretation.
+It keeps a comparative review unit usable by making five entries visible enough to inspect: the bounded comparative review unit, the source references, the bounded comparative lift, the unsupported downstream claim or effect, and the boundary trigger that would end interpretation.
 The gain is practical: a team can compare available source epistemes or source publications honestly without pretending that a helpful review unit already carries more authority than it really does.
 

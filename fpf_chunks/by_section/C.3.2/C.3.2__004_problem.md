@@ -6,12 +6,12 @@ section_id: "C.3.2:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__004_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:3 — Problem"
-line_start: 37754
-line_end: 37761
+line_start: 37773
+line_end: 37779
 dependencies:
   - "C.3.1"
   - "C.3.3"
@@ -31,5 +31,4 @@ keywords:
 2. **Signature opacity.** A kind’s definition is scattered; no single place to declare rigor (**F**) or assumptions.
 3. **Order violations.** Subkind hierarchies do not guarantee subset behavior in practice.
 4. **Scope leakage.** Teams smuggle applicability (G) into kind definitions, recreating G‑ladders by another name.
-
 

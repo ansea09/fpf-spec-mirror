@@ -6,12 +6,12 @@ section_id: "C.16.P:10"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__013_common-anti-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:10 — Common anti-patterns"
-line_start: 40886
-line_end: 40896
+line_start: 40813
+line_end: 40823
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,10 +43,10 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Metric-as-evidence | A metric is treated as evidence, proof, gate input, or decision authority without exact evidence, gate, decision, and measurement construction. | Recover characteristic/scale construction, then apply `A.10` or exact evidence, gate, or decision pattern if that claim is live. |
-| Score-as-gate | A score is treated as gate passage, readiness, release, or decision. | Recover scale, threshold basis, comparison basis, and exact gate/decision/release pattern. |
+| Metric-as-evidence | A metric is treated as evidence, proof, gate input, or decision authority without exact evidence, gate, decision, and measurement construction. | Recover characteristic and scale construction, then apply `A.10` or exact evidence, gate, or decision pattern if that claim is live. |
+| Score-as-gate | A score is treated as gate passage, readiness, release, or decision. | Recover scale, threshold rule or reference, comparison reference or comparator set, and exact gate, decision, or release pattern. |
 | Axis-as-ontology | Axis or dimension is treated as if it already named a characteristic or factor. | Recover `Characteristic`, coordinate, latent factor, mathematical lens, structural aspect, or ordinary prose. |
-| Strong-without-scale | Strong or weak modifies a claim without scale, characteristic, or comparison basis. | Write the exact characteristic and scale or demote to ordinary prose. |
+| Strong-without-scale | Strong or weak modifies a claim without scale, characteristic, or comparison reference or comparator set. | Write the exact characteristic and scale or demote to ordinary prose. |
 | Indicator-as-indicated-characteristic | Indicator wording hides the indicated characteristic or proxy relation. | Name indicator role, indicated characteristic or claim, and proxy-distortion risk. |
-| Characterization repair copied everywhere | Receiving patterns keep their own metric/score/strong trigger lists. | Keep one thin cue and send hidden construction to `C.16.P`. |
+| Characterization repair copied everywhere | Receiving patterns keep their own `metric`, `score`, or `strong` trigger lists. | Keep one thin cue and send hidden construction to `C.16.P`. |
 

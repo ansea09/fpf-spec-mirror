@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__002_use-this-when.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0 — Use this when"
-line_start: 23433
-line_end: 23454
+line_start: 23652
+line_end: 23673
 dependencies:
   - "A.0"
   - "A.19"
@@ -57,5 +57,5 @@ Not this pattern when:
 - you are publishing selector outcomes, shortlist identity, or shipping metadata; use `G.5` or `G.10`;
 - you are setting live pool policy, retained-set policy, or enactment/planning posture; use `C.19` or `C.24`;
 - you are defining a new generic view law, viewpoint bundle, or publication-view family rather than one domain-specific interpretive reading; use `A.6.3`, `E.17.0`, `E.17`, or `E.17.1`;
-- the line would change the described entity rather than preserve it; use `A.6.4` or the appropriate retargeting pattern.
+- the line would change the EntityOfConcern rather than preserve it; use `A.6.4` or the appropriate retargeting pattern.
 

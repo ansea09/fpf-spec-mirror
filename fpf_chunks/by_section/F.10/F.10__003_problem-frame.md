@@ -6,12 +6,12 @@ section_id: "F.10:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:2 — Problem frame"
-line_start: 71859
-line_end: 71868
+line_start: 72575
+line_end: 72583
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -39,5 +39,4 @@ Without a modality‑aware mapping of statuses:
 * **DesignRunTag bleed.** Design‑time “approved method” is used as if it proved run‑time “meets SLO”.
 * **False substitution.** *Observed availability 99.95%* is silently treated as *SLO satisfied* without declaring the translation.
 * **Name inflation.** New U.Types minted to stabilise drifting status words instead of fixing Contexts and Bridges.
-
 

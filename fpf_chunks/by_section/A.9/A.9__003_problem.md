@@ -6,12 +6,12 @@ section_id: "A.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:2 — Problem"
-line_start: 18004
-line_end: 18014
+line_start: 18091
+line_end: 18100
 dependencies:
   - "A.1"
   - "A.8"
@@ -34,5 +34,4 @@ keywords:
 | **Compositional chaos**   | Different teams’ roll‑ups yield non‑deterministic results. |
 
 These pathologies derail safety cases and budget decisions across disciplines.
-
 

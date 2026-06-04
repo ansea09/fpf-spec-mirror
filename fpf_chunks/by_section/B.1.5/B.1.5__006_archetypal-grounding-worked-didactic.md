@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:5 — Archetypal grounding (worked, didactic)"
-line_start: 29574
-line_end: 29613
+line_start: 29730
+line_end: 29768
 dependencies:
   - "A.12"
   - "A.14"
@@ -68,5 +68,4 @@ keywords:
 * **Run‑time (Γ\_method^run).**
   The same order executes as `U.Work`; **Γ\_work** accounts for compute/storage spend.
   Assurance hooks: cutset at `CrossValidate`; integration **CL** for schema mappings; post‑condition for `DraftManuscript` includes provenance SCR.
-
 

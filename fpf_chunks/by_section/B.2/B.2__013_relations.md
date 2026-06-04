@@ -6,12 +6,12 @@ section_id: "B.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:11 — Relations"
-line_start: 30319
-line_end: 30327
+line_start: 30448
+line_end: 30456
 dependencies:
   - "A.1"
   - "A.12"

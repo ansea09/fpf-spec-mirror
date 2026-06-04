@@ -6,12 +6,12 @@ section_id: "G.12:4"
 section_title: "Solution — Compute and publish DHC series admissibly, with RSCR-ready telemetry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__005_solution-compute-and-publish-dhc-series-admissibly-with-rscr-ready-telemetry.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:4 — Solution — Compute and publish DHC series admissibly, with RSCR-ready telemetry"
-line_start: 81180
-line_end: 81472
+line_start: 81766
+line_end: 82058
 dependencies:
   - "A.19"
   - "C.18"
@@ -101,7 +101,7 @@ Minimal fields (conceptual; ids/pins only):
 `DHCSeries@Context := ⟨
   DHCSeriesId,
   CG-FrameContext,
-  describedEntity := ⟨GroundingHolon, ReferencePlane⟩,
+  entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩,
   TargetSlice,                         // USM tuple; time series varies Γ_time across rows (explicit, no implicit “latest”)
   DHCSlotId[],                         // slot set selected from C.21 (typed DHC slots; not “just Characteristic ids”)
   DHCPackRef.edition?,

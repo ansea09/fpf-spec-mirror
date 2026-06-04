@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.4.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
-line_start: 54821
-line_end: 54905
+line_start: 55928
+line_end: 56011
 dependencies:
   - "E.3"
   - "E.5"
@@ -107,5 +107,4 @@ while securing Pillars **P‑2, P‑7 Pragmatic Utility, P‑8**.
 * **Constrains:** All normative patterns claiming universality
 
 ### E.5.4:End
-
 

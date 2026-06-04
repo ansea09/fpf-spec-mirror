@@ -6,12 +6,12 @@ section_id: "C.21:8"
 section_title: "Bias-Annotation (E-cluster lenses)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__009_bias-annotation-e-cluster-lenses.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:8 — Bias-Annotation (E-cluster lenses)"
-line_start: 43337
-line_end: 43343
+line_start: 43253
+line_end: 43259
 dependencies:
   - "A.17"
   - "A.18"
@@ -43,6 +43,6 @@ keywords:
 
 * **Didactic.** Plain names + twin labels; one-screen tables for managers.
 * **Architectural.** No ordinals averaged; all cross-Context movement goes through Bridges+CL; penalties never touch F/G.
-* **Pragmatic.** Freshness-aware; unknowns tri-state; values are decision-support, not trophies.
-* **Epistemic.** Evidence lanes explicit; reproducibility is LA, typing is TA; validation distinct from verification in dashboards.
+* **Pragmatic.** Freshness-aware; unknowns tri-state; values are decision-input cues, not trophies.
+* **Epistemic.** Evidence lanes explicit; reproducibility is LA, typing is TA; validation distinct from dashboard or report publication.
 

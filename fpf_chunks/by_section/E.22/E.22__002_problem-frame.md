@@ -6,12 +6,12 @@ section_id: "E.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality-Read Question Framing"
   - "E.22:1 — Problem frame"
-line_start: 67316
-line_end: 67350
+line_start: 68185
+line_end: 68219
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -51,7 +51,7 @@ Use it especially when the request could mean several different things:
 
 **Not this pattern when.** Use `E.23` when the work is a repeated improvement method across passes rather than one framed read. Use the object-under-improvement evaluation itself when the question is already declared and scoped: `E.21` for one authored FPF pattern version, `E.9.DA` for one `DRR` decision-adequacy claim, `E.19` for one admission or refresh review profile, `C.16`, `A.17`, `A.18`, or `A.19` for characteristic and measurement legality, `C.25` for an engineering quality bundle, `C.17` for novelty, value, surprise, constraint-fit, diversity, originality, or resource-efficiency characterization, `C.18` for NQD generation and archive/front semantics, `C.19` for live candidate-pool policy, `G.5` for selected-set publication, `G.9` for parity, `G.11` for refresh, or another exact rubric, review profile, or quality pattern when it governs the object. Use `C.11`, `C.24`, `A.15`, `A.20`, `A.21`, `A.10`, or `B.3` when the live claim has already become decision, call planning, work, gate, release, evidence, or assurance. Use `E.10`, `A.6.P`, or `C.2.P` when the live problem is precision restoration of wording rather than framing a quality-read question.
 
-**First useful move.** Before saying "review this", "improve this", or "what should we do next", name the object version under quality read, the object-under-improvement evaluation that supplies the quality values, the requested read purpose, the declared floor, the desired improvement aim, protected trade-offs, the open-question classification rule, and the kinds of candidate improvement proposals or next-admissible-move hypotheses that the read may return.
+**First useful move.** Before saying "review this", "improve this", or "what should we do next", name the object version under quality read, the object-under-improvement evaluation that supplies the quality values, the requested read purpose, the declared floor, the desired improvement aim, protected trade-offs, the open-question classification rule, and the kinds of candidate improvement proposals or next-admissible-move hypotheses that the read may return. If the read is meant to feed repeated improvement, also name what kind of next-pass cost or risk must be reported to `E.23`; a closed checklist or discharged row is not an improvement result until the changed object version is re-read by the object-under-improvement evaluation.
 
 **Cheap stop.** If the requester only needs a blocker check for admissible use, declare `floorRead` and the floor. Do not ask for exceptional improvement, Pareto trade-off analysis, open-question discovery, absorption impact, candidate improvement proposals, or next-move alternatives unless those purposes are live.
 
@@ -59,7 +59,7 @@ Use it especially when the request could mean several different things:
 
 **What this buys.** `E.22` makes the improvement-oriented quality-read question explicit before the read starts. It separates admissibility, exceptional improvement, trade-off inspection, open-question discovery, absorption impact, candidate improvement proposals, and next-admissible-move hypotheses, so the object-under-improvement evaluation can answer the right question instead of silently defaulting to a floor check.
 
-**Governed object in plain terms.** The governed object is the quality-read question frame: a compact declaration of which improvement-oriented evaluative read purpose is being requested for which object and under which object-under-improvement evaluation, including which candidate improvement proposals or next-admissible-move hypotheses the read may return.
+**Primary EntityOfConcern in plain terms.** The primary EntityOfConcern is the quality-read question frame: a compact declaration of which improvement-oriented evaluative read purpose is being requested for which object and under which object-under-improvement evaluation, including which candidate improvement proposals or next-admissible-move hypotheses the read may return.
 
 **Primary working reader.** The first reader is the person asking for or running the quality read. The downstream reader is the author who must use the result to repair, narrow, improve, or stop.
 

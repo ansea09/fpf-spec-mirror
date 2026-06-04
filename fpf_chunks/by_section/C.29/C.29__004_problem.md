@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.29"
-pattern_title: "Mathematical Lens Adequacy (MLA)"
+pattern_title: "Mathematical Lens Use"
 section_id: "C.29:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__004_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.29 — Mathematical Lens Adequacy (MLA)"
+  - "C.29 — Mathematical Lens Use"
   - "C.29:2 — Problem"
-line_start: 50178
-line_end: 50197
+line_start: 50008
+line_end: 50026
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensSupportPosture"
+  - "LensUseAdmissibilityValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -59,12 +59,12 @@ keywords:
   - "scale window"
   - "stop condition"
   - "structure-preserving representation"
-  - "validation posture"
+  - "validation boundary"
 ---
 
 ### C.29:2 - Problem
 
-Current FPF math-lens adequacy criteria are distributed and local:
+Current FPF mathematical-lens use criteria are distributed and local:
 
 - `A.6.P` governs relation precision restoration, but not every mathematical-object transfer.
 - `A.3.3` governs state, transition, observation, validity, constraints, and calibration for dynamics, but not all mathematical representation choices.
@@ -80,5 +80,4 @@ The first failure mode is mathematical under-lensing: a working situation needs 
 The second failure mode is mathematical overread:
 
 > a mathematical phrase begins as a helpful representation and then silently becomes ontology, evidence, causality, comparability, assurance, or admissibility.
-
 

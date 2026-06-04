@@ -6,12 +6,12 @@ section_id: "C.30.ILC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__012_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:11 — SoTA-Echoing"
-line_start: 53259
-line_end: 53267
+line_start: 53695
+line_end: 53703
 dependencies:
   - "A.10"
   - "A.22"
@@ -41,10 +41,10 @@ keywords:
 
 ### C.30.ILC:11 - SoTA-Echoing
 
-| SoTA/practice anchor | What it supports | FPF adoption stance | Practitioner implication |
+| SoTA and practice source | What it contributes | FPF adoption stance | Practitioner implication |
 |---|---|---|---|
-| Scenario-based architecture trade-off practice, with ATAM-like reasoning used here as lineage and practice basis for concern, scenario, sensitivity point, and trade-off recognition rather than as a decision or evidence method. | Architecture work often starts from cross-concern and cross-scope trade-offs rather than one local measurement result. | Adopt and adapt: use the conflict cue for triage, require declared scopes and structure kinds, and keep final selection, evidence, assurance, and gate passage in exact governing patterns. | A residual can start an architecture move without becoming a decision, proof, or safety case. |
-| Complex systems and multi-scale modeling practice. | Local interactions can produce residuals or constraints at wider declared scopes. | Adapt: use scale and scope language only after the FPF record declares the relevant scope or scale window. | `Interlevel`, conflict, and frustration language remains a cue until fields recover the scopes and residual carrier. |
-| Control and cyber-physical systems practice. | Local autonomy, feedback, supervisor relations, and rate separation can create cross-scope conflict. | Reuse through `C.30.LCA`, `B.2.5`, `C.27`, and `A.3.3`; do not let ILC carry control proof. | A control conflict opens control-structure or dynamics support only when live. |
+| Scenario-based architecture trade-off practice, with ATAM-like reasoning used here as lineage and practice source for concern, scenario, sensitivity point, and trade-off recognition rather than as a decision or evidence method. | Architecture work often starts from cross-concern and cross-scope trade-offs rather than one local measurement result. | Adopt and adapt: use the conflict cue for triage, require declared holon levels or scopes, level-bearing structure, and exact neighboring patterns for final selection, evidence, assurance, and gate passage. | A residual can start an architecture move without becoming a decision, proof, or safety case. |
+| Vanchurin, Wolf, Katsnelson, and Koonin multilevel learning and frustration line, plus related multilevel optimization and complexity-frustration materials. | Local optimization at one declared holon level, scope, or level-bearing structure relation can create persistent residual in another; frustrated optimization can be a candidate mathematical lens when a level mapping or scale mapping is recoverable. | Adopt and adapt: `C.30.ILC` uses this line for architecture triage only. `C.29` with `MLU.Description@MultilevelLearningFrustration` carries mathematical-lens adequacy with preserved structure and lost structure; no `U.Frustration`, physics or biology ontology transfer, global optimizer proof, causal proof, assurance proof, or stakeholder-mediation takeover. | First recover holon levels or scopes, level-bearing structure, conflict carriers, residual-bearing locus, local repair, and the first architecture move. Open `C.29` only when the lens mapping is live; open candidate-generation or synthesis patterns only when residual-reducing candidate moves are live. |
+| Control and cyber-physical systems practice. | Local autonomy, feedback, supervisor relations, and rate separation can create cross-scope conflict. | Reuse through `C.30.LCA`, `B.2.5`, `C.27`, and `A.3.3`; do not let ILC carry control proof. | A control conflict opens control-structure or dynamics claims only when live. |
 | FPF source-return and semantic-coarsening discipline. | Compressed views and reusable records can hide distinctions that matter in a wider scope. | Adopt: add `sourceReturnCondition?` when hidden distinctions carry the residual. | A bounded exception or source-return trigger may be the correct first move. |
 

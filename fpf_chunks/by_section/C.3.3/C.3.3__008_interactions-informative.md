@@ -6,12 +6,12 @@ section_id: "C.3.3:7"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__008_interactions-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:7 — Interactions (informative)"
-line_start: 38044
-line_end: 38077
+line_start: 38047
+line_end: 38079
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -57,5 +57,4 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 * find Scope bridge (CL≥threshold), translate **G**, check coverage;
 * find KindBridge (`CL^k≥threshold`), translate **kind**, check **membership definedness**;
 * apply **Φ(CL)** and **Ψ(`CL^k`)** to **R**; keep **F/G** untouched.
-
 

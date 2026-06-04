@@ -6,12 +6,12 @@ section_id: "E.10:6.2"
 section_title: "Twin‑Register Discipline (Tech / Plain)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_twin-register-discipline-tech-plain.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:6.2 — Twin‑Register Discipline (Tech / Plain)"
-line_start: 57562
-line_end: 57637
+line_start: 58685
+line_end: 58760
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,11 +45,11 @@ keywords:
 | `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`; treat it as an **always‑unpack** token (L‑SERV, A.6.8). Avoid “service‑instance”; prefer “system instance”, “service access point”, or “service offering” depending on facet. |
 | `U.Episteme`             | body of knowledge, document, dataset, model | Pair must respect **Carrier vs Content** (A.7).                                              |
 | `U.Method`               | how‑to, procedure (abstract)                | Do **not** call this “process” (L‑PROC).                                                     |
-| `U.MethodDescription`    | recipe, SOP, playbook, code, spec‑text      | If testable, call out **Spec** explicitly per E.10.D2 (I/D/S).                               |
+| `U.MethodDescription`    | recipe, SOP, playbook, code, spec‑text      | If testable, call out **Spec** explicitly per E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use).                               |
 | `U.Work`                 | run, execution, activity, job, case         | Never use “process” or “procedure” here.                                                     |
 | `U.Role`                 | role, hat, mask                             | Always **context‑indexed** per D.CTX.                                                        |
 | `U.PromiseContent`              | promise, offering, service offering         | Never equate to provider system or API (L‑SERV).                                             |
-| `U.Capability`           | ability, capacity (within bounds)           | Separate from Role/Method/Work; must carry **envelope & measures**.                          |
+| `U.Capability`           | ability, capacity (within bounds)           | Separate from Role, Method, and Work; must carry **envelope & measures**.                          |
 | `U.Dynamics`             | law of change, model of evolution           | Not a capability or a method.                                                                |
 
 **R‑1 (Plain first‑use).** At first use in a section, show **Tech label** and (optionally) the Plain twin: *“…a `U.Method` (the **how‑to**), described by a `U.MethodDescription` (the **recipe**) …”*
@@ -82,7 +82,7 @@ The plain twin **MUST** preserve the **head term** of the Tech name, or append a
   `U.Work` → “**work (work record)**”.
 
 **CC‑TWIN‑4 - Kind‑consistent.**
-A plain twin **MUST NOT** map across **Kinds** (C.3). If the twin’s everyday reading could denote a different Kind (e.g., *Tradition* = organization, corpus, domain), it is **forbidden** unless qualified by a bracketed head and **Context gloss** on first use (see CC‑TWIN‑7).
+A plain twin **MUST NOT** map across **Kinds** (C.3). If the twin’s everyday interpretation could denote a different Kind (e.g., *Tradition* = organization, corpus, domain), it is **forbidden** unless qualified by a bracketed head and **Context gloss** on first use (see CC‑TWIN‑7).
 
  **CC‑TWIN‑5 - Ambiguity stop‑list.**
 The following base nouns are **reserved** and **MUST NOT** be used as unqualified plain twins: *Tradition, service, process, function, model, system, method, standard, library, dataset, evidence, activity, task, action*.
@@ -95,7 +95,7 @@ Plain twins are **not portable**. Reuse in another `U.BoundedContext` requires a
 At first occurrence in a document or screen, a plain twin **MUST** be shown as **“Plain twin \[Tech name] — Context gloss”**, e.g.:
 “**Transformer (role)** \[**TransformerRole**] — *mask borne by a system to enact a method step in OR\_2025*”.
 
-**CC‑TWIN‑8 - Normative surface ban.**
+**CC-TWIN-8 - Normative publication-form overread ban.**
 Plain twins **MUST NOT** appear in **Conformance Checklists, predicates, type signatures, or acceptance clauses**. Only Tech names are normative. (Plain twins are strictly didactic.)
 
 **CC‑TWIN‑9 - Twin budget.**

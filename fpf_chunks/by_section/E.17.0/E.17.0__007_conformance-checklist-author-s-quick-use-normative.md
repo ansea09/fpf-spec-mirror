@@ -6,12 +6,12 @@ section_id: "E.17.0:6"
 section_title: "Conformance checklist (author’s quick use)  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__007_conformance-checklist-author-s-quick-use-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:6 — Conformance checklist (author’s quick use)  (normative)"
-line_start: 60906
-line_end: 60930
+line_start: 61798
+line_end: 61822
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -33,39 +33,30 @@ dependencies:
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "ISO 42010 alignment"
-  - "correspondence model"
-  - "description families"
-  - "engineering vs publication viewpoints"
-  - "entity-of-interest"
-  - "multi-view describing"
-  - "view"
-  - "view vs viewpoint"
-  - "viewpoint"
 ---
 
 ### E.17.0:6 - Conformance checklist (author’s quick use)  *(normative)*
 
 When defining a new `U.MultiViewDescribing` species or using it in a discipline pack:
 
-1. **Declare the EoIClass.**
-   *Explicitly state `EoIClass ⊑ U.Entity` and ensure all families restrict `DescribedEntitySlot` accordingly.*
+1. **Declare the EntityOfConcernClass.**
+   *Explicitly state `EntityOfConcernClass ⊑ U.Entity` and ensure all families restrict `EntityOfConcernSlot` accordingly.*
 
 2. **Define the viewpoint set Σ.**
    *List `U.Viewpoint` instances (possibly via a `U.ViewpointBundle`) with stakeholders, concerns, allowed EpistemeKinds, and conformance rules.*
 
-3. **Require DescriptionContext for D/S.**
-   *Ensure every `…Description`/`…Spec` episteme in the family has `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩` and that `ViewpointRef ∈ Σ`.*
+3. **Require DescriptionContext for Description-episteme and specification-use cases.**
+   *Ensure every `…Description`/`…Spec` episteme in the family has `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` and that `ViewpointRef ∈ Σ`.*
 
 4. **Specify admissible EpistemicViewing species.**
-   *List the `U.EpistemicViewing` profiles used to derive views; declare their Applicability profiles and assert they are describedEntity‑preserving (EV‑6).*
+   *List the `U.EpistemicViewing` profiles used to derive views; declare their Applicability profiles and assert they are entityOfConcern‑preserving (EV‑6).*
 
 5. **Attach CorrespondenceModel where needed.**
    *Whenever cross‑view consistency matters, introduce a `U.CorrespondenceModel` episteme and reference it from any `U.CorrespondenceEpistemicViewing`.*
 
 6. **Separate describing from publication.**
-   *Check that pattern text does not treat I→D/D→S as “publication”, and that any talk of `PublicationSurface`/`InteropSurface` kind or carriers is clearly delegated to MVPK/L‑SURF.*
+   *Check that pattern text does not treat EntityOfConcern-to-Description or specification-use refinement as “publication”, and that any talk of `publication face/form`/`interop publication form` kind or carriers is clearly delegated to MVPK/publication-face/form discipline.*
 
 7. **Respect SlotKind/ValueKind/RefKind discipline.**
-   *Use `*Slot` only for SlotKinds, `*Ref` only for RefKinds/fields; avoid `Subject`/`Object` roots in episteme types; use `DescribedEntitySlot` and `viewpointRef` instead.*
+   *Use `*Slot` only for SlotKinds, `*Ref` only for RefKinds/fields; avoid `Subject`/`Object` roots in episteme types; use `EntityOfConcernSlot` and `viewpointRef` instead.*
 

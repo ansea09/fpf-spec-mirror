@@ -6,12 +6,12 @@ section_id: "G.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__011_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:5 — Archetypal Grounding"
-line_start: 78456
-line_end: 78472
+line_start: 79049
+line_end: 79065
 dependencies:
   - "C.11"
   - "C.18"
@@ -62,5 +62,5 @@ The admissible `G.5` result is therefore one `RankedShortlist` with explicit ord
 
 **Show 3 (no admissible survivor; abstain or escalation).**
 A frame fails one legality gate and one minimal-evidence gate at the same time.
-The truthful `G.5` result is one abstain or escalation publication that names the blocking pins and the next downstream use posture, not one empty shortlist that leaves downstream users unsure whether selection silently failed or admissibly stopped.
+The truthful `G.5` result is one abstain or escalation publication that names the blocking pins and the next downstream use boundary, not one empty shortlist that leaves downstream users unsure whether selection silently failed or admissibly stopped.
 

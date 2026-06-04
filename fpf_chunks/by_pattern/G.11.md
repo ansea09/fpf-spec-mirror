@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.11.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh & Decay Orchestrator"
-line_start: 80760
-line_end: 81136
+line_start: 81350
+line_end: 81722
 dependencies:
   - "B.3.4"
   - "C.18"
@@ -20,7 +20,6 @@ dependencies:
   - "E.18"
   - "F.15"
   - "G.10"
-  - "G.11"
   - "G.12"
   - "G.5"
   - "G.6"
@@ -53,7 +52,7 @@ keywords:
 
 **Primary outputs (kit publication units and records).** `RefreshQueue`, `RefreshPlan@Context` (WorkPlanning plan item), `RefreshReport@Context` (Work or Audit record), `DeprecationNotice@Context`, `EditionBumpLog@Context`.
 
-**Primary hooks.** `G.Core` (RSCR trigger catalogue + alias docking + Default Governing Definition Index), `G.6` (EvidenceGraph; `PathId`/`PathSliceId`), `G.7` (Bridge Sentinels; CL/Φ/plane policy pins), `G.5` (set-returning selection/dispatch), `G.8` (SoS-LOGBundle telemetry hooks), `G.9` (parity reruns), `G.10` (shipping hooks and pack-level telemetry pins), `G.12` (dashboard telemetry pins), `B.3.4` (freshness/decay), `E.18` (GateCrossing/CrossingBundle visibility), optional `C.18 and C.19` (QD/E–E policy pins), `C.23` (SoS-LOG branches / maturity ladders), `C.28` (causal-use support records whose SoTA-sensitive fields can change downstream support).
+**Primary hooks.** `G.Core` (RSCR trigger catalogue + alias docking + Default Governing Definition Index), `G.6` (EvidenceGraph; `PathId`/`PathSliceId`), `G.7` (Bridge Sentinels; CL/Φ/plane policy pins), `G.5` (set-returning selection/dispatch), `G.8` (SoS-LOGBundle telemetry hooks), `G.9` (parity reruns), `G.10` (shipping hooks and pack-level telemetry pins), `G.12` (dashboard telemetry pins), `B.3.4` (freshness/decay), `E.18` (GateCrossing/CrossingBundle visibility), optional `C.18 and C.19` (QD/E–E policy pins), `C.23` (SoS-LOG branches / maturity ladders), `C.28` (causal-use support records whose SoTA-sensitive fields can change downstream causal-use results).
 
 **Non-duplication note (Phase-2).**
 This pattern **does not** (i) define the meaning of RSCR trigger kinds, (ii) introduce “shadow specs” for CN/CG legality, (iii) redefine tri-state guards / penalties / set-return semantics, (iv) re-govern shipping or harvesting, or (v) mint new `RSCRTriggerKindId` / default governing definitions (design-time changes live in `G.Core` and are recorded via DRR, `E.9`).
@@ -71,7 +70,7 @@ Part G produces shipped, selector-ready publication units and records: packs, bu
 Without an explicit orchestration kit, refresh becomes either:
 
 * a brittle set of ad-hoc “full rerun” rituals, or
-* an audit-only posture that silently accumulates drift.
+* an audit-only refresh result that silently accumulates drift.
 
 `G.11` is the **Part G governing definition** of the **refresh orchestration kit**: it turns typed refresh causes into **scoped plans** and **auditable execution reports**, while delegating all cause semantics and universal invariants to `G.Core`.
 
@@ -148,7 +147,7 @@ By the `G.Core` **Expansion rule**, the **effective** conformance ids / trigger�
    A planned refresh is a WorkPlanning object that **does not execute Work** and **does not embed gate decisions**. It declares:
 
 * `RefreshPlanId` (UTS-published id; editioned)
-* `describedEntity` and `ReferencePlane` pins (by ref; no implicit widening)
+* `EntityOfConcernRef` and `ReferencePlane` pins (by ref; no implicit widening)
 * `TargetScope := PathSliceId[] | PatternScopeId[]`
 * `PlannedTriggers := RSCRTrigger[]` (canonical trigger kind ids + scope + payload pins)
 * `PlannedActions := RefreshAction[]` (each action delegates to a governing pattern)
@@ -182,7 +181,7 @@ Consume RSCR triggers from:
 
 * telemetry hooks (e.g., `G.8`, `G.10`, `G.12`),
 * freshness/decay events (`B.3.4`),
-* evidence/bridge/policy/edition edits (from the respective governing patterns’ publication surfaces).
+* evidence/bridge/policy/edition edits (from the respective governing patterns’ publication faces, forms, or units).
 
 Every ingested signal is normalized into an `RSCRTrigger` (canonical id, scope, payload pins), with optional alias labels.
 
@@ -195,18 +194,18 @@ Compute the minimal dependency closure over:
 
 The closure is a *planning-time claim* (“these slices are affected”), not a Work-time output.
 
-**4.3.3 Planning (P2W seam).**
+**4.3.3 Planning (P2W boundary).**
 Produce `RefreshPlan@Context` that schedules actions of the form:
 
 * `RerunHarvest` (delegates to `G.2`/`G.1`/governing definition; if used)
 * `RerunParity` (delegates to `G.9`)
-* `RecomputeSelectionOrSetSurface` (delegates to `G.5`)
+* `RecomputeSelectionOrSetPublication` (delegates to `G.5`)
 * `RebindBridgeOrCrossing` (delegates to `G.7` and visibility harnesses)
 * `UpdateEvidenceBindings` (delegates to `G.6`)
 * `ReshipPack` (delegates to `G.10`)
 * `UpdateBundle` (delegates to `G.8`)
 * `UpdateDashboardSlice` (delegates to `G.12`)
-* `EmitDeprecationNotice` / `EmitEditionBumpLog` (publication surfaces governed by this pattern)
+* `EmitDeprecationNotice` / `EmitEditionBumpLog` (publication units governed by this pattern)
 
 **4.3.4 Execution + audit.**
 Execute planned actions as Work (or Work-bound audit) and publish `RefreshReport@Context`.
@@ -214,23 +213,23 @@ Gating outcomes (admit / degrade / abstain) follow `G.Core` tri-state semantics 
 
 #### G.11:4.3a - Causal-use refresh sentinels
 
-When a shipped pack, parity report, evidence path, dashboard slice, fairness audit, policy evaluation, or selector surface consumes `C.28`, refresh planning includes causal-use sentinel causes when they can change supported use, unsupported use, support verdict, or downstream assurance:
+When a shipped pack, parity report, evidence path, dashboard slice, fairness audit, policy evaluation, or selector output consumes `C.28`, refresh planning includes causal-use sentinel causes when they can change supported use, unsupported use, support verdict, or downstream assurance:
 
-| Causal-use sentinel | Typical affected support | Refresh payload pins |
+| Causal-use sentinel | Typical affected C.28 result or related claim | Refresh payload pins |
 | --- | --- | --- |
 | counterfactual-realizability shift | `CounterfactualSamplingRealizabilityProfile`, `realizedCounterfactualSampleSupportBasis`, causal evidence design | profile refs, action-primitive refs, work-plan refs, physical, ethical, and operational constraint refs, target counterfactual distribution refs, admissible-use refs, and unadmissible-use refs |
-| counterfactual-data identification/bounding shift | `CausalIdentificationProfile`, `identifiedCounterfactualEstimateSupportBasis`, bounds/partial-identification posture | available data regime set refs, realized counterfactual data refs, counterfactual-data identification method refs, counterfactual-data bound refs, assumption refs |
-| target-trial reporting shift | `TargetTrialProtocolRecord`, `TargetTrialEmulationMappingRecord`, applied intervention-effect support | protocol refs, observational data source refs, eligibility, treatment, time-zero, and assignment mappings, follow-up and outcome mappings, emulation-gap refs, residual-confounding and sensitivity refs and additional-analysis refs |
+| counterfactual-data identification/bounding shift | `CausalIdentificationProfile`, `identifiedCounterfactualEstimateSupportBasis`, bounds or partial-identification result | available data regime set refs, realized counterfactual data refs, counterfactual-data identification method refs, counterfactual-data bound refs, assumption refs |
+| target-trial reporting shift | `TargetTrialProtocolRecord`, `TargetTrialEmulationMappingRecord`, applied intervention-effect support verdict | protocol refs, observational data source refs, eligibility, treatment, time-zero, and assignment mappings, follow-up and outcome mappings, emulation-gap refs, residual-confounding and sensitivity refs and additional-analysis refs |
 | causal-fairness shift | `CausalFairnessUseAuditCard`, causal fairness support verdict, fairness assurance | protected-variable refs, decision-variable refs, and outcome-variable refs, permitted-path refs and prohibited-path refs, fairness estimand refs, causal-use question refs, support basis refs, support record refs and verdict refs |
-| causal-representation-validation shift | `CausalVariableRepresentationRecord`, learned causal variable support | intervention-validity, mechanism-invariance, abstraction-fidelity, counterfactual-query-preservation, representation-shift refs, OOD refs, supported-causal-variable-use refs, and unsupported-causal-variable-use refs |
-| off-policy or causal-RL evaluation shift | `OffPolicyCausalEvaluationProfile`, causal action-policy support, policy parity | behavior-policy refs and evaluation-policy refs, sequential horizon refs, adaptive policy class refs, unit-history conditioning refs, overlap refs and support refs, policy transportability refs, estimator and uncertainty refs |
+| causal-representation-validation shift | `CausalVariableRepresentationRecord`, learned causal-variable admissible use | intervention-validity, mechanism-invariance, abstraction-fidelity, counterfactual-query-preservation, representation-shift refs, OOD refs, supported-causal-variable-use refs, and unsupported-causal-variable-use refs |
+| off-policy or causal-RL evaluation shift | `OffPolicyCausalEvaluationProfile`, causal action-policy admissible use, policy parity | behavior-policy refs and evaluation-policy refs, sequential horizon refs, adaptive policy class refs, unit-history conditioning refs, overlap refs and support-basis refs, policy transportability refs, estimator and uncertainty refs |
 | simulation-validation shift | `simulationOnlyCounterfactualOutputBasis`, bounded model-supported counterfactual use | counterfactual model assumption refs, simulation validation refs, `CausalUseSupportStatement` / `CausalUseUnsupportedStatement` refs, sensitivity and rival-cause refs |
 
-These sentinels do not mint new `RSCRTriggerKindId` values. They are domain-facing payload distinctions carried under the canonical trigger kinds governed by `G.Core`, usually evidence-surface edit, edition-pin change, policy-pin change, telemetry delta, freshness/decay event, or tokenization/name change.
+These sentinels do not mint new `RSCRTriggerKindId` values. They are domain-facing payload distinctions carried under the canonical trigger kinds governed by `G.Core`, usually evidence-publication edit, edition-pin change, policy-pin change, telemetry delta, freshness/decay event, or tokenization/name change.
 
 #### G.11:4.4 - Extensions (pattern-scoped; non-core)
 
-All discipline-specific refresh strategies, scheduling heuristics, and generator-specific wiring live as `GPatternExtension` blocks.
+Discipline-specific refresh strategies and generator-specific wiring live as `GPatternExtension` blocks. Scheduling, ordering, priority, and budget policy for the refresh queue are not a separate extension semantics: `G.11` governs the required policy pins on `RefreshQueue` and `RefreshPlan@Context`, while `A.15` keeps WorkPlanning separate from executed Work.
 
 ##### G.11:Ext.LegacyTriggers
 
@@ -246,7 +245,7 @@ All discipline-specific refresh strategies, scheduling heuristics, and generator
 * `RSCRTriggerAliasId?` (e.g., `G.11:T0…T7` as labels only)
 * `scope: PathSliceId[] | PatternScopeId`
 
-**RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.CrossingBundleEdit, RSCRTriggerKindId.PenaltyPolicyEdit, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.EvidenceSurfaceEdit}`
+**RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.CrossingBundleEdit, RSCRTriggerKindId.PenaltyPolicyEdit, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.EvidencePathOrSourceRelationEdit}`
 **Notes (wiring-only):** This block **does not define** what `T0…T7` mean; it only preserves the labels and requires docking via `G.Core.TriggerAliasMap.G11`.
 
 ##### G.11:Ext.DecayAndDebt
@@ -263,7 +262,7 @@ All discipline-specific refresh strategies, scheduling heuristics, and generator
 * `DecayPolicyIdRef` / `EpistemicDebtBudgetRef` (policy-bound)
 * `PathSliceId[]` (affected evidence carriers)
 
-**RSCRTriggerKindIds:** `{RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.BaselineBindingEdit}`
+**RSCRTriggerKindIds:** `{RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.EvidencePathOrSourceRelationEdit, RSCRTriggerKindId.BaselineBindingEdit}`
 **Notes (wiring-only):** Any budget/priority logic remains policy-bound; `G.11` only wires decay events to refresh planning.
 
 ##### G.11:Ext.QDRefreshWiring
@@ -301,21 +300,18 @@ All discipline-specific refresh strategies, scheduling heuristics, and generator
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.PolicyPinChange}`
 **Notes (wiring-only):** Any OEE method semantics live with the governing definition; this module only wires refresh triggers to comparable reruns.
 
-##### G.11:Ext.SchedulingHeuristics (Phase-3 seed)
+##### G.11:4.4a - Scheduling and priority policy pins
 
-**PatternScopeId:** `G.11:Ext.SchedulingHeuristics`
-**GPatternExtensionId:** `SchedulingHeuristics`
-**GPatternExtensionKind:** `Phase3Seed`
-**GoverningPatternId:** `governing pattern not yet selected`
-**Uses:** `{G.11}`
-**⊑/⊑⁺:** `∅`
-**RequiredPins / EditionPins / PolicyPins (minimum):**
+Scheduling strategies (bandit-style allocation, queueing, cadence policies, early stopping, or manual priority rules) may influence the order and budget of refresh work, but they do not define trigger meaning, action semantics, parity semantics, shipping semantics, or Part-G-wide defaults.
 
-* `RefreshPriorityPolicyIdRef` (policy-bound)
-* `BudgetDeclRef` (time/compute/cost/risk ceilings; policy-bound)
+`G.11` therefore treats scheduling as policy-bound refresh planning:
 
-**RSCRTriggerKindIds:** `{RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.MaturityRungChange}`
-**Notes (seed, non-normative):** Scheduling strategies (bandit-style, queueing, cadence policies) are valuable but must not become Part‑G‑wide norms.
+* `RefreshPriorityPolicyIdRef` names the policy used to order or prioritize queue items.
+* `BudgetDeclRef` names the time, compute, cost, risk, or cadence boundary for the planned refresh.
+* `RSCRTriggerKindId[]` still comes from `G.Core`; scheduling policy does not mint trigger kinds.
+* planned refresh remains `RefreshPlan@Context` under WorkPlanning; executed refresh remains `RefreshReport@Context` or Work-bound audit.
+
+If no priority or budget policy is declared, no scheduling heuristic is admissible by appearance; the plan must either use the ordinary queue order or state the missing policy pin as a blocker.
 
 ### G.11:5 - Archetypal Grounding — System / Episteme (informative; Tell–Show–Show)
 
@@ -349,7 +345,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
 | **CC‑G11.7 (Decay governance).**                      | When refresh is triggered by freshness/decay events, the refresh outputs **SHALL** choose and record a governance outcome (**Refresh / Deprecate / Waive**) with **budget notes** (policy‑bound), and **SHALL** publish the decision via `DeprecationNotice@Context` (and related pins) and SCR‑visible evidence bindings (via `G.6` / cited governing patterns).                                                                                                                                                | Turns epistemic debt into explicit, comparable governance artefacts.                                                       |
 | **CC‑G11.8 (No default smuggling).**                  | A conforming `G.11` refresh artefact **SHALL NOT** introduce new defaults for `PortfolioMode`/dominance/Γ‑fold/guard behavior. If orchestrated steps rely on defaults, the artefact **SHALL** cite each default's governing definition (via `G.Core.DefaultGoverningDefinitionIndex` and the applicable governing patterns) rather than restating defaults inside `G.11`.                                                                                                                                            | Protects default definition-citation discipline under orchestration pressure.                                                     |
 | **CC‑G11.9 (Targeted RSCR before republication).**    | Before any refresh result is republished downstream (e.g., parity report updates, pack re‑shipping, dashboard slice updates), the execution **SHALL** run or cite a targeted RSCR/regression check for the affected scope and record `RSCRRefs[]` (or equivalent) in `RefreshReport@Context`; exceptions **SHALL** be expressed as `degrade/abstain` outcomes (policy‑bound) rather than silent skips.                                                                                         | Preserves “refresh ≠ vibes” by making regression gating explicit and slice‑scoped.                                         |
-| **CC-G11.10 (Causal-use refresh sentinels).**          | When a refreshed surface consumes `C.28`, a conforming `RefreshPlan@Context` **SHALL** include causal-use sentinel payload distinctions when counterfactual realizability, counterfactual-data identification/bounding, target-trial reporting, causal fairness, causal representation validation, off-policy/causal-RL evaluation, or simulation validation can change supported use, unsupported use, support verdict, assurance, parity, or downstream selection. | Keeps moving causal SoTA from silently invalidating shipped support while preserving `G.Core` trigger governance. |
+| **CC-G11.10 (Causal-use refresh sentinels).**          | When a refreshed publication or output consumes `C.28`, a conforming `RefreshPlan@Context` **SHALL** include causal-use sentinel payload distinctions when counterfactual realizability, counterfactual-data identification/bounding, target-trial reporting, causal fairness, causal representation validation, off-policy/causal-RL evaluation, or simulation validation can change supported use, unsupported use, support verdict, assurance, parity, or downstream selection. | Keeps moving causal SoTA from silently invalidating shipped causal-use results while preserving `G.Core` trigger governance. |
 
 ### G.11:8 - Common Anti-Patterns and How to Avoid Them (informative)
 
@@ -374,7 +370,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
 `G.11` is intentionally a **thin orchestration governing definition**:
 
 * The refresh loop is powerful enough to coordinate reruns and republishing, but **too thin to become a second spec**. That is why trigger semantics, invariants, and defaults are delegated to `G.Core`.
-* The kit is split across the **P2W seam** so that WorkPlanning plan items remain planning references and executed work remains auditably executed work.
+* The kit is split across the **P2W planning-to-work boundary** so that WorkPlanning plan items remain planning references and executed work remains auditably executed work.
 * Alias stability is maintained by allowing trigger aliases (`T0…T7`) while prohibiting them from becoming semantic authorities.
 
 ### G.11:11 - SoTA-Echoing — Post‑2015 practices aligned (informative)
@@ -408,15 +404,14 @@ Each entry follows: **claim → practice → source → alignment → adoption s
 5. **Efficient orchestration benefits from bandit/early-stopping scheduling—but it must not become semantics.**
    Practice: modern hyperparameter/experiment scheduling uses bandit-style resource allocation and asynchronous early stopping.
    Source: Async Hyperband / BOHB-style work (2018+) as representative post‑2015 scheduling practice.
-   Alignment: scheduling lives as policy-bound extension (`G.11:Ext.SchedulingHeuristics`) so core semantics remain stable.
+   Alignment: scheduling is expressed as `G.11` queue/plan policy pins (`RefreshPriorityPolicyIdRef`, `BudgetDeclRef`) so core semantics remain stable and WorkPlanning stays separate from executed Work.
    Adoption: **Adapt** (useful practice, but quarantined outside core norms).
 
 ### G.11:12 - Relations
 
 **Builds on:** `G.Core` (Part‑G invariants; RSCR trigger catalogue; alias docking; Default Governing Definition Index), `G.6` (EvidenceGraph, `PathId/PathSliceId`), `G.7` (Bridge sentinels; CL/Φ/plane pins), `G.5` (selector & set-return), `G.8` (bundle telemetry hooks), `G.9` (parity), `G.10` (shipping hooks), `B.3.4` (freshness/decay), `E.18` (GateCrossing visibility).
-**Coordinates with:** `G.12` (dashboard telemetry pins), optional `C.18 and C.19` (QD/E–E pins), `C.23` (SoS-LOG branches and maturity ladders), `C.28` (causal-use support records and SoTA-sensitive causal-use sentinel payloads), `F.15` (RSCR harness surfaces, when present).
-**Publishes to:** UTS (refresh plan/report, deprecations, edition bumps), and to the relevant governing patterns’ publication surfaces via delegated actions.
+**Coordinates with:** `G.12` (dashboard telemetry pins), optional `C.18 and C.19` (QD/E–E pins), `C.23` (SoS-LOG branches and maturity ladders), `C.28` (causal-use support records, support verdicts, supported-use values, unsupported-use values, and SoTA-sensitive causal-use sentinel payloads), `F.15` (RSCR harness publications, when present).
+**Publishes to:** UTS (refresh plan/report, deprecations, edition bumps), and to the relevant governing patterns’ publication faces, forms, or units via delegated actions.
 
 ### G.11:End
-
 

@@ -6,12 +6,12 @@ section_id: "A.6.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:4 — Solution"
-line_start: 15736
-line_end: 15970
+line_start: 15889
+line_end: 16122
 dependencies:
   - "A.15"
   - "A.2.3"
@@ -171,20 +171,19 @@ This prevents “floating” commitments/acts that can’t be routed to a holder
 
 **Facet→Kind map (didactic, normative).** The bundle exists precisely because these facets are **different kinds** and therefore admit different predicates:
 
-| Facet (slot) | Canonical FPF kind or described entity | Kind family (A.7 / I-D-S) | Typical predicates that *belong* here |
+| Facet (slot) | Canonical FPF kind or EntityOfConcern | A.7/E.10.D2 lane or exact FPF kind family | Typical predicates that *belong* here |
 | --- | --- | --- | --- |
 | `promiseContentRef` | `U.PromiseContent` | **Episteme** (promise content) | states preconditions/outcomes; defines acceptance criteria; constrains what counts as fulfilment |
-| `promisedOutcomeSpecRef` | `U.OutcomeSpec` | **Episteme** (outcome template) | constrains delivery work, delivered state, or both; supplies the outcome target for acceptance; can be decomposed into work clauses and result clauses |
+| `promisedOutcomeSpecRef` | `U.OutcomeSpec` | **Description episteme admitted for specification use** (outcome template) | constrains delivery work, delivered state, or both; supplies the outcome target for acceptance; can be decomposed into work clauses and result clauses |
 | `providerAssignmentRef` | `U.RoleAssignment` | **Role assignment** (who is accountable) | is accountable; is the provider; bears duty; is authorized to promise |
 | `providerPrincipalRef` | (derived from role assignment) | **Agent / principal** (responsible party) | holds commitments; is liable; delegates; authorizes carriers/systems |
 | `deliverySystemRef` | `U.System` | **System** (realizer) | implements/realizes; contains components; has failure modes; produces operational evidence |
 | `accessPointRef` (“server”) | `U.System` | **System** (addressable) | call/invoke/restart/down/latency |
-| `accessSpecRef` | `U.MethodDescription` | **Episteme** (interface/spec) | versioned; published; compatible |
-| `deliveryMethodRef` | `U.MethodDescription` | **Episteme** (procedure or runbook) | steps and controls; escalation; timing model; safety constraints |
+| `accessSpecRef` | `U.MethodDescription` | **Description episteme admitted for specification use** (access interface description) | versioned; published; compatible; constrained by the exact specification-use gate when live |
+| `deliveryMethodRef` | `U.MethodDescription` | **Description episteme** (delivery method; specification-use only when an exact gate is live) | steps and controls; escalation; timing model; safety constraints |
 | `commitmentRef` | `U.Commitment` | **Deontic object** (binding) | must/shall/obligated; breachable; has holder and counterparty |
 | `promiseActRef` | `U.SpeechAct` | **Work event** (communicative) | promised/accepted/announced |
 | `deliveryWorkRef` | `U.Work` | **Work event** (operational) | executed; incident occurred; evidence produced |
-
 #### A.6.8:4.3 — Facet headwords (mandatory lexical rule)
 
 In normative prose, **replace the head word “service”** with one of the following facet head phrases:

@@ -6,12 +6,12 @@ section_id: "A.3.1:8"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__009_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:8 — Conformance Checklist (normative)"
-line_start: 5960
-line_end: 5998
+line_start: 5871
+line_end: 5908
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -72,5 +72,4 @@ A step may impose capability thresholds; those thresholds are checked **against 
 
 **CC‑A3.1‑12 (Constructor‑theoretic alignment).**
 Algorithm descriptions are `U.MethodDescription` for information-transforming Methods. Physical Methods are equally valid (matter/energy transformations). A “universal transformer” is a system that can enact **any physically admissible MethodDescription**; this does **not** collapse Method into “algorithm.”
-
 

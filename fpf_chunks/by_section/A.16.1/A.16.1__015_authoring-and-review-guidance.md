@@ -6,12 +6,12 @@ section_id: "A.16.1:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__015_authoring-and-review-guidance.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:14 — Authoring and Review Guidance"
-line_start: 21566
-line_end: 21586
+line_start: 21597
+line_end: 21617
 dependencies:
   - "A.16"
   - "A.16.0"

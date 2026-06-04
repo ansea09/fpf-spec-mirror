@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:4 — Solution"
-line_start: 78049
-line_end: 78455
+line_start: 78643
+line_end: 79048
 dependencies:
   - "C.11"
   - "C.18"
@@ -63,7 +63,7 @@ MethodFamily.causalUseDispatchSpec? {
   causalEvidenceSupportBasis?: CausalEvidenceSupportBasis
   causalUseSupportRecordRef?: CausalUseSupportRecordRef
   causalUseSupportVerdict?: CausalUseSupportVerdict
-  causalMethodComparisonPosture:
+  causalMethodUseClassification:
     observationalPredictor |
     interventionOptimizer |
     counterfactualStrategy |
@@ -75,12 +75,11 @@ MethodFamily.causalUseDispatchSpec? {
 }
 ```
 
-`causalMethodComparisonPosture` is a selector-facing method-comparison classification, not a `U.Role`, role assignment, responsibility, or actor position. `simulationOnlyMethod` maps to `CausalEvidenceSupportBasis = simulationOnlyCounterfactualOutputBasis`, bounded simulation-supported use, and unsupported intervention-effect or realized-counterfactual-sample use unless another `C.28` support basis is cited.
+`causalMethodUseClassification` is a selector-facing method-use classification, not a `U.Role`, role assignment, responsibility, or actor position. `simulationOnlyMethod` maps to `CausalEvidenceSupportBasis = simulationOnlyCounterfactualOutputBasis`, bounded simulation-supported use, and unsupported intervention-effect or realized-counterfactual-sample use unless another `C.28` support basis is cited.
 
-What changes in practice: a selector must not compare "methods that improve outcome" unless each causal method declares the causality-ladder rung, causal method comparison posture, and `C.28` support record and verdict when causal-use support is being consumed.
+What changes in practice: a selector must not compare "methods that improve outcome" unless each causal method declares the causality-ladder rung, causal method-use classification, and `C.28` support record and verdict when causal-use support is being consumed.
 
 What this does not authorize: `G.5` does not identify causal effects, decide fairness, certify off-policy causal evaluation, or compare cross-rung causal methods as one undifferentiated improvement set; it keeps method dispatch and selected-set publication while `C.28` governs causal-use support.
-
 
 #### G.5:4.1 - G.Core linkage (normative)
 
@@ -171,7 +170,7 @@ A library of composition shapes (preconditioner → solver → verifier; cascade
 **S5 — `Publication & telemetry` interface (run‑time).**
 A standard publication interface to publish:
 
-* `DRR` (decision rationale) + `SCR` (support/confidence citation) with explicit pins,
+* `DRR` (decision rationale) + `SCR` (evidence/confidence citation) with explicit pins,
 * declared selector / selected-set records,
 * telemetry pins to refresh orchestration (`G.11`), without governing orchestration.
 
@@ -226,7 +225,7 @@ A publication result should state at least these fields:
 - retained members, or the narrowed handoff content, or the abstain/escalation condition;
 - ordering status when ordering matters;
 - basis pins and policy pins sufficient to justify the result;
-- one explicit next downstream use posture when the result is a handoff rather than one terminal publication.
+- one explicit next downstream use boundary when the result is a handoff rather than one terminal publication.
 
 A compact result may therefore look like:
 
@@ -377,7 +376,7 @@ All blocks below are extension declarations: they declare `Uses` and required pi
   * `FailureBehaviorPolicyId` *(if degrade behavior is made explicit)*
   * `MaturityRungId[]?` *(when maturity ladders are used as gates; semantics come from `C.23`)*
   * `AdmissibilityLedgerRef?` *(when selector consumes admissibility rows rather than recomputing thresholds)*
-* `RSCRTriggerKindIds`: `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.EvidenceSurfaceEdit}`
+* `RSCRTriggerKindIds`: `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.EvidencePathOrSourceRelationEdit}`
 * `Notes (extension discipline; semantics cited):`
 
   * This block pins dispatch decisions to explicit rule/branch ids, enabling auditable “why” without inventing a fourth acceptance status.
@@ -431,13 +430,13 @@ All blocks below are extension declarations: they declare `Uses` and required pi
 - `SetResultFamily` is required only when `SelectorOutcomeKind = SetResultOutcome`.
 - `HandoffKind` is required only when `SelectorOutcomeKind = HandoffOutcome`; `SpecialistHandoff` is one handoff kind, not one set-result family head.
 - `Front` names the non-dominated source set under the declared `DominanceSet`.
-- `Archive` names the retained exploration surface under the declared retention policy.
+- `Archive` names the retained exploration archive under the declared retention policy.
 - `Shortlist` names the lens-declared selected set emitted from `SelectionSlot`.
-- `RankedShortlist` names one ordered specialization of that shortlisted surface.
+- `RankedShortlist` names one ordered specialization of that shortlist result.
 - `ShortlistId` is the emitted public token when the shortlist publication must be carried or cited.
 - `ChoiceSet` may be used only as the mathematical set gloss for that shortlist when the set object itself is under analysis; it does not replace the public shortlist head.
 - `PortfolioMode` states how the selector operated; it does not rename the emitted set result.
-- The default `PortfolioMode=Archive` means that an unspecified selector/generator posture must preserve retained exploration evidence rather than pretending one current front or selected shortlist has already been emitted. It does not make every returned object an `Archive`, does not override `SetResultFamily`, and does not change the declared `DominanceSet`.
+- The default `PortfolioMode=Archive` means that an unspecified selector/generator operating mode must preserve retained exploration evidence rather than pretending one current front or selected shortlist has already been emitted. It does not make every returned object an `Archive`, does not override `SetResultFamily`, and does not change the declared `DominanceSet`.
 - If one selector consumes both a front and an archive, say so explicitly rather than blurring them into one generic portfolio.
 - If one selector consumes one derived tradition view, keep that derived view explicit rather than silently treating it as the default meaning of `Tradition`.
 - `SetResultFamily`, `SourceSetFamily`, `SourceSetComposition`, `SubjectKind`, `DerivedViewKind`, `BasePaletteRef`, `PromotionPolicy`, and `RetentionIntent=steppingStone` are declaration fields, refs, or policy pins around the returned outcome; they are not additional emitted set results.

@@ -6,12 +6,12 @@ section_id: "F.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:3 — Forces"
-line_start: 72573
-line_end: 72582
+line_start: 73253
+line_end: 73261
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -40,5 +40,4 @@ keywords:
 | **Locality vs. integration**         | Meanings are **context‑local**; still we must compare across **service situations**, plants, and monitors.                 |
 | **Parsimony vs. realism**            | We want a small binding scheme, yet domains differ (percentiles, downtime minutes, control margins).      |
 | **Evidence vs. privacy/feasibility** | Observations prove outcomes; sometimes only proxies exist.                                                |
-
 

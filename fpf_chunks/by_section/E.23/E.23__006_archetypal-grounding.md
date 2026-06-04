@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Archetypal grounding"
-line_start: 68010
-line_end: 68037
+line_start: 68878
+line_end: 68905
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -34,7 +34,7 @@ keywords:
 
 **Show, exceptional pattern improvement.** A steward asks to improve one pattern beyond floor for a declared reader and use window. `E.23` opens the repeated method. `E.22` frames each quality review. `E.21` supplies coordinates and stop meanings. Operation families are selected only when their expected movement, failure mode, cost and risk reason, protected trade-offs, and stop condition are explicit.
 
-**Show, DRR adequacy improvement.** A campaign needs a `DRR` raised to drafting adequacy for pattern drafting and receiving-locus distribution. `E.23` opens the repeated method. `E.22` frames each review. `E.9.DA` supplies coordinates and stop meanings. The result is a better decision record, not a prewritten pattern.
+**Show, DRR adequacy improvement.** One `DRR` version needs drafting adequacy for downstream pattern authoring and receiving-locus distribution. `E.23` opens the repeated method over that decision record. `E.22` frames each review. `E.9.DA` supplies coordinates and stop meanings. The result is a better decision record, not a prewritten pattern.
 
 **Show, proposal portfolio for a pattern.** An external review of one pattern returns twenty candidate improvements across first-use usability, source-content preservation, relation precision, and examples. `E.22` frames this as a bounded proposal portfolio rather than as one bug. `E.23` applies or rejects proposals row by row, re-reads the changed pattern through `E.21`, and stops when the declared coordinates have reached all-`5` or no further non-dominated change remains under the current use. If the pattern claims exceptional expression from `SoTA`, the record names which working external front it reaches or improves, and which source lines compose into the source-composed result claim. A later use, more current source line, more directly relevant source line, or changed comparison set can open a new loop.
 
@@ -52,7 +52,7 @@ keywords:
 
 **Show, overloaded quality wording.** The object under improvement text uses `quality` in a load-bearing way without a recoverable endpoint. `C.16.Q` opens before the loop proceeds. The term is repaired to one exact endpoint or transitional evaluative-ascription form, then `E.23` may use the repaired object-under-improvement evaluation.
 
-**Near miss, agent retries until praise.** A tool-using agent keeps trying until the reviewer says the text is better. This is not an `E.23` closure. The loop must name the object under improvement, object-under-improvement evaluation, expected movement, protected trade-offs, cost and risk posture, and re-read result.
+**Near miss, agent retries until praise.** A tool-using agent keeps trying until the reviewer says the text is better. This is not an `E.23` closure. The loop must name the object under improvement, object-under-improvement evaluation, expected movement, protected trade-offs, cost and risk account, and re-read result.
 
 **Near miss, POOGI everywhere.** A team treats every quality problem as a constraint problem. `E.23` permits POOGI-shaped work only when the object-under-improvement evaluation is actually throughput-shaped or constraint-shaped and inertia after constraint shift is a live concern.
 

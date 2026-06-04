@@ -6,12 +6,12 @@ section_id: "A.2.8:0"
 section_title: "Terminology: “binding” is overloaded (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__002_terminology-binding-is-overloaded-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:0 — Terminology: “binding” is overloaded (normative)"
-line_start: 4993
-line_end: 5000
+line_start: 4916
+line_end: 4923
 dependencies:
   - "A.15.1"
   - "A.2"

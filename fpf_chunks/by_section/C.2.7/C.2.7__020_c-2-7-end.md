@@ -6,12 +6,12 @@ section_id: "C.2.7:End"
 section_title: "C.2.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__020_c-2-7-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:End — C.2.7:End"
-line_start: 36672
-line_end: 36674
+line_start: 36755
+line_end: 36756
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -33,5 +33,4 @@ keywords:
 ---
 
 ### C.2.7:End
-
 

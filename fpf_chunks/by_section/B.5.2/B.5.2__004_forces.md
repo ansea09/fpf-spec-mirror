@@ -6,12 +6,12 @@ section_id: "B.5.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:3 — Forces"
-line_start: 32469
-line_end: 32478
+line_start: 32587
+line_end: 32596
 dependencies:
   - "A.10"
   - "A.16"

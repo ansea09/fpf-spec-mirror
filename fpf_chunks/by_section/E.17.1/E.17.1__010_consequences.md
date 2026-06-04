@@ -6,12 +6,12 @@ section_id: "E.17.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__010_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:9 — Consequences"
-line_start: 61127
-line_end: 61135
+line_start: 62021
+line_end: 62029
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -42,6 +42,6 @@ keywords:
 |---|---|
 | **Reusable viewpoint families.** Stable bundle ids let many projects reuse the same family without restating it. | Libraries need governance and edition discipline. |
 | **Cleaner `U.MultiViewDescribing`.** A family can import a reviewed bundle instead of spelling out every viewpoint locally. | Local exceptions must be made explicit rather than hidden in prose. |
-| **Better architectural alignment.** ISO 42010-style viewpoint-library practice gains a native FPF catalogue object. | Initial bundle authoring requires care in naming and grounding. |
-| **Lexical hygiene.** Bundle ids, viewpoint ids, views, and publication surfaces stop collapsing into one label. | Authors must learn the separation once and then keep it. |
+| **Better architectural alignment.** ISO 42010-style viewpoint-library practice gains a native FPF catalogue episteme. | Initial bundle authoring requires care in naming and grounding. |
+| **Lexical hygiene.** Bundle ids, viewpoint ids, views, and publication faces/forms stop collapsing into one label. | Authors must learn the separation once and then keep it. |
 

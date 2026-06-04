@@ -6,12 +6,12 @@ section_id: "A.2.5:11"
 section_title: "Putting it together (one‑screen mental model)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__012_putting-it-together-one-screen-mental-model.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:11 — Putting it together (one‑screen mental model)"
-line_start: 3633
-line_end: 3649
+line_start: 3588
+line_end: 3604
 dependencies:
   - "A.15"
   - "A.2.1"

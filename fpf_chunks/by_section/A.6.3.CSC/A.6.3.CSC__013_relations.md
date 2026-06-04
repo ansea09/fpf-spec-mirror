@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:12 — Relations"
-line_start: 10576
-line_end: 10583
+line_start: 10434
+line_end: 10441
 dependencies:
   - "A.15"
   - "A.20"
@@ -48,7 +48,7 @@ keywords:
 
 - **Specializes:** `A.6.3 U.EpistemicViewing` for declared source-loss mode in a same-lineage source-to-rendering relation.
 - **Coordinates with:** `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR`, `F.9`, `F.9.1`, `A.15`, `A.6.4`, `A.20`, and `A.21`.
-- **Does not replace:** conservative retextualization, representation transduction, explanation profiling, bounded comparative reading, bridge-card discipline, stance overlay, changed-object discipline, work authority, gate authority, or adjudication authority.
+- **Does not replace:** conservative retextualization, representation transduction, explanation profiling, bounded comparative review, bridge-card discipline, stance overlay, changed-EntityOfConcern discipline, work authority, gate authority, or adjudication authority.
 - **Entry relation:** neighboring patterns may hand off here when a coarsened rendering's narrower-use, non-admissible-use, and reopen card becomes the primary question.
 - **Governing-pattern relation wording:** this pattern is a `specialization under A.6.3`, not a bundle, suite, profile, overlay, or review pack. Its governing role is limited to the controlled-coarsening relation itself.
 

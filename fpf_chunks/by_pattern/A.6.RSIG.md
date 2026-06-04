@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RSIG.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
-line_start: 7377
-line_end: 7800
+line_start: 7237
+line_end: 7660
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -102,7 +102,7 @@ When first-contact recognition is under-governed, several defects recur:
 
 ### A.6.RSIG:4 - Solution
 
-#### A.6.RSIG:4.1 - Governed object and non-goals
+#### A.6.RSIG:4.1 - Relation-signature object and non-goals
 
 `A.6.RSIG` governs description-recognition signatures in general: the
 first-contact cue structure by which one reader can recover what encountered
@@ -118,8 +118,8 @@ Description object by default, not a `U.*` kind, and not a specialization of
 The encountered carrier or projection may help recognition; it does not become
 authoritative merely by being encountered. When this pattern talks about an
 encountered publication or projection, that wording does not mint a new surface
-kind; use an existing `PublicationSurface`, `InteropSurface`, `View`, `Card`, or
-`Lane` kind only when that kind is actually live.
+kind; use an existing publication face, publication form, interop publication form,
+`U.View`, card, or lane kind only when that kind is actually live.
 
 Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite the `U.EpistemePublication` that publishes it separately; the publication, projection, or carrier does not become the defining episteme by being the encountered item.
 
@@ -226,7 +226,7 @@ The four-part split for pattern-local recognition is:
 | --- | --- | --- |
 | Generic first-contact description recognition | `A.6.RSIG` | The neutral cue shape: description, carrier or projection, definitionEpistemeRef, exclusions, false neighbor. |
 | Local placement and form | `E.8` | How the pattern's `Problem frame` carries the first-reading role. |
-| Actual local semantics | The pattern itself | The pattern's governed object, solution, consequences, and conformance law. |
+| Actual local semantics | The pattern itself | The pattern's relation-signature object, solution, consequences, and conformance law. |
 | Cross-pattern comparison | `E.11`, `J.4`, and `I.2` | Candidate patterns, tempting wrong patterns, entry-load reclassification, and worked entry reading. |
 
 #### A.6.RSIG:4.5 - No-minting rule
@@ -236,7 +236,7 @@ This pattern does not mint:
 - one standalone `U.Discoverability`;
 - one new `U.Signature`, Signature Stack object, `U.Characteristic`, `CHR`, or
   local `Q-Bundle`;
-- one `SurfaceKind`, `DescriptionKind`, relation kind, graph ontology, pattern-reference publication
+- one publication face kind, publication form kind, interop publication form kind, carrier kind, `DescriptionKind`, relation kind, graph ontology, pattern-reference publication
   graph, or process-family claim;
 - one universal reader-orientation role.
 
@@ -365,7 +365,7 @@ This pattern counters:
   to `A.6.B`, `E.17`, `E.10 / F.18 / A.6.P`, `C.25 / C.16.Q`, or the relevant
   authoritative pattern body.
 - **CC-RSIG-4 No kind inflation.** Recognition signatures are not silently
-  promoted into `U.Signature`, Signature Stack objects, `SurfaceKind`s,
+  promoted into `U.Signature`, Signature Stack objects, publication face kinds, publication form kinds, carrier kinds,
   graph objects, workflow objects, or new `U.*` kinds.
 - **CC-RSIG-5 Recoverable cue shape.** For load-bearing cases, description,
   viewpoint, cue, applicability, exclusion, defining `U.Episteme`, false neighbor,

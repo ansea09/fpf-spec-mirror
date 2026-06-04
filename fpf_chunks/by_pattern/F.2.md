@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
-line_start: 68833
-line_end: 69148
+line_start: 69677
+line_end: 69973
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,7 +37,6 @@ keywords:
 **Coordinates with.** F.1 **Context Map via Context Cards**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description**; F.9 **Alignment & Bridge Across Contexts**.
 **Aliases (informative).** *context‑local harvesting*; *Local normalisation*.
 
-
 ### F.2:1 - Intent & applicability
 
 **Intent.** Provide a **conceptual** (notation‑free) discipline for turning *Context‑internal usage* into **context‑local lexical units** ready for later reasoning—without Cross‑context merging and without slipping into governance or tooling. The result is a **small, auditable set of context‑local names and glosses** that faithfully reflect how the canon speaks.
@@ -45,7 +44,6 @@ keywords:
 **Applicability.** Use whenever a unification line (from F.1) needs **actual words** to be referenced by patterns in Part C (Extention patterns) or by Role Descriptions (F.4). Re‑enter F.2 when a canon/edition changes or when a new Context is admitted in F.1.
 
 **Non‑goals.** No global labels; no Cross‑context equivalence; no workflow or role descriptions; no storage/API talk. F.2 specifies **how to think**, not how to “run a pipeline”.
-
 
 ### F.2:2 - Problem Frame
 
@@ -57,7 +55,6 @@ Even with Contexts fixed (F.1), three mistakes recur:
 
 F.2 prevents these by **localising** meaning and **naming** strictly **inside** each Context.
 
-
 ### F.2:3 - Forces
 
 | Force                      | Tension to resolve                                                               |
@@ -67,12 +64,10 @@ F.2 prevents these by **localising** meaning and **naming** strictly **inside** 
 | **Didactics vs fidelity**  | Two‑register labels (tech/plain) vs fidelity to the canon’s own phraseology.     |
 | **Speed vs safety**        | Move fast to enable F.3/F.4 vs avoid any Cross‑context conclusion in F.2.           |
 
-
 ### F.2:4 - Core idea (didactic)
 
 **Harvest *inside* each Context; name *in that Context’s idiom*; do not cross Contexts.**
 For every Context (a **U.BoundedContext** from F.1), you gather **attested phrases** as *thought‑cues*, choose a **Local Normal Form (LNF)** that matches the Context’s idiom, attach a **two‑register label** (Tech/Plain), and write a **one‑sentence gloss**. That’s all. You do **not** claim sameness with any other Context; you do **not** embed behaviour or deontics; you do **not** mint U.Types here. These *local lexical units* will become **Local‑Senses** in F.3 and later addressable **SenseCells** (Context × Local‑Sense).
-
 
 ### F.2:5 - Minimal vocabulary (this pattern only)
 
@@ -87,7 +82,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 > *Everything above is a way of thinking. None of it implies a database, statuses, or roles.*
 
-
 ### F.2:6 - Solution — three mental moves (notation‑free)
 
 #### F.2:6.1 - Move A — **Localise the word**
@@ -97,7 +91,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 **Outcome.** You stop thinking “global word” and start thinking “context‑local usage”.
 
 *Micro‑cue.* If you cannot name the Context, do not harvest the word.
-
 
 #### F.2:6.2 -Move B — **Name it in the Context’s idiom**
 
@@ -110,13 +103,11 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 • The **Plain** label should help a non‑specialist; the **Tech** label should match engineers’ eyes.
 • The **Gloss** must fit on a single line; put details in F.3.
 
-
 #### F.2:6.3 - Move C — **Fence it off**
 
 **Question to ask.** *“What must I refuse to conclude here?”*
 **Action (mental).** Explicitly **refuse** to: (1) compare across Contexts, (2) fold morphology that the canon treats as meaningful, (3) embed behaviour, deontics, or type structure.
 **Outcome.** A clean, **context‑local** lexical unit that will be safe to cluster in F.3 and safe to bridge (or not) in F.9.
-
 
 ### F.2:7 - Guard‑rails (normative, lightweight)
 
@@ -124,11 +115,10 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 2. **Context‑idiom normalisation.** LNF **MUST** respect the Context’s idiom (spelling/hyphenation/casing) and use **minimal edits**.
 3. **Two registers.** Each unit **SHOULD** carry both **Tech** and **Plain** labels for didactics; if one is missing, justify.
 4. **Minimal generality (G‑1).** The gloss **MUST** be as specific as the Context’s canon requires—no broader.
-5. **I/D/S layer hygiene (A.7).** **MUST NOT** include behaviour equations, deontic rules, measurement math, or type axioms; those belong to patterns.
+5. **EntityOfConcern / Description / specification-use hygiene (A.7).** **MUST NOT** include behaviour equations, deontic rules, measurement math, or type axioms; those belong to patterns.
 6. **No Cross‑context claims.** **MUST NOT** assert equivalence, subsumption, or similarity with terms in other Contexts (F.9 only).
 7. **Edition honesty.** If the Context’s canon has multiple editions with shifting usage, treat them as distinct Contexts in F.1 before harvesting.
 8. **Parsimony.** Prefer **few, telling** lexical units over long tails; keep head terms that will power F.3/F.4/F.9.
-
 
 ### F.2:8 - Micro‑examples (illustrative, context‑local)
 
@@ -158,7 +148,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
   **Tech:** `task` - **Plain:** `runtime program execution`
   **Gloss:** “Cyclic or event‑driven execution unit for control programs.”
 
-
 ### F.2:9 - Didactic heuristics (informative)
 
 * **Keep the Context prefix in your inner speech.** Say “*process (BPMN)*”, “*activity (PROV)*”.
@@ -174,7 +163,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 | **A2**  | **String = meaning**         | Assuming identical strings denote one concept across Contexts.          | Homonym collision (*process*, *role*, *service*).            | Always prefix mentally with the **Context**; treat same string in different Contexts as **different units**.  |
 | **A3**  | **Over‑normalisation**       | Folding hyphens/case/morphology “for consistency”.                   | Loses the canon’s idiom; breaks citations.                   | **Minimal edits** toward the Context’s idiom; never toward a global house‑style.                           |
 | **A4**  | **Headless multiword**       | Truncating to a head (“objective” for “service‑level objective”).    | Ambiguity; collapses scope.                                  | Preserve canonical **head‑modifier** as LNF when meaningful.                                            |
-| **A5**  | **Premature structure**      | Embedding behaviour, deontics, units, or type axioms into the gloss. | I/D/S layer mixing (violates A.7); biases later patterns.          | Gloss **usage**, not calculus; structural content belongs to Extention Patterns in Part C.                   |
+| **A5**  | **Premature structure**      | Embedding behaviour, deontics, units, or type axioms into the gloss. | EntityOfConcern / Description / specification-use mixing (violates A.7); biases later patterns.          | Gloss **usage**, not calculus; structural content belongs to Extention Patterns in Part C.                   |
 | **A6**  | **Cross‑context folding**       | “BPMN workflow ≈ PROV activity” written inside F.2.                   | Hidden bridge; unpriced losses.                              | No Cross‑context claims in F.2; write the **itch to bridge** for **F.9**.                                  |
 | **A7**  | **Edition blur**             | “BPMN” without year/profile; mixing excerpts across editions.        | Silent sense shift; unrepeatable reasoning.                  | Treat distinct editions as **distinct Contexts** in F.1, then harvest.                                     |
 | **A8**  | **Vendor‑dialect elevation** | Treating a DSL/keyword list as “the domain”.                         | Projectionism; narrow idiom dominates.                       | If needed, model the DSL as **one context among others**; keep heterogeneity from F.1.                     |
@@ -184,7 +173,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 | **A12** | **Cross‑language collapse**  | Merging bilingual terms as one unit.                                 | Erases idiom‑specific signals; hides normative mapping gaps. | Treat each language edition as its **own Context** unless the canon declares a normative mapping.          |
 | **A13** | **Alias inflation**          | Inventing new local names “for clarity”.                             | Strays from the canon; hinders bridging.                     | Prefer the canon’s idiom; keep invented phrasings to the **Plain** register only.                       |
 | **A14** | **Role/status conflation**   | RBAC “role” glossed as behavioural role.                             | Cross‑family bleed; wrong assignment later.                         | Call out the Context in the label: **access‑role (RBAC)** vs **participant (BPMN)**; keep senses disjoint. |
-
 
 ### F.2:11 - Worked examples (context‑local only)
 
@@ -211,7 +199,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 *Thinking pay‑off:* you can phrase “compare **observation** to **service‑level‑objective**” without importing workflow or provenance semantics.
 
-
 #### F.2:11.2 Sys‑CAL / LCA‑CAL + services
 
 * **Context:** *State‑space control texts* — **LNF:** `actuation`
@@ -227,7 +214,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
   **Gloss:** “Unplanned interruption or reduction in the quality of a service.”
 
 *Thinking pay‑off:* avoids calling a plant fault an “incident” unless you **cross Contexts later** with an explicit bridge.
-
 
 #### F.2:11.3 Kind-CAL + Method‑CAL + KD‑CAL
 
@@ -248,7 +234,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
   **Gloss:** “Specification guiding how an observation is produced.”
 
 *Thinking pay‑off:* discourages treating an FCA “concept” as a `U.Type`, or a **procedure** as a **method** without later proof.
-
 
 ### F.2:12 - Reasoning primitives (judgement schemas, notation‑free)
 
@@ -291,7 +276,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
    `lexicalOnly(u) ∧ minimal(u) ∧ didactic(u) ⊢ readyF3(u)`
    *A unit is suitable input for **intra‑Context clustering** in F.3.*
 
-
 ### F.2:13 - Relations
 
 **Builds on:**
@@ -307,7 +291,6 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 **Used by.**
 Extention patterns in Part C when referencing domain idioms (labels stay **context‑local**).
 
-
 ### F.2:14 - Migration notes (conceptual)
 
 1. **New edition appears.** Add a Context in F.1; harvest afresh in F.2 using that Context; do not overwrite earlier units.
@@ -316,7 +299,6 @@ Extention patterns in Part C when referencing domain idioms (labels stay **conte
 4. **Language split.** Treat each language canon as its **own Context**; resist cross‑language merges in F.2.
 5. **Tail pruning.** If units accumulate without feeding F.3/F.4/F.9, drop them from the working set; keep head terms that carry bridges.
 6. **DSL quarantine.** If a tool dialect is unavoidable, keep it as one context among others; never let it define the idiom for other Contexts.
-
 
 ### F.2:15 - Acceptance tests (SCR/RSCR — concept‑level)
 
@@ -337,7 +319,6 @@ Extention patterns in Part C when referencing domain idioms (labels stay **conte
 * **RSCR‑F2‑E03 (Language split).** Adding a second language yields a second Context; no bilingual collapse in F.2.
 * **RSCR‑F2‑E04 (No stealth bridges).** After updates, F.2 still contains **zero** Cross‑context identity claims; any mapping appears only in F.9.
 * **RSCR‑F2‑E05 (Head‑term focus).** Periodic check shows the unit set remains small and oriented to F.3/F.4/F.9 needs.
-
 
 ### F.2:16 - Didactic distillation (60‑second script)
 

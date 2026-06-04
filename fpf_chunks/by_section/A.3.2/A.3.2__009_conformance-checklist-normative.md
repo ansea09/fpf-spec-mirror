@@ -6,12 +6,12 @@ section_id: "A.3.2:8"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__009_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:8 — Conformance Checklist (normative)"
-line_start: 6218
-line_end: 6265
+line_start: 6117
+line_end: 6163
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -83,5 +83,4 @@ If two contexts use different MethodDescriptions for “the same‑named way,”
 
 **CC-A3.2-15 (Causal-use work boundary).**
 A MethodDescription **MAY** describe intervention assignment, target-trial emulation, realized-counterfactual sampling, simulation, or causal-evidence collection by naming `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` relations. It **SHALL NOT** be treated as causal-use support, causal-use admissibility, or causal-use verdict by itself. When that work is used causally, the causal-use question, rung, estimand, support basis, support verdict, supported use, and unsupported use **SHALL** be carried by `C.28`.
-
 

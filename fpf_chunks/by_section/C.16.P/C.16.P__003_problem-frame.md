@@ -6,12 +6,12 @@ section_id: "C.16.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:1 — Problem frame"
-line_start: 40717
-line_end: 40736
+line_start: 40645
+line_end: 40664
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,21 +41,21 @@ keywords:
 
 ### C.16.P:1 - Problem frame
 
-Working texts often need compact characterization words. The problem starts when compact words begin to carry comparison, proof, selection, gate, readiness, release, quality, or decision force without recoverable characteristic and scale construction.
+Working texts often need compact characterization words. The problem starts when compact words begin to carry comparison, proof, selection, gate, readiness, release, quality, or decision claim without recoverable characteristic and scale construction.
 
 The repair question is:
 
 > What characteristic or scale construction is recoverable, and what exact receiving pattern carries the remaining claim?
 
-The live object may be:
+The recoverable item may be:
 
 - a `Characteristic` under `A.17`;
-- a `Scale`, coordinate, value, unit, scoring method, measure, or measurement use under `A.18` / `C.16`;
+- a `Scale`, coordinate, value, unit, scoring method, measure, or measurement use under `A.18` and `C.16`;
 - a `CharacteristicSpace` under `A.19`;
 - a Q-bundle under `C.25`;
-- quality/evaluative characterization under `C.16.Q`;
+- quality-term or evaluative characterization under `C.16.Q`;
 - pattern-quality coordinate use under `E.21`;
-- mathematical-lens adequacy under `C.29`;
+- mathematical-lens use under `C.29`;
 - comparison, threshold, indicator, proxy, benchmark, gate, evidence, decision, or work claim under exact neighboring patterns;
-- ordinary prose with no FPF force.
+- ordinary prose with no FPF-governed use.
 

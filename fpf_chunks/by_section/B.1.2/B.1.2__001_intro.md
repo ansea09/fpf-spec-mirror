@@ -6,12 +6,12 @@ section_id: "B.1.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.2 — System‑specific Aggregation Γ\\_sys"
   - "B.1.2:intro — Intro"
-line_start: 28669
-line_end: 28812
+line_start: 28865
+line_end: 28999
 dependencies:
   - "A.1"
   - "A.3"
@@ -36,12 +36,10 @@ keywords:
 `Γ\_sys` is the **default flavour of the universal aggregation operator** for everything that engineers can touch, weigh or wire‑up: bridges, battery packs, data‑centre racks, container clusters.
 It translates the abstract Invariant Quintet into three **physically meaningful fold rules**—*additive, limiting, boolean*—and a **Boundary‑Inheritance Standard** (BIC) that keeps external interfaces tidy. Together they guarantee that holons built with `Γ\_sys` obey conservation laws, expose a clean API surface and pass safety audits without manual patching.
 
-
 #### B.1.2:2 - Context
 
 Kernel § 6 defines `U.System` and states that only a **Calculus** may own an aggregation operator. *Sys‑CAL* (Part C.1) exports `Γ\_sys` as its single builder; other CALs (KD‑CAL, Method‑CAL …) reuse the same quintet but swap in domain rules.
 Draft 20 Jul 25 already lists default fold policies (Σ, min, ∨/∧) and a cut‑stable axiom; this pattern turns those snippets into a teachable Standard for day‑to‑day system design.
-
 
 #### B.1.2:3 - Problem (seen on real projects)
 
@@ -54,7 +52,6 @@ Draft 20 Jul 25 already lists default fold policies (Σ, min, ∨/∧) and a cut
 
 All four break Pillars *Cross‑Scale Consistency* and *State Explicitness*.
 
-
 #### B.1.2:4 - Forces
 
 | Force                     | Pull                          | Push                                                         |
@@ -63,7 +60,6 @@ All four break Pillars *Cross‑Scale Consistency* and *State Explicitness*.
 | **Interface clarity**     | Present one clean API         | **Fidelity** — expose every critical port                    |
 | **Safety conservatism**   | Take worst‑case rating        | **Performance** — allow redundancy gains (via MHT later)     |
 | **Parallel build**        | Shard assembly, cache results | **Boundary realism** — stress must still balance across cuts |
-
 
 #### B.1.2:5 - Solution (conceptual core)
 
@@ -115,7 +111,6 @@ BIC is the antidote to *Interface Medusa*: it prevents silent loss of obligation
 
 If the min rule is exceeded by design (e.g., triple redundancy boosts SIL beyond any part), stop here and initiate **Meta‑Holon Transition** (Pattern B .2) to formalise emergence.
 
-
 #### B.1.2:7 - Worked Example — Battery‑Electric Bus Pack (2025 model year)
 
 | Step                | Snapshot                                                                                                                       |
@@ -126,7 +121,6 @@ If the min rule is exceeded by design (e.g., triple redundancy boosts SIL beyond
 | **Fold**            | Σ energy = 628 kWh; min voltage limit = 4.25 V; ∧ self‑heating = true.                                                         |
 | **Cut‑Stable**      | Across‑string current same pre/post fold. Pass.                                                                                |
 | **Outcome**         | Pack spec delivered to vehicle OEM; audit shows WLNK bound 4.25 V, MONO intact; financial model reads energy Σ for range calc. |
-
 
 #### B.1.2:8 - Conformance Checklist (author‑facing)
 
@@ -140,7 +134,6 @@ If the min rule is exceeded by design (e.g., triple redundancy boosts SIL beyond
 
 Failing a line means the operator must **refactor the graph or escalate to Meta‑Holon** before reuse.
 
-
 #### B.1.2:9 - Consequences
 
 | Benefit for project leadership                                                                 | Secondary effect                                      |
@@ -150,7 +143,6 @@ Failing a line means the operator must **refactor the graph or escalate to Meta�
 | **Safety‑first roll‑up** — weakest‑link bound surfaces brittle parts immediately.              | QA budget aimed at right module; no gold‑plating.     |
 | **Seamless parallel builds** — COMM + LOC proven once, reused by every subStandardor.          | Integration rehearsals shortened by weeks.            |
 
-
 #### B.1.2:10 - Rationale (link to modern practice)
 
 * **Model‑Based Systems Engineering (MBSE 2023‑2025):** Tools like Cameo Systems Modeler automated Σ/min logic via “Property Kind” stereotypes—Γ\_sys formalises the same trick.
@@ -159,7 +151,6 @@ Failing a line means the operator must **refactor the graph or escalate to Meta�
 * **Cloud operations:** Kubernetes 1.30 resource quotas implement additive CPU/memory and min PodDisruptionBudget—industrial proof that the schema scales.
 
 Real‑world convergence across steel, silicon and software shows the rules are not theory nice‑to‑haves; they are what successful projects already do—Γ\_sys just makes it explicit, automatic and auditable.
-
 
 #### B.1.2:11 - Relations
 

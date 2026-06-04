@@ -6,12 +6,12 @@ section_id: "E.17.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:intro — Intro"
-line_start: 60603
-line_end: 60620
+line_start: 61496
+line_end: 61514
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -33,32 +33,24 @@ dependencies:
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "ISO 42010 alignment"
-  - "correspondence model"
-  - "description families"
-  - "engineering vs publication viewpoints"
-  - "entity-of-interest"
-  - "multi-view describing"
-  - "view"
-  - "view vs viewpoint"
-  - "viewpoint"
 ---
 
 ## E.17.0 - `U.MultiViewDescribing — Viewpoints, Views & Correspondences`
 
 > **Tech‑name:** `U.MultiViewDescribing`
-> **Plain‑name:** multi‑view describing (viewpoints, views, correspondence for families of descriptions/specifications)
+> **Plain‑name:** multi‑view describing (viewpoints, views, correspondence for families of Description epistemes and specification-use Description epistemes)
 
-**Status & placement.** Part E (Describing & Publication). Normative architectural pattern.
-**Builds on:** C.2.1 `U.EpistemeSlotGraph` (DescribedEntity, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; I/D/S versus publication-form and carrier lanes), E.10.D1 (Context), E.10.D2 (I/D/S discipline).
+**Status & placement.** Stable; Part E (Describing & Publication). Normative architectural pattern.
+**Builds on:** C.2.1 `U.EpistemeSlotGraph` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier lanes), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline).
 **Used by:** E.17 (MVPK — publication as a specialisation of multi‑view describing for morphisms), E.17.1 `U.ViewpointBundleLibrary`, E.17.2 `TEVB`, E.18:5.12 (E.TGA engineering viewpoint families), domain‑specific description schemes (architecture, safety cases, governance, research).
 
 **Guard (lexical).**
 
-**C.2.1 lane binding.** `U.MultiViewDescribing` does not mint a generic semio kind. When the family describes or views knowledge claims, the claim-bearing value is `U.Episteme`; when that episteme is made available as a published episteme, use `U.EpistemePublication` or governed `U.Episteme` publication. Publication forms, episteme-lane `U.View` values, MVPK faces, source-finding cues, and SCR and RSCR carriers remain separate lanes. If a family crosses into a later FPF pattern or a non-pattern `authoritySourceRef` target, name `governingPatternRef` or `authoritySourceRef` rather than a container label.
+**Family indexing rule.** `U.MultiViewDescribing` indexes families by `EntityOfConcernClass`, `EntityOfConcernRef`, bounded context, and viewpoint. `EoIClass*` and `DescribedEntity*` wording does not create a second view-family ontology; use the EntityOfConcern family.
 
+**C.2.1 lane binding.** `U.MultiViewDescribing` does not mint a generic semio kind. When the family describes or views knowledge claims, the claim-bearing value is `U.Episteme`; when that episteme is made available as a published episteme, use `U.EpistemePublication` or governed `U.Episteme` publication. Publication forms, episteme-lane `U.View` values, MVPK faces, source-finding cues, and SCR and RSCR carriers remain separate lanes. If a family crosses into a later FPF pattern or a non-pattern `authoritySourceRef` destination, name `governingPatternRef` or `authoritySourceRef` rather than a container label.
 
-* `U.Viewpoint` is the ValueKind of `ViewpointSlot` and denotes **intensional viewpoint specs**, not `SurfaceKind` values or carriers.
-* `U.View` is an alias of `U.EpistemeView`, i.e. an **episteme-lane view**, not a document or file. Views are epistemes; `PublicationSurface` and `InteropSurface` are L-SURF `SurfaceKind` values; concrete renderings and carriers remain A.7, SCR, and RSCR concerns.
-* `ViewFamilyId` is a lexical tag for **families of viewpoints** (e.g. TEVB), never for view kinds, MVPK `U.View` values, `U.ViewFamily(-)` bundles, or `SurfaceKind` values. MVPK face kinds remain `{PlainView, TechCard, InteropCard, AssuranceLane}`.
+* `U.Viewpoint` is the ValueKind of `ViewpointSlot` and denotes **viewpoint specifications**, not `publication-face kind` values or carriers.
+* `U.View` is an alias of `U.EpistemeView`, i.e. an **episteme-lane view**, not a document or file. Views are epistemes; `publication face/form` and `interop publication form` are publication-face/form discipline `publication-face kind` values; concrete renderings and carriers remain A.7, SCR, and RSCR concerns.
+* `ViewFamilyId` is a lexical tag for **families of viewpoints** (e.g. TEVB), never for view kinds, MVPK `U.View` values, `U.ViewFamily(-)` bundles, or `publication-face kind` values. MVPK face kinds remain `{PlainView, TechCard, InteropCard, AssuranceLane}`.
 

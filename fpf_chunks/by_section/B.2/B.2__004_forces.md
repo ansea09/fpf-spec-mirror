@@ -6,12 +6,12 @@ section_id: "B.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:3 — Forces"
-line_start: 30063
-line_end: 30072
+line_start: 30204
+line_end: 30212
 dependencies:
   - "A.1"
   - "A.12"
@@ -40,5 +40,4 @@ keywords:
 | **Continuity vs. Re‑identification**        | Preserve identity across phases where warranted ↔ Re‑identify when boundary/objective/capability qualitatively change.                                      |
 | **Local vs. Systemic**                      | Local improvements should stay inside MONO ↔ System‑level novelties must **restart** invariants at a new level.                                             |
 | **DDD familiarity vs. Ontological clarity** | Reuse intuitions from **bounded contexts** and **events** ↔ Keep them mapped to FPF’s holons, boundaries, and transformers without tool‑specific semantics. |
-
 

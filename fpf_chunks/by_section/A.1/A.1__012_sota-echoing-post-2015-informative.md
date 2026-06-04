@@ -6,12 +6,12 @@ section_id: "A.1:11"
 section_title: "SoTA-Echoing (post‑2015, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__012_sota-echoing-post-2015-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:11 — SoTA-Echoing (post‑2015, informative)"
-line_start: 1281
-line_end: 1292
+line_start: 1283
+line_end: 1294
 dependencies:
   - "A.1"
   - "A.1.1"

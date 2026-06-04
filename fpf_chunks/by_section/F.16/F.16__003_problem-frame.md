@@ -6,12 +6,12 @@ section_id: "F.16:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:2 — Problem frame"
-line_start: 73902
-line_end: 73913
+line_start: 74512
+line_end: 74522
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -36,5 +36,4 @@ Cross‑domain examples often fail in four predictable ways:
 4. **List without structure.** Facts line up but never meet in a single **Concept‑Set row**.
 
 The template counters these by forcing **Contexts → senses → row → bridges**, in that order.
-
 

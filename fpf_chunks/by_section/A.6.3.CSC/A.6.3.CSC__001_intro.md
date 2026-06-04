@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:intro — Intro"
-line_start: 10269
-line_end: 10280
+line_start: 10129
+line_end: 10140
 dependencies:
   - "A.15"
   - "A.20"
@@ -50,7 +50,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Placement.** `Controlled Semantic Coarsening` is a specialization under `A.6.3 U.EpistemicViewing` for same-lineage coarsening from one source-bearing side into one coarsened rendering, whether the coarsening was planned before publication or discovered during review of a target that can be retained only under a narrower-use card. That source-bearing side may be one governed source episteme, source publication, or declared source set with a stable source-set identifier and bounded membership; it is not an open corpus.
+**Placement.** `Controlled Semantic Coarsening` is a specialization under `A.6.3 U.EpistemicViewing` for same-lineage coarsening from one source-bearing side into one coarsened rendering, whether the coarsening was planned before publication or discovered during review of a coarsened rendering that can be retained only under a narrower-use card. That source-bearing side may be one source episteme that remains governing, source publication, or declared source set with a stable source-set identifier and bounded membership; it is not an open corpus.
 
 **Builds on.** `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `A.6.P`, `E.8`, `E.10`, `E.19`, and `F.18`.
 

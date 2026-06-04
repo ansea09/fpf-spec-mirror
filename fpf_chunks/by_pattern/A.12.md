@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.12.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
-line_start: 18620
-line_end: 18753
+line_start: 18686
+line_end: 18818
 dependencies:
   - "A.3"
   - "B.2.5"
@@ -75,7 +75,6 @@ This simple inequality is the core of the externalization principle. It constitu
 FPF distinguishes **reflexive transformation** from **episteme‑level reference**.
 *Reflexive* cases (e.g., “self‑calibration”) MUST be modeled by the **Reflexive Split** (Regulator→Regulated) and remain within the **world** ReferencePlane.
 When a claim **refers to** another claim/episteme, model it with **epistemeAbout(x,y)** and set **ReferencePlane(x)=episteme**. Such references **do not perform transformations** and **MUST NOT** be used to bypass the external‑agent rule. Evaluation of chains of episteme‑about relations MUST remain **acyclic within a single evaluation chain**; otherwise, abstain and request a split or external evidence.
-
 
 ### A.12:4.2 - The Reflexive Split Pattern
 

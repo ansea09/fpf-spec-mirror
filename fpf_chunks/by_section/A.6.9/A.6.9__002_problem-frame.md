@@ -6,12 +6,12 @@ section_id: "A.6.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.9 — U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align” via explicit Bridges (RPR‑XCTX)"
   - "A.6.9:1 — Problem frame"
-line_start: 16200
-line_end: 16216
+line_start: 16351
+line_end: 16367
 dependencies:
   - "A.6.6"
   - "A.6.P"
@@ -53,7 +53,7 @@ In FPF terms, this is almost never a single claim. It is a *Bridge situation* th
 * near‑inevitable **loss/distortion** on transfer;
 * a (usually implicit) **edition / time‑slice basis** for both endpoints and the correspondence judgement (`Γ_time`);
 * a usually implicit **facet span** (`facetSpan`; “which aspects are being aligned?”) — the correspondence is often a *partial lens*, not whole‑cell sameness;
-* a critical ambiguity between **lexical synonymy / translation** (“same word/label”), **shared described-entity reference** (“same described entity under different IDs”), and **value‑level normalization** (“equivalent after φ‑normalization / unit conversion”).
+* a critical ambiguity between **lexical synonymy / translation** (“same word/label”), **shared EntityOfConcern reference** (“same EntityOfConcern under different IDs”), and **value‑level normalization** (“equivalent after φ‑normalization / unit conversion”).
 * a critical ambiguity between **explaining** a correspondence and **licensing substitution**.
 
 A.6.9 is the RPR specialisation that makes this structure explicit and prevents accidental “global identity” claims when the author’s intent is merely naming convenience or interpretive help.

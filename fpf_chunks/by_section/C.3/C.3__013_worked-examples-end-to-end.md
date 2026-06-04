@@ -6,12 +6,12 @@ section_id: "C.3:11"
 section_title: "Worked examples (end‑to‑end)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__013_worked-examples-end-to-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:11 — Worked examples (end‑to‑end)"
-line_start: 37290
-line_end: 37369
+line_start: 37329
+line_end: 37405
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -47,7 +47,6 @@ Typed pre‑check: **OK** via KindBridge. Scope coverage after translate/narrow:
 Penalties: apply **Φ(2)** and **Ψ(2)** to **R**; freshness windows checked.
 **Outcome:** Adopt with reduced **R**; action item: qualify rig v4 to raise CL in the future.
 
-
 #### C.3:11.2 - API decision rule with adapter and subkind promotion
 
 **Consumer claim.**
@@ -69,7 +68,6 @@ No Cross‑context reuse; no Φ/Ψ. Evidence: adapter correctness on the TargetS
 **Outcome.**
 Adopt via Option B; open task: generalize producer to subkind and remove adapter later.
 
-
 #### C.3:11.3 - Clinical dosage rule across jurisdictions (bridge + mask)
 
 **Claim (Hospital X).**
@@ -86,7 +84,6 @@ Adopt via Option B; open task: generalize producer to subkind and remove adapter
 Typed pre‑check via KindBridge: **OK**. Scope coverage after translate/narrow: **OK**.
 Penalties: **Φ(CL\_scope)** and **Ψ(1)** applied to **R**.
 **Outcome:** Adopt with strong **R** penalty; plan: negotiate a harmonized boundary to raise `CL^k`.
-
 
 #### C.3:11.4 - ML fairness constraint with typed quantification
 

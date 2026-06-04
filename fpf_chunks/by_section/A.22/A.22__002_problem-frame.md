@@ -6,12 +6,12 @@ section_id: "A.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:1 — Problem frame"
-line_start: 27795
-line_end: 27828
+line_start: 28003
+line_end: 28036
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,10 +33,12 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -48,8 +50,8 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture-description claim"
-  - "preserved/lost structure"
+  - "architecture-description boundary"
+  - "preserved and lost structure"
   - "selected structure"
   - "source return"
   - "structural description"
@@ -59,8 +61,9 @@ keywords:
 
 ### A.22:1 - Problem frame
 
-Use this pattern when a practitioner needs to say what organization, relation class, constraint, invariant, variation class, or preserved/lost arrangement is being discussed, without turning a diagram, graph, table, document, mathematical lens, source item, base, evidence path, mathematical-lens output, decision, or architecture description into the structure itself.
+Use this pattern when a practitioner needs to select structure as an `EntityOfConcern`: the organization, relation class, constraint, invariant, variation class, preserved arrangement, or lost arrangement that changes a next engineering or reasoning move.
 
+The first A.22 question is positive: what is organized, over which bounded context and substrate, what relation or constraint matters, what is preserved, what is lost, and what use or stop condition follows. Diagrams, graphs, documents, source items, mathematical-lens outputs, project records, and architecture descriptions may help expose that structure; they do not replace the selected structure.
 The first useful move is small:
 
 ```text
@@ -71,23 +74,22 @@ candidate structure:
 relation, operation, constraint, invariant, or variation class:
 what is preserved:
 what is lost, hidden, or excluded:
-source/base/evidence/lens reading, if reliance is live:
+reliance relation, if live: source-description, base-dependence, grounding, evidence, lens, simulation, extraction, or representation
 admissible use:
 non-admissible use:
 governingPatternApplicationRefs, if another claim kind is live:
 ```
 
-`StructureQuestionCard@Project` is a project-side triage aid, not a new structure kind, not a D/S publication, not evidence, and not a decision.
+`StructureQuestionCard@Project` is a project-side triage aid for this selected-structure move. It is not a new structure kind; evidence, gate, decision, work, release, publication, source-use, or description-use claims exit to the exact neighboring FPF pattern when they become live.
 
-Ordinary minimum: name the bounded context, the candidate structure, one relation, constraint, invariant, or variation class that changes action, one non-admissible overread, and the exact FPF pattern application or stop. Fill preserved or lost structure, source/base/evidence/lens reading and source-return fields only when extraction, coarsening, source/base/evidence/lens reliance, or action reliance is live. All other fields are conditional and may be `not live`.
+Ordinary minimum: name the bounded context, the candidate structure, one relation, constraint, invariant, or variation class that changes action, one non-admissible overread, and the exact FPF pattern application or stop. Fill preserved or lost structure, reliance-relation, and source-return fields only when extraction, coarsening, source-description, base-dependence, grounding, evidence, lens, simulation, representation, or action reliance is live. All other fields are conditional and may be `not live`.
 
-Stop at this card when it makes the next move clear. Open the heavier records below only when publication, reuse, extraction, coarsening, comparison, evidence, assurance, C.29 lens use, architecture description, or cross-case source/lens reuse is live.
+Stop at this card when it makes the next structure move clear. Open heavier records only when a named publication, reuse, extraction, coarsening, comparison, lens, architecture-description, or other neighboring claim is live.
 
+What goes wrong if A.22 is missed: architecture becomes a document, a module diagram, a TGA graph, a mathematical-lens output, or a project record; a source, lens output, or view becomes the structure; a coarsened or extracted representation becomes loss-free. Those collapses damage first-principles reasoning because the practitioner cannot see what is organized, what carries the claim, which reliance relation is live, and where the use stops.
 
-What goes wrong if A.22 is missed: architecture becomes a document, a module diagram, a TGA graph, a mathematical-lens output, or a decision record; a source, lens output, or evidence item becomes the structure; a view becomes the described object; a coarsened or extracted representation becomes loss-free. Those collapses damage first-principles reasoning because the practitioner cannot see what is organized, what carries the claim, which source/base/evidence/lens reading is live, and where the use stops.
+What A.22 buys in practice: a practitioner can name selected structure, state preserved and lost structure, name source or lens reliance when it is live, return to source when the loss matters, and send any non-structure claim to the exact FPF pattern that carries it.
 
-What A.22 buys in practice: a practitioner can name selected structure, name the exact source, base, evidence, or lens reading, publish a structural view, state preserved and lost structure, return to source when the loss matters, or name the exact FPF pattern application that carries evidence, assurance, gate, decision, work, release, architecture-description, or mathematical-lens claim kind.
+Not this pattern when the live question is grounded architecture adequacy, architecture structural-view adequacy, or mathematical-lens use. Use `C.30`, `C.30.ASV`, or `C.29` respectively. For any other live claim, use the exact governing FPF pattern and keep A.22 only to the selected-structure portion.
 
-Not this pattern when the live question is architecture-description adequacy. Use `C.30`. If the live question is an architecture structural view, use `C.30.ASV`. If it is mathematical-lens adequacy, use `C.29`. If it is evidence, assurance, gate, decision, work, release, or project authority, use the exact governing FPF pattern and keep A.22 only to the structure carrier or structure-view portion.
-
-Thin precision-restoration pointer: if the live issue is still whether wording such as *architecture*, *structure*, *diagram*, *module*, *model*, *view*, *layer*, *stack*, or *functional architecture* is naming a structure, a structure description, an architecture description, a view, a carrier, or another receiving object, use `C.30.P` before applying A.22. Do not copy the `C.30.P` trigger table here; A.22 resumes only after the selected-structure object or structure-view portion is recoverable.
+Thin precision-restoration pointer: if the live issue is still whether wording such as *architecture*, *structure*, *diagram*, *module*, *model*, *view*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names a structure, a structure description, an architecture description, a view, a carrier, or another exact receiving-pattern exit, use `C.30.P` and `C.30.STRAT` as triggered before applying A.22. Do not copy either trigger table here; A.22 resumes only after the selected-structure claim or structure-view portion is recoverable.

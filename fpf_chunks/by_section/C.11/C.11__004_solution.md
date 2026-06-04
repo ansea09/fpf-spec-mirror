@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__004_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 39410
-line_end: 39908
+line_start: 39354
+line_end: 39850
 dependencies:
   - "A.13"
   - "A.18"
@@ -47,7 +47,6 @@ keywords:
 
 When the admissible choice among an existing `OptionSet` depends on an effect claim, intervention claim, counterfactual comparison, causal policy claim, or off-policy causal evaluation, the `ChoiceResult` keeps the decision-theory question local and cites `C.28` for the causal-use question and support basis.
 
-
 Optional `ChoiceResult.causalUseSpec?`:
 
 ```text
@@ -73,12 +72,11 @@ What changes in practice: a decision record that says "choose this because it im
 
 What this does not authorize: `C.11` does not identify causal effects, certify target-trial emulation, validate off-policy causal evaluation, or decide counterfactual sampling realizability; it emits one `ChoiceResult` and redirects the causal-use question to `C.28`.
 
+#### C.11:4.1 - OptionSet choice locus and move
 
-#### C.11:4.1 - Governed object and move
+`C.11` governs theory-side choice among already-available options. Its OptionSet choice move is deciding what should be chosen from the current `OptionSet`, including whether further probing, information gathering, or computation is rational before the choice is fixed.
 
-`C.11` governs theory-side choice among already-available options. Its governed move is deciding what should be chosen from the current `OptionSet`, including whether further probing, information gathering, or computation is rational before the choice is fixed.
-
-The governed question begins only after an option set already exists. It does not govern open-ended generation of options, and it does not govern the execution order of a plan after a choice has already been made.
+The OptionSet choice question begins only after an option set already exists. It does not govern open-ended generation of options, and it does not govern the execution order of a plan after a choice has already been made.
 
 #### C.11:4.2 - Decision discipline over a live option set
 
@@ -237,7 +235,7 @@ The comparison should close as `probe again` only when all of the following are 
 - that probe is expected to repair one named comparison defect;
 - that repaired defect could still change which option survives, whether the current set should be rejected, or whether the question should reroute.
 
-The comparison should close as `reroute` when the record has already learned that the governed move changed:
+The comparison should close as `reroute` when the record has already learned that the OptionSet choice move changed:
 
 - to `C.18` when the option set itself is still under invention or reframing;
 - to `C.19` when the question is now how broadly to keep exploring or exploiting one candidate pool;
@@ -306,7 +304,7 @@ Typical practical cash-outs are:
 
 - `choose now` because the current shared `BeliefState` and `OutcomeModel` already make one option or tie-set survive, and no still-feasible probe is worth its cost;
 - `probe again` because one further observation, measurement, or comparison pass could still change the ranking without requiring a heavier causal, subjunctive, or context-order repair;
-- `reroute` because the governed move is no longer really comparing one fixed `OptionSet`, but has become search, pool policy, publication, or enactment work.
+- `reroute` because the OptionSet choice move is no longer really comparing one fixed `OptionSet`, but has become search, pool policy, publication, or enactment work.
 
 The baseline is still unfinished when the current comparison invokes it but cannot keep one shared `BeliefState` and `OutcomeModel` across the compared options, or when one heavier defect is already live and the current comparison still pretends one plain evidential comparison is enough.
 
@@ -334,7 +332,7 @@ Typical practical cash-outs are:
 
 - `choose now` because, under the declared counterfactual or subjunctive structure, one option survives once the predictor-coupled comparison is made explicit;
 - `probe again` because one further model clarification, predictor assumption check, or decision-procedure comparison could still reverse the current survivor relation;
-- `reroute` because the governed move is no longer settling local choice doctrine but has become one wider characterization, negotiation, or enactment question that only borrowed predictor-coupling language.
+- `reroute` because the OptionSet choice move is no longer settling local choice doctrine but has become one wider characterization, negotiation, or enactment question that only borrowed predictor-coupling language.
 
 If that coupled structure is not live, do not activate this branch. If a predictor-coupled or success-first repair is named but the linked structure that changes the comparison is still unspecified, the branch is not yet load-bearing in the current decision.
 
@@ -368,7 +366,7 @@ Typical practical cash-outs are:
 
 - `choose now` under one declared order or framing because rival orders no longer change which option survives;
 - `probe again` because one framing-sensitive comparison pass, one further question order, one response-replicability check, or one explicit measurement-class clarification could still reverse the survivor relation;
-- `reroute` when the governed move is no longer deciding among live options but has become one publication or enactment problem that only borrowed order-effect language rhetorically.
+- `reroute` when the OptionSet choice move is no longer deciding among live options but has become one publication or enactment problem that only borrowed order-effect language rhetorically.
 
 Do not promote this line to the unmarked default unless those exact repaired limitations are live in the case.
 

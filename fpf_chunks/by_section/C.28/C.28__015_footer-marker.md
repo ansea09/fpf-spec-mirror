@@ -6,12 +6,12 @@ section_id: "C.28:13"
 section_title: "Footer Marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__015_footer-marker.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:13 — Footer Marker"
-line_start: 50086
-line_end: 50087
+line_start: 49924
+line_end: 49925
 dependencies:
   - "A.10"
   - "A.15"

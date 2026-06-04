@@ -6,12 +6,12 @@ section_id: "E.2.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:2 — Problem"
-line_start: 53916
-line_end: 53932
+line_start: 55024
+line_end: 55040
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -39,7 +39,7 @@ The recurring failures are:
 3. **Local win, Pillar loss.** One pattern edit improves local precision while harming didactic force, layer boundaries, register discipline, or open-ended evolution elsewhere.
 4. **Hidden scalarization.** Several Pillars are collapsed into one "FPF quality" score.
 5. **Sterile precision.** Lexical repair removes overread but also removes the first useful reason to act.
-6. **Decorative currentness.** Source and `SoTA` posture varies by section; current practice is cited without changing the move, boundary, example, or stop rule.
+6. **Decorative currentness.** Source-use role and `SoTA` currentness varies by section; current practice is cited without changing the move, boundary, example, or stop rule.
 7. **Second ontology growth.** An entry projection, publication companion, review packet, source packet, or local table starts carrying semantics that belong in a governing pattern.
 8. **No FPF-level stop.** Improvement continues endlessly because no object-under-improvement evaluation says when the selected FPF object under improvement is adequate for the declared use.
 

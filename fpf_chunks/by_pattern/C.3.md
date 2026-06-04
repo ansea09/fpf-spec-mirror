@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
-line_start: 36675
-line_end: 37585
+line_start: 36757
+line_end: 37615
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -31,7 +31,7 @@ keywords:
 
 **Status.** Normative in **Part C**. Identifier **C.3**. This pattern lays the **architectural invariant** and manager‑level guidance. The **mechanics** are defined by its child patterns.
 
-**Readers.** Engineering managers, architects, and assurance leads who must reason about *typed claims* across Contexts without mixing up **describedEntity** (Kinds), **applicability** (**G**), and **assurance** (**R**).
+**Readers.** Engineering managers, architects, and assurance leads who must reason about *typed claims* across Contexts without mixing up **entityOfConcern** (Kinds), **applicability** (**G**), and **assurance** (**R**).
 
 **Depends on.**
 — **A.2.6 USM** (Context slices & Scopes): **`U.ClaimScope` = G**, **`U.WorkScope`**, ∈/∩/**SpanUnion**/translate, **Γ\_time** policy, Bridges + **CL** (scope).
@@ -53,7 +53,6 @@ keywords:
 
 **Editorial note (cut‑over).** Content formerly in C.3 that defined guard shapes, decision trees, and macro anti‑patterns now resides in **C.3.A**. Membership **evaluation obligations** live in **C.3.2** with `MemberOf`.
 
-
 ### C.3:1 - Purpose & Rationale
 
 **What you get.**
@@ -70,30 +69,26 @@ keywords:
 **Why it helps.**
 Teams routinely overspend on proofs for **instance‑level** questions and underspecify scope for **class‑level** claims. By naming the **Kind**, you plan **ΔF/ΔR** correctly and keep **G honest**. Typed checks also block unsafe compositions (“we were talking about different things”).
 
-
 ### C.3:2 - Context
 
-Cross‑disciplinary work mixes artifacts that *look like “types”* but behave differently: ontology classes, schema “shapes,” programming types, BORO super/sub categories, ad‑hoc labels. At the same time, **USM** made “scope” precise. What was missing was a *small, neutral* notion of **describedEntity** that (a) **does not** re‑invent a global “type system,” (b) composes with USM and F–G–R, and (c) lets Contexts keep their idioms—**with bridges** when crossing boundaries.
-
+Cross‑disciplinary work mixes artifacts that *look like “types”* but behave differently: ontology classes, schema “shapes,” programming types, BORO super/sub categories, ad‑hoc labels. At the same time, **USM** made “scope” precise. What was missing was a *small, neutral* notion of **entityOfConcern** that (a) **does not** re‑invent a global “type system,” (b) composes with USM and F–G–R, and (c) lets Contexts keep their idioms—**with bridges** when crossing boundaries.
 
 ### C.3:3 - Problem
 
 1. **Scope–type conflation.** Authors try to widen **G** by “abstracting the wording,” yielding claims that *sound* general but are only supported on a thin slice.
 2. **Silent drift across Contexts.** A “vehicle” here is not the same as a “transport unit” there; reuse proceeds without a declared mapping or risk accounting.
 3. **Wasteful planning.** Without a signal about the *kind‑level*, teams either over‑formalize single‑slice decisions or under‑test class‑level claims (no variant coverage along subkinds).
-4. **Unsafe composition.** Claims about incompatible “things” get composed because the describedEntity was implicit in prose.
-
+4. **Unsafe composition.** Claims about incompatible “things” get composed because the entityOfConcern was implicit in prose.
 
 ### C.3:4 - Forces
 
 | Force                             | Tension to resolve                                                                                 |
 | --------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Local freedom vs global sense** | Contexts need their own vocabularies; Cross‑context work needs a common skeleton for **describedEntity**.      |
+| **Local freedom vs global sense** | Contexts need their own vocabularies; Cross‑context work needs a common skeleton for **entityOfConcern**.      |
 | **Minimality vs utility**         | The notion of kind must be tiny yet powerful enough to guide ΔF/ΔR/bridges/composition.            |
 | **Intent vs extent**              | Kinds come with a **definition** and a **population in place**; both are needed and must not mix.  |
 | **Typed discipline vs F–G–R**     | Typed safety must not distort **G** (Scope) nor introduce a parallel “assurance math.”             |
 | **Abstraction vs applicability**  | “Higher abstraction” is **not** “wider applicability”; the framework must make this split obvious. |
-
 
 ### C.3:5 - Solution — Architectural Decisions (overview)
 
@@ -124,18 +119,15 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 > – **characteristic 2 (Kind extent):** *Which instances* in a **given slice** belong to the kind → `MemberOf(e, k, slice)`.
 > **Never “widen G” by abstract wording; widen only by ΔG with support.**
 
-
 ### C.3:6 - Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)
-
 
 > This section fixes the **Standard** of terms used in C.3 and points to the sub‑patterns for complete mechanics. All “**SHALL/MUST**” statements here are normative.
 
 **Editorial note.** This section is **informative**. It restates manager-level takeaways and **points to** the canonical, normative rules in **C.3.1-C.3.5**. Where this section summarizes a rule, treat the cited sub-pattern and rule ID as the governing source.
 
-
 #### C.3:6.1 - `U.Kind` & `U.SubkindOf (⊑)`
 
-**Definition.** `U.Kind` is a **context‑local intensional object** naming a “kind of thing” that claims may quantify over.
+**Definition.** `U.Kind` is a **context-local kind record** naming a “kind of thing” that claims may quantify over.
 **Order.** `U.SubkindOf (⊑)` is a **partial order** (reflexive, transitive, antisymmetric). We write `k₁ ⊑ k₂`.
 
 **Summary of norms** *(authoritative text: **C.3.1 K‑01–K‑02**)*.
@@ -143,7 +135,6 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 — Kinds do not carry Scope; Scope remains on claims/capabilities (USM).
 
 > *Full treatment:* **C.3.1** (definitions, invariants, examples).
-
 
 #### C.3:6.2 - **KindSignature** (intent) & **F**
 
@@ -154,7 +145,6 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 — If a signature change alters membership, treat it as a content change (Contexts may version kinds).
 
 > *Full treatment:* **C.3.2** (signature/intent with F; relation to claims).
-
 
 #### C.3:6.3 - **Extension** & **MemberOf** (extent in a slice)
 
@@ -168,7 +158,6 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 > *Full treatment:* **C.3.2** (extent semantics, examples, authoring hints).
 
-
 #### C.3:6.4 - **KindBridge** & **`CL^k`** (type‑congruence)
 
 **Summary of norms** *(authoritative text: **C.3.3 KB‑01–KB‑12**)*.
@@ -179,7 +168,6 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 > *Full treatment:* **C.3.3** (bridge shape, anchors, examples).
 
-
 #### C.3:6.5 - **RoleMask** (adaptation without cloning)
 
 **Definition.** `U.RoleMask(kind, Context)` is a **named binding** that carries constraints (optional **narrowing** of membership), vocabulary/notation aliases, and intended use for local procedures—**without** creating a new Kind.
@@ -188,9 +176,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 — Masks are registered/versioned; constraints are observable/deterministic at guard time.
 — Do not treat masks as kind synonyms; promote frequently reused constraint masks to explicit subkinds (`⊑`).
 
-
 > *Full treatment:* **C.3.4** (mask taxonomy, guard discipline, promotion rule).
-
 
 #### C.3:6.6 - **KindAT (K0…K3)** — *informative facet*
 
@@ -203,12 +189,11 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 > *Full treatment:* **C.3.5** (manager heuristics, anti‑misuse).
 
-
 #### C.3:6.7 - Quick examples (two‑characteristic awareness)
 
 **E‑Sketch 1 — Policy over `Vehicle`.**
 Claim: “For all `x ∈ Vehicle`: brakeDistance(x) ≤ 50 m (dry), ≤ 40 m (wet).”
-– **describedEntity:** `Vehicle` (Kind, typically K2) — *what* we quantify over.
+– **entityOfConcern:** `Vehicle` (Kind, typically K2) — *what* we quantify over.
 – **Scope (G):** `{surface∈{dry,wet}, speed≤50, rig=v3, Γ_time=rolling 180d}` — *where* the claim holds.
 – **Extent in slice:** which instances the lab currently classifies as `Vehicle` (via `MemberOf`).
 Typed checks happen **before** Scope intersection; **G** is not widened by “abstract wording.”
@@ -226,7 +211,7 @@ Producer A emits `Request`; consumer B expects `AuthenticatedRequest`.
 
 A typed claim has two independent parts:
 
-1. **describedEntity (Kind).** *Which things the statement talks about.*
+1. **entityOfConcern (Kind).** *Which things the statement talks about.*
    “For every item of kind **k** in the **target context** (the selected **TargetSlice**) …”.
    — The **definition** of kind **k** lives in **KindSignature(k)** (with its **F**, C.3.2).
    — **Which items count as “k”** is evaluated in the **TargetSlice** (C.3.2) by a deterministic membership check.
@@ -235,7 +220,6 @@ A typed claim has two independent parts:
    `U.ClaimScope(Claim)` is the **collection of contexts** where the claim is valid (USM A.2.6). Guards test: “Scope **covers** the TargetSlice”.
 
 **Discipline.** The guard first checks **typed compatibility** (in the same Context: “is‑a / subkind‑of”; across Contexts: a **KindBridge**, C.3.3), then **Scope coverage** (USM), then **R** freshness and any bridge congruence penalties. See **C.3.A Guard\_TypedClaim**.
-
 
 #### C.3:7.1.2 - Composition of typed claims
 
@@ -251,10 +235,9 @@ A typed claim has two independent parts:
 * **Serial path:** take the **intersection** of the contributors’ claim scopes.
 * **Parallel independent lines:** use **SpanUnion** of the serial scopes (only if independence is justified).
 
-**Rule C‑T‑3 (no type‑by‑scope).** A kind mismatch **MUST NOT** be “fixed” by widening **G**. Changes in describedEntity require **subkind introduction**, **signature edits**, or a **KindBridge**—not a scope change.
+**Rule C‑T‑3 (no type‑by‑scope).** A kind mismatch **MUST NOT** be “fixed” by widening **G**. Changes in entityOfConcern require **subkind introduction**, **signature edits**, or a **KindBridge**—not a scope change.
 
 **Manager hint.** First confirm the **port shape** matches (kinds line up), then check the **operating area** (scope), and finally look at **confidence** (evidence freshness plus any bridge congruence penalties).
-
 
 #### C.3:7.1.3 - F–G–R with typed claims (what changes, what doesn’t)
 
@@ -276,7 +259,6 @@ A typed claim has two independent parts:
 Start with the reliability from your support; then **apply the scope‑bridge penalty**; then **apply the kind‑bridge penalty**. Each step can only reduce reliability.
 You never add or average **F/G**: you **compose scope** per USM rules and apply **weakest‑link** for F/R along support paths.
 
-
 #### C.3:7.1.4 - ESG gating with typed claims
 
 * **Gate on F**, if your Context requires rigor before use (e.g., `U.Formality(Claim) ≥ F4`).
@@ -289,7 +271,6 @@ You never add or average **F/G**: you **compose scope** per USM rules and apply 
 
 > **Intent.** Show a clear, end‑to‑end path a manager can follow to take a typed claim from words to safe reuse across Contexts—without any tool or data‑governance assumptions. Each stage says **what it supplies**, **what it needs**, and **what it hands off** to the next stage.
 
-
 ##### C.3:7.2.1 - **Lang‑CHR** — stable words first
 
 **What it supplies.** A disciplined vocabulary and controlled phrasing so that terms like *Vehicle*, *AuthenticatedRequest*, *AdultPatient* have **one meaning** in the Context.
@@ -300,8 +281,7 @@ You never add or average **F/G**: you **compose scope** per USM rules and apply 
 
 > *Manager hint.* If two teams cannot agree on the noun, you are not ready to type the claim. Resolve the noun in Lang‑CHR before introducing a Kind.
 
-
-##### C.3:7.2.2 - **Kind‑CAL** (this Part) — name the *describedEntity*
+##### C.3:7.2.2 - **Kind‑CAL** (this Part) — name the *entityOfConcern*
 
 **What it supplies.**
 • **`U.Kind`** objects for those nouns; a partial order **`⊑`** (subkind‑of).
@@ -318,7 +298,6 @@ You never add or average **F/G**: you **compose scope** per USM rules and apply 
 **Hand‑off.** Typed quantifier sites for claims: “∀ x ∈ **Extension(k, slice)** …”, plus a visible **`⊑`** lattice for compatibility checks down the line. Typed claim sites written in Plain language: “for every item of kind **k** in the **target context** …”, plus a visible **subkind‑of** lattice for compatibility checks down the line.
 
 > *Manager hint.* Decide early whether your Kind is K0 (instance‑ish) or K2 (formal class). It sets your **ΔF/ΔR** budget expectations.
-
 
 ##### C.3:7.2.3 - **Structure‑CAL** — give Kinds usable shape
 
@@ -339,7 +318,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 
 **Note (informative).** If a Context declares structural constructors on kinds (e.g., product/sum/record/function), editors SHOULD document the corresponding **Extension** inclusion laws for those constructors. Keep Scope in USM; do not hide it in structure.
 
-
 ##### C.3:7.2.4 - **Compose‑CAL** — compose with typed pre‑checks
 
 **What it supplies.** The **order of checks** you must follow for safe composition:
@@ -353,7 +331,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 **Hand‑off.** A typed, scope‑checked composition that survives audit because each risk is accounted for in **R**.
 
 > *Manager hint.* Run the **typed pre‑check** first. It is the cheapest failure to catch and prevents “scope gymnastics” that mask a type mismatch.
-
 
 ##### C.3:7.2.5 - **CT2R‑LOG** — speak the logic, keep the math honest
 
@@ -370,7 +347,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 
 > *Manager hint.* If your proof keeps failing when you move between Contexts, add a **bridge at the Kind level**; do not try to “fix” it by changing scope.
 
-
 ##### C.3:7.2.6 - **Role‑CAL** — adapt without cloning
 
 **What it supplies.** **RoleMask(kind, Context)**: a named, registered adaptation (extra constraints or local aliases, with optional narrowing) that reuses the **same** kind instead of creating a new one.
@@ -382,7 +358,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 **Hand‑off.** Context‑specific views that keep identity intact and make typed guards practical (“use `PaymentAccount@PCI` mask in these steps”).
 
 > *Manager hint.* If the same mask appears in several guards, **promote** it to a subkind. This reduces future bridge and audit effort.
-
 
 ##### C.3:7.2.7 - Mini end‑to‑end example (manager‑oriented)
 
@@ -412,7 +387,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 • **Typed guard** approves only when: (i) the type pre‑check passes (same‑Context subkind‑of or a KindBridge with an acceptable congruence level), (ii) **Scope** covers the target context (API v2.3, explicit time selector), and (iii) **R** reflects the **scope‑bridge** and **kind‑bridge** penalties and evidence is fresh.
 • No one widened Scope to hide a type mismatch; the adapter + bridge made the semantics explicit and auditable.
 
-
 > **Takeaway.** If you keep these six hand‑offs in view—words → kinds → structure → composition → logic → roles—you get **predictable reviews**, **clean risk accounting**, and **reusable claims** that travel across Contexts without silent meaning drift.
 
 #### C.3:7.3 - Compliance & Regulatory Alignment — profile
@@ -420,7 +394,6 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 Treat regulatory categories as **Kinds**, carry their **intent** in `KindSignature` with declared **F**, move them across Contexts with a **KindBridge** (type‑congruence **`CL^k`** + loss notes), and express applicability as **Claim scope** over `U.ContextSlice` (with explicit **Γ_time**). Any Cross‑context uncertainty is routed to **R** via **Ψ(`CL^k`)** (kind) and **Φ(CL)** (scope); **F** and **G** remain unchanged.
 
 > **Authoritative obligations and guard macros** (C‑REG‑1…8, Guard_RegAdopt / Guard_RegChange / Guard_RegXContextUse) and worked scenarios live in **C.3.A, Annex A (Regulatory adoption profile)**.
-
 
 #### C.3:7.4 - How typed reasoning plugs into **Assurance Lanes (VA/LA/TA) & Evidence design**
 
@@ -439,7 +412,6 @@ Treat regulatory categories as **Kinds**, carry their **intent** in `KindSignatu
 #### C.3:7.5 - How typed reasoning plugs into **ESG and Method–Work gating**
 
 > Intent. Make state changes and work admissions deterministic, auditable, and safe by separating (1) **typed compatibility** (what the statement or capability is about) from (2) **scope coverage** (where it holds or can run). Any Cross‑context uncertainty is routed to **R** (reliability) only—never to **F** (form) or **G** (scope).
-
 
 ##### C.3:7.5.1 - Scope & fit
 
@@ -475,7 +447,6 @@ It reuses:
   * Evidence **freshness windows** (R‑lane).
 * **Evidence bundle** (if the transition implies trust): references, dates, windows.
 
-
 ##### C.3:7.5.3 - Manager’s 7‑step checklist (operational)
 
 1. **Name the slice.** Write the full `TargetSlice`/`JobSlice` tuple including **`Γ_time`**.
@@ -487,7 +458,6 @@ It reuses:
 7. **(If gated) Check F.** Enforce `Formality ≥ F_k` for the transition.
 
 > **Remember:** **F** and **G** never change because of bridges; only **R** is penalized. AT (K0…K3) is informative and **not** used in guards.
-
 
 ##### C.3:7.5.4 - Cross‑references
 
@@ -509,7 +479,6 @@ When any part of the use crosses Contexts:
 
 Both bridges carry **loss notes**; neither changes **F** or **G**. See **C.3.A Guard\_XContext\_Typed**.
 
-
 #### C.3:8.2 - Narrowing after mapping (best practice)
 
 If a bridge’s loss notes indicate material mismatch (dropped invariants, collapsed subkinds):
@@ -517,7 +486,6 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 * **Narrow the mapped Scope** to areas where those losses are benign.
 * **Or** introduce an **adapter** (plus evidence) that restores the needed properties in the target Context.
 * Document the decision; the penalties still land in **R**.
-
 
 #### C.3:8.3 - Typical Cross‑context patterns (manager’s catalog)
 
@@ -530,7 +498,6 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 * **Mask‑to‑subkind evolution.**
   If receivers repeatedly use the same **RoleMask** to make a transfer safe, promote it to an explicit **subkind** and update the bridge to preserve that link.
 
-
 #### C.3:8.4 - Decision pattern (fast path)
 
 1. **Typed pre‑check:** `k_A ⊑ k_B` (same Context) **or** `KindBridge(k_A → k′_B)` with acceptable **`CL^k`**.
@@ -539,20 +506,18 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 4. **Freshness:** windows/decay for all bound evidence.
 5. **Publish:** a short “Bridge and Loss Notes” box; include any **narrowing** or **adapters** used.
 
-
 ### C.3:9 - Authoring guidance (engineers‑managers)
 
 #### C.3:9.1 - When to mint a `U.Kind`
 
 Create a Kind when:
 
-* multiple claims refer to the **same “describedEntity”** using unstable labels;
+* multiple claims refer to the **same “entityOfConcern”** using unstable labels;
 * you need **subkinds** (refinement) or repeated **RoleMasks**;
-* different Contexts must **map** this “describedEntity” via bridges;
+* different Contexts must **map** this “entityOfConcern” via bridges;
 * you need to **quantify** over a population (and plan variant coverage) instead of over a single exemplar.
 
 Avoid creating a Kind for **one‑off** instance references—prefer a clear **K0** facet or just a literal exemplar in the claim.
-
 
 #### C.3:9.2 - Writing a **KindSignature** (and picking **F**)
 
@@ -566,7 +531,6 @@ Avoid creating a Kind for **one‑off** instance references—prefer a clear **K
 > Subkind: `PassengerCar ⊑ Vehicle`.
 > RoleMask: `Vehicle@ABSRequired` for processes that demand ABS (deterministic constraints; candidates for promotion to subkind if widely reused).
 
-
 #### C.3:9.3 - Setting the **AT** facet (K0…K3)
 
 Use **AT** to **aim effort**, not to gate:
@@ -577,7 +541,6 @@ Use **AT** to **aim effort**, not to gate:
 * **K3**: up‑to‑iso — expect high‑quality bridges; consider F7–F9 for critical invariants.
 
 Never treat **AT** as “wider/narrower” **G**.
-
 
 #### C.3:9.4 - Writing a typed claim (with USM blocks)
 
@@ -590,7 +553,6 @@ Never treat **AT** as “wider/narrower” **G**.
 
 **Tip.** Keep **Scope**, **MemberOf definedness**, **F thresholds**, and **freshness** as **separate** guard predicates—the auditor should be able to tick each box independently.
 
-
 #### C.3:9.5 - Minimal “Kind card” contents (Context catalog)
 
 * **Name** and **intent summary** (KindSignature snippet + **F**).
@@ -600,12 +562,11 @@ Never treat **AT** as “wider/narrower” **G**.
 * **Known KindBridges** (source Contexts, target Contexts, **`CL^k`**, loss notes, definedness).
 * *(Optional)* **AT** facet with one‑line rationale.
 
-
 ### 10 - Review & integration guidance
 
 #### C.3:10.1 - Reviewer’s 8‑point checklist
 
-1. **Named describedEntity.** Does the claim state **what** it quantifies over (`U.Kind`)?
+1. **Named entityOfConcern.** Does the claim state **what** it quantifies over (`U.Kind`)?
 2. **Scope explicit.** Is **G** declared (no “domain” placeholders, no implicit “latest”)?
 3. **Typed compatibility.** For compositions, do we have `⊑` (same Context) or a **KindBridge**?
 4. **RoleMasks.** If used, are they **registered**, **deterministic**, and not masquerading as kinds?
@@ -613,7 +574,6 @@ Never treat **AT** as “wider/narrower” **G**.
 6. **Penalties.** Are **Φ(CL)** and **Ψ(`CL^k`)** applied to **R**, not smuggled into F/G?
 7. **Freshness.** Are validation/monitoring windows separate from Scope coverage?
 8. **Evidence fit.** For class‑level claims, does the test plan cover **subkinds/variants**?
-
 
 #### C.3:10.2 - Integrator’s composition playbook (typed first, then scope)
 
@@ -623,7 +583,6 @@ Never treat **AT** as “wider/narrower” **G**.
 * **Step 4:** Apply **Φ**/**Ψ** penalties to **R**; enforce freshness.
 * **Step 5:** If a **mask** is repeatedly required, consider promoting it to a **subkind**.
 
-
 #### C.3:10.3 - Assurance lead: wiring penalties and windows
 
 * Identify channels used: **Scope bridge? KindBridge?**
@@ -631,14 +590,12 @@ Never treat **AT** as “wider/narrower” **G**.
 * Verify **freshness windows** for all bound evidence (independent of bridges).
 * Publish a **one‑box summary**: bridges, levels, loss notes, any narrowing/adapters, net impact on **R**.
 
-
 #### C.3:10.4 - Red flags (stop‑the‑line)
 
 * “**We widened G because we reworded the type.**” → **Reject**; redo as subkind/bridge or revise Scope honestly.
 * “**Mask equals kind.**” → **Refactor**; register mask properly or promote to subkind.
 * “**Cross‑context without KindBridge.**” → **Block**; demand mapping and **`CL^k`**.
 * “**No Γ\_time.**” → **Block**; add explicit time policy (point/window/rolling).
-
 
 ### C.3:11 - Worked examples (end‑to‑end)
 
@@ -661,7 +618,6 @@ Typed pre‑check: **OK** via KindBridge. Scope coverage after translate/narrow:
 Penalties: apply **Φ(2)** and **Ψ(2)** to **R**; freshness windows checked.
 **Outcome:** Adopt with reduced **R**; action item: qualify rig v4 to raise CL in the future.
 
-
 #### C.3:11.2 - API decision rule with adapter and subkind promotion
 
 **Consumer claim.**
@@ -683,7 +639,6 @@ No Cross‑context reuse; no Φ/Ψ. Evidence: adapter correctness on the TargetS
 **Outcome.**
 Adopt via Option B; open task: generalize producer to subkind and remove adapter later.
 
-
 #### C.3:11.3 - Clinical dosage rule across jurisdictions (bridge + mask)
 
 **Claim (Hospital X).**
@@ -700,7 +655,6 @@ Adopt via Option B; open task: generalize producer to subkind and remove adapter
 Typed pre‑check via KindBridge: **OK**. Scope coverage after translate/narrow: **OK**.
 Penalties: **Φ(CL\_scope)** and **Ψ(1)** applied to **R**.
 **Outcome:** Adopt with strong **R** penalty; plan: negotiate a harmonized boundary to raise `CL^k`.
-
 
 #### C.3:11.4 - ML fairness constraint with typed quantification
 
@@ -726,7 +680,7 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 
 | Anti‑pattern (what goes wrong)                                   | Why it’s wrong (conceptual fault)                                                               | The fix (normative/informative pointers)                                                                                                              |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **“We widened G because we reworded the type.”**                 | Confuses **describedEntity** (kind) with **applicability** (scope). Abstract wording ≠ broader scope. | Keep typed pre‑check separate (C.3.1 `⊑` or C.3.3 KindBridge). Widen **G** only via **ΔG+** with support (USM A.2.6).                                 |
+| **“We widened G because we reworded the type.”**                 | Confuses **entityOfConcern** (kind) with **applicability** (scope). Abstract wording ≠ broader scope. | Keep typed pre‑check separate (C.3.1 `⊑` or C.3.3 KindBridge). Widen **G** only via **ΔG+** with support (USM A.2.6).                                 |
 | **“Kind scope” block attached to a Kind.**                       | Kinds don’t carry Scope; they carry **intent/extent**.                                          | Remove the block. Scope stays on claims/capabilities (USM). If you meant classifier definedness, state it via **K‑07** (C.3.2).                       |
 | **Inferring scope from extension size.**                         | **Scope ≠ Extension**; extension is “which instances in a slice,” not “where the claim holds.”  | Keep **G** set‑valued over `U.ContextSlice` (USM). Use `MemberOf` only inside the typed quantifier.                                                   |
 | **Mask used as a hidden kind (“just call it the masked kind”).** | Opaque drift; reviewers can’t see constraints.                                                  | Register a **RoleMask** (C.3.4). If reused across guards, **promote to subkind** with `⊑`.                                                            |
@@ -734,9 +688,8 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 | **Using AT (K0…K3) as a gate/threshold.**                        | AT is an **informative facet**, not a Characteristic; gating on AT recreates a G‑ladder.        | Remove AT from guards. Use it only to **aim ΔF/ΔR** and to set **bridge expectations** (C.3.5).                                                       |
 | **“Automated execution success proves the type claim.”**                            | Execution success (F5/6) is not proof (F7+); also confuses **R** with **F**.                    | If you need proof‑grade properties, raise **F** for the claim/KindSignature (C.2.3) or restrict the claim. Keep **R** as evidence freshness/coverage. |
 | **Hidden “latest” in membership or scope checks.**               | Non‑deterministic evaluation; unverifiable audit trail.                                         | Declare **Γ\_time** explicitly in Scope (USM). Membership must be **deterministic** (C.3.2 K‑05/K‑07).                                                |
-| **Fixing type mismatch by “unioning scopes.”**                   | G‑union cannot repair **describedEntity** mismatches.                                                 | Introduce a **subkind**, add an **adapter** (+evidence), or define a **KindBridge**.                                                                  |
+| **Fixing type mismatch by “unioning scopes.”**                   | G‑union cannot repair **entityOfConcern** mismatches.                                                 | Introduce a **subkind**, add an **adapter** (+evidence), or define a **KindBridge**.                                                                  |
 | **Collapsing subkinds silently in a bridge.**                    | Reviewers don’t see lost distinctions → false confidence.                                       | Record **loss notes** on the KindBridge (C.3.3 KB‑11); consider **narrowing** mapped Scope or adding an adapter.                                      |
-
 
 ### C.3:13 - Governance & conformance pull‑ups
 
@@ -782,7 +735,6 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 * **USM‑Typed‑Auditable.** Decision records capture **TargetSlice**, typed checks, bridges, penalties, freshness.
 * **USM‑Typed‑Composed.** Compositions use typed pre‑check before Scope algebra; independence justified for **SpanUnion**.
 
-
 ### C.3:14 - Migration & editorial impact
 
 > *Apply these edits incrementally; you do not need to stop other work. The aim is to eliminate synonym drift, restore F/G/R separation, and make typed reasoning routine.*
@@ -790,7 +742,7 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 #### C.3:14.1 - Inventory & refactor (steps)
 
 1. **Inventory** claims that implicitly talk about “things” (vehicles, requests, accounts, cohorts…).
-2. **Name kinds** for recurring “describedEntity”; start at **K1**; promote to **K2** as invariants stabilize.
+2. **Name kinds** for recurring “entityOfConcern”; start at **K1**; promote to **K2** as invariants stabilize.
 3. **Extract KindSignature** (aim **F4**); declare **F**.
 4. **Refactor claims** to typed quantification: `∀ x ∈ Extension(k, slice) …` plus **Scope (G)** predicates.
 5. **Publish bridges** where reuse is Cross‑context: Scope Bridge (**CL**) and KindBridge (**`CL^k`**) with loss notes; wire penalties **Φ/Ψ** to **R**.
@@ -815,7 +767,6 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
  – Introduce **KindBridge** with **`CL^k`**, monotone order preservation, loss notes; determinism.
  – Chaining uses **min** of levels (weakest‑link) **for both** **CL** (Scope bridges) **and** **`CL^k`** (KindBridges).
 
-
 * **Role‑CAL.**
   – Add **RoleMask** for kinds; determinism; promotion rule to subkind when reused.
 
@@ -830,7 +781,6 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 
 * Archived prose and cited older records may keep deprecated aliases as labels. **Guards, conformance text, and state assertions** MUST use the Kind‑CAL/USM vocabulary and guard shapes.
 * When annotating older records, add a small “typed note” box: **Kinds**, **Scope**, **Bridges (CL/`CL^k`)**, **loss notes**, **penalties to R**.
-
 
 ### C.3:15 - Extended rationale & design notes  \[I]
 
@@ -863,10 +813,10 @@ A **KindBridge** behaves like a **functor** that (approximately) preserves struc
 ### C.3:15bis - Rationale (Part E form)
 
 **Problem.** (recap)
-— Authors conflate *describedEntity* with *applicability*, widening G by abstract wording.
+— Authors conflate *entityOfConcern* with *applicability*, widening G by abstract wording.
 — Cross‑context reuse drifts semantically without declared mappings or risk accounting.
 — Planning misfires: over‑formalization for instance claims; under‑testing for class claims.
-— Unsafe compositions when describedEntity is implicit.
+— Unsafe compositions when entityOfConcern is implicit.
 
 **Forces.** (recap)
 — Local freedom vs global sense; minimality vs utility; intent vs extent; typed discipline vs F–G–R; abstraction vs applicability.
@@ -915,7 +865,6 @@ Week 2: Draft **KindSignature** for the top 5 Kinds (aim **F4**); register masks
 Week 3: Wire **two‑bridge rule** into ESG; add CL/`CL^k` lines to decision templates.
 Week 4: Promote repeated masks to subkinds; publish first **KindBridge** records with loss notes.
 
-
 ### C.3:17 - Local glossary (reading aid)
 
 > *Canonical definitions live in sub‑patterns; this list is for quick recall while reading C.3.*
@@ -934,5 +883,4 @@ Week 4: Promote repeated masks to subkinds; publish first **KindBridge** records
 > *End of C.3. See **C.3.1–C.3.5** and **C.3.A** for the referenced mechanics and guard macros.*
 
 ### C.3:End
-
 

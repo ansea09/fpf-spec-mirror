@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
-line_start: 58475
-line_end: 58666
+line_start: 59615
+line_end: 59793
 dependencies:
   - "A.4"
   - "A.7"
@@ -41,7 +41,6 @@ keywords:
 **Coordinates with.** E.10.U1 *Domain‑Family Landscape Survey*; E.10.U2 *Term Harvesting & Normalisation*; E.10.U7 *Concept‑Set Table*; E.10.U9 *Alignment/Bridge*; `RoleAssigning` patterns (e.g., E.10.U4).
 **Aliases (informative).** Context Discipline; No‑Anchor Rule.
 
-
 ### E.10.D1:1 - Intent & Applicability
 
 **Intent.** Eliminate ambiguity around “context” by (a) fixing **one** formal meaning—`U.BoundedContext`; (b) removing “anchor” from the vocabulary; (c) reserving **Problem Frame** for prose about situations; and (d) clarifying **Domain** as an **informative family** (workflow, provenance, services, …) that groups several `U.BoundedContext`s.
@@ -50,14 +49,12 @@ keywords:
 
 **Non‑goals.** No governance, workflow, or tool mandates; no storage formats; no team roles.
 
-
 ### E.10.D1:2 - Problem Frame
 
 1. **Polysemy.** “Context” is used for formal scopes, narrative situations, and even runtime modes.
 2. **Extra token (“anchor”).** “Anchor” pretends to be “where meaning is attached”, duplicating context semantics.
 3. **Domain overreach.** “Domain context” conflates **families** (disciplinary areas) with **formal contexts**.
 4. **Plane mixing.** Runtime/design stances and deontic/behavioural notions are smuggled into “context”.
-
 
 ### E.10.D1:3 - Forces
 
@@ -67,7 +64,6 @@ keywords:
 | Brevity vs precision      | Short labels vs unambiguous reference.                             |
 | Stability vs evolution    | Fixed terms vs edition turnover and language variants (C‑7).       |
 | Parsimony vs expressivity | Few primitives vs enough hooks for Role Assignment & Enactment, Concept Sets, and Bridges. |
-
 
 ### E.10.D1:4 - Solution — **Name one thing “Context” can mean**
 
@@ -94,7 +90,6 @@ keywords:
 * **`SenseCell(ContextId, Local‑SenseId)`**, or
 * **ConceptSet(RowId).Column(ContextId)** (E.10.U7).
 
-
 ### E.10.D1:5 - Structure — Minimal reference shapes (informative)
 
 > Shapes shown **do not** prescribe formats; they are naming conventions.
@@ -102,7 +97,6 @@ keywords:
 * **Context Id.** Stable short handle (e.g., `BPMN_2_0`, `PROV_O_2013`, `ITIL4_2020`, `NIST_RBAC_2004`, `SOSA_SSN_2017`).
 * **SenseCell.** `(ContextId, Local‑Sense)` where `Local‑Sense` is the Context‑local preferred label (from E.10.U2).
 * **ConceptSet Row.** A table row keyed by a row id; columns are `SenseCell`s per Context (E.10.U7).
-
 
 ### E.10.D1:6 - Core Invariants (normative)
 
@@ -115,7 +109,6 @@ keywords:
 7. **LCTX‑INV‑7 (Time tags).** DesignRunTag is a **tag** on carriers, source publications, or source epistemes as applicable; it does not multiply contexts.
 8. **LCTX‑INV‑8 (Language/edition).** Multilingual or multi‑edition handling follows D‑CTX‑7.
 
-
 ### E.10.D1:7 - Conformance Checklist (normative)
 
 * **CC‑LCTX‑1.** Grep‑style check: every “Context” in formal sections expands to **`U.BoundedContext`**.
@@ -125,7 +118,6 @@ keywords:
 * **CC‑LCTX‑5.** No file defines “domain context”; Domain appears only as an **informative family**.
 * **CC‑LCTX‑6.** No is‑a edges between contexts; any cross‑context relation is located in **E.10.U9**.
 * **CC‑LCTX‑7.** Language/edition handling matches **D‑CTX‑7** (separate Contexts when semantics can diverge).
-
 
 ### E.10.D1:8 - Anti‑patterns & Remedies
 
@@ -137,7 +129,6 @@ keywords:
 | **A4 Context hierarchy**      | Context A “is‑a” Context B                                        | Leaks meanings; blocks loss policies | Remove hierarchy; use **E.10.U9 Bridge** with loss policy (D‑CTX‑6).         |
 | **A5 Time‑as‑context**        | “Runtime context” vs “Design context”                             | Multiplies Contexts incorrectly         | Use **TimeScope tags** (C‑7); keep one Context (D‑CTX‑5).                    |
 | **A6 Cross‑lingual blending** | Mixing language labels as one context despite divergent semantics | Hidden drift                         | Split Contexts per **D‑CTX‑7** or document shared semantics if truly bound.  |
-
 
 ### E.10.D1:9 - Worked Examples
 
@@ -157,7 +148,6 @@ keywords:
 
 * `ITIL4_2020:service` / `ITIL4_2020:service‑level‑objective` with KD‑CAL cells `SOSA_SSN_2017:observation`.
 * References in acceptance patterns point to **SenseCell**s; provenance stays within the PROV Context.
-
 
 ### E.10.D1:10 - Reasoning Primitives (conceptual judgements; notation‑agnostic)
 
@@ -181,7 +171,6 @@ keywords:
 * **(J6) Time tag.** `stance ∈ {design, run} ⊢ TimeScopeTag(stance)`
   *Reading:* time is a tag, not a new context.
 
-
 ### E.10.D1:11 - Relations (with other patterns)
 
 **Builds on:** C‑6, C‑7, G‑1, G‑2.
@@ -193,7 +182,6 @@ keywords:
 * **E.10.U9** — All cross‑context relations live here; no implicit equivalences elsewhere.
 * **`RoleAssigning` patterns (E.10.U4, …)** — Context points to **SenseCell** or **Concept‑Set columns**, never to “anchors”.
 
-
 ### E.10.D1:12 - Migration Notes (conceptual playbook)
 
 1. **Rename headings.** Replace any “Context” section title with **Problem Frame**.
@@ -203,7 +191,6 @@ keywords:
 5. **Flatten contexts.** Remove any inheritance among contexts; move relations to **E.10.U9**.
 6. **Tag time.** Replace “design or runtime context” with **TimeScope tags**.
 7. **Language/edition pass.** Split or merge Contexts per **D‑CTX‑7**; document rationale.
-
 
 ### E.10.D1:13 - Acceptance Tests (SCR/RSCR stubs)
 

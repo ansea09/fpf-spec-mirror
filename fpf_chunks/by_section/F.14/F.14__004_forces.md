@@ -6,12 +6,12 @@ section_id: "F.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:3 — Forces"
-line_start: 73230
-line_end: 73239
+line_start: 73881
+line_end: 73889
 dependencies:
   - "F.1"
   - "F.10"
@@ -40,5 +40,4 @@ keywords:
 | **Locality vs uniformity**      | Roles or Statuses are **context‑local**; yet we need a stable Cross‑context story through Concept‑Set rows.     |
 | **Safety vs convenience**       | SoD constraints protect systems, but people seek convenience through composite roles.                  |
 | **Temporal honesty**            | Many “new” Statuses are actually the **same** Status seen in different **windows** (design, run, or grace). |
-
 

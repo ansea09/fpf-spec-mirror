@@ -6,12 +6,12 @@ section_id: "C.17:4"
 section_title: "Vocabulary (CHR terms & D‑stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__005_vocabulary-chr-terms-d-stubs.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:4 — Vocabulary (CHR terms & D‑stubs)"
-line_start: 41768
-line_end: 41789
+line_start: 41691
+line_end: 41711
 dependencies:
   - "A.1"
   - "A.10"
@@ -69,5 +69,4 @@ keywords:
 
 6. **`U.CreativityProfile`** *(D).* The **coordinate tuple** in `U.CreativitySpace` with provenance to the above inputs and **USM scopes**.
    **Conformance (CP‑1):** profile **must** include **scales/units**, **scopes**, **confidence bands** (B.3), and the **edition** of space definitions.
-
 

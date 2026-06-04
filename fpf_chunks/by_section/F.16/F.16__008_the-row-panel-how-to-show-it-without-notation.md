@@ -6,12 +6,12 @@ section_id: "F.16:7"
 section_title: "The row panel (how to show it without notation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__008_the-row-panel-how-to-show-it-without-notation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:7 — The row panel (how to show it without notation)"
-line_start: 73990
-line_end: 74001
+line_start: 74595
+line_end: 74605
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -36,5 +36,4 @@ Show the row as a **compact two‑to‑five‑column list**:
 
 *Example visual (linear text):*
 **ITIL 4:** *service‑level‑objective* | **SOSA/SSN:** *observed‑availability* → **Row reason:** *both quantify availability for the same window; units harmonised by KD‑CAL; procedural metadata differs (captured in loss of β₂).*
-
 

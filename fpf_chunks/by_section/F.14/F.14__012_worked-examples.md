@@ -6,12 +6,12 @@ section_id: "F.14:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__012_worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:11 — Worked examples"
-line_start: 73399
-line_end: 73437
+line_start: 74039
+line_end: 74076
 dependencies:
   - "F.1"
   - "F.10"
@@ -69,5 +69,4 @@ keywords:
 * **Naïve proposal.** *Candidate‑Evidence*, *Preliminary‑Evidence*, *Verified‑Evidence*, *Validated‑Evidence*.
 * **Moves.** Keep one **Evidence Status** ladder (`Collected → Verified → Validated`); use **Assurance Level** facet (numeric or ordinal) and **windows** for in‑review vs active. Align *types* in a **row**; do not mint new Status names for granularity.
 * **Outcome.** Short vocabulary, clear ladder, quantitative facet where nuance is needed.
-
 

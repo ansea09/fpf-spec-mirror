@@ -6,12 +6,12 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 41482
-line_end: 41541
+line_start: 41410
+line_end: 41469
 dependencies:
   - "A.10"
   - "A.16"
@@ -66,17 +66,17 @@ A text or pattern conforms to C.16.Q iff:
 3. **CC-C16Q-3 - Explicit frame.**
    Evaluation frame is explicit and reviewable.
 
-4. **CC-C16Q-4 - Evaluator/viewpoint is explicit.**
-   The ascription states who evaluates, from which viewpoint, or under which selector/observer policy.
+4. **CC-C16Q-4 - Evaluator and viewpoint are explicit.**
+   The ascription states who evaluates, from which viewpoint, or under which selector or observer policy.
 
 5. **CC-C16Q-5 - Substrate and referencePlane are declared when relevant.**
-   Cross-talk between preconceptual, latent-distributed, symbolic-local, and `ReferencePlane` values `world`, `concept`, and `episteme` is not allowed without an explicit substrate and/or `referencePlane` declaration when those distinctions are live.
+   Cross-talk between preconceptual, latent-distributed, symbolic-local, and `ReferencePlane` values `world`, `concept`, and `episteme` is not allowed without an explicit substrate declaration and, when live, `referencePlane` declaration when those distinctions are live.
 
 6. **CC-C16Q-6 - Scope and `Γ_time` are explicit when omission changes meaning.**
-   If scope or time selection affects interpretation, the ascription declares `U.Scope` and/or `Γ_time` explicitly.
+   If scope or time selection affects interpretation, the ascription declares `U.Scope` and, when live, `Γ_time` explicitly.
 
 7. **CC-C16Q-7 - Admissible normal form.**
-   The ascription is published as `SignalPack`, `Characteristic`, `Bundle`, or `Objective`, with the corresponding discipline observed.
+   The ascription uses `SignalPack`, `Characteristic`, `Bundle`, or `Objective` as its endpoint or evaluative normal form, with the corresponding discipline observed.
 
 8. **CC-C16Q-8 - No illegal scalarisation.**
    Composite senses are not collapsed into one score without an explicit scoring method.
@@ -85,13 +85,13 @@ A text or pattern conforms to C.16.Q iff:
    Any semantic change in the ascription uses the declared change lexicon; changing sense silently is forbidden.
 
 10. **CC-C16Q-10 - QD default.**
-   In search/selection/NQD contexts, *quality* resolves to `QS.UseValue` unless overridden explicitly.
+   In search, selection, or NQD contexts, *quality* resolves to `QS.UseValue` unless overridden explicitly.
 
 11. **CC-C16Q-11 - Engineering family discipline.**
    Engineering `-ility` uses resolve to one explicit `U.Characteristic` or one explicit `Bundle` (preferably published as `Q-Bundle` when composite); they are not left as free-floating adjectives.
 
 12. **CC-C16Q-12 - Functional separation.**
-    Function/capability claims remain distinct from quality-family claims.
+    Function or capability claims remain distinct from quality-family claims.
 
 13. **CC-C16Q-13 - Bridge accountability.**
     Cross-tradition parallels publish bridge stance and loss notes; cross-context or cross-plane reuse cites explicit Bridge ids and CL policy where applicable.
@@ -100,17 +100,17 @@ A text or pattern conforms to C.16.Q iff:
     If a repaired quality ascription is used for admissibility, commitments, publication, or adjudication, the downstream `L/A/D/E` hooks are explicit rather than carried implicitly by the word *quality*.
 
 15. **CC-C16Q-15 - Lexical firewall.**
-    Bare *quality* is absent from Tech/normative prose except as quoted metalinguistic discussion.
+    Bare *quality* is absent from Tech and normative prose except as quoted metalinguistic discussion.
 
 16. **CC-C16Q-16 - `qualityTermAscription` repair-form skeleton is published.**
-    The family-specific transitional token `qualityTermAscription` resolves to a repair-form skeleton that publishes bearer position, evaluator/viewpoint slots, qualifier expectations, repair paths for bearer-kind mismatches, witness discipline, admissible change classes, and cross-context or cross-plane policy.
+    The family-specific transitional token `qualityTermAscription` resolves to a repair-form skeleton that publishes bearer position, evaluator and viewpoint slots, qualifier expectations, repair paths for bearer-kind mismatches, witness discipline, admissible change classes, and cross-context or cross-plane policy.
 
 17. **CC-C16Q-17 - Candidate-Set Note is used when ambiguity is live.**
-    If sense selection, bearer facet, or A.7 lane or kind (`described entity`, `description`, `episteme` or publication face, or carrier when the carrier itself is evaluated) is non-obvious, the text records a short Candidate-Set Note before the rewrite is treated as decision-bearing or publication-bearing.
+    If sense selection, bearer facet, or A.7 lane or kind (`EntityOfConcern being described`, `description`, `episteme` or publication face, or carrier when the carrier itself is evaluated) is non-obvious, the text records a short Candidate-Set Note before the rewrite is treated as decision-bearing or publication-bearing.
 
 18. **CC-C16Q-18 - Evaluator and viewpoint are not silently collapsed.**
     When both an evaluator and a `U.Viewpoint` matter, they are represented as separate slots or fields.
 
-19. **CC-C16Q-19 - Family-specific change verbs dock cleanly with A.6.P / A.6.5.**
-    `retargetBearer(...)` is used only for ref retargeting; sense/frame/bundle/scale/view edits are narrated as explicit by-value revisions; silent retyping is forbidden.
+19. **CC-C16Q-19 - Family-specific change verbs dock cleanly with A.6.P and A.6.5.**
+    `retargetBearer(...)` is used only for ref retargeting; sense, frame, bundle, scale, and view edits are narrated as explicit by-value revisions; silent retyping is forbidden.
 

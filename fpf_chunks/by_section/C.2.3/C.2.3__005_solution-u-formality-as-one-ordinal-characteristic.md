@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - U.Formality as one ordinal characteristic"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-u-formality-as-one-ordinal-characteristic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:4 — Solution - U.Formality as one ordinal characteristic"
-line_start: 35475
-line_end: 35513
+line_start: 35564
+line_end: 35602
 dependencies:
   - "A.16"
   - "A.18"
@@ -57,7 +57,7 @@ keywords:
 - `F` is **not** `G`; scope remains governed by `U.ClaimScope` and other USM structures.
 - `F` is **not** `R`; evidence, warrant strength, and decay remain assurance concerns.
 - `CL` and bridge losses affect **`R`**, not `F`.
-- Changes in notation or carrier surface do not change `F` if the formal content is preserved.
+- Changes in notation, carrier, or rendering form do not change `F` if the formal content is preserved.
 
 #### C.2.3:4.3 - Extensibility and local anchors
 

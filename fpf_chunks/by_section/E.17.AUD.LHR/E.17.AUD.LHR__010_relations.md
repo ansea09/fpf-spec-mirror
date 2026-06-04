@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__010_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:9 — Relations"
-line_start: 64379
-line_end: 64390
+line_start: 65251
+line_end: 65262
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,6 +44,6 @@ keywords:
 - `A.7 Strict Distinction`
 
 **Nearest neighbors**
-- `E.17.AUD.OOTD PublicationUnit Primary Described-Entity Discipline`
+- `E.17.AUD.OOTD PublicationUnit Primary EntityOfConcern Discipline`
 - `E.17.ID.CR ComparativeReading`
 

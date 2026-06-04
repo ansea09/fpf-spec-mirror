@@ -6,12 +6,12 @@ section_id: "A.8:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__010_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:9 — Relations"
-line_start: 17969
-line_end: 17978
+line_start: 18059
+line_end: 18067
 dependencies:
   - "A.8"
   - "U.Types"
@@ -30,5 +30,4 @@ keywords:
 | **Prerequisite for** | A 9 Cross‑Scale Consistency          | Only universal types can propagate invariants up and down holarchies. |
 | **Complementary**    | A 7 Strict Distinction               | Together provide clarity (A 7) and breadth (A 8).                     |
 | **Enables**          | B 1 Universal Algebra of Aggregation | Γ‑operators rely on domain‑agnostic operands.                         |
-
 

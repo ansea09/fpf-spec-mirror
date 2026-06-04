@@ -6,12 +6,12 @@ section_id: "C.27:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:9 — Consequences"
-line_start: 48799
-line_end: 48854
+line_start: 48658
+line_end: 48711
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -54,22 +54,20 @@ claims while keeping ordinary state and rate claims cheap. Its main cost is one
 more C-pattern and several neighbour notes in existing FPF patterns. The mitigation is the
 central affordability rule: C.27 must be easier not to use than to misuse.
 
-
 C.27 claims decay over time. Refresh or reopen when:
-Refresh posture stays proportional:
+Refresh demand stays proportional:
 
 ```text
 Local C.27 card:
   has reopenTrigger only.
 
 Boundary-crossing C.27 profile:
-  has validityWindowRef and evidence valid_until when FPF-force-bearing.
+  has validityWindowRef and evidence valid_until when FPF-governed.
 
 Part G / benchmark / SoTA / public method claim:
   C.27 reopenTrigger feeds G.11 refresh orchestration;
   C.27 does not become a refresh ledger.
 ```
-
 
 - sampling window, cadence, or time base changes;
 - effort envelope or resource budget changes;
@@ -81,8 +79,8 @@ Part G / benchmark / SoTA / public method claim:
 - outcome reverses, overshoots, oscillates, or becomes unstable;
 - hidden queues, rework, burnout, quality loss, operational-support load, safety load, or
   coordination debt appear;
-- rhythm bearer, anchor, window, proxy, or coupling changes;
-- claim posture changes from assumption/diagnostic to benchmark, assurance,
+- rhythm bearer, timing reference, window, proxy, or coupling changes;
+- claim use changes from assumption/diagnostic to benchmark, assurance,
   causal, promise-like, publication, or formal model use;
 - the claim is reused outside its original validity window or domain;
 - a coasting, braking, or recovery claim continues after effort changes or stops.
@@ -97,7 +95,7 @@ handling belongs with B.3.4 or G.11 rather than becoming a C.27 freshness calcul
 When a Dyn2 benchmark, task-family adaptation claim, public method claim,
 selector-facing claim, SoTA-bearing publication claim, or other Part G publication carries a
 temporal-claim record, C.27 `reopenTrigger` is not enough by itself. C.27 states
-the temporal-claim question and its validity/reopen basis; G.9 carries benchmark parity
+the temporal-claim question and its validity/reopen condition; G.9 carries benchmark parity
 when comparison is live; G.11 carries refresh orchestration such as refresh
 queue, refresh plan, refresh report, deprecation notice, or edition bump when
 evidence, comparator editions, method editions, claim windows, or validity

@@ -6,12 +6,12 @@ section_id: "A.6.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:7 — Conformance Checklist"
-line_start: 15061
-line_end: 15115
+line_start: 15216
+line_end: 15270
 dependencies:
   - "A.10"
   - "A.14"

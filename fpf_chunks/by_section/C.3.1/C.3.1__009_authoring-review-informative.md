@@ -6,12 +6,12 @@ section_id: "C.3.1:8"
 section_title: "Authoring & Review (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__009_authoring-review-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:8 — Authoring & Review (informative)"
-line_start: 37670
-line_end: 37684
+line_start: 37693
+line_end: 37706
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -34,8 +34,7 @@ If a local constraint is temporary or purely procedural, prefer a **RoleMask** (
 
 **Review prompts.**
 
-1. Does the draft introduce a new *describedEntity* concept? → consider a kind.
+1. Does the draft introduce a new *entityOfConcern* concept? → consider a kind.
 2. Does prose hint at “is‑a” relationships? → capture as `⊑`, not as scope widening.
 3. Are authors trying to widen scope by abstracting wording? → stop; widen **G** only via **ΔG** (USM) with support.
-
 

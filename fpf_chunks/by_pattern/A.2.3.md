@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
-line_start: 2557
-line_end: 2986
+line_start: 2536
+line_end: 2956
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -69,10 +69,9 @@ In the Role–Method–Work alignment, the **promise content** must say somethin
 
 The lexical forms *service/service‑level/service use/service access* (and the adjacent cluster *service provider*, *server*) are **ambiguous** across domains. In the kernel, **`U.PromiseContent`** is reserved for promise content only and is written in prose as a **promise content**.
 
-Normative prose therefore SHALL treat the bare head noun **service** as **always‑unpack** (PTG=Guarded): every head‑noun occurrence MUST be rewritten to a facet head phrase (promise content, service provider principal, service access point, service delivery system, and so on) or to the correct underlying described entity or project-side FPF kind (team, ticket, endpoint host, procedure, work item), per **A.6.8 (RPR‑SERV)**.
+Normative prose therefore SHALL treat the bare head noun **service** as **always‑unpack** (PTG=Guarded): every head‑noun occurrence MUST be rewritten to a facet head phrase (promise content, service provider principal, service access point, service delivery system, and so on) or to the correct underlying EntityOfConcern or project-side FPF kind (team, ticket, endpoint host, procedure, work item), per **A.6.8 (RPR‑SERV)**.
 
 E.10’s lexical anchor **L‑SERV** SHOULD be implemented as “pointer + lint rule” to A.6.8: the short rule names the hazard, while A.6.8 provides the full rewrite recipe and the facet head phrase set.
-
 
 ### A.2.3:2 - Problem
 
@@ -84,7 +83,6 @@ Without a first‑class `U.PromiseContent`, models drift into five recurring err
 4. **Run = Service.** Logging **Work** as “a service” erases the Standard/promise layer and breaks SLA reasoning.
 5. **Business ontology lock‑in.** Large domain schemes (e.g., “business service” stacks) are imported wholesale, losing FPF’s universality and comparability across contexts.
 
-
 ### A.2.3:3 - Forces
 
 | Force                                       | Tension                                                                                                       |
@@ -94,7 +92,6 @@ Without a first‑class `U.PromiseContent`, models drift into five recurring err
 | **Universality vs domain richness**         | One kernel meaning must cover IT, utilities, healthcare, public services—without absorbing domain taxonomies. |
 | **Measurability vs privacy**                | Consumers need SLO/SLA and outcomes; providers want implementation freedom (Method autonomy).                 |
 | **Stability vs evolution**                  | Services version and change without invalidating prior Work evidence.                                         |
-
 
 ### A.2.3:4 - Solution — The unified concept `U.PromiseContent`
 
@@ -173,7 +170,7 @@ U.OutcomeSpec ::= {
   },
 
   resultSpec?: {
-    describedEntityRef?: EntityRef,               // what thing’s post‑state matters (may be kind‑labelled)
+    entityOfConcernRef?: EntityRef,               // what thing’s post‑state matters (may be kind‑labelled)
     statePlaneRef?: StatePlaneRef,                // where the predicate lives (A.7:3 pins)
     postConditionRef: EpistemeRef                 // predicate on post‑state (or evidence about it)
   }
@@ -293,7 +290,6 @@ flowchart LR
 **Litmus rule (addressability).**
 If you can *call / connect to / visit / restart / scale* it, you are talking about a **service access point** (system facet), not the **promise content** (promise content).
 
-
 ### A.2.3:5 - Archetypal grounding (engineer‑manager friendly)
 
 | Domain                    | **`U.PromiseContent` (promise)**                           | Provider & Consumer (as Roles)                                   | Access (how to ask)                  | Fulfilment (Work)                        | Typical acceptance targets                  |
@@ -304,7 +300,6 @@ If you can *call / connect to / visit / restart / scale* it, you are talking abo
 
 **Key takeaway:** the **same kernel object** models S3, a plant utility, and a government service: a **promise with access and acceptance**. Everything else (APIs, compressors, clerks, workflows, tickets) is mapped via **Role/Method/Work**.
 
-
 ### A.2.3:6 - Mapping the common “service” picture to FPF (didactic bridge)
 
 The popular service diagrams (provider ↔ access ↔ use ↔ capability/activity) map to FPF as follows:
@@ -314,7 +309,7 @@ The popular service diagrams (provider ↔ access ↔ use ↔ capability/activit
 * **Service Level Agreement (SLA)** (binding obligation) -> `U.Commitment` referencing the relevant `U.PromiseContent` (and, where needed, its acceptance/evidence specs); use **A.6.C Contract Bundle** when packaging “the SLA” as a bundle of commitments, evidence specs, and publication carriers.
 * **SLA document / published terms** → `U.SpeechAct` (promise/offer act) + the clause carrier (`U.Episteme`), per A.2.9 + A.7.
 * **Operating conditions / “where the promise holds”** → `claimScope : U.ClaimScope (G)` (or embedded in `acceptanceSpec`) per A.2.6.
-* **Subject of service (“customer material”: asset/data/person/case whose state is changed)** → `promisedOutcomeSpecRef.resultSpec.describedEntityRef` (and the affected referents in delivery `U.Work.Δ`). “Ours vs theirs” (ownership/custody) is modeled as a **role/relationship inside the Context** (e.g., `OwnerRole:…`, `CustomerRole:…`, operated‑by/owned‑by), not as a Kernel‑global property.
+* **Subject of service (“customer material”: asset/data/person/case whose state is changed)** → `promisedOutcomeSpecRef.resultSpec.entityOfConcernRef` (and the affected referents in delivery `U.Work.Δ`). “Ours vs theirs” (ownership/custody) is modeled as a **role/relationship inside the Context** (e.g., `OwnerRole:…`, `CustomerRole:…`, operated‑by/owned‑by), not as a Kernel‑global property.
 
 * **Service Presence / Access** → `accessSpec : MethodDescription` (interface/eligibility); actual endpoints are **systems** playing interface roles.
 * **Individual Service Use** → **consumer and provider `U.Work`** instances linked to the `U.PromiseContent` they fulfil.
@@ -370,7 +365,6 @@ Deprecated labels *applicability/envelope/generality/validity* **MUST NOT** appe
 
 **CC-A2.3-14 (Bridges & CL).**
 Cross-context mappings via Bridges keep **F/G** stable; **CL** penalties apply to **R**. A mapping **MAY** recommend **narrowing** the mapped **Claim scope (G)** as best practice (A.2.6/B-line).
-
 
 **CC-A2.3-15 (OutcomeSpec typing).**
 `promisedOutcomeSpecRef` MUST resolve to `U.OutcomeSpec` (A.7:5.10). It MUST NOT be used to point at a concrete `U.Work` episode or at an extensional delivered-result referent.
@@ -447,7 +441,6 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 * **“Hard‑code people into the service.”**
   Name **role kinds** in the promise content (`U.PromiseContent`); run‑time performers are `U.RoleAssignment`s.
 
-
 ### A.2.3:10 - Migration notes (quick wins)
 
 1. **Name the promises.** List 5–15 consumer‑facing promises your context lives by; reify each as `U.PromiseContent` with `acceptanceSpec` and, if needed, `accessSpec` and `unitOfDelivery`.
@@ -458,14 +451,12 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 5. **Bridge domains.** If a business ontology already exists (“business/technical/internal service”), keep it in its own context and map to FPF Kinds via Bridges.
 6. **Tidy language.** Apply **A.6.8 (RPR‑SERV)** / **L‑SERV**: ban unqualified “service” as a synonym for server/team/process/ticket in normative prose; map them explicitly.
 
-
 ### A.2.3:11 - Relations
 
 * **Builds on:** A.1.1 `U.BoundedContext`; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`; **A.2.6 `U.Scope` / `U.ClaimScope (G)` / `U.WorkScope`**.
 * **Coordinates with:** A.3.1 `U.Method`; A.3.2 `U.MethodDescription`; A.15.1 `U.Work`; A.15.2 `U.WorkPlan`; **A.6.8 (RPR‑SERV)** for normative prose unpacking of the service cluster; **B-line Bridges & CL (CL→R; may recommend ΔG narrowing)**.
 * **Constrained by lexical rules:** **E.10 L‑SERV** (service disambiguation); also **L‑FUNC**, **L‑PROC**, **L‑SCHED**, **L‑ACT**.
 * **Informs:** Reporting/assurance patterns (service KPIs, SLA dashboards); catalog/exposure patterns in domain contexts.
-
 
 ### A.2.3:12 - Didactic quick cards (engineer‑manager ready)
 

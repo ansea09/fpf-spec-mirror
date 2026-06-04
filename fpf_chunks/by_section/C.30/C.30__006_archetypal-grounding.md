@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Architecture Description Adequacy (ADA)"
+pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
 section_id: "C.30:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.30 — Architecture Description Adequacy (ADA)"
+  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:5 — Archetypal Grounding"
-line_start: 51825
-line_end: 51832
+line_start: 51632
+line_end: 51639
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,10 +30,12 @@ dependencies:
   - "C.25"
   - "C.28"
   - "C.29"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -47,9 +49,10 @@ dependencies:
 keywords:
   - "ArchitectureOf@Context"
   - "architecture claim"
-  - "architecture description"
   - "architecture question card"
+  - "architecture-description boundary"
   - "artifact-as-architecture guard"
+  - "grounded architecture"
   - "selected structure"
 ---
 
@@ -58,6 +61,6 @@ keywords:
 | Tell-Show-Show row | Grounding |
 | --- | --- |
 | Tell | A project team says "architecture" while looking at a diagram, model, generated relation graph, ADR, or module list. C.30 asks what holon is being described, what structure is selected, what artifact role the current material has, and what architecture move remains admissible. |
-| Show: `U.System` | A payment system, plant, vehicle, product platform, AI-agent system, or neural-network model has selected structures: function, flow, control, module/interface, information, placement, scale, work/evidence, or declared logical structure. The architecture claim is over selected structures of that holon; the publication is not the holon and not the architecture claim. |
+| Show: `U.System` | A payment system, plant, vehicle, product platform, AI-agent system, or neural-network model has selected structures: function, flow, control, module structure, interface relation, information structure, placement structure, scale structure, work structure, evidence relation, or declared logical structure. The architecture claim is over selected structures of that holon; the publication is not the holon and not the architecture claim. |
 | Show: `U.Episteme` | An architecture description, model, view, generated relation graph, ADR-like note, safety-case view, or dashboard is an episteme or view publication. It can describe an architecture claim or serve as a source relation for it, but it does not become the architecture, evidence sufficiency, gate result, assurance case, or project decision. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.12.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
-line_start: 72548
-line_end: 72884
+line_start: 73231
+line_end: 73553
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -39,13 +39,11 @@ keywords:
 **Coordinates with.** KD‑CAL (Observation/Characteristic/Scale); Sys‑CAL (Work or Actuation contexts).
 **Non‑goals.** No team workflows, no tooling, no editorial procedures. This pattern specifies **how to think** about acceptance, not how to store or operate systems.
 
-
 ### F.12:1 - Intent & applicability
 
 **Intent.** Provide a **conceptual binding** that turns a *service promise* (SLO/SLA clause) into a **clear, local, time‑bounded judgement** about **actual Work**, using **Observations** as evidence and **explicit Bridges** where Cross‑context notions must meet. The result is a **Status** (Satisfied/Violated/Inconclusive) that attaches to the **clause‑about‑that‑Work‑in‑that‑Window**.
 
 **Applicability.** Any situation where a **service promise clause** (promise content) is published (availability, latency, safety margin, response time, quality gate, compliance duty) and its fulfilment must be decided from what occurred. Works across digital services, industrial control, laboratory processes, clinical pathways, logistics, etc.
-
 
 ### F.12:2 - Problem frame
 
@@ -55,7 +53,6 @@ keywords:
 4. **Unstated translation.** Metrics from one canon are mapped to clauses from another without declaring losses.
 5. **Timeless verdicts.** Judgements are asserted with no explicit Window (day, month, batch).
 
-
 ### F.12:3 - Forces
 
 | Force                                | Tension to resolve                                                                                        |
@@ -64,7 +61,6 @@ keywords:
 | **Locality vs. integration**         | Meanings are **context‑local**; still we must compare across **service situations**, plants, and monitors.                 |
 | **Parsimony vs. realism**            | We want a small binding scheme, yet domains differ (percentiles, downtime minutes, control margins).      |
 | **Evidence vs. privacy/feasibility** | Observations prove outcomes; sometimes only proxies exist.                                                |
-
 
 ### F.12:4 - Core idea (didactic)
 
@@ -79,7 +75,6 @@ Acceptance is a **quadruple of anchors** (all context‑local):
 A **Predicate** compares the **Measure** against the **Clause** within the **Window**.
 The **Status** (Satisfied/Violated/Inconclusive) attaches to **ClauseCell\@Window about WorkCell**, never to a plan.
 
-
 ### F.12:5 - Minimal vocabulary (this pattern only)
 
 * **ClauseCell.** A context‑local deontic/Standardual concept (*SLO*, *obligation*, *target*), typically from *services/deontics* Contexts (e.g., **ITIL 4**, **ODRL**).
@@ -90,7 +85,6 @@ The **Status** (Satisfied/Violated/Inconclusive) attaches to **ClauseCell\@Windo
 * **Bridge.** An explicit Cross‑context relation with **kind/CL/Loss** (F.7/F.9).
 
 > **Context discipline.** Terms like *availability*, *activity*, *task*, *observation* are always read as **context‑local**. Cross‑use requires a **Bridge**.
-
 
 ### F.12:6 - The binding, as five mental rules (notation‑free)
 
@@ -118,7 +112,6 @@ If Clause, Work, and Measure live in **different Contexts**, apply declared **Br
 
 **R5 — Window rule.**
 Every verdict is **time‑bounded**. Changing the Window can change the result; **no retroactivity** from new clauses or specs (cf. F.10).
-
 
 ### F.12:7 - Clause templates (conceptual schemata)
 
@@ -156,7 +149,6 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **Window:** each incident’s **Work** interval.
 * **Bridge:** BPMN design steps → PROV Work **Interpretation** (CL=2; **Loss:** gateways ≠ real branching).
 
-
 ### F.12:8 - Invariants (normative)
 
 1. **DesignRunTag split.** Clauses live on the **design stance**; judgements live on the **run stance** about **Work** (F.11).
@@ -168,7 +160,6 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 7. **One‑Work focus.** A verdict references a **specific Work** (or a defined population of Works) matched to the Clause’s scope.
 8. **Loss honesty.** Each Bridge states **kind**, `CL`, and loss; wider claims require Bridges with the needed `CL` or same-Context alignment.
 9. **No detached pass.** When the ClauseCell is a `U.PromiseContent` (service promise clause), `Satisfied` about a Work is admissible only if that Work also **delivers** the promised outcome spec for the clause (A.2.3:8.1 `fulfilsPromiseContent`). This keeps acceptance on the **same delivery evidence base** (Work facts + Δ anchors + Observations) and prevents “pass verdict separate from delivery”.
-
 
 ### F.12:9 - Micro‑examples (didactic, multi‑domain)
 
@@ -216,7 +207,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 | **A8**  | **Retroactive renorm**          | A new clause or recalibrated monitor silently rewrites past verdicts.                        | Violates temporal honesty.                      | Enforce **Non‑retroactivity** (Inv‑6): past verdicts stand; new rules apply forward.                                                                     |
 | **A9**  | **Silent units**                | “Latency ≤ 120” with no unit or scale.                                                       | Ambiguous thresholds.                           | **KD‑CAL discipline**: state **Characteristic, Scale, Unit** on **MeasureCell**.                                                                         |
 | **A10** | **Hidden aggregation**          | “Global availability” but only a subset of regions/slices was covered.                       | Over‑claims evidence.                           | State the **aggregation scope** explicitly or confine the verdict to the observed subset; otherwise **Inconclusive**.                                    |
-| **A11** | **Status on “the service”**     | Tagging an abstract umbrella like *“the service”* as “Satisfied”.                            | Loses the describedEntity of the judgement.           | Attach to **ClauseCell\@Window about WorkCell**; the service concept remains a promise vocabulary (A.2.3).                                               |
+| **A11** | **Status on “the service”**     | Tagging an abstract umbrella like *“the service”* as “Satisfied”.                            | Loses the entityOfConcern of the judgement.           | Attach to **ClauseCell\@Window about WorkCell**; the service concept remains a promise vocabulary (A.2.3).                                               |
 | **A12** | **Bridge‑by‑name**              | Equating *Activity* ≡ *Process* because both say “process”.                                  | Assumes global meaning.                         | Use **F.9 Bridge** with **kind/CL/Loss**; or keep them distinct.                                                                                         |
 ### F.12:11 - Extended worked examples
 
@@ -261,7 +252,6 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **MeasureCell.** **Observations** of start‑fix and restore timestamps.
 * **Predicate.** `(restore − start_fix) ≤ 60 min`.
 * **Verdict.** Per incident; a quarter’s report is an explicit aggregation of incident‑scoped verdicts.
-
 
 ### F.12:12 - Reasoning primitives (judgement schemas, notation‑free)
 
@@ -309,7 +299,6 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
     `two admissible Bridge sets ⇒ conflicting statuses ⊢ escalate as Inconclusive, expose Loss notes`
     *Reading:* If equally defensible translations disagree, the honest outcome is **Inconclusive** plus an explanation.
 
-
 ### F.12:13 - Relations (with other patterns)
 
 * **Builds on:**
@@ -328,7 +317,6 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **Constrains:**
   Later reporting and assurance rules (B.3) must **not** collapse CL/Loss; they report them alongside status.
 
-
 ### F.12:14 - Migration notes (conceptual)
 
 1. **Clause revisions.** Introduce a **new ClauseCell**; keep old verdicts intact (Non‑retroactivity).
@@ -337,7 +325,6 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 4. **Unit harmonisation.** When scales/units change, apply **KD‑CAL** conversions inside the Measure’s Context; if Cross‑context mapping is needed, declare a **Bridge**.
 5. **Population refinement.** If a Clause’s quantifier is refined (e.g., per‑region → per‑AZ), treat each as a new ClauseCell or a new Window partition; avoid hidden re‑baselining.
 6. **Proxy retirement.** When direct Observations become available, prefer them; keep earlier proxy‑based verdicts with their CL/Loss notes.
-
 
 ### F.12:15 - Acceptance tests (SCR/RSCR — concept‑level)
 
@@ -359,7 +346,6 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **RSCR‑F12‑E03 (Scope drift guard).** If the Work population definition changes, verdicts are not silently re‑interpreted; new verdicts cite the new population.
 * **RSCR‑F12‑E04 (Window partition).** Changing from monthly to weekly windows creates **new** verdicts; monthly summaries are expressed as explicit aggregations of weekly statuses.
 * **RSCR‑F12‑E05 (Proxy retirement).** When direct Observations replace proxies, the status computation is re‑run **forward‑only**; past proxy‑based verdicts retain their CL/Loss annotations.
-
 
 #### F.12:15.3 Didactic distillation (60‑second recap)
 

@@ -6,12 +6,12 @@ section_id: "B.2.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__009_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2.2 — Meta-System Transition (MST)"
   - "B.2.2:8 — Consequences"
-line_start: 30405
-line_end: 30412
+line_start: 30534
+line_end: 30541
 dependencies:
   - "A.1"
   - "B.2"

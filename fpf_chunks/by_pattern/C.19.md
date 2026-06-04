@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
-line_start: 42633
-line_end: 42988
+line_start: 42539
+line_end: 42892
 dependencies:
   - "B.3"
   - "C.11"
@@ -44,9 +44,9 @@ keywords:
 
 **Plain-name.** Explore-exploit governor.
 
-**Intent.** Govern exploration/exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset posture stay explicit, auditable, and stated as one pool-policy result without taking over local choice, enactment, or publication questions.
+**Intent.** Govern exploration/exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit, auditable, and stated as one pool-policy result without taking over local choice, enactment, or publication questions.
 
-**Export posture.** No `Γ` operators are exported; policies parameterize calls in `C.18 NQD-CAL`.
+**Export relation.** No `Γ` operators are exported; policies parameterize calls in `C.18 NQD-CAL`.
 
 **Depends on.** `C.18 NQD-CAL` (generators), `C.17 Creativity-CHR` (measurements), `Decsn-CAL` (objectives/constraints and scalarization lenses), `B.3` (trust adjustments), and `Compose-CAL` (set aggregation; advisory).
 
@@ -54,9 +54,9 @@ keywords:
 
 ### C.19:0 - Use this when
 
-- several candidate lines, family regions, or frontier segments remain live under one declared exploration/exploitation posture and the question is now policy over that pool rather than one more local choice result
+- several candidate lines, family regions, or frontier segments remain live under one declared exploration/exploitation policy and the question is now policy over that pool rather than one more local choice result
 - the next result should say how the pool will be treated next: `widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`
-- the governing lens or policy posture must be explicit rather than inferred from vague exploration language
+- the governing lens or policy state must be explicit rather than inferred from vague exploration language
 
 ### C.19:0.1 - What goes wrong if missed
 
@@ -66,22 +66,22 @@ keywords:
 
 ### C.19:0.2 - What this buys
 
-- one explicit pool-governance surface for exploration, graduation, narrowing, and sunset posture
-- one explicit link from lens or policy posture to the next pool-side treatment
+- one explicit pool-governance result for exploration, graduation, narrowing, and sunset treatment
+- one explicit link from lens or policy state to the next pool-side treatment
 - one repeatable way to preserve heterogeneity and frontier discipline without forcing illegal totalization
 
 ### C.19:0.3 - First-minute questions
 
 - Which still-live pool, frontier segment, or family region is actually under governance now?
-- Which lens or policy posture is governing it?
+- Which lens or policy state is governing it?
 - Is the next lawful treatment `widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`?
 - What event or threshold would justify changing that treatment next?
 
 ### C.19:0.4 - First output
 
-The first useful output is one explicit pool-policy result that names the live pool, the governing lens or policy posture, the current treatment (`widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`), and the exact event that would justify changing that treatment next.
+The first useful output is one explicit pool-policy result that names the live pool, the governing lens or policy state, the current treatment (`widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`), and the exact event that would justify changing that treatment next.
 
-That result records how the pool will be treated next under the current exploration/exploitation posture; it does not replace one local `C.11` choice record, one `C.24` enactment plan, or one `G.5` published selector result.
+That result records how the pool will be treated next under the current exploration/exploitation policy; it does not replace one local `C.11` choice record, one `C.24` enactment plan, or one `G.5` published selector result.
 
 If that first output still cannot be written honestly, the current pool-policy result is not finished `C.19` policy yet.
 
@@ -92,7 +92,7 @@ When `C.11` has already made local choice among one fixed `OptionSet` explicit, 
 
 Immediate failure indicators for this pattern:
 - the current pool-policy result cannot name the still-live candidate pool it is governing
-- the governing lens or policy posture is missing
+- the governing lens or policy state is missing
 - the next pool-side treatment exists only as one vague promise to continue exploration later
 
 If the question is still which single option should survive now, apply `C.11`. If the next artifact must already be one enactment-facing plan, apply `C.24`. If the retained set must be published for downstream consumption, apply `G.5`.
@@ -134,7 +134,6 @@ What changes in practice: a frontier policy that explores "to learn what works",
 
 What this does not authorize: `C.19` does not become causal identification, causal fairness, off-policy causal evaluation, or counterfactual-realizability authority; it governs pool treatment and redirects causal-use support to `C.28`.
 
-
 Define EmitterPolicy (regime key, params, ε, K, insertion/dedup) and selection lenses with a fixed pipeline (Eligibility → Dominance → Tie‑breakers); bind provenance (policy id, lens id) and guard promotions of Surprise/Illumination to dominance to explicit policy declarations.
 
 **Decision-subject clarification.** Later choices are attributed to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. **Contexts publish** measurement spaces and admissible policies as **semantic frames**; LOG profiles lenses and policies but does **not** enact choices.
@@ -145,7 +144,7 @@ Define EmitterPolicy (regime key, params, ε, K, insertion/dedup) and selection 
 Policies are referenced as `U.EmitterPolicyRef` by NQD generator call (C.18) and are conceptual lenses, not staffing/budget instructions.
 Ordinary default tokens remain governed by `G.Core/G.5`; `C.19` explains their pool-policy consequences but does not become one rival default authority.
 
-**Decision-theory bridge.** `C.11` governs theory-side choice among already-available options and the meaning of `ProbeBudget`, `ValueOfInformation`, and `ValueOfComputation`. `C.19` may consume such outputs only as criteria for pool policy, graduation, keep-frontier, or sunset posture; it does not re-govern local choice doctrine.
+**Decision-theory bridge.** `C.11` governs theory-side choice among already-available options and the meaning of `ProbeBudget`, `ValueOfInformation`, and `ValueOfComputation`. `C.19` may consume such outputs only as criteria for pool policy, graduation, keep-frontier, or sunset treatment; it does not re-govern local choice doctrine.
 
 **Ordinary default routing (if policy is unspecified):**
 • **Dominance:** consume `DefaultId.DominanceRegime` from `G.Core/G.5`; in ordinary Q-front use this means `{Q components}` with `ConstraintFit=pass` as **eligibility gate**.
@@ -188,7 +187,7 @@ A finished `C.19` pass should publish one explicit pool-policy result rather tha
 That result should state:
 
 - the still-live pool, frontier, or family scope under governance now;
-- the governing lens id or policy posture;
+- the governing lens id or policy state;
 - the next treatment, chosen from `widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`;
 - the event or threshold that would justify changing that treatment next.
 
@@ -212,7 +211,7 @@ Those fields define the result: governed pool, governing lens, next treatment, a
 
 A `C.19` pass may close only when one explicit pool and one explicit next treatment are both visible.
 
-- Close as `widen` when the current frontier is too narrow for the declared exploration posture or when the evidence basis is too thin to justify current narrowing.
+- Close as `widen` when the current frontier is too narrow for the declared exploration policy or when the evidence basis is too thin to justify current narrowing.
 - Close as `keep frontier` when several lines must remain live under the current lens and no narrower lawful subset is yet justified.
 - Close as `narrow to subset` when one declared lens now justifies retaining one smaller internal live set without pretending that one scalar winner has already been chosen.
 - Close as `sunset line` when one line or family region no longer clears the current lens, quota, or backstop requirements.
@@ -248,9 +247,9 @@ whyNotLocalChoice = several family regions remain live
 
 When `currentTreatment = narrow_to_subset`, `livePool` still names one internal retained subset or one live pool subset. It does not yet mint one public `Shortlist`, one public `RankedShortlist`, or one `ShortlistId`. If selector-facing publication is now required, the lawful `C.19` record closes as `reroute` to `G.5` rather than silently renaming the internal subset as though publication had already happened.
 
-Goal/task-space growth is one pool-policy doctrine over the archive/curriculum side. When autotelic or capability-discovery pressure is active, cite one `GoalSpaceExpansionPolicyRef` together with the supporting `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue`; that doctrine may justify `widen`, `keep frontier`, or one further probe posture, but it does not become default `Q`, does not rename the front, and does not publish one selector-facing shortlist without a `G.5` handoff.
+Goal/task-space growth is one pool-policy doctrine over the archive/curriculum side. When autotelic or capability-discovery pressure is active, cite one `GoalSpaceExpansionPolicyRef` together with the supporting `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue`; that doctrine may justify `widen`, `keep frontier`, or one further probe decision value, but it does not become default `Q`, does not rename the front, and does not publish one selector-facing shortlist without a `G.5` handoff.
 
-If the record does not already state which pool remains live, what governs it, and what would change that posture next, it is still one unfinished `C.19` result.
+If the record does not already state which pool remains live, what governs it, and what would change that policy treatment next, it is still one unfinished `C.19` result.
 
 #### C.19:4.3a - Worked closure slice
 
@@ -315,8 +314,8 @@ whyNotLocalChoice = pool governance is already complete
 #### C.19:4.4.1 - First public wording for shortlisted outputs
 
 - Prefer wording like `shortlist from the declared Q-Front under LensId=...` over wording that makes the shortlisted result sound like one second front.
-- When one stable emitted object must be cited across documents or tools, say `ShortlistId for that shortlist` rather than letting the token name replace the shortlisted surface itself.
-- If the shortlist later acquires order, say `RankedShortlist` and keep the prior shortlisted surface recoverable.
+- When one stable emitted object must be cited across documents or tools, say `ShortlistId for that shortlist` rather than letting the token name replace the shortlist result itself.
+- If the shortlist later acquires order, say `RankedShortlist` and keep the prior shortlist result recoverable.
 - Reserve `choice set underlying that shortlist` for mathematical discussion, proofs, or object-level set operations.
 
 #### C.19:4.4.2 - Choice doctrine stays source-set explicit
@@ -325,7 +324,7 @@ whyNotLocalChoice = pool governance is already complete
 - `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may appear here when they justify choice from one declared source set.
 - Those terms explain why another probe, defer, or stop decision is warranted; they do not rename `Front`, `Archive`, or `Shortlist`.
 - When teams need a fuller account of budgeted probing or sequencing, add that as one separate resource-aware choice explanation rather than overloading the shortlist doctrine itself.
-- Selector-facing surfaces should keep speaking about the emitted set and its source set rather than trying to explain the whole budgeted-choice rationale there.
+- Selector-facing publications should keep speaking about the emitted set and its source set rather than trying to explain the whole budgeted-choice rationale there.
 
 ### C.19:5.1 - System grounding
 
@@ -374,7 +373,7 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 
 `C.19` exists because pool governance is neither local choice nor execution. Once several candidate lines remain live, the key question is no longer which single option should survive now; it is how the pool should be governed next under one explicit lens or policy. That question needs its own explicit pool-policy result, otherwise frontier drift, silent scalarization, and policy amnesia return immediately.
 
-- Post-2015 bandit and Bayesian-optimization practice treats explore/exploit posture as an explicit policy object, not as one hidden side effect of whichever candidate looked best first. The practical implication here is to emit one explicit pool treatment plus one change trigger, not one atmospheric frontier story.
+- Post-2015 bandit and Bayesian-optimization practice treats explore/exploit policy as an explicit policy object, not as one hidden side effect of whichever candidate looked best first. The practical implication here is to emit one explicit pool treatment plus one change trigger, not one atmospheric frontier story.
 - Contemporary frontier and quality-diversity practice also distinguishes the live frontier from any scalarized pick taken under one declared lens. The practical safeguard is to keep `keep frontier`, `narrow to subset`, and `sunset line` as visible alternatives rather than silently totalizing the pool.
 - Modern pool-management and fairness-preserving lines keep coverage or heterogeneity pressures explicit until one declared reason justifies retirement or reroute. The practical implication is simple: sunset or reroute only when the current pool-policy result can already say why the pool no longer belongs to `C.19`.
 
@@ -390,5 +389,4 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 Builds on: `Decsn-CAL`, `B.3`. Coordinates with: `C.11` for local choice among already-available options, `C.18` for candidate generation and open-ended search, `C.24` for post-choice enactment planning, `G.5` for selector-facing publication, `C.28` for causal-use question/rung/support vocabulary when pool policy is used causally, `C.17`, and `G.9`.
 
 ### C.19:End
-
 

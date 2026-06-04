@@ -6,12 +6,12 @@ section_id: "C.17:15"
 section_title: "Worked mini‑cases (engineer‑manager focus)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__016_worked-mini-cases-engineer-manager-focus.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:15 — Worked mini‑cases (engineer‑manager focus)"
-line_start: 42150
-line_end: 42201
+line_start: 42061
+line_end: 42108
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,7 +67,6 @@ keywords:
 
 **Manager’s read.** “We didn’t just produce ‘novel’ shapes; 4 passed the sim and respected constraints, within the day.”
 
-
 #### C.17:15.2 - Case B — Data‑science hypothesis generation (health analytics)
 
 * **Context.** `Cardio_2026`.
@@ -79,7 +78,6 @@ keywords:
 * **Evidence.** Episteme bundle: model cards, hold‑out plots, Bridge note.
 
 **Manager’s read.** “One candidate works **here**; plan a pilot at Hospital B (we recorded CL=2).”
-
 
 #### C.17:15.3 - Case C — Product squad reframing (software UX)
 
@@ -93,11 +91,9 @@ keywords:
 
 **Manager’s read.** “We changed the problem frame and proved the value drop—within risk limits.”
 
-
 #### C.17:15.4 What these cases illustrate (tie‑backs)
 
 * **Locality.** All novelty/usefulness claims are **Context‑tagged**; Cross‑context steps use **Bridges** with **CL**.
 * **Dual‑gate.** Novelty never acts alone; usefulness/constraints co‑gate decisions.
 * **SoD & Evidence.** Observers are **separate** from performers; metrics live on **epistemes** with **frozen hooks**; Work proves fulfillment.
-
 

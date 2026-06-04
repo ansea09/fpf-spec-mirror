@@ -6,12 +6,12 @@ section_id: "F.14:7"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__008_invariants-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:7 — Invariants (normative)"
-line_start: 73305
-line_end: 73315
+line_start: 73948
+line_end: 73957
 dependencies:
   - "F.1"
   - "F.10"
@@ -41,5 +41,4 @@ keywords:
 5. **Bundle clarity.** A Bundle **names only composition**; it does not inherit or redefine member semantics.
 6. **Minimal modifier naming.** Adding a modifier to a label **MUST** pass F.5 tests; prefer facets/windows over new Role or Status names.
 7. **Concept‑first.** No invariant relies on organization charts or access policies; **semantics precede governance**.
-
 

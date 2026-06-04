@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:12a"
 section_title: "Boundary with quantum-like state-representation coarsening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__014_boundary-with-quantum-like-state-representation-coarsening.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:12a — Boundary with quantum-like state-representation coarsening"
-line_start: 10584
-line_end: 10627
+line_start: 10442
+line_end: 10484
 dependencies:
   - "A.15"
   - "A.20"
@@ -46,7 +46,7 @@ keywords:
 
 ### A.6.3.CSC:12a - Boundary with quantum-like state-representation coarsening
 
-Use CSC first when one source-bearing side, model, state representation, or evidence set is made less detailed for a narrower use, or when review discovers that a target already in circulation can be retained only under a narrower-use card: summary, dashboard row, orientation note, partner-safe version, simplified diagram, or coarse working description. Ordinary controlled simplification remains CSC even when it is lossy.
+Use CSC first when one source-bearing side, model, state representation, or evidence set is made less detailed for a narrower use, or when review discovers that a coarsened rendering already in circulation can be retained only under a narrower-use card: summary, dashboard row, orientation note, partner-safe version, simplified diagram, or coarse working description. Ordinary controlled simplification remains CSC even when it is lossy.
 
 Action path:
 
@@ -57,10 +57,9 @@ Action path:
 5. State when to reopen the source-bearing side.
 6. If the coarsened rendering claims to preserve action, intervention, manipulation, explanation, or cross-abstraction structure, state the causal-abstraction or approximate-causal-abstraction mapping before treating the shortcut as QL coarsening.
 7. Ask whether the shortcut depends on a QL cue such as incompatible probes, contextual probability, instrument-like update, open-information-system update whose update rule, probe frame, or export admissibility is part of the modeling requirement, or no faithful-enough export of the represented state for the admissible use. If not, stay in CSC.
-8. If yes, coordinate with the `C.26` state-representation coarsening support section while leaving CSC as the controlled-use boundary for the coarsened version.
+8. If yes, coordinate with the `C.26` state-representation coarsening admissibility section while leaving CSC as the controlled-use boundary for the coarsened version.
 
 For ordinary use, start with the standard shortcut mini-form:
-
 
 | Mini-entry | Question |
 | --- | --- |
@@ -85,6 +84,6 @@ Use a fuller CSC and `C.26` coarsening boundary record only when the coarsened s
 Useful outputs:
 
 - a CSC mini-form when the issue is controlled simplification;
-- a fuller C.26 coarsening support record only when a QL cue remains and the claim is reusable, formal, empirical, high-stakes, or comparative-performance-bearing;
+- a fuller C.26 coarsening admissibility record only when a QL cue remains and the claim is reusable, formal, empirical, high-stakes, or comparative-performance-bearing;
 - no QL wording when the case is only summary, anonymization, diagramming, audience adaptation, or ordinary coarsening.
 

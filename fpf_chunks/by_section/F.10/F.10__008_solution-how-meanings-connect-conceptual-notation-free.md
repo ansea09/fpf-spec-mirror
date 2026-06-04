@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Solution — how meanings connect (conceptual, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_solution-how-meanings-connect-conceptual-notation-free.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:7 — Solution — how meanings connect (conceptual, notation‑free)"
-line_start: 71967
-line_end: 71985
+line_start: 72676
+line_end: 72693
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -48,5 +48,4 @@ Example: **Measured availability (SOSA)** →ᴍᴇᵃ **SLO clause (ITIL)** wit
 
 **S‑5. Prefer explanation over substitution.**
 If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** substitute. Use **Naming‑only** rows or **explanations**; keep Role Descriptions (F.4) out of harm’s way.
-
 

@@ -6,12 +6,12 @@ section_id: "F.16:6"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__007_invariants-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:6 — Invariants (normative)"
-line_start: 73978
-line_end: 73989
+line_start: 74584
+line_end: 74594
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -36,5 +36,4 @@ keywords:
 6. **Window discipline.** If comparison depends on time/scale/phase, a **window** is stated rather than minting a new Status type.
 7. **SoD integrity.** If duties are involved, **SoD** is explicit and unbroken.
 8. **Didactic parsimony.** One page, one claim, one row (or a tiny bundle of closely related rows).
-
 

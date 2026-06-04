@@ -6,16 +6,15 @@ section_id: "E.17.2:1"
 section_title: "Problem frame  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__002_problem-frame-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:1 — Problem frame  (informative)"
-line_start: 61392
-line_end: 61410
+line_start: 62288
+line_end: 62306
 dependencies:
   - "A.1"
-  - "A.6.2"
-  - "A.6.4"
+  - "A.6.2-A.6.4"
   - "A.7"
   - "C.2.1"
   - "E.10.D2"
@@ -25,18 +24,9 @@ dependencies:
   - "E.18"
   - "E.TGA"
   - "F.18"
-  - "U.Episteme"
-  - "U.EpistemeSlotGraph"
   - "U.MultiViewDescribing"
-  - "U.System"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "E.TGA bindings"
-  - "EoIClass = U.Holon"
-  - "Functional/Procedural/Role-Enactor/Module-Interface views"
-  - "ISO 42010 mapping"
-  - "engineering viewpoints"
-  - "holon"
 ---
 
 ### E.17.2:1 - Problem frame  *(informative)*
@@ -50,11 +40,11 @@ Engineering teams almost always talk about systems and their models through a **
 In industry, these lenses show up under many names: *functional view, logical view, behavioural view, process view, structural/physical view, deployment view, responsibility view,* and so on. Modern standards and tools (ISO/IEC/IEEE 42010:2022, INCOSE SE Handbook, SysML v2 “views as queries”) all recognise that **viewpoints should be reusable structures**, not ad‑hoc labels.
 
 In FPF, E.17.0 and E.17.1 give the **generic machinery**:
-* `U.Viewpoint` as an intensional specification (stakes/concerns/allowed D/S kinds),
+* `U.Viewpoint` as a viewpoint specification (stakes/concerns/allowed Description kinds and specification-use gates),
 * `U.View` as an episteme‑level view (epistema under a viewpoint),
 * `U.ViewpointBundle` / `ViewFamilyId` as reusable collections of viewpoints.
 
-E.TGA (E.18:5.12) already assumes a **canonical engineering family** with names like “Functional”, “Procedural”, “Role‑Enactor (Device‑Structure)”, “Module‑Interface”. Without a formal bundle tying these together, those names drift and the mapping between E.TGA, MVPK and I/D/S becomes fragile.
+E.TGA (E.18:5.12) already assumes a **canonical engineering family** with names like “Functional”, “Procedural”, “Role-Enactor (Device-Structure)”, “Module-Interface”. Without a formal bundle tying these together, those names drift and the mapping between E.TGA, MVPK, EntityOfConcern, Description-episteme boundary, and specification use becomes fragile.
 
 TEVB addresses this by defining a **single, explicit engineering bundle** with a fixed `ViewFamilyId` and a small set of canonical engineering viewpoints over `U.Holon`.
 

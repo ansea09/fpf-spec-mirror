@@ -6,12 +6,12 @@ section_id: "F.3:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:2 — Problem Frame"
-line_start: 69167
-line_end: 69178
+line_start: 69990
+line_end: 70000
 dependencies:
   - "A.11"
   - "A.7"
@@ -41,5 +41,4 @@ context‑local units (LNF + labels + gloss) from F.2 often **over‑ or under�
 4. **Didactic mismatch:** engineer‑friendly label and plain label drift apart when units remain too granular.
 
 F.3 repairs this **inside the Context** by clustering “same sense” and distinguishing “different sense”, with **parsimony**.
-
 

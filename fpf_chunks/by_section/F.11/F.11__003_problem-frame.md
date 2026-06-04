@@ -6,12 +6,12 @@ section_id: "F.11:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:2 — Problem frame"
-line_start: 72234
-line_end: 72243
+line_start: 72933
+line_end: 72941
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,5 +47,4 @@ When Method, MethodDescription, Work, and Actuation **collapse into one another*
 2. **Recipe/approval fallacy.** An *approved* SOP (MethodDescription) is treated as proof that the service met its SLO.
 3. **Execution ≟ control.** PLC *task execution* logs are conflated with *control outputs* (actuation), hiding stability issues.
 4. **Cross‑context homonymy.** *Activity, task, execution, process, command* change sense across Contexts; inferences quietly break.
-
 

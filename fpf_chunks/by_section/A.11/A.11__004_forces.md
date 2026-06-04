@@ -6,12 +6,12 @@ section_id: "A.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:3 — Forces"
-line_start: 18533
-line_end: 18542
+line_start: 18605
+line_end: 18613
 dependencies:
   - "A.11"
   - "U.Type"
@@ -30,5 +30,4 @@ keywords:
 | **Inclusivity vs Purity**        | New domains want vocabulary ↔ kernel must not be a dumping ground. |
 | **Evolution vs Stability**       | Framework grows ↔ users depend on a stable core.                   |
 | **Prestige vs Utility**          | Authors enjoy naming things ↔ every name tcharacteristics everyone else.      |
-
 

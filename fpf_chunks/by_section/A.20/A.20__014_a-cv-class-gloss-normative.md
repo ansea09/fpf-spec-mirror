@@ -6,12 +6,12 @@ section_id: "A.20:Appendix"
 section_title: "A — CV Class Gloss (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__014_a-cv-class-gloss-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:Appendix — A — CV Class Gloss (normative)"
-line_start: 27342
-line_end: 27367
+line_start: 27550
+line_end: 27575
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -48,7 +48,7 @@ keywords:
   **Minimal declaration template (normative):**
   `AdmissibilityConditions := { Domains[]{var, type, range, units, plane}, Guards[]{predicate, editionRefs}, ObservationWindows[]{Γ selector, freshness window}, ObservableSigns[]{name, detection rule}, Editions{...} }`
   — **No unit/plane declaration or translation** here; only references. Γ selectors SHALL be explicit.
-* **LipschitzBounds / stability.** Bounded sensitivity under a declared metric, used only when a perturbation, sensitivity, robustness, continuity, safety-envelope, or stability claim is load-bearing.
+* **LipschitzBounds / stability.** Bounded sensitivity under a declared metric, used only when a perturbation, sensitivity, robustness, continuity, safety-envelope, or stability claim changes the CV use.
   **Publication ref shape (normative):**
   `LipschitzBoundRef := { method ∈ {spectral_norm|CROWN|IBP|rand_smoothing|other}, metric_space: {X: norm_id, Y: norm_id}, bound: value_or_interval, units/plane: P, validity_window: Γ_time(basis), edition: EditionId, certificateRef?: LipschitzCertificateId }`.
   **Referenced evidence/certificate object (normative):**
@@ -57,7 +57,7 @@ keywords:
 * **TypeDomainRange.** Well-typedness and type, domain, and range consistency for the transformation signature; refs point to the governing definitions.
 * **ReinterpretationEquivalence (StructuralReinterpretation only).** Existence of a correspondence/reversibility witness between source and retarget projections; preservation of `⟨L,P,E⃗,D⟩`; no comparator/plane/unit declaration or translation at CV.
   **Witness (normative):** `ReinterpWitness` / `ReinterpretationEquivalenceWitness` (see §4.7) with: `(i)` `PathSliceId`, `PublicationScopeId`, `(ii)` bidirectional mapping (iso/optic) with Put-Get/Get-Put obligations, `(iii)` commuting squares for adjacent raw transfers, `(iv)` **NoHiddenScalarization** assertion when comparable, and `(v)` definedness region.
-  The witness is PathSlice-local and supports idempotence and reversibility within the addressed slice. Any describedEntity change SHALL have `KindBridge (CL^k)` on UTS.
+  The witness is PathSlice-local and is admissible only for idempotence and reversibility within the addressed slice. Any EntityOfConcernRef change SHALL have `KindBridge (CL^k)` on UTS.
 
 #### A.20:Appendix B — LEX discipline (summary)
 

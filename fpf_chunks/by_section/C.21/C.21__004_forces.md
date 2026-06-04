@@ -6,12 +6,12 @@ section_id: "C.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:3 — Forces"
-line_start: 43215
-line_end: 43223
+line_start: 43119
+line_end: 43127
 dependencies:
   - "A.17"
   - "A.18"
@@ -46,5 +46,5 @@ keywords:
 | **Comparability vs nuance**      | Need global pictures without erasing local meaning (Context, traditions, cohorts).                                         |
 | **Ordinal vs interval/ratio**    | Powerful stats tempt illegal ops on ranks and categories.                                                                  |
 | **Local evidence vs federation** | Health must be computed *in room* (Context slice) yet projectable across rooms via Bridges & CL (penalties to **R** only). |
-| **Recency vs stability**         | Health evolves; dashboards must reflect **freshness**, not just cumulative history.                                        |
+| **Recency vs stability**         | Health evolves; time-series or dashboard views need **freshness**, not just cumulative history.                           |
 

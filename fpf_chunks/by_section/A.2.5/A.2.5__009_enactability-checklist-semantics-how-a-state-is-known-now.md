@@ -6,12 +6,12 @@ section_id: "A.2.5:8"
 section_title: "Enactability & Checklist semantics (how a state is known, now)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__009_enactability-checklist-semantics-how-a-state-is-known-now.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:8 — Enactability & Checklist semantics (how a state is known, now)"
-line_start: 3504
-line_end: 3560
+line_start: 3461
+line_end: 3516
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -84,5 +84,4 @@ Corollaries:
 * **RSG‑E2 (Specialization lift).** If the step requires a **general role** `R`, and the holder has a `StateAssertion` for a **specialist role** `R' ≤ R` in an **enactable** state whose **lift** (see §9.1) is enactable for `R`, the gate passes.
 * **RSG‑E3 (Bundle gate).** If the step requires a **bundle** `R* = R₁ ⊗ … ⊗ Rₙ`, enactment requires **n distinct `StateAssertions`** meeting RSG‑E1 for each `Rᵢ` (unless the Context defines a **CompositeRole** with its own RSG; see §9.3).
 * **RSG‑E4 (Status‑only roles).** Roles with `S_en = ∅` can **never** authorize enactment; they may **gate decisions** (e.g., *ApprovedSpecRole*) but not `U.Work`.
-
 

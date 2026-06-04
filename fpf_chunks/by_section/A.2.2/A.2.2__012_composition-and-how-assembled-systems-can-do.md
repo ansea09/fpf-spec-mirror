@@ -6,12 +6,12 @@ section_id: "A.2.2:11"
 section_title: "Composition and Γ (how assembled systems “can do”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__012_composition-and-how-assembled-systems-can-do.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:11 — Composition and Γ (how assembled systems “can do”)"
-line_start: 2481
-line_end: 2489
+line_start: 2466
+line_end: 2473
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -40,5 +40,4 @@ keywords:
 * **Express at the whole.** “Cell\_3 can place 12 PCB/min with ±0.1 mm” — that is a capability of **Cell\_3**, not of the pick‑and‑place head alone.
 * **State dependencies.** “Valid while Feeder\_A delivers reels at ≥ X; vision subsystem calibrated ≤ 72 h ago.”
 * **Constructor vs. transformer.** The **ConstructorRole** builds the composite (Γ); the resulting **TransformerRole** may later act on products. Capability belongs to the holder relevant to the action (builder’s ability vs operator’s ability).
-
 

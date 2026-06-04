@@ -6,12 +6,12 @@ section_id: "B.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:3 — Forces"
-line_start: 28174
-line_end: 28184
+line_start: 28390
+line_end: 28399
 dependencies:
   - "A.1"
   - "A.9"
@@ -39,5 +39,4 @@ keywords:
 | **Safety vs Synergy**           | Conservative *Weakest‑Link* bound ↔ modelling genuine redundancy wins.                     |   |
 | **Simplicity vs Fidelity**      | Five rules managers can remember ↔ enough depth for formal proof.                          |   |
 | **Auditability vs Overhead**    | Machine‑checkable Standard ↔ authors must show their invariants.                           |   |
-
 

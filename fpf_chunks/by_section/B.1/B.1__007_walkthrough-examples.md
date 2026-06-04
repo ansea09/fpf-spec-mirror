@@ -6,12 +6,12 @@ section_id: "B.1:6"
 section_title: "Walkthrough Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__007_walkthrough-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:6 — Walkthrough Examples"
-line_start: 28249
-line_end: 28275
+line_start: 28464
+line_end: 28489
 dependencies:
   - "A.1"
   - "A.9"
@@ -55,5 +55,4 @@ keywords:
 #### B.1:6.3 - `Γ\_time` — National Grid Frequency Forecast (2025‑2030)
 
 *COMM* holds only across non‑overlapping windows; *LOC* is waived because regional sensors differ in latency.  Additional TS‑1/TS‑2 rules ensure gaps are filled before aggregation.  Engineers iterate locally yet obtain one coherent five‑year projection.
-
 

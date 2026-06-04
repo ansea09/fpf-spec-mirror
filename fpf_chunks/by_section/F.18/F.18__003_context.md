@@ -6,12 +6,12 @@ section_id: "F.18:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__003_context.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:1 — Context"
-line_start: 74499
-line_end: 74510
+line_start: 75087
+line_end: 75098
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -31,9 +31,9 @@ Names must carry enough signal for everyday use, yet never smuggle in Cross‑co
 
 **Scope.** This protocol applies to naming of **any concepts** authored in Part F (U.Types and **local concepts** alike: kinds, roles, services, methods, works, relations, characteristics, states/statuses, etc.). The **U.Types** norms in this section are a **specialization**, not a restriction of scope.
 
-**Purpose of this pattern.** Provide a **human‑legible, context‑anchored naming protocol** that:
+**Purpose of this pattern.** Provide a **human-legible, context-bound naming protocol** that:
 * keeps *local meaning first* and prevents Cross‑context conflation;
 * makes the **kind** of thing explicit (System, Episteme, Role, Service, Method, Work, Decision, Requirement, etc.);
 * integrates smoothly with **Concept-Sets**, **`U.RoleDescription`**, and **Bridges** without requiring any special notation or tooling;
-* supports lineage actions (mint, reuse, align, deprecate, split/merge) with a paper trail that managers can audit.
+* records lineage actions (mint, reuse, align, deprecate, split/merge) with a paper trail that managers can audit.
 

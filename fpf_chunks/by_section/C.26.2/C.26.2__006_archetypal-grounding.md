@@ -6,12 +6,12 @@ section_id: "C.26.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:5 — Archetypal Grounding"
-line_start: 46733
-line_end: 46741
+line_start: 46629
+line_end: 46636
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,6 @@ keywords:
 ---
 
 ### C.26.2:5 - Archetypal Grounding
-
 
 Tell: During an incident, several teams independently stop non-critical releases, reroute support, and prepare rollback evidence before any single manager issues a written decision. Later, a survey asks whether "we had decided to freeze release", and answers conflict.
 

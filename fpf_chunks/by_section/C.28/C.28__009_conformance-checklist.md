@@ -6,12 +6,12 @@ section_id: "C.28:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__009_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:7 — Conformance Checklist"
-line_start: 49982
-line_end: 49998
+line_start: 49823
+line_end: 49839
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,8 +60,8 @@ keywords:
 | `CC-C28-5` Counterfactual data collection is work | Any realized counterfactual-rung-data procedure is represented as `U.Work` enacted by `U.System` under `RoleAssignment`, with `MethodDescription`, `WorkPlan`, evidence carriers, and physical, ethical, and operational guards. |
 | `CC-C28-6` Verdicts are action grammar | `supported`, `bounded`, `unsupported`, and `abstain` each change what the reader may do next. |
 | `CC-C28-7` No durable-card default | Escalate from triage to local card to durable card and profiles only when the claimed use triggers the durable causal-use object. |
-| `CC-C28-8` Heavy causal-use object payoff | Every selected heavy field or check changes a reader action, blocks a specific overclaim, or supports a concrete evidence/assurance/fairness/parity decision. |
+| `CC-C28-8` Heavy causal-use object payoff | Every selected heavy field or check changes a reader action, blocks a specific overclaim, or supports a concrete evidence and assurance/fairness/parity decision. |
 | `CC-C28-9` Semantic-authority split | `C.28` governs causal-use value sets, identification profiles and realizability profiles, graph naming and calculus naming, and support verdicts; neighbors may consume or quote them but must not define competing causal-use value sets. |
 | `CC-C28-10` Simulation-only bounded use | Simulation-only output may support bounded model-supported use, but it never becomes interventional evidence or realized counterfactual sample evidence by vocabulary, validation, or role relabeling alone. |
-| `CC-C28-11` Decision-economics of evidence | A causal-evidence plan for deployment, assurance, audit, benchmark, policy, fairness, or support-treatment use names the decision threshold, evidence value or probe-worthiness, and cost/risk posture when escalation is not already mandatory by safety, release, or assurance constraints. |
+| `CC-C28-11` Decision-economics of evidence | A causal-evidence plan for deployment, assurance, audit, benchmark, policy, fairness, or support-treatment use names the decision threshold, evidence value or probe-worthiness, and cost/risk condition when escalation is not already mandatory by safety, release, or assurance constraints. |
 

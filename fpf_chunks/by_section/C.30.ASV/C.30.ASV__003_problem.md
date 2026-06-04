@@ -6,12 +6,12 @@ section_id: "C.30.ASV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:2 — Problem"
-line_start: 52193
-line_end: 52207
+line_start: 52581
+line_end: 52595
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.22"
   - "A.6.3"
   - "A.6.F"
+  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.11"
@@ -55,16 +56,16 @@ keywords:
 
 ### C.30.ASV:2 - Problem
 
-An architecture structural view is not a generic view. It is a D/S view over one or more `candidate:U.Structure` references selected by an `ArchitectureOf@Context` claim record. A conforming architecture structural view keeps the D/S relation, described entity, bounded context, structure references, structure kind, viewpoint, hidden or lost structure, correspondence, source or reliance relation, source return, and admissible use recoverable.
+An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is live, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view is live, only to record that selected-structure move. Publication faces, forms, units, carriers, and renderings may publish the view; they are not the view and do not become the selected structure.
 
 Without this pattern:
 
-- a module/interface view is treated as all architecture;
+- a module-interface view is treated as all architecture;
 - a TGA graph or control diagram is treated as proof;
 - a structure kind is treated as a `U.Viewpoint`;
 - a TEVB viewpoint bundle is mutated to carry architecture-specific structure kinds;
 - a diagram, table, dashboard, generated relation graph, or ADR is treated as the view itself;
-- functional architecture is treated as a peer ontology rather than a structure-kind reading under C.30;
+- functional architecture is treated as a peer ontology rather than a structure-kind interpretation under C.30;
 - cross-view consistency is asserted by prose instead of correspondence records;
 - omitted structure is relied on in subsequent work without a source-return condition.
 

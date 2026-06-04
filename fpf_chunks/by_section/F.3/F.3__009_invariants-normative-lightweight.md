@@ -6,12 +6,12 @@ section_id: "F.3:8"
 section_title: "Invariants (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__009_invariants-normative-lightweight.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:8 — Invariants (normative, lightweight)"
-line_start: 69250
-line_end: 69261
+line_start: 70068
+line_end: 70078
 dependencies:
   - "A.11"
   - "A.7"
@@ -41,5 +41,4 @@ keywords:
 6. **Counter‑examples rule.** If a counter‑example exists that the sense would wrongly include, **split**.
 7. **No behaviour math.** Sense lines contain **no** behavioural, deontic, metrological, or type calculus; those live in Part C.
 8. **Temporal honesty.** If the Context fixes **DesignRunTag**, the sense line respects it (e.g., PROV *activity* is **run‑time**).
-
 

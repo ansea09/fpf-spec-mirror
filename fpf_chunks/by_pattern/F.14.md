@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.14.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
-line_start: 73198
-line_end: 73491
+line_start: 73852
+line_end: 74127
 dependencies:
   - "F.1"
   - "F.10"
@@ -40,7 +40,6 @@ keywords:
 **Coordinates with.** F.10 **Status Windows & Mapping**; F.11 **Method Quartet Harmonisation**; F.12 **Service Acceptance Binding**; F.13 **Lexical Continuity**.
 **Aliases (informative).** *Role and Status economy*; *Explosion guard*.
 
-
 ### F.14:1 - Intent & applicability
 
 **Intent.** Prevent the uncontrolled growth of **Roles** and **Statuses** by privileging **reuse**, **bundling**, **explicit separation‑of‑duties (SoD)**, and **applicability windows** over minting new names. Keep the vocabulary **small, crisp, and composable** while remaining faithful to local meanings fixed by Contexts (F.1) and SenseCells (F.3).
@@ -48,7 +47,6 @@ keywords:
 **Applicability.** Whenever a new Role or Status is proposed, a team merges two lines of work, or a domain shifts its jargon. Use this pattern before adding rows to the Concept‑Set Table (F.7) or new Role Descriptions (F.4).
 
 **Non‑goals.** No org charts, no RBAC policies, no process roles. This pattern describes **mental moves** for architectural naming, not governance machinery.
-
 
 ### F.14:2 - Problem frame
 
@@ -62,7 +60,6 @@ Left unchecked, Role and Status vocabularies tend to **diverge**:
 
 Explosion harms didactics and increases alignment cost (F.9).
 
-
 ### F.14:3 - Forces
 
 | Force                           | Tension to resolve                                                                                     |
@@ -72,7 +69,6 @@ Explosion harms didactics and increases alignment cost (F.9).
 | **Safety vs convenience**       | SoD constraints protect systems, but people seek convenience through composite roles.                  |
 | **Temporal honesty**            | Many “new” Statuses are actually the **same** Status seen in different **windows** (design, run, or grace). |
 
-
 ### F.14:4 - Minimal vocabulary (this pattern only)
 
 * **Role Description** (F.4): a **Role** (behavioural mask) or **Status** (epistemic/deontic standing) tied to a **SenseCell**.
@@ -80,7 +76,6 @@ Explosion harms didactics and increases alignment cost (F.9).
 * **Bundle** (this pattern): a **named composition** of Role Descriptions that are meant to be used together by design (e.g., {Requester, Approver} for change control). A Bundle is a **concept**, not a package.
 * **SoD Constraint** (this pattern): a **conceptual rule** stating that two Roles **must not** be played by the same Holder in the **same window**.
 * **Window** (F.10): an **claim scope** (time stance, holon level, run segment) that delimits when a Role or Status holds.
-
 
 ### F.14:5 - Core idea (didactic)
 
@@ -91,7 +86,6 @@ Explosion harms didactics and increases alignment cost (F.9).
 3. **Declare SoD, don’t fuse.** When Roles must stay apart, **state the SoD** instead of minting a “super‑role.”
 4. **Window, don’t multiply.** When a Status looks different across time/scale, keep **one Status** with **explicit windows**.
 
-
 ### F.14:6 - Solution — the control cabinet (conceptual, notation‑free)
 
 #### F.14:6.1 - Reuse by row (first lever)
@@ -101,7 +95,6 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 **Example (services).** *Service‑availability‑compliance* already exists as a row. New labels *SLO‑Met* / *Uptime‑OK* **reuse** that row; SOSA/SSN Observations later feed it (F.12).
 
-
 #### F.14:6.2 - Bundle instead of hybrid (second lever)
 
 * **Move.** When practice always pairs two Roles, define a **Bundle** `{RoleA, RoleB}`.
@@ -109,14 +102,12 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 **Example (enactment).** `{Requester, Approver}` is a Bundle. *Request‑Approver* (one Role) is **not** allowed; it contradicts intended checks.
 
-
 #### F.14:6.3 - Separate by SoD, don’t evade (third lever)
 
 * **Move.** Record **SoD constraints** where separation matters (“Requester ⟂ Approver in run window”).
 * **Why here.** SoD belongs to **semantics**, not org policy; it protects structure across Contexts and times.
 
 **Example (methods).** `{Author ⟂ Reviewer}` in the **review window**. A proposal *Senior‑Reviewer* to “do both” is rejected; the **Bundle** remains `{Author, Reviewer}` with SoD.
-
 
 #### F.14:6.4 - Window the Status (fourth lever)
 
@@ -130,13 +121,11 @@ Explosion harms didactics and increases alignment cost (F.9).
 * *grace window:* “temporarily tolerated breach”.
   One Status; clear windows.
 
-
 #### F.14:6.5 - Factor modifiers as facets, not names
 
 * **Move.** Treat qualifiers (shift, locality, domain) as **facets** of the same Role or Status or as **windows**, not new types.
 
 **Example (operations).** *Operator* with **window facet** `timeOfDay = night`—not a new Role *Night‑Operator*.
-
 
 ### F.14:7 - Invariants (normative)
 
@@ -147,7 +136,6 @@ Explosion harms didactics and increases alignment cost (F.9).
 5. **Bundle clarity.** A Bundle **names only composition**; it does not inherit or redefine member semantics.
 6. **Minimal modifier naming.** Adding a modifier to a label **MUST** pass F.5 tests; prefer facets/windows over new Role or Status names.
 7. **Concept‑first.** No invariant relies on organization charts or access policies; **semantics precede governance**.
-
 
 ### F.14:8 - Reasoning primitives (judgement schemas)
 
@@ -178,7 +166,6 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 6. **Facet over rename**
    `modifier m changes circumstance ¬ essence ⊢ preferFacet(τ,m)`
    *Reading:* If a modifier alters circumstances only, represent it as a facet/window.
-
 
 ### F.14:9 - Micro‑examples (engineer, manager, and researcher lenses)
 
@@ -231,7 +218,6 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 | **A13** | **Contextless Role Description**            | Role Description without a SenseCell anchor.                                                     | Floating meaning; later bridges cannot be made explicit.          | Tie every **Role Description** to a **SenseCell** (F.4). If none fits, use F.8 to decide: **new row** or **rename/reuse**.        |
 | **A14** | **Profile‑driven clones**                | *API‑Approver*, *Data‑Approver*, *Model‑Approver* as different Roles.                        | Scales by surface area; loses the shared essence.                 | One **Approver** Role with a **scope facet** (`objectType=API/Data/Model`).                                                       |
 
-
 ### F.14:11 - Worked examples
 
 #### F.14:11.1 - Enactment + Services + KD‑CAL — “SLO compliance without label sprawl”
@@ -270,7 +256,6 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 * **Moves.** Keep one **Evidence Status** ladder (`Collected → Verified → Validated`); use **Assurance Level** facet (numeric or ordinal) and **windows** for in‑review vs active. Align *types* in a **row**; do not mint new Status names for granularity.
 * **Outcome.** Short vocabulary, clear ladder, quantitative facet where nuance is needed.
 
-
 ### F.14:12 - Relations (with other patterns)
 
 * **Builds on:** F.1 (Contexts), F.2 (Harvesting), F.3 (Local Clustering), F.4 (Role Description), F.5 (Naming).
@@ -283,7 +268,6 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
   * **F.13 (Lexical Continuity):** prior names become **aliases**; do not carry forward inflated vocabularies as new types.
 * **Used by.** FPF patterns to keep Role and Status vocabularies tight.
 
-
 ### F.14:13 - Migration notes (conceptual playbook)
 
 1. **Map to rows.** For each existing Role or Status, identify its **Concept‑Set row**; if two names share an intent, **collapse** to one row (keep other names as **aliases**, F.13).
@@ -293,7 +277,6 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 5. **Re‑use before minting.** When encountering a gap, scan rows for a near‑match; only if intent genuinely differs, open a **new row** (F.8).
 6. **Preserve continuity.** Keep historic labels as **aliases** under the consolidated template (F.13); do not rewrite past texts.
 7. **Rehearse the cut.** After consolidation, you should be able to recite the entire Role and Status vocabulary **from memory**; if not, reduce again.
-
 
 ### F.14:14 - Acceptance tests (SCR/RSCR — concept‑level)
 
@@ -312,7 +295,6 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 * **RSCR‑F14‑E02 (SoD integrity).** Adding templates does not introduce a label that **circumvents** any existing **SoD** relation.
 * **RSCR‑F14‑E03 (Window integrity).** When windows are refined, **Status type count** remains constant; only window definitions change.
 * **RSCR‑F14‑E04 (Alias discipline).** When labels change, prior names are recorded as **aliases** (F.13); no silent type multiplication.
-
 
 ### F.14:15 - Didactic distillation (90‑second script)
 

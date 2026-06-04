@@ -6,12 +6,12 @@ section_id: "E.17.EFP:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:5 — Archetypal grounding"
-line_start: 62703
-line_end: 62787
+line_start: 63584
+line_end: 63668
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ This stays within `SourceLinkedExplanationReconstruction` if the connective pros
 
 A minimal `addedLinkPolicy` for this slice would say:
 - `addedLinkKind = relation-explication only`;
-- `sourceAnchorSet = {D-14, D-18}`;
+- `sourceReferenceSet = {D-14, D-18}`;
 - `boundednessReason = makes an already implied joint constraint explicit without adding a new mechanism, policy conclusion, or unsupported modality lift`;
 - `forbiddenLinkClass = design-scope robustness or gate-sufficiency claim`.
 
@@ -63,14 +63,14 @@ A minimal `addedLinkPolicy` for this slice would say:
 
 **Published explanation.** `Method M-2 is selected here because the material condition and resource window match the declared method family. Use WP-17 for planning and RM-4 for result measurement.`
 
-This may stay within `SourceLinkedExplanationReconstruction` when the explanation keeps its source anchors visible and only makes the already source-supported selection relation easier to inspect. It supports interpretation, source-finding, and selected-method inspection. It is not evidence that work occurred, not a gate decision, and not engineering justification. Evidence or provenance use requires a project evidence path governed by `A.10`; engineering-justification use requires an engineering-justification record governed by `B.3`; method-selection use requires project `U.Method`, work-plan use requires `U.WorkPlan` under `A.15`, and work-occurrence use requires a dated `U.Work` occurrence under `A.15.1`; gate use requires the project gate or constraint decision governed by `A.20` or `A.21`.
+This may stay within `SourceLinkedExplanationReconstruction` when the explanation keeps its source references visible and only makes the already source-recoverable selection relation easier to inspect. It is admissible for interpretation, source-finding, and selected-method inspection. It is not evidence that work occurred, not a gate decision, and not engineering justification. Evidence or provenance use requires a project evidence path governed by `A.10`; engineering-justification use requires an engineering-justification record governed by `B.3`; method-selection use requires project `U.Method`, work-plan use requires `U.WorkPlan` under `A.15`, and work-occurrence use requires a dated `U.Work` occurrence under `A.15.1`; gate use requires the project gate or constraint decision governed by `A.20` or `A.21`.
 
 #### E.17.EFP:5.2.a - Mixed-face bundle with different explanation classes
 **Source slice.** `Claim D-31 and trace set T-8 jointly show that the reserve path remains available during the short overload interval.`
 
 **`PlainView` rendering.** `The reserve path stays available during the short overload interval. Source pins: D-31, T-8.`
 
-**`TechCard` rendering.** `D-31 and T-8 jointly support availability of the reserve path during the short overload interval; this rendering adds bounded connective prose to make the support relation explicit.`
+**`TechCard` rendering.** `D-31 and T-8 jointly evidence availability of the reserve path during the short overload interval; this rendering adds bounded connective prose to make the source relation explicit.`
 
 The `PlainView` rendering may stay `SourcePinnedExplanation` while the `TechCard` rendering is `SourceLinkedExplanationReconstruction`. The bundle is admissible only if that class difference is stated rather than hidden under one blanket label.
 

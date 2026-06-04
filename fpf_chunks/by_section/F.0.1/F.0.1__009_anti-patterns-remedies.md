@@ -6,12 +6,12 @@ section_id: "F.0.1:8"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__009_anti-patterns-remedies.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:8 — Anti‑patterns & remedies"
-line_start: 68321
-line_end: 68336
+line_start: 69184
+line_end: 69198
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -51,5 +51,4 @@ keywords:
 | **A8**  | **Transitivity overreach**       | Chaining low-CL near-equivalences as if exact                | Inflates sameness; hides mismatch                   | **Bridge composition** (Sec. 10): compose with **min-CL** and keep the relation downgrade declared     |
 | **A9**  | **Domain ≡ Context**                | “Domain” name used as if it were a `U.BoundedContext`      | Domain families are informal; Contexts are formal      | Keep **Domain family** informative on Context Cards; meanings bind to **Contexts** only         |
 | **A10** | **Time‑stance confusion**        | Treating `design` and `run` senses as identical            | Crosses senseFamilies; erases execution/spec split         | Carry **time stance** on Context Cards; prefer `design‑spec‑of` / `run‑trace‑of` Bridges     |
-
 

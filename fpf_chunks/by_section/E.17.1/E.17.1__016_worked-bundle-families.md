@@ -6,12 +6,12 @@ section_id: "E.17.1:15"
 section_title: "Worked Bundle Families"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__016_worked-bundle-families.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:15 — Worked Bundle Families"
-line_start: 61231
-line_end: 61270
+line_start: 62124
+line_end: 62163
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -74,5 +74,5 @@ A local inquiry note might import only three of these viewpoints, but the import
 
 #### E.17.1:15.4 - Cross-family description stack
 
-A serious project may use TEVB engineering viewpoints for the design family, a governance bundle for program oversight, and a publication-oriented family for public surfaces. `E.17.1` makes this stack lawful by preserving which bundle each viewpoint came from and by preventing the final publication surface from masquerading as the viewpoint library itself.
+A serious project may use TEVB engineering viewpoints for the design family, a governance bundle for program oversight, and a publication-oriented family for public publication faces/forms. `E.17.1` keeps this stack admissible for review by preserving which bundle each viewpoint came from and by preventing the final publication face/form from masquerading as the viewpoint library itself.
 

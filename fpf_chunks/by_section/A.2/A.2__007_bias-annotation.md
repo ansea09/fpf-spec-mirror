@@ -6,12 +6,12 @@ section_id: "A.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:6 — Bias-Annotation"
-line_start: 1615
-line_end: 1627
+line_start: 1616
+line_end: 1628
 dependencies:
   - "A.1"
   - "A.1.1"

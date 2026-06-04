@@ -6,12 +6,12 @@ section_id: "F.8:5"
 section_title: "The decision lattice (conceptual, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_the-decision-lattice-conceptual-notation-free.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:5 — The decision lattice (conceptual, notation‑free)"
-line_start: 70751
-line_end: 70801
+line_start: 71513
+line_end: 71562
 dependencies:
   - "A.11"
   - "A.7"
@@ -83,5 +83,4 @@ keywords:
 * **No →** you **do not mint** a new type. Re‑express the need in terms of **Context reuse**, **row reuse**, **Alias**, or a **Role Description**.
 
 > *Example (researcher).* You think we need **U.InfluenceEdge** (causal tendency). If it appears as a stable, **senseFamily‑specific** notion across **control**, **epistemic inference**, and **methods** (≥ 3 families), and cannot be formed from existing `U.Relation` subtypes, it **may** qualify. Otherwise, treat it as a **pattern** or a **row**.
-
 

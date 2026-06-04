@@ -6,12 +6,12 @@ section_id: "C.30.LCA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__012_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:11 — SoTA-Echoing"
-line_start: 53048
-line_end: 53056
+line_start: 53450
+line_end: 53458
 dependencies:
   - "A.10"
   - "A.20"
@@ -25,6 +25,8 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.30.LCA"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.18"
   - "G.6"
@@ -40,10 +42,10 @@ keywords:
 
 ### C.30.LCA:11 - SoTA-Echoing
 
-| SoTA/practice anchor | What it supports | FPF adoption stance | Practitioner implication |
-|---|---|---|---|
-| Layered and multi-rate control architecture practice, with Matni/Ames/Doyle used here as lineage and practice basis for quantitative layered multi-rate control rather than as current proof by itself. | Planner, controller/regulator, observer, plant, supervisor, rate separation, and feedback relations are recognizable control-structure-view content. | Adopt and adapt: use the practice vocabulary to start or check a control-structure view, then assign stability, safety, timing, evidence, assurance, and gate claims to their governing FPF patterns. | A control-stack diagram can start a view record; it cannot close stability, safety, or evidence review. |
-| Feedback-control and cyber-physical systems practice. | Observation, actuation, plant dynamics, disturbances, and externality boundaries matter for control adequacy. | Adopt: keep boundary fields visible in the control view and assign dynamics/timing claims out. | If timing or plant behavior matters, open `C.27` or `A.3.3` instead of adding more claim force to the LCA sentence. |
-| ISO/IEC/IEEE 42010 architecture-description practice. | Architecture descriptions use viewpoints and views over concerns, and several views may describe one architecture. | Adopt and adapt: bind `ControlStructureView@Context` to `DescriptionContext` and `ArchitectureOf@Context`. | A control view is a view under a declared concern, not the architecture itself. |
-| FPF `B.2.5` supervisor-subholon feedback-loop material. | Supervisor-subholon relations are already useful FPF pattern material for feedback-loop recognition. | Reuse with boundary: cite `B.2.5` for the relation, not for proof. | A supervisor loop becomes inspectable without becoming evidence, assurance, or gate authority. |
-
+| SoTA and practice source | What it contributes | FPF adoption stance | Practitioner implication |
+| --- | --- | --- | --- |
+| Anderson, Doyle, Low, and Matni, "System Level Synthesis" (Annual Reviews in Control, 2019). | Structured controller-synthesis practice treats closed-loop responses, constraints, locality, and distributed implementation as explicit synthesis variables and implementation relations rather than as a box-and-arrow guarantee. | Adopt and adapt: use SLS as current control-structure pressure for explicit role, relation, locality, rate, and implementation-boundary fields; do not import SLS proof claims into C.30.LCA. | A distributed-control diagram can start a control-structure view; stability or robust-performance claims still move to dynamics or control proof patterns. |
+| Ames, Coogan, Egerstedt, Notomista, Sreenath, and Tabuada, "Control Barrier Functions: Theory and Applications" (ECC, 2019). | Safety-critical control separates a controller structure from a safety property and the mathematical certificate or enforcement method used for that property. | Adopt and adapt: keep safety wording visible as a neighboring safety or proof claim, not as control-view adequacy. | When the sentence says the supervisor or controller makes the plant safe, keep the control view and assign the safety claim to the exact safety, dynamics, evidence, or assurance pattern. |
+| Rawlings, Mayne, and Diehl, *Model Predictive Control: Theory, Computation, and Design*, 2nd ed. (2017). | Planner or regulator, receding-horizon, constraint, update-period, and model-boundary distinctions are common current MPC structure cues. | Adopt as control vocabulary: recover roles, rates, model boundaries, and constraints; assign timing and dynamics claims to `C.27` and `A.3.3` when live. | A multi-rate or MPC-style note should name rate bands and model boundaries before it claims adequacy. |
+| Leveson and Thomas, *STPA Handbook* (2018), as systems-theoretic safety-control practice. | Safety analysis treats unsafe control actions, feedback, process models, constraints, and losses as control-structure-relevant distinctions. | Adopt and adapt: allow safety-loss control-structure notes, while keeping safety-case verdicts and evidence sufficiency outside C.30.LCA. | A loss-control diagram can organize the view; it does not close the safety case. |
+| ISO/IEC/IEEE 42010:2022 architecture-description practice. | Architecture descriptions use concerns, viewpoints, views, and correspondences, and several views may describe one architecture. | Adopt and adapt: bind `ControlStructureView@Context` to `DescriptionContext` and `ArchitectureOf@Context`. | A control view is a view under a declared concern, not the architecture itself. |

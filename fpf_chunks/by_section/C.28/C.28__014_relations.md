@@ -6,12 +6,12 @@ section_id: "C.28:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__014_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:12 — Relations"
-line_start: 50066
-line_end: 50085
+line_start: 49906
+line_end: 49923
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,6 @@ keywords:
 
 ### C.28:12 - Relations
 
-
 - `C.16` governs measurement and metrics. `C.28` activates only when a measurement is used causally.
 - `C.27` governs temporal claim adequacy. `C.28` activates when temporal change is used as causal effect, intervention evidence, or counterfactual comparison.
 - `A.10` governs evidence graph referring. `C.28` supplies causal evidence support basis and causal-use support refs for evidence paths.
@@ -66,5 +65,4 @@ keywords:
 - `G.9` governs parity and benchmarks. `C.28` supplies causal method rung parity.
 - `G.11` governs refresh orchestration. `C.28` supplies causal-use support records whose realizability, identification, fairness, representation, off-policy, target-trial, and simulation-validation shifts can trigger refresh.
 - `C.26` governs quantum-like modeling. `C.28` is a required causal exit before QL retention when the live question is intervention, causal effect, causal fairness, causal policy, counterfactual comparison, or counterfactual-rung-data realizability.
-
 

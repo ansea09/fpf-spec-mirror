@@ -6,12 +6,12 @@ section_id: "C.26.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:4 — Solution"
-line_start: 46209
-line_end: 46381
+line_start: 46110
+line_end: 46281
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -84,7 +84,6 @@ Ordinary influence is not enough. A meeting that changes attention is ordinary w
 
 Performative prediction is also an important ordinary rival. If a prediction, score, or metric changes behavior because people act on it, but no incompatible probe frame, order-sensitive reading, contextual-probability cue, or instrument-like state/export support load remains, try performative-prediction analysis and the ordinary `C.16`, `A.10`, and `B.3` patterns first. Keep C.26.1 only for the residual probe admissibility question.
 
-
 #### C.26.1:4.2 - Finish conditions
 
 The pattern emits one of these results:
@@ -116,9 +115,9 @@ Ask: was the bounded-context cut merely discovered, or did the workshop, dashboa
 | Export loss | Copying `PaymentFailure = customer risk` into both contexts loses the difference between retryable technical failure, promise breach, and support escalation trigger. |
 | Decision output | Keep the split, mark the workshop result as probe-coupled, add `F.9` loss notes, and add a payment-risk escalation promise to the boundary design. |
 
-#### C.26.1:4.4 - Governed object and operational sequence
+#### C.26.1:4.4 - Boundary interaction under concern and operational sequence
 
-The governed object is a boundary interaction used as evidence, export, comparison input, or architecture decision input. The interaction may be a meeting, question sequence, dashboard, metric, API read, survey, workshop, event stream, canary, test harness, service split, bridge, message, or management review. The pattern is active only when that interaction participates in the represented state enough that passive-read or unjustified lossless-transfer wording would change the decision.
+The boundary interaction under concern is a boundary interaction used as evidence, export, comparison input, or architecture decision input. The interaction may be a meeting, question sequence, dashboard, metric, API read, survey, workshop, event stream, canary, test harness, service split, bridge, message, or management review. The pattern is active only when that interaction participates in the represented state enough that passive-read wording or unjustified lossless boundary-to-decision inference would change the decision.
 
 The pattern governs one move: convert an apparently passive boundary read into a typed probe-coupled boundary decision. That decision says what the interaction read, what it changed, what the output can support, what it cannot support, and which neighboring FPF pattern takes over if the question is really bridge, measurement, evidence, work, decision, or viability.
 

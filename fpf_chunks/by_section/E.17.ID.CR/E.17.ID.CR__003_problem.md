@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:2 — Problem"
-line_start: 63001
-line_end: 63010
+line_start: 63878
+line_end: 63887
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -45,6 +45,6 @@ Without a named comparative-reading discipline:
 2. a cautious review aid is over-read as if it already licensed substitution, interoperability, or equivalence;
 3. a comparative review unit quietly becomes action-selection pressure or hidden hypothesis work while still sounding calm;
 4. same-entity viewing, explanation rendering, and bounded comparative reading collapse into one fuzzy review bucket;
-5. ontology-facing target shift or changed described entity hides inside comparative wording;
-6. a review unit written to support review is mistaken for work or reliance guidance, assurance shorthand, or release authority.
+5. ontology-facing target shift or changed EntityOfConcern hides inside comparative wording;
+6. a review unit written to serve review is mistaken for work or reliance guidance, assurance shorthand, or release authority.
 

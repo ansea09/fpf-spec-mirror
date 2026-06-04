@@ -6,12 +6,12 @@ section_id: "C.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:4 — Solution"
-line_start: 33230
-line_end: 33271
+line_start: 33344
+line_end: 33384
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,7 @@ keywords:
  **Congruence Level (CL), pairwise ladder.**
  `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable / RoleAssignment‑eligible** (structure‑preserving mapping in a declared fragment with **stated loss**; theorems may transport); `CL‑3` **Near‑identity / Type‑structure‑safe** (invariants match; type‑structure substitution allowed). *CL is a characteristic of a relation between two epistemes; it is not a fourth member of the F–G–R assurance tuple and it is not a characteristic space of its own.* **Norm:** substitution is permitted only if plane‑preserving and **CL ≥ 2**; substituting **type‑structure** requires **CL = 3**.
 
-**Slot-graph link.** The assurance components are stated over `U.EpistemeSlotGraph`: *F* by the internal `ClaimGraph` and formal substrate, *G* by the `ClaimScope` attached to the described entity and assumptions, and *R* by evaluation templates and evidence bindings. Notation belongs to representation and reference-scheme structure; carriers remain outside the episteme and link through SCR/RSCR or other exact carrier relations. Multiple notations are allowed only when their relation is explicit; authors SHOULD register `NotationBridge(n₁,n₂)` with an associated **CL** to make conversion loss explicit.
+**Slot-graph link.** The assurance components are stated over `U.EpistemeSlotGraph`: *F* by the internal `ClaimGraph` and formal substrate, *G* by the `ClaimScope` attached to the EntityOfConcern and assumptions, and *R* by evaluation templates and evidence bindings. Notation belongs to representation and reference-scheme structure; carriers remain outside the episteme and link through SCR/RSCR or other exact carrier relations. Multiple notations are allowed only when their relation is explicit; authors SHOULD register `NotationBridge(n₁,n₂)` with an associated **CL** to make conversion loss explicit.
 
 #### C.2:4.2 - Four Δ‑moves (epistemic motion)
 
@@ -69,7 +69,6 @@ These rules keep Γ aligned with the **holonic kernel**: Γ is only defined on h
 #### C.2:4.4 - What **must not** be conflated (normative guards)
 
 * **Representation structure ≠ carrier.** Files, PDFs, or repositories are **carriers** outside the episteme; they never count as parts of `U.Episteme` (**see C.2.1 EP‑1; CC‑EPI‑2/3**).
-* **Epistemes do not act.** Only **systems** perform work; epistemes carry constraints and evaluation criteria through their `ClaimGraph`, described entity, grounding holon, scope, and evidence bindings (**per Core A.15 / CC‑EPI‑3**).
+* **Epistemes do not act.** Only **systems** perform work; epistemes carry constraints and evaluation criteria through their `ClaimGraph`, EntityOfConcern, grounding holon, scope, and evidence bindings (**per Core A.15 / CC‑EPI‑3**).
 * **CL is not a score.** It is a **qualitative ladder** of preservation classes; do not average it.
-
 

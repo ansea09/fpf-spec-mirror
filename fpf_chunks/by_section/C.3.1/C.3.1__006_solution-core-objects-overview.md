@@ -6,12 +6,12 @@ section_id: "C.3.1:5"
 section_title: "Solution — Core Objects (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__006_solution-core-objects-overview.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:5 — Solution — Core Objects (overview)"
-line_start: 37639
-line_end: 37646
+line_start: 37665
+line_end: 37671
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -29,6 +29,5 @@ keywords:
 * **`U.Kind`** — a **context‑local intensional** object naming a “kind of thing” claims may quantify over.
 * **`U.SubkindOf (⊑)`** — a **partial order** on kinds (reflexive, transitive, antisymmetric). `k₁ ⊑ k₂` reads “`k₁` refines `k₂`.”
 
-> **No Scope on kinds.** Scope is for **claims/capabilities** (USM). Kinds supply **describedEntity only**; **membership** and **signature** live in **C.3.2**.
-
+> **No Scope on kinds.** Scope is for **claims/capabilities** (USM). Kinds supply **entityOfConcern only**; **membership** and **signature** live in **C.3.2**.
 

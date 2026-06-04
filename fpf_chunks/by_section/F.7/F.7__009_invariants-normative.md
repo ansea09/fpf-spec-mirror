@@ -6,12 +6,12 @@ section_id: "F.7:8"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__009_invariants-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:8 — Invariants (normative)"
-line_start: 70499
-line_end: 70511
+line_start: 71283
+line_end: 71294
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -45,5 +45,4 @@ keywords:
 7. **No stealth expansion.** Adding a new cell to a row **MUST NOT** lower the printed **Row CL(min)** without updating **Row Scope** or splitting the row.
 8. **Parsimony.** A row with only one filled cell is **forbidden** (that would be local talk, not a Cross‑context concept).
 9. **Didactic bound.** A row that cannot be read in **≤ 30 seconds** violates didactic primacy and must be split.
-
 

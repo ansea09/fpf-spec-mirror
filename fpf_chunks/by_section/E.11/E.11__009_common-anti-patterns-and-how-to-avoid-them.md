@@ -6,12 +6,12 @@ section_id: "E.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 59657
-line_end: 59676
+line_start: 60559
+line_end: 60578
 dependencies:
   - "A.6.RSIG"
   - "E.19"

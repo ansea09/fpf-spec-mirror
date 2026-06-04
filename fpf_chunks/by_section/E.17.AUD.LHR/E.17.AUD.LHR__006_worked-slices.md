@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 64209
-line_end: 64327
+line_start: 65081
+line_end: 65199
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 **Worked-slice status.** Read the release-boundary, publication-face, episteme-publication-heavy, bounded-comparison, publication-unit stabilization move, and outside-observation cases as a heterogeneous example bank, not as one recommended repair sequence. They show different admissible repair dispositions for this local lexical-head repair pattern: some cases stabilize after one honest lexical-head repair and stop here, some apply `E.17.ID.CR`, some apply `E.17.AUD.OOTD`, and some stop and reopen when outside observation changes what the same local sentence can honestly carry. For quickest recovery of the three main repair dispositions, read `E.17.AUD.LHR:5.2` as ordinary stay-local repair, `E.17.AUD.LHR:5.4` as admissible return to `E.17.ID.CR`, and `E.17.AUD.LHR:5.5` as admissible publication-unit apply `E.17.AUD.OOTD`. Then read `E.17.AUD.LHR:5.6` as the separate stop-and-reopen or neighboring governing-pattern move case after outside observation changes what the same local unit can honestly carry.
 
-**Worked-slice mini-schema.** When a case turns episteme-publication-heavy or boundary-heavy, recover the same compact output in this order: `overloaded local lexical head | lexical-head kind | active local reading | governed object | carried move or live question | outside work | repair disposition`.
+**Worked-slice mini-schema.** When a case turns episteme-publication-heavy or boundary-heavy, recover the same compact output in this order: `overloaded local lexical head | lexical-head kind | active local reading | primary entity/relation | carried move or live question | outside work | repair disposition`.
 
 #### E.17.AUD.LHR:5.1 - `review` is really carrying two jobs
 
@@ -53,7 +53,7 @@ Local repair first:
 - overloaded local lexical head = `review`;
 - restored lexical-head kind = review publication unit;
 - active local reading = boundary review, not responsibility assignment;
-- governed object = the release boundary as made visible in this review unit;
+- primary entity/relation = the release boundary as made visible in this review unit;
 - carried move = make one boundary visible;
 - outside work = responsibility assignment.
 
@@ -69,8 +69,8 @@ But what it really means is one publication form that describes the policy rathe
 Local repair:
 - overloaded local lexical head = `text`;
 - restored lexical-head kind = publication form;
-- active local reading = publication unit, not governed policy object;
-- governed object = the policy description visible in this unit;
+- active local reading = publication unit, not policy authority object;
+- primary entity/relation = the policy description visible in this unit;
 - carried move = describe the policy rather than claim authority for it;
 - outside work = approval, rollout, release, gate, policy, assurance, or adjudication status.
 
@@ -87,9 +87,9 @@ But the same paragraph is really about one bounded comparative-reading move over
 
 Local repair:
 - overloaded local lexical head = `interpretation`;
-- restored lexical-head kind = comparative review unit anchor inside one episteme-publication-heavy paragraph;
+- restored lexical-head kind = bounded comparative review unit inside one episteme-publication-heavy paragraph;
 - active local reading = bounded comparative reading, not wider-family package explanation;
-- governed object = comparative review unit;
+- primary entity/relation = comparative review unit;
 - stack restored = family `InterpretationDiscipline`, governing pattern `ComparativeReading`;
 - move = bounded comparative reading;
 - outside work = wider architecture strategy.
@@ -107,11 +107,11 @@ Local repair:
 - overloaded local lexical head = `review`;
 - restored lexical-head kind = comparative review unit;
 - active local reading = bounded comparative-reading unit, not whole release process;
-- governed object = the already pinned option contrast;
+- primary entity/relation = the already pinned option contrast;
 - carried move = make one bounded contrast visible over already available source epistemes or publications;
 - outside work = rollout choice or approval.
 
-Once that local lexical head is repaired, do not keep thickening this pattern by habit. The admissible next pattern application is `E.17.ID.CR` for the now-stable unit, because the remaining question is one bounded contrast rather than publication-unit described-entity instability.
+Once that local lexical head is repaired, do not keep thickening this pattern by habit. The admissible next pattern application is `E.17.ID.CR` for the now-stable unit, because the remaining question is one bounded contrast rather than publication-unit EntityOfConcern instability.
 
 **Recovery reading.** This is the honest return-to-bounded-comparison case: finish the local repair here, then let `E.17.ID.CR` carry the remaining bounded contrast over the now-stable unit.
 
@@ -139,7 +139,7 @@ But the repaired local lexical head does not keep the same publication unit stab
 #### E.17.AUD.LHR:5.6 - Outside observation changes what the same head can honestly carry
 
 A status note says:
-`This note captures the current rollback posture for the candidate.`
+`This note captures the current rollback state for the candidate.`
 
 Mid-review, a new vendor bulletin changes the live failure boundary and pushes the surrounding conversation toward approval pressure.
 
@@ -147,7 +147,7 @@ Local repair can still make the current sentence honest:
 - overloaded local lexical head = `note`;
 - restored lexical-head kind = review publication unit;
 - active local reading = current review publication unit, not downstream approval record;
-- carried move = capture the rollback posture visible on the current evidence slice;
+- carried move = capture the rollback state visible on the current evidence slice;
 - outside work = any new approval, adjudication, or widened authority step.
 
 But this is the stop-and-reopen case. Once outside observation changes what the same local unit can honestly stay about, do not keep appending new pressure as if the same local repair simply continued. Stop, reopen with a newly declared question, or apply the governing pattern if approval, rollout, release, gate, policy, assurance, or adjudication use, or publication-unit stabilization has become primary.

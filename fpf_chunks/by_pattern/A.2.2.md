@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
-line_start: 2296
-line_end: 2556
+line_start: 2287
+line_end: 2535
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -50,7 +50,6 @@ Teams frequently blur the two, and then further mix them with **how** the work i
 3. **Execution log ≠ ability.** A past Work record does not, by itself, establish a stable ability; conditions may have been favorable or unique.
 4. **Cross‑team confusion.** Enterprise terms like “capability”, “service”, and the old “function” are used interchangeably; planning, staffing, and assurance become fragile.
 
-
 ### A.2.2:3 - Forces (what we must balance)
 
 | Force                                   | Tension we resolve                                                                                                                   |
@@ -59,7 +58,6 @@ Teams frequently blur the two, and then further mix them with **how** the work i
 | **Universality vs. domain‑specificity** | One universal notion must serve robots, teams, and software services, while letting each domain keep its own performance vocabulary. |
 | **Evidence vs. simplicity**             | We want an ability claim to be evidence‑backed, but the core idea must stay simple enough for planning conversations.                |
 | **Local conditions vs. reusability**    | Ability depends on conditions (inputs, environment); still, the concept must be reusable across contexts via explicit scoping.       |
-
 
 ### A.2.2:4 - Solution — define the ability explicitly
 
@@ -119,7 +117,6 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 * A step in a Method may **require** a Role; **optionally** it may also stipulate a **capability threshold** (e.g., precision ≤ 0.2 mm). assignment and ability are checked separately.
 * A promise content clause depends on **having** the needed capabilities **and** being **assigned/committed** to deliver under the clause’s context (bind as `U.Commitment` when it is an obligation).
 
-
 ### A.2.2:6 - Archetypal grounding (parallel structural and organizational examples)
 
 #### A.2.2:6.1 Physical system on a line (structural example)
@@ -149,7 +146,6 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 * **Measures:** close in ≤ 5 business days; adjustment error rate < 0.2 %.
 * **Context:** `OperatingModel_2025`.
 * **Distinction:** This is **ability**; the **service promise clause** “Provide month‑end close” is the external promise derived from this ability once formally offered.
-
 
 ### A.2.2:7 - Bias‑Annotation (as in cluster‑E patterns)
 
@@ -205,7 +201,6 @@ A step in a **Method** may define **required roles** (assignment) and **capabili
 
 * Putting “Precision ≤ 0.2 mm” into the Role name. Keep thresholds attached to the **step**; keep **ability** on the **holder**.
 
-
 ### A.2.2:10 - Time and change (calibration, drift, upgrades)
 
 Capabilities are **stable but not static**. Three simple practices keep reasoning honest:
@@ -216,7 +211,6 @@ Capabilities are **stable but not static**. Three simple practices keep reasonin
 
 **Manager’s rule of thumb:** if you would reschedule a job after a tool change, the capability statement needs a new window.
 
-
 ### A.2.2:11 - Composition and Γ (how assembled systems “can do”)
 
 Γ builds a **new holder** (a composite system). Its capability is not the algebraic sum of parts; it is an **ability of the whole** under its own WorkScope.
@@ -224,7 +218,6 @@ Capabilities are **stable but not static**. Three simple practices keep reasonin
 * **Express at the whole.** “Cell\_3 can place 12 PCB/min with ±0.1 mm” — that is a capability of **Cell\_3**, not of the pick‑and‑place head alone.
 * **State dependencies.** “Valid while Feeder\_A delivers reels at ≥ X; vision subsystem calibrated ≤ 72 h ago.”
 * **Constructor vs. transformer.** The **ConstructorRole** builds the composite (Γ); the resulting **TransformerRole** may later act on products. Capability belongs to the holder relevant to the action (builder’s ability vs operator’s ability).
-
 
 ### A.2.2:12 - Interaction with Service Promise Clauses (external promise content)
 
@@ -237,7 +230,6 @@ A **service promise clause** (a `U.PromiseContent`) is a consumer‑facing **ext
 * **Staffing.** Delivering on a service promise clause still requires **Role assignments**; capability alone does not authorize action.
 
 **Memory aid:** Capability = *can do*; service promise clause = *promise to others that we will do*.
-
 
 ### A.2.2:13 - Interaction with Dynamics (laws vs. abilities)
 
@@ -256,7 +248,6 @@ A **service promise clause** (a `U.PromiseContent`) is a consumer‑facing **ext
 * **Stuffing capabilities into BoM/PBS.** Structure lists **what it is**; capabilities belong to **what it can do** (the holder), not inside the parts list.
 * **Service‑as‑capability.** “We have the Month‑end Close capability (promise).” → Promise is a **service promise clause** (`U.PromiseContent`); ability is internal, promise is external.
 
-
 ### A.2.2:15 - Migration notes (quick wins for existing texts)
 
 1. **Underline WorkScopes.** For every “can do” sentence, add **conditions** and **measures**; otherwise treat it as background color, not a gate.
@@ -264,7 +255,6 @@ A **service promise clause** (a `U.PromiseContent`) is a consumer‑facing **ext
 3. **Pin contexts.** Add the bounded context name to each capability table (“Capability Sheet — AssemblyLine\_2025”).
 4. **Snapshot validity.** Add a “valid through” column (software version or calibration horizon).
 5. **Separate recipe/execution.** Move flowcharts under **MethodDescription**, runs under **Work**; link the capability to the **holder** with references to those specs.
-
 
 ### A.2.2:16 - Consequences
 
@@ -275,7 +265,6 @@ A **service promise clause** (a `U.PromiseContent`) is a consumer‑facing **ext
 | **Clear service design.** Services become explicit promises built on visible abilities.            | **Temptation to over‑promise.** Keep service SLOs within demonstrated capability measures.                                    |
 | **Clean separation with Dynamics and PBS/SBS.** No more “process” or “function” soup.              | **Some retraining.** Use the litmus tables (from the lexical rules) during onboarding.                                        |
 
-
 ### A.2.2:17 - Relations
 
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 Role; A.2.1 `U.RoleAssignment`.
@@ -283,7 +272,6 @@ A **service promise clause** (a `U.PromiseContent`) is a consumer‑facing **ext
 * **Constrains:** Step design: thresholds belong on steps; BoM/PBS must stay structural.
 * **Informs:** `U.PromiseContent` definitional pattern (external promises derive from capabilities); `U.Dynamics` definitional pattern (models used as evidence or predictors); Γ/aggregation (capability of composites is stated at the whole).
 * **Lexical guards:** E.10.x **L‑FUNC** (do not call capability “function”); E.10.y **L‑PROC** (do not call capability “process”).
-
 
 ### A.2.2:18 - Didactic quick cards (reuse in specs and slides)
 

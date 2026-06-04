@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
-line_start: 28329
-line_end: 28668
+line_start: 28541
+line_end: 28864
 dependencies:
   - "A.1"
   - "A.12"
@@ -45,7 +45,6 @@ In FPF, every aggregation is a *material act*:
 
 This pattern normatively defines `DependencyGraph`, the **mereological vocabulary** allowed on its edges, and the **guards** that make Γ provable and comparable across domains.
 
-
 ### B.1.1:2 - Problem
 
 Without a disciplined `DependencyGraph`, four pathologies recur:
@@ -55,7 +54,6 @@ Without a disciplined `DependencyGraph`, four pathologies recur:
 3. **Temporal conflation:** `design‑time` and `run‑time` holons appear in one graph; simulations then “prove” facts about a blueprint using live telemetry.
 4. **Hidden cycles:** Self‑dependence enters through aliasing (e.g., a team is a member of itself via “units of units”). Γ cannot topologically fold such graphs.
 
-
 ### B.1.1:3 - Forces
 
 | Force                              | Tension                                                                                                                             |
@@ -64,7 +62,6 @@ Without a disciplined `DependencyGraph`, four pathologies recur:
 | **Parsimony vs. Expressiveness**   | Keep the vocabulary small (A.11) ↔ include the minimal extra relations that engineers actually use (A.14).                          |
 | **Locality vs. Connectivity**      | Preserve boundary‑local reasoning (LOC) ↔ still allow explicit external influences via interactions, not parthood.                  |
 | **Static clarity vs. Dynamic use** | Graphs must be easy to read and verify ↔ also feed Γ\_ctx, Γ\_time, Γ\_method, Γ\_work without duplications or mismatches.            |
-
 
 ### B.1.1:4 - Solution
 
@@ -89,11 +86,9 @@ DependencyGraph D = (V, E, scope, notes)
 > **Strict distinction (A.15).**
 > `DependencyGraph` encodes **part–whole** only. Order goes to Γ\_ctx/Γ\_method. Time evolution goes to Γ\_time. Resource spending goes to Γ\_work. Cross‑boundary influence goes to `U.Interaction` (not parthood).
 
-
 #### B.1.1:4.2 - Normative edge vocabulary `V_rel` (A.14 compliant)
 
 Only the following **four** **mereological** relations are allowed in `E` (A.14):
-
 
 | Family               | Relation             | Short intent                                            | Where it belongs                   |
 | -------------------- | -------------------- | ------------------------------------------------------- | ---------------------------------- |
@@ -109,7 +104,6 @@ Only the following **four** **mereological** relations are allowed in `E` (A.14)
 * `RoleBearerOf` — links a `U.System` to a `U.Role`; **not** parthood (see A.12, A.15).
 * Any “is‑a” (`subClassOf`) taxonomic relation — orthogonal to parthood.
 
-
 #### B.1.1:4.3 - Minimal axioms & type guards per relation
 
 | Relation             | Axioms (informal)                                                 | Guards / When to use                                                                                               |
@@ -121,7 +115,6 @@ Only the following **four** **mereological** relations are allowed in `E` (A.14)
 | **PhaseOf**          | anti‑symmetric; covers a timeline; acyclic                        | Time‑slices of the *same* carrier identity. Use only with explicit carrier and non‑overlapping intervals.          |
 
 > **Carrier identity for `PhaseOf`.** The same carrier identity across phases must be explicit (e.g., *this* frame across heat/dwell/quench; *this* theory across revisions). If identity changes, you are modelling a **Transformer** creating a **new** holon (A.12) — not a phase.
-
 
 #### B.1.1:4.4 - Selection guide (didactic, normative in spirit)
 
@@ -169,7 +162,6 @@ Use this **one‑page decision** to pick the edge correctly:
 
 Γ_m.slice(ent : U.Entity, facet : U.Facet) → S : U.Holon
   // assert internal U.KernelPartOf(S, ent) and record facet label
-
 
 **Trace (conceptual, notation‑independent).**
 `Trace = ⟨ op ∈ {sum, set, slice}, inputs, output, notes ⟩`
@@ -263,7 +255,6 @@ Examples:
 > **Obligation BOUND‑1.**
 > List the **U.Boundary** for each top‑level holon in `V` and record any **U.Interaction** edges that are relevant but not part of `E` (to show cross‑boundary influences were not mis‑typed as parthood).
 
-
 #### B.1.1:6.6 - Flavour‑specific summary table
 
 | Γ‑flavour            | Independence (IND‑LOC)                                             | WLNK‑CUT (what is “critical”)                         | MONO‑AX (what cannot make worse)                    | IDEM‑WIT                      | Notes                                                         |
@@ -275,7 +266,6 @@ Examples:
 | **Γ\_work**          | Disjoint boundary partitions; shared stocks lifted to parent       | Availability caps for required inputs across boundary | ↑ yield; ↓ dissipation; ↑ availability              | Single resource with no delta | Keep **Boundary Ledger** with basis and time window.          |
 
 Attach the row(s) you use as the **Proof Kit** to the Γ call record.
-
 
 ### B.1.1:7 - Archetypal grounding (worked micro‑examples)
 
@@ -303,7 +293,6 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 | **IDEM‑WIT**     | Single lemma as singleton: Γ\_epist returns it unchanged.                                                                                             |
 | **Routing**      | `MemberOf` for CorpusQ is collection structure; not used to average “truth”. Γ\_epist aggregates via min/penalty and produces a SCR for sources. |
 
-
 ### B.1.1:8 - Conformance Checklist (normative checklist)
 
 | ID             | Requirement                                                                                                                                                | Purpose                             |
@@ -321,7 +310,6 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 | **CC‑B1.1.11** | If a cycle or a locality violation persists, the modeller **SHALL** either refactor or declare a **Meta‑Holon Transition (B.2)**.                          | Make emergence explicit.            |
 | **CC‑B1.1.12** | Any mapping edges (`RepresentationOf`, `Implements`, etc.) **SHALL** be kept outside `E` (value‑level), or recast as `U.Interaction` if cross‑boundary.    | Eliminate category errors.          |
 
-
 ### B.1.1:9 - Anti‑pattern diagnostics (before → after)
 
 | Anti‑pattern                     | Symptom                                                        | Replace with                                                                                                                                            |
@@ -332,7 +320,6 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 | **History encoded as structure** | `v2 ComponentOf v1`                                            | Use `PhaseOf` for time slices of the *same* carrier, or a Transformer creating a new holon (A.12) if identity changes.                                  |
 | **Mapping as parthood**          | `DigitalTwin ConstituentOf Turbine`                            | Keep the twin as a separate holon; link by `U.Interaction` and value‑level mapping; do not use parthood.                                                |
 | **DesignRunTag chimera**           | Mix of CAD nodes and telemetry nodes                           | Split into two graphs (`design` vs `run`) and connect via a Transformer role if needed.                                                                 |
-
 
 ### B.1.1:10 - Consequences
 
@@ -350,11 +337,9 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 * **Refactoring legacy edges:** Replacing “generic part‑of” with precise relations can be noisy.
   *Mitigation:* use the decision guide (4.4) and anti‑pattern table (9) as a script.
 
-
 ### B.1.1:11 - Rationale (informative)
 
 This pattern operationalizes **A.14 (Mereology Extension)** and **A.15 (Strict Distinction)** for the universal algebra of B.1. +… By limiting `E` to **four** well‑formed **mereological** relations, we prevent the three recurrent category errors: **mapping≠parthood**, **order/time≠structure**, **collection≠stock**. The Proof Kit converts the Quintet from abstract slogans into concrete obligations that engineers can check in everyday models. Γ‑flavours then remain simple and domain‑appropriate, while proofs remain small and reusable.
-
 
 ### B.1.1:12 - Relations
 
@@ -363,7 +348,6 @@ This pattern operationalizes **A.14 (Mereology Extension)** and **A.15 (Strict D
 * **Used by:** B.1.2 **Γ\_sys**, B.1.3 **Γ\_epist**, B.1.4 **Γ\_ctx/Γ\_time**, B.1.5 **Γ\_method**, B.1.6 **Γ\_work**.
 * **Triggers:** B.2 **Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes** when cycles or WLNK violations indicate a new emergent whole.
 * **Feeds:** B.3 **Trust & Assurance Calculus (F–G–R with Congruence)** via explicit declaration of monotone characteristics and provenance.
-
 
 > **One‑page takeaway.**
 > Keep `D` a **DAG**, pick edges from **four** mereological relations, route **order/time/cost** to their Γ‑flavours, and attach the **four Proof Kit obligations** (IND‑LOC, WLNK‑CUT, MONO‑AX, IDEM‑WIT) with scope/boundary notes.

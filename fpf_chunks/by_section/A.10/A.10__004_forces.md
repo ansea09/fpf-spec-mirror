@@ -6,12 +6,12 @@ section_id: "A.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:3 — Forces"
-line_start: 18151
-line_end: 18160
+line_start: 18229
+line_end: 18238
 dependencies:
   - "A.1"
   - "A.10"
@@ -55,9 +55,9 @@ keywords:
 
 | Force                           | Tension                                                                                                                                           |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Universality vs. support cost** | One Standard must fit systems and epistemes ↔ Evidence producers and maintainers need proportionate support records.                                                           |
+| **Universality vs. evidence-relation cost** | One Standard must fit systems and epistemes ↔ Evidence producers and maintainers need proportionate evidence records.                                                           |
 | **Externality vs. reflexivity** | Evidence must be produced by an external TransformerRole (A.12) ↔ Some systems adapt themselves (need reflexive modelling without self‑evidence). |
 | **Atemporal vs. temporal**      | Many claims are state‑like ↔ Many others are histories; evidence must respect order and coverage (Γ\_time).                                       |
-| **Rigor vs. flow**              | Formal proofs and controlled tests raise confidence ↔ Engineering cadence needs lightweight, incremental anchors.                                 |
+| **Rigor vs. flow**              | Formal proofs and controlled tests raise confidence ↔ Engineering cadence needs lightweight, incremental evidence relations.                                 |
 | **Mereology vs. provenance**    | Part‑whole edges build holarchies ↔ Evidence edges never do; the two graphs must interlock without leaking semantics.                             |
 

@@ -6,12 +6,12 @@ section_id: "A.6.S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__012_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:10 — Rationale"
-line_start: 16969
-line_end: 16984
+line_start: 17119
+line_end: 17134
 dependencies:
   - "A.12"
   - "A.3"
@@ -52,7 +52,7 @@ A.6.S treats A.6.5 and A.6.6 as *constructor primitives* and makes them explicit
 
 Connecting signature engineering to A.6.2–A.6.4 provides a principled way to separate:
 
-* **Viewing**: change the view, keep the described entity.
+* **Viewing**: change the view, keep the EntityOfConcern.
 * **Construction edits**: unpack structure without silently changing meaning.
 * **Retargeting**: acknowledge a new TargetSignature edition and make the transition explicit.
 

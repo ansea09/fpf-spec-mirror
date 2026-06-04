@@ -6,12 +6,12 @@ section_id: "C.17:8"
 section_title: "Archetypal Grounding (three domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__009_archetypal-grounding-three-domains.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:8 — Archetypal Grounding (three domains)"
-line_start: 41929
-line_end: 41958
+line_start: 41846
+line_end: 41874
 dependencies:
   - "A.1"
   - "A.10"
@@ -77,5 +77,4 @@ keywords:
 *Surprise.* 3.7 bits (strongly unexpected under prior).
 *ConstraintFit.* 1.0 (ethics N/A; evidence roles bound with decay windows).
 *Decision.* Fund **replication Work**; track **R** decay per policy.
-
 

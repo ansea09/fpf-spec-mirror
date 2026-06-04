@@ -6,12 +6,12 @@ section_id: "A.8:10"
 section_title: "Known Uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__011_known-uses.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:10 — Known Uses"
-line_start: 17979
-line_end: 17986
+line_start: 18068
+line_end: 18074
 dependencies:
   - "A.8"
   - "U.Types"
@@ -28,5 +28,4 @@ keywords:
 * **Objective unification** – An AI lab mapped *loss functions*, a bio‑lab mapped *Darwinian fitness*, and a factory mapped *scrap‑rate* all to `U.Objective`, enabling shared optimisation tooling.
 
 These cases validated that the Three‑Domain Test is achievable in practice, not theoretical paperwork.
-
 

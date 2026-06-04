@@ -6,12 +6,12 @@ section_id: "A.3.1:5"
 section_title: "Archetypal grounding (cross-paradigm examples: imperative / functional / logical)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__006_archetypal-grounding-cross-paradigm-examples-imperative-functional-logical.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:5 — Archetypal grounding (cross-paradigm examples: imperative / functional / logical)"
-line_start: 5920
-line_end: 5943
+line_start: 5833
+line_end: 5855
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -57,5 +57,4 @@ keywords:
 * **MethodDescription:** formal rules in a proof assistant; textbook chapter as a second spec.
 * **Enactment:** `CAS_Alpha#TransformerRole:MathLab_2025` generates a **Work** proof instance for a concrete matrix.
 * **Notes:** The **Episteme** (spec) is not the **ability** (that belongs to the CAS system) and not the **execution** (the proof run).
-
 

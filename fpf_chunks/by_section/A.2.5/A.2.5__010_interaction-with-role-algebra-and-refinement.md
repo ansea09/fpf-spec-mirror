@@ -6,12 +6,12 @@ section_id: "A.2.5:9"
 section_title: "Interaction with role algebra (≤, ⊥, ⊗) and refinement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__010_interaction-with-role-algebra-and-refinement.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:9 — Interaction with role algebra (≤, ⊥, ⊗) and refinement"
-line_start: 3561
-line_end: 3604
+line_start: 3517
+line_end: 3559
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -71,5 +71,4 @@ A **bundle role** `R* := R₁ ⊗ … ⊗ Rₙ` expresses “**must wear all the
 
 * **RSG‑M1 (Specialist suffices).** If a step requires `R`, any `R' ≤ R` whose **lifted state** is enactable **suffices**.
 * **RSG‑M2 (Bundle conjunctivity).** If a step requires `R₁ ⊗ R₂`, the performer must produce **both** gates (two StateAssertions), unless a CompositeRole with RSG exists and is used.
-
 

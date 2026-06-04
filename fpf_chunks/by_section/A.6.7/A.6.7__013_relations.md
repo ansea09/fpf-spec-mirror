@@ -6,12 +6,12 @@ section_id: "A.6.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:12 — Relations"
-line_start: 15654
-line_end: 15661
+line_start: 15808
+line_end: 15815
 dependencies:
   - "A.21"
   - "A.6.1"

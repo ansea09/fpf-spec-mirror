@@ -6,12 +6,12 @@ section_id: "A.6.P:7"
 section_title: "Conformance Checklist (CC‑A.6.P)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__009_conformance-checklist-cc-a-6-p.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:7 — Conformance Checklist (CC‑A.6.P)"
-line_start: 12618
-line_end: 12675
+line_start: 12460
+line_end: 12517
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -101,7 +101,7 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
     If a relation instance crosses Contexts/planes (or requires translation), the carrier SHALL cite Bridge ids + CL policy (and loss notes, when applicable). Label identity or “same anyway” prose SHALL NOT substitute.
 
 13. **CC‑A.6.P‑13 — Disambiguation guide is actionable.**
-    P SHALL include an explicit rewrite/selection guide that maps each red-flag umbrella cluster or generic FPF-force-bearing head phrase to candidate head kinds, candidate `RelationKind` tokens, and (when the ambiguity is endpoint-side) candidate endpoint facets/kinds, plus required qualifiers and canonical rewrite forms.
+    P SHALL include an explicit rewrite/selection guide that maps each red-flag umbrella cluster or generic head phrase with FPF-governed use to candidate head kinds, candidate `RelationKind` tokens, and (when the ambiguity is endpoint-side) candidate endpoint facets/kinds, plus required qualifiers and canonical rewrite forms.
     The guide SHOULD follow the RPR‑Disambiguation format: **trigger → candidates → discriminating questions/tests → canonical rewrite → L/A/D/E hooks**.
 
     Where endpoint referential compression is a primary risk, the guide SHOULD also include (or point to) the **Candidate‑Set Note** template (A.6.P:4.0b) so instance‑level reviews have an auditable trail: candidates → selected facet/kind → why.
@@ -110,5 +110,5 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
     P SHALL include at least one Tell–Show–Show vignette in a **System** lane and at least one in an **Episteme** lane (per E.8), demonstrating a real ambiguity repair and a relation‑change narration using the change‑class lexicon.
 
 15. **CC‑A.6.P‑15 — Trigger rule is explicit.**
-    P SHALL include an explicit trigger rule (or selection heuristic) stating when the repair force applies and what counts as “in-scope” umbrella relational prose.
+    P SHALL include an explicit trigger rule (or selection heuristic) stating when the repair case applies and what counts as “in-scope” umbrella relational prose.
 

@@ -6,12 +6,12 @@ section_id: "A.6.2:8"
 section_title: "SoTA‑Echoing (informative, lineage)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__009_sota-echoing-informative-lineage.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:8 — SoTA‑Echoing (informative, lineage)"
-line_start: 9724
-line_end: 9741
+line_start: 9584
+line_end: 9601
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -19,28 +19,17 @@ dependencies:
   - "A.6.3"
   - "A.6.4"
   - "A.6.5"
-  - "A.7"
   - "C.2.1"
+  - "C.3"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.18"
-  - "E.TGA"
-  - "U.EpistemeSlotGraph"
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
   - "U.Mechanism"
-  - "U.MultiViewDescribing"
-  - "U.RelationSlotDiscipline"
   - "U.Signature"
 keywords:
-  - "describedEntity"
-  - "effect-free"
-  - "episteme"
-  - "functoriality"
-  - "lenses"
-  - "morphism"
-  - "reproducibility"
 ---
 
 ### A.6.2:8 - SoTA‑Echoing (informative, lineage)
@@ -48,7 +37,7 @@ keywords:
 EFEM is intentionally “thin”: it provides a **minimal categorical and slot‑based discipline** for episteme→episteme morphisms, making it easy to align with several post‑2015 lines of work:
 
 * **Categorical semantics & displayed categories.**
-  Treating `Ep` as a category over `Ref` via a functor `α : Ep → Ref` (mapping each episteme to its described entity) matches the *displayed categories* view on fibrations: EFEM arrows are those morphisms in `Ep` that are “vertical” (preserve α) or “structured reindexings” (retarget under a KindBridge). This is exactly the intended alignment with C.2.1’s subjectRef/ReferencePlane picture.
+  Treating `Ep` as a category over `Ref` via a functor `α : Ep → Ref` (mapping each episteme to its EntityOfConcern) matches the *displayed categories* view on fibrations: EFEM arrows are those morphisms in `Ep` that are “vertical” (preserve α) or “structured reindexings” (retarget under a KindBridge). This is exactly the intended alignment with C.2.1’s subjectRef/ReferencePlane picture.
 
 * **Optics as universal projections.**
   Viewing operations (`U.EpistemicViewing`) refine EFEM in a way analogous to **lenses/prisms/traversals** in the optics literature: effect‑free, compositional accessors for parts of a larger structure. EFEM captures the laws that underlie those projections (purity, conservation, functoriality); optics‑style constructions can then be used inside discipline packs without modifying the core.

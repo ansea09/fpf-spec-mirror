@@ -6,16 +6,15 @@ section_id: "E.17.2:4"
 section_title: "Solution — TEVB as a core U.ViewpointBundle for holons  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution-tevb-as-a-core-u-viewpointbundle-for-holons-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:4 — Solution — TEVB as a core U.ViewpointBundle for holons  (normative)"
-line_start: 61434
-line_end: 61664
+line_start: 62330
+line_end: 62560
 dependencies:
   - "A.1"
-  - "A.6.2"
-  - "A.6.4"
+  - "A.6.2-A.6.4"
   - "A.7"
   - "C.2.1"
   - "E.10.D2"
@@ -25,18 +24,9 @@ dependencies:
   - "E.18"
   - "E.TGA"
   - "F.18"
-  - "U.Episteme"
-  - "U.EpistemeSlotGraph"
   - "U.MultiViewDescribing"
-  - "U.System"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "E.TGA bindings"
-  - "EoIClass = U.Holon"
-  - "Functional/Procedural/Role-Enactor/Module-Interface views"
-  - "ISO 42010 mapping"
-  - "engineering viewpoints"
-  - "holon"
 ---
 
 ### E.17.2:4 - Solution — TEVB as a core `U.ViewpointBundle` for holons  *(normative)*
@@ -59,12 +49,12 @@ TEVB is the **core engineering viewpoint bundle** over holons.
 
   `VF.TEVB.ENG` is reserved for **“Typical Engineering Viewpoints (Engineering)”** in the FPF core ViewpointBundleLibrary.
 
-* **EoIClassSpec (holon scope).**
+* **EntityOfConcernClassSpec (holon scope).**
 
   TEVB is parameterised by
 
   ```
-  TEVB.EngBundle.EoIClassSpec =
+  TEVB.EngBundle.EntityOfConcernClassSpec =
     { h : U.Holon | holonKind(h) ∈ {U.System, U.Episteme} }
   ```
 
@@ -91,7 +81,7 @@ TEVB is the **core engineering viewpoint bundle** over holons.
     { VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface }
   ```
 
-The selection `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}` is the current **NQD-frontier** for engineering holon viewpoints in Part G: it realises a Function-Behaviour-Structure-plus-Role (`F-B-S+R`) cut that is non-dominated against candidate families including explicit information/data, assurance/safety, and mission/context viewpoints under the N/U/C/D characteristics (C.18, G.0). Part G records the SoTA candidate set and rejected alternatives; TEVB only fixes the **core four** where each `VP.* : U.Viewpoint` is defined below. These four are the **only** viewpoints in the core TEVB bundle.
+The selection `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}` is the current **NQD-frontier** for engineering holon viewpoints in Part G: it realises a Function-Behaviour-Structure-plus-Role (`F-B-S+R`) cut that is non-dominated against candidate families including explicit information or data, assurance or safety, and mission or context viewpoints under the N, U, C, and D characteristics (C.18, G.0). Part G records the SoTA candidate set and rejected alternatives; TEVB only fixes the **core four** where each `VP.* : U.Viewpoint` is defined below. These four are the **only** viewpoints in the core TEVB bundle.
 
   > **Note.** Other ViewFamilyId values used in E.TGA (e.g., *Assurance‑Oriented*, *Interoperability‑Oriented*, *Information/Data‑Oriented*, *Operational/Deployment*, *Mission/Context*) remain **lexical families only** for transduction species (E.18:5.12). They do not add viewpoints to TEVB; they are orthogonal to TEVB’s `viewpoints` set.
 
@@ -99,10 +89,10 @@ The selection `{VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface
 
 Each TEVB viewpoint is a `U.Viewpoint` with:
 * `viewpointId : ViewpointId` (concrete identifier, e.g., `VP.Functional`);
-* `EoIClassSpec` **inherited from the bundle** (`U.Holon` with `System`/`Episteme` kinds);
+* `EntityOfConcernClassSpec` **inherited from the bundle** (`U.Holon` with `System`/`Episteme` kinds);
 * `StakeholderFamilies : FinSet(RoleEnactorFamilyId)` — families of `U.RoleEnactor` that are the primary audience;
 * `Concerns : FinSet(ConcernId)` — engineering concerns this viewpoint foregrounds;
-* `AllowedEpistemeKinds : FinSet(U.EpistemeKindRef)` — description/spec kinds admissible under this viewpoint (all obeying I/D/S discipline and C.2.1 slot discipline);
+* `AllowedEpistemeKinds : FinSet(U.EpistemeKindRef)` — Description-episteme and specification-use kinds admissible under this viewpoint (all obeying EntityOfConcern and Description-episteme boundary, specification use, and C.2.1 slot disciplines);
 * `ConformanceRules : FinSet(RuleId)` — references to checklist items in conformance packs (CV/GF/engineering checklists).
 
 The subsections below fix the **normative intent and minimal field profiles** for each TEVB viewpoint. Species patterns and discipline‑packs may refine `Concerns`, `AllowedEpistemeKinds` and `ConformanceRules`, but MUST preserve the intent.
@@ -117,7 +107,7 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   VP.Functional : ViewpointId  // EngineeringVPId
   ```
 
-* **EoIClassSpec.**
+* **EntityOfConcernClassSpec.**
   Same as the bundle: `U.Holon` with `System`/`Episteme` kinds.
 
 * **StakeholderFamilies (typical examples).**
@@ -133,21 +123,21 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   * Compositional semantics of functions/transductions (`TransductionCompositionConcerns`).
 
 * **AllowedEpistemeKinds (shape).**
-  `VP.Functional` admits descriptions/specifications whose **DescribedEntitySlot** is a holon’s **capability/Method/Mechanism** under a role, e.g.:
+  `VP.Functional` admits Description epistemes and specification-use Description epistemes whose **EntityOfConcernSlot** remains the holon and whose viewpoint content foregrounds the holon's **Capability**, **Method**, **Mechanism**, or transduction claims under a role, e.g.:
   * `SystemFunctionalDescription`, `SystemFunctionalSpec` (species of `U.EpistemeKind` describing system‑level capabilities and their interconnection).
   * `TransductionDescription`, `TransductionSpec` (E.TGA functional lanes).
   * `ServiceCapabilityDescription`, `ServiceCapabilitySpec` (when a holon is in Service role).
 
-  All such epistemes MUST:
-  * obey I/D/S discipline: `…Description`/`…Spec` as D/S‑layers for `U.Method`/`U.Mechanism`/`U.PromiseContent`;
-  * make their `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩` explicit, with `ViewpointRef = VP.Functional`.
+  All such epistemes satisfy these admissibility checks:
+  * obey EntityOfConcern and Description-episteme boundary plus specification-use discipline: `…Description` names a Description episteme about the holon and `…Spec` names specification-use case of that Description episteme for declared Capability, Method, Mechanism, or PromiseContent content;
+  * make their `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` explicit, with `ViewpointRef = VP.Functional`.
 
 * **ConformanceRules (examples).**
   * Functional flows are **total** over their declared domain (no implicit dangling capabilities).
   * Transductions are typed at interfaces (A.6.0, A.6.1) and respect A.6.2/A.6.3 purity/conservativity.
   * When functional views participate in retargeting patterns (e.g. structural reinterpretation species based on `U.EpistemicRetargeting`), they MUST satisfy the relevant retargeting constraints from A.6.4; concrete consumer patterns (such as E.TGA structural reinterpretation, E.18) MAY impose additional rules.
 
-* **SoTA echo (informative).** `VP.Functional` corresponds to the “functional view” in ISO-aligned architecture descriptions and domain reference architectures (functional viewpoints in IoT and space reference architectures, functional/logical layers in sector frameworks), and to the **Function** concern in FBS-style design ontologies. It is also the natural viewpoint-family placement for SysML/SysML-v2 capability and logical architecture models and for “logical view” slices in 4+1-style frameworks, once recast into holon/capability terms.
+* **SoTA echo (informative).** `VP.Functional` corresponds to the “functional view” in ISO-aligned architecture descriptions and domain reference architectures (functional viewpoints in IoT and space reference architectures, functional and logical layers in sector frameworks), and to the **Function** concern in FBS-style design ontologies. It is also the natural viewpoint-family placement for SysML and SysML-v2 capability and logical architecture models and for “logical view” slices in 4+1-style frameworks, once recast into holon/capability terms.
 
 ##### E.17.2:4.2.2 - `VP.Procedural` — process & control viewpoint
 
@@ -159,7 +149,7 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   VP.Procedural : ViewpointId  // EngineeringVPId
   ```
 
-* **EoIClassSpec.**
+* **EntityOfConcernClassSpec.**
 
   Same as the bundle.
 
@@ -175,25 +165,25 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   * Operational modes and transitions (startup, shutdown, degraded modes) (`OperationalModeConcerns`).
 
 * **AllowedEpistemeKinds (shape).**
-  `VP.Procedural` admits descriptions/specifications where the **DescribedEntitySlot** is a method/process/control Behaviour for the holon, e.g.:
+  `VP.Procedural` admits Description epistemes and specification-use Description epistemes where the **EntityOfConcernSlot** remains the holon and the viewpoint content foregrounds the holon's Method, procedure, control behaviour, or work-plan content, e.g.:
   * `MethodDescription`, `MethodSpec` for operational procedures (A.3.1–A.3.2).
   * `ControlLogicDescription`, `ControlLogicSpec` (IEC 61131‑3 style step diagrams/statecharts).
   * `WorkflowDescription`, `WorkflowSpec` (business processes, orchestration logic).
 
   These epistemes:
-  * must respect the **order discipline** (Γ_method, Γ_ctx) and A.15 (Role–Method–Work alignment);
-  * must carry I/D/S‑conformant DescriptionContext with `ViewpointRef = VP.Procedural`.
+  * respect the **order discipline** (Γ_method, Γ_ctx) and A.15 (Role–Method–Work alignment);
+  * carry E.10.D2-conformant DescriptionContext with `ViewpointRef = VP.Procedural`.
 
 * **ConformanceRules (examples).**
   * Pre/post‑conditions at step boundaries are explicit and type‑checked (A.3.1/A.3.2, Γ_method).
-  * No embedding of Work or calendars inside procedural descriptions (A.7/E.10.D2).
+  * No embedding of Work or calendars inside procedural descriptions (A.7 and E.10.D2).
   * Failure modes and recovery actions are declared and traceable to safety analyses (F.15 harnesses where relevant).
 
 * **SoTA echo (informative).** `VP.Procedural` captures the dynamic/process dimension found in SoTA architecture and MBSE practice: process views in 4+1, operational/behavioural views in defence and enterprise frameworks, behaviour diagrams in SysML (activity, sequence, state, interaction), and procedure/control‑oriented models in industrial standards. TEVB abstracts this into a notation‑agnostic “behaviour over time” viewpoint for holons.
 
 ##### E.17.2:4.2.3 - `VP.RoleEnactor` — role & device‑structure viewpoint
 
-**Intent.** Look at a holon in terms of **who/what plays which roles** and **how physical/organisational structure supports those roles**. This viewpoint covers both socio‑technical role assignments and “device view” readings of transduction graphs (E.TGA).
+**Intent.** Look at a holon in terms of **who/what plays which roles** and **how physical/organisational structure enables those role enactments**. This viewpoint covers both socio‑technical role assignments and “device view” readings of transduction graphs (E.TGA).
 
 * **viewpointId.**
 
@@ -201,7 +191,7 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   VP.RoleEnactor : ViewpointId  // EngineeringVPId
   ```
 
-* **EoIClassSpec.**
+* **EntityOfConcernClassSpec.**
 
   Same as the bundle.
 
@@ -217,12 +207,12 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   * Device‑view readings of functional graphs (E.TGA Device‑View).
 
 * **AllowedEpistemeKinds (shape).**
-  `VP.RoleEnactor` admits descriptions/specifications where the **DescribedEntitySlot** is a **role structure or capability allocation** associated with the holon, e.g.:
+  `VP.RoleEnactor` admits Description epistemes and specification-use Description epistemes where the **EntityOfConcernSlot** remains the holon and the viewpoint content foregrounds **role structure, role enactment, or capability allocation** associated with that holon, e.g.:
   * `RoleDescription`, `RoleSpec` (F.4, F.18) for human or system roles.
   * `RoleEnactmentDescription` for mappings `Holder#Role:Context` (A.15).
   * `DeviceAllocationDescription` mapping functions/transductions to physical modules or devices.
 
-  As with other TEVB viewpoints, these are D/S‑epistemes with `DescriptionContext.ViewpointRef = VP.RoleEnactor`.
+  As with other TEVB viewpoints, these are Description epistemes and specification-use cases with `DescriptionContext.ViewpointRef = VP.RoleEnactor`.
 
 * **ConformanceRules (examples).**
   * Role vs Method vs Work vs Capability separation is upheld (A.7, A.15).
@@ -241,7 +231,7 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   VP.ModuleInterface : ViewpointId  // EngineeringVPId
   ```
 
-* **EoIClassSpec.**
+* **EntityOfConcernClassSpec.**
   Same as the bundle.
 
 * **StakeholderFamilies (typical).**
@@ -256,17 +246,17 @@ The subsections below fix the **normative intent and minimal field profiles** fo
   * Replaceability and variation points (`VariabilityConcerns`).
 
 * **AllowedEpistemeKinds (shape).**
-  `VP.ModuleInterface` admits descriptions/specifications where the **DescribedEntitySlot** is a **structural architecture** of the holon, e.g.:
+  `VP.ModuleInterface` admits Description epistemes and specification-use Description epistemes where the **EntityOfConcernSlot** remains the holon and the viewpoint content foregrounds the holon's **structural architecture**, modules, interfaces, and connector arrangements, e.g.:
   * `SystemStructureDescription`, `SystemStructureSpec` (module/connector descriptions).
   * `ModuleInterfaceDescription`, `ModuleInterfaceSpec` (signature, interface specifications, physical interface definitions).
   * E.TGA‑style interface/port descriptions over `Signature`/`Mechanism` graphs.
 
-  These epistemes describe the carrier (structure) rather than capability. Functional↔physical reinterpretations between `VP.Functional` and `VP.ModuleInterface` are expressed via `U.EpistemicRetargeting` + `KindBridge` (A.6.4, E.18).
+  These epistemes describe holon structure, module-interface arrangement, ports/connectors, or structural architecture as viewpoint content about the holon rather than replacing the holon as the `EntityOfConcern`. Functional↔physical reinterpretations between `VP.Functional` and `VP.ModuleInterface` are expressed via `U.EpistemicRetargeting` + `KindBridge` (A.6.4, E.18) when the `EntityOfConcernRef` changes.
 
 * **ConformanceRules (examples).**
   * Interfaces are typed and explicitly bound to standards where applicable (A.6.0, F‑specs).
   * No inlining of Methods/Work into structure (strict separation of structure vs behaviour).
   * Reinterpretations from functional views into structure MUST respect the applicable `U.EpistemicRetargeting`/Bridge constraints (A.6.4). When combined with a concrete retargeting scheme (e.g. E.TGA structural retargeting, CC‑TGA‑06‑EX), that scheme’s additional rules also apply.
 
-* **SoTA echo (informative).** `VP.ModuleInterface` matches the structural/implementation/deployment families that dominate SoTA architecture descriptions: development and physical views in 4+1, construction/deployment viewpoints in IoT reference architectures, logical/physical architecture layers in UAF/NAF and RASDS‑style frameworks, and structural and interface‑focused models in SysML‑based MBSE. TEVB treats all of these as specialisations of a single holonic “modules and interfaces” viewpoint.
+* **SoTA echo (informative).** `VP.ModuleInterface` matches the structural, implementation, and deployment families that dominate SoTA architecture descriptions: development and physical views in 4+1, construction and deployment viewpoints in IoT reference architectures, logical and physical architecture layers in UAF, NAF, and RASDS-style frameworks, and structural and interface-focused models in SysML-based MBSE. TEVB treats all of these as specialisations of a single holonic “modules and interfaces” viewpoint.
 

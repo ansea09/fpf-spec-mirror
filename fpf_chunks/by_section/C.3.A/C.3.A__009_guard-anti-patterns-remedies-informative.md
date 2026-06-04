@@ -6,12 +6,12 @@ section_id: "C.3.A:8"
 section_title: "Guard Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__009_guard-anti-patterns-remedies-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:8 — Guard Anti‑patterns & Remedies (informative)"
-line_start: 38800
-line_end: 38811
+line_start: 38770
+line_end: 38780
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -28,11 +28,10 @@ keywords:
 
 | Anti‑pattern                                     | Why it’s wrong                         | Remedy                                                             |
 | ------------------------------------------------ | -------------------------------------- | ------------------------------------------------------------------ |
-| **Widening G** to “fit” a type mismatch          | Conflates describedEntity with applicability | Introduce subkind, adapter, or KindBridge; keep G honest           |
+| **Widening G** to “fit” a type mismatch          | Conflates entityOfConcern with applicability | Introduce subkind, adapter, or KindBridge; keep G honest           |
 | **Using mask name as kind**                      | Hides constraints; breaks determinism  | Register mask; reference constraints; promote to subkind if stable |
 | **Ignoring `CL^k`** in Cross‑context classification | Under‑counts risk; silent drift        | Require KindBridge; apply **Ψ(`CL^k`)** to **R**                   |
 | **Inferring Scope from Extension size**          | Scope ≠ Extension                      | Keep Scope (where) distinct from Extension (which instances)       |
 | **Implicit “latest”** time                       | Non‑deterministic; non‑auditable       | Declare **Γ\_time** policy explicitly                              |
 | **Gating on AT**                                 | AT is a facet, not a Characteristic    | Replace with ΔF thresholds or Scope/Evidence predicates            |
-
 

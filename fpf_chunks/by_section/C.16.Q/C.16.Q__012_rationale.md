@@ -6,12 +6,12 @@ section_id: "C.16.Q:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__012_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:10 — Rationale"
-line_start: 41565
-line_end: 41597
+line_start: 41493
+line_end: 41525
 dependencies:
   - "A.10"
   - "A.16"
@@ -75,12 +75,12 @@ without forcing them into one false universal scalar.
 It also makes the distributed-vs-local issue explicit:
 
 * some senses originate in **embodied** or **latent-distributed** substrates,
-* some are only publishable as **symbolic-local** CHR/bundle/objective forms,
+* some are only publishable as **symbolic-local** CHR, bundle, and objective forms,
 * and some require an explicit **projection** from the first into the second.
 
-It also makes the bearer/plane issue explicit:
+It also makes the bearer and plane issue explicit:
 
-* some uses evaluate the **described entity**,
+* some uses evaluate the **EntityOfConcern being described**,
 * some evaluate its **description** under a viewpoint,
 * some evaluate a **carrier** or **publication face**,
 * and those uses must not be collapsed without an explicit bearer lane and, when needed, a declared `referencePlane`.

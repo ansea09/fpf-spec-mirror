@@ -6,12 +6,12 @@ section_id: "F.11:11"
 section_title: "Worked examples (extended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__012_worked-examples-extended.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:11 — Worked examples (extended)"
-line_start: 72377
-line_end: 72440
+line_start: 73068
+line_end: 73127
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -57,7 +57,6 @@ keywords:
 
 **Pay‑off:** No one infers SLO satisfaction from a plan. Evidence is about **Work**; the plan stays design‑time.
 
-
 #### F.11:11.2 - Industrial furnace control (control + sensing + services)
 
 * **Contexts:** *State‑space control texts* (design), *IEC 61131‑3* (run), *PROV‑O* (run), *SOSA/SSN* (sensing), *ITIL 4* (services).
@@ -71,7 +70,6 @@ keywords:
 * **Bridge(s):** `IEC:Task` ⊑ `PROV:Activity` (CL=2, **Loss:** scan‑cycle semantics). `SOSA:Observation` **interprets** requirement clause (CL=3).
 
 **Pay‑off:** Separates **doing** from **pushing**, and both from **measuring**; compliance judged where it belongs.
-
 
 #### F.11:11.3 - Clinical assay
 
@@ -87,7 +85,6 @@ keywords:
 
 **Pay‑off:** A clean line from recipe → run → measurement → decision, without role-assignment and status-assertion conflation.
 
-
 #### F.11:11.4 Incident response (services + enactment)
 
 * **Contexts:** *ITIL 4* (services/design), *BPMN 2.0* (design), *PROV‑O* (run).
@@ -101,5 +98,4 @@ keywords:
 * **Bridge(s):** BPMN (design) → PROV (run) **Interpretation**, CL=2, **Loss:** gateways vs real‑time branching.
 
 **Pay‑off:** MTTR claims are tied to **Work**, not to the playbook.
-
 

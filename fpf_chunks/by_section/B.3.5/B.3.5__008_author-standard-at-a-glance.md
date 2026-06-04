@@ -6,12 +6,12 @@ section_id: "B.3.5:7"
 section_title: "Author Standard (at a glance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__008_author-standard-at-a-glance.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:7 — Author Standard (at a glance)"
-line_start: 31712
-line_end: 31727
+line_start: 31838
+line_end: 31852
 dependencies:
   - "B.3"
   - "C.13"
@@ -39,5 +39,4 @@ When you add or import a relation edge:
 
 > **What managers see:** nothing new in the graph picture.
 > **What auditors get:** a reliable trail from every published edge back to a principled constructor or an evidence pack.
-
 

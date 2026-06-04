@@ -6,12 +6,12 @@ section_id: "F.3:7"
 section_title: "Outputs (conceptual, not clerical)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__008_outputs-conceptual-not-clerical.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:7 — Outputs (conceptual, not clerical)"
-line_start: 69235
-line_end: 69249
+line_start: 70054
+line_end: 70067
 dependencies:
   - "A.11"
   - "A.7"
@@ -44,5 +44,4 @@ F.3 yields, **per Context**:
 1. A **SenseCell address** for each Local‑Sense: *(Context, Local‑Sense)*.
 
 These are **thinking reference points** (cognitive only), not records or files. Later patterns **cite SenseCells by name**; nothing about storage is implied.
-
 

@@ -6,12 +6,12 @@ section_id: "A.3.1:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__015_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:14 — Relations"
-line_start: 6058
-line_end: 6064
+line_start: 5964
+line_end: 5969
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -40,5 +40,4 @@ keywords:
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`.
 * **Coordinates with:** A.3 (role masks for transformers/constructors/observers); A.15 (Role–Method–Work Alignment); B.1 Γ (aggregation) for method families vs assembly of systems.
 * **Informs:** `U.WorkPlan` definitional pattern (plans reference Methods they schedule); `U.PromiseContent` definitional pattern (promises cite Methods as delivery means); `U.Dynamics` definitional pattern (models that Methods may assume).
-
 

@@ -6,12 +6,12 @@ section_id: "A.22:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:2 — Problem"
-line_start: 27829
-line_end: 27848
+line_start: 28037
+line_end: 28056
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,10 +33,12 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -48,8 +50,8 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture-description claim"
-  - "preserved/lost structure"
+  - "architecture-description boundary"
+  - "preserved and lost structure"
   - "selected structure"
   - "source return"
   - "structural description"
@@ -59,7 +61,7 @@ keywords:
 
 ### A.22:2 - Problem
 
-FPF needs a carrier for structure that is useful before any one domain ontology, mathematical formalism, architecture notation, or publication form takes over. Working projects often notice that "the structure" is doing real work:
+FPF needs a selected-structure EntityOfConcern that is useful before any one domain ontology, mathematical formalism, architecture notation, or publication form takes over. Working projects often notice that "the structure" is doing real work:
 
 - dependencies repeat across cases;
 - a method or work description hides an invariant relation;
@@ -68,12 +70,12 @@ FPF needs a carrier for structure that is useful before any one domain ontology,
 - a mathematical lens exposes preserved structure but is then overread as ontology;
 - an architecture discussion needs selected structure over a holon before it can describe architecture.
 
-How can FPF let a practitioner name structure as an intensional object while preserving the distinction between:
+How can FPF let a practitioner name structure as an EntityOfConcern while preserving the distinction between:
 
 - selected structure and the source, evidence path, lens output, simulation, generated representation, or declared substrate from which it was inferred or declared;
-- structure and a D/S description or view of that structure;
+- structure and a Description episteme or view of that structure;
 - structure and a publication face, diagram, table, graph, or carrier;
 - structure and mathematical-lens application;
-- structure and evidence, assurance, gate, decision, work, or release;
+- structure and another FPF claim kind that must exit to its own pattern;
 - structure in general and architecture-specific structure selected by `C.30`.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.14.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
-line_start: 59907
-line_end: 60208
+line_start: 60807
+line_end: 61104
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -37,21 +37,21 @@ Put bluntly: *one model people work in; three assurance shoulders — plus empir
 
 ### E.14:2 - Problem & Context
 
-Teams need **one shared Working‑Model** to make decisions at speed. Historically this surface either:
+Teams need **one shared Working‑Model** to make decisions at speed. Historically this shared model either:
 
 * **drifts into jargon**—different terms for one shared working-model value, slash‑labels, partial overlaps; or
 * **calcifies into machinery**—too formal for day‑to‑day design and review.
 
 Both failure modes create friction between two audiences:
-(1) **working users** (engineers, programme managers, policy owners) who need a **small, stable surface**, and
-(2) **assurance authors** (ontologists, methodologists, auditors) who need **proofs that the surface is sound**.
+(1) **working users** (engineers, programme managers, policy owners) who need a **small, stable Working-Model text**, and
+(2) **assurance authors** (ontologists, methodologists, auditors) who need **proofs that the Working-Model text is sound**.
 
 E.14 resolves the impasse by **separating concerns**:
 
 * A **Working‑Model layer**: curated kinds and relations expressed in plain terms, governed by simple human rules.
 * An **Assurance stack** beneath it - **Mapping**, **Logical**, **Constructive** - that carries the heavy arguments (concept alignment, relational semantics, generative traces) and **never leaks back** into the Working-Model narrative.
 
-This pattern dovetails with the framework’s unification stance (**small Working‑Model surface, rigorous foundations**) and with our constructional mereology commitments (**sum/set/slice** provide extensional identity), while keeping the Kernel minimal and meta‑only.
+This pattern dovetails with the framework’s unification stance (**small Working‑Model text, rigorous foundations**) and with our constructional mereology commitments (**sum/set/slice** provide extensional identity), while keeping the Kernel minimal and meta‑only.
 
 ### E.14:3 - Forces
 
@@ -62,7 +62,7 @@ This pattern dovetails with the framework’s unification stance (**small Workin
    The Working‑Model must accommodate rapid iteration; the Assurance stack must **lag just enough** to check, without blocking practical progress.
 
 3. **Parsimony vs. expressivity.**
-   The Working‑Model should **not proliferate relation types or ad‑hoc categories**; fine‑grained distinctions live in the Assurance layers and are surfaced **only when they materially change a decision**.
+   The Working‑Model should **not proliferate relation types or ad‑hoc categories**; fine‑grained distinctions live in the Assurance layers and are shown **only when they materially change a decision**.
 
 4. **Downward grounding vs. upward contamination.**
    Grounding must always flow **down** (Working‑Model → Mapping → Logical → Constructive). No dependence **up** is allowed: proofs and traces never dictate wording or layout in the Working‑Model.
@@ -73,48 +73,47 @@ This pattern dovetails with the framework’s unification stance (**small Workin
 6. **Auditability vs. readability.**
    Every Working‑Model statement must be **auditable on request**, yet day‑to‑day views **hide the scaffolding** unless summoned.
 
-
 ### E.14:4 - Solution
 
 #### E.14:4.1 - Human-Centric principles
-##### E.14:4.1.1 - Recognition surface and assurance surface
-Human-facing patterns also need governed-object stability across the two surfaces. The working reader should not meet one object in the recognition surface and a different ontological kind in the assurance surface. If the pattern distinguishes a governed object, the interpretive or operational move applied to that object, and the wider review or work process around it, those distinctions should be made explicit rather than hidden behind stylistic noun-swapping.
+##### E.14:4.1.1 - Recognition text and assurance text
+Human-facing patterns also need EntityOfConcern stability across the two reading-order text blocks. The working reader should not meet one object in the recognition text and a different ontological kind in the assurance text. If the pattern distinguishes an EntityOfConcern, the interpretive or operational move applied to that object, and the wider review or work process around it, those distinctions should be made explicit rather than hidden behind stylistic noun-swapping.
 
-Working-Model-first drafting therefore also means subject-domain-first drafting. If a pattern is meant to help with a real review, design, cultural, research, or operational problem, the recognition surface should open from that problem-owning moment before internal taxonomy or package architecture. If a broader umbrella head and a narrower operative branch are both live, the pattern should state that stack plainly enough that a cold reader can tell what the umbrella names, what branch is current, what object is governed, what move is being carried, and what wider work remains outside.
+Working-Model-first drafting therefore also means subject-domain-first drafting. If a pattern is meant to help with a real review, design, cultural, research, or operational problem, the recognition text should open from that problem-owning moment before internal taxonomy or package architecture. If a broader umbrella head and a narrower operative branch are both live, the pattern should state that stack plainly enough that a cold reader can tell what the umbrella names, what branch is current, what object is governed, what move is being carried, and what wider work remains outside.
 
-Under `F.18` local-first naming, the canonical pair here is **recognition surface** and **assurance surface**.
+Under `F.18` local-first naming, the canonical pair here is **recognition text** and **assurance text**.
 The earlier provisional `...shell` wording is retired.
-These names refer to two reading-order surfaces inside one pattern, not to new publication-surface kinds or owner kinds.
+These names refer to two reading-order text blocks inside one pattern, not to new publication-face kinds or authority kinds.
 
-For human-facing canonical patterns, Working-Model-first discipline should appear in a two-surface reading order.
-The **recognition surface** is the working surface that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.
-The **assurance surface** is the heavier surface that carries declaration, object discipline, modeling lens, law, reroute conditions, and other review work.
+For human-facing canonical patterns, Working-Model-first discipline should appear in a two-part reading order.
+The **recognition text** is the working text that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.
+The **assurance text** is the heavier text that carries declaration, object discipline, modeling lens, law, reroute conditions, and other review work.
 
-The assurance surface may justify, tighten, or audit the working surface, but it must not silently replace or strengthen the recognition-surface claim.
-Where episteme-publication-heavy or transform-heavy patterns need a compact ontological account, the assurance surface should expose three things explicitly:
-- the ontic target or governed object;
+The assurance text may justify, tighten, or audit the working text, but it must not silently replace or strengthen the recognition-text claim.
+Where episteme-publication-heavy or transform-heavy patterns need a compact ontological account, the assurance text should expose three things explicitly:
+- the ontic target or EntityOfConcern;
 - the modeling substrate or mathematical lens when one is load-bearing;
-- the publication or working surface by which the claim is presented.
+- the publication face or working text by which the claim is presented.
 
-This is a reading-order rule rather than a demand that every reader consume the assurance surface first.
-The point is to keep the human-facing Working-Model surface primary while preserving a recoverable, auditable second surface beneath it.
+This is a reading-order rule rather than a demand that every reader consume the assurance text first.
+The point is to keep the human-facing Working-Model text primary while preserving a recoverable, auditable assurance text beneath it.
 > **E.14‑P.1 – Working‑Model first, stance explicit.**  **
 > Operate one **Working‑Model** for all human‑facing discussion. For **each** assertion, the author **SHALL declare** a justification stance (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** (term↔kind alignment via **Lang‑CHR** / D‑Projection), **Logical** (CT2R alias semantics, scope/constraints), **Constructive** (Γₘ generative trace), and **Empirical Validation** (evidence via `U.EvidenceRole` in a declared `U.BoundedContext`).
 
 > **E.14‑P.2 – Downward‑only dependency.**
 > Information **may** flow from the Working‑Model down into any Assurance layer; **no Assurance layer may impose vocabulary or shape back upward** into the Working‑Model.
 >
-> **E.14‑P.3 – Small surface, big proof.**
+> **E.14‑P.3 – Small working text, big proof.**
 > The Working‑Model exposes a **minimal set** of names (L‑1/L‑2 registers) and **a compact family of relations** used in everyday reasoning; precision and completeness are **proved below**.
 
 > **E.14‑P.4 – Human registers first.**
-> Terms in the Working‑Model are deliberately curated for **human legibility** (register‑badged, synonym‑aware). Synonym capture and language variance belong to Mapping; **only the chosen canonical label appears on the Working‑Model surface**.
+> Terms in the Working‑Model are deliberately curated for **human legibility** (register‑badged, synonym‑aware). Synonym capture and language variance belong to Mapping; **only the chosen canonical label appears in the Working-Model text**.
 
 > **E.14‑P.5 – Justification modes are explicit.**
 > Each Working‑Model relation **declares** `validationMode ∈ {axiomatic, inferential, postulate}`.
-> _axiomatic_ → **Constructive** grounding (Γₘ trace via `tv:groundedBy`); _inferential_ → **Logical** grounding (reasoned chain, often KD‑CAL‑backed for epistemic ties); _postulate_ → **Empirical Validation** (evidence bundle with scope and timespan). Empirical Validation (**LA**) may also accompany _inferential_ or _axiomatic_ claims as real‑world confirmation. **Mapping** contributes **TA**, **Logical/Constructive** contribute **VA**, and **Empirical** contributes **LA** (per the Trust & Assurance calculus; no calculus variables appear on the Working‑Model surface).
+> _axiomatic_ → **Constructive** grounding (Γₘ trace via `tv:groundedBy`); _inferential_ → **Logical** grounding (reasoned chain, often KD‑CAL‑backed for epistemic ties); _postulate_ → **Empirical Validation** (evidence bundle with scope and timespan). Empirical Validation (**LA**) may also accompany _inferential_ or _axiomatic_ claims as real‑world confirmation. **Mapping** contributes **TA**, **Logical/Constructive** contribute **VA**, and **Empirical** contributes **LA** (per the Trust & Assurance calculus; no calculus variables appear in the Working‑Model text).
 
-> **E.14‑P.6 – Parsimony at the surface.**
+> **E.14‑P.6 – Parsimony in the working text.**
 > No new Working‑Model relation types are introduced if the existing Logical aliases plus Constructive grounding suffice to capture the intended meaning.
 
 > **E.14‑P.7 – Evidence is a first‑class support.**
@@ -154,13 +153,13 @@ This section defines **what each layer is for**, **what it guarantees**, and **h
 
 #### E.14:5.3 - Assurance‑2: Logical (from Working‑Model relations to alias semantics)
 
-**Role.** Give each Working‑Model relation **a precise alias meaning** and **its admissible use‑cases**, keeping the surface vocabulary small.
+**Role.** Give each Working‑Model relation **a precise alias meaning** and **its admissible use‑cases**, keeping the Working-Model vocabulary small.
 
 **Guarantee.** A Working‑Model edge such as *Component‑of* or *Aspect‑of* **carries one intended reading** (transitivity/antisymmetry expectations, scope notes), sufficient for auditors to assess whether the **use is legitimate** in a given context.
 
-**Deliverable.** A short set of alias rules: “When an edge is labeled *Component‑of* at the surface, it intends the structural reading that is later verified by construction.” The Logical layer is **the Standard** that ties human labels to accepted meanings (CT2R alias rules); it primarily contributes **Verification Assurance (VA)**. Calculus‑level symbols are not used in E‑patterns.
+**Deliverable.** A short set of alias rules: “When an edge is labeled *Component‑of* in the Working-Model text, it intends the structural reading that is later verified by construction.” The Logical layer is **the Standard** that ties human labels to accepted meanings (CT2R alias rules); it primarily contributes **Verification Assurance (VA)**. Calculus‑level symbols are not used in E‑patterns.
 
-*(Rationale: logical aliasing protects the small surface from relation proliferation while keeping meanings crisp.)*
+*(Rationale: logical aliasing protects the small Working-Model text from relation proliferation while keeping meanings crisp.)*
 
 #### E.14:5.4 - Assurance‑3: Constructive (from meanings to generative traces)
 
@@ -168,7 +167,7 @@ This section defines **what each layer is for**, **what it guarantees**, and **h
 
 **Guarantee.** For structural edges, **there exists a constructional narrative** (e.g., *sum*, *set*, *slice*) that, if told, would recreate the whole from its parts or the aspect from its bearer; this makes identity and containment **trackable and testable** across scales.
 
-**Deliverable.** A **single generative story** per structural link (axiomatic justification). For non-structural ties on the surface (e.g., epistemic links), Constructive may be absent; Logical/Empirical take the lead. Constructive contributes **VA** (extensional identity via Γₘ); for **structural** edges, `tv:groundedBy` **MUST** reference exactly one Γₘ trace.
+**Deliverable.** A **single generative story** per structural link (axiomatic justification). For non-structural ties in the Working-Model text (e.g., epistemic links), Constructive may be absent; Logical/Empirical take the lead. Constructive contributes **VA** (extensional identity via Γₘ); for **structural** edges, `tv:groundedBy` **MUST** reference exactly one Γₘ trace.
 
 *(Rationale: constructional grounding turns everyday part‑whole talk into statements whose identity conditions are not left to taste.)*
 
@@ -178,12 +177,12 @@ This section defines **what each layer is for**, **what it guarantees**, and **h
 **Guarantee.** Every empirical binding names a **`U.BoundedContext`**, a **target claim/scope**, and a **timespan**; **staleness/refresh** are managed per context policy.
 **Deliverable.** A `U.EvidenceRole` binding (status‑only) anchored into the Evidence–Provenance chain. Empirical Validation contributes **LA** (raises empirical **R** and constrains **G** to its validated envelope).
 
-#### E.14:5.6 - The downward grounding for a single surface statement
+#### E.14:5.6 - The downward grounding for a single Working-Model statement
 
 Consider a Working‑Model arrow **A –Component‑of→ B**:
 
 1. **Mapping** shows that the words *A* and *B* are the chosen labels for their kinds; it retains tolerated synonyms and symbols in the background.
-2. **Logical** confirms that **Component‑of** on the surface means the **structural reading** with its ordinary mereological expectations; if the surface used *Member‑of* instead, Logical would similarly certify the intended reading and its boundaries.
+2. **Logical** confirms that **Component‑of** in the Working-Model text means the **structural reading** with its ordinary mereological expectations; if the Working-Model text used *Member‑of* instead, Logical would similarly certify the intended reading and its boundaries.
 3. **Constructive** exhibits the **constructional narrative** (e.g., a _sum_ of parts resulting in **B** with **A** among them), which yields **axiomatic justification** for the structural edge, sets `validationMode=axiomatic`, and binds the edge via **`tv:groundedBy → Γₘ.sum|set|slice`**.
 4. **Empirical Validation** records the **evidence pointer** and scope that make the claim auditable within its `U.BoundedContext` (required for *postulate*; optional reinforcement for other stances).
 
@@ -197,7 +196,7 @@ Together, these three **ground the human arrow without leaking their machinery u
 
 * **Publication (Working‑Model).** Authors state structure using familiar relations (e.g., *Impeller* **ut\:ComponentOf** *Pump*; *Pump* **ut\:ComponentOf** *Skid*). Nothing else is required for readers to follow the design.
 * **Assurance (downward grounding).** When a higher-assurance claim is sought, the same author **narrates** the constructive story of the whole as a composition of parts and, where appropriate, attaches a downward grounding to that narrative (sum / set / slice). The narrative remains concept‑level and notation‑neutral; order and time stay out of structure and are expressed in their own planes.
-* **Canonization move.** Readers continue to see Working‑Model relations as the primary surface; the constructive story is *supporting*, not *defining*.
+* **Canonization move.** Readers continue to see Working‑Model relations as the primary Working-Model text; the constructive story is *supporting*, not *defining*.
 
 #### E.14:6.2 - `U.Episteme` — Working‑Model first; Logical/Mapping preferred; Empirical evidence as appropriate
 
@@ -206,8 +205,7 @@ Together, these three **ground the human arrow without leaking their machinery u
 * **Canonization move.** Again, Working‑Model text is the public form; assurance is attached deliberately and separately, without leaking method or time semantics into structure.
 
 **6.3 - Pattern lesson (both cases)**
-The **Working‑Model layer remains the canonical publication surface** for authors and reviewers; **assurance layers** (Mapping / Logical / Constructive) are **opt‑in** and used purposefully, with grounding flowing **downwards** from the Working‑Model to the appropriate shoulder. This presentation respects the authoring template’s *Archetypal Grounding* requirement and keeps notational choices illustrative rather than defining.
-
+The **Working‑Model layer remains the canonical publication face** for authors and reviewers; **assurance layers** (Mapping / Logical / Constructive) are **opt‑in** and used purposefully, with grounding flowing **downwards** from the Working‑Model to the appropriate shoulder. This presentation respects the authoring template’s *Archetypal Grounding* requirement and keeps notational choices illustrative rather than defining.
 
 ### E.14:7 - Bias‑Annotation *(what to watch for, and the counter‑moves)*
 
@@ -227,7 +225,7 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 
 | ID                                         | Requirement                                                                                                                                                                      | Purpose                                                       |
 | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| **CC‑E14‑1 (Working‑Model primacy).**      | Authors **SHALL** publish claims in **Working‑Model** form (human‑oriented **ut:\*Of** relations or equivalent domain statements) as the canonical surface for readers.          | Preserve human‑first canon and didactic clarity.              |
+| **CC‑E14‑1 (Working‑Model primacy).**      | Authors **SHALL** publish claims in **Working‑Model** form (human‑oriented **ut:\*Of** relations or equivalent domain statements) as the canonical publication face for readers.          | Preserve human‑first canon and didactic clarity.              |
 |**CC‑E14‑2 (Downward grounding).** | When assurance is attached, grounding **SHALL** flow **downwards** from the Working‑Model to the appropriate assurance shoulder (**Mapping / Logical / Constructive / Empirical**) and **SHALL NOT** impose vocabulary back onto the Working‑Model. | Maintain plane separation and cognitive economy. |
 | **CC‑E14‑3 (Stance declaration).**         | For any claim where assurance matters, the author **SHALL** declare `validationMode` (*postulate / inferential / axiomatic*).                                                    | Make assurance intent explicit and readable.                  |
 | **CC‑E14‑4 (No order/time in structure).** | Authors **SHALL NOT** encode execution order, parallelism, or temporal coverage as part–whole; keep them adjacent in their own planes.                                           | Prevent layer leakage and category errors.                    |
@@ -238,9 +236,9 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 | **CC‑E14‑9 (Progressive formality).**      | Authors **SHOULD** escalate assurance deliberately (from working claim to reasoned to constructive), and use **Empirical Validation** where observation is the right currency.    | Support staged formality without overloading early drafts.  |
 |**CC-E14-10 (Structural grounding handshake).** | For **structural** edges on the Working-Model, authors **SHALL** set `validationMode=axiomatic` and provide **Constructive** grounding with `tv:groundedBy → Γₘ.sum|set|slice` (see **Compose-CAL** and **CT2R-LOG**). Exactly **one** Γₘ trace is permitted per edge (CI rule alignment). | Aligns E.14 with CT2R-LOG and Compose-CAL; ensures extensional identity. |
 | **CC‑E14‑11 (Empirical bindings).**        | When `validationMode=postulate` (or when adding real‑world confirmation), authors **SHALL** bind evidence via `U.EvidenceRole` in a declared `U.BoundedContext` with an explicit **timespan** and provenance anchors. | Aligns with Evidence Graph Referring and empirical ageing policies. |
-| **CC-E14-12 (F-declaration).**             | Normative Working-Model publications **SHALL** declare `U.Formality = Fk` per **C.2.3** (**recommended F ≥ F3** for readable surfaces). Assurance publications or records **MAY** carry higher F; **min-F** applies to composites. | Aligns E.14 with the unified Formality characteristic; avoids legacy “tiers/modes”. |
+| **CC-E14-12 (F-declaration).**             | Normative Working-Model publications **SHALL** declare `U.Formality = Fk` per **C.2.3** (**recommended F ≥ F3** for readable publications). Assurance publications or records **MAY** carry higher F; **min-F** applies to composites. | Aligns E.14 with the unified Formality characteristic; avoids legacy “tiers/modes”. |
 | **CC‑E14‑13 (Light records, not thin prose).** | Authors **SHALL NOT** use the Working‑Model-first stance as a reason to strip problem framing, rationale, or worked slices out of the pattern text. Ordinary use may stay light, but readers **MUST** still be able to understand the pattern without nearby project notes. | Keeps human-facing economy from collapsing into under-explained prose. |
-| **CC‑E14‑14 (Working surface before assurance surface).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep a recognition-first working surface distinct from the heavier assurance surface. The assurance surface **MAY** refine and justify the working surface, but it **SHALL NOT** silently change the recognition-surface claim. If the pattern claims broad or transdisciplinary reach, the working surface **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |
+| **CC‑E14‑14 (Recognition text before assurance text).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep recognition-first working text distinct from the heavier assurance text. The assurance text **MAY** refine and justify the working text, but it **SHALL NOT** silently change the recognition-text claim. If the pattern claims broad or transdisciplinary reach, the working text **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |
 
 *All obligations above are **conceptual** and apply to thought and prose; they introduce no notational or data‑processing requirements.*
 
@@ -282,7 +280,6 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 * **Stable queries, fewer surprises.** Because aliases are backed by shared constructions, teams from different disciplines can interoperate without renegotiating meanings at hand‑off.
 * **Audit trail without jargon.** Reviewers can trace every structural claim to a prior constructional choice, while everyday collaborators keep using familiar relation names.
 
-
 ### E.14:9 - Consequences
 
 | Benefits                                                                                                                                                      | Trade‑offs / Mitigations                                                                                                                                                     |
@@ -293,7 +290,6 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 | **Spec cohesion.** The same section order and safety subsections (Bias‑Annotation, Conformance Checklist) keep patterns comparable and auditable.             | **Tighter prose.** Patterns grow by a few concise checks; mitigated by the canonical template.                                                                               |
 
 > **Quotable closer.** *“One layer to speak, three layers to justify—only when needed.”*
-
 
 ### E.14:10 - Rationale
 

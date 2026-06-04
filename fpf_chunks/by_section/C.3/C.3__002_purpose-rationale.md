@@ -6,12 +6,12 @@ section_id: "C.3:1"
 section_title: "Purpose & Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_purpose-rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:1 — Purpose & Rationale"
-line_start: 36704
-line_end: 36720
+line_start: 36785
+line_end: 36800
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -41,5 +41,4 @@ keywords:
 
 **Why it helps.**
 Teams routinely overspend on proofs for **instance‑level** questions and underspecify scope for **class‑level** claims. By naming the **Kind**, you plan **ΔF/ΔR** correctly and keep **G honest**. Typed checks also block unsafe compositions (“we were talking about different things”).
-
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.9.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.9 — U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align” via explicit Bridges (RPR‑XCTX)"
-line_start: 16187
-line_end: 16608
+line_start: 16338
+line_end: 16758
 dependencies:
   - "A.6.6"
   - "A.6.P"
@@ -65,7 +65,7 @@ In FPF terms, this is almost never a single claim. It is a *Bridge situation* th
 * near‑inevitable **loss/distortion** on transfer;
 * a (usually implicit) **edition / time‑slice basis** for both endpoints and the correspondence judgement (`Γ_time`);
 * a usually implicit **facet span** (`facetSpan`; “which aspects are being aligned?”) — the correspondence is often a *partial lens*, not whole‑cell sameness;
-* a critical ambiguity between **lexical synonymy / translation** (“same word/label”), **shared described-entity reference** (“same described entity under different IDs”), and **value‑level normalization** (“equivalent after φ‑normalization / unit conversion”).
+* a critical ambiguity between **lexical synonymy / translation** (“same word/label”), **shared EntityOfConcern reference** (“same EntityOfConcern under different IDs”), and **value‑level normalization** (“equivalent after φ‑normalization / unit conversion”).
 * a critical ambiguity between **explaining** a correspondence and **licensing substitution**.
 
 A.6.9 is the RPR specialisation that makes this structure explicit and prevents accidental “global identity” claims when the author’s intent is merely naming convenience or interpretive help.
@@ -289,7 +289,6 @@ If the witness changes, narrate the update as `refreshWitness` / `reviseLossNote
 
 * **Views / projections / correspondences:** if the core intent is multi‑view description (“this diagram is a view of that system”, “these views correspond”), route the modelling discipline to **E.17** and keep A.6.9 focused on preventing umbrella‑token licence smuggling. A.6.9 may still be used to declare any *naming/substitution* licence between view elements, but it MUST NOT replace E.17’s correspondence discipline.
 * **Kinds / classifications:** if the cross‑context claim is about **kind transfer** (“Class X in A is the same kind as Class Y in B” as a classification move), consider recording the classification channel using **C.3.3 KindBridge**. Do not conflate Bridge‑CL with kind‑mapping CL^k.
-
 
 ### A.6.9:5 - Archetypal Grounding
 

@@ -6,12 +6,12 @@ section_id: "A.3.2:5"
 section_title: "Clear distinctions (quick litmus for managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__006_clear-distinctions-quick-litmus-for-managers.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:5 — Clear distinctions (quick litmus for managers)"
-line_start: 6176
-line_end: 6189
+line_start: 6077
+line_end: 6089
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -49,5 +49,4 @@ keywords:
 | “Can achieve ±0.2 mm”                     | **`U.Capability`**             | Ability of a holder, not a spec.              |
 | A calendar for next week’s runs           | **`U.WorkPlan`**               | Plan/schedule, not a recipe.                  |
 | A state‑transition law                    | **`U.Dynamics`**               | Model of evolution, not a method description. |
-
 

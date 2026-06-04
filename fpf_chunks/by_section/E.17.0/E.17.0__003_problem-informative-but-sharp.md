@@ -6,12 +6,12 @@ section_id: "E.17.0:2"
 section_title: "Problem  (informative, but sharp)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__003_problem-informative-but-sharp.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:2 — Problem  (informative, but sharp)"
-line_start: 60639
-line_end: 60662
+line_start: 61533
+line_end: 61556
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -33,30 +33,21 @@ dependencies:
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "ISO 42010 alignment"
-  - "correspondence model"
-  - "description families"
-  - "engineering vs publication viewpoints"
-  - "entity-of-interest"
-  - "multi-view describing"
-  - "view"
-  - "view vs viewpoint"
-  - "viewpoint"
 ---
 
 ### E.17.0:2 - Problem  *(informative, but sharp)*
 
 Without `U.MultiViewDescribing`:
 
-1. **Viewpoints, views, `PublicationSurface` and `InteropSurface` kinds, and carrier renderings collapse.**
+1. **Viewpoints, views, `publication face/form` and `interop publication form` kinds, and carrier renderings collapse.**
    In practice, “architecture view”, “diagram”, “spec”, and “published deck” are used interchangeably. This:
 
-   * confuses *episteme* (`U.View`) with `PublicationSurface` or `InteropSurface` kind or with a concrete carrier rendering,
+   * confuses *episteme* (`U.View`) with `publication face/form` or `interop publication form` kind or with a concrete carrier rendering,
    * hides which **concerns and stakeholders** a description is written for,
    * makes it impossible to check whether a given description family is “complete enough” for a chosen viewpoint library.
 
 2. **Descriptions float without viewpoints.**
-   Legacy I/D/S discipline distinguishes Intension vs Description vs Spec, but does not, on its own, forbid “view‑from‑nowhere” descriptions (no declared viewpoint). That contradicts the pragmatic stance encoded in C.2.1: **no episteme without concerns**.
+   EntityOfConcern and Description-episteme boundary and specification use/refinement discipline distinguishes the EntityOfConcern from Description epistemes, including Description epistemes admitted for specification use, but does not, on its own, forbid “view‑from‑nowhere” descriptions (no declared viewpoint). That contradicts the pragmatic stance encoded in C.2.1: **no episteme without concerns**.
 
 3. **Each domain reinvents multi‑view semantics.**
    Architecture, safety cases, governance frameworks, and research engineering processes all use local notions of “view”, “viewpoint”, and “consistency between views”. Without a shared pattern:
@@ -66,5 +57,5 @@ Without `U.MultiViewDescribing`:
    * we cannot give a single formal story for consistency, correspondence, and EpistemicViewing across families of descriptions.
 
 4. **No place to attach correspondence.**
-   ISO 42010‑style *correspondences* and modern BX/consistency relations have nowhere canonical to live. We need a **CorrespondenceModel over families of D/S epistemes** that integrates with `U.EpistemicViewing`, `U.EpistemicRetargeting`, and C.2.1’s slot graph.
+   ISO 42010‑style *correspondences* and modern BX/consistency relations have nowhere canonical to live. We need a **CorrespondenceModel over families of Description epistemes, including Description epistemes admitted for specification use** that integrates with `U.EpistemicViewing`, `U.EpistemicRetargeting`, and C.2.1’s slot graph.
 

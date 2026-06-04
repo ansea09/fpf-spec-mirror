@@ -6,12 +6,12 @@ section_id: "E.17.1:19"
 section_title: "Bundle Projection and Comparative Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__020_bundle-projection-and-comparative-use.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:19 — Bundle Projection and Comparative Use"
-line_start: 61337
-line_end: 61347
+line_start: 62230
+line_end: 62240
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -39,11 +39,11 @@ keywords:
 ### E.17.1:19 - Bundle Projection and Comparative Use
 
 #### E.17.1:19.1 - Projection to local subsets
-A description family may project only a subset of a reusable bundle. This is lawful if the omitted members remain visible as omitted rather than disappearing into an ad hoc local list. Projection keeps bundle provenance intact while acknowledging that local publication rarely uses every member.
+A description family may project only a subset of a reusable bundle. This is admissible if the omitted members remain visible as omitted rather than disappearing into an ad hoc local list. Projection keeps bundle provenance intact while acknowledging that local publication rarely uses every member.
 
 #### E.17.1:19.2 - Comparative bundle use
 Bundles may be compared across contexts only if the comparison preserves member ids, member meanings, and subset/projection decisions. Comparing two bundle labels alone is not enough, because similarly named families may contain materially different viewpoint sets.
 
 #### E.17.1:19.3 - Boundary to publication-face design
-A publication face may choose to surface one composite presentation of several viewpoints, but the face is not the bundle. `E.17.1` therefore requires the underlying member structure to remain recoverable even when a public-facing document flattens it for readability.
+A publication face may render one composite presentation of several viewpoints, but the face is not the bundle. `E.17.1` therefore requires the underlying member structure to remain recoverable even when a public-facing document flattens it for readability.
 

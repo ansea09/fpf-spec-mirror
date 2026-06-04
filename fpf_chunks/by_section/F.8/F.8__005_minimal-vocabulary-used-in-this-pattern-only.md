@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Minimal vocabulary (used in this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__005_minimal-vocabulary-used-in-this-pattern-only.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:4 — Minimal vocabulary (used in this pattern only)"
-line_start: 70740
-line_end: 70750
+line_start: 71503
+line_end: 71512
 dependencies:
   - "A.11"
   - "A.7"
@@ -43,5 +43,4 @@ keywords:
 * **Role Description** — a **Role or Status** template anchored to a **single SenseCell** (F.4).
 * **Alias** — an **additional label** for an existing FPF label (within F.5), no new semantics.
 * **CL threshold τ(scope)** — the **minimum congruence level** needed for a row’s scope (e.g., τ(Naming-only) < τ(Assignment-eligibility) < τ(Type-structure)).
-
 

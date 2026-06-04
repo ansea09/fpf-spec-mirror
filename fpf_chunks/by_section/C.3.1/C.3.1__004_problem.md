@@ -6,12 +6,12 @@ section_id: "C.3.1:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__004_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:3 — Problem"
-line_start: 37622
-line_end: 37628
+line_start: 37650
+line_end: 37655
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -28,6 +28,5 @@ keywords:
 
 1. **Scope–Type conflation.** Teams broaden G by “abstracting” prose, not by adding supported slices.
 2. **Unsafe composition.** Claims are joined though they talk about different “things.”
-3. **Cross‑context drift.** Without an explicit core notion of kind, bridges blur describedEntity vs applicability.
-
+3. **Cross‑context drift.** Without an explicit core notion of kind, bridges blur entityOfConcern vs applicability.
 

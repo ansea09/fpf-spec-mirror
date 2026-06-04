@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance / Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:3 — Forces"
-line_start: 12938
-line_end: 12948
+line_start: 12780
+line_end: 12790
 dependencies:
   - "A.15"
   - "A.16"
@@ -51,6 +51,6 @@ keywords:
 * **Enactor specificity vs shared discourse.** A cue may be visible to one detector yet relevant to another would-be enactor.
 * **Opportunity vs obligation.** Not every invitation is a gate or commitment.
 * **Option plurality vs premature scalarisation.** Several candidate actions may co-exist without an admissible total ordering.
-* **Cross-tradition dialogue vs false unification.** The framework should support parallels without asserting identity.
+* **Cross-tradition dialogue vs false unification.** The framework should preserve parallels without asserting identity.
 * **Progressive closure.** An action cue may later become an option, then a policy hook, and only later a formal gate or work plan.
 

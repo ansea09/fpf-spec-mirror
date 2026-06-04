@@ -6,12 +6,12 @@ section_id: "A.3.3:9"
 section_title: "Evidence and operators (traces, prediction, conformance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__010_evidence-and-operators-traces-prediction-conformance.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:9 — Evidence and operators (traces, prediction, conformance)"
-line_start: 6525
-line_end: 6569
+line_start: 6412
+line_end: 6455
 dependencies:
   - "A.19"
   - "B.4"
@@ -65,5 +65,4 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 * If two traces are generated under identical `inputs` and initial conditions, recorded differences must be explainable by the declared stochasticity/noise model or flagged as violations.
 
 > **Didactic hook:** *Dynamics predicts; Work reveals; Conformance compares.*
-
 

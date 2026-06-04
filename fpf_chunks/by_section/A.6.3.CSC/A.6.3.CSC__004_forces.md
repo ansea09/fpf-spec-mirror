@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:3 — Forces"
-line_start: 10329
-line_end: 10338
+line_start: 10189
+line_end: 10198
 dependencies:
   - "A.15"
   - "A.20"
@@ -48,9 +48,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Reader economy vs source support | Readers need short, useful renderings, but shortness must not erase the source-bearing side or its limits. |
-| Ordinary use vs load-bearing use | A small summary should stay cheap, while disputed, cited, external, policy, bridge, work, or gate-adjacent use needs more assurance. |
-| Helpfulness vs unsupported authority reading | The clearer the coarsened rendering is, the more likely it is to be over-read as evidence, bridge or substitution support, approval, or execution authority. |
+| Reader economy vs source relation | Readers need short, useful renderings, but shortness must not erase the source-bearing side or its limits. |
+| Ordinary use vs claim-bearing use | A small summary should stay cheap, while disputed, cited, external, policy, bridge, work, or gate-adjacent use needs more assurance. |
+| Helpfulness vs non-admissible authority interpretation | The clearer the coarsened rendering is, the more likely it is to be over-read as evidence, bridge or substitution admissibility, approval, or execution authority. |
 | Coarsening-chain reuse vs provenance reset | Reusing one coarsened rendering to make another saves effort, but it must not reset source path, loss envelope, uncertainty, or reopen duty. |
 | Neighbor clarity vs family sprawl | The coarsening relation needs one governing pattern without stealing ordinary rewrite, representation, explanation, comparison, bridge, stance, work, or gate discipline from neighboring patterns. |
 

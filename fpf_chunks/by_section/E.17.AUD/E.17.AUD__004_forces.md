@@ -6,12 +6,12 @@ section_id: "E.17.AUD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:3 — Forces"
-line_start: 63821
-line_end: 63830
+line_start: 64694
+line_end: 64703
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,7 +27,6 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17"
@@ -46,9 +45,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| **Recognisability vs precision** | Cold readers need a quick recognition surface, but the unit still needs explicit primary-described-entity, carried-publication-move, and outside-work discipline. |
-| **Local repair vs whole-unit stabilization** | It is cheaper to fix one overloaded local lexical head, but sometimes the whole publication unit already carries a quiet shift in primary described entity, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim. |
+| **Recognisability vs precision** | Cold readers need a quick recognition block, but the unit still needs explicit primary-EntityOfConcern, carried-publication-move, and outside-work discipline. |
+| **Local repair vs whole-unit stabilization** | It is cheaper to fix one overloaded local lexical head, but sometimes the whole publication unit already carries a quiet shift in primary EntityOfConcern, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim. |
 | **Stability vs governing-pattern boundary honesty** | Teams want to keep one unit usable, but they also need to admit when the case now belongs to comparison, explanation, or downstream claim or effect. |
-| **Form variety vs governed-unit fidelity** | Note, memo, sheet, table, and screen are convenient ordinary labels, but they must not silently replace the governed publication unit. |
+| **Form variety vs publication-unit fidelity** | Note, memo, sheet, table, and screen are convenient ordinary labels, but they must not silently replace the publication unit under review. |
 | **Readability vs downstream claim or effect laundering** | Clearer or more polished prose helps readers, but it does not by itself mint approval, policy, gate, work, or reliance claim or effect. |
 

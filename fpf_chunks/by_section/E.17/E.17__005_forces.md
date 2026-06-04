@@ -6,12 +6,12 @@ section_id: "E.17:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__005_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:4 — Forces"
-line_start: 61838
-line_end: 61846
+line_start: 62734
+line_end: 62742
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -42,5 +42,5 @@ keywords:
 | **Compositionality vs legibility** | Preserve arrow invariants across views ↔ keep each view didactic and audience‑appropriate. |
 | **Neutral naming vs domain idioms** | Use vocabulary stable across domains ↔ allow local templates (SOPs, APIs, checklists). |
 | **Publication-face independence (A.7)** | Publication must not mutate I-, D-, and S-semantics ↔ authors expect rich presentations. |
-| **Evidence discipline** | Views must cite CG‑Spec and CHR anchors ↔ authors want compact cards. |
+| **Evidence discipline** | Views must cite CG‑Spec and CHR references ↔ authors want compact cards. |
 

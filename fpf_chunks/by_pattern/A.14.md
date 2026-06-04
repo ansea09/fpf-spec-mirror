@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.14.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
-line_start: 18904
-line_end: 19179
+line_start: 18969
+line_end: 19239
 dependencies:
   - "A.1"
   - "B.1.1"
@@ -53,7 +53,6 @@ If we only have “generic partOf” (plus Component/Constituent), four classes 
 3. **Identity confusion.** Modelling “new version” as “new component” either breaks identity (it is still the *same* holon evolving) or hides a **Meta‑Holon Transition** when identity really changes.
 
 4. **Role leakage.** Functional/organisational roles sneak into part trees (“the PumpRole is part of the plant”), violating A.15 and making structural reasoning brittle.
-
 
 ### A.14:3 - Forces
 
@@ -100,7 +99,6 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 ✘ “The pump module of the plant” — **ComponentOf**, not PortionOf.
 ✘ “The Methods section of the paper” — **ConstituentOf**, not PortionOf.
 
-
 #### A.14:5.2 - PhaseOf — temporal part of the same carrier
 
 **Intent.** Capture “the same holon during a sub‑interval”, preserving identity through change.
@@ -142,7 +140,6 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 
 > **Firewall reminder.** If your sentence is about *who does what*, *how it is done*, or *what happened when* (role, method, or run), you are likely in **A.15**. If it is about the **document or carrier** (its pages/sections/versions), you may still be in **A.14** (Episteme mereology).
 
-
 ### A.14:7 - Archetypal grounding (System / Episteme)
 
 | Relation                       | `U.System` example                                     | `U.Episteme` example                                        |
@@ -151,7 +148,7 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 | **ComponentOf**                | Impeller **ComponentOf** PumpUnit.                     | Figure 2 **ComponentOf** Poster Layout (physical poster layout). |
 | **ConstituentOf**              | Control law **ConstituentOf** Controller Design.       | Lemma A **ConstituentOf** Theorem Proof.                    |
 | **PhaseOf**                    | PumpUnit\#3 *before*/*after* calibration (same serial). | Spec v1 → v2 (same document lineage).                       |
-| MemberOf (for reference) | “is an element of a collection/collective”; use when a grouping is explicitly treated as a whole set, without implying component integration. Not a building block of the whole; **constructive aggregation** is handled in **C.13 Compose‑CAL** (`Γ_m.set`). If the grouping is expected to **act**, model a **collective system** (A.15). |
+| MemberOf (for reference) | “is an element of a collection/collective”; use when a grouping is explicitly treated as a whole set, without implying component integration. Not a building block of the whole; **constructive aggregation** is handled in **C.13 Compose‑CAL** (`Γ_m.set`). | Same collection-member rule for epistemes; if the grouping is expected to **act**, model a **collective system** (A.15). |
 
 ### A.14:8 - Conformance Checklist & type guards (normative)
 
@@ -202,7 +199,6 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 | **CC‑MEM‑2** | From `MemberOf(x,C)` it is **forbidden** to infer any property of C to x via parthood rules.      | Prevents “set‑as‑whole” errors.       |
 | **CC‑MEM‑3** | **Constructive aggregation of collections** is provided by **C.13 Compose‑CAL** (`Γ_m.set`); **agency of collectives** is specified outside A.14 (see **A.15 Role–Method–Work**). | Keeps A.14 narrow and clean.          |
 
-
 #### A.14:8.5 - CT2R‑LOG handshake (Working‑Model → Assurance)
 
 | ID                 | Requirement                                                                                                                                                              | Purpose                                                                                 |
@@ -235,7 +231,6 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 | “Chapter 2 is 15% of the book” | Mixing measures and constituents  | Use **ConstituentOf**; the 15% is **length‑of‑text** as a separate statement.                                                |
 | “Spec v2 overlaps v1”          | Overlapping phases on same aspect | Use `PhaseOf(Spec_v2, Spec)` with non‑overlap; represent drafting as **Work** episodes (A.15) rather than overlapping specs. |
 | “Team is part of the project”  | Member vs part confusion          | Use **MemberOf(Team, ProjectCollective)**, not partOf.                                                                       |
-
 
 ### A.14:10 - Interplay with Γ‑flavours (how these relations behave under aggregation)
 

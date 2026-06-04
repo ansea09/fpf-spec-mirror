@@ -6,12 +6,12 @@ section_id: "B.3:6"
 section_title: "Archetypal grounding (worked examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__009_archetypal-grounding-worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:6 — Archetypal grounding (worked examples)"
-line_start: 31249
-line_end: 31312
+line_start: 31377
+line_end: 31440
 dependencies:
   - "A.10"
   - "A.12"
@@ -21,6 +21,7 @@ dependencies:
   - "A.20"
   - "A.21"
   - "A.6"
+  - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.1.2"
@@ -66,17 +67,17 @@ keywords:
 * **Inputs:**
 
   * `F` per node: module spec F2, cell test F1 → `F_eff = F1`.
-  * `G`: operating envelope regions; union constrained by supported test regimes.
+  * `G`: operating envelope regions; union constrained by evidence relationed test regimes.
   * `R`: per‑module reliability from test data; cutset is **hot‑spot path** near weakest cell.
   * `CL`: interface congruence (sensor calibration CL2; thermal contact CL1).
 * **Aggregation:**
 
   * `R_raw = min R_i` along the thermal cutset.
   * `R_eff = max(0, R_raw − Φ(CL_min=CL1))`.
-  * `G_eff`: union of supported (L,T) rectangles, dropping regions lacking validated thermal data.
+  * `G_eff`: union of evidence-covered (L,T) rectangles, dropping regions lacking validated thermal data.
   * `F_eff = min(F_cell=F1, F_module=F2) = F1`.
 * **SCR:** Evidence for calibration, test campaigns, BIC.
-* **Improvement path:** raise `CL` (better thermal interface verification), raise `F` (formal thermal model), add supported envelope → **R\_eff** and **G\_eff** increase monotonically.
+* **Improvement path:** raise `CL` (better thermal interface verification), raise `F` (formal thermal model), add evidenced envelope → **R\_eff** and **G\_eff** increase monotonically.
 
 #### B.3:6.2 - Episteme archetype — **Meta-analysis claim**
 
@@ -88,12 +89,12 @@ keywords:
   * `F`: two RCTs at F3, one observational at F2 -> `F_eff = F2`.
   * `R`: per-study replication/quality -> weakest R on the entailment spine caps `R_raw`.
   * `CL`: mapping of scales (CL1 vs CL3).
-  * `G`: populations union, but unsupported sub-populations are dropped.
+  * `G`: populations union, but unevidence-covered sub-populations are dropped.
 * **Aggregation:**
 
-  * `F_eff = F2` from the weakest study-design support in the synthesis.
+  * `F_eff = F2` from the weakest study-design evidence relation in the synthesis.
   * `R_eff = max(0, min(R_RCT1, R_RCT2, R_OBS) - Φ(CL_min=CL1))`.
-  * `G_eff`: union of supported sub-populations; out-of-scope groups excluded.
+  * `G_eff`: union of evidence-covered sub-populations; out-of-scope groups excluded.
   * `CL_min = CL1` for scale mappings; record the mapping witness and weakest-link study in the SCR.
 * **SCR:** Data provenance, scale mappings, bias assessment, and proof-term hash for the effect-model equivalence when it is used constructively.
 * **Improvement path:** upgrade mapping verification to CL2/CL3; increase `F` via registered analysis plan; replicate lagging study.

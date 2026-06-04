@@ -6,12 +6,12 @@ section_id: "B.2.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2.3 — Meta-Epistemic Transition (MET)"
   - "B.2.3:7 — Conformance Checklist"
-line_start: 30533
-line_end: 30541
+line_start: 30662
+line_end: 30670
 dependencies:
   - "A.1"
   - "B.2"

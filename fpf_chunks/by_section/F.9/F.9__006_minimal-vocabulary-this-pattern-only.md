@@ -6,12 +6,12 @@ section_id: "F.9:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:5 — Minimal vocabulary (this pattern only)"
-line_start: 71101
-line_end: 71114
+line_start: 71846
+line_end: 71858
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -58,5 +58,4 @@ keywords:
 * **Role Assignment & Enactment-eligibility** (assignable constraints/roles/status reuse),
 * **Type-structure** (safe structural inference).
 * **senseFamily** — the semantic category (Role, Status, Measurement, Type-structure, Method, Execution…) per F.0.1 (normative Part F guard).
-
 

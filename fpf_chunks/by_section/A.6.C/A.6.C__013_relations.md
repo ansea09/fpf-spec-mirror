@@ -6,12 +6,12 @@ section_id: "A.6.C:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:12 — Relations"
-line_start: 8780
-line_end: 8794
+line_start: 8639
+line_end: 8653
 dependencies:
   - "A.15.1"
   - "A.2.3"
@@ -67,7 +67,7 @@ keywords:
 
 * **Coordinates with**
 
-  * **A.7** (Object≠Description≠Carrier) for correct placement of evidence claims.
+  * **A.7** (EntityOfConcern / Description episteme / carrier) for correct placement of evidence claims.
   * **F.12** (service acceptance) for structuring how promise-level commitments connect to evidence and acceptance windows.
   * **E.17** MVPK “no new semantics” rule to prevent publication faces from becoming new contracts.
 

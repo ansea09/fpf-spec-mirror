@@ -6,12 +6,12 @@ section_id: "A.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:3 — Forces"
-line_start: 18778
-line_end: 18786
+line_start: 18843
+line_end: 18851
 dependencies:
   - "A.12"
   - "A.2"

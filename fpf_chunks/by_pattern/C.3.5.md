@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
-line_start: 38411
-line_end: 38581
+line_start: 38400
+line_end: 38562
 dependencies:
   - "C.3.1"
 keywords:
@@ -50,7 +50,6 @@ Teams constantly decide **how far to formalize** and **how broadly to validate**
 
 **KindAT** answers these with a **small, shared vocabulary (K0…K3)** that is **safe to use** (cannot distort F/G/R) yet **actionable** for planning and catalog/search.
 
-
 ### C.3.5:2 - Context & Rationale
 
 #### C.3.5:2.1 - The orthogonality we preserve
@@ -76,7 +75,6 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 * Making AT a Characteristic would **duplicate** G’s role and encourage gating.
 * As a **facet**, AT remains a **catalog/navigation and planning device**, not an assurance dimension.
-
 
 ### C.3.5:3 - **Anchors K0…K3** (informative)
 
@@ -120,7 +118,6 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 | **Expected `CL^k`** | Low outside Context                 | Medium                      | Med/High                                   | High where iso holds                    |
 | **Refactoring**     | Aggregate to K2 when stable      | Crystallize invariants → K2 | Maintain lattice; promote masks → subkinds | Keep iso constraints explicit           |
 
-
 ### C.3.5:5 - Misuse & Antidotes (informative)
 
 * **“Higher AT ⇒ wider G.”** *Wrong.* **G** changes only via **ΔG** (USM). AT does not alter scope.
@@ -128,7 +125,6 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 * **“Depth in `⊑` ⇒ AT.”** *Wrong.* AT is about **intentional stance**, not graph depth.
 * **“AT on claims.”** *Wrong.* AT tags **`U.Kind` only**.
 * **“AT as quality score.”** *Wrong.* Use **F** and **R** for rigor/reliability.
-
 
 ### C.3.5:6 - **Usage Rules (normative)**
 
@@ -143,7 +139,6 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 **AT‑04 (Bridge neutrality).** **KindBridge** records **MUST NOT** compute or adjust AT; they may include *informative* remarks about likely anchor alignment. `CL^k` is independent of AT and is assessed from signature/order preservation.
 
 **AT‑05 (Catalog).** Contexts that use AT **SHOULD** record it in **Kind catalog entries** alongside: signature snippet & **F**, subkinds, RoleMasks, KindBridges. Absence of AT implies **“not set”**, not K0.
-
 
 ### C.3.5:7 - Authoring & Review Guidance (informative)
 
@@ -162,7 +157,6 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 4. Any **RoleMasks** that should be promoted to subkinds (K2 hygiene)?
 5. Any **Cross‑context reuse** that suggests **bridge style** (pattern/type/iso)?
 
-
 ### C.3.5:8 - Integration Notes (informative)
 
 * **With C.3.1/3.2 (Kinds, Signature, Extension).** AT guides *how* to evolve signature **F** and *what* R coverage is sensible; it **does not** change membership semantics.
@@ -171,14 +165,12 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 * **With A.2.6 (USM).** All scope decisions remain under **G**. AT text should never be used to infer coverage.
 * **With C.2.3 (F).** AT does not raise/lower **F**; it **suggests** where raising F is cost‑effective.
 
-
 ### C.3.5:9 - Worked Mini‑Examples (informative)
 
 * **K0 (Instance).** `Account_US_GAAP_2025_Q1_Cohort`. Plan **R** slice checks; avoid type‑maps across Contexts.
 * **K1 (Behavior).** `CacheableRequest` (“idempotent under retry; cache key well‑formed”). Raise **F3→F4**; design **R** for failure‑mode diversity; expect **pattern bridges**.
 * **K2 (Formal).** `Account` with invariants (balance = debits−credits; posting rules). Raise **F4+**; plan **R** over `Asset`/`Liability` subkinds; bridge via **type maps**.
 * **K3 (Up‑to‑Iso).** `UndirectedGraph` up to node relabeling. Expect **up‑to‑iso bridges**; proofs at **F7+**; **R** checks interface equivalence witnesses.
-
 
 ### C.3.5:10 - Conformance Checklist (normative)
 

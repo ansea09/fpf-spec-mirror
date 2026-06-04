@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
-line_start: 6075
-line_end: 6370
+line_start: 5980
+line_end: 6260
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -50,7 +50,6 @@ Projects need a **stable way to express “how it is written”**—the recipe, 
 
 `U.MethodDescription` gives this anchor. It treats **algorithms, programs, proofs, SOPs, BPMN diagrams, solver models, playbooks** as **one class of epistemes**: *knowledge on a carrier that describes a Method*. This unifies software and “paper” procedures and lets teams switch notations without breaking the model.
 
-
 ### A.3.2:2 - Problem (what breaks without a clear `MethodDescription`)
 
 1. **Spec/run conflation.** A flowchart or code is mistaken for the run; audits and SLOs become unreliable.
@@ -59,7 +58,6 @@ Projects need a **stable way to express “how it is written”**—the recipe, 
 4. **Algorithm‑centrism.** Only code is considered “the method”, leaving SOPs and scientific procedures second‑class.
 5. **Structure entanglement.** BoM/PBS elements end up inside the recipe; method and product structure tangle.
 6. **Unstated equivalence.** Two specs intended to mean “the same method” are not declared equivalent; teams fork semantics by accident.
-
 
 ### A.3.2:3 - Forces (what we must balance)
 
@@ -70,7 +68,6 @@ Projects need a **stable way to express “how it is written”**—the recipe, 
 | **Timelessness vs. operability**   | Specs are timeless, but must be precise enough to drive execution and audit.                        |
 | **Reusability vs. constraints**    | Specs should declare role kinds, capabilities, safety bounds—without baking in people or calendars. |
 | **Evolvability vs. identity**      | Specs change; we need a way to evolve them without losing the method’s identity or history.         |
-
 
 ### A.3.2:4 - Solution — the specification as an episteme describing a Method
 
@@ -136,7 +133,6 @@ In the constructor‑theoretic reading used by FPF:
 
 This keeps software and “wet lab” on equal footing.
 
-
 ### A.3.2:5 - Clear distinctions (quick litmus for managers)
 
 | You are holding…                          | It is…                         | Why                                           |
@@ -149,7 +145,6 @@ This keeps software and “wet lab” on equal footing.
 | “Can achieve ±0.2 mm”                     | **`U.Capability`**             | Ability of a holder, not a spec.              |
 | A calendar for next week’s runs           | **`U.WorkPlan`**               | Plan/schedule, not a recipe.                  |
 | A state‑transition law                    | **`U.Dynamics`**               | Model of evolution, not a method description. |
-
 
 ### A.3.2:6 - Archetypal grounding (parallel cases)
 
@@ -171,7 +166,6 @@ This keeps software and “wet lab” on equal footing.
 * **Method:** `AcuteAppendicitis_Triage`.
 * **MethodDescription:** clinical decision rule set; **Epistemic Role**: `RegulatedProcedureRole:Hospital_Context`.
 * **Execution:** `ER_Team#TransformerRole:ER_Shift` enacts the spec on a case → **Work** visit V‑8842.
-
 
 ### A.3.2:7 - Bias‑Annotation (as in E‑cluster)
 
@@ -226,7 +220,6 @@ If two contexts use different MethodDescriptions for “the same‑named way,”
 **CC-A3.2-15 (Causal-use work boundary).**
 A MethodDescription **MAY** describe intervention assignment, target-trial emulation, realized-counterfactual sampling, simulation, or causal-evidence collection by naming `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` relations. It **SHALL NOT** be treated as causal-use support, causal-use admissibility, or causal-use verdict by itself. When that work is used causally, the causal-use question, rung, estimand, support basis, support verdict, supported use, and unsupported use **SHALL** be carried by `C.28`.
 
-
 ### A.3.2:9 - MethodDescription mereology (epistemic composition; not method composition)
 
 Keep two worlds separate:
@@ -242,7 +235,6 @@ Keep two worlds separate:
 * **`RepresentationOf`** — this visual diagram is a representation of the textual rule set.
 
 **Didactic rule:** Do not infer that a spec with two modules **means** a Method with “two steps.” Modules are **parts of the description**, not necessarily steps of the Method.
-
 
 ### A.3.2:10 - Parameterization & variability (templates, defaults, configs)
 
@@ -264,7 +256,6 @@ Keep two worlds separate:
 * When variants differ only by **parameter ranges** → keep one Method with one MethodDescription template.
 * When variants differ by **Standard** (effects/bounds) → either declare a **refinement** or introduce a **distinct Method** (context decision).
 
-
 ### A.3.2:11 - Equivalence & compatibility (across notations and contexts)
 
 **Within one context.**
@@ -281,7 +272,6 @@ Keep two worlds separate:
 **Observational perspective (pragmatic).**
 Two specs are observationally equivalent for stakeholders **if**, under declared conditions, they are indistinguishable by the acceptance tests of that context (even if internal strategies differ).
 
-
 ### A.3.2:12 - Anti‑patterns (and the right move)
 
 * **Spec = run.** “Yesterday’s process log is our spec.” → The log is **Work**; write a **MethodDescription** and link runs to it.
@@ -292,7 +282,6 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 * **Silent parameter capture.** Hard‑coding values without declaring parameters. → Declare parameters with ranges; bind at Work creation.
 * **Undeclared variant drift.** Copy‑pasting specs and tweaking silently. → Use **VariantOf** with stated deltas or declare a refinement.
 
-
 ### A.3.2:13 - Migration notes (quick wins)
 
 1. **Label the descriptions.** Wherever a repo/diagram/document “is the process,” rename it **MethodDescription** and link it to a named **Method**.
@@ -301,7 +290,6 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 4. **Write acceptance criteria.** Especially for search/optimization or ML specs.
 5. **Declare equivalence/refinement.** Where two notations intend “the same way,” add an **equivalence note**; where the new one tightens bounds, declare **refinement**.
 6. **Bridge domains.** If two departments use different vocabularies, add a **Bridge (`U.Alignment`)** rather than forcing a single spec.
-
 
 ### A.3.2:14 - Consequences
 
@@ -312,14 +300,12 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 | **Easier reuse and substitution.** Equivalence/refinement rules enable swapping notations without semantic drift. | **Equivalence is a claim.** Back it with short acceptance tests.                                   |
 | **Cross‑domain coherence.** Bridges allow controlled translation between contexts.                                | **Bridge maintenance.** Someone owns the mapping; keep it short and focused.                       |
 
-
 ### A.3.2:15 - Relations
 
 * **Builds on:** A.3.1 `U.Method` (the semantic way it describes); A.1.1 `U.BoundedContext`.
 * **Coordinates with:** A.2 `U.Role`, A.2.1 `U.RoleAssignment` (who enacts it); A.2.2 `U.Capability` (ability thresholds); A.15 Role–Method–Work (linking `isExecutionOf` to runs); `C.28` when intervention, target-trial, counterfactual-sampling, simulation, or causal-evidence work is used to support a causal-use claim.
 * **Informs:** `U.WorkPlan` (plans reference MethodDescriptions); `U.Dynamics` (models that specs may assume); Epistemic Role patterns (status of specs RoleStateGraph + State Assertion).
 * **Lexical guards:** E.10.y **L‑PROC** (do not call MethodDescription “process” when you mean Work/WorkPlan); E.10.x **L‑FUNC** (avoid “function/functionality” confusion).
-
 
 ### A.3.2:16 - Didactic quick cards
 
@@ -330,5 +316,4 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 * **Bridge, do not blur.** Cross‑team/domain differences go through **`U.Alignment`**, not wishful thinking.
 
 ### A.3.2:End
-
 

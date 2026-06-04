@@ -6,12 +6,12 @@ section_id: "C.2.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__007_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:3 — Forces"
-line_start: 34237
-line_end: 34246
+line_start: 34336
+line_end: 34345
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,25 +47,13 @@ dependencies:
   - "E.9"
   - "F.18"
 keywords:
-  - "PublicationUnit"
-  - "carrier"
-  - "claim-bearing episteme"
-  - "described entity"
-  - "epistemic precision restoration"
-  - "grounding relation"
-  - "publication face"
-  - "remaining admissible reader move"
-  - "source wording"
-  - "source-expression unpacking"
-  - "source-to-FPF transfer"
-  - "transfer disposition"
 ---
 
 ### C.2.P:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Exactness vs readability | FPF prose needs exact kinds, but a sentence overloaded with every possible kind becomes unreadable. |
+| Exactness vs readability | FPF-governed wording needs exact kinds, but a sentence overloaded with every possible kind becomes unreadable. |
 | Preservation vs cleanup | Accepted architecture text must not be paraphrased away, but source-companion status cannot be mistaken for pattern authority. |
 | Local repair vs new ontology | Many phrases only need local A.6.P and F.18 recovery; a few reveal a real missing FPF kind or relation. |
 | FPF-side vs project-side work | The same word can describe FPF pattern authorship or a user's project publication, record, work, or action. |

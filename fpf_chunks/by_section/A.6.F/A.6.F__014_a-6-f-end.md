@@ -6,12 +6,12 @@ section_id: "A.6.F:End"
 section_title: "A.6.F:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__014_a-6-f-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:End — A.6.F:End"
-line_start: 13895
-line_end: 13896
+line_start: 13736
+line_end: 13736
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "A.6.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.M"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -39,6 +40,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
+  - "E.10.ARCH"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -56,4 +58,3 @@ keywords:
 ---
 
 ### A.6.F:End
-

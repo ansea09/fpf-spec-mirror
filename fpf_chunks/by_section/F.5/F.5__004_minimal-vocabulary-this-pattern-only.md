@@ -6,12 +6,12 @@ section_id: "F.5:3"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__004_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:3 — Minimal vocabulary (this pattern only)"
-line_start: 69867
-line_end: 69875
+line_start: 70668
+line_end: 70675
 dependencies:
   - "A.11"
   - "A.7"
@@ -43,5 +43,4 @@ keywords:
 * **Symbolic alias** *(optional)* — conventional symbol if the canon uses one (e.g., “≤”).
 * **SenseCell** — the **(Context × Local-Sense)** address cited by a Role Description card (F.3–F.4).
 * **Concept‑Set row** — the Cross‑context table row that supports minting a **U.Type** name (F.7).
-
 

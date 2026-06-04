@@ -6,12 +6,12 @@ section_id: "B.1.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__012_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:11 — Relations"
-line_start: 29392
-line_end: 29411
+line_start: 29552
+line_end: 29571
 dependencies:
   - "A.12"
   - "A.14"

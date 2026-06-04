@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-line_start: 12029
-line_end: 12852
+line_start: 11875
+line_end: 12691
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -61,77 +61,75 @@ keywords:
 
 **Plain-name.** Relational precision restoration.
 
-**Intent.** Provide a reusable governing discipline for repairing a recurring defect in FPF texts: **under‑specified relational language** (often phrased as a seemingly binary verb) that actually hides **(i)** higher arity (missing participant positions), **(ii)** multiple semantic change classes, **(iii)** asymmetry between `U.Viewpoint` specifications and `U.View` instances, **(iv)** boundary requirements (signature invariants vs admissibility vs deontics vs evidence/work), and **(v)** endpoint referential compression (pronominal/metonymic stand‑ins and over‑broad kinds).
+**Intent.** Provide a reusable governing discipline for repairing a recurring defect in FPF texts: **under-specified relational language** (often phrased as a seemingly binary verb) that actually hides **(i)** higher arity (missing participant positions), **(ii)** multiple semantic change classes, **(iii)** asymmetry between `U.Viewpoint` specifications and `U.View` instances, **(iv)** boundary requirements such as signature invariants, admissibility, deontics, evidence, or work, and **(v)** endpoint referential compression through pronominal stand-ins, metonymic stand-ins, or over-broad kinds.
 RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explicit, qualified relation records** with an explicit **change-class lexicon** and **lexical guardrails**, while respecting the **A.6 Signature Stack** and **A.6.B Boundary Norm Square** separation.
 
-**Use this when.** Use `A.6.P` when wording hides relation force: sameness, linkage, grounding, support, basedness, mapping, comparison, dependency, whole/part, service, cross-context bridge wording, endpoint compression, qualifier force, or another relation-bearing phrase that must be used for FPF guidance, publication, comparison, gating, assurance, decision, or reuse.
+**Use this when.** Use `A.6.P` when wording hides a relation-bearing use: sameness, linkage, grounding, support, basedness, mapping, comparison, dependency, whole or part, service, cross-context bridge wording, endpoint compression, qualifier-carried claim, or another relation-bearing phrase that must be used for FPF guidance, publication, comparison, gating, assurance, decision, or reuse.
 
 **What this buys.** The relation becomes reviewable: head kind, endpoints, slots, qualifiers, scope, time, viewpoint, admissible use, non-admissible overread, and relation record are made explicit enough for the exact neighboring FPF pattern to compose with it.
 
-**First useful move.** Restore the head kind and the relation or comparison force separately. If the problem is only source-expression, publication, architecture or structure, characteristic or scale, quality/evaluative characterization, or function-like carrier recovery, use the exact receiving pattern named below instead of forcing relation repair.
+**First useful move.** Restore the head kind and the relation or comparison use separately. If the problem is only source-expression, publication, architecture or structure, characteristic or scale, quality characterization, evaluative characterization, or function-like exact-kind recovery, use the exact receiving pattern named below instead of forcing relation repair.
 
-**Not this pattern when.** Do not use `A.6.P` as a universal wording-repair pattern, evidence pattern, assurance pattern, quality pattern, source-transfer pattern, or architecture pattern. If `E.10` already recovered the exact receiving object, use that receiving pattern directly.
-
+**Not this pattern when.** Do not use `A.6.P` as a universal wording-repair pattern, evidence pattern, assurance pattern, quality pattern, source-use pattern, or architecture pattern. If `E.10` already recovered the exact receiving pattern, kind, or relation, use that receiving pattern directly.
 
 **Placement.** Part A → cluster **A.6 Signature Stack & Boundary Discipline** → governing pattern for **RPR specialisations** (A.6.5, A.6.6, A.6.8, A.6.9, A.6.H, and any additional A.6.x pattern that declares this RPR relation).
 
 **Builds on.**
 
 * **A.6** (stack layering + boundary discipline requirements).
-* **A.6.B `U.BoundaryNormSquare`** (L/A/D/E classification; claim atomicity; cross‑quadrant references).
+* **A.6.B `U.BoundaryNormSquare`** (L, A, D, and E classification; claim atomicity; cross-quadrant references).
 * **A.6.S `U.SignatureEngineeringPair`** (TargetSignature vs ConstructorSignature; canonical constructor verb mapping; effect‑free constructor ops).
 * **A.6.0 `U.Signature`** (SlotSpec requirement for argument positions).
 * **A.6.5 `U.RelationSlotDiscipline`** (SlotKind/ValueKind/RefKind stratification + canonical slot verbs; `bind` reserved for name binding).
 * **E.8** (pattern authoring discipline; Tell–Show–Show; SoTA echoing hygiene).
-* **F.18** (local-first reusable naming after relation kind/use recovery: mint/reuse/document-legacy decisions, collision checks, lineage notes, and durable-name discipline).
-* **E.10** (LEX‑BUNDLE discipline; I/D/S versus publication-form and carrier lanes; L‑SURF token discipline; reserved primitives; Tech↔Plain pairing). *(Referenced conceptually; no extra authoring apparatus implied.)*
+* **F.18** (local-first reusable naming after relation kind and use recovery: minting decisions, reuse decisions, legacy-name documentation decisions, collision checks, lineage notes, and durable-name discipline).
+* **E.10** (LEX‑BUNDLE discipline; EntityOfConcern versus Description epistemes and specification-use cases plus publication face, form, unit, carrier, and rendering lanes; publication-face or publication-form token discipline; reserved primitives; Tech↔Plain pairing). *(Referenced conceptually; no extra authoring apparatus implied.)*
 
 **Coordinates with.**
 
-* **A.2.4 `U.EvidenceRole`** (witness semantics: role/timespan/freshness metadata for decision‑relevant witness sets).
+* **A.2.4 `U.EvidenceRole`** (witness semantics: role, timespan, and freshness metadata for decision-relevant witness sets).
 * **A.2.6 scope + `Γ_time` discipline** (avoid implicit “current/latest”; make time selectors explicit when time matters).
-* **A.7 Strict Distinction** (Object≠Description≠Carrier; avoid treating evidence/logs as properties of prose).
+* **A.7 Strict Distinction** (EntityOfConcern, Description episteme, specification use, publication face, form, unit, carrier, and rendering; avoid treating evidence or logs as properties of prose).
 * **A.6.2–A.6.4** (effect‑free episteme morphisms, epistemic viewing/retargeting as disciplined slot writes).
 * **A.10 evidence discipline** (witnesses are carrier‑anchored; freshness is adjudicated in work/evidence lanes).
 * **C.2.1 `U.EpistemeSlotGraph`** (slot read/write profiles for constructor operators, when declared).
 * **C.3.3 `U.KindBridge` + `CL^k` discipline** (repairing endpoint kind mismatches; kind-level congruence + loss notes).
-* **E.17 MVPK / multi‑view publication** (faces are views; “no new semantics”; viewpoint accountability).
+* **E.17 MVPK and multi-view publication** (faces are views; "no new semantics"; viewpoint accountability).
 * **E.19 pattern quality gates** (review/refresh discipline for guardrails and conformance lists).
-* **F.17 `UTS`** (when ambiguity clusters become recurring vocabulary: publish stable `RelationKind` tokens and facet head phrases as UTS/LEX‑governed term assets, so rewrites don’t live only inside A‑patterns).
+* **F.17 `UTS`** (when ambiguity clusters become recurring vocabulary: publish stable `RelationKind` tokens and facet head phrases as UTS and LEX-UTS term assets, so rewrites do not live only inside A-patterns).
 * **F.9 Bridges + CL** for cross-Context or cross-plane reuse (no silent sameness).
-* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for the language-state seam: language-state chart positions, admissible moves, pre-threshold cue preservation, route publication, admissible retreat/reopen, and prompt-shaped continuations that are not yet stable relation publication; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account.
+* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for the language-state seam: language-state chart positions, admissible moves, pre-threshold cue preservation, next-pattern publication, admissible retreat or reopen, and prompt-shaped continuations that are not yet stable relation publication; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account.
 * **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance: articulation explicitness, closure degree, language-state anchoring mode, and the language-state representation-factor bundle may be cited by RPR patterns but are not governed here.
 
 **Specialisations already in Core.**
-These retained specialisations are current because they each carry one stable recurring repair force. Their mnemonic heads remain admissible entry points, but generic `A.6.P` does **not** treat token recurrence alone as sufficient to mint one new specialisation per overloaded trigger word.
+These retained specialisations are current because they each carry one stable recurring repair case. Their mnemonic heads remain admissible entry points, but generic `A.6.P` does **not** treat token recurrence alone as sufficient to mint one new specialisation per overloaded trigger word.
 
-* **A.6.5**: RPR for n‑ary relations and slot discipline (archetype: “putting something into a place”; explicit SlotKinds + ValueKind/RefKind + slot‑operation lexicon).
-* **A.6.6**: RPR for “relative‑to / basedness” claims (explicit `baseRelation` token + scoped, witnessed base declarations + base‑change lexicon; lexical red‑flags for `anchor*`; support-as-basedness selection test for `support`, `supported by`, `support basis`, and `support relation` wording).
-* **A.6.8 (RPR‑SERV)**: RPR for the “service” cluster polysemy (facet‑explicit `serviceSituation` lens; canonical rewrites for `service`/`server`/`service provider`; classification tests for clause vs access point vs provider commitment vs work+evidence).
-* **A.6.9 (RPR‑XCTX)**: RPR for cross‑Context “same / equivalent / align / map” talk (explicit Bridges with direction, endpoint refinement, substitution licence, CL and loss notes; blocks silent inversion and “alignment” umbrella verbs).
-* **A.6.H (RPR‑WHOLE)**: RPR for “whole/part/integrity/complete” polysemy (WHOL triggers + Boundary–Parthood–Fold–Order/Time–Completeness lens; maps turnkey/end-to-end wording into A.15 coverage; includes publication-form↔referent↔work level test).
+* **A.6.5**: RPR for n-ary relations and slot discipline (archetype: "putting something into a place"; explicit SlotKinds, ValueKind, RefKind, and slot-operation lexicon).
+* **A.6.6**: RPR for relative-to and basedness claims (explicit `baseRelation` token, scoped witnessed base declarations, and base-change lexicon; lexical red-flags for `anchor*`; support-as-basedness selection test for `support`, `supported by`, `support basis`, and `support relation` wording).
+* **A.6.8 (RPR-SERV)**: RPR for the "service" cluster polysemy (facet-explicit `serviceSituation` lens; canonical rewrites for `service`, `server`, and `service provider`; classification tests for clause, access point, provider commitment, work, and evidence).
+* **A.6.9 (RPR-XCTX)**: RPR for cross-Context "same", "equivalent", "align", or "map" talk (explicit Bridges with direction, endpoint refinement, substitution licence, CL, and loss notes; blocks silent inversion and "alignment" umbrella verbs).
+* **A.6.H (RPR-WHOLE)**: RPR for "whole", "part", "integrity", and "complete" polysemy (WHOL triggers plus Boundary-Parthood-Fold-Order-Time-Completeness lens; maps turnkey and end-to-end wording into A.15 coverage; includes publication-form, referent, and work-level tests).
 
+### A.6.P:0 — TERM and LEX token guards (local-first)
 
-### A.6.P:0 — TERM/LEX token guards (local-first)
-
-This pattern reserves the following tokens in Tech/normative prose:
+This pattern reserves the following tokens in Tech and normative prose:
 
 * **RPR** — *Relational Precision Restoration* (the governing repair discipline; not a new `U.Type`).
-* **RelationKind** — a Context-local vocabulary token (signature-level) that fixes polarity and SlotSpecs for participant/qualifier positions. It is a *registry entry/token*, not a relation instance.
+* **RelationKind** — a Context-local vocabulary token (signature-level) that fixes polarity and SlotSpecs for participant and qualifier positions. It is a *registry entry token*, not a relation instance.
 * **QualifiedRelationRecord** — the slot-explicit relation instance record kind (Context-local episteme/record kind); instances carry a `relationKind` token reference plus explicit participant/qualifier slots.
 
-**Mint-or-reuse note (pattern-level).** This pattern mints the label **RPR**, the role name **RelationKind**, and the generic shape name **QualifiedRelationRecord** as local-first terms for relation precision restoration. It reuses existing FPF terms (`U.Signature`, SlotKind/ValueKind/RefKind, Bridges/CL, `U.Scope`, `Γ_time`, `U.View`/`U.Viewpoint`, evidence pins/carriers) without changing their meanings.
+**Mint-or-reuse note (pattern-level).** This pattern mints the label **RPR**, the role name **RelationKind**, and the generic shape name **QualifiedRelationRecord** as local-first terms for relation precision restoration. It reuses existing FPF terms (`U.Signature`, SlotKind, ValueKind, RefKind, Bridges, CL, `U.Scope`, `Γ_time`, `U.View`, `U.Viewpoint`, evidence pins, and carriers) without changing their meanings.
 
 **Definitions (pattern-level; non-deontic).**
 
-* **RelationKind token** — a declared vocabulary element (signature-level) whose public definition fixes polarity and SlotSpecs for participant/qualifier positions, and that is referenced by L/A/D/E-classified claims that govern admissibility, duties/commitments, and evidence/work.
+* **RelationKind token** — a declared vocabulary element (signature-level) whose public definition fixes polarity and SlotSpecs for participant and qualifier positions, and that is referenced by L, A, D, and E-classified claims that govern admissibility, duties, commitments, evidence, and work.
 * **QualifiedRelationRecord** — a Context-local episteme/record kind whose `relationKind` field points (by id/ref) to a RelationKind token and whose instance records make all relation-specification-required participant/qualifier slots explicit.
 
 Rename-guards (common collisions):
 
-* **agreement-like boundary wording** — Plain shorthand for a published boundary-interface description; a conforming text MUST NOT treat such wording as itself establishing a promise/obligation. Promises, duties, and gates are classified under `A.6.B`.
-* **bind/binding** — reserved for **name binding** (Identifier → SlotKind/slot-instance) and MUST NOT be used as a synonym for relation instance edits.
-* **same/synced/linked/connected/anchored/grounded/supported/supporting** — treated as umbrella tokens; allowed as Plain gloss only when immediately mapped to an explicit RelationKind token (Tech) or to an exact FPF governing claim force via rewrite rules.
+* **agreement-like boundary wording** — Plain shorthand for a published boundary-interface description; a conforming text MUST NOT treat such wording as itself establishing a promise or obligation. Promises, duties, and gates are classified under `A.6.B`.
+* **bind and binding** — reserved for **name binding** (Identifier to SlotKind or slot instance) and MUST NOT be used as a synonym for relation instance edits.
+* **same, synced, linked, connected, anchored, grounded, supported, and supporting** — treated as umbrella tokens; allowed as Plain gloss only when immediately mapped to an explicit RelationKind token (Tech) or to an exact FPF governing claim kind or admissible-use boundary via rewrite rules.
 
 ### A.6.P:1 — Problem frame
 
@@ -182,62 +180,61 @@ A.6.P defines the **RPR specialisation envelope**. A pattern is a **RPR speciali
 
 #### A.6.P:4.0 - Admission rule after lexical trigger scan
 
-`A.6.P` is not the first post-authoring check for conformant FPF pattern text and not an all-purpose trigger-word registry. In conformant FPF text, `E.10` owns the lexical trigger scan. When that scan selects `epistemic precision restoration required`, `C.2.P` supplies the epistemic precision-restoration profile for pattern prose and FPF-facing publication prose. `A.6.P` is applicable when the `E.10` scan has selected relation precision, endpoint recovery, support-like claim-force discrimination, basedness, cross-context bridge wording, or another RPR force.
+`A.6.P` is not the first post-authoring check for conformant FPF pattern text and not an all-purpose trigger-word registry. In conformant FPF text, `E.10` carries the lexical trigger scan. When that scan selects `epistemic precision restoration required`, `C.2.P` supplies the epistemic precision-restoration profile for pattern prose and FPF-facing publication prose. `A.6.P` is applicable when the `E.10` scan has selected relation precision, endpoint recovery, support-like claim-kind discrimination, basedness, cross-context bridge wording, or another RPR repair case.
 
-For non-FPF intake, source, review, project, or tool-output prose, `A.6.P` may still be used directly as a repair method once a reader has recognized relation force. That use produces a repaired FPF phrase, candidate-set note, relation record, or transfer disposition. It does not make the source text itself non-conformant FPF text and does not require the source text to be rewritten.
+For non-FPF intake, source, review, project, or tool-output prose, `A.6.P` may still be used directly as a repair method once a reader has recognized a relation-bearing use. That use produces a repaired FPF phrase, candidate-set note, relation record, or transfer disposition. It does not make the source text itself non-conformant FPF text and does not require the source text to be rewritten.
 
 A relation mention or relation-bearing phrase is in-scope for `A.6.P` when **any** of the following holds:
 
-* the predicate/verb phrase has been selected as overloaded relation wording, such as sameness, connection, grounding, dependency, support-like, source-to-described-entity, or cross-context bridge wording;
+* the predicate/verb phrase has been selected as overloaded relation wording, such as sameness, connection, grounding, dependency, support-like, source-to-EntityOfConcern, or cross-context bridge wording;
 * one or more endpoints or qualifiers are expressed via **pronominal, deictic, or metonymic stand-ins** or **over-broad kind tokens** such that multiple referents or facets remain plausible;
-* a **generic or over-broad head noun** carries its semantic force only through a qualifier, modifier, or surrounding phrase, so the object kind is still ambiguous even though the qualifier sounds informative;
+* a **generic or over-broad head noun** carries its semantic work only through a qualifier, modifier, or surrounding phrase, so the object kind is still ambiguous even though the qualifier sounds informative;
 * the statement implicitly relies on **scope, Γ_time, viewpoint or view, or reference or representation schemes**;
 * the relation is used for **assurance, admissibility, gating, or publication** decisions;
 * the relation crosses **Contexts or planes** and therefore requires Bridge/CL discipline rather than silent equivalence;
 * different stakeholders interpret endpoints differently, creating multi-view asymmetry or polarity fights.
 
-**Repair order note.** When a FPF-force-bearing phrase is triggered because its **head noun** is too generic, first restore what kind of thing the head actually names: record, carrier, interpretive claim force, process, lane, authority use, or another local kind with named authority-reference relation. Use local described-entity and claim-target discipline (`E.10`, `A.7`, and nearby authority-reference guidance). A narrowing qualifier such as `comparative`, `safe`, `interactive`, or `reliable` may narrow the phrase, but it does **not** by itself restore the head kind. Then apply A.6.P to restore the remaining relation or comparison force. Mixed-kind comparison checks come **after** those two repairs, not before them.
+**Repair order note.** When a FPF-governed phrase is triggered because its **head noun** is too generic, first restore what kind of thing the head actually names: record, carrier, interpretive claim kind or admissible-use boundary, process, lane, authority use, or another local kind with named authority-reference relation. Use local EntityOfConcern and claim-target discipline (`E.10`, `A.7`, and nearby authority-reference guidance). A narrowing qualifier such as `comparative`, `safe`, `interactive`, or `reliable` may narrow the phrase, but it does **not** by itself restore the head kind. Then apply A.6.P to restore the remaining relation or comparison reading. Mixed-kind comparison checks come **after** those two repairs, not before them.
 
-**Adoption test (review heuristic).** If a reviewer can reasonably ask any of: “Which kind is this?”, “What exactly does this span refer to (which facet/kind, and in which lane: Object vs Description vs Carrier)?”, “What relation or comparison force is hidden in this qualifier?”, “What else participates?”, “Under what scope/time/view?”, “What changed?”, or “What makes this admissible?”, then authors SHOULD treat the mention as in-scope and rewrite it into explicit kind+slots form before using it for cross-Context reuse or decision/publication claims.
+**Adoption test (review heuristic).** If a reviewer can reasonably ask any of: “Which kind is this?”, “What exactly does this span refer to (which facet/kind, and in which lane: EntityOfConcern vs Description episteme vs publication carrier)?”, “What relation or comparison reading is hidden in this qualifier?”, “What else participates?”, “Under what scope/time/view?”, “What changed?”, or “What makes this admissible?”, then authors SHOULD treat the mention as in-scope and rewrite it into explicit kind+slots form before using it for cross-Context reuse or decision/publication claims.
 
-**Precision/relaxation note.** A.6.P is not a blanket demand that every sentence stay maximally explicit forever. It is a trigger-based repair discipline for **FPF-force-bearing** prose. In design-time FPF texts and in run-time texts being prepared for admissible publication, review, gating, or reuse, the repair should be performed before any later didactic plain-language softening or admissible coarsening. Later relaxation is allowed only when the more precise upstream repair remains recoverable and authoritative.
+**Precision/relaxation note.** A.6.P is not a blanket demand that every sentence stay maximally explicit forever. It is a trigger-based repair discipline for **FPF-governed** prose. In design-time FPF texts and in run-time texts being prepared for admissible publication, review, gating, or reuse, the repair should be performed before any later didactic plain-language softening or admissible coarsening. Later relaxation is allowed only when the more precise upstream repair remains recoverable and authoritative.
 
-**Generic trigger-word governance rule (normative).** Overloaded words are diagnostic entry points, not default governing FPF patterns or `authoritySourceRef` targets. Generic `A.6.P` therefore requires this order: restore head kind first, restore the remaining relation/comparison force second, and only then judge whether one reusable repair-force specialisation is justified. A new `A.6.P` specialization or broader trigger-word governing FPF pattern or `authoritySourceRef` target is owed only when one stable recurring force, one reusable lens or rewrite kit, and one `F.18 -> A.6.P`-surviving head already exist by value across more than one worked case. Otherwise token-specific retained knowledge stays with an existing admissible specialization or in one cluster-local / source-local note rather than expanding generic `A.6.P` into a token bucket store.
+**Generic trigger-word governance rule (normative).** Overloaded words are diagnostic entry points, not default governing FPF patterns or `authoritySourceRef` targets. Generic `A.6.P` therefore requires this order: restore head kind first, restore the remaining relation or comparison reading second, and only then judge whether one reusable repair-case specialisation is justified. A new `A.6.P` specialization or broader trigger-word governing FPF pattern or `authoritySourceRef` target is owed only when one stable recurring repair case, one reusable lens or rewrite kit, and one `F.18 -> A.6.P`-surviving head already exist by value across more than one worked case. Otherwise token-specific retained knowledge stays with an existing admissible specialization or in one cluster-local / source-local note rather than expanding generic `A.6.P` into a token bucket store.
 
-**Replacement-candidate anti-umbrella rule (normative).** When an RPR repair selects a replacement term, apply the shared `E.10:0.2` replacement-candidate anti-umbrella rule before accepting the term. Then run the candidate through the local A.6.P recovery: name the FPF kind or local field it denotes, the A.7 lane, the participant or carrier/view/described-entity positions, the relation or publication function if any, and the admissible and non-admissible use. If those cannot be named, keep the line in Candidate-Set Note form rather than treating the new term as repaired.
+**Replacement-candidate anti-umbrella rule (normative).** When an RPR repair selects a replacement term, apply the shared `E.10:0.2` replacement-candidate anti-umbrella rule before accepting the term. Then run the candidate through the local A.6.P recovery: name the FPF kind or local field it denotes, the A.7 lane, the participant or carrier/view/EntityOfConcern positions, the relation or publication function if any, and the admissible and non-admissible use. If those cannot be named, keep the line in Candidate-Set Note form rather than treating the new term as repaired.
 
-**Support precision restoration rule (normative).** `support`, `supported`, `supporting`, `support-looking`, and support-headed compounds are diagnostic tokens, not one recovered relation kind, not one generic record kind, not one universal evidence posture, not one universal source relation, and not one universal basis container. Before an in-scope support phrase is used for publication, comparison, reliance, gate, assurance, decision, work, cross-context reuse, pattern-quality claims, or architecture claims, first recover the support-like claim force under the full A.6.P repair sequence: head kind, A.7 lane, candidate endpoints, described entity or grounding holon when live, relation kind, qualifiers, admissible use, and exact governing ontology or exact governing pattern when the selected force is not an A.6.P relation. If the selected force is base-dependence, apply A.6.6 ontology and state `dependent`, `base`, `baseRelation`, `scope`, `Γ_time` when live, witnesses when decision/publication/admissibility use is live, `admissibleUse`, and `nonAdmissibleUse`; do not mint a generic `SupportRelation`, `SupportBasis`, or `SupportRecord`.
+**Support precision restoration rule (normative).** `support`, `supported`, `supporting`, `support-looking`, and support-headed compounds are diagnostic tokens, not one recovered relation kind, not one generic record kind, not one universal evidence verdict, not one universal source relation, and not one universal reason container. Before an in-scope support phrase is used for publication, comparison, reliance, gate, assurance, decision, work, cross-context reuse, pattern-quality claims, or architecture claims, first recover the support-like claim kind or admissible-use boundary under the full A.6.P repair sequence: head kind, A.7 lane, candidate endpoints, EntityOfConcern or grounding holon when live, relation kind, qualifiers, admissible use, and exact governing ontology or exact governing pattern when the selected support-like case is not an A.6.P relation. If the selected support-like case is base-dependence, apply A.6.6 ontology and state `dependent`, `base`, `baseRelation`, `scope`, `Γ_time` when live, witnesses when decision/publication/admissibility use is live, `admissibleUse`, and `nonAdmissibleUse`; do not mint a generic `SupportRelation`, `SupportBasis`, or `SupportRecord`.
 
-**Support-like claim-force discrimination.** A conforming repair does not ask only "what more precise word can replace support?" It asks which support-like claim force is live:
+**Support-like claim-kind discrimination.** A conforming repair does not ask only "what more precise word can replace support?" It asks which support-like claim kind or admissible-use boundary is live:
 
-| Live support-like claim force | What must be named | Governing ontology to apply |
+| Live support-like claim kind or admissible-use boundary | What must be named | Governing ontology to apply |
 | --- | --- | --- |
-| **Source-description relation.** A source episteme, publication, view, document, model, diagram, graph, trace, or generated representation is being used to describe, expose, render, cite, or make inspectable one claim-bearing item. | source episteme/publication/view/carrier where relevant, described entity, publication/view relation, source pins or source-return condition, admissible and non-admissible use. | `E.17`, `E.17.0`, `A.6.3.RT`, `A.7`, and local publication/source rules. |
-| **Described-entity grounding.** The phrase says that a claim-bearing episteme, view, representation, or pattern application is grounded in the object it describes, the situation it is about, the observation setting, or the local world contact needed for the claim. | `DescribedEntitySlot`, `GroundingHolonSlot` when live, bounded context, reference plane, reference scheme, viewpoint, witness or observation condition if needed. | `C.2.1`, `A.6.4`, `A.6.3.RT`, `C.2.6`, `A.7`, and exact evidence or observation patterns when world contact is live. |
+| **Source-to-EntityOfConcern description relation.** A source episteme, publication, view, document, model, diagram, graph, trace, or generated representation is being used to describe, expose, render, cite, or make inspectable one claim-bearing EntityOfConcern. | source episteme/publication/view/carrier where relevant, EntityOfConcern, publication/view relation, source pins or source-return condition, admissible and non-admissible use. | `E.17`, `E.17.0`, `A.6.3.RT`, `A.7`, and local publication/source rules. |
+| **EntityOfConcern or grounding-holon contact.** The phrase says that a claim-bearing episteme, view, representation, or pattern application is grounded in the EntityOfConcern it concerns, the situation it is about, the observation setting, or the local world contact needed for the claim. | `EntityOfConcernSlot`, `GroundingHolonSlot` when live, bounded context, reference plane, reference scheme, viewpoint, witness or observation condition if needed. | `C.2.1`, `A.6.4`, `A.6.3.RT`, `C.2.6`, `A.7`, and exact evidence or observation patterns when world contact is live. |
 | **Base, anchor, or basedness relation.** The phrase means relative-to, based-on, anchored-in, base change, dependency on a base, or local grounding as a base relation rather than a source/document relation. Support wording belongs here only when a dependent content is usable, admissible, interpretable, comparable, publishable, or actionable relative to an explicit base. | `dependent`, `base`, declared `baseRelation` token, scoped witnessed base declaration, `Γ_time` when live, witnesses when decision/publication/admissibility use is live, base-change condition, admissible and non-admissible use. | `A.6.6`; use its support wording selection test and SWBD discipline. |
 | **Evidence or witness support.** The phrase says a carrier, observation, test, role assignment, or evidence path bears on a claim. | evidence role, evidence path, claim ref, witness carrier, timespan/freshness, and the exact evidence-role field when the governing pattern defines one. | `A.10`, `A.2.4`, `G.6`, and any exact evidence-role specialization. |
-| **Assurance or engineering-justification support.** The phrase says a claim is acceptable for assurance, safety, trust, engineering justification, or assurance calculus use. | assurance claim, argument component, confidence or trust calculus input, cited evidence path, non-admissible stronger use. | `B.3` plus evidence patterns as live. |
+| **Assurance or engineering-justification support.** The phrase says a claim is acceptable for assurance, safety, trust, engineering justification, or assurance calculus use. | assurance claim, argument component, confidence or trust calculus input, cited evidence path, non-admissible claim escalation. | `B.3` plus evidence patterns as live. |
 | **Causal-use support.** The phrase says a causal, intervention, counterfactual, policy, off-policy, or simulation-only use is admissible. | causal-use question, `CausalityLadderRung`, estimand, `CausalEvidenceSupportBasis`, `CausalUseSupportVerdict`, supported and unsupported use. | `C.28`; do not substitute A.6.P or A.10 value sets for the C.28 causal-use vocabulary. |
-| **Mathematical-lens adequacy or lens-result support.** The phrase says a lens, model, mapping, similarity, or formal object makes a claim admissible or exposes preserved/lost structure. | lens candidate/card/profile, governed object, preserved/lost structure, stop condition, lens adequacy or lens-use posture, and the exact non-lens claim-kind pattern when evidence, causal, assurance, decision, or publication claim force is live. | `C.29`, `C.26`, `F.9`, `A.6.3.RT`, or a named mathematical-lens pattern. |
-| **Characteristic, measurement, threshold, or comparison basis.** The phrase says a characteristic, metric, score, threshold, benchmark, or comparison warrants a claim. | bearer, characteristic space, scale, measure, measurement procedure, comparison basis, threshold basis, proxy-distortion risk. | `C.16`, `A.17`-`A.19`, `C.25`, `G.9`, and bridge/comparison patterns as live. |
-| **Admissible-use or boundary-use basis.** The phrase says a current use, publication use, project action, work preparation, gate use, or downstream reliance is allowed. | exact `admissibleUse`, non-admissible stronger or adjacent use, L/A/D/E split when boundary force is live, project-side kind/reference if needed. | `A.6.B`, `E.17:5.1c`, `C.2.P`, and exact project-side pattern. |
-| **Work, enablement, prerequisite, resource, or operational help.** The phrase says one thing helps, enables, prepares, funds, resources, scaffolds, directs, or makes work easier, without claiming evidence, authority, truth, or admissibility. | enabled work/method/action, prerequisite/resource relation if FPF-force-bearing, remaining reader move, explicit non-admissible evidence/gate/assurance/decision use. | `A.15`, `A.15.4`, `A.6.A`, `C.11`, or Plain orientation when no FPF force is live. |
-| **Publication companion, entry, navigation, or reader help.** The phrase says one publication unit, section, navigation index, review packet, companion document, or reader aid helps readers find, inspect, compare, or review another item. | publication unit or companion-publication kind, reader function, publication or episteme being found/inspected/reviewed, source-description relation, evidence path, architecture/structure relation, or review relation when live; no downstream authority unless separately named. | `E.17`, `J.4`, `C.2.P`, and the exact governing pattern if action guidance becomes FPF-force-bearing. |
+| **Mathematical-lens use result.** The phrase says a lens, model, mapping, similarity, or formal construction makes a claim admissible or exposes preserved and lost structure. | lens candidate, lens-use card, primary `EntityOfConcern` or exact relation record or claim record, preserved and lost structure, declared loss, stop condition, lens-use result, lens-use admissibility value, and the exact non-lens claim-kind pattern when evidence, causal, assurance, decision, or publication claim kind or admissible-use boundary is live. | `C.29`, `C.26`, `F.9`, `A.6.3.RT`, or a named mathematical-lens pattern. |
+| **Characteristic, measurement, threshold, or comparison reference.** The phrase says a characteristic, metric, score, threshold, benchmark, or comparison warrants a claim. | bearer, characteristic space, scale, measure, measurement procedure, comparison reference set, threshold rule, proxy-distortion risk. | `C.16`, `A.17`-`A.19`, `C.25`, `G.9`, and bridge or comparison patterns as live. |
+| **Admissible-use or boundary-use rule.** The phrase says a current use, publication use, project action, work preparation, gate use, or downstream reliance is allowed. | exact `admissibleUse`, non-admissible claim escalation or adjacent use, L, A, D, and E split when boundary-use reading is live, project-side kind or reference if needed. | `A.6.B`, `E.17:5.1c`, `C.2.P`, and exact project-side pattern. |
+| **Work, enablement, prerequisite, resource, or operational help.** The phrase says one thing helps, enables, prepares, funds, resources, scaffolds, directs, or makes work easier, without claiming evidence, authority, truth, or admissibility. | enabled work and method or action, prerequisite or resource relation if FPF-governed, remaining reader move, explicit non-admissible evidence, gate, assurance, or decision use. | `A.15`, `A.15.4`, `A.6.A`, `C.11`, or Plain orientation when no FPF-governed use is live. |
+| **Publication companion, entry, navigation, or reader help.** The phrase says one publication unit, section, navigation index, review packet, companion document, or reader aid helps readers find, inspect, compare, or review another EntityOfConcern. | publication unit or companion-publication kind, reader function, publication or episteme being found, inspected, or reviewed, source-description relation, evidence path, architecture or structure relation, or review relation when live; no downstream authority unless separately named. | `E.17`, `J.4`, `C.2.P`, and the exact governing pattern if action guidance becomes FPF-governed. |
 
-If no support-like claim force can be selected from the live context, the phrase remains ordinary help, orientation, source-finding, quote-only wording, reduced-use cue, or blocked current transfer. A support-headed name such as `SupportRecord`, `support source`, `support relation`, `support line`, `support basis`, `support posture`, `support view`, or `supported use` is a diagnostic trigger; it is conforming only when rewritten to an exact locally governed record, field, relation, admissible-use boundary, or, for the A.19 case, `DeclaredSubstrateInterpretiveView` under `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`. When the selected force is base-dependence, the conforming form is A.6.6 SWBD or a Context-local SWBD specialization with explicit `baseRelation(dependent, base)`, not a generic support-headed type. Otherwise, use the selected row above and name the exact relation, slot, field, role, source, evidence path, grounding, or governing pattern ontology for that force.
+If no support-like claim kind or admissible-use boundary can be selected from the live context, the phrase remains ordinary help, orientation, source-finding, quote-only wording, reduced-use cue, or blocked current transfer. A support-headed name such as `SupportRecord`, `support source`, `support relation`, `support line`, `support basis`, a support phrase that hides a state-family claim, `support view`, or `supported use` is a diagnostic trigger; it is conforming only when rewritten to an exact locally governed record, field, relation, admissible-use boundary, or, for the A.19 case, `DeclaredSubstrateInterpretiveView` under `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`. When the selected support-like case is base-dependence, the conforming form is A.6.6 SWBD or a Context-local SWBD specialization with explicit `baseRelation(dependent, base)`, not a generic support-headed type. Otherwise, use the selected row above and name the exact relation, slot, field, source-use relation, evidence path, grounding, or governing pattern ontology for that support-like case.
 
 #### A.6.P:4.0r - Relation realization of `E.10.ARCH`
 
 `A.6.P` is the relation-construction realization of the shared wording-use recovery order in `E.10.ARCH`.
-When `E.10` selects relation-like force, endpoint recovery, support-like claim-force discrimination, basedness, cross-context bridge wording, whole/part wording, mapping, comparison, dependency, service wording, or another RPR force, `A.6.P:4.0a` supplies the relation-specific recovery path: head kind, candidate endpoints and facets, relation kind, slots, qualifiers, admissible use, non-admissible overread, and relation record or fail-closed disposition.
+When `E.10` selects relation-like repair case, endpoint recovery, support-like claim-kind discrimination, basedness, cross-context bridge wording, whole or part wording, mapping, comparison, dependency, service wording, or another RPR repair case, `A.6.P:4.0a` supplies the relation-specific recovery path: head kind, candidate endpoints and facets, relation kind, slots, qualifiers, admissible use, non-admissible overread, and relation record or fail-closed disposition.
 
-This pattern does not become the parent for every wording-use precision-restoration problem. Source-expression, publication, carrier, face, `PublicationUnit`, and source-transfer wording uses `C.2.P` when that stack is live. Architecture or structure wording whose object is hidden uses `C.30.P`. Characteristic, scale, score, metric, indicator, threshold, comparison, or scalar-quality wording whose construction is hidden uses `C.16.P`. Quality or evaluative characterization uses `C.16.Q`, `C.25`, `E.21`, or another exact characterization pattern unless the found problem is relation construction. Function-like wording whose carrier is hidden uses `A.6.F` first.
+This pattern does not become the parent for every wording-use precision-restoration problem. Source-expression, publication, carrier, face, `PublicationUnit`, and source-use wording use `C.2.P` when that stack is live. Architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, or source-use relation is hidden uses `C.30.P`. Characteristic, scale, score, metric, indicator, threshold, comparison, or scalar-quality wording whose construction is hidden uses `C.16.P`. Quality or evaluative characterization uses `C.16.Q`, `C.25`, `E.21`, or another exact characterization pattern unless the found problem is relation construction. Function-like wording whose exact FPF kind, relation, or claim is hidden uses `A.6.F` first.
 
-The old quality-term precision-restoration placement is not retained as a live `A.6.P` child after `C.16.Q` exists. `A.6.P` remains applicable for relation-shaped entry cases inside quality prose, such as bridge, basedness, comparison, action-invitation relation, or endpoint mismatch; it does not carry quality/evaluative characterization as a relation by default.
+The old quality-term precision-restoration placement is not retained as a live `A.6.P` child after `C.16.Q` exists. `A.6.P` remains applicable for relation-shaped entry cases inside quality prose, such as bridge, basedness, comparison, action-invitation relation, or endpoint mismatch; it does not carry quality characterization or evaluative characterization as a relation by default.
 #### A.6.P:4.0 - Language-state entry note
 
-
-RPR entry normally presupposes enough `C.2.4` articulation explicitness that at least one relation-like skeleton can be named explicitly, and often enough `C.2.5` closure that one candidate relation force is worth publishing as a relation record rather than remaining cue-pack material.
+RPR entry normally presupposes enough `C.2.4` articulation explicitness that at least one relation-like skeleton can be named explicitly, and often enough `C.2.5` closure that one candidate relation-bearing use is worth publishing as a relation record rather than remaining cue-pack material.
 
 If the content is still best treated as a cue pack, routed cue set, or unresolved candidate-route cue content, keep it in `A.16.1` / `B.4.1` rather than forcing relation publication prematurely. If the admissible continuation is still an open explanatory question, apply `B.5.2.0`. If a previously published relation must be reopened or backed off because the articulation or closure record no longer holds, apply `A.16.2` for that retreat rather than silently narrowing the published relation in place.
 
@@ -247,19 +244,19 @@ The RPR specialisation envelope is presented as **lens → slots → change lexi
 
 Operationally, authors SHOULD follow this repair sequence when applying an RPR repair:
 
-0. **Restore the head kind if needed.** If the triggering phrase uses a generic or over-broad head noun (`note`, `view`, `guidance`, `output`, `record`, `carrier`, and similar placeholders), first state what kind of thing it actually is in source-local terms (publication form, interpretive claim force, process, authority use, and so on). Do not let a qualifier do this job by implication alone.
-1. **Trigger on textual form.** Detect umbrella relation predicates, pronominal/umbrella endpoint tokens or metonymic pointers, and generic-head-plus-FPF-force-bearing-qualifier combinations (including domain clusters such as **service** in A.6.8 and cross-Context “same/equivalent/align/map” in A.6.9).
-2. **Reconstruct the situation ontology from local context.** Enumerate candidate referents/facets for endpoints *(including A.7 lane: Object vs Description vs Carrier when it matters)*, candidate head kinds where the phrase is noun-led, and candidate `RelationKind` tokens or comparison forces for the overloaded predicate or qualifier, plus implied participants: scope, time, view, scheme, mediator publication form, and carriers. Capture the result as a **Candidate-Set Note** (A.6.P:4.0b) so review has a checkable record: candidates → selected facet/kind → why. When metonymy is plausible, include both the *literal* and the *intended* candidates.
+0. **Restore the head kind if needed.** If the triggering phrase uses a generic or over-broad head noun (`note`, `view`, `guidance`, `output`, `record`, `carrier`, and similar placeholders), first state what kind of thing it actually is in source-local terms (publication form, interpretive claim kind or admissible-use boundary, process, authority use, and so on). Do not let a qualifier do this job by implication alone.
+1. **Trigger on textual form.** Detect umbrella relation predicates, pronominal/umbrella endpoint tokens or metonymic pointers, and generic-head-plus-FPF-governed-qualifier combinations (including domain clusters such as **service** in A.6.8 and cross-Context “same/equivalent/align/map” in A.6.9).
+2. **Reconstruct the situation ontology from local context.** Enumerate candidate referents/facets for endpoints *(including A.7 lane: EntityOfConcern vs Description episteme vs publication carrier when it matters)*, candidate head kinds where the phrase is noun-led, and candidate `RelationKind` tokens or comparison readings for the overloaded predicate or qualifier, plus implied participants: scope, time, view, scheme, mediator publication form, and carriers. Capture the result as a **Candidate-Set Note** (A.6.P:4.0b) so review has a checkable record: candidates → selected facet/kind → why. When metonymy is plausible, include both the *literal* and the *intended* candidates.
 3. **Choose a stable lens** that can represent the reconstructed arity/polarity without ad-hoc role invention.
-4. **Refine the ontology under the lens.** Turn implied roles into SlotSpecs; repair endpoint kind mismatches explicitly (narrowing / KindBridge / retargetParticipant); separate object kind, relation force, and qualifier force; make qualifiers explicit as slots or classified conditions.
-5. **Emit canonical rewrites + L/A/D/E hooks.** Produce Tech-form rewrites (`relationKind(…)` / arrow form) and state the A.6.B hooks: which parts are L vs A vs D vs E, and which witnesses/commitments/work claims are now demanded.
+4. **Refine the ontology under the lens.** Turn implied roles into SlotSpecs; repair endpoint kind mismatches explicitly through narrowing, `KindBridge`, or `retargetParticipant`; separate head kind, relation-bearing use, and qualifier-carried claim; make qualifiers explicit as slots or classified conditions.
+5. **Emit canonical rewrites plus L, A, D, and E hooks.** Produce Tech-form rewrites such as `relationKind(...)` or arrow form and state the A.6.B hooks: which parts are L, A, D, or E, and which witnesses, commitments, or work claims are now demanded.
 6. **Only then allow later relaxation.** If a Plain, didactic, or coarsened restatement is still wanted, derive it from the repaired form and keep the repaired form as the authoritative source for any later use that claims bridge, substitution, or reliance beyond the declared note.
 
 **Decision/publication fail-closed (normative).** If an in-scope mention is used to justify an admissibility gate, publication claim, or cross-Context reuse, authors MUST resolve the candidate sets to a selected `RelationKind`, selected endpoint facets/kinds, and any required head-kind reconstruction and emit an explicit rewrite. If that cannot be done from available context and witnesses, keep the statement as Plain/informative gloss (or split into multiple explicit alternatives) and do not treat it as admissible input for the gate.
 
 **Informative: referential compression spectrum.** Many triggers live on a spectrum from high to low referential precision:
 pronouns/deictics → overloaded polysemes → coarse domain kinds → facet head phrases → precise domain terms.
-Metonymy often shifts the candidate described entity or endpoint (e.g., a place phrase standing in for an object or a role). The repair sequence explicitly treats this as a **candidate-set** problem, not as “the dictionary meaning”.
+Metonymy often shifts the candidate EntityOfConcern or endpoint (e.g., a place phrase standing in for an object or a role). The repair sequence explicitly treats this as a **candidate-set** problem, not as “the dictionary meaning”.
 
 **Metonymy micro-example (informative; endpoint-side trigger beyond anaphora).**
 
@@ -298,15 +295,15 @@ For each ambiguous role (relation kind, endpoint facet/kind, qualifier, mediator
 
 * **Trigger span:** the exact trigger token(s) in the draft (copy/paste).
 * **Role being disambiguated:** `headKind` | `relationKind` | `endpointFacet(pᵢ)` | `endpointRef(pᵢ)` | `qualifier(qⱼ)` | `mediator`.
-* **Lane (A.7) (when endpoint‑side):** `Object` | `Description` | `Carrier` (state explicitly when live contenders span lanes; lane‑mixing is a common source of boundary-interface category errors).
-* **Candidate set:** a short list of plausible **head kinds**, **kinds/facets**, and/or **RelationKind tokens** (not synonyms), each with the local cue(s) that made it plausible.
+* **A.7 side (when endpoint-side):** `EntityOfConcern` | Description episteme | publication carrier (state explicitly when live contenders span sides; side-mixing is a common source of boundary-interface category errors).
+* **Candidate set:** a short list of plausible **head kinds**, **endpoint facets or endpoint kinds**, and **RelationKind tokens** when relation-kind selection is live, each with the local cue(s) that made it plausible.
 * **Selected facet/kind (and selected RelationKind, if relevant):** the chosen candidate(s).
 * **Why:** the discriminating test(s) that were applied, plus pointers to the specific local evidence/witness cues used (carriers, claims, records/carriers).
-* **Consequence:** which SlotSpecs become required/forbidden and which A.6.B hooks are now triggered (L/A/D/E).
+* **Consequence:** which SlotSpecs become required or forbidden and which A.6.B hooks are now triggered (L, A, D, and E).
 
 Minimal one‑screen representation:
 
-| Candidates (kinds/facets/tokens) | Selected facet/kind | Why (tests + cues) | Consequence (slots + L/A/D/E hooks) |
+| Candidates (kinds, facets, or tokens) | Selected facet or kind | Why (tests and cues) | Consequence (slots plus L, A, D, and E hooks) |
 | --- | --- | --- | --- |
 | C1 …; C2 …; C3 … | … | … | … |
 
@@ -314,7 +311,7 @@ Minimal one‑screen representation:
 
 * For **metonymy**, list both the literal candidate and the intended endpoint candidate (and make the shift explicit).
 * Keep the candidate set small: include only live contenders, and state the elimination test for the others.
-* This note is **informative**: it does not replace classified L/A/D/E claims. It exists to prevent “lexicon instead of ontology”.
+* This note is **informative**: it does not replace classified L, A, D, and E claims. It exists to prevent "lexicon instead of ontology".
 
 #### A.6.P:4.1 — Stable lens
 
@@ -335,21 +332,21 @@ For every in‑scope relational claim, authors SHALL select (or mint) an explici
 A RelationKind token is authored as a `U.Signature`‑level vocabulary element with explicit SlotSpecs for its participant and qualifier positions (`⟨SlotKind, ValueKind, refMode⟩`). When no suitable token already exists, authors SHALL NOT improvise a one-off string by intuition. They SHALL use **F.18** for mint-or-reuse: use **MintNew** by default, build a seed candidate set, show an honest NQD-front, run the sense-seed read-through, and record why the selected token is chosen from the non-dominated front. Use **DocumentLegacy** only when the label is externally fixed and that status is stated explicitly.
 
 **RelationKind relation specification skeleton (minimum, recipe-level).**
-For each `RelationKind` token, a conforming Context publication SHALL publish a vocabulary entry whose **signature-level definition** is paired with (or points to) a **L/A/D/E-classified claim bundle** (“relation specification skeleton”) that declares (at minimum):
+For each `RelationKind` token, a conforming Context publication SHALL publish a vocabulary entry whose **signature-level definition** is paired with (or points to) an **L, A, D, and E-classified claim bundle** ("relation specification skeleton") that declares (at minimum):
 
 The leading **(L)/(A)/(D)/(E)** tags below indicate the intended **A.6.B quadrant classification** for each element of the skeleton.
 
 * **(L) applicability** (A.6.0): the Contexts or planes where the kind is defined (local meaning is first-class).
 * **(L) polarity**, and (if needed) explicit **inverse tokens** (no silent role flips in Tech prose).
 * **(L) SlotSpecs** for all participant positions (and any qualifier slots exposed by the relation pattern) (`⟨SlotKind, ValueKind, refMode⟩`, where `refMode` is either `ByValue` or a concrete `RefKind` token per A.6.5).
-* **(A) admissible repair options for endpoint kind mismatches** (normative): allowed repairs are (i) explicit narrowing, (ii) a `KindBridge` (+ `CL^k` + loss notes), and/or (iii) explicit `retargetParticipant`. Renaming endpoints is not a repair.
+* **(A) admissible repair options for endpoint kind mismatches** (normative): allowed repairs are (i) explicit narrowing, (ii) a `KindBridge` (+ `CL^k` + loss notes), (iii) explicit `retargetParticipant`, or a stated combination of these repairs when several mismatch conditions are live. Renaming endpoints is not a repair.
 * **(L) qualifier expectations**: which qualifiers are required, optional, or forbidden (scope, `Γ_time`, `U.Viewpoint` and `U.View`, reference scheme, representation scheme).
 * **(D) qualifier placement discipline**: extra parameters belong in `scope` or explicit qualifier slots, not as adjectives attached to endpoint names.
 * **(A/E) witness discipline**: when witnesses are required as an admissibility gate and what carrier-anchored witness sets look like in this relation pattern.
 * **(L/A) admissible semantic change classes** (see §4.4) and whether they require a new edition.
 * **(A/E) cross-Context or cross-plane policy** when applicable (Bridge ids + CL + loss notes policy).
 
-**Important stack constraint (A.6 / A.6.S / A.6.B).**
+**Important stack constraint (A.6, A.6.S, and A.6.B).**
 Treat a relation specification as a classified set of claims, not a single magical object:
 
 * **L‑claims** (signature invariants; polarity; SlotSpec typing) live in the signature-level invariant/rule set.
@@ -385,7 +382,7 @@ QualifiedRelationRecord :=
 ⟩
 ```
 
-**Slot naming guard.** `*Slot` suffix names positions (SlotKinds), not occupants; prose SHOULD use occupant names (`scope`, `witnesses`, `base`, `dependent`, …) for fillers. This is the same guard used in A.6.6 and A.6.5.
+**Slot naming guard.** `*Slot` suffix names positions (SlotKinds), not fillers; prose SHOULD use filler names (`scope`, `witnesses`, `base`, `dependent`, …) for slot contents. This is the same guard used in A.6.6 and A.6.5.
 
 **Well‑formedness principle.** The record is typed by the relation specification: SlotSpecs are fixed by the selected RelationKind token, and missing slots are permitted only if the relation specification says they are optional. This mirrors A.6.6’s scoped/witnessed declaration move (SWBD): “shape + relation specification makes a concrete typed signature”.
 
@@ -403,7 +400,7 @@ In Tech/normative prose, authors SHALL express an in‑scope relation instance i
 Passive umbrella voice (“X is synced/linked/anchored …”) is permitted only as Plain gloss when immediately rewritten into one of the above forms.
 
 **Cross-Context or cross-plane note (recipe-level).**
-If any participant/qualifier implies cross‑Context or cross‑plane reuse, the L/A/D/E-classified claim bundle MUST cite the relevant Bridge ids + CL policy (and loss notes, when applicable) in the appropriate L/A/D/E-classified claims (typically `A-*` and/or `E-*`). Label identity is not an admissible substitute.
+If any participant/qualifier implies cross‑Context or cross‑plane reuse, the L/A/D/E-classified claim bundle MUST cite the relevant Bridge ids + CL policy (and loss notes, when applicable) in the appropriate L/A/D/E-classified claims: A-classified claims, E-classified claims, or both when both admissibility and evidence/disclosure consequences are live. Label identity is not an admissible substitute.
 
 #### A.6.P:4.4 — Change‑class lexicon (operations are not adjectives)
 
@@ -438,14 +435,14 @@ Normative base rules (A.6.P-level):
 
 **Recommended publication move (no extra authoring apparatus implied).** For stable ambiguity clusters, publish the red‑flag token list and canonical rewrites as a LEX‑BUNDLE entry (PTG=Guarded) and, when the cluster introduces new `RelationKind` tokens or stable facet head phrases, include them in the relevant UTS rows (F.17). This keeps rewrite discipline shareable outside the A.6 cluster.
 
-#### A.6.P:4.5a - Trigger-word force split for discoverability vocabulary
+#### A.6.P:4.5a - Trigger-word repair split for discoverability vocabulary
 
-The overloaded trigger-word force `discoverability` is not collapsed into one
+The overloaded trigger-word repair case around `discoverability` is not collapsed into one
 universal substantive pattern.
 `A.6.P`, `F.18`, and `E.10` govern the repair-side trigger-word, naming, collision, and
 split-classification discipline for discoverability vocabulary.
 
-For this vocabulary force, apply settled governing patterns like this:
+For this vocabulary repair case, apply settled governing patterns like this:
 
 * description recognition signatures in general -> `A.6.RSIG`;
 * pattern-entry discoverability -> `E.11`;
@@ -490,7 +487,7 @@ A RPR‑pattern SHALL include an actionable guide:
 
 > “If the draft says *X*, decide between relation kinds A/B/C, expand missing slots, and rewrite into explicit kind+slots notation.”
 
-For basedness repair, A.6.6 provides an existence proof of such a guide (select the `baseRelation` force; add scope/time/witnesses). A.6.P requires this move across RPR specialisations.
+For basedness repair, A.6.6 provides an existence proof of such a guide (select the `baseRelation` relation kind; add scope/time/witnesses). A.6.P requires this move across RPR specialisations.
 
 **Recommended format: RPR‑Disambiguation Guide (Winograd‑style, but ontology‑first).**
 To keep disambiguation from collapsing into dictionary debates, present the guide as a compact decision scaffold:
@@ -586,7 +583,6 @@ aggregationAdmissibleIff(
 Now the relation is auditable: aggregation is admissible only if the relation kind’s admissibility
 claims say it preserves the needed characteristics under the declared scope/time, and if witnesses exist.
 Cross-Context reuse is explicit and cannot piggyback on label identity.
-
 
 #### A.6.P:5.2 — Episteme archetype: “the models are synced”
 
@@ -689,7 +685,7 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
     If a relation instance crosses Contexts/planes (or requires translation), the carrier SHALL cite Bridge ids + CL policy (and loss notes, when applicable). Label identity or “same anyway” prose SHALL NOT substitute.
 
 13. **CC‑A.6.P‑13 — Disambiguation guide is actionable.**
-    P SHALL include an explicit rewrite/selection guide that maps each red-flag umbrella cluster or generic FPF-force-bearing head phrase to candidate head kinds, candidate `RelationKind` tokens, and (when the ambiguity is endpoint-side) candidate endpoint facets/kinds, plus required qualifiers and canonical rewrite forms.
+    P SHALL include an explicit rewrite/selection guide that maps each red-flag umbrella cluster or generic head phrase with FPF-governed use to candidate head kinds, candidate `RelationKind` tokens, and (when the ambiguity is endpoint-side) candidate endpoint facets/kinds, plus required qualifiers and canonical rewrite forms.
     The guide SHOULD follow the RPR‑Disambiguation format: **trigger → candidates → discriminating questions/tests → canonical rewrite → L/A/D/E hooks**.
 
     Where endpoint referential compression is a primary risk, the guide SHOULD also include (or point to) the **Candidate‑Set Note** template (A.6.P:4.0b) so instance‑level reviews have an auditable trail: candidates → selected facet/kind → why.
@@ -698,11 +694,11 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
     P SHALL include at least one Tell–Show–Show vignette in a **System** lane and at least one in an **Episteme** lane (per E.8), demonstrating a real ambiguity repair and a relation‑change narration using the change‑class lexicon.
 
 15. **CC‑A.6.P‑15 — Trigger rule is explicit.**
-    P SHALL include an explicit trigger rule (or selection heuristic) stating when the repair force applies and what counts as “in-scope” umbrella relational prose.
+    P SHALL include an explicit trigger rule (or selection heuristic) stating when the repair case applies and what counts as “in-scope” umbrella relational prose.
 
 ### A.6.P:7a - Portfolio, front, archive, and shortlist disambiguation
 
-- Treat bare uses of `portfolio`, `front`, `archive`, `Pareto`, `shortlist`, `space`, `reachability`, and `stepping stone` as repair triggers whenever they carry live explanatory force.
+- Treat bare uses of `portfolio`, `front`, `archive`, `Pareto`, `shortlist`, `space`, `reachability`, and `stepping stone` as repair triggers whenever they carry live explanatory work.
 - Use the helper declarations from A.0:QF.1a when repairing the sentence: do not let `SetResultFamily`, `SourceSetFamily`, `SourceSetComposition`, `SubjectKind`, `DerivedViewKind`, `BasePaletteRef`, `SelectorOutcomeKind`, `HandoffKind`, `PromotionPolicy`, `RetentionIntent=steppingStone`, `EligibilitySet`, `DominanceSet`, `TieBreakerSet`, or `TelemetrySet` read as public set-outcome heads.
 - The minimum repair is to state the `SubjectKind`, the declared comparison bundle, and, when selection or publication outcomes are involved, the declared `SelectorOutcomeKind`, the applicable `SetResultFamily` or `HandoffKind`, the declared `SourceSetFamily`, `SourceSetComposition` when several sources are actually composed, `DerivedViewKind` or `BasePaletteRef` when a derived palette view matters, `LensId`, and which member of the shortlist family is meant.
 - The declared comparison bundle is:
@@ -725,7 +721,7 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
 - If one phrase says `shortlist` but really points at one emitted token or publication handle, rewrite it as `ShortlistId`.
 - If one sentence moves between search-space and outcome-space talk, name the space whose objects are being compared before making claims about dominance, archive retention, or frontier expansion.
 - If one sentence says `Pareto` but really means one post-lens selected result, rewrite it as `Shortlist` or `RankedShortlist` rather than widening `Front` until it means everything.
-- Canonical rewrites for FPF-force-bearing Q-Front / NQD prose:
+- Canonical rewrites for FPF-governed Q-Front / NQD prose:
   - `portfolio by Q` -> `Front over the declared Q components` when the sentence is about non-domination.
   - `portfolio by NQD` -> `Front over the declared DominanceSet plus ExplorationArchive under the declared retention policy` when both current front and retained exploration outcome are meant.
   - `Pareto shortlist` -> `Shortlist from <SourceSetFamily> under <LensId>` when the sentence is about publication or selection.
@@ -739,14 +735,13 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
 
 ### A.6.P:8 — Common Anti‑Patterns and How to Avoid Them
 
-
 | Anti-pattern | Why it fails | Repair |
 | ---------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | “Just define the umbrella word” | Definitions do not separate arity, operation classes, or viewpoint asymmetry. | Replace umbrella use with explicit RelationKind + qualified record + change lexicon. |
 | Keep the umbrella verb, add adjectives | Adjectives are not relation specifications; invariants remain unstated. | Mint/select distinct RelationKind tokens; enforce rewrite discipline. |
-| Leave a FPF-force-bearing generic head uninterpreted | Readers cannot tell what kind of thing the phrase governs, so later qualifiers float without an ontology. | Restore the head kind first in source-local terms; only then repair the remaining relation/comparison force. |
-| Let a qualifier smuggle the real claim force | A phrase like “comparative note”, “safe guidance”, or “reliable output” sounds precise while leaving the actual relation, comparison basis, or authority-reference requirement implicit. | Unpack the qualifier into explicit comparison basis, relation kind, admissibility condition, or L/A/D/E-classified claim before any claim requiring explicit relation, admissibility, authority-reference relation, or reliance. |
-| Treat support as the recovered kind or relation | `SupportRecord`, `support source`, `support line`, `support relation`, or `supported use` can sound precise while hiding whether the live claim force is evidence, source posture, admissible use, assurance, causal use, decision help, publication help, lens adequacy, characteristic basis, or ordinary orientation. | Recover the exact governing claim force and exact governing pattern first: evidence path, `E.17:5.1b` source-support posture when that vocabulary is really live, relationClaimSlice, admissibleUse, projectSideFPFRef, assurance, causal support basis/verdict, lens adequacy, characteristic basis, bridge/comparison relation, or companion-only reader function. Use support-headed wording only when that exact local pattern defines the field or record and states admissible and non-admissible use. |
+| Leave a FPF-governed generic head uninterpreted | Readers cannot tell what kind of thing the phrase governs, so later qualifiers float without an ontology. | Restore the head kind first in source-local terms; only then repair the remaining relation or comparison reading. |
+| Let a qualifier smuggle the real claim kind or admissible-use boundary | A phrase like "comparative note", "safe guidance", or "reliable output" sounds precise while leaving the actual relation, comparison reference set, or authority-reference requirement implicit. | Unpack the qualifier into explicit comparison reference set, relation kind, admissibility condition, or L, A, D, and E-classified claim before any claim requiring explicit relation, admissibility, authority-reference relation, or reliance. |
+| Treat support as the recovered kind or relation | `SupportRecord`, `support source`, `support line`, `support relation`, or `supported use` can sound precise while hiding whether the live claim kind or admissible-use boundary is evidence path, source-use relation, admissible-use boundary, assurance claim, causal-use relation, decision help, publication help, C.29 lens-use result, characteristic construction, or ordinary orientation. | Recover the exact governing claim kind or admissible-use boundary and exact governing pattern first: evidence path, `E.17:5.1b` source relation or claim-admissibility vocabulary, relationClaimSlice, admissibleUse, projectSideFPFRef, assurance claim, causal evidence path or causal-use verdict, C.29 lens-use result, characteristic construction, bridge or comparison relation, or companion-only reader function. Use support-headed wording only when that exact local pattern defines the field or record and states admissible and non-admissible use. |
 | Leave pronominal/metonymic endpoints implicit | Endpoint identity/facet remains guesswork; slot typing cannot stabilise. | Reconstruct candidate referents/facets (**capture as a Candidate‑Set Note**); add explicit slots/refs; then rewrite (A.6.8 is the archetype for “service” polysemy). |
 | Ontology only, no lexical guardrails | Prose re-collapses meaning. | Add red-flag tokens + prohibited umbrella use in Tech/normative prose. |
 | Lexicon only, no structural lens | Becomes subjective policing. | Introduce stable lens + slot schema; then attach guardrails. |
@@ -754,8 +749,8 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
 | Using “bind” to mean “edit relation” | Collapses name-binding vs slot-writing classes. | Reserve `bind/rebind` for names; use change lexicon / slot verbs properly. |
 | Implicit “current/latest” | Violates explicit time discipline. | Add explicit `Γ_time` where time matters. |
 | Treat `Γ_time` as witness freshness | Time selection does not equal evidence freshness/decay; this conflates time discipline with evidence lanes. | Keep `Γ_time` for temporal scope; express freshness/decay via witness metadata and carrier-anchored E-claims. |
-| Collapse search-space refs, declared-substrate interpretive views, and publication forms into one `space` or `view` | Search-space refs, outcome-space refs, declared-substrate interpretive views, and source sets and set results become indistinguishable, so later claims lose their governed object. | Restore the declared `CharacteristicSpace`, any `SearchSpaceRef` and `OutcomeSpaceRef`, the active source set or active set result, the declared-substrate interpretive view or atlas view if any, and any `OutcomeMapRef` or `BridgeDistortionNote` before making the claim. |
-| Compare across mixed kinds | `PublicationUnit`, project record, process, authority-use claim, or source-support claim gets ranked on one comparison basis before its kind and governing requirement are restored. | First restore head kind, then qualifier force, then rewrite the sentence through the exact evidence path, threshold, transfer condition, admissible-use boundary, or source-description claim wording so the comparison basis is homogeneous. |
+| Collapse search-space refs, declared-substrate interpretive views, and publication forms into one `space` or `view` | Search-space refs, outcome-space refs, declared-substrate interpretive views, and source sets and set results become indistinguishable, so later claims lose their primary `EntityOfConcern` or exact relation/claim record. | Restore the declared `CharacteristicSpace`, any `SearchSpaceRef` and `OutcomeSpaceRef`, the active source set or active set result, the declared-substrate interpretive view or atlas view if any, and any `OutcomeMapRef` or `BridgeDistortionNote` before making the claim. |
+| Compare across mixed kinds | `PublicationUnit`, project record, process, authority-use claim, or source-use claim gets ranked on one comparison reference set before its kind and governing requirement are restored. | First restore head kind, then qualifier-carried claim, then rewrite the sentence through the exact evidence path, threshold, transfer condition, admissible-use boundary, or source-description claim wording so the comparison reference set is homogeneous. |
 
 **Worked repair slice — NQD/OEE space/view/publication stack.**
 
@@ -776,7 +771,6 @@ Canonical rewrite:
 * Use `TraditionAtlasView` only if several declared views or qualifiers must stay visible together; otherwise leave the passage at archive/palette-first precision.
 
 ### A.6.P:9 — Consequences
-
 
 **Benefits**
 
@@ -804,13 +798,13 @@ A.6.P is orthogonal to “add a global taxonomy”:
 
 A.6.P echoes contemporary practice across independent traditions, while remaining notation-neutral and Context-local. A row is retained only when it changes the A.6.P solution, checklist, boundary, worked case, or reopen condition.
 
-| Practice basis | Source posture | Echo | What A.6.P adopts or adapts | What A.6.P rejects |
+| Practice source line | Use of source | Echo | What A.6.P adopts or adapts | What A.6.P rejects |
 | --- | --- | --- | --- | --- |
-| W3C SHACL Recommendation (2017) for shape validation over RDF graph assertions. | Current-standard/reference support for assertion/constraint separation; not a complete current-best answer for FPF relation precision restoration. | Separates graph assertions from constraints over node/value shapes. | Adopts explicit structural constraint thinking for relation records and mutates `CC-A.6.P-2`: relation claims need explicit SlotSpecs, qualifiers, witness expectations, and admissible use, not only prose assertions. | Rejects treating validation shape notation as the required FPF notation or as a substitute for relation-kind selection and lexical guardrails. |
-| RDF-star / SPARQL-star W3C Community Group Report (2021) and RDF/SPARQL WG current line for quoted triples and statement qualification. | Current practice and working-standardization signal for qualified statements; not stable ontology authority for FPF. | Shows why hidden arity and qualification need explicit representation when statements carry statement-about-statement force. | Adapts the qualification pressure into `RelationKind` plus qualifier slots and change-class lexicon; mutates the hidden-arity and candidate-set examples. | Rejects "reification solves the relation" when kind selection, endpoints, admissible use, and change semantics remain hidden. |
-| ISO/IEC/IEEE 42010:2022 architecture-description practice on viewpoints, model kinds, and correspondences. | Current-standard/reference support for viewpoint accountability and correspondence discipline. | Treats viewpoints and correspondences as first-class description concerns. | Adopts viewpoint accountability for relation qualification and mutates boundary cases involving views, viewpoints, correspondences, and silent polarity flips. | Rejects importing architecture-description ontology as the general relation ontology; architecture-specific cases still go to `C.30`, `C.30.ASV`, or `C.30.P`. |
-| Pickering, Gibbons, and Wu, "Profunctor Optics: Modular Data Accessors" (ICFP 2017) and successor optics practice. | Current formal-lens support for bidirectional view/update intuition; used as a stabilizing lens, not as mandatory notation. | "Pairs of projections plus invariants" makes multi-view relation discipline teachable. | Adapts optics as a didactic stabilizer for multi-view relation repair and mutates the rationale for stable lens -> explicit slots -> change classes. | Rejects requiring profunctor notation or treating formal elegance as proof of admissible relation use. |
-| Fong and Spivak, "Seven Sketches in Compositionality" (2019), as applied-category-theory lineage for compositional modeling. | Lineage and didactic support for compositional lens choice; not by itself current-best support for FPF wording repair. | Shows why stable abstract lenses can be reused across domains. | Adapts compositionality as a reason to keep A.6.P notation-neutral while requiring relation slots and change lexicon; mutates the rationale and teaching examples. | Rejects adding a global category-theory ontology to FPF relation repair. |
+| W3C SHACL Recommendation (2017) for shape validation over RDF graph assertions. | Current-standard/reference use for assertion/constraint separation; not a complete current-best answer for FPF relation precision restoration. | Separates graph assertions from constraints over node/value shapes. | Adopts explicit structural constraint thinking for relation records and mutates `CC-A.6.P-2`: relation claims need explicit SlotSpecs, qualifiers, witness expectations, and admissible use, not only prose assertions. | Rejects treating validation shape notation as the required FPF notation or as a substitute for relation-kind selection and lexical guardrails. |
+| RDF-star / SPARQL-star W3C Community Group Report (2021) and RDF/SPARQL WG current line for quoted triples and statement qualification. | Current-practice and working-standardization source use for qualified statements; not stable ontology authority for FPF. | Shows why hidden arity and qualification need explicit representation when statements carry statement-about-statement claim. | Adapts the qualification pressure into `RelationKind` plus qualifier slots and change-class lexicon; mutates the hidden-arity and candidate-set examples. | Rejects "reification solves the relation" when kind selection, endpoints, admissible use, and change semantics remain hidden. |
+| ISO/IEC/IEEE 42010:2022 architecture-description practice on viewpoints, model kinds, and correspondences. | Current-standard and reference use for viewpoint accountability and correspondence discipline. | Treats viewpoints and correspondences as first-class description concerns. | Adopts viewpoint accountability for relation qualification and mutates boundary cases involving views, viewpoints, correspondences, and silent polarity flips. | Rejects importing architecture-description ontology as the general relation ontology; architecture-specific cases still go to `C.30`, `C.30.ASV`, or `C.30.P`. |
+| Pickering, Gibbons, and Wu, "Profunctor Optics: Modular Data Accessors" (ICFP 2017) and successor optics practice. | Current formal-lens source use for bidirectional view/update intuition; used as a stabilizing lens, not as mandatory notation. | "Pairs of projections plus invariants" makes multi-view relation discipline teachable. | Adapts optics as a didactic stabilizer for multi-view relation repair and mutates the rationale for stable lens -> explicit slots -> change classes. | Rejects requiring profunctor notation or treating formal elegance as proof of admissible relation use. |
+| Fong and Spivak, "Seven Sketches in Compositionality" (2019), as applied-category-theory lineage for compositional modeling. | Lineage and didactic source use for compositional lens choice; not by itself current-best source use for FPF wording repair. | Shows why stable abstract lenses can be reused across domains. | Adapts compositionality as a reason to keep A.6.P notation-neutral while requiring relation slots and change lexicon; mutates the rationale and teaching examples. | Rejects adding a global category-theory ontology to FPF relation repair. |
 
 These echoes justify why A.6.P is structured as: **stable lens -> explicit slots -> explicit change classes -> lexical guardrails**, rather than "just define the verb". A source row that does not change A.6.P fields, examples, checklist rows, boundaries, or reopen conditions is decorative and should be removed or demoted to lineage outside the SoTA echo.
 ### A.6.P:12 — Relations
@@ -820,7 +814,7 @@ These echoes justify why A.6.P is structured as: **stable lens -> explicit slots
 * **A.6.5 `U.RelationSlotDiscipline`** — slot precision restoration for n‑ary relations.
 * **A.6.6 `U.BaseDeclarationDiscipline`** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags).
 * **A.6.8 (RPR‑SERV)** — service polysemy unpacking as a relation/facet precision restoration discipline (serviceSituation lens + canonical rewrites + service‑specific tests and change narration).
-* **A.6.9 (RPR‑XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align / map” via explicit Bridges
+* **A.6.9 (RPR-XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context "same", "equivalent", "align", or "map" via explicit Bridges
 * **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole/part/integrity/complete”) into boundary, typed parthood, explicit Γ selection, order/time classification, and A.15 completeness/coverage claims.
 
 **Coordinates with**
@@ -833,7 +827,7 @@ These echoes justify why A.6.P is structured as: **stable lens -> explicit slots
 
 **Candidate extraction signals (informative; not queued specialisations)**
 
-These recurring relation-force families are signals for applying the `E.10.ARCH` extraction criterion. They do not by themselves create a new A.6.x pattern.
+These recurring relation-repair families are signals for applying the `E.10.ARCH` extraction criterion. They do not by themselves create a new A.6.x pattern.
 
 * Cross‑Context equivalence / “sameness” discipline (Bridge + loss-note relation patterns)
 * Correspondence/consistency + repair discipline (sync/alignment relation patterns)
@@ -841,7 +835,7 @@ These recurring relation-force families are signals for applying the `E.10.ARCH`
 
 ### A.6.P:12a - Quantum-like relation/probe wording precision note
 
-Treat quantum-like FPF-force-bearing wording such as `coupled`, `interaction`, `probe`, `measurement`, `export`, `collapse-like`, `field-like`, `state update`, or `non-copyable` as ordinary RPR triggers when they carry live explanatory force. These words are not reusable FPF relation predicates merely because they appear in a quantum-like source or example.
+Treat quantum-like FPF-governed wording such as `coupled`, `interaction`, `probe`, `measurement`, `export`, `collapse-like`, `field-like`, `state update`, or `non-copyable` as ordinary RPR triggers when they carry live explanatory work. These words are not reusable FPF relation predicates merely because they appear in a quantum-like source or example.
 
 Action path:
 
@@ -851,29 +845,28 @@ Action path:
 4. Select the relation kind or hand off to an existing governing pattern.
 5. Fill slots: participants, polarity, channel/mediator, time window, witness, and change class.
 6. Rewrite the sentence into explicit local prose or a relation form only after the ontology is clear.
-7. Move to `C.26` only when ordinary relation repair still leaves order-sensitive, probe-frame-sensitive, incompatible-probe, no faithful-enough export, or state-representation coarsening claim force.
+7. Move to `C.26` only when ordinary relation repair still leaves order-sensitive, probe-frame-sensitive, incompatible-probe, no faithful-enough export, or state-representation coarsening claim kind or admissible-use boundary.
 
-Minimum repair for FPF-force-bearing quantum-like relation wording:
+Minimum repair for FPF-governed quantum-like relation wording:
 
 | Relation slot | Required recovery |
 | --- | --- |
 | Participants | Which endpoints, carriers, contexts, roles, views, or systems participate |
 | Relation kind | Whether the prose means bridge/export, evidence, measurement, work enactment, boundary interaction, viability regulation, or local decision comparison |
 | Direction / polarity | Whether the relation is one-way, mutual, symmetric, asymmetric, reversible, lossy, or only observer-relative |
-| Channel / mediator | Message, API read, workshop, metric, dashboard, carrier, bridge, instrument, or other interaction medium |
+| Channel or mediator | Message, API read, workshop, metric, dashboard, carrier, bridge, instrument, or other interaction medium |
 | Time / window | `Γ_time`, persistence, decay, refresh, or reprobe condition when state interpretation depends on time |
 | Witness | Evidence carrier or observation that makes the relation readable |
 | Change class | Whether the relation is a retarget, rescope, reframe, update, export-loss, state-interpretation change, or ordinary relation refinement |
 
 Useful outputs:
 
-- an ordinary `F.9`, `A.6.8`, `A.6.9`, `C.16`, `A.15`, or `C.25` exact governing pattern when the repaired slots reduce to one existing governing claim force;
+- an ordinary `F.9`, `A.6.8`, `A.6.9`, `C.16`, `A.15`, or `C.25` exact governing pattern when the repaired slots reduce to one existing governing claim kind or admissible-use boundary;
 - a local explanatory phrase when no reusable relation token is justified;
 - an `A.6.P` repair plus `F.18` naming pass when a reusable relation token is actually needed;
-- a `C.26` application only for the remaining state, probe, export, frame, or coarsening claim force.
-### A.6.P:12b - C.29 MLA relation
+- a `C.26` application only for the remaining state, probe, export, frame, or coarsening claim kind or admissible-use boundary.
+### A.6.P:12b - C.29 mathematical-lens use relation
 
-> **MLA relation.** `A.6.P` may select a stable mathematical substrate for relation precision restoration: arity, polarity, endpoint discipline, slot structure, and relation-kind repair. This does not by itself apply `C.29`. `C.29 Mathematical Lens Adequacy` applies only when that substrate is used as a FPF-force-bearing mathematical representation of a governed phenomenon beyond relation repair. `A.6.P` does not by itself license source-domain ontology transfer.
+> **Mathematical-lens use relation.** `A.6.P` may select a stable mathematical substrate for relation precision restoration: arity, polarity, endpoint discipline, slot structure, and relation-kind repair. This does not by itself apply `C.29`. `C.29 Mathematical Lens Use` applies only when that substrate is used as a FPF-governed mathematical representation of a selected subject, relation, claim, or structure beyond relation repair. `A.6.P` does not by itself license source-domain ontology transfer.
 
 ### A.6.P:End
-

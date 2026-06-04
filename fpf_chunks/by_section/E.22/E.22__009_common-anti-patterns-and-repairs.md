@@ -6,12 +6,12 @@ section_id: "E.22:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__009_common-anti-patterns-and-repairs.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality-Read Question Framing"
   - "E.22:8 — Common anti-patterns and repairs"
-line_start: 67698
-line_end: 67716
+line_start: 68567
+line_end: 68585
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -38,7 +38,7 @@ keywords:
 | **All-to-five Goodharting.** | Visible values rise while ordinary use, affordability, locality, or corpus ecology falls. | Add `paretoTradeoffRead` and protected trade-offs. |
 | **Open-question silence.** | The reviewer answers the given checklist but misses a missing governing question. | Add `openQuestionDiscoveryRead` and a classification rule. |
 | **Applied-count absorption.** | Absorption reports how many suggestions were applied but not what quality changed. | Add `absorptionRead` and impact classification. |
-| **Checklist-count quality closure.** | A discharge table says every row is closed, and that count is treated as the quality result. | Run or cite the object-under-improvement evaluation on the changed object; keep row discharge as executor evidence, not quality closure. |
+| **Checklist-count quality closure.** | A discharge table says every row is closed, and that count is treated as the quality result. | Run or cite the object-under-improvement evaluation on the changed object; keep row discharge as changed-locus evidence, not quality closure. |
 | **Full-loop capture.** | `E.22` starts governing repeated improvement, method-family selection, or stop or switch decisions across passes. | Use `E.22` only to frame each quality read; use `E.23` for the repeated quality-improvement method. |
 | **Object-under-improvement evaluation theft.** | The frame starts defining coordinates that belong to `E.21`, `E.9.DA`, `C.16`, `C.25`, a local rubric, or another object-under-improvement evaluation. | Keep `E.22` to purpose declaration; run the exact object-under-improvement evaluation for the read. |
 | **Portfolio-quality blur.** | A request asks whether "the portfolio is good" while mixing candidate quality, front/archive semantics, selected-set publication, parity, and refresh. | Name the exact object version under quality read and the governing pattern: `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, or `G.11`; keep `E.22` to the read purpose and non-use boundary. |

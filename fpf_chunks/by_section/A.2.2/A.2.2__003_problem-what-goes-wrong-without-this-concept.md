@@ -6,12 +6,12 @@ section_id: "A.2.2:2"
 section_title: "Problem (what goes wrong without this concept)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_problem-what-goes-wrong-without-this-concept.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:2 — Problem (what goes wrong without this concept)"
-line_start: 2307
-line_end: 2314
+line_start: 2298
+line_end: 2304
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -39,5 +39,4 @@ keywords:
 2. **Recipe ≠ ability.** A Method says *how* to do something; it does not guarantee that *this* holder can meet the target outcomes under the required constraints.
 3. **Execution log ≠ ability.** A past Work record does not, by itself, establish a stable ability; conditions may have been favorable or unique.
 4. **Cross‑team confusion.** Enterprise terms like “capability”, “service”, and the old “function” are used interchangeably; planning, staffing, and assurance become fragile.
-
 

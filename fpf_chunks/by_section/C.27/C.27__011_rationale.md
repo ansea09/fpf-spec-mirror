@@ -6,12 +6,12 @@ section_id: "C.27:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:10 — Rationale"
-line_start: 48855
-line_end: 48898
+line_start: 48712
+line_end: 48754
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -49,13 +49,12 @@ keywords:
 
 ### C.27:10 - Rationale
 
-The source basis is most relevant where it replaces
+The source material is most relevant where it replaces
 the question "what is the speed?" with "what effort profile, over which windows,
 changes speed, rhythm, direction, or stability under resistance and cost?" The
 C.27 keeps that practical move while rejecting physics ontology,
 mandatory calculus, false QL relevance, and default full-profile
 bureaucracy.
-
 
 C.27 acts in FPF as a small modern correction for one recurring failure:
 working texts observe or name a rate and then behave as if they know how to
@@ -78,7 +77,7 @@ following shape:
   convergence/divergence rather than one generic process-speed label;
 - dynamic benchmarks use C.27 to type the temporal-claim question while G.9 carries
   parity;
-- rhythm claims stay bearer+anchor+window+basis+supported-use by default, with
+- rhythm claims stay bearer+timing-reference+window+evidence/proxy relation+supported-use by default, with
   entrainment or coupling claims with cross-bearer evidence commitments only when the claim needs them;
 - quantum-like use stays out of C.27 unless a residual probe/order/frame/export
   cue remains after ordinary C.27, C.24, C.16, G.9, and E.13 pattern relations;

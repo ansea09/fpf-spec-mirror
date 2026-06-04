@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__008_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 65299
-line_end: 65773
+line_start: 66172
+line_end: 66647
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -52,7 +52,6 @@ A nontrivial pattern-quality review SHOULD state its quality-read purpose before
 
 If the aim is repeated improvement against an object-under-improvement evaluation, use `E.23` for the repeated method. `E.19` may supply a review profile and findings inside that loop, but the profile is not the loop method and the review result is not a quality value until the object-under-improvement evaluation evaluates the changed pattern version.
 
-
 `E.19` reviewer and reviewed-pattern wording is FPF pattern-quality wording. It governs FPF pattern-quality review or refresh claims, not project-side publication interpretation, explanation interpretation, comparative review-unit use, or participation in a named project-side review relation. When those project-side relations are live, use the publication or project-side pattern that names the object being interpreted or reviewed.
 
 **Project-side reuse boundary.** Use this boundary when an `E.19` pattern-quality result is being reused as project certification, project evidence, safety-assurance material, gate input, release justification, compliance-assurance material, assurance material, work authority, or publication truth. The first E.19 move is to return the result to the exact FPF pattern-quality claim it reviews: admission, refresh, narrower use, repair return, or selected pattern-quality boundary. If that result is cited for a project-side claim, the receiving relation must be opened for that exact claim: `A.10` for evidence/currentness, `B.3` for assurance, `A.20` for local CV status, `A.21` for gate decision, `A.15` for work, or another exact governing pattern when live. The review result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, evidence, gate, assurance, work, decision, or exact FPF pattern application.
@@ -73,20 +72,20 @@ If the local process separates review from repair, direct reviewed-text patching
 
 Every run MUST include **PCP‑BASE** as a triage baseline. Full-depth checking
 is selected only where the relevant risk is live; reviewer depth SHOULD
-prioritize the FPF-force-bearing sections and enforceable requirements in E.19:4.2.1.
+prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 
 1. **Internal coherence (problem <-> conformance claim <-> solution)**
    The Conformance Checklist matches Problem statement and the Solution (no "orphan requirements" and no "unclaimed requirements").
 2. **Lexical discipline & reserved vocabulary**
    Terms and registers follow lexical rules; ambiguous "everyday" synonyms do not silently replace kernel vocabulary.
 3. **SoTA-Echoing minimum compliance (E.8)**
-   SoTA-Echoing satisfies the E.8 authoring requirements applicable to the pattern kind (Architectural vs Definitional), including explicit adopt/adapt/reject stances and the E.8 two-part SoTA test: current best-known problem-solving practice for the governed problem, and by-value incorporation into FPF-force-bearing pattern loci. If a SoTA Synthesis Pack exists for the topic, SoTA-Echoing binds to it rather than forking an untracked narrative; any divergence of pattern norms from contemporary practice is explicitly stated as such. SoTA-Echoing **MUST** be non-decorative, **MUST** reflect best-known current practice rather than official status, source recency, institutional adoption, or merely popular defaults for the declared problem, and **MUST** govern the Solution and other FPF-force-bearing sections, or those sections **MUST** justify divergence explicitly.
+   SoTA-Echoing satisfies the E.8 authoring requirements applicable to the pattern kind (Architectural vs Definitional), including explicit adopt/adapt/reject stances and the E.8 two-part SoTA test: current best-known problem-solving practice for the named practice question, and by-value incorporation into FPF-governed pattern loci. If a SoTA Synthesis Pack exists for the topic, SoTA-Echoing binds to it rather than forking an untracked narrative; any divergence of pattern norms from contemporary practice is explicitly stated as such. SoTA-Echoing **MUST** be non-decorative, **MUST** reflect best-known current practice rather than official status, source recency, institutional adoption, or merely popular defaults for the declared problem, and **MUST** govern the Solution and other FPF-governed sections, or those sections **MUST** justify divergence explicitly.
 4. **Cross-pattern compatibility & impact radius**
    Relations are consistent with declared dependencies and dependents; declared scope/impact is compatible or explicitly limited.
 5. **Didactic grounding**
-   Archetypal Grounding is present and teaches the concept with concrete anchors, not only abstractions.
+   Archetypal Grounding is present and teaches the concept with concrete cases or references, not only abstractions.
 6. **Reader-role fit**
-   The live pattern body stays addressed to the intended FPF user rather than to FPF developers or package architects. FPF-force-bearing sections explain admissible use, costs, boundaries, exact FPF governing patterns, exact project-side FPF kinds and references, and related exact relations in user terms. Architecture-placement, freeze/merge posture, and broader package-development rationale stay in separate companions or clearly marked informative placement notes when needed.
+   The live pattern body stays addressed to the intended FPF user rather than to FPF developers or package architects. FPF-governed sections explain admissible use, costs, boundaries, exact FPF governing patterns, exact project-side FPF kinds and references, and related exact relations in user terms. Architecture-placement, freeze/merge state, and broader package-development rationale stay in separate companions or clearly marked informative placement notes when needed.
 7. **Template & section integrity**
    This is lowest priority for review depth and **SHOULD NOT** consume effort that would displace ontology/semantics/modularity/slots/SoTA checks.
 8. **Modularity & contradiction hygiene**
@@ -95,13 +94,13 @@ prioritize the FPF-force-bearing sections and enforceable requirements in E.19:4
    The pattern SHOULD balance cohesion and coupling across FPF.
    If the pattern defines specialization or an abstraction stack, it SHOULD NOT mix slot interfaces or parameters from different abstraction positions; use explicit `⊑/⊑⁺` or `Uses` cuts instead.
 9. **Substantive solution and locus adequacy**
-   Baseline triage includes a small reviewed-pattern-specific question set about the actual problem and current change: does the pattern still solve the stated problem, are decision loci and exact governing-pattern applications correct, are kind boundaries and selected companion/projection roles preserved, did anything get worse, are SoTA rows current enough for the live claim they discipline, and is the applied apparatus neither too thin nor too heavy for the live claim?
+   Baseline triage includes a small reviewed-pattern-specific question set about the actual problem and current change: does the pattern still solve the stated problem, are decision loci and exact governing-pattern applications correct, are kind boundaries and selected companion or projection roles preserved, did anything get worse, are SoTA rows current enough for the live claim they discipline, and is the applied apparatus neither too thin nor too heavy for the live claim?
 
-##### E.19:4.2.1 - Triage: spend depth on FPF-force-bearing sections without making reviews heavier
+##### E.19:4.2.1 - Triage: spend depth on FPF-governed sections without making reviews heavier
 
 PQG is meant to increase *semantic and ontological trust*, not to turn every review into an exhaustive editorial audit on form. To keep reviews feasible while improving the important parts:
 
-* Treat **FPF-force-bearing sections and deontic requirements** as the primary depth loci:
+* Treat **FPF-governed sections and deontic requirements** as the primary depth loci:
   * the pattern’s **Problem frame**, **Rationale**, and **worked slices** when a new family/profile/specialization would otherwise be intelligible only from project context,
   * reader-role fit in **Problem**, **Solution**, **Consequences**, **Rationale**, and worked slices whenever the draft risks mixing user guidance with package-development rationale,
   * the pattern’s **Conformance Checklist** (the enforceable conformance check set): keep items universal, cognitively ergonomic, not overly prohibitive, and avoid duplicating checks that belong to other patterns (modularity),
@@ -110,26 +109,28 @@ PQG is meant to increase *semantic and ontological trust*, not to turn every rev
   * **definitions and mint/reuse decisions** (new terms, renamed terms, scope claims baked into names, names that are not overloaded and are properly chosen),
   * **cross-context and cross-plane claims** (Bridge hygiene and “sameness” assertions),
   * **SoTA** (when the pattern claims state-of-the-art rather than a popular-but-outdated solution or vocabulary),
-  * **substantive solution and locus adequacy**: one reviewed-pattern-specific content pass checks whether the repaired text still solves the stated problem, assigns live claims to the correct exact governing loci, preserves kind boundaries and selected companion/projection roles, and has not become either under-grounded or over-bureaucratic,
+  * **substantive solution and locus adequacy**: one reviewed-pattern-specific content pass checks whether the repaired text still solves the stated problem, assigns live claims to the correct exact governing loci, preserves kind boundaries and selected companion or projection roles, and has not become either under-grounded or over-bureaucratic,
   * **modularity and Slot discipline of A.6.5** that provide evolvability of FPF,
   * **absence of contradictions in a pattern**,
   * **Relations** that define compatibility and impact radius.
-* Treat **low-signal text** as “quick-pass” unless it changes meaning: headings, micro-typos, stylistic polish, and non-FPF-force-bearing narrative refactors, including RFC-form deontic cleanup.
-* **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H-5), missing canonical sections, or a missing footer marker are fixable integrity defects. Record them as repair items and continue with the FPF-force-bearing section checks in the same run.
-* **Sentence-level precision matters on FPF-force-bearing prose.** Reviewers SHOULD inspect FPF-force-bearing sentences for generic heads, claim-force-carrying qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. The default repair order is: restore head kind, then qualifier claim force, then comparison criterion or escalation condition homogeneity, and only then judge whether a later Plain or coarsened rendering is admissible.
-* **Precision-restoration distribution must be preserved.** When an `E.10` scan selects a non-local precision-restoration path, the run checks that `E.10` remains the trigger and applicability pattern, `E.10.ARCH` carries the shared recovery architecture, the relevant realization pattern (`A.6.P`, `C.2.P`, `C.30.P`, `C.16.P`, `C.16.Q`, or another exact restoration pattern) performs the ontological unpacking, and receiving patterns keep thin pointers rather than local trigger registries or duplicate recovery algorithms.
-* **Design-time and run-time both count.** The same precision discipline applies to live FPF pattern prose and to any reviewed publication text, worked slice, or governed runtime exemplar when that text is being assessed for admissibility, guidance, reuse, gating, release, policy, assurance, or action-selection use.
-* **Report ordering (impact-first).** In run outputs and remediation direction, prioritize findings on ontology, semantic, modularity and SoTA-related FPF-force-bearing sections first; group low-signal formatting/typos into one compact tail finding unless they change meaning.
+* Treat **low-signal text** as “quick-pass” unless it changes meaning: headings, micro-typos, stylistic polish, and non-FPF-governed narrative refactors, including RFC-form deontic cleanup.
+* **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H-5), missing canonical sections, or a missing footer marker are fixable integrity defects. Record them as repair items and continue with the FPF-governed section checks in the same run.
+* **Sentence-level precision matters on FPF-governed prose.** Reviewers SHOULD inspect FPF-governed sentences for generic heads, claim-bearing qualifiers, overloaded trigger words, bare relation shorthand, and hidden process/API metaphors. The default repair order is: restore head kind, then qualifier claim kind or admissible-use boundary, then comparison criterion or escalation condition homogeneity, and only then judge whether a later Plain or coarsened rendering is admissible.
+* **Precision-restoration distribution must be preserved.** When an `E.10` scan selects a non-local precision-restoration path, the run checks that `E.10` remains the trigger and applicability pattern, `E.10.ARCH` carries the shared recovery architecture, the relevant realization pattern (`A.6.P`, `C.2.P`, `C.30.P`, `C.16.P`, `C.16.Q`, `A.19.SPR`, or another exact restoration pattern) performs the ontological unpacking, and receiving patterns keep thin pointers rather than local trigger registries or duplicate recovery algorithms.
+* **EntityOfConcern and semio-bias questions travel with the same triage.** When the reviewed change touches EntityOfConcern, same-referent, slot/reference, alignment-path, role-boundary, consumer-disposition wording, or description/publication-use guards, the run asks the following questions before acceptance: what is the pattern's own `EntityOfConcern` and first useful move; is any `EntityOfConcernSlot` or `EntityOfConcernRef` used only where a claim-bearing episteme or episteme-lane view is live; are legacy selected-entity spellings confined to source-side wording rather than a second ontology; does the text preserve same-EntityOfConcern semantics or explicitly enter `A.6.4` retargeting; which exact alignment path carries non-identical transfer (`EntityOfConcernAlignmentCase`, `A.6.4`, `F.9`, `F.17`, `F.18`, `A.6.P`, another exact relation pattern, or blocked transfer); do role, method, work, evidence, assurance, gate, and decision claims remain with their exact governing patterns instead of being inferred from source, publication, record, or review wording; do generic guards that a description, view, publication, record, card, diagram, source, or file is not a permission, promise, prescription, evidence item, assurance verdict, decision, gate passage, release, work occurrence, or authority source stay in a named description and publication-use boundary section rather than becoming the subject Solution; and has every current-host consumer of the selected-family repair received a semantic, mechanical, compatibility, or not-triggered disposition.
+
+* **Design-time and run-time both count.** The same precision discipline applies to live FPF pattern prose and to any reviewed publication text, worked slice, or performed-work exemplar when that text is being assessed for admissibility, guidance, reuse, gating, release, policy, assurance, or action-selection use.
+* **Report ordering (impact-first).** In run outputs and remediation direction, prioritize findings on ontology, semantic, modularity and SoTA-related FPF-governed sections first; group low-signal formatting/typos into one compact tail finding unless they change meaning.
 
 #### E.19:4.3 - Add risk-driven profiles
 
 **PCP‑PRAG (Pragmatic utility & adoption)** — Trigger: the pattern is Normative and claims practice guidance.
-Checks include: a visible first-reading recognition text early enough for a cold working reader; a recognisable first-minute working situation; one short `Use this when` or equivalent entry; a plain statement of what goes wrong if the pattern is missed; a plain statement of what the pattern buys in practice; the first admissible action-guiding move the user should take; a visible ordinary `not this pattern when` boundary; a minimally viable example; non-decorative Consequences/Anti-Patterns; at least one worked slice when the pattern is easy to misuse; a visible assurance text carrying declaration, guidance/check, modeling, and review/check scope; reader-fit consistency so that the assurance text does not silently widen or universalize the recognition-text claim; explicit practical payoff in user-facing prose; a short user-facing statement of the governed object and any minimal modeling lens when typed declaration material carries FPF force; nearby pairwise plain glosses for FPF-force-bearing technical terms that appear before the heavier harness; a short working-reader implication for any `SoTA-Echoing` rows that carry live explanatory force plus visible linkage to the worked cases or boundary slices they discipline; explicit primary working reader, concern, and viewpoint fields when several working-reader situations are being served; an explicit `So what?` adoption test; and, when the pattern claims universal or transdisciplinary reach, at least three heterogeneous recognition-text situations with `F.16` preferred as the compact example-matrix template.
-If an `E.10` trigger scan selects epistemic precision restoration during admission or refresh, `PCP-PRAG` treats type-correct-but-inert wording as a usability defect governed by `E.2` `P-2` and `E.12`: the run must name the remaining admissible reader move or the exact FPF pattern application and governing ontology that carry the live claim, and must confirm any Plain recognition line maps back to the recovered Tech reading when both registers are live. A more expressive recognition line or intentional didactic metaphor may stay ordinary when it carries no FPF force; when it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim force, that claim force must be recoverable through the recovered Tech reading or named exact FPF pattern application.
+Checks include: a visible first-reading recognition text early enough for a cold working reader; a recognisable first-minute working situation; one short `Use this when` or equivalent entry; a plain statement of what goes wrong if the pattern is missed; a plain statement of what the pattern buys in practice; the first admissible action-guiding move the user should take; a visible ordinary `not this pattern when` boundary; a minimally viable example; non-decorative Consequences/Anti-Patterns; at least one worked slice when the pattern is easy to misuse; a visible assurance text carrying declaration, guidance/check, modeling, and review/check scope; reader-fit consistency so that the assurance text does not silently widen or universalize the recognition-text claim; explicit practical payoff in user-facing prose; a short user-facing statement of the primary `EntityOfConcern`, exact relation, or claim record and any minimal modeling lens when typed declaration material has FPF-governed use; nearby pairwise plain glosses for FPF-governed technical terms that appear before the heavier harness; a short working-reader implication for any `SoTA-Echoing` rows that carry live explanatory work plus visible linkage to the worked cases or boundary slices they discipline; explicit primary working reader, concern, and viewpoint fields when several working-reader situations are being served; an explicit `So what?` adoption test; and, when the pattern claims universal or transdisciplinary reach, at least three heterogeneous recognition-text situations with `F.16` preferred as the compact example-matrix template.
+If an `E.10` trigger scan selects epistemic precision restoration during admission or refresh, `PCP-PRAG` treats type-correct-but-inert wording as a usability defect governed by `E.2` `P-2` and `E.12`: the run must name the remaining admissible reader move or the exact FPF pattern application and governing ontology that carry the live claim, and must confirm any Plain recognition line maps back to the recovered Tech reading when both registers are live. A more expressive recognition line or intentional didactic metaphor may stay ordinary when it carries no FPF-governed use; when it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind or admissible-use boundary, that claim kind or admissible-use boundary must be recoverable through the recovered Tech reading or named exact FPF pattern application.
 
-For a broad cleanup across several patterns, or any cleanup that touches FPF-force-bearing Problem frames, Problem sections, first-use recognition text, archetypal grounding, examples, or worked slices, the run must leave a short didactic change account: improved, preserved, or harmed. `Harmed` blocks admission or refresh unless the same pass restores the working situation and first useful move, or names the exact FPF pattern application and governing ontology that carry the live claim.
+For a broad cleanup across several patterns, or any cleanup that touches FPF-governed Problem frames, Problem sections, first-use recognition text, archetypal grounding, examples, or worked slices, the run must leave a short didactic change account: improved, preserved, or harmed. `Harmed` blocks admission or refresh unless the same pass restores the working situation and first useful move, or names the exact FPF pattern application and governing ontology that carry the live claim.
 
-**PCP‑MOD (Modularity and abstraction-boundary discipline)** — Trigger: the reviewed pattern or subset shows scope creep or abstraction-boundary mixing (e.g., one pattern bundles universal core rules with frame-specific content and discipline-specific method semantics; or it mixes Intension/Description/Spec roles in one object).
+**PCP‑MOD (Modularity and abstraction-boundary discipline)** — Trigger: the reviewed pattern or subset shows scope creep or abstraction-boundary mixing (e.g., one pattern bundles universal core rules with frame-specific content and discipline-specific method semantics; or it mixes EntityOfConcern/Description/Spec roles in one object).
 
 Checks include:
 
@@ -163,8 +164,8 @@ Checks include:
 
 * each “best practice” claim or SoTA claim in the Solution is explicitly **bound** to SoTA‑Echoing rows (or to SoTA Synthesis Pack identifiers when used), rather than floating as ungrounded prescription, and those rows identify best-known current practice rather than popularity alone,
 * the selected SoTA practice or source set answers the declared working problem and the relevant domain or practice tradition rather than merely justifying package placement, naming neatness, or pattern clustering,
-* each SoTA row changes at least one FPF-force-bearing outcome for the pattern: what the user may do, what the user must not over-read, which exact FPF pattern application must be named, or which claim cannot be raised to release, policy, assurance, gate, action-selection, or adjudication use,
-* novel synthesis is not presented as established SoTA: it is either (a) framed as a scoped hypothesis with explicit limits, or (b) promoted into or registered as a SoTA Synthesis Pack entry before the pattern is admitted as normative guidance; a merely explanatory SoTA note that leaves the FPF-force-bearing sections untouched is non-conforming,
+* each SoTA row changes at least one FPF-governed outcome for the pattern: what the user may do, what the user must not over-read, which exact FPF pattern application must be named, or which claim cannot be raised to release, policy, assurance, gate, action-selection, or adjudication use,
+* novel synthesis is not presented as established SoTA: it is either (a) framed as a scoped hypothesis with explicit limits, or (b) promoted into or registered as a SoTA Synthesis Pack entry before the pattern is admitted as normative guidance; a merely explanatory SoTA note that leaves the FPF-governed sections untouched is non-conforming,
 * where traditions disagree substantively, the pattern makes the disagreement visible and states whether it adopts, adapts, or rejects each relevant source idea instead of silently selecting one tradition,
 * retrieval or benchmark methods are used only when their live evidence relation is present; their dimensions do not become universal pattern-quality benchmarks,
 * refresh‑sensitive claims (those likely to decay) are explicitly marked with scope limits, timespan notes, or lineage labeling when appropriate.
@@ -179,7 +180,7 @@ Checks include:
 **PCP‑SUITE (Mechanism-suite integrity)** — Trigger: the reviewed pattern or subset introduces or revises a suite-level Description that enumerates multiple distinct mechanisms (e.g., `MechSuiteDescription` or a suite specialization) and/or changes suite requirements, conformance pins, or suite protocols.
 Checks include:
 
-* the suite remains a **Description-level** object: it enumerates member `U.Mechanism.Intension` refs and declares shared requirements/pins, but does **not** define mechanism blocks (`OperationAlgebra`, `Transport`, `Audit`, …) and is not used as a mechanism node,
+* the suite remains a **Description-level** object: it enumerates member `U.Mechanism.EntityOfConcern` refs and declares shared requirements/pins, but does **not** define mechanism blocks (`OperationAlgebra`, `Transport`, `Audit`, …) and is not used as a mechanism node,
 * membership has **set semantics**: `mechanisms` is duplicates-free and order carries no semantics; any intended ordering is expressed only in `suite_protocols`,
 * suite protocols are **closed over membership**: if `suite_protocols` is present, each protocol step references a member mechanism (no “step points outside the suite”),
 * the suite is not a family of implementations: it MUST NOT be encoded as a `MechFamilyDescription` (families remain “many realizations of one mechanism”, not “many mechanisms”),
@@ -197,25 +198,25 @@ Checks include:
 * planned slot filling stays **WorkPlanning-only**: plan items publish planned fillers/pins (ByValue or `<RefKind>`) and MUST NOT include launch values, `FinalizeLaunchValues` witnesses, gate decisions, or decision logs (these are `U.WorkEnactment` / gate-level only),
 * target and scope are explicit and non-leaky:
   * the item targets exactly one slot-bearing description via `target_slot_bearing_description_ref`,
-  * `target_slot_bearing_description_ref` is a **description-lane, edition-addressable** slot-bearing ref (kit/suite) and MUST NOT be a `U.Mechanism.IntensionRef`,
-  * the item carries explicit P2W anchors (bounded context; and CG-frame/path-slice/scope anchors when used for legality/selection baselines),
+  * `target_slot_bearing_description_ref` is a **description-lane, edition-addressable** slot-bearing ref (kit/suite) and MUST NOT be a `U.Mechanism.EntityOfConcernRef`,
+  * the item carries explicit P2W references (bounded context; and CG-frame/path-slice/scope references when used for legality/selection baselines),
 * time is explicit: the item includes `Γ_time_selector` or `Γ_time_rule_ref` (XOR); implicit “latest/current” is nonconformant,
 * `planned_fillings` is the authority: duplicate `slot_kind` rows are nonconformant unless the slot-bearing description declares the slot multi-valued; any “indices” are derivable projections and are not maintained independently,
 * crossing information is referenced, not duplicated: the plan item (and any associated views) cite CrossingBundle/Bridge/policy-id pins rather than embedding CL/Φ/Ψ/Φ_plane tables or defining transport edges,
-* MVPK projections remain projections: any `U.View` face (TechCard, PlainView, InteropCard, or AssuranceLane) over a plan item MUST NOT add new claims, MUST NOT introduce “shadow defaults”, and MUST avoid “signature” language (signatures belong to intensional objects),
+* MVPK projections remain projections: any `U.View` face (TechCard, PlainView, InteropCard, or AssuranceLane) over a plan item MUST NOT add new claims, MUST NOT introduce “shadow defaults”, and MUST avoid “signature” language (signatures belong to EntityOfConcerns),
 * if a view publishes edition pins or makes claims about crossing/comparability/selection/launch, it MUST also carry the required audit/slot-target pins (UTS + Path pins, crossing pins, applicable guard-source pins); missing pins are treated as downstream fail-closed nonconformance.
 
-**PCP-TERM (Terminology & naming protocol)** — Trigger: the pattern introduces new terms, new U.Types, new “unified names”, redefines existing labels, leans on FPF-force-bearing phrases whose head kind or qualifier claim force is not yet restored, or uses FPF-force-bearing trigger wording as if the word itself carried the needed kind.
+**PCP-TERM (Terminology & naming protocol)** — Trigger: the pattern introduces new terms, new U.Types, new “unified names”, redefines existing labels, leans on FPF-governed phrases whose head kind or qualifier claim kind or admissible-use boundary is not yet restored, or uses FPF-governed trigger wording as if the word itself carried the needed kind.
 Checks include:
 
 * “mint vs reuse” decision is explicit,
 * naming follows the local-first naming protocol and avoids scope smuggling (roles/metrics/stages baked into labels; overloaded words used as terms with a local sense). Remediation **SHOULD** use F.18,
-* when PCP-TERM is live, `F.18` winner selection and `A.6.P` follow-through are one mandatory chain rather than two optional passes: the run records candidate heads or phrases reviewed, any kind-conflict / lexical-conflict findings, the provisional F.18 winner plus rejected candidates, and the resulting `A.6.P` survival result on the repaired phrase,
-* FPF-force-bearing trigger wording must be classified before acceptance, including `lawful`, `lawfully`, or `lawfulness`; `burden`; `affordance`; `axis` or `axes`; `tier`, `rung`, `level`, `layer`, or `ladder`; `contract`; `lifecycle`; `workflow`; `procedure` and `call` wording; `home` and `owner`; `surface`; `route`, `routing`, `reroute`, `exit`, `handoff`, `path`, `pipeline`, or `flow`; and local equivalents. The run names the exact admissibility, deontic, evidence, review-check, reader-task, action-invitation, characteristic or scale, maturity-rung, I/D/S layer, control layer, method, work-plan, work occurrence, authority reference, declarative FPF pattern application with exact governing ontology or conformance claim or section, `PublicationSurface` or publication face, or selected companion role or base declaration that is live,
-* generic heads and claim-force-carrying qualifiers are not accepted at face value in FPF-force-bearing prose: the review restores the head kind first, and a narrowing qualifier by itself does **not** count as that restoration; only then does the review restore the qualifier claim force before deciding whether the phrase is admissible,
+* when PCP-TERM is live, `F.18` winner selection and `A.6.P` follow-through are one mandatory chain rather than two optional passes: the run records candidate heads or phrases reviewed, any kind-conflict findings and lexical-conflict findings, the provisional F.18 winner plus rejected candidates, and the resulting `A.6.P` survival result on the repaired phrase,
+* FPF-governed trigger wording must be classified before acceptance, including `lawful`, `lawfully`, or `lawfulness`; `burden`; `affordance`; `axis` or `axes`; `tier`, `rung`, `level`, `layer`, or `ladder`; `contract`; `lifecycle`; `workflow`; `procedure` and `call` wording; `home` and `owner`; `surface`; `state`, `status`, `posture`, `readiness`, `stance`, or `currentness`; `route`, `routing`, `reroute`, `exit`, `handoff`, `path`, `pipeline`, or `flow`; and local equivalents. The run names the exact admissibility, deontic, evidence, review-check, reader-task, action-invitation, characteristic or scale, maturity-rung, state-family bearer and value frame under `A.19.SPR`, EntityOfConcern and Description-episteme boundary, specification-use gate, control-layer relation, method, work-plan, work occurrence, authority reference, declarative FPF pattern application with exact governing ontology or conformance claim or section, publication face, publication form, publication unit, or publication carrier, or selected companion role or base declaration that is live,
+* generic heads and claim-bearing qualifiers are not accepted at face value in FPF-governed prose: the review restores the head kind first, and a narrowing qualifier by itself does **not** count as that restoration; only then does the review restore the qualifier claim kind or admissible-use boundary before deciding whether the phrase is admissible,
 * if a sentence compares, escalates, downgrades, or otherwise puts pressure on a phrase after that restoration, the review checks that the comparison criterion is ontologically homogeneous,
-* the run leaves one explicit account of the resulting governed object, governed move, outside work, and any role-word or package-form decision when the repaired wording still carries architectural claim force,
-* deprecated aliases and continuity rules are respected.
+* the run leaves one explicit account of the resulting primary `EntityOfConcern`, first useful move, outside work, and any role-word or package-form decision when the repaired wording still carries architectural claim kind or admissible-use boundary,
+* source-side old wording and continuity rules are respected.
 
 **PCP‑DEONT (Deontic clause hygiene: RFC keywords)** — Trigger: the pattern conflates admissibility/validity constraints with deontic obligations (e.g., uses RFC keywords where a non-deontic Invariant: predicate is required).
 Checks include:
@@ -229,7 +230,7 @@ rejects, or reclassifies one applicable governing pattern body, applicable proje
 entry-neighborhood, Problem-frame recognition signature, worked-entry walk-through,
 or entry lexical-query cue.
 
-Trigger posture:
+Trigger classification:
 
 `PCP-ENTRY` is an explicit profile identifier under the existing Pattern Check Profile family. It reuses the `PCP` profile kind; it is an editorial review profile, not a runtime gate, not `GateProfile`, not a workflow state, and not a new route registry.
 PCP-ENTRY is risk-triggered rather than universal.
@@ -240,7 +241,7 @@ Use this risk-trigger model:
 
 * **Trigger class 0 — micro-edit**
   punctuation, formatting, typo repair, grammar, or meaning-preserving
-  compression with unchanged pattern force.
+  compression with unchanged pattern-selection effect.
   No `PCP-ENTRY`, no compact pattern-local note, no evidence mode, and no parity scan
   are required.
 
@@ -250,16 +251,16 @@ Use this risk-trigger model:
   governing-entry or applicable-projection-role boundary.
   Only the four-question core check is required.
 
-* **Trigger class 2 — substantive entry companion/projection change**
+* **Trigger class 2 — substantive entry, companion, or projection change**
   one new or changed `J.4` row, one pattern or applicable projection role
   newly treated as entry-bearing, one changed wrong-pattern or
   governing-entry or applicable-projection-role boundary, one changed local
-  first-entry force, or one substantive lexical-query cue change.
+  first-entry selection effect, or one substantive lexical-query cue change.
   The author leaves one compact pattern-local note, runs the core check, and adds at
   most one selected risk check if needed.
 
 * **Trigger class 3 — multi-role or high-risk public entry change**
-  one change affecting several live projection/companion roles together, one
+  one change affecting several live projection or companion roles together, one
   public-entry rewrite, one often-misclassified entry-recognition role, or one newly
   introduced entry-neighborhood.
   The author runs the core check and adds only the relevant selected risk
@@ -267,7 +268,7 @@ Use this risk-trigger model:
   adequacy.
 
 * **Trigger class 4 — retrieval-facing, observed-failure, or measured-improvement change**
-  one retrieval-facing companion/projection role changes, one observed misretrieval or repeated
+  one retrieval-facing companion or projection role changes, one observed misretrieval or repeated
   search failure is being repaired, or the patch itself claims measured
   discoverability improvement.
   One selected evidence mode may be required, but benchmark-style reporting is
@@ -283,7 +284,7 @@ Ordinary non-triggers include:
 
 * punctuation, formatting, and typo fixes;
 * meaning-preserving prose tightening;
-* one bare mention of a pattern without changed entry-selection force;
+* one bare mention of a pattern without changed entry-selection effect;
 
 * local wording repair that preserves the current first honest entry-recognition role,
   candidate-pattern set, governing-entry or applicable-projection-role boundary,
@@ -294,10 +295,10 @@ that absorbs `PCP-PRAG`, `PCP-MOD`, `PCP-TERM`, `PCP-NORM`, and every other
 review/check scope.
 It composes with `PCP-PRAG`, `PCP-TERM`, and `PCP-MOD`; it does not replace
 them.
-Its distinctive object is changed pattern-selection force, changed first-use
+Its distinctive object is changed pattern-selection effect, changed first-use
 entry-recognition role, changed entry-neighborhood membership, changed tempting-wrong-pattern
 boundary, changed Problem-frame recognition role, changed worked-entry-walk-through
-force, changed entry lexical-query cue, and changed semantic companion/projection-role parity.
+effect, changed entry lexical-query cue, and changed semantic companion-or-projection role parity.
 
 Its default review scope is one small core triggered check:
 
@@ -307,23 +308,23 @@ Its default review scope is one small core triggered check:
    explicitly governs that semantics.
 
 2. **Governing-entry boundary preserved**
-   Entry/index/lexical-query companion roles do not redefine the governing pattern body's `Problem`
+   Entry, index, and lexical-query companion roles do not redefine the governing pattern body's `Problem`
    or `Solution`.
 
 3. **First honest entry-recognition role preserved**
    The change does not make the first entry-recognition role or case signal misleading.
 
-4. **No duplicate high-detail companion/projection role**
+4. **No duplicate high-detail companion or projection role**
    The change does not create one new stale echo or one second high-detail
-   companion/projection role outside the one applicable governing pattern body or applicable projection role already
+   companion or projection role outside the one applicable governing pattern body or applicable projection role already
    named for the claim.
 
 A change pays only the review cost of the concern it actually changes.
 Learning-order edits do not trigger `PCP-ENTRY` unless they also change
-candidate-pattern force, governing-entry or applicable-projection-role boundary,
+candidate-pattern set, governing-entry or applicable-projection-role boundary,
 first honest entry-recognition role, or entry-neighborhood membership.
 Lexical-only edits do not trigger extra entry-review scope unless they change
-pattern-selection force or entry recognition.
+pattern-selection effect or entry recognition.
 Retrieval fixtures are not required unless retrieval-facing behavior is
 explicitly claimed, one machine-consumed projection is in scope, or one
 observed misretrieval is being repaired.
@@ -338,18 +339,18 @@ relevant selected risk checks:
 * one worked-walk-through check when `I.2` changes or one high-risk neighborhood
   still lacks depth;
 * one public-entry check when coarse public entry wording substantively changes
-  entry force or carries high public-entry risk;
+  entry-selection effect or carries high public-entry risk;
 * one retrieval check when the change is retrieval-facing or repairs one
   observed retrieval failure.
 
 Substantial discoverability changes leave one compact pattern-local note in the current `DRR`, `PCP` record, patch note, or run record.
 That pattern-local note may stop at one explicit rationale when the risk is already
-controlled by governing-entry or applicable-projection-role inspection, companion/projection-role
+controlled by governing-entry or applicable-projection-role inspection, companion-or-projection role
 partition, or one local wording repair.
 It is not a separate review record unless the change is high-risk, disputed,
 public-facing with substantive entry risk, or retrieval-facing.
 
-When one compact pattern-local note is needed, it names only the changed companion/projection role, the
+When one compact pattern-local note is needed, it names only the changed companion or projection role, the
 affected entry neighborhood or pattern, the changed first-use entry-recognition role or
 recognition signature, the governing entry or applicable projection role for the
 claim or projection role, and the selected check if any.
@@ -358,13 +359,13 @@ One compact risk-triggered gate is enough here:
 
 | Change shape | Default check | Acceptance signal |
 | --- | --- | --- |
-| typo, grammar, formatting, meaning-preserving compression | no evidence run beyond ordinary review | current entry-recognition role, governing-entry or applicable-projection-role boundary, and companion/projection role remains unchanged |
+| typo, grammar, formatting, meaning-preserving compression | no evidence run beyond ordinary review | current entry-recognition role, governing-entry or applicable-projection-role boundary, and companion or projection role remains unchanged |
 | one Problem-frame recognition-signature wording change or one wrong-pattern clarification | reviewer-only entry check | no workflow implication and no governing-entry or applicable-projection-role drift |
 | one `J.4` row change or one changed candidate-pattern set | pattern-selection or wrong-pattern check | intended applicable governing pattern body or one admissible candidate-pattern set is recoverable without one false mandatory sequence |
 | one lexical-hook change | lexical query check | subject-domain phrasing recovers the governing entry or applicable projection role without uncontrolled alias drift |
-| two or more projection/companion roles change together | companion/projection-role parity check | one governing entry or applicable projection role stays unique and the changed companion/projection roles agree on first-use entry-recognition role, wrong-pattern boundary, projection-only status, and no claim beyond the Core pattern body's admitted use; they need not share identical wording or examples |
-| one high-risk public-facing or substantively changed first-entry companion/projection role changes | cold-reader recognition task | one reader can recover the intended applicable governing pattern body or admissible candidate-pattern set under the named first honest entry-recognition role |
-| one retrieval-facing companion/projection role changes or one observed misretrieval is repaired | retrieval / `RAG` fixture | retrieval returns the governing entry or intended projection cue before one stale echo, and answer-to-governing-entry faithfulness remains intact |
+| two or more projection or companion roles change together | companion-or-projection role parity check | one governing entry or applicable projection role stays unique and the changed companion or projection roles agree on first-use entry-recognition role, wrong-pattern boundary, projection-only status, and no claim beyond the Core pattern body's admitted use; they need not share identical wording or examples |
+| one high-risk public-facing or substantively changed first-entry companion or projection role changes | cold-reader recognition task | one reader can recover the intended applicable governing pattern body or admissible candidate-pattern set under the named first honest entry-recognition role |
+| one retrieval-facing companion or projection role changes or one observed misretrieval is repaired | retrieval or `RAG` fixture | retrieval returns the governing entry or intended projection cue before one stale echo, and answer-to-governing-entry faithfulness remains intact |
 
 Empirical evidence is required only when the change is:
 
@@ -372,14 +373,14 @@ Empirical evidence is required only when the change is:
 * disputed;
 * retrieval-facing;
 * repeatedly misclassified;
-* public-facing with substantive entry-force change, repeated failure, or one
+* public-facing with substantive entry-selection change, repeated failure, or one
   measured-improvement claim;
 * or itself claims measured discoverability improvement.
 
 `PCP-ENTRY-E4` is selected only when retrieval-facing behavior is explicitly
 claimed, one machine-consumed projection is in scope, or one observed
 misretrieval is being repaired.
-Public-facing changes with substantive entry-force risk usually select `PCP-ENTRY-E1`.
+Public-facing changes with substantive entry-selection risk usually select `PCP-ENTRY-E1`.
 Lexical-hook changes usually select `PCP-ENTRY-E3`.
 Changes across multiple projections or companion roles usually select `PCP-ENTRY-E5`.
 Observed search or query failures usually select `PCP-ENTRY-E6`, optionally
@@ -404,22 +405,22 @@ Selected evidence modes may include:
    ```
 
 2. **PCP-ENTRY-E2 — wrong-pattern and wrong-entry trap**
-   Does the companion/projection role actively prevent the most tempting wrong pattern or wrong
+   Does the companion or projection role actively prevent the most tempting wrong pattern or wrong
    family?
 
 3. **PCP-ENTRY-E3 — lexical query check**
    Does subject-domain phrasing retrieve the governing entry or applicable
    projection role without uncontrolled aliases?
 
-4. **PCP-ENTRY-E4 — retrieval / `RAG` fixture**
+4. **PCP-ENTRY-E4 — retrieval or `RAG` fixture**
    Does retrieval recover the governing entry or applicable projection role under
    exact-ID or keyword phrasing, under semantic paraphrase phrasing, and under
    projection-vs-governing-entry ambiguity, while keeping retrieved companion material,
    source faithfulness, stale echoes, and post-rationalized citation-like material distinct
    from the applicable governing pattern body?
 
-5. **PCP-ENTRY-E5 — companion/projection-role parity check**
-   Do the live companion/projection roles, plus any explicit absence note, preserve
+5. **PCP-ENTRY-E5 — companion-or-projection role parity check**
+   Do the live companion or projection roles, plus any explicit absence note, preserve
    the same first-use entry-recognition role, governing entry or applicable projection role,
    wrong-pattern boundary, projection-only status, and no-claim-beyond-Core
    claim without requiring identical wording, rows, or examples?
@@ -431,8 +432,8 @@ Selected evidence modes may include:
 
 #### E.19:4.3.1 - Tiny golden case bank for regression and worked examples
 
-One tiny golden case bank is enough here. It is a review-regression echo, not the canonical entry inventory: rows 1-4 mirror `J.4` / `I.2` entry neighborhoods that already carry entry companion/projection roles, while rows 5-6 add review-specific search and retrieval stress cases. `J.4` and `I.2` remain the governing entry companions; this bank only tests whether a change preserved them.
-It is not one benchmark suite and does not force universal empirical review for ordinary wording or companion/projection-role edits.
+One tiny golden case bank is enough here. It is a review-regression echo, not the canonical entry inventory: rows 1-4 mirror `J.4` / `I.2` entry neighborhoods that already carry entry companion or projection roles, while rows 5-6 add review-specific search and retrieval stress cases. `J.4` and `I.2` remain the governing entry companions; this bank only tests whether a change preserved them.
+It is not one benchmark suite and does not require universal empirical review for ordinary wording or companion-or-projection role edits.
 A run may cite one relevant golden case or state that none is relevant. It does
 not need to execute the whole bank.
 It keeps a stable set of recurring entry-recognition roles recoverable across hardening
@@ -442,10 +443,10 @@ passes:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | “we need a shortlist, not one winner” | comparison / pool / selected-set publication neighborhood | `A.19.CN`, `A.17-A.19`, `C.18`, `C.19`, `G.0`, and `G.5` when selected-set publication is live | treating `C.11` as one one-off choice when the real entry-recognition role is selected-set publication or candidate-set stabilization | admissible candidate-pattern set stabilised or selected-set publication opened | `J.4`, one pattern `Problem frame`, one worked-entry walk-through if compact cues still fail | one README blurb, one thin echo, one lexical-query row alone |
 | 2 | “we have a vague cue, not yet a claim” | pre-articulation cue neighborhood | `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0` | forcing the cue into one endpoint-claim, quality, or assurance pattern too early | `entry-recognition-reclassified` or cue preserved for the admissible next entry-recognition role | `J.4`, one pattern `Problem frame`, one case-linked `I.2` walk-through when needed | one coarse public entry projection alone |
-| 3 | “this is the same described entity re-expressed for another audience” | same-entity rewrite neighborhood | `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR` | minting one second `U.Episteme` for the same claim or one second competing explanatory lane instead of one same-entity rewrite | `wrong-pattern-rejected` or same-entity rewrite opened | one worked-entry walk-through, one pattern `Problem frame`, governing-entry pointer | one parallel explanatory blurb treated as one second governing pattern |
+| 3 | “this is the same EntityOfConcern re-expressed for another audience” | same-EntityOfConcern rewrite neighborhood | `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `E.17.ID.CR` | minting one second `U.Episteme` for the same claim or one second competing explanatory lane instead of one same-EntityOfConcern rewrite | `wrong-pattern-rejected` or same-EntityOfConcern rewrite opened | one worked-entry walk-through, one pattern `Problem frame`, governing-entry pointer | one parallel explanatory blurb treated as one second governing pattern |
 | 4 | “the API says X” | boundary-claim unpacking neighborhood | `A.6`, `A.6.B`, `A.6.C`, `A.6.P`, `C.16.Q`, `A.6.A`, `E.17` | treating one boundary phrase as one agent duty, promise, quality verdict, or generic agreement paragraph without atomic claim assignment or exact quality-term repair | `boundary-claim-pattern-opened`, `quality-term-repair-exited`, or atomic claim set opened | one boundary-focused `J.4` row, one pattern `Problem frame`, one worked-entry walk-through where interface/access/confused-quality wording is common | one query cue or public entry projection treated as the governing entry |
 | 5 | “I found a pattern by search, but I am not sure it is the right one” | one pattern-local recognition-signature case under the live neighborhood | one candidate applicable governing pattern body plus one nearby pattern if truly live | one lexical near-match or same-family pattern without governing-entry fit | `non-use-confirmed` or `pattern-selected` | one pattern `Problem frame`, one `J.4` row, one lexical-query hook | one search-query row alone |
-| 6 | “the LLM retrieved a helpful-looking paragraph but not the pattern” | one retrieval-facing entry-neighborhood case | one applicable governing pattern body plus one applicable projection role | one stale thin echo or one projection-only companion role answered as if it were the governing entry | `governing-entry-opened` or `worked-walk-through-needed` | one governing-entry anchor, one projection-only status marker, one retrieval-facing pointer to the applicable governing pattern body | one thin echo chunk without governing-entry anchor or projection-only cue |
+| 6 | “the LLM retrieved a helpful-looking paragraph but not the pattern” | one retrieval-facing entry-neighborhood case | one applicable governing pattern body plus one applicable projection role | one stale thin echo or one projection-only companion role answered as if it were the governing entry | `governing-entry-opened` or `worked-walk-through-needed` | one governing-entry reference, one projection-only status marker, one retrieval-facing pointer to the applicable governing pattern body | one thin echo chunk without governing-entry reference or projection-only cue |
 
 These six cases are enough to keep:
 
@@ -477,19 +478,19 @@ faithfulness, and stale-echo result distinct without forcing benchmark-style
 reporting on ordinary edits.
 One minimal retrieval fixture checks exact ID or keyword retrieval, semantic
 paraphrase retrieval, projection-vs-governing-entry disambiguation,
-and, when thin echoes are live, thin-echo anchor presence.
+and, when thin echoes are live, thin-echo governing-entry reference presence.
 Ordinary local guidance stays prose-only rather than minting one stable
-anchor by default.
+governing-entry reference by default.
 
 #### E.19:4.3.2 - Common hardening accounts are triggered by live review need
 
-When one common hardening concern carries FPF force, is disputed, or is explicitly invoked by the reviewed pattern or subset, the run record names the checked source and finding. Otherwise absence is ordinary and does not require a by-value `not applicable` recital.
+When one common hardening concern has FPF-governed use, is disputed, or is explicitly invoked by the reviewed pattern or subset, the run record names the checked source and finding. Otherwise absence is ordinary and does not require a by-value `not applicable` recital.
 
 Use triggered accounts only for the entry-recognition role that is live:
 
 1. **Usability and working-reader fit.** Record this when first-reading recognition text, assurance text, first-minute working-reader usability, practical payoff, worked slices, primary-reader fit, or `E.8` / `E.12` / `E.13` / `E.14` / `E.17.*` / `F.16` checks carry the finding or acceptance decision.
 2. **Scenario / anti-case / utility-fit source set.** Record this when a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous source is actually used or substantively disputed.
-3. **Packaging, governing-pattern relation, package relation, and shipping-fit.** Record this before any send-facing, landing-facing, monolith-facing, or governing-pattern relation or package-relation posture claim. Do not require it for ordinary local wording repairs.
+3. **Packaging, governing-pattern relation, package relation, and shipping-fit.** Record this before any send-facing, landing-facing, monolith-facing, or governing-pattern relation or package-relation state claim. Do not require it for ordinary local wording repairs.
 4. **Domain-tightened profile depth.** Record this when a domain-specific profile-depth note actually tightens a selected profile or resolves a live finding.
 5. **Accepted-decision or accepted source-material carry-through.** Record this when the review work states that accepted decisions from an accepted `DRR`, returned-finding set, accepted intake, architecture source material, or other accepted source material named by value are implemented in or discharged by the `E.19` reviewed pattern or subset. The run record assigns accepted decisions and conformance subjects to loci inside that reviewed pattern or subset or to a named receiving FPF pattern, companion document, record, or accepted source material, and classifies each as expressed sufficiently, expressed partially, not expressed and blocking, carried by a direct accepted-source-material consultation condition, correctly absent because rejected or not triggered, inherited unchanged, or outside the reviewed pattern or subset with a named receiving FPF pattern, companion document, record, or accepted source material. This account does not rename an `E.17.ID.CR` comparative review unit, `PublicationUnit`, publication form or face, source-pinned interpretation case, document whose accepted-source-material, evidence-source-material, architecture-source-material, or review-source-material role is named, or project-side review relation as an `E.19` reviewed pattern or subset; when those are live, name the governing-pattern kind and reference and assign carry-through to it or to a named receiving FPF pattern, companion document, record, or accepted source material.
 
@@ -501,11 +502,11 @@ A PQG run **MUST** end with (a) one compact list of blocking findings and (b) on
 
 **Remediation payload.** The run **MUST** provide repair direction precise enough that one independent repair pass can adopt it into the reviewed text without reinventing the diagnosis. The core requirement is findings-first traceability, not direct patch emission.
 
-**Precision-remediation order.** When a defect sentence combines a generic head, a claim-force-carrying qualifier, and mixed comparison-criterion pressure, remediation SHOULD repair them in that order: restore head kind, then qualifier claim force, then comparison-criterion homogeneity. A narrowing qualifier does **not** by itself repair the head-kind defect. Only after those repairs may the run keep or reintroduce a Plain, didactic, or coarsened restatement, and only if the more precise upstream interpretation remains recoverable.
+**Precision-remediation order.** When a defect sentence combines a generic head, a claim-bearing qualifier, and mixed comparison-criterion pressure, remediation SHOULD repair them in that order: restore head kind, then qualifier claim kind or admissible-use boundary, then comparison-criterion homogeneity. A narrowing qualifier does **not** by itself repair the head-kind defect. Only after those repairs may the run keep or reintroduce a Plain, didactic, or coarsened restatement, and only if the more precise upstream interpretation remains recoverable.
 
-**Report ordering (impact-first).** The blocking findings are the primary review output. Remediation directions accompany them and SHOULD be listed in descending order of expected impact on semantic trust (FPF-force-bearing sections first). Template-only issues belong at the end unless they hide missing content.
+**Report ordering (impact-first).** The blocking findings are the primary review output. Remediation directions accompany them and SHOULD be listed in descending order of expected impact on semantic trust (FPF-governed sections first). Template-only issues belong at the end unless they hide missing content.
 
-**Budget discipline (anti-form-only review).** If the run identifies semantic defects in FPF-force-bearing sections, remediation direction **MUST** prioritize those fixes; purely mechanical edits (formatting, micro-typos) **MUST** be minimized and **MUST NOT** dominate the review by volume.
+**Budget discipline (anti-form-only review).** If the run identifies semantic defects in FPF-governed sections, remediation direction **MUST** prioritize those fixes; purely mechanical edits (formatting, micro-typos) **MUST** be minimized and **MUST NOT** dominate the review by volume.
 
 **Noise discipline.** The run record is a human-facing audit trail. It **SHOULD** stay sparse: list findings, boundary exceptions when any exist, repair direction, and decisions; no per-check pass recital is needed when no defect was found.
 

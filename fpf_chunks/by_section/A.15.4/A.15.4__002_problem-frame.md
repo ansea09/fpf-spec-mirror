@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:1 — Problem Frame"
-line_start: 20550
-line_end: 20555
+line_start: 20592
+line_end: 20598
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,5 +47,6 @@ keywords:
 
 Dashboards, credential views, generated explanations, copied approvals, provenance labels, green tiles, schema wording, API wording, and composed source chains often look ready for action before the governing FPF pattern and exact project-side FPF kind and reference that make the action or reliance admissible have been recovered. The practical problem is not to classify the item in FPF; the problem is to decide what an engineer-manager may do in the project now without turning appearance into approval, gate passage, evidence, assurance, performed work, or release permission.
 
-**Plain recognition line.** Let the visible cue point to the support; do not let it become the support that permits the work or reliance move.
+**Plain recognition line.** Let the visible cue point to the exact relation, source episteme, source publication, evidence path, gate decision, role record, status record, work occurrence, or assurance claim; do not let it become the relation that permits the work or reliance move.
+**Source wording discipline.** In this pattern, `source` is not a generic kind. When the word has FPF-governed use, recover the exact kind before allowing work or reliance: source `U.Episteme`, source `U.EpistemePublication`, exact project-side FPF kind and reference, evidence path, gate decision, speech act, commitment, credential record, status record, role assignment, work-occurrence record, register entry, source-finding cue, source relation, repair record, or request record. If that exact kind cannot be named, keep the encountered item at cue-only orientation or source-finding use and do not use it as a work relation or reliance relation.
 

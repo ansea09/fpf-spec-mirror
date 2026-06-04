@@ -6,12 +6,12 @@ section_id: "A.2.7:2"
 section_title: "Solution (the three operators)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__003_solution-the-three-operators.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.7 — U.RoleAlgebra: In‑Context Role Relations"
   - "A.2.7:2 — Solution (the three operators)"
-line_start: 4940
-line_end: 4967
+line_start: 4863
+line_end: 4890
 dependencies:
   - "A.1.1"
   - "A.15"

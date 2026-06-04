@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.5.2 — Abductive Loop"
-line_start: 32436
-line_end: 32734
+line_start: 32554
+line_end: 32851
 dependencies:
   - "A.10"
   - "A.16"
@@ -164,7 +164,6 @@ Contemporary inquiry practice in science, engineering, design, and diagnosis tre
 #### B.5.2:12.1 - Prompt-entry broadening via `U.AbductivePrompt`
 
 Older wording that makes `AnomalyStatement` the exclusive entry form is superseded. `B.5.2` accepts `U.AbductivePrompt`, where `AnomalyStatement` remains one canonical species alongside cue-derived prompt species such as `ProblemCuePrompt`, `OpportunityCuePrompt`, and `ProbeCuePrompt`.
-
 
 ### B.5.2:13 - Prompt, Candidate, and Hypothesis Package Discipline
 

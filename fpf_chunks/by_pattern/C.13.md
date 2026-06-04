@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.13.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
-line_start: 40061
-line_end: 40259
+line_start: 40002
+line_end: 40196
 dependencies:
   - "A.14"
   - "B.3.5"
@@ -37,7 +37,6 @@ Also known as *“Γₘ mereology”*, *“constructor‑based composition”*.
 **Consumed by.** CT2R‑LOG (B.3.5) Working‑Model alias logic and any FPF pattern that needs part–whole semantics. Compose‑CAL does **not** import alias definitions; it merely emits traces that others may reference.
 
 Compose‑CAL introduces a **single construction operator Γₘ** with exactly three constructors—**sum**, **set**, **slice**—sufficient to build structural wholes, collections‑as‑wholes, and aspects **without** extending the Kernel’s type set. No “parallel” or “temporal slice” constructor is added. Every construction yields a **trace** that serves as the witness for structure. Human‑facing relations such as *ComponentOf*, *MemberOf*, *AspectOf* are defined elsewhere as **Working‑Model aliases** and are *grounded* in these traces; Compose‑CAL itself remains purely generative and extensional.
-
 
 ### C.13:2 - Problem frame & Problem
 
@@ -135,7 +134,6 @@ Here the Working‑Model relation (e.g., **RepresentationOf**) is **epistemic**.
 | **Feature creep**                 | Proposing a new constructor for a special case.                                                                 | Reduce to **sum / set / slice**; if reduction fails across ≥ 3 domains, reconsider the modelling plane before adding power.  | C‑5 (Parsimony)                             |
 | **Axiomatic inflation**           | Demanding constructive traces for epistemic links by default.                                                   | Use *inferential* / *postulate* where appropriate; reserve *axiomatic* for structural identity.                              | B.3.5 (validation modes)                    |
 
-
 ### C.13:7 - Conformance Checklist *(normative, calculus‑level)*
 
 The following regulate **how to think and write** when invoking Compose‑CAL. They are notation‑agnostic and conceptual.
@@ -175,7 +173,6 @@ The following regulate **how to think and write** when invoking Compose‑CAL. T
 
 > **One‑line takeaway.** Compose‑CAL gives a minimal, universal *how‑it‑was‑built* story for any structural edge, without disturbing the human‑first publication surface defined in B.3.5.
 
-
 ### C.13:9 - Rationale (informative)
 
 **Why exactly three moves?**
@@ -194,7 +191,6 @@ FPF privileges **Working‑Model** relations as the canonical form for communica
 
 **Why order/time are out of scope.**
 Correctness‑by‑sequence and temporal coverage are orthogonal to **parthood**. Encoding them as parts breeds contradictions (e.g., “phase‑as‑component”). Compose‑CAL deliberately refuses any “serial/parallel/temporal constructor,” delegating such concerns to `Γ_method` and `Γ_time` and aligning with B.1’s flavour separation.
-
 
 ### C.13:10 - Relations
 

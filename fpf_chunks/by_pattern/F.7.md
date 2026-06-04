@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.7.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
-line_start: 70402
-line_end: 70697
+line_start: 71192
+line_end: 71464
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -50,7 +50,6 @@ keywords:
 
 **Non‑goals.** No hidden merges. No “global terms”. No workflows or tool schemas. The table is a **conceptual display** of *licensed sameness* and *honest non‑sameness*.
 
-
 ### F.7:2 - Problem frame
 
 Without a disciplined Cross‑context view:
@@ -60,7 +59,6 @@ Without a disciplined Cross‑context view:
 3. **Name inflation.** New U.Types are coined to avoid facing heterogeneity.
 4. **Cognitive scatter.** Concepts drift across documents without one compact, teachable “where‑what‑how‑same” view.
 
-
 ### F.7:3 - Forces
 
 | Force                          | Tension to resolve                                                                                            |
@@ -69,7 +67,6 @@ Without a disciplined Cross‑context view:
 | **Didactics vs fidelity**      | A compact row is easy to grasp; it must still show **scope and loss** honestly.                               |
 | **Simplicity vs completeness** | A minimal grid aids memory; temptation to overload it with proofs and procedures must be resisted.            |
 | **Sameness vs difference**     | Some families **cannot** be unified; the table must support **contrast rows** without pretending equivalence. |
-
 
 ### F.7:4 - Core idea (didactic)
 
@@ -90,7 +87,6 @@ that FPF **treats as one** *for a declared scope* because there exist **F.9 Brid
 
 > **Memory hook.** *A Concept‑Set row is a promise:* “You may **read across** these Contexts **this far—and no farther**.”
 
-
 ### F.7:5 - Minimal vocabulary (this pattern only)
 
 * **Context** — shorthand for `U.BoundedContext` (per E.10.D1).
@@ -100,7 +96,6 @@ that FPF **treats as one** *for a declared scope* because there exist **F.9 Brid
 * **Characteristic (MM‑CHR)** — measurable comparandum defined in **MM‑CHR**; may be referenced in **Measurement/KD‑metric** rows; **do not** use “axis” only as a euphemism.
 * **Concept‑Set (row)** — a *licensed sameness* across Contexts, bounded by **Row Scope** and **Row CL(min)**.
 * **Contrast row** — a *non‑sameness* row: same surface across Contexts with **no** sufficient Bridges; teaches **difference**, not unity.
-
 
 ### F.7:6 - The table (conceptual layout)
 
@@ -129,7 +124,6 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 * **Typing.** A row is **typed by senseFamily**: Role, Status, Type‑structure, Measurement, etc. **Do not mix senseFamilies** in one row.
 * **Temporal honesty.** A row’s cells must share **compatible DesignRunTag**; if not, either split into two rows or mark a **contrast row**.
 
-
 ### F.7:8 - Invariants (normative)
 
 1. **Context‑loyal cells.** Every non‑empty cell is a **SenseCell** address; no minted paraphrases.
@@ -141,7 +135,6 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 7. **No stealth expansion.** Adding a new cell to a row **MUST NOT** lower the printed **Row CL(min)** without updating **Row Scope** or splitting the row.
 8. **Parsimony.** A row with only one filled cell is **forbidden** (that would be local talk, not a Cross‑context concept).
 9. **Didactic bound.** A row that cannot be read in **≤ 30 seconds** violates didactic primacy and must be split.
-
 
 ### F.7:9 - Micro‑illustrations (safe patterns)
 
@@ -165,7 +158,6 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 | ---------------------- | --------- | ----------- | --------------------- | ----------------------- | ------------------------ | --------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | **process** (contrast) | —         | —           | *graph of flow nodes* | *time‑bounded activity* | *state‑space trajectory* | Same surface, **different** senses; no licensed sameness. | Any attempt to equate design‑graph with run‑occurrence fails stance compatibility. |
 
-
 ### F.7:10 - Anti‑patterns & remedies
 
 | #         | Anti‑pattern                | Symptom in a row                                                               | Why it breaks thinking                                               | Remedy (conceptual move)                                                                                          |
@@ -181,7 +173,6 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 | **AP‑9**  | **Duplicate rows by style** | Two rows with the same cell set but different FPF labels.                      | Name inflation; readers assume two distinct concepts.                | Keep **one row** per Concept‑Set per scope. Alternative labels appear as **aliases** in F.5, not new rows.        |
 | **AP‑10** | **Implied transitivity**    | A↔B and B↔C Bridges exist; row silently assumes A↔C at the same CL.            | Paths can reduce CL; semantics might not compose.                    | Compute CL for **A↔C via bottleneck**; if too low, either reduce **Row Scope** or **omit** the cell.              |
 
-
 ### F.7:11 - Worked examples
 
 > Each example gives a **row** (compact), then a **reading** explaining scope and limits. All sameness claims presuppose suitable **F.9 Bridges** with the stated CL.
@@ -194,7 +185,6 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 **Reading.** The row licenses a **glossary‑level sameness** for didactic prose (“the actor”). It does **not** license modelling **identity** or inference across Contexts.
 
-
 #### F.7:11.2 - Execution occurrence (assignment/enactment-eligibility)
 
 | FPF Label                                       | Row Scope       | Row CL(min) | PROV‑O                                                           | IEC 61131‑3                                          | Rationale                                                                       | Counter‑examples                                                   |
@@ -202,7 +192,6 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 | **execution-occurrence** / *a run that happens* | assignment/enactment-eligibility | CL = 2      | **Activity** (time-bounded occurrence using/generating entities) | **Task execution** (cyclic/event-driven program run) | Both are **run-time** occurrences that can be referenced by `U.RoleEnactment` to ground **Work performed under an assignment**. | BPMN **Process** is a **design** graph; not an occurrence—exclude. |
 
 **Reading.** Safe to use as the **run-time occurrence that `U.RoleEnactment` points to** when we say “this Work was performed under an assignment”. Not safe to equate **all** PROV Activities with **all** PLC task runs for analytics.
-
 
 #### F.7:11.3 - Result value as KD‑metric (measurement)
 
@@ -212,13 +201,11 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 **Reading.** Licences **metric tables** that join observations to service targets; warns that composite KPIs may violate unit fidelity.
 
-
 #### F.7:11.4 - Subtype relation (type‑structure)
 
 | FPF Label                   | Row Scope      | Row CL(min) | OWL 2             | Kind-CAL            | Rationale                                     | Counter‑examples                                                                 |
 | --------------------------- | -------------- | ----------- | ----------------- | ------------------- | --------------------------------------------- | -------------------------------------------------------------------------------- |
 | **is‑a** / *type hierarchy* | Type‑structure | CL = 3      | `rdfs:subClassOf` | `U.SubtypeRelation` | Both are partial orders used for inheritance. | FCA **concept order** is not a class subsumption—exclude or publish another row. |
-
 
 #### F.7:11.5 - Contrast: “role” (access vs behaviour)
 
@@ -227,7 +214,6 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 | **role** (contrast) | —         | —           | **Role** (permission set) | **Participant/Actor** (behavioural mask) | Same surface; **different senseFamilys** (Status vs Role/behaviour). | Any attempt to unify collapses deontics into behaviour; stance and effects differ. |
 
 **Reading.** This row **teaches difference**; it deliberately **does not** license sameness.
-
 
 ### F.7:12 - Reasoning primitives (judgement schemas, notation‑free)
 
@@ -240,14 +226,12 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 **Reading.** A set of cells **licenses** a row of scope `s` iff every pair is bridged at or above the **required CL** for that scope, all cells sit in the **same senseFamily**, and **DesignRunTag** is compatible.
 
-
 #### F.7:12.2 - Bottleneck CL for a row
 
 **Form.**
 `RowCL(S) = min_{i<j} CL(SC(Cᵢ)↔SC(Cⱼ))`
 
 **Reading.** The row’s CL is the **minimum** congruence level across all pairs (the weakest link).
-
 
 #### F.7:12.3 - Scope guard
 
@@ -256,14 +240,12 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 **Reading.** You may **tighten scope** (use the row for a higher-scope purpose) only if the row’s `CL` meets the **higher threshold** for that scope.
 
-
 #### F.7:12.4 - Contrast decision
 
 **Form.**
 `(∃ i<j: CL(SC(Cᵢ)↔SC(Cⱼ)) < τ(Naming‑only)) ⊢ publish‑contrast(S)`
 
 **Reading.** If even **Naming‑only** cannot be licensed, publish a **contrast row** instead of forcing sameness.
-
 
 #### F.7:12.5 - Row extension guard
 
@@ -272,14 +254,12 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 **Reading.** You may add a new cell only if it bridges to **every existing cell** at the row’s scope.
 
-
 #### F.7:12.6 - Loss disclosure obligation
 
 **Form.**
 `licensable(S,s) ∧ (∃ i<j: lossNote on Bridge(SC(Cᵢ),SC(Cⱼ))) ⊢ row must carry ≥1 counter‑example`
 
 **Reading.** Any loss note on any supporting Bridge obliges the row to include a **counter‑example one‑liner**.
-
 
 ### F.7:13 - Relations (with other patterns)
 
@@ -293,7 +273,6 @@ F.6 **Role Assignment & Enactment Cycle (Six-Step)** — Move M‑4 (“choose l
 **Used by.**
 Part C patterns for didactic alignment pages; Part B trust calculus (B.3) may consume **Row CL(min)** when computing translation penalties.
 
-
 ### F.7:14 - Migration notes (conceptual)
 
 1. **Bridge update.** If any supporting Bridge’s CL changes, recompute **Row CL(min)**. If it drops below the printed value, either **lower Row Scope**, **split** the row, or **retire** it.
@@ -302,7 +281,6 @@ Part C patterns for didactic alignment pages; Part B trust calculus (B.3) may co
 4. **Scope promotion.** To use a row for a higher-scope purpose (e.g., from **Naming-only** to **assignment/enactment-eligibility**), first ensure **Row CL(min) ≥ τ(new scope)**; otherwise construct **new Bridges** or **decline** promotion.
 5. **Deprecation.** If a row no longer meets its invariant, mark its FPF label as **retired** in F.5 and point to successor rows (if any).
 6. **Edition churn.** When a Context is superseded (F.1), either keep the cell (if semantics stable) or treat the successor as a **new Context** and re‑evaluate licensability.
-
 
 ### F.7:15 - Acceptance tests (SCR/RSCR — concept‑level)
 
@@ -321,7 +299,6 @@ Part C patterns for didactic alignment pages; Part B trust calculus (B.3) may co
 * **RSCR‑F7‑E02 (Sense split).** After a SenseCell splits (F.3), ensure rows referencing it either pick a child cell or retire.
 * **RSCR‑F7‑E03 (Scope integrity).** No consumer pattern uses a row outside its declared **Row Scope**.
 * **RSCR‑F7‑E04 (No stealth growth).** Additions of cells never lower **Row CL(min)** silently; if they do, either split the row or reduce scope.
-
 
 ### F.7:16 - Didactic distillation (60‑second teaching script)
 

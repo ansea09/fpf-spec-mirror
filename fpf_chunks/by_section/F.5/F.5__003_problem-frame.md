@@ -6,12 +6,12 @@ section_id: "F.5:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:2 — Problem frame"
-line_start: 69854
-line_end: 69866
+line_start: 70656
+line_end: 70667
 dependencies:
   - "A.11"
   - "A.7"
@@ -47,5 +47,4 @@ Naming errors cause structural errors:
 5. **Unstable synonyms.** Labels drift to placate readers rather than reflect meaning fixed in SenseCells.
 
 This code resolves these by **Context fidelity**, **senseFamily‑aware morphology**, and **two‑register pedagogy**.
-
 

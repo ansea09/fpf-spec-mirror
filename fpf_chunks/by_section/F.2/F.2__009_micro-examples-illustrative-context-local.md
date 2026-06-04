@@ -6,12 +6,12 @@ section_id: "F.2:8"
 section_title: "Micro‑examples (illustrative, context‑local)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__009_micro-examples-illustrative-context-local.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:8 — Micro‑examples (illustrative, context‑local)"
-line_start: 68934
-line_end: 68962
+line_start: 69768
+line_end: 69795
 dependencies:
   - "A.11"
   - "A.7"
@@ -57,5 +57,4 @@ keywords:
 * **Context:** *IEC 61131‑3* — **LNF:** `task`
   **Tech:** `task` - **Plain:** `runtime program execution`
   **Gloss:** “Cyclic or event‑driven execution unit for control programs.”
-
 

@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__017_migration-notes.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:16 — Migration Notes"
-line_start: 74460
-line_end: 74466
+line_start: 75050
+line_end: 75055
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -47,5 +47,4 @@ keywords:
 * **Re‑blocking.** If the Block Plan changes, keep row ids stable; move rows between blocks rather than renumbering.
 * **Context growth.** When adding a new Context, populate SenseCells progressively; do not claim coverage until ≥ 1 row per block cites it.
 * **Name evolution.** Update **Plain** labels freely for pedagogy; change **Tech** labels only via F.5 with clear S‑rules.
-
 

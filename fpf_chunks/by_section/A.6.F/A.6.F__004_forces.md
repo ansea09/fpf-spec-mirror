@@ -6,12 +6,12 @@ section_id: "A.6.F:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:3 — Forces"
-line_start: 13622
-line_end: 13632
+line_start: 13464
+line_end: 13474
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "A.6.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.M"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -39,6 +40,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
+  - "E.10.ARCH"
   - "E.18"
   - "E.8"
   - "F.18"
@@ -59,10 +61,10 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Familiar engineering speech vs kind precision | Engineers naturally say "function", "functional", and "functionality"; FPF needs the carrier and non-function claim kind recoverable when the phrase carries a live FPF claim. |
+| Familiar engineering speech vs kind precision | Engineers naturally say "function", "functional", and "functionality"; FPF needs the exact FPF kind, relation, claim record, view, or receiving-pattern application recoverable when the phrase carries a live FPF claim. |
 | Functional architecture vs peer ontology | Functional architecture is useful, but it is the `FunctionalStructure` case of `ArchitectureOf@Context`, not a separate root architecture kind. |
-| Capability/effect vs work/method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are different FPF carriers. |
+| Capability or effect vs work or method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are different exact FPF kinds, relations, and claim records. |
 | Mathematical function vs design relation | Mathematical functions and relations can be used for reasoning, but C.29 governs their lens use and stop condition. |
-| Module allocation vs functional relation | Functional dependencies may be allocated to modules, but function and module/interface structure do not become one object. |
-| Small repair vs unneeded evidence, quality, decision, or assurance apparatus | Most cases need carrier recovery and a stop condition, not a full architecture, evidence, quality, or decision claim apparatus. |
+| Module allocation vs functional relation | Functional dependencies may be allocated to modules, but function and module-interface structure do not become one FPF kind. |
+| Small repair vs unneeded evidence, quality, decision, or assurance apparatus | Most cases need exact-kind or relation recovery and a stop condition, not a full architecture, evidence, quality, or decision claim apparatus. |
 

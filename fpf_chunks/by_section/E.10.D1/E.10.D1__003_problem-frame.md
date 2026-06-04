@@ -6,12 +6,12 @@ section_id: "E.10.D1:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:2 — Problem Frame"
-line_start: 58494
-line_end: 58501
+line_start: 59632
+line_end: 59638
 dependencies:
   - "A.4"
   - "A.7"
@@ -39,5 +39,4 @@ keywords:
 2. **Extra token (“anchor”).** “Anchor” pretends to be “where meaning is attached”, duplicating context semantics.
 3. **Domain overreach.** “Domain context” conflates **families** (disciplinary areas) with **formal contexts**.
 4. **Plane mixing.** Runtime/design stances and deontic/behavioural notions are smuggled into “context”.
-
 

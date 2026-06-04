@@ -6,12 +6,12 @@ section_id: "A.15.2:2"
 section_title: "Problem (what breaks without WorkPlan)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__003_problem-what-breaks-without-workplan.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:2 — Problem (what breaks without WorkPlan)"
-line_start: 19968
-line_end: 19976
+line_start: 20016
+line_end: 20023
 dependencies:
   - "A.15"
   - "U.Work"
@@ -29,5 +29,4 @@ keywords:
 3. **Spec/time leakage.** People and calendars creep into MethodDescriptions; reuse and staffing agility collapse.
 4. **No variance model.** Without planned baselines, deviations in time, cost, and quality cannot be explained or improved.
 5. **Structure entanglement.** BoM and org charts get baked into “process” views; plans become brittle and unmaintainable.
-
 

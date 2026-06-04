@@ -6,12 +6,12 @@ section_id: "B.3:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__013_rationale-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:10 — Rationale (informative)"
-line_start: 31357
-line_end: 31370
+line_start: 31485
+line_end: 31498
 dependencies:
   - "A.10"
   - "A.12"
@@ -21,6 +21,7 @@ dependencies:
   - "A.20"
   - "A.21"
   - "A.6"
+  - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.1.2"
@@ -60,13 +61,13 @@ keywords:
 
 B.3 distills mature post‑2015 practice across several fields into a single, small calculus:
 
-* **Assurance by weakest link** reflects reliability engineering and safety cases in complex systems; composing claim support by minima prevents over‑statement.
+* **Assurance by weakest link** reflects reliability engineering and safety cases in complex systems; composing assurance evidence by minima prevents over‑statement.
 * **Formality and verifiability** mirror advances in model‑based engineering and formal verification, where raising F turns subjective arguments into verifiable records.
 * **Coverage as set/measure** follows evidence synthesis and validation practice that treat applicability as a domain region, not a scalar to “average.”
 * **Congruence on edges** captures what meta‑analysis, interface control, and ontology alignment have repeatedly shown: integration quality is often the real bottleneck. Penalizing low‑CL is a principled way to prevent silent over‑confidence while rewarding verified reconciliation.
 * **Assurance documentation, provenance, and release-status practice** treats labels, model cards, datasheets, C2PA provenance marks, SLSA and in-toto attestations, credential displays, generated confidence phrases, and dashboards as scoped documentation or source pointers, not automatic assurance claims. B.3 adopts claim, argument, and evidence discipline and scoped assurance-documentation use, adapts model cards, datasheets, data cards, attestations, provenance marks, dashboards, and generated confidence phrases as possible documentation or evidence inputs for a named assurance claim, and rejects visible-label promotion into readiness, compliance, safety, trust, `R`, `F`, `G`, `CL`, or release confidence without a typed tuple and A.10 evidence path.
 
-Action result from that safety-case and assurance-documentation practice basis: safety notes, compliance-looking labels, assurance documents, dashboards, provenance marks, model cards, datasheets, data cards, and generated confidence phrases do not become certificates, approvals, gates, safety acceptance, or assurance by appearance. The local B.3 result is one typed assurance claim or minimum reliance safety support record for the named reliance use, with `A.10` evidence path, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest and redress path, supported use, unsupported use, and reopen when evidence, context, profile, monitoring, or admissible challenge evidence materially changes the disposition.
+Action result from that safety-case and assurance-documentation practice basis: safety notes, compliance-looking labels, assurance documents, dashboards, provenance marks, model cards, datasheets, data cards, and generated confidence phrases do not become certificates, approvals, gates, safety acceptance, or assurance by appearance. The local B.3 result is one typed assurance claim or minimum reliance safety assurance record for the named reliance use, with `A.10` evidence path, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest and redress path, admissible use, unadmissible use, and reopen when evidence, context, profile, monitoring, or admissible challenge evidence materially changes the disposition.
 
-This arrangement preserves **A.11 Parsimony** (few characteristics), aligns with **A.14/A.15** (clear separation of structure, order, time, cost, values), and leaves Context for domain‑specific refinements that do not break the invariants.
+This arrangement preserves **A.11 Parsimony** (few characteristics), aligns with **A.14/A.7/A.15** (clear separation of structure, order, time, cost, values), and leaves Context for domain‑specific refinements that do not break the invariants.
 

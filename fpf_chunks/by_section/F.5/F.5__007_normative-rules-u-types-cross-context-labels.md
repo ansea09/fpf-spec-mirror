@@ -6,12 +6,12 @@ section_id: "F.5:6"
 section_title: "Normative rules — U.Types (Cross‑context labels)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__007_normative-rules-u-types-cross-context-labels.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:6 — Normative rules — U.Types (Cross‑context labels)"
-line_start: 69910
-line_end: 69934
+line_start: 70708
+line_end: 70731
 dependencies:
   - "A.11"
   - "A.7"
@@ -59,5 +59,4 @@ Risky: *Multi‑stage‑workflow‑execution‑record* (compresses a scenario in
 **R‑UT‑8 (Symbolic names sparingly).** Symbols may be listed as *aliases* for readers of formal sections; they are **never** the U.Type’s Tech label.
 
 **R‑UT‑9 (No edition/version in name).** Versions live in the Concept‑Set evidence; the name denotes a **time‑robust kind**.
-
 

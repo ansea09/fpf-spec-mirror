@@ -6,12 +6,12 @@ section_id: "A.15.1:11"
 section_title: "Anti‑patterns (and the right move)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__012_anti-patterns-and-the-right-move.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:11 — Anti‑patterns (and the right move)"
-line_start: 19903
-line_end: 19914
+line_start: 19956
+line_end: 19966
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -51,5 +51,4 @@ keywords:
 * **Part ambiguity.** Mixing retries, episodes, and operational parts with no declared relation → Choose and declare the part relation.
 * **Union/hull confusion.** Changing KPI coverage silently between reports → Declare `Γ_time` policy per KPI.
 * **Double‑count in overlaps.** Summing child and parent resource ledgers → Declare and apply an overlap policy.
-
 

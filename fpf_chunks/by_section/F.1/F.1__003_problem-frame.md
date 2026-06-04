@@ -6,12 +6,12 @@ section_id: "F.1:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:2 — Problem frame"
-line_start: 68516
-line_end: 68526
+line_start: 69371
+line_end: 69380
 dependencies:
   - "A.11"
   - "A.7"
@@ -42,5 +42,4 @@ Without explicit context of meaning:
 3. **Retro‑lock.** Old editions become the implicit truth simply because they were “there first”.
 4. **Category bleed.** Behavioural roles, epistemic statuses, deontic permissions mix because their contexts were never fixed.
 5. **Name inflation.** New U.Types appear just to “stabilise” unstable words.
-
 

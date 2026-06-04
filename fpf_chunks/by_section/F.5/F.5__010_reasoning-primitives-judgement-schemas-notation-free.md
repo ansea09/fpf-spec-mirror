@@ -6,12 +6,12 @@ section_id: "F.5:9"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__010_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:9 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 69958
-line_end: 69988
+line_start: 70753
+line_end: 70782
 dependencies:
   - "A.11"
   - "A.7"
@@ -65,5 +65,4 @@ keywords:
 6. **Collision ping.**
   `similar(Tech(X), Tech(Y)) ∧ senseFamily(X)≠senseFamily(Y) ⊢ requireDisambiguatorOrSplit`
   *Reading:* If two labels nearly coincide across senseFamilies, either add a **minimal** disambiguator (Role Description only, within Context idiom) or split concepts.
-
 

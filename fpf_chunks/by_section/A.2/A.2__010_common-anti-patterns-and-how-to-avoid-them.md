@@ -6,11 +6,11 @@ section_id: "A.2:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 1654
+line_start: 1655
 line_end: 1676
 dependencies:
   - "A.1"
@@ -49,5 +49,4 @@ keywords:
 5. **“Method = workflow (step list) by default.”**
    ✗ *“The method is the ordered list of steps 1..n.”*
    ✓ A **Method** is a design‑time capability; “steps” (or their absence) are a property of a **MethodDescription viewpoint**. A Work executes a specific MethodDescription; use a workflow/script view when step semantics matter, and use other views (dynamics/solver/circuit/channel) when steps are not meaningful.
-
 

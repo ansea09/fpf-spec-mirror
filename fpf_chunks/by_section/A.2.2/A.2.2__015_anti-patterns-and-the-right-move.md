@@ -6,12 +6,12 @@ section_id: "A.2.2:14"
 section_title: "Anti‑patterns (and the right move)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__015_anti-patterns-and-the-right-move.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:14 — Anti‑patterns (and the right move)"
-line_start: 2511
-line_end: 2520
+line_start: 2494
+line_end: 2502
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,5 +41,4 @@ keywords:
 * **Context‑less claims.** “This tool can machine titanium.” → Say **where and under what bounds** (context + WorkScope + measures).
 * **Stuffing capabilities into BoM/PBS.** Structure lists **what it is**; capabilities belong to **what it can do** (the holder), not inside the parts list.
 * **Service‑as‑capability.** “We have the Month‑end Close capability (promise).” → Promise is a **service promise clause** (`U.PromiseContent`); ability is internal, promise is external.
-
 

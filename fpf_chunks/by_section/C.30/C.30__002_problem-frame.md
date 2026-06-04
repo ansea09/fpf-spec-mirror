@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Architecture Description Adequacy (ADA)"
+pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
 section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.30 — Architecture Description Adequacy (ADA)"
+  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 51323
-line_end: 51396
+line_start: 51153
+line_end: 51223
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,10 +30,12 @@ dependencies:
   - "C.25"
   - "C.28"
   - "C.29"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -47,9 +49,10 @@ dependencies:
 keywords:
   - "ArchitectureOf@Context"
   - "architecture claim"
-  - "architecture description"
   - "architecture question card"
+  - "architecture-description boundary"
   - "artifact-as-architecture guard"
+  - "grounded architecture"
   - "selected structure"
 ---
 
@@ -64,7 +67,7 @@ ArchitectureQuestionCard@Project:
   describedHolonRef:
   boundedContextRef:
   liveArchitectureConcernCue:
-  claimPosture:
+  claimReadinessClass:
     preClaimCue | problemCardReady | architectureClaimReady | nonArchitectureClaimReady
   plainPromptLabel?:
   activeStructureKindRefs: FinSet(ArchitectureStructureKindRef)
@@ -92,7 +95,7 @@ changeLocalizationFailure
 substitutionFailure
 crossViewMismatch
 flowBottleneckOrHiddenCrossing
-controlRateOrLayerMismatch
+controlRateOrRecoveredControlLayerMismatch
 dataCustodyOrStateResidenceUnclear
 placementOrJurisdictionMismatch
 evidenceReuseFailure
@@ -101,29 +104,26 @@ crossScopeResidual
 generatedViewLoss
 ```
 
-Use the cue only to choose the first architecture move. The cue is not a quality score, failure proof, risk rating, gate result, or decision.
+Use the cue only to choose the first architecture move: described holon, bounded context, one candidate structure kind, artifact role, and one admissible next move. If those fields cannot yet be named, keep the material as a concern cue or `ProblemCard@Context`-style issue rather than promoting it to `ArchitectureOf@Context` by wording alone. ISO 42010-style concern language may remain as lineage or project wording, but C.30 recovers the FPF representation fields as `liveArchitectureConcernCue`, `governingArchitectureConcernRefs?`, or `architectureConcernNotes?`.
 
-Do not treat the cue as a quality, measure, risk score, decision, or free `ArchitectureConcern` ontology. If the concern cannot yet name described holon, bounded context, one candidate structure kind, and one admissible next architecture move, keep it as a concern cue or `ProblemCard@Context`-style issue; do not promote it to `ArchitectureOf@Context` by wording alone. ISO 42010-style concern language may remain as lineage or project wording, but C.30 recovers the FPF carrier as `liveArchitectureConcernCue`, `governingArchitectureConcernRefs?`, or `architectureConcernNotes?`.
-
-This is a project-side triage aid, not `U.Architecture`, not evidence, not a decision, and not a mandatory publication.
+`ArchitectureQuestionCard@Project` is a project-side triage aid for choosing one architecture move. Quality scores, risk ratings, proof, evidence, assurance, gate, decision, release, or publication-authority claims exit to their exact neighboring FPF patterns when they become live.
 The action palette for `firstArchitectureMove` is deliberately short:
 
 - name or narrow the described holon and bounded context;
 - choose the live structure kind;
-- downgrade an artifact to publication, diagram, carrier, source-relation object, or generated relation graph when it is not a D/S view;
+- downgrade an artifact to publication, diagram, carrier, source relation, or generated relation graph when it is not a Description or view;
 - repair a collapsed function, module, flow, control, interface, or signature claim;
 - open a minimal architecture structural view only when it changes the next move;
 - assign C.29, A.10, B.3, A.20, A.21, C.28, A.15, C.11, C.16, or another exact governing pattern only when its claim kind is live;
-- state `NoMLANeeded` when no mathematical lens changes the next architecture move;
-
+- state `NoMathLensUseNeeded` when no mathematical lens changes the next architecture move;
 - stop with one admissible next architecture move.
 
-The full `ArchitectureDescription@Context` opens only for durable publication, cross-team use, regulated or safety use, reusable design, FPF pattern example, comparison, reuse of a source, evidence, lens, or assurance relation, or a comparable full-mode claim kind. Ordinary use stops at `ArchitectureQuestionCard@Project` when it makes one next architecture move clear.
+A conditional `ArchitectureDescription@Context` bridge opens only when durable architecture-description use is live: cross-team reuse, regulated or safety use, reusable design, comparison, source or lens reuse, or another named full-mode architecture-description use. Ordinary use stops at `ArchitectureQuestionCard@Project` when it makes one next architecture move clear. If the architecture description itself becomes the live EntityOfConcern, use `C.30.AD`.
 
-What goes wrong if C.30 is missed: a module diagram, Transduction Graph Architecture (TGA) graph, Layered Control Architecture (LCA)/control sketch, mathematical-lens output, generated relation graph, ADR, dashboard, or benchmark result is treated as the architecture; architecture then starts carrying evidence, assurance, gate, work, release, causal, or decision claim kinds it cannot carry.
+What goes wrong if C.30 is missed: a module diagram, TGA graph, LCA sketch, control sketch, mathematical-lens output, generated relation graph, ADR, dashboard, or benchmark result is treated as the architecture; architecture then starts carrying non-architecture claim kinds it cannot carry.
 
-What C.30 buys in practice: a practitioner can separate architecture claim, selected structure, architecture description, view, publication, source relation, and non-architecture claim kind, then choose one small next architecture move instead of opening a full measurement, synthesis, assurance, or decision apparatus by default.
+What C.30 buys in practice: a practitioner can separate architecture claim, selected structure, architecture description, view, publication, source relation, and non-architecture claim kind, then choose one small next architecture move.
 
-Not this pattern when the live question is only structure as such. Use A.22. If it is an architecture structural view, use `C.30.ASV`. If it is a TGA graph, path, or crossing relation, use `E.18` and `C.30.TGA-FLOW-REL` when architecture-flow description is live. If it is evidence, assurance, causal use, gate, work, decision, publication authority, mathematical-lens adequacy, measurement, structural information, structural equivalence, morphism, or discovery aid, use the exact governing pattern or an admitted receiving pattern and keep C.30 only to the architecture-description portion.
+Not this pattern when the live question is only structure as such, an architecture structural view, or a TGA graph relation, path relation, or crossing relation. Use `A.22`, `C.30.ASV`, `E.18`, or `C.30.TGA-FLOW-REL` as appropriate. If another live claim is present, use the exact governing pattern and keep C.30 only to the architecture claim, selected-structure, or conditional architecture-description-use portion.
 
-Thin precision-restoration pointer: if the live issue is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *layer*, or *functional architecture* names an architecture claim, description, view, carrier, source, structure, or non-architecture receiving object, use `C.30.P` first. Do not copy the `C.30.P` trigger table into C.30; C.30 resumes after the architecture-description claim or exact non-architecture exit is recoverable.
+Thin precision-restoration pointer: if the live issue is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, carrier, source, structure, or exact non-architecture receiving-pattern application, use `C.30.P` and `C.30.STRAT` as triggered before C.30 receives the recovered architecture portion. Do not copy the trigger tables into C.30; C.30 resumes after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the exact non-architecture application is recoverable.

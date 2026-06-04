@@ -6,12 +6,12 @@ section_id: "C.27:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:3 — Forces"
-line_start: 47458
-line_end: 47510
+line_start: 47339
+line_end: 47389
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -49,7 +49,6 @@ keywords:
 
 ### C.27:3 - Forces
 
-
 The source article contributes three practical ideas that should survive into
 C.27 prose.
 
@@ -60,16 +59,16 @@ of effort over windows: impulse, scheduled push, feedback policy, adaptive
 regime, brake, pause, coast, or redirect. C.27 should preserve effort over time,
 not just a scalar acceleration label.
 
-Second, rhythm is interval-structured. A rhythm claim needs an anchor, bearer,
-window, evidence proxy or observation basis, and admissible use. "Rhythm" as mood
+Second, rhythm is interval-structured. A rhythm claim needs a timing reference, bearer,
+window, evidence proxy or observation relation, and admissible use. "Rhythm" as mood
 or vibe is not enough; it must be possible to recover whose rhythm, across which
 intervals, by which observation or proxy, and for which decision. Coupling,
 phase, synchronization, or entrainment-like wording is only needed when the
 claim depends on a relation between bearers.
 
 Third, useful formalization improves replicable practice code. C.27 should help
-make a practice transferable by recording effort windows, rhythm anchors,
-bearer, resistance proxy, evidence basis, and reopen condition. It should not force
+make a practice transferable by recording effort windows, rhythm timing references,
+bearer, resistance proxy, evidence path or assumption, and reopen condition. It should not force
 equations merely because the source analogy used dynamics language.
 
 Borrowed-frame translation:
@@ -78,10 +77,10 @@ Borrowed-frame translation:
 | --- | --- |
 | State, rate, and rate-change distinction | Adopted as Dyn0, Dyn1, and Dyn2 claim-reading discipline. |
 | Effort windows, acceleration, braking, redirection, coasting, recovery, and stabilization | Adopted as the central temporal-claim adequacy question, with acceleration bias explicitly rejected. |
-| Time-scale plurality: spot, episode, sprint, lifecycle, learning-cycle, technoevolution, lifetime, or domain-local time scale | Adapted as optional `temporalScalePosture` for boundary-crossing rhythm use, practice, learning, lifecycle, or evolution claims; not mandatory for ordinary local cards. |
+| Time-scale plurality: spot, episode, sprint, life-cycle time scale, learning-cycle, technoevolution, lifetime, or domain-local time scale | Adapted as an optional temporal-scale boundary declaration for boundary-crossing rhythm use, practice, learning, life-cycle time scale, or evolution claims; not mandatory for ordinary local cards. |
 | Speed as result of effort, input, and resistance rather than explanation of its own future change | Adopted as the rate-as-cause-of-rate-change anti-pattern: observed speed does not by itself explain how to change speed. |
-| Rhythm as interval-structured effort/rate-change pattern | Adopted with bearer, anchor, window, basis/proxy, admissible use, and cross-bearer coupling only when a named cross-bearer relation is live. |
-| Dance/practice style as replicable temporal code | Adapted as replicable practice-description basis: if a training rhythm, review cadence, learning routine, or practice style is meant for boundary-crossing use, name what rhythm/effort pattern is transmitted, which bearer carries it, which anchor/window makes it reproducible, and what error accumulates if only static poses or rate words are transmitted. |
+| Rhythm as interval-structured effort/rate-change pattern | Adopted with bearer, timing reference, window, evidence/proxy relation, admissible use, and cross-bearer coupling only when a named cross-bearer relation is live. |
+| Dance/practice style as replicable temporal code | Adapted as replicable practice-description relation: if a training rhythm, review cadence, learning routine, or practice style is meant for boundary-crossing use, name what rhythm/effort pattern is transmitted, which bearer carries it, which timing-reference/window makes it reproducible, and what error accumulates if only static poses or rate words are transmitted. |
 | Typed/discretized compact dynamic representation | A.19, C.16, and C.26 carry it only when the representation, measurement, or residual QL cue is live. |
 | Quantum-like or active-inference superiority claim | Not adopted in C.27; C.26 carries the residual probe, frame, order, export, or coarsening claim after ordinary C.27, C.16, work, benchmark, and proxy pattern relations are named. |
 | Universal search for force/mass analogues everywhere | Rejected as literal ontology; physical words may remain Plain diagnostic cues, but C.27 mints no `U.Force`, `U.Mass`, `U.Acceleration`, `U.Rhythm`, `U.Practice`, or `U.SecondOrderProcess`. |
@@ -90,13 +89,12 @@ Borrowed-frame translation:
 | --- | --- | --- |
 | Do nothing | Insufficient | Leaves FPF vulnerable to speed-only, rate-only, rhythm-as-vibe, and effort-free intervention claims. |
 | Add examples only | Insufficient | Examples would not create a reusable adequacy lens or pattern-relation discipline. |
-| Put the whole question in `A.3.3 U.Dynamics` | Wrong governed object | `U.Dynamics` governs transition law/model, not the cross-pattern recognition and escalation lens. |
-| Put the whole question in `C.16` | Wrong governed object | Measurement construction is necessary but does not govern effort windows, planning, inertia proxies, promises, or intervention adequacy. |
+| Put the whole question in `A.3.3 U.Dynamics` | Wrong primary EntityOfConcern | `U.Dynamics` governs transition law/model, not the cross-pattern recognition and escalation lens. |
+| Put the whole question in `C.16` | Wrong primary EntityOfConcern | Measurement construction is necessary but does not govern effort windows, planning, inertia proxies, promises, or intervention adequacy. |
 | Put the whole question in `C.24` | Too narrow | Agentic tool-use is one application, not the general pattern for temporal claim adequacy. |
 | Put the whole question in `C.26` | Wrong residual QL relation | This would make quantum-like modeling relevant too early; C.26 remains residual for probe, frame, export, or coarsening cues. |
 | Add new Kernel types such as `U.Force`, `U.Mass`, `U.Acceleration`, `U.Rhythm`, `U.Practice`, or `U.SecondOrderProcess` | Wrong ontology | The repeated value is a claim-adequacy lens, not a stable Kernel ontology. |
 | Create a new publication role or separate pattern for C.27 cards | Wrong object kind | Dyn2 temporal-claim records are pattern-local records, not publication roles or separate patterns. |
 | Use C.27 with explicit references to the FPF patterns that govern the other questions | Chosen C.27 shape | One C-pattern can govern the adequacy lens while preserving measurement, dynamics-law, work, benchmark, promise, quality, viability, and QL relations in the patterns that carry them. |
 | Duplicate C.27 claim-adequacy content across every related pattern | Too broad | Broad distribution would make ordinary temporal wording expensive. A C.27 card or profile cites the FPF pattern that governs the other question instead of creating a duplicate temporal record. |
-
 

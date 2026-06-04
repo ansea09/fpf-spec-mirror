@@ -6,12 +6,12 @@ section_id: "B.3.5:2"
 section_title: "Problem frame & forces (why this pattern exists)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__003_problem-frame-forces-why-this-pattern-exists.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:2 — Problem frame & forces (why this pattern exists)"
-line_start: 31639
-line_end: 31645
+line_start: 31767
+line_end: 31772
 dependencies:
   - "B.3"
   - "C.13"
@@ -30,5 +30,4 @@ keywords:
 * **Two audiences, one dial.** Project managers want **one relation family** and stable views; ontologists want **generative completeness** and extensional identity.
 * **Parsimony constraint.** The Kernel stays minimal; construction is **outside** the Kernel.
 * **Unification inside FPF.** We already unify external vocabularies; the same discipline is applied **internally** so *every* pattern that needs mereology rides on **one generative basis** and **one alias façade**.
-
 

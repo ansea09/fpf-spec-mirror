@@ -6,12 +6,12 @@ section_id: "F.9:8a"
 section_title: "State export and quantum-like boundary note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__010_state-export-and-quantum-like-boundary-note.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:8a — State export and quantum-like boundary note"
-line_start: 71198
-line_end: 71231
+line_start: 71939
+line_end: 71971
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -62,7 +62,6 @@ Action path:
 8. State Bridge-supported use and return-to-source trigger before the bridge result is reused.
 
 Add this row to the Bridge Card only when the bridge result will be reused for decision, comparison, assurance, release, audit, or cross-context action. For a local orientation note, state the export loss and return-to-source trigger in prose without treating the note as a Bridge Card extension.
-
 
 | Field | Question |
 | --- | --- |

@@ -6,16 +6,17 @@ section_id: "E.10.ARCH:7"
 section_title: "Receiving-pattern thin-pointer rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__010_receiving-pattern-thin-pointer-rule.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:7 — Receiving-pattern thin-pointer rule"
-line_start: 58363
-line_end: 58379
+line_start: 59500
+line_end: 59517
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.SPR"
   - "A.22"
   - "A.6.3.CSC"
   - "A.6.F"
@@ -30,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ASV"
   - "C.30.P"
+  - "C.30.STRAT"
   - "E.10"
   - "E.19"
   - "E.2"
@@ -42,7 +44,7 @@ keywords:
 
 ### E.10.ARCH:7 - Receiving-pattern thin-pointer rule
 
-Receiving patterns keep at most one local first-use cue when the live object is hidden, then send the reader to the selected precision-restoration pattern. They do not copy:
+Receiving patterns keep at most one local first-use cue when the live EntityOfConcern, relation, claim, or field is hidden, then send the reader to the selected precision-restoration pattern. They do not copy:
 
 - the full `E.10` trigger registry;
 - this shared algorithm;
@@ -52,8 +54,9 @@ Receiving patterns keep at most one local first-use cue when the live object is 
 
 A thin pointer is acceptable when it helps the working reader choose the right first move, for example:
 
-- use `C.30.P` when architecture or structure wording hides whether the live object is selected structure, architecture description, structural view, source, model, diagram, graph, dashboard, or ordinary prose;
-- use `C.16.P` when metric, score, axis, dimension, feature, property, indicator, strong, weak, robust, level, coordinate, threshold, or comparison wording hides characteristic/scale construction;
+- use `C.30.P` when architecture or structure wording hides whether the live use is selected structure, architecture-description use, structural-view use, source, model, diagram, graph, dashboard, or ordinary prose;
+- use `C.30.STRAT` when `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, or a close source label hides whether the live use is a control-layer relation, module-interface relation, functional-flow relation, scale or coarse-graining relation, publication relation set, gate relation, exact neighboring use, ordinary source label, quote-only cue, or blocked use;
+- use `C.16.P` when metric, score, axis, dimension, feature, property, indicator, strong, weak, robust, level, coordinate, threshold, or comparison wording hides characteristic or scale construction;
 - use `C.16.Q` when quality or evaluative characterization wording hides Q-bundle, pattern-quality coordinate, relation construction, action-invitation, bridge, or exact characterization use;
-- use `C.2.P` when source, publication, carrier, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source/current transfer or project-side reliance.
-
+- use `A.19.SPR` when state, status, posture, readiness, stance, currentness, or a local state-like field hides bearer, state frame, value set, admissible use, or exact receiving pattern;
+- use `C.2.P` when source, publication, carrier, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance.

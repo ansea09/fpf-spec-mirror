@@ -6,12 +6,12 @@ section_id: "A.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
   - "A.2.1:4 — Solution"
-line_start: 1774
-line_end: 2020
+line_start: 1771
+line_end: 2014
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -101,7 +101,6 @@ These are **intensional facets** of a **Role**, not containers “inside” the 
 
 **Discipline.** Prefer the phrasing *“Role is **characterised by** RCS/RSG recorded in RoleDescription”*; avoid “Role **contains** its states.”
 
-
 #### A.2.1:4.4 - Shorthand & reading
 
 The canonical compact form used in prose and diagrams is:
@@ -116,7 +115,6 @@ Examples:
 * `ISO_26262v2018#NormativeStandard:AutoSafetyCase` *(status role on an Episteme; no enactment)*
 
 *The shorthand is didactic; the semantics are those of §§4.1–4.3.*
-
 
 #### A.2.1:4.5 - No role chains (use algebra, not badge‑of‑badge)
 
@@ -159,7 +157,6 @@ A Role’s **family** constrains **who can wear its badge**. Eligibility is part
 * **CC‑ELIG‑1.** If `role.family ∈ {Agential, Transformer, Observer, Speech}`, then `holder : U.System`.
 * **CC‑ELIG‑2.** If `role.family ∈ {Epistemic‑Status, Normative‑Status, Service‑Governance}`, then `holder : U.Episteme`.
 * **CC‑ELIG‑3.** No “role of a role”: `role` is bound to a **holder**, not to another role or assignment.
-
 
 #### A.2.1:4.7 - Role algebra within a single Context (meaning relations)
 

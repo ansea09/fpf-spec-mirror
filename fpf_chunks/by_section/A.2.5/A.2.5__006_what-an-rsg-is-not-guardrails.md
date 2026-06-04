@@ -6,12 +6,12 @@ section_id: "A.2.5:5"
 section_title: "What an RSG is not (guardrails)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__006_what-an-rsg-is-not-guardrails.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:5 — What an RSG is not (guardrails)"
-line_start: 3466
-line_end: 3474
+line_start: 3425
+line_end: 3432
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -36,5 +36,4 @@ keywords:
 * **Not a global status set.** RSG lives **inside one Context**; the label *Ready* in another Context is **a different state** unless bridged (F.9).
 * **Not a log.** RSG is not a history. Histories are **StateAssertions** over Windows; **`U.Work`** is the record of enactments.
 * **Not a document-state sequence.** Epistemic role RSGs can *look like* document-state sequences, but they remain **role‑status graphs**; carrier history and carrier replacement stay separate (A.7, `U.Carrier`).
-
 

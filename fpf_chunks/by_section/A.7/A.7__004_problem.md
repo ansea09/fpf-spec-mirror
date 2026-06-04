@@ -6,12 +6,12 @@ section_id: "A.7:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__004_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:3 — Problem"
-line_start: 17429
-line_end: 17436
+line_start: 17580
+line_end: 17587
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,7 +29,7 @@ dependencies:
   - "F.17"
   - "F.9"
 keywords:
-  - "Object ≠ Description"
+  - "EntityOfConcern ≠ Description episteme"
   - "Role ≠ Work"
   - "category error"
   - "ontology"
@@ -39,7 +39,7 @@ keywords:
 
 When documents blur the above lines, three classes of defects appear:
 
-1. **Category collapse.** People write “function/role/process” interchangeably; teams then disagree whether they are changing a plan, a capability, or reporting an actual occurrence.
+1. **Category collapse.** People write “function”, “role”, or “process” interchangeably; teams then disagree whether they are changing a MethodDescription, a Method, a Capability envelope, or reporting an actual Work occurrence.
 2. **Agency misplacement.** Epistemes (documents, models) are treated as doers; collectives as raw sets; or a “holon” is used where **only a system** makes sense.
-3. **Audit failures.** A MethodDescription is cited as if it were evidence; or Work has no anchors (no carriers, no time span), making trust impossible (B.3).
+3. **Audit failures.** A MethodDescription is cited as if it were evidence; Work has no evidence carriers or time span; or a Description episteme, a Description episteme admitted for specification use, a View, publication face, publication unit, or carrier is treated as if it were the `EntityOfConcern`, decision, permission, gate, work occurrence, or assurance result.
 

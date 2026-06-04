@@ -6,12 +6,12 @@ section_id: "A.3.1:3"
 section_title: "Forces (what the definition must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__004_forces-what-the-definition-must-balance.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:3 — Forces (what the definition must balance)"
-line_start: 5835
-line_end: 5845
+line_start: 5751
+line_end: 5760
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -44,5 +44,4 @@ keywords:
 | **Reusability vs. assignment**        | The *how* should be reusable regardless of *who* is assigned this time.                                  |
 | **Compositionality vs. executability** | Methods compose (serial/parallel/choice/iteration), but execution may diverge due to conditions/failures. |
 | **Determinism vs. search**             | Methods may be deterministic algorithms or constraint problems with admissible solution sets.             |
-
 

@@ -6,12 +6,12 @@ section_id: "C.3.A:5"
 section_title: "Evaluation Semantics & Order (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__006_evaluation-semantics-order-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:5 — Evaluation Semantics & Order (normative)"
-line_start: 38733
-line_end: 38749
+line_start: 38706
+line_end: 38721
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -39,5 +39,4 @@ keywords:
 **E‑06 (Separation of predicates).** Scope coverage and evidence freshness **SHALL** be distinct predicates; do not fold freshness into Scope or kinds.
 
 **Evaluation order.** Apply checks in the order defined in **§5 (E‑01)**: typed compatibility → Scope coverage → penalties to **R** → freshness.
-
 

@@ -6,12 +6,12 @@ section_id: "F.17:9"
 section_title: "Invariants (normative constraints)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__010_invariants-normative-constraints.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:9 — Invariants (normative constraints)"
-line_start: 74354
-line_end: 74370
+line_start: 74944
+line_end: 74960
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -52,7 +52,7 @@ keywords:
    * **Π (Conjunctive/Compositional):** concept composes by required conjunction (all‑of), not by averaging.
    * **μ (Micro/Atomic):** concept is inherently micro‑level (per single execution/holder).
      *(Tags aid teaching; they do not change semantics.)*
-5. **Strict Distinction.** Use `U.Method` vs `U.MethodDescription`, `U.Work` vs `U.WorkDescription`, `U.Role` vs `U.RoleCharacterisation` correctly; do **not** collapse intensional objects with their descriptions.
+5. **Strict Distinction.** Use `U.Method` vs `U.MethodDescription`, `U.Work` vs `U.WorkDescription`, `U.Role` vs `U.RoleCharacterisation` correctly; do **not** collapse entities of concern with their Description epistemes.
 6. **Dual register.** Every row has **Tech** and **Plain** labels per F.5.
 7. **One‑breath rationale.** The `Unification Rationale` is a **single sentence** explaining the conceptual sameness despite local wording.
 8. **Unified naming neutrality.** The **Unified Tech name** is the neutral FPF choice per F.5; it is **not** lifted wholesale from any single Context unless the Concept‑Set justification (F.7) shows identity.

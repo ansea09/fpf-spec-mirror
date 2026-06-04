@@ -6,12 +6,12 @@ section_id: "F.14:8"
 section_title: "Reasoning primitives (judgement schemas)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__009_reasoning-primitives-judgement-schemas.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:8 — Reasoning primitives (judgement schemas)"
-line_start: 73316
-line_end: 73346
+line_start: 73958
+line_end: 73987
 dependencies:
   - "F.1"
   - "F.10"
@@ -61,5 +61,4 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 6. **Facet over rename**
    `modifier m changes circumstance ¬ essence ⊢ preferFacet(τ,m)`
    *Reading:* If a modifier alters circumstances only, represent it as a facet/window.
-
 

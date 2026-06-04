@@ -6,12 +6,12 @@ section_id: "F.1:9"
 section_title: "Self‑checks (mental, not procedural)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__010_self-checks-mental-not-procedural.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:9 — Self‑checks (mental, not procedural)"
-line_start: 68619
-line_end: 68626
+line_start: 69470
+line_end: 69476
 dependencies:
   - "A.11"
   - "A.7"
@@ -39,5 +39,4 @@ keywords:
 * **The homonym ping.** For each frequent word (*process*, *role*, *service*, *model*, *execution*), can you immediately list **the Contexts where it differs**? If not, add the missing Context.
 * **The bridge itch.** Feel the temptation to say “these are the same”? Good. **Write the itch down** and refuse to scratch it here. That’s F.9’s job.
 * **The memory rule.** If your entire survey cannot be recalled **without opening a document**, it is too large.
-
 

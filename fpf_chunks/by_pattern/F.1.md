@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
-line_start: 68499
-line_end: 68832
+line_start: 69354
+line_end: 69676
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,7 +37,7 @@ keywords:
 **“Fix the context of meaning before you name anything.”**
 **Status.** Architectural pattern.
 **Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **F.0.1 Contextual Lexicon Principles**; A.7 **Strict Distinction (Clarity Lattice)**; A.11 **Ontological Parsimony**.
-**Coordinates with.** F.2 **Term Harvesting & Normalisation**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description**; F.9 **Alignment & Bridge Across Contexts**; **G.0–G.1** *(Scope/describedEntity handoff)*.  *(Bridges live only in F.9.)*
+**Coordinates with.** F.2 **Term Harvesting & Normalisation**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description**; F.9 **Alignment & Bridge Across Contexts**; **G.0–G.1** *(Scope/entityOfConcern handoff)*.  *(Bridges live only in F.9.)*
 
 **Aliases (informative).** *Contexts‑first survey*; *Context cut*.
 
@@ -59,7 +59,6 @@ Without explicit context of meaning:
 4. **Category bleed.** Behavioural roles, epistemic statuses, deontic permissions mix because their contexts were never fixed.
 5. **Name inflation.** New U.Types appear just to “stabilise” unstable words.
 
-
 ### F.1:3 - Forces
 
 | Force                        | Tension to resolve                                                                |
@@ -69,12 +68,10 @@ Without explicit context of meaning:
 | **Recency vs continuity**    | New editions matter; but working knowledge often trails by years.                 |
 | **Didactics vs fidelity**    | Pedagogically simple summaries must remain faithful to the source.                |
 
-
 ### F.1:4 - Core idea (didactic)
 
 **Think in Contexts, not in words.**
 A *Context of meaning* is a **U.BoundedContext** (per D.CTX) that encloses a coherent vocabulary and its rules from a **specific, citable canon** (standard, BoK, seminal paper, textbook tradition). You **name and reason** *inside the Context*. When you must step between Contexts, you will **declare a bridge later** (F.9) with explicit losses or mismatches.
-
 
 ### F.1:5 - Minimal vocabulary (this pattern only)
 
@@ -83,7 +80,6 @@ A *Context of meaning* is a **U.BoundedContext** (per D.CTX) that encloses a coh
 * **Domain family.** An **informative** shelf‑label grouping related Contexts (e.g., *workflow & provenance*; *services & deontics*; *sensing & measurement*; *types & taxonomies*; *control & actuation*). **No semantics** attach; Domain ≠ Context.
 * **Context Card.** A **one‑screen** conceptual sketch of a Context (see §7.2).
 * **SenseCell** *(appears downstream)*. A **(Context × Local‑Sense)** address; F.3 will mint these after clustering. Mentioned here only to keep the destination in view.
-
 
 ### F.1:6 - Solution — the Contexts‑first survey (conceptual, notation‑free)
 
@@ -148,7 +144,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 6. **DesignRunTag honesty.** If a canon fixes a DesignRunTag, note it. Do not reinterpret.
 7. **Didactic primacy.** Each Context Card must be readable by a thoughtful engineer in **under two minutes**.
 8. **Domain‑family neutrality.** Domain families **carry no semantics**; they SHALL NOT be used for inheritance, inference, or bridge implication.
-9. **Scope naming separation.** `Scope gist` on Cards is **didactic only**; formal *Scope/describedEntity* (=`USM.ScopeSlice(G)` ⊕ `describedEntity(GroundingHolon, ReferencePlane)`) is declared **in G.0–G.1**, not in F.1.
+9. **Scope naming separation.** `Scope gist` on Cards is **didactic only**; formal *Scope/entityOfConcern* (=`USM.ScopeSlice(G)` ⊕ `entityOfConcern(GroundingHolon, ReferencePlane)`) is declared **in G.0–G.1**, not in F.1.
 10. **Diversity signature present.** Each Context Card PUBLISHES a `dSig` in the 5‑characteristics form.
 11. **Collision rule.** If any pair of Cards has `dSig` matching on ≥3 characteristics, mark **Near‑Duplicate** and either merge  into one slot or replace one by a Context from a different domain‑family. Record action in SCR.
 
@@ -158,7 +154,6 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 * **The homonym ping.** For each frequent word (*process*, *role*, *service*, *model*, *execution*), can you immediately list **the Contexts where it differs**? If not, add the missing Context.
 * **The bridge itch.** Feel the temptation to say “these are the same”? Good. **Write the itch down** and refuse to scratch it here. That’s F.9’s job.
 * **The memory rule.** If your entire survey cannot be recalled **without opening a document**, it is too large.
-
 
 ### F.1:10 - Micro‑examples (illustrative only)
 
@@ -224,7 +219,6 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 * You mark a trip‑wire: **RBAC role** (not in this cut) is *not* a **behavioural role (BPMN participant)**.
 * You resist equating **PROV Activity** with **BPMN workflow**; later **F.9** may relate them with explicit loss.
 
-
 #### F.1:12.2 Method quartet with types & measurement (model state graph)
 
 **Unification line.** Method‑CAL + Kind-CAL + KD‑CAL.
@@ -242,7 +236,6 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 * You keep **Method** (abstract how‑to) separate from **MethodDescription** (epistemic recipe) and **Execution** (run) because the Contexts already split design vs run.
 * You avoid treating **FCA “concept”** as a **U.Type**; later F.9 can bridge OWL classes to FCA concepts with cautions.
 
-
 #### F.1:12.3 Control & actuation with services (operational SLOs in plants)
 
 **Unification line.** Sys‑CAL + LCA‑CAL (planned) + services/deontics.
@@ -259,7 +252,6 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 * “**Actuation**” is recognised as **control output** (Sys‑CAL), not a *service promise*.
 * “**Incident**” (ITIL) is not a plant *fault* (Sys‑CAL); Contexts deter category errors.
-
 
 ### F.1:13 - Reasoning primitives (judgement schemas, notation‑free)
 
@@ -315,7 +307,7 @@ F1-Card v2025‑Q3:
 
 **Builds on:**
 E.10.D1 **Lexical Discipline for “Context” (D.CTX)** — ensures *Context* ≡ *U.BoundedContext* and reserves “Problem Frame” for narrative use.
-A.7 **Strict Distinction** — guards object/description/carrier and DesignRunTag splits while you cut Contexts.
+A.7 **Strict Distinction** — guards EntityOfConcern/Description-episteme/publication-carrier and DesignRunTag splits while you cut Contexts.
 A.11 **Ontological Parsimony** — motivates the small cut.
 
 **Constrains:**
@@ -327,7 +319,6 @@ A.11 **Ontological Parsimony** — motivates the small cut.
 **Used by.**
 Extention patterns in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CAL) as the *lexical starting grid* for their examples and definitions.
 
-
 ### F.1:16 - Migration notes (conceptual)
 
 1. **New edition appears.** Keep the old Card; add a new Card with the new edition. If the sense shifts, treat it as a **new Context**; if it is strictly editorial, mark recency but keep one context.
@@ -336,7 +327,6 @@ Extention patterns in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA�
 4. **Trip‑wire growth.** When you notice a recurring confusion, add a crisp trip‑wire to the relevant Card (one line; no essays).
 5. **Bridges discovered later.** Do not back‑port bridges into F.1; leave the Cards untouched and record the mapping in **F.9**.
 6. **Dormant Contexts.** If a Context no longer contributes to any active line, move it to a *parking shelf* (informative note on the Card) rather than deleting it.
-
 
 ### F.1:17 - Acceptance tests (SCR/RSCR — concept‑level)
 
@@ -358,7 +348,6 @@ Extention patterns in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA�
 * **RSCR‑F1‑E02 (Family balance).** Adding/removing Cards does not drop any line below **three families**.
 * **RSCR‑F1‑E03 (Trip‑wire coverage).** After introducing a new Context, the trip‑wire lists of neighbouring Contexts are reconsidered and updated if needed.
 * **RSCR‑F1‑E04 (No creep).** Periodically apply the **memory rule**: if the cut no longer fits in working memory, shrink it.
-
 
 ### F.1:18 - Didactic distillation (90‑second teaching script)
 

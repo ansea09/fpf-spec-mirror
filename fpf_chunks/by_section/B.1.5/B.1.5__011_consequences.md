@@ -6,12 +6,12 @@ section_id: "B.1.5:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__011_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:10 — Consequences"
-line_start: 29717
-line_end: 29731
+line_start: 29868
+line_end: 29881
 dependencies:
   - "A.12"
   - "A.14"
@@ -43,5 +43,4 @@ keywords:
 
 * **More explicitness up‑front.** Capability typing and MIC authorship require care; in return, later integration is safer.
 * **Adapter discipline.** Modellers must create adapters rather than assuming conversions—this avoids hidden brittleness.
-
 

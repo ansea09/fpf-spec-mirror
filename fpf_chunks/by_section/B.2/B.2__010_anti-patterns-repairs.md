@@ -6,12 +6,12 @@ section_id: "B.2:8"
 section_title: "Anti‑patterns & repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__010_anti-patterns-repairs.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:8 — Anti‑patterns & repairs"
-line_start: 30284
-line_end: 30295
+line_start: 30416
+line_end: 30426
 dependencies:
   - "A.1"
   - "A.12"
@@ -42,5 +42,4 @@ keywords:
 | **Agency as type**         | Introduce `U.Agent` and claim new identity              | Keep agency as role (A.13); MHT only if supervision/closure changes the whole.      |
 | **Boundary amnesia**       | Interfaces changed but not recorded                     | Update BIC; if external commitments change materially, declare MHT.                 |
 | **Order magic**            | Reordering steps treated as emergence                   | If order fixes correctness (Γ\_ctx), no MHT; only closed loops/supervision qualify. |
-
 

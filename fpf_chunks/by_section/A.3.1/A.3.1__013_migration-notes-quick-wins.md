@@ -6,12 +6,12 @@ section_id: "A.3.1:12"
 section_title: "Migration notes (quick wins)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__013_migration-notes-quick-wins.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:12 — Migration notes (quick wins)"
-line_start: 6039
-line_end: 6047
+line_start: 5947
+line_end: 5954
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,5 +42,4 @@ keywords:
 3. **Pull time out.** Move calendars/schedules from specs into **WorkPlan**.
 4. **Parameter hygiene.** Declare parameters at Method or MethodDescription; bind values in **Work**.
 5. **Equivalence notes.** When two specs are intended as the same Method, write an **equivalence note** in the context (pre/post/bounds parity).
-
 

@@ -6,12 +6,12 @@ section_id: "E.10.D1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:3 — Forces"
-line_start: 58502
-line_end: 58511
+line_start: 59639
+line_end: 59647
 dependencies:
   - "A.4"
   - "A.7"
@@ -41,5 +41,4 @@ keywords:
 | Brevity vs precision      | Short labels vs unambiguous reference.                             |
 | Stability vs evolution    | Fixed terms vs edition turnover and language variants (C‑7).       |
 | Parsimony vs expressivity | Few primitives vs enough hooks for Role Assignment & Enactment, Concept Sets, and Bridges. |
-
 

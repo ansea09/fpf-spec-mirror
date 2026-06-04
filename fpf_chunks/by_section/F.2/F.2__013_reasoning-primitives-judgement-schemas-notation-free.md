@@ -6,12 +6,12 @@ section_id: "F.2:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 69054
-line_end: 69095
+line_start: 69883
+line_end: 69923
 dependencies:
   - "A.11"
   - "A.7"
@@ -70,5 +70,4 @@ keywords:
 9. **Ready‑for‑F.3 signal**
    `lexicalOnly(u) ∧ minimal(u) ∧ didactic(u) ⊢ readyF3(u)`
    *A unit is suitable input for **intra‑Context clustering** in F.3.*
-
 

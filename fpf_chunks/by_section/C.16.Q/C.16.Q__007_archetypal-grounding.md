@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 41369
-line_end: 41471
+line_start: 41297
+line_end: 41399
 dependencies:
   - "A.10"
   - "A.16"
@@ -59,7 +59,7 @@ keywords:
 #### C.16.Q:5.1 - Tell
 
 If a draft says *quality*, the draft has not yet named the evaluative family.
-A conforming rewrite publishes either one explicit endpoint-pattern-governed evaluative form or one explicit `qualityTermAscription(...)` transitional record with one `QualitySense`, one bearer tuple, one evaluation frame, one evaluator/viewpoint, one admissible normal form, explicit scope/time/bridge qualifiers when they matter, and declared endpoint governing pattern or publication with named authority-reference relation.
+A conforming rewrite publishes either one explicit endpoint-pattern-governed evaluative form or one explicit `qualityTermAscription(...)` transitional record with one `QualitySense`, one bearer tuple, one evaluation frame, one evaluator and viewpoint, one admissible normal form, explicit scope, time, and bridge qualifiers when they matter, and declared endpoint-governing pattern or explicit endpoint source relation.
 #### C.16.Q:5.2 - Show (System lane)
 
 **Draft:** “The model quality improved.”
@@ -92,7 +92,7 @@ A conforming rewrite publishes either one explicit endpoint-pattern-governed eva
 
 **Draft:** “Quality matters before definition.”
 
-**Repair A — preconceptual / phenomenological line**
+**Repair A — preconceptual or phenomenological line**
 `qualityTermAscription(
   bearer = ProblemFramingEpisode_PF3,
   qualitySense = QS.PreconceptualFit,
@@ -118,7 +118,7 @@ A conforming rewrite publishes either one explicit endpoint-pattern-governed eva
 
 **Draft:** “The architecture quality improved.”
 
-**Repair A — quality of the described system**
+**Repair A — quality of the system-side bearer**
 `qualityTermAscription(
   bearer = PaymentPlatform_v4,
   qualitySense = QS.EngineeringQualityFamily,
@@ -142,7 +142,7 @@ A conforming rewrite publishes either one explicit endpoint-pattern-governed eva
   witnesses = {CoverageMatrix_4, CorrespondenceCheck_7, ViewConsistencyNote_2}
 )`
 
-#### C.16.Q:5.4 - Show (QD / selector lane)
+#### C.16.Q:5.4 - Show (QD or selector lane)
 
 **Draft:** “Quality in our QD loop.”
 

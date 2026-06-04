@@ -6,12 +6,12 @@ section_id: "E.17.EFP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:6 — Bias-Annotation"
-line_start: 62788
-line_end: 62792
+line_start: 63669
+line_end: 63673
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,5 +36,5 @@ keywords:
 ### E.17.EFP:6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: **Universal** for explanation-facing renderings that claim `ExplanationFaithfulnessProfile` on existing MVPK faces inside FPF.
-This profile intentionally biases toward explanation restraint on existing faces and against face inflation, second semantic tracks, and reader-help authority overread. The main mitigation is explicit admissibility by face, explicit no-new-A.6.B-boundary-claims discipline, `A.6.3.CSC` use when narrowed-claim source support becomes primary, and clear boundaries to interpretation, retargeting, work, and world or gate governing patterns or exact project-side FPF kinds and references when explanation stops being only explanation.
+This profile intentionally biases toward explanation restraint on existing faces and against face inflation, second semantic tracks, and reader-help authority overread. The main mitigation is explicit admissibility by face, explicit no-new-A.6.B-boundary-claims discipline, `A.6.3.CSC` use when narrowed-claim source relation becomes primary, and clear boundaries to interpretation, retargeting, work, and world or gate governing patterns or exact project-side FPF kinds and references when explanation stops being only explanation.
 

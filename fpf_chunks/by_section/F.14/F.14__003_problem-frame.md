@@ -6,12 +6,12 @@ section_id: "F.14:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:2 — Problem frame"
-line_start: 73217
-line_end: 73229
+line_start: 73869
+line_end: 73880
 dependencies:
   - "F.1"
   - "F.10"
@@ -43,5 +43,4 @@ Left unchecked, Role and Status vocabularies tend to **diverge**:
 5. **Context blending.** A control‑Context *Actuator* gets treated as an Enactment *Execution* Role; a deontic *Duty* becomes a runtime *Status*.
 
 Explosion harms didactics and increases alignment cost (F.9).
-
 

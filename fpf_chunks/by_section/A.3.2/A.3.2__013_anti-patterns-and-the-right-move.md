@@ -6,12 +6,12 @@ section_id: "A.3.2:12"
 section_title: "Anti‑patterns (and the right move)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__013_anti-patterns-and-the-right-move.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:12 — Anti‑patterns (and the right move)"
-line_start: 6321
-line_end: 6331
+line_start: 6216
+line_end: 6225
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -46,5 +46,4 @@ keywords:
 * **Hiding non‑determinism.** Solver model with no acceptance criteria. → Declare admissible outcome set and tests.
 * **Silent parameter capture.** Hard‑coding values without declaring parameters. → Declare parameters with ranges; bind at Work creation.
 * **Undeclared variant drift.** Copy‑pasting specs and tweaking silently. → Use **VariantOf** with stated deltas or declare a refinement.
-
 

@@ -6,12 +6,12 @@ section_id: "A.3.2:2"
 section_title: "Problem (what breaks without a clear MethodDescription)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__003_problem-what-breaks-without-a-clear-methoddescription.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:2 — Problem (what breaks without a clear MethodDescription)"
-line_start: 6090
-line_end: 6099
+line_start: 5994
+line_end: 6002
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -45,5 +45,4 @@ keywords:
 4. **Algorithm‑centrism.** Only code is considered “the method”, leaving SOPs and scientific procedures second‑class.
 5. **Structure entanglement.** BoM/PBS elements end up inside the recipe; method and product structure tangle.
 6. **Unstated equivalence.** Two specs intended to mean “the same method” are not declared equivalent; teams fork semantics by accident.
-
 

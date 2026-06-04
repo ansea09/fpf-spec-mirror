@@ -6,12 +6,12 @@ section_id: "A.15:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12 — Relations"
-line_start: 19534
-line_end: 19548
+line_start: 19589
+line_end: 19603
 dependencies:
   - "A.10"
   - "A.12"
@@ -54,8 +54,8 @@ keywords:
     *   `B.1.6 Gamma_work`: The aggregation operator for `U.Work`.
     *   `B.4 Canonical Evolution Loop`: The entire loop is a sequence of `U.Work` instances that modify `MethodDescription`s.
     *   `A.15.2 U.WorkPlan`: plan-run split, baselines and variance against `U.Work`.
-    *   `C.28 CausalUse-CAL`: causal-use meaning and support for intervention, counterfactual sampling, target-trial emulation, and causal evidence work; A.15 keeps the role, method, work-plan, and work-occurrence chain.
-*   **Constrains:** Any FPF pattern that models method, plan, work occurrence, or overloaded process language must use this framework to be conformant. It serves as the canonical alignment for **contextual enactment** in the FPF ecosystem.
-*   **Coordinates with:** `L-PROC`, `L-FUNC`, and `L-SCHED` (E-cluster) for lexical disambiguation of _process_, _workflow_, and _schedule_.
+    *   `C.28 CausalUse-CAL`: causal-use admissibility for intervention, counterfactual sampling, target-trial emulation, and causal evidence work; A.15 keeps the role, method, work-plan, and work-occurrence chain.
+*   **Constrains:** Any FPF pattern that models method, plan, work occurrence, or overloaded source language around process terms must use this framework to be conformant. It serves as the canonical alignment for **contextual enactment** in the FPF ecosystem.
+*   **Coordinates with:** `L-PROC`, `L-FUNC`, and `L-SCHED` (E-cluster) for lexical disambiguation of source cues such as _process_, _workflow_, and _schedule_.
 *   **Coordinates with:** `A.15.4` for work-relevant source restoration; `A.6`, `A.6.B`, and `A.6.C` for mixed boundary, policy, API, or schema wording; `A.10` for evidence, currentness, and provenance; `B.3` for assurance claims; `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`; `A.20` for `ConstraintValidity` status or witness; `A.15.1` for release or deployment work occurrence; and `E.17.EFP` for generated-explanation faithfulness or source-finding.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "RepresentationTransduction — same-described-entity representation-scheme transition"
+pattern_title: "RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
 section_id: "A.6.3.RT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__011_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3.RT — RepresentationTransduction — same-described-entity representation-scheme transition"
+  - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
   - "A.6.3.RT:10 — Rationale"
-line_start: 11454
-line_end: 11457
+line_start: 11304
+line_end: 11307
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.3.3"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.CR"
   - "A.6.3.CSC"
   - "A.6.4"
   - "A.7"
@@ -31,6 +32,7 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
+  - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
   - "F.18"
@@ -40,18 +42,9 @@ dependencies:
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
 keywords:
-  - "diagram"
-  - "notation shift"
-  - "reasoning medium"
-  - "recoverability"
-  - "representation transduction"
-  - "same-described-entity representation change"
-  - "source tether"
-  - "state-representation shortcut"
-  - "table"
 ---
 
 ### A.6.3.RT:10 - Rationale
 
-This pattern is worth splitting out because representation changes are already happening in practice and they are not well served by treating every such case as either mere rewriting or full retargeting. Keeping the family under `A.6.3` preserves governing-pattern boundary while making representation-factor and recoverability support needs explicit.
+This pattern is worth splitting out because representation changes are already happening in practice and they are not well served by treating every such case as either mere rewriting or full retargeting. Keeping the family under `A.6.3` preserves governing-pattern boundary while making representation-factor and recoverability evidence needs explicit.
 

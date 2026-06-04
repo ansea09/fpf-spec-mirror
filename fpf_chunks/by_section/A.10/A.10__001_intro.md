@@ -6,12 +6,12 @@ section_id: "A.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:intro — Intro"
-line_start: 18119
-line_end: 18122
+line_start: 18197
+line_end: 18200
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.3.4:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__004_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:3 — Problem"
-line_start: 38215
-line_end: 38222
+line_start: 38211
+line_end: 38217
 dependencies:
   - "C.3.1"
   - "C.3.2"
@@ -28,5 +28,4 @@ keywords:
 2. **Hidden constraints.** Informal “we only accept …” statements leak into prose; guards can’t check them deterministically.
 3. **Scope conflation.** Contextual requirements (jurisdiction, API version) get smuggled into “type” talk, blurring Scope vs Kind.
 4. **Cross‑context fragility.** Masks don’t travel unless their constraints are mapped; teams reuse names and hope.
-
 

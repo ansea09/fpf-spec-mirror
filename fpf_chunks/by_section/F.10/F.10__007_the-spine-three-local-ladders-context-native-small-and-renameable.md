@@ -6,12 +6,12 @@ section_id: "F.10:6"
 section_title: "The spine: three local ladders (Context‑native, small and renameable)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__007_the-spine-three-local-ladders-context-native-small-and-renameable.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:6 — The spine: three local ladders (Context‑native, small and renameable)"
-line_start: 71899
-line_end: 71966
+line_start: 72612
+line_end: 72675
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -41,7 +41,6 @@ keywords:
 
 -   **Mereology ≠ Provenance.** Part‑whole edges never justify claims; use EPV‑DAG with carriers.
 
-
 #### F.10:6.1 - EvidenceStatus (epistemic statusModality)
 
 **EvidenceStatus order (lower-support to higher-support):**
@@ -59,7 +58,6 @@ keywords:
 **Invariants (context‑local):**
 *Replicated ⇒ Corroborated ⇒ Measured ⇒ Observed.* Negative (**Refuted**) cancels positives **within the same Window**.
 
-
 #### F.10:6.2 - StandardStatus (deontic/curatorial statusModality)
 
 **Levels (design‑time stance):**
@@ -75,7 +73,6 @@ keywords:
 
 **Invariants:**
 At most one positive stance at a time **per Context & edition**; **Superseded** implies **Approved** held in a prior Window.
-
 
 #### F.10:6.3 - RequirementStatus (deontic/compliance statusModality)
 
@@ -97,5 +94,4 @@ For the **same clause and Window**, **Satisfied** and **Violated** are **mutuall
 #### F.10:6.4 - Contextual Citation Operators (pointer)
 
 **Citation operators (context‑scoped).** Authors MAY use the **typed edges** `supports`, `refutes`, `dependsOn`, `supersedes` **inside a single Context** when expressing how an `Evidence`/`Standard` status applies. **Formal semantics are governed by B.3.2 (Evidence & Validation Logic).** Cross‑Context use requires a declared **Bridge** (F.9) and carries CL/Loss penalties.
-
 

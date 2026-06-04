@@ -6,12 +6,12 @@ section_id: "F.7:7"
 section_title: "Conceptual construction (thought moves, not workflow)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__008_conceptual-construction-thought-moves-not-workflow.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:7 — Conceptual construction (thought moves, not workflow)"
-line_start: 70488
-line_end: 70498
+line_start: 71273
+line_end: 71282
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -43,5 +43,4 @@ keywords:
 * **Bounding.** Prefer **2–4 Contexts** per row (parsimony); add more only if each adds a *distinct necessity* for the sameness claim.
 * **Typing.** A row is **typed by senseFamily**: Role, Status, Type‑structure, Measurement, etc. **Do not mix senseFamilies** in one row.
 * **Temporal honesty.** A row’s cells must share **compatible DesignRunTag**; if not, either split into two rows or mark a **contrast row**.
-
 

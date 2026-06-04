@@ -6,12 +6,12 @@ section_id: "C.25:17"
 section_title: "Migration and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__018_migration-and-boundary-notes.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:17 — Migration and Boundary Notes"
-line_start: 45449
-line_end: 45486
+line_start: 45366
+line_end: 45403
 dependencies:
   - "A.15"
   - "A.16.0"
@@ -59,7 +59,7 @@ Cross-context transport, bridge loss, or plane mismatch do not change whether th
 
 #### C.25:17.3 - Boundary to publication convenience
 
-A report, summary surface, or executive summary may expose only one slice of a Q-Bundle, but the underlying authoring structure remains the bundle. Publication convenience is not a reason to collapse the ontology at the source.
+A report, summary publication, or executive summary may expose only one slice of a Q-Bundle, but the underlying authoring structure remains the bundle. Publication convenience is not a reason to collapse the ontology at the source.
 
 #### C.25:15.5 - Serviceability and supportability
 
@@ -76,7 +76,7 @@ The lesson is the same as elsewhere in `C.25`: once the truth of the family clai
 
 `C.25` is for engineering quality families whose bearer is a system-side, promise-side, or explicit quality-bearing artifact. It does **not** automatically cover:
 
-- viewpoint-fit or architecture-description adequacy claims, which may belong in viewpoint or evaluative-ascription patterns,
+- viewpoint-fit or grounded architecture adequacy claims, which may belong in viewpoint or evaluative-ascription patterns,
 - or selector/objective heads where *quality* means use-value under a search or portfolio frame.
 
 This boundary matters because the same word *quality* appears across those zones. `C.16.Q` repairs overloaded quality wording, `C.16.P` repairs characteristic, scale, score, metric, or proxy wording when that is the hidden object, and the resting endpoint depends on what is actually being evaluated.

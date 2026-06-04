@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.H.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
-line_start: 17041
-line_end: 17406
+line_start: 17191
+line_end: 17555
 dependencies:
   - "A.14"
   - "A.15"
@@ -28,7 +28,7 @@ keywords:
   - "mereology"
   - "order/time"
   - "part-of"
-  - "publication-carrier and describedEntity distinction"
+  - "publication-carrier and EntityOfConcern/Description distinction"
   - "role-method-work"
   - "wholeness"
 ---
@@ -335,7 +335,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 
 ### A.6.H:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern                 | Symptom                                                                | Why it fails (force violated)                                        | How to avoid / repair                                                                             |
+| Anti-pattern                 | Symptom                                                                | Why it fails                                        | How to avoid / repair                                                                             |
 | ---------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | **Holistic-as-evasion**      | “We took a holistic view” replaces boundary/scope detail               | Sacrifices auditability for conversational economy                   | State the boundary, environment, and scope (G); use wholeness facets explicitly                   |
 | **Universal part-of**        | Everything is “part of” everything                                     | Breaks portability; different readers infer different relations      | Replace with ComponentOf/ConstituentOf/PortionOf/PhaseOf/MemberOf                                 |
@@ -398,4 +398,3 @@ Scale legality note: whenever “fraction/percentage/share” appears in wholene
 ### A.6.H:End
 
 # Cluster A.V - Constitutional Principles of the Kernel
-

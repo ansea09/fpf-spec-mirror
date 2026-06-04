@@ -6,12 +6,12 @@ section_id: "A.2.8:End"
 section_title: "A.2.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__015_a-2-8-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:End — A.2.8:End"
-line_start: 5301
-line_end: 5303
+line_start: 5222
+line_end: 5223
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -39,5 +39,4 @@ keywords:
 ---
 
 ### A.2.8:End
-
 

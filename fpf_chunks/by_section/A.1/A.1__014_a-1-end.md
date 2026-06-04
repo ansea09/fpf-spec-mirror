@@ -6,12 +6,12 @@ section_id: "A.1:End"
 section_title: "A.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__014_a-1-end.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:End — A.1:End"
-line_start: 1312
-line_end: 1313
+line_start: 1314
+line_end: 1315
 dependencies:
   - "A.1"
   - "A.1.1"

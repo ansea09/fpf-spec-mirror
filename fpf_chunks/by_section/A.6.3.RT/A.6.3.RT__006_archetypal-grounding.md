@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "RepresentationTransduction — same-described-entity representation-scheme transition"
+pattern_title: "RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
 section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3.RT — RepresentationTransduction — same-described-entity representation-scheme transition"
+  - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 11309
-line_end: 11393
+line_start: 11161
+line_end: 11243
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.3.3"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.CR"
   - "A.6.3.CSC"
   - "A.6.4"
   - "A.7"
@@ -31,6 +32,7 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
+  - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
   - "F.18"
@@ -40,15 +42,6 @@ dependencies:
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
 keywords:
-  - "diagram"
-  - "notation shift"
-  - "reasoning medium"
-  - "recoverability"
-  - "representation transduction"
-  - "same-described-entity representation change"
-  - "source tether"
-  - "state-representation shortcut"
-  - "table"
 ---
 
 ### A.6.3.RT:5 - Archetypal grounding
@@ -59,7 +52,7 @@ keywords:
 **Published table slice.** `| Service | Window | Spike count | Source pins |
 | Service S | Evening batch | 3 | T-44, D-17 |`
 
-This is an admissible direct `RepresentationTransduction` if no new claims are introduced, the same described entity stays explicit, and the representation-factor delta is declared. In ordinary engineering use, this usually needs a visible source tether, explicit loss notes if anything was omitted, and a clear statement that the table is still about the same service occurrence rather than a new described entity.
+This is an admissible direct `RepresentationTransduction` if no new claims are introduced, the same EntityOfConcern stays explicit, and the representation-factor delta is declared. In ordinary engineering use, this usually needs a visible source-relation path, explicit loss notes if anything was omitted, and a clear statement that the table is still about the same service occurrence rather than a new EntityOfConcern.
 
 #### A.6.3.RT:5.2 - Same-entity table-to-diagram shift
 **Source table slice.** `| Node | Depends on |
@@ -68,15 +61,15 @@ This is an admissible direct `RepresentationTransduction` if no new claims are i
 
 **Published diagram slice.** `CoolingLoop -> Sensor A; CoolingLoop -> Valve B`
 
-The move stays in this pattern only if the described entity is preserved, the diagram does not silently add new semantic commitments, and reasoning-medium change is declared. If the diagram starts asserting dependency theory not actually stated by the source table, the case must reopen and may leave this pattern.
+The move stays in this pattern only if the EntityOfConcern is preserved, the diagram does not silently add new semantic commitments, and reasoning-medium change is declared. If the diagram starts asserting dependency theory not actually stated by the source table, the case must reopen and may leave this pattern.
 
 #### A.6.3.RT:5.2.a - Correspondence-mediated text-to-table shift
-**Source prose slice.** `In the safety view, CL-2 maintains the required temperature condition during standard load.`
+**Source prose slice.** `In the safety view, CL-2 maintains the required temperature condition during standard operating demand.`
 
 **Published table slice.** `| View | Entity | Condition | Correspondence model |
-| Safety | CL-2 | required temperature condition during standard load | CM-12 |`
+| Safety | CL-2 | required temperature condition during standard operating demand | CM-12 |`
 
-The move stays in this pattern only if the correspondence remains explicit, the described entity stays preserved, and the resulting table does not quietly import bridge semantics or a changed described entity. Because the required correspondence support is doing real work here, a source-bearing continuity note is often warranted instead of relying only on the rendered table.
+The move stays in this pattern only if the correspondence remains explicit, the EntityOfConcern stays preserved, and the resulting table does not quietly import bridge semantics or a changed EntityOfConcern. Because the required correspondence witness is doing real work here, a source-bearing continuity note is often warranted instead of relying only on the rendered table.
 
 #### A.6.3.RT:5.2.b - Same-entity diagram-to-structured-notation shift
 **Source diagram slice.** `CoolingLoop -> Sensor A; CoolingLoop -> Valve B`
@@ -84,7 +77,7 @@ The move stays in this pattern only if the correspondence remains explicit, the 
 **Published notation slice.** `dependsOn(CoolingLoop, SensorA)`
 `dependsOn(CoolingLoop, ValveB)`
 
-This remains under `RepresentationTransduction` when the notation stays tethered to the same relation line already visible in the diagram, the described entity remains preserved, and no additional dependency theory is silently imported by the notational rendering.
+This remains under `RepresentationTransduction` when the notation states the same relation line already visible in the diagram, the EntityOfConcern remains preserved, and no additional dependency theory is silently imported by the notational rendering.
 
 #### A.6.3.RT:5.2.c - Functional-description diagram/table/screen shift
 
@@ -93,7 +86,7 @@ This remains under `RepresentationTransduction` when the notation stays tethered
 **Published table/screen slice.** `| Function relation | Source | Target | Limit |`
 `| transfer and heat before reaction | Tank A | R-4 via H-2 | no control-loop claim |`
 
-This remains `RepresentationTransduction` only when the same described entity is preserved and the table or screen changes representation scheme or reasoning medium without adding performed-work order, module structure, evidence, gate passage, or control architecture. If the diagram, table, or screen changes the governed target into a functional, control, or flow architecture claim rather than re-rendering the already declared functional slice, leave this pattern for `A.6.4`, `OntologicalReframing`, or `E.18` as applicable. If the diagram order is explanatory, causal, dependency-like, or didactic, do not read it as physical time order or performed-work sequence unless that temporal claim is present in the source episteme and separately supported. If a parser or OCR step only extracts pixels, text, or carrier layout from a scanned diagram or screen, start with `A.7`; enter this pattern only when the extracted structure is being treated as a same-described-entity representation of source `U.Episteme` claims with source tether and loss notes visible.
+This remains `RepresentationTransduction` only when the same EntityOfConcern is preserved and the table or screen changes representation scheme or reasoning medium without adding performed-work order, module structure, evidence, gate passage, or control architecture. If the diagram, table, or screen turns the receiving representation into a functional, control, or flow architecture claim rather than re-rendering the already declared functional slice, leave this pattern for `A.6.4`, `OntologicalReframing`, or `E.18` as applicable. If the diagram order is explanatory, causal, dependency-like, or didactic, do not read it as physical time order or performed-work sequence unless that temporal claim is present in the source episteme and separately admissible. If a parser or OCR step only extracts pixels, text, or carrier layout from a scanned diagram or screen, start with `A.7`; enter this pattern only when the extracted structure is being treated as an entityOfConcernRef-preserving representation of source `U.Episteme` claims with source-relation path and loss notes visible.
 
 If the published screen becomes honest only by omitting exceptions, confidence bands, or source distinctions and by carrying a narrower admissible use with source-bearing return, move to `A.6.3.CSC Controlled Semantic Coarsening` rather than keeping the case here as ordinary representation transduction.
 
@@ -108,26 +101,24 @@ A representation shift is performed mainly to teach or narrate rather than to pu
 
 **Published comparative slice.** `Pump P-2 in W-3 behaves like Unit U-7 in Plant B and can therefore be treated as operationally equivalent for this comparison.`
 
-This does **not** stay in `RepresentationTransduction`. The rendering has moved from a same-described-entity representation shift to comparative or bridge-bearing reading across contexts. Once the publication starts asserting cross-context equivalence, substitution, or comparative licence, the case must leave this pattern and move to explicit bridge-governed review.
+This does **not** stay in `RepresentationTransduction`. The rendering has moved from an entityOfConcernRef-preserving representation shift to comparative or bridge-bearing interpretation across contexts. Once the publication starts asserting cross-context equivalence, substitution, or comparative licence, the case must leave this pattern and move to explicit bridge-governed review.
 
 #### A.6.3.RT:5.4.b - Boundary to carrier/export work
 **Source rendering slice.** `| Service | Window | Spike count | Source pins |`
 
 **Published export slice.** `latency-report.csv` and dashboard PNG generated from the same table.
 
-This also stays outside `RepresentationTransduction`. The representation scheme was already chosen; what follows is carrier formatting, export, packaging, or rendering work on that representation. The didactic point is that not every change in visible form is a new same-described-entity representation transition.
+This also stays outside `RepresentationTransduction`. The representation scheme was already chosen; what follows is carrier formatting, export, packaging, or rendering work on that representation. The didactic point is that not every change in visible form is a new entityOfConcernRef-preserving representation transition.
 
 #### A.6.3.RT:5.4.c - Boundary to coarsened dashboard view
 **Source slice.** `The incident worksheet tracks three causal branches, two confidence bands, and one still-open ambiguity note for Service S.`
 
 **Published dashboard tile.** `Service S: current dashboard view foregrounds cache-failover evidence; alternative branches and confidence bands remain in the incident worksheet.`
 
-This does **not** remain ordinary `RepresentationTransduction` if the tile is treated as more than a narrow report view. The tile foregrounds one causal branch and suppresses uncertainty and alternative branches, so it stays honest only with source-bearing return to the source-bearing worksheet and a non-admissible downstream-use line. It is not a causal proof, service status verdict, or action cue. Once that narrower-use card becomes primary, the case leaves ordinary same-described-entity representation transduction and must use `A.6.3.CSC Controlled Semantic Coarsening` rather than being treated as a normal scheme shift.
-
-
+This does **not** remain ordinary `RepresentationTransduction` if the tile is treated as more than a narrow report view. The tile foregrounds one causal branch and suppresses uncertainty and alternative branches, so it stays honest only with source-bearing return to the source-bearing worksheet and a non-admissible downstream-use line. It is not a causal proof, service status verdict, or action cue. Once that narrower-use card becomes primary, the case leaves ordinary entityOfConcernRef-preserving representation transduction and must use `A.6.3.CSC Controlled Semantic Coarsening` rather than being treated as a normal scheme shift.
 
 #### A.6.3.RT:5.5 - Boundary to decode-mediated latent cases
-A reviewer or decode path tries to restate a latent region or distributed feature cluster as explicit entity/relation content. This stays outside the admissible same-described-entity path under `A.6.3.RT` unless the pinned source claim or publication, decode path or access route, recoverability evidence, admissible use-support value, and remaining reader action are already present. Readable decode output alone is not enough.
+A reviewer or decode path tries to restate a latent region or distributed feature cluster as explicit entity/relation content. This stays outside the admissible entityOfConcernRef-preserving path under `A.6.3.RT` unless the pinned source claim or publication, decode path or access route, recoverability evidence, admissible-use value, and remaining reader action are already present. Readable decode output alone is not enough.
 
 #### A.6.3.RT:5.5.a - Guarded decode-mediated readout
 **Pinned source cluster.** `Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4 for the same diagnostic case.`

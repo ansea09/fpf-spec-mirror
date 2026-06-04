@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution — The unified concept U.PromiseContent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__005_solution-the-unified-concept-u-promisecontent.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:4 — Solution — The unified concept U.PromiseContent"
-line_start: 2605
-line_end: 2802
+line_start: 2581
+line_end: 2777
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -126,7 +126,7 @@ U.OutcomeSpec ::= {
   },
 
   resultSpec?: {
-    describedEntityRef?: EntityRef,               // what thing’s post‑state matters (may be kind‑labelled)
+    entityOfConcernRef?: EntityRef,               // what thing’s post‑state matters (may be kind‑labelled)
     statePlaneRef?: StatePlaneRef,                // where the predicate lives (A.7:3 pins)
     postConditionRef: EpistemeRef                 // predicate on post‑state (or evidence about it)
   }
@@ -245,5 +245,4 @@ flowchart LR
 
 **Litmus rule (addressability).**
 If you can *call / connect to / visit / restart / scale* it, you are talking about a **service access point** (system facet), not the **promise content** (promise content).
-
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
-line_start: 35989
-line_end: 36161
+line_start: 36076
+line_end: 36247
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,7 +38,6 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Articulation explicitness.
-
 
 ### C.2.4:1 - Problem frame
 A governed `U.Episteme` can already matter while its semantic shape is not yet fully explicit. The declared language-state chart over `U.CharacteristicSpace` therefore needs one basis-slot governing pattern for how explicit that shape already is, without confusing articulation with rigor, truth, or closure.

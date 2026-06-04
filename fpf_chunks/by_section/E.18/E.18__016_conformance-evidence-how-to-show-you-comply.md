@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance evidence (how to show you comply)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_conformance-evidence-how-to-show-you-comply.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:15 — Conformance evidence (how to show you comply)"
-line_start: 65227
-line_end: 65237
+line_start: 66100
+line_end: 66110
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -49,5 +49,5 @@ keywords:
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 
-Does not replace: `A.20` constraint-validity checks, `A.21` gate decisions and GateProfile semantics, `E.20` mechanism-meaning placement, `E.17` MVPK publication faces and viewpoint bundles, `A.15` work plans or work enactments, `G.5` selector and set-return semantics, `G.11` refresh orchestration, `A.10`/`G.6` evidence support, `C.30` architecture-description adequacy, `C.30.ASV` structural-view adequacy, or `C.30.TGA-FLOW-REL` architecture-flow relation support.
+Does not replace: `A.20` constraint-validity checks, `A.21` gate decisions and GateProfile semantics, `E.20` mechanism-meaning placement, `E.17` MVPK publication faces and viewpoint bundles, `A.15` work plans or work enactments, `G.5` selector and set-return semantics, `G.11` refresh orchestration, `A.10`/`G.6` evidence relations, `C.30` grounded architecture and selected-structure adequacy, `C.30.ASV` structural-view adequacy, or `C.30.TGA-FLOW-REL` architecture-flow relation claim.
 

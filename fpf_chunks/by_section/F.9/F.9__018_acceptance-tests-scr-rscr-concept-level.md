@@ -6,12 +6,12 @@ section_id: "F.9:16"
 section_title: "Acceptance tests (SCR/RSCR — concept-level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__018_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:16 — Acceptance tests (SCR/RSCR — concept-level)"
-line_start: 71476
-line_end: 71493
+line_start: 72198
+line_end: 72214
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -62,5 +62,4 @@ keywords:
 * **RSCR-F9-E02 (Counter-example drift).** New counter-examples lower **CL**; deletions do not automatically raise **CL**.
 * **RSCR-F9-E03 (senseFamily drift).** If a Cell's `senseFamily` is corrected, all Bridges crossing that Cell are re-typed; any substitution that would now cross senseFamilies is invalidated.
 * **RSCR-F9-E04 (Weakest-link enforcement).** Adding a low-CL Bridge to a row reduces the row's scope; if the row's published scope would exceed the new minimum, split or downgrade the row.
-
 

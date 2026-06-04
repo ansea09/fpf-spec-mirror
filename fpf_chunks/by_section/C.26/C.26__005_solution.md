@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 45654
-line_end: 45972
+line_start: 45570
+line_end: 45880
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ Action path:
 2. Name the concrete representational mistake: passive read, shared comparison frame, false faithful-enough export claim for the intended use, exact-state shortcut, or unsupported coarsened representation.
 3. Test the positive QL cue and the negative activation list.
 4. Fill the QL-lite card if the cue survives.
-5. Emit one practical result: use ordinary pattern only, add QL-lite note, select one C.26 child pattern as the applicable pattern body, add evidence/assurance, or drop the QL wording.
+5. Emit one practical result: use ordinary pattern only, add QL-lite note, select one C.26 child pattern as the applicable pattern body, add evidence and assurance, or drop the QL wording.
 6. Escalate only when the claim becomes reusable, assurance-bearing, formal, empirical-superiority-bearing, or ontology-bearing.
 
 C.26 ordinary output: produce one of these, then stop or select the neighboring applicable pattern body:
@@ -87,7 +87,7 @@ Affordability by working-reader situation:
 | Assurance or audit reader | Full evidence record with `B.3`, `A.10`, and `C.16` integration. |
 | Research or formalization reader | M3 or M4 formal model, rival models, and empirical or theoretical support. |
 
-Do not require a practitioner or architect to produce a researcher-level record when the claim is only recognition or local-working support posture.
+Do not require a practitioner or architect to produce a researcher-level record when the claim is only recognition or local-working support condition.
 
 Checking discipline:
 
@@ -170,12 +170,9 @@ Canonical cue grammar:
 | Distributed-state reading | Coordinated behavior, trace pattern, or work result supports a low-recoverability state reading no single carrier faithfully exports, after ordinary rivals are checked. |
 | Viability envelope | Probe, sensor, actuator, export, boundary condition, or coarsening changes the admissible viability reading. |
 | Coarsening | The reduced-detail state representation depends on a QL cue plus declared loss, admissible use, non-admissible downstream use, and reopen trigger; ordinary compression or abstraction alone is not enough. |
-
-
 | Positive activation pressure | Negative activation test |
 | --- | --- |
 | Load-bearing order effect, frame effect, incompatible probe structure, response-replicability tension, measurement-changing-state, no faithful-enough export under the declared probe, frame, or use, bridge export of the state that is not faithful enough for the current use, mutual interaction where neither side's output can be used as a faithful-enough local export of the joint state under the intended decision frame after ordinary feedback relations are tried, or state-representation coarsening whose admissible use changes because of a declared QL cue. | No QL activation from discreteness, tokenization, low-bit quantization, stochasticity, ordinary uncertainty, nonlinearity, complexity, ordinary coupling, ordinary feedback, emergence, tacit knowledge, ordinary openness, ordinary compression, ordinary coarsening, ordinary DDD locality, ordinary API boundary, ordinary bridge loss, ordinary feedback control, or impressive quantum-like vocabulary alone. |
-
 
 Practical payoff in ordinary prose:
 
@@ -198,7 +195,6 @@ Child patterns inherit `QL-NQ`. They should not restate the global boundary as l
 
 Before retaining `QL-lite`, `QL-NQ`, or a quantum-like framing for a live claim, check whether the actual question is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data. If so, redirect the claim/question to `C.28` before any quantum-like retention.
 
-
 ```text
 CC-C26-CAUSAL-EXIT:
 If the live question is intervention, counterfactual comparison,
@@ -210,9 +206,7 @@ What changes in practice: "the model is quantum-like" cannot be used to skip cau
 
 What this does not authorize: `C.26` does not become a causal-use pattern and does not treat counterfactual material as a quantum-like subcase; it keeps quantum-like modeling discipline and sends causal-use support to `C.28`.
 
-
 Use this as a diagnostic sequence before retaining QL wording. DDD, microservice domain analysis, and ordinary boundary/bridge patterns stay first for bounded contexts, service cuts, integration points, and exported meaning; QL is retained only when a workshop, probe, export, or frame changes what can admissibly be inferred.
-
 
 1. Measurement, metric, scale, method, evidence, or assurance load goes first to measurement and evidence patterns: `C.16`, `A.10`, or `B.3`.
 2. Bridge, translation, publication, rendering, or exported-loss question goes first to bridge and publication patterns: `F.9`, `E.17`, or `E.17.EFP`.
@@ -237,15 +231,14 @@ C.26 does not choose among options, generate missing alternatives, or settle `C.
 
 #### C.26:4.3 - Escalation by evidence or authority demand
 
-| Claim-use posture | Use | Required basis |
+| Claim-use class | Use | Required basis |
 | --- | --- | --- |
 | Ordinary FPF pattern | QL is not needed. | Use the ordinary FPF pattern plainly. |
 | QL-lite note | Local diagnosis, model note, or worked recognition. | Fill the five-field card. |
 | Reusable pattern prose | A pattern, example, or neighboring note will repeat the move. | Add typed state, probe, or export fields, source support, and local anti-cases. |
-| Decision or assurance use | The claim affects boundary, release, audit, evidence, or work decision. | Add rival explanations, evidence posture, loss notes, and explicit neighboring-pattern selection. |
+| Decision or assurance use | The claim affects boundary, release, audit, evidence, or work decision. | Add rival explanations, evidence-use class, loss notes, and explicit neighboring-pattern selection. |
 | Ontology or physical claim | A physical substrate, new ontology, or empirical superiority is asserted. | This pattern does not support the claim; use a separate physical or empirical support outside this pattern cluster. |
 For QL claims that carry decision, assurance, ontology, physical-substrate, or empirical-superiority use, compare rival model families before retaining QL as load-bearing. Failure of a simple Bayesian or passive-read model is not yet evidence for QL necessity; it is evidence for trying richer classical, causal, performative, instrument, active-sensing, or representation-abstraction rivals before QL carries the claim:
-
 
 | Rival family | Use first | Keep QL active only when |
 | --- | --- | --- |
@@ -256,10 +249,9 @@ For QL claims that carry decision, assurance, ontology, physical-substrate, or e
 | State abstraction, representation learning, surrogate modeling, sketching, or ordinary compression | `A.6.3.CSC`, `A.6.3.RT`, `A.19`, `F.9`, and ordinary representation patterns | the shortcut depends on contextual, instrument-like, open-information-system update/probe/export-admissibility, or incompatible-probe structure rather than ordinary abstraction engineering. |
 | Causal abstraction or approximate causal abstraction | Use first when the shortcut claims to preserve intervention, explanation, manipulation, or cross-scale structure. | contextual probability, incompatible probes, instrument-like update, open-information-system update rule/probe-frame/export-admissibility, or lossy state export remains after the causal-abstraction mapping between source-scale and target-scale states and interventions is stated. |
 
-
 Math reveal sequence:
 
-| Mathematical-formality posture | Use | Form |
+| Mathematical-formality class | Use | Form |
 | --- | --- | --- |
 | M0 - no math | Everyday FPF use. | Plain-language QL-lite note: false passive read, output, admissible use, and stop. |
 | M1 - structural sketch | A reader needs to see why ordinary comparison or export fails. | Diagram or table: probes, frames, carriers, export loss, unsupported comparison. |
@@ -269,16 +261,16 @@ Math reveal sequence:
 
 Most C.26 use should stay at M0 or M1.
 
-Evidence posture is escalation by consequence, not an admission gate. `QLP-0` or `QLP-1` is the ordinary entry posture for quick QL-lite use; `QLP-2` / `QLP-3` appears only when the claim is reused, contested, decision-bearing, assurance-facing, high-impact, or made part of reusable pattern action guidance or conformance text.
+Evidence-use class is escalation by consequence, not an admission gate. `QLP-0` or `QLP-1` is the ordinary entry class for quick QL-lite use; `QLP-2` / `QLP-3` appears only when the claim is reused, contested, decision-bearing, assurance-facing, high-impact, or made part of reusable pattern action guidance or conformance text.
 
-Evidence posture scales by use:
+Evidence-use class scales by use:
 
 | Level | Use | Required content |
 | --- | --- | --- |
 | `QLP-0` recognition | Example, teaching case, or local recognition prompt. | Claim, example, ordinary FPF pattern, QL cue, and local stop. |
-| `QLP-1` local working use | Local architecture discussion, triage, or provisional design reasoning. | `QLP-0` content plus evidence carrier, time window, uncertainty/confidence posture, and stop/reroute condition. |
+| `QLP-1` local working use | Local architecture discussion, triage, or provisional design reasoning. | `QLP-0` content plus evidence carrier, time window, uncertainty/confidence statement, and stop/reroute condition. |
 | `QLP-2` decision-bearing use | Boundary decision, bridge/export use, viability move, work claim, or representation shortcut changes what the team should do. | `QLP-1` content plus rival explanations, export/loss note when live, minimal admissible output, selected applicable pattern body, admissible use, and non-admissible use. |
-| `QLP-3` assurance or reusable guidance use | The claim is used for assurance, audit, durable pattern action guidance or conformance text, reusable relation/name/measure, or high-stakes decision support. | `QLP-2` content plus `A.10` and `B.3` assurance posture, `C.16` template if measured, documented bridge and loss path, source-support role, and explicit local stop or inherited-boundary note. |
+| `QLP-3` assurance or reusable guidance use | The claim is used for assurance, audit, durable pattern action guidance or conformance text, reusable relation/name/measure, or high-stakes decision support. | `QLP-2` content plus `A.10` and `B.3` assurance result, `C.16` template if measured, documented bridge and loss path, source-support role, and explicit local stop or inherited-boundary note. |
 
 #### C.26:4.4 - Recognition case matrix
 
@@ -298,14 +290,14 @@ Evidence posture scales by use:
 
 This card discipline is active when a fuller state representation is too detailed, unstable, unavailable, or expensive for the current bounded decision and a reduced-detail state representation is useful only under a declared QL cue. It is not a standalone speed pattern, not a standalone coarsening pattern, and not a new state-representation kind.
 
-C.26 does not carry ordinary coarsening. `A.6.3.CSC` carries controlled coarsened rendering; `A.6.3.RT` carries same-described-entity representation-scheme transition; `A.19`, `U.Dynamics`, modeling patterns, and ordinary abstraction patterns carry ordinary state abstraction. C.26 carries only the residual QL cue plus the loss/use boundary for this shortcut.
+C.26 does not carry ordinary coarsening. `A.6.3.CSC` carries controlled coarsened rendering; `A.6.3.RT` carries same-selected-entity representation-scheme transition; `A.19`, `U.Dynamics`, modeling patterns, and ordinary abstraction patterns carry ordinary state abstraction. C.26 carries only the residual QL cue plus the loss/use boundary for this shortcut.
 
 Question-to-pattern map:
 
 | Main question | First FPF pattern or relation |
 | --- | --- |
 | Coarsened rendering of source episteme or source publication for narrower use | `A.6.3.CSC` |
-| Same-described-entity representation-scheme or reasoning-medium transition | `A.6.3.RT` |
+| Same-selected-entity representation-scheme or reasoning-medium transition | `A.6.3.RT` |
 | Cross-context equivalence, substitution, projection, export, or loss | `F.9` / `F.9.1` |
 | Measurement coordinate, scale, score, result, or dashboard reading | `C.16` |
 | Evidence carrier, provenance, method, support, or time window | `A.10` |

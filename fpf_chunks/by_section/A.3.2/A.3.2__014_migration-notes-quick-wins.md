@@ -6,12 +6,12 @@ section_id: "A.3.2:13"
 section_title: "Migration notes (quick wins)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__014_migration-notes-quick-wins.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:13 — Migration notes (quick wins)"
-line_start: 6332
-line_end: 6341
+line_start: 6226
+line_end: 6234
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -45,5 +45,4 @@ keywords:
 4. **Write acceptance criteria.** Especially for search/optimization or ML specs.
 5. **Declare equivalence/refinement.** Where two notations intend “the same way,” add an **equivalence note**; where the new one tightens bounds, declare **refinement**.
 6. **Bridge domains.** If two departments use different vocabularies, add a **Bridge (`U.Alignment`)** rather than forcing a single spec.
-
 

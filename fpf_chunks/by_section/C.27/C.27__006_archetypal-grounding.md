@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:5 — Archetypal Grounding"
-line_start: 48352
-line_end: 48664
+line_start: 48221
+line_end: 48525
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -53,12 +53,11 @@ Read these cases before the fuller field definitions. They show admissible stopp
 
 - no C.27 record for ordinary state, metaphor, or unsupported broad-use language;
 - Dyn1 or C.16 when the live issue is only measured rate;
-- `Dyn2TemporalClaimAdequacyCard` when a local temporal intervention, rhythm, braking, coasting, or tool-use rate-change claim needs bounded basis;
-- `Dyn2TemporalClaimProfile` or a named FPF pattern relation only when the authored temporal claim is used beyond the local working context, benchmarks, promises, assures, becomes causal, crosses scale, or carries decision-use that affects gate, release, assurance, benchmark, or work-planning posture.
+- `Dyn2TemporalClaimAdequacyCard` when a local temporal intervention, rhythm, braking, coasting, or tool-use rate-change claim needs a bounded evidence path, model assumption, planning assumption, or neighbouring-pattern relation;
+- `Dyn2TemporalClaimProfile` or a named FPF pattern relation only when the authored temporal claim is used beyond the local working context, benchmarks, promises, assures, becomes causal, crosses scale, or carries decision-use that affects gate, release, assurance, benchmark, or work-plan use.
 
 **Example breadth (informative).** C.27 appears across several work domains, not
 only project-velocity prose.
-
 
 | Domain | Example | Why C.27 cares |
 | --- | --- | --- |
@@ -69,30 +68,25 @@ only project-velocity prose.
 | Metric target | Velocity target improves velocity. | Metric-as-measure, target pressure, work change, proxy distortion, and residual probe cue stay distinct. |
 | Search | Faster shortlist. | Faster narrowing can damage exploration health and frontier coverage. |
 | Learning | Time-to-threshold on one task family. | C.22.1 carries task-family adaptation signature. |
-| Rhythm/practice | Daily drills stabilize review rhythm. | Rhythm needs bearer, anchor, window, basis/proxy, and admissible use. |
-| Scale | More tokens, data, or reviewers improve rate. | C.18.1 carries scale variable and elasticity posture. |
+| Rhythm/practice | Daily drills stabilize review rhythm. | Rhythm needs bearer, timing reference, window, basis/proxy, and admissible use. |
+| Scale | More tokens, data, or reviewers improve rate. | C.18.1 carries scale variable and scale-elasticity value. |
 | Cross-scale | Team throughput becomes organization agility. | Aggregation basis, bearer continuity, and mix shift must be visible. |
 | Viability | Slow rollout protects support capacity. | Braking can be the adequate temporal move; slowing down is a supported envelope-regulation outcome when acceleration would damage recovery, support load, or promise reliability. |
 | QL negative | Dashboard or probe wording appears. | C.26 is relevant only for residual probe, frame, export, or coarsening cue after ordinary pattern relations. |
-
-
 | Teaching case | Example | Expected classification |
 | --- | --- | --- |
 | Snapshot | "Backlog is 120 items today." | Dyn0; no C.27 record unless use changes. |
-| Trend | "Backlog fell by 20 items/week." | Dyn1 with C.16 measurement basis if FPF-force-bearing. |
+| Trend | "Backlog fell by 20 items/week." | Dyn1 with C.16 measurement basis if FPF-governed. |
 | Intervention | "Adding review capacity for two sprints will double backlog reduction rate." | `Dyn2TemporalClaimAdequacyCard`; full `Dyn2TemporalClaimProfile` usually overkill unless the authored temporal claim is used beyond local pilot or plan use. |
 | Benchmark or publication | "Method A improves faster than Method B and should be published as superior." | `Dyn2TemporalClaimProfile` or pattern reference is justified: G.9 benchmark parity, C.16 measurement, possible `C.28` causal-use relation, and C.27 dynamic-claim relation declaration. |
 | Dynamic anti-leaderboard | "Both methods reached the same final score, so they are equivalent." | Not enough if adaptation window, effort parity, hidden rework, validity window, or recovery profile differs; G.9 carries parity and C.27 names the temporal parity question. |
 | Agentic tool-use | "More tool calls will speed debugging." | C.24 plus `Dyn2TemporalClaimAdequacyCard`; tool-call count is effort evidence or input evidence, not task-success, evidence-quality, repair-success, or cost evidence, so the claim names task outcome, evaluation harness, stop or replan condition, validity window, and non-admissible use as a benchmark claim. |
-| Scale trap | "Doubling reviewers, data, or model capacity will double improvement rate." | C.18.1 carries scale variable, scale window, probes, and elasticity posture; C.27 is live only if the scale claim is used as a rate-change basis, and linear temporal improvement remains unsupported without evidence. |
-
-
-| Rhythm / practice | "Daily drills stabilize training rhythm." | `Dyn2TemporalClaimAdequacyCard` with rhythm bearer, anchor, window, basis/proxy, and admissible use; coupling only if the claim depends on synchronization between bearers. |
+| Scale trap | "Doubling reviewers, data, or model capacity will double improvement rate." | C.18.1 carries scale variable, scale window, probes, and scale-elasticity value; C.27 is live only if the scale claim is used as a rate-change basis, and linear temporal improvement remains unsupported without evidence. |
+| Rhythm / practice | "Daily drills stabilize training rhythm." | `Dyn2TemporalClaimAdequacyCard` with rhythm bearer, timing reference, window, basis/proxy, and admissible use; coupling only if the claim depends on synchronization between bearers. |
 | False positive | "This chapter accelerates reader orientation." | Usually ordinary prose; no C.27 record unless used as a claim about method effectiveness. |
 | Causal trap | "Velocity rose after the workshop, so the workshop caused it." | C.27 marks the temporal-claim question only; `C.28` causal-use relation and evidence relation are required before causal use. |
-| Cross-scale trap | "Team throughput accelerated, so every service improved." | `dyn2CrossScaleTransferBlock?` is unsupported without source bearer, target bearer, aggregation basis, bearer continuity, mix-shift risk, and `dynamicTransferPosture`. |
+| Cross-scale trap | "Team throughput accelerated, so every service improved." | `dyn2CrossScaleTransferBlock?` is unsupported without source bearer, target bearer, aggregation relation, bearer continuity, mix-shift risk, and `crossScaleTransferUseBoundary`. |
 | Braking | "Slow rollout protects support capacity." | `Dyn2TemporalClaimAdequacyCard` or `Dyn2TemporalClaimProfile` depending on supported decision; the move may be a correct protection of viability, not a failure to accelerate. |
-
 
 Additional dynamic near-misses:
 
@@ -102,7 +96,7 @@ Additional dynamic near-misses:
 | High-stakes temporal move | "We can cut review time in half for this regulated release." | Pattern-reference-only `dyn2HighStakesTemporalMoveRoute?` plus assurance/legal/quality relation, or claim downgraded. |
 | Premature convergence | "The search process is better because we reached a shortlist faster." | C.19 relation; distinguish faster narrowing from healthy search. |
 | Metric target | "Velocity improved after becoming the quarterly target." | `dyn2MetricTargetEffectBlock?` only if target publication changes temporal behavior and admissible use; C.16 carries measurement, E.13 or proxy audit carries utility distortion, and C.26 applies only for residual probe, frame, or export cue. |
-| Scale-variable fantasy | "More data, model capacity, reviewers, tokens, or parallelism will improve twice as fast." | C.18.1 carries scale variables, scale windows, scale probes, and elasticity posture; C.27 only names the temporal claim when the scale variable is used as the basis for rate-change, learning, recovery, throughput, or stabilization. |
+| Scale-variable fantasy | "More data, model capacity, reviewers, tokens, or parallelism will improve twice as fast." | C.18.1 carries scale variables, scale windows, scale probes, and scale-elasticity value; C.27 only names the temporal claim when the scale variable is used as the basis for rate-change, learning, recovery, throughput, or stabilization. |
 | Off-policy transfer | "The old rollout policy improved recovery, so the new rollout policy will too." | `dyn2ControlPolicyRoute?` must name `behaviorPolicyRef`, `proposedPolicyRef`, `offPolicyRisk`, and evaluation/control relation; one observed slope under policy A does not carry policy B. |
 | Object-centric process trace | "The process sped up" while orders, invoices, shipments, and support tickets move through different paths. | `dyn2ObjectCentricTraceBlock?` recovers object types, event trace, interactions, aggregation basis, and unsupported whole work-cycle truth; one scalar throughput line is not enough. |
 | Harmful acceleration and viability | "Faster rollout improved release velocity while support load and recovery time degraded." | C.27 names acceleration, braking, throttling, recovery timing, and unsupported downstream claim, effect, or use; C.26.3, C.25, assurance, safety, legal, ethics, or wellbeing patterns carry the envelope or harm claim. |
@@ -123,7 +117,7 @@ Minimum useful note:
 - effort or input: two triage engineers assigned through a WorkPlan for two sprints;
 - effort window: sprint N and N+1;
 - resistance proxy: review queue coordination cost and domain ramp-up;
-- evidence posture: planning assumption plus prior work trace if available;
+- evidence/assumption relation: planning assumption plus prior work trace if available;
 - supported use: staffing discussion and local plan choice;
 - unsupported use: `C.28`-governed causal-use claim with estimand and identification relation, long-term capacity model, benchmark superiority;
 - reopen trigger: queue mix shift, triage saturation, quality loss, or no
@@ -146,7 +140,7 @@ practice. Otherwise it may remain didactic.
 
 Minimum useful note:
 - rhythm bearer: learner practice session;
-- rhythm anchor: daily drill window and task cycle;
+- rhythm timing reference: daily drill window and task cycle;
 - rhythm proxy/evidence: task completion cadence, error pattern, recall delay,
   or observed practice trace;
 - effort profile: short scheduled effort repeated across days;
@@ -176,10 +170,10 @@ ordinary explanatory prose.
 Minimum useful questions:
 - rhythm of what bearer: learner, team, body movement, practice session,
   release cycle, or other named FPF kind and reference?
-- anchored to what beat, cycle, release train, attention window, task cycle, or
+- referenced to what beat, cycle, release train, attention window, task cycle, or
   domain-local interval?
 - what effort or rate-change pattern occurs in which intervals?
-- what evidence or instrument proxy supplies the basis for that reading?
+- what evidence path, measurement relation, instrument proxy, or model/planning assumption supplies that reading?
 - what use is carried: teaching orientation, replication, judging, benchmark,
   or promise?
 ```
@@ -200,10 +194,10 @@ Dyn2 when this carries a method-change, staffing-decision, or benchmark use.
 
 Minimum useful note:
 - rhythm bearer: team release cycle, not the repository file or dashboard;
-- rhythm anchor: release cycle and review window;
+- rhythm timing reference: release cycle and review window;
 - intervention regime: scheduled shift of review earlier in the cycle;
 - instrument proxy: event log, review queue cadence, rework trace, or survey
-  only if its resistance proxy basis posture is stated;
+  only if its resistance-proxy evidence path, measurement relation, model assumption, planning assumption, or explicit unknown result is stated;
 - resistance proxy: transfer delay, queue pressure, coordination lag;
 - supported use: local method adjustment;
 - unsupported use: proof of organizational agility or service promise;
@@ -288,10 +282,10 @@ Minimum useful note:
   policy;
 - resistance proxy: incident mix, dependency lag, tool latency, coordination
   bottleneck;
-- evidence posture: diagnostic, benchmark, causal, assurance, or promise-like;
+- receiving relation: diagnostic evidence path, benchmark input, causal-use route, assurance claim, or promise-like boundary pattern;
 - supported use: local incident-response improvement claim;
 - unsupported use: formal guarantee, audit closure, release gate, or causal
-  proof unless the relevant boundary/evidence/assurance pattern carries it.
+  proof unless the relevant boundary/evidence and assurance pattern carries it.
 ```
 
 The key point is that C.27 does not become a hidden promise pattern. It prevents
@@ -316,7 +310,7 @@ Minimum useful note:
   remains comparable;
 - mix-shift risk: easier work, hidden queues, reassigned work, changed scope, or
   invisible rework;
-- dynamicTransferPosture: supported, unsupported, or unknown;
+- crossScaleTransferUseBoundary: local-only, supported-transfer, unsupported-transfer, or unknown;
 - supported use: local team improvement if evidence supports it;
 - unsupported use: organization-level agility claim unless aggregation and
   quality-bundle relations are present.
@@ -339,12 +333,11 @@ real process change, and residual probe, frame, or export cue.
 
 Minimum useful note:
 - metric measure: the published velocity/throughput reading, with C.16 relation if
-  measurement legality or comparability is FPF-force-bearing;
+  measurement legality or comparability is FPF-governed;
 - target or incentive use: quarterly target, gate, dashboard, budget signal, or
   public comparison;
 - possible behavior change: smaller tickets, hidden work, quality reduction,
   postponed rework, selection of easier tasks;
-
 
 - process-vs-measurement split: measurement/probe effect, real work change,
   gaming/selection effect, causal effect if claimed;
@@ -358,5 +351,4 @@ Minimum useful note:
 ```
 
 This is the practical bridge between C.27, C.16, C.26, and evidence patterns.
-
 

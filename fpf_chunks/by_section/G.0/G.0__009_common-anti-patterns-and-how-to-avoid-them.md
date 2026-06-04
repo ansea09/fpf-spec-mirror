@@ -6,12 +6,12 @@ section_id: "G.0:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 76074
-line_end: 76080
+line_start: 76670
+line_end: 76676
 dependencies:
   - "A.10"
   - "A.17"

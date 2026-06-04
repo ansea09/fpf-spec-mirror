@@ -6,12 +6,12 @@ section_id: "C.21:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:1 — Problem Frame"
-line_start: 43203
-line_end: 43206
+line_start: 43107
+line_end: 43110
 dependencies:
   - "A.17"
   - "A.18"
@@ -41,5 +41,5 @@ keywords:
 
 ### C.21:1 - Problem Frame
 
-FPF treats *disciplines* as first-class holons (see **C.20**): they aggregate epistemes, practices, standards, institutions, and observed Work. Teams routinely say “the field is fragmented,” “standards are converging,” or “replication is improving,” but these claims are rarely **typed** (scale/unit/polarity) or **auditable** (evidence lanes, freshness, scope). C.21 supplies the CHR layer—named Characteristics with CSLC typing—so disciplines can be compared admissibly (CG-Spec) and monitored through time (G.12).  Each published value MUST declare ReferencePlane ∈ {world|concept|episteme} and DisciplineId (U.Discipline@UTS); cross‑plane use applies CL^plane in Assurance (penalty to R_eff only).
+FPF treats *disciplines* as first-class holons (see **C.20**): they aggregate epistemes, practices, standards, institutions, and observed Work. Teams routinely say “the field is fragmented,” “standards are converging,” or “replication is improving,” but these claims are rarely **typed** (scale/unit/polarity) or **replayable** (evidence lanes, freshness, scope). C.21 supplies the CHR vocabulary: named Characteristics with CSLC typing, so discipline-health claims can be compared admissibly (CG-Spec) and monitored through time (G.12) when a project needs that use. Each published value declares ReferencePlane ∈ {world|concept|episteme} and DisciplineId (U.Discipline@UTS); cross-plane use applies CL^plane in Assurance (penalty to R_eff only).
 

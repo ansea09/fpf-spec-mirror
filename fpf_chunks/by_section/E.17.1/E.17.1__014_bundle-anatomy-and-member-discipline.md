@@ -6,12 +6,12 @@ section_id: "E.17.1:13"
 section_title: "Bundle Anatomy and Member Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__014_bundle-anatomy-and-member-discipline.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:13 — Bundle Anatomy and Member Discipline"
-line_start: 61154
-line_end: 61191
+line_start: 62047
+line_end: 62084
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -46,8 +46,8 @@ Each member `U.Viewpoint` inside a reusable bundle should make explicit at least
 
 - the **concern family** it brings into focus,
 - the **stakeholder families** for whom that concern matters,
-- the **entity-of-interest class** for which it is admissible,
-- the **allowed description/specification kinds** that usually realize it,
+- the **entity of concern class** for which it is admissible,
+- the **allowed description and specification-useification kinds** that usually realize it,
 - and any **bundle-specific conformance or correspondence notes** that later view families should preserve.
 
 `E.17.1` does not redefine the internals of `U.Viewpoint`. It states what must remain visible if a viewpoint is to be reused as part of a bundle rather than as an undocumented local label.
@@ -64,7 +64,7 @@ If the member viewpoints do not share that family-level purpose, the result is n
 
 #### E.17.1:13.3 - Thin bundles, rich annexes
 
-`E.17.1` intentionally allows bundles to stay thin. Rich supporting material such as:
+`E.17.1` intentionally allows bundles to stay thin. Rich companion material such as:
 
 - lexical discipline notes,
 - bridge overlays,
@@ -72,5 +72,5 @@ If the member viewpoints do not share that family-level purpose, the result is n
 - worked examples,
 - or SoTA references
 
-may live in typed annex manifests. This preserves a stable bundle core while still letting reuse packages carry enough didactic and review support.
+may live in typed annex manifests. This preserves a stable bundle core while still letting reuse packages carry enough didactic material and review help.
 

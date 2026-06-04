@@ -6,12 +6,12 @@ section_id: "B.2:6"
 section_title: "Archetypal cases (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-cases-worked-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:6 — Archetypal cases (worked, didactic)"
-line_start: 30219
-line_end: 30259
+line_start: 30353
+line_end: 30392
 dependencies:
   - "A.1"
   - "A.12"
@@ -71,5 +71,4 @@ keywords:
 * **Trigger:** **X** (bounded context shifts to regulated environment), **F rises** (formal safety case), **CL** for unit/requirement mappings vetted.
 
 * **MHT:** **ContextReframe** to `H⁺ = CertifiedProduct`; new **BIC** and regulatory vocabulary become the baseline; earlier lab claims are not silently “ported”.
-
 

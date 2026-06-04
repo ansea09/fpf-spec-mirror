@@ -6,12 +6,12 @@ section_id: "F.18:10"
 section_title: "Rationale (why this exists and why these rules)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__011_rationale-why-this-exists-and-why-these-rules.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:10 — Rationale (why this exists and why these rules)"
-line_start: 74878
-line_end: 74898
+line_start: 75477
+line_end: 75496
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -34,7 +34,7 @@ Centralized naming regimes seem tidy but slow learning and create brittle compro
 Names with several competing stewardship contexts drift. A **single stewardship Context** concentrates accountability for sense, examples, and lineage, while still enabling broad reuse via alignment bridges.
 
 **10.3 Unified Tech + Plain serve two audiences.**
-Engineers need **precise** wording; managers and stakeholders need **approachable** wording. Splitting the labels keeps the same sense while protecting accuracy and pedagogy; both are anchored by the **Row ID**.
+Engineers need **precise** wording; managers and stakeholders need **approachable** wording. Splitting the labels keeps the same sense while protecting accuracy and pedagogy; both are keyed by the **Row ID**.
 
 **10.4 One-way dependency strata prevent conceptual knots.**
 Acyclic dependencies cut off circular definitions and policy deadlocks. Dependency strata provide a simple mental model: build on what is already firm.
@@ -44,5 +44,4 @@ Part-whole claims **(structural)** must rest on **Constructive** grounds (`tv:gr
 
 **10.6 Sense over string reduces false conflicts.**
 Disputes often orbit the string (“we hate that word”). By separating **sense** (what we mean) from **string** (how we say it), the protocol enables peaceful coexistence: keep the **Row ID** constant; use one **Plain** label and, where helpful, a budgeted **alias** per register.
-
 

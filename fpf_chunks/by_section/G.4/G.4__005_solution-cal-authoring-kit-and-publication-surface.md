@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — CAL authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-cal-authoring-kit-and-publication-surface.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — CAL authoring kit and publication surface"
-line_start: 77542
-line_end: 77841
+line_start: 78136
+line_end: 78435
 dependencies:
   - "A.10"
   - "A.18"
@@ -102,7 +102,7 @@ Notes (normative intent, delegated semantics):
 
 * `CAL.Charter@Context` — scope anchor for this CAL pack:
 
-  * cites `CG-FrameContext`, `describedEntity`, `ReferencePlane`,
+  * cites `CG-FrameContext`, `entityOfConcern`, `ReferencePlane`,
   * cites the governance card and legality gate (`CNSpecRef`, `CGSpecRef`) by edition pins,
   * records the “assumption envelope” that acceptance predicates rely on (without minting a new governance card or legality gate).
   * emits `TaskMap@Context` (`TaskMap`) as the canonical handoff record to `G.5` (task→gates/flows/evidence pins).
@@ -174,7 +174,7 @@ CAL.EvidenceProfile :=
 **C1 — CAL Charter (scope anchor).**
 Authors declare a `CAL.Charter@Context` that:
 
-* anchors CAL to the CG‑Frame scope (`CG-FrameContext`, `describedEntity`, `ReferencePlane`),
+* anchors CAL to the CG‑Frame scope (`CG-FrameContext`, `entityOfConcern`, `ReferencePlane`),
 * pins the relevant governance card and legality gate refs (`CNSpecRef.edition`, `CGSpecRef.edition`),
 * records the local assumption envelope used by acceptance predicates (as explicit statements to be audited, not as hidden algorithmic assumptions),
 * declares which CAL artifacts are intended to be cited downstream (UTS ids).

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
-line_start: 3413
-line_end: 4024
+line_start: 3376
+line_end: 3967
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -32,12 +32,11 @@ keywords:
 
 ### A.2.5:1 - Purpose & scope (why this exists)
 
-A **role** is not only a name; it is a *trajectory of admissible states* that governs when, and under which conditions, a holder of that role may **enact** steps of a `U.MethodDescription`. FPF therefore introduces a first‑class intensional object:
+A **role** is not only a name; it is a *trajectory of admissible states* that governs when, and under which conditions, a holder of that role may **enact** steps of a `U.MethodDescription`. FPF therefore introduces a first-class `U.RoleStateGraph`:
 
 > **`U.RoleStateGraph` (RSG)** — the **finite, named state space** of a **`U.Role` in a given `U.BoundedContext`**, with transitions guarded by conditions over the **Role Characterisation Space (RCS)** and contextual events.
 
 The RSG is the **gate** between *assignment* (`U.RoleAssignment`) and *action* (`U.Work`). A step may be performed **only** when the performer’s assignment is **in an enactable RSG state** at the relevant **Window** (time slice) and this is **proven** by a contemporaneous **StateAssertion** (verdict of `U.Evaluation` against the state’s **Checklist**).
-
 
 ### A.2.5:2 - Problem frame (what goes wrong without an RSG)
 
@@ -48,7 +47,6 @@ The RSG is the **gate** between *assignment* (`U.RoleAssignment`) and *action* (
 5. **Cross‑context substitution by name.** Labels like *Approved* or *Ready* silently cross contexts with different criteria; the loss is hidden and unaudited.
 
 **Consequences.** Violations of **Strict Distinction (A.7)** and **Didactic Primacy (E.12)**: ambiguous authority to act, unsafe SoD, and non‑reproducible evaluations.
-
 
 ### A.2.5:3 - Core idea (didactic)
 
@@ -61,10 +59,9 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 
 > **One sentence.** **RSG says *when a badge is green*.** The Checklist proves it, the **StateAssertion** records it, and the Method step may proceed.
 
-
 ### A.2.5:4 - Minimal vocabulary (this pattern only)
 
-* **`U.RoleStateGraph` (RSG).** Intensional object *owned by* `(Role, Context)`. Finite set of named **States** and typed **Transitions** with guards.
+* **`U.RoleStateGraph` (RSG).** `U.RoleStateGraph` owned by `(Role, Context)`. Finite set of named **States** and typed **Transitions** with guards.
 * **RSG.State.** Intensional **named place**. Properties:
 
   * `enactable ∈ {true,false}` — whether being in this state authorizes enactment of steps that require this role.
@@ -80,7 +77,6 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 > * **RSG** and its **States** are **intensionals** (what the role *is allowed to be*).
 > * **Checklists** and **StateAssertions** are **descriptions/evaluations** (how we *know* a specific holder *is* in that state now).
 
-
 ### A.2.5:5 - What an RSG is **not** (guardrails)
 
 * **Not a task-order description.** RSG transitions do **not** encode method order; they encode **eligibility changes** of the *role*.
@@ -88,7 +84,6 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 * **Not a global status set.** RSG lives **inside one Context**; the label *Ready* in another Context is **a different state** unless bridged (F.9).
 * **Not a log.** RSG is not a history. Histories are **StateAssertions** over Windows; **`U.Work`** is the record of enactments.
 * **Not a document-state sequence.** Epistemic role RSGs can *look like* document-state sequences, but they remain **role‑status graphs**; carrier history and carrier replacement stay separate (A.7, `U.Carrier`).
-
 
 ### A.2.5:6 - Invariants (preview)
 
@@ -117,7 +112,6 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 1. **RSG‑N1 (Minimal set).** `|S| ≥ 1`. At least **one** state must exist; if **no** state is enactable, the role is **status‑only** in this Context.
 2. **RSG‑N2 (Disjoint labels).** State names are **unique** within `(Role, Context)`; reusing global labels (e.g., “Ready”) across contexts is allowed **only** via Bridges (F.9).
 3. **RSG‑N3 (Human scale).** For didactics, **≤ 7 states** is the default target; exceeding it requires a one‑sentence rationale (“distinct gate we will actually use”).
-
 
 ### A.2.5:8 - Enactability & Checklist semantics (how a state is *known*, now)
 
@@ -175,7 +169,6 @@ Corollaries:
 * **RSG‑E3 (Bundle gate).** If the step requires a **bundle** `R* = R₁ ⊗ … ⊗ Rₙ`, enactment requires **n distinct `StateAssertions`** meeting RSG‑E1 for each `Rᵢ` (unless the Context defines a **CompositeRole** with its own RSG; see §9.3).
 * **RSG‑E4 (Status‑only roles).** Roles with `S_en = ∅` can **never** authorize enactment; they may **gate decisions** (e.g., *ApprovedSpecRole*) but not `U.Work`.
 
-
 ### A.2.5:9 - Interaction with role algebra (`≤`, `⊥`, `⊗`) and refinement
 
 #### A.2.5:9.1 - Specialization (`≤`) — RSG refinement map
@@ -218,7 +211,6 @@ A **bundle role** `R* := R₁ ⊗ … ⊗ Rₙ` expresses “**must wear all the
 
 * **RSG‑M1 (Specialist suffices).** If a step requires `R`, any `R' ≤ R` whose **lifted state** is enactable **suffices**.
 * **RSG‑M2 (Bundle conjunctivity).** If a step requires `R₁ ⊗ R₂`, the performer must produce **both** gates (two StateAssertions), unless a CompositeRole with RSG exists and is used.
-
 
 ### A.2.5:10 - Guard design (types and discipline)
 
@@ -364,7 +356,6 @@ Below are **didactic, reusable** RSG skeletons for the three principal **behavio
 
 > **Note.** Many ObserverRole states are **pre‑enactment** gates; only **Measuring** is enactable.
 
-
 #### A.2.5:12.4 - Epistemic/status roles (no enactment)
 
 These roles are **status‑only**; **`S_en = ∅`**. They **gate decisions** (e.g., can be cited, can constrain), but can never authorize `U.Work`.
@@ -386,7 +377,6 @@ These roles are **status‑only**; **`S_en = ∅`**. They **gate decisions** (e.
 **States:** *Proposed*, *Accepted*, *Implemented*, *Verified*, *Waived*.
 **Checklist gist:** acceptance decision; trace links to `U.Work`; verification report; waiver authorization.
 **Guards:** *Accepted → Implemented* when linked executions close; *Implemented → Verified* on passed acceptance checklist; *Any → Waived* by authorized speech‑act.
-
 
 ### A.2.5:13 - One‑screen authoring templates (didactic cards)
 
@@ -438,7 +428,6 @@ Rationale: <one‑line reason>
 
 > **Didactic cue.** If your “template” spills beyond a screen, you’re drifting into **method-order description**. Pull back to **eligibility** (RSG) and **recognition** (checklists).
 
-
 ### A.2.5:14 - Cross‑context adjustments (via Bridges, not imports)
 
 RSGs are **context‑local**. When similar roles appear in different Contexts, relate them with an **Alignment Bridge** (F.9), never by silently importing state names.
@@ -468,7 +457,6 @@ Losses: Metro’s 'Robustness' has no direct Lab counterpart (explicit loss reco
 * `Authorized(AgentialRole@ITIL)` ↔ `Permitted(TransformerRole@IEC)` with **CL=1** and a note: *operational interlock ≠ managerial approval; both required to lift to Ready under our policy.*
 
 > **Payoff.** Bridges keep **local honesty** while enabling **Cross‑context reasoning** with explicit penalties (B.3).
-
 
 ### A.2.5:15 - Author conformance (write good RSGs)
 
@@ -519,7 +507,6 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 **Work gating.**
 `performedBy = Dr.Kim#SurgeonRole:Hospital.OR_2026` is **valid** for step *“Incision”* only when `Ready(Dr.Kim, SurgeonRole, OR_2026, W)` holds (checklist items: approval id, fatigue score, SoD against *AuditorRole*).
 
-
 #### A.2.5:16.2 - Software operations (SRE)
 
 **Context.** `SRE_Prod_Cluster_EU_2026`
@@ -540,7 +527,6 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 
 **Work gating.**
 `performedBy = Dana#IncidentCommanderRole:SRE_Prod_Cluster_EU_2026` is **invalid** for “Declare SEV‑1” if `ConflictSoD(ChangeAuthorRole)` holds or `PageFreshness>5 min`.
-
 
 #### A.2.5:16.3 - Laboratory metrology
 
@@ -563,7 +549,6 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 **Work gating.**
 `performedBy = SensorT‑17#ThermometerObserverRole:Metrology_Thermo_2026` is **rejected** if `CalibrationAge>180 d` or `ControlSampleBias>δ`.
 
-
 #### A.2.5:16.4 - Governance / compliance
 
 **Context.** `Finance_Audit_2026`
@@ -577,7 +562,6 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 
 **Work gating.**
 `performedBy = Alice#IndependentAuditorRole:Finance_Audit_2026` **fails** if Alice holds any overlapping `DeveloperRole` binding in the same context.
-
 
 ### A.2.5:17 - Acceptance harness (static conformance)
 
@@ -594,7 +578,6 @@ Author‑facing checks; **notation‑free**, **concept‑level**. Use them when 
 **SCR‑A.2.5‑S09 - Status‑only roles.** If `S_en=∅`, the Role is explicitly tagged **status‑only**; it cannot open the Green‑Gate.
 **SCR‑A.2.5‑S10 - Bridge discipline.** Any cross‑context reuse is via an Alignment Bridge (F.9) with recorded `CL` and losses; no silent imports.
 
-
 ### A.2.5:18 - Regression harness (evolution checks)
 
 Use when **adding/removing states**, **changing criteria**, or **bridging** across contexts.
@@ -607,7 +590,6 @@ Use when **adding/removing states**, **changing criteria**, or **bridging** acro
 **RSCR‑A.2.5‑R06 - Status/behaviour split.** Verify behavioural roles still require `U.System` holders (A.2.1); status‑only roles still have `S_en=∅`.
 **RSCR‑A.2.5‑R07 - One‑screen rule.** If cumulative edits push the RSG beyond one screen, split states or tighten criteria; record a one‑line teaching rationale if you must exceed.
 
-
 ### A.2.5:19 - Common failure modes (and quick remedies)
 
 | Failure            | Symptom                               | Why it hurts                       | Quick remedy                                                              |
@@ -617,7 +599,6 @@ Use when **adding/removing states**, **changing criteria**, or **bridging** acro
 | **Global states**  | “Ready” reused across contexts        | Meaning leakage                    | Qualify by `(Role, Context)`; use Bridges for Cross‑context talk             |
 | **Over‑broad ⊥**   | Many false conflicts                  | Blocks delivery                    | Make ⊥ **state‑aware**; restrict to enactable pairs                       |
 | **Missing π‑map**  | Specialisation with no entailment     | Unsafe substitutions               | Add `π` and entailment notes; otherwise drop `≤`                          |
-
 
 ### A.2.5:20 - Didactic script (90 seconds): how A.2.5 ties to A.2.1 & A.2.3
 
@@ -630,7 +611,6 @@ Use when **adding/removing states**, **changing criteria**, or **bridging** acro
 > Different Contexts may use the same role labels. We never assume global meaning; we relate Contexts with **Bridges** that map states and record losses.
 >
 > Keep each RSG **on one screen**, with **observable** checklists. If you’re writing task order, you’ve slipped into method-order description—move it to `U.MethodDescription`. If you’re writing opinions, convert them into **observables** or drop them. That’s the whole trick.”\*
-
 
 ### A.2.5:21 - Relations (quick pointers)
 

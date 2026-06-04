@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing — describedEntity‑preserving morphism"
+pattern_title: "U.EpistemicViewing — EntityOfConcern-preserving morphism"
 section_id: "A.6.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing — describedEntity‑preserving morphism"
+  - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:2 — Problem"
-line_start: 9825
-line_end: 9850
+line_start: 9686
+line_end: 9711
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -26,31 +26,14 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
-  - "U.MultiViewDescribing"
-  - "U.RelationSlotDiscipline"
-  - "U.Signature"
 keywords:
-  - "ClaimGraph"
-  - "CorrespondenceModel"
-  - "Direct vs Correspondence Viewing"
-  - "EpistemicViewing"
-  - "RepresentationScheme"
-  - "Viewpoint"
-  - "describedEntity preservation"
-  - "displayed fibration"
-  - "episteme"
-  - "optics"
-  - "view"
 ---
 
 ### A.6.3:2 - Problem
 
 Without a dedicated pattern for EpistemicViewing:
 1. **Views vs retargetings blur.**
-   Operations that *intend* to change only representation (viewing) are easily conflated with operations that change the **described entity** (retargeting). A Fourier‑style transform or a StructuralReinterpretation in E.TGA can quietly drift from “view of S” into “view of a different S′”, without declaring a `KindBridge`.
+   Operations that *intend* to change only representation (viewing) are easily conflated with operations that change the **EntityOfConcern** (retargeting). A Fourier‑style transform or a StructuralReinterpretation in E.TGA can quietly drift from “view of S” into “view of a different S′”, without declaring a `KindBridge`.
 
 2. **“View” vs “viewpoint” vs rendered publication collapse.**
    In standards and tools, “view” is often used interchangeably to mean:
@@ -59,16 +42,16 @@ Without a dedicated pattern for EpistemicViewing:
    * the **rendered publication or carrier** (document, GUI, export, or other bearer).
      Without a clear episteme-lane notion of viewing, MVPK and E.17.0 cannot cleanly separate these lanes.
 
-2. **No describedEntity guarantees.**
+2. **No entityOfConcern guarantees.**
    A projection that looks like a harmless slice of a system description may in fact:
-   * change `describedEntityRef` (switching to a subsystem or a function),
+   * change `entityOfConcernRef` (switching to a subsystem or a function),
    * change `groundingHolonRef` (different plant or runtime),
-   * or smuggle in new intensional claims.
+   * or smuggle in new commitments about the EntityOfConcern.
      Without explicit invariants over C.2.1 components, “view” becomes an informal metaphor, not a reliable morphism class.
 
 4. **Multi‑view reasoning has no core discipline.**
    Multi‑view patterns (ISO 42010 viewpoint libraries, SysML v2 view queries, TEVB, MVPK faces) need:
-   * **vertical** projections over the same described entity (`α : Ep → Ref` fixed),
+   * **vertical** projections that preserve `entityOfConcernRef` (`α : Ep → Ref` fixed),
    * and **correspondence‑based** projections that rely on explicit cross‑episteme links.
-     If each family re‑invents its own notion of “view”, consistency and tool support degrade.
+     If each family re‑invents its own notion of “view”, consistency and tool checks degrade.
 

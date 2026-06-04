@@ -6,12 +6,12 @@ section_id: "E.17.0:9"
 section_title: "Relations  (informative summary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__010_relations-informative-summary.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:9 — Relations  (informative summary)"
-line_start: 60968
-line_end: 60987
+line_start: 61860
+line_end: 61879
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -33,34 +33,25 @@ dependencies:
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "ISO 42010 alignment"
-  - "correspondence model"
-  - "description families"
-  - "engineering vs publication viewpoints"
-  - "entity-of-interest"
-  - "multi-view describing"
-  - "view"
-  - "view vs viewpoint"
-  - "viewpoint"
 ---
 
 ### E.17.0:9 - Relations  *(informative summary)*
 
 * **Builds on C.2.1 `U.EpistemeSlotGraph`.**
-  Uses `DescribedEntitySlot`, `ViewpointSlot`, `ViewSlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot` as the structural backbone for descriptions, views, and correspondence.
+  Uses `EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot` as the structural backbone for descriptions, views, and correspondence.
 
 * **Builds on A.6.2–A.6.4.**
-  Families rely on `U.EffectFreeEpistemicMorphing` for view‑producing morphisms, `U.EpistemicViewing` for describedEntity‑preserving views, and `U.EpistemicRetargeting` for moves that change the described entity (outside a given family).
+  Families rely on `U.EffectFreeEpistemicMorphing` for view‑producing morphisms, `U.EpistemicViewing` for entityOfConcern‑preserving views, and `U.EpistemicRetargeting` for moves that change the EntityOfConcern (outside a given family).
 
 * **Constrains E.17 (MVPK).**
   MVPK is a **publication‑specialised MultiViewDescribing for morphisms**: its viewpoints are publication viewpoints; its ViewFamily is a special case of `Views(T,C)` with `T` a morphism; its rules/invariants must respect MVD‑0…MVD‑7.
 
 * **Constrains E.17.1 / E.17.2.**
-  `U.ViewpointBundleLibrary` and TEVB provide concrete viewpoint bundles populating `Σ` for particular `EoIClass` (e.g. engineering holons), but they must treat viewpoints as `U.Viewpoint` values in `ViewpointSlot`, not as ad‑hoc tags.
+  `U.ViewpointBundleLibrary` and TEVB provide concrete viewpoint bundles populating `Σ` for particular `EntityOfConcernClass` (e.g. engineering holons), but they must treat viewpoints as `U.Viewpoint` values in `ViewpointSlot`, not as ad‑hoc tags.
 
-* **Coordinates with E.10.D2 (I/D/S) and E.10 LEX‑BUNDLE.**
-  Ensures every D/S episteme in a family has a DescriptionContext, keeps “Describe/Specify” distinct from “Publish”, and respects lexical guards around `View`, `Viewpoint`, `SurfaceKind`, `ViewFamilyId`, `*Slot`, `*Ref`.
+* **Coordinates with E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use) and E.10 LEX‑BUNDLE.**
+  Ensures every Description episteme or Description episteme admitted for specification use in a family has a DescriptionContext, keeps “Describe and specification-use” distinct from “Publish”, and respects lexical guards around `View`, `Viewpoint`, `publication-face kind`, `ViewFamilyId`, `*Slot`, `*Ref`.
 
 * **Coordinates with B.5.* / F‑cluster.**
-  Viewpoints’ stakeholder families and concerns link naturally with RoleEnactment (B.5.\*) and Part F role descriptions, assignments, harnesses — without overloading `U.Role` as a coordinate in I/D/S or episteme slots.
+  Viewpoints’ stakeholder families and concerns link naturally with RoleEnactment (B.5.\*) and Part F role descriptions, assignments, harnesses — without overloading `U.Role` as a slot value in EntityOfConcern and Description-episteme boundary and specification use or episteme slot graphs.
 

@@ -6,12 +6,12 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__011_worked-examples-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:10 — Worked Examples (informative)"
-line_start: 38347
-line_end: 38371
+line_start: 38338
+line_end: 38361
 dependencies:
   - "C.3.1"
   - "C.3.2"
@@ -45,5 +45,4 @@ keywords:
 **Cross‑context.** Jurisdiction Y uses ≥ 21 → **KindBridge** with `CL^k=1`; **MaskAdapter** maps DOB fields.
 **Guards.** Scope bridge (coding system) + KindBridge + MaskAdapter; penalties **Ψ(1)** (kind) + **Φ(CL)** (scope) to **R**.
 **Outcome.** Allowed with reduced R; consider target‑side subkind `AdultPerson_Y`.
-
 

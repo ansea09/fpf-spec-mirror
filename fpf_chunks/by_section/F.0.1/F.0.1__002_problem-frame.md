@@ -6,12 +6,12 @@ section_id: "F.0.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:1 — Problem Frame"
-line_start: 68180
-line_end: 68191
+line_start: 69051
+line_end: 69061
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -47,5 +47,4 @@ Trans‑disciplinary modelling fails without an explicit discipline for **where 
 * **Implicit globalism.** Meaning is treated as universal; integration silently re‑writes models.
 
 FPF resolves this by **localising** meaning first, then **explicitly translating** across locales.
-
 

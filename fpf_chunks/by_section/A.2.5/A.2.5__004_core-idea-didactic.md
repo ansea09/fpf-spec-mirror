@@ -6,12 +6,12 @@ section_id: "A.2.5:3"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__004_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:3 — Core idea (didactic)"
-line_start: 3435
-line_end: 3446
+line_start: 3396
+line_end: 3406
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -39,5 +39,4 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 * Some states are **enactable = true** (green lights); others are **not enactable** (status lights) and therefore can **gate decisions** but **cannot** directly authorize `U.Work`.
 
 > **One sentence.** **RSG says *when a badge is green*.** The Checklist proves it, the **StateAssertion** records it, and the Method step may proceed.
-
 

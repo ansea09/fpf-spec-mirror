@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "Reading path for engineer-managers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_reading-path-for-engineer-managers.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — Reading path for engineer-managers"
-line_start: 22218
-line_end: 22293
+line_start: 22242
+line_end: 22317
 dependencies:
   - "A.17"
   - "A.18"
@@ -45,9 +45,9 @@ keywords:
 
 **Step 1 — Measurement vocabulary: what is measured, and what “comparable” can mean.**
 
-* **A.17** — canonizes the technical anchor **Characteristic** (and retires near-synonyms such as “axis/dimension/feature/property/metric” from normative Tech register).
+* **A.17** — canonizes the technical head **Characteristic** (and retires near-synonyms such as “axis/dimension/feature/property/metric” from normative Tech register).
 * **A.18** — CSLC discipline (**Characteristic / Scale / Level / Coordinate**) as the metrology of interpretability, comparability, and admissible aggregation.
-* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms. Use `C.16.P` first when the wording itself still hides whether the live object is a characteristic, scale, coordinate, score, metric label, quality-term repair, or another receiving object.
+* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms. Use `C.16.P` first when the wording itself still hides whether the live use is a characteristic, scale, coordinate, score, metric label, quality-term repair, or exact receiving-pattern exit.
 
 **Step 2 — Ontology and governing spec refs the CHR suite operates on.**
 
@@ -57,9 +57,9 @@ keywords:
 **Step 3 — Legality gates and mechanism shape (what to check when numbers appear).**
 
 * **G.0 (CG‑Spec)** — the legality gate for numeric operations and comparisons (SCP, ComparatorSet, MinimalEvidence, Γ_fold, crossings/plane pins). CHR mechanisms cite CG‑Spec; they do not duplicate it.
-* **A.6.1 and A.6.5** — the mechanism norm‑form (`U.Mechanism.Intension`) and slot discipline. Read once so the structure of each mechanism-governing pattern (slots, operators, laws, admissibility guards, audit anchors) is predictable.
+* **A.6.1 and A.6.5** — the `U.Mechanism` definition form and slot discipline. Read once so the structure of each mechanism-governing pattern (slots, operators, laws, admissibility guards, audit references) is predictable.
 
-**Step 4 — The CHR suite boundary and the P2W seam.**
+**Step 4 — The CHR suite boundary and the P2W planning-to-work boundary.**
 
 * **A.19.CHR (CHRMechanismSuite)** — focus on:
   * `A.19.CHR:4.1` (published objects),
@@ -73,7 +73,7 @@ keywords:
 
 **Step 5 — The six CHR mechanism-governing patterns (read one at a time).**
 
-Each mechanism-governing pattern below publishes its `U.Mechanism.Intension` card and assumes the measurement-admissibility base from **A.17/A.18** and **C.16**.
+Each mechanism-governing pattern below publishes its `U.Mechanism` definition card and assumes the measurement-admissibility base from **A.17/A.18** and **C.16**.
 
 1. **A.19.UNM** — normalization (CV→NCV, `≡_UNM`, `TransportRegistryΦ`).
 2. **A.19.UINDM** — indicatorization (policy-bound indicator selection; no “NCV ⇒ indicator” shortcut).

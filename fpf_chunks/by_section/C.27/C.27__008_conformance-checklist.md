@@ -6,12 +6,12 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:7 — Conformance Checklist"
-line_start: 48700
-line_end: 48749
+line_start: 48561
+line_end: 48609
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -54,21 +54,20 @@ is sufficiently supported for the use it is making. Ordinary local use can stay 
 
 | Requirement | C.27 content |
 | --- | --- |
-| Applicability | A C.27 record exists only when the temporal distinction changes supported use, governing-pattern relation, evidence posture, or decision interpretation. |
+| Applicability | A C.27 record exists only when the temporal distinction changes supported use, governing-pattern relation, evidence path, model/planning assumption, or decision interpretation. |
 | DynOrder | The body distinguishes state reading, rate reading, and intervention-sensitive rate-change, rhythm, or regime reading. |
 | Minimal output | The output is the minimal one that changes use: no C.27 record, Dyn0 reading, Dyn1 reading, `Dyn2TemporalClaimAdequacyCard`, `Dyn2TemporalClaimProfile`, or formal-model relation. |
-| Card minimum | A `Dyn2TemporalClaimAdequacyCard` names target, move, intervention, window, resistance or cost, basis, supported use, unsupported downstream claim, effect, or use, and reopen or pattern-reference condition. |
+| Card minimum | A `Dyn2TemporalClaimAdequacyCard` names target, move, intervention, window, resistance or cost, evidence path, model/planning assumption or neighbouring-pattern relation, supported use, unsupported downstream claim, effect, or use, and reopen or pattern-reference condition. |
 | Boundary-crossing profile | `Dyn2TemporalClaimProfile` appears only when the authored temporal claim is used beyond the local working context into benchmark, publication, assurance, promise-like, gate, reusable method, cross-context, cross-scale, or formal/control use. |
 | Governing-pattern relation | C.27 does not carry measurement, transition law, Work actuals, planning, `C.28`-governed causal-use claim, benchmark parity, promise or boundary claim, assurance, or QL residue. |
 | Neighboring-pattern-use block | If supported use relies on measurement, causal attribution, benchmark parity, control/policy, cross-scale transfer, debt/hysteresis, promise, high-stakes temporal move, or QL residue, the corresponding governing-pattern relation or present profile block is named. |
-| Profile-block closure | Every present block is defined by C.27, pattern-reference-only, or absent from `activeBlocks`; a block name is not a new governed object. |
+| Profile-block closure | Every present block is defined by C.27, pattern-reference-only, or absent from `activeBlocks`; a block name is not a new EntityOfConcern. |
 | Pattern-relation economy | Add a C.27 relation note to another pattern only when that pattern has a concrete boundary reason to inspect temporal-claim adequacy; otherwise a C.27 card or profile cites the FPF pattern that governs the other question instead of creating a thin duplicate temporal record. |
 | Exit | If no downstream claim, effect, or use changes, the claim remains ordinary prose, Dyn0 reading, Dyn1 reading, C.16 measurement, `U.Dynamics`, or another governing pattern. |
 
-
 **Value and harm boundary.** A temporally adequate claim is not automatically a
 valuable claim. A valuable claim is not automatically temporally adequate. If
-value, harm, safety, legal, ethics, quality, or promise impact is FPF-force-bearing,
+value, harm, safety, legal, ethics, quality, or promise impact is FPF-governed,
 C.27 states only the temporal move, window, supported use, unsupported
 downstream claim, effect, or use, and pattern relation. The value, harm, safety, legal, ethics, quality, or
 promise pattern governs the other question.
@@ -79,7 +78,7 @@ inspection faults, not a required tool.
 | Lint | Failure | Repair |
 | --- | --- | --- |
 | `C27-KEYWORD-OVERREACH` | A speed/rhythm word creates a profile without a supported-use change. | Downgrade to ordinary prose, Dyn0, or Dyn1. |
-| `C27-MISSING-CARD-MINIMUM` | Dyn2 card lacks target, move, intervention, window, resistance or cost, basis, supported use, or reopen condition. | Complete the card or downgrade. |
+| `C27-MISSING-CARD-MINIMUM` | Dyn2 card lacks target, move, intervention, window, resistance or cost, evidence path, model/planning assumption or neighbouring-pattern relation, supported use, or reopen condition. | Complete the card or downgrade. |
 | `C27-PROFILE-WITHOUT-BOUNDARY-USE` | A profile is used for a local note. | Downgrade to a local card. |
 | `C27-PATTERN-RELATION-THEFT` | C.27 carries measurement, dynamics-law, work, benchmark, promise, or QL content. | Keep that content with the FPF pattern that governs the other question. |
 | `C27-DYNORDER-AS-KIND` | Teams, systems, services, or methods become Dyn2 objects. | Repair to an authored-claim reading. |

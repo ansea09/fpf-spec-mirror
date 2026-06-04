@@ -6,12 +6,12 @@ section_id: "F.9:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:2 — Problem frame"
-line_start: 71072
-line_end: 71084
+line_start: 71820
+line_end: 71831
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -57,5 +57,4 @@ Cross-context work fails in predictable ways:
 5. **Loss blindness.** Differences (units, granularity, preconditions) are left unstated, contaminating downstream reasoning.
 
 Bridges cure these by **making relation, direction, loss, and `CL` explicit**.
-
 

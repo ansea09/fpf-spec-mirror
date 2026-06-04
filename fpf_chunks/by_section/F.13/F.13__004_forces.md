@@ -6,12 +6,12 @@ section_id: "F.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:3 — Forces"
-line_start: 72915
-line_end: 72924
+line_start: 73581
+line_end: 73589
 dependencies:
   - "F.1"
   - "F.10"
@@ -37,5 +37,4 @@ keywords:
 | **Locality vs convenience**    | Keep aliases **inside Contexts** even when a catchy global name tempts reuse.                   |
 | **Simplicity vs coverage**     | Avoid giant synonym lists while still catching the one or two legacy names people will meet. |
 | **Didactics vs formality**     | Make the mapping teachable without inventing new low‑level artefacts or processes.           |
-
 

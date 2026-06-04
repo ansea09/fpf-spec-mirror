@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.5.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
-line_start: 69837
-line_end: 70144
+line_start: 70641
+line_end: 70934
 dependencies:
   - "A.11"
   - "A.7"
@@ -38,10 +38,9 @@ keywords:
 ## F.5 - Naming Discipline for U.Types & Roles
 
 **Status.** Definitional pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **E.10.D2 Intension–Description–Specification (I/D/S)**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting & Normalisation**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description Definition**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**; F.0.1 **context‑local Lexicon Principle (RLP)**.
+**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **E.10.D2 EntityOfConcern, Description Episteme, and Specification-Use**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting & Normalisation**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description Definition**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**; F.0.1 **context‑local Lexicon Principle (RLP)**.
 **Coordinates with.** F.7 **Concept‑Set Table**; F.8 **Mint or Reuse?**; F.9 **Alignment & Bridge**; F.13 **Term Registry & Deprecation**.
 **Aliases (informative).** *Context‑true naming*; *Two‑register labels*.
-
 
 ### F.5:1 - Intent & applicability
 
@@ -50,7 +49,6 @@ keywords:
 **Applicability.** Use **whenever** you (a) mint or revise a **U.Type** name from a **Concept‑Set row** (F.7), or (b) assign labels to a **Role Description** (F.4). This pattern governs **what a good name must be**, not *how a team produces it*.
 
 **Non‑goals.** No registries, reviews, or hand‑offs. No style‑police for punctuation beyond conceptual clarity. No bridging or synonym decisions across Contexts (F.9 does that).
-
 
 ### F.5:2 - Problem frame
 
@@ -64,7 +62,6 @@ Naming errors cause structural errors:
 
 This code resolves these by **Context fidelity**, **senseFamily‑aware morphology**, and **two‑register pedagogy**.
 
-
 ### F.5:3 - Minimal vocabulary (this pattern only)
 
 * **Tech label** — the **Context‑idiomatic** name engineers expect *inside that Context*.
@@ -73,14 +70,12 @@ This code resolves these by **Context fidelity**, **senseFamily‑aware morpholo
 * **SenseCell** — the **(Context × Local-Sense)** address cited by a Role Description card (F.3–F.4).
 * **Concept‑Set row** — the Cross‑context table row that supports minting a **U.Type** name (F.7).
 
-
 ### F.5:4 - Core idea (didactic)
 
 > **Name what the invariants already make true.**
 >
 > For Role Descriptions, **speak like the Context** (Tech), then **teach it** (Plain).
 > For U.Types, **speak like nobody’s Context**: pick the **neutral, minimal‑generality** label that best fits the **intersection** shown by your Concept‑Set row.
-
 
 ### F.5:5 - Normative rules — Role Descriptions (context‑local labels)
 
@@ -107,7 +102,6 @@ Let **T** be a Role Description in Context **C** with SenseCell `sense(T)=⟨C,�
 
 **R‑RD‑8 (Short and stable).** Favour **1–3 words**. Avoid rhetorical adjectives (*“robust, optimal, best‑practice”*).
 
-
 ### F.5:6 - Normative rules — U.Types (Cross‑context labels)
 
 Let **U** be a U.Type minted from a **Concept‑Set row** (F.7) satisfying A.8 (≥3 domain families) AND MinInterFamilyDistance ≥ δ_family (from F1‑Card).
@@ -132,14 +126,12 @@ Risky: *Multi‑stage‑workflow‑execution‑record* (compresses a scenario in
 
 **R‑UT‑9 (No edition/version in name).** Versions live in the Concept‑Set evidence; the name denotes a **time‑robust kind**.
 
-
 ### F.5:7 - Twin rules
 
 **Mandatory Tech name.** Every `U.Type`/Role **MUST** declare a Tech name; plain twin is optional.
 **Role suffix invariant.** Role Tech names **MUST** end with `Role`; plain twin **MUST** keep “(role)” on first use.
 **No head elision.** Head terms **MUST NOT** be dropped in a way that changes expected Kind (e.g., _“Approval”_ ≠ _“Approver (role)”_).
 **One twin, one context.** At most one plain twin per Context; register in **E.10.P**.
-
 
 ### F.5:8 - Invariants (normative, lightweight)
 
@@ -154,7 +146,6 @@ Risky: *Multi‑stage‑workflow‑execution‑record* (compresses a scenario in
 **INV‑F5‑5 (Minimality).** Labels **MUST** reflect the **minimal generality** supported by invariants (F.4 for Role Description, F.7 for U.Types).
 
 **INV-F5-6 (No Context tags).** Names **MUST NOT** embed Context/edition tags; that information resides in SenseCells (Role Description) and Concept-Set rows (U.Types).
-
 
 ### F.5:9 - Reasoning primitives (judgement schemas, notation‑free)
 
@@ -185,7 +176,6 @@ Risky: *Multi‑stage‑workflow‑execution‑record* (compresses a scenario in
 6. **Collision ping.**
   `similar(Tech(X), Tech(Y)) ∧ senseFamily(X)≠senseFamily(Y) ⊢ requireDisambiguatorOrSplit`
   *Reading:* If two labels nearly coincide across senseFamilies, either add a **minimal** disambiguator (Role Description only, within Context idiom) or split concepts.
-
 
 ### F.5:10 - Micro‑examples (illustrative)
 
@@ -228,7 +218,6 @@ Tech: **Type Node** - Plain: *a node in a type hierarchy or lattice*
 | **A13** | **Bracketed twins**         | `Participant/Agent`, `Service/SLO` as single label                 | Two senses slipped into one card                                   | Pick **one** label per concept; the other lives as alias (F.13) or as a different card. (INV‑F5‑1, R‑UT‑6)          |
 | **A14** | **Family drift**            | `Assurance Rank`, `Assurance Tier`, `Readiness Level` mixed        | Readers fail to see relatedness                                    | Keep **family shape** parallel: `… Level`, `… Status`. (R‑UT‑7)                                                     |
 | **A15** | **Decorative adjectives**   | `Robust Process`, `Best‑practice Method`                           | Marketing words displace semantics                                 | Drop rhetoric; name the **kind**, not its quality. (R‑RD‑8)                                                        |
-
 
 ### F.5:12 - Worked examples
 
@@ -283,7 +272,6 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 * **Decision.** Two U.Types: **Assurance Level**, **Readiness Level** (family‑coherent), plus **Requirement Status** (for normative clauses)
 * **Why.** Separates families; preserves level vs status distinction. (R‑UT‑7, R‑UT‑3)
 
-
 #### F.5:12.3 - Mixed scenario (service acceptance over execution traces)
 
 **Contexts in play.** IEC 61131‑3 (run), SOSA/SSN (sensing), ITIL 4 (services).
@@ -292,7 +280,6 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 2. **U.Type (from R₁)** — Tech: **Result** (to carry measured values).
 3. **Role Description (IEC)** — Tech: **Completed** / **Failed** (Status on a run).
 4. **Name discipline payoff.** The sentence “*Compare IEC run **Results** against the ITIL **Service‑Level Objective***” is Context‑true without tags, because each label encodes its **senseFamily** and neutrality.
-
 
 ### F.5:13 - Migration notes (conceptual)
 
@@ -339,7 +326,6 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 > **Never** glue Context tags or editions into names. **Never** mix senseFamilies in morphology.
 > If witnesses change, reconsider neutrality; if senses split, **split names**, don’t stretch them.
 > The label is the **last step of understanding**, not the first.
-
 
 ### F.5:End
 

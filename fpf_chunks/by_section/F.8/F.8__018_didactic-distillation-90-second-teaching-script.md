@@ -6,12 +6,12 @@ section_id: "F.8:16"
 section_title: "Didactic distillation (90‑second teaching script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__018_didactic-distillation-90-second-teaching-script.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:16 — Didactic distillation (90‑second teaching script)"
-line_start: 71036
-line_end: 71039
+line_start: 71784
+line_end: 71787
 dependencies:
   - "A.11"
   - "A.7"

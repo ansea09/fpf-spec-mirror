@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.7.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
-line_start: 36509
-line_end: 36674
+line_start: 36593
+line_end: 36756
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,7 +38,6 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state representation-factor bundle.
-
 
 ### C.2.7:1 - Problem frame
 Published position claims in the declared language-state chart over `U.CharacteristicSpace` must distinguish representation factors such as locality, sparsity, and symbolicity without pretending they form one master factor.
@@ -195,5 +194,4 @@ Legacy vocabularies often use "symbolic", "distributed", or "encoding basis" as 
 Representation bundles may be compared across contexts only after the compared factors are explicit. If one context uses a compact local alias and another publishes the full factor bundle, require explicit docking before treating the two descriptions as commensurable.
 
 ### C.2.7:End
-
 

@@ -6,12 +6,12 @@ section_id: "C.30.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__005_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:3 — Forces"
-line_start: 51994
-line_end: 52004
+line_start: 52148
+line_end: 52158
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -45,9 +46,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Ordinary engineering speech vs FPF kind recovery | Engineers need compact words such as architecture, structure, model, view, layer, graph, and module; FPF claims need recovered kind, relation, source-transfer posture, and admissible use. |
+| Ordinary engineering speech vs FPF kind recovery | Engineers need compact words such as architecture, structure, model, view, graph, module, layer, block, expert, cache, router, and gate; FPF claims need recovered kind, relation, source-use relation, and admissible use. C.30.STRAT receives the stratification-wording family and source-label family before C.30.P assigns any architecture or structure portion. |
 | Architecture description vs architecture itself | Descriptions and views are useful, but they can be overread as the selected structure or architecture claim. |
-| Structure generality vs architecture specificity | `A.22` gives selected structure; `C.30` governs architecture descriptions over selected structures. The repair must not collapse them. |
+| Structure generality vs architecture specificity | `A.22` gives selected structure; `C.30` governs grounded architecture adequacy over selected architecture-relevant structures and admits only the thin architecture-description bridge when durable description use is live. `C.30.AD` governs the full architecture-description mechanism. The repair must not collapse them. |
 | Small first move vs heavy record | Most wording cases need one repair note and exit, not a full architecture description. |
 | Source and view usefulness vs project authority | A source, dashboard, graph, ADR, or view can guide architecture work without proving evidence, gate passage, decision authority, release permission, or work completion. |
 | Cross-pattern consistency vs shadow registry | Architecture hosts should not carry duplicate trigger lists once `C.30.P` exists. |

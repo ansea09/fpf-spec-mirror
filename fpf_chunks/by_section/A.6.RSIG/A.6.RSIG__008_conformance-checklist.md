@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__008_conformance-checklist.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:7 — Conformance checklist"
-line_start: 7710
-line_end: 7731
+line_start: 7570
+line_end: 7591
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -33,7 +33,7 @@ keywords:
   to `A.6.B`, `E.17`, `E.10 / F.18 / A.6.P`, `C.25 / C.16.Q`, or the relevant
   authoritative pattern body.
 - **CC-RSIG-4 No kind inflation.** Recognition signatures are not silently
-  promoted into `U.Signature`, Signature Stack objects, `SurfaceKind`s,
+  promoted into `U.Signature`, Signature Stack objects, publication face kinds, publication form kinds, carrier kinds,
   graph objects, workflow objects, or new `U.*` kinds.
 - **CC-RSIG-5 Recoverable cue shape.** For load-bearing cases, description,
   viewpoint, cue, applicability, exclusion, defining `U.Episteme`, false neighbor,

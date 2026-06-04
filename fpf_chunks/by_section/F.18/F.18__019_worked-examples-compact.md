@@ -6,12 +6,12 @@ section_id: "F.18:18"
 section_title: "Worked examples (compact)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__019_worked-examples-compact.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:18 — Worked examples (compact)"
-line_start: 75138
-line_end: 75203
+line_start: 75733
+line_end: 75798
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -71,7 +71,7 @@ keywords:
   `U.PromiseContent` / “service (promise)”; `U.SpeechAct` / “utterance”; `U.Commitment` / “commitment”.
   *Discarded highlights:* **Offering** (business‑model connotations); **Declaration** (too narrow for performatives); **Obligation** (legalese; narrower than commitment envelope).
 * **Ontology note (informative):**
-  `U.SpeechAct` and `U.Commitment` are defined normatively in Part A (A.2.9 and A.2.8 respectively). This F.18 card is a lexical/NQD anchor, not the ontology definition site.
+  `U.SpeechAct` and `U.Commitment` are defined normatively in Part A (A.2.9 and A.2.8 respectively). This F.18 card is a lexical/NQD reference, not the ontology definition site.
 
 * **Bridges:** utterance **institutes** commitment; commitment **binds** promise content; no synonymy claimed.
 * **Why it matters:** Status tracking becomes intelligible without pretending that a “service” acts; the NQD‑front yields neutral, cross‑tradition readable labels. (F.12; F.17 blocks D/R.)

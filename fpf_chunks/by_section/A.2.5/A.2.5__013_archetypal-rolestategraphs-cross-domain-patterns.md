@@ -6,12 +6,12 @@ section_id: "A.2.5:12"
 section_title: "Archetypal RoleStateGraphs (cross‑domain patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__013_archetypal-rolestategraphs-cross-domain-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:12 — Archetypal RoleStateGraphs (cross‑domain patterns)"
-line_start: 3650
-line_end: 3772
+line_start: 3605
+line_end: 3725
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -128,7 +128,6 @@ Below are **didactic, reusable** RSG skeletons for the three principal **behavio
 
 > **Note.** Many ObserverRole states are **pre‑enactment** gates; only **Measuring** is enactable.
 
-
 #### A.2.5:12.4 - Epistemic/status roles (no enactment)
 
 These roles are **status‑only**; **`S_en = ∅`**. They **gate decisions** (e.g., can be cited, can constrain), but can never authorize `U.Work`.
@@ -150,5 +149,4 @@ These roles are **status‑only**; **`S_en = ∅`**. They **gate decisions** (e.
 **States:** *Proposed*, *Accepted*, *Implemented*, *Verified*, *Waived*.
 **Checklist gist:** acceptance decision; trace links to `U.Work`; verification report; waiver authorization.
 **Guards:** *Accepted → Implemented* when linked executions close; *Implemented → Verified* on passed acceptance checklist; *Any → Waived* by authorized speech‑act.
-
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.9.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
-line_start: 17995
-line_end: 18118
+line_start: 18083
+line_end: 18196
 dependencies:
   - "A.1"
   - "A.8"
@@ -32,7 +32,6 @@ keywords:
 
 FPF models reality as a **nested holarchy**: parts → assemblies → systems → supra‑systems; axioms → lemmas → theorems → paradigms. Designers and analysts must zoom freely without logical whiplash. Classical mereology and modern renormalisation theory both warn: if rules mutate across scales, predictions and audits collapse. FPF therefore mandates a single, scale‑invariant Standard.
 
-
 ### A.9:2 - Problem
 
 | Failure Mode              | Real‑World Symptom                                         |
@@ -43,7 +42,6 @@ FPF models reality as a **nested holarchy**: parts → assemblies → systems �
 
 These pathologies derail safety cases and budget decisions across disciplines.
 
-
 ### A.9:3 - Forces
 
 | Force                                  | Tension                                                      |
@@ -52,7 +50,6 @@ These pathologies derail safety cases and budget decisions across disciplines.
 | **Simplicity vs Fidelity**             | Single rule‑set ↔ non‑linear, emergent effects.              |
 | **Determinism vs Emergence**           | Stable roll‑ups ↔ need to legitimise genuine synergy jumps.  |
 | **Didactic clarity vs Formal rigour**  | Managers grasp intent quickly ↔ analysts can prove it.       |
-
 
 ### A.9:4 - Solution — Invariant Quintet + Meta‑Holon Transition
 
@@ -77,7 +74,6 @@ When holons are composed as a Layered‑Control stack, each Planner ↔ Regulato
 
 If empirical data show a true violation (e.g., redundancy raises WLNK limit), the modeller **declares an MHT**: the collection becomes a new holon at a new scale, and the quintet applies anew at that scale.
 
-
 ### A.9:5 - Archetypal Grounding
 
 | Invariant  | **`U.System` — Pump Skid**                    | **`U.Episteme` — Meta‑Analysis**                |
@@ -86,7 +82,6 @@ If empirical data show a true violation (e.g., redundancy raises WLNK limit), th
 | COMM / LOC | Pumps welded in any order / yard → same spec. | Labs contribute in any order → same statistics. |
 | WLNK       | Pressure rating ≤ weakest pump.               | Reliability ≤ least‑replicated study.           |
 | MONO       | Stronger motor never lowers flow.             | Larger sample size never lowers confidence.     |
-
 
 ### A.9:6 - Conformance Checklist
 
@@ -98,7 +93,6 @@ If empirical data show a true violation (e.g., redundancy raises WLNK limit), th
 | **CC‑A9‑4** | No aggregate metric **MAY** exceed the minimum of that metric across parts unless an **MHT** is declared (WLNK).                                                                                 | Prevents stealth inflation of reliability or truth.       |
 | **CC‑A9‑6** | A declared **Meta‑Holon Transition** **SHALL**: (a) name the new supervisory holon; (b) cite the data triggering the transition; (c) restate how the quintet holds at the new scale.             | Ensures emergence is captured explicitly, not hand‑waved. |
 
-
 ### A.9:7 - Consequences
 
 | Benefit                      | Why it matters                                                   | Trade‑off / Mitigation                                                           |
@@ -107,7 +101,6 @@ If empirical data show a true violation (e.g., redundancy raises WLNK limit), th
 | **Visible risk floor**       | WLNK blocks “averaging away” critical weaknesses.                | Can look overly conservative; redundancy, when real, lifts the minimum honestly. |
 | **Parallel progress**        | COMM + LOC allow distributed teams to integrate without re‑work. | Needs explicit independence assumptions; templates guide authors.                |
 | **Objective emergence flag** | Quintet failure becomes a measurable R\&D signal.                | Teams must learn to document MHTs instead of ignoring anomalies.                 |
-
 
 ### A.9:8 - Rationale
 
@@ -120,7 +113,6 @@ If empirical data show a true violation (e.g., redundancy raises WLNK limit), th
 
 Packaging these insights as one memorisable quintet → **Cognitive Elegance** with formal bite.
 
-
 ### A.9:9 - Relations
 
 | Relation           | Linked Pattern                       | Contribution                                              |
@@ -131,13 +123,11 @@ Packaging these insights as one memorisable quintet → **Cognitive Elegance** w
 | **Foundation for** | B 1 Universal Algebra of Aggregation | B‑section implements operators that satisfy this pattern. |
 | **Triggers**       | B 2 Meta‑Holon Transition            | When invariants fail through synergy, an MHT is invoked.  |
 
-
 ### A.9:10 - Known Uses (2018‑2025)
 
 * **Spacecraft avionics** ‑ Applying WLNK exposed a sub‑grade connector, saving a \$40 M launch window.
 * **Global vaccine meta‑reviews** ‑ COMM + LOC let five epidemiology teams merge data independently; results converged within 0.1 % effect size.
 * **Distributed ML training** ‑ MONO guaranteed optimiser swaps never reduced accuracy, cutting iteration time by 20 %.
-
 
 ### A.9:11 - Open Questions for expert panel
 

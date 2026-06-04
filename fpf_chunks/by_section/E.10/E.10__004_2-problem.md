@@ -6,12 +6,12 @@ section_id: "E.10"
 section_title: ".2 - Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__004_2-problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10 — .2 - Problem"
-line_start: 57425
-line_end: 57433
+line_start: 58550
+line_end: 58557
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,6 @@ keywords:
 1. **Polysemy drift.** *Process, function, service, agent, activity* slide between structure, recipe, execution, and promise.
 2. **Cross‑context collision.** A label (e.g., *Owner*) is assumed “global” though meanings differ per `U.BoundedContext`.
 3. **Name bloat vs. parochialism.** Either hyper‑specific domain names leak into core types, or vague umbrella names obscure invariants.
-4. **I/D/S collapse.** Authors mix **intension** (the thing), **description** (how we describe it), and **specification** (testable criteria).
+4. **EntityOfConcern and Description-episteme boundary and specification-use collapse.** Authors mix **EntityOfConcern** (the thing under concern), **Description episteme** (how we describe it), and **specification use** (testable criteria, formality, acceptance, and harness-gated use of a Description episteme).
 5. **Register soup.** Tech terms bleed into Plain pedagogy and vice‑versa, inviting category errors.
-
 

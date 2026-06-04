@@ -6,12 +6,12 @@ section_id: "C.20:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 43148
-line_end: 43157
+line_start: 43052
+line_end: 43061
 dependencies:
   - "A.19"
   - "C.2"
@@ -40,7 +40,7 @@ keywords:
 
 | Slot | **System** (safety code in a factory) | **Episteme** (discipline canon across editions) |
 |---|---|---|
-| **Object** | Production line with hazardous operations | “Safety engineering” as *describedEntity target* (accident models, tolerable risk) |
+| **Object** | Production line with hazardous operations | “Safety engineering” as *entityOfConcern target* (accident models, tolerable risk) |
 | **Concept** | Acceptance clauses & evaluation templates bound to rigs/windows | Canon texts: causality models, design rules, proofs/benchmarks (e.g., **formal knowledge bases**, **proof carriers**, **concept schemas**) |
 | **Symbol** | Local SOP/notation sets for checklists | Notation packages (CLIF, RDF/TriG, proof scripts) |
 | **Γ_disc assembly** | Fold {line‑specific standard, plant procedures, certifying unit} into **`Discipline: Safety‑Plant‑A`** | Fold {canon papers, formal models, journals/committee} into **`Discipline: Safety‑Engineering`** with **Traditions** (e.g., system safety vs resilience engineering) |

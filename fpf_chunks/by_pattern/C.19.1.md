@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
-line_start: 42989
-line_end: 43092
+line_start: 42893
+line_end: 42996
 dependencies:
   - "A.0"
   - "B.3"
@@ -130,9 +130,9 @@ Source posture: this section is informative grounding for scale-amenable method 
 
 **Depends on:** **G.5/G.9** (selector/parity), **G.11** (refresh telemetry), **C.5** (Resrc‑CAL), **C.18** (NQD‑CAL), **C.19** (E/E‑LOG), **F.7/F.9** (Bridges, CL/Φ/Ψ). **Constrained by:** **E.5** Guard‑Rails and **E.3** precedence.
 
-#### C.19.1:7.1 - C.29 MLA relation
+#### C.19.1:7.1 - C.29 mathematical-lens use relation
 
-When a mathematical lens is chosen over a general, scale-amenable method because it is elegant, specialized, or theoretically prestigious, `C.19.1` governs the scale-advantage and method-preference claim. A `C.29` application may state `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensSupportPosture`, `admissibleUse`, `nonAdmissibleUse`, and `StopCondition`; it does not supply BLP compatibility, scale dominance, or waiver evidence.
+When a mathematical lens is chosen over a general, scale-amenable method because it is elegant, specialized, or theoretically prestigious, `C.19.1` governs the scale-advantage and method-preference claim. A `C.29` application may state `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseAdmissibilityValue`, `admissibleUse`, `nonAdmissibleUse`, and `StopCondition`; it does not supply BLP compatibility, scale dominance, or waiver evidence.
 
 If scale advantage is live, cite a `Scale-Audit` or `BLP-waiver`. If scale advantage is not live, keep the mathematical lens local and bounded by its `C.29` stop condition.
 

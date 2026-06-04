@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10525
-line_end: 10538
+line_start: 10385
+line_end: 10397
 dependencies:
   - "A.15"
   - "A.20"
@@ -46,7 +46,6 @@ keywords:
 
 ### A.6.3.CSC:8 - Common Anti-Patterns and How to Avoid Them
 
-
 | Anti-pattern | Failure | Avoid by |
 | --- | --- | --- |
 | Helpful summary becomes authority | The coarsened rendering starts deciding downstream questions that it does not carry. | Publish non-admissible downstream use and reopen trigger. |
@@ -56,5 +55,5 @@ keywords:
 | Stance cure | `projection` or `nonEquivalent` is used instead of a bridge card or source return. | Apply `F.9` or `F.9.1` for the bridge claim. |
 | Briefing-as-work | A summary becomes work plan, action cue, gate, or approval. | Use `A.15`, `A.20`, or `A.21` for the work, constraint, or gate claim. |
 | Summary-chain source loss | A note summarizes an already coarsened note and loses the original source and loss envelope. | Keep the same source-bearing side and added loss delta visible, or reopen that source-bearing side. |
-| Aggregation target shift | A quotient or bundle turns several entities or alternatives into one new proxy target. | Apply `A.6.4` rather than treating target shift as a same-lineage source-to-rendering case. |
+| Aggregation EntityOfConcern shift | A quotient or bundle turns several entities or alternatives into one new proxy EntityOfConcern. | Apply `A.6.4` rather than treating EntityOfConcern shift as a same-lineage source-to-rendering case. |
 

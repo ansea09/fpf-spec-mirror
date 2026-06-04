@@ -6,12 +6,12 @@ section_id: "A.6.0:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__010_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:9 — Rationale"
-line_start: 9052
-line_end: 9065
+line_start: 8910
+line_end: 8923
 dependencies:
   - "A.2.6"
   - "A.6.1"

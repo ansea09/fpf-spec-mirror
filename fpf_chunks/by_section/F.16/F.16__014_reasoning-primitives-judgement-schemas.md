@@ -6,12 +6,12 @@ section_id: "F.16:13"
 section_title: "Reasoning primitives (judgement schemas)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__014_reasoning-primitives-judgement-schemas.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:13 — Reasoning primitives (judgement schemas)"
-line_start: 74091
-line_end: 74130
+line_start: 74689
+line_end: 74727
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -64,5 +64,4 @@ keywords:
 9. **Harness ping mapping**
    `ping ∈ {S‑*, E‑*} ⊢ ping ⇒ subset of judgements above`
    *Reading:* Each named harness check (F.15) has a clear reading in these judgements.
-
 

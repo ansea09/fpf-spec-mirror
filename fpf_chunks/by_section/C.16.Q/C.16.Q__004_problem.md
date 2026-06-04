@@ -6,12 +6,12 @@ section_id: "C.16.Q:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__004_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:2 — Problem"
-line_start: 40995
-line_end: 41007
+line_start: 40922
+line_end: 40934
 dependencies:
   - "A.10"
   - "A.16"
@@ -58,12 +58,12 @@ keywords:
 
 How can FPF let working texts keep the communicative convenience of the word **quality** while preventing category errors when the term crosses:
 
-* phenomenological / epistemological discourse,
+* phenomenological and epistemological discourse,
 * architecture-description fitness discourse and viewpoint-fit discourse,
-* representation-learning / neuro-symbolic discourse,
-* Popper/Deutsch-style explanation-and-criticism discourse,
+* representation-learning and neuro-symbolic discourse,
+* Popper- and Deutsch-style explanation-and-criticism discourse,
 * engineering architecture and quality-characteristic discourse,
-* open-ended evolution / NQD / selection discourse,
-* control / world-model / active-inference discourse,
+* open-ended evolution, NQD, and selection discourse,
+* control, world-model, and active-inference discourse,
 * ecological affordance discourse, including source-tradition `affordance` cases that must leave quality-term restoration for `A.6.A` or another exact action-invitation receiving pattern?
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:12 — Relations"
-line_start: 61144
-line_end: 61153
+line_start: 62038
+line_end: 62046
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -40,9 +40,8 @@ keywords:
 - **Builds on:** `C.2.1` slot discipline through `ViewpointSlot` / `ViewSlot`, `A.6.2-A.6.4`, `A.7`, `E.7`, and `E.10`.
 - **Constrains:** `E.17.0 U.MultiViewDescribing` whenever it imports viewpoint families from reusable bundles.
 - **Coordinates with:** `C.2.2a`, `A.16.0`, `E.17`, `E.17.2`, `E.18:5.12`, `F.9`, `F.9.1`, and any domain-specific viewpoint family that needs stable reuse.
-- **Protects:** lexical and ontological separation between viewpoint families, concrete views, and publication surfaces.
+- **Protects:** lexical and ontological separation between viewpoint families, concrete views, and publication faces/forms.
 #### E.17.1:12.1 - Typed annex manifests for thin bundles
 
 `VF.*` and other reusable viewpoint bundles may reference typed `AnnexManifestRef` assets with roles such as `lexical`, `bridge`, `routing`, `examples`, optional `sota`, and optional `pilotTrace`. This keeps the bundle itself thin while allowing routing notes, lexical baggage, and bridge annexes to remain explicit and typed rather than folded into the bundle core.
-
 

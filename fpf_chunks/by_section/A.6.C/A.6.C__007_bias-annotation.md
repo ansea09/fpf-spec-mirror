@@ -6,12 +6,12 @@ section_id: "A.6.C:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:6 — Bias-Annotation"
-line_start: 8701
-line_end: 8710
+line_start: 8560
+line_end: 8569
 dependencies:
   - "A.15.1"
   - "A.2.3"
@@ -62,7 +62,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 
 * **Gov bias:** prefers explicit accountability and adjudication hooks; increases clarity but adds authoring overhead.
 * **Arch bias:** optimises evolvability by preventing hidden coupling (contract soup) across stack layers.
-* **Onto/Epist bias:** enforces Object≠Description≠Carrier separation; discourages “interface-as-agent” metaphors in Tech prose.
+* **Onto/Epist bias:** enforces EntityOfConcern / Description episteme / carrier separation; discourages “interface-as-agent” metaphors in Tech prose.
 * **Prag bias:** accepts that “contract” is common vocabulary; offers a disciplined rewrite rather than prohibition.
 * **Did bias:** aims to be teachable via repeated unpacking examples across boundary types.
 

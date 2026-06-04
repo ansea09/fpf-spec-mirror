@@ -6,12 +6,12 @@ section_id: "A.2.3:10"
 section_title: "Migration notes (quick wins)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_migration-notes-quick-wins.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10 — Migration notes (quick wins)"
-line_start: 2957
-line_end: 2967
+line_start: 2929
+line_end: 2938
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -58,5 +58,4 @@ keywords:
    → For each **promise content**, define 2–4 KPIs and the exact Work-based formulas, with explicit `Γ_time`.
 5. **Bridge domains.** If a business ontology already exists (“business/technical/internal service”), keep it in its own context and map to FPF Kinds via Bridges.
 6. **Tidy language.** Apply **A.6.8 (RPR‑SERV)** / **L‑SERV**: ban unqualified “service” as a synonym for server/team/process/ticket in normative prose; map them explicitly.
-
 

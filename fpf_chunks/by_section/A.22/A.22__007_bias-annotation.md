@@ -6,12 +6,12 @@ section_id: "A.22:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:6 — Bias-Annotation"
-line_start: 28076
-line_end: 28089
+line_start: 28296
+line_end: 28309
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,10 +33,12 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -48,8 +50,8 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture-description claim"
-  - "preserved/lost structure"
+  - "architecture-description boundary"
+  - "preserved and lost structure"
   - "selected structure"
   - "source return"
   - "structural description"
@@ -59,14 +61,14 @@ keywords:
 
 ### A.22:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**, **Gov**. Scope: universal within FPF structure claims.
+Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: universal within FPF structure claims.
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Architecture bias | Do not make architecture the parent of all structure. A.22 stays upstream; C.30 carries architecture-description adequacy. |
-| Mathematical-formalism bias | A mathematical lens can expose preserved/lost structure, but C.29 remains the governing pattern for lens adequacy and stop condition. |
-| Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. D/S and publication boundaries stay explicit. |
-| Review-only bias | Checks leave a repair move: name the structure, name the exact structure-claim reliance reading, open a structural view, return to source, or apply exact FPF pattern. |
+| Architecture bias | Do not make architecture the parent of all structure. A.22 stays upstream; C.30 carries grounded architecture and selected-structure adequacy. |
+| Mathematical-formalism bias | A mathematical lens can expose preserved structure and lost structure, but C.29 remains the governing pattern for lens-use result, admissibility, and stop condition. |
+| Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. description, specification-use, and publication boundaries stay explicit. |
+| Review-only bias | Checks leave a repair move: name the structure, name the exact structure-claim reliance relation, open a structural view, return to source, or apply exact FPF pattern. |
 | Didactic-thinning risk | Semantic repair does not leave inert prose. The recognition text keeps the first useful move and the practical payoff visible before the formal records. |
 
 This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.

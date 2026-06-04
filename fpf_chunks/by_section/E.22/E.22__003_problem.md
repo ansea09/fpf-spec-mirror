@@ -6,12 +6,12 @@ section_id: "E.22:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality-Read Question Framing"
   - "E.22:2 — Problem"
-line_start: 67351
-line_end: 67368
+line_start: 68220
+line_end: 68237
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.22:2 - Problem
 
-Quality reads often begin with an underspecified request such as "review this", "evaluate quality", "improve this", or "tell me what is wrong." Those phrases hide different governed questions.
+Quality reads often begin with an underspecified request such as "review this", "evaluate quality", "improve this", or "tell me what is wrong." Those phrases hide different evaluation and improvement questions.
 
 The first failure is the fantasy of "just reading." A useful quality read always has a purpose: read for admissibility, read for exceptional improvement, read for trade-off exposure, read for open-question discovery, read for absorption impact, or read for candidate improvement proposals and the next admissible move. If the purpose is not declared, the reviewer supplies one implicitly, and the resulting proposal or next move may be too weak, too broad, or assigned to the wrong governing pattern.
 

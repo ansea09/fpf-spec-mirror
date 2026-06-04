@@ -6,12 +6,12 @@ section_id: "C.3:14"
 section_title: "Migration & editorial impact"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__016_migration-editorial-impact.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:14 — Migration & editorial impact"
-line_start: 37433
-line_end: 37481
+line_start: 37467
+line_end: 37513
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -33,7 +33,7 @@ keywords:
 #### C.3:14.1 - Inventory & refactor (steps)
 
 1. **Inventory** claims that implicitly talk about “things” (vehicles, requests, accounts, cohorts…).
-2. **Name kinds** for recurring “describedEntity”; start at **K1**; promote to **K2** as invariants stabilize.
+2. **Name kinds** for recurring “entityOfConcern”; start at **K1**; promote to **K2** as invariants stabilize.
 3. **Extract KindSignature** (aim **F4**); declare **F**.
 4. **Refactor claims** to typed quantification: `∀ x ∈ Extension(k, slice) …` plus **Scope (G)** predicates.
 5. **Publish bridges** where reuse is Cross‑context: Scope Bridge (**CL**) and KindBridge (**`CL^k`**) with loss notes; wire penalties **Φ/Ψ** to **R**.
@@ -58,7 +58,6 @@ keywords:
  – Introduce **KindBridge** with **`CL^k`**, monotone order preservation, loss notes; determinism.
  – Chaining uses **min** of levels (weakest‑link) **for both** **CL** (Scope bridges) **and** **`CL^k`** (KindBridges).
 
-
 * **Role‑CAL.**
   – Add **RoleMask** for kinds; determinism; promotion rule to subkind when reused.
 
@@ -73,5 +72,4 @@ keywords:
 
 * Archived prose and cited older records may keep deprecated aliases as labels. **Guards, conformance text, and state assertions** MUST use the Kind‑CAL/USM vocabulary and guard shapes.
 * When annotating older records, add a small “typed note” box: **Kinds**, **Scope**, **Bridges (CL/`CL^k`)**, **loss notes**, **penalties to R**.
-
 

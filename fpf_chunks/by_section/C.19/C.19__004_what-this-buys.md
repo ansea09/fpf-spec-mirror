@@ -6,12 +6,12 @@ section_id: "C.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__004_what-this-buys.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:0.2 — What this buys"
-line_start: 42661
-line_end: 42666
+line_start: 42567
+line_end: 42572
 dependencies:
   - "B.3"
   - "C.11"
@@ -39,7 +39,7 @@ keywords:
 
 ### C.19:0.2 - What this buys
 
-- one explicit pool-governance surface for exploration, graduation, narrowing, and sunset posture
-- one explicit link from lens or policy posture to the next pool-side treatment
+- one explicit pool-governance result for exploration, graduation, narrowing, and sunset treatment
+- one explicit link from lens or policy state to the next pool-side treatment
 - one repeatable way to preserve heterogeneity and frontier discipline without forcing illegal totalization
 

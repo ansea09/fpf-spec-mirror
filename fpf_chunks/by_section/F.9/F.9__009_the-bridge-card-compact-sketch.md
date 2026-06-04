@@ -6,12 +6,12 @@ section_id: "F.9:8"
 section_title: "The Bridge Card (compact sketch)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__009_the-bridge-card-compact-sketch.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:8 — The Bridge Card (compact sketch)"
-line_start: 71179
-line_end: 71197
+line_start: 71921
+line_end: 71938
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -63,5 +63,4 @@ keywords:
 *If it does not fit on a screen, you are describing the Contexts, not the Bridge.*
 
 **Registry-reference note (normative).** `BridgeId` and any policy/edition identifiers cited by a Bridge Card are **registry references** (keys into registries), not semantic symbols exported by signatures. Therefore they MUST NOT be demanded via `SignatureManifest.provides` (or "satisfied" via `imports` closure); conformance is checked by validating that the referenced registry entries exist and, where required, are edition-pinned (see F.15).
-
 

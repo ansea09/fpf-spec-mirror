@@ -6,12 +6,12 @@ section_id: "F.3:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__015_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:14 — Relations"
-line_start: 69436
-line_end: 69451
+line_start: 70244
+line_end: 70258
 dependencies:
   - "A.11"
   - "A.7"
@@ -45,5 +45,4 @@ F.1 **Domain‑Family Landscape Survey** (Contexts fixed); F.2 **Term Harvesting
 
 **Is used by.**
 Part C Extention Patterns to ground examples and invariants in **Context‑true** language.
-
 

@@ -6,12 +6,12 @@ section_id: "C.21:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__011_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:10 — Consequences"
-line_start: 43363
-line_end: 43368
+line_start: 43284
+line_end: 43289
 dependencies:
   - "A.17"
   - "A.18"
@@ -41,7 +41,7 @@ keywords:
 
 ### C.21:10 - Consequences
 
-**Benefits.** Lawful comparisons; freshness-aware governance; explicit cross-tradition alignment; dashboards that don’t lie by averaging ranks.
+**Benefits.** Scale-legal comparisons; freshness-aware governance; explicit cross-tradition alignment; dashboard views that do not lie by averaging ranks.
 **Costs.** Some ceremony (scales, windows, lanes, bridges), offset by template macros and UTS automation.
-**Risks avoided.** “Phlogiston disciplines” (charisma-driven fields) fail DHC audits; **No-Free-Lunch** preserved by G.5 (selector returns sets, not universal scalars).
+**Risks avoided.** “Phlogiston disciplines” (charisma-driven fields) surface as unhealthy in DHC readings; **No-Free-Lunch** preserved by G.5 (selector returns sets, not universal scalars).
 

@@ -6,12 +6,12 @@ section_id: "F.0.1:9"
 section_title: "Compact worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__010_compact-worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:9 — Compact worked examples"
-line_start: 68337
-line_end: 68405
+line_start: 69199
+line_end: 69262
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -53,7 +53,6 @@ keywords:
 
 * **Concept‑Set hint**: *No* same‑row nomination (relation ≠ near‑equiv); instead, record a **design↔run** linkage.
 
-
 #### F.0.1:9.2 - Control × PLC runtime — *actuation* vs *control output*
 
 * **Context A**: `CTRL_Text_Classic` - *control theory primers* - *design*
@@ -65,7 +64,6 @@ keywords:
 * **Bridge**: ⟨actuation\@CTRL⟩ ↔⟨`near‑equivalent`, **CL=2**, loss: “hardware/scan‑cycle specifics absent in CTRL”; fit: “semantics align under linear regime”⟩ ⟨q‑output\@IEC⟩
 
 * **Concept‑Set hint**: *Candidate same‑row* (F.7) with note: “merge permitted at **CL≥2** threshold.”
-
 
 #### F.0.1:9.3 Measurement × Service — *observation* vs *service metric*
 
@@ -79,7 +77,6 @@ keywords:
 
 * **Concept‑Set hint**: Not a same‑row case; this is a **role‑in‑use** relation (measurement feeds status evaluation).
 
-
 #### F.0.1:9.4 Type reasoning — *subclass‑of* (OWL) vs *is‑a (plain)*
 
 * **Context A**: `OWL2_Profiles` - *description logics*
@@ -92,7 +89,6 @@ keywords:
 
 * **Concept‑Set hint**: Keep separate rows unless the consuming artefact demands **formal** semantics.
 
-
 #### F.0.1:9.5 Deontics × Access — *permission* vs *role (RBAC)*
 
 * **Context A**: `ODRL_2_2` - *policy/deontics*
@@ -104,5 +100,4 @@ keywords:
 * **Bridge**: ⟨permission\@ODRL⟩ ↔⟨`member‑of‑set‑in`, **CL=2**, loss: “contextual obligations not preserved”; fit: “RBAC roles aggregate permissions.”⟩ ⟨role\@RBAC⟩
 
 * **Concept‑Set hint**: Not same row (different **kinds**); useful linkage for Enactment when binding duties to sessions.
-
 

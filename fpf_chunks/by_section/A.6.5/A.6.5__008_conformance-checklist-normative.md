@@ -6,12 +6,12 @@ section_id: "A.6.5:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__008_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:7 — Conformance Checklist (normative)"
-line_start: 14493
-line_end: 14551
+line_start: 14649
+line_end: 14707
 dependencies:
   - "A.1"
   - "A.19"
@@ -60,7 +60,7 @@ ValueKinds **MUST** be declared without `*Slot`/`*Ref` suffixes and **MUST** be 
 **CC‑A.6.5‑5 - Episteme core SlotKinds.**
 For episteme kinds (`U.EpistemeKind`), the following SlotKinds **SHALL** be used (or their documented refinements) in C.2.1 / C.2.x:
 
-* `DescribedEntitySlot` with ValueKind `U.Entity` **or a declared subkind** (e.g. `U.Method`, `U.Holon`) via Kind‑CAL (EoIClass ⊑ `U.Entity` at species level);
+* `EntityOfConcernSlot` with ValueKind `U.Entity` **or a declared subkind** (e.g. `U.Method`, `U.Holon`) via Kind‑CAL (EntityOfConcernClass ⊑ `U.Entity` at species level);
 * `GroundingHolonSlot` with ValueKind `U.Holon`;
 * `ClaimGraphSlot` with ValueKind `U.ClaimGraph` and `ByValue` mode in the minimal core;
 * `ViewpointSlot` with ValueKind `U.Viewpoint`;
@@ -74,7 +74,7 @@ SlotKinds **MUST NOT** use “Role” as their head noun; use “Slot” with a 
 Any pattern that describes substitution or replacement of arguments **MUST** phrase its rules in terms of SlotKinds and ValueKinds (and, where relevant, RefKinds), not in terms of unstructured parameter indices or ad‑hoc labels.
 
 **CC‑A.6.5‑8 - Cross‑pattern consistency.**
-When the same conceptual position is used across patterns (e.g. “describedEntity target”, “grounding holon”, “caller system”), the **same SlotKind name** and ValueKind **SHALL** be reused, unless a documented Bridge declares a different discipline or the pattern explicitly scopes itself to a distinct calculus.
+When the same conceptual position is used across patterns (e.g. “entityOfConcern target”, “grounding holon”, “caller system”), the **same SlotKind name** and ValueKind **SHALL** be reused, unless a documented Bridge declares a different discipline or the pattern explicitly scopes itself to a distinct calculus.
 
 **CC‑A.6.5‑9 - Migration of legacy `…Ref`/`…Slot` usage.**
 Contexts adopting this pattern **MUST** maintain a migration table for legacy types/fields whose names contain `Ref` or `Slot` but do not comply with the new discipline. Each entry shall state:

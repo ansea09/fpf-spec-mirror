@@ -6,12 +6,12 @@ section_id: "A.3.2:11"
 section_title: "Equivalence & compatibility (across notations and contexts)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__012_equivalence-compatibility-across-notations-and-contexts.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:11 — Equivalence & compatibility (across notations and contexts)"
-line_start: 6304
-line_end: 6320
+line_start: 6200
+line_end: 6215
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -52,5 +52,4 @@ keywords:
 
 **Observational perspective (pragmatic).**
 Two specs are observationally equivalent for stakeholders **if**, under declared conditions, they are indistinguishable by the acceptance tests of that context (even if internal strategies differ).
-
 

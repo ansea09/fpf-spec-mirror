@@ -6,12 +6,12 @@ section_id: "E.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:12 — Relations"
-line_start: 59715
-line_end: 59722
+line_start: 60617
+line_end: 60624
 dependencies:
   - "A.6.RSIG"
   - "E.19"

@@ -6,12 +6,12 @@ section_id: "C.3.3:5"
 section_title: "Solution — The KindBridge object (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__006_solution-the-kindbridge-object-overview.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:5 — Solution — The KindBridge object (overview)"
-line_start: 37983
-line_end: 37996
+line_start: 37989
+line_end: 38001
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -37,5 +37,4 @@ A **KindBridge** connects **source** Context **A** and **target** Context **B** 
 6. **Determinism**: fixed versions + mapping rules ⇒ deterministic result (no “latest”).
 
 **Effect on assurance.** When a **claim** in B depends on classification that goes through this bridge, **reduce R** by a monotone penalty **Ψ(`CL^k`)**. **Do not** change **F** or **G**.
-
 

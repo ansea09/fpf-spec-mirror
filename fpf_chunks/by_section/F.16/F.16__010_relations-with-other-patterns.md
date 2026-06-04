@@ -6,12 +6,12 @@ section_id: "F.16:9"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__010_relations-with-other-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:9 — Relations (with other patterns)"
-line_start: 74017
-line_end: 74025
+line_start: 74620
+line_end: 74627
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -33,5 +33,4 @@ F.1 (Contexts), F.2–F.3 (terms & senses), F.4–F.6 (roles), F.7–F.8 (rows),
 
 **Constrains:**
 Any example placed in Part C or Part B **must** render its claim through this canvas (or a faithful reduction), so readers can run F.15 mentally.
-
 

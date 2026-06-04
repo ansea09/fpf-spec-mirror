@@ -6,12 +6,12 @@ section_id: "C.16.P:7"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__010_worked-cases.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:7 — Worked cases"
-line_start: 40850
-line_end: 40861
+line_start: 40778
+line_end: 40788
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,13 +41,12 @@ keywords:
 
 ### C.16.P:7 - Worked cases
 
-
 | Wording | Repair |
 | --- | --- |
 | "This pattern is stronger." | Recover the characteristic and scale. If the sentence means pattern-quality evaluation, use `E.21`; if it means relation strength, use `A.6.P`; if no scale exists, demote to ordinary prose or rewrite with the exact gain. |
-| "Architecture score improved." | Recover whether this is a score on a declared scale, pattern-quality coordinate, architecture-description adequacy value, Q-bundle value, benchmark result, gate threshold, or ordinary comparison. Use `C.16.P` before using the score. |
-| "The metric supports launch." | Recover measure, characteristic, scale, scoring method, threshold basis, and gate/decision pattern. The metric alone is not launch evidence, gate passage, decision authority, or launch justification. |
-| "The model has robust quality." | Recover robustness perturbation and scale, quality/evaluative characterization under `C.16.Q`, Q-bundle under `C.25`, or mathematical-lens adequacy under `C.29`. |
+| "Architecture score improved." | Recover whether this is a score on a declared scale, pattern-quality coordinate, grounded architecture adequacy value, selected-structure characteristic value, Q-bundle value, benchmark result, gate threshold, or ordinary comparison. Use `C.16.P` before using the score. |
+| "The metric supports launch." | Recover measure, characteristic, scale, scoring method, threshold rule or reference, and gate or decision pattern. The metric alone is not launch evidence, gate passage, decision authority, or launch justification. |
+| "The model has robust quality." | Recover robustness perturbation and scale, quality-term or evaluative characterization under `C.16.Q`, Q-bundle under `C.25`, or mathematical-lens use under `C.29`. |
 | "Latent axis explains behavior." | Recover whether `axis` is a latent coordinate, factor, mathematical lens, characteristic, or ordinary source-local word. Use `C.29` when a mathematical lens is live. |
-| "The benchmark proves the method is better." | Recover benchmark harness, characteristic space, comparison set, scale, statistical or evidential claim, and decision use. Use exact evidence/decision/work patterns as needed. |
+| "The benchmark proves the method is better." | Recover benchmark harness, characteristic space, comparison set, scale, statistical or evidential claim, and decision use. Use exact evidence, decision, and work patterns as needed. |
 

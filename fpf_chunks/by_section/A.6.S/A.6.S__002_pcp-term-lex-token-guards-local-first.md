@@ -6,12 +6,12 @@ section_id: "A.6.S:0"
 section_title: "PCP-TERM/LEX token guards (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__002_pcp-term-lex-token-guards-local-first.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:0 — PCP-TERM/LEX token guards (local-first)"
-line_start: 16616
-line_end: 16629
+line_start: 16766
+line_end: 16779
 dependencies:
   - "A.12"
   - "A.3"
@@ -48,7 +48,7 @@ keywords:
 
 This pattern reserves the following tokens on Tech (normative) surfaces:
 
-* **TargetSignature** — the engineered signature episteme (and its editions) under construction/stabilisation (**not** the described entity, and **not** a Bridge “target Context”).
+* **TargetSignature** — the engineered signature episteme (and its editions) under construction/stabilisation (**not** the EntityOfConcern, and **not** a Bridge “target Context”).
 * **ConstructorSignature** — the enabling signature that describes constructor operations for TargetSignature evolution (do **not** mint a second Tech token such as `EnablingSignature`).
 
 Rename-guards (common collisions):

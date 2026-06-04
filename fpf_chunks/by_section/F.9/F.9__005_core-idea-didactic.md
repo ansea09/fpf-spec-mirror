@@ -6,12 +6,12 @@ section_id: "F.9:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__005_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:4 — Core idea (didactic)"
-line_start: 71095
-line_end: 71100
+line_start: 71841
+line_end: 71845
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -50,5 +50,4 @@ keywords:
 
 **A Bridge is a declared translator between two local senses.**
 It always names **(a)** the two **SenseCells**, **(b)** a **Bridge kind** (what relation), **(c)** a **direction** (if non-symmetric), **(d)** a **CL** value, and **(e)** **Loss Notes** (what fails to carry). Some Bridges **support substitution** in limited scopes; others **support only explanation**.
-
 

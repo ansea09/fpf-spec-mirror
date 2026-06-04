@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.11.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
-line_start: 18513
-line_end: 18619
+line_start: 18587
+line_end: 18685
 dependencies:
   - "A.11"
   - "U.Type"
@@ -29,7 +29,6 @@ keywords:
 
 The FPF kernel aspires to remain **small enough to learn in a week** yet **broad enough** to model engines, proofs and budgets alike. Unchecked growth of primitives—well‑known from earlier “enterprise ontologies”—bloats diagrams, stalls tooling and intimidates new adopters. C‑5 therefore demands *minimal‑sufficiency*: a new core concept enters the kernel **only** when all routes of composition, refinement or role‑projection fail to express it without semantic loss.
 
-
 ### A.11:2 - Problem
 
 | Pathology         | Real‑world symptom                                                                 |
@@ -40,7 +39,6 @@ The FPF kernel aspires to remain **small enough to learn in a week** yet **broad
 
 Result: steep learning curves, fragile integrations, eroded trust in “first‑principles” promises.
 
-
 ### A.11:3 - Forces
 
 | Force                            | Tension                                                            |
@@ -49,7 +47,6 @@ Result: steep learning curves, fragile integrations, eroded trust in “first‑
 | **Inclusivity vs Purity**        | New domains want vocabulary ↔ kernel must not be a dumping ground. |
 | **Evolution vs Stability**       | Framework grows ↔ users depend on a stable core.                   |
 | **Prestige vs Utility**          | Authors enjoy naming things ↔ every name tcharacteristics everyone else.      |
-
 
 ### A.11:4 - Solution — Four‑Gate **Minimal‑Sufficiency Protocol**
 
@@ -66,7 +63,6 @@ A proposal to add a `U.Type` or core relation **MUST** clear **all four gates** 
 A cleared type enters the kernel **provisionally** with a timer (default = 4 quarters). If usage count remains zero at expiry, the type faces *Sunset Review*: delete, demote to Extention Pattern, or renew with fresh evidence.
 
 > *Manager’s mnemonic:* **“Compose, Unique, Functional, Crisp — or sunset.”**
-
 
 ### A.11:5 - Archetypal Grounding
 
@@ -88,7 +84,6 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4 qua
 | **CC‑OP 4** | Renaming, aliasing, or splitting an existing type **REQUIRES** re‑passing all four gates and documenting a migration note.                                | Prevents redundancy re‑entering via back door.               |
 | **CC‑OP 5** | Patterns **SHOULD** favour `Role` + attributes over proposing new domain types; proposals rejected when Gate G‑1 answer is “yes.”          | Extends parsimony culture beyond the kernel.                 |
 
-
 ### A.11:7 - Consequences
 
 | Benefit                            | Impact for engineer‑managers                                                   | Trade‑off / Mitigation                                                                   |
@@ -97,7 +92,6 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4 qua
 | **Reduced tool churn**             | Stable set of nouns keeps dashboards, linters, reasoners in sync for years.    | Occasionally slows acceptance of niche concepts; Extention Patterns layer absorbs urgency.          |
 | **Automatic house‑cleaning**       | Sunset cycle prevents accrual of deadwood.                                     | Rare risk of deleting a sleeper hit; renewal path allows appeal.                         |
 | **Encultured composition mindset** | Teams default to roles & attributes, boosting reuse and cross‑domain dialogue. | Requires role libraries and attribute taxonomies; provided in Part C.                    |
-
 
 ### A.11:8 - Rationale
 
@@ -112,17 +106,15 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4 qua
 | **Feeds**         | B 5 Kernel Change‑Log   | Records admissions, renames, sunsets.                     |
 | **Complementary** | A 10 Evidence Graph Referring | Proposals cite evidence of irreducibility.                |
 
-
 ### A.11:10 - Illustrative Uses (2022 – 2025)
 
 * **Robotics CAL 2023** – `U.LiDARSensor` rejected (Gate G‑1 passed via role composition), saving three schema migrations.
 * **Green‑Finance CAL 2024** – `U.CarbonCredit` admitted provisionally, but Sunset Review (usage = 0) demoted it to sector pattern, avoiding kernel noise.
 * **Neuro‑informatics 2025** – `U.ProvenanceChain` accepted; by Q3 its heavy reuse in three patterns lifted timer and marked it *established*.
 
-
 ### A.11:11 - Open Questions
 
-1. **Hard size cap** — should the kernel enforce an absolute limit (e.g., 64 live types) beyond which any new entry forces retirement of an old one?
+1. **Hard size cap** — should the kernel enforce an absolute limit (e.g., 64 live types) beyond which any new entry-selection effects retirement of an old one?
 2. **Semantic similarity tooling** — can embedding models automate Gate G‑2 overlap detection reliably across domains?
 3. **Gate calibration** — is default Sunset Timer (4 quarters) optimal for research‑oriented patterns with slower adoption and evidence accumulation?
 

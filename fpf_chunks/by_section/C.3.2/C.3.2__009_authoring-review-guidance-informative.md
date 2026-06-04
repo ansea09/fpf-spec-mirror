@@ -6,12 +6,12 @@ section_id: "C.3.2:8"
 section_title: "Authoring & Review Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__009_authoring-review-guidance-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:8 — Authoring & Review Guidance (informative)"
-line_start: 37827
-line_end: 37852
+line_start: 37842
+line_end: 37866
 dependencies:
   - "C.3.1"
   - "C.3.3"
@@ -49,5 +49,4 @@ keywords:
 4. If `⊑` links exist, does **subset behavior** hold at sample slices?
 5. Are **Scope** and **membership** kept **separate** in guards?
 6. Any **Cross‑context** classification? If yes, is **KindBridge** referenced (C.3.3)?
-
 

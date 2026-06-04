@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.10.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
-line_start: 71836
-line_end: 72207
+line_start: 72554
+line_end: 72908
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -37,7 +37,6 @@ keywords:
 **Builds on:** E.10.D1 **D.CTX** (Context ≡ `U.BoundedContext`); F.1 (Contexts), F.2 (Seeds), F.3 (Local‑Senses → SenseCells), F.4 (Role Description **Status** templates), F.9 (Bridges).
 **Coordinates with.** B.3 **Trust & Assurance Calculus** (interprets CL penalties); Part C patterns: **KD‑CAL** (measurement semantics), **Norm‑CAL** (deontic logic), **Method‑CAL** (DesignRunTag).
 
-
 ### F.10:1 - Intent & applicability
 
 **Intent.** Provide a **simple, Context‑first way** to express and compare **status meanings** across disciplines **without collapsing modalities** (*epistemic* vs *deontic*). We focus on three pervasive **status families**:
@@ -52,7 +51,6 @@ Each status meaning is **local to a Context** (`U.BoundedContext`). Cross‑cont
 
 **Non‑goals.** No workflows, no tool states, no editorial lifecycles. This pattern defines **conceptual meaning and safe reasoning moves**, not procedures.
 
-
 ### F.10:2 - Problem frame
 
 Without a modality‑aware mapping of statuses:
@@ -61,7 +59,6 @@ Without a modality‑aware mapping of statuses:
 * **DesignRunTag bleed.** Design‑time “approved method” is used as if it proved run‑time “meets SLO”.
 * **False substitution.** *Observed availability 99.95%* is silently treated as *SLO satisfied* without declaring the translation.
 * **Name inflation.** New U.Types minted to stabilise drifting status words instead of fixing Contexts and Bridges.
-
 
 ### F.10:3 - Forces
 
@@ -72,13 +69,12 @@ Without a modality‑aware mapping of statuses:
 | **Design vs run**                         | Standards speak design; evidence speaks run; requirements span both; do not swap them.         |
 | **Safety vs utility**                     | Substitution is powerful but risky; explanation carries less substitution authority. Make the choice explicit. |
 
-
 ### F.10:4 - Core idea (didactic)
 
 **Three families, two modalities, one habit.**
 Treat every status word as a **SenseCell with a declared StatusModality** and **inside one Context**. When you must relate statuses across Contexts, **declare a Bridge** (F.9) that says *what kind of relation*, *which CL value applies*, *which way (if narrower/broader)*, and *what is lost*. Prefer **explanation** Bridges; permit **substitution** only when kind/CL allow it.
 
-**Reading an Episteme.** For every `U.Episteme`, read the `DescribedEntitySlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot`, `ViewpointSlot`, and carrier references under A.7 and MVPK. **Statuses classify the Episteme;** enactment remains with `U.System` and `U.Work`. (Formal identity rules: see **KD‑CAL**.)
+**Reading an Episteme.** For every `U.Episteme`, read the `EntityOfConcernSlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot`, `ViewpointSlot`, and carrier references under A.7 and MVPK. **Statuses classify the Episteme;** enactment remains with `U.System` and `U.Work`. (Formal identity rules: see **KD‑CAL**.)
 
 ### F.10:5 - Minimal vocabulary (this pattern only)
 
@@ -92,7 +88,6 @@ Treat every status word as a **SenseCell with a declared StatusModality** and **
 
 > **StatusModality guard.** EvidenceStatus is **epistemic**; StandardStatus & RequirementStatus are **deontic**. **Role Description Status** templates (F.4) bind to these **StatusModalities**; **no mixing**. The bare token *modality* is against E.10/LEX); this pattern uses **StatusModality**.
 
-
 ### F.10:6 - The spine: three local ladders (Context‑native, small and renameable)
 
 > The following ladders are **didactic spines**. Each Context may rename levels or insert thin sub‑levels, but Bridges must state how they align to this spine (kind & CL). Names appear in **Tech** / **Plain** register.
@@ -102,7 +97,6 @@ Treat every status word as a **SenseCell with a declared StatusModality** and **
 -   **Requirement vs Hypothesis.** “Desired property/goal” is **not** `Requirement` status; use hypothesis/target + evaluation.
 
 -   **Mereology ≠ Provenance.** Part‑whole edges never justify claims; use EPV‑DAG with carriers.
-
 
 #### F.10:6.1 - EvidenceStatus (epistemic statusModality)
 
@@ -121,7 +115,6 @@ Treat every status word as a **SenseCell with a declared StatusModality** and **
 **Invariants (context‑local):**
 *Replicated ⇒ Corroborated ⇒ Measured ⇒ Observed.* Negative (**Refuted**) cancels positives **within the same Window**.
 
-
 #### F.10:6.2 - StandardStatus (deontic/curatorial statusModality)
 
 **Levels (design‑time stance):**
@@ -137,7 +130,6 @@ Treat every status word as a **SenseCell with a declared StatusModality** and **
 
 **Invariants:**
 At most one positive stance at a time **per Context & edition**; **Superseded** implies **Approved** held in a prior Window.
-
 
 #### F.10:6.3 - RequirementStatus (deontic/compliance statusModality)
 
@@ -160,7 +152,6 @@ For the **same clause and Window**, **Satisfied** and **Violated** are **mutuall
 
 **Citation operators (context‑scoped).** Authors MAY use the **typed edges** `supports`, `refutes`, `dependsOn`, `supersedes` **inside a single Context** when expressing how an `Evidence`/`Standard` status applies. **Formal semantics are governed by B.3.2 (Evidence & Validation Logic).** Cross‑Context use requires a declared **Bridge** (F.9) and carries CL/Loss penalties.
 
-
 ### F.10:7 - Solution — how meanings connect (conceptual, notation‑free)
 
 **S‑1. Anchor status meanings per Context.**
@@ -178,7 +169,6 @@ Example: **Measured availability (SOSA)** →ᴍᴇᵃ **SLO clause (ITIL)** wit
 
 **S‑5. Prefer explanation over substitution.**
 If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** substitute. Use **Naming‑only** rows or **explanations**; keep Role Descriptions (F.4) out of harm’s way.
-
 
 ### F.10:8 - Invariants (normative, lightweight)
 
@@ -243,7 +233,6 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 
 **Result.** We may **explain** the **Satisfied** conclusion for *SLO‑99.9\@July*; we **do not** assert StandardStatus⇒RequirementStatus. If logs later show outages, a **Violated\@July** replaces **Satisfied\@July** (mutual exclusivity + Window discipline).
 
-
 #### F.10:11.2 - Safety controller: design approval vs run‑time duty
 
 **Contexts.** *State‑space control texts* — design; *IEC 61131‑3* — run; *Norm‑CAL profile (safety layer)* — deontics.
@@ -259,7 +248,6 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 * **Interpretation**: `Corroborated(response@Q3)` **→** `Duty` check (kind = ⊑, CL = 2, Loss: sensor latency).
 
 **Result.** The **duty** may be **Satisfied\@Q3** with explanation. *Approved spec* **alone** never yields *Satisfied*; it authorises deployment but does not prove compliance.
-
 
 #### F.10:11.3 - ML model: validation vs fairness requirement
 
@@ -277,7 +265,6 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 
 **Result.** **Satisfied\@Aug** (if Δ≤ 0.1 in production Window) is justifiable. Cross‑val AUC does **not** decide fairness; only **production Δ** does.
 
-
 #### F.10:11.4 - Medical device log: refutation
 
 **Contexts.** *SOSA/clinical observations*; *Regulatory profile*.
@@ -291,7 +278,6 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 
 * Observation **→ Interpretation Bridge** to clause check (**kind: Interpretation**, **CL=3**).
 * **Violated\@Week 34** overrides any earlier **Satisfied\@Week 34** (Weakest‑link; same Window).
-
 
 ### F.10:12 - Reasoning primitives (judgement schemas, notation‑free)
 
@@ -363,7 +349,6 @@ E.10.D1 **D.CTX** (Context discipline); F.1 (Contexts in view); F.2–F.3 (Seeds
 **Used by.**
 Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain conformance narrative.
 
-
 ### F.10:14 - Migration notes (conceptual)
 
 1. **New status word appears.** Treat it as a **StatusCell** in its Context; place it on the local ladder; only then consider Bridges.
@@ -372,7 +357,6 @@ Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain confor
 4. **Clause redesign.** If a requirement clause changes, keep old **Windows** intact; new clause starts a new Target; do **not** rewrite history.
 5. **Explode→compress.** When many bespoke tool statuses pile up, **map** them to the nearest ladder level in their Contexts; keep tool labels as **Naming‑only**.
 6. **Bridge hardening.** If explanation Bridges are used frequently, reconsider experiments that could raise **CL** enough to permit substitution—or accept explanation as sufficient and stop short of substitution.
-
 
 ### F.10:15 - Acceptance tests (SCR/RSCR — concept‑level)
 
@@ -391,7 +375,6 @@ Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain confor
 * **RSCR‑F10‑E02 (Threshold change).** If θ changes, re‑evaluate only **substitution** conclusions; **explanations** remain valid.
 * **RSCR‑F10‑E03 (Bridge drift).** When a Bridge’s CL/Loss changes, recompute affected **effective CL**; substitution conclusions below θ revert to **explanation**.
 * **RSCR‑F10‑E04 (Contradiction catch).** Adding a negative status within a Window **cancels** prior positives for the same clause (or raises a flagged contradiction if both persist).
-
 
 ### F.10:16 - Didactic distillation (90‑second script)
 

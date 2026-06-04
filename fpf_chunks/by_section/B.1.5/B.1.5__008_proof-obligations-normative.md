@@ -6,12 +6,12 @@ section_id: "B.1.5:7"
 section_title: "Proof obligations (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__008_proof-obligations-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:7 — Proof obligations (normative)"
-line_start: 29670
-line_end: 29688
+line_start: 29824
+line_end: 29841
 dependencies:
   - "A.12"
   - "A.14"
@@ -47,5 +47,4 @@ keywords:
 3. **PO‑RUN‑MIC‑HONOUR.** Record that only MIC‑declared external interactions occurred.
 4. **PO‑RUN‑WORK.** Attach the **Γ\_work** result (spent resources, yields, dissipation) aligned with the same order/join structure.
 5. **PO‑RUN‑ASSURANCE.** Provide the observed values for the cutset steps and the actual **CL** of integration mappings to feed B.3 assurance.
-
 

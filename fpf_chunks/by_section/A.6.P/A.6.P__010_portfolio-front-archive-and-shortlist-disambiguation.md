@@ -6,12 +6,12 @@ section_id: "A.6.P:7a"
 section_title: "Portfolio, front, archive, and shortlist disambiguation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__010_portfolio-front-archive-and-shortlist-disambiguation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:7a — Portfolio, front, archive, and shortlist disambiguation"
-line_start: 12676
-line_end: 12712
+line_start: 12518
+line_end: 12554
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -56,7 +56,7 @@ keywords:
 
 ### A.6.P:7a - Portfolio, front, archive, and shortlist disambiguation
 
-- Treat bare uses of `portfolio`, `front`, `archive`, `Pareto`, `shortlist`, `space`, `reachability`, and `stepping stone` as repair triggers whenever they carry live explanatory force.
+- Treat bare uses of `portfolio`, `front`, `archive`, `Pareto`, `shortlist`, `space`, `reachability`, and `stepping stone` as repair triggers whenever they carry live explanatory work.
 - Use the helper declarations from A.0:QF.1a when repairing the sentence: do not let `SetResultFamily`, `SourceSetFamily`, `SourceSetComposition`, `SubjectKind`, `DerivedViewKind`, `BasePaletteRef`, `SelectorOutcomeKind`, `HandoffKind`, `PromotionPolicy`, `RetentionIntent=steppingStone`, `EligibilitySet`, `DominanceSet`, `TieBreakerSet`, or `TelemetrySet` read as public set-outcome heads.
 - The minimum repair is to state the `SubjectKind`, the declared comparison bundle, and, when selection or publication outcomes are involved, the declared `SelectorOutcomeKind`, the applicable `SetResultFamily` or `HandoffKind`, the declared `SourceSetFamily`, `SourceSetComposition` when several sources are actually composed, `DerivedViewKind` or `BasePaletteRef` when a derived palette view matters, `LensId`, and which member of the shortlist family is meant.
 - The declared comparison bundle is:
@@ -79,7 +79,7 @@ keywords:
 - If one phrase says `shortlist` but really points at one emitted token or publication handle, rewrite it as `ShortlistId`.
 - If one sentence moves between search-space and outcome-space talk, name the space whose objects are being compared before making claims about dominance, archive retention, or frontier expansion.
 - If one sentence says `Pareto` but really means one post-lens selected result, rewrite it as `Shortlist` or `RankedShortlist` rather than widening `Front` until it means everything.
-- Canonical rewrites for FPF-force-bearing Q-Front / NQD prose:
+- Canonical rewrites for FPF-governed Q-Front / NQD prose:
   - `portfolio by Q` -> `Front over the declared Q components` when the sentence is about non-domination.
   - `portfolio by NQD` -> `Front over the declared DominanceSet plus ExplorationArchive under the declared retention policy` when both current front and retained exploration outcome are meant.
   - `Pareto shortlist` -> `Shortlist from <SourceSetFamily> under <LensId>` when the sentence is about publication or selection.

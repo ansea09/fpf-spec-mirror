@@ -6,12 +6,12 @@ section_id: "A.19:7"
 section_title: "Anti‑patterns → safe rewrites"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__009_anti-patterns-safe-rewrites.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:7 — Anti‑patterns → safe rewrites"
-line_start: 22619
-line_end: 22652
+line_start: 22639
+line_end: 22671
 dependencies:
   - "A.17"
   - "A.18"
@@ -56,7 +56,6 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
 -   **“Retro-fix past assertions.”**
     ✗ Going back to edit or reinterpret old StateAssertions after changing a threshold or NormalizationMethod (e.g. “We updated the criteria, let’s ‘fix’ last quarter’s records to match”).
     ✓ **Never alter historical assertions:** **Leave history as‑is.** If criteria change, issue new assertions under the new criteria going forward, and if needed, explicitly **version** the **NormalizationMethod/UNM** or checklist. Past assertions remain valid for the old version and their time; new ones apply henceforth. This ensures auditability and avoids erasing or rewriting what was true under earlier standards.
-
 
 **C.27 temporal-claim relation.**
 

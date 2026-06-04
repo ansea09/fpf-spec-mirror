@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.8.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
-line_start: 17870
-line_end: 17994
+line_start: 17966
+line_end: 18082
 dependencies:
   - "A.8"
   - "U.Types"
@@ -29,7 +29,6 @@ keywords:
 
 FPF aspires to be an **operating system for thought** that engineers, biologists, economists, and AI agents can all use without translation layers. That promise rests on the **universality** of its core primitives (`U.Type`s).  History is littered with “upper ontologies” that proclaimed universality yet smuggled in the biases of a single discipline; once deployed beyond their birthplace, they cracked or ballooned.  Rule C‑1 turns “universal” from a marketing word into a measurable criterion: *cross‑domain congruence*.
 
-
 ### A.8:2 - Problem
 
 | Pathology                 | Manifestation                                                                                       |
@@ -37,7 +36,6 @@ FPF aspires to be an **operating system for thought** that engineers, biologists
 | **Parochial Drift**       | A “universal” `U.Resource` works for ERP bills of materials but collapses for ATP in cell biology.  |
 | **Alienated Communities** | Subject‑matter experts recognise the bias and abandon the framework, fracturing knowledge silos.    |
 | **Kernel Bloat**          | Competing “almost‑universal” types are added to patch gaps, violating Ontological Parsimony (A 11). |
-
 
 ### A.8:3 - Forces
 
@@ -47,7 +45,6 @@ FPF aspires to be an **operating system for thought** that engineers, biologists
 | **Rigor vs Pragmatism**         | Proof of universality must be checkable, not philosophical hand‑waving.              |
 | **Inclusivity vs Coherence**    | Welcoming new ideas should not swamp the kernel with domain jargon.                  |
 | **Cognitive Load vs Grounding** | Examples help readers, but too many examples obscure the essence.                    |
-
 
 ### A.8:4 - Solution — *The Three‑Domain Falsification Test*
 
@@ -79,7 +76,6 @@ Implementation steps (Domain Families):
 
 *Rule of thumb for busy managers:* “**One idea, three worlds.** If you can’t point to the trio, park it in a Extention Pattern.”
 
-
 ### A.8:5 - Archetypal Grounding (System / Episteme)
 
 | Universal `U.Type` | **Domain 1 - Physics**                  | **Domain 2 - Life Sci.**            | **Domain 3 - Tech & Soc.**       | Congruent Role                |
@@ -99,7 +95,7 @@ These juxtapositions give engineer‑managers an immediate sense of *why* each p
 | **CC‑UC 3** | No single exemplar may serve for more than one domain projection.                                                          | Prevents contrived “triple duty” examples.              |
 | **CC‑UC 4** | A **specialised** `U.SubType` inherits its parent’s projections **and** adds ≥ 1 new domain projection, never fewer.                   | Keeps refinements as universal as their parents.        |
 | **CC‑UC 5** | While the U‑Index > 0.05, authors **SHALL** prioritise supplying missing projections over adding new core concepts.                    | Maintains kernel health without procedural bureaucracy. |
-| **CC‑UC‑2‑QD‑triad.** | The three Role‑Projections come from **different domain‑families** AND the triad PUBLISHES: `{FamilyCoverage, MinInterFamilyDistance, Diversity_P, IlluminationSummary}` with `MinInterFamilyDistance ≥ δ_family` (per **F1‑Card** DistanceDef & edition). + Provenance MUST cite `DescriptorMapRef` (incl. `DistanceDef`/edition), `F1‑Card id+edition`, and the grid/binning policy used for `IlluminationSummary`.  | quality diversity of domains
+| **CC‑UC‑2‑QD‑triad.** | The three Role‑Projections come from **different domain‑families** AND the triad PUBLISHES: `{FamilyCoverage, MinInterFamilyDistance, Diversity_P, IlluminationSummary}` with `MinInterFamilyDistance ≥ δ_family` (per **F1‑Card** DistanceDef & edition). + Provenance MUST cite `DescriptorMapRef` (incl. `DistanceDef`/edition), `F1‑Card id+edition`, and the grid/binning policy used for `IlluminationSummary`.  | quality diversity of domains |
 
 ### A.8:7 - Consequences
 
@@ -108,7 +104,6 @@ These juxtapositions give engineer‑managers an immediate sense of *why* each p
 | **Lean, trusted kernel** – every primitive earns its place by real work in three worlds.                   | Authoring effort for projections.             | Patterns A 5/A 6 provide templates and exemplar libraries. |
 | **Cross‑disciplinary recognition/adoption** – physicists, managers, and biologists see their own language reflected.     | Some novel ideas wait to gather evidence.     | They live safely in Extention Patterns until mature.                 |
 | **Resilience to domain drift** – if one field’s jargon changes, the other two anchors preserve continuity. | Possible oversimplification of niche nuances. | Domain‑specific elaborations belong in FPF patterns.      |
-
 
 ### A.8:8 - Rationale
 
@@ -119,7 +114,6 @@ Deep research over the last decade shows *structural homologies* across domains:
 
 By demanding three independent manifestations, FPF captures these convergences *without privileging* any single vocabulary.  The principle operationalises **Popperian falsifiability** for universality: a concept that cannot survive a three‑domain cross‑examination is, by definition, not a first principle.  This guards Pillars **P‑1 (Cognitive Elegance)** and **P‑4 (Open‑Ended Kernel)** simultaneously.
 
-
 ### A.8:9 - Relations
 
 | Relation             | Linked Pattern                       | Contribution                                                          |
@@ -129,14 +123,12 @@ By demanding three independent manifestations, FPF captures these convergences *
 | **Complementary**    | A 7 Strict Distinction               | Together provide clarity (A 7) and breadth (A 8).                     |
 | **Enables**          | B 1 Universal Algebra of Aggregation | Γ‑operators rely on domain‑agnostic operands.                         |
 
-
 ### A.8:10 - Known Uses
 
 * **Energy ↔ Budget ↔ Attention** – Engineering teams reused `U.Resource` to reason about battery charge, project funds, and user‑attention minutes with one algebra, cutting integration effort by half (2024 pilot).
 * **Objective unification** – An AI lab mapped *loss functions*, a bio‑lab mapped *Darwinian fitness*, and a factory mapped *scrap‑rate* all to `U.Objective`, enabling shared optimisation tooling.
 
 These cases validated that the Three‑Domain Test is achievable in practice, not theoretical paperwork.
-
 
 ### A.8:11 - Open Questions
 

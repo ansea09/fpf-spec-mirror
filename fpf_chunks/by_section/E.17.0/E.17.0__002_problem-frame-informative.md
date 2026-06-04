@@ -6,12 +6,12 @@ section_id: "E.17.0:1"
 section_title: "Problem frame  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:1 — Problem frame  (informative)"
-line_start: 60621
-line_end: 60638
+line_start: 61515
+line_end: 61532
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -33,15 +33,6 @@ dependencies:
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
 keywords:
-  - "ISO 42010 alignment"
-  - "correspondence model"
-  - "description families"
-  - "engineering vs publication viewpoints"
-  - "entity-of-interest"
-  - "multi-view describing"
-  - "view"
-  - "view vs viewpoint"
-  - "viewpoint"
 ---
 
 ### E.17.0:1 - Problem frame  *(informative)*
@@ -56,9 +47,9 @@ Post‑2015 MBSE and architecture practice emphasise **viewpoints and views** (I
 
 In FPF terms:
 
-* the things we talk about — systems, methods, services, epistemes — are `U.Entity` or `U.Holon` values in `DescribedEntitySlot`;
-* descriptions and specifications of those things are `U.Episteme` instances (`…Description` or `…Spec`) with a **DescriptionContext** = `⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`;
+* the things we talk about — systems, methods, services, epistemes — are `U.Entity` or `U.Holon` values in `EntityOfConcernSlot`;
+* descriptions and specifications of those things are `U.Episteme` instances (`…Description` or `…Spec`) with a **DescriptionContext** = `⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`;
 * episteme-lane views are `U.View` (`U.EpistemeView`) that slice ClaimGraphs under specific viewpoints and representation schemes.
 
-What we lack without this pattern is a **universal way to organise families of descriptions/specifications under multiple viewpoints** — for any entity‑of‑interest, not only for architecture, and without collapsing “view” into “document” or “diagram”.
+What we lack without this pattern is a **universal way to organise families of Description epistemes and specification-use Description epistemes under multiple viewpoints** — for any entity of concern, not only for architecture, and without collapsing “view” into “document” or “diagram”.
 

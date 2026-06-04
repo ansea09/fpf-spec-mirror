@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__015_sota-echoing.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 34727
-line_end: 34783
+line_start: 34817
+line_end: 34873
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,18 +47,6 @@ dependencies:
   - "E.9"
   - "F.18"
 keywords:
-  - "PublicationUnit"
-  - "carrier"
-  - "claim-bearing episteme"
-  - "described entity"
-  - "epistemic precision restoration"
-  - "grounding relation"
-  - "publication face"
-  - "remaining admissible reader move"
-  - "source wording"
-  - "source-expression unpacking"
-  - "source-to-FPF transfer"
-  - "transfer disposition"
 ---
 
 ### C.2.P:11 - SoTA-Echoing
@@ -69,11 +57,11 @@ Full external SoTA comparison is therefore not the governing evidence mode for t
 
 | Reduced source idea | Adapted FPF invariant | Rejected shortcut | Recovery section |
 | --- | --- | --- | --- |
-| ISO 704:2022 and ISO 1087:2019 terminology work distinguishes the object under discussion, the concept used in a terminology system, the definition, the designation, and term-formation practice. | Recover the FPF kind, relation, and sentence function before accepting a rewritten phrase. Use external terminology work only as support for careful designation and definition practice. | Do not replace FPF episteme and publication ontology with an ISO concept system, a dictionary substitution, or a global class row. | `C.2.P:4.1`, `C.2.P:4.4`, and `C.2.P:10` |
+| ISO 704:2022 and ISO 1087:2019 terminology work distinguishes the entity under discussion, the concept used in a terminology system, the definition, the designation, and term-formation practice. | Recover the FPF kind, relation, and sentence function before accepting a rewritten phrase. Use external terminology work only as external corroboration for careful designation and definition practice. | Do not replace FPF episteme and publication ontology with an ISO concept system, a dictionary substitution, or a global class row. | `C.2.P:4.1`, `C.2.P:4.4`, and `C.2.P:10` |
 | SHACL-style constraint validation makes local constraints explicit and fail-closed when a data shape does not satisfy them. | Treat the epistemic precision-restoration record as a local fail-closed recovery check when the FPF kind, relation, or admissible use cannot be recovered. | Do not import SHACL ontology, machine-validation authority, or shape vocabulary as FPF pattern ontology. | `C.2.P:4.0a`, `C.2.P:4.2`, and `C.2.P:8` |
-| Current word-sense disambiguation and ambiguity-resolution work treats sense recovery as context-sensitive rather than solved by the most common word sense. | When one local head or qualifier carries multiple possible readings, recover the local FPF context and exact FPF governing pattern before choosing wording. | Do not import machine-learning benchmarks or treat common usage as proof that the local FPF sense is recovered. | `C.2.P:4.4.1`, `E.17.AUD.LHR`, and `F.18` |
+| Current word-sense disambiguation and ambiguity-resolution work treats sense recovery as context-sensitive rather than solved by the most common word sense. | When one local head or qualifier carries multiple possible sense candidates, recover the local FPF context and exact FPF governing pattern before choosing wording. | Do not import machine-learning benchmarks or treat common usage as proof that the local FPF sense is recovered. | `C.2.P:4.4.1`, `E.17.AUD.LHR`, and `F.18` |
 
-**External-practice boundary.** External traditions are admitted only through the exact local FPF invariant they sharpen. Object-oriented modeling and OWL-style ontology modeling do not become the default repair for vague FPF wording. Architecture-description standards help keep views, viewpoints, concerns, and descriptions explicit. Explainability and NLP faithfulness work helps prevent explanation laundering. RAG evaluation helps separate retrieval support from answer trust. Quality-diversity and multi-objective search help avoid premature scalarization in candidate selection. None of these traditions becomes FPF ontology, FPF authority, or a universal pattern-quality benchmark.
+**External-practice boundary.** External traditions are admitted only through the exact local FPF invariant they sharpen. Object-oriented modeling and OWL-style ontology modeling do not become the default repair for vague FPF wording. Architecture-description standards help keep views, viewpoints, concerns, and descriptions explicit. Explainability and NLP faithfulness work helps prevent explanation laundering. RAG evaluation helps separate retrieval evidence, source availability, and answer trust. Quality-diversity and multi-objective search help avoid premature scalarization in candidate selection. None of these traditions becomes FPF ontology, FPF authority, or a universal pattern-quality benchmark.
 
 #### C.2.P:11.1 - Internal FPF Governing Patterns
 
@@ -83,16 +71,16 @@ The current FPF corpus already has explicit governing patterns for this discipli
 - `E.10.D2` gives the "thing vs words vs rules" discipline and the carrier humility rule.
 - `F.18` gives the local-first naming protocol: Context, Kind, purpose and use-domain, local sense, candidate head families, NQD-front, semantic read-through, and lexical Q components before one label becomes a reusable head.
 - `A.6.P` gives the relation-precision restoration method: restore generic head kind, build candidate sets for endpoint kinds and relation kinds, select kind-explicit slots and qualifiers, then allow guardrailed wording.
-- `C.2.1` gives the episteme slot graph and `describedEntity` discipline.
-- `A.7` keeps Object, Description, and Carrier distinct.
+- `C.2.1` gives the episteme slot graph and selected `EntityOfConcern` discipline.
+- `A.7` keeps EntityOfConcern, Description episteme, and publication carrier distinct.
 - `E.17.0`, `E.17` distinguish views, viewpoints, MVPK faces, publication forms, and publication projections.
 - `A.15.4` is a good current pattern example of keeping encountered publication, display, or cue items distinct from the exact project-side FPF kind and reference that makes work or reliance admissible.
-- `A.16`, `A.16.0`, `A.19`, `B.2.5`, `C.27`, and `A.3.3` provide the movement, control, temporal stack used when episteme-publication prose talks about route, trajectory, movement, cadence, or dynamics.
+- `A.16`, `A.16.0`, `A.19`, `B.2.5`, `C.27`, and `A.3.3` provide the movement, control, and temporal machinery used when episteme-publication prose talks about route, trajectory, movement, cadence, or dynamics.
 - `E.19` already treats terminology and sentence-level precision restoration as required review checks, not editorial polish.
 - `A.6.A` carries action-invitation discipline when a publication, representation, or cue invites an action without itself becoming authority, evidence, gate passage, or work completion.
 - `C.11` carries decision-making and decision-record discipline when the live question is a decision rather than generic action.
 - `A.15` and `A.15.4` split role, method, work-plan, and actual-work alignment from work-relevant source restoration, so episteme-publication prose must not let `A.15` become a universal episteme-publication governing pattern.
-- `E.9` is the campaign `DRR` pattern for campaign-level content decisions; `E.11` is only for entry-discoverability situations and must not organize an episteme/publication repair by default.
+- `E.9` is the campaign `DRR` pattern for campaign-level content decisions; `E.11` is only for entry-discoverability situations and must not organize an episteme and publication repair by default.
 
 The internal FPF governing patterns remain primary:
 
@@ -100,12 +88,12 @@ The internal FPF governing patterns remain primary:
 | --- | --- | --- | --- |
 | Head-kind discipline | `E.10` | Use head-kind recovery before accepting a phrase. | Adopt. |
 | Stable naming | `F.18` | Run a name card when a reusable head is being minted. | Adopt. |
-| Relation precision | `A.6.P` | Recover relation kind, endpoints, slots, qualifiers, and scope when relation or admissibility force is live. | Adopt. |
-| Carrier and object-description humility | `A.7` | Keep object, description, and carrier apart before treating a publication as evidence, work, gate, or authority. | Adopt. |
-| Episteme and publication ontology | `C.2.1`, `E.17.0`, `E.17`, MVPK | Separate episteme, publication, view, generic publication face, governed MVPK face, publication unit, carrier, and rendering. | Adopt. |
+| Relation precision | `A.6.P` | Recover relation kind, endpoints, slots, qualifiers, and scope when a relation or admissibility claim is live. | Adopt. |
+| Carrier and EntityOfConcern-description humility | `A.7` | Keep EntityOfConcern, Description episteme, and carrier apart before treating a publication as evidence, work, gate, or authority. | Adopt. |
+| Episteme and publication ontology | `C.2.1`, `E.17.0`, `E.17`, MVPK | Separate episteme, publication, view, generic publication face, MVPK face under E.17 constraints, publication unit, carrier, and rendering. | Adopt. |
 | Project-side downstream use | `A.6.A`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`, `C.11` | When a publication, display, cue, or explanation is treated as evidence, gate, decision, work permission, method, assurance, or engineering justification, name the exact FPF governing pattern and the exact project-side FPF kind and reference. | Adopt. |
 
-This reduced external-practice set changes the Solution in one practical way: an epistemic precision restoration cannot close merely because the replacement wording sounds cleaner. It closes only when the FPF kind, relation, admissible use, and any exact governing-pattern application is recoverable by value; otherwise the wording is blocked, quote-only, or becomes a candidate for a separate FPF-kind decision.
+This reduced external-practice set changes the Solution in one practical way: an epistemic precision restoration cannot close merely because the replacement wording sounds cleaner. It closes only when the FPF kind, relation, admissible use, and any exact governing-pattern application is recoverable by value; otherwise the wording is blocked or becomes a candidate for a separate FPF-kind decision.
 
 #### C.2.P:11.2 - E.19 Review Profile Carry-Through
 

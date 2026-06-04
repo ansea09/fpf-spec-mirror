@@ -6,12 +6,12 @@ section_id: "A.3.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:12 — Relations"
-line_start: 6602
-line_end: 6625
+line_start: 6486
+line_end: 6508
 dependencies:
   - "A.19"
   - "B.4"
@@ -44,5 +44,4 @@ keywords:
 
 * **Constrained by lexical rules:**
   **E.10 L‑PROC** (process disambiguation), **L‑ACT** (activity/action), **L‑FUNC** (function).
-
 

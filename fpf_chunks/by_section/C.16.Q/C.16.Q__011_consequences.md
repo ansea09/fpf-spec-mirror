@@ -6,12 +6,12 @@ section_id: "C.16.Q:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__011_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:9 — Consequences"
-line_start: 41555
-line_end: 41564
+line_start: 41483
+line_end: 41492
 dependencies:
   - "A.10"
   - "A.16"
@@ -57,10 +57,10 @@ keywords:
 ### C.16.Q:9 - Consequences
 
 **Benefits.**
-This pattern makes evaluative language auditable across phenomenology, engineering, and search/selection contexts.
+This pattern makes evaluative language auditable across phenomenology, engineering, and search and selection contexts.
 It also makes subsequent wording repair easier because the repair is carried by one explicit quality-term repair form plus exact endpoint exits rather than by ad hoc prose rules.
 
-**Trade-offs / mitigations.**
+**Trade-offs and mitigations.**
 The pattern adds drafting overhead and can feel heavy in exploratory notes.
-Mitigation: allow bare *quality* in Plain commentary during exploration, but require repair before the term enters Tech/normative, boundary, selector, or assurance use.
+Mitigation: allow bare *quality* in Plain commentary during exploration, but require repair before the term enters Tech and normative, boundary, selector, or assurance use.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.9"
-pattern_title: "Parity / Benchmark Harness"
+pattern_title: "Parity and Benchmark Harness"
 section_id: "G.9:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__005_intent.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "G.9 — Parity / Benchmark Harness"
+  - "G.9 — Parity and Benchmark Harness"
   - "G.9:1 — Intent"
-line_start: 79871
-line_end: 79878
+line_start: 80461
+line_end: 80468
 dependencies:
   - "A.19"
   - "A.21"
@@ -48,7 +48,7 @@ keywords:
 
 Provide a **notation‑independent** harness that:
 
-* plans parity runs with explicit scope (`describedEntity`, `ReferencePlane`, window), explicit governance, CSLC comparability and admissibility references, and comparator references (`CNSpecRef`, `CGSpecRef`, `ComparatorSpecRef`) and explicit reproducibility pins (editions + policy‑ids);
+* plans parity runs with explicit scope (`EntityOfConcernRef`, `ReferencePlane`, window), explicit governance, CSLC comparability and admissibility references, and comparator references (`CNSpecRef`, `CGSpecRef`, `ComparatorSpecRef`) and explicit reproducibility pins (editions + policy‑ids);
 * executes parity in a way that is consumable by **G.5** (selected-set outcomes, DRR/SCR evidence trace);
 * publishes **ParityReport@Context** suitable for downstream consumption, shipping, and refresh/RSCR wiring.
 

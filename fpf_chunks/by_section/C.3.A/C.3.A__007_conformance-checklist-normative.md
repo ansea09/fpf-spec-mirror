@@ -6,12 +6,12 @@ section_id: "C.3.A:6"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__007_conformance-checklist-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:6 — Conformance Checklist (normative)"
-line_start: 38750
-line_end: 38774
+line_start: 38722
+line_end: 38745
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -33,7 +33,7 @@ keywords:
 | **GC‑03** | Cross‑context typed reuse **SHALL** use **Guard\_XContext\_Typed** with **both** bridges; penalties **MUST** route to **R** (Φ/Ψ), not to F/G. |
 | **GC‑04** | All guards **SHALL** declare **Γ\_time** explicitly and **SHALL** fail closed on undefined membership or missing bridges.                |
 | **GC‑05** | Guards **MUST NOT** reference **AT**; any such reference **MUST** be removed or replaced with ΔF/ΔG/ΔR predicates.                       |
-| **GC‑06** | Scope union **MUST** follow USM **SpanUnion** rules (independence justification); typed union **MUST NOT** change describedEntity.             |
+| **GC‑06** | Scope union **MUST** follow USM **SpanUnion** rules (independence justification); typed union **MUST NOT** change entityOfConcern.             |
 
 #### C.3.A:6.1 - What counts as “proven‑equivalent” (editorial rule)
 
@@ -47,5 +47,4 @@ A Context may adopt a different surface phrasing **iff** the Context’s guard c
 
 * **R after bridges:** `R_final = R_base × Φ(CL_scope) × Ψ(CL_kind)` (concept only).
 * **No arithmetic on F/G.** F is ordinal (thresholds only); G is set‑valued (membership only).
-
 

@@ -6,12 +6,12 @@ section_id: "A.6.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__004_forces.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:3 — Forces"
-line_start: 14007
-line_end: 14062
+line_start: 14163
+line_end: 14218
 dependencies:
   - "A.1"
   - "A.19"
@@ -73,12 +73,12 @@ keywords:
 
   FPF must line up with this practice enough that signatures can be implemented without inventing a parallel type system.
 
-* **F4 - I/D/S discipline.**
-  Strict distinction (A.7, E.10.D2) already separates **intensional objects**, their **descriptions**, and **specifications**. The same discipline is needed inside relations:
+* **F4 - EntityOfConcern / Description / specification-use discipline.**
+  Strict distinction (A.7, E.10.D2) already separates **entities of concern**, their **Description epistemes**, and **specification uses**. The same discipline is needed inside relations:
 
   * slot ≠ value ≠ reference,
   * system role ≠ slot name,
-  * describedEntity ≠ guard,
+  * entityOfConcern ≠ guard,
   * and “change the reference” ≠ “change the thing referred to”.
 
 * **F5 - Didactic primacy and naming discipline.**

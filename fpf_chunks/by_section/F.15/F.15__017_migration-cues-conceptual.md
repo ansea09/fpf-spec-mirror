@@ -6,12 +6,12 @@ section_id: "F.15:16"
 section_title: "Migration cues (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__017_migration-cues-conceptual.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:16 — Migration cues (conceptual)"
-line_start: 73858
-line_end: 73868
+line_start: 74472
+line_end: 74481
 dependencies:
   - "B.3"
   - "D.CTX"
@@ -37,5 +37,4 @@ keywords:
 5. **Windows absorb variation.** Resist splitting Status types; **window** by time/scale/phase.
 6. **Guard SoD early.** When binding composite responsibilities (F.14), check SoD before naming.
 7. **Teach the delta.** When things evolve, write one‑breath deltas (“what changed, why it matters”) as part of the example narrative—no registries implied.
-
 

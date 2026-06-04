@@ -6,12 +6,12 @@ section_id: "C.3.4:11"
 section_title: "Authoring & Review Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_authoring-review-guidance-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:11 — Authoring & Review Guidance (informative)"
-line_start: 38372
-line_end: 38393
+line_start: 38362
+line_end: 38382
 dependencies:
   - "C.3.1"
   - "C.3.2"
@@ -42,5 +42,4 @@ keywords:
 5. Guard **routes** context to **USM** and entity to **membership**?
 6. Any Cross‑context use has **KindBridge** + **MaskAdapter** with penalties **to R**?
 7. **Promotion** warranted (stable, reused) or consolidation needed?
-
 

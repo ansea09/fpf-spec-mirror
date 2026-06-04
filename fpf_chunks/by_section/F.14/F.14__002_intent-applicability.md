@@ -6,12 +6,12 @@ section_id: "F.14:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__002_intent-applicability.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:1 — Intent & applicability"
-line_start: 73208
-line_end: 73216
+line_start: 73861
+line_end: 73868
 dependencies:
   - "F.1"
   - "F.10"
@@ -39,5 +39,4 @@ keywords:
 **Applicability.** Whenever a new Role or Status is proposed, a team merges two lines of work, or a domain shifts its jargon. Use this pattern before adding rows to the Concept‑Set Table (F.7) or new Role Descriptions (F.4).
 
 **Non‑goals.** No org charts, no RBAC policies, no process roles. This pattern describes **mental moves** for architectural naming, not governance machinery.
-
 

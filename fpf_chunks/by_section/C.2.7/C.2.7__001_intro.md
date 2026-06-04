@@ -6,12 +6,12 @@ section_id: "C.2.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__001_intro.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:intro — Intro"
-line_start: 36509
-line_end: 36517
+line_start: 36593
+line_end: 36600
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,5 +39,4 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state representation-factor bundle.
-
 

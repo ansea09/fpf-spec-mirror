@@ -6,12 +6,12 @@ section_id: "C.13:6"
 section_title: "Bias‑Annotation (cognitive anti‑patterns and counter‑moves)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__007_bias-annotation-cognitive-anti-patterns-and-counter-moves.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:6 — Bias‑Annotation (cognitive anti‑patterns and counter‑moves)"
-line_start: 40161
-line_end: 40172
+line_start: 40101
+line_end: 40111
 dependencies:
   - "A.14"
   - "B.3.5"
@@ -35,5 +35,4 @@ keywords:
 | **Over‑slicing**                  | Multiplying aspects until identity becomes opaque.                                                              | Declare the **facet** explicitly; stop when aspects no longer aid recognition of the same whole.                             | A.14 (Aspect/Phase distinction)             |
 | **Feature creep**                 | Proposing a new constructor for a special case.                                                                 | Reduce to **sum / set / slice**; if reduction fails across ≥ 3 domains, reconsider the modelling plane before adding power.  | C‑5 (Parsimony)                             |
 | **Axiomatic inflation**           | Demanding constructive traces for epistemic links by default.                                                   | Use *inferential* / *postulate* where appropriate; reserve *axiomatic* for structural identity.                              | B.3.5 (validation modes)                    |
-
 

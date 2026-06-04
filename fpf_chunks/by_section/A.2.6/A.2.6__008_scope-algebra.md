@@ -6,12 +6,12 @@ section_id: "A.2.6:7"
 section_title: "Scope Algebra"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__008_scope-algebra.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:7 — Scope Algebra"
-line_start: 4282
-line_end: 4382
+line_start: 4221
+line_end: 4317
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -53,7 +53,6 @@ Scope_serial = ⋂_{i=1..k} Scope(Ci)
 If `Scope_serial = ∅`, the chain is **inapplicable** and MUST NOT contribute to published scope.
 
 **Monotonicity.** Adding a new essential dependency can only narrow (or leave unchanged) the serial scope.
-
 
 #### A.2.6:7.3 - Parallel Support (SpanUnion)
 
@@ -100,7 +99,6 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 
 **Effect.** The mapped scope is `T(Scope)` in the target Context. **CL penalties apply to R** (the trust in support and evidence), **not to F or G**. If mapping is coarse, the publisher SHOULD also narrow the mapped scope to the area where losses are negligible (best practice, not a requirement).
 
-
 #### A.2.6:7.6 - Δ‑Operations (Widen, Narrow, Refit)
 
 * **ΔG+ (widen).** Monotone expansion: `S ⊂ S′`. Requires new support or Bridges with sufficient declared `CL`.
@@ -120,10 +118,8 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 * **I‑IDS.** Idempotence: Intersecting or unioning a set with itself does not change it.
 * **I‑EMPTY.** Empty scope is a first‑class value; guards MUST treat it as “not applicable”.
 
-
 #### A.2.6:7.8 - Empty & Partial Scopes
 
 * **Empty scope (`∅`).** The claim/capability is **currently not usable anywhere** in the Context; guards MUST fail.
 * **Partial scope.** Publishers SHOULD avoid “global” language when actual scope is thin; instead, publish explicit slices and (informatively) coverage hints to guide R assessment.
-
 

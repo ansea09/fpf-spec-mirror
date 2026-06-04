@@ -6,12 +6,12 @@ section_id: "C.30.ILC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:6 — Bias-Annotation"
-line_start: 53210
-line_end: 53219
+line_start: 53638
+line_end: 53650
 dependencies:
   - "A.10"
   - "A.22"
@@ -41,10 +41,13 @@ keywords:
 
 ### C.30.ILC:6 - Bias-Annotation
 
-* **Local-success bias.** A local improvement is treated as whole-architecture improvement. Repair by naming the wider scope and the residual.
-* **Pseudo-level bias.** `Level`, `layer`, or `scope` sounds precise but no declared scope exists. Repair through `declaredScopeRefs`.
-* **Measurement-first bias.** A residual is measured before its structure-kind and scope basis are declared. Repair by opening `C.16` or an admitted characteristic/measurement receiving pattern only after triage names the affected characteristic or measurement basis.
-* **Mediation-default bias.** Every conflict is treated as stakeholder conflict. Repair by checking whether the live object is architecture structure, allocation, interface grammar, control, work/evidence scope, or source-return.
+* **Local-success bias.** A local improvement is treated as whole-architecture improvement. Repair by naming the wider declared holon level or declared scope and the residual.
+* **Pseudo-level bias.** `Level`, `layer`, or `scope` sounds precise but no declared holon level or declared scope exists. Repair through `declaredHolonLevelRefs` or `declaredScopeRefs`.
+* **Generic-structure-conflict bias.** A conflict between selected structures is treated as interlevel conflict even though no declared holon level, scale window, or coarse-graining relation is recoverable. Repair by keeping the case in `C.30`, `C.30.ASV`, or the exact neighboring pattern unless the structures are assigned to different declared holon levels or scale windows.
+* **Frustration-ontology bias.** A useful conflict or frustration entry label becomes a new first-order architecture kind, physics ontology, biology ontology, or psychology claim. Repair by recovering declared holon levels or declared scopes, the level-bearing structure, conflict carriers, residual-bearing locus, and the exact receiving pattern for any lens, proof, evidence, mediation, or synthesis claim.
+* **Global-optimizer bias.** Local optimization in one declared holon level or declared scope is used as if the architecture literally optimizes one global function. Repair by keeping the local optimization claim as a triage input unless `C.29` supplies a lawful mathematical-lens use with recoverable level mapping or scale mapping and the candidate-set or decision pattern carries any synthesis or selection claim.
+* **Measurement-first bias.** A residual is measured before its level-bearing structure and scope grounding are declared. Repair by opening `C.16` or an admitted characteristic or measurement receiving pattern only after triage names the affected characteristic or measurement relation.
+* **Mediation-default bias.** Every conflict is treated as stakeholder conflict. Repair by checking whether the live use is architecture structure, allocation, interface grammar, control, work or evidence scope, source-return, or another declared level-bearing architecture relation.
 * **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before opening `G.5` or an admitted candidate-generation receiving pattern.
 
 This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.

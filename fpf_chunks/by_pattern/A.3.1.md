@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.3.1 — U.Method"
-line_start: 5810
-line_end: 6074
+line_start: 5726
+line_end: 5979
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -69,7 +69,6 @@ In FPF, a **system** bearing a **TransformerRole** *enacts* a `U.Method` (produc
 | **Compositionality vs. executability** | Methods compose (serial/parallel/choice/iteration), but execution may diverge due to conditions/failures. |
 | **Determinism vs. search**             | Methods may be deterministic algorithms or constraint problems with admissible solution sets.             |
 
-
 ### A.3.1:4 - Solution — the method as an abstract, paradigm‑agnostic “way of doing”
 
 #### A.3.1:4.1 - Definition
@@ -96,7 +95,6 @@ Typical **MethodDescription forms** include:
 * **Hybrid MethodDescription:** imperative scaffolding with functional kernels and/or solver calls.
 
 **Semantic identity criterion (context‑local).** Two MethodDescriptions **describe the same `U.Method`** in a given `U.BoundedContext` iff, for all admissible inputs and conditions recognized by that context, they entail the **same preconditions**, **guarantee the same postconditions/effects**, and satisfy the **same non‑functional bounds** (allowing permitted non‑determinism). Internal control‑flow/search details may differ.
-
 
 #### A.3.1:4.3 - Method vs MethodDescription vs Work (quick litmus)
 
@@ -143,7 +141,6 @@ Thus, welding, milling, reagent mixing, and proof construction are all **Methods
 
 `U.Method` is **local to a `U.BoundedContext`**: terminology, admissible pre/postconditions, and non‑functional constraints are interpreted **inside that context**. If two teams or theories use the same name for different “ways of doing,” they are different Methods in different contexts unless bridged explicitly.
 
-
 ### A.3.1:5 - Archetypal grounding (cross-paradigm examples: imperative / functional / logical)
 
 #### A.3.1:5.1 - Industrial transformation (imperative flavor)
@@ -167,7 +164,6 @@ Thus, welding, milling, reagent mixing, and proof construction are all **Methods
 * **Enactment:** `CAS_Alpha#TransformerRole:MathLab_2025` generates a **Work** proof instance for a concrete matrix.
 * **Notes:** The **Episteme** (spec) is not the **ability** (that belongs to the CAS system) and not the **execution** (the proof run).
 
-
 ### A.3.1:6 - Didactic quick grammar (for managers)
 
 * **Who?** `Holder#Role:Context` (**Role assignment**)
@@ -176,7 +172,6 @@ Thus, welding, milling, reagent mixing, and proof construction are all **Methods
 * **Did?** **`Work`** (execution), linked by `performedBy → RoleAssigning` and `isExecutionOf → MethodDescription`
 
 > *Keep the four words apart and plans become dependable.*
-
 
 ### A.3.1:7 - Bias‑Annotation (as in cluster‑E patterns)
 
@@ -222,7 +217,6 @@ A step may impose capability thresholds; those thresholds are checked **against 
 **CC‑A3.1‑12 (Constructor‑theoretic alignment).**
 Algorithm descriptions are `U.MethodDescription` for information-transforming Methods. Physical Methods are equally valid (matter/energy transformations). A “universal transformer” is a system that can enact **any physically admissible MethodDescription**; this does **not** collapse Method into “algorithm.”
 
-
 ### A.3.1:9 - Method mereology (composition) — design‑time only
 
 **Operators (conceptual, context‑scoped):**
@@ -251,7 +245,6 @@ Algorithm descriptions are `U.MethodDescription` for information-transforming Me
 * **Work (execution).** Each run records `isExecutionOf → MethodDescription` (the spec used) and `performedBy → RoleAssigning`. Logs, resources, and timestamps live here.
 * **Dynamics (laws/models).** Methods may cite or assume a Dynamics model; runs may attach traces that are explained by that model. Do not label the model itself as the Method.
 
-
 ### A.3.1:11 - Anti‑patterns (and the right move)
 
 * **Spec = Method.** “The BPMN is the Method.” → The BPMN is a **MethodDescription**; the **Method** is the semantic way it denotes.
@@ -262,7 +255,6 @@ Algorithm descriptions are `U.MethodDescription` for information-transforming Me
 * **Algorithm‑only bias.** Declaring that only code counts as a Method. → Physical transformations (welding, mixing) are Methods too; their SOPs/parameters are MethodDescriptions.
 * **Hard‑coding capability.** Baking “≤ 0.2 mm” into a role name or Method name. → Keep thresholds on **steps**; **capability** lives on the **holder**.
 
-
 ### A.3.1:12 - Migration notes (quick wins)
 
 1. **Rename wisely.** Where texts say “process/method” but mean a diagram or code repo, label it **MethodDescription**; where they mean the abstract “how,” label it **Method**.
@@ -270,7 +262,6 @@ Algorithm descriptions are `U.MethodDescription` for information-transforming Me
 3. **Pull time out.** Move calendars/schedules from specs into **WorkPlan**.
 4. **Parameter hygiene.** Declare parameters at Method or MethodDescription; bind values in **Work**.
 5. **Equivalence notes.** When two specs are intended as the same Method, write an **equivalence note** in the context (pre/post/bounds parity).
-
 
 ### A.3.1:13 - Consequences
 
@@ -281,13 +272,11 @@ Algorithm descriptions are `U.MethodDescription` for information-transforming Me
 | **Robust audits.** Logs are Work, specs are MethodDescription, Standards are Method; no more “we thought the diagram was the run.” | **Discipline needed.** Enforce the three‑way split in reviews.                                     |
 | **Constructor‑theoretic coherence.** Physical and informational transformations are peers.                                  | **Cultural shift.** Not every team is used to seeing SOPs and code as the same class (MethodDescription). |
 
-
 ### A.3.1:14 - Relations
 
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`.
 * **Coordinates with:** A.3 (role masks for transformers/constructors/observers); A.15 (Role–Method–Work Alignment); B.1 Γ (aggregation) for method families vs assembly of systems.
 * **Informs:** `U.WorkPlan` definitional pattern (plans reference Methods they schedule); `U.PromiseContent` definitional pattern (promises cite Methods as delivery means); `U.Dynamics` definitional pattern (models that Methods may assume).
-
 
 ### A.3.1:15 - Didactic quick cards (reuse in specs and onboarding)
 

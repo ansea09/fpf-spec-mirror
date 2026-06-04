@@ -6,12 +6,12 @@ section_id: "C.16.Q:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:1 — Problem frame"
-line_start: 40958
-line_end: 40994
+line_start: 40886
+line_end: 40921
 dependencies:
   - "A.10"
   - "A.16"
@@ -56,7 +56,6 @@ keywords:
 
 ### C.16.Q:1 - Problem frame
 
-
 FPF repeatedly encounters a predictable precision failure mode around the token **quality**:
 
 drafts say:
@@ -65,28 +64,28 @@ drafts say:
 * “the model quality improved”
 * “quality matters before formalisation”
 * “quality characteristics”
-* “quality in QD / NQD”
+* “quality in QD and NQD”
 * “the world model is higher quality”
 * “the explanation is high-quality”
 
 …but the intended meaning is actually one of several different **evaluative families**, for example:
 
-1. **Phenomenal character / qualia** when the experienced quality itself is the topic of description rather than an externally measured characteristic.
-2. **Preconceptual fit / felt rightness** before stable object-characterisation.
-3. **Latent / distributed fit signals** in learned representations, world models, or active inference loops.
+1. **Phenomenal character or qualia** when the experienced quality itself is the topic of description rather than an externally measured characteristic.
+2. **Preconceptual fit or felt rightness** before stable EntityOfConcern characterization.
+3. **Latent and distributed fit signals** in learned representations, world models, or active inference loops.
 4. **Explanatory merit** of a theory, problem frame, or conjecture.
-5. **Architectural-description fitness / compression merit** of an architecture description or architecture model under a declared viewpoint.
+5. **Architectural-description fitness and compression merit** of an architecture description or architecture model under a declared viewpoint.
 6. **Engineering quality families** such as reliability, maintainability, security, evolvability.
-7. **Usefulness / selection value** in open-ended search, novelty–quality–diversity, or portfolio selection.
-8. **Control adequacy** of a policy/model/controller in a closed loop.
+7. **Usefulness and selection value** in open-ended search, novelty–quality–diversity, or portfolio selection.
+8. **Control adequacy** of a policy, model, or controller in a closed loop.
 
 The failure modes are recurrent:
 
 * **Sense elision.** One broad evaluative noun hides several non-equivalent evaluative kinds.
-* **Carrier confusion.** The bearer of the evaluation is unclear: record/carrier, episode, model, policy, explanation, candidate, architecture, relation, or action loop.
+* **Bearer confusion.** The bearer of the evaluation is unclear: record, publication carrier when the carrier itself is evaluated, episode, model, policy, explanation, candidate, architecture, relation, or action loop.
 * **Form confusion.** A non-metric signal is rewritten as a metric; a bundle is treated as one scalar; an objective is mistaken for a characteristic.
-* **Substrate confusion.** Embodied/preconceptual, latent/distributed, and symbolic/local representations are silently collapsed.
-* **Plane confusion.** Quality of the described entity, quality of the description, quality of the carrier, and quality of the publication face are silently collapsed across `ReferencePlane` values and A.7 lanes.
+* **Substrate confusion.** Embodied and preconceptual, latent and distributed, and symbolic-local representations are silently collapsed.
+* **Plane confusion.** Quality of the EntityOfConcern being described, quality of the description, quality of the carrier, and quality of the publication face are silently collapsed across `ReferencePlane` values and A.7 lanes.
 * **Bridge illusion.** Similar wording across traditions is mistaken for sameness.
 * **Illegal scalarisation.** Composite engineering families or explanatory merit are compressed into one number without an admissible scoring method.
 * **Viewpoint conflict.** One stakeholder means architectural attributes, another means usefulness, another means preconceptual fit.

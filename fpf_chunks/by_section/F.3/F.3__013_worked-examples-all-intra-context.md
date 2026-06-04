@@ -6,12 +6,12 @@ section_id: "F.3:12"
 section_title: "Worked examples (all intra‑Context)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__013_worked-examples-all-intra-context.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:12 — Worked examples (all intra‑Context)"
-line_start: 69299
-line_end: 69390
+line_start: 70114
+line_end: 70199
 dependencies:
   - "A.11"
   - "A.7"
@@ -51,7 +51,6 @@ keywords:
 
 > **Outcome:** “Process uptime” is rejected as a BPMN sense; Execution belongs to another Context.
 
-
 #### F.3:12.2 - PROV‑O (provenance Context)
 
 **Card C — “activity (run)”**
@@ -67,7 +66,6 @@ keywords:
 * **Sense line**: Thing that bears **responsibility** for an activity’s effects (person, org, software).
 * **Inside**: *agent*.
 * **Counter‑example**: *“RBAC role”* ← access status, **not** a PROV agent.
-
 
 #### F.3:12.3 - ITIL 4 (services Context)
 
@@ -85,7 +83,6 @@ keywords:
 * **Inside**: *incident*.
 * **Counter‑example**: *“Fault in plant sensor”* ← Sys‑CAL fault; different Context.
 
-
 #### F.3:12.4 - SOSA/SSN (sensing Context)
 
 **Card G — “observation (act)”**
@@ -94,7 +91,6 @@ keywords:
 * **Sense line**: An **act** applying a **Procedure** to a **FeatureOfInterest** to yield a **Result** for a property.
 * **Inside**: *observation*.
 * **Counter‑example**: *“Temperature is 20 °C”* ← **result value**, not the act.
-
 
 #### F.3:12.5 - OWL 2 (types Context)
 
@@ -112,7 +108,6 @@ keywords:
 * **Inside**: *EquivalentClasses*.
 * **Counter‑example**: *owl\:sameAs* (individual identity), different predicate.
 
-
 #### F.3:12.6 - IEC 61131‑3 (control‑runtime Context)
 
 **Card J — “task (runtime)”**
@@ -121,5 +116,4 @@ keywords:
 * **Sense line**: A **cyclic or event‑driven** execution unit that **invokes programs** on schedule or trigger.
 * **Inside**: *task*.
 * **Counter‑example**: *“Control algorithm”* ← design/method, not the runtime task.
-
 

@@ -6,12 +6,12 @@ section_id: "E.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__003_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:2 — Problem frame"
-line_start: 61822
-line_end: 61830
+line_start: 62718
+line_end: 62726
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -40,7 +40,7 @@ keywords:
 * Teams routinely need several **faces** of the *same* arrow: a **`TechCard`** for the catalog, an **`InteropCard`** for machine exchange, a **`PlainView`** for narrative, and an **`AssuranceLane`** for evidence.
 * Informal “renderings” quietly **drift semantics**; **composite arrows** are often published piecemeal, breaking traceability; **evidence** forgets unit, scale, and edition pins.
 * “View” and “viewpoint” are **blurred** in practice; authors conflate **publication** with **mechanism**.
-* L‑SURF requires **`SurfaceKind` token discipline**; Core allows only **PublicationSurface** or **InteropSurface**; faces are named **...View**, **...Card**, or **...Lane** (no ad‑hoc `...Surface` kinds).
+* publication-face/form discipline requires **`publication-face kind` token discipline**; Core allows only **publication face/form** or **interop publication form**; faces are named **...View**, **...Card**, or **...Lane** (no ad‑hoc `...Surface` kinds).
 
-**MVPK** fixes this by making publication a typed projection from existing source epistemes or episteme-lane views via species of `U.EpistemicViewing` subject to explicit viewpoint specs and pinning guards. In the morphism profile, this projection is the functorial D and S episteme publication discipline described below. **Part E is conceptual:** no machine-exchange formats are specified here.
+**MVPK** fixes this by making publication a typed projection from existing source epistemes or episteme-lane views via species of `U.EpistemicViewing` subject to explicit viewpoint specs and pinning guards. In the morphism profile, this projection is the functorial publication discipline for Description epistemes, including Description epistemes admitted for specification use, described below. **Part E is conceptual:** no machine-exchange formats are specified here.
 

@@ -6,12 +6,12 @@ section_id: "A.2.5:1"
 section_title: "Purpose & scope (why this exists)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__002_purpose-scope-why-this-exists.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:1 — Purpose & scope (why this exists)"
-line_start: 3415
-line_end: 3423
+line_start: 3378
+line_end: 3385
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -31,10 +31,9 @@ keywords:
 
 ### A.2.5:1 - Purpose & scope (why this exists)
 
-A **role** is not only a name; it is a *trajectory of admissible states* that governs when, and under which conditions, a holder of that role may **enact** steps of a `U.MethodDescription`. FPF therefore introduces a first‑class intensional object:
+A **role** is not only a name; it is a *trajectory of admissible states* that governs when, and under which conditions, a holder of that role may **enact** steps of a `U.MethodDescription`. FPF therefore introduces a first-class `U.RoleStateGraph`:
 
 > **`U.RoleStateGraph` (RSG)** — the **finite, named state space** of a **`U.Role` in a given `U.BoundedContext`**, with transitions guarded by conditions over the **Role Characterisation Space (RCS)** and contextual events.
 
 The RSG is the **gate** between *assignment* (`U.RoleAssignment`) and *action* (`U.Work`). A step may be performed **only** when the performer’s assignment is **in an enactable RSG state** at the relevant **Window** (time slice) and this is **proven** by a contemporaneous **StateAssertion** (verdict of `U.Evaluation` against the state’s **Checklist**).
-
 

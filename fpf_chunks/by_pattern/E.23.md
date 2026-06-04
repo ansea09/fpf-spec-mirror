@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-line_start: 67770
-line_end: 68165
+line_start: 68639
+line_end: 69035
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -37,7 +37,7 @@ keywords:
 
 Use `E.23` when the working question is: "how do we improve this?" The object under improvement can be a chair, component, subsystem, nuclear-plant safety case, policy, method, architecture description, benchmark result, declared transduction result, FPF pattern, `DRR`, corpus slice, or another exact object. `E.23` is the entry pattern for repeated improvement, but it does not say what "better" means by itself: the loop starts only after the object version and the object-under-improvement evaluation for that object are declared. If the object has no adequate object-under-improvement evaluation yet, construct or repair the object-under-improvement evaluation `CharacteristicSpace` through `A.19.ECS` before opening the loop.
 
-The governed object is the repeated quality-improvement method parameterized by `<ObjectVersionUnderImprovement, ObjectUnderImprovementEvaluationRef>`. The loop does not supply quality values or construct coordinate sets. It changes the object under improvement, asks the object-under-improvement evaluation to re-read the changed object version, and decides whether to stop, narrow, continue, switch method, or hold for more exact information.
+The EntityOfConcern is the repeated quality-improvement method parameterized by `<ObjectVersionUnderImprovement, ObjectUnderImprovementEvaluationRef>`. The loop does not supply quality values or construct coordinate sets. It changes the object under improvement, asks the object-under-improvement evaluation to re-read the changed object version, and decides whether to stop, narrow, continue, switch method, or hold for more exact information.
 
 Use it especially when the work is more than a cheap admissibility read:
 
@@ -45,12 +45,12 @@ Use it especially when the work is more than a cheap admissibility read:
 - returned findings must be absorbed row by row and then re-read for actual quality movement;
 - one `E.22` read returns a bounded portfolio of candidate improvement proposals, and the loop must choose, apply, re-read, or hand off those proposals without pretending the read already selected a winner;
 - a proposed improvement may raise visible coordinates while damaging usability, affordability, repair locality, corpus ecology, neighbour fit, source-content preservation, or another protected quality;
-- an agentic or tool-using loop is being considered and its cost, supervision, retry, memory, verification, or stop posture matters;
+- an agentic or tool-using loop is being considered and its cost, supervision, retry, memory, verification, or stop/switch condition matters;
 - a specialized improvement cycle, such as throughput, variation, learning, stabilization, or orientation under uncertainty, is being selected for one declared characteristic space.
 
 **Not this pattern when.** Use `E.22` alone for one framed `floorRead` or other single quality review when no repeated improvement method is needed. Use the object-under-improvement evaluation itself when the question is already scoped and the work is a direct value read. Use `A.19.ECS` when the live problem is constructing or repairing the object-under-improvement evaluation `CharacteristicSpace` for the object under improvement. Use `C.16.Q` when the live problem is overloaded `quality` wording. Use `C.25` when the live problem is a composite engineering quality-family endpoint. Use project-side evidence, assurance, gate, work, release, safety, or compliance patterns when the result is being reused for those exact claims.
 
-**First useful move.** Name the exact object version under improvement and the object-under-improvement evaluation before changing anything. If the evaluation is missing or not adequate for the object kind and use, construct or repair it through `A.19.ECS` first. Then state the improvement aim, floor, protected trade-offs, selected quality-read purpose, and the condition under which the next pass would stop, narrow, continue, switch method, or hold.
+**First useful move.** Name the exact object version under improvement and the object-under-improvement evaluation before changing anything. If the evaluation is missing or not adequate for the object kind and use, construct or repair it through `A.19.ECS` first. Then state the improvement aim, floor, protected trade-offs, selected quality-read purpose, next-pass cost and risk account, and the condition under which the next pass would stop, narrow, continue, switch method, or hold. A row closed, checklist completed, or issue count reduced is only changed-object evidence until the object-under-improvement evaluation re-reads the changed object version.
 
 **Cheap stop.** If one `E.22` short-form `floorRead` under the object-under-improvement evaluation gives an admissible stop and no repeated improvement aim is live, do not open `E.23`.
 
@@ -58,13 +58,13 @@ Use it especially when the work is more than a cheap admissibility read:
 
 **What this buys.** `E.23` gives any improvement effort a disciplined shape: choose the object, declare the object-under-improvement evaluation that says what improvement means, change the object, re-read it, inspect trade-offs, justify added operation families, and stop or switch when the declared values, trade-offs, and costs no longer make another pass admissible.
 
-**Governed object in plain terms.** The governed object is a repeated method for improving one exact object under improvement under the object-under-improvement evaluation that supplies values for that object under improvement.
+**Primary EntityOfConcern in plain terms.** The primary EntityOfConcern is a repeated method for improving one exact object under improvement under the object-under-improvement evaluation that supplies values for that object under improvement.
 
 **Primary working reader.** The first reader is the person running or supervising a repeated improvement pass. The downstream reader is the reviewer, steward, engineer, author, or maintainer who must judge whether the changed object version actually improved under the declared evaluation.
 
 ### E.23:2 - Problem
 
-Improvement work often borrows loop language without saying what is being improved, which evaluation supplies the values, or what would make another pass worth its cost.
+Improvement work often borrows loop language without saying what is being improved, which evaluation supplies the values, what must not get worse, or what would make another pass worth its cost and risk.
 
 The recurring failures are:
 
@@ -94,7 +94,7 @@ The recurring failures are:
 
 Run a `QualityImprovementLoopMethod` only after naming the exact `ObjectVersionUnderImprovement` and the `ObjectUnderImprovementEvaluationRef` that supplies values and stop meanings.
 
-`QualityImprovementLoopMethod := <ObjectUnderImprovementRef, ObjectUnderImprovementEvaluationRef, ImprovementAim, DeclaredFloor?, TradeoffProtectionSet, QualityReadQuestionFrameRef, MethodFamilySelection, OperationFamilySelectionSet?, QualityReviewFindingRows?, ChangedObjectVersionRef?, ObjectUnderImprovementEvaluationReRead, CostAndRiskPosture, StopNarrowContinueSwitchHoldDecision>`
+`QualityImprovementLoopMethod := <ObjectUnderImprovementRef, ObjectUnderImprovementEvaluationRef, ImprovementAim, DeclaredFloor?, TradeoffProtectionSet, QualityReadQuestionFrameRef, MethodFamilySelection, OperationFamilySelectionSet?, QualityReviewFindingRows?, ChangedObjectVersionRef?, ObjectUnderImprovementEvaluationReRead, CostAndRiskAccount, StopNarrowContinueSwitchHoldDecision>`
 
 `ObjectUnderImprovementRef` is a local field for the exact object kind and exact version under the object-under-improvement evaluation. It does not mint a broad new kernel kind.
 
@@ -114,14 +114,13 @@ When the object-under-improvement evaluation also supplies the `Q` side of an NQ
 | `ImprovementAim` | Declared desired movement under the object-under-improvement evaluation: floor repair, exceptional improvement, trade-off inspection, absorption impact, open-question discovery, or another exact object-under-improvement evaluation aim. | Not permission to optimize visible values while damaging protected qualities. |
 | `MethodFamilySelection` | Selected method family for the current object under improvement: general adaptive loop, specialized cycle, or mixed operation-family set. | Not a universal ladder, maturity level, or new kernel kind. |
 | `OperationFamilySelectionSet` | Optional operation families selected because they can move the object-under-improvement evaluation enough to justify their cost and risk. | Not mandatory apparatus for every loop. |
-| `ObjectUnderImprovementEvaluationReRead` | Re-run or cited result from the object-under-improvement evaluation on the changed object version under improvement. | Not executor self-assessment, reviewer praise, discharge count, or absence of blockers. |
-| `CostAndRiskPosture` | Declared cost and risk account used to judge whether the next pass or added operation is worth doing. | Not a scalar quality value and not resource ontology. |
+| `ObjectUnderImprovementEvaluationReRead` | Re-run or cited result from the object-under-improvement evaluation on the changed object version under improvement. | Not repair self-assessment, reviewer praise, discharge count, or absence of blockers. |
+| `CostAndRiskAccount` | Declared cost and risk account used to judge whether the next pass or added operation is worth doing. | Not a scalar quality value and not resource ontology. |
 | `StopNarrowContinueSwitchHoldDecision` | The local decision after a re-read: stop, narrow the aim, continue, switch method family, or hold for more exact information. | Not a release gate, work authority, safety acceptance, or evidence claim by itself. |
-| `QualityImprovementLoopRecord` | Local record of one loop pass or pass sequence: object version under improvement, object-under-improvement evaluation, applied rows, re-read result, trade-offs, cost and risk posture, and stop decision. | Not proof of quality by itself and not a project release, gate, evidence, assurance, safety, compliance, or work-authority record. |
+| `QualityImprovementLoopRecord` | Local record of one loop pass or pass sequence: object version under improvement, object-under-improvement evaluation, applied rows, re-read result, trade-offs, cost and risk account, and stop decision. | Not proof of quality by itself and not a project release, gate, evidence, assurance, safety, compliance, or work-authority record. |
 | `QualitySideMovementClaim` | Local claim that the changed object version moved on declared `Q` components under one NQD/OEE comparison. | Not an `N` or `D` claim, not archive or front insertion, not candidate-pool policy, not selected-set publication, not parity, and not refresh. |
 | `SourceContributionStratum` | One distinguishable contribution type made by an accepted source or practice line inside a source-bearing improvement: value semantics, operation family, boundary, comparison discipline, failure mode, protected trade-off, or stop discipline. | Not a maturity level, not an architecture layer, not evidence rank, and not permission to cite a source without saying what it contributes. |
 | `SourceComposedResultClaim` | The changed object version capability, move, explanation, method result, or other object-under-improvement evaluation-readable result produced by composing accepted source or practice lines. | Not a mathematical function, not a TGA morphism, not a module function, not source volume, and not a novelty claim without object-under-improvement evaluation re-read. |
-
 
 The words `loop`, `method family`, and `operation family` are local method words. They do not create a sequence that every project must run. They name repeated use of an object-under-improvement evaluation-controlled improvement method.
 
@@ -154,11 +153,11 @@ For one quality-improvement loop:
 3. Frame the first quality review through `E.22`.
 4. Run the object-under-improvement evaluation and produce row-atomic findings when work is returned.
 5. Apply repairs or variants to the object under improvement, or hand proposal generation and selection to an exact neighbour, without silently damaging protected trade-offs.
-6. Record executor discharge as changed-object evidence, not as the quality value.
-7. Re-read the changed object version through the object-under-improvement evaluation rather than accepting executor self-assessment. When `Q`-side NQD comparison is live, read the changed object version against the declared comparison set or front named in the loop record.
+6. Record row discharge as changed-object evidence, not as the quality value.
+7. Re-read the changed object version through the object-under-improvement evaluation rather than accepting repair self-assessment. When `Q`-side NQD comparison is live, read the changed object version against the declared comparison set or front named in the loop record.
 8. Record what got worse, including reader cost, authoring cost, maintainer cost, neighbour-pattern cost, source-loss risk, corpus-ecology cost, supervision cost, or rework cost when those can change admissible use.
 9. Decide `stop`, `narrow`, `continue`, `switchMethodFamily`, or `holdForExactInformation`.
-10. Leave one `QualityImprovementLoopRecord` that lets a later reader recover the object version under improvement, object-under-improvement evaluation, applied rows, re-read result, changed trade-offs, cost and risk posture, and stop decision without reconstructing chat memory.
+10. Leave one `QualityImprovementLoopRecord` that lets a later reader recover the object version under improvement, object-under-improvement evaluation, applied rows, re-read result, changed trade-offs, cost and risk account, and stop decision without reconstructing chat memory.
 
 If the next pass has no live findings, feasible non-dominated improvement, required trade-off inspection, or unresolved open question under the declared object-under-improvement evaluation, stop or narrow. Do not continue merely because more attempts are possible.
 
@@ -168,7 +167,7 @@ An all-`5`, all-exceptional, current-front-reaching, or current-front-improving 
 
 When the object-under-improvement evaluation uses an ordinal scale, the declared floor is the local viable-for-use threshold under the named use claim; it is not always the same ordinal value. The object-under-improvement evaluation supplies the floor rules for that evaluation. A highest value means exceptional expression for the declared use and can serve as current-front reach or front improvement for this loop only when the object-under-improvement evaluation names the comparison basis: accepted `SoTA`, competing candidates, prior front members, current practice, or another explicit declared use frontier. It is not an upper bound on future development and not self-assigned praise.
 
-For source-bearing improvement work, accepted `SoTA` is treated as the working external front: it shows what currently works for the governed problem at the time of the read. `SoTA` is assigned from outside the loop by the object-under-improvement evaluation, accepted source posture, or declared comparison set. `E.23` can govern a loop that reaches that front, holds the object under improvement near that front as sources change, or tests a front-improving proposal, but it does not assign `SoTA` to itself or to the object under improvement.
+For source-bearing improvement work, accepted `SoTA` is treated as the working external front: it shows what currently works for the improvement question at the time of the read. `SoTA` is assigned from outside the loop by the object-under-improvement evaluation, by an accepted use of a cited source plus a source adoption/adaptation/rejection decision, or by a declared comparison set. `E.23` can govern a loop that reaches that front, holds the object under improvement near that front as sources change, or tests a front-improving proposal, but it does not assign `SoTA` to itself or to the object under improvement.
 
 Source-bearing improvement is compositional. PDSA or PDCA, POOGI, OODA, Ralph-like loops, SkillOpt-like fixed-performer optimization, MCDA, Goodhart, and NQD/OEE lines are not a citation shelf. Each line contributes one operation family, boundary, value semantic, stop discipline, or comparison discipline. A conforming loop keeps those contribution strata distinguishable enough that an object-under-improvement evaluation read can recover which contribution caused which useful movement and which neighbouring pattern still governs each boundary.
 
@@ -205,7 +204,7 @@ If those fields are absent, the operation family stays unselected for that loop.
 
 | Operation family | Use when | Boundary |
 |---|---|---|
-| `SpecificationArticulation` | The object under improvement is not clear enough for repeated attempts. | `E.22` frames the improvement-oriented quality read; `E.9` and the governing object-side pattern name the decision or specification content when live. |
+| `SpecificationArticulation` | The object under improvement is not clear enough for repeated attempts. | `E.22` frames the improvement-oriented quality read; `E.9` and the exact pattern for the object under improvement name the decision or specification content when live. |
 | `TaskDecomposition` | A large object under improvement would otherwise produce blind retries. | Use only when the object-under-improvement evaluation can preserve protected trade-offs across the split. |
 | `ContextRefreshWithCarryForwardEvidence` | A fresh context is useful but previous pass evidence must not be lost. | Carried-forward evidence is material for the next pass, not a quality value by itself. |
 | `FailureContextRetry` | A failed attempt contains useful error, tool, reviewer, or object-version-under-improvement feedback. | Retrying is inadmissible when the failure shows wrong object under improvement, wrong evaluation, or missing authority. |
@@ -255,13 +254,13 @@ The re-read names:
 
 Use `continue` only when another pass has a recoverable expected object-under-improvement evaluation movement. Use `switchMethodFamily` when the current method family is not moving the object under improvement, has become too costly, or no longer fits the characteristic space. Use `holdForExactInformation` when the object under improvement, evaluation, authority, evidence, or source condition is too under-specified for the next pass to be meaningful.
 
-A loop record is sufficient when it lets the next reader tell what changed, what the object-under-improvement evaluation read after the change, what became worse, what remains bounded non-use, and why the chosen stop, narrow, continue, switch, or hold decision follows. A record that lists applied findings without the object-under-improvement evaluation re-read is executor discharge evidence, not quality-improvement closure.
+A loop record is sufficient when it lets the next reader tell what changed, what the object-under-improvement evaluation read after the change, what became worse, what remains bounded non-use, and why the chosen stop, narrow, continue, switch, or hold decision follows. A record that lists applied findings without the object-under-improvement evaluation re-read is row-discharge evidence, not quality-improvement closure.
 
 #### E.23:4.8 - Non-use boundaries
 
 A quality-improvement-loop result is not project evidence, assurance, gate passage, release approval, safety acceptance, compliance evidence, or work authority unless the exact neighbouring FPF pattern is opened for that claim.
 
-Repeated agentic attempts are not BLP-compatible merely because they are automated. They need declared object under improvement, object-under-improvement evaluation, protected trade-offs, bounded cost and risk posture, and stop or switch conditions.
+Repeated agentic attempts are not BLP-compatible merely because they are automated. They need declared object under improvement, object-under-improvement evaluation, protected trade-offs, bounded cost and risk account, and stop or switch conditions.
 
 External review, landing, monolith placement, praise, popularity, adoption, or absence of blockers does not raise quality values by itself. Such signals may point to content evidence only after the object-under-improvement evaluation says how they matter.
 
@@ -273,7 +272,7 @@ External review, landing, monolith placement, praise, popularity, adoption, or a
 
 **Show, exceptional pattern improvement.** A steward asks to improve one pattern beyond floor for a declared reader and use window. `E.23` opens the repeated method. `E.22` frames each quality review. `E.21` supplies coordinates and stop meanings. Operation families are selected only when their expected movement, failure mode, cost and risk reason, protected trade-offs, and stop condition are explicit.
 
-**Show, DRR adequacy improvement.** A campaign needs a `DRR` raised to drafting adequacy for pattern drafting and receiving-locus distribution. `E.23` opens the repeated method. `E.22` frames each review. `E.9.DA` supplies coordinates and stop meanings. The result is a better decision record, not a prewritten pattern.
+**Show, DRR adequacy improvement.** One `DRR` version needs drafting adequacy for downstream pattern authoring and receiving-locus distribution. `E.23` opens the repeated method over that decision record. `E.22` frames each review. `E.9.DA` supplies coordinates and stop meanings. The result is a better decision record, not a prewritten pattern.
 
 **Show, proposal portfolio for a pattern.** An external review of one pattern returns twenty candidate improvements across first-use usability, source-content preservation, relation precision, and examples. `E.22` frames this as a bounded proposal portfolio rather than as one bug. `E.23` applies or rejects proposals row by row, re-reads the changed pattern through `E.21`, and stops when the declared coordinates have reached all-`5` or no further non-dominated change remains under the current use. If the pattern claims exceptional expression from `SoTA`, the record names which working external front it reaches or improves, and which source lines compose into the source-composed result claim. A later use, more current source line, more directly relevant source line, or changed comparison set can open a new loop.
 
@@ -291,7 +290,7 @@ External review, landing, monolith placement, praise, popularity, adoption, or a
 
 **Show, overloaded quality wording.** The object under improvement text uses `quality` in a load-bearing way without a recoverable endpoint. `C.16.Q` opens before the loop proceeds. The term is repaired to one exact endpoint or transitional evaluative-ascription form, then `E.23` may use the repaired object-under-improvement evaluation.
 
-**Near miss, agent retries until praise.** A tool-using agent keeps trying until the reviewer says the text is better. This is not an `E.23` closure. The loop must name the object under improvement, object-under-improvement evaluation, expected movement, protected trade-offs, cost and risk posture, and re-read result.
+**Near miss, agent retries until praise.** A tool-using agent keeps trying until the reviewer says the text is better. This is not an `E.23` closure. The loop must name the object under improvement, object-under-improvement evaluation, expected movement, protected trade-offs, cost and risk account, and re-read result.
 
 **Near miss, POOGI everywhere.** A team treats every quality problem as a constraint problem. `E.23` permits POOGI-shaped work only when the object-under-improvement evaluation is actually throughput-shaped or constraint-shaped and inertia after constraint shift is a live concern.
 
@@ -309,7 +308,7 @@ The bias is useful because repeated passes often generate convincing activity wi
 | `CC-E23-2` | A quality-improvement loop SHALL name the exact `ObjectUnderImprovementEvaluationRef` before values, floors, or stop meanings are used; if none exists, the object-under-improvement evaluation `CharacteristicSpace` SHALL be constructed or repaired through `A.19.ECS` before the loop opens. | Prevents `E.23` from inventing quality values. |
 | `CC-E23-3` | The first quality review in the loop SHALL be framed through `E.22` or an explicitly equivalent object-under-improvement evaluation question frame. | Keeps one-read question framing distinct from the repeated method. |
 | `CC-E23-4` | Returned actionable findings SHALL be row-atomic, with expected object-under-improvement evaluation movement and closure test recoverable. | Prevents "handled overall" improvement claims. |
-| `CC-E23-5` | Executor discharge SHALL NOT be treated as coordinate improvement until the changed object version is re-read by the object-under-improvement evaluation. | Blocks checklist-count and discharge-count substitution. |
+| `CC-E23-5` | Row-discharge evidence SHALL NOT be treated as coordinate improvement until the changed object version is re-read by the object-under-improvement evaluation. | Blocks checklist-count and discharge-count substitution. |
 | `CC-E23-6` | Every continue decision SHALL state the expected object-under-improvement evaluation movement for the next pass. | Prevents unbounded retry. |
 | `CC-E23-7` | Every operation family selected for a loop SHALL name expected object-under-improvement evaluation movement, failure mode, cost and risk reason, protected trade-offs, and stop or removal condition. | Blocks automatic bureaucracy and optional-operation drift. |
 | `CC-E23-8` | A method-family selection SHALL state the characteristic-space fit and BLP cost boundary for the object under improvement. | Prevents importing PDCA or PDSA, POOGI, OODA, Ralph-like, or specialized cycles as universal sequences. |
@@ -319,8 +318,8 @@ The bias is useful because repeated passes often generate convincing activity wi
 | `CC-E23-12` | A clean `floorRead` SHALL be allowed to stop through `E.22` plus the object-under-improvement evaluation without opening this method. | Keeps ordinary quality reads affordable. |
 | `CC-E23-13` | An all-exceptional or all-`5` result SHALL carry an explicit object-under-improvement evaluation coordinate-value table over the changed object version. | Prevents floor pass, landing, or praise from becoming exceptional-value evidence. |
 | `CC-E23-14` | Load-bearing source, authority, basis, support, record, and view wording SHALL recover exact kind or relation under `E.10`. | Keeps loop prose from reintroducing umbrella language. |
-| `CC-E23-15` | A closed loop pass SHALL leave a `QualityImprovementLoopRecord` with object version under improvement, object-under-improvement evaluation, applied rows, object-under-improvement evaluation re-read, trade-offs, cost and risk posture, and stop decision recoverable by value. | Prevents quality closure from being reconstructed from chat memory, praise, or checklist closure. |
-| `CC-E23-16` | If `E.22` returns a proposal portfolio, the loop SHALL keep proposal rows, selected object changes, rejected proposals, object-under-improvement evaluation re-read, and neighbour exits distinct. | Prevents a review portfolio from becoming a hidden selector result. |
+| `CC-E23-15` | A closed loop pass SHALL leave a `QualityImprovementLoopRecord` with object version under improvement, object-under-improvement evaluation, applied rows, object-under-improvement evaluation re-read, trade-offs, cost and risk account, and stop decision recoverable by value. | Prevents quality closure from being reconstructed from chat memory, praise, or checklist closure. |
+| `CC-E23-16` | If `E.22` returns a proposal portfolio, the loop SHALL keep proposal rows, selected changes to the object version under improvement, rejected proposals, object-under-improvement evaluation re-read, and neighbour exits distinct. | Prevents a review portfolio from becoming a hidden selector result. |
 | `CC-E23-17` | If the object-under-improvement evaluation is the `Q` side of NQD/OEE, the loop SHALL name the `Q` components, external comparison basis, comparison set or current front, expected `Q` movement, protected trade-offs, and neighbour exits for generation, archive or front handling, selected-set publication, parity, and refresh. | Lets improvement move candidates in NQD without stealing OEE/NQD semantics or self-assigning exceptional status. |
 | `CC-E23-18` | An all-`5`, all-exceptional, current-front-reaching, or current-front-improving result SHALL be treated as a local stop condition for this object-under-improvement evaluation and comparison set, not as proof that further development is impossible. | Prevents maturity-ceiling stagnation while still allowing this loop to close. |
 | `CC-E23-19` | A source-bearing loop that claims `SoTA` reach, `SoTA` maintenance, or front improvement SHALL name the external source of that front and SHALL state the source or practice lines composed, object-under-improvement evaluation coordinates affected, and protected characteristics preserved. | Prevents "we cited SoTA" from becoming a self-assigned `SoTA` claim. |
@@ -332,7 +331,7 @@ The bias is useful because repeated passes often generate convincing activity wi
 |---|---|---|
 | **Loop invents quality.** | The method says the object under improvement improved without an object-under-improvement evaluation. | Name an existing object-under-improvement evaluation, construct or repair one through `A.19.ECS`, or stop before claiming quality movement. |
 | **Checklist closed, quality improved.** | Row count replaces coordinate movement. | Re-read the changed object version through the object-under-improvement evaluation. |
-| **Agentic retry as method law.** | A broad agent repeats attempts without stop or switch conditions. | Add object under improvement, evaluation, expected movement, cost and risk posture, protected trade-offs, and stop or switch conditions. |
+| **Agentic retry as method law.** | A broad agent repeats attempts without stop or switch conditions. | Add object under improvement, evaluation, expected movement, cost and risk account, protected trade-offs, and stop or switch conditions. |
 | **Full loop for a small floor check.** | A cheap readiness question becomes expensive ceremony. | Use `E.22` short-form `floorRead` and stop if the object-under-improvement evaluation gives admissible stop. |
 | **Specialized-cycle cargo cult.** | PDCA or PDSA, POOGI, OODA, or another named cycle is used because it is familiar. | State the characteristic-space fit; otherwise select another method family or use a direct repair. |
 | **Ralph name as authority.** | The loop is treated as good because it resembles a current tool technique. | Use the selected operation-family semantics only when object-under-improvement evaluation payoff and `C.19.1` cost and risk comparison justify them. |
@@ -349,10 +348,10 @@ The bias is useful because repeated passes often generate convincing activity wi
 
 | Consequence | Benefit | Cost or guard |
 |---|---|---|
-| Repeated improvement has one FPF method locus. | Process references and local campaign habits no longer carry hidden doctrine. | The loop must not duplicate object-under-improvement evaluation values. |
+| Repeated improvement has one FPF method locus. | Process references and local authoring habits no longer carry hidden doctrine. | The loop must not duplicate object-under-improvement evaluation values. |
 | One-read quality framing stays cheap. | A floor read can close without full-loop apparatus. | Requesters must say when exceptional improvement or repeated absorption is live. |
 | Agentic and classical loop traditions become selectable method families. | Useful practice is available without importing one universal sequence. | Each family needs characteristic-space fit and cost and risk justification. |
-| Row-atomic discharge is separated from quality movement. | Executors can show what changed while reviewers keep value authority. | A re-read is required before coordinate movement is claimed. |
+| Row-atomic discharge is separated from quality movement. | The record can show what changed while the object-under-improvement evaluation keeps value authority. | A re-read is required before coordinate movement is claimed. |
 | Goodhart checks become part of improvement. | Protected trade-offs stay visible when values rise. | Some attractive edits will be rejected or narrowed. |
 | Proposal portfolios can feed improvement without becoming decisions. | Reviews can return many non-dominated improvement rows, including pattern and `DRR` rows, without pretending one row is the only next move. | Selection, generation, selected-set publication, parity, and refresh need exact neighbour exits when those claims become live. |
 | `Q`-side NQD movement is expressible. | A loop can improve a candidate, object version under improvement, or declared transduction result relative to an externally declared comparison set, `SoTA` line, or current front. | `E.23` must not redefine `N`, `D`, archive, front, pool, selected-set, parity, or refresh semantics. |
@@ -363,7 +362,7 @@ The bias is useful because repeated passes often generate convincing activity wi
 
 Quality improvement is not the same problem as quality review. A review can answer one framed question about one object version under improvement. Improvement changes the object under improvement and then asks whether the changed object version is better under the declared object-under-improvement evaluation.
 
-The separation keeps the first pass affordable. `A.19.ECS` constructs or repairs a missing object-under-improvement evaluation `CharacteristicSpace`; `E.22` frames the read; `E.21`, `E.9.DA`, `E.2.DA`, `F.18`, `C.25`, or another evaluation supplies values; `E.23` governs repetition, absorption, re-read, cost and risk posture, method-family selection, and stopping.
+The separation keeps the first pass affordable. `A.19.ECS` constructs or repairs a missing object-under-improvement evaluation `CharacteristicSpace`; `E.22` frames the read; `E.21`, `E.9.DA`, `E.2.DA`, `F.18`, `C.25`, or another evaluation supplies values; `E.23` governs repetition, absorption, re-read, cost and risk account, method-family selection, and stopping.
 
 Classical cycles and agentic loops become useful when treated as candidate method families rather than as universal law. POOGI optimizes throughput and constraint selection; PDCA and PDSA optimize learning and stabilization against declared measures; OODA optimizes orientation quality under changing conditions; Ralph-like loops approximate a broad adaptive agent repeatedly working from specification, feedback, verification, and memory. `E.23` asks whether the method family fits the object-under-improvement evaluation and whether the next pass is still worth its cost.
 
@@ -379,7 +378,7 @@ The stop rule is deliberately local. Reaching all `5` values or the current non-
 
 ### E.23:11 - SoTA-Echoing
 
-`E.23:11` uses `SoTA` in the `E.8` sense: current best-known problem-solving practice for the governed problem. A row that carries a fast-moving current-practice claim is admissible only when it has current-source posture or is explicitly narrowed to lineage, example-only, or rationale-only use.
+`E.23:11` uses `SoTA` in the `E.8` sense: current best-known problem-solving practice for the improvement question. A row that carries a fast-moving current-practice claim is admissible only when the row says how the cited source is used and gives source-currentness evidence, or is explicitly narrowed to lineage, example-only, or rationale-only use.
 
 | Claim | Practice or source line | Local adoption | Non-use boundary |
 |---|---|---|---|
@@ -414,7 +413,7 @@ The stop rule is deliberately local. Reaching all `5` values or the current non-
 | `C.17` | Governs candidate novelty, use-value, surprise, constraint fit, diversity, originality, and resource-efficiency characterization when those are live for OEE/NQD improvement. |
 | `C.18` | Governs NQD generation, descriptor and distance pins, archive and front semantics, and illumination telemetry. `E.23` may improve `Q` movement for one object under improvement but does not govern `C.18` semantics. |
 | `C.19` | Governs live candidate-pool policy. `E.23` does not decide whether to widen, keep frontier, narrow, sunset, or reroute the pool. |
-| `G.5` | Governs selected-set publication, including `Shortlist`, `RankedShortlist`, narrowed handoff, abstain, and escalation results. |
+| `G.5` | Governs selected-set publication, including `Shortlist`, `RankedShortlist`, narrowed transfer result, abstain, and escalation results. |
 | `G.9` | Governs parity and benchmark comparison over selected sets, archives, fronts, or method families when those claims are live. |
 | `G.11` | Governs refresh of shipped set results, archive telemetry, parity reports, or OEE/NQD pins. |
 | `C.11` | Governs local decision value when proposal rows become an explicit choice among alternatives rather than a loop-internal object-version change. |
@@ -422,4 +421,6 @@ The stop rule is deliberately local. Reaching all `5` values or the current non-
 | `E.10`, `A.6.P`, `C.2.P`, `F.18` | Repair load-bearing wording and names introduced by a loop record. `E.23` does not accept source, authority, basis, support, record, view, object under improvement, or quality as umbrella substitutes for exact kinds and relations. |
 
 ### E.23:End
+
+# **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 

@@ -6,12 +6,12 @@ section_id: "F.3:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__005_core-idea-didactic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:4 — Core idea (didactic)"
-line_start: 69188
-line_end: 69198
+line_start: 70010
+line_end: 70019
 dependencies:
   - "A.11"
   - "A.7"
@@ -40,5 +40,4 @@ Inside one context:
 * **Different sense** → **two Local‑Senses**: incompatible selectional frames, entailments, or role in the canon’s own statements.
 
 Each Local‑Sense becomes **addressable** when paired with its Context: **SenseCell = (Context × Local‑Sense)**. SenseCells are **context‑local coordinates**; they do not pre‑judge any Cross‑context mapping.
-
 

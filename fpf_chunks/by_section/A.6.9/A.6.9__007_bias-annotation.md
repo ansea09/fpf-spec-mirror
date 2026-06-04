@@ -6,12 +6,12 @@ section_id: "A.6.9:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__007_bias-annotation.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.6.9 — U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align” via explicit Bridges (RPR‑XCTX)"
   - "A.6.9:6 — Bias‑Annotation"
-line_start: 16506
-line_end: 16516
+line_start: 16656
+line_end: 16666
 dependencies:
   - "A.6.6"
   - "A.6.P"

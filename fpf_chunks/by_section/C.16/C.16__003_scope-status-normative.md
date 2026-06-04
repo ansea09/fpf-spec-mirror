@@ -6,12 +6,12 @@ section_id: "C.16:2"
 section_title: "Scope & Status (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__003_scope-status-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:2 — Scope & Status (Normative)"
-line_start: 40286
-line_end: 40294
+line_start: 40223
+line_end: 40230
 dependencies:
   - "A.10"
   - "A.17"
@@ -40,6 +40,5 @@ keywords:
 
 **Status.** **Normative** C.16 **depends on** A.17 (canonical **Characteristic**) and A.18 (minimal **CSLC** in Kernel). Where C.16 cites external CG‑frames, the stance is through **Part F** rows and **Bridges** (with CL and loss notes), not by vocabulary import.
 
-**Out of scope.** No computational recipes, no workflow prescriptions, no governance or process guidance. No definitions of normalization, indicatorization, scoring, comparison, or selection mechanisms, no comparability policy specifications, and no legality gate specifications. C.16 concerns **objects of thought** (intensions) and their **validity conditions** for measurement claims, not records or tooling. (Implementation guidance, if any, belongs outside Part C.)
-
+**Out of scope.** No computational recipes, no workflow prescriptions, no governance or process guidance. No definitions of normalization, indicatorization, scoring, comparison, or selection mechanisms, no comparability policy specifications, and no legality gate specifications. C.16 concerns **measurement-definition constructs** and their **validity conditions** for measurement claims, not records or tooling. (Implementation guidance, if any, belongs outside Part C.)
 

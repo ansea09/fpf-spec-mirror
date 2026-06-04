@@ -6,12 +6,12 @@ section_id: "F.8:12"
 section_title: "Extended worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__014_extended-worked-examples.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:12 — Extended worked examples"
-line_start: 70941
-line_end: 70996
+line_start: 71696
+line_end: 71747
 dependencies:
   - "A.11"
   - "A.7"
@@ -52,7 +52,6 @@ keywords:
 
 **Outcome.** Prose may say: “This **execution-occurrence** (row\@assignment/enactment-eligibility) was **observed** (SOSA cell) and **evaluated against the SLO** (ITIL cell).” No new U.Type; no hidden merges.
 
-
 #### F.8:12.2 - **Actor across workflow and provenance** (managers)
 
 **Need.** A single everyday label for “the responsible party” in diagrams.
@@ -65,7 +64,6 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 **Outcome.** Diagrams show “actor”; formal sections reference `Participant` or `Agent` as appropriate.
 
-
 #### F.8:12.3 - **Accuracy across metrology and data quality** (researchers)
 
 **Need.** Treat “accuracy” consistently across ISO 80000 (metrology) and ISO/IEC 25024 (data quality).
@@ -77,7 +75,6 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 **Outcome.** One label in reports; method sections still cite the context‑local procedure.
 
-
 #### F.8:12.4 **Subtype relation across OWL and a curated taxonomy** (formalists)
 
 **Need.** Present “is‑a” uniformly across OWL 2 classes and a domain taxonomy.
@@ -88,5 +85,4 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 **Reasoning.** F.7 row “subtype‑order” exists at **Type‑structure scope** with CL = 3 (only after verifying acyclicity & anti‑symmetry in `Taxonomy_X`). If the curated taxonomy contains cycles, **downgrade** to Naming‑only or reject the row.
 
 **Outcome.** When CL≥3, you may **reuse row** for structural proofs; else teach differences.
-
 

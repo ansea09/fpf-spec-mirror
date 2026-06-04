@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
-line_start: 37719
-line_end: 37929
+line_start: 37739
+line_end: 37939
 dependencies:
   - "C.3.1"
   - "C.3.3"
@@ -46,7 +46,7 @@ keywords:
 
 ### C.3.2:1 - Purpose & Audience
 
-This pattern makes **describedEntity testable** in a Context:
+This pattern makes **entityOfConcern testable** in a Context:
 
 * Authors get a place to write **what defines a kind** (`KindSignature`) and at **what rigor (F)**.
 * Reviewers can ask **deterministic** questions: *“Given this `TargetSlice`, which entities are in `k`?”*
@@ -58,14 +58,12 @@ This pattern makes **describedEntity testable** in a Context:
 
 Different Contexts encode “type” intent differently (predicates, schemas, ontologies, Standards). Regardless of notation, a team must be able to answer, reproducibly: **who belongs to the kind at this slice?** If this is not stable, claims quantified over the kind are unverifiable, bridges are opaque, and composition becomes unsafe.
 
-
 ### C.3.2:3 - Problem
 
 1. **Ambiguous membership.** Membership depends on tacit “latest” states or unwritten defaults.
 2. **Signature opacity.** A kind’s definition is scattered; no single place to declare rigor (**F**) or assumptions.
 3. **Order violations.** Subkind hierarchies do not guarantee subset behavior in practice.
 4. **Scope leakage.** Teams smuggle applicability (G) into kind definitions, recreating G‑ladders by another name.
-
 
 ### C.3.2:4 - Forces
 
@@ -75,7 +73,6 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 | **Expressivity vs determinism**    | Rich intent is welcome, but membership must be deterministic given `slice`.                          |
 | **Intent vs applicability**        | Define “what counts” (intent/extent) without encoding “where valid” (G).                             |
 | **Rigor vs cost**                  | Raising signature F has cost; the framework must support low‑F drafts and high‑F safety cores alike. |
-
 
 ### C.3.2:5 - Solution — Objects & Standards (overview)
 
@@ -89,7 +86,6 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 * **Intent** lives in **`KindSignature`** (with F).
 * **Extent** is **computed per `slice`** via `MemberOf`.
 * **Applicability** (where a **claim** holds) remains a **Scope** on the claim (USM) and **MUST NOT** be encoded into `KindSignature`.
-
 
 ### C.3.2:6 - Norms & Invariants (normative)
 
@@ -131,7 +127,6 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 * **With C.3.3 (KindBridge).** When `MemberOf` is computed via a **kind mapping across Contexts**, kind‑congruence `CL^k` contributes a **monotone penalty to **R** only (Ψ(`CL^k`)); **F/G MUST NOT** be adjusted.
 * **With Role‑CAL (C.3.4).** A **RoleMask** may **narrow** membership (context‑local adaptation). Frequent masks that encode stable narrowing **SHOULD** be promoted to subkinds (`⊑`).
 
-
 ### C.3.2:8 - Authoring & Review Guidance (informative)
 
 #### C.3.2:8.1 - Authoring `KindSignature`
@@ -156,7 +151,6 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 4. If `⊑` links exist, does **subset behavior** hold at sample slices?
 5. Are **Scope** and **membership** kept **separate** in guards?
 6. Any **Cross‑context** classification? If yes, is **KindBridge** referenced (C.3.3)?
-
 
 ### C.3.2:9 - Worked Examples (informative)
 
@@ -190,17 +184,15 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 * `EntitySet(slice)`: EHR `ehr‑east v7.5` @ `Γ_time`;
 * Membership deterministic if DOB present; undefined otherwise (fail closed).
 
-
 ### C.3.2:10 - Anti‑patterns & Remedies (informative)
 
 | Anti‑pattern                                         | Why it’s wrong                        | Remedy                                                              |
 | ---------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------- |
 | Using “latest” implicitly in membership              | Non‑deterministic; unreproducible     | Require explicit `Γ_time`; treat freshness separately in **R**      |
-| Encoding Scope (“only in EU plant”) in the signature | Confuses applicability with describedEntity | Move such conditions to **Claim scope (G)**; keep signature general |
+| Encoding Scope (“only in EU plant”) in the signature | Confuses applicability with entityOfConcern | Move such conditions to **Claim scope (G)**; keep signature general |
 | Declaring `k₁ ⊑ k₂` but not ensuring subset behavior | Breaks typed reasoning                | Tighten `KindSignature` or drop the `⊑` link                        |
 | Treating RoleMask as a different kind                | Catalog sprawl; hidden semantics      | Keep mask as adaptation; promote to subkind if widely reused        |
 | Membership relying on external, unnamed assumptions  | Hidden dependencies; review fatigue   | Name assumptions in the signature; point to Standards/versions      |
-
 
 ### C.3.2:11 - Rationale (informative)
 
@@ -218,7 +210,6 @@ Because rigor in the **definition of a kind** materially affects how safely team
 
 Guards must be **reproducible** and **auditable**: same `slice` ⇒ same membership result. If inputs are missing (undefinedness), the safest default is **deny** (fail closed), prompting either a richer slice or a scope/claim change.
 
-
 ### C.3.2:12 - Conformance checklist (normative)
 
 | ID            | Requirement                                                                                     |
@@ -231,7 +222,6 @@ Guards must be **reproducible** and **auditable**: same `slice` ⇒ same members
 | **C3.2‑K‑08** | **Separation:** guards keep **Scope coverage** (USM) and **membership** as distinct predicates. |
 | **C3.2‑S‑01** | The Context **documents `U.EntitySet(slice)`** (stable, addressable via `slice`).                |
 | **C3.2‑S‑02** | `slice` **specifies `Γ_time`**; membership **must not** rely on implicit recency.               |
-
 
 ### C.3.2:End
 

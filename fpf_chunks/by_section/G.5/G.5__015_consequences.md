@@ -6,12 +6,12 @@ section_id: "G.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__015_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:9 — Consequences"
-line_start: 78561
-line_end: 78568
+line_start: 79153
+line_end: 79160
 dependencies:
   - "C.11"
   - "C.18"
@@ -51,7 +51,7 @@ keywords:
 
 * **Auditable plurality.** Multiple Traditions can co-exist without forced semantic flattening; dispatch remains explainable and evidence-pinned.
 * **Core stability.** Universal invariants are pinned through `G.Core`; method/generator innovation does not churn the selector head.
-* **Evolvability.** Registries support growth, retirement, and refresh with typed RSCR causes and explicit payload pins.
+* **Evolvability.** Registries allow growth, retirement, and refresh with typed RSCR causes and explicit payload pins.
 * **Composability.** Strategy templates and fallbacks remain legality-checked and portable across implementations.
 * **Recoverable publication.** Selected-set results can now travel downstream as explicit shortlist-family, ranked-shortlist, or abstain/escalation results rather than one hidden implication inside upstream reasoning.
 

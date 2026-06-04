@@ -6,12 +6,12 @@ section_id: "C.3.A:7"
 section_title: "Decision Trees (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__008_decision-trees-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:7 — Decision Trees (informative)"
-line_start: 38775
-line_end: 38799
+line_start: 38746
+line_end: 38769
 dependencies:
   - "A.2.6"
   - "C.3.x"
@@ -47,5 +47,4 @@ keywords:
 1. Prove per‑line typed admission.
 2. Provide independence partition.
 3. Publish **SpanUnion**; no extrapolation.
-
 

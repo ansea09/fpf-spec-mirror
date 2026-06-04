@@ -6,12 +6,12 @@ section_id: "B.1.1:6"
 section_title: "The Proof Kit (ready‑made templates for Γ on D)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__007_the-proof-kit-ready-made-templates-for-on-d.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:6 — The Proof Kit (ready‑made templates for Γ on D)"
-line_start: 28507
-line_end: 28574
+line_start: 28711
+line_end: 28776
 dependencies:
   - "A.1"
   - "A.12"
@@ -86,7 +86,6 @@ Examples:
 > **Obligation BOUND‑1.**
 > List the **U.Boundary** for each top‑level holon in `V` and record any **U.Interaction** edges that are relevant but not part of `E` (to show cross‑boundary influences were not mis‑typed as parthood).
 
-
 #### B.1.1:6.6 - Flavour‑specific summary table
 
 | Γ‑flavour            | Independence (IND‑LOC)                                             | WLNK‑CUT (what is “critical”)                         | MONO‑AX (what cannot make worse)                    | IDEM‑WIT                      | Notes                                                         |
@@ -98,5 +97,4 @@ Examples:
 | **Γ\_work**          | Disjoint boundary partitions; shared stocks lifted to parent       | Availability caps for required inputs across boundary | ↑ yield; ↓ dissipation; ↑ availability              | Single resource with no delta | Keep **Boundary Ledger** with basis and time window.          |
 
 Attach the row(s) you use as the **Proof Kit** to the Γ call record.
-
 

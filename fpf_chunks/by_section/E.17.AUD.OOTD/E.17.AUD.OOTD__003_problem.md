@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
 section_id: "E.17.AUD.OOTD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary Described-Entity Discipline - publication-unit stability over one primary described entity"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:2 — Problem"
-line_start: 64443
-line_end: 64451
+line_start: 65316
+line_end: 65324
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,7 +26,6 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17.AUD.LHR"
@@ -41,8 +40,8 @@ keywords:
 
 Without a named publication-unit discipline:
 1. authors repair one vague phrase at a time but still leave the unit unstable as a whole;
-2. reviewers argue about wording while missing that the unit has already shifted from described entity to process or from description to decision pressure;
+2. reviewers argue about wording while missing that the unit has already shifted from primary EntityOfConcern to process or from description to decision pressure;
 3. teams quietly read one note as if it licensed a downstream move the unit never declared;
-4. local lexical discipline (`A.6.P`, `E.10`, `F.18`) gets blamed for publication-unit reading instability it was never meant to solve alone;
+4. local lexical discipline (`A.6.P`, `E.10`, `F.18`) gets blamed for publication-unit interpretation instability it was never meant to solve alone;
 5. unit-form confusion is mistaken for view, face, carrier, or publication architecture even when the immediate problem is simpler and closer.
 

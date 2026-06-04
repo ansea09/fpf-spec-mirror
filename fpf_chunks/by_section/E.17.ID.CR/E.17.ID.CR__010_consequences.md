@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__010_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:9 — Consequences"
-line_start: 63668
-line_end: 63675
+line_start: 64542
+line_end: 64549
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -42,7 +42,7 @@ keywords:
 
 - The middle band between bridge-stance overlay over an existing Bridge Card and prompt-bearing abduction becomes reviewable rather than rhetorical.
 - Reviewers get a cleaner way to distinguish comparative interpretation from same-entity viewing, explanation rendering, ontology shift, approval, rollout, release, gate, policy, assurance, and adjudication use.
-- Authors pay a small extra declaration weight, but the gain is fewer hidden neighboring-pattern boundary mistakes and less governed-object instability.
+- Authors pay a small extra declaration weight, but the gain is fewer hidden neighboring-pattern boundary mistakes and less comparison-unit instability.
 - Guided comparative review units become easier to prepare honestly because allowed use, misuse risk, and world-contact limits can be declared without pretending that the unit already carries a broader guidance claim than it really does.
 - Users get an admissible way to keep bounded comparative review units modest: the unit can stay useful while its comparative reading remains below the boundary threshold for prompt publication, ontology-facing reframing, or gate-facing guidance.
 

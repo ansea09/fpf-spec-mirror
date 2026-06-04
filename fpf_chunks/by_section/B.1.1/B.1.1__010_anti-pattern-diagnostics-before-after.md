@@ -6,12 +6,12 @@ section_id: "B.1.1:9"
 section_title: "Anti‑pattern diagnostics (before → after)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__010_anti-pattern-diagnostics-before-after.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:9 — Anti‑pattern diagnostics (before → after)"
-line_start: 28620
-line_end: 28631
+line_start: 28820
+line_end: 28830
 dependencies:
   - "A.1"
   - "A.12"
@@ -42,5 +42,4 @@ keywords:
 | **History encoded as structure** | `v2 ComponentOf v1`                                            | Use `PhaseOf` for time slices of the *same* carrier, or a Transformer creating a new holon (A.12) if identity changes.                                  |
 | **Mapping as parthood**          | `DigitalTwin ConstituentOf Turbine`                            | Keep the twin as a separate holon; link by `U.Interaction` and value‑level mapping; do not use parthood.                                                |
 | **DesignRunTag chimera**           | Mix of CAD nodes and telemetry nodes                           | Split into two graphs (`design` vs `run`) and connect via a Transformer role if needed.                                                                 |
-
 

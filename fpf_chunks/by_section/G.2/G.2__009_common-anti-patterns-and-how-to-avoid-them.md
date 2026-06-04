@@ -6,12 +6,12 @@ section_id: "G.2:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 76961
-line_end: 76982
+line_start: 77556
+line_end: 77577
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -65,7 +65,7 @@ keywords:
 
 * **AP‑G2‑4: Unanchored pedagogy.**
   **Avoid:** micro‑examples without carriers (they become folklore).
-  **Do instead:** bind micro‑examples to A.10 anchors and declare `describedEntity`.
+  **Do instead:** bind micro‑examples to A.10 anchors and declare `entityOfConcern`.
 
 * **AP‑G2‑5: Atlas by default.**
   **Avoid:** writing as if every tradition comparison or NQD/OEE note needs `TraditionAtlasView`, or as if atlas wording renames the palette itself.

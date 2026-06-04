@@ -6,12 +6,12 @@ section_id: "C.28:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__012_rationale.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:10 — Rationale"
-line_start: 50032
-line_end: 50046
+line_start: 49873
+line_end: 49886
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,6 @@ Temporal language can say that something changed. Measurement language can say t
 - `C.28` governs causal-use question, rung, estimand, identification, realizability, causal evidence support basis, and causal-use verdict.
 - Neighbor patterns keep their own authority and cite `C.28` only when causal use is live.
 - `C.26` receives a causal exit: intervention, causal effect, causal fairness, causal policy, and counterfactual-rung-data realizability are ordinary causal-use questions before they are quantum-like modeling questions.
-
 
 The pattern is not Pearl-only. SCM/PCH provides the rung discipline, but potential outcomes, target-trial emulation, causal ML estimation, transportability, causal representation learning, causal RL, and causal fairness all change the fields that FPF must preserve.
 

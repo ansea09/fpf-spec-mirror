@@ -6,12 +6,12 @@ section_id: "F.7:13"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__014_relations-with-other-patterns.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:13 — Relations (with other patterns)"
-line_start: 70650
-line_end: 70662
+line_start: 71420
+line_end: 71431
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -45,5 +45,4 @@ F.6 **Role Assignment & Enactment Cycle (Six-Step)** — Move M‑4 (“choose l
 
 **Used by.**
 Part C patterns for didactic alignment pages; Part B trust calculus (B.3) may consume **Row CL(min)** when computing translation penalties.
-
 

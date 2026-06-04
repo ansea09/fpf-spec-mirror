@@ -6,12 +6,12 @@ section_id: "E.10.D1:10"
 section_title: "Reasoning Primitives (conceptual judgements; notation‑agnostic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__011_reasoning-primitives-conceptual-judgements-notation-agnostic.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:10 — Reasoning Primitives (conceptual judgements; notation‑agnostic)"
-line_start: 58602
-line_end: 58624
+line_start: 59732
+line_end: 59753
 dependencies:
   - "A.4"
   - "A.7"
@@ -54,5 +54,4 @@ keywords:
 
 * **(J6) Time tag.** `stance ∈ {design, run} ⊢ TimeScopeTag(stance)`
   *Reading:* time is a tag, not a new context.
-
 

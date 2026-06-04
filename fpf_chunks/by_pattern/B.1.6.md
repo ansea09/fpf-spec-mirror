@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.6.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
-line_start: 29753
-line_end: 30032
+line_start: 29903
+line_end: 30175
 dependencies:
   - "A.12"
   - "A.14"
@@ -57,7 +57,6 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 3. **Boundary blindness:** Spending is reported without specifying the boundary across which it is measured, making numbers non‑comparable.
 4. **Category errors in mereology:** Collection membership (MemberOf) is misused as if it were parthood for resource stocks, polluting Γ proofs (B.1).
 
-
 ### B.1.6:3 - Forces
 
 | Force                                               | Tension                                                                                                                        |
@@ -66,7 +65,6 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 | **Run‑time measurability vs. Design‑time planning** | We need measurable deltas at run‑time ↔ we also need ex‑ante yields from MethodDescription to plan.                                   |
 | **Heterogeneous units vs. Unified sums**            | Resources come in different units (joules, kg, bits) ↔ we still need composite statements (vectors, typed sums).               |
 | **Safety vs. Synergy**                              | Weakest‑link bounds must cap availability ↔ redundancy or substitution can improve feasibility but belongs to emergence (B.2). |
-
 
 ### B.1.6:4 - Terminology guard‑rails (A.15 — Strict Distinction)
 
@@ -203,7 +201,6 @@ Work_B(q) = Embodied_B(q) + Dissipated_B(q)
 
 This split is **informative**, not a second algebra: Γ\_work always folds the **total** Work; the split is attached in the **Boundary Ledger** for transparency.
 
-
 ### B.1.6:8 - Invariants — edge cases and proof sketches
 
 #### B.1.6:8.1 - IDEM (idempotence)
@@ -251,7 +248,6 @@ is invariant to any topological sort consistent with Γ\_method’s order (Γ\_m
 | **Time slicing**            | Heat → dwell → quench phases are `PhaseOf`; Work adds: Σ over phases.                                               | Epochs are `PhaseOf`; Work adds across epochs.                                                                                       |
 | **WLNK**                    | Gas supply cap limits feasible heat cycles (critical input); if redundancy is added (dual supply), model it as MHT. | Storage bandwidth caps data‑read; adding a cache hierarchy is MHT (new structural capability), not “free” efficiency.                |
 
-
 ### B.1.6:10 - Conformance Checklist (complete)
 
 | ID            | Requirement                                                                                                                                     | Purpose                                               |
@@ -265,7 +261,6 @@ is invariant to any topological sort consistent with Γ\_method’s order (Γ\_m
 | **CC‑B1.6.7** | If a shared internal stock exists between sub‑boundaries, it MUST be modelled in ΔStock\_inside(q) at the **parent** boundary level.            | Preserve conservation and COMM/LOC preconditions.     |
 | **CC‑B1.6.8** | When `M_spec` declares a yield η, the report SHALL separate **planned** (ex‑ante) and **measured** (ex‑post) Work.                              | Keep planning distinct from accounting (A.15).        |
 | **CC‑B1.6.9** | Γ\_work SHALL provide proofs of the invariant quintet under the independence assumptions used, or explicitly state where MHT is required.       | Maintain B.1 guarantees.                              |
-
 
 ### B.1.6:11 - Consequences
 
@@ -282,11 +277,9 @@ is invariant to any topological sort consistent with Γ\_method’s order (Γ\_m
 * **Vector heterogeneity:** Mixed units can be hard to read. *Mitigation:* keep vectors typed; add equivalence maps only when justified in `M_spec`.
 * **Independence discipline:** Shared stocks complicate additivity. *Mitigation:* elevate stock accounting to the parent boundary per CC‑B1.6.7.
 
-
 ### B.1.6:12 - Rationale (informative)
 
 Γ\_work is a conservative algebra of **spent resources**. It respects physical conservation (mass/energy), supports information‑centric resources without conflation, and keeps the **design‑time** (MethodDescription) separate from **run‑time** (Work) facts (A.15). Additivity over disjoint boundaries and non‑overlapping phases is the minimal set of rules that yields stable cross‑scale accounting while remaining faithful to the universal invariants of B.1. Emergent efficiency (redundancy, substitution) is not “free”: it is made structural via **Meta‑Holon Transition** (B.2), after which the same algebra applies at the new level.
-
 
 ### B.1.6:13 - Relations
 

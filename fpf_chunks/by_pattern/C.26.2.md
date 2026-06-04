@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.2.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
-line_start: 46470
-line_end: 46815
+line_start: 46366
+line_end: 46707
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,8 +49,8 @@ The pattern supports only a minimal evidence-bound claim. It lets an author say 
 | Working surface | Value |
 | --- | --- |
 | Primary reader | Architect, incident lead, organizational analyst, or manager judging whether coordinated work, behavior, or trace patterns evidence a minimal collective-state reading. |
-| Governed object | An evidence-bound state reading over a declared collective `U.System`. |
-| Governed move | Infer only the minimal carrier-bound and window-bound state claim, name rivals, and state export and probe limits. |
+| Evidence-bound state reading | An evidence-bound state reading over a declared collective `U.System`. |
+| Minimal state-reading move | Infer only the minimal carrier-bound and window-bound state claim, name rivals, and state export and probe limits. |
 | Outside work | Group-mind ontology, survey-as-state, timeless culture claims, ordinary routine claims, and formal measurement not governed by `C.16`. |
 | What changes in practice | The team can use coordinated work, behavior, or trace patterns as evidence without pretending one report faithfully exports the whole state. |
 
@@ -187,11 +187,11 @@ When the distributed-state reading is load-bearing, state the decomposition expl
 | Minimal supported claim | What evidence-bound claim survives for the declared time window and carrier set? |
 | Supported action or use | Which planning, communication, incident, routing, bridge, evidence, or decision move may now be taken without exceeding that minimal claim? |
 
-#### C.26.2:4.6 - Governed object and claim floor
+#### C.26.2:4.6 - Evidence-bound state reading and claim floor
 
-The governed object is an evidence-bound `U.Episteme` reading over coordinated work, behavior, or trace patterns by a declared collective `U.System`. The pattern does not govern an inner group entity, a culture substance, a market mind, a hidden service intelligence, or a reusable kernel state kind.
+The evidence-bound state reading is an evidence-bound `U.Episteme` reading over coordinated work, behavior, or trace patterns by a declared collective `U.System`. The pattern does not govern an inner group entity, a culture substance, a market mind, a hidden service intelligence, or a reusable kernel state kind.
 
-The governed move is to turn coordinated work, behavior, or trace patterns into the minimal useful state reading while keeping the reading bound to:
+The minimal state-reading move is to turn coordinated work, behavior, or trace patterns into the minimal useful state reading while keeping the reading bound to:
 
 - the collective bearer and its boundary;
 - the observed work and evidence carriers;
@@ -299,7 +299,6 @@ The ordinary EDSE claim is minimal but actionable. It says: "this coordinated wo
 
 ### C.26.2:5 - Archetypal Grounding
 
-
 Tell: During an incident, several teams independently stop non-critical releases, reroute support, and prepare rollback evidence before any single manager issues a written decision. Later, a survey asks whether "we had decided to freeze release", and answers conflict.
 
 Show, System side: the collective bearer is the incident-response organization during a declared incident window. Its carriers include deployment logs, meeting records, escalation messages, rollback preparation, support routing, and release queue changes.
@@ -333,7 +332,6 @@ It also biases authors to keep primary grounding in distributed cognition, team 
 
 ### C.26.2:8 - Common Anti-Patterns and How to Avoid Them
 
-
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Group mind claim | The text says the team, market, service, or organization knows or wants something. | Rewrite as an evidence-bound state reading over a collective bearer during a window. |
@@ -357,7 +355,6 @@ Existing FPF patterns can carry parts of the support requirement, but no single 
 | Pattern claim | Practice source | Pattern implication | Adoption stance |
 | --- | --- | --- | --- |
 | Coordinated work can evidence state-like organization without reducing that state to one participant report. | [Representing distributed cognition in socio-technical systems](https://www.sciencedirect.com/science/article/abs/pii/S2405896316321164), team cognition, shared mental models, transactive memory, [organizational routine dynamics resources](https://routines.broad.msu.edu/resources), work traces, and socio-technical systems. | Make these the primary grounding; infer only minimal evidence-bound state readings from carriers, traces, and work. | Adapt as primary non-QL grounding. |
-
 | Probe/export conditions can change or thin the state reading. | [Quantum-like modeling in biology with open quantum systems and instruments](https://www.sciencedirect.com/science/article/pii/S0303264720301994) / [arXiv](https://arxiv.org/abs/2010.15573) and [Open Systems, Quantum Probability, and Logic for Quantum-like Modeling in Biology, Cognition, and Decision-Making](https://www.mdpi.com/1099-4300/25/6/886). | Activate QL only when probing, formalizing, exporting, or bridging changes or loses load-bearing structure. | Adapt as secondary modeling support. |
 | Contextual judgment and previous judgments can alter the state being reported. | [Quantum Cognition](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-033020-123501). | Treat surveys, interviews, reports, and dashboards as possible probes of enacted state, not faithful copies by default. | Use as probe/export caution with ordinary evidence routes. |
 | Some sequential data can be carried by classical instrument models. | [Quantum-like Cognition in Process Theories: An Analysis](https://arxiv.org/abs/2604.08604). | Keep non-necessity visible: EDSE is a useful FPF evidence pattern, not proof that only QL formalism works. | Use as rival-model discipline. |
@@ -372,7 +369,6 @@ Worked-slice discipline from these rows:
 - escalate to measurement, evidence, assurance, or authority patterns when the use requires measurement, evidence, assurance, or authority support.
 
 ### C.26.2:12 - Relations
-
 
 - Builds on: `C.26`, `A.15`, `A.10`, `B.3`, `F.9`, `C.16`, `E.17.EFP`, `C.11`.
 - Coordinates with: `C.26.1` when the probe changes the state being evidenced; `C.26.3` when the coordinated state is part of viability-envelope regulation.

@@ -6,12 +6,12 @@ section_id: "E.10.D1:1"
 section_title: "Intent & Applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__002_intent-applicability.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:1 — Intent & Applicability"
-line_start: 58485
-line_end: 58493
+line_start: 59624
+line_end: 59631
 dependencies:
   - "A.4"
   - "A.7"
@@ -40,5 +40,4 @@ keywords:
 **Applicability.** Mandatory across **all FPF patterns** (Role Assignment & Enactment, Sys-CAL, KD-CAL, Kind-CAL, planned LCA-CAL). Apply at the start of any unification effort and whenever documentation introduces or refactors “context”, “domain”, “anchor”.
 
 **Non‑goals.** No governance, workflow, or tool mandates; no storage formats; no team roles.
-
 

@@ -6,12 +6,12 @@ section_id: "A.2.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
   - "A.2.1:2 — Problem"
-line_start: 1754
-line_end: 1762
+line_start: 1753
+line_end: 1760
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -38,5 +38,4 @@ keywords:
 3. **Actor vagueness.** Work logs state that things happened but not **who, in what capacity**, under which **local rules**.
 4. **Category leaks.** Documents “do” tasks; deontic statuses are treated like run‑time states; capabilities are confused with permissions.
 5. **Role chains.** Attempting “System ↦ TransformerRole ↦ AgentRole” hides intent and smuggles taxonomy into the data plane.
-
 

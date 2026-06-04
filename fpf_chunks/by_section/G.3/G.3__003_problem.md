@@ -6,12 +6,12 @@ section_id: "G.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:2 — Problem"
-line_start: 77071
-line_end: 77082
+line_start: 77666
+line_end: 77677
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -62,7 +62,7 @@ Without a disciplined CHR authoring layer, teams repeatedly produce “measurabl
 * **Illicit arithmetic** (e.g., averaging ordinals, mixing units, laundering polarity).
 * **Hidden normalizations** that silently change scale type, polarity, or admissible transforms.
 * **Unreproducible comparisons** (missing edition pins for methods/distances/policies; unclear reference plane).
-* **Unscoped reuse** (no explicit bridge and loss notes; unclear `describedEntity` changes).
+* **Unscoped reuse** (no explicit bridge and loss notes; unclear `entityOfConcern` changes).
 * **Un-auditable aggregation** (no explicit legality surface and guard surface; no proof hooks; unclear Γ‑fold governing-definition assignment).
 * **Refresh chaos** (changes in names/editions/policies do not map to typed RSCR causes).
 

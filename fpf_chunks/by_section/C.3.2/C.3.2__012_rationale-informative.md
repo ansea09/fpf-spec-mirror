@@ -6,12 +6,12 @@ section_id: "C.3.2:11"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__012_rationale-informative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:11 — Rationale (informative)"
-line_start: 37897
-line_end: 37913
+line_start: 37909
+line_end: 37924
 dependencies:
   - "C.3.1"
   - "C.3.3"
@@ -40,5 +40,4 @@ Because rigor in the **definition of a kind** materially affects how safely team
 #### C.3.2:11.3 - Why **determinism** and **fail‑closed**?
 
 Guards must be **reproducible** and **auditable**: same `slice` ⇒ same membership result. If inputs are missing (undefinedness), the safest default is **deny** (fail closed), prompting either a richer slice or a scope/claim change.
-
 

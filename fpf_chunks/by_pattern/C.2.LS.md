@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.LS.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
-line_start: 35746
-line_end: 35988
+line_start: 35834
+line_end: 36075
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,7 +45,6 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state facet profile.
-
 
 ### C.2.LS:1 - Problem frame
 Once position claims in the declared language-state chart over `U.CharacteristicSpace` must be published and compared, teams need one thin profile bundle that keeps the relevant facets visible as one explicit facet profile without turning that profile into a second characteristic calculus or a surrogate maturity progression.

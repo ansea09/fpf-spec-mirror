@@ -6,12 +6,12 @@ section_id: "D.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__005_solution.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
   - "D.5:4 — Solution"
-line_start: 53554
-line_end: 53650
+line_start: 54668
+line_end: 54762
 dependencies:
   - "B.3"
   - "B.3.3"
@@ -87,7 +87,6 @@ The Bias-Audit Cycle produces two key records that serve as the auditable record
 
 When a fairness claim is causal rather than metric-only, `D.5` records the ethical-audit question and cites `C.28` for causal-use support:
 
-
 ```text
 CausalFairnessUseAuditCard {
   causalUseQuestionRef: U.CausalUseQuestion
@@ -124,5 +123,4 @@ Fairness escalation rule: interventional-action proxy may support bounded interv
 What changes in practice: a fairness audit must say whether the claim is associative, interventional, or counterfactual, and a counterfactual fairness claim must carry the causal-use question, comparator/counterfactual, permitted paths, prohibited paths, causal evidence support basis, causal identification or counterfactual sampling realizability, causal-use support verdict, and supported fairness use and unsupported fairness use.
 
 What this does not authorize: `D.5` does not replace `C.28` for causal-use question, causality-ladder rung, estimand, identification, realizability, or `CausalUseSupportVerdict`; it keeps ethical audit and fairness assurance, while `B.3` keeps assurance claim support and non-admissible-use consequences.
-
 

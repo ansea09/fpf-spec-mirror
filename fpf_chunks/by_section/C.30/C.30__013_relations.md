@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Architecture Description Adequacy (ADA)"
+pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
 section_id: "C.30:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__013_relations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "C.30 — Architecture Description Adequacy (ADA)"
+  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:12 — Relations"
-line_start: 51909
-line_end: 51916
+line_start: 51716
+line_end: 51723
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,10 +30,12 @@ dependencies:
   - "C.25"
   - "C.28"
   - "C.29"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
+  - "C.30.STRAT"
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.D2"
@@ -47,9 +49,10 @@ dependencies:
 keywords:
   - "ArchitectureOf@Context"
   - "architecture claim"
-  - "architecture description"
   - "architecture question card"
+  - "architecture-description boundary"
   - "artifact-as-architecture guard"
+  - "grounded architecture"
   - "selected structure"
 ---
 
@@ -57,7 +60,7 @@ keywords:
 
 Builds on: `A.22`, `C.30.P`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D2`, `E.17.0`, `E.17.1`, `E.17`, `E.17.2`, `A.6.P`, `F.18`, `E.10`, and `C.2.P`.
 
-Coordinates with: `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named receiving patterns for architecture decision and candidate-set claims when those claim kinds are live.
+Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named receiving patterns for architecture decision and candidate-set claims when those claim kinds are live.
 
-Does not replace: A.22 structure carrier, C.30.ASV structural-view adequacy, E.TGA graph/path/crossing discipline, C.29 mathematical-lens adequacy, C.16 characterization, C.25 Q-Bundles, C.28 causal-use support, A.10/G.6 evidence, B.3 assurance, A.20/A.21 gate/release records, A.15 work, C.11 decisions, or E.17 publication.
+Does not replace: A.22 selected-structure EntityOfConcern; C.30.STRAT stratification-wording repair and source-label repair; C.30.ASV structural-view adequacy; E.TGA graph, path, and crossing discipline; C.29 mathematical-lens use; C.16 characterization; C.25 Q-Bundles; C.28 causal-use relation; A.10 and G.6 evidence; B.3 assurance; A.20 and A.21 gate or release records; A.15 work; C.11 decisions; or E.17 publication.
 

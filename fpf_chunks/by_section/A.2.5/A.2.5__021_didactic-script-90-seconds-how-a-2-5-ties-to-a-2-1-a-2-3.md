@@ -6,12 +6,12 @@ section_id: "A.2.5:20"
 section_title: "Didactic script (90 seconds): how A.2.5 ties to A.2.1 & A.2.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__021_didactic-script-90-seconds-how-a-2-5-ties-to-a-2-1-a-2-3.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:20 — Didactic script (90 seconds): how A.2.5 ties to A.2.1 & A.2.3"
-line_start: 4004
-line_end: 4016
+line_start: 3948
+line_end: 3959
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -40,5 +40,4 @@ keywords:
 > Different Contexts may use the same role labels. We never assume global meaning; we relate Contexts with **Bridges** that map states and record losses.
 >
 > Keep each RSG **on one screen**, with **observable** checklists. If you’re writing task order, you’ve slipped into method-order description—move it to `U.MethodDescription`. If you’re writing opinions, convert them into **observables** or drop them. That’s the whole trick.”\*
-
 

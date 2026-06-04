@@ -6,12 +6,12 @@ section_id: "C.3.4:6"
 section_title: "Norms & Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__007_norms-invariants-normative.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:6 — Norms & Invariants (normative)"
-line_start: 38257
-line_end: 38304
+line_start: 38250
+line_end: 38296
 dependencies:
   - "C.3.1"
   - "C.3.2"
@@ -68,5 +68,4 @@ keywords:
 Penalties **MUST** route to **R**: `Ψ(CLᵏ)` for kind, plus any **Φ(CL)** for scope bridge.
 
 **RM‑10 (Definedness & fail‑closed).** Mask evaluation **SHALL** state its definedness area; outside it, guards **fail closed**.
-
 

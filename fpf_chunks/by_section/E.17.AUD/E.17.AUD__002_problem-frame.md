@@ -6,12 +6,12 @@ section_id: "E.17.AUD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__002_problem-frame.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:1 — Problem frame"
-line_start: 63795
-line_end: 63811
+line_start: 64668
+line_end: 64684
 dependencies:
   - "A.10"
   - "A.15"
@@ -27,7 +27,6 @@ dependencies:
   - "C.11"
   - "C.2.1"
   - "C.2.2a"
-  - "C.2.P"
   - "E.10"
   - "E.14"
   - "E.17"
@@ -46,16 +45,16 @@ keywords:
 
 **Anti-single-sequence note.** The publication-unit checks, recognition matrix, and worked slices below are working aids for one publication unit under review. They are not a fixed engineering process and not a promise that every admissible case moves through one mandatory sequence.
 
-This pattern is for real publication units used in review, design, architecture, coordination, onboarding, and similar reading situations. It is for the moment when one publication unit still sounds like one unchanged note even after its described entity, carried publication move, or downstream claim or effect has already changed.
+This pattern is for real publication units used in review, design, architecture, coordination, onboarding, and similar interpretation situations. It is for the moment when one publication unit still sounds like one unchanged note even after its primary EntityOfConcern, carried publication move, or downstream claim or effect has already changed.
 
 The recurring defect family is simple:
-- one publication unit begins as if it were about one described entity or claim target;
-- the unit then quietly changes its primary described entity, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim;
+- one publication unit begins as if it were about one primary EntityOfConcern or claim focus;
+- the unit then quietly changes its primary EntityOfConcern, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim;
 - the surrounding team starts repairing different defect families at once because nobody first named the active publication-unit problem situation.
 
 Typical moments include:
-- an episteme-publication-heavy note where one broad local lexical head starts carrying more load than the sentence restored;
-- an architecture or status memo that starts about one bounded described entity or question and ends by sounding like rollout or approval work;
+- an episteme-publication-heavy note where one broad local lexical head starts carrying more semantic work than the sentence restored;
+- an architecture or status memo that starts about one bounded primary EntityOfConcern or question and ends by sounding like rollout or approval work;
 - a comparison sheet that is already stable enough locally, but is still being overworked as if it needed full publication-unit stabilization;
 - an onboarding aid, dashboard card, or review note that quietly shifts into explanation, policy, or decision language while still sounding like one unchanged unit.
 

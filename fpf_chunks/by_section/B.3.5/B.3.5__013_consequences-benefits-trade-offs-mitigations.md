@@ -6,12 +6,12 @@ section_id: "B.3.5:12"
 section_title: "Consequences (benefits, trade‑offs, mitigations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__013_consequences-benefits-trade-offs-mitigations.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:12 — Consequences (benefits, trade‑offs, mitigations)"
-line_start: 31861
-line_end: 31879
+line_start: 31981
+line_end: 31998
 dependencies:
   - "B.3"
   - "C.13"
@@ -42,5 +42,4 @@ keywords:
 
 > **One‑line takeaway for managers.**
 > CT2R lets you **talk in natural, domain‑meaningful relations** while preserving a clear, optional path to formal grounding and empirical checking—so confidence can grow deliberately without dragging your model into tooling or syntax.
-
 

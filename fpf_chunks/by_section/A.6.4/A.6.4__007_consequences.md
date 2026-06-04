@@ -1,42 +1,37 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "U.EpistemicRetargeting — describedEntity‑retargeting morphism"
+pattern_title: "U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
 section_id: "A.6.4:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__007_consequences.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
-  - "A.6.4 — U.EpistemicRetargeting — describedEntity‑retargeting morphism"
+  - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:6 — Consequences"
-line_start: 11905
-line_end: 11923
+line_start: 11751
+line_end: 11769
 dependencies:
-  - "A.1"
   - "A.6.2"
+  - "A.6.3"
+  - "A.6.5"
+  - "A.7"
   - "C.2"
   - "C.2.1"
+  - "C.3"
+  - "E.10.D2"
   - "E.18"
-  - "E.TGA"
   - "F.9"
-  - "U.EpistemeSlotGraph"
-  - "U.EpistemicRetargeting"
 keywords:
-  - "KindBridge"
-  - "SquareLaw-retargeting"
-  - "StructuralReinterpretation"
-  - "describedEntity shift"
-  - "retargeting"
-  - "subject retargeting"
 ---
 
 ### A.6.4:6 - Consequences
 
 * **Clear separation of Viewing vs Retargeting.**
   A.6.3 and A.6.4 now jointly distinguish:
-  * **views**: same `DescribedEntityRef`, possible representation/viewpoint changes;
-  * **retargetings**: different `DescribedEntityRef` under `KindBridge` and invariants.
+  * **views**: same `EntityOfConcernRef`, possible representation/viewpoint changes;
+  * **retargetings**: different `EntityOfConcernRef` under `KindBridge` and invariants.
 
 * **Canonical governing pattern for StructuralReinterpretation.**
   E.TGA StructuralReinterpretation becomes a **species of `U.EpistemicRetargeting`**, not an ad‑hoc special node. This reduces duplication and clarifies how CL penalties and Bridges are used.
@@ -47,6 +42,6 @@ keywords:
 * **Safer cross‑plane reasoning.**
   ReferencePlane crossings and kind‑level moves are handled via existing Bridges (Part F), with CL^plane/CL^k penalties and SquareLaw witnesses, instead of hidden in implementation details.
 
-* **Better integration with I/D/S.**
-  For `…Description`/`…Spec` epistemes, retargeting is the only place where `DescribedEntityRef` in `DescriptionContext` is allowed to change; all other I/D/S‑level operations (Describe/Specify, Viewing) keep it fixed.
+* **Better integration with EntityOfConcern and Description-episteme boundary and specification-use gate.**
+  For `…Description`/`…Spec` epistemes, retargeting is the only place where `EntityOfConcernRef` in `DescriptionContext` is allowed to change; all other EntityOfConcern and Description-episteme boundary and specification-use operations (Describe, specification-use refinement, Viewing) keep it fixed.
 

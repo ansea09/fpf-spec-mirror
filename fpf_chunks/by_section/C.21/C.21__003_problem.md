@@ -6,12 +6,12 @@ section_id: "C.21:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__003_problem.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:2 — Problem"
-line_start: 43207
-line_end: 43214
+line_start: 43111
+line_end: 43118
 dependencies:
   - "A.17"
   - "A.18"
@@ -45,5 +45,5 @@ Narrative health claims cause three recurrent failure modes:
 
 1. **Illegality.** Averaging ordinals, mixing units, or comparing incommensurate Contexts ⇒ nonsense roll-ups.
 2. **Staleness.** Health “scores” rarely declare **freshness windows** or evidence lanes (TA/VA/LA).
-3. **Scope slippage.** “The field” is left implicit; cross-Context reuse lacks **Bridges & CL**, leading to silent semantic loss. Any numeric comparison/aggregation MUST cite a **CG‑Spec** row (characteristics, lawful **ScaleComplianceProfile (SCP)**, **Γ‑fold**, MinimalEvidence) before computation.
+3. **Scope slippage.** “The field” is left implicit; cross-Context reuse lacks **Bridges & CL**, leading to silent semantic loss. Any numeric comparison or aggregation cites a **CG-Spec** row (characteristics, **ScaleComplianceProfile (SCP)**, **Γ-fold**, MinimalEvidence) before computation.
 

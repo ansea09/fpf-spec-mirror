@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
-line_start: 43406
-line_end: 43620
+line_start: 43330
+line_end: 43544
 dependencies:
   - "C.16"
   - "C.18"
@@ -33,7 +33,7 @@ keywords:
 
 ## C.22 - Problem Typing & TaskSignature Assignment (Problem-CHR)
 
-**Purpose.** Give FPF an **admissible, minimal, and portable** way to type a problem for downstream selector-facing use after the problem-side representation is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2`-governed use carries the first problem-framing record for a messy signal; `C.22`-governed use attaches the stabilized problem to CHR-grounded traits and a minimal `TaskSignature (S2)` record for downstream selector-facing use. The `TaskSignature` attachment is **Context-local**, evidence-anchored, tri-state-aware, and bridge-visible. TaskSignature is *minimal* but sufficient for **eligibility**, **acceptance**, and **policy-governed** choice.
+**Purpose.** Give FPF an **admissible, minimal, and portable** way to type a problem for downstream selector-facing use after the problem-side representation is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2`-selector-facing use carries the first problem-framing record for a messy signal; `C.22`-selector-facing use attaches the stabilized problem to CHR-grounded traits and a minimal `TaskSignature (S2)` record for downstream selector-facing use. The `TaskSignature` attachment is **Context-local**, evidence-relation-traceable, tri-state-aware, and bridge-visible. TaskSignature is *minimal* but sufficient for **eligibility**, **acceptance**, and **policy-governed** choice.
 
 **Status & placement.** Part C (Kernel Extensions Specifications) → Cluster C.I (Core CHRs/CALs).
 **Depends on:** **C.16 MM‑CHR** (measurement admissibility), **G.5** (selector S2/S3), **G.0** (CG‑Spec invariants).
@@ -41,30 +41,30 @@ keywords:
 
 ### C.22:1 - Intent
 
-Operationalise No-Free-Lunch discipline in selection by making every run-time decision against a **typed TaskSignature (S2)**, not a paragraph. A problem reaches `C.22` when its problem-side representation is stable enough for a selector-facing typed anchor; a task or work target is ready for selection only when that anchor can attach to a declared `TaskKind`, task family, or work target without pre-binding a method. Method absence, method contestability, or method-family ambiguity is a common practical cue for this transition, but it is not the ontology of problemhood. The signature is the **smallest CHR-typed set** sufficient to drive **Eligibility -> Acceptance -> policy-governed selection** without inadmissible arithmetic or silent coercions; crossings are reviewable (Bridge+CL -> **R_eff only**).
+Operationalise No-Free-Lunch discipline in selection by making every run-time decision against a **typed TaskSignature (S2)**, not a paragraph. A problem reaches `C.22` when its problem-side representation is stable enough for a selector-facing typed attachment record; a task or work target is ready for selection only when that attachment can be made to a declared `TaskKind`, task family, or work target without pre-binding a method. Method absence, method contestability, or method-family ambiguity is a common practical cue for this transition, but it is not the ontology of problemhood. The signature is the **smallest CHR-typed set** sufficient to drive **Eligibility -> Acceptance -> policy-governed selection** without inadmissible arithmetic or silent coercions; crossings are reviewable (Bridge+CL -> **R_eff only**).
 
 #### C.22:1.1 - Term split used in this pattern
 
 - `TaskSignature` attachment means attaching one typed problem record to one declared task family or work target; it does **not** pre-bind a method.
-- `ScopeSlice(G)` means the claim-bounding scope cut over `describedEntity` and scope; it is not an evidence-path slice and not a baseline-set slice.
+- `ScopeSlice(G)` means the claim-bounding scope cut over `EntityOfConcernRef` and scope; it is not an evidence-path slice and not a baseline-set slice.
 - `threshold` is not one undifferentiated family here:
   - articulation and closure thresholds stay with cue or prompt governing patterns such as `B.4.1` and `B.5.2.0`
   - acceptance-gate thresholds stay with `G.4`
   - the work-measure threshold target used in specialization claims is only the declared success mark for the current task family or work target
 #### C.22:1.2 - ProblemCard@Context relation
 
-`ProblemCard@Context` is the `C.22.2`-governed problem-side record shape for stabilizing one context-bound problem representation before downstream Principles-to-Work (P2W).
+`ProblemCard@Context` is the `C.22.2`-problem-side record-side record shape for stabilizing one context-bound problem representation before downstream Principles-to-Work (P2W).
 
 A `ProblemCard@Context` record can be used to prepare `ProblemProfile`, `TaskKind`, or candidate `TaskSignature` material for later use. Binding to one `TaskSignature` is admissible only when the downstream selector-facing object is ready. If several downstream signatures remain plausible, keep them as candidate signatures rather than binding one chosen `TaskSignature`.
 
-This relation does not move problem-card fields into `TaskSignature`. `TaskSignature` remains the minimal `C.22` anchor for eligibility, acceptance, and selection. `ProblemCard@Context` remains the reviewable problem-side record that carries the reason this problem, in this context, can proceed to P2W, characterization, comparison, search, refresh, retirement, or another receiving pattern.
+This relation does not move problem-card fields into `TaskSignature`. `TaskSignature` remains the minimal `C.22` attachment record for eligibility, acceptance, and selection. `ProblemCard@Context` remains the reviewable problem-side record that carries the reason this problem, in this context, can proceed to P2W, characterization, comparison, search, refresh, retirement, or another receiving pattern.
 
 The corresponding claims are governed by their named receiving patterns.
 
 ### C.22:2 - Problem Frame (DesignRunTag split; crossing-visible)
 
 **Selector-facing problem case**
-For selector-facing `C.22` use, a problem case is live when the problem-side representation is stable enough to attach or emit a minimal `TaskSignature` for eligibility, acceptance, and policy-governed selection. Method absence, method contestability, or method-family ambiguity is a common downstream reason for `C.22` use, but it is not the only reason a `ProblemCard@Context` may be needed upstream. `C.22` therefore does not define problemhood by method absence; it defines the downstream typed anchor used once problem-side readiness is truthful. When the live question is still a symptom, contested framing, stale context, set-derived candidate, opportunity cue, or preselected work item, use `C.22.2` before binding one chosen `TaskSignature`. When selection or synthesis of a method becomes live, strategy or policy is governed by `G.5` and `E/E-LOG`; `C.22` use does not introduce a strategy or policy kernel type.
+For selector-facing `C.22` use, a problem case is live when the problem-side representation is stable enough to attach or emit a minimal `TaskSignature` for eligibility, acceptance, and policy-governed selection. Method absence, method contestability, or method-family ambiguity is a common downstream reason for `C.22` use, but it is not the only reason a `ProblemCard@Context` may be needed upstream. `C.22` therefore does not define problemhood by method absence; it defines the downstream typed attachment record used once problem-side readiness is truthful. When the live question is still a symptom, contested framing, stale context, set-derived candidate, opportunity cue, or preselected work item, use `C.22.2` before binding one chosen `TaskSignature`. When selection or synthesis of a method becomes live, strategy or policy is governed by `G.5` and `E/E-LOG`; `C.22` use does not introduce a strategy or policy kernel type.
 **Unknown‑first discipline.** Author S2 with `unknown` traits rather than coercions; **SoS‑LOG** branches MUST specify `{admit|degrade|abstain|sandbox}` handling for `unknown` via closed enums registered at UTS.
 
 Un‑typed "problems" collapse into **informal prose**; selectors cannot **filter or abstain** admissibly; acceptance-gate thresholds leak into scoring; cross‑Context reuse is by name, not Bridge. We need a Context‑local descriptor that (i) obeys **MM‑CHR admissibility** (Scale/Unit/Polarity proven before any aggregation), (ii) records **Assurance lanes (TA/VA/LA)** per **A.10** and **ReferencePlane**, (iii) carries **tri‑state unknowns** explicitly, and (iv) records crossing attestations (**BridgeCard + UTS row**) with **Φ(CL)/Φ_plane** policy‑ids.
@@ -96,11 +96,11 @@ Without typed descriptors, **Eligibility and Acceptance** degenerate into prose;
 * **`Constraints`** — explicit hard and soft constraint classes (feasibility predicates; **ResourceEnvelope** and **RiskEnvelope**). **Acceptance-gate thresholds live in `G.4` only; never inside CHR or code paths.**
 * `ShiftClass` and stationarity — CHR‑typed claims about regime stability (iid | covariate‑shift | concept‑drift | adversarial). Default=`unknown`. Acceptance or flow use is governed by this field in gating; otherwise abstain.
 * `EvidenceGraphRef (A.10)` — carriers & **lane tags (TA/VA/LA)** with **freshness windows**; **no self‑evidence**; default Γ‑fold = **weakest‑link** unless CAL proves an alternative.
-* `ScopeSlice(G)` — the **USM claim-bounding scope cut** over **describedEntity and scope** (discipline governance in **CG‑Spec**; Domain is a catalog mark only).
+* `ScopeSlice(G)` — the **USM claim-bounding scope cut** over **EntityOfConcernRef and scope** (discipline governance in **CG‑Spec**; Domain is a catalog mark only).
 * `Size/Scale` — size and condition proxies (**n, m, κ, sparsity**) with **declared units**; unit mismatch ⇒ {sandbox|refuse}.
 * **`Freshness`** — validity window for descriptors.
 * `Missingness` — **MCAR, MAR, or MNAR** (or mapped equivalents) per **CHR.Missingness**; MUST be honoured by Acceptance and Flows.
-* `KindSet` — **`U.Kind[]`** for the described entities addressed by the TaskKind; separates **describedEntity Kind** from **Scope (USM)**.
+* `KindSet` — **`U.Kind[]`** for the selected entities addressed by the TaskKind; separates **EntityOfConcern kind** from **Scope (USM)**.
 
 **QD and Illumination extensions (normative; ties to C.18 and C.19).**
 
@@ -120,21 +120,21 @@ Use this extension block only when QD, illumination archive, set-return, or OEE 
 **Admissibility.** Before any numeric comparison or aggregation, **prove CSLC admissibility** (Scale, Unit, Polarity) and **cite CG‑Spec.Characteristics**; record **ReferencePlane**. **Unknowns** propagate as {degrade|abstain|sandbox}; **no `unknown→0/false` coercions**.
 
 #### C.22:5.2 - TaskSignature (S2) — attachment definition (design‑time + run‑time).
-A TaskSignature is the minimal typed record read by selector-facing use:
+A TaskSignature is the minimal typed record consumed by selector-facing use:
 `⟨Context, TaskKind, TaskFamilyRef?, KindSet:U.Kind[], DataShape, NoiseModel, ObjectiveProfile, Constraints{incl. Resource/Risk Envelopes}, ScopeSlice(G), EvidenceGraphRef, Size/Scale, Freshness, Missingness, ShiftClass?, BehaviorSpaceRef?, ArchiveConfig?, EmitterPolicyRef?, DominanceRegime?, PortfolioMode?, Budgeting?, TelemetryHooks?, GeneratorIntent?⟩`
 
 **Minimality rule.** S2 carries only fields required for **Eligibility→Acceptance→admissible selection**; any additional traits derived at design‑time are recorded as provenance (UTS) but **do not expand S2**.
 
 Values are **CHR‑typed** with **provenance**; traits may be **inferred** from CHR and CAL bindings (e.g., *convexity known? differentiable? ordinal vs interval scales?*) and from **USM** scope metadata. Unknowns are tri‑state; **Missingness semantics MUST align with CHR.Missingness** and be honored by Acceptance and Flows.
 
-`TaskKind` names the governing kind of work or problem under this context. `TaskFamilyRef?` names one comparison-relevant family inside that task kind when specialization, transfer, or parity question is live. `TaskSignature` is the context-bound typed attachment record for one current case under that kind and scope cut. `KindSet` continues to name the described entities governed by the task kind; it is not a substitute for the task family anchor.
+`TaskKind` names the governing kind of work or problem under this context. `TaskFamilyRef?` names one comparison-relevant family inside that task kind when specialization, transfer, or parity question is live. `TaskSignature` is the context-bound typed attachment record for one current case under that kind and scope cut. `KindSet` continues to name the selected entities addressed by the task kind; it is not a substitute for the task-family reference.
 
 **DesignRunTag hygiene.** Do not mix DesignRunTag in one signature; record **GateCrossings** as **CrossingBundles** (**E.18**; Bridge+UTS through **F.9**, **F.17**, **E.17**, and **E.18**) when importing design‑time traits into run‑time.
 
-##### C.22:5.2.1 - Specialization-claim anchoring (normative)
-Any claim that one holder, dyad, team, or explicitly scoped specialist portfolio acquired usable specialization **SHALL** anchor that claim to one declared `TaskFamilyRef` or `TaskSignature`, one named work-measure threshold target, an adaptation budget, and the freshness or provenance basis for reuse. A method may be selected, refined, or retired as part of that story, but the method is not the bearer of the specialization claim. The attached task-family record should stay rich enough for the same task family and work target to remain admissible in `C.22.1` adaptation signatures, `G.5` specialization profiles, and `G.9` adaptation parity without reconstructing the claim from narrative prose.
+##### C.22:5.2.1 - Specialization-claim reference discipline (normative)
+Any claim that one holder, dyad, team, or explicitly scoped specialist portfolio acquired usable specialization **SHALL** state one declared `TaskFamilyRef` or `TaskSignature`, one named work-measure threshold target, an adaptation budget, and the freshness or provenance basis for reuse. A method may be selected, refined, or retired as part of that story, but the method is not the bearer of the specialization claim. The attached task-family record should stay rich enough for the same task family and work target to remain admissible in `C.22.1` adaptation signatures, `G.5` specialization profiles, and `G.9` adaptation parity without reconstructing the claim from narrative prose.
 
-Low-human-overlap or newly discovered task families remain admissible when those anchors are explicit by value.
+Low-human-overlap or newly discovered task families remain admissible when those task-family or signature references are explicit by value.
 #### C.22:5.3 - Provenance & planes.
 Record **Context** and **ReferencePlane** for each value; on any cross-Context or cross-plane reuse, attach BridgeDescription + UTS row, apply **CL** (and, if planes differ, **CL^plane**) penalties to **R_eff only**; both **Φ(CL)** and (if used) **Φ_plane** MUST be **monotone, bounded, and table‑backed**; **no “distance” language; penalties never mutate F/G.** Record policy‑ids in SCR and cite Bridge ids on crossings.
 
@@ -146,13 +146,13 @@ Record **Context** and **ReferencePlane** for each value; on any cross-Context o
 * When `GeneratorIntent` is present, G.5-governed selection may use a registered **`GeneratorFamily`** (POET‑class); the selection domain becomes **pairs** `{environment, method}`, with Environment guarded by **`EnvironmentValidityRegion`** and **`TransferRulesRef`** (C.23 wiring). Report **`IlluminationSummary`** as a **telemetry summary over `Diversity_P`** (report‑only by default) in telemetry; dominance remains unaffected unless policy changes as above.
 
 #### C.22:5.5 - Unknowns.
-Every field supports `unknown`; downstream **degrade, abstain, or sandbox** behavior is explicit per Acceptance profile or EvidenceProfile; no implicit coercions.
+Every field admits `unknown`; downstream **degrade, abstain, or sandbox** behavior is explicit per Acceptance profile or EvidenceProfile; no implicit coercions.
 
 #### C.22:5.6 - Publication.
-Output a **ProblemProfile** (...Description) that carries the bound TaskSignature, **UTS** Name Cards for any minted values (twin labels), and SCR‑visible provenance (A.10 anchors, lane tags, freshness, **ReferencePlane**). **Mark any vendor or tool examples as Plain‑register only (LEX V‑4); they are non‑normative.**
+Output a **ProblemProfile** (...Description) that carries the bound TaskSignature, **UTS** Name Cards for any minted values (twin labels), and SCR-visible provenance (A.10 evidence relations, lane tags, freshness, **ReferencePlane**). **Mark any vendor or tool examples as Plain‑register only (LEX V‑4); they are non‑normative.**
 
 #### C.22:5.7 - Open‑Ended tasks (GeneratorFamily) *(normative)*.
-If the problem requires **open‑ended generation** of tasks or environments, S2 **SHALL** include `GeneratorIntent` with pointers to **`EnvironmentValidityRegion`** (admissible support of generated environments), **`TransferRulesRef`** (cross‑environment transfer constraints), and **coverage and regret** telemetry expectations. Selector outputs are then declared sets over **{environment, method}**; **coverage and regret** are reported telemetry values and **IlluminationSummary** is a **telemetry summary** (reported), excluded from dominance unless a **CAL** policy promotes them (policy‑id recorded in SCR; see `DominanceRegime`). Edition increments of **CharacteristicSpaceRef.edition**, **DescriptorMapRef.edition**, **DistanceDefRef.edition**, and (OEE) **`TransferRulesRef.edition`**, and the **policy‑id** associated with illumination increases **SHALL** be recorded in SCR.
+If the problem requires **open‑ended generation** of tasks or environments, S2 **SHALL** include `GeneratorIntent` with pointers to **`EnvironmentValidityRegion`** (admissible region for generated environments), **`TransferRulesRef`** (cross‑environment transfer constraints), and **coverage and regret** telemetry expectations. Selector outputs are then declared sets over **{environment, method}**; **coverage and regret** are reported telemetry values and **IlluminationSummary** is a **telemetry summary** (reported), excluded from dominance unless a **CAL** policy promotes them (policy‑id recorded in SCR; see `DominanceRegime`). Edition increments of **CharacteristicSpaceRef.edition**, **DescriptorMapRef.edition**, **DistanceDefRef.edition**, and (OEE) **`TransferRulesRef.edition`**, and the **policy‑id** associated with illumination increases **SHALL** be recorded in SCR.
 
 ### C.22:6 - Archetypal Grounding (Tell–Show–Show)
 
@@ -160,13 +160,13 @@ If the problem requires **open‑ended generation** of tasks or environments, S2
 
 **A. Differential equations (continuous systems, solver choice).**
 *ProblemProfile.* `DataShape=ODE, stiff?=unknown, Size/Scale={n≈10^3}, ObjectiveProfile={↓error@ratio, ↑throughput@ratio}, Constraints={budget≤X, safety_gate@ordinal}, RegularityTraits={Lipschitz known?=unknown, Jacobian sparsity=high}, Missingness=MAR`.
-*Attachment.* Selector reads TaskSignature; **eligibility** filters MethodFamilies that require known stiffness or differentiability (unknown ⇒ **degrade/abstain** per family); **Acceptance** enforces `safety_gate` as **ordinal predicate**, not averaged (ORD\_COMPARE\_ONLY), and budgets with **unit‑aligned sums** (ratio). The selector returns a **Pareto set**; no cross‑ordinal weighting.
+*Attachment.* Selector consumes TaskSignature; **eligibility** filters MethodFamilies that require known stiffness or differentiability (unknown ⇒ **degrade/abstain** per family); **Acceptance** enforces `safety_gate` as **ordinal predicate**, not averaged (ORD\_COMPARE\_ONLY), and budgets with **unit‑aligned sums** (ratio). The selector returns a **Pareto set**; no cross‑ordinal weighting.
 
 **B. Mixed‑integer optimisation (planning and scheduling).**
 *ProblemProfile.* `DataShape=MIP, NoiseModel=deterministic, ObjectiveProfile={↓cost@ratio, ↑service_level@ordinal}, Constraints={SLA hard, workforce soft}, RegularityTraits={convex_relaxation=available}, Size/Scale={vars~10^5}, Missingness=MCAR`.
 *Attachment.* **CG‑Spec** forbids means over **service\_level** (ordinal); **Acceptance** holds acceptance-gate thresholds; **Eligibility** checks convex‑relaxation availability; **Selection** applies **lexicographic** guard (assumption‑fit ≻ evidence‑fit ≻ resource), compute **R\_eff** with Γ‑fold, apply **CL** penalty to **R** only; if partial order remains, return a **Pareto set**.
 
-> *Contemporary anchors (informative):* modern **Julia** ecosystems illustrate a registered outer interface with specialised implementations inside (e.g., DifferentialEquations.jl, JuMP), aligning with C.22→G.5 multi‑method selection under NFL.
+> *Contemporary source references (informative):* modern **Julia** ecosystems illustrate a registered outer interface with specialised implementations inside (e.g., DifferentialEquations.jl, JuMP), aligning with C.22→G.5 multi‑method selection under NFL.
 
 **C. Quality-Diversity archive and declared set (illumination).**
 *ProblemProfile.* `DataShape=policy‑search; ObjectiveProfile={↑reward@ratio, ↑coverage@ratio (report‑only)}, DominanceRegime=ParetoOnly, PortfolioMode=Archive, CharacteristicSpaceRef(d=3, characteristics=CHR‑typed), ArchiveConfig(grid, res=32×32×16, K=1, InsertionPolicyRef=elite‑replace, DistanceDefRef.edition=v1), EmitterPolicyRef=v2, Budgeting{eval=1e6}, TelemetryHooks{PathSliceId=…}`.
@@ -180,7 +180,7 @@ If the problem requires **open‑ended generation** of tasks or environments, S2
 
 * **No minted `U.Type` “Strategy”.** Strategy and policy remain roles inside `G.5`; keep “strategy” as Plain-register wording where it helps recognition, but do not introduce a new `U.Type` or strategy head.
 * **Transdiscipline vs domain.** Comparability flows through **`U.Discipline` CG‑Spec**; “Domain” is a catalog mark stitched to D.CTX + UTS; do **not** attach norms to Domain labels.
-* **Plain twins and head‑anchoring.** Use Description and Spec morphology correctly (I, D, S; E.10.D2).
+* **Plain twins and head selection.** Use Description and Spec morphology correctly (I, D, S; E.10.D2).
 
 ### C.22:8 - Anti‑patterns (normative):
 * **AP‑1** Pre‑binding a Method into S2 (“problem as if task”); **Remedy:** keep S2 method‑agnostic; bind only admissible traits.
@@ -189,17 +189,17 @@ If the problem requires **open‑ended generation** of tasks or environments, S2
 * **AP‑4** **DesignRunTag chimera** signatures (mixing stances).
 * **AP‑5** **Domain** treated as governance (attach governance to **U.Discipline** and **CG‑Spec**, not Domain).
 * **AP‑6** Implicit handling of data‑shift (assume iid); **Remedy:** declare `ShiftClass` (or `unknown`) and gate via Acceptance.
-* **AP‑7** Tool or vendor tokens in normative text; **Remedy:** move to Plain‑register note; keep Tech anchors on CHR and CAL ids (LEX V‑4).
+* **AP‑7** Tool or vendor tokens in normative text; **Remedy:** move to Plain‑register note; keep Tech references on CHR and CAL ids (LEX V‑4).
 
 **Remedies:** tri‑state predicates; admissible order relations (lexi, Pareto, median, or medoid); explicit **GateCrossing** visibility through **CrossingBundle** (BridgeCard + UTS row + `CL/Φ` policy‑ids; **E.18**, **F.9**, **F.17**, **E.17**, and **A.21** where live); Domain stitched to **D.CTX + UTS** only.
 
 ### C.22:9 - Conformance Checklist (normative)
 
 0. **Minimal S2.** S2 contains only fields necessary for Eligibility, Acceptance, and selection; any extra derived traits remain provenance.
-1. **TaskSignature present (S2).** Every exported TaskKind has a TaskSignature with all fields declared and **CHR‑typed**; `unknown` supported for each.
+1. **TaskSignature present (S2).** Every exported TaskKind has a TaskSignature with all fields declared and **CHR‑typed**; `unknown` is an admissible value for each.
 2. **CHR admissibility proven.** Any numeric comparison or aggregation **cites CG‑Spec** by **Characteristic id** and proves **CSLC admissibility**; **no mean on ordinals; no unit mixing**.
 3. **Unknowns propagate.** Unknowns **must** map to {pass|degrade|abstain} in **Acceptance** and **Eligibility**; no implicit coercions; behavior recorded in **SCR**.
-4. **Evidence lanes.** **A.10 anchors** + **Assurance lanes (TA/VA/LA)** + **freshness windows** recorded; **Γ‑fold** default=weakest‑link unless proved otherwise.
+4. **Evidence lanes.** **A.10 evidence relations** + **Assurance lanes (TA/VA/LA)** + **freshness windows** recorded; **Γ‑fold** default=weakest‑link unless proved otherwise.
 5. **ReferencePlane guarded.**  ReferencePlane noted **per value and per ObjectiveProfile head**; on crossings apply **CL** (and **CL^plane** if planes differ); **Φ(CL)/Φ_plane** are **monotone, bounded, table‑backed and documented in the `CG‑Spec`**; penalties → **R_eff only** (F/G invariant).
 6. **Acceptance thresholds live in CAL.** No acceptance-gate thresholds in CHR or code paths; only in **G.4 AcceptanceClauses**.
 7. **Selector admissibility.** Selection uses **admissible (possibly partial) orders**; **weighted sums across mixed scale types are forbidden**; return a **Pareto set** when appropriate.
@@ -215,7 +215,7 @@ If the problem requires **open‑ended generation** of tasks or environments, S2
 17. **Planes.** **ReferencePlane** **SHALL** be declared for all QD heads or characteristics; plane crossings apply **Phi\_plane** (penalty to **R** only).
 18. **Unknowns.** Unknown QD fields **map** to `{degrade|abstain|sandbox}`; no coercions.
 
-19. **Specialization claims anchored.** Any declared specialization on this TaskSignature **SHALL** name the task family/work target, named work-measure threshold target, adaptation budget, freshness or provenance basis for reuse, and enough attachment detail for the same claim to remain admissible in `C.22.1`, `G.5`, and `G.9` use.
+19. **Specialization claims referenced.** Any declared specialization on this TaskSignature **SHALL** name the task family/work target, named work-measure threshold target, adaptation budget, freshness or provenance basis for reuse, and enough attachment detail for the same claim to remain admissible in `C.22.1`, `G.5`, and `G.9` use.
 
 ### C.22:10 - Interfaces & Data Paths
 
@@ -231,12 +231,12 @@ If the problem requires **open‑ended generation** of tasks or environments, S2
 * **QD and OEE-ready.** Typed QD and GeneratorIntent fields make **declared returned-set structure** and **open-ended** generation contexts **explicit**, with admissible dominance, editioned distances, and policy-aware illumination.
 
 ### C.22:12 - Relations
-**Builds on:** **C.16 MM-CHR**, **G.0 CG-Spec**. **Coordinates with:** **G.4 Acceptance**, **G.5 Selector**, **C.18 NQD-CAL**, **C.19 E/E-LOG**, **C.23 Method-SoS-LOG**. **Constrained by:** **E.10 (LEX, I, D, and S)**, **E.18 (GateCrossing visibility and publication gating)**.
+**Builds on:** **C.16 MM-CHR**, **G.0 CG-Spec**. **Coordinates with:** **G.4 Acceptance**, **G.5 Selector**, **C.18 NQD-CAL**, **C.19 E/E-LOG**, **C.23 Method-SoS-LOG**. **Constrained by:** **E.10 (selected `EntityOfConcern`, Description-episteme, specification-use, and publication-lane wording)**, **E.18 (GateCrossing visibility and publication gating)**.
 
-### C.22:13 - Practical reading checks
+### C.22:13 - Practical use checks
 
 - If two candidate approaches are answering different `TaskKind`s or different `ScopeSlice(G)` cuts, a direct comparison is not admissible yet.
-- If specialization is the live specialization question, the task-family anchor, threshold target, adaptation budget, and provenance basis should already be recoverable from the attached `TaskSignature`.
+- If specialization is the live specialization question, the task-family reference, threshold target, adaptation budget, and provenance basis should already be recoverable from the attached `TaskSignature`.
 - If crossing, normalization, or missingness changes what comparison means, state that in the signature and its cited refs rather than hiding it in code, local memory, or later prose.
 - If `QD` or `OEE` heads are in scope, archive and generator fields belong in the same typed signature rather than in a detached explanatory appendix.
 

@@ -6,12 +6,12 @@ section_id: "C.30.P:5a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__008_refresh-and-reopen-conditions.md"
-commit_sha: "16cd31387cff04ab6b0feef22717f82ac54efa8f"
+commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:5a — Refresh and reopen conditions"
-line_start: 52075
-line_end: 52086
+line_start: 52233
+line_end: 52244
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -43,13 +44,13 @@ keywords:
 
 ### C.30.P:5a - Refresh and reopen conditions
 
-Reopen or narrow `C.30.P` when current pattern-language ecology changes the first architecture/structure entry:
+Reopen or narrow `C.30.P` when current pattern-language ecology changes the first architecture or structure entry:
 
-- a new exact `C.30.*`, structural-view, TGA-flow, LCA/control, module/interface, mathematical-lens, characteristic, evidence, assurance, gate, work, decision, causal-use, release, or publication pattern can receive one row directly;
+- a new exact `C.30.*`, structural-view, TGA-flow, LCA or control, module-interface, mathematical-lens, characteristic, evidence, assurance, gate, work, decision, causal-use, release, or publication pattern can receive one row directly;
 - current architecture-description, view, model, decision-record, or architecture-documentation practice changes one adopted distinction in `C.30.P:7`;
-- `J.4` entry projection changes the first practical entry for hidden architecture/structure wording;
-- a receiving pattern starts copying first-stage architecture/structure trigger lists that belong here;
-- `C.30.P` begins to act as a registry of architecture topics rather than a wording-use repair pattern for hidden live objects.
+- `J.4` entry projection changes the first practical entry for hidden architecture or structure wording;
+- a receiving pattern starts copying first-stage architecture or structure trigger lists that belong here;
+- `C.30.P` begins to act as a registry of architecture topics rather than a wording-use repair pattern for hidden selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or exact C.30 subcase.
 
 The refresh action is to remove, narrow, or redirect the first-stage row. It is not to preserve old exits as history.
 
