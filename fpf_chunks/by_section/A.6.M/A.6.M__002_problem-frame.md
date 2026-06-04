@@ -6,12 +6,12 @@ section_id: "A.6.M:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__002_problem-frame.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:1 — Problem frame"
-line_start: 13743
-line_end: 13774
+line_start: 13744
+line_end: 13775
 dependencies:
   - "A.10"
   - "A.20"
@@ -36,14 +36,14 @@ keywords:
   - "claims"
   - "component"
   - "conformance items"
-  - "evidence"
+  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance objects. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication"
+  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
+  - "or publication records"
   - "platform"
   - "port"
   - "records"
@@ -53,7 +53,7 @@ keywords:
 
 ### A.6.M:1 - Problem frame
 
-Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a source label such as "layer" or "stack" is doing the work, apply `C.30.STRAT` first; A.6.M receives the case only when the recovered result is a module-interface relation. Open A.6.M when the live question is whether one holon is being treated as a replaceable, reusable, independently governable, or separately changed structural unit of a larger holon under a declared module-interface viewpoint.
+Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a source label such as "layer" or "stack" is doing the work, apply `C.30.STRAT` first; A.6.M receives the case only when the recovered result is a module-interface relation. Open A.6.M when the live question is whether one holon is being treated as a replaceable, reusable, or separately changed structural unit of a larger holon under a declared module-interface viewpoint.
 
 The first useful move is `ModuleRelationRepairNote`:
 
@@ -75,7 +75,7 @@ ModuleRelationRepairNote:
 
 Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitution or change policy, blocked false interpretation, and neighboring work, procedural, role, or enactor exit are clear enough to choose the next architecture move. Open the fuller `moduleIn(...)` relation record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination is live.
 
-What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a source word such as "layer" or "stack" bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with independent module governance; and a module diagram starts carrying claims that belong elsewhere.
+What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a source word such as "layer" or "stack" bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with separate module change policy; and a module diagram starts carrying claims that belong elsewhere.
 
 What A.6.M buys in practice: the practitioner can repair one module or interface phrase into a module-relation record, see which exact FPF governing pattern carries any remaining non-module claim, and stop before opening full measurement, evidence, or mechanism-suite records.
 

@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e`
+Commit SHA: `3d19010169827708d0bca36d0551af8323908640`
 
 Chunking method: `pattern-aware`
 
-Patterns: `234`
+Patterns: `235`
 
 ## Patterns
 
@@ -164,6 +164,7 @@ Patterns: `234`
 - [C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
 - [C.31 — Modularity and Reusable Structure Characteristics](by_pattern/C.31.md)
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
+- [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)
 - [D.5 — Bias-Audit & Ethical Assurance](by_pattern/D.5.md)
 - [E.1 — Vision & Mission: “Operating System for Thought”](by_pattern/E.1.md)
 - [E.2 — The Eleven Pillars](by_pattern/E.2.md)

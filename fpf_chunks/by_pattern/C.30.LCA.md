@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.LCA.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
-line_start: 53206
-line_end: 53470
+line_start: 53282
+line_end: 53547
 dependencies:
   - "A.10"
   - "A.20"
@@ -304,3 +304,4 @@ This also protects the architecture ontology's EntityOfConcern and Description-e
 Does not replace: `C.30.STRAT` stratification or source-label precision restoration, `C.30` grounded architecture and selected-structure adequacy, `C.30.ASV` architecture structural-view adequacy, `B.2.5` supervisor-subholon feedback-loop discipline, `E.18` graph, path, and crossing discipline, `A.3.3` dynamics claim, `C.27` temporal and rate adequacy, `C.28` causal-use claim, `A.10` or `G.6` evidence claim, `B.3` assurance, `A.20` or `A.21` gate and constraint-validity records, `A.15` work, or `C.29` mathematical-lens use.
 
 ### C.30.LCA:End
+

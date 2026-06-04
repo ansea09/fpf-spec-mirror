@@ -6,12 +6,12 @@ section_id: "F.9:13"
 section_title: "Reasoning primitives (judgement schemas)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__015_reasoning-primitives-judgement-schemas.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:13 — Reasoning primitives (judgement schemas)"
-line_start: 72118
-line_end: 72175
+line_start: 72475
+line_end: 72532
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

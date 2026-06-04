@@ -6,12 +6,12 @@ section_id: "F.8:15"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__017_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:15 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 71767
-line_end: 71783
+line_start: 72124
+line_end: 72140
 dependencies:
   - "A.11"
   - "A.7"

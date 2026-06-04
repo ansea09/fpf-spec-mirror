@@ -6,12 +6,12 @@ section_id: "B.1.6:12"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__013_rationale-informative.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:12 — Rationale (informative)"
-line_start: 30151
-line_end: 30154
+line_start: 30157
+line_end: 30160
 dependencies:
   - "A.12"
   - "A.14"

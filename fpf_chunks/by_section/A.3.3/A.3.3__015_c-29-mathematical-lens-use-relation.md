@@ -6,12 +6,12 @@ section_id: "A.3.3:12a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:12a — C.29 mathematical-lens use relation"
-line_start: 6520
-line_end: 6523
+line_start: 6521
+line_end: 6524
 dependencies:
   - "A.19"
   - "B.4"

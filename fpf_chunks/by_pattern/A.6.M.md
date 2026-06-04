@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.M.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.6.M — Module Relation Repair"
-line_start: 13737
-line_end: 14052
+line_start: 13738
+line_end: 14058
 dependencies:
   - "A.10"
   - "A.20"
@@ -35,14 +35,14 @@ keywords:
   - "claims"
   - "component"
   - "conformance items"
-  - "evidence"
+  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance objects. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication"
+  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
+  - "or publication records"
   - "platform"
   - "port"
   - "records"
@@ -58,7 +58,7 @@ keywords:
 
 ### A.6.M:1 - Problem frame
 
-Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a source label such as "layer" or "stack" is doing the work, apply `C.30.STRAT` first; A.6.M receives the case only when the recovered result is a module-interface relation. Open A.6.M when the live question is whether one holon is being treated as a replaceable, reusable, independently governable, or separately changed structural unit of a larger holon under a declared module-interface viewpoint.
+Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a source label such as "layer" or "stack" is doing the work, apply `C.30.STRAT` first; A.6.M receives the case only when the recovered result is a module-interface relation. Open A.6.M when the live question is whether one holon is being treated as a replaceable, reusable, or separately changed structural unit of a larger holon under a declared module-interface viewpoint.
 
 The first useful move is `ModuleRelationRepairNote`:
 
@@ -80,7 +80,7 @@ ModuleRelationRepairNote:
 
 Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitution or change policy, blocked false interpretation, and neighboring work, procedural, role, or enactor exit are clear enough to choose the next architecture move. Open the fuller `moduleIn(...)` relation record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination is live.
 
-What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a source word such as "layer" or "stack" bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with independent module governance; and a module diagram starts carrying claims that belong elsewhere.
+What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a source word such as "layer" or "stack" bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with separate module change policy; and a module diagram starts carrying claims that belong elsewhere.
 
 What A.6.M buys in practice: the practitioner can repair one module or interface phrase into a module-relation record, see which exact FPF governing pattern carries any remaining non-module claim, and stop before opening full measurement, evidence, or mechanism-suite records.
 
@@ -114,7 +114,7 @@ The practical question is: does this phrase name a module relation, a component 
 | Interface label vs interface specification | An API name, port label, connector label, or signature may substantiate an interface claim, but it is not by itself substitutability or conformance. |
 | Function-flow-module proximity vs false identity | Functions, E.18 flow relations, control relations, mechanisms, and module interfaces often meet at the same artifact, but each has a different governing pattern. |
 | Open architecture payoff vs open label overread | MOSA and open-system practice make open interfaces useful only with standards, conformance expectations, replacement or change policy, and data or access constraints where live. |
-| Team boundary vs module boundary | Conway's law and mirroring practice make team communication and ownership boundaries architecture-relevant, but they do not turn a team boundary or delivery unit into a module interface by identity. |
+| Team boundary vs module boundary | Conway's law and mirroring practice make team communication boundaries and delivery-responsibility scopes architecture-relevant, but they do not turn a team boundary, delivery unit, or role/enactor arrangement into a module interface by identity. |
 | Parallel decomposition vs serial bottleneck | Amdahl-style reasoning makes serial work, synchronization, communication overhead, and shared resource limits visible; more modules, teams, or parallel paths do not automatically improve throughput or evolvability. |
 | Cheap repair vs full evidence pack | Most cases need a relation repair note, not a full conformance, evidence, assurance, gate, or mechanism-suite record. |
 
@@ -122,10 +122,11 @@ The practical question is: does this phrase name a module relation, a component 
 
 A.6.M specializes `A.6.P` for module, component, interface, platform, and open-architecture wording when the recovered result is a module-interface relation, interface specification, platform grammar, substitutability relation, or open-architecture module-interface claim. Source labels such as `layer` and `stack` go through `C.30.STRAT` first and return here only when that repair recovers a module-interface relation. A.6.M does not mint `U.Module`, `U.Interface`, `U.Platform`, `U.Layer`, or `U.Stack`.
 
-A module is a `U.Holon` viewed in a declared bounded context as a replaceable, reusable, or independently governable structural unit of a larger `U.Holon` under `VP.ModuleInterface`, with explicit boundary, interface specification, admissibility conditions, and admissible substitution or change policy.
+A module is a `U.Holon` viewed in a declared bounded context as a replaceable, reusable, or separately changed structural unit of a larger `U.Holon` under `VP.ModuleInterface`, with explicit boundary, interface specification, admissibility conditions, and admissible substitution or change policy.
+
+For modular synthesis, A.6.M supplies only the module-interface slice. A synthesis move may align required functions or functional-service claims under `VP.Functional`, flow or transduction topology under `E.TGA`, control structure under `C.30.LCA`, procedures and work packages under `VP.Procedural`, role enactors under `VP.RoleEnactor`, and modules or interfaces under `VP.ModuleInterface`; A.6.M repairs the module-interface relation and then exits to the neighboring pattern that carries candidate generation, evidence, assurance, decision, work, or characteristic selection.
 
 #### A.6.M:4.1 - `moduleIn(...)` relation record
-
 Use `moduleIn(...)` only when the light repair note is not enough:
 
 ```text
@@ -236,27 +237,28 @@ OpenArchitectureClaim@Context:
   evidencePathRefs?:
   nonAdmissibleUse:
     "open" does not by itself prove substitutability, interoperability,
-    assurance, procurement fitness, or architecture quality
+    assurance, procurement suitability, or architecture quality
 ```
 
 The first slice repairs the claim without opening measurement. The second slice applies MOSA-like conformance expectations and substitution policy only where those claims are live.
 
-**Team boundary claim.**
+Supplier-diversity, procurement suitability, use-context compatibility, business constraint, policy authorization, and provider-selection claims are not module-interface fields. If they are live, A.6.M names the module-interface slice and exits: supplier-set or provider-choice use goes to `G.5` or `C.11`; procurement work, procedural, role, or enactor claims go to `A.15`, `A.2`, `VP.Procedural`, or `VP.RoleEnactor`; evidence, assurance, gate, release, and mechanism claims go to `A.10`, `B.3`, `A.20`, `A.21`, or `E.20` as live.
 
+**Team boundary claim.**
 ```text
 Phrase:
-  "The owning team boundary matches the module boundary."
+  "The team communication boundary matches the module boundary."
 
 ModuleRelationRepairNote:
   wholeHolonRef: PaymentsPlatform
   candidateModuleHolonRef: SettlementService
   boundedContextRef: ProductLine-2026Q2
   boundaryRef: SettlementServiceBoundary
-  interfaceSpecificationRef or gap: service API exists; semantic versioning and data-contract conditions incomplete
-  admissibilityConditions: service ownership and on-call responsibility declared; substitutability not established
+  interfaceSpecificationRef or gap: service API exists; semantic versioning, data schema, and semantic-constraint conditions incomplete
+  admissibilityConditions: team delivery responsibility and on-call responsibility declared; substitutability not established
   substitutionOrChangePolicyRef: missing
   liveClaimBoundary: role, enactor, work, and procedural correspondence first; module-interface relation only after boundary and interface specification are declared
-  notAModuleBecause: team ownership and delivery responsibility do not by themselves establish module interface, substitutability, or compatibility
+  notAModuleBecause: team communication boundary and delivery responsibility do not by themselves establish module interface, substitutability, or compatibility
   nextGoverningPatternRef: A.15 and A.2 for team and work claims; C.29 if homomorphism-like correspondence carries the live mathematical-lens claim; A.6.M only for the declared module-interface relation
   stopCondition: the correspondence is usable as an architecture diagnostic, not as proof
 ```
@@ -265,7 +267,7 @@ The third slice uses Conway-like mirroring as a diagnostic prompt. It does not m
 
 ### A.6.M:5 - Archetypal Grounding
 
-**Tell.** A module is not a little box. It is a holon playing a replaceable, reusable, or independently governable role inside a larger holon under a declared boundary and interface specification.
+**Tell.** A module is not a little box. It is a holon related to a larger holon under a declared boundary, interface specification, admissibility conditions, and substitution or change policy.
 
 **Show.** A software package, neural-network block, chiplet, power converter, document template, or organizational unit can become module-like in a project only when the relation record says what whole it belongs to, what boundary it offers, what interface specification governs use, and what substitution or change policy makes replacement admissible.
 
@@ -281,7 +283,7 @@ Holon and episteme: the candidate module and whole are described holons under a 
 | Open-label bias | Do not treat "open" as substitutability. Recover standards, conformance expectations, data or access constraints, and change policy where live. |
 | Component bias | Do not treat every part as a module. Apply A.14 to component wording unless module-interface role is live. |
 | Interface-label bias | Do not treat API, port, endpoint, or signature labels as implemented compatibility. Recover `InterfaceSpecificationRef`. |
-| Team-boundary bias | Do not treat Conway-like mirroring, team ownership, or delivery-unit labels as module boundaries. Recover role, enactor, work, and procedural relations first; add module-interface correspondence only when the boundary and interface specification are declared. |
+| Team-boundary bias | Do not treat Conway-like mirroring, team responsibility, team communication boundary, or delivery-unit labels as module boundaries. Recover role, enactor, work, and procedural relations first; add module-interface correspondence only when the boundary and interface specification are declared. |
 | Parallelism bias | Do not treat decomposition into more modules, teams, services, or paths as performance or evolvability improvement. Recover serial work, synchronization, communication overhead, shared resources, and bottleneck claims through TGA, C.29, C.31, or neighboring characteristic patterns when live. |
 | Platform bias | Do not treat a platform name as architecture quality. Recover platform grammar and the exact claim it can substantiate. |
 
@@ -297,7 +299,7 @@ Holon and episteme: the candidate module and whole are described holons under a 
 | `CC-A6M-6` | Function, TGA flow, control, work, evidence, assurance, gate, decision, causal, and mechanism claims use their exact governing patterns. |
 | `CC-A6M-7` | A failed check gives a repair move or exact governing pattern application, not only a rejection. |
 | `CC-A6M-8` | A current `G.2` source row for MOSA, open systems, platform practice, Conway correspondence, team-boundary correspondence, or Amdahl-style decomposition limits appears before that source carries live practitioner guidance. |
-| `CC-A6M-9` | RFC keywords are used only for pattern users, records, claims, conformance items, or publication, evidence, or assurance objects. Modeled modules and interfaces are not written as agents with duties. |
+| `CC-A6M-9` | RFC keywords are used only for pattern users, records, claims, conformance items, or publication records, evidence records, or assurance records. Modeled modules and interfaces are not written as agents with duties. |
 
 ### A.6.M:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -307,8 +309,8 @@ Holon and episteme: the candidate module and whole are described holons under a 
 | `SignatureAsInterface` | A signature declaration is treated as implemented compatibility. | Keep signature under A.6.0 and add interface-specification fields only when live. |
 | `PortAsProof` | Matching port or endpoint names are treated as integration proof. | Recover slot specs, protocol or schema, semantic conditions, and exact evidence, conformance, source relation, or reliance relation. |
 | `FunctionalLinkAsInterface` | A functional relation is treated as module boundary. | Keep `VP.Functional` and add correspondence or allocation only when live. |
-| `OpenByPublicationOnly` | Published interface text is treated as open architecture. | Add substitution policy, conformance expectations, change policy, and data or access constraints where live. |
-| `TeamBoundaryAsModule` | A team boundary, ownership label, or delivery unit is treated as a module interface. | Recover `A.15`, `A.2`, `VP.Procedural`, or `VP.RoleEnactor`; add A.6.M only for the declared module-interface relation; use `C.29` when a homomorphism-like correspondence claim is live. |
+| `OpenByPublicationOnly` | Published interface text is treated as open architecture. | Add substitution policy, conformance expectations, change policy, source or evidence relation, and data or access constraints where live; route supplier-set, procurement, evidence, assurance, gate, work, role, enactor, mechanism, and decision claims to their exact neighboring patterns. |
+| `TeamBoundaryAsModule` | A team boundary, team responsibility label, communication boundary, or delivery unit is treated as a module interface. | Recover `A.15`, `A.2`, `VP.Procedural`, or `VP.RoleEnactor`; add A.6.M only for the declared module-interface relation; use `C.29` when a homomorphism-like correspondence claim is live. |
 | `MoreModulesMeansBetter` | More modules, teams, services, threads, or parallel paths are treated as automatic improvement. | Recover serial work, synchronization, communication overhead, shared resources, and bottleneck claims; route mathematical speedup or homomorphism claims through `C.29` and route characteristic tradeoffs through `C.31` and `C.16`. |
 | `PlatformAsKind` | A platform label becomes a root kind or quality claim. | Use `PlatformGrammarRef` and apply exact governing patterns for quality, measurement, and decision claims. |
 | `StackAsArchitecture` | A stack diagram is treated as the architecture itself or as a module-interface relation by label. | Apply `C.30.STRAT` first; then use `C.30` or `C.30.ASV` for architecture or structural-view use, `A.6.M` only for a recovered module-interface relation, or ordinary source-label disposition. |
@@ -338,14 +340,16 @@ The pattern deliberately keeps measurement out of the first move. A module relat
 
 ### A.6.M:11 - SoTA-Echoing
 
-| Source or practice | Adopt | Adapt for FPF | Reject or boundary | Practitioner implication |
-| --- | --- | --- | --- | --- |
-| DoD OUSD(R&E) MOSA guidance and implementation guidebook (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`) | Modular design, interface standards, conformance verification, replacement or change policy, and competitive reuse are real conformance and substitution expectations. | Recover them as `InterfaceSpecificationRef`, `PlatformGrammarRef`, `substitutionOrChangePolicyRef`, conformance expectation, and evidence paths only where live. | Do not treat `open`, interface publication, or modular-looking structure as substitutability, assurance, procurement fitness, or quality proof. | A practitioner asking whether something is open first repairs the relation and the interface specification; measurement or decision claims open only when that use is live. |
-| Conway's law, the mirroring hypothesis, and Team Topologies and inverse Conway practice (`https://www.melconway.com/Home/Committees_Paper.html`; `https://doi.org/10.1016/j.respol.2012.04.011`; `https://itrevolution.com/wp-content/uploads/2022/06/TTOP_excerpt.pdf`) | Team communication structure, ownership boundaries, and delivery responsibility can create real pressure on module and interface boundaries and useful correspondence clues. | Recover team and work material through `A.15`, `A.2`, `VP.RoleEnactor`, or `VP.Procedural` first; connect it to `ModuleInterfaceStructure` only through declared correspondence, allocation, boundary relation, and preserved and lost structure note. Use `C.29` when the correspondence is claimed as homomorphism-like or almost-same structure. | Do not treat Conway's law, an org chart, team ownership, or a delivery unit as proof of module interface, substitutability, modularity quality, evidence, gate passage, or architecture decision. | A practitioner may use team-boundary mismatch as a diagnostic prompt: repair the role, work, and module relation, then decide whether the module boundary, team boundary, communication relation, or architecture move changes. |
-| Amdahl's law and communication and synchronization extensions (`https://www.cs.cmu.edu/~18742/papers/Amdahl1967.pdf`; `https://arxiv.org/abs/1306.3302`; `https://arxiv.org/abs/2603.20654`) | Serial work, synchronization, communication overhead, shared resources, and changing scalable workload fractions can limit the payoff of decomposition, parallelization, or specialization. | Use `C.29` for mathematical speedup or value-scalable-fraction reasoning, `E.18` and TGA for flow and crossing structure, and `C.31` and `C.16` for modularity and characteristic tradeoffs. | Do not treat module count, team count, service count, parallel-path count, or accelerator count as improvement, scalability, throughput, or evolvability by itself. | A practitioner considering a module split names the serial part, shared bottleneck, synchronization or communication overhead, and characteristic tradeoff before claiming improvement. |
-| SEI Views and Beyond and multi-view architecture practice | Module and component-and-connector views are distinct architecture descriptions. | Use `ModuleInterfaceStructure` and `RuntimeInteractionStructure` as structure-kind signals under `C.30.ASV`. | Do not reduce architecture to a module diagram. | Module repair stays one architecture-structure concern, not the whole architecture ontology. |
-| Platform and product-line engineering practice | Variation slots and extension rules matter for reuse and substitution. | Use `PlatformGrammarRef`, `variabilitySlotRefs`, and change policy instead of a platform root kind. | Do not treat platform name as architecture quality or scale advantage. | The next move is to identify extension rules and substitution conditions, not to evaluate the platform label. |
-| Architecture-operation language, with neural-network and software-system intakes as source examples | Source labels such as block, layer, expert, router, cache, and state are useful recognition prompts. | Keep them as `C.30.STRAT` source labels until the receiving FPF kind, relation, claim-use, or source-use disposition is recovered; return to A.6.M only for module-interface relation, interface specification, platform grammar, substitutability, or open-architecture module-interface claims. | Do not import source-context labels as module kinds or evidence of adequacy. | The same repair works for neural-network block replacement, hardware module substitution, organizational module repair, and episteme-module repair without making any source context the ontology. |
+| Source or practice | Currentness or lineage use | Adopt | Adapt for FPF | Reject or boundary | Practitioner implication |
+| --- | --- | --- | --- | --- | --- |
+| DoD OUSD(R&E) MOSA guidance and implementation guidebook (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`) | Current official acquisition and engineering practice family for open modular systems; used as current practice guidance, not as a complete FPF ontology. | Modular design, interface standards, conformance verification, replacement or change policy, and competitive reuse are real conformance and substitution expectations. | Recover them as `InterfaceSpecificationRef`, `PlatformGrammarRef`, `substitutionOrChangePolicyRef`, conformance expectation, source relation, and evidence path only where live; route supplier-set, procurement, policy authorization, evidence, assurance, gate, decision, work, role, enactor, and mechanism claims to their exact neighboring patterns. | Do not treat `open`, interface publication, or modular-looking structure as substitutability, assurance, procurement suitability, supplier-set selection, policy authorization, quality proof, or decision authority. | A practitioner asking whether something is open first repairs the relation and the interface specification; selection, procurement, evidence, assurance, gate, work, and decision claims open only when that use is live. |
+| Conway's law, the mirroring hypothesis, and Team Topologies and inverse Conway practice (`https://www.melconway.com/Home/Committees_Paper.html`; `https://doi.org/10.1016/j.respol.2012.04.011`; `https://itrevolution.com/wp-content/uploads/2022/06/TTOP_excerpt.pdf`) | Mature socio-technical law and empirical lineage plus current organization-design practice family; used as diagnostic pressure, not as a proof rule. | Team communication structure, team-boundary placement, and delivery responsibility can create real pressure on module and interface boundaries and useful correspondence clues. | Recover team and work material through `A.15`, `A.2`, `VP.RoleEnactor`, or `VP.Procedural` first; connect it to `ModuleInterfaceStructure` only through declared correspondence, allocation, boundary relation, and preserved and lost structure note. Use `C.29` when the correspondence is claimed as homomorphism-like or almost-same structure. | Do not treat Conway's law, an org chart, team responsibility label, or a delivery unit as proof of module interface, substitutability, modularity quality, evidence, gate passage, or architecture decision. | A practitioner may use team-boundary mismatch as a diagnostic prompt: repair the role, work, and module relation, then decide whether the module boundary, team boundary, communication relation, or architecture move changes. |
+| Amdahl's law and communication and synchronization extensions (`https://www.cs.cmu.edu/~18742/papers/Amdahl1967.pdf`; `https://arxiv.org/abs/1306.3302`; `https://arxiv.org/abs/2603.20654`) | Mature mathematical law plus current extension sources for communication, synchronization, and scalable-workload-fraction limits. | Serial work, synchronization, communication overhead, shared resources, and changing scalable workload fractions can limit the payoff of decomposition, parallelization, or specialization. | Use `C.29` for mathematical speedup or value-scalable-fraction reasoning, `E.18` and TGA for flow and crossing structure, and `C.31` and `C.16` for modularity and characteristic tradeoffs. | Do not treat module count, team count, service count, parallel-path count, or accelerator count as improvement, scalability, throughput, or evolvability by itself. | A practitioner considering a module split names the serial part, shared bottleneck, synchronization or communication overhead, and characteristic tradeoff before claiming improvement. |
+| SEI Views and Beyond, ISO/IEC/IEEE 42010:2022, and multi-view architecture practice | Mature architecture-description lineage plus current international view-description discipline; not used as a current module-quality source. | Module and component-and-connector views are distinct architecture descriptions. | Use `ModuleInterfaceStructure` and `RuntimeInteractionStructure` as structure-kind signals under `C.30.ASV`. | Do not reduce architecture to a module diagram. | Module repair stays one architecture-structure concern, not the whole architecture ontology. |
+| Platform and product-line engineering practice (`https://tag-app-delivery.cncf.io/fr/whitepapers/platform-eng-maturity-model/`; `https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`) | Mature product-line variability lineage plus current platform-engineering maturity-model and current SPLE-review cues; used for variability-slot and extension-rule discipline, not as one FPF platform kind. | Variation slots and extension rules matter for reuse and substitution. | Use `PlatformGrammarRef`, `variabilitySlotRefs`, and change policy instead of a platform root kind. | Do not treat platform name as architecture quality, architecture scale-preference evidence, procurement suitability, supplier-set selection, or decision authority. | The next move is to identify extension rules and substitution conditions; quality, architecture scale preference, procurement, supplier-set, and decision claims exit to the exact neighboring patterns. |
+| Architecture-operation language, with neural-network and software-system intakes as source examples | Current practitioner-language source examples accepted by the architecture workstream; used as recognition material, not as a standard or current-best-known authority. | Source labels such as block, layer, expert, router, cache, and state are useful recognition prompts. | Keep them as `C.30.STRAT` source labels until the receiving FPF kind, relation, claim-use, or source-use disposition is recovered; return to A.6.M only for module-interface relation, interface specification, platform grammar, substitutability, or open-architecture module-interface claims. | Do not import source-context labels as module kinds or evidence of adequacy. | The same repair works for neural-network block replacement, hardware module substitution, organizational module repair, and episteme-module repair without making any source context the ontology. |
+
+Older or local sources may serve as lineage or worked examples only when the row says so. They do not stand in for current competitive source, and they do not make a module, interface, platform, or open-architecture claim admissible for comparison, assurance, gate, selection, or decision use without the exact neighboring pattern that governs that use.
 
 ### A.6.M:12 - Relations
 
@@ -353,7 +357,7 @@ The pattern deliberately keeps measurement out of the first move. A module relat
 | --- | --- |
 | `A.6.P` | A.6.M is an RPR specialization for module-relation and interface-specification language. |
 | `C.30.STRAT` | Recovers layer, stack, block, expert, cache, router, gate, and similar source labels before A.6.M receives only recovered module-interface relation cases. |
-| `E.16` | Carries autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those are live; A.6.M keeps only module-interface governance. |
+| `E.16` | Carries autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those are live; A.6.M keeps only the module-interface relation, boundary, interface specification, and substitution or change-policy slice. |
 | `A.14` | Component and part-whole wording uses A.14 first unless module-interface role is live. |
 | `A.6.0` and `A.6.5` | Signatures, slots, ports, endpoints, and field structure remain governed by signature and slot discipline. |
 | `A.6.B`, `A.6.C`, and `A.6.8` | Boundary, interface-specification, API, protocol, service, promise, and duty wording uses A.6.M when live. |
@@ -366,3 +370,4 @@ The pattern deliberately keeps measurement out of the first move. A module relat
 | `C.16` | Measurement, score, scale, unit, comparability, and evidence-stub legality remain C.16-governed. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `E.20`, `G.5`, `C.11` | Evidence, assurance, gates, causal use, mechanism suites, set-return selection, and local decisions use their exact governing patterns; they are not A.6.M claims. |
 ### A.6.M:End
+

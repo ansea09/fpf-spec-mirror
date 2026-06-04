@@ -6,12 +6,12 @@ section_id: "A.8:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__009_rationale.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:8 — Rationale"
-line_start: 18050
-line_end: 18058
+line_start: 18056
+line_end: 18064
 dependencies:
   - "A.8"
   - "U.Types"

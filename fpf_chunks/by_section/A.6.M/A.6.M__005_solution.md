@@ -6,12 +6,12 @@ section_id: "A.6.M:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__005_solution.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:4 — Solution"
-line_start: 13805
-line_end: 13949
+line_start: 13806
+line_end: 13952
 dependencies:
   - "A.10"
   - "A.20"
@@ -36,14 +36,14 @@ keywords:
   - "claims"
   - "component"
   - "conformance items"
-  - "evidence"
+  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance objects. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication"
+  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
+  - "or publication records"
   - "platform"
   - "port"
   - "records"
@@ -55,10 +55,11 @@ keywords:
 
 A.6.M specializes `A.6.P` for module, component, interface, platform, and open-architecture wording when the recovered result is a module-interface relation, interface specification, platform grammar, substitutability relation, or open-architecture module-interface claim. Source labels such as `layer` and `stack` go through `C.30.STRAT` first and return here only when that repair recovers a module-interface relation. A.6.M does not mint `U.Module`, `U.Interface`, `U.Platform`, `U.Layer`, or `U.Stack`.
 
-A module is a `U.Holon` viewed in a declared bounded context as a replaceable, reusable, or independently governable structural unit of a larger `U.Holon` under `VP.ModuleInterface`, with explicit boundary, interface specification, admissibility conditions, and admissible substitution or change policy.
+A module is a `U.Holon` viewed in a declared bounded context as a replaceable, reusable, or separately changed structural unit of a larger `U.Holon` under `VP.ModuleInterface`, with explicit boundary, interface specification, admissibility conditions, and admissible substitution or change policy.
+
+For modular synthesis, A.6.M supplies only the module-interface slice. A synthesis move may align required functions or functional-service claims under `VP.Functional`, flow or transduction topology under `E.TGA`, control structure under `C.30.LCA`, procedures and work packages under `VP.Procedural`, role enactors under `VP.RoleEnactor`, and modules or interfaces under `VP.ModuleInterface`; A.6.M repairs the module-interface relation and then exits to the neighboring pattern that carries candidate generation, evidence, assurance, decision, work, or characteristic selection.
 
 #### A.6.M:4.1 - `moduleIn(...)` relation record
-
 Use `moduleIn(...)` only when the light repair note is not enough:
 
 ```text
@@ -169,27 +170,28 @@ OpenArchitectureClaim@Context:
   evidencePathRefs?:
   nonAdmissibleUse:
     "open" does not by itself prove substitutability, interoperability,
-    assurance, procurement fitness, or architecture quality
+    assurance, procurement suitability, or architecture quality
 ```
 
 The first slice repairs the claim without opening measurement. The second slice applies MOSA-like conformance expectations and substitution policy only where those claims are live.
 
-**Team boundary claim.**
+Supplier-diversity, procurement suitability, use-context compatibility, business constraint, policy authorization, and provider-selection claims are not module-interface fields. If they are live, A.6.M names the module-interface slice and exits: supplier-set or provider-choice use goes to `G.5` or `C.11`; procurement work, procedural, role, or enactor claims go to `A.15`, `A.2`, `VP.Procedural`, or `VP.RoleEnactor`; evidence, assurance, gate, release, and mechanism claims go to `A.10`, `B.3`, `A.20`, `A.21`, or `E.20` as live.
 
+**Team boundary claim.**
 ```text
 Phrase:
-  "The owning team boundary matches the module boundary."
+  "The team communication boundary matches the module boundary."
 
 ModuleRelationRepairNote:
   wholeHolonRef: PaymentsPlatform
   candidateModuleHolonRef: SettlementService
   boundedContextRef: ProductLine-2026Q2
   boundaryRef: SettlementServiceBoundary
-  interfaceSpecificationRef or gap: service API exists; semantic versioning and data-contract conditions incomplete
-  admissibilityConditions: service ownership and on-call responsibility declared; substitutability not established
+  interfaceSpecificationRef or gap: service API exists; semantic versioning, data schema, and semantic-constraint conditions incomplete
+  admissibilityConditions: team delivery responsibility and on-call responsibility declared; substitutability not established
   substitutionOrChangePolicyRef: missing
   liveClaimBoundary: role, enactor, work, and procedural correspondence first; module-interface relation only after boundary and interface specification are declared
-  notAModuleBecause: team ownership and delivery responsibility do not by themselves establish module interface, substitutability, or compatibility
+  notAModuleBecause: team communication boundary and delivery responsibility do not by themselves establish module interface, substitutability, or compatibility
   nextGoverningPatternRef: A.15 and A.2 for team and work claims; C.29 if homomorphism-like correspondence carries the live mathematical-lens claim; A.6.M only for the declared module-interface relation
   stopCondition: the correspondence is usable as an architecture diagnostic, not as proof
 ```

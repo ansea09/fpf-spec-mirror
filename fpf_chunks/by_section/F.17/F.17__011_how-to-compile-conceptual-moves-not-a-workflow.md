@@ -6,12 +6,12 @@ section_id: "F.17:10"
 section_title: "How to Compile (conceptual moves, not a workflow)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__011_how-to-compile-conceptual-moves-not-a-workflow.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:10 — How to Compile (conceptual moves, not a workflow)"
-line_start: 74961
-line_end: 74973
+line_start: 75318
+line_end: 75330
 dependencies:
   - "A.1.1"
   - "A.11"

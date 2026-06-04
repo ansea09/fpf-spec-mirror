@@ -6,12 +6,12 @@ section_id: "E.18:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__005_forces.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:4 — Forces"
-line_start: 65652
-line_end: 65662
+line_start: 66009
+line_end: 66019
 dependencies:
   - "A.2.6"
   - "A.20"

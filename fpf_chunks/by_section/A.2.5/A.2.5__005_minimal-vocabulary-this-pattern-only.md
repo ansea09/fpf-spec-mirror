@@ -6,12 +6,12 @@ section_id: "A.2.5:4"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__005_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:4 — Minimal vocabulary (this pattern only)"
-line_start: 3407
-line_end: 3424
+line_start: 3408
+line_end: 3425
 dependencies:
   - "A.15"
   - "A.2.1"

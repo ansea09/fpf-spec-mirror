@@ -6,12 +6,12 @@ section_id: "A.6.M:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__004_forces.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:3 — Forces"
-line_start: 13792
-line_end: 13804
+line_start: 13793
+line_end: 13805
 dependencies:
   - "A.10"
   - "A.20"
@@ -36,14 +36,14 @@ keywords:
   - "claims"
   - "component"
   - "conformance items"
-  - "evidence"
+  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance objects. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication"
+  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
+  - "or publication records"
   - "platform"
   - "port"
   - "records"
@@ -60,7 +60,7 @@ keywords:
 | Interface label vs interface specification | An API name, port label, connector label, or signature may substantiate an interface claim, but it is not by itself substitutability or conformance. |
 | Function-flow-module proximity vs false identity | Functions, E.18 flow relations, control relations, mechanisms, and module interfaces often meet at the same artifact, but each has a different governing pattern. |
 | Open architecture payoff vs open label overread | MOSA and open-system practice make open interfaces useful only with standards, conformance expectations, replacement or change policy, and data or access constraints where live. |
-| Team boundary vs module boundary | Conway's law and mirroring practice make team communication and ownership boundaries architecture-relevant, but they do not turn a team boundary or delivery unit into a module interface by identity. |
+| Team boundary vs module boundary | Conway's law and mirroring practice make team communication boundaries and delivery-responsibility scopes architecture-relevant, but they do not turn a team boundary, delivery unit, or role/enactor arrangement into a module interface by identity. |
 | Parallel decomposition vs serial bottleneck | Amdahl-style reasoning makes serial work, synchronization, communication overhead, and shared resource limits visible; more modules, teams, or parallel paths do not automatically improve throughput or evolvability. |
 | Cheap repair vs full evidence pack | Most cases need a relation repair note, not a full conformance, evidence, assurance, gate, or mechanism-suite record. |
 

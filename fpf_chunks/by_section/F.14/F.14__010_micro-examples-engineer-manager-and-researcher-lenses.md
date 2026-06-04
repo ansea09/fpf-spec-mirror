@@ -6,12 +6,12 @@ section_id: "F.14:9"
 section_title: "Micro‑examples (engineer, manager, and researcher lenses)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__010_micro-examples-engineer-manager-and-researcher-lenses.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:9 — Micro‑examples (engineer, manager, and researcher lenses)"
-line_start: 73988
-line_end: 74019
+line_start: 74345
+line_end: 74376
 dependencies:
   - "F.1"
   - "F.10"

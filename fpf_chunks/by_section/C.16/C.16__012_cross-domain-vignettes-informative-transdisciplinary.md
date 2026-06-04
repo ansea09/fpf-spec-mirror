@@ -6,12 +6,12 @@ section_id: "C.16:11"
 section_title: "Cross‑Domain Vignettes (Informative, transdisciplinary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__012_cross-domain-vignettes-informative-transdisciplinary.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:11 — Cross‑Domain Vignettes (Informative, transdisciplinary)"
-line_start: 40533
-line_end: 40552
+line_start: 40539
+line_end: 40558
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "A.0:section-003"
 section_title: "3) Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__004_3-forces.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-003 — 3) Forces"
-line_start: 905
-line_end: 913
+line_start: 906
+line_end: 914
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

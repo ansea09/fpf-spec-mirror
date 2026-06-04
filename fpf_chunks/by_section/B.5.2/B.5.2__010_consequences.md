@@ -6,12 +6,12 @@ section_id: "B.5.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__010_consequences.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:9 — Consequences"
-line_start: 32662
-line_end: 32670
+line_start: 32668
+line_end: 32676
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "C.31:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__003_problem.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:2 — Problem"
-line_start: 53997
-line_end: 54004
+line_start: 54075
+line_end: 54082
 dependencies:
   - "A.10"
   - "A.17"
@@ -25,6 +25,7 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.31.ASAP"
   - "C.31.RSA"
   - "G.5"
 keywords:
@@ -45,5 +46,5 @@ Architecture work often asks for more modularity, better reuse, lower coupling, 
 
 Modularity can improve along one characteristic while worsening another. A design can reduce external coupling and increase interface alphabet size. A platform can standardize interfaces and create unhelpful rigidity. Evidence reuse can improve while functional-to-module allocation remains tangled. A report can show a high reuse share while hiding source-return work or residual uncertainty.
 
-C.31 turns modularity talk into a small characteristic vector plus repair direction. It does not promise that every characteristic is measurable now, comparable across cases, causal, decision-ready, or evidence-backed.
+C.31 turns modularity talk into a small characteristic vector plus repair direction. It does not promise that every characteristic is measurable now, comparable across cases, causal, admissible for decision use, or evidence-backed.
 

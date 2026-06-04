@@ -6,12 +6,12 @@ section_id: "C.2.1:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__002_context.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:1 — Context"
-line_start: 33436
-line_end: 33465
+line_start: 33442
+line_end: 33471
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

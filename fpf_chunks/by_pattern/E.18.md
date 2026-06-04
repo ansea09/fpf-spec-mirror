@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
-line_start: 65582
-line_end: 66111
+line_start: 65939
+line_end: 66468
 dependencies:
   - "A.2.6"
   - "A.20"

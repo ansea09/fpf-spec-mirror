@@ -6,12 +6,12 @@ section_id: "A.12:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__009_conformance-checklist.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:6 — Conformance Checklist"
-line_start: 18773
-line_end: 18784
+line_start: 18779
+line_end: 18790
 dependencies:
   - "A.3"
   - "B.2.5"

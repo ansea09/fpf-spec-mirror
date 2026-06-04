@@ -6,12 +6,12 @@ section_id: "C.16.P:7"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__010_worked-cases.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:7 — Worked cases"
-line_start: 40778
-line_end: 40788
+line_start: 40784
+line_end: 40794
 dependencies:
   - "A.10"
   - "A.15"

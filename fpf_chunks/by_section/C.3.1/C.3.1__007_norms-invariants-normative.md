@@ -6,12 +6,12 @@ section_id: "C.3.1:6"
 section_title: "Norms & Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__007_norms-invariants-normative.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:6 — Norms & Invariants (normative)"
-line_start: 37672
-line_end: 37684
+line_start: 37678
+line_end: 37690
 dependencies:
   - "A.1"
   - "A.2.6"

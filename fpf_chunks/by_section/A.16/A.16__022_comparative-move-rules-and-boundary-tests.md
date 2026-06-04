@@ -6,12 +6,12 @@ section_id: "A.16:21"
 section_title: "Comparative Move Rules and Boundary Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__022_comparative-move-rules-and-boundary-tests.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:21 — Comparative Move Rules and Boundary Tests"
-line_start: 21171
-line_end: 21181
+line_start: 21177
+line_end: 21187
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"

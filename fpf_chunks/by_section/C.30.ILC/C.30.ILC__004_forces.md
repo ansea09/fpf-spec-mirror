@@ -6,16 +6,17 @@ section_id: "C.30.ILC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__004_forces.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:3 — Forces"
-line_start: 53520
-line_end: 53529
+line_start: 53597
+line_end: 53606
 dependencies:
   - "A.10"
   - "A.22"
   - "A.6.F"
+  - "A.6.M"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -42,7 +43,7 @@ keywords:
 ### C.30.ILC:3 - Forces
 
 * Local optimization can be real and still be harmful at another declared holon level or declared scope.
-* `Level`, `layer`, `scope`, `scale`, `abstraction`, `organization`, `system`, and `environment` labels can sound precise while naming different project-side objects.
+* `Level`, `layer`, `scope`, `scale`, `abstraction`, `organization`, `system`, and `environment` labels can sound precise while naming different project-side entities, relations, scopes, or claim kinds.
 * Frustration language can be useful because it points to incompatible constraints or fitness contributions, but it can also smuggle a physics, biology, psychology, or global-optimizer ontology into architecture prose.
 * Measurement is tempting because the residual feels numeric, but a measure before declared-scope and structure-kind recovery can hide the real conflict.
 * Ethics and stakeholder mediation may be live, but not every cross-scope residual is a mediation problem.

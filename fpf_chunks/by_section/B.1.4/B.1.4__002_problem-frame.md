@@ -6,12 +6,12 @@ section_id: "B.1.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__002_problem-frame.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:1 — Problem frame"
-line_start: 29300
-line_end: 29308
+line_start: 29306
+line_end: 29314
 dependencies:
   - "A.12"
   - "A.14"

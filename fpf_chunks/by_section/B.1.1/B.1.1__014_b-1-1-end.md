@@ -6,12 +6,12 @@ section_id: "B.1.1:End"
 section_title: "B.1.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__014_b-1-1-end.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:End — B.1.1:End"
-line_start: 28863
-line_end: 28864
+line_start: 28869
+line_end: 28870
 dependencies:
   - "A.1"
   - "A.12"

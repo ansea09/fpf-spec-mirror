@@ -6,12 +6,12 @@ section_id: "F.6:11"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__012_relations-with-other-patterns.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:11 — Relations (with other patterns)"
-line_start: 71140
-line_end: 71155
+line_start: 71497
+line_end: 71512
 dependencies:
   - "A.15"
   - "A.2.1"

@@ -6,16 +6,17 @@ section_id: "C.30.ILC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__010_consequences.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:9 — Consequences"
-line_start: 53679
-line_end: 53686
+line_start: 53756
+line_end: 53763
 dependencies:
   - "A.10"
   - "A.22"
   - "A.6.F"
+  - "A.6.M"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -45,5 +46,5 @@ The gain is an early architecture move that is small and precise. The practition
 
 The cost is that `C.30.ILC` refuses to solve the whole problem. It identifies the first architecture move or exact governing pattern application. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, stakeholder mediation, candidate generation, evidence, assurance, and final choice remain outside until they are live.
 
-This makes multilevel optimization usable rather than decorative. `C.30.ILC` identifies the residual that makes optimization relevant; `C.29` carries the lawful mathematical-lens use only when level mapping or scale mapping and preserved structure and lost structure are recoverable; the admitted candidate-generation or architecture synthesis pattern carries residual-reducing candidate moves; and the decision pattern carries any final selected architecture.
+This makes multilevel optimization usable rather than decorative. `C.30.ILC` identifies the residual that makes optimization relevant; `C.29` carries an admissible mathematical-lens use only when level mapping or scale mapping and preserved structure and lost structure are recoverable; the admitted candidate-generation or architecture synthesis pattern carries residual-reducing candidate moves; and the decision pattern carries any final selected architecture.
 

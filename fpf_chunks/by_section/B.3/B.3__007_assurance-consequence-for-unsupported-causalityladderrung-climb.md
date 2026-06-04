@@ -6,12 +6,12 @@ section_id: "B.3:4.9"
 section_title: "Assurance consequence for unsupported CausalityLadderRung climb"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_assurance-consequence-for-unsupported-causalityladderrung-climb.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:4.9 — Assurance consequence for unsupported CausalityLadderRung climb"
-line_start: 31298
-line_end: 31322
+line_start: 31304
+line_end: 31328
 dependencies:
   - "A.10"
   - "A.12"

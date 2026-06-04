@@ -6,12 +6,12 @@ section_id: "C.31:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__013_relations.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:12 — Relations"
-line_start: 54245
-line_end: 54261
+line_start: 54332
+line_end: 54349
 dependencies:
   - "A.10"
   - "A.17"
@@ -25,6 +25,7 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.31.ASAP"
   - "C.31.RSA"
   - "G.5"
 keywords:
@@ -46,6 +47,7 @@ keywords:
 | `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, and gate before C.31 receives any characteristic subject, scale cue, repair move, or proxy-risk row. |
 | `A.6.M` | Repairs module-interface relations before C.31 characterizes modularity. |
 | `C.31.RSA` | Governs reusable-structure accounting, bespoke residue, and report-only shares. |
+| `C.31.ASAP` | Receives architecture scale-preference claims after C.31 names the scale-sensitive characteristic, scale variable or window, and repair direction. |
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern characteristic, scale, coordinate, score, unit, comparability, and measurement legality. |
 | `C.25` | Governs broader quality-family Q-Bundles when modularity is used in a quality claim. |
 | `C.30` and `C.30.ASV` | Govern architecture claims and structural views that supply C.31 subjects. |

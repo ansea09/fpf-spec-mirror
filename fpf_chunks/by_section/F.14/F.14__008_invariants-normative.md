@@ -6,12 +6,12 @@ section_id: "F.14:7"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__008_invariants-normative.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:7 — Invariants (normative)"
-line_start: 73948
-line_end: 73957
+line_start: 74305
+line_end: 74314
 dependencies:
   - "F.1"
   - "F.10"

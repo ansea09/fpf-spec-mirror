@@ -6,12 +6,12 @@ section_id: "A.10:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__010_relations.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:9 — Relations"
-line_start: 18522
-line_end: 18529
+line_start: 18528
+line_end: 18535
 dependencies:
   - "A.1"
   - "A.10"

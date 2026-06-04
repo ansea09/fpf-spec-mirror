@@ -6,12 +6,12 @@ section_id: "A.2.4:5"
 section_title: "Role family and specialisations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__006_role-family-and-specialisations.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:5 — Role family and specialisations"
-line_start: 3026
-line_end: 3069
+line_start: 3027
+line_end: 3070
 dependencies:
   - "A.10"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "C.31:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__005_solution.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:4 — Solution"
-line_start: 54016
-line_end: 54158
+line_start: 54094
+line_end: 54244
 dependencies:
   - "A.10"
   - "A.17"
@@ -25,6 +25,7 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.31.ASAP"
   - "C.31.RSA"
   - "G.5"
 keywords:
@@ -64,7 +65,7 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-The vector is complete enough when it states what can be done next and what cannot be inferred. If a characteristic is used for comparison, selection, publication, assurance, benchmark, causal use, cross-case reuse, or scale preference, escalate to the appropriate card and exact governing pattern.
+The vector is complete enough when it states what can be done next and what cannot be inferred. If a characteristic is used for comparison, selection, publication, assurance, benchmark, causal use, cross-case reuse, or architecture scale preference, escalate to the appropriate card and exact governing pattern, with `C.31.ASAP` receiving architecture scale-preference claims.
 
 #### C.31:4.2 - Characteristic classes
 
@@ -75,11 +76,11 @@ Every C.31 head is classified before use:
 | `DirectCharacteristic` | A C.16-governed characteristic can be named with subject, scale, unit or unitless interpretation, declared measurement basis, comparability basis, and repair move. | It is not automatically a score or decision selector. |
 | `CompositeCharacteristicDescription` | The head is a bundle or description with sub-slots, such as function-module alignment or flow-boundary alignment. | Do not pretend the bundle is one raw measure. |
 | `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as compression or RG or coarsening lens. | Apply C.29 for lens use that changes action. |
-| `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply the exact governing pattern for temporal adequacy, scale preference, or set dynamics. |
+| `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply `C.31.ASAP` for architecture scale preference, `C.27` for temporal adequacy, and `C.18.1` or `C.19.1` when scale-law or general BLP preference claims are live. |
 | `CausalUseSensitiveCharacteristic` | The interpretation is used to claim effect or intervention success. | Apply C.28 before relying on the claim causally. |
 | `ReportOnlyProxy` | The interpretation is only a local diagnostic or communication aid. | State forbidden overread and the exact governing pattern needed for comparison, selection, publication, assurance, benchmark, causal use, or decision claim. |
 
-In C.31, `declared basis` and `comparability basis` name C.16-compatible measurement or comparison fields. They are not generic support words and are not substitutes for evidence, assurance, cause, source, decision, or architecture-description relations.
+In C.31, `declared basis` and `comparability basis` name C.16-compatible measurement or comparison fields. They are not generic reason words and are not substitutes for evidence, assurance, cause, source, decision, or architecture-description relations.
 
 #### C.31:4.3 - Measurement-head mapping
 
@@ -93,13 +94,17 @@ MeasurementHeadMapping:
   scaleType:
   unitPolicy:
   declaredBasisNeeded:
+  requiredEvidence:
+  evidencePathRefs?:
+  sourceRelationRefs?:
+  evidenceNotLiveBecause?:
   commonFalseUse:
   nonAdmissibleUse:
   repairMove:
   governingPatternRef:
 ```
 
-This mapping is not a measurement template by itself. It prepares a C.16-compatible characteristic card or a report-only boundary.
+This mapping is not a measurement template by itself. It prepares a C.16-compatible characteristic card or a report-only boundary. When the head is decision-facing or publication-facing, the mapping names required evidence plus at least one evidence path or source relation. If evidence is not live, `evidenceNotLiveBecause` states why the head remains local, report-only, or repair-only.
 
 #### C.31:4.4 - C.31 characteristic card
 
@@ -114,6 +119,10 @@ ModularityCharacteristicCard:
   unitInterpretation:
   declaredBasisRef:
   comparabilityBasisRef:
+  requiredEvidence:
+  evidencePathRefs?:
+  sourceRelationRefs?:
+  evidenceNotLiveBecause?:
   proxyRisk:
   auditQuestion:
   nonAdmissibleUse:
@@ -121,7 +130,7 @@ ModularityCharacteristicCard:
   governingPatternApplicationRefs:
 ```
 
-Each card carries its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, non-admissible use, and repair move. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
+Each card carries its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence path or evidence-not-live reason, non-admissible use, and repair move. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
 
 #### C.31:4.5 - Seed characteristic heads and repair moves
 
@@ -132,8 +141,8 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 | `InternalCohesionDensity` | Density of typed relations inside a proposed module. | ratio or graph-derived value | typed dependency graph or DSM | proposed module has insufficient typed internal dependency basis | split the proposed module, move relations, or reclassify as component relation | comparison, clustering, or publication use |
 | `ExternalCouplingDensity` | Cross-boundary dependencies per module or interface. | ratio or distribution | typed dependency graph, interface graph, integration defects | hidden external dependencies dominate module boundary | expose dependency, revise interface spec, split context, or accept bounded exception | integration risk, assurance, or release claim |
 | `InterfaceAlphabetSize` | Count or entropy-like variety of interface types. | count or entropy-like value | interface registry | too many interface variants erase modular benefit | reduce variants, introduce interface grammar, split context, or document exception | platform grammar, candidate selection, or publication use |
-| `InterfaceStandardizationShare` | Share of interfaces conforming to declared specifications. | ratio or percentage | conformance tests and specifications | standardization is low where reuse needs it | define or narrow standards, add conformance tests, or stop at local exception | cross-case comparison, certification, or procurement claim |
-| `InterfacePublicness` | Openness, publication, and vendor-neutrality value. | ordinal or category | standards, API specs, licensing, access terms | open label lacks substitution path | recover interface spec, substitution policy, and conformance expectation | open-architecture claim, procurement, or publication claim |
+| `InterfaceStandardizationShare` | Share of interfaces conforming to declared specifications. | ratio or percentage | conformance tests and specifications | standardization is low where reuse needs it | define or narrow standards, add conformance tests, or stop at local exception | cross-case comparison, certification, or procurement decision claim |
+| `InterfacePublicness` | Openness, publication, and vendor-neutrality value. | ordinal or category | standards, API specs, licensing, access terms | open label lacks substitution path | recover interface spec, substitution policy, and conformance expectation | open-architecture claim, procurement decision claim, or publication claim |
 | `SubstitutabilityWidth` | Number or diversity of compatible alternatives for a slot or interface. | count or diversity value | approved implementations, vendors, tests | only one viable implementation exists | repair interface spec, loosen unnecessary coupling, or mark single-source exception | competition, platform, or decision claim |
 | `ModuleTypeReuseRate` | Instances per module type or template. | ratio or count | product-line records, bills of material, template records | reuse is claimed only by repeated naming | define module type, allowed variation, and measurement basis | cross-case reuse or product-line publication |
 | `TemplateCompressionGain` | Description saving from template plus parameters compared with instance-by-instance descriptions. | ratio or bits under declared method | corpus or model-description method | compression erases safety, legal, or source distinctions | add source-return condition, split template, or apply C.29 | lens-characteristic or effect claim, publication, or decision use |
@@ -147,8 +156,8 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 | `RegulatoryBespokeResidue` | One-off regulatory or acceptance content not covered by reusable structures. | ratio or ordinal | safety, approval, or regulatory records | each instance needs new regulatory argument | isolate residue, add reusable evidence package, or keep bounded exception | safety case, approval, or publication claim |
 | `LearningTransferCoefficient` | Improvement transfer from one instance or run to subsequent instances. | slope or elasticity | repeated work data and learning curve records | improvement claim hides time or causal assumptions | apply C.27 for temporal adequacy and C.28 for causal use | causal, benchmark, or scale-preference use |
 | `BespokeResidueShare` | Share of structure not covered by reusable templates or rules. | report-only share unless C.16 measurement basis is declared | RSA description and exception register | residue is hidden under reuse score | open C.31.RSA and source-return condition | accounting, comparison, or decision claim |
-| `RGFlowStability` | Stability of characteristic vector across declared coarse-graining scopes. | vector or ordinal | declared multi-scope architecture graphs | coarse-graining hides lower-scope hazards | apply C.29 and the scale-preference governing pattern | RG, scale, or lens transfer use |
-| `ExceptionCurveSlope` | Change in one-off exceptions over a scale variable. | slope | exception records against scale variable | exceptions grow with scale | apply the scale-preference governing pattern or accept bounded exception | scale preference, publication, or decision claim |
+| `RGFlowStability` | Stability of characteristic vector across declared coarse-graining scopes. | vector or ordinal | declared multi-scope architecture graphs | coarse-graining hides lower-scope hazards | apply C.29 for lens use and C.31.ASAP when architecture scale preference is live | RG, scale, or lens transfer use |
+| `ExceptionCurveSlope` | Change in one-off exceptions over a scale variable. | slope | exception records against scale variable | exceptions grow with scale | apply C.31.ASAP or accept bounded exception | scale preference, publication, or decision claim |
 
 #### C.31:4.6 - Claim-scoped residual heads
 
@@ -156,11 +165,11 @@ C.31 carries residual heads only as qualitative repair cues. These heads do not 
 
 | Head | Meaning | First governing pattern application | Risk | Repair direction |
 | --- | --- | --- | --- | --- |
-| ComplexityGrowthPressure | Pressure to add, split, mediate, or stabilize a declared aggregation scope, interface grammar, control relation, evidence scope, work-method scope, abstraction scope, or source-return condition. | C.30.ILC, exact scale-preference receiver, G.5, C.11 | treating more apparatus as progress | name the pressure and the repair direction; use set-return or decision patterns when live |
+| ComplexityGrowthPressure | Pressure to add, split, mediate, or stabilize a declared aggregation scope, interface grammar, control relation, evidence scope, work-method scope, abstraction scope, or source-return condition. | C.30.ILC, C.31.ASAP when architecture scale preference is live, G.5, C.11 | treating more apparatus as progress | name the pressure and the repair direction; use set-return or decision patterns when live |
 | `FrustrationResidual` | Persistent cross-scope residual after local repair. | `C.30.ILC`, C.29-local cross-scope lens claim | turning a lens-backed interpretation into proof | keep as residual cue or apply C.29 or C.30.ILC |
-| `ConflictResidualSlope` | Residual grows or shrinks over declared scale variable, scale window, or coarse-graining scale. | scale-preference governing pattern, `C.27`, `C.18.1`, `C.19.1` | treating two points as universal law | declare window and measurement basis or stop at report-only |
+| `ConflictResidualSlope` | Residual grows or shrinks over declared scale variable, scale window, or coarse-graining scale. | `C.31.ASAP`, `C.29`, `C.27`, `C.18.1`, `C.19.1` | treating two points as universal law | declare window, lens-use boundary, and measurement basis or stop at report-only |
 | `DeclaredScopeAdditionCost` | Added work, evidence, change-policy, latency, observability, accountability, or interface cost from a new declared aggregation or control scope. | `C.16`, `C.31`, `C.30.LCA` | ignoring the cost of added structure | identify cost bearer and apply the measurement pattern if used for comparison |
-| `BespokeResidueGrowth` | One-off exceptions grow with deployment spread, regulation, or project repetition. | `C.31.RSA`, scale-preference governing pattern | assuming all bespoke work is bad | split useful exception from repairable residue |
+| `BespokeResidueGrowth` | One-off exceptions grow with deployment spread, regulation, or project repetition. | `C.31.RSA`, `C.31.ASAP` when architecture scale preference is live | assuming all bespoke work is bad | split useful exception from repairable residue |
 | `InterfaceAlphabetGrowth` | Interface variants grow faster than reuse, substitutability, or integration payoff. | `A.6.M`, `C.31` | premature standardization | add platform grammar, split context, or accept bounded variation |
 | `SourceReturnCost` | Frequency or cost of returning from a compressed, indexed, coarse, extracted, or accounting view to source-side structure records. | `C.29`, source-return discipline, `A.10` | over-compression | add source-return condition or reduce compression |
 | `ControlNestingDepthRisk` | Nested control relations create latency, accountability, observability, stability, or assurance cost. | `C.30.LCA`, `C.27`, `B.3`, `A.3.3` | LCA-as-proof | apply control, temporal, assurance, or dynamics governing patterns when live |

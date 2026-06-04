@@ -6,12 +6,12 @@ section_id: "C.22.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__001_intro.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:intro — Intro"
-line_start: 43693
-line_end: 43712
+line_start: 43699
+line_end: 43718
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "B.2.2:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__008_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "B.2.2 — Meta-System Transition (MST)"
   - "B.2.2:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 30526
-line_end: 30533
+line_start: 30532
+line_end: 30539
 dependencies:
   - "A.1"
   - "B.2"

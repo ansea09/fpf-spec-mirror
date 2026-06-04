@@ -6,12 +6,12 @@ section_id: "A.6.M:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__006_archetypal-grounding.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:5 — Archetypal Grounding"
-line_start: 13950
-line_end: 13959
+line_start: 13953
+line_end: 13962
 dependencies:
   - "A.10"
   - "A.20"
@@ -36,14 +36,14 @@ keywords:
   - "claims"
   - "component"
   - "conformance items"
-  - "evidence"
+  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance objects. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication"
+  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
+  - "or publication records"
   - "platform"
   - "port"
   - "records"
@@ -53,7 +53,7 @@ keywords:
 
 ### A.6.M:5 - Archetypal Grounding
 
-**Tell.** A module is not a little box. It is a holon playing a replaceable, reusable, or independently governable role inside a larger holon under a declared boundary and interface specification.
+**Tell.** A module is not a little box. It is a holon related to a larger holon under a declared boundary, interface specification, admissibility conditions, and substitution or change policy.
 
 **Show.** A software package, neural-network block, chiplet, power converter, document template, or organizational unit can become module-like in a project only when the relation record says what whole it belongs to, what boundary it offers, what interface specification governs use, and what substitution or change policy makes replacement admissible.
 

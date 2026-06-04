@@ -6,12 +6,12 @@ section_id: "F.6:4"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__005_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:4 — Minimal vocabulary (this pattern only)"
-line_start: 70970
-line_end: 70981
+line_start: 71327
+line_end: 71338
 dependencies:
   - "A.15"
   - "A.2.1"

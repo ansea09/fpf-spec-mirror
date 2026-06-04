@@ -6,12 +6,12 @@ section_id: "C.31.RSA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__002_problem-frame.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:1 — Problem frame"
-line_start: 54269
-line_end: 54299
+line_start: 54358
+line_end: 54388
 dependencies:
   - "A.10"
   - "A.19"
@@ -25,6 +25,7 @@ dependencies:
   - "C.30"
   - "C.30.ASV"
   - "C.31"
+  - "C.31.ASAP"
   - "G.5"
   - "G.6"
 keywords:
@@ -66,5 +67,5 @@ What goes wrong if C.31.RSA is missed: a reusable share is treated as a proof of
 
 What C.31.RSA buys in practice: the practitioner can state where structure is reusable, where it is bespoke, what source-side distinctions must remain reachable, and when the result is only report-only accounting.
 
-Not this pattern when the live question is source-label recovery, module-interface relation repair, modularity-characteristic selection, measurement legality, evidence or assurance validity, scale or coarse-graining, candidate synthesis, or decision. Use `C.30.STRAT`, `A.6.M`, `C.31`, `C.16`, `A.10`, `B.3`, `G.6`, the assigned scale pattern, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31.RSA as the synthesis or selector pattern.
+Not this pattern when the live question is source-label recovery, module-interface relation repair, modularity-characteristic selection, measurement legality, evidence or assurance validity, architecture scale preference, mathematical-lens use, candidate synthesis, or decision. Use `C.30.STRAT`, `A.6.M`, `C.31`, `C.16`, `A.10`, `B.3`, `G.6`, `C.31.ASAP`, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31.RSA as the synthesis or selector pattern.
 

@@ -6,12 +6,12 @@ section_id: "F.15:9"
 section_title: "SCR — Static conformance rules (S‑Cross)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__010_scr-static-conformance-rules-s-cross.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:9 — SCR — Static conformance rules (S‑Cross)"
-line_start: 74226
-line_end: 74303
+line_start: 74583
+line_end: 74660
 dependencies:
   - "B.3"
   - "D.CTX"

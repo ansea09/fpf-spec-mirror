@@ -6,12 +6,12 @@ section_id: "F.8:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__012_anti-patterns-remedies.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:10 — Anti‑patterns & remedies"
-line_start: 71641
-line_end: 71655
+line_start: 71998
+line_end: 72012
 dependencies:
   - "A.11"
   - "A.7"

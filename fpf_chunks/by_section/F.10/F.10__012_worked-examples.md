@@ -6,12 +6,12 @@ section_id: "F.10:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__012_worked-examples.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:11 — Worked examples"
-line_start: 72736
-line_end: 72802
+line_start: 73093
+line_end: 73159
 dependencies:
   - "B.3"
   - "D.CTX"

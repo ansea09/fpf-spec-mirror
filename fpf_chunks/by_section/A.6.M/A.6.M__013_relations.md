@@ -6,12 +6,12 @@ section_id: "A.6.M:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__013_relations.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:12 — Relations"
-line_start: 14034
-line_end: 14051
+line_start: 14039
+line_end: 14056
 dependencies:
   - "A.10"
   - "A.20"
@@ -36,14 +36,14 @@ keywords:
   - "claims"
   - "component"
   - "conformance items"
-  - "evidence"
+  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance objects. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication"
+  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
+  - "or publication records"
   - "platform"
   - "port"
   - "records"
@@ -57,7 +57,7 @@ keywords:
 | --- | --- |
 | `A.6.P` | A.6.M is an RPR specialization for module-relation and interface-specification language. |
 | `C.30.STRAT` | Recovers layer, stack, block, expert, cache, router, gate, and similar source labels before A.6.M receives only recovered module-interface relation cases. |
-| `E.16` | Carries autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those are live; A.6.M keeps only module-interface governance. |
+| `E.16` | Carries autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those are live; A.6.M keeps only the module-interface relation, boundary, interface specification, and substitution or change-policy slice. |
 | `A.14` | Component and part-whole wording uses A.14 first unless module-interface role is live. |
 | `A.6.0` and `A.6.5` | Signatures, slots, ports, endpoints, and field structure remain governed by signature and slot discipline. |
 | `A.6.B`, `A.6.C`, and `A.6.8` | Boundary, interface-specification, API, protocol, service, promise, and duty wording uses A.6.M when live. |

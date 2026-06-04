@@ -6,12 +6,12 @@ section_id: "F.18:22"
 section_title: "Migration & Deprecation Notes (informative, naming‑specific)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__023_migration-deprecation-notes-informative-naming-specific.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:22 — Migration & Deprecation Notes (informative, naming‑specific)"
-line_start: 75850
-line_end: 75857
+line_start: 76207
+line_end: 76214
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

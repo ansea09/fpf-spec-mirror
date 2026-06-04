@@ -6,12 +6,12 @@ section_id: "E.21:4"
 section_title: "Solution - Pattern quality as a scoped Q-Bundle over declared characteristics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution-pattern-quality-as-a-scoped-q-bundle-over-declared-characteristics.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution - Pattern quality as a scoped Q-Bundle over declared characteristics"
-line_start: 67248
-line_end: 67919
+line_start: 67605
+line_end: 68276
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

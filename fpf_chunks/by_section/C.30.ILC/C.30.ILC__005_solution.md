@@ -6,16 +6,17 @@ section_id: "C.30.ILC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__005_solution.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:4 — Solution"
-line_start: 53530
-line_end: 53630
+line_start: 53607
+line_end: 53707
 dependencies:
   - "A.10"
   - "A.22"
   - "A.6.F"
+  - "A.6.M"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -103,7 +104,7 @@ CrossScopeArchitectureResidualTriage@Context ::= {
 
 `crossScopeResidualDescription` is not enough by itself. A residual becomes architecture-shaping only when its residual-bearing locus is declared: hidden coupling, interface exception, control-rate conflict, scale-window loss, evidence-reuse failure, regulatory bespoke residue, work-method exception, data-semantics drift, placement or jurisdiction conflict, security trust-boundary break, or another declared locus.
 
-**Multilevel optimization boundary.** `C.30.ILC` can recognize that local optimization in one declared holon level or declared scope degrades another declared holon level or declared scope. It does not optimize the architecture and does not prove that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope is live, use the admitted architecture scale, RG, or coarse-graining receiving pattern and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate, compare, or publish residual-reducing candidate architecture moves, use `G.5` or the admitted architecture synthesis receiving pattern for `MultilevelArchitectureOptimizationFrame@Project`; `C.30.ILC` stops at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel mapping or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
+**Multilevel optimization boundary.** `C.30.ILC` can recognize that local optimization in one declared holon level or declared scope degrades another declared holon level or declared scope. It does not optimize the architecture and does not prove that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate, compare, or publish residual-reducing candidate architecture moves, use `G.5` or the admitted architecture synthesis receiving pattern for `MultilevelArchitectureOptimizationFrame@Project`; `C.30.ILC` stops at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel mapping or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
 
 Anti-collapse rule: no generic frustration score, no risk-matrix residual, no stakeholder-mediation takeover, no physics or biology ontology transfer, no global-optimizer proof, no causal proof, and no assurance proof. A frustration or risk label does not govern the case until declared holon levels or declared scopes, the selected structure or structure kind that carries them, residual-bearing locus, and first architecture move are recoverable; stakeholder mediation applies `D.3` or `D.4` only when values, ethical conflict, or negotiation is live.
 
@@ -112,7 +113,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no st
 | Live claim kind | Governing pattern to apply |
 |---|---|
 | measurement or characteristic claim | `C.16` or an admitted characteristic or measurement receiving pattern |
-| scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope | admitted architecture scale, RG, or coarse-graining receiving pattern; use `C.29` when a mathematical lens is live |
+| scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope | `C.31.ASAP` when architecture scale preference is live; use `C.29` when a mathematical lens is live |
 | multilevel learning or frustration mathematical-lens use with recoverable level mapping or scale mapping | `C.29` with `MLU.Description@MultilevelLearningFrustration` |
 | candidate generation or residual-reducing candidate architecture moves | `G.5` or an admitted architecture synthesis receiving pattern for `MultilevelArchitectureOptimizationFrame@Project` |
 | final local choice | `C.11` |
@@ -130,7 +131,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no st
 | Modularity reduces local work and increases exceptions | accept bounded exception; revise module boundary; add work scope or evidence scope | Average exceptions into a modularity score without declared scope, comparator, and measurement relation. |
 | Local autonomy conflicts with control scope | add control layer; change allocation; apply `C.30.LCA` | Treat autonomy label as causal or safety proof. |
 | Evidence reuse hides source loss | add evidence scope; add source-return condition; apply `A.10` or `G.6` | Treat reused evidence as automatically valid in the wider scope. |
-| A scale window changes the residual | apply the admitted architecture scale, RG, or coarse-graining receiving pattern, with `C.29` when the scale lens is live | Treat two observations as a universal scale law. |
+| A scale window changes the residual | apply `C.31.ASAP`, with `C.29` when the scale lens is live | Treat two observations as a universal scale law. |
 | A frustration lens with recoverable level mapping or scale mapping makes candidate moves comparable | use `C.29` for lens adequacy and `G.5` or the admitted architecture synthesis receiving pattern for the candidate set | Treat an unassigned or same-scope structure conflict as RG mathematics or frustration mathematics, or treat an interlevel residual without recoverable mapping as a global optimizer, proof, or selected architecture. |
 
 **Worked slice A - clean module layout, bad flow.** A product team redraws modules so each component has an explicit responsibility relation or enactor relation, but order-to-cash flow now crosses more work transfers and exceptions rise. `C.30.ILC` names the module structure, flow structure or transduction structure, affected work scope, cross-scope residual, and first move: expose hidden coupling or open `C.30.TGA-FLOW-REL`. It does not turn the exception count into a modularity measure until `C.16` or an admitted characterization or measurement receiving pattern is live.

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:5"
 section_title: "Direct known receiving-pattern rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_direct-known-receiving-pattern-rule.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:5 — Direct known receiving-pattern rule"
-line_start: 59477
-line_end: 59482
+line_start: 59834
+line_end: 59839
 dependencies:
   - "A.17"
   - "A.18"

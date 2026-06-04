@@ -6,12 +6,12 @@ section_id: "A.11:11"
 section_title: "Open Questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__012_open-questions.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:11 — Open Questions"
-line_start: 18678
-line_end: 18683
+line_start: 18684
+line_end: 18689
 dependencies:
   - "A.11"
   - "U.Type"

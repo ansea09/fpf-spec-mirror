@@ -6,12 +6,12 @@ section_id: "F.6:9"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__010_anti-patterns-remedies.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:9 — Anti‑patterns & remedies"
-line_start: 71067
-line_end: 71084
+line_start: 71424
+line_end: 71441
 dependencies:
   - "A.15"
   - "A.2.1"

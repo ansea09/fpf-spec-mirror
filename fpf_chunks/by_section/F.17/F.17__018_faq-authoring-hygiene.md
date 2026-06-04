@@ -6,12 +6,12 @@ section_id: "F.17:17"
 section_title: "FAQ (authoring hygiene)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_faq-authoring-hygiene.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:17 — FAQ (authoring hygiene)"
-line_start: 75056
-line_end: 75069
+line_start: 75413
+line_end: 75426
 dependencies:
   - "A.1.1"
   - "A.11"

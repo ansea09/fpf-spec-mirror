@@ -6,12 +6,12 @@ section_id: "C.31.RSA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__007_bias-annotation.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:6 — Bias-Annotation"
-line_start: 54540
-line_end: 54550
+line_start: 54629
+line_end: 54639
 dependencies:
   - "A.10"
   - "A.19"
@@ -25,6 +25,7 @@ dependencies:
   - "C.30"
   - "C.30.ASV"
   - "C.31"
+  - "C.31.ASAP"
   - "G.5"
   - "G.6"
 keywords:
@@ -42,7 +43,7 @@ keywords:
 | Bias risk | C.31.RSA repair |
 | --- | --- |
 | Reuse-good bias | Do not treat more reusable structure as automatically better. Ask what repair, cost, or source-return condition follows. |
-| Share-proof bias | Do not let `ReusableStructureShare` prove modularity, quality, assurance, scale advantage, or decision quality. |
+| Share-proof bias | Do not let `ReusableStructureShare` prove modularity, quality, assurance, architecture scale-preference claim, or decision quality. |
 | Hidden-unit bias | Do not sum templates, interface variants, work items, and evidence packages without a declared accounting basis. |
 | Residue-bad bias | Do not treat every bespoke exception as waste. Some residue is a bounded exception that preserves local fit or safety. |
 | Evidence-reuse bias | Do not count evidence reuse without validity context and source-return condition. |

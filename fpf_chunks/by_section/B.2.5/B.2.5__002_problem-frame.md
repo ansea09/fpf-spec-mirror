@@ -6,12 +6,12 @@ section_id: "B.2.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_problem-frame.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:1 — Problem frame"
-line_start: 30822
-line_end: 30834
+line_start: 30828
+line_end: 30840
 dependencies:
   - "A.1"
   - "A.12"

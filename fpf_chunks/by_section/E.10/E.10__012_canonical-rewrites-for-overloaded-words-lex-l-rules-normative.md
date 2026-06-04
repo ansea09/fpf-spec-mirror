@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Canonical rewrites for overloaded words (LEX L‑rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_canonical-rewrites-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:9 — Canonical rewrites for overloaded words (LEX L‑rules; normative)"
-line_start: 59071
-line_end: 59193
+line_start: 59428
+line_end: 59550
 dependencies:
   - "A.10"
   - "A.15"

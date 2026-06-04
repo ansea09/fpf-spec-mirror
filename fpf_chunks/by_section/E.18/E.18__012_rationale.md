@@ -6,12 +6,12 @@ section_id: "E.18:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__012_rationale.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:11 — Rationale"
-line_start: 66032
-line_end: 66042
+line_start: 66389
+line_end: 66399
 dependencies:
   - "A.2.6"
   - "A.20"

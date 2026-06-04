@@ -6,12 +6,12 @@ section_id: "A.3.1:5"
 section_title: "Archetypal grounding (cross-paradigm examples: imperative / functional / logical)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__006_archetypal-grounding-cross-paradigm-examples-imperative-functional-logical.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:5 — Archetypal grounding (cross-paradigm examples: imperative / functional / logical)"
-line_start: 5833
-line_end: 5855
+line_start: 5834
+line_end: 5856
 dependencies:
   - "A.1"
   - "A.1.1"

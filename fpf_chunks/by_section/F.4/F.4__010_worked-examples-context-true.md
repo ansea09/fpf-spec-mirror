@@ -6,12 +6,12 @@ section_id: "F.4:9"
 section_title: "Worked examples (Context‑true)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__010_worked-examples-context-true.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:9 — Worked examples (Context‑true)"
-line_start: 70429
-line_end: 70497
+line_start: 70786
+line_end: 70854
 dependencies:
   - "A.11"
   - "A.2.1"

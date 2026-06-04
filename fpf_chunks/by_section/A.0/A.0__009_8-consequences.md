@@ -6,12 +6,12 @@ section_id: "A.0:section-008"
 section_title: "8) Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__009_8-consequences.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-008 — 8) Consequences"
-line_start: 990
-line_end: 1000
+line_start: 991
+line_end: 1001
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

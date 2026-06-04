@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
-line_start: 55523
-line_end: 55592
+line_start: 55880
+line_end: 55949
 dependencies:
   - "E.1"
   - "E.5.3"

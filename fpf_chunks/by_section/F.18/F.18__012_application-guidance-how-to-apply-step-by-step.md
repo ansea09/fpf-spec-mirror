@@ -6,12 +6,12 @@ section_id: "F.18:11"
 section_title: "Application Guidance (how to apply, step by step)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__012_application-guidance-how-to-apply-step-by-step.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:11 — Application Guidance (how to apply, step by step)"
-line_start: 75497
-line_end: 75553
+line_start: 75854
+line_end: 75910
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
-line_start: 53962
-line_end: 54262
+line_start: 54040
+line_end: 54351
 dependencies:
   - "A.10"
   - "A.17"
@@ -24,6 +24,7 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.31.ASAP"
   - "C.31.RSA"
   - "G.5"
 keywords:
@@ -65,13 +66,13 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-Start with recognition, three live characteristics at most, the observed problem, and a repair direction. Open heavier measurement, comparability, publication, assurance, benchmark, causal-use, cross-case reuse, or selection apparatus only when that exact use is live. A report-only proxy is an admissible stop when no stronger use is live.
+Start with recognition, three live characteristics at most, the observed problem, and a repair direction. Open heavier measurement, comparability, publication, assurance, benchmark, causal-use, cross-case reuse, or selection apparatus only when that exact use is live. A report-only proxy is an admissible stop when no comparison, publication, assurance, benchmark, causal-use, cross-case reuse, selection, or architecture scale-preference use is live.
 
 What goes wrong if C.31 is missed: "modular" becomes a binary label; a single modularity score hides incompatible characteristics; interface publication is confused with substitutability; internal cohesion is improved while evidence reuse gets worse; bespoke residue moves from templates into work or assurance; and complexity language becomes a commensurable score without a declared characteristic, scale, measurement basis, comparison basis, or admissible-use boundary.
 
 What C.31 buys in practice: the practitioner can see which modularity characteristic changes the next move, which false use is blocked, which repair is plausible, and which exact governing pattern carries measurement, evidence, causal, scale, selection, or accounting claims.
 
-Not this pattern when the live question is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement legality, quality-family claim, scale or coarse-graining claim, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, the assigned scale and `C.29` patterns, `G.5`, or `C.11` as appropriate; do not treat C.31 as the synthesis or selector pattern.
+Not this pattern when the live question is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement legality, quality-family claim, architecture scale-preference claim, mathematical-lens use, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, `C.31.ASAP`, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31 as the synthesis or selector pattern.
 
 ### C.31:2 - Problem
 
@@ -79,7 +80,7 @@ Architecture work often asks for more modularity, better reuse, lower coupling, 
 
 Modularity can improve along one characteristic while worsening another. A design can reduce external coupling and increase interface alphabet size. A platform can standardize interfaces and create unhelpful rigidity. Evidence reuse can improve while functional-to-module allocation remains tangled. A report can show a high reuse share while hiding source-return work or residual uncertainty.
 
-C.31 turns modularity talk into a small characteristic vector plus repair direction. It does not promise that every characteristic is measurable now, comparable across cases, causal, decision-ready, or evidence-backed.
+C.31 turns modularity talk into a small characteristic vector plus repair direction. It does not promise that every characteristic is measurable now, comparable across cases, causal, admissible for decision use, or evidence-backed.
 
 ### C.31:3 - Forces
 
@@ -117,7 +118,7 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-The vector is complete enough when it states what can be done next and what cannot be inferred. If a characteristic is used for comparison, selection, publication, assurance, benchmark, causal use, cross-case reuse, or scale preference, escalate to the appropriate card and exact governing pattern.
+The vector is complete enough when it states what can be done next and what cannot be inferred. If a characteristic is used for comparison, selection, publication, assurance, benchmark, causal use, cross-case reuse, or architecture scale preference, escalate to the appropriate card and exact governing pattern, with `C.31.ASAP` receiving architecture scale-preference claims.
 
 #### C.31:4.2 - Characteristic classes
 
@@ -128,11 +129,11 @@ Every C.31 head is classified before use:
 | `DirectCharacteristic` | A C.16-governed characteristic can be named with subject, scale, unit or unitless interpretation, declared measurement basis, comparability basis, and repair move. | It is not automatically a score or decision selector. |
 | `CompositeCharacteristicDescription` | The head is a bundle or description with sub-slots, such as function-module alignment or flow-boundary alignment. | Do not pretend the bundle is one raw measure. |
 | `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as compression or RG or coarsening lens. | Apply C.29 for lens use that changes action. |
-| `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply the exact governing pattern for temporal adequacy, scale preference, or set dynamics. |
+| `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply `C.31.ASAP` for architecture scale preference, `C.27` for temporal adequacy, and `C.18.1` or `C.19.1` when scale-law or general BLP preference claims are live. |
 | `CausalUseSensitiveCharacteristic` | The interpretation is used to claim effect or intervention success. | Apply C.28 before relying on the claim causally. |
 | `ReportOnlyProxy` | The interpretation is only a local diagnostic or communication aid. | State forbidden overread and the exact governing pattern needed for comparison, selection, publication, assurance, benchmark, causal use, or decision claim. |
 
-In C.31, `declared basis` and `comparability basis` name C.16-compatible measurement or comparison fields. They are not generic support words and are not substitutes for evidence, assurance, cause, source, decision, or architecture-description relations.
+In C.31, `declared basis` and `comparability basis` name C.16-compatible measurement or comparison fields. They are not generic reason words and are not substitutes for evidence, assurance, cause, source, decision, or architecture-description relations.
 
 #### C.31:4.3 - Measurement-head mapping
 
@@ -146,13 +147,17 @@ MeasurementHeadMapping:
   scaleType:
   unitPolicy:
   declaredBasisNeeded:
+  requiredEvidence:
+  evidencePathRefs?:
+  sourceRelationRefs?:
+  evidenceNotLiveBecause?:
   commonFalseUse:
   nonAdmissibleUse:
   repairMove:
   governingPatternRef:
 ```
 
-This mapping is not a measurement template by itself. It prepares a C.16-compatible characteristic card or a report-only boundary.
+This mapping is not a measurement template by itself. It prepares a C.16-compatible characteristic card or a report-only boundary. When the head is decision-facing or publication-facing, the mapping names required evidence plus at least one evidence path or source relation. If evidence is not live, `evidenceNotLiveBecause` states why the head remains local, report-only, or repair-only.
 
 #### C.31:4.4 - C.31 characteristic card
 
@@ -167,6 +172,10 @@ ModularityCharacteristicCard:
   unitInterpretation:
   declaredBasisRef:
   comparabilityBasisRef:
+  requiredEvidence:
+  evidencePathRefs?:
+  sourceRelationRefs?:
+  evidenceNotLiveBecause?:
   proxyRisk:
   auditQuestion:
   nonAdmissibleUse:
@@ -174,7 +183,7 @@ ModularityCharacteristicCard:
   governingPatternApplicationRefs:
 ```
 
-Each card carries its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, non-admissible use, and repair move. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
+Each card carries its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence path or evidence-not-live reason, non-admissible use, and repair move. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
 
 #### C.31:4.5 - Seed characteristic heads and repair moves
 
@@ -185,8 +194,8 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 | `InternalCohesionDensity` | Density of typed relations inside a proposed module. | ratio or graph-derived value | typed dependency graph or DSM | proposed module has insufficient typed internal dependency basis | split the proposed module, move relations, or reclassify as component relation | comparison, clustering, or publication use |
 | `ExternalCouplingDensity` | Cross-boundary dependencies per module or interface. | ratio or distribution | typed dependency graph, interface graph, integration defects | hidden external dependencies dominate module boundary | expose dependency, revise interface spec, split context, or accept bounded exception | integration risk, assurance, or release claim |
 | `InterfaceAlphabetSize` | Count or entropy-like variety of interface types. | count or entropy-like value | interface registry | too many interface variants erase modular benefit | reduce variants, introduce interface grammar, split context, or document exception | platform grammar, candidate selection, or publication use |
-| `InterfaceStandardizationShare` | Share of interfaces conforming to declared specifications. | ratio or percentage | conformance tests and specifications | standardization is low where reuse needs it | define or narrow standards, add conformance tests, or stop at local exception | cross-case comparison, certification, or procurement claim |
-| `InterfacePublicness` | Openness, publication, and vendor-neutrality value. | ordinal or category | standards, API specs, licensing, access terms | open label lacks substitution path | recover interface spec, substitution policy, and conformance expectation | open-architecture claim, procurement, or publication claim |
+| `InterfaceStandardizationShare` | Share of interfaces conforming to declared specifications. | ratio or percentage | conformance tests and specifications | standardization is low where reuse needs it | define or narrow standards, add conformance tests, or stop at local exception | cross-case comparison, certification, or procurement decision claim |
+| `InterfacePublicness` | Openness, publication, and vendor-neutrality value. | ordinal or category | standards, API specs, licensing, access terms | open label lacks substitution path | recover interface spec, substitution policy, and conformance expectation | open-architecture claim, procurement decision claim, or publication claim |
 | `SubstitutabilityWidth` | Number or diversity of compatible alternatives for a slot or interface. | count or diversity value | approved implementations, vendors, tests | only one viable implementation exists | repair interface spec, loosen unnecessary coupling, or mark single-source exception | competition, platform, or decision claim |
 | `ModuleTypeReuseRate` | Instances per module type or template. | ratio or count | product-line records, bills of material, template records | reuse is claimed only by repeated naming | define module type, allowed variation, and measurement basis | cross-case reuse or product-line publication |
 | `TemplateCompressionGain` | Description saving from template plus parameters compared with instance-by-instance descriptions. | ratio or bits under declared method | corpus or model-description method | compression erases safety, legal, or source distinctions | add source-return condition, split template, or apply C.29 | lens-characteristic or effect claim, publication, or decision use |
@@ -200,8 +209,8 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 | `RegulatoryBespokeResidue` | One-off regulatory or acceptance content not covered by reusable structures. | ratio or ordinal | safety, approval, or regulatory records | each instance needs new regulatory argument | isolate residue, add reusable evidence package, or keep bounded exception | safety case, approval, or publication claim |
 | `LearningTransferCoefficient` | Improvement transfer from one instance or run to subsequent instances. | slope or elasticity | repeated work data and learning curve records | improvement claim hides time or causal assumptions | apply C.27 for temporal adequacy and C.28 for causal use | causal, benchmark, or scale-preference use |
 | `BespokeResidueShare` | Share of structure not covered by reusable templates or rules. | report-only share unless C.16 measurement basis is declared | RSA description and exception register | residue is hidden under reuse score | open C.31.RSA and source-return condition | accounting, comparison, or decision claim |
-| `RGFlowStability` | Stability of characteristic vector across declared coarse-graining scopes. | vector or ordinal | declared multi-scope architecture graphs | coarse-graining hides lower-scope hazards | apply C.29 and the scale-preference governing pattern | RG, scale, or lens transfer use |
-| `ExceptionCurveSlope` | Change in one-off exceptions over a scale variable. | slope | exception records against scale variable | exceptions grow with scale | apply the scale-preference governing pattern or accept bounded exception | scale preference, publication, or decision claim |
+| `RGFlowStability` | Stability of characteristic vector across declared coarse-graining scopes. | vector or ordinal | declared multi-scope architecture graphs | coarse-graining hides lower-scope hazards | apply C.29 for lens use and C.31.ASAP when architecture scale preference is live | RG, scale, or lens transfer use |
+| `ExceptionCurveSlope` | Change in one-off exceptions over a scale variable. | slope | exception records against scale variable | exceptions grow with scale | apply C.31.ASAP or accept bounded exception | scale preference, publication, or decision claim |
 
 #### C.31:4.6 - Claim-scoped residual heads
 
@@ -209,11 +218,11 @@ C.31 carries residual heads only as qualitative repair cues. These heads do not 
 
 | Head | Meaning | First governing pattern application | Risk | Repair direction |
 | --- | --- | --- | --- | --- |
-| ComplexityGrowthPressure | Pressure to add, split, mediate, or stabilize a declared aggregation scope, interface grammar, control relation, evidence scope, work-method scope, abstraction scope, or source-return condition. | C.30.ILC, exact scale-preference receiver, G.5, C.11 | treating more apparatus as progress | name the pressure and the repair direction; use set-return or decision patterns when live |
+| ComplexityGrowthPressure | Pressure to add, split, mediate, or stabilize a declared aggregation scope, interface grammar, control relation, evidence scope, work-method scope, abstraction scope, or source-return condition. | C.30.ILC, C.31.ASAP when architecture scale preference is live, G.5, C.11 | treating more apparatus as progress | name the pressure and the repair direction; use set-return or decision patterns when live |
 | `FrustrationResidual` | Persistent cross-scope residual after local repair. | `C.30.ILC`, C.29-local cross-scope lens claim | turning a lens-backed interpretation into proof | keep as residual cue or apply C.29 or C.30.ILC |
-| `ConflictResidualSlope` | Residual grows or shrinks over declared scale variable, scale window, or coarse-graining scale. | scale-preference governing pattern, `C.27`, `C.18.1`, `C.19.1` | treating two points as universal law | declare window and measurement basis or stop at report-only |
+| `ConflictResidualSlope` | Residual grows or shrinks over declared scale variable, scale window, or coarse-graining scale. | `C.31.ASAP`, `C.29`, `C.27`, `C.18.1`, `C.19.1` | treating two points as universal law | declare window, lens-use boundary, and measurement basis or stop at report-only |
 | `DeclaredScopeAdditionCost` | Added work, evidence, change-policy, latency, observability, accountability, or interface cost from a new declared aggregation or control scope. | `C.16`, `C.31`, `C.30.LCA` | ignoring the cost of added structure | identify cost bearer and apply the measurement pattern if used for comparison |
-| `BespokeResidueGrowth` | One-off exceptions grow with deployment spread, regulation, or project repetition. | `C.31.RSA`, scale-preference governing pattern | assuming all bespoke work is bad | split useful exception from repairable residue |
+| `BespokeResidueGrowth` | One-off exceptions grow with deployment spread, regulation, or project repetition. | `C.31.RSA`, `C.31.ASAP` when architecture scale preference is live | assuming all bespoke work is bad | split useful exception from repairable residue |
 | `InterfaceAlphabetGrowth` | Interface variants grow faster than reuse, substitutability, or integration payoff. | `A.6.M`, `C.31` | premature standardization | add platform grammar, split context, or accept bounded variation |
 | `SourceReturnCost` | Frequency or cost of returning from a compressed, indexed, coarse, extracted, or accounting view to source-side structure records. | `C.29`, source-return discipline, `A.10` | over-compression | add source-return condition or reduce compression |
 | `ControlNestingDepthRisk` | Nested control relations create latency, accountability, observability, stability, or assurance cost. | `C.30.LCA`, `C.27`, `B.3`, `A.3.3` | LCA-as-proof | apply control, temporal, assurance, or dynamics governing patterns when live |
@@ -262,11 +271,11 @@ Holon and episteme: architecture and modules are selected structures of describe
 | --- | --- |
 | `CC-C31-1` | Ordinary use starts with `ModularityVectorLite`, three live characteristics at most, observed problem, repair direction, and stop condition. |
 | `CC-C31-2` | Each live head is classified as `DirectCharacteristic`, `CompositeCharacteristicDescription`, `LensBackedCharacteristic`, `TemporalOrScaleCharacteristic`, `CausalUseSensitiveCharacteristic`, or `ReportOnlyProxy`. |
-| `CC-C31-3` | A decision-facing or publication-facing head has `MeasurementHeadMapping` and C.16-compatible fields before it is relied on. |
+| `CC-C31-3` | A decision-facing or publication-facing head has `MeasurementHeadMapping`, C.16-compatible fields, and a required evidence path, source relation, or explicit evidence-not-live reason before it is relied on. |
 | `CC-C31-4` | Each characteristic row states at least one repair move or exact governing pattern application. |
 | `CC-C31-5` | Report-only proxies state forbidden overread and do not carry comparison, selection, assurance, publication, causal, or gate use. |
 | `CC-C31-6` | Proxy-risk and audit-question fields are present for decision-facing cards. |
-| `CC-C31-7` | Complexity, residual, and growth heads remain claim-scoped cues or apply C.29, exact scale-preference receivers, C.27, C.28, C.16, C.25, C.30.ILC, C.31.RSA, G.5, or C.11 as live. |
+| `CC-C31-7` | Complexity, residual, and growth heads remain claim-scoped cues or apply C.29, C.31.ASAP when architecture scale preference is live, C.27, C.28, C.16, C.25, C.30.ILC, C.31.RSA, G.5, or C.11 as live. |
 | `CC-C31-8` | No C.31 text treats modularity as a single quality proof, assurance proof, gate result, causal proof, or architecture decision. |
 | `CC-C31-9` | Any score discloses scoring method, codomain, polarity, characteristic basis, comparability basis, and use boundary through the exact governing pattern. |
 | `CC-C31-10` | SoTA seeds for DSM, modularity-index, empirical modularity, platform, evidence-reuse, Conway and mirroring, Amdahl, queueing, coordination-overhead, information-hiding, abstraction-leakage, or Goodhart and Campbell proxy-risk sources are converted into pattern-local `G.2` rows before they carry live practitioner guidance. |
@@ -280,7 +289,7 @@ Holon and episteme: architecture and modules are selected structures of describe
 | `UntypedMeasureList` | A table of heads appears without characteristic, scale, declared measurement basis, or repair move. | Classify heads and create C.16-compatible cards only where live. |
 | `MeasurementBeforeRepair` | The practitioner is asked for full measurement before one useful move exists. | Start with three live characteristics and repair direction. |
 | `OpenInterfaceEqualsModular` | Interface publication is treated as modularity. | Apply relation repair through A.6.M and characterize only the live interface or substitutability head. |
-| `ComplexityAsOneCharacteristic` | Algorithmic, graph, governance, evidence, and cognitive costs are averaged. | Keep residual heads claim-scoped and apply lens or measurement patterns when those uses are live. |
+| `ComplexityAsOneCharacteristic` | Algorithmic cost, graph-connectivity cost, policy and approval cost, evidence-maintenance cost, and cognitive cost are averaged. | Keep residual heads claim-scoped and apply lens or measurement patterns when those uses are live. |
 | `ProxyBecomesValue` | A report-only proxy becomes a decision, assurance, or gate claim. | State forbidden use and require exact evidence, assurance, decision, or other governing-pattern application before that use. |
 
 ### C.31:9 - Consequences
@@ -313,10 +322,11 @@ The pattern rejects a single complexity or modularity score because selected hea
 | DSM and dependency-structure practice (`https://dsmweb.org/design-structure-matrix-dsm/`; `https://dsmweb.org/introduction-to-dsm/`) | Mature and still-used architecture-analysis practice for dependency representation, clustering, and compact dependency communication. | Adopt typed dependency analysis as a possible declared measurement or comparison basis for specific C.31 heads such as `InternalCohesionDensity`, `ExternalCouplingDensity`, `InterfaceAlphabetSize`, and `HiddenCouplingDiscoveryRate`. | A dependency matrix is not architecture, proof, complete modularity, assurance, or decision by itself. | A dependency graph helps only after dependency kind, subject, scale, repair direction, and non-admissible use are declared. |
 | Cabigiosu and Camuffo, "Measuring Modularity" (`https://doi.org/10.1109/TEM.2016.2614881`) | Published modularity-measurement source used as measure-plurality lineage, not as a universal current scoring rule. | Adopt the result that modularity measures answer different engineering or management questions; adapt it into `Characteristic plurality vs scalar pressure`, `MeasurementHeadMapping`, and proxy-risk fields. | One measure family is not universal modularity adequacy and does not settle architecture quality. | The practitioner asks which characteristic changes action before choosing any measure family. |
 | Jung and Simpson modularity indices for DSM-based assessment (`https://pure.psu.edu/en/publications/new-modularity-indices-for-modularity-assessment-and-clustering-o/`) | Product-architecture and DSM-index lineage for index choice, clustering, and assessment variation. | Use as evidence that index choice depends on architecture type, dependency kind, and measure purpose; adapt by requiring characteristic, scale, measurement basis, comparability basis, and forbidden overread. | One modularity index is not FPF architecture quality, architecture adequacy, or decision authority. | Index use requires declared structure, dependency type, scale, and non-admissible overread before publication, comparison, or decision use. |
-| MOSA and open systems practice (`https://www.cto.mil/sea/mosa/`) | Current engineering and acquisition practice family for modular interfaces, conformance, severable components, replacement, and supplier diversity. | Adopt the pressure to make interface standards, conformance, substitutability, and supplier-diversity relations explicit; adapt by applying A.6.M before C.31 characterizes `InterfacePublicness`, `SubstitutabilityWidth`, or related heads. | `Open`, public, platform, API, or conformance label is not modularity by itself. | Open-system conformance and substitution claims may change C.31 repair only after the module-interface relation is repaired. |
+| MOSA and open systems practice (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`) | Current engineering and acquisition practice family for modular interfaces, conformance, severable components, replacement, and supplier diversity. | Adopt the pressure to make interface standards, conformance, substitutability, and supplier-diversity relations explicit; adapt by applying A.6.M before C.31 characterizes `InterfacePublicness`, `SubstitutabilityWidth`, or related heads, and by routing supplier-set selection or procurement decision use to `G.5` or `C.11` when that use is live. | `Open`, public, platform, API, conformance, or supplier-diversity label is not modularity, procurement suitability, evidence, assurance, gate passage, or decision authority by itself. | Open-system conformance and substitution claims may change C.31 repair only after the module-interface relation is repaired; procurement, selection, evidence, assurance, gate, and decision uses require their exact neighboring pattern. |
+| Platform and product-line engineering practice (`https://tag-app-delivery.cncf.io/fr/whitepapers/platform-eng-maturity-model/`; `https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`) | Mature product-line variability lineage plus current platform-engineering maturity-model and current SPLE-review cues; used for variability-slot, extension-rule, reuse, and exception-residue characteristic discipline. | Adopt variability slots, extension rules, template records, product-line records, allowed variation, and exception-residue tracking as possible C.31 characteristic subjects or declared measurement bases. | A platform or product-line label is not modularity value, reusable-structure proof, architecture scale-preference evidence, procurement suitability, or decision authority. | The practitioner names which characteristic changes action: interface standardization, module-type reuse, template compression, bespoke residue, exception curve, or exact neighboring claim. |
 | Conway and mirroring, information-hiding, effective-interface, and abstraction-leakage lineage | Socio-technical and interface-boundary sources used as holon-architecture lineage, not as software-only ontology. | Adopt declared correspondence across role and enactor structures, work and procedural structures, and module-interface structures; separate explicit interface specification from observed or implicit interface; recover hidden coupling and source-return conditions. | Team boundary, delivery unit, documented interface, or abstraction label is not module boundary, substitutability, modularity quality, or decision by itself. | The practitioner separates team and work structure, explicit interface, implicit dependency, and modularity characteristic before claiming improvement. |
-| Amdahl, queueing, and coordination-overhead laws | General decomposition and flow constraints for holon architectures. | Adopt serial fraction, synchronization, communication overhead, WIP, waiting, bottleneck, and partitionability as possible C.31 defect signals; route mathematical speedup or flow claims to `C.29`, `E.18`, or `C.30.TGA-FLOW-REL`. | More modules, teams, services, paths, processors, accelerators, or work partitions are not improvement by count. | A module split is evaluated by changed characteristics and bottlenecks, not by decomposition count. |
-| Goodhart and Campbell proxy-pressure laws and holon-architecture trade-off discipline | General proxy-risk and trade-off lineage for architecture characteristic use. | Adopt vector and trade-off discipline plus proxy-risk discipline: no single modularity score, reusable share, benchmark, or index carries value, comparison, evidence, assurance, gate, or decision use without exact neighboring admission. | One metric, benchmark, reusable-share number, or modularity index is not architecture value or decision authority. | The practitioner states which characteristic changes action and which proxy overread is blocked before comparison or decision. |
+| Amdahl, queueing, and coordination-overhead laws (`https://www.cs.cmu.edu/~18742/papers/Amdahl1967.pdf`; `https://arxiv.org/abs/1306.3302`; `https://arxiv.org/abs/2603.20654`) | Mature mathematical law and queueing lineage plus current extension sources for communication, synchronization, and scalable-workload-fraction limits. | Adopt serial fraction, synchronization, communication overhead, WIP, waiting, bottleneck, and partitionability as possible C.31 defect signals; route mathematical speedup or flow claims to `C.29`, `E.18`, or `C.30.TGA-FLOW-REL`. | More modules, teams, services, paths, processors, accelerators, or work partitions are not improvement by count. | A module split is evaluated by changed characteristics and bottlenecks, not by decomposition count. |
+| Goodhart and Campbell proxy-pressure laws and holon-architecture trade-off discipline | General proxy-risk and trade-off lineage for architecture characteristic use. | Adopt vector and trade-off discipline plus proxy-risk discipline: no single modularity score, reusable share, benchmark, or index carries value, comparison, evidence, assurance, gate, or decision use without exact neighboring admission. | One declared measure value, benchmark, reusable-share number, or modularity index is not architecture value or decision authority. | The practitioner states which characteristic changes action and which proxy overread is blocked before comparison or decision. |
 | Architecture-operation language, with neural-network and software-system discussions as source examples, including the GonzoML architecture-operation intake | Current practitioner-language source for replacement, selection, pruning, distillation, ablation, block substitution, memory or cache placement, gating, routing, and architecture search; not used as a standard. | Adopt operations as recognition cues for live structure, relation, flow, scale, or candidate-set repair; keep block, layer, expert, cache, router, and gate as `C.30.STRAT` source labels until the FPF characteristic subject, relation kind, scale, and admissible use are recovered. | Block, layer, expert, cache, router, gate, benchmark, ablation, pruning, or distillation label is not an FPF characteristic by default. | The operation points to a possible characteristic; it does not name the characteristic until the FPF kind, subject, scale, and admissible use are recovered. |
 
 Older or local sources may serve as lineage or worked examples only when the row says so. They do not stand in for current competitive source, and they do not make a modularity value admissible for comparison, assurance, gate, or decision without the exact neighboring pattern that governs that use.
@@ -328,6 +338,7 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, and gate before C.31 receives any characteristic subject, scale cue, repair move, or proxy-risk row. |
 | `A.6.M` | Repairs module-interface relations before C.31 characterizes modularity. |
 | `C.31.RSA` | Governs reusable-structure accounting, bespoke residue, and report-only shares. |
+| `C.31.ASAP` | Receives architecture scale-preference claims after C.31 names the scale-sensitive characteristic, scale variable or window, and repair direction. |
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern characteristic, scale, coordinate, score, unit, comparability, and measurement legality. |
 | `C.25` | Governs broader quality-family Q-Bundles when modularity is used in a quality claim. |
 | `C.30` and `C.30.ASV` | Govern architecture claims and structural views that supply C.31 subjects. |
@@ -339,3 +350,4 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `G.2`, `G.5`, `C.11` | Govern SoTA basis, set-return selection, and local decision claims. Architecture-synthesis claims require a current receiving pattern before RSA or C.31 can carry synthesis or decision use. |
 
 ### C.31:End
+

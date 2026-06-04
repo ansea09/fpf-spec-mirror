@@ -6,12 +6,12 @@ section_id: "E.17.2:3"
 section_title: "Forces  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__004_forces-informative.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:3 — Forces  (informative)"
-line_start: 62318
-line_end: 62329
+line_start: 62675
+line_end: 62686
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

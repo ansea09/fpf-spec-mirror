@@ -6,12 +6,12 @@ section_id: "A.6.0:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__009_consequences.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:8 — Consequences"
-line_start: 8902
-line_end: 8909
+line_start: 8903
+line_end: 8910
 dependencies:
   - "A.2.6"
   - "A.6.1"

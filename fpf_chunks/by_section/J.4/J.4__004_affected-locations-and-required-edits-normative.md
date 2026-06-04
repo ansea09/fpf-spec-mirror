@@ -6,12 +6,12 @@ section_id: "J.4:section-003"
 section_title: "Affected locations and required edits (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__004_affected-locations-and-required-edits-normative.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:section-003 — Affected locations and required edits (normative)"
-line_start: 82812
-line_end: 82845
+line_start: 83170
+line_end: 83203
 dependencies:
 keywords:
 ---

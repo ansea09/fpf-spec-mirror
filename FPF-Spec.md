@@ -221,8 +221,9 @@ Pattern and headers templates are explained in pattern E.8.
 | C.30.TGA-FLOW-REL | **Architecture/TGA Flow-Structure Relation** | Stable | *Keywords:* TGA graph relation, architecture flow relation, FlowTransductionStructure, graph/path/crossing, ArchitectureFlowStructureRelation@TGA. *Queries:* "When can a TGA graph inform grounded architecture or an architecture structural view?", "How do flow, graph, and architecture structure stay distinct?", "When is a TGA path not work, evidence, gate, or decision?" | **Builds on:** C.30, C.30.ASV, E.18, A.22. **Coordinates with:** A.6.F, C.29, C.16, C.28, A.10, B.3, A.20, A.21, A.15. |
 | C.30.LCA | **Control Structure View Adequacy (LCA)** | Stable | *Keywords:* control-structure view, layered control architecture, supervisor loop, controller/plant, rate band, control layer, proof overread. *Queries:* "When is LCA a control-structure view rather than proof?", "How do layer, level, stack, and rate labels recover exact fields?", "Where do stability, safety, evidence, and gate claims go?" | **Builds on:** C.30, C.30.ASV, B.2.5, A.22. **Coordinates with:** A.3.3, C.27, C.28, A.10, G.6, B.3, A.20, A.21, C.29. |
 | C.30.ILC | **Cross-Scope Architecture Residual Triage** | Stable | *Keywords:* cross-scope residual, interlevel conflict, frustration, declared scope, structure kind, local repair, source return. *Queries:* "What is the first architecture move when a local fix creates a residual elsewhere?", "How do level, layer, scope, scale, and frustration wording recover exact carriers?", "When should the case exit to measurement, scale, evidence, decision, or synthesis patterns?" | **Builds on:** C.30, C.30.ASV, A.22. **Coordinates with:** C.16, C.29, G.5, C.11, C.28, A.10, B.3, G.6, D.3, D.4. |
-| C.31 | **Modularity and Reusable Structure Characteristics** | Stable | *Keywords:* modularity characteristics, reusable-structure characteristics, coupling, cohesion, substitutability, interface variation, evidence reuse, bespoke residue, ModularityVectorLite. *Queries:* "Which modularity characteristic is live?", "When is a modularity score report-only?", "How do I keep module, interface, reuse, and evidence-reuse claims distinct?" | **Builds on:** C.16, A.17, A.18, A.19, C.25, C.30, C.30.ASV. **Coordinates with:** A.6.M, C.31.RSA, C.29, A.10, B.3, G.5, C.11. |
-| C.31.RSA | **Reusable Structure Accounting** | Stable | *Keywords:* reusable-structure accounting, reusable share, bespoke residue, accounting basis, report-only share, source return, refactoring opportunity. *Queries:* "Where does reusable structure live?", "When is a reusable share only report-only?", "What gets worse when we increase reuse?" | **Builds on:** C.31, C.30, C.30.ASV, C.16, A.19. **Coordinates with:** A.6.M, C.29, A.10, B.3, G.6, C.27, C.28, G.5, C.11. |
+| C.31 | **Modularity and Reusable Structure Characteristics** | Stable | *Keywords:* modularity characteristics, reusable-structure characteristics, coupling, cohesion, substitutability, interface variation, evidence reuse, bespoke residue, ModularityVectorLite. *Queries:* "Which modularity characteristic is live?", "When is a modularity score report-only?", "How do I keep module, interface, reuse, and evidence-reuse claims distinct?" | **Builds on:** C.16, A.17, A.18, A.19, C.25, C.30, C.30.ASV. **Coordinates with:** A.6.M, C.31.RSA, C.31.ASAP, C.29, A.10, B.3, G.5, C.11. |
+| C.31.RSA | **Reusable Structure Accounting** | Stable | *Keywords:* reusable-structure accounting, reusable share, bespoke residue, accounting basis, report-only share, source return, refactoring opportunity. *Queries:* "Where does reusable structure live?", "When is a reusable share only report-only?", "What gets worse when we increase reuse?" | **Builds on:** C.31, C.30, C.30.ASV, C.16, A.19. **Coordinates with:** A.6.M, C.31.ASAP, C.29, A.10, B.3, G.6, C.27, C.28, G.5, C.11. |
+| C.31.ASAP | **Architecture Scale-Amenability Preference** | Stable | *Keywords:* architecture scale preference, scale amenability, ScaleClaimTriage, scale variable, scale window, architecture alternatives, source-return condition, coarse-graining, RG, platform scale claim, waiver reason. *Queries:* "When does modularity or platform wording carry an architecture scale-preference claim?", "How do I compare architectures under a scale window?", "When is coarse-graining or RG-like language only a mathematical lens?" | **Builds on:** C.31, C.31.RSA, C.16, A.17, A.18, A.19, C.18.1, C.19.1, C.29. **Coordinates with:** A.6.M, C.30, C.30.ASV, C.30.LCA, C.30.ILC, A.10, B.3, G.6, G.5, G.9, C.11. |
 
 **Part D – Multi-scale Ethics & Conflict-Optimisation**
 
@@ -13742,7 +13743,7 @@ Does not replace: C.30 grounded architecture and selected-structure adequacy, C.
 
 ### A.6.M:1 - Problem frame
 
-Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a source label such as "layer" or "stack" is doing the work, apply `C.30.STRAT` first; A.6.M receives the case only when the recovered result is a module-interface relation. Open A.6.M when the live question is whether one holon is being treated as a replaceable, reusable, independently governable, or separately changed structural unit of a larger holon under a declared module-interface viewpoint.
+Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a source label such as "layer" or "stack" is doing the work, apply `C.30.STRAT` first; A.6.M receives the case only when the recovered result is a module-interface relation. Open A.6.M when the live question is whether one holon is being treated as a replaceable, reusable, or separately changed structural unit of a larger holon under a declared module-interface viewpoint.
 
 The first useful move is `ModuleRelationRepairNote`:
 
@@ -13764,7 +13765,7 @@ ModuleRelationRepairNote:
 
 Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitution or change policy, blocked false interpretation, and neighboring work, procedural, role, or enactor exit are clear enough to choose the next architecture move. Open the fuller `moduleIn(...)` relation record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination is live.
 
-What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a source word such as "layer" or "stack" bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with independent module governance; and a module diagram starts carrying claims that belong elsewhere.
+What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a source word such as "layer" or "stack" bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with separate module change policy; and a module diagram starts carrying claims that belong elsewhere.
 
 What A.6.M buys in practice: the practitioner can repair one module or interface phrase into a module-relation record, see which exact FPF governing pattern carries any remaining non-module claim, and stop before opening full measurement, evidence, or mechanism-suite records.
 
@@ -13798,7 +13799,7 @@ The practical question is: does this phrase name a module relation, a component 
 | Interface label vs interface specification | An API name, port label, connector label, or signature may substantiate an interface claim, but it is not by itself substitutability or conformance. |
 | Function-flow-module proximity vs false identity | Functions, E.18 flow relations, control relations, mechanisms, and module interfaces often meet at the same artifact, but each has a different governing pattern. |
 | Open architecture payoff vs open label overread | MOSA and open-system practice make open interfaces useful only with standards, conformance expectations, replacement or change policy, and data or access constraints where live. |
-| Team boundary vs module boundary | Conway's law and mirroring practice make team communication and ownership boundaries architecture-relevant, but they do not turn a team boundary or delivery unit into a module interface by identity. |
+| Team boundary vs module boundary | Conway's law and mirroring practice make team communication boundaries and delivery-responsibility scopes architecture-relevant, but they do not turn a team boundary, delivery unit, or role/enactor arrangement into a module interface by identity. |
 | Parallel decomposition vs serial bottleneck | Amdahl-style reasoning makes serial work, synchronization, communication overhead, and shared resource limits visible; more modules, teams, or parallel paths do not automatically improve throughput or evolvability. |
 | Cheap repair vs full evidence pack | Most cases need a relation repair note, not a full conformance, evidence, assurance, gate, or mechanism-suite record. |
 
@@ -13806,10 +13807,11 @@ The practical question is: does this phrase name a module relation, a component 
 
 A.6.M specializes `A.6.P` for module, component, interface, platform, and open-architecture wording when the recovered result is a module-interface relation, interface specification, platform grammar, substitutability relation, or open-architecture module-interface claim. Source labels such as `layer` and `stack` go through `C.30.STRAT` first and return here only when that repair recovers a module-interface relation. A.6.M does not mint `U.Module`, `U.Interface`, `U.Platform`, `U.Layer`, or `U.Stack`.
 
-A module is a `U.Holon` viewed in a declared bounded context as a replaceable, reusable, or independently governable structural unit of a larger `U.Holon` under `VP.ModuleInterface`, with explicit boundary, interface specification, admissibility conditions, and admissible substitution or change policy.
+A module is a `U.Holon` viewed in a declared bounded context as a replaceable, reusable, or separately changed structural unit of a larger `U.Holon` under `VP.ModuleInterface`, with explicit boundary, interface specification, admissibility conditions, and admissible substitution or change policy.
+
+For modular synthesis, A.6.M supplies only the module-interface slice. A synthesis move may align required functions or functional-service claims under `VP.Functional`, flow or transduction topology under `E.TGA`, control structure under `C.30.LCA`, procedures and work packages under `VP.Procedural`, role enactors under `VP.RoleEnactor`, and modules or interfaces under `VP.ModuleInterface`; A.6.M repairs the module-interface relation and then exits to the neighboring pattern that carries candidate generation, evidence, assurance, decision, work, or characteristic selection.
 
 #### A.6.M:4.1 - `moduleIn(...)` relation record
-
 Use `moduleIn(...)` only when the light repair note is not enough:
 
 ```text
@@ -13920,27 +13922,28 @@ OpenArchitectureClaim@Context:
   evidencePathRefs?:
   nonAdmissibleUse:
     "open" does not by itself prove substitutability, interoperability,
-    assurance, procurement fitness, or architecture quality
+    assurance, procurement suitability, or architecture quality
 ```
 
 The first slice repairs the claim without opening measurement. The second slice applies MOSA-like conformance expectations and substitution policy only where those claims are live.
 
-**Team boundary claim.**
+Supplier-diversity, procurement suitability, use-context compatibility, business constraint, policy authorization, and provider-selection claims are not module-interface fields. If they are live, A.6.M names the module-interface slice and exits: supplier-set or provider-choice use goes to `G.5` or `C.11`; procurement work, procedural, role, or enactor claims go to `A.15`, `A.2`, `VP.Procedural`, or `VP.RoleEnactor`; evidence, assurance, gate, release, and mechanism claims go to `A.10`, `B.3`, `A.20`, `A.21`, or `E.20` as live.
 
+**Team boundary claim.**
 ```text
 Phrase:
-  "The owning team boundary matches the module boundary."
+  "The team communication boundary matches the module boundary."
 
 ModuleRelationRepairNote:
   wholeHolonRef: PaymentsPlatform
   candidateModuleHolonRef: SettlementService
   boundedContextRef: ProductLine-2026Q2
   boundaryRef: SettlementServiceBoundary
-  interfaceSpecificationRef or gap: service API exists; semantic versioning and data-contract conditions incomplete
-  admissibilityConditions: service ownership and on-call responsibility declared; substitutability not established
+  interfaceSpecificationRef or gap: service API exists; semantic versioning, data schema, and semantic-constraint conditions incomplete
+  admissibilityConditions: team delivery responsibility and on-call responsibility declared; substitutability not established
   substitutionOrChangePolicyRef: missing
   liveClaimBoundary: role, enactor, work, and procedural correspondence first; module-interface relation only after boundary and interface specification are declared
-  notAModuleBecause: team ownership and delivery responsibility do not by themselves establish module interface, substitutability, or compatibility
+  notAModuleBecause: team communication boundary and delivery responsibility do not by themselves establish module interface, substitutability, or compatibility
   nextGoverningPatternRef: A.15 and A.2 for team and work claims; C.29 if homomorphism-like correspondence carries the live mathematical-lens claim; A.6.M only for the declared module-interface relation
   stopCondition: the correspondence is usable as an architecture diagnostic, not as proof
 ```
@@ -13949,7 +13952,7 @@ The third slice uses Conway-like mirroring as a diagnostic prompt. It does not m
 
 ### A.6.M:5 - Archetypal Grounding
 
-**Tell.** A module is not a little box. It is a holon playing a replaceable, reusable, or independently governable role inside a larger holon under a declared boundary and interface specification.
+**Tell.** A module is not a little box. It is a holon related to a larger holon under a declared boundary, interface specification, admissibility conditions, and substitution or change policy.
 
 **Show.** A software package, neural-network block, chiplet, power converter, document template, or organizational unit can become module-like in a project only when the relation record says what whole it belongs to, what boundary it offers, what interface specification governs use, and what substitution or change policy makes replacement admissible.
 
@@ -13965,7 +13968,7 @@ Holon and episteme: the candidate module and whole are described holons under a 
 | Open-label bias | Do not treat "open" as substitutability. Recover standards, conformance expectations, data or access constraints, and change policy where live. |
 | Component bias | Do not treat every part as a module. Apply A.14 to component wording unless module-interface role is live. |
 | Interface-label bias | Do not treat API, port, endpoint, or signature labels as implemented compatibility. Recover `InterfaceSpecificationRef`. |
-| Team-boundary bias | Do not treat Conway-like mirroring, team ownership, or delivery-unit labels as module boundaries. Recover role, enactor, work, and procedural relations first; add module-interface correspondence only when the boundary and interface specification are declared. |
+| Team-boundary bias | Do not treat Conway-like mirroring, team responsibility, team communication boundary, or delivery-unit labels as module boundaries. Recover role, enactor, work, and procedural relations first; add module-interface correspondence only when the boundary and interface specification are declared. |
 | Parallelism bias | Do not treat decomposition into more modules, teams, services, or paths as performance or evolvability improvement. Recover serial work, synchronization, communication overhead, shared resources, and bottleneck claims through TGA, C.29, C.31, or neighboring characteristic patterns when live. |
 | Platform bias | Do not treat a platform name as architecture quality. Recover platform grammar and the exact claim it can substantiate. |
 
@@ -13981,7 +13984,7 @@ Holon and episteme: the candidate module and whole are described holons under a 
 | `CC-A6M-6` | Function, TGA flow, control, work, evidence, assurance, gate, decision, causal, and mechanism claims use their exact governing patterns. |
 | `CC-A6M-7` | A failed check gives a repair move or exact governing pattern application, not only a rejection. |
 | `CC-A6M-8` | A current `G.2` source row for MOSA, open systems, platform practice, Conway correspondence, team-boundary correspondence, or Amdahl-style decomposition limits appears before that source carries live practitioner guidance. |
-| `CC-A6M-9` | RFC keywords are used only for pattern users, records, claims, conformance items, or publication, evidence, or assurance objects. Modeled modules and interfaces are not written as agents with duties. |
+| `CC-A6M-9` | RFC keywords are used only for pattern users, records, claims, conformance items, or publication records, evidence records, or assurance records. Modeled modules and interfaces are not written as agents with duties. |
 
 ### A.6.M:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -13991,8 +13994,8 @@ Holon and episteme: the candidate module and whole are described holons under a 
 | `SignatureAsInterface` | A signature declaration is treated as implemented compatibility. | Keep signature under A.6.0 and add interface-specification fields only when live. |
 | `PortAsProof` | Matching port or endpoint names are treated as integration proof. | Recover slot specs, protocol or schema, semantic conditions, and exact evidence, conformance, source relation, or reliance relation. |
 | `FunctionalLinkAsInterface` | A functional relation is treated as module boundary. | Keep `VP.Functional` and add correspondence or allocation only when live. |
-| `OpenByPublicationOnly` | Published interface text is treated as open architecture. | Add substitution policy, conformance expectations, change policy, and data or access constraints where live. |
-| `TeamBoundaryAsModule` | A team boundary, ownership label, or delivery unit is treated as a module interface. | Recover `A.15`, `A.2`, `VP.Procedural`, or `VP.RoleEnactor`; add A.6.M only for the declared module-interface relation; use `C.29` when a homomorphism-like correspondence claim is live. |
+| `OpenByPublicationOnly` | Published interface text is treated as open architecture. | Add substitution policy, conformance expectations, change policy, source or evidence relation, and data or access constraints where live; route supplier-set, procurement, evidence, assurance, gate, work, role, enactor, mechanism, and decision claims to their exact neighboring patterns. |
+| `TeamBoundaryAsModule` | A team boundary, team responsibility label, communication boundary, or delivery unit is treated as a module interface. | Recover `A.15`, `A.2`, `VP.Procedural`, or `VP.RoleEnactor`; add A.6.M only for the declared module-interface relation; use `C.29` when a homomorphism-like correspondence claim is live. |
 | `MoreModulesMeansBetter` | More modules, teams, services, threads, or parallel paths are treated as automatic improvement. | Recover serial work, synchronization, communication overhead, shared resources, and bottleneck claims; route mathematical speedup or homomorphism claims through `C.29` and route characteristic tradeoffs through `C.31` and `C.16`. |
 | `PlatformAsKind` | A platform label becomes a root kind or quality claim. | Use `PlatformGrammarRef` and apply exact governing patterns for quality, measurement, and decision claims. |
 | `StackAsArchitecture` | A stack diagram is treated as the architecture itself or as a module-interface relation by label. | Apply `C.30.STRAT` first; then use `C.30` or `C.30.ASV` for architecture or structural-view use, `A.6.M` only for a recovered module-interface relation, or ordinary source-label disposition. |
@@ -14022,14 +14025,16 @@ The pattern deliberately keeps measurement out of the first move. A module relat
 
 ### A.6.M:11 - SoTA-Echoing
 
-| Source or practice | Adopt | Adapt for FPF | Reject or boundary | Practitioner implication |
-| --- | --- | --- | --- | --- |
-| DoD OUSD(R&E) MOSA guidance and implementation guidebook (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`) | Modular design, interface standards, conformance verification, replacement or change policy, and competitive reuse are real conformance and substitution expectations. | Recover them as `InterfaceSpecificationRef`, `PlatformGrammarRef`, `substitutionOrChangePolicyRef`, conformance expectation, and evidence paths only where live. | Do not treat `open`, interface publication, or modular-looking structure as substitutability, assurance, procurement fitness, or quality proof. | A practitioner asking whether something is open first repairs the relation and the interface specification; measurement or decision claims open only when that use is live. |
-| Conway's law, the mirroring hypothesis, and Team Topologies and inverse Conway practice (`https://www.melconway.com/Home/Committees_Paper.html`; `https://doi.org/10.1016/j.respol.2012.04.011`; `https://itrevolution.com/wp-content/uploads/2022/06/TTOP_excerpt.pdf`) | Team communication structure, ownership boundaries, and delivery responsibility can create real pressure on module and interface boundaries and useful correspondence clues. | Recover team and work material through `A.15`, `A.2`, `VP.RoleEnactor`, or `VP.Procedural` first; connect it to `ModuleInterfaceStructure` only through declared correspondence, allocation, boundary relation, and preserved and lost structure note. Use `C.29` when the correspondence is claimed as homomorphism-like or almost-same structure. | Do not treat Conway's law, an org chart, team ownership, or a delivery unit as proof of module interface, substitutability, modularity quality, evidence, gate passage, or architecture decision. | A practitioner may use team-boundary mismatch as a diagnostic prompt: repair the role, work, and module relation, then decide whether the module boundary, team boundary, communication relation, or architecture move changes. |
-| Amdahl's law and communication and synchronization extensions (`https://www.cs.cmu.edu/~18742/papers/Amdahl1967.pdf`; `https://arxiv.org/abs/1306.3302`; `https://arxiv.org/abs/2603.20654`) | Serial work, synchronization, communication overhead, shared resources, and changing scalable workload fractions can limit the payoff of decomposition, parallelization, or specialization. | Use `C.29` for mathematical speedup or value-scalable-fraction reasoning, `E.18` and TGA for flow and crossing structure, and `C.31` and `C.16` for modularity and characteristic tradeoffs. | Do not treat module count, team count, service count, parallel-path count, or accelerator count as improvement, scalability, throughput, or evolvability by itself. | A practitioner considering a module split names the serial part, shared bottleneck, synchronization or communication overhead, and characteristic tradeoff before claiming improvement. |
-| SEI Views and Beyond and multi-view architecture practice | Module and component-and-connector views are distinct architecture descriptions. | Use `ModuleInterfaceStructure` and `RuntimeInteractionStructure` as structure-kind signals under `C.30.ASV`. | Do not reduce architecture to a module diagram. | Module repair stays one architecture-structure concern, not the whole architecture ontology. |
-| Platform and product-line engineering practice | Variation slots and extension rules matter for reuse and substitution. | Use `PlatformGrammarRef`, `variabilitySlotRefs`, and change policy instead of a platform root kind. | Do not treat platform name as architecture quality or scale advantage. | The next move is to identify extension rules and substitution conditions, not to evaluate the platform label. |
-| Architecture-operation language, with neural-network and software-system intakes as source examples | Source labels such as block, layer, expert, router, cache, and state are useful recognition prompts. | Keep them as `C.30.STRAT` source labels until the receiving FPF kind, relation, claim-use, or source-use disposition is recovered; return to A.6.M only for module-interface relation, interface specification, platform grammar, substitutability, or open-architecture module-interface claims. | Do not import source-context labels as module kinds or evidence of adequacy. | The same repair works for neural-network block replacement, hardware module substitution, organizational module repair, and episteme-module repair without making any source context the ontology. |
+| Source or practice | Currentness or lineage use | Adopt | Adapt for FPF | Reject or boundary | Practitioner implication |
+| --- | --- | --- | --- | --- | --- |
+| DoD OUSD(R&E) MOSA guidance and implementation guidebook (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`) | Current official acquisition and engineering practice family for open modular systems; used as current practice guidance, not as a complete FPF ontology. | Modular design, interface standards, conformance verification, replacement or change policy, and competitive reuse are real conformance and substitution expectations. | Recover them as `InterfaceSpecificationRef`, `PlatformGrammarRef`, `substitutionOrChangePolicyRef`, conformance expectation, source relation, and evidence path only where live; route supplier-set, procurement, policy authorization, evidence, assurance, gate, decision, work, role, enactor, and mechanism claims to their exact neighboring patterns. | Do not treat `open`, interface publication, or modular-looking structure as substitutability, assurance, procurement suitability, supplier-set selection, policy authorization, quality proof, or decision authority. | A practitioner asking whether something is open first repairs the relation and the interface specification; selection, procurement, evidence, assurance, gate, work, and decision claims open only when that use is live. |
+| Conway's law, the mirroring hypothesis, and Team Topologies and inverse Conway practice (`https://www.melconway.com/Home/Committees_Paper.html`; `https://doi.org/10.1016/j.respol.2012.04.011`; `https://itrevolution.com/wp-content/uploads/2022/06/TTOP_excerpt.pdf`) | Mature socio-technical law and empirical lineage plus current organization-design practice family; used as diagnostic pressure, not as a proof rule. | Team communication structure, team-boundary placement, and delivery responsibility can create real pressure on module and interface boundaries and useful correspondence clues. | Recover team and work material through `A.15`, `A.2`, `VP.RoleEnactor`, or `VP.Procedural` first; connect it to `ModuleInterfaceStructure` only through declared correspondence, allocation, boundary relation, and preserved and lost structure note. Use `C.29` when the correspondence is claimed as homomorphism-like or almost-same structure. | Do not treat Conway's law, an org chart, team responsibility label, or a delivery unit as proof of module interface, substitutability, modularity quality, evidence, gate passage, or architecture decision. | A practitioner may use team-boundary mismatch as a diagnostic prompt: repair the role, work, and module relation, then decide whether the module boundary, team boundary, communication relation, or architecture move changes. |
+| Amdahl's law and communication and synchronization extensions (`https://www.cs.cmu.edu/~18742/papers/Amdahl1967.pdf`; `https://arxiv.org/abs/1306.3302`; `https://arxiv.org/abs/2603.20654`) | Mature mathematical law plus current extension sources for communication, synchronization, and scalable-workload-fraction limits. | Serial work, synchronization, communication overhead, shared resources, and changing scalable workload fractions can limit the payoff of decomposition, parallelization, or specialization. | Use `C.29` for mathematical speedup or value-scalable-fraction reasoning, `E.18` and TGA for flow and crossing structure, and `C.31` and `C.16` for modularity and characteristic tradeoffs. | Do not treat module count, team count, service count, parallel-path count, or accelerator count as improvement, scalability, throughput, or evolvability by itself. | A practitioner considering a module split names the serial part, shared bottleneck, synchronization or communication overhead, and characteristic tradeoff before claiming improvement. |
+| SEI Views and Beyond, ISO/IEC/IEEE 42010:2022, and multi-view architecture practice | Mature architecture-description lineage plus current international view-description discipline; not used as a current module-quality source. | Module and component-and-connector views are distinct architecture descriptions. | Use `ModuleInterfaceStructure` and `RuntimeInteractionStructure` as structure-kind signals under `C.30.ASV`. | Do not reduce architecture to a module diagram. | Module repair stays one architecture-structure concern, not the whole architecture ontology. |
+| Platform and product-line engineering practice (`https://tag-app-delivery.cncf.io/fr/whitepapers/platform-eng-maturity-model/`; `https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`) | Mature product-line variability lineage plus current platform-engineering maturity-model and current SPLE-review cues; used for variability-slot and extension-rule discipline, not as one FPF platform kind. | Variation slots and extension rules matter for reuse and substitution. | Use `PlatformGrammarRef`, `variabilitySlotRefs`, and change policy instead of a platform root kind. | Do not treat platform name as architecture quality, architecture scale-preference evidence, procurement suitability, supplier-set selection, or decision authority. | The next move is to identify extension rules and substitution conditions; quality, architecture scale preference, procurement, supplier-set, and decision claims exit to the exact neighboring patterns. |
+| Architecture-operation language, with neural-network and software-system intakes as source examples | Current practitioner-language source examples accepted by the architecture workstream; used as recognition material, not as a standard or current-best-known authority. | Source labels such as block, layer, expert, router, cache, and state are useful recognition prompts. | Keep them as `C.30.STRAT` source labels until the receiving FPF kind, relation, claim-use, or source-use disposition is recovered; return to A.6.M only for module-interface relation, interface specification, platform grammar, substitutability, or open-architecture module-interface claims. | Do not import source-context labels as module kinds or evidence of adequacy. | The same repair works for neural-network block replacement, hardware module substitution, organizational module repair, and episteme-module repair without making any source context the ontology. |
+
+Older or local sources may serve as lineage or worked examples only when the row says so. They do not stand in for current competitive source, and they do not make a module, interface, platform, or open-architecture claim admissible for comparison, assurance, gate, selection, or decision use without the exact neighboring pattern that governs that use.
 
 ### A.6.M:12 - Relations
 
@@ -14037,7 +14042,7 @@ The pattern deliberately keeps measurement out of the first move. A module relat
 | --- | --- |
 | `A.6.P` | A.6.M is an RPR specialization for module-relation and interface-specification language. |
 | `C.30.STRAT` | Recovers layer, stack, block, expert, cache, router, gate, and similar source labels before A.6.M receives only recovered module-interface relation cases. |
-| `E.16` | Carries autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those are live; A.6.M keeps only module-interface governance. |
+| `E.16` | Carries autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those are live; A.6.M keeps only the module-interface relation, boundary, interface specification, and substitution or change-policy slice. |
 | `A.14` | Component and part-whole wording uses A.14 first unless module-interface role is live. |
 | `A.6.0` and `A.6.5` | Signatures, slots, ports, endpoints, and field structure remain governed by signature and slot discipline. |
 | `A.6.B`, `A.6.C`, and `A.6.8` | Boundary, interface-specification, API, protocol, service, promise, and duty wording uses A.6.M when live. |
@@ -14050,6 +14055,7 @@ The pattern deliberately keeps measurement out of the first move. A module relat
 | `C.16` | Measurement, score, scale, unit, comparability, and evidence-stub legality remain C.16-governed. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `E.20`, `G.5`, `C.11` | Evidence, assurance, gates, causal use, mechanism suites, set-return selection, and local decisions use their exact governing patterns; they are not A.6.M claims. |
 ### A.6.M:End
+
 ## A.6.5 -  U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)
 
 **Plain‑name.** Relation slot discipline.
@@ -50040,7 +50046,7 @@ The second failure mode is mathematical overread:
 
 #### C.29:4.1 - Selected answer in one paragraph
 
-`C.29 — Mathematical Lens Use` is the general FPF discipline for mathematical lenses used in explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer. It handles two first-use cases, with the positive case first: an under-lensed situation where the next admissible move can benefit from a cheap first candidate lens; and an existing candidate lens ready for application, repair, bounding, replacement, or rejection. Its job is to help the reader introduce, choose, apply, limit, replace, or remove a mathematical lens so that a useful admissible next move survives. A mathematical lens is admissible for a declared use when it compresses a phenomenon by preserving declared structure, exposing useful invariants, and producing lens-admissible predictions, distinctions, obstructions, or diagnostic boundaries inside a bounded context. It is inadmissible for an undeclared or unadmissible use when it imports source-domain ontology, hides loss under metaphor, treats source prestige as evidence, or licenses claims outside its declared scale, context, validation, bridge, causal, or assurance boundary.
+`C.29 — Mathematical Lens Use` is the general FPF discipline for mathematical lenses used in explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer. It handles two first-use cases, with the positive case first: an under-lensed situation where the next admissible move can benefit from a cheap first candidate lens; and an existing candidate lens proposed for application, repair, bounding, replacement, or rejection. Its job is to help the reader introduce, choose, apply, limit, replace, or remove a mathematical lens so that a useful admissible next move survives. A mathematical lens is admissible for a declared use when it compresses a phenomenon by preserving declared structure, exposing useful invariants, and producing lens-admissible predictions, distinctions, obstructions, or diagnostic boundaries inside a bounded context. It is inadmissible for an undeclared or unadmissible use when it imports source-domain ontology, hides loss under metaphor, treats source prestige as evidence, or licenses claims outside its declared scale, context, validation, bridge, causal, or assurance boundary.
 
 `C.29` does not mint `MathLens`, `U.MathLens`, `LensKind`, or any universal FPF lens object. In this pattern, “mathematical lens” names a declared use of a mathematical object, formalism, learned representation, simulation substrate, or mathematical family under declared mapping, preserved structure and lost structure, `LensUseAdmissibilityValue`, admissible use, and stop condition; the target phenomenon and any claim outside that declared lens use keep their own FPF kinds.
 
@@ -50073,7 +50079,7 @@ Plain and Tech bridge:
 | What can the reader now do? | `AdmissibleNextMove` or `admissibleUse`. |
 | What remains blocked? | `StopCondition` and `nonAdmissibleUse`. |
 
-State, scale, and dynamics trigger: if the lens carries state, transition, forecast, rate, temporal window, scale window, observation, measurement, comparison, score, strong wording or weak wording, or causal implication, the cheapest honest output either names the minimal relevant field or names the receiving FPF locus. If characteristic, scale, coordinate, score, metric, indicator, or comparison wording is itself hidden, use `C.16.P` before relying on C.29; if a valid measurement relation is already recoverable, measurement construction and direct comparability stay with `C.16`. State and transition semantics stay with `A.3.3`; characteristic spaces and overlays stay with `A.19`; temporal-use adequacy stays with `C.27`; scale-law and scale-preference claims stay with `C.18.1` and `C.19.1`; causal-use question and verdict stay with `C.28`.
+State, scale, and dynamics trigger: if the lens carries state, transition, forecast, rate, temporal window, scale window, observation, measurement, comparison, score, strong wording or weak wording, or causal implication, the cheapest honest output either names the minimal relevant field or names the receiving FPF locus. If characteristic, scale, coordinate, score, metric, indicator, or comparison wording is itself hidden, use `C.16.P` before relying on C.29; if a valid measurement relation is already recoverable, measurement construction and direct comparability stay with `C.16`. State and transition semantics stay with `A.3.3`; characteristic spaces and overlays stay with `A.19`; temporal-use adequacy stays with `C.27`; scale-law and general method-scale preference claims stay with `C.18.1` and `C.19.1`; architecture scale-preference claims stay with `C.31.ASAP`; causal-use question and verdict stay with `C.28`.
 
 #### C.29:4.2a - Mathematicalization Utility Principle
 
@@ -50103,7 +50109,7 @@ If no next admissible move changes, keep the text as ordinary prose, downgrade i
 | Cohomology, closed relation and exact relation split, topological obstruction | Why a local rule cannot be made global, or why a transfer or composition is blocked. | Name the cycle or cocycle-like object, equivalence class or obstruction, local closure condition, failed exactness witness or failed global witness, and the blocked claim. | Useful obstruction is a `LostStructure` or `StopCondition`; it is not a causal explanation without `C.28` and evidence. |
 | Symmetry, invariance, equivariance, Noether-like conservation | Which transformations leave the relevant claim unchanged, or which conservation-like quantity follows from an invariance. | Name the transformation family, action on the described variables, invariant or conserved quantity, assumptions, and distinctions intentionally lost. | Does not transfer physical conservation, coordinate-free truth, or causal mechanism without domain evidence path and dynamics semantics. |
 | Variational principle, action, energy, free-energy, loss, or value functional, Legendre or convex duality | Whether a behavior, representation, design, or trade-off follows from stationarity, extremum, dual variables, or potential transformation. | Name the functional, admissible variation space, constraints, boundary conditions, stationarity or extremum condition, dual transform, and what the dual view makes visible. | Does not imply the target literally optimizes that functional unless `A.3.3`, `A.10`, or `C.28` carries the dynamics semantics, evidence path, or causal use. |
-| RG, coarse-graining, fixed point, basin, universality | Why different microdescriptions can share one macropattern, or when a scale claim stops. | Name the scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, invariant or exponent, and lost microstructure. | Scale-law adequacy and scale advantage move to `C.18.1` and `C.19.1`; no micro-mechanism identity is licensed. |
+| RG, coarse-graining, fixed point, basin, universality | Why different microdescriptions can share one macropattern, or when a scale claim stops. | Name the scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, invariant or exponent, and lost microstructure. | Scale-law adequacy and general method scale-preference claims move to `C.18.1` and `C.19.1`; architecture scale-preference claims move to `C.31.ASAP`; no micro-mechanism identity is licensed. |
 | Diagonal, self-reference, fixed-point theorem, no-go family | Whether a universal evaluator, complete language, self-model, closure rule, or governance rule is blocked by self-application. | Name the encoding, evaluator or self-map, diagonal or fixed-point construction, universal claim being tested, and exact impossibility or closure boundary. | Does not prove every recursive-looking case is a no-go theorem; assurance or governance claims move to `B.3`, `E.19`, or the local domain pattern. |
 | Composition, category, operad, optic, semiring or limit transform | Whether composition, interface, view, transformation, or algebraic law is the useful preserved structure. | Name objects, morphisms or relations, composition law, identity or interface condition, preserved algebraic law, failed transfer, and any limit transform such as classical or tropical or Fourier-Laplace or Legendre. | Bridge semantics and substitution safety move to `F.9`; C.29 only records the declared lens use and its loss. |
 | Probability, information, observation, acquisition | Which uncertainty, information, typicality, readout, or next observation changes the next admissible move. | Name the random variables or distributions, utility or information criterion, observation or probe design variable, model assumptions, estimation method, validation boundary, and robustness note. | Measurement, evidence, experiment planning, causal-use verdicts, and assurance stay with `C.16`, `A.10`, `C.28`, `A.15`, and `B.3`. |
@@ -50138,6 +50144,72 @@ MathLensUse.StructuralInformationLensUse@Context:
 
 When the target is a physical, organizational, or project-world situation, the record must say whether the structural-information claim is observational, postulated, simulated, or only a description-local compression. When the lens is used in architecturing, `C.30` governs architecture as EntityOfConcern, `C.30.ASV` governs structural-view adequacy, `C.30.AD` governs architecture descriptions, and `C.31` or `C.31.RSA` governs modularity or reusable-structure accounting. `C.29` records only the declared lens use: what recoverable structure the mathematical lens makes visible, what it loses, and where that use stops.
 
+#### C.29:4.2d - Architecture-local lens descriptions
+
+Architecture work may use C.29-local descriptions for graph, flow, control, structural-information, RG or coarse-graining, and multilevel-learning or frustration lenses. These names are C.29 output descriptions, not architecture ontology, not proof, and not durable FPF kinds by themselves.
+
+| Local C.29 description | Candidate mathematical object | Visible payoff | Stop condition |
+| --- | --- | --- | --- |
+| `MLU.Description@ArchitectureGraphDSM` | typed graph, hypergraph, DSM, DMM, or MDM matrix | dependencies, clusters, change propagation, and bottlenecks | not evidence of semantic interface correctness, compositional quality, or architecture decision by itself |
+| `MLU.Description@TGAFlowStructure` | transduction graph with morphism nodes and `U.Transfer` edges | flow topology, crossings, and path slices without hidden scalarization | not work occurrence, gate decision, or evidence by itself |
+| `MLU.Description@ArchitectureLCA` | layered control stack or multi-rate control model | planner, regulator, plant, observer, feedback timing, and externality separation | not stability or causal-use relation without dynamics, evidence, and `C.28` |
+| `MLU.Description@EpiplexityStructuralInformation` | bounded-observer structural information or two-part code | learnable reusable structure versus residual or unmodeled structure | not utility, assurance, OOD guarantee, or causal proof |
+| `MLU.Description@RGArchitecture` | scale map over architecture descriptions, fixed-point or basin metaphor, or declared coarse-graining map | scale-stability of an architecture vector and exploding exceptions | not literal physical RG unless domain theory warrants it |
+| `MLU.Description@MultilevelLearningFrustration` | multilevel learning over structurally renormalizable descriptions, frustrated optimization landscape, or variational residual model | residual-reducing architecture moves across declared scopes or levels | not proof that the project literally optimizes one global function |
+
+`MLU.Description@RGArchitecture` is live only when the use names a declared aggregation scope, scale variable or scale window, coarse-graining rule, preserved structure, lost structure, source-return condition, and the exact overread that the lens does not license. If the claim becomes a scale-preference claim, `C.31.ASAP` receives the architecture preference side; C.29 keeps only the declared mathematical-lens use.
+
+Minimum RG architecture description:
+
+```text
+MLU.Description@RGArchitecture:
+  TargetPhenomenon:
+  CandidateMathObject:
+  LensMappingMode:
+  ScaleWindow?:
+  CoarseGrainingRule?:
+  PreservedStructure:
+  LostStructure:
+  VisiblePayoff:
+  SourceReturnCondition?:
+  admissibleUse:
+  nonAdmissibleUse:
+  AdmissibleNextMove:
+  StopCondition:
+```
+
+For architecture work, a common RG-shaped candidate object is:
+
+```text
+A_l = (Holons_l, FunctionalRelations_l, FlowRelations_l, ControlRelations_l,
+       ModuleRelations_l, InterfaceSpecificationRefs_l, DependencyEdges_l,
+       WorkMethodRefs_l, EvidencePackageRefs_l, QualifierRefs_l)
+
+R_l : A_l -> A_{l+1}
+```
+
+The index `_l` is a declared aggregation-scope index inside this C.29 lens, not a generic level, tier, layer, or ladder. Each use names the aggregation scope, the coarse-graining rule, the lost structure, and the source-return condition.
+
+`MLU.Description@MultilevelLearningFrustration` is live only when the use names declared holon levels or declared scopes, a mapping between them, conflicting constraints or residuals, preserved structure, lost structure, and the nearest neighboring FPF pattern for any measurement, causal, evidence, assurance, work, selected-set, or decision claim.
+
+Minimum multilevel-learning and frustration description:
+
+```text
+MLU.Description@MultilevelLearningFrustration:
+  TargetPhenomenon:
+  CandidateMathObject:
+  LensMappingMode:
+  PreservedStructure:
+  LostStructure:
+  VisiblePayoff:
+  admissibleUse:
+  nonAdmissibleUse:
+  AdmissibleNextMove:
+  SourceReturnCondition?:
+  StopCondition:
+```
+
+Admissible use: triage, explanation, candidate generation, rival-lens comparison, scale-window reasoning, source-return triggers, and architecture-decision rationale only when the neighboring pattern carries any non-C.29 claim. Non-admissible use: no proof that the project literally optimizes one global function, no causal proof, no assurance score, no claim that complexity necessarily grows, and no replacement for `C.11`, `C.28`, `B.3`, `C.16`, `G.5`, or stakeholder and ethics patterns.
 #### C.29:4.3 - Use boundary
 
 This boundary prevents `C.29` from being over-applied.
@@ -50178,7 +50250,7 @@ First neighboring-locus map:
 | relation substrate, relation kind, or structure-preserving relation wording | `A.6.P` and local relation patterns | mathematical-lens use only if a mathematical object changes the stated use |
 | state variables, transition law, observation map, constraints, or calibration | `A.3.3` and `A.19` | preserved structure and lost structure and lens stop condition |
 | measurement construction, scale, unit, polarity, or comparability | `C.16` | lens-use admissibility value for measurement-dependent use |
-| scale law, universality, knee, exponent, or scale preference | `C.18.1` or `C.19.1` | scale-bounded mathematical-lens use |
+| scale law, universality, knee, exponent, general method-scale preference, or architecture scale preference | `C.18.1` or `C.19.1` for scale-law and general method BLP claims; `C.31.ASAP` for architecture scale-preference claims over a declared alternative set, scale variable, and scale window | scale-bounded mathematical-lens use |
 | cross-context meaning, substitution, or Bridge-admissible use | `F.9` | mathematical structure used inside the bridge claim |
 | causal, intervention, policy, or counterfactual use | `C.28` | whether the lens preserves, approximates, or blocks causal-use structure |
 | evidence, provenance, source currentness, assurance, release, selector, or benchmark use | `A.10`, `B.3`, or relevant `G.*` pattern | declared mathematical-lens use as one input only |
@@ -50309,7 +50381,7 @@ After applying `C.29`, the output is one of these:
 | `MathLensUse.FullCard` | Full card for publication, bridge, assurance input, model selection, benchmark, prediction, or reusable explanation. |
 | `NeighborGoverningLocusNote` | A named neighboring FPF locus governs the live causal, bridge, evidence, scale, dynamics, temporal, decision, work, explanation, comparison, representation, measurement, or assurance claim; the C.29 application records only the declared lens-use result. |
 
-Positive warning: a successful `C.29` output makes the mathematical lens honest for its declared use. It does not make the claim true, safe, released, benchmark-superior, decision-ready, or causal-use-admissible. Truth, safety, release, benchmark, decision, and causal-use claims need their governing neighboring FPF patterns.
+Positive warning: a successful `C.29` output makes the mathematical lens honest for its declared use. It does not make the claim true, safe, released, benchmark-superior, admissible for decision use, or causal-use-admissible. Truth, safety, release, benchmark, decision, and causal-use claims need their governing neighboring FPF patterns.
 
 `LensMappingMode`, `LensUseAdmissibilityValue`, and admissible use are separate fields.
 
@@ -50363,7 +50435,7 @@ Candidate guidance rows are examples for first recognition. Use the row that fit
 | local-to-global boundary relation, conservation across a boundary, or source balance or sink balance | Stokes-like, exterior-derivative, divergence, flux, or boundary-operator lens | Name the domain, boundary, local rule, boundary condition, and conserved or sourced quantity; do not infer mechanism, evidence, or bridge safety without the neighboring pattern. |
 | local rule that cannot become a global solution, or a transfer blocked by topology | cohomology, closed relation, exact relation, obstruction, or failed-extension lens | Name the local closure condition, global witness that fails, obstruction class or equivalent diagnostic boundary, and the blocked claim. |
 | comparison, similarity, distribution shift, population movement, or shape change | metric-space distance, topology, embedding, or optimal-transport lens | Declare what distance, neighborhood, order, embedding, coupling, or transport cost preserves and what it loses; use `C.16` for comparability and measurement construction when live. |
-| scale transition, coarse behavior, universality, knee, fixed point, or basin-of-attraction cue | coarse-graining, RG, fixed-point, or scaling-law lens | Name scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, and invariants; use `C.18.1` for scale-law adequacy and `C.19.1` when scale advantage or BLP preference is live. |
+| scale transition, coarse behavior, universality, knee, fixed point, or basin-of-attraction cue | coarse-graining, RG, fixed-point, or scaling-law lens | Name scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, and invariants; use `C.18.1` for scale-law adequacy, `C.19.1` when general method scale-preference or BLP preference is live, and `C.31.ASAP` when architecture scale preference is live. |
 | invariance under transformations, coordinate changes, or conservation-like claim | symmetry, group action, Noether-like, invariant, or equivariant representation | Identify the transformations, invariant or conserved quantity, assumptions, distinctions preserved, and coordinate details lost; do not import physical conservation without evidence. |
 | extremal behavior, trade-off, dual view, potential, or cost relation or resource relation | variational, Lagrangian or Hamiltonian, action, energy, or free-energy, Legendre, convex-duality, or constrained-optimization lens | Name the functional, variation space, constraints, boundary conditions, stationarity or extremum condition, dual transform, and what the dual view makes visible. |
 | self-reference, universal evaluator, complete-language claim, closure paradox, or impossible total method | diagonal, fixed-point theorem, no-go, or self-application lens | Name the encoding, evaluator or self-map, diagonal move, universal claim tested, and exact closure or impossibility boundary; do not turn every loop into a no-go theorem. |
@@ -50407,7 +50479,7 @@ False-negative bank: open `C.29` even when no polished mathematical buzzword app
 | “This comparison feels important, but distance is unclear.” | Metric-space distance, topology, embedding, or transport adequacy is live. | Name what comparison preserves and loses before using the comparison. |
 | “We transfer a structure between contexts because it looks the same.” | Mathematical-lens use and bridge loss are live. | Name preserved structure and lost structure and use `F.9` when cross-context meaning or substitution is live. |
 | “A latent space is used as a scientific explanation.” | Learned-lens overread is live. | Name observation map, validation slice, generalization boundary, and stop causal or ontology overread. |
-| “The method scales because the mathematics is elegant.” | Scale-law adequacy or BLP preference claim is live. | Name scale variable or scale window and use `C.18.1` or `C.19.1` when scale advantage is claimed. |
+| “The method scales because the mathematics is elegant.” | Scale-law adequacy or BLP preference claim is live. | Name scale variable or scale window; use `C.18.1` for scale-law adequacy, `C.19.1` for general method scale-preference or BLP preference, and `C.31.ASAP` for architecture scale preference. |
 
 Entry guidance states when `C.29` is the first governing locus and when another pattern is first:
 
@@ -50458,7 +50530,7 @@ Boundary transfer rule: when the live claim is a choice result, work plan, evide
 | cross-context meaning, bridge kind, direction, CL, loss, and substitution | `F.9` | Reference Bridge; do not duplicate Bridge Card semantics. |
 | causal-use question or verdict | `C.28` | Block causal overread or cite a `C.28` application or support record. |
 | forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, temporal window, or rate-change used as sufficient for a use | `C.27` | Can state that a mathematical lens carries a prediction or distinction; temporal-claim adequacy stays with `C.27`. |
-| scale-law and Bitter-Lesson preference claims | `C.18.1`, `C.19.1` | Cite scale-window or BLP evidence when scale behavior or scale advantage is live. |
+| scale-law and Bitter-Lesson preference claims | `C.18.1`, `C.19.1`, `C.31.ASAP` | Cite scale-window, scale-law, BLP, or architecture scale-preference evidence when scale behavior, general method scale preference, or architecture scale preference is live. |
 | quantum-like modeling | `C.26` | Treat `C.26` as C.29-compatible specialization, not as full-card inheritance for every QL-lite note. |
 | selectors, benchmarks, parity, SoTA packs, and model-selection publications | `G.5`, `G.9`, `G.2`, `G.10` | Selector or benchmark records govern publication and evaluation; a `MathLensUse.*` card can contribute declared lens use for a selector or benchmark input only. |
 
@@ -50893,6 +50965,7 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 | `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
 | `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` carries claim-bearing use, recover the concrete substrate, preserved structure, lost structure, visible payoff, use-admissibility value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
 | `CC-C29-6b Bounded-observer structural-information lens` | When MDL, epiplexity, compression, graph information, or description-recoverability changes the next move, recover `TargetPhenomenon`, source episteme or trace, bounded observer, candidate measure or code, mapping mode, preserved and lost selected structure, visible payoff, observation or postulate boundary, source-return condition, use-admissibility value, and stop condition. | Prevents C.29 from turning recoverable-structure estimates into architecture ontology, quality, selector, evidence, assurance, OOD, or causal claims. |
+| `CC-C29-6c Architecture-local lens descriptions` | When `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another architecture-local lens description carries claim-bearing use, recover declared scope or scale window, candidate mathematical object, mapping mode, preserved structure, lost structure, source-return condition, admissible next move, and stop condition; send architecture, scale-preference, measurement, evidence, assurance, selected-set, and decision claims to their exact neighboring patterns. | Prevents architecture lens descriptions from becoming architecture ontology, RG proof, global-optimizer proof, scale preference, evidence, assurance, selector, or decision authority. |
 | `CC-C29-7 Lens-admissible prediction or distinction` | When decision, prediction, model selection, or publication-as-model is live, state at least one lens-admissible prediction, distinction, obstruction, or diagnostic boundary, or downgrade to analogy-only prompt. | Prevents decorative formalism. |
 | `CC-C29-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is live, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
 | `CC-C29-8a Neighboring claim distribution` | If the live output is a choice result, method or work record, evidence path, assurance claim, explanation rendering, comparative review unit, representation shift, coarsened rendering, temporal claim, selector, benchmark, or publication-facing use, name the governing FPF locus and exact project-side record. | Prevents C.29 from absorbing neighboring claims. |
@@ -50911,7 +50984,7 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 | `CC-C29-18 Plain and Tech balance` | A Plain sentence can remain when it aids recognition; if it carries ontology, evidence, causal, assurance, bridge, gate, work, decision, or admissibility commitment, that commitment is recovered through the Tech fields or neighboring pattern. | Preserves didactic usefulness without shadow semantics. |
 | `CC-C29-19 Non-use and false-positive bank` | The pattern includes non-use examples for ordinary local domain equations, local graph data structures, A.19 overlays, local category proofs, and one-off metaphors. | Prevents C.29-everywhere. |
 | `CC-C29-20 Repair matrix` | Failed checks map to repair outputs: downgrade, narrow, add loss, add evidence, choose rival lens, apply neighbor, or block overread. | Keeps C.29 as a repair pattern. |
-| `CC-C29-21 Validation harness` | Stable admission requires the small harness cases in §8.1 or an admitted equivalent validation carrier. | Makes repeatable readiness visible. |
+| `CC-C29-21 Validation harness` | Stable admission requires the small harness cases in §8.1 or an admitted equivalent validation carrier. | Makes repeated validation admission visible. |
 
 ### C.29:12 - Common anti-patterns
 
@@ -50925,7 +50998,7 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 | **Local-theory over-escalation** | Accepted local dynamics or domain equations are treated as needing C.29 by default. | Keep them under the local domain pattern or `A.3.3` unless a separate lens-transfer claim, publication use, assurance input, bridge, comparison, or reusable-explanation use is live. |
 | **False exactness** | Equivalence, isomorphism, or exact representation is declared when only analogy, fit, or simulation exists. | Downgrade `LensMappingMode` or justify the declared exact relation through the exact governing pattern. |
 | **RG-as-vibe** | “Everything is coarse-graining” with no scale window, coarse-graining rule, or fixed point. | Declare scale variable, coarse-graining rule, invariants, and rival micro-models. |
-| **Elegant-math override** | A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while scale advantage is live. | Use BLP scale-audit when the claim is scale advantage; otherwise mark the lens as local and bounded by `C.29` stop condition. |
+| **Elegant-math override** | A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while a general method scale-preference claim or architecture scale-preference claim is live. | Use BLP scale-audit when a general method scale-preference claim is live; use C.31.ASAP when architecture scale preference is live; otherwise mark the lens as local and bounded by `C.29` stop condition. |
 | **Familiar math misses live structure** | A graph, linear trend, average, two-characteristic chart, or score is used because it is familiar while the live problem needs uncertainty, topology, dynamics, causal structure, scale law, distribution geometry, or operator view. | Name the working problem cue; choose a lens family that exposes the missing structure, or keep the simple math as local orientation only and block transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable-explanation use. |
 | **Vanchurin over-adoption** | “FPF now says physics is learning.” | Mark as candidate lens; retain open questions and evidence limits. |
 | **Invariant-free metaphor** | “Market is a field” with no invariant, transition law, observation map, or `LensUseAdmissibilityValue`. | Downgrade to local metaphor or build a `MathLensUse.OneLine` or mini-card. |
@@ -50953,7 +51026,7 @@ SoTA source use for `C.29` is accepted only when it changes action guidance. A c
 | `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the current problem cue. | Require a lens before the candidate changes the next move. |
 | `adequacyControlSource` | Discipline preserved structure, lost structure, stop condition, validation regime, or neighboring-pattern exit. | Replace the C.29 fields or the neighboring governing pattern. |
 | `validationBoundarySource` | Constrain the declared validation regime, evaluation slice, uncertainty, failure case, or domain of applicability. | Become an evidence path, assurance claim, benchmark result, or release confidence by source prestige alone. |
-| `acceptedDomainTheory` | Support local use inside a domain where the theory is already the governing local substrate. | License cross-context ontology import or broader transfer without `F.9`, evidence, and stop condition. |
+| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local substrate. | License cross-context ontology import or broader transfer without `F.9`, evidence, and stop condition. |
 | `proofUnderAssumptions` | Justify a formal property under stated assumptions. | Prove real-world adequacy unless assumptions, observations, bridge, and evidence path are also present. |
 | `negativeExample` | Expose failure, obstruction, non-transfer, counterexample, or stop condition. | Act as a proof that the rival or source family is globally unusable. |
 | `rivalLensSource` | Name a principal rival lens or relation that changes the current admissible move. | Become a literature review, selector result, or benchmark result. |
@@ -51139,11 +51212,12 @@ Use this recognition menu only to identify a possible lens family and likely nei
 - **Decision basis:** `E.9` design-rationale discipline and the source-basis rows in `C.29:13a`.
 - **Contributes to:** `E.2` pillar-impact analysis when a pillar argument relies on mathematical first-principles structure; only declared mathematical-lens use is in scope, with no amendment to pillar content, priority, or constitutional authority.
 
-- **Coordinates with:** `C.11`, `A.15.1`, `A.15.4`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `G.5`, `G.9`, `G.2`, `G.10`.
+- **Coordinates with:** `C.11`, `A.15.1`, `A.15.4`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `C.31.ASAP`, `G.5`, `G.9`, `G.2`, `G.10`.
 - **Specialization relation:** `C.26` is selected as a C.29-compatible specialization for quantum-like modeling, with affordability qualifications.
-- **Does not replace:** `F.9` bridges, `C.28` causal-use discipline, `A.3.3` dynamics semantics, `A.19` characteristic-space governance, `C.16` measurement construction, scale legality, direct comparability, and evidence-stub adequacy, `A.10` and `B.3` evidence and assurance, `C.11` decision records, `A.15`, `A.15.1`, and `A.15.4` method and work records, `E.17.EFP` explanation-use discipline, `E.17.ID.CR` comparative review units, `A.6.3.RT` representation transitions, `A.6.3.CSC` coarsening, `C.27` temporal-claim adequacy, `C.18.1` and `C.19.1` scale-law and BLP preference claim, or G-pattern selector and benchmark work.
+- **Does not replace:** `F.9` bridges, `C.28` causal-use discipline, `A.3.3` dynamics semantics, `A.19` characteristic-space governance, `C.16` measurement construction, scale legality, direct comparability, and evidence-stub adequacy, `A.10` and `B.3` evidence and assurance, `C.11` decision records, `A.15`, `A.15.1`, and `A.15.4` method and work records, `E.17.EFP` explanation-use discipline, `E.17.ID.CR` comparative review units, `A.6.3.RT` representation transitions, `A.6.3.CSC` coarsening, `C.27` temporal-claim adequacy, `C.18.1` and `C.19.1` scale-law and BLP preference claim, `C.31.ASAP` architecture scale-preference claim, or G-pattern selector and benchmark work.
 
 ### C.29:End
+
 ## C.30 - Grounded Architecture and Selected-Structure Adequacy
 
 > **Type:** Architectural pattern
@@ -51406,7 +51480,7 @@ C. ArchitectureAdequacyBearer
    Examples: viewpoint coverage, correspondence adequacy, source-return adequacy, description modularity
 ```
 
-C.30 keeps only a thin bridge from structural characteristics to Q-Bundle relevance. If the claim says architecture causes an outcome improvement, assign causal-use governance to `C.28` before causal use. If a structural characteristic is used as a mechanism, constraint, predictor, proxy, evidence relation, or causal hypothesis for a Q-Bundle slot, start with `ArchitectureStructuralCharacteristicQBundleRelationLine` rather than a formula such as `low coupling = maintainability`; send measurement, modularity scoring, reusable-structure share or accounting, bespoke-residue accounting, evidence sufficiency, assurance, gate, causal proof, and scale audit to their exact governing patterns.
+C.30 keeps only a thin bridge from structural characteristics to Q-Bundle relevance. If the claim says architecture causes an outcome improvement, assign the causal-use claim to `C.28` before causal use. If a structural characteristic is used as a mechanism, constraint, predictor, proxy, evidence relation, or causal hypothesis for a Q-Bundle slot, start with `ArchitectureStructuralCharacteristicQBundleRelationLine` rather than a formula such as `low coupling = maintainability`; send measurement, modularity scoring, reusable-structure share or accounting, bespoke-residue accounting, evidence sufficiency, assurance, gate, causal proof, and scale audit to their exact governing patterns.
 
 `ArchitectureStructuralCharacteristicQBundleRelationLine` is the only ordinary first-contact relation shape C.30 introduces for this case. Do not add a second generic characteristic relation record in C.30. Use the line when the useful move is to show why one structural characteristic may matter without opening the full relation record. Do not use this line as a measurement record, modularity score, evidence sufficiency statement, assurance verdict, or causal proof:
 
@@ -51674,7 +51748,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **Publication-unit architecture drift** | One publication unit mixes architecture description, evidence claim, gate decision state, decision note, and work authority under one architecture heading. | Name the source architecture description or view, split evidence claims, gate decision state, decision note, and work authority to exact governing patterns, and keep the publication face subordinate to E.17 and MVPK. A publication heading is not an architecture claim, and a section title is not evidence, gate, decision, or work authority. |
 | **Module-diagram takeover** | Architecture is reduced to module structure or interface relation. | Recover structure kind and use `C.30.ASV`; assign full module repair to the exact module-and-interface repair pattern when that claim kind is live. |
 | **Tool-model lock-in** | A notation or tool model becomes the source of architecture truth. | Recover FPF architecture claim, structures, views, correspondence, and source-return condition. |
-| **Evidence laundering** | A published architecture description is used as evidence sufficiency. | Assign evidence-path governance to `A.10` or `G.6`; C.30 keeps only the architecture claim, selected-structure, and conditional architecture-description-use boundary; evidence-path governance stays with the evidence pattern. |
+| **Evidence laundering** | A published architecture description is used as evidence sufficiency. | Assign the evidence-path relation or evidence claim to `A.10` or `G.6`; C.30 keeps only the architecture claim, selected-structure, and conditional architecture-description-use boundary; evidence-path relation stays with the evidence pattern. |
 | **Assurance or safety overread** | Architecture description or LCA diagram is used as assurance or safety case. | Assign the live claim to `B.3`, `A.10`, `G.6`, `C.30.LCA`, and live safety patterns or gate patterns. |
 | **Risk color as architecture decision** | A red, yellow, or green risk cell, risk matrix, or maturity score decides the architecture move or resource-allocation priority. | Recover the live structure kind, affected scope, loss, hazard, or threat path, source relation or grounding relation, characteristic scale, comparator, and gate pattern; do not treat ordinal risk color as architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation reason, or gate passage. |
 | **Causal slogan** | Architecture property is said to cause a quality without a declared relation grounding. | Start with `ArchitectureStructuralCharacteristicQBundleRelationLine`; open `C.28`, evidence-path, causal-use, or assurance claim, or `ArchitectureCharacteristicQBundleRelationRecord` only when that stronger evidence, causal-use, assurance, or full relation claim is live. |
@@ -51710,7 +51784,7 @@ The DescriptionContext structure also preserves plurality. The same architecture
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-agent architecture probing benchmarks | Adapt partial-observability probing, typed edge rules, component-boundary rules, invariant-field semantics, uncertainty or unexplored-region reporting, and probe-as-intervention warning. | A generated code relation graph can supply a source relation for an architecture description or structural view only with claim, source, uncertainty, relation semantics, and source return. | Do not mint `U.CodeSpace`; do not treat probe or benchmark output as architecture adequacy, evidence sufficiency, assurance, or release. |
 | Holon-architecture law-like constraint set from the architecture source | Adopt Conway mirroring, Amdahl, queueing, requisite-variety, information-hiding, effective-interface, abstraction-leakage, proxy-pressure, end-to-end, distributed-structure, and evolution-constraint sources only as architecture-relevant pressure and recognition cues. | Use them to ask which selected structure, characteristic, correspondence, flow boundary, control boundary, or architecture move is live; then apply `A.6.M`, `C.31`, `C.30.ASV`, `C.30.LCA`, `C.30.TGA-FLOW-REL`, `C.29`, `C.16`, `C.25`, `G.5`, `C.11`, or the exact neighboring pattern. | No law-like slogan is architecture adequacy, decision, evidence sufficiency, assurance, gate passage, or universal architecture ontology by itself. |
 | GonzoML neural-network architecture corpus as source example for general architecture-operation language | Adopt practitioner architecture-operation language as general architecture material: structural substitution, relation retargeting, dataflow change, path-selection and gating, memory and cache placement, block and layer substitutions, MoE expert-selection, pruning, distillation, NAS, ablation, and compute, memory, and latency tradeoffs. | Keep source labels as source labels through `C.30.STRAT`; after recovery, use the language for architecture-description and architecture-view recognition, TGA flow-structure source relation, module-and-interface repair, scale characterization, candidate move guidance, and decision-context fields. | Neural-network labels, benchmarks, ablations, pruning masks, search outputs, or distillation success do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
-| Platform-engineering, MOSA, and open-systems practice | Adapt open-interface and platform-readiness pressure as local architecture boundary discipline. | For an open-interface claim or platform claim, name the local structure, interface, variation point, substitution policy, conformance-evidence governing pattern, migration boundary, update channel, and hardening boundary that change action. | Platform design depends on project, organization, time, and place; there is no universal platform maturity scale or open-label proof. |
+| Platform-engineering, MOSA, and open-systems practice | Adapt open-interface, platform extension-rule, substitution-policy, and conformance-expectation pressure as local architecture boundary discipline. | For an open-interface claim or platform claim, name the local structure, interface, variation point, substitution policy, conformance-evidence governing pattern, migration boundary, update channel, and hardening boundary that change action. | Platform design depends on project, organization, time, and place; there is no universal platform maturity scale or open-label proof. |
 | ADR and architecture-knowledge-management practice | Adopt decision-memory pressure only as a project-side decision concern governed outside C.30. | Treat ADR-like material as publication or decision-description source relation until the architecture decision pattern is live. | ADR is not the project decision itself and not a source of release authority. |
 
 ### C.30:12 - Relations
@@ -51722,6 +51796,7 @@ Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.
 Does not replace: A.22 selected-structure EntityOfConcern; C.30.STRAT stratification-wording repair and source-label repair; C.30.ASV structural-view adequacy; E.TGA graph, path, and crossing discipline; C.29 mathematical-lens use; C.16 characterization; C.25 Q-Bundles; C.28 causal-use relation; A.10 and G.6 evidence; B.3 assurance; A.20 and A.21 gate or release records; A.15 work; C.11 decisions; or E.17 publication.
 
 ### C.30:End
+
 ## C.30.AD - Architecture Description Adequacy
 
 > **Type:** Architectural pattern
@@ -53187,7 +53262,7 @@ The TEVB decision is conservative. TEVB remains the small engineering viewpoint 
 
 | Practice or source line | C.30.ASV adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
-| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adopt explicit concern, viewpoint, view, correspondence, and source-side entity-of-interest discipline, mapped here to `DescriptionContext.EntityOfConcernRef`. | ASV records require architecture claim, `DescriptionContext`, viewpoint, structure kind, correspondence where live, and admissible use. | ISO terminology does not override FPF EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline and does not make a view the architecture itself. |
+| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adopt explicit concern, viewpoint, view, correspondence, and source-side `EntityOfConcernRef` discipline, mapped here to `DescriptionContext.EntityOfConcernRef`. | ASV records require architecture claim, `DescriptionContext`, viewpoint, structure kind, correspondence where live, and admissible use. | ISO terminology does not override FPF EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline and does not make a view the architecture itself. |
 | OMG SysML v2 view-as-query and MBSE traceability practice | Adapt model-view discipline and traceability to FPF Description or views. | Generated, queried, or model-derived views state `viewConstruction`, selected structure, hidden and lost structure, and source-return condition when action relies on the selection. | Tool models and queries do not become source episteme, source or reliance relation, evidence sufficiency, gate passage, or assurance. |
 | UAF, ArchiMate, C4, and multi-view architecture practice | Adapt viewpoint-library and lightweight diagram communication pressure. C4 contributes communication and zoom pressure only. | C4-like, UAF-like, and ArchiMate-like diagrams can publish ASV records only when Description-episteme or specification-use content, DescriptionContext EntityOfConcern, structure refs, structure kind, viewpoint, and publication relation are explicit. | Do not import their layer, viewpoint, enterprise taxonomies, structure-kind adequacy, evidence sufficiency, or architecture decision claim without a recoverable C.30 or C.30.ASV source view. |
 | Systems security engineering, secure-by-design, SSDF, and CSF-style practice | Adopt security as architecture-side structure when trust boundaries, authority, untrusted input, secure defaults, hardening, update channels, and detection boundaries and response boundaries change action. | Use `SecurityTrustBoundaryStructure` before evidence, assurance, gate, risk score, or compliance proof. | A security framework, checklist, risk color, or control catalog is not security architecture adequacy, evidence sufficiency, assurance, or gate passage by itself. |
@@ -53203,6 +53278,7 @@ Coordinates with: `A.6.F`, `A.6.M`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`,
 Does not replace: C.30 grounded architecture and selected-structure adequacy, A.22 selected-structure EntityOfConcern, E.TGA graph, path, and crossing discipline, C.29 mathematical-lens use, C.16 characterization, C.25 Q-Bundles, C.28 causal-use relation, A.10 and G.6 evidence, B.3 assurance, A.20 and A.21 gate or release records, A.15 work, C.11 decisions, or E.17 publication.
 
 ### C.30.ASV:End
+
 ## C.30.LCA - Control Structure View Adequacy (LCA)
 
 > **Type:** Architectural subpattern under `C.30`
@@ -53468,6 +53544,7 @@ This also protects the architecture ontology's EntityOfConcern and Description-e
 Does not replace: `C.30.STRAT` stratification or source-label precision restoration, `C.30` grounded architecture and selected-structure adequacy, `C.30.ASV` architecture structural-view adequacy, `B.2.5` supervisor-subholon feedback-loop discipline, `E.18` graph, path, and crossing discipline, `A.3.3` dynamics claim, `C.27` temporal and rate adequacy, `C.28` causal-use claim, `A.10` or `G.6` evidence claim, `B.3` assurance, `A.20` or `A.21` gate and constraint-validity records, `A.15` work, or `C.29` mathematical-lens use.
 
 ### C.30.LCA:End
+
 ## C.30.ILC - Cross-Scope Architecture Residual Triage
 
 > **Type:** Architectural subpattern under C.30
@@ -53511,7 +53588,7 @@ Not this pattern when the live issue is only stakeholder negotiation, ethics, me
 
 Architecture work often starts from a residual: a local fix works in one declared holon level or declared scope and fails in another. Component optimization increases whole-holon or product-line integration cost. A new module boundary reduces local complexity and increases exceptions at the product-line scope. A control layer improves local safety and creates accountability or latency claims elsewhere. A reusable evidence set reduces repeated work and hides a new source-return obligation.
 
-The useful architecture intuition is narrower than a new `Frustration` kind: local optimization at one declared holon level or declared scope can create a persistent residual in another declared holon level, declared scope, or level-bearing structure relation. Depending on the live claim, that residual exits to `C.29` only when a recoverable multilevel mapping, scale mapping, or coarse-graining mapping is live; to an admitted scale, RG, or coarse-graining receiving pattern when preserved structure and lost structure across such mapping are live; or to `G.5` or an admitted architecture synthesis receiving pattern for candidate architecture moves. An ordinary conflict between structures is not enough for the RG lens or frustration mathematical lens, but a conflict between structures assigned to different declared holon levels or scale windows may be enough when the mapping, preserved-structure line, and lost-structure line are recoverable. The first C.30.ILC output is only the grounded triage record.
+The useful architecture intuition is narrower than a new `Frustration` kind: local optimization at one declared holon level or declared scope can create a persistent residual in another declared holon level, declared scope, or level-bearing structure relation. Depending on the live claim, that residual exits to `C.29` only when a recoverable multilevel mapping, scale mapping, or coarse-graining mapping is live; to `C.31.ASAP` when architecture scale preference over declared alternatives is live; or to `G.5` or an admitted architecture synthesis receiving pattern for candidate architecture moves. An ordinary conflict between structures is not enough for the RG lens or frustration mathematical lens, but a conflict between structures assigned to different declared holon levels or scale windows may be enough when the mapping, preserved-structure line, and lost-structure line are recoverable. The first C.30.ILC output is only the grounded triage record.
 
 Without a pattern, teams either discuss the residual as vague `complexity`, treat it as ordinary stakeholder conflict, jump into measurement, use mathematical frustration language as proof, or open a new architecture synthesis effort too early. `C.30.ILC` keeps the first move small: identify whether the residual is architecture-shaping and name the first admissible architecture move or exact governing pattern application.
 
@@ -53520,7 +53597,7 @@ The practical work is often not to draw another view. It is to assign the residu
 ### C.30.ILC:3 - Forces
 
 * Local optimization can be real and still be harmful at another declared holon level or declared scope.
-* `Level`, `layer`, `scope`, `scale`, `abstraction`, `organization`, `system`, and `environment` labels can sound precise while naming different project-side objects.
+* `Level`, `layer`, `scope`, `scale`, `abstraction`, `organization`, `system`, and `environment` labels can sound precise while naming different project-side entities, relations, scopes, or claim kinds.
 * Frustration language can be useful because it points to incompatible constraints or fitness contributions, but it can also smuggle a physics, biology, psychology, or global-optimizer ontology into architecture prose.
 * Measurement is tempting because the residual feels numeric, but a measure before declared-scope and structure-kind recovery can hide the real conflict.
 * Ethics and stakeholder mediation may be live, but not every cross-scope residual is a mediation problem.
@@ -53591,7 +53668,7 @@ CrossScopeArchitectureResidualTriage@Context ::= {
 
 `crossScopeResidualDescription` is not enough by itself. A residual becomes architecture-shaping only when its residual-bearing locus is declared: hidden coupling, interface exception, control-rate conflict, scale-window loss, evidence-reuse failure, regulatory bespoke residue, work-method exception, data-semantics drift, placement or jurisdiction conflict, security trust-boundary break, or another declared locus.
 
-**Multilevel optimization boundary.** `C.30.ILC` can recognize that local optimization in one declared holon level or declared scope degrades another declared holon level or declared scope. It does not optimize the architecture and does not prove that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope is live, use the admitted architecture scale, RG, or coarse-graining receiving pattern and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate, compare, or publish residual-reducing candidate architecture moves, use `G.5` or the admitted architecture synthesis receiving pattern for `MultilevelArchitectureOptimizationFrame@Project`; `C.30.ILC` stops at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel mapping or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
+**Multilevel optimization boundary.** `C.30.ILC` can recognize that local optimization in one declared holon level or declared scope degrades another declared holon level or declared scope. It does not optimize the architecture and does not prove that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate, compare, or publish residual-reducing candidate architecture moves, use `G.5` or the admitted architecture synthesis receiving pattern for `MultilevelArchitectureOptimizationFrame@Project`; `C.30.ILC` stops at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel mapping or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
 
 Anti-collapse rule: no generic frustration score, no risk-matrix residual, no stakeholder-mediation takeover, no physics or biology ontology transfer, no global-optimizer proof, no causal proof, and no assurance proof. A frustration or risk label does not govern the case until declared holon levels or declared scopes, the selected structure or structure kind that carries them, residual-bearing locus, and first architecture move are recoverable; stakeholder mediation applies `D.3` or `D.4` only when values, ethical conflict, or negotiation is live.
 
@@ -53600,7 +53677,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no st
 | Live claim kind | Governing pattern to apply |
 |---|---|
 | measurement or characteristic claim | `C.16` or an admitted characteristic or measurement receiving pattern |
-| scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope | admitted architecture scale, RG, or coarse-graining receiving pattern; use `C.29` when a mathematical lens is live |
+| scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope | `C.31.ASAP` when architecture scale preference is live; use `C.29` when a mathematical lens is live |
 | multilevel learning or frustration mathematical-lens use with recoverable level mapping or scale mapping | `C.29` with `MLU.Description@MultilevelLearningFrustration` |
 | candidate generation or residual-reducing candidate architecture moves | `G.5` or an admitted architecture synthesis receiving pattern for `MultilevelArchitectureOptimizationFrame@Project` |
 | final local choice | `C.11` |
@@ -53618,7 +53695,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no st
 | Modularity reduces local work and increases exceptions | accept bounded exception; revise module boundary; add work scope or evidence scope | Average exceptions into a modularity score without declared scope, comparator, and measurement relation. |
 | Local autonomy conflicts with control scope | add control layer; change allocation; apply `C.30.LCA` | Treat autonomy label as causal or safety proof. |
 | Evidence reuse hides source loss | add evidence scope; add source-return condition; apply `A.10` or `G.6` | Treat reused evidence as automatically valid in the wider scope. |
-| A scale window changes the residual | apply the admitted architecture scale, RG, or coarse-graining receiving pattern, with `C.29` when the scale lens is live | Treat two observations as a universal scale law. |
+| A scale window changes the residual | apply `C.31.ASAP`, with `C.29` when the scale lens is live | Treat two observations as a universal scale law. |
 | A frustration lens with recoverable level mapping or scale mapping makes candidate moves comparable | use `C.29` for lens adequacy and `G.5` or the admitted architecture synthesis receiving pattern for the candidate set | Treat an unassigned or same-scope structure conflict as RG mathematics or frustration mathematics, or treat an interlevel residual without recoverable mapping as a global optimizer, proof, or selected architecture. |
 
 **Worked slice A - clean module layout, bad flow.** A product team redraws modules so each component has an explicit responsibility relation or enactor relation, but order-to-cash flow now crosses more work transfers and exceptions rise. `C.30.ILC` names the module structure, flow structure or transduction structure, affected work scope, cross-scope residual, and first move: expose hidden coupling or open `C.30.TGA-FLOW-REL`. It does not turn the exception count into a modularity measure until `C.16` or an admitted characterization or measurement receiving pattern is live.
@@ -53641,7 +53718,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no st
 * **Pseudo-level bias.** `Level`, `layer`, or `scope` sounds precise but no declared holon level or declared scope exists. Repair through `declaredHolonLevelRefs` or `declaredScopeRefs`.
 * **Generic-structure-conflict bias.** A conflict between selected structures is treated as interlevel conflict even though no declared holon level, scale window, or coarse-graining relation is recoverable. Repair by keeping the case in `C.30`, `C.30.ASV`, or the exact neighboring pattern unless the structures are assigned to different declared holon levels or scale windows.
 * **Frustration-ontology bias.** A useful conflict or frustration entry label becomes a new first-order architecture kind, physics ontology, biology ontology, or psychology claim. Repair by recovering declared holon levels or declared scopes, the level-bearing structure, conflict carriers, residual-bearing locus, and the exact receiving pattern for any lens, proof, evidence, mediation, or synthesis claim.
-* **Global-optimizer bias.** Local optimization in one declared holon level or declared scope is used as if the architecture literally optimizes one global function. Repair by keeping the local optimization claim as a triage input unless `C.29` supplies a lawful mathematical-lens use with recoverable level mapping or scale mapping and the candidate-set or decision pattern carries any synthesis or selection claim.
+* **Global-optimizer bias.** Local optimization in one declared holon level or declared scope is used as if the architecture literally optimizes one global function. Repair by keeping the local optimization claim as a triage input unless `C.29` supplies an admissible mathematical-lens use with recoverable level mapping or scale mapping and the candidate-set or decision pattern carries any synthesis or selection claim.
 * **Measurement-first bias.** A residual is measured before its level-bearing structure and scope grounding are declared. Repair by opening `C.16` or an admitted characteristic or measurement receiving pattern only after triage names the affected characteristic or measurement relation.
 * **Mediation-default bias.** Every conflict is treated as stakeholder conflict. Repair by checking whether the live use is architecture structure, allocation, interface grammar, control, work or evidence scope, source-return, or another declared level-bearing architecture relation.
 * **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before opening `G.5` or an admitted candidate-generation receiving pattern.
@@ -53669,7 +53746,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | Generic complexity bucket | Everything becomes `complexity` or `interlevel conflict`. | Name declared holon levels or declared scopes, level-bearing structure, residual, and first architecture move. |
 | Structure conflict as interlevel conflict | Two structures are in tension, but no declared holon level, scale window, or coarse-graining relation is recoverable. | Use `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable; use C.30.ILC only when the conflict is across declared levels or scopes. |
 | Frustration-as-ontology | `Frustration` is treated as a new FPF kind, psychological state, physics kind, biology kind, assurance score, or proof. | Keep frustration as an entry label; recover `FrustrationResidual`, conflict carriers, residual-bearing locus, and exact exits to `C.29`, evidence, assurance, causal, mediation, or synthesis patterns when those claim kinds are live. |
-| Optimization-as-global-proof | A local optimization claim is treated as proof that the whole architecture optimizes one global objective. | Record local and wider-scope claims separately; use `C.29` only for a lawful lens with recoverable level mapping or scale mapping and use candidate-generation, comparison, or decision patterns for synthesis and selection. |
+| Optimization-as-global-proof | A local optimization claim is treated as proof that the whole architecture optimizes one global objective. | Record local and wider-scope claims separately; use `C.29` only for an admissible mathematical lens with recoverable level mapping or scale mapping and use candidate-generation, comparison, or decision patterns for synthesis and selection. |
 | Measurement-first conflict | The team starts measuring before declaring what is in conflict. | Run ILC triage first; open `C.16` or an admitted characteristic or measurement receiving pattern only when the measured characteristic is live. |
 | Risk color as cross-scope decision | A red, yellow, or green risk cell, risk matrix, or maturity score decides the cross-scope architecture move or resource-allocation priority. | Recover declared holon levels or declared scopes, live structure kinds, the residual, the loss, hazard, or threat path, selected source, evidence, or relation interpretation, characteristic scale, comparator, gate pattern, and first admissible architecture move; do not treat ordinal risk color as architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation priority, or gate passage. |
 | Stakeholder-only conflict | A structural residual is sent to mediation with no architecture move. | Use `D.3` or `D.4` only when values, stakeholder negotiation, or ethical mediation is live. |
@@ -53682,7 +53759,7 @@ The gain is an early architecture move that is small and precise. The practition
 
 The cost is that `C.30.ILC` refuses to solve the whole problem. It identifies the first architecture move or exact governing pattern application. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, stakeholder mediation, candidate generation, evidence, assurance, and final choice remain outside until they are live.
 
-This makes multilevel optimization usable rather than decorative. `C.30.ILC` identifies the residual that makes optimization relevant; `C.29` carries the lawful mathematical-lens use only when level mapping or scale mapping and preserved structure and lost structure are recoverable; the admitted candidate-generation or architecture synthesis pattern carries residual-reducing candidate moves; and the decision pattern carries any final selected architecture.
+This makes multilevel optimization usable rather than decorative. `C.30.ILC` identifies the residual that makes optimization relevant; `C.29` carries an admissible mathematical-lens use only when level mapping or scale mapping and preserved structure and lost structure are recoverable; the admitted candidate-generation or architecture synthesis pattern carries residual-reducing candidate moves; and the decision pattern carries any final selected architecture.
 
 ### C.30.ILC:10 - Rationale
 
@@ -53705,15 +53782,16 @@ A local optimum or successful local repair is therefore not treated as whole-arc
 
 * Builds on `C.30` and `C.30.ASV` for grounded architecture, selected-structure, and structural-view adequacy.
 * Uses `A.22` for structure and structural-view discipline.
-* Coordinates with `C.30.TGA-FLOW-REL`, `C.30.LCA`, `A.6.F`, and module-interface patterns when the residual concerns flow, control, function, allocation, module, or interface structure.
+* Coordinates with `C.30.TGA-FLOW-REL`, `C.30.LCA`, `A.6.F`, and `A.6.M` when the residual concerns flow, control, function, allocation, module, or interface structure.
 * Applies `C.16` or an admitted characteristic or measurement receiving pattern for measurement or characteristic claims.
 * Applies `C.29` with `MLU.Description@MultilevelLearningFrustration` only when multilevel learning or frustration is used as a mathematical lens with recoverable level mapping or scale mapping and preserved structure and lost structure; applies `C.29` or an admitted scale or coarse-graining receiving pattern when scale, RG, coarse-graining, preserved structure, lost structure, or scale-window adequacy is live.
 * Applies `G.5` or an admitted architecture synthesis receiving pattern for candidate generation and residual-reducing candidate architecture moves.
 * Applies `C.11` for final local choice, `C.28` for causal outcome claims, `A.10`, `B.3`, or `G.6` for evidence or assurance, and `D.3` or `D.4` for ethical or stakeholder mediation.
 
-Does not replace: `C.30` grounded architecture and selected-structure adequacy, `C.30.ASV` structural-view adequacy, `A.22` structure and structural-view discipline, `C.30.TGA-FLOW-REL` architecture-TGA flow relation, `C.30.LCA` control-structure view relation, `A.6.F` function-use repair, module-interface repair patterns, `C.16` or admitted characteristic or measurement receiving patterns, `C.29` mathematical-lens use, admitted scale, RG, or coarse-graining receiving patterns, `G.5` or admitted candidate-generation and architecture synthesis receiving patterns, `C.11` final local choice, `C.28` causal-use relation, `A.10`, `B.3`, or `G.6` evidence or assurance, or `D.3` or `D.4` ethical or stakeholder mediation.
+Does not replace: `C.30` grounded architecture and selected-structure adequacy, `C.30.ASV` structural-view adequacy, `A.22` structure and structural-view discipline, `C.30.TGA-FLOW-REL` architecture-TGA flow relation, `C.30.LCA` control-structure view relation, `A.6.F` function-use repair, `A.6.M` module-interface repair, `C.16` or admitted characteristic or measurement receiving patterns, `C.29` mathematical-lens use, `C.31.ASAP` architecture scale-preference claim, `G.5` or admitted candidate-generation and architecture synthesis receiving patterns, `C.11` final local choice, `C.28` causal-use relation, `A.10`, `B.3`, or `G.6` evidence or assurance, or `D.3` or `D.4` ethical or stakeholder mediation.
 
 ### C.30.ILC:End
+
 ## C.30.TGA-FLOW-REL - Architecture-TGA Flow-Structure Relation
 
 > **Type:** Architectural pattern
@@ -53986,13 +54064,13 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-Start with recognition, three live characteristics at most, the observed problem, and a repair direction. Open heavier measurement, comparability, publication, assurance, benchmark, causal-use, cross-case reuse, or selection apparatus only when that exact use is live. A report-only proxy is an admissible stop when no stronger use is live.
+Start with recognition, three live characteristics at most, the observed problem, and a repair direction. Open heavier measurement, comparability, publication, assurance, benchmark, causal-use, cross-case reuse, or selection apparatus only when that exact use is live. A report-only proxy is an admissible stop when no comparison, publication, assurance, benchmark, causal-use, cross-case reuse, selection, or architecture scale-preference use is live.
 
 What goes wrong if C.31 is missed: "modular" becomes a binary label; a single modularity score hides incompatible characteristics; interface publication is confused with substitutability; internal cohesion is improved while evidence reuse gets worse; bespoke residue moves from templates into work or assurance; and complexity language becomes a commensurable score without a declared characteristic, scale, measurement basis, comparison basis, or admissible-use boundary.
 
 What C.31 buys in practice: the practitioner can see which modularity characteristic changes the next move, which false use is blocked, which repair is plausible, and which exact governing pattern carries measurement, evidence, causal, scale, selection, or accounting claims.
 
-Not this pattern when the live question is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement legality, quality-family claim, scale or coarse-graining claim, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, the assigned scale and `C.29` patterns, `G.5`, or `C.11` as appropriate; do not treat C.31 as the synthesis or selector pattern.
+Not this pattern when the live question is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement legality, quality-family claim, architecture scale-preference claim, mathematical-lens use, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, `C.31.ASAP`, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31 as the synthesis or selector pattern.
 
 ### C.31:2 - Problem
 
@@ -54000,7 +54078,7 @@ Architecture work often asks for more modularity, better reuse, lower coupling, 
 
 Modularity can improve along one characteristic while worsening another. A design can reduce external coupling and increase interface alphabet size. A platform can standardize interfaces and create unhelpful rigidity. Evidence reuse can improve while functional-to-module allocation remains tangled. A report can show a high reuse share while hiding source-return work or residual uncertainty.
 
-C.31 turns modularity talk into a small characteristic vector plus repair direction. It does not promise that every characteristic is measurable now, comparable across cases, causal, decision-ready, or evidence-backed.
+C.31 turns modularity talk into a small characteristic vector plus repair direction. It does not promise that every characteristic is measurable now, comparable across cases, causal, admissible for decision use, or evidence-backed.
 
 ### C.31:3 - Forces
 
@@ -54038,7 +54116,7 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-The vector is complete enough when it states what can be done next and what cannot be inferred. If a characteristic is used for comparison, selection, publication, assurance, benchmark, causal use, cross-case reuse, or scale preference, escalate to the appropriate card and exact governing pattern.
+The vector is complete enough when it states what can be done next and what cannot be inferred. If a characteristic is used for comparison, selection, publication, assurance, benchmark, causal use, cross-case reuse, or architecture scale preference, escalate to the appropriate card and exact governing pattern, with `C.31.ASAP` receiving architecture scale-preference claims.
 
 #### C.31:4.2 - Characteristic classes
 
@@ -54049,11 +54127,11 @@ Every C.31 head is classified before use:
 | `DirectCharacteristic` | A C.16-governed characteristic can be named with subject, scale, unit or unitless interpretation, declared measurement basis, comparability basis, and repair move. | It is not automatically a score or decision selector. |
 | `CompositeCharacteristicDescription` | The head is a bundle or description with sub-slots, such as function-module alignment or flow-boundary alignment. | Do not pretend the bundle is one raw measure. |
 | `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as compression or RG or coarsening lens. | Apply C.29 for lens use that changes action. |
-| `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply the exact governing pattern for temporal adequacy, scale preference, or set dynamics. |
+| `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply `C.31.ASAP` for architecture scale preference, `C.27` for temporal adequacy, and `C.18.1` or `C.19.1` when scale-law or general BLP preference claims are live. |
 | `CausalUseSensitiveCharacteristic` | The interpretation is used to claim effect or intervention success. | Apply C.28 before relying on the claim causally. |
 | `ReportOnlyProxy` | The interpretation is only a local diagnostic or communication aid. | State forbidden overread and the exact governing pattern needed for comparison, selection, publication, assurance, benchmark, causal use, or decision claim. |
 
-In C.31, `declared basis` and `comparability basis` name C.16-compatible measurement or comparison fields. They are not generic support words and are not substitutes for evidence, assurance, cause, source, decision, or architecture-description relations.
+In C.31, `declared basis` and `comparability basis` name C.16-compatible measurement or comparison fields. They are not generic reason words and are not substitutes for evidence, assurance, cause, source, decision, or architecture-description relations.
 
 #### C.31:4.3 - Measurement-head mapping
 
@@ -54067,13 +54145,17 @@ MeasurementHeadMapping:
   scaleType:
   unitPolicy:
   declaredBasisNeeded:
+  requiredEvidence:
+  evidencePathRefs?:
+  sourceRelationRefs?:
+  evidenceNotLiveBecause?:
   commonFalseUse:
   nonAdmissibleUse:
   repairMove:
   governingPatternRef:
 ```
 
-This mapping is not a measurement template by itself. It prepares a C.16-compatible characteristic card or a report-only boundary.
+This mapping is not a measurement template by itself. It prepares a C.16-compatible characteristic card or a report-only boundary. When the head is decision-facing or publication-facing, the mapping names required evidence plus at least one evidence path or source relation. If evidence is not live, `evidenceNotLiveBecause` states why the head remains local, report-only, or repair-only.
 
 #### C.31:4.4 - C.31 characteristic card
 
@@ -54088,6 +54170,10 @@ ModularityCharacteristicCard:
   unitInterpretation:
   declaredBasisRef:
   comparabilityBasisRef:
+  requiredEvidence:
+  evidencePathRefs?:
+  sourceRelationRefs?:
+  evidenceNotLiveBecause?:
   proxyRisk:
   auditQuestion:
   nonAdmissibleUse:
@@ -54095,7 +54181,7 @@ ModularityCharacteristicCard:
   governingPatternApplicationRefs:
 ```
 
-Each card carries its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, non-admissible use, and repair move. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
+Each card carries its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence path or evidence-not-live reason, non-admissible use, and repair move. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
 
 #### C.31:4.5 - Seed characteristic heads and repair moves
 
@@ -54106,8 +54192,8 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 | `InternalCohesionDensity` | Density of typed relations inside a proposed module. | ratio or graph-derived value | typed dependency graph or DSM | proposed module has insufficient typed internal dependency basis | split the proposed module, move relations, or reclassify as component relation | comparison, clustering, or publication use |
 | `ExternalCouplingDensity` | Cross-boundary dependencies per module or interface. | ratio or distribution | typed dependency graph, interface graph, integration defects | hidden external dependencies dominate module boundary | expose dependency, revise interface spec, split context, or accept bounded exception | integration risk, assurance, or release claim |
 | `InterfaceAlphabetSize` | Count or entropy-like variety of interface types. | count or entropy-like value | interface registry | too many interface variants erase modular benefit | reduce variants, introduce interface grammar, split context, or document exception | platform grammar, candidate selection, or publication use |
-| `InterfaceStandardizationShare` | Share of interfaces conforming to declared specifications. | ratio or percentage | conformance tests and specifications | standardization is low where reuse needs it | define or narrow standards, add conformance tests, or stop at local exception | cross-case comparison, certification, or procurement claim |
-| `InterfacePublicness` | Openness, publication, and vendor-neutrality value. | ordinal or category | standards, API specs, licensing, access terms | open label lacks substitution path | recover interface spec, substitution policy, and conformance expectation | open-architecture claim, procurement, or publication claim |
+| `InterfaceStandardizationShare` | Share of interfaces conforming to declared specifications. | ratio or percentage | conformance tests and specifications | standardization is low where reuse needs it | define or narrow standards, add conformance tests, or stop at local exception | cross-case comparison, certification, or procurement decision claim |
+| `InterfacePublicness` | Openness, publication, and vendor-neutrality value. | ordinal or category | standards, API specs, licensing, access terms | open label lacks substitution path | recover interface spec, substitution policy, and conformance expectation | open-architecture claim, procurement decision claim, or publication claim |
 | `SubstitutabilityWidth` | Number or diversity of compatible alternatives for a slot or interface. | count or diversity value | approved implementations, vendors, tests | only one viable implementation exists | repair interface spec, loosen unnecessary coupling, or mark single-source exception | competition, platform, or decision claim |
 | `ModuleTypeReuseRate` | Instances per module type or template. | ratio or count | product-line records, bills of material, template records | reuse is claimed only by repeated naming | define module type, allowed variation, and measurement basis | cross-case reuse or product-line publication |
 | `TemplateCompressionGain` | Description saving from template plus parameters compared with instance-by-instance descriptions. | ratio or bits under declared method | corpus or model-description method | compression erases safety, legal, or source distinctions | add source-return condition, split template, or apply C.29 | lens-characteristic or effect claim, publication, or decision use |
@@ -54121,8 +54207,8 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 | `RegulatoryBespokeResidue` | One-off regulatory or acceptance content not covered by reusable structures. | ratio or ordinal | safety, approval, or regulatory records | each instance needs new regulatory argument | isolate residue, add reusable evidence package, or keep bounded exception | safety case, approval, or publication claim |
 | `LearningTransferCoefficient` | Improvement transfer from one instance or run to subsequent instances. | slope or elasticity | repeated work data and learning curve records | improvement claim hides time or causal assumptions | apply C.27 for temporal adequacy and C.28 for causal use | causal, benchmark, or scale-preference use |
 | `BespokeResidueShare` | Share of structure not covered by reusable templates or rules. | report-only share unless C.16 measurement basis is declared | RSA description and exception register | residue is hidden under reuse score | open C.31.RSA and source-return condition | accounting, comparison, or decision claim |
-| `RGFlowStability` | Stability of characteristic vector across declared coarse-graining scopes. | vector or ordinal | declared multi-scope architecture graphs | coarse-graining hides lower-scope hazards | apply C.29 and the scale-preference governing pattern | RG, scale, or lens transfer use |
-| `ExceptionCurveSlope` | Change in one-off exceptions over a scale variable. | slope | exception records against scale variable | exceptions grow with scale | apply the scale-preference governing pattern or accept bounded exception | scale preference, publication, or decision claim |
+| `RGFlowStability` | Stability of characteristic vector across declared coarse-graining scopes. | vector or ordinal | declared multi-scope architecture graphs | coarse-graining hides lower-scope hazards | apply C.29 for lens use and C.31.ASAP when architecture scale preference is live | RG, scale, or lens transfer use |
+| `ExceptionCurveSlope` | Change in one-off exceptions over a scale variable. | slope | exception records against scale variable | exceptions grow with scale | apply C.31.ASAP or accept bounded exception | scale preference, publication, or decision claim |
 
 #### C.31:4.6 - Claim-scoped residual heads
 
@@ -54130,11 +54216,11 @@ C.31 carries residual heads only as qualitative repair cues. These heads do not 
 
 | Head | Meaning | First governing pattern application | Risk | Repair direction |
 | --- | --- | --- | --- | --- |
-| ComplexityGrowthPressure | Pressure to add, split, mediate, or stabilize a declared aggregation scope, interface grammar, control relation, evidence scope, work-method scope, abstraction scope, or source-return condition. | C.30.ILC, exact scale-preference receiver, G.5, C.11 | treating more apparatus as progress | name the pressure and the repair direction; use set-return or decision patterns when live |
+| ComplexityGrowthPressure | Pressure to add, split, mediate, or stabilize a declared aggregation scope, interface grammar, control relation, evidence scope, work-method scope, abstraction scope, or source-return condition. | C.30.ILC, C.31.ASAP when architecture scale preference is live, G.5, C.11 | treating more apparatus as progress | name the pressure and the repair direction; use set-return or decision patterns when live |
 | `FrustrationResidual` | Persistent cross-scope residual after local repair. | `C.30.ILC`, C.29-local cross-scope lens claim | turning a lens-backed interpretation into proof | keep as residual cue or apply C.29 or C.30.ILC |
-| `ConflictResidualSlope` | Residual grows or shrinks over declared scale variable, scale window, or coarse-graining scale. | scale-preference governing pattern, `C.27`, `C.18.1`, `C.19.1` | treating two points as universal law | declare window and measurement basis or stop at report-only |
+| `ConflictResidualSlope` | Residual grows or shrinks over declared scale variable, scale window, or coarse-graining scale. | `C.31.ASAP`, `C.29`, `C.27`, `C.18.1`, `C.19.1` | treating two points as universal law | declare window, lens-use boundary, and measurement basis or stop at report-only |
 | `DeclaredScopeAdditionCost` | Added work, evidence, change-policy, latency, observability, accountability, or interface cost from a new declared aggregation or control scope. | `C.16`, `C.31`, `C.30.LCA` | ignoring the cost of added structure | identify cost bearer and apply the measurement pattern if used for comparison |
-| `BespokeResidueGrowth` | One-off exceptions grow with deployment spread, regulation, or project repetition. | `C.31.RSA`, scale-preference governing pattern | assuming all bespoke work is bad | split useful exception from repairable residue |
+| `BespokeResidueGrowth` | One-off exceptions grow with deployment spread, regulation, or project repetition. | `C.31.RSA`, `C.31.ASAP` when architecture scale preference is live | assuming all bespoke work is bad | split useful exception from repairable residue |
 | `InterfaceAlphabetGrowth` | Interface variants grow faster than reuse, substitutability, or integration payoff. | `A.6.M`, `C.31` | premature standardization | add platform grammar, split context, or accept bounded variation |
 | `SourceReturnCost` | Frequency or cost of returning from a compressed, indexed, coarse, extracted, or accounting view to source-side structure records. | `C.29`, source-return discipline, `A.10` | over-compression | add source-return condition or reduce compression |
 | `ControlNestingDepthRisk` | Nested control relations create latency, accountability, observability, stability, or assurance cost. | `C.30.LCA`, `C.27`, `B.3`, `A.3.3` | LCA-as-proof | apply control, temporal, assurance, or dynamics governing patterns when live |
@@ -54183,11 +54269,11 @@ Holon and episteme: architecture and modules are selected structures of describe
 | --- | --- |
 | `CC-C31-1` | Ordinary use starts with `ModularityVectorLite`, three live characteristics at most, observed problem, repair direction, and stop condition. |
 | `CC-C31-2` | Each live head is classified as `DirectCharacteristic`, `CompositeCharacteristicDescription`, `LensBackedCharacteristic`, `TemporalOrScaleCharacteristic`, `CausalUseSensitiveCharacteristic`, or `ReportOnlyProxy`. |
-| `CC-C31-3` | A decision-facing or publication-facing head has `MeasurementHeadMapping` and C.16-compatible fields before it is relied on. |
+| `CC-C31-3` | A decision-facing or publication-facing head has `MeasurementHeadMapping`, C.16-compatible fields, and a required evidence path, source relation, or explicit evidence-not-live reason before it is relied on. |
 | `CC-C31-4` | Each characteristic row states at least one repair move or exact governing pattern application. |
 | `CC-C31-5` | Report-only proxies state forbidden overread and do not carry comparison, selection, assurance, publication, causal, or gate use. |
 | `CC-C31-6` | Proxy-risk and audit-question fields are present for decision-facing cards. |
-| `CC-C31-7` | Complexity, residual, and growth heads remain claim-scoped cues or apply C.29, exact scale-preference receivers, C.27, C.28, C.16, C.25, C.30.ILC, C.31.RSA, G.5, or C.11 as live. |
+| `CC-C31-7` | Complexity, residual, and growth heads remain claim-scoped cues or apply C.29, C.31.ASAP when architecture scale preference is live, C.27, C.28, C.16, C.25, C.30.ILC, C.31.RSA, G.5, or C.11 as live. |
 | `CC-C31-8` | No C.31 text treats modularity as a single quality proof, assurance proof, gate result, causal proof, or architecture decision. |
 | `CC-C31-9` | Any score discloses scoring method, codomain, polarity, characteristic basis, comparability basis, and use boundary through the exact governing pattern. |
 | `CC-C31-10` | SoTA seeds for DSM, modularity-index, empirical modularity, platform, evidence-reuse, Conway and mirroring, Amdahl, queueing, coordination-overhead, information-hiding, abstraction-leakage, or Goodhart and Campbell proxy-risk sources are converted into pattern-local `G.2` rows before they carry live practitioner guidance. |
@@ -54201,7 +54287,7 @@ Holon and episteme: architecture and modules are selected structures of describe
 | `UntypedMeasureList` | A table of heads appears without characteristic, scale, declared measurement basis, or repair move. | Classify heads and create C.16-compatible cards only where live. |
 | `MeasurementBeforeRepair` | The practitioner is asked for full measurement before one useful move exists. | Start with three live characteristics and repair direction. |
 | `OpenInterfaceEqualsModular` | Interface publication is treated as modularity. | Apply relation repair through A.6.M and characterize only the live interface or substitutability head. |
-| `ComplexityAsOneCharacteristic` | Algorithmic, graph, governance, evidence, and cognitive costs are averaged. | Keep residual heads claim-scoped and apply lens or measurement patterns when those uses are live. |
+| `ComplexityAsOneCharacteristic` | Algorithmic cost, graph-connectivity cost, policy and approval cost, evidence-maintenance cost, and cognitive cost are averaged. | Keep residual heads claim-scoped and apply lens or measurement patterns when those uses are live. |
 | `ProxyBecomesValue` | A report-only proxy becomes a decision, assurance, or gate claim. | State forbidden use and require exact evidence, assurance, decision, or other governing-pattern application before that use. |
 
 ### C.31:9 - Consequences
@@ -54234,10 +54320,11 @@ The pattern rejects a single complexity or modularity score because selected hea
 | DSM and dependency-structure practice (`https://dsmweb.org/design-structure-matrix-dsm/`; `https://dsmweb.org/introduction-to-dsm/`) | Mature and still-used architecture-analysis practice for dependency representation, clustering, and compact dependency communication. | Adopt typed dependency analysis as a possible declared measurement or comparison basis for specific C.31 heads such as `InternalCohesionDensity`, `ExternalCouplingDensity`, `InterfaceAlphabetSize`, and `HiddenCouplingDiscoveryRate`. | A dependency matrix is not architecture, proof, complete modularity, assurance, or decision by itself. | A dependency graph helps only after dependency kind, subject, scale, repair direction, and non-admissible use are declared. |
 | Cabigiosu and Camuffo, "Measuring Modularity" (`https://doi.org/10.1109/TEM.2016.2614881`) | Published modularity-measurement source used as measure-plurality lineage, not as a universal current scoring rule. | Adopt the result that modularity measures answer different engineering or management questions; adapt it into `Characteristic plurality vs scalar pressure`, `MeasurementHeadMapping`, and proxy-risk fields. | One measure family is not universal modularity adequacy and does not settle architecture quality. | The practitioner asks which characteristic changes action before choosing any measure family. |
 | Jung and Simpson modularity indices for DSM-based assessment (`https://pure.psu.edu/en/publications/new-modularity-indices-for-modularity-assessment-and-clustering-o/`) | Product-architecture and DSM-index lineage for index choice, clustering, and assessment variation. | Use as evidence that index choice depends on architecture type, dependency kind, and measure purpose; adapt by requiring characteristic, scale, measurement basis, comparability basis, and forbidden overread. | One modularity index is not FPF architecture quality, architecture adequacy, or decision authority. | Index use requires declared structure, dependency type, scale, and non-admissible overread before publication, comparison, or decision use. |
-| MOSA and open systems practice (`https://www.cto.mil/sea/mosa/`) | Current engineering and acquisition practice family for modular interfaces, conformance, severable components, replacement, and supplier diversity. | Adopt the pressure to make interface standards, conformance, substitutability, and supplier-diversity relations explicit; adapt by applying A.6.M before C.31 characterizes `InterfacePublicness`, `SubstitutabilityWidth`, or related heads. | `Open`, public, platform, API, or conformance label is not modularity by itself. | Open-system conformance and substitution claims may change C.31 repair only after the module-interface relation is repaired. |
+| MOSA and open systems practice (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`) | Current engineering and acquisition practice family for modular interfaces, conformance, severable components, replacement, and supplier diversity. | Adopt the pressure to make interface standards, conformance, substitutability, and supplier-diversity relations explicit; adapt by applying A.6.M before C.31 characterizes `InterfacePublicness`, `SubstitutabilityWidth`, or related heads, and by routing supplier-set selection or procurement decision use to `G.5` or `C.11` when that use is live. | `Open`, public, platform, API, conformance, or supplier-diversity label is not modularity, procurement suitability, evidence, assurance, gate passage, or decision authority by itself. | Open-system conformance and substitution claims may change C.31 repair only after the module-interface relation is repaired; procurement, selection, evidence, assurance, gate, and decision uses require their exact neighboring pattern. |
+| Platform and product-line engineering practice (`https://tag-app-delivery.cncf.io/fr/whitepapers/platform-eng-maturity-model/`; `https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`) | Mature product-line variability lineage plus current platform-engineering maturity-model and current SPLE-review cues; used for variability-slot, extension-rule, reuse, and exception-residue characteristic discipline. | Adopt variability slots, extension rules, template records, product-line records, allowed variation, and exception-residue tracking as possible C.31 characteristic subjects or declared measurement bases. | A platform or product-line label is not modularity value, reusable-structure proof, architecture scale-preference evidence, procurement suitability, or decision authority. | The practitioner names which characteristic changes action: interface standardization, module-type reuse, template compression, bespoke residue, exception curve, or exact neighboring claim. |
 | Conway and mirroring, information-hiding, effective-interface, and abstraction-leakage lineage | Socio-technical and interface-boundary sources used as holon-architecture lineage, not as software-only ontology. | Adopt declared correspondence across role and enactor structures, work and procedural structures, and module-interface structures; separate explicit interface specification from observed or implicit interface; recover hidden coupling and source-return conditions. | Team boundary, delivery unit, documented interface, or abstraction label is not module boundary, substitutability, modularity quality, or decision by itself. | The practitioner separates team and work structure, explicit interface, implicit dependency, and modularity characteristic before claiming improvement. |
-| Amdahl, queueing, and coordination-overhead laws | General decomposition and flow constraints for holon architectures. | Adopt serial fraction, synchronization, communication overhead, WIP, waiting, bottleneck, and partitionability as possible C.31 defect signals; route mathematical speedup or flow claims to `C.29`, `E.18`, or `C.30.TGA-FLOW-REL`. | More modules, teams, services, paths, processors, accelerators, or work partitions are not improvement by count. | A module split is evaluated by changed characteristics and bottlenecks, not by decomposition count. |
-| Goodhart and Campbell proxy-pressure laws and holon-architecture trade-off discipline | General proxy-risk and trade-off lineage for architecture characteristic use. | Adopt vector and trade-off discipline plus proxy-risk discipline: no single modularity score, reusable share, benchmark, or index carries value, comparison, evidence, assurance, gate, or decision use without exact neighboring admission. | One metric, benchmark, reusable-share number, or modularity index is not architecture value or decision authority. | The practitioner states which characteristic changes action and which proxy overread is blocked before comparison or decision. |
+| Amdahl, queueing, and coordination-overhead laws (`https://www.cs.cmu.edu/~18742/papers/Amdahl1967.pdf`; `https://arxiv.org/abs/1306.3302`; `https://arxiv.org/abs/2603.20654`) | Mature mathematical law and queueing lineage plus current extension sources for communication, synchronization, and scalable-workload-fraction limits. | Adopt serial fraction, synchronization, communication overhead, WIP, waiting, bottleneck, and partitionability as possible C.31 defect signals; route mathematical speedup or flow claims to `C.29`, `E.18`, or `C.30.TGA-FLOW-REL`. | More modules, teams, services, paths, processors, accelerators, or work partitions are not improvement by count. | A module split is evaluated by changed characteristics and bottlenecks, not by decomposition count. |
+| Goodhart and Campbell proxy-pressure laws and holon-architecture trade-off discipline | General proxy-risk and trade-off lineage for architecture characteristic use. | Adopt vector and trade-off discipline plus proxy-risk discipline: no single modularity score, reusable share, benchmark, or index carries value, comparison, evidence, assurance, gate, or decision use without exact neighboring admission. | One declared measure value, benchmark, reusable-share number, or modularity index is not architecture value or decision authority. | The practitioner states which characteristic changes action and which proxy overread is blocked before comparison or decision. |
 | Architecture-operation language, with neural-network and software-system discussions as source examples, including the GonzoML architecture-operation intake | Current practitioner-language source for replacement, selection, pruning, distillation, ablation, block substitution, memory or cache placement, gating, routing, and architecture search; not used as a standard. | Adopt operations as recognition cues for live structure, relation, flow, scale, or candidate-set repair; keep block, layer, expert, cache, router, and gate as `C.30.STRAT` source labels until the FPF characteristic subject, relation kind, scale, and admissible use are recovered. | Block, layer, expert, cache, router, gate, benchmark, ablation, pruning, or distillation label is not an FPF characteristic by default. | The operation points to a possible characteristic; it does not name the characteristic until the FPF kind, subject, scale, and admissible use are recovered. |
 
 Older or local sources may serve as lineage or worked examples only when the row says so. They do not stand in for current competitive source, and they do not make a modularity value admissible for comparison, assurance, gate, or decision without the exact neighboring pattern that governs that use.
@@ -54249,6 +54336,7 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, and gate before C.31 receives any characteristic subject, scale cue, repair move, or proxy-risk row. |
 | `A.6.M` | Repairs module-interface relations before C.31 characterizes modularity. |
 | `C.31.RSA` | Governs reusable-structure accounting, bespoke residue, and report-only shares. |
+| `C.31.ASAP` | Receives architecture scale-preference claims after C.31 names the scale-sensitive characteristic, scale variable or window, and repair direction. |
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern characteristic, scale, coordinate, score, unit, comparability, and measurement legality. |
 | `C.25` | Governs broader quality-family Q-Bundles when modularity is used in a quality claim. |
 | `C.30` and `C.30.ASV` | Govern architecture claims and structural views that supply C.31 subjects. |
@@ -54260,6 +54348,7 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `G.2`, `G.5`, `C.11` | Govern SoTA basis, set-return selection, and local decision claims. Architecture-synthesis claims require a current receiving pattern before RSA or C.31 can carry synthesis or decision use. |
 
 ### C.31:End
+
 ## C.31.RSA - Reusable Structure Accounting
 
 > **Type:** Characterization pattern
@@ -54295,7 +54384,7 @@ What goes wrong if C.31.RSA is missed: a reusable share is treated as a proof of
 
 What C.31.RSA buys in practice: the practitioner can state where structure is reusable, where it is bespoke, what source-side distinctions must remain reachable, and when the result is only report-only accounting.
 
-Not this pattern when the live question is source-label recovery, module-interface relation repair, modularity-characteristic selection, measurement legality, evidence or assurance validity, scale or coarse-graining, candidate synthesis, or decision. Use `C.30.STRAT`, `A.6.M`, `C.31`, `C.16`, `A.10`, `B.3`, `G.6`, the assigned scale pattern, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31.RSA as the synthesis or selector pattern.
+Not this pattern when the live question is source-label recovery, module-interface relation repair, modularity-characteristic selection, measurement legality, evidence or assurance validity, architecture scale preference, mathematical-lens use, candidate synthesis, or decision. Use `C.30.STRAT`, `A.6.M`, `C.31`, `C.16`, `A.10`, `B.3`, `G.6`, `C.31.ASAP`, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31.RSA as the synthesis or selector pattern.
 
 ### C.31.RSA:2 - Problem
 
@@ -54542,7 +54631,7 @@ Admissible move: record which recovered structural locus was reused, what change
 | Bias risk | C.31.RSA repair |
 | --- | --- |
 | Reuse-good bias | Do not treat more reusable structure as automatically better. Ask what repair, cost, or source-return condition follows. |
-| Share-proof bias | Do not let `ReusableStructureShare` prove modularity, quality, assurance, scale advantage, or decision quality. |
+| Share-proof bias | Do not let `ReusableStructureShare` prove modularity, quality, assurance, architecture scale-preference claim, or decision quality. |
 | Hidden-unit bias | Do not sum templates, interface variants, work items, and evidence packages without a declared accounting basis. |
 | Residue-bad bias | Do not treat every bespoke exception as waste. Some residue is a bounded exception that preserves local fit or safety. |
 | Evidence-reuse bias | Do not count evidence reuse without validity context and source-return condition. |
@@ -54554,8 +54643,8 @@ Admissible move: record which recovered structural locus was reused, what change
 | --- | --- |
 | `CC-C31.RSA-1` | The text starts from `ReusableStructureTriage` unless an accounting basis and structure refs are already live. |
 | `CC-C31.RSA-2` | Any accounting description names `accountingBasisRef`, `structureRefs`, `structuralAspectRefs`, reusable slots, bespoke residue slots, residual uncertainty slots, admissible use, and non-admissible use. |
-| `CC-C31.RSA-3` | Report-only shares are marked report-only unless C.16, scoring, comparator, proxy-risk, evidence, assurance, gate, scale, and decision claims are all separately governed. |
-| `CC-C31.RSA-4` | No text treats RSA as proof of modularity, quality, assurance, gate passage, scale advantage, causal effect, or decision quality. |
+| `CC-C31.RSA-3` | Report-only shares are marked report-only unless C.16, scoring, comparator, proxy-risk, evidence, assurance, gate, C.31.ASAP architecture scale preference, and decision claims are all separately governed. |
+| `CC-C31.RSA-4` | No text treats RSA as proof of modularity, quality, assurance, gate passage, architecture scale-preference claim, causal effect, or decision quality. |
 | `CC-C31.RSA-5` | Heterogeneous slot labels are not summed unless a declared accounting basis and aggregation rule make the operation admissible. |
 | `CC-C31.RSA-6` | Each bespoke residue interpretation states a repair direction, bounded-exception condition, source-return condition, or exact governing pattern application. |
 | `CC-C31.RSA-7` | Evidence reuse and assurance reuse apply `A.10`, `B.3`, or `G.6` when validity, assurance, or safety-case reliance is live. |
@@ -54604,13 +54693,13 @@ The pattern also keeps residue ethically and practically neutral until interpret
 | Source or practice | Currentness or lineage use | Adopt and adapt for C.31.RSA | Rejected overread | Neighboring-pattern application and action consequence |
 | --- | --- | --- | --- | --- |
 | C.25 Q-Bundle discipline inside FPF | Landed FPF-local governing discipline for quality-family claims. | Adopt separation of scope, measures, mechanisms, windows, evidence, and admissible use. In C.31.RSA this changes `ReusableStructureShare`: the share is report-only accounting under declared `accountingBasisRef` until a receiving pattern admits comparison, publication, assurance, scale, or decision use. | A reusable-structure share does not replace the underlying Q-Bundle, description, evidence relation, or decision record. | Apply `C.25` and `C.16` when reuse becomes a quality claim or measurement claim; the practitioner may report a share locally but must not use it as proof without exact neighboring admission. |
-| ISO/IEC/IEEE 42010:2022 architecture-description, viewpoint, model-kind, and correspondence discipline | Current international standard for architecture-description and view discipline for this source-use decision. | Adopt explicit architecture description, source view, viewpoint, model-kind, correspondence, and conformance pressure. In C.31.RSA this changes source-return use: reusable-structure accounting names the structure refs, source view or architecture-description refs, correspondence refs, and source-return condition before any cross-view share is used. | A view, diagram, model kind, or correspondence label is not the reusable structure itself and does not make a share comparable, decision-ready, or assurance-bearing. | Apply `C.30`, `C.30.ASV`, or `E.17.0` when source views or architecture descriptions are live; RSA may count only after the selected structure refs and accounting basis are recoverable. |
-| Modular Open Systems Approach (MOSA) and open-system acquisition or engineering practice | Current engineering and acquisition practice family for modular interfaces, conformance, replacement, and supplier-diversity pressure. | Adopt the pressure to make reusable interface, conformance, substitution, and supplier-diversity structure explicit. In C.31.RSA this changes interface reuse: reusable interface accounting remains report-only until A.6.M has repaired interface grammar, substitution policy, version or change policy, conformance work, and supplier-diversity relation. | Open interface label, API label, platform label, or supplier-diversity goal is not reusable structure by itself. | Apply A.6.M for interface grammar, substitution policy, version or change policy, conformance expectations, and supplier-diversity relation before RSA comparison or decision use. |
+| ISO/IEC/IEEE 42010:2022 architecture-description, viewpoint, model-kind, and correspondence discipline (`https://www.iso.org/standard/74393.html`; `https://www.iso-architecture.org/ieee-1471/cm/`) | Current international standard and conceptual-model source for architecture-description and view discipline for this source-use decision. | Adopt explicit architecture description, source view, viewpoint, model-kind, correspondence, and conformance pressure. In C.31.RSA this changes source-return use: reusable-structure accounting names the structure refs, source view or architecture-description refs, correspondence refs, and source-return condition before any cross-view share is used. | A view, diagram, model kind, or correspondence label is not the reusable structure itself and does not make a share comparable, admissible for decision use, or assurance-bearing. | Apply `C.30`, `C.30.ASV`, or `E.17.0` when source views or architecture descriptions are live; RSA may count only after the selected structure refs and accounting basis are recoverable. |
+| Modular Open Systems Approach (MOSA) and open-system acquisition or engineering practice (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`) | Current engineering and acquisition practice family for modular interfaces, conformance, replacement, and supplier-diversity pressure. | Adopt the pressure to make reusable interface, conformance, substitution, and supplier-diversity structure explicit. In C.31.RSA this changes interface reuse: reusable interface accounting remains report-only until A.6.M has repaired interface grammar, substitution policy, version or change policy, conformance work, source or evidence relation, and the supplier-diversity relation when live. | Open interface label, API label, platform label, or supplier-diversity goal is not reusable structure, procurement suitability, assurance, gate passage, or decision authority by itself. | Apply A.6.M for interface grammar, substitution policy, version or change policy, conformance expectations, source or evidence relation, and supplier-diversity relation before RSA comparison or decision use; use `G.5` or `C.11` for supplier-set selection or procurement decision use when that use is live. |
 | DSM, dependency, and product-architecture practice, including Eppinger and Browning DSM lineage | Mature architecture-analysis lineage still used for dependency and product-architecture reasoning; lineage, not a complete current standard. | Adopt typed dependency structures as possible source for reusable loci and bespoke-residue diagnosis. In C.31.RSA this changes dependency use: dependency counts, partitions, and clusters become candidate source fields only when declared `structureRefs`, structural aspects, and accounting basis are present. | Dependency count, cluster count, or DSM modularity score is not architecture amount, quality proof, or decision verdict. | Apply `C.16` and `C.31` for characteristic and scale legality; apply `C.29` when graph, partition, compression, or C.29 lens-use result changes action. |
 | Goodhart and Campbell proxy-pressure laws | General proxy-risk lineage for report-only shares, reuse scores, and benchmark-like accounting. | Adopt proxy-risk discipline for reusable-share use. In C.31.RSA this changes share use: a reusable-structure share remains report-only until value, comparison, evidence, assurance, gate, scale, or decision use is admitted by exact neighboring patterns. | Reusable-share improvement, coverage improvement, or benchmark improvement is not value, assurance, evidence sufficiency, gate passage, or architecture decision by itself. | Apply `C.16`, `C.25`, `G.5`, `C.11`, or the evidence and assurance patterns before a reuse number can guide selection or reliance. |
 | System-evolution, information-hiding, and effective-interface lineage | General holon-architecture lineage for reusable structure that changes over time and hides variation-prone structure. | Adopt evolution and hidden-change discipline. In C.31.RSA this changes residue interpretation: reusable loci, bespoke residue, hidden interface behavior, source-return conditions, and bounded exceptions are reopened when the structure edition, accounting rule, implicit interface, or reliance relation changes. | One-time reusable-share accounting is not sustainable fitness; a stable-looking interface or template does not prove future substitutability. | Reopen or lower the RSA result when hidden variation, implicit dependency, source distinction, or continuing adaptation changes the accounting meaning. |
-| Software product-line engineering and variability-management practice, including Pohl, Boeckle, and van der Linden lineage plus current product-line and variability work | Mature lineage plus current practice family for variability slots, product-line reuse, platform extension rules, and reuse governance. | Adopt variability-slot and reuse-governance pressure. In C.31.RSA this changes product-line use: reusable structure may live in template, interface, work, evidence, and exception loci, and bespoke residue must name repair direction, bounded exception, or source-return condition instead of being averaged into one share. | Product-line label, shared code base, feature model, or platform name is not enough to infer reusable structure or scale advantage. | Apply A.6.M for platform claims or interface claims, C.31.ASAP or exact scale pattern for scale preference, and C.11 or G.5 for choice or candidate-set use. |
-| GSN Community Standard v3 and assurance-case reuse and safety-case reuse practice | Current assurance-case standard and practice family for this source-use decision; assurance validity remains context-sensitive. | Adopt the distinction between reusable assurance argument structure, reusable evidence structure, and context-specific validity witnesses. In C.31.RSA this changes evidence and assurance reuse: reuse remains accounting until evidence validity, safety-case use, or assurance reliance is governed by its own pattern. | Evidence reuse share or assurance-argument template reuse does not infer assurance, safety-case success, gate passage, or release readiness. | Apply `A.10` and `G.6` for evidence validity and safety-case use, and `B.3` for assurance reliance; add source-return condition and validity-window check before reliance. |
+| Software product-line engineering and variability-management practice, including Pohl, Boeckle, and van der Linden lineage plus current product-line and variability work (`https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`) | Mature product-line variability lineage plus current SPLE-review cues for variability slots, product-line reuse, platform extension rules, and reuse-rule discipline. | Adopt variability-slot and reuse-rule pressure. In C.31.RSA this changes product-line use: reusable structure may live in template, interface, work, evidence, and exception loci, and bespoke residue must name repair direction, bounded exception, or source-return condition instead of being averaged into one share. | Product-line label, shared code base, feature model, or platform name is not enough to infer reusable structure or architecture scale-preference evidence. | Apply A.6.M for platform claims or interface claims, C.31.ASAP for architecture scale preference, and C.11 or G.5 for choice or candidate-set use. |
+| GSN Community Standard v3 and assurance-case reuse and safety-case reuse practice (`https://scsc.uk/gsn`; `https://arxiv.org/abs/2506.11023`) | Current assurance-case standard family plus current formalization work for this source-use decision; assurance validity remains context-sensitive. | Adopt the distinction between reusable assurance argument structure, reusable evidence structure, and context-specific validity witnesses. In C.31.RSA this changes evidence and assurance reuse: reuse remains accounting until evidence validity, safety-case use, or assurance reliance is governed by its own pattern. | Evidence reuse share or assurance-argument template reuse does not infer assurance, safety-case success, gate passage, or release permission. | Apply `A.10` and `G.6` for evidence validity and safety-case use, and `B.3` for assurance reliance; add source-return condition and validity-window check before reliance. |
 | Architecture-operation language, with neural-network and software-system discussions as source examples, including the GonzoML architecture-operation intake | Current practitioner-language source for structural substitution, gating, memory placement, cache placement, routing, ablation, pruning, distillation, and architecture search; not used as a current standard by itself. | Adopt the recognition that replacement and search expose reusable and bespoke structural loci. In C.31.RSA this changes architecture-operation use: source labels such as block, layer, expert, cache, router, gate, or pruning mask remain source labels until `C.30.STRAT` and the exact neighboring pattern recover `structureRefs`, aspect refs, accounting basis, repair moves, and source-return conditions. | Block, layer, expert, cache, router, gate, benchmark, ablation, pruning mask, or distillation success is not RSA slot ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by itself. | Apply `C.30.STRAT` first where source-label recovery is live, then `C.30` or `C.30.ASV` for architecture claim and structural view, `C.30.TGA-FLOW-REL` for flow changes, `C.29` for mathematical-lens or compression claims, `A.10` or `G.6` for benchmark or evidence use, and `C.28` for causal claims. |
 
 Older or local sources may serve as lineage or worked examples only when the row says so. They do not stand in for current competitive source, and they do not make an RSA share admissible for comparison or decision without the exact neighboring pattern that governs that use.
@@ -54627,10 +54716,278 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `C.25` | Governs broader quality-family bundles when reusable structure is used in a quality claim. |
 | `A.10`, `B.3`, `G.6` | Govern evidence, assurance, and safety-case reliance. |
 | `C.29` | Governs compression, epiplexity, RG, or other mathematical-lens claims when accounting depends on a lens. |
-| `C.27`, `C.28`, scale-preference governing patterns | Govern temporal, causal, and scale-preference claims derived from residue growth or reuse movement. |
+| `C.27`, `C.28`, `C.31.ASAP`, `C.18.1`, `C.19.1` | Govern temporal, causal, architecture scale-preference, scale-law, and BLP claims derived from residue growth or reuse movement. |
 | `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate synthesis requires a current receiving pattern before RSA can carry candidate-synthesis or decision use. |
 
 ### C.31.RSA:End
+
+## C.31.ASAP - Architecture Scale-Amenability Preference
+
+> **Type:** Characterization pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.31.ASAP:1 - Problem frame
+
+Use this pattern when a practitioner compares architecture alternatives under a declared scale variable or scale window and needs to avoid treating a modularity label, platform label, product-line label, reusable-structure share, or coarse-graining metaphor as an automatic scale-preference claim.
+
+The first useful move is `ScaleClaimTriage`:
+
+```text
+ScaleClaimTriage:
+  architectureAlternativeSetRef:
+  scaleVariableRef:
+  scaleWindowRef:
+  claimedPreferenceUnderScale:
+  slopeEvidenceRef, scaleProbeEvidenceRef, or noProbeReason:
+  expectedStableOrImprovingStructure:
+  exceptionGrowthRisk:
+  sourceReturnCondition:
+  nextGoverningPatternRef:
+  stopCondition:
+```
+
+Ordinary use starts by naming the alternatives, the scale variable, the scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception growth risk. Open `ArchitectureScaleAuditRecord@Project` only when the scale preference is live enough to affect a comparison, selected set, publication, assurance input, or architecture decision.
+
+What goes wrong if C.31.ASAP is missed: "modular", "platform", "product line", "reusable", "general", "open", "coarse-grained", or "RG-like" becomes a shortcut for a scale-preference claim; a locally hand-engineered solution is called debt even when safety, legality, or mission constraints justify it; exception growth is hidden until the architecture is already expensive to change; and coarse descriptions keep losing lower-scope safety or semantic distinctions without a source-return condition.
+
+What C.31.ASAP buys in practice: the practitioner can say what is being scaled, where the scale claim holds, what structure is expected to remain stable or improve, what exceptions are allowed, what evidence or no-probe reason exists, and where scale, lens, evidence, assurance, selection, or decision claims leave this pattern.
+
+Not this pattern when the live question is only module-interface relation repair, modularity-characteristic selection, reusable-structure accounting, mathematical-lens use, scale-law adequacy, method preference under general BLP, architecture synthesis, selected-set return, or final local choice. Use `A.6.M`, `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, the admitted architecture synthesis receiving pattern, or `C.11` as appropriate. C.31.ASAP receives architecture scale-preference claims; it does not select the architecture, prove the scale law, or certify the project.
+
+### C.31.ASAP:2 - Problem
+
+Architecture work often asks whether one structure will scale better than another: a product-line architecture rather than bespoke variants, an open interface rather than a closed integration, a stable flow topology rather than repeated project exceptions, or a reusable evidence package rather than repeated assurance work.
+
+These claims are useful only after the scale relation is declared. "Scales better" can mean fewer interface grammar variants, lower exception growth, better learning transfer, more reusable templates, more stable control relations, less source-return cost, fewer regulatory exceptions, or more freedom of action. Those are not the same claim.
+
+C.31.ASAP turns architecture scale-preference talk into a declared scale variable or window, a preference claim, evidence or no-probe reason, expected stable or improving structure, exception-growth risk, and source-return condition. It does not turn scale preference into proof, selection, assurance, causal use, or a universal law.
+
+### C.31.ASAP:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Fast architecture choice vs scale evidence | Practitioners often need a scale-aware preference before a full scale study exists. |
+| Reusable structure vs useful exception | Reuse can improve scale behavior, but some bespoke residue is justified by safety, legal, mission, or context constraints. |
+| Platform label vs scale mechanism | A platform or product-line name does not say which variability slots, extension rules, exception curve, or refactor trigger makes scale behavior better. |
+| Coarse view vs source distinctions | Coarse-grained architecture descriptions can expose stable structure, but they can also hide lower-scope hazards. |
+| Preference guidance vs selection authority | A scale preference can inform a candidate set or decision, but selection and choice remain with their governing patterns. |
+| Architecture scope vs method BLP | Architecture scale amenability resembles BLP, but C.31.ASAP governs architecture alternatives and selected structures, not general method-family policy. |
+
+### C.31.ASAP:4 - Solution
+
+C.31.ASAP specializes scale-amenability preference for architecture alternatives. It applies when an architecture alternative set, scale variable or scale window, and claimed preference under scale are live.
+
+#### C.31.ASAP:4.1 - Live trigger
+
+C.31.ASAP is live only when all of the following are present:
+
+1. a declared architecture alternative set;
+2. a declared scale variable or scale window;
+3. a claimed preference under scale;
+4. slope evidence, scale-probe evidence, or a no-probe reason;
+5. an expected stable or improving structure, exception-growth risk, or source-return condition that changes the next architecture move.
+
+If those fields are absent, keep the claim in `C.31` as a temporal or scale-sensitive characteristic cue, in `C.31.RSA` as report-only accounting, in `C.29` as a bounded lens-use output, or in ordinary architecture prose.
+
+#### C.31.ASAP:4.2 - `ScaleClaimTriage`
+
+Use `ScaleClaimTriage` before any heavier scale audit:
+
+```text
+ScaleClaimTriage:
+  architectureAlternativeSetRef:
+  describedHolonRef:
+  boundedContextRef:
+  architectureClaimRef?:
+  scaleVariableRef:
+  scaleWindowRef:
+  claimedPreferenceUnderScale:
+  slopeEvidenceRef?:
+  scaleProbeEvidenceRef?:
+  noProbeReason?:
+  expectedStableOrImprovingStructure:
+  exceptionGrowthRisk:
+  sourceReturnCondition:
+  admissibleUse:
+  nonAdmissibleUse:
+  nextGoverningPatternRef:
+  stopCondition:
+```
+
+The triage is complete enough when it states the next admissible architecture move and the nearest blocked overread. It may stop at local guidance when no comparison, publication, assurance, selected-set, or decision use is live.
+
+#### C.31.ASAP:4.3 - Architecture scale-preference rule
+
+When architecture alternatives satisfy the same safety boundary, legal boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
+
+This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision becomes live, use `G.5`, `G.9`, `C.11`, `A.21`, or the exact receiving pattern. C.31.ASAP contributes the scale-preference claim and its boundary.
+
+#### C.31.ASAP:4.4 - Scale variables
+
+Typical architecture scale variables include:
+
+| Scale variable | Reading |
+| --- | --- |
+| `N_units` | repeated units or instances |
+| `N_scopeCount` | aggregation scopes, coarse-graining scopes, or typed LCA control scopes |
+| `N_sites` | deployments, sites, markets, or jurisdictions |
+| `N_interfaceTypes` | distinct interface grammar variants |
+| `N_requiredTransductionKinds` | distinct TGA transduction kinds in the selected functional-structure view |
+| `N_flowRelationKinds` | flow-relation or crossing variants in the selected flow-structure view |
+| `N_moduleTypes` | module type library size |
+| `N_workRepetitions` | delivery, operation, or test repetitions |
+| `N_supplierOrVendorClasses` | substitutability or vendor class dimension |
+| `N_regulatoryInstances` | approval, safety, or certification repeats |
+| `freedomOfAction` | allowed design, search, or control variation |
+
+The scale variable is not enough by name. The live claim also needs a scale window, expected stable or improving structure, exception-growth risk, and source-return condition.
+
+#### C.31.ASAP:4.5 - Scale audit outputs
+
+Use the heavier audit only when the scale preference changes comparison, publication, selected-set, assurance-input, or decision use:
+
+```text
+ArchitectureScaleAuditRecord@Project:
+  architectureAlternativeSetRef:
+  scaleVariableRefs:
+  scaleWindowRef:
+  ArchitectureSlopeVector:
+  IsoScaleParityNote?:
+  ASAPWaiverReason?:
+  ArchitectureHeuristicDebt?:
+  BespokeResidueRegisterRef?:
+  SourceReturnCondition:
+  admissibleUse:
+  nonAdmissibleUse:
+  nextGoverningPatternRef:
+  stopCondition:
+```
+
+| Output | Meaning |
+| --- | --- |
+| `ArchitectureSlopeVector` | Slopes for reusable structure, interface variation, flow stability, control stability, work repeatability, bespoke residue, exception growth, and learning transfer. |
+| `IsoScaleParityNote` | Comparison under equalized scale budgets where possible; if parity is not possible, the loss is named. |
+| `ASAPWaiverReason` | Declared reason for not choosing the scale-amenable alternative. |
+| `ArchitectureHeuristicDebt` | Report-only note for knowingly accepting a locally hand-engineered solution with less scale-amenable slope profile under the declared scale window. |
+| `BespokeResidueRegister@Project` | Exception inventory with expiry or refactor triggers; not a kernel kind. |
+| `ScaleWindow` | Declared range where the preference claim holds. |
+| `SourceReturnCondition` | Condition for returning from a compressed, coarse, extracted, indexed, or accounting representation to source-side structural evidence, source records, or a neighboring source or evidence record with higher declared validation boundary. |
+
+`ArchitectureScaleAuditRecord@Project` is a project-side triage record governed by this pattern. It is not an assurance proof, gate record, selected-set publication, local decision, or work plan.
+
+#### C.31.ASAP:4.6 - Waiver discipline
+
+```text
+ASAPWaiverReason:
+  deontic constraint
+  safety or legal boundary
+  scale-probe overturn
+  assurance infeasibility
+  context-specific bounded exception
+```
+
+Not every non-scale-amenable choice is debt. A deontic constraint, safety boundary, legal boundary, mission constraint, assurance infeasibility, or scale-probe overturn can justify a bounded exception without creating `ArchitectureHeuristicDebt`.
+
+`ArchitectureHeuristicDebt` remains report-only unless tied to a decision, risk, work, evidence, assurance, or selected-set record through its exact governing pattern.
+
+#### C.31.ASAP:4.7 - Scale-refactoring moves
+
+Before scale-preference guidance becomes action-guiding, name at least one possible repair or stop:
+
+| Scale symptom | Possible architecture move | Boundary |
+| --- | --- | --- |
+| interface variants grow without payoff | reduce interface alphabet or introduce interface grammar | A.6.M governs interface relation repair. |
+| product-line or platform variants lack explicit variation points | introduce variability slots or extension rules | Platform label alone is not scale-preference evidence. |
+| one aggregation scope hides lower-scope hazards | split the declared aggregation scope or architecture boundary | C.29 supplies lens-use fields only when coarse-graining is mathematical-lens use. |
+| repeated work carries reusable structure | replace bespoke work with a method template | Work and method claims go to `A.15`, `A.15.1`, or `A.15.4` when live. |
+| regulatory or safety residue remains local and repeated | isolate regulatory residue or safety-specific exception register | Evidence, assurance, and gate claims go to `A.10`, `B.3`, `G.6`, or `A.21`. |
+| coarse representation loses safety, semantic, or source distinctions | return to lower-scope source-side evidence or narrow the scale window | Source-return condition is mandatory. |
+
+#### C.31.ASAP:4.8 - C.29 lens relation
+
+C.31.ASAP does not prove a scale law and does not perform mathematical-lens recovery. Use `C.29` when the scale preference depends on an RG, coarse-graining, epiplexity, graph, multilevel-learning, or frustration lens.
+
+For architecture use, the C.29 output should name `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another local MathLensUse output only when the lens changes the next admissible move. The C.31.ASAP side records the scale variable, scale window, slope or scale-probe evidence, exception-growth risk, and source-return condition. C.29 records candidate mathematical object, mapping mode, preserved structure, lost structure, visible payoff, admissible use, non-admissible use, and stop condition.
+
+### C.31.ASAP:5 - Archetypal grounding
+
+| Archetype | Without C.31.ASAP | With C.31.ASAP |
+| --- | --- | --- |
+| Product-line platform | Platform name is treated as scale-preference evidence. | Variability slots, extension rules, exception curve, and refactor triggers are declared before preference use. |
+| Neural architecture block library | Reusing blocks is treated as reusable architecture by itself. | The alternative set names scale variable, interface grammar variants, exception growth, and source-return condition. |
+| Safety or certification reuse | Reusable evidence package is counted without validation boundary. | Evidence reuse remains tied to source-return and exits to `A.10`, `B.3`, or `G.6` when reliance is live. |
+| Cross-scope residual | A frustration or complexity label is treated as scale mathematics. | C.31.ASAP names the scale window and residual slope; C.29 carries the lens-use fields if the mathematical lens is live. |
+
+### C.31.ASAP:6 - Bias annotation
+
+| Bias risk | C.31.ASAP correction |
+| --- | --- |
+| **Platform label bias** | Platform or product-line wording names a possible source context, not scale-preference evidence. Recover variability slots, extension rules, exception curve, refactor triggers, and source-return condition. |
+| **Modularity-means-scalability bias** | A module count, interface count, or reusable-structure share is not a scale preference. Use C.31 and C.31.RSA first, then C.31.ASAP only when scale variable and scale window are live. |
+| **Debt inflation bias** | A locally hand-engineered solution is called debt without checking deontic, safety, legal, mission, assurance, or scale-probe waiver reasons. |
+| **RG proof bias** | RG, coarse-graining, fixed-point, or universality wording is treated as scale-preference proof. Use C.29 for lens recovery and keep scale preference in C.31.ASAP. |
+| **Selection laundering** | The scale-preference claim is used as if it selected the architecture. Use `G.5`, `G.9`, or `C.11` for selected-set or choice claims. |
+
+### C.31.ASAP:7 - Conformance Checklist
+
+| ID | Requirement | Purpose |
+| --- | --- | --- |
+| `CC-C31.ASAP-1` | A live C.31.ASAP use names architecture alternative set, scale variable or scale window, and claimed preference under scale. | Prevents generic "scales better" wording. |
+| `CC-C31.ASAP-2` | `ScaleClaimTriage` names slope evidence, scale-probe evidence, or a no-probe reason. | Prevents preference claims without declared evidence or no-probe reason. |
+| `CC-C31.ASAP-3` | Expected stable or improving structure and exception-growth risk are stated. | Keeps the pattern about architecture structure rather than scale vocabulary. |
+| `CC-C31.ASAP-4` | Source-return condition is present when any compressed, coarse, extracted, indexed, or accounting representation drops source-side distinctions. | Prevents unsafe coarse descriptions. |
+| `CC-C31.ASAP-5` | Waiver reason is one of deontic constraint, safety or legal boundary, scale-probe overturn, assurance infeasibility, or context-specific bounded exception. | Prevents false debt labels. |
+| `CC-C31.ASAP-6` | `ArchitectureHeuristicDebt` remains report-only unless a decision, risk, work, evidence, assurance, or selected-set record is live under its exact governing pattern. | Prevents shadow project authority. |
+| `CC-C31.ASAP-7` | Platform, product-line, modularity, reuse, open-interface, RG, and coarse-graining labels do not carry scale preference by themselves. | Blocks source-label overread. |
+| `CC-C31.ASAP-8` | Mathematical-lens claims name C.29 output fields; C.31.ASAP carries only the architecture scale-preference side. | Keeps C.29 and C.31.ASAP distinct. |
+| `CC-C31.ASAP-9` | Comparison, selected-set, local choice, evidence, assurance, gate, work, or release claims name the exact neighboring pattern. | Prevents scale preference from becoming selection or assurance. |
+| `CC-C31.ASAP-10` | SoTA rows mutate at least one solution line, checklist item, boundary, relation, or worked slice. | Keeps source use non-decorative. |
+
+### C.31.ASAP:8 - Common anti-patterns
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| `ModularThereforeScalable` | The text says modular or platform architecture scales without scale variable, window, slope evidence, or exception curve. | Add `ScaleClaimTriage` or downgrade to C.31 characteristic cue. |
+| `GenericScaleAudit` | Audit fields appear with no architecture alternative set or next move. | Return to `ScaleClaimTriage`; remove audit apparatus until preference use is live. |
+| `AllExceptionsAreDebt` | Any non-scale-amenable choice becomes debt. | Test waiver reasons and keep justified bounded exceptions out of `ArchitectureHeuristicDebt`. |
+| `RGAsScaleProof` | Coarse-graining or RG wording is used as a scale-preference claim. | Apply C.29 for lens use and C.31.ASAP for preference claim; require source-return condition. |
+| `ShareAsScalePreferenceEvidence` | `ReusableStructureShare` or `BespokeResidueShare` is used to prefer one alternative. | Keep the share report-only in C.31.RSA until scale variable, window, and admissible comparison are declared. |
+
+### C.31.ASAP:9 - Consequences
+
+| Positive consequence | Cost or trade-off |
+| --- | --- |
+| Scale preference becomes inspectable before selection or decision. | The practitioner must name a scale variable and window instead of relying on a label. |
+| Platform and product-line claims gain usable refactor triggers. | Some source language becomes only a recognition cue until variability slots and exception curves are declared. |
+| C.29 lens use stays useful without turning into scale proof. | RG claims and coarsening claims need preserved and lost structure plus source-return condition. |
+| Report-only debt notes remain bounded. | Decisions or risk records must use their exact governing patterns when reliance is live. |
+
+### C.31.ASAP:10 - Rationale
+
+C.31.ASAP is added because `C.31` and `C.31.RSA` can expose scale-sensitive characteristics and reusable-structure residue, but they should not themselves decide which architecture alternative is preferable under scale. The scale-preference claim needs a receiving pattern that is narrower than general BLP and broader than one measurement card.
+
+The pattern adapts BLP-style scale-amenability to architecture: prefer the alternative that preserves or improves reusable structure over a declared scale window when safety, legality, and assurance boundaries are comparable. It also blocks the common shortcut that treats modularity, reuse, platform practice, or mathematical coarse-graining as scale-preference evidence by itself.
+
+### C.31.ASAP:11 - SoTA-Echoing
+
+| Source family | Source-use role | C.31.ASAP adaptation | Non-admissible overread | Practitioner implication |
+| --- | --- | --- | --- | --- |
+| Software product-line and variability-management practice (`https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`) | Mature variability lineage plus current SPLE-review cues. | Adopt variability slots, product-line reuse, exception inventory, and refactor triggers as architecture scale-preference fields. | Product-line label, shared code base, feature model, or platform name is not scale-preference evidence. | Before preferring the product-line alternative, name the scale window, variability slots, exception curve, and source-return condition. |
+| Product-platform and modular product-architecture practice (`https://link.springer.com/article/10.1007/s00163-023-00427-1`; `https://arxiv.org/abs/2510.11089`) | Current engineering-design source line for modular product architecture, assembly orientation, product-family reuse, and manufacturing-aware modularity. | Adopt the product-family commonality and variety trade-off as an architecture scale-preference pressure: reusable structure needs declared variation points, interface rules, assembly or realization constraints, exception curve, and source-return condition. | A product-platform name, common-module count, or modular-product label is not scale-preference evidence and does not by itself justify a module-interface or manufacturing claim. | Before preferring a product-platform alternative, state which product-family variation is scaled, which structure remains stable, and which assembly, safety, legal, or mission exception is allowed. |
+| Platform-engineering maturity practice (`https://tag-app-delivery.cncf.io/fr/whitepapers/platform-eng-maturity-model/`) | Current platform-practice source for platform service set, extension-rule, substitution-policy, and maturity-pressure claims. | Adapt platform practice into extension-rule, substitution-policy, conformance-expectation, and exception-growth checks. | Platform maturity does not by itself select an architecture or prove reusable structure. | Treat platform claims as source cues until the architecture scale variable and exception behavior are declared. |
+| C.19.1 BLP in FPF | FPF-local preference discipline for general scale-amenable methods. | Specialize the preference idea to architecture alternatives, selected structures, scale variables, and architecture slope vector. | C.31.ASAP does not replace general method BLP, selector policy, or decision records. | Use C.19.1 for method-family policy; use C.31.ASAP for architecture scale preference. |
+| C.29 RG and coarse-graining lens use in FPF | FPF-local mathematical-lens discipline. | Require scale window, coarse-graining rule, preserved structure, lost structure, and source-return condition when RG-like architecture scale reasoning is live. | RG wording is not physical RG, scale proof, causal proof, assurance, or selected architecture. | Use `MLU.Description@RGArchitecture` or `MLU.Description@MultilevelLearningFrustration` only when the lens changes the next move. |
+
+### C.31.ASAP:12 - Relations
+
+- **Builds on:** `C.31`, `C.31.RSA`, `C.16`, `A.17`, `A.18`, `A.19`, `C.18.1`, `C.19.1`, and `C.29`.
+- **Coordinates with:** `A.6.M` for module-interface relation repair; `C.30`, `C.30.ASV`, `C.30.LCA`, and `C.30.ILC` for architecture and selected-structure questions; `A.10`, `B.3`, and `G.6` for evidence and assurance reliance; `G.5`, `G.9`, and `C.11` for selected-set, parity, and choice claims.
+- **Does not replace:** `C.31` modularity characteristics, `C.31.RSA` reusable-structure accounting, `C.29` mathematical-lens use, `C.18.1` scale-law adequacy, `C.19.1` general method BLP, `G.5` selected-set return, the admitted architecture synthesis receiving pattern when present, `C.11` decision records, or project evidence, assurance, gate, work, and release patterns.
+- **Precision-restoration relation:** `E.10`, `E.10.ARCH`, and `C.30.STRAT` may send source wording here only after the recovered live claim is architecture scale preference over a declared alternative set, scale variable, and scale window.
+
+### C.31.ASAP:End
+
 # **Part D – Multi-scale Ethics & Conflict-Optimisation**
 
 ## D.5 - Bias-Audit & Ethical Assurance
@@ -82731,7 +83088,7 @@ This table helps recover the governing pattern or verify the preceding guidance.
 | Partly-said cue and language-state discovery | "Something important is there, but it is too early to publish as a settled claim, requirement, or work record." | `C.2.LS`; `A.16`; `A.16.1`; `A.16.2`; `B.4.1`; `B.5.2.0` | endpoint claim, action, or quality patterns become first patterns to inspect only after the cue is mature enough | cue preserved, language-state cue typed, or entry plurality opened without endpoint hardening | not when the claim is already stable enough for an L, A, D, and E-classified boundary claim set or endpoint record | `I.2.2` worked walk-through; lexical cues may mention "vague cue", "not yet a claim" |
 | Wording-use precision restoration | "The wording is doing real FPF work, but the head kind, relation, source-use role, state-family value, selected structure, `ArchitectureOf@Context` relation, architecture-description use, structural-view use, stratification source label, characteristic, quality sense, function sense, or exact receiving pattern is hidden." | `E.10`; `E.10.ARCH`; exact realization pattern when the trigger is already known | `C.2.P` for source-use, publication-use, or interpretation-use wording; `A.6.P` for relation-bearing wording; `C.30.P` for architecture or structure wording; `C.30.STRAT` for stratification or source-label wording; `C.16.P` for characteristic or scale wording; `C.16.Q` for quality or evaluative-characterization wording; `A.19.SPR` for state, status, posture, or readiness wording; `A.6.F` for function-like wording; `F.18` when naming, minting, or reuse is live | trigger is false positive, local lexical repair is enough, direct exact receiving pattern is opened, or one restoration note names the remaining admissible move | not a required toll booth when the exact receiving pattern is already recoverable and no wording-use repair is doing work | Worked cues: "source says"; "interpretation shows"; "architecture relation"; "quality score"; "source status"; "readiness claim"; "function of"; "claim escalation"; source-label cues such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate`; state-family precision-restoration queries enter through `A.19.SPR`; quality-term precision-restoration queries enter through `C.16.Q`; source-label precision-restoration queries enter through `C.30.STRAT` |
 | Boundary unpacking and claim decomposition | "An agreement, API, protocol, SLA, acceptance, or compliance sentence mixes law, gate, duty, evidence, quality wording, or action." | `A.6`; `A.6.B`; `A.6.C` | `A.6.RSIG` if first-contact recognition of the boundary description is still live; `A.6.P`, `C.16.Q`, `A.6.A` when relation, quality characterization, evaluative characterization, or action wording is live | boundary claim pattern opened, quality-term repair exited, or an L, A, D, and E-classified atomic claim set or Claim Register is ready for the next governing FPF pattern | not when the phrase is only a partly-said cue, or when a full L, A, D, and E-classified claim set already exists | `I.2.3` worked walk-through; ToC cues stay claim-bound and do not turn API wording into promise content, commitment, duty, evidence relation, quality verdict, or gate authority |
-| Architecture, diagram, module, and model distinction | "We have an architecture, module diagram, ports, functional architecture, TGA graph, LCA control description, modularity score, reusable structure, source label such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate`, or bespoke residue, but we are not sure which EntityOfConcern the description is about." | `C.30.P` when architecture or structure wording hides the live architecture claim, structure kind, structure relation, view, or publication or source relation; `C.30.STRAT` when stratification or source-label wording hides the exact receiving pattern; `C.30` only when `ArchitectureOf@Context`, `ArchitectureDescription@Context`, or an architecture question card is already recoverable; `A.6.M` when module-interface relation is live; `C.31` when modularity characteristics are live; `C.31.RSA` when reusable structure or residue accounting is live | `C.30.ASV` when a structural view is live; `C.30.TGA-FLOW-REL` and `E.18` when flow graph relation is live; `C.30.LCA` when control structure is live; `A.6.F` when function wording is live; `C.30.ILC` when cross-scope residual is live; `C.16.P`, `C.29`, `C.2.P`, gate, work, or decision patterns, or ordinary non-use when `C.30.STRAT` recovers those instead of architecture | architecture-structure repair note, stratification source-label repair note, architecture question card, module relation repair note, modularity vector lite, or reusable-structure triage whose trigger is live | not a required sequence, not a list of all structure kinds or characteristics, not a universal `Layer` or `Stack` ontology, and not when the phrase is only an ordinary source label, evidence claim, assurance claim, or gate claim | Worked cues: "we have architecture"; "ports line up"; "the graph showed clusters"; "the model has three layers"; "modularity score improved"; "bespoke residue fell"; "LCA proves safety" |
+| Architecture, diagram, module, and model distinction | "We have an architecture, module diagram, ports, functional architecture, TGA graph, LCA control description, modularity score, reusable structure, architecture scale-preference claim, source label such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate`, or bespoke residue, but we are not sure which EntityOfConcern the description is about." | `C.30.P` when architecture or structure wording hides the live architecture claim, structure kind, structure relation, view, or publication or source relation; `C.30.STRAT` when stratification or source-label wording hides the exact receiving pattern; `C.30` only when `ArchitectureOf@Context`, `ArchitectureDescription@Context`, or an architecture question card is already recoverable; `A.6.M` when module-interface relation is live; `C.31` when modularity characteristics are live; `C.31.RSA` when reusable structure or residue accounting is live; `C.31.ASAP` when architecture scale preference over a declared alternative set, scale variable, and scale window is live | `C.30.ASV` when a structural view is live; `C.30.TGA-FLOW-REL` and `E.18` when flow graph relation is live; `C.30.LCA` when control structure is live; `A.6.F` when function wording is live; `C.30.ILC` when cross-scope residual is live; `C.16.P`, `C.29`, `C.2.P`, gate, work, or decision patterns, or ordinary non-use when `C.30.STRAT` recovers those instead of architecture | architecture-structure repair note, stratification source-label repair note, architecture question card, module relation repair note, modularity vector lite, reusable-structure triage, or scale-claim triage whose trigger is live | not a required sequence, not a list of all structure kinds or characteristics, not a universal `Layer` or `Stack` ontology, not a scale-proof shortcut, and not when the phrase is only an ordinary source label, evidence claim, assurance claim, or gate claim | Worked cues: "we have architecture"; "ports line up"; "the graph showed clusters"; "the model has three layers"; "modularity score improved"; "bespoke residue fell"; "the platform scales"; "LCA proves safety" |
 | Admissible comparison, candidate-pool policy, selection, and selected-set publication | "We need comparison, a shortlist, a live pool, a call-planning distinction, or a selected set without forcing one winner too early." | `A.19:0`; `A.17-A.19`; `A.19.CN`; `C.18`; `C.19`; `G.0`; `G.5` | `C.11` when the entry question narrows to one local decision doctrine; `C.24` when the next honest C.24 use is `CallPlan` or `CheckpointReturn`; `A.19.CPM` and `A.19.SelectorMechanism` when comparator or selector structure is live | candidate-pool policy, comparison substrate, local choice, call-plan, or selected-set publication pattern identified honestly | not when a selector mechanism or selected-set publication pattern is already settled elsewhere | `I.2.4` worked walk-through; lexical cues may include "shortlist not winner" and "acceptable option set" |
 | Generator, SoTA, or portfolio scaffold | "The work is to publish a reusable search, harvest, generator, selector, or portfolio scaffold, not one recommendation." | `A.0`; `G.0`; `G.1`; `G.2`; `G.5` | `B.5.2.1` and `C.17-C.19` when creative search, novelty, exploration policy, or exploitation policy is already central; `G.10` or `G.11` when shipping or refresh is live | generator or scaffold entry question opened, or portfolio or set publication pattern identified | not when the entry question is only one local comparison or one one-off recommendation | `I.2.5` gives compact index form unless repeated misclassification makes depth necessary |
 | Same-entity rewrite, explanation, and comparative interpretation | "We need to restate, explain, render, repair, or compare the same claim-bearing `PublicationUnit` without quietly changing what it is about." | `A.6.3.CR`; `A.6.3.RT`; `E.17.EFP`; `E.17.ID.CR` | `E.17.AUD.LHR` and `E.17.AUD.OOTD` when pressured-head repair or `PublicationUnit` stability is live | same-entity rewrite, representation transition, explanation-facing rendering, or bounded comparative interpretation opened | not when the entry question is one new `U.Episteme`, new rule track, or independent `PublicationUnit` | `I.2.6` worked walk-through; ToC cues include "same unit, different audience" |
@@ -82765,6 +83122,7 @@ belongs in `I.2`.
 
 When `J.4` itself is under improvement, use `E.21` for the pattern-quality read and `E.23` for repeated improvement. `J.4` only answers whether a row is a useful first-practical entry projection.
 ### J.4:End
+
 # **Part K - Lexical Debt**
 
 ## Mandatory replacement map for measurement terms

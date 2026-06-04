@@ -6,12 +6,12 @@ section_id: "C.3.1:8"
 section_title: "Authoring & Review (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__009_authoring-review-informative.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:8 — Authoring & Review (informative)"
-line_start: 37693
-line_end: 37706
+line_start: 37699
+line_end: 37712
 dependencies:
   - "A.1"
   - "A.2.6"

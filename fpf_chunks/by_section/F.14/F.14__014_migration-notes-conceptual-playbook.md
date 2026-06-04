@@ -6,12 +6,12 @@ section_id: "F.14:13"
 section_title: "Migration notes (conceptual playbook)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__014_migration-notes-conceptual-playbook.md"
-commit_sha: "a0c90e3bbfcc0285893cc5bb9d4a88fcd224f00e"
+commit_sha: "3d19010169827708d0bca36d0551af8323908640"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:13 — Migration notes (conceptual playbook)"
-line_start: 74089
-line_end: 74098
+line_start: 74446
+line_end: 74455
 dependencies:
   - "F.1"
   - "F.10"
