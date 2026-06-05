@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__013_relations.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:12 — Relations"
-line_start: 57245
-line_end: 57259
+line_start: 57182
+line_end: 57196
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -33,7 +33,7 @@ keywords:
 | `A.19.ECS` | Constructs or repairs the evaluation `CharacteristicSpace`. `E.8.ECSPF` authors the FPF pattern publication form for the selected specification when FPF reuse is selected. |
 | `A.19`, `A.17`, `A.18`, `C.16` | Govern `CharacteristicSpace`, characteristic, scale, coordinate, and measurement legality. |
 | `E.21` | Evaluates quality of the authored FPF pattern publication form. It does not replace the evaluation for one evaluated object kind. |
-| `E.22` | Frames one quality read using the evaluation published by the publication form. |
+| `E.22` | Frames one quality evaluation using the evaluation published by the publication form. |
 | `E.23` | Runs repeated improvement using the evaluation published by the publication form. |
 | `E.9.DA`, `E.2.DA`, `F.18`, `C.25` | Existing or candidate evaluations that may use this authoring specialization when their publication-form is being written or refreshed. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `A.15` | Govern evidence, assurance, gate, decision, and work claims when an evaluation result is reused for those purposes. |

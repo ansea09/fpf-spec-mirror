@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SPR.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
-line_start: 22904
-line_end: 23110
+line_start: 22931
+line_end: 23138
 dependencies:
   - "A.10"
   - "A.16"
@@ -249,3 +249,4 @@ The repeated problem is not a bad word. The repeated problem is an untyped state
 The pattern also protects exact local fields. `LensUseAdmissibilityValue` and `dynClaimPosture` are acceptable when their governing patterns declare value sets and boundaries. Specification wording is acceptable only as a Description episteme admitted for specification use or refinement under an exact specification-granting neighbouring pattern; it is not a reusable posture field. Broad `source posture`, `evidence posture`, `assurance posture`, `publication posture`, `release posture`, and administrative forms are not acceptable unless they are repaired into exact FPF kinds or moved to the exact project-side administrative, review, dispatch, release or admission, or source-control record that actually governs them.
 
 ### A.19.SPR:End
+

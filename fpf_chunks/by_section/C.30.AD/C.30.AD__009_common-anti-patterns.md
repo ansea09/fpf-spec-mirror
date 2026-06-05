@@ -6,12 +6,12 @@ section_id: "C.30.AD:7"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__009_common-anti-patterns.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:7 — Common anti-patterns"
-line_start: 52117
-line_end: 52127
+line_start: 52164
+line_end: 52174
 dependencies:
   - "A.10"
   - "A.15"

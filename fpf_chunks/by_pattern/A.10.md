@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.10.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
-line_start: 18203
-line_end: 18592
+line_start: 18213
+line_end: 18603
 dependencies:
   - "A.1"
   - "A.10"
@@ -440,3 +440,4 @@ Do not let the label `quantum-like` carry evidence weight by itself. The evidenc
 > If a mathematical lens needs evidence relation, write the evidence path, source currentness, provenance, and any model-card or datasheet evidence use in `A.10`. A `C.29` output may state only `LensUseAdmissibilityValue` for the mathematical-lens use claim; it is not an evidence path, currentness proof, provenance record, or evidence-carrier substitute. Assurance or release confidence goes to `B.3`; measurement construction or comparability goes to `C.16`.
 
 ### A.10:End
+

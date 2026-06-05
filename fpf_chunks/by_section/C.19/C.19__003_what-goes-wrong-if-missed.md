@@ -6,12 +6,12 @@ section_id: "C.19:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__003_what-goes-wrong-if-missed.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:0.1 — What goes wrong if missed"
-line_start: 42567
-line_end: 42572
+line_start: 42605
+line_end: 42610
 dependencies:
   - "B.3"
   - "C.11"

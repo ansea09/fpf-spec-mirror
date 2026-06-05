@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.22"
-pattern_title: "Improvement-Oriented Quality-Read Question Framing"
+pattern_title: "Improvement-Oriented Quality Evaluation Question Framing"
 section_id: "E.22:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__007_bias-annotation.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
-  - "E.22 — Improvement-Oriented Quality-Read Question Framing"
+  - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:6 — Bias annotation"
-line_start: 68891
-line_end: 68896
+line_start: 67723
+line_end: 67728
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.22:6 - Bias annotation
 
-`E.22` intentionally biases review prompts toward explicit purpose and away from hidden reviewer authority.
+This pattern biases FPF toward asking the quality question by value. The bias is useful because unframed review requests often produce plausible but wrong answers.
 
-The bias is useful because underspecified prompts repeatedly produce the wrong quality-read purpose. The bias is dangerous when it turns every small review into a long preamble. Keep the short form for ordinary `floorRead` cases.
+The bias is bounded. `E.22` does not supply quality values, run repeated improvement, publish selected sets, decide work, or certify project claims.
 

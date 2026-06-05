@@ -6,12 +6,12 @@ section_id: "G.Core:6"
 section_title: "Bias-annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__007_bias-annotation-informative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:6 — Bias-annotation (informative)"
-line_start: 76610
-line_end: 76626
+line_start: 75228
+line_end: 75244
 dependencies:
   - "A.15.3"
   - "A.19"

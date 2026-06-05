@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.14.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
-line_start: 61164
-line_end: 61461
+line_start: 60894
+line_end: 61192
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -324,3 +324,4 @@ The **Working‑Model layer remains the canonical publication face** for authors
 * Part F unification practices (context of meaning, bridges, fit levels) by reinforcing the preference for human‑readable labels with explicit alignment notes rather than silent formal substitutions.
 
 ### E.14:End
+

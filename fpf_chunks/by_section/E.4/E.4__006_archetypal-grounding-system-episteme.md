@@ -6,12 +6,12 @@ section_id: "E.4:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__006_archetypal-grounding-system-episteme.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:5 — Archetypal Grounding (System / Episteme)"
-line_start: 55908
-line_end: 55919
+line_start: 55840
+line_end: 55851
 dependencies:
   - "E.1"
   - "E.5.3"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.TGA-FLOW-REL.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
-line_start: 53795
-line_end: 54039
+line_start: 53845
+line_end: 54090
 dependencies:
   - "A.10"
   - "A.15"
@@ -286,3 +286,4 @@ Coordinates with: `C.30.STRAT`, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C
 Does not replace: C.30.STRAT stratification-wording repair and source-label repair; E.18 graph, path, crossing, and flow-valuation discipline; C.30 grounded architecture and selected-structure adequacy; C.30.ASV architecture structural-view adequacy; A.6.F function-use repair; A.15 work; A.10 and G.6 evidence; B.3 assurance; A.20 and A.21 gate or release records; C.28 causal-use relation; C.29 mathematical-lens use; C.16 characterization or admitted characteristic and measurement receiving patterns; or C.11 decisions.
 
 ### C.30.TGA-FLOW-REL:End
+

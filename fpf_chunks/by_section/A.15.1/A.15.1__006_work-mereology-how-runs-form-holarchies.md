@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how runs form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-runs-form-holarchies.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:5 — Work mereology (how runs form holarchies)"
-line_start: 19724
-line_end: 19782
+line_start: 19735
+line_end: 19793
 dependencies:
   - "A.1"
   - "A.1.1"

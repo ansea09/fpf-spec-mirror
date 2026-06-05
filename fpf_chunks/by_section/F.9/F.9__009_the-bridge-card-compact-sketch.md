@@ -6,12 +6,12 @@ section_id: "F.9:8"
 section_title: "The Bridge Card (compact sketch)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__009_the-bridge-card-compact-sketch.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:8 — The Bridge Card (compact sketch)"
-line_start: 72278
-line_end: 72295
+line_start: 70896
+line_end: 70913
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

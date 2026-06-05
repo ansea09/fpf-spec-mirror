@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ARCH.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-line_start: 59689
-line_end: 59941
+line_start: 59417
+line_end: 59670
 dependencies:
   - "A.17"
   - "A.18"
@@ -294,3 +294,4 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - `E.19` checks distribution preservation during review and refresh.
 - `J.4` helps readers enter the correct pattern from broad or old terms.
 ### E.10.ARCH:End
+

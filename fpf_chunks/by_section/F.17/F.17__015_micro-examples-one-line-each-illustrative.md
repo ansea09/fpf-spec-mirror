@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Micro Examples (one line each, illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__015_micro-examples-one-line-each-illustrative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:14 — Micro Examples (one line each, illustrative)"
-line_start: 75387
-line_end: 75400
+line_start: 74005
+line_end: 74018
 dependencies:
   - "A.1.1"
   - "A.11"

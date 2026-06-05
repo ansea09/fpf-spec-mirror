@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 39297
-line_end: 40007
+line_start: 39331
+line_end: 40042
 dependencies:
   - "A.13"
   - "A.18"
@@ -752,3 +752,4 @@ C.11 may cite `C.26` as the common quantum-like modeling lens only for the resid
 > `C.29` may supply a lens-supported prediction, distinction, obstruction, diagnostic boundary, or rival-lens note that a decision record can cite. If the output is a `ChoiceResult`, local choice record, selected-set publication, or selected option set, `C.11` governs the decision discipline and any `G.5`/`G.9` selector or benchmark publication remains separate. `C.29` does not select the option by mathematical elegance.
 
 ### C.11:End
+

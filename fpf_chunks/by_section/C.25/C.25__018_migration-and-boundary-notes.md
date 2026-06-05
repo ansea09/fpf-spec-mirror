@@ -6,12 +6,12 @@ section_id: "C.25:17"
 section_title: "Migration and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__018_migration-and-boundary-notes.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:17 — Migration and Boundary Notes"
-line_start: 45372
-line_end: 45409
+line_start: 45414
+line_end: 45451
 dependencies:
   - "A.15"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "F.3:6"
 section_title: "Solution — how to think the clustering (notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__007_solution-how-to-think-the-clustering-notation-free.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:6 — Solution — how to think the clustering (notation‑free)"
-line_start: 70386
-line_end: 70410
+line_start: 69004
+line_end: 69028
 dependencies:
   - "A.11"
   - "A.7"

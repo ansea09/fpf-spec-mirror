@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.22"
-pattern_title: "Improvement-Oriented Quality-Read Question Framing"
+pattern_title: "Improvement-Oriented Quality Evaluation Question Framing"
 section_id: "E.22:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__010_consequences.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
-  - "E.22 — Improvement-Oriented Quality-Read Question Framing"
+  - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:9 — Consequences"
-line_start: 68943
-line_end: 68953
+line_start: 67754
+line_end: 67761
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,12 +30,9 @@ keywords:
 
 ### E.22:9 - Consequences
 
-| Consequence | Benefit | Cost or guard |
+| Consequence | Benefit | Cost |
 |---|---|---|
-| Review requests become typed before review starts. | Fewer wrong-answer reviews. | Use the short form for ordinary floor reads. |
-| Exceptional improvement becomes an explicit request. | Reviewers can propose higher-value non-dominated edits under the object-under-improvement evaluation rather than stopping at blockers. | The request must also state protected trade-offs. |
-| Candidate-change proposals become evaluation-shaped. | Improvement loops and OEE/NQD exploration can generate a proposal portfolio for a reason rather than by unguided candidate changes. | `E.22` must still hand generation, pool policy, front or archive handling, selected-set publication, parity, and refresh to the exact neighbour. |
-| Absorption becomes quality-aware. | Returned review follow-up says what improved, not only what was applied. | The impact account should be compact and tied to the object-under-improvement evaluation. |
-| Open questions become visible. | Missing questions can improve the object-under-improvement evaluation itself or move to another exact object-under-improvement evaluation. | Open-question discovery must not become unbounded campaign planning. |
-| Goodhart risk is checked at the prompt boundary. | Improvement requests carry usability, affordability, locality, corpus ecology, and neighbour-fit protections from the start. | Some plausible "improvements" will be rejected or narrowed. |
+| Review requests become typed. | Evaluators answer the intended quality question. | Requesters must name the object and evaluation. |
+| Exceptional improvement becomes explicit. | Reviews can propose non-dominated improvements rather than stopping at floor defects. | Protected trade-offs must be named. |
+| Absorption becomes quality-aware. | Follow-up says what improved or worsened. | Row discharge alone is not enough. |
 

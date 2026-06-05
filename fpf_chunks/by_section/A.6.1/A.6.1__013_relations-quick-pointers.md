@@ -6,12 +6,12 @@ section_id: "A.6.1:12"
 section_title: "Relations (quick pointers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__013_relations-quick-pointers.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:12 — Relations (quick pointers)"
-line_start: 9222
-line_end: 9225
+line_start: 9224
+line_end: 9227
 dependencies:
   - "A.19"
   - "A.2.6"

@@ -6,12 +6,12 @@ section_id: "C.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__001_intro.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:intro — Intro"
-line_start: 36437
-line_end: 36444
+line_start: 36471
+line_end: 36478
 dependencies:
   - "A.16"
   - "A.16.0"

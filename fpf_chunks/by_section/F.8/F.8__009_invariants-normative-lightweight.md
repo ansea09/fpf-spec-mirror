@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Invariants (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_invariants-normative-lightweight.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:8 — Invariants (normative, lightweight)"
-line_start: 71956
-line_end: 71964
+line_start: 70574
+line_end: 70582
 dependencies:
   - "A.11"
   - "A.7"

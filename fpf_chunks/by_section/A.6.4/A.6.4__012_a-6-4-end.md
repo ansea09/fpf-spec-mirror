@@ -6,12 +6,12 @@ section_id: "A.6.4:End"
 section_title: "A.6.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__012_a-6-4-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:End — A.6.4:End"
-line_start: 11874
-line_end: 11875
+line_start: 11879
+line_end: 11880
 dependencies:
   - "A.6.2"
   - "A.6.3"

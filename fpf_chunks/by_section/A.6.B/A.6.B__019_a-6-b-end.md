@@ -6,12 +6,12 @@ section_id: "A.6.B:End"
 section_title: "A.6.B:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__019_a-6-b-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:End — A.6.B:End"
-line_start: 8335
-line_end: 8335
+line_start: 8336
+line_end: 8337
 dependencies:
   - "A.10"
   - "A.6"
@@ -66,3 +66,4 @@ keywords:
 ---
 
 ### A.6.B:End
+

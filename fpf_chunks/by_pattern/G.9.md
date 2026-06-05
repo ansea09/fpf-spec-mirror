@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.9.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
-line_start: 80794
-line_end: 81302
+line_start: 79413
+line_end: 79922
 dependencies:
   - "A.19"
   - "A.21"
@@ -552,3 +552,4 @@ A team compares an observational predictor, an intervention optimizer, and a cou
 - If a scalar winner is being claimed where only a selected set or partial order is CSLC-admissible, parity is overclaiming and should publish the CSLC-admissible outcome shape instead.
 
 ### G.9:End
+

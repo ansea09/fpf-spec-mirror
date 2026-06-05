@@ -6,12 +6,12 @@ section_id: "C.30.AD:9"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__011_related-patterns.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:9 — Related patterns"
-line_start: 52137
-line_end: 52145
+line_start: 52184
+line_end: 52192
 dependencies:
   - "A.10"
   - "A.15"

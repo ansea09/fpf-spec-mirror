@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
-line_start: 63027
-line_end: 63619
+line_start: 62758
+line_end: 63351
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -627,3 +627,4 @@ A conformance check is retained only if it changes the next admissible use of th
 > “We publish every **morphism** under a declared **set of viewpoints** using **MVPK**. Each **view** that claims functorial composition carries the local composition witness; without that witness it stays non-compositional or explanatory-only. Each face **adds no new claims** and pins **unit, scale, reference-plane, and edition** with **CHR and CG** references. **`InteropCard`** views clarify concerns and semantics only (concrete exchange lives outside Part E); **`AssuranceLane`** cites evidence carriers (SCR). Any cross-Context or cross-plane view cites **Bridge+CL** (Φ→R only). Publication build, render, or upload activity is **`U.Work` on carriers**, not a mechanism change.”
 
 ### E.17:End
+

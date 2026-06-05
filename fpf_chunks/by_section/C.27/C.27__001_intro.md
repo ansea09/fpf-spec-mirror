@@ -6,12 +6,12 @@ section_id: "C.27:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__001_intro.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:intro — Intro"
-line_start: 47039
-line_end: 47076
+line_start: 47086
+line_end: 47123
 dependencies:
   - "A.3.3"
   - "B.1.4"

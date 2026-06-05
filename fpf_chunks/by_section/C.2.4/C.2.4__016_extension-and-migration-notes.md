@@ -6,12 +6,12 @@ section_id: "C.2.4:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__016_extension-and-migration-notes.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:15 — Extension and Migration Notes"
-line_start: 36196
-line_end: 36205
+line_start: 36230
+line_end: 36239
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "B.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__002_problem-frame.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.2.4 — Meta-Functional Transition (MFT)"
   - "B.2.4:1 — Problem Frame"
-line_start: 30715
-line_end: 30722
+line_start: 30748
+line_end: 30755
 dependencies:
   - "A.3.1"
   - "B.2"

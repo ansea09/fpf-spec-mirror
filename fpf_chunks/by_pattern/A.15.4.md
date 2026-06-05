@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.4.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
-line_start: 20567
-line_end: 20854
+line_start: 20578
+line_end: 20866
 dependencies:
   - "A.10"
   - "A.15"
@@ -330,3 +330,4 @@ The nearest recovery references are the worked dashboard and approval examples, 
 > If a mathematical lens appears in work-relevant source restoration, use `C.29` only to state why the lens helps expose or bound an encountered item such as a visible item, generated wording, dashboard cue, copied phrase, publication form, MVPK face, carrier, rendering, `PublicationUnit`, or source-finding cue. `A.15.4` still governs the exact source item, visible item, restoration or reopen condition, reliance relation, and whether that item can be admissible for work. Method choice, plans, and performed work return to `A.15` and `A.15.1`; a `C.29` lens-use result does not turn a cue, rendering, or diagnostic phrase into source relation.
 
 ### A.15.4:End
+

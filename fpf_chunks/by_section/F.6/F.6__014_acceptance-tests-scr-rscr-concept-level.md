@@ -6,12 +6,12 @@ section_id: "F.6:13"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__014_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:13 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 71522
-line_end: 71540
+line_start: 70140
+line_end: 70158
 dependencies:
   - "A.15"
   - "A.2.1"

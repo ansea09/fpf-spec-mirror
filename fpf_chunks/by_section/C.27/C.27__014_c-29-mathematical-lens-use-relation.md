@@ -6,12 +6,12 @@ section_id: "C.27:12a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__014_c-29-mathematical-lens-use-relation.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:12a — C.29 mathematical-lens use relation"
-line_start: 49065
-line_end: 49068
+line_start: 49112
+line_end: 49115
 dependencies:
   - "A.3.3"
   - "B.1.4"

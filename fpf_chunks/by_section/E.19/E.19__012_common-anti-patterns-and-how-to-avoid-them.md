@@ -6,12 +6,12 @@ section_id: "E.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 67056
-line_end: 67082
+line_start: 66793
+line_end: 66819
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -44,7 +44,7 @@ keywords:
 | **Type-correct but inert epistemic precision cleanup** | An `E.10`-triggered epistemic precision restoration removes the overread and restores kind language, but the recognition text no longer tells the reader why the distinction matters, what move remains, which exact FPF pattern application now carries the live claim, or how a Plain recognition line maps back to the recovered Tech reading when both registers are live. | The review accepts typed wording while losing action guidance. | Return the draft to same-boundary repair: restore a remaining admissible reader move, name the exact FPF pattern application and governing ontology, repair the Tech-to-Plain mapping, or demote the phrase to reduced-use cue, quote-only wording, blocked transfer, or rewrite incomplete. |
 | **Expressive overread rebound after epistemic precision cleanup** | The pass makes the text more engaging after cleanup, but the added Plain or didactic wording carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind or admissible-use boundary not recoverable from the Tech reading or named exact FPF pattern application. | The review mistakes readability for recovered semantic work. | Rewrite the expressive line as ordinary recognition aid, recover its claim kind or admissible-use boundary through the Tech fields under `E.10:6.2`, name the exact FPF pattern application and governing ontology that carries the live claim, or demote the phrase to reduced-use cue, quote-only wording, blocked transfer, or rewrite incomplete. |
 | **Verdict-only review** | The run ends with “pass/fail” and prose complaints, but no precise findings-first repair direction. | Raises editorial cost; reduces repeatability. | Require one findings-first run record plus concrete remediation direction; do not rely on direct patch text as the primary review output. |
-| **Single giant checklist** | Review becomes a long, unfocused ritual that few complete. | Increases cost; reduces fit and rigor in practice. | Use a minimal baseline plus triggered profiles. |
+| **Single giant checklist** | Review becomes a long, unfocused ritual that few complete. | Increases cost; reduces fit and rigor in practice. | Use a minimal baseline plus risk-selected profiles; use `E.21` only when a pattern-version quality value is being evaluated. |
 | **Template-only compliance** | All headings exist, but requirements are vague and untestable. | Looks uniform; fails enforceability and auditability. | Enforce normative clause hygiene and CC/Solution coherence. |
 | **SoTA name-dropping** | SoTA-Echoing is a list of buzzwords with no stance. | Breaks evidence lineage; invites monoculture. | Require adopt/adapt/reject with reasons per item. |
 | **Terminology drift by “synonym”** | Authors swap kernel terms for nicer-sounding words. | Increases ambiguity; harms cross-pattern composability. | Apply PCP-TERM and require explicit mini-definitions on first use. |

@@ -6,19 +6,17 @@ section_id: "J.4:End"
 section_title: "J.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__002_j-4-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:End — J.4:End"
-line_start: 83124
-line_end: 83157
+line_start: 81744
+line_end: 81775
 dependencies:
 keywords:
 ---
 
 ### J.4:End
-
-# **Part K - Lexical Debt**
 
 ## Mandatory replacement map for measurement terms
 

@@ -6,12 +6,12 @@ section_id: "E.10.D1:12"
 section_title: "Migration Notes (conceptual playbook)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__013_migration-notes-conceptual-playbook.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:12 — Migration Notes (conceptual playbook)"
-line_start: 60122
-line_end: 60131
+line_start: 59851
+line_end: 59860
 dependencies:
   - "A.4"
   - "A.7"

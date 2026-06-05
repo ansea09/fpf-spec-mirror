@@ -6,12 +6,12 @@ section_id: "C.21:8"
 section_title: "Bias-Annotation (E-cluster lenses)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__009_bias-annotation-e-cluster-lenses.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:8 — Bias-Annotation (E-cluster lenses)"
-line_start: 43259
-line_end: 43265
+line_start: 43298
+line_end: 43304
 dependencies:
   - "A.17"
   - "A.18"

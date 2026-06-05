@@ -6,12 +6,12 @@ section_id: "E.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__004_forces.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.13 — Pragmatic Utility & Value Alignment"
   - "E.13:3 — Forces"
-line_start: 61087
-line_end: 61094
+line_start: 60817
+line_end: 60824
 dependencies:
   - "E.12"
   - "E.2"

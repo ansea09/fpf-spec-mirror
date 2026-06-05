@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 51227
-line_end: 51297
+line_start: 51274
+line_end: 51344
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.7:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__008_consequences.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:7 — Consequences"
-line_start: 56526
-line_end: 56534
+line_start: 56458
+line_end: 56466
 dependencies:
   - "E.5.4"
   - "E.6"

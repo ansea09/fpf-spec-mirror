@@ -6,12 +6,12 @@ section_id: "F.0.1:2"
 section_title: "The Three Principles (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__003_the-three-principles-normative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:2 — The Three Principles (normative)"
-line_start: 69419
-line_end: 69469
+line_start: 68035
+line_end: 68085
 dependencies:
   - "A.1.1"
   - "A.11"

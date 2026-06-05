@@ -6,12 +6,12 @@ section_id: "E.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__004_what-this-buys.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.2 — What this buys"
-line_start: 66487
-line_end: 66498
+line_start: 66224
+line_end: 66235
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -38,9 +38,9 @@ keywords:
 
 `E.19` gives authors, reviewers, and stewards a shared review profile: what must be checked, how deep the check should go, which defects block admission or refresh, and what evidence is needed before a pattern-quality claim is made. It also makes the recognition text visible before the heavier assurance machinery begins.
 
-**First useful move.** Name the pattern-quality review or refresh claim, run baseline triage, and add only the risk-driven profiles needed by the live ontology, usability, SoTA, boundary, naming, or authority risk.
+**First useful move.** Name the pattern-quality review or refresh claim, run baseline triage over the reviewed pattern or subset, and add only the risk-selected profiles needed by the live ontology, usability, SoTA, boundary, naming, or authority risk.
 
-**Cheap stop.** If baseline triage shows that the current review question has no live ontology, usability, SoTA, boundary, naming, or authority risk beyond a small mechanical repair, close with that repair direction. Do not run every profile just because `E.19` exists.
+**Local-repair boundary.** If baseline triage shows that the current review question has no live ontology, usability, SoTA, boundary, naming, or authority risk beyond a small mechanical repair, close with that repair direction. Do not run every profile just because `E.19` exists, and do not claim an `E.21` quality value unless `E.21` has evaluated the pattern version over its required coordinate set.
 
 **Primary EntityOfConcern in plain terms.** The primary `EntityOfConcern` is one FPF pattern-quality review or refresh claim: the reviewed pattern text, the selected profile, the defects found or cleared, and the boundary of the admission or refresh decision.
 

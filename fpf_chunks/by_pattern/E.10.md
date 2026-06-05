@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
-line_start: 58069
-line_end: 59688
+line_start: 57796
+line_end: 59416
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ Formal fields from the older LEX substrate are live only when the selected wordi
 
 Local patterns may cite the relevant `E.10` trigger row, but they should not reproduce large trigger lists or create local lexical registries unless a named local application profile has its own primary `EntityOfConcern`, first useful move, and exact receiving-pattern boundary. New trigger families enter `E.10` only when they recur across FPF-governed texts and cannot be handled by one local pattern; specialized patterns receive the detailed ontology when the problem is no longer lexical. Stale or overly broad trigger rows are narrowed or retired.
 
-Self-application is bounded. When `E.10` is under improvement, use `E.10` only for its own wording-trigger repairs; use `E.21` for pattern-quality evaluation, `E.22` for improvement-oriented quality-read framing, `E.23` for the improvement loop, `E.2.DA` for FPF-level Pillar effect, and exact neighbours for relation, episteme, publication, source-use, naming, or quality-word issues.
+Self-application is bounded. When `E.10` is under improvement, use `E.10` only for its own wording-trigger repairs; use `E.21` for pattern-quality evaluation, `E.22` for improvement-oriented quality-evaluation framing, `E.23` for the improvement loop, `E.2.DA` for FPF-level Pillar effect, and exact neighbours for relation, episteme, publication, source-use, naming, or quality-word issues.
 #### E.10:0.1 - Scope split
 
 `E.10` governs lexical conformance for FPF pattern text, extracted pattern hosts, `FPF-Spec` monolith text, FPF governing documents, accepted `DRR` text, and any project, product, research, engineering, or review text that deliberately uses FPF terms, pattern references, FPF relation names, FPF kind claims, FPF admissibility claims, or claims FPF conformance.
@@ -271,7 +271,7 @@ Split `source` into source `U.Episteme`, source `U.EpistemePublication`, `U.View
 
 Split `target` into EntityOfConcern, target `U.Episteme`, review target, receiving FPF pattern, project target, work target, target publication form, exact project-side FPF kind and reference, target frame, target context, or relation slot on the target side of a named relation.
 
-Generic `object` and `target` are not final recovered kinds. Keep them only when the sentence is explicitly declaring a variable slot, such as `ObjectKindUnderImprovement`, `ObjectVersionUnderImprovement`, `ObjectVersionUnderQualityRead`, `review target`, or one named relation endpoint whose exact endpoint kind is supplied nearby. When the exact kind is known, write the exact kind: FPF pattern version, `DRR`, FPF corpus slice, publication form, `PublicationUnit`, file carrier, system carrier, declared transduction result, candidate proposal, evidence path, gate decision, work plan, method description, object-under-improvement evaluation, or another named FPF kind.
+Generic `object` and `target` are not final recovered kinds. Keep them only when the sentence is explicitly declaring a variable slot, such as `ObjectKindUnderImprovement`, `ObjectVersionUnderImprovement`, `ObjectVersionUnderQualityEvaluation`, `review target`, or one named relation endpoint whose exact endpoint kind is supplied nearby. When the exact kind is known, write the exact kind: FPF pattern version, `DRR`, FPF corpus slice, publication form, `PublicationUnit`, file carrier, system carrier, declared transduction result, candidate proposal, evidence path, gate decision, work plan, method description, object-under-improvement evaluation, or another named FPF kind.
 
 Do not recover an FPF pattern, publication form, `PublicationUnit`, pattern body, or view as a `carrier`. Use `carrier` only for the system, medium, file, rendering, or transport object that bears or renders a publication or symbol. If the text means the FPF pattern publication form, write `FPF pattern publication form`; if it means the file or rendered medium, write file carrier, system carrier, rendering, or another exact carrier kind.
 
@@ -279,7 +279,7 @@ Common repair examples:
 
 | Problem wording | Required recovery |
 |---|---|
-| `target version` in improvement prose | `ObjectVersionUnderImprovement` or `ObjectVersionUnderQualityRead`, unless `target` is a source-side quote |
+| `target version` in improvement prose | `ObjectVersionUnderImprovement` or `ObjectVersionUnderQualityEvaluation`, unless `target` is a source-side quote |
 | `pattern carrier` | `FPF pattern publication form` when the pattern is the publication form; file carrier or rendering only when the system-side bearer is live |
 | `object evaluation` when the evaluated kind is known | exact object-under-improvement evaluation name, such as `PatternQualityQBundle`, `DRRDecisionAdequacyEvaluationCharacteristicSpace`, `FPFPillarAdequacyEvaluationCharacteristicSpace`, or declared local evaluation |
 | `thing`, `object`, `target`, `artifact`, or `material` as final head | exact FPF kind, exact project-side FPF kind, or blocker |
@@ -607,7 +607,7 @@ Typical receiving patterns:
 | temporal claim status or temporal-use classification | `C.27`, retaining `dynClaimPosture` only as a declared C.27 field |
 | mathematical-lens use admissibility | `C.29`, retaining `LensUseAdmissibilityValue` only as a declared C.29 field |
 | `DRR` decision-adequacy result or source-use classification | `E.9.DA` |
-| pattern-quality result or quality-read status | `E.21`; `E.19` remains review and admission profile |
+| pattern-quality result or quality-evaluation status | `E.21`; `E.19` remains review and admission profile |
 | landing, monolith, review, queue, handoff, transport, or current campaign state | the exact process file or release carrier, not live pattern prose unless that state is the pattern's own object |
 
 A retained `...Posture`, `...Status`, `...Readiness`, or `...State` field must declare field name, bearer kind, governing pattern, value set or classification source, admissible use, non-admissible overread, and reopen/change condition when applicable. If those are missing, rewrite to the exact receiving-pattern phrase or record, mark quote-only/reduced-use, or leave the rewrite blocked.
@@ -741,7 +741,7 @@ Split:
 
 `metric` is especially risky because FPF often treats it as imprecise shorthand for scale, value, or indicator machinery.
 If the text says a quality improved, name what changed: characteristic, scale, observed value, threshold, decision consequence, or admissible act, work, or claim.
-If "quality improved" refers to an FPF pattern version, name whether the change affects an `E.21` eligibility row, coordinate value, status payload, stop condition, bounded non-use, or exact governing-pattern application.
+If "quality improved" refers to an FPF pattern version, name whether the change affects an `E.21` required coordinate value, status payload, stop condition, bounded non-use, or exact governing-pattern application.
 
 ##### E.10:0.2c.33 - `slot`, `field`, `row`, `label`, `badge`, `mark`, `cue`
 
@@ -1650,3 +1650,4 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 > **One‑line memory:** *“ULR keeps words honest so ideas stay composable.”*
 
 ### E.10:End
+

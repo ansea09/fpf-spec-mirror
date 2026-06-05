@@ -6,12 +6,12 @@ section_id: "C.3.A:3"
 section_title: "Solution Overview (what these guards do)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__004_solution-overview-what-these-guards-do.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:3 — Solution Overview (what these guards do)"
-line_start: 38611
-line_end: 38621
+line_start: 38645
+line_end: 38655
 dependencies:
   - "A.2.6"
   - "C.3.x"

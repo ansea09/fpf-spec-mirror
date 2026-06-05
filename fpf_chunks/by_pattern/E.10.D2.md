@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D2.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
-line_start: 60151
-line_end: 60430
+line_start: 59880
+line_end: 60160
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -316,3 +316,4 @@ Use the short memory **entity / description / admitted specification use**:
 5. **Neighboring claims.** Which evidence, assurance, gate, decision, commitment, work, bridge, view, or retargeting pattern carries any additional live claim?
 
 ### E.10.D2:End
+

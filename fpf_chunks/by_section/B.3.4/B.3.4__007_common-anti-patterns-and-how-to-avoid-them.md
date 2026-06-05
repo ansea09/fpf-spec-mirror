@@ -6,12 +6,12 @@ section_id: "B.3.4:6"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__007_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:6 — Common Anti-Patterns and How to Avoid Them"
-line_start: 31725
-line_end: 31732
+line_start: 31758
+line_end: 31765
 dependencies:
   - "A.10"
   - "B.3"

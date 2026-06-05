@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.Core.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "G.Core — Part G Core Invariants"
-line_start: 76282
-line_end: 76723
+line_start: 74900
+line_end: 75342
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -473,3 +473,4 @@ Although FPF is conceptual (not a data governance framework), `G.Core` aligns Pa
   * Part‑G authoring: no shadow specs, no silent scalarization, tri‑state guards, penalties routing, typed RSCR causes, defaults with one governing definition, and ID‑continuity refactors.
 
 ### G.Core:End
+

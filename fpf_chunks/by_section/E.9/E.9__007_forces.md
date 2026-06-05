@@ -6,12 +6,12 @@ section_id: "E.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__007_forces.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:3 — Forces"
-line_start: 57316
-line_end: 57323
+line_start: 57253
+line_end: 57260
 dependencies:
   - "E.10"
   - "E.19"

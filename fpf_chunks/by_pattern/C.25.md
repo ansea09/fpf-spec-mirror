@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.25.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
-line_start: 45071
-line_end: 45480
+line_start: 45113
+line_end: 45523
 dependencies:
   - "A.15"
   - "A.16.0"
@@ -451,3 +451,4 @@ Useful outputs:
 - no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
 
 ### C.25:End
+

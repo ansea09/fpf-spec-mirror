@@ -6,12 +6,12 @@ section_id: "C.2.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__011_rationale.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:10 — Rationale"
-line_start: 36504
-line_end: 36506
+line_start: 36538
+line_end: 36540
 dependencies:
   - "A.16"
   - "A.16.0"

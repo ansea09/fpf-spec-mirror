@@ -6,12 +6,12 @@ section_id: "F.15:8"
 section_title: "SCR — Static conformance rules (S‑Local)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__009_scr-static-conformance-rules-s-local.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:8 — SCR — Static conformance rules (S‑Local)"
-line_start: 74555
-line_end: 74582
+line_start: 73173
+line_end: 73200
 dependencies:
   - "B.3"
   - "D.CTX"

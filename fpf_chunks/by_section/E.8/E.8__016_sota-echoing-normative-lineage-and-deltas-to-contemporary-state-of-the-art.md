@@ -6,12 +6,12 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-lineage-and-deltas-to-contemporary-state-of-the-art.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
-line_start: 57047
-line_end: 57082
+line_start: 56979
+line_end: 57014
 dependencies:
   - "E.10"
   - "E.19"

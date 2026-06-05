@@ -6,12 +6,12 @@ section_id: "E.10.D1:1"
 section_title: "Intent & Applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__002_intent-applicability.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:1 — Intent & Applicability"
-line_start: 59981
-line_end: 59988
+line_start: 59710
+line_end: 59717
 dependencies:
   - "A.4"
   - "A.7"

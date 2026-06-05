@@ -6,12 +6,12 @@ section_id: "A.6.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__007_consequences.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:6 — Consequences"
-line_start: 10017
-line_end: 10041
+line_start: 10019
+line_end: 10043
 dependencies:
   - "A.6.0"
   - "A.6.2"

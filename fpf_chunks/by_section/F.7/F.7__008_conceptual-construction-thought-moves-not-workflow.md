@@ -6,12 +6,12 @@ section_id: "F.7:7"
 section_title: "Conceptual construction (thought moves, not workflow)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__008_conceptual-construction-thought-moves-not-workflow.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:7 — Conceptual construction (thought moves, not workflow)"
-line_start: 71630
-line_end: 71639
+line_start: 70248
+line_end: 70257
 dependencies:
   - "A.6.9"
   - "E.10.D1"

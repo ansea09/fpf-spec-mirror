@@ -6,12 +6,12 @@ section_id: "C.3.2:7"
 section_title: "Interactions & Placement (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__008_interactions-placement-informative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:7 — Interactions & Placement (informative)"
-line_start: 37840
-line_end: 37847
+line_start: 37874
+line_end: 37881
 dependencies:
   - "C.3.1"
   - "C.3.3"

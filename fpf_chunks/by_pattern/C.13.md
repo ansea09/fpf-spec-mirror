@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.13.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
-line_start: 40008
-line_end: 40202
+line_start: 40043
+line_end: 40237
 dependencies:
   - "A.14"
   - "B.3.5"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
-line_start: 57262
-line_end: 57600
+line_start: 57199
+line_end: 57538
 dependencies:
   - "E.10"
   - "E.19"
@@ -362,4 +362,5 @@ When a DRR relies on a source document, workstream plan, campaign queue, externa
 * **Coordinates with:** `E.23` when one `DRR` is being improved through repeated quality-improvement passes. `E.9` keeps the `DRR` kind and decision-record form; `E.9.DA` supplies the decision-adequacy object-under-improvement evaluation when adequacy is live; `E.23` governs the repeated method rather than turning the DRR into final pattern prose.
 
 ### E.9:End
+
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
-line_start: 28003
-line_end: 28378
+line_start: 28033
+line_end: 28409
 dependencies:
   - "A.1"
   - "A.10"
@@ -434,3 +434,4 @@ Coordinates with: `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL
 Does not replace: `C.30.P` or `C.30.STRAT` wording-use precision restoration, `C.30` for grounded architecture adequacy and conditional architecture-description use, `C.29` for mathematical-lens use, `C.16` for measurement and characterization, `C.28` for causal-use relation, `B.3` for assurance, `A.10` and `G.6` for evidence, `A.20` and `A.21` for gates and release, `A.15` for work, `C.11` for decisions, or `E.17` for publication.
 
 ### A.22:End
+

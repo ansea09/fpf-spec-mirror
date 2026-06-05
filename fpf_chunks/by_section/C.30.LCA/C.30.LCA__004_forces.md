@@ -6,12 +6,12 @@ section_id: "C.30.LCA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__004_forces.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:3 — Forces"
-line_start: 53319
-line_end: 53327
+line_start: 53369
+line_end: 53377
 dependencies:
   - "A.10"
   - "A.20"

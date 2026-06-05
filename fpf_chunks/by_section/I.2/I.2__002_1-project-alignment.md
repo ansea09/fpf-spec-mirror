@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".1 - Project alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__002_1-project-alignment.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .1 - Project alignment"
-line_start: 82879
-line_end: 82899
+line_start: 81499
+line_end: 81519
 dependencies:
 keywords:
 ---

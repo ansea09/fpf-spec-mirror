@@ -6,12 +6,12 @@ section_id: "G.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__013_relations.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:12 — Relations"
-line_start: 78899
-line_end: 78911
+line_start: 77518
+line_end: 77530
 dependencies:
   - "A.10"
   - "A.18"

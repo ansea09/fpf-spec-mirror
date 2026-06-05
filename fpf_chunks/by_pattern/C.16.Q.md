@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.Q.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
-line_start: 40843
-line_end: 41612
+line_start: 40879
+line_end: 41649
 dependencies:
   - "A.10"
   - "A.16"
@@ -823,3 +823,4 @@ Bare `quality` in Tech prose should therefore be banned or rewritten immediately
 #### C.16.Q:12.3 - Endpoint-governance boundary
 This pattern does not govern articulation-state characteristics, bridge stances, or representation factors. Those remain governed by `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, and `F.9.1`.
 ### C.16.Q:End
+

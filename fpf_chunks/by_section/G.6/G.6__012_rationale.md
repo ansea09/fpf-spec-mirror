@@ -6,12 +6,12 @@ section_id: "G.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__012_rationale.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
   - "G.6:10 — Rationale"
-line_start: 79909
-line_end: 79919
+line_start: 78528
+line_end: 78538
 dependencies:
   - "A.10"
   - "A.21"

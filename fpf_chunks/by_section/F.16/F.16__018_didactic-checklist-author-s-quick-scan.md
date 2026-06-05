@@ -6,12 +6,12 @@ section_id: "F.16:17"
 section_title: "Didactic checklist (author’s quick scan)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__018_didactic-checklist-author-s-quick-scan.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:17 — Didactic checklist (author’s quick scan)"
-line_start: 75121
-line_end: 75132
+line_start: 73739
+line_end: 73750
 dependencies:
   - "B.3"
   - "D.CTX"

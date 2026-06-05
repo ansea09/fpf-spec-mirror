@@ -6,12 +6,12 @@ section_id: "B.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__004_forces.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:3 — Forces"
-line_start: 30210
-line_end: 30218
+line_start: 30243
+line_end: 30251
 dependencies:
   - "A.1"
   - "A.12"

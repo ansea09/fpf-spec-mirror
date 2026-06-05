@@ -6,12 +6,12 @@ section_id: "B.5.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__004_forces.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:3 — Forces"
-line_start: 33227
-line_end: 33234
+line_start: 33260
+line_end: 33267
 dependencies:
   - "A.2"
   - "C.3"

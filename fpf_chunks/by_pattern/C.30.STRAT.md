@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
-line_start: 52385
-line_end: 52615
+line_start: 52434
+line_end: 52665
 dependencies:
   - "A.10"
   - "A.15"
@@ -277,3 +277,4 @@ Internal FPF current practice is the governing source here: `E.10` supplies trig
 Does not replace: `A.22`, `C.30`, `C.30.P`, `C.30.ASV`, `C.30.LCA`, `A.6.M`, `A.6.F`, `E.18`, `C.16`, `C.29`, `C.2.P`, evidence, assurance, gate, work, decision, causal-use, state-family, source-publication, or naming patterns.
 
 ### C.30.STRAT:End
+

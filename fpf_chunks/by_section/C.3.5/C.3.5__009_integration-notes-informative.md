@@ -6,12 +6,12 @@ section_id: "C.3.5:8"
 section_title: "Integration Notes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__009_integration-notes-informative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:8 — Integration Notes (informative)"
-line_start: 38542
-line_end: 38549
+line_start: 38576
+line_end: 38583
 dependencies:
   - "C.3.1"
 keywords:

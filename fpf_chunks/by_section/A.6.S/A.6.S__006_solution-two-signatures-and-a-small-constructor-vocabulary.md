@@ -6,12 +6,12 @@ section_id: "A.6.S:4"
 section_title: "Solution — two signatures and a small constructor vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__006_solution-two-signatures-and-a-small-constructor-vocabulary.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:4 — Solution — two signatures and a small constructor vocabulary"
-line_start: 16822
-line_end: 17008
+line_start: 16831
+line_end: 17017
 dependencies:
   - "A.12"
   - "A.3"

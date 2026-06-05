@@ -6,12 +6,12 @@ section_id: "C.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__010_rationale.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:9 — Rationale"
-line_start: 33418
-line_end: 33421
+line_start: 33451
+line_end: 33454
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.27:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__012_sota-echoing.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:11 — SoTA-Echoing"
-line_start: 48761
-line_end: 48914
+line_start: 48808
+line_end: 48961
 dependencies:
   - "A.3.3"
   - "B.1.4"

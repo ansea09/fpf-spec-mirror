@@ -6,12 +6,12 @@ section_id: "A.19.ECS:7"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__008_common-anti-patterns.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:7 — Common anti-patterns"
-line_start: 22853
-line_end: 22864
+line_start: 22878
+line_end: 22890
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -31,10 +31,11 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
 | **Scale set from air.** | Coordinates appear because they are familiar. | Rebuild from evaluated object kind, use, contrast cases, failure modes, domain tradition, first principles, and current source-use role. |
-| **Everything gets a low score.** | Objects outside the declared kind are scored instead of marked not applicable. | Add an applicability rule and not-applicable cases. |
+| **Wrong-kind object forced through the table.** | Objects outside the declared kind are either scored as weak members of that kind or silently exempted from declared coordinates. | Add an object-kind-fit rule and boundary cases: before opening, return to a suitable evaluation; after invocation, record an explicit object-kind-fit defect/value or repair status. |
 | **Checklist masquerading as characteristic space.** | A list of tasks is treated as coordinates. | Convert each task row to an evaluated EntityOfConcern property with a characteristic, scale, value meaning, and evidence rule, or move it to work planning. |
-| **One total quality score.** | Several ordinal readings are averaged. | Use coordinates, statuses, dominance or comparison rule, and protected trade-offs; do not scalarize unless an exact neighbouring pattern explicitly declares the operation. |
+| **One total quality score.** | Several ordinal values are averaged. | Use coordinates, statuses, dominance or comparison rule, and protected trade-offs; do not scalarize unless an exact neighbouring pattern explicitly declares the operation. |
 | **Improvement without floor.** | A loop continues because more change is possible. | State floor, exceptional meaning, stop condition, and reopen condition. |
-| **Hidden value drift.** | The evaluation changes while old readings are compared as if nothing changed. | Version the evaluation and state comparability, bridge, or retirement. |
-| **Evaluation theft.** | The new evaluation starts governing evidence, assurance, gate, work, decision, or publication truth. | Return each claim to the exact neighbouring pattern and leave only the value read here. |
+| **Hidden value drift.** | The evaluation changes while old evaluations are compared as if nothing changed. | Version the evaluation and state comparability, bridge, or retirement. |
+| **Evaluation theft.** | The new evaluation starts governing evidence, assurance, gate, work, decision, or publication truth. | Return each claim to the exact neighbouring pattern and leave only the value evaluation here. |
+| **Result prose as evaluation.** | A reviewer returns a narrative, two-column table, checklist count, or value list without evidence basis and short rationales. | Define the result-row shape, require short rationales and evidence basis, and lower any coordinate whose needed evidence is missing or unchecked. |
 

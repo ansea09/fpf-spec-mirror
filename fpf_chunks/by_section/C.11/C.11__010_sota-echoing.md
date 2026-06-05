@@ -6,12 +6,12 @@ section_id: "C.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__010_sota-echoing.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:11 — SoTA-Echoing"
-line_start: 39930
-line_end: 39962
+line_start: 39964
+line_end: 39996
 dependencies:
   - "A.13"
   - "A.18"

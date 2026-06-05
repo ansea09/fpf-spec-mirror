@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.1.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
-line_start: 43551
-line_end: 43698
+line_start: 43590
+line_end: 43738
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -186,3 +186,4 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 - `CC-C22.1-5` Downstream selector/parity pattern applications **SHALL** cite or consume the same published adaptation-signature field set rather than silently redefining threshold, prior-exposure, transfer, retention, downside, or corridor-entry terms.
 
 ### C.22.1:End
+

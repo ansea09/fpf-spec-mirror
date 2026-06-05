@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.10.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
-line_start: 72911
-line_end: 73265
+line_start: 71529
+line_end: 71883
 dependencies:
   - "B.3"
   - "D.CTX"

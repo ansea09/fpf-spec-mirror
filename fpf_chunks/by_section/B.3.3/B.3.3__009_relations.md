@@ -6,12 +6,12 @@ section_id: "B.3.3:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__009_relations.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:8 — Relations"
-line_start: 31627
-line_end: 31632
+line_start: 31660
+line_end: 31665
 dependencies:
   - "A.10"
   - "A.4"

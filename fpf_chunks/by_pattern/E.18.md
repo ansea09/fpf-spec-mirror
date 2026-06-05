@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
-line_start: 65939
-line_end: 66468
+line_start: 65675
+line_end: 66205
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -569,3 +569,4 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 Does not replace: `A.20` constraint-validity checks, `A.21` gate decisions and GateProfile semantics, `E.20` mechanism-meaning placement, `E.17` MVPK publication faces and viewpoint bundles, `A.15` work plans or work enactments, `G.5` selector and set-return semantics, `G.11` refresh orchestration, `A.10`/`G.6` evidence relations, `C.30` grounded architecture and selected-structure adequacy, `C.30.ASV` structural-view adequacy, or `C.30.TGA-FLOW-REL` architecture-flow relation claim.
 
 ### E.18:End
+

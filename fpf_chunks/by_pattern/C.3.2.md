@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.2.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
-line_start: 37745
-line_end: 37945
+line_start: 37779
+line_end: 37979
 dependencies:
   - "C.3.1"
   - "C.3.3"

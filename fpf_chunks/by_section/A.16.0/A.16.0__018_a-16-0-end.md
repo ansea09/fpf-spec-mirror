@@ -6,12 +6,12 @@ section_id: "A.16.0:End"
 section_title: "A.16.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__018_a-16-0-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:End — A.16.0:End"
-line_start: 21444
-line_end: 21445
+line_start: 21456
+line_end: 21457
 dependencies:
   - "A.16"
   - "A.16.1"

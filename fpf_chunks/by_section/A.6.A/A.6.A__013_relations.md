@@ -6,12 +6,12 @@ section_id: "A.6.A:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__013_relations.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:12 — Relations"
-line_start: 13394
-line_end: 13415
+line_start: 13400
+line_end: 13421
 dependencies:
   - "A.15"
   - "A.16"

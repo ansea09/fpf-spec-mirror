@@ -6,12 +6,12 @@ section_id: "F.4:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__011_anti-patterns-remedies.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:10 — Anti‑patterns & remedies"
-line_start: 70855
-line_end: 70871
+line_start: 69473
+line_end: 69489
 dependencies:
   - "A.11"
   - "A.2.1"

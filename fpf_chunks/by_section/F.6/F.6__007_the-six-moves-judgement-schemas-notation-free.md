@@ -6,12 +6,12 @@ section_id: "F.6:6"
 section_title: "The six moves (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__007_the-six-moves-judgement-schemas-notation-free.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:6 — The six moves (judgement schemas, notation‑free)"
-line_start: 71345
-line_end: 71406
+line_start: 69963
+line_end: 70024
 dependencies:
   - "A.15"
   - "A.2.1"

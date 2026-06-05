@@ -6,12 +6,12 @@ section_id: "B.1:5"
 section_title: "Domain‑Specific “Flavours” of Γ"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__006_domain-specific-flavours-of.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:5 — Domain‑Specific “Flavours” of Γ"
-line_start: 28457
-line_end: 28469
+line_start: 28488
+line_end: 28500
 dependencies:
   - "A.1"
   - "A.9"

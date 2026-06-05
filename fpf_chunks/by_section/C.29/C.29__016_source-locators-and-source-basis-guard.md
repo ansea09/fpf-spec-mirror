@@ -6,12 +6,12 @@ section_id: "C.29:13a"
 section_title: "Source locators and source-basis guard"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__016_source-locators-and-source-basis-guard.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13a — Source locators and source-basis guard"
-line_start: 51110
-line_end: 51180
+line_start: 51157
+line_end: 51227
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.23:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__007_bias-annotation.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:6 — Bias annotation"
-line_start: 69263
-line_end: 69268
+line_start: 67932
+line_end: 67937
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.23:6 - Bias annotation
 
-`E.23` intentionally biases repeated improvement toward explicit object under improvement, explicit object-under-improvement evaluation, and explicit stop decisions.
+This pattern biases FPF toward adaptive improvement with explicit re-evaluation. The bias is useful because many real objects improve only through feedback and revision.
 
-The bias is useful because repeated passes often generate convincing activity without object-under-improvement evaluation movement. The bias is dangerous if every small repair is forced through full-loop ceremony. Keep `E.22` short-form reads cheap, and open `E.23` only when repeated improvement or absorption impact is live.
+The bias is bounded. One direct evaluation can close without a loop. Repetition is justified only by expected evaluation movement and acceptable cost/risk.
 

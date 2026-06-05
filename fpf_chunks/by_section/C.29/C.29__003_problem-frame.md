@@ -6,12 +6,12 @@ section_id: "C.29:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__003_problem-frame.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:1 — Problem frame"
-line_start: 49967
-line_end: 50013
+line_start: 50014
+line_end: 50060
 dependencies:
   - "A.1.1"
   - "A.10"

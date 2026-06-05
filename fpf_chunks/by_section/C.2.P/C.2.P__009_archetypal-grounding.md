@@ -6,12 +6,12 @@ section_id: "C.2.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__009_archetypal-grounding.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:5 — Archetypal Grounding"
-line_start: 34706
-line_end: 34735
+line_start: 34739
+line_end: 34768
 dependencies:
   - "A.10"
   - "A.15"

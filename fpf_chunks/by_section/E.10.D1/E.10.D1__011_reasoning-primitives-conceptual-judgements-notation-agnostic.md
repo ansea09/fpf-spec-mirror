@@ -6,12 +6,12 @@ section_id: "E.10.D1:10"
 section_title: "Reasoning Primitives (conceptual judgements; notation‑agnostic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__011_reasoning-primitives-conceptual-judgements-notation-agnostic.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:10 — Reasoning Primitives (conceptual judgements; notation‑agnostic)"
-line_start: 60089
-line_end: 60110
+line_start: 59818
+line_end: 59839
 dependencies:
   - "A.4"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:12a"
 section_title: "Boundary with quantum-like state-representation shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__014_boundary-with-quantum-like-state-representation-shortcuts.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
   - "A.6.3.RT:12a — Boundary with quantum-like state-representation shortcuts"
-line_start: 11331
-line_end: 11358
+line_start: 11335
+line_end: 11362
 dependencies:
   - "A.10"
   - "A.15"

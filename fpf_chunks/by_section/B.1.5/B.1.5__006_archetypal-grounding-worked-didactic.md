@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:5 — Archetypal grounding (worked, didactic)"
-line_start: 29736
-line_end: 29774
+line_start: 29768
+line_end: 29806
 dependencies:
   - "A.12"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "RSCR — Regression & Stability Rules (R‑Evo)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_rscr-regression-stability-rules-r-evo.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:13 — RSCR — Regression & Stability Rules (R‑Evo)"
-line_start: 74704
-line_end: 74770
+line_start: 73322
+line_end: 73388
 dependencies:
   - "B.3"
   - "D.CTX"

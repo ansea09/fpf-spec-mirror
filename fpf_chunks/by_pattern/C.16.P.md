@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.P.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
-line_start: 40615
-line_end: 40842
+line_start: 40650
+line_end: 40878
 dependencies:
   - "A.10"
   - "A.15"
@@ -266,3 +266,4 @@ This row blocks scalar verdicts without declared scale and admissible use. It do
 - Exact evidence, assurance, gate, work, decision, causal-use, release, benchmark, and publication patterns govern their own claims.
 
 ### C.16.P:End
+

@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `3d19010169827708d0bca36d0551af8323908640`
+Commit SHA: `eaafd3a43b9173706e1f8388a3bc94c6445397e4`
 
 Chunking method: `pattern-aware`
 
@@ -206,7 +206,7 @@ Patterns: `235`
 - [E.19 — Pattern Quality Gates: Review and Refresh Profiles](by_pattern/E.19.md)
 - [E.20 — Mechanism Introduction Protocol](by_pattern/E.20.md)
 - [E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace](by_pattern/E.21.md)
-- [E.22 — Improvement-Oriented Quality-Read Question Framing](by_pattern/E.22.md)
+- [E.22 — Improvement-Oriented Quality Evaluation Question Framing](by_pattern/E.22.md)
 - [E.23 — Quality Improvement Loop Method](by_pattern/E.23.md)
 - [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)
 - [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)

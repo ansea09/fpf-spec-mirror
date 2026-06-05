@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.9.DA"
 pattern_title: "DRR Decision-Adequacy Evaluation CharacteristicSpace"
 section_id: "E.9.DA:6"
-section_title: "Bias-Annotation"
+section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__007_bias-annotation.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
-  - "E.9.DA:6 — Bias-Annotation"
-line_start: 57955
-line_end: 57968
+  - "E.9.DA:6 — Bias annotation"
+line_start: 57727
+line_end: 57732
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -24,17 +24,9 @@ dependencies:
 keywords:
 ---
 
-### E.9.DA:6 - Bias-Annotation
+### E.9.DA:6 - Bias annotation
 
-This pattern biases FPF toward decision explicitness before drafting. The bias is intentional: missing decisions are cheaper to repair in a `DRR` than after they have been dispersed into several pattern hosts.
+This pattern biases FPF toward decisions before drafting. The bias is useful because missing decisions become expensive once they fan out into pattern hosts.
 
-The bias is bounded. `E.9.DA` must not turn every small wording cleanup into a heavy decision audit, must not require all possible coordinates when the declared authoring use is narrow, and must not treat administrative state as evidence of decision adequacy.
-
-Lens reading:
-
-- **Ontology:** exact selected content object, evaluation pattern, and decision boundary are privileged over broad labels.
-- **Epistemology:** source and review material matters only when it changes a decision, boundary, source-use role or source-currentness status, validation obligation, or reopen condition.
-- **Pragmatics:** the first pattern-drafting move and non-admissible overread must be visible.
-- **Aesthetics:** concise rationale is preferred after required decisions are recoverable.
-- **Ethics:** broad readiness claims and vague rejection labels are blocked when downstream authors would be forced to invent hidden decisions or repair direction.
+The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern quality remains under `E.21`; repeated improvement remains under `E.23`; wording repair remains under `E.10` and exact precision-restoration neighbours.
 

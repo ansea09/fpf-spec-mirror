@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.A.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
-line_start: 12693
-line_end: 13416
+line_start: 12699
+line_end: 13423
 dependencies:
   - "A.15"
   - "A.16"
@@ -766,3 +766,4 @@ This pattern is scoped to **action-invitation repair and endpoint handoff**, not
 #### A.6.A:12.3 - Governance boundary
 Bridge stances, articulation-state governing patterns, authority-reference fields, and language-state facet characteristics are **referenced** by this pattern but remain governed by `F.9.1`, `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
 ### A.6.A:End
+

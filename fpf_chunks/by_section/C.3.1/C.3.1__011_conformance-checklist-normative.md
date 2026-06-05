@@ -6,12 +6,12 @@ section_id: "C.3.1:10"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__011_conformance-checklist-normative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:10 — Conformance checklist (normative)"
-line_start: 37721
-line_end: 37730
+line_start: 37755
+line_end: 37764
 dependencies:
   - "A.1"
   - "A.2.6"

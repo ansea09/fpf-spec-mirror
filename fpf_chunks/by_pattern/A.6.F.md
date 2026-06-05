@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.F.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
-line_start: 13417
-line_end: 13737
+line_start: 13424
+line_end: 13745
 dependencies:
   - "A.10"
   - "A.15"
@@ -377,3 +377,4 @@ Coordinates with: `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `E.18`, `A.15`, `A.2`
 Does not replace: C.30 grounded architecture and selected-structure adequacy, C.30.ASV architecture structural-view adequacy, E.TGA graph, path, and crossing discipline, C.29 mathematical-lens use, C.25 Q-Bundles, C.16 characterization, A.15 work and method discipline, A.10 or G.6 evidence, B.3 assurance, A.20 or A.21 gate or release records, or C.11 decisions.
 
 ### A.6.F:End
+

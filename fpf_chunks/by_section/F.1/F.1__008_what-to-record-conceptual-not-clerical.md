@@ -6,12 +6,12 @@ section_id: "F.1:7"
 section_title: "What to record (conceptual, not clerical)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__008_what-to-record-conceptual-not-clerical.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:7 — What to record (conceptual, not clerical)"
-line_start: 69790
-line_end: 69812
+line_start: 68408
+line_end: 68430
 dependencies:
   - "A.11"
   - "A.7"

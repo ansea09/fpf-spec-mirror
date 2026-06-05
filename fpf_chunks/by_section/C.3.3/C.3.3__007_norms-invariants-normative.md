@@ -6,12 +6,12 @@ section_id: "C.3.3:6"
 section_title: "Norms & Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__007_norms-invariants-normative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:6 — Norms & Invariants (normative)"
-line_start: 38008
-line_end: 38052
+line_start: 38042
+line_end: 38086
 dependencies:
   - "A.2.6"
   - "C.2.2"

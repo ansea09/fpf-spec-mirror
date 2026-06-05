@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.2.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
-line_start: 46372
-line_end: 46713
+line_start: 46417
+line_end: 46759
 dependencies:
   - "A.10"
   - "A.15"
@@ -376,3 +376,4 @@ Worked-slice discipline from these rows:
 - Name posture: `Enacted Distributed State Evidence` names an evidence-bound `U.Episteme` reading over work carriers, not `Distributed Mind`, `Collective Consciousness`, `Social Field`, or `Organization Knows`.
 
 ### C.26.2:End
+

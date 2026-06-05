@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.22"
-pattern_title: "Improvement-Oriented Quality-Read Question Framing"
+pattern_title: "Improvement-Oriented Quality Evaluation Question Framing"
 section_id: "E.22:End"
 section_title: "E.22:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__014_e-22-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
-  - "E.22 — Improvement-Oriented Quality-Read Question Framing"
+  - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:End — E.22:End"
-line_start: 68994
-line_end: 68995
+line_start: 67791
+line_end: 67792
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

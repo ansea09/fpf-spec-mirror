@@ -6,12 +6,12 @@ section_id: "A.17:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__003_problem.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:2 — Problem"
-line_start: 21962
-line_end: 21973
+line_start: 21974
+line_end: 21985
 dependencies:
   - "A.17"
   - "A.18"

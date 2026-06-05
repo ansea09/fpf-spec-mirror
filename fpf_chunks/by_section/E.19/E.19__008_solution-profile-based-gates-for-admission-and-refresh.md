@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__008_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 66529
-line_end: 67004
+line_start: 66266
+line_end: 66741
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -48,7 +48,7 @@ A **Pattern Check Profile (PCP)** is a named bundle of check families. Profiles 
 
 A review **SHOULD** leave one findings-first run record against a named reviewed pattern or landing subset. The run MAY propose didactic restructuring or compact repair direction, but its primary requirement is to leave an independent review record that improves downstream usage and interoperability without relying on chat memory or reviewer taste.
 
-A nontrivial pattern-quality review SHOULD state its quality-read purpose before depth is selected. Use `E.22` or an equivalent compact question frame to say whether this run is a `floorRead`, `exceptionalImprovementRead`, `paretoTradeoffRead`, `openQuestionDiscoveryRead`, `absorptionRead`, or a declared combination. If the purpose is absent, `E.19` treats the run as a floor read or admission-refresh blocker read, not as a request to raise every active coordinate toward exceptional expression.
+A nontrivial pattern-quality review SHOULD state its quality-evaluation purpose before depth is selected. Use `E.22` or an equivalent compact question frame to say whether this run is a `floorEvaluation`, `exceptionalImprovementEvaluation`, `paretoTradeoffEvaluation`, `openQuestionDiscoveryEvaluation`, `absorptionEvaluation`, or a declared combination. If the purpose is absent, `E.19` treats the run as a floor evaluation or admission-refresh blocker read, not as a request to raise every evaluated coordinate toward exceptional expression.
 
 If the aim is repeated improvement against an object-under-improvement evaluation, use `E.23` for the repeated method. `E.19` may supply a review profile and findings inside that loop, but the profile is not the loop method and the review result is not a quality value until the object-under-improvement evaluation evaluates the changed pattern version.
 
@@ -484,7 +484,7 @@ governing-entry reference by default.
 
 #### E.19:4.3.2 - Common hardening accounts are triggered by live review need
 
-When one common hardening concern has FPF-governed use, is disputed, or is explicitly invoked by the reviewed pattern or subset, the run record names the checked source and finding. Otherwise absence is ordinary and does not require a by-value `not applicable` recital.
+When one common hardening concern has FPF-governed use, is disputed, or is explicitly invoked by the reviewed pattern or subset, the run record names the checked source and finding. Otherwise absence is ordinary and does not require a by-value absence recital.
 
 Use triggered accounts only for the entry-recognition role that is live:
 

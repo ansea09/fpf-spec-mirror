@@ -6,12 +6,12 @@ section_id: "A.6:12a"
 section_title: "Quantum-like boundary-route note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__014_quantum-like-boundary-route-note.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:12a — Quantum-like boundary-route note"
-line_start: 7203
-line_end: 7235
+line_start: 7204
+line_end: 7236
 dependencies:
   - "A.10"
   - "A.15"

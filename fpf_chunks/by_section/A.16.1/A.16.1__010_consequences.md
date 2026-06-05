@@ -6,12 +6,12 @@ section_id: "A.16.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__010_consequences.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:9 — Consequences"
-line_start: 21570
-line_end: 21572
+line_start: 21582
+line_end: 21584
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "C.30.P:5"
 section_title: "Direct receiving-pattern exits"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__007_direct-receiving-pattern-exits.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:5 — Direct receiving-pattern exits"
-line_start: 52283
-line_end: 52307
+line_start: 52331
+line_end: 52355
 dependencies:
   - "A.10"
   - "A.15"

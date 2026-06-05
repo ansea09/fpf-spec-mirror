@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.ID.CR.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
-line_start: 64129
-line_end: 64961
+line_start: 63861
+line_end: 64694
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -870,3 +870,4 @@ The gain is practical: a team can compare available source epistemes or source p
 > When a bounded comparative review unit uses a mathematical comparison basis, rival lens, invariant, obstruction, or structural similarity, `E.17.ID.CR` still works over comparison unit, viewpoint, basis, review-unit boundary, and comparative-reading admissibility. The applicable `C.29` output for the stated use (`MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` when required) may be cited only for adequacy of the mathematical lens used in that comparison. It does not create the comparison record, adjudicate rival publications, or authorize bridge, evidence, selector, or benchmark claims outside the comparative-reading record.
 
 ### E.17.ID.CR:End
+

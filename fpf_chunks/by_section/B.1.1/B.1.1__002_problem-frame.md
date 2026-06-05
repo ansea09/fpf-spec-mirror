@@ -6,12 +6,12 @@ section_id: "B.1.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__002_problem-frame.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:1 — Problem frame"
-line_start: 28549
-line_end: 28560
+line_start: 28580
+line_end: 28591
 dependencies:
   - "A.1"
   - "A.12"

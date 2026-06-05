@@ -6,12 +6,12 @@ section_id: "C.28:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__008_bias-annotation.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:6 — Bias-Annotation"
-line_start: 49815
-line_end: 49828
+line_start: 49862
+line_end: 49875
 dependencies:
   - "A.10"
   - "A.15"

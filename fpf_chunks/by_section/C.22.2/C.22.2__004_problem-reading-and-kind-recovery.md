@@ -6,12 +6,12 @@ section_id: "C.22.2:3"
 section_title: "Problem Reading and Kind Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__004_problem-reading-and-kind-recovery.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:3 — Problem Reading and Kind Recovery"
-line_start: 43946
-line_end: 43963
+line_start: 43986
+line_end: 44003
 dependencies:
   - "A.10"
   - "A.15"

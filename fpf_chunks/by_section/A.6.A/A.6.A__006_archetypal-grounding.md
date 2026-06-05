@@ -6,12 +6,12 @@ section_id: "A.6.A:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__006_archetypal-grounding.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:5 — Archetypal Grounding"
-line_start: 13163
-line_end: 13248
+line_start: 13169
+line_end: 13254
 dependencies:
   - "A.15"
   - "A.16"

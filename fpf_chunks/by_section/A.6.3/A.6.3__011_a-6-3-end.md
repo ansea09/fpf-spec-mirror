@@ -6,12 +6,12 @@ section_id: "A.6.3:End"
 section_title: "A.6.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__011_a-6-3-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:End — A.6.3:End"
-line_start: 10128
-line_end: 10129
+line_start: 10130
+line_end: 10131
 dependencies:
   - "A.6.0"
   - "A.6.2"

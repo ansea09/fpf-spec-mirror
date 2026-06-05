@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
-line_start: 22244
-line_end: 22682
+line_start: 22256
+line_end: 22695
 dependencies:
   - "A.17"
   - "A.18"
@@ -475,3 +475,4 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
 > If topology, order, distance, product, subspace, embedding, or metric is only a `CharacteristicSpace` overlay, stay in `A.19` and write the space, coordinate, normalization, and comparability declaration there. If the overlay is used as a mathematical lens to explain, predict, bridge, assure, publish, compare across contexts, or support reusable explanation beyond local declaration, add the applicable `C.29` lens-use result for the stated lens use. Do not move the space declaration out of `A.19`; `C.29` names only what the mathematical lens preserves, loses, makes visible, and cannot license.
 
 ### A.19:End
+

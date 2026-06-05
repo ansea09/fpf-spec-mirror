@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.2.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
-line_start: 43699
-line_end: 44520
+line_start: 43739
+line_end: 44561
 dependencies:
   - "A.10"
   - "A.15"
@@ -882,3 +882,4 @@ P2W export from `ProblemCard@Context` does not include:
 - Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, and `E.18`.
 
 ### C.22.2:End
+

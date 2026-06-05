@@ -6,12 +6,12 @@ section_id: "E.17.2:5"
 section_title: "Archetypal grounding  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__006_archetypal-grounding-informative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:5 — Archetypal grounding  (informative)"
-line_start: 62918
-line_end: 62948
+line_start: 62649
+line_end: 62679
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.1.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
-line_start: 69393
-line_end: 69710
+line_start: 68010
+line_end: 68327
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -37,7 +37,6 @@ keywords:
 ---
 
 ## F.0.1 - Contextual Lexicon Principles
-
 
 > **One‑sentence summary.** All meanings in FPF are **local to a `U.BoundedContext`** (“Context of meaning”); terms are **spoken with their Context**, and any relation **across Contexts** exists **only** as an explicit **Alignment Bridge** with stated loss/fit.
 
@@ -354,3 +353,4 @@ An artefact is **ready** with respect to F.0.1 when:
 > **Mental checklist:** *Name the Context → speak in the Context → connect Contexts only by labelled bridges → build rows from bridged cells.*
 
 ### F.0.1:End
+

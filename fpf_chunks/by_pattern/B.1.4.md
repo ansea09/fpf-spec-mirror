@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.4.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
-line_start: 29295
-line_end: 29578
+line_start: 29326
+line_end: 29610
 dependencies:
   - "A.12"
   - "A.14"
@@ -308,3 +308,4 @@ This pattern implements **A.15’s ordered relations** (`SerialStepOf`, `Paralle
 > Keep structure, mapping, and cost in their places, and the invariants will do the rest.
 
 ### B.1.4:End
+

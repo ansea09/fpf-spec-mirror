@@ -6,12 +6,12 @@ section_id: "A.6.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__006_archetypal-grounding.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:5 — Archetypal Grounding"
-line_start: 15149
-line_end: 15212
+line_start: 15157
+line_end: 15220
 dependencies:
   - "A.10"
   - "A.14"

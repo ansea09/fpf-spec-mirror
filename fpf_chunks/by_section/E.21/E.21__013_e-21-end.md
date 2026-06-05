@@ -5,13 +5,13 @@ pattern_title: "FPF Pattern-Quality Evaluation CharacteristicSpace"
 section_id: "E.21:End"
 section_title: "E.21:End"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.21/E.21__014_e-21-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+output_path: "by_section/E.21/E.21__013_e-21-end.md"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:End — E.21:End"
-line_start: 68534
-line_end: 68535
+line_start: 67589
+line_end: 67590
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -20,7 +20,6 @@ dependencies:
   - "C.2.P"
   - "C.25"
   - "E.10"
-  - "E.11"
   - "E.19"
   - "E.2.DA"
   - "E.22"
@@ -30,11 +29,6 @@ dependencies:
   - "F.18"
   - "J.4"
 keywords:
-  - "and admissibility predicates are not written as duties"
-  - "definitions"
-  - "invariants"
-  - "state agent obligations only"
-  - "typing rules"
 ---
 
 ### E.21:End

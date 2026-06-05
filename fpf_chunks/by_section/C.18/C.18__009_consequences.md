@@ -6,12 +6,12 @@ section_id: "C.18:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__009_consequences.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
   - "C.18:8 — Consequences"
-line_start: 42431
-line_end: 42433
+line_start: 42468
+line_end: 42470
 dependencies:
   - "A.1"
   - "A.15"

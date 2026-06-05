@@ -6,12 +6,12 @@ section_id: "A.6.F:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__007_bias-annotation.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:6 — Bias-Annotation"
-line_start: 13659
-line_end: 13672
+line_start: 13666
+line_end: 13679
 dependencies:
   - "A.10"
   - "A.15"

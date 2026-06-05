@@ -6,12 +6,12 @@ section_id: "E.9.DA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__001_intro.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:intro — Intro"
-line_start: 57601
-line_end: 57606
+line_start: 57539
+line_end: 57542
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -26,7 +26,5 @@ keywords:
 
 ## E.9.DA - DRR Decision-Adequacy Evaluation CharacteristicSpace
 
-> **Type:** Definitional pattern
-> **Status:** Stable
-> **Normativity:** Normative
+Status: Core.
 

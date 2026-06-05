@@ -6,12 +6,12 @@ section_id: "F.4:6"
 section_title: "The Role Description Card (one‑screen sketch)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__007_the-role-description-card-one-screen-sketch.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:6 — The Role Description Card (one‑screen sketch)"
-line_start: 70707
-line_end: 70740
+line_start: 69325
+line_end: 69358
 dependencies:
   - "A.11"
   - "A.2.1"

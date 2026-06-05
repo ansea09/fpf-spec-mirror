@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-line_start: 11876
-line_end: 12692
+line_start: 11881
+line_end: 12698
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -870,3 +870,4 @@ Useful outputs:
 > **Mathematical-lens use relation.** `A.6.P` may select a stable mathematical substrate for relation precision restoration: arity, polarity, endpoint discipline, slot structure, and relation-kind repair. This does not by itself apply `C.29`. `C.29 Mathematical Lens Use` applies only when that substrate is used as a FPF-governed mathematical representation of a selected subject, relation, claim, or structure beyond relation repair. `A.6.P` does not by itself license source-domain ontology transfer.
 
 ### A.6.P:End
+

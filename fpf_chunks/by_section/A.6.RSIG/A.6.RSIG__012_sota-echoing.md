@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__012_sota-echoing.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:11 — SoTA-Echoing"
-line_start: 7636
-line_end: 7652
+line_start: 7637
+line_end: 7653
 dependencies:
   - "A.6"
   - "A.6.P"

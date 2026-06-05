@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern‑to‑pattern edges)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__015_relations-explicit-pattern-to-pattern-edges.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:14 — Relations (explicit pattern‑to‑pattern edges)"
-line_start: 66427
-line_end: 66456
+line_start: 66163
+line_end: 66192
 dependencies:
   - "A.2.6"
   - "A.20"

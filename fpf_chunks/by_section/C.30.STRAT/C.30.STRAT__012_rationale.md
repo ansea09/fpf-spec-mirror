@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__012_rationale.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:10 — Rationale"
-line_start: 52591
-line_end: 52596
+line_start: 52640
+line_end: 52645
 dependencies:
   - "A.10"
   - "A.15"

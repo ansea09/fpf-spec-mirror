@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.3.3 — U.Dynamics"
 line_start: 6262
-line_end: 6525
+line_end: 6526
 dependencies:
   - "A.19"
   - "B.4"
@@ -285,3 +285,4 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 > If `transitionLaw` or `observation` uses accepted local dynamics, Markov kernels, ODEs, simulations, or accepted domain theory, stay in `A.3.3`; no MathLensUse output is needed unless a separate lens-transfer, publication, assurance, bridge, prediction, or reusable-explanation use is being claimed. If `transitionLaw` or `observation` depends on a contested, cross-domain, learned, or speculative mathematical lens, add the applicable `C.29` output for that stated use. That output states preserved dynamic structure, lost structure, validity or scale window, rival lens when live, `LensUseAdmissibilityValue`, and stop condition; then return to `A.3.3` for state space, transition law, observation, constraints, and calibration semantics.
 
 ### A.3.3:End
+

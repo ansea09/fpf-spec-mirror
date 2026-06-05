@@ -6,12 +6,12 @@ section_id: "E.15:4"
 section_title: "Solution — A governed evolutionary authoring method with a publishable LEX‑AUTH Trace (LAT)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__005_solution-a-governed-evolutionary-authoring-method-with-a-publishable-lex-auth-trace-lat.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:4 — Solution — A governed evolutionary authoring method with a publishable LEX‑AUTH Trace (LAT)"
-line_start: 61488
-line_end: 61580
+line_start: 61219
+line_end: 61311
 dependencies:
   - "A.10"
   - "B.3"

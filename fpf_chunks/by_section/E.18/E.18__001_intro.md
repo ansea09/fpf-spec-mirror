@@ -6,12 +6,12 @@ section_id: "E.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__001_intro.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:intro — Intro"
-line_start: 65939
-line_end: 65944
+line_start: 65675
+line_end: 65680
 dependencies:
   - "A.2.6"
   - "A.20"

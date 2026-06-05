@@ -6,18 +6,17 @@ section_id: "E.2.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__002_problem-frame.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:1 — Problem frame"
-line_start: 55357
-line_end: 55380
+line_start: 55406
+line_end: 55419
 dependencies:
   - "A.19.ECS"
   - "E.10"
   - "E.11"
   - "E.2"
-  - "E.2.DA"
   - "E.21"
   - "E.22"
   - "E.23"
@@ -28,25 +27,15 @@ keywords:
 
 ### E.2.DA:1 - Problem frame
 
-Use `E.2.DA` when the FPF object under improvement is FPF as a whole, one FPF corpus slice, one release candidate, one pattern family, one projection set, or one host set, and the question is whether that object under improvement realizes the `E.2` Pillars well enough for a declared working use.
+Use `E.2.DA` when the object under improvement is an FPF-level object and the question is whether it realizes the `E.2` Pillars adequately for a declared use. The object can be a monolith edition, selected pattern host set, pattern family, projection set, release candidate, or whole-FPF edition.
 
-`E.2` is the constitutional source: it names the Pillars and their meaning. `E.2.DA` is the object-under-improvement evaluation: it turns those Pillars into a declared characteristic space with ordinal values, evidence loci, stop conditions, and reopen conditions for FPF-level adequacy reads.
+Use it after a broad cleanup, new pattern family, projection repair, source-use repair, or corpus-level improvement when local pattern quality is not enough. A set of good local patterns can still harm FPF entry, naming, layering, source use, projection integrity, or open-ended evolution.
 
-Use it when an improvement loop is trying to make FPF easier to enter, search, read, compose, repair, and extend while preserving constitutional force: for example after a broad lexical cleanup, after a new pattern cluster lands, after recurring external-review returns expose repeated wording failures, or when several front-like vocabularies such as all `5`s, exceptional, `SoTA`, Pareto front, NQD `Q` movement, proposal portfolio, and shortlist must become discoverable without becoming synonyms.
+Not this pattern when the evaluated object is one authored pattern version, one `DRR`, one local wording repair, or one pattern-use entry problem. Use `E.21`, `E.9.DA`, `E.10` and its precision-restoration neighbours, or `E.11` for those objects.
 
-**FPF-local scope.** `E.2.DA` is not a generic quality pattern for any pattern language. It refines `E.2` for FPF. External pattern-language traditions may supply source-use decisions or comparison pressure, but they do not create an intermediate "any pattern language" object-under-improvement evaluation. A non-FPF corpus can use this pattern only after a bounded decision declares that the corpus is being read as an FPF-conformant corpus under `E.2`; otherwise it needs a separate object-under-improvement evaluation.
+First useful move: name the exact FPF object under improvement, declared use, reader family, and qualification window; then evaluate all eleven Pillar coordinates. If a Pillar seems unaffected, give it a value and a short rationale saying what is preserved.
 
-**Not this pattern when.** Use `E.2` for the Pillars themselves. Use `E.21` for one authored FPF pattern version. Use `E.9.DA` for one `DRR` decision-adequacy claim. Use `E.22` to frame one improvement-oriented quality read. Use `E.23` for the repeated improvement-loop method. Use `E.11` for first-practical entry and pattern-use discoverability. Use `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, or `F.18` when the live defect is one local wording, relation, source-use, quality-term, or durable-name repair. Use `E.8` when the live defect is the authoring form of one pattern body.
+What goes wrong if missed: FPF can become locally polished but globally worse. Readers may find fewer useful entry points, precision repairs may erase the working move, source rows may become decorative, or several patterns may grow local variants of the same doctrine.
 
-**First useful move.** Name the FPF object under improvement, the working reader and use, the qualification window, and the first Pillar whose realized adequacy may be below the declared floor.
-
-**Cheap stop.** If the defect is local to one pattern version, return to `E.21`. If the defect is local wording, return to `E.10` or the exact precision-restoration pattern. If the defect is local to one `DRR`, return to `E.9.DA`. Open `E.2.DA` only when the adequacy problem is visible across several patterns, entry projections, relation rows, source-use relation or currentness, quality vocabulary, Pillar realization, or corpus projections.
-
-**What goes wrong if missed.** FPF can have many good patterns and still fail the FPF constitution. A local edit improves one pattern while harming `P-2` didactic primacy or `P-5` layering elsewhere. A broad cleanup makes text admissible but inert. A new cluster adds precision but damages entry, composition, or open-ended evolution. Pillars remain named in `E.2` but stop being recoverable enough through declared coordinates to guide FPF-level improvement.
-
-**What this buys.** `E.2.DA` gives FPF one object-under-improvement evaluation for Pillar adequacy. It lets `E.23` improve FPF as one object under improvement while keeping Pillar values, evidence, stop meanings, and neighbour exits explicit.
-
-**Primary EntityOfConcern in plain terms.** The primary EntityOfConcern is the Pillar adequacy claim for one FPF object under improvement under one declared working use and qualification window.
-
-**Primary working reader.** The first reader is an FPF author, reviewer, or steward improving FPF. The downstream reader is the practitioner or manager who must use FPF as action guidance.
+Primary EntityOfConcern in plain terms: the scoped FPF object under improvement as an `E.2` Pillar-realizing language object.
 

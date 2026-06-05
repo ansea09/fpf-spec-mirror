@@ -6,12 +6,12 @@ section_id: "G.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__001_intro.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:intro — Intro"
-line_start: 82491
-line_end: 82501
+line_start: 81111
+line_end: 81121
 dependencies:
   - "A.18"
   - "A.19"

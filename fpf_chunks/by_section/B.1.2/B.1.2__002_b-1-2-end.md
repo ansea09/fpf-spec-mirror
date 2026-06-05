@@ -6,12 +6,12 @@ section_id: "B.1.2:End"
 section_title: "B.1.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__002_b-1-2-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.1.2 — System‑specific Aggregation Γ\\_sys"
   - "B.1.2:End — B.1.2:End"
-line_start: 29006
-line_end: 29007
+line_start: 29037
+line_end: 29038
 dependencies:
   - "A.1"
   - "A.3"

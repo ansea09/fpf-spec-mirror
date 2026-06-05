@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
-line_start: 17562
-line_end: 17971
+line_start: 17571
+line_end: 17981
 dependencies:
   - "A.1"
   - "A.10"
@@ -444,3 +444,4 @@ unitOfDelivery := {
 * Behaviour column shows Method and Work, not the role itself.
 
 ### A.7:End
+

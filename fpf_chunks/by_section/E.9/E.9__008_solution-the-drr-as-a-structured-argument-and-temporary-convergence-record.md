@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — the DRR as a structured argument and temporary convergence record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__008_solution-the-drr-as-a-structured-argument-and-temporary-convergence-record.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:4 — Solution — the DRR as a structured argument and temporary convergence record"
-line_start: 57324
-line_end: 57486
+line_start: 57261
+line_end: 57423
 dependencies:
   - "E.10"
   - "E.19"

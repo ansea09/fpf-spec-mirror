@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.6.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
-line_start: 14821
-line_end: 15382
+line_start: 14829
+line_end: 15391
 dependencies:
   - "A.10"
   - "A.14"
@@ -609,3 +609,4 @@ Umbrella metaphors are disallowed as substitutes for baseRelation tokens; prose 
 Support-looking phrases that mean base-dependence are governed here: select a declared `baseRelation`, name `dependent` and `base`, add scope/time/witnesses as live, and preserve polarity. Support-looking phrases that do not mean base-dependence use the exact governing pattern ontology rather than becoming `SupportRelation`, `SupportBasis`, or `SupportRecord` buckets.
 
 ### A.6.6:End
+

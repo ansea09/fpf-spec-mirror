@@ -6,7 +6,7 @@ section_id: "A.2.6:5"
 section_title: "Solution — Overview (preview; full definitions in Part 2)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__006_solution-overview-preview-full-definitions-in-part-2.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:5 — Solution — Overview (preview; full definitions in Part 2)"

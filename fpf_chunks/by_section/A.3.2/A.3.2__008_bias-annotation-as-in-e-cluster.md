@@ -6,7 +6,7 @@ section_id: "A.3.2:7"
 section_title: "Bias‑Annotation (as in E‑cluster)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__008_bias-annotation-as-in-e-cluster.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:7 — Bias‑Annotation (as in E‑cluster)"

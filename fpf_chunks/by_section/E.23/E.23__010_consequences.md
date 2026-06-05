@@ -6,12 +6,12 @@ section_id: "E.23:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__010_consequences.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:9 — Consequences"
-line_start: 69313
-line_end: 69326
+line_start: 67965
+line_end: 67973
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,15 +30,10 @@ keywords:
 
 ### E.23:9 - Consequences
 
-| Consequence | Benefit | Cost or guard |
+| Consequence | Benefit | Cost |
 |---|---|---|
-| Repeated improvement has one FPF method locus. | Process references and local authoring habits no longer carry hidden doctrine. | The loop must not duplicate object-under-improvement evaluation values. |
-| One-read quality framing stays cheap. | A floor read can close without full-loop apparatus. | Requesters must say when exceptional improvement or repeated absorption is live. |
-| Agentic and classical loop traditions become selectable method families. | Useful practice is available without importing one universal sequence. | Each family needs characteristic-space fit and cost and risk justification. |
-| Row-atomic discharge is separated from quality movement. | The record can show what changed while the object-under-improvement evaluation keeps value authority. | A re-read is required before coordinate movement is claimed. |
-| Goodhart checks become part of improvement. | Protected trade-offs stay visible when values rise. | Some attractive edits will be rejected or narrowed. |
-| Proposal portfolios can feed improvement without becoming decisions. | Reviews can return many non-dominated improvement rows, including pattern and `DRR` rows, without pretending one row is the only next move. | Selection, generation, selected-set publication, parity, and refresh need exact neighbour exits when those claims become live. |
-| `Q`-side NQD movement is expressible. | A loop can improve a candidate, object version under improvement, or declared transduction result relative to an externally declared comparison set, `SoTA` line, or current front. | `E.23` must not redefine `N`, `D`, archive, front, pool, selected-set, parity, or refresh semantics. |
-| Exceptional stop stays local. | All-`5` or current-front-reaching closure can stop the current loop without denying future development. | New use, `Q`, front, source, `SoTA`, cost, or payoff can reopen improvement. |
-| Neighbouring pattern authority is preserved. | Quality bundles, term repair, adaptation signatures, call planning, and project claims stay governed by their exact neighbouring patterns. | The user must name exact neighbour exits when those claims become live. |
+| Repeated improvement has one method locus. | FPF no longer relies on hidden authoring habits. | Users must name object and evaluation. |
+| Row discharge is separated from quality movement. | Improvement claims become replayable. | Re-evaluation is required. |
+| General and specialized loops are comparable. | BLP can be applied without craft folklore. | Cost/risk and characteristic-space fit must be explicit. |
+| Exceptional stop remains local. | All-`5` or front-reaching closure no longer freezes future development. | Reopen conditions must be recorded. |
 

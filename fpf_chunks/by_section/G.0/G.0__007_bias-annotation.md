@@ -6,12 +6,12 @@ section_id: "G.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__007_bias-annotation.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:6 — Bias-Annotation"
-line_start: 76996
-line_end: 77004
+line_start: 75615
+line_end: 75623
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".3 - Boundary unpacking and claim decomposition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__004_3-boundary-unpacking-and-claim-decomposition.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "I.2 — Detailed Walk-throughs"
   - "I.2 — .3 - Boundary unpacking and claim decomposition"
-line_start: 82927
-line_end: 82952
+line_start: 81547
+line_end: 81572
 dependencies:
 keywords:
 ---

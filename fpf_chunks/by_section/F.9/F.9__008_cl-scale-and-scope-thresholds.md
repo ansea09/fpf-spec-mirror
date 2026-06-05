@@ -6,12 +6,12 @@ section_id: "F.9:7"
 section_title: "CL scale and scope thresholds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__008_cl-scale-and-scope-thresholds.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:7 — CL scale and scope thresholds"
-line_start: 72259
-line_end: 72277
+line_start: 70877
+line_end: 70895
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

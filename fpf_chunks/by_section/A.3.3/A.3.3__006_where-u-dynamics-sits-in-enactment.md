@@ -6,7 +6,7 @@ section_id: "A.3.3:5"
 section_title: "Where U.Dynamics sits in enactment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__006_where-u-dynamics-sits-in-enactment.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:5 — Where U.Dynamics sits in enactment"

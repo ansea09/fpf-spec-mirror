@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 56553
-line_end: 57093
+line_start: 56485
+line_end: 57025
 dependencies:
   - "E.10"
   - "E.19"
@@ -75,7 +75,7 @@ A pattern can satisfy a checklist and still be practically unreadable. It may op
 
 **FPF-governed wording extension.** Add heavier assurance, conformance, SoTA grounding, relation material, or neighboring-pattern material only when the light recognition text would leave a live false claim, unstable primary `EntityOfConcern`, hidden neighbouring-pattern boundary, unbacked practical payoff, or misleading admissible use.
 
-When an authoring pass claims quality improvement rather than ordinary drafting, keep these roles distinct: `E.22` frames the improvement-oriented quality-read question, the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings, `C.16.Q` repairs overloaded quality and evaluative-characterization wording, `C.25` carries engineering quality-family endpoints when live, and `E.23` governs any repeated quality-improvement method. Closing checklist rows or satisfying a review profile is not by itself quality improvement.
+When an authoring pass claims quality improvement rather than ordinary drafting, keep these roles distinct: `E.22` frames the improvement-oriented quality-evaluation question, the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings, `C.16.Q` repairs overloaded quality and evaluative-characterization wording, `C.25` carries engineering quality-family endpoints when live, and `E.23` governs any repeated quality-improvement method. Closing checklist rows or satisfying a review profile is not by itself quality improvement.
 
 **Maturity rule.** Section completeness is not pattern maturity. A pattern matures when its `Problem frame`, `Solution`, worked cases, boundaries, and conformance checks all point to the same usable action guidance.
 
@@ -582,7 +582,7 @@ International and industry standards often speak in terms of *conformance criter
 
 * **Builds on:** E.6, E.7
 * **Constrained by:** Guard‑Rails E.5.1–E.5.4 (lexical firewall, notation independence, etc.)
-* **Coordinates with:** `E.21` when one authored FPF pattern version is read as a scoped pattern-quality claim. `E.8` governs authoring shape, recognition text, action guidance, worked cases, SoTA grounding, and conformance material; `E.21` governs the quality read, active characteristics, `PatternQualityStatus`, and stop condition. Do not import `E.21` as a mandatory authoring section or full review card.
+* **Coordinates with:** `E.21` when one authored FPF pattern version is evaluated as a scoped pattern-quality claim. `E.8` governs authoring shape, recognition text, action guidance, worked cases, SoTA grounding, and conformance material; `E.21` governs the pattern-quality evaluation, required coordinate values, `PatternQualityStatus`, and stop condition. Do not import `E.21` as a mandatory authoring section or full review card.
 * **Coordinates with:** `E.23` when an authored FPF pattern body is being improved through repeated passes. `E.8` still governs the authored pattern body; `E.23` governs the repeated quality-improvement method; the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings.
 
 * **Constrains:** All patterns; the DRR template references the same section order.

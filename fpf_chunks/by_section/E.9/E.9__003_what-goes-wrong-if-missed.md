@@ -6,12 +6,12 @@ section_id: "E.9:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__003_what-goes-wrong-if-missed.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:0.1 — What goes wrong if missed"
-line_start: 57277
-line_end: 57282
+line_start: 57214
+line_end: 57219
 dependencies:
   - "E.10"
   - "E.19"

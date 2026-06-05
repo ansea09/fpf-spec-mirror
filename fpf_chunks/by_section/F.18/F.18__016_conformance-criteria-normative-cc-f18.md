@@ -6,12 +6,12 @@ section_id: "F.18:15"
 section_title: "Conformance Criteria (normative “CC‑F18”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__016_conformance-criteria-normative-cc-f18.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:15 — Conformance Criteria (normative “CC‑F18”)"
-line_start: 76000
-line_end: 76045
+line_start: 74618
+line_end: 74663
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

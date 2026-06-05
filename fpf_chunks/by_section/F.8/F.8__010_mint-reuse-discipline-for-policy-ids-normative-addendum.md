@@ -6,12 +6,12 @@ section_id: "F.8:8.1"
 section_title: "Mint/Reuse discipline for policy-ids (normative addendum)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__010_mint-reuse-discipline-for-policy-ids-normative-addendum.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:8.1 — Mint/Reuse discipline for policy-ids (normative addendum)"
-line_start: 71965
-line_end: 71986
+line_start: 70583
+line_end: 70604
 dependencies:
   - "A.11"
   - "A.7"

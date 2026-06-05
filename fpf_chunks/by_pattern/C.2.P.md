@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.P.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
-line_start: 34260
-line_end: 34885
+line_start: 34293
+line_end: 34919
 dependencies:
   - "A.10"
   - "A.15"
@@ -674,3 +674,4 @@ When the repair changes evidence, proof, witness, grounding, explanation, gate, 
 * **Coordinates with:** `E.6`, `E.7`, `E.8`, `E.9`, `E.12`, `E.19`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`, `A.6.F`, `A.6.3.CSC`, `A.6.3.CR`, `A.6.3.RT`, `C.30.P`, `C.16.P`, `C.16.Q`, `E.17.EFP`, and `E.17.ID.CR`.
 * **Does not replace:** `E.10` general lexical rules, `F.18` naming protocol, `A.6.P` relation precision, or local episteme and publication patterns. It tells authors when those patterns must be applied to episteme-publication-heavy wording.
 ### C.2.P:End
+

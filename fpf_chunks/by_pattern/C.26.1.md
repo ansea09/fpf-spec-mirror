@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.1.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
-line_start: 46073
-line_end: 46371
+line_start: 46117
+line_end: 46416
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -337,3 +337,4 @@ Worked-use-slice discipline from these rows:
 - Name posture: `Probe-Coupled Boundary Interaction` names a boundary and probe relation, not `Entangled Boundary`, `CoupledBy(...)`, `Interaction Field`, `State-Changing Communication`, or a reusable relation token. Relation wording remains local until `A.6.P` and `F.18` ratify it.
 
 ### C.26.1:End
+

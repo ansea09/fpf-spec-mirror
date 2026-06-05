@@ -6,12 +6,12 @@ section_id: "C.21:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__010_conformance-checklist.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:9 — Conformance Checklist"
-line_start: 43266
-line_end: 43289
+line_start: 43305
+line_end: 43328
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "A.6.B:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__001_intro.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:intro — Intro"
-line_start: 7662
-line_end: 7670
+line_start: 7663
+line_end: 7671
 dependencies:
   - "A.10"
   - "A.6"

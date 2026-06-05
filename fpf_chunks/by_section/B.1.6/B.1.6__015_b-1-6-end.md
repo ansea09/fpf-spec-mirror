@@ -6,12 +6,12 @@ section_id: "B.1.6:End"
 section_title: "B.1.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__015_b-1-6-end.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:End — B.1.6:End"
-line_start: 30181
-line_end: 30181
+line_start: 30213
+line_end: 30214
 dependencies:
   - "A.12"
   - "A.14"
@@ -31,3 +31,4 @@ keywords:
 ---
 
 ### B.1.6:End
+

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.RT.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
-line_start: 10863
-line_end: 11363
+line_start: 10867
+line_end: 11368
 dependencies:
   - "A.10"
   - "A.15"
@@ -544,3 +544,4 @@ Do not describe ordinary compression, low-bit implementation, diagramming, or re
 > When an entityOfConcernRef-preserving representation-scheme transition imports a contested or claim-bearing mathematical lens, `A.6.3.RT` still governs the source and receiving representation schemes, entityOfConcernRef-preserving relation, preserved and lost scheme features, and transduction boundary. The applicable `C.29` output for the stated use (`MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` when required) may be cited only for adequacy of the mathematical lens used in that transition. It does not replace the representation-transduction record or broaden the transition into bridge, evidence, or causal-claim-kind.
 
 ### A.6.3.RT:End
+

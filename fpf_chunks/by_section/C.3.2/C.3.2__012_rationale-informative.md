@@ -6,12 +6,12 @@ section_id: "C.3.2:11"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__012_rationale-informative.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:11 — Rationale (informative)"
-line_start: 37915
-line_end: 37930
+line_start: 37949
+line_end: 37964
 dependencies:
   - "C.3.1"
   - "C.3.3"

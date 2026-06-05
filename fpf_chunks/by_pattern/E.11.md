@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 60431
-line_end: 60983
+line_start: 60161
+line_end: 60713
 dependencies:
   - "A.6.RSIG"
   - "E.19"

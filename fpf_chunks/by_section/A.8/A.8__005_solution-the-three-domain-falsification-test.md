@@ -6,12 +6,12 @@ section_id: "A.8:4"
 section_title: "Solution — The Three‑Domain Falsification Test"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__005_solution-the-three-domain-falsification-test.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:4 — Solution — The Three‑Domain Falsification Test"
-line_start: 17997
-line_end: 18026
+line_start: 18007
+line_end: 18036
 dependencies:
   - "A.8"
   - "U.Types"

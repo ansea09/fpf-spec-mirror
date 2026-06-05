@@ -6,7 +6,7 @@ section_id: "A.3.2:1"
 section_title: "Context (plain‑language motivation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__002_context-plain-language-motivation.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:1 — Context (plain‑language motivation)"

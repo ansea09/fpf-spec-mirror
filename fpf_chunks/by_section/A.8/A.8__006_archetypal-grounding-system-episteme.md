@@ -6,12 +6,12 @@ section_id: "A.8:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__006_archetypal-grounding-system-episteme.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:5 — Archetypal Grounding (System / Episteme)"
-line_start: 18027
-line_end: 18036
+line_start: 18037
+line_end: 18046
 dependencies:
   - "A.8"
   - "U.Types"

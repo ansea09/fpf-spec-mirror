@@ -6,7 +6,7 @@ section_id: "A.0:QF.0a"
 section_title: "Scope of this glossary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__012_scope-of-this-glossary.md"
-commit_sha: "3d19010169827708d0bca36d0551af8323908640"
+commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.0a — Scope of this glossary"
