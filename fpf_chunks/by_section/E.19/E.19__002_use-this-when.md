@@ -6,12 +6,12 @@ section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 66212
-line_end: 66219
+line_start: 66210
+line_end: 66217
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -36,7 +36,7 @@ keywords:
 
 ### E.19:0 - Use this when
 
-Use `E.19` when you need to decide whether one new, substantially revised, or aging FPF pattern is ready for admission, refresh, return for repair, or narrower use. It turns quality review into a repeatable pattern-quality run rather than a matter of reviewer taste.
+Use `E.19` when you need to decide whether one new, substantially revised, or aging FPF pattern is ready for admission, refresh, or return for repair. It turns quality review into a repeatable pattern-quality run rather than a matter of reviewer taste.
 
 Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, primary `EntityOfConcern` stability, terminology, SoTA grounding, related-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
 

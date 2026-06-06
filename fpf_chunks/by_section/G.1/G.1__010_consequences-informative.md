@@ -6,12 +6,12 @@ section_id: "G.1:9"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__010_consequences-informative.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:9 — Consequences (informative)"
-line_start: 76088
-line_end: 76094
+line_start: 76091
+line_end: 76097
 dependencies:
   - "A.10"
   - "A.15.3"

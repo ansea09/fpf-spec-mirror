@@ -6,12 +6,12 @@ section_id: "F.9:8a"
 section_title: "State export and quantum-like boundary note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__010_state-export-and-quantum-like-boundary-note.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:8a — State export and quantum-like boundary note"
-line_start: 70914
-line_end: 70946
+line_start: 70917
+line_end: 70949
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

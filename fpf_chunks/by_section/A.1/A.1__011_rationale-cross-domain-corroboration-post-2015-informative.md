@@ -6,7 +6,7 @@ section_id: "A.1:10"
 section_title: "Rationale — Cross‑domain corroboration (post‑2015, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__011_rationale-cross-domain-corroboration-post-2015-informative.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:10 — Rationale — Cross‑domain corroboration (post‑2015, informative)"

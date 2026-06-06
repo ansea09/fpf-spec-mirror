@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.DA.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
-line_start: 57539
-line_end: 57795
+line_start: 57537
+line_end: 57793
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,11 +29,11 @@ Status: Core.
 
 ### E.9.DA:1 - Problem frame
 
-Use `E.9.DA` when one `DRR` must be reliable enough for a declared FPF authoring use: pattern drafting, host amendment, receiving-locus distribution, accepted-decision carry-through, source-use carry-through, narrowing decision, split decision, or architecture-hold decision.
+Use `E.9.DA` when one `DRR` must be reliable enough for a declared FPF authoring use: pattern drafting, host amendment, receiving-locus distribution, accepted-decision carry-through, source-use carry-through, scope-boundary decision, split decision, or architecture-hold decision.
 
 Not this pattern when the evaluated object is one authored pattern version, one admission or refresh review, one local wording repair, or a measurement-law problem. Use `E.21`, `E.19`, `E.10` and its precision-restoration neighbours, or `C.16`/`A.17`/`A.18`/`A.19` for those objects.
 
-First useful move: name the exact `DRRVersionRef`, declared authoring use, receiving-locus disposition map, and qualification window; then evaluate every decision-adequacy coordinate in this pattern. Missing decisions lower coordinates and produce repair, narrowed-use, split, or hold status inside the same evaluation.
+First useful move: name the exact `DRRVersionRef`, declared authoring use, receiving-locus disposition map, and qualification window; then evaluate every decision-adequacy coordinate in this pattern. Missing decisions lower coordinates and produce repair, split, or hold status inside the same evaluation.
 
 What goes wrong if missed: a formally valid `DRR` may still be too weak for drafting. It may summarize sources instead of deciding, mention neighbours without obligations, hide rejected alternatives, leave trigger words unresolved, or omit the first drafting action.
 
@@ -69,7 +69,7 @@ Recurring failures:
 
 `E.9.DA` is the `DRR` decision-adequacy specialization of `A.19.ECS`. It evaluates whether one `DRR` version carries enough decision content for the declared authoring use.
 
-There is no partial `E.9.DA` result. Once invoked, the evaluator assigns a value, short rationale, and evidence locus to every coordinate in `E.9.DA:4.4`, and states the evidence basis used for the result. If the `DRR` lacks a field, source row, receiving-locus map, architecture decision, comparator, or currentness basis needed by a coordinate, the relevant coordinate receives a low value and the status states the repair, narrowing, split, or hold.
+There is no partial `E.9.DA` result. Once invoked, the evaluator assigns a value, short rationale, and evidence locus to every coordinate in `E.9.DA:4.4`, and states the evidence basis used for the result. If the `DRR` lacks a field, source row, receiving-locus map, architecture decision, comparator, or currentness basis needed by a coordinate, the relevant coordinate receives a low value and the status states the repair, split, or hold.
 
 #### E.9.DA:4.1 - Local names and kind settlement
 
@@ -100,7 +100,7 @@ DRRDecisionAdequacyEvaluation:
   DRRDecisionAdequacyEvidenceBasis: <checked DRR, source, accepted-decision, receiving-locus, architecture, currentness, and neighbour loci; missing or unchecked loci named when they affect values>
   DRRDecisionAdequacyCoordinateTable: <all coordinates, values, short rationales, evidence loci>
   DRRDecisionAdequacyStatus: <status>
-  StopOrRepairCondition: <local stop, first repair, narrowed use, split, or architecture hold>
+  StopOrRepairCondition: <local stop, first repair, split, or architecture hold>
 ```
 
 `E.22` may frame whether the evaluation is floor-only, exceptional-improvement, trade-off, open-question, absorption, or proposal-producing. `E.23` governs repeated improvement of the `DRR` after evaluation findings exist.
@@ -169,7 +169,7 @@ Common calibration points:
 | `splitDecisionRequired` | Several coupled questions need separate decision records or explicit convergence. |
 | `holdForArchitectureDecision` | Content object, branch, neighbour boundary, receiving locus, structural view relation, source-return condition, or publication split must be decided before adequacy can close. |
 
-`admissibleForDeclaredAuthoringUse` states the first drafting move and the most expansive non-admissible overread. Non-ready statuses state the first repair, narrowed use, split boundary, or architecture question.
+`admissibleForDeclaredAuthoringUse` states the first drafting move and the most expansive non-admissible overread. Non-ready statuses state the first repair, split boundary, or architecture question.
 
 #### E.9.DA:4.6 - Compact result form
 
@@ -239,7 +239,7 @@ The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern q
 | **Heading-complete DRR.** Headings exist but authors cannot tell what to write. | Lower selected-answer, receiving-locus, and drafting-action coordinates. |
 | **Source packet in DRR clothing.** Sources are preserved but FPF decisions are absent. | State selected payload, rejected payload, and receiving obligations. |
 | **Address completion without architecture.** Every locus is named but the split or merge is wrong. | Repair `FPFContentArchitectureSelectionAdequacy`. |
-| **Watch item as decision.** Drafting is expected to choose the answer later. | Select, narrow, split, or hold. |
+| **Watch item as decision.** Drafting is expected to choose the answer later. | Select, repair, split, or hold. |
 | **Review-state proxy.** Review acceptance or landing is treated as adequacy. | Use decision-content evidence only. |
 | **Adequacy table without evidence loci.** Values are listed without exact `DRR` or source loci. | Re-run the evaluation with `Coordinate | Value | ShortRationale | EvidenceLocus`; lower any coordinate whose evidence cannot be named. |
 

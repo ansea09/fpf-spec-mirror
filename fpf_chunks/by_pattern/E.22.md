@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.22.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
-line_start: 67591
-line_end: 67792
+line_start: 67590
+line_end: 67794
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -80,7 +80,7 @@ The defect is not that reviewers need more ceremony. The defect is that an unfra
 | `ExpectedQualityEvaluationResultForm` | The result-row shape required by the named evaluation, including coordinate/value/short-rationale rows and any evidence-locus or coordinate-specific payload fields. |
 | `QualityReviewFindingRow` | Actionable row for a returned finding, expected movement, correction direction, and closure test. |
 | `CandidateImprovementProposalPortfolio` | Bounded set of proposal rows returned by the evaluation when alternatives are useful. |
-| `NextAdmissibleMoveHypothesis` | Stop, repair, narrow, proposal, trade-off warning, outside-evaluation assignment, or exact-neighbour assignment suggested by the evaluation. |
+| `NextAdmissibleMoveHypothesis` | Stop, repair, proposal, trade-off warning, outside-evaluation assignment, new-frame assignment, or exact-neighbour assignment suggested by the evaluation. |
 
 These names frame and report quality evaluation. They do not select candidates, publish sets, plan work, certify evidence, approve release, or create new values.
 
@@ -88,7 +88,7 @@ These names frame and report quality evaluation. They do not select candidates, 
 
 | Purpose value | Use when | Expected result |
 |---|---|---|
-| `floorEvaluation` | The question is whether the object reaches a declared floor. | Values below floor, first repair, narrowed use, or admissible stop. |
+| `floorEvaluation` | The question is whether the object reaches a declared floor. | Values below floor, first repair, architecture hold, refresh, new-frame assignment, or admissible stop. |
 | `exceptionalImprovementEvaluation` | The floor is reached and the requester wants non-dominated improvement toward exceptional expression. | Per-coordinate proposal or no-candidate disposition. |
 | `paretoTradeoffEvaluation` | A candidate change may improve some values while worsening protected qualities. | Trade-off account and non-dominated comparison. |
 | `candidateImprovementProposalEvaluation` | The requester needs candidate-change proposals before changing the object or generating variants. | Proposal row or bounded proposal portfolio with expected evaluation movement. |
@@ -113,6 +113,8 @@ QualityEvaluationQuestionFrame:
 ```
 
 The shortest floor frame may name only object version, object-under-improvement evaluation, purpose `floorEvaluation`, and declared floor. The named evaluation still runs its required coordinate set and returns the result-row shape, evidence basis, rationales, and coordinate-specific payloads required by that evaluation.
+
+The frame does not authorize post-hoc scope replacement. If the requested floor is landing-input, corpus-facing, `Stable`, release, external-review, or another stated use, the evaluator measures that use. If a different use becomes interesting, open a new `QualityEvaluationQuestionFrame`; do not report the current request as passed under an easier scope.
 
 #### E.22:4.4 - Finding and proposal rows
 
@@ -186,6 +188,7 @@ The bias is bounded. `E.22` does not supply quality values, run repeated improve
 | **"Review this" prompt.** The evaluator infers purpose. | Add a `QualityEvaluationQuestionFrame`. |
 | **Floor pass sold as excellence.** Readiness is mistaken for exceptional improvement. | State `exceptionalImprovementEvaluation` if wanted. |
 | **Frame replaces result.** The question frame names a purpose but returns prose, a two-column value table, or proposal rows without the named evaluation's result form. | Re-run the named evaluation and return its required coordinates, evidence basis, rationales, and payload fields. |
+| **Scope laundering.** The frame asks one use, but the result answers an easier host-drafting, expert-only, local-reference, or diagnostic use. | Re-run the named evaluation under the requested use; if another use is needed, open a new frame rather than saving the current result. |
 | **Applied-count absorption.** Closure count replaces quality movement. | Re-evaluate the changed object and classify impact. |
 | **Goodharted improvement.** Visible values rise while protected qualities worsen. | Add trade-off protection and reject dominated changes. |
 | **Recommendation as decision.** A next-move hypothesis is treated as chosen work. | Open the exact decision, work, publication, parity, refresh, evidence, or assurance pattern if that claim is needed. |

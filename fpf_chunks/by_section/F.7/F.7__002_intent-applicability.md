@@ -6,12 +6,12 @@ section_id: "F.7:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__002_intent-applicability.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:1 — Intent & applicability"
-line_start: 70176
-line_end: 70183
+line_start: 70179
+line_end: 70186
 dependencies:
   - "A.6.9"
   - "E.10.D1"

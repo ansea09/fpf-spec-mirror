@@ -6,12 +6,12 @@ section_id: "F.10:8"
 section_title: "Invariants (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__009_invariants-normative-lightweight.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:8 — Invariants (normative, lightweight)"
-line_start: 71669
-line_end: 71680
+line_start: 71672
+line_end: 71683
 dependencies:
   - "B.3"
   - "D.CTX"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.2.DA.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
-line_start: 55402
-line_end: 55658
+line_start: 55401
+line_end: 55656
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -101,7 +101,7 @@ FPFPillarAdequacyEvaluation:
   FPFPillarAdequacyEvidenceBasis: <checked pattern, host, monolith, projection, ToC/J.4, source, relation, companion, evaluation-result, and missing loci that affect values>
   FPFPillarAdequacyCoordinateTable: <all eleven coordinates, values, short rationales, evidence loci>
   FPFPillarAdequacyStatus: <status>
-  StopOrRepairCondition: <local stop, first repair, narrowed use, Pillar decision, or architecture decision>
+  StopOrRepairCondition: <local stop, first repair, Pillar decision, or architecture decision>
 ```
 
 `E.22` may frame the evaluation purpose when the caller needs floor evaluation, exceptional improvement, trade-off inspection, open-question discovery, absorption, or proposal portfolios. `E.23` governs repeated improvement after the evaluation returns findings or candidate proposals.
@@ -175,7 +175,6 @@ Common calibration points:
 | Status | Meaning |
 |---|---|
 | `admissibleForDeclaredFPFUse` | All eleven coordinates meet the declared floor for the scoped use. |
-| `admissibleWithNarrowerFPFUse` | The object can serve a narrower use, reader, projection set, or qualification window. |
 | `repairBeforeFPFUse` | One or more coordinate floors fail for the declared use. |
 | `holdForPillarDecision` | The defect requires an `E.2` Pillar amendment or precedence decision. |
 | `holdForArchitectureDecision` | The defect requires pattern split, object-under-improvement, source-use, projection-role, or naming architecture decision. |
@@ -193,7 +192,7 @@ E.2.DA result:
   Evidence basis checked: <FPFPillarAdequacyEvidenceBasis>
   Status: <FPFPillarAdequacyStatus>
   Coordinate table: <Pillar coordinate | Value | ShortRationale | EvidenceLocus for all eleven Pillars>
-  First repair or stop: <repair | narrowed use | hold | local stop>
+  First repair or stop: <repair | hold | local stop>
   Reopen if: <smallest changed locus or condition>
 ```
 

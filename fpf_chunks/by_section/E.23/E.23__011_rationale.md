@@ -6,12 +6,12 @@ section_id: "E.23:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__011_rationale.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:10 — Rationale"
-line_start: 67974
-line_end: 67977
+line_start: 67976
+line_end: 67979
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,5 +30,5 @@ keywords:
 
 ### E.23:10 - Rationale
 
-The shared method is simple: change an object version, re-evaluate it by the exact evaluation that gives values, check trade-offs and cost, then stop, narrow, continue, switch, or hold. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE/NQD lines contribute useful operations and boundaries, but they do not replace this method.
+The shared method is simple: change an object version, re-evaluate it by the exact evaluation that gives values, check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE/NQD lines contribute useful operations and boundaries, but they do not replace this method.
 

@@ -6,12 +6,12 @@ section_id: "C.16.P:8"
 section_title: "Reduced SoTA row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__011_reduced-sota-row.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:8 — Reduced SoTA row"
-line_start: 40830
-line_end: 40842
+line_start: 40829
+line_end: 40841
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.1.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
-line_start: 68010
-line_end: 68327
+line_start: 68013
+line_end: 68331
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -37,6 +37,7 @@ keywords:
 ---
 
 ## F.0.1 - Contextual Lexicon Principles
+
 
 > **One‑sentence summary.** All meanings in FPF are **local to a `U.BoundedContext`** (“Context of meaning”); terms are **spoken with their Context**, and any relation **across Contexts** exists **only** as an explicit **Alignment Bridge** with stated loss/fit.
 

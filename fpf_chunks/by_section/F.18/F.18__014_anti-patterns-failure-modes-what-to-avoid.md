@@ -6,12 +6,12 @@ section_id: "F.18:13"
 section_title: "Anti‑Patterns & Failure Modes (what to avoid)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__014_anti-patterns-failure-modes-what-to-avoid.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:13 — Anti‑Patterns & Failure Modes (what to avoid)"
-line_start: 74562
-line_end: 74583
+line_start: 74565
+line_end: 74586
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

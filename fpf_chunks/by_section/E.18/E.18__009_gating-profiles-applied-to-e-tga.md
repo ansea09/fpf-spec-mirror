@@ -6,12 +6,12 @@ section_id: "E.18:8"
 section_title: "Gating Profiles (applied to E.TGA)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__009_gating-profiles-applied-to-e-tga.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:8 — Gating Profiles (applied to E.TGA)"
-line_start: 66093
-line_end: 66105
+line_start: 66091
+line_end: 66103
 dependencies:
   - "A.2.6"
   - "A.20"

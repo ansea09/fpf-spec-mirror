@@ -6,12 +6,12 @@ section_id: "B.2.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__011_relations.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "B.2.2 — Meta-System Transition (MST)"
   - "B.2.2:10 — Relations"
-line_start: 30587
-line_end: 30592
+line_start: 30586
+line_end: 30591
 dependencies:
   - "A.1"
   - "B.2"

@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 67826
-line_end: 67921
+line_start: 67828
+line_end: 67923
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.23:4 - Solution
 
-`E.23` is the general method for repeated improvement of an object version under an exact object-under-improvement evaluation. It changes the object, re-evaluates the changed version using that evaluation's required evidence basis and result-row shape, checks trade-offs and cost, and decides whether to stop, narrow, continue, switch method family, or hold for exact information.
+`E.23` is the general method for repeated improvement of an object version under an exact object-under-improvement evaluation. It changes the object, re-evaluates the changed version using that evaluation's required evidence basis and result-row shape, checks trade-offs and cost, and decides whether to stop, continue, switch method family, open a new frame, or hold for exact information.
 
 #### E.23:4.1 - Local names and kind settlement
 
@@ -46,7 +46,7 @@ keywords:
 | `OperationFamilySelectionSet` | Optional operation families selected because they can move the evaluation enough to justify cost. |
 | `ObjectUnderImprovementReEvaluation` | Re-run or cited result of the evaluation on the changed object version. |
 | `CostAndRiskAccount` | Cost and risk account used to judge another pass or operation. |
-| `StopNarrowContinueSwitchHoldDecision` | Local loop decision after re-evaluation. |
+| `StopContinueSwitchFrameHoldDecision` | Local loop decision after re-evaluation. |
 | `QualityImprovementLoopRecord` | Record of object versions, applied rows, re-evaluation, trade-offs, cost/risk, and loop decision. |
 | `QualitySideMovementClaim` | Local claim that a changed object moved on declared `Q` components under NQD/OEE comparison. |
 | `SourceComposedResultClaim` | Result produced by composing accepted source or practice lines and readable by the evaluation. |
@@ -64,7 +64,7 @@ For one quality-improvement loop:
 5. Apply repairs or variants to the object, or hand generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance to exact neighbours when the claim leaves quality improvement.
 6. Re-evaluate the changed object version through the object-under-improvement evaluation, using that evaluation's required coordinate set, evidence basis, result-row shape, short rationales, and coordinate-specific payloads.
 7. Record what improved, what stayed floor-only, what was unchanged, what became worse, and which rows moved outside the evaluation.
-8. Decide `stop`, `narrow`, `continue`, `switchMethodFamily`, or `holdForExactInformation`.
+8. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdForExactInformation`.
 9. Leave a `QualityImprovementLoopRecord` sufficient for the next reader to replay the object versions, evidence basis, evaluation result, trade-offs, cost/risk, and loop decision.
 
 Row discharge is changed-object evidence. It is not coordinate improvement until the changed object version is re-evaluated in the required result form of the named evaluation. A prose update, applied-row count, or result missing evidence basis does not close the loop.
@@ -88,7 +88,7 @@ An all-`5`, all-exceptional, current-front-reaching, or current-front-improving 
 | `FixedPerformerObjectVersionUnderImprovementOptimizationFamily` | The performer or harness stays fixed while the object version is edited and re-evaluated. |
 | `NQDQualitySideImprovementFamily` | The evaluation supplies the `Q` side for a declared NQD/OEE comparison and loop changes seek non-dominated `Q` movement. |
 | `SoTAReachAndMaintainFamily` | Several accepted source or practice lines must be composed to reach or maintain an externally assigned front. |
-| `SpecializedObjectFamilyCycle` | A narrower method family fits a declared characteristic space and is BLP-compatible. |
+| `SpecializedObjectFamilyCycle` | A specialized method family fits a declared characteristic space and is BLP-compatible. |
 
 The selected family is justified by characteristic-space fit, expected evaluation movement, cost/risk, and protected trade-offs. Familiarity, automation, or current popularity is not enough.
 

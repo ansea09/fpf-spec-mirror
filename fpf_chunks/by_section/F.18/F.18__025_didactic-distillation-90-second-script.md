@@ -6,12 +6,12 @@ section_id: "F.18:24"
 section_title: "Didactic distillation (90‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__025_didactic-distillation-90-second-script.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:24 — Didactic distillation (90‑second script)"
-line_start: 74850
-line_end: 74853
+line_start: 74853
+line_end: 74856
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

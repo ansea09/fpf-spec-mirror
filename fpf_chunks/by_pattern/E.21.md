@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.21.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
-line_start: 67284
-line_end: 67590
+line_start: 67282
+line_end: 67589
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -36,13 +36,13 @@ Status: Core.
 
 ### E.21:1 - Problem frame
 
-Use `E.21` when one authored FPF pattern version must be evaluated for quality under a declared use: ordinary practitioner use, authoring input, landing input, release input, external-review input, high-assurance reuse input, canonization input, or a narrower named use.
+Use `E.21` when one authored FPF pattern version must be evaluated for quality under the use required by the governing evaluation frame: ordinary practitioner use, authoring input, landing input, release input, external-review input, high-assurance reuse input, canonization input, diagnostic use, expert-only use, source-basis use, or local-reference use. The evaluator does not replace the required `ClaimScope` with an easier one. If the pattern fails the required use, the result is `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded`; a different use needs a different evaluation frame and does not rescue the current result.
 
 Not this pattern when the evaluated object is one `DRR`, an FPF-level corpus object, a single wording repair, a source-use decision, or a project-side evidence, assurance, gate, release, safety, compliance, work, or decision claim. Use `E.9.DA`, `E.2.DA`, `E.10` and exact precision-restoration neighbours, or the exact project-side pattern for those objects.
 
-First useful move: name the exact pattern version, declared scope, working reader, intended use, and qualification window; then evaluate every coordinate in `RequiredPatternQualityCoordinates` with a value and short rationale.
+First useful move: recover the required scope from the governing request, `E.22` frame, campaign seam, landing check, release check, or review assignment; then name the exact pattern version, required scope, working reader, intended use, and qualification window; then evaluate every coordinate in `RequiredPatternQualityCoordinates` with a value and short rationale.
 
-`floorEvaluation` changes the declared floor and evidence depth. It does not remove coordinates. Fragmentary, wrong-shaped, or weak pattern text is still evaluated; weakness receives low coordinate values, repair status, narrowed-use status, or architecture hold.
+`floorEvaluation` changes the declared floor and evidence depth. It does not remove coordinates and does not replace the required scope with another one. Fragmentary, wrong-shaped, or weak pattern text is still evaluated under the required scope; weakness receives low coordinate values, repair status, architecture hold, or refresh status.
 
 What goes wrong if missed: pattern quality becomes taste, checklist closure, source count, review state, landing state, or length. Short patterns can pass while missing mature content; long patterns can pass while hiding the first user move; semio material can take over a non-semio pattern.
 
@@ -78,7 +78,7 @@ There is one evaluation shape:
 2. apply the ordinal scale to every required coordinate;
 3. justify each value with `ShortRationale`;
 4. assign `PatternQualityStatus`;
-5. state stop, repair, narrowed use, architecture hold, or refresh condition;
+5. state stop, repair, architecture hold, or refresh condition;
 6. when improvement is requested, return proposal rows without changing the coordinate result into a work plan.
 
 There is no separate pre-check result. If a pattern lacks frame, first move, source basis, mature comparison, or naming clarity, the relevant coordinates fall.
@@ -89,9 +89,9 @@ There is no separate pre-check result. If a pattern lacks frame, first move, sou
 |---|---|
 | `PatternQualityEvaluation` | Authored quality evaluation record over one pattern version. |
 | `PatternVersionRef` | Exact host, monolith section, edition, or pinned pattern version. |
-| `ClaimScope` | Quality claim boundary: ordinary use, authoring input, landing input, release input, external-review input, high-assurance reuse input, canonization input, or narrower use. |
+| `ClaimScope` | Quality claim boundary recovered from the governing frame: ordinary use, authoring input, landing input, release input, external-review input, high-assurance reuse input, canonization input, diagnostic use, expert-only use, source-basis use, or local-reference use. It is not chosen by the evaluator to make a failing request pass. |
 | `WorkingReaderScope` | Reader role and first-use situation the pattern must serve. |
-| `IntendedUse` | Neighbouring action that may consume the result: continue drafting, admit for declared use, narrow use, repair, refresh, or compare candidates. |
+| `IntendedUse` | Neighbouring action that may consume the result: continue drafting, admit for declared use, repair, refresh, or compare candidates. |
 | `QualificationWindow` | Edition, SoTA, neighbour, release, time, or comparison window in which the evaluation is current. |
 | `EvaluationEvidenceBasis` | Exact checked evidence loci for the evaluation: pattern body version, host or monolith section, ToC or `J.4` row when corpus-facing, card or retrieval cue when claimed, source-currentness locus when SoTA/currentness is valued, mature comparator set when maturity is valued, and worked case or absence of worked case when case coverage is valued. |
 | `QualityEvaluationQuestionFrameRef` | `E.22` frame when purpose, floor, trade-offs, absorption, or proposal expectation needs to be declared. |
@@ -99,7 +99,7 @@ There is no separate pre-check result. If a pattern lacks frame, first move, sou
 | `CoordinateEvidenceRefs` | Per-coordinate text, case, relation, SoTA, mature comparator, projection, or review refs where the short rationale depends on evidence outside the pattern body row being discussed. |
 | `DominanceSet` | Coordinates used to compare already evaluated candidate versions. It never changes the required coordinate set. |
 | `PatternQualityStatus` | Scoped use result. |
-| `StopCondition` | Why improvement may stop, continue, narrow, refresh, or hold. |
+| `StopCondition` | Why improvement may stop, continue, refresh, or hold. |
 Names are local to pattern-quality evaluation unless `F.18` promotes a durable name. They are not project evidence, release state, review state, or assurance.
 
 #### E.21:4.2 - Evaluation record
@@ -114,7 +114,7 @@ PatternQualityEvaluation:
   EvaluationEvidenceBasis: <checked pattern, corpus, source, comparator, case, and projection loci; missing or unchecked loci named explicitly when they affect values>
   CoordinateValueRationales: <all required coordinates, values, short rationales>
   PatternQualityStatus: <status>
-  StopCondition: <local stop, first repair, narrowed use, hold, or refresh>
+  StopCondition: <local stop, first repair, hold, or refresh>
 ```
 #### E.21:4.3 - Ordinal scale, result row, and adjacent-value rationale
 
@@ -122,7 +122,7 @@ PatternQualityEvaluation:
 |---:|---|---|
 | 0 | `absent` | The characteristic is not expressed for the declared scope. |
 | 1 | `namedOnly` | It is named or implied but not usable as quality evidence. |
-| 2 | `partiallyExpressedForDeclaredUse` | It is present but incomplete, fragile, or too narrow. |
+| 2 | `partiallyExpressedForDeclaredUse` | It is present but incomplete, fragile, or insufficient for the declared use. |
 | 3 | `sufficientlyExpressedForDeclaredUse` | It is usable for the declared scope, with limits visible. |
 | 4 | `wellExpressedForDeclaredUse` | It is clear, evidenced, and bounded for the declared scope. |
 | 5 | `exceptionallyExpressedForDeclaredUse` | It is exceptional for the declared use across reinforcing loci and cases, without hidden cost or neighbour loss. |
@@ -155,7 +155,7 @@ Every `E.21` evaluation of an FPF pattern version evaluates every coordinate bel
 | `WorkingSituationAndUseBoundaryRecognizability` | Whether the reader recognises the situation, ordinary use, non-use, harm if missed, and boundary early. |
 | `EntityOfConcernAndClaimScopeStability` | Whether the primary `EntityOfConcern` and quality-claim scope stay stable across title, Problem frame, Solution, cases, checklist, relations, and status. |
 | `ActionPathGuidance` | Whether the Solution gives a usable action path after the first move is recovered. |
-| `ClosureAndBoundedNonUseRecoverability` | Whether stop, repair, narrower use, and neighbouring-pattern exits are recoverable. |
+| `ClosureAndBoundedNonUseRecoverability` | Whether stop, repair, non-use, and neighbouring-pattern exits are recoverable. |
 | `SemanticKindAndNameRecoverability` | Whether names, kinds, relations, qualifiers, and claim boundaries recover the same FPF interpretation. |
 | `NeighborAuthorityAndBoundedUseFit` | Whether evidence, assurance, measurement, naming, work, gate, decision, publication, release, and project claims stay with exact neighbours. |
 | `EntityOfConcernPrimacyAndSemioBiasResistance` | Whether the pattern leads with its own `EntityOfConcern` and action move instead of letting description, publication, source, evidence, review talk, standard non-use warnings, or precision-repair material take over. |
@@ -183,7 +183,7 @@ These rows calibrate common disagreements. They do not replace the coordinate de
 | `WorkingSituationAndUseBoundaryRecognizability` | The use situation is recoverable but late, abstract, or missing harm/payoff/non-use detail. | The situation, first move, harm, payoff, and non-use are early and clear. | Early recognition is reinforced by a filled or replayable first-use slice showing that a cold practitioner can enter correctly. |
 | `EntityOfConcernAndClaimScopeStability` | The primary object is named but neighbouring record, evidence, lens, or project claims keep pulling the scope. | The primary `EntityOfConcern` and claim scope stay stable, with bounded neighbour material. | Scope stability is reinforced across title, recognition text, Solution, worked or replayable case material, checklist, relations, and non-use without any local apparatus stealing attention. |
 | `ActionPathGuidance` | The move is named but only partly executable. | The first move and continuation are executable for declared use. | The action path is demonstrated by a filled worked slice or equivalent replayable evidence. |
-| `ClosureAndBoundedNonUseRecoverability` | Exits or non-use are present but not tied to stop, repair, or lowering conditions. | Stop, repair, narrower use, and neighbour exits are recoverable for declared use. | A worked stop, overturn, or non-use case shows how closure changes status or next admissible pattern. |
+| `ClosureAndBoundedNonUseRecoverability` | Exits or non-use are present but not tied to stop, repair, or lowering conditions. | Stop, repair, bounded non-use, and neighbour exits are recoverable for declared use. | A worked stop, overturn, or non-use case shows how closure changes status or next admissible pattern. |
 | `NeighborAuthorityAndBoundedUseFit` | Neighbours are named but some authority split remains generic, future-receiver-like, or ambiguous. | Exact neighbours and limited relations are clear enough for declared use. | Neighbour authority is replayable across examples, relations, and overread cases, with no generic future receiver or unnamed neighbour carrying live authority. |
 | `EntityOfConcernPrimacyAndSemioBiasResistance` | The pattern is about its object but semio, review, source, lens, or warning material often leads. | The pattern leads with its own object and action path; auxiliary material stays bounded. | The primary object remains dominant across recognition text, Solution, cases, and checks even when semio/lens/source material is present. |
 | `PracticalUseDeltaAndHarmPrevention` | The prevented harm is named but not demonstrated. | The pattern changes a recoverable move and blocks named misuse for declared use. | A worked or near-miss case shows the practical delta, cost of the missed pattern, and prevented harm. |
@@ -195,7 +195,7 @@ These rows calibrate common disagreements. They do not replace the coordinate de
 | `MaturePatternParityAndSelectedContentSufficiency` | Mature comparators are named or implied, but selected mature ingredients are not discharged by value. | Mature comparators are named and selected ingredients are discharged by value in the body or exact neighbours. | Mature parity is shown across reinforcing body sections, neighbours, omissions, cases, and lowering conditions without copying irrelevant apparatus. |
 | `SoTABindingAndCurrentness` | Sources are relevant and not decorative, but currentness, source-use status, or reopen conditions are compact or incomplete. | Load-bearing sources state adopt/adapt/reject, content mutation, currentness window, and reopen condition. | The pattern compares current best-known practice against popular, official, or lineage alternatives and carries the resulting source decisions into solution, cases, boundaries, and refresh. |
 | `FormalClaimLegalityAndLensFit` | Formal, scale, lens, or measurement terms are bounded but not exercised. | Formal/lens/measurement claims are legal, bounded, and sent to exact neighbours when live. | A worked formal/lens/scale comparison shows what is preserved, lost, admissible, and not proved. |
-| `FalsifiabilityAndLoweringCondition` | Stop, waiver, or non-use fields exist, but lowering and reopen triggers for the main claims are mostly implicit. | The pattern states explicit lowering/reopen triggers for its main claims; named fields alone do not reach `4` unless they say what evidence change lowers, overturns, narrows, or reopens the claim. | Worked lowering or overturn cases show how values, status, or use change. |
+| `FalsifiabilityAndLoweringCondition` | Stop, waiver, or non-use fields exist, but lowering and reopen triggers for the main claims are mostly implicit. | The pattern states explicit lowering/reopen triggers for its main claims; named fields alone do not reach `4` unless they say what evidence change lowers, overturns, rejects, or reopens the claim. | Worked lowering or overturn cases show how values, status, or use change. |
 | `CorpusEntryProjectionAndEcologyFit` | Host text is coherent, but ToC, `J.4`, card, retrieval, monolith, or projection evidence is absent for a corpus-facing claim. | Corpus-facing entry/projection loci are named and aligned enough for the declared use. | Retrieval, stale-projection, cold-reader, or projection-update evidence shows corpus ecology stays aligned after change. |
 | `EvolutionFrontAndRefreshDiscipline` | Reopen is delegated to neighbours or implied by source-return. | The smallest reopen locus, source/currentness trigger, or variant/front condition is explicit. | Variant/front/archive or ongoing refresh discipline is replayable for the declared use. |
 
@@ -205,12 +205,11 @@ If the declared use is `Stable`, landing-input, release-input, external-review-r
 | Status | Meaning |
 |---|---|
 | `admissibleForDeclaredUse` | Every coordinate meets the declared floor for the scoped use, and bounded non-use is stated. |
-| `admissibleWithNarrowerUse` | The pattern can serve only a narrower reader, use, scope, or claim. |
 | `repairBeforeUse` | One or more coordinate floors fail for the declared use. |
 | `holdForArchitectureDecision` | The defect is not local prose; `EntityOfConcern`, neighbour authority, split, merge, or placement must be decided. |
 | `refreshNeeded` | A SoTA, neighbour, terminology, retrieval, telemetry, use-scope, or corpus change invalidates a previous evaluation. |
 
-Default corpus-facing floor is `4 wellExpressedForDeclaredUse` on every coordinate for ordinary practitioner use, authoring-input use, landing-input use, `Stable`, external-review-ready, release-input, canonization-input, or stop-improving claims. A floor of `3` is admissible only for an explicitly narrowed diagnostic, exploratory, expert-only, source-basis, or local-reference use, and the status names the excluded broader use.
+Default corpus-facing floor is `4 wellExpressedForDeclaredUse` on every coordinate for ordinary practitioner use, authoring-input use, landing-input use, `Stable`, external-review-ready, release-input, canonization-input, or stop-improving claims. A floor of `3` is admissible only when the governing frame explicitly asks for a diagnostic, exploratory, expert-only, source-basis, or local-reference evaluation before evaluation starts. If the live assignment asks for corpus-facing, landing-input, `Stable`, release, or external-review use, the evaluator measures that required use and returns `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded` when the floor is missed.
 
 An all-`5` result is a local exceptional result under the declared scope and qualification window. It is not a permanent end of development. `E.23` can reopen improvement when use, source, comparison set, front, affordability, or payoff changes.
 
@@ -231,7 +230,7 @@ E.21 result:
 | `<all RequiredPatternQualityCoordinates rows>` | `<0..5>` | `<assigned-value basis; why not lower; why not higher or what would lower/reopen>` |
 
 ```text
-First repair or stop: <repair | narrowed use | hold | local stop>
+First repair or stop: <repair | hold | local stop>
 Reopen if: <smallest changed locus or condition>
 ```
 
@@ -254,11 +253,11 @@ When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEval
 
 **Exact names, no first move.** A pattern has precise Tech names and current source rows but no first user move. `WorkingSituation...`, `ActionPathGuidance`, and `PracticalUseDelta...` fall; source currentness does not rescue ordinary use.
 
-**Short architecture pattern.** A compact pattern has a triage form but no worked slice and no mature-pattern comparison. It can be admissible for a narrow expert use, but `MaturePatternParity...` and `CaseCountercase...` stay below exceptional until selected mature content is present.
+**Short architecture pattern.** A compact pattern has a triage form but no worked slice and no mature-pattern comparison. It can be useful as local expert reference material, but `MaturePatternParity...` and `CaseCountercase...` stay below exceptional until selected mature content is present.
 
 **Semio-biased non-semio pattern.** A pattern about architecture, work, system levels, or method starts by saying what its description is not: not proof, not evidence, not decision. `EntityOfConcernPrimacyAndSemioBiasResistance` falls until the pattern leads with the primary object and action path, with standard non-use material moved to exact neighbours or a late boundary note.
 
-**Quality table without rationale.** A result gives values but no adjacent-value rationale. Values are unsupported. Add `ShortRationale` or lower/narrow.
+**Quality table without rationale.** A result gives values but no adjacent-value rationale. Values are unsupported. Add `ShortRationale` or lower.
 
 **Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping.
 
@@ -266,7 +265,7 @@ When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEval
 
 | Check | Requirement |
 |---|---|
-| `CC-E21-1` | Name `PatternVersionRef`, `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, `QualificationWindow`, and `EvaluationEvidenceBasis`. |
+| `CC-E21-1` | Recover `ClaimScope` from the governing request, `E.22` frame, campaign seam, landing check, release check, or review assignment; then name `PatternVersionRef`, `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, `QualificationWindow`, and `EvaluationEvidenceBasis`. |
 | `CC-E21-2` | Evaluate the full `RequiredPatternQualityCoordinates` set. |
 | `CC-E21-3` | Use the result-bearing three-column table: coordinate, value, and `ShortRationale`; a two-column coordinate/value table is not an `E.21` result. |
 | `CC-E21-4` | Let `floorEvaluation` change floor and evidence cost only, not the coordinate set. |
@@ -286,9 +285,11 @@ When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEval
 | **Score illusion.** `Pattern quality = 87/100`. | Use ordinal coordinate values; no arithmetic aggregation. |
 | **Two-column table.** Coordinate/value table has no rationale. | Add `ShortRationale` for every coordinate. |
 | **Floor as omission.** A floor evaluation omits maturity, SoTA, formal, corpus, or evolution coordinates. | Keep floor low if needed; evaluate all coordinates. |
+| **Scope laundering.** A landing-input, corpus-facing, `Stable`, release, or external-review request is reported as host-drafting, expert-only, or local-reference pass. | Re-evaluate under the governing scope; if it fails, return `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded` with the missed coordinates and repairs. |
+
 | **Administrative proxy.** "4 because landed" or "3 because not externally reviewed". | Evaluate pattern content. |
 | **Comparator-free or locus-free maturity.** `MaturePatternParity... = 4` by impression, comparator IDs only, or category list such as "frame, first move, exits, CC, SoTA, relations". | Name mature comparison patterns and use the maturity-discharge payload: comparator, selected ingredient, current locus, and missing/lowering item. Without that payload, cap at `3`. |
-| **Omission account as maturity.** A note explaining absence raises the value. | Add content to body/exact neighbour, lower value, or narrow use. |
+| **Omission account as maturity.** A note explaining absence raises the value. | Add content to body/exact neighbour, lower value, or mark the current request `repairBeforeUse`. |
 | **Semio-biased maturity.** Non-semio pattern is judged by episteme/publication exemplars only. | Include non-epistemic mature comparators and score action on the primary `EntityOfConcern`. |
 | **Apparatus maximalism.** Every pattern gets evidence cards, telemetry, archives, and companions. | Keep evidence compact unless it changes value, status, stop, or candidate comparison. |
 | **Quality veto theatre.** "Not ready" has no exact E.21 locus, evidence, status effect, and repair. | Rewrite as an `E.21` finding or remove the veto. |

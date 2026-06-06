@@ -6,7 +6,7 @@ section_id: "A.2.5:17"
 section_title: "Acceptance harness (static conformance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__018_acceptance-harness-static-conformance.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:17 — Acceptance harness (static conformance)"

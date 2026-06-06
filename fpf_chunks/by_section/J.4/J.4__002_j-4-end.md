@@ -6,19 +6,22 @@ section_id: "J.4:End"
 section_title: "J.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__002_j-4-end.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:End — J.4:End"
-line_start: 81744
-line_end: 81775
+line_start: 81747
+line_end: 81781
 dependencies:
 keywords:
 ---
 
 ### J.4:End
 
+# **Part K - Lexical Debt**
+
 ## Mandatory replacement map for measurement terms
+
 
 > **Rule:** In all **normative** content (specifications, data schemas, etc.), the deprecated terms **“axis”** and **“dimension”** (and their plural or compound forms) **MUST NOT** be used to denote a measurable aspect. Use **Characteristic** in the Tech register instead. Other colloquial terms should be mapped to canonical terms as listed below. In **Plain** narrative, deprecated aliases may appear _only on first use_ and only if paired with their canonical equivalent for clarity.
 

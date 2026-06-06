@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-line_start: 67793
-line_end: 68009
+line_start: 67795
+line_end: 68012
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -62,7 +62,7 @@ The loop must also avoid the maturity-ladder trap. A floor or all-`5` result can
 
 ### E.23:4 - Solution
 
-`E.23` is the general method for repeated improvement of an object version under an exact object-under-improvement evaluation. It changes the object, re-evaluates the changed version using that evaluation's required evidence basis and result-row shape, checks trade-offs and cost, and decides whether to stop, narrow, continue, switch method family, or hold for exact information.
+`E.23` is the general method for repeated improvement of an object version under an exact object-under-improvement evaluation. It changes the object, re-evaluates the changed version using that evaluation's required evidence basis and result-row shape, checks trade-offs and cost, and decides whether to stop, continue, switch method family, open a new frame, or hold for exact information.
 
 #### E.23:4.1 - Local names and kind settlement
 
@@ -78,7 +78,7 @@ The loop must also avoid the maturity-ladder trap. A floor or all-`5` result can
 | `OperationFamilySelectionSet` | Optional operation families selected because they can move the evaluation enough to justify cost. |
 | `ObjectUnderImprovementReEvaluation` | Re-run or cited result of the evaluation on the changed object version. |
 | `CostAndRiskAccount` | Cost and risk account used to judge another pass or operation. |
-| `StopNarrowContinueSwitchHoldDecision` | Local loop decision after re-evaluation. |
+| `StopContinueSwitchFrameHoldDecision` | Local loop decision after re-evaluation. |
 | `QualityImprovementLoopRecord` | Record of object versions, applied rows, re-evaluation, trade-offs, cost/risk, and loop decision. |
 | `QualitySideMovementClaim` | Local claim that a changed object moved on declared `Q` components under NQD/OEE comparison. |
 | `SourceComposedResultClaim` | Result produced by composing accepted source or practice lines and readable by the evaluation. |
@@ -96,7 +96,7 @@ For one quality-improvement loop:
 5. Apply repairs or variants to the object, or hand generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance to exact neighbours when the claim leaves quality improvement.
 6. Re-evaluate the changed object version through the object-under-improvement evaluation, using that evaluation's required coordinate set, evidence basis, result-row shape, short rationales, and coordinate-specific payloads.
 7. Record what improved, what stayed floor-only, what was unchanged, what became worse, and which rows moved outside the evaluation.
-8. Decide `stop`, `narrow`, `continue`, `switchMethodFamily`, or `holdForExactInformation`.
+8. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdForExactInformation`.
 9. Leave a `QualityImprovementLoopRecord` sufficient for the next reader to replay the object versions, evidence basis, evaluation result, trade-offs, cost/risk, and loop decision.
 
 Row discharge is changed-object evidence. It is not coordinate improvement until the changed object version is re-evaluated in the required result form of the named evaluation. A prose update, applied-row count, or result missing evidence basis does not close the loop.
@@ -120,7 +120,7 @@ An all-`5`, all-exceptional, current-front-reaching, or current-front-improving 
 | `FixedPerformerObjectVersionUnderImprovementOptimizationFamily` | The performer or harness stays fixed while the object version is edited and re-evaluated. |
 | `NQDQualitySideImprovementFamily` | The evaluation supplies the `Q` side for a declared NQD/OEE comparison and loop changes seek non-dominated `Q` movement. |
 | `SoTAReachAndMaintainFamily` | Several accepted source or practice lines must be composed to reach or maintain an externally assigned front. |
-| `SpecializedObjectFamilyCycle` | A narrower method family fits a declared characteristic space and is BLP-compatible. |
+| `SpecializedObjectFamilyCycle` | A specialized method family fits a declared characteristic space and is BLP-compatible. |
 
 The selected family is justified by characteristic-space fit, expected evaluation movement, cost/risk, and protected trade-offs. Familiarity, automation, or current popularity is not enough.
 
@@ -195,7 +195,7 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 | **Loop result without evaluation form.** The loop says the object improved but records only prose, applied rows, or values without the named evaluation's evidence basis. | Re-run the object-under-improvement evaluation in its required result-row shape. |
 | **Agentic retry as method law.** Repetition continues without expected movement. | Add evaluation movement, cost/risk, trade-offs, and stop/switch condition. |
 | **Operation-family creep.** Verification, memory, supervision, or search is added everywhere. | Keep only operations that can move the evaluation enough to justify cost. |
-| **Goodharted pass.** Visible values rise while protected qualities worsen. | Use trade-off inspection and reject, narrow, or split dominated changes. |
+| **Goodharted pass.** Visible values rise while protected qualities worsen. | Use trade-off inspection and reject, repair, split, or hold dominated changes. |
 | **Maturity-ceiling stop.** All-`5` is treated as end of development. | Close this loop locally and record reopen conditions. |
 | **SoTA citation as self-assignment.** Sources are cited as proof of frontier quality. | State source contributions and re-evaluate the composed result. |
 
@@ -210,7 +210,7 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 
 ### E.23:10 - Rationale
 
-The shared method is simple: change an object version, re-evaluate it by the exact evaluation that gives values, check trade-offs and cost, then stop, narrow, continue, switch, or hold. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE/NQD lines contribute useful operations and boundaries, but they do not replace this method.
+The shared method is simple: change an object version, re-evaluate it by the exact evaluation that gives values, check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE/NQD lines contribute useful operations and boundaries, but they do not replace this method.
 
 ### E.23:11 - SoTA-Echoing
 
@@ -242,5 +242,6 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 
 ### E.23:End
 
-# Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment
+
+# **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 

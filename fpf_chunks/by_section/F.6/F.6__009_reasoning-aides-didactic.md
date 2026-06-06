@@ -6,12 +6,12 @@ section_id: "F.6:8"
 section_title: "Reasoning aides (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__009_reasoning-aides-didactic.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:8 — Reasoning aides (didactic)"
-line_start: 70034
-line_end: 70041
+line_start: 70037
+line_end: 70044
 dependencies:
   - "A.15"
   - "A.2.1"

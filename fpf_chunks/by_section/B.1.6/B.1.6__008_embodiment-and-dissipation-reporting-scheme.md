@@ -6,12 +6,12 @@ section_id: "B.1.6:7"
 section_title: "Embodiment and dissipation (reporting scheme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__008_embodiment-and-dissipation-reporting-scheme.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:7 — Embodiment and dissipation (reporting scheme)"
-line_start: 30098
-line_end: 30112
+line_start: 30097
+line_end: 30111
 dependencies:
   - "A.12"
   - "A.14"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
-line_start: 66206
-line_end: 66876
+line_start: 66204
+line_end: 66874
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -41,7 +41,7 @@ keywords:
 
 ### E.19:0 - Use this when
 
-Use `E.19` when you need to decide whether one new, substantially revised, or aging FPF pattern is ready for admission, refresh, return for repair, or narrower use. It turns quality review into a repeatable pattern-quality run rather than a matter of reviewer taste.
+Use `E.19` when you need to decide whether one new, substantially revised, or aging FPF pattern is ready for admission, refresh, or return for repair. It turns quality review into a repeatable pattern-quality run rather than a matter of reviewer taste.
 
 Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, primary `EntityOfConcern` stability, terminology, SoTA grounding, related-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
 
@@ -113,11 +113,11 @@ If the aim is repeated improvement against an object-under-improvement evaluatio
 
 `E.19` reviewer and reviewed-pattern wording is FPF pattern-quality wording. It governs FPF pattern-quality review or refresh claims, not project-side publication interpretation, explanation interpretation, comparative review-unit use, or participation in a named project-side review relation. When those project-side relations are live, use the publication or project-side pattern that names the object being interpreted or reviewed.
 
-**Project-side reuse boundary.** Use this boundary when an `E.19` pattern-quality result is being reused as project certification, project evidence, safety-assurance material, gate input, release justification, compliance-assurance material, assurance material, work authority, or publication truth. The first E.19 move is to return the result to the exact FPF pattern-quality claim it reviews: admission, refresh, narrower use, repair return, or selected pattern-quality boundary. If that result is cited for a project-side claim, the receiving relation must be opened for that exact claim: `A.10` for evidence/currentness, `B.3` for assurance, `A.20` for local CV status, `A.21` for gate decision, `A.15` for work, or another exact governing pattern when live. The review result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, evidence, gate, assurance, work, decision, or exact FPF pattern application.
+**Project-side reuse boundary.** Use this boundary when an `E.19` pattern-quality result is being reused as project certification, project evidence, safety-assurance material, gate input, release justification, compliance-assurance material, assurance material, work authority, or publication truth. The first E.19 move is to return the result to the exact FPF pattern-quality claim it reviews: admission, refresh, repair return, or selected pattern-quality boundary. If that result is cited for a project-side claim, the receiving relation must be opened for that exact claim: `A.10` for evidence/currentness, `B.3` for assurance, `A.20` for local CV status, `A.21` for gate decision, `A.15` for work, or another exact governing pattern when live. The review result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, evidence, gate, assurance, work, decision, or exact FPF pattern application.
 
 **Common wrong first interpretation.** Pattern review passed means the project, release, publication, safety claim, or compliance claim is certified. First honest entry: E.19 returns only a pattern-quality result; any project-side reuse must name the receiving project relation and its evidence or assurance source.
 
-**Misuse guard.** A pattern-quality caution, return-for-repair result, or narrower-use result cannot be reused as project refusal or project approval unless a project-side receiving relation is live and states admissible and non-admissible use for that relation.
+**Misuse guard.** A pattern-quality caution, return-for-repair result, or selected pattern-quality boundary result cannot be reused as project refusal or project approval unless a project-side receiving relation is live and states admissible and non-admissible use for that relation.
 
 Formal/template defects (e.g. non-compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic/ontological defects or non-SoTA Solutions, but they also **MUST** be recorded with the active repair boundary named.
 
@@ -673,7 +673,7 @@ The baseline profile protects cross-pattern comparability and editorial sanity. 
 | “Living” guidance needs refresh discipline. | Reporting and review guidance is updated and versioned; reviewers track changes and report deltas clearly. | **Current reporting-reference source use.** PRISMA supplies transparent updated-guidance and delta-reporting discipline; it is not imported as a mandatory FPF review workflow. | Page et al. (2021), “The PRISMA 2020 statement: an updated guideline for reporting systematic reviews”; Page et al. (2021), “PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews”. | Runs require explicit decisions and deltas in SoTA-Echoing; `PCP-REFRESH` asks whether stale SoTA, renamed relations, terminology drift, or refresh windows change the pattern. | **Adapt.** Use the versioned-guidance and explicit-delta principle without importing medical-review reporting forms or process mandates. |
 | Retrieval-facing entry changes need selected evidence dimensions, not universal benchmarks. | RAG evaluation practice separates context relevance, answer faithfulness, answer relevance, and retrieved-context adequacy. | **Current practice source use for retrieval-facing evidence dimensions.** RAGAS and ARES are representative current RAG evaluation source refs for the selected retrieval fixture only; they are not current-best source material for all pattern entry or pattern quality. | Es, James, Espinosa-Anke, Schockaert (2023 arXiv; 2024 EACL demo), “RAGAS: Automated Evaluation of Retrieval Augmented Generation”; Saad-Falcon, Khattab, Potts, Zaharia (2023 arXiv; 2024 NAACL), “ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems”. | `PCP-ENTRY-E4` and related evidence modes select tiny retrieval fixtures only when retrieval-facing behavior or observed misretrieval is live; the row does not authorize a universal benchmark for every pattern entry. | **Adopt lightly.** Keep retrieval hit, source-material relevance, authority, and faithfulness dimensions only when retrieval-facing behavior is live; ordinary entry prose remains prose-only. |
 
-Action result from the pattern-review and validation practice grounding: an `E.19` pass, caution, return-for-repair result, narrower-use result, clean checklist, or clean retrieval-entry check does not become project certification, project evidence, safety-assurance material, gate input, release justification, compliance-assurance material, assurance material, work authority, publication truth, or project refusal or approval. The local E.19 result is a pattern-quality review or refresh claim over the named reviewed pattern, selected profile, defects found or cleared, admission, refresh, narrower-use, repair-return, or selected pattern-quality boundary. Reopen the pattern-quality result when the reviewed text, accepted-source-material decision, SoTA grounding, related exact pattern, selected companion or projection role, profile trigger, review boundary, or attempted project-side reuse changes.
+Action result from the pattern-review and validation practice grounding: an `E.19` pass, caution, return-for-repair result, clean checklist, or clean retrieval-entry check does not become project certification, project evidence, safety-assurance material, gate input, release justification, compliance-assurance material, assurance material, work authority, publication truth, or project refusal or approval. The local E.19 result is a pattern-quality review or refresh claim over the named reviewed pattern, selected profile, defects found or cleared, admission, refresh, repair-return, or selected pattern-quality boundary. Reopen the pattern-quality result when the reviewed text, accepted-source-material decision, SoTA grounding, related exact pattern, selected companion or projection role, profile trigger, review boundary, or attempted project-side reuse changes.
 
 ### E.19:12 - Relations
 
@@ -685,7 +685,7 @@ Action result from the pattern-review and validation practice grounding: an `E.1
   * `E.9` (design rationale records for changes that affect semantics)
   * `E.9.DA` (scoped DRR decision-adequacy evaluations before pattern drafting or host amendment; an `E.19` finding may expose that an upstream `DRR` did not decide enough, but `E.19` keeps the pattern-review finding while `E.9.DA` evaluates only the upstream `DRR` decision-adequacy claim. An `E.19` pass, return, or absence is not `E.9.DA` coordinate evidence.)
   * `E.22` (improvement-oriented quality-evaluation question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before the `E.19` review result is formed.)
-  * `E.23` (repeated quality-improvement method; an `E.19` profile can supply findings inside such a loop, but `E.23` governs repeated absorption, object-under-improvement evaluation re-evaluation, method-family selection, and stop, narrow, continue, switch method, or hold decisions.)
+  * `E.23` (repeated quality-improvement method; an `E.19` profile can supply findings inside such a loop, but `E.23` governs repeated absorption, object-under-improvement evaluation re-evaluation, method-family selection, and stop, continue, switch method, open-new-frame, or hold decisions.)
 
   * `E.15` (authoring/evolution protocol; harness mindset; refresh planning)
   * `A.6.5` (slot discipline; SlotKind/ValueKind/refMode invariants)

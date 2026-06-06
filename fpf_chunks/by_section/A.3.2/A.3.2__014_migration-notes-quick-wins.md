@@ -6,7 +6,7 @@ section_id: "A.3.2:13"
 section_title: "Migration notes (quick wins)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__014_migration-notes-quick-wins.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:13 — Migration notes (quick wins)"

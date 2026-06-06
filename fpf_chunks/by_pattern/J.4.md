@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/J.4.md"
-commit_sha: "eaafd3a43b9173706e1f8388a3bc94c6445397e4"
+commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
-line_start: 81686
-line_end: 81839
+line_start: 81689
+line_end: 81845
 dependencies:
 keywords:
 ---
@@ -75,7 +75,10 @@ belongs in `I.2`.
 When `J.4` itself is under improvement, use `E.21` for the pattern-quality evaluation and `E.23` for repeated improvement. `J.4` only answers whether a row is a useful first-practical entry projection.
 ### J.4:End
 
+# **Part K - Lexical Debt**
+
 ## Mandatory replacement map for measurement terms
+
 
 > **Rule:** In all **normative** content (specifications, data schemas, etc.), the deprecated terms **“axis”** and **“dimension”** (and their plural or compound forms) **MUST NOT** be used to denote a measurable aspect. Use **Characteristic** in the Tech register instead. Other colloquial terms should be mapped to canonical terms as listed below. In **Plain** narrative, deprecated aliases may appear _only on first use_ and only if paired with their canonical equivalent for clarity.
 
