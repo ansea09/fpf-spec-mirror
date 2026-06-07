@@ -6,12 +6,12 @@ section_id: "E.17.0:5"
 section_title: "Archetypal grounding  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__006_archetypal-grounding-informative.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:5 — Archetypal grounding  (informative)"
-line_start: 61862
-line_end: 61883
+line_start: 61918
+line_end: 61939
 dependencies:
   - "A.6.2"
   - "A.6.3"

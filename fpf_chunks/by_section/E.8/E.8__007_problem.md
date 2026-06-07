@@ -6,12 +6,12 @@ section_id: "E.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__007_problem.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:2 — Problem"
-line_start: 56537
-line_end: 56546
+line_start: 56564
+line_end: 56573
 dependencies:
   - "E.10"
   - "E.19"
@@ -26,6 +26,8 @@ dependencies:
   - "E.9"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
+  - "J.4"
 keywords:
   - "). The key words MUST"
   - "MAY"

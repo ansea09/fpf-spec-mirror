@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.10.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
-line_start: 18213
-line_end: 18603
+line_start: 18215
+line_end: 18605
 dependencies:
   - "A.1"
   - "A.10"
@@ -223,15 +223,15 @@ What this does not authorize: `A.10` does not approve, authorize action, pass a 
 
 Use this subsection when a visible source is being treated as evidence for a claim, act, work move, gate, release, review claim, assurance use, or problem-side P2W use. The first A.10 move is to recover the evidence kind and the bounded use it can actually make admissible. Broad source words such as `source`, `metric`, `confidence`, `conformant`, `safe`, `ready`, `certified`, `approval`, or `permission` are only recovery prompts; they do not name the evidence relation by themselves.
 
-This subsection uses a local reliance-use classifier, not a Core evidence-kind ontology. Its practical gain is a smaller next move: recover the evidence relation, name the admissible and non-admissible use, then stop or exit to the exact receiving pattern. It is not a required project review step and does not ask the practitioner to inspect every source-looking item.
+This subsection uses a local reliance-use classifier, not a Core evidence-kind ontology. Its practical gain is a smaller next move: recover the evidence relation, name the admissible and non-admissible use, then stop or exit to the exact governing pattern. It is not a required project review step and does not ask the practitioner to inspect every source-looking item.
 
 Section role: the first table is an A.10 recognition aid, the `RelianceDisposition` table is a minimum local record aid, and the worked source-overread slices are regression/review slices. They are not project checklists, a required sequence, a new evidence ontology, or a general source classifier. Use only the row that answers the live attempted evidence use, then stop when the bounded evidence relation, admissible use, non-admissible use, and reopen condition are clear. This local section returns the attempted use to A.10 evidence relation; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
 
-Affordability card: orientation or source-finding remains a cue and stops here; bounded reliance states one admissible use, non-admissible use, window, and reopen condition; threshold reliance exits to the minimum receiving pattern only when the B.3 material-reliance threshold is live: behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people/team status, operational action, or controlled-object regulation would materially change. Plain wording remains ordinary unless it changes admissible use, source relation, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
+Affordability card: orientation or source-finding remains a cue and stops here; bounded reliance states one admissible use, non-admissible use, window, and reopen condition; threshold reliance exits to the minimum governing pattern only when the B.3 material-reliance threshold is live: behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people/team status, operational action, or controlled-object regulation would materially change. Plain wording remains ordinary unless it changes admissible use, source relation, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 
 Cheap stop: if a bounded claim, current carrier, evidence path, window, admissible use, non-admissible use, and reopen trigger are present, and no assurance, gate, work, control-bearing relation, release relation, or B.3 material-reliance threshold is live, stay in `A.10`. Do not open `B.3`, `A.21`, `B.2.5`, or a broad evidence pack merely because the source looks official, quantitative, generated, credentialed, or safety-related.
 
-Common wrong first reading: a visible source is approval, permission, safety, or readiness. First honest entry: recover the A.10 evidence path for one bounded claim or use; approval, permission, safety, readiness, gate passage, and work authority stay with their receiving patterns when live.
+Common wrong first reading: a visible source is approval, permission, safety, or readiness. First honest entry: recover the A.10 evidence path for one bounded claim or use; approval, permission, safety, readiness, gate passage, and work authority stay with their governing patterns when live.
 
 Plain move palette: `RelianceDisposition=pass` means proceed only inside the bounded use; `RelianceDisposition=degrade` means use only a narrower or reversible version; `RelianceDisposition=abstain` means do not decide yet; `RelianceDisposition=reopen` means changed or contested evidence relation defeated the previous reading; `RelianceDisposition=evidence-needed` means ask for the named missing evidence at the named decision point; `RelianceDisposition=safety-case-required` means return to `B.3` because the B.3 material-reliance threshold is live; `RelianceDisposition=no-admissible-current-use` means block the current attempted use until a receiving source changes.
 
@@ -258,7 +258,7 @@ If publication or observation of a cue changes the situation or source condition
 | `RelianceDisposition=degrade` | The source relations only a narrower claim, smaller audience, reversible local act, lower assurance input, or shorter window. | State the narrowed admissible use, the attempted use still not admissible, and the stop condition. |
 | `RelianceDisposition=abstain` | Evidence is insufficient, stale, out-of-context, uncalibrated, conflicted, or not tied to the live relation, while immediate rejection is not justified. | State the claim not decided and the missing evidence or relation needed before use. |
 | `RelianceDisposition=reopen` | A contest, changed representation, changed selected entity, stale source, expired window, changed profile, conflicting source, retargeting, or new evidence defeats the previous evidence path. | State the source or relation to reopen and the previous use that is no longer supported. |
-| `RelianceDisposition=evidence-needed` | The visible source may matter, but the required evidence kind or source-currentness path is absent. | State the missing evidence kind, receiving pattern, and decision point so delay does not become indefinite. |
+| `RelianceDisposition=evidence-needed` | The visible source may matter, but the required evidence kind or source-currentness path is absent. | State the missing evidence kind, governing pattern, and decision point so delay does not become indefinite. |
 | `RelianceDisposition=safety-case-required` | The B.3 material-reliance threshold is live: reliance on the visible source may materially change behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people/team status, operational action, or controlled-object regulation. | State the threshold trigger and return to `B.3` for the minimum reliance safety assurance record, with A.10 evidence paths for the source claims. |
 | `RelianceDisposition=no-admissible-current-use` | No current evidence path makes the attempted act admissible, work, claim, gate, release, assurance, review, control-bearing feedback, or P2W use. | State the blocked use and the neighboring pattern or project record required before a new attempt. |
 

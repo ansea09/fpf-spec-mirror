@@ -6,12 +6,12 @@ section_id: "E.22:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__009_common-anti-patterns-and-repairs.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:8 — Common anti-patterns and repairs"
-line_start: 67744
-line_end: 67755
+line_start: 67863
+line_end: 67875
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -22,6 +22,7 @@ dependencies:
   - "E.21"
   - "E.23"
   - "E.9.DA"
+  - "F.19"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -35,8 +36,9 @@ keywords:
 | **"Review this" prompt.** The evaluator infers purpose. | Add a `QualityEvaluationQuestionFrame`. |
 | **Floor pass sold as excellence.** Readiness is mistaken for exceptional improvement. | State `exceptionalImprovementEvaluation` if wanted. |
 | **Frame replaces result.** The question frame names a purpose but returns prose, a two-column value table, or proposal rows without the named evaluation's result form. | Re-run the named evaluation and return its required coordinates, evidence basis, rationales, and payload fields. |
-| **Scope laundering.** The frame asks one use, but the result answers an easier host-drafting, expert-only, local-reference, or diagnostic use. | Re-run the named evaluation under the requested use; if another use is needed, open a new frame rather than saving the current result. |
+| **Scope laundering.** The frame asks one use, but the result answers an easier, local-only, diagnostic, or evaluator-selected use. | Re-run the named evaluation under the requested use; if another use is needed, open a new frame rather than saving the current result. |
 | **Applied-count absorption.** Closure count replaces quality movement. | Re-evaluate the changed object and classify impact. |
 | **Goodharted improvement.** Visible values rise while protected qualities worsen. | Add trade-off protection and reject dominated changes. |
 | **Recommendation as decision.** A next-move hypothesis is treated as chosen work. | Open the exact decision, work, publication, parity, refresh, evidence, or assurance pattern if that claim is needed. |
+| **Lexical repair request.** A finding says only "replace this word" or "avoid that wording." | Rewrite the row as a precision-restoration finding with pre/post kind, relation, admissible use, and scope; if no kind-preserving repair is recoverable, leave it blocking. |
 

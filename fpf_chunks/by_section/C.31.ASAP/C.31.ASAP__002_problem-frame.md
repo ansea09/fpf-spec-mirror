@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__002_problem-frame.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:1 — Problem frame"
-line_start: 54780
-line_end: 54807
+line_start: 54790
+line_end: 54817
 dependencies:
   - "A.10"
   - "A.17"
@@ -73,5 +73,5 @@ What goes wrong if C.31.ASAP is missed: "modular", "platform", "product line", "
 
 What C.31.ASAP buys in practice: the practitioner can say what is being scaled, where the scale claim holds, what structure is expected to remain stable or improve, what exceptions are allowed, what evidence or no-probe reason exists, and where scale, lens, evidence, assurance, selection, or decision claims leave this pattern.
 
-Not this pattern when the live question is only module-interface relation repair, modularity-characteristic selection, reusable-structure accounting, mathematical-lens use, scale-law adequacy, method preference under general BLP, architecture synthesis, selected-set return, or final local choice. Use `A.6.M`, `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, the admitted architecture synthesis receiving pattern, or `C.11` as appropriate. C.31.ASAP receives architecture scale-preference claims; it does not select the architecture, prove the scale law, or certify the project.
+Not this pattern when the live question is only module-interface relation repair, modularity-characteristic selection, reusable-structure accounting, mathematical-lens use, scale-law adequacy, method preference under general BLP, architecture synthesis, selected-set return, or final local choice. Use `A.6.M`, `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, the admitted architecture synthesis governing pattern, or `C.11` as appropriate. C.31.ASAP receives architecture scale-preference claims; it does not select the architecture, prove the scale law, or certify the project.
 

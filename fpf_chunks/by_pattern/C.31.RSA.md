@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.RSA.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
-line_start: 54402
-line_end: 54773
+line_start: 54412
+line_end: 54783
 dependencies:
   - "A.10"
   - "A.19"
@@ -380,7 +380,7 @@ The pattern also keeps residue ethically and practically neutral until interpret
 
 | Source or practice | Currentness or lineage use | Adopt and adapt for C.31.RSA | Rejected overread | Neighboring-pattern application and action consequence |
 | --- | --- | --- | --- | --- |
-| C.25 Q-Bundle discipline inside FPF | Landed FPF-local governing discipline for quality-family claims. | Adopt separation of scope, measures, mechanisms, windows, evidence, and admissible use. In C.31.RSA this changes `ReusableStructureShare`: the share is report-only accounting under declared `accountingBasisRef` until a receiving pattern admits comparison, publication, assurance, scale, or decision use. | A reusable-structure share does not replace the underlying Q-Bundle, description, evidence relation, or decision record. | Apply `C.25` and `C.16` when reuse becomes a quality claim or measurement claim; the practitioner may report a share locally but must not use it as proof without exact neighboring admission. |
+| C.25 Q-Bundle discipline inside FPF | Landed FPF-local governing discipline for quality-family claims. | Adopt separation of scope, measures, mechanisms, windows, evidence, and admissible use. In C.31.RSA this changes `ReusableStructureShare`: the share is report-only accounting under declared `accountingBasisRef` until a governing pattern admits comparison, publication, assurance, scale, or decision use. | A reusable-structure share does not replace the underlying Q-Bundle, description, evidence relation, or decision record. | Apply `C.25` and `C.16` when reuse becomes a quality claim or measurement claim; the practitioner may report a share locally but must not use it as proof without exact neighboring admission. |
 | ISO/IEC/IEEE 42010:2022 architecture-description, viewpoint, model-kind, and correspondence discipline (`https://www.iso.org/standard/74393.html`; `https://www.iso-architecture.org/ieee-1471/cm/`) | Current international standard and conceptual-model source for architecture-description and view discipline for this source-use decision. | Adopt explicit architecture description, source view, viewpoint, model-kind, correspondence, and conformance pressure. In C.31.RSA this changes source-return use: reusable-structure accounting names the structure refs, source view or architecture-description refs, correspondence refs, and source-return condition before any cross-view share is used. | A view, diagram, model kind, or correspondence label is not the reusable structure itself and does not make a share comparable, admissible for decision use, or assurance-bearing. | Apply `C.30`, `C.30.ASV`, or `E.17.0` when source views or architecture descriptions are live; RSA may count only after the selected structure refs and accounting basis are recoverable. |
 | Modular Open Systems Approach (MOSA) and open-system acquisition or engineering practice (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`) | Current engineering and acquisition practice family for modular interfaces, conformance, replacement, and supplier-diversity pressure. | Adopt the pressure to make reusable interface, conformance, substitution, and supplier-diversity structure explicit. In C.31.RSA this changes interface reuse: reusable interface accounting remains report-only until A.6.M has repaired interface grammar, substitution policy, version or change policy, conformance work, source or evidence relation, and the supplier-diversity relation when live. | Open interface label, API label, platform label, or supplier-diversity goal is not reusable structure, procurement suitability, assurance, gate passage, or decision authority by itself. | Apply A.6.M for interface grammar, substitution policy, version or change policy, conformance expectations, source or evidence relation, and supplier-diversity relation before RSA comparison or decision use; use `G.5` or `C.11` for supplier-set selection or procurement decision use when that use is live. |
 | DSM, dependency, and product-architecture practice, including Eppinger and Browning DSM lineage | Mature architecture-analysis lineage still used for dependency and product-architecture reasoning; lineage, not a complete current standard. | Adopt typed dependency structures as possible source for reusable loci and bespoke-residue diagnosis. In C.31.RSA this changes dependency use: dependency counts, partitions, and clusters become candidate source fields only when declared `structureRefs`, structural aspects, and accounting basis are present. | Dependency count, cluster count, or DSM modularity score is not architecture amount, quality proof, or decision verdict. | Apply `C.16` and `C.31` for characteristic and scale legality; apply `C.29` when graph, partition, compression, or C.29 lens-use result changes action. |
@@ -405,7 +405,7 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `A.10`, `B.3`, `G.6` | Govern evidence, assurance, and safety-case reliance. |
 | `C.29` | Governs compression, epiplexity, RG, or other mathematical-lens claims when accounting depends on a lens. |
 | `C.27`, `C.28`, `C.31.ASAP`, `C.18.1`, `C.19.1` | Govern temporal, causal, architecture scale-preference, scale-law, and BLP claims derived from residue growth or reuse movement. |
-| `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate synthesis requires a current receiving pattern before RSA can carry candidate-synthesis or decision use. |
+| `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate synthesis requires a current governing pattern before RSA can carry candidate-synthesis or decision use. |
 
 ### C.31.RSA:End
 

@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__006_archetypal-grounding.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:5 — Archetypal Grounding"
-line_start: 54006
-line_end: 54013
+line_start: 54016
+line_end: 54023
 dependencies:
   - "A.10"
   - "A.15"

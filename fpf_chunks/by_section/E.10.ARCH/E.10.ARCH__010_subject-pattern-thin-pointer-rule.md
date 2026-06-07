@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.10.ARCH"
 pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
 section_id: "E.10.ARCH:7"
-section_title: "Receiving-pattern thin-pointer rule"
+section_title: "Subject-pattern thin-pointer rule"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.10.ARCH/E.10.ARCH__010_receiving-pattern-thin-pointer-rule.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+output_path: "by_section/E.10.ARCH/E.10.ARCH__010_subject-pattern-thin-pointer-rule.md"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-  - "E.10.ARCH:7 — Receiving-pattern thin-pointer rule"
-line_start: 59583
-line_end: 59600
+  - "E.10.ARCH:7 — Subject-pattern thin-pointer rule"
+line_start: 59636
+line_end: 59653
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,13 +38,14 @@ dependencies:
   - "E.21"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "J.4"
 keywords:
 ---
 
-### E.10.ARCH:7 - Receiving-pattern thin-pointer rule
+### E.10.ARCH:7 - Subject-pattern thin-pointer rule
 
-Receiving patterns keep at most one local first-use cue when the live EntityOfConcern, relation, claim, or field is hidden, then send the reader to the selected precision-restoration pattern. They do not copy:
+Subject patterns keep at most one local first-use cue when the live EntityOfConcern, relation, claim, or field is hidden, then name the selected precision-restoration pattern as a pattern through ordinary reference apparatus or `Relations`. They do not turn that reference into local reference boilerplate, and they do not copy:
 
 - the full `E.10` trigger registry;
 - this shared algorithm;
@@ -58,5 +59,5 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - use `C.30.STRAT` when `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, or a close source label hides whether the live use is a control-layer relation, module-interface relation, functional-flow relation, scale or coarse-graining relation, publication relation set, gate relation, exact neighboring use, ordinary source label, quote-only cue, or blocked use;
 - use `C.16.P` when metric, score, axis, dimension, feature, property, indicator, strong, weak, robust, level, coordinate, threshold, or comparison wording hides characteristic or scale construction;
 - use `C.16.Q` when quality or evaluative characterization wording hides Q-bundle, pattern-quality coordinate, relation construction, action-invitation, bridge, or exact characterization use;
-- use `A.19.SPR` when state, status, posture, readiness, stance, currentness, or a local state-like field hides bearer, state frame, value set, admissible use, or exact receiving pattern;
+- use `A.19.SPR` when state, status, posture, readiness, stance, currentness, or a local state-like field hides bearer, state frame, value set, admissible use, or exact governing pattern;
 - use `C.2.P` when source, publication, carrier, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance.

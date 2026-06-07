@@ -6,12 +6,12 @@ section_id: "C.16.P:10"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__013_common-anti-patterns.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:10 — Common anti-patterns"
-line_start: 40853
-line_end: 40863
+line_start: 40863
+line_end: 40873
 dependencies:
   - "A.10"
   - "A.15"

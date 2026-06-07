@@ -6,12 +6,12 @@ section_id: "E.21:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__011_sota-echoing.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:10 — SoTA-Echoing"
-line_start: 67562
-line_end: 67571
+line_start: 67677
+line_end: 67686
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -27,6 +27,7 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
   - "J.4"
 keywords:
 ---
@@ -35,7 +36,7 @@ keywords:
 
 | Claim | Source-use disposition | Concrete E.21 effect |
 |---|---|---|
-| Feedback connects desired state, current state, and next action. | Adopt from feedback-for-learning lineage such as Sadler and Hattie/Timperley. | `ShortRationale` and proposal rows are separated: value now, next improvement when live. |
+| Feedback connects desired state, current state, and next action. | Adopt from feedback-for-learning lineage such as Sadler and Hattie/Timperley. | `ShortRationale` and proposal rows are separated: value now, next improvement when requested. |
 | Questions and metrics derive from the goal. | Adopt from GQM-style measurement discipline. | Scope, reader, use, and window precede coordinate values. |
 | Multi-criteria improvement needs explicit trade-offs. | Adopt from MCDA, Pareto, ATAM, and current QD/OEE lines. | Dominance comparisons and protected trade-offs replace one-score closure. |
 | Proxy optimization can make intended value worse. | Adopt from Goodhart/proxy-risk lines. | `ProxyForValueSubstitutionResistance` and stop condition ask what got worse. |

@@ -6,12 +6,12 @@ section_id: "C.22.2:16"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__017_rationale.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:16 — Rationale"
-line_start: 44351
-line_end: 44358
+line_start: 44361
+line_end: 44368
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,5 +67,5 @@ keywords:
 
 The card gives the practitioner one thing to write, inspect, and challenge. A practitioner can see whether a problem is ready without first assembling the problem-side record from `TaskSignature`, Q-bundle, parity report, evidence note, selected-set output, and refresh record. At the same time, the card stays outside archive, portfolio, decision, autonomy, work, gate, evidence, bridge, and assurance authority.
 
-The archive and portfolio distinctions remain live when they matter because the card preserves `setContextRef` and exits to the current receiving patterns. Changed problem formulations, diagrams, functional descriptions, or TGA path interpretations require the accepted representation or retargeting exits before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, exits, boundaries, or the problem formulation itself.
+The archive and portfolio distinctions remain live when they matter because the card preserves `setContextRef` and exits to the current governing patterns. Changed problem formulations, diagrams, functional descriptions, or TGA path interpretations require the accepted representation or retargeting exits before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, exits, boundaries, or the problem formulation itself.
 

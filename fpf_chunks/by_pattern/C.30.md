@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
-line_start: 51267
-line_end: 51845
+line_start: 51277
+line_end: 51855
 dependencies:
   - "A.10"
   - "A.15"
@@ -131,7 +131,7 @@ What C.30 buys in practice: a practitioner can separate architecture claim, sele
 
 Not this pattern when the live question is only structure as such, an architecture structural view, or a TGA graph relation, path relation, or crossing relation. Use `A.22`, `C.30.ASV`, `E.18`, or `C.30.TGA-FLOW-REL` as appropriate. If another live claim is present, use the exact governing pattern and keep C.30 only to the architecture claim, selected-structure, or conditional architecture-description-use portion.
 
-Thin precision-restoration pointer: if the live issue is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, carrier, source, structure, or exact non-architecture receiving-pattern application, use `C.30.P` and `C.30.STRAT` as triggered before C.30 receives the recovered architecture portion. Do not copy the trigger tables into C.30; C.30 resumes after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the exact non-architecture application is recoverable.
+Thin precision-restoration pointer: if the live issue is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, carrier, source, structure, or exact non-architecture governing-pattern application, use `C.30.P` and `C.30.STRAT` as triggered before C.30 receives the recovered architecture portion. Do not copy the trigger tables into C.30; C.30 resumes after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the exact non-architecture application is recoverable.
 ### C.30:2 - Problem
 
 Engineering teams use "architecture" for several different things:
@@ -308,7 +308,7 @@ A. SystemQualityAffectedByArchitecture
 
 B. ArchitectureStructuralCharacteristic
    Bearer: `ArchitectureOf@Context` claim, architecture structural view, declared structural relation or constraint, module relation, or interface relation
-      Governing pattern: selected from C.16, A.17-A.19, or an admitted architecture-characterization receiving pattern
+      Governing pattern: selected from C.16, A.17-A.19, or an admitted architecture-characterization governing pattern
    Examples: coupling, cohesion, interface alphabet, substitutability, hidden coupling, reusable-structure share
 
 C. ArchitectureAdequacyBearer
@@ -502,7 +502,7 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 | LCA diagram or control diagram as proof | Use `C.30.LCA` for control-structure view; assign dynamics, temporal, causal, evidence, gate, safety, and assurance claims to their governing patterns. |
 | Mathematical lens as architecture ontology | Use `C.29`; cite `MathLensUseOutputRef` only through an `ArchitectureMathLensUseBoundary` or C.29 lens record and state stop condition. |
 | ADR as architecture decision | Use the exact project-side architecture decision pattern when a decision claim is live; ADR is a publication form, not the decision. |
-| Quality, score, or measurement term as architecture adequacy | Recover the bearer through `ArchitectureCharacteristicAssignment`; assign the live claim to `C.25`, `C.16`, an admitted architecture-characterization receiving pattern, or C.30 grounded architecture, selected-structure, or conditional description-use scope. |
+| Quality, score, or measurement term as architecture adequacy | Recover the bearer through `ArchitectureCharacteristicAssignment`; assign the live claim to `C.25`, `C.16`, an admitted architecture-characterization governing pattern, or C.30 grounded architecture, selected-structure, or conditional description-use scope. |
 | Architecture record as evidence, assurance, gate, work, or release | Assign evidence, assurance, gate, work, or release claims to `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, or release loci as live. |
 | Architecture as agent, worker, controller, gate, or proof | Recover the mechanism, control relation, role and enactor relation, gate, work, evidence, or assurance carrier that actually bears enforce, decide, optimize, adapt, prove, or guarantee wording; keep `ArchitectureOf@Context` as a selected-structure claim, not an acting entity. |
 
@@ -628,7 +628,7 @@ The DescriptionContext structure also preserves plurality. The same architecture
 
 Builds on: `A.22`, `C.30.P`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D2`, `E.17.0`, `E.17.1`, `E.17`, `E.17.2`, `A.6.P`, `F.18`, `E.10`, and `C.2.P`.
 
-Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named receiving patterns for architecture decision and candidate-set claims when those claim kinds are live.
+Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named governing patterns for architecture decision and candidate-set claims when those claim kinds are live.
 
 Does not replace: A.22 selected-structure EntityOfConcern; C.30.STRAT stratification-wording repair and source-label repair; C.30.ASV structural-view adequacy; E.TGA graph, path, and crossing discipline; C.29 mathematical-lens use; C.16 characterization; C.25 Q-Bundles; C.28 causal-use relation; A.10 and G.6 evidence; B.3 assurance; A.20 and A.21 gate or release records; A.15 work; C.11 decisions; or E.17 publication.
 

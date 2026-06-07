@@ -6,12 +6,12 @@ section_id: "C.31:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__013_relations.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:12 — Relations"
-line_start: 54382
-line_end: 54399
+line_start: 54392
+line_end: 54409
 dependencies:
   - "A.10"
   - "A.17"
@@ -56,5 +56,5 @@ keywords:
 | `C.27`, `C.18.1`, `C.19.1` | Govern temporal and set-dynamic claims such as learning transfer, exception slope, and scale-window movement. |
 | `C.28` | Governs causal-use claims. |
 | `A.10`, `B.3`, `A.20`, `A.21` | Govern evidence, assurance, gate, safety, and release claims. |
-| `G.2`, `G.5`, `C.11` | Govern SoTA basis, set-return selection, and local decision claims. Architecture-synthesis claims require a current receiving pattern before RSA or C.31 can carry synthesis or decision use. |
+| `G.2`, `G.5`, `C.11` | Govern SoTA basis, set-return selection, and local decision claims. Architecture-synthesis claims require a current governing pattern before RSA or C.31 can carry synthesis or decision use. |
 

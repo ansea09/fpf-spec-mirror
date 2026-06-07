@@ -6,12 +6,12 @@ section_id: "C.21:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__011_consequences.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:10 — Consequences"
-line_start: 43328
-line_end: 43333
+line_start: 43338
+line_end: 43343
 dependencies:
   - "A.17"
   - "A.18"

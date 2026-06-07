@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__004_distribution-architecture.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 59493
-line_end: 59519
+line_start: 59546
+line_end: 59572
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,6 +38,7 @@ dependencies:
   - "E.21"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "J.4"
 keywords:
 ---
@@ -46,14 +47,14 @@ keywords:
 
 The standing construction is:
 
-1. `E.10` catches an FPF-governed wording use and either closes it locally or selects an exact receiving pattern, controlled precision-reduction pattern, durable-name path, or fail-closed non-use disposition.
+1. `E.10` catches an FPF-governed wording use and either closes it locally or selects an exact governing pattern, controlled precision-reduction pattern, durable-name path, or fail-closed non-use disposition.
 2. `E.10.ARCH` maintains the shared recovery algorithm and the `WordingUseRestorationApplicabilityTable`.
 3. A realization pattern or retained exact pattern such as `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, or `A.19.SPR` unpacks the wording according to the shared algorithm for one named `semanticArea` and its `ontologicalNeighborhood`.
 4. Additional applicability rows, and only when needed additional realization patterns, appear when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery apparatus, and a useful remaining reader move that no existing exact pattern already carries.
 5. `E.8` governs publication-form and placement wording such as `pattern nest`, and requires authoring prose that uses `ontologicalNeighborhood` to expose the governing `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` rather than treating neighborhood as the semantic unit.
 6. `E.19` checks that authored pattern hosts preserve this distribution and do not keep rival first-stage repair doctrine.
 
-This architecture keeps `E.10` compact. It also keeps subject receiving patterns centered on their own primary EntityOfConcern values, decisions, characteristics, structures, mathematical lenses, consequences, and worked uses.
+This architecture keeps `E.10` compact. It also keeps subject patterns centered on their own primary EntityOfConcern values, decisions, characteristics, structures, mathematical lenses, consequences, and worked uses.
 
 #### E.10.ARCH:2.1 - EntityOfConcern and recurring hidden-field distribution
 
@@ -68,4 +69,4 @@ For wording such as `EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `D
 - `A.6.3`, its retained `entityOfConcernRef`-preserving specializations, and `A.6.4` carry preservation or retargeting of the EntityOfConcern across episteme morphisms.
 - Exact evidence, assurance, gate, work, decision, architecture, characteristic, mathematical-lens, or project-side patterns receive their own live claim or admissible-use boundary directly when it is already recoverable.
 
-This selected-family case is the standing example for recurring hidden-field architecture. When a new hidden-field family recurs, it is not solved by adding local warning prose to every subject pattern. It either uses an existing exact receiving pattern, receives one applicability row in this table, or justifies a new realization pattern only when the hidden field set, recovery apparatus, and remaining reader move recur across FPF-governed texts.
+This selected-family case is the standing example for recurring hidden-field architecture. When a new hidden-field family recurs, it is not solved by adding local warning prose to every subject pattern. It either uses an existing exact governing pattern, gets one applicability row in this table, or justifies a new realization pattern only when the hidden field set, recovery apparatus, and remaining reader move recur across FPF-governed texts.

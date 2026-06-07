@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Migration playbook — turning messy language into ULR‑clean prose (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_migration-playbook-turning-messy-language-into-ulr-clean-prose-informative.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:10 — Migration playbook — turning messy language into ULR‑clean prose (informative)"
-line_start: 59276
-line_end: 59312
+line_start: 59324
+line_end: 59363
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "E.23"
   - "E.5"
   - "F.18"
+  - "F.19"
   - "F.5"
   - "U.Types"
 keywords:
@@ -48,9 +49,11 @@ keywords:
 1.2 For each, write a **one‑line intent** in Plain register (what FPF kind or relation is meant).
 1.3 Mark any cross‑Context reuse candidates.
 
-#### E.10:10.3 - Pass 2 — *Map to Core anchors (mechanical)*
+#### E.10:10.3 - Pass 2 — *Recover Core anchors (not substitution)*
 
-2.1 Replace underlined words via **§ 9 L‑rules** table:
+Pass 2 is not a lexical replacement table. For each underlined word or phrase, first record the pre-repair object kind, relation or claim kind, slot or use-position, admissible use, and scope. Then choose one disposition: keep with a guarded-head note, split into several exact kinds, rewrite locally, send to `F.18` for durable naming, send to the exact governing pattern, or leave blocking. A replacement phrase is admissible only after the post-repair kind, relation or claim kind, slot or use-position, admissible use, and scope are recoverable and no umbrella flattening, semantic narrowing, accidental widening, or slot-as-kind substitution has occurred.
+
+2.1 Recover underlined words through **§ 9 L‑rules** table:
  • recipe → **`U.Method` / `U.MethodDescription`**
  • scheduled run → **`U.Work` / `U.WorkPlan`**
  • promise → **`U.PromiseContent`**
@@ -60,6 +63,7 @@ keywords:
 2.2 Apply **LEX.Morph** (§ 8): suffix gates (`…Role/…Work/MethodDescription/Service`), casing, reserved prefixes.
 2.3 Pass **EntityOfConcern and Description-episteme boundary and specification-use** check: the EntityOfConcern named directly; recipes/docs as Description epistemes; Spec only where the specification-granting gate is present; actuals as run records.
 2.4 Attach **Context tags** on first use; set **twin labels** (Tech/Plain) in the local Glossary.
+2.5 Record a local `KindRestorationCheck` for every changed FPF-governed phrase: pre-repair kind/relation/slot-or-use-position/use/scope, post-repair kind/relation/slot-or-use-position/use/scope, and preserved/split/intentionally changed/blocker disposition. A changed word without this check remains an unresolved lexical finding. If a relation, signature, field, mathematical-lens, role, method, work, evidence, assurance, gate, or decision use-position is live, cite the exact governing pattern for that position; `E.10` detects the wording-use problem and does not replace the selected ontology.
 
 #### E.10:10.4 - Pass 3 — *Stitch & publish*
 

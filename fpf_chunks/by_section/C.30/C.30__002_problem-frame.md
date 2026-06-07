@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 51273
-line_end: 51343
+line_start: 51283
+line_end: 51353
 dependencies:
   - "A.10"
   - "A.15"
@@ -126,4 +126,4 @@ What C.30 buys in practice: a practitioner can separate architecture claim, sele
 
 Not this pattern when the live question is only structure as such, an architecture structural view, or a TGA graph relation, path relation, or crossing relation. Use `A.22`, `C.30.ASV`, `E.18`, or `C.30.TGA-FLOW-REL` as appropriate. If another live claim is present, use the exact governing pattern and keep C.30 only to the architecture claim, selected-structure, or conditional architecture-description-use portion.
 
-Thin precision-restoration pointer: if the live issue is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, carrier, source, structure, or exact non-architecture receiving-pattern application, use `C.30.P` and `C.30.STRAT` as triggered before C.30 receives the recovered architecture portion. Do not copy the trigger tables into C.30; C.30 resumes after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the exact non-architecture application is recoverable.
+Thin precision-restoration pointer: if the live issue is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, carrier, source, structure, or exact non-architecture governing-pattern application, use `C.30.P` and `C.30.STRAT` as triggered before C.30 receives the recovered architecture portion. Do not copy the trigger tables into C.30; C.30 resumes after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the exact non-architecture application is recoverable.

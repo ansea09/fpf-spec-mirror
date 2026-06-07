@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__003_problem.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:2 — Problem"
-line_start: 57050
-line_end: 57063
+line_start: 57082
+line_end: 57096
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -22,6 +22,7 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
@@ -38,4 +39,5 @@ Recurring failures:
 5. **Wrong-kind examples.** Worked cases show only passing examples, so the pattern cannot teach below-floor and outside-declared-object-kind boundary outcomes.
 6. **Neighbour theft.** Evidence, assurance, gate, work, decision, naming, measurement, OEE/NQD, or mathematical-lens claims are carried as if the evaluation-characteristic-space pattern governed them.
 7. **Pattern-quality confusion.** The author uses `E.21` to judge whether the FPF pattern version is good, but forgets that the new pattern must still publish the evaluation for one evaluated object kind by value.
+8. **Quality-carrier leakage.** `E.21` values, corpus projection, ToC/J.4 alignment, retrieval, cold-reader evidence, monolith parity, landing evidence, or developer/reviewer/executor correspondence for the publication form is written into the evaluation pattern as if it were the evaluated object's method.
 

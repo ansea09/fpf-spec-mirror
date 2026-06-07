@@ -6,12 +6,12 @@ section_id: "E.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__001_intro.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:intro — Intro"
-line_start: 56399
-line_end: 56400
+line_start: 56414
+line_end: 56415
 dependencies:
   - "E.5.4"
   - "E.6"

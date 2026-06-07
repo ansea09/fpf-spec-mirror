@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ASV.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
-line_start: 52665
-line_end: 53330
+line_start: 52675
+line_end: 53340
 dependencies:
   - "A.10"
   - "A.15"
@@ -92,7 +92,7 @@ What C.30.ASV buys in practice: the practitioner can name the architecture claim
 
 Not this pattern when the live question is only the general architecture claim, structure as such, or a TGA graph relation, path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, or `C.30.TGA-FLOW-REL` as appropriate. If the view is used for another live claim, use the exact governing pattern and keep C.30.ASV only to the view portion.
 
-Thin precision-restoration pointer: if the live issue is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural view, an architecture description, a publication face, a carrier, a source relation, or another exact receiving-pattern exit, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; C.30.ASV resumes only after the architecture structural-view claim or exact non-ASV exit is recoverable.
+Thin precision-restoration pointer: if the live issue is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural view, an architecture description, a publication face, a carrier, a source relation, or another exact governing-pattern exit, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; C.30.ASV resumes only after the architecture structural-view claim or exact non-ASV exit is recoverable.
 ### C.30.ASV:2 - Problem
 
 An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is live, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view is live, only to record that selected-structure move. Publication faces, forms, units, carriers, and renderings may publish the view; they are not the view and do not become the selected structure.
@@ -713,7 +713,7 @@ The TEVB decision is conservative. TEVB remains the small engineering viewpoint 
 
 Builds on: `C.30.P`, `C.30`, `A.22`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `A.6.F`, `A.6.M`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, and named receiving patterns for architecture decision and candidate-set claims. Use `A.6.M` when the module-interface claim kind is live.
+Coordinates with: `A.6.F`, `A.6.M`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, and named governing patterns for architecture decision and candidate-set claims. Use `A.6.M` when the module-interface claim kind is live.
 
 Does not replace: C.30 grounded architecture and selected-structure adequacy, A.22 selected-structure EntityOfConcern, E.TGA graph, path, and crossing discipline, C.29 mathematical-lens use, C.16 characterization, C.25 Q-Bundles, C.28 causal-use relation, A.10 and G.6 evidence, B.3 assurance, A.20 and A.21 gate or release records, A.15 work, C.11 decisions, or E.17 publication.
 

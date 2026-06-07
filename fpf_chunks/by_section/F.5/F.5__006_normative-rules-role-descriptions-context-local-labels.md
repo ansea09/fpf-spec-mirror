@@ -6,12 +6,12 @@ section_id: "F.5:5"
 section_title: "Normative rules — Role Descriptions (context‑local labels)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_normative-rules-role-descriptions-context-local-labels.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:5 — Normative rules — Role Descriptions (context‑local labels)"
-line_start: 69661
-line_end: 69685
+line_start: 69782
+line_end: 69806
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__005_forces.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:3 — Forces"
-line_start: 52486
-line_end: 52495
+line_start: 52496
+line_end: 52505
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,6 +54,6 @@ keywords:
 | Source-language usability vs ontology | Practitioners need compact local words; FPF needs selected `ontologicalNeighborhood`, exact relation or claim-use, source-use disposition, and use boundary. |
 | Pattern placement vs ontological neighborhood | The placement is in the `C.30` pattern nest because the recurring first confusion is architecture or structure wording, but its exits may be A.6, C.16, C.2, C.29, evidence, assurance, gate, work, decision, or ordinary non-use. |
 | Thin repair vs shadow registry | Subject patterns need one pointer, not copied trigger lists. |
-| Direct receiving pattern vs detour | If the relation, function-like use, control use, scale use, publication use, evidence use, or decision use is already exact, the exact receiving pattern starts directly. |
-| Didactic payoff vs sterile precision | The repair is complete only when it leaves one useful move: exact receiving-pattern application, local rewrite, source return, ordinary source label, or blocked use. |
+| Direct governing pattern vs detour | If the relation, function-like use, control use, scale use, publication use, evidence use, or decision use is already exact, the exact governing pattern starts directly. |
+| Didactic payoff vs sterile precision | The repair is complete only when it leaves one useful move: exact governing-pattern application, local rewrite, source return, ordinary source label, or blocked use. |
 

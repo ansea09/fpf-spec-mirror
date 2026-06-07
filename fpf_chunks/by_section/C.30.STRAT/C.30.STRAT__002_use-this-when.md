@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__002_use-this-when.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:0 — Use this when"
-line_start: 52449
-line_end: 52465
+line_start: 52459
+line_end: 52475
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 
 ### C.30.STRAT:0 - Use this when
 
-Use this pattern when stratification or architecture-operation wording is doing FPF-governed work but the selected `ontologicalNeighborhood` and exact receiving pattern for the source-label use are not yet recoverable by value.
+Use this pattern when stratification or architecture-operation wording is doing FPF-governed work but the selected `ontologicalNeighborhood` and exact governing pattern for the source-label use are not yet recoverable by value.
 
 Typical source labels:
 
@@ -58,9 +58,9 @@ Typical source labels:
 
 **What goes wrong if missed.** A source label starts acting as ontology. `Layer` may be taken as a holon level, control layer, publication layer, scale window, or module boundary without saying which neighborhood is live. `Stack` may become architecture by label. `Block` may become a module. `Expert` may become a role. `Cache` may become a memory relation or state. `Router` may become a decision policy. `Gate` may become a gate decision. None of those interpretations is admissible by word shape alone.
 
-**What this buys.** The practitioner can keep useful source language while recovering the selected `ontologicalNeighborhood` and sending the case to the exact receiving pattern, instead of replacing the source label with another umbrella word.
+**What this buys.** The practitioner can keep useful source language while recovering the selected `ontologicalNeighborhood` and sending the case to the exact governing pattern, instead of replacing the source label with another umbrella word.
 
-**First useful move.** Treat the word as a `sourceLabel` and complete the recovery row: source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, relation to that `EntityOfConcern`, recovered kind, relation, or claim-use, exact receiving pattern, admissible use, non-admissible use, and remaining reader move.
+**First useful move.** Treat the word as a `sourceLabel` and complete the recovery row: source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, relation to that `EntityOfConcern`, recovered kind, relation, or claim-use, exact governing pattern, admissible use, non-admissible use, and remaining reader move.
 
-**Not this pattern when.** If the exact receiving pattern is already recoverable by value, use it directly. Do not open `C.30.STRAT` merely because a familiar word appears. If the wording is only ordinary source prose with no FPF-governed use, keep ordinary prose or quote-only wording and stop.
+**Not this pattern when.** If the exact governing pattern is already recoverable by value, use it directly. Do not open `C.30.STRAT` merely because a familiar word appears. If the wording is only ordinary source prose with no FPF-governed use, keep ordinary prose or quote-only wording and stop.
 

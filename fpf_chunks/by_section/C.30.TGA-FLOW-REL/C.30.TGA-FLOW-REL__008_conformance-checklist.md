@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__008_conformance-checklist.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:7 — Conformance Checklist"
-line_start: 54028
-line_end: 54042
+line_start: 54038
+line_end: 54052
 dependencies:
   - "A.10"
   - "A.15"

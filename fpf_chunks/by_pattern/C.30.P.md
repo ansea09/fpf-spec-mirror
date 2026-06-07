@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.P.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
-line_start: 52194
-line_end: 52432
+line_start: 52204
+line_end: 52442
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ This pattern does not mint `U.Architecture`, does not fuse architecture and stru
 
 **Coordinates with.** `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, exact `C.30.*` structure and view patterns, `A.10`, `B.3`, `A.20`, `A.21`, `C.11`, `C.28`, `A.15`, exact work, release, and publication patterns, and `J.4`.
 
-**E.10.ARCH receiver relation.** When `E.10` encounters architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, source label, or neighboring claim is hidden, `E.10.ARCH` sends the case to `C.30.P` only until the live use and exact receiving pattern are recovered. `C.30.P` then exits; it does not become a registry of architecture topics or a substitute for `A.22`, `C.30`, `C.30.AD`, or exact `C.30.*` patterns.
+**E.10.ARCH governing relation.** When `E.10` encounters architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, source label, or neighboring claim is hidden, `E.10.ARCH` selects `C.30.P` only until the live use and exact governing pattern are recovered. `C.30.P` then exits; it does not become a registry of architecture topics or a substitute for `A.22`, `C.30`, `C.30.AD`, or exact `C.30.*` patterns.
 
 ### C.30.P:0 - Use this when
 
@@ -156,7 +156,7 @@ ArchitectureOrStructureRepairNote:
   disposition:
 ```
 
-Use the note only when the repair must remain inspectable. A direct local rewrite is enough when one sentence clearly names the live selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or exact receiving pattern.
+Use the note only when the repair must remain inspectable. A direct local rewrite is enough when one sentence clearly names the live selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or exact governing pattern.
 
 #### C.30.P:4.1 - Recovery sequence
 
@@ -175,9 +175,9 @@ Use the note only when the repair must remain inspectable. A direct local rewrit
    - exact C.30 subcase -> that subpattern.
 5. **Exit non-architecture claims.** If the sentence uses architecture wording to carry relation, function or functionality, mathematical lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, or method claim, send that claim to the exact pattern and keep this pattern only for the architecture or structure wording repair.
 6. **State admissible and non-admissible use.** Say what the reader may do with the repaired wording and what non-admissible adjacent interpretation is blocked.
-7. **Return to the subject pattern.** Stop after the exact receiving pattern or ordinary-prose demotion is named.
+7. **Return to the subject pattern.** Stop after the exact governing pattern or ordinary-prose demotion is named.
 
-### C.30.P:5 - Direct receiving-pattern exits
+### C.30.P:5 - Direct governing-pattern exits
 
 | Recovered use, claim kind, or admissible-use boundary | Exit |
 | --- | --- |
@@ -191,9 +191,9 @@ Use the note only when the repair must remain inspectable. A direct local rewrit
 | source, publication, carrier, view, face, `PublicationUnit`, dashboard, ADR, documentation, source-return | `C.2.P`, `E.17`, `E.17.0`, or exact publication pattern or source pattern |
 | relation construction, basedness, source, base-dependence, evidence, and relation-claim discrimination, endpoint compression, comparison | `A.6.P` or retained exact A.6 specialization |
 | function, functional, functionality, effect, module, interface, or signature claim | `A.6.F`, `A.6.M`, A.6 signature and slot pattern, or retained exact module, interface, or signature specialization |
-| stratification or source labels such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` | `C.30.STRAT`; after recovery, return to `A.22`, `C.30`, `C.30.ASV`, `C.30.LCA`, `C.30.TGA-FLOW-REL`, `A.6.M`, `A.6.F`, `E.18`, `C.16.P`, `C.29`, or the exact receiving pattern |
+| stratification or source labels such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` | `C.30.STRAT`; after recovery, return to `A.22`, `C.30`, `C.30.ASV`, `C.30.LCA`, `C.30.TGA-FLOW-REL`, `A.6.M`, `A.6.F`, `E.18`, `C.16.P`, `C.29`, or the exact governing pattern |
 | mathematical lens, mapping, model, similarity, preserved-structure and lost-structure as mathematical-lens use | `C.29` |
-| characteristic, scale, metric, score, indicator, threshold, architecture score, quality coordinate | `C.16.P`, then `C.16`, `A.19`, `C.25`, `E.21`, or exact receiving pattern |
+| characteristic, scale, metric, score, indicator, threshold, architecture score, quality coordinate | `C.16.P`, then `C.16`, `A.19`, `C.25`, `E.21`, or exact governing pattern |
 | quality-term or evaluative characterization | `C.16.Q`, `C.25`, `E.21`, or exact characterization pattern |
 | evidence, proof, validation, witness | `A.10` or exact evidence pattern |
 | assurance, engineering justification, safety case | `B.3` or exact assurance pattern |
@@ -209,7 +209,7 @@ Reopen or narrow `C.30.P` when current pattern-language ecology changes the firs
 - a new exact `C.30.*`, structural-view, TGA-flow, LCA or control, module-interface, mathematical-lens, characteristic, evidence, assurance, gate, work, decision, causal-use, release, or publication pattern can receive one row directly;
 - current architecture-description, view, model, decision-record, or architecture-documentation practice changes one adopted distinction in `C.30.P:7`;
 - `J.4` entry projection changes the first practical entry for hidden architecture or structure wording;
-- a receiving pattern starts copying first-stage architecture or structure trigger lists that belong here;
+- a governing pattern starts copying first-stage architecture or structure trigger lists that belong here;
 - `C.30.P` begins to act as a registry of architecture topics rather than a wording-use repair pattern for hidden selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or exact C.30 subcase.
 
 The refresh action is to remove, narrow, or redirect the first-stage row. It is not to preserve old exits as history.
@@ -243,11 +243,11 @@ This row is live in this pattern because it blocks diagram-as-architecture, grap
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C30P-1` | The repair names the trigger span, encountered FPF kind or reference, selected live use, exact receiving pattern, admissible use, non-admissible use, and remaining reader move. |
+| `CC-C30P-1` | The repair names the trigger span, encountered FPF kind or reference, selected live use, exact governing pattern, admissible use, non-admissible use, and remaining reader move. |
 | `CC-C30P-2` | A diagram, model, graph, dashboard, ADR, source, publication, view, face, `PublicationUnit`, file, carrier, or rendering is not treated as architecture or structure by appearance. |
 | `CC-C30P-3` | Direct `A.22`, `C.30`, `C.30.ASV`, or exact `C.30.*` use applies the exact pattern directly when the live selected structure, architecture relation, architecture-description use, structural-view use, or exact C.30 subcase is already recoverable. |
 | `CC-C30P-4` | Source-use, currentness, and publication-to-carrier relation recovery uses `C.2.P` before architecture or structure claim use when that relation set is live. |
-| `CC-C30P-5` | Function-like, relation-like, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, and method claims exit to exact receiving patterns. |
+| `CC-C30P-5` | Function-like, relation-like, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, and method claims exit to exact governing patterns. |
 | `CC-C30P-6` | The repair does not mint `U.Architecture`, `ArchitectureStructure`, a generic architecture head, or mandatory architecture-repair record. |
 | `CC-C30P-7` | The subject architecture or structure pattern keeps its own invariant central and carries at most a thin pointer back to this pattern. |
 | `CC-C30P-8` | The repaired wording preserves one useful admissible reader move; type-correct but inert architecture wording is not recovered by value. |

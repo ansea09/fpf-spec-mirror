@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.AD.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
-line_start: 51846
-line_end: 52193
+line_start: 51856
+line_end: 52203
 dependencies:
   - "A.10"
   - "A.15"
@@ -252,7 +252,7 @@ Common architecture-description views:
 | Evidence or assurance reuse view | `A.10`, `B.3`, or exact assurance or evidence pattern for the non-architecture claim. |
 | Architecture residual view | `C.30.ILC` when the view is about a cross-scope or interlevel architecture residual. If the view uses conflict wording or frustration wording, C.30.AD records only membership, correspondence, and source return; C.30.ILC governs the residual. |
 | Multilevel-learning or frustration mathematical-lens view | `C.29` when the view contains a recoverable level mapping or scale mapping and preserved structure and lost structure; `C.30.AD` records only the architecture-description use of that lens result. |
-| Residual-reducing candidate or optimization view | `G.5` or an admitted architecture synthesis receiving pattern for candidate sets and residual-reducing moves; `C.11` for final local choice. C.30.AD records only description membership, correspondence, source return, freshness, publication use, or specification use. |
+| Residual-reducing candidate or optimization view | `G.5` or an admitted architecture synthesis governing pattern for candidate sets and residual-reducing moves; `C.11` for final local choice. C.30.AD records only description membership, correspondence, source return, freshness, publication use, or specification use. |
 
 #### C.30.AD:4.3 - Correspondence and source return
 
@@ -332,14 +332,14 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Control structure view | `C.30.LCA` |
 | Cross-scope or interlevel architecture residual, conflict, or frustration in the described holon | `C.30.ILC` |
 | Multilevel-learning or frustration mathematical-lens result with recoverable level mapping or scale mapping and preserved structure and lost structure | `C.29` with the admitted C.29-local lens output |
-| Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `G.5`, admitted architecture synthesis receiving pattern, `C.11` for final local choice, and exact measurement or comparison patterns when live |
+| Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `G.5`, admitted architecture synthesis governing pattern, `C.11` for final local choice, and exact measurement or comparison patterns when live |
 
 | Generic description, view, viewpoint, publication, carrier, MVPK face | `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, or `C.2.P` |
 | Function or functionality wording | `A.6.F` |
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, exact signature or interface pattern, `C.31`, or `C.31.RSA` |
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |
 | Characteristic, scale, coordinate, score, or quality claim | `C.16.P`, `C.16`, `A.19`, `C.25`, or exact quality pattern |
-| Evidence, assurance, gate, work, decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, release or admissibility pattern, or exact receiving pattern |
+| Evidence, assurance, gate, work, decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, release or admissibility pattern, or exact governing pattern |
 
 ### C.30.AD:5 - Worked cases
 
@@ -353,7 +353,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records the architecture-description chain and correspondence among views. `C.30.LCA` governs the control view; `A.10`, `G.6`, or `B.3` governs evidence or assurance; `A.15` is used only if role-enactor semantics are live. |
 | A product-line platform document reuses module-interface, variability, and deployment views across products. | `C.30.AD` records which architecture claim and structural views the document uses, plus source-return conditions for product variation. `A.6.M` repairs module-interface relations; `C.31.RSA` accounts reusable structure or bespoke residue only after structure refs and accounting basis are declared. |
 | A multi-view architecture description says local optimization at one declared holon level creates frustration in another. | `C.30.AD` records the description membership, correspondence, and source-return boundary. `C.30.ILC` governs the residual; `C.29` is used only if the description contains a recoverable level mapping or scale mapping with preserved structure and lost structure. |
-| An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the description or publication use of that comparison. Candidate sets and selected-set publication use `G.5` or an admitted architecture synthesis receiving pattern; final local choice uses `C.11`; measurement or comparison claims use their exact patterns. |
+| An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the description or publication use of that comparison. Candidate sets and selected-set publication use `G.5` or an admitted architecture synthesis governing pattern; final local choice uses `C.11`; measurement or comparison claims use their exact patterns. |
 | A review note, dashboard, or generated report describes gaps in an architecture description rather than the architecture itself. | The architecture description can be the current `EntityOfConcern`; the second description is handled as a Description, view, source relation, publication face, review record, or evaluation record over that EoC. `C.30.AD` keeps the chain to the underlying `ArchitectureOf@Context` visible without treating the second description as the architecture, the residual, the decision, or the proof. |
 
 

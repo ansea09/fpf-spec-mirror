@@ -6,12 +6,12 @@ section_id: "C.31.RSA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__013_relations.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:12 — Relations"
-line_start: 54757
-line_end: 54771
+line_start: 54767
+line_end: 54781
 dependencies:
   - "A.10"
   - "A.19"
@@ -51,5 +51,5 @@ keywords:
 | `A.10`, `B.3`, `G.6` | Govern evidence, assurance, and safety-case reliance. |
 | `C.29` | Governs compression, epiplexity, RG, or other mathematical-lens claims when accounting depends on a lens. |
 | `C.27`, `C.28`, `C.31.ASAP`, `C.18.1`, `C.19.1` | Govern temporal, causal, architecture scale-preference, scale-law, and BLP claims derived from residue growth or reuse movement. |
-| `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate synthesis requires a current receiving pattern before RSA can carry candidate-synthesis or decision use. |
+| `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate synthesis requires a current governing pattern before RSA can carry candidate-synthesis or decision use. |
 

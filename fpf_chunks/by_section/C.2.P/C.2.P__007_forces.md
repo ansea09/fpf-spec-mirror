@@ -6,12 +6,12 @@ section_id: "C.2.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__007_forces.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:3 — Forces"
-line_start: 34374
-line_end: 34383
+line_start: 34384
+line_end: 34393
 dependencies:
   - "A.10"
   - "A.15"

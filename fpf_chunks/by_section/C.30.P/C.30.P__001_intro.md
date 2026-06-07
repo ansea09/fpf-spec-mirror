@@ -6,12 +6,12 @@ section_id: "C.30.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__001_intro.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:intro — Intro"
-line_start: 52194
-line_end: 52212
+line_start: 52204
+line_end: 52222
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,5 +59,5 @@ This pattern does not mint `U.Architecture`, does not fuse architecture and stru
 
 **Coordinates with.** `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, exact `C.30.*` structure and view patterns, `A.10`, `B.3`, `A.20`, `A.21`, `C.11`, `C.28`, `A.15`, exact work, release, and publication patterns, and `J.4`.
 
-**E.10.ARCH receiver relation.** When `E.10` encounters architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, source label, or neighboring claim is hidden, `E.10.ARCH` sends the case to `C.30.P` only until the live use and exact receiving pattern are recovered. `C.30.P` then exits; it does not become a registry of architecture topics or a substitute for `A.22`, `C.30`, `C.30.AD`, or exact `C.30.*` patterns.
+**E.10.ARCH governing relation.** When `E.10` encounters architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, source label, or neighboring claim is hidden, `E.10.ARCH` selects `C.30.P` only until the live use and exact governing pattern are recovered. `C.30.P` then exits; it does not become a registry of architecture topics or a substitute for `A.22`, `C.30`, `C.30.AD`, or exact `C.30.*` patterns.
 

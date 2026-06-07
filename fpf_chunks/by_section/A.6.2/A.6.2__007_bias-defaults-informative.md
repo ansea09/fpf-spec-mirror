@@ -6,12 +6,12 @@ section_id: "A.6.2:6"
 section_title: "Bias & Defaults (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__007_bias-defaults-informative.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:6 — Bias & Defaults (informative)"
-line_start: 9564
-line_end: 9573
+line_start: 9566
+line_end: 9575
 dependencies:
   - "A.1"
   - "A.6.0"

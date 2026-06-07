@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.ASAP.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
-line_start: 54774
-line_end: 55042
+line_start: 54784
+line_end: 55052
 dependencies:
   - "A.10"
   - "A.17"
@@ -78,7 +78,7 @@ What goes wrong if C.31.ASAP is missed: "modular", "platform", "product line", "
 
 What C.31.ASAP buys in practice: the practitioner can say what is being scaled, where the scale claim holds, what structure is expected to remain stable or improve, what exceptions are allowed, what evidence or no-probe reason exists, and where scale, lens, evidence, assurance, selection, or decision claims leave this pattern.
 
-Not this pattern when the live question is only module-interface relation repair, modularity-characteristic selection, reusable-structure accounting, mathematical-lens use, scale-law adequacy, method preference under general BLP, architecture synthesis, selected-set return, or final local choice. Use `A.6.M`, `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, the admitted architecture synthesis receiving pattern, or `C.11` as appropriate. C.31.ASAP receives architecture scale-preference claims; it does not select the architecture, prove the scale law, or certify the project.
+Not this pattern when the live question is only module-interface relation repair, modularity-characteristic selection, reusable-structure accounting, mathematical-lens use, scale-law adequacy, method preference under general BLP, architecture synthesis, selected-set return, or final local choice. Use `A.6.M`, `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, the admitted architecture synthesis governing pattern, or `C.11` as appropriate. C.31.ASAP receives architecture scale-preference claims; it does not select the architecture, prove the scale law, or certify the project.
 
 ### C.31.ASAP:2 - Problem
 
@@ -146,7 +146,7 @@ The triage is complete enough when it states the next admissible architecture mo
 
 When architecture alternatives satisfy the same safety boundary, legal boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
 
-This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision becomes live, use `G.5`, `G.9`, `C.11`, `A.21`, or the exact receiving pattern. C.31.ASAP contributes the scale-preference claim and its boundary.
+This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision becomes live, use `G.5`, `G.9`, `C.11`, `A.21`, or the exact governing pattern. C.31.ASAP contributes the scale-preference claim and its boundary.
 
 #### C.31.ASAP:4.4 - Scale variables
 
@@ -290,7 +290,7 @@ For architecture use, the C.29 output should name `MLU.Description@RGArchitectur
 
 ### C.31.ASAP:10 - Rationale
 
-C.31.ASAP is added because `C.31` and `C.31.RSA` can expose scale-sensitive characteristics and reusable-structure residue, but they should not themselves decide which architecture alternative is preferable under scale. The scale-preference claim needs a receiving pattern that is narrower than general BLP and broader than one measurement card.
+C.31.ASAP is added because `C.31` and `C.31.RSA` can expose scale-sensitive characteristics and reusable-structure residue, but they should not themselves decide which architecture alternative is preferable under scale. The scale-preference claim needs a governing pattern that is narrower than general BLP and broader than one measurement card.
 
 The pattern adapts BLP-style scale-amenability to architecture: prefer the alternative that preserves or improves reusable structure over a declared scale window when safety, legality, and assurance boundaries are comparable. It also blocks the common shortcut that treats modularity, reuse, platform practice, or mathematical coarse-graining as scale-preference evidence by itself.
 
@@ -308,7 +308,7 @@ The pattern adapts BLP-style scale-amenability to architecture: prefer the alter
 
 - **Builds on:** `C.31`, `C.31.RSA`, `C.16`, `A.17`, `A.18`, `A.19`, `C.18.1`, `C.19.1`, and `C.29`.
 - **Coordinates with:** `A.6.M` for module-interface relation repair; `C.30`, `C.30.ASV`, `C.30.LCA`, and `C.30.ILC` for architecture and selected-structure questions; `A.10`, `B.3`, and `G.6` for evidence and assurance reliance; `G.5`, `G.9`, and `C.11` for selected-set, parity, and choice claims.
-- **Does not replace:** `C.31` modularity characteristics, `C.31.RSA` reusable-structure accounting, `C.29` mathematical-lens use, `C.18.1` scale-law adequacy, `C.19.1` general method BLP, `G.5` selected-set return, the admitted architecture synthesis receiving pattern when present, `C.11` decision records, or project evidence, assurance, gate, work, and release patterns.
+- **Does not replace:** `C.31` modularity characteristics, `C.31.RSA` reusable-structure accounting, `C.29` mathematical-lens use, `C.18.1` scale-law adequacy, `C.19.1` general method BLP, `G.5` selected-set return, the admitted architecture synthesis governing pattern when present, `C.11` decision records, or project evidence, assurance, gate, work, and release patterns.
 - **Precision-restoration relation:** `E.10`, `E.10.ARCH`, and `C.30.STRAT` may send source wording here only after the recovered live claim is architecture scale preference over a declared alternative set, scale variable, and scale window.
 
 ### C.31.ASAP:End

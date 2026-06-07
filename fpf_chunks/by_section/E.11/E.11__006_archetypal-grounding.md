@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal grounding"
-line_start: 60507
-line_end: 60592
+line_start: 60563
+line_end: 60648
 dependencies:
   - "A.6.RSIG"
   - "E.19"

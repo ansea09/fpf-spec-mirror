@@ -6,12 +6,12 @@ section_id: "A.2.2:15"
 section_title: "Migration notes (quick wins for existing texts)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__016_migration-notes-quick-wins-for-existing-texts.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:15 — Migration notes (quick wins for existing texts)"
-line_start: 2504
-line_end: 2511
+line_start: 2506
+line_end: 2513
 dependencies:
   - "A.1"
   - "A.1.1"

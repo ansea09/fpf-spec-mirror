@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.4.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
-line_start: 20578
-line_end: 20866
+line_start: 20580
+line_end: 20868
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 **Primary EntityOfConcern in plain terms.** One source-restoration relation for one live work claim, reliance claim, work-relevant P2W claim, or P2W chain position: encountered item, live claim or effect, governing FPF pattern, exact project-side FPF kind and reference needed, admissible next project move now, and blocked overread. It is not a new `authoritySourceRef`, evidence source, gate record, engineering-justification record, work occurrence, or generic publication kind.
 
-**First admissible project move in plain terms.** Recover or name the receiving FPF pattern, exact project-side FPF kind and reference, and live relation before allowing the encountered item to guide work or reliance. When that relation is absent or insufficient, narrow the move, reopen or refresh the source, run only a bounded reversible probe under a work plan, or block the unsupported claim or effect.
+**First admissible project move in plain terms.** Recover or name the governing FPF pattern, exact project-side FPF kind and reference, and live relation before allowing the encountered item to guide work or reliance. When that relation is absent or insufficient, narrow the move, reopen or refresh the source, run only a bounded reversible probe under a work plan, or block the unsupported claim or effect.
 
 **Recognition block vs assurance block.** Read **At a glance**, **Use this when**, **First output**, **What goes wrong if missed**, **Primary EntityOfConcern**, **First admissible project move**, **Working action path**, **Not this pattern when**, and **What this buys** as the primary recognition block. Read the field tables, lookup table, lint cues, stress cases, conformance checklist, SoTA alignment, and relations below as assurance blocks and companion material that tighten the same source-restoration claim; they do not widen this pattern into an evidence, gate, engineering-justification, speech-act, commitment, boundary, or work-occurrence pattern.
 
@@ -322,7 +322,7 @@ The nearest recovery references are the worked dashboard and approval examples, 
 
 * **Cluster relation:** `A.15.4` is a cluster member under `A.15` for work-relevant source restoration; it does not replace the A.15 role, method, plan, and work kernel.
 * **Uses:** `E.17:5.1b` and `E.17:5.1c` source-relation and admissible-use vocabulary, `E.17.EFP` for generated-explanation faithfulness and source-finding, `A.6`, `A.6.B`, and `A.6.C` for boundary, policy, API, and schema wording, `A.10` for evidence, currentness, provenance, and credential status, `B.3` for engineering justification claims, `A.20` for constraint validity, `A.21` for gate decisions, `A.2.8` for commitments, `A.2.9` for speech acts, and `A.15.1` for dated `U.Work` occurrences.
-* **E.10.ARCH receiver relation:** When `E.10` encounters source, support, authority, permission, approval, status, green-tile, generated-explanation, copied-review, credential, provenance, or dashboard wording that is about to guide work or reliance, `E.10.ARCH` routes it to `A.15.4` only after excluding or assigning direct evidence (`A.10`), assurance (`B.3`), gate (`A.21`), constraint (`A.20`), boundary or admissibility wording (`A.6` and `A.6.B`), speech act (`A.2.9`), commitment (`A.2.8`), work occurrence (`A.15.1`), and publication-face or explanation questions (`E.17` and `E.17.EFP`). `A.15.4` returns the exact work-relevant source-restoration relation; it does not replace those receiving patterns.
+* **E.10.ARCH governing relation:** When `E.10` encounters source, support, authority, permission, approval, status, green-tile, generated-explanation, copied-review, credential, provenance, or dashboard wording that is about to guide work or reliance, `E.10.ARCH` selects `A.15.4` only after excluding or assigning direct evidence (`A.10`), assurance (`B.3`), gate (`A.21`), constraint (`A.20`), boundary or admissibility wording (`A.6` and `A.6.B`), speech act (`A.2.9`), commitment (`A.2.8`), work occurrence (`A.15.1`), and publication-face or explanation questions (`E.17` and `E.17.EFP`). `A.15.4` returns the exact work-relevant source-restoration relation; it does not replace those governing patterns.
 * **Returns to:** `A.15` when the remaining live question is role, method, plan, and work alignment rather than source restoration.
 
 ### A.15.4:7a - C.29 mathematical-lens use relation

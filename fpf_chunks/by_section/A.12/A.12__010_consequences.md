@@ -6,12 +6,12 @@ section_id: "A.12:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__010_consequences.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:7 — Consequences"
-line_start: 18802
-line_end: 18810
+line_start: 18804
+line_end: 18812
 dependencies:
   - "A.3"
   - "B.2.5"

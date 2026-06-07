@@ -6,12 +6,12 @@ section_id: "C.29:11"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__013_conformance-checklist.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:11 — Conformance checklist"
-line_start: 50998
-line_end: 51034
+line_start: 51008
+line_end: 51044
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -89,7 +89,7 @@ keywords:
 | `CC-C29-10a Validation regime` | If the lens is used for prediction, publication, assurance input, benchmark, model selection, or scientific claim or model claim, add validation regime, evaluation slice, uncertainty or approximation note, failure case, domain of applicability, and output-change condition when needed. | Keeps prediction-bearing and model-bearing uses SoTA-aligned. |
 | `CC-C29-10b Source-use role` | If a source changes C.29 admissible use, name its `SourceUseRole`; do not let source prestige silently become evidence, causal-use verdict, bridge semantics, assurance, release, selector, benchmark, or accepted law. | Separates the source-use role from source-use disposition. |
 | `CC-C29-11 LensUseAdmissibilityValue` | Label `LensUseAdmissibilityValue` as analogy-only prompt, diagnosticOnly, formal derivation, simulation, empirical fit, accepted domain theory, SoTA-echo candidate, or mechanized proof, with matching use-rights. | Prevents evidence laundering. |
-| `CC-C29-12 No ontology smuggling` | Do not import source-domain ontology without separate proof or evidence and receiving pattern. | Protects FPF from metaphysical collapse. |
+| `CC-C29-12 No ontology smuggling` | Do not import source-domain ontology without separate proof or evidence and governing pattern. | Protects FPF from metaphysical collapse. |
 | `CC-C29-13 Stop condition` | State the most tempting nearby claim the lens does not license. | Makes misuse locally visible. |
 | `CC-C29-14 Bridge discipline` | Cross-context mathematical transfer cites `F.9`; Bridge and C.29 fields agree without duplicate writing. | Keeps semantics bounded. |
 | `CC-C29-15 Causal-use discipline` | Causal-use claims apply `C.28`; C.29 cannot make causal use admissible by itself. | Blocks causal laundering. |

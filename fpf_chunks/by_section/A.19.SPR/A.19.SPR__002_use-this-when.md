@@ -6,12 +6,12 @@ section_id: "A.19.SPR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__002_use-this-when.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:0 — Use this when"
-line_start: 22950
-line_end: 22973
+line_start: 22960
+line_end: 22983
 dependencies:
   - "A.10"
   - "A.16"
@@ -45,7 +45,7 @@ keywords:
 
 ### A.19.SPR:0 - Use this when
 
-Use `A.19.SPR` when state-family wording has FPF-governed use but does not yet say what is in which state, according to which state frame or receiving pattern, with which value or classification, for which admissible use.
+Use `A.19.SPR` when state-family wording has FPF-governed use but does not yet say what is in which state, according to which state frame or governing pattern, with which value or classification, for which admissible use.
 
 Typical triggers:
 
@@ -57,11 +57,11 @@ Typical triggers:
 
 **What this buys.** The reader can recover the exact state-like claim, the governing pattern, the allowed use, and the blocked adjacent overread before acting on the word.
 
-**First useful move.** Ask: what bearer has which state-like value under which state frame or receiving pattern? If that cannot be answered, demote the wording to ordinary prose, quote-only source wording, a reduced-use cue, or a blocker.
+**First useful move.** Ask: what bearer has which state-like value under which state frame or governing pattern? If that cannot be answered, demote the wording to ordinary prose, quote-only source wording, a reduced-use cue, or a blocker.
 
 **Not this pattern when.**
 
-- If the exact receiving pattern and state-like field are already recoverable by value, use that pattern directly.
+- If the exact governing pattern and state-like field are already recoverable by value, use that pattern directly.
 - If the wording is ordinary prose and carries no FPF-governed use, keep it ordinary.
 - If the live case concerns one `Characteristic`, `Scale`, coordinate, score, or metric, use `C.16.P` before state-family repair.
 - If the live case concerns source-expression, publication, carrier, or source-use wording, use `C.2.P` first; return to `A.19.SPR` only if a state-like claim remains.

@@ -6,12 +6,12 @@ section_id: "E.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__017_relations.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:12 — Relations"
-line_start: 57013
-line_end: 57021
+line_start: 57045
+line_end: 57053
 dependencies:
   - "E.10"
   - "E.19"
@@ -26,6 +26,8 @@ dependencies:
   - "E.9"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
+  - "J.4"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -49,7 +51,7 @@ keywords:
 ---
 
 ### E.8:12 - Relations
-* **Coordinates with:** `E.9.DA` when an authored pattern body is drafted from a concrete `DRR` and the live blocker is whether the `DRR` selected, distributed, carried source use, carried accepted decisions, or supplied a first drafting move sufficiently for that authoring use. `E.8` still governs the pattern body; `E.9.DA` is not a mandatory authoring section, review card, or substitute for writing the Solution.
+* **Coordinates with:** `E.9.DA` when an authored pattern body is drafted from a concrete `DRR` and the blocker is whether the `DRR` selected, distributed, carried source use, carried accepted decisions, or supplied a first drafting move sufficiently for that authoring use. `E.8` still governs the pattern body; `E.9.DA` is not a mandatory authoring section, review card, or substitute for writing the Solution.
 
 * **Builds on:** E.6, E.7
 * **Constrained by:** Guard‑Rails E.5.1–E.5.4 (lexical firewall, notation independence, etc.)

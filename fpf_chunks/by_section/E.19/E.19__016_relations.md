@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 66846
-line_end: 66872
+line_start: 66910
+line_end: 66936
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -22,6 +22,7 @@ dependencies:
   - "E.8"
   - "E.9"
   - "F.18"
+  - "F.19"
 keywords:
   - "(see H-8)"
   - "MUST NOT modify modeled-world entities (e.g"
@@ -40,7 +41,7 @@ keywords:
 
   * `E.8` (authoring conventions; canonical section order; SoTA‑Echoing authoring requirements)
   * `E.10` (lexical discipline, trigger detection, and applicability)
-  * `E.10.ARCH` (distributed precision-restoration architecture and realization/receiving-pattern split)
+  * `E.10.ARCH` (distributed precision-restoration architecture and realization/governing-pattern split)
   * `E.9` (design rationale records for changes that affect semantics)
   * `E.9.DA` (scoped DRR decision-adequacy evaluations before pattern drafting or host amendment; an `E.19` finding may expose that an upstream `DRR` did not decide enough, but `E.19` keeps the pattern-review finding while `E.9.DA` evaluates only the upstream `DRR` decision-adequacy claim. An `E.19` pass, return, or absence is not `E.9.DA` coordinate evidence.)
   * `E.22` (improvement-oriented quality-evaluation question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before the `E.19` review result is formed.)
@@ -56,7 +57,7 @@ keywords:
   * `F.15` (conceptual harness and regression framing)
   * `E.17` (MVPK / `U.View` projection discipline)
   * `E.11` (pattern-entry discoverability discipline, for `PCP-ENTRY` only as a review hook, not as a semantic prerequisite)
-  * `E.21` (scoped pattern-quality characteristic space, coordinate evidence discipline, `PatternQualityStatus`, and stop condition; `E.19` findings may justify or change an `E.21` coordinate only when they identify content defects or strengths in the reviewed pattern version)
+  * `E.21` (scoped pattern-quality characteristic space, coordinate evidence discipline, `PatternQualityStatus`, and stop condition; `E.19` findings may supply evidence for a later `E.21` value only when they identify content defects or strengths in the reviewed pattern version, but final coordinate values and `PatternQualityStatus` are assigned by `E.21`, not by `E.19`)
   * `A.6.7` (`MechSuiteDescription` suite-level semantics)
   * `A.15.3` (`SlotFillingsPlanItem` P2W planned-baseline seam)
   * `G.11` (refresh/decay orchestration principles, where applicable)

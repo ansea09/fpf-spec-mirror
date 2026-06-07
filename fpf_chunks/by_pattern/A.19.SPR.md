@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SPR.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
-line_start: 22931
-line_end: 23138
+line_start: 22941
+line_end: 23148
 dependencies:
   - "A.10"
   - "A.16"
@@ -51,7 +51,7 @@ keywords:
 **Plain-name.** State-wording repair.
 
 **Intent.**
-Recover `state`, `status`, `posture`, `readiness`, and close state-family wording whose bearer, state frame, value set, admissible use, or receiving FPF pattern is hidden.
+Recover `state`, `status`, `posture`, `readiness`, and close state-family wording whose bearer, state frame, value set, admissible use, or governing FPF pattern is hidden.
 
 This pattern does not define a general `Posture` kind. It repairs wording that acts like a state-like claim before a reader treats the word as evidence, assurance, gate passage, release permission, source authority, maturity, or work completion.
 
@@ -59,11 +59,11 @@ This pattern does not define a general `Posture` kind. It repairs wording that a
 
 **Coordinates with.** `A.17`, `A.18`, `C.16`, `C.16.P`, `C.16.Q`, `A.6.P`, `C.2.P`, `C.30.P`, `E.8`, `E.19`, and `J.4`.
 
-**E.10.ARCH receiver relation.** When `E.10` encounters state-family wording such as `state`, `status`, `posture`, `readiness`, `stance`, `currentness`, `validity`, `stable`, `ready`, `accepted`, `blocked`, `candidate`, or close compounds whose bearer, state frame, value set, admissible use, validity window, reopen condition, or receiving pattern is hidden, `E.10.ARCH` routes the repair to `A.19.SPR` only until those values are recovered or the live claim exits to `C.2.P`, `A.10`, `B.3`, `A.20`, `A.21`, `C.27`, `C.29`, `E.9.DA`, `E.21`, `A.6.P`, `A.15`, or the exact project-side administrative, review, dispatch, release or admission, or source-control record.
+**E.10.ARCH governing relation.** When `E.10` encounters state-family wording such as `state`, `status`, `posture`, `readiness`, `stance`, `currentness`, `validity`, `stable`, `ready`, `accepted`, `blocked`, `candidate`, or close compounds whose bearer, state frame, value set, admissible use, validity window, reopen condition, or governing pattern is hidden, `E.10.ARCH` selects `A.19.SPR` only until those values are recovered or the live claim exits to `C.2.P`, `A.10`, `B.3`, `A.20`, `A.21`, `C.27`, `C.29`, `E.9.DA`, `E.21`, `A.6.P`, `A.15`, or the exact project-side administrative, review, dispatch, release or admission, or source-control record.
 
 ### A.19.SPR:0 - Use this when
 
-Use `A.19.SPR` when state-family wording has FPF-governed use but does not yet say what is in which state, according to which state frame or receiving pattern, with which value or classification, for which admissible use.
+Use `A.19.SPR` when state-family wording has FPF-governed use but does not yet say what is in which state, according to which state frame or governing pattern, with which value or classification, for which admissible use.
 
 Typical triggers:
 
@@ -75,11 +75,11 @@ Typical triggers:
 
 **What this buys.** The reader can recover the exact state-like claim, the governing pattern, the allowed use, and the blocked adjacent overread before acting on the word.
 
-**First useful move.** Ask: what bearer has which state-like value under which state frame or receiving pattern? If that cannot be answered, demote the wording to ordinary prose, quote-only source wording, a reduced-use cue, or a blocker.
+**First useful move.** Ask: what bearer has which state-like value under which state frame or governing pattern? If that cannot be answered, demote the wording to ordinary prose, quote-only source wording, a reduced-use cue, or a blocker.
 
 **Not this pattern when.**
 
-- If the exact receiving pattern and state-like field are already recoverable by value, use that pattern directly.
+- If the exact governing pattern and state-like field are already recoverable by value, use that pattern directly.
 - If the wording is ordinary prose and carries no FPF-governed use, keep it ordinary.
 - If the live case concerns one `Characteristic`, `Scale`, coordinate, score, or metric, use `C.16.P` before state-family repair.
 - If the live case concerns source-expression, publication, carrier, or source-use wording, use `C.2.P` first; return to `A.19.SPR` only if a state-like claim remains.
@@ -103,7 +103,7 @@ How can FPF repair state-family wording without:
 - replacing one broad word with another broad word such as `basis`, `support`, `state`, or `status`;
 - treating every state-like word as a `CharacteristicSpace` position;
 - treating publication, source, evidence, assurance, gate, decision, work, release or admission, and administrative states as one source, publication, or language-state case;
-- duplicating the state-family recovery algorithm inside every receiving pattern;
+- duplicating the state-family recovery algorithm inside every governing pattern;
 - demoting exact finite local fields such as `LensUseAdmissibilityValue` or `dynClaimPosture` when they are already well-formed, or erasing a real specification use or refinement gate that names its exact neighbouring pattern and value set.
 
 ### A.19.SPR:3 - Forces
@@ -112,7 +112,7 @@ How can FPF repair state-family wording without:
 | --- | --- |
 | Compact state words vs exact bearer | Working prose needs short state words, but FPF claims need the bearer named. |
 | Local finite fields vs hidden ontology | Some pattern-local state fields are useful; others hide source, evidence, assurance, gate, release or admission, or administrative claims. |
-| A.19 state-space core vs many receiving patterns | `A.19` gives `CharacteristicSpace`, but many state-like claims belong to evidence, assurance, publication, temporal, lens-use, or project-side administrative records. |
+| A.19 state-space core vs many governing patterns | `A.19` gives `CharacteristicSpace`, but many state-like claims belong to evidence, assurance, publication, temporal, lens-use, or project-side administrative records. |
 | Semio precision vs semio-bias | Source or publication state wording may need semio repair, but not every state-like claim is a source, publication, or language-state case. |
 | Cheap repair vs reusable discipline | Many cases need one local rewrite; recurring state-family failures need one reusable realization pattern. |
 
@@ -137,23 +137,23 @@ StateFamilyPrecisionRepair:
   remainingReaderMove:
 ```
 
-Use the full shape only when the repair must remain inspectable. A direct rewrite is enough when one sentence names the bearer, state frame, value, use boundary, and receiving pattern.
+Use the full shape only when the repair must remain inspectable. A direct rewrite is enough when one sentence names the bearer, state frame, value, use boundary, and governing pattern.
 
 #### A.19.SPR:4.1 - Recovery sequence
 
 1. **Capture trigger and bounded text.** Copy the exact state-family word and the sentence, row, card, or field that uses it.
 2. **Recover the bearer.** Name the item whose state-like value is being claimed: holon, role, source, evidence path, assurance claim, publication face, `PublicationUnit`, gate record, temporal claim, lens-use card, `DRR`, pattern version, project-side administrative record, review record, dispatch record, release or admission record, source-control record, or another exact FPF kind.
-3. **Recover the state frame or receiving pattern.** Decide whether the frame is `A.19` `CharacteristicSpace`, `A.3.3` dynamics, role-state assertion, `C.2.2a` language-state chart, `A.10` evidence path, `B.3` assurance, `A.20` constraint or adjudication state, `A.21` gate decision, `E.17` publication use, `C.27` temporal-claim state, `C.29` lens-use admissibility, `E.9.DA` DRR-decision adequacy, `E.21` pattern quality, or an exact project-side administrative, review, dispatch, release or admission, or source-control record.
+3. **Recover the state frame or governing pattern.** Decide whether the frame is `A.19` `CharacteristicSpace`, `A.3.3` dynamics, role-state assertion, `C.2.2a` language-state chart, `A.10` evidence path, `B.3` assurance, `A.20` constraint or adjudication state, `A.21` gate decision, `E.17` publication use, `C.27` temporal-claim state, `C.29` lens-use admissibility, `E.9.DA` DRR-decision adequacy, `E.21` pattern quality, or an exact project-side administrative, review, dispatch, release or admission, or source-control record.
 4. **Recover the value set or classification.** If a local field remains, list its possible values or the exact neighboring pattern that defines them. If no value set is recoverable, do not keep the state-family head as a field.
-5. **Recover criteria or evidence only when live.** Name threshold rule, observation, source currentness, evidence path, assurance tuple, validation regime, gate record, or witness only when that receiving pattern is live.
+5. **Recover criteria or evidence only when live.** Name threshold rule, observation, source currentness, evidence path, assurance tuple, validation regime, gate record, or witness only when that governing pattern is live.
 6. **State admissible and non-admissible use.** Say what the reader may do with this value and what adjacent claim remains blocked.
 7. **State validity window or reopen condition.** If currentness, readiness, release or admission, validation, assurance, or administrative state can decay, name what changes the value.
-8. **Rewrite or demote.** Replace broad wording with the exact field or receiving-pattern phrase; otherwise mark quote-only, reduced-use cue, blocked transfer, or incomplete rewrite.
+8. **Rewrite or demote.** Replace broad wording with the exact field or governing-pattern phrase; otherwise mark quote-only, reduced-use cue, blocked transfer, or incomplete rewrite.
 9. **Return to the subject pattern.** Do not let the repair become the subject Solution unless the pattern is itself about state-family precision restoration.
 
-#### A.19.SPR:4.2 - Direct receiving-pattern exits
+#### A.19.SPR:4.2 - Direct governing-pattern exits
 
-| Recovered state-like claim | First receiving pattern or locus |
+| Recovered state-like claim | First governing pattern or locus |
 | --- | --- |
 | position in a declared `CharacteristicSpace` | `A.19`, with `A.17`, `A.18`, `C.16`, and `C.16.P` when construction is hidden |
 | reusable transition law, trajectory, or dynamics model | `A.3.3` |
@@ -183,7 +183,7 @@ A local `...Posture`, `...Status`, `...Readiness`, or `...State` field is admiss
 - non-admissible overread;
 - validity window, decay rule, or reopen condition when applicable.
 
-If any of those are missing, either complete them now or rename the field to the exact receiving-pattern phrase or record. A narrowing adjective does not count as kind recovery.
+If any of those are missing, either complete them now or rename the field to the exact governing-pattern phrase or record. A narrowing adjective does not count as kind recovery.
 
 ### A.19.SPR:5 - Worked slices
 
@@ -204,11 +204,11 @@ If any of those are missing, either complete them now or rename the field to the
 | Check | Requirement |
 | --- | --- |
 | `CC-A19SPR-1` | Every FPF-governed state-family word SHALL name a bearer or be demoted to ordinary prose, quote-only wording, reduced-use cue, or blocker. |
-| `CC-A19SPR-2` | Every retained state-family field SHALL name the state frame or receiving pattern that defines its value. |
+| `CC-A19SPR-2` | Every retained state-family field SHALL name the state frame or governing pattern that defines its value. |
 | `CC-A19SPR-3` | Every retained state-family field SHALL have a value set, classification source, or exact neighboring-pattern result. |
 | `CC-A19SPR-4` | The repair SHALL state admissible use and non-admissible overread. |
 | `CC-A19SPR-5` | Currentness, readiness, validation, assurance, release or admission, or administrative state claims SHALL state a validity window, decay rule, or reopen condition when the value can change. |
-| `CC-A19SPR-6` | Source, evidence, assurance, publication, gate, work, decision, release or admission, and administrative uses SHALL be assigned to exact receiving patterns or exact project-side records rather than hidden under state-family wording. |
+| `CC-A19SPR-6` | Source, evidence, assurance, publication, gate, work, decision, release or admission, and administrative uses SHALL be assigned to exact governing patterns or exact project-side records rather than hidden under state-family wording. |
 | `CC-A19SPR-7` | Semio patterns receive only language-state and source or publication cases. They SHALL NOT become the general home for evidence, assurance, gate, work, temporal, mathematical-lens, or administrative states. |
 | `CC-A19SPR-8` | Exact local fields such as `LensUseAdmissibilityValue` and `dynClaimPosture` may stay only with declared governing pattern, value set, boundary, and reopen condition; specification wording SHALL recover a Description episteme admitted for specification use or refinement plus the exact specification-granting neighbouring pattern. |
 | `CC-A19SPR-9` | The repair SHALL preserve one remaining reader move. Type-correct but inert wording is incomplete. |
@@ -218,9 +218,9 @@ If any of those are missing, either complete them now or rename the field to the
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Posture as cover.** | A sentence uses `posture` to avoid saying source relation, evidence path, assurance result, gate decision, or release state. | Recover the bearer and receiving pattern; rewrite to the exact FPF field or block. |
-| **Support-to-state laundering.** | Old `support` wording becomes `support posture`, `basis posture`, or `source posture`. | Apply `A.6.P`, `A.6.6`, `C.2.P`, `A.10`, `B.3`, `C.16.P`, `C.29`, or the exact receiving pattern. |
-| **Finite field without value set.** | A `...Status` or `...Posture` field appears with no values or non-overread boundary. | Complete the field or replace it with the exact receiving-pattern phrase or record. |
+| **Posture as cover.** | A sentence uses `posture` to avoid saying source relation, evidence path, assurance result, gate decision, or release state. | Recover the bearer and governing pattern; rewrite to the exact FPF field or block. |
+| **Support-to-state laundering.** | Old `support` wording becomes `support posture`, `basis posture`, or `source posture`. | Apply `A.6.P`, `A.6.6`, `C.2.P`, `A.10`, `B.3`, `C.16.P`, `C.29`, or the exact governing pattern. |
+| **Finite field without value set.** | A `...Status` or `...Posture` field appears with no values or non-overread boundary. | Complete the field or replace it with the exact governing-pattern phrase or record. |
 | **External administrative state in pattern prose.** | A project-side administrative, review, dispatch, release or admission, or source-control state appears as if it were user-facing pattern guidance. | Move the state claim to the exact project-side record; keep only an informative boundary if useful. |
 | **Semio sink.** | Every state-like word is sent to source-publication or language-state repair. | Use semio only for source, publication, or language-state cases; assign evidence, assurance, gate, work, temporal, lens-use, and administrative cases to exact patterns or project-side records. |
 
@@ -228,7 +228,7 @@ If any of those are missing, either complete them now or rename the field to the
 
 | Pattern | Relation |
 | --- | --- |
-| `E.10` | Catches state-family trigger wording and selects local repair, `A.19.SPR`, direct receiving pattern, controlled precision reduction, `F.18`, or fail-closed non-use. |
+| `E.10` | Catches state-family trigger wording and selects local repair, `A.19.SPR`, direct governing pattern, controlled precision reduction, `F.18`, or fail-closed non-use. |
 | `E.10.ARCH` | Provides the shared wording-use restoration architecture. `A.19.SPR` is the realization pattern for recurring state-family hidden-field cases. |
 | `A.19` | Governs `CharacteristicSpace` and state-space typing. `A.19.SPR` uses A.19 only when the state-like claim is a characteristic-space position or comparable state. |
 | `A.3.3` | Governs dynamics and state-transition laws when reusable change semantics are live. |
@@ -240,7 +240,7 @@ If any of those are missing, either complete them now or rename the field to the
 | `C.29` | Governs mathematical-lens use and retains `LensUseAdmissibilityValue` when declared. |
 | `E.9.DA`, `E.21`, `E.19` | Govern DRR adequacy status, pattern-quality status, and pattern review or admission profiles. |
 | `F.18` | Governs durable naming when a state-family field becomes reusable vocabulary. |
-| `J.4` | Points practical entry questions to `A.19.SPR` when state-family wording hides the first receiving pattern. |
+| `J.4` | Points practical entry questions to `A.19.SPR` when state-family wording hides the first governing pattern. |
 
 ### A.19.SPR:9 - Rationale
 

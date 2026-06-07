@@ -6,12 +6,12 @@ section_id: "A.3.2:11"
 section_title: "Equivalence & compatibility (across notations and contexts)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__012_equivalence-compatibility-across-notations-and-contexts.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:11 — Equivalence & compatibility (across notations and contexts)"
-line_start: 6201
-line_end: 6216
+line_start: 6203
+line_end: 6218
 dependencies:
   - "A.1.1"
   - "A.15"

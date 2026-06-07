@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__013_conformance-checklist.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:10 — Conformance checklist"
-line_start: 59624
-line_end: 59640
+line_start: 59677
+line_end: 59693
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,6 +38,7 @@ dependencies:
   - "E.21"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "J.4"
 keywords:
 ---
@@ -47,15 +48,15 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-E10ARCH-1` | `E.10` remains the compact trigger-and-applicability pattern; `E.10.ARCH` carries the shared algorithm and applicability-row architecture. |
-| `CC-E10ARCH-2` | Each `WordingUseRestorationApplicabilityRow` names `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, primary EntityOfConcern kind and use fields, `ontologicalNeighborhood`, first applicable restoration or receiving pattern, recovery product, non-use boundary, and remaining reader move. |
-| `CC-E10ARCH-3` | Direct known receiving-pattern cases use the exact receiving pattern directly instead of opening a restoration detour. |
-| `CC-E10ARCH-4` | A new realization pattern is added only when no existing exact receiving pattern carries the stable recovery apparatus without duplicating repair-only doctrine inside subject patterns. |
-| `CC-E10ARCH-5` | Subject receiving patterns keep their primary `EntityOfConcern` and first useful move central and carry only thin first-use cues to precision restoration when wording is hidden. Generic guards about description and publication use are kept in a named description and publication-use boundary section or exact description-publication neighbor; they do not become the subject Solution. |
+| `CC-E10ARCH-2` | Each `WordingUseRestorationApplicabilityRow` names `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, primary EntityOfConcern kind and use fields, `ontologicalNeighborhood`, first applicable restoration or governing pattern, recovery product, non-use boundary, and remaining reader move. |
+| `CC-E10ARCH-3` | Direct known governing-pattern cases use the exact governing pattern directly instead of opening a restoration detour. |
+| `CC-E10ARCH-4` | A new realization pattern is added only when no existing exact governing pattern carries the stable recovery apparatus without duplicating repair-only doctrine inside subject patterns. |
+| `CC-E10ARCH-5` | Subject patterns of concern keep their primary `EntityOfConcern` and first useful move central and carry only thin first-use cues to precision restoration when wording is hidden. Generic guards about description and publication use are kept in a named description and publication-use boundary section or exact description-publication neighbor; they do not become the subject Solution. |
 | `CC-E10ARCH-6` | `reading`, `read`, and `quality-read` wording remains trigger wording and does not mint `ReadingPrecisionRestoration`. |
-| `CC-E10ARCH-6a` | EntityOfConcern-like hidden fields follow the selected distribution: `E.10` catches, `C.2.1` carries slot and reference ontology, `C.2.P` restores episteme, publication, and source-use wording, `F.18` settles durable heads and source-string decisions, `E.17.AUD.OOTD` carries publication-unit primary entity of concern, and exact receiving patterns carry their own live claim or admissible-use boundary. |
-| `CC-E10ARCH-6b` | State-family wording follows the selected distribution: `E.10` catches, `A.19.SPR` realizes recurring hidden bearer, state-frame, value, and use recovery, and exact receiving patterns receive already-recovered evidence, assurance, gate, work, decision, temporal, mathematical-lens, pattern-quality, source-use, or process cases directly. |
-| `CC-E10ARCH-6c` | Stratification and source-label wording follows the selected distribution: `E.10` catches, `C.30.STRAT` realizes recurring source-label repair, and exact receiving patterns receive already-recovered control, module-interface, flow, scale or coarse-graining, publication relation set, gate, work, decision, or ordinary non-use cases directly. |
-| `CC-E10ARCH-7` | `function`, `functional`, `functionality`, and `effect` wording keeps `A.6.F` as first unpacker when the exact FPF kind, relation, claim record, view, or receiving-pattern application is hidden and does not default to architecture. |
+| `CC-E10ARCH-6a` | EntityOfConcern-like hidden fields follow the selected distribution: `E.10` catches, `C.2.1` carries slot and reference ontology, `C.2.P` restores episteme, publication, and source-use wording, `F.18` settles durable heads and source-string decisions, `E.17.AUD.OOTD` carries publication-unit primary entity of concern, and exact governing patterns carry their own live claim or admissible-use boundary. |
+| `CC-E10ARCH-6b` | State-family wording follows the selected distribution: `E.10` catches, `A.19.SPR` realizes recurring hidden bearer, state-frame, value, and use recovery, and exact governing patterns carry already-recovered evidence, assurance, gate, work, decision, temporal, mathematical-lens, pattern-quality, source-use, or process cases directly. |
+| `CC-E10ARCH-6c` | Stratification and source-label wording follows the selected distribution: `E.10` catches, `C.30.STRAT` realizes recurring source-label repair, and exact governing patterns carry already-recovered control, module-interface, flow, scale or coarse-graining, publication relation set, gate, work, decision, or ordinary non-use cases directly. |
+| `CC-E10ARCH-7` | `function`, `functional`, `functionality`, and `effect` wording keeps `A.6.F` as first unpacker when the exact FPF kind, relation, claim record, view, or governing-pattern application is hidden and does not default to architecture. |
 | `CC-E10ARCH-8` | `semanticArea`, `ontologicalNeighborhood`, and `pattern nest` follow `E.8` placement discipline: `semanticArea` is the Part-F semantic unit, `ontologicalNeighborhood` is its applicability neighborhood, and `pattern nest` is placement. None of them becomes workstream, campaign, module, or authority-bearing record. |
 | `CC-E10ARCH-9` | Repair removes overread and preserves one useful admissible reader move. Type-correct but inert wording is not recovered by value. |
 | `CC-E10ARCH-10` | Validation checks cover duplicate trigger tables, stale quality-term-restoration links, broad `U.*` heads, shadow restoration apparatus, and entry or index drift. |

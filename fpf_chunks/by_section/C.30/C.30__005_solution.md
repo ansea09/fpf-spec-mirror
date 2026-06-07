@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 51379
-line_end: 51751
+line_start: 51389
+line_end: 51761
 dependencies:
   - "A.10"
   - "A.15"
@@ -197,7 +197,7 @@ A. SystemQualityAffectedByArchitecture
 
 B. ArchitectureStructuralCharacteristic
    Bearer: `ArchitectureOf@Context` claim, architecture structural view, declared structural relation or constraint, module relation, or interface relation
-      Governing pattern: selected from C.16, A.17-A.19, or an admitted architecture-characterization receiving pattern
+      Governing pattern: selected from C.16, A.17-A.19, or an admitted architecture-characterization governing pattern
    Examples: coupling, cohesion, interface alphabet, substitutability, hidden coupling, reusable-structure share
 
 C. ArchitectureAdequacyBearer
@@ -391,7 +391,7 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 | LCA diagram or control diagram as proof | Use `C.30.LCA` for control-structure view; assign dynamics, temporal, causal, evidence, gate, safety, and assurance claims to their governing patterns. |
 | Mathematical lens as architecture ontology | Use `C.29`; cite `MathLensUseOutputRef` only through an `ArchitectureMathLensUseBoundary` or C.29 lens record and state stop condition. |
 | ADR as architecture decision | Use the exact project-side architecture decision pattern when a decision claim is live; ADR is a publication form, not the decision. |
-| Quality, score, or measurement term as architecture adequacy | Recover the bearer through `ArchitectureCharacteristicAssignment`; assign the live claim to `C.25`, `C.16`, an admitted architecture-characterization receiving pattern, or C.30 grounded architecture, selected-structure, or conditional description-use scope. |
+| Quality, score, or measurement term as architecture adequacy | Recover the bearer through `ArchitectureCharacteristicAssignment`; assign the live claim to `C.25`, `C.16`, an admitted architecture-characterization governing pattern, or C.30 grounded architecture, selected-structure, or conditional description-use scope. |
 | Architecture record as evidence, assurance, gate, work, or release | Assign evidence, assurance, gate, work, or release claims to `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, or release loci as live. |
 | Architecture as agent, worker, controller, gate, or proof | Recover the mechanism, control relation, role and enactor relation, gate, work, evidence, or assurance carrier that actually bears enforce, decide, optimize, adapt, prove, or guarantee wording; keep `ArchitectureOf@Context` as a selected-structure claim, not an acting entity. |
 

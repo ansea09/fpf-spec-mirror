@@ -6,12 +6,12 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 40985
-line_end: 41337
+line_start: 40995
+line_end: 41347
 dependencies:
   - "A.10"
   - "A.16"
@@ -82,7 +82,7 @@ When the trigger fires, follow the `E.10.ARCH` recovery order specialized to qua
    Enumerate plausible candidate senses and, when relevant, candidate endpoint-governing FPF patterns or explicit endpoint source references. If the occurrence is decision-bearing, publication-bearing, or cross-tradition-bearing, record a short quality-term candidate note before selecting the repair.
 
 4. **Exit when the live claim is not quality-term or evaluative characterization.**
-   If the occurrence is primarily action invitation, relation construction, bridge, basedness, endpoint mismatch, evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, characteristic and scale construction, or source-use, do not assign a `QualitySense`. Apply `A.6.P`, `A.6.A`, `C.16.P`, `C.29`, `C.2.P`, or the exact receiving pattern.
+   If the occurrence is primarily action invitation, relation construction, bridge, basedness, endpoint mismatch, evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, characteristic and scale construction, or source-use, do not assign a `QualitySense`. Apply `A.6.P`, `A.6.A`, `C.16.P`, `C.29`, `C.2.P`, or the exact governing pattern.
 
 5. **Select one explicit quality sense.**
    Pick one `QualitySense` token and state why rival senses were rejected in this local context.
@@ -130,7 +130,7 @@ qualityTermAscription :=
 So the sentence "X has quality" is never accepted as a terminal form. It must be rewritten either into an explicit endpoint-pattern-governed evaluative form or into this transitional repair form with a declared endpoint-governing pattern or explicit endpoint source relation.
 
 **Discipline note.**
-`QualitySense` is a slot value inside the transitional repair form; it is not a replacement for the endpoint FPF pattern or explicit endpoint source reference. The sense token refines what kind of evaluative characterization is being made while the endpoint source, receiving pattern, or EntityOfConcern remains explicit.
+`QualitySense` is a slot value inside the transitional repair form; it is not a replacement for the endpoint FPF pattern or explicit endpoint source reference. The sense token refines what kind of evaluative characterization is being made while the endpoint source, governing pattern, or EntityOfConcern remains explicit.
 
 **Separation note.**
 `evaluator` and `viewpoint` are not synonyms. When both matter, publish them separately: the evaluator is the observing, criticizing, or selecting party or policy, while the viewpoint is the declared `U.Viewpoint` under which the ascription is presented.
@@ -143,7 +143,7 @@ Tech and normative prose SHALL keep the evaluated participant in the bearer posi
 * “The benchmark says model quality is high” rewrites to `qualityTermAscription(bearer=Model, evaluator=BenchmarkPolicy, …)`.
 
 There is no inverse token that silently makes the evaluator the bearer.
-If inverse wording is used in Plain prose, the wording SHALL be rewritten into the bearer-centred form (or publish an explicit inverse form under the exact receiving pattern that governs it).
+If inverse wording is used in Plain prose, the wording SHALL be rewritten into the bearer-centred form (or publish an explicit inverse form under the exact governing pattern that governs it).
 
 #### C.16.Q:4.1c - Endpoint-first discipline
 
@@ -355,7 +355,7 @@ A conforming quality-term repair publication SHALL narrate changes with a stable
 * **`rescope(...)`** — change `U.Scope`.
 * **`retime(...)`** — change `Γ_time`.
 * **`refreshWitnesses(...)`** — refresh evidence or witness bindings.
-* **`exitToReceivingPattern(...)`** — semantic move to a non-quality receiving pattern; never edit in place silently.
+* **`exitToReceivingPattern(...)`** — semantic move to a non-quality governing pattern; never edit in place silently.
 
 A silent **sense rewrite** is a breaking semantic change.
 If the ascription ceases to mean “quality ascription” at all, use `exitToReceivingPattern(...)` rather than pretending the same record survived unchanged.
@@ -391,7 +391,7 @@ In **Tech and normative prose**:
 * in QD and NQD contexts, bare **quality** MUST default to **`QS.UseValue`**;
 * preconceptual uses MUST NOT be presented as if they were already Characteristics;
 * latent and distributed fit MUST NOT be presented as if it were automatically explanatory merit;
-* if the occurrence is primarily **action-invitation** talk, the text MUST NOT assign a `QualitySense`; it SHALL exit to `A.6.A` or another exact action-invitation receiving pattern, with source-tradition `affordance` wording kept only as a quoted cue when needed;
+* if the occurrence is primarily **action-invitation** talk, the text MUST NOT assign a `QualitySense`; it SHALL exit to `A.6.A` or another exact action-invitation governing pattern, with source-tradition `affordance` wording kept only as a quoted cue when needed;
 * scope words (*applicability*, *envelope*, *generality*, *validity*) MUST NOT be used as hidden substitutes for `U.Scope`, `U.ClaimScope (G)`, or `U.WorkScope`;
 * quoted metalinguistic uses of the token *quality* are allowed, but SHALL be marked as **token-under-discussion**, not as a boundary-bearing term.
 

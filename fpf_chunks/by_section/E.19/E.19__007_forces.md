@@ -6,12 +6,12 @@ section_id: "E.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__007_forces.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:3 — Forces"
-line_start: 66253
-line_end: 66263
+line_start: 66309
+line_end: 66319
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -22,6 +22,7 @@ dependencies:
   - "E.8"
   - "E.9"
   - "F.18"
+  - "F.19"
 keywords:
   - "(see H-8)"
   - "MUST NOT modify modeled-world entities (e.g"

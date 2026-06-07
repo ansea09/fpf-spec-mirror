@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.TGA-FLOW-REL.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
-line_start: 53844
-line_end: 54089
+line_start: 53854
+line_end: 54099
 dependencies:
   - "A.10"
   - "A.15"
@@ -248,7 +248,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **Graph-as-functional-architecture** | A TGA graph is treated as the functional architecture itself. | Split functional structure from flow or transduction structure and add correspondence. |
 | **Flow-as-work-log** | Path or slice wording is treated as work occurrence. | Assign occurrence or result claims to A.15 or P2W and keep TGA as graph or path relation. |
 | **Crossing-as-gate-result** | A crossing relation is treated as gate passage. | Assign gate-decision claims to A.21 and keep crossing relation under E.18. |
-| **Valuation-as-score** | A flow valuation is used as a generic architecture score. | State E.18 valuation and set-return discipline; assign measurement, characterization, selection, or candidate-set claims to `C.16` or an admitted receiving pattern when live. |
+| **Valuation-as-score** | A flow valuation is used as a generic architecture score. | State E.18 valuation and set-return discipline; assign measurement, characterization, selection, or candidate-set claims to `C.16` or an admitted governing pattern when live. |
 | **Generated relation-graph proof** | A code-agent relation graph or probe output is used as proof of architecture understanding or safety. | Recover source, source observation class selected from {observed, inferred, unknown}, hidden structure, and exact evidence or assurance pattern applications. |
 | **Prompt-data-tool flow as authority proof** | A prompt, data, or tool-flow graph is treated as permission for tool action or proof that authority is safe. | Keep the graph as a flow relation. A path from untrusted content to tool action opens `SecurityTrustBoundaryStructure` and C.24, E.16, A.20, or A.21 governing pattern applications when those claim kinds are live. |
 
@@ -281,9 +281,9 @@ This pattern also protects functional architecture. A functional structure view 
 
 Builds on: `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `E.18`, `E.17`, `E.17.0`, `A.7`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `C.30.STRAT`, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set receiving patterns when live, `InterfaceSignatureBoundaryNote`, and the exact module-and-interface repair pattern when module or interface claim kind is live.
+Coordinates with: `C.30.STRAT`, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governing patterns when live, `InterfaceSignatureBoundaryNote`, and the exact module-and-interface repair pattern when module or interface claim kind is live.
 
-Does not replace: C.30.STRAT stratification-wording repair and source-label repair; E.18 graph, path, crossing, and flow-valuation discipline; C.30 grounded architecture and selected-structure adequacy; C.30.ASV architecture structural-view adequacy; A.6.F function-use repair; A.15 work; A.10 and G.6 evidence; B.3 assurance; A.20 and A.21 gate or release records; C.28 causal-use relation; C.29 mathematical-lens use; C.16 characterization or admitted characteristic and measurement receiving patterns; or C.11 decisions.
+Does not replace: C.30.STRAT stratification-wording repair and source-label repair; E.18 graph, path, crossing, and flow-valuation discipline; C.30 grounded architecture and selected-structure adequacy; C.30.ASV architecture structural-view adequacy; A.6.F function-use repair; A.15 work; A.10 and G.6 evidence; B.3 assurance; A.20 and A.21 gate or release records; C.28 causal-use relation; C.29 mathematical-lens use; C.16 characterization or admitted characteristic and measurement governing patterns; or C.11 decisions.
 
 ### C.30.TGA-FLOW-REL:End
 

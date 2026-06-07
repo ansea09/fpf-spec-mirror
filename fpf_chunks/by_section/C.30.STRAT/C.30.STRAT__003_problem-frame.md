@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__003_problem-frame.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:1 — Problem frame"
-line_start: 52466
-line_end: 52475
+line_start: 52476
+line_end: 52485
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,5 +55,5 @@ Those labels are useful recognition cues, but FPF cannot rely on them as kinds. 
 
 The repair question is:
 
-> Which `ontologicalNeighborhood` does this source-label use belong to, and which exact receiving pattern now carries the recovered kind, recovered relation, recovered claim-use, source-use disposition, or non-use disposition?
+> Which `ontologicalNeighborhood` does this source-label use belong to, and which exact governing pattern now carries the recovered kind, recovered relation, recovered claim-use, source-use disposition, or non-use disposition?
 

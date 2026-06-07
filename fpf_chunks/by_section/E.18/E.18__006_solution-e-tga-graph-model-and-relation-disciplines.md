@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - E.TGA graph model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-e-tga-graph-model-and-relation-disciplines.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:5 — Solution - E.TGA graph model and relation disciplines"
-line_start: 65754
-line_end: 66010
+line_start: 65810
+line_end: 66066
 dependencies:
   - "A.2.6"
   - "A.20"

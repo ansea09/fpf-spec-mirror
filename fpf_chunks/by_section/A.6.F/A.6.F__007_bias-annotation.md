@@ -6,12 +6,12 @@ section_id: "A.6.F:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__007_bias-annotation.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:6 — Bias-Annotation"
-line_start: 13666
-line_end: 13679
+line_start: 13668
+line_end: 13681
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ Lenses tested: **Arch**, **Ontology and episteme**, **Prag**, **Did**, **Gov**. 
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Function-root bias | The pattern explicitly does not mint `U.Function`; it assigns wording to existing FPF kinds, relations, or receiving patterns. |
+| Function-root bias | The pattern explicitly does not mint `U.Function`; it assigns wording to existing FPF kinds, relations, or governing patterns. |
 | Functional-architecture exception bias | Functional architecture is normalized as `FunctionalStructure`, not a peer ontology. |
 | Module bias | Function-to-module allocation uses correspondence or `A.6.M` module-relation repair; function and module remain distinct. |
 | Mathematical bias | Mathematical function wording is assigned to C.29 when used as a lens. |

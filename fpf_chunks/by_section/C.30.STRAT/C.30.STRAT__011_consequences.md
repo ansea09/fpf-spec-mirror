@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__011_consequences.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:9 — Consequences"
-line_start: 52631
-line_end: 52638
+line_start: 52641
+line_end: 52648
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,5 +53,5 @@ keywords:
 | --- | --- |
 | Source labels remain usable recognition cues without becoming root kinds. | The reader pays one recovery-row cost only when FPF-governed use is live; ordinary prose closes cheaply. |
 | Subject patterns avoid copied trigger registries. | Subject patterns need accurate thin pointers to `C.30.STRAT` and still keep their own invariants precise. |
-| Architecture wording no longer captures relation, evidence, assurance, gate, work, decision, publication, state, or mathematical-lens claims by sound. | The repair may open several exact receiving patterns when one sentence compresses several claims; the benefit is that each claim remains governed by its exact pattern. |
+| Architecture wording no longer captures relation, evidence, assurance, gate, work, decision, publication, state, or mathematical-lens claims by sound. | The repair may open several exact governing patterns when one sentence compresses several claims; the benefit is that each claim remains governed by its exact pattern. |
 

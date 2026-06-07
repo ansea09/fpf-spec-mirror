@@ -6,12 +6,12 @@ section_id: "C.30.AD:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__007_worked-cases.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5 — Worked cases"
-line_start: 52134
-line_end: 52149
+line_start: 52144
+line_end: 52159
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ keywords:
 | A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records the architecture-description chain and correspondence among views. `C.30.LCA` governs the control view; `A.10`, `G.6`, or `B.3` governs evidence or assurance; `A.15` is used only if role-enactor semantics are live. |
 | A product-line platform document reuses module-interface, variability, and deployment views across products. | `C.30.AD` records which architecture claim and structural views the document uses, plus source-return conditions for product variation. `A.6.M` repairs module-interface relations; `C.31.RSA` accounts reusable structure or bespoke residue only after structure refs and accounting basis are declared. |
 | A multi-view architecture description says local optimization at one declared holon level creates frustration in another. | `C.30.AD` records the description membership, correspondence, and source-return boundary. `C.30.ILC` governs the residual; `C.29` is used only if the description contains a recoverable level mapping or scale mapping with preserved structure and lost structure. |
-| An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the description or publication use of that comparison. Candidate sets and selected-set publication use `G.5` or an admitted architecture synthesis receiving pattern; final local choice uses `C.11`; measurement or comparison claims use their exact patterns. |
+| An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the description or publication use of that comparison. Candidate sets and selected-set publication use `G.5` or an admitted architecture synthesis governing pattern; final local choice uses `C.11`; measurement or comparison claims use their exact patterns. |
 | A review note, dashboard, or generated report describes gaps in an architecture description rather than the architecture itself. | The architecture description can be the current `EntityOfConcern`; the second description is handled as a Description, view, source relation, publication face, review record, or evaluation record over that EoC. `C.30.AD` keeps the chain to the underlying `ArchitectureOf@Context` visible without treating the second description as the architecture, the residual, the decision, or the proof. |
 
 

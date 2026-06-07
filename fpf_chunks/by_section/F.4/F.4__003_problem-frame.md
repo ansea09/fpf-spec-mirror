@@ -6,12 +6,12 @@ section_id: "F.4:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__003_problem-frame.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:2 — Problem frame"
-line_start: 69292
-line_end: 69300
+line_start: 69413
+line_end: 69421
 dependencies:
   - "A.11"
   - "A.2.1"

@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "C.16.P"
 pattern_title: "Characteristic and Scale Precision Restoration"
 section_id: "C.16.P:6"
-section_title: "Exact receiving-pattern exits"
+section_title: "Exact governing-pattern exits"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.16.P/C.16.P__008_exact-receiving-pattern-exits.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+output_path: "by_section/C.16.P/C.16.P__008_exact-governing-pattern-exits.md"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
-  - "C.16.P:6 — Exact receiving-pattern exits"
-line_start: 40785
-line_end: 40805
+  - "C.16.P:6 — Exact governing-pattern exits"
+line_start: 40795
+line_end: 40815
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ dependencies:
 keywords:
 ---
 
-### C.16.P:6 - Exact receiving-pattern exits
+### C.16.P:6 - Exact governing-pattern exits
 
 | Recovered construction, claim kind, or admissible-use boundary | Exit |
 | --- | --- |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.1.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
-line_start: 68013
-line_end: 68331
+line_start: 68134
+line_end: 68452
 dependencies:
   - "A.1.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__005_solution.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:4 — Solution"
-line_start: 57075
-line_end: 57116
+line_start: 57108
+line_end: 57151
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -22,6 +22,7 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
@@ -34,8 +35,10 @@ When an `A.19.ECS` specification is selected for durable FPF publication, author
 3. **Place the `A.19.ECS` specification by value.** The `Solution` carries the record shape, local names, object-kind-fit rule, coordinate set, value meanings, evidence-basis rule, result-row shape, adjacent-value rationale rule, calibration points, coordinate-specific evidence payloads, missingness rule, protected trade-offs, status meanings, and stop or reopen condition.
 4. **Use worked slices as the discriminating-case test.** Archetypal Grounding and worked cases include a passing evaluated object, a below-floor evaluated object, and an outside-declared-object-kind boundary case.
 5. **Keep checklist rows secondary.** Conformance checks verify that the evaluation is recoverable and usable. They do not become the user's method.
-6. **Keep outside claims with exact neighbours.** Relations and non-use boundaries name the exact neighbour for evidence, assurance, gate, work, decision, naming, measurement, OEE/NQD, mathematical lens, `E.22` quality-evaluation, and improvement-loop claims.
-7. **Evaluate the publication form with `E.21`.** When the FPF pattern publication form is under quality improvement, `E.21` evaluates the FPF pattern version's quality. The evaluation coordinates inside the pattern continue to judge the evaluated object declared by that evaluation.
+6. **Keep outside claims with exact governing patterns.** `Relations` and compact non-use boundaries name the exact governing pattern for evidence, assurance, gate, work, decision, naming, measurement, OEE/NQD, mathematical lens, `E.22` quality-evaluation, and improvement-loop claims. They do so declaratively and do not replace the evaluation publication form with reference boilerplate, phrase apparatus, or architecture-placement rationale. If phrase-level apparatus appears, apply `F.19`; if remaining words still hide precision, apply `E.10`, `E.10.ARCH`, `F.18`, or the exact governing pattern. If a wording repair changes an FPF-governed phrase in the evaluation specification or publication form, the pre-repair and post-repair evaluated object kind, relation or claim kind, slot or use-position when live, admissible use, and scope must remain recoverable; lexical substitution without that check and exact governing-pattern reference when another pattern governs the live kind, relation, claim, or position is not a repair.
+7. **Evaluate the publication form with `E.21`.** When the FPF pattern publication form is under quality improvement, `E.21` evaluates the FPF pattern version's quality. The evaluation coordinates inside the pattern continue to judge the evaluated object declared by that evaluation. The `E.21` result, corpus-projection evidence, ToC/J.4 alignment, retrieval or cold-reader evidence, monolith parity, landing evidence, and developer/reviewer/executor correspondence stay in the quality, review, projection, or release carriers unless the publication form's own `EntityOfConcern` and user move are that evaluation/projection work.
+
+The authoring flow and the quality-improvement flow are different flows. This pattern publishes an evaluation for its declared evaluated object kind. A later `E.21` evaluation of this pattern is evidence about the publication form as an FPF pattern, not part of the evaluation that the pattern publishes. That evidence may cause edits to recognition text, coordinates, cases, or boundaries, but it remains outside the pattern unless rewritten as user-facing evaluation guidance.
 
 #### E.8.ECSPF:4.1 - Canonical placement table
 
@@ -62,8 +65,8 @@ When an `A.19.ECS` specification is selected for durable FPF publication, author
 | `ECSPayload` | The by-value `A.19.ECS` specification inside the pattern. | Not an arbitrary table or checklist. |
 | `RecognitionEvaluationUseLine` | Early line saying what object is evaluated, for which use, and what the first admissible evaluation use does. | Not a slogan or pattern-title paraphrase. |
 | `DiscriminatingCaseBank` | Passing, below-floor, and outside-declared-object-kind boundary worked slices. | Not only positive examples. |
-| `NeighbourExitBlock` | Exact neighbouring FPF pattern applications for claims outside the evaluation. | Not a general directory of possibly related patterns. |
+| `RelatedPatternRelationBlock` | Exact declarative governing-pattern statements for claims outside the evaluation. | Not a general directory of possibly related patterns. |
 | `EvaluationResultFormBlock` | Published result-form discipline for this evaluation: required row fields, evidence basis, short rationale rule, and any coordinate-specific payload. | Not a review report, project status, or optional appendix. |
 | `CalibrationAndPayloadBlock` | Published adjacent-value calibration points and payload rules for values that need comparator, source-currentness, corpus-projection, worked-case, or retrieval evidence. | Not extra bureaucracy and not a second score system. |
-| `PatternVersionQualityEvaluation` | Optional `E.21` evaluation over the authored pattern publication form. | Not a replacement for the evaluation for one evaluated object kind. |
+| `PatternVersionQualityEvaluation` | Optional `E.21` evaluation over the authored pattern publication form. | Not a replacement for the evaluation for one evaluated object kind and not publication-form method content. |
 

@@ -6,12 +6,12 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-lineage-and-deltas-to-contemporary-state-of-the-art.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
-line_start: 56977
-line_end: 57012
+line_start: 57008
+line_end: 57044
 dependencies:
   - "E.10"
   - "E.19"
@@ -26,6 +26,8 @@ dependencies:
   - "E.9"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
+  - "J.4"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -56,18 +58,18 @@ keywords:
 
 **Two-part SoTA test.** A row must pass both tests. First, the source family must be SoTA-bearing: it must represent the current best-known answer for the named practice question or a clearly named current branch of that answer. Second, the pattern must incorporate that answer by value: the adopted, adapted, or rejected stance must change `Solution`, boundary, anti-pattern, rationale, checklist, relation, worked case, evidence requirement, stop/reopen condition, or another FPF-governed pattern locus. A current best-known source that changes no FPF locus is uncaptured SoTA; a citation that changes wording without being current best-known practice is not SoTA.
 
-**Incorporation test.** A SoTA row is accepted as live pattern grounding only when it changes what the pattern lets a working user do, what the pattern forbids them to over-read, which neighbouring FPF pattern must apply, which evidence or validation requirement remains live, or how the Solution and neighbouring FPF-governed sections are written. A citation that only decorates the pattern or proves that the author has read a tradition does not carry E.8.
+**Incorporation test.** A SoTA row is accepted as pattern grounding only when it changes what the pattern lets a working user do, what the pattern forbids them to over-read, which neighbouring FPF pattern must apply, which evidence or validation requirement remains applicable, or how the Solution and neighbouring FPF-governed sections are written. A citation that only decorates the pattern or proves that the author has read a tradition does not carry E.8.
 
 **Minimum contents (authoring requirements).**
 1) **Evidence binding (no duplicate SoTA).** If a **SoTA Synthesis Pack** exists (G.2), this section **SHALL cite** its **ClaimSheet IDs, CorpusLedger entries, and BridgeMatrix rows** as the governing evidence source for claims and report `adopt`, `adapt`, or `reject` **consistent with those IDs**. Avoid forking an untracked SoTA narrative.
 1a) **Accepted decision and source material set, not DRR-only narrowing.** When a pattern is drafted under an accepted `DRR` and other accepted decision or source materials also exist by value, the `DRR` remains the decision and placement record, but `SoTA-Echoing`, neighboring-pattern relations, and any minimal modeling or mathematical lens **MAY** and **SHOULD** inherit non-conflicting material from that accepted material set.
-2) **Sources (current problem-solving source refs, not prestige refs).** For **Architectural patterns**, cite at least 3 primary SoTA source refs that carry current best-known answers for the named practice question, with at least **two independent Traditions** when more than one serious tradition is live. For **Definitional patterns**, cite at least 1 current source or practice ref for the reduced issue being governed: terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. If the best source is older but still current, mark why it still answers the named practice question rather than treating source age, standard status, or popularity as SoTA by itself.
+2) **Sources (current problem-solving source refs, not prestige refs).** For **Architectural patterns**, cite at least 3 primary SoTA source refs that carry current best-known answers for the named practice question, with at least **two independent Traditions** when more than one serious tradition currently answers that question. For **Definitional patterns**, cite at least 1 current source or practice ref for the reduced issue being governed: terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. If the best source is older but still current, mark why it still answers the named practice question rather than treating source age, standard status, or popularity as SoTA by itself.
 3) **Best-known, not merely popular.** Authors **SHALL** distinguish best-known currently defensible practice from merely widespread or fashionable defaults. If the pattern adopts, adapts, or rejects a popular but less defensible practice, that divergence **MUST** be stated explicitly.
-3a) **Currentness and lineage status.** Older standards, early papers, and historically important examples may be cited as lineage only when later practice has materially changed the answer. They may carry a live SoTA row only when the pattern states why the source ref is still current for the named practice question or pairs it with a current source that supplies the live practice.
+3a) **Currentness and lineage status.** Older standards, early papers, and historically important examples may be cited as lineage only when later practice has materially changed the answer. They may carry a SoTA row only when the pattern states why the source ref is still current for the named practice question or pairs it with a current source that supplies the current practice.
 3b) **Problem-domain and practice answerability.** The selected SoTA source family **MUST** answer the governed working problem and the relevant domain or practice tradition. It **MUST NOT** be selected only because it makes package placement, naming neatness, or pattern clustering easier to justify.
 4) **Practice alignment.** For each cited item, state **what is adopted, adapted, or rejected** and **why** in 2 to 4 sentences.
 5) **Scale admissibility.** If numeric operations are implied, bind to ComparatorSet or CG-Spec and declare partial-order stance with no hidden scalarization.
-6) **Cross-Context reuse.** Any reuse across `U.BoundedContext` must expose Bridge id plus CL and, if planes differ, Phi policy ids; penalties affect only `R_eff`.
+6) **Cross-Context reuse.** Any reuse across `U.BoundedContext` must expose Bridge id plus CL and, if ReferencePlanes differ, Phi policy ids; penalties affect only `R_eff`.
 7) **Lexical hygiene.** Avoid “mapping” unless you mean an explicit Bridge, translation relation, or other named relation with loss notes.
 
 **Writing guidance (readability).**
@@ -83,4 +85,5 @@ keywords:
 | Pattern quality needs explicit validation beyond folklore. | Critique of ad hoc validation, including the rule of three, and push toward more rigorous discovery and validation methods. | **Current-best source use for pattern discovery and validation rigor in this row's narrow use.** The source changes E.8 by requiring validation to be explicit rather than folklore-based. | Riehle, Harutyunyan, Barcomb (2020), “Pattern Discovery and Validation Using Scientific Research Methods”. | E.8 encodes validation as Conformance Checklist plus SoTA-Echoing with adoption status and evidence binding. | **Adopt.** Adopt auditability goals; keep the mechanism lightweight through checks and evidence binding. |
 | Governance should constrain structure, not mandate tools. | Specify conformance and structure; do not prescribe processes, notations, tools, or recording media. | **Current-standard reference use.** The architecture-description standard supplies a useful conformance-vs-tooling distinction, but E.8 does not import architecture-description ontology as pattern-authoring ontology. | ISO/IEC/IEEE 42010:2022, *Software, systems and enterprise - Architecture description*. | E.8 is template-centric and conformance-centric, with guardrails against tool and notation lock-in in core narrative. | **Adopt.** Directly adopt the conformance-not-tooling discipline for authoring shape. |
 | Pattern languages are networks; visuals often mislead. | Systematic surveys report low consensus on what to visualise and ambiguous or inexpressive visuals; relations need clear definition in text. | **Current-practice rationale use.** The source is used as rationale for the text-first relation discipline; it is not current-best source material for all pattern-language visualization. | Quirino, Barcellos, Falbo (2018), “Visual Notations for Software Pattern Languages: A Mapping Study”. | E.8 requires a Relations section and keeps diagrams optional, placing primacy on textual structure and explicit links. | **Adapt.** Use the finding as rationale for text-first, relation-explicit authoring. |
+| Controlled technical writing should be plain without losing necessary terms. | Plain-language practice writes for a specific audience, removes unnecessary words and hidden verbs, avoids synonym churn for the same object, and keeps necessary technical or legal terms when they carry the meaning. | **Current-practice source use for kind-safe plain wording.** The source changes E.8 by making plain wording a precision-preserving diagnostic, not decorative simplification. | U.S. Plain Writing Act implementation and Digital.gov plain-language guides; SEC, *A Plain English Handbook*. | E.8 encodes kind-safe plain rewriting: remove phrase-level role/carrier/locus/flow/status apparatus only when it adds no kind, relation, evidence value, or user move; preserve established FPF terms unless `E.10`/`F.18` changes them. | **Adapt.** Adopt audience-first, concise, consistent wording; adapt it to FPF kind preservation. |
 

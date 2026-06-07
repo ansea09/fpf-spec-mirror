@@ -6,12 +6,12 @@ section_id: "C.22.2:11"
 section_title: "Validation, Reliance, AI-Agent Pressure, and Safe Probing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__012_validation-reliance-ai-agent-pressure-and-safe-probing.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:11 — Validation, Reliance, AI-Agent Pressure, and Safe Probing"
-line_start: 44173
-line_end: 44243
+line_start: 44183
+line_end: 44253
 dependencies:
   - "A.10"
   - "A.15"
@@ -84,9 +84,9 @@ Detector, check, and optimization-target discriminator:
 
 Reliance-disposition rule for P2W receiving use:
 
-Use this rule when problem-formulation next-move reason or validation boundary may enter P2W as evidence-like, confidence-like, conformance-like, proxy-like, safety-looking, redress-bearing, or currentness-bearing reliance. The first C.22.2 move is to keep the result problem-side: name the P2W receiving use, non-admissible use, and any live receiving-pattern exit. This rule does not add a default field family to `ProblemCard@Context`. If the Thin card already gives an honest next move and live exits, no additional reliance record is required.
+Use this rule when problem-formulation next-move reason or validation boundary may enter P2W as evidence-like, confidence-like, conformance-like, proxy-like, safety-looking, redress-bearing, or currentness-bearing reliance. The first C.22.2 move is to keep the result problem-side: name the P2W receiving use, non-admissible use, and any live governing-pattern exit. This rule does not add a default field family to `ProblemCard@Context`. If the Thin card already gives an honest next move and live exits, no additional reliance record is required.
 
-Local use role: the disposition table below is a local P2W-reliance recognition and minimum local record aid, and the worked P2W reliance slices are regression/review slices. They are not card field lists, project checklists, or hidden SEMIO state machines. Use them only to state the admissible P2W receiving use, non-admissible use, and receiving-pattern exit when problem-formulation next-move reason or validation boundary is actually being relied on. This local section returns the attempted P2W use to the C.22.2 problem-side relation and named receiving-pattern exits; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
+Local use role: the disposition table below is a local P2W-reliance recognition and minimum local record aid, and the worked P2W reliance slices are regression/review slices. They are not card field lists, project checklists, or hidden SEMIO state machines. Use them only to state the admissible P2W receiving use, non-admissible use, and governing-pattern exit when problem-formulation next-move reason or validation boundary is actually being relied on. This local section returns the attempted P2W use to the C.22.2 problem-side relation and named governing-pattern exits; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
 
 Affordability card: orientation, discussion, or source-finding can remain an ordinary problem-side cue; bounded P2W reliance states the admissible receiving use, non-admissible use, window, and exit; threshold reliance names the receiving evidence, assurance, gate, autonomy, control, work, temporal, or representation relation instead of making the card larger. Plain wording remains ordinary unless it changes admissible use, evidence, gate, assurance, work, decision, or neighboring-pattern exit.
 
@@ -100,7 +100,7 @@ Common wrong first interpretation: `P2W-ready` means proof, safety acceptance, g
 | Contest, redress request, changed representation, retargeting, or changed EntityOfConcern defeats admissibility inheritance | State `RelianceDisposition=reopen`, the relation being reopened, and the card use that is no longer admissible. | `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, `A.10`, `B.3`, or another exact relation when the represented problem, evidence path, or evidence path, source reference, or relation changed. | Treating an older card as still current merely because its text was preserved. |
 | Safety-looking, release-looking, compliance-looking, public-behavior, resource, people/status, autonomy, gate, or control-bearing use is attempted from the card | State `RelianceDisposition=safety-case-required`, `RelianceDisposition=no-current-admissible-use`, or a named exit; do not authorize the use locally. | `B.3` for assurance and the minimum reliance safety-case reliance record, `A.21` for gate decision, `E.16` for autonomy, `A.15` for work, `B.2.5` only when a controlled object is regulated through a feedback channel, evidence channel, cadence, window, or supervisory/control relation, `A.10`/`G.6` for evidence/provenance. | Reading a problem-side card as safety acceptance, tool-call permission, delegated-agent authority, release permission, work plan, performed work, or control authority. |
 
-Minimum P2W reliance statement when this rule is live: problem-formulation next-move reason, validation boundary, `RelianceDisposition`, admissible P2W receiving use, non-admissible use, currentness or window when relevant, contest or redress path when relevant, and live receiving-pattern exits. Do not copy evidence, gate, assurance, work, autonomy, or control fields into the card unless the card is explicitly naming a live exit to the receiving pattern.
+Minimum P2W reliance statement when this rule is live: problem-formulation next-move reason, validation boundary, `RelianceDisposition`, admissible P2W receiving use, non-admissible use, currentness or window when relevant, contest or redress path when relevant, and live governing-pattern exits. Do not copy evidence, gate, assurance, work, autonomy, or control fields into the card unless the card is explicitly naming a live exit to the governing pattern.
 
 Misuse guard: `RelianceDisposition=abstain` and `RelianceDisposition=degrade` must state the condition for reopening, narrowing, or closing the P2W use; do not use uncertainty to block valid P2W receiving use indefinitely or to hide a full pass behind a narrower label.
 
@@ -130,5 +130,5 @@ The AI-agent and autonomy material from the source material is received as neigh
 - evidence, provenance, and assurance exit to `A.10`, `G.6`, and `B.3`;
 - freshness, monitoring, decay, and update triggers exit to `G.11`.
 
-Environment design and safe probing may appear as source signal reference, validation boundary, risk condition, or neighboring-pattern exit. When the next move requires probe planning, autonomy control, gate authority, evidence, assurance, or work authority, an honest card may record `safe-probe-needed` and name `C.24`, `E.16`, `A.21`, or another live receiving pattern; this records a probe need and receiving-pattern relation, not local probe authorization. `C.22.2` does not create a separate problem-environment pattern. If the next move may affect the world, spend resources, call tools, delegate to agents, change an operational state, or require agentic tool-call scouting, tool-call plan selection, checkpoint return, or bounded call plan, `ProblemCard@Context` may only name the probe need. The authority to probe or act exits to `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` when those relations are live.
+Environment design and safe probing may appear as source signal reference, validation boundary, risk condition, or neighboring-pattern exit. When the next move requires probe planning, autonomy control, gate authority, evidence, assurance, or work authority, an honest card may record `safe-probe-needed` and name `C.24`, `E.16`, `A.21`, or another live governing pattern; this records a probe need and governing-pattern relation, not local probe authorization. `C.22.2` does not create a separate problem-environment pattern. If the next move may affect the world, spend resources, call tools, delegate to agents, change an operational state, or require agentic tool-call scouting, tool-call plan selection, checkpoint return, or bounded call plan, `ProblemCard@Context` may only name the probe need. The authority to probe or act exits to `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` when those relations are live.
 

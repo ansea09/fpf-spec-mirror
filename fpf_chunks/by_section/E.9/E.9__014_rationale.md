@@ -6,12 +6,12 @@ section_id: "E.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__014_rationale.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:10 — Rationale"
-line_start: 57488
-line_end: 57509
+line_start: 57532
+line_end: 57553
 dependencies:
   - "E.10"
   - "E.19"
@@ -22,6 +22,7 @@ dependencies:
   - "E.8"
   - "E.9"
   - "E.9.DA"
+  - "F.19"
 keywords:
 ---
 
@@ -39,7 +40,7 @@ use-value, first-minute working situation, scenario grounding, alternatives,
 current disposition map, naming/ontology obligation, selected content distribution,
 existing-pattern sufficiency/new-pattern necessity, overlap classification,
 selected-answer stability, impact/boundary graph, practical payoff, and
-any still-live uncertainty that materially shapes the decision.
+any remaining uncertainty that materially shapes the decision.
 
 Pointer-based DRRs (CC‑DRR.1a) prevent duplicated prose, and distribution
 into Core patterns and selected non-pattern FPF kind-reference pairs (CC‑DRR.4) keeps the specification itself learnable

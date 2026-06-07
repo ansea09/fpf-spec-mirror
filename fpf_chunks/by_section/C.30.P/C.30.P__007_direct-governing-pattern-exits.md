@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "C.30.P"
 pattern_title: "Architecture and Structure Precision Restoration"
 section_id: "C.30.P:5"
-section_title: "Direct receiving-pattern exits"
+section_title: "Direct governing-pattern exits"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.30.P/C.30.P__007_direct-receiving-pattern-exits.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+output_path: "by_section/C.30.P/C.30.P__007_direct-governing-pattern-exits.md"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
-  - "C.30.P:5 — Direct receiving-pattern exits"
-line_start: 52330
-line_end: 52354
+  - "C.30.P:5 — Direct governing-pattern exits"
+line_start: 52340
+line_end: 52364
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,7 +42,7 @@ dependencies:
 keywords:
 ---
 
-### C.30.P:5 - Direct receiving-pattern exits
+### C.30.P:5 - Direct governing-pattern exits
 
 | Recovered use, claim kind, or admissible-use boundary | Exit |
 | --- | --- |
@@ -56,9 +56,9 @@ keywords:
 | source, publication, carrier, view, face, `PublicationUnit`, dashboard, ADR, documentation, source-return | `C.2.P`, `E.17`, `E.17.0`, or exact publication pattern or source pattern |
 | relation construction, basedness, source, base-dependence, evidence, and relation-claim discrimination, endpoint compression, comparison | `A.6.P` or retained exact A.6 specialization |
 | function, functional, functionality, effect, module, interface, or signature claim | `A.6.F`, `A.6.M`, A.6 signature and slot pattern, or retained exact module, interface, or signature specialization |
-| stratification or source labels such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` | `C.30.STRAT`; after recovery, return to `A.22`, `C.30`, `C.30.ASV`, `C.30.LCA`, `C.30.TGA-FLOW-REL`, `A.6.M`, `A.6.F`, `E.18`, `C.16.P`, `C.29`, or the exact receiving pattern |
+| stratification or source labels such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` | `C.30.STRAT`; after recovery, return to `A.22`, `C.30`, `C.30.ASV`, `C.30.LCA`, `C.30.TGA-FLOW-REL`, `A.6.M`, `A.6.F`, `E.18`, `C.16.P`, `C.29`, or the exact governing pattern |
 | mathematical lens, mapping, model, similarity, preserved-structure and lost-structure as mathematical-lens use | `C.29` |
-| characteristic, scale, metric, score, indicator, threshold, architecture score, quality coordinate | `C.16.P`, then `C.16`, `A.19`, `C.25`, `E.21`, or exact receiving pattern |
+| characteristic, scale, metric, score, indicator, threshold, architecture score, quality coordinate | `C.16.P`, then `C.16`, `A.19`, `C.25`, `E.21`, or exact governing pattern |
 | quality-term or evaluative characterization | `C.16.Q`, `C.25`, `E.21`, or exact characterization pattern |
 | evidence, proof, validation, witness | `A.10` or exact evidence pattern |
 | assurance, engineering justification, safety case | `B.3` or exact assurance pattern |

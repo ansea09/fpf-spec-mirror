@@ -6,12 +6,12 @@ section_id: "F.18:11"
 section_title: "Application Guidance (how to apply, step by step)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__012_application-guidance-how-to-apply-step-by-step.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:11 — Application Guidance (how to apply, step by step)"
-line_start: 74475
-line_end: 74531
+line_start: 74596
+line_end: 74652
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -57,7 +57,7 @@ keywords:
 
 **11.5a Test the replacement candidate against umbrella drift.**
 
-* Before replacing an overloaded head, apply the `E.10:0.2` replacement-candidate anti-umbrella rule. Then run the candidate head through the same local-first naming test: primary `EntityOfConcern`, receiving FPF pattern, carried admissible move, exact kind/ref or local field, relation or claim record when live, neighboring exclusions, and example fit.
+* Before replacing an overloaded head, apply the `E.10:0.2` replacement-candidate anti-umbrella rule. Then run the candidate head through the same local-first naming test: primary `EntityOfConcern`, governing FPF pattern, carried admissible move, exact kind/ref or local field, relation or claim record when live, neighboring exclusions, and example fit.
 * Do not approve a candidate merely because it avoids the old bad word. The replacement is acceptable only when the exact FPF kind or local field is defined by value and the current use names its boundaries.
 * If the candidate still hides several possible kinds, keep a candidate-set note and do not mint, rename, or land the term yet.
 

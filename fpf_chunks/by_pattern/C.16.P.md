@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.P.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
-line_start: 40649
-line_end: 40877
+line_start: 40659
+line_end: 40887
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,15 +47,15 @@ keywords:
 **Plain-name.** Characteristic-scale wording repair.
 
 **Intent.**
-Recover characteristic, scale, coordinate, score, metric, indicator, threshold, comparison, and scalar-quality wording whose construction is hidden before a reader applies `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or another exact receiving pattern.
+Recover characteristic, scale, coordinate, score, metric, indicator, threshold, comparison, and scalar-quality wording whose construction is hidden before a reader applies `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or another exact governing pattern.
 
-This pattern is not a metrics-only pattern, not a measurement-method replacement, not a Q-bundle pattern, and not a gate or decision pattern. It repairs overloaded characterization wording so the exact `Characteristic`, `Scale`, `Coordinate`, `Value`, `Score`, `Unit`, `ScoringMethod`, indicator role, comparison reference or comparator set, proxy role, admissible use, and receiving pattern become recoverable.
+This pattern is not a metrics-only pattern, not a measurement-method replacement, not a Q-bundle pattern, and not a gate or decision pattern. It repairs overloaded characterization wording so the exact `Characteristic`, `Scale`, `Coordinate`, `Value`, `Score`, `Unit`, `ScoringMethod`, indicator role, comparison reference or comparator set, proxy role, admissible use, and governing pattern become recoverable.
 
 **Builds on.** `E.10`, `E.10.ARCH`, `A.17`, `A.18`, `C.16`, `A.19`, `C.25`, `C.29`, `E.21`, `F.18`, and `A.6.P`.
 
 **Coordinates with.** `C.16.Q`, `A.19.ECS`, CHR mechanism patterns, `G.0`, `G.5`, `G.9`, `C.11`, `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, exact evidence, assurance, gate, decision, causal-use, release, work, benchmark, and publication patterns.
 
-**E.10.ARCH receiver relation.** When `E.10` encounters `metric`, `score`, `axis`, `dimension`, `feature`, `property`, `indicator`, `strong`, `weak`, `robust`, `level`, `coordinate`, `threshold`, `benchmark`, or scalar-quality wording whose characteristic and scale construction is hidden, `E.10.ARCH` routes the repair to `C.16.P` only until bearer, characteristic, scale, value or score construction, comparison reference or comparator set, threshold rule or reference, proxy relation, admissible use, and exact receiving pattern are recovered. After that recovery, the receiving pattern governs its own invariant.
+**E.10.ARCH governing relation.** When `E.10` encounters `metric`, `score`, `axis`, `dimension`, `feature`, `property`, `indicator`, `strong`, `weak`, `robust`, `level`, `coordinate`, `threshold`, `benchmark`, or scalar-quality wording whose characteristic and scale construction is hidden, `E.10.ARCH` selects `C.16.P` only until bearer, characteristic, scale, value or score construction, comparison reference or comparator set, threshold rule or reference, proxy relation, admissible use, and exact governing pattern are recovered. After that recovery, the governing pattern governs its own invariant.
 
 ### C.16.P:0 - Use this when
 
@@ -63,7 +63,7 @@ Use this pattern when wording such as `axis`, `dimension`, `feature`, `property`
 
 **What goes wrong if missed.** A metric becomes a measure without a scale, a score becomes proof, `strong` becomes a verdict without a characteristic, a level becomes an undefined maturity status, an indicator becomes the thing indicated, or a benchmark result becomes gate passage or release permission.
 
-**What this buys.** The reader can recover the bearer, characteristic, scale, value, score, unit, scoring method, indicator role, comparison reference or comparator set, threshold, admissible use, and exact receiving pattern before treating a number, adjective, coordinate, or comparison as actionable.
+**What this buys.** The reader can recover the bearer, characteristic, scale, value, score, unit, scoring method, indicator role, comparison reference or comparator set, threshold, admissible use, and exact governing pattern before treating a number, adjective, coordinate, or comparison as actionable.
 
 **First useful move.** Ask which bearer, characteristic, scale, value or score construction is recoverable; then apply `C.16`, `A.19`, `C.25`, `C.29`, `E.21`, or the exact neighboring pattern instead of letting the compact word decide.
 
@@ -80,7 +80,7 @@ Working texts often need compact characterization words. The problem starts when
 
 The repair question is:
 
-> What characteristic or scale construction is recoverable, and what exact receiving pattern carries the remaining claim?
+> What characteristic or scale construction is recoverable, and what exact governing pattern carries the remaining claim?
 
 The recoverable item may be:
 
@@ -103,7 +103,7 @@ How can FPF repair characterization wording without:
 - treating `axis`, `dimension`, `feature`, `property`, or `level` as a recoverable characteristic by appearance;
 - treating `strong`, `weak`, `robust`, `high`, `low`, or `better` as meaningful without a scale and comparison reference or comparator set;
 - turning `C.16.P` into a CHR super-pattern or replacement for `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, or `E.21`;
-- copying first-stage characterization repair lists into every receiving pattern.
+- copying first-stage characterization repair lists into every governing pattern.
 
 ### C.16.P:3 - Forces
 
@@ -147,7 +147,7 @@ CharacteristicScaleRepairNote:
   disposition:
 ```
 
-Use the full note only when the repair must remain inspectable. Use a local rewrite when one sentence clearly states the characteristic and scale construction and exact receiving pattern.
+Use the full note only when the repair must remain inspectable. Use a local rewrite when one sentence clearly states the characteristic and scale construction and exact governing pattern.
 
 #### C.16.P:4.1 - Recovery sequence
 
@@ -156,7 +156,7 @@ Use the full note only when the repair must remain inspectable. Use a local rewr
 3. **Recover the construction.** Decide whether the trigger means `Characteristic`, `Scale`, coordinate, value, score, unit, scoring method, indicator, threshold, comparison reference or comparator set, proxy, Q-bundle, mathematical lens, gate, evidence, decision, or ordinary prose.
 4. **Select direct exact pattern when possible.** If `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or another exact pattern is already recoverable, use it directly.
 5. **Repair hidden characteristic and scale construction.** When construction is hidden, recover the minimal needed set: characteristic, scale, value set, score, unit, scoring method, indicator role, comparison reference or comparator set, threshold rule or reference, admissible use, and non-admissible use.
-6. **Exit adjacent claims.** Evidence, assurance, gate, work, decision, causal-use, release, benchmark, publication, or authority claims go to exact receiving patterns.
+6. **Exit adjacent claims.** Evidence, assurance, gate, work, decision, causal-use, release, benchmark, publication, or authority claims go to exact governing patterns.
 7. **State remaining reader move.** Say what the reader can now compare, measure, score, block, or assign to a neighboring pattern. If the result is type-correct but gives no action or recognition reason, the repair is incomplete.
 
 ### C.16.P:5 - Trigger split
@@ -174,7 +174,7 @@ Use the full note only when the repair must remain inspectable. Use a local rewr
 | `threshold` | Threshold on which scale, with what comparison reference or comparator set, gate relation, and non-use boundary? | Threshold as decision by itself. |
 | `benchmark` | Benchmark for which characteristic, comparison set, front, archive, or harness? | Benchmark result as proof or release. |
 
-### C.16.P:6 - Exact receiving-pattern exits
+### C.16.P:6 - Exact governing-pattern exits
 
 | Recovered construction, claim kind, or admissible-use boundary | Exit |
 | --- | --- |
@@ -202,7 +202,7 @@ Reopen or narrow `C.16.P` when current pattern-language ecology changes the firs
 - a new exact characteristic, scale, evaluation, benchmark, proxy or indicator, gate or decision, mathematical-lens, quality, OEE, NQD, or publication pattern can receive one row directly;
 - current best-known practice changes comparability, proxy-risk, threshold, measurement, scoring-method, or benchmark-harness discipline adopted in `C.16.P:8`;
 - `J.4` entry projection changes the first practical entry for hidden characteristic and scale wording;
-- a receiving pattern starts copying first-stage `metric`, `score`, `axis`, `strong`, or `indicator` trigger lists that belong here;
+- a governing pattern starts copying first-stage `metric`, `score`, `axis`, `strong`, or `indicator` trigger lists that belong here;
 - `C.16.P` begins to act as a metrics catalog, maturity scheme, or CHR super-pattern rather than a wording-use repair pattern for hidden construction.
 
 The refresh action is to remove, narrow, or redirect the first-stage row. It is not to preserve old exits as history.
@@ -228,17 +228,17 @@ Current measurement, quality, proxy-risk, and comparison practice distinguishes 
 | ISO/IEC 25010:2023 product quality model. | Current-standard reference for quality-characteristic families. | Disciplines quality and scalar-quality cases: a quality word needs characteristic and scale construction or exact quality-pattern use before comparison, score, or gate use. | Does not import ISO quality characteristics as the FPF quality ontology; quality-term or evaluative characterization still exits to `C.16.Q`, `C.25`, or `E.21` when live. |
 | ISO/IEC 80000 quantities and units practice and VIM-style metrology vocabulary. | Current reference for quantities, units, and measurement vocabulary. | Disciplines unit, value, scale, and scoring-method fields; blocks number-without-scale and unitless comparison overreads. | Does not impose physical-quantity metrology on qualitative, ordinal, or pattern-quality characteristic spaces. |
 | NIST AI RMF 1.0 metric and risk-management practice, including measurement, monitoring, validity, and risk-tolerance framing. | Current practice reference for proxy and indicator risk. | Disciplines `indicatorRole`, `proxyDistortionRisk`, threshold rule or reference, and non-admissible use; informs the indicator and proxy and score-as-gate anti-patterns. | Does not let a risk metric, dashboard, or benchmark become assurance, release permission, or decision authority. |
-| Current FPF internal characterization stack: `A.17`, `A.18`, `C.16`, `A.19`, `C.25`, `C.29`, and `E.21`. | Current FPF governing-source relation; primary authority for FPF characteristic and scale recovery. | Selects the exact receiving pattern after repair and prevents `C.16.P` from becoming a CHR super-pattern. | Does not copy local trigger lists into receiving patterns or replace exact characteristic-space, quality, mathematical-lens, benchmark, gate, or decision patterns. |
+| Current FPF internal characterization stack: `A.17`, `A.18`, `C.16`, `A.19`, `C.25`, `C.29`, and `E.21`. | Current FPF governing-source relation; primary authority for FPF characteristic and scale recovery. | Selects the exact governing pattern after repair and prevents `C.16.P` from becoming a CHR super-pattern. | Does not copy local trigger lists into governing patterns or replace exact characteristic-space, quality, mathematical-lens, benchmark, gate, or decision patterns. |
 
 This row blocks scalar verdicts without declared scale and admissible use. It does not import metric lists, maturity-status schemes, or external scoring traditions as FPF ontology.
 ### C.16.P:9 - Conformance checklist
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C16P-1` | The repair names trigger span, bearer, recovered characteristic or scale construction, exact receiving pattern, admissible use, non-admissible use, and remaining reader move. |
+| `CC-C16P-1` | The repair names trigger span, bearer, recovered characteristic or scale construction, exact governing pattern, admissible use, non-admissible use, and remaining reader move. |
 | `CC-C16P-2` | `metric`, `score`, `axis`, `dimension`, `feature`, `property`, `indicator`, `strong`, `weak`, `robust`, `level`, `coordinate`, `threshold`, and `benchmark` are trigger words, not recovered kinds by themselves. |
-| `CC-C16P-3` | Direct `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or exact receiving-pattern use applies the exact pattern directly when construction is already recoverable. |
-| `CC-C16P-4` | Evidence, assurance, gate, work, decision, causal-use, release, publication, benchmark, and authority claims exit to exact receiving patterns. |
+| `CC-C16P-3` | Direct `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or exact governing-pattern use applies the exact pattern directly when construction is already recoverable. |
+| `CC-C16P-4` | Evidence, assurance, gate, work, decision, causal-use, release, publication, benchmark, and authority claims exit to exact governing patterns. |
 | `CC-C16P-5` | The repair does not create a metrics-only restoration pattern, CHR super-pattern, scalar verdict, undefined maturity-status scheme, or release decision. |
 | `CC-C16P-6` | The repaired wording preserves one useful admissible reader move; type-correct but inert characterization wording is not recovered by value. |
 

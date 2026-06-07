@@ -6,12 +6,12 @@ section_id: "A.0:section-001"
 section_title: "1) Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__002_1-problem-frame.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-001 — 1) Problem frame"
-line_start: 891
-line_end: 894
+line_start: 893
+line_end: 896
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

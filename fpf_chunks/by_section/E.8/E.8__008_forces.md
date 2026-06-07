@@ -6,12 +6,12 @@ section_id: "E.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__008_forces.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:3 — Forces"
-line_start: 56547
-line_end: 56554
+line_start: 56574
+line_end: 56581
 dependencies:
   - "E.10"
   - "E.19"
@@ -26,6 +26,8 @@ dependencies:
   - "E.9"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
+  - "J.4"
 keywords:
   - "). The key words MUST"
   - "MAY"

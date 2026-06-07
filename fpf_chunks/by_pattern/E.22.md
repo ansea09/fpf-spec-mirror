@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.22.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
-line_start: 67590
-line_end: 67794
+line_start: 67705
+line_end: 67914
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -21,6 +21,7 @@ dependencies:
   - "E.21"
   - "E.23"
   - "E.9.DA"
+  - "F.19"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -35,9 +36,9 @@ Status: Core.
 
 Use `E.22` when someone is about to ask for a quality evaluation, quality review, returned-finding absorption, improvement proposal, or next-move hypothesis over an exact object version, and the question needs to say what kind of evaluation is wanted before the evaluator starts.
 
-`E.22` frames the question. It does not evaluate the object. The values, coordinates, statuses, and stop meanings come from the named object-under-improvement evaluation: for example `E.21` for one pattern version, `E.9.DA` for one `DRR`, `E.2.DA` for an FPF-level object, `E.19` for an admission or refresh review profile, `C.25` for an engineering quality bundle, or another declared characteristic space, scale set, rubric, or review profile.
+`E.22` frames the question. It does not evaluate the object. The values, coordinates, statuses, and stop meanings come from the named object-under-improvement evaluation: for example `E.21` for one pattern version, `E.9.DA` for one `DRR`, `E.2.DA` for an FPF-level object, `C.25` for an engineering quality bundle, or another declared characteristic space, scale set, rubric, or review profile. `E.19` is different: it supplies an admission or refresh review gate and findings profile. Use `E.19` as the object-under-improvement evaluation only when the object being evaluated is an `E.19` review-profile result itself. For one FPF pattern version, `E.21` supplies the coordinate values and `PatternQualityStatus`; `E.19` may later check that the `E.21` result is valid, sufficient for the release seam, and not overread as project evidence, release, gate, assurance, or work.
 
-Not this pattern when the question is already scoped and one direct evaluation is enough. Run the object-under-improvement evaluation directly. Use `E.23` when repeated improvement across passes is live.
+Not this pattern when the question is already scoped and one direct evaluation is enough. Run the object-under-improvement evaluation directly. Use `E.23` when repeated improvement across passes is needed.
 
 First useful move: write a `QualityEvaluationQuestionFrame` naming the object version, the object-under-improvement evaluation, the purpose, the floor or improvement aim, protected trade-offs, expected evidence basis, and expected result form.
 
@@ -57,7 +58,7 @@ The defect is not that reviewers need more ceremony. The defect is that an unfra
 |---|---|
 | Cheap readiness vs ambitious improvement | A floor evaluation should be short; exceptional improvement needs richer proposals. |
 | Explicit purpose vs reviewer discovery | The request names the purpose, while the reviewer can still report important unasked questions. |
-| Evaluation vs next move | A useful evaluation may suggest a next move, but the suggestion remains a hypothesis until another exact pattern receives it. |
+| Evaluation vs next move | A useful evaluation may suggest a next move, but the suggestion remains a hypothesis until the exact pattern that governs the claim, relation, or boundary is applied. |
 | Multi-coordinate gain vs Goodhart risk | Raising one visible value can damage usability, affordability, locality, source preservation, or corpus ecology. |
 | Proposal portfolio vs selected result | Several candidate improvements may be useful without becoming a selected set, pool policy, front insertion, parity, or refresh result. |
 
@@ -73,14 +74,15 @@ The defect is not that reviewers need more ceremony. The defect is that an unfra
 | `ObjectVersionUnderQualityEvaluation` | Exact object version being evaluated. |
 | `ObjectUnderImprovementEvaluationRef` | Exact evaluation pattern, characteristic space, scale set, rubric, review profile, or quality bundle that supplies values. |
 | `QualityEvaluationPurposeSelection` | Requested evaluation purpose or combined purposes. |
-| `DeclaredQualityFloor` | Minimum acceptable coordinate or status floor when a floor claim is live. |
-| `DesiredImprovementAim` | Requested movement beyond the floor when live. |
+| `DeclaredQualityFloor` | Minimum acceptable coordinate or status floor when the frame declares a floor claim. |
+| `DesiredImprovementAim` | Requested movement beyond the floor when improvement beyond the floor is requested. |
 | `TradeoffProtectionSet` | Qualities that must not silently worsen while visible values improve. |
 | `ExpectedEvaluationEvidenceBasis` | Evidence loci the named evaluation must check or name for the requested purpose: object version, corpus/projection loci, source-currentness loci, comparator loci, worked cases, returned findings, or exact missing loci. |
-| `ExpectedQualityEvaluationResultForm` | The result-row shape required by the named evaluation, including coordinate/value/short-rationale rows and any evidence-locus or coordinate-specific payload fields. |
+| `ExpectedQualityEvaluationResultForm` | The result-row shape required by the named evaluation, including coordinate/value/short-rationale rows, mandatory attention-discharge profiles such as `E.21` `PrecisionRestorationProfile`, and any evidence-locus or coordinate-specific payload fields. For `E.21`, this profile collapses word/head/use, phrase-apparatus, repetition/distribution, role-carrier, and pattern-application layers into affected-coordinate effects. |
 | `QualityReviewFindingRow` | Actionable row for a returned finding, expected movement, correction direction, and closure test. |
+| `KindRestorationCheck` | Required field for any finding or proposal whose correction direction changes wording, naming, or precision-restoration content: pre-repair kind/relation/slot-or-use-position/admissible use/scope, proposed post-repair kind/relation/slot-or-use-position/admissible use/scope, or `not triggered`/`ordinary prose`/`already satisfied`/`blocker` disposition with loci. |
 | `CandidateImprovementProposalPortfolio` | Bounded set of proposal rows returned by the evaluation when alternatives are useful. |
-| `NextAdmissibleMoveHypothesis` | Stop, repair, proposal, trade-off warning, outside-evaluation assignment, new-frame assignment, or exact-neighbour assignment suggested by the evaluation. |
+| `NextAdmissibleMoveHypothesis` | Stop, repair, proposal, trade-off warning, outside-evaluation statement, new-frame statement, or exact governing pattern for a specific claim, relation, or boundary suggested by the evaluation. This is the proposed next improvement move, not a substitute for the evaluation result. |
 
 These names frame and report quality evaluation. They do not select candidates, publish sets, plan work, certify evidence, approve release, or create new values.
 
@@ -112,7 +114,7 @@ QualityEvaluationQuestionFrame:
   Non-use boundary: <what this result must not decide, certify, publish, plan, execute, or prove>
 ```
 
-The shortest floor frame may name only object version, object-under-improvement evaluation, purpose `floorEvaluation`, and declared floor. The named evaluation still runs its required coordinate set and returns the result-row shape, evidence basis, rationales, and coordinate-specific payloads required by that evaluation.
+The shortest floor frame may name only object version, object-under-improvement evaluation, purpose `floorEvaluation`, and declared floor. The named evaluation still runs its required coordinate set and returns the result-row shape, evidence basis, rationales, coordinate-specific payloads, and mandatory attention-discharge profiles required by that evaluation. For one FPF pattern version under `E.21`, compactness never permits omitted coordinates, missing `ShortRationale`, absent `PrecisionRestorationProfile`, inactive/triggered-coordinate shortcuts, scope narrowing, or a blocker-only substitute result.
 
 The frame does not authorize post-hoc scope replacement. If the requested floor is landing-input, corpus-facing, `Stable`, release, external-review, or another stated use, the evaluator measures that use. If a different use becomes interesting, open a new `QualityEvaluationQuestionFrame`; do not report the current request as passed under an easier scope.
 
@@ -128,10 +130,13 @@ QualityReviewFindingRow:
   Current value or status: <if known>
   Expected movement: <repair floor | raise toward exceptional | prevent loss | classify outside>
   Correction direction: <what should change>
+  Kind restoration check: <required when wording, naming, or precision restoration changes text; otherwise `not triggered`, `ordinary prose`, or `already satisfied` with loci>
   Closure test: <what evidence would close the row>
 ```
 
-A proposal row uses the same shape plus expected trade-offs and neighbour exit. One edit may close several rows, but each row keeps its own disposition and closure evidence.
+A proposal row uses the same shape plus expected trade-offs and the exact governing pattern for any outside claim, relation, or boundary when needed. One edit may close several rows, but each row keeps its own disposition and closure evidence.
+
+For wording, naming, and precision-restoration proposals, the correction direction is not "replace X with Y". It must state the recovered object kind, relation, slot or use-position when live, admissible use, and scope before and after the change, or state `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` with loci. A proposal that only removes the suspicious word, that leaves the text unchanged without by-value discharge, or that narrows one kind into another without an accepted decision, is a finding, not a closed repair.
 
 #### E.22:4.5 - Absorption impact values
 
@@ -139,7 +144,7 @@ A proposal row uses the same shape plus expected trade-offs and neighbour exit. 
 |---|---|
 | `coordinateImproved` | A named coordinate or status has stronger content evidence after the change. |
 | `floorOnlyClosure` | A below-floor defect was repaired enough for the floor but not exceptional expression. |
-| `unchangedBecauseAlreadySatisfied` | The suggestion was already satisfied by value. |
+| `unchangedBecauseAlreadySatisfied` | The suggestion was already satisfied by value, with exact loci and the evaluation property it already satisfies. |
 | `tradeoffIntroduced` | A repair raised one property and damaged another. |
 | `qualityLossDetected` | The applied or proposed change lowers a value or protected quality. |
 | `outsideObjectUnderImprovementEvaluation` | The suggestion belongs under another exact evaluation or pattern. |
@@ -155,11 +160,11 @@ When the object is a candidate, archive/front member, selected set, parity repor
 
 **Floor evaluation.** A reviewer is asked whether one pattern is ready for ordinary use. The frame names `E.21`, purpose `floorEvaluation`, the declared floor, and the expected `E.21` result form. The result is a complete `E.21` coordinate table with `ShortRationale` and `EvaluationEvidenceBasis`, not a narrative "looks fine."
 
-**Exceptional improvement.** A pattern already passes the floor. The frame asks for non-dominated improvements toward `5` while protecting usability and neighbour fit. The result returns proposal rows for missing worked cases and source-currentness, plus no-candidate dispositions for coordinates already strongly expressed.
+**Exceptional improvement.** A pattern already passes the floor. The frame asks for non-dominated improvements toward `5` while protecting usability and related-pattern fit. The result returns proposal rows for missing worked cases and source-currentness, plus no-candidate dispositions for coordinates already strongly expressed.
 
 **Absorption.** External review returns many suggestions. The frame asks for `absorptionEvaluation`. The result says which changes improved coordinates, which were already satisfied, which introduced trade-offs, and which belong outside the evaluation.
 
-**Proposal portfolio.** A candidate improvement campaign needs alternatives before editing. The frame asks for `candidateImprovementProposalEvaluation`. The result returns bounded proposal rows; selection or generation stays with exact neighbours.
+**Proposal portfolio.** A candidate improvement campaign needs alternatives before editing. The frame asks for `candidateImprovementProposalEvaluation`. The result returns bounded proposal rows; selection or generation stays with the exact pattern that governs that claim and is not decided by the evaluation frame.
 
 ### E.22:6 - Bias annotation
 
@@ -174,12 +179,12 @@ The bias is bounded. `E.22` does not supply quality values, run repeated improve
 | `CC-E22-1` | Name the exact object version and object-under-improvement evaluation. |
 | `CC-E22-2` | State purpose, declared floor or improvement aim, protected trade-offs, and expected result form. |
 | `CC-E22-3` | Keep the object-under-improvement evaluation as the source of values and required coordinates. |
-| `CC-E22-4` | Represent actionable returned work as row-level findings or proposal rows with expected quality movement and closure tests. |
+| `CC-E22-4` | Represent actionable returned work as row-level findings or proposal rows with expected quality movement, closure tests, and `KindRestorationCheck` when the row proposes wording, naming, or precision-restoration repair. When a relation/signature/lens slot or use-position is live, the row cites the exact governing pattern named by the evaluation or restoration result; `E.22` frames the improvement question and does not restate that ontology. |
 | `CC-E22-5` | For absorption, report quality impact on the changed object, not only applied/not-applied disposition. |
-| `CC-E22-6` | State non-use boundary when the result might be overread as decision, work, evidence, assurance, gate, release, certification, publication, parity, refresh, or selected-set authority. |
+| `CC-E22-6` | State a compact declarative non-use boundary when the result might be overread as decision, work, evidence, assurance, gate, release, certification, publication, parity, refresh, or selected-set authority. Keep the result on the evaluation question and name only the specific outside claim plus the exact pattern that governs it when one is needed; precision-restoration or phrase-apparatus issues belong to the named evaluation profile and `F.19`, not to a local boundary catalogue. |
 | `CC-E22-7` | State what became worse when a proposed or applied improvement raises visible values. |
 | `CC-E22-8` | Send repeated improvement to `E.23` after one framed evaluation returns findings or proposals. |
-| `CC-E22-9` | Name the expected evidence basis and result-row shape from the object-under-improvement evaluation; `E.22` cannot authorize omitted coordinates, missing rationales, unchecked loci, or a weaker result form. |
+| `CC-E22-9` | Name the expected evidence basis and result-row shape from the object-under-improvement evaluation; `E.22` cannot authorize omitted coordinates, missing rationales, missing mandatory attention-discharge profiles, missing `PrecisionRestorationProfile` when `E.21` is used, unchecked loci, inactive/triggered-coordinate shortcuts, scope narrowing, or a weaker result form. |
 
 ### E.22:8 - Common anti-patterns and repairs
 
@@ -188,10 +193,11 @@ The bias is bounded. `E.22` does not supply quality values, run repeated improve
 | **"Review this" prompt.** The evaluator infers purpose. | Add a `QualityEvaluationQuestionFrame`. |
 | **Floor pass sold as excellence.** Readiness is mistaken for exceptional improvement. | State `exceptionalImprovementEvaluation` if wanted. |
 | **Frame replaces result.** The question frame names a purpose but returns prose, a two-column value table, or proposal rows without the named evaluation's result form. | Re-run the named evaluation and return its required coordinates, evidence basis, rationales, and payload fields. |
-| **Scope laundering.** The frame asks one use, but the result answers an easier host-drafting, expert-only, local-reference, or diagnostic use. | Re-run the named evaluation under the requested use; if another use is needed, open a new frame rather than saving the current result. |
+| **Scope laundering.** The frame asks one use, but the result answers an easier, local-only, diagnostic, or evaluator-selected use. | Re-run the named evaluation under the requested use; if another use is needed, open a new frame rather than saving the current result. |
 | **Applied-count absorption.** Closure count replaces quality movement. | Re-evaluate the changed object and classify impact. |
 | **Goodharted improvement.** Visible values rise while protected qualities worsen. | Add trade-off protection and reject dominated changes. |
 | **Recommendation as decision.** A next-move hypothesis is treated as chosen work. | Open the exact decision, work, publication, parity, refresh, evidence, or assurance pattern if that claim is needed. |
+| **Lexical repair request.** A finding says only "replace this word" or "avoid that wording." | Rewrite the row as a precision-restoration finding with pre/post kind, relation, admissible use, and scope; if no kind-preserving repair is recoverable, leave it blocking. |
 
 ### E.22:9 - Consequences
 
@@ -209,7 +215,7 @@ There is no neutral generic request when a quality result is wanted. The useful 
 
 | Claim | Current or retained source line | Local adoption |
 |---|---|---|
-| Quality evaluation should be multidimensional, diagnostic, and actionable. | Current rubric and long-form evaluation work, including multidimensional LLM rubric evaluation and meta-evaluation lines, treats rubric validity and actionable feedback as live problems. | Findings name evaluation effects, expected movement, correction direction, and closure tests. |
+| Quality evaluation should be multidimensional, diagnostic, and actionable. | Current rubric and long-form evaluation work, including multidimensional LLM rubric evaluation and meta-evaluation lines, treats rubric validity and actionable feedback as current problems. | Findings name evaluation effects, expected movement, correction direction, and closure tests. |
 | Feedback needs desired condition, current condition, and next action. | Hattie/Timperley and Sadler lineage, retained through current feedback-evaluation work. | The frame states floor or desired aim, current evaluation object, and expected result form. |
 | Evaluation questions must derive from purpose. | GQM lineage and current task-specific rubric evaluation work. | `QualityEvaluationPurposeSelection` precedes values. |
 | Multi-criteria improvement needs trade-offs and non-dominated alternatives. | MCDA, Pareto, ATAM lineage plus current architecture trade-off evaluation work. | `paretoTradeoffEvaluation` and `TradeoffProtectionSet` prevent one-score closure. |

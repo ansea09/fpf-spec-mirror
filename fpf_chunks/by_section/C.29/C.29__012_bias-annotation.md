@@ -6,12 +6,12 @@ section_id: "C.29:10"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__012_bias-annotation.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:10 — Bias annotation"
-line_start: 50983
-line_end: 50997
+line_start: 50993
+line_end: 51007
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -68,7 +68,7 @@ keywords:
 | Bias risk | C.29 correction |
 |---|---|
 | **Mathematical prestige bias** | Require `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseAdmissibilityValue`, and `StopCondition`. |
-| **Physics envy** | Physical source-domain ontology does not transfer without separate proof or evidence and receiving pattern. |
+| **Physics envy** | Physical source-domain ontology does not transfer without separate proof or evidence and governing pattern. |
 | **Category-theory monoculture** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
 | **Speculation laundering** | Vanchurin enters as candidate lens or SoTA-echo, not accepted fact. |
 | **Over-formalization** | Low-consequence analogy can remain local prose; reusable or decision-bearing lens needs a `MathLensUse.*` card. |

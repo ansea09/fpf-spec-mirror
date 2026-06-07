@@ -6,12 +6,12 @@ section_id: "B.2:5"
 section_title: "Promotion Record & proof obligations (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_promotion-record-proof-obligations-normative.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:5 — Promotion Record & proof obligations (normative)"
-line_start: 30340
-line_end: 30390
+line_start: 30350
+line_end: 30400
 dependencies:
   - "A.1"
   - "A.12"

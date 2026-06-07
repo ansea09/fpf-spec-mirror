@@ -6,12 +6,12 @@ section_id: "A.19.SPR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__010_relations.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:8 — Relations"
-line_start: 23113
-line_end: 23130
+line_start: 23123
+line_end: 23140
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,7 +47,7 @@ keywords:
 
 | Pattern | Relation |
 | --- | --- |
-| `E.10` | Catches state-family trigger wording and selects local repair, `A.19.SPR`, direct receiving pattern, controlled precision reduction, `F.18`, or fail-closed non-use. |
+| `E.10` | Catches state-family trigger wording and selects local repair, `A.19.SPR`, direct governing pattern, controlled precision reduction, `F.18`, or fail-closed non-use. |
 | `E.10.ARCH` | Provides the shared wording-use restoration architecture. `A.19.SPR` is the realization pattern for recurring state-family hidden-field cases. |
 | `A.19` | Governs `CharacteristicSpace` and state-space typing. `A.19.SPR` uses A.19 only when the state-like claim is a characteristic-space position or comparable state. |
 | `A.3.3` | Governs dynamics and state-transition laws when reusable change semantics are live. |
@@ -59,5 +59,5 @@ keywords:
 | `C.29` | Governs mathematical-lens use and retains `LensUseAdmissibilityValue` when declared. |
 | `E.9.DA`, `E.21`, `E.19` | Govern DRR adequacy status, pattern-quality status, and pattern review or admission profiles. |
 | `F.18` | Governs durable naming when a state-family field becomes reusable vocabulary. |
-| `J.4` | Points practical entry questions to `A.19.SPR` when state-family wording hides the first receiving pattern. |
+| `J.4` | Points practical entry questions to `A.19.SPR` when state-family wording hides the first governing pattern. |
 

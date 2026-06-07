@@ -6,12 +6,12 @@ section_id: "E.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__016_relations.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:12 — Relations"
-line_start: 57525
-line_end: 57533
+line_start: 57569
+line_end: 57577
 dependencies:
   - "E.10"
   - "E.19"
@@ -22,6 +22,7 @@ dependencies:
   - "E.8"
   - "E.9"
   - "E.9.DA"
+  - "F.19"
 keywords:
 ---
 
@@ -30,7 +31,7 @@ keywords:
 * **Instantiates:** P‑10 Open‑Ended Evolution, P‑2 Didactic Primacy
 * **Template governed by:** `pat:authoring/pattern‑template` (E.8)
 * **Interacts with:** `pat:guard/bias‑audit` (E.5.4) via lens check
-* **Complemented by:** `E.9.DA` when one concrete `DRR` follows E.9 form but its adequacy for downstream drafting, host amendment, accepted-decision carry-through, source-use carry-through, or receiving-locus distribution is disputed or materially live. `E.9.DA` reads the `DRR` decision-adequacy claim; it is not a second DRR form, review gate, or mandatory ordinary editorial step. Also complemented by `pat:authoring/code-of-conduct` (E.12) for etiquette in DRR debate.
+* **Complemented by:** `E.9.DA` when one concrete `DRR` follows E.9 form but its adequacy for downstream drafting, host amendment, accepted-decision carry-through, source-use carry-through, or selected-locus distribution is disputed or materially relevant. `E.9.DA` reads the `DRR` decision-adequacy claim; it is not a second DRR form, review gate, or mandatory ordinary editorial step. Also complemented by `pat:authoring/code-of-conduct` (E.12) for etiquette in DRR debate.
 
-* **Coordinates with:** `E.23` when one `DRR` is being improved through repeated quality-improvement passes. `E.9` keeps the `DRR` kind and decision-record form; `E.9.DA` supplies the decision-adequacy object-under-improvement evaluation when adequacy is live; `E.23` governs the repeated method rather than turning the DRR into final pattern prose.
+* **Coordinates with:** `E.23` when one `DRR` is being improved through repeated quality-improvement passes. `E.9` keeps the `DRR` kind and decision-record form; `E.9.DA` supplies the decision-adequacy object-under-improvement evaluation when adequacy is being improved; `E.23` governs the repeated method rather than turning the DRR into final pattern prose.
 

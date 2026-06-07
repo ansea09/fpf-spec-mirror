@@ -6,12 +6,12 @@ section_id: "A.12:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__003_problem.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:2 — Problem"
-line_start: 18717
-line_end: 18724
+line_start: 18719
+line_end: 18726
 dependencies:
   - "A.3"
   - "B.2.5"

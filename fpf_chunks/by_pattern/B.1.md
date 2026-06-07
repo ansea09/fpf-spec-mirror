@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
-line_start: 28409
-line_end: 28576
+line_start: 28419
+line_end: 28586
 dependencies:
   - "A.1"
   - "A.9"

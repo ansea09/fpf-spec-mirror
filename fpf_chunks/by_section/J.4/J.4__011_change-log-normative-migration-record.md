@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "J.4"
 pattern_title: "First Practical Entry Neighborhood Index"
-section_id: "J.4:section-006"
+section_id: "J.4:section-010"
 section_title: "Change Log (normative migration record)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/J.4/J.4__007_change-log-normative-migration-record.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+output_path: "by_section/J.4/J.4__011_change-log-normative-migration-record.md"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
-  - "J.4:section-006 — Change Log (normative migration record)"
-line_start: 81840
-line_end: 81845
+  - "J.4:section-010 — Change Log (normative migration record)"
+line_start: 82236
+line_end: 82241
 dependencies:
 keywords:
 ---

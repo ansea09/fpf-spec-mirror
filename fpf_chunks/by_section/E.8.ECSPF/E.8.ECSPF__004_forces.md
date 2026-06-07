@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__004_forces.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:3 — Forces"
-line_start: 57064
-line_end: 57074
+line_start: 57097
+line_end: 57107
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -22,6 +22,7 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
@@ -33,6 +34,6 @@ keywords:
 | **Generic E.8 form vs ECS payload** | The canonical pattern skeleton stays fixed, but the payload has special fields from `A.19.ECS`. |
 | **Reusable FPF pattern vs local evaluation** | FPF publication is useful only when the evaluation is durable and reusable beyond one local project. |
 | **Exact values vs checklist feel** | Values and statuses must be exact without making the pattern feel like an administrative form. |
-| **Neighbour exits vs second ontology** | The pattern must keep outside claims with exact neighbours without becoming a directory of every adjacent pattern. |
+| **Related-pattern statements vs second ontology** | The pattern must keep outside claims with exact governing patterns for those claims without becoming a directory of every related pattern. |
 | **Evaluation of object vs evaluation of FPF pattern version** | The evaluation judges its evaluated object; `E.21` may separately evaluate whether the authored FPF pattern publication form is good enough. |
 

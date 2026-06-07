@@ -6,12 +6,12 @@ section_id: "A.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__001_intro.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:intro — Intro"
-line_start: 17982
-line_end: 17985
+line_start: 17984
+line_end: 17987
 dependencies:
   - "A.8"
   - "U.Types"

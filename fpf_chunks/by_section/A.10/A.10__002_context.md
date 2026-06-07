@@ -6,12 +6,12 @@ section_id: "A.10:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__002_context.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:1 — Context"
-line_start: 18217
-line_end: 18232
+line_start: 18219
+line_end: 18234
 dependencies:
   - "A.1"
   - "A.10"

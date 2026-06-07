@@ -6,12 +6,12 @@ section_id: "B.5.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__006_archetypal-grounding.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:5 — Archetypal Grounding"
-line_start: 33295
-line_end: 33330
+line_start: 33305
+line_end: 33340
 dependencies:
   - "A.2"
   - "C.3"

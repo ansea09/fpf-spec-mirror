@@ -6,12 +6,12 @@ section_id: "A.6:4"
 section_title: "Solution — A stack + a routing matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__005_solution-a-stack-a-routing-matrix.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:4 — Solution — A stack + a routing matrix"
-line_start: 6823
-line_end: 7048
+line_start: 6825
+line_end: 7050
 dependencies:
   - "A.10"
   - "A.15"

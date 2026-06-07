@@ -6,12 +6,12 @@ section_id: "C.30.ILC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__008_conformance-checklist.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:7 — Conformance Checklist"
-line_start: 53777
-line_end: 53790
+line_start: 53787
+line_end: 53800
 dependencies:
   - "A.10"
   - "A.22"
@@ -52,5 +52,5 @@ keywords:
 | CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their exact governing patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
 | CC-ILC-7 | If a source-return condition is live, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |
 | CC-ILC-8 | The stop condition is visible. | Prevents the triage pattern from expanding into a hidden prescribed sequence. |
-| CC-ILC-9 | If multilevel learning or frustration is used as mathematics, the record names `C.29`, `MLU.Description@MultilevelLearningFrustration`, the recoverable level mapping or scale mapping, and preserved structure and lost structure; if candidate residual-reducing moves are live, the record exits to `G.5` or an admitted architecture synthesis receiving pattern. | Preserves the useful multilevel optimization line without importing ontology, proof, or a hidden selector. |
+| CC-ILC-9 | If multilevel learning or frustration is used as mathematics, the record names `C.29`, `MLU.Description@MultilevelLearningFrustration`, the recoverable level mapping or scale mapping, and preserved structure and lost structure; if candidate residual-reducing moves are live, the record exits to `G.5` or an admitted architecture synthesis governing pattern. | Preserves the useful multilevel optimization line without importing ontology, proof, or a hidden selector. |
 

@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 51945
-line_end: 52133
+line_start: 51955
+line_end: 52143
 dependencies:
   - "A.10"
   - "A.15"
@@ -154,7 +154,7 @@ Common architecture-description views:
 | Evidence or assurance reuse view | `A.10`, `B.3`, or exact assurance or evidence pattern for the non-architecture claim. |
 | Architecture residual view | `C.30.ILC` when the view is about a cross-scope or interlevel architecture residual. If the view uses conflict wording or frustration wording, C.30.AD records only membership, correspondence, and source return; C.30.ILC governs the residual. |
 | Multilevel-learning or frustration mathematical-lens view | `C.29` when the view contains a recoverable level mapping or scale mapping and preserved structure and lost structure; `C.30.AD` records only the architecture-description use of that lens result. |
-| Residual-reducing candidate or optimization view | `G.5` or an admitted architecture synthesis receiving pattern for candidate sets and residual-reducing moves; `C.11` for final local choice. C.30.AD records only description membership, correspondence, source return, freshness, publication use, or specification use. |
+| Residual-reducing candidate or optimization view | `G.5` or an admitted architecture synthesis governing pattern for candidate sets and residual-reducing moves; `C.11` for final local choice. C.30.AD records only description membership, correspondence, source return, freshness, publication use, or specification use. |
 
 #### C.30.AD:4.3 - Correspondence and source return
 
@@ -234,12 +234,12 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Control structure view | `C.30.LCA` |
 | Cross-scope or interlevel architecture residual, conflict, or frustration in the described holon | `C.30.ILC` |
 | Multilevel-learning or frustration mathematical-lens result with recoverable level mapping or scale mapping and preserved structure and lost structure | `C.29` with the admitted C.29-local lens output |
-| Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `G.5`, admitted architecture synthesis receiving pattern, `C.11` for final local choice, and exact measurement or comparison patterns when live |
+| Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `G.5`, admitted architecture synthesis governing pattern, `C.11` for final local choice, and exact measurement or comparison patterns when live |
 
 | Generic description, view, viewpoint, publication, carrier, MVPK face | `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, or `C.2.P` |
 | Function or functionality wording | `A.6.F` |
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, exact signature or interface pattern, `C.31`, or `C.31.RSA` |
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |
 | Characteristic, scale, coordinate, score, or quality claim | `C.16.P`, `C.16`, `A.19`, `C.25`, or exact quality pattern |
-| Evidence, assurance, gate, work, decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, release or admissibility pattern, or exact receiving pattern |
+| Evidence, assurance, gate, work, decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, release or admissibility pattern, or exact governing pattern |
 

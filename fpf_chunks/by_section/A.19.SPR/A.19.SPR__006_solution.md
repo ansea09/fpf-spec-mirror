@@ -6,12 +6,12 @@ section_id: "A.19.SPR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__006_solution.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:4 — Solution"
-line_start: 23005
-line_end: 23073
+line_start: 23015
+line_end: 23083
 dependencies:
   - "A.10"
   - "A.16"
@@ -64,23 +64,23 @@ StateFamilyPrecisionRepair:
   remainingReaderMove:
 ```
 
-Use the full shape only when the repair must remain inspectable. A direct rewrite is enough when one sentence names the bearer, state frame, value, use boundary, and receiving pattern.
+Use the full shape only when the repair must remain inspectable. A direct rewrite is enough when one sentence names the bearer, state frame, value, use boundary, and governing pattern.
 
 #### A.19.SPR:4.1 - Recovery sequence
 
 1. **Capture trigger and bounded text.** Copy the exact state-family word and the sentence, row, card, or field that uses it.
 2. **Recover the bearer.** Name the item whose state-like value is being claimed: holon, role, source, evidence path, assurance claim, publication face, `PublicationUnit`, gate record, temporal claim, lens-use card, `DRR`, pattern version, project-side administrative record, review record, dispatch record, release or admission record, source-control record, or another exact FPF kind.
-3. **Recover the state frame or receiving pattern.** Decide whether the frame is `A.19` `CharacteristicSpace`, `A.3.3` dynamics, role-state assertion, `C.2.2a` language-state chart, `A.10` evidence path, `B.3` assurance, `A.20` constraint or adjudication state, `A.21` gate decision, `E.17` publication use, `C.27` temporal-claim state, `C.29` lens-use admissibility, `E.9.DA` DRR-decision adequacy, `E.21` pattern quality, or an exact project-side administrative, review, dispatch, release or admission, or source-control record.
+3. **Recover the state frame or governing pattern.** Decide whether the frame is `A.19` `CharacteristicSpace`, `A.3.3` dynamics, role-state assertion, `C.2.2a` language-state chart, `A.10` evidence path, `B.3` assurance, `A.20` constraint or adjudication state, `A.21` gate decision, `E.17` publication use, `C.27` temporal-claim state, `C.29` lens-use admissibility, `E.9.DA` DRR-decision adequacy, `E.21` pattern quality, or an exact project-side administrative, review, dispatch, release or admission, or source-control record.
 4. **Recover the value set or classification.** If a local field remains, list its possible values or the exact neighboring pattern that defines them. If no value set is recoverable, do not keep the state-family head as a field.
-5. **Recover criteria or evidence only when live.** Name threshold rule, observation, source currentness, evidence path, assurance tuple, validation regime, gate record, or witness only when that receiving pattern is live.
+5. **Recover criteria or evidence only when live.** Name threshold rule, observation, source currentness, evidence path, assurance tuple, validation regime, gate record, or witness only when that governing pattern is live.
 6. **State admissible and non-admissible use.** Say what the reader may do with this value and what adjacent claim remains blocked.
 7. **State validity window or reopen condition.** If currentness, readiness, release or admission, validation, assurance, or administrative state can decay, name what changes the value.
-8. **Rewrite or demote.** Replace broad wording with the exact field or receiving-pattern phrase; otherwise mark quote-only, reduced-use cue, blocked transfer, or incomplete rewrite.
+8. **Rewrite or demote.** Replace broad wording with the exact field or governing-pattern phrase; otherwise mark quote-only, reduced-use cue, blocked transfer, or incomplete rewrite.
 9. **Return to the subject pattern.** Do not let the repair become the subject Solution unless the pattern is itself about state-family precision restoration.
 
-#### A.19.SPR:4.2 - Direct receiving-pattern exits
+#### A.19.SPR:4.2 - Direct governing-pattern exits
 
-| Recovered state-like claim | First receiving pattern or locus |
+| Recovered state-like claim | First governing pattern or locus |
 | --- | --- |
 | position in a declared `CharacteristicSpace` | `A.19`, with `A.17`, `A.18`, `C.16`, and `C.16.P` when construction is hidden |
 | reusable transition law, trajectory, or dynamics model | `A.3.3` |
@@ -110,5 +110,5 @@ A local `...Posture`, `...Status`, `...Readiness`, or `...State` field is admiss
 - non-admissible overread;
 - validity window, decay rule, or reopen condition when applicable.
 
-If any of those are missing, either complete them now or rename the field to the exact receiving-pattern phrase or record. A narrowing adjective does not count as kind recovery.
+If any of those are missing, either complete them now or rename the field to the exact governing-pattern phrase or record. A narrowing adjective does not count as kind recovery.
 

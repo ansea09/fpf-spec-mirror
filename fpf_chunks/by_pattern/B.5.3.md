@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.3.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
-line_start: 33245
-line_end: 33360
+line_start: 33255
+line_end: 33370
 dependencies:
   - "A.2"
   - "C.3"

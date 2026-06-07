@@ -6,12 +6,12 @@ section_id: "E.22:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__004_forces.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:3 — Forces"
-line_start: 67614
-line_end: 67623
+line_start: 67729
+line_end: 67738
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -22,6 +22,7 @@ dependencies:
   - "E.21"
   - "E.23"
   - "E.9.DA"
+  - "F.19"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -34,7 +35,7 @@ keywords:
 |---|---|
 | Cheap readiness vs ambitious improvement | A floor evaluation should be short; exceptional improvement needs richer proposals. |
 | Explicit purpose vs reviewer discovery | The request names the purpose, while the reviewer can still report important unasked questions. |
-| Evaluation vs next move | A useful evaluation may suggest a next move, but the suggestion remains a hypothesis until another exact pattern receives it. |
+| Evaluation vs next move | A useful evaluation may suggest a next move, but the suggestion remains a hypothesis until the exact pattern that governs the claim, relation, or boundary is applied. |
 | Multi-coordinate gain vs Goodhart risk | Raising one visible value can damage usability, affordability, locality, source preservation, or corpus ecology. |
 | Proposal portfolio vs selected result | Several candidate improvements may be useful without becoming a selected set, pool policy, front insertion, parity, or refresh result. |
 

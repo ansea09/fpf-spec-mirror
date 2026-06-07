@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 67828
-line_end: 67923
+line_start: 67948
+line_end: 68043
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -22,6 +22,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.9.DA"
+  - "F.19"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -50,6 +51,7 @@ keywords:
 | `QualityImprovementLoopRecord` | Record of object versions, applied rows, re-evaluation, trade-offs, cost/risk, and loop decision. |
 | `QualitySideMovementClaim` | Local claim that a changed object moved on declared `Q` components under NQD/OEE comparison. |
 | `SourceComposedResultClaim` | Result produced by composing accepted source or practice lines and readable by the evaluation. |
+| `KindRestorationCheck` | Required precision-repair check that records pre-repair kind, relation, slot or use-position, admissible use, and scope, proposed post-repair kind, relation, slot or use-position, admissible use, and scope, and whether each live field is not triggered, ordinary prose, preserved, split, intentionally changed by accepted decision, or blocking. |
 
 These names belong to loop method. They do not create quality values, project evidence, release state, selected-set publication, parity, refresh, or proof of quality.
 
@@ -60,14 +62,13 @@ For one quality-improvement loop:
 1. Declare `ObjectUnderImprovementRef`, object version, and `ObjectUnderImprovementEvaluationRef`.
 2. Declare `ImprovementAim`, floor or target, protected trade-offs, cost and risk account, and local stop condition.
 3. Use `E.22` to frame the first quality evaluation when the purpose is not already explicit.
-4. Run the object-under-improvement evaluation and record row-atomic findings or proposal rows when work is returned.
-5. Apply repairs or variants to the object, or hand generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance to exact neighbours when the claim leaves quality improvement.
-6. Re-evaluate the changed object version through the object-under-improvement evaluation, using that evaluation's required coordinate set, evidence basis, result-row shape, short rationales, and coordinate-specific payloads.
-7. Record what improved, what stayed floor-only, what was unchanged, what became worse, and which rows moved outside the evaluation.
-8. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdForExactInformation`.
-9. Leave a `QualityImprovementLoopRecord` sufficient for the next reader to replay the object versions, evidence basis, evaluation result, trade-offs, cost/risk, and loop decision.
-
-Row discharge is changed-object evidence. It is not coordinate improvement until the changed object version is re-evaluated in the required result form of the named evaluation. A prose update, applied-row count, or result missing evidence basis does not close the loop.
+4. Run the object-under-improvement evaluation in its required result form. For one FPF pattern version, this is an `E.21` result with every required coordinate, every `ShortRationale`, the `PrecisionRestorationProfile`, evidence basis, coordinate-specific payloads, and status. A loop record, profile pass, blocker summary, two-column table, or "no blockers" note is not a substitute.
+5. Record row-atomic findings or proposal rows when work is returned. A step is closed only after its finding or proposal row is written; do not rely on memory or a later grouped summary.
+6. Apply repairs or variants to the object. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the exact pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the exact restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Also record a bounded complete `KindRestorationCheck` before closing the finding: the repair must say what kind, relation, slot or use-position, admissible use, and scope were present before the edit and what kind, relation, slot or use-position, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, or `already satisfied` with loci; otherwise unchanged text remains a live finding. When another pattern governs the live kind, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
+7. Re-evaluate the changed object version through the object-under-improvement evaluation, using that evaluation's required coordinate set, evidence basis, result-row shape, short rationales, mandatory attention-discharge rows, and coordinate-specific payloads.
+8. Record what improved, what stayed floor-only, what was unchanged by value with loci, what became worse, and which rows moved outside the evaluation.
+9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdForExactInformation`.
+10. Leave a `QualityImprovementLoopRecord` sufficient for the next reader to replay the object versions, evidence basis, evaluation result, trade-offs, cost/risk, and loop decision.
 
 #### E.23:4.3 - Stop, continue, and reopen
 
@@ -81,7 +82,7 @@ An all-`5`, all-exceptional, current-front-reaching, or current-front-improving 
 
 | Method family | Use when |
 |---|---|
-| `PDSAorPDCAFamily` | Learning quality, baseline comparison, measuring instruments, or standardize/repeat action are live. |
+| `PDSAorPDCAFamily` | Learning quality, baseline comparison, measuring instruments, or standardize/repeat action matter for the improvement loop. |
 | `POOGIFamily` | The evaluation problem is throughput-shaped or constraint-shaped. |
 | `OODAFamily` | Orientation quality and feedback under changing conditions affect the evaluation. |
 | `RalphLikeGeneralAdaptiveFamily` | A broadly capable agent can improve the object through repeated specification, feedback, memory, and verification under `C.19.1` cost/risk discipline. |

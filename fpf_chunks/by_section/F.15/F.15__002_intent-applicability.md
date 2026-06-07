@@ -6,12 +6,12 @@ section_id: "F.15:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__002_intent-applicability.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:1 — Intent & applicability"
-line_start: 73113
-line_end: 73118
+line_start: 73234
+line_end: 73239
 dependencies:
   - "B.3"
   - "D.CTX"

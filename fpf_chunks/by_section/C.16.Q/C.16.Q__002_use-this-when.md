@@ -6,12 +6,12 @@ section_id: "C.16.Q:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__002_use-this-when.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:0 — Use this when"
-line_start: 40909
-line_end: 40926
+line_start: 40919
+line_end: 40936
 dependencies:
   - "A.10"
   - "A.16"
@@ -60,15 +60,15 @@ Use this pattern when wording such as `quality`, `good`, `fit`, `high-quality`, 
 
 **Lowest sufficient use.** Keep ordinary praise or quoted source-local wording ordinary when it carries no FPF-governed use. When the evaluative endpoint is already known, prefer a direct endpoint-governed rewrite. Use `qualityTermAscription(...)` only when transitional ambiguity must remain inspectable. Use the full slot set only when decision-bearing, publication-bearing, cross-tradition-bearing, or boundary-bearing claim is live.
 
-**What goes wrong if missed.** A broad quality word becomes a scalar verdict, a gate, an evidence claim, a relation, a bridge, an action invitation, or a bundle by appearance, while the bearer, evaluation frame, quality sense, admissible normal form, and exact receiving pattern remain hidden.
+**What goes wrong if missed.** A broad quality word becomes a scalar verdict, a gate, an evidence claim, a relation, a bridge, an action invitation, or a bundle by appearance, while the bearer, evaluation frame, quality sense, admissible normal form, and exact governing pattern remain hidden.
 
-**What this buys.** The reader can recover the bearer, evaluation frame, candidate quality sense, admissible normal form, bridge or relation exit when live, and the exact receiving pattern before using the quality word as action guidance.
+**What this buys.** The reader can recover the bearer, evaluation frame, candidate quality sense, admissible normal form, bridge or relation exit when live, and the exact governing pattern before using the quality word as action guidance.
 
-**First useful move.** Name the bearer and evaluation frame, choose whether the wording is quality-term or evaluative characterization, characteristic-scale construction, Q-bundle, pattern-quality coordinate, relation construction, bridge stance, action invitation, or ordinary prose, then apply the exact receiving pattern.
+**First useful move.** Name the bearer and evaluation frame, choose whether the wording is quality-term or evaluative characterization, characteristic-scale construction, Q-bundle, pattern-quality coordinate, relation construction, bridge stance, action invitation, or ordinary prose, then apply the exact governing pattern.
 
 **Not this pattern when.**
 
 - If the live issue is hidden characteristic, scale, score, metric, coordinate, threshold, or comparison construction, use `C.16.P` first.
-- If the live claim is already a Q-bundle, pattern-quality coordinate, relation construction, action invitation, evidence, assurance, gate, work, decision, causal-use, release, or source-use claim, use the exact receiving pattern directly after any needed quality-word repair.
+- If the live claim is already a Q-bundle, pattern-quality coordinate, relation construction, action invitation, evidence, assurance, gate, work, decision, causal-use, release, or source-use claim, use the exact governing pattern directly after any needed quality-word repair.
 - If the word is ordinary praise or source-local wording with no FPF-governed use, keep it ordinary, quote-only, or reduced-use rather than publishing a quality-term repair.
 

@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:6 — Ontology Guards"
-line_start: 58679
-line_end: 58766
+line_start: 58727
+line_end: 58814
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "E.23"
   - "E.5"
   - "F.18"
+  - "F.19"
   - "F.5"
   - "U.Types"
 keywords:
@@ -70,7 +71,7 @@ keywords:
 * **Do:** “**Kind named:** `ReviewerRole` — a role intention playable by a holon within an editorial context.”
 * **Don’t:** “Reviewer — a person who …” (blurs the kind named).
 
-**Onto6 — Bans and canonical rewrites**  *(mirror E.10 § 9 L‑rules; do not duplicate tables)*
+**Onto6 — Bans and ontology recovery hints**  *(mirror E.10 § 9 L-rules; do not duplicate tables; not a substitution table)*
 * `process / function / activity` → **`Work` / `MethodDescription` / `Flow`** (context‑dependent).
 * `Tradition` → **`Tradition`** (Tech); leave “Tradition” only as a Plain twin with an adjacent Tech label.
 * `domain` → **`DomainFamily` + {ContextId list} + UTS twins**.

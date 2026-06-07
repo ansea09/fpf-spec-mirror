@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
-line_start: 28032
-line_end: 28408
+line_start: 28042
+line_end: 28418
 dependencies:
   - "A.1"
   - "A.10"
@@ -97,7 +97,7 @@ What A.22 buys in practice: a practitioner can name selected structure, state pr
 
 Not this pattern when the live question is grounded architecture adequacy, architecture structural-view adequacy, or mathematical-lens use. Use `C.30`, `C.30.ASV`, or `C.29` respectively. For any other live claim, use the exact governing FPF pattern and keep A.22 only to the selected-structure portion.
 
-Thin precision-restoration pointer: if the live issue is still whether wording such as *architecture*, *structure*, *diagram*, *module*, *model*, *view*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names a structure, a structure description, an architecture description, a view, a carrier, or another exact receiving-pattern exit, use `C.30.P` and `C.30.STRAT` as triggered before applying A.22. Do not copy either trigger table here; A.22 resumes only after the selected-structure claim or structure-view portion is recoverable.
+Thin precision-restoration pointer: if the live issue is still whether wording such as *architecture*, *structure*, *diagram*, *module*, *model*, *view*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names a structure, a structure description, an architecture description, a view, a carrier, or another exact governing-pattern exit, use `C.30.P` and `C.30.STRAT` as triggered before applying A.22. Do not copy either trigger table here; A.22 resumes only after the selected-structure claim or structure-view portion is recoverable.
 ### A.22:2 - Problem
 
 FPF needs a selected-structure EntityOfConcern that is useful before any one domain ontology, mathematical formalism, architecture notation, or publication form takes over. Working projects often notice that "the structure" is doing real work:
@@ -139,7 +139,7 @@ The first useful A.22 move is about the selected structure itself: name the boun
 
 `U.Structure` may fill `EntityOfConcern` for a structure description, view, or structure-claim relation. Generic description and publication-use guards belong in the boundary section below, not in the selected-structure definition.
 
-**EntityOfConcern bridge.** In A.22, "EntityOfConcern" names the mode in which selected structure is treated: dependent, non-agentive, claim-bearing through descriptions or views when those are live, and not reducible to one physical part or one publication. It is not a second EntityOfConcern head beside `EntityOfConcern`. When a structure description or view is live, `DescriptionContext.EntityOfConcernRef` names the selected structure, structure claim, or exact receiving-pattern relation for that use; publication faces, forms, units, carriers, and renderings only make the episteme or view available.
+**EntityOfConcern bridge.** In A.22, "EntityOfConcern" names the mode in which selected structure is treated: dependent, non-agentive, claim-bearing through descriptions or views when those are live, and not reducible to one physical part or one publication. It is not a second EntityOfConcern head beside `EntityOfConcern`. When a structure description or view is live, `DescriptionContext.EntityOfConcernRef` names the selected structure, structure claim, or exact governing-pattern relation for that use; publication faces, forms, units, carriers, and renderings only make the episteme or view available.
 
 A.22 governs `U.Structure` as a dependent, non-agentive EntityOfConcern. It works first over selected-structure EntityOfConcern records and structure-claim reliance relations. Structural descriptions, structural views, extracted structural views, structural-aspect descriptions, structural-coarsening descriptions, and structure-general source-return conditions are subordinate record forms used only when they preserve the selected-structure move, expose loss, enable comparison, or state a reliance boundary. A.22 does not govern architecture descriptions directly; `C.30` and its subpatterns govern architecture as a use of selected structure over a described holon.
 
@@ -147,7 +147,7 @@ A.22 governs `U.Structure` as a dependent, non-agentive EntityOfConcern. It work
 
 This subsection is the A.22 auxiliary description and publication-use boundary. It protects the selected structure from description, publication, and source overread without turning A.22 into a general pattern about descriptions.
 
-`U.Structure` is not the grounding holon, source, evidence path, lens output, simulation, generated representation, declared substrate itself, `U.Holon` by default, `U.Work`, evidence record, gate decision, project decision, architecture claim, or mathematical lens. It does not act, optimize, prove, warrant, authorize, promise, prescribe, decide, or release. When one of those publication-use or project-side claims is live, the A.22 text names the exact receiving pattern: evidence, assurance, causal, gate, decision, publication, work, base-declaration, source-description, lens, architecture-description, or mathematical-lens use. A.22 keeps only the structure portion and the source-return condition that protects the structure use.
+`U.Structure` is not the grounding holon, source, evidence path, lens output, simulation, generated representation, declared substrate itself, `U.Holon` by default, `U.Work`, evidence record, gate decision, project decision, architecture claim, or mathematical lens. It does not act, optimize, prove, warrant, authorize, promise, prescribe, decide, or release. When one of those publication-use or project-side claims is live, the A.22 text names the exact governing pattern: evidence, assurance, causal, gate, decision, publication, work, base-declaration, source-description, lens, architecture-description, or mathematical-lens use. A.22 keeps only the structure portion and the source-return condition that protects the structure use.
 
 Descriptions and views of structure are Description epistemes and specification-use cases under the EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline, not the structure itself. A publication, diagram, graph, table, dashboard, file, carrier, model card, or generated representation can make a structural description or view available, but it does not become the selected structure or supply evidence, assurance, gate, decision, work, release, or authority claim by appearance.
 
@@ -422,14 +422,14 @@ The reason to keep C.30 separate is architectural clarity. Architecture is selec
 | OMG SysML v2 view practice | Adapt views-as-queries and model-view discipline as a source for treating views as selected renderings over model content. | A structural view states selected, hidden, or lost structure when the selection changes action. | A view is not the structure and not a proof of the described holon. |
 | C.29 mathematical-lens discipline | Adopt preserved structure, lost structure, lens-use admissibility, and stop-condition discipline when a mathematical lens is used for a structure claim. | Cite C.29 output through C.29 lens-use result, preserved structure, lost structure, stop condition, and source-return discipline. | Lens output is not structure, evidence, assurance, causal-use relation, or decision. |
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and source-return pressure for extracted structural views. | Use extracted structural-view records with validation boundaries and an observation value selected from `observed`, `inferred`, or `unknown` where needed, plus source-return conditions. | Do not mint `U.CodeSpace` and do not treat probe output, probe JSON, or benchmark output as structure adequacy, assurance, release evidence, or assurance evidence. |
-| Coarsening, compression, and RG-adjacent traditions | Adopt the need to say what structure is preserved and what is lost. | Use `StructuralCoarseningDescription@Context` and `SourceReturnCondition` before relying on a coarsened structure for action. | RG, epiplexity, structural information, and equivalence reasoning belongs to C.29, C.16, or another admitted receiving pattern named for the live claim. |
+| Coarsening, compression, and RG-adjacent traditions | Adopt the need to say what structure is preserved and what is lost. | Use `StructuralCoarseningDescription@Context` and `SourceReturnCondition` before relying on a coarsened structure for action. | RG, epiplexity, structural information, and equivalence reasoning belongs to C.29, C.16, or another admitted governing pattern named for the live claim. |
 | GonzoML neural-network architecture discussions as practitioner-language intake | Adapt block replacement, dataflow change, memory placement, cache placement, path-selection, pruning, distillation, and architecture-search wording as general architecture-operation recognition material. | When such wording is used, keep block, cache, expert, router, gate, and similar words as `C.30.STRAT` source labels until changed structure kind, source relation, base-dependence relation, evidence path, lens output, preserved structure, lost structure, and exact FPF pattern applications are recovered. | Neural-network labels, benchmark results, ablations, or pruning masks do not become structure ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
 
 ### A.22:12 - Relations
 
 Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, and `F.18`.
 
-Coordinates with: `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and named receiving patterns for structure-information, equivalence, and synthesis claims when those claim kinds are live.
+Coordinates with: `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and named governing patterns for structure-information, equivalence, and synthesis claims when those claim kinds are live.
 
 Does not replace: `C.30.P` or `C.30.STRAT` wording-use precision restoration, `C.30` for grounded architecture adequacy and conditional architecture-description use, `C.29` for mathematical-lens use, `C.16` for measurement and characterization, `C.28` for causal-use relation, `B.3` for assurance, `A.10` and `G.6` for evidence, `A.20` and `A.21` for gates and release, `A.15` for work, `C.11` for decisions, or `E.17` for publication.
 

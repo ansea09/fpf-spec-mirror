@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.LHR.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
-line_start: 64989
-line_end: 65353
+line_start: 65045
+line_end: 65409
 dependencies:
   - "A.10"
   - "A.15"
@@ -112,7 +112,7 @@ Typical load-bearing local heads include:
 - `interpretation`
 - `reading`
 
-These words are not uniformly wrong. They become risky when one of them starts carrying primary-entity/relation load, lane load, move load, or receiving-pattern boundary load without being restored first.
+These words are not uniformly wrong. They become risky when one of them starts carrying primary-entity/relation load, lane load, move load, or governing-pattern boundary load without being restored first.
 
 ### E.17.AUD.LHR:2 - Problem
 

@@ -6,12 +6,12 @@ section_id: "E.17.EFP:11"
 section_title: "SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__012_sota-alignment-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:11 — SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
-line_start: 63823
-line_end: 63845
+line_start: 63879
+line_end: 63901
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,5 +54,5 @@ keywords:
 
 **Local stance.** Best-known current practice points to a narrow rule: explanation renderings are admissible only when their class, source relation, evidence relation, admissible faces, and forbidden downstream uses remain visible enough that reader help does not become a second semantic rule track.
 
-Action result from the explanation-faithfulness and retrieval-evaluation practice basis: fluent, source-linked, generated, retrieved, didactic, or pedagogically useful explanations do not become evidence, assurance, approval, gate passage, release reliance, work authority, or operative-claim-source relation by fluency, plausibility, citation-like wording, or retrieved context. The local E.17.EFP result is explanation class, source reference, admissible explanation use or source-finding state, non-admissible downstream use, and operative-claim mapping to `A.10` or another exact receiving pattern only when reliance is live. Reopen the explanation-use result when the source claim set, pins, provenance, retrieved context, generated rendering, admissible face, use escalation, or source relation for an operative claim changes.
+Action result from the explanation-faithfulness and retrieval-evaluation practice basis: fluent, source-linked, generated, retrieved, didactic, or pedagogically useful explanations do not become evidence, assurance, approval, gate passage, release reliance, work authority, or operative-claim-source relation by fluency, plausibility, citation-like wording, or retrieved context. The local E.17.EFP result is explanation class, source reference, admissible explanation use or source-finding state, non-admissible downstream use, and operative-claim mapping to `A.10` or another exact governing pattern only when reliance is live. Reopen the explanation-use result when the source claim set, pins, provenance, retrieved context, generated rendering, admissible face, use escalation, or source relation for an operative claim changes.
 

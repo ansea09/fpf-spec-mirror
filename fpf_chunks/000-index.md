@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `e3fedf42dc7cb5d12905913b5a0b0e951ed7d254`
+Commit SHA: `ec66cbef9f337bca279d86e825db0947f90e2598`
 
 Chunking method: `pattern-aware`
 
-Patterns: `235`
+Patterns: `236`
 
 ## Patterns
 
@@ -228,6 +228,7 @@ Patterns: `235`
 - [F.16 — Worked‑Example Template (Cross‑Domain)](by_pattern/F.16.md)
 - [F.17 — Unified Term Sheet (UTS)](by_pattern/F.17.md)
 - [F.18 — Local‑First Unification Naming Protocol](by_pattern/F.18.md)
+- [F.19 — Ontology-First Plain Technical Rewriting](by_pattern/F.19.md)
 - [G.Core — Part G Core Invariants](by_pattern/G.Core.md)
 - [G.0 — Frame Standard and Comparability Governance — CG‑Spec](by_pattern/G.0.md)
 - [G.1 — CG‑Frame‑Ready Generator](by_pattern/G.1.md)

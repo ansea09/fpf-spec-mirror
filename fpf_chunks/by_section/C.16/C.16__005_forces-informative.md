@@ -6,12 +6,12 @@ section_id: "C.16:4"
 section_title: "Forces (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__005_forces-informative.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:4 — Forces (Informative)"
-line_start: 40283
-line_end: 40291
+line_start: 40293
+line_end: 40301
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:4 — Solution"
-line_start: 54827
-line_end: 54962
+line_start: 54837
+line_end: 54972
 dependencies:
   - "A.10"
   - "A.17"
@@ -94,7 +94,7 @@ The triage is complete enough when it states the next admissible architecture mo
 
 When architecture alternatives satisfy the same safety boundary, legal boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
 
-This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision becomes live, use `G.5`, `G.9`, `C.11`, `A.21`, or the exact receiving pattern. C.31.ASAP contributes the scale-preference claim and its boundary.
+This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision becomes live, use `G.5`, `G.9`, `C.11`, `A.21`, or the exact governing pattern. C.31.ASAP contributes the scale-preference claim and its boundary.
 
 #### C.31.ASAP:4.4 - Scale variables
 

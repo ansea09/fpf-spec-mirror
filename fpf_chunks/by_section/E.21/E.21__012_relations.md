@@ -6,12 +6,12 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__012_relations.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 67572
-line_end: 67587
+line_start: 67687
+line_end: 67702
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -27,6 +27,7 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
   - "J.4"
 keywords:
 ---
@@ -38,7 +39,7 @@ keywords:
 | `A.19.ECS` | Constructs or repairs the general evaluation `CharacteristicSpace`; `E.21` is one specialization. |
 | `E.8.ECSPF` | Publishes an evaluation `CharacteristicSpace` as an FPF pattern when that form is selected. |
 | `E.8` | Authors the pattern body whose quality `E.21` evaluates. |
-| `E.19` | Runs review profiles; findings are content evidence only when they name pattern-content defects or strengths. |
+| `E.19` | Runs admission and refresh review profiles; it can consume or request `E.21`, but it does not assign `E.21` coordinate values or replace the required pattern-quality table. |
 | `E.22` | Frames purpose, floor, trade-offs, and proposal expectation before an evaluation. |
 | `E.23` | Runs repeated improvement using `E.21` values and stop meanings for pattern versions. |
 | `E.9.DA` | Evaluates upstream `DRR` decision adequacy when pattern-quality defects trace to decisions. |

@@ -6,12 +6,12 @@ section_id: "A.3.1:6"
 section_title: "Didactic quick grammar (for managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__007_didactic-quick-grammar-for-managers.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:6 — Didactic quick grammar (for managers)"
-line_start: 5857
-line_end: 5865
+line_start: 5859
+line_end: 5867
 dependencies:
   - "A.1"
   - "A.1.1"

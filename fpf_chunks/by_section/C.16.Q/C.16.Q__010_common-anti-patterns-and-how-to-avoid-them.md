@@ -6,12 +6,12 @@ section_id: "C.16.Q:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 41511
-line_end: 41523
+line_start: 41521
+line_end: 41533
 dependencies:
   - "A.10"
   - "A.16"
@@ -64,6 +64,6 @@ keywords:
 | **Selector ambiguity** | *quality in QD and NQD* is left undefined | breaks comparability and selection semantics | default to `QS.UseValue` unless another objective head is declared explicitly |
 | **Model-quality collapse** | latent fit, explanatory merit, and control adequacy are merged under one phrase | destroys carrier and frame distinctions | split into separate `qualityTermAscription(...)` records |
 | **Architecture-vs-description collapse** | *architecture quality* is used with no explicit bearer lane | collapses the system-side bearer into its description, carrier, or publication face | publish the bearer lane explicitly and select `QS.EngineeringQualityFamily` or `QS.ArchitecturalDescriptionFitness` |
-| **Action-invitation-as-quality** | action invitations are narrated as if they were evaluations | wrong receiving pattern; the rewrite hides action semantics instead of clarifying them | stop the Q-rewrite and use `exitToReceivingPattern(...)` into `A.6.A` or another exact action-invitation receiving pattern; keep source-tradition `affordance` wording only as a quoted cue |
+| **Action-invitation-as-quality** | action invitations are narrated as if they were evaluations | wrong governing pattern; the rewrite hides action semantics instead of clarifying them | stop the Q-rewrite and use `exitToReceivingPattern(...)` into `A.6.A` or another exact action-invitation governing pattern; keep source-tradition `affordance` wording only as a quoted cue |
 | **Bridge-by-label** | two traditions both use *quality*, so the draft implies they are the same | creates false identity and silent loss | publish one bridge stance with loss notes |
 

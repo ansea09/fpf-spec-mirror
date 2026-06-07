@@ -6,12 +6,12 @@ section_id: "A.6.F:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__002_problem-frame.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:1 — Problem frame"
-line_start: 13430
-line_end: 13455
+line_start: 13432
+line_end: 13457
 dependencies:
   - "A.10"
   - "A.15"
@@ -81,5 +81,5 @@ What A.6.F buys in practice: the practitioner can keep useful engineering langua
 
 Not this pattern when the phrase is ordinary prose and carries no live FPF claim. If the live issue is a general relation word, evaluative language, grounded architecture adequacy, or an architecture structural view, use `A.6.P`, `C.16.Q`, `C.30`, or `C.30.ASV` respectively.
 
-**E.10.ARCH receiver relation.** When `E.10` encounters function-like wording whose required transformation, capability, method, work, role, mathematical-function use, quality use, module allocation, interface relation, architecture use, exact FPF kind, relation, claim record, receiving pattern, or stop condition is hidden, `E.10.ARCH` sends the case to `A.6.F` only until those fields are recovered or the wording is lowered to ordinary prose, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. `A.6.F` then exits to the exact governing pattern; it does not own architecture, mathematics, quality, work, evidence, assurance, gate, decision, or release claims by function wording alone.
+**E.10.ARCH governing relation.** When `E.10` encounters function-like wording whose required transformation, capability, method, work, role, mathematical-function use, quality use, module allocation, interface relation, architecture use, exact FPF kind, relation, claim record, governing pattern, or stop condition is hidden, `E.10.ARCH` selects `A.6.F` only until those fields are recovered or the wording is lowered to ordinary prose, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. `A.6.F` then then stops; the exact governing pattern carries the recovered claim; it does not own architecture, mathematics, quality, work, evidence, assurance, gate, decision, or release claims by function wording alone.
 

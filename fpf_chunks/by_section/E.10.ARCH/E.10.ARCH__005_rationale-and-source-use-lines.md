@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2a"
 section_title: "Rationale and source-use lines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__005_rationale-and-source-use-lines.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2a — Rationale and source-use lines"
-line_start: 59520
-line_end: 59531
+line_start: 59573
+line_end: 59584
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,6 +38,7 @@ dependencies:
   - "E.21"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "J.4"
 keywords:
 ---
@@ -48,9 +49,9 @@ This distribution is selected because the recurring failure is not "too few word
 
 | Source or practice line | Source-use role | What the line changes in `E.10.ARCH` |
 | --- | --- | --- |
-| Current FPF distribution: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `E.8`, `E.19`, and `J.4`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, sends relation, source-use, architecture, stratification-source-label, characteristic, quality, state-family, function-like, and naming cases to exact realization or receiving patterns, and gives `E.19` a distribution-preservation check. |
-| Pattern-language locality and FPF primary-EntityOfConcern discipline in `E.8` and `E.19`. | Current FPF authoring and review source line; not an external standard imported as ontology. | Forces thin receiving-pattern pointers and blocks local trigger-registry copies inside subject patterns whose real work is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. |
+| Current FPF distribution: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `E.8`, `E.19`, and `J.4`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, sends relation, source-use, architecture, stratification-source-label, characteristic, quality, state-family, function-like, and naming cases to exact realization or governing patterns, and gives `E.19` a distribution-preservation check. |
+| Pattern-language locality and FPF primary-EntityOfConcern discipline in `E.8` and `E.19`. | Current FPF authoring and review source line; not an external standard imported as ontology. | Forces thin exact-pattern pointers and blocks local trigger-registry copies inside patterns of concern whose real work is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. |
 | Terminology and controlled-vocabulary practice named in `E.10:11a` only where it concerns designations, labels, discoverability, and controlled vocabulary publication. | Current-standard and reference-use source line; it does not define FPF kind ontology. | Provides explicit recovered heads and reusable-name discipline, but rejects a central word list or controlled vocabulary as the solution to every wording-use repair. |
-| Current exact receiving-pattern growth in FPF. | Reopen pressure, not proof of this pattern's authority. | Requires a row to be removed, narrowed, or changed when a new exact receiving pattern can carry the live EntityOfConcern, relation, claim, or local field directly, or when realization patterns start copying the shared algorithm back into local prose. |
+| Current exact governing-pattern growth in FPF. | Reopen pressure, not proof of this pattern's authority. | Requires a row to be removed, narrowed, or changed when a new exact governing pattern can carry the live EntityOfConcern, relation, claim, or local field directly, or when realization patterns start copying the shared algorithm back into local prose. |
 
-The selected architecture is lowered or reopened when one of those source lines changes: if `E.10` can close the issue locally, if a new exact receiving pattern removes the need for a restoration row, if a realization pattern needs a different stable field set, or if subject patterns again start carrying duplicated first-stage trigger registries.
+The selected architecture is lowered or reopened when one of those source lines changes: if `E.10` can close the issue locally, if a new exact governing pattern removes the need for a restoration row, if a realization pattern needs a different stable field set, or if subject patterns again start carrying duplicated first-stage trigger registries.

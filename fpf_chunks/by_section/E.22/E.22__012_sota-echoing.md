@@ -6,12 +6,12 @@ section_id: "E.22:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__012_sota-echoing.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:11 — SoTA-Echoing"
-line_start: 67768
-line_end: 67778
+line_start: 67888
+line_end: 67898
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -22,6 +22,7 @@ dependencies:
   - "E.21"
   - "E.23"
   - "E.9.DA"
+  - "F.19"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -32,7 +33,7 @@ keywords:
 
 | Claim | Current or retained source line | Local adoption |
 |---|---|---|
-| Quality evaluation should be multidimensional, diagnostic, and actionable. | Current rubric and long-form evaluation work, including multidimensional LLM rubric evaluation and meta-evaluation lines, treats rubric validity and actionable feedback as live problems. | Findings name evaluation effects, expected movement, correction direction, and closure tests. |
+| Quality evaluation should be multidimensional, diagnostic, and actionable. | Current rubric and long-form evaluation work, including multidimensional LLM rubric evaluation and meta-evaluation lines, treats rubric validity and actionable feedback as current problems. | Findings name evaluation effects, expected movement, correction direction, and closure tests. |
 | Feedback needs desired condition, current condition, and next action. | Hattie/Timperley and Sadler lineage, retained through current feedback-evaluation work. | The frame states floor or desired aim, current evaluation object, and expected result form. |
 | Evaluation questions must derive from purpose. | GQM lineage and current task-specific rubric evaluation work. | `QualityEvaluationPurposeSelection` precedes values. |
 | Multi-criteria improvement needs trade-offs and non-dominated alternatives. | MCDA, Pareto, ATAM lineage plus current architecture trade-off evaluation work. | `paretoTradeoffEvaluation` and `TradeoffProtectionSet` prevent one-score closure. |

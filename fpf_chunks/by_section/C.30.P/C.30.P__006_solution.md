@@ -6,12 +6,12 @@ section_id: "C.30.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__006_solution.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:4 — Solution"
-line_start: 52281
-line_end: 52329
+line_start: 52291
+line_end: 52339
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ ArchitectureOrStructureRepairNote:
   disposition:
 ```
 
-Use the note only when the repair must remain inspectable. A direct local rewrite is enough when one sentence clearly names the live selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or exact receiving pattern.
+Use the note only when the repair must remain inspectable. A direct local rewrite is enough when one sentence clearly names the live selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or exact governing pattern.
 
 #### C.30.P:4.1 - Recovery sequence
 
@@ -89,5 +89,5 @@ Use the note only when the repair must remain inspectable. A direct local rewrit
    - exact C.30 subcase -> that subpattern.
 5. **Exit non-architecture claims.** If the sentence uses architecture wording to carry relation, function or functionality, mathematical lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, or method claim, send that claim to the exact pattern and keep this pattern only for the architecture or structure wording repair.
 6. **State admissible and non-admissible use.** Say what the reader may do with the repaired wording and what non-admissible adjacent interpretation is blocked.
-7. **Return to the subject pattern.** Stop after the exact receiving pattern or ordinary-prose demotion is named.
+7. **Return to the subject pattern.** Stop after the exact governing pattern or ordinary-prose demotion is named.
 

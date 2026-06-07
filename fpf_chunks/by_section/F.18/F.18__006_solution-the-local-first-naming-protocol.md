@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution — The Local‑First Naming Protocol"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution-the-local-first-naming-protocol.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:4 — Solution — The Local‑First Naming Protocol"
-line_start: 74100
-line_end: 74295
+line_start: 74221
+line_end: 74416
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -160,7 +160,7 @@ When naming work touches the C.2.1 EntityOfConcern family, use these rows as the
 | Name or source wording | F.18 settlement | Must not mean |
 | --- | --- | --- |
 | `EntityOfConcern` | Preferred Tech head for the EntityOfConcern, relation, claim record, or exact kind/reference pair that a claim-bearing episteme, pattern body, or bounded publication unit treats as primary for the declared use. | A universal `object`, a topic by interest alone, the publication unit itself, or a new kernel kind. |
-| `EntityOfConcernSlot` | Entity-valued C.2.1 slot. Relation, claim-record, and exact kind/reference cases enter only through the declared relation/claim/reference discriminator and the exact receiving pattern. | A relation-valued bucket, a generic claim-use bucket, or a way to avoid the exact relation, evidence, gate, work, decision, assurance, or architecture pattern. |
+| `EntityOfConcernSlot` | Entity-valued C.2.1 slot. Relation, claim-record, and exact kind/reference cases enter only through the declared relation/claim/reference discriminator and the exact governing pattern. | A relation-valued bucket, a generic claim-use bucket, or a way to avoid the exact relation, evidence, gate, work, decision, assurance, or architecture pattern. |
 | `entityOfConcernRef`, `EntityOfConcernRef` | Reference handle for the EntityOfConcern under the slot/ref discipline of C.2.1. Same-EntityOfConcern cases preserve this reference; retargeting changes it only through A.6.4 and its invariant/loss boundary. | A free publication-unit field, title, topic, carrier reference, authoring-work reference, or review-object reference. |
 | `EntityOfConcernClass` | Constraint on admissible EntityOfConcern values only where an episteme slot or same-EntityOfConcern law is live. | A topic taxonomy, audience category, object-quality class, or default pattern-family partition. |
 | `publicationUnitPrimaryEntityOfConcern` | Technical head for the primary entity of concern, exact non-claim-bearing kind, topic, or subject that one bounded `PublicationUnit` is mainly about while carrying one move and one outside-work boundary. When a claim-bearing episteme or episteme-lane `U.View` is live, recover it through `EntityOfConcernRef`. | A C.2.1 slot by itself, a second EntityOfConcern ontology, a carrier identity, a title, or project-side authority by readable form. |

@@ -6,12 +6,12 @@ section_id: "E.21:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__003_problem.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:2 — Problem"
-line_start: 67300
-line_end: 67308
+line_start: 67364
+line_end: 67372
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -27,6 +27,7 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
   - "J.4"
 keywords:
 ---
@@ -38,5 +39,5 @@ FPF patterns need a quality evaluation that is stronger than a style checklist a
 1. **Too weak.** A reviewer marks a pattern "ready" because no blocker is obvious, because it landed, or because headings exist.
 2. **Too heavy.** A reviewer adds more warnings, evidence cards, source rows, boundary notes, and process residues until the pattern becomes harder to use.
 
-`E.21` solves this by measuring the pattern version against one complete coordinate set. The coordinates ask whether the pattern is usable, coherent, current, precise, affordable, mature enough for its claim, and safe from proxy improvement.
+`E.21` solves this by measuring the pattern of concern against one complete coordinate set. The coordinates ask whether the pattern is usable, coherent, current, precise, affordable, mature enough for its claim, and safe from proxy improvement.
 

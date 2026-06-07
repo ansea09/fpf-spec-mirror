@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__013_sota-echoing.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:11 — SoTA-Echoing"
-line_start: 52645
-line_end: 52650
+line_start: 52655
+line_end: 52660
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,5 +51,5 @@ keywords:
 
 Reduced SoTA is sufficient for this precision-restoration pattern. The source practice being adopted is not a new external ontology; it is the observed architecture and engineering habit of using compact labels such as `layer`, `level`, `tier`, `stack`, `block`, `expert`, `cache`, `router`, and `gate` as local recognition language. FPF adapts that practice by keeping labels as source labels and requiring ontology-first recovery before they carry FPF-governed use.
 
-Internal FPF current practice is the governing source here: `E.10` supplies trigger handling, `E.10.ARCH` supplies the recovery architecture, `C.30.P` supplies architecture and structure wording repair, and exact receiving patterns carry recovered cases. The `Solution`, checklist, worked cases, and relations in this pattern change because that source-use disposition rejects lexical replacement and trigger-table fanout.
+Internal FPF current practice is the governing source here: `E.10` supplies trigger handling, `E.10.ARCH` supplies the recovery architecture, `C.30.P` supplies architecture and structure wording repair, and exact governing patterns carry recovered cases. The `Solution`, checklist, worked cases, and relations in this pattern change because that source-use disposition rejects lexical replacement and trigger-table fanout.
 

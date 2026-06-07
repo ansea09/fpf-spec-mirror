@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.10"
 pattern_title: "Unified Lexical Rules for FPF (LEX‑BUNDLE)"
 section_id: "E.10:9"
-section_title: "Canonical rewrites for overloaded words (LEX L‑rules; normative)"
+section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.10/E.10__012_canonical-rewrites-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+output_path: "by_section/E.10/E.10__012_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
-  - "E.10:9 — Canonical rewrites for overloaded words (LEX L‑rules; normative)"
-line_start: 59153
-line_end: 59275
+  - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
+line_start: 59201
+line_end: 59323
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,18 +26,19 @@ dependencies:
   - "E.23"
   - "E.5"
   - "F.18"
+  - "F.19"
   - "F.5"
   - "U.Types"
 keywords:
 ---
 
-### E.10:9 - Canonical rewrites for overloaded words (LEX L‑rules; normative)
+### E.10:9 - Ontology recovery rows for overloaded words (LEX L-rules; normative)
 
-> **What this section does.** LEX L‑rules standardise **how we speak** in Core/Context by mapping overloaded everyday words to **canonical FPF concepts**.
+> **What this section does.** LEX L-rules standardise **how we recover kind and use** in Core/Context when overloaded everyday words hide FPF concepts.
 > **What this section does not do.** It does **not** restate naming (see **§ 7 MG-DA**) or morphology/casing/suffix rules (see **§ 8 LEX.Morph**); it **depends** on them.
 > **Guards.** Tokens are classified by **`LEX.TokenClass ∈ {KernelToken, ContextToken, DiscriminatorToken}`** (§ 7.1). Only **CHR:ReferencePlane** may use the bare word *plane*. E.10.D2 names the boundary between EntityOfConcern and Description epistemes with `DescriptionContext`; specification use needs an exact granting gate; publication faces/forms/units/carriers/renderings stay in publication lanes. Enumerations are **Characteristics** in a **CharacteristicSpace** **only when a CSLC scale is declared; otherwise treat such slots as non-measurable attributes (not Characteristics)**.
 
-#### E.10:9.1 - Hard bans and canonical rewrites (single table; normative)
+#### E.10:9.1 - Hard bans and ontology recovery rows (single table; normative)
 
 > **Use this table mechanically.** “Ban” means the listed phrase is **not allowed** in Core prose, identifiers, or diagrams unless the **canonical** appears alongside it (or as a registered Context alias). EntityOfConcern and Description-episteme boundary, specification-use gates, and token gates prevent EntityOfConcern, Description episteme, specification use, publication-lane, and TokenClass leaks (cf. § 8.1).
 
@@ -59,11 +60,11 @@ keywords:
 
 > **Red/Green pattern (example).** ✗ “The **process** ensures quality.” → ✓ “The **MethodDescription** defines steps; **Work** is **evaluated** against **RequirementRole**.”
 
-#### E.10:9.2 - Quick substitutions (common rewrite hints)
+#### E.10:9.2 - Diagnostic examples, not substitutions
 
-> Use these as quick rewrite hints; accept only if the transformed sentence passes **§ 7 MG-DA** and **§ 8 LEX.Morph** gates.
+Use these rows as compact diagnostics for common ontology recoveries, not as a replacement table. A proposed repaired sentence is accepted only after the live `EntityOfConcern`, head kind, relation or claim kind, admissible use, and scope are recovered and the transformed sentence passes **§ 7 MG-DA**, **§ 8 LEX.Morph**, and the `KindRestorationCheck` from `E.10:10.2`. If the example row would change the kind in the local sentence, split the sentence or leave a blocker; do not copy the example as a ready-made rewrite.
 
-| **Ban**                         | **Canonical rewrite**                                                                   |
+| **Trigger symptom**             | **Recovered ontology example**                                                         |
 | ------------------------------- | --------------------------------------------------------------------------------------- |
 | “the process owner approves”    | `SystemX#ApproverRole:Context` **performs a SpeechAct Work** “approve …”                |
 | “the document enforces policy”  | `Policy_vN#RequirementRole:Context` **gates** Work; enforcement = **SpeechAct** + audit |

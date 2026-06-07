@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.2.DA.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
-line_start: 55401
-line_end: 55656
+line_start: 55411
+line_end: 55671
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -21,6 +21,7 @@ dependencies:
   - "E.23"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
@@ -50,7 +51,7 @@ The specific failures are:
 
 1. Local pattern quality is averaged into FPF adequacy.
 2. Entry projections and companion files start carrying semantics beside governing patterns.
-3. Precision repair improves terminology but damages first-use comprehension.
+3. Precision repair improves terminology but damages first-use comprehension or changes the FPF kind carried by the repaired text.
 4. Source and SoTA rows are counted rather than checked for changes in FPF moves.
 5. Front-like words such as `all 5s`, `exceptional`, `Pareto`, `SoTA`, `NQD`, or `shortlist` become loose synonyms.
 6. Corpus-level stop claims hide what became worse.
@@ -85,6 +86,7 @@ There is no smaller `E.2.DA` evaluation. If the caller only needs local pattern 
 | `FPFPillarAdequacyEvidenceBasis` | Exact checked loci in the scoped FPF object: pattern bodies, host or monolith sections, projections, ToC or `J.4` rows, source rows, relation rows, companion files, evaluation results, and missing or unchecked loci that affect values. |
 | `FPFPillarValueRationales` | Required result rows: Pillar coordinate, value, short rationale, and exact evidence locus. |
 | `PillarAdequacyEvidenceRefs` | Exact loci in patterns, projections, source rows, entry rows, relation rows, or findings used as value evidence. |
+| `FPFKindRestorationEvidence` | Pre-repair and post-repair object-kind, relation-or-claim-kind, slot-or-use-position when live, admissible-use, and scope evidence for broad precision or wording cleanup that affects the scoped FPF object. |
 | `FPFPillarAdequacyStatus` | Admissible-use result for the scoped FPF Pillar-adequacy claim. |
 | `FPFPillarAdequacyFront` | Optional non-dominated set of FPF variants or edit packages under the declared coordinate set. |
 
@@ -100,6 +102,7 @@ FPFPillarAdequacyEvaluation:
   FPFAdequacyQualificationWindow: <edition/source/neighbour/release/comparison window>
   FPFPillarAdequacyEvidenceBasis: <checked pattern, host, monolith, projection, ToC/J.4, source, relation, companion, evaluation-result, and missing loci that affect values>
   FPFPillarAdequacyCoordinateTable: <all eleven coordinates, values, short rationales, evidence loci>
+  FPFKindRestorationEvidence: <when broad wording/precision repair is part of the evaluated change: pre/post kind, relation or claim kind, slot or use-position when live, admissible use, scope, exact governing pattern when another pattern governs the live kind/relation/claim/position, and preserved/split/intentionally changed/blocker disposition>
   FPFPillarAdequacyStatus: <status>
   StopOrRepairCondition: <local stop, first repair, Pillar decision, or architecture decision>
 ```
@@ -200,7 +203,9 @@ For a small release decision, the coordinate table may be compact. It is still c
 
 ### E.2.DA:5 - Worked slices
 
-**Broad precision cleanup.** A wording pass makes many patterns more admissible but several `Problem frame`s now explain less about why the distinction matters. `P2`, `P6`, and `P7` receive lower values until the affected patterns restore recognition reason and useful action in admissible wording.
+**Broad precision cleanup.** A wording pass makes many patterns more admissible but several `Problem frame`s now explain less about why the distinction matters, or a cleaned phrase changes the governed kind while the trigger word disappears. `P2`, `P6`, and `P7` receive lower values until the affected patterns restore recognition reason, useful action, and pre/post kind evidence in admissible wording.
+
+**Repeated-content/route/reference/neighbour-reference/negative-fanout cleanup that weakens content.** A corpus pass removes repeated "not proof/not gate/not work" prose, route metaphors, repeated guards, repeated mini-rules, repeated conditional neighbour-reference mappings, reference boilerplate, or architecture-placement prose, but leaves several patterns with less positive ontology, method, norm, or worked action than before. `P2`, `P5`, `P6`, `P7`, and `P10` receive lower values until the affected patterns restore their own subject content and state only live declarative governing relations.
 
 **Projection repair.** `J.4` and ToC entries improve search but start carrying pattern semantics. `P5` and `P9` fall because projections become shadow authority. The repair moves durable semantics back to governing patterns and leaves thin echoes in projections.
 
@@ -226,6 +231,7 @@ The bias is bounded by the object-under-improvement declaration. `E.2.DA` does n
 | `CC-E2DA-8` | State what became worse when visible coordinates improved. |
 | `CC-E2DA-9` | State the `FPFPillarAdequacyEvidenceBasis`; if host/monolith parity, projection, ToC/`J.4`, source-currentness, relation, companion, or evaluation-result evidence is missing or unchecked, lower the Pillar coordinate that needs it. |
 | `CC-E2DA-10` | Use adjacent-value calibration when assigning `3`, `4`, or `5`; a rationale must distinguish the assigned value from its lower and higher neighbours. |
+| `CC-E2DA-11` | When the evaluated FPF object includes broad wording, naming, or precision cleanup, state `FPFKindRestorationEvidence` for changed FPF-governed phrases. If the cleanup changes, narrows, widens, flattens, or loses the governed kind, relation, claim kind, slot or use-position when live, admissible use, or scope without accepted decision evidence and exact governing-pattern reference when another pattern governs the live kind, relation, claim, or position, lower the affected Pillar coordinates and keep the repair blocking. |
 
 ### E.2.DA:8 - Common anti-patterns and repairs
 
@@ -233,7 +239,7 @@ The bias is bounded by the object-under-improvement declaration. `E.2.DA` does n
 |---|---|
 | **Pillar essay.** A review names Pillars without values or evidence. | Produce the complete `E.2.DA` result form. |
 | **Local-quality averaging.** Several `E.21` values are averaged into FPF adequacy. | Re-evaluate Pillar effects over the FPF object. |
-| **Sterile precision cleanup.** Language is admissible but no longer usable. | Lower `P2`/`P7` and restore recognition reason or useful action. |
+| **Sterile or kind-changing precision cleanup.** Language is admissible but no longer usable, or the trigger word is gone while the governed kind, relation, claim kind, slot or use-position when live, admissible use, or scope changed. | Lower `P2`/`P6`/`P7` and restore recognition reason, useful action, and pre/post kind evidence; if the kind or live use-position changed without an accepted decision, treat the cleanup as a blocking semantic defect. |
 | **Projection authority.** A ToC, packet, or companion carries semantics. | Move semantics to the governing pattern and leave projection echo. |
 | **Citation shelf.** Source rows do not change FPF moves. | Lower `P11` and state the missing source contribution. |
 | **Pillar table without evidence loci.** Values are listed but not tied to exact corpus loci. | Re-run with `Pillar coordinate | Value | ShortRationale | EvidenceLocus`; lower any Pillar whose evidence cannot be named. |

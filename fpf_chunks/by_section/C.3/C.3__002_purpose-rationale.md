@@ -6,12 +6,12 @@ section_id: "C.3:1"
 section_title: "Purpose & Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_purpose-rationale.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:1 — Purpose & Rationale"
-line_start: 36824
-line_end: 36839
+line_start: 36834
+line_end: 36849
 dependencies:
   - "A.1"
   - "A.2.6"

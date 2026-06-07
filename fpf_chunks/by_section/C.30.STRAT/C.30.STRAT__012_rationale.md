@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__012_rationale.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:10 — Rationale"
-line_start: 52639
-line_end: 52644
+line_start: 52649
+line_end: 52654
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 
 ### C.30.STRAT:10 - Rationale
 
-Stratification words are common because they compress local practice. That compression is useful at entry time and unsafe as ontology. FPF therefore keeps the word as a source label, recovers the `ontologicalNeighborhood`, and then uses the exact receiving pattern for the recovered claim.
+Stratification words are common because they compress local practice. That compression is useful at entry time and unsafe as ontology. FPF therefore keeps the word as a source label, recovers the `ontologicalNeighborhood`, and then uses the exact governing pattern for the recovered claim.
 
-The pattern is placed under `C.30` because architecture and structure prose is the recurring entry point. The placement does not make `C.30` the receiving pattern for every recovered case. If the recovery result is a relation, module-interface relation, characteristic or scale claim, source-publication claim, state or currentness claim, evidence path, assurance argument, gate decision, work occurrence, decision record, causal-use claim, or mathematical-lens result, the receiving pattern outside `C.30.STRAT` carries the live content.
+The pattern is placed under `C.30` because architecture and structure prose is the recurring entry point. The placement does not make `C.30` the governing pattern for every recovered case. If the recovery result is a relation, module-interface relation, characteristic or scale claim, source-publication claim, state or currentness claim, evidence path, assurance argument, gate decision, work occurrence, decision record, causal-use claim, or mathematical-lens result, the governing pattern outside `C.30.STRAT` carries the live content.
 

@@ -5,13 +5,13 @@ pattern_title: "First Practical Entry Neighborhood Index"
 section_id: "J.4:End"
 section_title: "J.4:End"
 source_path: "FPF-Spec.md"
-output_path: "by_section/J.4/J.4__002_j-4-end.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+output_path: "by_section/J.4/J.4__006_j-4-end.md"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:End — J.4:End"
-line_start: 81747
-line_end: 81781
+line_start: 82143
+line_end: 82177
 dependencies:
 keywords:
 ---

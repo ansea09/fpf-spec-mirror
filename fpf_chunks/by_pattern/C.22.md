@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
-line_start: 43374
-line_end: 43588
+line_start: 43384
+line_end: 43598
 dependencies:
   - "C.16"
   - "C.18"
@@ -57,9 +57,9 @@ Operationalise No-Free-Lunch discipline in selection by making every run-time de
 
 A `ProblemCard@Context` record can be used to prepare `ProblemProfile`, `TaskKind`, or candidate `TaskSignature` material for later use. Binding to one `TaskSignature` is admissible only when the downstream selector-facing object is ready. If several downstream signatures remain plausible, keep them as candidate signatures rather than binding one chosen `TaskSignature`.
 
-This relation does not move problem-card fields into `TaskSignature`. `TaskSignature` remains the minimal `C.22` attachment record for eligibility, acceptance, and selection. `ProblemCard@Context` remains the reviewable problem-side record that carries the reason this problem, in this context, can proceed to P2W, characterization, comparison, search, refresh, retirement, or another receiving pattern.
+This relation does not move problem-card fields into `TaskSignature`. `TaskSignature` remains the minimal `C.22` attachment record for eligibility, acceptance, and selection. `ProblemCard@Context` remains the reviewable problem-side record that carries the reason this problem, in this context, can proceed to P2W, characterization, comparison, search, refresh, retirement, or another governing pattern.
 
-The corresponding claims are governed by their named receiving patterns.
+The corresponding claims are governed by their named governing patterns.
 
 ### C.22:2 - Problem Frame (DesignRunTag split; crossing-visible)
 

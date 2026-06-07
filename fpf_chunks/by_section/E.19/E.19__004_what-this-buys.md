@@ -6,12 +6,12 @@ section_id: "E.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__004_what-this-buys.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.2 — What this buys"
-line_start: 66222
-line_end: 66233
+line_start: 66278
+line_end: 66289
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -22,6 +22,7 @@ dependencies:
   - "E.8"
   - "E.9"
   - "F.18"
+  - "F.19"
 keywords:
   - "(see H-8)"
   - "MUST NOT modify modeled-world entities (e.g"
@@ -38,9 +39,9 @@ keywords:
 
 `E.19` gives authors, reviewers, and stewards a shared review profile: what must be checked, how deep the check should go, which defects block admission or refresh, and what evidence is needed before a pattern-quality claim is made. It also makes the recognition text visible before the heavier assurance machinery begins.
 
-**First useful move.** Name the pattern-quality review or refresh claim, run baseline triage over the reviewed pattern or subset, and add only the risk-selected profiles needed by the live ontology, usability, SoTA, boundary, naming, or authority risk.
+**First useful move.** Name the pattern-quality review or refresh claim, run baseline triage over the reviewed pattern or subset, and add only the risk-selected profiles needed by the present ontology, usability, SoTA, boundary, naming, or authority risk.
 
-**Local-repair boundary.** If baseline triage shows that the current review question has no live ontology, usability, SoTA, boundary, naming, or authority risk beyond a small mechanical repair, close with that repair direction. Do not run every profile just because `E.19` exists, and do not claim an `E.21` quality value unless `E.21` has evaluated the pattern version over its required coordinate set.
+**Local-repair boundary.** If baseline triage shows that the current review question has no present ontology, usability, SoTA, boundary, naming, or authority risk beyond a small mechanical repair, close with that repair direction. Do not run every profile just because `E.19` exists, and do not claim an `E.21` quality value unless `E.21` has evaluated the pattern version over its required coordinate set.
 
 **Primary EntityOfConcern in plain terms.** The primary `EntityOfConcern` is one FPF pattern-quality review or refresh claim: the reviewed pattern text, the selected profile, the defects found or cleared, and the boundary of the admission or refresh decision.
 

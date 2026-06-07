@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "J.4"
 pattern_title: "First Practical Entry Neighborhood Index"
-section_id: "J.4:section-004"
+section_id: "J.4:section-008"
 section_title: "Migration playbook (informative)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/J.4/J.4__005_migration-playbook-informative.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+output_path: "by_section/J.4/J.4__009_migration-playbook-informative.md"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
-  - "J.4:section-004 — Migration playbook (informative)"
-line_start: 81828
-line_end: 81835
+  - "J.4:section-008 — Migration playbook (informative)"
+line_start: 82224
+line_end: 82231
 dependencies:
 keywords:
 ---

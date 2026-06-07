@@ -6,12 +6,12 @@ section_id: "E.21:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__009_consequences.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:8 — Consequences"
-line_start: 67546
-line_end: 67555
+line_start: 67661
+line_end: 67670
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -27,6 +27,7 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
   - "J.4"
 keywords:
 ---
@@ -39,5 +40,5 @@ keywords:
 | Compact evidence remains possible. | The coordinate table is still complete. |
 | Maturity claims become harder to fake. | Mature-pattern comparison adds cost where maturity or corpus-facing use is claimed. |
 | Semio-bias becomes visible. | Semio distinctions remain auxiliary unless they are the pattern's own `EntityOfConcern`. |
-| Stop decisions become less taste-based. | Open-ended improvement remains possible through `E.23` when a stronger aim is live. |
+| Stop decisions become less taste-based. | Open-ended improvement remains possible through `E.23` when a stronger aim is requested. |
 

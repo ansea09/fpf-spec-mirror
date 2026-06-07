@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "e3fedf42dc7cb5d12905913b5a0b0e951ed7d254"
+commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance checklist"
-line_start: 67940
-line_end: 67954
+line_start: 68060
+line_end: 68075
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -22,6 +22,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.9.DA"
+  - "F.19"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -34,12 +35,13 @@ keywords:
 |---|---|
 | `CC-E23-1` | Name exact object version and object-under-improvement evaluation before claiming quality movement. |
 | `CC-E23-2` | Use `E.22` or an equivalent frame when the evaluation purpose is not already explicit. |
-| `CC-E23-3` | Represent returned work as row-atomic findings or proposal rows with expected evaluation movement and closure tests. |
+| `CC-E23-3` | Represent returned work as row-atomic findings or proposal rows with expected evaluation movement and closure tests; a step is not closed until its row is written, and grouped memory summaries do not discharge skipped rows. |
 | `CC-E23-4` | Re-evaluate the changed object version before claiming coordinate, status, `Q`, or front movement. |
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
 | `CC-E23-6` | Continue only with expected evaluation movement and cost/risk reason. |
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
-| `CC-E23-8` | Keep candidate generation, pool policy, selected-set publication, parity, refresh, decision, planning, work, evidence, assurance, gate, release, safety, and compliance claims with exact neighbours. |
+| `CC-E23-8` | Keep candidate generation, pool policy, selected-set publication, parity, refresh, decision, planning, work, evidence, assurance, gate, release, safety, and compliance claims with the exact pattern that governs each claim, relation, or boundary. State those pattern relations declaratively in loop records or `Relations`; keep loop-method and architecture-placement prose out of the object under improvement unless that prose is the object's own user-facing content. |
+| `CC-E23-8a` | When the evaluation names a precision-restoration defect, apply the exact restoration or governing pattern named by that evaluation. For `E.21`, use its `PrecisionRestorationProfile` to decide whether the repair is word/head/use precision (`E.10`, `E.10.ARCH`, `F.18`), phrase-level plain rewriting (`F.19`), or an exact governing-pattern repair. The repair row is not closed until it includes a `KindRestorationCheck`: pre-repair kind/relation/slot-or-use-position/admissible use/scope, post-repair kind/relation/slot-or-use-position/admissible use/scope, or `not triggered`/`ordinary prose`/`already satisfied`/`blocker` disposition with loci. |
 | `CC-E23-9` | Apply `E.10` to load-bearing loop names, status values, examples, stop conditions, and result wording introduced or repaired by the loop. |
-| `CC-E23-10` | Preserve the named evaluation's required evidence basis, result-row shape, short-rationale rule, and coordinate-specific payloads in every re-evaluation. |
+| `CC-E23-10` | Preserve the named evaluation's required evidence basis, result-row shape, short-rationale rule, mandatory attention-discharge rows, and coordinate-specific payloads in every re-evaluation. |
 
