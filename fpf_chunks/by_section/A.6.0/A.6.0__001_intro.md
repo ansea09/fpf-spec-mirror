@@ -6,12 +6,12 @@ section_id: "A.6.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__001_intro.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:intro — Intro"
-line_start: 8661
-line_end: 8668
+line_start: 8662
+line_end: 8669
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -36,7 +36,7 @@ keywords:
 
 **Status.** Architectural pattern, kernel‑level and universal.
 **Placement.** Part A (Kernel), **before A.6.1** (“U.Mechanism”).
-**Builds on.** **A.2.6** (USM: context slices & scopes), **E.8** (authoring order), **E.10** LEX-BUNDLE (registers, naming, stratification), **E.10.D1** D.CTX (Context discipline).
+**Builds on.** **A.2.6** (USM: context slices and scopes), **E.8** (pattern form and section order), **E.10** LEX-BUNDLE (registers, naming, stratification), **E.10.D1** D.CTX (Context discipline).
 
-**Coordinates with.** **A.6.1** (U.Mechanism), **A.6.5** (`U.RelationSlotDiscipline` for n‑ary arguments), **E.5.3** (Unidirectional Dependency), **E.10** (LEX-BUNDLE), and **Part F** (harnesses & cross-context transport; naming). Conformance keywords: RFC 2119.
+**Coordinates with.** **A.6.1** (U.Mechanism), **A.6.5** (`U.RelationSlotDiscipline` for n-ary arguments), **E.5.3** (Unidirectional Dependency), **E.10** (LEX-BUNDLE), and **Part F** (harnesses and cross-context transport; naming). Conformance keywords: RFC 2119.
 

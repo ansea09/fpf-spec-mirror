@@ -6,12 +6,12 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Aid"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-aid.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:22 — First Practical Entry Aid"
-line_start: 44479
-line_end: 44516
+line_start: 44675
+line_end: 44703
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"
@@ -70,30 +71,21 @@ These likely practitioner entry phrases point to `C.22.2`:
 - "This looks like a ticket, but I am not sure the problem is stated."
 - "A signal or anomaly keeps recurring before method selection."
 - "We selected this candidate from a front, archive, pool, or selected set, but need to state why it is a problem now."
-- "P2W would otherwise receive 'implement X'."
+- "P2W would otherwise use 'implement X' as if it were reviewable problem-side output."
 - "There is a symptom, but we do not yet know what to solve."
-- "We need to know whether this problem is ready for P2W or should exit elsewhere."
+- "We need to know whether this problem is ready for P2W or should apply another pattern."
 
-Tempting wrong first patterns:
+Direct-entry cues that are not `C.22.2`:
 
-- Do not start at `C.11` if the live issue is not yet a local choice among available options.
-- Do not start at `C.16` or `A.19` if the live issue is not only measurement, characterization, or indicator admissibility.
-- Do not start at `C.18`, `C.19`, or `G.5` if the live problem-side use is one selected singleton problem card rather than the problem archive, problem pool, problem front, or selected problem set.
-- Do not start at `A.15` if no method or work plan is ready.
-- Do not start at `A.10`, `G.6`, or `B.3` if evidence, provenance, or assurance is not the center.
-- Do not start at `A.21` or `E.16` if no gate or autonomy authority is being decided.
-
-Not `C.22.2` anti-cases:
-
-- "The method is accepted; now schedule the work." Use `A.15`.
-- "We need proof this result is reliable." Use `A.10`, `G.6`, or `B.3`.
-- "Which option should we choose among explicit options?" Use `C.11`, or `G.5` when set publication or selected-set semantics are live.
-- "Can the agent call the tool?" Use `C.24`, `E.16`, or `A.21`; `ProblemCard@Context` may only name the problem-side cue or exit and does not grant tool-call, autonomy, or gate authority.
-- "This is ordinary discussion with no downstream project-side move." Do not use `C.22.2`.
+- accepted method or work planning: use `A.15`;
+- proof, provenance, reliability, or assurance claim: use `A.10`, `G.6`, or `B.3`;
+- local choice among explicit options: use `C.11`, or `G.5` when set publication or selected-set semantics are live;
+- agent tool-call, gate, or autonomy claim: use `C.24`, `E.16`, or `A.21`; `ProblemCard@Context` may only name the problem-side cue or exact relation;
+- ordinary discussion with no downstream project-side move: no `C.22.2` use.
 
 First-use Thin-card test:
 
-Given a messy signal, a practitioner must be able to produce a Thin `ProblemCard@Context` in under one page and correctly choose one admissible next move: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstain/no-change`, or named neighboring-pattern exit.
+Given a messy signal, a practitioner must be able to produce a Thin `ProblemCard@Context` in under one page and correctly choose one admissible next move: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstain/no-change`, or apply the exact FPF pattern that governs the live claim, relation, or boundary outside the card.
 
 Entry relation:
 

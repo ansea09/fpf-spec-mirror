@@ -6,12 +6,12 @@ section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"
-line_start: 44463
-line_end: 44478
+line_start: 44662
+line_end: 44674
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"
@@ -63,9 +64,7 @@ keywords:
 
 ### C.22.2:21 - Machine-Assisted Drafting Boundary
 
-Machine-assisted `ProblemCard@Context` drafting is admissible only as drafting aid. The practitioner remains responsible for verifying the governing fields and neighboring exits before the card is used for P2W, selection, evidence, gate, autonomy, or work.
-
-For AI-assisted entry or retrieval, a `C.22.2` hit is only a candidate-pattern hit. The practitioner or assistant must still check the first honest entry question: problem-side record before P2W, work plan, evidence claim, local choice, safe probe, mathematical-lens use, or ordinary discussion.
+Machine-assisted `ProblemCard@Context` drafting is admissible only as drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any exact-pattern cues for claims outside `C.22.2`.
 
 Required practitioner checks for a machine-assisted draft:
 
@@ -74,6 +73,5 @@ Required practitioner checks for a machine-assisted draft:
 - problem-formulation next-move reason;
 - unknown handling;
 - freshness or expiry disposition;
-- neighboring exits;
-- no evidence, gate, work, or autonomy overread.
+- exact-pattern cues for live claims, relations, or boundaries outside `C.22.2`.
 

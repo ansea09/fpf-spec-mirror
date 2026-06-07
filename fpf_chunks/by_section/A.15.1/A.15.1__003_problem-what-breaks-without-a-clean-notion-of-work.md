@@ -6,12 +6,12 @@ section_id: "A.15.1:2"
 section_title: "Problem (what breaks without a clean notion of Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__003_problem-what-breaks-without-a-clean-notion-of-work.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:2 — Problem (what breaks without a clean notion of Work)"
-line_start: 19668
-line_end: 19675
+line_start: 19826
+line_end: 19833
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,9 +43,9 @@ keywords:
 
 ### A.15.1:2 - Problem (what breaks without a clean notion of Work)
 
-1. **Plan/run confusion.** Schedules and diagrams get mistaken for “the process,” so audits and KPIs become fiction.
-2. **Spec/run conflation.** A method description (code/SOP) is reported as if it were an execution; conversely, logs are treated as recipes.
-3. **Who/when leakage.** People and calendars are baked into specs; reuse and staffing agility collapse.
-4. **Resource dishonesty.** Energy/money/tool wear are booked to methods or roles, not to actual runs; costing and sustainability metrics drift.
-5. **Mereology muddle.** Teams hand‑wave over “sub‑runs,” retries, overlaps, or long‑running episodes; roll‑ups double‑count or miss work.
+1. **Plan and run confusion.** Schedules and diagrams get mistaken for "the process," so audits and KPIs become fiction.
+2. **Specification and run conflation.** A method description, code artifact, or SOP is reported as if it were an execution; conversely, logs are treated as recipes.
+3. **Who and when leakage.** People and calendars are baked into specifications; reuse and staffing agility collapse.
+4. **Resource dishonesty.** Energy, money, and tool wear are booked to methods or roles, not to actual runs; costing and sustainability measures drift.
+5. **Mereology muddle.** Teams hand-wave over sub-runs, retries, overlaps, or long-running episodes; roll-ups double-count or miss work.
 

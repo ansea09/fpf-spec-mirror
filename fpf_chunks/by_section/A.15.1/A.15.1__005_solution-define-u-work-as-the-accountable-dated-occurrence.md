@@ -6,12 +6,12 @@ section_id: "A.15.1:4"
 section_title: "Solution — define U.Work as the accountable, dated occurrence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-define-u-work-as-the-accountable-dated-occurrence.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:4 — Solution — define U.Work as the accountable, dated occurrence"
-line_start: 19686
-line_end: 19736
+line_start: 19844
+line_end: 19897
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -45,7 +45,7 @@ keywords:
 
 #### A.15.1:4.1 - Definition
 
-**`U.Work`** is a **4D occurrence holon**: a **dated run‑time enactment** of a `U.MethodDescription` by a performer designated through a `U.RoleAssignment`, **executed within a concrete `U.System/SubSystem`**, inside a `U.BoundedContext`, that binds concrete parameters, consumes/produces resources, and leaves an auditable trace.
+**`U.Work`** is a **4D occurrence holon**: a **dated run-time enactment** of a `U.Method` by a performer designated through a `U.RoleAssignment`, **executed within a concrete `U.System` or `U.SubSystem`**, inside a `U.BoundedContext`, that binds concrete parameters, consumes and produces resources, and leaves an auditable trace. When a method-description source is live, `methodDescriptionRef` names the `U.MethodDescription` used to identify, constrain, or justify the enacted method.
 Each `U.Work` is a **morphism** `Δ` on a declared **state‑plane** (`StatePlaneRef`), mapping ⟨**pre‑state**, **inputs**⟩ to ⟨**post‑state**, **outputs**⟩ for one or more **affected referents**.
 
 > **Memory aid:** *Work = “how it went this time”* (dated, resourced, accountable).
@@ -54,41 +54,44 @@ Each `U.Work` is a **morphism** `Δ` on a declared **state‑plane** (`StatePlan
 
 When you describe a Work instance in a review, answer these prompts:
 
-1. **Window** — start/end timestamps (and, where relevant, location/asset).
+1. **Window** — start and end timestamps and, where relevant, location or asset.
 2. **Spec** — `isExecutionOf → U.MethodDescription` (the description actually followed; **edition pinned** if applicable).
 3. **Performer** — `performedBy → U.RoleAssignment` (which **holder#role\:context** acted).
 4. **Parameters** — concrete values bound for this run (from the **MethodDescription** parameter declarations).
-5. **Inputs and outputs** — materials, information, or product states read or written by the Work; service delivery is judged through the Outcome row.
+5. **Inputs and outputs** — materials, information, or product states used or produced by the Work; service delivery is judged through the Outcome row.
 6. **Resources** — energy, materials, machine time, money (the **only** place we book them).
-7. **Outcome** — success/failure classes, quality measures, acceptance verdicts (**map‑then‑compare** per **ComparatorSet** under **CG‑Spec**; pin editions).
-8. **Links** — predecessor/successor/overlap relations to other Work, and step/run nesting (if part of a bigger operation).
-9. **Context** — the bounded context(s) under which this run is judged (normally inherited from the MethodDescription and RoleAssigning; see A.15 for cross‑checks).
+7. **Outcome** — success and failure classes, quality measures, acceptance verdicts (**map-then-compare** per **ComparatorSet** under **CG-Spec**; pin editions).
+8. **Links** — predecessor, successor, and overlap relations to other Work, plus step or run nesting if part of a bigger operation.
+9. **Context** — the bounded context under which this run is judged, normally inherited from the method-description source and `U.RoleAssignment`; see A.15 for cross-checks.
 10. **Effect (Δ)** — `affected → {referent(s)}` + **pre‑state anchor** and **post‑state anchor** (or a declared **Δ‑predicate** evaluated on evidence) on the declared state‑plane (**StatePlaneRef**).
-11. **System** — `executedWithin → U.System` (the operational system/sub‑system accountable for the occurrence; **mandatory**).
-12. **Evidence & Telemetry (optional)** — if the run feeds **G.11** refresh or QD/OEE archives, cite **PathId/PathSliceId** and the active **policy‑id** used for illumination; do not elevate telemetry into dominance without CAL policy.
+11. **System** — `executedWithin -> U.System` or `executedWithin -> U.SubSystem` (the operational system or subsystem accountable for the occurrence; **mandatory**).
+12. **Evidence and telemetry (optional)** — if the run feeds **G.11** refresh or QD and OEE archives, cite **PathId** or **PathSliceId** and the active **policy-id** used for illumination; do not elevate telemetry into dominance without CAL policy.
 
 #### A.15.1:4.3 - Clear distinctions (the four‑slot grammar in action)
 
 | You are pointing at…                          | The right FPF concept  | Litmus                                                          |
 | --------------------------------------------- | ---------------------- | --------------------------------------------------------------- |
-| The **recipe/code/diagram**                   | **MethodDescription**         | Is it knowledge on a carrier?                                   |
+| The **recipe, code artifact, or diagram**     | **MethodDescription**         | Is it an episteme or publication describing a way of doing?     |
 | The **semantic “way of doing”**               | **Method**             | Same Standard across notations?                                 |
-| The **assignment** (“who is being what”)     | **Role → RoleAssigning** | Can be reassigned without changing the system?                  |
+| The **assignment** ("who is being what")     | **Role -> RoleAssignment** | Can be reassigned without changing the system?                  |
 | The **ability** (“can do within bounds”)      | **Capability**         | Would remain even if not assigned?                             |
 | The **dated occurrence** with logs, resources | **Work**               | Did it happen at (t₀, t₁), consume resources, produce outcomes? |
 | The **state change caused this time**         | **Work.Δ**             | Did the referent move from pre→post on the declared state‑plane? |
 
-#### A.15.1:4.4 - Publication (MVPK guard‑rails for `U.Work`) — *normative*
-Publication of `U.Work` across MVPK faces **must** be a typed projection that does **not** mutate intensional semantics (A.7; E.17). Concretely:
-1. **No new claims.** Faces (**PlainView, TechCard, InteropCard, or AssuranceLane**) **SHALL NOT** introduce properties beyond the `U.Work` intensional arrow; they **project** presence‑pins only (time window, performer, spec, parameter‑binding occurrence, resource ledger presence, acceptance verdict presence). Numeric/comparable content appears **only** with pins (see 4.4‑4.5 below); **“signature”** is banned on faces.
-2. **No Γ‑leakage.** Faces **MUST NOT** smuggle Γ semantics (union/hull/overlap policy, budget algebra) into prose; whenever aggregation is shown, the face **cites** the Γ‑operator and policy‑id used. Compute totals outside the face per B.1; faces carry **references**, not implied Γ rules.
-3. **No I/O re‑listing.** Per MVPK, faces **do not duplicate** intensional I/O lists. They show **presence‑pins** and **anchors** to carriers/lanes/editions only (E.17 §5.4).
-4. **Lawful orders (sets).** Where a `U.Work` face presents any **comparison or ranking across runs** (e.g., acceptance classes, parity/benchmark inserts), the face **must**: (i) compare **after mapping** via a declared **ComparatorSet**; (ii) **return sets** (Pareto/Archive) when order is partial; (iii) **forbid** hidden scalarization/ordinal means (cf. G.9).
-5. **Comparator/Transport edition pins.** Any numeric/comparable statement on a `U.Work` face **MUST** pin the **CG‑Spec**/**ComparatorSet** edition(s) and, where scale/plane conversion occurs, the **UNM.TransportRegistry** edition (**Φ**/**Φ^plane** policy‑ids). Cross-context or cross-plane crossings **route penalties to R‑lane only** (Bridge id + Φ) (cf. E.17; G.9).
-6. **Cross‑stance citations.** Any citation whose **stance** differs from the citing `U.Work` face (different `DesignRunTag`, `ReferencePlane`, or `CtxState.locus`) **MUST** carry **BridgeCard + UTS row** (with locus/plane notes and CL routing).
-7. **No surrogate‑run creation.** Faces **MUST NOT** synthesize “virtual runs” from reconstructed records alone; a face may reference only `U.Work` instances that meet Δ‑anchoring in §4.2/§8.
+#### A.15.1:4.4 - Publication-use boundary for `U.Work`
 
-#### A.15.1:4.5 - Crossing visibility & stance tags (work publication discipline) — *normative*
-* **Stance.** `U.Work` is a **run-time occurrence** (DesignRunTag = run). Any face that cites **design-time** artefacts (e.g., ComparatorSet, CG-Spec editions, TransportRegistryΦ) is making a **cross-stance/cross-Context** reference and therefore **MUST** publish a **BridgeCard + UTS row** and record **Φ(CL)/Φ^plane** policy-ids; **penalties reduce `R_eff` only**.
-* **Binding discipline.** **Launch values bind only here** (occurrence). Plan-time proposals remain proposals; do not back-fill plan faces with run-time bindings. **Pre/post state anchors bind here** (pre at start; post at completion or at declared checkpoints).
+A `U.Work` publication projects an already declared work occurrence; it does not create the occurrence, add run-time facts, or make a plan, source reconstruction, dashboard, or publication face count as performed work.
+
+| Publication-use pressure | Work-local rule |
+|---|---|
+| PlainView, TechCard, InteropCard, or AssuranceLane presents work material | Project only occurrence anchors: time window, performer, enacted method-description source, parameter-binding occurrence, resource-ledger reference, state-change anchors, outcome, and acceptance-verdict reference when live. |
+| numeric, comparable, aggregation, or benchmark content appears | Pin the comparator, aggregation policy, CG-Spec, reference plane, and transport edition needed by the claimed comparison; do not hide scalarization in the publication face. |
+| publication cites design-time material or cross-context material | Keep the `U.Work` occurrence run-time; cite the design-time or cross-context material through Bridge/UTS, `DesignRunTag`, reference-plane, or edition relation as needed. |
+| reconstructed records look like a run | Do not synthesize surrogate `U.Work`; a publication may cite only work occurrences that meet the occurrence anchors in this pattern. |
+
+#### A.15.1:4.5 - Crossing visibility for work publications
+
+When a work publication crosses design/run state, context, reference plane, unit, or edition, publish the crossing relation used by the publication. Penalties and reliability changes belong to the relevant comparison, bridge, publication, or evidence relation; they do not change the identity of the `U.Work` occurrence.
+
+Launch values bind only at the occurrence. Plan-time proposals remain proposals; do not back-fill plan publications with run-time bindings. Pre-state and post-state anchors bind to the occurrence: pre at start, post at completion or at declared checkpoints.
 

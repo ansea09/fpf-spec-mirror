@@ -6,12 +6,12 @@ section_id: "B.2.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__011_rationale.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:10 — Rationale"
-line_start: 30982
-line_end: 30987
+line_start: 31331
+line_end: 31336
 dependencies:
   - "A.1"
   - "A.12"

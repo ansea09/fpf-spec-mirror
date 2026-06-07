@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 44043
-line_end: 44060
+line_start: 44362
+line_end: 44379
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"
@@ -75,7 +76,7 @@ The heavy content stays with existing FPF patterns:
 - `G.4` carries acceptance clauses and threshold predicates;
 - `G.5` governs selected-set publication when the problem enters a selected set.
 
-Missing characterization or parity relation is a current disposition. The record exits to characterization, parity, or search or pool work under the governing pattern instead of pretending the problem is ready for P2W.
+Missing characterization or parity relation is a current disposition. The record applies the characterization, parity, search, or pool pattern when that relation is live instead of pretending the problem is ready for P2W.
 
-The `C.22.2` candidate acceptance criterion must distinguish functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are live. Comparison frame, CG-Spec, or comparability governance exits to `G.0`. Acceptance clauses and acceptance threshold predicates exit to `G.4`; `C.22.2` may name only the need, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself admissible acceptance for P2W.
+The `C.22.2` candidate acceptance criterion must distinguish functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are live. Comparison frame, CG-Spec, or comparability governance is governed by `G.0`. Acceptance clauses and acceptance threshold predicates apply `G.4`; `C.22.2` may name only the need, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself admissible acceptance for P2W.
 

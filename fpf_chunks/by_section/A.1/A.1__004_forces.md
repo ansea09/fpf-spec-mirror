@@ -6,12 +6,12 @@ section_id: "A.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__004_forces.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:3 — Forces"
-line_start: 1155
-line_end: 1162
+line_start: 1156
+line_end: 1163
 dependencies:
   - "A.1"
   - "A.1.1"

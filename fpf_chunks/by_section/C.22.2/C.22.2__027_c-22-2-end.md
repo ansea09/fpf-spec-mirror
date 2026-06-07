@@ -6,12 +6,12 @@ section_id: "C.22.2:End"
 section_title: "C.22.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__027_c-22-2-end.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:End — C.22.2:End"
-line_start: 44569
-line_end: 44570
+line_start: 44743
+line_end: 44744
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"

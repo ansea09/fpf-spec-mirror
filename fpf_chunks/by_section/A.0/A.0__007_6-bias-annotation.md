@@ -6,12 +6,12 @@ section_id: "A.0:section-006"
 section_title: "6) Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__007_6-bias-annotation.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:section-006 — 6) Bias‑Annotation"
-line_start: 968
-line_end: 975
+line_start: 969
+line_end: 976
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

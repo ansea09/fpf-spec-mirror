@@ -6,12 +6,12 @@ section_id: "A.15:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__007_bias-annotation.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:6 — Bias-Annotation"
-line_start: 19506
-line_end: 19522
+line_start: 19612
+line_end: 19628
 dependencies:
   - "A.10"
   - "A.12"
@@ -46,7 +46,7 @@ keywords:
 
 ### A.15:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for contextual enactment across engineering, operational, and knowledge-work settings.
+Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: **Universal** for contextual enactment across engineering, operational, and knowledge-work settings.
 
 Bias risks and mitigations:
 
@@ -54,7 +54,7 @@ Bias risks and mitigations:
   *Mitigation:* keep `U.RoleAssignment`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` distinct, and let only `U.Work` carry actuals and resource use.
 * **Architectural bias (Arch):** modelers may pull roles or capabilities into structural part hierarchies because those diagrams are already present.
   *Mitigation:* preserve role and capability as contextual-functional entities, not parts.
-* **Epistemic bias (Onto/Epist):** a documented recipe or schedule can be mistaken for proof of execution.
+* **Epistemic bias (Onto and Epist):** a documented recipe or schedule can be mistaken for proof of execution.
   *Mitigation:* require the traceability chain from `U.RoleAssignment` and `U.MethodDescription` to dated `U.Work`.
 * **Pragmatic bias (Prag):** teams may keep using one overloaded source-side "process" word because it feels faster.
   *Mitigation:* resolve "workflow", "schedule", and "what happened" source cues through `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`.

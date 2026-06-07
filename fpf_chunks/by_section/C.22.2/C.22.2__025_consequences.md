@@ -6,12 +6,12 @@ section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:24 — Consequences"
-line_start: 44545
-line_end: 44563
+line_start: 44719
+line_end: 44737
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"
@@ -66,17 +67,17 @@ keywords:
 #### C.22.2:24.1 - Benefits
 
 - FPF gains a clear problem-side output for problematization as the input P2W can use.
-- P2W receives a typed problem-side record rather than a slogan, ticket-shaped wish, or preselected method.
-- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work item is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `setContextRef`; an indicator is used without admission; problem-formulation next-move reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation next-move reason is inherited across a changed representation without a SEMIO witness.
+- P2W uses a typed problem-side record rather than a slogan, ticket-shaped wish, or preselected method.
+- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work item is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `setContextRef`; an indicator is used without admission; problem-formulation next-move reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation next-move reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
 - Current archive, pool, front, shortlist, set-return, parity, refresh, evidence, and `C.29` patterns are reused instead of duplicated.
 - The positive role of mathematical and first-principles thinking is preserved: it can find missing structure, not only check already-written mathematics.
 - Characterization and parity are no longer optional background when they are prerequisites for problem reviewability.
-- Representation-change relations are handled through named relation exits rather than local proof inside the problem card.
+- Representation-change relations are handled through named relation references rather than local proof inside the problem card.
 
 #### C.22.2:24.2 - Costs of Use
 
-- A `ProblemCard@Context` adds a small writing step before P2W. The cost is justified only when the signal must become reviewable before task typing, method-family selection, evidence use, gate passage, autonomy control, set-return handling, or first-principles or mathematical-lens use.
+- A `ProblemCard@Context` adds a small writing step before P2W. The cost is justified only when the signal must become reviewable before downstream use.
 - The practitioner must keep the card small: preserve the split between problem, task, method, work, and result; keep `TaskSignature` minimal; and add conditional fields only when their relation is live.
 - For problems emitted from archives, pools, fronts, selected sets, or portfolios, the practitioner must preserve `setContextRef` or the set-source relation without turning the card into a portfolio, archive, selected-set, or work-planning object.
-- External or source-local terms may guide recognition only when they change a concrete boundary, field, exit, or validation obligation. Otherwise they remain examples or source cues, not local authority.
+- External or source-local terms may guide recognition only when they change a concrete boundary, field, relation, or validation obligation. Otherwise they remain examples or source cues.
 

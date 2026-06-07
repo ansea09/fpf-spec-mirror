@@ -6,12 +6,12 @@ section_id: "C.29:8"
 section_title: "Consequences and validation harness"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__010_consequences-and-validation-harness.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:8 — Consequences and validation harness"
-line_start: 50879
-line_end: 50965
+line_start: 51053
+line_end: 51139
 dependencies:
   - "A.1.1"
   - "A.10"

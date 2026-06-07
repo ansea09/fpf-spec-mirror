@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Migration notes (quick wins)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__013_migration-notes-quick-wins.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Migration notes (quick wins)"
-line_start: 19986
-line_end: 19995
+line_start: 20148
+line_end: 20157
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -45,9 +45,9 @@ keywords:
 
 1. **Backfill links.** For existing logs, create Work records and attach `isExecutionOf` and `performedBy`.
 2. **Name the context.** Pick the judgement context explicitly; add Bridges if multiple contexts must accept.
-3. **Publish the episode policy.** Decide when an interruption keeps identity vs forces a new run.
+3. **Record the episode policy.** Decide when an interruption keeps identity or forces a new run.
 4. **Choose Γ\_time per KPI.** Put “union” or “hull” in the KPI definition; stop arguing in meetings.
 5. **Set an overlap policy.** Write one sentence on how shared costs are allocated; apply consistently.
 6. **Pull plans out.** Move calendars to `U.WorkPlan`; let Work record actuals.
-7. **Parameter blocks.** Make parameters explicit and bind them at start; your root‑cause analyses will get 10× easier.
+7. **Parameter blocks.** Make parameters explicit and bind them at start; root-cause analyses become easier.
 

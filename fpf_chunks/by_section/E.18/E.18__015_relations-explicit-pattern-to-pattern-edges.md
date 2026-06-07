@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern‑to‑pattern edges)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__015_relations-explicit-pattern-to-pattern-edges.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:14 — Relations (explicit pattern‑to‑pattern edges)"
-line_start: 66217
-line_end: 66246
+line_start: 66377
+line_end: 66406
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -66,7 +66,7 @@ keywords:
 * **E.TGA →coordinates with→ A.15 U.WorkEnactment (`FinalizeLaunchValuesOnlyInWork`).** Single point of `FinalizeLaunchValues`; `FreshnessUpToDate` hard at LaunchGate; acceptance/telemetry published here.
 
 **Structure & reuse**
-* **E.TGA →specializes→ U.TransductionFlow (and its family).** The graph architecture is the common substrate on which flow patterns (e.g., P2W, EvaluatingAndRefreshing) are defined; E.TGA provides coherence checks for their crossings, guards, and MVPK faces.
+* **E.TGA →specializes→ U.TransductionFlow (and its family).** The graph architecture is the common graph-architecture base on which flow patterns (e.g., P2W, EvaluatingAndRefreshing) are defined; E.TGA provides coherence checks for their crossings, guards, and MVPK faces.
 * **E.TGA -> coordinates with -> C.30.TGA-FLOW-REL.** When a TGA graph is used in an architecture-flow relation, `C.30.TGA-FLOW-REL` records the relation between flow/transduction structure and `ArchitectureOf@Context`; E.TGA keeps graph, crossing, and flow-valuation discipline.
 * **E.TGA →publishes_on→ E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) for every edge/node where publication occurs; Lean mode allowed only as per profile.
 

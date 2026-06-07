@@ -6,12 +6,12 @@ section_id: "A.2.2:6"
 section_title: "Archetypal grounding (parallel structural and organizational examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__007_archetypal-grounding-parallel-structural-and-organizational-examples.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:6 — Archetypal grounding (parallel structural and organizational examples)"
-line_start: 2375
-line_end: 2404
+line_start: 2376
+line_end: 2405
 dependencies:
   - "A.1"
   - "A.1.1"

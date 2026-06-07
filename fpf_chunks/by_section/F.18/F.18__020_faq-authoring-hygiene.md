@@ -6,12 +6,12 @@ section_id: "F.18:19"
 section_title: "FAQ (authoring hygiene)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__020_faq-authoring-hygiene.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:19 — FAQ (authoring hygiene)"
-line_start: 74898
-line_end: 74914
+line_start: 75404
+line_end: 75420
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

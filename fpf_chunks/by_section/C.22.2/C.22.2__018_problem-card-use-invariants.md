@@ -6,12 +6,12 @@ section_id: "C.22.2:17"
 section_title: "Problem-Card Use Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__018_problem-card-use-invariants.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:17 — Problem-Card Use Invariants"
-line_start: 44369
-line_end: 44381
+line_start: 44593
+line_end: 44601
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"
@@ -63,14 +64,10 @@ keywords:
 
 ### C.22.2:17 - Problem-Card Use Invariants
 
-These invariants govern use of one `ProblemCard@Context`; they do not add card fields.
-
-| Invariant | Required recovery |
+| Invariant | Requirement |
 |---|---|
-| One card, one current problem-side representation | One `ProblemCard@Context` instance carries one problem-side representation under one declared context. If the represented problem changes, the card states the changed representation or exits to the representation pattern that carries the change. |
-| No hidden companion records | A card may mature, but it does not fork into hidden `TaskSignature`, `WorkPlan`, evidence, gate, autonomy, archive, portfolio, selected-set, or mathematical-lens use records. |
-| Heavy relations exit | Evidence, provenance, assurance, gate, autonomy, work, archive, selected-set, comparison, acceptance, representation-transition, temporal, causal, and C.29 authority for mathematical-lens use stays with the governing pattern that carries the live relation. |
-| `P2W-ready` is problem-side readiness | `P2W-ready` means problem-side input ready, not work ready, not gate-passed, not method-selected, and not evidence-proved. |
-| Stale or blocked cards need a disposition | A stale, unknown-blocked, changed-representation, or missing required reason, criterion, or source-reference card cannot silently remain `P2W-ready`; it states refresh, retirement, bounded use, `abstain/no-change`, or a named neighboring exit. |
-| Smallest truthful card wins | The smallest card that gives an honest next move is sufficient. Full field completion is not required when a Thin card already gives the truthful next move. |
+| One card, one current problem-side representation | One `ProblemCard@Context` instance carries one problem-side representation under one declared context. A changed represented problem states the changed representation or the relation that must be reopened. |
+| `P2W-ready` is problem-side readiness | The card can be ready as input to P2W or selector-facing use without being work-ready, gate-passed, method-selected, evidence-proved, or autonomy-authorized. |
+| Claims outside `C.22.2` stay outside the card | Evidence, provenance, assurance, gate, autonomy, work, archive, selected-set, comparison, acceptance, representation, temporal, causal, and mathematical-lens claims remain with the exact pattern that governs each live claim. |
+| Stale or blocked cards state a disposition | A stale, unknown-blocked, changed-representation, or missing required reason/criterion/source-reference card states refresh, retirement, bounded use, `abstain/no-change`, or the relation that must be reopened. |
 

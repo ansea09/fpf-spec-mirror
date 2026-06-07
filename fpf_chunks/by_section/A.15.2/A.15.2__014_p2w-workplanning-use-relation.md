@@ -1,0 +1,42 @@
+---
+chunk_kind: "child"
+pattern_id: "A.15.2"
+pattern_title: "U.WorkPlan"
+section_id: "A.15.2:8"
+section_title: "P2W WorkPlanning Use Relation"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.15.2/A.15.2__014_p2w-workplanning-use-relation.md"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+heading_path:
+  - "A.15.2 — U.WorkPlan"
+  - "A.15.2:8 — P2W WorkPlanning Use Relation"
+line_start: 20430
+line_end: 20435
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.3"
+  - "A.15.4"
+  - "A.2.1"
+  - "A.20"
+  - "A.21"
+  - "B.3"
+  - "E.17"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.RoleAssignment"
+  - "U.Work"
+keywords:
+  - "forecast"
+  - "intent"
+  - "plan"
+  - "schedule"
+---
+
+### A.15.2:8 - P2W WorkPlanning Use Relation
+
+When `E.18.1` reaches WorkPlanning, `U.WorkPlan` carries intended work occurrences, planned windows, intended role requirements, planned constraints, resource budgets, acceptance targets, evidence-reference hooks, source-currentness requests, and plan items.
+
+If the same P2W source phrase also carries execution, launch-value, evidence, gate, result, measurement, or refresh meaning, write that meaning as a separate live relation before using the plan.
+

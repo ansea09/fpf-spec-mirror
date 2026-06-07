@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
-line_start: 19259
-line_end: 19659
+line_start: 19364
+line_end: 19792
 dependencies:
   - "A.10"
   - "A.12"
@@ -51,7 +51,7 @@ keywords:
 
 **At a glance.** This pattern is the action-guiding alignment pattern for engineer-managers when the real confusion is not "what component is this" but `who is responsible`, `how the work is supposed to happen`, `when the plan lives`, and `what actually happened`.
 
-**Use this when.** Use this pattern when the real job is to separate role, method, plan, capability, and actual work before a team treats one cue, one schedule, one display, one copied/generated statement, or one document as if it already counted as the role assignment, the method, the work plan, execution evidence, or the work itself.
+**Use this when.** Use this pattern when the real job is to separate role, method, plan, capability, and actual work before a team treats one cue, one schedule, one display, one copied or generated statement, or one document as if it already counted as the role assignment, the method, the work plan, execution evidence, or the work itself.
 
 **Start here when.** The dominant ambiguity is role vs method vs schedule vs actual run, and the team keeps arguing over a source-side "process" cue without separating recipe, plan, capability, and executed work.
 
@@ -63,18 +63,18 @@ keywords:
 1. Name the role, holder, and context distinction that is live.
 2. Name the method or method description that is meant to govern the work.
 3. Name the intended `U.WorkPlan` or actual `U.Work` occurrence being claimed.
-4. Choose the next move: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, hand off to the governing FPF pattern and exact project-side FPF kind and reference that carry the live claim or effect, or stop.
-5. If a visible item is being used as approval, permission, gate passage, evidence, engineering justification, role or status currentness, release reliance, or performed work by appearance, move to `A.15.4 Work-Relevant Source Restoration` and return here only for the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
+4. Choose the next move: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, apply the exact FPF pattern and exact project-side FPF kind and reference for the live claim or effect, or stop.
+5. If a visible item is being used by appearance for a work claim, reliance claim, or source-restoration claim, move to `A.15.4 Work-Relevant Source Restoration` and return here only for the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
 
-**Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, capability, and actual work distinct so the acting engineer-manager can choose the next admissible project move. Work-relevant source restoration is the neighboring `A.15.4` cluster member.
+**Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, capability, and actual work distinct so the acting engineer-manager can choose the next admissible project move. Work-relevant source restoration is handled by the related `A.15.4` cluster member.
 
 **Minimum sufficient next move.** Choose the minimum sufficient next move, recover only the exact project-side FPF kind and reference needed for that move, and do not raise the claim beyond that recovered relation, source, or admissible-use boundary.
 
-**Recovered-source green path.** If the required exact project-side FPF kind and reference is present and its scope and window match the live role, method, plan, or work move, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note, or block only the unsupported claim or effect; do not treat the repair request or source-gap note as past evidence, approval, gate passage, performed `U.Work`, release permission, or assurance.
+**Recovered-source green path.** If the required exact project-side FPF kind and reference is present and its scope and window match the live role, method, plan, or work move, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only the smallest source-restoration request, decision-request record, prospective work-plan entry, source-gap note, or unsupported-claim block needed for the next move.
 
 **Ordinary use.** If the team only needs to separate role, method, plan, capability, and actual work for orientation or planning, one separation sentence or small working card is enough.
 
-**Load-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role attribution, status attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the live issue is whether a visible item has the exact project-side FPF kind and reference needed for that work claim or reliance claim.
+**Reliance-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role attribution, status attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the live issue is whether a visible item has the exact project-side FPF kind and reference needed for that work claim or reliance claim.
 
 **Stop condition.** Stop once the separation changes no next admissible work move or reliance move and blocks no concrete overclaim about role, method, plan, work, status, approval, evidence, or release.
 
@@ -82,7 +82,7 @@ keywords:
 
 | Admissible project use | Source-finding or reversible probe | Non-admissible use |
 | --- | --- | --- |
-| A maintenance team names `PumpInspectorRole`, the inspection method description, the current `U.WorkPlan`, and the dated `U.Work` record that will be created after the inspection. The team may plan and perform the inspection under those distinct records. | A short briefing says the inspection is ready, but the method description or work plan is missing; use the briefing only to find or repair the missing source before planned work proceeds. | A dashboard tile, copied approval, generated explanation, or briefing is treated as performed work, gate passage, evidence, engineering justification, or release permission by appearance. Use `A.15.4` for that source-restoration question. |
+| A maintenance team names `PumpInspectorRole`, the inspection method description, the current `U.WorkPlan`, and the dated `U.Work` record that will be created after the inspection. The team may plan and perform the inspection under those distinct records. | A short briefing says the inspection is ready, but the method description or work plan is missing; use the briefing only to find or repair the missing source before planned work proceeds. | A dashboard tile, copied approval, generated explanation, or briefing is used as the source for a work or reliance claim by appearance. Use `A.15.4` for that source-restoration question. |
 
 **Alignment frame in plain terms.** One alignment frame linking `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` through `U.RoleAssignment`; not a single work occurrence, not a checklist, not a language-style repair pattern, and not a mere cue note.
 
@@ -94,13 +94,13 @@ keywords:
 
 **Not this pattern when.** Not this pattern when the honest need is only one dated work occurrence (`A.15.1`), only planning or schedule baseline (`A.15.2`), only a cue note that has not yet become an enactment-alignment question (`A.16` or `A.16.1`), only boundary wording or policy wording without a live role-method-work question (`A.6` or `A.6.B`), or work-relevant source restoration for a visible item (`A.15.4`).
 
-**Neighboring project records and governing patterns.** `A.15.1` governs dated execution records, `A.15.2` schedule or baseline planning records, `A.15.3` slot-filling plan items, `A.15.4` work-relevant source restoration, `B.5.1` Explore -> Shape -> Evidence -> Operate for project progression, `F.11` method and work vocabulary alignment across contexts, and `F.17` the human-facing work sheet.
+**Related project records and governing patterns.** `A.15.1` governs dated execution records, `A.15.2` schedule or baseline planning records, `A.15.3` slot-filling plan items, `A.15.4` work-relevant source restoration, `B.5.1` Explore -> Shape -> Evidence -> Operate for project progression, `F.11` method and work vocabulary alignment across contexts, and `F.17` the human-facing work sheet.
 
 **Causal-use work boundary.** Realized counterfactual-sampling work, counterfactual randomization, intervention assignment, target-trial emulation work, and causal evidence collection remain `U.MethodDescription`, `U.WorkPlan`, and `U.Work` structures here. `A.15` can say who performs which sampling or intervention work under which method and role; it does not make the resulting causal use admissible. `C.28` governs the causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, counterfactual sampling realizability, and supported use and unsupported use.
 
-**Common neighboring-record mistakes.** If the first honest encountered item is still only a cue, keep it under `A.16` or `A.16.1`; if the live question is boundary, promise, agreement-like service, or policy wording, recover the `A.6`-neighboring claim record record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for work relation or reliance relation, use `A.15.4`.
+**Related-record mistakes.** If the first honest encountered item is still only a cue, keep it under `A.16` or `A.16.1`; if the live question is boundary wording, promise, agreement-like service, or policy wording, recover the corresponding `A.6` boundary-claim record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for a work relation or reliance relation, use `A.15.4`.
 
-**Boundary to coarsened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may help orient work or cue attention, but it does not become a sufficient source for work execution, an implementation checklist, a work plan, a work occurrence, an approval, a gate decision, or execution evidence by convenience alone. If a coarsened rendering needs return to the governing method, plan, approval, gate, or evidence source before work can proceed admissibly, keep that boundary explicit here and treat the coarsened-rendering relation as `A.6.3.CSC Controlled Semantic Coarsening` governed rather than treating the coarsened rendering as executable.
+**Boundary to coarsened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may orient work or cue attention. It becomes sufficient for work execution, plan use, approval, gate decision, or execution evidence only when the required method, plan, approval, gate, or evidence source remains explicit and reopenable. Treat the coarsened-rendering relation through `A.6.3.CSC Controlled Semantic Coarsening` when the rendering itself changes what can be relied on.
 
 **Recognition block vs assurance block.** Read **At a glance**, **Use this when**, **Start here when**, **First output**, **Working action path**, **Admissible-use examples**, **Alignment frame**, **First admissible project move**, **What goes wrong if missed**, **What this buys**, and **Not this pattern when** as the primary recognition block. Read the entity distinctions, canonical relations, checklist, and relations below as assurance blocks that tighten the same alignment-frame claim; they do not widen the pattern into one single work occurrence, one cue note, one wording pattern, one source-restoration pattern, or one source-side "process" label treated as an FPF object.
 
@@ -127,7 +127,7 @@ Without this formal framework, models suffer from a cascade of category errors:
 2.  **Specification-as-Execution:** A `MethodDescription` (the "recipe") is treated as evidence that the work was done. This leads to "paper compliance," where a system is considered complete simply because its documentation exists.
 3.  **Capability-as-Work:** A team's *ability* to perform a task (`Capability`) is conflated with the *actual performance* of that task (`Work`). This obscures the reality of resource consumption and actual outcomes.
 4.  **Work-without-Context:** An instance of work is logged without a clear link back to the role, capability, and specification that governed it, making the work unauditable and its results impossible to reproduce.
-5.  **Ambiguous source-side "process/activity" cue:** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication that paralyzes decision-making. Generic doing/activity terms must be resolved via L-ACT to `U.Method`, `U.MethodDescription` (recipe), `U.WorkPlan` (schedule), or `U.Work` (run).
+5.  **Ambiguous source-side "process" or "activity" cue:** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication that paralyzes decision-making. Generic doing or activity terms must be resolved via L-ACT to `U.Method`, `U.MethodDescription` (recipe), `U.WorkPlan` (schedule), or `U.Work` (run).
 
 ### A.15:3 - Forces
 
@@ -149,7 +149,7 @@ FPF mandates the use of the following distinct, non-overlapping entities to mode
 
 *   **`U.Role`:** A contextual "mask" or "job title" (e.g., `TesterRole`). It specifies a function but is not the function itself.
 *   **`U.Method`:** The **abstract way-of-doing** inside a context (paradigm-agnostic; may be imperative, functional, logical, or hybrid).
-*   **`U.MethodDescription`:** A **`U.Episteme` describing a `U.Method`** (the SOP/algorithm/proof/recipe on a carrier).
+*   **`U.MethodDescription`:** A **`U.Episteme` describing a `U.Method`**; it may be expressed in an SOP, algorithm, proof, recipe, or other method-description publication.
 *   **`U.Capability`:** An **attribute** of a `U.System` that represents its **ability** to enact the declared `U.Method` under stated conditions. A `MethodDescription` may describe that method; the capability is not the description and not the work occurrence.
 *   **`U.WorkPlan`:** An **`U.Episteme`** declaring **intended `U.Work` occurrences** (windows, dependencies, intended performers as role kinds, budgets) - see **A.15.2**.
 
@@ -216,11 +216,11 @@ graph TD
 ```
 
 *   **`bindsCapability(Role, Capability)`:** A `U.BoundedContext` asserts that a given `Role` requires a specific `Capability`. This is a `design-time` rule.
-*   **`isDescribedBy(Method, MethodDescription)`:** A `U.Method` is formally described by one or more `MethodDescription`s. This links the abstract way-of-doing to the recipe on a carrier.
+*   **`isDescribedBy(Method, MethodDescription)`:** A `U.Method` is formally described by one or more `MethodDescription`s. This links the abstract way-of-doing to the method-description episteme and to the publication used when the source is live.
 *   **`enactsMethod(Work, Method)`:** A specific `U.Work` is a run-time enactment of a `U.Method` under a `U.RoleAssignment`. Capability checks are evaluated against the holder at run time; the `MethodDescription` remains the source episteme or method-description reference used to identify, constrain, or justify the method when live.
 *   **`performedBy(Work, RoleAssignment)`:** A `U.Work` is performed by the holder named through a specific `U.RoleAssignment`. This links the work occurrence to the holder-in-role-in-context.
 
-_At run time, capability thresholds declared by the context/spec are **checked** against the holder; `U.Work` outcomes provide **evidence** for capability conformance._
+_At run time, capability thresholds declared by the context or specification are **checked** against the holder; `U.Work` outcomes provide **evidence** for capability conformance._
 
 This chain provides complete traceability: a specific instance of `U.Work` can be traced back to the `U.Method` it enacts, the `MethodDescription` or source publication used to identify or constrain that method, and the `U.RoleAssignment` (`Holder` + `Role` + `Context`) under which the holder was authorized and responsible for its execution.
 
@@ -228,7 +228,7 @@ This chain provides complete traceability: a specific instance of `U.Work` can b
 
 When one human-plus-AI pair faces a new task family or candidate solution corridor, the governed work system may temporarily compose four distinct local roles inside the same dyad: a human-held `OutcomeCriterionHolderRole`, an `AIScoutRole`, an `AISpecialistProbeRole`, and a human-held `CommitAuthorityRole`. The payoff of the dyad is faster admissible specialization of the next move, not disappearance of the human decision step.
 
-For this bounded dyadic work question, the pair should declare one outcome criterion first, enumerate heterogeneous candidate approaches that may satisfy that target, spend a bounded scout or probe budget before any committed approach is chosen, and return one `CheckpointReturn` that compares the tested approaches rather than silently treating one successful probe as a committed rollout. `A.15` governs this dyadic move and local role split only; it does not restate the checkpoint-record semantics of `C.24` or the budget/guard enforcement of `E.16`.
+For this bounded dyadic work question, the pair should declare one outcome criterion first, enumerate heterogeneous candidate approaches that may satisfy that target, spend a bounded scouting budget or probing budget before any committed approach is chosen, and return one `CheckpointReturn` that compares the tested approaches rather than silently treating one successful probe as a committed rollout. `A.15` governs this dyadic move and local role split only; it does not restate the checkpoint-record semantics of `C.24` or the budget and guard enforcement of `E.16`.
 
 Every `CheckpointReturn` should carry:
 - the declared outcome criterion and current `TaskFamily`
@@ -238,17 +238,17 @@ Every `CheckpointReturn` should carry:
 - the recommended next work move or reliance move: continue probing, commit to planned work, narrow the method or claim, hand off, or stop
 - the exact commit trigger that would justify leaving the bounded probe
 
-The return is candidate-approach evidence, burned and residual budget amounts, observed result, and commit-trigger condition. It is not the selected method, not a `U.WorkPlan`, not performed `U.Work`, not execution evidence, and not rollout authority until the governing FPF pattern and exact project-side FPF kind and reference for that selected-method, work-plan, performed-work, execution-evidence, or rollout-authority claim exist.
+The return is candidate-approach evidence, burned and residual budget amounts, observed result, and commit-trigger condition. It is not the selected method, `U.WorkPlan`, performed `U.Work`, execution-evidence path, or rollout decision. Those claims need the exact project-side FPF kind and reference before committed rollout.
 
 Low-human-overlap approaches remain admissible here only while they stay tied to the declared outcome criterion, budget guard rails, and evidence path by value.
 
 #### A.15:4.4 - Boundary to A.15.4 Work-Relevant Source Restoration
 
-Use `A.15.4` when an encountered episteme, episteme publication, display, credential view, generated explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source chain is being used as approval, permission, gate passage, evidence, engineering justification, role currentness, status currentness, release reliance, or performed `U.Work` by appearance.
+Use `A.15.4` when an encountered episteme, episteme publication, display, credential view, generated explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source chain is being used by appearance for a work claim, reliance claim, role/status currentness claim, approval, permission, gate passage, evidence, engineering justification, release reliance, or performed `U.Work`.
 
-`A.15` itself keeps the kernel separation: `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question asks which exact project-side FPF kind and reference must be recovered before the encountered item can carry the live work claim, reliance claim, or effect; that question belongs to `A.15.4` or to the exact neighboring source pattern named there.
+`A.15` itself keeps the kernel separation: `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question asks which exact project-side FPF kind and reference must be recovered before the encountered item can carry the live work claim, reliance claim, or effect; that question belongs to `A.15.4` or to the exact source pattern named there.
 
-A principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain readable may help the team plan work or find the needed source, but it does not become performed `U.Work`, work authority, evidence, gate passage, engineering justification, or release permission by publication alone.
+A principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain recoverable may help the team plan work or find the needed source. It does not replace the selected method, `U.WorkPlan`, performed `U.Work`, evidence path, gate or decision record, engineering-justification record, or release-reliance source.
 
 ### A.15:5 - Archetypal Grounding
 
@@ -265,14 +265,15 @@ The role-method-work alignment applies whenever the live question is holder-in-r
 | **`Work` (`Occurrence`)** | Manufacturing Work: `Weld_Job_#78345` (15:32-15:34 UTC, consumed 1.2 kWh, 5g Argon) - **enactsMethod** `WeldingMethod`, with `methodDescriptionRef = Welding_Procedure_WP-28A.pdf` | Peer-review Work: `Review_of_Manuscript_#PL-2025-018` (Completed 2025-08-15, took 4 hours) - **enactsMethod** `PeerReviewMethod`, with `methodDescriptionRef = Peer_Review_Guidelines_v3.docx` |
 
 **Key takeaway from grounding:**
-This side-by-side comparison reveals the power of the framework. A seemingly different activity like welding a car chassis and reviewing a scientific paper are shown to have the same underlying enactment structure. Both involve a `Holder` (a system) acting in a `Role` within a `Context`, using a `Capability` to enact a `U.Method`, citing a `MethodDescription` when a recipe/source is live, and producing a specific, auditable instance of `Work`. This universality is what allows FPF to compare and align disparate domains without collapsing their local structure.
+This side-by-side comparison reveals the power of the framework. A seemingly different activity like welding a car chassis and reviewing a scientific paper are shown to have the same underlying enactment structure. Both involve a `Holder` (a system) acting in a `Role` within a `Context`, using a `Capability` to enact a `U.Method`, citing a `MethodDescription` when a recipe or source is live, and producing a specific, auditable instance of `Work`. This universality is what allows FPF to compare and align disparate domains without collapsing their local structure.
 
-#### A.15:5.1.a - Briefing is not execution authority
-**Source set.** A release team has one governing deployment method description, one current work plan, one approval work item, and the evidence carriers and evidence paths used to decide whether the rollout may proceed. A short rollout briefing is prepared for the daily stand-up.
+#### A.15:5.1.a - Briefing guides orientation, not execution
 
-**Briefing slice.** `Status briefing only: rollback path appears verified in the current source bundle. Deployment authority remains with the governing approval record and work plan.`
+**Source set.** A release team has one deployment method description, one current work plan, one approval or decision record when required, and the evidence records and evidence paths used to decide whether the rollout may proceed. A short rollout briefing is prepared for the daily stand-up.
 
-This briefing may orient the team and cue attention, but it is not the governing execution authority by itself. Work can proceed admissibly only when the underlying method description, current work plan, required approval records, and evidence carriers and evidence paths stay explicit and reopenable. If the team wants to treat the briefing as sufficient to execute, the case leaves simple orientation and must reopen the governing method, plan, approval, or evidence source rather than treating the shortened note as the work-enactment authority.
+**Briefing slice.** `Status briefing only: rollback path appears verified in the current source bundle. Execution remains tied to the deployment method, work plan, required approval or decision record, and evidence path.`
+
+This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the exact evidence, gate, decision, or assurance pattern to recover the missing project-side kind and reference. Inside `A.15`, keep only the role, method, plan, and work-occurrence separation.
 
 #### A.15:5.1.b - P2W principle-scheme publication guides planning, not occurrence
 
@@ -280,7 +281,7 @@ This briefing may orient the team and cue attention, but it is not the governing
 
 **Published slice.** `For this batch family, method M-2 is selected from the declared method family; prepare work plan WP-17 before any run is recorded.`
 
-This publication may guide method inspection and work-planning preparation under `A.15`. It does not say that the work already occurred, that the batch may pass a gate, that evidence is sufficient, or that engineering justification is complete. A conforming use keeps the selected method, `U.WorkPlan`, actual `U.Work`, work-result record, and result measurement distinct. Evidence or provenance use requires a project evidence path governed by `A.10`; engineering-justification use requires an engineering-justification record governed by `B.3`; gate use requires the project gate or constraint decision governed by `A.20` or `A.21`; carrier, screen, export, or OCR behavior requires the carrier or front-end record governed by `A.7`; publication and readability questions stay with `E.17` and the relevant `A.6.3.*` relation.
+This publication may guide method inspection and work-planning preparation under `A.15`. A conforming use keeps selected method, `U.WorkPlan`, actual `U.Work`, work-result record, and result measurement distinct. If the publication is used for evidence, provenance, engineering justification, gate or constraint decision, material carrier, screen, export, OCR behavior, or publication-use, apply the exact pattern for that live claim. If no exact project-side kind and reference exists, create only a source-restoration request, decision-request record for the next decision, prospective work-plan entry, or explicit source-gap note.
 
 #### A.15:5.1.c - Scenario guides method selection, not performed work
 
@@ -288,11 +289,11 @@ This publication may guide method inspection and work-planning preparation under
 
 **Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
 
-The scenario can guide method-family selection and work-planning preparation. It is not the selected method by itself, not a `U.WorkPlan`, not performed `U.Work`, and not evidence that the work result was achieved. Once the team selects a method or prepares a plan, record that project choice or plan as the exact `A.15` selected method, work-plan, or work-occurrence record; if the scenario is being used as evidence, gate passage, or engineering justification, first recover the existing project evidence path, gate or constraint decision, or engineering-justification record governed by `A.10`, `A.20`, `A.21`, or `B.3`. If no existing exact project-side FPF kind and reference carries the needed evidence, gate, or assurance claim, create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note; do not backdate evidence, approval, gate passage, performed `U.Work`, release permission, engineering justification, or assurance for the earlier scenario-based claim.
+The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, record that project choice or plan as the exact `A.15` selected-method, work-plan, or work-occurrence record. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the exact project evidence path, gate or constraint decision, or engineering-justification record under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only a source-restoration request, decision-request record, prospective work-plan entry, or source-gap note.
 
 ### A.15:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for contextual enactment across engineering, operational, and knowledge-work settings.
+Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: **Universal** for contextual enactment across engineering, operational, and knowledge-work settings.
 
 Bias risks and mitigations:
 
@@ -300,7 +301,7 @@ Bias risks and mitigations:
   *Mitigation:* keep `U.RoleAssignment`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` distinct, and let only `U.Work` carry actuals and resource use.
 * **Architectural bias (Arch):** modelers may pull roles or capabilities into structural part hierarchies because those diagrams are already present.
   *Mitigation:* preserve role and capability as contextual-functional entities, not parts.
-* **Epistemic bias (Onto/Epist):** a documented recipe or schedule can be mistaken for proof of execution.
+* **Epistemic bias (Onto and Epist):** a documented recipe or schedule can be mistaken for proof of execution.
   *Mitigation:* require the traceability chain from `U.RoleAssignment` and `U.MethodDescription` to dated `U.Work`.
 * **Pragmatic bias (Prag):** teams may keep using one overloaded source-side "process" word because it feels faster.
   *Mitigation:* resolve "workflow", "schedule", and "what happened" source cues through `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`.
@@ -309,44 +310,44 @@ Bias risks and mitigations:
 
 ### A.15:7 - Conformance Checklist
 
-To preserve role-method-work modeling, a conforming model/use SHALL satisfy the following checks.
+To preserve role-method-work modeling, a conforming model or use SHALL satisfy the following checks.
 
-| ID | Requirement (Normative Predicate) | Purpose / Rationale |
+| ID | Requirement (Normative Predicate) | Purpose and Rationale |
 | :--- | :--- | :--- |
 | **CC-A15-1 (Entity Distinction)** | A conforming model SHALL keep `U.Role`, **`U.Method`**, **`U.MethodDescription`**, `U.Capability`, **`U.WorkPlan`**, and `U.Work` as distinct, non-overlapping types. | This is the core enforcement of **Strict Distinction (A.7)**. It prevents the category errors outlined in the "Problem" section. |
-| **CC-A15-1a (Work target/kind predicate)** | A conforming `U.Work` record SHALL satisfy `A15-WF-1`; validators SHOULD report missing `primaryTarget` or missing `kind` as an invalid work record. | Keeps target and work kind enforceable as work-record validity without stating modeled-world admissibility through a free RFC sentence. |
-| **CC-A15-2 (Temporal Scope)** | `U.Method`/`U.MethodDescription`/`U.WorkPlan` exist in **design-time**; `U.Work` exists in **run-time**. Design-time method descriptions and work plans are not mutated by operational events. | Enforces **Temporal Duality (A.4)**. Blueprints cannot be mutated by operational events. |
+| **CC-A15-1a (Work target and kind predicate)** | A conforming `U.Work` record SHALL satisfy `A15-WF-1`; validators SHOULD report missing `primaryTarget` or missing `kind` as an invalid work record. | Keeps target and work kind enforceable as work-record validity without stating modeled-world admissibility through a free RFC sentence. |
+| **CC-A15-2 (Temporal Scope)** | `U.Method`, `U.MethodDescription`, and `U.WorkPlan` exist in **design-time**; `U.Work` exists in **run-time**. Design-time method descriptions and work plans are not mutated by operational events. | Enforces **Temporal Duality (A.4)**. Blueprints cannot be mutated by operational events. |
 | **CC-A15-3 (RoleAssignment Mandate)** | A conforming `U.Work` record SHALL link via `performedBy` to a valid `U.RoleAssignment`. | Guarantees that every work occurrence has a clearly identified, context-bound actor, ensuring accountability. |
-| **CC-A15-4 (Traceability Chain)** | A conforming model SHALL provide an unbroken chain for every `U.Work`: `Work -performedBy-> RoleAssignment`, `Work -enactsMethod-> Method`, and, when a description/source is live, `Method -isDescribedBy-> MethodDescription` or `methodDescriptionRef`. Capability checks are evaluated against the holder at run time. | Ensures end-to-end auditability from a specific work occurrence back to the enacted method and the recipe/source used to identify or constrain it. |
+| **CC-A15-4 (Traceability Chain)** | A conforming model SHALL provide an unbroken chain for every `U.Work`: `Work -performedBy-> RoleAssignment`, `Work -enactsMethod-> Method`, and, when a description or source is live, `Method -isDescribedBy-> MethodDescription` or `methodDescriptionRef`. Capability checks are evaluated against the holder at run time. | Ensures end-to-end auditability from a specific work occurrence back to the enacted method and the recipe or source used to identify or constrain it. |
 | **CC-A15-5 (No Roles in Mereology)** | A conforming model SHALL NOT place `U.Role` or `U.Capability` in a mereological (`partOf`) hierarchy. | The "Role-as-Part" anti-pattern is a violation. Roles and capabilities are functional, not structural. Enforces **A.14**. |
 | **CC-A15-6 (Resource Honesty)** | A conforming model SHALL associate resource consumption (`U.Resource`) only with `U.Work`, never with `U.MethodDescription` or `U.Capability`. | Enforces that costs are tied to actual events, not to plans or potential. Aligns with **Resrc-CAL (C.5)**. |
-| **CC-A15-7 (Plan/Run Split)** | A conforming model SHALL represent schedules/calendars as `U.WorkPlan` (A.15.2). A `U.WorkPlan` SHALL NOT be used as evidence of execution; only `U.Work` carries actuals. | Preserves plan/run separation and prevents schedule-as-actual drift. |
+| **CC-A15-7 (Plan and Run Split)** | A conforming model SHALL represent schedules and calendars as `U.WorkPlan` (A.15.2). A `U.WorkPlan` SHALL NOT be used as evidence of execution; only `U.Work` carries actuals. | Preserves plan and run separation and prevents schedule-as-actual drift. |
 | **CC-A15-8 (Lexical Sanity)** | A conforming use SHALL interpret unqualified "process", "workflow", or "schedule" source cues per **L-PROC**, **L-FUNC**, and **L-SCHED**: workflow -> `U.MethodDescription` unless the abstract way-of-doing is live as `U.Method`; schedule -> `U.WorkPlan`; what happened -> `U.Work`. | Keeps source vocabulary auditable and reduces lexical ambiguity without creating a new process object. |
 | **CC-A15-9 (Enactment)** | A valid `U.Work` enacts a `U.Method` under a `U.RoleAssignment`; a `MethodDescription` is the source episteme or method-description reference when the method must be identified, constrained, or justified. Spontaneous physical evolution without a role-method-work alignment is modeled as `U.Dynamics`, not as `U.Work`. | Prevents background dynamics and recipe documents from being miscast as governed work. |
-| **CC-A15-10 (GateSplit)** | A conforming model SHALL represent a SpeechAct that institutes a role, authorization, or gate-relevant effect (e.g., "Approve", "Authorize") as a distinct `U.Work` step (`kind=Communicative`). It may open the Green-Gate for a subsequent operational step, but it SHALL NOT be conflated with that step. | Preserves authority effects as distinct communicative acts. |
+| **CC-A15-10 (GateSplit)** | A conforming model SHALL represent a SpeechAct that institutes a role, authorization, or gate-relevant effect (e.g., "Approve", "Authorize") as a distinct `U.Work` step (`kind=Communicative`). It may open the Green-Gate for a subsequent operational step, but it SHALL NOT be conflated with that step. | Preserves communicative effects as distinct acts. |
 | **CC-A15-11 (KindFit)** | A conforming `performedBy` assignment SHALL use a `U.Role` appropriate for the `U.Work` kind (e.g., `ApproverRole` for communicative approvals; `DeployerRole` for operational deployments). | Prevents kind-mismatched role attribution. |
 | **CC-A15-12 (Causal-use Work Boundary)** | A conforming causal-use model MAY represent intervention assignment, counterfactual randomization, target-trial emulation, causal evidence collection, and realized counterfactual-sampling work here only as `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, and role-assigned execution structure. Any claim that the resulting causal use is admissible SHALL cite `C.28` for causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, `CausalUseSupportVerdict`, and supported use and unsupported use. | Prevents method, work-plan, or work-occurrence structure from being mistaken for causal-use support. |
-| **CC-A15-13 (A.15.4 Boundary)** | If a visible item is being used for work relation or reliance relation by appearance, a conforming `A.15` use SHALL use `A.15.4` for the source-restoration question and keep only the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation here. | Prevents the A.15 kernel from absorbing evidence, assurance, boundary wording, gate decision, role effect, status effect, commitment, speech-act, or work-occurrence semantics from neighboring source patterns. |
-| **CC-A15-14 (P2W Publication Boundary)** | A conforming use SHALL NOT treat a principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain readable as performed `U.Work`, work authority, evidence, gate passage, engineering justification, or release permission by publication alone. | The project use names the exact `A.15` object being guided: method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or result measurement; unsupported source-restoration claims use `A.15.4`. |
+| **CC-A15-13 (A.15.4 Boundary)** | If a visible item is being used for a work relation or reliance relation by appearance, a conforming `A.15` use SHALL use `A.15.4` for the source-restoration question and keep only the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation here. | Prevents the A.15 kernel from absorbing source-restoration claims. |
+| **CC-A15-14 (P2W Publication Boundary)** | A conforming use SHALL NOT treat a principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain recoverable as the selected method, `U.WorkPlan`, performed `U.Work`, work-result record, result measurement, or non-A.15 claim by publication alone. | The project use names the exact `A.15` object being guided; any non-A.15 claim uses its exact pattern or `A.15.4` source restoration. |
 
 ### A.15:8 - Common Anti-Patterns and How to Avoid Them
 
 - **Role-as-part.** Do not place `U.Role` or `U.Capability` inside structural `partOf` decomposition; keep them contextual and functional.
-- **Recipe-as-evidence.** Do not treat a `U.MethodDescription` or SOP as proof that work occurred; record dated `U.Work` instead.
+- **Recipe-as-evidence.** A `U.MethodDescription` or SOP may identify or constrain a method; dated `U.Work` records carry the occurrence claim.
 - **Plan-as-actual.** Do not let schedules, calendars, or intended assignments stand in for actual execution; use `U.WorkPlan` for intent and `U.Work` for actuals.
 - **Capability-as-work.** Do not treat possession of a capability as if the task has already been performed; capability enables execution under conditions but is not execution.
-- **Approval collapse.** Do not merge approval or authorization speech acts into the operational step they open; model them as distinct communicative `U.Work` when they institute an authority, role, gate, or commitment effect.
+- **Approval collapse.** Keep approval or authorization speech acts distinct from the operational step they open; model them as communicative `U.Work` when they institute a role, gate, or commitment effect.
 - **Process soup.** Do not leave "process", "workflow", or "activity" uninterpreted in FPF-governed passages; resolve the source cue to `U.Method`, `U.MethodDescription`, `U.WorkPlan`, or `U.Work`.
-- **Briefing-as-execution-cue.** Do not treat a lighter review note, rollout summary, or redacted operations note as if it already authorized execution, approval, gate passage, or a work plan. Reopen the governing method, plan, approval, or evidence source before work proceeds.
-- **P2W publication as work occurrence.** Do not treat a principle scheme, functional diagram, scenario, screen, or explanation as if it were performed `U.Work`, evidence, gate passage, or engineering justification. Use it only for the exact method or work-planning guidance it carries, then recover the exact project-side FPF kind and reference that actually carries any unsupported claim.
-- **Visible item as work source.** Do not treat a dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain as approval, permission, gate passage, role or status currentness, work occurrence, evidence, or assurance by appearance. Use `A.15.4` for the source-restoration question and keep `A.15` for `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
+- **Briefing-as-execution-cue.** A lighter review note, rollout summary, or redacted operations note may orient work; use `A.15.4` or the exact source pattern before relying on it for execution, approval, gate, evidence, or plan claims.
+- **P2W publication as work occurrence.** A principle scheme, functional diagram, scenario, screen, or explanation may guide exact method or work-planning moves; recover the exact project-side FPF kind and reference for any selected-method, work-plan, work-occurrence, result, evidence, gate, or engineering-justification claim.
+- **Visible item as work source.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain is only a source candidate until `A.15.4` recovers the exact project-side kind and reference needed for the live work or reliance claim.
 
 ### A.15:9 - Consequences
 
-| Benefits | Trade-offs / Mitigations |
+| Benefits | Trade-offs and Mitigations |
 | :--- | :--- |
 | **Unambiguous Communication:** Provides a shared, precise vocabulary for teams to discuss roles, methods, work plans, work occurrences, and results, eliminating the ambiguity of source terms like "process." | **Initial Learning Curve:** Requires teams to learn and internalize the distinctions between the core entities. *Mitigation:* The "Chef" analogy and clear archetypes serve as powerful didactic tools. FPF tooling should guide users with templates. |
-| **End-to-End Auditability:** The framework creates a "digital thread" that links every operational event (`Work`) back to its authorizing role, context, and specification. This is critical for regulated industries and for root cause analysis. | **Increased Formality:** Requires more explicit modeling than informal approaches. *Mitigation:* This is a strategic investment. The upfront cost of formal modeling is offset by massive savings in debugging, re-work, and compliance efforts later. |
+| **End-to-End Auditability:** The framework creates a "digital thread" that links every operational event (`Work`) back to its authorizing role, context, and specification. This is critical for regulated industries and for root cause analysis. | **Increased Formality:** Requires more explicit modeling than informal approaches. *Mitigation:* This is a strategic investment. The upfront cost of formal modeling is offset by downstream savings in debugging, re-work, and compliance efforts. |
 | **Enables True Modularity:** By separating capability from execution, the framework allows for easier substitution. A `MethodDescription` can be updated without invalidating past `Work` records. A `Holder` can be replaced with another, as long as it possesses the same `Capability`. | - |
 | **Foundation for role-source accountability:** The model makes it possible to state role-bound work rules without making the role or publication act. For example: "Only a holder acting under `AuditorRole` in a valid `U.RoleAssignment` can perform the `U.Work` that instantiates the `ApproveRelease` capability." | - |
 
@@ -355,12 +356,12 @@ To preserve role-method-work modeling, a conforming model/use SHALL satisfy the 
 This pattern solves a problem that has plagued systems modeling for decades: the conflation of what a system *is* with what it *does*. Its rigor is not arbitrary but is grounded in several key intellectual traditions.
 
 *   **Ontology Engineering:** The pattern is a direct application of best practices from foundational ontologies (like UFO), which have long insisted on the distinction between *endurants* (objects like a `U.System`) and *perdurants* (events and performed occurrences such as `U.Work`), and between intrinsic properties and relational roles. FPF makes these powerful distinctions accessible to practicing engineers.
-*   **Process-theory source tradition:** Formalisms like the Pi-calculus or Petri Nets model dynamic interactions under terms often translated as processes. A.15 does not import `process` as a new FPF object; it maps the useful local force to `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. The `U.Work` entity can be seen as an occurrence recognized by such a source tradition, but FPF adds the crucial context of the `Role`, `Capability`, enacted `U.Method`, and `MethodDescription` source that make the occurrence inspectable.
+*   **Process-theory source tradition:** Formalisms like the Pi-calculus or Petri Nets model dynamic interactions under terms often translated as processes. A.15 does not import `process` as a new FPF object; it maps the useful local use to `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. The `U.Work` entity can be seen as an occurrence recognized by such a source tradition, but FPF adds the crucial context of the `Role`, `Capability`, enacted `U.Method`, and `MethodDescription` source that make the occurrence inspectable.
 *   **Pragmatism and Practice:** The framework is deeply pragmatic. The distinctions it makes (e.g., between a `MethodDescription` and `U.Work`) are precisely the ones that matter in the real world of project management, compliance, and debugging. When a failure occurs, a manager needs to know: was the recipe wrong (`MethodDescription`), did the chef lack the skill (`Capability`), or did they just make a mistake this one time (`U.Work`)? This framework provides the vocabulary to ask and answer that question precisely.
 
 By creating this clean, stratified alignment for enactment, FPF provides a stable and scalable foundation for all of its more advanced patterns, from resource management (`Resrc-CAL`) and decision theory (`Decsn-CAL`) to ethics (`Norm-CAL`).
 
-### A.15:11 - SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts
+### A.15:11 - SoTA Alignment: Adopted and Adapted Invariants and Rejected Shortcuts
 
 **SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 
@@ -370,7 +371,7 @@ By creating this clean, stratified alignment for enactment, FPF provides a stabl
 
 **Claim 2.** Best-known current accountability practice keeps actor-in-context explicit rather than attributing work to a role label or a document.
 
-**Practice source, local alignment, and adoption decision.** Contemporary service delivery, incident practice, and role-accountability practice distinguish accountable assignee, governing procedure, and actual run record because post-hoc review depends on knowing who acted, under what role, and under which method. In the slices above, that is why the robot or reviewer acts under `U.RoleAssignment` rather than the role or guideline acting on its own. This pattern **adopts** explicit actor-in-context attribution through `U.RoleAssignment`, **adapts** it to bounded-context semantics, and **rejects** anonymous work logs and role-as-part modeling.
+**Practice source, local alignment, and adoption decision.** Contemporary service delivery, incident practice, and role-accountability practice distinguish accountable assignee, governing procedure, and actual run record because after-the-fact review depends on knowing who acted, under what role, and under which method. In the slices above, that is why the robot or reviewer acts under `U.RoleAssignment` rather than the role or guideline acting on its own. This pattern **adopts** explicit actor-in-context attribution through `U.RoleAssignment`, **adapts** it to bounded-context semantics, and **rejects** anonymous work logs and role-as-part modeling.
 
 **Claim 3.** Best-known current approval and execution practice treats communicative gate acts and operational acts as distinct kinds of work.
 
@@ -378,17 +379,18 @@ By creating this clean, stratified alignment for enactment, FPF provides a stabl
 
 **Local claim.** The FPF-governed SoTA claim for this pattern is practical and narrow: contextual enactment remains reviewable only when role, method, plan, and work stay distinct enough that audits can tell whether the problem was in the assignment, the recipe, the schedule, the capability, or the run itself.
 
-**Claim 4.** Best-known current agentic work practice treats fast bounded specialization as a checkpointed scout/probe discipline rather than as a naked winner claim.
+**Claim 4.** Best-known current agentic work practice treats fast bounded specialization as a checkpointed scout and probe discipline rather than as a naked winner claim.
 
-**Practice source, local alignment, and adoption decision.** Contemporary agentic tool-use, adaptive method-selection, and human-in-the-loop work-control practice separates bounded exploration from committed rollout because a successful probe is not yet an admissible committed approach. In the working moment above, that is why the pair returns one `CheckpointReturn` with candidate approaches, evidence, burned and residual budget, and a commit trigger rather than only a winner label. This pattern **adopts** checkpointed scout/probe discipline, **adapts** it through the dyad-local roles and `CheckpointReturn`, and **rejects** the shortcut where an early probe silently becomes a committed rollout.
+**Practice source, local alignment, and adoption decision.** Contemporary agentic tool-use, adaptive method-selection, and human-in-the-loop work-control practice separates bounded exploration from committed rollout because a successful probe is not yet an admissible committed approach. In the working moment above, that is why the pair returns one `CheckpointReturn` with candidate approaches, evidence, burned and residual budget, and a commit trigger rather than only a winner label. This pattern **adopts** checkpointed scout and probe discipline, **adapts** it through the dyad-local roles and `CheckpointReturn`, and **rejects** the shortcut where an early probe silently becomes a committed rollout.
+
 | Claim need | Source idea and current source | Current source reference | Local FPF invariant and practical local test | Adopted invariant, adapted invariant, and rejected shortcut |
 | --- | --- | --- | --- | --- |
-| Recipe, plan, case, decision, and executed occurrence must stay separable. | Case-management, decision-modeling, and service-change practice distinguish discretionary case work, decision logic, planned change source material, and the realized service or product change. | OMG CMMN 1.1 (2016); OMG DMN 1.5 (2024); ITIL 4 Practitioner: Change Enablement (2023); source maturity = mature modeling standards plus current practitioner guidance. | The manufacturing, peer-review, and rollout slices keep `U.MethodDescription`, `U.WorkPlan`, approval work, and `U.Work` separate so a calendar or procedure never counts as the weld, review, deployment, or actual run. | **Adopt/Adapt.** Adopt the separation of case, decision, plan, and occurrence; adapt it to FPF's `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`; reject an undifferentiated "process" label as an FPF object. |
-| Architecture and digital-thread practice need traceable views without confusing description, authority, and occurrence. | Architecture-description and model-based systems practice treat descriptions, viewpoints, requirements, behavior, verification, and traceability as explicit review targets. | ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025); source maturity = mature standard plus current technical specification. | `A.15` uses actor-in-context, role assignment, method description, and work occurrence so post-hoc review can ask whether the problem was assignment, capability, recipe, plan, approval, or run. | **Adopt/Adapt.** Adopt explicit trace and viewpoint discipline; adapt it to role, method, work-plan, and work-occurrence alignment; reject attributing work to a role label or document alone. |
+| Recipe, plan, case, decision, and executed occurrence must stay separable. | Case-management, decision-modeling, and service-change practice distinguish discretionary case work, decision logic, planned change source material, and the realized service or product change. | OMG CMMN 1.1 (2016); OMG DMN 1.5 (2024); ITIL 4 Practitioner: Change Enablement (2023); source maturity = mature modeling standards plus current practitioner guidance. | The manufacturing, peer-review, and rollout slices keep `U.MethodDescription`, `U.WorkPlan`, approval work, and `U.Work` separate so a calendar or procedure never counts as the weld, review, deployment, or actual run. | **Adopt and adapt.** Adopt the separation of case, decision, plan, and occurrence; adapt it to FPF's `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`; reject an undifferentiated "process" label as an FPF object. |
+| Architecture and digital-thread practice need traceable views without confusing description, authority, and occurrence. | Architecture-description and model-based systems practice treat descriptions, viewpoints, requirements, behavior, verification, and traceability as explicit review targets. | ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025); source maturity = mature standard plus current technical specification. | `A.15` uses actor-in-context, role assignment, method description, and work occurrence so after-the-fact review can ask whether the problem was assignment, capability, recipe, plan, approval, or run. | **Adopt and adapt.** Adopt explicit trace and viewpoint discipline; adapt it to role, method, work-plan, and work-occurrence alignment; reject attributing work to a role label or document alone. |
 | Approval and execution are distinct practical acts. | Change-enablement and decision-modeling practice separates risk assessment, authorization, scheduling, decision logic, and the work that realizes change. | ITIL 4 Practitioner: Change Enablement (2023); OMG DMN 1.5 (2024); source maturity = current practitioner guidance plus mature modeling standard. | In the release and gate examples, an approval or authorization institutes an authorization or gate-relevant effect; it is not the same work as deployment, welding, or other operational occurrence. | **Adopt.** Adopt the communicative/operational split and reject collapse of approval into the thing approved. |
-| Fast bounded exploration must not become committed rollout by convenience. | Contemporary agentic tool-use and adaptive-work practice, including ReAct/Toolformer/Reflexion-style tool-use and self-correction lines, supports bounded probing while preserving explicit transition from option exploration to committed change. | Current agentic tool-use/self-correction practice; ITIL 4 Practitioner: Change Enablement (2023); ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025); source maturity = current technical/practitioner guidance plus mature/current modeling standards. | The scout/probe moment returns candidate-approach evidence, observed result, burned and residual budget amounts, and a commit trigger rather than a selected method, `U.WorkPlan`, performed `U.Work`, or rollout authority. | **Adapt/Reject.** Adapt bounded scout/probe discipline to FPF role, method, work-plan, and work-occurrence splits; reject the shortcut where an early probe silently becomes a committed method choice, work plan, or rollout. |
+| Fast bounded exploration must not become committed rollout by convenience. | Contemporary agentic tool-use and adaptive-work practice, including ReAct, Toolformer, and Reflexion-style tool-use and self-correction lines, supports bounded probing while preserving explicit transition from option exploration to committed change. | Current agentic tool-use and self-correction practice; ITIL 4 Practitioner: Change Enablement (2023); ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025); source maturity = current technical and practitioner guidance plus mature and current modeling standards. | The scout and probe moment returns candidate-approach evidence, observed result, burned and residual budget amounts, and a commit trigger rather than a selected method, `U.WorkPlan`, performed `U.Work`, or rollout decision. | **Adapt and reject.** Adapt bounded scout and probe discipline to FPF role, method, work-plan, and work-occurrence splits; reject the shortcut where an early probe silently becomes a committed method choice, work plan, or rollout. |
 
-For visible credential, provenance, dashboard, explanation, or composed-source cases that need exact project-side FPF kind and reference before work or reliance, use `A.15.4`. A.15 receives only the returned role, method, plan, and work part of the case.
+For visible credential, provenance, dashboard, explanation, or composed-source cases that need exact project-side FPF kind and reference before work or reliance, use `A.15.4`. The A.15 family carries only the returned role, method, plan, and work part of the case.
 
 The nearest recovery loci are the manufacturing, peer-review, rollout briefing, `CC-A15-7`, `CC-A15-10`, `CC-A15-12`, and the boundary to `A.15.4`. If a SoTA row cannot be recovered through those local checks, do not let the source citation stand in for the local `A.15` rule.
 
@@ -396,7 +398,7 @@ The nearest recovery loci are the manufacturing, peer-review, rollout briefing, 
 
 *   **Directly Implements:** `A.7 Strict Distinction`.
 *   **Builds Upon:** `A.2 (U.Role)`, `A.2.1 (U.RoleAssignment)`, `A.4 (Temporal Duality)`, `A.12 (External Transformer)`.
-*   **Is Used By / Provides Foundation For:**
+*   **Is Used By and Provides Foundation For:**
     *   `C.4 Method-CAL`: Provides the formal definition of `U.MethodDescription` and the `Gamma_method` operator for composing them.
     *   `C.5 Resrc-CAL`: Provides the `U.Work` entity to which resource consumption is attached.
     *   `B.1.6 Gamma_work`: The aggregation operator for `U.Work`.
@@ -407,7 +409,7 @@ The nearest recovery loci are the manufacturing, peer-review, rollout briefing, 
 *   **Coordinates with:** `L-PROC`, `L-FUNC`, and `L-SCHED` (E-cluster) for lexical disambiguation of source cues such as _process_, _workflow_, and _schedule_.
 *   **Coordinates with:** `A.15.4` for work-relevant source restoration; `A.6`, `A.6.B`, and `A.6.C` for mixed boundary, policy, API, or schema wording; `A.10` for evidence, currentness, and provenance; `B.3` for assurance claims; `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`; `A.20` for `ConstraintValidity` status or witness; `A.15.1` for release or deployment work occurrence; and `E.17.EFP` for generated-explanation faithfulness or source-finding.
 
-### A.15:12a - Coordinated-work evidence and quantum-like reading note
+### A.15:12a - Coordinated-work evidence and distributed-state relation note
 
 Use A.15 first when the claim is about who acts, by which method, under which role, under which work plan, producing which work result. Coordinated work, routine skill, team alignment, tacit knowledge, and role-method fit are not quantum-like by default.
 
@@ -416,18 +418,18 @@ Action path:
 1. Name the role, method, and work result before naming any distributed state.
 2. State which work traces, records, events, observations, reports, metrics, or role enactments make the coordination visible.
 3. Ask whether role-method-work alignment alone explains the case. If yes, stay in A.15.
-4. If no participant statement, local component report, single carrier, dashboard, or exported representation carries the inferred state faithfully enough for the claimed state use, add a `C.26.2` distributed-state reading.
-5. State the weakest claim, time window, rival explanations, and export loss.
-6. Carry evidence force through `A.10` and assurance claims through `B.3` when the claim will guide work, reliance, audit, readiness, release, or compliance.
+4. If no participant statement, local component report, single evidence record, dashboard, or exported representation carries the inferred state faithfully enough for the intended state use, add a `C.26.2` low-recoverability distributed-state reading.
+5. State the weakest evidence-bound state-reading claim, time window, rival explanations, and export loss.
+6. Carry evidence use through `A.10` and assurance claims through `B.3` when the reading will guide work, reliance, audit, readiness, release, or compliance.
 
-Add a `C.26.2` distributed-state reading only when coordinated work is being used as evidence for a state that no participant statement, local component report, single carrier, dashboard, or exported representation carries faithfully enough for the claimed state use. That evidence-bound claim states:
+Add a `C.26.2` low-recoverability distributed-state reading only when coordinated work is being used as evidence for a state that no participant statement, local component report, single evidence record, dashboard, or exported representation carries faithfully enough for the intended state use. In C.26.2 terms, the reading is a minimal evidence-bound `U.Episteme` claim under carriers, window, rivals, and export limits; it is not a group mind, not performed work, not evidence sufficiency, and not assurance by itself. That evidence-bound reading states:
 
 | Field | Required content |
 | --- | --- |
-| Carrier | Work trace, record, event, observation, report, metric, or role enactment that bears the evidence |
-| Time window | When the reading holds and when it decays or must be refreshed |
-| Probe or occasion | What question, task, workshop, incident, handover, dashboard, or coordination situation made the state readable |
-| Weakest claim | The minimal distributed-state reading carried by the evidence carriers |
+| Evidence source | Work trace, record, event, observation, report, metric, or role enactment that bears the evidence |
+| Time window | When the distributed-state reading holds and when it decays or must be refreshed |
+| Probe or occasion | What question, task, workshop, incident, handover, dashboard, or coordination situation made the state inferable |
+| Weakest claim | The minimal distributed-state reading carried by the evidence sources |
 | Rival explanations | Routine compliance, policy, command, coincidence, incentive, documentation record, or local skill that could explain the same work |
 | Export loss | What is lost when the state is summarized into one report, score, or statement |
 
@@ -435,12 +437,38 @@ Useful outputs:
 
 - an A.15 work-alignment claim when work roles explain the case;
 - a C.26.2 low-recoverability distributed-state reading when coordination evidence survives ordinary rivals;
-- an `A.10` evidence path or `B.3` assurance claim path when the reading will carry evidence or assurance force for a work claim or reliance claim;
-- no distributed-state claim when carriers, rivals, or time window cannot be named.
+- an `A.10` evidence path or `B.3` assurance claim path when the distributed-state reading will be used as evidence or assurance for a work claim or reliance claim;
+- no distributed-state reading when evidence sources, rivals, or time window cannot be named.
 
 ### A.15:12b - C.29 mathematical-lens use relation
 
-> If a mathematical lens helps select a method, compare method families, shape a work plan, or diagnose work, use `C.29` only for the adequacy of that mathematical diagnostic or method-preference basis. The next concrete object remains under the A.15 family: `ChoiceResult` or local choice record when a choice is made, selected method or method-family selection when method governance is live, `U.WorkPlan` for a plan, performed `U.Work` and work-result record for execution, and an `A.15.4` source-restoration reference when the issue is work-relevant source restoration. A mathematical lens may explain why a diagnostic distinction is useful; it does not make a plan into performed work or a method explanation into execution evidence.
+> If a mathematical lens helps select a method, compare method families, shape a work plan, or diagnose work, use `C.29` only for the fit of that mathematical diagnostic or method-selection reason. The next concrete object remains under the A.15 family: `ChoiceResult` or local choice record when a choice is made, selected method or method-family selection when method governance is live, `U.WorkPlan` for a plan, performed `U.Work` and work-result record for execution, and an `A.15.4` source-restoration reference when the issue is work-relevant source restoration. A mathematical lens may explain why a diagnostic distinction is useful; it does not make a plan into performed work or a method explanation into execution evidence.
+
+### A.15:12c - P2W Work-Family Split
+
+When `E.18.1` reaches WorkPlanning, this family carries the split among selected method, `U.WorkPlan`, `SlotFillingsPlanItem`, performed `U.Work`, and result-related records. A P2W principle scheme, functional diagram, or scenario may guide method inspection and work-planning preparation only after the current work-family object is named.
+
+WorkPlanning may place evidence-reference hooks and source-currentness requests for the exact pattern that carries the live relation. If the live relation is evidence, gate passage, launch-value finalization, performed work, result measurement, assurance, or refresh, name that relation before relying on the work-planning record.
+
+### A.15:12d - P2W Performed-Work Relation
+
+When `E.18.1` reaches performed work, this family keeps the current kind as `U.Work`. WorkEnactment wording is explanatory only: it points to dated performed work, not to a second work kind.
+
+A performed-work record may cite a `U.WorkPlan` and planned baseline, while recording launch values, actuals, substitutions, variance, telemetry, outputs, outcome, and result-related records in the performed-work occurrence. Comparator, transport, `PrincipleFrame`, `U.Signature(profile=FormalSubstrate)`, evidence, assurance, and gate relations are named separately when live.
+
+### A.15:12e - P2W Integration As Role Enactability
+
+When `E.18.1` uses integration wording to mean role enactability under interface constraints, this family carries the role, method, plan, and performed-work part of the claim. Name the selected role, `U.RoleAssignment` when live, method or method description, relevant `U.WorkPlan` or performed `U.Work`, and the interface constraints governed by the architecture or module-interface pattern.
+
+If the same phrase also raises connected artifacts, telemetry, acceptance records, diagrams, module-interface claims, selected-structure claims, checks, gates, evidence, or provenance, split those relations before relying on the integration wording.
+
+### A.15:12f - Lowering, Repair, and Refresh Conditions
+
+Lower an `A.15` claim when the role, holder, bounded context, method, method description, work plan, performed work occurrence, or capability check cannot be named at the granularity required by the next work move. A weaker but admissible result is a separation note, source-gap note, source-restoration request, decision-request record for the next decision, or prospective work-plan entry.
+
+Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, status-currentness record, or source-currentness window was wrong for the claimed move. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence path changed, and do not treat a source-restoration request as carrying a non-A.15 claim.
+
+Refresh the `A.15` use before relying on it across a new context, new role assignment, new method family, new work plan, new execution window, new result measurement, or new live evidence, assurance, gate, source-restoration, or mathematical-lens relation. If the live issue after refresh is no longer role-method-work alignment, use the exact pattern for that relation and keep only the returned `A.15` separation here.
 
 ### A.15:End
 

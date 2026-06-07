@@ -6,12 +6,12 @@ section_id: "A.15:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__003_problem.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:2 — Problem"
-line_start: 19335
-line_end: 19344
+line_start: 19440
+line_end: 19449
 dependencies:
   - "A.10"
   - "A.12"
@@ -52,5 +52,5 @@ Without this formal framework, models suffer from a cascade of category errors:
 2.  **Specification-as-Execution:** A `MethodDescription` (the "recipe") is treated as evidence that the work was done. This leads to "paper compliance," where a system is considered complete simply because its documentation exists.
 3.  **Capability-as-Work:** A team's *ability* to perform a task (`Capability`) is conflated with the *actual performance* of that task (`Work`). This obscures the reality of resource consumption and actual outcomes.
 4.  **Work-without-Context:** An instance of work is logged without a clear link back to the role, capability, and specification that governed it, making the work unauditable and its results impossible to reproduce.
-5.  **Ambiguous source-side "process/activity" cue:** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication that paralyzes decision-making. Generic doing/activity terms must be resolved via L-ACT to `U.Method`, `U.MethodDescription` (recipe), `U.WorkPlan` (schedule), or `U.Work` (run).
+5.  **Ambiguous source-side "process" or "activity" cue:** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication that paralyzes decision-making. Generic doing or activity terms must be resolved via L-ACT to `U.Method`, `U.MethodDescription` (recipe), `U.WorkPlan` (schedule), or `U.Work` (run).
 

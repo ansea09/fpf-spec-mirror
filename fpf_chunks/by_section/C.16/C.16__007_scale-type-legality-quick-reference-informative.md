@@ -6,12 +6,12 @@ section_id: "C.16:6"
 section_title: "Scale‑type legality quick reference (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__007_scale-type-legality-quick-reference-informative.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:6 — Scale‑type legality quick reference (Informative)"
-line_start: 40460
-line_end: 40480
+line_start: 40809
+line_end: 40829
 dependencies:
   - "A.10"
   - "A.17"

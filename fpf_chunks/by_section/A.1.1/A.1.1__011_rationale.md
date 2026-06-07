@@ -6,12 +6,12 @@ section_id: "A.1.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__011_rationale.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.1.1 — U.BoundedContext: The Semantic Frame"
   - "A.1.1:10 — Rationale"
-line_start: 1471
-line_end: 1493
+line_start: 1472
+line_end: 1494
 dependencies:
   - "A.1"
   - "A.2.1"

@@ -6,12 +6,12 @@ section_id: "A.15:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__013_relations.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12 — Relations"
-line_start: 19608
-line_end: 19622
+line_start: 19715
+line_end: 19729
 dependencies:
   - "A.10"
   - "A.12"
@@ -48,7 +48,7 @@ keywords:
 
 *   **Directly Implements:** `A.7 Strict Distinction`.
 *   **Builds Upon:** `A.2 (U.Role)`, `A.2.1 (U.RoleAssignment)`, `A.4 (Temporal Duality)`, `A.12 (External Transformer)`.
-*   **Is Used By / Provides Foundation For:**
+*   **Is Used By and Provides Foundation For:**
     *   `C.4 Method-CAL`: Provides the formal definition of `U.MethodDescription` and the `Gamma_method` operator for composing them.
     *   `C.5 Resrc-CAL`: Provides the `U.Work` entity to which resource consumption is attached.
     *   `B.1.6 Gamma_work`: The aggregation operator for `U.Work`.

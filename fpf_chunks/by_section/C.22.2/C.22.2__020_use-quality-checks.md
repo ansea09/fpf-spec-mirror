@@ -6,12 +6,12 @@ section_id: "C.22.2:19"
 section_title: "Use-Quality Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__020_use-quality-checks.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:19 — Use-Quality Checks"
-line_start: 44394
-line_end: 44411
+line_start: 44612
+line_end: 44623
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"
@@ -63,19 +64,13 @@ keywords:
 
 ### C.22.2:19 - Use-Quality Checks
 
-A practitioner checking one `ProblemCard@Context` use should be able to find these results in the card, its stated next move, and its named exits. These checks protect use quality; they do not add fields to the card.
+These checks protect the card's practical use; they do not add fields.
 
-| Use-quality check | Practitioner-visible result |
+| Check | Quality question |
 |---|---|
-| Problem frame | The working situation is recognizable before internal field taxonomy or neighboring-pattern exits take over. |
-| Solution moves | The card shows practitioner moves from messy signal to reviewable problem-side record to honest next move, not only a field schema. |
-| Use profiles | Thin, Standard, and High-relation use stay distinct, so added fields follow live relation need. |
-| Conformance review | The card can be checked for output kind, scope, readiness, cue, reference, exit, `setContextRef`, causal cue, representation continuity, freshness, scalarization, first-principles payoff, and record budget. |
-| Anti-pattern resistance | The card resists card-as-work-item, fill-every-field, premature P2W readiness, preselected solution or work item, evidence, gate, and autonomy overread, portfolio-as-task-queue, scalar readiness, and sterile first-principles cue. |
-| Validation use | At least the provided golden and anti-case slices can be used to test whether the card produces a usable next move without overclaiming. |
-| Entry findability | A practitioner can find `C.22.2` through first-entry phrases and tempting-wrong-pattern boundaries before studying the whole neighboring pattern network first. |
-| P2W export rule | The card states what it exports to downstream P2W or selector-facing use and what it must not decide: method family, work authorization, gate passage, evidence proof, autonomy permission, or selected solution. |
-| P2W reliance rule | When problem-formulation next-move reason or validation boundary is used for P2W receiving use, the card states `RelianceDisposition`, admissible use, non-admissible use, and live exits without adding default evidence, assurance, gate, autonomy, control, or work fields. |
-| Neighboring-exit aid | The card user can look up the live relation, governing pattern, permitted local cue, and forbidden local decision in one aid near the start without treating the aid as the main action engine. |
-| Non-bureaucracy invariant | The card remains as small as the honest next move permits and does not require full-form completion when lighter reviewability is enough. |
+| Recognition | Can the practitioner recognize the working situation before outside-governed relation material appears? |
+| Thin affordance | Can a truthful card fit under one page when only Thin fields are live? |
+| Next move | Does the card choose `P2W-ready`, characterize, compare, search, refresh, retire, archive, `abstain/no-change`, or an exact FPF pattern for an exact claim kind, relation kind, or boundary? |
+| Record budget | Are heavier fields present only because they change the current move? |
+| P2W export | Does the card state what P2W may use now and which exact-pattern cues remain outside the card? |
 

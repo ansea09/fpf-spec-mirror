@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 44013
-line_end: 44034
+line_start: 44332
+line_end: 44353
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"
@@ -63,7 +64,7 @@ keywords:
 
 ### C.22.2:4 - Problem, Task, Method, Work, and Result Split
 
-`ProblemCard@Context` is admissible while the method is unknown, contested, not yet selected, or not yet specific enough for downstream work. A known method does not by itself make the problem ready: if the proposed method is known but the problem signal, scope, acceptance probe, or EntityOfConcern remains unstable, `C.22.2` remains live. If both the problem representation and the method are already accepted and the remaining question is planned execution, exit to `A.15`. The card may carry method-search exits and method-family cues, but it must not present downstream work as already known task execution.
+`ProblemCard@Context` is admissible while the method is unknown, contested, not yet selected, or not yet specific enough for downstream work. A known method does not by itself make the problem ready: if the proposed method is known but the problem signal, scope, acceptance probe, or EntityOfConcern remains unstable, `C.22.2` remains live. If both the problem representation and the method are already accepted and the remaining question is planned execution, apply `A.15`. The card may carry method-family cues and reasons for method search, but it must not present downstream work as already known task execution.
 
 Use this split:
 
@@ -74,12 +75,12 @@ Use this split:
 | ProblemProfile | C.22-facing profile prepared or bound from a problem-side representation when sufficient | Downstream profile reference; not the card itself and not a work item. |
 | `TaskKind` | Selector-facing task kind in `C.22` | Downstream typed selector reference; not a plan item. |
 | `TaskFamilyRef` | Reference to a family of task kinds or method-consumption classes | Used only when current `C.22` selector logic requires it. |
-| `TaskSignature` | Minimal selector-facing signature read for eligibility, acceptance, and selection | May be emitted or bound from `ProblemCard@Context`; must stay minimal. |
-| Method-family selection object | Comparison or selection among method families | Receiving pattern `G.5`; not a problem-card field. |
-| `U.Method`, `U.MethodDescription` | Method and method description | Receiving pattern family `A.15` and related method-description anchors. |
-| `U.WorkPlan`, `SlotFillingsPlanItem` | Planned work and plan item | Receiving pattern family `A.15`; not a C.22 task signature. |
-| `U.Work` | Performed work | Receiving pattern family `A.15`, with evidence, provenance, and assurance exits when live. |
-| Result record and result measurement | Evidence, provenance, measurement characterization, assurance, or refresh material depending on use | Receiving patterns `A.10`, `G.6`, `B.3`, `C.16`, `G.11`, and neighbors. |
+| `TaskSignature` | Minimal selector-facing signature for eligibility, acceptance, and selection | May be emitted or bound from `ProblemCard@Context`; must stay minimal. |
+| Method-family selection object | Comparison or selection among method families | Governing pattern `G.5`; not a problem-card field. |
+| `U.Method`, `U.MethodDescription` | Method and method description | Governing pattern family `A.15` and related method-description anchors. |
+| `U.WorkPlan`, `SlotFillingsPlanItem` | Planned work and plan item | Governing pattern family `A.15`; not a C.22 task signature. |
+| `U.Work` | Performed work | Governing pattern family `A.15`, with evidence, provenance, and assurance relations when live. |
+| Result record and result measurement | Evidence, provenance, measurement characterization, assurance, or refresh material depending on use | Exact patterns `A.10`, `G.6`, `B.3`, `C.16`, or `G.11` according to the claim kind. |
 
-Transition condition: `ProblemCard@Context` may prepare a candidate `ProblemProfile`, bind an existing `ProblemProfile`, emit a candidate `TaskSignature`, or bind a `TaskSignature` only when P2W or selector readiness is declared. If several downstream signatures remain plausible, keep them as candidate signatures instead of binding one chosen `TaskSignature`. When method-family selection, selected method, planned work, performed work, result record, or result measurement becomes live, use the governing pattern; `C.22.2` does not absorb that pattern's authority.
+Transition condition: `ProblemCard@Context` may prepare a candidate `ProblemProfile`, bind an existing `ProblemProfile`, emit a candidate `TaskSignature`, or bind a `TaskSignature` only when P2W or selector readiness is declared. If several downstream signatures remain plausible, keep them as candidate signatures instead of binding one chosen `TaskSignature`. When the live issue becomes method-family selection, selected method, planned work, performed work, result record, or result measurement, apply the exact FPF pattern for that claim; do not expand the card.
 

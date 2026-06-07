@@ -6,12 +6,12 @@ section_id: "E.18:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__003_problem-frame.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:2 — Problem frame"
-line_start: 65778
-line_end: 65791
+line_start: 65933
+line_end: 65946
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -42,8 +42,8 @@ keywords:
 
 ### E.18:2 - Problem frame
 
-Teams can produce many **valid flows** over the same capability: e.g., the P2W reference path
-`U.FormalSubstrate → U.PrincipleFrame → U.Mechanism → U.ContextNormalization (UNM) → U.SelectionAndTuning ↔ U.WorkPlanning → U.Work → U.EvaluatingAndRefreshing`
+Teams can produce many **valid flow valuations** for the same holon under `VP.Functional`, for example for a declared `U.Capability` or transduction claim. The P2W reference path is:
+`U.Signature(profile=FormalSubstrate) → U.PrincipleFrame → U.Mechanism → U.ContextNormalization (UNM) → U.SelectionAndTuning ↔ U.WorkPlanning → U.Work → U.EvaluatingAndRefreshing`
 is one **path** among many possible domain paths. Without a common **graph architecture**:
 
 * flows look ad‑hoc and **non‑comparable**;

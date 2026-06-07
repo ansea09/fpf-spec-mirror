@@ -6,12 +6,12 @@ section_id: "A.15.1:7"
 section_title: "Bias‑Annotation (as in E‑cluster)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__008_bias-annotation-as-in-e-cluster.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:7 — Bias‑Annotation (as in E‑cluster)"
-line_start: 19826
-line_end: 19831
+line_start: 19987
+line_end: 19992
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -45,5 +45,5 @@ keywords:
 
 * **Lenses tested:** `Prag`, `Arch`, `Did`, `Epist`.
 * **Scope declaration:** Universal; temporal semantics and episode policy are **context‑local** via `U.BoundedContext`.
-* **Rationale:** Gives FPF a clean, actionable notion of **occurrence** compatible with `U.RoleAssignment` / **Role Enactment** (A.2.1; A.15) and with 4D extensional thinking, so that costing, quality, and audit rest on **runs**, not on plans or recipes.
+* **Rationale:** Gives FPF a clean, actionable notion of **occurrence** compatible with `U.RoleAssignment` and **Role Enactment** (A.2.1; A.15) and with 4D extensional thinking, so that costing, quality, and audit rest on **runs**, not on plans or recipes.
 

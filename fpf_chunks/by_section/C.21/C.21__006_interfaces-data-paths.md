@@ -6,12 +6,12 @@ section_id: "C.21:5"
 section_title: "Interfaces & Data Paths"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__006_interfaces-data-paths.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:5 — Interfaces & Data Paths"
-line_start: 43259
-line_end: 43264
+line_start: 43608
+line_end: 43613
 dependencies:
   - "A.17"
   - "A.18"

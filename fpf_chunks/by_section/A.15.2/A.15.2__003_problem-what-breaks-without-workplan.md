@@ -6,14 +6,26 @@ section_id: "A.15.2:2"
 section_title: "Problem (what breaks without WorkPlan)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__003_problem-what-breaks-without-workplan.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:2 — Problem (what breaks without WorkPlan)"
-line_start: 20035
-line_end: 20042
+line_start: 20247
+line_end: 20254
 dependencies:
+  - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.3"
+  - "A.15.4"
+  - "A.2.1"
+  - "A.20"
+  - "A.21"
+  - "B.3"
+  - "E.17"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.RoleAssignment"
   - "U.Work"
 keywords:
   - "forecast"
@@ -25,8 +37,8 @@ keywords:
 ### A.15.2:2 - Problem (what breaks without `WorkPlan`)
 
 1. **“Workflow = schedule” conflation.** Flowcharts or code are used as calendars; resource clashes and SLA misses follow.
-2. **Plan/run blur.** Gantt bars or Kanban tickets are reported as if the work already happened; audits and costing degrade.
-3. **Spec/time leakage.** People and calendars creep into MethodDescriptions; reuse and staffing agility collapse.
+2. **Plan and run blur.** Gantt bars or Kanban tickets are reported as if the work already happened; audits and costing degrade.
+3. **Specification and time leakage.** People and calendars creep into MethodDescriptions; reuse and staffing agility collapse.
 4. **No variance model.** Without planned baselines, deviations in time, cost, and quality cannot be explained or improved.
 5. **Structure entanglement.** BoM and org charts get baked into “process” views; plans become brittle and unmaintainable.
 

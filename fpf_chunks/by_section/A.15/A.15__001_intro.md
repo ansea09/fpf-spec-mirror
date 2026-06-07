@@ -6,12 +6,12 @@ section_id: "A.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__001_intro.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:intro — Intro"
-line_start: 19259
-line_end: 19319
+line_start: 19364
+line_end: 19424
 dependencies:
   - "A.10"
   - "A.12"
@@ -52,7 +52,7 @@ keywords:
 
 **At a glance.** This pattern is the action-guiding alignment pattern for engineer-managers when the real confusion is not "what component is this" but `who is responsible`, `how the work is supposed to happen`, `when the plan lives`, and `what actually happened`.
 
-**Use this when.** Use this pattern when the real job is to separate role, method, plan, capability, and actual work before a team treats one cue, one schedule, one display, one copied/generated statement, or one document as if it already counted as the role assignment, the method, the work plan, execution evidence, or the work itself.
+**Use this when.** Use this pattern when the real job is to separate role, method, plan, capability, and actual work before a team treats one cue, one schedule, one display, one copied or generated statement, or one document as if it already counted as the role assignment, the method, the work plan, execution evidence, or the work itself.
 
 **Start here when.** The dominant ambiguity is role vs method vs schedule vs actual run, and the team keeps arguing over a source-side "process" cue without separating recipe, plan, capability, and executed work.
 
@@ -64,18 +64,18 @@ keywords:
 1. Name the role, holder, and context distinction that is live.
 2. Name the method or method description that is meant to govern the work.
 3. Name the intended `U.WorkPlan` or actual `U.Work` occurrence being claimed.
-4. Choose the next move: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, hand off to the governing FPF pattern and exact project-side FPF kind and reference that carry the live claim or effect, or stop.
-5. If a visible item is being used as approval, permission, gate passage, evidence, engineering justification, role or status currentness, release reliance, or performed work by appearance, move to `A.15.4 Work-Relevant Source Restoration` and return here only for the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
+4. Choose the next move: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, apply the exact FPF pattern and exact project-side FPF kind and reference for the live claim or effect, or stop.
+5. If a visible item is being used by appearance for a work claim, reliance claim, or source-restoration claim, move to `A.15.4 Work-Relevant Source Restoration` and return here only for the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
 
-**Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, capability, and actual work distinct so the acting engineer-manager can choose the next admissible project move. Work-relevant source restoration is the neighboring `A.15.4` cluster member.
+**Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, capability, and actual work distinct so the acting engineer-manager can choose the next admissible project move. Work-relevant source restoration is handled by the related `A.15.4` cluster member.
 
 **Minimum sufficient next move.** Choose the minimum sufficient next move, recover only the exact project-side FPF kind and reference needed for that move, and do not raise the claim beyond that recovered relation, source, or admissible-use boundary.
 
-**Recovered-source green path.** If the required exact project-side FPF kind and reference is present and its scope and window match the live role, method, plan, or work move, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note, or block only the unsupported claim or effect; do not treat the repair request or source-gap note as past evidence, approval, gate passage, performed `U.Work`, release permission, or assurance.
+**Recovered-source green path.** If the required exact project-side FPF kind and reference is present and its scope and window match the live role, method, plan, or work move, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only the smallest source-restoration request, decision-request record, prospective work-plan entry, source-gap note, or unsupported-claim block needed for the next move.
 
 **Ordinary use.** If the team only needs to separate role, method, plan, capability, and actual work for orientation or planning, one separation sentence or small working card is enough.
 
-**Load-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role attribution, status attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the live issue is whether a visible item has the exact project-side FPF kind and reference needed for that work claim or reliance claim.
+**Reliance-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role attribution, status attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the live issue is whether a visible item has the exact project-side FPF kind and reference needed for that work claim or reliance claim.
 
 **Stop condition.** Stop once the separation changes no next admissible work move or reliance move and blocks no concrete overclaim about role, method, plan, work, status, approval, evidence, or release.
 
@@ -83,7 +83,7 @@ keywords:
 
 | Admissible project use | Source-finding or reversible probe | Non-admissible use |
 | --- | --- | --- |
-| A maintenance team names `PumpInspectorRole`, the inspection method description, the current `U.WorkPlan`, and the dated `U.Work` record that will be created after the inspection. The team may plan and perform the inspection under those distinct records. | A short briefing says the inspection is ready, but the method description or work plan is missing; use the briefing only to find or repair the missing source before planned work proceeds. | A dashboard tile, copied approval, generated explanation, or briefing is treated as performed work, gate passage, evidence, engineering justification, or release permission by appearance. Use `A.15.4` for that source-restoration question. |
+| A maintenance team names `PumpInspectorRole`, the inspection method description, the current `U.WorkPlan`, and the dated `U.Work` record that will be created after the inspection. The team may plan and perform the inspection under those distinct records. | A short briefing says the inspection is ready, but the method description or work plan is missing; use the briefing only to find or repair the missing source before planned work proceeds. | A dashboard tile, copied approval, generated explanation, or briefing is used as the source for a work or reliance claim by appearance. Use `A.15.4` for that source-restoration question. |
 
 **Alignment frame in plain terms.** One alignment frame linking `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` through `U.RoleAssignment`; not a single work occurrence, not a checklist, not a language-style repair pattern, and not a mere cue note.
 
@@ -95,13 +95,13 @@ keywords:
 
 **Not this pattern when.** Not this pattern when the honest need is only one dated work occurrence (`A.15.1`), only planning or schedule baseline (`A.15.2`), only a cue note that has not yet become an enactment-alignment question (`A.16` or `A.16.1`), only boundary wording or policy wording without a live role-method-work question (`A.6` or `A.6.B`), or work-relevant source restoration for a visible item (`A.15.4`).
 
-**Neighboring project records and governing patterns.** `A.15.1` governs dated execution records, `A.15.2` schedule or baseline planning records, `A.15.3` slot-filling plan items, `A.15.4` work-relevant source restoration, `B.5.1` Explore -> Shape -> Evidence -> Operate for project progression, `F.11` method and work vocabulary alignment across contexts, and `F.17` the human-facing work sheet.
+**Related project records and governing patterns.** `A.15.1` governs dated execution records, `A.15.2` schedule or baseline planning records, `A.15.3` slot-filling plan items, `A.15.4` work-relevant source restoration, `B.5.1` Explore -> Shape -> Evidence -> Operate for project progression, `F.11` method and work vocabulary alignment across contexts, and `F.17` the human-facing work sheet.
 
 **Causal-use work boundary.** Realized counterfactual-sampling work, counterfactual randomization, intervention assignment, target-trial emulation work, and causal evidence collection remain `U.MethodDescription`, `U.WorkPlan`, and `U.Work` structures here. `A.15` can say who performs which sampling or intervention work under which method and role; it does not make the resulting causal use admissible. `C.28` governs the causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, counterfactual sampling realizability, and supported use and unsupported use.
 
-**Common neighboring-record mistakes.** If the first honest encountered item is still only a cue, keep it under `A.16` or `A.16.1`; if the live question is boundary, promise, agreement-like service, or policy wording, recover the `A.6`-neighboring claim record record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for work relation or reliance relation, use `A.15.4`.
+**Related-record mistakes.** If the first honest encountered item is still only a cue, keep it under `A.16` or `A.16.1`; if the live question is boundary wording, promise, agreement-like service, or policy wording, recover the corresponding `A.6` boundary-claim record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for a work relation or reliance relation, use `A.15.4`.
 
-**Boundary to coarsened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may help orient work or cue attention, but it does not become a sufficient source for work execution, an implementation checklist, a work plan, a work occurrence, an approval, a gate decision, or execution evidence by convenience alone. If a coarsened rendering needs return to the governing method, plan, approval, gate, or evidence source before work can proceed admissibly, keep that boundary explicit here and treat the coarsened-rendering relation as `A.6.3.CSC Controlled Semantic Coarsening` governed rather than treating the coarsened rendering as executable.
+**Boundary to coarsened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may orient work or cue attention. It becomes sufficient for work execution, plan use, approval, gate decision, or execution evidence only when the required method, plan, approval, gate, or evidence source remains explicit and reopenable. Treat the coarsened-rendering relation through `A.6.3.CSC Controlled Semantic Coarsening` when the rendering itself changes what can be relied on.
 
 **Recognition block vs assurance block.** Read **At a glance**, **Use this when**, **Start here when**, **First output**, **Working action path**, **Admissible-use examples**, **Alignment frame**, **First admissible project move**, **What goes wrong if missed**, **What this buys**, and **Not this pattern when** as the primary recognition block. Read the entity distinctions, canonical relations, checklist, and relations below as assurance blocks that tighten the same alignment-frame claim; they do not widen the pattern into one single work occurrence, one cue note, one wording pattern, one source-restoration pattern, or one source-side "process" label treated as an FPF object.
 

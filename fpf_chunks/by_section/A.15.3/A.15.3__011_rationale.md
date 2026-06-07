@@ -6,12 +6,12 @@ section_id: "A.15.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__011_rationale.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:10 — Rationale"
-line_start: 20545
-line_end: 20554
+line_start: 20846
+line_end: 20855
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -21,7 +21,7 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.8"
+  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -43,5 +43,5 @@ Keeping the baseline bound to exactly one slot-bearing description makes SlotKin
 
 Treating indices as derived projections preserves the canonical row source while still enabling human-friendly navigation or tooling acceleration.
 
-Finally, by disallowing run-time witnesses (launch values, observed values, concrete `Γ_time`) the pattern enforces the plan/run split and keeps audit variance attributable to an explicit baseline rather than to shifting defaults.
+Finally, by disallowing run-time witnesses (launch values, observed values, concrete `Γ_time`) the pattern enforces the planning and enactment split and keeps audit variance attributable to an explicit baseline rather than to shifting defaults.
 

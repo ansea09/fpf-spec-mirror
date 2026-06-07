@@ -6,12 +6,12 @@ section_id: "F.18:21"
 section_title: "Acceptance Harness (SCR/RSCR) for F.18"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__022_acceptance-harness-scr-rscr-for-f-18.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:21 — Acceptance Harness (SCR/RSCR) for F.18"
-line_start: 74919
-line_end: 74948
+line_start: 75425
+line_end: 75454
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

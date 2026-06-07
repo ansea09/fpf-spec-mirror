@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution — U.EpistemeSlotGraph as the normative episteme ontology"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution-u-epistemeslotgraph-as-the-normative-episteme-ontology.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:4 — Solution — U.EpistemeSlotGraph as the normative episteme ontology"
-line_start: 33585
-line_end: 33966
+line_start: 33934
+line_end: 34315
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

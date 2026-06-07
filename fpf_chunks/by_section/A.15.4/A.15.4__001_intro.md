@@ -6,12 +6,12 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:intro — Intro"
-line_start: 20580
-line_end: 20610
+line_start: 20901
+line_end: 20931
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,20 +53,20 @@ keywords:
 
 **Use this when.** Use this pattern when a visible item is about to guide a work move, reliance move, or work-relevant P2W claim by appearance, and the acting user must recover the exact project-side FPF kind and reference before proceeding.
 
-**First output.** One compact restoration note: encountered item; live work claim, reliance claim, work-relevant P2W claim, or P2W chain position; governing FPF pattern; exact project-side FPF kind and reference needed; admissible next project move now; and blocked overread.
+**First output.** One compact restoration note: encountered item; live work claim, reliance claim, work-relevant P2W claim, or P2W chain position; pattern that governs the live claim or effect; exact project-side FPF kind and reference needed; admissible next project move now; and blocked overread.
 
-**What goes wrong if missed.** Teams treat a visible dashboard, credential view, copied approval, generated explanation, provenance mark, schema wording, API wording, publication, display, or cue as if it already carried approval, permission, gate passage, evidence, engineering justification, performed work, release permission, role relation, or status relation. Work then proceeds or stops on appearance while the governing FPF pattern and exact project-side FPF kind and reference that actually carry the claim or effect are missing, stale, revoked, or contradicted.
+**What goes wrong if missed.** Teams let a dashboard, credential view, copied approval, generated explanation, provenance mark, schema wording, API wording, publication, display, or cue carry a work or reliance source relation by appearance. Work then proceeds or stops while the pattern and project-side reference that actually carry the claim or effect are missing, stale, revoked, or contradicted.
 
-**Primary EntityOfConcern in plain terms.** One source-restoration relation for one live work claim, reliance claim, work-relevant P2W claim, or P2W chain position: encountered item, live claim or effect, governing FPF pattern, exact project-side FPF kind and reference needed, admissible next project move now, and blocked overread. It is not a new `authoritySourceRef`, evidence source, gate record, engineering-justification record, work occurrence, or generic publication kind.
+**Primary EntityOfConcern in plain terms.** One source-restoration relation for one live work claim, reliance claim, work-relevant P2W claim, or P2W chain position: encountered item, live claim or effect, pattern that governs that claim or effect, exact project-side FPF kind and reference needed, admissible next project move now, and blocked overread. It does not introduce a new source kind, evidence path, gate record, engineering-justification record, work occurrence, or generic publication kind.
 
-**First admissible project move in plain terms.** Recover or name the governing FPF pattern, exact project-side FPF kind and reference, and live relation before allowing the encountered item to guide work or reliance. When that relation is absent or insufficient, narrow the move, reopen or refresh the source, run only a bounded reversible probe under a work plan, or block the unsupported claim or effect.
+**First admissible project move in plain terms.** Recover or name the pattern that governs the live claim or effect, exact project-side FPF kind and reference, and live relation before allowing the encountered item to guide work or reliance. When that relation is absent or insufficient, narrow the move, reopen or refresh the source, run only a bounded reversible probe under a work plan, or block the unsupported claim or effect.
 
 **Recognition block vs assurance block.** Read **At a glance**, **Use this when**, **First output**, **What goes wrong if missed**, **Primary EntityOfConcern**, **First admissible project move**, **Working action path**, **Not this pattern when**, and **What this buys** as the primary recognition block. Read the field tables, lookup table, lint cues, stress cases, conformance checklist, SoTA alignment, and relations below as assurance blocks and companion material that tighten the same source-restoration claim; they do not widen this pattern into an evidence, gate, engineering-justification, speech-act, commitment, boundary, or work-occurrence pattern.
 
 **Working action path.**
 1. Name the encountered source kind and publication position without treating its appearance as the source relation itself.
 2. Name the live work claim, reliance claim, work-relevant P2W claim, or P2W chain position and the claim or effect that would be carried.
-3. Recover the governing FPF pattern and exact project-side FPF kind and reference that carry that claim or effect.
+3. Recover the pattern that governs the live claim or effect and exact project-side FPF kind and reference that carry that claim or effect.
 4. Choose the lightest admissible project move now: proceed inside the recovered exact relation, narrow the move, run a bounded reversible probe under `U.WorkPlan`, reopen or refresh the source, ask the accountable role assignment to expose or repair the missing source episteme, publication, register entry, or project record, or block only the unsupported claim or effect.
 5. Return to `A.15` only when the remaining live question is `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
 

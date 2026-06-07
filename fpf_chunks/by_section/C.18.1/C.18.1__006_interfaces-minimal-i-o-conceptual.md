@@ -6,12 +6,12 @@ section_id: "C.18.1:5"
 section_title: "Interfaces — minimal I/O (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__006_interfaces-minimal-i-o-conceptual.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:5 — Interfaces — minimal I/O (conceptual)"
-line_start: 42543
-line_end: 42546
+line_start: 42892
+line_end: 42895
 dependencies:
   - "C.16"
   - "C.17"

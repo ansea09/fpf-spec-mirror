@@ -6,12 +6,12 @@ section_id: "A.15.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__010_consequences.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:9 — Consequences"
-line_start: 20536
-line_end: 20544
+line_start: 20837
+line_end: 20845
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -21,7 +21,7 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.8"
+  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -37,10 +37,10 @@ keywords:
 
 ### A.15.3:9 - Consequences
 
-| Benefit | Trade‑off / Cost | Notes / Mitigation |
+| Benefit | Trade-off and cost | Notes and mitigation |
 | --- | --- | --- |
 | Improved modularity | Requires an explicit baseline plan item | Keep baselines minimal; specialise only when a suite truly needs it. |
-| Audit clarity | More up-front authoring work | The authoring workload is intentional: it buys attributable variance and prevents “mystery defaults”. |
-| Edition honesty | Forces authors to think about editions and time | Use editioned refs and time selectors by ref; keep actual `Γ_time` in Work evidence. |
-| Controlled specialisation | Multiple PlanItem kinds may exist (core + suite‑specialised) | Use DRR to document why specialisation is warranted; keep the universal core stable. |
+| Audit clarity | More up-front specification work | The explicit-writing workload is intentional: it buys attributable variance and prevents “mystery defaults”. |
+| Edition honesty | Forces practitioners to declare editions and time | Use editioned refs and time selectors by ref; keep actual `Γ_time` in Work evidence. |
+| Controlled specialisation | Multiple PlanItem kinds may exist (core + suite‑specialised) | Create a suite-specific refinement only when the suite description requires it; keep the universal core stable. |
 

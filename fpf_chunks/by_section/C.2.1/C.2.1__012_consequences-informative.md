@@ -6,12 +6,12 @@ section_id: "C.2.1:11"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_consequences-informative.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:11 — Consequences  (informative)"
-line_start: 34248
-line_end: 34299
+line_start: 34597
+line_end: 34648
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

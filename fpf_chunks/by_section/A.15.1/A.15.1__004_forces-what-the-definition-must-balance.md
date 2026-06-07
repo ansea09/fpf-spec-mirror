@@ -6,12 +6,12 @@ section_id: "A.15.1:3"
 section_title: "Forces (what the definition must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__004_forces-what-the-definition-must-balance.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:3 — Forces (what the definition must balance)"
-line_start: 19676
-line_end: 19685
+line_start: 19834
+line_end: 19843
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -47,7 +47,7 @@ keywords:
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **Universality vs. domain detail** | One Work notion for surgery, welding, ETL, proofs, lab cycles—while letting each keep its vocabulary. |
 | **Granularity vs. aggregation**    | Atomic runs vs. composite operations; we need roll‑up without double‑count.                           |
-| **Concurrency vs. order**          | Parallel/overlapped activities need clear part/overlap semantics.                                     |
+| **Concurrency vs. order**          | Parallel or overlapped activities need clear part and overlap semantics.                              |
 | **Identity vs. retries**           | A failed attempt, a retry, and a resumed episode—what is “the same” work?                             |
 | **Time realism vs. simplicity**    | We need intervals and coverage but cannot bury users in temporal logic notation.                      |
 

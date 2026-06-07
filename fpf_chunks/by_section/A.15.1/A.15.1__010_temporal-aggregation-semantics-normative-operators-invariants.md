@@ -6,12 +6,12 @@ section_id: "A.15.1:9"
 section_title: "Temporal & Aggregation Semantics (normative operators & invariants)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_temporal-aggregation-semantics-normative-operators-invariants.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:9 — Temporal & Aggregation Semantics (normative operators & invariants)"
-line_start: 19925
-line_end: 19956
+line_start: 20087
+line_end: 20118
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,8 +54,8 @@ keywords:
   * **Monotone:** if `S ⊆ T` then coverage(S) ⊆ coverage(T) (for union) or hull(S) ⊆ hull(T) (for hull)
 * **Usage guidance:**
 
-  * Use **union** for **utilization/availability** (how much of the clock time the asset was actually busy).
-  * Use **hull** for **lead/cycle time** (elapsed from first touch to last release).
+  * Use **union** for **utilization and availability** (how much of the clock time the asset was actually busy).
+  * Use **hull** for **lead time and cycle time** (elapsed from first touch to last release).
   * **Manager’s tip:** Write the choice near the KPI; many disputes are just a hidden union‑vs‑hull mismatch.
 
 #### A.15.1:9.2 - Resource aggregation `Γ_work`
@@ -64,7 +64,7 @@ keywords:
 * **Output:** an **aggregated ledger** (materials, energy, machine‑time, money, tool wear) with explicit **overlap policy**.
 * **Invariants:**
 
-  * **Additivity on disjoint parts:** if intervals/resources are disjoint by policy, totals add.
+  * **Additivity on disjoint parts:** if intervals and resources are disjoint by policy, totals add.
   * **No double‑count:** overlapping costs must follow the declared policy (e.g., count once at parent).
   * **Traceability:** each aggregated figure must be reconcilable to contributing Work IDs.
 * **Typical policies:**

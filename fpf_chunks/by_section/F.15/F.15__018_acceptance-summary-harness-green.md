@@ -6,12 +6,12 @@ section_id: "F.15:17"
 section_title: "Acceptance summary (“Harness green”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__018_acceptance-summary-harness-green.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:17 — Acceptance summary (“Harness green”)"
-line_start: 73581
-line_end: 73589
+line_start: 74087
+line_end: 74095
 dependencies:
   - "B.3"
   - "D.CTX"

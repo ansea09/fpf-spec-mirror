@@ -6,12 +6,12 @@ section_id: "C.30.AD:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__007_worked-cases.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5 — Worked cases"
-line_start: 52144
-line_end: 52159
+line_start: 52318
+line_end: 52333
 dependencies:
   - "A.10"
   - "A.15"

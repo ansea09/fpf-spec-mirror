@@ -6,12 +6,12 @@ section_id: "A.15.1:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:6 — Archetypal grounding (parallel domains)"
-line_start: 19796
-line_end: 19825
+line_start: 19957
+line_end: 19986
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -47,7 +47,7 @@ keywords:
 
 * **Top run:** `Appendectomy_Case#2025‑08‑10T09:05–11:42`.
 * **Spec:** `Appendectomy_v5` (MethodDescription).
-* **Performer:** `OR_Team_A#SurgicalTeamRole:Hospital_2025` (RoleAssigning).
+* **Performer:** `OR_Team_A#SurgicalTeamRole:Hospital_2025` (`U.RoleAssignment`).
 * **Operational parts:** `Incision` (09:15–09:22), `Exploration` (overlaps with monitoring), `Closure` (11:10–11:35).
 * **Episode:** brief power dip 10:02–10:07 → **resumptionOf** same run (per hospital policy).
 * **Γ\_time:** union for OR utilization; hull for patient lead time.
@@ -59,15 +59,15 @@ keywords:
 * **Spec:** `ETL_v12.bpmn`.
 * **Performer:** `ETL_Runtime#TransformerRole:DataOps_2025`.
 * **Parallel parts:** `Extract_A` ‖ `Extract_B`; `Transform` starts when either completes (overlap).
-* **Retry:** `Load` failed at 01:36; retried with batch size ↓ — **new Work** linked via `retryOf`.
+* **Retry:** `WarehouseWrite` failed at 01:36; retried with batch size ↓ — **new Work** linked via `retryOf`.
 * **Γ\_time:** hull for SLA, union for cluster utilization.
-* **Γ\_work:** sum compute minutes; attribute storage I/O once at the parent.
+* **Γ\_work:** sum compute minutes; attribute storage input and output once at the parent.
 
 #### A.15.1:6.3 - Thermodynamic cycle (work as a path)
 
 * **Run:** `Carnot_Cycle_Run#2025‑08‑09T13:00–13:06`.
 * **Spec:** `Carnot_Cycle_Spec` (MethodDescription with Dynamics model).
 * **Performer:** `LabRig_7#TransformerRole:ThermoLab`.
-* **Work identity:** the **path in state‑space** traced during the interval; outputs: heat/work tallies.
+* **Work identity:** the **path in state-space** traced during the interval; outputs: heat and work tallies.
 * **Γ\_time:** straightforward interval; **Γ\_work:** integrates energy exchange; no “steps” required.
 

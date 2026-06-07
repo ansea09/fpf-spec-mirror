@@ -6,12 +6,12 @@ section_id: "J.4:4"
 section_title: "Relations and Refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__005_relations-and-refresh.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:4 — Relations and Refresh"
-line_start: 82137
-line_end: 82142
+line_start: 82643
+line_end: 82648
 dependencies:
 keywords:
 ---

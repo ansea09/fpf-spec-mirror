@@ -6,12 +6,12 @@ section_id: "C.22.2:12"
 section_title: "Freshness, Expiry, and Unknown Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__013_freshness-expiry-and-unknown-handling.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:12 — Freshness, Expiry, and Unknown Handling"
-line_start: 44254
-line_end: 44283
+line_start: 44487
+line_end: 44516
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.17.ID.CR"
   - "E.18"
+  - "E.18.1"
   - "E.2"
   - "E.9"
   - "F.9"
@@ -70,24 +71,24 @@ keywords:
 | `draftSignal` | A source signal has been captured, but the card is not yet reviewable. |
 | `reviewable` | The problem-side record can be inspected, challenged, sent onward, or refined, but it is not necessarily P2W-ready. |
 | `P2W-ready` | Local disposition label with plain gloss: problem-side input ready. The problem-side record is sufficient for downstream P2W or selector-facing use; it is not `ReadyForWork`, `GateReady`, `MethodReady`, `AutonomyReady`, or work authorization. |
-| `sentToNeighbor` | A live relation has exited to the named governing pattern. |
+| exact-pattern cue | A claim, relation, or boundary outside `C.22.2` changes the current problem-card move; the card names the exact FPF pattern and exact claim kind to use next without claiming that use inside `C.22.2`. |
 | `stale` | Freshness or expiry blocks the intended downstream use until refreshed, retired, or otherwise disposed. |
-| `refreshed` | The relevant source, context, characterization, parity, evidence/provenance/assurance relation, or semio relation has been updated enough for the named use. |
+| `refreshed` | The relevant source, context, characterization, parity, evidence, provenance, assurance, representation relation, or wording-use relation has been updated enough for the named use. |
 | `retired` | The problem-side record should no longer be used as a live problem for downstream work. |
 | `archived` | The record is retained under the relevant archive, pool, front, or selected-set pattern without being live for P2W. |
 | `abstain/no-change` | No downstream project-side move is selected because the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not worth current downstream work. |
 
-Freshness must name the affected locus: problem signal, context, characterization or parity relation, problem-formulation reason or source, set-source reference, or semio relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended next move. For problem-formulation reason or source, ask whether cited sources, provenance, and stated reason/source references are fresh enough for the problem-formulation next-move reason. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention criterion are still current. For semio relation, ask whether wording, diagram, functional description, TGA path, bridge, retargeting, or representation change alters the EntityOfConcern, admissibility inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, admissible next move, or relation needed for inheritance.
+Freshness must name the affected locus: problem signal, context, characterization or parity relation, problem-formulation reason or source, set-source reference, representation relation, or wording-use relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended next move. For problem-formulation reason or source, ask whether cited sources, provenance, and stated reason/source references are fresh enough for the problem-formulation next-move reason. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention criterion are still current. For representation relation or wording-use relation, ask whether wording, diagram, functional description, TGA path, bridge, retargeting, or representation change alters the EntityOfConcern, admissibility inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, admissible next move, or relation needed for inheritance.
 
-A stale source or evidence reference does not always retire the problem; it may send the card to refresh while the problem remains reviewable. A stale problem signal may lead to refresh, retire, archive, abstain or no-change, or another named neighboring disposition.
+A stale source or evidence reference does not always retire the problem; it may require refresh while the problem remains reviewable. A stale problem signal may lead to refresh, retire, archive, abstain or no-change, or an exact-pattern cue for the claim, relation, or boundary that must be checked.
 
 Freshness or expiry failure is a current disposition. A stale or unknown-bearing problem card may remain reviewable as a problem-side record, but it does not become P2W-ready unless freshness and unknown handling permit the intended downstream move. A stale problem card does not silently remain admissible for P2W.
 
-When freshness, expiry, or unknown handling fails, the record exits to one of these current dispositions:
+When freshness, expiry, or unknown handling fails, choose one of these current dispositions:
 
 - refresh the problem card or its characterization or comparison relation under `G.11`, `C.16`, `A.19`, `C.25`, or `G.9`;
 - retire or deprecate the problem-side record under the relevant archive, pool, selected-set, or refresh pattern;
-- continue only as explicitly governed bounded-risk use under the relevant authority, evidence, gate, autonomy, or work pattern.
+- continue only as explicitly governed bounded-risk use under the exact pattern for the live claim, relation, or boundary.
 
 Unknown-handling fields must state whether they permit use, require degraded use, abstention, or sandbox treatment, or make the current problem formulation inadmissible. No P2W, no change, or abstain-for-now may be a successful next move when the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not currently worth downstream work. Before `ProblemCard@Context` emits or binds `TaskSignature`, it must check whether the problem signal is still present and whether prior work has already solved or removed the problem.
 

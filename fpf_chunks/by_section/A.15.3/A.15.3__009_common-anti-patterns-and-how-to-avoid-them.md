@@ -6,12 +6,12 @@ section_id: "A.15.3:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 20515
-line_end: 20535
+line_start: 20816
+line_end: 20836
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -21,7 +21,7 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.8"
+  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -40,19 +40,19 @@ keywords:
 #### A.15.3:8.1 - Plan-as-execution
 
 A plan document says: “Use the latest CG-Spec and the current best comparator; compute scores and launch.”
-This is nonconformant because it omits explicit `Γ_time`, omits edition pins, collapses planning into execution, and provides no stable baseline for variance/audit.
+This is nonconformant because it omits explicit `Γ_time`, omits edition pins, collapses planning into execution, and provides no stable baseline for variance and audit.
 
 #### A.15.3:8.2 - Anti-example: Edition-key change disguised as a plan edit (backfill)
 
-A team executes Work while actually using `CGSpecRef@edition(E2)` (and/or `ComparatorSetRef@edition(E2)`), but the previously approved baseline PlanItem had pinned `@edition(E1)`.
+A team executes Work while actually using `CGSpecRef@edition(E2)` (or `ComparatorSetRef@edition(E2)`), but the previously approved baseline PlanItem had pinned `@edition(E1)`.
 Later, instead of recording variance and the required GateCrossing witness for the **edition-key change**, someone edits the baseline PlanItem “in place” to replace `E1 → E2`,
 and then claims “no variance; we followed the plan”.
 
 This is nonconformant because it:
 * collapses planning into execution (retroactive baseline editing),
 * hides an edition-key change that is crossing-relevant,
-* destroys reproducibility and breaks Work/Audit traceability.
+* destroys reproducibility and breaks Work and audit traceability.
 
-Correct handling: keep the old baseline intact; record variance in Work and, where applicable, require the gate/work-level crossing witness (UTS/CrossingBundle + policy-id pins),
+Correct handling: keep the old baseline intact; record variance in Work and, where applicable, require the gate-level or work-level crossing witness (UTS and CrossingBundle with policy-id pins),
 or produce a new PlanItem edition as the new planned baseline for subsequent enactments.
 

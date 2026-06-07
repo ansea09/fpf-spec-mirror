@@ -6,12 +6,12 @@ section_id: "F.10:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__002_intent-applicability.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:1 — Intent & applicability"
-line_start: 71660
-line_end: 71673
+line_start: 72166
+line_end: 72179
 dependencies:
   - "B.3"
   - "D.CTX"

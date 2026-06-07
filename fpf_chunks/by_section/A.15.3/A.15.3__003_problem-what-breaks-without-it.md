@@ -6,12 +6,12 @@ section_id: "A.15.3:2"
 section_title: "Problem (what breaks without it)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__003_problem-what-breaks-without-it.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:2 — Problem (what breaks without it)"
-line_start: 20205
-line_end: 20221
+line_start: 20501
+line_end: 20517
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -21,7 +21,7 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.8"
+  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -39,16 +39,16 @@ keywords:
 
 Without an explicit `SlotFillingsPlanItem` baseline, at least six failure modes recur:
 
-1. **Hidden slot-bearing-description reference and meaning drift:** a planned filler is stated without making explicit *whose* slot set is being filled, allowing silent reinterpretation of `SlotKind`s across kits/suites.
+1. **Hidden slot-bearing-description reference and meaning drift:** a planned filler is stated without making explicit *whose* slot set is being filled, allowing silent reinterpretation of `SlotKind`s across kits or suites.
 
-2. **Plan/execution collapse:** plan documents get “backfilled” with run-time values, so there is no stable planned baseline and no clean variance trail. WorkPlan explicitly warns against this.
+2. **Planning and enactment collapse:** plan documents get “backfilled” with run-time values, so there is no stable planned baseline and no clean variance trail. WorkPlan explicitly warns against this.
 
 3. **Implicit time (“latest”) and implicit recency:** planned claims about comparability or launch readiness omit an explicit `Γ_time`, which violates the time discipline (“no implicit recency”).
 
-4. **Edition ambiguity:** references to methods/policies/specs are not edition-pinned where reproducibility requires it, or the plan mutates the edition vector instead of citing pinned editions (edition changes are crossings, not “plan edits”).
+4. **Edition ambiguity:** references to method, policy, and specification references are not edition-pinned where reproducibility requires it, or the plan mutates the edition vector instead of citing pinned editions (edition changes are crossings, not “plan edits”).
    A particularly harmful subtype is **edition-key backfill**: retroactively editing a previously used baseline so that an edition-key change looks like an innocent PlanItem edit (hiding the required GateCrossing witness and breaking audit traceability).
 
-5. **Crossing invisibility:** cross-context or cross-plane expectations (Bridge + policy ids) are not stated at plan time, so later gate crossings appear as “magic” rather than traceable expected constraints.
+5. **Crossing invisibility:** cross-context or cross-plane expectations (Bridge + policy ids) are not stated at plan time, so downstream gate crossings appear as “magic” rather than traceable expected constraints.
 
 6. **G-pattern fragmentation:** each Part G pattern invents its own place to stash planned refs (method pick, comparator pick, QD archive config, etc.), blocking a clean “G.Core” universal layer and making modular reuse brittle.
 

@@ -6,12 +6,12 @@ section_id: "C.13:2"
 section_title: "Problem frame & Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__003_problem-frame-problem.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:2 — Problem frame & Problem"
-line_start: 40066
-line_end: 40071
+line_start: 40415
+line_end: 40420
 dependencies:
   - "A.14"
   - "B.3.5"

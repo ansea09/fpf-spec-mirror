@@ -6,12 +6,12 @@ section_id: "A.19.SPR:7"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__009_common-anti-patterns.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:7 — Common anti-patterns"
-line_start: 23113
-line_end: 23122
+line_start: 23462
+line_end: 23471
 dependencies:
   - "A.10"
   - "A.16"

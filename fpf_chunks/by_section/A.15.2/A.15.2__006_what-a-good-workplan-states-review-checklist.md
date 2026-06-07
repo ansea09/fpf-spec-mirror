@@ -6,14 +6,26 @@ section_id: "A.15.2:5"
 section_title: "What a good WorkPlan states (review checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__006_what-a-good-workplan-states-review-checklist.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:5 — What a good WorkPlan states (review checklist)"
-line_start: 20129
-line_end: 20143
+line_start: 20341
+line_end: 20355
 dependencies:
+  - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.3"
+  - "A.15.4"
+  - "A.2.1"
+  - "A.20"
+  - "A.21"
+  - "B.3"
+  - "E.17"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.RoleAssignment"
   - "U.Work"
 keywords:
   - "forecast"
@@ -24,16 +36,16 @@ keywords:
 
 ### A.15.2:5 - What a good `WorkPlan` states (review checklist)
 
-Use this as a human‑readable checklist (not a rigid schema):
+Use this as a human-facing checklist (not a rigid schema):
 
 1. **Horizon & cadence** (e.g., “W36 surgeries, daily ETL”).
-2. **Plan Items** with: target Method/Spec, planned windows, dependencies.
+2. **Plan Items** with: target Method and MethodDescription, planned windows, dependencies.
 3. **Role requirements** (kinds) and **intended assignments** (optional, context‑lawful).
 4. **Capability thresholds** and **safety envelopes**.
 5. **Resource budgets** and **reservations** on assets.
-6. **Acceptance targets** (SLA/quality windows).
-7. **Bridges** if plan spans **multiple contexts** (operations ↔ audit/regulatory).
-8. **Baseline/version** and **change notes** (so variance is attributable).
+6. **Acceptance targets** (SLA and quality windows).
+7. **Bridges** if plan spans **multiple contexts** (operations, audit, or regulatory).
+8. **Baseline and version** plus **change notes** (so variance is attributable).
 9. **Policy pointers** (episode policy, overlap policy for Work roll‑ups if needed for KPIs).
-10. **Exceptions path** (how ad‑hoc/emergency work is planned post‑factum).
+10. **Exceptions path** (how ad hoc or emergency work is planned after the fact).
 

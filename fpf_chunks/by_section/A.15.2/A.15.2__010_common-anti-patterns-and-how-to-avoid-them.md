@@ -1,0 +1,45 @@
+---
+chunk_kind: "child"
+pattern_id: "A.15.2"
+pattern_title: "U.WorkPlan"
+section_id: "A.15.2:7b"
+section_title: "Common Anti-Patterns and How to Avoid Them"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.15.2/A.15.2__010_common-anti-patterns-and-how-to-avoid-them.md"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+heading_path:
+  - "A.15.2 — U.WorkPlan"
+  - "A.15.2:7b — Common Anti-Patterns and How to Avoid Them"
+line_start: 20397
+line_end: 20405
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.3"
+  - "A.15.4"
+  - "A.2.1"
+  - "A.20"
+  - "A.21"
+  - "B.3"
+  - "E.17"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.RoleAssignment"
+  - "U.Work"
+keywords:
+  - "forecast"
+  - "intent"
+  - "plan"
+  - "schedule"
+---
+
+### A.15.2:7b - Common Anti-Patterns and How to Avoid Them
+
+- **Plan-as-actual.** Do not treat a Gantt bar, Kanban ticket, shift rota, or calendar booking as performed work; create or cite the `U.Work` occurrence when work happens.
+- **Workflow-as-schedule.** Do not treat a method description or flowchart as a plan; make a `U.WorkPlan` only when intended windows, constraints, role requirements, and baselines are live.
+- **Assignment-by-plan.** Do not treat an intended performer in the plan as a valid `U.RoleAssignment` for execution; validate assignment at run time.
+- **Budget-as-cost.** Do not book planned budgets as actual resource use; actuals belong to `U.Work`.
+- **Plan-shape overreach.** Do not force performed work to match plan decomposition; use fulfilment and variance relations.
+- **Hook-as-claim.** Do not treat evidence-reference hooks, gate-preparation notes, or source-currentness requests as evidence, gate passage, assurance, or release permission.
+

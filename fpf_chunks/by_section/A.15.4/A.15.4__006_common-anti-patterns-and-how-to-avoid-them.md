@@ -6,12 +6,12 @@ section_id: "A.15.4:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 20837
-line_end: 20840
+line_start: 21158
+line_end: 21161
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,5 +45,5 @@ keywords:
 
 ### A.15.4:5 - Common Anti-Patterns and How to Avoid Them
 
-- **Authority-looking case as source, work overread, role overread, or status overread.** Do not treat a dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain as approval, permission, gate passage, role currentness, status currentness, work occurrence, evidence, or assurance by appearance. First name the live work claim, reliance claim, work-relevant P2W claim, or P2W chain position, then recover the governing FPF pattern and exact project-side FPF kind and reference that actually carry the requested approval, permission, status, evidence, gate, assurance, or work-occurrence claim or effect, or block only that unsupported reliance.
+- **Appearance as source relation.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain is used as if presentation itself carried the work-relevant source relation. First name the live work claim, reliance claim, work-relevant P2W claim, or P2W chain position, then recover the pattern that governs the live claim or effect and exact project-side FPF kind and reference that carry the requested claim or effect. If that source is missing, lower only the unsupported reliance.
 

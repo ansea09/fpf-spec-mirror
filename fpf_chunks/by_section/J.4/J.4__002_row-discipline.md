@@ -6,12 +6,12 @@ section_id: "J.4:1"
 section_title: "Row Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/J.4/J.4__002_row-discipline.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "J.4 — First Practical Entry Neighborhood Index"
   - "J.4:1 — Row Discipline"
-line_start: 82105
-line_end: 82116
+line_start: 82611
+line_end: 82622
 dependencies:
 keywords:
 ---

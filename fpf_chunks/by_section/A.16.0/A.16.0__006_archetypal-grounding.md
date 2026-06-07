@@ -6,12 +6,12 @@ section_id: "A.16.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__006_archetypal-grounding.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:5 — Archetypal Grounding"
-line_start: 21363
-line_end: 21369
+line_start: 21712
+line_end: 21718
 dependencies:
   - "A.16"
   - "A.16.1"

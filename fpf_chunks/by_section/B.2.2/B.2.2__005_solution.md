@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__005_solution.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "B.2.2 — Meta-System Transition (MST)"
   - "B.2.2:4 — Solution"
-line_start: 30533
-line_end: 30558
+line_start: 30882
+line_end: 30907
 dependencies:
   - "A.1"
   - "B.2"

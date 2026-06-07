@@ -6,12 +6,12 @@ section_id: "A.16:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__010_consequences.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:9 — Consequences"
-line_start: 20985
-line_end: 20987
+line_start: 21334
+line_end: 21336
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"

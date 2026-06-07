@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `ec66cbef9f337bca279d86e825db0947f90e2598`
+Commit SHA: `18497f0808242ab7c1a31cb5c94898e9f6b6879d`
 
 Chunking method: `pattern-aware`
 
-Patterns: `236`
+Patterns: `237`
 
 ## Patterns
 
@@ -203,6 +203,7 @@ Patterns: `236`
 - [E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it](by_pattern/E.17.AUD.LHR.md)
 - [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern](by_pattern/E.17.AUD.OOTD.md)
 - [E.18 — Transduction Graph Architecture (E.TGA)](by_pattern/E.18.md)
+- [E.18.1 — Principles-to-Work Transduction Path](by_pattern/E.18.1.md)
 - [E.19 — Pattern Quality Gates: Review and Refresh Profiles](by_pattern/E.19.md)
 - [E.20 — Mechanism Introduction Protocol](by_pattern/E.20.md)
 - [E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace](by_pattern/E.21.md)

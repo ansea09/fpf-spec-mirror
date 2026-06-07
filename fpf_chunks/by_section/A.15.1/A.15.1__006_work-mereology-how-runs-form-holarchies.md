@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how runs form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-runs-form-holarchies.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:5 — Work mereology (how runs form holarchies)"
-line_start: 19737
-line_end: 19795
+line_start: 19898
+line_end: 19956
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,23 +43,23 @@ keywords:
 
 ### A.15.1:5 - Work mereology (how runs form holarchies)
 
-We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its execution anchors (spec used, performer, parameterization). This avoids double‑counting and keeps aggregation sound. FPF adapts insights from BORO/constructive ontologies to Work while staying practical.
+We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its execution anchors (spec used, performer, parameterization). This avoids double-counting and keeps aggregation sound. FPF adapts insights from BORO and constructive ontologies to Work while staying practical.
 
 #### A.15.1:5.1 - Parts and wholes of Work (design‑neutral, run‑time facts)
 
 * **Temporal‑part (`TemporalPartOf_work`).** A proper **time‑slice** of a Work (e.g., the first 10 minutes of a 2‑hour run). Useful for monitoring and SLAs.
 * **Episode‑part (`EpisodeOf_work`).** A **resumption fragment** after an interruption (same run identity if policy deems it one episode; see 5.5).
-* **Operational‑part (`OperationalPartOf_work`).** A **sub‑run** that enacts a **factor** of the Method/Spec (e.g., “incision” run within “appendectomy” run), possibly **overlapping** with others in time.
+* **Operational-part (OperationalPartOf_work).** A **sub-run** that enacts a **factor** of the Method or specification, for example, an incision run within an appendectomy run, possibly **overlapping** with others in time.
 * **Parallel‑part (`ConcurrentPartOf_work`).** Two sub‑runs that **overlap** in their windows, coordinated by the same higher‑level run.
 
 **Didactic rule:** **Method composition ≠ proof of Work decomposition.** Sub‑runs often map to method factors, but retries, batching, pipelining, and failures make the mapping non‑isomorphic.
 
 #### A.15.1:5.2 - Key relations among Work
 
-* **`precedes/happensBefore`** — strict partial order on Work windows.
+* **`precedes` or `happensBefore`** — strict partial order on Work windows.
 * **`overlaps`** — intervals intersect but neither contains the other.
-* **`contains/within`** — one Work’s window contains another’s.
-* **`causedBy/causes`** — pragmatic causal links (e.g., a rework caused by a failed inspection run).
+* **`contains` or `within`** — one Work's window contains another's.
+* **`causedBy` or `causes`** — pragmatic causal links (e.g., a rework caused by a failed inspection run).
 * **`retryOf`** — a new Work instance re‑attempting the same MethodDescription with revised parameters.
 * **`resumptionOf`** — a Work episode that **continues** an interrupted run (policy decides identity; see 5.5).
 
@@ -72,7 +72,7 @@ These relations are **run‑time facts**, not design assumptions.
   *Properties:* idempotent, commutative, monotone under set inclusion.
 
 * **Resource aggregation — `Γ_work(S)`**
-  For a set `S` of Work parts, returns the **aggregated resource ledger** (materials, energy, time, money) with de‑duplication rules for shared/overlapped parts (context‑declared).
+  For a set `S` of Work parts, returns the **aggregated resource ledger** (materials, energy, time, money) with de-duplication rules for shared and overlapped parts (context-declared).
   *Properties:* additive on **disjoint** parts; requires **overlap policy** otherwise (e.g., attribute costs to the parent once, not to each child).
 
 **Manager’s tip:** Pick the coverage operator that matches your KPI: **union** for machine utilization; **hull** for calendar elapsed; never mix silently.
@@ -98,5 +98,5 @@ If any of these differ (or the context declares equivalence absent), they are **
 
 #### A.15.1:5.6 - Compositionality of effects (Δ)
 
-For any Work with parts, the **effect of the whole** must be the **rules‑declared composition** of the effects of its parts plus any declared overheads/residuals. Composition must align with the overlap rules used by `Γ_work` (e.g., no double‑count of shared fixed costs, and consistent attribution of variable deltas).
+For any Work with parts, the **effect of the whole** must be the **rules-declared composition** of the effects of its parts plus any declared overheads and residuals. Composition must align with the overlap rules used by `Γ_work` (e.g., no double-count of shared fixed costs, and consistent attribution of variable deltas).
 

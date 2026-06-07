@@ -6,12 +6,12 @@ section_id: "G.6:7"
 section_title: "Conformance Checklist (normative) — CC‑G6"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__008_conformance-checklist-normative-cc-g6.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
   - "G.6:7 — Conformance Checklist (normative) — CC‑G6"
-line_start: 78750
-line_end: 78770
+line_start: 79256
+line_end: 79276
 dependencies:
   - "A.10"
   - "A.21"

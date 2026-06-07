@@ -6,12 +6,12 @@ section_id: "A.11:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__002_context.md"
-commit_sha: "ec66cbef9f337bca279d86e825db0947f90e2598"
+commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:1 — Context"
-line_start: 18610
-line_end: 18613
+line_start: 18715
+line_end: 18718
 dependencies:
   - "A.11"
   - "U.Type"
